@@ -1,0 +1,11 @@
+{
+    "title": "Machine Learning Meets Mental Training -- A Proof of Concept Applied to Memory Sports. (arXiv:2307.08712v1 [cs.LG])",
+    "abstract": "This work aims to combine these two fields together by presenting a practical implementation of machine learning to the particular form of mental training that is the art of memory, taken in its competitive version called \"Memory Sports\". Such a fusion, on the one hand, strives to raise awareness about both realms, while on the other it seeks to encourage research in this mixed field as a way to, ultimately, drive forward the development of this seemingly underestimated sport.",
+    "link": "http://arxiv.org/abs/2307.08712",
+    "context": "Title: Machine Learning Meets Mental Training -- A Proof of Concept Applied to Memory Sports. (arXiv:2307.08712v1 [cs.LG])\nAbstract: This work aims to combine these two fields together by presenting a practical implementation of machine learning to the particular form of mental training that is the art of memory, taken in its competitive version called \"Memory Sports\". Such a fusion, on the one hand, strives to raise awareness about both realms, while on the other it seeks to encourage research in this mixed field as a way to, ultimately, drive forward the development of this seemingly underestimated sport.",
+    "path": "papers/23/07/2307.08712.json",
+    "total_tokens": 614,
+    "translated_title": "机器学习遇上心理训练 - 应用于记忆运动的概念证明",
+    "translated_abstract": "本文旨在通过展示机器学习在记忆艺术的特殊形式（被称为“记忆运动”）的心理训练中的实际应用，将这两个领域结合在一起。这种融合一方面旨在提高对这两个领域的认识，另一方面也力图通过这一混合领域的研究来推动这个看似被低估的运动的发展。",
+    "tldr": "本文介绍了将机器学习与记忆运动的心理训练相结合的实际应用，旨在推动这个看似被低估的运动的发展。"
+}

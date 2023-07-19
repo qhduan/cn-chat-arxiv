@@ -1,0 +1,12 @@
+{
+    "title": "Derivation-Graph-Based Characterizations of Decidable Existential Rule Sets. (arXiv:2307.08481v2 [cs.LO] UPDATED)",
+    "abstract": "This paper establishes alternative characterizations of very expressive classes of existential rule sets with decidable query entailment. We consider the notable class of greedy bounded-treewidth sets (gbts) and a new, generalized variant, called weakly gbts (wgbts). Revisiting and building on the notion of derivation graphs, we define (weakly) cycle-free derivation graph sets ((w)cdgs) and employ elaborate proof-theoretic arguments to obtain that gbts and cdgs coincide, as do wgbts and wcdgs. These novel characterizations advance our analytic proof-theoretic understanding of existential rules and will likely be instrumental in practice.",
+    "link": "http://arxiv.org/abs/2307.08481",
+    "context": "Title: Derivation-Graph-Based Characterizations of Decidable Existential Rule Sets. (arXiv:2307.08481v2 [cs.LO] UPDATED)\nAbstract: This paper establishes alternative characterizations of very expressive classes of existential rule sets with decidable query entailment. We consider the notable class of greedy bounded-treewidth sets (gbts) and a new, generalized variant, called weakly gbts (wgbts). Revisiting and building on the notion of derivation graphs, we define (weakly) cycle-free derivation graph sets ((w)cdgs) and employ elaborate proof-theoretic arguments to obtain that gbts and cdgs coincide, as do wgbts and wcdgs. These novel characterizations advance our analytic proof-theoretic understanding of existential rules and will likely be instrumental in practice.",
+    "path": "papers/23/07/2307.08481.json",
+    "total_tokens": 756,
+    "translated_title": "基于导出图的可判定存在规则集的特征化",
+    "translated_abstract": "本文建立了一种非常表达性的存在规则集的替代特征化方法，这些规则集具有可判定的查询包含关系。我们考虑了一类显著的贪婪有界宽度集合(gbts)及其一种新的广义变种，称为弱gbts(wgbts)。通过重新审视和构建导出图的概念，我们定义了（弱）无回路导出图集合（(w)cdgs），并运用详细的证明论证方法得出结论：gbts和cdgs相等，wgbts和wcdgs也相等。这些新颖的特征化方法推动了对存在规则的分析证明论的理解，并有望在实践中发挥重要作用。",
+    "tldr": "本文通过定义导出图和无回路导出图的概念，建立了一种特征化方法，使得贪婪有界宽度集合和无回路导出图集合相等，从而提高了我们对存在规则的分析证明论的理解。",
+    "en_tdlr": "This paper establishes alternative characterizations of very expressive classes of existential rule sets with decidable query entailment by defining derivation graphs and cycle-free derivation graphs, advancing our analytic proof-theoretic understanding of existential rules."
+}

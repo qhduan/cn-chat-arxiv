@@ -1,0 +1,11 @@
+{
+    "title": "AI-assisted Improved Service Provisioning for Low-latency XR over 5G NR. (arXiv:2307.08987v1 [cs.NI])",
+    "abstract": "Extended Reality (XR) is one of the most important 5G/6G media applications that will fundamentally transform human interactions. However, ensuring low latency, high data rate, and reliability to support XR services poses significant challenges. This letter presents a novel AI-assisted service provisioning scheme that leverages predicted frames for processing rather than relying solely on actual frames. This method virtually increases the network delay budget and consequently improves service provisioning, albeit at the expense of minor prediction errors. The proposed scheme is validated by extensive simulations demonstrating a multi-fold increase in supported XR users and also provides crucial network design insights.",
+    "link": "http://arxiv.org/abs/2307.08987",
+    "context": "Title: AI-assisted Improved Service Provisioning for Low-latency XR over 5G NR. (arXiv:2307.08987v1 [cs.NI])\nAbstract: Extended Reality (XR) is one of the most important 5G/6G media applications that will fundamentally transform human interactions. However, ensuring low latency, high data rate, and reliability to support XR services poses significant challenges. This letter presents a novel AI-assisted service provisioning scheme that leverages predicted frames for processing rather than relying solely on actual frames. This method virtually increases the network delay budget and consequently improves service provisioning, albeit at the expense of minor prediction errors. The proposed scheme is validated by extensive simulations demonstrating a multi-fold increase in supported XR users and also provides crucial network design insights.",
+    "path": "papers/23/07/2307.08987.json",
+    "total_tokens": 773,
+    "translated_title": "基于AI辅助的5G NR下低延迟XR服务提供改进",
+    "translated_abstract": "扩展现实（XR）是5G/6G媒体应用中最重要的之一，将从根本上改变人类的互动方式。然而，确保低延迟、高数据速率和可靠性以支持XR服务提出了重大挑战。该文提出了一种新颖的AI辅助服务提供方案，它利用预测帧进行处理，而不仅仅依赖实际帧。该方法虚拟增加了网络延迟预算，从而改善了服务提供，尽管会产生一些预测错误。通过大量的模拟验证了所提出的方案，在支持XR用户方面实现了多倍增加，并提供了重要的网络设计见解。",
+    "tldr": "该论文提出了一种基于AI辅助的5G NR下低延迟XR服务提供方案，通过利用预测帧进行处理而非仅仅依赖实际帧，实现了对XR服务的改进和多倍增加支持的效果，并提供了关键的网络设计见解。"
+}

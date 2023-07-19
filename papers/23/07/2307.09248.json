@@ -1,0 +1,12 @@
+{
+    "title": "Application of BERT in Wind Power Forecasting-Teletraan's Solution in Baidu KDD Cup 2022. (arXiv:2307.09248v1 [cs.LG])",
+    "abstract": "Nowadays, wind energy has drawn increasing attention as its important role in carbon neutrality and sustainable development. When wind power is integrated into the power grid, precise forecasting is necessary for the sustainability and security of the system. However, the unpredictable nature and long sequence prediction make it especially challenging. In this technical report, we introduce the BERT model applied for Baidu KDD Cup 2022, and the daily fluctuation is added by post-processing to make the predicted results in line with daily periodicity. Our solution achieves 3rd place of 2490 teams. The code is released athttps://github.com/LongxingTan/KDD2022-Baidu",
+    "link": "http://arxiv.org/abs/2307.09248",
+    "context": "Title: Application of BERT in Wind Power Forecasting-Teletraan's Solution in Baidu KDD Cup 2022. (arXiv:2307.09248v1 [cs.LG])\nAbstract: Nowadays, wind energy has drawn increasing attention as its important role in carbon neutrality and sustainable development. When wind power is integrated into the power grid, precise forecasting is necessary for the sustainability and security of the system. However, the unpredictable nature and long sequence prediction make it especially challenging. In this technical report, we introduce the BERT model applied for Baidu KDD Cup 2022, and the daily fluctuation is added by post-processing to make the predicted results in line with daily periodicity. Our solution achieves 3rd place of 2490 teams. The code is released athttps://github.com/LongxingTan/KDD2022-Baidu",
+    "path": "papers/23/07/2307.09248.json",
+    "total_tokens": 779,
+    "translated_title": "BERT在风力发电预测中的应用-百度KDD Cup 2022中Teletraan的解决方案",
+    "translated_abstract": "如今，风能因其在碳中和和可持续发展中的重要作用而受到越来越多的关注。当风能集成到电力网络中时，准确的预测对系统的可持续性和安全性至关重要。然而，不可预测的性质和长序列预测使其特别具有挑战性。在本技术报告中，我们介绍了BERT模型在百度KDD Cup 2022中的应用，通过后处理添加了日波动性，使预测结果符合每日周期性。我们的解决方案在2490支队伍中获得了第三名。代码已经在https://github.com/LongxingTan/KDD2022-Baidu发布。",
+    "tldr": "该论文提出了一种在风力发电预测中应用BERT模型的解决方案，并通过后处理添加日波动性使预测结果更符合每日周期性。该解决方案在百度KDD Cup 2022中取得了第三名。",
+    "en_tdlr": "This paper presents a solution that applies the BERT model in wind power forecasting, with the addition of daily fluctuation using post-processing to improve the alignment with daily periodicity. The solution achieved 3rd place in the Baidu KDD Cup 2022 competition."
+}

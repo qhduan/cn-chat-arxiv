@@ -1,0 +1,11 @@
+{
+    "title": "A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])",
+    "abstract": "The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.",
+    "link": "http://arxiv.org/abs/2307.08861",
+    "context": "Title: A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])\nAbstract: The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.",
+    "path": "papers/23/07/2307.08861.json",
+    "total_tokens": 615,
+    "translated_title": "一项放贷法律：一个澄清",
+    "translated_abstract": "一些国家的国家法律禁止以高利息贷款。大多数国家限制有效利率（而不仅仅是名义利率），其中包括所有可能与贷款相关的佣金和费用。在这种情况下，对于现金流没有内部回报率的贷款，限制不明确。在本文中，我们展示了如何将此限制扩展到所有贷款。我们证明了存在一个独特的扩展，与一组自然公理一致。",
+    "tldr": "本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。"
+}

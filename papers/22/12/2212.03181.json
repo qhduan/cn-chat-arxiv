@@ -1,0 +1,12 @@
+{
+    "title": "Funnel-based Reward Shaping for Signal Temporal Logic Tasks in Reinforcement Learning. (arXiv:2212.03181v2 [eess.SY] UPDATED)",
+    "abstract": "Signal Temporal Logic (STL) is a powerful framework for describing the complex temporal and logical behaviour of the dynamical system. Numerous studies have attempted to employ reinforcement learning to learn a controller that enforces STL specifications; however, they have been unable to effectively tackle the challenges of ensuring robust satisfaction in continuous state space and maintaining tractability. In this paper, leveraging the concept of funnel functions, we propose a tractable reinforcement learning algorithm to learn a time-dependent policy for robust satisfaction of STL specification in continuous state space. We demonstrate the utility of our approach on several STL tasks using different environments.",
+    "link": "http://arxiv.org/abs/2212.03181",
+    "context": "Title: Funnel-based Reward Shaping for Signal Temporal Logic Tasks in Reinforcement Learning. (arXiv:2212.03181v2 [eess.SY] UPDATED)\nAbstract: Signal Temporal Logic (STL) is a powerful framework for describing the complex temporal and logical behaviour of the dynamical system. Numerous studies have attempted to employ reinforcement learning to learn a controller that enforces STL specifications; however, they have been unable to effectively tackle the challenges of ensuring robust satisfaction in continuous state space and maintaining tractability. In this paper, leveraging the concept of funnel functions, we propose a tractable reinforcement learning algorithm to learn a time-dependent policy for robust satisfaction of STL specification in continuous state space. We demonstrate the utility of our approach on several STL tasks using different environments.",
+    "path": "papers/22/12/2212.03181.json",
+    "total_tokens": 735,
+    "translated_title": "基于漏斗的强化学习中信号时态逻辑任务的奖励塑形",
+    "translated_abstract": "信号时态逻辑（STL）是描述动态系统复杂时态和逻辑行为的强大框架。许多研究尝试利用强化学习来学习强制执行STL规范的控制器，然而，他们无法有效解决在连续状态空间中确保鲁棒满足和保持可控性的挑战。本文借助漏斗函数的概念，提出了一种可控的强化学习算法，用于学习连续状态空间中STL规范的鲁棒满足的时间依赖策略。我们在不同环境下演示了我们方法的实用性。",
+    "tldr": "本文提出了一种基于漏斗函数的强化学习算法，用于在连续状态空间中学习鲁棒满足信号时态逻辑规范的时间依赖策略。",
+    "en_tdlr": "This paper proposes a tractable reinforcement learning algorithm based on funnel functions to learn a time-dependent policy for robust satisfaction of Signal Temporal Logic (STL) specification in continuous state space."
+}

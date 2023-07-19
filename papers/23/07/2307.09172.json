@@ -1,0 +1,12 @@
+{
+    "title": "Jean-Luc Picard at Touch\\'e 2023: Comparing Image Generation, Stance Detection and Feature Matching for Image Retrieval for Arguments. (arXiv:2307.09172v1 [cs.IR])",
+    "abstract": "Participating in the shared task \"Image Retrieval for arguments\", we used different pipelines for image retrieval containing Image Generation, Stance Detection, Preselection and Feature Matching. We submitted four different runs with different pipeline layout and compare them to given baseline. Our pipelines perform similarly to the baseline.",
+    "link": "http://arxiv.org/abs/2307.09172",
+    "context": "Title: Jean-Luc Picard at Touch\\'e 2023: Comparing Image Generation, Stance Detection and Feature Matching for Image Retrieval for Arguments. (arXiv:2307.09172v1 [cs.IR])\nAbstract: Participating in the shared task \"Image Retrieval for arguments\", we used different pipelines for image retrieval containing Image Generation, Stance Detection, Preselection and Feature Matching. We submitted four different runs with different pipeline layout and compare them to given baseline. Our pipelines perform similarly to the baseline.",
+    "path": "papers/23/07/2307.09172.json",
+    "total_tokens": 573,
+    "translated_title": "2023年，让·吕克·皮卡尔在Touch'e的比较：用于论据图像检索的图像生成、立场检测和特征匹配",
+    "translated_abstract": "在参与“论据图像检索”的共享任务中，我们使用了包含图像生成、立场检测、预选和特征匹配的不同流程用于图像检索。我们提交了四个不同的运行结果，并将其与给定的基准进行比较。我们的流程与基准相似。",
+    "tldr": "该论文研究了用于论据图像检索的图像生成、立场检测和特征匹配的不同流程，结果表明这些流程与基准相似。",
+    "en_tdlr": "This paper examines different pipelines for image retrieval in the context of argumentation, including image generation, stance detection, and feature matching. The results show that these pipelines perform similarly to the baseline."
+}

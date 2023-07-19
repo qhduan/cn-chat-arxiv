@@ -1,0 +1,12 @@
+{
+    "title": "OxfordVGG Submission to the EGO4D AV Transcription Challenge. (arXiv:2307.09006v1 [cs.SD])",
+    "abstract": "This report presents the technical details of our submission on the EGO4D Audio-Visual (AV) Automatic Speech Recognition Challenge 2023 from the OxfordVGG team. We present WhisperX, a system for efficient speech transcription of long-form audio with word-level time alignment, along with two text normalisers which are publicly available. Our final submission obtained 56.0% of the Word Error Rate (WER) on the challenge test set, ranked 1st on the leaderboard. All baseline codes and models are available on https://github.com/m-bain/whisperX.",
+    "link": "http://arxiv.org/abs/2307.09006",
+    "context": "Title: OxfordVGG Submission to the EGO4D AV Transcription Challenge. (arXiv:2307.09006v1 [cs.SD])\nAbstract: This report presents the technical details of our submission on the EGO4D Audio-Visual (AV) Automatic Speech Recognition Challenge 2023 from the OxfordVGG team. We present WhisperX, a system for efficient speech transcription of long-form audio with word-level time alignment, along with two text normalisers which are publicly available. Our final submission obtained 56.0% of the Word Error Rate (WER) on the challenge test set, ranked 1st on the leaderboard. All baseline codes and models are available on https://github.com/m-bain/whisperX.",
+    "path": "papers/23/07/2307.09006.json",
+    "total_tokens": 689,
+    "translated_title": "OxfordVGG对EGO4D AV转录挑战的提交",
+    "translated_abstract": "本报告介绍了我们在OxfordVGG团队对EGO4D音频-视觉（AV）自动语音识别挑战2023年上的提交的技术细节。我们提出了WhisperX，一个用于长形音频的高效语音转录系统，具有单词级时间对齐，以及两个公开可用的文本规范化工具。我们的最终提交在挑战测试集上获得了56.0％的词错误率（WER），在排行榜上排名第1。所有基准代码和模型都可以在https://github.com/m-bain/whisperX上找到。",
+    "tldr": "OxfordVGG团队的WhisperX系统在EGO4D AV转录挑战中以56.0％的词错误率（WER）排名第1，并提供了两个公开可用的文本规范化工具。",
+    "en_tdlr": "The OxfordVGG team's WhisperX system achieved a Word Error Rate (WER) of 56.0% and ranked 1st in the EGO4D AV Transcription Challenge. They also provided two publicly available text normalizers."
+}

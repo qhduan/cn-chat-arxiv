@@ -1,0 +1,11 @@
+{
+    "title": "Imposing Consistency Properties on Blackbox Systems with Applications to SVD-Based Recommender Systems. (arXiv:2307.08760v1 [cs.IR])",
+    "abstract": "In this paper we discuss pre- and post-processing methods to induce desired consistency and/or invariance properties in blackbox systems, e.g., AI-based. We demonstrate our approach in the context of blackbox SVD-based matrix-completion methods commonly used in recommender system (RS) applications. We provide empirical results showing that enforcement of unit-consistency and shift-consistency, which have provable RS-relevant properties relating to robustness and fairness, also lead to improved performance according to generic RMSE and MAE performance metrics, irrespective of the initial chosen hyperparameter.",
+    "link": "http://arxiv.org/abs/2307.08760",
+    "context": "Title: Imposing Consistency Properties on Blackbox Systems with Applications to SVD-Based Recommender Systems. (arXiv:2307.08760v1 [cs.IR])\nAbstract: In this paper we discuss pre- and post-processing methods to induce desired consistency and/or invariance properties in blackbox systems, e.g., AI-based. We demonstrate our approach in the context of blackbox SVD-based matrix-completion methods commonly used in recommender system (RS) applications. We provide empirical results showing that enforcement of unit-consistency and shift-consistency, which have provable RS-relevant properties relating to robustness and fairness, also lead to improved performance according to generic RMSE and MAE performance metrics, irrespective of the initial chosen hyperparameter.",
+    "path": "papers/23/07/2307.08760.json",
+    "total_tokens": 736,
+    "translated_title": "对黑盒系统施加一致性属性，并应用于基于SVD的推荐系统",
+    "translated_abstract": "本文讨论了在黑盒系统（例如基于人工智能的系统）中诱导所需的一致性和/或不变性属性的预处理和后处理方法。我们在常用于推荐系统应用中的黑盒基于SVD的矩阵补全方法的背景下演示了我们的方法。我们提供了实证结果，显示了单位一致性和平移一致性的强制执行，这些属性与推荐系统的鲁棒性和公平性有关，同时也通过通用的RMSE和MAE性能指标提高了性能，不受初始超参数的影响。",
+    "tldr": "本文讨论了在黑盒系统中施加一致性属性的方法，并以基于SVD的推荐系统为例进行了实验。实证结果显示，单位一致性和平移一致性的强制执行不仅与推荐系统的鲁棒性和公平性有关，而且还改善了性能。"
+}

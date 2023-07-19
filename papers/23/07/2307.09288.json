@@ -1,0 +1,12 @@
+{
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models. (arXiv:2307.09288v1 [cs.CL])",
+    "abstract": "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.",
+    "link": "http://arxiv.org/abs/2307.09288",
+    "context": "Title: Llama 2: Open Foundation and Fine-Tuned Chat Models. (arXiv:2307.09288v1 [cs.CL])\nAbstract: In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.",
+    "path": "papers/23/07/2307.09288.json",
+    "total_tokens": 705,
+    "translated_title": "Llama 2: 开放基础和优化聊天模型",
+    "translated_abstract": "在这项工作中，我们开发并发布了Llama 2，一个包含预训练和优化的大型语言模型（LLM），其规模从70亿到700亿参数不等。我们的优化LLM，称为Llama 2-Chat，在对话使用案例中表现优于开源聊天模型。根据我们对有用性和安全性的人工评估结果，它们可能是闭源模型的合适替代品。我们详细描述了我们在Llama 2-Chat的优化和安全性改进方面的方法，以便让社区能够在我们的工作基础上构建并为LLM的负责任发展做出贡献。",
+    "tldr": "Llama 2是一个优化的聊天模型，通过fine-tuned技术和安全改进，表现优于开源模型，并可作为闭源模型的替代选择。",
+    "en_tdlr": "Llama 2 is an optimized chat model that outperforms open-source models and may serve as a substitute for closed-source models, based on human evaluations for helpfulness and safety."
+}

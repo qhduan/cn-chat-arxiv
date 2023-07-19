@@ -1,0 +1,12 @@
+{
+    "title": "Automatic Differentiation for Inverse Problems with Applications in Quantum Transport. (arXiv:2307.09311v1 [cs.LG])",
+    "abstract": "A neural solver and differentiable simulation of the quantum transmitting boundary model is presented for the inverse quantum transport problem. The neural solver is used to engineer continuous transmission properties and the differentiable simulation is used to engineer current-voltage characteristics.",
+    "link": "http://arxiv.org/abs/2307.09311",
+    "context": "Title: Automatic Differentiation for Inverse Problems with Applications in Quantum Transport. (arXiv:2307.09311v1 [cs.LG])\nAbstract: A neural solver and differentiable simulation of the quantum transmitting boundary model is presented for the inverse quantum transport problem. The neural solver is used to engineer continuous transmission properties and the differentiable simulation is used to engineer current-voltage characteristics.",
+    "path": "papers/23/07/2307.09311.json",
+    "total_tokens": 506,
+    "translated_title": "带有应用于量子传输的反问题的自动微分",
+    "translated_abstract": "本文提出了一种神经求解器和可导仿真的量子传输边界模型，用于反向量子传输问题。神经求解器用于设计连续传输特性，可导仿真用于设计电流-电压特性。",
+    "tldr": "本文提出了一种自动微分方法，通过神经求解器和可导仿真技术，实现对反向量子传输问题的求解。通过该方法，可以设计连续传输特性和电流-电压特性。",
+    "en_tdlr": "This paper proposes an automatic differentiation approach for solving inverse quantum transport problems using a neural solver and differentiable simulation. It enables the design of continuous transmission properties and current-voltage characteristics."
+}

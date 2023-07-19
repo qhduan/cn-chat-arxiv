@@ -1,0 +1,12 @@
+{
+    "title": "A Covariate-Adjusted Homogeneity Test with Application to Facial Recognition Accuracy Assessment. (arXiv:2307.08846v1 [stat.AP])",
+    "abstract": "Ordinal scores occur commonly in medical imaging studies and in black-box forensic studies \\citep{Phillips:2018}. To assess the accuracy of raters in the studies, one needs to estimate the receiver operating characteristic (ROC) curve while accounting for covariates of raters. In this paper, we propose a covariate-adjusted homogeneity test to determine differences in accuracy among multiple rater groups. We derived the theoretical results of the proposed test and conducted extensive simulation studies to evaluate the finite sample performance of the proposed test. Our proposed test is applied to a face recognition study to identify statistically significant differences among five participant groups.",
+    "link": "http://arxiv.org/abs/2307.08846",
+    "context": "Title: A Covariate-Adjusted Homogeneity Test with Application to Facial Recognition Accuracy Assessment. (arXiv:2307.08846v1 [stat.AP])\nAbstract: Ordinal scores occur commonly in medical imaging studies and in black-box forensic studies \\citep{Phillips:2018}. To assess the accuracy of raters in the studies, one needs to estimate the receiver operating characteristic (ROC) curve while accounting for covariates of raters. In this paper, we propose a covariate-adjusted homogeneity test to determine differences in accuracy among multiple rater groups. We derived the theoretical results of the proposed test and conducted extensive simulation studies to evaluate the finite sample performance of the proposed test. Our proposed test is applied to a face recognition study to identify statistically significant differences among five participant groups.",
+    "path": "papers/23/07/2307.08846.json",
+    "total_tokens": 779,
+    "translated_title": "考虑协变量的同质性测试及其在人脸识别准确性评估中的应用",
+    "translated_abstract": "在医学影像研究和黑盒鉴定研究中，常常出现序数评分。为了评估研究中的评分员准确性，需要在估计接收器操作特征曲线（ROC曲线）时考虑评分员的协变量。本文提出了一种考虑协变量的同质性测试方法，用于确定多个评分员组间准确性的差异。我们推导了所提出测试的理论结果，并进行了大量模拟研究，评估了所提出测试的有限样本性能。我们将所提出的测试应用于一个人脸识别研究，以确定五个参与者组之间的统计显著差异。",
+    "tldr": "本文提出了一种考虑协变量的同质性测试方法，用于评估序数评分研究中评分员准确性的差异，并应用于人脸识别研究中，发现了五个参与者组之间的统计显著差异。",
+    "en_tdlr": "This paper proposes a covariate-adjusted homogeneity test for evaluating the differences in accuracy among raters in ordinal score studies, and applies it to a facial recognition study to identify statistically significant differences among five participant groups."
+}

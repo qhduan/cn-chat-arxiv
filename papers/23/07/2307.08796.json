@@ -1,0 +1,11 @@
+{
+    "title": "Classification with Incoherent Kernel Dictionary Learning. (arXiv:2307.08796v1 [cs.LG])",
+    "abstract": "In this paper we present a new classification method based on Dictionary Learning (DL). The main contribution consists of a kernel version of incoherent DL, derived from its standard linear counterpart. We also propose an improvement of the AK-SVD algorithm concerning the representation update. Our algorithms are tested on several popular databases of classification problems.",
+    "link": "http://arxiv.org/abs/2307.08796",
+    "context": "Title: Classification with Incoherent Kernel Dictionary Learning. (arXiv:2307.08796v1 [cs.LG])\nAbstract: In this paper we present a new classification method based on Dictionary Learning (DL). The main contribution consists of a kernel version of incoherent DL, derived from its standard linear counterpart. We also propose an improvement of the AK-SVD algorithm concerning the representation update. Our algorithms are tested on several popular databases of classification problems.",
+    "path": "papers/23/07/2307.08796.json",
+    "total_tokens": 563,
+    "translated_title": "基于非相干核字典学习的分类方法",
+    "translated_abstract": "本文提出了一种基于字典学习的新分类方法。主要贡献是通过对其标准线性对应物进行改进，提出了非相干字典学习的核版本。我们还对AK-SVD算法的表示更新进行了改进。我们的算法在多个常用的分类问题数据库上进行了测试。",
+    "tldr": "本文提出了一种基于非相干核字典学习的分类方法，通过改进标准线性对应物，实现了非相干字典学习的核版本，并对表示更新算法进行了改进。"
+}

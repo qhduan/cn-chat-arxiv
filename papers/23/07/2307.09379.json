@@ -1,0 +1,12 @@
+{
+    "title": "Batched Predictors Generalize within Distribution. (arXiv:2307.09379v1 [stat.ML])",
+    "abstract": "We study the generalization properties of batched predictors, i.e., models tasked with predicting the mean label of a small set (or batch) of examples. The batched prediction paradigm is particularly relevant for models deployed to determine the quality of a group of compounds in preparation for offline testing. By utilizing a suitable generalization of the Rademacher complexity, we prove that batched predictors come with exponentially stronger generalization guarantees as compared to the standard per-sample approach. Surprisingly, the proposed bound holds independently of overparametrization. Our theoretical insights are validated experimentally for various tasks, architectures, and applications.",
+    "link": "http://arxiv.org/abs/2307.09379",
+    "context": "Title: Batched Predictors Generalize within Distribution. (arXiv:2307.09379v1 [stat.ML])\nAbstract: We study the generalization properties of batched predictors, i.e., models tasked with predicting the mean label of a small set (or batch) of examples. The batched prediction paradigm is particularly relevant for models deployed to determine the quality of a group of compounds in preparation for offline testing. By utilizing a suitable generalization of the Rademacher complexity, we prove that batched predictors come with exponentially stronger generalization guarantees as compared to the standard per-sample approach. Surprisingly, the proposed bound holds independently of overparametrization. Our theoretical insights are validated experimentally for various tasks, architectures, and applications.",
+    "path": "papers/23/07/2307.09379.json",
+    "total_tokens": 660,
+    "translated_title": "批量预测器在分布内具有广义性。",
+    "translated_abstract": "我们研究了批量预测器的广义性质，即任务是预测一小组（或批量）示例的均值标签的模型。批量预测范式对于部署在离线测试前确定一组化合物的质量的模型尤为相关。通过利用适当的Rademacher复杂性的广义化，我们证明批量预测器具有指数级更强的泛化保证，与标准的逐个样本方法相比。令人惊讶的是，该提议的上界独立于过参数化。我们的理论洞察力在各种任务、架构和应用中通过实验证实。",
+    "tldr": "批量预测器提供了指数级更强的泛化保证，可应用于离线测试前化合物质量的预测任务。",
+    "en_tdlr": "Batched predictors offer exponentially stronger generalization guarantees and can be applied to predict compound quality for offline testing."
+}

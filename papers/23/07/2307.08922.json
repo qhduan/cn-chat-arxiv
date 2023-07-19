@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models Perform Diagnostic Reasoning. (arXiv:2307.08922v1 [cs.CL])",
+    "abstract": "We explore the extension of chain-of-thought (CoT) prompting to medical reasoning for the task of automatic diagnosis. Motivated by doctors' underlying reasoning process, we present Diagnostic-Reasoning CoT (DR-CoT). Empirical results demonstrate that by simply prompting large language models trained only on general text corpus with two DR-CoT exemplars, the diagnostic accuracy improves by 15% comparing to standard prompting. Moreover, the gap reaches a pronounced 18% in out-domain settings. Our findings suggest expert-knowledge reasoning in large language models can be elicited through proper promptings.",
+    "link": "http://arxiv.org/abs/2307.08922",
+    "context": "Title: Large Language Models Perform Diagnostic Reasoning. (arXiv:2307.08922v1 [cs.CL])\nAbstract: We explore the extension of chain-of-thought (CoT) prompting to medical reasoning for the task of automatic diagnosis. Motivated by doctors' underlying reasoning process, we present Diagnostic-Reasoning CoT (DR-CoT). Empirical results demonstrate that by simply prompting large language models trained only on general text corpus with two DR-CoT exemplars, the diagnostic accuracy improves by 15% comparing to standard prompting. Moreover, the gap reaches a pronounced 18% in out-domain settings. Our findings suggest expert-knowledge reasoning in large language models can be elicited through proper promptings.",
+    "path": "papers/23/07/2307.08922.json",
+    "total_tokens": 792,
+    "translated_title": "大型语言模型进行诊断推理",
+    "translated_abstract": "我们探索了将思维链 (CoT) 提示扩展到医疗推理以进行自动诊断的任务。受医生潜在的推理过程的启发，我们提出了诊断推理 CoT (DR-CoT)。经验证实，仅通过用两个诊断推理 CoT 实例提示仅在一般文本语料库上训练的大型语言模型，诊断准确率比标准提示提高了15%。此外，在领域外的设置中，这一差距达到了显著的18%。我们的研究结果表明，通过适当的提示可以引发大型语言模型中的专家知识推理。",
+    "tldr": "本研究探索了大型语言模型在医学诊断中使用思维链提示的扩展。通过使用两个诊断推理 CoT 实例来提示大型语言模型，在一般任务中，我们发现诊断准确率提高了15%，在领域外的设置中，这一提升达到了18%。这些结果表明，在大型语言模型中，可以通过适当的提示引发专家知识推理。",
+    "en_tdlr": "This study explores the extension of large language models using chain-of-thought prompting in medical diagnosis. By prompting these models with diagnostic reasoning CoT examples, the study shows a 15% improvement in diagnostic accuracy and an 18% improvement in out-domain settings, suggesting that expert-knowledge reasoning can be elicited from large language models through proper promptings."
+}

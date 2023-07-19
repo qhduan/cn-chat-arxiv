@@ -1,0 +1,12 @@
+{
+    "title": "End-to-End Neural Network Training for Hyperbox-Based Classification. (arXiv:2307.09269v1 [cs.LG])",
+    "abstract": "Hyperbox-based classification has been seen as a promising technique in which decisions on the data are represented as a series of orthogonal, multidimensional boxes (i.e., hyperboxes) that are often interpretable and human-readable. However, existing methods are no longer capable of efficiently handling the increasing volume of data many application domains face nowadays. We address this gap by proposing a novel, fully differentiable framework for hyperbox-based classification via neural networks. In contrast to previous work, our hyperbox models can be efficiently trained in an end-to-end fashion, which leads to significantly reduced training times and superior classification results.",
+    "link": "http://arxiv.org/abs/2307.09269",
+    "context": "Title: End-to-End Neural Network Training for Hyperbox-Based Classification. (arXiv:2307.09269v1 [cs.LG])\nAbstract: Hyperbox-based classification has been seen as a promising technique in which decisions on the data are represented as a series of orthogonal, multidimensional boxes (i.e., hyperboxes) that are often interpretable and human-readable. However, existing methods are no longer capable of efficiently handling the increasing volume of data many application domains face nowadays. We address this gap by proposing a novel, fully differentiable framework for hyperbox-based classification via neural networks. In contrast to previous work, our hyperbox models can be efficiently trained in an end-to-end fashion, which leads to significantly reduced training times and superior classification results.",
+    "path": "papers/23/07/2307.09269.json",
+    "total_tokens": 744,
+    "translated_title": "基于超立方体的分类的端到端神经网络训练",
+    "translated_abstract": "基于超立方体的分类被认为是一种有希望的技术，其中对数据的决策被表示为一系列正交的多维立方体（即超立方体），这些立方体通常具有可解释性和易读性。然而，现有方法已经不再能够有效地处理现今许多应用领域面临的不断增加的数据量。我们通过提出一种新颖的通过神经网络进行基于超立方体分类的完全可微分框架来填补这一差距。与以往的工作不同，我们的超立方体模型可以以端到端的方式高效训练，从而大大减少训练时间并获得更优的分类结果。",
+    "tldr": "本论文提出了一种基于神经网络的端到端训练方法来处理基于超立方体的分类问题。与现有方法相比，该方法能够高效地训练超立方体模型，并大大减少训练时间，同时获得更优的分类结果。",
+    "en_tdlr": "This paper proposes an end-to-end training method using neural networks for hyperbox-based classification. Compared to existing methods, this approach can efficiently train hyperbox models, significantly reduce training time, and achieve superior classification results."
+}

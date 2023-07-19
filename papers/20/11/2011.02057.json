@@ -1,0 +1,12 @@
+{
+    "title": "Online Observer-Based Inverse Reinforcement Learning. (arXiv:2011.02057v3 [eess.SY] UPDATED)",
+    "abstract": "In this paper, a novel approach to the output-feedback inverse reinforcement learning (IRL) problem is developed by casting the IRL problem, for linear systems with quadratic cost functions, as a state estimation problem. Two observer-based techniques for IRL are developed, including a novel observer method that re-uses previous state estimates via history stacks. Theoretical guarantees for convergence and robustness are established under appropriate excitation conditions. Simulations demonstrate the performance of the developed observers and filters under noisy and noise-free measurements.",
+    "link": "http://arxiv.org/abs/2011.02057",
+    "context": "Title: Online Observer-Based Inverse Reinforcement Learning. (arXiv:2011.02057v3 [eess.SY] UPDATED)\nAbstract: In this paper, a novel approach to the output-feedback inverse reinforcement learning (IRL) problem is developed by casting the IRL problem, for linear systems with quadratic cost functions, as a state estimation problem. Two observer-based techniques for IRL are developed, including a novel observer method that re-uses previous state estimates via history stacks. Theoretical guarantees for convergence and robustness are established under appropriate excitation conditions. Simulations demonstrate the performance of the developed observers and filters under noisy and noise-free measurements.",
+    "path": "papers/20/11/2011.02057.json",
+    "total_tokens": 806,
+    "translated_title": "基于在线观测器的逆强化学习",
+    "translated_abstract": "本文提出了一种新的方法来解决线性系统二次成本函数下的输出反馈逆强化学习（IRL）问题，将IRL问题视为状态估计问题。我们开发了两种基于观测器的IRL技术，包括一种通过历史堆栈重复使用先前状态估计的新颖观测器方法。在适当的激励条件下，我们建立了收敛性和鲁棒性的理论保证。仿真实验证明了在有噪声和无噪声测量下开发的观测器和滤波器的性能。",
+    "tldr": "本文提出一种基于在线观测器的逆强化学习方法，将二次成本函数下的输出反馈逆强化学习问题转化为状态估计问题。通过开发两种基于观测器的技术，包括一种历史堆栈重复使用先前状态估计的新颖观测器方法，实现了收敛性和鲁棒性的理论保证，并通过仿真实验验证了在有噪声和无噪声测量情况下的性能。",
+    "en_tdlr": "This paper presents an online observer-based approach to solve the output-feedback inverse reinforcement learning problem with quadratic cost functions for linear systems. It transforms the problem into a state estimation problem and develops two observer-based techniques, including a novel method that re-uses previous state estimates via history stacks. Theoretical guarantees for convergence and robustness are established under appropriate excitation conditions, and simulations demonstrate the performance under noisy and noise-free measurements."
+}

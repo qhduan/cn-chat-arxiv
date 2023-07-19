@@ -1,0 +1,12 @@
+{
+    "title": "Anomaly Detection with Selective Dictionary Learning. (arXiv:2307.08807v1 [cs.LG])",
+    "abstract": "In this paper we present new methods of anomaly detection based on Dictionary Learning (DL) and Kernel Dictionary Learning (KDL). The main contribution consists in the adaption of known DL and KDL algorithms in the form of unsupervised methods, used for outlier detection. We propose a reduced kernel version (RKDL), which is useful for problems with large data sets, due to the large kernel matrix. We also improve the DL and RKDL methods by the use of a random selection of signals, which aims to eliminate the outliers from the training procedure. All our algorithms are introduced in an anomaly detection toolbox and are compared to standard benchmark results.",
+    "link": "http://arxiv.org/abs/2307.08807",
+    "context": "Title: Anomaly Detection with Selective Dictionary Learning. (arXiv:2307.08807v1 [cs.LG])\nAbstract: In this paper we present new methods of anomaly detection based on Dictionary Learning (DL) and Kernel Dictionary Learning (KDL). The main contribution consists in the adaption of known DL and KDL algorithms in the form of unsupervised methods, used for outlier detection. We propose a reduced kernel version (RKDL), which is useful for problems with large data sets, due to the large kernel matrix. We also improve the DL and RKDL methods by the use of a random selection of signals, which aims to eliminate the outliers from the training procedure. All our algorithms are introduced in an anomaly detection toolbox and are compared to standard benchmark results.",
+    "path": "papers/23/07/2307.08807.json",
+    "total_tokens": 795,
+    "translated_title": "基于选择性字典学习的异常检测方法",
+    "translated_abstract": "本文提出了一种基于字典学习（DL）和核字典学习（KDL）的异常检测新方法。主要贡献在于将已知的DL和KDL算法改进为无监督方法，用于离群点检测。我们提出了一种降维的核字典学习方法（RKDL），适用于具有大数据集的问题，避免了大核矩阵的计算。我们还通过随机选择信号的方法改进了DL和RKDL方法，旨在消除训练过程中的异常值。所有算法均被集成在一个异常检测工具箱中，并与标准基准结果进行了比较。",
+    "tldr": "该论文提出了基于选择性字典学习的新的异常检测方法，主要贡献在于将字典学习算法和核字典学习算法改进为无监督方法，并提出了一种适用于大数据集问题的降维核字典学习方法，同时通过随机选择信号的方法改进算法以消除训练过程中的异常值。所有算法均被整合在一个异常检测工具箱中，并与标准基准结果进行了比较。",
+    "en_tdlr": "This paper presents new methods of anomaly detection based on selective dictionary learning, improving existing algorithms and proposing a reduced kernel version. The algorithms are integrated into an anomaly detection toolbox and compared with standard benchmarks."
+}

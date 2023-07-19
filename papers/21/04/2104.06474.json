@@ -1,0 +1,12 @@
+{
+    "title": "On the Interpretability and Significance of Bias Metrics in Texts: a PMI-based Approach. (arXiv:2104.06474v2 [cs.CL] UPDATED)",
+    "abstract": "In recent years, word embeddings have been widely used to measure biases in texts. Even if they have proven to be effective in detecting a wide variety of biases, metrics based on word embeddings lack transparency and interpretability. We analyze an alternative PMI-based metric to quantify biases in texts. It can be expressed as a function of conditional probabilities, which provides a simple interpretation in terms of word co-occurrences. We also prove that it can be approximated by an odds ratio, which allows estimating confidence intervals and statistical significance of textual biases. This approach produces similar results to metrics based on word embeddings when capturing gender gaps of the real world embedded in large corpora.",
+    "link": "http://arxiv.org/abs/2104.06474",
+    "context": "Title: On the Interpretability and Significance of Bias Metrics in Texts: a PMI-based Approach. (arXiv:2104.06474v2 [cs.CL] UPDATED)\nAbstract: In recent years, word embeddings have been widely used to measure biases in texts. Even if they have proven to be effective in detecting a wide variety of biases, metrics based on word embeddings lack transparency and interpretability. We analyze an alternative PMI-based metric to quantify biases in texts. It can be expressed as a function of conditional probabilities, which provides a simple interpretation in terms of word co-occurrences. We also prove that it can be approximated by an odds ratio, which allows estimating confidence intervals and statistical significance of textual biases. This approach produces similar results to metrics based on word embeddings when capturing gender gaps of the real world embedded in large corpora.",
+    "path": "papers/21/04/2104.06474.json",
+    "total_tokens": 779,
+    "translated_title": "对文本中偏见度量的解释性和重要性：一种基于PMI的方法",
+    "translated_abstract": "近年来，词嵌入广泛用于测量文本中的偏见。尽管它们已被证明在检测各种偏见方面非常有效，但基于词嵌入的度量缺乏透明度和解释性。我们分析了一种基于PMI的替代度量方法来量化文本中的偏见。它可以表示为条件概率的函数，可以简单地解释为词语共现。我们还证明它可以近似为一种比值比，这允许估计文本偏见的置信区间和统计显著性。该方法在捕捉嵌入大型语料库中真实世界的性别差距时产生类似于基于词嵌入的度量的结果。",
+    "tldr": "这篇论文介绍了一种基于PMI的方法来解释和量化文本中的偏见，该方法提供了简单的解释和统计显著性，并在捕捉性别差距方面产生了类似于基于词嵌入的方法的结果。",
+    "en_tdlr": "This paper introduces a PMI-based approach to interpret and quantify biases in texts, which provides simple interpretation and statistical significance, and produces similar results to word embedding-based methods in capturing gender gaps."
+}

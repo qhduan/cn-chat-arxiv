@@ -1,0 +1,11 @@
+{
+    "title": "Safe Formulas in the General Theory of Stable Models. (arXiv:2307.09166v1 [cs.AI])",
+    "abstract": "Safe first-order formulas generalize the concept of a safe rule, which plays an important role in the design of answer set solvers. We show that any safe sentence is equivalent, in a certain sense, to the result of its grounding -to the variable-free sentence obtained from it by replacing all quantifiers with multiple conjunctions and disjunctions. It follows that a safe sentence and the result of its grounding have the same stable models, and that the stable models of a safe sentence can be characterized by a formula of a simple syntactic form.",
+    "link": "http://arxiv.org/abs/2307.09166",
+    "context": "Title: Safe Formulas in the General Theory of Stable Models. (arXiv:2307.09166v1 [cs.AI])\nAbstract: Safe first-order formulas generalize the concept of a safe rule, which plays an important role in the design of answer set solvers. We show that any safe sentence is equivalent, in a certain sense, to the result of its grounding -to the variable-free sentence obtained from it by replacing all quantifiers with multiple conjunctions and disjunctions. It follows that a safe sentence and the result of its grounding have the same stable models, and that the stable models of a safe sentence can be characterized by a formula of a simple syntactic form.",
+    "path": "papers/23/07/2307.09166.json",
+    "total_tokens": 652,
+    "translated_title": "通用稳定模型理论中的安全公式",
+    "translated_abstract": "安全的一阶公式推广了安全规则的概念，在答案集求解器的设计中起着重要作用。我们证明了在某种意义上，任何安全的语句都等价于其继承的结果-通过将所有量词替换为多个合取和析取而获得的无变量句子。由此可见，安全句子和其继承结果具有相同的稳定模型，并且一个安全句子的稳定模型可以由一个简单句法形式的公式来描述。",
+    "tldr": "本论文提出了一种通用稳定模型理论中的安全公式，证明了安全句子和其继承结果具有相同的稳定模型，并且可以通过一个简单句法形式的公式来描述。"
+}

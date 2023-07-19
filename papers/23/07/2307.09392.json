@@ -1,0 +1,12 @@
+{
+    "title": "Is Kyle's equilibrium model stable?. (arXiv:2307.09392v1 [q-fin.TR])",
+    "abstract": "In the dynamic discrete-time trading setting of Kyle (1985), we prove that Kyle's equilibrium model is stable when there are one or two trading times. For three or more trading times, we prove that Kyle's equilibrium is not stable. These theoretical results are proven to hold irrespectively of all Kyle's input parameters.",
+    "link": "http://arxiv.org/abs/2307.09392",
+    "context": "Title: Is Kyle's equilibrium model stable?. (arXiv:2307.09392v1 [q-fin.TR])\nAbstract: In the dynamic discrete-time trading setting of Kyle (1985), we prove that Kyle's equilibrium model is stable when there are one or two trading times. For three or more trading times, we prove that Kyle's equilibrium is not stable. These theoretical results are proven to hold irrespectively of all Kyle's input parameters.",
+    "path": "papers/23/07/2307.09392.json",
+    "total_tokens": 536,
+    "translated_title": "Kyle的均衡模型是否稳定？",
+    "translated_abstract": "在Kyle (1985)的动态离散时间交易环境中，我们证明了当只有一个或两个交易时，Kyle的均衡模型是稳定的。对于三个或更多的交易时机，我们证明了Kyle的均衡是不稳定的。这些理论结果被证明与Kyle的所有输入参数无关。",
+    "tldr": "该论文证明了在Kyle的均衡模型中，当只有一个或两个交易时稳定，而当有三个或更多交易时不稳定。这些结果是独立于所有的Kyle输入参数的。",
+    "en_tdlr": "This paper proves that Kyle's equilibrium model is stable when there are one or two trading times, and unstable when there are three or more trading times. These results hold irrespective of all Kyle's input parameters."
+}

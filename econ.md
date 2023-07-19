@@ -2,292 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Global path preference and local response: A reward decomposition approach for network path choice analysis in the presence of locally perceived attributes.](http://arxiv.org/abs/2307.08646) | 本研究提出了一种奖励分解方法，用于分析网络旅行者的全局和局部路径偏好。通过将奖励函数分解为全局和局部效用，可以确定哪些属性对代理商的路径选择产生了影响。 |
-| [^2] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
-| [^3] | [Antimonotonicity for Preference Axioms: The Natural Counterpart to Comonotonicity.](http://arxiv.org/abs/2307.08542) | 本论文研究了偏序理论中的反单调性，它是共单调性的自然对应物。通过对一些传统公理进行反单调性限制，我们发现并推广了现有模型的广义化公理化。这些推广显示出经典公理在反单调性情况下的最关键测试点。 |
-| [^4] | [Datalism and Data Monopolies in the Era of A.I.: A Research Agenda.](http://arxiv.org/abs/2307.08049) | 数据主义者正在追求对数据的垄断控制，以供给他们的算法和人工智能控制的生产过程使用，而不支付或认可人类劳动。这篇论文提供了这一发展的概述，并提出了该领域的经济学研究议程。 |
-| [^5] | [Quantal Response Equilibrium with a Continuum of Types: Characterization and Nonparametric Identification.](http://arxiv.org/abs/2307.08011) | 本研究通过完全特征化二元行动博弈中一个具有类型连续性的量子响应均衡集合，填补了非参数特征化和检验方法的空白。此外，通过对实验数据的应用，验证了我们的方法的有效性。 |
-| [^6] | [Privately Policing Dark Patterns.](http://arxiv.org/abs/2307.07888) | 这篇论文提出利用州私人法来定义和跟踪黑暗模式的发展，以解决黑暗模式带来的自主权干扰和市场扭曲等问题。 |
-| [^7] | [Optimal Queue Design.](http://arxiv.org/abs/2307.07746) | 本论文研究了通过队列系统对稀缺资源进行分配的最优方法，发现先来先服务原则在调节代理人信念和动态激励方面起到了重要的作用。 |
-| [^8] | [Supervised Dynamic PCA: Linear Dynamic Forecasting with Many Predictors.](http://arxiv.org/abs/2307.07689) | 本文提出了一种新的监督动态PCA方法，该方法通过对预测变量及其滞后值进行缩放和组合，建立了预测因子与目标变量之间的联系，并使用罚函数方法来选择具有更强预测能力的重要因子。 |
-| [^9] | [Persuasion as Transportation.](http://arxiv.org/abs/2307.07672) | 本研究通过将说服问题归约为最优运输的Monge-Kantorovich问题，揭示了贝叶斯说服模型中多接收方问题的显式解集和结构性结果，并推广了价值的对偶表示和凹化公式。 |
-| [^10] | [Contracting with Heterogeneous Researchers.](http://arxiv.org/abs/2307.07629) | 本文研究了如何激励研究者进行成本高昂的实验的合同设计，并通过分析发现了一般情况与二元情况的差异，但合同问题仍然可处理。 |
-| [^11] | [Sparsified Simultaneous Confidence Intervals for High-Dimensional Linear Models.](http://arxiv.org/abs/2307.07574) | 提出了一种稀疏化同时置信区间的方法，用于高维线性模型的统计推断。通过将某些区间的上下界收缩为零，该方法能够确定不重要的协变量并将其排除在最终模型之外，同时通过其他区间判断出可信和显著的协变量。 |
-| [^12] | [A Nonparametric Test of $m$th-degree Inverse Stochastic Dominance.](http://arxiv.org/abs/2306.12271) | 本文提出了一种非参数化检验方法，用于对$m$阶逆随机优势进行检验，结果表明该方法适用于评估社会福利，并在英国不平等增长问题的研究中得以应用。 |
-| [^13] | [Torch-Choice: A PyTorch Package for Large-Scale Choice Modelling with Python.](http://arxiv.org/abs/2304.01906) | 本文介绍了一款名为 Torch-Choice 的 PyTorch 软件包，用于管理数据库、构建多项式Logit和嵌套Logit模型，并支持GPU加速，具有灵活性和高效性。 |
-| [^14] | [A Nonparametric Stochastic Set Model: Identification, Optimization, and Prediction.](http://arxiv.org/abs/2302.04354) | 这篇论文开发了一个新的非参数模型来解决非辨识性问题，该模型假设消费者有有界理性，并且能够准确解释客户的选择行为。 |
-| [^15] | [Near-Optimal Non-Parametric Sequential Tests and Confidence Sequences with Possibly Dependent Observations.](http://arxiv.org/abs/2212.14411) | 本文研究了非参数顺序检验和置信区间，在一般非参数数据生成过程下提供了类型I错误和期望拒绝时间保证，提高了其灵活性和性能。 |
-| [^16] | [Average Profits of Prejudiced Algorithms.](http://arxiv.org/abs/2212.00578) | 我们研究了使用两种针对不同群体的评分算法时，对于一个公司来说哪一种算法能够获得更多成功。我们给出了在不同偏见程度下，公司选择哪个算法能够获得更好结果的明确保证。 |
-| [^17] | [A Short Survey on Business Models of Decentralized Finance (DeFi) Protocols.](http://arxiv.org/abs/2202.07742) | 本文通过研究不同DeFi领域的商业模型，概括了DeFi的通用商业模型并进行了比较，提出了涉及经济学、金融学和计算机科学等异构领域的开放性研究挑战。 |
-| [^18] | [Ignorance is Bliss: A Game of Regret.](http://arxiv.org/abs/2109.10968) | 通过研究后悔游戏，发现个体的后悔经历取决于自己的选择以及他人的选择，这揭示了个人决策问题实际上是一个多人行为博弈。实验结果验证了在一定参数范围内后悔游戏是一个具有多个均衡的协调游戏。 |
-| [^19] | [Algorithms for Competitive Division of Chores.](http://arxiv.org/abs/1907.01766) | 本文研究在禁止货币转移的情况下，将可分割的无益物品（家务）分配给多个代理人的问题，并扩展了竞争性规则在货物情况下的应用。竞争性分配方案不同于货物，需要找到局部最小值、局部最大值和鞍点来解决问题。 |
+| [^1] | [A Model of Competitive Assortment Planning Algorithm.](http://arxiv.org/abs/2307.09479) | 本研究提出了一种新颖的竞争性组合规划算法模型，通过考虑贝叶斯方法和两阶段优化技术，揭示数字市场中的竞争性概念。该模型避免了平台与大型供应商之间的勾结，同时保持了竞争力并最大化预期收入。 |
+| [^2] | [Risk Preference Types, Limited Consideration, and Welfare.](http://arxiv.org/abs/2307.09411) | 本研究提供了关于风险决策混合模型的半非参数点识别的充分条件，在多个保险覆盖领域中，代理人根据两种偏好类型做出选择，并允许考虑集中存在未观察到的异质性。 |
+| [^3] | [Socio-spatial Inequalities in a Context of "Great Economic Wealth". Case study of neighbourhoods of Luxembourg City.](http://arxiv.org/abs/2307.09251) | 该研究通过对卢森堡市社区进行分析，揭示了在“巨大经济财富”背景下的社会空间不平等现象。研究发现，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。 |
+| [^4] | [COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?.](http://arxiv.org/abs/2307.09035) | 该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。 |
+| [^5] | [The Begining of the Trend: Interest Rates, Markups, and Inflation.](http://arxiv.org/abs/2307.08968) | 这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。 |
+| [^6] | [Culture, Gender, and Labor Force Participation: Evidence from Colombia.](http://arxiv.org/abs/2307.08869) | 该研究调查了将性别平等纳入哥伦比亚宪法对性别平等态度、性别歧视经历和劳动力市场参与的影响。研究发现，女性的劳动力市场参与显著增加，同时男性对性别平等持更大的支持，女性经历的性别歧视减少。这表明在家庭中存在持续的权力斗争。 |
+| [^7] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
+| [^8] | [Comparative Analysis of Machine Learning, Hybrid, and Deep Learning Forecasting Models Evidence from European Financial Markets and Bitcoins.](http://arxiv.org/abs/2307.08853) | 本研究通过比较统计学、机器学习和深度学习的预测模型，发现预测金融市场波动具有挑战性，准确性普遍较低。在不同时间段中，ARIMA和混合ETS-ANN模型在预测上表现较好，而kNN模型在某些时期中表现较优。尽管如此，提高金融市场预测准确性仍然是一个挑战。 |
+| [^9] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
+| [^10] | [Economic Consequences of Online Tracking Restrictions.](http://arxiv.org/abs/2303.09147) | 该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。 |
+| [^11] | [Conformal Prediction Bands for Two-Dimensional Functional Time Series.](http://arxiv.org/abs/2207.13656) | 该论文提出了一个针对二维函数时间序列的合规预测带方法，并介绍了一种用于预测的概率框架和不确定性量化技术。将函数自回归过程扩展到该设置，并在真实数据集上进行了实证研究。 |
+| [^12] | [Partial Identification and Inference for Conditional Distributions of Treatment Effects.](http://arxiv.org/abs/2108.00723) | 本文提出了一种方法，通过Makarov边界估算处理效应的条件分布的上下界，且当处理是内生的情况下提出了两种随机优势假设来进一步加强边界。 |
+| [^13] | [Purchase history and product personalization.](http://arxiv.org/abs/2103.11504) | 研究探讨了产品个性化对价格歧视的影响，并发现通过控制产品个性化程度，上游公司可以抑制由消费者面临下游价格歧视产生的推高力量。 |
 
 # 详细
 
-[^1]: 全局路径偏好与局部响应：一种在局部知觉属性存在的网络路径选择分析中的奖励分解方法
+[^1]: 竞争组合规划算法模型
 
-    Global path preference and local response: A reward decomposition approach for network path choice analysis in the presence of locally perceived attributes. (arXiv:2307.08646v1 [physics.soc-ph])
+    A Model of Competitive Assortment Planning Algorithm. (arXiv:2307.09479v1 [econ.TH])
 
-    [http://arxiv.org/abs/2307.08646](http://arxiv.org/abs/2307.08646)
+    [http://arxiv.org/abs/2307.09479](http://arxiv.org/abs/2307.09479)
 
-    本研究提出了一种奖励分解方法，用于分析网络旅行者的全局和局部路径偏好。通过将奖励函数分解为全局和局部效用，可以确定哪些属性对代理商的路径选择产生了影响。
-
-    
-
-    本研究对网络旅行者的全局和局部路径偏好进行属性级别分析。为此，提出了一种奖励分解方法，并将其整合到基于链接的递归（马尔可夫）路径选择模型中。该方法将与每个状态-动作对相关联的瞬时奖励函数分解为全局效用和局部效用，其中全局效用是从网络中任何地方全局感知到的属性的函数，局部效用是仅从当前状态局部感知到的属性的函数。只有全局效用进入每个状态的值函数，表示达到目的地的未来预期效用。这种具有分解奖励函数的全局-局部路径选择模型使我们能够分析哪些属性在多大程度上影响了代理商的全局和局部路径选择。此外，与大多数自适应路径选择模型不同，所提出的模型可以基于揭示的路径观察结果进行估计（而无需其他信息）。
-
-    This study performs an attribute-level analysis of the global and local path preferences of network travelers. To this end, a reward decomposition approach is proposed and integrated into a link-based recursive (Markovian) path choice model. The approach decomposes the instantaneous reward function associated with each state-action pair into the global utility, a function of attributes globally perceived from anywhere in the network, and the local utility, a function of attributes that are only locally perceived from the current state. Only the global utility then enters the value function of each state, representing the future expected utility toward the destination. This global-local path choice model with decomposed reward functions allows us to analyze to what extent and which attributes affect the global and local path choices of agents. Moreover, unlike most adaptive path choice models, the proposed model can be estimated based on revealed path observations (without the informati
-    
-[^2]: 解析协调问题
-
-    Unraveling Coordination Problems. (arXiv:2307.08557v1 [econ.TH])
-
-    [http://arxiv.org/abs/2307.08557](http://arxiv.org/abs/2307.08557)
-
-    本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。
+    本研究提出了一种新颖的竞争性组合规划算法模型，通过考虑贝叶斯方法和两阶段优化技术，揭示数字市场中的竞争性概念。该模型避免了平台与大型供应商之间的勾结，同时保持了竞争力并最大化预期收入。
 
     
 
-    本文研究协调问题中的政策设计。在协调博弈中，补贴提高了玩家i选择补贴行动的动机。这进一步提高了j选择相同行动的动机，进而激励i，依此类推。基于这种“解谜效应”，我们对实施给定博弈结果的补贴进行了表征，将其唯一均衡。在其他属性中，我们确定了以下特点：（i）对于相同的参与者是对称的；（ii）在模型参数上全局连续；（iii）与机会成本正相关；（iv）与溢出效应负相关。该模型的应用包括联合投资问题、参与决策和委托代理合同。
+    本研究提出了一种新颖的搜索算法或组合规划算法，该算法考虑了贝叶斯信息更新和两阶段组合优化技术，为数字市场中的竞争性概念提供了一种新的理解。通过搜索算法，在平台、供应商和平台的自有品牌之间存在竞争。本文提出了一个模型，并讨论了通过组合规划或组合优化算法在数字市场中如何产生竞争和勾结。此外，本文提出了一个无虚假合作的组合规划模型，以防止平台和大型供应商之间的勾结。本文的主要结论是，勾结的组合可能会提高产品购买的可能性，但无法最大化预期收入。而提出的组合规划方法在保持竞争力的同时最大化预期收入。
 
-    This paper studies policy design in coordination problems. In coordination games, a subsidy raises player $i$'s incentive to play the subsidized action. This raises $j$'s incentive to play the same action, which further incentivizes $i$, and so on. Building upon this ``unraveling effect'', we characterize the subsidies that implement a given outcome of the game as its unique equilibrium. Among other properties, we establish that subsidies are: (i) symmetric for identical players; (ii) globally continuous in model parameters; (iii) increasing in opportunity costs; and (iv) decreasing in spillovers. Applications of the model include joint investment problems, participation decisions, and principal-agent contracting.
+    With a novel search algorithm or assortment planning or assortment optimization algorithm that takes into account a Bayesian approach to information updating and two-stage assortment optimization techniques, the current research provides a novel concept of competitiveness in the digital marketplace. Via the search algorithm, there is competition between the platform, vendors, and private brands of the platform. The current paper suggests a model and discusses how competition and collusion arise in the digital marketplace through assortment planning or assortment optimization algorithm. Furthermore, it suggests a model of an assortment algorithm free from collusion between the platform and the large vendors. The paper's major conclusions are that collusive assortment may raise a product's purchase likelihood but fail to maximize expected revenue. The proposed assortment planning, on the other hand, maintains competitiveness while maximizing expected revenue.
     
-[^3]: 偏序理论中的反单调性：共单调性的自然对应物
+[^2]: 风险偏好类型、有限考虑和福利
 
-    Antimonotonicity for Preference Axioms: The Natural Counterpart to Comonotonicity. (arXiv:2307.08542v1 [econ.TH])
+    Risk Preference Types, Limited Consideration, and Welfare. (arXiv:2307.09411v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.08542](http://arxiv.org/abs/2307.08542)
+    [http://arxiv.org/abs/2307.09411](http://arxiv.org/abs/2307.09411)
 
-    本论文研究了偏序理论中的反单调性，它是共单调性的自然对应物。通过对一些传统公理进行反单调性限制，我们发现并推广了现有模型的广义化公理化。这些推广显示出经典公理在反单调性情况下的最关键测试点。
-
-    
-
-    共单调性（“相同变化”）的随机变量最小化了对冲可能性，在许多领域得到广泛应用。传统公理的共单调限制导致了决策模型中的重大发明，包括Gilboa和Schmeidler的模糊模型。本文研究了反单调性（“相反变化”），它是共单调性的自然对应物，最小化了杠杆作用的可能性。令人惊讶的是，传统公理的反单调限制通常并不产生新的模型，而是给出现有模型的广义化公理。因此，我们推广了：（a）通过柯西方程对线性泛函的经典公理化；（b）通过无套利原则对即时无风险定价；（c）通过簿记来描述主观概率；（d）Anscombe-Aumann的期望效用；（e）在Savage的主观期望效用中的风险规避。在每种情况下，我们的广义化公理化展示了经典公理的最关键测试在反单调性情况下的位置。
-
-    Comonotonicity ("same variation") of random variables minimizes hedging possibilities and has been widely used in many fields. Comonotonic restrictions of traditional axioms have led to impactful inventions in decision models, including Gilboa and Schmeidler's ambiguity models. This paper investigates antimonotonicity ("opposite variation"), the natural counterpart to comonotonicity, minimizing leveraging possibilities. Surprisingly, antimonotonic restrictions of traditional axioms often do not give new models but, instead, give generalized axiomatizations of existing ones. We, thus, generalize: (a) classical axiomatizations of linear functionals through Cauchy's equation; (b) as-if-risk-neutral pricing through no-arbitrage; (c) subjective probabilities through bookmaking; (d) Anscombe-Aumann expected utility; (e) risk aversion in Savage's subjective expected utility. In each case, our generalizations show where the most critical tests of classical axioms lie: in the antimonotonic case
-    
-[^4]: 数据主义和人工智能时代的数据垄断：一个研究议程
-
-    Datalism and Data Monopolies in the Era of A.I.: A Research Agenda. (arXiv:2307.08049v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.08049](http://arxiv.org/abs/2307.08049)
-
-    数据主义者正在追求对数据的垄断控制，以供给他们的算法和人工智能控制的生产过程使用，而不支付或认可人类劳动。这篇论文提供了这一发展的概述，并提出了该领域的经济学研究议程。
+    本研究提供了关于风险决策混合模型的半非参数点识别的充分条件，在多个保险覆盖领域中，代理人根据两种偏好类型做出选择，并允许考虑集中存在未观察到的异质性。
 
     
 
-    数据在经济和社会系统的各个方面的增加使用正在创造一种新形式的垄断：数据垄断。我们阐明了采用这些策略的公司，数据主义者，正在挑战垄断资本理论（MCT）中使用的现有定义。数据主义者正在追求一种不同类型的垄断控制，而不是传统的跨国公司。他们正在追求对数据的垄断控制，以供给他们的算法和人工智能（AI）控制的生产过程使用。这些生产过程使用关于人类和人类创造的产出的信息作为输入，但不将这些人类分类为雇员，因此他们的劳动没有得到支付或认可。本文概述了这一发展及其对垄断理论的影响，并以该领域的经济学研究议程为结论。
+    我们提供了一个风险决策混合模型的半非参数点识别的充分条件，当代理人通过购买捆绑商品在多个保险覆盖领域（环境）中做出选择。作为与相关文献的首次分歧，该模型允许两种偏好类型。在第一种类型中，代理人根据标准期望效用理论以CARA伯努利效用函数的方式行为，其绝对风险厌恶系数的分布完全未指定。在另一种类型中，代理人根据风险选择的对偶理论（Yaari，1987）和一个一参数家族失真函数的方式行为，其中参数是特定的代理人，并且其分布完全未指定。在每种偏好类型中，模型允许在考虑集中存在未观察到的异质性，而考虑集在捆绑水平上形成，这是与相关文献的第二个分歧处。
 
-    The increasing use of data in various parts of the economic and social systems is creating a new form of monopoly: data monopolies. We illustrate that the companies using these strategies, Datalists, are challenging the existing definitions used within Monopoly Capital Theory (MCT). Datalists are pursuing a different type of monopoly control than traditional multinational corporations. They are pursuing monopolistic control over data to feed their productive processes, increasingly controlled by algorithms and Artificial Intelligence (AI). These productive processes use information about humans and the creative outputs of humans as the inputs but do not classify those humans as employees, so they are not paid or credited for their labour. This paper provides an overview of this evolution and its impact on monopoly theory. It concludes with an outline for a research agenda for economics in this space.
+    We provide sufficient conditions for semi-nonparametric point identification of a mixture model of decision making under risk, when agents make choices in multiple lines of insurance coverage (contexts) by purchasing a bundle. As a first departure from the related literature, the model allows for two preference types. In the first one, agents behave according to standard expected utility theory with CARA Bernoulli utility function, with an agent-specific coefficient of absolute risk aversion whose distribution is left completely unspecified. In the other, agents behave according to the dual theory of choice under risk(Yaari, 1987) combined with a one-parameter family distortion function, where the parameter is agent-specific and is drawn from a distribution that is left completely unspecified. Within each preference type, the model allows for unobserved heterogeneity in consideration sets, where the latter form at the bundle level -- a second departure from the related literature. Our 
     
-[^5]: 一个具有类型连续性的量子响应均衡：特征化与非参数鉴定
+[^3]: 卢森堡城市社区的“巨大经济财富”背景下的社会空间不平等研究
 
-    Quantal Response Equilibrium with a Continuum of Types: Characterization and Nonparametric Identification. (arXiv:2307.08011v1 [econ.TH])
+    Socio-spatial Inequalities in a Context of "Great Economic Wealth". Case study of neighbourhoods of Luxembourg City. (arXiv:2307.09251v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.08011](http://arxiv.org/abs/2307.08011)
+    [http://arxiv.org/abs/2307.09251](http://arxiv.org/abs/2307.09251)
 
-    本研究通过完全特征化二元行动博弈中一个具有类型连续性的量子响应均衡集合，填补了非参数特征化和检验方法的空白。此外，通过对实验数据的应用，验证了我们的方法的有效性。
-
-    
-
-    量子响应均衡(QRE)是实验数据分析中的标准基准，是对纳什均衡的统计概括。尽管其影响力广泛，但在有限的游戏情景以外，关于QRE的非参数特征化和检验方法并不存在。我们通过对一类具有类型连续性的二元行动博弈中QRE集合的完全特征化来填补这一空白。我们的特征化在全局博弈、志愿者困境以及妥协博弈等情境下提供了精确的预测。此外，我们利用这些结果开发了对QRE的非参数检验方法。作为一个实证应用，我们重新审视了Carrillo和Palfrey (2009)关于妥协博弈的实验数据。
-
-    Quantal response equilibrium (QRE), a statistical generalization of Nash equilibrium, is a standard benchmark in the analysis of experimental data. Despite its influence, nonparametric characterizations and tests of QRE are unavailable beyond the case of finite games. We address this gap by completely characterizing the set of QRE in a class of binary-action games with a continuum of types. Our characterization provides sharp predictions in settings such as global games, the volunteer's dilemma, and the compromise game. Further, we leverage our results to develop nonparametric tests of QRE. As an empirical application, we revisit the experimental data from Carrillo and Palfrey (2009) on the compromise game.
-    
-[^6]: 私下监管黑暗模式
-
-    Privately Policing Dark Patterns. (arXiv:2307.07888v1 [cs.CY])
-
-    [http://arxiv.org/abs/2307.07888](http://arxiv.org/abs/2307.07888)
-
-    这篇论文提出利用州私人法来定义和跟踪黑暗模式的发展，以解决黑暗模式带来的自主权干扰和市场扭曲等问题。
+    该研究通过对卢森堡市社区进行分析，揭示了在“巨大经济财富”背景下的社会空间不平等现象。研究发现，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。
 
     
 
-    全国各地的立法者正在制定新的法律来针对“黑暗模式”——用户界面设计，用于欺骗或迫使用户启用手机位置跟踪，共享浏览数据，自动计费或进行其他设计师prefer的选择。黑暗模式带来了严重的问题。在最激进的形式中，它们干扰人类自主权，破坏了客户对产品的评估和选择，并扭曲了商品和服务的在线市场。然而，制定立法是一个重大挑战：诱导和欺骗很难区分，不断变化的技术趋势是一个不断移动的目标。为了解决这些挑战，本文提出利用州私人法来定义和跟踪黑暗模式的发展。法官制定的案例法可以迅速应对新的技术，灵活定义可容许和不可容许的设计边界，并通过迅速采取行动来加强州和联邦的监管执法工作。
+    尽管卢森堡是欧盟中人均GDP最高的国家之一，但由于城市快速发展，卢森堡面临着社会经济挑战。本文通过研究卢森堡市最微观且少有被分析的地理层面——社区，对这一现象进行了探讨。基于2020-2021年收集的涵盖各种社会人口特征的实证数据，运用主成分的升序分层聚类方法，确定了社区的社会空间模式。此外，还进行了Chi2检验，以研究居民的社会人口特征和社区的收入不平等程度。结果显示，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。
 
-    Lawmakers around the country are crafting new laws to target "dark patterns" -- user interface designs that trick or coerce users into enabling cell phone location tracking, sharing browsing data, initiating automatic billing, or making whatever other choices their designers prefer. Dark patterns pose a serious problem. In their most aggressive forms, they interfere with human autonomy, undermine customers' evaluation and selection of products, and distort online markets for goods and services. Yet crafting legislation is a major challenge: Persuasion and deception are difficult to distinguish, and shifting tech trends present an ever-moving target. To address these challenges, this Article proposes leveraging state private law to define and track dark patterns as they evolve. Judge-crafted decisional law can respond quickly to new techniques, flexibly define the boundary between permissible and impermissible designs, and bolster state and federal regulatory enforcement efforts by quic
+    In spite of being one of the smallest and wealthiest countries in the European Union in terms of GDP per capita, Luxembourg is facing socio-economic challenges due to recent rapid urban transformations. This article contributes by approaching this phenomenon at the most granular and rarely analysed geographical level - the neighbourhoods of the capital, Luxembourg City. Based on collected empirical data covering various socio-demographic dimensions for 2020-2021, an ascending hierarchical classification on principal components is set out to establish neighbourhoods' socio-spatial patterns. In addition, Chi2 tests are carried out to examine residents' socio-demographic characteristics and determine income inequalities in neighbourhoods. The results reveal a clear socio-spatial divide along a north-west south-east axis. Moreover, classical factors such as gender or citizenship differences are revealed to be poorly determinant of income inequalities compared with the proportion of social 
     
-[^7]: 最优队列设计
+[^4]: COVID-19需求冲击再探：广告技术是否帮助减轻中小型企业的负面影响?
 
-    Optimal Queue Design. (arXiv:2307.07746v1 [econ.TH])
+    COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?. (arXiv:2307.09035v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.07746](http://arxiv.org/abs/2307.07746)
+    [http://arxiv.org/abs/2307.09035](http://arxiv.org/abs/2307.09035)
 
-    本论文研究了通过队列系统对稀缺资源进行分配的最优方法，发现先来先服务原则在调节代理人信念和动态激励方面起到了重要的作用。
-
-    
-
-    我们研究了通过队列系统对稀缺资源进行分配的最优方法。设计者控制代理进入队列和离开队列的方法，他们的服务优先级或排队纪律，以及他们对队列优先级的信息，并在设计者建议时提供他们加入队列的动机和重要性。在一个温和的条件下，最优机制使代理人进入到一个特定的队列长度，并且从不将任何代理人从队列中移除；按照先来先服务原则为他们服务；在整个过程中除了他们收到的建议之外，不提供任何信息。在丰富的领域中，先来先服务原则对于最优性也是必要的。我们发现了排队纪律在调节代理人信念和动态激励方面的新角色，并揭示了先来先服务在这方面的一个迄今未被认识到的优点。
-
-    We study the optimal method for rationing scarce resources through a queue system. The designer controls agents' entry into a queue and their exit, their service priority -- or queueing discipline -- as well as their information about queue priorities, while providing them with the incentive to join the queue and, importantly, to stay in the queue, when recommended by the designer. Under a mild condition, the optimal mechanism induces agents to enter up to a certain queue length and never removes any agents from the queue; serves them according to a first-come-first-served (FCFS) rule; and provides them with no information throughout the process beyond the recommendations they receive. FCFS is also necessary for optimality in a rich domain. We identify a novel role for queueing disciplines in regulating agents' beliefs and their dynamic incentives and uncover a hitherto unrecognized virtue of FCFS in this regard.
-    
-[^8]: 监督动态PCA：具有许多预测变量的线性动态预测方法
-
-    Supervised Dynamic PCA: Linear Dynamic Forecasting with Many Predictors. (arXiv:2307.07689v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.07689](http://arxiv.org/abs/2307.07689)
-
-    本文提出了一种新的监督动态PCA方法，该方法通过对预测变量及其滞后值进行缩放和组合，建立了预测因子与目标变量之间的联系，并使用罚函数方法来选择具有更强预测能力的重要因子。
+    该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。
 
     
 
-    本文提出了一种新颖的动态预测方法，使用一种新的监督主成分分析（PCA），当大量的预测变量可用时。新的监督PCA通过对预测变量及其滞后值进行缩放和组合，提供了一种有效地通过预测变量与目标变量之间的联系进行动态预测的方法。与传统的扩散指数法不同，在进行PCA之前不学习预测变量与目标变量之间的关系，我们首先根据其在动态预测目标变量中的重要性对每个预测变量进行重新缩放，然后对重新缩放和加性面板应用PCA，建立PCA因子的可预测性与目标变量之间的联系。此外，我们还提出了使用罚函数方法（如LASSO方法）来选择具有更强预测能力的重要因子。
+    研究探讨了COVID-19大流行对企业绩效和生存的影响，表明中小型企业（SMBs）受到的负面影响尤为严重。然而，目前对在线广告技术是否以及如何帮助塑造这些结果的研究还很有限，尤其是对SMBs而言。本研究旨在填补这一空白。通过构建和分析一个包含49个国家超过60,000家企业的新数据集，我们研究了政府封锁措施对企业生存的影响。使用离散时间生存模型进行工具变量的差分过程估计，我们发现政府封锁措施增加了全球范围内SMB关闭的可能性，但在线广告技术的使用减轻了这种负面影响。研究结果显示了国家、行业和企业规模的异质性，与理论预期一致。
 
-    This paper proposes a novel dynamic forecasting method using a new supervised Principal Component Analysis (PCA) when a large number of predictors are available. The new supervised PCA provides an effective way to bridge the gap between predictors and the target variable of interest by scaling and combining the predictors and their lagged values, resulting in an effective dynamic forecasting. Unlike the traditional diffusion-index approach, which does not learn the relationships between the predictors and the target variable before conducting PCA, we first re-scale each predictor according to their significance in forecasting the targeted variable in a dynamic fashion, and a PCA is then applied to a re-scaled and additive panel, which establishes a connection between the predictability of the PCA factors and the target variable. Furthermore, we also propose to use penalized methods such as the LASSO approach to select the significant factors that have superior predictive power over the
+    Research has investigated the impact of the COVID-19 pandemic on business performance and survival, indicating particularly adverse effects for small and midsize businesses (SMBs). Yet only limited work has examined whether and how online advertising technology may have helped shape these outcomes, particularly for SMBs. The aim of this study is to address this gap. By constructing and analyzing a novel data set of more than 60,000 businesses in 49 countries, we examine the impact of government lockdowns on business survival. Using discrete-time survival models with instrumental variables and staggered difference-in-differences estimators, we find that government lockdowns increased the likelihood of SMB closure around the world but that use of online advertising technology attenuates this adverse effect. The findings show heterogeneity in country, industry, and business size, consistent with theoretical expectations.
     
-[^9]: 说服作为交通工具
+[^5]: 开始的趋势：利率、加价和通胀。(arXiv:2307.08968v1 [econ.GN])
 
-    Persuasion as Transportation. (arXiv:2307.07672v1 [econ.TH])
+    The Begining of the Trend: Interest Rates, Markups, and Inflation. (arXiv:2307.08968v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.07672](http://arxiv.org/abs/2307.07672)
+    [http://arxiv.org/abs/2307.08968](http://arxiv.org/abs/2307.08968)
 
-    本研究通过将说服问题归约为最优运输的Monge-Kantorovich问题，揭示了贝叶斯说服模型中多接收方问题的显式解集和结构性结果，并推广了价值的对偶表示和凹化公式。
-
-    
-
-    我们考虑了一个贝叶斯说服模型，其中有一个知情的发送方和几个不知情的接收方。发送方可以通过私人信号影响接收方的信念，而发送方的目标取决于诱导信念的组合。我们将说服问题归约为最优运输的Monge-Kantorovich问题。借助最优运输理论的洞见，我们确定了几类多接收方问题的显式解集，得到了一般的结构性结果，导出了价值的对偶表示，并将著名的凹化公式推广到多接收方问题上。
-
-    We consider a model of Bayesian persuasion with one informed sender and several uninformed receivers. The sender can affect receivers' beliefs via private signals, and the sender's objective depends on the combination of induced beliefs.  We reduce the persuasion problem to the Monge-Kantorovich problem of optimal transportation. Using insights from optimal transportation theory, we identify several classes of multi-receiver problems that admit explicit solutions, get general structural results, derive a dual representation for the value, and generalize the celebrated concavification formula for the value to multi-receiver problems.
-    
-[^10]: 异质研究者的合同设计
-
-    Contracting with Heterogeneous Researchers. (arXiv:2307.07629v1 [econ.TH])
-
-    [http://arxiv.org/abs/2307.07629](http://arxiv.org/abs/2307.07629)
-
-    本文研究了如何激励研究者进行成本高昂的实验的合同设计，并通过分析发现了一般情况与二元情况的差异，但合同问题仍然可处理。
+    这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。
 
     
 
-    我们研究了设计激励研究者进行成本高昂实验的合同，将Yoder（2022）的工作从二元状态扩展为一般状态空间。成本是研究者的私人信息。当实验可观察时，我们找到了最优合同，并表明更高类型的选择更昂贵的实验，但不一定是更具Blackwell信息的实验。当只有实验结果可观察时，只有当关于类型的某种单调性条件成立时，委托人才能实现相同的最优结果。我们的分析表明，一般情况与二元情况在性质上有所不同，但合同问题仍然可处理。
+    最近的文献认为实际利率下降导致经济利润和加价显著增长。因此，有人认为市场力量的增强与通胀有关。我们通过两个相关的例子，即被视为加价上涨的市场力量增加和企业利润对通胀的影响，审视了时序敏感性对估计长期趋势的影响。我们的分析表明，样本起始日期发生四年偏移会显著影响经济利润增长趋势，占趋势的19%，或者2014年每名工人3000美元。同样，我们的定性证据表明，增加的企业利润不太可能推动通胀。
 
-    We study the design of contracts that incentivize a researcher to conduct a costly experiment, extending the work of Yoder (2022) from binary states to a general state space. The cost is private information of the researcher. When the experiment is observable, we find the optimal contract and show that higher types choose more costly experiments, but not necessarily more Blackwell informative ones. When only the experiment result is observable, the principal can still achieve the same optimal outcome if and only if a certain monotonicity condition with respect to types holds. Our analysis demonstrates that the general case is qualitatively different than the binary one, but that the contracting problem remains tractable.
+    Recent literature argues the decline in real interest rates led to significant increases in economic profits and markups. Consequently, some have linked rising market power to inflation. We scrutinize the effect of time series sensitivity on estimating secular trends through two relevant examples: increasing market power perceived as rising markups and the influence of corporate profits on inflation. Our analysis reveals that a four-year shift in sample start dates significantly affects economic profit growth trends, accounting for 19% of the trend, or $3,000 per worker in 2014. Likewise, our qualitative evidence suggests that increased corporate profits are unlikely to drive inflation.
     
-[^11]: 高维线性模型的稀疏化同时置信区间
+[^6]: 文化、性别和劳动力参与：来自哥伦比亚的证据
 
-    Sparsified Simultaneous Confidence Intervals for High-Dimensional Linear Models. (arXiv:2307.07574v1 [stat.ME])
+    Culture, Gender, and Labor Force Participation: Evidence from Colombia. (arXiv:2307.08869v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.07574](http://arxiv.org/abs/2307.07574)
+    [http://arxiv.org/abs/2307.08869](http://arxiv.org/abs/2307.08869)
 
-    提出了一种稀疏化同时置信区间的方法，用于高维线性模型的统计推断。通过将某些区间的上下界收缩为零，该方法能够确定不重要的协变量并将其排除在最终模型之外，同时通过其他区间判断出可信和显著的协变量。
-
-    
-
-    鉴于模型选择过程引入的不确定性难以考虑，对高维回归系数的统计推断具有挑战性。一个关键问题仍未解决，即是否可能以及如何将模型的推断嵌入到系数的同时推断中？为此，我们提出了一种称为稀疏化同时置信区间的概念。我们的区间在某些上下界上进行了稀疏，即缩小为零（例如，$[0,0]$），表示相应协变量的不重要性。这些协变量应该从最终模型中排除。其余的区间，无论是包含零（例如，$[-1,1]$或$[0,1]$）还是不包含零（例如，$[2,3]$），分别表示可信和显著的协变量。所提出的方法可以与各种选择过程相结合，使其非常适合比较它们的使用。
-
-    Statistical inference of the high-dimensional regression coefficients is challenging because the uncertainty introduced by the model selection procedure is hard to account for. A critical question remains unsettled; that is, is it possible and how to embed the inference of the model into the simultaneous inference of the coefficients? To this end, we propose a notion of simultaneous confidence intervals called the sparsified simultaneous confidence intervals. Our intervals are sparse in the sense that some of the intervals' upper and lower bounds are shrunken to zero (i.e., $[0,0]$), indicating the unimportance of the corresponding covariates. These covariates should be excluded from the final model. The rest of the intervals, either containing zero (e.g., $[-1,1]$ or $[0,1]$) or not containing zero (e.g., $[2,3]$), indicate the plausible and significant covariates, respectively. The proposed method can be coupled with various selection procedures, making it ideal for comparing their u
-    
-[^12]: 一种$m$阶逆随机优势的非参数化检验方法
-
-    A Nonparametric Test of $m$th-degree Inverse Stochastic Dominance. (arXiv:2306.12271v1 [econ.EM])
-
-    [http://arxiv.org/abs/2306.12271](http://arxiv.org/abs/2306.12271)
-
-    本文提出了一种非参数化检验方法，用于对$m$阶逆随机优势进行检验，结果表明该方法适用于评估社会福利，并在英国不平等增长问题的研究中得以应用。
+    该研究调查了将性别平等纳入哥伦比亚宪法对性别平等态度、性别歧视经历和劳动力市场参与的影响。研究发现，女性的劳动力市场参与显著增加，同时男性对性别平等持更大的支持，女性经历的性别歧视减少。这表明在家庭中存在持续的权力斗争。
 
     
 
-    本文提出了一种非参数检验方法，用于对$m$阶逆随机优势进行检验，该方法是评估社会福利的有效工具。我们基于经验过程理论构建了这个检验方法。该检验方法被证明具有渐近大小控制和一致性。通过蒙特卡罗模拟，我们证明了该检验方法具有良好的有限样本性质。我们将这个检验方法应用于研究1995年至2010年英国的不平等增长问题。
+    该研究调查了将性别平等纳入1991年哥伦比亚宪法对性别平等态度、基于性别的歧视经历和劳动力市场参与的影响。使用差异研究方法，我们比较了接受义务高中课程《宪法》的个体与未接受的个体。我们的发现显示，劳动力市场参与显著增加，主要由女性推动。接受这些课程也影响了性别平等的态度，男性表现出更大的支持。女性报告称经历的基于性别的歧视较少。重要的是，我们的结果表明，女性增加的劳动力市场参与不太可能是由于男性伴侣减少了障碍。男性和女性对于家庭领域的传统性别规范的意见存在差异，突显了家庭内部的权力斗争。
 
-    This paper proposes a nonparametric test for $m$th-degree inverse stochastic dominance which is a powerful tool for ranking distribution functions according to social welfare. We construct the test based on empirical process theory. The test is shown to be asymptotically size controlled and consistent. The good finite sample properties of the test are illustrated via Monte Carlo simulations. We apply our test to the inequality growth in the United Kingdom from 1995 to 2010.
+    This study investigates the impact of integrating gender equality into the Colombian constitution of 1991 on attitudes towards gender equality, experiences of gender-based discrimination, and labor market participation. Using a difference-in-discontinuities framework, we compare individuals exposed to mandatory high school courses on the Constitution with those who were not exposed. Our findings show a significant increase in labor market participation, primarily driven by women. Exposure to these courses also shapes attitudes towards gender equality, with men demonstrating greater support. Women report experiencing less gender-based discrimination. Importantly, our results suggest that women's increased labor market participation is unlikely due to reduced barriers from male partners. A disparity in opinions regarding traditional gender norms concerning household domains is observed between men and women, highlighting an ongoing power struggle within the home. However, the presence of
     
-[^13]: Torch-Choice: 用Python实现大规模选择建模的PyTorch包
+[^7]: 一项放贷法律：一个澄清
 
-    Torch-Choice: A PyTorch Package for Large-Scale Choice Modelling with Python. (arXiv:2304.01906v1 [cs.LG])
+    A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.01906](http://arxiv.org/abs/2304.01906)
+    [http://arxiv.org/abs/2307.08861](http://arxiv.org/abs/2307.08861)
 
-    本文介绍了一款名为 Torch-Choice 的 PyTorch 软件包，用于管理数据库、构建多项式Logit和嵌套Logit模型，并支持GPU加速，具有灵活性和高效性。
-
-    
-
-    $\texttt{torch-choice}$ 是一款开源软件包，使用Python和PyTorch实现灵活、快速的选择建模。它提供了 $\texttt{ChoiceDataset}$ 数据结构，以便灵活而高效地管理数据库。本文演示了如何从各种格式的数据库中构建 $\texttt{ChoiceDataset}$，并展示了 $\texttt{ChoiceDataset}$ 的各种功能。该软件包实现了两种常用的模型: 多项式Logit和嵌套Logit模型，并支持模型估计期间的正则化。该软件包还支持使用GPU进行估计，使其可以扩展到大规模数据集而且在计算上更高效。模型可以使用R风格的公式字符串或Python字典进行初始化。最后，我们比较了 $\texttt{torch-choice}$ 和 R中的 $\texttt{mlogit}$ 在以下几个方面的计算效率: (1) 观测数增加时，(2) 协变量个数增加时， (3) 测试数升高时。
-
-    The $\texttt{torch-choice}$ is an open-source library for flexible, fast choice modeling with Python and PyTorch. $\texttt{torch-choice}$ provides a $\texttt{ChoiceDataset}$ data structure to manage databases flexibly and memory-efficiently. The paper demonstrates constructing a $\texttt{ChoiceDataset}$ from databases of various formats and functionalities of $\texttt{ChoiceDataset}$. The package implements two widely used models, namely the multinomial logit and nested logit models, and supports regularization during model estimation. The package incorporates the option to take advantage of GPUs for estimation, allowing it to scale to massive datasets while being computationally efficient. Models can be initialized using either R-style formula strings or Python dictionaries. We conclude with a comparison of the computational efficiencies of $\texttt{torch-choice}$ and $\texttt{mlogit}$ in R as (1) the number of observations increases, (2) the number of covariates increases, and (3) th
-    
-[^14]: 一个非参数随机集合模型：鉴别，优化和预测
-
-    A Nonparametric Stochastic Set Model: Identification, Optimization, and Prediction. (arXiv:2302.04354v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.04354](http://arxiv.org/abs/2302.04354)
-
-    这篇论文开发了一个新的非参数模型来解决非辨识性问题，该模型假设消费者有有界理性，并且能够准确解释客户的选择行为。
+    本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。
 
     
 
-    选择模型的鉴别对于理解消费者行为，设计营销政策和开发新产品至关重要。参数选择基于需求模型的鉴别，如多项式选择模型（MNL），通常是直接的。然而，非参数模型在解释客户选择方面非常有效和灵活，但可能会遇到维度灾难，并失去可辨识性。例如，排名模型是一个非参数模型，旨在模拟随机效用最大化（RUM）原则，已被认为光从选择概率集合本身无法辨识。在本文中，我们开发了一个新的非参数模型类别，不受非辨识性问题的影响。我们的模型假设消费者有有界理性，导致对称需求 cannibalization 并有趣地实现完全辨识。也就是说，我们可以唯一构建模型参数，以精确地解释客户选择行为。
+    一些国家的国家法律禁止以高利息贷款。大多数国家限制有效利率（而不仅仅是名义利率），其中包括所有可能与贷款相关的佣金和费用。在这种情况下，对于现金流没有内部回报率的贷款，限制不明确。在本文中，我们展示了如何将此限制扩展到所有贷款。我们证明了存在一个独特的扩展，与一组自然公理一致。
 
-    The identification of choice models is crucial for understanding consumer behavior, designing marketing policies, and developing new products. The identification of parametric choice-based demand models, such as the multinomial choice model (MNL), is typically straightforward. However, nonparametric models, which are highly effective and flexible in explaining customer choices, may encounter the curse of the dimensionality and lose their identifiability. For example, the ranking-based model, which is a nonparametric model and designed to mirror the random utility maximization (RUM) principle, is known to be nonidentifiable from the collection of choice probabilities alone. In this paper, we develop a new class of nonparametric models that is not subject to the problem of nonidentifiability. Our model assumes bounded rationality of consumers, which results in symmetric demand cannibalization and intriguingly enables full identification. That is to say, we can uniquely construct the mode
+    The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.
     
-[^15]: 近似最优的非参数顺序检验和具有可能相关观测的置信区间
+[^8]: 机器学习、混合模型和深度学习预测模型在欧洲金融市场和比特币中的比较分析
 
-    Near-Optimal Non-Parametric Sequential Tests and Confidence Sequences with Possibly Dependent Observations. (arXiv:2212.14411v2 [stat.ME] UPDATED)
+    Comparative Analysis of Machine Learning, Hybrid, and Deep Learning Forecasting Models Evidence from European Financial Markets and Bitcoins. (arXiv:2307.08853v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2212.14411](http://arxiv.org/abs/2212.14411)
+    [http://arxiv.org/abs/2307.08853](http://arxiv.org/abs/2307.08853)
 
-    本文研究了非参数顺序检验和置信区间，在一般非参数数据生成过程下提供了类型I错误和期望拒绝时间保证，提高了其灵活性和性能。
-
-    
-
-    顺序检验和其隐含的置信区间在任意停止时间下都能提供灵活的统计推断和即时决策。然而，强有力的保证仅适用于在实践中低估或浓度界限为基础的顺序序列，而这些序列具有次优的拒绝时间。在本文中，我们考虑罗宾斯（Robbins）1970年的延迟启动正态混合顺序概率比检验，并在一般非参数数据生成过程下提供了首个渐近类型I错误和期望拒绝时间保证，其中渐近性质由测试的烧入时间确定。类型I错误的结果主要依赖于鞅强不变原理，并证明这些检验（及其隐含的置信区间）具有接近所需α水平的类型I错误率。期望拒绝时间的结果主要利用了一种受伊藤引理启发的恒等式。
-
-    Sequential tests and their implied confidence sequences, which are valid at arbitrary stopping times, promise flexible statistical inference and on-the-fly decision making. However, strong guarantees are limited to parametric sequential tests that under-cover in practice or concentration-bound-based sequences that over-cover and have suboptimal rejection times. In this work, we consider \cite{robbins1970boundary}'s delayed-start normal-mixture sequential probability ratio tests, and we provide the first asymptotic type-I-error and expected-rejection-time guarantees under general non-parametric data generating processes, where the asymptotics are indexed by the test's burn-in time. The type-I-error results primarily leverage a martingale strong invariance principle and establish that these tests (and their implied confidence sequences) have type-I error rates approaching a desired $\alpha$-level. The expected-rejection-time results primarily leverage an identity inspired by It\^o's lemm
-    
-[^16]: 偏见算法的平均利润
-
-    Average Profits of Prejudiced Algorithms. (arXiv:2212.00578v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2212.00578](http://arxiv.org/abs/2212.00578)
-
-    我们研究了使用两种针对不同群体的评分算法时，对于一个公司来说哪一种算法能够获得更多成功。我们给出了在不同偏见程度下，公司选择哪个算法能够获得更好结果的明确保证。
+    本研究通过比较统计学、机器学习和深度学习的预测模型，发现预测金融市场波动具有挑战性，准确性普遍较低。在不同时间段中，ARIMA和混合ETS-ANN模型在预测上表现较好，而kNN模型在某些时期中表现较优。尽管如此，提高金融市场预测准确性仍然是一个挑战。
 
     
 
-    我们研究了一个公司在筛选属于弱势群体的合格申请者时使用两种常见评分算法的成功水平。这两种算法都是根据一个独立于公司的、由有偏见的决策者生成的数据进行训练的。一种算法偏向于弱势个体，而另一种算法在训练数据中展现了偏见。我们对公司在偏见程度不同的决策者下使用某一算法时，相对于另一算法能否获得更多成功给出了明确的保证。
+    本研究分析了市场不确定性对欧洲主要金融市场和加密货币市场的传导情况，涵盖了疫情前、疫情期间和疫情后的较长时期。利用每日金融市场指数和价格观察数据评估预测模型。我们比较了统计学、机器学习和深度学习的预测模型，如ARIMA模型、混合ETS-ANN模型和kNN模型。研究结果表明，预测金融市场波动是具有挑战性的，准确性水平在多个实例中普遍较低。ARIMA和混合ETS-ANN模型在较长时间段内表现更好，相比之下，kNN模型在几个时期中表现较好，具体取决于观察到的准确度测量指标。研究人员对于如何提高金融市场预测的准确性仍然面临挑战。
 
-    We investigate the level of success a firm achieves depending on which of two common scoring algorithms is used to screen qualified applicants belonging to a disadvantaged group. Both algorithms are trained on data generated by a prejudiced decision-maker independently of the firm. One algorithm favors disadvantaged individuals, while the other algorithm exemplifies prejudice in the training data. We deliver sharp guarantees for when the firm finds more success with one algorithm over the other, depending on the prejudice level of the decision-maker.
+    This study analyzes the transmission of market uncertainty on key European financial markets and the cryptocurrency market over an extended period, encompassing the pre, during, and post-pandemic periods. Daily financial market indices and price observations are used to assess the forecasting models. We compare statistical, machine learning, and deep learning forecasting models to evaluate the financial markets, such as the ARIMA, hybrid ETS-ANN, and kNN predictive models. The study results indicate that predicting financial market fluctuations is challenging, and the accuracy levels are generally low in several instances. ARIMA and hybrid ETS-ANN models perform better over extended periods compared to the kNN model, with ARIMA being the best-performing model in 2018-2021 and the hybrid ETS-ANN model being the best-performing model in most of the other subperiods. Still, the kNN model outperforms the others in several periods, depending on the observed accuracy measure. Researchers hav
     
-[^17]: 关于去中心化金融（DeFi）协议商业模型的简要调查
+[^9]: 气候不确定性对最佳减排路径和碳社会成本的影响
 
-    A Short Survey on Business Models of Decentralized Finance (DeFi) Protocols. (arXiv:2202.07742v2 [econ.GN] UPDATED)
+    Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
 
-    [http://arxiv.org/abs/2202.07742](http://arxiv.org/abs/2202.07742)
+    [http://arxiv.org/abs/2304.08957](http://arxiv.org/abs/2304.08957)
 
-    本文通过研究不同DeFi领域的商业模型，概括了DeFi的通用商业模型并进行了比较，提出了涉及经济学、金融学和计算机科学等异构领域的开放性研究挑战。
-
-    
-
-    去中心化金融（DeFi）服务利用智能合约、分布式账本和不同协议之间的巧妙异构交易，将传统金融业务转移到了价值互联网上。DeFi中总锁定价值（TVL）的指数增长预示着未来服务中自动化资金转账的光明前景。本文简要调查了不同DeFi领域（包括贷出型资金、去中心化交易所和收益聚合器）的商业模型。我们指出，当前文献中对于如何评估DeFi中成千上万个不同竞争对手（代币）的价值仍然不清楚。通过本文，我们概括了不同DeFi领域的通用商业模型并进行了比较。最后，我们提出了涉及经济学、金融学和计算机科学等异构领域的开放性研究挑战。
-
-    Decentralized Finance (DeFi) services are moving traditional financial operations to the Internet of Value (IOV) by exploiting smart contracts, distributed ledgers, and clever heterogeneous transactions among different protocols. The exponential increase of the Total Value Locked (TVL) in DeFi foreshadows a bright future for automated money transfers in a plethora of services. In this short survey paper, we describe the business model for different DeFi domains - namely, Protocols for Loanable Funds (PLFs), Decentralized Exchanges (DEXs), and Yield Aggregators. We claim that the current state of the literature is still unclear how to value thousands of different competitors (tokens) in DeFi. With this work, we abstract the general business model for different DeFi domains and compare them. Finally, we provide open research challenges that will involve heterogeneous domains such as economics, finance, and computer science.
-    
-[^18]: 无知即幸福：一场后悔的游戏
-
-    Ignorance is Bliss: A Game of Regret. (arXiv:2109.10968v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2109.10968](http://arxiv.org/abs/2109.10968)
-
-    通过研究后悔游戏，发现个体的后悔经历取决于自己的选择以及他人的选择，这揭示了个人决策问题实际上是一个多人行为博弈。实验结果验证了在一定参数范围内后悔游戏是一个具有多个均衡的协调游戏。
+    研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。
 
     
 
-    一个人只有在了解到未选择的替代方案时才会感到后悔。在许多情况下，了解未选择的替代方案只有在别人选择了它的情况下才可能实现。我们构建了一个模型，在这个模型中，每个后悔回避者个体的事后信息取决于他们自己的选择和他人的选择，因为他人可以揭示关于之前可能发生的情况的事后信息。这意味着看似一系列孤立的个人决策问题实际上是一个丰富的多人行为博弈，即后悔游戏，其中依赖于事后信息的心理回报相互关联。在一组参数的开放集中，后悔游戏是一个具有多个均衡的协调游戏，尽管所有个体在孤立情况下都拥有唯一的最优选择。我们对此进行了实验验证，并得到了支持。
+    气候政策分析中的排放路径通常来自综合评估模型(IAMs)。然而，这些排放路径通常不考虑气候对社会经济系统的反馈作用，因此也没有考虑气候不确定性。本文表明，仅仅气候不确定性就显著地改变了最优CO$_2$减排量成本效益，对于一组限制升温在1.5摄氏度以下低超温度控制情景，2050年的减排量变化范围在-14到+12 GtCO$_2$ yr$^{-1}$之间。此情景下，碳社会成本的范围变化达到了五倍。平衡气候敏感性(ECS)和现有气溶胶辐射强度是碳社会成本和中世纪最佳二氧化碳排放量的强烈决定因素。这表明，减少气候不确定性可以精确计算减排投入的成本，同时也指出了气候和排放之间缺失的反馈。
 
-    An individual can only experience regret if she learns about an unchosen alternative. In many situations, learning about an unchosen alternative is possible only if someone else chose it. We develop a model where the ex-post information available to each regret averse individual depends both on their own choice and on the choices of others, as others can reveal ex-post information about what might have been. This implies that what appears to be a series of isolated single-person decision problems is in fact a rich multi-player behavioural game, the regret game, where the psychological payoffs that depend on ex-post information are interconnected. For an open set of parameters, the regret game is a coordination game with multiple equilibria, despite the fact that all individuals possess a uniquely optimal choice in isolation. We experimentally test this prediction and find support for it.
+    Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
     
-[^19]: 竞争性分配家务的算法
+[^10]: 在线追踪限制的经济后果
 
-    Algorithms for Competitive Division of Chores. (arXiv:1907.01766v2 [cs.GT] UPDATED)
+    Economic Consequences of Online Tracking Restrictions. (arXiv:2303.09147v1 [econ.GN])
 
-    [http://arxiv.org/abs/1907.01766](http://arxiv.org/abs/1907.01766)
+    [http://arxiv.org/abs/2303.09147](http://arxiv.org/abs/2303.09147)
 
-    本文研究在禁止货币转移的情况下，将可分割的无益物品（家务）分配给多个代理人的问题，并扩展了竞争性规则在货物情况下的应用。竞争性分配方案不同于货物，需要找到局部最小值、局部最大值和鞍点来解决问题。
+    该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。
 
     
 
-    在禁止货币转移的情况下，研究将可分割的无益物品（家务）分配给多个代理人时的问题。竞争性规则在货物情况下具有显著的公平性和效率性。Bogomolnaia、Moulin、Sandomirskiy和Yanovskaya（2017）在先前的工作中将该规则扩展到家务。该规则为货物和家务都提供了帕累托最优和无嫉妒的分配方案。对于货物来说，竞争性规则的结果可以很容易地计算得到。竞争性分配方案解决了Eisenberg-Gale凸优化问题；因此结果是唯一的，并可以通过标准梯度方法近似地找到。Orlin（2010）提供了一种在代理人和货物数量多项式时间内运行的精确算法。对于家务来说，竞争性规则无法解决任何凸优化问题；相反，竞争性分配对应于纳什社会福利的局部最小值、局部最大值和鞍点。
+    近年来，欧洲监管机构一直在就限制在线追踪用户的时间以更好地保护消费者隐私问题展开辩论。尽管这些辩论具有重要意义，但显然缺乏任何综合的成本效益分析。本文从成本方面提出了一种方法，旨在估计限制Cookie寿命对出版商的经济影响。对在2.5年内收到1.28亿广告展示的54,127个用户的Cookie进行的实证研究得出了平均Cookie寿命为279天，平均价值为2.52欧元/个。只有13%的cookie会随时间增值，但它们的平均价值约为所有cookie平均价值的四倍。将Cookie寿命限制在一年（两年）会使其寿命价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。鉴于106亿欧元的基于Cookie的展示广告收入，Cookie限制可能对出版商产生显着的经济影响。
 
-    We study the problem of allocating divisible bads (chores) among multiple agents with additive utilities when monetary transfers are not allowed. The competitive rule is known for its remarkable fairness and efficiency properties in the case of goods. This rule was extended to chores in prior work by Bogomolnaia, Moulin, Sandomirskiy, and Yanovskaya (2017). The rule produces Pareto optimal and envy-free allocations for both goods and chores. In the case of goods, the outcome of the competitive rule can be easily computed. Competitive allocations solve the Eisenberg-Gale convex program; hence the outcome is unique and can be approximately found by standard gradient methods. An exact algorithm that runs in polynomial time in the number of agents and goods was given by Orlin (2010).  In the case of chores, the competitive rule does not solve any convex optimization problem; instead, competitive allocations correspond to local minima, local maxima, and saddle points of the Nash social welf
+    In recent years, European regulators have debated restricting the time an online tracker can track a user to protect consumer privacy better. Despite the significance of these debates, there has been a noticeable absence of any comprehensive cost-benefit analysis. This article fills this gap on the cost side by suggesting an approach to estimate the economic consequences of lifetime restrictions on cookies for publishers. The empirical study on cookies of 54,127 users who received 128 million ad impressions over 2.5 years yields an average cookie lifetime of 279 days, with an average value of EUR 2.52 per cookie. Only 13% of all cookies increase their daily value over time, but their average value is about four times larger than the average value of all cookies. Restricting cookies lifetime to one year (two years) decreases their lifetime value by 25% (19%), which represents a decrease in the value of all cookies of 9% (5%). In light of the EUR 10.60 billion cookie-based display ad rev
+    
+[^11]: 二维函数时间序列的合规预测带
+
+    Conformal Prediction Bands for Two-Dimensional Functional Time Series. (arXiv:2207.13656v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2207.13656](http://arxiv.org/abs/2207.13656)
+
+    该论文提出了一个针对二维函数时间序列的合规预测带方法，并介绍了一种用于预测的概率框架和不确定性量化技术。将函数自回归过程扩展到该设置，并在真实数据集上进行了实证研究。
+
+    
+
+    时间演化的表面可以被建模为二维函数时间序列，利用函数数据分析的工具。本研究开发了一个针对这种复杂数据的预测框架。主要关注点是合规预测，这是一种用于量化预测问题中的不确定性的多功能非参数范例。在最近的二维函数时间序列合规预测的变种基础上，提出了一种概率预测方案，并对一阶函数自回归过程在该设置下的扩展进行了建议。引入了后者的估计技术，并通过预测区域来比较它们的性能。最后，将所提出的预测程序和不确定性量化技术应用于黑海日常海平面异常观测的真实数据集。
+
+    Time evolving surfaces can be modeled as two-dimensional Functional time series, exploiting the tools of Functional data analysis. Leveraging this approach, a forecasting framework for such complex data is developed. The main focus revolves around Conformal Prediction, a versatile nonparametric paradigm used to quantify uncertainty in prediction problems. Building upon recent variations of Conformal Prediction for Functional time series, a probabilistic forecasting scheme for two-dimensional functional time series is presented, while providing an extension of Functional Autoregressive Processes of order one to this setting. Estimation techniques for the latter process are introduced and their performance are compared in terms of the resulting prediction regions. Finally, the proposed forecasting procedure and the uncertainty quantification technique are applied to a real dataset, collecting daily observations of Sea Level Anomalies of the Black Sea
+    
+[^12]: 条件处理效应的部分识别和推理
+
+    Partial Identification and Inference for Conditional Distributions of Treatment Effects. (arXiv:2108.00723v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2108.00723](http://arxiv.org/abs/2108.00723)
+
+    本文提出了一种方法，通过Makarov边界估算处理效应的条件分布的上下界，且当处理是内生的情况下提出了两种随机优势假设来进一步加强边界。
+
+    
+
+    本文考虑对可观测协变量条件下的处理效应分布进行识别和推理。由于处理效应的条件分布在没有强假设的情况下不能被点识别，我们使用Makarov边界来得到处理效应的条件分布的上下界。我们还考虑了处理是内生的情况，并提出了两种随机优势假设来加强边界。我们提出了一种非参数框架来估计边界，并建立了在处理效应支持的范围内一致有效的渐近理论。一个实证例子展示了方法的实用性。
+
+    This paper considers identification and inference for the distribution of treatment effects conditional on observable covariates. Since the conditional distribution of treatment effects is not point identified without strong assumptions, we obtain bounds on the conditional distribution of treatment effects by using the Makarov bounds. We also consider the case where the treatment is endogenous and propose two stochastic dominance assumptions to tighten the bounds. We develop a nonparametric framework to estimate the bounds and establish the asymptotic theory that is uniformly valid over the support of treatment effects. An empirical example illustrates the usefulness of the methods.
+    
+[^13]: 购买历史与产品个性化
+
+    Purchase history and product personalization. (arXiv:2103.11504v5 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2103.11504](http://arxiv.org/abs/2103.11504)
+
+    研究探讨了产品个性化对价格歧视的影响，并发现通过控制产品个性化程度，上游公司可以抑制由消费者面临下游价格歧视产生的推高力量。
+
+    
+
+    产品个性化打开了价格歧视的大门。丰富的产品线使企业能够更好地根据消费者的口味定制产品，但选择产品本身就包含着有价值的消费者信息，这些信息可以被用来进行价格歧视。我们在一个上游-下游模型中研究了这种权衡，其中消费者先购买上游的可变质量商品，然后购买不可分割的下游商品。下游公司利用消费者的购买历史进行价格歧视引入了一种新的扭曲：上游公司提供的产品子集如果能够联合设计产品线和下游定价，将会有不同选择。通过控制产品个性化程度，上游公司抑制了由消费者面临下游价格歧视产生的推高力量。
+
+    Product personalization opens the door to price discrimination. A rich product line allows firms to better tailor products to consumers' tastes, but the mere choice of a product carries valuable information about consumers that can be leveraged for price discrimination. We study this trade-off in an upstream-downstream model, where a consumer buys a good of variable quality upstream, followed by an indivisible good downstream. The downstream firm's use of the consumer's purchase history for price discrimination introduces a novel distortion: The upstream firm offers a subset of the products that it would offer if, instead, it could jointly design its product line and downstream pricing. By controlling the degree of product personalization the upstream firm curbs ratcheting forces that result from the consumer facing downstream price discrimination.
     
 
