@@ -1,0 +1,11 @@
+{
+    "title": "Repeated Observations for Classification. (arXiv:2307.09896v1 [cs.IT])",
+    "abstract": "We study the problem nonparametric classification with repeated observations. Let $\\bX$ be the $d$ dimensional feature vector and let $Y$ denote the label taking values in $\\{1,\\dots ,M\\}$. In contrast to usual setup with large sample size $n$ and relatively low dimension $d$, this paper deals with the situation, when instead of observing a single feature vector $\\bX$ we are given $t$ repeated feature vectors $\\bV_1,\\dots ,\\bV_t $. Some simple classification rules are presented such that the conditional error probabilities have exponential convergence rate of convergence as $t\\to\\infty$. In the analysis, we investigate particular models like robust detection by nominal densities, prototype classification, linear transformation, linear classification, scaling.",
+    "link": "http://arxiv.org/abs/2307.09896",
+    "context": "Title: Repeated Observations for Classification. (arXiv:2307.09896v1 [cs.IT])\nAbstract: We study the problem nonparametric classification with repeated observations. Let $\\bX$ be the $d$ dimensional feature vector and let $Y$ denote the label taking values in $\\{1,\\dots ,M\\}$. In contrast to usual setup with large sample size $n$ and relatively low dimension $d$, this paper deals with the situation, when instead of observing a single feature vector $\\bX$ we are given $t$ repeated feature vectors $\\bV_1,\\dots ,\\bV_t $. Some simple classification rules are presented such that the conditional error probabilities have exponential convergence rate of convergence as $t\\to\\infty$. In the analysis, we investigate particular models like robust detection by nominal densities, prototype classification, linear transformation, linear classification, scaling.",
+    "path": "papers/23/07/2307.09896.json",
+    "total_tokens": 782,
+    "translated_title": "重复观测进行分类",
+    "translated_abstract": "我们研究了非参数分类问题中的重复观测问题。令$\\bX$为$d$维特征向量，$Y$为取值在$\\{1,\\dots ,M\\}$之间的标签。与通常样本量$n$较大，维度较低$d$的设置不同的是，本文处理的是当我们不是观测到一个单一的特征向量$\\bX$，而是给出$t$个重复的特征向量$\\bV_1,\\dots ,\\bV_t $的情况。我们提出了一些简单的分类规则，使得条件错误概率的收敛速度随着$t\\to\\infty$呈指数收敛。在分析中，我们研究了一些特定的模型，如基于名义密度的鲁棒检测，原型分类，线性变换，线性分类和尺度变换。",
+    "tldr": "本文研究了非参数分类中的重复观测问题，提出了一些简单的分类规则，并证明了当重复观测次数$t\\to\\infty$时，条件错误概率以指数速度收敛。"
+}
