@@ -1,0 +1,12 @@
+{
+    "title": "Automatic Conversion of MiniZinc Programs to QUBO. (arXiv:2307.10032v1 [cs.MS])",
+    "abstract": "Obtaining Quadratic Unconstrained Binary Optimisation models for various optimisation problems, in order to solve those on physical quantum computers (such as the the DWave annealers) is nowadays a lengthy and tedious process that requires one to remodel all problem variables as binary variables and squeeze the target function and the constraints into a single quadratic polynomial into these new variables.  We report here on the basis of our automatic converter from MiniZinc to QUBO, which is able to process a large set of constraint optimisation and constraint satisfaction problems and turn them into equivalent QUBOs, effectively optimising the whole process.",
+    "link": "http://arxiv.org/abs/2307.10032",
+    "context": "Title: Automatic Conversion of MiniZinc Programs to QUBO. (arXiv:2307.10032v1 [cs.MS])\nAbstract: Obtaining Quadratic Unconstrained Binary Optimisation models for various optimisation problems, in order to solve those on physical quantum computers (such as the the DWave annealers) is nowadays a lengthy and tedious process that requires one to remodel all problem variables as binary variables and squeeze the target function and the constraints into a single quadratic polynomial into these new variables.  We report here on the basis of our automatic converter from MiniZinc to QUBO, which is able to process a large set of constraint optimisation and constraint satisfaction problems and turn them into equivalent QUBOs, effectively optimising the whole process.",
+    "path": "papers/23/07/2307.10032.json",
+    "total_tokens": 689,
+    "translated_title": "MiniZinc程序自动转换为QUBO",
+    "translated_abstract": "获取用于各种优化问题的二次无约束二进制优化模型，以便在物理量子计算机（如DWave退火器）上解决这些问题，现如今是一个冗长而繁琐的过程，需要将所有问题变量重新建模为二进制变量，并将目标函数和约束压缩为一个二次多项式。我们在这里报告了我们从MiniZinc到QUBO的自动转换器的基础，该转换器能够处理大量的约束优化和约束满足问题，并将它们转换为等效的QUBOs，有效地优化整个过程。",
+    "tldr": "该论文介绍了一个自动将MiniZinc程序转换为QUBO的工具，能够高效地处理约束优化和约束满足问题，大大简化了从优化问题到QUBO模型的过程。",
+    "en_tdlr": "This paper presents an automatic converter from MiniZinc to QUBO, which effectively optimizes the process of transforming constraint optimization and constraint satisfaction problems into equivalent QUBOs, providing a simplified solution for obtaining QUBO models for various optimization problems."
+}

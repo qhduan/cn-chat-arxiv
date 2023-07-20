@@ -1,0 +1,12 @@
+{
+    "title": "Neural Priority Queues for Graph Neural Networks. (arXiv:2307.09660v1 [cs.LG])",
+    "abstract": "Graph Neural Networks (GNNs) have shown considerable success in neural algorithmic reasoning. Many traditional algorithms make use of an explicit memory in the form of a data structure. However, there has been limited exploration on augmenting GNNs with external memory. In this paper, we present Neural Priority Queues, a differentiable analogue to algorithmic priority queues, for GNNs. We propose and motivate a desiderata for memory modules, and show that Neural PQs exhibit the desiderata, and reason about their use with algorithmic reasoning. This is further demonstrated by empirical results on the CLRS-30 dataset. Furthermore, we find the Neural PQs useful in capturing long-range interactions, as empirically shown on a dataset from the Long-Range Graph Benchmark.",
+    "link": "http://arxiv.org/abs/2307.09660",
+    "context": "Title: Neural Priority Queues for Graph Neural Networks. (arXiv:2307.09660v1 [cs.LG])\nAbstract: Graph Neural Networks (GNNs) have shown considerable success in neural algorithmic reasoning. Many traditional algorithms make use of an explicit memory in the form of a data structure. However, there has been limited exploration on augmenting GNNs with external memory. In this paper, we present Neural Priority Queues, a differentiable analogue to algorithmic priority queues, for GNNs. We propose and motivate a desiderata for memory modules, and show that Neural PQs exhibit the desiderata, and reason about their use with algorithmic reasoning. This is further demonstrated by empirical results on the CLRS-30 dataset. Furthermore, we find the Neural PQs useful in capturing long-range interactions, as empirically shown on a dataset from the Long-Range Graph Benchmark.",
+    "path": "papers/23/07/2307.09660.json",
+    "total_tokens": 767,
+    "translated_title": "图神经网络的神经优先队列",
+    "translated_abstract": "图神经网络（GNN）在神经算法推理中取得了可观的成功。许多传统算法使用显式内存来表示数据结构。然而，对于将GNN与外部内存相结合的探索还存在局限性。本文提出了神经优先队列，这是一种可微分的算法优先队列，用于GNN。我们提出并推动了一种内存模块的期望，证明了神经优先队列满足该期望，并通过对算法推理的理解来解释其使用。通过在CLRS-30数据集上的实证结果进一步证明了这一点。此外，我们发现神经优先队列在捕捉长距离交互方面非常有用，这在Long-Range Graph Benchmark的数据集上得到了实证。",
+    "tldr": "本文提出了神经优先队列，这是一种用于图神经网络的可微分的模块，并通过在不同数据集上的实验结果验证了其在算法推理和捕捉长距离交互方面的有效性。",
+    "en_tdlr": "This paper proposes Neural Priority Queues, a differentiable module for Graph Neural Networks, and validates its effectiveness in algorithmic reasoning and capturing long-range interactions through experiments on different datasets."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Note on Hardness of Computing Recursive Teaching Dimension. (arXiv:2307.09792v1 [cs.CC])",
+    "abstract": "In this short note, we show that the problem of computing the recursive teaching dimension (RTD) for a concept class (given explicitly as input) requires $n^{\\Omega(\\log n)}$-time, assuming the exponential time hypothesis (ETH). This matches the running time $n^{O(\\log n)}$ of the brute-force algorithm for the problem.",
+    "link": "http://arxiv.org/abs/2307.09792",
+    "context": "Title: A Note on Hardness of Computing Recursive Teaching Dimension. (arXiv:2307.09792v1 [cs.CC])\nAbstract: In this short note, we show that the problem of computing the recursive teaching dimension (RTD) for a concept class (given explicitly as input) requires $n^{\\Omega(\\log n)}$-time, assuming the exponential time hypothesis (ETH). This matches the running time $n^{O(\\log n)}$ of the brute-force algorithm for the problem.",
+    "path": "papers/23/07/2307.09792.json",
+    "total_tokens": 588,
+    "translated_title": "计算递归教学维度的难度的注释",
+    "translated_abstract": "在这个简短的注释中，我们展示了计算递归教学维度（RTD）问题（给定作为输入的概念类）需要$n^{\\Omega(\\log n)}$的时间，假设指数时间假设（ETH）成立。这与问题的暴力算法的运行时间$n^{O(\\log n)}$相匹配。",
+    "tldr": "本文研究了计算递归教学维度（RTD）问题的难度，证明了在指数时间假设（ETH）下，该问题的计算时间为$n^{\\Omega(\\log n)}$，与暴力算法的运行时间相匹配。",
+    "en_tdlr": "This note discusses the hardness of computing the recursive teaching dimension (RTD) problem and proves that it requires $n^{\\Omega(\\log n)}$-time under the exponential time hypothesis (ETH), which matches the running time of the brute-force algorithm for the problem."
+}

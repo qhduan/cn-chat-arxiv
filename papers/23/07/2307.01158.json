@@ -1,0 +1,11 @@
+{
+    "title": "Theory of Mind as Intrinsic Motivation for Multi-Agent Reinforcement Learning. (arXiv:2307.01158v2 [cs.LG] UPDATED)",
+    "abstract": "The ability to model the mental states of others is crucial to human social intelligence, and can offer similar benefits to artificial agents with respect to the social dynamics induced in multi-agent settings. We present a method of grounding semantically meaningful, human-interpretable beliefs within policies modeled by deep networks. We then consider the task of 2nd-order belief prediction. We propose that ability of each agent to predict the beliefs of the other agents can be used as an intrinsic reward signal for multi-agent reinforcement learning. Finally, we present preliminary empirical results in a mixed cooperative-competitive environment.",
+    "link": "http://arxiv.org/abs/2307.01158",
+    "context": "Title: Theory of Mind as Intrinsic Motivation for Multi-Agent Reinforcement Learning. (arXiv:2307.01158v2 [cs.LG] UPDATED)\nAbstract: The ability to model the mental states of others is crucial to human social intelligence, and can offer similar benefits to artificial agents with respect to the social dynamics induced in multi-agent settings. We present a method of grounding semantically meaningful, human-interpretable beliefs within policies modeled by deep networks. We then consider the task of 2nd-order belief prediction. We propose that ability of each agent to predict the beliefs of the other agents can be used as an intrinsic reward signal for multi-agent reinforcement learning. Finally, we present preliminary empirical results in a mixed cooperative-competitive environment.",
+    "path": "papers/23/07/2307.01158.json",
+    "total_tokens": 753,
+    "translated_title": "多智能体强化学习中心理推理作为内在动机的理论",
+    "translated_abstract": "模拟他人内心状态对于人类的社会智能至关重要，并且对于人工智能代理来说，在多智能体环境中也可以提供类似的好处。我们提出了一种通过深度网络模型来建立语义有意义、人类可解释的信念的方法。然后，我们考虑了二阶信念预测的任务。我们认为，每个智能体能够预测其他智能体的信念的能力可以作为多智能体强化学习的内在奖励信号。最后，我们在一个混合的合作竞争环境中呈现了初步的实证结果。",
+    "tldr": "本论文提出了一种方法来建立语义有意义、人类可解释的信念，并将其应用于多智能体强化学习中。研究发现，通过预测其他智能体的信念来作为内在奖励信号，可以在多智能体环境中产生良好的效果。"
+}

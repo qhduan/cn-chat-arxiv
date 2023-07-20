@@ -1,0 +1,12 @@
+{
+    "title": "Convex Geometry of ReLU-layers, Injectivity on the Ball and Local Reconstruction. (arXiv:2307.09672v1 [cs.LG])",
+    "abstract": "The paper uses a frame-theoretic setting to study the injectivity of a ReLU-layer on the closed ball of $\\mathbb{R}^n$ and its non-negative part. In particular, the interplay between the radius of the ball and the bias vector is emphasized. Together with a perspective from convex geometry, this leads to a computationally feasible method of verifying the injectivity of a ReLU-layer under reasonable restrictions in terms of an upper bound of the bias vector. Explicit reconstruction formulas are provided, inspired by the duality concept from frame theory. All this gives rise to the possibility of quantifying the invertibility of a ReLU-layer and a concrete reconstruction algorithm for any input vector on the ball.",
+    "link": "http://arxiv.org/abs/2307.09672",
+    "context": "Title: Convex Geometry of ReLU-layers, Injectivity on the Ball and Local Reconstruction. (arXiv:2307.09672v1 [cs.LG])\nAbstract: The paper uses a frame-theoretic setting to study the injectivity of a ReLU-layer on the closed ball of $\\mathbb{R}^n$ and its non-negative part. In particular, the interplay between the radius of the ball and the bias vector is emphasized. Together with a perspective from convex geometry, this leads to a computationally feasible method of verifying the injectivity of a ReLU-layer under reasonable restrictions in terms of an upper bound of the bias vector. Explicit reconstruction formulas are provided, inspired by the duality concept from frame theory. All this gives rise to the possibility of quantifying the invertibility of a ReLU-layer and a concrete reconstruction algorithm for any input vector on the ball.",
+    "path": "papers/23/07/2307.09672.json",
+    "total_tokens": 752,
+    "translated_title": "ReLU层的凸几何、球上的可逆性和局部重构研究",
+    "translated_abstract": "本文使用框架理论的方法研究了ReLU层在闭球和非负部分上的可逆性。特别强调了球的半径和偏置向量之间的相互作用。结合了凸几何的视角，得到了一种可行的计算方法，可以在合理的约束条件下验证ReLU层的可逆性，其中约束条件是偏置向量的上界。文中还提供了明确的重构公式，灵感来自框架理论中的对偶概念。所有这些都为量化ReLU层的可逆性以及球上任意输入向量的具体重构算法提供了可能性。",
+    "tldr": "本文研究了ReLU层在闭球和非负部分上的可逆性，并提供了使用凸几何视角和框架理论中的对偶概念来验证和重构ReLU层的计算方法。",
+    "en_tdlr": "This paper investigates the injectivity of a ReLU-layer on the closed ball and its non-negative part, and provides a computationally feasible method for verifying and reconstructing ReLU-layers using a perspective from convex geometry and the duality concept from frame theory."
+}

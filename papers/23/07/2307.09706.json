@@ -1,0 +1,12 @@
+{
+    "title": "RaTE: a Reproducible automatic Taxonomy Evaluation by Filling the Gap. (arXiv:2307.09706v1 [cs.CL])",
+    "abstract": "Taxonomies are an essential knowledge representation, yet most studies on automatic taxonomy construction (ATC) resort to manual evaluation to score proposed algorithms. We argue that automatic taxonomy evaluation (ATE) is just as important as taxonomy construction. We propose RaTE, an automatic label-free taxonomy scoring procedure, which relies on a large pre-trained language model. We apply our evaluation procedure to three state-of-the-art ATC algorithms with which we built seven taxonomies from the Yelp domain, and show that 1) RaTE correlates well with human judgments and 2) artificially degrading a taxonomy leads to decreasing RaTE score.",
+    "link": "http://arxiv.org/abs/2307.09706",
+    "context": "Title: RaTE: a Reproducible automatic Taxonomy Evaluation by Filling the Gap. (arXiv:2307.09706v1 [cs.CL])\nAbstract: Taxonomies are an essential knowledge representation, yet most studies on automatic taxonomy construction (ATC) resort to manual evaluation to score proposed algorithms. We argue that automatic taxonomy evaluation (ATE) is just as important as taxonomy construction. We propose RaTE, an automatic label-free taxonomy scoring procedure, which relies on a large pre-trained language model. We apply our evaluation procedure to three state-of-the-art ATC algorithms with which we built seven taxonomies from the Yelp domain, and show that 1) RaTE correlates well with human judgments and 2) artificially degrading a taxonomy leads to decreasing RaTE score.",
+    "path": "papers/23/07/2307.09706.json",
+    "total_tokens": 747,
+    "translated_title": "RaTE: 通过填补空白实现可重复的自动分类评估",
+    "translated_abstract": "分类法对于知识表示是必不可少的，然而，大多数关于自动分类构建的研究仍然依赖于人工评估来评分提出的算法。我们认为自动分类评估和分类构建一样重要。我们提出了RaTE，一种无标签的自动分类评分方法，它依赖于一个大型预训练的语言模型。我们将该评估方法应用于三种最先进的自动分类构建算法，并从Yelp领域构建了七个分类法，结果显示：1）RaTE与人类评判的相关性较高；2）人为降低分类法会导致RaTE评分下降。",
+    "tldr": "RaTE是一种无标签的自动分类评分方法，它通过大型预训练的语言模型实现可重复的自动分类评估。结果表明，RaTE与人类评判具有较高的相关性，并且人为降低分类法会导致RaTE评分下降。",
+    "en_tdlr": "RaTE is an automatic label-free taxonomy scoring method that enables reproducible automatic taxonomy evaluation using a large pre-trained language model. Results show that RaTE has a high correlation with human judgments and artificially degrading a taxonomy leads to decreasing RaTE scores."
+}

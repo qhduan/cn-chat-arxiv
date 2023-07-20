@@ -1,0 +1,11 @@
+{
+    "title": "A Dual Formulation for Probabilistic Principal Component Analysis. (arXiv:2307.10078v1 [cs.LG])",
+    "abstract": "In this paper, we characterize Probabilistic Principal Component Analysis in Hilbert spaces and demonstrate how the optimal solution admits a representation in dual space. This allows us to develop a generative framework for kernel methods. Furthermore, we show how it englobes Kernel Principal Component Analysis and illustrate its working on a toy and a real dataset.",
+    "link": "http://arxiv.org/abs/2307.10078",
+    "context": "Title: A Dual Formulation for Probabilistic Principal Component Analysis. (arXiv:2307.10078v1 [cs.LG])\nAbstract: In this paper, we characterize Probabilistic Principal Component Analysis in Hilbert spaces and demonstrate how the optimal solution admits a representation in dual space. This allows us to develop a generative framework for kernel methods. Furthermore, we show how it englobes Kernel Principal Component Analysis and illustrate its working on a toy and a real dataset.",
+    "path": "papers/23/07/2307.10078.json",
+    "total_tokens": 588,
+    "translated_title": "概率主成分分析的双重表述",
+    "translated_abstract": "本文中，我们在希尔伯特空间中对概率主成分分析进行了表述，并展示了最优解在对偶空间中的表示。这使得我们能够发展出一种适用于核方法的生成框架。此外，我们展示了它如何吸纳了核主成分分析，并在一个虚拟数据集和一个真实数据集上进行了演示。",
+    "tldr": "本文探讨了概率主成分分析在希尔伯特空间中的双重表述方法，并发展了适用于核方法的生成框架。作者通过实验证明了该方法能兼容核主成分分析，并在虚拟和真实数据集上进行了验证。"
+}

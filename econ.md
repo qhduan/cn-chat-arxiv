@@ -2,202 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Model of Competitive Assortment Planning Algorithm.](http://arxiv.org/abs/2307.09479) | 本研究提出了一种新颖的竞争性组合规划算法模型，通过考虑贝叶斯方法和两阶段优化技术，揭示数字市场中的竞争性概念。该模型避免了平台与大型供应商之间的勾结，同时保持了竞争力并最大化预期收入。 |
-| [^2] | [Risk Preference Types, Limited Consideration, and Welfare.](http://arxiv.org/abs/2307.09411) | 本研究提供了关于风险决策混合模型的半非参数点识别的充分条件，在多个保险覆盖领域中，代理人根据两种偏好类型做出选择，并允许考虑集中存在未观察到的异质性。 |
-| [^3] | [Socio-spatial Inequalities in a Context of "Great Economic Wealth". Case study of neighbourhoods of Luxembourg City.](http://arxiv.org/abs/2307.09251) | 该研究通过对卢森堡市社区进行分析，揭示了在“巨大经济财富”背景下的社会空间不平等现象。研究发现，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。 |
-| [^4] | [COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?.](http://arxiv.org/abs/2307.09035) | 该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。 |
-| [^5] | [The Begining of the Trend: Interest Rates, Markups, and Inflation.](http://arxiv.org/abs/2307.08968) | 这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。 |
-| [^6] | [Culture, Gender, and Labor Force Participation: Evidence from Colombia.](http://arxiv.org/abs/2307.08869) | 该研究调查了将性别平等纳入哥伦比亚宪法对性别平等态度、性别歧视经历和劳动力市场参与的影响。研究发现，女性的劳动力市场参与显著增加，同时男性对性别平等持更大的支持，女性经历的性别歧视减少。这表明在家庭中存在持续的权力斗争。 |
-| [^7] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
-| [^8] | [Comparative Analysis of Machine Learning, Hybrid, and Deep Learning Forecasting Models Evidence from European Financial Markets and Bitcoins.](http://arxiv.org/abs/2307.08853) | 本研究通过比较统计学、机器学习和深度学习的预测模型，发现预测金融市场波动具有挑战性，准确性普遍较低。在不同时间段中，ARIMA和混合ETS-ANN模型在预测上表现较好，而kNN模型在某些时期中表现较优。尽管如此，提高金融市场预测准确性仍然是一个挑战。 |
-| [^9] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
-| [^10] | [Economic Consequences of Online Tracking Restrictions.](http://arxiv.org/abs/2303.09147) | 该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。 |
-| [^11] | [Conformal Prediction Bands for Two-Dimensional Functional Time Series.](http://arxiv.org/abs/2207.13656) | 该论文提出了一个针对二维函数时间序列的合规预测带方法，并介绍了一种用于预测的概率框架和不确定性量化技术。将函数自回归过程扩展到该设置，并在真实数据集上进行了实证研究。 |
-| [^12] | [Partial Identification and Inference for Conditional Distributions of Treatment Effects.](http://arxiv.org/abs/2108.00723) | 本文提出了一种方法，通过Makarov边界估算处理效应的条件分布的上下界，且当处理是内生的情况下提出了两种随机优势假设来进一步加强边界。 |
-| [^13] | [Purchase history and product personalization.](http://arxiv.org/abs/2103.11504) | 研究探讨了产品个性化对价格歧视的影响，并发现通过控制产品个性化程度，上游公司可以抑制由消费者面临下游价格歧视产生的推高力量。 |
+| [^1] | [Reconciling the Theory of Factor Sequences.](http://arxiv.org/abs/2307.10067) | 该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。 |
+| [^2] | [Asymptotic equivalence of Principal Component and Quasi Maximum Likelihood estimators in Large Approximate Factor Models.](http://arxiv.org/abs/2307.09864) | 在大型近似因子模型中，我们证明主成分估计的因子载荷与准极大似然估计的载荷等价，同时这两种估计也与不可行最小二乘估计的载荷等价。我们还证明了准极大似然估计的协方差矩阵与不可行最小二乘的协方差矩阵等价，从而可以简化准极大似然估计的置信区间的估计过程。所有结果都适用于假设异方差跨截面的一般情况。 |
+| [^3] | [Power to the teens? A model of parents' and teens' collective labor supply.](http://arxiv.org/abs/2307.09634) | 本研究探讨了青少年和父母在家庭决策过程中的共同作用，发现了父母和青少年之间的讨价还价过程导致了性别差距，并提出了一个集体家庭模型。这一结果表明，儿子参加学校的机会成本比女儿更高，公共政策必须考虑到这种性别差距。 |
+| [^4] | [Reparametrization and the Semiparametric Bernstein-von-Mises Theorem.](http://arxiv.org/abs/2306.03816) | 本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。 |
+| [^5] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^6] | [Cointegration with Occasionally Binding Constraints.](http://arxiv.org/abs/2211.09604) | 本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。 |
+| [^7] | [On Estimation and Inference of Large Approximate Dynamic Factor Models via the Principal Component Analysis.](http://arxiv.org/abs/2211.01921) | 本文研究了大型近似动态因子模型的主成分分析估计和推断，提供了渐近结果的替代推导，并且通过经典的样本协方差矩阵进行估计，得出它们等价于OLS的结论。 |
+| [^8] | [Beta-Sorted Portfolios.](http://arxiv.org/abs/2208.10974) | 该论文对Beta分类组合投资组合进行了研究，通过将过程形式化为一个由非参数第一步和Beta自适应投资组合构建组成的两步非参数估计器，解释了该估计算法的关键特征，并提供了条件以确保一致性和渐近正态性。 |
+| [^9] | [Unconditional Effects of General Policy Interventions.](http://arxiv.org/abs/2201.02292) | 该论文研究了通用政策干预的无条件效应，包括位置-比例换算和同时换算。使用简单的半参数估计器对无条件政策参数进行估计，并应用于明塞尔方程以研究其效果。 |
+| [^10] | [A Design-Based Perspective on Synthetic Control Methods.](http://arxiv.org/abs/2101.09398) | 本文从设计角度研究了合成控制（SC）方法，提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，并且其均方根误差低于其他常见估计器。 |
+| [^11] | [An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?.](http://arxiv.org/abs/2011.14999) | 该论文提出了一种自动的有限样本稳健性度量方法，用于评估应用计量经济学结论对样本的小部分删除的敏感性。 |
+| [^12] | [Identification and Estimation of Unconditional Policy Effects of an Endogenous Binary Treatment: an Unconditional MTE Approach.](http://arxiv.org/abs/2010.15864) | 本文介绍了一种基于函数影响函数的无条件边际处理效应（MTE）的新方法，研究了处理状态为二元且内生时策略效应的识别与估计。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。对于感兴趣的分位数，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。 |
 
 # 详细
 
-[^1]: 竞争组合规划算法模型
+[^1]: 调和因子序列理论
 
-    A Model of Competitive Assortment Planning Algorithm. (arXiv:2307.09479v1 [econ.TH])
+    Reconciling the Theory of Factor Sequences. (arXiv:2307.10067v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.09479](http://arxiv.org/abs/2307.09479)
+    [http://arxiv.org/abs/2307.10067](http://arxiv.org/abs/2307.10067)
 
-    本研究提出了一种新颖的竞争性组合规划算法模型，通过考虑贝叶斯方法和两阶段优化技术，揭示数字市场中的竞争性概念。该模型避免了平台与大型供应商之间的勾结，同时保持了竞争力并最大化预期收入。
-
-    
-
-    本研究提出了一种新颖的搜索算法或组合规划算法，该算法考虑了贝叶斯信息更新和两阶段组合优化技术，为数字市场中的竞争性概念提供了一种新的理解。通过搜索算法，在平台、供应商和平台的自有品牌之间存在竞争。本文提出了一个模型，并讨论了通过组合规划或组合优化算法在数字市场中如何产生竞争和勾结。此外，本文提出了一个无虚假合作的组合规划模型，以防止平台和大型供应商之间的勾结。本文的主要结论是，勾结的组合可能会提高产品购买的可能性，但无法最大化预期收入。而提出的组合规划方法在保持竞争力的同时最大化预期收入。
-
-    With a novel search algorithm or assortment planning or assortment optimization algorithm that takes into account a Bayesian approach to information updating and two-stage assortment optimization techniques, the current research provides a novel concept of competitiveness in the digital marketplace. Via the search algorithm, there is competition between the platform, vendors, and private brands of the platform. The current paper suggests a model and discusses how competition and collusion arise in the digital marketplace through assortment planning or assortment optimization algorithm. Furthermore, it suggests a model of an assortment algorithm free from collusion between the platform and the large vendors. The paper's major conclusions are that collusive assortment may raise a product's purchase likelihood but fail to maximize expected revenue. The proposed assortment planning, on the other hand, maintains competitiveness while maximizing expected revenue.
-    
-[^2]: 风险偏好类型、有限考虑和福利
-
-    Risk Preference Types, Limited Consideration, and Welfare. (arXiv:2307.09411v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.09411](http://arxiv.org/abs/2307.09411)
-
-    本研究提供了关于风险决策混合模型的半非参数点识别的充分条件，在多个保险覆盖领域中，代理人根据两种偏好类型做出选择，并允许考虑集中存在未观察到的异质性。
+    该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。
 
     
 
-    我们提供了一个风险决策混合模型的半非参数点识别的充分条件，当代理人通过购买捆绑商品在多个保险覆盖领域（环境）中做出选择。作为与相关文献的首次分歧，该模型允许两种偏好类型。在第一种类型中，代理人根据标准期望效用理论以CARA伯努利效用函数的方式行为，其绝对风险厌恶系数的分布完全未指定。在另一种类型中，代理人根据风险选择的对偶理论（Yaari，1987）和一个一参数家族失真函数的方式行为，其中参数是特定的代理人，并且其分布完全未指定。在每种偏好类型中，模型允许在考虑集中存在未观察到的异质性，而考虑集在捆绑水平上形成，这是与相关文献的第二个分歧处。
+    因子序列是随机的双序列$(y_{it}: i \in \mathbb N, t \in \mathbb Z)$，以时间和横截面为索引，具有所谓的因子结构。该名词由Forni等人于2001年提出，引入了动态因子序列。我们展示了动态因子序列和静态因子序列之间的区别，静态因子序列是计量经济学因子分析中最常见的工作模型，基于Chamberlain和Rothschild （1983），Stock和Watson（2002）和Bai和Ng（2002）。区别在于我们所称的弱共同成分，该成分由潜在无限多个弱因子所构成。忽略弱共同成分可能对结构分析和预测中因子模型的应用产生重大影响。我们还展示了动态因子序列的动态共同成分在一般条件下是因果从属于输出的。因此，只有动态共同成分才能作为潜在经济变量的解释。
 
-    We provide sufficient conditions for semi-nonparametric point identification of a mixture model of decision making under risk, when agents make choices in multiple lines of insurance coverage (contexts) by purchasing a bundle. As a first departure from the related literature, the model allows for two preference types. In the first one, agents behave according to standard expected utility theory with CARA Bernoulli utility function, with an agent-specific coefficient of absolute risk aversion whose distribution is left completely unspecified. In the other, agents behave according to the dual theory of choice under risk(Yaari, 1987) combined with a one-parameter family distortion function, where the parameter is agent-specific and is drawn from a distribution that is left completely unspecified. Within each preference type, the model allows for unobserved heterogeneity in consideration sets, where the latter form at the bundle level -- a second departure from the related literature. Our 
+    Factor Sequences are stochastic double sequences $(y_{it}: i \in \mathbb N, t \in \mathbb Z)$ indexed in time and cross-section which have a so called factor structure. The name was coined by Forni et al. 2001, who introduced dynamic factor sequences. We show the difference between dynamic factor sequences and static factor sequences which are the most common workhorse model of econometric factor analysis building on Chamberlain and Rothschild (1983), Stock and Watson (2002) and Bai and Ng (2002). The difference consists in what we call the weak common component which is spanned by a potentially infinite number of weak factors. Ignoring the weak common component can have substantial consequences for applications of factor models in structural analysis and forecasting. We also show that the dynamic common component of a dynamic factor sequence is causally subordinated to the output under general conditions. As a consequence only the dynamic common component can be interpreted as the pro
     
-[^3]: 卢森堡城市社区的“巨大经济财富”背景下的社会空间不平等研究
+[^2]: 大型近似因子模型中主成分和准极大似然估计量的渐近等价性分析
 
-    Socio-spatial Inequalities in a Context of "Great Economic Wealth". Case study of neighbourhoods of Luxembourg City. (arXiv:2307.09251v1 [econ.GN])
+    Asymptotic equivalence of Principal Component and Quasi Maximum Likelihood estimators in Large Approximate Factor Models. (arXiv:2307.09864v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.09251](http://arxiv.org/abs/2307.09251)
+    [http://arxiv.org/abs/2307.09864](http://arxiv.org/abs/2307.09864)
 
-    该研究通过对卢森堡市社区进行分析，揭示了在“巨大经济财富”背景下的社会空间不平等现象。研究发现，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。
-
-    
-
-    尽管卢森堡是欧盟中人均GDP最高的国家之一，但由于城市快速发展，卢森堡面临着社会经济挑战。本文通过研究卢森堡市最微观且少有被分析的地理层面——社区，对这一现象进行了探讨。基于2020-2021年收集的涵盖各种社会人口特征的实证数据，运用主成分的升序分层聚类方法，确定了社区的社会空间模式。此外，还进行了Chi2检验，以研究居民的社会人口特征和社区的收入不平等程度。结果显示，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。
-
-    In spite of being one of the smallest and wealthiest countries in the European Union in terms of GDP per capita, Luxembourg is facing socio-economic challenges due to recent rapid urban transformations. This article contributes by approaching this phenomenon at the most granular and rarely analysed geographical level - the neighbourhoods of the capital, Luxembourg City. Based on collected empirical data covering various socio-demographic dimensions for 2020-2021, an ascending hierarchical classification on principal components is set out to establish neighbourhoods' socio-spatial patterns. In addition, Chi2 tests are carried out to examine residents' socio-demographic characteristics and determine income inequalities in neighbourhoods. The results reveal a clear socio-spatial divide along a north-west south-east axis. Moreover, classical factors such as gender or citizenship differences are revealed to be poorly determinant of income inequalities compared with the proportion of social 
-    
-[^4]: COVID-19需求冲击再探：广告技术是否帮助减轻中小型企业的负面影响?
-
-    COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?. (arXiv:2307.09035v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.09035](http://arxiv.org/abs/2307.09035)
-
-    该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。
+    在大型近似因子模型中，我们证明主成分估计的因子载荷与准极大似然估计的载荷等价，同时这两种估计也与不可行最小二乘估计的载荷等价。我们还证明了准极大似然估计的协方差矩阵与不可行最小二乘的协方差矩阵等价，从而可以简化准极大似然估计的置信区间的估计过程。所有结果都适用于假设异方差跨截面的一般情况。
 
     
 
-    研究探讨了COVID-19大流行对企业绩效和生存的影响，表明中小型企业（SMBs）受到的负面影响尤为严重。然而，目前对在线广告技术是否以及如何帮助塑造这些结果的研究还很有限，尤其是对SMBs而言。本研究旨在填补这一空白。通过构建和分析一个包含49个国家超过60,000家企业的新数据集，我们研究了政府封锁措施对企业生存的影响。使用离散时间生存模型进行工具变量的差分过程估计，我们发现政府封锁措施增加了全球范围内SMB关闭的可能性，但在线广告技术的使用减轻了这种负面影响。研究结果显示了国家、行业和企业规模的异质性，与理论预期一致。
+    我们证明在一个$n$维的稳定时间序列向量的近似因子模型中，通过主成分估计的因子载荷在$n\to\infty$时与准极大似然估计得到的载荷等价。这两种估计量在$n\to\infty$时也与如果观察到因子时的不可行最小二乘估计等价。我们还证明了准极大似然估计的渐近协方差矩阵的传统三明治形式与不可行最小二乘的简单渐近协方差矩阵等价。这提供了一种简单的方法来估计准极大似然估计的渐近置信区间，而不需要估计复杂的海森矩阵和费谢尔信息矩阵。所有结果均适用于假设异方差跨截面的一般情况。
 
-    Research has investigated the impact of the COVID-19 pandemic on business performance and survival, indicating particularly adverse effects for small and midsize businesses (SMBs). Yet only limited work has examined whether and how online advertising technology may have helped shape these outcomes, particularly for SMBs. The aim of this study is to address this gap. By constructing and analyzing a novel data set of more than 60,000 businesses in 49 countries, we examine the impact of government lockdowns on business survival. Using discrete-time survival models with instrumental variables and staggered difference-in-differences estimators, we find that government lockdowns increased the likelihood of SMB closure around the world but that use of online advertising technology attenuates this adverse effect. The findings show heterogeneity in country, industry, and business size, consistent with theoretical expectations.
+    We prove that in an approximate factor model for an $n$-dimensional vector of stationary time series the factor loadings estimated via Principal Components are asymptotically equivalent, as $n\to\infty$, to those estimated by Quasi Maximum Likelihood. Both estimators are, in turn, also asymptotically equivalent, as $n\to\infty$, to the unfeasible Ordinary Least Squares estimator we would have if the factors were observed. We also show that the usual sandwich form of the asymptotic covariance matrix of the Quasi Maximum Likelihood estimator is asymptotically equivalent to the simpler asymptotic covariance matrix of the unfeasible Ordinary Least Squares. This provides a simple way to estimate asymptotic confidence intervals for the Quasi Maximum Likelihood estimator without the need of estimating the Hessian and Fisher information matrices whose expressions are very complex. All our results hold in the general case in which the idiosyncratic components are cross-sectionally heteroskedast
     
-[^5]: 开始的趋势：利率、加价和通胀。(arXiv:2307.08968v1 [econ.GN])
+[^3]: 青少年权力? 父母和青少年的共同劳动力供应模型
 
-    The Begining of the Trend: Interest Rates, Markups, and Inflation. (arXiv:2307.08968v1 [econ.GN])
+    Power to the teens? A model of parents' and teens' collective labor supply. (arXiv:2307.09634v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.08968](http://arxiv.org/abs/2307.08968)
+    [http://arxiv.org/abs/2307.09634](http://arxiv.org/abs/2307.09634)
 
-    这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。
-
-    
-
-    最近的文献认为实际利率下降导致经济利润和加价显著增长。因此，有人认为市场力量的增强与通胀有关。我们通过两个相关的例子，即被视为加价上涨的市场力量增加和企业利润对通胀的影响，审视了时序敏感性对估计长期趋势的影响。我们的分析表明，样本起始日期发生四年偏移会显著影响经济利润增长趋势，占趋势的19%，或者2014年每名工人3000美元。同样，我们的定性证据表明，增加的企业利润不太可能推动通胀。
-
-    Recent literature argues the decline in real interest rates led to significant increases in economic profits and markups. Consequently, some have linked rising market power to inflation. We scrutinize the effect of time series sensitivity on estimating secular trends through two relevant examples: increasing market power perceived as rising markups and the influence of corporate profits on inflation. Our analysis reveals that a four-year shift in sample start dates significantly affects economic profit growth trends, accounting for 19% of the trend, or $3,000 per worker in 2014. Likewise, our qualitative evidence suggests that increased corporate profits are unlikely to drive inflation.
-    
-[^6]: 文化、性别和劳动力参与：来自哥伦比亚的证据
-
-    Culture, Gender, and Labor Force Participation: Evidence from Colombia. (arXiv:2307.08869v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.08869](http://arxiv.org/abs/2307.08869)
-
-    该研究调查了将性别平等纳入哥伦比亚宪法对性别平等态度、性别歧视经历和劳动力市场参与的影响。研究发现，女性的劳动力市场参与显著增加，同时男性对性别平等持更大的支持，女性经历的性别歧视减少。这表明在家庭中存在持续的权力斗争。
+    本研究探讨了青少年和父母在家庭决策过程中的共同作用，发现了父母和青少年之间的讨价还价过程导致了性别差距，并提出了一个集体家庭模型。这一结果表明，儿子参加学校的机会成本比女儿更高，公共政策必须考虑到这种性别差距。
 
     
 
-    该研究调查了将性别平等纳入1991年哥伦比亚宪法对性别平等态度、基于性别的歧视经历和劳动力市场参与的影响。使用差异研究方法，我们比较了接受义务高中课程《宪法》的个体与未接受的个体。我们的发现显示，劳动力市场参与显著增加，主要由女性推动。接受这些课程也影响了性别平等的态度，男性表现出更大的支持。女性报告称经历的基于性别的歧视较少。重要的是，我们的结果表明，女性增加的劳动力市场参与不太可能是由于男性伴侣减少了障碍。男性和女性对于家庭领域的传统性别规范的意见存在差异，突显了家庭内部的权力斗争。
+    青少年在成长环境中的需求和资源的限制下做出了改变一生的决策。家庭行为模型通常将决策权委托给青少年或他们的父母，忽略了家庭中的共同决策过程。本研究利用2011年至2019年的哥斯达黎加Encuesta Nacional de Hogares的数据和有条件的现金转移计划，展示了青少年和父母如何共同分配时间和收入。首先，通过边际处理效应框架，展示了家庭对转移的性别差异响应。其次，解释了结果中的性别差距是由父母和青少年之间的讨价还价过程导致的。研究提出了一个集体家庭模型，并显示儿子与父母合作讨价的，而女儿却不是。这一结果意味着儿子上学的机会成本比女儿高。针对青少年的公共政策必须考虑到这种性别差距才能有效果。
 
-    This study investigates the impact of integrating gender equality into the Colombian constitution of 1991 on attitudes towards gender equality, experiences of gender-based discrimination, and labor market participation. Using a difference-in-discontinuities framework, we compare individuals exposed to mandatory high school courses on the Constitution with those who were not exposed. Our findings show a significant increase in labor market participation, primarily driven by women. Exposure to these courses also shapes attitudes towards gender equality, with men demonstrating greater support. Women report experiencing less gender-based discrimination. Importantly, our results suggest that women's increased labor market participation is unlikely due to reduced barriers from male partners. A disparity in opinions regarding traditional gender norms concerning household domains is observed between men and women, highlighting an ongoing power struggle within the home. However, the presence of
+    Teens make life-changing decisions while constrained by the needs and resources of the households they grow up in. Household behavior models frequently delegate decision-making to the teen or their parents, ignoring joint decision-making in the household. I show that teens and parents allocate time and income jointly by using data from the Costa Rican Encuesta Nacional de Hogares from 2011 to 2019 and a conditional cash transfer program. First, I present gender differences in household responses to the transfer using a marginal treatment effect framework. Second, I explain how the gender gap from the results is due to the bargaining process between parents and teens. I propose a collective household model and show that sons bargain cooperatively with their parents while daughters do not. This result implies that sons have a higher opportunity cost of attending school than daughters. Public policy targeting teens must account for this gender disparity to be effective.
     
-[^7]: 一项放贷法律：一个澄清
+[^4]: 重参数化与半参数Bernstein-von-Mises定理
 
-    A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])
+    Reparametrization and the Semiparametric Bernstein-von-Mises Theorem. (arXiv:2306.03816v1 [math.ST])
 
-    [http://arxiv.org/abs/2307.08861](http://arxiv.org/abs/2307.08861)
+    [http://arxiv.org/abs/2306.03816](http://arxiv.org/abs/2306.03816)
 
-    本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。
-
-    
-
-    一些国家的国家法律禁止以高利息贷款。大多数国家限制有效利率（而不仅仅是名义利率），其中包括所有可能与贷款相关的佣金和费用。在这种情况下，对于现金流没有内部回报率的贷款，限制不明确。在本文中，我们展示了如何将此限制扩展到所有贷款。我们证明了存在一个独特的扩展，与一组自然公理一致。
-
-    The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.
-    
-[^8]: 机器学习、混合模型和深度学习预测模型在欧洲金融市场和比特币中的比较分析
-
-    Comparative Analysis of Machine Learning, Hybrid, and Deep Learning Forecasting Models Evidence from European Financial Markets and Bitcoins. (arXiv:2307.08853v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2307.08853](http://arxiv.org/abs/2307.08853)
-
-    本研究通过比较统计学、机器学习和深度学习的预测模型，发现预测金融市场波动具有挑战性，准确性普遍较低。在不同时间段中，ARIMA和混合ETS-ANN模型在预测上表现较好，而kNN模型在某些时期中表现较优。尽管如此，提高金融市场预测准确性仍然是一个挑战。
+    本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。
 
     
 
-    本研究分析了市场不确定性对欧洲主要金融市场和加密货币市场的传导情况，涵盖了疫情前、疫情期间和疫情后的较长时期。利用每日金融市场指数和价格观察数据评估预测模型。我们比较了统计学、机器学习和深度学习的预测模型，如ARIMA模型、混合ETS-ANN模型和kNN模型。研究结果表明，预测金融市场波动是具有挑战性的，准确性水平在多个实例中普遍较低。ARIMA和混合ETS-ANN模型在较长时间段内表现更好，相比之下，kNN模型在几个时期中表现较好，具体取决于观察到的准确度测量指标。研究人员对于如何提高金融市场预测的准确性仍然面临挑战。
+    本文考虑了部分线性模型的贝叶斯推断。我们的方法利用了回归函数的一个参数化形式，该形式专门用于估计所关心的低维参数。参数化的关键特性是生成了一个Neyman正交矩条件，这意味着对干扰参数的估计低维参数不太敏感。我们的大样本分析支持了这种说法。特别地，我们推导出充分的条件，使得低维参数的后验在参数速率下对真实值收缩，并且在半参数效率界的方差下渐近地正态分布。这些条件相对于回归模型的原始参数化允许更大类的干扰参数。总的来说，我们得出结论，一个嵌入了Neyman正交性的参数化方法可以成为半参数推断中的一个有用工具，以去偏后验分布。
 
-    This study analyzes the transmission of market uncertainty on key European financial markets and the cryptocurrency market over an extended period, encompassing the pre, during, and post-pandemic periods. Daily financial market indices and price observations are used to assess the forecasting models. We compare statistical, machine learning, and deep learning forecasting models to evaluate the financial markets, such as the ARIMA, hybrid ETS-ANN, and kNN predictive models. The study results indicate that predicting financial market fluctuations is challenging, and the accuracy levels are generally low in several instances. ARIMA and hybrid ETS-ANN models perform better over extended periods compared to the kNN model, with ARIMA being the best-performing model in 2018-2021 and the hybrid ETS-ANN model being the best-performing model in most of the other subperiods. Still, the kNN model outperforms the others in several periods, depending on the observed accuracy measure. Researchers hav
+    This paper considers Bayesian inference for the partially linear model. Our approach exploits a parametrization of the regression function that is tailored toward estimating a low-dimensional parameter of interest. The key property of the parametrization is that it generates a Neyman orthogonal moment condition meaning that the low-dimensional parameter is less sensitive to the estimation of nuisance parameters. Our large sample analysis supports this claim. In particular, we derive sufficient conditions under which the posterior for the low-dimensional parameter contracts around the truth at the parametric rate and is asymptotically normal with a variance that coincides with the semiparametric efficiency bound. These conditions allow for a larger class of nuisance parameters relative to the original parametrization of the regression model. Overall, we conclude that a parametrization that embeds Neyman orthogonality can be a useful device for debiasing posterior distributions in semipa
     
-[^9]: 气候不确定性对最佳减排路径和碳社会成本的影响
+[^5]: 经济主体的动态运输
 
-    Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
+    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.08957](http://arxiv.org/abs/2304.08957)
+    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
 
-    研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。
-
-    
-
-    气候政策分析中的排放路径通常来自综合评估模型(IAMs)。然而，这些排放路径通常不考虑气候对社会经济系统的反馈作用，因此也没有考虑气候不确定性。本文表明，仅仅气候不确定性就显著地改变了最优CO$_2$减排量成本效益，对于一组限制升温在1.5摄氏度以下低超温度控制情景，2050年的减排量变化范围在-14到+12 GtCO$_2$ yr$^{-1}$之间。此情景下，碳社会成本的范围变化达到了五倍。平衡气候敏感性(ECS)和现有气溶胶辐射强度是碳社会成本和中世纪最佳二氧化碳排放量的强烈决定因素。这表明，减少气候不确定性可以精确计算减排投入的成本，同时也指出了气候和排放之间缺失的反馈。
-
-    Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
-    
-[^10]: 在线追踪限制的经济后果
-
-    Economic Consequences of Online Tracking Restrictions. (arXiv:2303.09147v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.09147](http://arxiv.org/abs/2303.09147)
-
-    该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。
+    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
 
     
 
-    近年来，欧洲监管机构一直在就限制在线追踪用户的时间以更好地保护消费者隐私问题展开辩论。尽管这些辩论具有重要意义，但显然缺乏任何综合的成本效益分析。本文从成本方面提出了一种方法，旨在估计限制Cookie寿命对出版商的经济影响。对在2.5年内收到1.28亿广告展示的54,127个用户的Cookie进行的实证研究得出了平均Cookie寿命为279天，平均价值为2.52欧元/个。只有13%的cookie会随时间增值，但它们的平均价值约为所有cookie平均价值的四倍。将Cookie寿命限制在一年（两年）会使其寿命价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。鉴于106亿欧元的基于Cookie的展示广告收入，Cookie限制可能对出版商产生显着的经济影响。
+    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
 
-    In recent years, European regulators have debated restricting the time an online tracker can track a user to protect consumer privacy better. Despite the significance of these debates, there has been a noticeable absence of any comprehensive cost-benefit analysis. This article fills this gap on the cost side by suggesting an approach to estimate the economic consequences of lifetime restrictions on cookies for publishers. The empirical study on cookies of 54,127 users who received 128 million ad impressions over 2.5 years yields an average cookie lifetime of 279 days, with an average value of EUR 2.52 per cookie. Only 13% of all cookies increase their daily value over time, but their average value is about four times larger than the average value of all cookies. Restricting cookies lifetime to one year (two years) decreases their lifetime value by 25% (19%), which represents a decrease in the value of all cookies of 9% (5%). In light of the EUR 10.60 billion cookie-based display ad rev
+    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
     
-[^11]: 二维函数时间序列的合规预测带
+[^6]: 时变约束下的协整性问题
 
-    Conformal Prediction Bands for Two-Dimensional Functional Time Series. (arXiv:2207.13656v2 [stat.ME] UPDATED)
+    Cointegration with Occasionally Binding Constraints. (arXiv:2211.09604v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2207.13656](http://arxiv.org/abs/2207.13656)
+    [http://arxiv.org/abs/2211.09604](http://arxiv.org/abs/2211.09604)
 
-    该论文提出了一个针对二维函数时间序列的合规预测带方法，并介绍了一种用于预测的概率框架和不确定性量化技术。将函数自回归过程扩展到该设置，并在真实数据集上进行了实证研究。
-
-    
-
-    时间演化的表面可以被建模为二维函数时间序列，利用函数数据分析的工具。本研究开发了一个针对这种复杂数据的预测框架。主要关注点是合规预测，这是一种用于量化预测问题中的不确定性的多功能非参数范例。在最近的二维函数时间序列合规预测的变种基础上，提出了一种概率预测方案，并对一阶函数自回归过程在该设置下的扩展进行了建议。引入了后者的估计技术，并通过预测区域来比较它们的性能。最后，将所提出的预测程序和不确定性量化技术应用于黑海日常海平面异常观测的真实数据集。
-
-    Time evolving surfaces can be modeled as two-dimensional Functional time series, exploiting the tools of Functional data analysis. Leveraging this approach, a forecasting framework for such complex data is developed. The main focus revolves around Conformal Prediction, a versatile nonparametric paradigm used to quantify uncertainty in prediction problems. Building upon recent variations of Conformal Prediction for Functional time series, a probabilistic forecasting scheme for two-dimensional functional time series is presented, while providing an extension of Functional Autoregressive Processes of order one to this setting. Estimation techniques for the latter process are introduced and their performance are compared in terms of the resulting prediction regions. Finally, the proposed forecasting procedure and the uncertainty quantification technique are applied to a real dataset, collecting daily observations of Sea Level Anomalies of the Black Sea
-    
-[^12]: 条件处理效应的部分识别和推理
-
-    Partial Identification and Inference for Conditional Distributions of Treatment Effects. (arXiv:2108.00723v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2108.00723](http://arxiv.org/abs/2108.00723)
-
-    本文提出了一种方法，通过Makarov边界估算处理效应的条件分布的上下界，且当处理是内生的情况下提出了两种随机优势假设来进一步加强边界。
+    本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。
 
     
 
-    本文考虑对可观测协变量条件下的处理效应分布进行识别和推理。由于处理效应的条件分布在没有强假设的情况下不能被点识别，我们使用Makarov边界来得到处理效应的条件分布的上下界。我们还考虑了处理是内生的情况，并提出了两种随机优势假设来加强边界。我们提出了一种非参数框架来估计边界，并建立了在处理效应支持的范围内一致有效的渐近理论。一个实证例子展示了方法的实用性。
+    在非线性协整性的文献中，一个长期的悬而未决问题是关于（非线性）向量自回归如何在时间序列的短期和长期动力学的统一描述中生成“非线性协整性”，即这些序列共享共同的非线性随机趋势。我们在被审查和弯曲的结构化VAR模型（CKSVAR）的背景下考虑了这个问题，该模型提供了一个灵活但易于处理的框架，用于建模受阈值型非线性性质影响的时间序列，例如由于偶尔出现的约束所导致的零下限（ZLB）。我们通过单位根和对通常秩条件的适当推广，提供了这一模型中如何产生共同线性和非线性随机趋势的完整特征描述，这是迄今为止对Granger-J的第一次扩展
 
-    This paper considers identification and inference for the distribution of treatment effects conditional on observable covariates. Since the conditional distribution of treatment effects is not point identified without strong assumptions, we obtain bounds on the conditional distribution of treatment effects by using the Makarov bounds. We also consider the case where the treatment is endogenous and propose two stochastic dominance assumptions to tighten the bounds. We develop a nonparametric framework to estimate the bounds and establish the asymptotic theory that is uniformly valid over the support of treatment effects. An empirical example illustrates the usefulness of the methods.
+    In the literature on nonlinear cointegration, a long-standing open problem relates to how a (nonlinear) vector autoregression, which provides a unified description of the short- and long-run dynamics of a collection of time series, can generate 'nonlinear cointegration' in the profound sense of those series sharing common nonlinear stochastic trends. We consider this problem in the setting of the censored and kinked structural VAR (CKSVAR), which provides a flexible yet tractable framework within which to model time series that are subject to threshold-type nonlinearities, such as those arising due to occasionally binding constraints, of which the zero lower bound (ZLB) on short-term nominal interest rates provides a leading example. We provide a complete characterisation of how common linear and {nonlinear stochastic trends may be generated in this model, via unit roots and appropriate generalisations of the usual rank conditions, providing the first extension to date of the Granger-J
     
-[^13]: 购买历史与产品个性化
+[^7]: 对大型近似动态因子模型进行主成分分析的估计和推断
 
-    Purchase history and product personalization. (arXiv:2103.11504v5 [econ.TH] UPDATED)
+    On Estimation and Inference of Large Approximate Dynamic Factor Models via the Principal Component Analysis. (arXiv:2211.01921v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2103.11504](http://arxiv.org/abs/2103.11504)
+    [http://arxiv.org/abs/2211.01921](http://arxiv.org/abs/2211.01921)
 
-    研究探讨了产品个性化对价格歧视的影响，并发现通过控制产品个性化程度，上游公司可以抑制由消费者面临下游价格歧视产生的推高力量。
+    本文研究了大型近似动态因子模型的主成分分析估计和推断，提供了渐近结果的替代推导，并且通过经典的样本协方差矩阵进行估计，得出它们等价于OLS的结论。
 
     
 
-    产品个性化打开了价格歧视的大门。丰富的产品线使企业能够更好地根据消费者的口味定制产品，但选择产品本身就包含着有价值的消费者信息，这些信息可以被用来进行价格歧视。我们在一个上游-下游模型中研究了这种权衡，其中消费者先购买上游的可变质量商品，然后购买不可分割的下游商品。下游公司利用消费者的购买历史进行价格歧视引入了一种新的扭曲：上游公司提供的产品子集如果能够联合设计产品线和下游定价，将会有不同选择。通过控制产品个性化程度，上游公司抑制了由消费者面临下游价格歧视产生的推高力量。
+    我们提供了一种对大型近似因子模型主成分估计器的渐近结果的替代推导。结果是在最小的假设集合下导出的，特别地，我们只需要存在4阶矩。在时间序列设置中给予了特别关注，这是几乎所有最新计量应用因子模型的情况。因此，估计是基于经典的$n\times n$样本协方差矩阵，而不是文献中常考虑的$T\times T$协方差矩阵。事实上，尽管这两种方法在渐近意义下等价，但前者更符合时间序列设置，并且它立即允许我们编写更直观的主成分估计渐近展开，显示它们等价于OLS，只要$\sqrt n/T\to 0$和$\sqrt T/n\to 0$，即在时间序列回归中估计载荷时假设因子已知，而因子则已知。
 
-    Product personalization opens the door to price discrimination. A rich product line allows firms to better tailor products to consumers' tastes, but the mere choice of a product carries valuable information about consumers that can be leveraged for price discrimination. We study this trade-off in an upstream-downstream model, where a consumer buys a good of variable quality upstream, followed by an indivisible good downstream. The downstream firm's use of the consumer's purchase history for price discrimination introduces a novel distortion: The upstream firm offers a subset of the products that it would offer if, instead, it could jointly design its product line and downstream pricing. By controlling the degree of product personalization the upstream firm curbs ratcheting forces that result from the consumer facing downstream price discrimination.
+    We provide an alternative derivation of the asymptotic results for the Principal Components estimator of a large approximate factor model. Results are derived under a minimal set of assumptions and, in particular, we require only the existence of 4th order moments. A special focus is given to the time series setting, a case considered in almost all recent econometric applications of factor models. Hence, estimation is based on the classical $n\times n$ sample covariance matrix and not on a $T\times T$ covariance matrix often considered in the literature. Indeed, despite the two approaches being asymptotically equivalent, the former is more coherent with a time series setting and it immediately allows us to write more intuitive asymptotic expansions for the Principal Component estimators showing that they are equivalent to OLS as long as $\sqrt n/T\to 0$ and $\sqrt T/n\to 0$, that is the loadings are estimated in a time series regression as if the factors were known, while the factors a
+    
+[^8]: Beta分类组合投资组合研究
+
+    Beta-Sorted Portfolios. (arXiv:2208.10974v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2208.10974](http://arxiv.org/abs/2208.10974)
+
+    该论文对Beta分类组合投资组合进行了研究，通过将过程形式化为一个由非参数第一步和Beta自适应投资组合构建组成的两步非参数估计器，解释了该估计算法的关键特征，并提供了条件以确保一致性和渐近正态性。
+
+    
+
+    Beta分类组合投资组合是由与选择的风险因素具有类似协变性的资产组成的，是经济金融领域中分析(条件)预期收益模型的常用工具。尽管使用广泛，但与可比的两步回归等程序相比，对其统计性质知之甚少。我们通过将该过程作为一个由非参数第一步和Beta自适应投资组合构建组成的两步非参数估计器来形式化研究Beta分类组合投资组合回报的性质。我们的框架基于一般数据生成过程上的精确经济和统计假设，从而解释了众所周知的估计算法，并揭示了其关键特征。我们研究了单个截面和随时间聚合（例如总体均值）的Beta分类组合投资组合，提供了确保一致性和渐近正态性的条件，同时还提供了新的均一推断过程，允许不确定性。
+
+    Beta-sorted portfolios -- portfolios comprised of assets with similar covariation to selected risk factors -- are a popular tool in empirical finance to analyze models of (conditional) expected returns. Despite their widespread use, little is known of their statistical properties in contrast to comparable procedures such as two-pass regressions. We formally investigate the properties of beta-sorted portfolio returns by casting the procedure as a two-step nonparametric estimator with a nonparametric first step and a beta-adaptive portfolios construction. Our framework rationalize the well-known estimation algorithm with precise economic and statistical assumptions on the general data generating process and characterize its key features. We study beta-sorted portfolios for both a single cross-section as well as for aggregation over time (e.g., the grand mean), offering conditions that ensure consistency and asymptotic normality along with new uniform inference procedures allowing for unc
+    
+[^9]: 通用政策干预的无条件效应
+
+    Unconditional Effects of General Policy Interventions. (arXiv:2201.02292v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2201.02292](http://arxiv.org/abs/2201.02292)
+
+    该论文研究了通用政策干预的无条件效应，包括位置-比例换算和同时换算。使用简单的半参数估计器对无条件政策参数进行估计，并应用于明塞尔方程以研究其效果。
+
+    
+
+    本文研究了通用政策干预的无条件效应，其中包括作为特例的位置-比例换算和同时换算。位置-比例换算是为了研究一个反事实政策，旨在改变协变量的均值或位置，同时也改变其离散度或比例。同时换算是指两个或多个协变量同时发生变化的情况。例如，一个协变量的变化以一定的比率被另一个协变量的变化所补偿。不考虑这些可能的比例或同时换算将导致对感兴趣的结果变量的潜在政策效应的错误评估。使用简单的半参数估计器对无条件政策参数进行估计，并对其渐近性质进行研究。通过蒙特卡洛模拟来研究其有限样本性能。所提出的方法应用于明塞尔方程，以研究其效果。
+
+    This paper studies the unconditional effects of a general policy intervention, which includes location-scale shifts and simultaneous shifts as special cases. The location-scale shift is intended to study a counterfactual policy aimed at changing not only the mean or location of a covariate but also its dispersion or scale. The simultaneous shift refers to the situation where shifts in two or more covariates take place simultaneously. For example, a shift in one covariate is compensated at a certain rate by a shift in another covariate. Not accounting for these possible scale or simultaneous shifts will result in an incorrect assessment of the potential policy effects on an outcome variable of interest. The unconditional policy parameters are estimated with simple semiparametric estimators, for which asymptotic properties are studied. Monte Carlo simulations are implemented to study their finite sample performances. The proposed approach is applied to a Mincer equation to study the effe
+    
+[^10]: 设计角度下的合成控制方法研究
+
+    A Design-Based Perspective on Synthetic Control Methods. (arXiv:2101.09398v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2101.09398](http://arxiv.org/abs/2101.09398)
+
+    本文从设计角度研究了合成控制（SC）方法，提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，并且其均方根误差低于其他常见估计器。
+
+    
+
+    自从Abadie和Gardeazabal（2003）提出以来，合成控制（SC）方法已经迅速成为面板数据观测研究中估计因果效应的主要方法之一。正式的讨论通常通过假设潜在结果由一个因子模型生成来激励SC方法。本文从设计角度研究了SC方法，假设选取受试单元和周期的模型。我们表明，在随机分配下，标准的SC估计量通常是有偏的。我们提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，推导了它的确切、基于随机性的有限样本方差。我们还提出了一个这个方差的无偏估计量。我们在真实数据的设置中记录，随机分配下，SC类估计器的均方根误差可以大大降低，低于其他常见估计器。
+
+    Since their introduction in Abadie and Gardeazabal (2003), Synthetic Control (SC) methods have quickly become one of the leading methods for estimating causal effects in observational studies in settings with panel data. Formal discussions often motivate SC methods by the assumption that the potential outcomes were generated by a factor model. Here we study SC methods from a design-based perspective, assuming a model for the selection of the treated unit(s) and period(s). We show that the standard SC estimator is generally biased under random assignment. We propose a Modified Unbiased Synthetic Control (MUSC) estimator that guarantees unbiasedness under random assignment and derive its exact, randomization-based, finite-sample variance. We also propose an unbiased estimator for this variance. We document in settings with real data that under random assignment, SC-type estimators can have root mean-squared errors that are substantially lower than that of other common estimators. We show
+    
+[^11]: 一个自动的有限样本稳健性度量：当删除少量数据可能造成很大差异时？
+
+    An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?. (arXiv:2011.14999v5 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2011.14999](http://arxiv.org/abs/2011.14999)
+
+    该论文提出了一种自动的有限样本稳健性度量方法，用于评估应用计量经济学结论对样本的小部分删除的敏感性。
+
+    
+
+    研究样本往往以非随机方式与推断和政策决策的目标人群不同。研究人员通常认为，这种对随机抽样的偏离——由于时间和空间上的人口变化，或者真正随机采样的困难——很小，对推断的影响也应该很小。因此，我们可能会担心我们研究的结论过于敏感，对样本数据的非常小的比例过于敏感。我们提出了一种方法来评估应用计量经济学结论对样本的小部分删除的敏感性。手动检查所有可能的小子集的影响在计算上是不可行的，因此我们使用近似方法找到最有影响力的子集合。我们的度量方法，“近似最大影响扰动”，基于经典的影响函数，并且对通常的方法（包括但不限于OLS，IV，MLE，G）可以自动计算。
+
+    Study samples often differ from the target populations of inference and policy decisions in non-random ways. Researchers typically believe that such departures from random sampling -- due to changes in the population over time and space, or difficulties in sampling truly randomly -- are small, and their corresponding impact on the inference should be small as well. We might therefore be concerned if the conclusions of our studies are excessively sensitive to a very small proportion of our sample data. We propose a method to assess the sensitivity of applied econometric conclusions to the removal of a small fraction of the sample. Manually checking the influence of all possible small subsets is computationally infeasible, so we use an approximation to find the most influential subset. Our metric, the "Approximate Maximum Influence Perturbation," is based on the classical influence function, and is automatically computable for common methods including (but not limited to) OLS, IV, MLE, G
+    
+[^12]: 无条件策略影响的识别与估计：一种内生二元处理的无条件MTE方法
+
+    Identification and Estimation of Unconditional Policy Effects of an Endogenous Binary Treatment: an Unconditional MTE Approach. (arXiv:2010.15864v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2010.15864](http://arxiv.org/abs/2010.15864)
+
+    本文介绍了一种基于函数影响函数的无条件边际处理效应（MTE）的新方法，研究了处理状态为二元且内生时策略效应的识别与估计。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。对于感兴趣的分位数，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。
+
+    
+
+    本文研究了在处理状态为二元且内生时的策略效应的识别和估计。我们基于反映政策目标的函数的影响函数引入了一类新的无条件边际处理效应（MTE）。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。我们提供了识别无条件策略效应的条件。当感兴趣的函数是分位数时，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。
+
+    This paper studies the identification and estimation of policy effects when treatment status is binary and endogenous. We introduce a new class of unconditional marginal treatment effects (MTE) based on the influence function of the functional underlying the policy target. We show that an unconditional policy effect can be represented as a weighted average of the newly defined unconditional MTEs over the individuals who are indifferent about their treatment status. We provide conditions for point identification of the unconditional policy effects. When a quantile is the functional of interest, we introduce the UNconditional Instrumental Quantile Estimator (UNIQUE) and establish its consistency and asymptotic distribution. In the empirical application, we estimate the effect of changing college enrollment status, induced by higher tuition subsidy, on the quantiles of the wage distribution.
     
 

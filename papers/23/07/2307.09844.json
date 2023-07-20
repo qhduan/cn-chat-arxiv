@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning for Credit Index Option Hedging. (arXiv:2307.09844v1 [q-fin.TR])",
+    "abstract": "In this paper, we focus on finding the optimal hedging strategy of a credit index option using reinforcement learning. We take a practical approach, where the focus is on realism i.e. discrete time, transaction costs; even testing our policy on real market data. We apply a state of the art algorithm, the Trust Region Volatility Optimization (TRVO) algorithm and show that the derived hedging strategy outperforms the practitioner's Black & Scholes delta hedge.",
+    "link": "http://arxiv.org/abs/2307.09844",
+    "context": "Title: Reinforcement Learning for Credit Index Option Hedging. (arXiv:2307.09844v1 [q-fin.TR])\nAbstract: In this paper, we focus on finding the optimal hedging strategy of a credit index option using reinforcement learning. We take a practical approach, where the focus is on realism i.e. discrete time, transaction costs; even testing our policy on real market data. We apply a state of the art algorithm, the Trust Region Volatility Optimization (TRVO) algorithm and show that the derived hedging strategy outperforms the practitioner's Black & Scholes delta hedge.",
+    "path": "papers/23/07/2307.09844.json",
+    "total_tokens": 656,
+    "translated_title": "强化学习在信用指数期权对冲中的应用",
+    "translated_abstract": "本文着重于使用强化学习找到信用指数期权的最佳对冲策略。我们采用了实用的方法，关注现实性，即离散时间、交易成本；甚至在真实市场数据上测试我们的策略。我们应用了一种先进的算法——信任区域波动率优化（TRVO）算法，并且证明所得到的对冲策略优于从业者的Black & Scholes的Delta对冲策略。",
+    "tldr": "本文研究了使用强化学习寻找信用指数期权的最佳对冲策略。通过应用信任区域波动率优化算法，证明所得到的对冲策略优于传统的Black & Scholes的Delta对冲策略。",
+    "en_tdlr": "This paper investigates the use of reinforcement learning to find the optimal hedging strategy for credit index options. By applying the Trust Region Volatility Optimization (TRVO) algorithm, the derived hedging strategy is shown to outperform the traditional Black & Scholes delta hedge."
+}

@@ -2,232 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Is Kyle's equilibrium model stable?.](http://arxiv.org/abs/2307.09392) | 该论文证明了在Kyle的均衡模型中，当只有一个或两个交易时稳定，而当有三个或更多交易时不稳定。这些结果是独立于所有的Kyle输入参数的。 |
-| [^2] | [Company2Vec -- German Company Embeddings based on Corporate Websites.](http://arxiv.org/abs/2307.09332) | Company2Vec是一种基于企业网站数据的表示学习模型，通过分析企业活动并保持语义结构，生成细粒度的企业嵌入。这些嵌入可以用于语义商业分析、行业预测和无监督学习任务。 |
-| [^3] | [Socio-spatial Inequalities in a Context of "Great Economic Wealth". Case study of neighbourhoods of Luxembourg City.](http://arxiv.org/abs/2307.09251) | 该研究通过对卢森堡市社区进行分析，揭示了在“巨大经济财富”背景下的社会空间不平等现象。研究发现，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。 |
-| [^4] | [Rough PDEs for local stochastic volatility models.](http://arxiv.org/abs/2307.09216) | 本文介绍了一种适用于局部随机波动模型的粗糙PDE定价方法，通过条件约束LSV动态，将其与粗糙偏微分方程相连接，从而实现了欧式期权的定价。 |
-| [^5] | [The Effect of COVID-19 on Cryptocurrencies and the Stock Market Volatility -- A Two-Stage DCC-EGARCH Model Analysis.](http://arxiv.org/abs/2307.09137) | 这项研究分析了COVID-19疫情对加密货币和股市波动的影响，并发现存在显著的传播效应。两阶段DCC-EGARCH模型的结果表明，在积极消息后，资产投资组合的波动性增加，对先前的冲击有良好的响应。因此，金融资产在无外部干扰时具有较低的波动性和风险。 |
-| [^6] | [Estimation of an Order Book Dependent Hawkes Process for Large Datasets.](http://arxiv.org/abs/2307.09077) | 本研究提出了一种用于高频交易事件到达的点过程，其中强度是Hawkes过程和委托簿派生的高维协变量函数的乘积。算法可以在存在数十亿数据点的情况下进行估计，并证明了其收敛性和一致性。样本外测试结果显示，捕捉委托簿信息的非线性特征对于高频交易的自激性特征有价值。 |
-| [^7] | [COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?.](http://arxiv.org/abs/2307.09035) | 该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。 |
-| [^8] | [The Begining of the Trend: Interest Rates, Markups, and Inflation.](http://arxiv.org/abs/2307.08968) | 这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。 |
-| [^9] | [Culture, Gender, and Labor Force Participation: Evidence from Colombia.](http://arxiv.org/abs/2307.08869) | 该研究调查了将性别平等纳入哥伦比亚宪法对性别平等态度、性别歧视经历和劳动力市场参与的影响。研究发现，女性的劳动力市场参与显著增加，同时男性对性别平等持更大的支持，女性经历的性别歧视减少。这表明在家庭中存在持续的权力斗争。 |
-| [^10] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
-| [^11] | [Comparative Analysis of Machine Learning, Hybrid, and Deep Learning Forecasting Models Evidence from European Financial Markets and Bitcoins.](http://arxiv.org/abs/2307.08853) | 本研究通过比较统计学、机器学习和深度学习的预测模型，发现预测金融市场波动具有挑战性，准确性普遍较低。在不同时间段中，ARIMA和混合ETS-ANN模型在预测上表现较好，而kNN模型在某些时期中表现较优。尽管如此，提高金融市场预测准确性仍然是一个挑战。 |
-| [^12] | [Decentralized Prediction Markets and Sports Books.](http://arxiv.org/abs/2307.08768) | 这项工作提出了一种基于流动性的分散预测市场框架，该框架具备合理的金融性质，并提出了有意义的交易费用机制。 |
-| [^13] | [Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon.](http://arxiv.org/abs/2304.08957) | 研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。 |
-| [^14] | [Economic Consequences of Online Tracking Restrictions.](http://arxiv.org/abs/2303.09147) | 该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。 |
-| [^15] | [Purchase history and product personalization.](http://arxiv.org/abs/2103.11504) | 研究探讨了产品个性化对价格歧视的影响，并发现通过控制产品个性化程度，上游公司可以抑制由消费者面临下游价格歧视产生的推高力量。 |
+| [^1] | [Asian Option Pricing via Laguerre Quadrature: A Diffusion Kernel Approach.](http://arxiv.org/abs/2307.09969) | 本文介绍了利用拉盖尔积分法来发展亚洲期权定价理论的新技术，包括扩散方程推导、潜在理论技术应用、维塔克型混合超几何函数和指数变换等。 |
+| [^2] | [Reinforcement Learning for Credit Index Option Hedging.](http://arxiv.org/abs/2307.09844) | 本文研究了使用强化学习寻找信用指数期权的最佳对冲策略。通过应用信任区域波动率优化算法，证明所得到的对冲策略优于传统的Black & Scholes的Delta对冲策略。 |
+| [^3] | [Sig-Splines: universal approximation and convex calibration of time series generative models.](http://arxiv.org/abs/2307.09767) | 该论文提出了一种新颖的时间序列生成模型，通过将线性变换和签名变换作为传统神经网络的替代，既实现了神经网络的通用性，又引入了模型参数的凸性。 |
+| [^4] | [On intermediate Marginals in Martingale Optimal Transportation.](http://arxiv.org/abs/2307.09710) | 本文研究了中间边际分布对马丁格尔最优输运问题的影响，并发现考虑到香草期权上的额外价格信息可能对无模型定价下界产生重要影响。 |
+| [^5] | [The Impacts of Registration Regime Implementation on IPO Pricing Efficiency.](http://arxiv.org/abs/2307.09669) | 本研究研究了中国科创板IPO定价的演变以及与制度变革和实施相关的影响。结果显示，在所有情况下，治理科创板IPO的注册制度提供了最有效的定价。 |
+| [^6] | [Power to the teens? A model of parents' and teens' collective labor supply.](http://arxiv.org/abs/2307.09634) | 本研究探讨了青少年和父母在家庭决策过程中的共同作用，发现了父母和青少年之间的讨价还价过程导致了性别差距，并提出了一个集体家庭模型。这一结果表明，儿子参加学校的机会成本比女儿更高，公共政策必须考虑到这种性别差距。 |
+| [^7] | [Deep Reinforcement Learning for ESG financial portfolio management.](http://arxiv.org/abs/2307.09631) | 本文研究了深度强化学习在ESG金融投资组合管理中的应用，结果显示在按公司ESG评分调整回报的市场中，DRL代理的表现优于标准市场设置。 |
+| [^8] | [The Great Deception: A Comprehensive Study of Execution Strategies in Corporate Share Buy-Backs.](http://arxiv.org/abs/2307.09617) | 本文全面研究了股份回购中的执行策略，揭示了执行阶段的挑战和机会，并与资本配置的其他方面进行比较。研究旨在帮助公司、投资者和监管机构更好地理解股份回购的执行，强调需要一种成本效益的方法。 |
+| [^9] | [The Put-Call Parity Certainty Equivalent Rate and the Implied Put-Call Parity Certainty Equivalent Rate Surface.](http://arxiv.org/abs/2307.08675) | 本研究通过推导数学表达式，研究了确定等价比率在金融市场中的应用，并通过实证研究了解释了该数值的含义。结果应用于电动汽车行业。 |
+| [^10] | [Dynamic Return and Star-Shaped Risk Measures via BSDEs.](http://arxiv.org/abs/2307.03447) | 本文通过使用反向随机微分方程（BSDE）建立了动态收益和星形风险度量的表征结果，并证明了存在至少一个凸BSDE具有非空的超解集，从而得到最小的星形超解。这些结果对于资本配置和投资组合选择具有实用性。 |
+| [^11] | [Liquidity Premium and Liquidity-Adjusted Return and Volatility: illustrated with a Liquidity-Adjusted Mean Variance Framework and its Application on a Portfolio of Crypto Assets.](http://arxiv.org/abs/2306.15807) | 这项研究创建了创新技术来度量加密资产的流动性溢价，并开发了流动性调整的模型来提高投资组合的预测性能。 |
+| [^12] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^13] | [Comparative Companies' Stock Valuation through Financial Metrics and its Social Implications.](http://arxiv.org/abs/1909.06332) | 杜比公司是财务和运营状况最好的公司，其稳定的利润率创造了数十亿的收入。企业竞争争取更多专利可能带来新的就业机会和对教育和市场销售领域的投资需求。 |
 
 # 详细
 
-[^1]: Kyle的均衡模型是否稳定？
+[^1]: 亚洲期权定价的拉盖尔积分法：扩散核方法
 
-    Is Kyle's equilibrium model stable?. (arXiv:2307.09392v1 [q-fin.TR])
+    Asian Option Pricing via Laguerre Quadrature: A Diffusion Kernel Approach. (arXiv:2307.09969v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2307.09392](http://arxiv.org/abs/2307.09392)
+    [http://arxiv.org/abs/2307.09969](http://arxiv.org/abs/2307.09969)
 
-    该论文证明了在Kyle的均衡模型中，当只有一个或两个交易时稳定，而当有三个或更多交易时不稳定。这些结果是独立于所有的Kyle输入参数的。
-
-    
-
-    在Kyle (1985)的动态离散时间交易环境中，我们证明了当只有一个或两个交易时，Kyle的均衡模型是稳定的。对于三个或更多的交易时机，我们证明了Kyle的均衡是不稳定的。这些理论结果被证明与Kyle的所有输入参数无关。
-
-    In the dynamic discrete-time trading setting of Kyle (1985), we prove that Kyle's equilibrium model is stable when there are one or two trading times. For three or more trading times, we prove that Kyle's equilibrium is not stable. These theoretical results are proven to hold irrespectively of all Kyle's input parameters.
-    
-[^2]: 基于企业网站的德国企业嵌入Company2Vec
-
-    Company2Vec -- German Company Embeddings based on Corporate Websites. (arXiv:2307.09332v1 [cs.AI])
-
-    [http://arxiv.org/abs/2307.09332](http://arxiv.org/abs/2307.09332)
-
-    Company2Vec是一种基于企业网站数据的表示学习模型，通过分析企业活动并保持语义结构，生成细粒度的企业嵌入。这些嵌入可以用于语义商业分析、行业预测和无监督学习任务。
+    本文介绍了利用拉盖尔积分法来发展亚洲期权定价理论的新技术，包括扩散方程推导、潜在理论技术应用、维塔克型混合超几何函数和指数变换等。
 
     
 
-    本论文提出了一种新颖的表示学习应用，即Company2Vec。该模型利用Word2Vec和降维技术从非结构化的企业网站数据中分析企业活动。Company2Vec保持语义语言结构，从而在细粒度行业中创建高效的企业嵌入。这些语义嵌入可以在银行业的各种应用中使用。公司和单词之间的直接关系可以进行语义商业分析（例如某公司的前n个单词）。此外，还提出了一种监督学习应用和评估方法，即行业预测。嵌入的向量结构可以通过余弦距离来测量公司之间的相似性。因此，与标准行业标签（NACE）相比，Company2Vec可以更精细地比较公司。这一特性对于无监督学习任务（如聚类）是相关的。还展示了基于k-means聚类的替代行业细分。
+    本文将展示一些用于发展亚洲（算术平均）期权定价理论的新技术。我们讨论了扩散方程的基本推导，并介绍了如何应用潜在理论中的各种技术来解决这些复杂的表达式。我们介绍了维塔克型混合超几何函数，并讨论了这些函数与其他系统（包括Mehler-Fock函数和修正贝塞尔函数）之间的关系。最后，我们简要分析了一些指数变换和与这些积分变换相关的核函数。
 
-    With Company2Vec, the paper proposes a novel application in representation learning. The model analyzes business activities from unstructured company website data using Word2Vec and dimensionality reduction. Company2Vec maintains semantic language structures and thus creates efficient company embeddings in fine-granular industries. These semantic embeddings can be used for various applications in banking. Direct relations between companies and words allow semantic business analytics (e.g. top-n words for a company). Furthermore, industry prediction is presented as a supervised learning application and evaluation method. The vectorized structure of the embeddings allows measuring companies similarities with the cosine distance. Company2Vec hence offers a more fine-grained comparison of companies than the standard industry labels (NACE). This property is relevant for unsupervised learning tasks, such as clustering. An alternative industry segmentation is shown with k-means clustering on 
+    This paper will demonstrate some new techniques for developing the theory of Asian (arithmetic average) options pricing. We discuss the basic derivation of the diffusion equations, and how various techniques from potential theory can be applied to solve these complex expressions. The Whittaker-type confluent hypergeometric functions are introduced, and we discuss how these functions are related to other systems including Mehler-Fock and modified Bessel functions. We close with a brief analysis of some index transforms and the kernels related to these integral transforms.
     
-[^3]: 卢森堡城市社区的“巨大经济财富”背景下的社会空间不平等研究
+[^2]: 强化学习在信用指数期权对冲中的应用
 
-    Socio-spatial Inequalities in a Context of "Great Economic Wealth". Case study of neighbourhoods of Luxembourg City. (arXiv:2307.09251v1 [econ.GN])
+    Reinforcement Learning for Credit Index Option Hedging. (arXiv:2307.09844v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2307.09251](http://arxiv.org/abs/2307.09251)
+    [http://arxiv.org/abs/2307.09844](http://arxiv.org/abs/2307.09844)
 
-    该研究通过对卢森堡市社区进行分析，揭示了在“巨大经济财富”背景下的社会空间不平等现象。研究发现，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。
-
-    
-
-    尽管卢森堡是欧盟中人均GDP最高的国家之一，但由于城市快速发展，卢森堡面临着社会经济挑战。本文通过研究卢森堡市最微观且少有被分析的地理层面——社区，对这一现象进行了探讨。基于2020-2021年收集的涵盖各种社会人口特征的实证数据，运用主成分的升序分层聚类方法，确定了社区的社会空间模式。此外，还进行了Chi2检验，以研究居民的社会人口特征和社区的收入不平等程度。结果显示，沿着西北-东南轴线存在明显的社会空间分割。而且，相对于性别或国籍差异，社会组成比例更能决定收入不平等。
-
-    In spite of being one of the smallest and wealthiest countries in the European Union in terms of GDP per capita, Luxembourg is facing socio-economic challenges due to recent rapid urban transformations. This article contributes by approaching this phenomenon at the most granular and rarely analysed geographical level - the neighbourhoods of the capital, Luxembourg City. Based on collected empirical data covering various socio-demographic dimensions for 2020-2021, an ascending hierarchical classification on principal components is set out to establish neighbourhoods' socio-spatial patterns. In addition, Chi2 tests are carried out to examine residents' socio-demographic characteristics and determine income inequalities in neighbourhoods. The results reveal a clear socio-spatial divide along a north-west south-east axis. Moreover, classical factors such as gender or citizenship differences are revealed to be poorly determinant of income inequalities compared with the proportion of social 
-    
-[^4]: 局部随机波动模型的粗糙PDE方法
-
-    Rough PDEs for local stochastic volatility models. (arXiv:2307.09216v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2307.09216](http://arxiv.org/abs/2307.09216)
-
-    本文介绍了一种适用于局部随机波动模型的粗糙PDE定价方法，通过条件约束LSV动态，将其与粗糙偏微分方程相连接，从而实现了欧式期权的定价。
+    本文研究了使用强化学习寻找信用指数期权的最佳对冲策略。通过应用信任区域波动率优化算法，证明所得到的对冲策略优于传统的Black & Scholes的Delta对冲策略。
 
     
 
-    在这项工作中，我们引入了一种新的定价方法，适用于一般性的、可能是非马尔可夫的局部随机波动(LSV)模型。通过在驱动波动率的布朗运动上对LSV动态进行条件约束，我们得到了一个时间不齐的马尔可夫过程。利用粗糙路径理论的工具，我们描述了如何精确理解条件LSV动态并揭示其马尔可夫性质。后者使我们能够将条件动态与所谓的粗糙偏微分方程(RPDEs)通过一种费曼-卡克类型的公式相连接。在欧式期权定价方面，对于一个布朗运动实现的条件下，我们可以通过求解相应的线性RPDEs来计算条件期权价格，然后对所有样本进行平均以找到无条件价格。我们的方法对波动率的规范只有最小的依赖性，使其适用于广泛的经典和粗糙LSV模型，并为数值PDE定价方法奠定了基础。
+    本文着重于使用强化学习找到信用指数期权的最佳对冲策略。我们采用了实用的方法，关注现实性，即离散时间、交易成本；甚至在真实市场数据上测试我们的策略。我们应用了一种先进的算法——信任区域波动率优化（TRVO）算法，并且证明所得到的对冲策略优于从业者的Black & Scholes的Delta对冲策略。
 
-    In this work, we introduce a novel pricing methodology in general, possibly non-Markovian local stochastic volatility (LSV) models. We observe that by conditioning the LSV dynamics on the Brownian motion that drives the volatility, one obtains a time-inhomogeneous Markov process. Using tools from rough path theory, we describe how to precisely understand the conditional LSV dynamics and reveal their Markovian nature. The latter allows us to connect the conditional dynamics to so-called rough partial differential equations (RPDEs), through a Feynman-Kac type of formula. In terms of European pricing, conditional on realizations of one Brownian motion, we can compute conditional option prices by solving the corresponding linear RPDEs, and then average over all samples to find unconditional prices. Our approach depends only minimally on the specification of the volatility, making it applicable for a wide range of classical and rough LSV models, and it establishes a PDE pricing method for n
+    In this paper, we focus on finding the optimal hedging strategy of a credit index option using reinforcement learning. We take a practical approach, where the focus is on realism i.e. discrete time, transaction costs; even testing our policy on real market data. We apply a state of the art algorithm, the Trust Region Volatility Optimization (TRVO) algorithm and show that the derived hedging strategy outperforms the practitioner's Black & Scholes delta hedge.
     
-[^5]: COVID-19对加密货币和股市波动的影响——基于两阶段DCC-EGARCH模型的分析
+[^3]: Sig-Splines：时间序列生成模型的通用逼近和凸校准
 
-    The Effect of COVID-19 on Cryptocurrencies and the Stock Market Volatility -- A Two-Stage DCC-EGARCH Model Analysis. (arXiv:2307.09137v1 [q-fin.RM])
+    Sig-Splines: universal approximation and convex calibration of time series generative models. (arXiv:2307.09767v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.09137](http://arxiv.org/abs/2307.09137)
+    [http://arxiv.org/abs/2307.09767](http://arxiv.org/abs/2307.09767)
 
-    这项研究分析了COVID-19疫情对加密货币和股市波动的影响，并发现存在显著的传播效应。两阶段DCC-EGARCH模型的结果表明，在积极消息后，资产投资组合的波动性增加，对先前的冲击有良好的响应。因此，金融资产在无外部干扰时具有较低的波动性和风险。
-
-    
-
-    本研究考察了加密货币回报波动性、全球股市指数以及COVID-19疫情的相关性，并分析了其传播效应。为此，我们采用了一种两阶段多元波动性指数GARCH（EGARCH）模型，并结合积分动态条件相关（DCC）方法，从2019年到2020年度测度了金融投资组合回报的影响。此外，我们使用了基于Cornish-Fisher扩展（CFVaR）的风险价值（VaR）和条件风险价值（VaR）。实证结果显示存在显著的长期和短期传播效应。两阶段多元EGARCH模型的结果表明，在积极消息后资产投资组合的条件波动性增加，并对先前的冲击做出良好的响应。因此，金融资产在没有外部打扰时具有较低的无条件波动性和最低的风险。尽管金融资产对冲击敏感，但在一定程度上对冲击表现出一定的抵抗能力。
-
-    This research examines the correlations between the return volatility of cryptocurrencies, global stock market indices, and the spillover effects of the COVID-19 pandemic. For this purpose, we employed a two-stage multivariate volatility exponential GARCH (EGARCH) model with an integrated dynamic conditional correlation (DCC) approach to measure the impact on the financial portfolio returns from 2019 to 2020. Moreover, we used value-at-risk (VaR) and value-at-risk measurements based on the Cornish-Fisher expansion (CFVaR). The empirical results show significant long- and short-term spillover effects. The two-stage multivariate EGARCH model's results show that the conditional volatilities of both asset portfolios surge more after positive news and respond well to previous shocks. As a result, financial assets have low unconditional volatility and the lowest risk when there are no external interruptions. Despite the financial assets' sensitivity to shocks, they exhibit some resistance to
-    
-[^6]: 《大数据集上基于委托簿相关Hawkes过程的估计》
-
-    Estimation of an Order Book Dependent Hawkes Process for Large Datasets. (arXiv:2307.09077v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2307.09077](http://arxiv.org/abs/2307.09077)
-
-    本研究提出了一种用于高频交易事件到达的点过程，其中强度是Hawkes过程和委托簿派生的高维协变量函数的乘积。算法可以在存在数十亿数据点的情况下进行估计，并证明了其收敛性和一致性。样本外测试结果显示，捕捉委托簿信息的非线性特征对于高频交易的自激性特征有价值。
+    该论文提出了一种新颖的时间序列生成模型，通过将线性变换和签名变换作为传统神经网络的替代，既实现了神经网络的通用性，又引入了模型参数的凸性。
 
     
 
-    本研究介绍了一种用于高频交易事件到达的点过程。强度是Hawkes过程和委托簿派生的高维协变量函数的乘积。讨论了该过程稳定性的条件。并提出了一种算法，即使在存在数十亿数据点的情况下，也可以进行模型估计，可能需要将协变量映射到高维空间。大样本量是常见于使用多个流动工具的高频数据应用中的情况。证明了算法的收敛性，建立了在弱条件下的一致性结果，并提出了一种测试统计量来评估不同模型规范的样本外表现。将该方法应用于纽约证券交易所（NYSE）上交易的四只股票的研究中。样本外测试过程表明，捕捉委托簿信息的非线性特征对于高频交易的自激性特征有价值。
+    我们提出了一种新颖的多变量离散时间序列数据生成模型。受神经样条流构造的启发，我们的算法将线性变换和签名变换作为传统神经网络的无缝替代。这种方法不仅实现了神经网络固有的通用性，还引入了模型参数的凸性。
 
-    A point process for event arrivals in high frequency trading is presented. The intensity is the product of a Hawkes process and high dimensional functions of covariates derived from the order book. Conditions for stationarity of the process are stated. An algorithm is presented to estimate the model even in the presence of billions of data points, possibly mapping covariates into a high dimensional space. The large sample size can be common for high frequency data applications using multiple liquid instruments. Convergence of the algorithm is shown, consistency results under weak conditions is established, and a test statistic to assess out of sample performance of different model specifications is suggested. The methodology is applied to the study of four stocks that trade on the New York Stock Exchange (NYSE). The out of sample testing procedure suggests that capturing the nonlinearity of the order book information adds value to the self exciting nature of high frequency trading even
+    We propose a novel generative model for multivariate discrete-time time series data. Drawing inspiration from the construction of neural spline flows, our algorithm incorporates linear transformations and the signature transform as a seamless substitution for traditional neural networks. This approach enables us to achieve not only the universality property inherent in neural networks but also introduces convexity in the model's parameters.
     
-[^7]: COVID-19需求冲击再探：广告技术是否帮助减轻中小型企业的负面影响?
+[^4]: 关于马丁格尔最优输运中间边际的研究
 
-    COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?. (arXiv:2307.09035v1 [econ.GN])
+    On intermediate Marginals in Martingale Optimal Transportation. (arXiv:2307.09710v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2307.09035](http://arxiv.org/abs/2307.09035)
+    [http://arxiv.org/abs/2307.09710](http://arxiv.org/abs/2307.09710)
 
-    该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。
-
-    
-
-    研究探讨了COVID-19大流行对企业绩效和生存的影响，表明中小型企业（SMBs）受到的负面影响尤为严重。然而，目前对在线广告技术是否以及如何帮助塑造这些结果的研究还很有限，尤其是对SMBs而言。本研究旨在填补这一空白。通过构建和分析一个包含49个国家超过60,000家企业的新数据集，我们研究了政府封锁措施对企业生存的影响。使用离散时间生存模型进行工具变量的差分过程估计，我们发现政府封锁措施增加了全球范围内SMB关闭的可能性，但在线广告技术的使用减轻了这种负面影响。研究结果显示了国家、行业和企业规模的异质性，与理论预期一致。
-
-    Research has investigated the impact of the COVID-19 pandemic on business performance and survival, indicating particularly adverse effects for small and midsize businesses (SMBs). Yet only limited work has examined whether and how online advertising technology may have helped shape these outcomes, particularly for SMBs. The aim of this study is to address this gap. By constructing and analyzing a novel data set of more than 60,000 businesses in 49 countries, we examine the impact of government lockdowns on business survival. Using discrete-time survival models with instrumental variables and staggered difference-in-differences estimators, we find that government lockdowns increased the likelihood of SMB closure around the world but that use of online advertising technology attenuates this adverse effect. The findings show heterogeneity in country, industry, and business size, consistent with theoretical expectations.
-    
-[^8]: 开始的趋势：利率、加价和通胀。(arXiv:2307.08968v1 [econ.GN])
-
-    The Begining of the Trend: Interest Rates, Markups, and Inflation. (arXiv:2307.08968v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.08968](http://arxiv.org/abs/2307.08968)
-
-    这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。
+    本文研究了中间边际分布对马丁格尔最优输运问题的影响，并发现考虑到香草期权上的额外价格信息可能对无模型定价下界产生重要影响。
 
     
 
-    最近的文献认为实际利率下降导致经济利润和加价显著增长。因此，有人认为市场力量的增强与通胀有关。我们通过两个相关的例子，即被视为加价上涨的市场力量增加和企业利润对通胀的影响，审视了时序敏感性对估计长期趋势的影响。我们的分析表明，样本起始日期发生四年偏移会显著影响经济利润增长趋势，占趋势的19%，或者2014年每名工人3000美元。同样，我们的定性证据表明，增加的企业利润不太可能推动通胀。
+    我们研究了额外中间边际分布对马丁格尔最优输运问题价值的影响。从金融角度来看，这意味着不仅考虑那些期权到期时间与某些异态衍生品到期时间相一致的期权价格，还考虑额外的到期时间，并研究对异态衍生品的无模型定价下界的影响。我们表征了市场设置，即异态衍生品的回报、期权价格和边际分布的组合，可以保证改进的价格下界，以及那些排除任何改进的市场设置。最后，我们通过多个示例展示，考虑到香草期权上的额外价格信息可能对产生的无模型定价下界产生相当大的影响。
 
-    Recent literature argues the decline in real interest rates led to significant increases in economic profits and markups. Consequently, some have linked rising market power to inflation. We scrutinize the effect of time series sensitivity on estimating secular trends through two relevant examples: increasing market power perceived as rising markups and the influence of corporate profits on inflation. Our analysis reveals that a four-year shift in sample start dates significantly affects economic profit growth trends, accounting for 19% of the trend, or $3,000 per worker in 2014. Likewise, our qualitative evidence suggests that increased corporate profits are unlikely to drive inflation.
+    We study the influence of additional intermediate marginal distributions on the value of the martingale optimal transport problem. From a financial point of view, this corresponds to taking into account call option prices not only, as usual, for those call options where the respective future maturities coincide with the maturities of some exotic derivative but also additional maturities and then to study the effect on model-independent price bounds for the exotic derivative. We characterize market settings, i.e., combinations of the payoff of exotic derivatives, call option prices and marginal distributions that guarantee improved price bounds as well as those market settings that exclude any improvement.  Eventually, we showcase in numerous examples that the consideration of additional price information on vanilla options may have a considerable impact on the resultant model-independent price bounds.
     
-[^9]: 文化、性别和劳动力参与：来自哥伦比亚的证据
+[^5]: 注册制度实施对IPO定价效率的影响
 
-    Culture, Gender, and Labor Force Participation: Evidence from Colombia. (arXiv:2307.08869v1 [econ.GN])
+    The Impacts of Registration Regime Implementation on IPO Pricing Efficiency. (arXiv:2307.09669v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2307.08869](http://arxiv.org/abs/2307.08869)
+    [http://arxiv.org/abs/2307.09669](http://arxiv.org/abs/2307.09669)
 
-    该研究调查了将性别平等纳入哥伦比亚宪法对性别平等态度、性别歧视经历和劳动力市场参与的影响。研究发现，女性的劳动力市场参与显著增加，同时男性对性别平等持更大的支持，女性经历的性别歧视减少。这表明在家庭中存在持续的权力斗争。
-
-    
-
-    该研究调查了将性别平等纳入1991年哥伦比亚宪法对性别平等态度、基于性别的歧视经历和劳动力市场参与的影响。使用差异研究方法，我们比较了接受义务高中课程《宪法》的个体与未接受的个体。我们的发现显示，劳动力市场参与显著增加，主要由女性推动。接受这些课程也影响了性别平等的态度，男性表现出更大的支持。女性报告称经历的基于性别的歧视较少。重要的是，我们的结果表明，女性增加的劳动力市场参与不太可能是由于男性伴侣减少了障碍。男性和女性对于家庭领域的传统性别规范的意见存在差异，突显了家庭内部的权力斗争。
-
-    This study investigates the impact of integrating gender equality into the Colombian constitution of 1991 on attitudes towards gender equality, experiences of gender-based discrimination, and labor market participation. Using a difference-in-discontinuities framework, we compare individuals exposed to mandatory high school courses on the Constitution with those who were not exposed. Our findings show a significant increase in labor market participation, primarily driven by women. Exposure to these courses also shapes attitudes towards gender equality, with men demonstrating greater support. Women report experiencing less gender-based discrimination. Importantly, our results suggest that women's increased labor market participation is unlikely due to reduced barriers from male partners. A disparity in opinions regarding traditional gender norms concerning household domains is observed between men and women, highlighting an ongoing power struggle within the home. However, the presence of
-    
-[^10]: 一项放贷法律：一个澄清
-
-    A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.08861](http://arxiv.org/abs/2307.08861)
-
-    本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。
+    本研究研究了中国科创板IPO定价的演变以及与制度变革和实施相关的影响。结果显示，在所有情况下，治理科创板IPO的注册制度提供了最有效的定价。
 
     
 
-    一些国家的国家法律禁止以高利息贷款。大多数国家限制有效利率（而不仅仅是名义利率），其中包括所有可能与贷款相关的佣金和费用。在这种情况下，对于现金流没有内部回报率的贷款，限制不明确。在本文中，我们展示了如何将此限制扩展到所有贷款。我们证明了存在一个独特的扩展，与一组自然公理一致。
+    我们研究了制度变革和相关规则实施对中国创业板（创业板和科创板）IPO初始回报的影响。我们提出了初始回报包含发行人公允价值和投资者过度反应，并检验了它们的大小和决定因素。我们的发现揭示了IPO定价在四个维度上随着监管变革的推进而发生的演变：1）治理监管制度，2）上市日交易限制，3）发行人上市规则和4）投资者参与要求。我们发现，中国IPO定价中最有效的监管制度具有以下四个特点：1）注册制度，2）没有限制初始回报的硬性回报上限或交易限制；3）更具体的发行人上市规则，和4）更严格的投资者参与要求。在所有情况下，我们表明，治理科创板IPO的注册制度提供了最有效的定价。
 
-    The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.
+    We study the impacts of regime changes and related rule implementations on IPOs initial return for China entrepreneurial boards (ChiNext and STAR). We propose that an initial return contains the issuer fair value and an investors overreaction and examine their magnitudes and determinants. Our findings reveal an evolution of IPO pricing in response to the progression of regulation changes along four dimensions: 1) governing regulation regime, 2) listing day trading restrictions, 3) listing rules for issuers, and 4) participation requirements for investors. We find that the most efficient regulation regime in Chinese IPO pricing has four characteristics: 1) registration system, 2) no hard return caps nor trading curbs that restrict the initial return; 3) more specific listing rules for issuers, and 4) more stringent participation requirements for investors. In all contexts, we show that the registration regime governing the STAR IPOs offers the most efficient pricing.
     
-[^11]: 机器学习、混合模型和深度学习预测模型在欧洲金融市场和比特币中的比较分析
+[^6]: 青少年权力? 父母和青少年的共同劳动力供应模型
 
-    Comparative Analysis of Machine Learning, Hybrid, and Deep Learning Forecasting Models Evidence from European Financial Markets and Bitcoins. (arXiv:2307.08853v1 [q-fin.ST])
+    Power to the teens? A model of parents' and teens' collective labor supply. (arXiv:2307.09634v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.08853](http://arxiv.org/abs/2307.08853)
+    [http://arxiv.org/abs/2307.09634](http://arxiv.org/abs/2307.09634)
 
-    本研究通过比较统计学、机器学习和深度学习的预测模型，发现预测金融市场波动具有挑战性，准确性普遍较低。在不同时间段中，ARIMA和混合ETS-ANN模型在预测上表现较好，而kNN模型在某些时期中表现较优。尽管如此，提高金融市场预测准确性仍然是一个挑战。
-
-    
-
-    本研究分析了市场不确定性对欧洲主要金融市场和加密货币市场的传导情况，涵盖了疫情前、疫情期间和疫情后的较长时期。利用每日金融市场指数和价格观察数据评估预测模型。我们比较了统计学、机器学习和深度学习的预测模型，如ARIMA模型、混合ETS-ANN模型和kNN模型。研究结果表明，预测金融市场波动是具有挑战性的，准确性水平在多个实例中普遍较低。ARIMA和混合ETS-ANN模型在较长时间段内表现更好，相比之下，kNN模型在几个时期中表现较好，具体取决于观察到的准确度测量指标。研究人员对于如何提高金融市场预测的准确性仍然面临挑战。
-
-    This study analyzes the transmission of market uncertainty on key European financial markets and the cryptocurrency market over an extended period, encompassing the pre, during, and post-pandemic periods. Daily financial market indices and price observations are used to assess the forecasting models. We compare statistical, machine learning, and deep learning forecasting models to evaluate the financial markets, such as the ARIMA, hybrid ETS-ANN, and kNN predictive models. The study results indicate that predicting financial market fluctuations is challenging, and the accuracy levels are generally low in several instances. ARIMA and hybrid ETS-ANN models perform better over extended periods compared to the kNN model, with ARIMA being the best-performing model in 2018-2021 and the hybrid ETS-ANN model being the best-performing model in most of the other subperiods. Still, the kNN model outperforms the others in several periods, depending on the observed accuracy measure. Researchers hav
-    
-[^12]: 分散预测市场和体育博彩
-
-    Decentralized Prediction Markets and Sports Books. (arXiv:2307.08768v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2307.08768](http://arxiv.org/abs/2307.08768)
-
-    这项工作提出了一种基于流动性的分散预测市场框架，该框架具备合理的金融性质，并提出了有意义的交易费用机制。
+    本研究探讨了青少年和父母在家庭决策过程中的共同作用，发现了父母和青少年之间的讨价还价过程导致了性别差距，并提出了一个集体家庭模型。这一结果表明，儿子参加学校的机会成本比女儿更高，公共政策必须考虑到这种性别差距。
 
     
 
-    预测市场允许交易者对潜在的未来结果进行投注，这些市场存在于天气、政治、体育和经济预测领域。在这项工作中，我们考虑了使用自动化市场制造商（AMMs）的分散预测市场框架。具体而言，我们构建了一个基于流动性的预测市场 AMM 结构，该结构在底层效用函数上满足合理的金融性质，包括投注成本和结果定价的相关性。重要的是，我们研究了流动性如何可以从 AMM 中汇集或撤回以及对市场行为的影响。在考虑这个分散的框架时，我们还提出了可以用于交易收取有意义费用的建议，以补偿流动性提供者对市场的重要功能。
+    青少年在成长环境中的需求和资源的限制下做出了改变一生的决策。家庭行为模型通常将决策权委托给青少年或他们的父母，忽略了家庭中的共同决策过程。本研究利用2011年至2019年的哥斯达黎加Encuesta Nacional de Hogares的数据和有条件的现金转移计划，展示了青少年和父母如何共同分配时间和收入。首先，通过边际处理效应框架，展示了家庭对转移的性别差异响应。其次，解释了结果中的性别差距是由父母和青少年之间的讨价还价过程导致的。研究提出了一个集体家庭模型，并显示儿子与父母合作讨价的，而女儿却不是。这一结果意味着儿子上学的机会成本比女儿高。针对青少年的公共政策必须考虑到这种性别差距才能有效果。
 
-    Prediction markets allow traders to bet on potential future outcomes. These markets exist for weather, political, sports, and economic forecasting. Within this work we consider a decentralized framework for prediction markets using automated market makers (AMMs). Specifically, we construct a liquidity-based AMM structure for prediction markets that, under reasonable axioms on the underlying utility function, satisfy meaningful financial properties on the cost of betting and the resulting pricing oracle. Importantly, we study how liquidity can be pooled or withdrawn from the AMM and the resulting implications to the market behavior. In considering this decentralized framework, we additionally propose financially meaningful fees that can be collected for trading to compensate the liquidity providers for their vital market function.
+    Teens make life-changing decisions while constrained by the needs and resources of the households they grow up in. Household behavior models frequently delegate decision-making to the teen or their parents, ignoring joint decision-making in the household. I show that teens and parents allocate time and income jointly by using data from the Costa Rican Encuesta Nacional de Hogares from 2011 to 2019 and a conditional cash transfer program. First, I present gender differences in household responses to the transfer using a marginal treatment effect framework. Second, I explain how the gender gap from the results is due to the bargaining process between parents and teens. I propose a collective household model and show that sons bargain cooperatively with their parents while daughters do not. This result implies that sons have a higher opportunity cost of attending school than daughters. Public policy targeting teens must account for this gender disparity to be effective.
     
-[^13]: 气候不确定性对最佳减排路径和碳社会成本的影响
+[^7]: 深度强化学习用于ESG金融投资组合管理
 
-    Climate uncertainty impacts on optimal mitigation pathways and social cost of carbon. (arXiv:2304.08957v1 [econ.GN])
+    Deep Reinforcement Learning for ESG financial portfolio management. (arXiv:2307.09631v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2304.08957](http://arxiv.org/abs/2304.08957)
+    [http://arxiv.org/abs/2307.09631](http://arxiv.org/abs/2307.09631)
 
-    研究表明，气候不确定性是导致碳社会成本和最优CO$_2$减排量范围变化的关键因素，减少气候不确定性可以改进减排投入的成本计算，同时也指出了气候和排放之间缺失的反馈。
-
-    
-
-    气候政策分析中的排放路径通常来自综合评估模型(IAMs)。然而，这些排放路径通常不考虑气候对社会经济系统的反馈作用，因此也没有考虑气候不确定性。本文表明，仅仅气候不确定性就显著地改变了最优CO$_2$减排量成本效益，对于一组限制升温在1.5摄氏度以下低超温度控制情景，2050年的减排量变化范围在-14到+12 GtCO$_2$ yr$^{-1}$之间。此情景下，碳社会成本的范围变化达到了五倍。平衡气候敏感性(ECS)和现有气溶胶辐射强度是碳社会成本和中世纪最佳二氧化碳排放量的强烈决定因素。这表明，减少气候不确定性可以精确计算减排投入的成本，同时也指出了气候和排放之间缺失的反馈。
-
-    Emissions pathways used in climate policy analysis are often derived from integrated assessment models (IAMs). However, such emissions pathways do not typically include climate feedbacks on socioeconomic systems and by extension do not consider climate uncertainty in their construction. Here we show that climate uncertainty alone significantly changes the cost-benefit optimal CO$_2$ emissions, varying from -14 to +12 GtCO$_2$ yr$^{-1}$ in 2050 (5-95% range) for an ensemble of scenarios that limit warming to 1.5{\deg}C with low overshoot. Climate uncertainty is also responsible for a factor of five range in the social cost of carbon (SCC) in this scenario ensemble. Equilibrium climate sensitivity (ECS) and the strength of present-day aerosol radiative forcing are strong determinants of SCC and optimal mid-century CO$_2$ emissions. This confirms that reducing climate uncertainty can refine cost-optimal emissions projections, and points to a missing feedback between climate and emissions 
-    
-[^14]: 在线追踪限制的经济后果
-
-    Economic Consequences of Online Tracking Restrictions. (arXiv:2303.09147v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.09147](http://arxiv.org/abs/2303.09147)
-
-    该文介绍了限制在线追踪用户的时间，针对出版商可能产生的经济影响做了一个成本效益分析，研究发现Cookie寿命限制在一年（两年）会使其价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。
+    本文研究了深度强化学习在ESG金融投资组合管理中的应用，结果显示在按公司ESG评分调整回报的市场中，DRL代理的表现优于标准市场设置。
 
     
 
-    近年来，欧洲监管机构一直在就限制在线追踪用户的时间以更好地保护消费者隐私问题展开辩论。尽管这些辩论具有重要意义，但显然缺乏任何综合的成本效益分析。本文从成本方面提出了一种方法，旨在估计限制Cookie寿命对出版商的经济影响。对在2.5年内收到1.28亿广告展示的54,127个用户的Cookie进行的实证研究得出了平均Cookie寿命为279天，平均价值为2.52欧元/个。只有13%的cookie会随时间增值，但它们的平均价值约为所有cookie平均价值的四倍。将Cookie寿命限制在一年（两年）会使其寿命价值降低25％（19％），这表示所有Cookie价值减少了9％（5％）。鉴于106亿欧元的基于Cookie的展示广告收入，Cookie限制可能对出版商产生显着的经济影响。
+    本文研究了深度强化学习（DRL）在环境、社会和治理（ESG）金融投资组合管理中的应用，特别关注基于ESG评分的市场监管的潜在益处。我们利用了Advantage Actor-Critic（A2C）代理，并使用OpenAI Gym中的环境进行实验，这些环境是从FinRL平台改编的。该研究包括对DRL代理在标准道琼斯工业平均指数（DJIA）市场条件和按公司ESG评分调整回报的情景下的性能进行比较分析。在ESG调控市场中，根据投资组合的回报和ESG评分按比例分配资金，而对于低于指数平均ESG评分的投资组合则征收税款。结果令人惊讶地表明，在ESG调控市场中，DRL代理的表现优于标准DJIA市场设置。此外，我们考虑了将ESG变量纳入模型中的影响。
 
-    In recent years, European regulators have debated restricting the time an online tracker can track a user to protect consumer privacy better. Despite the significance of these debates, there has been a noticeable absence of any comprehensive cost-benefit analysis. This article fills this gap on the cost side by suggesting an approach to estimate the economic consequences of lifetime restrictions on cookies for publishers. The empirical study on cookies of 54,127 users who received 128 million ad impressions over 2.5 years yields an average cookie lifetime of 279 days, with an average value of EUR 2.52 per cookie. Only 13% of all cookies increase their daily value over time, but their average value is about four times larger than the average value of all cookies. Restricting cookies lifetime to one year (two years) decreases their lifetime value by 25% (19%), which represents a decrease in the value of all cookies of 9% (5%). In light of the EUR 10.60 billion cookie-based display ad rev
+    This paper investigates the application of Deep Reinforcement Learning (DRL) for Environment, Social, and Governance (ESG) financial portfolio management, with a specific focus on the potential benefits of ESG score-based market regulation. We leveraged an Advantage Actor-Critic (A2C) agent and conducted our experiments using environments encoded within the OpenAI Gym, adapted from the FinRL platform. The study includes a comparative analysis of DRL agent performance under standard Dow Jones Industrial Average (DJIA) market conditions and a scenario where returns are regulated in line with company ESG scores. In the ESG-regulated market, grants were proportionally allotted to portfolios based on their returns and ESG scores, while taxes were assigned to portfolios below the mean ESG score of the index. The results intriguingly reveal that the DRL agent within the ESG-regulated market outperforms the standard DJIA market setup. Furthermore, we considered the inclusion of ESG variables i
     
-[^15]: 购买历史与产品个性化
+[^8]: 《伟大的欺骗：公司股份回购中执行策略的全面研究》
 
-    Purchase history and product personalization. (arXiv:2103.11504v5 [econ.TH] UPDATED)
+    The Great Deception: A Comprehensive Study of Execution Strategies in Corporate Share Buy-Backs. (arXiv:2307.09617v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2103.11504](http://arxiv.org/abs/2103.11504)
+    [http://arxiv.org/abs/2307.09617](http://arxiv.org/abs/2307.09617)
 
-    研究探讨了产品个性化对价格歧视的影响，并发现通过控制产品个性化程度，上游公司可以抑制由消费者面临下游价格歧视产生的推高力量。
+    本文全面研究了股份回购中的执行策略，揭示了执行阶段的挑战和机会，并与资本配置的其他方面进行比较。研究旨在帮助公司、投资者和监管机构更好地理解股份回购的执行，强调需要一种成本效益的方法。
 
     
 
-    产品个性化打开了价格歧视的大门。丰富的产品线使企业能够更好地根据消费者的口味定制产品，但选择产品本身就包含着有价值的消费者信息，这些信息可以被用来进行价格歧视。我们在一个上游-下游模型中研究了这种权衡，其中消费者先购买上游的可变质量商品，然后购买不可分割的下游商品。下游公司利用消费者的购买历史进行价格歧视引入了一种新的扭曲：上游公司提供的产品子集如果能够联合设计产品线和下游定价，将会有不同选择。通过控制产品个性化程度，上游公司抑制了由消费者面临下游价格歧视产生的推高力量。
+    我们深入研究了股份回购这一战略性的公司资本配置工具，在过去几十年里引起了广泛关注。尽管这已成为广泛研究和争议的对象，但交易的执行阶段仍是一个未被深入探讨的领域。与其他资本配置决策，如收购定价的广泛文献相比，这种对执行阶段缺乏研究的情况令人惊讶。我们的目标是揭示股份回购的执行实践，突出出现的挑战和机会，并与资本配置的其他方面进行比较分析。从局外人的视角来看，本文分析了看似不同的实践，旨在揭示执行的“黑暗艺术”。目的是帮助公司、投资者和监管机构更好地理解执行股份回购的复杂性，强调需要一种成本效益的方法。
 
-    Product personalization opens the door to price discrimination. A rich product line allows firms to better tailor products to consumers' tastes, but the mere choice of a product carries valuable information about consumers that can be leveraged for price discrimination. We study this trade-off in an upstream-downstream model, where a consumer buys a good of variable quality upstream, followed by an indivisible good downstream. The downstream firm's use of the consumer's purchase history for price discrimination introduces a novel distortion: The upstream firm offers a subset of the products that it would offer if, instead, it could jointly design its product line and downstream pricing. By controlling the degree of product personalization the upstream firm curbs ratcheting forces that result from the consumer facing downstream price discrimination.
+    We delve into the intricate world of share buy-backs, a strategic corporate capital allocation tool that has gained significant prominence over the past few decades. Despite being the subject of extensive research and debate, the execution phase of these transactions remains an underexplored area. This lack of research into the execution phase is surprising, especially when compared to the extensive literature on other capital allocation decisions, such as acquisition pricing. We aim to shed light on the execution practices of share buy-backs, highlighting challenges and opportunities that arise and presenting a comparative analysis with other aspects of capital allocation. From an outsider's perspective, this paper analyses the seemingly disparate practices and aims to uncover the "dark arts" of execution. The intention is to assist corporations, investors, and regulators in better understanding the intricacies of executing share buy-backs, emphasizing the need for a cost-efficient an
+    
+[^9]: Put-Call Parity的确定等价比率和隐含的Put-Call Parity确定等价比率曲面
+
+    The Put-Call Parity Certainty Equivalent Rate and the Implied Put-Call Parity Certainty Equivalent Rate Surface. (arXiv:2307.08675v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2307.08675](http://arxiv.org/abs/2307.08675)
+
+    本研究通过推导数学表达式，研究了确定等价比率在金融市场中的应用，并通过实证研究了解释了该数值的含义。结果应用于电动汽车行业。
+
+    
+
+    在现实金融市场中，确定等价比率是投资者考虑的重要因素。通过一个特定公司的确定等价比率的数值，投资者可以判断这个公司是否值得投资。本文将探讨如何获得确定等价比率的数值，以便评估给定公司的价值。首先，我们将介绍本文的理论支持，即Put-Call Parity。根据Put-Call Parity，我们将推导出确定等价比率的数学表达式。其次，我们将使用确定等价比率的数学表达式进行实证研究。我们将考虑一些极端例子，包括到2023年为止表现最佳和最差的股票。基于这些股票的数据，我们将可视化展示这些股票的表现，并解释数据的含义。最后，我们将把结果应用到一个非常受欢迎的行业——电动汽车行业。
+
+    In real financial markets, the certainty equivalent rate is an important factor for investors to consider. From the value of a specific company's certainty equivalent rate, investors can judge if this company is worth investing in. In this paper, we will explore how to obtain the value of the certainty equivalent rate so that we can evaluate a given company. First, we will introduce the theoretical support of this paper, which is put-call parity. From put-call parity, we will derive the mathematical expression for the certainty equivalent rate. Second, we will use the mathematical expression for the certainty equivalent rate to perform an empirical study. We will consider some extreme examples, including some of the best- and worst-performing stocks up to this point in 2023. Based on these stocks' data, we will visualize the performance of these stocks and explain the meaning of the data. Finally, we will apply the results to a very popular industry -- the electric vehicle industry -- 
+    
+[^10]: 基于BSDE的动态收益和星形风险度量
+
+    Dynamic Return and Star-Shaped Risk Measures via BSDEs. (arXiv:2307.03447v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2307.03447](http://arxiv.org/abs/2307.03447)
+
+    本文通过使用反向随机微分方程（BSDE）建立了动态收益和星形风险度量的表征结果，并证明了存在至少一个凸BSDE具有非空的超解集，从而得到最小的星形超解。这些结果对于资本配置和投资组合选择具有实用性。
+
+    
+
+    本文通过反向随机微分方程（BSDE）来建立动态收益和星形风险度量的表征结果。首先，我们在局部凸Frechet格上表征了一类静态星形泛函。接下来，利用Pasch-Hausdorff包络，我们构建了一类适当的凸BSDE驱动，引出了相应的动态凸风险度量，其中动态收益和星形风险度量作为基本的最小值。此外，我们证明了如果一个BSDE的星形超解集非空，则对于每个终端条件，至少存在一个凸BSDE具有非空的超解集，从而得到最小的星形超解。我们通过几个例子说明了我们的理论结果，并展示了它们在资本配置和投资组合选择中的实用性。
+
+    This paper establishes characterization results for dynamic return and star-shaped risk measures induced via backward stochastic differential equations (BSDEs). We first characterize a general family of static star-shaped functionals in a locally convex Fr\'echet lattice. Next, employing the Pasch-Hausdorff envelope, we build a suitable family of convex drivers of BSDEs inducing a corresponding family of dynamic convex risk measures of which the dynamic return and star-shaped risk measures emerge as the essential minimum. Furthermore, we prove that if the set of star-shaped supersolutions of a BSDE is not empty, then there exists, for each terminal condition, at least one convex BSDE with a non-empty set of supersolutions, yielding the minimal star-shaped supersolution. We illustrate our theoretical results in a few examples and demonstrate their usefulness in two applications, to capital allocation and portfolio choice.
+    
+[^11]: 流动性溢价和流动性调整收益与波动性：以流动性调整的均值方差框架及其在加密资产投资组合上的应用为例
+
+    Liquidity Premium and Liquidity-Adjusted Return and Volatility: illustrated with a Liquidity-Adjusted Mean Variance Framework and its Application on a Portfolio of Crypto Assets. (arXiv:2306.15807v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2306.15807](http://arxiv.org/abs/2306.15807)
+
+    这项研究创建了创新技术来度量加密资产的流动性溢价，并开发了流动性调整的模型来提高投资组合的预测性能。
+
+    
+
+    我们建立了创新的流动性溢价Beta度量方法，并应用于选定的加密资产，同时对个别资产的收益进行流动性调整并建模，以及对投资组合的波动性进行流动性调整和建模。在高流动性情况下，这两个模型都表现出较强的可预测性，这使得流动性调整的均值方差 (LAMV) 框架在投资组合表现上比正常的均值方差 (RMV) 框架具有明显的优势。
+
+    We establish innovative measures of liquidity premium Beta on both asset and portfolio levels, and corresponding liquidity-adjusted return and volatility, for selected crypto assets. We develop liquidity-adjusted ARMA-GARCH/EGARCH representation to model the liquidity-adjusted return of individual assets, and liquidity-adjusted VECM/VAR-DCC/ADCC structure to model the liquidity-adjusted variance of portfolio. Both models exhibit improved predictability at high liquidity, which affords a liquidity-adjusted mean-variance (LAMV) framework a clear advantage over its regular mean variance (RMV) counterpart in portfolio performance.
+    
+[^12]: 经济主体的动态运输
+
+    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+
+    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
+
+    
+
+    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
+
+    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
+    
+[^13]: 通过财务指标对比公司股票估值及其社会意义
+
+    Comparative Companies' Stock Valuation through Financial Metrics and its Social Implications. (arXiv:1909.06332v3 [q-fin.PM] UPDATED)
+
+    [http://arxiv.org/abs/1909.06332](http://arxiv.org/abs/1909.06332)
+
+    杜比公司是财务和运营状况最好的公司，其稳定的利润率创造了数十亿的收入。企业竞争争取更多专利可能带来新的就业机会和对教育和市场销售领域的投资需求。
+
+    
+
+    在各家公司中，杜比公司是财务和运营状况最好的公司。根据过去三年的财务报表，杜比公司具有稳定的利润率，创造了数十亿的收入，是仅有的十位数额的公司。企业竞争争取更多专利，因为旧专利过期可能意味着创造新的就业机会，为学校增加更多资金，投资于技术或工程教育，并进一步需要购买市场销售人才。
+
+    Out of the companies, Dolby is the company with the best overall financial and operation health. According to the table that accounted its financial statements for the past three years, Dolby has stable profit margins that generates a revenue in the billions, the only company in ten figures. Corporate competition to gain more patents as old ones expire may mean new jobs created, increased funding for schools, investment in technology or engineering education, and further need for purchase of marketing and salespeople.
     
 

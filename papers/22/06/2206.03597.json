@@ -1,0 +1,11 @@
+{
+    "title": "Meta-Learning Parameterized Skills. (arXiv:2206.03597v4 [cs.LG] UPDATED)",
+    "abstract": "We propose a novel parameterized skill-learning algorithm that aims to learn transferable parameterized skills and synthesize them into a new action space that supports efficient learning in long-horizon tasks. We propose to leverage off-policy Meta-RL combined with a trajectory-centric smoothness term to learn a set of parameterized skills. Our agent can use these learned skills to construct a three-level hierarchical framework that models a Temporally-extended Parameterized Action Markov Decision Process. We empirically demonstrate that the proposed algorithms enable an agent to solve a set of difficult long-horizon (obstacle-course and robot manipulation) tasks.",
+    "link": "http://arxiv.org/abs/2206.03597",
+    "context": "Title: Meta-Learning Parameterized Skills. (arXiv:2206.03597v4 [cs.LG] UPDATED)\nAbstract: We propose a novel parameterized skill-learning algorithm that aims to learn transferable parameterized skills and synthesize them into a new action space that supports efficient learning in long-horizon tasks. We propose to leverage off-policy Meta-RL combined with a trajectory-centric smoothness term to learn a set of parameterized skills. Our agent can use these learned skills to construct a three-level hierarchical framework that models a Temporally-extended Parameterized Action Markov Decision Process. We empirically demonstrate that the proposed algorithms enable an agent to solve a set of difficult long-horizon (obstacle-course and robot manipulation) tasks.",
+    "path": "papers/22/06/2206.03597.json",
+    "total_tokens": 763,
+    "translated_title": "元学习参数化技能",
+    "translated_abstract": "我们提出了一种新颖的参数化技能学习算法，旨在学习可转移的参数化技能并将它们综合到支持长期任务高效学习的新动作空间中。我们提出利用离策略元强化学习与以轨迹为中心的平滑项相结合，学习一组参数化技能。我们的智能体可以使用这些学习到的技能构建一个三级层次结构框架，模拟时间扩展参数化动作马尔可夫决策过程。我们进行实证研究表明，所提出的算法使智能体能够解决一组困难的长期任务（障碍课程和机器人操纵）。",
+    "tldr": "提出了一种元学习参数化技能的算法，通过学习可转移的参数化技能并将其综合到新的动作空间中，实现了长期任务的高效学习。实证研究表明，该算法能够使智能体在难以解决的长期任务中取得成功。"
+}

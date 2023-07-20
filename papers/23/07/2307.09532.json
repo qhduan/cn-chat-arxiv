@@ -1,0 +1,12 @@
+{
+    "title": "Can Model Fusing Help Transformers in Long Document Classification? An Empirical Study. (arXiv:2307.09532v1 [cs.CL])",
+    "abstract": "Text classification is an area of research which has been studied over the years in Natural Language Processing (NLP). Adapting NLP to multiple domains has introduced many new challenges for text classification and one of them is long document classification. While state-of-the-art transformer models provide excellent results in text classification, most of them have limitations in the maximum sequence length of the input sequence. The majority of the transformer models are limited to 512 tokens, and therefore, they struggle with long document classification problems. In this research, we explore on employing Model Fusing for long document classification while comparing the results with well-known BERT and Longformer architectures.",
+    "link": "http://arxiv.org/abs/2307.09532",
+    "context": "Title: Can Model Fusing Help Transformers in Long Document Classification? An Empirical Study. (arXiv:2307.09532v1 [cs.CL])\nAbstract: Text classification is an area of research which has been studied over the years in Natural Language Processing (NLP). Adapting NLP to multiple domains has introduced many new challenges for text classification and one of them is long document classification. While state-of-the-art transformer models provide excellent results in text classification, most of them have limitations in the maximum sequence length of the input sequence. The majority of the transformer models are limited to 512 tokens, and therefore, they struggle with long document classification problems. In this research, we explore on employing Model Fusing for long document classification while comparing the results with well-known BERT and Longformer architectures.",
+    "path": "papers/23/07/2307.09532.json",
+    "total_tokens": 744,
+    "translated_title": "模型融合是否能帮助Transformer模型在长文档分类中取得更好的效果？一项实证研究。",
+    "translated_abstract": "文本分类是自然语言处理（NLP）领域的一个研究方向，多年来一直受到关注。将NLP应用于多个领域为文本分类引入了许多新的挑战之一就是长文档分类。尽管最先进的Transformer模型在文本分类中提供了出色的结果，但大部分模型在输入序列的最大长度上存在限制。大多数Transformer模型仅限制为512个令牌，因此在长文档分类问题上表现不佳。在本研究中，我们探讨了在长文档分类中应用模型融合的相关方法，并将结果与知名的BERT和Longformer模型进行了比较。",
+    "tldr": "本研究探讨了在长文档分类中采用模型融合的方法，与BERT和Longformer模型进行了比较，并发现模型融合在处理长文档分类问题上具有潜力。",
+    "en_tdlr": "This study explores the use of model fusing for long document classification, comparing it with BERT and Longformer models, and finds that model fusing shows potential in addressing long document classification problems."
+}

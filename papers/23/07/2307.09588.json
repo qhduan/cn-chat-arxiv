@@ -1,0 +1,12 @@
+{
+    "title": "Automating Wood Species Detection and Classification in Microscopic Images of Fibrous Materials with Deep Learning. (arXiv:2307.09588v1 [cs.CV])",
+    "abstract": "We have developed a methodology for the systematic generation of a large image dataset of macerated wood references, which we used to generate image data for nine hardwood genera. This is the basis for a substantial approach to automate, for the first time, the identification of hardwood species in microscopic images of fibrous materials by deep learning. Our methodology includes a flexible pipeline for easy annotation of vessel elements. We compare the performance of different neural network architectures and hyperparameters. Our proposed method performs similarly well to human experts. In the future, this will improve controls on global wood fiber product flows to protect forests.",
+    "link": "http://arxiv.org/abs/2307.09588",
+    "context": "Title: Automating Wood Species Detection and Classification in Microscopic Images of Fibrous Materials with Deep Learning. (arXiv:2307.09588v1 [cs.CV])\nAbstract: We have developed a methodology for the systematic generation of a large image dataset of macerated wood references, which we used to generate image data for nine hardwood genera. This is the basis for a substantial approach to automate, for the first time, the identification of hardwood species in microscopic images of fibrous materials by deep learning. Our methodology includes a flexible pipeline for easy annotation of vessel elements. We compare the performance of different neural network architectures and hyperparameters. Our proposed method performs similarly well to human experts. In the future, this will improve controls on global wood fiber product flows to protect forests.",
+    "path": "papers/23/07/2307.09588.json",
+    "total_tokens": 737,
+    "translated_title": "使用深度学习自动化进行纤维材料显微图像中的木材种类检测与分类",
+    "translated_abstract": "我们开发了一种方法，用于系统地生成大量的破解木材参考图像数据集，并利用此数据生成了九个硬木种属的图像数据。这是通过深度学习，首次自动化识别纤维材料显微图像中硬木种类的基础。我们的方法包括一个灵活的管道，便于对导管元素进行注释。我们比较了不同神经网络架构和超参数的性能。我们提出的方法表现与人类专家相似。将来，这将改善对全球木质纤维产品流的控制，以保护森林。",
+    "tldr": "本研究通过深度学习实现了对纤维材料显微图像中硬木种类的自动检测和分类。该方法在性能上与人类专家类似，未来将有助于保护森林资源。",
+    "en_tdlr": "This study automated the detection and classification of hardwood species in microscopic images of fibrous materials using deep learning. The proposed method performs similarly well to human experts and has the potential to improve controls on global wood fiber product flows to protect forests in the future."
+}

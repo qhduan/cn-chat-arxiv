@@ -1,0 +1,12 @@
+{
+    "title": "Asian Option Pricing via Laguerre Quadrature: A Diffusion Kernel Approach. (arXiv:2307.09969v1 [q-fin.PR])",
+    "abstract": "This paper will demonstrate some new techniques for developing the theory of Asian (arithmetic average) options pricing. We discuss the basic derivation of the diffusion equations, and how various techniques from potential theory can be applied to solve these complex expressions. The Whittaker-type confluent hypergeometric functions are introduced, and we discuss how these functions are related to other systems including Mehler-Fock and modified Bessel functions. We close with a brief analysis of some index transforms and the kernels related to these integral transforms.",
+    "link": "http://arxiv.org/abs/2307.09969",
+    "context": "Title: Asian Option Pricing via Laguerre Quadrature: A Diffusion Kernel Approach. (arXiv:2307.09969v1 [q-fin.PR])\nAbstract: This paper will demonstrate some new techniques for developing the theory of Asian (arithmetic average) options pricing. We discuss the basic derivation of the diffusion equations, and how various techniques from potential theory can be applied to solve these complex expressions. The Whittaker-type confluent hypergeometric functions are introduced, and we discuss how these functions are related to other systems including Mehler-Fock and modified Bessel functions. We close with a brief analysis of some index transforms and the kernels related to these integral transforms.",
+    "path": "papers/23/07/2307.09969.json",
+    "total_tokens": 700,
+    "translated_title": "亚洲期权定价的拉盖尔积分法：扩散核方法",
+    "translated_abstract": "本文将展示一些用于发展亚洲（算术平均）期权定价理论的新技术。我们讨论了扩散方程的基本推导，并介绍了如何应用潜在理论中的各种技术来解决这些复杂的表达式。我们介绍了维塔克型混合超几何函数，并讨论了这些函数与其他系统（包括Mehler-Fock函数和修正贝塞尔函数）之间的关系。最后，我们简要分析了一些指数变换和与这些积分变换相关的核函数。",
+    "tldr": "本文介绍了利用拉盖尔积分法来发展亚洲期权定价理论的新技术，包括扩散方程推导、潜在理论技术应用、维塔克型混合超几何函数和指数变换等。",
+    "en_tdlr": "This paper presents new techniques for developing the theory of Asian option pricing using Laguerre quadrature, including the derivation of diffusion equations, application of potential theory techniques, introduction of Whittaker-type confluent hypergeometric functions, and analysis of index transforms."
+}

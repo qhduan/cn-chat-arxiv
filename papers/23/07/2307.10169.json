@@ -1,0 +1,11 @@
+{
+    "title": "Challenges and Applications of Large Language Models. (arXiv:2307.10169v1 [cs.CL])",
+    "abstract": "Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learning discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining challenges and already fruitful application areas. In this paper, we aim to establish a systematic set of open problems and application successes so that ML researchers can comprehend the field's current state more quickly and become productive.",
+    "link": "http://arxiv.org/abs/2307.10169",
+    "context": "Title: Challenges and Applications of Large Language Models. (arXiv:2307.10169v1 [cs.CL])\nAbstract: Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learning discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining challenges and already fruitful application areas. In this paper, we aim to establish a systematic set of open problems and application successes so that ML researchers can comprehend the field's current state more quickly and become productive.",
+    "path": "papers/23/07/2307.10169.json",
+    "total_tokens": 585,
+    "translated_title": "大型语言模型的挑战与应用",
+    "translated_abstract": "大型语言模型在机器学习领域的讨论中从不存在到无处不在只用了几年的时间。由于领域的快速发展，很难确定剩余的挑战和已经取得的应用成功。本文旨在建立一个系统的一组未解决问题和应用成功案例，以便机器学习研究人员能够更快地了解该领域的当前状态并提高效率。",
+    "tldr": "本文旨在总结大型语言模型领域的挑战和应用成功案例，帮助机器学习研究人员快速了解该领域的当前状态并提高效率。"
+}

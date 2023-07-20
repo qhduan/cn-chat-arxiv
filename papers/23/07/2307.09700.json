@@ -1,0 +1,12 @@
+{
+    "title": "The Connection Between R-Learning and Inverse-Variance Weighting for Estimation of Heterogeneous Treatment Effects. (arXiv:2307.09700v1 [stat.ME])",
+    "abstract": "Our motivation is to shed light the performance of the widely popular \"R-Learner.\" Like many other methods for estimating conditional average treatment effects (CATEs), R-Learning can be expressed as a weighted pseudo-outcome regression (POR). Previous comparisons of POR techniques have paid careful attention to the choice of pseudo-outcome transformation. However, we argue that the dominant driver of performance is actually the choice of weights. Specifically, we argue that R-Learning implicitly performs an inverse-variance weighted form of POR. These weights stabilize the regression and allow for convenient simplifications of bias terms.",
+    "link": "http://arxiv.org/abs/2307.09700",
+    "context": "Title: The Connection Between R-Learning and Inverse-Variance Weighting for Estimation of Heterogeneous Treatment Effects. (arXiv:2307.09700v1 [stat.ME])\nAbstract: Our motivation is to shed light the performance of the widely popular \"R-Learner.\" Like many other methods for estimating conditional average treatment effects (CATEs), R-Learning can be expressed as a weighted pseudo-outcome regression (POR). Previous comparisons of POR techniques have paid careful attention to the choice of pseudo-outcome transformation. However, we argue that the dominant driver of performance is actually the choice of weights. Specifically, we argue that R-Learning implicitly performs an inverse-variance weighted form of POR. These weights stabilize the regression and allow for convenient simplifications of bias terms.",
+    "path": "papers/23/07/2307.09700.json",
+    "total_tokens": 665,
+    "translated_title": "R-Learning与异质性治疗效果估计中的逆变数加权的连接",
+    "translated_abstract": "我们的动机是为了探讨广泛流行的“R-Learner”的性能。像其他估计条件平均治疗效果（CATEs）的方法一样，R-Learning可以表示为加权伪结果回归（POR）。先前对POR技术的比较已经仔细注意了伪结果转换的选择。然而，我们认为性能的主要驱动因素实际上是权重的选择。具体地说，我们认为R-Learning隐式地执行了加权形式的POR，其中权重稳定了回归，并允许对偏差项进行方便的简化。",
+    "tldr": "R-Learning在估计条件平均治疗效果时采用了逆变数加权的形式来稳定回归，并简化了偏差项。",
+    "en_tdlr": "R-Learning stabilizes regression and simplifies bias terms in estimating conditional average treatment effects by using inverse-variance weighting."
+}

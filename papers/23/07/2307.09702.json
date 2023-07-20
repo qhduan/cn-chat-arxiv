@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Guided Generation for LLMs. (arXiv:2307.09702v1 [cs.CL])",
+    "abstract": "In this article we describe an efficient approach to guiding language model text generation with regular expressions and context-free grammars. Our approach adds little to no overhead to the token sequence generation process, and makes guided generation feasible in practice. An implementation is provided in the open source Python library Outlines.",
+    "link": "http://arxiv.org/abs/2307.09702",
+    "context": "Title: Efficient Guided Generation for LLMs. (arXiv:2307.09702v1 [cs.CL])\nAbstract: In this article we describe an efficient approach to guiding language model text generation with regular expressions and context-free grammars. Our approach adds little to no overhead to the token sequence generation process, and makes guided generation feasible in practice. An implementation is provided in the open source Python library Outlines.",
+    "path": "papers/23/07/2307.09702.json",
+    "total_tokens": 472,
+    "translated_title": "高效的LLM引导生成",
+    "translated_abstract": "在本文中，我们描述了一种使用正则表达式和上下文无关文法来引导语言模型文本生成的高效方法。我们的方法在标记序列生成过程中几乎不增加任何开销，并使得引导生成在实际中可行。在开源Python库Outlines中提供了一个实现。",
+    "tldr": "本文描述了一种使用正则表达式和上下文无关文法来引导语言模型文本生成的高效方法。",
+    "en_tdlr": "This paper describes an efficient approach to guiding language model text generation using regular expressions and context-free grammars."
+}

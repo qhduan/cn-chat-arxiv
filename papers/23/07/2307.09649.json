@@ -1,0 +1,12 @@
+{
+    "title": "Application of BadNets in Spam Filters. (arXiv:2307.09649v1 [cs.CR])",
+    "abstract": "Spam filters are a crucial component of modern email systems, as they help to protect users from unwanted and potentially harmful emails. However, the effectiveness of these filters is dependent on the quality of the machine learning models that power them. In this paper, we design backdoor attacks in the domain of spam filtering. By demonstrating the potential vulnerabilities in the machine learning model supply chain, we highlight the need for careful consideration and evaluation of the models used in spam filters. Our results show that the backdoor attacks can be effectively used to identify vulnerabilities in spam filters and suggest the need for ongoing monitoring and improvement in this area.",
+    "link": "http://arxiv.org/abs/2307.09649",
+    "context": "Title: Application of BadNets in Spam Filters. (arXiv:2307.09649v1 [cs.CR])\nAbstract: Spam filters are a crucial component of modern email systems, as they help to protect users from unwanted and potentially harmful emails. However, the effectiveness of these filters is dependent on the quality of the machine learning models that power them. In this paper, we design backdoor attacks in the domain of spam filtering. By demonstrating the potential vulnerabilities in the machine learning model supply chain, we highlight the need for careful consideration and evaluation of the models used in spam filters. Our results show that the backdoor attacks can be effectively used to identify vulnerabilities in spam filters and suggest the need for ongoing monitoring and improvement in this area.",
+    "path": "papers/23/07/2307.09649.json",
+    "total_tokens": 750,
+    "translated_title": "BadNets在垃圾邮件过滤器中的应用",
+    "translated_abstract": "垃圾邮件过滤器是现代电子邮件系统的重要组成部分，它帮助用户防止受到不需要和潜在有害的邮件的侵扰。然而，这些过滤器的有效性取决于驱动它们的机器学习模型的质量。本文中，我们设计了在垃圾邮件过滤领域中的后门攻击。通过展示机器学习模型供应链中的潜在漏洞，我们强调了对垃圾邮件过滤器中使用的模型进行仔细考虑和评估的必要性。我们的结果表明，后门攻击能够有效地用于识别垃圾邮件过滤器中的漏洞，并提出了对该领域进行持续监控和改进的需求。",
+    "tldr": "本研究利用BadNets设计了一种后门攻击，揭示了垃圾邮件过滤器中机器学习模型的潜在漏洞，强调了评估和改进的重要性。",
+    "en_tdlr": "This study uses BadNets to design a backdoor attack, revealing potential vulnerabilities in the machine learning models of spam filters, highlighting the importance of evaluation and improvement."
+}
