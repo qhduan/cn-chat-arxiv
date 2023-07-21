@@ -1,0 +1,12 @@
+{
+    "title": "Subjective Expected Utility and Psychological Gambles. (arXiv:2307.10328v1 [econ.GN])",
+    "abstract": "We obtain an elementary characterization of expected utility based on a representation of choice in terms of psychological gambles, which requires no assumption other than coherence between ex-ante and ex-post preferences. Weaker version of coherence are associated with various attitudes towards complexity and lead to a characterization of minimax or Choquet expected utility.",
+    "link": "http://arxiv.org/abs/2307.10328",
+    "context": "Title: Subjective Expected Utility and Psychological Gambles. (arXiv:2307.10328v1 [econ.GN])\nAbstract: We obtain an elementary characterization of expected utility based on a representation of choice in terms of psychological gambles, which requires no assumption other than coherence between ex-ante and ex-post preferences. Weaker version of coherence are associated with various attitudes towards complexity and lead to a characterization of minimax or Choquet expected utility.",
+    "path": "papers/23/07/2307.10328.json",
+    "total_tokens": 553,
+    "translated_title": "主观预期效用与心理赌博",
+    "translated_abstract": "我们通过心理赌博的选择表示，获得了对预期效用的基本特征，这不需要除了先后偏好之间的一致性之外的任何假设。对复杂性的弱版本与不同的态度相关，并导致了最小最大或Choquet预期效用的特征化。",
+    "tldr": "该论文基于心理赌博的选择表示，得出了对预期效用的基本特征化，无需额外假设。不同的态度会影响对复杂性的理解，导致最小最大或Choquet预期效用的特征化。",
+    "en_tdlr": "This paper provides an elementary characterization of expected utility based on a representation of choice in terms of psychological gambles, without requiring any additional assumptions. Different attitudes towards complexity lead to a characterization of minimax or Choquet expected utility."
+}

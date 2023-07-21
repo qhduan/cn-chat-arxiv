@@ -1,0 +1,12 @@
+{
+    "title": "A Personalized Recommender System Based-on Knowledge Graph Embeddings. (arXiv:2307.10680v1 [cs.AI])",
+    "abstract": "Knowledge graphs have proven to be effective for modeling entities and their relationships through the use of ontologies. The recent emergence in interest for using knowledge graphs as a form of information modeling has led to their increased adoption in recommender systems. By incorporating users and items into the knowledge graph, these systems can better capture the implicit connections between them and provide more accurate recommendations. In this paper, we investigate and propose the construction of a personalized recommender system via knowledge graphs embedding applied to the vehicle purchase/sale domain. The results of our experimentation demonstrate the efficacy of the proposed method in providing relevant recommendations that are consistent with individual users.",
+    "link": "http://arxiv.org/abs/2307.10680",
+    "context": "Title: A Personalized Recommender System Based-on Knowledge Graph Embeddings. (arXiv:2307.10680v1 [cs.AI])\nAbstract: Knowledge graphs have proven to be effective for modeling entities and their relationships through the use of ontologies. The recent emergence in interest for using knowledge graphs as a form of information modeling has led to their increased adoption in recommender systems. By incorporating users and items into the knowledge graph, these systems can better capture the implicit connections between them and provide more accurate recommendations. In this paper, we investigate and propose the construction of a personalized recommender system via knowledge graphs embedding applied to the vehicle purchase/sale domain. The results of our experimentation demonstrate the efficacy of the proposed method in providing relevant recommendations that are consistent with individual users.",
+    "path": "papers/23/07/2307.10680.json",
+    "total_tokens": 713,
+    "translated_title": "基于知识图谱嵌入的个性化推荐系统",
+    "translated_abstract": "知识图谱通过本体论对实体及其关系进行建模，已被证明在信息建模中非常有效。最近，人们对将知识图谱用作信息建模的兴趣不断增长，因此在推荐系统中的应用也越来越广泛。通过将用户和物品纳入知识图谱，这些系统可以更好地捕捉它们之间的隐含关联并提供更准确的推荐。本文通过应用于车辆购买/销售领域的知识图谱嵌入，研究并提出了一种个性化推荐系统的构建方法。实验结果表明，所提出的方法能够提供与个体用户一致的相关推荐。",
+    "tldr": "本研究通过知识图谱嵌入构建了一个个性化推荐系统，在车辆购买/销售领域中展现了其良好的推荐效果。",
+    "en_tdlr": "This paper proposes a personalized recommender system based on knowledge graph embeddings, which shows good recommendation performance in the domain of vehicle purchase/sale."
+}

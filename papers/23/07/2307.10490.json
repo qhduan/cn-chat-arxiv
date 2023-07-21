@@ -1,0 +1,12 @@
+{
+    "title": "(Ab)using Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs. (arXiv:2307.10490v1 [cs.CR])",
+    "abstract": "We demonstrate how images and sounds can be used for indirect prompt and instruction injection in multi-modal LLMs. An attacker generates an adversarial perturbation corresponding to the prompt and blends it into an image or audio recording. When the user asks the (unmodified, benign) model about the perturbed image or audio, the perturbation steers the model to output the attacker-chosen text and/or make the subsequent dialog follow the attacker's instruction. We illustrate this attack with several proof-of-concept examples targeting LLaVa and PandaGPT.",
+    "link": "http://arxiv.org/abs/2307.10490",
+    "context": "Title: (Ab)using Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs. (arXiv:2307.10490v1 [cs.CR])\nAbstract: We demonstrate how images and sounds can be used for indirect prompt and instruction injection in multi-modal LLMs. An attacker generates an adversarial perturbation corresponding to the prompt and blends it into an image or audio recording. When the user asks the (unmodified, benign) model about the perturbed image or audio, the perturbation steers the model to output the attacker-chosen text and/or make the subsequent dialog follow the attacker's instruction. We illustrate this attack with several proof-of-concept examples targeting LLaVa and PandaGPT.",
+    "path": "papers/23/07/2307.10490.json",
+    "total_tokens": 700,
+    "translated_title": "图像和声音的滥用用于在多模态LLMs中进行间接指令注入",
+    "translated_abstract": "我们展示了如何利用图像和声音在多模态LLMs中进行间接提示和指令注入。攻击者生成与提示相对应的对抗扰动，并将其融入图像或音频录音中。当用户向（未修改的良性）模型询问被扰动的图像或音频时，扰动会引导模型输出攻击者选择的文本和/或使后续对话遵循攻击者的指令。我们用几个概念验证示例针对LLaVa和PandaGPT来说明这种攻击。",
+    "tldr": "本论文展示了如何利用图像和声音在多模态LLMs中进行间接指令注入，攻击者通过生成对抗扰动并将其融入图像或音频录音中，以操纵模型输出特定文本和指导对话的行为。",
+    "en_tdlr": "This paper demonstrates how to abuse images and sounds for indirect instruction injection in multi-modal LLMs. Attackers generate adversarial perturbations and blend them into images or audio recordings to manipulate the model's output of specific text and guide the subsequent dialog."
+}

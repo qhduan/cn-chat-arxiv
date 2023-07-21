@@ -1,0 +1,12 @@
+{
+    "title": "American Exchange option driven by a L\\'evy process. (arXiv:2307.10900v1 [q-fin.PR])",
+    "abstract": "We consider the problem of pricing American Exchange options driven by a L\\'evy process. We study the properties of American Exchange options, we represented it as the sum of the price of the corresponding European exchange option price and an early exercise premium. Secondly, we show some properties of the free boundary and give an approximative formula of an American Exchange option.",
+    "link": "http://arxiv.org/abs/2307.10900",
+    "context": "Title: American Exchange option driven by a L\\'evy process. (arXiv:2307.10900v1 [q-fin.PR])\nAbstract: We consider the problem of pricing American Exchange options driven by a L\\'evy process. We study the properties of American Exchange options, we represented it as the sum of the price of the corresponding European exchange option price and an early exercise premium. Secondly, we show some properties of the free boundary and give an approximative formula of an American Exchange option.",
+    "path": "papers/23/07/2307.10900.json",
+    "total_tokens": 567,
+    "translated_title": "基于L\\'evy过程的美式交易期权研究",
+    "translated_abstract": "我们考虑了基于L\\'evy过程的美式交易期权定价问题。我们研究了美式交易期权的性质，将其表示为相应欧式交易期权价格与提前行权溢价的和。其次，我们展示了自由边界的一些性质，并给出了美式交易期权的近似公式。",
+    "tldr": "本论文研究了基于L\\'evy过程的美式交易期权定价问题，提出了表示美式交易期权的求和公式，并给出了自由边界的性质和近似公式。",
+    "en_tdlr": "This paper investigates the pricing problem of American Exchange options driven by a L\\'evy process. It proposes a representation formula for American Exchange options and provides properties of the free boundary and an approximative formula for pricing."
+}

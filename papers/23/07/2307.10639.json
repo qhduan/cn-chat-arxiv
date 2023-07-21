@@ -1,0 +1,12 @@
+{
+    "title": "Improving Semantic Similarity Measure Within a Recommender System Based-on RDF Graphs. (arXiv:2307.10639v1 [cs.IR])",
+    "abstract": "In today's era of information explosion, more users are becoming more reliant upon recommender systems to have better advice, suggestions, or inspire them. The measure of the semantic relatedness or likeness between terms, words, or text data plays an important role in different applications dealing with textual data, as in a recommender system. Over the past few years, many ontologies have been developed and used as a form of structured representation of knowledge bases for information systems. The measure of semantic similarity from ontology has developed by several methods. In this paper, we propose and carry on an approach for the improvement of semantic similarity calculations within a recommender system based-on RDF graphs.",
+    "link": "http://arxiv.org/abs/2307.10639",
+    "context": "Title: Improving Semantic Similarity Measure Within a Recommender System Based-on RDF Graphs. (arXiv:2307.10639v1 [cs.IR])\nAbstract: In today's era of information explosion, more users are becoming more reliant upon recommender systems to have better advice, suggestions, or inspire them. The measure of the semantic relatedness or likeness between terms, words, or text data plays an important role in different applications dealing with textual data, as in a recommender system. Over the past few years, many ontologies have been developed and used as a form of structured representation of knowledge bases for information systems. The measure of semantic similarity from ontology has developed by several methods. In this paper, we propose and carry on an approach for the improvement of semantic similarity calculations within a recommender system based-on RDF graphs.",
+    "path": "papers/23/07/2307.10639.json",
+    "total_tokens": 664,
+    "translated_title": "在基于RDF图的推荐系统中改进语义相似度测量",
+    "translated_abstract": "在当今信息爆炸的时代，越来越多的用户依赖推荐系统来获得更好的建议、推荐或灵感。语义相关性或相似性的测量在处理文本数据的不同应用中扮演着重要角色，就像在推荐系统中一样。在过去几年中，许多本体论已被开发并用作信息系统中知识库的结构化表示形式。本文提出并实施了一种在基于RDF图的推荐系统中改进语义相似度计算的方法。",
+    "tldr": "本文提出了一种改进推荐系统中语义相似度计算的方法，以提高推荐系统在处理文本数据时的效果。",
+    "en_tdlr": "This paper proposes an approach to improve semantic similarity calculations within a recommender system based on RDF graphs, aiming to enhance the system's performance in dealing with textual data."
+}

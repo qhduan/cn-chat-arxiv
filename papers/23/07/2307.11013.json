@@ -1,0 +1,11 @@
+{
+    "title": "Flow Map Learning for Unknown Dynamical Systems: Overview, Implementation, and Benchmarks. (arXiv:2307.11013v1 [cs.LG])",
+    "abstract": "Flow map learning (FML), in conjunction with deep neural networks (DNNs), has shown promises for data driven modeling of unknown dynamical systems. A remarkable feature of FML is that it is capable of producing accurate predictive models for partially observed systems, even when their exact mathematical models do not exist. In this paper, we present an overview of the FML framework, along with the important computational details for its successful implementation. We also present a set of well defined benchmark problems for learning unknown dynamical systems. All the numerical details of these problems are presented, along with their FML results, to ensure that the problems are accessible for cross-examination and the results are reproducible.",
+    "link": "http://arxiv.org/abs/2307.11013",
+    "context": "Title: Flow Map Learning for Unknown Dynamical Systems: Overview, Implementation, and Benchmarks. (arXiv:2307.11013v1 [cs.LG])\nAbstract: Flow map learning (FML), in conjunction with deep neural networks (DNNs), has shown promises for data driven modeling of unknown dynamical systems. A remarkable feature of FML is that it is capable of producing accurate predictive models for partially observed systems, even when their exact mathematical models do not exist. In this paper, we present an overview of the FML framework, along with the important computational details for its successful implementation. We also present a set of well defined benchmark problems for learning unknown dynamical systems. All the numerical details of these problems are presented, along with their FML results, to ensure that the problems are accessible for cross-examination and the results are reproducible.",
+    "path": "papers/23/07/2307.11013.json",
+    "total_tokens": 698,
+    "translated_title": "未知动力系统的流图学习：综述、实现和基准测试",
+    "translated_abstract": "流图学习（FML）与深度神经网络（DNN）结合，已经显示出在数据驱动建模未知动力系统方面的潜力。FML的一个显著特点是，即使不存在其精确数学模型，它也能够为部分观察系统产生准确的预测模型。本文提供了FML框架的概述，以及其成功实施的重要计算细节。我们还提供了一组明确定义的基准问题，用于学习未知动力系统。所有这些问题的数值细节都被提供，以及它们的FML结果，以确保问题可供交叉验证，并且结果可重复。",
+    "tldr": "本文介绍了流图学习（FML）的框架和实现细节，以及用于学习未知动力系统的基准问题。FML在部分观察系统中产生准确的预测模型，即使没有精确的数学模型。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Long-Tail Theory under Gaussian Mixtures. (arXiv:2307.10736v1 [cs.LG])",
+    "abstract": "We suggest a simple Gaussian mixture model for data generation that complies with Feldman's long tail theory (2020). We demonstrate that a linear classifier cannot decrease the generalization error below a certain level in the proposed model, whereas a nonlinear classifier with a memorization capacity can. This confirms that for long-tailed distributions, rare training examples must be considered for optimal generalization to new data. Finally, we show that the performance gap between linear and nonlinear models can be lessened as the tail becomes shorter in the subpopulation frequency distribution, as confirmed by experiments on synthetic and real data.",
+    "link": "http://arxiv.org/abs/2307.10736",
+    "context": "Title: Long-Tail Theory under Gaussian Mixtures. (arXiv:2307.10736v1 [cs.LG])\nAbstract: We suggest a simple Gaussian mixture model for data generation that complies with Feldman's long tail theory (2020). We demonstrate that a linear classifier cannot decrease the generalization error below a certain level in the proposed model, whereas a nonlinear classifier with a memorization capacity can. This confirms that for long-tailed distributions, rare training examples must be considered for optimal generalization to new data. Finally, we show that the performance gap between linear and nonlinear models can be lessened as the tail becomes shorter in the subpopulation frequency distribution, as confirmed by experiments on synthetic and real data.",
+    "path": "papers/23/07/2307.10736.json",
+    "total_tokens": 746,
+    "translated_title": "高斯混合下的长尾理论",
+    "translated_abstract": "我们提出了一个简单的高斯混合模型来生成遵循Feldman的长尾理论（2020）的数据。我们证明，在提出的模型中，线性分类器无法将泛化误差降低到一定水平以下，而具有记忆能力的非线性分类器可以。这证实了对于长尾分布，必须考虑罕见的训练样本以实现对新数据的最佳泛化。最后，我们通过在合成和真实数据上的实验证明，当子群体频率分布的尾部变短时，线性模型和非线性模型之间的性能差距可以减小。",
+    "tldr": "该论文提出了一个简单的高斯混合模型，符合Feldman的长尾理论。通过实验证明，在长尾分布情况下，非线性分类器可以提高泛化能力，而线性分类器不能。该结果强调了对于长尾分布，需要考虑罕见的训练样本以实现最佳泛化能力。",
+    "en_tdlr": "This paper proposes a simple Gaussian mixture model that complies with Feldman's long tail theory. Experimental results show that, for long-tailed distributions, nonlinear classifiers can improve generalization while linear classifiers cannot, highlighting the importance of considering rare training examples for optimal generalization."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Abductive Reasoning with the GPT-4 Language Model: Case studies from criminal investigation, medical practice, scientific research. (arXiv:2307.10250v1 [cs.AI])",
+    "abstract": "This study evaluates the GPT-4 Large Language Model's abductive reasoning in complex fields like medical diagnostics, criminology, and cosmology. Using an interactive interview format, the AI assistant demonstrated reliability in generating and selecting hypotheses. It inferred plausible medical diagnoses based on patient data and provided potential causes and explanations in criminology and cosmology. The results highlight the potential of LLMs in complex problem-solving and the need for further research to maximize their practical applications.",
+    "link": "http://arxiv.org/abs/2307.10250",
+    "context": "Title: Abductive Reasoning with the GPT-4 Language Model: Case studies from criminal investigation, medical practice, scientific research. (arXiv:2307.10250v1 [cs.AI])\nAbstract: This study evaluates the GPT-4 Large Language Model's abductive reasoning in complex fields like medical diagnostics, criminology, and cosmology. Using an interactive interview format, the AI assistant demonstrated reliability in generating and selecting hypotheses. It inferred plausible medical diagnoses based on patient data and provided potential causes and explanations in criminology and cosmology. The results highlight the potential of LLMs in complex problem-solving and the need for further research to maximize their practical applications.",
+    "path": "papers/23/07/2307.10250.json",
+    "total_tokens": 785,
+    "translated_title": "使用GPT-4语言模型的归纳推理：犯罪调查、医学实践和科学研究的案例研究",
+    "translated_abstract": "本研究评估了GPT-4大型语言模型在医学诊断、犯罪学和宇宙学等复杂领域中的归纳推理能力。通过交互式访谈形式，AI助手展示了生成和选择假设的可靠性。它基于患者数据推断出合理的医学诊断，并在犯罪学和宇宙学中提供了潜在的原因和解释。研究结果突显了LLMs在复杂问题解决中的潜力，并强调了进一步研究以最大化它们的实际应用的必要性。",
+    "tldr": "本研究评估了GPT-4大型语言模型在医学诊断、犯罪学和宇宙学等复杂领域中的归纳推理能力。研究结果显示了LLM在复杂问题解决方面的潜力，并强调了进一步研究以最大化其实际应用的必要性。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Mean Field Games for Optimal Investment Under Relative Performance Criteria. (arXiv:2307.10540v1 [q-fin.MF])",
+    "abstract": "In this paper, we study the portfolio optimization problem formulated by Lacker and Soret. They formulate a finite time horizon model that allows agents to be competitive, measuring their utility not only by their absolute wealth but also relative performance compared to the average of other agents. While the finite population or $n$-player game is tractable in some cases, the authors present the Mean Field Game framework to solve this problem. Here, we seek to use this framework to clearly detail the optimal investment and consumption strategies in the CRRA utility case as was briefly outlined in Lacker and Soret, but also derive a solution in the CARA utility case.",
+    "link": "http://arxiv.org/abs/2307.10540",
+    "context": "Title: Mean Field Games for Optimal Investment Under Relative Performance Criteria. (arXiv:2307.10540v1 [q-fin.MF])\nAbstract: In this paper, we study the portfolio optimization problem formulated by Lacker and Soret. They formulate a finite time horizon model that allows agents to be competitive, measuring their utility not only by their absolute wealth but also relative performance compared to the average of other agents. While the finite population or $n$-player game is tractable in some cases, the authors present the Mean Field Game framework to solve this problem. Here, we seek to use this framework to clearly detail the optimal investment and consumption strategies in the CRRA utility case as was briefly outlined in Lacker and Soret, but also derive a solution in the CARA utility case.",
+    "path": "papers/23/07/2307.10540.json",
+    "total_tokens": 779,
+    "translated_title": "相对绩效标准下的最优投资的均值场博弈",
+    "translated_abstract": "本文研究了Lacker和Soret提出的投资组合优化问题。他们提出了一个有限时间段模型，允许代理人通过与其他代理人平均水平的相对表现来衡量效用，而不仅仅是绝对财富。虽然在某些情况下有限人口或者n-人博弈是可处理的，但作者提出了均值场博弈框架来解决这个问题。在这里，我们希望利用这个框架详细说明CRRA效用情况下的最优投资和消费策略，如Lacker和Soret简要概述的那样，但也要推导出CARA效用情况下的解决方案。",
+    "tldr": "本文研究了相对绩效标准下的最优投资的均值场博弈问题，并提出了解决方案，详细说明了CRRA效用情况下的最优策略，并推导出了CARA效用情况下的解决方案。 (arXiv:2307.10540v1 [q-fin.MF])"
+}

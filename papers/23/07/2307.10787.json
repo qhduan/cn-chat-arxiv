@@ -1,0 +1,12 @@
+{
+    "title": "Feed-Forward Source-Free Domain Adaptation via Class Prototypes. (arXiv:2307.10787v1 [cs.CV])",
+    "abstract": "Source-free domain adaptation has become popular because of its practical usefulness and no need to access source data. However, the adaptation process still takes a considerable amount of time and is predominantly based on optimization that relies on back-propagation. In this work we present a simple feed-forward approach that challenges the need for back-propagation based adaptation. Our approach is based on computing prototypes of classes under the domain shift using a pre-trained model. It achieves strong improvements in accuracy compared to the pre-trained model and requires only a small fraction of time of existing domain adaptation methods.",
+    "link": "http://arxiv.org/abs/2307.10787",
+    "context": "Title: Feed-Forward Source-Free Domain Adaptation via Class Prototypes. (arXiv:2307.10787v1 [cs.CV])\nAbstract: Source-free domain adaptation has become popular because of its practical usefulness and no need to access source data. However, the adaptation process still takes a considerable amount of time and is predominantly based on optimization that relies on back-propagation. In this work we present a simple feed-forward approach that challenges the need for back-propagation based adaptation. Our approach is based on computing prototypes of classes under the domain shift using a pre-trained model. It achieves strong improvements in accuracy compared to the pre-trained model and requires only a small fraction of time of existing domain adaptation methods.",
+    "path": "papers/23/07/2307.10787.json",
+    "total_tokens": 700,
+    "translated_title": "通过类原型实现的前馈源无关域适应",
+    "translated_abstract": "在没有访问源数据的情况下，源无关域适应因其实用性和无需访问源数据而变得流行。然而，适应过程仍然需要相当长的时间，并且主要基于依赖于反向传播的优化。在这项工作中，我们提出了一种简单的前馈方法，挑战了基于反向传播的适应的必要性。我们的方法基于使用预训练模型计算出的类在域偏移下的原型。与预训练模型相比，它在精度上取得了强大的改进，并且只需要现有域适应方法所需时间的一小部分。",
+    "tldr": "这项工作提出了一种前馈方法来解决源无关域适应问题，通过计算类的原型来处理域偏移，相较于使用预训练模型，该方法在精度和时间上都有显著提升。",
+    "en_tdlr": "This work proposes a feed-forward approach for solving source-free domain adaptation problem by computing class prototypes to handle domain shift, achieving significant improvements in accuracy and time compared to using pre-trained models."
+}

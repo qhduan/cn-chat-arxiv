@@ -2,187 +2,292 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Reconciling the Theory of Factor Sequences.](http://arxiv.org/abs/2307.10067) | 该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。 |
-| [^2] | [Asymptotic equivalence of Principal Component and Quasi Maximum Likelihood estimators in Large Approximate Factor Models.](http://arxiv.org/abs/2307.09864) | 在大型近似因子模型中，我们证明主成分估计的因子载荷与准极大似然估计的载荷等价，同时这两种估计也与不可行最小二乘估计的载荷等价。我们还证明了准极大似然估计的协方差矩阵与不可行最小二乘的协方差矩阵等价，从而可以简化准极大似然估计的置信区间的估计过程。所有结果都适用于假设异方差跨截面的一般情况。 |
-| [^3] | [Power to the teens? A model of parents' and teens' collective labor supply.](http://arxiv.org/abs/2307.09634) | 本研究探讨了青少年和父母在家庭决策过程中的共同作用，发现了父母和青少年之间的讨价还价过程导致了性别差距，并提出了一个集体家庭模型。这一结果表明，儿子参加学校的机会成本比女儿更高，公共政策必须考虑到这种性别差距。 |
-| [^4] | [Reparametrization and the Semiparametric Bernstein-von-Mises Theorem.](http://arxiv.org/abs/2306.03816) | 本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。 |
-| [^5] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^6] | [Cointegration with Occasionally Binding Constraints.](http://arxiv.org/abs/2211.09604) | 本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。 |
-| [^7] | [On Estimation and Inference of Large Approximate Dynamic Factor Models via the Principal Component Analysis.](http://arxiv.org/abs/2211.01921) | 本文研究了大型近似动态因子模型的主成分分析估计和推断，提供了渐近结果的替代推导，并且通过经典的样本协方差矩阵进行估计，得出它们等价于OLS的结论。 |
-| [^8] | [Beta-Sorted Portfolios.](http://arxiv.org/abs/2208.10974) | 该论文对Beta分类组合投资组合进行了研究，通过将过程形式化为一个由非参数第一步和Beta自适应投资组合构建组成的两步非参数估计器，解释了该估计算法的关键特征，并提供了条件以确保一致性和渐近正态性。 |
-| [^9] | [Unconditional Effects of General Policy Interventions.](http://arxiv.org/abs/2201.02292) | 该论文研究了通用政策干预的无条件效应，包括位置-比例换算和同时换算。使用简单的半参数估计器对无条件政策参数进行估计，并应用于明塞尔方程以研究其效果。 |
-| [^10] | [A Design-Based Perspective on Synthetic Control Methods.](http://arxiv.org/abs/2101.09398) | 本文从设计角度研究了合成控制（SC）方法，提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，并且其均方根误差低于其他常见估计器。 |
-| [^11] | [An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?.](http://arxiv.org/abs/2011.14999) | 该论文提出了一种自动的有限样本稳健性度量方法，用于评估应用计量经济学结论对样本的小部分删除的敏感性。 |
-| [^12] | [Identification and Estimation of Unconditional Policy Effects of an Endogenous Binary Treatment: an Unconditional MTE Approach.](http://arxiv.org/abs/2010.15864) | 本文介绍了一种基于函数影响函数的无条件边际处理效应（MTE）的新方法，研究了处理状态为二元且内生时策略效应的识别与估计。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。对于感兴趣的分位数，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。 |
+| [^1] | [Indicatori comuni del PNRR e framework SDGs: una proposta di indicatore composito.](http://arxiv.org/abs/2307.11039) | 本文研究了欧盟下一代计划(PNRR)中监测系统的14个共同指标与可持续发展框架(SDGs)的整合潜力，并提出了一个SDGs-RRF复合指数的方法。结果显示在2014年至2021年期间，法国、德国、意大利和西班牙的组合指数普遍改善，部分减小了差距。 |
+| [^2] | [Commitment and the Dynamics of Household Labor Supply.](http://arxiv.org/abs/2307.10983) | 本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。 |
+| [^3] | [Real-Time Detection of Local No-Arbitrage Violations.](http://arxiv.org/abs/2307.10872) | 本文提出了一种实时检测金融资产价格中违反标准Ito半鞅假设的当地事件的方法，这些事件可能导致套利机会。经过实证应用和蒙特卡洛研究，该方法在实时中能够迅速识别极端收益持续性事件的有效性得到了验证。 |
+| [^4] | [Claim Reserving via Inverse Probability Weighting: A Micro-Level Chain-Ladder Method.](http://arxiv.org/abs/2307.10808) | 本文提出了一种通过逆概率加权技术将个体级别的细粒度信息融入到赔偿准备中的方法，为统计上合理的聚合赔偿准备提供了一种简约的宏观级别方法。 |
+| [^5] | [PySDTest: a Python Package for Stochastic Dominance Tests.](http://arxiv.org/abs/2307.10694) | PySDTest是一个用于随机支配测试的Python包，可以实现多种随机支配测试方法并计算临界值，允许多种随机支配假设。在比特币和标普500指数的比较中发现标普500指数在二阶随机上支配比特币的回报。 |
+| [^6] | [Measuring Value Added in Gross Trade: Endogenous Approach of Vertical Differentiation.](http://arxiv.org/abs/2307.10660) | 本论文讨论了一种用于区分和衡量垂直差异产业内贸易的替代方法。 |
+| [^7] | [Dynamic Large Language Models on Blockchains.](http://arxiv.org/abs/2307.10549) | 本文提出在区块链上训练和部署动态大型语言模型，通过使用分布式计算和提供无法篡改的交易分类帐的区块链技术，可使语言模型具备连续学习的能力，为下一代人工智能系统的发展提供了新的方法和启示。 |
+| [^8] | [Latent Gaussian dynamic factor modeling and forecasting for multivariate count time series.](http://arxiv.org/abs/2307.10454) | 本文提出了一种针对多元计数时间序列的潜在高斯动态因子建模与预测方法，通过计数和底层高斯模型的二阶特性进行估计，并利用粒子顺序蒙特卡洛方法进行预测。 |
+| [^9] | [Subjective Expected Utility and Psychological Gambles.](http://arxiv.org/abs/2307.10328) | 该论文基于心理赌博的选择表示，得出了对预期效用的基本特征化，无需额外假设。不同的态度会影响对复杂性的理解，导致最小最大或Choquet预期效用的特征化。 |
+| [^10] | [Bayes = Blackwell, Almost.](http://arxiv.org/abs/2302.13956) | 存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。 |
+| [^11] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^12] | [The Long-Term Effects of Teachers' Gender Stereotypes.](http://arxiv.org/abs/2212.08220) | 本文研究了教师性别刻板印象对学生长期结果的影响，证明教师的性别刻板印象反映在学生评价上，对男女学生给予不同的分数。 |
+| [^13] | [Bounded arbitrage and nearly rational behavior.](http://arxiv.org/abs/2212.02680) | 该论文建立了几乎没有套利机会的原则与近似理性决策之间的等价性，并在概率意见聚合和随机选择函数的情况下考察了其含义。对于前者，有界套利原则限制了集体概率评估与个体评估的差异；对于后者，有界套利原则弱化了随机理性的McFadden-Richter公理，并给出了随机选择函数与其他函数在随机效用最大化模型类中的最小距离的上界。 |
+| [^14] | [Flexible machine learning estimation of conditional average treatment effects: a blessing and a curse.](http://arxiv.org/abs/2210.16547) | 本论文通过弹性机器学习方法估计了条件平均处理效应，发现当特征无法解释所有异质性时，个体处理效应可能严重偏离。引入因果随机森林来估计接受组和对照组之间的条件方差差异，并发现如果个体效应分布和CATE分布相等，则估计的方差差异较小，否则需要额外的因果假设来量化未捕捉到的异质性。 |
+| [^15] | [Can Desegregation Close the Racial Gap in High School Coursework?.](http://arxiv.org/abs/2208.12321) | 本研究通过考虑种族异质性社会激励的博弈论模型，揭示了种族融合对学校内课程差异的影响。结果发现，在主要为白人学生的学校中，由于同学选课决策的更强社会激励，黑人和西班牙裔学生在大学预备课程中的入学率更高。 |
+| [^16] | [Bootstrap inference in the presence of bias.](http://arxiv.org/abs/2208.02028) | 本研究考虑了在有偏估计量情况下的Bootstrap推断，并展示了通过正确实施预估修正方法可以得到有效推断。研究提出了两种预估修正的实现方法，并给出了通用的条件确保Bootstrap推断的有效性。根据五个具体例子的讨论，研究证明了提出方法的实际相关性和实施方法。 |
+| [^17] | [Sequential Kernel Embedding for Mediated and Time-Varying Dose Response Curves.](http://arxiv.org/abs/2111.03950) | 本论文提出了一种基于核岭回归的简单非参数估计方法，可以用于估计介导和时变剂量响应曲线。通过引入序贯核嵌入技术，我们实现了对复杂因果估计的简化。通过模拟实验和真实数据的估计结果，证明了该方法的强大性能和普适性。 |
+| [^18] | [Unique Stable Matchings.](http://arxiv.org/abs/2106.12977) | 本文研究了一对一双边匹配市场中独特预测的问题，并通过引入等价陈述，得出了稳定匹配的三个等价条件。 |
+| [^19] | [How Flexible is that Functional Form? Quantifying the Restrictiveness of Theories.](http://arxiv.org/abs/2007.09213) | 本研究提出了一种基于数据拟合程度的限制性度量方法，并通过评估多个经济模型在实验室和实地环境中的限制性，揭示了关于这些模型的新见解。 |
 
 # 详细
 
-[^1]: 调和因子序列理论
+[^1]: PNRR和SDGs的共同指标和框架：一个复合指标的提议
 
-    Reconciling the Theory of Factor Sequences. (arXiv:2307.10067v1 [econ.EM])
+    Indicatori comuni del PNRR e framework SDGs: una proposta di indicatore composito. (arXiv:2307.11039v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.10067](http://arxiv.org/abs/2307.10067)
+    [http://arxiv.org/abs/2307.11039](http://arxiv.org/abs/2307.11039)
 
-    该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。
-
-    
-
-    因子序列是随机的双序列$(y_{it}: i \in \mathbb N, t \in \mathbb Z)$，以时间和横截面为索引，具有所谓的因子结构。该名词由Forni等人于2001年提出，引入了动态因子序列。我们展示了动态因子序列和静态因子序列之间的区别，静态因子序列是计量经济学因子分析中最常见的工作模型，基于Chamberlain和Rothschild （1983），Stock和Watson（2002）和Bai和Ng（2002）。区别在于我们所称的弱共同成分，该成分由潜在无限多个弱因子所构成。忽略弱共同成分可能对结构分析和预测中因子模型的应用产生重大影响。我们还展示了动态因子序列的动态共同成分在一般条件下是因果从属于输出的。因此，只有动态共同成分才能作为潜在经济变量的解释。
-
-    Factor Sequences are stochastic double sequences $(y_{it}: i \in \mathbb N, t \in \mathbb Z)$ indexed in time and cross-section which have a so called factor structure. The name was coined by Forni et al. 2001, who introduced dynamic factor sequences. We show the difference between dynamic factor sequences and static factor sequences which are the most common workhorse model of econometric factor analysis building on Chamberlain and Rothschild (1983), Stock and Watson (2002) and Bai and Ng (2002). The difference consists in what we call the weak common component which is spanned by a potentially infinite number of weak factors. Ignoring the weak common component can have substantial consequences for applications of factor models in structural analysis and forecasting. We also show that the dynamic common component of a dynamic factor sequence is causally subordinated to the output under general conditions. As a consequence only the dynamic common component can be interpreted as the pro
-    
-[^2]: 大型近似因子模型中主成分和准极大似然估计量的渐近等价性分析
-
-    Asymptotic equivalence of Principal Component and Quasi Maximum Likelihood estimators in Large Approximate Factor Models. (arXiv:2307.09864v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.09864](http://arxiv.org/abs/2307.09864)
-
-    在大型近似因子模型中，我们证明主成分估计的因子载荷与准极大似然估计的载荷等价，同时这两种估计也与不可行最小二乘估计的载荷等价。我们还证明了准极大似然估计的协方差矩阵与不可行最小二乘的协方差矩阵等价，从而可以简化准极大似然估计的置信区间的估计过程。所有结果都适用于假设异方差跨截面的一般情况。
+    本文研究了欧盟下一代计划(PNRR)中监测系统的14个共同指标与可持续发展框架(SDGs)的整合潜力，并提出了一个SDGs-RRF复合指数的方法。结果显示在2014年至2021年期间，法国、德国、意大利和西班牙的组合指数普遍改善，部分减小了差距。
 
     
 
-    我们证明在一个$n$维的稳定时间序列向量的近似因子模型中，通过主成分估计的因子载荷在$n\to\infty$时与准极大似然估计得到的载荷等价。这两种估计量在$n\to\infty$时也与如果观察到因子时的不可行最小二乘估计等价。我们还证明了准极大似然估计的渐近协方差矩阵的传统三明治形式与不可行最小二乘的简单渐近协方差矩阵等价。这提供了一种简单的方法来估计准极大似然估计的渐近置信区间，而不需要估计复杂的海森矩阵和费谢尔信息矩阵。所有结果均适用于假设异方差跨截面的一般情况。
+    欧盟下一代计划(NGEU)的主要组成部分是复苏和韧性设施(RRF)，实施期为2021年至2026年。RRF还包括一个监测系统：每六个月，每个国家都需要根据14个共同指标的进展情况发送更新，这些指标在特定的定量尺度上测量。本文旨在在强调可持续发展框架(SDGs)与RRF整合潜力的同时，提供该系统的第一组实证证据。我们建议将14个共同指标与SDGs建立联系，从而为法国、德国、意大利和西班牙在2014年至2021年期间生成一个组合指数(SDGs-RRF)。在这段时间内，这四个国家的组合指数普遍改善，部分减小了差距。所提出的方法是向更广泛地使用SDGs进行评估迈出的第一步。
 
-    We prove that in an approximate factor model for an $n$-dimensional vector of stationary time series the factor loadings estimated via Principal Components are asymptotically equivalent, as $n\to\infty$, to those estimated by Quasi Maximum Likelihood. Both estimators are, in turn, also asymptotically equivalent, as $n\to\infty$, to the unfeasible Ordinary Least Squares estimator we would have if the factors were observed. We also show that the usual sandwich form of the asymptotic covariance matrix of the Quasi Maximum Likelihood estimator is asymptotically equivalent to the simpler asymptotic covariance matrix of the unfeasible Ordinary Least Squares. This provides a simple way to estimate asymptotic confidence intervals for the Quasi Maximum Likelihood estimator without the need of estimating the Hessian and Fisher information matrices whose expressions are very complex. All our results hold in the general case in which the idiosyncratic components are cross-sectionally heteroskedast
+    The main component of the NextGeneration EU (NGEU) program is the Recovery and Resilience Facility (RRF), spanning an implementation period between 2021 and 2026. The RRF also includes a monitoring system: every six months, each country is required to send an update on the progress of the plan against 14 common indicators, measured on specific quantitative scales. The aim of this paper is to present the first empirical evidence on this system, while, at the same time, emphasizing the potential of its integration with the sustainable development framework (SDGs). We propose to develop a first linkage between the 14 common indicators and the SDGs which allows us to produce a composite index (SDGs-RRF) for France, Germany, Italy, and Spain for the period 2014-2021. Over this time, widespread improvements in the composite index across the four countries led to a partial reduction of the divergence. The proposed approach represents a first step towards a wider use of the SDGs for the assess
     
-[^3]: 青少年权力? 父母和青少年的共同劳动力供应模型
+[^2]: 承诺与家庭劳动力供给的动态。 (arXiv:2307.10983v1 [econ.GN])
 
-    Power to the teens? A model of parents' and teens' collective labor supply. (arXiv:2307.09634v1 [econ.GN])
+    Commitment and the Dynamics of Household Labor Supply. (arXiv:2307.10983v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.09634](http://arxiv.org/abs/2307.09634)
+    [http://arxiv.org/abs/2307.10983](http://arxiv.org/abs/2307.10983)
 
-    本研究探讨了青少年和父母在家庭决策过程中的共同作用，发现了父母和青少年之间的讨价还价过程导致了性别差距，并提出了一个集体家庭模型。这一结果表明，儿子参加学校的机会成本比女儿更高，公共政策必须考虑到这种性别差距。
-
-    
-
-    青少年在成长环境中的需求和资源的限制下做出了改变一生的决策。家庭行为模型通常将决策权委托给青少年或他们的父母，忽略了家庭中的共同决策过程。本研究利用2011年至2019年的哥斯达黎加Encuesta Nacional de Hogares的数据和有条件的现金转移计划，展示了青少年和父母如何共同分配时间和收入。首先，通过边际处理效应框架，展示了家庭对转移的性别差异响应。其次，解释了结果中的性别差距是由父母和青少年之间的讨价还价过程导致的。研究提出了一个集体家庭模型，并显示儿子与父母合作讨价的，而女儿却不是。这一结果意味着儿子上学的机会成本比女儿高。针对青少年的公共政策必须考虑到这种性别差距才能有效果。
-
-    Teens make life-changing decisions while constrained by the needs and resources of the households they grow up in. Household behavior models frequently delegate decision-making to the teen or their parents, ignoring joint decision-making in the household. I show that teens and parents allocate time and income jointly by using data from the Costa Rican Encuesta Nacional de Hogares from 2011 to 2019 and a conditional cash transfer program. First, I present gender differences in household responses to the transfer using a marginal treatment effect framework. Second, I explain how the gender gap from the results is due to the bargaining process between parents and teens. I propose a collective household model and show that sons bargain cooperatively with their parents while daughters do not. This result implies that sons have a higher opportunity cost of attending school than daughters. Public policy targeting teens must account for this gender disparity to be effective.
-    
-[^4]: 重参数化与半参数Bernstein-von-Mises定理
-
-    Reparametrization and the Semiparametric Bernstein-von-Mises Theorem. (arXiv:2306.03816v1 [math.ST])
-
-    [http://arxiv.org/abs/2306.03816](http://arxiv.org/abs/2306.03816)
-
-    本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。
+    本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。
 
     
 
-    本文考虑了部分线性模型的贝叶斯推断。我们的方法利用了回归函数的一个参数化形式，该形式专门用于估计所关心的低维参数。参数化的关键特性是生成了一个Neyman正交矩条件，这意味着对干扰参数的估计低维参数不太敏感。我们的大样本分析支持了这种说法。特别地，我们推导出充分的条件，使得低维参数的后验在参数速率下对真实值收缩，并且在半参数效率界的方差下渐近地正态分布。这些条件相对于回归模型的原始参数化允许更大类的干扰参数。总的来说，我们得出结论，一个嵌入了Neyman正交性的参数化方法可以成为半参数推断中的一个有用工具，以去偏后验分布。
+    个体对伴侣的承诺程度对社会有重要影响。本文通过发展一个家庭的生命周期集体模型，描述了三种不同类型的承诺：全面承诺、有限承诺和无承诺。我们提出了一种测试方法，通过观察当下和历史消息对家庭行为的影响来区分这三种类型。我们的测试允许家庭之间承诺程度的异质性。使用最近的“收入动态面板研究”数据，我们拒绝了全面承诺和无承诺，同时找到了有限承诺的强有力证据。
 
-    This paper considers Bayesian inference for the partially linear model. Our approach exploits a parametrization of the regression function that is tailored toward estimating a low-dimensional parameter of interest. The key property of the parametrization is that it generates a Neyman orthogonal moment condition meaning that the low-dimensional parameter is less sensitive to the estimation of nuisance parameters. Our large sample analysis supports this claim. In particular, we derive sufficient conditions under which the posterior for the low-dimensional parameter contracts around the truth at the parametric rate and is asymptotically normal with a variance that coincides with the semiparametric efficiency bound. These conditions allow for a larger class of nuisance parameters relative to the original parametrization of the regression model. Overall, we conclude that a parametrization that embeds Neyman orthogonality can be a useful device for debiasing posterior distributions in semipa
+    The extent to which individuals commit to their partner for life has important implications. This paper develops a lifecycle collective model of the household, through which it characterizes behavior in three prominent alternative types of commitment: full, limited, and no commitment. We propose a test that distinguishes between all three types based on how contemporaneous and historical news affect household behavior. Our test permits heterogeneity in the degree of commitment across households. Using recent data from the Panel Study of Income Dynamics, we reject full and no commitment, while we find strong evidence for limited commitment.
     
-[^5]: 经济主体的动态运输
+[^3]: 实时检测当地无套利违规行为的方法
 
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+    Real-Time Detection of Local No-Arbitrage Violations. (arXiv:2307.10872v1 [econ.EM])
 
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+    [http://arxiv.org/abs/2307.10872](http://arxiv.org/abs/2307.10872)
 
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
-
-    
-
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
-
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
-    
-[^6]: 时变约束下的协整性问题
-
-    Cointegration with Occasionally Binding Constraints. (arXiv:2211.09604v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2211.09604](http://arxiv.org/abs/2211.09604)
-
-    本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。
+    本文提出了一种实时检测金融资产价格中违反标准Ito半鞅假设的当地事件的方法，这些事件可能导致套利机会。经过实证应用和蒙特卡洛研究，该方法在实时中能够迅速识别极端收益持续性事件的有效性得到了验证。
 
     
 
-    在非线性协整性的文献中，一个长期的悬而未决问题是关于（非线性）向量自回归如何在时间序列的短期和长期动力学的统一描述中生成“非线性协整性”，即这些序列共享共同的非线性随机趋势。我们在被审查和弯曲的结构化VAR模型（CKSVAR）的背景下考虑了这个问题，该模型提供了一个灵活但易于处理的框架，用于建模受阈值型非线性性质影响的时间序列，例如由于偶尔出现的约束所导致的零下限（ZLB）。我们通过单位根和对通常秩条件的适当推广，提供了这一模型中如何产生共同线性和非线性随机趋势的完整特征描述，这是迄今为止对Granger-J的第一次扩展
+    本文主要研究实时检测金融资产价格中违反标准Ito半鞅假设的当地事件，以及可能导致套利机会的方法。我们提出的检测器是逐步应用于不断进入的高频数据中的停止规则。在Ito半鞅违规不存在的情况下，我们证明了它们在渐近下是指数分布的。另一方面，当发生违规时，我们可以在填充渐近条件下立即进行检测。蒙特卡洛研究表明，渐近结果很好地近似了顺序检测器的有限样本行为。对S&P 500指数期货数据的实证应用证实了我们的检测器在实时中迅速识别极端收益持续性事件中的有效性。
 
-    In the literature on nonlinear cointegration, a long-standing open problem relates to how a (nonlinear) vector autoregression, which provides a unified description of the short- and long-run dynamics of a collection of time series, can generate 'nonlinear cointegration' in the profound sense of those series sharing common nonlinear stochastic trends. We consider this problem in the setting of the censored and kinked structural VAR (CKSVAR), which provides a flexible yet tractable framework within which to model time series that are subject to threshold-type nonlinearities, such as those arising due to occasionally binding constraints, of which the zero lower bound (ZLB) on short-term nominal interest rates provides a leading example. We provide a complete characterisation of how common linear and {nonlinear stochastic trends may be generated in this model, via unit roots and appropriate generalisations of the usual rank conditions, providing the first extension to date of the Granger-J
+    This paper focuses on the task of detecting local episodes involving violation of the standard It\^o semimartingale assumption for financial asset prices in real time that might induce arbitrage opportunities. Our proposed detectors, defined as stopping rules, are applied sequentially to continually incoming high-frequency data. We show that they are asymptotically exponentially distributed in the absence of Ito semimartingale violations. On the other hand, when a violation occurs, we can achieve immediate detection under infill asymptotics. A Monte Carlo study demonstrates that the asymptotic results provide a good approximation to the finite-sample behavior of the sequential detectors. An empirical application to S&P 500 index futures data corroborates the effectiveness of our detectors in swiftly identifying the emergence of an extreme return persistence episode in real time.
     
-[^7]: 对大型近似动态因子模型进行主成分分析的估计和推断
+[^4]: 通过逆概率加权的赔偿准备金：一种微观层面的链条梯级方法
 
-    On Estimation and Inference of Large Approximate Dynamic Factor Models via the Principal Component Analysis. (arXiv:2211.01921v3 [econ.EM] UPDATED)
+    Claim Reserving via Inverse Probability Weighting: A Micro-Level Chain-Ladder Method. (arXiv:2307.10808v1 [econ.EM])
 
-    [http://arxiv.org/abs/2211.01921](http://arxiv.org/abs/2211.01921)
+    [http://arxiv.org/abs/2307.10808](http://arxiv.org/abs/2307.10808)
 
-    本文研究了大型近似动态因子模型的主成分分析估计和推断，提供了渐近结果的替代推导，并且通过经典的样本协方差矩阵进行估计，得出它们等价于OLS的结论。
-
-    
-
-    我们提供了一种对大型近似因子模型主成分估计器的渐近结果的替代推导。结果是在最小的假设集合下导出的，特别地，我们只需要存在4阶矩。在时间序列设置中给予了特别关注，这是几乎所有最新计量应用因子模型的情况。因此，估计是基于经典的$n\times n$样本协方差矩阵，而不是文献中常考虑的$T\times T$协方差矩阵。事实上，尽管这两种方法在渐近意义下等价，但前者更符合时间序列设置，并且它立即允许我们编写更直观的主成分估计渐近展开，显示它们等价于OLS，只要$\sqrt n/T\to 0$和$\sqrt T/n\to 0$，即在时间序列回归中估计载荷时假设因子已知，而因子则已知。
-
-    We provide an alternative derivation of the asymptotic results for the Principal Components estimator of a large approximate factor model. Results are derived under a minimal set of assumptions and, in particular, we require only the existence of 4th order moments. A special focus is given to the time series setting, a case considered in almost all recent econometric applications of factor models. Hence, estimation is based on the classical $n\times n$ sample covariance matrix and not on a $T\times T$ covariance matrix often considered in the literature. Indeed, despite the two approaches being asymptotically equivalent, the former is more coherent with a time series setting and it immediately allows us to write more intuitive asymptotic expansions for the Principal Component estimators showing that they are equivalent to OLS as long as $\sqrt n/T\to 0$ and $\sqrt T/n\to 0$, that is the loadings are estimated in a time series regression as if the factors were known, while the factors a
-    
-[^8]: Beta分类组合投资组合研究
-
-    Beta-Sorted Portfolios. (arXiv:2208.10974v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2208.10974](http://arxiv.org/abs/2208.10974)
-
-    该论文对Beta分类组合投资组合进行了研究，通过将过程形式化为一个由非参数第一步和Beta自适应投资组合构建组成的两步非参数估计器，解释了该估计算法的关键特征，并提供了条件以确保一致性和渐近正态性。
+    本文提出了一种通过逆概率加权技术将个体级别的细粒度信息融入到赔偿准备中的方法，为统计上合理的聚合赔偿准备提供了一种简约的宏观级别方法。
 
     
 
-    Beta分类组合投资组合是由与选择的风险因素具有类似协变性的资产组成的，是经济金融领域中分析(条件)预期收益模型的常用工具。尽管使用广泛，但与可比的两步回归等程序相比，对其统计性质知之甚少。我们通过将该过程作为一个由非参数第一步和Beta自适应投资组合构建组成的两步非参数估计器来形式化研究Beta分类组合投资组合回报的性质。我们的框架基于一般数据生成过程上的精确经济和统计假设，从而解释了众所周知的估计算法，并揭示了其关键特征。我们研究了单个截面和随时间聚合（例如总体均值）的Beta分类组合投资组合，提供了确保一致性和渐近正态性的条件，同时还提供了新的均一推断过程，允许不确定性。
+    赔偿准备常常使用宏观级别或聚合模型完成，其中链条梯级法是最流行的方法。然而，这些方法是启发式构建的，依赖于过度简化的数据假设，忽视了投保人的异质性，导致缺乏准确性。相反，微观层面的准备金利用精细信息进行随机建模以获得更好的预测，但通常以对从业人员不具吸引力的复杂模型为代价。在本文中，我们介绍了一种简约的宏观级别方法，可以在个体级别上融入细粒度信息。我们通过将赔偿准备问题视为人群抽样问题，并提出了一种使用逆概率加权技术的估计方法，其权重由投保人属性驱动。该框架为频率和
 
-    Beta-sorted portfolios -- portfolios comprised of assets with similar covariation to selected risk factors -- are a popular tool in empirical finance to analyze models of (conditional) expected returns. Despite their widespread use, little is known of their statistical properties in contrast to comparable procedures such as two-pass regressions. We formally investigate the properties of beta-sorted portfolio returns by casting the procedure as a two-step nonparametric estimator with a nonparametric first step and a beta-adaptive portfolios construction. Our framework rationalize the well-known estimation algorithm with precise economic and statistical assumptions on the general data generating process and characterize its key features. We study beta-sorted portfolios for both a single cross-section as well as for aggregation over time (e.g., the grand mean), offering conditions that ensure consistency and asymptotic normality along with new uniform inference procedures allowing for unc
+    Claim reserving is primarily accomplished using macro-level or aggregate models, with the Chain-Ladder method being the most popular one. However, these methods are heuristically constructed, rely on oversimplified data assumptions, neglect the heterogeneity of policyholders, and so lead to a lack of accuracy. In contrast, micro-level reserving leverages on stochastic modeling with granular information for improved predictions, but usually comes at the cost of more complex models that are unattractive to practitioners. In this paper, we introduce a simplistic macro-level type approach that can incorporate granular information at the individual level. We do so by considering a novel framework in which we view the claim reserving problem as a population sampling problem and propose an estimator using inverse probability weighting techniques, with weights driven by policyholder attributes. The framework provides a statistically sound method for aggregate claim reserving in a frequency and
     
-[^9]: 通用政策干预的无条件效应
+[^5]: PySDTest: 一个用于随机支配测试的Python包
 
-    Unconditional Effects of General Policy Interventions. (arXiv:2201.02292v3 [econ.EM] UPDATED)
+    PySDTest: a Python Package for Stochastic Dominance Tests. (arXiv:2307.10694v1 [econ.EM])
 
-    [http://arxiv.org/abs/2201.02292](http://arxiv.org/abs/2201.02292)
+    [http://arxiv.org/abs/2307.10694](http://arxiv.org/abs/2307.10694)
 
-    该论文研究了通用政策干预的无条件效应，包括位置-比例换算和同时换算。使用简单的半参数估计器对无条件政策参数进行估计，并应用于明塞尔方程以研究其效果。
-
-    
-
-    本文研究了通用政策干预的无条件效应，其中包括作为特例的位置-比例换算和同时换算。位置-比例换算是为了研究一个反事实政策，旨在改变协变量的均值或位置，同时也改变其离散度或比例。同时换算是指两个或多个协变量同时发生变化的情况。例如，一个协变量的变化以一定的比率被另一个协变量的变化所补偿。不考虑这些可能的比例或同时换算将导致对感兴趣的结果变量的潜在政策效应的错误评估。使用简单的半参数估计器对无条件政策参数进行估计，并对其渐近性质进行研究。通过蒙特卡洛模拟来研究其有限样本性能。所提出的方法应用于明塞尔方程，以研究其效果。
-
-    This paper studies the unconditional effects of a general policy intervention, which includes location-scale shifts and simultaneous shifts as special cases. The location-scale shift is intended to study a counterfactual policy aimed at changing not only the mean or location of a covariate but also its dispersion or scale. The simultaneous shift refers to the situation where shifts in two or more covariates take place simultaneously. For example, a shift in one covariate is compensated at a certain rate by a shift in another covariate. Not accounting for these possible scale or simultaneous shifts will result in an incorrect assessment of the potential policy effects on an outcome variable of interest. The unconditional policy parameters are estimated with simple semiparametric estimators, for which asymptotic properties are studied. Monte Carlo simulations are implemented to study their finite sample performances. The proposed approach is applied to a Mincer equation to study the effe
-    
-[^10]: 设计角度下的合成控制方法研究
-
-    A Design-Based Perspective on Synthetic Control Methods. (arXiv:2101.09398v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2101.09398](http://arxiv.org/abs/2101.09398)
-
-    本文从设计角度研究了合成控制（SC）方法，提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，并且其均方根误差低于其他常见估计器。
+    PySDTest是一个用于随机支配测试的Python包，可以实现多种随机支配测试方法并计算临界值，允许多种随机支配假设。在比特币和标普500指数的比较中发现标普500指数在二阶随机上支配比特币的回报。
 
     
 
-    自从Abadie和Gardeazabal（2003）提出以来，合成控制（SC）方法已经迅速成为面板数据观测研究中估计因果效应的主要方法之一。正式的讨论通常通过假设潜在结果由一个因子模型生成来激励SC方法。本文从设计角度研究了SC方法，假设选取受试单元和周期的模型。我们表明，在随机分配下，标准的SC估计量通常是有偏的。我们提出了一个修改的无偏合成控制（MUSC）估计量，在随机分配下保证无偏，推导了它的确切、基于随机性的有限样本方差。我们还提出了一个这个方差的无偏估计量。我们在真实数据的设置中记录，随机分配下，SC类估计器的均方根误差可以大大降低，低于其他常见估计器。
+    我们介绍了PySDTest，一个用于随机支配测试的Python包。PySDTest可以实现Barrett和Donald（2003）、Linton等人（2005）、Linton等人（2010）、Donald和Hsu（2016）及其扩展的测试程序。PySDTest提供了多种计算临界值的选项，包括引导法、子采样法和数值Δ法。此外，PySDTest允许多种随机支配假设，包括多个前景下的随机最大化和前景支配假设。我们简要介绍了随机支配和测试方法的概念，并提供了使用PySDTest的实际指导。作为实证示例，我们将PySDTest应用于比特币和标普500指数的每日回报之间的组合选择问题。我们发现标普500指数的回报在二阶随机上支配比特币的回报。
 
-    Since their introduction in Abadie and Gardeazabal (2003), Synthetic Control (SC) methods have quickly become one of the leading methods for estimating causal effects in observational studies in settings with panel data. Formal discussions often motivate SC methods by the assumption that the potential outcomes were generated by a factor model. Here we study SC methods from a design-based perspective, assuming a model for the selection of the treated unit(s) and period(s). We show that the standard SC estimator is generally biased under random assignment. We propose a Modified Unbiased Synthetic Control (MUSC) estimator that guarantees unbiasedness under random assignment and derive its exact, randomization-based, finite-sample variance. We also propose an unbiased estimator for this variance. We document in settings with real data that under random assignment, SC-type estimators can have root mean-squared errors that are substantially lower than that of other common estimators. We show
+    We introduce PySDTest, a Python package for statistical tests of stochastic dominance. PySDTest can implement the testing procedures of Barrett and Donald (2003), Linton et al. (2005), Linton et al. (2010), Donald and Hsu (2016), and their extensions. PySDTest provides several options to compute the critical values including bootstrap, subsampling, and numerical delta methods. In addition, PySDTest allows various notions of the stochastic dominance hypothesis, including stochastic maximality among multiple prospects and prospect dominance. We briefly give an overview of the concepts of stochastic dominance and testing methods. We then provide a practical guidance for using PySDTest. For an empirical illustration, we apply PySDTest to the portfolio choice problem between the daily returns of Bitcoin and S&P 500 index. We find that the S&P 500 index returns second-order stochastically dominate the Bitcoin returns.
     
-[^11]: 一个自动的有限样本稳健性度量：当删除少量数据可能造成很大差异时？
+[^6]: 测量毛贸易中的增加值: 垂直差异的内生方法
 
-    An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?. (arXiv:2011.14999v5 [stat.ME] UPDATED)
+    Measuring Value Added in Gross Trade: Endogenous Approach of Vertical Differentiation. (arXiv:2307.10660v1 [econ.TH])
 
-    [http://arxiv.org/abs/2011.14999](http://arxiv.org/abs/2011.14999)
+    [http://arxiv.org/abs/2307.10660](http://arxiv.org/abs/2307.10660)
 
-    该论文提出了一种自动的有限样本稳健性度量方法，用于评估应用计量经济学结论对样本的小部分删除的敏感性。
-
-    
-
-    研究样本往往以非随机方式与推断和政策决策的目标人群不同。研究人员通常认为，这种对随机抽样的偏离——由于时间和空间上的人口变化，或者真正随机采样的困难——很小，对推断的影响也应该很小。因此，我们可能会担心我们研究的结论过于敏感，对样本数据的非常小的比例过于敏感。我们提出了一种方法来评估应用计量经济学结论对样本的小部分删除的敏感性。手动检查所有可能的小子集的影响在计算上是不可行的，因此我们使用近似方法找到最有影响力的子集合。我们的度量方法，“近似最大影响扰动”，基于经典的影响函数，并且对通常的方法（包括但不限于OLS，IV，MLE，G）可以自动计算。
-
-    Study samples often differ from the target populations of inference and policy decisions in non-random ways. Researchers typically believe that such departures from random sampling -- due to changes in the population over time and space, or difficulties in sampling truly randomly -- are small, and their corresponding impact on the inference should be small as well. We might therefore be concerned if the conclusions of our studies are excessively sensitive to a very small proportion of our sample data. We propose a method to assess the sensitivity of applied econometric conclusions to the removal of a small fraction of the sample. Manually checking the influence of all possible small subsets is computationally infeasible, so we use an approximation to find the most influential subset. Our metric, the "Approximate Maximum Influence Perturbation," is based on the classical influence function, and is automatically computable for common methods including (but not limited to) OLS, IV, MLE, G
-    
-[^12]: 无条件策略影响的识别与估计：一种内生二元处理的无条件MTE方法
-
-    Identification and Estimation of Unconditional Policy Effects of an Endogenous Binary Treatment: an Unconditional MTE Approach. (arXiv:2010.15864v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2010.15864](http://arxiv.org/abs/2010.15864)
-
-    本文介绍了一种基于函数影响函数的无条件边际处理效应（MTE）的新方法，研究了处理状态为二元且内生时策略效应的识别与估计。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。对于感兴趣的分位数，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。
+    本论文讨论了一种用于区分和衡量垂直差异产业内贸易的替代方法。
 
     
 
-    本文研究了在处理状态为二元且内生时的策略效应的识别和估计。我们基于反映政策目标的函数的影响函数引入了一类新的无条件边际处理效应（MTE）。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。我们提供了识别无条件策略效应的条件。当感兴趣的函数是分位数时，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。
+    从1980年代开始，对于产业内贸易的第一次理论分析表明，这种贸易的决定因素和后果取决于交易产品是否在质量上存在差异。当交易产品在两个具有不同质量的国家之间进行产业内贸易时，这种贸易被称为垂直差异。否则，被称为水平差异。有一种方法可以区分垂直差异中的产业内贸易和水平差异中的产业内贸易。该方法比较了每个产业的产业内贸易中出口的单价与进口的单价。当出口的单价与进口的单价存在显著差异时，认为该产业内的产业内贸易是垂直差异。但是这种方法存在局限性。下文将引导我们思考一种替代方法，用于区分和衡量产业内贸易。
 
-    This paper studies the identification and estimation of policy effects when treatment status is binary and endogenous. We introduce a new class of unconditional marginal treatment effects (MTE) based on the influence function of the functional underlying the policy target. We show that an unconditional policy effect can be represented as a weighted average of the newly defined unconditional MTEs over the individuals who are indifferent about their treatment status. We provide conditions for point identification of the unconditional policy effects. When a quantile is the functional of interest, we introduce the UNconditional Instrumental Quantile Estimator (UNIQUE) and establish its consistency and asymptotic distribution. In the empirical application, we estimate the effect of changing college enrollment status, induced by higher tuition subsidy, on the quantiles of the wage distribution.
+    From the beginning of the 1980s, the first theoretical analysis of intra-industry trade showed that the determinants and consequences of this type of trade are different, depending on whether the traded products differ in quality. When the products are subject to intra-industry trade between two countries with distinct qualities, this trade is vertically differentiated. Otherwise, it is called horizontal differentiation. There is a method for distinguishing intra-industry trade between two countries in vertical differentiation from those in horizontal differentiation. This method compares exports' unit value to imports for each industry's intra-industry trade. It considers the intra-industry trading carried out in this industry as vertical differentiation when the unit value of exports differs significantly from that of imports. This approach has limitations. The discussion below will lead us to think about an alternative method for separating and measuring intra-industry trade into ho
+    
+[^7]: 区块链上的动态大型语言模型
+
+    Dynamic Large Language Models on Blockchains. (arXiv:2307.10549v1 [cs.CV])
+
+    [http://arxiv.org/abs/2307.10549](http://arxiv.org/abs/2307.10549)
+
+    本文提出在区块链上训练和部署动态大型语言模型，通过使用分布式计算和提供无法篡改的交易分类帐的区块链技术，可使语言模型具备连续学习的能力，为下一代人工智能系统的发展提供了新的方法和启示。
+
+    
+
+    训练和部署大型语言模型需要大量的计算资源，因为语言模型包含数十亿个参数，文本拥有数千个标记。另一个问题是大型语言模型是静态的，在训练过程后就被固定下来了。为了解决这些问题，本文提出在区块链上训练和部署动态大型语言模型，区块链具有高计算性能并分布在一个计算机网络上。区块链是一个安全、分散和透明的系统，允许创建一个无法篡改的交易分类帐，无需中介机构。动态大型语言模型可以在训练过程之后不断从用户输入中学习。我们的方法提供了一种开发大型语言模型的新方法，并为下一代人工智能系统带来了启示。
+
+    Training and deploying the large language models requires a large mount of computational resource because the language models contain billions of parameters and the text has thousands of tokens. Another problem is that the large language models are static. They are fixed after the training process. To tackle these issues, in this paper, we propose to train and deploy the dynamic large language model on blockchains, which have high computation performance and are distributed across a network of computers. A blockchain is a secure, decentralized, and transparent system that allows for the creation of a tamper-proof ledger for transactions without the need for intermediaries. The dynamic large language models can continuously learn from the user input after the training process. Our method provides a new way to develop the large language models and also sheds a light on the next generation artificial intelligence systems.
+    
+[^8]: 针对多元计数时间序列的潜在高斯动态因子建模与预测
+
+    Latent Gaussian dynamic factor modeling and forecasting for multivariate count time series. (arXiv:2307.10454v1 [stat.ME])
+
+    [http://arxiv.org/abs/2307.10454](http://arxiv.org/abs/2307.10454)
+
+    本文提出了一种针对多元计数时间序列的潜在高斯动态因子建模与预测方法，通过计数和底层高斯模型的二阶特性进行估计，并利用粒子顺序蒙特卡洛方法进行预测。
+
+    
+
+    本文考虑了一种基于高斯动态因子模型的多元计数时间序列模型的估计和预测方法，该方法基于计数和底层高斯模型的二阶特性，并适用于模型维数大于样本长度的情况。此外，本文提出了用于模型选择的新型交叉验证方案。预测通过基于粒子的顺序蒙特卡洛方法进行，利用卡尔曼滤波技术。还进行了模拟研究和应用分析。
+
+    This work considers estimation and forecasting in a multivariate count time series model based on a copula-type transformation of a Gaussian dynamic factor model. The estimation is based on second-order properties of the count and underlying Gaussian models and applies to the case where the model dimension is larger than the sample length. In addition, novel cross-validation schemes are suggested for model selection. The forecasting is carried out through a particle-based sequential Monte Carlo, leveraging Kalman filtering techniques. A simulation study and an application are also considered.
+    
+[^9]: 主观预期效用与心理赌博
+
+    Subjective Expected Utility and Psychological Gambles. (arXiv:2307.10328v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.10328](http://arxiv.org/abs/2307.10328)
+
+    该论文基于心理赌博的选择表示，得出了对预期效用的基本特征化，无需额外假设。不同的态度会影响对复杂性的理解，导致最小最大或Choquet预期效用的特征化。
+
+    
+
+    我们通过心理赌博的选择表示，获得了对预期效用的基本特征，这不需要除了先后偏好之间的一致性之外的任何假设。对复杂性的弱版本与不同的态度相关，并导致了最小最大或Choquet预期效用的特征化。
+
+    We obtain an elementary characterization of expected utility based on a representation of choice in terms of psychological gambles, which requires no assumption other than coherence between ex-ante and ex-post preferences. Weaker version of coherence are associated with various attitudes towards complexity and lead to a characterization of minimax or Choquet expected utility.
+    
+[^10]: Bayes = Blackwell, 差不多。
+
+    Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2302.13956](http://arxiv.org/abs/2302.13956)
+
+    存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。
+
+    
+
+    存在着除了Bayes'定律之外的更新规则，可以使信息的价值变为正值。我找到了所有这些规则。
+
+    There are updating rules other than Bayes' law that render the value of information positive. I find all of them.
+    
+[^11]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^12]: 教师性别刻板印象的长期影响
+
+    The Long-Term Effects of Teachers' Gender Stereotypes. (arXiv:2212.08220v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2212.08220](http://arxiv.org/abs/2212.08220)
+
+    本文研究了教师性别刻板印象对学生长期结果的影响，证明教师的性别刻板印象反映在学生评价上，对男女学生给予不同的分数。
+
+    
+
+    本文研究了教师对男孩和女孩的刻板印象评估对学生长期结果的影响，包括高中毕业、大学入学和正式领域就业。我通过分析教师对心理暗示测验（IAT）的反应和教师指派和盲目评分考试之间的性别差距来衡量教师的性别刻板评分。为了在全国范围内收集IAT分数，我开发了一个大规模的教育计划，让秘鲁公立学校的教师和学生可以参与。这项分析提供了证据，表明教师的性别刻板印象反映在学生评价上：认为男孩适合科学学科的数学教师给男学生比盲目评分考试更高的分数。相反，语言艺术教师则给女生更高的分数。
+
+    This paper studies the effects of teachers' stereotypical assessments of boys and girls on students' long-term outcomes, including high school graduation, college attendance, and formal sector employment. I measure teachers' gender stereotypical grading based on preconceptions about boys' aptitude in math and science and girls' aptitude in communicating and verbal skills by analyzing novel data on teachers' responses to the Implicit Association Test (IAT) and differences in gender gaps between teacher-assigned and blindly graded tests. To collect IAT scores on a national scale, I developed a large-scale educational program accessible to teachers and students in Peruvian public schools. This analysis provides evidence that teachers' gender stereotypes are reflected in student evaluations: math teachers with stronger stereotypes associating boys with scientific disciplines award male students with higher test scores compared to blindly-graded test scores. In contrast, language arts teach
+    
+[^13]: 有界套利和近似理性行为的等价性
+
+    Bounded arbitrage and nearly rational behavior. (arXiv:2212.02680v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.02680](http://arxiv.org/abs/2212.02680)
+
+    该论文建立了几乎没有套利机会的原则与近似理性决策之间的等价性，并在概率意见聚合和随机选择函数的情况下考察了其含义。对于前者，有界套利原则限制了集体概率评估与个体评估的差异；对于后者，有界套利原则弱化了随机理性的McFadden-Richter公理，并给出了随机选择函数与其他函数在随机效用最大化模型类中的最小距离的上界。
+
+    
+
+    我们建立了几乎没有套利机会的原则与近似理性决策之间的等价性。我们考虑了这一原则在概率意见的聚合和随机选择函数的情况下的含义。在前者中，我们展示了一个有界套利原则及其作为近似帕累托条件的等价形式，它限制了一个状态集合的集体概率评估和个体评估的线性聚合规则之间的差异。在后者中，我们展示了有界套利机会的原则蕴含了对于随机理性的McFadden-Richter公理的弱化，并为随机选择函数与随机效用最大化模型类中另一个函数的最小距离提供了一个上界。
+
+    We establish the equivalence between a principle of almost absence of arbitrage opportunities and nearly rational decision-making. The implications of such principle are considered in the context of the aggregation of probabilistic opinions and of stochastic choice functions. In the former a bounded arbitrage principle and its equivalent form as an approximately Pareto condition are shown to bound the difference between the collective probabilistic assessment of a set of states and a linear aggregation rule on the individual assessments. In the latter we show that our general principle of limited arbitrage opportunities translates into a weakening of the McFadden-Richter axiom of stochastic rationality, and gives an upper bound for the minimum distance of a stochastic choice function to another in the class of random utility maximization models.
+    
+[^14]: 弹性机器学习估计条件平均处理效应：祝福与诅咒
+
+    Flexible machine learning estimation of conditional average treatment effects: a blessing and a curse. (arXiv:2210.16547v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2210.16547](http://arxiv.org/abs/2210.16547)
+
+    本论文通过弹性机器学习方法估计了条件平均处理效应，发现当特征无法解释所有异质性时，个体处理效应可能严重偏离。引入因果随机森林来估计接受组和对照组之间的条件方差差异，并发现如果个体效应分布和CATE分布相等，则估计的方差差异较小，否则需要额外的因果假设来量化未捕捉到的异质性。
+
+    
+
+    从观测数据中进行因果推断需要不可测试的识别假设。如果这些假设适用，机器学习（ML）方法可用于研究复杂形式的因果效应异质性。最近，已经开发了几种ML方法来估计条件平均处理效应（CATE）。如果手头的特征无法解释所有的异质性，个体处理效应（ITE）可能严重偏离CATE。在这项工作中，我们展示了当应用因果随机森林（CRF）时，ITE和CATE的分布可能不同。我们扩展了CRF以估计接受组和对照组之间的条件方差差异。如果ITE分布等于CATE分布，则估计的方差差异应该很小。如果它们不同，需要额外的因果假设来量化CATE分布所没有捕捉到的异质性。当个体效应部分和CATE部分的条件方差是可识别的。
+
+    Causal inference from observational data requires untestable identification assumptions. If these assumptions apply, machine learning (ML) methods can be used to study complex forms of causal effect heterogeneity. Recently, several ML methods were developed to estimate the conditional average treatment effect (CATE). If the features at hand cannot explain all heterogeneity, the individual treatment effects (ITEs) can seriously deviate from the CATE. In this work, we demonstrate how the distributions of the ITE and the CATE can differ when a causal random forest (CRF) is applied. We extend the CRF to estimate the difference in conditional variance between treated and controls. If the ITE distribution equals the CATE distribution, this estimated difference in variance should be small. If they differ, an additional causal assumption is necessary to quantify the heterogeneity not captured by the CATE distribution. The conditional variance of the ITE can be identified when the individual ef
+    
+[^15]: 能否通过种族融合来弥合高中课程中的种族差距？
+
+    Can Desegregation Close the Racial Gap in High School Coursework?. (arXiv:2208.12321v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2208.12321](http://arxiv.org/abs/2208.12321)
+
+    本研究通过考虑种族异质性社会激励的博弈论模型，揭示了种族融合对学校内课程差异的影响。结果发现，在主要为白人学生的学校中，由于同学选课决策的更强社会激励，黑人和西班牙裔学生在大学预备课程中的入学率更高。
+
+    
+
+    本文研究了种族融合、制度偏见和个体行为在教育中的相互作用。使用考虑到种族异质性社会激励的博弈论模型，研究调查了学校间融合对学校内课程差异的影响。分析结合了一种基于熵的隔离度测量，并提出了一种基于优化的方法来评估学生重新分配政策的影响。结果表明，在主要为白人学生的学校中，尽管黑人和西班牙裔学生未受到较少上大学鼓励，但由于同学选课决策的更强社会激励，他们在大学预备课程中的入学率更高。
+
+    This paper examines the interplay between desegregation, institutional bias, and individual behavior in education. Using a game-theoretic model that considers race-heterogeneous social incentives, the study investigates the effects of between-school desegregation on within-school disparities in coursework. The analysis incorporates a segregation measure based on entropy and proposes an optimization-based approach to evaluate the impact of student reassignment policies. The results highlight that Black and Hispanic students in predominantly White schools, despite receiving less encouragement to apply to college, exhibit higher enrollment in college-prep coursework due to stronger social incentives from their classmates' coursework decisions.
+    
+[^16]: 在偏差存在的情况下的Bootstrap推断
+
+    Bootstrap inference in the presence of bias. (arXiv:2208.02028v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2208.02028](http://arxiv.org/abs/2208.02028)
+
+    本研究考虑了在有偏估计量情况下的Bootstrap推断，并展示了通过正确实施预估修正方法可以得到有效推断。研究提出了两种预估修正的实现方法，并给出了通用的条件确保Bootstrap推断的有效性。根据五个具体例子的讨论，研究证明了提出方法的实际相关性和实施方法。
+
+    
+
+    我们考虑对（渐近）有偏估计量的Bootstrap推断。我们展示了即使偏差项无法一致估计，通过正确实施Bootstrap，仍然可以得到有效的推断。具体而言，我们展示了Beran（1987, 1988）的预估修正方法，原本旨在提供更高阶的改进，通过将原始的Bootstrap p值转化为渐近均匀随机变量，恢复了Bootstrap的有效性。我们提出了两种预估修正的实现方法（插入法和双重Bootstrap），并提供了一般高级条件，这些条件意味着Bootstrap推断的有效性。为了说明我们结果的实际相关性和实施方法，我们讨论了五个例子：（i）基于模型平均的目标参数推断；（ii）岭型正则化估计量；（iii）非参数回归；（iv）无穷方差数据的位置模型；（v）动态面板数据模型。
+
+    We consider bootstrap inference for estimators which are (asymptotically) biased. We show that, even when the bias term cannot be consistently estimated, valid inference can be obtained by proper implementations of the bootstrap. Specifically, we show that the prepivoting approach of Beran (1987, 1988), originally proposed to deliver higher-order refinements, restores bootstrap validity by transforming the original bootstrap p-value into an asymptotically uniform random variable. We propose two different implementations of prepivoting (plug-in and double bootstrap), and provide general high-level conditions that imply validity of bootstrap inference. To illustrate the practical relevance and implementation of our results, we discuss five examples: (i) inference on a target parameter based on model averaging; (ii) ridge-type regularized estimators; (iii) nonparametric regression; (iv) a location model for infinite variance data; and (v) dynamic panel data models.
+    
+[^17]: 序贯核嵌入用于介导和时变剂量响应曲线
+
+    Sequential Kernel Embedding for Mediated and Time-Varying Dose Response Curves. (arXiv:2111.03950v4 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2111.03950](http://arxiv.org/abs/2111.03950)
+
+    本论文提出了一种基于核岭回归的简单非参数估计方法，可以用于估计介导和时变剂量响应曲线。通过引入序贯核嵌入技术，我们实现了对复杂因果估计的简化。通过模拟实验和真实数据的估计结果，证明了该方法的强大性能和普适性。
+
+    
+
+    我们提出了基于核岭回归的介导和时变剂量响应曲线的简单非参数估计器。通过嵌入Pearl的介导公式和Robins的g公式与核函数，我们允许处理、介导者和协变量在一般空间中连续变化，也允许非线性的处理-混淆因素反馈。我们的关键创新是一种称为序贯核嵌入的再生核希尔伯特空间技术，我们使用它来构建复杂因果估计的简单估计器。我们的估计器保留了经典识别的普适性，同时实现了非渐进均匀收敛速度。在具有许多协变量的非线性模拟中，我们展示了强大的性能。我们估计了美国职业训练团的介导和时变剂量响应曲线，并清洁可能成为未来工作基准的数据。我们将我们的结果推广到介导和时变处理效应以及反事实分布，验证了半参数效率。
+
+    We propose simple nonparametric estimators for mediated and time-varying dose response curves based on kernel ridge regression. By embedding Pearl's mediation formula and Robins' g-formula with kernels, we allow treatments, mediators, and covariates to be continuous in general spaces, and also allow for nonlinear treatment-confounder feedback. Our key innovation is a reproducing kernel Hilbert space technique called sequential kernel embedding, which we use to construct simple estimators for complex causal estimands. Our estimators preserve the generality of classic identification while also achieving nonasymptotic uniform rates. In nonlinear simulations with many covariates, we demonstrate strong performance. We estimate mediated and time-varying dose response curves of the US Job Corps, and clean data that may serve as a benchmark in future work. We extend our results to mediated and time-varying treatment effects and counterfactual distributions, verifying semiparametric efficiency 
+    
+[^18]: 独特的稳定匹配
+
+    Unique Stable Matchings. (arXiv:2106.12977v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2106.12977](http://arxiv.org/abs/2106.12977)
+
+    本文研究了一对一双边匹配市场中独特预测的问题，并通过引入等价陈述，得出了稳定匹配的三个等价条件。
+
+    
+
+    本文讨论了一对一双边匹配市场中独特预测的问题，该问题由Gale和Shapley（1962）定义，并且我们证明了以下结论。定理：设P为一对一双边匹配市场，P为其关联的标准形式，是一个（弱）更小的匹配市场，具有相同的稳定匹配集合，可以使用Irving和Leather（1986）以及Balinski和Ratier（1997）引入的程序获得。以下三个陈述是等价的：（a）P具有唯一的稳定匹配。（b）P*上的偏好是无环的，由Chung（2000）定义。（c）在P*中，每个市场参与者的偏好列表都是单一的。
+
+    In this paper we consider the issue of a unique prediction in one to one two sided matching markets, as defined by Gale and Shapley (1962), and we prove the following. Theorem. Let P be a one-to-one two-sided matching market and let P be its associated normal form, a (weakly) smaller matching market with the same set of stable matchings, that can be obtained using procedures introduced in Irving and Leather (1986) and Balinski and Ratier (1997). The following three statements are equivalent (a) P has a unique stable matching. (b) Preferences on P* are acyclic, as defined by Chung (2000). (c) In P* every market participant's preference list is a singleton.
+    
+[^19]: 论功能形式的灵活性有多大？量化理论的限制性。
+
+    How Flexible is that Functional Form? Quantifying the Restrictiveness of Theories. (arXiv:2007.09213v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2007.09213](http://arxiv.org/abs/2007.09213)
+
+    本研究提出了一种基于数据拟合程度的限制性度量方法，并通过评估多个经济模型在实验室和实地环境中的限制性，揭示了关于这些模型的新见解。
+
+    
+
+    我们提出了一种基于经济模型如何适应预定义类别的合成数据的限制性度量方法。这个度量方法，以及一种用来衡量模型与真实数据拟合程度的度量方法，勾勒出了一个帕累托边界，即更排除规律性，同时捕捉到真实数据中存在的规律性的模型更受青睐。为了说明我们的方法，我们在两个实验室环境（确定等价和初始行为）和一个实地环境（印度村庄的小额信贷利用）中评估了流行模型的限制性。限制性度量揭示了关于每个模型的新见解，包括一些仅有少数参数的经济模型非常灵活。
+
+    We propose a restrictiveness measure for economic models based on how well they fit synthetic data from a pre-defined class. This measure, together with a measure for how well the model fits real data, outlines a Pareto frontier, where models that rule out more regularities, yet capture the regularities that are present in real data, are preferred. To illustrate our approach, we evaluate the restrictiveness of popular models in two laboratory settings -certainty equivalents and initial play -- and in one field setting -- takeup of microfinance in Indian villages. The restrictiveness measure reveals new insights about each of the models, including that some economic models with only a few parameters are very flexible.
     
 

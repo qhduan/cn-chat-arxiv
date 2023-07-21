@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial attacks for mixtures of classifiers. (arXiv:2307.10788v1 [cs.LG])",
+    "abstract": "Mixtures of classifiers (a.k.a. randomized ensembles) have been proposed as a way to improve robustness against adversarial attacks. However, it has been shown that existing attacks are not well suited for this kind of classifiers. In this paper, we discuss the problem of attacking a mixture in a principled way and introduce two desirable properties of attacks based on a geometrical analysis of the problem (effectiveness and maximality). We then show that existing attacks do not meet both of these properties. Finally, we introduce a new attack called lattice climber attack with theoretical guarantees on the binary linear setting, and we demonstrate its performance by conducting experiments on synthetic and real datasets.",
+    "link": "http://arxiv.org/abs/2307.10788",
+    "context": "Title: Adversarial attacks for mixtures of classifiers. (arXiv:2307.10788v1 [cs.LG])\nAbstract: Mixtures of classifiers (a.k.a. randomized ensembles) have been proposed as a way to improve robustness against adversarial attacks. However, it has been shown that existing attacks are not well suited for this kind of classifiers. In this paper, we discuss the problem of attacking a mixture in a principled way and introduce two desirable properties of attacks based on a geometrical analysis of the problem (effectiveness and maximality). We then show that existing attacks do not meet both of these properties. Finally, we introduce a new attack called lattice climber attack with theoretical guarantees on the binary linear setting, and we demonstrate its performance by conducting experiments on synthetic and real datasets.",
+    "path": "papers/23/07/2307.10788.json",
+    "total_tokens": 748,
+    "translated_title": "攻击混合分类器的对抗性方法",
+    "translated_abstract": "混合分类器（即随机集成）被提出作为提高对抗性攻击鲁棒性的一种方法。然而，已经证明现有的攻击方法并不适用于这种类型的分类器。本文讨论了以一种原则性的方式攻击混合分类器的问题，并通过对问题的几何分析引入了攻击的两个可取性质（效力和极大性）。然后，我们证明了现有的攻击方法不能同时满足这两个性质。最后，我们介绍了一种名为晶格攀登攻击的新攻击方法，在二元线性设置下具有理论保证，并通过对合成数据集和真实数据集的实验展示其性能。",
+    "tldr": "本文讨论了攻击混合分类器的问题，并引入了两个可取性质。我们证明了现有的攻击方法不能同时满足这两个性质。最后，我们介绍了一种新的攻击方法，并通过实验证明了其性能好。",
+    "en_tdlr": "This paper discusses the problem of attacking mixtures of classifiers and introduces two desirable properties. It is shown that existing attacks do not meet both of these properties. Finally, a new attack method is introduced and its performance is demonstrated through experiments."
+}

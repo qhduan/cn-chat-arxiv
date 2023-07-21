@@ -1,0 +1,11 @@
+{
+    "title": "Fast and Furious: A High-Frequency Analysis of Robinhood Users' Trading Behavior. (arXiv:2307.11012v1 [q-fin.TR])",
+    "abstract": "We analyze Robinhood (RH) investors' trading reactions to intraday hourly and overnight price changes. Contrasting with recent studies focusing on daily behaviors, we find that RH users strongly favor big losers over big gainers. We also uncover that they react rapidly, typically within an hour, when acquiring stocks that exhibit extreme negative returns. Further analyses suggest greater (lower) attention to overnight (intraday) movements and exacerbated behaviors post-COVID-19 announcement. Moreover, trading attitudes significantly vary across firm size and industry, with a more contrarian strategy towards larger-cap firms and a heightened activity on energy and consumer discretionary stocks.",
+    "link": "http://arxiv.org/abs/2307.11012",
+    "context": "Title: Fast and Furious: A High-Frequency Analysis of Robinhood Users' Trading Behavior. (arXiv:2307.11012v1 [q-fin.TR])\nAbstract: We analyze Robinhood (RH) investors' trading reactions to intraday hourly and overnight price changes. Contrasting with recent studies focusing on daily behaviors, we find that RH users strongly favor big losers over big gainers. We also uncover that they react rapidly, typically within an hour, when acquiring stocks that exhibit extreme negative returns. Further analyses suggest greater (lower) attention to overnight (intraday) movements and exacerbated behaviors post-COVID-19 announcement. Moreover, trading attitudes significantly vary across firm size and industry, with a more contrarian strategy towards larger-cap firms and a heightened activity on energy and consumer discretionary stocks.",
+    "path": "papers/23/07/2307.11012.json",
+    "total_tokens": 863,
+    "translated_title": "快速而疯狂: 对罗宾汉用户交易行为的高频分析",
+    "translated_abstract": "我们分析了罗宾汉(Robinhood)投资者对逐小时和隔夜价格变动的交易反应。与近期关注日常行为的研究相比，我们发现罗宾汉用户更倾向于重视大亏损者而非大盈利者。我们还发现，当购买出现极端负收益的股票时，他们通常会迅速做出反应，通常在一小时内。进一步分析表明，对隔夜（日内）行情的关注程度更高（更低），并且在COVID-19公告后的行为更加夸张。此外，交易态度在公司规模和行业之间显著变化，对大市值公司采取更具反周期性的策略，并且对能源和消费类股票的交易活动更加活跃。",
+    "tldr": "对罗宾汉用户的高频交易行为进行了分析，发现他们更倾向于关注大亏损者而非大盈利者，对极端负收益的股票会迅速做出反应。交易行为对隔夜和日内行情的关注程度有差异，COVID-19公告后的行为更夸张。交易态度在公司规模和行业之间显著变化。"
+}

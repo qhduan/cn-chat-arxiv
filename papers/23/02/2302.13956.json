@@ -1,0 +1,11 @@
+{
+    "title": "Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)",
+    "abstract": "There are updating rules other than Bayes' law that render the value of information positive. I find all of them.",
+    "link": "http://arxiv.org/abs/2302.13956",
+    "context": "Title: Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)\nAbstract: There are updating rules other than Bayes' law that render the value of information positive. I find all of them.",
+    "path": "papers/23/02/2302.13956.json",
+    "total_tokens": 389,
+    "translated_title": "Bayes = Blackwell, 差不多。",
+    "translated_abstract": "存在着除了Bayes'定律之外的更新规则，可以使信息的价值变为正值。我找到了所有这些规则。",
+    "tldr": "存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。"
+}

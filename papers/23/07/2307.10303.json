@@ -1,0 +1,11 @@
+{
+    "title": "Analyzing sports commentary in order to automatically recognize events and extract insights. (arXiv:2307.10303v1 [cs.CL])",
+    "abstract": "In this paper, we carefully investigate how we can use multiple different Natural Language Processing techniques and methods in order to automatically recognize the main actions in sports events. We aim to extract insights by analyzing live sport commentaries from different sources and by classifying these major actions into different categories. We also study if sentiment analysis could help detect these main actions.",
+    "link": "http://arxiv.org/abs/2307.10303",
+    "context": "Title: Analyzing sports commentary in order to automatically recognize events and extract insights. (arXiv:2307.10303v1 [cs.CL])\nAbstract: In this paper, we carefully investigate how we can use multiple different Natural Language Processing techniques and methods in order to automatically recognize the main actions in sports events. We aim to extract insights by analyzing live sport commentaries from different sources and by classifying these major actions into different categories. We also study if sentiment analysis could help detect these main actions.",
+    "path": "papers/23/07/2307.10303.json",
+    "total_tokens": 570,
+    "translated_title": "分析体育评论以实现自动识别事件并提取洞见",
+    "translated_abstract": "本文中，我们仔细研究了如何利用多种自然语言处理技术和方法，以自动识别体育赛事中的主要行动。我们通过分析不同来源的现场体育评论，并将这些主要行动分类到不同的类别中，来提取洞见。我们还研究了情感分析是否可以帮助检测这些主要行动。",
+    "tldr": "通过分析多种体育赛事的实时评论，利用自然语言处理技术自动识别主要行动，并通过分类和情感分析提取洞见。"
+}

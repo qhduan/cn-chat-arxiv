@@ -1,0 +1,12 @@
+{
+    "title": "From Graph Generation to Graph Classification. (arXiv:2302.07989v2 [cs.LG] UPDATED)",
+    "abstract": "This note describes a new approach to classifying graphs that leverages graph generative models (GGM). Assuming a GGM that defines a joint probability distribution over graphs and their class labels, I derive classification formulas for the probability of a class label given a graph. A new conditional ELBO can be used to train a generative graph auto-encoder model for discrimination. While leveraging generative models for classification has been well explored for non-relational i.i.d. data, to our knowledge it is a novel approach to graph classification.",
+    "link": "http://arxiv.org/abs/2302.07989",
+    "context": "Title: From Graph Generation to Graph Classification. (arXiv:2302.07989v2 [cs.LG] UPDATED)\nAbstract: This note describes a new approach to classifying graphs that leverages graph generative models (GGM). Assuming a GGM that defines a joint probability distribution over graphs and their class labels, I derive classification formulas for the probability of a class label given a graph. A new conditional ELBO can be used to train a generative graph auto-encoder model for discrimination. While leveraging generative models for classification has been well explored for non-relational i.i.d. data, to our knowledge it is a novel approach to graph classification.",
+    "path": "papers/23/02/2302.07989.json",
+    "total_tokens": 661,
+    "translated_title": "从图生成到图分类",
+    "translated_abstract": "本文描述了一种利用图生成模型 (GGM) 进行图分类的新方法。假设一个定义了图及其类标签的联合概率分布的 GGM，我推导了计算给定图的类标签概率的分类公式。可以使用新的条件 ELBO 来训练生成图自编码器模型进行区分。虽然利用生成模型进行分类在非关系 i.i.d. 数据中已经得到了很好的研究，但据我们所知，这是一种图分类的新方法。",
+    "tldr": "本文提出了一种新的图分类方法，通过利用图生成模型，推导出了给定图的类标签概率的分类公式，并提出了一种新的条件 ELBO 用于训练生成图自编码器模型。这是一种在图分类中具有创新性的方法。",
+    "en_tdlr": "This paper presents a novel approach to graph classification by leveraging graph generative models. It derives classification formulas for the probability of a class label given a graph and proposes a new conditional ELBO for training generative graph auto-encoder model. This approach is innovative in the field of graph classification."
+}

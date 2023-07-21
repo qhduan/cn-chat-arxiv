@@ -1,0 +1,11 @@
+{
+    "title": "FACADE: A Framework for Adversarial Circuit Anomaly Detection and Evaluation. (arXiv:2307.10563v1 [cs.LG])",
+    "abstract": "We present FACADE, a novel probabilistic and geometric framework designed for unsupervised mechanistic anomaly detection in deep neural networks. Its primary goal is advancing the understanding and mitigation of adversarial attacks. FACADE aims to generate probabilistic distributions over circuits, which provide critical insights to their contribution to changes in the manifold properties of pseudo-classes, or high-dimensional modes in activation space, yielding a powerful tool for uncovering and combating adversarial attacks. Our approach seeks to improve model robustness, enhance scalable model oversight, and demonstrates promising applications in real-world deployment settings.",
+    "link": "http://arxiv.org/abs/2307.10563",
+    "context": "Title: FACADE: A Framework for Adversarial Circuit Anomaly Detection and Evaluation. (arXiv:2307.10563v1 [cs.LG])\nAbstract: We present FACADE, a novel probabilistic and geometric framework designed for unsupervised mechanistic anomaly detection in deep neural networks. Its primary goal is advancing the understanding and mitigation of adversarial attacks. FACADE aims to generate probabilistic distributions over circuits, which provide critical insights to their contribution to changes in the manifold properties of pseudo-classes, or high-dimensional modes in activation space, yielding a powerful tool for uncovering and combating adversarial attacks. Our approach seeks to improve model robustness, enhance scalable model oversight, and demonstrates promising applications in real-world deployment settings.",
+    "path": "papers/23/07/2307.10563.json",
+    "total_tokens": 760,
+    "translated_title": "FACADE：一种用于对抗电路异常检测和评估的框架",
+    "translated_abstract": "我们提出了FACADE，一种新颖的概率和几何框架，旨在对深度神经网络中进行无监督的机理异常检测。其主要目标是推进对抗攻击的理解和减轻。FACADE旨在生成电路上的概率分布，这为伪类的流形特性变化以及激活空间中高维模式的贡献提供了关键的洞察力，从而为揭示和对抗对抗攻击提供了强大工具。我们的方法旨在提高模型的鲁棒性，增强可扩展模型监控，并在实际部署环境中展示了有前途的应用。",
+    "tldr": "FACADE是一种新型的概率和几何框架，用于无监督检测深度神经网络中的机理异常，并提供关键的洞察力和强大工具，以揭示和对抗对抗攻击，并在实际部署环境中展示了有前途的应用。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Label Calibration for Semantic Segmentation Under Domain Shift. (arXiv:2307.10842v1 [cs.CV])",
+    "abstract": "Performance of a pre-trained semantic segmentation model is likely to substantially decrease on data from a new domain. We show a pre-trained model can be adapted to unlabelled target domain data by calculating soft-label prototypes under the domain shift and making predictions according to the prototype closest to the vector with predicted class probabilities. The proposed adaptation procedure is fast, comes almost for free in terms of computational resources and leads to considerable performance improvements. We demonstrate the benefits of such label calibration on the highly-practical synthetic-to-real semantic segmentation problem.",
+    "link": "http://arxiv.org/abs/2307.10842",
+    "context": "Title: Label Calibration for Semantic Segmentation Under Domain Shift. (arXiv:2307.10842v1 [cs.CV])\nAbstract: Performance of a pre-trained semantic segmentation model is likely to substantially decrease on data from a new domain. We show a pre-trained model can be adapted to unlabelled target domain data by calculating soft-label prototypes under the domain shift and making predictions according to the prototype closest to the vector with predicted class probabilities. The proposed adaptation procedure is fast, comes almost for free in terms of computational resources and leads to considerable performance improvements. We demonstrate the benefits of such label calibration on the highly-practical synthetic-to-real semantic segmentation problem.",
+    "path": "papers/23/07/2307.10842.json",
+    "total_tokens": 616,
+    "translated_title": "标签校准在域偏移下的语义分割中的应用",
+    "translated_abstract": "预训练的语义分割模型在新领域的数据上表现很可能大幅度降低。我们通过在域偏移下计算软标签原型，并根据与预测类别概率最接近的原型进行预测，来适应未标记的目标领域数据。所提出的适应过程快速且几乎没有计算资源成本，并且能够显著提升性能。我们通过在高度实用的从合成到真实的语义分割问题上展示了标签校准的好处。",
+    "tldr": "该论文介绍了一种在域偏移下使用标签校准方法来提升语义分割模型性能的方式。",
+    "en_tdlr": "The paper presents a label calibration method to improve the performance of semantic segmentation models under domain shift."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "How Flexible is that Functional Form? Quantifying the Restrictiveness of Theories. (arXiv:2007.09213v3 [econ.TH] UPDATED)",
+    "abstract": "We propose a restrictiveness measure for economic models based on how well they fit synthetic data from a pre-defined class. This measure, together with a measure for how well the model fits real data, outlines a Pareto frontier, where models that rule out more regularities, yet capture the regularities that are present in real data, are preferred. To illustrate our approach, we evaluate the restrictiveness of popular models in two laboratory settings -certainty equivalents and initial play -- and in one field setting -- takeup of microfinance in Indian villages. The restrictiveness measure reveals new insights about each of the models, including that some economic models with only a few parameters are very flexible.",
+    "link": "http://arxiv.org/abs/2007.09213",
+    "context": "Title: How Flexible is that Functional Form? Quantifying the Restrictiveness of Theories. (arXiv:2007.09213v3 [econ.TH] UPDATED)\nAbstract: We propose a restrictiveness measure for economic models based on how well they fit synthetic data from a pre-defined class. This measure, together with a measure for how well the model fits real data, outlines a Pareto frontier, where models that rule out more regularities, yet capture the regularities that are present in real data, are preferred. To illustrate our approach, we evaluate the restrictiveness of popular models in two laboratory settings -certainty equivalents and initial play -- and in one field setting -- takeup of microfinance in Indian villages. The restrictiveness measure reveals new insights about each of the models, including that some economic models with only a few parameters are very flexible.",
+    "path": "papers/20/07/2007.09213.json",
+    "total_tokens": 756,
+    "translated_title": "论功能形式的灵活性有多大？量化理论的限制性。",
+    "translated_abstract": "我们提出了一种基于经济模型如何适应预定义类别的合成数据的限制性度量方法。这个度量方法，以及一种用来衡量模型与真实数据拟合程度的度量方法，勾勒出了一个帕累托边界，即更排除规律性，同时捕捉到真实数据中存在的规律性的模型更受青睐。为了说明我们的方法，我们在两个实验室环境（确定等价和初始行为）和一个实地环境（印度村庄的小额信贷利用）中评估了流行模型的限制性。限制性度量揭示了关于每个模型的新见解，包括一些仅有少数参数的经济模型非常灵活。",
+    "tldr": "本研究提出了一种基于数据拟合程度的限制性度量方法，并通过评估多个经济模型在实验室和实地环境中的限制性，揭示了关于这些模型的新见解。"
+}

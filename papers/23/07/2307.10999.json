@@ -1,0 +1,11 @@
+{
+    "title": "Private Federated Learning with Autotuned Compression. (arXiv:2307.10999v1 [cs.LG])",
+    "abstract": "We propose new techniques for reducing communication in private federated learning without the need for setting or tuning compression rates. Our on-the-fly methods automatically adjust the compression rate based on the error induced during training, while maintaining provable privacy guarantees through the use of secure aggregation and differential privacy. Our techniques are provably instance-optimal for mean estimation, meaning that they can adapt to the ``hardness of the problem\" with minimal interactivity. We demonstrate the effectiveness of our approach on real-world datasets by achieving favorable compression rates without the need for tuning.",
+    "link": "http://arxiv.org/abs/2307.10999",
+    "context": "Title: Private Federated Learning with Autotuned Compression. (arXiv:2307.10999v1 [cs.LG])\nAbstract: We propose new techniques for reducing communication in private federated learning without the need for setting or tuning compression rates. Our on-the-fly methods automatically adjust the compression rate based on the error induced during training, while maintaining provable privacy guarantees through the use of secure aggregation and differential privacy. Our techniques are provably instance-optimal for mean estimation, meaning that they can adapt to the ``hardness of the problem\" with minimal interactivity. We demonstrate the effectiveness of our approach on real-world datasets by achieving favorable compression rates without the need for tuning.",
+    "path": "papers/23/07/2307.10999.json",
+    "total_tokens": 708,
+    "translated_title": "私有联邦学习中使用自动调优压缩的新技术",
+    "translated_abstract": "我们提出了一种在私有联邦学习中减少通信的新技术，无需设置或调整压缩率。我们的即时方法会根据训练过程中引入的错误自动调整压缩率，并通过使用安全聚合和差分隐私提供可证明的隐私保证。我们的技术在均值估计方面被证明是实例最优的，意味着它们可以根据问题的“难度”进行最小交互式调整。我们通过在真实世界数据集上实现有利的压缩率，展示了我们方法的有效性。",
+    "tldr": "本文提出了一种在私有联邦学习中自动调整压缩率的新技术，无需手动设置或调整，通过使用安全聚合和差分隐私提供了可证明的隐私保证，并在真实世界数据集上展示了其有效性。"
+}

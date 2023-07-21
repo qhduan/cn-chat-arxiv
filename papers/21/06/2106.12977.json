@@ -1,0 +1,12 @@
+{
+    "title": "Unique Stable Matchings. (arXiv:2106.12977v4 [econ.TH] UPDATED)",
+    "abstract": "In this paper we consider the issue of a unique prediction in one to one two sided matching markets, as defined by Gale and Shapley (1962), and we prove the following. Theorem. Let P be a one-to-one two-sided matching market and let P be its associated normal form, a (weakly) smaller matching market with the same set of stable matchings, that can be obtained using procedures introduced in Irving and Leather (1986) and Balinski and Ratier (1997). The following three statements are equivalent (a) P has a unique stable matching. (b) Preferences on P* are acyclic, as defined by Chung (2000). (c) In P* every market participant's preference list is a singleton.",
+    "link": "http://arxiv.org/abs/2106.12977",
+    "context": "Title: Unique Stable Matchings. (arXiv:2106.12977v4 [econ.TH] UPDATED)\nAbstract: In this paper we consider the issue of a unique prediction in one to one two sided matching markets, as defined by Gale and Shapley (1962), and we prove the following. Theorem. Let P be a one-to-one two-sided matching market and let P be its associated normal form, a (weakly) smaller matching market with the same set of stable matchings, that can be obtained using procedures introduced in Irving and Leather (1986) and Balinski and Ratier (1997). The following three statements are equivalent (a) P has a unique stable matching. (b) Preferences on P* are acyclic, as defined by Chung (2000). (c) In P* every market participant's preference list is a singleton.",
+    "path": "papers/21/06/2106.12977.json",
+    "total_tokens": 729,
+    "translated_title": "独特的稳定匹配",
+    "translated_abstract": "本文讨论了一对一双边匹配市场中独特预测的问题，该问题由Gale和Shapley（1962）定义，并且我们证明了以下结论。定理：设P为一对一双边匹配市场，P为其关联的标准形式，是一个（弱）更小的匹配市场，具有相同的稳定匹配集合，可以使用Irving和Leather（1986）以及Balinski和Ratier（1997）引入的程序获得。以下三个陈述是等价的：（a）P具有唯一的稳定匹配。（b）P*上的偏好是无环的，由Chung（2000）定义。（c）在P*中，每个市场参与者的偏好列表都是单一的。",
+    "tldr": "本文研究了一对一双边匹配市场中独特预测的问题，并通过引入等价陈述，得出了稳定匹配的三个等价条件。",
+    "en_tdlr": "This paper investigates the issue of unique prediction in one-to-one two-sided matching markets and establishes three equivalent conditions for unique stable matching using introduced procedures."
+}

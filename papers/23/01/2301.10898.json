@@ -1,0 +1,12 @@
+{
+    "title": "Double free boundary problem for defaultable corporate bond with credit rating migration risks and their asymptotic behaviors. (arXiv:2301.10898v2 [math.AP] UPDATED)",
+    "abstract": "In this work, a pricing model for a defaultable corporate bond with credit rating migration risk is established. The model turns out to be a free boundary problem with two free boundaries. The latter are the level sets of the solution but of different kinds. One is from the discontinuous second order term, the other from the obstacle. Existence, uniqueness, and regularity of the solution are obtained. We also prove that two free boundaries are $C^\\infty$. The asymptotic behavior of the solution is also considered: we show that it converges to a traveling wave solution when time goes to infinity. Moreover, numerical results are presented.",
+    "link": "http://arxiv.org/abs/2301.10898",
+    "context": "Title: Double free boundary problem for defaultable corporate bond with credit rating migration risks and their asymptotic behaviors. (arXiv:2301.10898v2 [math.AP] UPDATED)\nAbstract: In this work, a pricing model for a defaultable corporate bond with credit rating migration risk is established. The model turns out to be a free boundary problem with two free boundaries. The latter are the level sets of the solution but of different kinds. One is from the discontinuous second order term, the other from the obstacle. Existence, uniqueness, and regularity of the solution are obtained. We also prove that two free boundaries are $C^\\infty$. The asymptotic behavior of the solution is also considered: we show that it converges to a traveling wave solution when time goes to infinity. Moreover, numerical results are presented.",
+    "path": "papers/23/01/2301.10898.json",
+    "total_tokens": 783,
+    "translated_title": "具有信用评级迁移风险的可违约公司债的双自由边界问题及其渐近行为",
+    "translated_abstract": "在这项工作中，建立了一个具有信用评级迁移风险的可违约公司债的定价模型。该模型为一个具有两个自由边界的自由边界问题。这两个自由边界是解的水平集，但种类不同。一个来自不连续的二阶项，另一个来自障碍物。得到了解的存在性、唯一性和正则性。我们还证明了两个自由边界是$C^\\infty$的。还考虑了解的渐近行为：我们表明当时间趋于无穷时，它收敛到一个行波解。此外，还给出了数值结果。",
+    "tldr": "本文建立了一个具有信用评级迁移风险的可违约公司债的定价模型，解决了一个具有两个自由边界的自由边界问题，并证明了解的存在唯一性和正则性。此外，还研究了解的渐近行为，并给出了数值结果。",
+    "en_tdlr": "This paper establishes a pricing model for a defaultable corporate bond with credit rating migration risk, solves a free boundary problem with two free boundaries, and proves the existence, uniqueness, and regularity of the solution. Moreover, it studies the asymptotic behavior of the solution and presents numerical results."
+}
