@@ -2,292 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Indicatori comuni del PNRR e framework SDGs: una proposta di indicatore composito.](http://arxiv.org/abs/2307.11039) | 本文研究了欧盟下一代计划(PNRR)中监测系统的14个共同指标与可持续发展框架(SDGs)的整合潜力，并提出了一个SDGs-RRF复合指数的方法。结果显示在2014年至2021年期间，法国、德国、意大利和西班牙的组合指数普遍改善，部分减小了差距。 |
-| [^2] | [Commitment and the Dynamics of Household Labor Supply.](http://arxiv.org/abs/2307.10983) | 本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。 |
-| [^3] | [Real-Time Detection of Local No-Arbitrage Violations.](http://arxiv.org/abs/2307.10872) | 本文提出了一种实时检测金融资产价格中违反标准Ito半鞅假设的当地事件的方法，这些事件可能导致套利机会。经过实证应用和蒙特卡洛研究，该方法在实时中能够迅速识别极端收益持续性事件的有效性得到了验证。 |
-| [^4] | [Claim Reserving via Inverse Probability Weighting: A Micro-Level Chain-Ladder Method.](http://arxiv.org/abs/2307.10808) | 本文提出了一种通过逆概率加权技术将个体级别的细粒度信息融入到赔偿准备中的方法，为统计上合理的聚合赔偿准备提供了一种简约的宏观级别方法。 |
-| [^5] | [PySDTest: a Python Package for Stochastic Dominance Tests.](http://arxiv.org/abs/2307.10694) | PySDTest是一个用于随机支配测试的Python包，可以实现多种随机支配测试方法并计算临界值，允许多种随机支配假设。在比特币和标普500指数的比较中发现标普500指数在二阶随机上支配比特币的回报。 |
-| [^6] | [Measuring Value Added in Gross Trade: Endogenous Approach of Vertical Differentiation.](http://arxiv.org/abs/2307.10660) | 本论文讨论了一种用于区分和衡量垂直差异产业内贸易的替代方法。 |
-| [^7] | [Dynamic Large Language Models on Blockchains.](http://arxiv.org/abs/2307.10549) | 本文提出在区块链上训练和部署动态大型语言模型，通过使用分布式计算和提供无法篡改的交易分类帐的区块链技术，可使语言模型具备连续学习的能力，为下一代人工智能系统的发展提供了新的方法和启示。 |
-| [^8] | [Latent Gaussian dynamic factor modeling and forecasting for multivariate count time series.](http://arxiv.org/abs/2307.10454) | 本文提出了一种针对多元计数时间序列的潜在高斯动态因子建模与预测方法，通过计数和底层高斯模型的二阶特性进行估计，并利用粒子顺序蒙特卡洛方法进行预测。 |
-| [^9] | [Subjective Expected Utility and Psychological Gambles.](http://arxiv.org/abs/2307.10328) | 该论文基于心理赌博的选择表示，得出了对预期效用的基本特征化，无需额外假设。不同的态度会影响对复杂性的理解，导致最小最大或Choquet预期效用的特征化。 |
-| [^10] | [Bayes = Blackwell, Almost.](http://arxiv.org/abs/2302.13956) | 存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。 |
-| [^11] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^12] | [The Long-Term Effects of Teachers' Gender Stereotypes.](http://arxiv.org/abs/2212.08220) | 本文研究了教师性别刻板印象对学生长期结果的影响，证明教师的性别刻板印象反映在学生评价上，对男女学生给予不同的分数。 |
-| [^13] | [Bounded arbitrage and nearly rational behavior.](http://arxiv.org/abs/2212.02680) | 该论文建立了几乎没有套利机会的原则与近似理性决策之间的等价性，并在概率意见聚合和随机选择函数的情况下考察了其含义。对于前者，有界套利原则限制了集体概率评估与个体评估的差异；对于后者，有界套利原则弱化了随机理性的McFadden-Richter公理，并给出了随机选择函数与其他函数在随机效用最大化模型类中的最小距离的上界。 |
-| [^14] | [Flexible machine learning estimation of conditional average treatment effects: a blessing and a curse.](http://arxiv.org/abs/2210.16547) | 本论文通过弹性机器学习方法估计了条件平均处理效应，发现当特征无法解释所有异质性时，个体处理效应可能严重偏离。引入因果随机森林来估计接受组和对照组之间的条件方差差异，并发现如果个体效应分布和CATE分布相等，则估计的方差差异较小，否则需要额外的因果假设来量化未捕捉到的异质性。 |
-| [^15] | [Can Desegregation Close the Racial Gap in High School Coursework?.](http://arxiv.org/abs/2208.12321) | 本研究通过考虑种族异质性社会激励的博弈论模型，揭示了种族融合对学校内课程差异的影响。结果发现，在主要为白人学生的学校中，由于同学选课决策的更强社会激励，黑人和西班牙裔学生在大学预备课程中的入学率更高。 |
-| [^16] | [Bootstrap inference in the presence of bias.](http://arxiv.org/abs/2208.02028) | 本研究考虑了在有偏估计量情况下的Bootstrap推断，并展示了通过正确实施预估修正方法可以得到有效推断。研究提出了两种预估修正的实现方法，并给出了通用的条件确保Bootstrap推断的有效性。根据五个具体例子的讨论，研究证明了提出方法的实际相关性和实施方法。 |
-| [^17] | [Sequential Kernel Embedding for Mediated and Time-Varying Dose Response Curves.](http://arxiv.org/abs/2111.03950) | 本论文提出了一种基于核岭回归的简单非参数估计方法，可以用于估计介导和时变剂量响应曲线。通过引入序贯核嵌入技术，我们实现了对复杂因果估计的简化。通过模拟实验和真实数据的估计结果，证明了该方法的强大性能和普适性。 |
-| [^18] | [Unique Stable Matchings.](http://arxiv.org/abs/2106.12977) | 本文研究了一对一双边匹配市场中独特预测的问题，并通过引入等价陈述，得出了稳定匹配的三个等价条件。 |
-| [^19] | [How Flexible is that Functional Form? Quantifying the Restrictiveness of Theories.](http://arxiv.org/abs/2007.09213) | 本研究提出了一种基于数据拟合程度的限制性度量方法，并通过评估多个经济模型在实验室和实地环境中的限制性，揭示了关于这些模型的新见解。 |
+| [^1] | [Advancing Ad Auction Realism: Practical Insights & Modeling Implications.](http://arxiv.org/abs/2307.11732) | 本文提出了一个学习模型来模拟现实的在线广告拍卖环境，并发现在这样的环境中，使用"软底价"可以提高关键绩效指标，即使投标者来自相同的人群。 |
+| [^2] | [Assessing the role of small farmers and households in agriculture and the rural economy and measures to support their sustainable development.](http://arxiv.org/abs/2307.11683) | 该论文旨在评估小农户和家庭在农业和农村经济中的作用，以及提出支持其可持续发展的措施。同时，它还研究了如何减少乌克兰影子农业市场的规模和采取何种措施。 |
+| [^3] | [ESG Reputation Risk Matters: An Event Study Based on Social Media Data.](http://arxiv.org/abs/2307.11571) | 本研究探讨了股东对环境、社会和治理相关的声誉风险的反应，并通过社交媒体数据观察到ESG风险事件对相关资产回报的显著负面影响。 |
+| [^4] | [A Robust Site Selection Model under uncertainty for Special Hospital Wards in Hong Kong.](http://arxiv.org/abs/2307.11508) | 本研究提出了针对香港特殊医院病房的选址问题的鲁棒模型，考虑了不确定性水平、不可行容忍度和可靠性水平，并采用了一种适用于不确定性的优化协议。 |
+| [^5] | [Functional Differencing in Networks.](http://arxiv.org/abs/2307.11484) | 本文提出了一种在网络中应用功能差异方法的估计方法，该方法不受网络稠密程度和异质性形式约束，适用于网络经济实证分析。 |
+| [^6] | [Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models.](http://arxiv.org/abs/2307.11137) | 本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。 |
+| [^7] | [Synthetic Control Methods by Density Matching under Implicit Endogeneitiy.](http://arxiv.org/abs/2307.11127) | 本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。 |
+| [^8] | [The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations.](http://arxiv.org/abs/2210.15914) | 这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。 |
+| [^9] | [A Comparison of Group Criticality Notions for Simple Games.](http://arxiv.org/abs/2207.03565) | 本文比较了简单游戏中基于合作和分裂的关键程度概念和差分关键性概念，提出了满足扩展强单调性、不分配权力给哑元玩家和自由骑手的新概念，并介绍了一个群体机会测试来统一两种观点。 |
+| [^10] | [Agreement and Statistical Efficiency in Bayesian Perception Models.](http://arxiv.org/abs/2205.11561) | 本文研究了贝叶斯感知模型在连通网络上的重复沟通中的渐近行为，发现尽管个体代理人不是经典意义上的效用最大化者，最终他们会达成一致，并且极限后验分布是贝叶斯最优的。 |
+| [^11] | [Forecasting consumer confidence through semantic network analysis of online news.](http://arxiv.org/abs/2105.04900) | 本研究使用语义网络分析在线新闻对消费者信心的影响，结果表明该方法能够预测消费者对经济形势的判断，提供了一种补充方法来估计消费者信心。 |
 
 # 详细
 
-[^1]: PNRR和SDGs的共同指标和框架：一个复合指标的提议
+[^1]: 推进广告拍卖的现实性：实际见解与建模影响
 
-    Indicatori comuni del PNRR e framework SDGs: una proposta di indicatore composito. (arXiv:2307.11039v1 [econ.GN])
+    Advancing Ad Auction Realism: Practical Insights & Modeling Implications. (arXiv:2307.11732v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.11039](http://arxiv.org/abs/2307.11039)
+    [http://arxiv.org/abs/2307.11732](http://arxiv.org/abs/2307.11732)
 
-    本文研究了欧盟下一代计划(PNRR)中监测系统的14个共同指标与可持续发展框架(SDGs)的整合潜力，并提出了一个SDGs-RRF复合指数的方法。结果显示在2014年至2021年期间，法国、德国、意大利和西班牙的组合指数普遍改善，部分减小了差距。
-
-    
-
-    欧盟下一代计划(NGEU)的主要组成部分是复苏和韧性设施(RRF)，实施期为2021年至2026年。RRF还包括一个监测系统：每六个月，每个国家都需要根据14个共同指标的进展情况发送更新，这些指标在特定的定量尺度上测量。本文旨在在强调可持续发展框架(SDGs)与RRF整合潜力的同时，提供该系统的第一组实证证据。我们建议将14个共同指标与SDGs建立联系，从而为法国、德国、意大利和西班牙在2014年至2021年期间生成一个组合指数(SDGs-RRF)。在这段时间内，这四个国家的组合指数普遍改善，部分减小了差距。所提出的方法是向更广泛地使用SDGs进行评估迈出的第一步。
-
-    The main component of the NextGeneration EU (NGEU) program is the Recovery and Resilience Facility (RRF), spanning an implementation period between 2021 and 2026. The RRF also includes a monitoring system: every six months, each country is required to send an update on the progress of the plan against 14 common indicators, measured on specific quantitative scales. The aim of this paper is to present the first empirical evidence on this system, while, at the same time, emphasizing the potential of its integration with the sustainable development framework (SDGs). We propose to develop a first linkage between the 14 common indicators and the SDGs which allows us to produce a composite index (SDGs-RRF) for France, Germany, Italy, and Spain for the period 2014-2021. Over this time, widespread improvements in the composite index across the four countries led to a partial reduction of the divergence. The proposed approach represents a first step towards a wider use of the SDGs for the assess
-    
-[^2]: 承诺与家庭劳动力供给的动态。 (arXiv:2307.10983v1 [econ.GN])
-
-    Commitment and the Dynamics of Household Labor Supply. (arXiv:2307.10983v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.10983](http://arxiv.org/abs/2307.10983)
-
-    本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。
+    本文提出了一个学习模型来模拟现实的在线广告拍卖环境，并发现在这样的环境中，使用"软底价"可以提高关键绩效指标，即使投标者来自相同的人群。
 
     
 
-    个体对伴侣的承诺程度对社会有重要影响。本文通过发展一个家庭的生命周期集体模型，描述了三种不同类型的承诺：全面承诺、有限承诺和无承诺。我们提出了一种测试方法，通过观察当下和历史消息对家庭行为的影响来区分这三种类型。我们的测试允许家庭之间承诺程度的异质性。使用最近的“收入动态面板研究”数据，我们拒绝了全面承诺和无承诺，同时找到了有限承诺的强有力证据。
+    本文提出了一个在线广告拍卖学习模型，允许考虑当代在线拍卖的四个关键现实特征：（1）广告槽可以根据用户的搜索查询具有不同的价值和点击率，（2）竞争广告商的数量和身份是不可观察的，并且在每次竞拍中会发生更改，（3）广告商仅接收到部分的汇总反馈，（4）付款规则只部分确定。我们将广告商建模为受对抗性赌博算法驱动的代理，独立于拍卖机制的复杂性。我们的目标是为了模拟广告商的行为，进行反事实分析、预测和推理。我们的研究结果表明，在这种更复杂的环境中，即使投标者来自相同的人群，"软底价"也可以提高关键绩效指标。我们进一步展示了如何从观察到的竞标中推断广告商价值分布，从而证实了该方法的实际功效。
 
-    The extent to which individuals commit to their partner for life has important implications. This paper develops a lifecycle collective model of the household, through which it characterizes behavior in three prominent alternative types of commitment: full, limited, and no commitment. We propose a test that distinguishes between all three types based on how contemporaneous and historical news affect household behavior. Our test permits heterogeneity in the degree of commitment across households. Using recent data from the Panel Study of Income Dynamics, we reject full and no commitment, while we find strong evidence for limited commitment.
+    This paper proposes a learning model of online ad auctions that allows for the following four key realistic characteristics of contemporary online auctions: (1) ad slots can have different values and click-through rates depending on users' search queries, (2) the number and identity of competing advertisers are unobserved and change with each auction, (3) advertisers only receive partial, aggregated feedback, and (4) payment rules are only partially specified. We model advertisers as agents governed by an adversarial bandit algorithm, independent of auction mechanism intricacies. Our objective is to simulate the behavior of advertisers for counterfactual analysis, prediction, and inference purposes. Our findings reveal that, in such richer environments, "soft floors" can enhance key performance metrics even when bidders are drawn from the same population. We further demonstrate how to infer advertiser value distributions from observed bids, thereby affirming the practical efficacy of o
     
-[^3]: 实时检测当地无套利违规行为的方法
+[^2]: 评估小农户和家庭在农业和农村经济中的角色以及支持其可持续发展的措施
 
-    Real-Time Detection of Local No-Arbitrage Violations. (arXiv:2307.10872v1 [econ.EM])
+    Assessing the role of small farmers and households in agriculture and the rural economy and measures to support their sustainable development. (arXiv:2307.11683v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.10872](http://arxiv.org/abs/2307.10872)
+    [http://arxiv.org/abs/2307.11683](http://arxiv.org/abs/2307.11683)
 
-    本文提出了一种实时检测金融资产价格中违反标准Ito半鞅假设的当地事件的方法，这些事件可能导致套利机会。经过实证应用和蒙特卡洛研究，该方法在实时中能够迅速识别极端收益持续性事件的有效性得到了验证。
-
-    
-
-    本文主要研究实时检测金融资产价格中违反标准Ito半鞅假设的当地事件，以及可能导致套利机会的方法。我们提出的检测器是逐步应用于不断进入的高频数据中的停止规则。在Ito半鞅违规不存在的情况下，我们证明了它们在渐近下是指数分布的。另一方面，当发生违规时，我们可以在填充渐近条件下立即进行检测。蒙特卡洛研究表明，渐近结果很好地近似了顺序检测器的有限样本行为。对S&P 500指数期货数据的实证应用证实了我们的检测器在实时中迅速识别极端收益持续性事件中的有效性。
-
-    This paper focuses on the task of detecting local episodes involving violation of the standard It\^o semimartingale assumption for financial asset prices in real time that might induce arbitrage opportunities. Our proposed detectors, defined as stopping rules, are applied sequentially to continually incoming high-frequency data. We show that they are asymptotically exponentially distributed in the absence of Ito semimartingale violations. On the other hand, when a violation occurs, we can achieve immediate detection under infill asymptotics. A Monte Carlo study demonstrates that the asymptotic results provide a good approximation to the finite-sample behavior of the sequential detectors. An empirical application to S&P 500 index futures data corroborates the effectiveness of our detectors in swiftly identifying the emergence of an extreme return persistence episode in real time.
-    
-[^4]: 通过逆概率加权的赔偿准备金：一种微观层面的链条梯级方法
-
-    Claim Reserving via Inverse Probability Weighting: A Micro-Level Chain-Ladder Method. (arXiv:2307.10808v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.10808](http://arxiv.org/abs/2307.10808)
-
-    本文提出了一种通过逆概率加权技术将个体级别的细粒度信息融入到赔偿准备中的方法，为统计上合理的聚合赔偿准备提供了一种简约的宏观级别方法。
+    该论文旨在评估小农户和家庭在农业和农村经济中的作用，以及提出支持其可持续发展的措施。同时，它还研究了如何减少乌克兰影子农业市场的规模和采取何种措施。
 
     
 
-    赔偿准备常常使用宏观级别或聚合模型完成，其中链条梯级法是最流行的方法。然而，这些方法是启发式构建的，依赖于过度简化的数据假设，忽视了投保人的异质性，导致缺乏准确性。相反，微观层面的准备金利用精细信息进行随机建模以获得更好的预测，但通常以对从业人员不具吸引力的复杂模型为代价。在本文中，我们介绍了一种简约的宏观级别方法，可以在个体级别上融入细粒度信息。我们通过将赔偿准备问题视为人群抽样问题，并提出了一种使用逆概率加权技术的估计方法，其权重由投保人属性驱动。该框架为频率和
+    经济部对于如何增加乌克兰合法登记的小型家庭农民的数量以及研究能够减少乌克兰影子农业市场规模的措施有兴趣和需求。在以上政治经济背景和需求的基础上，我们将分别进行可持续小规模（家庭）农业发展和探索减少乌克兰影子农业市场规模和措施的分析。
 
-    Claim reserving is primarily accomplished using macro-level or aggregate models, with the Chain-Ladder method being the most popular one. However, these methods are heuristically constructed, rely on oversimplified data assumptions, neglect the heterogeneity of policyholders, and so lead to a lack of accuracy. In contrast, micro-level reserving leverages on stochastic modeling with granular information for improved predictions, but usually comes at the cost of more complex models that are unattractive to practitioners. In this paper, we introduce a simplistic macro-level type approach that can incorporate granular information at the individual level. We do so by considering a novel framework in which we view the claim reserving problem as a population sampling problem and propose an estimator using inverse probability weighting techniques, with weights driven by policyholder attributes. The framework provides a statistically sound method for aggregate claim reserving in a frequency and
+    The Ministry of Economy has an interest and demand in exploring how to increase the set of [legally registered] small family farmers in Ukraine and to examine more in details measures that could reduce the scale of the shadow agricultural market in Ukraine. Building upon the above political economy background and demand, we will be undertaking the analysis along the two separate but not totally independents streams of analysis, i.e. sustainable small scale (family) farming development and exploring the scale and measures for reducing the shadow agricultural market in Ukraine
     
-[^5]: PySDTest: 一个用于随机支配测试的Python包
+[^3]: ESG声誉风险的重要性：基于社交媒体数据的事件研究
 
-    PySDTest: a Python Package for Stochastic Dominance Tests. (arXiv:2307.10694v1 [econ.EM])
+    ESG Reputation Risk Matters: An Event Study Based on Social Media Data. (arXiv:2307.11571v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.10694](http://arxiv.org/abs/2307.10694)
+    [http://arxiv.org/abs/2307.11571](http://arxiv.org/abs/2307.11571)
 
-    PySDTest是一个用于随机支配测试的Python包，可以实现多种随机支配测试方法并计算临界值，允许多种随机支配假设。在比特币和标普500指数的比较中发现标普500指数在二阶随机上支配比特币的回报。
-
-    
-
-    我们介绍了PySDTest，一个用于随机支配测试的Python包。PySDTest可以实现Barrett和Donald（2003）、Linton等人（2005）、Linton等人（2010）、Donald和Hsu（2016）及其扩展的测试程序。PySDTest提供了多种计算临界值的选项，包括引导法、子采样法和数值Δ法。此外，PySDTest允许多种随机支配假设，包括多个前景下的随机最大化和前景支配假设。我们简要介绍了随机支配和测试方法的概念，并提供了使用PySDTest的实际指导。作为实证示例，我们将PySDTest应用于比特币和标普500指数的每日回报之间的组合选择问题。我们发现标普500指数的回报在二阶随机上支配比特币的回报。
-
-    We introduce PySDTest, a Python package for statistical tests of stochastic dominance. PySDTest can implement the testing procedures of Barrett and Donald (2003), Linton et al. (2005), Linton et al. (2010), Donald and Hsu (2016), and their extensions. PySDTest provides several options to compute the critical values including bootstrap, subsampling, and numerical delta methods. In addition, PySDTest allows various notions of the stochastic dominance hypothesis, including stochastic maximality among multiple prospects and prospect dominance. We briefly give an overview of the concepts of stochastic dominance and testing methods. We then provide a practical guidance for using PySDTest. For an empirical illustration, we apply PySDTest to the portfolio choice problem between the daily returns of Bitcoin and S&P 500 index. We find that the S&P 500 index returns second-order stochastically dominate the Bitcoin returns.
-    
-[^6]: 测量毛贸易中的增加值: 垂直差异的内生方法
-
-    Measuring Value Added in Gross Trade: Endogenous Approach of Vertical Differentiation. (arXiv:2307.10660v1 [econ.TH])
-
-    [http://arxiv.org/abs/2307.10660](http://arxiv.org/abs/2307.10660)
-
-    本论文讨论了一种用于区分和衡量垂直差异产业内贸易的替代方法。
+    本研究探讨了股东对环境、社会和治理相关的声誉风险的反应，并通过社交媒体数据观察到ESG风险事件对相关资产回报的显著负面影响。
 
     
 
-    从1980年代开始，对于产业内贸易的第一次理论分析表明，这种贸易的决定因素和后果取决于交易产品是否在质量上存在差异。当交易产品在两个具有不同质量的国家之间进行产业内贸易时，这种贸易被称为垂直差异。否则，被称为水平差异。有一种方法可以区分垂直差异中的产业内贸易和水平差异中的产业内贸易。该方法比较了每个产业的产业内贸易中出口的单价与进口的单价。当出口的单价与进口的单价存在显著差异时，认为该产业内的产业内贸易是垂直差异。但是这种方法存在局限性。下文将引导我们思考一种替代方法，用于区分和衡量产业内贸易。
+    本文研究了股东对环境、社会和治理相关的声誉风险（ESG风险）的反应，重点关注社交媒体的影响。我们使用了2016年至2022年间114百万条关于S&P100指数上市公司的推文数据集，提取了讨论ESG事项的对话。通过事件研究设计，我们将异常的推文活动高峰定义为与ESG风险有关的事件，并检查相关资产回报的相应变化。通过关注社交媒体，我们可以了解公众舆论和投资者情绪，而这些方面在单纯关注ESG争议新闻中并未捕捉到。据我们所知，我们的方法是首次将社交媒体的声誉影响与负面ESG争议新闻的实际成本明确分离开来。我们的结果表明，ESG风险事件的发生导致平均异常回报下降0.29%，在统计上是显著的。
 
-    From the beginning of the 1980s, the first theoretical analysis of intra-industry trade showed that the determinants and consequences of this type of trade are different, depending on whether the traded products differ in quality. When the products are subject to intra-industry trade between two countries with distinct qualities, this trade is vertically differentiated. Otherwise, it is called horizontal differentiation. There is a method for distinguishing intra-industry trade between two countries in vertical differentiation from those in horizontal differentiation. This method compares exports' unit value to imports for each industry's intra-industry trade. It considers the intra-industry trading carried out in this industry as vertical differentiation when the unit value of exports differs significantly from that of imports. This approach has limitations. The discussion below will lead us to think about an alternative method for separating and measuring intra-industry trade into ho
+    We investigate the response of shareholders to Environmental, Social, and Governance-related reputational risk (ESG-risk), focusing exclusively on the impact of social media. Using a dataset of 114 million tweets about firms listed on the S&P100 index between 2016 and 2022, we extract conversations discussing ESG matters. In an event study design, we define events as unusual spikes in message posting activity linked to ESG-risk, and we then examine the corresponding changes in the returns of related assets. By focusing on social media, we gain insight into public opinion and investor sentiment, an aspect not captured through ESG controversies news alone. To the best of our knowledge, our approach is the first to distinctly separate the reputational impact on social media from the physical costs associated with negative ESG controversy news. Our results show that the occurrence of an ESG-risk event leads to a statistically significant average reduction of 0.29% in abnormal returns. Furt
     
-[^7]: 区块链上的动态大型语言模型
+[^4]: 香港特殊医院病房在不确定性下的鲁棒性选址模型
 
-    Dynamic Large Language Models on Blockchains. (arXiv:2307.10549v1 [cs.CV])
+    A Robust Site Selection Model under uncertainty for Special Hospital Wards in Hong Kong. (arXiv:2307.11508v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.10549](http://arxiv.org/abs/2307.10549)
+    [http://arxiv.org/abs/2307.11508](http://arxiv.org/abs/2307.11508)
 
-    本文提出在区块链上训练和部署动态大型语言模型，通过使用分布式计算和提供无法篡改的交易分类帐的区块链技术，可使语言模型具备连续学习的能力，为下一代人工智能系统的发展提供了新的方法和启示。
-
-    
-
-    训练和部署大型语言模型需要大量的计算资源，因为语言模型包含数十亿个参数，文本拥有数千个标记。另一个问题是大型语言模型是静态的，在训练过程后就被固定下来了。为了解决这些问题，本文提出在区块链上训练和部署动态大型语言模型，区块链具有高计算性能并分布在一个计算机网络上。区块链是一个安全、分散和透明的系统，允许创建一个无法篡改的交易分类帐，无需中介机构。动态大型语言模型可以在训练过程之后不断从用户输入中学习。我们的方法提供了一种开发大型语言模型的新方法，并为下一代人工智能系统带来了启示。
-
-    Training and deploying the large language models requires a large mount of computational resource because the language models contain billions of parameters and the text has thousands of tokens. Another problem is that the large language models are static. They are fixed after the training process. To tackle these issues, in this paper, we propose to train and deploy the dynamic large language model on blockchains, which have high computation performance and are distributed across a network of computers. A blockchain is a secure, decentralized, and transparent system that allows for the creation of a tamper-proof ledger for transactions without the need for intermediaries. The dynamic large language models can continuously learn from the user input after the training process. Our method provides a new way to develop the large language models and also sheds a light on the next generation artificial intelligence systems.
-    
-[^8]: 针对多元计数时间序列的潜在高斯动态因子建模与预测
-
-    Latent Gaussian dynamic factor modeling and forecasting for multivariate count time series. (arXiv:2307.10454v1 [stat.ME])
-
-    [http://arxiv.org/abs/2307.10454](http://arxiv.org/abs/2307.10454)
-
-    本文提出了一种针对多元计数时间序列的潜在高斯动态因子建模与预测方法，通过计数和底层高斯模型的二阶特性进行估计，并利用粒子顺序蒙特卡洛方法进行预测。
+    本研究提出了针对香港特殊医院病房的选址问题的鲁棒模型，考虑了不确定性水平、不可行容忍度和可靠性水平，并采用了一种适用于不确定性的优化协议。
 
     
 
-    本文考虑了一种基于高斯动态因子模型的多元计数时间序列模型的估计和预测方法，该方法基于计数和底层高斯模型的二阶特性，并适用于模型维数大于样本长度的情况。此外，本文提出了用于模型选择的新型交叉验证方案。预测通过基于粒子的顺序蒙特卡洛方法进行，利用卡尔曼滤波技术。还进行了模拟研究和应用分析。
+    本文提出了两个鲁棒性选址问题的模型，针对香港一家主要医院的病房。考虑了三个参数：不确定性水平、不可行容忍度和可靠性水平。然后，研究了两种不确定性，即对称和有界不确定性。因此，考虑了在不确定性下的调度问题，可以通过给定的概率分布函数来表示未知的问题因素。在这方面，Lin, Janak和Floudas（2004）引入了一种新开发的强优化协议。因此，计算机和化学工程领域已经发展了一种考虑通过给定概率分布表示的不确定性的方法。最后，我们的准确优化协议基于一个min-max框架，并且在应用于（MILP）问题时产生了一个具有对不确定数据免疫性的精确解决方案。
 
-    This work considers estimation and forecasting in a multivariate count time series model based on a copula-type transformation of a Gaussian dynamic factor model. The estimation is based on second-order properties of the count and underlying Gaussian models and applies to the case where the model dimension is larger than the sample length. In addition, novel cross-validation schemes are suggested for model selection. The forecasting is carried out through a particle-based sequential Monte Carlo, leveraging Kalman filtering techniques. A simulation study and an application are also considered.
+    This paper process two robust models for site selection problems for one of the major Hospitals in Hong Kong. Three parameters, namely, level of uncertainty, infeasibility tolerance as well as the level of reliability, are incorporated. Then, 2 kinds of uncertainty; that is, the symmetric and bounded uncertainties have been investigated. Therefore, the issue of scheduling under uncertainty has been considered wherein unknown problem factors could be illustrated via a given probability distribution function. In this regard, Lin, Janak, and Floudas (2004) introduced one of the newly developed strong optimisation protocols. Hence, computers as well as the chemical engineering [1069-1085] has been developed for considering uncertainty illustrated through a given probability distribution. Finally, our accurate optimisation protocol has been on the basis of a min-max framework and in a case of application to the (MILP) problems it produced a precise solution that has immunity to uncertain da
     
-[^9]: 主观预期效用与心理赌博
+[^5]: 网络中的功能差异
 
-    Subjective Expected Utility and Psychological Gambles. (arXiv:2307.10328v1 [econ.GN])
+    Functional Differencing in Networks. (arXiv:2307.11484v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.10328](http://arxiv.org/abs/2307.10328)
+    [http://arxiv.org/abs/2307.11484](http://arxiv.org/abs/2307.11484)
 
-    该论文基于心理赌博的选择表示，得出了对预期效用的基本特征化，无需额外假设。不同的态度会影响对复杂性的理解，导致最小最大或Choquet预期效用的特征化。
-
-    
-
-    我们通过心理赌博的选择表示，获得了对预期效用的基本特征，这不需要除了先后偏好之间的一致性之外的任何假设。对复杂性的弱版本与不同的态度相关，并导致了最小最大或Choquet预期效用的特征化。
-
-    We obtain an elementary characterization of expected utility based on a representation of choice in terms of psychological gambles, which requires no assumption other than coherence between ex-ante and ex-post preferences. Weaker version of coherence are associated with various attitudes towards complexity and lead to a characterization of minimax or Choquet expected utility.
-    
-[^10]: Bayes = Blackwell, 差不多。
-
-    Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2302.13956](http://arxiv.org/abs/2302.13956)
-
-    存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。
+    本文提出了一种在网络中应用功能差异方法的估计方法，该方法不受网络稠密程度和异质性形式约束，适用于网络经济实证分析。
 
     
 
-    存在着除了Bayes'定律之外的更新规则，可以使信息的价值变为正值。我找到了所有这些规则。
+    经济交往通常发生在网络中，其中具有异质性的代理人（如工人或企业）进行排序和生产。然而，大多数现有的估计方法要么要求网络密集，与许多实证网络相矛盾，要么要求限制异质性的形式和网络形成过程。我们展示了如何将Bonhomme（2012）在面板数据背景下引入的功能差异方法应用于网络设置中，从而导出模型参数和平均效应上的矩约束。这些约束与异质性的形式无关，适用于密集和稀疏网络。我们借助线性和非线性的雇主-员工数据模型来说明分析方法，这与Abowd，Kramarz和Margolis（1999）提出的模型相似。
 
-    There are updating rules other than Bayes' law that render the value of information positive. I find all of them.
+    Economic interactions often occur in networks where heterogeneous agents (such as workers or firms) sort and produce. However, most existing estimation approaches either require the network to be dense, which is at odds with many empirical networks, or they require restricting the form of heterogeneity and the network formation process. We show how the functional differencing approach introduced by Bonhomme (2012) in the context of panel data, can be applied in network settings to derive moment restrictions on model parameters and average effects. Those restrictions are valid irrespective of the form of heterogeneity, and they hold in both dense and sparse networks. We illustrate the analysis with linear and nonlinear models of matched employer-employee data, in the spirit of the model introduced by Abowd, Kramarz, and Margolis (1999).
     
-[^11]: 期权的价格发现
+[^6]: 模型与锡人之间——使用大语言模型研究AI对齐中的委托-代理问题的行为经济学研究
 
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+    Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models. (arXiv:2307.11137v1 [cs.AI])
 
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+    [http://arxiv.org/abs/2307.11137](http://arxiv.org/abs/2307.11137)
 
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
-
-    
-
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
-
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
-    
-[^12]: 教师性别刻板印象的长期影响
-
-    The Long-Term Effects of Teachers' Gender Stereotypes. (arXiv:2212.08220v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2212.08220](http://arxiv.org/abs/2212.08220)
-
-    本文研究了教师性别刻板印象对学生长期结果的影响，证明教师的性别刻板印象反映在学生评价上，对男女学生给予不同的分数。
+    本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。
 
     
 
-    本文研究了教师对男孩和女孩的刻板印象评估对学生长期结果的影响，包括高中毕业、大学入学和正式领域就业。我通过分析教师对心理暗示测验（IAT）的反应和教师指派和盲目评分考试之间的性别差距来衡量教师的性别刻板评分。为了在全国范围内收集IAT分数，我开发了一个大规模的教育计划，让秘鲁公立学校的教师和学生可以参与。这项分析提供了证据，表明教师的性别刻板印象反映在学生评价上：认为男孩适合科学学科的数学教师给男学生比盲目评分考试更高的分数。相反，语言艺术教师则给女生更高的分数。
+    AI对齐通常被描述为一个设计者与人工智能代理之间的相互作用，设计者试图确保代理的行为与其目的一致，并且风险仅仅是由于设计者意图中的效用函数与代理的内部效用函数之间的意外错位而导致的冲突。然而，随着使用大语言模型（LLM）实例化的代理的出现，这种描述不能捕捉到AI安全的核心方面，因为现实世界中设计者与代理之间并没有一对一的对应关系，而且许多代理，无论是人工智能还是人类，都具有多样的价值观。因此，AI安全具有经济方面的问题，委托-代理问题可能会出现。
 
-    This paper studies the effects of teachers' stereotypical assessments of boys and girls on students' long-term outcomes, including high school graduation, college attendance, and formal sector employment. I measure teachers' gender stereotypical grading based on preconceptions about boys' aptitude in math and science and girls' aptitude in communicating and verbal skills by analyzing novel data on teachers' responses to the Implicit Association Test (IAT) and differences in gender gaps between teacher-assigned and blindly graded tests. To collect IAT scores on a national scale, I developed a large-scale educational program accessible to teachers and students in Peruvian public schools. This analysis provides evidence that teachers' gender stereotypes are reflected in student evaluations: math teachers with stronger stereotypes associating boys with scientific disciplines award male students with higher test scores compared to blindly-graded test scores. In contrast, language arts teach
+    AI Alignment is often presented as an interaction between a single designer and an artificial agent in which the designer attempts to ensure the agent's behavior is consistent with its purpose, and risks arise solely because of conflicts caused by inadvertent misalignment between the utility function intended by the designer and the resulting internal utility function of the agent. With the advent of agents instantiated with large-language models (LLMs), which are typically pre-trained, we argue this does not capture the essential aspects of AI safety because in the real world there is not a one-to-one correspondence between designer and agent, and the many agents, both artificial and human, have heterogeneous values. Therefore, there is an economic aspect to AI safety and the principal-agent problem is likely to arise. In a principal-agent problem conflict arises because of information asymmetry together with inherent misalignment between the utility of the agent and its principal, an
     
-[^13]: 有界套利和近似理性行为的等价性
+[^7]: 通过密度匹配实现的合成对照方法下的隐式内生性问题
 
-    Bounded arbitrage and nearly rational behavior. (arXiv:2212.02680v2 [econ.TH] UPDATED)
+    Synthetic Control Methods by Density Matching under Implicit Endogeneitiy. (arXiv:2307.11127v1 [econ.EM])
 
-    [http://arxiv.org/abs/2212.02680](http://arxiv.org/abs/2212.02680)
+    [http://arxiv.org/abs/2307.11127](http://arxiv.org/abs/2307.11127)
 
-    该论文建立了几乎没有套利机会的原则与近似理性决策之间的等价性，并在概率意见聚合和随机选择函数的情况下考察了其含义。对于前者，有界套利原则限制了集体概率评估与个体评估的差异；对于后者，有界套利原则弱化了随机理性的McFadden-Richter公理，并给出了随机选择函数与其他函数在随机效用最大化模型类中的最小距离的上界。
-
-    
-
-    我们建立了几乎没有套利机会的原则与近似理性决策之间的等价性。我们考虑了这一原则在概率意见的聚合和随机选择函数的情况下的含义。在前者中，我们展示了一个有界套利原则及其作为近似帕累托条件的等价形式，它限制了一个状态集合的集体概率评估和个体评估的线性聚合规则之间的差异。在后者中，我们展示了有界套利机会的原则蕴含了对于随机理性的McFadden-Richter公理的弱化，并为随机选择函数与随机效用最大化模型类中另一个函数的最小距离提供了一个上界。
-
-    We establish the equivalence between a principle of almost absence of arbitrage opportunities and nearly rational decision-making. The implications of such principle are considered in the context of the aggregation of probabilistic opinions and of stochastic choice functions. In the former a bounded arbitrage principle and its equivalent form as an approximately Pareto condition are shown to bound the difference between the collective probabilistic assessment of a set of states and a linear aggregation rule on the individual assessments. In the latter we show that our general principle of limited arbitrage opportunities translates into a weakening of the McFadden-Richter axiom of stochastic rationality, and gives an upper bound for the minimum distance of a stochastic choice function to another in the class of random utility maximization models.
-    
-[^14]: 弹性机器学习估计条件平均处理效应：祝福与诅咒
-
-    Flexible machine learning estimation of conditional average treatment effects: a blessing and a curse. (arXiv:2210.16547v2 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2210.16547](http://arxiv.org/abs/2210.16547)
-
-    本论文通过弹性机器学习方法估计了条件平均处理效应，发现当特征无法解释所有异质性时，个体处理效应可能严重偏离。引入因果随机森林来估计接受组和对照组之间的条件方差差异，并发现如果个体效应分布和CATE分布相等，则估计的方差差异较小，否则需要额外的因果假设来量化未捕捉到的异质性。
+    本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。
 
     
 
-    从观测数据中进行因果推断需要不可测试的识别假设。如果这些假设适用，机器学习（ML）方法可用于研究复杂形式的因果效应异质性。最近，已经开发了几种ML方法来估计条件平均处理效应（CATE）。如果手头的特征无法解释所有的异质性，个体处理效应（ITE）可能严重偏离CATE。在这项工作中，我们展示了当应用因果随机森林（CRF）时，ITE和CATE的分布可能不同。我们扩展了CRF以估计接受组和对照组之间的条件方差差异。如果ITE分布等于CATE分布，则估计的方差差异应该很小。如果它们不同，需要额外的因果假设来量化CATE分布所没有捕捉到的异质性。当个体效应部分和CATE部分的条件方差是可识别的。
+    合成对照方法（SCMs）已成为比较案例研究中因果推断的重要工具。SCMs的基本思想是通过使用来自未处理单元的观测结果的加权和来估计经过处理单元的反事实结果。合成对照（SC）的准确性对于估计因果效应至关重要，因此，SC权重的估计成为了研究的焦点。在本文中，我们首先指出现有的SCMs存在一个隐式内生性问题，即未处理单元的结果与反事实结果模型中的误差项之间的相关性。我们展示了这个问题会对因果效应估计器产生偏差。然后，我们提出了一种基于密度匹配的新型SCM，假设经过处理单元的结果密度可以用未处理单元的密度的加权平均来近似（即混合模型）。基于这一假设，我们通过匹配来估计SC权重。
 
-    Causal inference from observational data requires untestable identification assumptions. If these assumptions apply, machine learning (ML) methods can be used to study complex forms of causal effect heterogeneity. Recently, several ML methods were developed to estimate the conditional average treatment effect (CATE). If the features at hand cannot explain all heterogeneity, the individual treatment effects (ITEs) can seriously deviate from the CATE. In this work, we demonstrate how the distributions of the ITE and the CATE can differ when a causal random forest (CRF) is applied. We extend the CRF to estimate the difference in conditional variance between treated and controls. If the ITE distribution equals the CATE distribution, this estimated difference in variance should be small. If they differ, an additional causal assumption is necessary to quantify the heterogeneity not captured by the CATE distribution. The conditional variance of the ITE can be identified when the individual ef
+    Synthetic control methods (SCMs) have become a crucial tool for causal inference in comparative case studies. The fundamental idea of SCMs is to estimate counterfactual outcomes for a treated unit by using a weighted sum of observed outcomes from untreated units. The accuracy of the synthetic control (SC) is critical for estimating the causal effect, and hence, the estimation of SC weights has been the focus of much research. In this paper, we first point out that existing SCMs suffer from an implicit endogeneity problem, which is the correlation between the outcomes of untreated units and the error term in the model of a counterfactual outcome. We show that this problem yields a bias in the causal effect estimator. We then propose a novel SCM based on density matching, assuming that the density of outcomes of the treated unit can be approximated by a weighted average of the densities of untreated units (i.e., a mixture model). Based on this assumption, we estimate SC weights by matchi
     
-[^15]: 能否通过种族融合来弥合高中课程中的种族差距？
+[^8]: 移民、移民者和当地人在欧洲知识聚集形成中的历史角色
 
-    Can Desegregation Close the Racial Gap in High School Coursework?. (arXiv:2208.12321v4 [econ.GN] UPDATED)
+    The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations. (arXiv:2210.15914v5 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2208.12321](http://arxiv.org/abs/2208.12321)
+    [http://arxiv.org/abs/2210.15914](http://arxiv.org/abs/2210.15914)
 
-    本研究通过考虑种族异质性社会激励的博弈论模型，揭示了种族融合对学校内课程差异的影响。结果发现，在主要为白人学生的学校中，由于同学选课决策的更强社会激励，黑人和西班牙裔学生在大学预备课程中的入学率更高。
-
-    
-
-    本文研究了种族融合、制度偏见和个体行为在教育中的相互作用。使用考虑到种族异质性社会激励的博弈论模型，研究调查了学校间融合对学校内课程差异的影响。分析结合了一种基于熵的隔离度测量，并提出了一种基于优化的方法来评估学生重新分配政策的影响。结果表明，在主要为白人学生的学校中，尽管黑人和西班牙裔学生未受到较少上大学鼓励，但由于同学选课决策的更强社会激励，他们在大学预备课程中的入学率更高。
-
-    This paper examines the interplay between desegregation, institutional bias, and individual behavior in education. Using a game-theoretic model that considers race-heterogeneous social incentives, the study investigates the effects of between-school desegregation on within-school disparities in coursework. The analysis incorporates a segregation measure based on entropy and proposes an optimization-based approach to evaluate the impact of student reassignment policies. The results highlight that Black and Hispanic students in predominantly White schools, despite receiving less encouragement to apply to college, exhibit higher enrollment in college-prep coursework due to stronger social incentives from their classmates' coursework decisions.
-    
-[^16]: 在偏差存在的情况下的Bootstrap推断
-
-    Bootstrap inference in the presence of bias. (arXiv:2208.02028v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2208.02028](http://arxiv.org/abs/2208.02028)
-
-    本研究考虑了在有偏估计量情况下的Bootstrap推断，并展示了通过正确实施预估修正方法可以得到有效推断。研究提出了两种预估修正的实现方法，并给出了通用的条件确保Bootstrap推断的有效性。根据五个具体例子的讨论，研究证明了提出方法的实际相关性和实施方法。
+    这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。
 
     
 
-    我们考虑对（渐近）有偏估计量的Bootstrap推断。我们展示了即使偏差项无法一致估计，通过正确实施Bootstrap，仍然可以得到有效的推断。具体而言，我们展示了Beran（1987, 1988）的预估修正方法，原本旨在提供更高阶的改进，通过将原始的Bootstrap p值转化为渐近均匀随机变量，恢复了Bootstrap的有效性。我们提出了两种预估修正的实现方法（插入法和双重Bootstrap），并提供了一般高级条件，这些条件意味着Bootstrap推断的有效性。为了说明我们结果的实际相关性和实施方法，我们讨论了五个例子：（i）基于模型平均的目标参数推断；（ii）岭型正则化估计量；（iii）非参数回归；（iv）无穷方差数据的位置模型；（v）动态面板数据模型。
+    移民是不是让巴黎成为了艺术圣地，维也纳成为了古典音乐的灯塔？还是他们的崛起纯粹是当地人的结果？在这里，我们使用了关于22000多名生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。我们发现，一个地区在某种活动（基于著名物理学家、画家等的出生）发展或保持专业化的概率随着对该活动具有知识的移民和对相关活动具有知识的移民的存在而增加。相比之下，我们并没有找到有力的证据表明当地人具有相关知识的存在解释了进入和/或退出。我们通过考虑任何特定地点-时期-活动因素（例如吸引科学家的新大学的存在）的固定效应模型来解决一些内生性问题。
 
-    We consider bootstrap inference for estimators which are (asymptotically) biased. We show that, even when the bias term cannot be consistently estimated, valid inference can be obtained by proper implementations of the bootstrap. Specifically, we show that the prepivoting approach of Beran (1987, 1988), originally proposed to deliver higher-order refinements, restores bootstrap validity by transforming the original bootstrap p-value into an asymptotically uniform random variable. We propose two different implementations of prepivoting (plug-in and double bootstrap), and provide general high-level conditions that imply validity of bootstrap inference. To illustrate the practical relevance and implementation of our results, we discuss five examples: (i) inference on a target parameter based on model averaging; (ii) ridge-type regularized estimators; (iii) nonparametric regression; (iv) a location model for infinite variance data; and (v) dynamic panel data models.
+    Did migrants make Paris a Mecca for the arts and Vienna a beacon of classical music? Or was their rise a pure consequence of local actors? Here, we use data on more than 22,000 historical individuals born between the years 1000 and 2000 to estimate the contribution of famous immigrants, emigrants, and locals to the knowledge specializations of European regions. We find that the probability that a region develops or keeps specialization in an activity (based on the birth of famous physicists, painters, etc.) grows with both, the presence of immigrants with knowledge on that activity and immigrants with knowledge in related activities. In contrast, we do not find robust evidence that the presence of locals with related knowledge explains entries and/or exits. We address some endogeneity concerns using fixed-effects models considering any location-period-activity specific factors (e.g. the presence of a new university attracting scientists).
     
-[^17]: 序贯核嵌入用于介导和时变剂量响应曲线
+[^9]: 简单游戏中群体重要性概念的比较
 
-    Sequential Kernel Embedding for Mediated and Time-Varying Dose Response Curves. (arXiv:2111.03950v4 [stat.ME] UPDATED)
+    A Comparison of Group Criticality Notions for Simple Games. (arXiv:2207.03565v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2111.03950](http://arxiv.org/abs/2111.03950)
+    [http://arxiv.org/abs/2207.03565](http://arxiv.org/abs/2207.03565)
 
-    本论文提出了一种基于核岭回归的简单非参数估计方法，可以用于估计介导和时变剂量响应曲线。通过引入序贯核嵌入技术，我们实现了对复杂因果估计的简化。通过模拟实验和真实数据的估计结果，证明了该方法的强大性能和普适性。
-
-    
-
-    我们提出了基于核岭回归的介导和时变剂量响应曲线的简单非参数估计器。通过嵌入Pearl的介导公式和Robins的g公式与核函数，我们允许处理、介导者和协变量在一般空间中连续变化，也允许非线性的处理-混淆因素反馈。我们的关键创新是一种称为序贯核嵌入的再生核希尔伯特空间技术，我们使用它来构建复杂因果估计的简单估计器。我们的估计器保留了经典识别的普适性，同时实现了非渐进均匀收敛速度。在具有许多协变量的非线性模拟中，我们展示了强大的性能。我们估计了美国职业训练团的介导和时变剂量响应曲线，并清洁可能成为未来工作基准的数据。我们将我们的结果推广到介导和时变处理效应以及反事实分布，验证了半参数效率。
-
-    We propose simple nonparametric estimators for mediated and time-varying dose response curves based on kernel ridge regression. By embedding Pearl's mediation formula and Robins' g-formula with kernels, we allow treatments, mediators, and covariates to be continuous in general spaces, and also allow for nonlinear treatment-confounder feedback. Our key innovation is a reproducing kernel Hilbert space technique called sequential kernel embedding, which we use to construct simple estimators for complex causal estimands. Our estimators preserve the generality of classic identification while also achieving nonasymptotic uniform rates. In nonlinear simulations with many covariates, we demonstrate strong performance. We estimate mediated and time-varying dose response curves of the US Job Corps, and clean data that may serve as a benchmark in future work. We extend our results to mediated and time-varying treatment effects and counterfactual distributions, verifying semiparametric efficiency 
-    
-[^18]: 独特的稳定匹配
-
-    Unique Stable Matchings. (arXiv:2106.12977v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2106.12977](http://arxiv.org/abs/2106.12977)
-
-    本文研究了一对一双边匹配市场中独特预测的问题，并通过引入等价陈述，得出了稳定匹配的三个等价条件。
+    本文比较了简单游戏中基于合作和分裂的关键程度概念和差分关键性概念，提出了满足扩展强单调性、不分配权力给哑元玩家和自由骑手的新概念，并介绍了一个群体机会测试来统一两种观点。
 
     
 
-    本文讨论了一对一双边匹配市场中独特预测的问题，该问题由Gale和Shapley（1962）定义，并且我们证明了以下结论。定理：设P为一对一双边匹配市场，P为其关联的标准形式，是一个（弱）更小的匹配市场，具有相同的稳定匹配集合，可以使用Irving和Leather（1986）以及Balinski和Ratier（1997）引入的程序获得。以下三个陈述是等价的：（a）P具有唯一的稳定匹配。（b）P*上的偏好是无环的，由Chung（2000）定义。（c）在P*中，每个市场参与者的偏好列表都是单一的。
+    我们基于玩家之间的合作（或分裂）来定义简单单调博弈中玩家的关键程度概念，要求所有参与者都具有重要角色。我们将其与Beisbart提出的差分关键性概念进行比较，后者将权力定义为其他玩家留下的机会。我们证明了我们的提议满足Young引入的强单调性的扩展，不会为哑元玩家和自由骑手分配任何权力，并且可以从最小的获胜和阻塞联盟中轻松计算。我们的分析表明，迄今为止定义的群体关键性度量无法衡量重要的玩家，同时仅保持为机会度量。我们提出了一个群体机会测试来协调两种观点。
 
-    In this paper we consider the issue of a unique prediction in one to one two sided matching markets, as defined by Gale and Shapley (1962), and we prove the following. Theorem. Let P be a one-to-one two-sided matching market and let P be its associated normal form, a (weakly) smaller matching market with the same set of stable matchings, that can be obtained using procedures introduced in Irving and Leather (1986) and Balinski and Ratier (1997). The following three statements are equivalent (a) P has a unique stable matching. (b) Preferences on P* are acyclic, as defined by Chung (2000). (c) In P* every market participant's preference list is a singleton.
+    We define a notion of the criticality of a player for simple monotone games based on cooperation with other players, either to form a winning coalition or to break a winning one, with an essential role for all the players involved. We compare it with the notion of differential criticality given by Beisbart that measures power as the opportunity left by other players.  We prove that our proposal satisfies an extension of the strong monotonicity introduced by Young, it assigns no power to dummy players and free riders, and it can easily be computed from the minimal winning and blocking coalitions. Our analysis shows that the measures of group criticality defined so far cannot weigh essential players while only remaining an opportunity measure. We propose a group opportunity test to reconcile the two views.
     
-[^19]: 论功能形式的灵活性有多大？量化理论的限制性。
+[^10]: Bayesian感知模型中的一致性和统计效率
 
-    How Flexible is that Functional Form? Quantifying the Restrictiveness of Theories. (arXiv:2007.09213v3 [econ.TH] UPDATED)
+    Agreement and Statistical Efficiency in Bayesian Perception Models. (arXiv:2205.11561v2 [math.ST] UPDATED)
 
-    [http://arxiv.org/abs/2007.09213](http://arxiv.org/abs/2007.09213)
+    [http://arxiv.org/abs/2205.11561](http://arxiv.org/abs/2205.11561)
 
-    本研究提出了一种基于数据拟合程度的限制性度量方法，并通过评估多个经济模型在实验室和实地环境中的限制性，揭示了关于这些模型的新见解。
+    本文研究了贝叶斯感知模型在连通网络上的重复沟通中的渐近行为，发现尽管个体代理人不是经典意义上的效用最大化者，最终他们会达成一致，并且极限后验分布是贝叶斯最优的。
 
     
 
-    我们提出了一种基于经济模型如何适应预定义类别的合成数据的限制性度量方法。这个度量方法，以及一种用来衡量模型与真实数据拟合程度的度量方法，勾勒出了一个帕累托边界，即更排除规律性，同时捕捉到真实数据中存在的规律性的模型更受青睐。为了说明我们的方法，我们在两个实验室环境（确定等价和初始行为）和一个实地环境（印度村庄的小额信贷利用）中评估了流行模型的限制性。限制性度量揭示了关于每个模型的新见解，包括一些仅有少数参数的经济模型非常灵活。
+    自1970年代以来，经济学领域一直研究贝叶斯群体学习模型，最近在计算语言学方面也进行了研究。经济学模型假设代理人在沟通和行动中最大化效用。然而，这些经济学模型无法解释在许多实验研究中观察到的 "概率匹配" 现象。为了解决这些观察结果，引入了一些不完全符合经济学效用最大化框架的贝叶斯模型。在这些模型中，个体在沟通中从其后验分布中进行抽样。本研究探讨了这种模型在连通网络上进行重复沟通时的渐近行为。令人惊讶的是，尽管个体代理人在经典意义上并不是效用最大化者，但我们证明他们最终会达成一致，并且进一步证明极限后验分布是贝叶斯最优的。
 
-    We propose a restrictiveness measure for economic models based on how well they fit synthetic data from a pre-defined class. This measure, together with a measure for how well the model fits real data, outlines a Pareto frontier, where models that rule out more regularities, yet capture the regularities that are present in real data, are preferred. To illustrate our approach, we evaluate the restrictiveness of popular models in two laboratory settings -certainty equivalents and initial play -- and in one field setting -- takeup of microfinance in Indian villages. The restrictiveness measure reveals new insights about each of the models, including that some economic models with only a few parameters are very flexible.
+    Bayesian models of group learning are studied in Economics since the 1970s and more recently in computational linguistics. The models from Economics postulate that agents maximize utility in their communication and actions. The Economics models do not explain the ``probability matching" phenomena that are observed in many experimental studies. To address these observations, Bayesian models that do not formally fit into the economic utility maximization framework were introduced. In these models individuals sample from their posteriors in communication. In this work we study the asymptotic behavior of such models on connected networks with repeated communication. Perhaps surprisingly, despite the fact that individual agents are not utility maximizers in the classical sense, we establish that the individuals ultimately agree and furthermore show that the limiting posterior is Bayes optimal.
+    
+[^11]: 通过在线新闻的语义网络分析预测消费者信心
+
+    Forecasting consumer confidence through semantic network analysis of online news. (arXiv:2105.04900v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2105.04900](http://arxiv.org/abs/2105.04900)
+
+    本研究使用语义网络分析在线新闻对消费者信心的影响，结果表明该方法能够预测消费者对经济形势的判断，提供了一种补充方法来估计消费者信心。
+
+    
+
+    本研究通过语义网络分析研究在线新闻对社会经济消费者态度的影响。使用覆盖四年的意大利媒体上的超过180万篇在线文章，我们计算特定经济相关关键词的语义重要性，以确定文章中出现的词语是否能够预测消费者对经济形势和消费者信心指数的判断。我们运用创新方法分析大规模文本数据，结合了文本挖掘和社会网络分析的方法和工具。结果显示，该指标对于判断当前家庭和国家情况具有较强的预测能力。我们的指标为消费者信心的估计提供了一种补充方法，减轻了传统基于调查的方法的局限性。
+
+    This research studies the impact of online news on social and economic consumer perceptions through semantic network analysis. Using over 1.8 million online articles on Italian media covering four years, we calculate the semantic importance of specific economic-related keywords to see if words appearing in the articles could anticipate consumers' judgments about the economic situation and the Consumer Confidence Index. We use an innovative approach to analyze big textual data, combining methods and tools of text mining and social network analysis. Results show a strong predictive power for the judgments about the current households and national situation. Our indicator offers a complementary approach to estimating consumer confidence, lessening the limitations of traditional survey-based methods.
     
 

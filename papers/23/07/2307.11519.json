@@ -1,0 +1,12 @@
+{
+    "title": "Multi-modal Hate Speech Detection using Machine Learning. (arXiv:2307.11519v1 [cs.AI])",
+    "abstract": "With the continuous growth of internet users and media content, it is very hard to track down hateful speech in audio and video. Converting video or audio into text does not detect hate speech accurately as human sometimes uses hateful words as humorous or pleasant in sense and also uses different voice tones or show different action in the video. The state-ofthe-art hate speech detection models were mostly developed on a single modality. In this research, a combined approach of multimodal system has been proposed to detect hate speech from video contents by extracting feature images, feature values extracted from the audio, text and used machine learning and Natural language processing.",
+    "link": "http://arxiv.org/abs/2307.11519",
+    "context": "Title: Multi-modal Hate Speech Detection using Machine Learning. (arXiv:2307.11519v1 [cs.AI])\nAbstract: With the continuous growth of internet users and media content, it is very hard to track down hateful speech in audio and video. Converting video or audio into text does not detect hate speech accurately as human sometimes uses hateful words as humorous or pleasant in sense and also uses different voice tones or show different action in the video. The state-ofthe-art hate speech detection models were mostly developed on a single modality. In this research, a combined approach of multimodal system has been proposed to detect hate speech from video contents by extracting feature images, feature values extracted from the audio, text and used machine learning and Natural language processing.",
+    "path": "papers/23/07/2307.11519.json",
+    "total_tokens": 734,
+    "translated_title": "使用机器学习进行多模态仇恨言论检测",
+    "translated_abstract": "随着互联网用户和媒体内容的不断增长，追踪音频和视频中的仇恨言论变得非常困难。将视频或音频转换为文本并不能准确检测到仇恨言论，因为人们有时会将仇恨词汇作为幽默或愉快的意味使用，并在视频中使用不同的声调或展示不同的动作。当前最先进的仇恨言论检测模型大多是基于单一模态的。本研究提出了一种多模态系统的综合方法，通过提取图像特征、音频中的特征值、文本和使用机器学习和自然语言处理来检测视频内容中的仇恨言论。",
+    "tldr": "本研究提出了一种使用多模态系统的方法，通过提取图像特征、音频特征值和文本，结合机器学习和自然语言处理技术，来检测视频内容中的仇恨言论。",
+    "en_tdlr": "This research proposes a combined approach that uses a multimodal system to detect hate speech in video contents by extracting image features, audio feature values, and text, and utilizing machine learning and natural language processing techniques."
+}

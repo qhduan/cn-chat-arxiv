@@ -1,0 +1,11 @@
+{
+    "title": "Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models. (arXiv:2307.11224v1 [cs.CL])",
+    "abstract": "Jina Embeddings constitutes a set of high-performance sentence embedding models adept at translating various textual inputs into numerical representations, thereby capturing the semantic essence of the text. While these models are not exclusively designed for text generation, they excel in applications such as dense retrieval and semantic textual similarity. This paper details the development of Jina Embeddings, starting with the creation of a high-quality pairwise and triplet dataset. It underlines the crucial role of data cleaning in dataset preparation, gives in-depth insights into the model training process, and concludes with a comprehensive performance evaluation using the Massive Textual Embedding Benchmark (MTEB).",
+    "link": "http://arxiv.org/abs/2307.11224",
+    "context": "Title: Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models. (arXiv:2307.11224v1 [cs.CL])\nAbstract: Jina Embeddings constitutes a set of high-performance sentence embedding models adept at translating various textual inputs into numerical representations, thereby capturing the semantic essence of the text. While these models are not exclusively designed for text generation, they excel in applications such as dense retrieval and semantic textual similarity. This paper details the development of Jina Embeddings, starting with the creation of a high-quality pairwise and triplet dataset. It underlines the crucial role of data cleaning in dataset preparation, gives in-depth insights into the model training process, and concludes with a comprehensive performance evaluation using the Massive Textual Embedding Benchmark (MTEB).",
+    "path": "papers/23/07/2307.11224.json",
+    "total_tokens": 728,
+    "translated_title": "Jina Embeddings:一种新颖的高性能句子嵌入模型",
+    "translated_abstract": "Jina Embeddings由一组高性能的句子嵌入模型组成，能够将各种文本输入转化为数值表示，从而捕捉文本的语义本质。虽然这些模型并非专门设计用于文本生成，但在密集检索和语义文本相似性等应用中表现出色。本文详细介绍了Jina Embeddings的开发过程，从创建高质量的成对和三元数据集开始。它强调了数据清理在数据集准备中的关键作用，并对模型训练过程进行了深入探讨，最后利用Massive Textual Embedding Benchmark（MTEB）进行了全面的性能评估。",
+    "tldr": "Jina Embeddings是一组高性能的句子嵌入模型，能够捕捉文本的语义本质。该论文详细介绍了Jina Embeddings的开发过程，并通过性能评估验证了其优越性能。"
+}

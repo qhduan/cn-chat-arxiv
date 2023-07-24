@@ -1,0 +1,11 @@
+{
+    "title": "Screening Mammography Breast Cancer Detection. (arXiv:2307.11274v1 [eess.IV])",
+    "abstract": "Breast cancer is a leading cause of cancer-related deaths, but current programs are expensive and prone to false positives, leading to unnecessary follow-up and patient anxiety. This paper proposes a solution to automated breast cancer detection, to improve the efficiency and accuracy of screening programs. Different methodologies were tested against the RSNA dataset of radiographic breast images of roughly 20,000 female patients and yielded an average validation case pF1 score of 0.56 across methods.",
+    "link": "http://arxiv.org/abs/2307.11274",
+    "context": "Title: Screening Mammography Breast Cancer Detection. (arXiv:2307.11274v1 [eess.IV])\nAbstract: Breast cancer is a leading cause of cancer-related deaths, but current programs are expensive and prone to false positives, leading to unnecessary follow-up and patient anxiety. This paper proposes a solution to automated breast cancer detection, to improve the efficiency and accuracy of screening programs. Different methodologies were tested against the RSNA dataset of radiographic breast images of roughly 20,000 female patients and yielded an average validation case pF1 score of 0.56 across methods.",
+    "path": "papers/23/07/2307.11274.json",
+    "total_tokens": 676,
+    "translated_title": "乳腺癌筛查乳腺摄影检测",
+    "translated_abstract": "乳腺癌是导致癌症相关死亡的主要原因，但现有的程序成本高昂且容易出现假阳性，导致不必要的后续检查和患者焦虑。本文提出了一种自动化乳腺癌检测的解决方案，以提高筛查程序的效率和准确性。不同的方法在RSNA数据集的大约20,000名女性患者的传统乳房图像上进行了测试，并在各种方法之间获得了平均验证案例pF1得分为0.56。",
+    "tldr": "本研究提出了一种自动化乳腺癌检测解决方案，旨在提高筛查程序的效率和准确性，通过在RSNA数据集上测试不同的方法，得出了平均验证案例pF1得分为0.56。"
+}

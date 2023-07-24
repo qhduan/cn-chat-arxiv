@@ -1,0 +1,11 @@
+{
+    "title": "On the Fisher-Rao Gradient of the Evidence Lower Bound. (arXiv:2307.11249v1 [cs.LG])",
+    "abstract": "This article studies the Fisher-Rao gradient, also referred to as the natural gradient, of the evidence lower bound, the ELBO, which plays a crucial role within the theory of the Variational Autonecoder, the Helmholtz Machine and the Free Energy Principle. The natural gradient of the ELBO is related to the natural gradient of the Kullback-Leibler divergence from a target distribution, the prime objective function of learning. Based on invariance properties of gradients within information geometry, conditions on the underlying model are provided that ensure the equivalence of minimising the prime objective function and the maximisation of the ELBO.",
+    "link": "http://arxiv.org/abs/2307.11249",
+    "context": "Title: On the Fisher-Rao Gradient of the Evidence Lower Bound. (arXiv:2307.11249v1 [cs.LG])\nAbstract: This article studies the Fisher-Rao gradient, also referred to as the natural gradient, of the evidence lower bound, the ELBO, which plays a crucial role within the theory of the Variational Autonecoder, the Helmholtz Machine and the Free Energy Principle. The natural gradient of the ELBO is related to the natural gradient of the Kullback-Leibler divergence from a target distribution, the prime objective function of learning. Based on invariance properties of gradients within information geometry, conditions on the underlying model are provided that ensure the equivalence of minimising the prime objective function and the maximisation of the ELBO.",
+    "path": "papers/23/07/2307.11249.json",
+    "total_tokens": 709,
+    "translated_title": "关于证据下界的Fisher-Rao梯度研究",
+    "translated_abstract": "本文研究了证据下界（ELBO）的Fisher-Rao梯度，也称为自然梯度，它在变分自动编码器理论、Helmholtz机和自由能原理中起着关键作用。ELBO的自然梯度与目标分布的Kullback-Leibler散度的自然梯度相关，后者是学习的主要目标函数。基于信息几何中梯度的不变性特性，提供了关于底层模型的条件，确保最小化主要目标函数与最大化ELBO的等价性。",
+    "tldr": "本文研究了证据下界的Fisher-Rao梯度，揭示了它与目标分布的Kullback-Leibler散度梯度的关系，进一步证明了最小化主要目标函数与最大化ELBO的等价性。"
+}

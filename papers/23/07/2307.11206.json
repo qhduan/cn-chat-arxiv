@@ -1,0 +1,12 @@
+{
+    "title": "Towards Ontologically Grounded and Language-Agnostic Knowledge Graphs. (arXiv:2307.11206v1 [cs.AI])",
+    "abstract": "Knowledge graphs (KGs) have become the standard technology for the representation of factual information in applications such as recommendation engines, search, and question-answering systems. However, the continual updating of KGs, as well as the integration of KGs from different domains and KGs in different languages, remains to be a major challenge. What we suggest here is that by a reification of abstract objects and by acknowledging the ontological distinction between concepts and types, we arrive at an ontologically grounded and language-agnostic representation that can alleviate the difficulties in KG integration.",
+    "link": "http://arxiv.org/abs/2307.11206",
+    "context": "Title: Towards Ontologically Grounded and Language-Agnostic Knowledge Graphs. (arXiv:2307.11206v1 [cs.AI])\nAbstract: Knowledge graphs (KGs) have become the standard technology for the representation of factual information in applications such as recommendation engines, search, and question-answering systems. However, the continual updating of KGs, as well as the integration of KGs from different domains and KGs in different languages, remains to be a major challenge. What we suggest here is that by a reification of abstract objects and by acknowledging the ontological distinction between concepts and types, we arrive at an ontologically grounded and language-agnostic representation that can alleviate the difficulties in KG integration.",
+    "path": "papers/23/07/2307.11206.json",
+    "total_tokens": 662,
+    "translated_title": "迈向本体基础和语言无关的知识图谱",
+    "translated_abstract": "知识图谱（KGs）已成为应用中表示事实信息的标准技术，如推荐引擎、搜索和问答系统。然而，持续更新KGs以及整合来自不同领域和不同语言的KGs仍然是一个主要挑战。我们在此建议通过抽象对象的具象化和承认概念和类型之间的本体区别，我们可以得到一个基于本体和语言无关的表示，从而可以缓解KGs整合中的困难。",
+    "tldr": "本论文提出通过抽象对象的具象化和承认概念和类型之间的本体区别，建立起一个基于本体和语言无关的知识图谱表示，以缓解知识图谱整合中的困难。",
+    "en_tdlr": "This paper suggests using reification of abstract objects and acknowledging the ontological distinction between concepts and types to establish an ontologically grounded and language-agnostic representation for knowledge graphs, alleviating integration difficulties."
+}

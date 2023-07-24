@@ -1,0 +1,12 @@
+{
+    "title": "Shortcut Detection with Variational Autoencoders. (arXiv:2302.04246v2 [cs.LG] UPDATED)",
+    "abstract": "For real-world applications of machine learning (ML), it is essential that models make predictions based on well-generalizing features rather than spurious correlations in the data. The identification of such spurious correlations, also known as shortcuts, is a challenging problem and has so far been scarcely addressed. In this work, we present a novel approach to detect shortcuts in image and audio datasets by leveraging variational autoencoders (VAEs). The disentanglement of features in the latent space of VAEs allows us to discover feature-target correlations in datasets and semi-automatically evaluate them for ML shortcuts. We demonstrate the applicability of our method on several real-world datasets and identify shortcuts that have not been discovered before.",
+    "link": "http://arxiv.org/abs/2302.04246",
+    "context": "Title: Shortcut Detection with Variational Autoencoders. (arXiv:2302.04246v2 [cs.LG] UPDATED)\nAbstract: For real-world applications of machine learning (ML), it is essential that models make predictions based on well-generalizing features rather than spurious correlations in the data. The identification of such spurious correlations, also known as shortcuts, is a challenging problem and has so far been scarcely addressed. In this work, we present a novel approach to detect shortcuts in image and audio datasets by leveraging variational autoencoders (VAEs). The disentanglement of features in the latent space of VAEs allows us to discover feature-target correlations in datasets and semi-automatically evaluate them for ML shortcuts. We demonstrate the applicability of our method on several real-world datasets and identify shortcuts that have not been discovered before.",
+    "path": "papers/23/02/2302.04246.json",
+    "total_tokens": 752,
+    "translated_title": "使用变分自动编码器检测快捷方式",
+    "translated_abstract": "在机器学习的实际应用中，模型基于具有良好普适性的特征而不是数据中的偶然相关性进行预测是至关重要的。识别这种偶然相关性，也称为快捷方式，是一个具有挑战性的问题，迄今为止得到的研究很少。在本文中，我们提出了一个利用变分自动编码器（VAE）来检测图像和音频数据集中快捷方式的新方法。VAEs的潜在空间中的特征解缠使我们能够发现数据集中特征和目标的相关性，并对其进行半自动评估，以发现机器学习中的快捷方式。我们在几个实际数据集上演示了我们方法的适用性，发现了以前未发现的快捷方式。",
+    "tldr": "本文提出了一个使用变分自动编码器来检测图像和音频数据集中快捷方式的新方法，并在几个实际数据集上展示了其有效性。",
+    "en_tdlr": "This paper proposes a novel approach using variational autoencoders to detect shortcuts in image and audio datasets, and demonstrates its effectiveness on several real-world datasets."
+}

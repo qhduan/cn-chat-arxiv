@@ -1,0 +1,12 @@
+{
+    "title": "Eliminating Unintended Stable Fixpoints for Hybrid Reasoning Systems. (arXiv:2307.11286v1 [cs.AI])",
+    "abstract": "A wide variety of nonmonotonic semantics can be expressed as approximators defined under AFT (Approximation Fixpoint Theory). Using traditional AFT theory, it is not possible to define approximators that rely on information computed in previous iterations of stable revision. However, this information is rich for semantics that incorporate classical negation into nonmonotonic reasoning. In this work, we introduce a methodology resembling AFT that can utilize priorly computed upper bounds to more precisely capture semantics. We demonstrate our framework's applicability to hybrid MKNF (minimal knowledge and negation as failure) knowledge bases by extending the state-of-the-art approximator.",
+    "link": "http://arxiv.org/abs/2307.11286",
+    "context": "Title: Eliminating Unintended Stable Fixpoints for Hybrid Reasoning Systems. (arXiv:2307.11286v1 [cs.AI])\nAbstract: A wide variety of nonmonotonic semantics can be expressed as approximators defined under AFT (Approximation Fixpoint Theory). Using traditional AFT theory, it is not possible to define approximators that rely on information computed in previous iterations of stable revision. However, this information is rich for semantics that incorporate classical negation into nonmonotonic reasoning. In this work, we introduce a methodology resembling AFT that can utilize priorly computed upper bounds to more precisely capture semantics. We demonstrate our framework's applicability to hybrid MKNF (minimal knowledge and negation as failure) knowledge bases by extending the state-of-the-art approximator.",
+    "path": "papers/23/07/2307.11286.json",
+    "total_tokens": 703,
+    "translated_title": "消除混合推理系统中意外的稳定固定点",
+    "translated_abstract": "多种非单调语义可以被表达为在AFT（Approximation Fixpoint Theory）下定义的近似计算器。使用传统的AFT理论，无法定义依赖于先前迭代计算的稳定修订信息的近似计算器。然而，对于将经典否定纳入非单调推理的语义来说，这些信息很重要。在这项工作中，我们引入了一种类似AFT的方法论，可以利用先前计算的上界更精确地捕捉语义。我们通过扩展最新的近似计算器，演示了我们的框架适用于混合MKNF（最小知识和否定为失败）知识库。",
+    "tldr": "这项研究介绍了一种类似AFT的方法论，能够利用先前计算的上界更精确地捕捉混合MKNF知识库的语义。",
+    "en_tdlr": "This research introduces a methodology similar to AFT that can utilize previously computed upper bounds to more accurately capture the semantics of hybrid MKNF knowledge bases."
+}

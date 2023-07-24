@@ -1,0 +1,11 @@
+{
+    "title": "An Efficient Interior-Point Method for Online Convex Optimization. (arXiv:2307.11668v1 [cs.LG])",
+    "abstract": "A new algorithm for regret minimization in online convex optimization is described. The regret of the algorithm after $T$ time periods is $O(\\sqrt{T \\log T})$ - which is the minimum possible up to a logarithmic term. In addition, the new algorithm is adaptive, in the sense that the regret bounds hold not only for the time periods $1,\\ldots,T$ but also for every sub-interval $s,s+1,\\ldots,t$. The running time of the algorithm matches that of newly introduced interior point algorithms for regret minimization: in $n$-dimensional space, during each iteration the new algorithm essentially solves a system of linear equations of order $n$, rather than solving some constrained convex optimization problem in $n$ dimensions and possibly many constraints.",
+    "link": "http://arxiv.org/abs/2307.11668",
+    "context": "Title: An Efficient Interior-Point Method for Online Convex Optimization. (arXiv:2307.11668v1 [cs.LG])\nAbstract: A new algorithm for regret minimization in online convex optimization is described. The regret of the algorithm after $T$ time periods is $O(\\sqrt{T \\log T})$ - which is the minimum possible up to a logarithmic term. In addition, the new algorithm is adaptive, in the sense that the regret bounds hold not only for the time periods $1,\\ldots,T$ but also for every sub-interval $s,s+1,\\ldots,t$. The running time of the algorithm matches that of newly introduced interior point algorithms for regret minimization: in $n$-dimensional space, during each iteration the new algorithm essentially solves a system of linear equations of order $n$, rather than solving some constrained convex optimization problem in $n$ dimensions and possibly many constraints.",
+    "path": "papers/23/07/2307.11668.json",
+    "total_tokens": 745,
+    "translated_title": "一种用于在线凸优化的高效内点方法",
+    "translated_abstract": "本文描述了一种用于在线凸优化的新算法。该算法在$T$个时间段后的遗憾为$O(\\sqrt{T \\log T})$，这是除对数项外的最小可能值。此外，新算法是自适应的，遗憾界不仅适用于时间段$1,\\ldots,T$，还适用于每个子区间$s,s+1,\\ldots,t$。算法的运行时间与新引入的内点算法的遗憾最小化算法相匹配：在$n$维空间中，每次迭代中，新算法实质上解决了一个$n$阶线性方程组，而不仅仅是在$n$维空间中求解一些约束的凸优化问题。",
+    "tldr": "本文描述了一种用于在线凸优化的高效内点方法，该方法在遗憾最小化方面具有最小可能值$O(\\sqrt{T \\log T})$，并且是自适应的。"
+}
