@@ -105,28 +105,29 @@
 | [^101] | [DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature.](http://arxiv.org/abs/2301.11305) | 本论文提出了一种名为DetectGPT的方法，使用概率曲率来判断文本是否由一个给定的大型语言模型生成。该方法不需要训练分类器、收集数据集或明确加水印，只使用模型计算的对数概率和另一个预训练语言模型的随机扰动。实验证明，DetectGPT在模型采样方面比现有的零样本方法更具有区分能力。 |
 | [^102] | [Backward Curriculum Reinforcement Learning.](http://arxiv.org/abs/2212.14214) | 这项工作提出了一种新颖的反向课程强化学习方法，通过使用回放轨迹而不是原始的前向轨迹来训练智能体。这种方法通过提供强有力的奖励信号实现了更高效的学习，而且只需要进行微小的算法改变。 |
 | [^103] | [A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal.](http://arxiv.org/abs/2212.05767) | 本文对知识图谱推理进行了综述，涵盖了静态、动态和多模态三种图类型，填补了这一领域的研究空白。 |
-| [^104] | [Offline Reinforcement Learning with Closed-Form Policy Improvement Operators.](http://arxiv.org/abs/2211.15956) | 本文提出了基于行为约束的离线强化学习中的闭合形式策略改进算子，该算子将行为策略建模为高斯混合，利用LogSumExp的下界和Jensen不等式克服了优化困难，能有效处理实际数据集中的异构策略。 |
-| [^105] | [FsaNet: Frequency Self-attention for Semantic Segmentation.](http://arxiv.org/abs/2211.15595) | FsaNet是一种用于语义分割的新型自注意机制，通过在不同频段上进行个性化处理，可以在保留边缘的同时促进对象内的相似性。通过消融研究表明，即使不重新训练网络，低频自注意力也可以达到接近或更好的性能。频率自注意力还简化了令牌映射和令牌混合阶段，具有较低的计算复杂性。 |
-| [^106] | [Neural Active Learning on Heteroskedastic Distributions.](http://arxiv.org/abs/2211.00928) | 这项研究展示了在异方差分布上进行神经主动学习可能导致灾难性失败，并提出了一种利用微调来减轻这种失败的方法。 |
-| [^107] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
-| [^108] | [Learning "O" Helps for Learning More: Handling the Concealed Entity Problem for Class-incremental NER.](http://arxiv.org/abs/2210.04676) | 本研究解决了类增量NER中的隐藏实体问题，提出了一种表示学习方法，通过对实体类别和"O"进行判别式表示学习，改善了NER模型对于新旧类别的识别能力。 |
-| [^109] | [GMA3D: Local-Global Attention Learning to Estimate Occluded Motions of Scene Flow.](http://arxiv.org/abs/2210.03296) | GMA3D是一个基于变压器框架的模块，应用于解决场景流动中的遮挡问题。该模块利用本地和全局语义相似性推断被遮挡点的运动信息，并使用偏移聚合器进行汇聚。实验结果表明，GMA3D可以有效解决场景流动中的遮挡问题。 |
-| [^110] | [Improving Generalizability of Graph Anomaly Detection Models via Data Augmentation.](http://arxiv.org/abs/2209.10168) | 通过数据增强技术，本文针对图异常检测中存在的泛化能力差问题，提出了一种通用且新颖的研究问题：广义图异常检测，旨在同时有效识别训练领域图和未训练领域图上的异常。 |
-| [^111] | [R\'{e}nyi Divergence Deep Mutual Learning.](http://arxiv.org/abs/2209.05732) | 本文提出在深度互相学习中使用R\'{e}nyi散度，它能够在不引入大量复杂度的情况下持续提高性能，获得了广泛的实证结果的支持。 |
-| [^112] | [DRL Enabled Coverage and Capacity Optimization in STAR-RIS Assisted Networks.](http://arxiv.org/abs/2209.00511) | 这项研究提出了一种用于STAR-RIS辅助网络中覆盖和容量优化问题的多目标近端政策优化（MO-PPO）算法，该算法通过提供一组最优解来实现长期效益，从而改进了传统优化算法的性能。 |
-| [^113] | [Target-oriented Sentiment Classification with Sequential Cross-modal Semantic Graph.](http://arxiv.org/abs/2208.09417) | 本文提出了一种基于顺序跨模态语义图的目标导向情感分类方法，通过利用图像标题和场景图提取全局和局部的精细图像信息，与推文中的标记结合形成跨模态语义图，取得了较好的效果。 |
-| [^114] | [Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data.](http://arxiv.org/abs/2206.02909) | 本研究利用700,000人日的未标记可穿戴传感器数据，通过自监督学习技术，成功构建了一种能够在多个数据集上泛化且效果显著优于基线模型的人体活动识别模型，有望帮助研究人员和开发者开发高性能的可定制和泛化的活动分类器。 |
-| [^115] | [Physics-Guided Hierarchical Reward Mechanism for Learning-Based Robotic Grasping.](http://arxiv.org/abs/2205.13561) | 本文提出了一种基于物理指导的分层奖励机制的学习型机器人抓取方法，通过利用物理知识提高学习效率和结果的通用性。 |
-| [^116] | [Representation Power of Graph Neural Networks: Improved Expressivity via Algebraic Analysis.](http://arxiv.org/abs/2205.09801) | 本文通过代数分析改进了图神经网络（GNN）的表达能力，证明了GNN能够比Weisfeiler-Lehman（WL）算法更好地产生区分性表示，特别是在具有不同特征值的图上。此外，我们还发现简单的卷积结构与无信息输入产生的等变特征比WL表示更具表达能力。 |
-| [^117] | [Machine Learning-Friendly Biomedical Datasets for Equivalence and Subsumption Ontology Matching.](http://arxiv.org/abs/2205.03447) | 本文介绍了五个新的生物医学本体匹配任务，通过引入机器学习技术并解决现有评估方法的限制，提供了综合评估框架来衡量本体匹配系统的性能。 |
-| [^118] | [AdaBest: Minimizing Client Drift in Federated Learning via Adaptive Bias Estimation.](http://arxiv.org/abs/2204.13170) | AdaBest提出了一种自适应算法，用于准确估计联邦学习中的客户端漂移。与之前的方法相比，AdaBest所需的存储和通信带宽较少，计算成本也较低。此外，AdaBest通过限制估计值的范数来提供稳定性。 |
-| [^119] | [Learning to reason about and to act on physical cascading events.](http://arxiv.org/abs/2202.01108) | 本研究提出了一种新的监督学习方法，称为“级联”，通过将语义树搜索与事件驱动的前向模型相结合，学习在连续空间中搜索语义树，并能够在物理模拟的动态场景中有效地遵循干预指令、推理替代结果。 |
-| [^120] | [Generalizing similarity in noisy setups: the DIBS phenomenon.](http://arxiv.org/abs/2201.12803) | 本研究揭示了数据密度、噪声和相似性学习之间的相互作用，证明了数据对的密度对于泛化至关重要，并发现了一种在密集数据集上比对称标签噪声更差的泛化性能的现象，称为密度诱导的相似性破坏（DIBS）。 |
-| [^121] | [User Tampering in Reinforcement Learning Recommender Systems.](http://arxiv.org/abs/2109.04083) | 本研究揭示了强化学习推荐系统中的一个独特安全问题——用户篡改，并提出了形式化方法和实证证据。现有方法不能有效防止用户篡改，并且现有的奖励篡改缓解策略也不足以解决这一问题。 |
-| [^122] | [Co-Imitation Learning without Expert Demonstration.](http://arxiv.org/abs/2103.14823) | 本文提出了一种名为共同模仿学习（CoIL）的新型学习框架，通过利用代理自身的良好经验，而无需专家示范，来改善强化学习的效率。实验结果表明，该方法在各种任务上都具有显著的优越性。 |
-| [^123] | [XTQA: Span-Level Explanations of the Textbook Question Answering.](http://arxiv.org/abs/2011.12662) | XTQA是针对教科书问答任务提出的一种新架构，通过跨句解释提供答案和证据，显著提高了性能。 |
-| [^124] | [Towards a new Social Choice Theory.](http://arxiv.org/abs/2007.15393) | 这篇论文介绍了一种新的社会选择理论，通过引入社会选择优化作为TAVs的泛化，以最小化对（社会）目标的阻碍。 |
-| [^125] | [Declarative Mechanism Design.](http://arxiv.org/abs/1912.13122) | 本文介绍了声明性机制设计的研究，提出了机构神经网络作为一种受管制的人工神经网络，引起人们对人工教学的关注，并提供了初步的答案。 |
+| [^104] | [A Hybrid Evolutionary Approach to Solve University Course Allocation Problem.](http://arxiv.org/abs/2212.02230) | 本文提出了一个混合进化算法来解决大学课程分配问题，通过结合局部修复算法和改进的遗传算法，生成了最佳的课程分配方案，同时满足各种约束，提高时间效率并减少工作量。 |
+| [^105] | [Offline Reinforcement Learning with Closed-Form Policy Improvement Operators.](http://arxiv.org/abs/2211.15956) | 本文提出了基于行为约束的离线强化学习中的闭合形式策略改进算子，该算子将行为策略建模为高斯混合，利用LogSumExp的下界和Jensen不等式克服了优化困难，能有效处理实际数据集中的异构策略。 |
+| [^106] | [FsaNet: Frequency Self-attention for Semantic Segmentation.](http://arxiv.org/abs/2211.15595) | FsaNet是一种用于语义分割的新型自注意机制，通过在不同频段上进行个性化处理，可以在保留边缘的同时促进对象内的相似性。通过消融研究表明，即使不重新训练网络，低频自注意力也可以达到接近或更好的性能。频率自注意力还简化了令牌映射和令牌混合阶段，具有较低的计算复杂性。 |
+| [^107] | [Neural Active Learning on Heteroskedastic Distributions.](http://arxiv.org/abs/2211.00928) | 这项研究展示了在异方差分布上进行神经主动学习可能导致灾难性失败，并提出了一种利用微调来减轻这种失败的方法。 |
+| [^108] | [Broken Neural Scaling Laws.](http://arxiv.org/abs/2210.14891) | 本文提出了一个平滑破碎的幂律函数形式，可以准确地模拟和外推深度神经网络的缩放行为，适用于各种架构和大量不同任务，包括视觉、语言、音频、视频、生成建模、对比学习、机器人、不确定性估计/校准、对抗鲁棒性、分子、计算机编程/编码、数学单词问题、算术、无监督/自监督学习和强化学习。 |
+| [^109] | [Learning "O" Helps for Learning More: Handling the Concealed Entity Problem for Class-incremental NER.](http://arxiv.org/abs/2210.04676) | 本研究解决了类增量NER中的隐藏实体问题，提出了一种表示学习方法，通过对实体类别和"O"进行判别式表示学习，改善了NER模型对于新旧类别的识别能力。 |
+| [^110] | [GMA3D: Local-Global Attention Learning to Estimate Occluded Motions of Scene Flow.](http://arxiv.org/abs/2210.03296) | GMA3D是一个基于变压器框架的模块，应用于解决场景流动中的遮挡问题。该模块利用本地和全局语义相似性推断被遮挡点的运动信息，并使用偏移聚合器进行汇聚。实验结果表明，GMA3D可以有效解决场景流动中的遮挡问题。 |
+| [^111] | [Improving Generalizability of Graph Anomaly Detection Models via Data Augmentation.](http://arxiv.org/abs/2209.10168) | 通过数据增强技术，本文针对图异常检测中存在的泛化能力差问题，提出了一种通用且新颖的研究问题：广义图异常检测，旨在同时有效识别训练领域图和未训练领域图上的异常。 |
+| [^112] | [R\'{e}nyi Divergence Deep Mutual Learning.](http://arxiv.org/abs/2209.05732) | 本文提出在深度互相学习中使用R\'{e}nyi散度，它能够在不引入大量复杂度的情况下持续提高性能，获得了广泛的实证结果的支持。 |
+| [^113] | [DRL Enabled Coverage and Capacity Optimization in STAR-RIS Assisted Networks.](http://arxiv.org/abs/2209.00511) | 这项研究提出了一种用于STAR-RIS辅助网络中覆盖和容量优化问题的多目标近端政策优化（MO-PPO）算法，该算法通过提供一组最优解来实现长期效益，从而改进了传统优化算法的性能。 |
+| [^114] | [Target-oriented Sentiment Classification with Sequential Cross-modal Semantic Graph.](http://arxiv.org/abs/2208.09417) | 本文提出了一种基于顺序跨模态语义图的目标导向情感分类方法，通过利用图像标题和场景图提取全局和局部的精细图像信息，与推文中的标记结合形成跨模态语义图，取得了较好的效果。 |
+| [^115] | [Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data.](http://arxiv.org/abs/2206.02909) | 本研究利用700,000人日的未标记可穿戴传感器数据，通过自监督学习技术，成功构建了一种能够在多个数据集上泛化且效果显著优于基线模型的人体活动识别模型，有望帮助研究人员和开发者开发高性能的可定制和泛化的活动分类器。 |
+| [^116] | [Physics-Guided Hierarchical Reward Mechanism for Learning-Based Robotic Grasping.](http://arxiv.org/abs/2205.13561) | 本文提出了一种基于物理指导的分层奖励机制的学习型机器人抓取方法，通过利用物理知识提高学习效率和结果的通用性。 |
+| [^117] | [Representation Power of Graph Neural Networks: Improved Expressivity via Algebraic Analysis.](http://arxiv.org/abs/2205.09801) | 本文通过代数分析改进了图神经网络（GNN）的表达能力，证明了GNN能够比Weisfeiler-Lehman（WL）算法更好地产生区分性表示，特别是在具有不同特征值的图上。此外，我们还发现简单的卷积结构与无信息输入产生的等变特征比WL表示更具表达能力。 |
+| [^118] | [Machine Learning-Friendly Biomedical Datasets for Equivalence and Subsumption Ontology Matching.](http://arxiv.org/abs/2205.03447) | 本文介绍了五个新的生物医学本体匹配任务，通过引入机器学习技术并解决现有评估方法的限制，提供了综合评估框架来衡量本体匹配系统的性能。 |
+| [^119] | [AdaBest: Minimizing Client Drift in Federated Learning via Adaptive Bias Estimation.](http://arxiv.org/abs/2204.13170) | AdaBest提出了一种自适应算法，用于准确估计联邦学习中的客户端漂移。与之前的方法相比，AdaBest所需的存储和通信带宽较少，计算成本也较低。此外，AdaBest通过限制估计值的范数来提供稳定性。 |
+| [^120] | [Learning to reason about and to act on physical cascading events.](http://arxiv.org/abs/2202.01108) | 本研究提出了一种新的监督学习方法，称为“级联”，通过将语义树搜索与事件驱动的前向模型相结合，学习在连续空间中搜索语义树，并能够在物理模拟的动态场景中有效地遵循干预指令、推理替代结果。 |
+| [^121] | [Generalizing similarity in noisy setups: the DIBS phenomenon.](http://arxiv.org/abs/2201.12803) | 本研究揭示了数据密度、噪声和相似性学习之间的相互作用，证明了数据对的密度对于泛化至关重要，并发现了一种在密集数据集上比对称标签噪声更差的泛化性能的现象，称为密度诱导的相似性破坏（DIBS）。 |
+| [^122] | [User Tampering in Reinforcement Learning Recommender Systems.](http://arxiv.org/abs/2109.04083) | 本研究揭示了强化学习推荐系统中的一个独特安全问题——用户篡改，并提出了形式化方法和实证证据。现有方法不能有效防止用户篡改，并且现有的奖励篡改缓解策略也不足以解决这一问题。 |
+| [^123] | [Co-Imitation Learning without Expert Demonstration.](http://arxiv.org/abs/2103.14823) | 本文提出了一种名为共同模仿学习（CoIL）的新型学习框架，通过利用代理自身的良好经验，而无需专家示范，来改善强化学习的效率。实验结果表明，该方法在各种任务上都具有显著的优越性。 |
+| [^124] | [XTQA: Span-Level Explanations of the Textbook Question Answering.](http://arxiv.org/abs/2011.12662) | XTQA是针对教科书问答任务提出的一种新架构，通过跨句解释提供答案和证据，显著提高了性能。 |
+| [^125] | [Towards a new Social Choice Theory.](http://arxiv.org/abs/2007.15393) | 这篇论文介绍了一种新的社会选择理论，通过引入社会选择优化作为TAVs的泛化，以最小化对（社会）目标的阻碍。 |
+| [^126] | [Declarative Mechanism Design.](http://arxiv.org/abs/1912.13122) | 本文介绍了声明性机制设计的研究，提出了机构神经网络作为一种受管制的人工神经网络，引起人们对人工教学的关注，并提供了初步的答案。 |
 
 # 详细
 
@@ -1572,7 +1573,21 @@
 
     Knowledge graph reasoning (KGR), aiming to deduce new facts from existing facts based on mined logic rules underlying knowledge graphs (KGs), has become a fast-growing research direction. It has been proven to significantly benefit the usage of KGs in many AI applications, such as question answering, recommendation systems, and etc. According to the graph types, existing KGR models can be roughly divided into three categories, i.e., static models, temporal models, and multi-modal models. Early works in this domain mainly focus on static KGR, and recent works try to leverage the temporal and multi-modal information, which are more practical and closer to real-world. However, no survey papers and open-source repositories comprehensively summarize and discuss models in this important direction. To fill the gap, we conduct a first survey for knowledge graph reasoning tracing from static to temporal and then to multi-modal KGs. Concretely, the models are reviewed based on bi-level taxonomy,
     
-[^104]: 基于闭合形式策略改进算子的离线强化学习
+[^104]: 一个混合进化方法来解决大学课程分配问题
+
+    A Hybrid Evolutionary Approach to Solve University Course Allocation Problem. (arXiv:2212.02230v2 [cs.NE] UPDATED)
+
+    [http://arxiv.org/abs/2212.02230](http://arxiv.org/abs/2212.02230)
+
+    本文提出了一个混合进化算法来解决大学课程分配问题，通过结合局部修复算法和改进的遗传算法，生成了最佳的课程分配方案，同时满足各种约束，提高时间效率并减少工作量。
+
+    
+
+    本文讨论了大学课程分配问题的各种约束、困难和解决方案。提出了一种混合进化算法，将局部修复算法和改进的遗传算法结合起来，以生成最佳的课程分配方案。在分析收集到的数据集后，制定了所有必要的约束。这些约束在编排每位教师的无冲突和高效的班级课表时需要考虑到的重要方面。目标是生成一个优化的解决方案，满足这些约束同时保持时间效率，并且减少手动处理这项任务的工作量。将所提出的算法与一些基准优化算法进行比较，以显示在准确性和时间方面的更高效性。
+
+    This paper discusses various types of constraints, difficulties and solutions to overcome the challenges regarding university course allocation problem. A hybrid evolutionary algorithm has been defined combining Local Repair Algorithm and Modified Genetic Algorithm to generate the best course assignment. After analyzing the collected dataset, all the necessary constraints were formulated. These constraints manage to cover the aspects needed to be kept in mind while preparing clash free and efficient class schedules for every faculty member. The goal is to generate an optimized solution which will fulfill those constraints while maintaining time efficiency and also reduce the workload of handling this task manually. The proposed algorithm was compared with some base level optimization algorithms to show the better efficiency in terms of accuracy and time.
+    
+[^105]: 基于闭合形式策略改进算子的离线强化学习
 
     Offline Reinforcement Learning with Closed-Form Policy Improvement Operators. (arXiv:2211.15956v2 [cs.LG] UPDATED)
 
@@ -1586,7 +1601,7 @@
 
     Behavior constrained policy optimization has been demonstrated to be a successful paradigm for tackling Offline Reinforcement Learning. By exploiting historical transitions, a policy is trained to maximize a learned value function while constrained by the behavior policy to avoid a significant distributional shift. In this paper, we propose our closed-form policy improvement operators. We make a novel observation that the behavior constraint naturally motivates the use of first-order Taylor approximation, leading to a linear approximation of the policy objective. Additionally, as practical datasets are usually collected by heterogeneous policies, we model the behavior policies as a Gaussian Mixture and overcome the induced optimization difficulties by leveraging the LogSumExp's lower bound and Jensen's Inequality, giving rise to a closed-form policy improvement operator. We instantiate offline RL algorithms with our novel policy improvement operators and empirically demonstrate their e
     
-[^105]: FsaNet: 频率自注意力用于语义分割
+[^106]: FsaNet: 频率自注意力用于语义分割
 
     FsaNet: Frequency Self-attention for Semantic Segmentation. (arXiv:2211.15595v2 [cs.CV] UPDATED)
 
@@ -1600,7 +1615,7 @@
 
     Considering the spectral properties of images, we propose a new self-attention mechanism with highly reduced computational complexity, up to a linear rate. To better preserve edges while promoting similarity within objects, we propose individualized processes over different frequency bands. In particular, we study a case where the process is merely over low-frequency components. By ablation study, we show that low frequency self-attention can achieve very close or better performance relative to full frequency even without retraining the network. Accordingly, we design and embed novel plug-and-play modules to the head of a CNN network that we refer to as FsaNet. The frequency self-attention 1) requires only a few low frequency coefficients as input, 2) can be mathematically equivalent to spatial domain self-attention with linear structures, 3) simplifies token mapping ($1\times1$ convolution) stage and token mixing stage simultaneously. We show that frequency self-attention requires $87
     
-[^106]: 异方差分布上的神经主动学习
+[^107]: 异方差分布上的神经主动学习
 
     Neural Active Learning on Heteroskedastic Distributions. (arXiv:2211.00928v2 [cs.LG] UPDATED)
 
@@ -1614,7 +1629,7 @@
 
     Models that can actively seek out the best quality training data hold the promise of more accurate, adaptable, and efficient machine learning. Active learning techniques often tend to prefer examples that are the most difficult to classify. While this works well on homogeneous datasets, we find that it can lead to catastrophic failures when performed on multiple distributions with different degrees of label noise or heteroskedasticity. These active learning algorithms strongly prefer to draw from the distribution with more noise, even if their examples have no informative structure (such as solid color images with random labels). To this end, we demonstrate the catastrophic failure of these active learning algorithms on heteroskedastic distributions and propose a fine-tuning-based approach to mitigate these failures. Further, we propose a new algorithm that incorporates a model difference scoring function for each data point to filter out the noisy examples and sample clean examples th
     
-[^107]: 破碎的神经缩放定律
+[^108]: 破碎的神经缩放定律
 
     Broken Neural Scaling Laws. (arXiv:2210.14891v7 [cs.LG] UPDATED)
 
@@ -1628,7 +1643,7 @@
 
     We present a smoothly broken power law functional form (referred to by us as a Broken Neural Scaling Law (BNSL)) that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, training dataset size, or upstream performance varies) for various architectures and for each of various tasks within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision, language, audio, video, diffusion, generative modeling, multimodal learning, contrastive learning, AI alignment, robotics, out-of-distribution (OOD) generalization, continual learning, uncertainty estimation / calibration, out-of-distribution detection, adversarial robustness, distillation, molecules, computer programming/coding, math word problems, arithmetic, unsupervised/self-supervised learning, and reinforc
     
-[^108]: 学习"O"有助于更多的学习：解决类增量NER的隐藏实体问题
+[^109]: 学习"O"有助于更多的学习：解决类增量NER的隐藏实体问题
 
     Learning "O" Helps for Learning More: Handling the Concealed Entity Problem for Class-incremental NER. (arXiv:2210.04676v2 [cs.CL] UPDATED)
 
@@ -1642,7 +1657,7 @@
 
     As the categories of named entities rapidly increase, the deployed NER models are required to keep updating toward recognizing more entity types, creating a demand for class-incremental learning for NER. Considering the privacy concerns and storage constraints, the standard paradigm for class-incremental NER updates the models with training data only annotated with the new classes, yet the entities from other entity classes are unlabeled, regarded as "Non-entity" (or "O"). In this work, we conduct an empirical study on the "Unlabeled Entity Problem" and find that it leads to severe confusion between "O" and entities, decreasing class discrimination of old classes and declining the model's ability to learn new classes. To solve the Unlabeled Entity Problem, we propose a novel representation learning method to learn discriminative representations for the entity classes and "O". Specifically, we propose an entity-aware contrastive learning method that adaptively detects entity clusters in
     
-[^109]: GMA3D: 本地-全局注意力学习用于估计被遮挡的场景流动
+[^110]: GMA3D: 本地-全局注意力学习用于估计被遮挡的场景流动
 
     GMA3D: Local-Global Attention Learning to Estimate Occluded Motions of Scene Flow. (arXiv:2210.03296v2 [cs.CV] UPDATED)
 
@@ -1656,7 +1671,7 @@
 
     Scene flow represents the motion information of each point in the 3D point clouds. It is a vital downstream method applied to many tasks, such as motion segmentation and object tracking. However, there are always occlusion points between two consecutive point clouds, whether from the sparsity data sampling or real-world occlusion. In this paper, we focus on addressing occlusion issues in scene flow by the semantic self-similarity and motion consistency of the moving objects. We propose a GMA3D module based on the transformer framework, which utilizes local and global semantic similarity to infer the motion information of occluded points from the motion information of local and global non-occluded points respectively, and then uses an offset aggregator to aggregate them. Our module is the first to apply the transformer-based architecture to gauge the scene flow occlusion problem on point clouds. Experiments show that our GMA3D can solve the occlusion problem in the scene flow, especiall
     
-[^110]: 通过数据增强提高图异常检测模型的泛化能力
+[^111]: 通过数据增强提高图异常检测模型的泛化能力
 
     Improving Generalizability of Graph Anomaly Detection Models via Data Augmentation. (arXiv:2209.10168v2 [cs.LG] UPDATED)
 
@@ -1670,7 +1685,7 @@
 
     Graph anomaly detection (GAD) is a vital task since even a few anomalies can pose huge threats to benign users. Recent semi-supervised GAD methods, which can effectively leverage the available labels as prior knowledge, have achieved superior performances than unsupervised methods. In practice, people usually need to identify anomalies on new (sub)graphs to secure their business, but they may lack labels to train an effective detection model. One natural idea is to directly adopt a trained GAD model to the new (sub)graph for testing. However, we find that existing semi-supervised GAD methods suffer from poor generalization issue, i.e., well-trained models could not perform well on an unseen area (i.e., not accessible in training) of the same graph. It may cause great troubles. In this paper, we base on the phenomenon and propose a general and novel research problem of generalized graph anomaly detection that aims to effectively identify anomalies on both the training-domain graph and u
     
-[^111]: R\'{e}nyi散度深度互相学习
+[^112]: R\'{e}nyi散度深度互相学习
 
     R\'{e}nyi Divergence Deep Mutual Learning. (arXiv:2209.05732v4 [cs.LG] UPDATED)
 
@@ -1684,7 +1699,7 @@
 
     This paper revisits Deep Mutual Learning (DML), a simple yet effective computing paradigm. We propose using R\'{e}nyi divergence instead of the KL divergence, which is more flexible and tunable, to improve vanilla DML. This modification is able to consistently improve performance over vanilla DML with limited additional complexity. The convergence properties of the proposed paradigm are analyzed theoretically, and Stochastic Gradient Descent with a constant learning rate is shown to converge with $\mathcal{O}(1)$-bias in the worst case scenario for nonconvex optimization tasks. That is, learning will reach nearby local optima but continue searching within a bounded scope, which may help mitigate overfitting. Finally, our extensive empirical results demonstrate the advantage of combining DML and R\'{e}nyi divergence, which further improves generalized models.
     
-[^112]: STAR-RIS辅助网络中的DRL优化覆盖和容量
+[^113]: STAR-RIS辅助网络中的DRL优化覆盖和容量
 
     DRL Enabled Coverage and Capacity Optimization in STAR-RIS Assisted Networks. (arXiv:2209.00511v2 [cs.IT] UPDATED)
 
@@ -1698,7 +1713,7 @@
 
     Simultaneously transmitting and reflecting reconfigurable intelligent surfaces (STAR-RISs) is a promising passive device that contributes to a full-space coverage via transmitting and reflecting the incident signal simultaneously. As a new paradigm in wireless communications, how to analyze the coverage and capacity performance of STAR-RISs becomes essential but challenging. To solve the coverage and capacity optimization (CCO) problem in STAR-RIS assisted networks, a multi-objective proximal policy optimization (MO-PPO) algorithm is proposed to handle long-term benefits than conventional optimization algorithms. To strike a balance between each objective, the MO-PPO algorithm provides a set of optimal solutions to form a Pareto front (PF), where any solution on the PF is regarded as an optimal result. Moreover, in order to improve the performance of the MO-PPO algorithm, two update strategies, i.e., action-value-based update strategy (AVUS) and loss function-based update strategy (LFU
     
-[^113]: 基于顺序跨模态语义图的目标导向情感分类
+[^114]: 基于顺序跨模态语义图的目标导向情感分类
 
     Target-oriented Sentiment Classification with Sequential Cross-modal Semantic Graph. (arXiv:2208.09417v2 [cs.CV] UPDATED)
 
@@ -1712,7 +1727,7 @@
 
     Multi-modal aspect-based sentiment classification (MABSC) is task of classifying the sentiment of a target entity mentioned in a sentence and an image. However, previous methods failed to account for the fine-grained semantic association between the image and the text, which resulted in limited identification of fine-grained image aspects and opinions. To address these limitations, in this paper we propose a new approach called SeqCSG, which enhances the encoder-decoder sentiment classification framework using sequential cross-modal semantic graphs. SeqCSG utilizes image captions and scene graphs to extract both global and local fine-grained image information and considers them as elements of the cross-modal semantic graph along with tokens from tweets. The sequential cross-modal semantic graph is represented as a sequence with a multi-modal adjacency matrix indicating relationships between elements. Experimental results show that the approach outperforms existing methods and achieves 
     
-[^114]: 使用70万人日的可穿戴数据进行自监督学习的人体活动识别
+[^115]: 使用70万人日的可穿戴数据进行自监督学习的人体活动识别
 
     Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data. (arXiv:2206.02909v2 [eess.SP] UPDATED)
 
@@ -1726,7 +1741,7 @@
 
     Advances in deep learning for human activity recognition have been relatively limited due to the lack of large labelled datasets. In this study, we leverage self-supervised learning techniques on the UK-Biobank activity tracker dataset--the largest of its kind to date--containing more than 700,000 person-days of unlabelled wearable sensor data. Our resulting activity recognition model consistently outperformed strong baselines across seven benchmark datasets, with an F1 relative improvement of 2.5%-100% (median 18.4%), the largest improvements occurring in the smaller datasets. In contrast to previous studies, our results generalise across external datasets, devices, and environments. Our open-source model will help researchers and developers to build customisable and generalisable activity classifiers with high performance.
     
-[^115]: 基于物理指导的分层奖励机制用于学习型机器人抓取
+[^116]: 基于物理指导的分层奖励机制用于学习型机器人抓取
 
     Physics-Guided Hierarchical Reward Mechanism for Learning-Based Robotic Grasping. (arXiv:2205.13561v3 [cs.RO] UPDATED)
 
@@ -1740,7 +1755,7 @@
 
     Learning-based grasping can afford real-time grasp motion planning of multi-fingered robotics hands thanks to its high computational efficiency. However, learning-based methods are required to explore large search spaces during the learning process. The search space causes low learning efficiency, which has been the main barrier to its practical adoption. In addition, the trained policy lacks a generalizable outcome unless objects are identical to the trained objects. In this work, we develop a novel Physics-Guided Deep Reinforcement Learning with a Hierarchical Reward Mechanism to improve learning efficiency and generalizability for learning-based autonomous grasping. Unlike conventional observation-based grasp learning, physics-informed metrics are utilized to convey correlations between features associated with hand structures and objects to improve learning efficiency and outcomes. Further, the hierarchical reward mechanism enables the robot to learn prioritized components of the g
     
-[^116]: 图神经网络的表达能力：通过代数分析改进表达性能
+[^117]: 图神经网络的表达能力：通过代数分析改进表达性能
 
     Representation Power of Graph Neural Networks: Improved Expressivity via Algebraic Analysis. (arXiv:2205.09801v3 [cs.LG] UPDATED)
 
@@ -1754,7 +1769,7 @@
 
     Despite the remarkable success of Graph Neural Networks (GNNs), the common belief is that their representation power is limited and that they are at most as expressive as the Weisfeiler-Lehman (WL) algorithm. In this paper, we argue the opposite and show that standard GNNs, with anonymous inputs, produce more discriminative representations than the WL algorithm. Our novel analysis employs linear algebraic tools and characterizes the representation power of GNNs with respect to the eigenvalue decomposition of the graph operators. We prove that GNNs are able to generate distinctive outputs from white uninformative inputs, for, at least, all graphs that have different eigenvalues. We also show that simple convolutional architectures with white inputs, produce equivariant features that count the closed paths in the graph and are provably more expressive than the WL representations. Thorough experimental analysis on graph isomorphism and graph classification datasets corroborates our theore
     
-[^117]: 机器学习友好的生物医学数据集用于等价和包含关系本体匹配
+[^118]: 机器学习友好的生物医学数据集用于等价和包含关系本体匹配
 
     Machine Learning-Friendly Biomedical Datasets for Equivalence and Subsumption Ontology Matching. (arXiv:2205.03447v7 [cs.AI] UPDATED)
 
@@ -1768,7 +1783,7 @@
 
     Ontology Matching (OM) plays an important role in many domains such as bioinformatics and the Semantic Web, and its research is becoming increasingly popular, especially with the application of machine learning (ML) techniques. Although the Ontology Alignment Evaluation Initiative (OAEI) represents an impressive effort for the systematic evaluation of OM systems, it still suffers from several limitations including limited evaluation of subsumption mappings, suboptimal reference mappings, and limited support for the evaluation of ML-based systems. To tackle these limitations, we introduce five new biomedical OM tasks involving ontologies extracted from Mondo and UMLS. Each task includes both equivalence and subsumption matching; the quality of reference mappings is ensured by human curation, ontology pruning, etc.; and a comprehensive evaluation framework is proposed to measure OM performance from various perspectives for both ML-based and non-ML-based OM systems. We report evaluation r
     
-[^118]: AdaBest: 通过自适应偏差估计最小化联邦学习中的客户漂移
+[^119]: AdaBest: 通过自适应偏差估计最小化联邦学习中的客户漂移
 
     AdaBest: Minimizing Client Drift in Federated Learning via Adaptive Bias Estimation. (arXiv:2204.13170v4 [cs.LG] UPDATED)
 
@@ -1782,7 +1797,7 @@
 
     In Federated Learning (FL), a number of clients or devices collaborate to train a model without sharing their data. Models are optimized locally at each client and further communicated to a central hub for aggregation. While FL is an appealing decentralized training paradigm, heterogeneity among data from different clients can cause the local optimization to drift away from the global objective. In order to estimate and therefore remove this drift, variance reduction techniques have been incorporated into FL optimization recently. However, these approaches inaccurately estimate the clients' drift and ultimately fail to remove it properly. In this work, we propose an adaptive algorithm that accurately estimates drift across clients. In comparison to previous works, our approach necessitates less storage and communication bandwidth, as well as lower compute costs. Additionally, our proposed methodology induces stability by constraining the norm of estimates for client drift, making it mo
     
-[^119]: 学会推理和对物理级联事件采取行动
+[^120]: 学会推理和对物理级联事件采取行动
 
     Learning to reason about and to act on physical cascading events. (arXiv:2202.01108v2 [cs.AI] UPDATED)
 
@@ -1796,7 +1811,7 @@
 
     Reasoning and interacting with dynamic environments is a fundamental problem in AI, but it becomes extremely challenging when actions can trigger cascades of cross-dependent events. We introduce a new supervised learning setup called {\em Cascade} where an agent is shown a video of a physically simulated dynamic scene, and is asked to intervene and trigger a cascade of events, such that the system reaches a "counterfactual" goal. For instance, the agent may be asked to "Make the blue ball hit the red one, by pushing the green ball". The agent intervention is drawn from a continuous space, and cascades of events makes the dynamics highly non-linear.  We combine semantic tree search with an event-driven forward model and devise an algorithm that learns to search in semantic trees in continuous spaces. We demonstrate that our approach learns to effectively follow instructions to intervene in previously unseen complex scenes. It can also reason about alternative outcomes, when provided an 
     
-[^120]: 噪声设置中的相似性泛化：DIBS现象
+[^121]: 噪声设置中的相似性泛化：DIBS现象
 
     Generalizing similarity in noisy setups: the DIBS phenomenon. (arXiv:2201.12803v3 [cs.LG] UPDATED)
 
@@ -1810,7 +1825,7 @@
 
     This work uncovers an interplay among data density, noise, and the generalization ability in similarity learning. We consider Siamese Neural Networks (SNNs), which are the basic form of contrastive learning, and explore two types of noise that can impact SNNs, Pair Label Noise (PLN) and Single Label Noise (SLN). Our investigation reveals that SNNs exhibit double descent behaviour regardless of the training setup and that it is further exacerbated by noise. We demonstrate that the density of data pairs is crucial for generalization. When SNNs are trained on sparse datasets with the same amount of PLN or SLN, they exhibit comparable generalization properties. However, when using dense datasets, PLN cases generalize worse than SLN ones in the overparametrized region, leading to a phenomenon we call Density-Induced Break of Similarity (DIBS). In this regime, PLN similarity violation becomes macroscopical, corrupting the dataset to the point where complete interpolation cannot be achieved, 
     
-[^121]: 强化学习推荐系统中的用户篡改问题
+[^122]: 强化学习推荐系统中的用户篡改问题
 
     User Tampering in Reinforcement Learning Recommender Systems. (arXiv:2109.04083v3 [cs.AI] UPDATED)
 
@@ -1824,7 +1839,7 @@
 
     In this paper, we introduce new formal methods and provide empirical evidence to highlight a unique safety concern prevalent in reinforcement learning (RL)-based recommendation algorithms -- 'user tampering.' User tampering is a situation where an RL-based recommender system may manipulate a media user's opinions through its suggestions as part of a policy to maximize long-term user engagement. We use formal techniques from causal modeling to critically analyze prevailing solutions proposed in the literature for implementing scalable RL-based recommendation systems, and we observe that these methods do not adequately prevent user tampering. Moreover, we evaluate existing mitigation strategies for reward tampering issues, and show that these methods are insufficient in addressing the distinct phenomenon of user tampering within the context of recommendations. We further reinforce our findings with a simulation study of an RL-based recommendation system focused on the dissemination of po
     
-[^122]: 无需专家示范的共同模仿学习
+[^123]: 无需专家示范的共同模仿学习
 
     Co-Imitation Learning without Expert Demonstration. (arXiv:2103.14823v2 [cs.LG] UPDATED)
 
@@ -1838,7 +1853,7 @@
 
     Imitation learning is a primary approach to improve the efficiency of reinforcement learning by exploiting the expert demonstrations. However, in many real scenarios, obtaining expert demonstrations could be extremely expensive or even impossible. To overcome this challenge, in this paper, we propose a novel learning framework called Co-Imitation Learning (CoIL) to exploit the past good experiences of the agents themselves without expert demonstration. Specifically, we train two different agents via letting each of them alternately explore the environment and exploit the peer agent's experience. While the experiences could be valuable or misleading, we propose to estimate the potential utility of each piece of experience with the expected gain of the value function. Thus the agents can selectively imitate from each other by emphasizing the more useful experiences while filtering out noisy ones. Experimental results on various tasks show significant superiority of the proposed Co-Imitat
     
-[^123]: XTQA: 教科书问答的跨句解释
+[^124]: XTQA: 教科书问答的跨句解释
 
     XTQA: Span-Level Explanations of the Textbook Question Answering. (arXiv:2011.12662v4 [cs.CL] UPDATED)
 
@@ -1852,7 +1867,7 @@
 
     Textbook Question Answering (TQA) is a task that one should answer a diagram/non-diagram question given a large multi-modal context consisting of abundant essays and diagrams. We argue that the explainability of this task should place students as a key aspect to be considered. To address this issue, we devise a novel architecture towards span-level eXplanations of the TQA (XTQA) based on our proposed coarse-to-fine grained algorithm, which can provide not only the answers but also the span-level evidences to choose them for students. This algorithm first coarsely chooses top $M$ paragraphs relevant to questions using the TF-IDF method, and then chooses top $K$ evidence spans finely from all candidate spans within these paragraphs by computing the information gain of each span to questions. Experimental results shows that XTQA significantly improves the state-of-the-art performance compared with baselines. The source code is available at https://github.com/keep-smile-001/opentqa
     
-[^124]: 朝着一种新的社会选择理论迈进
+[^125]: 朝着一种新的社会选择理论迈进
 
     Towards a new Social Choice Theory. (arXiv:2007.15393v3 [cs.AI] UPDATED)
 
@@ -1866,7 +1881,7 @@
 
     Social choice is the theory about collective decision towards social welfare starting from individual opinions, preferences, interests or welfare. The field of Computational Social Welfare is somewhat recent and it is gaining impact in the Artificial Intelligence Community. Classical literature makes the assumption of single-peaked preferences, i.e. there exist a order in the preferences and there is a global maximum in this order. This year some theoretical results were published about Two-stage Approval Voting Systems (TAVs), Multi-winner Selection Rules (MWSR) and Incomplete (IPs) and Circular Preferences (CPs). The purpose of this paper is three-fold: Firstly, I want to introduced Social Choice Optimisation as a generalisation of TAVs where there is a max stage and a min stage implementing thus a Minimax, well-known Artificial Intelligence decision-making rule to minimize hindering towards a (Social) Goal. Secondly, I want to introduce, following my Open Standardization and Open In
     
-[^125]: 声明性机制设计
+[^126]: 声明性机制设计
 
     Declarative Mechanism Design. (arXiv:1912.13122v4 [cs.AI] UPDATED)
 

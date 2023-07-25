@@ -35,18 +35,19 @@
 | [^31] | [Estimate-Then-Optimize Versus Integrated-Estimation-Optimization: A Stochastic Dominance Perspective.](http://arxiv.org/abs/2304.06833) | 本文提出，当模型类足够丰富以涵盖真实情况时，非线性问题的“先估计再优化”方法优于集成方法，包括优化间隙的渐进优势的均值，所有其他时刻和整个渐进分布。 |
 | [^32] | [How Do Transformers Learn Topic Structure: Towards a Mechanistic Understanding.](http://arxiv.org/abs/2303.04245) | 本文提供了对Transformer学习语义结构的机制性理解，通过数学分析和实验证明了嵌入层和自注意力层如何对词汇的共现结构进行编码。 |
 | [^33] | [From Graph Generation to Graph Classification.](http://arxiv.org/abs/2302.07989) | 本文提出了一种新的图分类方法，通过利用图生成模型，推导出了给定图的类标签概率的分类公式，并提出了一种新的条件 ELBO 用于训练生成图自编码器模型。这是一种在图分类中具有创新性的方法。 |
-| [^34] | [DNArch: Learning Convolutional Neural Architectures by Backpropagation.](http://arxiv.org/abs/2302.05400) | DNArch是一种通过反向传播同时学习卷积神经网络的权重和架构的方法，它不仅可以学习每一层的卷积核大小和通道数，还可以学习网络的深度和下采样层的位置和值。与现有方法不同的是，DNArch不限于预定义的神经组件，能够发现各种核大小、宽度、深度和下采样组合中的整个CNN架构。在实验中，DNArch在多个分类和密集预测任务上找到了高性能的CNN架构。 |
-| [^35] | [Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data.](http://arxiv.org/abs/2210.17230) | 构建了一种新的生成算法类，能够有效地学习稀缺高维数据的任意目标分布并生成新样本，具有很好的数据整合能力。 |
-| [^36] | [Minimax Optimal Kernel Operator Learning via Multilevel Training.](http://arxiv.org/abs/2209.14430) | 本文研究了学习两个无穷维Sobolev再生核希尔伯特空间之间的Hilbert-Schmidt算子的统计极限，在多层级训练方法下，通过学习偏差以下的谱分量和忽略方差以上的分量，可以达到最优的学习速率。 |
-| [^37] | [Approximate blocked Gibbs sampling for Bayesian neural networks.](http://arxiv.org/abs/2208.11389) | 本文提出了一种近似阻塞Gibbs采样方法，可以更可行地进行小批量MCMC采样，提高了前馈神经网络的预测准确性和预测不确定性的量化能力。 |
-| [^38] | [A Nonparametric Approach with Marginals for Modeling Consumer Choice.](http://arxiv.org/abs/2208.06115) | 本文提出了一种基于边缘分布的简单而有效的非参数消费者选择建模方法，在任何选择集合中会把选择概率的集合一致地描述出来。 |
-| [^39] | [TF-GNN: Graph Neural Networks in TensorFlow.](http://arxiv.org/abs/2207.03522) | TF-GNN是一个可扩展的 TensorFlow 图神经网络库，用于支持丰富的异构图数据。它提供了低代码解决方案，并广泛应用于谷歌的生产模型中。这个库最近作为开源项目发布，为图学习提供了强大的工具。 |
-| [^40] | [When Personalization Harms: Reconsidering the Use of Group Attributes in Prediction.](http://arxiv.org/abs/2206.02058) | 本研究发现，使用群体属性个性化机器学习模型可能降低群体水平的性能。为了确保在预测任务中公平使用群体属性，我们提出了形式化条件，并提供了相应的解决方法。我们的实证研究表明，在临床预测任务中普遍存在公平使用违规的情况，但我们也找到了简单干预手段来减轻其伤害。 |
-| [^41] | [Representation Power of Graph Neural Networks: Improved Expressivity via Algebraic Analysis.](http://arxiv.org/abs/2205.09801) | 本文通过代数分析改进了图神经网络（GNN）的表达能力，证明了GNN能够比Weisfeiler-Lehman（WL）算法更好地产生区分性表示，特别是在具有不同特征值的图上。此外，我们还发现简单的卷积结构与无信息输入产生的等变特征比WL表示更具表达能力。 |
-| [^42] | [Generalizing similarity in noisy setups: the DIBS phenomenon.](http://arxiv.org/abs/2201.12803) | 本研究揭示了数据密度、噪声和相似性学习之间的相互作用，证明了数据对的密度对于泛化至关重要，并发现了一种在密集数据集上比对称标签噪声更差的泛化性能的现象，称为密度诱导的相似性破坏（DIBS）。 |
-| [^43] | [Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects.](http://arxiv.org/abs/2110.08693) | 本文提出了一种扩展平方根速度函数的新表示方法和度量方法，用于分析和比较树状三维物体，从而提高物体形状差异计算的精度和效率。 |
-| [^44] | [Learning Optimal Prescriptive Trees from Observational Data.](http://arxiv.org/abs/2108.13628) | 该论文介绍了一种从观察数据中学习最优处方树的方法，可以在不需要数据随机化和对树有严格假设的情况下，通过混合整数优化技术进行学习，并具有建模领域特定问题的能力。 |
-| [^45] | [Learning Gaussian Graphical Models with Latent Confounders.](http://arxiv.org/abs/2105.06600) | 本文比较了两种处理具有潜在混淆因素的图模型的方法，并提出了一种结合了这两种方法优势的新方法。作者通过理论和实证研究证明了这种方法的可行性和有效性。 |
+| [^34] | [Mean Field Optimization Problem Regularized by Fisher Information.](http://arxiv.org/abs/2302.05938) | 本文通过Fisher信息对均值场优化问题进行了正则化，证明了均值场薛定谔动力学是概率测度空间上的梯度流，并提出了一种蒙特卡洛方法来采样均值场薛定谔动力学的边缘分布。 |
+| [^35] | [DNArch: Learning Convolutional Neural Architectures by Backpropagation.](http://arxiv.org/abs/2302.05400) | DNArch是一种通过反向传播同时学习卷积神经网络的权重和架构的方法，它不仅可以学习每一层的卷积核大小和通道数，还可以学习网络的深度和下采样层的位置和值。与现有方法不同的是，DNArch不限于预定义的神经组件，能够发现各种核大小、宽度、深度和下采样组合中的整个CNN架构。在实验中，DNArch在多个分类和密集预测任务上找到了高性能的CNN架构。 |
+| [^36] | [Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data.](http://arxiv.org/abs/2210.17230) | 构建了一种新的生成算法类，能够有效地学习稀缺高维数据的任意目标分布并生成新样本，具有很好的数据整合能力。 |
+| [^37] | [Minimax Optimal Kernel Operator Learning via Multilevel Training.](http://arxiv.org/abs/2209.14430) | 本文研究了学习两个无穷维Sobolev再生核希尔伯特空间之间的Hilbert-Schmidt算子的统计极限，在多层级训练方法下，通过学习偏差以下的谱分量和忽略方差以上的分量，可以达到最优的学习速率。 |
+| [^38] | [Approximate blocked Gibbs sampling for Bayesian neural networks.](http://arxiv.org/abs/2208.11389) | 本文提出了一种近似阻塞Gibbs采样方法，可以更可行地进行小批量MCMC采样，提高了前馈神经网络的预测准确性和预测不确定性的量化能力。 |
+| [^39] | [A Nonparametric Approach with Marginals for Modeling Consumer Choice.](http://arxiv.org/abs/2208.06115) | 本文提出了一种基于边缘分布的简单而有效的非参数消费者选择建模方法，在任何选择集合中会把选择概率的集合一致地描述出来。 |
+| [^40] | [TF-GNN: Graph Neural Networks in TensorFlow.](http://arxiv.org/abs/2207.03522) | TF-GNN是一个可扩展的 TensorFlow 图神经网络库，用于支持丰富的异构图数据。它提供了低代码解决方案，并广泛应用于谷歌的生产模型中。这个库最近作为开源项目发布，为图学习提供了强大的工具。 |
+| [^41] | [When Personalization Harms: Reconsidering the Use of Group Attributes in Prediction.](http://arxiv.org/abs/2206.02058) | 本研究发现，使用群体属性个性化机器学习模型可能降低群体水平的性能。为了确保在预测任务中公平使用群体属性，我们提出了形式化条件，并提供了相应的解决方法。我们的实证研究表明，在临床预测任务中普遍存在公平使用违规的情况，但我们也找到了简单干预手段来减轻其伤害。 |
+| [^42] | [Representation Power of Graph Neural Networks: Improved Expressivity via Algebraic Analysis.](http://arxiv.org/abs/2205.09801) | 本文通过代数分析改进了图神经网络（GNN）的表达能力，证明了GNN能够比Weisfeiler-Lehman（WL）算法更好地产生区分性表示，特别是在具有不同特征值的图上。此外，我们还发现简单的卷积结构与无信息输入产生的等变特征比WL表示更具表达能力。 |
+| [^43] | [Generalizing similarity in noisy setups: the DIBS phenomenon.](http://arxiv.org/abs/2201.12803) | 本研究揭示了数据密度、噪声和相似性学习之间的相互作用，证明了数据对的密度对于泛化至关重要，并发现了一种在密集数据集上比对称标签噪声更差的泛化性能的现象，称为密度诱导的相似性破坏（DIBS）。 |
+| [^44] | [Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects.](http://arxiv.org/abs/2110.08693) | 本文提出了一种扩展平方根速度函数的新表示方法和度量方法，用于分析和比较树状三维物体，从而提高物体形状差异计算的精度和效率。 |
+| [^45] | [Learning Optimal Prescriptive Trees from Observational Data.](http://arxiv.org/abs/2108.13628) | 该论文介绍了一种从观察数据中学习最优处方树的方法，可以在不需要数据随机化和对树有严格假设的情况下，通过混合整数优化技术进行学习，并具有建模领域特定问题的能力。 |
+| [^46] | [Learning Gaussian Graphical Models with Latent Confounders.](http://arxiv.org/abs/2105.06600) | 本文比较了两种处理具有潜在混淆因素的图模型的方法，并提出了一种结合了这两种方法优势的新方法。作者通过理论和实证研究证明了这种方法的可行性和有效性。 |
 
 # 详细
 
@@ -512,7 +513,21 @@
 
     This note describes a new approach to classifying graphs that leverages graph generative models (GGM). Assuming a GGM that defines a joint probability distribution over graphs and their class labels, I derive classification formulas for the probability of a class label given a graph. A new conditional ELBO can be used to train a generative graph auto-encoder model for discrimination. While leveraging generative models for classification has been well explored for non-relational i.i.d. data, to our knowledge it is a novel approach to graph classification.
     
-[^34]: DNArch: 通过反向传播学习卷积神经网络的可学习架构
+[^34]: 通过Fisher信息对均值场优化问题进行正则化
+
+    Mean Field Optimization Problem Regularized by Fisher Information. (arXiv:2302.05938v2 [math.PR] UPDATED)
+
+    [http://arxiv.org/abs/2302.05938](http://arxiv.org/abs/2302.05938)
+
+    本文通过Fisher信息对均值场优化问题进行了正则化，证明了均值场薛定谔动力学是概率测度空间上的梯度流，并提出了一种蒙特卡洛方法来采样均值场薛定谔动力学的边缘分布。
+
+    
+
+    最近，对均值场优化的研究越发受到关注，特别是在分析神经网络训练时。本文通过将Fisher信息作为正则化项，将正则化的均值场优化问题与所谓的均值场薛定谔动力学联系起来。我们开发了一种能量耗散方法，证明了均值场薛定谔动力学的边缘分布以指数速度收敛于正则化优化问题的唯一最小值点。值得注意的是，我们证明了均值场薛定谔动力学是概率测度空间上相对熵的梯度流。最后，我们提出了一种蒙特卡洛方法来采样均值场薛定谔动力学的边缘分布。
+
+    Recently there is a rising interest in the research of mean field optimization, in particular because of its role in analyzing the training of neural networks. In this paper by adding the Fisher Information as the regularizer, we relate the regularized mean field optimization problem to a so-called mean field Schrodinger dynamics. We develop an energy-dissipation method to show that the marginal distributions of the mean field Schrodinger dynamics converge exponentially quickly towards the unique minimizer of the regularized optimization problem. Remarkably, the mean field Schrodinger dynamics is proved to be a gradient flow on the probability measure space with respect to the relative entropy. Finally we propose a Monte Carlo method to sample the marginal distributions of the mean field Schrodinger dynamics.
+    
+[^35]: DNArch: 通过反向传播学习卷积神经网络的可学习架构
 
     DNArch: Learning Convolutional Neural Architectures by Backpropagation. (arXiv:2302.05400v2 [cs.LG] UPDATED)
 
@@ -526,7 +541,7 @@
 
     We present Differentiable Neural Architectures (DNArch), a method that jointly learns the weights and the architecture of Convolutional Neural Networks (CNNs) by backpropagation. In particular, DNArch allows learning (i) the size of convolutional kernels at each layer, (ii) the number of channels at each layer, (iii) the position and values of downsampling layers, and (iv) the depth of the network. To this end, DNArch views neural architectures as continuous multidimensional entities, and uses learnable differentiable masks along each dimension to control their size. Unlike existing methods, DNArch is not limited to a predefined set of possible neural components, but instead it is able to discover entire CNN architectures across all feasible combinations of kernel sizes, widths, depths and downsampling. Empirically, DNArch finds performant CNN architectures for several classification and dense prediction tasks on sequential and image data. When combined with a loss term that controls t
     
-[^35]: Lipschitz正则化梯度流和高维稀缺数据的生成粒子算法
+[^36]: Lipschitz正则化梯度流和高维稀缺数据的生成粒子算法
 
     Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data. (arXiv:2210.17230v3 [stat.ML] UPDATED)
 
@@ -540,7 +555,7 @@
 
     We build a new class of generative algorithms capable of efficiently learning an arbitrary target distribution from possibly scarce, high-dimensional data and subsequently generate new samples. These generative algorithms are particle-based and are constructed as gradient flows of Lipschitz-regularized Kullback-Leibler or other $f$-divergences, where data from a source distribution can be stably transported as particles, towards the vicinity of the target distribution. As a highlighted result in data integration, we demonstrate that the proposed algorithms correctly transport gene expression data points with dimension exceeding 54K, while the sample size is typically only in the hundreds.
     
-[^36]: 最小化损失的多层训练方法下的最优核算子学习
+[^37]: 最小化损失的多层训练方法下的最优核算子学习
 
     Minimax Optimal Kernel Operator Learning via Multilevel Training. (arXiv:2209.14430v3 [cs.LG] UPDATED)
 
@@ -554,7 +569,7 @@
 
     Learning mappings between infinite-dimensional function spaces has achieved empirical success in many disciplines of machine learning, including generative modeling, functional data analysis, causal inference, and multi-agent reinforcement learning. In this paper, we study the statistical limit of learning a Hilbert-Schmidt operator between two infinite-dimensional Sobolev reproducing kernel Hilbert spaces. We establish the information-theoretic lower bound in terms of the Sobolev Hilbert-Schmidt norm and show that a regularization that learns the spectral components below the bias contour and ignores the ones that are above the variance contour can achieve the optimal learning rate. At the same time, the spectral components between the bias and variance contours give us flexibility in designing computationally feasible machine learning algorithms. Based on this observation, we develop a multilevel kernel operator learning algorithm that is optimal when learning linear operators betwee
     
-[^37]: Bayesian神经网络中的近似阻塞Gibbs采样
+[^38]: Bayesian神经网络中的近似阻塞Gibbs采样
 
     Approximate blocked Gibbs sampling for Bayesian neural networks. (arXiv:2208.11389v3 [stat.ML] UPDATED)
 
@@ -568,7 +583,7 @@
 
     In this work, minibatch MCMC sampling for feedforward neural networks is made more feasible. To this end, it is proposed to sample subgroups of parameters via a blocked Gibbs sampling scheme. By partitioning the parameter space, sampling is possible irrespective of layer width. It is also possible to alleviate vanishing acceptance rates for increasing depth by reducing the proposal variance in deeper layers. Increasing the length of a non-convergent chain increases the predictive accuracy in classification tasks, so avoiding vanishing acceptance rates and consequently enabling longer chain runs have practical benefits. Moreover, non-convergent chain realizations aid in the quantification of predictive uncertainty. An open problem is how to perform minibatch MCMC sampling for feedforward neural networks in the presence of augmented data.
     
-[^38]: 基于边缘分布的非参数消费者选择建模方法
+[^39]: 基于边缘分布的非参数消费者选择建模方法
 
     A Nonparametric Approach with Marginals for Modeling Consumer Choice. (arXiv:2208.06115v2 [stat.ML] UPDATED)
 
@@ -582,7 +597,7 @@
 
     Given data on choices made by consumers for different assortments, a key challenge is to develop parsimonious models that describe and predict consumer choice behavior. One such choice model is the marginal distribution model which requires only the specification of the marginal distributions of the random utilities of the alternatives to explain choice data. In this paper, we develop an exact characterisation of the set of choice probabilities which are representable by the marginal distribution model consistently across any collection of assortments. Allowing for the possibility of alternatives to be grouped based on the marginal distribution of their utilities, we show (a) verifying consistency of choice probability data with this model is possible in polynomial time and (b) finding the closest fit reduces to solving a mixed integer convex program. Our results show that the marginal distribution model provides much better representational power as compared to multinomial logit and m
     
-[^39]: TF-GNN: TensorFlow中的图神经网络
+[^40]: TF-GNN: TensorFlow中的图神经网络
 
     TF-GNN: Graph Neural Networks in TensorFlow. (arXiv:2207.03522v2 [cs.LG] UPDATED)
 
@@ -596,7 +611,7 @@
 
     TensorFlow-GNN (TF-GNN) is a scalable library for Graph Neural Networks in TensorFlow. It is designed from the bottom up to support the kinds of rich heterogeneous graph data that occurs in today's information ecosystems. In addition to enabling machine learning researchers and advanced developers, TF-GNN offers low-code solutions to empower the broader developer community in graph learning. Many production models at Google use TF-GNN, and it has been recently released as an open source project. In this paper we describe the TF-GNN data model, its Keras message passing API, and relevant capabilities such as graph sampling and distributed training.
     
-[^40]: 当个性化造成伤害时：重新考虑在预测中使用群体属性
+[^41]: 当个性化造成伤害时：重新考虑在预测中使用群体属性
 
     When Personalization Harms: Reconsidering the Use of Group Attributes in Prediction. (arXiv:2206.02058v3 [stat.ML] UPDATED)
 
@@ -610,7 +625,7 @@
 
     Machine learning models are often personalized with categorical attributes that are protected, sensitive, self-reported, or costly to acquire. In this work, we show models that are personalized with group attributes can reduce performance at a group level. We propose formal conditions to ensure the "fair use" of group attributes in prediction tasks by training one additional model -- i.e., collective preference guarantees to ensure that each group who provides personal data will receive a tailored gain in performance in return. We present sufficient conditions to ensure fair use in empirical risk minimization and characterize failure modes that lead to fair use violations due to standard practices in model development and deployment. We present a comprehensive empirical study of fair use in clinical prediction tasks. Our results demonstrate the prevalence of fair use violations in practice and illustrate simple interventions to mitigate their harm.
     
-[^41]: 图神经网络的表达能力：通过代数分析改进表达性能
+[^42]: 图神经网络的表达能力：通过代数分析改进表达性能
 
     Representation Power of Graph Neural Networks: Improved Expressivity via Algebraic Analysis. (arXiv:2205.09801v3 [cs.LG] UPDATED)
 
@@ -624,7 +639,7 @@
 
     Despite the remarkable success of Graph Neural Networks (GNNs), the common belief is that their representation power is limited and that they are at most as expressive as the Weisfeiler-Lehman (WL) algorithm. In this paper, we argue the opposite and show that standard GNNs, with anonymous inputs, produce more discriminative representations than the WL algorithm. Our novel analysis employs linear algebraic tools and characterizes the representation power of GNNs with respect to the eigenvalue decomposition of the graph operators. We prove that GNNs are able to generate distinctive outputs from white uninformative inputs, for, at least, all graphs that have different eigenvalues. We also show that simple convolutional architectures with white inputs, produce equivariant features that count the closed paths in the graph and are provably more expressive than the WL representations. Thorough experimental analysis on graph isomorphism and graph classification datasets corroborates our theore
     
-[^42]: 噪声设置中的相似性泛化：DIBS现象
+[^43]: 噪声设置中的相似性泛化：DIBS现象
 
     Generalizing similarity in noisy setups: the DIBS phenomenon. (arXiv:2201.12803v3 [cs.LG] UPDATED)
 
@@ -638,7 +653,7 @@
 
     This work uncovers an interplay among data density, noise, and the generalization ability in similarity learning. We consider Siamese Neural Networks (SNNs), which are the basic form of contrastive learning, and explore two types of noise that can impact SNNs, Pair Label Noise (PLN) and Single Label Noise (SLN). Our investigation reveals that SNNs exhibit double descent behaviour regardless of the training setup and that it is further exacerbated by noise. We demonstrate that the density of data pairs is crucial for generalization. When SNNs are trained on sparse datasets with the same amount of PLN or SLN, they exhibit comparable generalization properties. However, when using dense datasets, PLN cases generalize worse than SLN ones in the overparametrized region, leading to a phenomenon we call Density-Induced Break of Similarity (DIBS). In this regime, PLN similarity violation becomes macroscopical, corrupting the dataset to the point where complete interpolation cannot be achieved, 
     
-[^43]: 学习树状三维物体的几何和拓扑的生成模型
+[^44]: 学习树状三维物体的几何和拓扑的生成模型
 
     Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects. (arXiv:2110.08693v2 [cs.LG] UPDATED)
 
@@ -652,7 +667,7 @@
 
     How can one analyze detailed 3D biological objects, such as neurons and botanical trees, that exhibit complex geometrical and topological variation? In this paper, we develop a novel mathematical framework for representing, comparing, and computing geodesic deformations between the shapes of such tree-like 3D objects. A hierarchical organization of subtrees characterizes these objects -- each subtree has the main branch with some side branches attached -- and one needs to match these structures across objects for meaningful comparisons. We propose a novel representation that extends the Square-Root Velocity Function (SRVF), initially developed for Euclidean curves, to tree-shaped 3D objects. We then define a new metric that quantifies the bending, stretching, and branch sliding needed to deform one tree-shaped object into the other. Compared to the current metrics, such as the Quotient Euclidean Distance (QED) and the Tree Edit Distance (TED), the proposed representation and metric cap
     
-[^44]: 从观察数据中学习最优的处方树
+[^45]: 从观察数据中学习最优的处方树
 
     Learning Optimal Prescriptive Trees from Observational Data. (arXiv:2108.13628v2 [cs.LG] UPDATED)
 
@@ -666,7 +681,7 @@
 
     We consider the problem of learning an optimal prescriptive tree (i.e., an interpretable treatment assignment policy in the form of a binary tree) of moderate depth, from observational data. This problem arises in numerous socially important domains such as public health and personalized medicine, where interpretable and data-driven interventions are sought based on data gathered in deployment -- through passive collection of data -- rather than from randomized trials. We propose a method for learning optimal prescriptive trees using mixed-integer optimization (MIO) technology. We show that under mild conditions our method is asymptotically exact in the sense that it converges to an optimal out-of-sample treatment assignment policy as the number of historical data samples tends to infinity. Contrary to existing literature, our approach: 1) does not require data to be randomized, 2) does not impose stringent assumptions on the learned trees, and 3) has the ability to model domain specif
     
-[^45]: 学习具有潜在混淆因素的高斯图模型
+[^46]: 学习具有潜在混淆因素的高斯图模型
 
     Learning Gaussian Graphical Models with Latent Confounders. (arXiv:2105.06600v2 [stat.ME] UPDATED)
 
