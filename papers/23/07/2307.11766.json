@@ -1,0 +1,12 @@
+{
+    "title": "Three-way Decisions with Evaluative Linguistic Expressions. (arXiv:2307.11766v1 [cs.CL])",
+    "abstract": "We propose a linguistic interpretation of three-way decisions, where the regions of acceptance, rejection, and non-commitment are constructed by using the so-called evaluative linguistic expressions, which are expressions of natural language such as small, medium, very short, quite roughly strong, extremely good, etc. Our results highlight new connections between two different research areas: three-way decisions and the theory of evaluative linguistic expressions.",
+    "link": "http://arxiv.org/abs/2307.11766",
+    "context": "Title: Three-way Decisions with Evaluative Linguistic Expressions. (arXiv:2307.11766v1 [cs.CL])\nAbstract: We propose a linguistic interpretation of three-way decisions, where the regions of acceptance, rejection, and non-commitment are constructed by using the so-called evaluative linguistic expressions, which are expressions of natural language such as small, medium, very short, quite roughly strong, extremely good, etc. Our results highlight new connections between two different research areas: three-way decisions and the theory of evaluative linguistic expressions.",
+    "path": "papers/23/07/2307.11766.json",
+    "total_tokens": 576,
+    "translated_title": "使用评价性语言表达进行三元决策",
+    "translated_abstract": "我们提出了对三元决策的语言解释，其中接受、拒绝和不承诺的区域是通过使用评价性语言表达构建的，这些表达是自然语言中的表达，比如小、中、非常短、相当粗糙强烈、极好等。我们的结果突出了两个不同研究领域之间的新联系：三元决策和评价性语言表达理论。",
+    "tldr": "本文提出了使用评价性语言表达进行三元决策的方法，并发现了三元决策和评价性语言表达理论之间的新联系。",
+    "en_tdlr": "This paper proposes a method of using evaluative linguistic expressions for three-way decisions and discovers new connections between three-way decisions and the theory of evaluative linguistic expressions."
+}

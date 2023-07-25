@@ -1,0 +1,12 @@
+{
+    "title": "Machine learning discovers invariants of braids and flat braids. (arXiv:2307.12185v1 [math.GT])",
+    "abstract": "We use machine learning to classify examples of braids (or flat braids) as trivial or non-trivial. Our ML takes form of supervised learning using neural networks (multilayer perceptrons). When they achieve good results in classification, we are able to interpret their structure as mathematical conjectures and then prove these conjectures as theorems. As a result, we find new convenient invariants of braids, including a complete invariant of flat braids.",
+    "link": "http://arxiv.org/abs/2307.12185",
+    "context": "Title: Machine learning discovers invariants of braids and flat braids. (arXiv:2307.12185v1 [math.GT])\nAbstract: We use machine learning to classify examples of braids (or flat braids) as trivial or non-trivial. Our ML takes form of supervised learning using neural networks (multilayer perceptrons). When they achieve good results in classification, we are able to interpret their structure as mathematical conjectures and then prove these conjectures as theorems. As a result, we find new convenient invariants of braids, including a complete invariant of flat braids.",
+    "path": "papers/23/07/2307.12185.json",
+    "total_tokens": 616,
+    "translated_title": "机器学习发现辫子和平面辫子的不变量",
+    "translated_abstract": "我们使用机器学习将辫子（或平面辫子）的示例分类为平凡或非平凡。我们的机器学习采用了神经网络（多层感知器）的监督学习形式。当它们在分类任务上取得良好的结果时，我们能够将它们的结构解释为数学猜想，然后证明这些猜想成为定理。结果，在辫子中找到了新的便利不变量，包括平面辫子的完全不变量。",
+    "tldr": "本研究使用机器学习对辫子和平面辫子进行分类，得出了新的便利不变量，包括平面辫子的完全不变量。",
+    "en_tdlr": "This research uses machine learning to classify braids and flat braids, resulting in new convenient invariants, including a complete invariant of flat braids."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "GANDALF: Gated Adaptive Network for Deep Automated Learning of Features. (arXiv:2207.08548v5 [cs.LG] UPDATED)",
+    "abstract": "We propose a novel high-performance, interpretable, and parameter \\& computationally efficient deep learning architecture for tabular data, Gated Adaptive Network for Deep Automated Learning of Features (GANDALF). GANDALF relies on a new tabular processing unit with a gating mechanism and in-built feature selection called Gated Feature Learning Unit (GFLU) as a feature representation learning unit. We demonstrate that GANDALF outperforms or stays at-par with SOTA approaches like XGBoost, SAINT, FT-Transformers, etc. by experiments on multiple established public benchmarks. We have made available the code at github.com/manujosephv/pytorch_tabular under MIT License.",
+    "link": "http://arxiv.org/abs/2207.08548",
+    "context": "Title: GANDALF: Gated Adaptive Network for Deep Automated Learning of Features. (arXiv:2207.08548v5 [cs.LG] UPDATED)\nAbstract: We propose a novel high-performance, interpretable, and parameter \\& computationally efficient deep learning architecture for tabular data, Gated Adaptive Network for Deep Automated Learning of Features (GANDALF). GANDALF relies on a new tabular processing unit with a gating mechanism and in-built feature selection called Gated Feature Learning Unit (GFLU) as a feature representation learning unit. We demonstrate that GANDALF outperforms or stays at-par with SOTA approaches like XGBoost, SAINT, FT-Transformers, etc. by experiments on multiple established public benchmarks. We have made available the code at github.com/manujosephv/pytorch_tabular under MIT License.",
+    "path": "papers/22/07/2207.08548.json",
+    "total_tokens": 796,
+    "translated_title": "GANDALF: 用于深度自动化特征学习的门控自适应网络",
+    "translated_abstract": "我们提出了一种新颖的高性能、可解释、参数和计算效率高的深度学习架构，用于表格数据，称为GANDALF（Gated Adaptive Network for Deep Automated Learning of Features）。GANDALF依赖于一个具有门控机制和内置特征选择的新的表格处理单元，称为门控特征学习单元（GFLU），作为特征表示学习单元。通过对多个公开的基准测试进行实验证明，GANDALF在性能上优于或与XGBoost、SAINT、FT-Transformers等最先进的方法持平。我们已经将代码在github.com/manujosephv/pytorch_tabular上以MIT许可证的形式提供。",
+    "tldr": "GANDALF是一种用于表格数据的高性能深度学习架构，具有解释性和计算效率高的特点。通过引入门控特征学习单元，GANDALF能够实现更好的性能，并且在多个公开基准测试中优于或与其他最先进的方法持平。"
+}

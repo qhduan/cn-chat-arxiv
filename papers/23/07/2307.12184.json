@@ -1,0 +1,11 @@
+{
+    "title": "On the Expressivity of Multidimensional Markov Reward. (arXiv:2307.12184v1 [cs.AI])",
+    "abstract": "We consider the expressivity of Markov rewards in sequential decision making under uncertainty. We view reward functions in Markov Decision Processes (MDPs) as a means to characterize desired behaviors of agents. Assuming desired behaviors are specified as a set of acceptable policies, we investigate if there exists a scalar or multidimensional Markov reward function that makes the policies in the set more desirable than the other policies. Our main result states both necessary and sufficient conditions for the existence of such reward functions. We also show that for every non-degenerate set of deterministic policies, there exists a multidimensional Markov reward function that characterizes it",
+    "link": "http://arxiv.org/abs/2307.12184",
+    "context": "Title: On the Expressivity of Multidimensional Markov Reward. (arXiv:2307.12184v1 [cs.AI])\nAbstract: We consider the expressivity of Markov rewards in sequential decision making under uncertainty. We view reward functions in Markov Decision Processes (MDPs) as a means to characterize desired behaviors of agents. Assuming desired behaviors are specified as a set of acceptable policies, we investigate if there exists a scalar or multidimensional Markov reward function that makes the policies in the set more desirable than the other policies. Our main result states both necessary and sufficient conditions for the existence of such reward functions. We also show that for every non-degenerate set of deterministic policies, there exists a multidimensional Markov reward function that characterizes it",
+    "path": "papers/23/07/2307.12184.json",
+    "total_tokens": 758,
+    "translated_title": "多维马尔可夫奖励的表达能力",
+    "translated_abstract": "我们考虑在不确定性下的顺序决策中，马尔可夫奖励的表达能力。我们将马尔可夫决策过程（MDPs）中的奖励函数视为描述代理行为的手段。假设期望行为被指定为一组可接受策略，我们研究是否存在一个标量或多维马尔可夫奖励函数使得该集合中的策略比其他策略更理想。我们的主要结果陈述了存在这样的奖励函数的必要和充分条件。我们还展示了对于每个非退化的确定性策略集合，都存在一个多维马尔可夫奖励函数来描述它。",
+    "tldr": "这篇论文研究了马尔可夫奖励在顺序决策中的表达能力，给出了存在这样的奖励函数的条件，并证明了每个非退化的确定性策略集合都可以用多维马尔可夫奖励函数来描述。"
+}

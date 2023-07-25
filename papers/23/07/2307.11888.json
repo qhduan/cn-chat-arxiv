@@ -1,0 +1,11 @@
+{
+    "title": "On the Universality of Linear Recurrences Followed by Nonlinear Projections. (arXiv:2307.11888v1 [cs.LG])",
+    "abstract": "In this note (work in progress towards a full-length paper) we show that a family of sequence models based on recurrent linear layers~(including S4, S5, and the LRU) interleaved with position-wise multi-layer perceptrons~(MLPs) can approximate arbitrarily well any sufficiently regular non-linear sequence-to-sequence map. The main idea behind our result is to see recurrent layers as compression algorithms that can faithfully store information about the input sequence into an inner state, before it is processed by the highly expressive MLP.",
+    "link": "http://arxiv.org/abs/2307.11888",
+    "context": "Title: On the Universality of Linear Recurrences Followed by Nonlinear Projections. (arXiv:2307.11888v1 [cs.LG])\nAbstract: In this note (work in progress towards a full-length paper) we show that a family of sequence models based on recurrent linear layers~(including S4, S5, and the LRU) interleaved with position-wise multi-layer perceptrons~(MLPs) can approximate arbitrarily well any sufficiently regular non-linear sequence-to-sequence map. The main idea behind our result is to see recurrent layers as compression algorithms that can faithfully store information about the input sequence into an inner state, before it is processed by the highly expressive MLP.",
+    "path": "papers/23/07/2307.11888.json",
+    "total_tokens": 632,
+    "translated_title": "关于线性递推和非线性投影的普遍性",
+    "translated_abstract": "在这篇注释（作为一篇全文论文的工作进展）中，我们展示了一族基于循环线性层（包括S4、S5和LRU）和位置逐元素多层感知器（MLPs）的序列模型可以很好地逼近任意规则的非线性序列到序列映射。我们的结果背后的主要思想是将循环层视为可以忠实地存储输入序列信息到内部状态的压缩算法，然后由高度表达能力的MLP进行处理。",
+    "tldr": "本论文展示了一种基于循环线性层和多层感知器的序列模型可以逼近任何规则的非线性序列到序列映射。"
+}

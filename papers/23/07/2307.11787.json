@@ -1,0 +1,12 @@
+{
+    "title": "LLM Cognitive Judgements Differ From Human. (arXiv:2307.11787v1 [cs.CL])",
+    "abstract": "Large Language Models (LLMs) have lately been on the spotlight of researchers, businesses, and consumers alike. While the linguistic capabilities of such models have been studied extensively, there is growing interest in investigating them as cognitive subjects. In the present work I examine GPT-3 and ChatGPT capabilities on an limited-data inductive reasoning task from the cognitive science literature. The results suggest that these models' cognitive judgements are not human-like.",
+    "link": "http://arxiv.org/abs/2307.11787",
+    "context": "Title: LLM Cognitive Judgements Differ From Human. (arXiv:2307.11787v1 [cs.CL])\nAbstract: Large Language Models (LLMs) have lately been on the spotlight of researchers, businesses, and consumers alike. While the linguistic capabilities of such models have been studied extensively, there is growing interest in investigating them as cognitive subjects. In the present work I examine GPT-3 and ChatGPT capabilities on an limited-data inductive reasoning task from the cognitive science literature. The results suggest that these models' cognitive judgements are not human-like.",
+    "path": "papers/23/07/2307.11787.json",
+    "total_tokens": 586,
+    "translated_title": "LLM认知判断与人类有所不同",
+    "translated_abstract": "最近，大型语言模型(LLMs)成为研究人员、企业和消费者关注的焦点。虽然这类模型的语言能力已经得到了广泛的研究，但对它们作为认知主体的调查越来越受关注。在本研究中，我对GPT-3和ChatGPT在一个来自认知科学文献的有限数据归纳推理任务上的能力进行了研究。结果表明，这些模型的认知判断与人类不同。",
+    "tldr": "这项研究调查了大型语言模型在认知任务中的表现，并发现它们的认知判断与人类不同。",
+    "en_tdlr": "This study investigates the performance of large language models in cognitive tasks and finds that their cognitive judgments differ from those of humans."
+}

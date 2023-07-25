@@ -1,0 +1,12 @@
+{
+    "title": "A faster and simpler algorithm for learning shallow networks. (arXiv:2307.12496v1 [cs.LG])",
+    "abstract": "We revisit the well-studied problem of learning a linear combination of $k$ ReLU activations given labeled examples drawn from the standard $d$-dimensional Gaussian measure. Chen et al. [CDG+23] recently gave the first algorithm for this problem to run in $\\text{poly}(d,1/\\varepsilon)$ time when $k = O(1)$, where $\\varepsilon$ is the target error. More precisely, their algorithm runs in time $(d/\\varepsilon)^{\\mathrm{quasipoly}(k)}$ and learns over multiple stages. Here we show that a much simpler one-stage version of their algorithm suffices, and moreover its runtime is only $(d/\\varepsilon)^{O(k^2)}$.",
+    "link": "http://arxiv.org/abs/2307.12496",
+    "context": "Title: A faster and simpler algorithm for learning shallow networks. (arXiv:2307.12496v1 [cs.LG])\nAbstract: We revisit the well-studied problem of learning a linear combination of $k$ ReLU activations given labeled examples drawn from the standard $d$-dimensional Gaussian measure. Chen et al. [CDG+23] recently gave the first algorithm for this problem to run in $\\text{poly}(d,1/\\varepsilon)$ time when $k = O(1)$, where $\\varepsilon$ is the target error. More precisely, their algorithm runs in time $(d/\\varepsilon)^{\\mathrm{quasipoly}(k)}$ and learns over multiple stages. Here we show that a much simpler one-stage version of their algorithm suffices, and moreover its runtime is only $(d/\\varepsilon)^{O(k^2)}$.",
+    "path": "papers/23/07/2307.12496.json",
+    "total_tokens": 624,
+    "translated_title": "学习浅层网络的一种更快更简单的算法",
+    "translated_abstract": "我们重新研究了学习线性组合的ReLU激活函数的问题，给出了一种在多个阶段内运行的算法，其时间复杂度为$(d/\\varepsilon)^{\\mathrm{quasipoly}(k)}$。本文表明，一个更简单的单阶段版本的该算法就足够了，而且其运行时间只有$(d/\\varepsilon)^{O(k^2)}$。",
+    "tldr": "本文提出了一种更简单的算法来学习浅层网络，其运行时间更短且只需要一个阶段即可。",
+    "en_tdlr": "This paper proposes a simpler algorithm for learning shallow networks, which has shorter runtime and only requires one stage."
+}

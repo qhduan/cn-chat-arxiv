@@ -1,0 +1,11 @@
+{
+    "title": "The Extractive-Abstractive Axis: Measuring Content \"Borrowing\" in Generative Language Models. (arXiv:2307.11779v1 [cs.CL])",
+    "abstract": "Generative language models produce highly abstractive outputs by design, in contrast to extractive responses in search engines. Given this characteristic of LLMs and the resulting implications for content Licensing & Attribution, we propose the the so-called Extractive-Abstractive axis for benchmarking generative models and highlight the need for developing corresponding metrics, datasets and annotation guidelines. We limit our discussion to the text modality.",
+    "link": "http://arxiv.org/abs/2307.11779",
+    "context": "Title: The Extractive-Abstractive Axis: Measuring Content \"Borrowing\" in Generative Language Models. (arXiv:2307.11779v1 [cs.CL])\nAbstract: Generative language models produce highly abstractive outputs by design, in contrast to extractive responses in search engines. Given this characteristic of LLMs and the resulting implications for content Licensing & Attribution, we propose the the so-called Extractive-Abstractive axis for benchmarking generative models and highlight the need for developing corresponding metrics, datasets and annotation guidelines. We limit our discussion to the text modality.",
+    "path": "papers/23/07/2307.11779.json",
+    "total_tokens": 622,
+    "translated_title": "Generate的语言模型中的提取-摘要轴:测量内容\"借用\"",
+    "translated_abstract": "生成语言模型通过设计产生高度摘要的输出，与搜索引擎中的提取式响应形成对比。鉴于LLMs的这一特点及其对内容许可和归属的影响，我们提出了所谓的提取-摘要轴，用于基准测试生成模型，并强调开发相应的度量标准、数据集和注释指南的需要。我们将讨论限制在文本形式上。",
+    "tldr": "该论文提出了一个名为提取-摘要轴的概念，用于衡量生成语言模型中内容的\"借用\"程度，并提出了开发相应度量标准、数据集和注释指南的需求。"
+}

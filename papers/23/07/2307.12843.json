@@ -1,0 +1,12 @@
+{
+    "title": "The multidimensional COS method for option pricing. (arXiv:2307.12843v1 [q-fin.CP])",
+    "abstract": "The multidimensional COS method is a numerical tool to price financial options, which depend on several underlyings. The method makes use of the characteristic function $\\varphi$ of the logarithmic returns of the underlyings and it is advantageous if the Fourier-cosine coefficients $v_{\\boldsymbol{k}}$ of the payoff function are given in closed-form. However, in important cases, neither $\\varphi$ nor $v_{\\boldsymbol{k}}$ are given analytically but need to be recovered numerically. In this article, we prove the convergence of the multidimensional COS method including numerical uncertainty on $\\varphi$ and $v_{\\boldsymbol{k}}$. Our analysis helps to understand how the approximation errors on $\\varphi$ and $v_{\\boldsymbol{k}}$ propagate in the COS method.",
+    "link": "http://arxiv.org/abs/2307.12843",
+    "context": "Title: The multidimensional COS method for option pricing. (arXiv:2307.12843v1 [q-fin.CP])\nAbstract: The multidimensional COS method is a numerical tool to price financial options, which depend on several underlyings. The method makes use of the characteristic function $\\varphi$ of the logarithmic returns of the underlyings and it is advantageous if the Fourier-cosine coefficients $v_{\\boldsymbol{k}}$ of the payoff function are given in closed-form. However, in important cases, neither $\\varphi$ nor $v_{\\boldsymbol{k}}$ are given analytically but need to be recovered numerically. In this article, we prove the convergence of the multidimensional COS method including numerical uncertainty on $\\varphi$ and $v_{\\boldsymbol{k}}$. Our analysis helps to understand how the approximation errors on $\\varphi$ and $v_{\\boldsymbol{k}}$ propagate in the COS method.",
+    "path": "papers/23/07/2307.12843.json",
+    "total_tokens": 740,
+    "translated_title": "多维COS方法用于期权定价",
+    "translated_abstract": "多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。该方法利用标的的对数收益率的特征函数φ，并且当支付函数的傅里叶余弦系数v_k以闭式形式给定时，具有优势。然而，在重要情况下，φ和v_k都没有解析地给出，而需要通过数值方法恢复。在本文中，我们证明了多维COS方法的收敛性，包括对φ和v_k的数值不确定度的考虑。我们的分析有助于理解COS方法中对φ和v_k的近似误差如何传播。",
+    "tldr": "多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。",
+    "en_tdlr": "The multidimensional COS method is a numerical tool for pricing financial options that depend on multiple underlyings. This article proves the convergence of the method and analyzes the impact of numerical uncertainty on its results."
+}

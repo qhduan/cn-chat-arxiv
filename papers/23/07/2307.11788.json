@@ -1,0 +1,12 @@
+{
+    "title": "Applying QNLP to sentiment analysis in finance. (arXiv:2307.11788v1 [cs.CL])",
+    "abstract": "As an application domain where the slightest qualitative improvements can yield immense value, finance is a promising candidate for early quantum advantage. Focusing on the rapidly advancing field of Quantum Natural Language Processing (QNLP), we explore the practical applicability of the two central approaches DisCoCat and Quantum-Enhanced Long Short-Term Memory (QLSTM) to the problem of sentiment analysis in finance. Utilizing a novel ChatGPT-based data generation approach, we conduct a case study with more than 1000 realistic sentences and find that QLSTMs can be trained substantially faster than DisCoCat while also achieving close to classical results for their available software implementations.",
+    "link": "http://arxiv.org/abs/2307.11788",
+    "context": "Title: Applying QNLP to sentiment analysis in finance. (arXiv:2307.11788v1 [cs.CL])\nAbstract: As an application domain where the slightest qualitative improvements can yield immense value, finance is a promising candidate for early quantum advantage. Focusing on the rapidly advancing field of Quantum Natural Language Processing (QNLP), we explore the practical applicability of the two central approaches DisCoCat and Quantum-Enhanced Long Short-Term Memory (QLSTM) to the problem of sentiment analysis in finance. Utilizing a novel ChatGPT-based data generation approach, we conduct a case study with more than 1000 realistic sentences and find that QLSTMs can be trained substantially faster than DisCoCat while also achieving close to classical results for their available software implementations.",
+    "path": "papers/23/07/2307.11788.json",
+    "total_tokens": 802,
+    "translated_title": "在金融行业中应用量子自然语言处理(QNLP)进行情感分析",
+    "translated_abstract": "作为一个领域，即使是最微小的质量改进也能产生巨大价值的应用领域，金融是早期量子优势的有前途的候选者。在迅速发展的量子自然语言处理(QNLP)领域中，我们探索了DisCoCat和量子增强的长短期记忆(QNLP)这两种中心方法在金融情感分析问题中的实际适用性。利用一种新颖的基于ChatGPT的数据生成方法，我们进行了一个包含1000多个真实句子的案例研究，发现QLSTM的训练速度比DisCoCat快得多，并且在可用的软件实现中也接近古典结果。",
+    "tldr": "本论文研究了在金融行业中应用量子自然语言处理(QNLP)进行情感分析的实际适用性。利用一种新颖的数据生成方法，我们发现量子增强的长短期记忆(QLSTM)可以更快地训练，并且在软件实现方面接近古典结果。",
+    "en_tdlr": "This paper explores the practical applicability of using Quantum Natural Language Processing (QNLP) for sentiment analysis in finance. Using a novel data generation approach, the study finds that Quantum-Enhanced Long Short-Term Memory (QLSTM) can be trained faster and achieves results close to classical approaches in software implementations."
+}

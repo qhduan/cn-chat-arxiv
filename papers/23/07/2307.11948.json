@@ -1,0 +1,12 @@
+{
+    "title": "The instabilities of large learning rate training: a loss landscape view. (arXiv:2307.11948v1 [cs.LG])",
+    "abstract": "Modern neural networks are undeniably successful. Numerous works study how the curvature of loss landscapes can affect the quality of solutions. In this work we study the loss landscape by considering the Hessian matrix during network training with large learning rates - an attractive regime that is (in)famously unstable. We characterise the instabilities of gradient descent, and we observe the striking phenomena of \\textit{landscape flattening} and \\textit{landscape shift}, both of which are intimately connected to the instabilities of training.",
+    "link": "http://arxiv.org/abs/2307.11948",
+    "context": "Title: The instabilities of large learning rate training: a loss landscape view. (arXiv:2307.11948v1 [cs.LG])\nAbstract: Modern neural networks are undeniably successful. Numerous works study how the curvature of loss landscapes can affect the quality of solutions. In this work we study the loss landscape by considering the Hessian matrix during network training with large learning rates - an attractive regime that is (in)famously unstable. We characterise the instabilities of gradient descent, and we observe the striking phenomena of \\textit{landscape flattening} and \\textit{landscape shift}, both of which are intimately connected to the instabilities of training.",
+    "path": "papers/23/07/2307.11948.json",
+    "total_tokens": 675,
+    "translated_title": "大学习率训练的不稳定性: 一个损失景观的视角",
+    "translated_abstract": "现代神经网络无疑取得了巨大的成功。许多研究探讨了损失景观的曲率如何影响解的质量。本研究通过考虑Hessian矩阵来研究损失景观，在使用大学习率进行网络训练时，我们发现了（非）著名的不稳定性。我们对梯度下降的不稳定性进行了表征，并观察到了损失景观的变平和变移的引人注目现象，这两者都与训练的不稳定性密切相关。",
+    "tldr": "本论文研究了大学习率下网络训练的损失景观，并发现了梯度下降的不稳定性现象，包括景观变平和景观变移。",
+    "en_tdlr": "This paper studies the loss landscape during network training with large learning rates, and identifies the instabilities of gradient descent, such as landscape flattening and landscape shift."
+}

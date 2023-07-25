@@ -1,0 +1,11 @@
+{
+    "title": "Social and individual learning in the Minority Game. (arXiv:2307.11846v1 [physics.soc-ph])",
+    "abstract": "We study the roles of social and individual learning on outcomes of the Minority Game model of a financial market. Social learning occurs via agents adopting the strategies of their neighbours within a social network, while individual learning results in agents changing their strategies without input from other agents. In particular, we show how social learning can undermine efficiency of the market due to negative frequency dependent selection and loss of strategy diversity. The latter of which can lock the population into a maximally inefficient state. We show how individual learning can rescue a population engaged in social learning from such inefficiencies.",
+    "link": "http://arxiv.org/abs/2307.11846",
+    "context": "Title: Social and individual learning in the Minority Game. (arXiv:2307.11846v1 [physics.soc-ph])\nAbstract: We study the roles of social and individual learning on outcomes of the Minority Game model of a financial market. Social learning occurs via agents adopting the strategies of their neighbours within a social network, while individual learning results in agents changing their strategies without input from other agents. In particular, we show how social learning can undermine efficiency of the market due to negative frequency dependent selection and loss of strategy diversity. The latter of which can lock the population into a maximally inefficient state. We show how individual learning can rescue a population engaged in social learning from such inefficiencies.",
+    "path": "papers/23/07/2307.11846.json",
+    "total_tokens": 706,
+    "translated_title": "“少数派游戏中的社会和个体学习”",
+    "translated_abstract": "本文研究了社交和个体学习在金融市场模型——少数派游戏中的作用。社交学习是指代理人采纳其社交网络中邻居的策略，而个体学习则是指代理人在没有其他代理人的参与下改变策略。具体而言，我们展示了社交学习如何通过负频率依赖选择和策略多样性的丧失来削弱市场的效率。后者可以将人群困在一种极低效的状态中。我们还展示了个体学习如何从这些低效中拯救社交学习中的人群。",
+    "tldr": "本文探讨了社交和个体学习在金融市场模型中的作用，发现社交学习会削弱市场效率，而个体学习则可以拯救从社交学习中陷入低效状态的人群。"
+}

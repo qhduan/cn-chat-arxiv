@@ -1,0 +1,12 @@
+{
+    "title": "CFR-p: Counterfactual Regret Minimization with Hierarchical Policy Abstraction, and its Application to Two-player Mahjong. (arXiv:2307.12087v1 [cs.AI])",
+    "abstract": "Counterfactual Regret Minimization(CFR) has shown its success in Texas Hold'em poker. We apply this algorithm to another popular incomplete information game, Mahjong. Compared to the poker game, Mahjong is much more complex with many variants. We study two-player Mahjong by conducting game theoretical analysis and making a hierarchical abstraction to CFR based on winning policies. This framework can be generalized to other imperfect information games.",
+    "link": "http://arxiv.org/abs/2307.12087",
+    "context": "Title: CFR-p: Counterfactual Regret Minimization with Hierarchical Policy Abstraction, and its Application to Two-player Mahjong. (arXiv:2307.12087v1 [cs.AI])\nAbstract: Counterfactual Regret Minimization(CFR) has shown its success in Texas Hold'em poker. We apply this algorithm to another popular incomplete information game, Mahjong. Compared to the poker game, Mahjong is much more complex with many variants. We study two-player Mahjong by conducting game theoretical analysis and making a hierarchical abstraction to CFR based on winning policies. This framework can be generalized to other imperfect information games.",
+    "path": "papers/23/07/2307.12087.json",
+    "total_tokens": 662,
+    "translated_title": "CFR-p: 带有分层策略抽象的反事实遗憾最小化算法及其在两人麻将中的应用",
+    "translated_abstract": "反事实遗憾最小化(CFR)算法在德州扑克中取得了成功。我们将该算法应用于另一种流行的不完全信息游戏，麻将。与扑克游戏相比，麻将更加复杂，有许多变体。我们通过进行博弈论分析并基于获胜策略对CFR进行分层抽象，研究了两人麻将。这个框架可以推广到其他不完全信息游戏。",
+    "tldr": "本研究将反事实遗憾最小化算法应用于两人麻将，并通过分层策略抽象实现了游戏论分析，该框架可推广到其他不完全信息游戏。",
+    "en_tdlr": "This study applies the Counterfactual Regret Minimization algorithm to two-player Mahjong, and achieves game theoretical analysis through hierarchical policy abstraction. This framework can be generalized to other imperfect information games."
+}

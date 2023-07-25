@@ -1,0 +1,12 @@
+{
+    "title": "Prediction of Handball Matches with Statistically Enhanced Learning via Estimated Team Strengths. (arXiv:2307.11777v1 [cs.LG])",
+    "abstract": "We propose a Statistically Enhanced Learning (aka. SEL) model to predict handball games. Our Machine Learning model augmented with SEL features outperforms state-of-the-art models with an accuracy beyond 80%. In this work, we show how we construct the data set to train Machine Learning models on past female club matches. We then compare different models and evaluate them to assess their performance capabilities. Finally, explainability methods allow us to change the scope of our tool from a purely predictive solution to a highly insightful analytical tool. This can become a valuable asset for handball teams' coaches providing valuable statistical and predictive insights to prepare future competitions.",
+    "link": "http://arxiv.org/abs/2307.11777",
+    "context": "Title: Prediction of Handball Matches with Statistically Enhanced Learning via Estimated Team Strengths. (arXiv:2307.11777v1 [cs.LG])\nAbstract: We propose a Statistically Enhanced Learning (aka. SEL) model to predict handball games. Our Machine Learning model augmented with SEL features outperforms state-of-the-art models with an accuracy beyond 80%. In this work, we show how we construct the data set to train Machine Learning models on past female club matches. We then compare different models and evaluate them to assess their performance capabilities. Finally, explainability methods allow us to change the scope of our tool from a purely predictive solution to a highly insightful analytical tool. This can become a valuable asset for handball teams' coaches providing valuable statistical and predictive insights to prepare future competitions.",
+    "path": "papers/23/07/2307.11777.json",
+    "total_tokens": 754,
+    "translated_title": "通过估计团队实力的统计增强学习来预测手球比赛",
+    "translated_abstract": "我们提出了一种统计增强学习模型（即 SEL 模型）来预测手球比赛。我们的机器学习模型通过 SEL 特征的增强表现超过了最先进的模型，准确率超过80%。在这项工作中，我们展示了如何构建数据集，以在过去的女子俱乐部比赛上训练机器学习模型。然后我们比较不同的模型并评估它们来评估其性能能力。最后，可解释性方法使我们能够将我们的工具从纯粹的预测解决方案转变为高度有见解的分析工具。这对于手球队的教练来说可以成为宝贵的资产，提供有价值的统计和预测洞察力，以准备未来的比赛。",
+    "tldr": "通过统计增强学习模型预测手球比赛，准确率超过80%，可以为手球队教练提供有价值的统计和预测洞察力。",
+    "en_tdlr": "Prediction of handball matches using a statistically enhanced learning model with accuracy beyond 80%, providing valuable statistical and predictive insights for handball team coaches."
+}

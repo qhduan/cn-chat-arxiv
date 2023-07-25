@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian Analysis of Linear Contracts. (arXiv:2211.06850v2 [cs.GT] UPDATED)",
+    "abstract": "We provide a justification for the prevalence of linear (commission-based) contracts in practice under the Bayesian framework. We consider a hidden-action principal-agent model, in which actions require different amounts of effort, and the agent's cost per-unit-of-effort is private. We show that linear contracts are near-optimal whenever there is sufficient uncertainty in the principal-agent setting.",
+    "link": "http://arxiv.org/abs/2211.06850",
+    "context": "Title: Bayesian Analysis of Linear Contracts. (arXiv:2211.06850v2 [cs.GT] UPDATED)\nAbstract: We provide a justification for the prevalence of linear (commission-based) contracts in practice under the Bayesian framework. We consider a hidden-action principal-agent model, in which actions require different amounts of effort, and the agent's cost per-unit-of-effort is private. We show that linear contracts are near-optimal whenever there is sufficient uncertainty in the principal-agent setting.",
+    "path": "papers/22/11/2211.06850.json",
+    "total_tokens": 604,
+    "translated_title": "线性合同的贝叶斯分析",
+    "translated_abstract": "我们在贝叶斯框架下为实践中普遍存在的线性（佣金制）合同提供了合理性的证明。我们考虑了一个隐藏行动的委托-代理模型，在该模型中，不同行动需要不同的努力量，并且代理人的努力成本是私有的。我们展示了当在委托-代理环境中存在足够的不确定性时，线性合同是近乎最优的。",
+    "tldr": "本文在贝叶斯框架下为线性合同在实践中普遍存在的原因进行了解释和证明，并表明在线性合同中，当委托-代理环境中存在足够不确定性时，线性合同是近乎最优的。",
+    "en_tdlr": "This paper provides justification and proof for the prevalence of linear contracts in practice under the Bayesian framework, showing that linear contracts are nearly optimal when there is sufficient uncertainty in the principal-agent setting."
+}

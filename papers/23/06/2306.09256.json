@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Some Density Based Clustering Techniques. (arXiv:2306.09256v2 [cs.LG] UPDATED)",
+    "abstract": "Density Based Clustering are a type of Clustering methods using in data mining for extracting previously unknown patterns from data sets. There are a number of density based clustering methods such as DBSCAN, OPTICS, DENCLUE, VDBSCAN, DVBSCAN, DBCLASD and ST-DBSCAN. In this paper, a study of these methods is done along with their characteristics, advantages and disadvantages and most importantly, their applicability to different types of data sets to mine useful and appropriate patterns.",
+    "link": "http://arxiv.org/abs/2306.09256",
+    "context": "Title: A Survey of Some Density Based Clustering Techniques. (arXiv:2306.09256v2 [cs.LG] UPDATED)\nAbstract: Density Based Clustering are a type of Clustering methods using in data mining for extracting previously unknown patterns from data sets. There are a number of density based clustering methods such as DBSCAN, OPTICS, DENCLUE, VDBSCAN, DVBSCAN, DBCLASD and ST-DBSCAN. In this paper, a study of these methods is done along with their characteristics, advantages and disadvantages and most importantly, their applicability to different types of data sets to mine useful and appropriate patterns.",
+    "path": "papers/23/06/2306.09256.json",
+    "total_tokens": 633,
+    "translated_title": "一项关于一些基于密度的聚类技术的调研",
+    "translated_abstract": "基于密度的聚类是数据挖掘中使用的一种聚类方法，用于从数据集中提取以前未知的模式。有许多基于密度的聚类方法，如DBSCAN，OPTICS，DENCLUE，VDBSCAN，DVBSCAN，DBCLASD和ST-DBSCAN。本文对这些方法进行了研究，并分析了它们的特点、优点和缺点，最重要的是它们对不同类型的数据集挖掘有用和适当的模式的适用性。",
+    "tldr": "这项研究调查了一些基于密度的聚类技术，分析了它们的特点、优点和缺点，以及它们在不同类型的数据集上挖掘模式的适用性。",
+    "en_tdlr": "This survey examines several density based clustering techniques, analyzing their characteristics, advantages, disadvantages, and their applicability to mining patterns in different types of datasets."
+}

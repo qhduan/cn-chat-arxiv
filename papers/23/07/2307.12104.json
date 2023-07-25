@@ -1,0 +1,12 @@
+{
+    "title": "Sharing Credit for Joint Research. (arXiv:2307.12104v1 [econ.TH])",
+    "abstract": "I consider a model of strategic experimentation where agents partake in risky research with payoff externalities; a breakthrough grants the discoverer (winner) a different payoff than the non-discoverers (losers). I characterize the first-best solution and show that the noncooperative game is generically inefficient. Simple contracts sharing payoffs between winner and losers restore efficiency, even when actions are unobserved. Alternatively, if the winner's identity is not contractible, contracting on effort only at the time of breakthrough also restores efficiency. These results suggest that although strategic experimentation generically entails inefficiency, sharing credit is a robust and effective remedy.",
+    "link": "http://arxiv.org/abs/2307.12104",
+    "context": "Title: Sharing Credit for Joint Research. (arXiv:2307.12104v1 [econ.TH])\nAbstract: I consider a model of strategic experimentation where agents partake in risky research with payoff externalities; a breakthrough grants the discoverer (winner) a different payoff than the non-discoverers (losers). I characterize the first-best solution and show that the noncooperative game is generically inefficient. Simple contracts sharing payoffs between winner and losers restore efficiency, even when actions are unobserved. Alternatively, if the winner's identity is not contractible, contracting on effort only at the time of breakthrough also restores efficiency. These results suggest that although strategic experimentation generically entails inefficiency, sharing credit is a robust and effective remedy.",
+    "path": "papers/23/07/2307.12104.json",
+    "total_tokens": 724,
+    "translated_title": "共享联合研究的贡献",
+    "translated_abstract": "我考虑了一个战略实验模型，代理人参与具有回报外部性的风险研究；突破性的成果使得发现者（赢家）与未发现者（输家）获得不同的回报。我对最优解进行了描述，并证明了非合作博弈通常是低效的。简单的合同将赢家和输家之间的回报分配进行共享，即使行动不可观测，也能恢复效率。另一方面，如果赢家的身份无法合同化，在突破时仅对努力进行合同化也能恢复效率。这些结果表明，尽管战略实验通常导致低效，但共享贡献是一种稳健且有效的解决方法。",
+    "tldr": "该研究探讨了共享联合研究的贡献，发现简单的合同分配和仅在突破时合同化努力可以恢复效率。",
+    "en_tdlr": "This study examines the sharing of credit for joint research and finds that simple contracts allocating payoff and contracting effort only at the time of breakthrough can restore efficiency."
+}

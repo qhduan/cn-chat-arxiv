@@ -1,0 +1,11 @@
+{
+    "title": "What, Indeed, is an Achievable Provable Guarantee for Learning-Enabled Safety Critical Systems. (arXiv:2307.11784v1 [cs.LG])",
+    "abstract": "Machine learning has made remarkable advancements, but confidently utilising learning-enabled components in safety-critical domains still poses challenges. Among the challenges, it is known that a rigorous, yet practical, way of achieving safety guarantees is one of the most prominent. In this paper, we first discuss the engineering and research challenges associated with the design and verification of such systems. Then, based on the observation that existing works cannot actually achieve provable guarantees, we promote a two-step verification method for the ultimate achievement of provable statistical guarantees.",
+    "link": "http://arxiv.org/abs/2307.11784",
+    "context": "Title: What, Indeed, is an Achievable Provable Guarantee for Learning-Enabled Safety Critical Systems. (arXiv:2307.11784v1 [cs.LG])\nAbstract: Machine learning has made remarkable advancements, but confidently utilising learning-enabled components in safety-critical domains still poses challenges. Among the challenges, it is known that a rigorous, yet practical, way of achieving safety guarantees is one of the most prominent. In this paper, we first discuss the engineering and research challenges associated with the design and verification of such systems. Then, based on the observation that existing works cannot actually achieve provable guarantees, we promote a two-step verification method for the ultimate achievement of provable statistical guarantees.",
+    "path": "papers/23/07/2307.11784.json",
+    "total_tokens": 647,
+    "translated_title": "究竟什么是可实现的可证明保障的学习机制安全关键系统",
+    "translated_abstract": "机器学习取得了显著的进展，但在安全关键领域自信地利用学习机制仍然面临挑战。在这些挑战中，实现安全保证的一种严谨但实用的方法是最为突出的。本文首先讨论了设计和验证这种系统所涉及的工程和研究挑战。然后，基于对现有工作无法实现可证明保证的观察，我们提出了一种两步验证方法，以最终实现可证明的统计保障。",
+    "tldr": "本文讨论了学习机制在安全关键领域的挑战，提出了一种两步验证方法来实现可证明的统计保障。"
+}

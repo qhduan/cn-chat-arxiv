@@ -1,0 +1,11 @@
+{
+    "title": "Cloud Cost Optimization: A Comprehensive Review of Strategies and Case Studies. (arXiv:2307.12479v1 [cs.DC])",
+    "abstract": "Cloud computing has revolutionized the way organizations manage their IT infrastructure, but it has also introduced new challenges, such as managing cloud costs. This paper explores various techniques for cloud cost optimization, including cloud pricing, analysis, and strategies for resource allocation. Real-world case studies of these techniques are presented, along with a discussion of their effectiveness and key takeaways. The analysis conducted in this paper reveals that organizations can achieve significant cost savings by adopting cloud cost optimization techniques. Additionally, future research directions are proposed to advance the state of the art in this important field.",
+    "link": "http://arxiv.org/abs/2307.12479",
+    "context": "Title: Cloud Cost Optimization: A Comprehensive Review of Strategies and Case Studies. (arXiv:2307.12479v1 [cs.DC])\nAbstract: Cloud computing has revolutionized the way organizations manage their IT infrastructure, but it has also introduced new challenges, such as managing cloud costs. This paper explores various techniques for cloud cost optimization, including cloud pricing, analysis, and strategies for resource allocation. Real-world case studies of these techniques are presented, along with a discussion of their effectiveness and key takeaways. The analysis conducted in this paper reveals that organizations can achieve significant cost savings by adopting cloud cost optimization techniques. Additionally, future research directions are proposed to advance the state of the art in this important field.",
+    "path": "papers/23/07/2307.12479.json",
+    "total_tokens": 680,
+    "translated_title": "云成本优化：策略和案例研究的全面综述",
+    "translated_abstract": "云计算已经彻底改变了组织管理其IT基础设施的方式，但也带来了新的挑战，比如管理云成本。本文探讨了云成本优化的各种技术，包括云定价、分析以及资源分配的策略。还提供了这些技术的实际案例研究，并对其有效性和要点进行了讨论。本文的分析表明，采用云成本优化技术可以使组织实现显著的成本节约。此外，还提出了未来研究方向，以推动这一重要领域的发展。",
+    "tldr": "本文综述了云成本优化的各种技术和案例研究，显示组织通过采用这些技术可以实现显著的成本节约。"
+}

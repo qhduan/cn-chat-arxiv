@@ -1,0 +1,12 @@
+{
+    "title": "The Sample Complexity of Multi-Distribution Learning for VC Classes. (arXiv:2307.12135v1 [cs.LG])",
+    "abstract": "Multi-distribution learning is a natural generalization of PAC learning to settings with multiple data distributions. There remains a significant gap between the known upper and lower bounds for PAC-learnable classes. In particular, though we understand the sample complexity of learning a VC dimension d class on $k$ distributions to be $O(\\epsilon^{-2} \\ln(k)(d + k) + \\min\\{\\epsilon^{-1} dk, \\epsilon^{-4} \\ln(k) d\\})$, the best lower bound is $\\Omega(\\epsilon^{-2}(d + k \\ln(k)))$. We discuss recent progress on this problem and some hurdles that are fundamental to the use of game dynamics in statistical learning.",
+    "link": "http://arxiv.org/abs/2307.12135",
+    "context": "Title: The Sample Complexity of Multi-Distribution Learning for VC Classes. (arXiv:2307.12135v1 [cs.LG])\nAbstract: Multi-distribution learning is a natural generalization of PAC learning to settings with multiple data distributions. There remains a significant gap between the known upper and lower bounds for PAC-learnable classes. In particular, though we understand the sample complexity of learning a VC dimension d class on $k$ distributions to be $O(\\epsilon^{-2} \\ln(k)(d + k) + \\min\\{\\epsilon^{-1} dk, \\epsilon^{-4} \\ln(k) d\\})$, the best lower bound is $\\Omega(\\epsilon^{-2}(d + k \\ln(k)))$. We discuss recent progress on this problem and some hurdles that are fundamental to the use of game dynamics in statistical learning.",
+    "path": "papers/23/07/2307.12135.json",
+    "total_tokens": 726,
+    "translated_title": "多分布学习对VC类的样本复杂度",
+    "translated_abstract": "多分布学习是将PAC学习推广到具有多个数据分布的情境。我们对于PAC可学习类的已知上下界仍然存在显著差距。尽管我们了解在$k$个分布上学习具有VC维度d的类的样本复杂度为$O(\\epsilon^{-2} \\ln(k)(d + k) + \\min\\{\\epsilon^{-1} dk, \\epsilon^{-4} \\ln(k) d\\})$，但最好的下界是$\\Omega(\\epsilon^{-2}(d + k \\ln(k)))$。我们讨论了这个问题的最新进展以及在统计学习中使用博弈动态的一些困难。",
+    "tldr": "这个论文研究了多分布学习对VC类的样本复杂度，发现现有的上下界存在显著差距，并讨论了一些涉及统计学习中博弈动态的困难。",
+    "en_tdlr": "This paper investigates the sample complexity of multi-distribution learning for VC classes and finds a significant gap between the known upper and lower bounds. It also discusses the challenges involving game dynamics in statistical learning."
+}

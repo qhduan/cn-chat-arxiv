@@ -1,0 +1,11 @@
+{
+    "title": "TF-GNN: Graph Neural Networks in TensorFlow. (arXiv:2207.03522v2 [cs.LG] UPDATED)",
+    "abstract": "TensorFlow-GNN (TF-GNN) is a scalable library for Graph Neural Networks in TensorFlow. It is designed from the bottom up to support the kinds of rich heterogeneous graph data that occurs in today's information ecosystems. In addition to enabling machine learning researchers and advanced developers, TF-GNN offers low-code solutions to empower the broader developer community in graph learning. Many production models at Google use TF-GNN, and it has been recently released as an open source project. In this paper we describe the TF-GNN data model, its Keras message passing API, and relevant capabilities such as graph sampling and distributed training.",
+    "link": "http://arxiv.org/abs/2207.03522",
+    "context": "Title: TF-GNN: Graph Neural Networks in TensorFlow. (arXiv:2207.03522v2 [cs.LG] UPDATED)\nAbstract: TensorFlow-GNN (TF-GNN) is a scalable library for Graph Neural Networks in TensorFlow. It is designed from the bottom up to support the kinds of rich heterogeneous graph data that occurs in today's information ecosystems. In addition to enabling machine learning researchers and advanced developers, TF-GNN offers low-code solutions to empower the broader developer community in graph learning. Many production models at Google use TF-GNN, and it has been recently released as an open source project. In this paper we describe the TF-GNN data model, its Keras message passing API, and relevant capabilities such as graph sampling and distributed training.",
+    "path": "papers/22/07/2207.03522.json",
+    "total_tokens": 739,
+    "translated_title": "TF-GNN: TensorFlow中的图神经网络",
+    "translated_abstract": "TensorFlow-GNN (TF-GNN) 是一个在 TensorFlow 中可扩展的图神经网络库。它从底层设计来支持当今信息生态系统中出现的各种丰富的异构图数据。除了为机器学习研究人员和高级开发人员提供支持，TF-GNN还提供低代码解决方案，以赋能更广泛的开发者社区进行图学习。谷歌的许多生产模型都在使用 TF-GNN，并且它最近作为一个开源项目发布。在本文中，我们描述了 TF-GNN 的数据模型、其 Keras 消息传递 API 以及相关的能力，如图采样和分布式训练。",
+    "tldr": "TF-GNN是一个可扩展的 TensorFlow 图神经网络库，用于支持丰富的异构图数据。它提供了低代码解决方案，并广泛应用于谷歌的生产模型中。这个库最近作为开源项目发布，为图学习提供了强大的工具。"
+}

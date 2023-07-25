@@ -1,0 +1,12 @@
+{
+    "title": "Lemmas: Generation, Selection, Application. (arXiv:2303.05854v2 [cs.LO] UPDATED)",
+    "abstract": "Noting that lemmas are a key feature of mathematics, we engage in an investigation of the role of lemmas in automated theorem proving. The paper describes experiments with a combined system involving learning technology that generates useful lemmas for automated theorem provers, demonstrating improvement for several representative systems and solving a hard problem not solved by any system for twenty years. By focusing on condensed detachment problems we simplify the setting considerably, allowing us to get at the essence of lemmas and their role in proof search.",
+    "link": "http://arxiv.org/abs/2303.05854",
+    "context": "Title: Lemmas: Generation, Selection, Application. (arXiv:2303.05854v2 [cs.LO] UPDATED)\nAbstract: Noting that lemmas are a key feature of mathematics, we engage in an investigation of the role of lemmas in automated theorem proving. The paper describes experiments with a combined system involving learning technology that generates useful lemmas for automated theorem provers, demonstrating improvement for several representative systems and solving a hard problem not solved by any system for twenty years. By focusing on condensed detachment problems we simplify the setting considerably, allowing us to get at the essence of lemmas and their role in proof search.",
+    "path": "papers/23/03/2303.05854.json",
+    "total_tokens": 648,
+    "translated_title": "引理：生成、选择、应用",
+    "translated_abstract": "鉴于引理是数学的一个关键特征，我们对引理在自动定理证明中的作用进行了调查。本文描述了一种涉及学习技术的综合系统的实验，该系统能生成对自动定理证明器有用的引理，证明了对于几个代表性系统的改进，并解决了二十年来任何系统都未能解决的难题。通过将注意力集中在简化推断问题上，我们大大简化了设置，使我们能够抓住引理的本质及其在证明搜索中的作用。",
+    "tldr": "本文研究了引理在自动定理证明中的作用。实验展示了一种结合学习技术的综合系统，能够生成对于自动定理证明器有用的引理，解决了长期未能解决的难题。",
+    "en_tdlr": "This paper investigates the role of lemmas in automated theorem proving. Experiments demonstrate a combined system that generates useful lemmas for automated theorem provers, solving long-standing problems."
+}

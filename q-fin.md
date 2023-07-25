@@ -2,172 +2,307 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Advancing Ad Auction Realism: Practical Insights & Modeling Implications.](http://arxiv.org/abs/2307.11732) | 本文提出了一个学习模型来模拟现实的在线广告拍卖环境，并发现在这样的环境中，使用"软底价"可以提高关键绩效指标，即使投标者来自相同的人群。 |
-| [^2] | [Towards Generalizable Reinforcement Learning for Trade Execution.](http://arxiv.org/abs/2307.11685) | 本论文提出了一种面向通用化的交易执行的强化学习方法。研究表明，现有的强化学习方法存在过拟合问题，阻碍了实际应用。作者通过使用离线强化学习和动态上下文建模来解决过拟合问题，并提出了学习上下文的紧凑表示方法。 |
-| [^3] | [Assessing the role of small farmers and households in agriculture and the rural economy and measures to support their sustainable development.](http://arxiv.org/abs/2307.11683) | 该论文旨在评估小农户和家庭在农业和农村经济中的作用，以及提出支持其可持续发展的措施。同时，它还研究了如何减少乌克兰影子农业市场的规模和采取何种措施。 |
-| [^4] | [ESG Reputation Risk Matters: An Event Study Based on Social Media Data.](http://arxiv.org/abs/2307.11571) | 本研究探讨了股东对环境、社会和治理相关的声誉风险的反应，并通过社交媒体数据观察到ESG风险事件对相关资产回报的显著负面影响。 |
-| [^5] | [A Robust Site Selection Model under uncertainty for Special Hospital Wards in Hong Kong.](http://arxiv.org/abs/2307.11508) | 本研究提出了针对香港特殊医院病房的选址问题的鲁棒模型，考虑了不确定性水平、不可行容忍度和可靠性水平，并采用了一种适用于不确定性的优化协议。 |
-| [^6] | [Optimal Bubble Riding with Price-dependent Entry: a Mean Field Game of Controls with Common Noise.](http://arxiv.org/abs/2307.11340) | 本文扩展了唐派和王提出的最佳泡沫乘车模型，允许价格相关的进入时间。我们证明了带有共同噪音和随机进入时间的控制均值场博弈的存在性。共同噪音来自资产价格和外生泡沫破裂时间。 |
-| [^7] | [Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models.](http://arxiv.org/abs/2307.11137) | 本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。 |
-| [^8] | [Optimal execution and speculation with trade signals.](http://arxiv.org/abs/2306.00621) | 本文提出了一个价格冲击模型，基于市场的订单流动来推导市场的随机价格变化，提出了一个短期信号过程来帮助交易员了解订单流的变化，为最优执行问题提供了解决方案。 |
-| [^9] | [On random number generators and practical market efficiency.](http://arxiv.org/abs/2305.17419) | 本研究利用随机数生成器来检测资本市场中信息的有效性，发现市场效率因年份和事件影响而变化，并与公司规模和投资者群体有关。 |
-| [^10] | [The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations.](http://arxiv.org/abs/2210.15914) | 这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。 |
-| [^11] | [Forecasting consumer confidence through semantic network analysis of online news.](http://arxiv.org/abs/2105.04900) | 本研究使用语义网络分析在线新闻对消费者信心的影响，结果表明该方法能够预测消费者对经济形势的判断，提供了一种补充方法来估计消费者信心。 |
+| [^1] | [Flexible heat pumps: must-have or nice to have in a power sector with renewables?.](http://arxiv.org/abs/2307.12918) | 本研究使用开源的电力部门模型，研究了2030年德国大规模扩张分散式热泵对电力部门的影响。结果表明，热泵的推广可以通过太阳能光伏等可再生能源实现，且额外的备用容量和电力储存需求有限。 |
+| [^2] | [Economic Analysis of Smart Roadside Infrastructure Sensors for Connected and Automated Mobility.](http://arxiv.org/abs/2307.12893) | 这项研究通过生命周期成本分析，研究了智能道路边缘基础设施传感器对连通和自动驾驶的经济效益，不同用户需求和传感器数据质量。 |
+| [^3] | [The multidimensional COS method for option pricing.](http://arxiv.org/abs/2307.12843) | 多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。 |
+| [^4] | [Predict-AI-bility of how humans balance self-interest with the interest of others.](http://arxiv.org/abs/2307.12776) | 生成式AI能够准确预测人类在决策中平衡自身利益与他人利益的行为模式，但存在高估他人关注行为的倾向，这对AI的开发者和用户具有重要意义。 |
+| [^5] | [Propagation of carbon tax in credit portfolio through macroeconomic factors.](http://arxiv.org/abs/2307.12695) | 我们研究了碳税在信贷组合中的传播，通过考虑宏观经济因素，描述了碳税对公司价值和信贷风险的影响。 |
+| [^6] | [Cloud Cost Optimization: A Comprehensive Review of Strategies and Case Studies.](http://arxiv.org/abs/2307.12479) | 本文综述了云成本优化的各种技术和案例研究，显示组织通过采用这些技术可以实现显著的成本节约。 |
+| [^7] | [Microeconomics of nitrogen fertilization in boreal carbon forestry.](http://arxiv.org/abs/2307.12362) | 本文研究了在波兰碳林中使用氮肥作为碳固定工具的微观经济学效应。发现早期施肥和第二次间伐后施肥会缩短轮换期并减少木材和碳储存，而在林地成熟前十年施肥可以增加木材库存，成熟林地施肥可以增加碳库存。施肥可以增加盈利能力，而不仅仅是延长轮换期。 |
+| [^8] | [Unraveling the Trade-off between Sustainability and Returns: A Multivariate Utility Analysis.](http://arxiv.org/abs/2307.12161) | 本文提出了一种预期多元效用分析方法，允许ESG投资者根据风险规避水平适应其对绿色投资的偏好，并找到了最优配置和价值函数的解。实证分析表明，ESG敏感的投资者在选择高评级ESG股票时财富配置显著增加。 |
+| [^9] | [CFR-p: Counterfactual Regret Minimization with Hierarchical Policy Abstraction, and its Application to Two-player Mahjong.](http://arxiv.org/abs/2307.12087) | 本研究将反事实遗憾最小化算法应用于两人麻将，并通过分层策略抽象实现了游戏论分析，该框架可推广到其他不完全信息游戏。 |
+| [^10] | [Discrete time optimal investment under model uncertainty.](http://arxiv.org/abs/2307.11919) | 本文研究了在模型不确定性下的离散时间最优投资问题，利用原始方法证明了存在一个最优投资策略，并引入了类型(A)的效用函数。 |
+| [^11] | [Social and individual learning in the Minority Game.](http://arxiv.org/abs/2307.11846) | 本文探讨了社交和个体学习在金融市场模型中的作用，发现社交学习会削弱市场效率，而个体学习则可以拯救从社交学习中陷入低效状态的人群。 |
+| [^12] | [Multimodal Document Analytics for Banking Process Automation.](http://arxiv.org/abs/2307.11845) | 本研究聚焦于应对金融科技竞争和提高银行业务运营效率的需求，通过多模式模型特别是先进的文档分析技术，研究了银行流程中的潜力和机会，并展示了LayoutXLM等模型在分析银行文档中的潜力和性能。 |
+| [^13] | [Mean Field Games for Optimal Investment Under Relative Performance Criteria.](http://arxiv.org/abs/2307.10540) | 本文研究了相对绩效标准下的最优投资的均值场博弈问题，并提出了解决方案，详细说明了CRRA效用情况下的最优策略，并推导出了CARA效用情况下的解决方案。 (arXiv:2307.10540v1 [q-fin.MF]) |
+| [^14] | [The Put-Call Parity Certainty Equivalent Rate and the Implied Put-Call Parity Certainty Equivalent Rate Surface.](http://arxiv.org/abs/2307.08675) | 本研究通过推导数学表达式，研究了确定等价比率在金融市场中的应用，并通过实证研究了解释了该数值的含义。结果应用于电动汽车行业。 |
+| [^15] | [Greeks' pitfalls for the COS method in the Laplace model.](http://arxiv.org/abs/2306.08421) | 本文在拉普拉斯模型中研究了欧式期权中希腊字母Speed的解析表达式，并提供了COS方法近似Speed所需满足的充分条件，实验证明未满足条件时结果可能不准确。 |
+| [^16] | [Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome.](http://arxiv.org/abs/2304.08008) | 本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。 |
+| [^17] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
+| [^18] | [Nonparametric estimator of the tail dependence coefficient: balancing bias and variance.](http://arxiv.org/abs/2111.11128) | 本文提出了一种非参数化尾依赖系数估计器的新方法，通过平衡偏差和方差来选择阈值，结合理论均方误差和尾部观测值的参数估计。仿真实验表明，这种半参数化方法比文献中提出的其他方法效果更好。 |
+| [^19] | [Exploring investor behavior in Bitcoin: a study of the disposition effect.](http://arxiv.org/abs/2010.12415) | 本研究探究了比特币市场中投资者的处置效应，研究结果显示比特币投资者普遍表现出这种非理性行为，其强度和普遍性随时间变化。这一发现揭示了在非典型市场中也存在着非理性的投资行为。 |
+| [^20] | [The direct and indirect effect of CAP support on farm income enhancement:a farm-based econometric analysis.](http://arxiv.org/abs/2009.07684) | 本研究通过对意大利农场的计量经济分析，发现CAP的支持通过正向影响农场收入和资本以及负向影响劳动力使用，从而直接和间接地促进了农场收入的增加。 |
 
 # 详细
 
-[^1]: 推进广告拍卖的现实性：实际见解与建模影响
+[^1]: 灵活的热泵：在可再生能源领域中的电力部门中是必需还是可选？
 
-    Advancing Ad Auction Realism: Practical Insights & Modeling Implications. (arXiv:2307.11732v1 [cs.LG])
+    Flexible heat pumps: must-have or nice to have in a power sector with renewables?. (arXiv:2307.12918v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.11732](http://arxiv.org/abs/2307.11732)
+    [http://arxiv.org/abs/2307.12918](http://arxiv.org/abs/2307.12918)
 
-    本文提出了一个学习模型来模拟现实的在线广告拍卖环境，并发现在这样的环境中，使用"软底价"可以提高关键绩效指标，即使投标者来自相同的人群。
-
-    
-
-    本文提出了一个在线广告拍卖学习模型，允许考虑当代在线拍卖的四个关键现实特征：（1）广告槽可以根据用户的搜索查询具有不同的价值和点击率，（2）竞争广告商的数量和身份是不可观察的，并且在每次竞拍中会发生更改，（3）广告商仅接收到部分的汇总反馈，（4）付款规则只部分确定。我们将广告商建模为受对抗性赌博算法驱动的代理，独立于拍卖机制的复杂性。我们的目标是为了模拟广告商的行为，进行反事实分析、预测和推理。我们的研究结果表明，在这种更复杂的环境中，即使投标者来自相同的人群，"软底价"也可以提高关键绩效指标。我们进一步展示了如何从观察到的竞标中推断广告商价值分布，从而证实了该方法的实际功效。
-
-    This paper proposes a learning model of online ad auctions that allows for the following four key realistic characteristics of contemporary online auctions: (1) ad slots can have different values and click-through rates depending on users' search queries, (2) the number and identity of competing advertisers are unobserved and change with each auction, (3) advertisers only receive partial, aggregated feedback, and (4) payment rules are only partially specified. We model advertisers as agents governed by an adversarial bandit algorithm, independent of auction mechanism intricacies. Our objective is to simulate the behavior of advertisers for counterfactual analysis, prediction, and inference purposes. Our findings reveal that, in such richer environments, "soft floors" can enhance key performance metrics even when bidders are drawn from the same population. We further demonstrate how to infer advertiser value distributions from observed bids, thereby affirming the practical efficacy of o
-    
-[^2]: 面向通用化的交易执行的强化学习方法
-
-    Towards Generalizable Reinforcement Learning for Trade Execution. (arXiv:2307.11685v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2307.11685](http://arxiv.org/abs/2307.11685)
-
-    本论文提出了一种面向通用化的交易执行的强化学习方法。研究表明，现有的强化学习方法存在过拟合问题，阻碍了实际应用。作者通过使用离线强化学习和动态上下文建模来解决过拟合问题，并提出了学习上下文的紧凑表示方法。
+    本研究使用开源的电力部门模型，研究了2030年德国大规模扩张分散式热泵对电力部门的影响。结果表明，热泵的推广可以通过太阳能光伏等可再生能源实现，且额外的备用容量和电力储存需求有限。
 
     
 
-    优化的交易执行是在给定时间内以最低的交易成本卖出（或买入）给定资产的过程。最近，强化学习方法被应用于优化的交易执行，以从市场数据中学习更智能的策略。然而，我们发现许多现有的强化学习方法存在显著的过拟合问题，从而阻碍了它们的实际应用。在本文中，我们对优化的交易执行中的过拟合问题进行了广泛研究。首先，我们将优化的交易执行建模为带有动态上下文（ORDC）的离线强化学习问题，其中上下文表示不能受到交易策略影响并以离线方式收集的市场变量。在这个框架下，我们推导了泛化界限，并发现过拟合问题是由于离线环境中上下文空间巨大且上下文样本有限所导致的。因此，我们提出了学习上下文的紧凑表示来解决过拟合问题，可以通过...
+    热泵是减少供暖领域化石燃料使用的关键技术。向热泵的转变意味着冬季寒冷月份电力需求的增加。使用开源的电力部门模型，我们研究了2030年德国的分散式热泵大规模扩张对电力部门的影响，结合不同规模的缓冲热存储。假设热泵额外使用的电力在年度平衡中必须完全由可再生能源覆盖，我们量化了可再生能源所需的额外投资。如果风力扩张潜力有限，热泵的推广也可以通过太阳能光伏在欧洲互联连接的情况下作为附加成本较小的选择。即使在时间上不灵活的热泵的情况下，对额外备用容量和电力储存的需求通常仍然有限。我们进一步发现，在2至6小时的较小热存储容量下，系统的供需平衡仍然能够得到满足。
 
-    Optimized trade execution is to sell (or buy) a given amount of assets in a given time with the lowest possible trading cost. Recently, reinforcement learning (RL) has been applied to optimized trade execution to learn smarter policies from market data. However, we find that many existing RL methods exhibit considerable overfitting which prevents them from real deployment. In this paper, we provide an extensive study on the overfitting problem in optimized trade execution. First, we model the optimized trade execution as offline RL with dynamic context (ORDC), where the context represents market variables that cannot be influenced by the trading policy and are collected in an offline manner. Under this framework, we derive the generalization bound and find that the overfitting issue is caused by large context space and limited context samples in the offline setting. Accordingly, we propose to learn compact representations for context to address the overfitting problem, either by levera
+    Heat pumps are a key technology for reducing fossil fuel use in the heating sector. A transition to heat pumps implies an increase in electricity demand, especially in cold winter months. Using an open-source power sector model, we examine the power sector impacts of a massive expansion of decentralized heat pumps in Germany in 2030, combined with buffer heat storage of different sizes. Assuming that the additional electricity used by heat pumps has to be fully covered by renewable energies in a yearly balance, we quantify the required additional investments in renewable energy sources. If wind power expansion potentials are limited, the roll-out of heat pumps can also be accompanied by solar PV with little additional costs, making use of the European interconnection. The need for additional firm capacity and electricity storage generally remains limited even in the case of temporally inflexible heat pumps. We further find that relatively small heat storage capacities of 2 to 6 hours c
     
-[^3]: 评估小农户和家庭在农业和农村经济中的角色以及支持其可持续发展的措施
+[^2]: 智能道路边缘基础设施传感器对连通和自动驾驶的经济分析
 
-    Assessing the role of small farmers and households in agriculture and the rural economy and measures to support their sustainable development. (arXiv:2307.11683v1 [econ.GN])
+    Economic Analysis of Smart Roadside Infrastructure Sensors for Connected and Automated Mobility. (arXiv:2307.12893v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.11683](http://arxiv.org/abs/2307.11683)
+    [http://arxiv.org/abs/2307.12893](http://arxiv.org/abs/2307.12893)
 
-    该论文旨在评估小农户和家庭在农业和农村经济中的作用，以及提出支持其可持续发展的措施。同时，它还研究了如何减少乌克兰影子农业市场的规模和采取何种措施。
-
-    
-
-    经济部对于如何增加乌克兰合法登记的小型家庭农民的数量以及研究能够减少乌克兰影子农业市场规模的措施有兴趣和需求。在以上政治经济背景和需求的基础上，我们将分别进行可持续小规模（家庭）农业发展和探索减少乌克兰影子农业市场规模和措施的分析。
-
-    The Ministry of Economy has an interest and demand in exploring how to increase the set of [legally registered] small family farmers in Ukraine and to examine more in details measures that could reduce the scale of the shadow agricultural market in Ukraine. Building upon the above political economy background and demand, we will be undertaking the analysis along the two separate but not totally independents streams of analysis, i.e. sustainable small scale (family) farming development and exploring the scale and measures for reducing the shadow agricultural market in Ukraine
-    
-[^4]: ESG声誉风险的重要性：基于社交媒体数据的事件研究
-
-    ESG Reputation Risk Matters: An Event Study Based on Social Media Data. (arXiv:2307.11571v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.11571](http://arxiv.org/abs/2307.11571)
-
-    本研究探讨了股东对环境、社会和治理相关的声誉风险的反应，并通过社交媒体数据观察到ESG风险事件对相关资产回报的显著负面影响。
+    这项研究通过生命周期成本分析，研究了智能道路边缘基础设施传感器对连通和自动驾驶的经济效益，不同用户需求和传感器数据质量。
 
     
 
-    本文研究了股东对环境、社会和治理相关的声誉风险（ESG风险）的反应，重点关注社交媒体的影响。我们使用了2016年至2022年间114百万条关于S&P100指数上市公司的推文数据集，提取了讨论ESG事项的对话。通过事件研究设计，我们将异常的推文活动高峰定义为与ESG风险有关的事件，并检查相关资产回报的相应变化。通过关注社交媒体，我们可以了解公众舆论和投资者情绪，而这些方面在单纯关注ESG争议新闻中并未捕捉到。据我们所知，我们的方法是首次将社交媒体的声誉影响与负面ESG争议新闻的实际成本明确分离开来。我们的结果表明，ESG风险事件的发生导致平均异常回报下降0.29%，在统计上是显著的。
+    智能道路边缘基础设施传感器以智能交通系统站（ITS-Ss）的形式在全球范围内越来越多地部署在相关交通节点上。实时数据，但是ITS-Ss的建立和运营成本非常高昂。传感器技术的选择也对总体成本和数据质量产生影响。到目前为止，对于不同ITS-S 搭建的具体费用了解不足。本研究使用寿命周期成本分析（LCCA）研究了多个模块化基础设施传感器设置。结合静态成本模型，进行蒙特卡罗模拟以考虑其经济效益，不同用户需求和传感器数据质量。
 
-    We investigate the response of shareholders to Environmental, Social, and Governance-related reputational risk (ESG-risk), focusing exclusively on the impact of social media. Using a dataset of 114 million tweets about firms listed on the S&P100 index between 2016 and 2022, we extract conversations discussing ESG matters. In an event study design, we define events as unusual spikes in message posting activity linked to ESG-risk, and we then examine the corresponding changes in the returns of related assets. By focusing on social media, we gain insight into public opinion and investor sentiment, an aspect not captured through ESG controversies news alone. To the best of our knowledge, our approach is the first to distinctly separate the reputational impact on social media from the physical costs associated with negative ESG controversy news. Our results show that the occurrence of an ESG-risk event leads to a statistically significant average reduction of 0.29% in abnormal returns. Furt
+    Smart roadside infrastructure sensors in the form of intelligent transportation system stations (ITS-Ss) are increasingly deployed worldwide at relevant traffic nodes. The resulting digital twins of the real environment are suitable for developing and validating connected and automated driving functions and for increasing the operational safety of intelligent vehicles by providing ITS-S real-time data. However, ITS-Ss are very costly to establish and operate. The choice of sensor technology also has an impact on the overall costs as well as on the data quality. So far, there is only insufficient knowledge about the concrete expenses that arise with the construction of different ITS-S setups. Within this work, multiple modular infrastructure sensor setups are investigated with the help of a life cycle cost analysis (LCCA). Their economic efficiency, different user requirements and sensor data qualities are considered. Based on the static cost model, a Monte Carlo simulation is performed
     
-[^5]: 香港特殊医院病房在不确定性下的鲁棒性选址模型
+[^3]: 多维COS方法用于期权定价
 
-    A Robust Site Selection Model under uncertainty for Special Hospital Wards in Hong Kong. (arXiv:2307.11508v1 [econ.GN])
+    The multidimensional COS method for option pricing. (arXiv:2307.12843v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2307.11508](http://arxiv.org/abs/2307.11508)
+    [http://arxiv.org/abs/2307.12843](http://arxiv.org/abs/2307.12843)
 
-    本研究提出了针对香港特殊医院病房的选址问题的鲁棒模型，考虑了不确定性水平、不可行容忍度和可靠性水平，并采用了一种适用于不确定性的优化协议。
-
-    
-
-    本文提出了两个鲁棒性选址问题的模型，针对香港一家主要医院的病房。考虑了三个参数：不确定性水平、不可行容忍度和可靠性水平。然后，研究了两种不确定性，即对称和有界不确定性。因此，考虑了在不确定性下的调度问题，可以通过给定的概率分布函数来表示未知的问题因素。在这方面，Lin, Janak和Floudas（2004）引入了一种新开发的强优化协议。因此，计算机和化学工程领域已经发展了一种考虑通过给定概率分布表示的不确定性的方法。最后，我们的准确优化协议基于一个min-max框架，并且在应用于（MILP）问题时产生了一个具有对不确定数据免疫性的精确解决方案。
-
-    This paper process two robust models for site selection problems for one of the major Hospitals in Hong Kong. Three parameters, namely, level of uncertainty, infeasibility tolerance as well as the level of reliability, are incorporated. Then, 2 kinds of uncertainty; that is, the symmetric and bounded uncertainties have been investigated. Therefore, the issue of scheduling under uncertainty has been considered wherein unknown problem factors could be illustrated via a given probability distribution function. In this regard, Lin, Janak, and Floudas (2004) introduced one of the newly developed strong optimisation protocols. Hence, computers as well as the chemical engineering [1069-1085] has been developed for considering uncertainty illustrated through a given probability distribution. Finally, our accurate optimisation protocol has been on the basis of a min-max framework and in a case of application to the (MILP) problems it produced a precise solution that has immunity to uncertain da
-    
-[^6]: 使用与价格相关的进入时间的最佳泡沫乘车：带有共同噪音的控制均值场博弈
-
-    Optimal Bubble Riding with Price-dependent Entry: a Mean Field Game of Controls with Common Noise. (arXiv:2307.11340v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2307.11340](http://arxiv.org/abs/2307.11340)
-
-    本文扩展了唐派和王提出的最佳泡沫乘车模型，允许价格相关的进入时间。我们证明了带有共同噪音和随机进入时间的控制均值场博弈的存在性。共同噪音来自资产价格和外生泡沫破裂时间。
+    多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。
 
     
 
-    本文通过允许价格相关的进入时间进一步扩展了唐派和王提出的最佳泡沫乘车模型。代理商通过个体进入阈值来表示他们对泡沫强度的信念。而泡沫的增长动力则来源于玩家的涌入。价格相关的进入自然地引导了一个带有共同噪音和随机进入时间的控制均值场博弈，我们提供了一个存在性结果。平衡通过首先解决弱形式下的离散化游戏，然后在极限中检验可测性性质来获得。本文中，共同噪音来自两个来源：所有代理商交易的资产价格，以及外生泡沫破裂时间，我们还通过渐进增大滤波来离散化并将其纳入模型。
+    多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。该方法利用标的的对数收益率的特征函数φ，并且当支付函数的傅里叶余弦系数v_k以闭式形式给定时，具有优势。然而，在重要情况下，φ和v_k都没有解析地给出，而需要通过数值方法恢复。在本文中，我们证明了多维COS方法的收敛性，包括对φ和v_k的数值不确定度的考虑。我们的分析有助于理解COS方法中对φ和v_k的近似误差如何传播。
 
-    In this paper we further extend the optimal bubble riding model proposed by Tangpi and Wang by allowing for price-dependent entry times. Agents are characterized by their individual entry threshold that represents their belief in the strength of the bubble. Conversely, the growth dynamics of the bubble is fueled by the influx of players. Price-dependent entry naturally leads to a mean field game of controls with common noise and random entry time, for which we provide an existence result. The equilibrium is obtained by first solving discretized versions of the game in the weak formulation and then examining the measurability property in the limit. In this paper, the common noise comes from two sources: the price of the asset which all agents trade, and also the exogenous bubble burst time, which we also discretize and incorporate into the model via progressive enlargement of filtration.
+    The multidimensional COS method is a numerical tool to price financial options, which depend on several underlyings. The method makes use of the characteristic function $\varphi$ of the logarithmic returns of the underlyings and it is advantageous if the Fourier-cosine coefficients $v_{\boldsymbol{k}}$ of the payoff function are given in closed-form. However, in important cases, neither $\varphi$ nor $v_{\boldsymbol{k}}$ are given analytically but need to be recovered numerically. In this article, we prove the convergence of the multidimensional COS method including numerical uncertainty on $\varphi$ and $v_{\boldsymbol{k}}$. Our analysis helps to understand how the approximation errors on $\varphi$ and $v_{\boldsymbol{k}}$ propagate in the COS method.
     
-[^7]: 模型与锡人之间——使用大语言模型研究AI对齐中的委托-代理问题的行为经济学研究
+[^4]: 预测人类如何在自身利益与他人利益之间平衡的可预测性
 
-    Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models. (arXiv:2307.11137v1 [cs.AI])
+    Predict-AI-bility of how humans balance self-interest with the interest of others. (arXiv:2307.12776v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.11137](http://arxiv.org/abs/2307.11137)
+    [http://arxiv.org/abs/2307.12776](http://arxiv.org/abs/2307.12776)
 
-    本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。
-
-    
-
-    AI对齐通常被描述为一个设计者与人工智能代理之间的相互作用，设计者试图确保代理的行为与其目的一致，并且风险仅仅是由于设计者意图中的效用函数与代理的内部效用函数之间的意外错位而导致的冲突。然而，随着使用大语言模型（LLM）实例化的代理的出现，这种描述不能捕捉到AI安全的核心方面，因为现实世界中设计者与代理之间并没有一对一的对应关系，而且许多代理，无论是人工智能还是人类，都具有多样的价值观。因此，AI安全具有经济方面的问题，委托-代理问题可能会出现。
-
-    AI Alignment is often presented as an interaction between a single designer and an artificial agent in which the designer attempts to ensure the agent's behavior is consistent with its purpose, and risks arise solely because of conflicts caused by inadvertent misalignment between the utility function intended by the designer and the resulting internal utility function of the agent. With the advent of agents instantiated with large-language models (LLMs), which are typically pre-trained, we argue this does not capture the essential aspects of AI safety because in the real world there is not a one-to-one correspondence between designer and agent, and the many agents, both artificial and human, have heterogeneous values. Therefore, there is an economic aspect to AI safety and the principal-agent problem is likely to arise. In a principal-agent problem conflict arises because of information asymmetry together with inherent misalignment between the utility of the agent and its principal, an
-    
-[^8]: 带有交易信号的最优执行和投机
-
-    Optimal execution and speculation with trade signals. (arXiv:2306.00621v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2306.00621](http://arxiv.org/abs/2306.00621)
-
-    本文提出了一个价格冲击模型，基于市场的订单流动来推导市场的随机价格变化，提出了一个短期信号过程来帮助交易员了解订单流的变化，为最优执行问题提供了解决方案。
+    生成式AI能够准确预测人类在决策中平衡自身利益与他人利益的行为模式，但存在高估他人关注行为的倾向，这对AI的开发者和用户具有重要意义。
 
     
 
-    我们提出了一个价格冲击模型，在这个模型中，价格的变化纯粹由市场的订单流动驱动。 市场订单的随机价格冲击和限价订单和市场订单的到达率是市场流动性过程的函数，该流动性过程反映了市场流动性的供需平衡。 限价订单和市场订单相互激发，使得流动性具有均值回归性质。我们使用 Meyers-$\sigma$-场的理论引入一个短期信号过程，从中交易员可以了解订单流的即将发生的变化。在这种情况下，我们研究了最优执行问题，并推导了其价值函数的Hamilton-Jacobi-Bellman（HJB）方程。 HJB方程经过数值求解后，我们演示了交易员如何使用信号来增强执行问题的性能并执行投机策略。
+    生成式人工智能具有革命性的潜力，可以改变从日常生活到高风险场景的决策过程。然而，由于许多决策具有社会影响，为了使AI能够成为可靠的决策助手，它必须能够捕捉自身利益与他人利益之间的平衡。我们对三种最先进的聊天机器人对来自12个国家的78个实验的独裁者游戏决策进行了研究。我们发现，只有GPT-4（而不是Bard或Bing）能够正确捕捉到行为模式的定性特征，识别出三种主要的行为类别：自私的、不公平厌恶的和完全无私的。然而，GPT-4一直高估了他人关注行为，夸大了不公平厌恶和完全无私参与者的比例。这种偏见对于AI开发人员和用户具有重要意义。
 
-    We propose a price impact model where changes in prices are purely driven by the order flow in the market. The stochastic price impact of market orders and the arrival rates of limit and market orders are functions of the market liquidity process which reflects the balance of the demand and supply of liquidity. Limit and market orders mutually excite each other so that liquidity is mean reverting. We use the theory of Meyer-$\sigma$-fields to introduce a short-term signal process from which a trader learns about imminent changes in order flow. In this setting, we examine an optimal execution problem and derive the Hamilton--Jacobi--Bellman (HJB) equation for the value function. The HJB equation is solved numerically and we illustrate how the trader uses the signal to enhance the performance of execution problems and to execute speculative strategies.
+    Generative artificial intelligence holds enormous potential to revolutionize decision-making processes, from everyday to high-stake scenarios. However, as many decisions carry social implications, for AI to be a reliable assistant for decision-making it is crucial that it is able to capture the balance between self-interest and the interest of others. We investigate the ability of three of the most advanced chatbots to predict dictator game decisions across 78 experiments with human participants from 12 countries. We find that only GPT-4 (not Bard nor Bing) correctly captures qualitative behavioral patterns, identifying three major classes of behavior: self-interested, inequity-averse, and fully altruistic. Nonetheless, GPT-4 consistently overestimates other-regarding behavior, inflating the proportion of inequity-averse and fully altruistic participants. This bias has significant implications for AI developers and users.
     
-[^9]: 随机数生成器与实际市场效率研究
+[^5]: 碳税在信贷组合中的传播通过宏观经济因素
 
-    On random number generators and practical market efficiency. (arXiv:2305.17419v1 [q-fin.ST])
+    Propagation of carbon tax in credit portfolio through macroeconomic factors. (arXiv:2307.12695v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2305.17419](http://arxiv.org/abs/2305.17419)
+    [http://arxiv.org/abs/2307.12695](http://arxiv.org/abs/2307.12695)
 
-    本研究利用随机数生成器来检测资本市场中信息的有效性，发现市场效率因年份和事件影响而变化，并与公司规模和投资者群体有关。
-
-    
-
-    现代主流金融理论基于有效市场假说，认为相关信息迅速纳入资产定价。先前的运筹研究文献中仅有少量研究利用为随机数生成器设计的检测方法来检查这些信息效率。将二元日收益视为硬件随机数发生器类比，重叠置换检验表明，这些时间序列具有特异性的循环模式。与以往的研究相反，我们将分析分为年度和公司层面两部分，并对纳斯达克上市公司进行长期效率研究，缓解交易噪声的影响，使市场能够真实地消化新信息。结果表明，信息效率在不同年份中有所不同，并反映了金融危机等大规模市场影响。我们还展示了信息效率与公司规模和投资者群体有关。
-
-    Modern mainstream financial theory is underpinned by the efficient market hypothesis, which posits the rapid incorporation of relevant information into asset pricing. Limited prior studies in the operational research literature have investigated the use of tests designed for random number generators to check for these informational efficiencies. Treating binary daily returns as a hardware random number generator analogue, tests of overlapping permutations have indicated that these time series feature idiosyncratic recurrent patterns. Contrary to prior studies, we split our analysis into two streams at the annual and company level, and investigate longer-term efficiency over a larger time frame for Nasdaq-listed public companies to diminish the effects of trading noise and allow the market to realistically digest new information. Our results demonstrate that information efficiency varies across different years and reflects large-scale market impacts such as financial crises. We also sho
-    
-[^10]: 移民、移民者和当地人在欧洲知识聚集形成中的历史角色
-
-    The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations. (arXiv:2210.15914v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2210.15914](http://arxiv.org/abs/2210.15914)
-
-    这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。
+    我们研究了碳税在信贷组合中的传播，通过考虑宏观经济因素，描述了碳税对公司价值和信贷风险的影响。
 
     
 
-    移民是不是让巴黎成为了艺术圣地，维也纳成为了古典音乐的灯塔？还是他们的崛起纯粹是当地人的结果？在这里，我们使用了关于22000多名生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。我们发现，一个地区在某种活动（基于著名物理学家、画家等的出生）发展或保持专业化的概率随着对该活动具有知识的移民和对相关活动具有知识的移民的存在而增加。相比之下，我们并没有找到有力的证据表明当地人具有相关知识的存在解释了进入和/或退出。我们通过考虑任何特定地点-时期-活动因素（例如吸引科学家的新大学的存在）的固定效应模型来解决一些内生性问题。
+    我们研究了碳税在封闭经济中如何在信贷组合中传播，并准确描述了碳税动态如何影响公司价值和信贷风险度量。我们采用随机多部门模型来考虑碳税对部门公司生产和家庭消费的影响。税收根据NGFS情景提供的碳价格进行校准，以及部门家庭消费和公司生产以及其相关温室气体排放。对于每个部门，这产生了公司生产和家庭消费对碳税的敏感度以及部门之间的关系。我们的模型允许我们分析短期碳税的影响，与标准的整体评估模型相反，后者既是确定性的，又只能捕捉气候过渡政策的长期趋势。最后，我们使用折现现金流量法来计算公司的价值，然后用它来进行资产定价和信用风险评估。
 
-    Did migrants make Paris a Mecca for the arts and Vienna a beacon of classical music? Or was their rise a pure consequence of local actors? Here, we use data on more than 22,000 historical individuals born between the years 1000 and 2000 to estimate the contribution of famous immigrants, emigrants, and locals to the knowledge specializations of European regions. We find that the probability that a region develops or keeps specialization in an activity (based on the birth of famous physicists, painters, etc.) grows with both, the presence of immigrants with knowledge on that activity and immigrants with knowledge in related activities. In contrast, we do not find robust evidence that the presence of locals with related knowledge explains entries and/or exits. We address some endogeneity concerns using fixed-effects models considering any location-period-activity specific factors (e.g. the presence of a new university attracting scientists).
+    We study how the introduction of carbon taxes in a closed economy propagate in a credit portfolio and precisely describe how carbon taxes dynamics affect the firm value and credit risk measures. We adapt a stochastic multisectoral model to take into account carbon taxes on both sectoral firms' production and household's consumption. Taxes are calibrated on carbon prices, provided by the NGFS scenarios, as well as on sectoral households' consumption and firms' production, together with their related greenhouse gases emissions. For each sector, this yields the sensitivity of firms' production and households' consumption to carbon taxes and the relationships between sectors. Our model allows us to analyze the short-term effects of carbon taxes as opposed to standard Integrated Assessment Models, which are not only deterministic but also only capture long-term trends of climate transition policy. Finally, we use a Discounted Cash Flows methodology to compute firms' values which we then use
     
-[^11]: 通过在线新闻的语义网络分析预测消费者信心
+[^6]: 云成本优化：策略和案例研究的全面综述
 
-    Forecasting consumer confidence through semantic network analysis of online news. (arXiv:2105.04900v2 [econ.GN] UPDATED)
+    Cloud Cost Optimization: A Comprehensive Review of Strategies and Case Studies. (arXiv:2307.12479v1 [cs.DC])
 
-    [http://arxiv.org/abs/2105.04900](http://arxiv.org/abs/2105.04900)
+    [http://arxiv.org/abs/2307.12479](http://arxiv.org/abs/2307.12479)
 
-    本研究使用语义网络分析在线新闻对消费者信心的影响，结果表明该方法能够预测消费者对经济形势的判断，提供了一种补充方法来估计消费者信心。
+    本文综述了云成本优化的各种技术和案例研究，显示组织通过采用这些技术可以实现显著的成本节约。
 
     
 
-    本研究通过语义网络分析研究在线新闻对社会经济消费者态度的影响。使用覆盖四年的意大利媒体上的超过180万篇在线文章，我们计算特定经济相关关键词的语义重要性，以确定文章中出现的词语是否能够预测消费者对经济形势和消费者信心指数的判断。我们运用创新方法分析大规模文本数据，结合了文本挖掘和社会网络分析的方法和工具。结果显示，该指标对于判断当前家庭和国家情况具有较强的预测能力。我们的指标为消费者信心的估计提供了一种补充方法，减轻了传统基于调查的方法的局限性。
+    云计算已经彻底改变了组织管理其IT基础设施的方式，但也带来了新的挑战，比如管理云成本。本文探讨了云成本优化的各种技术，包括云定价、分析以及资源分配的策略。还提供了这些技术的实际案例研究，并对其有效性和要点进行了讨论。本文的分析表明，采用云成本优化技术可以使组织实现显著的成本节约。此外，还提出了未来研究方向，以推动这一重要领域的发展。
 
-    This research studies the impact of online news on social and economic consumer perceptions through semantic network analysis. Using over 1.8 million online articles on Italian media covering four years, we calculate the semantic importance of specific economic-related keywords to see if words appearing in the articles could anticipate consumers' judgments about the economic situation and the Consumer Confidence Index. We use an innovative approach to analyze big textual data, combining methods and tools of text mining and social network analysis. Results show a strong predictive power for the judgments about the current households and national situation. Our indicator offers a complementary approach to estimating consumer confidence, lessening the limitations of traditional survey-based methods.
+    Cloud computing has revolutionized the way organizations manage their IT infrastructure, but it has also introduced new challenges, such as managing cloud costs. This paper explores various techniques for cloud cost optimization, including cloud pricing, analysis, and strategies for resource allocation. Real-world case studies of these techniques are presented, along with a discussion of their effectiveness and key takeaways. The analysis conducted in this paper reveals that organizations can achieve significant cost savings by adopting cloud cost optimization techniques. Additionally, future research directions are proposed to advance the state of the art in this important field.
+    
+[^7]: 波兰碳林中的氮肥微观经济学研究
+
+    Microeconomics of nitrogen fertilization in boreal carbon forestry. (arXiv:2307.12362v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.12362](http://arxiv.org/abs/2307.12362)
+
+    本文研究了在波兰碳林中使用氮肥作为碳固定工具的微观经济学效应。发现早期施肥和第二次间伐后施肥会缩短轮换期并减少木材和碳储存，而在林地成熟前十年施肥可以增加木材库存，成熟林地施肥可以增加碳库存。施肥可以增加盈利能力，而不仅仅是延长轮换期。
+
+    
+
+    本文以微观经济学的角度研究了在波兰森林中使用氮肥作为碳固定工具。通过基于库存的生长模型，在一组半肥沃、以云杉为主的波兰林地中，研究了氮肥施用时间对资本回报率和预期的木材库存价值的影响。早期施肥倾向于缩短轮换期，减少木材库存和碳储存。对第二次间伐后施肥也同样适用。在林地成熟前十年施肥是有利可图的，能增加木材库存，但后者效果较小。对成熟林地施肥，将轮换期延长十年，能有效增加碳库存。盈利能力有所差异，但施肥可以增加盈利能力，而不仅仅是延长轮换期。
+
+    Nitrogen fertilization of boreal forests is investigated in terms of microeconomics, as a tool for carbon sequestration. The effects of nitrogen fertilization's timing on the return rate on capital and the expected value of the timber stock are investigated within a set of semi-fertile, spruce-dominated boreal stands, using an inventory-based growth model. Early fertilization tends to shorten rotations, reducing timber stock and carbon storage. The same applies to fertilization after the second thinning. Fertilization applied ten years before stand maturity is profitable and increases the timber stock, but the latter effect is small. Fertilization of mature stands, extending any rotation by ten years, effectively increases the carbon stock. Profitability varies but is increased by fertilization, instead of merely extending the rotation.
+    
+[^8]: 揭示可持续发展与回报之间的权衡：一种多元效用分析
+
+    Unraveling the Trade-off between Sustainability and Returns: A Multivariate Utility Analysis. (arXiv:2307.12161v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2307.12161](http://arxiv.org/abs/2307.12161)
+
+    本文提出了一种预期多元效用分析方法，允许ESG投资者根据风险规避水平适应其对绿色投资的偏好，并找到了最优配置和价值函数的解。实证分析表明，ESG敏感的投资者在选择高评级ESG股票时财富配置显著增加。
+
+    
+
+    本文提出了一种针对ESG投资者的预期多元效用分析，其中将绿色股票、褐色股票和市场指数建模为单因素的CAPM结构。该模型允许投资者根据适当的风险规避水平适应其对绿色投资的偏好。我们找到了最优配置、财富和价值函数的封闭解。作为副产品，我们首先证明投资者不需要减少经济满意度以增加绿色投资。其次，我们提出了一种参数化方法来捕捉投资者对绿色资产的偏好，与绩效无关。本文使用2010年至2020年美国股票的RepRisk评级来选择代表各种ESG评级的公司。我们的实证分析显示，对于ESG敏感的投资者，向高评级ESG股票的财富配置出现了急剧增加；即使在经济满意度总体水平降低的情况下，这一趋势仍然持续。
+
+    This paper proposes an expected multivariate utility analysis for ESG investors in which green stocks, brown stocks, and a market index are modeled in a one-factor, CAPM-type structure. This setting allows investors to accommodate their preferences for green investments according to proper risk aversion levels. We find closed-form solutions for optimal allocations, wealth and value functions. As by-products, we first demonstrate that investors do not need to reduce their pecuniary satisfaction in order to increase green investments. Secondly, we propose a parameterization to capture investors' preferences for green assets over brown or market assets, independent of performance. The paper uses the RepRisk Rating of U.S. stocks from 2010 to 2020 to select companies that are representative of various ESG ratings. Our empirical analysis reveals drastic increases in wealth allocation toward high-rated ESG stocks for ESG-sensitive investors; this holds even as the overall level of pecuniary 
+    
+[^9]: CFR-p: 带有分层策略抽象的反事实遗憾最小化算法及其在两人麻将中的应用
+
+    CFR-p: Counterfactual Regret Minimization with Hierarchical Policy Abstraction, and its Application to Two-player Mahjong. (arXiv:2307.12087v1 [cs.AI])
+
+    [http://arxiv.org/abs/2307.12087](http://arxiv.org/abs/2307.12087)
+
+    本研究将反事实遗憾最小化算法应用于两人麻将，并通过分层策略抽象实现了游戏论分析，该框架可推广到其他不完全信息游戏。
+
+    
+
+    反事实遗憾最小化(CFR)算法在德州扑克中取得了成功。我们将该算法应用于另一种流行的不完全信息游戏，麻将。与扑克游戏相比，麻将更加复杂，有许多变体。我们通过进行博弈论分析并基于获胜策略对CFR进行分层抽象，研究了两人麻将。这个框架可以推广到其他不完全信息游戏。
+
+    Counterfactual Regret Minimization(CFR) has shown its success in Texas Hold'em poker. We apply this algorithm to another popular incomplete information game, Mahjong. Compared to the poker game, Mahjong is much more complex with many variants. We study two-player Mahjong by conducting game theoretical analysis and making a hierarchical abstraction to CFR based on winning policies. This framework can be generalized to other imperfect information games.
+    
+[^10]: 在模型不确定性下的离散时间最优投资
+
+    Discrete time optimal investment under model uncertainty. (arXiv:2307.11919v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2307.11919](http://arxiv.org/abs/2307.11919)
+
+    本文研究了在模型不确定性下的离散时间最优投资问题，利用原始方法证明了存在一个最优投资策略，并引入了类型(A)的效用函数。
+
+    
+
+    我们研究了一个在一般离散时间无摩擦市场中的鲁棒效用最大化问题，其中假设投资者对整个实数线上的随机凹效用函数进行定义。她还面临对市场的信念的模型不确定性，该不确定性通过一组先验模型进行建模。我们证明了使用原始方法仅需要存在一个最优投资策略。为此，我们假设市场和随机效用函数具有经典假设，具有渐进弹性约束。我们的其他大多数假设是基于逐前假设的，并对市场无不确定性的文献中的普遍接受假设相对应。我们还引入了类型(A)的效用函数，其包括具有基准的效用函数，我们的假设很容易验证。
+
+    We study a robust utility maximization problem in a general discrete-time frictionless market under quasi-sure no-arbitrage. The investor is assumed to have a random and concave utility function defined on the whole real-line. She also faces model ambiguity on her beliefs about the market, which is modeled through a set of priors. We prove the existence of an optimal investment strategy using only primal methods. For that we assume classical assumptions on the market and on the random utility function as asymptotic elasticity constraints. Most of our other assumptions are stated on a prior-by-prior basis and correspond to generally accepted assumptions in the literature on markets without ambiguity. We also introduce utility functions of type (A), which include utility functions with benchmark and for which our assumptions are easily checked.
+    
+[^11]: “少数派游戏中的社会和个体学习”
+
+    Social and individual learning in the Minority Game. (arXiv:2307.11846v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2307.11846](http://arxiv.org/abs/2307.11846)
+
+    本文探讨了社交和个体学习在金融市场模型中的作用，发现社交学习会削弱市场效率，而个体学习则可以拯救从社交学习中陷入低效状态的人群。
+
+    
+
+    本文研究了社交和个体学习在金融市场模型——少数派游戏中的作用。社交学习是指代理人采纳其社交网络中邻居的策略，而个体学习则是指代理人在没有其他代理人的参与下改变策略。具体而言，我们展示了社交学习如何通过负频率依赖选择和策略多样性的丧失来削弱市场的效率。后者可以将人群困在一种极低效的状态中。我们还展示了个体学习如何从这些低效中拯救社交学习中的人群。
+
+    We study the roles of social and individual learning on outcomes of the Minority Game model of a financial market. Social learning occurs via agents adopting the strategies of their neighbours within a social network, while individual learning results in agents changing their strategies without input from other agents. In particular, we show how social learning can undermine efficiency of the market due to negative frequency dependent selection and loss of strategy diversity. The latter of which can lock the population into a maximally inefficient state. We show how individual learning can rescue a population engaged in social learning from such inefficiencies.
+    
+[^12]: 面向银行流程自动化的多模式文档分析
+
+    Multimodal Document Analytics for Banking Process Automation. (arXiv:2307.11845v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.11845](http://arxiv.org/abs/2307.11845)
+
+    本研究聚焦于应对金融科技竞争和提高银行业务运营效率的需求，通过多模式模型特别是先进的文档分析技术，研究了银行流程中的潜力和机会，并展示了LayoutXLM等模型在分析银行文档中的潜力和性能。
+
+    
+
+    针对金融科技竞争的增长和提高运营效率的需求，本研究关注于理解在银行流程中利用多模式模型特别是先进的文档分析的潜力。我们对多样化的银行文档领域进行了全面分析，突出了通过自动化和先进的分析技术在客户业务中提高效率的机会。基于快速发展的自然语言处理（NLP）领域，我们展示了诸如LayoutXLM这样的模型的潜力，它是一种跨语言、多模式、预训练模型，用于分析银行业中各种不同的文档。该模型对德国公司登记提取的文本标记分类具有大约80%的F1得分性能。我们的实证证据证实了布局信息在提高模型性能方面的关键作用，并进一步强调了整合图像信息的好处。
+
+    In response to growing FinTech competition and the need for improved operational efficiency, this research focuses on understanding the potential of advanced document analytics, particularly using multimodal models, in banking processes. We perform a comprehensive analysis of the diverse banking document landscape, highlighting the opportunities for efficiency gains through automation and advanced analytics techniques in the customer business. Building on the rapidly evolving field of natural language processing (NLP), we illustrate the potential of models such as LayoutXLM, a cross-lingual, multimodal, pre-trained model, for analyzing diverse documents in the banking sector. This model performs a text token classification on German company register extracts with an overall F1 score performance of around 80\%. Our empirical evidence confirms the critical role of layout information in improving model performance and further underscores the benefits of integrating image information. Inte
+    
+[^13]: 相对绩效标准下的最优投资的均值场博弈
+
+    Mean Field Games for Optimal Investment Under Relative Performance Criteria. (arXiv:2307.10540v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2307.10540](http://arxiv.org/abs/2307.10540)
+
+    本文研究了相对绩效标准下的最优投资的均值场博弈问题，并提出了解决方案，详细说明了CRRA效用情况下的最优策略，并推导出了CARA效用情况下的解决方案。 (arXiv:2307.10540v1 [q-fin.MF])
+
+    
+
+    本文研究了Lacker和Soret提出的投资组合优化问题。他们提出了一个有限时间段模型，允许代理人通过与其他代理人平均水平的相对表现来衡量效用，而不仅仅是绝对财富。虽然在某些情况下有限人口或者n-人博弈是可处理的，但作者提出了均值场博弈框架来解决这个问题。在这里，我们希望利用这个框架详细说明CRRA效用情况下的最优投资和消费策略，如Lacker和Soret简要概述的那样，但也要推导出CARA效用情况下的解决方案。
+
+    In this paper, we study the portfolio optimization problem formulated by Lacker and Soret. They formulate a finite time horizon model that allows agents to be competitive, measuring their utility not only by their absolute wealth but also relative performance compared to the average of other agents. While the finite population or $n$-player game is tractable in some cases, the authors present the Mean Field Game framework to solve this problem. Here, we seek to use this framework to clearly detail the optimal investment and consumption strategies in the CRRA utility case as was briefly outlined in Lacker and Soret, but also derive a solution in the CARA utility case.
+    
+[^14]: Put-Call Parity的确定等价比率和隐含的Put-Call Parity确定等价比率曲面
+
+    The Put-Call Parity Certainty Equivalent Rate and the Implied Put-Call Parity Certainty Equivalent Rate Surface. (arXiv:2307.08675v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2307.08675](http://arxiv.org/abs/2307.08675)
+
+    本研究通过推导数学表达式，研究了确定等价比率在金融市场中的应用，并通过实证研究了解释了该数值的含义。结果应用于电动汽车行业。
+
+    
+
+    在现实金融市场中，确定等价比率是投资者考虑的重要因素。通过一个特定公司的确定等价比率的数值，投资者可以判断这个公司是否值得投资。本文将探讨如何获得确定等价比率的数值，以便评估给定公司的价值。首先，我们将介绍本文的理论支持，即Put-Call Parity。根据Put-Call Parity，我们将推导出确定等价比率的数学表达式。其次，我们将使用确定等价比率的数学表达式进行实证研究。我们将考虑一些极端例子，包括到2023年为止表现最佳和最差的股票。基于这些股票的数据，我们将可视化展示这些股票的表现，并解释数据的含义。最后，我们将把结果应用到一个非常受欢迎的行业——电动汽车行业。
+
+    In real financial markets, the certainty equivalent rate is an important factor for investors to consider. From the value of a specific company's certainty equivalent rate, investors can judge if this company is worth investing in. In this paper, we will explore how to obtain the value of the certainty equivalent rate so that we can evaluate a given company. First, we will introduce the theoretical support of this paper, which is put-call parity. From put-call parity, we will derive the mathematical expression for the certainty equivalent rate. Second, we will use the mathematical expression for the certainty equivalent rate to perform an empirical study. We will consider some extreme examples, including some of the best- and worst-performing stocks up to this point in 2023. Based on these stocks' data, we will visualize the performance of these stocks and explain the meaning of the data. Finally, we will apply the results to a very popular industry -- the electric vehicle industry -- 
+    
+[^15]: 拉普拉斯模型中COS方法中希腊字母的陷阱
+
+    Greeks' pitfalls for the COS method in the Laplace model. (arXiv:2306.08421v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2306.08421](http://arxiv.org/abs/2306.08421)
+
+    本文在拉普拉斯模型中研究了欧式期权中希腊字母Speed的解析表达式，并提供了COS方法近似Speed所需满足的充分条件，实验证明未满足条件时结果可能不准确。
+
+    
+
+    希腊字母Delta，Gamma和Speed是欧式期权相对于标的资产当前价格的一阶、二阶和三阶导数。傅里叶余弦级数展开法（COS 方法）是一种数值方法，用于近似欧式期权的价格和希腊字母。我们开发了拉普拉斯模型中各种欧式期权的Speed的闭合形式表达式，并提供了COS方法近似Speed所需满足的充分条件。我们实证表明，如果这些充分条件不满足，COS方法可能会产生数字上没有意义的结果。
+
+    The Greeks Delta, Gamma and Speed are the first, second and third derivative of a European option with respect to the current price of the underlying. The Fourier cosine series expansion method (COS method) is a numerical method for approximating the price and the Greeks of European options. We develop a closed-form expression of Speed of various European options in the Laplace model and we provide sufficient conditions for the COS method to approximate Speed. We show empirically that the COS method may produce numerically nonsensical results if theses sufficient conditions are not met.
+    
+[^16]: 基于投票结果的去中心化承诺对民主决策的影响研究
+
+    Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome. (arXiv:2304.08008v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.08008](http://arxiv.org/abs/2304.08008)
+
+    本文研究了去中心化承诺对民主决策的影响。在投票前，委员会成员可以进行可执行的承诺。可能需要跨越阵营进行承诺，以实现改革的实施，同时需要排除最不热衷于改革的支持者被诱导推翻决定。
+
+    
+
+    本文探讨了去中心化的效用转移承诺如何影响投票方式的集体决策。在投票前，支持和反对高效改革的委员会成员可以进行可执行的承诺。一个均衡需要稳定性和最小化的承诺。平衡承诺是存在且不确定的，但具有许多共同的特征。需要高强度成员向低强度成员提供转移承诺，并导致改革的实施。当改革支持者缺乏足够的投票权时，承诺必须跨越阵营。即使改革支持者的联盟是决定性的，承诺也必须排除最不热衷于改革的支持者被诱导推翻决定。在这种情况下，平衡的承诺不需要跨越阵营。我们还讨论了一系列有限的承诺，实现达到一个平衡的状态。
+
+    We study how decentralized utility transfer promises affect collective decision-making by voting. Committee members with varying levels of support and opposition for an efficient reform can make enforceable promises before voting. An equilibrium requires stability and minimal promises. Equilibrium promises exist and are indeterminate, but do share several key characteristics. Equilibria require transfer promises from high to low intensity members and result in enacting the reform. When reform supporters lack sufficient voting power, promises must reach across the aisle. Even if the coalition of reform supporters is decisive, promises must preclude the least enthusiastic supporters of the reform from being enticed to overturn the decision. In that case, equilibrium promises do not need to reach across the aisle. We also discuss a finite sequence of promises that achieve an equilibrium.
+    
+[^17]: 如何处理用于期权定价的 COS 方法
+
+    How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2303.16012](http://arxiv.org/abs/2303.16012)
+
+    介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。
+
+    
+
+    Fourier余弦展开（COS）方法用于高效地计算欧式期权价格。要应用COS方法，必须指定两个参数：对数收益率密度的截断范围和用余弦级数逼近截断密度的项数N。如何选择截断范围已经为人所知。在这里，我们还能找到一个明确的并且有用的项数N的界限。我们还进一步表明，如果密度是平滑的并且呈指数衰减，则COS方法至少具有指数收敛阶数。但是，如果密度平滑但有重尾巴，就像在有限矩阵log稳定模型中一样，则COS方法没有指数收敛阶数。数值实验确认了理论发现。
+
+    The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
+    
+[^18]: 非参数化尾依赖系数估计器：平衡偏差和方差
+
+    Nonparametric estimator of the tail dependence coefficient: balancing bias and variance. (arXiv:2111.11128v4 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2111.11128](http://arxiv.org/abs/2111.11128)
+
+    本文提出了一种非参数化尾依赖系数估计器的新方法，通过平衡偏差和方差来选择阈值，结合理论均方误差和尾部观测值的参数估计。仿真实验表明，这种半参数化方法比文献中提出的其他方法效果更好。
+
+    
+
+    推导了一个理论表达式来衡量非参数化尾依赖系数估计器的均方误差，该误差取决于定义哪个排位界定分布的尾部的阈值。我们提出了一种新的方法来优化选择这个阈值，它将估计器的理论均方误差与在尾部链接观测值的参数估计的模拟相结合。通过仿真，我们将这种半参数化方法与文献中提出的其他方法进行了比较，包括寻找平台的算法。
+
+    A theoretical expression is derived for the mean squared error of a nonparametric estimator of the tail dependence coefficient, depending on a threshold that defines which rank delimits the tails of a distribution. We propose a new method to optimally select this threshold. It combines the theoretical mean squared error of the estimator with a parametric estimation of the copula linking observations in the tails. Using simulations, we compare this semiparametric method with other approaches proposed in the literature, including the plateau-finding algorithm.
+    
+[^19]: 探索比特币投资者行为：一项关于处置效应的研究
+
+    Exploring investor behavior in Bitcoin: a study of the disposition effect. (arXiv:2010.12415v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2010.12415](http://arxiv.org/abs/2010.12415)
+
+    本研究探究了比特币市场中投资者的处置效应，研究结果显示比特币投资者普遍表现出这种非理性行为，其强度和普遍性随时间变化。这一发现揭示了在非典型市场中也存在着非理性的投资行为。
+
+    
+
+    投资者普遍表现出处置效应，即在卖出赢利的投资时情绪上的倾向，而坚持持有亏损的投资。虽然这种现象已在许多传统市场中被观察到，但不清楚它是否也适用于像加密资产这样的非典型市场。本文使用针对加密资产交易所的交易作为卖出交易的替代品，研究了比特币中处置效应的普遍性。我们的研究结果表明，比特币投资者确实受到处置效应的影响，但其强度各不相同。同时，我们还发现处置效应在观察期内并不一直存在，它在2017年以后的繁荣与低迷年份更为显著，得到了各种技术指标的证实。我们的研究表明，非理性投资者行为也存在于像比特币这样的非典型市场中。
+
+    Investors commonly exhibit the disposition effect - the irrational tendency to sell their winning investments and hold onto their losing ones. While this phenomenon has been observed in many traditional markets, it remains unclear whether it also applies to atypical markets like cryptoassets. This paper investigates the prevalence of the disposition effect in Bitcoin using transactions targeting cryptoasset exchanges as proxies for selling transactions. Our findings suggest that investors in Bitcoin were indeed subject to the disposition effect, with varying intensity. They also show that the disposition effect was not consistently present throughout the observation period. Its prevalence was more evident from the boom and bust year 2017 onwards, as confirmed by various technical indicators. Our study suggests irrational investor behavior is also present in atypical markets like Bitcoin.
+    
+[^20]: CAP支持对农场收入增加的直接和间接影响：基于农场的计量经济分析
+
+    The direct and indirect effect of CAP support on farm income enhancement:a farm-based econometric analysis. (arXiv:2009.07684v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2009.07684](http://arxiv.org/abs/2009.07684)
+
+    本研究通过对意大利农场的计量经济分析，发现CAP的支持通过正向影响农场收入和资本以及负向影响劳动力使用，从而直接和间接地促进了农场收入的增加。
+
+    
+
+    本研究评估了向农民提供的CAP支持与农场收入、资本和劳动力使用之间的相关性，并应用三个回归模型对意大利FADN农场进行控制。CAP年度支付与农场收入和资本呈正相关，但与劳动力使用呈负相关。通过RDP措施提供的农场投资支持与资本数量呈正相关。结果表明，CAP对农场收入的影响既是直接的，也是通过支持劳动力与资本的替代而间接的。
+
+    We assess the correlation between CAP support provided to farmers and their income and use of capital and labour in the first year of the new CAP regime. This is done applying three regression models on the Italian FADN farms controlling for other farm characteristics. CAP annual payments are positively correlated with farm income and capital but are negatively correlated with labour use. Farm investment support provided by RDP measures is positively correlated to the amount of capital. Results suggest that CAP is positively affecting farm income directly but also indirectly by supporting the substitution of labour with capital
     
 

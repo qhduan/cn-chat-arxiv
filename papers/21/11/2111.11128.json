@@ -1,0 +1,11 @@
+{
+    "title": "Nonparametric estimator of the tail dependence coefficient: balancing bias and variance. (arXiv:2111.11128v4 [stat.ME] UPDATED)",
+    "abstract": "A theoretical expression is derived for the mean squared error of a nonparametric estimator of the tail dependence coefficient, depending on a threshold that defines which rank delimits the tails of a distribution. We propose a new method to optimally select this threshold. It combines the theoretical mean squared error of the estimator with a parametric estimation of the copula linking observations in the tails. Using simulations, we compare this semiparametric method with other approaches proposed in the literature, including the plateau-finding algorithm.",
+    "link": "http://arxiv.org/abs/2111.11128",
+    "context": "Title: Nonparametric estimator of the tail dependence coefficient: balancing bias and variance. (arXiv:2111.11128v4 [stat.ME] UPDATED)\nAbstract: A theoretical expression is derived for the mean squared error of a nonparametric estimator of the tail dependence coefficient, depending on a threshold that defines which rank delimits the tails of a distribution. We propose a new method to optimally select this threshold. It combines the theoretical mean squared error of the estimator with a parametric estimation of the copula linking observations in the tails. Using simulations, we compare this semiparametric method with other approaches proposed in the literature, including the plateau-finding algorithm.",
+    "path": "papers/21/11/2111.11128.json",
+    "total_tokens": 729,
+    "translated_title": "非参数化尾依赖系数估计器：平衡偏差和方差",
+    "translated_abstract": "推导了一个理论表达式来衡量非参数化尾依赖系数估计器的均方误差，该误差取决于定义哪个排位界定分布的尾部的阈值。我们提出了一种新的方法来优化选择这个阈值，它将估计器的理论均方误差与在尾部链接观测值的参数估计的模拟相结合。通过仿真，我们将这种半参数化方法与文献中提出的其他方法进行了比较，包括寻找平台的算法。",
+    "tldr": "本文提出了一种非参数化尾依赖系数估计器的新方法，通过平衡偏差和方差来选择阈值，结合理论均方误差和尾部观测值的参数估计。仿真实验表明，这种半参数化方法比文献中提出的其他方法效果更好。"
+}

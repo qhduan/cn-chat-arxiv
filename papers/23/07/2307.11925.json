@@ -1,0 +1,12 @@
+{
+    "title": "Mercer Large-Scale Kernel Machines from Ridge Function Perspective. (arXiv:2307.11925v1 [cs.LG])",
+    "abstract": "To present Mercer large-scale kernel machines from a ridge function perspective, we recall the results by Lin and Pinkus from Fundamentality of ridge functions. We consider the main theorem of the recent paper by Rachimi and Recht, 2008, Random features for large-scale kernel machines in terms of the Approximation Theory. We study which kernels can be approximated by a sum of cosine function products with arguments depending on $x$ and $y$ and present the obstacles of such an approach. The results of this article may have various applications in Deep Learning, especially in problems related to Image Processing.",
+    "link": "http://arxiv.org/abs/2307.11925",
+    "context": "Title: Mercer Large-Scale Kernel Machines from Ridge Function Perspective. (arXiv:2307.11925v1 [cs.LG])\nAbstract: To present Mercer large-scale kernel machines from a ridge function perspective, we recall the results by Lin and Pinkus from Fundamentality of ridge functions. We consider the main theorem of the recent paper by Rachimi and Recht, 2008, Random features for large-scale kernel machines in terms of the Approximation Theory. We study which kernels can be approximated by a sum of cosine function products with arguments depending on $x$ and $y$ and present the obstacles of such an approach. The results of this article may have various applications in Deep Learning, especially in problems related to Image Processing.",
+    "path": "papers/23/07/2307.11925.json",
+    "total_tokens": 706,
+    "translated_title": "基于岭函数角度的Mercer大规模核机器",
+    "translated_abstract": "为了从岭函数的角度介绍Mercer大规模核机器，我们回顾了Lin和Pinkus在岭函数的基本性上的结果。我们考虑了Rachimi和Recht在近似理论中的最近一篇论文的主要定理，即大规模核机器的随机特征。我们研究了哪些核函数可以被$x$和$y$的余弦函数乘积的和逼近，并提出了这种方法的障碍。本文的结果可能在深度学习中有各种应用，尤其是与图像处理相关的问题。",
+    "tldr": "本文从岭函数的角度介绍了Mercer大规模核机器，通过研究哪些核函数可以被余弦函数乘积逼近，解决了大规模核机器中的难题。这些结果对深度学习，特别是图像处理有潜在应用。",
+    "en_tdlr": "This paper presents Mercer large-scale kernel machines from a ridge function perspective, by studying which kernels can be approximated by a sum of cosine function products. The results of this study have potential applications in deep learning, especially in image processing."
+}
