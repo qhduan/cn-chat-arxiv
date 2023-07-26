@@ -1,0 +1,12 @@
+{
+    "title": "A Primer on the Data Cleaning Pipeline. (arXiv:2307.13219v1 [cs.DB])",
+    "abstract": "The availability of both structured and unstructured databases, such as electronic health data, social media data, patent data, and surveys that are often updated in real time, among others, has grown rapidly over the past decade. With this expansion, the statistical and methodological questions around data integration, or rather merging multiple data sources, has also grown. Specifically, the science of the ``data cleaning pipeline'' contains four stages that allow an analyst to perform downstream tasks, predictive analyses, or statistical analyses on ``cleaned data.'' This article provides a review of this emerging field, introducing technical terminology and commonly used methods.",
+    "link": "http://arxiv.org/abs/2307.13219",
+    "context": "Title: A Primer on the Data Cleaning Pipeline. (arXiv:2307.13219v1 [cs.DB])\nAbstract: The availability of both structured and unstructured databases, such as electronic health data, social media data, patent data, and surveys that are often updated in real time, among others, has grown rapidly over the past decade. With this expansion, the statistical and methodological questions around data integration, or rather merging multiple data sources, has also grown. Specifically, the science of the ``data cleaning pipeline'' contains four stages that allow an analyst to perform downstream tasks, predictive analyses, or statistical analyses on ``cleaned data.'' This article provides a review of this emerging field, introducing technical terminology and commonly used methods.",
+    "path": "papers/23/07/2307.13219.json",
+    "total_tokens": 664,
+    "translated_title": "数据清洗流程的入门介绍",
+    "translated_abstract": "过去十年来，结构化和非结构化数据库的可用性大幅增长，其中包括电子健康数据、社交媒体数据、专利数据和实时更新的调查数据等。随着这种扩展，关于数据集成或者说合并多个数据源的统计和方法学问题也在不断增长。具体而言，\"数据清洗流程\"的科学包含四个阶段，使分析师能够在“清洁数据”上执行下游任务、预测分析或统计分析。本文回顾了这一新兴领域，介绍了技术术语和常用方法。",
+    "tldr": "该论文介绍了数据清洗流程的概念和方法，旨在帮助分析师在清洁数据上进行下游任务、预测分析或统计分析。",
+    "en_tdlr": "This paper provides an introduction to the concept and methods of the data cleaning pipeline, aiming to assist analysts in performing downstream tasks, predictive analyses, or statistical analyses on cleaned data."
+}

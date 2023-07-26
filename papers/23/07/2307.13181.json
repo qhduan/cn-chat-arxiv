@@ -1,0 +1,12 @@
+{
+    "title": "Neural Memory Decoding with EEG Data and Representation Learning. (arXiv:2307.13181v1 [cs.LG])",
+    "abstract": "We describe a method for the neural decoding of memory from EEG data. Using this method, a concept being recalled can be identified from an EEG trace with an average top-1 accuracy of about 78.4% (chance 4%). The method employs deep representation learning with supervised contrastive loss to map an EEG recording of brain activity to a low-dimensional space. Because representation learning is used, concepts can be identified even if they do not appear in the training data set. However, reference EEG data must exist for each such concept. We also show an application of the method to the problem of information retrieval. In neural information retrieval, EEG data is captured while a user recalls the contents of a document, and a list of links to predicted documents is produced.",
+    "link": "http://arxiv.org/abs/2307.13181",
+    "context": "Title: Neural Memory Decoding with EEG Data and Representation Learning. (arXiv:2307.13181v1 [cs.LG])\nAbstract: We describe a method for the neural decoding of memory from EEG data. Using this method, a concept being recalled can be identified from an EEG trace with an average top-1 accuracy of about 78.4% (chance 4%). The method employs deep representation learning with supervised contrastive loss to map an EEG recording of brain activity to a low-dimensional space. Because representation learning is used, concepts can be identified even if they do not appear in the training data set. However, reference EEG data must exist for each such concept. We also show an application of the method to the problem of information retrieval. In neural information retrieval, EEG data is captured while a user recalls the contents of a document, and a list of links to predicted documents is produced.",
+    "path": "papers/23/07/2307.13181.json",
+    "total_tokens": 759,
+    "translated_title": "使用EEG数据和表示学习的神经记忆解码",
+    "translated_abstract": "我们描述了一种从EEG数据中解码记忆的方法。使用这种方法，可以从EEG波形中识别出被召回的概念，平均准确率达到78.4％（机会4％）。该方法采用了深度表示学习与有监督对比损失来将脑活动的EEG记录映射到一个低维空间。由于使用了表示学习，即使这些概念在训练数据集中没有出现，也可以识别出来。然而，每个概念都必须存在相应的参考EEG数据。我们还展示了该方法在信息检索问题上的应用。在神经信息检索中，当用户回忆文档内容时捕获EEG数据，并生成预测文档的链接列表。",
+    "tldr": "本研究提出一种使用EEG数据和表示学习进行神经记忆解码的方法，能够实现从EEG数据中识别出被召回的概念，并在信息检索问题中应用该方法。",
+    "en_tdlr": "A method for neural memory decoding using EEG data and representation learning is proposed, achieving identification of recalled concepts from EEG traces and application in information retrieval."
+}

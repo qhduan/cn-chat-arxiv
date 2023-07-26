@@ -1,0 +1,12 @@
+{
+    "title": "Geometric Epitope and Paratope Prediction. (arXiv:2307.13608v1 [q-bio.BM])",
+    "abstract": "Antibody-antigen interactions play a crucial role in identifying and neutralizing harmful foreign molecules. In this paper, we investigate the optimal representation for predicting the binding sites in the two molecules and emphasize the importance of geometric information. Specifically, we compare different geometric deep learning methods applied to proteins' inner (I-GEP) and outer (O-GEP) structures. We incorporate 3D coordinates and spectral geometric descriptors as input features to fully leverage the geometric information. Our research suggests that surface-based models are more efficient than other methods, and our O-GEP experiments have achieved state-of-the-art results with significant performance improvements.",
+    "link": "http://arxiv.org/abs/2307.13608",
+    "context": "Title: Geometric Epitope and Paratope Prediction. (arXiv:2307.13608v1 [q-bio.BM])\nAbstract: Antibody-antigen interactions play a crucial role in identifying and neutralizing harmful foreign molecules. In this paper, we investigate the optimal representation for predicting the binding sites in the two molecules and emphasize the importance of geometric information. Specifically, we compare different geometric deep learning methods applied to proteins' inner (I-GEP) and outer (O-GEP) structures. We incorporate 3D coordinates and spectral geometric descriptors as input features to fully leverage the geometric information. Our research suggests that surface-based models are more efficient than other methods, and our O-GEP experiments have achieved state-of-the-art results with significant performance improvements.",
+    "path": "papers/23/07/2307.13608.json",
+    "total_tokens": 747,
+    "translated_title": "几何表位和配位位点的预测",
+    "translated_abstract": "抗体-抗原相互作用在识别和中和有害外来分子方面起着至关重要的作用。在本文中，我们研究了预测这两种分子结合位点的最佳表示，并强调了几何信息的重要性。具体而言，我们比较了应用于蛋白质内部（I-GEP）和外部（O-GEP）结构的不同几何深度学习方法。我们将三维坐标和谱几何描述符作为输入特征，充分利用几何信息。我们的研究表明，基于表面的模型比其他方法更高效，我们的O-GEP实验取得了显著的性能改进，达到了最先进的结果。",
+    "tldr": "本文研究了预测抗体-抗原结合位点的最佳表示方法，并强调了几何信息的重要性。研究发现基于表面的模型更高效，O-GEP实验取得了显著的性能改进。",
+    "en_tdlr": "This paper investigates the optimal representation for predicting binding sites of antibody-antigen interactions and emphasizes the importance of geometric information. The research suggests that surface-based models are more efficient, and the O-GEP experiments achieved significant performance improvements."
+}

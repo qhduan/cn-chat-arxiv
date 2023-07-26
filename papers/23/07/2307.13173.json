@@ -1,0 +1,11 @@
+{
+    "title": "Opinion Mining Using Population-tuned Generative Language Models. (arXiv:2307.13173v1 [cs.CL])",
+    "abstract": "We present a novel method for mining opinions from text collections using generative language models trained on data collected from different populations. We describe the basic definitions, methodology and a generic algorithm for opinion insight mining. We demonstrate the performance of our method in an experiment where a pre-trained generative model is fine-tuned using specifically tailored content with unnatural and fully annotated opinions. We show that our approach can learn and transfer the opinions to the semantic classes while maintaining the proportion of polarisation. Finally, we demonstrate the usage of an insight mining system to scale up the discovery of opinion insights from a real text corpus.",
+    "link": "http://arxiv.org/abs/2307.13173",
+    "context": "Title: Opinion Mining Using Population-tuned Generative Language Models. (arXiv:2307.13173v1 [cs.CL])\nAbstract: We present a novel method for mining opinions from text collections using generative language models trained on data collected from different populations. We describe the basic definitions, methodology and a generic algorithm for opinion insight mining. We demonstrate the performance of our method in an experiment where a pre-trained generative model is fine-tuned using specifically tailored content with unnatural and fully annotated opinions. We show that our approach can learn and transfer the opinions to the semantic classes while maintaining the proportion of polarisation. Finally, we demonstrate the usage of an insight mining system to scale up the discovery of opinion insights from a real text corpus.",
+    "path": "papers/23/07/2307.13173.json",
+    "total_tokens": 745,
+    "translated_title": "使用经过人群调整的生成式语言模型进行观点挖掘",
+    "translated_abstract": "我们提出了一种新的方法，利用训练于不同人群数据上的生成式语言模型从文本集合中挖掘观点。我们描述了基本定义、方法论和观点洞察挖掘的通用算法。我们通过一个实验展示了我们的方法的性能：使用预训练的生成式模型，并使用特定的定制内容和完全标注的观点对其进行微调。我们证明了我们的方法可以学习和转移观点到语义类别，并保持极性的比例。最后，我们展示了一个洞察挖掘系统在实际文本语料库中发现观点洞察的扩展应用。",
+    "tldr": "本文提出了一种使用经过调整的生成式语言模型进行观点挖掘的方法。通过特定数据的微调，我们的方法可以学习和转移观点，并保持极性的比例。实验结果表明我们的方法在挖掘真实文本中的观点洞察方面具有良好的性能。"
+}

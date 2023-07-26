@@ -1,0 +1,12 @@
+{
+    "title": "Feature Importance Measurement based on Decision Tree Sampling. (arXiv:2307.13333v1 [cs.LG])",
+    "abstract": "Random forest is effective for prediction tasks but the randomness of tree generation hinders interpretability in feature importance analysis. To address this, we proposed DT-Sampler, a SAT-based method for measuring feature importance in tree-based model. Our method has fewer parameters than random forest and provides higher interpretability and stability for the analysis in real-world problems. An implementation of DT-Sampler is available at https://github.com/tsudalab/DT-sampler.",
+    "link": "http://arxiv.org/abs/2307.13333",
+    "context": "Title: Feature Importance Measurement based on Decision Tree Sampling. (arXiv:2307.13333v1 [cs.LG])\nAbstract: Random forest is effective for prediction tasks but the randomness of tree generation hinders interpretability in feature importance analysis. To address this, we proposed DT-Sampler, a SAT-based method for measuring feature importance in tree-based model. Our method has fewer parameters than random forest and provides higher interpretability and stability for the analysis in real-world problems. An implementation of DT-Sampler is available at https://github.com/tsudalab/DT-sampler.",
+    "path": "papers/23/07/2307.13333.json",
+    "total_tokens": 599,
+    "translated_title": "基于决策树抽样的特征重要性测量",
+    "translated_abstract": "随机森林在预测任务中非常有效，但是树的随机生成使得特征重要性分析的可解释性受限。为解决这个问题，我们提出了DT-Sampler，一种基于SAT的方法用于在基于树的模型中测量特征重要性。我们的方法比随机森林的参数更少，并为现实世界问题中的分析提供更高的可解释性和稳定性。DT-Sampler的实现可以在https://github.com/tsudalab/DT-sampler找到。",
+    "tldr": "DT-Sampler是一种基于SAT的方法，用于测量基于树的模型中的特征重要性，提供了更高的可解释性和稳定性。",
+    "en_tdlr": "DT-Sampler is a SAT-based method for measuring feature importance in tree-based models, providing higher interpretability and stability."
+}

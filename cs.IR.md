@@ -2,164 +2,163 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Conformal Group Recommender System.](http://arxiv.org/abs/2307.12034) | 本文提出了一种符合性群体推荐系统，通过提供置信度度量和解释来增强系统生成的推荐结果。 |
-| [^2] | [XWalk: Random Walk Based Candidate Retrieval for Product Search.](http://arxiv.org/abs/2307.12019) | XWalk是一种基于随机游走的图形方法，用于从推荐系统技术中借鉴的产品搜索候选集检索，能够极大地改进头部查询性能，并且在离线和在线测试中优于其他方法。 |
-| [^3] | [HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation.](http://arxiv.org/abs/2307.11994) | 本文介绍了一种名为HTP的神经网络模型，该模型利用了用户历史交互的全面时间模式，包括绝对时间信息、相对项目时间间隔和相对推荐时间间隔。这是第一个探索基于项目的绝对时间模式的研究，并通过引入新的组件来解决相对项目时间间隔和相对推荐时间间隔之间的微妙相关性。 |
-| [^4] | [Collaborative Graph Neural Networks for Attributed Network Embedding.](http://arxiv.org/abs/2307.11981) | 本文提出了一种协作式图神经网络用于属性网络嵌入，通过深入参与节点属性来增强节点连接并改善对非活动节点的感受域限制。 |
-| [^5] | [MythQA: Query-Based Large-Scale Check-Worthy Claim Detection through Multi-Answer Open-Domain Question Answering.](http://arxiv.org/abs/2307.11848) | MythQA是一项新的多答案开放领域问题回答（QA）任务，旨在通过矛盾立场挖掘来检测大规模查询值得检查的断言。该任务通过构建一个包含522个基于有争议的话题的评估数据集来进行研究。 |
-| [^6] | [AutoAlign: Fully Automatic and Effective Knowledge Graph Alignment enabled by Large Language Models.](http://arxiv.org/abs/2307.11772) | AutoAlign是一种全自动的知识图谱对齐方法，不需要手工制作的种子对齐。它利用大型语言模型自动捕捉谓词相似性，并使用TransE计算实体嵌入来实现实体对齐。 |
-| [^7] | [Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation.](http://arxiv.org/abs/2307.11019) | 本研究初步分析了大型语言模型的事实知识边界，并研究了检索增强对开放域问答任务中大型语言模型的影响。结果显示大型语言模型在回答问题时表现出自信，并且回答准确。 |
-| [^8] | [Detecting deceptive reviews using text classification.](http://arxiv.org/abs/2307.10617) | 这篇论文提出了一种使用机器学习模型的方法来识别虚假评论，并通过在餐馆评论的数据集上进行实验验证了其性能。 |
-| [^9] | [Fast Approximate Nearest Neighbor Search with a Dynamic Exploration Graph using Continuous Refinement.](http://arxiv.org/abs/2307.10479) | 本论文提出了一种名为动态探索图（DEG）的算法，通过结合连续细化和图构建过程，达到了在近似最近邻搜索中提高搜索效率、预测索引大小、保持连通性和动态图结构的目的。 |
-| [^10] | [PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search.](http://arxiv.org/abs/2307.09683) | 本论文总结了生物医学文献检索领域的最新进展和最佳实践，介绍了针对不同生物医学信息需求的文献检索工具，并旨在帮助读者高效满足其信息需求。 |
+| [^1] | [Mitigating Mainstream Bias in Recommendation via Cost-sensitive Learning.](http://arxiv.org/abs/2307.13632) | 通过成本敏感学习减轻推荐中的主流偏见，通过使用推荐效用作为衡量主流性的代理，并提出了简单的用户加权方法来纳入训练过程中，这样能够更好地识别非主流用户并提供更好的服务效果。 |
+| [^2] | [Cloud Render Farm Services Discovery Using NLP And Ontology Based Knowledge Graph.](http://arxiv.org/abs/2307.13604) | 利用自然语言处理和基于本体的知识图谱，这项研究提出了一种名为RenderSelect的服务发现引擎，用于发现成本效益高且符合功能要求的云渲染农场服务。 |
+| [^3] | [Gaussian Graph with Prototypical Contrastive Learning in E-Commerce Bundle Recommendation.](http://arxiv.org/abs/2307.13468) | 本文提出了一种新颖的具有高斯图和典型对比学习（GPCL）框架，用于解决电子商务套餐推荐中的不确定性和采样偏差问题。 |
+| [^4] | [Comprehensive Review on Semantic Information Retrieval and Ontology Engineering.](http://arxiv.org/abs/2307.13427) | 本论文综述了语义信息检索和本体工程的现状和未来研究方向。通过本体推理，可以克服传统系统的局限性，并提供一个形式化、灵活和可扩展的知识表示、推理和推断框架。 |
+| [^5] | [An End-to-End Workflow using Topic Segmentation and Text Summarisation Methods for Improved Podcast Comprehension.](http://arxiv.org/abs/2307.13394) | 本研究使用主题分割和文本摘要方法相结合，探讨了如何通过为播客节目提供逐个主题的细分和每个主题的简短摘要来提高播客节目的理解能力。研究采样了Spotify的英语播客数据集中的10个节目，并使用TextSplit算法进行了分割。调查结果表明，TextSplit算法在评估指标上达到了最低平均值。 |
+| [^6] | [Embedding Models for Supervised Automatic Extraction and Classification of Named Entities in Scientific Acknowledgements.](http://arxiv.org/abs/2307.13377) | 本论文评估了在科学论文致谢文本中自动提取和分类被致谢实体的不同嵌入模型的性能。在使用Flair NLP框架进行命名实体识别任务的训练中，Flair Embeddings模型在中等规模语料库上达到了最佳准确度（0.79）。同时，扩大训练语料库的规模可以显著提高所有训练算法的准确性。 |
+| [^7] | [An Intent Taxonomy of Legal Case Retrieval.](http://arxiv.org/abs/2307.13298) | 本论文提出了一种新颖的法律案件检索的意图分类法，在明确了法律检索用户的潜在搜索意图更加复杂的情况下，通过五种意图类型进行分类。该分类法经过广泛的评估，揭示了用户行为和满意度方面的显著差异。 |
+| [^8] | [Investigating the Robustness of Sequential Recommender Systems Against Training Data Perturbations: an Empirical Study.](http://arxiv.org/abs/2307.13165) | 本研究通过对多个数据集进行评估发现，顺序推荐系统中删除序列末尾的项目显著降低了性能，而删除序列开头或中间的项目则没有明显影响。这一发现强调了考虑训练数据中扰动项目位置的重要性，并能指导更具鲁棒性的顺序推荐系统的设计。 |
+| [^9] | [Extracting Molecular Properties from Natural Language with Multimodal Contrastive Learning.](http://arxiv.org/abs/2307.12996) | 该论文研究了如何使用多模态对比学习方法从自然语言中提取分子属性信息，通过改进文本检索和引入分子图扩增策略等方法提高了属性预测性能。实验结果显示相对于仅在图模态上预训练的模型，我们取得了+4.26%的AUROC增益和+1.54%的增益。 |
+| [^10] | [RRAML: Reinforced Retrieval Augmented Machine Learning.](http://arxiv.org/abs/2307.12798) | RRAML是一种新的机器学习框架，将大型语言模型（LLMs）的推理能力与用户提供的庞大数据库中的支持信息相结合。利用强化学习的进展，该方法成功解决了几个关键挑战。 |
 | [^11] | [Soft Prompt Tuning for Augmenting Dense Retrieval with Large Language Models.](http://arxiv.org/abs/2307.08303) | 本论文提出了一种使用软提示调优来增强密集检索的方法（SPTAR）。通过优化任务特定的软提示并利用大型语言模型为未标记的文档生成弱查询，可以提高零样本和少样本的密集检索模型的性能。 |
-| [^12] | [Comparing Apples to Apples: Generating Aspect-Aware Comparative Sentences from User Review.](http://arxiv.org/abs/2307.03691) | 该论文提出了一个模型，利用用户评论和相关项目特征生成对比评价句子，以帮助用户找到最适合的产品。该模型包括项目编码模块、比较生成模块和个性化解码方法，并通过人类评估验证了生成句子的相关性和真实性。 |
-| [^13] | [EvalRS 2023. Well-Rounded Recommender Systems For Real-World Deployments.](http://arxiv.org/abs/2304.07145) | EvalRS 2023旨在探讨推荐系统的全面评估，关注其在现实场景下的实际影响。过去只有准确度的测量方法可能无法全面评估其性能，公平性、偏见、有用性和信息量等方面也应该被关注。本次研讨会是去年CIKM研讨会的继承和发展，带有实际操作性和互动性。 |
-| [^14] | [Recall, Robustness, and Lexicographic Evaluation.](http://arxiv.org/abs/2302.11370) | 该论文从正式的角度反思了排名中召回率的测量问题，提出召回方向的概念和词典式方法，并分析了其鲁棒性。 |
-| [^15] | [A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal.](http://arxiv.org/abs/2212.05767) | 本文对知识图谱推理进行了综述，涵盖了静态、动态和多模态三种图类型，填补了这一领域的研究空白。 |
-| [^16] | [ICPE: An Item Cluster-Wise Pareto-Efficient Framework for Recommendation Debiasing.](http://arxiv.org/abs/2109.12887) | ICPE是一种面向推荐去偏倚的项目聚类多目标优化框架，通过平衡不同流行度的项目聚类的学习，解决了推荐模型从偏倚数据生成推荐的问题，实现了对潜在有趣项目的探索。 |
+| [^12] | [Similarity search in the blink of an eye with compressed indices.](http://arxiv.org/abs/2304.04759) | 本文提出一种新的向量压缩方法局部自适应量化(LVQ)，并在基于图的索引的关键优化下实现减少有效带宽同时启用随机访问友好的快速相似性计算，从而在性能和内存占用方面创造了新的最佳表现。 |
+| [^13] | [A Case Study and Qualitative Analysis of Simple Cross-Lingual Opinion Mining.](http://arxiv.org/abs/2111.02259) | 本研究提出了一种简单、现代和有效的方法，能够同时处理多种语言，构建一个单一主题模型，并基于深度神经网络进行情感分析。通过将该模型应用于有机食品的报纸文章和用户评论，我们发现主题在不同语言中匹配，并获得了高比例的稳定且与领域相关的主题。 |
+| [^14] | [Classification of Consumer Belief Statements From Social Media.](http://arxiv.org/abs/2106.15498) | 本研究探讨了使用复杂的专家注解在社交媒体中进行消费者信念陈述分类的准确性，比较了细粒度和抽象类别的标签，并说明复杂专家注解在高度特定的意见挖掘中的潜在优势。 |
+| [^15] | [Criterion-based Heterogeneous Collaborative Filtering for Multi-behavior Implicit Recommendation.](http://arxiv.org/abs/2105.11876) | 提出了一种基于准则的非采样学习框架，命名为CHCF，用于多行为隐式推荐的异构协同过滤。该方法通过引入上限和下限阈值来指示选择标准，并指导用户偏好学习。 |
 
 # 详细
 
-[^1]: 符合性群体推荐系统
+[^1]: 通过成本敏感学习减轻推荐中的主流偏见
 
-    Conformal Group Recommender System. (arXiv:2307.12034v1 [cs.IR])
+    Mitigating Mainstream Bias in Recommendation via Cost-sensitive Learning. (arXiv:2307.13632v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.12034](http://arxiv.org/abs/2307.12034)
+    [http://arxiv.org/abs/2307.13632](http://arxiv.org/abs/2307.13632)
 
-    本文提出了一种符合性群体推荐系统，通过提供置信度度量和解释来增强系统生成的推荐结果。
-
-    
-
-    群体推荐系统（GRS）在基于群体偏好而不是个人偏好的情况下，从无尽的库存中发现相关物品至关重要，例如向一群人推荐电影、餐馆或旅游目的地。传统的群体推荐模型被设计为像一个黑盒子，严格关注提高推荐准确性，并且大多数情况下，它们将解释推荐的责任放在用户身上。近年来，推荐系统（RS）研究的重点已从仅仅提高推荐准确性转向增加自信度和解释等价值。在这项工作中，我们提出了一个符合性预测框架，它在群体推荐系统中提供了与预测一起的置信度度量，以增强系统生成的简单推荐。在群体推荐系统的背景下，我们提出了多种非符合度度量，它在提高推荐效果方面起着关键作用。
-
-    Group recommender systems (GRS) are critical in discovering relevant items from a near-infinite inventory based on group preferences rather than individual preferences, like recommending a movie, restaurant, or tourist destination to a group of individuals. The traditional models of group recommendation are designed to act like a black box with a strict focus on improving recommendation accuracy, and most often, they place the onus on the users to interpret recommendations. In recent years, the focus of Recommender Systems (RS) research has shifted away from merely improving recommendation accuracy towards value additions such as confidence and explanation. In this work, we propose a conformal prediction framework that provides a measure of confidence with prediction in conjunction with a group recommender system to augment the system-generated plain recommendations. In the context of group recommender systems, we propose various nonconformity measures that play a vital role in the eff
-    
-[^2]: XWalk: 基于随机游走的产品搜索候选集检索
-
-    XWalk: Random Walk Based Candidate Retrieval for Product Search. (arXiv:2307.12019v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.12019](http://arxiv.org/abs/2307.12019)
-
-    XWalk是一种基于随机游走的图形方法，用于从推荐系统技术中借鉴的产品搜索候选集检索，能够极大地改进头部查询性能，并且在离线和在线测试中优于其他方法。
+    通过成本敏感学习减轻推荐中的主流偏见，通过使用推荐效用作为衡量主流性的代理，并提出了简单的用户加权方法来纳入训练过程中，这样能够更好地识别非主流用户并提供更好的服务效果。
 
     
 
-    在电子商务中，头部查询占据了绝大部分的销售额，并且对头部查询的改进对业务非常有影响力。虽然大多数监督式的搜索方法在头部查询相对于尾部查询有更好的性能，但我们提出了一种能够极大改善头部查询性能的方法。我们提出了XWalk，一种基于随机游走的图形方法，用于从推荐系统技术中借鉴的产品搜索候选集检索。XWalk在大规模高流量的电子商务环境中训练和推断非常高效，并且在头部查询性能方面显示出了相当大的改进，超过了最先进的神经检索器。将XWalk与神经和/或词汇检索器进行集成，结合了两者的优势，所得到的检索系统在离线相关性评估和在线A/B测试中优于所有其他方法。
+    主流偏见是指一些用户由于其偏好不常见或者活跃度较低而收到较差的推荐，这在推荐系统中对公平性至关重要。现有方法未显式地对这些非主流用户的重要性建模，或者在建模时与数据和推荐模型不兼容。相反，我们使用推荐效用作为更通用和隐含的衡量主流性的代理，并提出了一种简单的用户加权方法，将其纳入训练过程中，并考虑潜在推荐错误的成本。我们通过大量实验结果表明，通过效用来量化主流性更能准确地识别非主流用户，并且当使用成本敏感方式训练模型时，这些用户的服务效果确实更好。这一成果几乎没有或没有损失。
 
-    In e-commerce, head queries account for the vast majority of gross merchandise sales and improvements to head queries are highly impactful to the business. While most supervised approaches to search perform better in head queries vs. tail queries, we propose a method that further improves head query performance dramatically. We propose XWalk, a random-walk based graph approach to candidate retrieval for product search that borrows from recommendation system techniques. XWalk is highly efficient to train and inference in a large-scale high traffic e-commerce setting, and shows substantial improvements in head query performance over state-of-the-art neural retreivers. Ensembling XWalk with a neural and/or lexical retriever combines the best of both worlds and the resulting retrieval system outperforms all other methods in both offline relevance-based evaluation and in online A/B tests.
+    Mainstream bias, where some users receive poor recommendations because their preferences are uncommon or simply because they are less active, is an important aspect to consider regarding fairness in recommender systems. Existing methods to mitigate mainstream bias do not explicitly model the importance of these non-mainstream users or, when they do, it is in a way that is not necessarily compatible with the data and recommendation model at hand. In contrast, we use the recommendation utility as a more generic and implicit proxy to quantify mainstreamness, and propose a simple user-weighting approach to incorporate it into the training process while taking the cost of potential recommendation errors into account. We provide extensive experimental results showing that quantifying mainstreamness via utility is better able at identifying non-mainstream users, and that they are indeed better served when training the model in a cost-sensitive way. This is achieved with negligible or no loss 
     
-[^3]: HTP: 利用全面的时间模式进行序列推荐
+[^2]: 利用自然语言处理和基于本体的知识图谱发现云渲染农场服务
 
-    HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation. (arXiv:2307.11994v1 [cs.IR])
+    Cloud Render Farm Services Discovery Using NLP And Ontology Based Knowledge Graph. (arXiv:2307.13604v1 [cs.DC])
 
-    [http://arxiv.org/abs/2307.11994](http://arxiv.org/abs/2307.11994)
+    [http://arxiv.org/abs/2307.13604](http://arxiv.org/abs/2307.13604)
 
-    本文介绍了一种名为HTP的神经网络模型，该模型利用了用户历史交互的全面时间模式，包括绝对时间信息、相对项目时间间隔和相对推荐时间间隔。这是第一个探索基于项目的绝对时间模式的研究，并通过引入新的组件来解决相对项目时间间隔和相对推荐时间间隔之间的微妙相关性。
-
-    
-
-    顺序推荐系统通过明确利用用户历史交互的时间顺序，为下一个项目的推荐取得了巨大的成功。在实践中，用户的交互包含更多有用的时间信息，一些开创性研究已经证明了这一点。本文系统地调查了顺序推荐中各种时间信息，并确定了三种有利的时间模式，包括绝对时间信息、相对项目时间间隔和相对推荐时间间隔。我们是第一个探索基于项目的绝对时间模式的研究。尽管现有模型只考虑这三种模式中的一种或两种，我们提出了一种新颖的基于全面时间模式的神经网络模型HTP，以充分利用这三种模式。我们引入了新颖的组件来处理相对项目时间间隔和相对推荐时间间隔之间的微妙相关性。
-
-    Sequential recommender systems have demonstrated a huge success for next-item recommendation by explicitly exploiting the temporal order of users' historical interactions. In practice, user interactions contain more useful temporal information beyond order, as shown by some pioneering studies. In this paper, we systematically investigate various temporal information for sequential recommendation and identify three types of advantageous temporal patterns beyond order, including absolute time information, relative item time intervals and relative recommendation time intervals. We are the first to explore item-oriented absolute time patterns. While existing models consider only one or two of these three patterns, we propose a novel holistic temporal pattern based neural network, named HTP, to fully leverage all these three patterns. In particular, we introduce novel components to address the subtle correlations between relative item time intervals and relative recommendation time interval
-    
-[^4]: 协作图神经网络用于属性网络嵌入
-
-    Collaborative Graph Neural Networks for Attributed Network Embedding. (arXiv:2307.11981v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.11981](http://arxiv.org/abs/2307.11981)
-
-    本文提出了一种协作式图神经网络用于属性网络嵌入，通过深入参与节点属性来增强节点连接并改善对非活动节点的感受域限制。
+    利用自然语言处理和基于本体的知识图谱，这项研究提出了一种名为RenderSelect的服务发现引擎，用于发现成本效益高且符合功能要求的云渲染农场服务。
 
     
 
-    图神经网络（GNNs）在属性网络嵌入方面显示出了显著的性能。然而，现有的研究主要集中在利用网络结构，而对节点属性的利用相对较少，它们只在初始层作为节点特征。这种简单的策略限制了节点属性在增强节点连接方面的潜力，导致了对具有少量甚至没有邻居的非活动节点的有限感受域。此外，大多数GNN的训练目标（即重构网络结构）也不包括节点属性，尽管研究表明重构节点属性是有益的。因此，深入参与图卷积操作和训练目标等GNN关键组件中的节点属性是很有前景的。然而，这是一个非常重要的任务，因为需要适当的集成方式来保持GNN的优点。为了填补这个差距，在本文中，我们提出了协作式图神经网络...
+    云渲染农场服务是针对动画领域的特定云服务平台（PaaS）类型的云服务，提供完整的平台来渲染动画文件。然而，识别成本效益且符合功能要求（如动画软件、所需插件等）的渲染农场服务是一项挑战。本研究提出了一种基于本体的服务发现引擎RenderSelect，用于云渲染农场服务。云渲染农场本体语义上定义了云渲染农场服务之间的关系。采用基于知识的推理算法，包括概念相似性推理、等价推理和数值相似性推理，来确定云服务之间的相似性。该服务发现引擎在三种不同的情景下进行了评估，即a）利用本体帮助，b）
 
-    Graph neural networks (GNNs) have shown prominent performance on attributed network embedding. However, existing efforts mainly focus on exploiting network structures, while the exploitation of node attributes is rather limited as they only serve as node features at the initial layer. This simple strategy impedes the potential of node attributes in augmenting node connections, leading to limited receptive field for inactive nodes with few or even no neighbors. Furthermore, the training objectives (i.e., reconstructing network structures) of most GNNs also do not include node attributes, although studies have shown that reconstructing node attributes is beneficial. Thus, it is encouraging to deeply involve node attributes in the key components of GNNs, including graph convolution operations and training objectives. However, this is a nontrivial task since an appropriate way of integration is required to maintain the merits of GNNs. To bridge the gap, in this paper, we propose COllaborat
+    Cloud render farm services are the animation domain specific cloud services Platform-as-a-Service (PaaS) type of cloud services that provides a complete platform to render the animation files. However, identifying the render farm services that is cost effective and also matches the functional requirements that changes for almost every project like the animation software, plug-ins required etc., is a challenge. This research work proposes an ontology-based service discovery engine named RenderSelect for the cloud render farm services. The cloud render farm ontology semantically defines the relationship among the cloud render farm services. The knowledge-based reasoning algorithms namely, the Concept similarity reasoning, Equivalent reasoning and the Numerical similarity reasoning have been applied to determine the similarity among the cloud services. The service discovery engine was evaluated for finding the services under three different scenarios namely a) with help of the ontology, b
     
-[^5]: MythQA: 多答案开放领域问题回答中的大规模查询值得检查的断言检测
+[^3]: 电子商务套餐推荐中的高斯图与典型对比学习
 
-    MythQA: Query-Based Large-Scale Check-Worthy Claim Detection through Multi-Answer Open-Domain Question Answering. (arXiv:2307.11848v1 [cs.CL])
+    Gaussian Graph with Prototypical Contrastive Learning in E-Commerce Bundle Recommendation. (arXiv:2307.13468v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.11848](http://arxiv.org/abs/2307.11848)
+    [http://arxiv.org/abs/2307.13468](http://arxiv.org/abs/2307.13468)
 
-    MythQA是一项新的多答案开放领域问题回答（QA）任务，旨在通过矛盾立场挖掘来检测大规模查询值得检查的断言。该任务通过构建一个包含522个基于有争议的话题的评估数据集来进行研究。
-
-    
-
-    查询值得检查的断言检测旨在向下游的事实核查系统或人工专家提供可能的错误信息进行检查。这是加速事实核查过程的关键步骤。许多努力已经投入到如何从预收集的少量断言中识别值得检查的断言的研究中，但如何直接从大规模信息源（如Twitter）有效检测值得检查的断言仍然未被充分探索。为了填补这一空白，我们引入了MythQA，一项新的多答案开放领域问题回答（QA）任务，该任务涉及用于查询值得检查的大规模断言检测的矛盾立场挖掘。这一想法的背后是，矛盾的断言是值得由适当的机构进行审查的错误信息的强有力指标。为了研究这个任务，我们构建了TweetMythQA，一个包含522个基于有争议的话题的事实型多答案问题的评估数据集。每个问题都带有多个答案。
-
-    Check-worthy claim detection aims at providing plausible misinformation to downstream fact-checking systems or human experts to check. This is a crucial step toward accelerating the fact-checking process. Many efforts have been put into how to identify check-worthy claims from a small scale of pre-collected claims, but how to efficiently detect check-worthy claims directly from a large-scale information source, such as Twitter, remains underexplored. To fill this gap, we introduce MythQA, a new multi-answer open-domain question answering(QA) task that involves contradictory stance mining for query-based large-scale check-worthy claim detection. The idea behind this is that contradictory claims are a strong indicator of misinformation that merits scrutiny by the appropriate authorities. To study this task, we construct TweetMythQA, an evaluation dataset containing 522 factoid multi-answer questions based on controversial topics. Each question is annotated with multiple answers. Moreover
-    
-[^6]: AutoAlign：基于大型语言模型的全自动有效知识图谱对齐方法
-
-    AutoAlign: Fully Automatic and Effective Knowledge Graph Alignment enabled by Large Language Models. (arXiv:2307.11772v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.11772](http://arxiv.org/abs/2307.11772)
-
-    AutoAlign是一种全自动的知识图谱对齐方法，不需要手工制作的种子对齐。它利用大型语言模型自动捕捉谓词相似性，并使用TransE计算实体嵌入来实现实体对齐。
+    本文提出了一种新颖的具有高斯图和典型对比学习（GPCL）框架，用于解决电子商务套餐推荐中的不确定性和采样偏差问题。
 
     
 
-    知识图谱间的实体对齐任务旨在识别出两个不同知识图谱中表示相同实体的每对实体。许多基于机器学习的方法已被提出用于这个任务。然而，据我们所知，现有的方法都需要手工制作的种子对齐，这是非常昂贵的。在本文中，我们提出了第一个名为AutoAlign的完全自动对齐方法，它不需要任何手工制作的种子对齐。具体而言，对于谓词嵌入，AutoAlign使用大型语言模型构建谓词近邻图，自动捕捉两个知识图谱中谓词的相似性。对于实体嵌入，AutoAlign首先使用TransE独立计算每个知识图谱的实体嵌入，然后通过计算基于实体属性的实体相似性，将两个知识图谱的实体嵌入移动到相同的向量空间中。因此，AutoAlign实现了谓词对齐和实体对齐。
+    套餐推荐旨在满足用户在电子商务平台上的偏好。既有的成功解决方案基于对比图学习范式，其中使用图神经网络（GNN）从用户级别和套餐级别的图视图中学习表示，并使用对比学习模块增强不同视图之间的合作关联。然而，由于高度稀疏性或多样性导致的缺乏有区别性信息，不确定性问题在实际套餐推荐场景中具有重要影响，这些解决方案忽视了这一问题。我们进一步指出，它们的逐实例对比学习无法区分语义上相似的负样本（即采样偏差问题），导致性能下降。在本文中，我们提出了一种新颖的具有高斯图和典型对比学习（GPCL）框架来克服这些挑战。
 
-    The task of entity alignment between knowledge graphs (KGs) aims to identify every pair of entities from two different KGs that represent the same entity. Many machine learning-based methods have been proposed for this task. However, to our best knowledge, existing methods all require manually crafted seed alignments, which are expensive to obtain. In this paper, we propose the first fully automatic alignment method named AutoAlign, which does not require any manually crafted seed alignments. Specifically, for predicate embeddings, AutoAlign constructs a predicate-proximity-graph with the help of large language models to automatically capture the similarity between predicates across two KGs. For entity embeddings, AutoAlign first computes the entity embeddings of each KG independently using TransE, and then shifts the two KGs' entity embeddings into the same vector space by computing the similarity between entities based on their attributes. Thus, both predicate alignment and entity al
+    Bundle recommendation aims to provide a bundle of items to satisfy the user preference on e-commerce platform. Existing successful solutions are based on the contrastive graph learning paradigm where graph neural networks (GNNs) are employed to learn representations from user-level and bundle-level graph views with a contrastive learning module to enhance the cooperative association between different views. Nevertheless, they ignore the uncertainty issue which has a significant impact in real bundle recommendation scenarios due to the lack of discriminative information caused by highly sparsity or diversity. We further suggest that their instancewise contrastive learning fails to distinguish the semantically similar negatives (i.e., sampling bias issue), resulting in performance degradation. In this paper, we propose a novel Gaussian Graph with Prototypical Contrastive Learning (GPCL) framework to overcome these challenges. In particular, GPCL embeds each user/bundle/item as a Gaussian
     
-[^7]: 用检索增强研究大型语言模型的事实知识边界
+[^4]: 语义信息检索和本体工程的综合评述
 
-    Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation. (arXiv:2307.11019v2 [cs.CL] UPDATED)
+    Comprehensive Review on Semantic Information Retrieval and Ontology Engineering. (arXiv:2307.13427v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.11019](http://arxiv.org/abs/2307.11019)
+    [http://arxiv.org/abs/2307.13427](http://arxiv.org/abs/2307.13427)
 
-    本研究初步分析了大型语言模型的事实知识边界，并研究了检索增强对开放域问答任务中大型语言模型的影响。结果显示大型语言模型在回答问题时表现出自信，并且回答准确。
-
-    
-
-    知识密集型任务（例如，开放域问答（QA））需要大量的事实知识，并经常依赖外部信息进行协助。最近，大型语言模型（LLMs）（例如，ChatGPT）在解决包括知识密集型任务在内的各种任务上展现出了惊人的能力。然而，目前尚不清楚LLMs在感知其事实知识边界方面表现如何，特别是在使用检索增强时的行为。在本研究中，我们对LLMs的事实知识边界进行了初步分析，并研究了检索增强对LLMs在开放域QA上的影响。具体而言，我们关注了三个主要研究问题，并通过检查LLMs的QA性能、先验判断和后验判断来进行分析。我们提供了证据表明LLMs对于自己回答问题的能力和回答的准确性充满了自信。
-
-    Knowledge-intensive tasks (e.g., open-domain question answering (QA)) require a substantial amount of factual knowledge and often rely on external information for assistance. Recently, large language models (LLMs) (e.g., ChatGPT), have demonstrated impressive prowess in solving a wide range of tasks with world knowledge, including knowledge-intensive tasks. However, it remains unclear how well LLMs are able to perceive their factual knowledge boundaries, particularly how they behave when incorporating retrieval augmentation. In this study, we present an initial analysis of the factual knowledge boundaries of LLMs and how retrieval augmentation affects LLMs on open-domain QA. Specially, we focus on three primary research questions and analyze them by examining QA performance, priori judgement and posteriori judgement of LLMs. We show evidence that LLMs possess unwavering confidence in their capabilities to respond to questions and the accuracy of their responses. Furthermore, retrieval 
-    
-[^8]: 使用文本分类检测虚假评论
-
-    Detecting deceptive reviews using text classification. (arXiv:2307.10617v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.10617](http://arxiv.org/abs/2307.10617)
-
-    这篇论文提出了一种使用机器学习模型的方法来识别虚假评论，并通过在餐馆评论的数据集上进行实验验证了其性能。
+    本论文综述了语义信息检索和本体工程的现状和未来研究方向。通过本体推理，可以克服传统系统的局限性，并提供一个形式化、灵活和可扩展的知识表示、推理和推断框架。
 
     
 
-    近年来，在线评论在推广任何产品或服务方面发挥着重要作用。企业可能会嵌入虚假评论以吸引客户购买他们的产品。他们甚至可能突出强调自己产品的优点或批评竞争对手的产品。市场营销人员、广告商和其他在线商业用户有动机为他们想要推广的产品编写虚假的正面评论，或者为他们真正不喜欢的产品提供虚假的负面评论。因此，识别虚假评论是一个紧迫且持续的研究领域。本研究论文提出了一种机器学习模型方法来识别虚假评论。论文调查了在一个餐馆评论的虚假意见垃圾语料库数据集上进行的多次实验的性能。我们采用了n-gram模型和最大特征来识别虚假评论。
+    情景意识是一种重要的认知能力，使个体能够准确地感知、理解和预测环境的当前状态。它涉及意识到相关信息，理解其含义，并利用这种理解做出明智的决策。意识系统通常需要整合新的知识并适应不断变化的环境。本体推理促进了知识的整合和演化，实现了本体的无缝更新和扩展。考虑到上述因素，我们提供了关于语义信息检索和本体工程的快速评述，以了解新兴挑战和未来研究。在评述中，我们发现本体推理通过提供一个形式化、灵活和可扩展的知识表示、推理和推断框架，克服了传统系统的局限性。
 
-    In recent years, online reviews play a vital role for promoting any kind of product or services. Businesses may embed fake reviews in order to attract customers to purchase their products. They may even highlight the benefits of their own product or criticize the competition's product. Marketers, advertisers, and other online business users have incentive to create fake positive reviews for products which they want to promote or give fake negative reviews for products which they really don't like. So now-a-days writing a deceptive review is inevitable thing for promoting their own business or degrading competitor's reputation. Thus, identifying deceptive reviews is an intense and on-going research area. This research paper proposes machine learning model approach to identify deceptive reviews. The paper investigates the performance of the several experiments done on a Deceptive Opinion Spam Corpus dataset of restaurants reviews. We developed a n-gram model and max features to identify 
+    Situation awareness is a crucial cognitive skill that enables individuals to perceive, comprehend, and project the current state of their environment accurately. It involves being conscious of relevant information, understanding its meaning, and using that understanding to make well-informed decisions. Awareness systems often need to integrate new knowledge and adapt to changing environments. Ontology reasoning facilitates knowledge integration and evolution, allowing for seamless updates and expansions of the ontology. With the consideration of above, we are providing a quick review on semantic information retrieval and ontology engineering to understand the emerging challenges and future research. In the review we have found that the ontology reasoning addresses the limitations of traditional systems by providing a formal, flexible, and scalable framework for knowledge representation, reasoning, and inference.
     
-[^9]: 使用连续细化的动态探索图进行快速近似最近邻搜索
+[^5]: 使用主题分割和文本摘要方法的端到端工作流程，以提高播客理解能力
 
-    Fast Approximate Nearest Neighbor Search with a Dynamic Exploration Graph using Continuous Refinement. (arXiv:2307.10479v1 [cs.IR])
+    An End-to-End Workflow using Topic Segmentation and Text Summarisation Methods for Improved Podcast Comprehension. (arXiv:2307.13394v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.10479](http://arxiv.org/abs/2307.10479)
+    [http://arxiv.org/abs/2307.13394](http://arxiv.org/abs/2307.13394)
 
-    本论文提出了一种名为动态探索图（DEG）的算法，通过结合连续细化和图构建过程，达到了在近似最近邻搜索中提高搜索效率、预测索引大小、保持连通性和动态图结构的目的。
-
-    
-
-    对于近似最近邻搜索，基于图的算法在精度和搜索时间之间提供了最佳的折衷方案。我们提出了动态探索图（DEG），通过结合两个新思想，在搜索和探索效率方面显著优于现有算法：首先，通过部分替换现有边来增量构建一个单个的无向偶正则图，以同时整合新顶点和更新旧邻域。其次，使用边优化算法连续改善图的质量。将这种持续细化与图构建过程相结合，始终保持良好组织的图结构，从而实现：（1）提高搜索效率，（2）预测索引大小，（3）保证所有顶点的连通性和可达性，以及（4）动态图结构。此外，我们还研究了现有基于图的搜索系统在处理索引查询方面的能力。
-
-    For approximate nearest neighbor search, graph-based algorithms have shown to offer the best trade-off between accuracy and search time. We propose the Dynamic Exploration Graph (DEG) which significantly outperforms existing algorithms in terms of search and exploration efficiency by combining two new ideas: First, a single undirected even regular graph is incrementally built by partially replacing existing edges to integrate new vertices and to update old neighborhoods at the same time. Secondly, an edge optimization algorithm is used to continuously improve the quality of the graph. Combining this ongoing refinement with the graph construction process leads to a well-organized graph structure at all times, resulting in: (1) increased search efficiency, (2) predictable index size, (3) guaranteed connectivity and therefore reachability of all vertices, and (4) a dynamic graph structure. In addition we investigate how well existing graph-based search systems can handle indexed queries w
-    
-[^10]: PubMed及其他：生物医学文献检索的最新进展和最佳实践
-
-    PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search. (arXiv:2307.09683v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.09683](http://arxiv.org/abs/2307.09683)
-
-    本论文总结了生物医学文献检索领域的最新进展和最佳实践，介绍了针对不同生物医学信息需求的文献检索工具，并旨在帮助读者高效满足其信息需求。
+    本研究使用主题分割和文本摘要方法相结合，探讨了如何通过为播客节目提供逐个主题的细分和每个主题的简短摘要来提高播客节目的理解能力。研究采样了Spotify的英语播客数据集中的10个节目，并使用TextSplit算法进行了分割。调查结果表明，TextSplit算法在评估指标上达到了最低平均值。
 
     
 
-    生物医学研究产生了丰富的信息，其中很多只能通过文献获取。因此，文献检索是临床和生物医学研究中建立在先前知识基础上的重要工具。尽管人工智能的最新进展已经将功能扩展到了超越基于关键字的搜索，但这些进展可能对临床医生和研究人员来说还比较陌生。为了解决这个问题，本文介绍了一些特定于生物医学领域信息需求的文献检索工具，旨在帮助读者高效地满足他们的信息需求。我们首先对广泛使用的PubMed搜索引擎进行了讨论，包括最新的改进和仍然存在的挑战。然后，我们描述了五种特定信息需求的文献检索工具：1.为循证医学寻找高质量临床研究。2.为精准医学和基因组学检索基因相关信息。3.根据意义搜索。
+    播客媒体的消费量正在迅速增加。由于播客节目的冗长性质，用户常常会仔细选择要听的节目。虽然节目描述通过提供整个播客的摘要来帮助用户，但它们并没有提供逐个主题的细分。本研究探讨了利用主题分割和文本摘要方法相结合的应用，以研究如何提高播客节目的理解能力。我们从Spotify的英语播客数据集中选择了10个节目，并使用TextTiling和TextSplit进行了分割。此外，我们应用了三种文本摘要模型，分别是T5、BART和Pegasus，为每个片段提供一个非常简短的标题。我们使用我们的标注样本使用了$P_k$和WindowDiff ($WD$)两个度量来评估分割部分。我们还进行了一项调查（$N=25$），以评估生成的摘要的质量。TextSplit算法在两个评估指标的平均值上都达到了最低水平。
 
-    Biomedical research yields a wealth of information, much of which is only accessible through the literature. Consequently, literature search is an essential tool for building on prior knowledge in clinical and biomedical research. Although recent improvements in artificial intelligence have expanded functionality beyond keyword-based search, these advances may be unfamiliar to clinicians and researchers. In response, we present a survey of literature search tools tailored to both general and specific information needs in biomedicine, with the objective of helping readers efficiently fulfill their information needs. We first examine the widely used PubMed search engine, discussing recent improvements and continued challenges. We then describe literature search tools catering to five specific information needs: 1. Identifying high-quality clinical research for evidence-based medicine. 2. Retrieving gene-related information for precision medicine and genomics. 3. Searching by meaning, inc
+    The consumption of podcast media has been increasing rapidly. Due to the lengthy nature of podcast episodes, users often carefully select which ones to listen to. Although episode descriptions aid users by providing a summary of the entire podcast, they do not provide a topic-by-topic breakdown. This study explores the combined application of topic segmentation and text summarisation methods to investigate how podcast episode comprehension can be improved. We have sampled 10 episodes from Spotify's English-Language Podcast Dataset and employed TextTiling and TextSplit to segment them. Moreover, three text summarisation models, namely T5, BART, and Pegasus, were applied to provide a very short title for each segment. The segmentation part was evaluated using our annotated sample with the $P_k$ and WindowDiff ($WD$) metrics. A survey was also rolled out ($N=25$) to assess the quality of the generated summaries. The TextSplit algorithm achieved the lowest mean for both evaluation metrics 
+    
+[^6]: 使用嵌入模型进行科学致谢中命名实体的自动提取和分类
+
+    Embedding Models for Supervised Automatic Extraction and Classification of Named Entities in Scientific Acknowledgements. (arXiv:2307.13377v1 [cs.DL])
+
+    [http://arxiv.org/abs/2307.13377](http://arxiv.org/abs/2307.13377)
+
+    本论文评估了在科学论文致谢文本中自动提取和分类被致谢实体的不同嵌入模型的性能。在使用Flair NLP框架进行命名实体识别任务的训练中，Flair Embeddings模型在中等规模语料库上达到了最佳准确度（0.79）。同时，扩大训练语料库的规模可以显著提高所有训练算法的准确性。
+
+    
+
+    科学论文中的致谢部分可能揭示科学社区的某些方面，比如奖励体系、合作模式和隐藏的研究趋势。该论文旨在评估不同嵌入模型在科学论文致谢文本中自动提取和分类被致谢实体的性能。我们使用Flair NLP框架进行命名实体识别（NER）任务的训练和实现。训练使用了三个默认的Flair NER模型，使用四个不同大小的语料库和不同版本的Flair NLP框架进行。在最新的FLAIR版本上，使用中等规模的语料库训练的Flair嵌入模型显示出了最好的准确性，为0.79。将训练语料库的规模从非常小的扩展到中等规模大大提高了所有训练算法的准确性，但进一步扩大训练语料库并没有带来进一步的改善。此外，嵌入模型的性能在其他Embeddings选项上没有显著差异。
+
+    Acknowledgments in scientific papers may give an insight into aspects of the scientific community, such as reward systems, collaboration patterns, and hidden research trends. The aim of the paper is to evaluate the performance of different embedding models for the task of automatic extraction and classification of acknowledged entities from the acknowledgment text in scientific papers. We trained and implemented a named entity recognition (NER) task using the Flair NLP framework. The training was conducted using three default Flair NER models with four differently-sized corpora and different versions of the Flair NLP framework. The Flair Embeddings model trained on the medium corpus with the latest FLAIR version showed the best accuracy of 0.79. Expanding the size of a training corpus from very small to medium size massively increased the accuracy of all training algorithms, but further expansion of the training corpus did not bring further improvement. Moreover, the performance of the
+    
+[^7]: 法律案件检索的意图分类法
+
+    An Intent Taxonomy of Legal Case Retrieval. (arXiv:2307.13298v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.13298](http://arxiv.org/abs/2307.13298)
+
+    本论文提出了一种新颖的法律案件检索的意图分类法，在明确了法律检索用户的潜在搜索意图更加复杂的情况下，通过五种意图类型进行分类。该分类法经过广泛的评估，揭示了用户行为和满意度方面的显著差异。
+
+    
+
+    法律案件检索是一项特殊的信息检索任务，关注的是法律案件文件。根据检索到的案件文件的下游任务和用户的信息需求，法律案件检索中的信息需求与网络搜索和传统的自适应检索任务可能会有显著的区别。虽然有几项研究根据文本相似性来检索法律案件，但作为本文所示，法律检索用户的潜在搜索意图更加复杂，但大部分尚未探索。为此，我们提出了一种新颖的法律案件检索的意图分类法。它由五种意图类型组成，根据三个标准进行分类，即搜索特定案例，特征描述，处罚，程序和利益。该分类法通过透明的构建和广泛的评估，包括访谈、编辑用户研究和查询日志分析。通过实验室用户研究，我们揭示了用户行为和满意度方面的显著差异。
+
+    Legal case retrieval is a special Information Retrieval~(IR) task focusing on legal case documents. Depending on the downstream tasks of the retrieved case documents, users' information needs in legal case retrieval could be significantly different from those in Web search and traditional ad-hoc retrieval tasks. While there are several studies that retrieve legal cases based on text similarity, the underlying search intents of legal retrieval users, as shown in this paper, are more complicated than that yet mostly unexplored. To this end, we present a novel hierarchical intent taxonomy of legal case retrieval. It consists of five intent types categorized by three criteria, i.e., search for Particular Case(s), Characterization, Penalty, Procedure, and Interest. The taxonomy was constructed transparently and evaluated extensively through interviews, editorial user studies, and query log analysis. Through a laboratory user study, we reveal significant differences in user behavior and sati
+    
+[^8]: 研究顺序推荐系统对训练数据扰动的鲁棒性：一项经验研究
+
+    Investigating the Robustness of Sequential Recommender Systems Against Training Data Perturbations: an Empirical Study. (arXiv:2307.13165v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.13165](http://arxiv.org/abs/2307.13165)
+
+    本研究通过对多个数据集进行评估发现，顺序推荐系统中删除序列末尾的项目显著降低了性能，而删除序列开头或中间的项目则没有明显影响。这一发现强调了考虑训练数据中扰动项目位置的重要性，并能指导更具鲁棒性的顺序推荐系统的设计。
+
+    
+
+    顺序推荐系统被广泛用于建模用户随时间变化的行为，然而其在面对训练数据扰动时的鲁棒性是一个关键问题。本文进行了一项经验研究，探究了在时间顺序序列中不同位置上删除项目的效果。我们评估了两种不同的顺序推荐系统模型在多个数据集上的表现，使用归一化折现累积增益（NDCG）指标和排名敏感度列表（Rank Sensitivity List）指标来衡量其性能。我们的结果显示，删除序列末尾的项目显著影响性能，NDCG下降高达60％，而删除序列开头或中间的项目没有显著影响。这些发现凸显了考虑训练数据中扰动项目位置的重要性，并可指导更具鲁棒性的顺序推荐系统的设计。
+
+    Sequential Recommender Systems (SRSs) have been widely used to model user behavior over time, but their robustness in the face of perturbations to training data is a critical issue. In this paper, we conduct an empirical study to investigate the effects of removing items at different positions within a temporally ordered sequence. We evaluate two different SRS models on multiple datasets, measuring their performance using Normalized Discounted Cumulative Gain (NDCG) and Rank Sensitivity List metrics. Our results demonstrate that removing items at the end of the sequence significantly impacts performance, with NDCG decreasing up to 60\%, while removing items from the beginning or middle has no significant effect. These findings highlight the importance of considering the position of the perturbed items in the training data and shall inform the design of more robust SRSs.
+    
+[^9]: 使用多模态对比学习从自然语言中提取分子属性
+
+    Extracting Molecular Properties from Natural Language with Multimodal Contrastive Learning. (arXiv:2307.12996v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.12996](http://arxiv.org/abs/2307.12996)
+
+    该论文研究了如何使用多模态对比学习方法从自然语言中提取分子属性信息，通过改进文本检索和引入分子图扩增策略等方法提高了属性预测性能。实验结果显示相对于仅在图模态上预训练的模型，我们取得了+4.26%的AUROC增益和+1.54%的增益。
+
+    
+
+    在计算生物化学中，深度学习传统上专注于分子图神经表征；然而，最近语言模型的进展突显了文本中所编码的科学知识量。为了弥合这两种模态，我们研究了如何将分子属性信息从自然语言转化为图表征。我们研究了在使用对比学习将神经图表征与其特征的文本描述表征对齐后，属性预测性能的提升。我们实现了神经相关性评分策略以改进文本检索，引入了一种受有机反应启发的新颖合法分子图扩增策略，并在下游的MoleculeNet属性分类任务上展示了性能的改善。与仅在图模态上预训练的模型相比，我们取得了+4.26%的AUROC增益，并与最近提出的分子图/文本对比模型相比，取得了+1.54%的增益。
+
+    Deep learning in computational biochemistry has traditionally focused on molecular graphs neural representations; however, recent advances in language models highlight how much scientific knowledge is encoded in text. To bridge these two modalities, we investigate how molecular property information can be transferred from natural language to graph representations. We study property prediction performance gains after using contrastive learning to align neural graph representations with representations of textual descriptions of their characteristics. We implement neural relevance scoring strategies to improve text retrieval, introduce a novel chemically-valid molecular graph augmentation strategy inspired by organic reactions, and demonstrate improved performance on downstream MoleculeNet property classification tasks. We achieve a +4.26% AUROC gain versus models pre-trained on the graph modality alone, and a +1.54% gain compared to recently proposed molecular graph/text contrastively t
+    
+[^10]: RRAML: 强化检索增强的机器学习
+
+    RRAML: Reinforced Retrieval Augmented Machine Learning. (arXiv:2307.12798v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2307.12798](http://arxiv.org/abs/2307.12798)
+
+    RRAML是一种新的机器学习框架，将大型语言模型（LLMs）的推理能力与用户提供的庞大数据库中的支持信息相结合。利用强化学习的进展，该方法成功解决了几个关键挑战。
+
+    
+
+    大型语言模型（LLMs）的出现彻底改变了机器学习和相关领域，在理解、生成和操作人类语言方面展示了显著的能力。然而，通过基于API的文本提示提交来使用它们会存在一定的限制，包括上下文约束和外部资源的可用性。为了解决这些挑战，我们提出了一种新的框架，称为强化检索增强的机器学习（RRAML）。RRAML将LLMs的推理能力与由专用检索器从用户提供的庞大数据库中检索到的支持信息相结合。通过利用强化学习的最新进展，我们的方法有效地解决了几个关键挑战。首先，它绕过了访问LLM梯度的需求。其次，我们的方法减轻了针对特定任务重新训练LLMs的负担，因为由于对模型和合作的访问受限，这往往是不可行或不可能的。
+
+    The emergence of large language models (LLMs) has revolutionized machine learning and related fields, showcasing remarkable abilities in comprehending, generating, and manipulating human language. However, their conventional usage through API-based text prompt submissions imposes certain limitations in terms of context constraints and external source availability. To address these challenges, we propose a novel framework called Reinforced Retrieval Augmented Machine Learning (RRAML). RRAML integrates the reasoning capabilities of LLMs with supporting information retrieved by a purpose-built retriever from a vast user-provided database. By leveraging recent advancements in reinforcement learning, our method effectively addresses several critical challenges. Firstly, it circumvents the need for accessing LLM gradients. Secondly, our method alleviates the burden of retraining LLMs for specific tasks, as it is often impractical or impossible due to restricted access to the model and the co
     
 [^11]: 使用大型语言模型增强密集检索的软提示调优
 
@@ -175,74 +174,60 @@
 
     Dense retrieval (DR) converts queries and documents into dense embeddings and measures the similarity between queries and documents in vector space. One of the challenges in DR is the lack of domain-specific training data. While DR models can learn from large-scale public datasets like MS MARCO through transfer learning, evidence shows that not all DR models and domains can benefit from transfer learning equally. Recently, some researchers have resorted to large language models (LLMs) to improve the zero-shot and few-shot DR models. However, the hard prompts or human-written prompts utilized in these works cannot guarantee the good quality of generated weak queries. To tackle this, we propose soft prompt tuning for augmenting DR (SPTAR): For each task, we leverage soft prompt-tuning to optimize a task-specific soft prompt on limited ground truth data and then prompt the LLMs to tag unlabeled documents with weak queries, yielding enough weak document-query pairs to train task-specific d
     
-[^12]: 将苹果与苹果进行比较：从用户评论生成纵向感知的比较句子
+[^12]: 压缩索引实现瞬间相似性搜索
 
-    Comparing Apples to Apples: Generating Aspect-Aware Comparative Sentences from User Review. (arXiv:2307.03691v1 [cs.CL])
+    Similarity search in the blink of an eye with compressed indices. (arXiv:2304.04759v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.03691](http://arxiv.org/abs/2307.03691)
+    [http://arxiv.org/abs/2304.04759](http://arxiv.org/abs/2304.04759)
 
-    该论文提出了一个模型，利用用户评论和相关项目特征生成对比评价句子，以帮助用户找到最适合的产品。该模型包括项目编码模块、比较生成模块和个性化解码方法，并通过人类评估验证了生成句子的相关性和真实性。
-
-    
-
-    在众多相似的选择中找到最佳产品是非常耗时的。比较句子可以帮助我们以突出的方式对比一个项目与其他项目，在此过程中强调出重要特征。基于用户对一个或多个项目的评论及相关项目特征，我们生成比较评论句子来帮助用户找到最适合的产品。具体来说，我们的模型包括三个连续组件：（i）一个项目编码模块用于对项目进行编码比较，（ii）一个比较生成模块以自回归的方式生成比较句子，（iii）一种用于用户个性化的新型解码方法。我们展示了我们的流程能够生成流畅且多样的比较句子。我们进行了人类评估研究来验证我们生成的句子的相关性和真实性，结果表明我们的算法能够生成相关且真实的比较评论句子。
-
-    It is time-consuming to find the best product among many similar alternatives. Comparative sentences can help to contrast one item from others in a way that highlights important features of an item that stand out. Given reviews of one or multiple items and relevant item features, we generate comparative review sentences to aid users to find the best fit. Specifically, our model consists of three successive components in a transformer: (i) an item encoding module to encode an item for comparison, (ii) a comparison generation module that generates comparative sentences in an autoregressive manner, (iii) a novel decoding method for user personalization. We show that our pipeline generates fluent and diverse comparative sentences. We run experiments on the relevance and fidelity of our generated sentences in a human evaluation study and find that our algorithm creates comparative review sentences that are relevant and truthful.
-    
-[^13]: EvalRS 2023. 面向实际应用的全面推荐系统评估
-
-    EvalRS 2023. Well-Rounded Recommender Systems For Real-World Deployments. (arXiv:2304.07145v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.07145](http://arxiv.org/abs/2304.07145)
-
-    EvalRS 2023旨在探讨推荐系统的全面评估，关注其在现实场景下的实际影响。过去只有准确度的测量方法可能无法全面评估其性能，公平性、偏见、有用性和信息量等方面也应该被关注。本次研讨会是去年CIKM研讨会的继承和发展，带有实际操作性和互动性。
+    本文提出一种新的向量压缩方法局部自适应量化(LVQ)，并在基于图的索引的关键优化下实现减少有效带宽同时启用随机访问友好的快速相似性计算，从而在性能和内存占用方面创造了新的最佳表现。
 
     
 
-    EvalRS旨在汇聚产业和学术界的从业者，促进对推荐系统的全面评估的讨论，并重点关注在各种部署场景下的实际影响。推荐系统通常只通过准确性指标进行评估，这些指标无法完全描述其泛化能力并忽视了重要的方面，如公平性、偏见、有用性、信息量等。本次研讨会在CIKM去年研讨会的成功基础上进一步扩大范围，并采取互动形式。
+    如今，数据以向量表示。在海量数据中寻找与给定查询相似的向量是一项广泛应用的问题。本文提出了创建更快、更小的索引以运行这些搜索的新技术。为此，我们介绍了一种新的向量压缩方法，局部自适应量化(LVQ)，它同时减少内存占用和改善搜索性能，对搜索准确性的影响最小。LVQ被设计为与基于图的索引一起工作以实现减少有效带宽同时启用随机访问友好的快速相似性计算。我们的实验结果表明，在现代数据中心系统中针对基于图的索引进行关键优化后，LVQ的性能和内存占用方面创造了新的最佳表现。在处理数十亿个向量时，LVQ超过第二佳方案：
 
-    EvalRS aims to bring together practitioners from industry and academia to foster a debate on rounded evaluation of recommender systems, with a focus on real-world impact across a multitude of deployment scenarios. Recommender systems are often evaluated only through accuracy metrics, which fall short of fully characterizing their generalization capabilities and miss important aspects, such as fairness, bias, usefulness, informativeness. This workshop builds on the success of last year's workshop at CIKM, but with a broader scope and an interactive format.
+    Nowadays, data is represented by vectors. Retrieving those vectors, among millions and billions, that are similar to a given query is a ubiquitous problem of relevance for a wide range of applications. In this work, we present new techniques for creating faster and smaller indices to run these searches. To this end, we introduce a novel vector compression method, Locally-adaptive Vector Quantization (LVQ), that simultaneously reduces memory footprint and improves search performance, with minimal impact on search accuracy. LVQ is designed to work optimally in conjunction with graph-based indices, reducing their effective bandwidth while enabling random-access-friendly fast similarity computations. Our experimental results show that LVQ, combined with key optimizations for graph-based indices in modern datacenter systems, establishes the new state of the art in terms of performance and memory footprint. For billions of vectors, LVQ outcompetes the second-best alternatives: (1) in the low
     
-[^14]: 召回率、鲁棒性和词典式评估
+[^13]: 一个简单的跨语言观点挖掘的案例研究和质性分析
 
-    Recall, Robustness, and Lexicographic Evaluation. (arXiv:2302.11370v3 [cs.IR] UPDATED)
+    A Case Study and Qualitative Analysis of Simple Cross-Lingual Opinion Mining. (arXiv:2111.02259v3 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2302.11370](http://arxiv.org/abs/2302.11370)
+    [http://arxiv.org/abs/2111.02259](http://arxiv.org/abs/2111.02259)
 
-    该论文从正式的角度反思了排名中召回率的测量问题，提出召回方向的概念和词典式方法，并分析了其鲁棒性。
-
-    
-
-    研究人员使用召回率来评估各种检索、推荐和机器学习任务中的排名。尽管在集合评估中有关召回率的俗语解释，但研究社区远未理解排名召回率的原理。对召回率缺乏原理理解或动机导致信息检索社区批评召回率是否有用作为一个指标。在这个背景下，我们从正式的角度反思排名中召回率的测量问题。我们的分析由三个原则组成：召回率、鲁棒性和词典式评估。首先，我们正式定义“召回方向”为敏感于底部排名相关条目移动的度量。其次，我们从可能的搜索者和内容提供者的鲁棒性角度分析了我们的召回方向概念。最后，我们通过开发一个实用的词典式方法来扩展对召回的概念和理论处理。
-
-    Researchers use recall to evaluate rankings across a variety of retrieval, recommendation, and machine learning tasks. While there is a colloquial interpretation of recall in set-based evaluation, the research community is far from a principled understanding of recall metrics for rankings. The lack of principled understanding of or motivation for recall has resulted in criticism amongst the retrieval community that recall is useful as a measure at all. In this light, we reflect on the measurement of recall in rankings from a formal perspective. Our analysis is composed of three tenets: recall, robustness, and lexicographic evaluation. First, we formally define `recall-orientation' as sensitivity to movement of the bottom-ranked relevant item. Second, we analyze our concept of recall orientation from the perspective of robustness with respect to possible searchers and content providers. Finally, we extend this conceptual and theoretical treatment of recall by developing a practical pref
-    
-[^15]: 关于图类型的知识图谱推理综述：静态、动态和多模态
-
-    A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal. (arXiv:2212.05767v7 [cs.AI] UPDATED)
-
-    [http://arxiv.org/abs/2212.05767](http://arxiv.org/abs/2212.05767)
-
-    本文对知识图谱推理进行了综述，涵盖了静态、动态和多模态三种图类型，填补了这一领域的研究空白。
+    本研究提出了一种简单、现代和有效的方法，能够同时处理多种语言，构建一个单一主题模型，并基于深度神经网络进行情感分析。通过将该模型应用于有机食品的报纸文章和用户评论，我们发现主题在不同语言中匹配，并获得了高比例的稳定且与领域相关的主题。
 
     
 
-    知识图谱推理（KGR）旨在根据知识图谱（KG）中的逻辑规则推断出新的事实，已成为快速增长的研究方向。它已被证明在许多人工智能应用中极大地有益，如问题回答、推荐系统等。根据图类型，现有的KGR模型可以大致分为三类，即静态模型、时态模型和多模态模型。该领域的早期工作主要集中在静态KGR上，而最近的工作尝试利用更实际和更接近现实世界的时态和多模态信息。然而，目前尚无综合总结和讨论这一重要方向中的模型的调查论文和开源存储库。为了填补这个空白，我们进行了一项针对从静态到时态再到多模态KG的知识图谱推理的首次综述。具体而言，本文基于双层分类对模型进行了回顾，
+    社交媒体上的用户生成内容涉及多种语言，这在技术上使得跨不同文化和地区比较讨论主题变得具有挑战性。对于全球化世界中的领域，如市场研究，人们可能对产品有不同的需求。我们提出了一种简单、现代和有效的方法来构建能够同时覆盖多种语言的单一主题模型，并基于一个预训练的最先进的深度神经网络进行自然语言理解的情感分析。为了证明其可行性，我们将该模型应用于特定领域的报纸文章和用户评论，即有机食品产品和相关消费行为。主题在不同语言中匹配。此外，我们获得了高比例的稳定且相关领域的主题，主题与其相应文本内容之间存在有意义的关系，以及一些新颖的
 
-    Knowledge graph reasoning (KGR), aiming to deduce new facts from existing facts based on mined logic rules underlying knowledge graphs (KGs), has become a fast-growing research direction. It has been proven to significantly benefit the usage of KGs in many AI applications, such as question answering, recommendation systems, and etc. According to the graph types, existing KGR models can be roughly divided into three categories, i.e., static models, temporal models, and multi-modal models. Early works in this domain mainly focus on static KGR, and recent works try to leverage the temporal and multi-modal information, which are more practical and closer to real-world. However, no survey papers and open-source repositories comprehensively summarize and discuss models in this important direction. To fill the gap, we conduct a first survey for knowledge graph reasoning tracing from static to temporal and then to multi-modal KGs. Concretely, the models are reviewed based on bi-level taxonomy,
+    User-generated content from social media is produced in many languages, making it technically challenging to compare the discussed themes from one domain across different cultures and regions. It is relevant for domains in a globalized world, such as market research, where people from two nations and markets might have different requirements for a product. We propose a simple, modern, and effective method for building a single topic model with sentiment analysis capable of covering multiple languages simultanteously, based on a pre-trained state-of-the-art deep neural network for natural language understanding. To demonstrate its feasibility, we apply the model to newspaper articles and user comments of a specific domain, i.e., organic food products and related consumption behavior. The themes match across languages. Additionally, we obtain an high proportion of stable and domain-relevant topics, a meaningful relation between topics and their respective textual contents, and an interpr
     
-[^16]: ICPE:一种面向推荐去偏倚的项目聚类多目标优化框架
+[^14]: 社交媒体中消费者信念陈述的分类
 
-    ICPE: An Item Cluster-Wise Pareto-Efficient Framework for Recommendation Debiasing. (arXiv:2109.12887v4 [cs.IR] UPDATED)
+    Classification of Consumer Belief Statements From Social Media. (arXiv:2106.15498v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2109.12887](http://arxiv.org/abs/2109.12887)
+    [http://arxiv.org/abs/2106.15498](http://arxiv.org/abs/2106.15498)
 
-    ICPE是一种面向推荐去偏倚的项目聚类多目标优化框架，通过平衡不同流行度的项目聚类的学习，解决了推荐模型从偏倚数据生成推荐的问题，实现了对潜在有趣项目的探索。
+    本研究探讨了使用复杂的专家注解在社交媒体中进行消费者信念陈述分类的准确性，比较了细粒度和抽象类别的标签，并说明复杂专家注解在高度特定的意见挖掘中的潜在优势。
 
     
 
-    基于历史用户-项目交互的推荐系统对于基于web的服务至关重要。然而，用于训练推荐模型的观察数据存在严重的偏倚问题。实际上，数据集的项目频率分布呈高度偏斜的幂律分布。一小部分热门项目的交互几乎占据了整个训练数据。从这种偏倚数据训练的正常模型倾向于重复生成来自热门项目的推荐，进一步加剧了偏倚并影响了对潜在有趣项目的探索。在这项工作中，我们从项目聚类的多目标优化视角创新性地探索推荐去偏倚的核心主题。为了在训练过程中平衡对不同流行度的项目聚类的学习，我们提出了一种模型无关的框架，即Item Cluster-Wise Pareto-Efficient Recommendation（ICPE）。
+    社交媒体提供了大量信息，可以进行市场调研，以满足客户的需求。研究人员通常通过收集和分类用户生成的内容，构建复杂细粒度的类别结构来进行市场调研。然而，在许多情况下，数据量较少且注解复杂。如何成功利用这些数据进行分类仍不完全清楚。本研究考察了当专家注解被应用于a) 许多细粒度类别和b) 少数抽象类别时的分类准确性。对于场景b)，我们比较了领域专家给出的抽象类别标签（基准）和自动分层聚类给出的抽象类别标签。我们将其与另一基准进行比较，该基准使用完全无监督的聚类方法给出整个类别结构。通过这样做，该研究可以作为复杂专家注解如何在高度特定的意见挖掘中发挥潜在优势，并以最优化的方式利用的示例。
 
-    Recommender system based on historical user-item interactions is of vital importance for web-based services. However, the observed data used to train the recommender model suffers from severe bias issues. Practically, the item frequency distribution of the dataset is a highly skewed power-law distribution. Interactions of a small fraction of head items account for almost the whole training data. The normal training paradigm from such biased data tends to repetitively generate recommendations from the head items, which further exacerbates the biases and affects the exploration of potentially interesting items from the niche set. In this work, we innovatively explore the central theme of recommendation debiasing from an item cluster-wise multi-objective optimization perspective. Aiming to balance the learning on various item clusters that differ in popularity during the training process, we propose a model-agnostic framework namely Item Cluster-Wise Pareto-Efficient Recommendation (ICPE)
+    Social media offer plenty of information to perform market research in order to meet the requirements of customers. One way how this research is conducted is that a domain expert gathers and categorizes user-generated content into a complex and fine-grained class structure. In many of such cases, little data meets complex annotations. It is not yet fully understood how this can be leveraged successfully for classification. We examine the classification accuracy of expert labels when used with a) many fine-grained classes and b) few abstract classes. For scenario b) we compare abstract class labels given by the domain expert as baseline and by automatic hierarchical clustering. We compare this to another baseline where the entire class structure is given by a completely unsupervised clustering approach. By doing so, this work can serve as an example of how complex expert annotations are potentially beneficial and can be utilized in the most optimal way for opinion mining in highly speci
+    
+[^15]: 基于准则的多行为隐式推荐的异构协同过滤
+
+    Criterion-based Heterogeneous Collaborative Filtering for Multi-behavior Implicit Recommendation. (arXiv:2105.11876v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2105.11876](http://arxiv.org/abs/2105.11876)
+
+    提出了一种基于准则的非采样学习框架，命名为CHCF，用于多行为隐式推荐的异构协同过滤。该方法通过引入上限和下限阈值来指示选择标准，并指导用户偏好学习。
+
+    
+
+    近年来，多媒体信息系统中的互动行为呈爆炸式增长，利用来自各种辅助行为（如提示和收藏）的数据，多行为推荐系统受到越来越多的关注。在各种多行为推荐方法中，非采样方法表现优于负采样方法。然而，现有的基于二进制回归的非采样方法通常忽略了两点观察：（1）用户对不同项目具有不同的偏好强度，因此不能简单通过二进制隐式数据来衡量；（2）多个行为之间的依赖关系对不同的用户和项目是不同的。为了解决上述问题，我们提出了一种新的非采样学习框架，命名为基于准则的异构协同过滤（CHCF）。CHCF引入了上限和下限阈值来指示选择标准，并指导用户偏好学习。
+
+    Recent years have witnessed the explosive growth of interaction behaviors in multimedia information systems, where multi-behavior recommender systems have received increasing attention by leveraging data from various auxiliary behaviors such as tip and collect. Among various multi-behavior recommendation methods, non-sampling methods have shown superiority over negative sampling methods. However, two observations are usually ignored in existing state-of-the-art non-sampling methods based on binary regression: (1) users have different preference strengths for different items, so they cannot be measured simply by binary implicit data; (2) the dependency across multiple behaviors varies for different users and items. To tackle the above issue, we propose a novel non-sampling learning framework named Criterion-guided Heterogeneous Collaborative Filtering (CHCF). CHCF introduces both upper and lower thresholds to indicate selection criteria, which will guide user preference learning. Beside
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Maximal Independent Sets for Pooling in Graph Neural Networks. (arXiv:2307.13011v1 [cs.LG])",
+    "abstract": "Convolutional Neural Networks (CNNs) have enabled major advances in image classification through convolution and pooling. In particular, image pooling transforms a connected discrete lattice into a reduced lattice with the same connectivity and allows reduction functions to consider all pixels in an image. However, there is no pooling that satisfies these properties for graphs. In fact, traditional graph pooling methods suffer from at least one of the following drawbacks: Graph disconnection or overconnection, low decimation ratio, and deletion of large parts of graphs. In this paper, we present three pooling methods based on the notion of maximal independent sets that avoid these pitfalls. Our experimental results confirm the relevance of maximal independent set constraints for graph pooling.",
+    "link": "http://arxiv.org/abs/2307.13011",
+    "context": "Title: Maximal Independent Sets for Pooling in Graph Neural Networks. (arXiv:2307.13011v1 [cs.LG])\nAbstract: Convolutional Neural Networks (CNNs) have enabled major advances in image classification through convolution and pooling. In particular, image pooling transforms a connected discrete lattice into a reduced lattice with the same connectivity and allows reduction functions to consider all pixels in an image. However, there is no pooling that satisfies these properties for graphs. In fact, traditional graph pooling methods suffer from at least one of the following drawbacks: Graph disconnection or overconnection, low decimation ratio, and deletion of large parts of graphs. In this paper, we present three pooling methods based on the notion of maximal independent sets that avoid these pitfalls. Our experimental results confirm the relevance of maximal independent set constraints for graph pooling.",
+    "path": "papers/23/07/2307.13011.json",
+    "total_tokens": 700,
+    "translated_title": "图神经网络中的最大独立集合用于池化",
+    "translated_abstract": "卷积神经网络使得图像分类取得重大突破，通过卷积和池化。然而，对于图形而言，并不存在满足这些性质的池化方法。传统的图形池化方法存在以下缺点之一：图形断开或连接过度、降采样比较低、以及删除大部分图形。本文提出了三种基于最大独立集合概念的池化方法，避免了这些缺点。我们的实验结果证实了在图形池化中最大独立集合约束的相关性。",
+    "tldr": "本文提出了三种基于最大独立集合概念的图形池化方法，避免了现有方法中存在的缺点，通过实验证实了最大独立集合约束在图形池化中的重要性。",
+    "en_tdlr": "This paper proposes three graph pooling methods based on the notion of maximal independent sets, avoiding the drawbacks of existing methods. Experimental results confirm the relevance of maximal independent set constraints for graph pooling."
+}

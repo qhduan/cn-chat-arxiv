@@ -1,0 +1,11 @@
+{
+    "title": "Concept Algebra for Score-Based Conditional Models. (arXiv:2302.03693v2 [cs.CL] UPDATED)",
+    "abstract": "This paper concerns the structure of learned representations in text-guided generative models, focusing on score-based models. Here, we focus on the idea that concepts are encoded as subspaces (or directions) of some representation space. We develop a mathematical formalization of this idea.Using this formalism, we show there's a natural choice of representation with this property, and we develop a simple method for identifying the part of the representation corresponding to a given concept. In particular, this allows us to manipulate the concepts expressed by the model through algebraic manipulation of the representation. We demonstrate the idea with examples text-guided image generation, using Stable Diffusion.",
+    "link": "http://arxiv.org/abs/2302.03693",
+    "context": "Title: Concept Algebra for Score-Based Conditional Models. (arXiv:2302.03693v2 [cs.CL] UPDATED)\nAbstract: This paper concerns the structure of learned representations in text-guided generative models, focusing on score-based models. Here, we focus on the idea that concepts are encoded as subspaces (or directions) of some representation space. We develop a mathematical formalization of this idea.Using this formalism, we show there's a natural choice of representation with this property, and we develop a simple method for identifying the part of the representation corresponding to a given concept. In particular, this allows us to manipulate the concepts expressed by the model through algebraic manipulation of the representation. We demonstrate the idea with examples text-guided image generation, using Stable Diffusion.",
+    "path": "papers/23/02/2302.03693.json",
+    "total_tokens": 788,
+    "translated_title": "基于分数的条件模型的概念代数",
+    "translated_abstract": "本文研究了文本引导生成模型中学习表示的结构，重点关注基于分数的模型。我们聚焦于概念被编码为某种表示空间的子空间（或方向）的思想，并开发了这个思想的数学形式化。利用这个形式化方法，我们展示了有一个自然的表示选择具有这种性质，并且我们开发了一种简单的方法来识别与给定概念对应的表示部分。特别是，这使我们能够通过对表示的代数操作来操纵模型所表达的概念。我们使用稳定扩散在文本引导图像生成的示例中演示了这个思想。",
+    "tldr": "本文研究了基于分数的条件模型中学习表示的结构，并开发了一种数学形式化表达概念被编码为表示空间子空间的思想。利用这个方法，我们提出了一种简单的方法来识别给定概念对应的表示部分，并通过代数操作操纵模型所表达的概念。"
+}

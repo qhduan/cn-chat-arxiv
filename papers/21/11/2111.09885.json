@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Simple Regret in Bayesian Best Arm Identification. (arXiv:2111.09885v2 [cs.LG] UPDATED)",
+    "abstract": "We consider best arm identification in the multi-armed bandit problem. Assuming certain continuity conditions of the prior, we characterize the rate of the Bayesian simple regret. Differing from Bayesian regret minimization (Lai, 1987), the leading term in the Bayesian simple regret derives from the region where the gap between optimal and suboptimal arms is smaller than $\\sqrt{\\frac{\\log T}{T}}$. We propose a simple and easy-to-compute algorithm with its leading term matching with the lower bound up to a constant factor; simulation results support our theoretical findings.",
+    "link": "http://arxiv.org/abs/2111.09885",
+    "context": "Title: Optimal Simple Regret in Bayesian Best Arm Identification. (arXiv:2111.09885v2 [cs.LG] UPDATED)\nAbstract: We consider best arm identification in the multi-armed bandit problem. Assuming certain continuity conditions of the prior, we characterize the rate of the Bayesian simple regret. Differing from Bayesian regret minimization (Lai, 1987), the leading term in the Bayesian simple regret derives from the region where the gap between optimal and suboptimal arms is smaller than $\\sqrt{\\frac{\\log T}{T}}$. We propose a simple and easy-to-compute algorithm with its leading term matching with the lower bound up to a constant factor; simulation results support our theoretical findings.",
+    "path": "papers/21/11/2111.09885.json",
+    "total_tokens": 693,
+    "translated_title": "贝叶斯最优臂识别中的最优简单遗憾",
+    "translated_abstract": "我们考虑多臂赌博机问题中的最优臂识别。在先验条件具有一定的连续性的情况下，我们表征了贝叶斯简单遗憾的速率。与贝叶斯遗憾最小化不同，贝叶斯简单遗憾的主导项来源于最优臂和次优臂之间间隙小于$\\sqrt{\\frac{\\log T}{T}}$的区域。我们提出了一种简单易行的计算算法，其主导项匹配了下界，只差一个常数因子；模拟结果支持了我们的理论发现。",
+    "tldr": "该论文研究了多臂赌博机问题中贝叶斯最优臂识别的速率，并提出了一种简单易行的算法，其匹配了下界，只差一个常数因子。"
+}

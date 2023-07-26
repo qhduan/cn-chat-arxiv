@@ -1,0 +1,11 @@
+{
+    "title": "Explaining Math Word Problem Solvers. (arXiv:2307.13128v1 [cs.CL])",
+    "abstract": "Automated math word problem solvers based on neural networks have successfully managed to obtain 70-80\\% accuracy in solving arithmetic word problems. However, it has been shown that these solvers may rely on superficial patterns to obtain their equations. In order to determine what information math word problem solvers use to generate solutions, we remove parts of the input and measure the model's performance on the perturbed dataset. Our results show that the model is not sensitive to the removal of many words from the input and can still manage to find a correct answer when given a nonsense question. This indicates that automatic solvers do not follow the semantic logic of math word problems, and may be overfitting to the presence of specific words.",
+    "link": "http://arxiv.org/abs/2307.13128",
+    "context": "Title: Explaining Math Word Problem Solvers. (arXiv:2307.13128v1 [cs.CL])\nAbstract: Automated math word problem solvers based on neural networks have successfully managed to obtain 70-80\\% accuracy in solving arithmetic word problems. However, it has been shown that these solvers may rely on superficial patterns to obtain their equations. In order to determine what information math word problem solvers use to generate solutions, we remove parts of the input and measure the model's performance on the perturbed dataset. Our results show that the model is not sensitive to the removal of many words from the input and can still manage to find a correct answer when given a nonsense question. This indicates that automatic solvers do not follow the semantic logic of math word problems, and may be overfitting to the presence of specific words.",
+    "path": "papers/23/07/2307.13128.json",
+    "total_tokens": 740,
+    "translated_title": "解释数学词问题求解器",
+    "translated_abstract": "基于神经网络的自动化数学词问题求解器已成功地在解决算术词问题中取得了70-80％的准确率。然而，研究表明这些求解器可能依赖于表面模式来获得它们的方程式。为了确定数学词问题求解器使用哪些信息来生成解决方案，我们去除输入的部分内容，并测量模型在扰动数据集上的性能。我们的结果表明，模型对于从输入中去除许多单词并仍然能够在给出无意义问题时找到正确答案并不敏感。这表明自动化求解器并未遵循数学词问题的语义逻辑，并且可能过度拟合特定单词的存在。",
+    "tldr": "该论文研究了基于神经网络的自动化数学词问题求解器的工作原理，并发现这些求解器可能依赖于表面模式而不是数学语义逻辑来生成解决方案。"
+}

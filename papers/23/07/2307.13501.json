@@ -1,0 +1,11 @@
+{
+    "title": "Deep Reinforcement Learning for Robust Goal-Based Wealth Management. (arXiv:2307.13501v1 [q-fin.PM])",
+    "abstract": "Goal-based investing is an approach to wealth management that prioritizes achieving specific financial goals. It is naturally formulated as a sequential decision-making problem as it requires choosing the appropriate investment until a goal is achieved. Consequently, reinforcement learning, a machine learning technique appropriate for sequential decision-making, offers a promising path for optimizing these investment strategies. In this paper, a novel approach for robust goal-based wealth management based on deep reinforcement learning is proposed. The experimental results indicate its superiority over several goal-based wealth management benchmarks on both simulated and historical market data.",
+    "link": "http://arxiv.org/abs/2307.13501",
+    "context": "Title: Deep Reinforcement Learning for Robust Goal-Based Wealth Management. (arXiv:2307.13501v1 [q-fin.PM])\nAbstract: Goal-based investing is an approach to wealth management that prioritizes achieving specific financial goals. It is naturally formulated as a sequential decision-making problem as it requires choosing the appropriate investment until a goal is achieved. Consequently, reinforcement learning, a machine learning technique appropriate for sequential decision-making, offers a promising path for optimizing these investment strategies. In this paper, a novel approach for robust goal-based wealth management based on deep reinforcement learning is proposed. The experimental results indicate its superiority over several goal-based wealth management benchmarks on both simulated and historical market data.",
+    "path": "papers/23/07/2307.13501.json",
+    "total_tokens": 706,
+    "translated_title": "深度强化学习在强健目标导向财富管理中的应用",
+    "translated_abstract": "目标导向投资是一种优先实现特定财务目标的财富管理方法。由于需要选择适当的投资直到达到目标，因此它自然地被形式化为一种顺序决策问题。因此，强化学习作为一种适用于顺序决策的机器学习技术，为优化这些投资策略提供了一个有前途的路径。本文提出了一种基于深度强化学习的强健目标导向财富管理的新方法。实验结果表明，在模拟和历史市场数据上，该方法优于多个目标导向财富管理基准。",
+    "tldr": "本文提出了一种基于深度强化学习的强健目标导向财富管理方法，通过实验证明该方法在模拟和历史市场数据上优于传统的目标导向财富管理基准。"
+}

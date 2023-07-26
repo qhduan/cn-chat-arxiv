@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Armed Bandits and Quantum Channel Oracles. (arXiv:2301.08544v2 [quant-ph] UPDATED)",
+    "abstract": "Multi-armed bandits are one of the theoretical pillars of reinforcement learning. Recently, the investigation of quantum algorithms for multi-armed bandit problems was started, and it was found that a quadratic speed-up (in query complexity) is possible when the arms and the randomness of the rewards of the arms can be queried in superposition. Here we introduce further bandit models where we only have limited access to the randomness of the rewards, but we can still query the arms in superposition. We show that then the query complexity is the same as for classical algorithms. This generalizes the prior result that no speed-up is possible for unstructured search when the oracle has positive failure probability.",
+    "link": "http://arxiv.org/abs/2301.08544",
+    "context": "Title: Multi-Armed Bandits and Quantum Channel Oracles. (arXiv:2301.08544v2 [quant-ph] UPDATED)\nAbstract: Multi-armed bandits are one of the theoretical pillars of reinforcement learning. Recently, the investigation of quantum algorithms for multi-armed bandit problems was started, and it was found that a quadratic speed-up (in query complexity) is possible when the arms and the randomness of the rewards of the arms can be queried in superposition. Here we introduce further bandit models where we only have limited access to the randomness of the rewards, but we can still query the arms in superposition. We show that then the query complexity is the same as for classical algorithms. This generalizes the prior result that no speed-up is possible for unstructured search when the oracle has positive failure probability.",
+    "path": "papers/23/01/2301.08544.json",
+    "total_tokens": 780,
+    "translated_title": "多臂赌博机和量子通道预测",
+    "translated_abstract": "多臂赌博机是强化学习理论的重要支柱之一。最近，人们开始研究用于多臂赌博机问题的量子算法，并发现当可以在叠加态中查询臂和奖励随机性时，可以实现二次加速（在查询复杂度上）。在这里，我们引入了进一步的赌博机模型，其中我们只能有限地访问奖励的随机性，但我们仍然可以在叠加态中查询臂。我们证明当如此时查询复杂度与经典算法相同。这推广了先前的结果，即当预测器具有正的失效概率时，对于未结构化搜索无法实现加速。",
+    "tldr": "本论文研究了量子算法在多臂赌博机问题中的应用，发现在可以查询奖励的随机性以及臂的叠加态时可以实现二次加速，但在只能有限地访问奖励的随机性时，查询复杂度与经典算法相同。",
+    "en_tdlr": "This paper examines the use of quantum algorithms in the context of multi-armed bandit problems, finding a quadratic speed-up is achievable when rewards and arms can be queried in superposition. However, when access to reward randomness is limited, the query complexity is equivalent to classical algorithms."
+}

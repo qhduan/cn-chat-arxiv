@@ -1,0 +1,12 @@
+{
+    "title": "Schema-Driven Actionable Insight Generation and Smart Recommendation. (arXiv:2307.13176v1 [cs.CL])",
+    "abstract": "In natural language generation (NLG), insight mining is seen as a data-to-text task, where data is mined for interesting patterns and verbalised into 'insight' statements. An 'over-generate and rank' paradigm is intuitively used to generate such insights. The multidimensionality and subjectivity of this process make it challenging. This paper introduces a schema-driven method to generate actionable insights from data to drive growth and change. It also introduces a technique to rank the insights to align with user interests based on their feedback. We show preliminary qualitative results of the insights generated using our technique and demonstrate its ability to adapt to feedback.",
+    "link": "http://arxiv.org/abs/2307.13176",
+    "context": "Title: Schema-Driven Actionable Insight Generation and Smart Recommendation. (arXiv:2307.13176v1 [cs.CL])\nAbstract: In natural language generation (NLG), insight mining is seen as a data-to-text task, where data is mined for interesting patterns and verbalised into 'insight' statements. An 'over-generate and rank' paradigm is intuitively used to generate such insights. The multidimensionality and subjectivity of this process make it challenging. This paper introduces a schema-driven method to generate actionable insights from data to drive growth and change. It also introduces a technique to rank the insights to align with user interests based on their feedback. We show preliminary qualitative results of the insights generated using our technique and demonstrate its ability to adapt to feedback.",
+    "path": "papers/23/07/2307.13176.json",
+    "total_tokens": 724,
+    "translated_title": "基于模式的行动洞察生成和智能推荐",
+    "translated_abstract": "在自然语言生成（NLG）中，洞察挖掘被视为一种将数据转化为文本的任务，其中数据被挖掘以寻找有趣的模式，并通过口头化转化为“洞察”陈述。一个“过量生成和排序”的范式被直观地用于生成这些洞察。这个过程的多维度和主观性使其具有挑战性。本文引入一种基于模式的方法，以生成从数据到推动增长和变革的可执行洞察。它还引入了一种通过用户反馈来与用户兴趣保持一致的排序洞察的技术。我们展示了使用我们的技术生成的洞察的初步定性结果，并展示了它适应反馈的能力。",
+    "tldr": "本文介绍了一种基于模式的方法，用于从数据中生成可执行的洞察，并根据用户的反馈对洞察进行排序，展示了其适应反馈的能力。",
+    "en_tdlr": "This paper introduces a schema-driven method to generate actionable insights from data and rank them based on user feedback, demonstrating its adaptability."
+}

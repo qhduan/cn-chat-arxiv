@@ -1,0 +1,12 @@
+{
+    "title": "Extending Path-Dependent NJ-ODEs to Noisy Observations and a Dependent Observation Framework. (arXiv:2307.13147v1 [stat.ML])",
+    "abstract": "The Path-Dependent Neural Jump ODE (PD-NJ-ODE) is a model for predicting continuous-time stochastic processes with irregular and incomplete observations. In particular, the method learns optimal forecasts given irregularly sampled time series of incomplete past observations. So far the process itself and the coordinate-wise observation times were assumed to be independent and observations were assumed to be noiseless. In this work we discuss two extensions to lift these restrictions and provide theoretical guarantees as well as empirical examples for them.",
+    "link": "http://arxiv.org/abs/2307.13147",
+    "context": "Title: Extending Path-Dependent NJ-ODEs to Noisy Observations and a Dependent Observation Framework. (arXiv:2307.13147v1 [stat.ML])\nAbstract: The Path-Dependent Neural Jump ODE (PD-NJ-ODE) is a model for predicting continuous-time stochastic processes with irregular and incomplete observations. In particular, the method learns optimal forecasts given irregularly sampled time series of incomplete past observations. So far the process itself and the coordinate-wise observation times were assumed to be independent and observations were assumed to be noiseless. In this work we discuss two extensions to lift these restrictions and provide theoretical guarantees as well as empirical examples for them.",
+    "path": "papers/23/07/2307.13147.json",
+    "total_tokens": 696,
+    "translated_title": "将路径相关的NJ-ODE扩展到有噪声的观测和相关观测框架",
+    "translated_abstract": "路径相关的神经跳跃ODE (PD-NJ-ODE) 是一种用于预测具有不规则和不完整观测的连续时间随机过程的模型。具体而言，该方法通过学习给定不规则采样的不完整过去观测的最优预测。迄今为止，假设过程本身和坐标分别观测时间是独立的，并且假设观测是无噪声的。在这项工作中，我们讨论了两种扩展来解除这些限制，并提供了理论保证以及它们的实证示例。",
+    "tldr": "该论文研究了将路径相关的NJ-ODE方法扩展到具有噪声观测和相关观测框架的问题。研究提出了两种扩展方法，并提供了理论保证和实证示例。",
+    "en_tdlr": "This paper discusses the extension of the path-dependent NJ-ODE method to deal with noisy observations and a dependent observation framework. Two extensions are proposed and theoretical guarantees as well as empirical examples are provided."
+}
