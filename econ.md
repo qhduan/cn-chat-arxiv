@@ -2,20 +2,35 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Impact of Transportation Network Companies on Labor Supply and Wages for Taxi Drivers.](http://arxiv.org/abs/2307.13620) | 本研究通过分析纽约市2013年至2018年的出租车和TNC旅行记录数据，发现交通网络公司对出租车司机的工资和劳动供应产生负面影响，降低了他们的收入水平，并削弱了他们的工作意愿。 |
-| [^2] | [Large sample properties of GMM estimators under second-order identification.](http://arxiv.org/abs/2307.13475) | 本文提出了GMM估计器在二阶识别条件下的大样本性质，证明了估计器的收敛速率并给出了极限分布，但需要满足过识别条件。 |
-| [^3] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
-| [^4] | [Multilevel Large Language Models for Everyone.](http://arxiv.org/abs/2307.13221) | 本文提出了一个多层大型语言模型的设计，将通用的和特定的模型结合在一起，可以根据用户的个人输入和互联网信息相互改进。这种模型受到人类大脑功能的启发，具有全局、领域和用户级模型，可以在本地机器上运行以保护用户隐私。 |
-| [^5] | [Inference in Experiments with Matched Pairs and Imperfect Compliance.](http://arxiv.org/abs/2307.13094) | 本文研究了在不完全遵守的随机对照试验中，根据"匹配对"确定治疗状态的局部平均治疗效应的推断，并提出了一种对极限方差的一致估计器。 |
-| [^6] | [Synthetic Control Methods by Density Matching under Implicit Endogeneitiy.](http://arxiv.org/abs/2307.11127) | 本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。 |
-| [^7] | [Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?.](http://arxiv.org/abs/2306.10590) | 本文提出无假设检验方法，可否定分析师对基于双重机器学习估计的Wald置信区间在广泛的双重稳健函数类中的有效性的证明。 |
-| [^8] | [Pricing cyber-insurance for systems via maturity models.](http://arxiv.org/abs/2302.04734) | 本篇论文提出了一种使用安全成熟度模型的方法，以评估组织的安全水平并确定网络保险的适当保费。 |
-| [^9] | [An identification and testing strategy for proxy-SVARs with weak proxies.](http://arxiv.org/abs/2210.04523) | 本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。 |
-| [^10] | [Constrained Classification and Policy Learning.](http://arxiv.org/abs/2106.12886) | 研究了受限分类和策略学习中替代损失程序的一致性和适用性。 |
+| [^1] | [Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment.](http://arxiv.org/abs/2307.13686) | 本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。 |
+| [^2] | [Impact of Transportation Network Companies on Labor Supply and Wages for Taxi Drivers.](http://arxiv.org/abs/2307.13620) | 本研究通过分析纽约市2013年至2018年的出租车和TNC旅行记录数据，发现交通网络公司对出租车司机的工资和劳动供应产生负面影响，降低了他们的收入水平，并削弱了他们的工作意愿。 |
+| [^3] | [Large sample properties of GMM estimators under second-order identification.](http://arxiv.org/abs/2307.13475) | 本文提出了GMM估计器在二阶识别条件下的大样本性质，证明了估计器的收敛速率并给出了极限分布，但需要满足过识别条件。 |
+| [^4] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
+| [^5] | [Multilevel Large Language Models for Everyone.](http://arxiv.org/abs/2307.13221) | 本文提出了一个多层大型语言模型的设计，将通用的和特定的模型结合在一起，可以根据用户的个人输入和互联网信息相互改进。这种模型受到人类大脑功能的启发，具有全局、领域和用户级模型，可以在本地机器上运行以保护用户隐私。 |
+| [^6] | [Inference in Experiments with Matched Pairs and Imperfect Compliance.](http://arxiv.org/abs/2307.13094) | 本文研究了在不完全遵守的随机对照试验中，根据"匹配对"确定治疗状态的局部平均治疗效应的推断，并提出了一种对极限方差的一致估计器。 |
+| [^7] | [Synthetic Control Methods by Density Matching under Implicit Endogeneitiy.](http://arxiv.org/abs/2307.11127) | 本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。 |
+| [^8] | [Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?.](http://arxiv.org/abs/2306.10590) | 本文提出无假设检验方法，可否定分析师对基于双重机器学习估计的Wald置信区间在广泛的双重稳健函数类中的有效性的证明。 |
+| [^9] | [Pricing cyber-insurance for systems via maturity models.](http://arxiv.org/abs/2302.04734) | 本篇论文提出了一种使用安全成熟度模型的方法，以评估组织的安全水平并确定网络保险的适当保费。 |
+| [^10] | [An identification and testing strategy for proxy-SVARs with weak proxies.](http://arxiv.org/abs/2210.04523) | 本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。 |
+| [^11] | [Constrained Classification and Policy Learning.](http://arxiv.org/abs/2106.12886) | 研究了受限分类和策略学习中替代损失程序的一致性和适用性。 |
 
 # 详细
 
-[^1]: 交通网络公司对出租车司机的劳动供应和工资影响的研究
+[^1]: 美国就业短期受飓风影响的特征和预测建模
+
+    Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment. (arXiv:2307.13686v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.13686](http://arxiv.org/abs/2307.13686)
+
+    本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。
+
+    
+
+    本研究研究了美国飓风影响后的短期就业变化。对1990年至2021年的飓风事件进行分析发现，初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失（> 30％）。整体上的小幅变动部分是不同就业部门之间的补偿结果，例如建筑业和休闲酒店业。就业损失在服务业中相对明显。风暴后就业冲击与风暴危害指标（如极端风和降水量）以及影响的地理空间细节（如风暴实体距离）呈负相关。此外，县级特征等非风暴因素也强烈影响短期就业变化。研究结果对短期就业变化的预测建模具有启示作用，特别是在服务业和高—
+
+    This study examines the short-term employment changes in the US after hurricane impacts. An analysis of hurricane events during 1990-2021 suggests that county-level employment changes in the initial month are small on average, though large employment losses (>30%) can occur after extreme storms. The overall small changes are partly a result of compensation among different employment sectors, such as the construction and leisure and hospitality sectors. Employment losses tend to be relatively pronounced in the service-providing industries. The post-storm employment shock is negatively correlated with the metrics of storm hazards (e.g., extreme wind and precipitation) and geospatial details of impacts (e.g., storm-entity distance). Additionally, non-storm factors such as county characteristics also strongly affect short-term employment changes. The findings inform predictive modeling of short-term employment changes, which shows promising skills for service-providing industries and high-
+    
+[^2]: 交通网络公司对出租车司机的劳动供应和工资影响的研究
 
     Impact of Transportation Network Companies on Labor Supply and Wages for Taxi Drivers. (arXiv:2307.13620v1 [stat.AP])
 
@@ -29,7 +44,7 @@
 
     While the growth of TNCs took a substantial part of ridership and asset value away from the traditional taxi industry, existing taxi market policy regulations and planning models remain to be reexamined, which requires reliable estimates of the sensitivity of labor supply and income levels in the taxi industry. This study aims to investigate the impact of TNCs on the labor supply of the taxi industry, estimate wage elasticity, and understand the changes in taxi drivers' work preferences. We introduce the wage decomposition method to quantify the effects of TNC trips on taxi drivers' work hours over time, based on taxi and TNC trip record data from 2013 to 2018 in New York City. The data are analyzed to evaluate the changes in overall market performances and taxi drivers' work behavior through statistical analyses, and our results show that the increase in TNC trips not only decreases the income level of taxi drivers but also discourages their willingness to work. We find that 1% increa
     
-[^2]: GMM估计器在二阶识别下的大样本性质
+[^3]: GMM估计器在二阶识别下的大样本性质
 
     Large sample properties of GMM estimators under second-order identification. (arXiv:2307.13475v1 [econ.EM])
 
@@ -43,7 +58,7 @@
 
     Dovonon and Hall (Journal of Econometrics, 2018) proposed a limiting distribution theory for GMM estimators for a p - dimensional globally identified parameter vector {\phi} when local identification conditions fail at first-order but hold at second-order. They assumed that the first-order underidentification is due to the expected Jacobian having rank p-1 at the true value {\phi}_{0}, i.e., having a rank deficiency of one. After reparametrizing the model such that the last column of the Jacobian vanishes, they showed that the GMM estimator of the first p-1 parameters converges at rate T^{-1/2} and the GMM estimator of the remaining parameter, {\phi}_{p}, converges at rate T^{-1/4}. They also provided a limiting distribution of T^{1/4}({\phi}_{p}-{\phi}_{0,p}) subject to a (non-transparent) condition which they claimed to be not restrictive in general. However, as we show in this paper, their condition is in fact only satisfied when {\phi} is overidentified and the limiting distributio
     
-[^3]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
+[^4]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
 
     Tuning-free testing of factor regression against factor-augmented sparse alternatives. (arXiv:2307.13364v1 [econ.EM])
 
@@ -57,7 +72,7 @@
 
     This study introduces a bootstrap test of the validity of factor regression within a high-dimensional factor-augmented sparse regression model that integrates factor and sparse regression techniques. The test provides a means to assess the suitability of the classical (dense) factor regression model compared to alternative (sparse plus dense) factor-augmented sparse regression models. Our proposed test does not require tuning parameters, eliminates the need to estimate covariance matrices, and offers simplicity in implementation. The validity of the test is theoretically established under time-series dependence. Through simulation experiments, we demonstrate the favorable finite sample performance of our procedure. Moreover, using the FRED-MD dataset, we apply the test and reject the adequacy of the classical factor regression model when the dependent variable is inflation but not when it is industrial production. These findings offer insights into selecting appropriate models for high
     
-[^4]: 为所有人设计的多层大型语言模型
+[^5]: 为所有人设计的多层大型语言模型
 
     Multilevel Large Language Models for Everyone. (arXiv:2307.13221v1 [cs.CV])
 
@@ -71,7 +86,7 @@
 
     Large language models have made significant progress in the past few years. However, they are either generic {\it or} field specific, splitting the community into different groups. In this paper, we unify these large language models into a larger map, where the generic {\it and} specific models are linked together and can improve each other, based on the user personal input and information from the internet. The idea of linking several large language models together is inspired by the functionality of human brain. The specific regions on the brain cortex are specific for certain low level functionality. And these regions can jointly work together to achieve more complex high level functionality. Such behavior on human brain cortex sheds the light to design the multilevel large language models that contain global level, field level and user level models. The user level models run on local machines to achieve efficient response and protect the user's privacy. Such multilevel models reduc
     
-[^5]: 匹配对和不完全遵守下的实验推断
+[^6]: 匹配对和不完全遵守下的实验推断
 
     Inference in Experiments with Matched Pairs and Imperfect Compliance. (arXiv:2307.13094v1 [econ.EM])
 
@@ -85,7 +100,7 @@
 
     This paper studies inference for the local average treatment effect in randomized controlled trials with imperfect compliance where treatment status is determined according to "matched pairs." By "matched pairs," we mean that units are sampled i.i.d. from the population of interest, paired according to observed, baseline covariates and finally, within each pair, one unit is selected at random for treatment. Under weak assumptions governing the quality of the pairings, we first derive the limiting behavior of the usual Wald (i.e., two-stage least squares) estimator of the local average treatment effect. We show further that the conventional heteroskedasticity-robust estimator of its limiting variance is generally conservative in that its limit in probability is (typically strictly) larger than the limiting variance. We therefore provide an alternative estimator of the limiting variance that is consistent for the desired quantity. Finally, we consider the use of additional observed, base
     
-[^6]: 通过密度匹配实现的合成对照方法下的隐式内生性问题
+[^7]: 通过密度匹配实现的合成对照方法下的隐式内生性问题
 
     Synthetic Control Methods by Density Matching under Implicit Endogeneitiy. (arXiv:2307.11127v1 [econ.EM])
 
@@ -99,7 +114,7 @@
 
     Synthetic control methods (SCMs) have become a crucial tool for causal inference in comparative case studies. The fundamental idea of SCMs is to estimate counterfactual outcomes for a treated unit by using a weighted sum of observed outcomes from untreated units. The accuracy of the synthetic control (SC) is critical for estimating the causal effect, and hence, the estimation of SC weights has been the focus of much research. In this paper, we first point out that existing SCMs suffer from an implicit endogeneity problem, which is the correlation between the outcomes of untreated units and the error term in the model of a counterfactual outcome. We show that this problem yields a bias in the causal effect estimator. We then propose a novel SCM based on density matching, assuming that the density of outcomes of the treated unit can be approximated by a weighted average of the densities of untreated units (i.e., a mixture model). Based on this assumption, we estimate SC weights by matchi
     
-[^7]: 我们能否在不做任何假设的情况下，证伪Wald置信区间在双重稳健函数下的有效性？
+[^8]: 我们能否在不做任何假设的情况下，证伪Wald置信区间在双重稳健函数下的有效性？
 
     Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?. (arXiv:2306.10590v1 [stat.ME])
 
@@ -113,7 +128,7 @@
 
     In this article we develop a feasible version of the assumption-lean tests in Liu et al. 20 that can falsify an analyst's justification for the validity of a reported nominal $(1 - \alpha)$ Wald confidence interval (CI) centered at a double machine learning (DML) estimator for any member of the class of doubly robust (DR) functionals studied by Rotnitzky et al. 21. The class of DR functionals is broad and of central importance in economics and biostatistics. It strictly includes both (i) the class of mean-square continuous functionals that can be written as an expectation of an affine functional of a conditional expectation studied by Chernozhukov et al. 22 and the class of functionals studied by Robins et al. 08. The present state-of-the-art estimators for DR functionals $\psi$ are DML estimators $\hat{\psi}_{1}$. The bias of $\hat{\psi}_{1}$ depends on the product of the rates at which two nuisance functions $b$ and $p$ are estimated. Most commonly an analyst justifies the validity o
     
-[^8]: 基于成熟度模型的信息系统网络保险定价
+[^9]: 基于成熟度模型的信息系统网络保险定价
 
     Pricing cyber-insurance for systems via maturity models. (arXiv:2302.04734v2 [econ.GN] UPDATED)
 
@@ -127,7 +142,7 @@
 
     Pricing insurance for risks associated with information technology systems presents a complex modelling challenge, combining the disciplines of operations management, security, and economics. This work proposes a socioeconomic model for cyber-insurance decisions compromised of entity relationship diagrams, security maturity models, and economic models, addressing a long-standing research challenge of capturing organizational structure in the design and pricing of cyber-insurance policies. Insurance pricing is usually informed by the long experience insurance companies have of the magnitude and frequency of losses that arise in organizations based on their size, industry sector, and location. Consequently, their calculations of premia will start from a baseline determined by these considerations. A unique challenge of cyber-insurance is that data history is limited and not necessarily informative of future loss risk meaning that established actuarial methodology for other lines of insur
     
-[^9]: 一种针对具有弱代理的代理-SVARs的识别和测试策略
+[^10]: 一种针对具有弱代理的代理-SVARs的识别和测试策略
 
     An identification and testing strategy for proxy-SVARs with weak proxies. (arXiv:2210.04523v3 [econ.EM] UPDATED)
 
@@ -141,7 +156,7 @@
 
     When proxies (external instruments) used to identify target structural shocks are weak, inference in proxy-SVARs (SVAR-IVs) is nonstandard and the construction of asymptotically valid confidence sets for the impulse responses of interest requires weak-instrument robust methods. In the presence of multiple target shocks, test inversion techniques require extra restrictions on the proxy-SVAR parameters other those implied by the proxies that may be difficult to interpret and test. We show that frequentist asymptotic inference in these situations can be conducted through Minimum Distance estimation and standard asymptotic methods if the proxy-SVAR can be identified by using `strong' instruments for the non-target shocks; i.e. the shocks which are not of primary interest in the analysis. The suggested identification strategy hinges on a novel pre-test for the null of instrument relevance based on bootstrap resampling which is not subject to pre-testing issues, in the sense that the validit
     
-[^10]: 受限分类和策略学习
+[^11]: 受限分类和策略学习
 
     Constrained Classification and Policy Learning. (arXiv:2106.12886v2 [econ.EM] UPDATED)
 
