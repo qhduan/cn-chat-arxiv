@@ -23,25 +23,28 @@
 | [^19] | [Explaining Math Word Problem Solvers.](http://arxiv.org/abs/2307.13128) | 该论文研究了基于神经网络的自动化数学词问题求解器的工作原理，并发现这些求解器可能依赖于表面模式而不是数学语义逻辑来生成解决方案。 |
 | [^20] | [How to use LLMs for Text Analysis.](http://arxiv.org/abs/2307.13106) | 本文介绍了如何使用LLMs进行文本分析，LLMs作为一种非常多功能的文本分析方法在社会科学中具有广泛的应用前景。使用LLMs可以实现从文本标注和分类到情感分析和批判性话语分析等多种任务，并且易于使用且速度快。这对于具有有限编程经验的学生和研究者来说尤其有用。 |
 | [^21] | [Making Metadata More FAIR Using Large Language Models.](http://arxiv.org/abs/2307.13085) | 本研究提出了一种名为FAIRMetaText的自然语言处理应用程序，用于比较元数据。该应用程序分析元数据的自然语言描述，并提供数学相似度度量，可用于分析和识别可替代术语，从而大大减少人力成本。 |
-| [^22] | [Extracting Molecular Properties from Natural Language with Multimodal Contrastive Learning.](http://arxiv.org/abs/2307.12996) | 该论文研究了如何使用多模态对比学习方法从自然语言中提取分子属性信息，通过改进文本检索和引入分子图扩增策略等方法提高了属性预测性能。实验结果显示相对于仅在图模态上预训练的模型，我们取得了+4.26%的AUROC增益和+1.54%的增益。 |
-| [^23] | [Corrections of Zipf's and Heaps' Laws Derived from Hapax Rate Models.](http://arxiv.org/abs/2307.12896) | 本文的创新是基于Hapax Rate模型引入了对Zipf和Heaps定律的修正，并发现逻辑模型拟合效果最优。 |
-| [^24] | [RRAML: Reinforced Retrieval Augmented Machine Learning.](http://arxiv.org/abs/2307.12798) | RRAML是一种新的机器学习框架，将大型语言模型（LLMs）的推理能力与用户提供的庞大数据库中的支持信息相结合。利用强化学习的进展，该方法成功解决了几个关键挑战。 |
-| [^25] | [Question Decomposition Improves the Faithfulness of Model-Generated Reasoning.](http://arxiv.org/abs/2307.11768) | 通过将问题分解为子问题，可以显著提高大型语言模型生成推理的忠实度。 |
-| [^26] | [EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus.](http://arxiv.org/abs/2307.11760) | EmotionPrompt是一个基于心理学的方法，通过将情感刺激融入到提示中，提升了大型语言模型在各项任务上的性能，并且同时改善了其真实性和信息量。 |
-| [^27] | [Retentive Network: A Successor to Transformer for Large Language Models.](http://arxiv.org/abs/2307.08621) | Retentive Network（RetNet）作为大型语言模型的基础架构，实现了训练并行、低成本推理和良好的性能。通过并行、循环和分块循环三种计算范式，RetNet具有训练并行化、低成本推理和高效的长序列建模的特点。 |
-| [^28] | [Soft Prompt Tuning for Augmenting Dense Retrieval with Large Language Models.](http://arxiv.org/abs/2307.08303) | 本论文提出了一种使用软提示调优来增强密集检索的方法（SPTAR）。通过优化任务特定的软提示并利用大型语言模型为未标记的文档生成弱查询，可以提高零样本和少样本的密集检索模型的性能。 |
-| [^29] | [Generative User-Experience Research for Developing Domain-specific Natural Language Processing Applications.](http://arxiv.org/abs/2306.16143) | 本论文提出了一种在开发领域特定自然语言处理应用中整合生成式用户体验研究的方法。该方法将领域用户纳入原型开发的不同阶段，以更好地了解用户需求和评估用户价值的变化。 |
-| [^30] | [Towards Explainable and Language-Agnostic LLMs: Symbolic Reverse Engineering of Language at Scale.](http://arxiv.org/abs/2306.00017) | 本文提出结合符号表示和自下而上的逆向工程的方法，解决大规模语言模型在真正语言理解上的局限性，实现可解释的、语言无关的LLMs。 |
-| [^31] | [Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis.](http://arxiv.org/abs/2305.11993) | 该论文提出使用自动生成的自然语言定义作为词义表示，可以使语义变化分析更具可解释性，并允许用户直观解释词义的历时轨迹。此外，上下文化的定义在上下文中的语义相似性上也优于令牌或使用句嵌入。 |
-| [^32] | [DataComp: In search of the next generation of multimodal datasets.](http://arxiv.org/abs/2304.14108) | DataComp是一个基准测试，旨在通过提出新的训练集来解决数据集在机器学习生态系统中的缺陷。它提供了一个多规模设计的实验测试平台，使用12.8B个图像-文本对的新候选池，让研究人员可以通过设计新的过滤技术或策划新的数据源并评估它们的新数据集来进行创新。 |
-| [^33] | [Stabilizing Transformer Training by Preventing Attention Entropy Collapse.](http://arxiv.org/abs/2303.06296) | 本文研究了Transformer的训练动态，发现低注意力熵伴随着高训练不稳定性，提出了一种简单而有效的解决方案$\sigma$Reparam，成功地防止了注意力层中的熵崩溃，促进了更稳定的训练。 |
-| [^34] | [Concept Algebra for Score-Based Conditional Models.](http://arxiv.org/abs/2302.03693) | 本文研究了基于分数的条件模型中学习表示的结构，并开发了一种数学形式化表达概念被编码为表示空间子空间的思想。利用这个方法，我们提出了一种简单的方法来识别给定概念对应的表示部分，并通过代数操作操纵模型所表达的概念。 |
-| [^35] | [Revision Transformers: Instructing Language Models to Change their Values.](http://arxiv.org/abs/2210.10332) | 本论文提出了修订Transformer（RiT），旨在解决当前Transformer语言模型中出现的捷径学习和偏见问题，以便更方便地进行模型更新。RiT采用了大规模预训练的语言模型和清晰结构的修订引擎的组合，通过少量的努力和用户互动，可以轻松更新模型的知识。在道德数据集上的实验结果表明RiT在模型修订方面表现出强大的性能。 |
-| [^36] | [Meta-Referential Games to Learn Compositional Learning Behaviours.](http://arxiv.org/abs/2207.08012) | 本论文提出了一种元元反游戏学习的方法来解决组合学习行为的问题，通过解决绑定问题来支持人工智能代理展示组合学习行为的能力。 |
-| [^37] | [End-to-End Annotator Bias Approximation on Crowdsourced Single-Label Sentiment Analysis.](http://arxiv.org/abs/2111.02326) | 本文提出一种在众包单标签情感分析中解决注释者偏差的端到端方法，通过精确的偏差建模和真实值估计来改善准确性，实验证明在样本只由单个注释者标注的情况下效果显著。 |
-| [^38] | [An Analysis of Programming Course Evaluations Before and After the Introduction of an Autograder.](http://arxiv.org/abs/2110.15134) | 本研究分析了引入自动评分系统前后多个大规模计算机科学基础课程的评估结果，探讨了自动评分系统对学生对编程课程和教学感知的影响。 |
-| [^39] | [SocialVisTUM: An Interactive Visualization Toolkit for Correlated Neural Topic Models on Social Media Opinion Mining.](http://arxiv.org/abs/2110.10575) | 本文展示了如何使用基于词嵌入的主题建模方法，在交互式可视化工具包SocialVisTUM中显示相关主题模型。该工具包提供了丰富的功能和细节，支持对大文本集合的探索。从一个关于有机食品消费的英语社交媒体讨论数据的实例中，可视化结果证实了一项消费者研究的发现。 |
-| [^40] | [Classification of Consumer Belief Statements From Social Media.](http://arxiv.org/abs/2106.15498) | 本研究探讨了使用复杂的专家注解在社交媒体中进行消费者信念陈述分类的准确性，比较了细粒度和抽象类别的标签，并说明复杂专家注解在高度特定的意见挖掘中的潜在优势。 |
+| [^22] | [The potential of LLMs for coding with low-resource and domain-specific programming languages.](http://arxiv.org/abs/2307.13018) | 本论文研究了使用LLM进行低资源和领域特定编程语言编码的可行性，发现LLM可以用于改进gretl代码，并生成描述性的文档字符串和精确的解释。然而LLM在某些方面存在局限性，如无法改善某些代码段和编写准确的单元测试。 |
+| [^23] | [Extracting Molecular Properties from Natural Language with Multimodal Contrastive Learning.](http://arxiv.org/abs/2307.12996) | 该论文研究了如何使用多模态对比学习方法从自然语言中提取分子属性信息，通过改进文本检索和引入分子图扩增策略等方法提高了属性预测性能。实验结果显示相对于仅在图模态上预训练的模型，我们取得了+4.26%的AUROC增益和+1.54%的增益。 |
+| [^24] | [Corrections of Zipf's and Heaps' Laws Derived from Hapax Rate Models.](http://arxiv.org/abs/2307.12896) | 本文的创新是基于Hapax Rate模型引入了对Zipf和Heaps定律的修正，并发现逻辑模型拟合效果最优。 |
+| [^25] | [RRAML: Reinforced Retrieval Augmented Machine Learning.](http://arxiv.org/abs/2307.12798) | RRAML是一种新的机器学习框架，将大型语言模型（LLMs）的推理能力与用户提供的庞大数据库中的支持信息相结合。利用强化学习的进展，该方法成功解决了几个关键挑战。 |
+| [^26] | [Question Decomposition Improves the Faithfulness of Model-Generated Reasoning.](http://arxiv.org/abs/2307.11768) | 通过将问题分解为子问题，可以显著提高大型语言模型生成推理的忠实度。 |
+| [^27] | [EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus.](http://arxiv.org/abs/2307.11760) | EmotionPrompt是一个基于心理学的方法，通过将情感刺激融入到提示中，提升了大型语言模型在各项任务上的性能，并且同时改善了其真实性和信息量。 |
+| [^28] | [Retentive Network: A Successor to Transformer for Large Language Models.](http://arxiv.org/abs/2307.08621) | Retentive Network（RetNet）作为大型语言模型的基础架构，实现了训练并行、低成本推理和良好的性能。通过并行、循环和分块循环三种计算范式，RetNet具有训练并行化、低成本推理和高效的长序列建模的特点。 |
+| [^29] | [Soft Prompt Tuning for Augmenting Dense Retrieval with Large Language Models.](http://arxiv.org/abs/2307.08303) | 本论文提出了一种使用软提示调优来增强密集检索的方法（SPTAR）。通过优化任务特定的软提示并利用大型语言模型为未标记的文档生成弱查询，可以提高零样本和少样本的密集检索模型的性能。 |
+| [^30] | [Generative User-Experience Research for Developing Domain-specific Natural Language Processing Applications.](http://arxiv.org/abs/2306.16143) | 本论文提出了一种在开发领域特定自然语言处理应用中整合生成式用户体验研究的方法。该方法将领域用户纳入原型开发的不同阶段，以更好地了解用户需求和评估用户价值的变化。 |
+| [^31] | [Towards Explainable and Language-Agnostic LLMs: Symbolic Reverse Engineering of Language at Scale.](http://arxiv.org/abs/2306.00017) | 本文提出结合符号表示和自下而上的逆向工程的方法，解决大规模语言模型在真正语言理解上的局限性，实现可解释的、语言无关的LLMs。 |
+| [^32] | [NormBank: A Knowledge Bank of Situational Social Norms.](http://arxiv.org/abs/2305.17008) | NormBank是一种情境社会规范的知识库，通过多元化的社会文化框架为交互式、辅助和协作智能系统提供灵活的规范推理支持。 |
+| [^33] | [Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis.](http://arxiv.org/abs/2305.11993) | 该论文提出使用自动生成的自然语言定义作为词义表示，可以使语义变化分析更具可解释性，并允许用户直观解释词义的历时轨迹。此外，上下文化的定义在上下文中的语义相似性上也优于令牌或使用句嵌入。 |
+| [^34] | [DataComp: In search of the next generation of multimodal datasets.](http://arxiv.org/abs/2304.14108) | DataComp是一个基准测试，旨在通过提出新的训练集来解决数据集在机器学习生态系统中的缺陷。它提供了一个多规模设计的实验测试平台，使用12.8B个图像-文本对的新候选池，让研究人员可以通过设计新的过滤技术或策划新的数据源并评估它们的新数据集来进行创新。 |
+| [^35] | [Stabilizing Transformer Training by Preventing Attention Entropy Collapse.](http://arxiv.org/abs/2303.06296) | 本文研究了Transformer的训练动态，发现低注意力熵伴随着高训练不稳定性，提出了一种简单而有效的解决方案$\sigma$Reparam，成功地防止了注意力层中的熵崩溃，促进了更稳定的训练。 |
+| [^36] | [Concept Algebra for Score-Based Conditional Models.](http://arxiv.org/abs/2302.03693) | 本文研究了基于分数的条件模型中学习表示的结构，并开发了一种数学形式化表达概念被编码为表示空间子空间的思想。利用这个方法，我们提出了一种简单的方法来识别给定概念对应的表示部分，并通过代数操作操纵模型所表达的概念。 |
+| [^37] | [Revision Transformers: Instructing Language Models to Change their Values.](http://arxiv.org/abs/2210.10332) | 本论文提出了修订Transformer（RiT），旨在解决当前Transformer语言模型中出现的捷径学习和偏见问题，以便更方便地进行模型更新。RiT采用了大规模预训练的语言模型和清晰结构的修订引擎的组合，通过少量的努力和用户互动，可以轻松更新模型的知识。在道德数据集上的实验结果表明RiT在模型修订方面表现出强大的性能。 |
+| [^38] | [Meta-Referential Games to Learn Compositional Learning Behaviours.](http://arxiv.org/abs/2207.08012) | 本论文提出了一种元元反游戏学习的方法来解决组合学习行为的问题，通过解决绑定问题来支持人工智能代理展示组合学习行为的能力。 |
+| [^39] | [End-to-End Annotator Bias Approximation on Crowdsourced Single-Label Sentiment Analysis.](http://arxiv.org/abs/2111.02326) | 本文提出一种在众包单标签情感分析中解决注释者偏差的端到端方法，通过精确的偏差建模和真实值估计来改善准确性，实验证明在样本只由单个注释者标注的情况下效果显著。 |
+| [^40] | [A Case Study and Qualitative Analysis of Simple Cross-Lingual Opinion Mining.](http://arxiv.org/abs/2111.02259) | 本研究提出了一种简单、现代和有效的方法，能够同时处理多种语言，构建一个单一主题模型，并基于深度神经网络进行情感分析。通过将该模型应用于有机食品的报纸文章和用户评论，我们发现主题在不同语言中匹配，并获得了高比例的稳定且与领域相关的主题。 |
+| [^41] | [An Analysis of Programming Course Evaluations Before and After the Introduction of an Autograder.](http://arxiv.org/abs/2110.15134) | 本研究分析了引入自动评分系统前后多个大规模计算机科学基础课程的评估结果，探讨了自动评分系统对学生对编程课程和教学感知的影响。 |
+| [^42] | [SocialVisTUM: An Interactive Visualization Toolkit for Correlated Neural Topic Models on Social Media Opinion Mining.](http://arxiv.org/abs/2110.10575) | 本文展示了如何使用基于词嵌入的主题建模方法，在交互式可视化工具包SocialVisTUM中显示相关主题模型。该工具包提供了丰富的功能和细节，支持对大文本集合的探索。从一个关于有机食品消费的英语社交媒体讨论数据的实例中，可视化结果证实了一项消费者研究的发现。 |
+| [^43] | [Classification of Consumer Belief Statements From Social Media.](http://arxiv.org/abs/2106.15498) | 本研究探讨了使用复杂的专家注解在社交媒体中进行消费者信念陈述分类的准确性，比较了细粒度和抽象类别的标签，并说明复杂专家注解在高度特定的意见挖掘中的潜在优势。 |
 
 # 详细
 
@@ -339,7 +342,21 @@
 
     With the global increase in experimental data artifacts, harnessing them in a unified fashion leads to a major stumbling block - bad metadata. To bridge this gap, this work presents a Natural Language Processing (NLP) informed application, called FAIRMetaText, that compares metadata. Specifically, FAIRMetaText analyzes the natural language descriptions of metadata and provides a mathematical similarity measure between two terms. This measure can then be utilized for analyzing varied metadata, by suggesting terms for compliance or grouping similar terms for identification of replaceable terms. The efficacy of the algorithm is presented qualitatively and quantitatively on publicly available research artifacts and demonstrates large gains across metadata related tasks through an in-depth study of a wide variety of Large Language Models (LLMs). This software can drastically reduce the human effort in sifting through various natural language metadata while employing several experimental dat
     
-[^22]: 使用多模态对比学习从自然语言中提取分子属性
+[^22]: LLM在低资源和领域特定编程语言编码中的潜力
+
+    The potential of LLMs for coding with low-resource and domain-specific programming languages. (arXiv:2307.13018v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.13018](http://arxiv.org/abs/2307.13018)
+
+    本论文研究了使用LLM进行低资源和领域特定编程语言编码的可行性，发现LLM可以用于改进gretl代码，并生成描述性的文档字符串和精确的解释。然而LLM在某些方面存在局限性，如无法改善某些代码段和编写准确的单元测试。
+
+    
+
+    本论文研究了使用大型语言模型（LLM）在低资源和领域特定的编程语言中进行编码的可行性。这些编程语言通常缺乏有效的LLM处理技术所需的数据量。本研究专注于开源软件gretl的计量脚本语言hansl，并使用基于GPT-3.5的专有LLM。我们的研究发现LLM可以成为编写、理解、改进和文档化gretl代码的有用工具，其中包括为函数生成描述性的文档字符串，并为抽象和文档不完备的计量代码提供精确的解释。尽管LLM展示了字符串到代码翻译能力，但我们也发现了一些局限性，例如LLM无法改善某些代码段并编写准确的单元测试。这项研究是利用LLM的能力促进低资源编程语言软件开发的一步。
+
+    This paper presents a study on the feasibility of using large language models (LLM) for coding with low-resource and domain-specific programming languages that typically lack the amount of data required for effective LLM processing techniques. This study focuses on the econometric scripting language named hansl of the open-source software gretl and employs a proprietary LLM based on GPT-3.5. Our findings suggest that LLMs can be a useful tool for writing, understanding, improving, and documenting gretl code, which includes generating descriptive docstrings for functions and providing precise explanations for abstract and poorly documented econometric code. While the LLM showcased promoting docstring-to-code translation capability, we also identify some limitations, such as its inability to improve certain sections of code and to write accurate unit tests. This study is a step towards leveraging the power of LLMs to facilitate software development in low-resource programming languages a
+    
+[^23]: 使用多模态对比学习从自然语言中提取分子属性
 
     Extracting Molecular Properties from Natural Language with Multimodal Contrastive Learning. (arXiv:2307.12996v1 [cs.LG])
 
@@ -353,7 +370,7 @@
 
     Deep learning in computational biochemistry has traditionally focused on molecular graphs neural representations; however, recent advances in language models highlight how much scientific knowledge is encoded in text. To bridge these two modalities, we investigate how molecular property information can be transferred from natural language to graph representations. We study property prediction performance gains after using contrastive learning to align neural graph representations with representations of textual descriptions of their characteristics. We implement neural relevance scoring strategies to improve text retrieval, introduce a novel chemically-valid molecular graph augmentation strategy inspired by organic reactions, and demonstrate improved performance on downstream MoleculeNet property classification tasks. We achieve a +4.26% AUROC gain versus models pre-trained on the graph modality alone, and a +1.54% gain compared to recently proposed molecular graph/text contrastively t
     
-[^23]: 从Hapax Rate模型导出的Zipf和Heaps定律的修正
+[^24]: 从Hapax Rate模型导出的Zipf和Heaps定律的修正
 
     Corrections of Zipf's and Heaps' Laws Derived from Hapax Rate Models. (arXiv:2307.12896v2 [cs.CL] UPDATED)
 
@@ -367,7 +384,7 @@
 
     The article introduces corrections to Zipf's and Heaps' laws based on systematic models of the hapax rate. The derivation rests on two assumptions: The first one is the standard urn model which predicts that marginal frequency distributions for shorter texts look as if word tokens were sampled blindly from a given longer text. The second assumption posits that the rate of hapaxes is a simple function of the text size. Four such functions are discussed: the constant model, the Davis model, the linear model, and the logistic model. It is shown that the logistic model yields the best fit.
     
-[^24]: RRAML: 强化检索增强的机器学习
+[^25]: RRAML: 强化检索增强的机器学习
 
     RRAML: Reinforced Retrieval Augmented Machine Learning. (arXiv:2307.12798v2 [cs.CL] UPDATED)
 
@@ -381,7 +398,7 @@
 
     The emergence of large language models (LLMs) has revolutionized machine learning and related fields, showcasing remarkable abilities in comprehending, generating, and manipulating human language. However, their conventional usage through API-based text prompt submissions imposes certain limitations in terms of context constraints and external source availability. To address these challenges, we propose a novel framework called Reinforced Retrieval Augmented Machine Learning (RRAML). RRAML integrates the reasoning capabilities of LLMs with supporting information retrieved by a purpose-built retriever from a vast user-provided database. By leveraging recent advancements in reinforcement learning, our method effectively addresses several critical challenges. Firstly, it circumvents the need for accessing LLM gradients. Secondly, our method alleviates the burden of retraining LLMs for specific tasks, as it is often impractical or impossible due to restricted access to the model and the co
     
-[^25]: 问题分解提高了模型生成推理的忠实度
+[^26]: 问题分解提高了模型生成推理的忠实度
 
     Question Decomposition Improves the Faithfulness of Model-Generated Reasoning. (arXiv:2307.11768v1 [cs.CL])
 
@@ -395,7 +412,7 @@
 
     As large language models (LLMs) perform more difficult tasks, it becomes harder to verify the correctness and safety of their behavior. One approach to help with this issue is to prompt LLMs to externalize their reasoning, e.g., by having them generate step-by-step reasoning as they answer a question (Chain-of-Thought; CoT). The reasoning may enable us to check the process that models use to perform tasks. However, this approach relies on the stated reasoning faithfully reflecting the model's actual reasoning, which is not always the case. To improve over the faithfulness of CoT reasoning, we have models generate reasoning by decomposing questions into subquestions. Decomposition-based methods achieve strong performance on question-answering tasks, sometimes approaching that of CoT while improving the faithfulness of the model's stated reasoning on several recently-proposed metrics. By forcing the model to answer simpler subquestions in separate contexts, we greatly increase the faithf
     
-[^26]: EmotionPrompt: 通过情感刺激提升大型语言模型的关键心理学方法
+[^27]: EmotionPrompt: 通过情感刺激提升大型语言模型的关键心理学方法
 
     EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus. (arXiv:2307.11760v1 [cs.CL])
 
@@ -409,7 +426,7 @@
 
     Large language models (LLMs) have achieved significant performance in many fields such as reasoning, language understanding, and math problem-solving, and are regarded as a crucial step to artificial general intelligence (AGI). However, the sensitivity of LLMs to prompts remains a major bottleneck for their daily adoption. In this paper, we take inspiration from psychology and propose EmotionPrompt to explore emotional intelligence to enhance the performance of LLMs. EmotionPrompt operates on a remarkably straightforward principle: the incorporation of emotional stimulus into prompts. Experimental results demonstrate that our \method, using the same single prompt templates, significantly outperforms original zero-shot prompt and Zero-shot-CoT on 8 tasks with diverse models: ChatGPT, Vicuna-13b, Bloom, and T5. Further, EmotionPrompt was observed to improve both truthfulness and informativeness. We believe that EmotionPrompt heralds a novel avenue for exploring interdisciplinary knowledg
     
-[^27]: Retentive Network: 作为大型语言模型的Transformer的继任者
+[^28]: Retentive Network: 作为大型语言模型的Transformer的继任者
 
     Retentive Network: A Successor to Transformer for Large Language Models. (arXiv:2307.08621v2 [cs.CL] UPDATED)
 
@@ -423,7 +440,7 @@
 
     In this work, we propose Retentive Network (RetNet) as a foundation architecture for large language models, simultaneously achieving training parallelism, low-cost inference, and good performance. We theoretically derive the connection between recurrence and attention. Then we propose the retention mechanism for sequence modeling, which supports three computation paradigms, i.e., parallel, recurrent, and chunkwise recurrent. Specifically, the parallel representation allows for training parallelism. The recurrent representation enables low-cost $O(1)$ inference, which improves decoding throughput, latency, and GPU memory without sacrificing performance. The chunkwise recurrent representation facilitates efficient long-sequence modeling with linear complexity, where each chunk is encoded parallelly while recurrently summarizing the chunks. Experimental results on language modeling show that RetNet achieves favorable scaling results, parallel training, low-cost deployment, and efficient i
     
-[^28]: 使用大型语言模型增强密集检索的软提示调优
+[^29]: 使用大型语言模型增强密集检索的软提示调优
 
     Soft Prompt Tuning for Augmenting Dense Retrieval with Large Language Models. (arXiv:2307.08303v1 [cs.IR] CROSS LISTED)
 
@@ -437,7 +454,7 @@
 
     Dense retrieval (DR) converts queries and documents into dense embeddings and measures the similarity between queries and documents in vector space. One of the challenges in DR is the lack of domain-specific training data. While DR models can learn from large-scale public datasets like MS MARCO through transfer learning, evidence shows that not all DR models and domains can benefit from transfer learning equally. Recently, some researchers have resorted to large language models (LLMs) to improve the zero-shot and few-shot DR models. However, the hard prompts or human-written prompts utilized in these works cannot guarantee the good quality of generated weak queries. To tackle this, we propose soft prompt tuning for augmenting DR (SPTAR): For each task, we leverage soft prompt-tuning to optimize a task-specific soft prompt on limited ground truth data and then prompt the LLMs to tag unlabeled documents with weak queries, yielding enough weak document-query pairs to train task-specific d
     
-[^29]: 为开发领域特定自然语言处理应用而进行的生成式用户体验研究
+[^30]: 为开发领域特定自然语言处理应用而进行的生成式用户体验研究
 
     Generative User-Experience Research for Developing Domain-specific Natural Language Processing Applications. (arXiv:2306.16143v1 [cs.CL])
 
@@ -451,7 +468,7 @@
 
     User experience (UX) is a part of human-computer interaction (HCI) research and focuses on increasing intuitiveness, transparency, simplicity, and trust for system users. Most of the UX research for machine learning (ML) or natural language processing (NLP) focuses on a data-driven methodology, i.e., it fails to focus on users' requirements, and engages domain users mainly for usability evaluation. Moreover, more typical UX methods tailor the systems towards user usability, unlike learning about the user needs first. The paper proposes a methodology for integrating generative UX research into developing domain NLP applications. Generative UX research employs domain users at the initial stages of prototype development, i.e., ideation and concept evaluation, and the last stage for evaluating the change in user value. In the case study, we report the full-cycle prototype development of a domain-specific semantic search for daily operations in the process industry. Our case study shows tha
     
-[^30]: 向可解释的、语言无关的LLMs迈进：大规模语言符号逆向工程
+[^31]: 向可解释的、语言无关的LLMs迈进：大规模语言符号逆向工程
 
     Towards Explainable and Language-Agnostic LLMs: Symbolic Reverse Engineering of Language at Scale. (arXiv:2306.00017v1 [cs.CL])
 
@@ -465,7 +482,21 @@
 
     Large language models (LLMs) have achieved a milestone that undenia-bly changed many held beliefs in artificial intelligence (AI). However, there remains many limitations of these LLMs when it comes to true language understanding, limitations that are a byproduct of the under-lying architecture of deep neural networks. Moreover, and due to their subsymbolic nature, whatever knowledge these models acquire about how language works will always be buried in billions of microfeatures (weights), none of which is meaningful on its own, making such models hopelessly unexplainable. To address these limitations, we suggest com-bining the strength of symbolic representations with what we believe to be the key to the success of LLMs, namely a successful bottom-up re-verse engineering of language at scale. As such we argue for a bottom-up reverse engineering of language in a symbolic setting. Hints on what this project amounts to have been suggested by several authors, and we discuss in some detail
     
-[^31]: 通过定义生成实现可解释的词义表示：以语义变化分析为例
+[^32]: NormBank：一种情境社会规范的知识库
+
+    NormBank: A Knowledge Bank of Situational Social Norms. (arXiv:2305.17008v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2305.17008](http://arxiv.org/abs/2305.17008)
+
+    NormBank是一种情境社会规范的知识库，通过多元化的社会文化框架为交互式、辅助和协作智能系统提供灵活的规范推理支持。
+
+    
+
+    我们介绍了NormBank，一个包含155k个情境规范的知识库。该资源旨在为交互式、辅助和协作智能系统提供灵活的规范推理支持。与先前的常识资源不同，NormBank将每个推理嵌入到多元化的社会文化框架中，包括场景（例如，餐厅）、参与者的角色（服务员、顾客）、他们的属性（年龄、性别）以及其他物理、社会和文化约束（例如，温度或运营国家）。NormBank总共包含了来自我们引入和迭代完善的分类法的63k个独特约束。这些约束以不同的组合应用于构建社会规范。经过这些操作，规范是非单调的-即使稍微更新其框架也可以取消推理。尽管如此，我们发现神经模型可以可靠地扩展NormBank的范围和覆盖率。我们进一步通过一个示例展示了这个资源的实用性。
+
+    We present NormBank, a knowledge bank of 155k situational norms. This resource is designed to ground flexible normative reasoning for interactive, assistive, and collaborative AI systems. Unlike prior commonsense resources, NormBank grounds each inference within a multivalent sociocultural frame, which includes the setting (e.g., restaurant), the agents' contingent roles (waiter, customer), their attributes (age, gender), and other physical, social, and cultural constraints (e.g., the temperature or the country of operation). In total, NormBank contains 63k unique constraints from a taxonomy that we introduce and iteratively refine here. Constraints then apply in different combinations to frame social norms. Under these manipulations, norms are non-monotonic - one can cancel an inference by updating its frame even slightly. Still, we find evidence that neural models can help reliably extend the scope and coverage of NormBank. We further demonstrate the utility of this resource with a s
+    
+[^33]: 通过定义生成实现可解释的词义表示：以语义变化分析为例
 
     Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis. (arXiv:2305.11993v1 [cs.CL])
 
@@ -479,7 +510,7 @@
 
     We propose using automatically generated natural language definitions of contextualised word usages as interpretable word and word sense representations. Given a collection of usage examples for a target word, and the corresponding data-driven usage clusters (i.e., word senses), a definition is generated for each usage with a specialised Flan-T5 language model, and the most prototypical definition in a usage cluster is chosen as the sense label.  We demonstrate how the resulting sense labels can make existing approaches to semantic change analysis more interpretable, and how they can allow users -historical linguists, lexicographers, or social scientists -- to explore and intuitively explain diachronic trajectories of word meaning. Semantic change analysis is only one of many possible applications of the `definitions as representations' paradigm. Beyond being human-readable, contextualised definitions also outperform token or usage sentence embeddings in word-in-context semantic simi
     
-[^32]: DataComp：寻找下一代多模态数据集
+[^34]: DataComp：寻找下一代多模态数据集
 
     DataComp: In search of the next generation of multimodal datasets. (arXiv:2304.14108v1 [cs.CV])
 
@@ -493,7 +524,7 @@
 
     Large multimodal datasets have been instrumental in recent breakthroughs such as CLIP, Stable Diffusion, and GPT-4. At the same time, datasets rarely receive the same research attention as model architectures or training algorithms. To address this shortcoming in the machine learning ecosystem, we introduce DataComp, a benchmark where the training code is fixed and researchers innovate by proposing new training sets. We provide a testbed for dataset experiments centered around a new candidate pool of 12.8B image-text pairs from Common Crawl. Participants in our benchmark design new filtering techniques or curate new data sources and then evaluate their new dataset by running our standardized CLIP training code and testing on 38 downstream test sets. Our benchmark consists of multiple scales, with four candidate pool sizes and associated compute budgets ranging from 12.8M to 12.8B samples seen during training. This multi-scale design facilitates the study of scaling trends and makes the
     
-[^33]: 防止注意力熵崩溃的Transformer训练稳定性研究
+[^35]: 防止注意力熵崩溃的Transformer训练稳定性研究
 
     Stabilizing Transformer Training by Preventing Attention Entropy Collapse. (arXiv:2303.06296v1 [cs.LG])
 
@@ -507,7 +538,7 @@
 
     Training stability is of great importance to Transformers. In this work, we investigate the training dynamics of Transformers by examining the evolution of the attention layers. In particular, we track the attention entropy for each attention head during the course of training, which is a proxy for model sharpness. We identify a common pattern across different architectures and tasks, where low attention entropy is accompanied by high training instability, which can take the form of oscillating loss or divergence. We denote the pathologically low attention entropy, corresponding to highly concentrated attention scores, as $\textit{entropy collapse}$. As a remedy, we propose $\sigma$Reparam, a simple and efficient solution where we reparametrize all linear layers with spectral normalization and an additional learned scalar. We demonstrate that the proposed reparameterization successfully prevents entropy collapse in the attention layers, promoting more stable training. Additionally, we 
     
-[^34]: 基于分数的条件模型的概念代数
+[^36]: 基于分数的条件模型的概念代数
 
     Concept Algebra for Score-Based Conditional Models. (arXiv:2302.03693v2 [cs.CL] UPDATED)
 
@@ -521,7 +552,7 @@
 
     This paper concerns the structure of learned representations in text-guided generative models, focusing on score-based models. Here, we focus on the idea that concepts are encoded as subspaces (or directions) of some representation space. We develop a mathematical formalization of this idea.Using this formalism, we show there's a natural choice of representation with this property, and we develop a simple method for identifying the part of the representation corresponding to a given concept. In particular, this allows us to manipulate the concepts expressed by the model through algebraic manipulation of the representation. We demonstrate the idea with examples text-guided image generation, using Stable Diffusion.
     
-[^35]: 修订Transformer：指导语言模型改变其价值观
+[^37]: 修订Transformer：指导语言模型改变其价值观
 
     Revision Transformers: Instructing Language Models to Change their Values. (arXiv:2210.10332v3 [cs.CL] UPDATED)
 
@@ -535,7 +566,7 @@
 
     Current transformer language models (LM) are large-scale models with billions of parameters. They have been shown to provide high performances on a variety of tasks but are also prone to shortcut learning and bias. Addressing such incorrect model behavior via parameter adjustments is very costly. This is particularly problematic for updating dynamic concepts, such as moral values, which vary culturally or interpersonally. In this work, we question the current common practice of storing all information in the model parameters and propose the Revision Transformer (RiT) to facilitate easy model updating. The specific combination of a large-scale pre-trained LM that inherently but also diffusely encodes world knowledge with a clear-structured revision engine makes it possible to update the model's knowledge with little effort and the help of user interaction. We exemplify RiT on a moral dataset and simulate user feedback demonstrating strong performance in model revision even with small da
     
-[^36]: 元元反游戏学习组合学习行为
+[^38]: 元元反游戏学习组合学习行为
 
     Meta-Referential Games to Learn Compositional Learning Behaviours. (arXiv:2207.08012v2 [cs.CL] UPDATED)
 
@@ -549,7 +580,7 @@
 
     Human beings use compositionality to generalise from past experiences to novel experiences. We assume a separation of our experiences into fundamental atomic components that can be recombined in novel ways to support our ability to engage with novel experiences. We frame this as the ability to learn to generalise compositionally, and we will refer to behaviours making use of this ability as compositional learning behaviours (CLBs). A central problem to learning CLBs is the resolution of a binding problem (BP). While it is another feat of intelligence that human beings perform with ease, it is not the case for state-of-the-art artificial agents. Thus, in order to build artificial agents able to collaborate with human beings, we propose to develop a novel benchmark to investigate agents' abilities to exhibit CLBs by solving a domain-agnostic version of the BP. We take inspiration from the language emergence and grounding framework of referential games and propose a meta-learning extensio
     
-[^37]: 一种在众包单标签情感分析中端到端的注释者偏差近似方法
+[^39]: 一种在众包单标签情感分析中端到端的注释者偏差近似方法
 
     End-to-End Annotator Bias Approximation on Crowdsourced Single-Label Sentiment Analysis. (arXiv:2111.02326v2 [cs.CL] UPDATED)
 
@@ -563,7 +594,21 @@
 
     Sentiment analysis is often a crowdsourcing task prone to subjective labels given by many annotators. It is not yet fully understood how the annotation bias of each annotator can be modeled correctly with state-of-the-art methods. However, resolving annotator bias precisely and reliably is the key to understand annotators' labeling behavior and to successfully resolve corresponding individual misconceptions and wrongdoings regarding the annotation task. Our contribution is an explanation and improvement for precise neural end-to-end bias modeling and ground truth estimation, which reduces an undesired mismatch in that regard of the existing state-of-the-art. Classification experiments show that it has potential to improve accuracy in cases where each sample is annotated only by one single annotator. We provide the whole source code publicly and release an own domain-specific sentiment dataset containing 10,000 sentences discussing organic food products. These are crawled from social me
     
-[^38]: 引入自动评分系统前后编程课程评估的分析
+[^40]: 一个简单的跨语言观点挖掘的案例研究和质性分析
+
+    A Case Study and Qualitative Analysis of Simple Cross-Lingual Opinion Mining. (arXiv:2111.02259v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2111.02259](http://arxiv.org/abs/2111.02259)
+
+    本研究提出了一种简单、现代和有效的方法，能够同时处理多种语言，构建一个单一主题模型，并基于深度神经网络进行情感分析。通过将该模型应用于有机食品的报纸文章和用户评论，我们发现主题在不同语言中匹配，并获得了高比例的稳定且与领域相关的主题。
+
+    
+
+    社交媒体上的用户生成内容涉及多种语言，这在技术上使得跨不同文化和地区比较讨论主题变得具有挑战性。对于全球化世界中的领域，如市场研究，人们可能对产品有不同的需求。我们提出了一种简单、现代和有效的方法来构建能够同时覆盖多种语言的单一主题模型，并基于一个预训练的最先进的深度神经网络进行自然语言理解的情感分析。为了证明其可行性，我们将该模型应用于特定领域的报纸文章和用户评论，即有机食品产品和相关消费行为。主题在不同语言中匹配。此外，我们获得了高比例的稳定且相关领域的主题，主题与其相应文本内容之间存在有意义的关系，以及一些新颖的
+
+    User-generated content from social media is produced in many languages, making it technically challenging to compare the discussed themes from one domain across different cultures and regions. It is relevant for domains in a globalized world, such as market research, where people from two nations and markets might have different requirements for a product. We propose a simple, modern, and effective method for building a single topic model with sentiment analysis capable of covering multiple languages simultanteously, based on a pre-trained state-of-the-art deep neural network for natural language understanding. To demonstrate its feasibility, we apply the model to newspaper articles and user comments of a specific domain, i.e., organic food products and related consumption behavior. The themes match across languages. Additionally, we obtain an high proportion of stable and domain-relevant topics, a meaningful relation between topics and their respective textual contents, and an interpr
+    
+[^41]: 引入自动评分系统前后编程课程评估的分析
 
     An Analysis of Programming Course Evaluations Before and After the Introduction of an Autograder. (arXiv:2110.15134v2 [cs.HC] UPDATED)
 
@@ -577,7 +622,7 @@
 
     Commonly, introductory programming courses in higher education institutions have hundreds of participating students eager to learn to program. The manual effort for reviewing the submitted source code and for providing feedback can no longer be managed. Manually reviewing the submitted homework can be subjective and unfair, particularly if many tutors are responsible for grading. Different autograders can help in this situation; however, there is a lack of knowledge about how autograders can impact students' overall perception of programming classes and teaching. This is relevant for course organizers and institutions to keep their programming courses attractive while coping with increasing students.  This paper studies the answers to the standardized university evaluation questionnaires of multiple large-scale foundational computer science courses which recently introduced autograding. The differences before and after this intervention are analyzed. By incorporating additional observa
     
-[^39]: SocialVisTUM：面向社交媒体观点挖掘的相关神经主题模型的交互式可视化工具包
+[^42]: SocialVisTUM：面向社交媒体观点挖掘的相关神经主题模型的交互式可视化工具包
 
     SocialVisTUM: An Interactive Visualization Toolkit for Correlated Neural Topic Models on Social Media Opinion Mining. (arXiv:2110.10575v2 [cs.CL] UPDATED)
 
@@ -591,7 +636,7 @@
 
     Recent research in opinion mining proposed word embedding-based topic modeling methods that provide superior coherence compared to traditional topic modeling. In this paper, we demonstrate how these methods can be used to display correlated topic models on social media texts using SocialVisTUM, our proposed interactive visualization toolkit. It displays a graph with topics as nodes and their correlations as edges. Further details are displayed interactively to support the exploration of large text collections, e.g., representative words and sentences of topics, topic and sentiment distributions, hierarchical topic clustering, and customizable, predefined topic labels. The toolkit optimizes automatically on custom data for optimal coherence. We show a working instance of the toolkit on data crawled from English social media discussions about organic food consumption. The visualization confirms findings of a qualitative consumer research study. SocialVisTUM and its training procedures ar
     
-[^40]: 社交媒体中消费者信念陈述的分类
+[^43]: 社交媒体中消费者信念陈述的分类
 
     Classification of Consumer Belief Statements From Social Media. (arXiv:2106.15498v2 [cs.LG] UPDATED)
 
