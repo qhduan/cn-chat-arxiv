@@ -1,0 +1,11 @@
+{
+    "title": "Interest rate convexity in a Gaussian framework. (arXiv:2307.14218v1 [q-fin.PR])",
+    "abstract": "The contributions of this paper are twofold: we define and investigate the properties of a short rate model driven by a general Gaussian Volterra process and, after defining precisely a notion of convexity adjustment, derive explicit formulae for it.",
+    "link": "http://arxiv.org/abs/2307.14218",
+    "context": "Title: Interest rate convexity in a Gaussian framework. (arXiv:2307.14218v1 [q-fin.PR])\nAbstract: The contributions of this paper are twofold: we define and investigate the properties of a short rate model driven by a general Gaussian Volterra process and, after defining precisely a notion of convexity adjustment, derive explicit formulae for it.",
+    "path": "papers/23/07/2307.14218.json",
+    "total_tokens": 495,
+    "translated_title": "高斯框架下的利率凸性",
+    "translated_abstract": "本文的贡献有两个：我们定义并研究了由一般高斯Volterra过程驱动的短期利率模型的性质，并在准确定义凸性调整的基础上，推导了其显式的公式。",
+    "tldr": "本文研究了高斯框架下的利率凸性，提出了由高斯Volterra过程驱动的短期利率模型，并给出了凸性调整的显式公式。"
+}

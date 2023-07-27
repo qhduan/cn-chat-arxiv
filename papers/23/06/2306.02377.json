@@ -1,0 +1,11 @@
+{
+    "title": "\"Are you telling me to put glasses on the dog?'' Content-Grounded Annotation of Instruction Clarification Requests in the CoDraw Dataset. (arXiv:2306.02377v2 [cs.CL] UPDATED)",
+    "abstract": "Instruction Clarification Requests are a mechanism to solve communication problems, which is very functional in instruction-following interactions. Recent work has argued that the CoDraw dataset is a valuable source of naturally occurring iCRs. Beyond identifying when iCRs should be made, dialogue models should also be able to generate them with suitable form and content. In this work, we introduce CoDraw-iCR (v2), extending the existing iCR identifiers with fine-grained information grounded in the underlying dialogue game items and possible actions. Our annotation can serve to model and evaluate repair capabilities of dialogue agents.",
+    "link": "http://arxiv.org/abs/2306.02377",
+    "context": "Title: \"Are you telling me to put glasses on the dog?'' Content-Grounded Annotation of Instruction Clarification Requests in the CoDraw Dataset. (arXiv:2306.02377v2 [cs.CL] UPDATED)\nAbstract: Instruction Clarification Requests are a mechanism to solve communication problems, which is very functional in instruction-following interactions. Recent work has argued that the CoDraw dataset is a valuable source of naturally occurring iCRs. Beyond identifying when iCRs should be made, dialogue models should also be able to generate them with suitable form and content. In this work, we introduce CoDraw-iCR (v2), extending the existing iCR identifiers with fine-grained information grounded in the underlying dialogue game items and possible actions. Our annotation can serve to model and evaluate repair capabilities of dialogue agents.",
+    "path": "papers/23/06/2306.02377.json",
+    "total_tokens": 741,
+    "translated_title": "\"你是让我给狗戴眼镜吗？\" 在CoDraw数据集中注释指令澄清请求的内容基础",
+    "translated_abstract": "指令澄清请求是解决沟通问题的机制，在指令跟随互动中非常实用。最近的研究认为CoDraw数据集是一个有价值的自然发生iCR的来源。除了确定何时需要提出iCR外，对话模型还应该能够以合适的形式和内容生成它们。在这项工作中，我们介绍了CoDraw-iCR(v2)，通过与底层对话游戏项目和可能的动作相关的细粒度信息扩展了现有的iCR标识符。我们的注释可以用来建模和评估对话代理的修复能力。",
+    "tldr": "这项工作在CoDraw数据集中扩展了已有的指令澄清请求标识符，注释了与底层对话游戏项目和可能动作相关的细节信息，可以用于模拟和评估对话代理的修复能力"
+}

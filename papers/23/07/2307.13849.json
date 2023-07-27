@@ -1,0 +1,11 @@
+{
+    "title": "The Core of Bayesian Persuasion. (arXiv:2307.13849v1 [econ.TH])",
+    "abstract": "An analyst observes the frequency with which an agent takes actions, but not the frequency with which she takes actions conditional on a payoff relevant state. In this setting, we ask when the analyst can rationalize the agent's choices as the outcome of the agent learning something about the state before taking action. Our characterization marries the obedience approach in information design (Bergemann and Morris, 2016) and the belief approach in Bayesian persuasion (Kamenica and Gentzkow, 2011) relying on a theorem by Strassen (1965) and Hall's marriage theorem. We apply our results to ring-network games and to identify conditions under which a data set is consistent with a public information structure in first-order Bayesian persuasion games.",
+    "link": "http://arxiv.org/abs/2307.13849",
+    "context": "Title: The Core of Bayesian Persuasion. (arXiv:2307.13849v1 [econ.TH])\nAbstract: An analyst observes the frequency with which an agent takes actions, but not the frequency with which she takes actions conditional on a payoff relevant state. In this setting, we ask when the analyst can rationalize the agent's choices as the outcome of the agent learning something about the state before taking action. Our characterization marries the obedience approach in information design (Bergemann and Morris, 2016) and the belief approach in Bayesian persuasion (Kamenica and Gentzkow, 2011) relying on a theorem by Strassen (1965) and Hall's marriage theorem. We apply our results to ring-network games and to identify conditions under which a data set is consistent with a public information structure in first-order Bayesian persuasion games.",
+    "path": "papers/23/07/2307.13849.json",
+    "total_tokens": 833,
+    "translated_title": "Bayesian Persuasion的核心",
+    "translated_abstract": "分析员观察到一个代理人采取行动的频率，但并不观察到代理人在与收益相关的情况下采取行动的频率。在这种情况下，我们问分析员何时能够将代理人的选择合理化为代理人在采取行动之前学到了一些关于情况的信息。我们的刻画将信息设计中的顺从方法（Bergemann和Morris，2016）和Bayesian Persuasion中的信念方法（Kamenica和Gentzkow，2011）结合起来，依赖于Strassen（1965）的一个定理和Hall的婚姻定理。我们将结果应用于环形网络游戏，并确定一个数据集在一阶Bayesian Persuasion游戏中与公共信息结构一致的条件。",
+    "tldr": "该论文研究了在分析员无法观察代理人在特定收益条件下采取行动的情况下，分析员如何合理解释代理人选择的结果。通过综合信息设计中的顺从方法和Bayesian Persuasion中的信念方法，提出了一种解决方法，并应用于环形网络游戏和一阶Bayesian Persuasion游戏的公共信息结构一致性。"
+}

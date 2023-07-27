@@ -1,0 +1,12 @@
+{
+    "title": "Uniformity Testing over Hypergrids with Subcube Conditioning. (arXiv:2302.09013v2 [cs.DS] UPDATED)",
+    "abstract": "We give an algorithm for testing uniformity of distributions supported on hypergrids $[m_1] \\times \\cdots \\times [m_n]$, which makes $\\smash{\\widetilde{O}(\\text{poly}(m)\\sqrt{n}/\\epsilon^2)}$ many queries to a subcube conditional sampling oracle with $m=\\max_i m_i$. When $m$ is a constant, our algorithm is nearly optimal and strengthens the algorithm of [CCK+21] which has the same query complexity but works for hypercubes $\\{\\pm 1\\}^n$ only.  A key technical contribution behind the analysis of our algorithm is a proof of a robust version of Pisier's inequality for functions over hypergrids using Fourier analysis.",
+    "link": "http://arxiv.org/abs/2302.09013",
+    "context": "Title: Uniformity Testing over Hypergrids with Subcube Conditioning. (arXiv:2302.09013v2 [cs.DS] UPDATED)\nAbstract: We give an algorithm for testing uniformity of distributions supported on hypergrids $[m_1] \\times \\cdots \\times [m_n]$, which makes $\\smash{\\widetilde{O}(\\text{poly}(m)\\sqrt{n}/\\epsilon^2)}$ many queries to a subcube conditional sampling oracle with $m=\\max_i m_i$. When $m$ is a constant, our algorithm is nearly optimal and strengthens the algorithm of [CCK+21] which has the same query complexity but works for hypercubes $\\{\\pm 1\\}^n$ only.  A key technical contribution behind the analysis of our algorithm is a proof of a robust version of Pisier's inequality for functions over hypergrids using Fourier analysis.",
+    "path": "papers/23/02/2302.09013.json",
+    "total_tokens": 816,
+    "translated_title": "带有子立方体条件的超网格均匀性测试",
+    "translated_abstract": "我们提出了一种算法，用于测试支持在超网格$[m_1] \\times \\cdots \\times [m_n]$上的分布的均匀性，该算法对具有$m=\\max_i m_i$的子立方体条件抽样预言机进行$\\smash{\\widetilde{O}(\\text{poly}(m)\\sqrt{n}/\\epsilon^2)}$个查询。当$m$是一个常数时，我们的算法几乎是最优的，并且加强了[CCK+21]的算法，该算法具有相同的查询复杂度，但仅适用于超立方体$\\{\\pm 1\\}^n$。我们算法分析中的一个关键技术贡献是使用傅里叶分析证明了超网格上函数的 Pisier 不等式的鲁棒版本。",
+    "tldr": "本论文提出了一种用于测试超网格上分布均匀性的算法，该算法在具有子立方体条件抽样预言机的情况下，进行多次查询后可以获得高效的结果。通过使用傅里叶分析证明了超网格上函数的 Pisier 不等式的鲁棒版本。",
+    "en_tdlr": "This paper proposes an algorithm for testing the uniformity of distributions on hypergrids, which achieves efficient results with multiple queries using a subcube conditional sampling oracle. A robust version of Pisier's inequality for functions over hypergrids is proved using Fourier analysis."
+}

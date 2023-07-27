@@ -1,0 +1,12 @@
+{
+    "title": "Cliqueful graphs as a means of calculating the maximal number of maximum cliques of simple graphs. (arXiv:2307.14120v1 [math.CO])",
+    "abstract": "A simple graph on $n$ vertices may contain a lot of maximum cliques. But how many can it potentially contain? We will show that the maximum number of maximum cliques is taken over so-called cliqueful graphs, more specifically, later we will show that it is taken over saturated composite cliqueful graphs, if $n \\ge 15$. Using this we will show that the graph that contains $3^{\\lfloor n/3 \\rfloor}c$ maxcliques has the most number of maxcliques on $n$ vertices, where $c\\in\\{1,\\frac{4}{3},2\\}$, depending on $n \\text{ mod } 3$.",
+    "link": "http://arxiv.org/abs/2307.14120",
+    "context": "Title: Cliqueful graphs as a means of calculating the maximal number of maximum cliques of simple graphs. (arXiv:2307.14120v1 [math.CO])\nAbstract: A simple graph on $n$ vertices may contain a lot of maximum cliques. But how many can it potentially contain? We will show that the maximum number of maximum cliques is taken over so-called cliqueful graphs, more specifically, later we will show that it is taken over saturated composite cliqueful graphs, if $n \\ge 15$. Using this we will show that the graph that contains $3^{\\lfloor n/3 \\rfloor}c$ maxcliques has the most number of maxcliques on $n$ vertices, where $c\\in\\{1,\\frac{4}{3},2\\}$, depending on $n \\text{ mod } 3$.",
+    "path": "papers/23/07/2307.14120.json",
+    "total_tokens": 763,
+    "translated_title": "作为计算简单图的最大团的最大数量的手段的充满团图",
+    "translated_abstract": "一个简单图在n个顶点上可能包含许多最大团。但它可能包含多少个呢？我们将展示最大团的最大数量取决于所谓的充满团图，具体地说，如果n≥15，我们将展示它取决于饱和复合充满团图。利用这一点，我们将展示包含3^{⌊n/3⌋}c个最大团的图在n个顶点上具有最多的最大团数量，其中c∈{1,4/3,2}，取决于n模3的值。",
+    "tldr": "本论文研究了充满团图的概念，并且发现在简单图中，充满团图的最大数量取决于饱和复合充满团图。通过具体计算，我们得到了在n个顶点上具有最多最大团数量的图形式表达式。",
+    "en_tdlr": "This paper examines the concept of cliqueful graphs and discovers that the maximum number of maximum cliques in a simple graph depends on saturated composite cliqueful graphs. By calculating specifically, we obtain an explicit expression for the graph with the most number of maximum cliques on n vertices."
+}

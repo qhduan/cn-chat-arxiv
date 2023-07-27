@@ -1,0 +1,12 @@
+{
+    "title": "AI4GCC - Team: Below Sea Level: Critiques and Improvements. (arXiv:2307.13894v1 [cs.CY])",
+    "abstract": "We present a critical analysis of the simulation framework RICE-N, an integrated assessment model (IAM) for evaluating the impacts of climate change on the economy. We identify key issues with RICE-N, including action masking and irrelevant actions, and suggest improvements such as utilizing tariff revenue and penalizing overproduction. We also critically engage with features of IAMs in general, namely overly optimistic damage functions and unrealistic abatement cost functions. Our findings contribute to the ongoing efforts to further develop the RICE-N framework in an effort to improve the simulation, making it more useful as an inspiration for policymakers.",
+    "link": "http://arxiv.org/abs/2307.13894",
+    "context": "Title: AI4GCC - Team: Below Sea Level: Critiques and Improvements. (arXiv:2307.13894v1 [cs.CY])\nAbstract: We present a critical analysis of the simulation framework RICE-N, an integrated assessment model (IAM) for evaluating the impacts of climate change on the economy. We identify key issues with RICE-N, including action masking and irrelevant actions, and suggest improvements such as utilizing tariff revenue and penalizing overproduction. We also critically engage with features of IAMs in general, namely overly optimistic damage functions and unrealistic abatement cost functions. Our findings contribute to the ongoing efforts to further develop the RICE-N framework in an effort to improve the simulation, making it more useful as an inspiration for policymakers.",
+    "path": "papers/23/07/2307.13894.json",
+    "total_tokens": 773,
+    "translated_title": "AI4GCC - 团队: 低于海平面: 评论和改进",
+    "translated_abstract": "我们对模拟框架RICE-N进行了批判性分析，这是一个用于评估气候变化对经济影响的综合评估模型(IAM)。我们确定了RICE-N的关键问题，包括行动屏蔽和无关的行动，并提出了改进的建议，如利用关税收入和惩罚过量生产。我们还批判性地讨论了IAM的特征，即过于乐观的损失函数和不现实的减排成本函数。我们的研究结果有助于不断改进RICE-N框架，使其作为政策制定者的灵感更加有用。",
+    "tldr": "这项研究对气候变化评估模型RICE-N进行了批判性分析，发现了关键问题并提出了改进建议，同时也对综合评估模型的特征进行了讨论。研究结果有助于进一步发展RICE-N框架，为政策制定者提供参考。",
+    "en_tdlr": "This research provides a critical analysis of the RICE-N simulation framework for evaluating the impacts of climate change on the economy. Key issues are identified and improvements are suggested. The study also discusses features of integrated assessment models in general. The findings contribute to the ongoing development of the RICE-N framework, making it a more useful resource for policymakers."
+}

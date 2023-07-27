@@ -1,0 +1,11 @@
+{
+    "title": "Control and Monitoring of Artificial Intelligence Algorithms. (arXiv:2307.13705v1 [cs.LG])",
+    "abstract": "This paper elucidates the importance of governing an artificial intelligence model post-deployment and overseeing potential fluctuations in the distribution of present data in contrast to the training data. The concepts of data drift and concept drift are explicated, along with their respective foundational distributions. Furthermore, a range of metrics is introduced, which can be utilized to scrutinize the model's performance concerning potential temporal variations.",
+    "link": "http://arxiv.org/abs/2307.13705",
+    "context": "Title: Control and Monitoring of Artificial Intelligence Algorithms. (arXiv:2307.13705v1 [cs.LG])\nAbstract: This paper elucidates the importance of governing an artificial intelligence model post-deployment and overseeing potential fluctuations in the distribution of present data in contrast to the training data. The concepts of data drift and concept drift are explicated, along with their respective foundational distributions. Furthermore, a range of metrics is introduced, which can be utilized to scrutinize the model's performance concerning potential temporal variations.",
+    "path": "papers/23/07/2307.13705.json",
+    "total_tokens": 583,
+    "translated_title": "控制和监控人工智能算法",
+    "translated_abstract": "本文阐述了在部署后管理人工智能模型和监测当前数据分布与训练数据之间的潜在波动的重要性。详细解释了数据漂移和概念漂移的概念，以及它们各自的基本分布。此外，介绍了一系列可用于审查模型在潜在时间变化方面性能的指标。",
+    "tldr": "论文阐述了控制和监控人工智能算法的重要性，介绍了数据漂移和概念漂移的概念，并提出了一系列指标用于审查模型在潜在时间变化方面的性能。"
+}

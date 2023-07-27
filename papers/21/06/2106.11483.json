@@ -1,0 +1,12 @@
+{
+    "title": "A Comprehensive Comparison of Pre-training Language Models. (arXiv:2106.11483v9 [cs.CL] UPDATED)",
+    "abstract": "Recently, the development of pre-trained language models has brought natural language processing (NLP) tasks to the new state-of-the-art. In this paper we explore the efficiency of various pre-trained language models. We pre-train a list of transformer-based models with the same amount of text and the same training steps. The experimental results shows that the most improvement upon the origin BERT is adding the RNN-layer to capture more contextual information for short text understanding. But the conclusion is: There are no remarkable improvement for short text understanding for similar BERT structures. Data-centric method[12] can achieve better performance.",
+    "link": "http://arxiv.org/abs/2106.11483",
+    "context": "Title: A Comprehensive Comparison of Pre-training Language Models. (arXiv:2106.11483v9 [cs.CL] UPDATED)\nAbstract: Recently, the development of pre-trained language models has brought natural language processing (NLP) tasks to the new state-of-the-art. In this paper we explore the efficiency of various pre-trained language models. We pre-train a list of transformer-based models with the same amount of text and the same training steps. The experimental results shows that the most improvement upon the origin BERT is adding the RNN-layer to capture more contextual information for short text understanding. But the conclusion is: There are no remarkable improvement for short text understanding for similar BERT structures. Data-centric method[12] can achieve better performance.",
+    "path": "papers/21/06/2106.11483.json",
+    "total_tokens": 723,
+    "translated_title": "预训练语言模型的全面比较",
+    "translated_abstract": "最近，预训练语言模型的发展使得自然语言处理（NLP）任务达到了新的最先进水平。在本文中，我们探索了各种预训练语言模型的效率。我们使用相同数量的文本和相同的训练步骤来预训练一系列基于transformer的模型。实验结果表明，对于短文本理解，最大的改进是在原始BERT模型中添加RNN层以捕捉更多的语境信息。但是结论是：类似的BERT结构对于短文本理解没有明显的改进。数据中心方法[12]可以实现更好的性能。",
+    "tldr": "本文比较了各种预训练语言模型的效率，发现添加RNN层可以在短文本理解中获得最大的改进，但对于类似的BERT结构并没有明显的改进。数据中心方法能够实现更好的性能。",
+    "en_tdlr": "This paper compares the efficiency of various pre-trained language models and finds that adding an RNN layer achieves the greatest improvement in short text understanding, but there is no significant improvement for similar BERT structures. Data-centric methods achieve better performance."
+}

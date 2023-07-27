@@ -1,0 +1,12 @@
+{
+    "title": "Toward Design of Synthetic Active Inference Agents by Mere Mortals. (arXiv:2307.14145v1 [stat.ML])",
+    "abstract": "The theoretical properties of active inference agents are impressive, but how do we realize effective agents in working hardware and software on edge devices? This is an interesting problem because the computational load for policy exploration explodes exponentially, while the computational resources are very limited for edge devices. In this paper, we discuss the necessary features for a software toolbox that supports a competent non-expert engineer to develop working active inference agents. We introduce a toolbox-in-progress that aims to accelerate the democratization of active inference agents in a similar way as TensorFlow propelled applications of deep learning technology.",
+    "link": "http://arxiv.org/abs/2307.14145",
+    "context": "Title: Toward Design of Synthetic Active Inference Agents by Mere Mortals. (arXiv:2307.14145v1 [stat.ML])\nAbstract: The theoretical properties of active inference agents are impressive, but how do we realize effective agents in working hardware and software on edge devices? This is an interesting problem because the computational load for policy exploration explodes exponentially, while the computational resources are very limited for edge devices. In this paper, we discuss the necessary features for a software toolbox that supports a competent non-expert engineer to develop working active inference agents. We introduce a toolbox-in-progress that aims to accelerate the democratization of active inference agents in a similar way as TensorFlow propelled applications of deep learning technology.",
+    "path": "papers/23/07/2307.14145.json",
+    "total_tokens": 702,
+    "translated_title": "通过凡人设计合成主动推理代理",
+    "translated_abstract": "主动推理代理的理论特性是令人印象深刻的，但是我们如何在边缘设备上实现有效的硬件和软件代理呢？这是一个有趣的问题，因为策略探索的计算负荷呈指数级增长，而边缘设备的计算资源非常有限。在本文中，我们讨论了一个支持非专家工程师开发有效主动推理代理的软件工具箱所必需的特性。我们介绍了一个正在开发中的工具箱，旨在加速主动推理代理的民主化进程，就像TensorFlow推动了深度学习技术的应用一样。",
+    "tldr": "本文讨论了如何设计一个能够支持非专家工程师开发主动推理代理的软件工具箱，以实现在边缘设备上运行的有效代理。旨在加速主动推理代理的民主化进程。",
+    "en_tdlr": "This paper discusses how to design a software toolbox that supports non-expert engineers in developing active inference agents, to realize effective agents running on edge devices. It aims to accelerate the democratization of active inference agents."
+}

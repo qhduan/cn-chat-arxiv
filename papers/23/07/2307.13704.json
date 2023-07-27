@@ -1,0 +1,12 @@
+{
+    "title": "eXplainable Artificial Intelligence (XAI) in age prediction: A systematic review. (arXiv:2307.13704v1 [cs.AI])",
+    "abstract": "eXplainable Artificial Intelligence (XAI) is now an important and essential part of machine learning, allowing to explain the predictions of complex models. XAI is especially required in risky applications, particularly in health care, where human lives depend on the decisions of AI systems. One area of medical research is age prediction and identification of biomarkers of aging and age-related diseases. However, the role of XAI in the age prediction task has not previously been explored directly. In this review, we discuss the application of XAI approaches to age prediction tasks. We give a systematic review of the works organized by body systems, and discuss the benefits of XAI in medical applications and, in particular, in the age prediction domain.",
+    "link": "http://arxiv.org/abs/2307.13704",
+    "context": "Title: eXplainable Artificial Intelligence (XAI) in age prediction: A systematic review. (arXiv:2307.13704v1 [cs.AI])\nAbstract: eXplainable Artificial Intelligence (XAI) is now an important and essential part of machine learning, allowing to explain the predictions of complex models. XAI is especially required in risky applications, particularly in health care, where human lives depend on the decisions of AI systems. One area of medical research is age prediction and identification of biomarkers of aging and age-related diseases. However, the role of XAI in the age prediction task has not previously been explored directly. In this review, we discuss the application of XAI approaches to age prediction tasks. We give a systematic review of the works organized by body systems, and discuss the benefits of XAI in medical applications and, in particular, in the age prediction domain.",
+    "path": "papers/23/07/2307.13704.json",
+    "total_tokens": 808,
+    "translated_title": "可解释人工智能（XAI）在年龄预测中的应用：一项系统综述",
+    "translated_abstract": "可解释人工智能（XAI）现在是机器学习中的重要组成部分，能够解释复杂模型的预测结果。XAI特别适用于危险应用，特别是在医疗保健领域，人类的生命依赖于AI系统的决策。医疗研究的一个领域是年龄预测和衰老及与年龄相关疾病的生物标志物鉴定。然而，在年龄预测任务中，XAI的作用尚未直接探讨。在本综述中，我们讨论了XAI方法在年龄预测任务中的应用。我们通过器官系统进行了系统性综述，并讨论了XAI在医疗应用以及特别是年龄预测领域的益处。",
+    "tldr": "本综述探讨了可解释人工智能（XAI）在年龄预测任务中的应用。通过系统性综述，我们讨论了XAI方法在医疗应用和年龄预测领域的益处。",
+    "en_tdlr": "This review discusses the application of eXplainable Artificial Intelligence (XAI) in age prediction tasks. Through a systematic review, the benefits of XAI methods in medical applications and the age prediction domain are discussed."
+}

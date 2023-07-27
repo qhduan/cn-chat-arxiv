@@ -2,63 +2,135 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment.](http://arxiv.org/abs/2307.13686) | 本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。 |
-| [^2] | [Impact of Transportation Network Companies on Labor Supply and Wages for Taxi Drivers.](http://arxiv.org/abs/2307.13620) | 本研究通过分析纽约市2013年至2018年的出租车和TNC旅行记录数据，发现交通网络公司对出租车司机的工资和劳动供应产生负面影响，降低了他们的收入水平，并削弱了他们的工作意愿。 |
-| [^3] | [Large sample properties of GMM estimators under second-order identification.](http://arxiv.org/abs/2307.13475) | 本文提出了GMM估计器在二阶识别条件下的大样本性质，证明了估计器的收敛速率并给出了极限分布，但需要满足过识别条件。 |
-| [^4] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
-| [^5] | [Multilevel Large Language Models for Everyone.](http://arxiv.org/abs/2307.13221) | 本文提出了一个多层大型语言模型的设计，将通用的和特定的模型结合在一起，可以根据用户的个人输入和互联网信息相互改进。这种模型受到人类大脑功能的启发，具有全局、领域和用户级模型，可以在本地机器上运行以保护用户隐私。 |
-| [^6] | [Inference in Experiments with Matched Pairs and Imperfect Compliance.](http://arxiv.org/abs/2307.13094) | 本文研究了在不完全遵守的随机对照试验中，根据"匹配对"确定治疗状态的局部平均治疗效应的推断，并提出了一种对极限方差的一致估计器。 |
-| [^7] | [Synthetic Control Methods by Density Matching under Implicit Endogeneitiy.](http://arxiv.org/abs/2307.11127) | 本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。 |
-| [^8] | [Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?.](http://arxiv.org/abs/2306.10590) | 本文提出无假设检验方法，可否定分析师对基于双重机器学习估计的Wald置信区间在广泛的双重稳健函数类中的有效性的证明。 |
-| [^9] | [Pricing cyber-insurance for systems via maturity models.](http://arxiv.org/abs/2302.04734) | 本篇论文提出了一种使用安全成熟度模型的方法，以评估组织的安全水平并确定网络保险的适当保费。 |
-| [^10] | [An identification and testing strategy for proxy-SVARs with weak proxies.](http://arxiv.org/abs/2210.04523) | 本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。 |
-| [^11] | [Constrained Classification and Policy Learning.](http://arxiv.org/abs/2106.12886) | 研究了受限分类和策略学习中替代损失程序的一致性和适用性。 |
+| [^1] | [Causal Effects in Matching Mechanisms with Strategically Reported Preferences.](http://arxiv.org/abs/2307.14282) | 本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。 |
+| [^2] | [Socioeconomic agents as active matter in nonequilibrium Sakoda-Schelling models.](http://arxiv.org/abs/2307.14270) | 该研究通过考虑Sakoda-Schelling模型中的职业模型，揭示了社会经济代理人模型中的非平衡动力学，并在平均场近似下将其映射为主动物质描述。通过研究非互惠性互动，展示了非稳态的宏观行为。这一研究为地理相关的基于代理人的模型提供了统一的框架，有助于同时考虑人口和价格动态。 |
+| [^3] | [Dynamic Regression Discontinuity: A Within-Design Approach.](http://arxiv.org/abs/2307.14203) | 该论文提出了一种动态回归不连续性设计方法，用于确定经济可解释的时间间隔处理效应。研究采用了动态潜在结果模型，并特别对无预期和共同趋势限制进行了处理，以确定指定切点的冲击反应。估计量可以通过标准的局部多项式方法进行计算。 |
+| [^4] | [Power relations in Game Theory.](http://arxiv.org/abs/2307.14170) | 在博弈论中，我们通过将权力概念转化为玩家的效用组合来研究玩家之间的关系。通过将加权和乘积函数叠加到个体效用函数中，我们可以定义等级、互助和自由等全局指标，并测量它们对游戏均衡的影响。 |
+| [^5] | [Using Probabilistic Stated Preference Analyses to Understand Actual Choices.](http://arxiv.org/abs/2307.13966) | 使用概率陈述偏好分析方法，研究者可以使用实际选择纠正内源性影响，恢复因果效应。 |
+| [^6] | [The Core of Bayesian Persuasion.](http://arxiv.org/abs/2307.13849) | 该论文研究了在分析员无法观察代理人在特定收益条件下采取行动的情况下，分析员如何合理解释代理人选择的结果。通过综合信息设计中的顺从方法和Bayesian Persuasion中的信念方法，提出了一种解决方法，并应用于环形网络游戏和一阶Bayesian Persuasion游戏的公共信息结构一致性。 |
+| [^7] | [It's Not Always the Leader's Fault: How Informed Followers Can Undermine Efficient Leadership.](http://arxiv.org/abs/2307.13841) | 本文研究了跟随者的信息如何影响协调和高效领导。研究发现，当跟随者拥有不精确的信息时，效率可以实现；然而，当跟随者拥有准确的信息时，领导者可能无法协调他们，甚至可能采取低效行动。 |
+| [^8] | [Source Condition Double Robust Inference on Functionals of Inverse Problems.](http://arxiv.org/abs/2307.13793) | 本文提出了一种源条件双稳健推断方法，用于估计线性逆问题解的线性函数参数，无需知道哪个逆问题更良好，该方法能确保对感兴趣的参数的渐近正态性，并提供了对迭代Tikhonov正则化对抗估计器的新保证。 |
+| [^9] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
+| [^10] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
+| [^11] | [The Signaling Role of Leaders in Global Games.](http://arxiv.org/abs/2209.12426) | 这篇论文研究了领导者在全球博弈中的信号作用，通过研究完全信息的领导者和追随者团队面临的协调问题，提出了一个唯一的均衡策略，并讨论了对绿色技术采用、货币攻击和革命等现象的影响。 |
+| [^12] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
+| [^13] | [Nash equilibrium mapping vs Hamiltonian dynamics vs Darwinian evolution for some social dilemma games in the thermodynamic limit.](http://arxiv.org/abs/2103.00295) | 本文比较了达尔文进化论与Nash均衡映射这两种分析方法，以及数值代理模型和哈密顿动力学，发现在热力学极限下，达尔文进化论方法对于社交困境游戏的磁化率给出了错误的正面结果，而哈密顿动力学方法完全失败。 |
 
 # 详细
 
-[^1]: 美国就业短期受飓风影响的特征和预测建模
+[^1]: 匹配机制中的因果效应与策略性报告偏好
 
-    Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment. (arXiv:2307.13686v1 [econ.EM])
+    Causal Effects in Matching Mechanisms with Strategically Reported Preferences. (arXiv:2307.14282v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.13686](http://arxiv.org/abs/2307.13686)
+    [http://arxiv.org/abs/2307.14282](http://arxiv.org/abs/2307.14282)
 
-    本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。
-
-    
-
-    本研究研究了美国飓风影响后的短期就业变化。对1990年至2021年的飓风事件进行分析发现，初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失（> 30％）。整体上的小幅变动部分是不同就业部门之间的补偿结果，例如建筑业和休闲酒店业。就业损失在服务业中相对明显。风暴后就业冲击与风暴危害指标（如极端风和降水量）以及影响的地理空间细节（如风暴实体距离）呈负相关。此外，县级特征等非风暴因素也强烈影响短期就业变化。研究结果对短期就业变化的预测建模具有启示作用，特别是在服务业和高—
-
-    This study examines the short-term employment changes in the US after hurricane impacts. An analysis of hurricane events during 1990-2021 suggests that county-level employment changes in the initial month are small on average, though large employment losses (>30%) can occur after extreme storms. The overall small changes are partly a result of compensation among different employment sectors, such as the construction and leisure and hospitality sectors. Employment losses tend to be relatively pronounced in the service-providing industries. The post-storm employment shock is negatively correlated with the metrics of storm hazards (e.g., extreme wind and precipitation) and geospatial details of impacts (e.g., storm-entity distance). Additionally, non-storm factors such as county characteristics also strongly affect short-term employment changes. The findings inform predictive modeling of short-term employment changes, which shows promising skills for service-providing industries and high-
-    
-[^2]: 交通网络公司对出租车司机的劳动供应和工资影响的研究
-
-    Impact of Transportation Network Companies on Labor Supply and Wages for Taxi Drivers. (arXiv:2307.13620v1 [stat.AP])
-
-    [http://arxiv.org/abs/2307.13620](http://arxiv.org/abs/2307.13620)
-
-    本研究通过分析纽约市2013年至2018年的出租车和TNC旅行记录数据，发现交通网络公司对出租车司机的工资和劳动供应产生负面影响，降低了他们的收入水平，并削弱了他们的工作意愿。
+    本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。
 
     
 
-    尽管交通网络公司（TNCs）的增长大幅减少了传统出租车行业的客流和资产价值，但现有的出租车市场政策法规和规划模型仍需要重新审视，这需要对出租车行业劳动供应和收入水平的敏感性进行可靠估计。本研究旨在调查交通网络公司对出租车行业劳动供应的影响，估计工资弹性，并了解出租车司机工作偏好的变化。我们引入工资分解方法，根据纽约市2013年至2018年的出租车和TNC旅行记录数据，量化TNC旅行对出租车司机工作时间的影响。通过统计分析对数据进行分析，以评估整体市场表现和出租车司机工作行为的变化，我们的研究结果表明，TNC旅行的增加不仅降低了出租车司机的收入水平，还削弱了他们工作的意愿。
+    越来越多的中央机构使用分配机制将学生分配到学校，以反映学生的偏好和学校的优先权。然而，大多数现实世界的机制会给学生提供一种策略性并误报他们的偏好的激励。在本文中，我们提供了一种识别因果效应的方法，该方法考虑了策略性的误报。误报可能使现有的点识别方法无效，我们推导出对策略行为鲁棒的因果效应的尖锐边界。我们的方法适用于任何机制，只要存在描述该机制分配规则的配对分数和截点。我们使用智利一个延迟接受机制的数据，该机制将学生分配到1000多个大学专业组合。学生出于策略考虑而行动，因为智利的机制限制了学生在偏好中提交的专业数量为八个。
 
-    While the growth of TNCs took a substantial part of ridership and asset value away from the traditional taxi industry, existing taxi market policy regulations and planning models remain to be reexamined, which requires reliable estimates of the sensitivity of labor supply and income levels in the taxi industry. This study aims to investigate the impact of TNCs on the labor supply of the taxi industry, estimate wage elasticity, and understand the changes in taxi drivers' work preferences. We introduce the wage decomposition method to quantify the effects of TNC trips on taxi drivers' work hours over time, based on taxi and TNC trip record data from 2013 to 2018 in New York City. The data are analyzed to evaluate the changes in overall market performances and taxi drivers' work behavior through statistical analyses, and our results show that the increase in TNC trips not only decreases the income level of taxi drivers but also discourages their willingness to work. We find that 1% increa
+    A growing number of central authorities use assignment mechanisms to allocate students to schools in a way that reflects student preferences and school priorities. However, most real-world mechanisms give students an incentive to be strategic and misreport their preferences. In this paper, we provide an identification approach for causal effects of school assignment on future outcomes that accounts for strategic misreporting. Misreporting may invalidate existing point-identification approaches, and we derive sharp bounds for causal effects that are robust to strategic behavior. Our approach applies to any mechanism as long as there exist placement scores and cutoffs that characterize that mechanism's allocation rule. We use data from a deferred acceptance mechanism that assigns students to more than 1,000 university-major combinations in Chile. Students behave strategically because the mechanism in Chile constrains the number of majors that students submit in their preferences to eight
     
-[^3]: GMM估计器在二阶识别下的大样本性质
+[^2]: 非平衡的Sakoda-Schelling模型中的社会经济代理人作为主动物质
 
-    Large sample properties of GMM estimators under second-order identification. (arXiv:2307.13475v1 [econ.EM])
+    Socioeconomic agents as active matter in nonequilibrium Sakoda-Schelling models. (arXiv:2307.14270v1 [cond-mat.stat-mech])
 
-    [http://arxiv.org/abs/2307.13475](http://arxiv.org/abs/2307.13475)
+    [http://arxiv.org/abs/2307.14270](http://arxiv.org/abs/2307.14270)
 
-    本文提出了GMM估计器在二阶识别条件下的大样本性质，证明了估计器的收敛速率并给出了极限分布，但需要满足过识别条件。
+    该研究通过考虑Sakoda-Schelling模型中的职业模型，揭示了社会经济代理人模型中的非平衡动力学，并在平均场近似下将其映射为主动物质描述。通过研究非互惠性互动，展示了非稳态的宏观行为。这一研究为地理相关的基于代理人的模型提供了统一的框架，有助于同时考虑人口和价格动态。
 
     
 
-    本文翻译了Dovonon和Hall（2018）在全局识别参数向量{\phi}的p维情形中，当一阶识别条件失败但二阶识别条件成立时提出了GMM估计器的极限分布理论。他们假设一阶不识别是由于在真实值{\phi}_{0}处预期的Jacobian矩阵的秩为p-1，即存在秩缺失的情况。通过对模型重新参数化，使得Jacobian矩阵的最后一列为零，他们证明了前p-1个参数的GMM估计收敛速率为T^{-1/2}，剩下的参数{\phi}_{p}的GMM估计收敛速率为T^{-1/4}。他们还给出了T^{1/4}({\phi}_{p}-{\phi}_{0,p})的极限分布，但需要满足一个（不透明）条件，他们声称这个条件通常并不具限制性。然而，正如我们在本文中所展示的，他们的条件实际上只有在{\phi}过识别的情况下才满足。
+    代理人的决策规则对于社会经济代理人模型有多么稳健？我们通过考虑一种类似Sakoda-Schelling模型的职业模型来解决这个问题，该模型在历史上被引入以揭示人类群体之间的隔离动力学。对于大类的效用函数和决策规则，我们确定了代理人动力学的非平衡性，同时恢复了类似平衡相分离的现象学。在平均场近似下，我们展示了该模型在一定程度上可以被映射为主动物质场描述（Active Model B）。最后，我们考虑了两个人群之间的非互惠性互动，并展示了它们如何导致非稳态的宏观行为。我们相信我们的方法提供了一个统一的框架，进一步研究地理相关的基于代理人的模型，尤其是在场论方法中同时考虑人口和价格动态的研究。
 
-    Dovonon and Hall (Journal of Econometrics, 2018) proposed a limiting distribution theory for GMM estimators for a p - dimensional globally identified parameter vector {\phi} when local identification conditions fail at first-order but hold at second-order. They assumed that the first-order underidentification is due to the expected Jacobian having rank p-1 at the true value {\phi}_{0}, i.e., having a rank deficiency of one. After reparametrizing the model such that the last column of the Jacobian vanishes, they showed that the GMM estimator of the first p-1 parameters converges at rate T^{-1/2} and the GMM estimator of the remaining parameter, {\phi}_{p}, converges at rate T^{-1/4}. They also provided a limiting distribution of T^{1/4}({\phi}_{p}-{\phi}_{0,p}) subject to a (non-transparent) condition which they claimed to be not restrictive in general. However, as we show in this paper, their condition is in fact only satisfied when {\phi} is overidentified and the limiting distributio
+    How robust are socioeconomic agent-based models with respect to the details of the agents' decision rule? We tackle this question by considering an occupation model in the spirit of the Sakoda-Schelling model, historically introduced to shed light on segregation dynamics among human groups. For a large class of utility functions and decision rules, we pinpoint the nonequilibrium nature of the agent dynamics, while recovering the equilibrium-like phase separation phenomenology. Within the mean field approximation we show how the model can be mapped, to some extent, onto an active matter field description (Active Model B). Finally, we consider non-reciprocal interactions between two populations, and show how they can lead to non-steady macroscopic behavior. We believe our approach provides a unifying framework to further study geography-dependent agent-based models, notably paving the way for joint consideration of population and price dynamics within a field theoretic approach.
     
-[^4]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
+[^3]: 动态回归不连续性：一种内部设计方法。
+
+    Dynamic Regression Discontinuity: A Within-Design Approach. (arXiv:2307.14203v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.14203](http://arxiv.org/abs/2307.14203)
+
+    该论文提出了一种动态回归不连续性设计方法，用于确定经济可解释的时间间隔处理效应。研究采用了动态潜在结果模型，并特别对无预期和共同趋势限制进行了处理，以确定指定切点的冲击反应。估计量可以通过标准的局部多项式方法进行计算。
+
+    
+
+    我提出了一种新颖的论证方法，用来在动态回归不连续性设计中确定经济可解释的时间间隔处理效应。具体而言，我发展了一个动态潜在结果模型，并特地对差异-in-differences文献中的两个假设进行了专门化处理，即无预期和共同趋势限制，以确定指定切点的冲击反应。与每个目标参数相关的估计量可以表示为两个静态回归不连续性设计结果对比的和，从而可以通过标准的局部多项式工具进行估计。我利用有限路径独立性假设来降低问题的维度。
+
+    I propose a novel argument to point identify economically interpretable intertemporal treatment effects in dynamic regression discontinuity designs (RDDs). Specifically, I develop a dynamic potential outcomes model and specialize two assumptions of the difference-in-differences literature, the no anticipation and common trends restrictions, to point identify cutoff-specific impulse responses. The estimand associated with each target parameter can be expressed as the sum of two static RDD outcome contrasts, thereby allowing for estimation via standard local polynomial tools. I leverage a limited path independence assumption to reduce the dimensionality of the problem.
+    
+[^4]: 博弈论中的权力关系
+
+    Power relations in Game Theory. (arXiv:2307.14170v1 [econ.TH])
+
+    [http://arxiv.org/abs/2307.14170](http://arxiv.org/abs/2307.14170)
+
+    在博弈论中，我们通过将权力概念转化为玩家的效用组合来研究玩家之间的关系。通过将加权和乘积函数叠加到个体效用函数中，我们可以定义等级、互助和自由等全局指标，并测量它们对游戏均衡的影响。
+
+    
+
+    玩家之间的权力概念可以通过它们的效用组合来表达。服从另一个玩家的玩家会考虑到支配者的效用。技术上，这是将一些加权和乘积函数叠加到个体效用函数上，其中权重可以通过反映玩家间权力关系的有向图来表示。然后可以定义一些系统的全局指标，如等级、互助和自由水平，并测量它们对游戏均衡的影响。
+
+    The concept of power among players can be expressed as a combination of their utilities. A player who obeys another takes into account the utility of the dominant one. Technically it is a matter of superimposing some weighted sum or product function onto the individual utility function, where the weights can be represented through directed graphs that reflect a situation of power among the players. It is then possible to define some global indices of the system, such as the level of hierarchy, mutualism and freedom, and measure their effects on game equilibria.
+    
+[^5]: 使用概率陈述偏好分析理解实际选择
+
+    Using Probabilistic Stated Preference Analyses to Understand Actual Choices. (arXiv:2307.13966v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.13966](http://arxiv.org/abs/2307.13966)
+
+    使用概率陈述偏好分析方法，研究者可以使用实际选择纠正内源性影响，恢复因果效应。
+
+    
+
+    "经由将概率陈述选择运用于理解实际选择，本研究提出了一种新方法。该方法适用于那些既能获取假设情景下的陈述选择，又能获取实际选择的研究者。其核心思想是使用概率陈述选择来识别个体未观测异质性的分布，即使存在测量误差。如果这种未观测异质性是内源性的源头，研究者可以通过实际选择纠正其影响，并恢复因果效应。使用现成的群组固定效应估计器可以进行估计。"
+
+    Can stated preferences help in counterfactual analyses of actual choice? This research proposes a novel approach to researchers who have access to both stated choices in hypothetical scenarios and actual choices. The key idea is to use probabilistic stated choices to identify the distribution of individual unobserved heterogeneity, even in the presence of measurement error. If this unobserved heterogeneity is the source of endogeneity, the researcher can correct for its influence in a demand function estimation using actual choices, and recover causal effects. Estimation is possible with an off-the-shelf Group Fixed Effects estimator.
+    
+[^6]: Bayesian Persuasion的核心
+
+    The Core of Bayesian Persuasion. (arXiv:2307.13849v1 [econ.TH])
+
+    [http://arxiv.org/abs/2307.13849](http://arxiv.org/abs/2307.13849)
+
+    该论文研究了在分析员无法观察代理人在特定收益条件下采取行动的情况下，分析员如何合理解释代理人选择的结果。通过综合信息设计中的顺从方法和Bayesian Persuasion中的信念方法，提出了一种解决方法，并应用于环形网络游戏和一阶Bayesian Persuasion游戏的公共信息结构一致性。
+
+    
+
+    分析员观察到一个代理人采取行动的频率，但并不观察到代理人在与收益相关的情况下采取行动的频率。在这种情况下，我们问分析员何时能够将代理人的选择合理化为代理人在采取行动之前学到了一些关于情况的信息。我们的刻画将信息设计中的顺从方法（Bergemann和Morris，2016）和Bayesian Persuasion中的信念方法（Kamenica和Gentzkow，2011）结合起来，依赖于Strassen（1965）的一个定理和Hall的婚姻定理。我们将结果应用于环形网络游戏，并确定一个数据集在一阶Bayesian Persuasion游戏中与公共信息结构一致的条件。
+
+    An analyst observes the frequency with which an agent takes actions, but not the frequency with which she takes actions conditional on a payoff relevant state. In this setting, we ask when the analyst can rationalize the agent's choices as the outcome of the agent learning something about the state before taking action. Our characterization marries the obedience approach in information design (Bergemann and Morris, 2016) and the belief approach in Bayesian persuasion (Kamenica and Gentzkow, 2011) relying on a theorem by Strassen (1965) and Hall's marriage theorem. We apply our results to ring-network games and to identify conditions under which a data set is consistent with a public information structure in first-order Bayesian persuasion games.
+    
+[^7]: 不总是领导的错：知情跟随者如何破坏高效领导
+
+    It's Not Always the Leader's Fault: How Informed Followers Can Undermine Efficient Leadership. (arXiv:2307.13841v1 [econ.TH])
+
+    [http://arxiv.org/abs/2307.13841](http://arxiv.org/abs/2307.13841)
+
+    本文研究了跟随者的信息如何影响协调和高效领导。研究发现，当跟随者拥有不精确的信息时，效率可以实现；然而，当跟随者拥有准确的信息时，领导者可能无法协调他们，甚至可能采取低效行动。
+
+    
+
+    协调促进和高效决策是成功领导的两个基本组成部分。本文采用信息方法研究了跟随者的信息如何影响协调和高效领导，在一个包含领导者和跟随者的模型中进行调查。我们发现，在跟随者拥有足够不精确的信息时，效率可以作为一种合理的结果实现。相反，如果跟随者有准确的信息，领导者可能无法将他们协调到期望的结果，甚至可能采取低效的行动。我们讨论了结果对金融脆弱性和危机背景下领导者角色的影响。
+
+    Coordination facilitation and efficient decision-making are two essential components of successful leadership. In this paper, we take an informational approach and investigate how followers' information impacts coordination and efficient leadership in a model featuring a leader and a team of followers. We show that efficiency is achieved as the unique rationalizable outcome of the game when followers possess sufficiently imprecise information. In contrast, if followers have accurate information, the leader may fail to coordinate them toward the desired outcome or even take an inefficient action herself. We discuss the implications of the results for the role of leaders in the context of financial fragility and crises.
+    
+[^8]: 逆问题函数的源条件双稳健推断
+
+    Source Condition Double Robust Inference on Functionals of Inverse Problems. (arXiv:2307.13793v1 [stat.ME])
+
+    [http://arxiv.org/abs/2307.13793](http://arxiv.org/abs/2307.13793)
+
+    本文提出了一种源条件双稳健推断方法，用于估计线性逆问题解的线性函数参数，无需知道哪个逆问题更良好，该方法能确保对感兴趣的参数的渐近正态性，并提供了对迭代Tikhonov正则化对抗估计器的新保证。
+
+    
+
+    本文考虑了线性逆问题解的线性函数参数的估计。任何这样的参数都有一个双稳健表示，该表示依赖于对偶线性逆问题的解，其中对偶解可以被视为逆倾向函数的推广。我们提供了第一个源条件双稳健推断方法，只要原始或对偶逆问题足够良好，无需知道哪个逆问题更良好，就能确保对感兴趣的参数的渐近正态性。我们的结果是通过对线性逆问题的迭代Tikhonov正则化对抗估计器在一般假设空间上的新的保证而实现的，这是一个独立发展的利益。
+
+    We consider estimation of parameters defined as linear functionals of solutions to linear inverse problems. Any such parameter admits a doubly robust representation that depends on the solution to a dual linear inverse problem, where the dual solution can be thought as a generalization of the inverse propensity function. We provide the first source condition double robust inference method that ensures asymptotic normality around the parameter of interest as long as either the primal or the dual inverse problem is sufficiently well-posed, without knowledge of which inverse problem is the more well-posed one. Our result is enabled by novel guarantees for iterated Tikhonov regularized adversarial estimators for linear inverse problems, over general hypothesis spaces, which are developments of independent interest.
+    
+[^9]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
 
     Tuning-free testing of factor regression against factor-augmented sparse alternatives. (arXiv:2307.13364v1 [econ.EM])
 
@@ -72,102 +144,60 @@
 
     This study introduces a bootstrap test of the validity of factor regression within a high-dimensional factor-augmented sparse regression model that integrates factor and sparse regression techniques. The test provides a means to assess the suitability of the classical (dense) factor regression model compared to alternative (sparse plus dense) factor-augmented sparse regression models. Our proposed test does not require tuning parameters, eliminates the need to estimate covariance matrices, and offers simplicity in implementation. The validity of the test is theoretically established under time-series dependence. Through simulation experiments, we demonstrate the favorable finite sample performance of our procedure. Moreover, using the FRED-MD dataset, we apply the test and reject the adequacy of the classical factor regression model when the dependent variable is inflation but not when it is industrial production. These findings offer insights into selecting appropriate models for high
     
-[^5]: 为所有人设计的多层大型语言模型
+[^10]: 解析协调问题
 
-    Multilevel Large Language Models for Everyone. (arXiv:2307.13221v1 [cs.CV])
+    Unraveling Coordination Problems. (arXiv:2307.08557v1 [econ.TH])
 
-    [http://arxiv.org/abs/2307.13221](http://arxiv.org/abs/2307.13221)
+    [http://arxiv.org/abs/2307.08557](http://arxiv.org/abs/2307.08557)
 
-    本文提出了一个多层大型语言模型的设计，将通用的和特定的模型结合在一起，可以根据用户的个人输入和互联网信息相互改进。这种模型受到人类大脑功能的启发，具有全局、领域和用户级模型，可以在本地机器上运行以保护用户隐私。
-
-    
-
-    在过去几年中，大型语言模型取得了显著的进展。然而，它们要么是通用的，要么是领域特定的，将社区划分为不同的群体。在本文中，我们将这些大型语言模型统一到一个更大的地图中，将通用的和特定的模型连接在一起，并根据用户的个人输入和来自互联网的信息相互改进。将多个大型语言模型链接在一起的思想受到了人类大脑功能的启发。大脑皮层上的特定区域对于某些低层次功能是特定的。而这些区域可以共同工作，实现更复杂的高层功能。人类大脑皮层上的这种行为为设计包含全局、领域和用户级模型的多层大型语言模型提供了新思路。用户级模型在本地机器上运行，以实现高效的响应并保护用户的隐私。这样的多层模型可以减少计算资源的消耗。
-
-    Large language models have made significant progress in the past few years. However, they are either generic {\it or} field specific, splitting the community into different groups. In this paper, we unify these large language models into a larger map, where the generic {\it and} specific models are linked together and can improve each other, based on the user personal input and information from the internet. The idea of linking several large language models together is inspired by the functionality of human brain. The specific regions on the brain cortex are specific for certain low level functionality. And these regions can jointly work together to achieve more complex high level functionality. Such behavior on human brain cortex sheds the light to design the multilevel large language models that contain global level, field level and user level models. The user level models run on local machines to achieve efficient response and protect the user's privacy. Such multilevel models reduc
-    
-[^6]: 匹配对和不完全遵守下的实验推断
-
-    Inference in Experiments with Matched Pairs and Imperfect Compliance. (arXiv:2307.13094v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.13094](http://arxiv.org/abs/2307.13094)
-
-    本文研究了在不完全遵守的随机对照试验中，根据"匹配对"确定治疗状态的局部平均治疗效应的推断，并提出了一种对极限方差的一致估计器。
+    本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。
 
     
 
-    本文研究了在不完全遵守的随机对照试验中，根据“匹配对”确定治疗状态的局部平均治疗效应的推断。通过“匹配对”，我们指的是从感兴趣的总体中独立和随机抽取单位，根据观察到的基线协变量进行配对，然后在每个对中，随机选择一个单位进行治疗。在对匹配质量进行的弱假设下，我们首先推导了传统的Wald（即二阶最小二乘）估计器的局部平均治疗效应的极限行为。我们进一步显示，传统的异方差性稳健估计器的极限方差通常是保守的，即其可能性极限比极限方差（通常严格地）大。因此，我们提供了一种对所需数量一致的极限方差的替代估计器。最后，我们考虑了额外观察到的基线协变量的使用。
+    本文研究协调问题中的政策设计。在协调博弈中，补贴提高了玩家i选择补贴行动的动机。这进一步提高了j选择相同行动的动机，进而激励i，依此类推。基于这种“解谜效应”，我们对实施给定博弈结果的补贴进行了表征，将其唯一均衡。在其他属性中，我们确定了以下特点：（i）对于相同的参与者是对称的；（ii）在模型参数上全局连续；（iii）与机会成本正相关；（iv）与溢出效应负相关。该模型的应用包括联合投资问题、参与决策和委托代理合同。
 
-    This paper studies inference for the local average treatment effect in randomized controlled trials with imperfect compliance where treatment status is determined according to "matched pairs." By "matched pairs," we mean that units are sampled i.i.d. from the population of interest, paired according to observed, baseline covariates and finally, within each pair, one unit is selected at random for treatment. Under weak assumptions governing the quality of the pairings, we first derive the limiting behavior of the usual Wald (i.e., two-stage least squares) estimator of the local average treatment effect. We show further that the conventional heteroskedasticity-robust estimator of its limiting variance is generally conservative in that its limit in probability is (typically strictly) larger than the limiting variance. We therefore provide an alternative estimator of the limiting variance that is consistent for the desired quantity. Finally, we consider the use of additional observed, base
+    This paper studies policy design in coordination problems. In coordination games, a subsidy raises player $i$'s incentive to play the subsidized action. This raises $j$'s incentive to play the same action, which further incentivizes $i$, and so on. Building upon this ``unraveling effect'', we characterize the subsidies that implement a given outcome of the game as its unique equilibrium. Among other properties, we establish that subsidies are: (i) symmetric for identical players; (ii) globally continuous in model parameters; (iii) increasing in opportunity costs; and (iv) decreasing in spillovers. Applications of the model include joint investment problems, participation decisions, and principal-agent contracting.
     
-[^7]: 通过密度匹配实现的合成对照方法下的隐式内生性问题
+[^11]: 领导者在全球博弈中的信号作用研究
 
-    Synthetic Control Methods by Density Matching under Implicit Endogeneitiy. (arXiv:2307.11127v1 [econ.EM])
+    The Signaling Role of Leaders in Global Games. (arXiv:2209.12426v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2307.11127](http://arxiv.org/abs/2307.11127)
+    [http://arxiv.org/abs/2209.12426](http://arxiv.org/abs/2209.12426)
 
-    本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。
-
-    
-
-    合成对照方法（SCMs）已成为比较案例研究中因果推断的重要工具。SCMs的基本思想是通过使用来自未处理单元的观测结果的加权和来估计经过处理单元的反事实结果。合成对照（SC）的准确性对于估计因果效应至关重要，因此，SC权重的估计成为了研究的焦点。在本文中，我们首先指出现有的SCMs存在一个隐式内生性问题，即未处理单元的结果与反事实结果模型中的误差项之间的相关性。我们展示了这个问题会对因果效应估计器产生偏差。然后，我们提出了一种基于密度匹配的新型SCM，假设经过处理单元的结果密度可以用未处理单元的密度的加权平均来近似（即混合模型）。基于这一假设，我们通过匹配来估计SC权重。
-
-    Synthetic control methods (SCMs) have become a crucial tool for causal inference in comparative case studies. The fundamental idea of SCMs is to estimate counterfactual outcomes for a treated unit by using a weighted sum of observed outcomes from untreated units. The accuracy of the synthetic control (SC) is critical for estimating the causal effect, and hence, the estimation of SC weights has been the focus of much research. In this paper, we first point out that existing SCMs suffer from an implicit endogeneity problem, which is the correlation between the outcomes of untreated units and the error term in the model of a counterfactual outcome. We show that this problem yields a bias in the causal effect estimator. We then propose a novel SCM based on density matching, assuming that the density of outcomes of the treated unit can be approximated by a weighted average of the densities of untreated units (i.e., a mixture model). Based on this assumption, we estimate SC weights by matchi
-    
-[^8]: 我们能否在不做任何假设的情况下，证伪Wald置信区间在双重稳健函数下的有效性？
-
-    Can we falsify the justification of the validity of Wald confidence intervals of doubly robust functionals, without assumptions?. (arXiv:2306.10590v1 [stat.ME])
-
-    [http://arxiv.org/abs/2306.10590](http://arxiv.org/abs/2306.10590)
-
-    本文提出无假设检验方法，可否定分析师对基于双重机器学习估计的Wald置信区间在广泛的双重稳健函数类中的有效性的证明。
+    这篇论文研究了领导者在全球博弈中的信号作用，通过研究完全信息的领导者和追随者团队面临的协调问题，提出了一个唯一的均衡策略，并讨论了对绿色技术采用、货币攻击和革命等现象的影响。
 
     
 
-    本文提出了一种可行的版本的无假设检验方法，可否定分析师对报道的以双重机器学习(DML)估计量为中心的名义$(1-\alpha)$Wald置信区间的有效性的证明，对Rotnitzky等人所研究的双重稳健(DR)函数类的任何成员进行检验。DR函数类在经济学和生物统计学中具有广泛和核心的重要性。它严格包括两个类别，即(i)可以被写成条件期望的仿射函数期望的均方连续函数的类别，这是由Chernozhukov等人研究的，以及Robins等人所研究的类别。目前DR函数的最先进的估计值是DML估计值。$\hat{\psi}_{1}$的偏差取决于两个辅助函数$b$和$p$的估计率的乘积。最常见的是，分析师证明了
+    这篇论文中，我们研究了领导者在全球博弈框架中的信号作用。通过研究完全信息的领导者和追随者团队面临的协调问题，我们给出了一个必要且充分的条件，使得单调均衡策略能够唯一地达到$\Delta$-合理化，并且保证均衡的唯一性。此外，这个唯一的均衡是完全高效的。当领导者观察到一个噪音信号而不是真实状态时，这个结果仍然成立，但可能无法达到完全的效率。我们讨论了这些结果对广泛的现象，如绿色技术的采用、货币攻击和革命等的影响。
 
-    In this article we develop a feasible version of the assumption-lean tests in Liu et al. 20 that can falsify an analyst's justification for the validity of a reported nominal $(1 - \alpha)$ Wald confidence interval (CI) centered at a double machine learning (DML) estimator for any member of the class of doubly robust (DR) functionals studied by Rotnitzky et al. 21. The class of DR functionals is broad and of central importance in economics and biostatistics. It strictly includes both (i) the class of mean-square continuous functionals that can be written as an expectation of an affine functional of a conditional expectation studied by Chernozhukov et al. 22 and the class of functionals studied by Robins et al. 08. The present state-of-the-art estimators for DR functionals $\psi$ are DML estimators $\hat{\psi}_{1}$. The bias of $\hat{\psi}_{1}$ depends on the product of the rates at which two nuisance functions $b$ and $p$ are estimated. Most commonly an analyst justifies the validity o
+    How important are leaders' actions in facilitating coordination? In this paper, we investigate their signaling role in a global games framework. A perfectly informed leader and a team of followers face a coordination problem. Despite the endogenous information generated by the leader's action, we provide a necessary and sufficient condition that makes the monotone equilibrium strategy profile uniquely $\Delta$-rationalizable and hence guarantees equilibrium uniqueness. Moreover, the unique equilibrium is fully efficient. This result remains valid when the leader observes a noisy signal about the true state except full efficiency may not be obtained. We discuss the implications of our results for a broad class of phenomena such as adoption of green technology, currency attacks and revolutions.
     
-[^9]: 基于成熟度模型的信息系统网络保险定价
+[^12]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
 
-    Pricing cyber-insurance for systems via maturity models. (arXiv:2302.04734v2 [econ.GN] UPDATED)
+    More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2302.04734](http://arxiv.org/abs/2302.04734)
+    [http://arxiv.org/abs/2103.06437](http://arxiv.org/abs/2103.06437)
 
-    本篇论文提出了一种使用安全成熟度模型的方法，以评估组织的安全水平并确定网络保险的适当保费。
-
-    
-
-    对于与信息技术系统相关的风险进行保险定价提出了一个综合的建议，结合运营管理、安全和经济学，提出了一个社会经济模型。该模型包括实体关系图、安全成熟度模型和经济模型，解决了一个长期以来的研究难题，即如何在设计和定价网络保险政策时捕捉组织结构。文中提出了一个新的挑战，即网络保险的数据历史有限，不能直接应用于其它险种，因此提出一个安全成熟度模型，以评估组织的安全水平并确定相应的保险费用。
-
-    Pricing insurance for risks associated with information technology systems presents a complex modelling challenge, combining the disciplines of operations management, security, and economics. This work proposes a socioeconomic model for cyber-insurance decisions compromised of entity relationship diagrams, security maturity models, and economic models, addressing a long-standing research challenge of capturing organizational structure in the design and pricing of cyber-insurance policies. Insurance pricing is usually informed by the long experience insurance companies have of the magnitude and frequency of losses that arise in organizations based on their size, industry sector, and location. Consequently, their calculations of premia will start from a baseline determined by these considerations. A unique challenge of cyber-insurance is that data history is limited and not necessarily informative of future loss risk meaning that established actuarial methodology for other lines of insur
-    
-[^10]: 一种针对具有弱代理的代理-SVARs的识别和测试策略
-
-    An identification and testing strategy for proxy-SVARs with weak proxies. (arXiv:2210.04523v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2210.04523](http://arxiv.org/abs/2210.04523)
-
-    本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。
+    本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
 
     
 
-    当用于识别目标结构冲击的代理（外部工具）较弱时，代理-SVARs（SVAR-IVs）中的推断是非标准的，并且为了构建感兴趣冲击响应的渐近有效置信区间，需要使用弱工具鲁棒方法。在存在多个目标冲击的情况下，测试反演技术需要对代理-SVAR参数施加额外的限制，这些限制可能难以解释和测试。我们展示了在这些情况下可以通过最小距离估计和标准渐近方法进行频率学派渐近推断，前提是可以使用“强”工具对非目标冲击（即分析中不感兴趣的冲击）进行代理-SVAR的识别。建议的识别策略依赖于一种基于自助重采样的零仪器相关性预检验，该预检验不受预检验问题的影响，从而保证了其有效性。
+    我们证明，面板Bartik回归可以确定位置和时间特定的治疗效应的非凸组合。因此，在存在异质效应的情况下，这些回归可能存在偏差。我们提出了一种替代的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应。我们重新审视了Autor等人（2013）的研究，他们使用面板Bartik回归估计中美进口对美国制造业就业的影响。他们的回归估计了高度非凸的效应组合，我们的IV-CRC估计器很小且不显著：在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
 
-    When proxies (external instruments) used to identify target structural shocks are weak, inference in proxy-SVARs (SVAR-IVs) is nonstandard and the construction of asymptotically valid confidence sets for the impulse responses of interest requires weak-instrument robust methods. In the presence of multiple target shocks, test inversion techniques require extra restrictions on the proxy-SVAR parameters other those implied by the proxies that may be difficult to interpret and test. We show that frequentist asymptotic inference in these situations can be conducted through Minimum Distance estimation and standard asymptotic methods if the proxy-SVAR can be identified by using `strong' instruments for the non-target shocks; i.e. the shocks which are not of primary interest in the analysis. The suggested identification strategy hinges on a novel pre-test for the null of instrument relevance based on bootstrap resampling which is not subject to pre-testing issues, in the sense that the validit
+    We show that panel Bartik regressions identify non-convex combinations of location-and-period-specific treatment effects. Thus, those regressions could be biased in the presence of heterogeneous effects. We propose an alternative instrumental-variable correlated-random-coefficient (IV-CRC) estimator, that is more robust to heterogeneous effects. We revisit Autor et al. (2013), who use a panel Bartik regression to estimate the effect of imports from China on US manufacturing employment. Their regression estimates a highly non-convex combination of effects, and our IV-CRC estimator is small and insignificant: without assuming constant effects, one cannot conclude that imports from China negatively affected US manufacturing employment.
     
-[^11]: 受限分类和策略学习
+[^13]: Nash均衡映射与哈密顿动力学与达尔文进化论在一些社交困境游戏的热力学极限中的比较
 
-    Constrained Classification and Policy Learning. (arXiv:2106.12886v2 [econ.EM] UPDATED)
+    Nash equilibrium mapping vs Hamiltonian dynamics vs Darwinian evolution for some social dilemma games in the thermodynamic limit. (arXiv:2103.00295v2 [cond-mat.stat-mech] UPDATED)
 
-    [http://arxiv.org/abs/2106.12886](http://arxiv.org/abs/2106.12886)
+    [http://arxiv.org/abs/2103.00295](http://arxiv.org/abs/2103.00295)
 
-    研究了受限分类和策略学习中替代损失程序的一致性和适用性。
+    本文比较了达尔文进化论与Nash均衡映射这两种分析方法，以及数值代理模型和哈密顿动力学，发现在热力学极限下，达尔文进化论方法对于社交困境游戏的磁化率给出了错误的正面结果，而哈密顿动力学方法完全失败。
 
     
 
-    现代机器学习方法对于分类问题使用了一些替代损失技术，如AdaBoost、支持向量机和深度神经网络，以绕过最小化经验分类风险的计算复杂性。这些技术在因果策略学习问题中也很有用，因为个性化治疗规则的估计可以被视为一种加权（成本敏感）分类问题。Zhang（2004年）和Bartlett等人（2006年）研究的替代损失方法的一致性关键依赖于正确规范的假设，即指定的分类器集合足够丰富，包含一个最佳分类器。然而，当分类器集合受到可解释性或公平性的限制时，这个假设较不可靠，这导致在这种次佳情景下替代损失方法的适用性未知。本文研究了在受限类集合条件下的替代损失程序的一致性。
+    如何在社交困境游戏的热力学或无穷大参与者限制条件下合作如何演化和显现出来是一个引起强烈推测的问题。已经提出了各种分析方法来分析社交困境的热力学极限。在这项工作中，我们将两种分析方法，即达尔文进化论和Nash均衡映射与数值代理模型进行了比较。为了完整性，我们还给出了另一种分析方法，即哈密顿动力学的结果。与涉及最大化所有个体收益的哈密顿动力学不同，达尔文进化论方法是针对与最近邻个体之间的互动最大化单个玩家的收益。与Nash均衡映射相比，哈密顿动力学方法完全失败，而达尔文进化论方法在支付满足条件a + d = b时对于游戏磁化率——合作者和缺乏合作者之间比例的净差异——给出了一个错误的正面结果。
 
-    Modern machine learning approaches to classification, including AdaBoost, support vector machines, and deep neural networks, utilize surrogate loss techniques to circumvent the computational complexity of minimizing empirical classification risk. These techniques are also useful for causal policy learning problems, since estimation of individualized treatment rules can be cast as a weighted (cost-sensitive) classification problem. Consistency of the surrogate loss approaches studied in Zhang (2004) and Bartlett et al. (2006) crucially relies on the assumption of correct specification, meaning that the specified set of classifiers is rich enough to contain a first-best classifier. This assumption is, however, less credible when the set of classifiers is constrained by interpretability or fairness, leaving the applicability of surrogate loss based algorithms unknown in such second-best scenarios. This paper studies consistency of surrogate loss procedures under a constrained set of class
+    How cooperation evolves and manifests itself in the thermodynamic or infinite player limit of social dilemma games is a matter of intense speculation. Various analytical methods have been proposed to analyze the thermodynamic limit of social dilemmas. In this work, we compare two analytical methods, i.e., Darwinian evolution and Nash equilibrium mapping, with a numerical agent-based approach. For completeness, we also give results for another analytical method, Hamiltonian dynamics. In contrast to Hamiltonian dynamics, which involves the maximization of payoffs of all individuals, in Darwinian evolution, the payoff of a single player is maximized with respect to its interaction with the nearest neighbor. While the Hamiltonian dynamics method utterly fails as compared to Nash equilibrium mapping, the Darwinian evolution method gives a false positive for game magnetization -- the net difference between the fraction of cooperators and defectors -- when payoffs obey the condition a + d = b
     
 

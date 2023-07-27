@@ -1,0 +1,12 @@
+{
+    "title": "Power relations in Game Theory. (arXiv:2307.14170v1 [econ.TH])",
+    "abstract": "The concept of power among players can be expressed as a combination of their utilities. A player who obeys another takes into account the utility of the dominant one. Technically it is a matter of superimposing some weighted sum or product function onto the individual utility function, where the weights can be represented through directed graphs that reflect a situation of power among the players. It is then possible to define some global indices of the system, such as the level of hierarchy, mutualism and freedom, and measure their effects on game equilibria.",
+    "link": "http://arxiv.org/abs/2307.14170",
+    "context": "Title: Power relations in Game Theory. (arXiv:2307.14170v1 [econ.TH])\nAbstract: The concept of power among players can be expressed as a combination of their utilities. A player who obeys another takes into account the utility of the dominant one. Technically it is a matter of superimposing some weighted sum or product function onto the individual utility function, where the weights can be represented through directed graphs that reflect a situation of power among the players. It is then possible to define some global indices of the system, such as the level of hierarchy, mutualism and freedom, and measure their effects on game equilibria.",
+    "path": "papers/23/07/2307.14170.json",
+    "total_tokens": 688,
+    "translated_title": "博弈论中的权力关系",
+    "translated_abstract": "玩家之间的权力概念可以通过它们的效用组合来表达。服从另一个玩家的玩家会考虑到支配者的效用。技术上，这是将一些加权和乘积函数叠加到个体效用函数上，其中权重可以通过反映玩家间权力关系的有向图来表示。然后可以定义一些系统的全局指标，如等级、互助和自由水平，并测量它们对游戏均衡的影响。",
+    "tldr": "在博弈论中，我们通过将权力概念转化为玩家的效用组合来研究玩家之间的关系。通过将加权和乘积函数叠加到个体效用函数中，我们可以定义等级、互助和自由等全局指标，并测量它们对游戏均衡的影响。",
+    "en_tdlr": "In game theory, we study the power relations among players by translating the concept of power into a combination of their utilities. By superimposing weighted sum or product functions onto individual utility functions, we can define global indices such as hierarchy, mutualism, and freedom, and measure their effects on game equilibria."
+}

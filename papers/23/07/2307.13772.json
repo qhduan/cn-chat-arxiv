@@ -1,0 +1,11 @@
+{
+    "title": "Liquidity fragmentation on decentralized exchanges. (arXiv:2307.13772v1 [q-fin.TR])",
+    "abstract": "We study economies of scale in liquidity provision on decentralized exchanges, focusing on the impact of fixed transaction costs such as gas prices on liquidity providers (LPs). Small LPs are disproportionately affected by the fixed cost, resulting in liquidity supply fragmentation between low- and high-fee pools. Analyzing Uniswap data, we find that high-fee pools attract 56% of liquidity supply but execute only 35% of trading volume. Large (institutional) LPs dominate low-fee pools, frequently adjusting positions in response to substantial trading volume. In contrast, small (retail) LPs converge to high-fee pools, accepting lower execution probabilities to mitigate smaller liquidity management costs.",
+    "link": "http://arxiv.org/abs/2307.13772",
+    "context": "Title: Liquidity fragmentation on decentralized exchanges. (arXiv:2307.13772v1 [q-fin.TR])\nAbstract: We study economies of scale in liquidity provision on decentralized exchanges, focusing on the impact of fixed transaction costs such as gas prices on liquidity providers (LPs). Small LPs are disproportionately affected by the fixed cost, resulting in liquidity supply fragmentation between low- and high-fee pools. Analyzing Uniswap data, we find that high-fee pools attract 56% of liquidity supply but execute only 35% of trading volume. Large (institutional) LPs dominate low-fee pools, frequently adjusting positions in response to substantial trading volume. In contrast, small (retail) LPs converge to high-fee pools, accepting lower execution probabilities to mitigate smaller liquidity management costs.",
+    "path": "papers/23/07/2307.13772.json",
+    "total_tokens": 801,
+    "translated_title": "去中心化交易所的流动性分裂",
+    "translated_abstract": "我们研究了去中心化交易所中流动性供应的规模经济性，重点关注固定交易成本（例如燃气价格）对流动性提供者（LPs）的影响。小型LPs受到固定成本的不成比例影响，导致低费用池和高费用池之间的流动性供应分裂。通过分析Uniswap的数据，我们发现高费用池吸引了56%的流动性供应，但只执行了35%的交易量。大型（机构）LPs主导低费用池，经常根据大量交易进行调整。相反，小型（零售）LPs趋于高费用池，为了减轻较小的流动性管理成本而接受较低的执行概率。",
+    "tldr": "本研究通过分析Uniswap的数据发现，去中心化交易所中的固定交易成本导致了小型流动性提供者受到不成比例的影响，结果是低费用池和高费用池之间的流动性供应分裂，给大型流动性提供者和小型流动性提供者带来不同的影响。"
+}

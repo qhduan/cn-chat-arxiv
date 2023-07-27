@@ -1,0 +1,12 @@
+{
+    "title": "Online Modeling and Monitoring of Dependent Processes under Resource Constraints. (arXiv:2307.14208v1 [cs.LG])",
+    "abstract": "Monitoring a population of dependent processes under limited resources is critical for abnormal events detection. A novel online collaborative learning method is proposed to adaptively allocate the resources for exploitation of high-risk processes and exploration of dependent dynamics. Efficiency of the proposed method is proved through theoretical analysis and experiments.",
+    "link": "http://arxiv.org/abs/2307.14208",
+    "context": "Title: Online Modeling and Monitoring of Dependent Processes under Resource Constraints. (arXiv:2307.14208v1 [cs.LG])\nAbstract: Monitoring a population of dependent processes under limited resources is critical for abnormal events detection. A novel online collaborative learning method is proposed to adaptively allocate the resources for exploitation of high-risk processes and exploration of dependent dynamics. Efficiency of the proposed method is proved through theoretical analysis and experiments.",
+    "path": "papers/23/07/2307.14208.json",
+    "total_tokens": 510,
+    "translated_title": "在资源约束条件下在线建模和监控相关进程",
+    "translated_abstract": "在有限资源下监控相关进程的群体对于异常事件检测至关重要。本文提出了一种新颖的在线协作学习方法，通过适应性地分配资源，实现高风险进程的开发利用和相关动态的探索。通过理论分析和实验证明了该方法的效率。",
+    "tldr": "本文提出了一种在线协作学习方法，能够适应性地分配资源，实现对相关进程的监控和动态探索，有效地进行异常事件检测。",
+    "en_tdlr": "This paper proposes a novel online collaborative learning method that adaptively allocates resources for monitoring and exploring dependent processes, effectively detecting abnormal events."
+}

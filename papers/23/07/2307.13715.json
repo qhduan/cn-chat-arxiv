@@ -1,0 +1,12 @@
+{
+    "title": "Team Intro to AI team8 at CoachAI Badminton Challenge 2023: Advanced ShuttleNet for Shot Predictions. (arXiv:2307.13715v1 [cs.LG])",
+    "abstract": "In this paper, our objective is to improve the performance of the existing framework ShuttleNet in predicting badminton shot types and locations by leveraging past strokes. We participated in the CoachAI Badminton Challenge at IJCAI 2023 and achieved significantly better results compared to the baseline. Ultimately, our team achieved the first position in the competition and we made our code available.",
+    "link": "http://arxiv.org/abs/2307.13715",
+    "context": "Title: Team Intro to AI team8 at CoachAI Badminton Challenge 2023: Advanced ShuttleNet for Shot Predictions. (arXiv:2307.13715v1 [cs.LG])\nAbstract: In this paper, our objective is to improve the performance of the existing framework ShuttleNet in predicting badminton shot types and locations by leveraging past strokes. We participated in the CoachAI Badminton Challenge at IJCAI 2023 and achieved significantly better results compared to the baseline. Ultimately, our team achieved the first position in the competition and we made our code available.",
+    "path": "papers/23/07/2307.13715.json",
+    "total_tokens": 640,
+    "translated_title": "《2023年教练人工智能团队8参加CoachAI羽毛球挑战赛：用于击球预测的高级ShuttleNet》",
+    "translated_abstract": "本文的目标是通过利用过去的击球来改进现有框架ShuttleNet在预测羽毛球击球类型和位置方面的性能。我们参加了2023年IJCAI的CoachAI羽毛球挑战赛，并取得了显著优于基准线的成绩。最终，我们的团队在比赛中获得了第一名，并公开了我们的代码。",
+    "tldr": "本文提出了一个名为ShuttleNet的框架，通过利用过去的击球信息，显著改进了预测羽毛球击球类型和位置的性能，最终在CoachAI羽毛球挑战赛中获得第一名。",
+    "en_tdlr": "This paper presents a framework called ShuttleNet, which significantly improves the performance of predicting badminton shot types and locations by leveraging past strokes. The team achieved the first position in the CoachAI Badminton Challenge."
+}

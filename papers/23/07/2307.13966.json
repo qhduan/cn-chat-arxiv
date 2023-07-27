@@ -1,0 +1,12 @@
+{
+    "title": "Using Probabilistic Stated Preference Analyses to Understand Actual Choices. (arXiv:2307.13966v1 [econ.EM])",
+    "abstract": "Can stated preferences help in counterfactual analyses of actual choice? This research proposes a novel approach to researchers who have access to both stated choices in hypothetical scenarios and actual choices. The key idea is to use probabilistic stated choices to identify the distribution of individual unobserved heterogeneity, even in the presence of measurement error. If this unobserved heterogeneity is the source of endogeneity, the researcher can correct for its influence in a demand function estimation using actual choices, and recover causal effects. Estimation is possible with an off-the-shelf Group Fixed Effects estimator.",
+    "link": "http://arxiv.org/abs/2307.13966",
+    "context": "Title: Using Probabilistic Stated Preference Analyses to Understand Actual Choices. (arXiv:2307.13966v1 [econ.EM])\nAbstract: Can stated preferences help in counterfactual analyses of actual choice? This research proposes a novel approach to researchers who have access to both stated choices in hypothetical scenarios and actual choices. The key idea is to use probabilistic stated choices to identify the distribution of individual unobserved heterogeneity, even in the presence of measurement error. If this unobserved heterogeneity is the source of endogeneity, the researcher can correct for its influence in a demand function estimation using actual choices, and recover causal effects. Estimation is possible with an off-the-shelf Group Fixed Effects estimator.",
+    "path": "papers/23/07/2307.13966.json",
+    "total_tokens": 656,
+    "translated_title": "使用概率陈述偏好分析理解实际选择",
+    "translated_abstract": "\"经由将概率陈述选择运用于理解实际选择，本研究提出了一种新方法。该方法适用于那些既能获取假设情景下的陈述选择，又能获取实际选择的研究者。其核心思想是使用概率陈述选择来识别个体未观测异质性的分布，即使存在测量误差。如果这种未观测异质性是内源性的源头，研究者可以通过实际选择纠正其影响，并恢复因果效应。使用现成的群组固定效应估计器可以进行估计。\"",
+    "tldr": "使用概率陈述偏好分析方法，研究者可以使用实际选择纠正内源性影响，恢复因果效应。",
+    "en_tdlr": "Using probabilistic stated preference analyses, researchers can correct endogeneity effects and recover causal effects through the use of actual choices."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Unraveling the Complexity of Splitting Sequential Data: Tackling Challenges in Video and Time Series Analysis. (arXiv:2307.14294v1 [cs.LG])",
+    "abstract": "Splitting of sequential data, such as videos and time series, is an essential step in various data analysis tasks, including object tracking and anomaly detection. However, splitting sequential data presents a variety of challenges that can impact the accuracy and reliability of subsequent analyses. This concept article examines the challenges associated with splitting sequential data, including data acquisition, data representation, split ratio selection, setting up quality criteria, and choosing suitable selection strategies. We explore these challenges through two real-world examples: motor test benches and particle tracking in liquids.",
+    "link": "http://arxiv.org/abs/2307.14294",
+    "context": "Title: Unraveling the Complexity of Splitting Sequential Data: Tackling Challenges in Video and Time Series Analysis. (arXiv:2307.14294v1 [cs.LG])\nAbstract: Splitting of sequential data, such as videos and time series, is an essential step in various data analysis tasks, including object tracking and anomaly detection. However, splitting sequential data presents a variety of challenges that can impact the accuracy and reliability of subsequent analyses. This concept article examines the challenges associated with splitting sequential data, including data acquisition, data representation, split ratio selection, setting up quality criteria, and choosing suitable selection strategies. We explore these challenges through two real-world examples: motor test benches and particle tracking in liquids.",
+    "path": "papers/23/07/2307.14294.json",
+    "total_tokens": 678,
+    "translated_title": "揭示拆分序列数据的复杂性：解决视频和时间序列分析中的挑战",
+    "translated_abstract": "序列数据的拆分，如视频和时间序列，是各种数据分析任务的重要步骤，包括目标跟踪和异常检测。然而，拆分序列数据面临各种挑战，可能会影响后续分析的准确性和可靠性。本概念文章研究了与拆分序列数据相关的挑战，包括数据获取、数据表示、拆分比例选择、建立质量标准和选择合适的选择策略。我们通过两个真实世界的例子进行了探索：电机测试台和液体中的粒子跟踪。",
+    "tldr": "本概念文章研究了各种拆分序列数据的挑战，并通过电机测试台和液体中的粒子跟踪等实例进行了探索。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Developing and Evaluating Tiny to Medium-Sized Turkish BERT Models. (arXiv:2307.14134v1 [cs.CL])",
+    "abstract": "This study introduces and evaluates tiny, mini, small, and medium-sized uncased Turkish BERT models, aiming to bridge the research gap in less-resourced languages. We trained these models on a diverse dataset encompassing over 75GB of text from multiple sources and tested them on several tasks, including mask prediction, sentiment analysis, news classification, and, zero-shot classification. Despite their smaller size, our models exhibited robust performance, including zero-shot task, while ensuring computational efficiency and faster execution times. Our findings provide valuable insights into the development and application of smaller language models, especially in the context of the Turkish language.",
+    "link": "http://arxiv.org/abs/2307.14134",
+    "context": "Title: Developing and Evaluating Tiny to Medium-Sized Turkish BERT Models. (arXiv:2307.14134v1 [cs.CL])\nAbstract: This study introduces and evaluates tiny, mini, small, and medium-sized uncased Turkish BERT models, aiming to bridge the research gap in less-resourced languages. We trained these models on a diverse dataset encompassing over 75GB of text from multiple sources and tested them on several tasks, including mask prediction, sentiment analysis, news classification, and, zero-shot classification. Despite their smaller size, our models exhibited robust performance, including zero-shot task, while ensuring computational efficiency and faster execution times. Our findings provide valuable insights into the development and application of smaller language models, especially in the context of the Turkish language.",
+    "path": "papers/23/07/2307.14134.json",
+    "total_tokens": 749,
+    "translated_title": "开发和评估小型到中型的土耳其BERT模型",
+    "translated_abstract": "本研究引入并评估了小型、迷你型、小型和中型的无大小写的土耳其BERT模型，旨在填补资源匮乏语言领域的研究空白。我们使用多个来源的75GB以上文本数据集对这些模型进行了训练，并在多个任务上进行了测试，包括掩码预测、情感分析、新闻分类和零样本分类。尽管规模较小，我们的模型表现出了强大的性能，包括零样本任务，同时保证了计算效率和更快的执行时间。我们的研究结果为小型语言模型的开发和应用提供了有价值的见解，特别是在土耳其语境下。",
+    "tldr": "本研究开发并评估了小型到中型的土耳其BERT模型，在填补资源匮乏语言领域的研究空白方面取得了积极的成果，并为开发和应用小型语言模型提供了有价值的见解。",
+    "en_tdlr": "This study develops and evaluates tiny to medium-sized Turkish BERT models, filling the research gap in less-resourced languages, and provides valuable insights into the development and application of smaller language models."
+}

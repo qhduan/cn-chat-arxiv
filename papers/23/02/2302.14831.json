@@ -1,0 +1,12 @@
+{
+    "title": "FacEDiM: A Face Embedding Distribution Model for Few-Shot Biometric Authentication of Cattle. (arXiv:2302.14831v2 [cs.CV] UPDATED)",
+    "abstract": "This work proposes to solve the problem of few-shot biometric authentication by computing the Mahalanobis distance between testing embeddings and a multivariate Gaussian distribution of training embeddings obtained using pre-trained CNNs. Experimental results show that models pre-trained on the ImageNet dataset significantly outperform models pre-trained on human faces. With a VGG16 model, we obtain a FRR of 1.25% for a FAR of 1.18% on a dataset of 20 cattle identities.",
+    "link": "http://arxiv.org/abs/2302.14831",
+    "context": "Title: FacEDiM: A Face Embedding Distribution Model for Few-Shot Biometric Authentication of Cattle. (arXiv:2302.14831v2 [cs.CV] UPDATED)\nAbstract: This work proposes to solve the problem of few-shot biometric authentication by computing the Mahalanobis distance between testing embeddings and a multivariate Gaussian distribution of training embeddings obtained using pre-trained CNNs. Experimental results show that models pre-trained on the ImageNet dataset significantly outperform models pre-trained on human faces. With a VGG16 model, we obtain a FRR of 1.25% for a FAR of 1.18% on a dataset of 20 cattle identities.",
+    "path": "papers/23/02/2302.14831.json",
+    "total_tokens": 773,
+    "translated_title": "FacEDiM：一种用于少样本生物特征认证的牛脸嵌入分布模型",
+    "translated_abstract": "本研究提出通过计算测试嵌入和使用预训练的CNN获得的训练嵌入的多变量高斯分布之间的马氏距离来解决少样本生物特征认证问题。实验结果显示，在ImageNet数据集上预训练的模型明显优于在人脸上预训练的模型。使用VGG16模型，在一个包含20个牛身份的数据集上，我们得到了1.25%的FRR和1.18%的FAR。",
+    "tldr": "本研究提出了一种用于少样本生物特征认证的牛脸嵌入分布模型，通过计算测试嵌入和训练嵌入的马氏距离来进行认证。实验结果表明，在ImageNet数据集上预训练的模型表现更好。使用VGG16模型，在一个包含20个牛身份的数据集上，我们得到了1.25%的FRR和1.18%的FAR。",
+    "en_tdlr": "This study proposes a face embedding distribution model for few-shot biometric authentication of cattle, which computes the Mahalanobis distance between testing and training embeddings. Pre-training on the ImageNet dataset outperforms pre-training on human faces. A FRR of 1.25% and a FAR of 1.18% were achieved with a VGG16 model on a dataset of 20 cattle identities."
+}

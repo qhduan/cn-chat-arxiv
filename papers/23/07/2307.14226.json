@@ -1,0 +1,12 @@
+{
+    "title": "Explore the possibility of advancing climate negotiations on the basis of regional trade organizations: A study based on RICE-N. (arXiv:2307.14226v1 [cs.CY])",
+    "abstract": "Climate issues have become more and more important now. Although global governments have made some progress, we are still facing the truth that the prospect of international cooperation is not clear at present. Due to the limitations of the Integrated assessment models (IAMs) model, it is difficult to simulate the dynamic negotiation process. Therefore, using deep learning to build a new agents based model (ABM) might can provide new theoretical support for climate negotiations. Building on the RICE-N model, this work proposed an approach to climate negotiations based on existing trade groups. Simulation results show that the scheme has a good prospect.",
+    "link": "http://arxiv.org/abs/2307.14226",
+    "context": "Title: Explore the possibility of advancing climate negotiations on the basis of regional trade organizations: A study based on RICE-N. (arXiv:2307.14226v1 [cs.CY])\nAbstract: Climate issues have become more and more important now. Although global governments have made some progress, we are still facing the truth that the prospect of international cooperation is not clear at present. Due to the limitations of the Integrated assessment models (IAMs) model, it is difficult to simulate the dynamic negotiation process. Therefore, using deep learning to build a new agents based model (ABM) might can provide new theoretical support for climate negotiations. Building on the RICE-N model, this work proposed an approach to climate negotiations based on existing trade groups. Simulation results show that the scheme has a good prospect.",
+    "path": "papers/23/07/2307.14226.json",
+    "total_tokens": 747,
+    "translated_title": "基于区域贸易组织推进气候谈判的可能性探索：基于RICE-N模型的研究",
+    "translated_abstract": "气候问题变得越来越重要。尽管全球政府取得了一些进展，但我们仍面临着国际合作前景不明的事实。由于综合评估模型（IAMs）的局限性，很难模拟动态谈判过程。因此，利用深度学习构建一个新的基于智能体的模型（ABM）可能为气候谈判提供新的理论支持。本研究在RICE-N模型基础上，提出了一个基于现有贸易集团的气候谈判方法。模拟结果显示该方案具有良好前景。",
+    "tldr": "本研究探索了利用基于区域贸易组织推进气候谈判的可能性，以RICE-N模型为基础，利用深度学习构建了一个新的模型。模拟结果显示该方案具有良好前景。",
+    "en_tdlr": "This study explores the possibility of advancing climate negotiations based on regional trade organizations, proposing a new agent-based model using deep learning. The simulation results show promising prospects for this approach."
+}
