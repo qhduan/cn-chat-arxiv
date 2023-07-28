@@ -8,13 +8,14 @@
 | [^4] | [Long Tails, Automation and Labor.](http://arxiv.org/abs/2307.14525) | 这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。 |
 | [^5] | [Weak (Proxy) Factors Robust Hansen-Jagannathan Distance For Linear Asset Pricing Models.](http://arxiv.org/abs/2307.14499) | 本研究提出了两种HJ统计量的替代方法和相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且提供了一种新的鲁棒风险溢价估计方法。仿真实验和实证应用支持了这些方法的有效性。 |
 | [^6] | [Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models.](http://arxiv.org/abs/2307.14463) | 本文研究了用预测回归模型对非平稳自回归过程进行自助法估计的可行性，并通过蒙特卡罗实验验证了理论结果的统计有效性。 |
-| [^7] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
-| [^8] | [Revealed preferences for dynamically inconsistent models.](http://arxiv.org/abs/2305.14125) | 本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。 |
-| [^9] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^10] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
-| [^11] | [Are Large Traders Harmed by Front-running HFTs?.](http://arxiv.org/abs/2211.06046) | 高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。 |
-| [^12] | [The cost of strategy-proofness in school choice.](http://arxiv.org/abs/2204.07255) | 该研究比较了学校选择中最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）与最小化排名机制（RM）的结果，并发现RM在提高排名效率、改善最弱势学生安置、减少合理羡慕情况等方面具有显著的优势。 |
-| [^13] | [Dynamic covariate balancing: estimating treatment effects over time with potential local projections.](http://arxiv.org/abs/2103.01280) | 本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。 |
+| [^7] | [Smoothing of numerical series by the triangle method on the example of hungarian gdp data 1992-2022 based on approximation by series of exponents.](http://arxiv.org/abs/2307.14378) | 该论文提出了一种利用三角方法对数值序列进行平滑处理的方法，并以匈牙利GDP数据为例进行了研究。通过指数级数的逼近，可以有效减小观察结果的误差，并得到不亚于多项式逼近的结果。 |
+| [^8] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
+| [^9] | [Revealed preferences for dynamically inconsistent models.](http://arxiv.org/abs/2305.14125) | 本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。 |
+| [^10] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^11] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
+| [^12] | [Are Large Traders Harmed by Front-running HFTs?.](http://arxiv.org/abs/2211.06046) | 高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。 |
+| [^13] | [The cost of strategy-proofness in school choice.](http://arxiv.org/abs/2204.07255) | 该研究比较了学校选择中最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）与最小化排名机制（RM）的结果，并发现RM在提高排名效率、改善最弱势学生安置、减少合理羡慕情况等方面具有显著的优势。 |
+| [^14] | [Dynamic covariate balancing: estimating treatment effects over time with potential local projections.](http://arxiv.org/abs/2103.01280) | 本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。 |
 
 # 详细
 
@@ -102,7 +103,21 @@
 
     We establish the asymptotic validity of the bootstrap-based IVX estimator proposed by Phillips and Magdalinos (2009) for the predictive regression model parameter based on a local-to-unity specification of the autoregressive coefficient which covers both nearly nonstationary and nearly stationary processes. A mixed Gaussian limit distribution is obtained for the bootstrap-based IVX estimator. The statistical validity of the theoretical results are illustrated by Monte Carlo experiments for various statistical inference problems.
     
-[^7]: 解析协调问题
+[^7]: 数值序列的三角方法平滑处理：以匈牙利GDP数据1992-2022为例，基于指数级数的逼近
+
+    Smoothing of numerical series by the triangle method on the example of hungarian gdp data 1992-2022 based on approximation by series of exponents. (arXiv:2307.14378v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.14378](http://arxiv.org/abs/2307.14378)
+
+    该论文提出了一种利用三角方法对数值序列进行平滑处理的方法，并以匈牙利GDP数据为例进行了研究。通过指数级数的逼近，可以有效减小观察结果的误差，并得到不亚于多项式逼近的结果。
+
+    
+
+    在实践中，经常需要通过表格以某种函数依赖的形式描述值的集合。由于某些情况，观察到的值存在误差。为了逼近，建议使用能够平滑观察结果误差的函数依赖。逼近能够确定观察表中未列出的函数的中间值。使用指数级数对数据进行逼近可以获得不亚于多项式逼近的结果。在经济科学文献中，幂函数形式的逼近，例如Cobb-Douglas函数，已经广泛应用。这种逼近的优点是逼近函数类型简单，缺点是并非所有过程都能以给定精度用幂函数来描述。一个例子是GDP指标。
+
+    In practice , quite often there is a need to describe the values set by means of a table in the form of some functional dependence . The observed values , due to certain circumstances , have an error . For approximation, it is advisable to use a functional dependence that would allow smoothing out the errors of the observation results. Approximation allows you to determine intermediate values of functions that are not listed among the data in the observation table. The use of exponential series for data approximation allows you to get a result no worse than from approximation by polynomials In the economic scientific literature, approximation in the form of power functions, for example, the Cobb-Douglas function, has become widespread. The advantage of this type of approximation can be called a simple type of approximating function , and the disadvantage is that in nature not all processes can be described by power functions with a given accuracy. An example is the GDP indicator for se
+    
+[^8]: 解析协调问题
 
     Unraveling Coordination Problems. (arXiv:2307.08557v1 [econ.TH])
 
@@ -116,7 +131,7 @@
 
     This paper studies policy design in coordination problems. In coordination games, a subsidy raises player $i$'s incentive to play the subsidized action. This raises $j$'s incentive to play the same action, which further incentivizes $i$, and so on. Building upon this ``unraveling effect'', we characterize the subsidies that implement a given outcome of the game as its unique equilibrium. Among other properties, we establish that subsidies are: (i) symmetric for identical players; (ii) globally continuous in model parameters; (iii) increasing in opportunity costs; and (iv) decreasing in spillovers. Applications of the model include joint investment problems, participation decisions, and principal-agent contracting.
     
-[^8]: 动态不一致模型的显性偏好
+[^9]: 动态不一致模型的显性偏好
 
     Revealed preferences for dynamically inconsistent models. (arXiv:2305.14125v1 [econ.TH])
 
@@ -130,7 +145,7 @@
 
     We study the testable implications of models of dynamically inconsistent choices when planned choices are unobservable, and thus only "on path" data is available. First, we discuss the approach in Blow, Browning and Crawford (2021), who characterize first-order rationalizability of the model of quasi-hyperbolic discounting. We show that the first-order approach does not guarantee rationalizability by means of the quasi-hyperbolic model. This motivates consideration of an abstract model of intertemporal choice, under which we provide a characterization of different behavioral models -- including the naive and sophisticated paradigms of dynamically inconsistent choice.
     
-[^9]: 期权的价格发现
+[^10]: 期权的价格发现
 
     Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
@@ -144,7 +159,7 @@
 
     We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^10]: 两部门增长经济体中理性资产价格泡沫的必要性。
+[^11]: 两部门增长经济体中理性资产价格泡沫的必要性。
 
     Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies. (arXiv:2211.13100v4 [econ.TH] UPDATED)
 
@@ -158,7 +173,7 @@
 
     We present plausible economic models in which an equilibrium with rational asset price bubbles exists but equilibria with asset prices equal to fundamental values do not. These economies feature multiple sectors with faster economic growth than dividend growth. In our two-sector endogenous growth model, entrepreneurs have access to a production technology subject to idiosyncratic investment risk (tech sector) and trade a dividend-paying asset (land). When leverage is relaxed beyond a critical value, the unique trend stationary equilibrium exhibits a phase transition from the fundamental regime to the bubbly regime with growth, implying the inevitability of bubbles with loose financial conditions.
     
-[^11]: 高频交易对大型交易者是否有害？
+[^12]: 高频交易对大型交易者是否有害？
 
     Are Large Traders Harmed by Front-running HFTs?. (arXiv:2211.06046v2 [q-fin.TR] UPDATED)
 
@@ -172,7 +187,7 @@
 
     This paper studies the influences of a high-frequency trader (HFT) on a large trader whose future trading is predicted by the former. We conclude that HFT always front-runs and the large trader is benefited when: (1) there is sufficient high-speed noise trading; (2) HFT's prediction is vague enough. Besides, we find surprisingly that (1) making HFT's prediction less accurate might decrease large trader's profit; (2) when there is little high-speed noise trading, although HFT nearly does nothing, the large trader is still hurt.
     
-[^12]: 学校选择中的战略无偏性成本
+[^13]: 学校选择中的战略无偏性成本
 
     The cost of strategy-proofness in school choice. (arXiv:2204.07255v6 [econ.TH] UPDATED)
 
@@ -186,7 +201,7 @@
 
     We compare the outcomes of the most prominent strategy-proof and stable algorithm (Deferred Acceptance, DA) and the most prominent strategy-proof and Pareto optimal algorithm (Top Trading Cycles, TTC) to the allocation generated by the rank-minimizing mechanism (RM). While one would expect that RM improves upon both DA and TTC in terms of rank efficiency, the size of the improvement is nonetheless surprising. Moreover, while it is not explicitly designed to do so, RM also significantly improves the placement of the worst-off student. Furthermore, RM generates less justified envy than TTC. We corroborate our findings using data on school admissions in Budapest.
     
-[^13]: 动态协变量平衡：基于潜在局部投影的治疗效果随时间估计
+[^14]: 动态协变量平衡：基于潜在局部投影的治疗效果随时间估计
 
     Dynamic covariate balancing: estimating treatment effects over time with potential local projections. (arXiv:2103.01280v3 [econ.EM] UPDATED)
 
