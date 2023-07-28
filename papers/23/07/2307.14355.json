@@ -1,0 +1,12 @@
+{
+    "title": "Framing Relevance for Safety-Critical Autonomous Systems. (arXiv:2307.14355v1 [cs.AI])",
+    "abstract": "We are in the process of building complex highly autonomous systems that have build-in beliefs, perceive their environment and exchange information. These systems construct their respective world view and based on it they plan their future manoeuvres, i.e., they choose their actions in order to establish their goals based on their prediction of the possible futures. Usually these systems face an overwhelming flood of information provided by a variety of sources where by far not everything is relevant. The goal of our work is to develop a formal approach to determine what is relevant for a safety critical autonomous system at its current mission, i.e., what information suffices to build an appropriate world view to accomplish its mission goals.",
+    "link": "http://arxiv.org/abs/2307.14355",
+    "context": "Title: Framing Relevance for Safety-Critical Autonomous Systems. (arXiv:2307.14355v1 [cs.AI])\nAbstract: We are in the process of building complex highly autonomous systems that have build-in beliefs, perceive their environment and exchange information. These systems construct their respective world view and based on it they plan their future manoeuvres, i.e., they choose their actions in order to establish their goals based on their prediction of the possible futures. Usually these systems face an overwhelming flood of information provided by a variety of sources where by far not everything is relevant. The goal of our work is to develop a formal approach to determine what is relevant for a safety critical autonomous system at its current mission, i.e., what information suffices to build an appropriate world view to accomplish its mission goals.",
+    "path": "papers/23/07/2307.14355.json",
+    "total_tokens": 699,
+    "translated_title": "为安全关键的自主系统构建相关性框架",
+    "translated_abstract": "我们正在构建复杂的高度自主的系统，这些系统具有内部信念、感知环境并交换信息的能力。这些系统构建了它们各自的世界观，并基于此规划了未来的操作，即它们根据可能的未来预测选择行动来实现目标。通常，这些系统面临着来自各种来源的大量信息，其中并不是所有信息都是相关的。我们的工作目标是开发一种形式化方法来确定在当前任务下对于安全关键的自主系统来说什么是相关的，即什么信息足以构建适当的世界观以实现其任务目标。",
+    "tldr": "该论文旨在开发一种形式化方法来确定安全关键的自主系统在当前任务下的相关信息，以构建适当的世界观以实现其目标。",
+    "en_tdlr": "The goal of this paper is to develop a formal approach to determine the relevant information for a safety-critical autonomous system at its current mission, in order to build an appropriate world view and achieve its goals."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "One-step nonparametric instrumental regression using smoothing splines. (arXiv:2307.14867v1 [econ.EM])",
+    "abstract": "We extend nonparametric regression smoothing splines to a context where there is endogeneity and instrumental variables are available. Unlike popular existing estimators, the resulting estimator is one-step and relies on a unique regularization parameter. We derive uniform rates of the convergence for the estimator and its first derivative. We also address the issue of imposing monotonicity in estimation. Simulations confirm the good performances of our estimator compared to two-step procedures. Our method yields economically sensible results when used to estimate Engel curves.",
+    "link": "http://arxiv.org/abs/2307.14867",
+    "context": "Title: One-step nonparametric instrumental regression using smoothing splines. (arXiv:2307.14867v1 [econ.EM])\nAbstract: We extend nonparametric regression smoothing splines to a context where there is endogeneity and instrumental variables are available. Unlike popular existing estimators, the resulting estimator is one-step and relies on a unique regularization parameter. We derive uniform rates of the convergence for the estimator and its first derivative. We also address the issue of imposing monotonicity in estimation. Simulations confirm the good performances of our estimator compared to two-step procedures. Our method yields economically sensible results when used to estimate Engel curves.",
+    "path": "papers/23/07/2307.14867.json",
+    "total_tokens": 661,
+    "translated_title": "一步非参数仪器回归使用平滑样条",
+    "translated_abstract": "我们将非参数回归平滑样条扩展到一种情境，即存在内生性和使用仪器变量。与流行的现有估计方法不同，结果估计器是一步的，并依赖于唯一的正则化参数。我们导出了估计器及其一阶导数的均匀收敛速率。我们还解决了在估计中施加单调性的问题。模拟结果证实了我们的估计器与两步程序相比的良好性能。当用于估计Engel曲线时，我们的方法产生了经济上有意义的结果。",
+    "tldr": "这个论文提出了一种一步非参数的方法，使用平滑样条来处理内生性和仪器变量，同时解决了单调性限制的问题，并在估计Engel曲线时表现出良好性能。",
+    "en_tdlr": "This paper presents a one-step nonparametric method using smoothing splines to handle endogeneity and instrumental variables, while addressing the issue of imposing monotonicity constraints, and performs well in estimating Engel curves."
+}

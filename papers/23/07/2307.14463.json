@@ -1,0 +1,11 @@
+{
+    "title": "Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models. (arXiv:2307.14463v1 [econ.EM])",
+    "abstract": "We establish the asymptotic validity of the bootstrap-based IVX estimator proposed by Phillips and Magdalinos (2009) for the predictive regression model parameter based on a local-to-unity specification of the autoregressive coefficient which covers both nearly nonstationary and nearly stationary processes. A mixed Gaussian limit distribution is obtained for the bootstrap-based IVX estimator. The statistical validity of the theoretical results are illustrated by Monte Carlo experiments for various statistical inference problems.",
+    "link": "http://arxiv.org/abs/2307.14463",
+    "context": "Title: Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models. (arXiv:2307.14463v1 [econ.EM])\nAbstract: We establish the asymptotic validity of the bootstrap-based IVX estimator proposed by Phillips and Magdalinos (2009) for the predictive regression model parameter based on a local-to-unity specification of the autoregressive coefficient which covers both nearly nonstationary and nearly stationary processes. A mixed Gaussian limit distribution is obtained for the bootstrap-based IVX estimator. The statistical validity of the theoretical results are illustrated by Monte Carlo experiments for various statistical inference problems.",
+    "path": "papers/23/07/2307.14463.json",
+    "total_tokens": 644,
+    "translated_title": "用预测回归模型对非平稳自回归过程进行自助法估计",
+    "translated_abstract": "我们建立了Phillips和Magdalinos（2009）提出的基于自助法的IVX估计器在预测回归模型参数上的渐近有效性，该模型参数基于自回归系数的局部到单位规范，可以覆盖几乎非平稳和几乎平稳的过程。我们得到了基于自助法的IVX估计器的混合高斯极限分布。通过蒙特卡罗实验，我们对各种统计推断问题的理论结果的统计有效性进行了说明。",
+    "tldr": "本文研究了用预测回归模型对非平稳自回归过程进行自助法估计的可行性，并通过蒙特卡罗实验验证了理论结果的统计有效性。"
+}

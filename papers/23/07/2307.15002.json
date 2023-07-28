@@ -1,0 +1,12 @@
+{
+    "title": "Gzip versus bag-of-words for text classification with KNN. (arXiv:2307.15002v1 [cs.CL])",
+    "abstract": "The effectiveness of compression distance in KNN-based text classification ('gzip') has recently garnered lots of attention. In this note, we show that similar or better effectiveness can be achieved with simpler means, and text compression may not be necessary. Indeed, we find that a simple 'bag-of-words' matching can achieve similar or better accuracy, and is more efficient.",
+    "link": "http://arxiv.org/abs/2307.15002",
+    "context": "Title: Gzip versus bag-of-words for text classification with KNN. (arXiv:2307.15002v1 [cs.CL])\nAbstract: The effectiveness of compression distance in KNN-based text classification ('gzip') has recently garnered lots of attention. In this note, we show that similar or better effectiveness can be achieved with simpler means, and text compression may not be necessary. Indeed, we find that a simple 'bag-of-words' matching can achieve similar or better accuracy, and is more efficient.",
+    "path": "papers/23/07/2307.15002.json",
+    "total_tokens": 557,
+    "translated_title": "Gzip与KNN在文本分类中的对比研究",
+    "translated_abstract": "最近，基于KNN的文本分类中压缩距离（gzip）的有效性引起了很多关注。在本文中，我们展示了通过更简单的方法可以达到类似或更好的效果，并且可能不需要文本压缩。实际上，我们发现简单的“词袋”匹配可以达到类似或更好的准确性，并且更高效。",
+    "tldr": "Gzip与KNN相比较在文本分类中，我们发现通过简单的词袋匹配可以获得类似或更好的准确性，并且更加高效。",
+    "en_tdlr": "In the comparison of Gzip and KNN for text classification, we found that using a simple bag-of-words matching can achieve similar or better accuracy, and is more efficient."
+}

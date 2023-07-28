@@ -1,0 +1,12 @@
+{
+    "title": "A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot. (arXiv:2307.14397v1 [cs.CV])",
+    "abstract": "In machine learning, generative modeling aims to learn to generate new data statistically similar to the training data distribution. In this paper, we survey learning generative models under limited data, few shots and zero shot, referred to as Generative Modeling under Data Constraint (GM-DC). This is an important topic when data acquisition is challenging, e.g. healthcare applications. We discuss background, challenges, and propose two taxonomies: one on GM-DC tasks and another on GM-DC approaches. Importantly, we study interactions between different GM-DC tasks and approaches. Furthermore, we highlight research gaps, research trends, and potential avenues for future exploration. Project website: https://gmdc-survey.github.io.",
+    "link": "http://arxiv.org/abs/2307.14397",
+    "context": "Title: A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot. (arXiv:2307.14397v1 [cs.CV])\nAbstract: In machine learning, generative modeling aims to learn to generate new data statistically similar to the training data distribution. In this paper, we survey learning generative models under limited data, few shots and zero shot, referred to as Generative Modeling under Data Constraint (GM-DC). This is an important topic when data acquisition is challenging, e.g. healthcare applications. We discuss background, challenges, and propose two taxonomies: one on GM-DC tasks and another on GM-DC approaches. Importantly, we study interactions between different GM-DC tasks and approaches. Furthermore, we highlight research gaps, research trends, and potential avenues for future exploration. Project website: https://gmdc-survey.github.io.",
+    "path": "papers/23/07/2307.14397.json",
+    "total_tokens": 788,
+    "translated_title": "关于有限数据、少样本和零样本情况下生成建模的调查",
+    "translated_abstract": "在机器学习中，生成建模旨在学习生成与训练数据分布统计相似的新数据。本文调查了在有限数据、少样本和零样本条件下学习生成模型的情况，称为数据约束下的生成建模（GM-DC）。这是一个重要的主题，当数据获取具有挑战性时，例如医疗应用。我们讨论了背景、挑战，并提出了两个分类体系：一个是GM-DC任务分类，另一个是GM-DC方法分类。重要的是，我们研究了不同GM-DC任务和方法之间的相互作用。此外，我们还强调了研究空白、研究趋势和未来探索的潜在途径。项目网站：https://gmdc-survey.github.io。",
+    "tldr": "本文调查了在有限数据、少样本和零样本条件下学习生成模型的情况，并提出了关于任务和方法的分类体系，研究了它们之间的相互作用，并探讨了未来的研究方向。",
+    "en_tdlr": "This survey investigates the learning of generative models under limited data, few shots, and zero shot conditions, proposes taxonomies for tasks and approaches, studies their interactions, and explores future research directions."
+}

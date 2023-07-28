@@ -1,0 +1,11 @@
+{
+    "title": "Predicting Winning Regions in Parity Games via Graph Neural Networks (Extended Abstract). (arXiv:2210.09924v2 [cs.GT] UPDATED)",
+    "abstract": "Solving parity games is a major building block for numerous applications in reactive program verification and synthesis. While they can be solved efficiently in practice, no known approach has a polynomial worst-case runtime complexity. We present a incomplete polynomial-time approach to determining the winning regions of parity games via graph neural networks.  Our evaluation on 900 randomly generated parity games shows that this approach is effective and efficient in practice. It correctly determines the winning regions of $\\sim$60\\% of the games in our data set and only incurs minor errors in the remaining ones. We believe that this approach can be extended to efficiently solve parity games as well.",
+    "link": "http://arxiv.org/abs/2210.09924",
+    "context": "Title: Predicting Winning Regions in Parity Games via Graph Neural Networks (Extended Abstract). (arXiv:2210.09924v2 [cs.GT] UPDATED)\nAbstract: Solving parity games is a major building block for numerous applications in reactive program verification and synthesis. While they can be solved efficiently in practice, no known approach has a polynomial worst-case runtime complexity. We present a incomplete polynomial-time approach to determining the winning regions of parity games via graph neural networks.  Our evaluation on 900 randomly generated parity games shows that this approach is effective and efficient in practice. It correctly determines the winning regions of $\\sim$60\\% of the games in our data set and only incurs minor errors in the remaining ones. We believe that this approach can be extended to efficiently solve parity games as well.",
+    "path": "papers/22/10/2210.09924.json",
+    "total_tokens": 707,
+    "translated_title": "通过图神经网络预测平价游戏中的获胜区域 (扩展摘要)",
+    "translated_abstract": "解决平价游戏是反应式程序验证与合成中众多应用的重要基础。虽然它们可以在实践中高效地解决，但目前没有已知方法具有多项式的最坏情况运行时间复杂度。我们提出了一种通过图神经网络确定平价游戏的获胜区域的不完全多项式时间方法。我们在900个随机生成的平价游戏上进行评估，结果表明该方法在实践中是有效和高效的。它正确确定了数据集中约60%的游戏的获胜区域，并且在其余游戏中只产生了轻微的错误。我们相信这种方法还可以扩展以高效地解决平价游戏。",
+    "tldr": "通过图神经网络，我们提出了一种不完全多项式时间复杂度的方法来确定平价游戏的获胜区域，并且在900个随机生成的游戏中表现出了较高的有效性和效率。"
+}

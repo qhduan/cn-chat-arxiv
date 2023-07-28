@@ -1,0 +1,11 @@
+{
+    "title": "Samplable Anonymous Aggregation for Private Federated Data Analysis. (arXiv:2307.15017v1 [cs.CR])",
+    "abstract": "We revisit the problem of designing scalable protocols for private statistics and private federated learning when each device holds its private data. Our first contribution is to propose a simple primitive that allows for efficient implementation of several commonly used algorithms, and allows for privacy accounting that is close to that in the central setting without requiring the strong trust assumptions it entails. Second, we propose a system architecture that implements this primitive and perform a security analysis of the proposed system.",
+    "link": "http://arxiv.org/abs/2307.15017",
+    "context": "Title: Samplable Anonymous Aggregation for Private Federated Data Analysis. (arXiv:2307.15017v1 [cs.CR])\nAbstract: We revisit the problem of designing scalable protocols for private statistics and private federated learning when each device holds its private data. Our first contribution is to propose a simple primitive that allows for efficient implementation of several commonly used algorithms, and allows for privacy accounting that is close to that in the central setting without requiring the strong trust assumptions it entails. Second, we propose a system architecture that implements this primitive and perform a security analysis of the proposed system.",
+    "path": "papers/23/07/2307.15017.json",
+    "total_tokens": 632,
+    "translated_title": "私有联邦数据分析的可采样匿名聚合",
+    "translated_abstract": "在每个设备持有私有数据的情况下，我们重新审视设计可扩展的私有统计协议和私有联邦学习的问题。我们的第一个贡献是提出了一个简单的原语，可以有效地实现几种常用算法，并且可以在不需要强信任假设的情况下进行隐私账务，接近于集中设置中的隐私保护。其次，我们提出了一个实现该原语的系统架构，并对该系统进行了安全性分析。",
+    "tldr": "本论文在解决每个设备持有私有数据情况下的私有统计和私有联邦学习设计中，提出了一个简单的原语，以实现高效的算法，并在不需要强信任假设的情况下保护隐私。"
+}

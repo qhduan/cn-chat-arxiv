@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial Sleeping Bandit Problems with Multiple Plays: Algorithm and Ranking Application. (arXiv:2307.14549v1 [cs.LG])",
+    "abstract": "This paper presents an efficient algorithm to solve the sleeping bandit with multiple plays problem in the context of an online recommendation system. The problem involves bounded, adversarial loss and unknown i.i.d. distributions for arm availability. The proposed algorithm extends the sleeping bandit algorithm for single arm selection and is guaranteed to achieve theoretical performance with regret upper bounded by $\\bigO(kN^2\\sqrt{T\\log T})$, where $k$ is the number of arms selected per time step, $N$ is the total number of arms, and $T$ is the time horizon.",
+    "link": "http://arxiv.org/abs/2307.14549",
+    "context": "Title: Adversarial Sleeping Bandit Problems with Multiple Plays: Algorithm and Ranking Application. (arXiv:2307.14549v1 [cs.LG])\nAbstract: This paper presents an efficient algorithm to solve the sleeping bandit with multiple plays problem in the context of an online recommendation system. The problem involves bounded, adversarial loss and unknown i.i.d. distributions for arm availability. The proposed algorithm extends the sleeping bandit algorithm for single arm selection and is guaranteed to achieve theoretical performance with regret upper bounded by $\\bigO(kN^2\\sqrt{T\\log T})$, where $k$ is the number of arms selected per time step, $N$ is the total number of arms, and $T$ is the time horizon.",
+    "path": "papers/23/07/2307.14549.json",
+    "total_tokens": 702,
+    "translated_title": "带有多个游戏的对抗睡眠赌博问题：算法和排名应用",
+    "translated_abstract": "本论文介绍了在在线推荐系统中解决具有多个游戏的睡眠赌博问题的高效算法。该问题涉及有界的对抗性损失和未知的i.i.d.分布的武器可用性。该算法扩展了单武器选择的睡眠赌博算法，并保证达到理论性能，后悔上界为$\\bigO(kN^2\\sqrt{T\\log T})$，其中$k$是每个时间步选择的武器数量，$N$是总武器数量，$T$是时间范围。",
+    "tldr": "本论文提出了解决在线推荐系统中具有多个游戏的睡眠赌博问题的高效算法，该算法能够保证理论性能，并且后悔上界为$\\bigO(kN^2\\sqrt{T\\log T})$。",
+    "en_tdlr": "This paper presents an efficient algorithm to solve the sleeping bandit with multiple plays problem in the context of an online recommendation system, achieving theoretical performance with regret upper bounded by $\\bigO(kN^2\\sqrt{T\\log T})$."
+}

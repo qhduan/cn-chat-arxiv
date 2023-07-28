@@ -1,0 +1,11 @@
+{
+    "title": "Reinforcement learning guided fuzz testing for a browser's HTML rendering engine. (arXiv:2307.14556v1 [cs.AI])",
+    "abstract": "Generation-based fuzz testing can uncover various bugs and security vulnerabilities. However, compared to mutation-based fuzz testing, it takes much longer to develop a well-balanced generator that produces good test cases and decides where to break the underlying structure to exercise new code paths. We propose a novel approach to combine a trained test case generator deep learning model with a double deep Q-network (DDQN) for the first time. The DDQN guides test case creation based on a code coverage signal. Our approach improves the code coverage performance of the underlying generator model by up to 18.5\\% for the Firefox HTML rendering engine compared to the baseline grammar based fuzzer.",
+    "link": "http://arxiv.org/abs/2307.14556",
+    "context": "Title: Reinforcement learning guided fuzz testing for a browser's HTML rendering engine. (arXiv:2307.14556v1 [cs.AI])\nAbstract: Generation-based fuzz testing can uncover various bugs and security vulnerabilities. However, compared to mutation-based fuzz testing, it takes much longer to develop a well-balanced generator that produces good test cases and decides where to break the underlying structure to exercise new code paths. We propose a novel approach to combine a trained test case generator deep learning model with a double deep Q-network (DDQN) for the first time. The DDQN guides test case creation based on a code coverage signal. Our approach improves the code coverage performance of the underlying generator model by up to 18.5\\% for the Firefox HTML rendering engine compared to the baseline grammar based fuzzer.",
+    "path": "papers/23/07/2307.14556.json",
+    "total_tokens": 796,
+    "translated_title": "基于强化学习的模糊测试浏览器HTML渲染引擎",
+    "translated_abstract": "基于生成的模糊测试可以发现各种错误和安全漏洞。然而，与基于变异的模糊测试相比，开发一个能产生良好测试用例并决定在何处打破底层结构以执行新的代码路径的平衡生成器需要更长的时间。我们提出了一种新颖的方法，首次将训练好的测试用例生成深度学习模型与双深度Q网络（DDQN）结合起来。DDQN根据代码覆盖信号指导测试用例的创建。与基于基础语法模糊器相比，我们的方法将Firefox HTML渲染引擎的代码覆盖性能提高了高达18.5％。",
+    "tldr": "本文提出了一种基于强化学习的方法，将训练好的测试用例生成模型与双深度Q网络结合，用于模糊测试浏览器的HTML渲染引擎，提高了代码覆盖性能。基于基础语法模糊器相比，代码覆盖率提高了18.5%。"
+}

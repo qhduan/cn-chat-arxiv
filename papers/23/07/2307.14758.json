@@ -1,0 +1,11 @@
+{
+    "title": "Towards Practicable Sequential Shift Detectors. (arXiv:2307.14758v1 [cs.LG])",
+    "abstract": "There is a growing awareness of the harmful effects of distribution shift on the performance of deployed machine learning models. Consequently, there is a growing interest in detecting these shifts before associated costs have time to accumulate. However, desiderata of crucial importance to the practicable deployment of sequential shift detectors are typically overlooked by existing works, precluding their widespread adoption. We identify three such desiderata, highlight existing works relevant to their satisfaction, and recommend impactful directions for future research.",
+    "link": "http://arxiv.org/abs/2307.14758",
+    "context": "Title: Towards Practicable Sequential Shift Detectors. (arXiv:2307.14758v1 [cs.LG])\nAbstract: There is a growing awareness of the harmful effects of distribution shift on the performance of deployed machine learning models. Consequently, there is a growing interest in detecting these shifts before associated costs have time to accumulate. However, desiderata of crucial importance to the practicable deployment of sequential shift detectors are typically overlooked by existing works, precluding their widespread adoption. We identify three such desiderata, highlight existing works relevant to their satisfaction, and recommend impactful directions for future research.",
+    "path": "papers/23/07/2307.14758.json",
+    "total_tokens": 660,
+    "translated_title": "迈向可行的顺序变迁检测器",
+    "translated_abstract": "越来越多人意识到分布变迁对已部署的机器学习模型性能的有害影响。因此，在相关成本积累之前检测这些变迁引起了越来越多的兴趣。然而，现有的研究通常忽视了对于可行部署顺序变迁检测器至关重要的需求，从而限制了其广泛应用。我们确定了三个此类需求，并强调了与满足这些需求相关的现有研究，同时推荐了未来研究的有影响力的方向。",
+    "tldr": "这项研究讨论了在机器学习模型中分布变迁的有害影响，提出了顺序变迁检测器的可行部署需求，并推荐了未来研究的重要方向。"
+}

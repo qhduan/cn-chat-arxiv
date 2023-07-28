@@ -1,0 +1,12 @@
+{
+    "title": "How Can Large Language Models Help Humans in Design and Manufacturing?. (arXiv:2307.14377v1 [cs.CL])",
+    "abstract": "The advancement of Large Language Models (LLMs), including GPT-4, provides exciting new opportunities for generative design. We investigate the application of this tool across the entire design and manufacturing workflow. Specifically, we scrutinize the utility of LLMs in tasks such as: converting a text-based prompt into a design specification, transforming a design into manufacturing instructions, producing a design space and design variations, computing the performance of a design, and searching for designs predicated on performance. Through a series of examples, we highlight both the benefits and the limitations of the current LLMs. By exposing these limitations, we aspire to catalyze the continued improvement and progression of these models.",
+    "link": "http://arxiv.org/abs/2307.14377",
+    "context": "Title: How Can Large Language Models Help Humans in Design and Manufacturing?. (arXiv:2307.14377v1 [cs.CL])\nAbstract: The advancement of Large Language Models (LLMs), including GPT-4, provides exciting new opportunities for generative design. We investigate the application of this tool across the entire design and manufacturing workflow. Specifically, we scrutinize the utility of LLMs in tasks such as: converting a text-based prompt into a design specification, transforming a design into manufacturing instructions, producing a design space and design variations, computing the performance of a design, and searching for designs predicated on performance. Through a series of examples, we highlight both the benefits and the limitations of the current LLMs. By exposing these limitations, we aspire to catalyze the continued improvement and progression of these models.",
+    "path": "papers/23/07/2307.14377.json",
+    "total_tokens": 681,
+    "translated_title": "大型语言模型如何帮助人们在设计和制造中?",
+    "translated_abstract": "大型语言模型（LLMs）的发展，包括GPT-4，为生成设计提供了令人兴奋的新机会。我们研究了在整个设计和制造流程中应用该工具的可行性。具体而言，我们审查了LLMs在诸如将基于文本的提示转化为设计规范、将设计转化为制造指导、生成设计空间和设计变体、计算设计性能以及基于性能搜索设计等任务中的实用性。通过一系列例子，我们突出了当前LLMs的优点和局限性。通过揭示这些局限性，我们希望促进这些模型的持续改进和发展。",
+    "tldr": "大型语言模型在设计和制造中的应用潜力以及其限制",
+    "en_tdlr": "The study investigates the potential and limitations of Large Language Models (LLMs), specifically GPT-4, in various tasks in design and manufacturing workflow, aiming to catalyze further improvement and development of these models."
+}

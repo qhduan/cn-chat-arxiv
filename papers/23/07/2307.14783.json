@@ -1,0 +1,12 @@
+{
+    "title": "Emotion4MIDI: a Lyrics-based Emotion-Labeled Symbolic Music Dataset. (arXiv:2307.14783v1 [eess.AS])",
+    "abstract": "We present a new large-scale emotion-labeled symbolic music dataset consisting of 12k MIDI songs. To create this dataset, we first trained emotion classification models on the GoEmotions dataset, achieving state-of-the-art results with a model half the size of the baseline. We then applied these models to lyrics from two large-scale MIDI datasets. Our dataset covers a wide range of fine-grained emotions, providing a valuable resource to explore the connection between music and emotions and, especially, to develop models that can generate music based on specific emotions. Our code for inference, trained models, and datasets are available online.",
+    "link": "http://arxiv.org/abs/2307.14783",
+    "context": "Title: Emotion4MIDI: a Lyrics-based Emotion-Labeled Symbolic Music Dataset. (arXiv:2307.14783v1 [eess.AS])\nAbstract: We present a new large-scale emotion-labeled symbolic music dataset consisting of 12k MIDI songs. To create this dataset, we first trained emotion classification models on the GoEmotions dataset, achieving state-of-the-art results with a model half the size of the baseline. We then applied these models to lyrics from two large-scale MIDI datasets. Our dataset covers a wide range of fine-grained emotions, providing a valuable resource to explore the connection between music and emotions and, especially, to develop models that can generate music based on specific emotions. Our code for inference, trained models, and datasets are available online.",
+    "path": "papers/23/07/2307.14783.json",
+    "total_tokens": 793,
+    "translated_title": "Emotion4MIDI：基于歌词的带情感标签的符号音乐数据集",
+    "translated_abstract": "我们提出了一个新的大规模带情感标签的符号音乐数据集，包含12k个MIDI歌曲。为了创建这个数据集，我们首先在GoEmotions数据集上训练情感分类模型，使用一半大小的模型实现了最先进的结果。然后，我们将这些模型应用于两个大规模的MIDI数据集的歌词。我们的数据集涵盖了广泛的细粒度情感，为探索音乐和情感之间的联系，尤其是开发可以根据特定情感生成音乐的模型提供了宝贵的资源。我们的推断代码、训练模型和数据集都可以在线获取。",
+    "tldr": "Emotion4MIDI是一个包含12k个带情感标签的符号音乐数据集，通过在GoEmotions数据集上训练情感分类模型，并应用于两个大规模的MIDI数据集的歌词，提供了一个宝贵的资源来探索音乐和情感之间的联系，并开发可以根据特定情感生成音乐的模型。",
+    "en_tdlr": "Emotion4MIDI is a symbolic music dataset consisting of 12k MIDI songs labeled with emotions. By training emotion classification models on the GoEmotions dataset and applying them to lyrics from two large-scale MIDI datasets, it provides a valuable resource to explore the connection between music and emotions, and develop models that can generate music based on specific emotions."
+}

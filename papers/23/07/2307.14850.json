@@ -1,0 +1,12 @@
+{
+    "title": "Turkish Native Language Identification. (arXiv:2307.14850v1 [cs.CL])",
+    "abstract": "In this paper, we present the first application of Native Language Identification (NLI) for the Turkish language. NLI involves predicting the writer's first language by analysing their writing in different languages. While most NLI research has focused on English, our study extends its scope to Turkish. We used the recently constructed Turkish Learner Corpus and employed a combination of three syntactic features (CFG production rules, part-of-speech n-grams and function words) with L2 texts to demonstrate their effectiveness in this task.",
+    "link": "http://arxiv.org/abs/2307.14850",
+    "context": "Title: Turkish Native Language Identification. (arXiv:2307.14850v1 [cs.CL])\nAbstract: In this paper, we present the first application of Native Language Identification (NLI) for the Turkish language. NLI involves predicting the writer's first language by analysing their writing in different languages. While most NLI research has focused on English, our study extends its scope to Turkish. We used the recently constructed Turkish Learner Corpus and employed a combination of three syntactic features (CFG production rules, part-of-speech n-grams and function words) with L2 texts to demonstrate their effectiveness in this task.",
+    "path": "papers/23/07/2307.14850.json",
+    "total_tokens": 711,
+    "translated_title": "在这篇论文中，我们介绍了首次将母语识别（Native Language Identification，NLI）应用于土耳其语的研究。",
+    "translated_abstract": "在这篇论文中，我们首次将母语识别（NLI）应用于土耳其语。NLI 是通过分析作者不同语言的写作来预测作者的母语。尽管大多数NLI研究都侧重于英语，我们的研究将其范围扩展到土耳其语。我们使用了最近构建的土耳其学习者语料库，并结合了三个句法特征（CFG 产生规则，词性n-gram和函数词）与L2文本，以展示它们在该任务中的有效性。",
+    "tldr": "这项研究首次将母语识别应用于土耳其语,通过分析作者不同语言的写作来预测作者的母语。研究使用了土耳其学习者语料库和三个句法特征来展示其有效性。",
+    "en_tdlr": "This study presents the first application of Native Language Identification (NLI) for the Turkish language, predicting the writer's first language by analyzing their writing in different languages. The effectiveness of using a combination of three syntactic features with L2 texts is demonstrated using the recently constructed Turkish Learner Corpus."
+}

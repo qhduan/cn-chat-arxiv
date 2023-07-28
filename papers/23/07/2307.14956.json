@@ -1,0 +1,11 @@
+{
+    "title": "The Effect of Third Party Implementations on Reproducibility. (arXiv:2307.14956v1 [cs.IR])",
+    "abstract": "Reproducibility of recommender systems research has come under scrutiny during recent years. Along with works focusing on repeating experiments with certain algorithms, the research community has also started discussing various aspects of evaluation and how these affect reproducibility. We add a novel angle to this discussion by examining how unofficial third-party implementations could benefit or hinder reproducibility. Besides giving a general overview, we thoroughly examine six third-party implementations of a popular recommender algorithm and compare them to the official version on five public datasets. In the light of our alarming findings we aim to draw the attention of the research community to this neglected aspect of reproducibility.",
+    "link": "http://arxiv.org/abs/2307.14956",
+    "context": "Title: The Effect of Third Party Implementations on Reproducibility. (arXiv:2307.14956v1 [cs.IR])\nAbstract: Reproducibility of recommender systems research has come under scrutiny during recent years. Along with works focusing on repeating experiments with certain algorithms, the research community has also started discussing various aspects of evaluation and how these affect reproducibility. We add a novel angle to this discussion by examining how unofficial third-party implementations could benefit or hinder reproducibility. Besides giving a general overview, we thoroughly examine six third-party implementations of a popular recommender algorithm and compare them to the official version on five public datasets. In the light of our alarming findings we aim to draw the attention of the research community to this neglected aspect of reproducibility.",
+    "path": "papers/23/07/2307.14956.json",
+    "total_tokens": 805,
+    "translated_title": "第三方实现对可重复性的影响",
+    "translated_abstract": "在过去几年中，推荐系统研究的可重复性受到了关注。除了关注使用特定算法重复实验的工作外，研究界还开始讨论评估的各个方面以及它们如何影响可重复性。我们通过研究非官方第三方实现如何对可重复性产生影响，为这一讨论增加了一个新的角度。除了提供一般概述外，我们还彻底检查了六个流行推荐算法的第三方实现，并将它们与五个公开数据集上的官方版本进行了比较。根据我们令人震惊的发现，我们希望引起研究界对这个被忽视的可重复性方面的关注。",
+    "tldr": "本研究通过检查第三方实现如何对可重复性产生影响，为推荐系统研究的可重复性问题增加了一个新的角度。研究结果显示，非官方第三方实现可能会对可重复性产生不利影响，并呼吁研究界对这一被忽视的问题予以关注。"
+}

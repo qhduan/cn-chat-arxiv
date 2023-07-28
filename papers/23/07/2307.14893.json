@@ -1,0 +1,12 @@
+{
+    "title": "Base-based Model Checking for Multi-Agent Only Believing (long version). (arXiv:2307.14893v1 [cs.AI])",
+    "abstract": "We present a novel semantics for the language of multi-agent only believing exploiting belief bases, and show how to use it for automatically checking formulas of this language and of its dynamic extension with private belief expansion operators. We provide a PSPACE algorithm for model checking relying on a reduction to QBF and alternative dedicated algorithm relying on the exploration of the state space. We present an implementation of the QBF-based algorithm and some experimental results on computation time in a concrete example.",
+    "link": "http://arxiv.org/abs/2307.14893",
+    "context": "Title: Base-based Model Checking for Multi-Agent Only Believing (long version). (arXiv:2307.14893v1 [cs.AI])\nAbstract: We present a novel semantics for the language of multi-agent only believing exploiting belief bases, and show how to use it for automatically checking formulas of this language and of its dynamic extension with private belief expansion operators. We provide a PSPACE algorithm for model checking relying on a reduction to QBF and alternative dedicated algorithm relying on the exploration of the state space. We present an implementation of the QBF-based algorithm and some experimental results on computation time in a concrete example.",
+    "path": "papers/23/07/2307.14893.json",
+    "total_tokens": 620,
+    "translated_title": "基于基扩展的多智能体仅信任模型验证",
+    "translated_abstract": "我们提出了一种新颖的语义方法，利用信念基扩展，为多智能体仅信任语言以及其带有私有信念扩展运算符的动态扩展提供了自动检查公式的方法。我们提供了一个基于PSPACE算法的模型检查，依赖于对QBF的约简以及对状态空间的探索的另一种专用算法。我们展示了基于QBF算法的实现及在具体示例中的计算时间的一些实验结果。",
+    "tldr": "该论文提出了一种基于信念基扩展的多智能体仅信任模型验证方法，包括自动检查公式的PSPACE算法和探索状态空间的专用算法。",
+    "en_tdlr": "This paper presents a base-based model checking approach for multi-agent only believing, including a PSPACE algorithm for automatic formula checking and a dedicated algorithm for state space exploration."
+}

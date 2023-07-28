@@ -2,149 +2,107 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Causal Effects in Matching Mechanisms with Strategically Reported Preferences.](http://arxiv.org/abs/2307.14282) | 本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。 |
-| [^2] | [Socioeconomic agents as active matter in nonequilibrium Sakoda-Schelling models.](http://arxiv.org/abs/2307.14270) | 该研究通过考虑Sakoda-Schelling模型中的职业模型，揭示了社会经济代理人模型中的非平衡动力学，并在平均场近似下将其映射为主动物质描述。通过研究非互惠性互动，展示了非稳态的宏观行为。这一研究为地理相关的基于代理人的模型提供了统一的框架，有助于同时考虑人口和价格动态。 |
-| [^3] | [Dynamic Regression Discontinuity: A Within-Design Approach.](http://arxiv.org/abs/2307.14203) | 该论文提出了一种动态回归不连续性设计方法，用于确定经济可解释的时间间隔处理效应。研究采用了动态潜在结果模型，并特别对无预期和共同趋势限制进行了处理，以确定指定切点的冲击反应。估计量可以通过标准的局部多项式方法进行计算。 |
-| [^4] | [Power relations in Game Theory.](http://arxiv.org/abs/2307.14170) | 在博弈论中，我们通过将权力概念转化为玩家的效用组合来研究玩家之间的关系。通过将加权和乘积函数叠加到个体效用函数中，我们可以定义等级、互助和自由等全局指标，并测量它们对游戏均衡的影响。 |
-| [^5] | [Using Probabilistic Stated Preference Analyses to Understand Actual Choices.](http://arxiv.org/abs/2307.13966) | 使用概率陈述偏好分析方法，研究者可以使用实际选择纠正内源性影响，恢复因果效应。 |
-| [^6] | [The Core of Bayesian Persuasion.](http://arxiv.org/abs/2307.13849) | 该论文研究了在分析员无法观察代理人在特定收益条件下采取行动的情况下，分析员如何合理解释代理人选择的结果。通过综合信息设计中的顺从方法和Bayesian Persuasion中的信念方法，提出了一种解决方法，并应用于环形网络游戏和一阶Bayesian Persuasion游戏的公共信息结构一致性。 |
-| [^7] | [It's Not Always the Leader's Fault: How Informed Followers Can Undermine Efficient Leadership.](http://arxiv.org/abs/2307.13841) | 本文研究了跟随者的信息如何影响协调和高效领导。研究发现，当跟随者拥有不精确的信息时，效率可以实现；然而，当跟随者拥有准确的信息时，领导者可能无法协调他们，甚至可能采取低效行动。 |
-| [^8] | [Source Condition Double Robust Inference on Functionals of Inverse Problems.](http://arxiv.org/abs/2307.13793) | 本文提出了一种源条件双稳健推断方法，用于估计线性逆问题解的线性函数参数，无需知道哪个逆问题更良好，该方法能确保对感兴趣的参数的渐近正态性，并提供了对迭代Tikhonov正则化对抗估计器的新保证。 |
-| [^9] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
-| [^10] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
-| [^11] | [The Signaling Role of Leaders in Global Games.](http://arxiv.org/abs/2209.12426) | 这篇论文研究了领导者在全球博弈中的信号作用，通过研究完全信息的领导者和追随者团队面临的协调问题，提出了一个唯一的均衡策略，并讨论了对绿色技术采用、货币攻击和革命等现象的影响。 |
-| [^12] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
-| [^13] | [Nash equilibrium mapping vs Hamiltonian dynamics vs Darwinian evolution for some social dilemma games in the thermodynamic limit.](http://arxiv.org/abs/2103.00295) | 本文比较了达尔文进化论与Nash均衡映射这两种分析方法，以及数值代理模型和哈密顿动力学，发现在热力学极限下，达尔文进化论方法对于社交困境游戏的磁化率给出了错误的正面结果，而哈密顿动力学方法完全失败。 |
+| [^1] | [One-step nonparametric instrumental regression using smoothing splines.](http://arxiv.org/abs/2307.14867) | 这个论文提出了一种一步非参数的方法，使用平滑样条来处理内生性和仪器变量，同时解决了单调性限制的问题，并在估计Engel曲线时表现出良好性能。 |
+| [^2] | [Exploration of legal implications of air and space travel for international and domestic travel and the Environment.](http://arxiv.org/abs/2307.14661) | 本文概述了飞行和航天法律的法律方面，包括飞机事故调查、空中交通管制、国际边界和法律等，全面考察了飞行和航天旅行的法律影响，并提供了未来发展的潜力。 |
+| [^3] | [The misuse of law by Women in India -Constitutionality of Gender Bias.](http://arxiv.org/abs/2307.14651) | 印度妇女滥用法律，导致性别偏见和不公平对待，违背了宪法对性别平等的保障。 |
+| [^4] | [Long Tails, Automation and Labor.](http://arxiv.org/abs/2307.14525) | 这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。 |
+| [^5] | [Weak (Proxy) Factors Robust Hansen-Jagannathan Distance For Linear Asset Pricing Models.](http://arxiv.org/abs/2307.14499) | 本研究提出了两种HJ统计量的替代方法和相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且提供了一种新的鲁棒风险溢价估计方法。仿真实验和实证应用支持了这些方法的有效性。 |
+| [^6] | [Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models.](http://arxiv.org/abs/2307.14463) | 本文研究了用预测回归模型对非平稳自回归过程进行自助法估计的可行性，并通过蒙特卡罗实验验证了理论结果的统计有效性。 |
+| [^7] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
+| [^8] | [Revealed preferences for dynamically inconsistent models.](http://arxiv.org/abs/2305.14125) | 本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。 |
+| [^9] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^10] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
+| [^11] | [Are Large Traders Harmed by Front-running HFTs?.](http://arxiv.org/abs/2211.06046) | 高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。 |
+| [^12] | [The cost of strategy-proofness in school choice.](http://arxiv.org/abs/2204.07255) | 该研究比较了学校选择中最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）与最小化排名机制（RM）的结果，并发现RM在提高排名效率、改善最弱势学生安置、减少合理羡慕情况等方面具有显著的优势。 |
+| [^13] | [Dynamic covariate balancing: estimating treatment effects over time with potential local projections.](http://arxiv.org/abs/2103.01280) | 本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。 |
 
 # 详细
 
-[^1]: 匹配机制中的因果效应与策略性报告偏好
+[^1]: 一步非参数仪器回归使用平滑样条
 
-    Causal Effects in Matching Mechanisms with Strategically Reported Preferences. (arXiv:2307.14282v1 [econ.EM])
+    One-step nonparametric instrumental regression using smoothing splines. (arXiv:2307.14867v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.14282](http://arxiv.org/abs/2307.14282)
+    [http://arxiv.org/abs/2307.14867](http://arxiv.org/abs/2307.14867)
 
-    本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。
-
-    
-
-    越来越多的中央机构使用分配机制将学生分配到学校，以反映学生的偏好和学校的优先权。然而，大多数现实世界的机制会给学生提供一种策略性并误报他们的偏好的激励。在本文中，我们提供了一种识别因果效应的方法，该方法考虑了策略性的误报。误报可能使现有的点识别方法无效，我们推导出对策略行为鲁棒的因果效应的尖锐边界。我们的方法适用于任何机制，只要存在描述该机制分配规则的配对分数和截点。我们使用智利一个延迟接受机制的数据，该机制将学生分配到1000多个大学专业组合。学生出于策略考虑而行动，因为智利的机制限制了学生在偏好中提交的专业数量为八个。
-
-    A growing number of central authorities use assignment mechanisms to allocate students to schools in a way that reflects student preferences and school priorities. However, most real-world mechanisms give students an incentive to be strategic and misreport their preferences. In this paper, we provide an identification approach for causal effects of school assignment on future outcomes that accounts for strategic misreporting. Misreporting may invalidate existing point-identification approaches, and we derive sharp bounds for causal effects that are robust to strategic behavior. Our approach applies to any mechanism as long as there exist placement scores and cutoffs that characterize that mechanism's allocation rule. We use data from a deferred acceptance mechanism that assigns students to more than 1,000 university-major combinations in Chile. Students behave strategically because the mechanism in Chile constrains the number of majors that students submit in their preferences to eight
-    
-[^2]: 非平衡的Sakoda-Schelling模型中的社会经济代理人作为主动物质
-
-    Socioeconomic agents as active matter in nonequilibrium Sakoda-Schelling models. (arXiv:2307.14270v1 [cond-mat.stat-mech])
-
-    [http://arxiv.org/abs/2307.14270](http://arxiv.org/abs/2307.14270)
-
-    该研究通过考虑Sakoda-Schelling模型中的职业模型，揭示了社会经济代理人模型中的非平衡动力学，并在平均场近似下将其映射为主动物质描述。通过研究非互惠性互动，展示了非稳态的宏观行为。这一研究为地理相关的基于代理人的模型提供了统一的框架，有助于同时考虑人口和价格动态。
+    这个论文提出了一种一步非参数的方法，使用平滑样条来处理内生性和仪器变量，同时解决了单调性限制的问题，并在估计Engel曲线时表现出良好性能。
 
     
 
-    代理人的决策规则对于社会经济代理人模型有多么稳健？我们通过考虑一种类似Sakoda-Schelling模型的职业模型来解决这个问题，该模型在历史上被引入以揭示人类群体之间的隔离动力学。对于大类的效用函数和决策规则，我们确定了代理人动力学的非平衡性，同时恢复了类似平衡相分离的现象学。在平均场近似下，我们展示了该模型在一定程度上可以被映射为主动物质场描述（Active Model B）。最后，我们考虑了两个人群之间的非互惠性互动，并展示了它们如何导致非稳态的宏观行为。我们相信我们的方法提供了一个统一的框架，进一步研究地理相关的基于代理人的模型，尤其是在场论方法中同时考虑人口和价格动态的研究。
+    我们将非参数回归平滑样条扩展到一种情境，即存在内生性和使用仪器变量。与流行的现有估计方法不同，结果估计器是一步的，并依赖于唯一的正则化参数。我们导出了估计器及其一阶导数的均匀收敛速率。我们还解决了在估计中施加单调性的问题。模拟结果证实了我们的估计器与两步程序相比的良好性能。当用于估计Engel曲线时，我们的方法产生了经济上有意义的结果。
 
-    How robust are socioeconomic agent-based models with respect to the details of the agents' decision rule? We tackle this question by considering an occupation model in the spirit of the Sakoda-Schelling model, historically introduced to shed light on segregation dynamics among human groups. For a large class of utility functions and decision rules, we pinpoint the nonequilibrium nature of the agent dynamics, while recovering the equilibrium-like phase separation phenomenology. Within the mean field approximation we show how the model can be mapped, to some extent, onto an active matter field description (Active Model B). Finally, we consider non-reciprocal interactions between two populations, and show how they can lead to non-steady macroscopic behavior. We believe our approach provides a unifying framework to further study geography-dependent agent-based models, notably paving the way for joint consideration of population and price dynamics within a field theoretic approach.
+    We extend nonparametric regression smoothing splines to a context where there is endogeneity and instrumental variables are available. Unlike popular existing estimators, the resulting estimator is one-step and relies on a unique regularization parameter. We derive uniform rates of the convergence for the estimator and its first derivative. We also address the issue of imposing monotonicity in estimation. Simulations confirm the good performances of our estimator compared to two-step procedures. Our method yields economically sensible results when used to estimate Engel curves.
     
-[^3]: 动态回归不连续性：一种内部设计方法。
+[^2]: 探讨国际和国内旅行及环境中飞行和航天旅行的法律影响
 
-    Dynamic Regression Discontinuity: A Within-Design Approach. (arXiv:2307.14203v1 [econ.EM])
+    Exploration of legal implications of air and space travel for international and domestic travel and the Environment. (arXiv:2307.14661v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.14203](http://arxiv.org/abs/2307.14203)
+    [http://arxiv.org/abs/2307.14661](http://arxiv.org/abs/2307.14661)
 
-    该论文提出了一种动态回归不连续性设计方法，用于确定经济可解释的时间间隔处理效应。研究采用了动态潜在结果模型，并特别对无预期和共同趋势限制进行了处理，以确定指定切点的冲击反应。估计量可以通过标准的局部多项式方法进行计算。
-
-    
-
-    我提出了一种新颖的论证方法，用来在动态回归不连续性设计中确定经济可解释的时间间隔处理效应。具体而言，我发展了一个动态潜在结果模型，并特地对差异-in-differences文献中的两个假设进行了专门化处理，即无预期和共同趋势限制，以确定指定切点的冲击反应。与每个目标参数相关的估计量可以表示为两个静态回归不连续性设计结果对比的和，从而可以通过标准的局部多项式工具进行估计。我利用有限路径独立性假设来降低问题的维度。
-
-    I propose a novel argument to point identify economically interpretable intertemporal treatment effects in dynamic regression discontinuity designs (RDDs). Specifically, I develop a dynamic potential outcomes model and specialize two assumptions of the difference-in-differences literature, the no anticipation and common trends restrictions, to point identify cutoff-specific impulse responses. The estimand associated with each target parameter can be expressed as the sum of two static RDD outcome contrasts, thereby allowing for estimation via standard local polynomial tools. I leverage a limited path independence assumption to reduce the dimensionality of the problem.
-    
-[^4]: 博弈论中的权力关系
-
-    Power relations in Game Theory. (arXiv:2307.14170v1 [econ.TH])
-
-    [http://arxiv.org/abs/2307.14170](http://arxiv.org/abs/2307.14170)
-
-    在博弈论中，我们通过将权力概念转化为玩家的效用组合来研究玩家之间的关系。通过将加权和乘积函数叠加到个体效用函数中，我们可以定义等级、互助和自由等全局指标，并测量它们对游戏均衡的影响。
+    本文概述了飞行和航天法律的法律方面，包括飞机事故调查、空中交通管制、国际边界和法律等，全面考察了飞行和航天旅行的法律影响，并提供了未来发展的潜力。
 
     
 
-    玩家之间的权力概念可以通过它们的效用组合来表达。服从另一个玩家的玩家会考虑到支配者的效用。技术上，这是将一些加权和乘积函数叠加到个体效用函数上，其中权重可以通过反映玩家间权力关系的有向图来表示。然后可以定义一些系统的全局指标，如等级、互助和自由水平，并测量它们对游戏均衡的影响。
+    近年来，飞行和航天旅行的快速增长导致了对航空航天领域的法律监管需求的增加。本文概述了飞行和航天法律的相关内容，包括飞机事故调查、空中交通管制、国际边界和法律，以及航天活动的监管。随着飞行和航天旅行的日益复杂化，理解这些活动的法律影响变得至关重要。本文考察了飞行和航天法律的各种法律方面，包括国家政府、国际组织和私人实体的角色。它还概述了管理这些活动的法律框架和国际法的影响。最后，它考虑了飞行和航天法律领域未来发展的潜力。本文全面概述了飞行和航天旅行的法律方面及其对国际的影响。
 
-    The concept of power among players can be expressed as a combination of their utilities. A player who obeys another takes into account the utility of the dominant one. Technically it is a matter of superimposing some weighted sum or product function onto the individual utility function, where the weights can be represented through directed graphs that reflect a situation of power among the players. It is then possible to define some global indices of the system, such as the level of hierarchy, mutualism and freedom, and measure their effects on game equilibria.
+    The rapid growth of air and space travel in recent years has resulted in an increased demand for legal regulation in the aviation and aerospace fields. This paper provides an overview of air and space law, including the topics of aircraft accident investigations, air traffic control, international borders and law, and the regulation of space activities. With the increasing complexity of air and space travel, it is important to understand the legal implications of these activities. This paper examines the various legal aspects of air and space law, including the roles of national governments, international organizations, and private entities. It also provides an overview of the legal frameworks that govern these activities and the implications of international law. Finally, it considers the potential for future developments in the field of air and space law. This paper provides a comprehensive overview of the legal aspects of air and space travel and their implications for international
     
-[^5]: 使用概率陈述偏好分析理解实际选择
+[^3]: 印度妇女滥用法律-性别偏见的合宪性
 
-    Using Probabilistic Stated Preference Analyses to Understand Actual Choices. (arXiv:2307.13966v1 [econ.EM])
+    The misuse of law by Women in India -Constitutionality of Gender Bias. (arXiv:2307.14651v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.13966](http://arxiv.org/abs/2307.13966)
+    [http://arxiv.org/abs/2307.14651](http://arxiv.org/abs/2307.14651)
 
-    使用概率陈述偏好分析方法，研究者可以使用实际选择纠正内源性影响，恢复因果效应。
-
-    
-
-    "经由将概率陈述选择运用于理解实际选择，本研究提出了一种新方法。该方法适用于那些既能获取假设情景下的陈述选择，又能获取实际选择的研究者。其核心思想是使用概率陈述选择来识别个体未观测异质性的分布，即使存在测量误差。如果这种未观测异质性是内源性的源头，研究者可以通过实际选择纠正其影响，并恢复因果效应。使用现成的群组固定效应估计器可以进行估计。"
-
-    Can stated preferences help in counterfactual analyses of actual choice? This research proposes a novel approach to researchers who have access to both stated choices in hypothetical scenarios and actual choices. The key idea is to use probabilistic stated choices to identify the distribution of individual unobserved heterogeneity, even in the presence of measurement error. If this unobserved heterogeneity is the source of endogeneity, the researcher can correct for its influence in a demand function estimation using actual choices, and recover causal effects. Estimation is possible with an off-the-shelf Group Fixed Effects estimator.
-    
-[^6]: Bayesian Persuasion的核心
-
-    The Core of Bayesian Persuasion. (arXiv:2307.13849v1 [econ.TH])
-
-    [http://arxiv.org/abs/2307.13849](http://arxiv.org/abs/2307.13849)
-
-    该论文研究了在分析员无法观察代理人在特定收益条件下采取行动的情况下，分析员如何合理解释代理人选择的结果。通过综合信息设计中的顺从方法和Bayesian Persuasion中的信念方法，提出了一种解决方法，并应用于环形网络游戏和一阶Bayesian Persuasion游戏的公共信息结构一致性。
+    印度妇女滥用法律，导致性别偏见和不公平对待，违背了宪法对性别平等的保障。
 
     
 
-    分析员观察到一个代理人采取行动的频率，但并不观察到代理人在与收益相关的情况下采取行动的频率。在这种情况下，我们问分析员何时能够将代理人的选择合理化为代理人在采取行动之前学到了一些关于情况的信息。我们的刻画将信息设计中的顺从方法（Bergemann和Morris，2016）和Bayesian Persuasion中的信念方法（Kamenica和Gentzkow，2011）结合起来，依赖于Strassen（1965）的一个定理和Hall的婚姻定理。我们将结果应用于环形网络游戏，并确定一个数据集在一阶Bayesian Persuasion游戏中与公共信息结构一致的条件。
+    近年来，印度妇女滥用法律已成为一个严重问题，并引起了越来越多的关注。在印度，妇女经常受到歧视，没有得到平等的权利和机会，导致了许多方面的性别偏见。妇女滥用法律进一步加剧了这种性别偏见。有许多妇女利用法律来谋求自己的利益，往往以牺牲男性的利益为代价。这种行为不仅不道德，而且违宪。印度宪法并没有明确保障性别平等。然而，已对宪法进行了几次修正，以确保妇女在法律上得到平等对待。保护妇女免受一切形式的歧视被认为是一项基本权利。尽管如此，妇女在婚姻、教育、就业和其他领域仍然受到歧视。
 
-    An analyst observes the frequency with which an agent takes actions, but not the frequency with which she takes actions conditional on a payoff relevant state. In this setting, we ask when the analyst can rationalize the agent's choices as the outcome of the agent learning something about the state before taking action. Our characterization marries the obedience approach in information design (Bergemann and Morris, 2016) and the belief approach in Bayesian persuasion (Kamenica and Gentzkow, 2011) relying on a theorem by Strassen (1965) and Hall's marriage theorem. We apply our results to ring-network games and to identify conditions under which a data set is consistent with a public information structure in first-order Bayesian persuasion games.
+    The misuse of law by women in India is a serious issue that has been receiving increased attention in recent years. In India, women are often discriminated against and are not provided with equal rights and opportunities, leading to a gender bias in many aspects of life. This gender bias is further exacerbated by the misuse of law by women. There are numerous instances of women using the law to their advantage, often at the expense of men. This practice is not only unethical but also unconstitutional. The Indian Constitution does not explicitly guarantee gender equality. However, several amendments have been made to the Constitution to ensure that women are treated equally in accordance with the law. The protection of women from all forms of discrimination is considered a fundamental right. Despite this, women continue to be discriminated against in various spheres of life, including marriage, education, employment and other areas. The misuse of law by women in India is primarily seen 
     
-[^7]: 不总是领导的错：知情跟随者如何破坏高效领导
+[^4]: 长尾、自动化与劳动（arXiv:2307.14525v1 [econ.GN]）
 
-    It's Not Always the Leader's Fault: How Informed Followers Can Undermine Efficient Leadership. (arXiv:2307.13841v1 [econ.TH])
+    Long Tails, Automation and Labor. (arXiv:2307.14525v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.13841](http://arxiv.org/abs/2307.13841)
+    [http://arxiv.org/abs/2307.14525](http://arxiv.org/abs/2307.14525)
 
-    本文研究了跟随者的信息如何影响协调和高效领导。研究发现，当跟随者拥有不精确的信息时，效率可以实现；然而，当跟随者拥有准确的信息时，领导者可能无法协调他们，甚至可能采取低效行动。
-
-    
-
-    协调促进和高效决策是成功领导的两个基本组成部分。本文采用信息方法研究了跟随者的信息如何影响协调和高效领导，在一个包含领导者和跟随者的模型中进行调查。我们发现，在跟随者拥有足够不精确的信息时，效率可以作为一种合理的结果实现。相反，如果跟随者有准确的信息，领导者可能无法将他们协调到期望的结果，甚至可能采取低效的行动。我们讨论了结果对金融脆弱性和危机背景下领导者角色的影响。
-
-    Coordination facilitation and efficient decision-making are two essential components of successful leadership. In this paper, we take an informational approach and investigate how followers' information impacts coordination and efficient leadership in a model featuring a leader and a team of followers. We show that efficiency is achieved as the unique rationalizable outcome of the game when followers possess sufficiently imprecise information. In contrast, if followers have accurate information, the leader may fail to coordinate them toward the desired outcome or even take an inefficient action herself. We discuss the implications of the results for the role of leaders in the context of financial fragility and crises.
-    
-[^8]: 逆问题函数的源条件双稳健推断
-
-    Source Condition Double Robust Inference on Functionals of Inverse Problems. (arXiv:2307.13793v1 [stat.ME])
-
-    [http://arxiv.org/abs/2307.13793](http://arxiv.org/abs/2307.13793)
-
-    本文提出了一种源条件双稳健推断方法，用于估计线性逆问题解的线性函数参数，无需知道哪个逆问题更良好，该方法能确保对感兴趣的参数的渐近正态性，并提供了对迭代Tikhonov正则化对抗估计器的新保证。
+    这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。
 
     
 
-    本文考虑了线性逆问题解的线性函数参数的估计。任何这样的参数都有一个双稳健表示，该表示依赖于对偶线性逆问题的解，其中对偶解可以被视为逆倾向函数的推广。我们提供了第一个源条件双稳健推断方法，只要原始或对偶逆问题足够良好，无需知道哪个逆问题更良好，就能确保对感兴趣的参数的渐近正态性。我们的结果是通过对线性逆问题的迭代Tikhonov正则化对抗估计器在一般假设空间上的新的保证而实现的，这是一个独立发展的利益。
+    经济学中一个核心问题是自动化是否会取代人力劳动并降低生活水平。尽管先前的研究通常将这个问题视为人力劳动与机器之间的竞争，但我们将其视为人力消费者与人力供应者之间的竞争。具体而言，我们观察到人类的需求倾向于长尾分布，即一个包含大量利基产品的长列表，而这些产品在总需求上是具有重要地位的。反过来，这些长尾分布反映在满足这些需求的商品和服务中。在此背景下，我们提出了一个基于长尾分布的经济活动的理论模型，其中新型利基产出的需求创新与成熟产出的供应自动化创新相互竞争。我们的模型以仅四个参数（供应和需求的创新速度、长尾分布的指数和初始值）为基础，得出了自动化和劳动份额的分析表达式和渐近线。我们验证了该模型的有效性。
 
-    We consider estimation of parameters defined as linear functionals of solutions to linear inverse problems. Any such parameter admits a doubly robust representation that depends on the solution to a dual linear inverse problem, where the dual solution can be thought as a generalization of the inverse propensity function. We provide the first source condition double robust inference method that ensures asymptotic normality around the parameter of interest as long as either the primal or the dual inverse problem is sufficiently well-posed, without knowledge of which inverse problem is the more well-posed one. Our result is enabled by novel guarantees for iterated Tikhonov regularized adversarial estimators for linear inverse problems, over general hypothesis spaces, which are developments of independent interest.
+    A central question in economics is whether automation will displace human labor and diminish standards of living. Whilst prior works typically frame this question as a competition between human labor and machines, we frame it as a competition between human consumers and human suppliers. Specifically, we observe that human needs favor long tail distributions, i.e., a long list of niche items that are substantial in aggregate demand. In turn, the long tails are reflected in the goods and services that fulfill those needs. With this background, we propose a theoretical model of economic activity on a long tail distribution, where innovation in demand for new niche outputs competes with innovation in supply automation for mature outputs. Our model yields analytic expressions and asymptotes for the shares of automation and labor in terms of just four parameters: the rates of innovation in supply and demand, the exponent of the long tail distribution and an initial value. We validate the mod
     
-[^9]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
+[^5]: 弱（代理）因子鲁棒的Hansen-Jagannathan距离用于线性资产定价模型
 
-    Tuning-free testing of factor regression against factor-augmented sparse alternatives. (arXiv:2307.13364v1 [econ.EM])
+    Weak (Proxy) Factors Robust Hansen-Jagannathan Distance For Linear Asset Pricing Models. (arXiv:2307.14499v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.13364](http://arxiv.org/abs/2307.13364)
+    [http://arxiv.org/abs/2307.14499](http://arxiv.org/abs/2307.14499)
 
-    该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。
+    本研究提出了两种HJ统计量的替代方法和相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且提供了一种新的鲁棒风险溢价估计方法。仿真实验和实证应用支持了这些方法的有效性。
 
     
 
-    该研究引入了一种基于自助法的因子回归有效性测试方法，该方法在集成了因子回归和稀疏回归技术的高维因子增强稀疏回归模型中使用。该测试方法提供了一种评估经典（密集）因子回归模型与替代（稀疏加密集）因子增强稀疏回归模型的适用性的方式。我们提出的测试不需要调参，消除了估计协方差矩阵的需求，并且在实现上简单。该测试的有效性在时间序列相关性下在理论上得到了证明。通过模拟实验，我们展示了我们的方法在有限样本下的良好性能。此外，我们使用FRED-MD数据集应用了该测试，并在因变量为通胀时拒绝了经典因子回归模型的拟合性，但在因变量为工业生产时未拒绝。这些发现为选择适当模型提供了参考。
+    Hansen-Jagannathan (HJ)距离统计量是模型错误的最主要指标之一。然而，传统的HJ规范检验程序在有限样本下的性能较差，我们发现，即使在样本较大的情况下，当（代理）因子与资产收益呈较小的相关性时，它也可能尺寸扭曲。换句话说，应用研究人员很可能在模型正确规范的情况下错误地拒绝了该模型。我们提供了两种HJ统计量的替代方法和两种相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且我们还提供了一种新的鲁棒风险溢价估计方法。仿真实验支持我们的理论。我们的实证应用证明了传统HJ检验的不可靠性，因为当比较嵌套模型时，它可能产生不符合常理的结果，即拒绝了一个四因子模型但却没有拒绝降低至三因子模型。同时，我们提出的方法可以解决这个问题。
 
-    This study introduces a bootstrap test of the validity of factor regression within a high-dimensional factor-augmented sparse regression model that integrates factor and sparse regression techniques. The test provides a means to assess the suitability of the classical (dense) factor regression model compared to alternative (sparse plus dense) factor-augmented sparse regression models. Our proposed test does not require tuning parameters, eliminates the need to estimate covariance matrices, and offers simplicity in implementation. The validity of the test is theoretically established under time-series dependence. Through simulation experiments, we demonstrate the favorable finite sample performance of our procedure. Moreover, using the FRED-MD dataset, we apply the test and reject the adequacy of the classical factor regression model when the dependent variable is inflation but not when it is industrial production. These findings offer insights into selecting appropriate models for high
+    The Hansen-Jagannathan (HJ) distance statistic is one of the most dominant measures of model misspecification. However, the conventional HJ specification test procedure has poor finite sample performance, and we show that it can be size distorted even in large samples when (proxy) factors exhibit small correlations with asset returns. In other words, applied researchers are likely to falsely reject a model even when it is correctly specified. We provide two alternatives for the HJ statistic and two corresponding novel procedures for model specification tests, which are robust against the presence of weak (proxy) factors, and we also offer a novel robust risk premia estimator. Simulation exercises support our theory. Our empirical application documents the non-reliability of the traditional HJ test since it may produce counter-intuitive results when comparing nested models by rejecting a four-factor model but not the reduced three-factor model. At the same time, our proposed methods are
     
-[^10]: 解析协调问题
+[^6]: 用预测回归模型对非平稳自回归过程进行自助法估计
+
+    Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models. (arXiv:2307.14463v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.14463](http://arxiv.org/abs/2307.14463)
+
+    本文研究了用预测回归模型对非平稳自回归过程进行自助法估计的可行性，并通过蒙特卡罗实验验证了理论结果的统计有效性。
+
+    
+
+    我们建立了Phillips和Magdalinos（2009）提出的基于自助法的IVX估计器在预测回归模型参数上的渐近有效性，该模型参数基于自回归系数的局部到单位规范，可以覆盖几乎非平稳和几乎平稳的过程。我们得到了基于自助法的IVX估计器的混合高斯极限分布。通过蒙特卡罗实验，我们对各种统计推断问题的理论结果的统计有效性进行了说明。
+
+    We establish the asymptotic validity of the bootstrap-based IVX estimator proposed by Phillips and Magdalinos (2009) for the predictive regression model parameter based on a local-to-unity specification of the autoregressive coefficient which covers both nearly nonstationary and nearly stationary processes. A mixed Gaussian limit distribution is obtained for the bootstrap-based IVX estimator. The statistical validity of the theoretical results are illustrated by Monte Carlo experiments for various statistical inference problems.
+    
+[^7]: 解析协调问题
 
     Unraveling Coordination Problems. (arXiv:2307.08557v1 [econ.TH])
 
@@ -158,46 +116,88 @@
 
     This paper studies policy design in coordination problems. In coordination games, a subsidy raises player $i$'s incentive to play the subsidized action. This raises $j$'s incentive to play the same action, which further incentivizes $i$, and so on. Building upon this ``unraveling effect'', we characterize the subsidies that implement a given outcome of the game as its unique equilibrium. Among other properties, we establish that subsidies are: (i) symmetric for identical players; (ii) globally continuous in model parameters; (iii) increasing in opportunity costs; and (iv) decreasing in spillovers. Applications of the model include joint investment problems, participation decisions, and principal-agent contracting.
     
-[^11]: 领导者在全球博弈中的信号作用研究
+[^8]: 动态不一致模型的显性偏好
 
-    The Signaling Role of Leaders in Global Games. (arXiv:2209.12426v2 [econ.TH] UPDATED)
+    Revealed preferences for dynamically inconsistent models. (arXiv:2305.14125v1 [econ.TH])
 
-    [http://arxiv.org/abs/2209.12426](http://arxiv.org/abs/2209.12426)
+    [http://arxiv.org/abs/2305.14125](http://arxiv.org/abs/2305.14125)
 
-    这篇论文研究了领导者在全球博弈中的信号作用，通过研究完全信息的领导者和追随者团队面临的协调问题，提出了一个唯一的均衡策略，并讨论了对绿色技术采用、货币攻击和革命等现象的影响。
-
-    
-
-    这篇论文中，我们研究了领导者在全球博弈框架中的信号作用。通过研究完全信息的领导者和追随者团队面临的协调问题，我们给出了一个必要且充分的条件，使得单调均衡策略能够唯一地达到$\Delta$-合理化，并且保证均衡的唯一性。此外，这个唯一的均衡是完全高效的。当领导者观察到一个噪音信号而不是真实状态时，这个结果仍然成立，但可能无法达到完全的效率。我们讨论了这些结果对广泛的现象，如绿色技术的采用、货币攻击和革命等的影响。
-
-    How important are leaders' actions in facilitating coordination? In this paper, we investigate their signaling role in a global games framework. A perfectly informed leader and a team of followers face a coordination problem. Despite the endogenous information generated by the leader's action, we provide a necessary and sufficient condition that makes the monotone equilibrium strategy profile uniquely $\Delta$-rationalizable and hence guarantees equilibrium uniqueness. Moreover, the unique equilibrium is fully efficient. This result remains valid when the leader observes a noisy signal about the true state except full efficiency may not be obtained. We discuss the implications of our results for a broad class of phenomena such as adoption of green technology, currency attacks and revolutions.
-    
-[^12]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
-
-    More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2103.06437](http://arxiv.org/abs/2103.06437)
-
-    本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+    本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。
 
     
 
-    我们证明，面板Bartik回归可以确定位置和时间特定的治疗效应的非凸组合。因此，在存在异质效应的情况下，这些回归可能存在偏差。我们提出了一种替代的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应。我们重新审视了Autor等人（2013）的研究，他们使用面板Bartik回归估计中美进口对美国制造业就业的影响。他们的回归估计了高度非凸的效应组合，我们的IV-CRC估计器很小且不显著：在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+    本文探讨了动态不一致选择模型的可测试预测，当计划选择不可观测时，只有“on path”数据可用。首先，我们讨论了Blow、Browning和Crawford (2021)的方法，他们表征了准拟超几何贴现模型的一阶合理性。我们表明，一阶方法不能保证通过准拟超几何模型来实现理性化。这促使我们考虑一种跨时间选择的抽象模型，我们在此模型下提供了不同行为模型的表征，包括动态不一致选择的天真和复杂范例。
 
-    We show that panel Bartik regressions identify non-convex combinations of location-and-period-specific treatment effects. Thus, those regressions could be biased in the presence of heterogeneous effects. We propose an alternative instrumental-variable correlated-random-coefficient (IV-CRC) estimator, that is more robust to heterogeneous effects. We revisit Autor et al. (2013), who use a panel Bartik regression to estimate the effect of imports from China on US manufacturing employment. Their regression estimates a highly non-convex combination of effects, and our IV-CRC estimator is small and insignificant: without assuming constant effects, one cannot conclude that imports from China negatively affected US manufacturing employment.
+    We study the testable implications of models of dynamically inconsistent choices when planned choices are unobservable, and thus only "on path" data is available. First, we discuss the approach in Blow, Browning and Crawford (2021), who characterize first-order rationalizability of the model of quasi-hyperbolic discounting. We show that the first-order approach does not guarantee rationalizability by means of the quasi-hyperbolic model. This motivates consideration of an abstract model of intertemporal choice, under which we provide a characterization of different behavioral models -- including the naive and sophisticated paradigms of dynamically inconsistent choice.
     
-[^13]: Nash均衡映射与哈密顿动力学与达尔文进化论在一些社交困境游戏的热力学极限中的比较
+[^9]: 期权的价格发现
 
-    Nash equilibrium mapping vs Hamiltonian dynamics vs Darwinian evolution for some social dilemma games in the thermodynamic limit. (arXiv:2103.00295v2 [cond-mat.stat-mech] UPDATED)
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2103.00295](http://arxiv.org/abs/2103.00295)
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
 
-    本文比较了达尔文进化论与Nash均衡映射这两种分析方法，以及数值代理模型和哈密顿动力学，发现在热力学极限下，达尔文进化论方法对于社交困境游戏的磁化率给出了错误的正面结果，而哈密顿动力学方法完全失败。
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
 
     
 
-    如何在社交困境游戏的热力学或无穷大参与者限制条件下合作如何演化和显现出来是一个引起强烈推测的问题。已经提出了各种分析方法来分析社交困境的热力学极限。在这项工作中，我们将两种分析方法，即达尔文进化论和Nash均衡映射与数值代理模型进行了比较。为了完整性，我们还给出了另一种分析方法，即哈密顿动力学的结果。与涉及最大化所有个体收益的哈密顿动力学不同，达尔文进化论方法是针对与最近邻个体之间的互动最大化单个玩家的收益。与Nash均衡映射相比，哈密顿动力学方法完全失败，而达尔文进化论方法在支付满足条件a + d = b时对于游戏磁化率——合作者和缺乏合作者之间比例的净差异——给出了一个错误的正面结果。
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
 
-    How cooperation evolves and manifests itself in the thermodynamic or infinite player limit of social dilemma games is a matter of intense speculation. Various analytical methods have been proposed to analyze the thermodynamic limit of social dilemmas. In this work, we compare two analytical methods, i.e., Darwinian evolution and Nash equilibrium mapping, with a numerical agent-based approach. For completeness, we also give results for another analytical method, Hamiltonian dynamics. In contrast to Hamiltonian dynamics, which involves the maximization of payoffs of all individuals, in Darwinian evolution, the payoff of a single player is maximized with respect to its interaction with the nearest neighbor. While the Hamiltonian dynamics method utterly fails as compared to Nash equilibrium mapping, the Darwinian evolution method gives a false positive for game magnetization -- the net difference between the fraction of cooperators and defectors -- when payoffs obey the condition a + d = b
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^10]: 两部门增长经济体中理性资产价格泡沫的必要性。
+
+    Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies. (arXiv:2211.13100v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2211.13100](http://arxiv.org/abs/2211.13100)
+
+    本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。
+
+    
+
+    我们提出了合理的经济模型，其中存在具有理性资产价格泡沫的均衡，但资产价格等于基本价值的均衡不存在。这些经济体具有比股利增长更快的多个部门的增长。在我们的两部门内生增长模型中，创业者可以获得受特异性投资风险（技术部门）影响的生产技术，并交易支付股息的资产（土地）。当杠杆超过临界值时，唯一的趋势稳态均衡表现出从基本状态到具有增长的泡沫状态的相变，这意味着在宽松的金融条件下泡沫的不可避免性。
+
+    We present plausible economic models in which an equilibrium with rational asset price bubbles exists but equilibria with asset prices equal to fundamental values do not. These economies feature multiple sectors with faster economic growth than dividend growth. In our two-sector endogenous growth model, entrepreneurs have access to a production technology subject to idiosyncratic investment risk (tech sector) and trade a dividend-paying asset (land). When leverage is relaxed beyond a critical value, the unique trend stationary equilibrium exhibits a phase transition from the fundamental regime to the bubbly regime with growth, implying the inevitability of bubbles with loose financial conditions.
+    
+[^11]: 高频交易对大型交易者是否有害？
+
+    Are Large Traders Harmed by Front-running HFTs?. (arXiv:2211.06046v2 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/2211.06046](http://arxiv.org/abs/2211.06046)
+
+    高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。
+
+    
+
+    本文研究了高频交易者（HFT）对大型交易者的影响，后者的未来交易被前者预测。我们得出结论：HFT总是先行交易，当出现足够的高速噪音交易和HFT的预测足够模糊时，大型交易者受益。此外，令人惊讶的是：（1）使HFT的预测不准确可能会降低大型交易者的利润；（2）当存在较少的高速噪音交易时，尽管HFT几乎没有作为，大型交易者仍会受到伤害。
+
+    This paper studies the influences of a high-frequency trader (HFT) on a large trader whose future trading is predicted by the former. We conclude that HFT always front-runs and the large trader is benefited when: (1) there is sufficient high-speed noise trading; (2) HFT's prediction is vague enough. Besides, we find surprisingly that (1) making HFT's prediction less accurate might decrease large trader's profit; (2) when there is little high-speed noise trading, although HFT nearly does nothing, the large trader is still hurt.
+    
+[^12]: 学校选择中的战略无偏性成本
+
+    The cost of strategy-proofness in school choice. (arXiv:2204.07255v6 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2204.07255](http://arxiv.org/abs/2204.07255)
+
+    该研究比较了学校选择中最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）与最小化排名机制（RM）的结果，并发现RM在提高排名效率、改善最弱势学生安置、减少合理羡慕情况等方面具有显著的优势。
+
+    
+
+    我们比较了最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）以及由最小化排名机制（RM）生成的分配结果。虽然人们预期RM在排名效率方面优于DA和TTC，但改善的规模仍然令人惊讶。此外，虽然RM并非明确设计用于此目的，但它也显著改善了最弱势学生的安置情况。此外，RM产生的合理羡慕情况比TTC要少。我们通过布达佩斯学校录取数据证实了我们的发现。
+
+    We compare the outcomes of the most prominent strategy-proof and stable algorithm (Deferred Acceptance, DA) and the most prominent strategy-proof and Pareto optimal algorithm (Top Trading Cycles, TTC) to the allocation generated by the rank-minimizing mechanism (RM). While one would expect that RM improves upon both DA and TTC in terms of rank efficiency, the size of the improvement is nonetheless surprising. Moreover, while it is not explicitly designed to do so, RM also significantly improves the placement of the worst-off student. Furthermore, RM generates less justified envy than TTC. We corroborate our findings using data on school admissions in Budapest.
+    
+[^13]: 动态协变量平衡：基于潜在局部投影的治疗效果随时间估计
+
+    Dynamic covariate balancing: estimating treatment effects over time with potential local projections. (arXiv:2103.01280v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2103.01280](http://arxiv.org/abs/2103.01280)
+
+    本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。
+
+    
+
+    本文研究了面板数据中治疗历史的估计和推断问题，特别是在治疗在时间上动态变化的情况下。我们提出了一种方法，允许治疗根据高维协变量、过去的结果和治疗动态分配，同时考虑结果和时间变化的协变量与治疗轨迹的关系，以及治疗效应的异质性。我们的方法通过在过去历史上对潜在结果期望进行递归投影，然后通过平衡动态可观测特征来控制偏差。我们研究了估计量的渐近性质和数值特性，并在实证应用中展示了该方法的优势。
+
+    This paper studies the estimation and inference of treatment histories in panel data settings when treatments change dynamically over time.  We propose a method that allows for (i) treatments to be assigned dynamically over time based on high-dimensional covariates, past outcomes and treatments; (ii) outcomes and time-varying covariates to depend on treatment trajectories; (iii) heterogeneity of treatment effects.  Our approach recursively projects potential outcomes' expectations on past histories. It then controls the bias by balancing dynamically observable characteristics. We study the asymptotic and numerical properties of the estimator and illustrate the benefits of the procedure in an empirical application.
     
 

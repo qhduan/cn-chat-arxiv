@@ -1,0 +1,12 @@
+{
+    "title": "What Makes a Good Paraphrase: Do Automated Evaluations Work?. (arXiv:2307.14818v1 [cs.CL])",
+    "abstract": "Paraphrasing is the task of expressing an essential idea or meaning in different words. But how different should the words be in order to be considered an acceptable paraphrase? And can we exclusively use automated metrics to evaluate the quality of a paraphrase? We attempt to answer these questions by conducting experiments on a German data set and performing automatic and expert linguistic evaluation.",
+    "link": "http://arxiv.org/abs/2307.14818",
+    "context": "Title: What Makes a Good Paraphrase: Do Automated Evaluations Work?. (arXiv:2307.14818v1 [cs.CL])\nAbstract: Paraphrasing is the task of expressing an essential idea or meaning in different words. But how different should the words be in order to be considered an acceptable paraphrase? And can we exclusively use automated metrics to evaluate the quality of a paraphrase? We attempt to answer these questions by conducting experiments on a German data set and performing automatic and expert linguistic evaluation.",
+    "path": "papers/23/07/2307.14818.json",
+    "total_tokens": 565,
+    "translated_title": "什么是一个好的改写：自动评估是否有效？",
+    "translated_abstract": "改写是用不同的词语表达一个重要思想或含义的任务。但是为了被认为是可接受的改写，这些词语应该有多么不同？我们可以仅使用自动评估指标来评估改写的质量吗？我们通过对一个德语数据集进行实验，并进行自动和专家语言评估来尝试回答这些问题。",
+    "tldr": "本文研究了一个好的改写应该是什么样的，是否可以仅使用自动评估来评估改写的质量。研究通过实验和专家评估得出结论。",
+    "en_tdlr": "This paper investigates what makes a good paraphrase and whether automated evaluations can be used to assess the quality of a paraphrase. The study concludes by conducting experiments and expert evaluations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On the non-efficient PAC learnability of conjunctive queries. (arXiv:2208.10255v2 [cs.DB] UPDATED)",
+    "abstract": "This note serves three purposes: (i) we provide a self-contained exposition of the fact that conjunctive queries are not efficiently learnable in the Probably-Approximately-Correct (PAC) model, paying clear attention to the complicating fact that this concept class lacks the polynomial-size fitting property, a property that is tacitly assumed in much of the computational learning theory literature; (ii) we establish a strong negative PAC learnability result that applies to many restricted classes of conjunctive queries (CQs), including acyclic CQs for a wide range of notions of \"acyclicity\"; (iii) we show that CQs (and UCQs) are efficiently PAC learnable with membership queries.",
+    "link": "http://arxiv.org/abs/2208.10255",
+    "context": "Title: On the non-efficient PAC learnability of conjunctive queries. (arXiv:2208.10255v2 [cs.DB] UPDATED)\nAbstract: This note serves three purposes: (i) we provide a self-contained exposition of the fact that conjunctive queries are not efficiently learnable in the Probably-Approximately-Correct (PAC) model, paying clear attention to the complicating fact that this concept class lacks the polynomial-size fitting property, a property that is tacitly assumed in much of the computational learning theory literature; (ii) we establish a strong negative PAC learnability result that applies to many restricted classes of conjunctive queries (CQs), including acyclic CQs for a wide range of notions of \"acyclicity\"; (iii) we show that CQs (and UCQs) are efficiently PAC learnable with membership queries.",
+    "path": "papers/22/08/2208.10255.json",
+    "total_tokens": 742,
+    "translated_title": "论连词查询的非高效PAC可学习性",
+    "translated_abstract": "这篇论文有三个目的：(i)我们提供了一个自包含的阐述，证明了连词查询在可能-近似正确(PAC)模型中没有高效可学习性，清楚地注意到这个概念类在很多计算学习理论文献中暗含的多项式规模适应性缺失；(ii)我们建立了一个强大的负面PAC可学习性结果，适用于许多限制类别的连词查询(CQs)，包括广义的“无环性”；(iii)我们展示了连词查询和UCQs通过成员查询是可以高效PAC可学习的。",
+    "tldr": "这篇论文阐述了连词查询在PAC模型中的非高效可学习性，针对不同变种的连词查询提出了负面可学习性结果，并展示了通过成员查询可以高效学习连词查询和UCQs。",
+    "en_tdlr": "This paper discusses the non-efficient PAC learnability of conjunctive queries, presents negative learnability results for different variations of conjunctive queries, and demonstrates efficient PAC learning of conjunctive queries and UCQs using membership queries."
+}

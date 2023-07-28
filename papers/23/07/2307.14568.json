@@ -1,0 +1,11 @@
+{
+    "title": "Evaluation of Safety Constraints in Autonomous Navigation with Deep Reinforcement Learning. (arXiv:2307.14568v1 [cs.RO])",
+    "abstract": "While reinforcement learning algorithms have had great success in the field of autonomous navigation, they cannot be straightforwardly applied to the real autonomous systems without considering the safety constraints. The later are crucial to avoid unsafe behaviors of the autonomous vehicle on the road. To highlight the importance of these constraints, in this study, we compare two learnable navigation policies: safe and unsafe. The safe policy takes the constraints into account, while the other does not. We show that the safe policy is able to generate trajectories with more clearance (distance to the obstacles) and makes less collisions while training without sacrificing the overall performance.",
+    "link": "http://arxiv.org/abs/2307.14568",
+    "context": "Title: Evaluation of Safety Constraints in Autonomous Navigation with Deep Reinforcement Learning. (arXiv:2307.14568v1 [cs.RO])\nAbstract: While reinforcement learning algorithms have had great success in the field of autonomous navigation, they cannot be straightforwardly applied to the real autonomous systems without considering the safety constraints. The later are crucial to avoid unsafe behaviors of the autonomous vehicle on the road. To highlight the importance of these constraints, in this study, we compare two learnable navigation policies: safe and unsafe. The safe policy takes the constraints into account, while the other does not. We show that the safe policy is able to generate trajectories with more clearance (distance to the obstacles) and makes less collisions while training without sacrificing the overall performance.",
+    "path": "papers/23/07/2307.14568.json",
+    "total_tokens": 804,
+    "translated_title": "深度强化学习在自主导航中对安全约束的评估",
+    "translated_abstract": "尽管强化学习算法在自主导航领域取得了巨大的成功，但在考虑到安全限制的情况下，它们不能直接应用于真实的自主系统中。这些限制对于避免自动驾驶车辆在道路上出现不安全行为至关重要。为了凸显这些限制的重要性，在本研究中，我们比较了两种可学习的导航策略：安全策略和不安全策略。安全策略考虑到了约束条件，而另一种策略则没有。我们展示了在训练过程中，安全策略能够生成具有更大安全间隙（与障碍物的距离）并且发生更少碰撞的轨迹，而不损害整体性能。",
+    "tldr": "本研究评估了在深度强化学习中考虑安全约束的自主导航，在比较了安全和不安全两种学习策略后发现，安全策略能够生成更安全的轨迹，避免碰撞，而不影响整体性能。"
+}

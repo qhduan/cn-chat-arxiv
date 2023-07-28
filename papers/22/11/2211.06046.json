@@ -1,0 +1,12 @@
+{
+    "title": "Are Large Traders Harmed by Front-running HFTs?. (arXiv:2211.06046v2 [q-fin.TR] UPDATED)",
+    "abstract": "This paper studies the influences of a high-frequency trader (HFT) on a large trader whose future trading is predicted by the former. We conclude that HFT always front-runs and the large trader is benefited when: (1) there is sufficient high-speed noise trading; (2) HFT's prediction is vague enough. Besides, we find surprisingly that (1) making HFT's prediction less accurate might decrease large trader's profit; (2) when there is little high-speed noise trading, although HFT nearly does nothing, the large trader is still hurt.",
+    "link": "http://arxiv.org/abs/2211.06046",
+    "context": "Title: Are Large Traders Harmed by Front-running HFTs?. (arXiv:2211.06046v2 [q-fin.TR] UPDATED)\nAbstract: This paper studies the influences of a high-frequency trader (HFT) on a large trader whose future trading is predicted by the former. We conclude that HFT always front-runs and the large trader is benefited when: (1) there is sufficient high-speed noise trading; (2) HFT's prediction is vague enough. Besides, we find surprisingly that (1) making HFT's prediction less accurate might decrease large trader's profit; (2) when there is little high-speed noise trading, although HFT nearly does nothing, the large trader is still hurt.",
+    "path": "papers/22/11/2211.06046.json",
+    "total_tokens": 668,
+    "translated_title": "高频交易对大型交易者是否有害？",
+    "translated_abstract": "本文研究了高频交易者（HFT）对大型交易者的影响，后者的未来交易被前者预测。我们得出结论：HFT总是先行交易，当出现足够的高速噪音交易和HFT的预测足够模糊时，大型交易者受益。此外，令人惊讶的是：（1）使HFT的预测不准确可能会降低大型交易者的利润；（2）当存在较少的高速噪音交易时，尽管HFT几乎没有作为，大型交易者仍会受到伤害。",
+    "tldr": "高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。",
+    "en_tdlr": "Large traders are harmed by high-frequency traders (HFTs), unless there is sufficient high-speed noise trading and the prediction by HFTs is vague enough."
+}
