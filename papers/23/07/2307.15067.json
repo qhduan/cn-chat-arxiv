@@ -1,0 +1,12 @@
+{
+    "title": "Set-Membership Inference Attacks using Data Watermarking. (arXiv:2307.15067v1 [cs.CV])",
+    "abstract": "In this work, we propose a set-membership inference attack for generative models using deep image watermarking techniques. In particular, we demonstrate how conditional sampling from a generative model can reveal the watermark that was injected into parts of the training data. Our empirical results demonstrate that the proposed watermarking technique is a principled approach for detecting the non-consensual use of image data in training generative models.",
+    "link": "http://arxiv.org/abs/2307.15067",
+    "context": "Title: Set-Membership Inference Attacks using Data Watermarking. (arXiv:2307.15067v1 [cs.CV])\nAbstract: In this work, we propose a set-membership inference attack for generative models using deep image watermarking techniques. In particular, we demonstrate how conditional sampling from a generative model can reveal the watermark that was injected into parts of the training data. Our empirical results demonstrate that the proposed watermarking technique is a principled approach for detecting the non-consensual use of image data in training generative models.",
+    "path": "papers/23/07/2307.15067.json",
+    "total_tokens": 618,
+    "translated_title": "使用数据水印技术进行集合成员推理攻击",
+    "translated_abstract": "在这项工作中，我们提出了一种使用深度图像水印技术进行生成模型的集合成员推理攻击。具体来说，我们展示了如何从生成模型中进行条件采样，以揭示注入到训练数据部分的水印。我们的实证结果表明，所提出的水印技术是一种检测非协商使用图像数据训练生成模型的原则性方法。",
+    "tldr": "本文提出了一种使用深度图像水印技术进行生成模型的集合成员推理攻击，通过条件采样揭示训练数据中的水印，并证明该技术能够有效检测非法使用图像数据训练模型。",
+    "en_tdlr": "This paper proposes a set-membership inference attack for generative models using deep image watermarking techniques. It demonstrates how conditional sampling can reveal the watermark in the training data and shows that this technique is effective in detecting the unauthorized use of image data in training models."
+}

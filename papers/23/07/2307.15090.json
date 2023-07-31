@@ -1,0 +1,12 @@
+{
+    "title": "Understanding Forward Process of Convolutional Neural Network. (arXiv:2307.15090v1 [cs.LG])",
+    "abstract": "This paper reveal the selective rotation in the CNNs' forward processing. It elucidates the activation function as a discerning mechanism that unifies and quantizes the rotational aspects of the input data. Experiments show how this defined methodology reflects the progress network distinguish inputs based on statistical indicators, which can be comprehended or analyzed by applying structured mathematical tools. Our findings also unveil the consistency between artificial neural networks and the human brain in their data processing pattern.",
+    "link": "http://arxiv.org/abs/2307.15090",
+    "context": "Title: Understanding Forward Process of Convolutional Neural Network. (arXiv:2307.15090v1 [cs.LG])\nAbstract: This paper reveal the selective rotation in the CNNs' forward processing. It elucidates the activation function as a discerning mechanism that unifies and quantizes the rotational aspects of the input data. Experiments show how this defined methodology reflects the progress network distinguish inputs based on statistical indicators, which can be comprehended or analyzed by applying structured mathematical tools. Our findings also unveil the consistency between artificial neural networks and the human brain in their data processing pattern.",
+    "path": "papers/23/07/2307.15090.json",
+    "total_tokens": 608,
+    "translated_title": "理解卷积神经网络的前向过程",
+    "translated_abstract": "本文揭示了CNN前向处理中的选择性旋转。它阐明了激活函数作为一个分析机制，将输入数据的旋转方面统一量化。实验证明，这种定义的方法论反映了进程网络根据统计指标区分输入的能力，可以通过应用结构化的数学工具来理解或分析。我们的发现还揭示了人工神经网络和人脑在数据处理模式上的一致性。",
+    "tldr": "本文揭示了CNN前向处理中的选择性旋转机制，并通过使用结构化数学工具对数据进行统计和分析，发现了人工神经网络和人脑在数据处理模式上的一致性。",
+    "en_tdlr": "This paper reveals the selective rotation mechanism in the forward processing of CNNs and discovers the consistency between artificial neural networks and the human brain in their data processing pattern by using structured mathematical tools for statistical analysis of the data."
+}

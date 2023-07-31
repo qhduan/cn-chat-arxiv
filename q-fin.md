@@ -2,157 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Machine Learning-powered Pricing of the Multidimensional Passport Option.](http://arxiv.org/abs/2307.14887) | 本文通过机器学习的方法解决了多维布莱克-斯科尔斯市场中护照期权的定价问题，并证明了其有效性。 |
-| [^2] | [Exploration of legal implications of air and space travel for international and domestic travel and the Environment.](http://arxiv.org/abs/2307.14661) | 本文概述了飞行和航天法律的法律方面，包括飞机事故调查、空中交通管制、国际边界和法律等，全面考察了飞行和航天旅行的法律影响，并提供了未来发展的潜力。 |
-| [^3] | [The misuse of law by Women in India -Constitutionality of Gender Bias.](http://arxiv.org/abs/2307.14651) | 印度妇女滥用法律，导致性别偏见和不公平对待，违背了宪法对性别平等的保障。 |
-| [^4] | [Long Tails, Automation and Labor.](http://arxiv.org/abs/2307.14525) | 这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。 |
-| [^5] | [Exploring the Bitcoin Mesoscale.](http://arxiv.org/abs/2307.14409) | 本文研究了比特币用户网络的中小尺度结构特性，并发现其具有核心-外围结构和蝴蝶结构。此外，我们的研究还发现，BUN结构组织的演化与泡沫存在相关的波动有关，进一步证实了结构量与价格变动之间的相互作用。 |
-| [^6] | [Discount Models.](http://arxiv.org/abs/2306.16871) | 本论文提出了一种无套利动态框架用于折扣模型，并推导了因子模型的一般一致性条件。此外，还讨论了亲和术语结构模型，并提出了一些开放性问题和进一步研究的方向。 |
-| [^7] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^8] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
-| [^9] | [Are Large Traders Harmed by Front-running HFTs?.](http://arxiv.org/abs/2211.06046) | 高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。 |
-| [^10] | [Quantum algorithm for stochastic optimal stopping problems with applications in finance.](http://arxiv.org/abs/2111.15332) | 本文提出用于金融领域随机最优停止问题的量子算法可用于美式期权定价，相对于传统算法具有近二次方速度提升。 |
+| [^1] | [Global air quality inequality over 2000-2020.](http://arxiv.org/abs/2307.15669) | 2000-2020年间全球空气质量不平等水平持续上升，主要由国家间差异引起。研究结果指出，仅关注国内差异的努力忽视了一个重要问题。 |
+| [^2] | [Fast but multi-partisan: Bursts of communication increase opinion diversity in the temporal Deffuant model.](http://arxiv.org/abs/2307.15614) | 本文研究了沟通突发如何影响观点多样性，发现突发性可以通过促进本地意见的加强来阻止达成共识和极化，特别是在个体容忍度较低且更喜欢调整给相似的同伴时。 |
+| [^3] | [Understanding the least well-kept secret of high-frequency trading.](http://arxiv.org/abs/2307.15599) | 本研究通过分析市场做市商问题，揭示了交易量不平衡与价格走势的细微关系，结果表明，报价预测性交易量不平衡是最优的。 |
+| [^4] | [Quantifying the Influence of Climate on Human Mind and Culture: Evidence from Visual Art.](http://arxiv.org/abs/2307.15540) | 本研究通过分析大量绘画作品和艺术家的生物数据，发现气候变化对人类思维和文化产生了显著和持久的影响，而且这种影响在更依赖艺术家想象力的艺术流派中更加明显。 |
+| [^5] | [An exploration of the mathematical structure and behavioural biases of financial crises.](http://arxiv.org/abs/2307.15402) | 本文通过比较乌克兰入侵金融危机与其他金融危机的市场动态，引入了新的数学技术，研究了股票投资者的相关影响，并提出了适用于不同危机期间的投资组合优化方法。 |
+| [^6] | [Only-child matching penalty in the marriage market.](http://arxiv.org/abs/2307.15336) | 本研究探讨了独生子女在婚姻市场中的匹配情况，并发现独生子女在配对时受到了惩罚，尤其是在伴侣的社会经济地位方面。 |
+| [^7] | [Pairs Trading: An Optimal Selling Rule with Constraints.](http://arxiv.org/abs/2307.15300) | 本文研究了股票对交易中的最优卖出策略，在考虑交易约束条件下，通过求解HJB方程得到了一个闭合形式的解，并提供了数值实验来验证最优策略和价值函数。 |
+| [^8] | [On the mathematics of the circular flow of economic activity with applications to the topic of caring for the vulnerable during pandemics.](http://arxiv.org/abs/2307.15197) | 该论文研究了在缺乏政府支持的情况下如何帮助贫穷和易受困者的问题。通过线性代数和图论方法，提出了一个新的模型来解释收入循环动力学，并将社会划分为分散的和凝聚的。在分散社会中，说服富裕代理人支持贫穷和易受困者将非常困难，而在凝聚社会中，富裕代理人有动机和能力支持贫穷和易受困者。 |
+| [^9] | [Oracle Counterpoint: Relationships between On-chain and Off-chain Market Data.](http://arxiv.org/abs/2303.16331) | 本文研究了On-chain市场活动和Off-chain数字货币市场定价之间的关系，探索使用On-chain数据恢复Off-chain定价信息的程度，并发现局限的On-chain数据也能代理alpha价值。 |
+| [^10] | [An $\alpha$-Stable Approach to Modelling Highly Speculative Assets and Cryptocurrencies.](http://arxiv.org/abs/2002.09881) | 本研究使用比特币、以太坊和瑞波的数据，发现α稳定分布是一种适用于高度投机的加密货币的充分模型，可以更好地拟合加密货币的回报数据，并捕捉到其尖峰厚尾特征。 |
 
 # 详细
 
-[^1]: 机器学习推动的多维护照期权定价
+[^1]: 2000-2020年全球空气质量不平等研究
 
-    Machine Learning-powered Pricing of the Multidimensional Passport Option. (arXiv:2307.14887v1 [q-fin.PR])
+    Global air quality inequality over 2000-2020. (arXiv:2307.15669v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.14887](http://arxiv.org/abs/2307.14887)
+    [http://arxiv.org/abs/2307.15669](http://arxiv.org/abs/2307.15669)
 
-    本文通过机器学习的方法解决了多维布莱克-斯科尔斯市场中护照期权的定价问题，并证明了其有效性。
-
-    
-
-    护照期权从90年代末开始引入，它给予持有人在市场上交易并在到期时获得任何正收益的权利。定价期权相当于解决一个随机控制问题，对于$d>1$个风险资产的情况仍然是一个未解决的问题。即使在具有$d=2$个风险资产的相关布莱克-斯科尔斯 (BS) 市场中，也没有得出闭合形式的最优交易策略。在本文中，我们推导了一个离散时间的解决方案，适用于具有不相关资产的多维BS市场。此外，受到深度强化学习在棋盘游戏等领域的成功启发，我们提出了两种机器学习推动的方法来定价一般市场上的组合价值的一般期权。这些方法在一维和多维不相关BS市场中证明了定价护照期权的成功。
-
-    Introduced in the late 90s, the passport option gives its holder the right to trade in a market and receive any positive gain in the resulting traded account at maturity. Pricing the option amounts to solving a stochastic control problem that for $d>1$ risky assets remains an open problem. Even in a correlated Black-Scholes (BS) market with $d=2$ risky assets, no optimal trading strategy has been derived in closed form. In this paper, we derive a discrete-time solution for multi-dimensional BS markets with uncorrelated assets. Moreover, inspired by the success of deep reinforcement learning in, e.g., board games, we propose two machine learning-powered approaches to pricing general options on a portfolio value in general markets. These approaches prove to be successful for pricing the passport option in one-dimensional and multi-dimensional uncorrelated BS markets.
-    
-[^2]: 探讨国际和国内旅行及环境中飞行和航天旅行的法律影响
-
-    Exploration of legal implications of air and space travel for international and domestic travel and the Environment. (arXiv:2307.14661v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.14661](http://arxiv.org/abs/2307.14661)
-
-    本文概述了飞行和航天法律的法律方面，包括飞机事故调查、空中交通管制、国际边界和法律等，全面考察了飞行和航天旅行的法律影响，并提供了未来发展的潜力。
+    2000-2020年间全球空气质量不平等水平持续上升，主要由国家间差异引起。研究结果指出，仅关注国内差异的努力忽视了一个重要问题。
 
     
 
-    近年来，飞行和航天旅行的快速增长导致了对航空航天领域的法律监管需求的增加。本文概述了飞行和航天法律的相关内容，包括飞机事故调查、空中交通管制、国际边界和法律，以及航天活动的监管。随着飞行和航天旅行的日益复杂化，理解这些活动的法律影响变得至关重要。本文考察了飞行和航天法律的各种法律方面，包括国家政府、国际组织和私人实体的角色。它还概述了管理这些活动的法律框架和国际法的影响。最后，它考虑了飞行和航天法律领域未来发展的潜力。本文全面概述了飞行和航天旅行的法律方面及其对国际的影响。
+    空气污染在全世界范围内产生了巨大的健康损害和经济成本。污染暴露的程度在国家间和国内差异很大。然而，全球范围内空气质量不平等及其随时间变化的程度尚未得到量化。本研究使用经济不平等指数来衡量各国暴露于直径为2.5微米或以下的环境细颗粒物（PM2.5）的不平等情况。研究发现全球空气质量不平等水平高且持续上升。全球PM2.5基尼系数从2000年的0.32上升到2020年的0.36，超过了许多国家的收入不平等水平。空气质量不平等主要是由国家间差异引起的，而国内差异的影响较小，分解分析结果显示。面对最高水平PM2.5暴露的人口大部分集中在只有少数几个国家。研究结果表明，仅关注国内差异的研究和政策努力忽视了一个重要问题。
 
-    The rapid growth of air and space travel in recent years has resulted in an increased demand for legal regulation in the aviation and aerospace fields. This paper provides an overview of air and space law, including the topics of aircraft accident investigations, air traffic control, international borders and law, and the regulation of space activities. With the increasing complexity of air and space travel, it is important to understand the legal implications of these activities. This paper examines the various legal aspects of air and space law, including the roles of national governments, international organizations, and private entities. It also provides an overview of the legal frameworks that govern these activities and the implications of international law. Finally, it considers the potential for future developments in the field of air and space law. This paper provides a comprehensive overview of the legal aspects of air and space travel and their implications for international
+    Air pollution generates substantial health damages and economic costs worldwide. Pollution exposure varies greatly, both between countries and within them. However, the degree of air quality inequality and its' trajectory over time have not been quantified at a global level. Here I use economic inequality indices to measure global inequality in exposure to ambient fine particles with 2.5 microns or less in diameter (PM2.5). I find high and rising levels of global air quality inequality. The global PM2.5 Gini Index increased from 0.32 in 2000 to 0.36 in 2020, exceeding levels of income inequality in many countries. Air quality inequality is mostly driven by differences between countries and less so by variation within them, as decomposition analysis shows. A large share of people facing the highest levels of PM2.5 exposure are concentrated in only a few countries. The findings suggest that research and policy efforts that focus only on differences within countries are overlooking an imp
     
-[^3]: 印度妇女滥用法律-性别偏见的合宪性
+[^2]: 快速而多派系的：沟通突发增加时间Deffuant模型中的观点多样性
 
-    The misuse of law by Women in India -Constitutionality of Gender Bias. (arXiv:2307.14651v1 [econ.GN])
+    Fast but multi-partisan: Bursts of communication increase opinion diversity in the temporal Deffuant model. (arXiv:2307.15614v1 [physics.soc-ph])
 
-    [http://arxiv.org/abs/2307.14651](http://arxiv.org/abs/2307.14651)
+    [http://arxiv.org/abs/2307.15614](http://arxiv.org/abs/2307.15614)
 
-    印度妇女滥用法律，导致性别偏见和不公平对待，违背了宪法对性别平等的保障。
-
-    
-
-    近年来，印度妇女滥用法律已成为一个严重问题，并引起了越来越多的关注。在印度，妇女经常受到歧视，没有得到平等的权利和机会，导致了许多方面的性别偏见。妇女滥用法律进一步加剧了这种性别偏见。有许多妇女利用法律来谋求自己的利益，往往以牺牲男性的利益为代价。这种行为不仅不道德，而且违宪。印度宪法并没有明确保障性别平等。然而，已对宪法进行了几次修正，以确保妇女在法律上得到平等对待。保护妇女免受一切形式的歧视被认为是一项基本权利。尽管如此，妇女在婚姻、教育、就业和其他领域仍然受到歧视。
-
-    The misuse of law by women in India is a serious issue that has been receiving increased attention in recent years. In India, women are often discriminated against and are not provided with equal rights and opportunities, leading to a gender bias in many aspects of life. This gender bias is further exacerbated by the misuse of law by women. There are numerous instances of women using the law to their advantage, often at the expense of men. This practice is not only unethical but also unconstitutional. The Indian Constitution does not explicitly guarantee gender equality. However, several amendments have been made to the Constitution to ensure that women are treated equally in accordance with the law. The protection of women from all forms of discrimination is considered a fundamental right. Despite this, women continue to be discriminated against in various spheres of life, including marriage, education, employment and other areas. The misuse of law by women in India is primarily seen 
-    
-[^4]: 长尾、自动化与劳动（arXiv:2307.14525v1 [econ.GN]）
-
-    Long Tails, Automation and Labor. (arXiv:2307.14525v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.14525](http://arxiv.org/abs/2307.14525)
-
-    这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。
+    本文研究了沟通突发如何影响观点多样性，发现突发性可以通过促进本地意见的加强来阻止达成共识和极化，特别是在个体容忍度较低且更喜欢调整给相似的同伴时。
 
     
 
-    经济学中一个核心问题是自动化是否会取代人力劳动并降低生活水平。尽管先前的研究通常将这个问题视为人力劳动与机器之间的竞争，但我们将其视为人力消费者与人力供应者之间的竞争。具体而言，我们观察到人类的需求倾向于长尾分布，即一个包含大量利基产品的长列表，而这些产品在总需求上是具有重要地位的。反过来，这些长尾分布反映在满足这些需求的商品和服务中。在此背景下，我们提出了一个基于长尾分布的经济活动的理论模型，其中新型利基产出的需求创新与成熟产出的供应自动化创新相互竞争。我们的模型以仅四个参数（供应和需求的创新速度、长尾分布的指数和初始值）为基础，得出了自动化和劳动份额的分析表达式和渐近线。我们验证了该模型的有效性。
+    人类互动创建了社会网络，形成社会的骨干。个体通过社交互动交换信息来调整观点。两个经常出现的问题是社会结构是否促进了观点极化或共识以及是否可以避免极化，尤其是在社交媒体上。在本文中，我们假设社交互动的时间结构不仅调节观点集群的形成，而且定时性本身足以阻止达成共识和极化，通过促进本地观点的强化。我们设计了一种Deffuant观点模型的时间版本，其中双方交互遵循时间模式，并表明仅仅靠突发性就足以通过促进本地意见的加强来避免共识和极化。由于网络聚类，个体自组织成为一个多派系的社会，但在突发性的情况下，意见集群的多样性进一步增加，特别是当个体的容忍度较低且更喜欢调整给相似的同伴时。
 
-    A central question in economics is whether automation will displace human labor and diminish standards of living. Whilst prior works typically frame this question as a competition between human labor and machines, we frame it as a competition between human consumers and human suppliers. Specifically, we observe that human needs favor long tail distributions, i.e., a long list of niche items that are substantial in aggregate demand. In turn, the long tails are reflected in the goods and services that fulfill those needs. With this background, we propose a theoretical model of economic activity on a long tail distribution, where innovation in demand for new niche outputs competes with innovation in supply automation for mature outputs. Our model yields analytic expressions and asymptotes for the shares of automation and labor in terms of just four parameters: the rates of innovation in supply and demand, the exponent of the long tail distribution and an initial value. We validate the mod
+    Human interactions create social networks forming the backbone of societies. Individuals adjust their opinions by exchanging information through social interactions. Two recurrent questions are whether social structures promote opinion polarisation or consensus in societies and whether polarisation can be avoided, particularly on social media. In this paper, we hypothesise that not only network structure but also the timings of social interactions regulate the emergence of opinion clusters. We devise a temporal version of the Deffuant opinion model where pairwise interactions follow temporal patterns and show that burstiness alone is sufficient to refrain from consensus and polarisation by promoting the reinforcement of local opinions. Individuals self-organise into a multi-partisan society due to network clustering, but the diversity of opinion clusters further increases with burstiness, particularly when individuals have low tolerance and prefer to adjust to similar peers. The emerge
     
-[^5]: 探索比特币的中小尺度结构
+[^3]: 理解高频交易中最不为人知的秘密
 
-    Exploring the Bitcoin Mesoscale. (arXiv:2307.14409v1 [q-fin.ST])
+    Understanding the least well-kept secret of high-frequency trading. (arXiv:2307.15599v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2307.14409](http://arxiv.org/abs/2307.14409)
+    [http://arxiv.org/abs/2307.15599](http://arxiv.org/abs/2307.15599)
 
-    本文研究了比特币用户网络的中小尺度结构特性，并发现其具有核心-外围结构和蝴蝶结构。此外，我们的研究还发现，BUN结构组织的演化与泡沫存在相关的波动有关，进一步证实了结构量与价格变动之间的相互作用。
-
-    
-
-    比特币交易历史的开放可用性为以前所未有的细节水平研究该系统提供了可能性。本文致力于分析比特币用户网络（BUN）在其整个历史（即从2009年到2017年）中的中小尺度结构属性。从我们的分析中可以看出，BUN具有核心-外围结构，更深入的分析揭示了一定程度的蝴蝶结构（即具有强连通分量、IN分量和OUT分量以及一些附着在IN分量上的触须）。有趣的是，BUN结构组织的演化经历了与泡沫存在相关的波动，即在整个比特币历史上观察到的价格激增和下跌阶段：因此，我们的结果进一步证实了先前分析中观察到的结构量和价格变动之间的相互作用。
-
-    The open availability of the entire history of the Bitcoin transactions opens up the possibility to study this system at an unprecedented level of detail. This contribution is devoted to the analysis of the mesoscale structural properties of the Bitcoin User Network (BUN), across its entire history (i.e. from 2009 to 2017). What emerges from our analysis is that the BUN is characterized by a core-periphery structure a deeper analysis of which reveals a certain degree of bow-tieness (i.e. the presence of a Strongly-Connected Component, an IN- and an OUT-component together with some tendrils attached to the IN-component). Interestingly, the evolution of the BUN structural organization experiences fluctuations that seem to be correlated with the presence of bubbles, i.e. periods of price surge and decline observed throughout the entire Bitcoin history: our results, thus, further confirm the interplay between structural quantities and price movements observed in previous analyses.
-    
-[^6]: 折扣模型
-
-    Discount Models. (arXiv:2306.16871v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2306.16871](http://arxiv.org/abs/2306.16871)
-
-    本论文提出了一种无套利动态框架用于折扣模型，并推导了因子模型的一般一致性条件。此外，还讨论了亲和术语结构模型，并提出了一些开放性问题和进一步研究的方向。
+    本研究通过分析市场做市商问题，揭示了交易量不平衡与价格走势的细微关系，结果表明，报价预测性交易量不平衡是最优的。
 
     
 
-    折扣是债券的面值与其现值之间的差额。我提出了一种无套利动态框架用于折扣模型，该框架提供了一种替代 Heath-Jarrow-Morton 框架的前瞻利率方法。我推导出了因子模型的一般一致性条件，并重点讨论了亲和术语结构模型。还存在一些开放性问题，并概述了可能的进一步研究方向。
+    在限价订单簿中，交易量不平衡经常被认为是预测未来价格走势的可靠指标。本研究旨在分析价格与交易量不平衡之间的关系细微差别。为此，我们研究了一个市场做市商问题，通过该问题可以将交易量不平衡视为对价格走势的最优响应。在我们的模型中，存在一个驱动中间价格的基准价格，它遵循具有不确定区间的模型。一个市场做市商了解基准价格以及未来中间价格跳动的概率。她控制她在最佳买入和卖出价格报价的交易量。解决她的优化问题让我们能够内生地理解价格-交易量不平衡的关系，并确认特别是报价预测性交易量不平衡是最优的。市场做市商控制问题的价值函数可以被视为一组函数，以市场做市商的库存水平为索引。
 
-    Discount is the difference between the face value of a bond and its present value. I propose an arbitrage-free dynamic framework for discount models, which provides an alternative to the Heath--Jarrow--Morton framework for forward rates. I derive general consistency conditions for factor models, and discuss affine term structure models in particular. There are several open problems, and I outline possible directions for further research.
+    Volume imbalance in a limit order book is often considered as a reliable indicator for predicting future price moves. In this work, we seek to analyse the nuances of the relationship between prices and volume imbalance. To this end, we study a market-making problem which allows us to view the imbalance as an optimal response to price moves. In our model, there is an underlying efficient price driving the mid-price, which follows the model with uncertainty zones. A single market maker knows the underlying efficient price and consequently the probability of a mid-price jump in the future. She controls the volumes she quotes at the best bid and ask prices. Solving her optimization problem allows us to understand endogenously the price-imbalance connection and to confirm in particular that it is optimal to quote a predictive imbalance. The value function of the market maker's control problem can be viewed as a family of functions, indexed by the level of the market maker's inventory, solvi
     
-[^7]: 期权的价格发现
+[^4]: 量化气候对人类思维和文化的影响: 来自视觉艺术的证据
 
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+    Quantifying the Influence of Climate on Human Mind and Culture: Evidence from Visual Art. (arXiv:2307.15540v1 [q-bio.PE])
 
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+    [http://arxiv.org/abs/2307.15540](http://arxiv.org/abs/2307.15540)
 
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
-
-    
-
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
-
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
-    
-[^8]: 两部门增长经济体中理性资产价格泡沫的必要性。
-
-    Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies. (arXiv:2211.13100v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2211.13100](http://arxiv.org/abs/2211.13100)
-
-    本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。
+    本研究通过分析大量绘画作品和艺术家的生物数据，发现气候变化对人类思维和文化产生了显著和持久的影响，而且这种影响在更依赖艺术家想象力的艺术流派中更加明显。
 
     
 
-    我们提出了合理的经济模型，其中存在具有理性资产价格泡沫的均衡，但资产价格等于基本价值的均衡不存在。这些经济体具有比股利增长更快的多个部门的增长。在我们的两部门内生增长模型中，创业者可以获得受特异性投资风险（技术部门）影响的生产技术，并交易支付股息的资产（土地）。当杠杆超过临界值时，唯一的趋势稳态均衡表现出从基本状态到具有增长的泡沫状态的相变，这意味着在宽松的金融条件下泡沫的不可避免性。
+    本文研究了气候变化对人类思维和文化的影响，时间跨度从13世纪到21世纪。通过对10万幅绘画作品和2000多位艺术家的生物数据进行定量分析，发现了绘画明亮度的一种有趣的U型模式，与全球温度趋势相关。事件研究分析发现，当艺术家遭受高温冲击时，他们的作品在后期变得更加明亮。此外，这种影响在更多依赖艺术家想象力而非现实事物的艺术流派中更加明显，表明了艺术家思维的影响。总体而言，本研究证明了气候对人类思维和文化的显著和持久影响。
 
-    We present plausible economic models in which an equilibrium with rational asset price bubbles exists but equilibria with asset prices equal to fundamental values do not. These economies feature multiple sectors with faster economic growth than dividend growth. In our two-sector endogenous growth model, entrepreneurs have access to a production technology subject to idiosyncratic investment risk (tech sector) and trade a dividend-paying asset (land). When leverage is relaxed beyond a critical value, the unique trend stationary equilibrium exhibits a phase transition from the fundamental regime to the bubbly regime with growth, implying the inevitability of bubbles with loose financial conditions.
+    This paper examines the influence of climate change on the human mind and culture from the 13th century to the 21st century. By quantitatively analyzing 100,000 paintings and the biological data of over 2,000 artists, an interesting U-shaped pattern in the lightness of paintings was found, which correlated with trends in global temperature. Event study analysis revealed that when an artist is subjected to a high-temperature shock, their paintings become brighter in later periods. Moreover, the effects are more pronounced in art genres that rely less on real things and more on the artist's imagination, indicating the influence of artists' minds. Overall, this study demonstrates the significant and enduring influence of climate on the human mind and culture over centuries.
     
-[^9]: 高频交易对大型交易者是否有害？
+[^5]: 金融危机的数学结构和行为偏差探索
 
-    Are Large Traders Harmed by Front-running HFTs?. (arXiv:2211.06046v2 [q-fin.TR] UPDATED)
+    An exploration of the mathematical structure and behavioural biases of financial crises. (arXiv:2307.15402v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2211.06046](http://arxiv.org/abs/2211.06046)
+    [http://arxiv.org/abs/2307.15402](http://arxiv.org/abs/2307.15402)
 
-    高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。
-
-    
-
-    本文研究了高频交易者（HFT）对大型交易者的影响，后者的未来交易被前者预测。我们得出结论：HFT总是先行交易，当出现足够的高速噪音交易和HFT的预测足够模糊时，大型交易者受益。此外，令人惊讶的是：（1）使HFT的预测不准确可能会降低大型交易者的利润；（2）当存在较少的高速噪音交易时，尽管HFT几乎没有作为，大型交易者仍会受到伤害。
-
-    This paper studies the influences of a high-frequency trader (HFT) on a large trader whose future trading is predicted by the former. We conclude that HFT always front-runs and the large trader is benefited when: (1) there is sufficient high-speed noise trading; (2) HFT's prediction is vague enough. Besides, we find surprisingly that (1) making HFT's prediction less accurate might decrease large trader's profit; (2) when there is little high-speed noise trading, although HFT nearly does nothing, the large trader is still hurt.
-    
-[^10]: 用于金融领域随机最优停止问题的量子算法
-
-    Quantum algorithm for stochastic optimal stopping problems with applications in finance. (arXiv:2111.15332v3 [quant-ph] UPDATED)
-
-    [http://arxiv.org/abs/2111.15332](http://arxiv.org/abs/2111.15332)
-
-    本文提出用于金融领域随机最优停止问题的量子算法可用于美式期权定价，相对于传统算法具有近二次方速度提升。
+    本文通过比较乌克兰入侵金融危机与其他金融危机的市场动态，引入了新的数学技术，研究了股票投资者的相关影响，并提出了适用于不同危机期间的投资组合优化方法。
 
     
 
-    著名的最小二乘蒙特卡罗（LSM）算法将线性最小二乘回归与蒙特卡罗模拟相结合，近似解决随机最优停止理论问题。本文提出了基于量子访问随机过程、计算最优停止时间的量子电路以及蒙特卡罗的量子LSM算法。对于该算法，我们阐明了函数逼近与量子蒙特卡罗算法的复杂相互作用。在一些温和的假设下，我们的算法在运行时间上实现了近二次方速度提升，相对于LSM算法而言。具体来说，我们的量子算法可应用于美式期权定价，我们对布朗运动和几何布朗运动过程的共同情况进行了案例研究。
+    本文通过对2022年乌克兰入侵金融危机与近年来显著的金融危机（如互联网泡沫、全球金融危机和COVID-19）进行比较，研究了市场动态的相似性以及对股票投资者的相关影响，并引入了新的数学技术来进行研究。首先，我们研究了不同市场危机期间集体动态的强度，并比较了适合的组合分散化策略，以实现最佳系统风险降低。接下来，我们引入了一种新的线性操作方法，来量化不同危机期间股票回报率的分布差异。我们的方法允许我们公平地比较不同时间段内股票和行业的表现，对整体市场驱动的集体动态进行规范化处理。最后，我们引入了一种新的组合优化框架。
 
-    The famous least squares Monte Carlo (LSM) algorithm combines linear least square regression with Monte Carlo simulation to approximately solve problems in stochastic optimal stopping theory. In this work, we propose a quantum LSM based on quantum access to a stochastic process, on quantum circuits for computing the optimal stopping times, and on quantum techniques for Monte Carlo. For this algorithm, we elucidate the intricate interplay of function approximation and quantum algorithms for Monte Carlo. Our algorithm achieves a nearly quadratic speedup in the runtime compared to the LSM algorithm under some mild assumptions. Specifically, our quantum algorithm can be applied to American option pricing and we analyze a case study for the common situation of Brownian motion and geometric Brownian motion processes.
+    In this paper we contrast the dynamics of the 2022 Ukraine invasion financial crisis with notable financial crises of recent years - the dot-com bubble, global financial crisis and COVID-19. We study the similarity in market dynamics and associated implications for equity investors between various financial market crises and we introduce new mathematical techniques to do so. First, we study the strength of collective dynamics during different market crises, and compare suitable portfolio diversification strategies with respect to the unique number of sectors and stocks for optimal systematic risk reduction. Next, we introduce a new linear operator method to quantify distributional distance between equity returns during various crises. Our method allows us to fairly compare underlying stock and sector performance during different time periods, normalising for those collective dynamics driven by the overall market. Finally, we introduce a new combinatorial portfolio optimisation framewor
+    
+[^6]: 独生子女在婚姻市场中的配对惩罚
+
+    Only-child matching penalty in the marriage market. (arXiv:2307.15336v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.15336](http://arxiv.org/abs/2307.15336)
+
+    本研究探讨了独生子女在婚姻市场中的匹配情况，并发现独生子女在配对时受到了惩罚，尤其是在伴侣的社会经济地位方面。
+
+    
+
+    本研究探讨了独生子女的婚姻配对及其结果。具体而言，我们分析了两个方面。首先，我们调查了独生子女和非独生子女之间的婚姻状况（即与独生子女、非独生子女结婚或保持单身）。这个分析让我们了解人们在选择配偶时是否根据独生子女身份采用正相关配对方式，以及独生子女是否从婚姻配对中获益或受到伴侣吸引力的惩罚。其次，我们通过独生子女和非独生子女之间伴侣社会经济地位（在这里，指受教育年限）差距的大小来衡量配对溢价/惩罚。传统的经济理论和对独生子女身份的正相关配对的观察到的婚姻模式预测，在婚姻市场上，独生子女会受到配对惩罚，尤其是当
+
+    This study explores the marriage matching of only-child individuals and its outcome. Specifically, we analyze two aspects. First, we investigate how marital status (i.e., marriage with an only child, that with a non-only child and remaining single) differs between only children and non-only children. This analysis allows us to know whether people choose mates in a positive or a negative assortative manner regarding only-child status, and to predict whether only-child individuals benefit from marriage matching premiums or are subject to penalties regarding partner attractiveness. Second, we measure the premium/penalty by the size of the gap in partner's socio economic status (SES, here, years of schooling) between only-child and non--only-child individuals. The conventional economic theory and the observed marriage patterns of positive assortative mating on only-child status predict that only-child individuals are subject to a matching penalty in the marriage market, especially when the
+    
+[^7]: Pairs Trading: 具有约束条件的最优卖出规则
+
+    Pairs Trading: An Optimal Selling Rule with Constraints. (arXiv:2307.15300v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2307.15300](http://arxiv.org/abs/2307.15300)
+
+    本文研究了股票对交易中的最优卖出策略，在考虑交易约束条件下，通过求解HJB方程得到了一个闭合形式的解，并提供了数值实验来验证最优策略和价值函数。
+
+    
+
+    本文的重点是确定股票对交易中最有效的卖出策略。在股票对交易中，一只股票持有多头仓位，而另一只股票持有空头仓位。目标是确定最佳时机卖出多头仓位并回购空头仓位以平仓。本文提出了一种带有交易约束的最优股票对交易卖出规则。具体而言，基础股票价格按照二维几何布朗运动演化，而交易权限过程通过二态{允许交易，不允许交易}的马尔可夫链给出。研究表明，最优策略可以通过求解相关的HJB方程（拟变分不等式）得到的一个阈值曲线来确定。获得了一个闭合形式的解。提供了一个验证定理。还报告了数值实验来展示最优策略和价值函数。
+
+    The focus of this paper is on identifying the most effective selling strategy for pairs trading of stocks. In pairs trading, a long position is held in one stock while a short position is held in another. The goal is to determine the optimal time to sell the long position and repurchase the short position in order to close the pairs position. The paper presents an optimal pairs-trading selling rule with trading constraints. In particular, the underlying stock prices evolve according to a two dimensional geometric Brownian motion and the trading permission process is given in terms of a two-state {trading allowed, trading not allowed} Markov chain. It is shown that the optimal policy can be determined by a threshold curve which is obtained by solving the associated HJB equations (quasi-variational inequalities). A closed form solution is obtained. A verification theorem is provided. Numerical experiments are also reported to demonstrate the optimal policies and value functions.
+    
+[^8]: 关于经济活动循环流动数学的研究及其在关怀易受困者的应用
+
+    On the mathematics of the circular flow of economic activity with applications to the topic of caring for the vulnerable during pandemics. (arXiv:2307.15197v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.15197](http://arxiv.org/abs/2307.15197)
+
+    该论文研究了在缺乏政府支持的情况下如何帮助贫穷和易受困者的问题。通过线性代数和图论方法，提出了一个新的模型来解释收入循环动力学，并将社会划分为分散的和凝聚的。在分散社会中，说服富裕代理人支持贫穷和易受困者将非常困难，而在凝聚社会中，富裕代理人有动机和能力支持贫穷和易受困者。
+
+    
+
+    我们从根本层面探讨了在缺乏政府机构支持的情况下，为什么、何时和如何去帮助贫穷和易受困者的问题。我们提出了一个基于线性代数和基础图论的简单而新颖的方法来捕捉经济主体之间的收入循环动力学。引入了一个针对收入循环的新的线性代数模型，根据该模型我们可以将社会划分为分散的或凝聚的。我们表明，在分散的社会中，说服社会层级顶部的富裕代理人支持贫穷和易受困者将极为困难。我们还强调了线性代数和简单图论方法如何从基本观点解释分散社会中阶级斗争的一些机制。然后，我们直观地说明并从数学上证明了为什么在凝聚社会中，社会层级顶部的富裕代理人有动机和能力支持贫穷和易受困者。
+
+    We investigate, at the fundamental level, the questions of `why', `when' and `how' one could or should reach out to poor and vulnerable people to support them in the absence of governmental institutions. We provide a simple and new approach that is rooted in linear algebra and basic graph theory to capture the dynamics of income circulation among economic agents. A new linear algebraic model for income circulation is introduced, based on which we are able to categorize societies as fragmented or cohesive. We show that, in the case of fragmented societies, convincing wealthy agents at the top of the social hierarchy to support the poor and vulnerable will be very difficult. We also highlight how linear-algebraic and simple graph-theoretic methods help explain, from a fundamental point of view, some of the mechanics of class struggle in fragmented societies. Then, we explain intuitively and prove mathematically why, in cohesive societies, wealthy agents at the top of the social hierarchy
+    
+[^9]: Oracle反驳： On-chain和Off-chain市场数据间的关系
+
+    Oracle Counterpoint: Relationships between On-chain and Off-chain Market Data. (arXiv:2303.16331v1 [cs.CR])
+
+    [http://arxiv.org/abs/2303.16331](http://arxiv.org/abs/2303.16331)
+
+    本文研究了On-chain市场活动和Off-chain数字货币市场定价之间的关系，探索使用On-chain数据恢复Off-chain定价信息的程度，并发现局限的On-chain数据也能代理alpha价值。
+
+    
+
+    我们研究了On-chain市场活动和Off-chain数字货币市场定价（如ETH/USD价格）之间的相关理论和实证关系。我们的目标是开发使用原则上可验证的On-chain数据和计算代理Off-chain市场数据的方法，提供区块链价格oracle的替代方法。我们研究了PoW挖矿、PoS验证、区块空间市场、网络去中心化、使用和货币流通速度以及On-chain流动性池和AMMs的关系。我们从这些市场选择关键特征，通过图形模型、互信息和集成机器学习模型分析它们，以探索完全使用On-chain数据恢复Off-chain定价信息的程度。我们发现大量的定价信息包含在On-chain数据中，但通常很难恢复精确价格，除非在短时间重新训练模型。我们讨论了即使仅有局限的On-chain数据，我们也可以使用它们代理alpha价值的方法。
+
+    We investigate the theoretical and empirical relationships between activity in on-chain markets and pricing in off-chain cryptocurrency markets (e.g., ETH/USD prices). The motivation is to develop methods for proxying off-chain market data using data and computation that is in principle verifiable on-chain and could provide an alternative approach to blockchain price oracles. We explore relationships in PoW mining, PoS validation, block space markets, network decentralization, usage and monetary velocity, and on-chain liquidity pools and AMMs. We select key features from these markets, which we analyze through graphical models, mutual information, and ensemble machine learning models to explore the degree to which off-chain pricing information can be recovered entirely on-chain. We find that a large amount of pricing information is contained in on-chain data, but that it is generally hard to recover precise prices except on short time scales of retraining the model. We discuss how even
+    
+[^10]: 一种建模高度投机性资产和加密货币的α稳定方法
+
+    An $\alpha$-Stable Approach to Modelling Highly Speculative Assets and Cryptocurrencies. (arXiv:2002.09881v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2002.09881](http://arxiv.org/abs/2002.09881)
+
+    本研究使用比特币、以太坊和瑞波的数据，发现α稳定分布是一种适用于高度投机的加密货币的充分模型，可以更好地拟合加密货币的回报数据，并捕捉到其尖峰厚尾特征。
+
+    
+
+    我们使用比特币、以太坊和瑞波等占据加密货币市场70%以上的数据，研究了加密货币的行为。我们证明了α稳定分布是一个适用于高度投机的加密货币的充分模型，其优于金融计量学中使用的其他重尾分布。我们发现，DuMouchel（1971）提出的极大似然方法比McCulloch（1986）的分位数方法和Koutrouvelis（1980）的样本特征方法更适合拟合加密货币的回报数据。实证结果表明，加密货币回报数据呈现出的尖峰厚尾特征可以被α稳定分布所捕捉到。这些发现突出了α稳定分布不仅仅具有四个自由参数的简洁性，而且是一种接近实际的创新模型。本文涵盖了加密货币的早期报告和文献资料。
+
+    We investigate the behaviour of cryptocurrencies using data for bitcoin, ethereum and ripple which account for over 70% of the cryptocurrency market. We demonstrate that $\alpha$-stable distribution is an appropriately sufficient model for highly speculative cryptocurrencies which outperforms other heavy tailed distributions that are used in financial econometrics. We find that the maximum likelihood method proposed by DuMouchel (1971) produces estimates that fit the cryptocurrency return data much better than the quantile based approach of McCulloch (1986) and sample characteristic method by Koutrouvelis (1980). The empirical results show that the leptokurtic feature presented in cryptocurrency return data can be captured by an $\alpha$-stable distribution. The findings highlight that $\alpha$-stable distribution is not only parsimonious with its four free parameters but also a creative model that is close to reality. This paper covers early reports and literature on cryptocurrencies 
     
 

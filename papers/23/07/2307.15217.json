@@ -1,0 +1,12 @@
+{
+    "title": "Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. (arXiv:2307.15217v1 [cs.AI])",
+    "abstract": "Reinforcement learning from human feedback (RLHF) is a technique for training AI systems to align with human goals. RLHF has emerged as the central method used to finetune state-of-the-art large language models (LLMs). Despite this popularity, there has been relatively little public work systematizing its flaws. In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and complement RLHF in practice; and (3) propose auditing and disclosure standards to improve societal oversight of RLHF systems. Our work emphasizes the limitations of RLHF and highlights the importance of a multi-faceted approach to the development of safer AI systems.",
+    "link": "http://arxiv.org/abs/2307.15217",
+    "context": "Title: Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. (arXiv:2307.15217v1 [cs.AI])\nAbstract: Reinforcement learning from human feedback (RLHF) is a technique for training AI systems to align with human goals. RLHF has emerged as the central method used to finetune state-of-the-art large language models (LLMs). Despite this popularity, there has been relatively little public work systematizing its flaws. In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and complement RLHF in practice; and (3) propose auditing and disclosure standards to improve societal oversight of RLHF systems. Our work emphasizes the limitations of RLHF and highlights the importance of a multi-faceted approach to the development of safer AI systems.",
+    "path": "papers/23/07/2307.15217.json",
+    "total_tokens": 748,
+    "translated_title": "从人类反馈中进行强化学习的开放问题和基本限制",
+    "translated_abstract": "从人类反馈中进行强化学习（RLHF）是一种训练人工智能系统与人类目标保持一致的技术。RLHF已成为微调最新的大型语言模型（LLM）的核心方法。尽管如此受欢迎，但系统性地系统化其缺陷的公开工作相对较少。在本文中，我们（1）调查了RLHF及相关方法的开放问题和基本限制；（2）概述了了解、改进和补充RLHF的实践技术；以及（3）提出了审计和披露标准以改进RLHF系统的社会监督。我们的工作强调了RLHF的局限性，并强调了以多方面方法开发更安全的人工智能系统的重要性。",
+    "tldr": "本文调查了从人类反馈中进行强化学习的开放问题和基本限制，并提出了加强社会监督的审计和披露标准。",
+    "en_tdlr": "This paper surveys the open problems and fundamental limitations of reinforcement learning from human feedback (RLHF) and proposes auditing and disclosure standards to enhance societal oversight."
+}

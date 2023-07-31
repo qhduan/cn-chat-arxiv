@@ -2,217 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [One-step nonparametric instrumental regression using smoothing splines.](http://arxiv.org/abs/2307.14867) | 这个论文提出了一种一步非参数的方法，使用平滑样条来处理内生性和仪器变量，同时解决了单调性限制的问题，并在估计Engel曲线时表现出良好性能。 |
-| [^2] | [Exploration of legal implications of air and space travel for international and domestic travel and the Environment.](http://arxiv.org/abs/2307.14661) | 本文概述了飞行和航天法律的法律方面，包括飞机事故调查、空中交通管制、国际边界和法律等，全面考察了飞行和航天旅行的法律影响，并提供了未来发展的潜力。 |
-| [^3] | [The misuse of law by Women in India -Constitutionality of Gender Bias.](http://arxiv.org/abs/2307.14651) | 印度妇女滥用法律，导致性别偏见和不公平对待，违背了宪法对性别平等的保障。 |
-| [^4] | [Long Tails, Automation and Labor.](http://arxiv.org/abs/2307.14525) | 这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。 |
-| [^5] | [Weak (Proxy) Factors Robust Hansen-Jagannathan Distance For Linear Asset Pricing Models.](http://arxiv.org/abs/2307.14499) | 本研究提出了两种HJ统计量的替代方法和相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且提供了一种新的鲁棒风险溢价估计方法。仿真实验和实证应用支持了这些方法的有效性。 |
-| [^6] | [Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models.](http://arxiv.org/abs/2307.14463) | 本文研究了用预测回归模型对非平稳自回归过程进行自助法估计的可行性，并通过蒙特卡罗实验验证了理论结果的统计有效性。 |
-| [^7] | [Smoothing of numerical series by the triangle method on the example of hungarian gdp data 1992-2022 based on approximation by series of exponents.](http://arxiv.org/abs/2307.14378) | 该论文提出了一种利用三角方法对数值序列进行平滑处理的方法，并以匈牙利GDP数据为例进行了研究。通过指数级数的逼近，可以有效减小观察结果的误差，并得到不亚于多项式逼近的结果。 |
-| [^8] | [Unraveling Coordination Problems.](http://arxiv.org/abs/2307.08557) | 本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。 |
-| [^9] | [Revealed preferences for dynamically inconsistent models.](http://arxiv.org/abs/2305.14125) | 本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。 |
-| [^10] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^11] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
-| [^12] | [Are Large Traders Harmed by Front-running HFTs?.](http://arxiv.org/abs/2211.06046) | 高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。 |
-| [^13] | [The cost of strategy-proofness in school choice.](http://arxiv.org/abs/2204.07255) | 该研究比较了学校选择中最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）与最小化排名机制（RM）的结果，并发现RM在提高排名效率、改善最弱势学生安置、减少合理羡慕情况等方面具有显著的优势。 |
-| [^14] | [Dynamic covariate balancing: estimating treatment effects over time with potential local projections.](http://arxiv.org/abs/2103.01280) | 本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。 |
+| [^1] | [The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings.](http://arxiv.org/abs/2307.15702) | 强大的最大环算法提出了一种集成偏好排序的新方法，通过删除投票图中的最大环路，得出与投票结果一致的唯一排序结果。 |
+| [^2] | [Global air quality inequality over 2000-2020.](http://arxiv.org/abs/2307.15669) | 2000-2020年间全球空气质量不平等水平持续上升，主要由国家间差异引起。研究结果指出，仅关注国内差异的努力忽视了一个重要问题。 |
+| [^3] | [Fast but multi-partisan: Bursts of communication increase opinion diversity in the temporal Deffuant model.](http://arxiv.org/abs/2307.15614) | 本文研究了沟通突发如何影响观点多样性，发现突发性可以通过促进本地意见的加强来阻止达成共识和极化，特别是在个体容忍度较低且更喜欢调整给相似的同伴时。 |
+| [^4] | [Quantifying the Influence of Climate on Human Mind and Culture: Evidence from Visual Art.](http://arxiv.org/abs/2307.15540) | 本研究通过分析大量绘画作品和艺术家的生物数据，发现气候变化对人类思维和文化产生了显著和持久的影响，而且这种影响在更依赖艺术家想象力的艺术流派中更加明显。 |
+| [^5] | [Only-child matching penalty in the marriage market.](http://arxiv.org/abs/2307.15336) | 本研究探讨了独生子女在婚姻市场中的匹配情况，并发现独生子女在配对时受到了惩罚，尤其是在伴侣的社会经济地位方面。 |
+| [^6] | [Group-Heterogeneous Changes-in-Changes and Distributional Synthetic Controls.](http://arxiv.org/abs/2307.15313) | 本文针对改变中的改变和分布式合成对照的问题，提出了解决团体异质性的新方法，包括在控制组中找出与处理组具有相似群体特征的适当子群，以及使用在不同时间段内具有相似团体异质性的单位构建合成对照。 |
+| [^7] | [On the mathematics of the circular flow of economic activity with applications to the topic of caring for the vulnerable during pandemics.](http://arxiv.org/abs/2307.15197) | 该论文研究了在缺乏政府支持的情况下如何帮助贫穷和易受困者的问题。通过线性代数和图论方法，提出了一个新的模型来解释收入循环动力学，并将社会划分为分散的和凝聚的。在分散社会中，说服富裕代理人支持贫穷和易受困者将非常困难，而在凝聚社会中，富裕代理人有动机和能力支持贫穷和易受困者。 |
+| [^8] | [On the Efficiency of Finely Stratified Experiments.](http://arxiv.org/abs/2307.15181) | 本文研究了在实验分析中涉及的大类处理效应参数的有效估计，包括平均处理效应、分位数处理效应、局部平均处理效应等。 |
+| [^9] | [Predictability Tests Robust against Parameter Instability.](http://arxiv.org/abs/2307.15151) | 该论文提出了一种具有鲁棒性的可预测性检验方法，能在考虑参数不稳定性的情况下，通过仪器变量方法检验联合预测和结构性突变。该方法通过分析可追踪的渐近理论，对非平稳回归器下的统计结果进行了推导。实验证明该方法具有较好的实际应用价值。 |
+| [^10] | [Managed Campaigns and Data-Augmented Auctions for Digital Advertising.](http://arxiv.org/abs/2304.08432) | 拍卖模型为数字广告提供了数据增强的竞标机制，同时托管活动机制有助于优化广告配置。平台上的社会有效配置会影响广告主在平台外的产品价格，导致平台外的分配效率低下。 |
+| [^11] | [Post-Episodic Reinforcement Learning Inference.](http://arxiv.org/abs/2302.08854) | 我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。 |
+| [^12] | [Buying Opinions.](http://arxiv.org/abs/2202.05249) | 本文研究了当一个委托人雇佣一个代理人来获取信息时，如何保证代理人可以被诱导获得并诚实报告信息，以实现最优结果，但代理人的风险厌恶可能导致最优结果无法实现。 |
 
 # 详细
 
-[^1]: 一步非参数仪器回归使用平滑样条
+[^1]: 强大的最大环算法：一种集成偏好排序的新方法
 
-    One-step nonparametric instrumental regression using smoothing splines. (arXiv:2307.14867v1 [econ.EM])
+    The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings. (arXiv:2307.15702v1 [cs.SI])
 
-    [http://arxiv.org/abs/2307.14867](http://arxiv.org/abs/2307.14867)
+    [http://arxiv.org/abs/2307.15702](http://arxiv.org/abs/2307.15702)
 
-    这个论文提出了一种一步非参数的方法，使用平滑样条来处理内生性和仪器变量，同时解决了单调性限制的问题，并在估计Engel曲线时表现出良好性能。
-
-    
-
-    我们将非参数回归平滑样条扩展到一种情境，即存在内生性和使用仪器变量。与流行的现有估计方法不同，结果估计器是一步的，并依赖于唯一的正则化参数。我们导出了估计器及其一阶导数的均匀收敛速率。我们还解决了在估计中施加单调性的问题。模拟结果证实了我们的估计器与两步程序相比的良好性能。当用于估计Engel曲线时，我们的方法产生了经济上有意义的结果。
-
-    We extend nonparametric regression smoothing splines to a context where there is endogeneity and instrumental variables are available. Unlike popular existing estimators, the resulting estimator is one-step and relies on a unique regularization parameter. We derive uniform rates of the convergence for the estimator and its first derivative. We also address the issue of imposing monotonicity in estimation. Simulations confirm the good performances of our estimator compared to two-step procedures. Our method yields economically sensible results when used to estimate Engel curves.
-    
-[^2]: 探讨国际和国内旅行及环境中飞行和航天旅行的法律影响
-
-    Exploration of legal implications of air and space travel for international and domestic travel and the Environment. (arXiv:2307.14661v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.14661](http://arxiv.org/abs/2307.14661)
-
-    本文概述了飞行和航天法律的法律方面，包括飞机事故调查、空中交通管制、国际边界和法律等，全面考察了飞行和航天旅行的法律影响，并提供了未来发展的潜力。
+    强大的最大环算法提出了一种集成偏好排序的新方法，通过删除投票图中的最大环路，得出与投票结果一致的唯一排序结果。
 
     
 
-    近年来，飞行和航天旅行的快速增长导致了对航空航天领域的法律监管需求的增加。本文概述了飞行和航天法律的相关内容，包括飞机事故调查、空中交通管制、国际边界和法律，以及航天活动的监管。随着飞行和航天旅行的日益复杂化，理解这些活动的法律影响变得至关重要。本文考察了飞行和航天法律的各种法律方面，包括国家政府、国际组织和私人实体的角色。它还概述了管理这些活动的法律框架和国际法的影响。最后，它考虑了飞行和航天法律领域未来发展的潜力。本文全面概述了飞行和航天旅行的法律方面及其对国际的影响。
+    我们提出了一种基于优化的方法，用于在每个决策者或选民对一对选择进行偏好表达的情况下集成偏好。挑战在于在一些冲突的投票情况下，尽可能与投票结果一致地得出一个排序。只有不包含环路的投票集合才是非冲突的，并且可以在选择之间引发一个部分顺序。我们的方法是基于这样一个观察：构成一个环路的投票集合可以被视为平局。然后，方法是从投票图中删除环路的并集，并根据剩余部分确定集成偏好。我们引入了强大的最大环路，它由一组环路的并集形成，删除它可以保证在引发的部分顺序中获得唯一结果。此外，它还包含在消除任何最大环路后剩下的所有集成偏好。与之相反的是，wel
 
-    The rapid growth of air and space travel in recent years has resulted in an increased demand for legal regulation in the aviation and aerospace fields. This paper provides an overview of air and space law, including the topics of aircraft accident investigations, air traffic control, international borders and law, and the regulation of space activities. With the increasing complexity of air and space travel, it is important to understand the legal implications of these activities. This paper examines the various legal aspects of air and space law, including the roles of national governments, international organizations, and private entities. It also provides an overview of the legal frameworks that govern these activities and the implications of international law. Finally, it considers the potential for future developments in the field of air and space law. This paper provides a comprehensive overview of the legal aspects of air and space travel and their implications for international
+    We present a new optimization-based method for aggregating preferences in settings where each decision maker, or voter, expresses preferences over pairs of alternatives. The challenge is to come up with a ranking that agrees as much as possible with the votes cast in cases when some of the votes conflict. Only a collection of votes that contains no cycles is non-conflicting and can induce a partial order over alternatives. Our approach is motivated by the observation that a collection of votes that form a cycle can be treated as ties. The method is then to remove unions of cycles of votes, or circulations, from the vote graph and determine aggregate preferences from the remainder.  We introduce the strong maximum circulation which is formed by a union of cycles, the removal of which guarantees a unique outcome in terms of the induced partial order. Furthermore, it contains all the aggregate preferences remaining following the elimination of any maximum circulation. In contrast, the wel
     
-[^3]: 印度妇女滥用法律-性别偏见的合宪性
+[^2]: 2000-2020年全球空气质量不平等研究
 
-    The misuse of law by Women in India -Constitutionality of Gender Bias. (arXiv:2307.14651v1 [econ.GN])
+    Global air quality inequality over 2000-2020. (arXiv:2307.15669v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.14651](http://arxiv.org/abs/2307.14651)
+    [http://arxiv.org/abs/2307.15669](http://arxiv.org/abs/2307.15669)
 
-    印度妇女滥用法律，导致性别偏见和不公平对待，违背了宪法对性别平等的保障。
-
-    
-
-    近年来，印度妇女滥用法律已成为一个严重问题，并引起了越来越多的关注。在印度，妇女经常受到歧视，没有得到平等的权利和机会，导致了许多方面的性别偏见。妇女滥用法律进一步加剧了这种性别偏见。有许多妇女利用法律来谋求自己的利益，往往以牺牲男性的利益为代价。这种行为不仅不道德，而且违宪。印度宪法并没有明确保障性别平等。然而，已对宪法进行了几次修正，以确保妇女在法律上得到平等对待。保护妇女免受一切形式的歧视被认为是一项基本权利。尽管如此，妇女在婚姻、教育、就业和其他领域仍然受到歧视。
-
-    The misuse of law by women in India is a serious issue that has been receiving increased attention in recent years. In India, women are often discriminated against and are not provided with equal rights and opportunities, leading to a gender bias in many aspects of life. This gender bias is further exacerbated by the misuse of law by women. There are numerous instances of women using the law to their advantage, often at the expense of men. This practice is not only unethical but also unconstitutional. The Indian Constitution does not explicitly guarantee gender equality. However, several amendments have been made to the Constitution to ensure that women are treated equally in accordance with the law. The protection of women from all forms of discrimination is considered a fundamental right. Despite this, women continue to be discriminated against in various spheres of life, including marriage, education, employment and other areas. The misuse of law by women in India is primarily seen 
-    
-[^4]: 长尾、自动化与劳动（arXiv:2307.14525v1 [econ.GN]）
-
-    Long Tails, Automation and Labor. (arXiv:2307.14525v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.14525](http://arxiv.org/abs/2307.14525)
-
-    这项研究将自动化与劳动之间的竞争视为人力消费者与人力供应者之间的竞争，提出了一个基于长尾分布的经济活动的理论模型，通过创新需求和供应来平衡自动化和劳动的份额。
+    2000-2020年间全球空气质量不平等水平持续上升，主要由国家间差异引起。研究结果指出，仅关注国内差异的努力忽视了一个重要问题。
 
     
 
-    经济学中一个核心问题是自动化是否会取代人力劳动并降低生活水平。尽管先前的研究通常将这个问题视为人力劳动与机器之间的竞争，但我们将其视为人力消费者与人力供应者之间的竞争。具体而言，我们观察到人类的需求倾向于长尾分布，即一个包含大量利基产品的长列表，而这些产品在总需求上是具有重要地位的。反过来，这些长尾分布反映在满足这些需求的商品和服务中。在此背景下，我们提出了一个基于长尾分布的经济活动的理论模型，其中新型利基产出的需求创新与成熟产出的供应自动化创新相互竞争。我们的模型以仅四个参数（供应和需求的创新速度、长尾分布的指数和初始值）为基础，得出了自动化和劳动份额的分析表达式和渐近线。我们验证了该模型的有效性。
+    空气污染在全世界范围内产生了巨大的健康损害和经济成本。污染暴露的程度在国家间和国内差异很大。然而，全球范围内空气质量不平等及其随时间变化的程度尚未得到量化。本研究使用经济不平等指数来衡量各国暴露于直径为2.5微米或以下的环境细颗粒物（PM2.5）的不平等情况。研究发现全球空气质量不平等水平高且持续上升。全球PM2.5基尼系数从2000年的0.32上升到2020年的0.36，超过了许多国家的收入不平等水平。空气质量不平等主要是由国家间差异引起的，而国内差异的影响较小，分解分析结果显示。面对最高水平PM2.5暴露的人口大部分集中在只有少数几个国家。研究结果表明，仅关注国内差异的研究和政策努力忽视了一个重要问题。
 
-    A central question in economics is whether automation will displace human labor and diminish standards of living. Whilst prior works typically frame this question as a competition between human labor and machines, we frame it as a competition between human consumers and human suppliers. Specifically, we observe that human needs favor long tail distributions, i.e., a long list of niche items that are substantial in aggregate demand. In turn, the long tails are reflected in the goods and services that fulfill those needs. With this background, we propose a theoretical model of economic activity on a long tail distribution, where innovation in demand for new niche outputs competes with innovation in supply automation for mature outputs. Our model yields analytic expressions and asymptotes for the shares of automation and labor in terms of just four parameters: the rates of innovation in supply and demand, the exponent of the long tail distribution and an initial value. We validate the mod
+    Air pollution generates substantial health damages and economic costs worldwide. Pollution exposure varies greatly, both between countries and within them. However, the degree of air quality inequality and its' trajectory over time have not been quantified at a global level. Here I use economic inequality indices to measure global inequality in exposure to ambient fine particles with 2.5 microns or less in diameter (PM2.5). I find high and rising levels of global air quality inequality. The global PM2.5 Gini Index increased from 0.32 in 2000 to 0.36 in 2020, exceeding levels of income inequality in many countries. Air quality inequality is mostly driven by differences between countries and less so by variation within them, as decomposition analysis shows. A large share of people facing the highest levels of PM2.5 exposure are concentrated in only a few countries. The findings suggest that research and policy efforts that focus only on differences within countries are overlooking an imp
     
-[^5]: 弱（代理）因子鲁棒的Hansen-Jagannathan距离用于线性资产定价模型
+[^3]: 快速而多派系的：沟通突发增加时间Deffuant模型中的观点多样性
 
-    Weak (Proxy) Factors Robust Hansen-Jagannathan Distance For Linear Asset Pricing Models. (arXiv:2307.14499v1 [econ.EM])
+    Fast but multi-partisan: Bursts of communication increase opinion diversity in the temporal Deffuant model. (arXiv:2307.15614v1 [physics.soc-ph])
 
-    [http://arxiv.org/abs/2307.14499](http://arxiv.org/abs/2307.14499)
+    [http://arxiv.org/abs/2307.15614](http://arxiv.org/abs/2307.15614)
 
-    本研究提出了两种HJ统计量的替代方法和相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且提供了一种新的鲁棒风险溢价估计方法。仿真实验和实证应用支持了这些方法的有效性。
-
-    
-
-    Hansen-Jagannathan (HJ)距离统计量是模型错误的最主要指标之一。然而，传统的HJ规范检验程序在有限样本下的性能较差，我们发现，即使在样本较大的情况下，当（代理）因子与资产收益呈较小的相关性时，它也可能尺寸扭曲。换句话说，应用研究人员很可能在模型正确规范的情况下错误地拒绝了该模型。我们提供了两种HJ统计量的替代方法和两种相应的新的模型规范测试程序，可以抵御弱（代理）因子的影响，并且我们还提供了一种新的鲁棒风险溢价估计方法。仿真实验支持我们的理论。我们的实证应用证明了传统HJ检验的不可靠性，因为当比较嵌套模型时，它可能产生不符合常理的结果，即拒绝了一个四因子模型但却没有拒绝降低至三因子模型。同时，我们提出的方法可以解决这个问题。
-
-    The Hansen-Jagannathan (HJ) distance statistic is one of the most dominant measures of model misspecification. However, the conventional HJ specification test procedure has poor finite sample performance, and we show that it can be size distorted even in large samples when (proxy) factors exhibit small correlations with asset returns. In other words, applied researchers are likely to falsely reject a model even when it is correctly specified. We provide two alternatives for the HJ statistic and two corresponding novel procedures for model specification tests, which are robust against the presence of weak (proxy) factors, and we also offer a novel robust risk premia estimator. Simulation exercises support our theory. Our empirical application documents the non-reliability of the traditional HJ test since it may produce counter-intuitive results when comparing nested models by rejecting a four-factor model but not the reduced three-factor model. At the same time, our proposed methods are
-    
-[^6]: 用预测回归模型对非平稳自回归过程进行自助法估计
-
-    Bootstrapping Nonstationary Autoregressive Processes with Predictive Regression Models. (arXiv:2307.14463v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.14463](http://arxiv.org/abs/2307.14463)
-
-    本文研究了用预测回归模型对非平稳自回归过程进行自助法估计的可行性，并通过蒙特卡罗实验验证了理论结果的统计有效性。
+    本文研究了沟通突发如何影响观点多样性，发现突发性可以通过促进本地意见的加强来阻止达成共识和极化，特别是在个体容忍度较低且更喜欢调整给相似的同伴时。
 
     
 
-    我们建立了Phillips和Magdalinos（2009）提出的基于自助法的IVX估计器在预测回归模型参数上的渐近有效性，该模型参数基于自回归系数的局部到单位规范，可以覆盖几乎非平稳和几乎平稳的过程。我们得到了基于自助法的IVX估计器的混合高斯极限分布。通过蒙特卡罗实验，我们对各种统计推断问题的理论结果的统计有效性进行了说明。
+    人类互动创建了社会网络，形成社会的骨干。个体通过社交互动交换信息来调整观点。两个经常出现的问题是社会结构是否促进了观点极化或共识以及是否可以避免极化，尤其是在社交媒体上。在本文中，我们假设社交互动的时间结构不仅调节观点集群的形成，而且定时性本身足以阻止达成共识和极化，通过促进本地观点的强化。我们设计了一种Deffuant观点模型的时间版本，其中双方交互遵循时间模式，并表明仅仅靠突发性就足以通过促进本地意见的加强来避免共识和极化。由于网络聚类，个体自组织成为一个多派系的社会，但在突发性的情况下，意见集群的多样性进一步增加，特别是当个体的容忍度较低且更喜欢调整给相似的同伴时。
 
-    We establish the asymptotic validity of the bootstrap-based IVX estimator proposed by Phillips and Magdalinos (2009) for the predictive regression model parameter based on a local-to-unity specification of the autoregressive coefficient which covers both nearly nonstationary and nearly stationary processes. A mixed Gaussian limit distribution is obtained for the bootstrap-based IVX estimator. The statistical validity of the theoretical results are illustrated by Monte Carlo experiments for various statistical inference problems.
+    Human interactions create social networks forming the backbone of societies. Individuals adjust their opinions by exchanging information through social interactions. Two recurrent questions are whether social structures promote opinion polarisation or consensus in societies and whether polarisation can be avoided, particularly on social media. In this paper, we hypothesise that not only network structure but also the timings of social interactions regulate the emergence of opinion clusters. We devise a temporal version of the Deffuant opinion model where pairwise interactions follow temporal patterns and show that burstiness alone is sufficient to refrain from consensus and polarisation by promoting the reinforcement of local opinions. Individuals self-organise into a multi-partisan society due to network clustering, but the diversity of opinion clusters further increases with burstiness, particularly when individuals have low tolerance and prefer to adjust to similar peers. The emerge
     
-[^7]: 数值序列的三角方法平滑处理：以匈牙利GDP数据1992-2022为例，基于指数级数的逼近
+[^4]: 量化气候对人类思维和文化的影响: 来自视觉艺术的证据
 
-    Smoothing of numerical series by the triangle method on the example of hungarian gdp data 1992-2022 based on approximation by series of exponents. (arXiv:2307.14378v1 [econ.EM])
+    Quantifying the Influence of Climate on Human Mind and Culture: Evidence from Visual Art. (arXiv:2307.15540v1 [q-bio.PE])
 
-    [http://arxiv.org/abs/2307.14378](http://arxiv.org/abs/2307.14378)
+    [http://arxiv.org/abs/2307.15540](http://arxiv.org/abs/2307.15540)
 
-    该论文提出了一种利用三角方法对数值序列进行平滑处理的方法，并以匈牙利GDP数据为例进行了研究。通过指数级数的逼近，可以有效减小观察结果的误差，并得到不亚于多项式逼近的结果。
-
-    
-
-    在实践中，经常需要通过表格以某种函数依赖的形式描述值的集合。由于某些情况，观察到的值存在误差。为了逼近，建议使用能够平滑观察结果误差的函数依赖。逼近能够确定观察表中未列出的函数的中间值。使用指数级数对数据进行逼近可以获得不亚于多项式逼近的结果。在经济科学文献中，幂函数形式的逼近，例如Cobb-Douglas函数，已经广泛应用。这种逼近的优点是逼近函数类型简单，缺点是并非所有过程都能以给定精度用幂函数来描述。一个例子是GDP指标。
-
-    In practice , quite often there is a need to describe the values set by means of a table in the form of some functional dependence . The observed values , due to certain circumstances , have an error . For approximation, it is advisable to use a functional dependence that would allow smoothing out the errors of the observation results. Approximation allows you to determine intermediate values of functions that are not listed among the data in the observation table. The use of exponential series for data approximation allows you to get a result no worse than from approximation by polynomials In the economic scientific literature, approximation in the form of power functions, for example, the Cobb-Douglas function, has become widespread. The advantage of this type of approximation can be called a simple type of approximating function , and the disadvantage is that in nature not all processes can be described by power functions with a given accuracy. An example is the GDP indicator for se
-    
-[^8]: 解析协调问题
-
-    Unraveling Coordination Problems. (arXiv:2307.08557v1 [econ.TH])
-
-    [http://arxiv.org/abs/2307.08557](http://arxiv.org/abs/2307.08557)
-
-    本文通过解析协调问题，建立了一种特殊的补贴设计模型，首次发现了“解谜效应”，通过对补贴的特性进行表征，找到实现给定博弈结果的唯一均衡。该模型具有对称性，全局连续性，随机机会成本的增加和负溢出效应的减少。应用包括联合投资问题、参与决策和委托代理合同。
+    本研究通过分析大量绘画作品和艺术家的生物数据，发现气候变化对人类思维和文化产生了显著和持久的影响，而且这种影响在更依赖艺术家想象力的艺术流派中更加明显。
 
     
 
-    本文研究协调问题中的政策设计。在协调博弈中，补贴提高了玩家i选择补贴行动的动机。这进一步提高了j选择相同行动的动机，进而激励i，依此类推。基于这种“解谜效应”，我们对实施给定博弈结果的补贴进行了表征，将其唯一均衡。在其他属性中，我们确定了以下特点：（i）对于相同的参与者是对称的；（ii）在模型参数上全局连续；（iii）与机会成本正相关；（iv）与溢出效应负相关。该模型的应用包括联合投资问题、参与决策和委托代理合同。
+    本文研究了气候变化对人类思维和文化的影响，时间跨度从13世纪到21世纪。通过对10万幅绘画作品和2000多位艺术家的生物数据进行定量分析，发现了绘画明亮度的一种有趣的U型模式，与全球温度趋势相关。事件研究分析发现，当艺术家遭受高温冲击时，他们的作品在后期变得更加明亮。此外，这种影响在更多依赖艺术家想象力而非现实事物的艺术流派中更加明显，表明了艺术家思维的影响。总体而言，本研究证明了气候对人类思维和文化的显著和持久影响。
 
-    This paper studies policy design in coordination problems. In coordination games, a subsidy raises player $i$'s incentive to play the subsidized action. This raises $j$'s incentive to play the same action, which further incentivizes $i$, and so on. Building upon this ``unraveling effect'', we characterize the subsidies that implement a given outcome of the game as its unique equilibrium. Among other properties, we establish that subsidies are: (i) symmetric for identical players; (ii) globally continuous in model parameters; (iii) increasing in opportunity costs; and (iv) decreasing in spillovers. Applications of the model include joint investment problems, participation decisions, and principal-agent contracting.
+    This paper examines the influence of climate change on the human mind and culture from the 13th century to the 21st century. By quantitatively analyzing 100,000 paintings and the biological data of over 2,000 artists, an interesting U-shaped pattern in the lightness of paintings was found, which correlated with trends in global temperature. Event study analysis revealed that when an artist is subjected to a high-temperature shock, their paintings become brighter in later periods. Moreover, the effects are more pronounced in art genres that rely less on real things and more on the artist's imagination, indicating the influence of artists' minds. Overall, this study demonstrates the significant and enduring influence of climate on the human mind and culture over centuries.
     
-[^9]: 动态不一致模型的显性偏好
+[^5]: 独生子女在婚姻市场中的配对惩罚
 
-    Revealed preferences for dynamically inconsistent models. (arXiv:2305.14125v1 [econ.TH])
+    Only-child matching penalty in the marriage market. (arXiv:2307.15336v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.14125](http://arxiv.org/abs/2305.14125)
+    [http://arxiv.org/abs/2307.15336](http://arxiv.org/abs/2307.15336)
 
-    本文研究了动态不一致选择模型的可测试预测，提出了不同行为模型包括动态不一致选择，讨论了准拟超几何贴现模型的一阶合理性的局限性。
-
-    
-
-    本文探讨了动态不一致选择模型的可测试预测，当计划选择不可观测时，只有“on path”数据可用。首先，我们讨论了Blow、Browning和Crawford (2021)的方法，他们表征了准拟超几何贴现模型的一阶合理性。我们表明，一阶方法不能保证通过准拟超几何模型来实现理性化。这促使我们考虑一种跨时间选择的抽象模型，我们在此模型下提供了不同行为模型的表征，包括动态不一致选择的天真和复杂范例。
-
-    We study the testable implications of models of dynamically inconsistent choices when planned choices are unobservable, and thus only "on path" data is available. First, we discuss the approach in Blow, Browning and Crawford (2021), who characterize first-order rationalizability of the model of quasi-hyperbolic discounting. We show that the first-order approach does not guarantee rationalizability by means of the quasi-hyperbolic model. This motivates consideration of an abstract model of intertemporal choice, under which we provide a characterization of different behavioral models -- including the naive and sophisticated paradigms of dynamically inconsistent choice.
-    
-[^10]: 期权的价格发现
-
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
-
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+    本研究探讨了独生子女在婚姻市场中的匹配情况，并发现独生子女在配对时受到了惩罚，尤其是在伴侣的社会经济地位方面。
 
     
 
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+    本研究探讨了独生子女的婚姻配对及其结果。具体而言，我们分析了两个方面。首先，我们调查了独生子女和非独生子女之间的婚姻状况（即与独生子女、非独生子女结婚或保持单身）。这个分析让我们了解人们在选择配偶时是否根据独生子女身份采用正相关配对方式，以及独生子女是否从婚姻配对中获益或受到伴侣吸引力的惩罚。其次，我们通过独生子女和非独生子女之间伴侣社会经济地位（在这里，指受教育年限）差距的大小来衡量配对溢价/惩罚。传统的经济理论和对独生子女身份的正相关配对的观察到的婚姻模式预测，在婚姻市场上，独生子女会受到配对惩罚，尤其是当
 
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    This study explores the marriage matching of only-child individuals and its outcome. Specifically, we analyze two aspects. First, we investigate how marital status (i.e., marriage with an only child, that with a non-only child and remaining single) differs between only children and non-only children. This analysis allows us to know whether people choose mates in a positive or a negative assortative manner regarding only-child status, and to predict whether only-child individuals benefit from marriage matching premiums or are subject to penalties regarding partner attractiveness. Second, we measure the premium/penalty by the size of the gap in partner's socio economic status (SES, here, years of schooling) between only-child and non--only-child individuals. The conventional economic theory and the observed marriage patterns of positive assortative mating on only-child status predict that only-child individuals are subject to a matching penalty in the marriage market, especially when the
     
-[^11]: 两部门增长经济体中理性资产价格泡沫的必要性。
+[^6]: 团体异质改变与分布式合成对照的改进及其分布异质性控制
 
-    Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies. (arXiv:2211.13100v4 [econ.TH] UPDATED)
+    Group-Heterogeneous Changes-in-Changes and Distributional Synthetic Controls. (arXiv:2307.15313v1 [econ.EM])
 
-    [http://arxiv.org/abs/2211.13100](http://arxiv.org/abs/2211.13100)
+    [http://arxiv.org/abs/2307.15313](http://arxiv.org/abs/2307.15313)
 
-    本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。
-
-    
-
-    我们提出了合理的经济模型，其中存在具有理性资产价格泡沫的均衡，但资产价格等于基本价值的均衡不存在。这些经济体具有比股利增长更快的多个部门的增长。在我们的两部门内生增长模型中，创业者可以获得受特异性投资风险（技术部门）影响的生产技术，并交易支付股息的资产（土地）。当杠杆超过临界值时，唯一的趋势稳态均衡表现出从基本状态到具有增长的泡沫状态的相变，这意味着在宽松的金融条件下泡沫的不可避免性。
-
-    We present plausible economic models in which an equilibrium with rational asset price bubbles exists but equilibria with asset prices equal to fundamental values do not. These economies feature multiple sectors with faster economic growth than dividend growth. In our two-sector endogenous growth model, entrepreneurs have access to a production technology subject to idiosyncratic investment risk (tech sector) and trade a dividend-paying asset (land). When leverage is relaxed beyond a critical value, the unique trend stationary equilibrium exhibits a phase transition from the fundamental regime to the bubbly regime with growth, implying the inevitability of bubbles with loose financial conditions.
-    
-[^12]: 高频交易对大型交易者是否有害？
-
-    Are Large Traders Harmed by Front-running HFTs?. (arXiv:2211.06046v2 [q-fin.TR] UPDATED)
-
-    [http://arxiv.org/abs/2211.06046](http://arxiv.org/abs/2211.06046)
-
-    高频交易者对大型交易者有害, 除非有足够的高速噪音交易和HFT的预测足够模糊。
+    本文针对改变中的改变和分布式合成对照的问题，提出了解决团体异质性的新方法，包括在控制组中找出与处理组具有相似群体特征的适当子群，以及使用在不同时间段内具有相似团体异质性的单位构建合成对照。
 
     
 
-    本文研究了高频交易者（HFT）对大型交易者的影响，后者的未来交易被前者预测。我们得出结论：HFT总是先行交易，当出现足够的高速噪音交易和HFT的预测足够模糊时，大型交易者受益。此外，令人惊讶的是：（1）使HFT的预测不准确可能会降低大型交易者的利润；（2）当存在较少的高速噪音交易时，尽管HFT几乎没有作为，大型交易者仍会受到伤害。
+    我们在存在团体层面异质性的情况下，开发了新的方法来处理改变中的改变和分布式合成对照。对于改变中的改变，我们允许个体属于大量异质群体。新方法扩展了Athey和Imbens（2006）的改变中的改变方法，通过找到控制组内与处理组具有相似团体层面未观测特征的适当子群来进行改进。对于分布式合成对照，我们表明适当的合成对照需要使用在不同时间段内具有与处理组相当的团体层面异质性的单位进行构建，而不仅仅是像Gunsilius（2023）中的相同时间段的单位。我们简要讨论了这些新方法的实施和数据要求。
 
-    This paper studies the influences of a high-frequency trader (HFT) on a large trader whose future trading is predicted by the former. We conclude that HFT always front-runs and the large trader is benefited when: (1) there is sufficient high-speed noise trading; (2) HFT's prediction is vague enough. Besides, we find surprisingly that (1) making HFT's prediction less accurate might decrease large trader's profit; (2) when there is little high-speed noise trading, although HFT nearly does nothing, the large trader is still hurt.
+    We develop new methods for changes-in-changes and distributional synthetic controls when there exists group level heterogeneity. For changes-in-changes, we allow individuals to belong to a large number of heterogeneous groups. The new method extends the changes-in-changes method in Athey and Imbens (2006) by finding appropriate subgroups within the control groups which share similar group level unobserved characteristics to the treatment groups. For distributional synthetic control, we show that the appropriate synthetic control needs to be constructed using units in potentially different time periods in which they have comparable group level heterogeneity to the treatment group, instead of units that are only in the same time period as in Gunsilius (2023). Implementation and data requirements for these new methods are briefly discussed.
     
-[^13]: 学校选择中的战略无偏性成本
+[^7]: 关于经济活动循环流动数学的研究及其在关怀易受困者的应用
 
-    The cost of strategy-proofness in school choice. (arXiv:2204.07255v6 [econ.TH] UPDATED)
+    On the mathematics of the circular flow of economic activity with applications to the topic of caring for the vulnerable during pandemics. (arXiv:2307.15197v1 [econ.GN])
 
-    [http://arxiv.org/abs/2204.07255](http://arxiv.org/abs/2204.07255)
+    [http://arxiv.org/abs/2307.15197](http://arxiv.org/abs/2307.15197)
 
-    该研究比较了学校选择中最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）与最小化排名机制（RM）的结果，并发现RM在提高排名效率、改善最弱势学生安置、减少合理羡慕情况等方面具有显著的优势。
-
-    
-
-    我们比较了最著名的战略无偏性和稳定算法（延迟接受算法，DA）和最著名的战略无偏性和帕累托最优算法（最高交易周期算法，TTC）以及由最小化排名机制（RM）生成的分配结果。虽然人们预期RM在排名效率方面优于DA和TTC，但改善的规模仍然令人惊讶。此外，虽然RM并非明确设计用于此目的，但它也显著改善了最弱势学生的安置情况。此外，RM产生的合理羡慕情况比TTC要少。我们通过布达佩斯学校录取数据证实了我们的发现。
-
-    We compare the outcomes of the most prominent strategy-proof and stable algorithm (Deferred Acceptance, DA) and the most prominent strategy-proof and Pareto optimal algorithm (Top Trading Cycles, TTC) to the allocation generated by the rank-minimizing mechanism (RM). While one would expect that RM improves upon both DA and TTC in terms of rank efficiency, the size of the improvement is nonetheless surprising. Moreover, while it is not explicitly designed to do so, RM also significantly improves the placement of the worst-off student. Furthermore, RM generates less justified envy than TTC. We corroborate our findings using data on school admissions in Budapest.
-    
-[^14]: 动态协变量平衡：基于潜在局部投影的治疗效果随时间估计
-
-    Dynamic covariate balancing: estimating treatment effects over time with potential local projections. (arXiv:2103.01280v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2103.01280](http://arxiv.org/abs/2103.01280)
-
-    本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。
+    该论文研究了在缺乏政府支持的情况下如何帮助贫穷和易受困者的问题。通过线性代数和图论方法，提出了一个新的模型来解释收入循环动力学，并将社会划分为分散的和凝聚的。在分散社会中，说服富裕代理人支持贫穷和易受困者将非常困难，而在凝聚社会中，富裕代理人有动机和能力支持贫穷和易受困者。
 
     
 
-    本文研究了面板数据中治疗历史的估计和推断问题，特别是在治疗在时间上动态变化的情况下。我们提出了一种方法，允许治疗根据高维协变量、过去的结果和治疗动态分配，同时考虑结果和时间变化的协变量与治疗轨迹的关系，以及治疗效应的异质性。我们的方法通过在过去历史上对潜在结果期望进行递归投影，然后通过平衡动态可观测特征来控制偏差。我们研究了估计量的渐近性质和数值特性，并在实证应用中展示了该方法的优势。
+    我们从根本层面探讨了在缺乏政府机构支持的情况下，为什么、何时和如何去帮助贫穷和易受困者的问题。我们提出了一个基于线性代数和基础图论的简单而新颖的方法来捕捉经济主体之间的收入循环动力学。引入了一个针对收入循环的新的线性代数模型，根据该模型我们可以将社会划分为分散的或凝聚的。我们表明，在分散的社会中，说服社会层级顶部的富裕代理人支持贫穷和易受困者将极为困难。我们还强调了线性代数和简单图论方法如何从基本观点解释分散社会中阶级斗争的一些机制。然后，我们直观地说明并从数学上证明了为什么在凝聚社会中，社会层级顶部的富裕代理人有动机和能力支持贫穷和易受困者。
 
-    This paper studies the estimation and inference of treatment histories in panel data settings when treatments change dynamically over time.  We propose a method that allows for (i) treatments to be assigned dynamically over time based on high-dimensional covariates, past outcomes and treatments; (ii) outcomes and time-varying covariates to depend on treatment trajectories; (iii) heterogeneity of treatment effects.  Our approach recursively projects potential outcomes' expectations on past histories. It then controls the bias by balancing dynamically observable characteristics. We study the asymptotic and numerical properties of the estimator and illustrate the benefits of the procedure in an empirical application.
+    We investigate, at the fundamental level, the questions of `why', `when' and `how' one could or should reach out to poor and vulnerable people to support them in the absence of governmental institutions. We provide a simple and new approach that is rooted in linear algebra and basic graph theory to capture the dynamics of income circulation among economic agents. A new linear algebraic model for income circulation is introduced, based on which we are able to categorize societies as fragmented or cohesive. We show that, in the case of fragmented societies, convincing wealthy agents at the top of the social hierarchy to support the poor and vulnerable will be very difficult. We also highlight how linear-algebraic and simple graph-theoretic methods help explain, from a fundamental point of view, some of the mechanics of class struggle in fragmented societies. Then, we explain intuitively and prove mathematically why, in cohesive societies, wealthy agents at the top of the social hierarchy
+    
+[^8]: 关于细分实验效率的研究
+
+    On the Efficiency of Finely Stratified Experiments. (arXiv:2307.15181v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.15181](http://arxiv.org/abs/2307.15181)
+
+    本文研究了在实验分析中涉及的大类处理效应参数的有效估计，包括平均处理效应、分位数处理效应、局部平均处理效应等。
+
+    
+
+    本文研究了在实验分析中涉及的大类处理效应参数的有效估计。在这里，效率是指对于一类广泛的处理分配方案而言的，其中任何单位被分配到处理的边际概率等于预先指定的值，例如一半。重要的是，我们不要求处理状态是以i.i.d.的方式分配的，因此可以适应实践中使用的复杂处理分配方案，如分层随机化和匹配对。所考虑的参数类别是可以表示为已知观测数据的一个已知函数的期望的约束的解的那些参数，其中可能包括处理分配边际概率的预先指定值。我们证明了这类参数包括平均处理效应、分位数处理效应、局部平均处理效应等。
+
+    This paper studies the efficient estimation of a large class of treatment effect parameters that arise in the analysis of experiments. Here, efficiency is understood to be with respect to a broad class of treatment assignment schemes for which the marginal probability that any unit is assigned to treatment equals a pre-specified value, e.g., one half. Importantly, we do not require that treatment status is assigned in an i.i.d. fashion, thereby accommodating complicated treatment assignment schemes that are used in practice, such as stratified block randomization and matched pairs. The class of parameters considered are those that can be expressed as the solution to a restriction on the expectation of a known function of the observed data, including possibly the pre-specified value for the marginal probability of treatment assignment. We show that this class of parameters includes, among other things, average treatment effects, quantile treatment effects, local average treatment effect
+    
+[^9]: 对参数不稳定性有鲁棒性的可预测性检验
+
+    Predictability Tests Robust against Parameter Instability. (arXiv:2307.15151v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.15151](http://arxiv.org/abs/2307.15151)
+
+    该论文提出了一种具有鲁棒性的可预测性检验方法，能在考虑参数不稳定性的情况下，通过仪器变量方法检验联合预测和结构性突变。该方法通过分析可追踪的渐近理论，对非平稳回归器下的统计结果进行了推导。实验证明该方法具有较好的实际应用价值。
+
+    
+
+    我们考虑基于Phillips和Magdalinos（2009年）的仪器变量方法设计的联合预测和结构性突变检验的Wald类型统计量。我们表明，在非平稳预测变量的假设下：（i）基于OLS估计量的检验收敛于依赖于扰动系数的非标准极限分布；（ii）基于IVX估计量的检验可以在某些参数限制下滤除持续性，这是由于最高函数的原因。这些结果通过在考虑非平稳回归器时提供了解析可追踪的渐近理论，为联合预测和参数不稳定性测试的文献做出了贡献。我们通过广泛的蒙特卡罗实验比较了两种估计量下Wald检验的有限样本大小和功率性能。临界值是使用标准的自助法推断方法计算的。我们展示了所提出的框架的实用性。
+
+    We consider Wald type statistics designed for joint predictability and structural break testing based on the instrumentation method of Phillips and Magdalinos (2009). We show that under the assumption of nonstationary predictors: (i) the tests based on the OLS estimators converge to a nonstandard limiting distribution which depends on the nuisance coefficient of persistence; and (ii) the tests based on the IVX estimators can filter out the persistence under certain parameter restrictions due to the supremum functional. These results contribute to the literature of joint predictability and parameter instability testing by providing analytical tractable asymptotic theory when taking into account nonstationary regressors. We compare the finite-sample size and power performance of the Wald tests under both estimators via extensive Monte Carlo experiments. Critical values are computed using standard bootstrap inference methodologies. We illustrate the usefulness of the proposed framework to
+    
+[^10]: 数字广告的托管活动和数据增强拍卖模型
+
+    Managed Campaigns and Data-Augmented Auctions for Digital Advertising. (arXiv:2304.08432v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.08432](http://arxiv.org/abs/2304.08432)
+
+    拍卖模型为数字广告提供了数据增强的竞标机制，同时托管活动机制有助于优化广告配置。平台上的社会有效配置会影响广告主在平台外的产品价格，导致平台外的分配效率低下。
+
+    
+
+    本研究针对数字广告开发了拍卖模型。垄断平台具有广告主和消费者之间匹配价值的数据。平台支持利用额外信息进行竞标，从而增加平台内匹配的可行剩余。广告主共同决定其在平台上和平台外的定价策略，以及他们在平台上进行数字广告的竞标。我们比较了数据增强的二价拍卖和托管活动机制。在数据增强的拍卖中，广告主的竞标受到平台匹配价值数据的影响。这导致了平台上的社会有效配置，但广告主会提高其在平台外的产品价格，以在平台上更具竞争力。因此，由于产品价格过高，平台外的分配效率不高。托管活动机制允许广告主提交预算，然后转移
+
+    We develop an auction model for digital advertising. A monopoly platform has access to data on the value of the match between advertisers and consumers. The platform support bidding with additional information and increase the feasible surplus for on-platform matches. Advertisers jointly determine their pricing strategy both on and off the platform, as well as their bidding for digital advertising on the platform. We compare a data-augmented second-price auction and a managed campaign mechanism. In the data-augmented auction, the bids by the advertisers are informed by the data of the platform regarding the value of the match. This results in a socially efficient allocation on the platform, but the advertisers increase their product prices off the platform to be more competitive on the platform. In consequence, the allocation off the platform is inefficient due to excessively high product prices. The managed campaign mechanism allows advertisers to submit budgets that are then transfor
+    
+[^11]: 后期情节式强化学习推断
+
+    Post-Episodic Reinforcement Learning Inference. (arXiv:2302.08854v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2302.08854](http://arxiv.org/abs/2302.08854)
+
+    我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。
+
+    
+
+    我们考虑从情节式强化学习算法收集的数据进行估计和推断；即在每个时期（也称为情节）以顺序方式与单个受试单元多次交互的自适应试验算法。我们的目标是在收集数据后能够评估反事实的自适应策略，并估计结构参数，如动态处理效应，这可以用于信用分配（例如，第一个时期的行动对最终结果的影响）。这些感兴趣的参数可以构成矩方程的解，但不是总体损失函数的最小化器，在静态数据情况下导致了$Z$-估计方法。然而，这样的估计量在自适应数据收集的情况下不能渐近正态。我们提出了一种重新加权的$Z$-估计方法，使用精心设计的自适应权重来稳定情节变化的估计方差，这是由非...
+
+    We consider estimation and inference with data collected from episodic reinforcement learning (RL) algorithms; i.e. adaptive experimentation algorithms that at each period (aka episode) interact multiple times in a sequential manner with a single treated unit. Our goal is to be able to evaluate counterfactual adaptive policies after data collection and to estimate structural parameters such as dynamic treatment effects, which can be used for credit assignment (e.g. what was the effect of the first period action on the final outcome). Such parameters of interest can be framed as solutions to moment equations, but not minimizers of a population loss function, leading to $Z$-estimation approaches in the case of static data. However, such estimators fail to be asymptotically normal in the case of adaptive data collection. We propose a re-weighted $Z$-estimation approach with carefully designed adaptive weights to stabilize the episode-varying estimation variance, which results from the non
+    
+[^12]: 意见购买
+
+    Buying Opinions. (arXiv:2202.05249v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2202.05249](http://arxiv.org/abs/2202.05249)
+
+    本文研究了当一个委托人雇佣一个代理人来获取信息时，如何保证代理人可以被诱导获得并诚实报告信息，以实现最优结果，但代理人的风险厌恶可能导致最优结果无法实现。
+
+    
+
+    一个委托人雇佣一个代理人来获取关于未知状态的软信息。虽然代理人学习的方式和发现的信息都无法在合同中规定，但我们证明了在代理人是风险中性的情况下，只要代理人被诱导获得并诚实报告信息的成本不太高，或者面临足够大的惩罚，那么委托人可以胜任任何信息获取的任务。然而代理人的风险厌恶确保了最佳结果的无法实现。
+
+    A principal hires an agent to acquire soft information about an unknown state. Even though neither how the agent learns nor what the agent discovers are contractible, we show the principal is unconstrained as to what information the agent can be induced to acquire and report honestly. When the agent is risk neutral, and a) is not asked to learn too much, b) can acquire information sufficiently cheaply, or c) can face sufficiently large penalties, the principal can attain the first-best outcome. Risk aversion (on the part of the agent) ensures the first-best is unattainable.
     
 

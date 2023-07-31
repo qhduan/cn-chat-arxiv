@@ -1,0 +1,12 @@
+{
+    "title": "The Road to Quality is Paved with Good Revisions: A Detailed Evaluation Methodology for Revision Policies in Incremental Sequence Labelling. (arXiv:2307.15508v1 [cs.CL])",
+    "abstract": "Incremental dialogue model components produce a sequence of output prefixes based on incoming input. Mistakes can occur due to local ambiguities or to wrong hypotheses, making the ability to revise past outputs a desirable property that can be governed by a policy. In this work, we formalise and characterise edits and revisions in incremental sequence labelling and propose metrics to evaluate revision policies. We then apply our methodology to profile the incremental behaviour of three Transformer-based encoders in various tasks, paving the road for better revision policies.",
+    "link": "http://arxiv.org/abs/2307.15508",
+    "context": "Title: The Road to Quality is Paved with Good Revisions: A Detailed Evaluation Methodology for Revision Policies in Incremental Sequence Labelling. (arXiv:2307.15508v1 [cs.CL])\nAbstract: Incremental dialogue model components produce a sequence of output prefixes based on incoming input. Mistakes can occur due to local ambiguities or to wrong hypotheses, making the ability to revise past outputs a desirable property that can be governed by a policy. In this work, we formalise and characterise edits and revisions in incremental sequence labelling and propose metrics to evaluate revision policies. We then apply our methodology to profile the incremental behaviour of three Transformer-based encoders in various tasks, paving the road for better revision policies.",
+    "path": "papers/23/07/2307.15508.json",
+    "total_tokens": 699,
+    "translated_title": "质量之路是由良好修订铺开的：增量序列标注中修订政策的详细评估方法",
+    "translated_abstract": "增量对话模型组件基于输入生成输出前缀的序列。由于局部歧义或错误的假设，可能会发生错误，因此修订过去的输出能力成为可管理的可取性质。在这项工作中，我们对增量序列标注中的编辑和修订进行形式化和特征化，并提出了评估修订政策的指标。然后，我们应用我们的方法来分析三个基于Transformer的编码器在各种任务中的增量行为，为更好的修订政策铺平道路。",
+    "tldr": "该论文通过提出一种详细的评估方法和度量标准，对增量序列标注中的修订政策进行了研究和分析，并应用于Transformer编码器的行为分析，为未来的修订政策提供了参考。",
+    "en_tdlr": "This paper investigates and analyzes revision policies in incremental sequence labelling by proposing a detailed evaluation methodology and metrics, and applies it to profile the incremental behavior of Transformer-based encoders, providing insights for future revision policies."
+}

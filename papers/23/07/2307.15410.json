@@ -1,0 +1,12 @@
+{
+    "title": "Towards a Fully Unsupervised Framework for Intent Induction in Customer Support Dialogues. (arXiv:2307.15410v1 [cs.CL])",
+    "abstract": "State of the art models in intent induction require annotated datasets. However, annotating dialogues is time-consuming, laborious and expensive. In this work, we propose a completely unsupervised framework for intent induction within a dialogue. In addition, we show how pre-processing the dialogue corpora can improve results. Finally, we show how to extract the dialogue flows of intentions by investigating the most common sequences. Although we test our work in the MultiWOZ dataset, the fact that this framework requires no prior knowledge make it applicable to any possible use case, making it very relevant to real world customer support applications across industry.",
+    "link": "http://arxiv.org/abs/2307.15410",
+    "context": "Title: Towards a Fully Unsupervised Framework for Intent Induction in Customer Support Dialogues. (arXiv:2307.15410v1 [cs.CL])\nAbstract: State of the art models in intent induction require annotated datasets. However, annotating dialogues is time-consuming, laborious and expensive. In this work, we propose a completely unsupervised framework for intent induction within a dialogue. In addition, we show how pre-processing the dialogue corpora can improve results. Finally, we show how to extract the dialogue flows of intentions by investigating the most common sequences. Although we test our work in the MultiWOZ dataset, the fact that this framework requires no prior knowledge make it applicable to any possible use case, making it very relevant to real world customer support applications across industry.",
+    "path": "papers/23/07/2307.15410.json",
+    "total_tokens": 729,
+    "translated_title": "在客户支持对话中实现完全无监督的意图诱导框架",
+    "translated_abstract": "目前的意图诱导模型需要注释的数据集。然而，注释对话耗时、繁琐且昂贵。本文提出了一个完全无监督的对话意图诱导框架。此外，我们展示了如何预处理对话语料库以提高结果。最后，我们展示了如何通过研究最常见的序列来提取意图的对话流程。尽管我们在MultiWOZ数据集上测试了我们的工作，但该框架不需要先验知识，因此适用于任何可能的用例，这使得它在各行业的实际客户支持应用中具有重要意义。",
+    "tldr": "本文提出了一个完全无监督的对话意图诱导框架，通过预处理对话语料库和研究最常见的序列来提取意图的对话流程，适用于各行业的实际客户支持应用。",
+    "en_tdlr": "This paper proposes a fully unsupervised framework for intent induction in customer support dialogues, which improves results by preprocessing the dialogue corpora and investigating the most common sequences, and is applicable to real world customer support applications across industries."
+}

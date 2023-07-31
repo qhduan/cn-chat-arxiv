@@ -1,0 +1,12 @@
+{
+    "title": "Confident Feature Ranking. (arXiv:2307.15361v1 [stat.ML])",
+    "abstract": "Interpretation of feature importance values often relies on the relative order of the features rather than on the value itself, referred to as ranking. However, the order may be unstable due to the small sample sizes used in calculating the importance values. We propose that post-hoc importance methods produce a ranking and simultaneous confident intervals for the rankings. Based on pairwise comparisons of the feature importance values, our method is guaranteed to include the ``true'' (infinite sample) ranking with high probability and allows for selecting top-k sets.",
+    "link": "http://arxiv.org/abs/2307.15361",
+    "context": "Title: Confident Feature Ranking. (arXiv:2307.15361v1 [stat.ML])\nAbstract: Interpretation of feature importance values often relies on the relative order of the features rather than on the value itself, referred to as ranking. However, the order may be unstable due to the small sample sizes used in calculating the importance values. We propose that post-hoc importance methods produce a ranking and simultaneous confident intervals for the rankings. Based on pairwise comparisons of the feature importance values, our method is guaranteed to include the ``true'' (infinite sample) ranking with high probability and allows for selecting top-k sets.",
+    "path": "papers/23/07/2307.15361.json",
+    "total_tokens": 600,
+    "translated_title": "确定性特征排序",
+    "translated_abstract": "特征重要性的解释通常依赖于特征的相对顺序而不是数值本身，也就是排序。然而，由于计算重要性值时使用的样本量较小，排序可能不稳定。我们提出了一种事后重要性方法，可以产生一种排序和同时的置信区间。基于特征重要性值的两两比较，我们的方法可以保证高概率包含“真实”（无限样本）排序，并允许选择前k个集合。",
+    "tldr": "提出了一种确定性特征排序的方法，该方法通过特征重要性值的两两比较，可以产生排序和同时的置信区间，并且可以选择前k个集合。",
+    "en_tdlr": "A method for confident feature ranking is proposed, which produces a ranking and simultaneous confident intervals for the rankings through pairwise comparisons of feature importance values, and allows for selecting top-k sets."
+}

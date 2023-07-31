@@ -1,0 +1,12 @@
+{
+    "title": "FeedbackLogs: Recording and Incorporating Stakeholder Feedback into Machine Learning Pipelines. (arXiv:2307.15475v1 [cs.HC])",
+    "abstract": "Even though machine learning (ML) pipelines affect an increasing array of stakeholders, there is little work on how input from stakeholders is recorded and incorporated. We propose FeedbackLogs, addenda to existing documentation of ML pipelines, to track the input of multiple stakeholders. Each log records important details about the feedback collection process, the feedback itself, and how the feedback is used to update the ML pipeline. In this paper, we introduce and formalise a process for collecting a FeedbackLog. We also provide concrete use cases where FeedbackLogs can be employed as evidence for algorithmic auditing and as a tool to record updates based on stakeholder feedback.",
+    "link": "http://arxiv.org/abs/2307.15475",
+    "context": "Title: FeedbackLogs: Recording and Incorporating Stakeholder Feedback into Machine Learning Pipelines. (arXiv:2307.15475v1 [cs.HC])\nAbstract: Even though machine learning (ML) pipelines affect an increasing array of stakeholders, there is little work on how input from stakeholders is recorded and incorporated. We propose FeedbackLogs, addenda to existing documentation of ML pipelines, to track the input of multiple stakeholders. Each log records important details about the feedback collection process, the feedback itself, and how the feedback is used to update the ML pipeline. In this paper, we introduce and formalise a process for collecting a FeedbackLog. We also provide concrete use cases where FeedbackLogs can be employed as evidence for algorithmic auditing and as a tool to record updates based on stakeholder feedback.",
+    "path": "papers/23/07/2307.15475.json",
+    "total_tokens": 705,
+    "translated_title": "FeedbackLogs：将利益相关者反馈记录和纳入到机器学习流程中",
+    "translated_abstract": "虽然机器学习流程影响着越来越多的利益相关者，但关于利益相关者输入的记录和利用方面的研究却很少。我们提出了FeedbackLogs，这是针对现有机器学习流程文档的补充，用于追踪多个利益相关者的输入。每个日志记录了关于反馈收集过程、反馈内容以及如何利用反馈更新机器学习流程的重要细节。本文介绍并正式化了收集FeedbackLog的过程，并提供了具体的使用案例，其中FeedbackLogs可以作为算法审计的证据，并用作记录基于利益相关者反馈的更新的工具。",
+    "tldr": "FeedbackLogs是针对机器学习流程的利益相关者反馈记录和更新的补充工具，可以用于算法审计和记录反馈更新。",
+    "en_tdlr": "FeedbackLogs is a supplementary tool for recording and updating stakeholder feedback in machine learning pipelines, which can be used for algorithmic auditing and tracking feedback-based updates."
+}

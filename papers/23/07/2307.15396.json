@@ -1,0 +1,12 @@
+{
+    "title": "Noisy Interpolation Learning with Shallow Univariate ReLU Networks. (arXiv:2307.15396v1 [cs.LG])",
+    "abstract": "We study the asymptotic overfitting behavior of interpolation with minimum norm ($\\ell_2$ of the weights) two-layer ReLU networks for noisy univariate regression. We show that overfitting is tempered for the $L_1$ loss, and any $L_p$ loss for $p<2$, but catastrophic for $p\\geq 2$.",
+    "link": "http://arxiv.org/abs/2307.15396",
+    "context": "Title: Noisy Interpolation Learning with Shallow Univariate ReLU Networks. (arXiv:2307.15396v1 [cs.LG])\nAbstract: We study the asymptotic overfitting behavior of interpolation with minimum norm ($\\ell_2$ of the weights) two-layer ReLU networks for noisy univariate regression. We show that overfitting is tempered for the $L_1$ loss, and any $L_p$ loss for $p<2$, but catastrophic for $p\\geq 2$.",
+    "path": "papers/23/07/2307.15396.json",
+    "total_tokens": 621,
+    "translated_title": "基于浅层单变量ReLU网络的噪声插值学习",
+    "translated_abstract": "我们研究了噪声单变量回归中使用最小范数（权重的$\\ell_2$范数）的两层ReLU网络进行插值的渐近过拟合行为。我们发现对于$L_1$损失和$ p <2 $的任何$L_p$损失，过拟合现象会被抑制，但对于$ p \\geq 2 $的损失是灾难性的。",
+    "tldr": "使用最小范数的两层ReLU网络进行噪声单变量回归的插值，对于$L_1$损失和$ p <2 $的$L_p$损失抑制过拟合，但对于$ p \\geq 2 $的损失是灾难性的。",
+    "en_tdlr": "Interpolation with minimum norm two-layer ReLU networks for noisy univariate regression shows tempered overfitting for $L_1$ loss and $L_p$ loss with $p<2$, but catastrophic overfitting for $p\\geq 2$."
+}
