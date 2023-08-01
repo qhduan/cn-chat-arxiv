@@ -1,0 +1,12 @@
+{
+    "title": "Online Bipartite Matching via Smoothness. (arXiv:2203.13140v2 [cs.GT] UPDATED)",
+    "abstract": "The online bipartite matching problem has offline buyers desiring to be matched to online items. The analysis of online bipartite matching of Eden et al. (2021) is a smoothness proof (Syrgkanis and Tardos, 2013). Moreover, it can be interpreted as combining a $\\lambda = 1-1/e$ value covering (which holds for single-dimensional agents and randomized auctions) and $\\mu = 1$ revenue covering (Hartline et al., 2014). Note that value covering is a fact about single-dimensional agents and has nothing to do with the underlying feasibility setting. Thus, the essential new result from Eden et al. (2021) is that online bipartite matching is $\\mu=1$ revenue covered. A number of old and new observations follow from this perspective.",
+    "link": "http://arxiv.org/abs/2203.13140",
+    "context": "Title: Online Bipartite Matching via Smoothness. (arXiv:2203.13140v2 [cs.GT] UPDATED)\nAbstract: The online bipartite matching problem has offline buyers desiring to be matched to online items. The analysis of online bipartite matching of Eden et al. (2021) is a smoothness proof (Syrgkanis and Tardos, 2013). Moreover, it can be interpreted as combining a $\\lambda = 1-1/e$ value covering (which holds for single-dimensional agents and randomized auctions) and $\\mu = 1$ revenue covering (Hartline et al., 2014). Note that value covering is a fact about single-dimensional agents and has nothing to do with the underlying feasibility setting. Thus, the essential new result from Eden et al. (2021) is that online bipartite matching is $\\mu=1$ revenue covered. A number of old and new observations follow from this perspective.",
+    "path": "papers/22/03/2203.13140.json",
+    "total_tokens": 782,
+    "translated_title": "基于平滑性的在线二分匹配",
+    "translated_abstract": "在线二分匹配问题涉及到离线买家希望与在线商品匹配。Eden等人（2021）对在线二分匹配进行了平滑性证明（Syrgkanis和Tardos，2013）。此外，它可以被解释为将$\\lambda = 1-1/e$值覆盖（适用于一维代理和随机拍卖）和$\\mu = 1$收入覆盖（Hartline等人，2014）结合在一起。注意，值覆盖是关于一维代理的事实，与底层可行性设置无关。因此，Eden等人（2021）的重要新结果是在线二分匹配是$\\mu = 1$收入覆盖的。从这个角度出发，得出了许多旧的和新的观察结果。",
+    "tldr": "Eden et al. (2021)证明了在线二分匹配问题是$\\mu=1$收入覆盖的，这个结果结合了一维代理和随机拍卖的值覆盖概念。",
+    "en_tdlr": "Eden et al. (2021) proved that the online bipartite matching problem is $\\mu=1$ revenue covered, combining the concept of value covering for one-dimensional agents and randomized auctions."
+}

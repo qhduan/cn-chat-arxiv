@@ -1,0 +1,11 @@
+{
+    "title": "2D Convolutional Neural Network for Event Reconstruction in IceCube DeepCore. (arXiv:2307.16373v1 [astro-ph.HE])",
+    "abstract": "IceCube DeepCore is an extension of the IceCube Neutrino Observatory designed to measure GeV scale atmospheric neutrino interactions for the purpose of neutrino oscillation studies. Distinguishing muon neutrinos from other flavors and reconstructing inelasticity are especially difficult tasks at GeV scale energies in IceCube DeepCore due to sparse instrumentation. Convolutional neural networks (CNNs) have been found to have better success at neutrino event reconstruction than conventional likelihood-based methods. In this contribution, we present a new CNN model that exploits time and depth translational symmetry in IceCube DeepCore data and present the model's performance, specifically for flavor identification and inelasticity reconstruction.",
+    "link": "http://arxiv.org/abs/2307.16373",
+    "context": "Title: 2D Convolutional Neural Network for Event Reconstruction in IceCube DeepCore. (arXiv:2307.16373v1 [astro-ph.HE])\nAbstract: IceCube DeepCore is an extension of the IceCube Neutrino Observatory designed to measure GeV scale atmospheric neutrino interactions for the purpose of neutrino oscillation studies. Distinguishing muon neutrinos from other flavors and reconstructing inelasticity are especially difficult tasks at GeV scale energies in IceCube DeepCore due to sparse instrumentation. Convolutional neural networks (CNNs) have been found to have better success at neutrino event reconstruction than conventional likelihood-based methods. In this contribution, we present a new CNN model that exploits time and depth translational symmetry in IceCube DeepCore data and present the model's performance, specifically for flavor identification and inelasticity reconstruction.",
+    "path": "papers/23/07/2307.16373.json",
+    "total_tokens": 744,
+    "translated_title": "冰立方DeepCore中的二维卷积神经网络用于事件重建",
+    "translated_abstract": "冰立方DeepCore是冰立方中微子观测站的扩展，旨在测量GeV级大气中微子相互作用以进行中微子振荡研究。由于仪器稀疏，冰立方DeepCore在GeV级能量下区分muon中微子和其他味道以及重建不弹性是特别困难的任务。卷积神经网络（CNN）在中微子事件重建方面比传统的基于似然的方法更成功。在这篇论文中，我们提出了一个新的CNN模型，利用了冰立方DeepCore数据中的时间和深度平移对称性，并针对味道识别和不弹性重建评估了该模型的性能。",
+    "tldr": "冰立方DeepCore中的二维卷积神经网络用于事件重建，在GeV级能量下具有更好的成功率，对于味道识别和不弹性重建具有特别的重要意义。"
+}

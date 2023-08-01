@@ -1,0 +1,12 @@
+{
+    "title": "How regularization affects the geometry of loss functions. (arXiv:2307.15744v1 [cs.LG])",
+    "abstract": "What neural networks learn depends fundamentally on the geometry of the underlying loss function. We study how different regularizers affect the geometry of this function. One of the most basic geometric properties of a smooth function is whether it is Morse or not. For nonlinear deep neural networks, the unregularized loss function $L$ is typically not Morse. We consider several different regularizers, including weight decay, and study for which regularizers the regularized function $L_\\epsilon$ becomes Morse.",
+    "link": "http://arxiv.org/abs/2307.15744",
+    "context": "Title: How regularization affects the geometry of loss functions. (arXiv:2307.15744v1 [cs.LG])\nAbstract: What neural networks learn depends fundamentally on the geometry of the underlying loss function. We study how different regularizers affect the geometry of this function. One of the most basic geometric properties of a smooth function is whether it is Morse or not. For nonlinear deep neural networks, the unregularized loss function $L$ is typically not Morse. We consider several different regularizers, including weight decay, and study for which regularizers the regularized function $L_\\epsilon$ becomes Morse.",
+    "path": "papers/23/07/2307.15744.json",
+    "total_tokens": 695,
+    "translated_title": "正则化对损失函数的几何形状的影响",
+    "translated_abstract": "神经网络所学习的内容基本上取决于底层损失函数的几何形状。我们研究了不同的正则化方法对损失函数的几何形状的影响。对于光滑函数来说，其中一个最基本的几何特性是它是否为Morse函数。对于非线性深度神经网络来说，未经正则化的损失函数L通常不是Morse函数。我们考虑了几种不同的正则化方法，包括权重衰减，并研究了哪些正则化方法使得经过正则化后的函数L_ε成为Morse函数。",
+    "tldr": "这篇论文研究了正则化方法对于损失函数几何形状的影响，特别是对于深度神经网络，讨论了一种基本的几何特性Morse函数，并探讨了几种正则化方法使得正则化后的函数成为Morse函数的条件。",
+    "en_tdlr": "This paper investigates how different regularization methods affect the geometry of loss functions, particularly for deep neural networks. It discusses the basic geometric property of Morse functions and explores the conditions under which regularized functions become Morse functions."
+}

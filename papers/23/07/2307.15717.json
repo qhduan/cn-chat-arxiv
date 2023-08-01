@@ -1,0 +1,12 @@
+{
+    "title": "Utilizing Large Language Models for Natural Interface to Pharmacology Databases. (arXiv:2307.15717v1 [cs.CL])",
+    "abstract": "The drug development process necessitates that pharmacologists undertake various tasks, such as reviewing literature, formulating hypotheses, designing experiments, and interpreting results. Each stage requires accessing and querying vast amounts of information. In this abstract, we introduce a Large Language Model (LLM)-based Natural Language Interface designed to interact with structured information stored in databases. Our experiments demonstrate the feasibility and effectiveness of the proposed framework. This framework can generalize to query a wide range of pharmaceutical data and knowledge bases.",
+    "link": "http://arxiv.org/abs/2307.15717",
+    "context": "Title: Utilizing Large Language Models for Natural Interface to Pharmacology Databases. (arXiv:2307.15717v1 [cs.CL])\nAbstract: The drug development process necessitates that pharmacologists undertake various tasks, such as reviewing literature, formulating hypotheses, designing experiments, and interpreting results. Each stage requires accessing and querying vast amounts of information. In this abstract, we introduce a Large Language Model (LLM)-based Natural Language Interface designed to interact with structured information stored in databases. Our experiments demonstrate the feasibility and effectiveness of the proposed framework. This framework can generalize to query a wide range of pharmaceutical data and knowledge bases.",
+    "path": "papers/23/07/2307.15717.json",
+    "total_tokens": 617,
+    "translated_title": "利用大型语言模型进行药理学数据库的自然界面",
+    "translated_abstract": "药物开发过程需要药理学家进行各种任务，如查阅文献，提出假设，设计实验和解释结果。每个阶段都需要访问和查询大量信息。在本文中，我们介绍了一种基于大型语言模型（LLM）的自然语言界面，旨在与存储在数据库中的结构化信息进行交互。我们的实验证明了所提出框架的可行性和有效性。该框架可以推广到查询各种药物数据和知识库。",
+    "tldr": "该论文介绍了一种利用大型语言模型的自然语言界面，旨在与药理学数据库中的结构化信息进行交互，具有广泛的应用价值。",
+    "en_tdlr": "This paper introduces a natural language interface utilizing large language models to interact with structured information in pharmacology databases, with wide applicability."
+}

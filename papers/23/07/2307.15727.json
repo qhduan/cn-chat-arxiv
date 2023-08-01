@@ -1,0 +1,12 @@
+{
+    "title": "AI for Anticipatory Action: Moving Beyond Climate Forecasting. (arXiv:2307.15727v1 [cs.LG])",
+    "abstract": "Disaster response agencies have been shifting from a paradigm of climate forecasting towards one of anticipatory action: assessing not just what the climate will be, but how it will impact specific populations, thereby enabling proactive response and resource allocation. Machine learning models are becoming exceptionally powerful at climate forecasting, but methodological gaps remain in terms of facilitating anticipatory action. Here we provide an overview of anticipatory action, review relevant applications of machine learning, identify common challenges, and highlight areas where machine learning can uniquely contribute to advancing disaster response for populations most vulnerable to climate change.",
+    "link": "http://arxiv.org/abs/2307.15727",
+    "context": "Title: AI for Anticipatory Action: Moving Beyond Climate Forecasting. (arXiv:2307.15727v1 [cs.LG])\nAbstract: Disaster response agencies have been shifting from a paradigm of climate forecasting towards one of anticipatory action: assessing not just what the climate will be, but how it will impact specific populations, thereby enabling proactive response and resource allocation. Machine learning models are becoming exceptionally powerful at climate forecasting, but methodological gaps remain in terms of facilitating anticipatory action. Here we provide an overview of anticipatory action, review relevant applications of machine learning, identify common challenges, and highlight areas where machine learning can uniquely contribute to advancing disaster response for populations most vulnerable to climate change.",
+    "path": "papers/23/07/2307.15727.json",
+    "total_tokens": 751,
+    "translated_title": "AI用于预测行动：超越气候预测",
+    "translated_abstract": "灾害应对机构正从气候预测范式转向预测行动范式：不仅评估气候将如何，而且评估气候对特定人口的影响，从而实现主动响应和资源分配。机器学习模型在气候预测方面变得异常强大，但在促进预测行动方面仍存在方法论上的差距。本文综述了预测行动的概述，回顾了机器学习的相关应用，识别了共同面临的挑战，并突出了机器学习在推进对气候变化最脆弱人口的灾害响应方面的独特贡献。",
+    "tldr": "AI用于预测行动从气候预测向预测行动转变，利用机器学习模型的强大能力，在评估气候对特定人口的影响方面填补了方法论上的差距，以推进对气候变化最脆弱人口的灾害响应。",
+    "en_tdlr": "AI for anticipatory action is shifting from climate forecasting to assessing climate impact on specific populations, using powerful machine learning models to bridge methodological gaps and advance disaster response for the most vulnerable to climate change."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Neural Classifiers based Monte Carlo simulation. (arXiv:2307.16035v1 [stat.ME])",
+    "abstract": "Acceptance-rejection (AR), Independent Metropolis Hastings (IMH) or importance sampling (IS) Monte Carlo (MC) simulation algorithms all involve computing ratios of probability density functions (pdfs). On the other hand, classifiers discriminate labellized samples produced by a mixture density model, i.e., a convex linear combination of two pdfs, and can thus be used for approximating the ratio of these two densities. This bridge between simulation and classification techniques enables us to propose (approximate) pdf-ratios-based simulation algorithms which are built only from a labellized training data set.",
+    "link": "http://arxiv.org/abs/2307.16035",
+    "context": "Title: Neural Classifiers based Monte Carlo simulation. (arXiv:2307.16035v1 [stat.ME])\nAbstract: Acceptance-rejection (AR), Independent Metropolis Hastings (IMH) or importance sampling (IS) Monte Carlo (MC) simulation algorithms all involve computing ratios of probability density functions (pdfs). On the other hand, classifiers discriminate labellized samples produced by a mixture density model, i.e., a convex linear combination of two pdfs, and can thus be used for approximating the ratio of these two densities. This bridge between simulation and classification techniques enables us to propose (approximate) pdf-ratios-based simulation algorithms which are built only from a labellized training data set.",
+    "path": "papers/23/07/2307.16035.json",
+    "total_tokens": 659,
+    "translated_title": "基于神经分类器的蒙特卡洛模拟",
+    "translated_abstract": "接受-拒绝(AR)，独立Metropolis Hastings（IMH）或重要性抽样（IS）蒙特卡洛（MC）模拟算法都涉及计算概率密度函数（pdf）的比率。另一方面，分类器可以区分混合密度模型产生的标记样本，即两个pdf的凸线性组合，并且可以用于近似这两个密度的比率。这个模拟和分类技术之间的桥梁使我们能够提出仅基于标记训练数据集构建的（近似）pdf比率的模拟算法。",
+    "tldr": "该论文介绍了一种基于神经分类器的蒙特卡洛模拟算法，可以通过标记训练数据集来近似计算概率密度函数的比率。",
+    "en_tdlr": "This paper presents a neural classifier-based Monte Carlo simulation algorithm that approximates the ratio of probability density functions using labeled training data."
+}

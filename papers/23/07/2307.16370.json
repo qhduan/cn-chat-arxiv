@@ -1,0 +1,12 @@
+{
+    "title": "Inference for Low-rank Completion without Sample Splitting with Application to Treatment Effect Estimation. (arXiv:2307.16370v1 [econ.EM])",
+    "abstract": "This paper studies the inferential theory for estimating low-rank matrices. It also provides an inference method for the average treatment effect as an application. We show that the least square estimation of eigenvectors following the nuclear norm penalization attains the asymptotic normality. The key contribution of our method is that it does not require sample splitting. In addition, this paper allows dependent observation patterns and heterogeneous observation probabilities. Empirically, we apply the proposed procedure to estimating the impact of the presidential vote on allocating the U.S. federal budget to the states.",
+    "link": "http://arxiv.org/abs/2307.16370",
+    "context": "Title: Inference for Low-rank Completion without Sample Splitting with Application to Treatment Effect Estimation. (arXiv:2307.16370v1 [econ.EM])\nAbstract: This paper studies the inferential theory for estimating low-rank matrices. It also provides an inference method for the average treatment effect as an application. We show that the least square estimation of eigenvectors following the nuclear norm penalization attains the asymptotic normality. The key contribution of our method is that it does not require sample splitting. In addition, this paper allows dependent observation patterns and heterogeneous observation probabilities. Empirically, we apply the proposed procedure to estimating the impact of the presidential vote on allocating the U.S. federal budget to the states.",
+    "path": "papers/23/07/2307.16370.json",
+    "total_tokens": 815,
+    "translated_title": "不需要样本分割的低秩补全推断及其在处理效应估计中的应用",
+    "translated_abstract": "本文研究了用于估计低秩矩阵的推断理论，并提出了一种平均处理效应的推断方法。我们证明了在核范数惩罚下的最小二乘估计的特征向量达到了渐近正态性。我们方法的关键创新之处在于不需要样本分割。此外，本文允许依赖性观测模式和异质观测概率。在实证方面，我们将所提出的方法应用到估计总统选举对将美国联邦预算分配给各州的影响。",
+    "tldr": "本文研究了低秩矩阵估计的推断理论，并提出一种不需要样本分割的推进方法。经验证明，该方法在核范数惩罚下的最小二乘估计具有渐进正态性，并且可以适用于依赖性观测模式和异质观测概率。在实证研究中，将其应用于估计总统选举对美国联邦预算分配给各个州的影响。",
+    "en_tdlr": "This paper studies the inferential theory for estimating low-rank matrices and proposes a non-sample-splitting approach. The least square estimation with nuclear norm penalization achieves asymptotic normality and can handle dependent observation patterns and heterogeneous observation probabilities. Empirically, it is applied to estimate the impact of presidential elections on budget allocation to states in the U.S. federal government."
+}

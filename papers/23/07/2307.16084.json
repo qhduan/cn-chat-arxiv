@@ -1,0 +1,12 @@
+{
+    "title": "PD-SEG: Population Disaggregation Using Deep Segmentation Networks For Improved Built Settlement Mask. (arXiv:2307.16084v1 [cs.CV])",
+    "abstract": "Any policy-level decision-making procedure and academic research involving the optimum use of resources for development and planning initiatives depends on accurate population density statistics. The current cutting-edge datasets offered by WorldPop and Meta do not succeed in achieving this aim for developing nations like Pakistan; the inputs to their algorithms provide flawed estimates that fail to capture the spatial and land-use dynamics. In order to precisely estimate population counts at a resolution of 30 meters by 30 meters, we use an accurate built settlement mask obtained using deep segmentation networks and satellite imagery. The Points of Interest (POI) data is also used to exclude non-residential areas.",
+    "link": "http://arxiv.org/abs/2307.16084",
+    "context": "Title: PD-SEG: Population Disaggregation Using Deep Segmentation Networks For Improved Built Settlement Mask. (arXiv:2307.16084v1 [cs.CV])\nAbstract: Any policy-level decision-making procedure and academic research involving the optimum use of resources for development and planning initiatives depends on accurate population density statistics. The current cutting-edge datasets offered by WorldPop and Meta do not succeed in achieving this aim for developing nations like Pakistan; the inputs to their algorithms provide flawed estimates that fail to capture the spatial and land-use dynamics. In order to precisely estimate population counts at a resolution of 30 meters by 30 meters, we use an accurate built settlement mask obtained using deep segmentation networks and satellite imagery. The Points of Interest (POI) data is also used to exclude non-residential areas.",
+    "path": "papers/23/07/2307.16084.json",
+    "total_tokens": 719,
+    "translated_title": "PD-SEG: 使用深度分割网络进行人口分解，以改进建筑住区掩模",
+    "translated_abstract": "任何涉及资源开发和规划倡议的政策层决策过程和学术研究都依赖于准确的人口密度统计数据。WorldPop和Meta提供的最先进数据集对于像巴基斯坦这样的发展中国家并不能实现这一目标；它们算法的输入提供了错误的估计，无法捕捉到空间和土地利用动态。为了精确估计30米×30米分辨率下的人口数量，我们使用准确的建筑住区掩模，该掩模是使用深度分割网络和卫星图像获得的，并且还使用了兴趣点(POI)数据来排除非居民区域。",
+    "tldr": "通过使用深度分割网络和卫星图像，PD-SEG实现了准确的人口统计，改进了以往在发展中国家准确度不高的情况。",
+    "en_tdlr": "PD-SEG achieves accurate population statistics by using deep segmentation networks and satellite imagery, improving the accuracy in developing countries where previous methods have been inadequate."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Functional Central Limit Theorem and Strong Law of Large Numbers for Stochastic Gradient Langevin Dynamics. (arXiv:2210.02092v2 [math.PR] UPDATED)",
+    "abstract": "We study the mixing properties of an important optimization algorithm of machine learning: the stochastic gradient Langevin dynamics (SGLD) with a fixed step size. The data stream is not assumed to be independent hence the SGLD is not a Markov chain, merely a \\emph{Markov chain in a random environment}, which complicates the mathematical treatment considerably. We derive a strong law of large numbers and a functional central limit theorem for SGLD.",
+    "link": "http://arxiv.org/abs/2210.02092",
+    "context": "Title: Functional Central Limit Theorem and Strong Law of Large Numbers for Stochastic Gradient Langevin Dynamics. (arXiv:2210.02092v2 [math.PR] UPDATED)\nAbstract: We study the mixing properties of an important optimization algorithm of machine learning: the stochastic gradient Langevin dynamics (SGLD) with a fixed step size. The data stream is not assumed to be independent hence the SGLD is not a Markov chain, merely a \\emph{Markov chain in a random environment}, which complicates the mathematical treatment considerably. We derive a strong law of large numbers and a functional central limit theorem for SGLD.",
+    "path": "papers/22/10/2210.02092.json",
+    "total_tokens": 666,
+    "translated_title": "随机梯度 Langevin 动力学的函数中心极限定理和大数定律研究",
+    "translated_abstract": "我们研究了一个重要的机器学习优化算法的混合性质：具有固定步长的随机梯度 Langevin 动力学（SGLD）。数据流不被假设为独立，因此 SGLD 不是一个马尔可夫链，而仅仅是一个随机环境中的马尔可夫链，这极大地复杂了数学处理。我们推导了 SGLD 的大数定律和函数中心极限定理。",
+    "tldr": "这篇论文研究了具有固定步长的随机梯度 Langevin 动力学在数据流不独立的情况下的混合性质，并证明了其具有大数定律和函数中心极限定理。",
+    "en_tdlr": "This paper studies the mixing properties of stochastic gradient Langevin dynamics (SGLD) with a fixed step size, under the assumption of non-independent data streams. It proves the strong law of large numbers and functional central limit theorem for SGLD."
+}

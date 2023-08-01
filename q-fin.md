@@ -2,157 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Global air quality inequality over 2000-2020.](http://arxiv.org/abs/2307.15669) | 2000-2020年间全球空气质量不平等水平持续上升，主要由国家间差异引起。研究结果指出，仅关注国内差异的努力忽视了一个重要问题。 |
-| [^2] | [Fast but multi-partisan: Bursts of communication increase opinion diversity in the temporal Deffuant model.](http://arxiv.org/abs/2307.15614) | 本文研究了沟通突发如何影响观点多样性，发现突发性可以通过促进本地意见的加强来阻止达成共识和极化，特别是在个体容忍度较低且更喜欢调整给相似的同伴时。 |
-| [^3] | [Understanding the least well-kept secret of high-frequency trading.](http://arxiv.org/abs/2307.15599) | 本研究通过分析市场做市商问题，揭示了交易量不平衡与价格走势的细微关系，结果表明，报价预测性交易量不平衡是最优的。 |
-| [^4] | [Quantifying the Influence of Climate on Human Mind and Culture: Evidence from Visual Art.](http://arxiv.org/abs/2307.15540) | 本研究通过分析大量绘画作品和艺术家的生物数据，发现气候变化对人类思维和文化产生了显著和持久的影响，而且这种影响在更依赖艺术家想象力的艺术流派中更加明显。 |
-| [^5] | [An exploration of the mathematical structure and behavioural biases of financial crises.](http://arxiv.org/abs/2307.15402) | 本文通过比较乌克兰入侵金融危机与其他金融危机的市场动态，引入了新的数学技术，研究了股票投资者的相关影响，并提出了适用于不同危机期间的投资组合优化方法。 |
-| [^6] | [Only-child matching penalty in the marriage market.](http://arxiv.org/abs/2307.15336) | 本研究探讨了独生子女在婚姻市场中的匹配情况，并发现独生子女在配对时受到了惩罚，尤其是在伴侣的社会经济地位方面。 |
-| [^7] | [Pairs Trading: An Optimal Selling Rule with Constraints.](http://arxiv.org/abs/2307.15300) | 本文研究了股票对交易中的最优卖出策略，在考虑交易约束条件下，通过求解HJB方程得到了一个闭合形式的解，并提供了数值实验来验证最优策略和价值函数。 |
-| [^8] | [On the mathematics of the circular flow of economic activity with applications to the topic of caring for the vulnerable during pandemics.](http://arxiv.org/abs/2307.15197) | 该论文研究了在缺乏政府支持的情况下如何帮助贫穷和易受困者的问题。通过线性代数和图论方法，提出了一个新的模型来解释收入循环动力学，并将社会划分为分散的和凝聚的。在分散社会中，说服富裕代理人支持贫穷和易受困者将非常困难，而在凝聚社会中，富裕代理人有动机和能力支持贫穷和易受困者。 |
-| [^9] | [Oracle Counterpoint: Relationships between On-chain and Off-chain Market Data.](http://arxiv.org/abs/2303.16331) | 本文研究了On-chain市场活动和Off-chain数字货币市场定价之间的关系，探索使用On-chain数据恢复Off-chain定价信息的程度，并发现局限的On-chain数据也能代理alpha价值。 |
-| [^10] | [An $\alpha$-Stable Approach to Modelling Highly Speculative Assets and Cryptocurrencies.](http://arxiv.org/abs/2002.09881) | 本研究使用比特币、以太坊和瑞波的数据，发现α稳定分布是一种适用于高度投机的加密货币的充分模型，可以更好地拟合加密货币的回报数据，并捕捉到其尖峰厚尾特征。 |
+| [^1] | [American Passport options in an exponential L\'evy model.](http://arxiv.org/abs/2307.16649) | 本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。 |
+| [^2] | [A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation.](http://arxiv.org/abs/2307.16619) | 提出了一种多维电力日内价格建模的常规冲击模型，该模型能同时模拟所有产品，具有较低的参数数量，并可通过矩法进行估计。在电池估值方面的应用中展示了该模型的效果。 |
+| [^3] | [The fiscal implications of stringent climate policy.](http://arxiv.org/abs/2307.16554) | 严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。 |
+| [^4] | [Causal Inference for Banking Finance and Insurance A Survey.](http://arxiv.org/abs/2307.16427) | 本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。 |
+| [^5] | [Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context.](http://arxiv.org/abs/2307.16238) | 该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。 |
+| [^6] | [Equilibria and incentives for illiquid auction markets.](http://arxiv.org/abs/2307.15805) | 本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。 |
+| [^7] | [Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves.](http://arxiv.org/abs/2307.15718) | 该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。 |
+| [^8] | [Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation.](http://arxiv.org/abs/2307.07694) | 该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。 |
+| [^9] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
+| [^10] | [High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner.](http://arxiv.org/abs/2304.13985) | 本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。 |
+| [^11] | [Multivariate L\'evy Models: Calibration and Pricing.](http://arxiv.org/abs/2303.13346) | 本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。 |
+| [^12] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^13] | [Synergistic Small Worlds that Drive Technological Sophistication.](http://arxiv.org/abs/2301.04579) | 本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。 |
+| [^14] | [Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques.](http://arxiv.org/abs/2209.09649) | 本研究通过测试深度学习模型和传统统计技术对基金表现的预测准确性，发现使用现代贝叶斯优化训练的LSTM和GRUs深度学习方法比传统方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果进行集成可以实现最佳表现。 |
 
 # 详细
 
-[^1]: 2000-2020年全球空气质量不平等研究
+[^1]: 指数李维模型下的美国护照期权选择
 
-    Global air quality inequality over 2000-2020. (arXiv:2307.15669v1 [econ.GN])
+    American Passport options in an exponential L\'evy model. (arXiv:2307.16649v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2307.15669](http://arxiv.org/abs/2307.15669)
+    [http://arxiv.org/abs/2307.16649](http://arxiv.org/abs/2307.16649)
 
-    2000-2020年间全球空气质量不平等水平持续上升，主要由国家间差异引起。研究结果指出，仅关注国内差异的努力忽视了一个重要问题。
-
-    
-
-    空气污染在全世界范围内产生了巨大的健康损害和经济成本。污染暴露的程度在国家间和国内差异很大。然而，全球范围内空气质量不平等及其随时间变化的程度尚未得到量化。本研究使用经济不平等指数来衡量各国暴露于直径为2.5微米或以下的环境细颗粒物（PM2.5）的不平等情况。研究发现全球空气质量不平等水平高且持续上升。全球PM2.5基尼系数从2000年的0.32上升到2020年的0.36，超过了许多国家的收入不平等水平。空气质量不平等主要是由国家间差异引起的，而国内差异的影响较小，分解分析结果显示。面对最高水平PM2.5暴露的人口大部分集中在只有少数几个国家。研究结果表明，仅关注国内差异的研究和政策努力忽视了一个重要问题。
-
-    Air pollution generates substantial health damages and economic costs worldwide. Pollution exposure varies greatly, both between countries and within them. However, the degree of air quality inequality and its' trajectory over time have not been quantified at a global level. Here I use economic inequality indices to measure global inequality in exposure to ambient fine particles with 2.5 microns or less in diameter (PM2.5). I find high and rising levels of global air quality inequality. The global PM2.5 Gini Index increased from 0.32 in 2000 to 0.36 in 2020, exceeding levels of income inequality in many countries. Air quality inequality is mostly driven by differences between countries and less so by variation within them, as decomposition analysis shows. A large share of people facing the highest levels of PM2.5 exposure are concentrated in only a few countries. The findings suggest that research and policy efforts that focus only on differences within countries are overlooking an imp
-    
-[^2]: 快速而多派系的：沟通突发增加时间Deffuant模型中的观点多样性
-
-    Fast but multi-partisan: Bursts of communication increase opinion diversity in the temporal Deffuant model. (arXiv:2307.15614v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2307.15614](http://arxiv.org/abs/2307.15614)
-
-    本文研究了沟通突发如何影响观点多样性，发现突发性可以通过促进本地意见的加强来阻止达成共识和极化，特别是在个体容忍度较低且更喜欢调整给相似的同伴时。
+    本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。
 
     
 
-    人类互动创建了社会网络，形成社会的骨干。个体通过社交互动交换信息来调整观点。两个经常出现的问题是社会结构是否促进了观点极化或共识以及是否可以避免极化，尤其是在社交媒体上。在本文中，我们假设社交互动的时间结构不仅调节观点集群的形成，而且定时性本身足以阻止达成共识和极化，通过促进本地观点的强化。我们设计了一种Deffuant观点模型的时间版本，其中双方交互遵循时间模式，并表明仅仅靠突发性就足以通过促进本地意见的加强来避免共识和极化。由于网络聚类，个体自组织成为一个多派系的社会，但在突发性的情况下，意见集群的多样性进一步增加，特别是当个体的容忍度较低且更喜欢调整给相似的同伴时。
+    本文研究了一个被称为美国护照期权的奇异衍生品的定价问题，其中的基础资产由一个李维过程驱动。我们使用动态规划原理推导了定价方程，并证明了期权价值是变分不等式的粘滞解。我们还建立了比较原理，从而得到了粘滞解的唯一性和凸性。
 
-    Human interactions create social networks forming the backbone of societies. Individuals adjust their opinions by exchanging information through social interactions. Two recurrent questions are whether social structures promote opinion polarisation or consensus in societies and whether polarisation can be avoided, particularly on social media. In this paper, we hypothesise that not only network structure but also the timings of social interactions regulate the emergence of opinion clusters. We devise a temporal version of the Deffuant opinion model where pairwise interactions follow temporal patterns and show that burstiness alone is sufficient to refrain from consensus and polarisation by promoting the reinforcement of local opinions. Individuals self-organise into a multi-partisan society due to network clustering, but the diversity of opinion clusters further increases with burstiness, particularly when individuals have low tolerance and prefer to adjust to similar peers. The emerge
+    In this paper we examine the problem of valuing an exotic derivative known as the American passport option where the underlying is driven by a L\'evy process. The passport option is a call option on a trading account. We derive the pricing equation, using the dynamic programming principle, and prove that the option value is a viscosity solution of variational inequality. We also establish the comparison principle, which yields uniqueness and the convexity of the viscosity solution.
     
-[^3]: 理解高频交易中最不为人知的秘密
+[^2]: 一种用于多维电力日内价格建模的常规冲击模型及其在电池估值中的应用
 
-    Understanding the least well-kept secret of high-frequency trading. (arXiv:2307.15599v1 [q-fin.TR])
+    A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation. (arXiv:2307.16619v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2307.15599](http://arxiv.org/abs/2307.15599)
+    [http://arxiv.org/abs/2307.16619](http://arxiv.org/abs/2307.16619)
 
-    本研究通过分析市场做市商问题，揭示了交易量不平衡与价格走势的细微关系，结果表明，报价预测性交易量不平衡是最优的。
-
-    
-
-    在限价订单簿中，交易量不平衡经常被认为是预测未来价格走势的可靠指标。本研究旨在分析价格与交易量不平衡之间的关系细微差别。为此，我们研究了一个市场做市商问题，通过该问题可以将交易量不平衡视为对价格走势的最优响应。在我们的模型中，存在一个驱动中间价格的基准价格，它遵循具有不确定区间的模型。一个市场做市商了解基准价格以及未来中间价格跳动的概率。她控制她在最佳买入和卖出价格报价的交易量。解决她的优化问题让我们能够内生地理解价格-交易量不平衡的关系，并确认特别是报价预测性交易量不平衡是最优的。市场做市商控制问题的价值函数可以被视为一组函数，以市场做市商的库存水平为索引。
-
-    Volume imbalance in a limit order book is often considered as a reliable indicator for predicting future price moves. In this work, we seek to analyse the nuances of the relationship between prices and volume imbalance. To this end, we study a market-making problem which allows us to view the imbalance as an optimal response to price moves. In our model, there is an underlying efficient price driving the mid-price, which follows the model with uncertainty zones. A single market maker knows the underlying efficient price and consequently the probability of a mid-price jump in the future. She controls the volumes she quotes at the best bid and ask prices. Solving her optimization problem allows us to understand endogenously the price-imbalance connection and to confirm in particular that it is optimal to quote a predictive imbalance. The value function of the market maker's control problem can be viewed as a family of functions, indexed by the level of the market maker's inventory, solvi
-    
-[^4]: 量化气候对人类思维和文化的影响: 来自视觉艺术的证据
-
-    Quantifying the Influence of Climate on Human Mind and Culture: Evidence from Visual Art. (arXiv:2307.15540v1 [q-bio.PE])
-
-    [http://arxiv.org/abs/2307.15540](http://arxiv.org/abs/2307.15540)
-
-    本研究通过分析大量绘画作品和艺术家的生物数据，发现气候变化对人类思维和文化产生了显著和持久的影响，而且这种影响在更依赖艺术家想象力的艺术流派中更加明显。
+    提出了一种多维电力日内价格建模的常规冲击模型，该模型能同时模拟所有产品，具有较低的参数数量，并可通过矩法进行估计。在电池估值方面的应用中展示了该模型的效果。
 
     
 
-    本文研究了气候变化对人类思维和文化的影响，时间跨度从13世纪到21世纪。通过对10万幅绘画作品和2000多位艺术家的生物数据进行定量分析，发现了绘画明亮度的一种有趣的U型模式，与全球温度趋势相关。事件研究分析发现，当艺术家遭受高温冲击时，他们的作品在后期变得更加明亮。此外，这种影响在更多依赖艺术家想象力而非现实事物的艺术流派中更加明显，表明了艺术家思维的影响。总体而言，本研究证明了气候对人类思维和文化的显著和持久影响。
+    在本文中，我们提出了一种针对交易会话规模的日内电力价格多维统计模型，允许同时模拟所有产品。该模型基于泊松测度，受常规冲击泊松模型的启发，模拟出了塞缪尔森效应（强度和波动性随到期时间的减少而增加）。它还模拟了在数据中突出显示的价格相关结构，该结构随着两个到期时间的间隔增大而减小。该模型仅有三个参数，可以使用本文提出的矩法进行估计。我们通过在交易会话期间进行动态规划，演示了模型的有用性，并在储能估值案例中进行了验证。
 
-    This paper examines the influence of climate change on the human mind and culture from the 13th century to the 21st century. By quantitatively analyzing 100,000 paintings and the biological data of over 2,000 artists, an interesting U-shaped pattern in the lightness of paintings was found, which correlated with trends in global temperature. Event study analysis revealed that when an artist is subjected to a high-temperature shock, their paintings become brighter in later periods. Moreover, the effects are more pronounced in art genres that rely less on real things and more on the artist's imagination, indicating the influence of artists' minds. Overall, this study demonstrates the significant and enduring influence of climate on the human mind and culture over centuries.
+    In this paper, we propose a multidimensional statistical model of intraday electricity prices at the scale of the trading session, which allows all products to be simulated simultaneously. This model, based on Poisson measures and inspired by the Common Shock Poisson Model, reproduces the Samuelson effect (intensity and volatility increases as time to maturity decreases). It also reproduces the price correlation structure, highlighted here in the data, which decreases as two maturities move apart. This model has only three parameters that can be estimated using a moment method that we propose here. We demonstrate the usefulness of the model on a case of storage valuation by dynamic programming over a trading session.
     
-[^5]: 金融危机的数学结构和行为偏差探索
+[^3]: 严格的气候政策的财政影响
 
-    An exploration of the mathematical structure and behavioural biases of financial crises. (arXiv:2307.15402v1 [q-fin.ST])
+    The fiscal implications of stringent climate policy. (arXiv:2307.16554v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.15402](http://arxiv.org/abs/2307.15402)
+    [http://arxiv.org/abs/2307.16554](http://arxiv.org/abs/2307.16554)
 
-    本文通过比较乌克兰入侵金融危机与其他金融危机的市场动态，引入了新的数学技术，研究了股票投资者的相关影响，并提出了适用于不同危机期间的投资组合优化方法。
-
-    
-
-    本文通过对2022年乌克兰入侵金融危机与近年来显著的金融危机（如互联网泡沫、全球金融危机和COVID-19）进行比较，研究了市场动态的相似性以及对股票投资者的相关影响，并引入了新的数学技术来进行研究。首先，我们研究了不同市场危机期间集体动态的强度，并比较了适合的组合分散化策略，以实现最佳系统风险降低。接下来，我们引入了一种新的线性操作方法，来量化不同危机期间股票回报率的分布差异。我们的方法允许我们公平地比较不同时间段内股票和行业的表现，对整体市场驱动的集体动态进行规范化处理。最后，我们引入了一种新的组合优化框架。
-
-    In this paper we contrast the dynamics of the 2022 Ukraine invasion financial crisis with notable financial crises of recent years - the dot-com bubble, global financial crisis and COVID-19. We study the similarity in market dynamics and associated implications for equity investors between various financial market crises and we introduce new mathematical techniques to do so. First, we study the strength of collective dynamics during different market crises, and compare suitable portfolio diversification strategies with respect to the unique number of sectors and stocks for optimal systematic risk reduction. Next, we introduce a new linear operator method to quantify distributional distance between equity returns during various crises. Our method allows us to fairly compare underlying stock and sector performance during different time periods, normalising for those collective dynamics driven by the overall market. Finally, we introduce a new combinatorial portfolio optimisation framewor
-    
-[^6]: 独生子女在婚姻市场中的配对惩罚
-
-    Only-child matching penalty in the marriage market. (arXiv:2307.15336v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.15336](http://arxiv.org/abs/2307.15336)
-
-    本研究探讨了独生子女在婚姻市场中的匹配情况，并发现独生子女在配对时受到了惩罚，尤其是在伴侣的社会经济地位方面。
+    严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。
 
     
 
-    本研究探讨了独生子女的婚姻配对及其结果。具体而言，我们分析了两个方面。首先，我们调查了独生子女和非独生子女之间的婚姻状况（即与独生子女、非独生子女结婚或保持单身）。这个分析让我们了解人们在选择配偶时是否根据独生子女身份采用正相关配对方式，以及独生子女是否从婚姻配对中获益或受到伴侣吸引力的惩罚。其次，我们通过独生子女和非独生子女之间伴侣社会经济地位（在这里，指受教育年限）差距的大小来衡量配对溢价/惩罚。传统的经济理论和对独生子女身份的正相关配对的观察到的婚姻模式预测，在婚姻市场上，独生子女会受到配对惩罚，尤其是当
+    符合2015年巴黎协议目标的严格的气候政策将带来巨大的财政挑战。到2050年将二氧化碳排放量降低95%或更多将使碳税收入占GDP的7%（1-17%），仅为当前全球税收的一半。贫困地区的税收收入相对较大。二氧化碳封存的补贴金额将占GDP的6.6%（0.3-7.1%）。这些数字是保守估计的，因为它们是使用假设实施最佳气候政策并忽略增加收入成本的模型得出的。如果放松排放目标，财政挑战将迅速缩小。
 
-    This study explores the marriage matching of only-child individuals and its outcome. Specifically, we analyze two aspects. First, we investigate how marital status (i.e., marriage with an only child, that with a non-only child and remaining single) differs between only children and non-only children. This analysis allows us to know whether people choose mates in a positive or a negative assortative manner regarding only-child status, and to predict whether only-child individuals benefit from marriage matching premiums or are subject to penalties regarding partner attractiveness. Second, we measure the premium/penalty by the size of the gap in partner's socio economic status (SES, here, years of schooling) between only-child and non--only-child individuals. The conventional economic theory and the observed marriage patterns of positive assortative mating on only-child status predict that only-child individuals are subject to a matching penalty in the marriage market, especially when the
+    Stringent climate policy compatible with the targets of the 2015 Paris Agreement would pose a substantial fiscal challenge. Reducing carbon dioxide emissions by 95% or more by 2050 would raise 7% (1-17%) of GDP in carbon tax revenue, half of current, global tax revenue. Revenues are relatively larger in poorer regions. Subsidies for carbon dioxide sequestration would amount to 6.6% (0.3-7.1%) of GDP. These numbers are conservative as they were estimated using models that assume first-best climate policy implementation and ignore the costs of raising revenue. The fiscal challenge rapidly shrinks if emission targets are relaxed.
     
-[^7]: Pairs Trading: 具有约束条件的最优卖出规则
+[^4]: 银行金融与保险领域的因果推断综述
 
-    Pairs Trading: An Optimal Selling Rule with Constraints. (arXiv:2307.15300v1 [q-fin.MF])
+    Causal Inference for Banking Finance and Insurance A Survey. (arXiv:2307.16427v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.15300](http://arxiv.org/abs/2307.15300)
+    [http://arxiv.org/abs/2307.16427](http://arxiv.org/abs/2307.16427)
 
-    本文研究了股票对交易中的最优卖出策略，在考虑交易约束条件下，通过求解HJB方程得到了一个闭合形式的解，并提供了数值实验来验证最优策略和价值函数。
-
-    
-
-    本文的重点是确定股票对交易中最有效的卖出策略。在股票对交易中，一只股票持有多头仓位，而另一只股票持有空头仓位。目标是确定最佳时机卖出多头仓位并回购空头仓位以平仓。本文提出了一种带有交易约束的最优股票对交易卖出规则。具体而言，基础股票价格按照二维几何布朗运动演化，而交易权限过程通过二态{允许交易，不允许交易}的马尔可夫链给出。研究表明，最优策略可以通过求解相关的HJB方程（拟变分不等式）得到的一个阈值曲线来确定。获得了一个闭合形式的解。提供了一个验证定理。还报告了数值实验来展示最优策略和价值函数。
-
-    The focus of this paper is on identifying the most effective selling strategy for pairs trading of stocks. In pairs trading, a long position is held in one stock while a short position is held in another. The goal is to determine the optimal time to sell the long position and repurchase the short position in order to close the pairs position. The paper presents an optimal pairs-trading selling rule with trading constraints. In particular, the underlying stock prices evolve according to a two dimensional geometric Brownian motion and the trading permission process is given in terms of a two-state {trading allowed, trading not allowed} Markov chain. It is shown that the optimal policy can be determined by a threshold curve which is obtained by solving the associated HJB equations (quasi-variational inequalities). A closed form solution is obtained. A verification theorem is provided. Numerical experiments are also reported to demonstrate the optimal policies and value functions.
-    
-[^8]: 关于经济活动循环流动数学的研究及其在关怀易受困者的应用
-
-    On the mathematics of the circular flow of economic activity with applications to the topic of caring for the vulnerable during pandemics. (arXiv:2307.15197v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.15197](http://arxiv.org/abs/2307.15197)
-
-    该论文研究了在缺乏政府支持的情况下如何帮助贫穷和易受困者的问题。通过线性代数和图论方法，提出了一个新的模型来解释收入循环动力学，并将社会划分为分散的和凝聚的。在分散社会中，说服富裕代理人支持贫穷和易受困者将非常困难，而在凝聚社会中，富裕代理人有动机和能力支持贫穷和易受困者。
+    本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。
 
     
 
-    我们从根本层面探讨了在缺乏政府机构支持的情况下，为什么、何时和如何去帮助贫穷和易受困者的问题。我们提出了一个基于线性代数和基础图论的简单而新颖的方法来捕捉经济主体之间的收入循环动力学。引入了一个针对收入循环的新的线性代数模型，根据该模型我们可以将社会划分为分散的或凝聚的。我们表明，在分散的社会中，说服社会层级顶部的富裕代理人支持贫穷和易受困者将极为困难。我们还强调了线性代数和简单图论方法如何从基本观点解释分散社会中阶级斗争的一些机制。然后，我们直观地说明并从数学上证明了为什么在凝聚社会中，社会层级顶部的富裕代理人有动机和能力支持贫穷和易受困者。
+    因果推断在解释统计模型和人工智能模型所做决策方面起着重要作用。最近，这个领域开始引起研究人员和实践者的关注。本文对1992年至2023年公开发表的37篇论文进行了全面的综述，涉及了因果推断在银行、金融和保险领域的应用。根据领域的不同，论文被分为以下几类：(i) 银行，(ii) 金融及其子领域，如企业金融、金融治理（包括金融风险和金融政策）、金融经济学和行为金融，以及 (iii) 保险。此外，本文还介绍了因果推断的主要要素，包括贝叶斯因果网络、格兰杰因果关系以及相关的专业术语，如反事实。综述还提出了一些未来研究的重要方向。总之，我们观察到因果推断在银行金融和保险领域得到了广泛的应用，并希望对未来的研究起到了一定的推动作用。
 
-    We investigate, at the fundamental level, the questions of `why', `when' and `how' one could or should reach out to poor and vulnerable people to support them in the absence of governmental institutions. We provide a simple and new approach that is rooted in linear algebra and basic graph theory to capture the dynamics of income circulation among economic agents. A new linear algebraic model for income circulation is introduced, based on which we are able to categorize societies as fragmented or cohesive. We show that, in the case of fragmented societies, convincing wealthy agents at the top of the social hierarchy to support the poor and vulnerable will be very difficult. We also highlight how linear-algebraic and simple graph-theoretic methods help explain, from a fundamental point of view, some of the mechanics of class struggle in fragmented societies. Then, we explain intuitively and prove mathematically why, in cohesive societies, wealthy agents at the top of the social hierarchy
+    Causal Inference plays an significant role in explaining the decisions taken by statistical models and artificial intelligence models. Of late, this field started attracting the attention of researchers and practitioners alike. This paper presents a comprehensive survey of 37 papers published during 1992-2023 and concerning the application of causal inference to banking, finance, and insurance. The papers are categorized according to the following families of domains: (i) Banking, (ii) Finance and its subdomains such as corporate finance, governance finance including financial risk and financial policy, financial economics, and Behavioral finance, and (iii) Insurance. Further, the paper covers the primary ingredients of causal inference namely, statistical methods such as Bayesian Causal Network, Granger Causality and jargon used thereof such as counterfactuals. The review also recommends some important directions for future research. In conclusion, we observed that the application of 
     
-[^9]: Oracle反驳： On-chain和Off-chain市场数据间的关系
+[^5]: 印度背景下教育水平的不平等：城乡比较
 
-    Oracle Counterpoint: Relationships between On-chain and Off-chain Market Data. (arXiv:2303.16331v1 [cs.CR])
+    Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context. (arXiv:2307.16238v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.16331](http://arxiv.org/abs/2303.16331)
+    [http://arxiv.org/abs/2307.16238](http://arxiv.org/abs/2307.16238)
 
-    本文研究了On-chain市场活动和Off-chain数字货币市场定价之间的关系，探索使用On-chain数据恢复Off-chain定价信息的程度，并发现局限的On-chain数据也能代理alpha价值。
-
-    
-
-    我们研究了On-chain市场活动和Off-chain数字货币市场定价（如ETH/USD价格）之间的相关理论和实证关系。我们的目标是开发使用原则上可验证的On-chain数据和计算代理Off-chain市场数据的方法，提供区块链价格oracle的替代方法。我们研究了PoW挖矿、PoS验证、区块空间市场、网络去中心化、使用和货币流通速度以及On-chain流动性池和AMMs的关系。我们从这些市场选择关键特征，通过图形模型、互信息和集成机器学习模型分析它们，以探索完全使用On-chain数据恢复Off-chain定价信息的程度。我们发现大量的定价信息包含在On-chain数据中，但通常很难恢复精确价格，除非在短时间重新训练模型。我们讨论了即使仅有局限的On-chain数据，我们也可以使用它们代理alpha价值的方法。
-
-    We investigate the theoretical and empirical relationships between activity in on-chain markets and pricing in off-chain cryptocurrency markets (e.g., ETH/USD prices). The motivation is to develop methods for proxying off-chain market data using data and computation that is in principle verifiable on-chain and could provide an alternative approach to blockchain price oracles. We explore relationships in PoW mining, PoS validation, block space markets, network decentralization, usage and monetary velocity, and on-chain liquidity pools and AMMs. We select key features from these markets, which we analyze through graphical models, mutual information, and ensemble machine learning models to explore the degree to which off-chain pricing information can be recovered entirely on-chain. We find that a large amount of pricing information is contained in on-chain data, but that it is generally hard to recover precise prices except on short time scales of retraining the model. We discuss how even
-    
-[^10]: 一种建模高度投机性资产和加密货币的α稳定方法
-
-    An $\alpha$-Stable Approach to Modelling Highly Speculative Assets and Cryptocurrencies. (arXiv:2002.09881v2 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2002.09881](http://arxiv.org/abs/2002.09881)
-
-    本研究使用比特币、以太坊和瑞波的数据，发现α稳定分布是一种适用于高度投机的加密货币的充分模型，可以更好地拟合加密货币的回报数据，并捕捉到其尖峰厚尾特征。
+    该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。
 
     
 
-    我们使用比特币、以太坊和瑞波等占据加密货币市场70%以上的数据，研究了加密货币的行为。我们证明了α稳定分布是一个适用于高度投机的加密货币的充分模型，其优于金融计量学中使用的其他重尾分布。我们发现，DuMouchel（1971）提出的极大似然方法比McCulloch（1986）的分位数方法和Koutrouvelis（1980）的样本特征方法更适合拟合加密货币的回报数据。实证结果表明，加密货币回报数据呈现出的尖峰厚尾特征可以被α稳定分布所捕捉到。这些发现突出了α稳定分布不仅仅具有四个自由参数的简洁性，而且是一种接近实际的创新模型。本文涵盖了加密货币的早期报告和文献资料。
+    本文试图比较印度选定的15个邦在1981-2011年期间城乡识字率，并探讨减少城乡教育取得差异的工具。研究构建了Sopher的城乡差异识字指数，分析了印度15个邦的识字差距趋势。尽管识字差距随着时间的推移有所减小，但Sopher指数显示，2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面面临较高的不平等。此外，本研究还应用了固定效应面板数据回归技术，以确定影响城乡教育不平等的因素。模型表明，以下因素可以减少印度城乡地区之间的识字差距：农村妇女生育率低，农村女性21岁后婚姻的比例较高。
 
-    We investigate the behaviour of cryptocurrencies using data for bitcoin, ethereum and ripple which account for over 70% of the cryptocurrency market. We demonstrate that $\alpha$-stable distribution is an appropriately sufficient model for highly speculative cryptocurrencies which outperforms other heavy tailed distributions that are used in financial econometrics. We find that the maximum likelihood method proposed by DuMouchel (1971) produces estimates that fit the cryptocurrency return data much better than the quantile based approach of McCulloch (1986) and sample characteristic method by Koutrouvelis (1980). The empirical results show that the leptokurtic feature presented in cryptocurrency return data can be captured by an $\alpha$-stable distribution. The findings highlight that $\alpha$-stable distribution is not only parsimonious with its four free parameters but also a creative model that is close to reality. This paper covers early reports and literature on cryptocurrencies 
+    The article tries to compare urban and rural literacy of fifteen selected Indian states during 1981 - 2011 and explores the instruments which can reduce the disparity in urban and rural educational attainment. The study constructs Sopher's urban-rural differential literacy index to analyze the trends of literacy disparity across fifteen states in India over time. Although literacy disparity has decreased over time, Sopher's index shows that the states of Andhra Pradesh, Madhya Pradesh, Gujarat, Odisha, Maharashtra and even Karnataka faced high inequality in education between urban and rural India in 2011. Additionally, the Fixed Effect panel data regression technique has been applied in the study to identify the factors which influence urban-rural inequality in education. The model shows that the following factors can reduce literacy disparity between urban and rural areas of India: low fertility rate in rural women, higher percentages of rural females marrying after the age of 21 year
+    
+[^6]: 市场流动性的均衡与激励机制研究
+
+    Equilibria and incentives for illiquid auction markets. (arXiv:2307.15805v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2307.15805](http://arxiv.org/abs/2307.15805)
+
+    本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。
+
+    
+
+    我们研究了用于生成流动性的周期性双边拍卖市场的玩具双人博弈。该博弈存在信息不完全，可以将市场价差与信号强度联系起来。我们在存在或不存在交易所激励的情况下刻画了纳什均衡。这使得我们能够得出关于价格形成和激励设计的新见解。我们特别证明，在没有任何激励的情况下，市场是低效的，导致市场参与者之间没有任何交易。然而，我们证明了基于每个玩家价差一半的二次交易费用会导致交易，并提出了在该模型中交易所必须提出的最佳费用的定量值。
+
+    We study a toy two-player game for periodic double auction markets to generate liquidity. The game has imperfect information, which allows us to link market spreads with signal strength. We characterize Nash equilibria in cases with or without incentives from the exchange. This enables us to derive new insights about price formation and incentives design. We show in particular that without any incentives, the market is inefficient and does not lead to any trade between market participants. We however prove that quadratic fees indexed on each players half spread leads to a transaction and we propose a quantitative value for the optimal fees that the exchange has to propose in this model to generate liquidity.
+    
+[^7]: 期权波动率与隐含概率：IV曲线凹性的影响
+
+    Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves. (arXiv:2307.15718v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2307.15718](http://arxiv.org/abs/2307.15718)
+
+    该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。
+
+    
+
+    盈利公告是提供给投资者基本重要信息的公司事件。股价上涨的可能性也可能导致盈利公告的波动性增加。利用极短期期权数据，我们研究了在盈利公告前普遍存在的风险中性分布的双峰性和IV曲线的凹性特征。本研究比较了凹IV笑脸和非凹IV笑脸之间的收益，以判断IV曲线中的凹性是否提供了关于市场风险的任何信息，并展示了投资者在盈利公告期间如何对抗极端波动。事实上，我们的论文表明，在存在凹IV笑脸的情况下，投资者为对未来公告带来的不确定性进行对冲支付了显著的溢价。
+
+    Earnings announcements (EADs) are corporate events that provide investors with fundamentally important information. The prospect of stock price rises may also contribute to EADs increased volatility. Using data on extremely short term options, we study that bimodality in the risk neutral distribution and concavity in the IV smiles are ubiquitous characteristics before an earnings announcement day. This study compares the returns between concave and non concave IV smiles to see if the concavity in the IV curve leads to any information about the risk in the market and showcases how investors hedge against extreme volatility during earnings announcements. In fact, our paper shows in the presence of concave IV smiles; investors pay a significant premium to hedge against the uncertainty caused by the forthcoming announcement.
+    
+[^8]: 评估深度强化学习算法在投资组合优化中的应用
+
+    Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation. (arXiv:2307.07694v1 [cs.CE])
+
+    [http://arxiv.org/abs/2307.07694](http://arxiv.org/abs/2307.07694)
+
+    该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。
+
+    
+
+    我们对投资组合优化任务中的基准深度强化学习（DRL）算法进行了评估，并使用模拟器作为评估依据。该模拟器基于相关几何布朗运动（GBM）与Bertsimas-Lo（BL）市场冲击模型。使用凯利准则（对数效用）作为目标，我们可以在没有市场冲击的情况下通过分析推导出最优策略，并将其用作包括市场冲击时性能的上限。我们发现，离策略算法DDPG、TD3和SAC由于噪声奖励的存在无法学习到正确的Q函数，因此表现不佳。而基于策略的算法PPO和A2C，在广义优势估计（GAE）的使用下能够应对噪声并得出接近最优策略。PPO的剪切变体在防止策略在收敛后偏离最优值方面发挥了重要作用。在GBM参数发生制度性变化的更具挑战性的环境中，我们发现PPO、TD3和SAC算法仍能保持较好的性能。
+
+    We evaluate benchmark deep reinforcement learning (DRL) algorithms on the task of portfolio optimisation under a simulator. The simulator is based on correlated geometric Brownian motion (GBM) with the Bertsimas-Lo (BL) market impact model. Using the Kelly criterion (log utility) as the objective, we can analytically derive the optimal policy without market impact and use it as an upper bound to measure performance when including market impact. We found that the off-policy algorithms DDPG, TD3 and SAC were unable to learn the right Q function due to the noisy rewards and therefore perform poorly. The on-policy algorithms PPO and A2C, with the use of generalised advantage estimation (GAE), were able to deal with the noise and derive a close to optimal policy. The clipping variant of PPO was found to be important in preventing the policy from deviating from the optimal once converged. In a more challenging environment where we have regime changes in the GBM parameters, we found that PPO,
+    
+[^9]: 互动一致性纠缠理论
+
+    A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2306.15554](http://arxiv.org/abs/2306.15554)
+
+    本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。
+
+    
+
+    复杂适应性学习是智能的，并在生命和非生命复杂系统中发挥作用。一个复杂系统由许多相互作用的个体或单元组成，它们在相互作用中显示出隐藏的模式，并广泛出现在几乎所有学科中，从自然科学到社会科学。这激发了科学家们探索复杂系统形成机制的兴趣。然而，这是非常具有挑战性的。本文从交易量-价格概率波动方程中提取了复杂系统中的互动一致性的普遍规律或法则，并将其应用于复杂量子系统。它假设粒子可以在加强坐标中具有复杂适应性学习或智能样性质，并将金融市场交易者的复杂适应性学习延伸到量子物理中的非生命粒子。在这些假设的基础上，作者提出了一种互动一致性纠缠理论，用于解释智能样粒子的行为。
+
+    Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
+    
+[^10]: 高频预测交易及其影响：小内幕交易者对压轴者的影响
+
+    High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner. (arXiv:2304.13985v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2304.13985](http://arxiv.org/abs/2304.13985)
+
+    本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。
+
+    
+
+    本文研究了大内幕交易者(IT)与能够预测前者即将到来订单的高频交易者(HFT)在扩展的Kyle(1985)模型下的互动。讨论了不同情况下的均衡。依靠速度优势，HFT总是提前和大单交易同向。然而，她是否提供流动性取决于她的库存厌恶、预测准确性和市场活跃度。她可能会回馈流动性(充当压轴者)或继续带走流动性(此时我们称她为小IT)。小IT总是伤害大交易者，而压轴者可能使她受益。此外，我们惊奇地发现(1)增加HFT信号中的噪声实际上可能会降低IT的利润;(2)尽管提供流动性，压轴者可能比小内幕交易者更加伤害IT。
+
+    In this paper, the interactions between a large informed trader (IT, for short) and a high-frequency trader (HFT, for short) who can anticipate the former's incoming order are studied in an extended Kyle's (1985) model. Equilibria under various specific situations are discussed. Relying on the speed advantage, HFT always trades in the same direction as the large order in advance. However, whether or not she provides liquidity depends on her inventory aversion, the prediction accuracy, and the market activeness. She may supply liquidity back (act as a front-runner) or continue to take it away (in this case we call her a small IT). Small IT always harms the large trader while front-runner may benefit her. Besides, we find surprisingly that (1) increasing the noise in HFT's signal may in fact decrease IT's profit; (2) although providing liquidity, a front-runner may harm IT more than a small IT.
+    
+[^11]: 多元Lévy模型：校准与定价。
+
+    Multivariate L\'evy Models: Calibration and Pricing. (arXiv:2303.13346v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2303.13346](http://arxiv.org/abs/2303.13346)
+
+    本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。
+
+    
+
+    本研究采用基于Lévy过程的多元资产模型，用于定价异类衍生品。我们比较它们拟合市场数据和复制价格基准的能力，评估它们在参数化和依赖结构方面的灵活性。我们回顾了最近在多元设定中的风险中性校准方法和技术，并提供了在实际情况下做出明智决策的工具。特别关注模型捕捉线性和非线性依赖的能力，对其定价性能产生影响。鉴于分析衍生品的异类特性，估值是通过蒙特卡洛方法进行的。
+
+    In this research we employ a range of multivariate asset models based on L\'evy processes to price exotic derivatives. We compare their ability to fit market data and replicate price benchmarks, and evaluate their flexibility in terms of parametrization and dependence structure. We review recent risk-neutral calibration approaches and techniques in the multivariate setting, and provide tools to make well-informed decisions in a practical context. A special focus is given to the ability of the models to capture linear and nonlinear dependence, with implications on their pricing performance. Given the exotic features of the analyzed derivatives, valuation is carried out through Monte Carlo methods.
+    
+[^12]: 经济主体的动态运输
+
+    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+
+    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
+
+    
+
+    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
+
+    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
+    
+[^13]: 驱动技术复杂性的协同小世界
+
+    Synergistic Small Worlds that Drive Technological Sophistication. (arXiv:2301.04579v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2301.04579](http://arxiv.org/abs/2301.04579)
+
+    本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。
+
+    
+
+    高度发达的经济体在各种产品的创造方面展现出很高的复杂性。然而，在研究行业或整个经济体等大系统时，生产过程中发生的相互作用的性质和基本结构仍然不透明。本文利用部分信息分解方法，量化了这些相互作用的性质，从而推断出创新有多少来自于特定的输入相互作用以及它们的结构。这些估计结果揭示了支撑技术复杂性的微妙相互作用的全新图景。通过分析协同作用网络，我们发现更复杂的行业往往展现出高度模块化的小世界拓扑结构，其中第三产业是其中心连接核心。拥有良好建立的连接核心和专业模块的国家和行业展示出更高的经济复杂性和产出效率。类似的模块化网络
+
+    Advanced economies exhibit a high degree of sophistication in the creation of various products. While critical to such sophistication, the nature and underlying structure of the interactions taking place inside production processes remain opaque when studying large systems such as industries or entire economies. Using partial information decomposition, we quantify the nature of these interactions, allowing us to infer how much innovation stems form specific input interactions and how they are structured. These estimates yield a novel picture of the nuanced interactions underpinning technological sophistication. By analyzing networks of synergistic interactions, we find that more sophisticated industries tend to exhibit highly modular small-world topologies; with the tertiary sector as its central connective core. Countries and industries that have a well-established connective core and specialized modules exhibit higher economic complexity and output efficiency. Similar modular network
+    
+[^14]: 使用深度学习和集成技术预测互惠基金的表现
+
+    Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques. (arXiv:2209.09649v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2209.09649](http://arxiv.org/abs/2209.09649)
+
+    本研究通过测试深度学习模型和传统统计技术对基金表现的预测准确性，发现使用现代贝叶斯优化训练的LSTM和GRUs深度学习方法比传统方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果进行集成可以实现最佳表现。
+
+    
+
+    预测基金表现对投资者和基金经理都有益处，但也是一项具有挑战性的任务。本文测试了深度学习模型是否比传统统计技术更准确地预测基金表现。基金表现通常通过夏普比率来评估，夏普比率表示风险调整后的表现，以确保在基金之间有可比性。我们根据美国投资于上市大盘股的600多只开放式股票型互惠基金的月度回报时间序列数据计算了年化夏普比率。我们发现，使用现代贝叶斯优化训练的长短期记忆（LSTM）和门控循环单元（GRUs）深度学习方法，比传统统计方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果组合的集成方法，实现了所有模型中最好的表现。
+
+    Predicting fund performance is beneficial to both investors and fund managers, and yet is a challenging task. In this paper, we have tested whether deep learning models can predict fund performance more accurately than traditional statistical techniques. Fund performance is typically evaluated by the Sharpe ratio, which represents the risk-adjusted performance to ensure meaningful comparability across funds. We calculated the annualised Sharpe ratios based on the monthly returns time series data for more than 600 open-end mutual funds investing in listed large-cap equities in the United States. We find that long short-term memory (LSTM) and gated recurrent units (GRUs) deep learning methods, both trained with modern Bayesian optimization, provide higher accuracy in forecasting funds' Sharpe ratios than traditional statistical ones. An ensemble method, which combines forecasts from LSTM and GRUs, achieves the best performance of all models. There is evidence to say that deep learning an
     
 

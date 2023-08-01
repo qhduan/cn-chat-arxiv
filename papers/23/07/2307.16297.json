@@ -1,0 +1,12 @@
+{
+    "title": "Time-Aware Item Weighting for the Next Basket Recommendations. (arXiv:2307.16297v1 [cs.IR])",
+    "abstract": "In this paper we study the next basket recommendation problem. Recent methods use different approaches to achieve better performance. However, many of them do not use information about the time of prediction and time intervals between baskets. To fill this gap, we propose a novel method, Time-Aware Item-based Weighting (TAIW), which takes timestamps and intervals into account. We provide experiments on three real-world datasets, and TAIW outperforms well-tuned state-of-the-art baselines for next-basket recommendations. In addition, we show the results of an ablation study and a case study of a few items.",
+    "link": "http://arxiv.org/abs/2307.16297",
+    "context": "Title: Time-Aware Item Weighting for the Next Basket Recommendations. (arXiv:2307.16297v1 [cs.IR])\nAbstract: In this paper we study the next basket recommendation problem. Recent methods use different approaches to achieve better performance. However, many of them do not use information about the time of prediction and time intervals between baskets. To fill this gap, we propose a novel method, Time-Aware Item-based Weighting (TAIW), which takes timestamps and intervals into account. We provide experiments on three real-world datasets, and TAIW outperforms well-tuned state-of-the-art baselines for next-basket recommendations. In addition, we show the results of an ablation study and a case study of a few items.",
+    "path": "papers/23/07/2307.16297.json",
+    "total_tokens": 700,
+    "translated_title": "下一个购物篮推荐的时间感知项目加权方法",
+    "translated_abstract": "本文研究了下一个购物篮推荐问题。最近的方法使用不同的方法来提高性能。然而，其中许多方法没有使用关于预测时间和购物篮时间间隔的信息。为了填补这个空白，我们提出了一种新的方法，即时间感知的基于项目的加权方法(TAIW)，该方法考虑了时间戳和时间间隔。我们在三个真实数据集上进行了实验，发现TAIW在下一个购物篮推荐方面优于经过精心调整的最先进的基线方法。此外，我们还展示了消融研究和一些项目的案例研究的结果。",
+    "tldr": "本文提出了一种时间感知的基于项目的加权方法(TAIW)，通过考虑时间戳和时间间隔来解决下一个购物篮推荐问题，并在实验证实了其优于现有方法的表现。",
+    "en_tdlr": "This paper proposes a time-aware item-based weighting method (TAIW) to address the next basket recommendation problem by taking timestamps and intervals into account, and its superiority over existing methods is validated through experiments."
+}

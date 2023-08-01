@@ -1,0 +1,11 @@
+{
+    "title": "RoCar: A Relationship Network-based Evaluation Method to Large Language Models. (arXiv:2307.15997v1 [cs.CL])",
+    "abstract": "Large language models (LLMs) have received increasing attention. However, due to the complexity of its capabilities, how to rationally evaluate the capabilities of LLMs is still a task to be solved. We propose the RoCar method, which utilizes the defined basic schemas to randomly construct a task graph and generates natural language evaluation tasks based on the task graph to evaluate the reasoning and memory abilities of LLMs respectively. Due to the very large randomness of the task construction process, it is possible to ensure that none of the LLMs to be tested has directly learned the evaluation tasks, guaranteeing the fairness of the evaluation method.",
+    "link": "http://arxiv.org/abs/2307.15997",
+    "context": "Title: RoCar: A Relationship Network-based Evaluation Method to Large Language Models. (arXiv:2307.15997v1 [cs.CL])\nAbstract: Large language models (LLMs) have received increasing attention. However, due to the complexity of its capabilities, how to rationally evaluate the capabilities of LLMs is still a task to be solved. We propose the RoCar method, which utilizes the defined basic schemas to randomly construct a task graph and generates natural language evaluation tasks based on the task graph to evaluate the reasoning and memory abilities of LLMs respectively. Due to the very large randomness of the task construction process, it is possible to ensure that none of the LLMs to be tested has directly learned the evaluation tasks, guaranteeing the fairness of the evaluation method.",
+    "path": "papers/23/07/2307.15997.json",
+    "total_tokens": 700,
+    "translated_title": "RoCar:一种基于关系网络的大型语言模型评估方法",
+    "translated_abstract": "大型语言模型（LLMs）受到越来越多的关注。然而，由于其能力的复杂性，如何合理评估LLMs的能力仍然是一个需要解决的任务。我们提出了RoCar方法，利用定义的基本模式随机构建一个任务图，并基于任务图生成自然语言评估任务，分别评估LLMs的推理和记忆能力。由于任务构建过程的极大随机性，可以确保被测试的LLMs中没有一个直接学习了评估任务，从而保证了评估方法的公平性。",
+    "tldr": "RoCar是一种利用关系网络构建任务图并生成自然语言评估任务的方法，用于评估大型语言模型的推理和记忆能力。该方法通过极大的随机性确保了评估的公平性。"
+}

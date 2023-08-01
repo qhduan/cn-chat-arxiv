@@ -1,0 +1,12 @@
+{
+    "title": "RGB-D-Fusion: Image Conditioned Depth Diffusion of Humanoid Subjects. (arXiv:2307.15988v1 [cs.CV])",
+    "abstract": "We present RGB-D-Fusion, a multi-modal conditional denoising diffusion probabilistic model to generate high resolution depth maps from low-resolution monocular RGB images of humanoid subjects. RGB-D-Fusion first generates a low-resolution depth map using an image conditioned denoising diffusion probabilistic model and then upsamples the depth map using a second denoising diffusion probabilistic model conditioned on a low-resolution RGB-D image. We further introduce a novel augmentation technique, depth noise augmentation, to increase the robustness of our super-resolution model.",
+    "link": "http://arxiv.org/abs/2307.15988",
+    "context": "Title: RGB-D-Fusion: Image Conditioned Depth Diffusion of Humanoid Subjects. (arXiv:2307.15988v1 [cs.CV])\nAbstract: We present RGB-D-Fusion, a multi-modal conditional denoising diffusion probabilistic model to generate high resolution depth maps from low-resolution monocular RGB images of humanoid subjects. RGB-D-Fusion first generates a low-resolution depth map using an image conditioned denoising diffusion probabilistic model and then upsamples the depth map using a second denoising diffusion probabilistic model conditioned on a low-resolution RGB-D image. We further introduce a novel augmentation technique, depth noise augmentation, to increase the robustness of our super-resolution model.",
+    "path": "papers/23/07/2307.15988.json",
+    "total_tokens": 769,
+    "translated_title": "RGB-D-Fusion: 基于图像条件的人形主体深度扩散",
+    "translated_abstract": "我们提出了RGB-D-Fusion，这是一种多模态条件去噪扩散概率模型，用于通过人形主体的低分辨率单目RGB图像生成高分辨率深度图。RGB-D-Fusion首先使用图像条件的去噪扩散概率模型生成低分辨率深度图，然后使用基于低分辨率RGB-D图像的第二个去噪扩散概率模型将深度图上采样。我们还引入了一种新颖的增强技术，深度噪声增强，以增加我们的超分辨率模型的鲁棒性。",
+    "tldr": "RGB-D-Fusion是一种多模态条件去噪扩散概率模型，用于生成高分辨率深度图。它通过两个去噪扩散概率模型实现，其中一个是图像条件的，另一个是基于低分辨率RGB-D图像的。此外，还引入了深度噪声增强技术来提高模型的鲁棒性。",
+    "en_tdlr": "RGB-D-Fusion is a multi-modal conditional denoising diffusion probabilistic model for generating high resolution depth maps. It utilizes two denoising diffusion probabilistic models, one conditioned on images and the other conditioned on low-resolution RGB-D images. Additionally, a depth noise augmentation technique is introduced to enhance the robustness of the model."
+}

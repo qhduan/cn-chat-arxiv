@@ -1,0 +1,11 @@
+{
+    "title": "Deep Convolutional Neural Networks with Zero-Padding: Feature Extraction and Learning. (arXiv:2307.16203v1 [cs.LG])",
+    "abstract": "This paper studies the performance of deep convolutional neural networks (DCNNs) with zero-padding in feature extraction and learning. After verifying the roles of zero-padding in enabling translation-equivalence, and pooling in its translation-invariance driven nature, we show that with similar number of free parameters, any deep fully connected networks (DFCNs) can be represented by DCNNs with zero-padding. This demonstrates that DCNNs with zero-padding is essentially better than DFCNs in feature extraction. Consequently, we derive universal consistency of DCNNs with zero-padding and show its translation-invariance in the learning process. All our theoretical results are verified by numerical experiments including both toy simulations and real-data running.",
+    "link": "http://arxiv.org/abs/2307.16203",
+    "context": "Title: Deep Convolutional Neural Networks with Zero-Padding: Feature Extraction and Learning. (arXiv:2307.16203v1 [cs.LG])\nAbstract: This paper studies the performance of deep convolutional neural networks (DCNNs) with zero-padding in feature extraction and learning. After verifying the roles of zero-padding in enabling translation-equivalence, and pooling in its translation-invariance driven nature, we show that with similar number of free parameters, any deep fully connected networks (DFCNs) can be represented by DCNNs with zero-padding. This demonstrates that DCNNs with zero-padding is essentially better than DFCNs in feature extraction. Consequently, we derive universal consistency of DCNNs with zero-padding and show its translation-invariance in the learning process. All our theoretical results are verified by numerical experiments including both toy simulations and real-data running.",
+    "path": "papers/23/07/2307.16203.json",
+    "total_tokens": 798,
+    "translated_title": "深度卷积神经网络中的零填充: 特征提取和学习",
+    "translated_abstract": "本文研究了在特征提取和学习中使用零填充的深度卷积神经网络（DCNNs）的性能。在验证了零填充在实现平移等价性和池化在实现平移不变性的作用后，我们证明了使用相同数量的自由参数，任何深度全连接网络（DFCNs）都可以通过具有零填充的DCNNs来表示。这证明了相比于DFCNs在特征提取上，零填充的DCNNs具有更好的性能。因此，我们推导出了具有零填充的DCNNs的普遍一致性，并且展示了其学习过程中的平移不变性。我们的所有理论结果都通过数值实验进行了验证，包括玩具模拟和真实数据运行。",
+    "tldr": "本文研究了在特征提取和学习中使用零填充的深度卷积神经网络的性能，并证明了相比于全连接网络，零填充的DCNNs具有更好的性能和平移不变性。"
+}

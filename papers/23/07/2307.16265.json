@@ -1,0 +1,12 @@
+{
+    "title": "Recent Advances in Hierarchical Multi-label Text Classification: A Survey. (arXiv:2307.16265v1 [cs.CL])",
+    "abstract": "Hierarchical multi-label text classification aims to classify the input text into multiple labels, among which the labels are structured and hierarchical. It is a vital task in many real world applications, e.g. scientific literature archiving. In this paper, we survey the recent progress of hierarchical multi-label text classification, including the open sourced data sets, the main methods, evaluation metrics, learning strategies and the current challenges. A few future research directions are also listed for community to further improve this field.",
+    "link": "http://arxiv.org/abs/2307.16265",
+    "context": "Title: Recent Advances in Hierarchical Multi-label Text Classification: A Survey. (arXiv:2307.16265v1 [cs.CL])\nAbstract: Hierarchical multi-label text classification aims to classify the input text into multiple labels, among which the labels are structured and hierarchical. It is a vital task in many real world applications, e.g. scientific literature archiving. In this paper, we survey the recent progress of hierarchical multi-label text classification, including the open sourced data sets, the main methods, evaluation metrics, learning strategies and the current challenges. A few future research directions are also listed for community to further improve this field.",
+    "path": "papers/23/07/2307.16265.json",
+    "total_tokens": 639,
+    "translated_title": "分层多标签文本分类的最新进展：一项调查",
+    "translated_abstract": "分层多标签文本分类旨在将输入的文本分为多个标签，其中标签之间具有结构和层次关系。它是许多现实世界应用中的重要任务，例如科学文献归档。本文调查了分层多标签文本分类的最新进展，包括开源数据集、主要方法、评估指标、学习策略和当前的挑战。还列举了几个未来研究方向，供研究者进一步改进这个领域。",
+    "tldr": "这篇论文调查了分层多标签文本分类的最新进展，包括数据集、方法、评估指标、学习策略和挑战，同时提供了未来研究方向。",
+    "en_tdlr": "This survey paper presents the recent progress in hierarchical multi-label text classification, covering datasets, methods, evaluation metrics, learning strategies, and challenges, as well as suggesting future research directions."
+}

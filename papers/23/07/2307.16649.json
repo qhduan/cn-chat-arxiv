@@ -1,0 +1,12 @@
+{
+    "title": "American Passport options in an exponential L\\'evy model. (arXiv:2307.16649v1 [q-fin.PR])",
+    "abstract": "In this paper we examine the problem of valuing an exotic derivative known as the American passport option where the underlying is driven by a L\\'evy process. The passport option is a call option on a trading account. We derive the pricing equation, using the dynamic programming principle, and prove that the option value is a viscosity solution of variational inequality. We also establish the comparison principle, which yields uniqueness and the convexity of the viscosity solution.",
+    "link": "http://arxiv.org/abs/2307.16649",
+    "context": "Title: American Passport options in an exponential L\\'evy model. (arXiv:2307.16649v1 [q-fin.PR])\nAbstract: In this paper we examine the problem of valuing an exotic derivative known as the American passport option where the underlying is driven by a L\\'evy process. The passport option is a call option on a trading account. We derive the pricing equation, using the dynamic programming principle, and prove that the option value is a viscosity solution of variational inequality. We also establish the comparison principle, which yields uniqueness and the convexity of the viscosity solution.",
+    "path": "papers/23/07/2307.16649.json",
+    "total_tokens": 634,
+    "translated_title": "指数李维模型下的美国护照期权选择",
+    "translated_abstract": "本文研究了一个被称为美国护照期权的奇异衍生品的定价问题，其中的基础资产由一个李维过程驱动。我们使用动态规划原理推导了定价方程，并证明了期权价值是变分不等式的粘滞解。我们还建立了比较原理，从而得到了粘滞解的唯一性和凸性。",
+    "tldr": "本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。",
+    "en_tdlr": "This paper examines the valuation problem of an exotic derivative called the American passport option in an exponential L\\'evy model. The pricing equation is derived using the dynamic programming principle, and it is proved that the option value is a viscosity solution of variational inequality. The comparison principle is established, yielding uniqueness and convexity of the viscosity solution."
+}

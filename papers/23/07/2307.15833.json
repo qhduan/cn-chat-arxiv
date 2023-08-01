@@ -1,0 +1,12 @@
+{
+    "title": "Dialogue Shaping: Empowering Agents through NPC Interaction. (arXiv:2307.15833v1 [cs.CL])",
+    "abstract": "One major challenge in reinforcement learning (RL) is the large amount of steps for the RL agent needs to converge in the training process and learn the optimal policy, especially in text-based game environments where the action space is extensive. However, non-player characters (NPCs) sometimes hold some key information about the game, which can potentially help to train RL agents faster. Thus, this paper explores how to interact and converse with NPC agents to get the key information using large language models (LLMs), as well as incorporate this information to speed up RL agent's training using knowledge graphs (KGs) and Story Shaping.",
+    "link": "http://arxiv.org/abs/2307.15833",
+    "context": "Title: Dialogue Shaping: Empowering Agents through NPC Interaction. (arXiv:2307.15833v1 [cs.CL])\nAbstract: One major challenge in reinforcement learning (RL) is the large amount of steps for the RL agent needs to converge in the training process and learn the optimal policy, especially in text-based game environments where the action space is extensive. However, non-player characters (NPCs) sometimes hold some key information about the game, which can potentially help to train RL agents faster. Thus, this paper explores how to interact and converse with NPC agents to get the key information using large language models (LLMs), as well as incorporate this information to speed up RL agent's training using knowledge graphs (KGs) and Story Shaping.",
+    "path": "papers/23/07/2307.15833.json",
+    "total_tokens": 699,
+    "translated_title": "对话塑造：通过NPC交互增强智能体能力",
+    "translated_abstract": "强化学习(RL)中的一个主要挑战是RL智能体在训练过程中需要收敛并学习最优策略的大量步骤，尤其是在动作空间广泛的基于文本的游戏环境中。然而，非玩家角色(NPCs)有时会拥有游戏的关键信息，这些信息有助于更快地训练RL智能体。因此，本文探讨了如何与NPC智能体进行交互和对话，利用大型语言模型(LLMs)获取关键信息，并使用知识图谱(KGs)和故事塑造来加速RL智能体的训练。",
+    "tldr": "本文研究了通过与NPC智能体的交互和对话，利用大型语言模型和知识图谱来加速强化学习智能体的训练过程。",
+    "en_tdlr": "This paper explores how to speed up the training process of reinforcement learning agents by interacting and conversing with non-player characters (NPCs), utilizing large language models and knowledge graphs."
+}

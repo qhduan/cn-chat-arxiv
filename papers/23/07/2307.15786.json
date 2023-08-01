@@ -1,0 +1,12 @@
+{
+    "title": "SAFE: Saliency-Aware Counterfactual Explanations for DNN-based Automated Driving Systems. (arXiv:2307.15786v1 [cs.LG])",
+    "abstract": "A CF explainer identifies the minimum modifications in the input that would alter the model's output to its complement. In other words, a CF explainer computes the minimum modifications required to cross the model's decision boundary. Current deep generative CF models often work with user-selected features rather than focusing on the discriminative features of the black-box model. Consequently, such CF examples may not necessarily lie near the decision boundary, thereby contradicting the definition of CFs. To address this issue, we propose in this paper a novel approach that leverages saliency maps to generate more informative CF explanations. Source codes are available at: https://github.com/Amir-Samadi//Saliency_Aware_CF.",
+    "link": "http://arxiv.org/abs/2307.15786",
+    "context": "Title: SAFE: Saliency-Aware Counterfactual Explanations for DNN-based Automated Driving Systems. (arXiv:2307.15786v1 [cs.LG])\nAbstract: A CF explainer identifies the minimum modifications in the input that would alter the model's output to its complement. In other words, a CF explainer computes the minimum modifications required to cross the model's decision boundary. Current deep generative CF models often work with user-selected features rather than focusing on the discriminative features of the black-box model. Consequently, such CF examples may not necessarily lie near the decision boundary, thereby contradicting the definition of CFs. To address this issue, we propose in this paper a novel approach that leverages saliency maps to generate more informative CF explanations. Source codes are available at: https://github.com/Amir-Samadi//Saliency_Aware_CF.",
+    "path": "papers/23/07/2307.15786.json",
+    "total_tokens": 704,
+    "translated_title": "SAFE: 基于显著性的DNN自动驾驶系统的对抗性解释",
+    "translated_abstract": "CF解释器识别出在输入中最少的修改将模型的输出改变为其补集。换句话说，CF解释器计算出越过模型决策边界所需的最小修改。目前的深度生成CF模型通常与用户选择的特征一起工作，而不是关注黑盒模型的判别特征。因此，这样的CF示例可能不一定位于决策边界附近，从而违背了CF的定义。为了解决这个问题，本文提出了一种新颖的方法，利用显著图生成更具信息性的CF解释。",
+    "tldr": "本文提出了一种基于显著性图的方法，来生成更具信息性的CF解释，用于解释DNN自动驾驶系统的决策过程。",
+    "en_tdlr": "This paper proposes a novel approach using saliency maps to generate more informative CF explanations for explaining the decision-making process of DNN-based automated driving systems."
+}

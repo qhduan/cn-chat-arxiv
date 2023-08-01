@@ -1,0 +1,12 @@
+{
+    "title": "\\`{I}r\\`{o}y\\`{i}nSpeech: A multi-purpose Yor\\`{u}b\\'{a} Speech Corpus. (arXiv:2307.16071v1 [cs.CL])",
+    "abstract": "We introduce the \\`{I}r\\`{o}y\\`{i}nSpeech corpus -- a new dataset influenced by a desire to increase the amount of high quality, freely available, contemporary Yor\\`{u}b\\'{a} speech. We release a multi-purpose dataset that can be used for both TTS and ASR tasks. We curated text sentences from the news and creative writing domains under an open license i.e., CC-BY-4.0 and had multiple speakers record each sentence. We provide 5000 of our utterances to the Common Voice platform to crowdsource transcriptions online. The dataset has 38.5 hours of data in total, recorded by 80 volunteers.",
+    "link": "http://arxiv.org/abs/2307.16071",
+    "context": "Title: \\`{I}r\\`{o}y\\`{i}nSpeech: A multi-purpose Yor\\`{u}b\\'{a} Speech Corpus. (arXiv:2307.16071v1 [cs.CL])\nAbstract: We introduce the \\`{I}r\\`{o}y\\`{i}nSpeech corpus -- a new dataset influenced by a desire to increase the amount of high quality, freely available, contemporary Yor\\`{u}b\\'{a} speech. We release a multi-purpose dataset that can be used for both TTS and ASR tasks. We curated text sentences from the news and creative writing domains under an open license i.e., CC-BY-4.0 and had multiple speakers record each sentence. We provide 5000 of our utterances to the Common Voice platform to crowdsource transcriptions online. The dataset has 38.5 hours of data in total, recorded by 80 volunteers.",
+    "path": "papers/23/07/2307.16071.json",
+    "total_tokens": 765,
+    "translated_title": "IróyìnSpeech：一个多功能的约鲁巴语语音语料库",
+    "translated_abstract": "我们介绍了IróyìnSpeech语料库，这是一个受到希望增加高质量、免费可用的当代约鲁巴语语音的影响而创建的新数据集。我们发布了一个多用途的数据集，可用于TTS和ASR任务。我们从新闻和创意写作领域收集了文字句子，在开放授权（CC-BY-4.0）下进行筛选，并由多位发音人录制每个句子。我们将5000个发音句提供给Common Voice平台，在线众包转录。该数据集总共有38.5小时的数据，由80名志愿者录制。",
+    "tldr": "本论文介绍了IróyìnSpeech语料库，这是一个多功能的约鲁巴语语音语料库，可用于TTS和ASR任务，包含38.5小时的数据，由80名志愿者录制。",
+    "en_tdlr": "This paper presents the IróyìnSpeech corpus, a multi-purpose Yorúbá speech dataset that can be used for both TTS and ASR tasks. The dataset contains 38.5 hours of data recorded by 80 volunteers."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Equilibria and incentives for illiquid auction markets. (arXiv:2307.15805v1 [q-fin.TR])",
+    "abstract": "We study a toy two-player game for periodic double auction markets to generate liquidity. The game has imperfect information, which allows us to link market spreads with signal strength. We characterize Nash equilibria in cases with or without incentives from the exchange. This enables us to derive new insights about price formation and incentives design. We show in particular that without any incentives, the market is inefficient and does not lead to any trade between market participants. We however prove that quadratic fees indexed on each players half spread leads to a transaction and we propose a quantitative value for the optimal fees that the exchange has to propose in this model to generate liquidity.",
+    "link": "http://arxiv.org/abs/2307.15805",
+    "context": "Title: Equilibria and incentives for illiquid auction markets. (arXiv:2307.15805v1 [q-fin.TR])\nAbstract: We study a toy two-player game for periodic double auction markets to generate liquidity. The game has imperfect information, which allows us to link market spreads with signal strength. We characterize Nash equilibria in cases with or without incentives from the exchange. This enables us to derive new insights about price formation and incentives design. We show in particular that without any incentives, the market is inefficient and does not lead to any trade between market participants. We however prove that quadratic fees indexed on each players half spread leads to a transaction and we propose a quantitative value for the optimal fees that the exchange has to propose in this model to generate liquidity.",
+    "path": "papers/23/07/2307.15805.json",
+    "total_tokens": 755,
+    "translated_title": "市场流动性的均衡与激励机制研究",
+    "translated_abstract": "我们研究了用于生成流动性的周期性双边拍卖市场的玩具双人博弈。该博弈存在信息不完全，可以将市场价差与信号强度联系起来。我们在存在或不存在交易所激励的情况下刻画了纳什均衡。这使得我们能够得出关于价格形成和激励设计的新见解。我们特别证明，在没有任何激励的情况下，市场是低效的，导致市场参与者之间没有任何交易。然而，我们证明了基于每个玩家价差一半的二次交易费用会导致交易，并提出了在该模型中交易所必须提出的最佳费用的定量值。",
+    "tldr": "本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。"
+}
