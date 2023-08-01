@@ -2,24 +2,40 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [American Passport options in an exponential L\'evy model.](http://arxiv.org/abs/2307.16649) | 本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。 |
-| [^2] | [A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation.](http://arxiv.org/abs/2307.16619) | 提出了一种多维电力日内价格建模的常规冲击模型，该模型能同时模拟所有产品，具有较低的参数数量，并可通过矩法进行估计。在电池估值方面的应用中展示了该模型的效果。 |
-| [^3] | [The fiscal implications of stringent climate policy.](http://arxiv.org/abs/2307.16554) | 严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。 |
-| [^4] | [Causal Inference for Banking Finance and Insurance A Survey.](http://arxiv.org/abs/2307.16427) | 本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。 |
-| [^5] | [Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context.](http://arxiv.org/abs/2307.16238) | 该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。 |
-| [^6] | [Equilibria and incentives for illiquid auction markets.](http://arxiv.org/abs/2307.15805) | 本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。 |
-| [^7] | [Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves.](http://arxiv.org/abs/2307.15718) | 该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。 |
-| [^8] | [Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation.](http://arxiv.org/abs/2307.07694) | 该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。 |
-| [^9] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
-| [^10] | [High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner.](http://arxiv.org/abs/2304.13985) | 本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。 |
-| [^11] | [Multivariate L\'evy Models: Calibration and Pricing.](http://arxiv.org/abs/2303.13346) | 本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。 |
-| [^12] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^13] | [Synergistic Small Worlds that Drive Technological Sophistication.](http://arxiv.org/abs/2301.04579) | 本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。 |
-| [^14] | [Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques.](http://arxiv.org/abs/2209.09649) | 本研究通过测试深度学习模型和传统统计技术对基金表现的预测准确性，发现使用现代贝叶斯优化训练的LSTM和GRUs深度学习方法比传统方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果进行集成可以实现最佳表现。 |
+| [^1] | [Shifting Cryptocurrency Influence: A High-Resolution Network Analysis of Market Leaders.](http://arxiv.org/abs/2307.16874) | 这项研究利用高分辨率网络分析了加密货币市场的变化趋势，发现每日数据聚合会导致信息损失，而Pearson相关性也存在局限性。研究结果显示，比特币在初期占据领导地位，但在2021年牛市中，格局发生了巨大变化。 |
+| [^2] | [American Passport options in an exponential L\'evy model.](http://arxiv.org/abs/2307.16649) | 本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。 |
+| [^3] | [A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation.](http://arxiv.org/abs/2307.16619) | 提出了一种多维电力日内价格建模的常规冲击模型，该模型能同时模拟所有产品，具有较低的参数数量，并可通过矩法进行估计。在电池估值方面的应用中展示了该模型的效果。 |
+| [^4] | [The fiscal implications of stringent climate policy.](http://arxiv.org/abs/2307.16554) | 严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。 |
+| [^5] | [Causal Inference for Banking Finance and Insurance A Survey.](http://arxiv.org/abs/2307.16427) | 本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。 |
+| [^6] | [Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context.](http://arxiv.org/abs/2307.16238) | 该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。 |
+| [^7] | [Equilibria and incentives for illiquid auction markets.](http://arxiv.org/abs/2307.15805) | 本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。 |
+| [^8] | [Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves.](http://arxiv.org/abs/2307.15718) | 该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。 |
+| [^9] | [Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation.](http://arxiv.org/abs/2307.07694) | 该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。 |
+| [^10] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
+| [^11] | [High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner.](http://arxiv.org/abs/2304.13985) | 本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。 |
+| [^12] | [Multivariate L\'evy Models: Calibration and Pricing.](http://arxiv.org/abs/2303.13346) | 本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。 |
+| [^13] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^14] | [Synergistic Small Worlds that Drive Technological Sophistication.](http://arxiv.org/abs/2301.04579) | 本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。 |
+| [^15] | [Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions.](http://arxiv.org/abs/2212.00336) | 本文提出了一种新的自动做市商机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。同时，通过均值/方差分析，将流动性提供者与持有自动做市商以外资产的代理人进行比较，以评估其盈亏表现。 |
+| [^16] | [Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques.](http://arxiv.org/abs/2209.09649) | 本研究通过测试深度学习模型和传统统计技术对基金表现的预测准确性，发现使用现代贝叶斯优化训练的LSTM和GRUs深度学习方法比传统方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果进行集成可以实现最佳表现。 |
 
 # 详细
 
-[^1]: 指数李维模型下的美国护照期权选择
+[^1]: 加密货币影响力的转变：对市场领导者的高分辨率网络分析
+
+    Shifting Cryptocurrency Influence: A High-Resolution Network Analysis of Market Leaders. (arXiv:2307.16874v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2307.16874](http://arxiv.org/abs/2307.16874)
+
+    这项研究利用高分辨率网络分析了加密货币市场的变化趋势，发现每日数据聚合会导致信息损失，而Pearson相关性也存在局限性。研究结果显示，比特币在初期占据领导地位，但在2021年牛市中，格局发生了巨大变化。
+
+    
+
+    在过去的十年中，加密货币市场经历了空前的增长，成为了一个重要的金融市场。随着这个市场的快速发展，有必要重新评估哪些加密货币主导市场并引领区块链技术的方向。我们采用基于网络的加密货币市场分析方法来研究这个不断变化的格局。我们使用新颖的按小时分辨率数据和Kendall's Tau相关性来探索加密货币市场的相互关联性。我们观察到，与从每日数据和Pearson相关性派生的排名相比，我们的方法在加密货币的层次结构中存在重要的差异。这种差异强调了从每日数据聚合中潜在的信息损失，并凸显了Pearson相关性的局限性。我们的研究结果表明，在这一增长的初期，比特币扮演了领导角色。然而，在2021年的牛市中，格局发生了巨大变化。
+
+    Over the last decade, the cryptocurrency market has experienced unprecedented growth, emerging as a prominent financial market. As this market rapidly evolves, it necessitates re-evaluating which cryptocurrencies command the market and steer the direction of blockchain technology. We implement a network-based cryptocurrency market analysis to investigate this changing landscape. We use novel hourly-resolution data and Kendall's Tau correlation to explore the interconnectedness of the cryptocurrency market. We observed critical differences in the hierarchy of cryptocurrencies determined by our method compared to rankings derived from daily data and Pearson's correlation. This divergence emphasizes the potential information loss stemming from daily data aggregation and highlights the limitations of Pearson's correlation. Our findings show that in the early stages of this growth, Bitcoin held a leading role. However, during the 2021 bull run, the landscape changed drastically. We see that
+    
+[^2]: 指数李维模型下的美国护照期权选择
 
     American Passport options in an exponential L\'evy model. (arXiv:2307.16649v1 [q-fin.PR])
 
@@ -33,7 +49,7 @@
 
     In this paper we examine the problem of valuing an exotic derivative known as the American passport option where the underlying is driven by a L\'evy process. The passport option is a call option on a trading account. We derive the pricing equation, using the dynamic programming principle, and prove that the option value is a viscosity solution of variational inequality. We also establish the comparison principle, which yields uniqueness and the convexity of the viscosity solution.
     
-[^2]: 一种用于多维电力日内价格建模的常规冲击模型及其在电池估值中的应用
+[^3]: 一种用于多维电力日内价格建模的常规冲击模型及其在电池估值中的应用
 
     A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation. (arXiv:2307.16619v1 [q-fin.ST])
 
@@ -47,7 +63,7 @@
 
     In this paper, we propose a multidimensional statistical model of intraday electricity prices at the scale of the trading session, which allows all products to be simulated simultaneously. This model, based on Poisson measures and inspired by the Common Shock Poisson Model, reproduces the Samuelson effect (intensity and volatility increases as time to maturity decreases). It also reproduces the price correlation structure, highlighted here in the data, which decreases as two maturities move apart. This model has only three parameters that can be estimated using a moment method that we propose here. We demonstrate the usefulness of the model on a case of storage valuation by dynamic programming over a trading session.
     
-[^3]: 严格的气候政策的财政影响
+[^4]: 严格的气候政策的财政影响
 
     The fiscal implications of stringent climate policy. (arXiv:2307.16554v1 [econ.GN])
 
@@ -61,7 +77,7 @@
 
     Stringent climate policy compatible with the targets of the 2015 Paris Agreement would pose a substantial fiscal challenge. Reducing carbon dioxide emissions by 95% or more by 2050 would raise 7% (1-17%) of GDP in carbon tax revenue, half of current, global tax revenue. Revenues are relatively larger in poorer regions. Subsidies for carbon dioxide sequestration would amount to 6.6% (0.3-7.1%) of GDP. These numbers are conservative as they were estimated using models that assume first-best climate policy implementation and ignore the costs of raising revenue. The fiscal challenge rapidly shrinks if emission targets are relaxed.
     
-[^4]: 银行金融与保险领域的因果推断综述
+[^5]: 银行金融与保险领域的因果推断综述
 
     Causal Inference for Banking Finance and Insurance A Survey. (arXiv:2307.16427v1 [cs.AI])
 
@@ -75,7 +91,7 @@
 
     Causal Inference plays an significant role in explaining the decisions taken by statistical models and artificial intelligence models. Of late, this field started attracting the attention of researchers and practitioners alike. This paper presents a comprehensive survey of 37 papers published during 1992-2023 and concerning the application of causal inference to banking, finance, and insurance. The papers are categorized according to the following families of domains: (i) Banking, (ii) Finance and its subdomains such as corporate finance, governance finance including financial risk and financial policy, financial economics, and Behavioral finance, and (iii) Insurance. Further, the paper covers the primary ingredients of causal inference namely, statistical methods such as Bayesian Causal Network, Granger Causality and jargon used thereof such as counterfactuals. The review also recommends some important directions for future research. In conclusion, we observed that the application of 
     
-[^5]: 印度背景下教育水平的不平等：城乡比较
+[^6]: 印度背景下教育水平的不平等：城乡比较
 
     Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context. (arXiv:2307.16238v1 [econ.GN])
 
@@ -89,7 +105,7 @@
 
     The article tries to compare urban and rural literacy of fifteen selected Indian states during 1981 - 2011 and explores the instruments which can reduce the disparity in urban and rural educational attainment. The study constructs Sopher's urban-rural differential literacy index to analyze the trends of literacy disparity across fifteen states in India over time. Although literacy disparity has decreased over time, Sopher's index shows that the states of Andhra Pradesh, Madhya Pradesh, Gujarat, Odisha, Maharashtra and even Karnataka faced high inequality in education between urban and rural India in 2011. Additionally, the Fixed Effect panel data regression technique has been applied in the study to identify the factors which influence urban-rural inequality in education. The model shows that the following factors can reduce literacy disparity between urban and rural areas of India: low fertility rate in rural women, higher percentages of rural females marrying after the age of 21 year
     
-[^6]: 市场流动性的均衡与激励机制研究
+[^7]: 市场流动性的均衡与激励机制研究
 
     Equilibria and incentives for illiquid auction markets. (arXiv:2307.15805v1 [q-fin.TR])
 
@@ -103,7 +119,7 @@
 
     We study a toy two-player game for periodic double auction markets to generate liquidity. The game has imperfect information, which allows us to link market spreads with signal strength. We characterize Nash equilibria in cases with or without incentives from the exchange. This enables us to derive new insights about price formation and incentives design. We show in particular that without any incentives, the market is inefficient and does not lead to any trade between market participants. We however prove that quadratic fees indexed on each players half spread leads to a transaction and we propose a quantitative value for the optimal fees that the exchange has to propose in this model to generate liquidity.
     
-[^7]: 期权波动率与隐含概率：IV曲线凹性的影响
+[^8]: 期权波动率与隐含概率：IV曲线凹性的影响
 
     Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves. (arXiv:2307.15718v1 [q-fin.ST])
 
@@ -117,7 +133,7 @@
 
     Earnings announcements (EADs) are corporate events that provide investors with fundamentally important information. The prospect of stock price rises may also contribute to EADs increased volatility. Using data on extremely short term options, we study that bimodality in the risk neutral distribution and concavity in the IV smiles are ubiquitous characteristics before an earnings announcement day. This study compares the returns between concave and non concave IV smiles to see if the concavity in the IV curve leads to any information about the risk in the market and showcases how investors hedge against extreme volatility during earnings announcements. In fact, our paper shows in the presence of concave IV smiles; investors pay a significant premium to hedge against the uncertainty caused by the forthcoming announcement.
     
-[^8]: 评估深度强化学习算法在投资组合优化中的应用
+[^9]: 评估深度强化学习算法在投资组合优化中的应用
 
     Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation. (arXiv:2307.07694v1 [cs.CE])
 
@@ -131,7 +147,7 @@
 
     We evaluate benchmark deep reinforcement learning (DRL) algorithms on the task of portfolio optimisation under a simulator. The simulator is based on correlated geometric Brownian motion (GBM) with the Bertsimas-Lo (BL) market impact model. Using the Kelly criterion (log utility) as the objective, we can analytically derive the optimal policy without market impact and use it as an upper bound to measure performance when including market impact. We found that the off-policy algorithms DDPG, TD3 and SAC were unable to learn the right Q function due to the noisy rewards and therefore perform poorly. The on-policy algorithms PPO and A2C, with the use of generalised advantage estimation (GAE), were able to deal with the noise and derive a close to optimal policy. The clipping variant of PPO was found to be important in preventing the policy from deviating from the optimal once converged. In a more challenging environment where we have regime changes in the GBM parameters, we found that PPO,
     
-[^9]: 互动一致性纠缠理论
+[^10]: 互动一致性纠缠理论
 
     A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
 
@@ -145,7 +161,7 @@
 
     Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
     
-[^10]: 高频预测交易及其影响：小内幕交易者对压轴者的影响
+[^11]: 高频预测交易及其影响：小内幕交易者对压轴者的影响
 
     High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner. (arXiv:2304.13985v1 [q-fin.TR])
 
@@ -159,7 +175,7 @@
 
     In this paper, the interactions between a large informed trader (IT, for short) and a high-frequency trader (HFT, for short) who can anticipate the former's incoming order are studied in an extended Kyle's (1985) model. Equilibria under various specific situations are discussed. Relying on the speed advantage, HFT always trades in the same direction as the large order in advance. However, whether or not she provides liquidity depends on her inventory aversion, the prediction accuracy, and the market activeness. She may supply liquidity back (act as a front-runner) or continue to take it away (in this case we call her a small IT). Small IT always harms the large trader while front-runner may benefit her. Besides, we find surprisingly that (1) increasing the noise in HFT's signal may in fact decrease IT's profit; (2) although providing liquidity, a front-runner may harm IT more than a small IT.
     
-[^11]: 多元Lévy模型：校准与定价。
+[^12]: 多元Lévy模型：校准与定价。
 
     Multivariate L\'evy Models: Calibration and Pricing. (arXiv:2303.13346v1 [q-fin.PR])
 
@@ -173,7 +189,7 @@
 
     In this research we employ a range of multivariate asset models based on L\'evy processes to price exotic derivatives. We compare their ability to fit market data and replicate price benchmarks, and evaluate their flexibility in terms of parametrization and dependence structure. We review recent risk-neutral calibration approaches and techniques in the multivariate setting, and provide tools to make well-informed decisions in a practical context. A special focus is given to the ability of the models to capture linear and nonlinear dependence, with implications on their pricing performance. Given the exotic features of the analyzed derivatives, valuation is carried out through Monte Carlo methods.
     
-[^12]: 经济主体的动态运输
+[^13]: 经济主体的动态运输
 
     Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
 
@@ -187,7 +203,7 @@
 
     The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
     
-[^13]: 驱动技术复杂性的协同小世界
+[^14]: 驱动技术复杂性的协同小世界
 
     Synergistic Small Worlds that Drive Technological Sophistication. (arXiv:2301.04579v2 [econ.GN] UPDATED)
 
@@ -201,7 +217,21 @@
 
     Advanced economies exhibit a high degree of sophistication in the creation of various products. While critical to such sophistication, the nature and underlying structure of the interactions taking place inside production processes remain opaque when studying large systems such as industries or entire economies. Using partial information decomposition, we quantify the nature of these interactions, allowing us to infer how much innovation stems form specific input interactions and how they are structured. These estimates yield a novel picture of the nuanced interactions underpinning technological sophistication. By analyzing networks of synergistic interactions, we find that more sophisticated industries tend to exhibit highly modular small-world topologies; with the tertiary sector as its central connective core. Countries and industries that have a well-established connective core and specialized modules exhibit higher economic complexity and output efficiency. Similar modular network
     
-[^14]: 使用深度学习和集成技术预测互惠基金的表现
+[^15]: 自动做市商：LP的收益的均值方差分析和定价函数的设计
+
+    Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions. (arXiv:2212.00336v3 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/2212.00336](http://arxiv.org/abs/2212.00336)
+
+    本文提出了一种新的自动做市商机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。同时，通过均值/方差分析，将流动性提供者与持有自动做市商以外资产的代理人进行比较，以评估其盈亏表现。
+
+    
+
+    随着去中心化金融的出现，出现了新的交易机制称为自动做市商。最流行的自动做市商是常量函数做市商。它们已经在理论和实证方面进行了研究。特别是，出现了非永久性损失的概念，解释了常量函数做市商中流动性提供者的部分盈亏。在本文中，我们提出了另一种机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。我们还提出使用流动性提供者的收益的均值/方差分析与自动做市商之外持有资产的代理人的收益/损失进行比较。特别是，受马科维茨现代投资组合理论的启发，我们成功获得了在理想情况下的完美预言机的流动性提供者表现的有效前沿。
+
+    With the emergence of decentralized finance, new trading mechanisms called Automated Market Makers have appeared. The most popular Automated Market Makers are Constant Function Market Makers. They have been studied both theoretically and empirically. In particular, the concept of impermanent loss has emerged and explains part of the profit and loss of liquidity providers in Constant Function Market Makers. In this paper, we propose another mechanism in which price discovery does not solely rely on liquidity takers but also on an external exchange rate or price oracle. We also propose to compare the different mechanisms from the point of view of liquidity providers by using a mean / variance analysis of their profit and loss compared to that of agents holding assets outside of Automated Market Makers. In particular, inspired by Markowitz' modern portfolio theory, we manage to obtain an efficient frontier for the performance of liquidity providers in the idealized case of a perfect oracl
+    
+[^16]: 使用深度学习和集成技术预测互惠基金的表现
 
     Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques. (arXiv:2209.09649v3 [q-fin.ST] UPDATED)
 
