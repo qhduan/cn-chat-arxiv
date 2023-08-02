@@ -1,0 +1,12 @@
+{
+    "title": "New Lower Bounds for Testing Monotonicity and Log Concavity of Distributions. (arXiv:2308.00089v1 [cs.LG])",
+    "abstract": "We develop a new technique for proving distribution testing lower bounds for properties defined by inequalities involving the bin probabilities of the distribution in question. Using this technique we obtain new lower bounds for monotonicity testing over discrete cubes and tight lower bounds for log-concavity testing.  Our basic technique involves constructing a pair of moment-matching families of distributions by tweaking the probabilities of pairs of bins so that one family maintains the defining inequalities while the other violates them.",
+    "link": "http://arxiv.org/abs/2308.00089",
+    "context": "Title: New Lower Bounds for Testing Monotonicity and Log Concavity of Distributions. (arXiv:2308.00089v1 [cs.LG])\nAbstract: We develop a new technique for proving distribution testing lower bounds for properties defined by inequalities involving the bin probabilities of the distribution in question. Using this technique we obtain new lower bounds for monotonicity testing over discrete cubes and tight lower bounds for log-concavity testing.  Our basic technique involves constructing a pair of moment-matching families of distributions by tweaking the probabilities of pairs of bins so that one family maintains the defining inequalities while the other violates them.",
+    "path": "papers/23/08/2308.00089.json",
+    "total_tokens": 698,
+    "translated_title": "测试分布的单调性和对数凹性的新下界",
+    "translated_abstract": "我们开发了一种用于证明分布测试下界的新技术，该技术适用于涉及分布中二项概率的不等式定义的性质。利用这种技术，我们得到了关于离散立方体上的单调性测试的新下界以及关于对数凹性测试的紧密下界。我们的基本技术涉及通过调整一对二项概率的概率来构造一对矩匹配的分布族，使得一个族保持定义的不等式，而另一个族违背它们。",
+    "tldr": "该论文介绍了一种新技术，用于证明测试分布单调性和对数凹性的下界。这种方法通过调整一对二项概率的概率构造一对矩匹配的分布族，实现了保持和违背定义不等式的分布，并得到了相关的新下界。",
+    "en_tdlr": "This paper introduces a new technique for proving lower bounds for testing monotonicity and log concavity of distributions. The technique involves constructing a pair of moment-matching families of distributions by adjusting the probabilities of pairs of bins, resulting in one family that maintains the defining inequalities and another that violates them, leading to new lower bounds."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Revealing Choice Bracketing. (arXiv:2006.14869v3 [econ.TH] UPDATED)",
+    "abstract": "In a decision problem comprised of multiple choices, a person may fail to take into account the interdependencies between their choices. To understand how people make decisions in such problems, we design a novel experiment and revealed preference tests that determine how each subject brackets their choices. In separate portfolio allocation under risk, social allocation, and induced-value function shopping experiments, we find that 40-43% of our subjects are consistent with narrow bracketing while 0-15% are consistent with broad bracketing. Adjusting for each model's predictive precision, 74% of subjects are best described by narrow bracketing, 13% by broad bracketing, and 6% by intermediate cases.",
+    "link": "http://arxiv.org/abs/2006.14869",
+    "context": "Title: Revealing Choice Bracketing. (arXiv:2006.14869v3 [econ.TH] UPDATED)\nAbstract: In a decision problem comprised of multiple choices, a person may fail to take into account the interdependencies between their choices. To understand how people make decisions in such problems, we design a novel experiment and revealed preference tests that determine how each subject brackets their choices. In separate portfolio allocation under risk, social allocation, and induced-value function shopping experiments, we find that 40-43% of our subjects are consistent with narrow bracketing while 0-15% are consistent with broad bracketing. Adjusting for each model's predictive precision, 74% of subjects are best described by narrow bracketing, 13% by broad bracketing, and 6% by intermediate cases.",
+    "path": "papers/20/06/2006.14869.json",
+    "total_tokens": 818,
+    "translated_title": "揭示选择分组",
+    "translated_abstract": "在一个由多个选择组成的决策问题中，一个人可能没有考虑到他们选择之间的相互依赖关系。为了了解人们在这种问题中做出决策的方式，我们设计了一项新颖的实验证明和揭示偏好测试，来确定每个受试者如何对他们的选择进行分组。在独立的风险下的投资组合分配、社会分配和引导价值函数购物实验中，我们发现我们的受试者中有40-43%与狭义分组一致，0-15%与广义分组一致。根据每个模型的预测精度进行调整，74%的受试者最好用狭义分组来描述，13%用广义分组来描述，6%用中间情况来描述。",
+    "tldr": "该论文通过设计实验和测试发现，在一个决策问题中，有40-43%的人采用狭义分组方式进行选择，而0-15%的人采用广义分组方式。根据预测精度调整后，74%的受试者最适合用狭义分组来描述，13%适合用广义分组来描述，6%适合用中间情况来描述。",
+    "en_tdlr": "This paper reveals that in a decision problem, 40-43% of people choose using narrow bracketing while 0-15% use broad bracketing. Adjusted for predictive precision, 74% of subjects are best described by narrow bracketing, 13% by broad bracketing, and 6% by intermediate cases."
+}

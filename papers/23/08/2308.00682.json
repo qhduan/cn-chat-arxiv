@@ -1,0 +1,12 @@
+{
+    "title": "TimePool: Visually Answer \"Which and When\" Questions On Univariate Time Series. (arXiv:2308.00682v1 [cs.HC])",
+    "abstract": "When exploring time series datasets, analysts often pose \"which and when\" questions. For example, with world life expectancy data over one hundred years, they may inquire about the top 10 countries in life expectancy and the time period when they achieved this status, or which countries have had longer life expectancy than Ireland and when. This paper proposes TimePool, a new visualization prototype, to address this need for univariate time series analysis. It allows users to construct interactive \"which and when\" queries and visually explore the results for insights.",
+    "link": "http://arxiv.org/abs/2308.00682",
+    "context": "Title: TimePool: Visually Answer \"Which and When\" Questions On Univariate Time Series. (arXiv:2308.00682v1 [cs.HC])\nAbstract: When exploring time series datasets, analysts often pose \"which and when\" questions. For example, with world life expectancy data over one hundred years, they may inquire about the top 10 countries in life expectancy and the time period when they achieved this status, or which countries have had longer life expectancy than Ireland and when. This paper proposes TimePool, a new visualization prototype, to address this need for univariate time series analysis. It allows users to construct interactive \"which and when\" queries and visually explore the results for insights.",
+    "path": "papers/23/08/2308.00682.json",
+    "total_tokens": 672,
+    "translated_title": "TimePool：可视化回答“哪个时刻以及何时”问题的一元时间序列",
+    "translated_abstract": "当探索时间序列数据集时，分析师经常提出“哪个时刻以及何时”问题。例如，对于超过一百年的世界人均寿命数据，他们可能询问前十个在人均寿命上的国家和他们达到这一地位的时间段，或者那些比爱尔兰的人均寿命更长的国家以及何时。本文提出了TimePool，一个用于解决一元时间序列分析需求的新的可视化原型。它允许用户构建交互式的“哪个时刻以及何时”查询，并通过可视化的方式探索结果以获取洞见。",
+    "tldr": "TimePool 是一个用于解决一元时间序列分析需求的可视化原型，允许用户构建交互式查询并通过可视化的方式探索结果。",
+    "en_tdlr": "TimePool is a visualization prototype designed to address the needs of univariate time series analysis, allowing users to construct interactive queries and explore results through visualizations."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Attribution-Scores in Data Management and Explainable Machine Learning. (arXiv:2308.00184v1 [cs.DB])",
+    "abstract": "We describe recent research on the use of actual causality in the definition of responsibility scores as explanations for query answers in databases, and for outcomes from classification models in machine learning. In the case of databases, useful connections with database repairs are illustrated and exploited. Repairs are also used to give a quantitative measure of the consistency of a database. For classification models, the responsibility score is properly extended and illustrated. The efficient computation of Shap-score is also analyzed and discussed. The emphasis is placed on work done by the author and collaborators.",
+    "link": "http://arxiv.org/abs/2308.00184",
+    "context": "Title: Attribution-Scores in Data Management and Explainable Machine Learning. (arXiv:2308.00184v1 [cs.DB])\nAbstract: We describe recent research on the use of actual causality in the definition of responsibility scores as explanations for query answers in databases, and for outcomes from classification models in machine learning. In the case of databases, useful connections with database repairs are illustrated and exploited. Repairs are also used to give a quantitative measure of the consistency of a database. For classification models, the responsibility score is properly extended and illustrated. The efficient computation of Shap-score is also analyzed and discussed. The emphasis is placed on work done by the author and collaborators.",
+    "path": "papers/23/08/2308.00184.json",
+    "total_tokens": 646,
+    "translated_title": "数据管理和可解释机器学习中的归因分数",
+    "translated_abstract": "我们描述了最近关于在数据库中使用实际因果关系来定义解释查询答案和机器学习分类模型结果的责任评分的研究。在数据库的情况下，我们展示并利用数据库修复与有用的连接。修复还用于给出数据库的一致性的量化度量。对于分类模型，责任评分得到了适当的扩展和说明。还分析和讨论了Shap-score的高效计算。重点放在作者和合作者的工作上。",
+    "tldr": "数据管理和可解释机器学习中的研究描述了使用实际因果关系来解释数据库查询答案和机器学习模型结果的责任评分的最新工作，以及与数据库修复和Shap-score计算相关的内容。"
+}

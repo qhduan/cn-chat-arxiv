@@ -1,0 +1,12 @@
+{
+    "title": "Hyperbolic Minesweeper is in P. (arXiv:2002.09534v2 [cs.CC] UPDATED)",
+    "abstract": "We show that, while Minesweeper is NP-complete, its hyperbolic variant is in P. Our proof does not rely on the rules of Minesweeper, but is valid for any puzzle based on satisfying local constraints on a graph embedded in the hyperbolic plane.",
+    "link": "http://arxiv.org/abs/2002.09534",
+    "context": "Title: Hyperbolic Minesweeper is in P. (arXiv:2002.09534v2 [cs.CC] UPDATED)\nAbstract: We show that, while Minesweeper is NP-complete, its hyperbolic variant is in P. Our proof does not rely on the rules of Minesweeper, but is valid for any puzzle based on satisfying local constraints on a graph embedded in the hyperbolic plane.",
+    "path": "papers/20/02/2002.09534.json",
+    "total_tokens": 554,
+    "translated_title": "超半径的扫雷游戏在P类问题中。(arXiv:2002.09534v2 [cs.CC] 已更新)",
+    "translated_abstract": "我们证明了，尽管扫雷游戏是NP完全的，但其超半径变体属于P类问题。我们的证明不依赖于扫雷游戏的规则，而是适用于基于满足超半径平面上嵌入图的局部约束的任何谜题。",
+    "tldr": "超半径的扫雷游戏属于P类问题，这一发现不仅适用于扫雷游戏本身，还适用于其他基于超半径平面上嵌入图的谜题。",
+    "en_tdlr": "Hyperbolic Minesweeper is in P, which applies not only to Minesweeper itself, but also to other puzzles based on satisfying local constraints on a graph embedded in the hyperbolic plane."
+}

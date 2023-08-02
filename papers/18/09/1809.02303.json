@@ -1,0 +1,12 @@
+{
+    "title": "Change-Point Testing for Risk Measures in Time Series. (arXiv:1809.02303v2 [econ.EM] UPDATED)",
+    "abstract": "We propose novel methods for change-point testing for nonparametric estimators of expected shortfall and related risk measures in weakly dependent time series. We can detect general multiple structural changes in the tails of marginal distributions of time series under general assumptions. Self-normalization allows us to avoid the issues of standard error estimation. The theoretical foundations for our methods are functional central limit theorems, which we develop under weak assumptions. An empirical study of S&P 500 and US Treasury bond returns illustrates the practical use of our methods in detecting and quantifying market instability via the tails of financial time series.",
+    "link": "http://arxiv.org/abs/1809.02303",
+    "context": "Title: Change-Point Testing for Risk Measures in Time Series. (arXiv:1809.02303v2 [econ.EM] UPDATED)\nAbstract: We propose novel methods for change-point testing for nonparametric estimators of expected shortfall and related risk measures in weakly dependent time series. We can detect general multiple structural changes in the tails of marginal distributions of time series under general assumptions. Self-normalization allows us to avoid the issues of standard error estimation. The theoretical foundations for our methods are functional central limit theorems, which we develop under weak assumptions. An empirical study of S&P 500 and US Treasury bond returns illustrates the practical use of our methods in detecting and quantifying market instability via the tails of financial time series.",
+    "path": "papers/18/09/1809.02303.json",
+    "total_tokens": 738,
+    "translated_title": "时间序列中风险测度的变点检验",
+    "translated_abstract": "我们提出了一种新的方法，用于对弱相关时间序列中预期损失和相关风险测度的非参数估计进行变点检验。在一般假设下，我们可以检测到时间序列边缘分布尾部的一般多重结构变化。自归一化使我们能够避免标准误差估计的问题。我们的方法的理论基础是在弱假设下发展起来的函数中心极限定理。对S&P 500和美国国债回报的实证研究说明了我们的方法在通过金融时间序列的尾部检测和量化市场不稳定性方面的实际应用。",
+    "tldr": "我们提出了一种变点检验方法，可以在时间序列的尾部检测到一般多重结构变化，并避免了标准误差估计的问题。实证研究表明我们的方法可以在金融时间序列中检测和量化市场不稳定性。",
+    "en_tdlr": "We propose a change-point testing method that can detect general multiple structural changes in the tails of time series and avoid the issue of standard error estimation. Empirical study shows that our method can detect and quantify market instability in financial time series."
+}

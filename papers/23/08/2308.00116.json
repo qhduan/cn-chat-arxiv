@@ -1,0 +1,11 @@
+{
+    "title": "A Modular Ontology for MODS -- Metadata Object Description Schema. (arXiv:2308.00116v1 [cs.CL])",
+    "abstract": "The Metadata Object Description Schema (MODS) was developed to describe bibliographic concepts and metadata and is maintained by the Library of Congress. Its authoritative version is given as an XML schema based on an XML mindset which means that it has significant limitations for use in a knowledge graphs context. We have therefore developed the Modular MODS Ontology (MMODS-O) which incorporates all elements and attributes of the MODS XML schema. In designing the ontology, we adopt the recent Modular Ontology Design Methodology (MOMo) with the intention to strike a balance between modularity and quality ontology design on the one hand, and conservative backward compatibility with MODS on the other.",
+    "link": "http://arxiv.org/abs/2308.00116",
+    "context": "Title: A Modular Ontology for MODS -- Metadata Object Description Schema. (arXiv:2308.00116v1 [cs.CL])\nAbstract: The Metadata Object Description Schema (MODS) was developed to describe bibliographic concepts and metadata and is maintained by the Library of Congress. Its authoritative version is given as an XML schema based on an XML mindset which means that it has significant limitations for use in a knowledge graphs context. We have therefore developed the Modular MODS Ontology (MMODS-O) which incorporates all elements and attributes of the MODS XML schema. In designing the ontology, we adopt the recent Modular Ontology Design Methodology (MOMo) with the intention to strike a balance between modularity and quality ontology design on the one hand, and conservative backward compatibility with MODS on the other.",
+    "path": "papers/23/08/2308.00116.json",
+    "total_tokens": 682,
+    "translated_title": "MODS的模块化本体论 - 元数据对象描述模式",
+    "translated_abstract": "元数据对象描述模式（MODS）是用于描述图书概念和元数据的，并由美国国会图书馆维护。MODS的标准版本是基于XML思维的XML模式，这意味着它在知识图谱环境下存在一些重要限制。因此，我们开发了模块化MODS本体论（MMODS-O），它集成了MODS的所有元素和属性。在设计本体论时，我们采用了最近的模块化本体论设计方法学（MOMo），旨在在保守地与MODS向后兼容的同时，在模块化和高质量本体论设计之间取得平衡。",
+    "tldr": "本研究开发了模块化MODS本体论（MMODS-O），用于解决元数据对象描述模式（MODS）在知识图谱环境下的限制问题，并采用模块化本体论设计方法学（MOMo）实现了平衡。"
+}

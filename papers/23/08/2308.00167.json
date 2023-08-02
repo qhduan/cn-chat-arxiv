@@ -1,0 +1,11 @@
+{
+    "title": "What's Logs Got to do With it: On the Perils of log Dependent Variables and Difference-in-Differences. (arXiv:2308.00167v1 [econ.EM])",
+    "abstract": "The log transformation of the dependent variable is not innocuous when using a difference-in-differences (DD) model. With a dependent variable in logs, the DD term captures an approximation of the proportional difference in growth rates across groups. As I show with both simulations and two empirical examples, if the baseline outcome distributions are sufficiently different across groups, the DD parameter for a log-specification can be different in sign to that of a levels-specification. I provide a condition, based on (i) the aggregate time effect, and (ii) the difference in relative baseline outcome means, for when the sign-switch will occur.",
+    "link": "http://arxiv.org/abs/2308.00167",
+    "context": "Title: What's Logs Got to do With it: On the Perils of log Dependent Variables and Difference-in-Differences. (arXiv:2308.00167v1 [econ.EM])\nAbstract: The log transformation of the dependent variable is not innocuous when using a difference-in-differences (DD) model. With a dependent variable in logs, the DD term captures an approximation of the proportional difference in growth rates across groups. As I show with both simulations and two empirical examples, if the baseline outcome distributions are sufficiently different across groups, the DD parameter for a log-specification can be different in sign to that of a levels-specification. I provide a condition, based on (i) the aggregate time effect, and (ii) the difference in relative baseline outcome means, for when the sign-switch will occur.",
+    "path": "papers/23/08/2308.00167.json",
+    "total_tokens": 683,
+    "translated_title": "杂志与之间的关联：关于依赖日志的变量和差异法的危险性",
+    "translated_abstract": "在使用差异法（DD）模型时，依赖变量的对数变换并不无害。当依赖变量采用对数形式时，差异法项捕捉到了不同组别之间增长率的近似比例差异。通过模拟和两个实证例子的展示，我证明了如果基线结果分布在不同组别之间存在足够不同，对数规范条件下的差异法系数可能与水平规范条件下的系数方向相反。我提供了一个条件，基于(i)聚合时间效应和(ii)基线结果均值之间的差异，来说明何时会发生符号反转。",
+    "tldr": "依赖变量采用对数变换并不无害，在差异法模型中会导致差异法项的方向与水平规范条件下不同，具体取决于基线结果分布的差异。"
+}

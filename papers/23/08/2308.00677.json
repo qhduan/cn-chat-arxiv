@@ -1,0 +1,12 @@
+{
+    "title": "Discrete neural nets and polymorphic learning. (arXiv:2308.00677v1 [cs.NE])",
+    "abstract": "Theorems from universal algebra such as that of Murski\\u{i} from the 1970s have a striking similarity to universal approximation results for neural nets along the lines of Cybenko's from the 1980s. We consider here a discrete analogue of the classical notion of a neural net which places these results in a unified setting. We introduce a learning algorithm based on polymorphisms of relational structures and show how to use it for a classical learning task.",
+    "link": "http://arxiv.org/abs/2308.00677",
+    "context": "Title: Discrete neural nets and polymorphic learning. (arXiv:2308.00677v1 [cs.NE])\nAbstract: Theorems from universal algebra such as that of Murski\\u{i} from the 1970s have a striking similarity to universal approximation results for neural nets along the lines of Cybenko's from the 1980s. We consider here a discrete analogue of the classical notion of a neural net which places these results in a unified setting. We introduce a learning algorithm based on polymorphisms of relational structures and show how to use it for a classical learning task.",
+    "path": "papers/23/08/2308.00677.json",
+    "total_tokens": 639,
+    "translated_title": "离散神经网络和多态学习",
+    "translated_abstract": "20世纪70年代Murski{i}提出的通用代数定理与20世纪80年代Cybenko等人关于神经网络的通用逼近结果有着惊人的相似性。本文考虑了经典神经网络的离散模拟，将这些结果放在一个统一的框架下。我们介绍了一种基于关系结构多态性的学习算法，并展示了如何将其用于经典学习任务。",
+    "tldr": "本文提出了一种基于离散模拟的神经网络，将Murski{i}的通用代数定理和Cybenko的通用逼近结果统一起来。同时，通过引入关系结构的多态性，我们提出了一种学习算法，用于经典学习任务。",
+    "en_tdlr": "This paper introduces a discrete analog of classical neural networks, unifying universal algebra theorems and universal approximation results. It also presents a learning algorithm based on polymorphisms of relational structures for classical learning tasks."
+}

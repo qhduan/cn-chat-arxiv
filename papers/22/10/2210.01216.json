@@ -1,0 +1,11 @@
+{
+    "title": "Statistical inference for rough volatility: Central limit theorems. (arXiv:2210.01216v2 [math.ST] UPDATED)",
+    "abstract": "In recent years, there has been substantive empirical evidence that stochastic volatility is rough. In other words, the local behavior of stochastic volatility is much more irregular than semimartingales and resembles that of a fractional Brownian motion with Hurst parameter $H<0.5$. In this paper, we derive a consistent and asymptotically mixed normal estimator of $H$ based on high-frequency price observations. In contrast to previous works, we work in a semiparametric setting and do not assume any a priori relationship between volatility estimators and true volatility. Furthermore, our estimator attains a rate of convergence that is known to be optimal in a minimax sense in parametric rough volatility models.",
+    "link": "http://arxiv.org/abs/2210.01216",
+    "context": "Title: Statistical inference for rough volatility: Central limit theorems. (arXiv:2210.01216v2 [math.ST] UPDATED)\nAbstract: In recent years, there has been substantive empirical evidence that stochastic volatility is rough. In other words, the local behavior of stochastic volatility is much more irregular than semimartingales and resembles that of a fractional Brownian motion with Hurst parameter $H<0.5$. In this paper, we derive a consistent and asymptotically mixed normal estimator of $H$ based on high-frequency price observations. In contrast to previous works, we work in a semiparametric setting and do not assume any a priori relationship between volatility estimators and true volatility. Furthermore, our estimator attains a rate of convergence that is known to be optimal in a minimax sense in parametric rough volatility models.",
+    "path": "papers/22/10/2210.01216.json",
+    "total_tokens": 770,
+    "translated_title": "基于粗糙波动性的统计推断：中心极限定理",
+    "translated_abstract": "近年来，存在大量经验证据表明随机波动性是粗糙的。换句话说，随机波动性的局部行为比半鞘型过程更加不规则，类似于分数布朗运动，Hurst参数$H<0.5$。本文基于高频价格观测，推导出了一致且渐进混合正态的$H$估计器。与之前的工作不同的是，我们在半参数设置下工作，不假设任何先验关系与真实波动率之间的关系。此外，我们的估计器在参数化粗糙波动模型中获得了最小最大意义下的最优收敛速度。",
+    "tldr": "本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。"
+}

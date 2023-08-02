@@ -1,0 +1,12 @@
+{
+    "title": "The Current State of Summarization. (arXiv:2305.04853v2 [cs.CL] UPDATED)",
+    "abstract": "With the explosive growth of textual information, summarization systems have become increasingly important. This work aims to concisely indicate the current state of the art in abstractive text summarization. As part of this, we outline the current paradigm shifts towards pre-trained encoder-decoder models and large autoregressive language models. Additionally, we delve further into the challenges of evaluating summarization systems and the potential of instruction-tuned models for zero-shot summarization. Finally, we provide a brief overview of how summarization systems are currently being integrated into commercial applications.",
+    "link": "http://arxiv.org/abs/2305.04853",
+    "context": "Title: The Current State of Summarization. (arXiv:2305.04853v2 [cs.CL] UPDATED)\nAbstract: With the explosive growth of textual information, summarization systems have become increasingly important. This work aims to concisely indicate the current state of the art in abstractive text summarization. As part of this, we outline the current paradigm shifts towards pre-trained encoder-decoder models and large autoregressive language models. Additionally, we delve further into the challenges of evaluating summarization systems and the potential of instruction-tuned models for zero-shot summarization. Finally, we provide a brief overview of how summarization systems are currently being integrated into commercial applications.",
+    "path": "papers/23/05/2305.04853.json",
+    "total_tokens": 720,
+    "translated_title": "摘要生成的当前状态",
+    "translated_abstract": "随着文本信息的爆炸性增长，摘要生成系统变得越来越重要。本文旨在简明扼要地介绍抽象文本摘要生成的当前最先进技术。作为其中的一部分，我们概述了向预训练的编码器-解码器模型和大规模自回归语言模型转变的现有范例。此外，我们深入探讨了评估摘要生成系统的挑战以及基于指令调整的模型在零样本摘要生成中的潜力。最后，我们简要概述了目前将摘要生成系统整合到商业应用中的情况。",
+    "tldr": "摘要生成领域目前的研究关注点在于预训练的编码器-解码器模型和大规模自回归语言模型的转变，以及评估摘要生成系统的挑战和指令调整模型在零样本摘要生成中的潜力。",
+    "en_tdlr": "The current state of abstractive text summarization focuses on the paradigm shift towards pre-trained encoder-decoder models and large autoregressive language models, the challenges in evaluating summarization systems, and the potential of instruction-tuned models for zero-shot summarization."
+}

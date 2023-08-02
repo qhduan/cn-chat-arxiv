@@ -1,0 +1,11 @@
+{
+    "title": "A 3D deep learning classifier and its explainability when assessing coronary artery disease. (arXiv:2308.00009v1 [eess.IV])",
+    "abstract": "Early detection and diagnosis of coronary artery disease (CAD) could save lives and reduce healthcare costs. In this study, we propose a 3D Resnet-50 deep learning model to directly classify normal subjects and CAD patients on computed tomography coronary angiography images. Our proposed method outperforms a 2D Resnet-50 model by 23.65%. Explainability is also provided by using a Grad-GAM. Furthermore, we link the 3D CAD classification to a 2D two-class semantic segmentation for improved explainability and accurate abnormality localisation.",
+    "link": "http://arxiv.org/abs/2308.00009",
+    "context": "Title: A 3D deep learning classifier and its explainability when assessing coronary artery disease. (arXiv:2308.00009v1 [eess.IV])\nAbstract: Early detection and diagnosis of coronary artery disease (CAD) could save lives and reduce healthcare costs. In this study, we propose a 3D Resnet-50 deep learning model to directly classify normal subjects and CAD patients on computed tomography coronary angiography images. Our proposed method outperforms a 2D Resnet-50 model by 23.65%. Explainability is also provided by using a Grad-GAM. Furthermore, we link the 3D CAD classification to a 2D two-class semantic segmentation for improved explainability and accurate abnormality localisation.",
+    "path": "papers/23/08/2308.00009.json",
+    "total_tokens": 772,
+    "translated_title": "一种用于评估冠心病的3D深度学习分类器及其可解释性",
+    "translated_abstract": "早期发现和诊断冠心病（CAD）可挽救生命并降低医疗成本。在本研究中，我们提出了一个3D Resnet-50深度学习模型，可以直接对计算机断层扫描冠状动脉造影图像上的正常受试者和冠心病患者进行分类。我们的方法比2D Resnet-50模型提高了23.65%。通过使用Grad-GAM提供了可解释性。此外，我们将3D冠心病分类与2D二类语义分割相结合，以提高解释性和准确的异常定位。",
+    "tldr": "本文提出了一种3D深度学习模型，用于直接分类冠心病患者和正常受试者，相较于2D模型提高了23.65%的性能，并通过Grad-GAM提供了可解释性。此外，通过与2D语义分割相结合，实现了更好的解释性和准确的异常定位。"
+}

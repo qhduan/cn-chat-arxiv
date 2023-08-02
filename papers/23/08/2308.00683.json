@@ -1,0 +1,11 @@
+{
+    "title": "CodeBPE: Investigating Subtokenization Options for Large Language Model Pretraining on Source Code. (arXiv:2308.00683v1 [cs.LG])",
+    "abstract": "Recent works have widely adopted large language model pretraining for source code, suggested source code-specific pretraining objectives and investigated the applicability of various Transformer-based language model architectures for source code. This work investigates another important aspect of such models, namely the effect of different subtokenization options, and aims at identifying most effective and length-efficient subtokenizations, taking into account code specifics. We propose subtokenziation that reduces average length by 17% without downstream performance drop, and show that a carefully chosen subtokenization may improve quality by 0.5-2%, possibly with some length increase.",
+    "link": "http://arxiv.org/abs/2308.00683",
+    "context": "Title: CodeBPE: Investigating Subtokenization Options for Large Language Model Pretraining on Source Code. (arXiv:2308.00683v1 [cs.LG])\nAbstract: Recent works have widely adopted large language model pretraining for source code, suggested source code-specific pretraining objectives and investigated the applicability of various Transformer-based language model architectures for source code. This work investigates another important aspect of such models, namely the effect of different subtokenization options, and aims at identifying most effective and length-efficient subtokenizations, taking into account code specifics. We propose subtokenziation that reduces average length by 17% without downstream performance drop, and show that a carefully chosen subtokenization may improve quality by 0.5-2%, possibly with some length increase.",
+    "path": "papers/23/08/2308.00683.json",
+    "total_tokens": 776,
+    "translated_title": "CodeBPE: 探索用于源代码的大型语言模型预训练的子标记化选项",
+    "translated_abstract": "最近的研究广泛采用了针对源代码的大型语言模型预训练，提出了源代码特定的预训练目标，并研究了不同基于Transformer的语言模型架构在源代码中的适用性。本研究调查了这些模型的另一个重要方面，即不同子标记化选项的影响，并旨在确定最有效和长度高效的子标记化，考虑到代码的特殊性。我们提出了一种子标记化方法，平均长度减少了17%，且没有下游性能下降，并且表明精心选择的子标记化可能会提高质量0.5-2%，可能会略微增加长度。",
+    "tldr": "CodeBPE研究了用于源代码的大型语言模型预训练中不同子标记化选项的影响，找出了最有效和长度高效的子标记化方法，通过减少平均长度17%且不影响下游性能，可能提高质量0.5-2%。"
+}

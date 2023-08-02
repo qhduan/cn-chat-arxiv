@@ -1,0 +1,11 @@
+{
+    "title": "Retrieval Augmented Generation and Representative Vector Summarization for large unstructured textual data in Medical Education. (arXiv:2308.00479v1 [cs.CL])",
+    "abstract": "Large Language Models are increasingly being used for various tasks including content generation and as chatbots. Despite their impressive performances in general tasks, LLMs need to be aligned when applying for domain specific tasks to mitigate the problems of hallucination and producing harmful answers. Retrieval Augmented Generation (RAG) allows to easily attach and manipulate a non-parametric knowledgebases to LLMs. Applications of RAG in the field of medical education are discussed in this paper. A combined extractive and abstractive summarization method for large unstructured textual data using representative vectors is proposed.",
+    "link": "http://arxiv.org/abs/2308.00479",
+    "context": "Title: Retrieval Augmented Generation and Representative Vector Summarization for large unstructured textual data in Medical Education. (arXiv:2308.00479v1 [cs.CL])\nAbstract: Large Language Models are increasingly being used for various tasks including content generation and as chatbots. Despite their impressive performances in general tasks, LLMs need to be aligned when applying for domain specific tasks to mitigate the problems of hallucination and producing harmful answers. Retrieval Augmented Generation (RAG) allows to easily attach and manipulate a non-parametric knowledgebases to LLMs. Applications of RAG in the field of medical education are discussed in this paper. A combined extractive and abstractive summarization method for large unstructured textual data using representative vectors is proposed.",
+    "path": "papers/23/08/2308.00479.json",
+    "total_tokens": 778,
+    "translated_title": "在医学教育中，用于大规模非结构化文本数据的检索增强生成和代表性向量摘要",
+    "translated_abstract": "大规模语言模型越来越多地用于各种任务，包括内容生成和作为聊天机器人。尽管它们在一般任务中表现出色，但在应用于特定领域任务时，需要对LLMs进行调整以减轻产生幻觉和有害答案的问题。检索增强生成（RAG）允许轻松地连接和操作非参数化知识库到LLMs上。本文讨论了RAG在医学教育领域的应用。提出了一种使用代表性向量的大规模非结构化文本数据的抽取性和抽象性摘要方法。",
+    "tldr": "本文介绍了在医学教育领域中，使用检索增强生成（RAG）将非参数化知识库与大规模语言模型（LLMs）结合，以解决幻觉和有害答案问题，并提出了一种使用代表性向量的抽取性和抽象性摘要方法。"
+}

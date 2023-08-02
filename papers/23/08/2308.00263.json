@@ -1,0 +1,11 @@
+{
+    "title": "Asynchronous Federated Learning with Bidirectional Quantized Communications and Buffered Aggregation. (arXiv:2308.00263v1 [cs.LG])",
+    "abstract": "Asynchronous Federated Learning with Buffered Aggregation (FedBuff) is a state-of-the-art algorithm known for its efficiency and high scalability. However, it has a high communication cost, which has not been examined with quantized communications. To tackle this problem, we present a new algorithm (QAFeL), with a quantization scheme that establishes a shared \"hidden\" state between the server and clients to avoid the error propagation caused by direct quantization. This approach allows for high precision while significantly reducing the data transmitted during client-server interactions. We provide theoretical convergence guarantees for QAFeL and corroborate our analysis with experiments on a standard benchmark.",
+    "link": "http://arxiv.org/abs/2308.00263",
+    "context": "Title: Asynchronous Federated Learning with Bidirectional Quantized Communications and Buffered Aggregation. (arXiv:2308.00263v1 [cs.LG])\nAbstract: Asynchronous Federated Learning with Buffered Aggregation (FedBuff) is a state-of-the-art algorithm known for its efficiency and high scalability. However, it has a high communication cost, which has not been examined with quantized communications. To tackle this problem, we present a new algorithm (QAFeL), with a quantization scheme that establishes a shared \"hidden\" state between the server and clients to avoid the error propagation caused by direct quantization. This approach allows for high precision while significantly reducing the data transmitted during client-server interactions. We provide theoretical convergence guarantees for QAFeL and corroborate our analysis with experiments on a standard benchmark.",
+    "path": "papers/23/08/2308.00263.json",
+    "total_tokens": 791,
+    "translated_title": "使用双向量化通信和缓冲聚合的异步联邦学习",
+    "translated_abstract": "异步联邦学习与缓冲聚合（FedBuff）是一种效率高、可伸缩性强的先进算法。然而，它存在高通信成本的问题，并未使用量化通信进行研究。为了解决这个问题，我们提出了一种新的算法（QAFeL），采用一种量化方案，在服务器和客户端之间建立共享的“隐藏”状态，避免了直接量化引起的误差传播。这种方法在保持高精度的同时，在客户端-服务器交互过程中显著减少了传输的数据量。我们提供了QAFeL的理论收敛保证，并通过标准基准实验验证了我们的分析结果。",
+    "tldr": "该论文介绍了一种名为QAFeL的新算法，通过建立服务器和客户端之间的共享“隐藏”状态，采用量化方案解决了异步联邦学习中高通信成本的问题。该算法能够在保持高精度的同时显著减少客户端-服务器交互过程中传输的数据量。"
+}

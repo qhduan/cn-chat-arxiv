@@ -2,247 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Shifting Cryptocurrency Influence: A High-Resolution Network Analysis of Market Leaders.](http://arxiv.org/abs/2307.16874) | 这项研究利用高分辨率网络分析了加密货币市场的变化趋势，发现每日数据聚合会导致信息损失，而Pearson相关性也存在局限性。研究结果显示，比特币在初期占据领导地位，但在2021年牛市中，格局发生了巨大变化。 |
-| [^2] | [American Passport options in an exponential L\'evy model.](http://arxiv.org/abs/2307.16649) | 本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。 |
-| [^3] | [A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation.](http://arxiv.org/abs/2307.16619) | 提出了一种多维电力日内价格建模的常规冲击模型，该模型能同时模拟所有产品，具有较低的参数数量，并可通过矩法进行估计。在电池估值方面的应用中展示了该模型的效果。 |
-| [^4] | [The fiscal implications of stringent climate policy.](http://arxiv.org/abs/2307.16554) | 严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。 |
-| [^5] | [Causal Inference for Banking Finance and Insurance A Survey.](http://arxiv.org/abs/2307.16427) | 本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。 |
-| [^6] | [Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context.](http://arxiv.org/abs/2307.16238) | 该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。 |
-| [^7] | [Equilibria and incentives for illiquid auction markets.](http://arxiv.org/abs/2307.15805) | 本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。 |
-| [^8] | [Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves.](http://arxiv.org/abs/2307.15718) | 该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。 |
-| [^9] | [Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation.](http://arxiv.org/abs/2307.07694) | 该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。 |
-| [^10] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
-| [^11] | [High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner.](http://arxiv.org/abs/2304.13985) | 本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。 |
-| [^12] | [Multivariate L\'evy Models: Calibration and Pricing.](http://arxiv.org/abs/2303.13346) | 本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。 |
-| [^13] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^14] | [Synergistic Small Worlds that Drive Technological Sophistication.](http://arxiv.org/abs/2301.04579) | 本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。 |
-| [^15] | [Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions.](http://arxiv.org/abs/2212.00336) | 本文提出了一种新的自动做市商机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。同时，通过均值/方差分析，将流动性提供者与持有自动做市商以外资产的代理人进行比较，以评估其盈亏表现。 |
-| [^16] | [Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques.](http://arxiv.org/abs/2209.09649) | 本研究通过测试深度学习模型和传统统计技术对基金表现的预测准确性，发现使用现代贝叶斯优化训练的LSTM和GRUs深度学习方法比传统方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果进行集成可以实现最佳表现。 |
+| [^1] | [Increasing Supply Chain Resiliency Through Equilibrium Pricing and Stipulating Transportation Quota Regulation.](http://arxiv.org/abs/2308.00681) | 本文研究了政府在供应链中断时通过规定最低配额运输来增加供应链的弹性。研究以铁路运输市场为例，考虑了不同产品的盈利水平差异，提出了解决方案。 |
+| [^2] | [SurveyLM: A platform to explore emerging value perspectives in augmented language models' behaviors.](http://arxiv.org/abs/2308.00521) | SurveyLM是一个用于分析增强语言模型行为中新兴价值观的平台，通过调查和实验方法系统评估了ALMs的对齐和新兴行为，并利用ALMs的反馈来增强调查和实验设计。 |
+| [^3] | [Exploiting the dynamics of commodity futures curves.](http://arxiv.org/abs/2308.00383) | 本文利用Nelson-Siegel模型对商品期货价格进行了建模，开发了基于斜率变化的投资策略，能够在短期内产生显著的利润，并且可以抵消经济放缓期间的回撤损失。 |
+| [^4] | [Position Uncertainty in a Sequential Public Goods Game: An Experiment.](http://arxiv.org/abs/2308.00179) | 该研究通过经济实验测试了在顺序公共物品博弈中经济学模型的理论预测。结果显示大约25%的受试者的行为与理论预测一致，但也观察到了其他行为类型的存在。 |
+| [^5] | [Efficient Multi-Change Point Analysis to decode Economic Crisis Information from the S&P500 Mean Market Correlation.](http://arxiv.org/abs/2308.00087) | 本研究提出了一种高效多变点分析方法，通过解码S&P500平均市场相关性，从中获取经济危机信息。研究结果表明，平均市场相关性可以作为一种信息丰富的宏观经济度量，用于理解整体经济动力。 |
+| [^6] | [FinPT: Financial Risk Prediction with Profile Tuning on Pretrained Foundation Models.](http://arxiv.org/abs/2308.00065) | FinPT是一种新颖的资金风险预测方法，通过在大型预训练基础模型上进行个人资料调整，填充金融表格数据并获得自然语言客户资料，从而提高预测准确性。 |
+| [^7] | [Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment.](http://arxiv.org/abs/2308.00016) | 本论文提出了一种通过引入人机交互的新型 alpha 挖掘范式，并利用大型语言模型的能力，通过一种新颖的提示工程算法框架，开发了 Alpha-GPT。通过多个实验，展示了 Alpha-GPT 在量化投资领域的有效性和优势。 |
+| [^8] | [Bitcoin Gold, Litecoin Silver:An Introduction to Cryptocurrency's Valuation and Trading Strategy.](http://arxiv.org/abs/2308.00013) | 本论文介绍了比特币和莱特币的估值与交易策略。研究使用了多个指标，并通过价格-效用比率提供了新的加密资产估值视角。 |
+| [^9] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
+| [^10] | [Towards Multi-Agent Reinforcement Learning driven Over-The-Counter Market Simulations.](http://arxiv.org/abs/2210.07184) | 该论文研究了多智能体强化学习在场外交易市场模拟中的应用，通过适当设计奖励函数和共享策略学习，智能体能够学习到涵盖利润损失、最优执行和市场份额等多目标的新兴行为，同时也提出了一种基于强化学习的校准算法。 |
+| [^11] | [Statistical inference for rough volatility: Central limit theorems.](http://arxiv.org/abs/2210.01216) | 本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。 |
 
 # 详细
 
-[^1]: 加密货币影响力的转变：对市场领导者的高分辨率网络分析
+[^1]: 通过平衡定价和规定运输配额来增加供应链的弹性
 
-    Shifting Cryptocurrency Influence: A High-Resolution Network Analysis of Market Leaders. (arXiv:2307.16874v1 [q-fin.ST])
+    Increasing Supply Chain Resiliency Through Equilibrium Pricing and Stipulating Transportation Quota Regulation. (arXiv:2308.00681v1 [math.OC])
 
-    [http://arxiv.org/abs/2307.16874](http://arxiv.org/abs/2307.16874)
+    [http://arxiv.org/abs/2308.00681](http://arxiv.org/abs/2308.00681)
 
-    这项研究利用高分辨率网络分析了加密货币市场的变化趋势，发现每日数据聚合会导致信息损失，而Pearson相关性也存在局限性。研究结果显示，比特币在初期占据领导地位，但在2021年牛市中，格局发生了巨大变化。
-
-    
-
-    在过去的十年中，加密货币市场经历了空前的增长，成为了一个重要的金融市场。随着这个市场的快速发展，有必要重新评估哪些加密货币主导市场并引领区块链技术的方向。我们采用基于网络的加密货币市场分析方法来研究这个不断变化的格局。我们使用新颖的按小时分辨率数据和Kendall's Tau相关性来探索加密货币市场的相互关联性。我们观察到，与从每日数据和Pearson相关性派生的排名相比，我们的方法在加密货币的层次结构中存在重要的差异。这种差异强调了从每日数据聚合中潜在的信息损失，并凸显了Pearson相关性的局限性。我们的研究结果表明，在这一增长的初期，比特币扮演了领导角色。然而，在2021年的牛市中，格局发生了巨大变化。
-
-    Over the last decade, the cryptocurrency market has experienced unprecedented growth, emerging as a prominent financial market. As this market rapidly evolves, it necessitates re-evaluating which cryptocurrencies command the market and steer the direction of blockchain technology. We implement a network-based cryptocurrency market analysis to investigate this changing landscape. We use novel hourly-resolution data and Kendall's Tau correlation to explore the interconnectedness of the cryptocurrency market. We observed critical differences in the hierarchy of cryptocurrencies determined by our method compared to rankings derived from daily data and Pearson's correlation. This divergence emphasizes the potential information loss stemming from daily data aggregation and highlights the limitations of Pearson's correlation. Our findings show that in the early stages of this growth, Bitcoin held a leading role. However, during the 2021 bull run, the landscape changed drastically. We see that
-    
-[^2]: 指数李维模型下的美国护照期权选择
-
-    American Passport options in an exponential L\'evy model. (arXiv:2307.16649v1 [q-fin.PR])
-
-    [http://arxiv.org/abs/2307.16649](http://arxiv.org/abs/2307.16649)
-
-    本文研究了在指数李维模型下，定价美国护照期权的问题。通过使用动态规划原理，我们得到了定价方程，并证明了期权价值是变分不等式的粘滞解。
+    本文研究了政府在供应链中断时通过规定最低配额运输来增加供应链的弹性。研究以铁路运输市场为例，考虑了不同产品的盈利水平差异，提出了解决方案。
 
     
 
-    本文研究了一个被称为美国护照期权的奇异衍生品的定价问题，其中的基础资产由一个李维过程驱动。我们使用动态规划原理推导了定价方程，并证明了期权价值是变分不等式的粘滞解。我们还建立了比较原理，从而得到了粘滞解的唯一性和凸性。
+    供应链的中断可能由多种原因引起，包括自然灾害或市场动态。如果中断对经济产生深远影响，监管机构可能决定干预以最大程度减少对社会的影响。本文研究了政府在运输能力低于总产量并且不同产品的盈利水平差异显著的市场上规定的最低配额运输。在北美，铁路运输市场有一个有趣的例子，铁路容量被用于各种产品和商品，如石油和谷物。本研究假定存在一个运输公司，其容量有限，将会运输一组具有异质运输和生产成本和价格的产品。给出了市场参与者以及政府面临的数学问题，并提出了解决方案。
 
-    In this paper we examine the problem of valuing an exotic derivative known as the American passport option where the underlying is driven by a L\'evy process. The passport option is a call option on a trading account. We derive the pricing equation, using the dynamic programming principle, and prove that the option value is a viscosity solution of variational inequality. We also establish the comparison principle, which yields uniqueness and the convexity of the viscosity solution.
+    Supply chain disruption can occur for a variety of reasons, including natural disasters or market dynamics. If the disruption is profound and with dire consequences for the economy, the regulators may decide to intervene to minimize the impact for the betterment of the society. This paper investigates the minimum quota regulation on transportation amounts, stipulated by the government in a market where transportation capacity is below total production and profitability levels differ significantly among different products. In North America, an interesting example can happen in rail transportation market, where the rail capacity is used for a variety of products and commodities such as oil and grains. This research assumes that there is a shipping company with limited capacity which will ship a group of products with heterogeneous transportation and production costs and prices. Mathematical problems for the market players as well as the government are presented, solutions are proposed, a
     
-[^3]: 一种用于多维电力日内价格建模的常规冲击模型及其在电池估值中的应用
+[^2]: SurveyLM: 一种探索增强语言模型行为中新兴价值观的平台
 
-    A Common Shock Model for multidimensional electricity intraday price modelling with application to battery valuation. (arXiv:2307.16619v1 [q-fin.ST])
+    SurveyLM: A platform to explore emerging value perspectives in augmented language models' behaviors. (arXiv:2308.00521v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.16619](http://arxiv.org/abs/2307.16619)
+    [http://arxiv.org/abs/2308.00521](http://arxiv.org/abs/2308.00521)
 
-    提出了一种多维电力日内价格建模的常规冲击模型，该模型能同时模拟所有产品，具有较低的参数数量，并可通过矩法进行估计。在电池估值方面的应用中展示了该模型的效果。
-
-    
-
-    在本文中，我们提出了一种针对交易会话规模的日内电力价格多维统计模型，允许同时模拟所有产品。该模型基于泊松测度，受常规冲击泊松模型的启发，模拟出了塞缪尔森效应（强度和波动性随到期时间的减少而增加）。它还模拟了在数据中突出显示的价格相关结构，该结构随着两个到期时间的间隔增大而减小。该模型仅有三个参数，可以使用本文提出的矩法进行估计。我们通过在交易会话期间进行动态规划，演示了模型的有用性，并在储能估值案例中进行了验证。
-
-    In this paper, we propose a multidimensional statistical model of intraday electricity prices at the scale of the trading session, which allows all products to be simulated simultaneously. This model, based on Poisson measures and inspired by the Common Shock Poisson Model, reproduces the Samuelson effect (intensity and volatility increases as time to maturity decreases). It also reproduces the price correlation structure, highlighted here in the data, which decreases as two maturities move apart. This model has only three parameters that can be estimated using a moment method that we propose here. We demonstrate the usefulness of the model on a case of storage valuation by dynamic programming over a trading session.
-    
-[^4]: 严格的气候政策的财政影响
-
-    The fiscal implications of stringent climate policy. (arXiv:2307.16554v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.16554](http://arxiv.org/abs/2307.16554)
-
-    严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。
+    SurveyLM是一个用于分析增强语言模型行为中新兴价值观的平台，通过调查和实验方法系统评估了ALMs的对齐和新兴行为，并利用ALMs的反馈来增强调查和实验设计。
 
     
 
-    符合2015年巴黎协议目标的严格的气候政策将带来巨大的财政挑战。到2050年将二氧化碳排放量降低95%或更多将使碳税收入占GDP的7%（1-17%），仅为当前全球税收的一半。贫困地区的税收收入相对较大。二氧化碳封存的补贴金额将占GDP的6.6%（0.3-7.1%）。这些数字是保守估计的，因为它们是使用假设实施最佳气候政策并忽略增加收入成本的模型得出的。如果放松排放目标，财政挑战将迅速缩小。
+    本白皮书介绍了我们在SurveyLM上的工作，这是一个用于分析增强语言模型(ALM)在复杂社会环境中通过动态演变的态度和价值观展现出的紧密对齐行为的平台。像ALM这样的社交人工智能系统通常在细微的社交场景中运作，没有单一的正确回答，或者答案很大程度上取决于背景因素，因此需要深入理解它们的对齐动态。为了解决这个问题，我们应用传统社会行为研究中常用的调查和实验方法系统地评估ALM，从而提供了对其对齐和新兴行为的前所未有的深入洞察。此外，SurveyLM平台利用ALM自身的反馈来增强调查和实验设计，利用了ALM未充分利用的方面，加速了高质量调查框架的开发和测试，同时节约了资源。
 
-    Stringent climate policy compatible with the targets of the 2015 Paris Agreement would pose a substantial fiscal challenge. Reducing carbon dioxide emissions by 95% or more by 2050 would raise 7% (1-17%) of GDP in carbon tax revenue, half of current, global tax revenue. Revenues are relatively larger in poorer regions. Subsidies for carbon dioxide sequestration would amount to 6.6% (0.3-7.1%) of GDP. These numbers are conservative as they were estimated using models that assume first-best climate policy implementation and ignore the costs of raising revenue. The fiscal challenge rapidly shrinks if emission targets are relaxed.
+    This white paper presents our work on SurveyLM, a platform for analyzing augmented language models' (ALMs) emergent alignment behaviors through their dynamically evolving attitude and value perspectives in complex social contexts. Social Artificial Intelligence (AI) systems, like ALMs, often function within nuanced social scenarios where there is no singular correct response, or where an answer is heavily dependent on contextual factors, thus necessitating an in-depth understanding of their alignment dynamics. To address this, we apply survey and experimental methodologies, traditionally used in studying social behaviors, to evaluate ALMs systematically, thus providing unprecedented insights into their alignment and emergent behaviors. Moreover, the SurveyLM platform leverages the ALMs' own feedback to enhance survey and experiment designs, exploiting an underutilized aspect of ALMs, which accelerates the development and testing of high-quality survey frameworks while conserving resour
     
-[^5]: 银行金融与保险领域的因果推断综述
+[^3]: 利用商品期货曲线的动态特性
 
-    Causal Inference for Banking Finance and Insurance A Survey. (arXiv:2307.16427v1 [cs.AI])
+    Exploiting the dynamics of commodity futures curves. (arXiv:2308.00383v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2307.16427](http://arxiv.org/abs/2307.16427)
+    [http://arxiv.org/abs/2308.00383](http://arxiv.org/abs/2308.00383)
 
-    本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。
-
-    
-
-    因果推断在解释统计模型和人工智能模型所做决策方面起着重要作用。最近，这个领域开始引起研究人员和实践者的关注。本文对1992年至2023年公开发表的37篇论文进行了全面的综述，涉及了因果推断在银行、金融和保险领域的应用。根据领域的不同，论文被分为以下几类：(i) 银行，(ii) 金融及其子领域，如企业金融、金融治理（包括金融风险和金融政策）、金融经济学和行为金融，以及 (iii) 保险。此外，本文还介绍了因果推断的主要要素，包括贝叶斯因果网络、格兰杰因果关系以及相关的专业术语，如反事实。综述还提出了一些未来研究的重要方向。总之，我们观察到因果推断在银行金融和保险领域得到了广泛的应用，并希望对未来的研究起到了一定的推动作用。
-
-    Causal Inference plays an significant role in explaining the decisions taken by statistical models and artificial intelligence models. Of late, this field started attracting the attention of researchers and practitioners alike. This paper presents a comprehensive survey of 37 papers published during 1992-2023 and concerning the application of causal inference to banking, finance, and insurance. The papers are categorized according to the following families of domains: (i) Banking, (ii) Finance and its subdomains such as corporate finance, governance finance including financial risk and financial policy, financial economics, and Behavioral finance, and (iii) Insurance. Further, the paper covers the primary ingredients of causal inference namely, statistical methods such as Bayesian Causal Network, Granger Causality and jargon used thereof such as counterfactuals. The review also recommends some important directions for future research. In conclusion, we observed that the application of 
-    
-[^6]: 印度背景下教育水平的不平等：城乡比较
-
-    Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context. (arXiv:2307.16238v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.16238](http://arxiv.org/abs/2307.16238)
-
-    该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。
+    本文利用Nelson-Siegel模型对商品期货价格进行了建模，开发了基于斜率变化的投资策略，能够在短期内产生显著的利润，并且可以抵消经济放缓期间的回撤损失。
 
     
 
-    本文试图比较印度选定的15个邦在1981-2011年期间城乡识字率，并探讨减少城乡教育取得差异的工具。研究构建了Sopher的城乡差异识字指数，分析了印度15个邦的识字差距趋势。尽管识字差距随着时间的推移有所减小，但Sopher指数显示，2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面面临较高的不平等。此外，本研究还应用了固定效应面板数据回归技术，以确定影响城乡教育不平等的因素。模型表明，以下因素可以减少印度城乡地区之间的识字差距：农村妇女生育率低，农村女性21岁后婚姻的比例较高。
+    本文使用Nelson-Siegel模型对商品期货价格的期限结构进行建模。利用水平、斜率和曲率参数中嵌入的信息，我们开发了新颖的投资策略，假设最近期货曲线的平行、斜率或蝶形变化会在短期内持续。基于斜率变化的系统性策略可以产生显著的利润，与先前记录的风险因素无关，并且可以在合理的交易成本下存活。进一步分析表明，斜率策略的盈利性随着投资者情绪的增强而增加，并在经济放缓期间部分抵消了回撤带来的损失。通过合理的市场时间选择，盈利性也可以放大，并且在Nelson-Siegel模型的替代规范下仍然存在。
 
-    The article tries to compare urban and rural literacy of fifteen selected Indian states during 1981 - 2011 and explores the instruments which can reduce the disparity in urban and rural educational attainment. The study constructs Sopher's urban-rural differential literacy index to analyze the trends of literacy disparity across fifteen states in India over time. Although literacy disparity has decreased over time, Sopher's index shows that the states of Andhra Pradesh, Madhya Pradesh, Gujarat, Odisha, Maharashtra and even Karnataka faced high inequality in education between urban and rural India in 2011. Additionally, the Fixed Effect panel data regression technique has been applied in the study to identify the factors which influence urban-rural inequality in education. The model shows that the following factors can reduce literacy disparity between urban and rural areas of India: low fertility rate in rural women, higher percentages of rural females marrying after the age of 21 year
+    The Nelson-Siegel framework is employed to model the term structure of commodity futures prices. Exploiting the information embedded in the level, slope and curvature parameters, we develop novel investment strategies that assume short-term continuation of recent parallel, slope or butterfly movements of futures curves. Systematic strategies based on the change in the slope generate significant profits that are unrelated to previously documented risk factors and can survive reasonable transaction costs. Further analysis demonstrates that the profitability of the slope strategy increases with investor sentiment and is in part a compensation for the drawdowns incurred during economic slowdowns. The profitability can also be magnified through timing and persists under alternative specifications of the Nelson-Siegel model.
     
-[^7]: 市场流动性的均衡与激励机制研究
+[^4]: 在一个顺序公共物品博弈中的位置不确定性：一个实验
 
-    Equilibria and incentives for illiquid auction markets. (arXiv:2307.15805v1 [q-fin.TR])
+    Position Uncertainty in a Sequential Public Goods Game: An Experiment. (arXiv:2308.00179v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.15805](http://arxiv.org/abs/2307.15805)
+    [http://arxiv.org/abs/2308.00179](http://arxiv.org/abs/2308.00179)
 
-    本研究通过研究周期性双边拍卖市场的玩具双人博弈，研究了市场流动性的均衡与激励机制。我们发现，没有任何激励的情况下，市场是低效的；而通过引入基于每个玩家价差一半的二次交易费用，可以实现交易。
-
-    
-
-    我们研究了用于生成流动性的周期性双边拍卖市场的玩具双人博弈。该博弈存在信息不完全，可以将市场价差与信号强度联系起来。我们在存在或不存在交易所激励的情况下刻画了纳什均衡。这使得我们能够得出关于价格形成和激励设计的新见解。我们特别证明，在没有任何激励的情况下，市场是低效的，导致市场参与者之间没有任何交易。然而，我们证明了基于每个玩家价差一半的二次交易费用会导致交易，并提出了在该模型中交易所必须提出的最佳费用的定量值。
-
-    We study a toy two-player game for periodic double auction markets to generate liquidity. The game has imperfect information, which allows us to link market spreads with signal strength. We characterize Nash equilibria in cases with or without incentives from the exchange. This enables us to derive new insights about price formation and incentives design. We show in particular that without any incentives, the market is inefficient and does not lead to any trade between market participants. We however prove that quadratic fees indexed on each players half spread leads to a transaction and we propose a quantitative value for the optimal fees that the exchange has to propose in this model to generate liquidity.
-    
-[^8]: 期权波动率与隐含概率：IV曲线凹性的影响
-
-    Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves. (arXiv:2307.15718v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2307.15718](http://arxiv.org/abs/2307.15718)
-
-    该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。
+    该研究通过经济实验测试了在顺序公共物品博弈中经济学模型的理论预测。结果显示大约25%的受试者的行为与理论预测一致，但也观察到了其他行为类型的存在。
 
     
 
-    盈利公告是提供给投资者基本重要信息的公司事件。股价上涨的可能性也可能导致盈利公告的波动性增加。利用极短期期权数据，我们研究了在盈利公告前普遍存在的风险中性分布的双峰性和IV曲线的凹性特征。本研究比较了凹IV笑脸和非凹IV笑脸之间的收益，以判断IV曲线中的凹性是否提供了关于市场风险的任何信息，并展示了投资者在盈利公告期间如何对抗极端波动。事实上，我们的论文表明，在存在凹IV笑脸的情况下，投资者为对未来公告带来的不确定性进行对冲支付了显著的溢价。
+    Gallice和Monzón（2019）提出了一种能够在有限数量的自私代理之间维持全面合作的自然环境。他们证明，在一个顺序公共物品博弈中，代理人缺乏对自己在序列中位置的知识，但可以观察到一些前任的行动，由于代理人有激励让潜在的继任者效仿自己的贡献，所以全面贡献会在均衡中出现。本研究旨在通过经济实验来测试这个模型的理论预测。我们进行了三个处理，变化了受试者可以观察到的过去行动信息的数量以及他们的位置意识。通过严格的结构计量分析，我们发现大约25%的受试者的行为符合理论预测。然而，我们还观察到剩余受试者中存在替代行为类型。其中大多数被归类为有条件的合作者。
 
-    Earnings announcements (EADs) are corporate events that provide investors with fundamentally important information. The prospect of stock price rises may also contribute to EADs increased volatility. Using data on extremely short term options, we study that bimodality in the risk neutral distribution and concavity in the IV smiles are ubiquitous characteristics before an earnings announcement day. This study compares the returns between concave and non concave IV smiles to see if the concavity in the IV curve leads to any information about the risk in the market and showcases how investors hedge against extreme volatility during earnings announcements. In fact, our paper shows in the presence of concave IV smiles; investors pay a significant premium to hedge against the uncertainty caused by the forthcoming announcement.
+    Gallice and Monz\'on (2019) present a natural environment that sustains full co-operation in one-shot social dilemmas among a finite number of self-interested agents. They demonstrate that in a sequential public goods game, where agents lack knowledge of their position in the sequence but can observe some predecessors' actions, full contribution emerges in equilibrium due to agents' incentive to induce potential successors to follow suit. In this study, we aim to test the theoretical predictions of this model through an economic experiment. We conducted three treatments, varying the amount of information about past actions that a subject can observe, as well as their positional awareness. Through rigorous structural econometric analysis, we found that approximately 25% of the subjects behaved in line with the theoretical predictions. However, we also observed the presence of alternative behavioural types among the remaining subjects. The majority were classified as conditional co-opera
     
-[^9]: 评估深度强化学习算法在投资组合优化中的应用
+[^5]: 从S&P500平均市场相关性中解码经济危机信息的高效多变点分析
 
-    Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation. (arXiv:2307.07694v1 [cs.CE])
+    Efficient Multi-Change Point Analysis to decode Economic Crisis Information from the S&P500 Mean Market Correlation. (arXiv:2308.00087v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2307.07694](http://arxiv.org/abs/2307.07694)
+    [http://arxiv.org/abs/2308.00087](http://arxiv.org/abs/2308.00087)
 
-    该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。
-
-    
-
-    我们对投资组合优化任务中的基准深度强化学习（DRL）算法进行了评估，并使用模拟器作为评估依据。该模拟器基于相关几何布朗运动（GBM）与Bertsimas-Lo（BL）市场冲击模型。使用凯利准则（对数效用）作为目标，我们可以在没有市场冲击的情况下通过分析推导出最优策略，并将其用作包括市场冲击时性能的上限。我们发现，离策略算法DDPG、TD3和SAC由于噪声奖励的存在无法学习到正确的Q函数，因此表现不佳。而基于策略的算法PPO和A2C，在广义优势估计（GAE）的使用下能够应对噪声并得出接近最优策略。PPO的剪切变体在防止策略在收敛后偏离最优值方面发挥了重要作用。在GBM参数发生制度性变化的更具挑战性的环境中，我们发现PPO、TD3和SAC算法仍能保持较好的性能。
-
-    We evaluate benchmark deep reinforcement learning (DRL) algorithms on the task of portfolio optimisation under a simulator. The simulator is based on correlated geometric Brownian motion (GBM) with the Bertsimas-Lo (BL) market impact model. Using the Kelly criterion (log utility) as the objective, we can analytically derive the optimal policy without market impact and use it as an upper bound to measure performance when including market impact. We found that the off-policy algorithms DDPG, TD3 and SAC were unable to learn the right Q function due to the noisy rewards and therefore perform poorly. The on-policy algorithms PPO and A2C, with the use of generalised advantage estimation (GAE), were able to deal with the noise and derive a close to optimal policy. The clipping variant of PPO was found to be important in preventing the policy from deviating from the optimal once converged. In a more challenging environment where we have regime changes in the GBM parameters, we found that PPO,
-    
-[^10]: 互动一致性纠缠理论
-
-    A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2306.15554](http://arxiv.org/abs/2306.15554)
-
-    本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。
+    本研究提出了一种高效多变点分析方法，通过解码S&P500平均市场相关性，从中获取经济危机信息。研究结果表明，平均市场相关性可以作为一种信息丰富的宏观经济度量，用于理解整体经济动力。
 
     
 
-    复杂适应性学习是智能的，并在生命和非生命复杂系统中发挥作用。一个复杂系统由许多相互作用的个体或单元组成，它们在相互作用中显示出隐藏的模式，并广泛出现在几乎所有学科中，从自然科学到社会科学。这激发了科学家们探索复杂系统形成机制的兴趣。然而，这是非常具有挑战性的。本文从交易量-价格概率波动方程中提取了复杂系统中的互动一致性的普遍规律或法则，并将其应用于复杂量子系统。它假设粒子可以在加强坐标中具有复杂适应性学习或智能样性质，并将金融市场交易者的复杂适应性学习延伸到量子物理中的非生命粒子。在这些假设的基础上，作者提出了一种互动一致性纠缠理论，用于解释智能样粒子的行为。
+    确定导致经济剧变的宏观经济事件对于理解整体经济动力非常重要。我们介绍了一个开源的高效 Python 实现的贝叶斯多趋势变点分析，解决了从相关性度量中提取危机信息的显著内存和计算时间限制问题。因此，我们关注近20年的S&P500平均市场相关性，包括互联网泡沫、全球金融危机和欧元危机。该分析分为两个部分：首先，回顾整个数据集，然后，在危机前的分段中以在线自适应方式进行。在线敏感性时间范围大致确定为危机发生后约80到100个交易日。与全球经济事件的详细比较支持将平均市场相关性解释为一种信息丰富的宏观经济度量。
 
-    Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
+    Identifying macroeconomic events that are responsible for dramatic changes of economy is of particular relevance to understand the overall economic dynamics. We introduce an open-source available efficient Python implementation of a Bayesian multi-trend change point analysis which solves significant memory and computing time limitations to extract crisis information from a correlation metric. Therefore, we focus on the recently investigated S&P500 mean market correlation in a period of roughly 20 years that includes the dot-com bubble, the global financial crisis and the Euro crisis. The analysis is performed two-fold: first, in retrospect on the whole dataset and second, in an on-line adaptive manner in pre-crisis segments. The on-line sensitivity horizon is roughly determined to be 80 up to 100 trading days after a crisis onset. A detailed comparison to global economic events supports the interpretation of the mean market correlation as an informative macroeconomic measure by a rathe
     
-[^11]: 高频预测交易及其影响：小内幕交易者对压轴者的影响
+[^6]: FinPT:使用预训练基础模型进行资金风险预测中个人资料调整
 
-    High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner. (arXiv:2304.13985v1 [q-fin.TR])
+    FinPT: Financial Risk Prediction with Profile Tuning on Pretrained Foundation Models. (arXiv:2308.00065v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2304.13985](http://arxiv.org/abs/2304.13985)
+    [http://arxiv.org/abs/2308.00065](http://arxiv.org/abs/2308.00065)
 
-    本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。
-
-    
-
-    本文研究了大内幕交易者(IT)与能够预测前者即将到来订单的高频交易者(HFT)在扩展的Kyle(1985)模型下的互动。讨论了不同情况下的均衡。依靠速度优势，HFT总是提前和大单交易同向。然而，她是否提供流动性取决于她的库存厌恶、预测准确性和市场活跃度。她可能会回馈流动性(充当压轴者)或继续带走流动性(此时我们称她为小IT)。小IT总是伤害大交易者，而压轴者可能使她受益。此外，我们惊奇地发现(1)增加HFT信号中的噪声实际上可能会降低IT的利润;(2)尽管提供流动性，压轴者可能比小内幕交易者更加伤害IT。
-
-    In this paper, the interactions between a large informed trader (IT, for short) and a high-frequency trader (HFT, for short) who can anticipate the former's incoming order are studied in an extended Kyle's (1985) model. Equilibria under various specific situations are discussed. Relying on the speed advantage, HFT always trades in the same direction as the large order in advance. However, whether or not she provides liquidity depends on her inventory aversion, the prediction accuracy, and the market activeness. She may supply liquidity back (act as a front-runner) or continue to take it away (in this case we call her a small IT). Small IT always harms the large trader while front-runner may benefit her. Besides, we find surprisingly that (1) increasing the noise in HFT's signal may in fact decrease IT's profit; (2) although providing liquidity, a front-runner may harm IT more than a small IT.
-    
-[^12]: 多元Lévy模型：校准与定价。
-
-    Multivariate L\'evy Models: Calibration and Pricing. (arXiv:2303.13346v1 [q-fin.PR])
-
-    [http://arxiv.org/abs/2303.13346](http://arxiv.org/abs/2303.13346)
-
-    本研究采用多元资产模型基于Lévy过程，用于定价异类衍生品，着重考虑模型捕捉线性和非线性依赖的能力。通过蒙特卡洛方法进行估值。
+    FinPT是一种新颖的资金风险预测方法，通过在大型预训练基础模型上进行个人资料调整，填充金融表格数据并获得自然语言客户资料，从而提高预测准确性。
 
     
 
-    本研究采用基于Lévy过程的多元资产模型，用于定价异类衍生品。我们比较它们拟合市场数据和复制价格基准的能力，评估它们在参数化和依赖结构方面的灵活性。我们回顾了最近在多元设定中的风险中性校准方法和技术，并提供了在实际情况下做出明智决策的工具。特别关注模型捕捉线性和非线性依赖的能力，对其定价性能产生影响。鉴于分析衍生品的异类特性，估值是通过蒙特卡洛方法进行的。
+    资金风险预测在金融领域中起着至关重要的作用。机器学习方法已被广泛应用于自动检测潜在风险，从而节省劳动成本。然而，近年来这一领域的发展滞后于以下两个事实：1）所使用的算法有些过时，特别是在生成AI和大型语言模型（LLMs）快速发展的背景下；2）缺乏统一且开源的金融基准已经阻碍了相关研究多年。为解决这些问题，我们提出了FinPT和FinBench：前者是一种新颖的资金风险预测方法，对大型预训练基础模型进行个人资料调整；后者是一套关于资金风险的高质量数据集，如违约、欺诈和流失。在FinPT中，我们将金融表格数据填充到预定义的指令模板中，通过提示LLMs获得自然语言客户资料，并进行精调。
 
-    In this research we employ a range of multivariate asset models based on L\'evy processes to price exotic derivatives. We compare their ability to fit market data and replicate price benchmarks, and evaluate their flexibility in terms of parametrization and dependence structure. We review recent risk-neutral calibration approaches and techniques in the multivariate setting, and provide tools to make well-informed decisions in a practical context. A special focus is given to the ability of the models to capture linear and nonlinear dependence, with implications on their pricing performance. Given the exotic features of the analyzed derivatives, valuation is carried out through Monte Carlo methods.
+    Financial risk prediction plays a crucial role in the financial sector. Machine learning methods have been widely applied for automatically detecting potential risks and thus saving the cost of labor. However, the development in this field is lagging behind in recent years by the following two facts: 1) the algorithms used are somewhat outdated, especially in the context of the fast advance of generative AI and large language models (LLMs); 2) the lack of a unified and open-sourced financial benchmark has impeded the related research for years. To tackle these issues, we propose FinPT and FinBench: the former is a novel approach for financial risk prediction that conduct Profile Tuning on large pretrained foundation models, and the latter is a set of high-quality datasets on financial risks such as default, fraud, and churn. In FinPT, we fill the financial tabular data into the pre-defined instruction template, obtain natural-language customer profiles by prompting LLMs, and fine-tune 
     
-[^13]: 经济主体的动态运输
+[^7]: Alpha-GPT：人机交互式 Alpha 挖掘在量化投资中的应用
 
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+    Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment. (arXiv:2308.00016v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+    [http://arxiv.org/abs/2308.00016](http://arxiv.org/abs/2308.00016)
 
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
-
-    
-
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
-
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
-    
-[^14]: 驱动技术复杂性的协同小世界
-
-    Synergistic Small Worlds that Drive Technological Sophistication. (arXiv:2301.04579v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2301.04579](http://arxiv.org/abs/2301.04579)
-
-    本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。
+    本论文提出了一种通过引入人机交互的新型 alpha 挖掘范式，并利用大型语言模型的能力，通过一种新颖的提示工程算法框架，开发了 Alpha-GPT。通过多个实验，展示了 Alpha-GPT 在量化投资领域的有效性和优势。
 
     
 
-    高度发达的经济体在各种产品的创造方面展现出很高的复杂性。然而，在研究行业或整个经济体等大系统时，生产过程中发生的相互作用的性质和基本结构仍然不透明。本文利用部分信息分解方法，量化了这些相互作用的性质，从而推断出创新有多少来自于特定的输入相互作用以及它们的结构。这些估计结果揭示了支撑技术复杂性的微妙相互作用的全新图景。通过分析协同作用网络，我们发现更复杂的行业往往展现出高度模块化的小世界拓扑结构，其中第三产业是其中心连接核心。拥有良好建立的连接核心和专业模块的国家和行业展示出更高的经济复杂性和产出效率。类似的模块化网络
+    在量化投资研究中，挖掘新的 alpha（有效的交易信号或因子）是其中最重要的任务之一。传统的 alpha 挖掘方法，无论是手工合成因子还是算法挖掘因子（如遗传编程搜索），都存在固有的局限性，尤其在实施量化分析师的想法方面。在本研究中，我们提出了一种新的 alpha 挖掘范式，引入了人机交互，并通过利用大型语言模型的能力，提出了一种新颖的提示工程算法框架来实现这个范式。此外，我们开发了 Alpha-GPT，一种新的交互式 alpha 挖掘系统框架，以一种启发式的方式“理解”量化研究人员的想法，并输出具有创造性、深入洞察力和有效性的 alpha。通过多个 alpha 挖掘实验，我们展示了 Alpha-GPT 的有效性和优势。
 
-    Advanced economies exhibit a high degree of sophistication in the creation of various products. While critical to such sophistication, the nature and underlying structure of the interactions taking place inside production processes remain opaque when studying large systems such as industries or entire economies. Using partial information decomposition, we quantify the nature of these interactions, allowing us to infer how much innovation stems form specific input interactions and how they are structured. These estimates yield a novel picture of the nuanced interactions underpinning technological sophistication. By analyzing networks of synergistic interactions, we find that more sophisticated industries tend to exhibit highly modular small-world topologies; with the tertiary sector as its central connective core. Countries and industries that have a well-established connective core and specialized modules exhibit higher economic complexity and output efficiency. Similar modular network
+    One of the most important tasks in quantitative investment research is mining new alphas (effective trading signals or factors). Traditional alpha mining methods, either hand-crafted factor synthesizing or algorithmic factor mining (e.g., search with genetic programming), have inherent limitations, especially in implementing the ideas of quants. In this work, we propose a new alpha mining paradigm by introducing human-AI interaction, and a novel prompt engineering algorithmic framework to implement this paradigm by leveraging the power of large language models. Moreover, we develop Alpha-GPT, a new interactive alpha mining system framework that provides a heuristic way to ``understand'' the ideas of quant researchers and outputs creative, insightful, and effective alphas. We demonstrate the effectiveness and advantage of Alpha-GPT via a number of alpha mining experiments.
     
-[^15]: 自动做市商：LP的收益的均值方差分析和定价函数的设计
+[^8]: Bitcoin Gold, Litecoin Silver:加密货币估值与交易策略的介绍
 
-    Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions. (arXiv:2212.00336v3 [q-fin.TR] UPDATED)
+    Bitcoin Gold, Litecoin Silver:An Introduction to Cryptocurrency's Valuation and Trading Strategy. (arXiv:2308.00013v1 [cs.CE])
 
-    [http://arxiv.org/abs/2212.00336](http://arxiv.org/abs/2212.00336)
+    [http://arxiv.org/abs/2308.00013](http://arxiv.org/abs/2308.00013)
 
-    本文提出了一种新的自动做市商机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。同时，通过均值/方差分析，将流动性提供者与持有自动做市商以外资产的代理人进行比较，以评估其盈亏表现。
-
-    
-
-    随着去中心化金融的出现，出现了新的交易机制称为自动做市商。最流行的自动做市商是常量函数做市商。它们已经在理论和实证方面进行了研究。特别是，出现了非永久性损失的概念，解释了常量函数做市商中流动性提供者的部分盈亏。在本文中，我们提出了另一种机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。我们还提出使用流动性提供者的收益的均值/方差分析与自动做市商之外持有资产的代理人的收益/损失进行比较。特别是，受马科维茨现代投资组合理论的启发，我们成功获得了在理想情况下的完美预言机的流动性提供者表现的有效前沿。
-
-    With the emergence of decentralized finance, new trading mechanisms called Automated Market Makers have appeared. The most popular Automated Market Makers are Constant Function Market Makers. They have been studied both theoretically and empirically. In particular, the concept of impermanent loss has emerged and explains part of the profit and loss of liquidity providers in Constant Function Market Makers. In this paper, we propose another mechanism in which price discovery does not solely rely on liquidity takers but also on an external exchange rate or price oracle. We also propose to compare the different mechanisms from the point of view of liquidity providers by using a mean / variance analysis of their profit and loss compared to that of agents holding assets outside of Automated Market Makers. In particular, inspired by Markowitz' modern portfolio theory, we manage to obtain an efficient frontier for the performance of liquidity providers in the idealized case of a perfect oracl
-    
-[^16]: 使用深度学习和集成技术预测互惠基金的表现
-
-    Predicting Mutual Funds' Performance using Deep Learning and Ensemble Techniques. (arXiv:2209.09649v3 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/2209.09649](http://arxiv.org/abs/2209.09649)
-
-    本研究通过测试深度学习模型和传统统计技术对基金表现的预测准确性，发现使用现代贝叶斯优化训练的LSTM和GRUs深度学习方法比传统方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果进行集成可以实现最佳表现。
+    本论文介绍了比特币和莱特币的估值与交易策略。研究使用了多个指标，并通过价格-效用比率提供了新的加密资产估值视角。
 
     
 
-    预测基金表现对投资者和基金经理都有益处，但也是一项具有挑战性的任务。本文测试了深度学习模型是否比传统统计技术更准确地预测基金表现。基金表现通常通过夏普比率来评估，夏普比率表示风险调整后的表现，以确保在基金之间有可比性。我们根据美国投资于上市大盘股的600多只开放式股票型互惠基金的月度回报时间序列数据计算了年化夏普比率。我们发现，使用现代贝叶斯优化训练的长短期记忆（LSTM）和门控循环单元（GRUs）深度学习方法，比传统统计方法更准确地预测基金的夏普比率。将LSTM和GRUs的预测结果组合的集成方法，实现了所有模型中最好的表现。
+    从历史上看，黄金和白银在传统货币系统中起着不同的作用。黄金被视为优秀的价值存储工具，导致人们囤积黄金，而白银通常被用作交换媒介。随着金融世界的发展，加密货币的出现引入了一种新的价值和交换范式。然而，这些数字资产作为价值存储工具的特性仍然很少被研究。莱特币的创始人Charlie Lee曾将比特币比作黄金，莱特币比作白银。为了验证这个比喻，我们的研究采用了几种指标，包括未花费的交易输出（UTXO），已花费的交易输出（STXO），加权平均寿命（WAL），CoinDaysDestroyed（CDD）和公开的链上交易数据。此外，我们还设计了以价格-效用比率（PU）为核心的交易策略，为加密资产的估值提供了一种新的视角，超越了传统的用途。我们的回测结果没有
 
-    Predicting fund performance is beneficial to both investors and fund managers, and yet is a challenging task. In this paper, we have tested whether deep learning models can predict fund performance more accurately than traditional statistical techniques. Fund performance is typically evaluated by the Sharpe ratio, which represents the risk-adjusted performance to ensure meaningful comparability across funds. We calculated the annualised Sharpe ratios based on the monthly returns time series data for more than 600 open-end mutual funds investing in listed large-cap equities in the United States. We find that long short-term memory (LSTM) and gated recurrent units (GRUs) deep learning methods, both trained with modern Bayesian optimization, provide higher accuracy in forecasting funds' Sharpe ratios than traditional statistical ones. An ensemble method, which combines forecasts from LSTM and GRUs, achieves the best performance of all models. There is evidence to say that deep learning an
+    Historically, gold and silver have played distinct roles in traditional monetary systems. While gold has primarily been revered as a superior store of value, prompting individuals to hoard it, silver has commonly been used as a medium of exchange. As the financial world evolves, the emergence of cryptocurrencies has introduced a new paradigm of value and exchange. However, the store-of-value characteristic of these digital assets remains largely uncharted. Charlie Lee, the founder of Litecoin, once likened Bitcoin to gold and Litecoin to silver. To validate this analogy, our study employs several metrics, including unspent transaction outputs (UTXO), spent transaction outputs (STXO), Weighted Average Lifespan (WAL), CoinDaysDestroyed (CDD), and public on-chain transaction data. Furthermore, we've devised trading strategies centered around the Price-to-Utility (PU) ratio, offering a fresh perspective on crypto-asset valuation beyond traditional utilities. Our back-testing results not on
+    
+[^9]: 关于APT的时变结构及其在日本股票市场的应用研究
+
+    On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices. (arXiv:2305.05998v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2305.05998](http://arxiv.org/abs/2305.05998)
+
+    本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。
+
+    
+
+    本文是第一篇研究在日本股票市场中考察APT时间不稳定性的论文。具体而言，我们采用Fama和MacBeth（1973）的两步回归和Kamstra和Shi（2023）的广义GRS测试方法，衡量每个风险因子变化对股票风险溢价的影响，以考察APT的有效性随时间的变化。我们总结我们的实证结果如下：（1）APT在整个样本期间得到支持，但并不总是有效的；（2）货币政策的变化在日本影响APT的有效性；（3）每个因子的风险溢价的时变估计也不稳定，受到商业周期和经济危机的影响。因此，我们得出结论，APT作为解释日本股票市场的适当模型的有效性随时间的变化并不稳定。
+
+    This paper is the first study to examine the time instability of the APT in the Japanese stock market. In particular, we measure how changes in each risk factor affect the stock risk premiums to investigate the validity of the APT over time, applying the rolling window method to Fama and MacBeth's (1973) two-step regression and Kamstra and Shi's (2023) generalized GRS test. We summarize our empirical results as follows: (1) the APT is supported over the entire sample period but not at all times, (2) the changes in monetary policy greatly affect the validity of the APT in Japan, and (3) the time-varying estimates of the risk premiums for each factor are also unstable over time, and they are affected by the business cycle and economic crises. Therefore, we conclude that the validity of the APT as an appropriate model to explain the Japanese sector index is not stable over time.
+    
+[^10]: 多智能体强化学习驱动的场外交易市场模拟
+
+    Towards Multi-Agent Reinforcement Learning driven Over-The-Counter Market Simulations. (arXiv:2210.07184v2 [cs.MA] UPDATED)
+
+    [http://arxiv.org/abs/2210.07184](http://arxiv.org/abs/2210.07184)
+
+    该论文研究了多智能体强化学习在场外交易市场模拟中的应用，通过适当设计奖励函数和共享策略学习，智能体能够学习到涵盖利润损失、最优执行和市场份额等多目标的新兴行为，同时也提出了一种基于强化学习的校准算法。
+
+    
+
+    我们研究了场外交易市场中流动性提供者和流动性接受者代理之间的博弈，典型示例是外汇市场。我们展示了如何通过适当设计参数化的奖励函数家族，并结合共享策略学习，构建出这个问题的高效解决方案。通过相互对战，我们基于深度强化学习的智能体能够学习到相对于利润损失、最优执行和市场份额等广泛目标的新兴行为。特别地，我们发现流动性提供者自然地学习到平衡对冲和偏斜的策略，其中偏斜是指根据其库存量将买入价格和卖出价格设置为非对称。我们还提出了一种新颖的基于强化学习的校准算法，我们发现它在对博弈均衡施加约束方面表现良好。在理论方面，我们能够展示我们的多智能体策略梯度算法在转换下的收敛速度。
+
+    We study a game between liquidity provider and liquidity taker agents interacting in an over-the-counter market, for which the typical example is foreign exchange. We show how a suitable design of parameterized families of reward functions coupled with shared policy learning constitutes an efficient solution to this problem. By playing against each other, our deep-reinforcement-learning-driven agents learn emergent behaviors relative to a wide spectrum of objectives encompassing profit-and-loss, optimal execution and market share. In particular, we find that liquidity providers naturally learn to balance hedging and skewing, where skewing refers to setting their buy and sell prices asymmetrically as a function of their inventory. We further introduce a novel RL-based calibration algorithm which we found performed well at imposing constraints on the game equilibrium. On the theoretical side, we are able to show convergence rates for our multi-agent policy gradient algorithm under a tran
+    
+[^11]: 基于粗糙波动性的统计推断：中心极限定理
+
+    Statistical inference for rough volatility: Central limit theorems. (arXiv:2210.01216v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2210.01216](http://arxiv.org/abs/2210.01216)
+
+    本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。
+
+    
+
+    近年来，存在大量经验证据表明随机波动性是粗糙的。换句话说，随机波动性的局部行为比半鞘型过程更加不规则，类似于分数布朗运动，Hurst参数$H<0.5$。本文基于高频价格观测，推导出了一致且渐进混合正态的$H$估计器。与之前的工作不同的是，我们在半参数设置下工作，不假设任何先验关系与真实波动率之间的关系。此外，我们的估计器在参数化粗糙波动模型中获得了最小最大意义下的最优收敛速度。
+
+    In recent years, there has been substantive empirical evidence that stochastic volatility is rough. In other words, the local behavior of stochastic volatility is much more irregular than semimartingales and resembles that of a fractional Brownian motion with Hurst parameter $H<0.5$. In this paper, we derive a consistent and asymptotically mixed normal estimator of $H$ based on high-frequency price observations. In contrast to previous works, we work in a semiparametric setting and do not assume any a priori relationship between volatility estimators and true volatility. Furthermore, our estimator attains a rate of convergence that is known to be optimal in a minimax sense in parametric rough volatility models.
     
 

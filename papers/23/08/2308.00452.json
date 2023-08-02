@@ -1,0 +1,12 @@
+{
+    "title": "A Majority Invariant Approach to Patch Robustness Certification for Deep Learning Models. (arXiv:2308.00452v1 [cs.LG])",
+    "abstract": "Patch robustness certification ensures no patch within a given bound on a sample can manipulate a deep learning model to predict a different label. However, existing techniques cannot certify samples that cannot meet their strict bars at the classifier or patch region levels. This paper proposes MajorCert. MajorCert firstly finds all possible label sets manipulatable by the same patch region on the same sample across the underlying classifiers, then enumerates their combinations element-wise, and finally checks whether the majority invariant of all these combinations is intact to certify samples.",
+    "link": "http://arxiv.org/abs/2308.00452",
+    "context": "Title: A Majority Invariant Approach to Patch Robustness Certification for Deep Learning Models. (arXiv:2308.00452v1 [cs.LG])\nAbstract: Patch robustness certification ensures no patch within a given bound on a sample can manipulate a deep learning model to predict a different label. However, existing techniques cannot certify samples that cannot meet their strict bars at the classifier or patch region levels. This paper proposes MajorCert. MajorCert firstly finds all possible label sets manipulatable by the same patch region on the same sample across the underlying classifiers, then enumerates their combinations element-wise, and finally checks whether the majority invariant of all these combinations is intact to certify samples.",
+    "path": "papers/23/08/2308.00452.json",
+    "total_tokens": 707,
+    "translated_title": "一个对深度学习模型的补丁稳健性认证的大多数不变方法",
+    "translated_abstract": "补丁稳健性认证确保在给定样本上，没有补丁能够通过操纵深度学习模型来预测不同的标签。然而，现有的技术不能对无法在分类器或者补丁区域水平上达到严格标准的样本进行认证。本文提出了MajorCert。MajorCert首先找到在底层分类器中由同一个补丁区域在同一个样本上可以操纵的所有可能的标签集合，然后逐个枚举它们的组合，并最终检查所有这些组合的大多数不变性是否完整以对样本进行认证。",
+    "tldr": "该论文提出了MajorCert，通过找到在底层分类器中由同一个补丁区域在同一个样本上可以操纵的所有可能标签集合，并检查它们的大多数不变性来对样本进行补丁稳健性认证。",
+    "en_tdlr": "This paper proposes MajorCert, which certifies patch robustness by finding all possible label sets manipulatable by the same patch region on the same sample across the underlying classifiers and checking their majority invariant."
+}

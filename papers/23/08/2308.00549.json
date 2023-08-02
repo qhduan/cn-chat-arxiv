@@ -1,0 +1,11 @@
+{
+    "title": "Copula for Instance-wise Feature Selection and Ranking. (arXiv:2308.00549v1 [cs.LG])",
+    "abstract": "Instance-wise feature selection and ranking methods can achieve a good selection of task-friendly features for each sample in the context of neural networks. However, existing approaches that assume feature subsets to be independent are imperfect when considering the dependency between features. To address this limitation, we propose to incorporate the Gaussian copula, a powerful mathematical technique for capturing correlations between variables, into the current feature selection framework with no additional changes needed. Experimental results on both synthetic and real datasets, in terms of performance comparison and interpretability, demonstrate that our method is capable of capturing meaningful correlations.",
+    "link": "http://arxiv.org/abs/2308.00549",
+    "context": "Title: Copula for Instance-wise Feature Selection and Ranking. (arXiv:2308.00549v1 [cs.LG])\nAbstract: Instance-wise feature selection and ranking methods can achieve a good selection of task-friendly features for each sample in the context of neural networks. However, existing approaches that assume feature subsets to be independent are imperfect when considering the dependency between features. To address this limitation, we propose to incorporate the Gaussian copula, a powerful mathematical technique for capturing correlations between variables, into the current feature selection framework with no additional changes needed. Experimental results on both synthetic and real datasets, in terms of performance comparison and interpretability, demonstrate that our method is capable of capturing meaningful correlations.",
+    "path": "papers/23/08/2308.00549.json",
+    "total_tokens": 685,
+    "translated_title": "Copula用于实例级特征选择和排序",
+    "translated_abstract": "在神经网络的背景下，实例级特征选择和排序方法可以为每个样本实现良好的特征选择。然而，现有的方法假设特征子集独立，对于考虑特征之间的依赖性存在缺陷。为了解决这个限制，我们提出将高斯copula，一种捕捉变量之间相关性的强大数学技术，无需进行额外的更改就可以将其纳入当前的特征选择框架中。通过在合成和真实数据集上的实验结果，在性能比较和可解释性方面，证明了我们的方法能够捕捉有意义的相关性。",
+    "tldr": "在实例级特征选择和排序中，我们提出了一种使用Copula的方法，能够更好地考虑特征之间的相关性，实验结果证明我们的方法能够捕捉有意义的相关性。"
+}

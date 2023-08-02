@@ -1,0 +1,12 @@
+{
+    "title": "Tackling Hallucinations in Neural Chart Summarization. (arXiv:2308.00399v1 [cs.CL])",
+    "abstract": "Hallucinations in text generation occur when the system produces text that is not grounded in the input. In this work, we tackle the problem of hallucinations in neural chart summarization. Our analysis shows that the target side of chart summarization training datasets often contains additional information, leading to hallucinations. We propose a natural language inference (NLI) based method to preprocess the training data and show through human evaluation that our method significantly reduces hallucinations. We also found that shortening long-distance dependencies in the input sequence and adding chart-related information like title and legends improves the overall performance.",
+    "link": "http://arxiv.org/abs/2308.00399",
+    "context": "Title: Tackling Hallucinations in Neural Chart Summarization. (arXiv:2308.00399v1 [cs.CL])\nAbstract: Hallucinations in text generation occur when the system produces text that is not grounded in the input. In this work, we tackle the problem of hallucinations in neural chart summarization. Our analysis shows that the target side of chart summarization training datasets often contains additional information, leading to hallucinations. We propose a natural language inference (NLI) based method to preprocess the training data and show through human evaluation that our method significantly reduces hallucinations. We also found that shortening long-distance dependencies in the input sequence and adding chart-related information like title and legends improves the overall performance.",
+    "path": "papers/23/08/2308.00399.json",
+    "total_tokens": 731,
+    "translated_title": "处理神经图表摘要中的幻觉",
+    "translated_abstract": "文本生成中的幻觉是指系统产生的文本未与输入关联。本研究解决了神经图表摘要中的幻觉问题。我们的分析表明，图表摘要训练数据集中的目标端经常包含额外的信息，导致幻觉的产生。我们提出了一种基于自然语言推理(NLI)的方法来预处理训练数据，并通过人工评估表明，我们的方法显著减少了幻觉的产生。我们还发现，缩短输入序列中的远距离依赖关系，并添加与图表相关的信息，如标题和图例，可以提高整体性能。",
+    "tldr": "本研究解决了神经图表摘要中的幻觉问题，通过自然语言推理预处理训练数据，显著减少了幻觉的产生，并通过缩短远距离依赖关系和添加与图表相关的信息来提高整体性能。",
+    "en_tdlr": "This work tackles the problem of hallucinations in neural chart summarization by preprocessing the training data with natural language inference, significantly reducing hallucinations, and improving overall performance by shortening long-distance dependencies and adding chart-related information."
+}

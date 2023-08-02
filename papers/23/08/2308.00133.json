@@ -1,0 +1,11 @@
+{
+    "title": "A Suite of Fairness Datasets for Tabular Classification. (arXiv:2308.00133v1 [cs.LG])",
+    "abstract": "There have been many papers with algorithms for improving fairness of machine-learning classifiers for tabular data. Unfortunately, most use only very few datasets for their experimental evaluation. We introduce a suite of functions for fetching 20 fairness datasets and providing associated fairness metadata. Hopefully, these will lead to more rigorous experimental evaluations in future fairness-aware machine learning research.",
+    "link": "http://arxiv.org/abs/2308.00133",
+    "context": "Title: A Suite of Fairness Datasets for Tabular Classification. (arXiv:2308.00133v1 [cs.LG])\nAbstract: There have been many papers with algorithms for improving fairness of machine-learning classifiers for tabular data. Unfortunately, most use only very few datasets for their experimental evaluation. We introduce a suite of functions for fetching 20 fairness datasets and providing associated fairness metadata. Hopefully, these will lead to more rigorous experimental evaluations in future fairness-aware machine learning research.",
+    "path": "papers/23/08/2308.00133.json",
+    "total_tokens": 589,
+    "translated_title": "一套用于表格分类公平性的公平数据集",
+    "translated_abstract": "已经有许多关于提高机器学习分类器在表格数据中公平性的算法的论文。不幸的是，大多数论文只使用了非常少的数据集进行实验评估。我们引入了一套函数，用于提取20个公正数据集并提供相关的公平元数据。希望这些数据集能够促进未来公平感知机器学习研究中更严谨的实验评估。",
+    "tldr": "这篇论文介绍了一套新的公平数据集，旨在解决表格分类中实验评估数据不足的问题，为未来公平感知机器学习研究提供更严谨的实验评估。"
+}

@@ -2,307 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The fiscal implications of stringent climate policy.](http://arxiv.org/abs/2307.16554) | 严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。 |
-| [^2] | [Causal Inference for Banking Finance and Insurance A Survey.](http://arxiv.org/abs/2307.16427) | 本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。 |
-| [^3] | [Inference for Low-rank Completion without Sample Splitting with Application to Treatment Effect Estimation.](http://arxiv.org/abs/2307.16370) | 本文研究了低秩矩阵估计的推断理论，并提出一种不需要样本分割的推进方法。经验证明，该方法在核范数惩罚下的最小二乘估计具有渐进正态性，并且可以适用于依赖性观测模式和异质观测概率。在实证研究中，将其应用于估计总统选举对美国联邦预算分配给各个州的影响。 |
-| [^4] | [Towards Practical Robustness Auditing for Linear Regression.](http://arxiv.org/abs/2307.16315) | 本论文研究了实用的算法，用于查找或证伪数据集中对普通最小二乘回归具有影响的小子集。通过实证研究发现，这些算法方法在鲁棒性检查中表现良好，并提供了对低维回归问题的有用检查。但对于高维回归问题，计算瓶颈仍然存在。通过使用新颖的谱算法，我们取得了一些进展。 |
-| [^5] | [Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context.](http://arxiv.org/abs/2307.16238) | 该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。 |
-| [^6] | [Panel Data Models with Time-Varying Latent Group Structures.](http://arxiv.org/abs/2307.15863) | 本文提出了一个具有时间变动潜在群组结构的面板数据模型，通过核范数正则估计和K均值算法，可以正确估计突变点、群组数量和群组成员资格。 |
-| [^7] | [Linear-quadratic Gaussian Games with Asymmetric Information: Belief Corrections Using the Opponents Actions.](http://arxiv.org/abs/2307.15842) | 本文研究了两个玩家之间的线性二次高斯博弈，在信息不对称的情况下，通过利用对手的动作来修正信念，提高对状态的估计，并改善整体结果。 |
-| [^8] | [Games Under Network Uncertainty.](http://arxiv.org/abs/2305.03124) | 本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。 |
-| [^9] | [High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner.](http://arxiv.org/abs/2304.13985) | 本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。 |
-| [^10] | [Covert learning and disclosure.](http://arxiv.org/abs/2304.02989) | 本研究研究了一个信息获取和传递的模型，在该模型中，发送者选择有选择性地忽视信息，而不是欺骗接收者。本文阐明了欺骗可能性如何决定发送者选择获取和传递的信息，并确定了发送者和接收者最优的伪造环境。 |
-| [^11] | [Endogenous Linear Regressions with Included Instrumental Variables.](http://arxiv.org/abs/2304.00626) | 该论文提出了两种半参数估计器和一种基于离散化的估计器，可以在不需要排除工具变量的情况下鉴别内生线性回归模型，并且这些估计方法在有限样本中表现良好。 |
-| [^12] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^13] | [Efficient Public Good Provision in a Multipolar World.](http://arxiv.org/abs/2303.10514) | 本研究建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型，展示了在固定的时间视野内，自私的玩家之间可以实现全面合作，并发现了各组内的同时高效提供是一个均衡策略。 |
-| [^14] | [Combating Algorithmic Collusion: A Mechanism Design Approach.](http://arxiv.org/abs/2303.02576) | 本文提出了一种机制设计方法来打击算法勾结，通过保护欺骗者免受价格战的影响，实现了有效降低价格，不影响产品种类或平台付款。 |
-| [^15] | [Clustered Covariate Regression.](http://arxiv.org/abs/2302.09255) | 本文提出了一种聚类协变量回归方法，该方法通过使用聚类和紧凑参数支持的自然限制来解决高维度协变量问题。与竞争估计器相比，该方法在偏差减小和尺寸控制方面表现出色，并在估计汽油需求的价格和收入弹性方面具有实用性。 |
-| [^16] | [Commitment Against Front Running Attacks.](http://arxiv.org/abs/2301.13785) | 研究者提供了一个能够区分前向交易攻击与合法竞争的博弈论分析，并提出一种提交-揭示协议解决了最严重的前向交易攻击，同时保持了合法用户之间的交易竞争，也减少了攻击者之间的竞争。 |
-| [^17] | [Synergistic Small Worlds that Drive Technological Sophistication.](http://arxiv.org/abs/2301.04579) | 本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。 |
-| [^18] | [Bayesian Forecasting in Economics and Finance: A Modern Review.](http://arxiv.org/abs/2212.03471) | 这篇论文综述了经济学和金融领域贝叶斯预测的现状和方法，以及贝叶斯计算在该领域的应用。贝叶斯预测能够明确地量化预测问题中的各种未知因素，并将其纳入预测分布中，使得贝叶斯预测可以适用于各种规模和复杂性的问题。 |
-| [^19] | [Rawlsian Assignments.](http://arxiv.org/abs/2207.02930) | 本文针对转移不允许时的不可分割物品分配问题，引入了Rawlsian Assignments的概念，并且证明了存在一种独特的Rawlsian Assignments可以在保持有效和匿名性的同时满足平等主义的要求。 |
-| [^20] | [Online Bipartite Matching via Smoothness.](http://arxiv.org/abs/2203.13140) | Eden et al. (2021)证明了在线二分匹配问题是$\mu=1$收入覆盖的，这个结果结合了一维代理和随机拍卖的值覆盖概念。 |
+| [^1] | [Increasing Supply Chain Resiliency Through Equilibrium Pricing and Stipulating Transportation Quota Regulation.](http://arxiv.org/abs/2308.00681) | 本文研究了政府在供应链中断时通过规定最低配额运输来增加供应链的弹性。研究以铁路运输市场为例，考虑了不同产品的盈利水平差异，提出了解决方案。 |
+| [^2] | [SurveyLM: A platform to explore emerging value perspectives in augmented language models' behaviors.](http://arxiv.org/abs/2308.00521) | SurveyLM是一个用于分析增强语言模型行为中新兴价值观的平台，通过调查和实验方法系统评估了ALMs的对齐和新兴行为，并利用ALMs的反馈来增强调查和实验设计。 |
+| [^3] | [Testing for Threshold Effects in Presence of Heteroskedasticity and Measurement Error with an application to Italian Strikes.](http://arxiv.org/abs/2308.00444) | 本文介绍了一种在条件异方差的情况下，使用最高拉格朗日乘子方法来测试条件均值中的阈值非线性。采用线性ARMA-GARCH模型与TARMA-GARCH模型进行比较，并推导了检验统计量的渐近零分布。实验证明，忽视异方差性会导致测试失效，即使在大样本情况下也无法达到正确的结果。此外，TARMA模型还能很好地处理测量误差问题。 |
+| [^4] | [Randomization Inference of Heterogeneous Treatment Effects under Network Interference.](http://arxiv.org/abs/2308.00202) | 本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。 |
+| [^5] | [Position Uncertainty in a Sequential Public Goods Game: An Experiment.](http://arxiv.org/abs/2308.00179) | 该研究通过经济实验测试了在顺序公共物品博弈中经济学模型的理论预测。结果显示大约25%的受试者的行为与理论预测一致，但也观察到了其他行为类型的存在。 |
+| [^6] | [What's Logs Got to do With it: On the Perils of log Dependent Variables and Difference-in-Differences.](http://arxiv.org/abs/2308.00167) | 依赖变量采用对数变换并不无害，在差异法模型中会导致差异法项的方向与水平规范条件下不同，具体取决于基线结果分布的差异。 |
+| [^7] | [Control and Spread of Contagion in Networks.](http://arxiv.org/abs/2308.00062) | 本论文研究了在网络中的疫情控制和传播，提出了新的算法，定义了新的平衡对象，并证明了它们的理论性质。研究结果揭示了起始集合之间的互补性、网络的韧性和全局效应对疫情传播的影响。通过大规模模拟实验，对1000名玩家在无标度网络中的疫情传播进行了深入分析，并提供了数量化的见解。 |
+| [^8] | [A new mapping of technological interdependence.](http://arxiv.org/abs/2308.00014) | 本文利用文本挖掘和网络分析的方法，研究了不同部门之间的技术相互依赖关系，并证明了在技术创新中，间接联系和直接联系同等重要。 |
+| [^9] | [Bitcoin Gold, Litecoin Silver:An Introduction to Cryptocurrency's Valuation and Trading Strategy.](http://arxiv.org/abs/2308.00013) | 本论文介绍了比特币和莱特币的估值与交易策略。研究使用了多个指标，并通过价格-效用比率提供了新的加密资产估值视角。 |
+| [^10] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
+| [^11] | [Robust Data Regulation.](http://arxiv.org/abs/2305.05822) | 本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。 |
+| [^12] | [Recursive Preferences and Ambiguity Attitudes.](http://arxiv.org/abs/2304.06830) | 本文研究了递归偏好和不确定性态度，并得出结论，在跨时间消费选择问题中，递归偏好总是常数绝对模糊规避，同时提出了广义长方形的函数方程。递归限制了我们只能采用递归变化偏好。 |
+| [^13] | [Revealing Choice Bracketing.](http://arxiv.org/abs/2006.14869) | 该论文通过设计实验和测试发现，在一个决策问题中，有40-43%的人采用狭义分组方式进行选择，而0-15%的人采用广义分组方式。根据预测精度调整后，74%的受试者最适合用狭义分组来描述，13%适合用广义分组来描述，6%适合用中间情况来描述。 |
+| [^14] | [Change-Point Testing for Risk Measures in Time Series.](http://arxiv.org/abs/1809.02303) | 我们提出了一种变点检验方法，可以在时间序列的尾部检测到一般多重结构变化，并避免了标准误差估计的问题。实证研究表明我们的方法可以在金融时间序列中检测和量化市场不稳定性。 |
 
 # 详细
 
-[^1]: 严格的气候政策的财政影响
+[^1]: 通过平衡定价和规定运输配额来增加供应链的弹性
 
-    The fiscal implications of stringent climate policy. (arXiv:2307.16554v1 [econ.GN])
+    Increasing Supply Chain Resiliency Through Equilibrium Pricing and Stipulating Transportation Quota Regulation. (arXiv:2308.00681v1 [math.OC])
 
-    [http://arxiv.org/abs/2307.16554](http://arxiv.org/abs/2307.16554)
+    [http://arxiv.org/abs/2308.00681](http://arxiv.org/abs/2308.00681)
 
-    严格的气候政策对财政构成巨大挑战，尤其在减少碳排放和补贴碳封存方面。如果排放目标放松，财政挑战将会缩小。
-
-    
-
-    符合2015年巴黎协议目标的严格的气候政策将带来巨大的财政挑战。到2050年将二氧化碳排放量降低95%或更多将使碳税收入占GDP的7%（1-17%），仅为当前全球税收的一半。贫困地区的税收收入相对较大。二氧化碳封存的补贴金额将占GDP的6.6%（0.3-7.1%）。这些数字是保守估计的，因为它们是使用假设实施最佳气候政策并忽略增加收入成本的模型得出的。如果放松排放目标，财政挑战将迅速缩小。
-
-    Stringent climate policy compatible with the targets of the 2015 Paris Agreement would pose a substantial fiscal challenge. Reducing carbon dioxide emissions by 95% or more by 2050 would raise 7% (1-17%) of GDP in carbon tax revenue, half of current, global tax revenue. Revenues are relatively larger in poorer regions. Subsidies for carbon dioxide sequestration would amount to 6.6% (0.3-7.1%) of GDP. These numbers are conservative as they were estimated using models that assume first-best climate policy implementation and ignore the costs of raising revenue. The fiscal challenge rapidly shrinks if emission targets are relaxed.
-    
-[^2]: 银行金融与保险领域的因果推断综述
-
-    Causal Inference for Banking Finance and Insurance A Survey. (arXiv:2307.16427v1 [cs.AI])
-
-    [http://arxiv.org/abs/2307.16427](http://arxiv.org/abs/2307.16427)
-
-    本文对银行金融与保险领域的因果推断进行了综述，涵盖了37篇1992年至2023年的论文。综述总结了因果推断的统计方法以及未来研究的重要方向。
+    本文研究了政府在供应链中断时通过规定最低配额运输来增加供应链的弹性。研究以铁路运输市场为例，考虑了不同产品的盈利水平差异，提出了解决方案。
 
     
 
-    因果推断在解释统计模型和人工智能模型所做决策方面起着重要作用。最近，这个领域开始引起研究人员和实践者的关注。本文对1992年至2023年公开发表的37篇论文进行了全面的综述，涉及了因果推断在银行、金融和保险领域的应用。根据领域的不同，论文被分为以下几类：(i) 银行，(ii) 金融及其子领域，如企业金融、金融治理（包括金融风险和金融政策）、金融经济学和行为金融，以及 (iii) 保险。此外，本文还介绍了因果推断的主要要素，包括贝叶斯因果网络、格兰杰因果关系以及相关的专业术语，如反事实。综述还提出了一些未来研究的重要方向。总之，我们观察到因果推断在银行金融和保险领域得到了广泛的应用，并希望对未来的研究起到了一定的推动作用。
+    供应链的中断可能由多种原因引起，包括自然灾害或市场动态。如果中断对经济产生深远影响，监管机构可能决定干预以最大程度减少对社会的影响。本文研究了政府在运输能力低于总产量并且不同产品的盈利水平差异显著的市场上规定的最低配额运输。在北美，铁路运输市场有一个有趣的例子，铁路容量被用于各种产品和商品，如石油和谷物。本研究假定存在一个运输公司，其容量有限，将会运输一组具有异质运输和生产成本和价格的产品。给出了市场参与者以及政府面临的数学问题，并提出了解决方案。
 
-    Causal Inference plays an significant role in explaining the decisions taken by statistical models and artificial intelligence models. Of late, this field started attracting the attention of researchers and practitioners alike. This paper presents a comprehensive survey of 37 papers published during 1992-2023 and concerning the application of causal inference to banking, finance, and insurance. The papers are categorized according to the following families of domains: (i) Banking, (ii) Finance and its subdomains such as corporate finance, governance finance including financial risk and financial policy, financial economics, and Behavioral finance, and (iii) Insurance. Further, the paper covers the primary ingredients of causal inference namely, statistical methods such as Bayesian Causal Network, Granger Causality and jargon used thereof such as counterfactuals. The review also recommends some important directions for future research. In conclusion, we observed that the application of 
+    Supply chain disruption can occur for a variety of reasons, including natural disasters or market dynamics. If the disruption is profound and with dire consequences for the economy, the regulators may decide to intervene to minimize the impact for the betterment of the society. This paper investigates the minimum quota regulation on transportation amounts, stipulated by the government in a market where transportation capacity is below total production and profitability levels differ significantly among different products. In North America, an interesting example can happen in rail transportation market, where the rail capacity is used for a variety of products and commodities such as oil and grains. This research assumes that there is a shipping company with limited capacity which will ship a group of products with heterogeneous transportation and production costs and prices. Mathematical problems for the market players as well as the government are presented, solutions are proposed, a
     
-[^3]: 不需要样本分割的低秩补全推断及其在处理效应估计中的应用
+[^2]: SurveyLM: 一种探索增强语言模型行为中新兴价值观的平台
 
-    Inference for Low-rank Completion without Sample Splitting with Application to Treatment Effect Estimation. (arXiv:2307.16370v1 [econ.EM])
+    SurveyLM: A platform to explore emerging value perspectives in augmented language models' behaviors. (arXiv:2308.00521v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.16370](http://arxiv.org/abs/2307.16370)
+    [http://arxiv.org/abs/2308.00521](http://arxiv.org/abs/2308.00521)
 
-    本文研究了低秩矩阵估计的推断理论，并提出一种不需要样本分割的推进方法。经验证明，该方法在核范数惩罚下的最小二乘估计具有渐进正态性，并且可以适用于依赖性观测模式和异质观测概率。在实证研究中，将其应用于估计总统选举对美国联邦预算分配给各个州的影响。
-
-    
-
-    本文研究了用于估计低秩矩阵的推断理论，并提出了一种平均处理效应的推断方法。我们证明了在核范数惩罚下的最小二乘估计的特征向量达到了渐近正态性。我们方法的关键创新之处在于不需要样本分割。此外，本文允许依赖性观测模式和异质观测概率。在实证方面，我们将所提出的方法应用到估计总统选举对将美国联邦预算分配给各州的影响。
-
-    This paper studies the inferential theory for estimating low-rank matrices. It also provides an inference method for the average treatment effect as an application. We show that the least square estimation of eigenvectors following the nuclear norm penalization attains the asymptotic normality. The key contribution of our method is that it does not require sample splitting. In addition, this paper allows dependent observation patterns and heterogeneous observation probabilities. Empirically, we apply the proposed procedure to estimating the impact of the presidential vote on allocating the U.S. federal budget to the states.
-    
-[^4]: 面向线性回归的实用鲁棒性审计
-
-    Towards Practical Robustness Auditing for Linear Regression. (arXiv:2307.16315v1 [stat.ME])
-
-    [http://arxiv.org/abs/2307.16315](http://arxiv.org/abs/2307.16315)
-
-    本论文研究了实用的算法，用于查找或证伪数据集中对普通最小二乘回归具有影响的小子集。通过实证研究发现，这些算法方法在鲁棒性检查中表现良好，并提供了对低维回归问题的有用检查。但对于高维回归问题，计算瓶颈仍然存在。通过使用新颖的谱算法，我们取得了一些进展。
+    SurveyLM是一个用于分析增强语言模型行为中新兴价值观的平台，通过调查和实验方法系统评估了ALMs的对齐和新兴行为，并利用ALMs的反馈来增强调查和实验设计。
 
     
 
-    我们研究了实用的算法，用于找到或证伪一个数据集中的小子集，当移除这些子集时，会改变普通最小二乘回归中的系数的符号。我们通过实证研究了用于此任务的先进算法技术的性能 - 混合整数二次约束优化用于一般线性回归问题，以及对特殊情况的确切贪婪方法。我们证明这些方法在很大程度上胜过了现有技术，并且为低维回归问题提供了有用的鲁棒性检查。然而，对于维度为3或更高的回归问题，仍然存在重要的计算瓶颈，特别是对于证伪这种小而具影响力的样本集合的存在。通过使用最近算法鲁棒统计领域创新的思想，我们在这一挑战上取得了一些进展，利用谱算法。我们总结了已知技术的局限性。
+    本白皮书介绍了我们在SurveyLM上的工作，这是一个用于分析增强语言模型(ALM)在复杂社会环境中通过动态演变的态度和价值观展现出的紧密对齐行为的平台。像ALM这样的社交人工智能系统通常在细微的社交场景中运作，没有单一的正确回答，或者答案很大程度上取决于背景因素，因此需要深入理解它们的对齐动态。为了解决这个问题，我们应用传统社会行为研究中常用的调查和实验方法系统地评估ALM，从而提供了对其对齐和新兴行为的前所未有的深入洞察。此外，SurveyLM平台利用ALM自身的反馈来增强调查和实验设计，利用了ALM未充分利用的方面，加速了高质量调查框架的开发和测试，同时节约了资源。
 
-    We investigate practical algorithms to find or disprove the existence of small subsets of a dataset which, when removed, reverse the sign of a coefficient in an ordinary least squares regression involving that dataset. We empirically study the performance of well-established algorithmic techniques for this task -- mixed integer quadratically constrained optimization for general linear regression problems and exact greedy methods for special cases. We show that these methods largely outperform the state of the art and provide a useful robustness check for regression problems in a few dimensions. However, significant computational bottlenecks remain, especially for the important task of disproving the existence of such small sets of influential samples for regression problems of dimension $3$ or greater. We make some headway on this challenge via a spectral algorithm using ideas drawn from recent innovations in algorithmic robust statistics. We summarize the limitations of known techniqu
+    This white paper presents our work on SurveyLM, a platform for analyzing augmented language models' (ALMs) emergent alignment behaviors through their dynamically evolving attitude and value perspectives in complex social contexts. Social Artificial Intelligence (AI) systems, like ALMs, often function within nuanced social scenarios where there is no singular correct response, or where an answer is heavily dependent on contextual factors, thus necessitating an in-depth understanding of their alignment dynamics. To address this, we apply survey and experimental methodologies, traditionally used in studying social behaviors, to evaluate ALMs systematically, thus providing unprecedented insights into their alignment and emergent behaviors. Moreover, the SurveyLM platform leverages the ALMs' own feedback to enhance survey and experiment designs, exploiting an underutilized aspect of ALMs, which accelerates the development and testing of high-quality survey frameworks while conserving resour
     
-[^5]: 印度背景下教育水平的不平等：城乡比较
+[^3]: 在异方差和测量误差存在的情况下，对意大利罢工进行阈值效应测试。
 
-    Inequality in Educational Attainment: Urban-Rural Comparison in the Indian Context. (arXiv:2307.16238v1 [econ.GN])
+    Testing for Threshold Effects in Presence of Heteroskedasticity and Measurement Error with an application to Italian Strikes. (arXiv:2308.00444v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.16238](http://arxiv.org/abs/2307.16238)
+    [http://arxiv.org/abs/2308.00444](http://arxiv.org/abs/2308.00444)
 
-    该研究比较了印度15个邦在1981-2011年期间城乡识字率的差异，并研究了减少城乡教育不平等的因素。研究发现，尽管识字差距在减小，但2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面仍面临较高的不平等。此外，研究还指出，农村妇女生育率的降低和农村女性21岁后婚姻的比例较高可以减少城乡地区的识字差距。
-
-    
-
-    本文试图比较印度选定的15个邦在1981-2011年期间城乡识字率，并探讨减少城乡教育取得差异的工具。研究构建了Sopher的城乡差异识字指数，分析了印度15个邦的识字差距趋势。尽管识字差距随着时间的推移有所减小，但Sopher指数显示，2011年安得拉邦、中央邦、古吉拉特邦、奥里萨邦、马哈拉施特拉邦甚至卡纳塔克邦在城乡教育方面面临较高的不平等。此外，本研究还应用了固定效应面板数据回归技术，以确定影响城乡教育不平等的因素。模型表明，以下因素可以减少印度城乡地区之间的识字差距：农村妇女生育率低，农村女性21岁后婚姻的比例较高。
-
-    The article tries to compare urban and rural literacy of fifteen selected Indian states during 1981 - 2011 and explores the instruments which can reduce the disparity in urban and rural educational attainment. The study constructs Sopher's urban-rural differential literacy index to analyze the trends of literacy disparity across fifteen states in India over time. Although literacy disparity has decreased over time, Sopher's index shows that the states of Andhra Pradesh, Madhya Pradesh, Gujarat, Odisha, Maharashtra and even Karnataka faced high inequality in education between urban and rural India in 2011. Additionally, the Fixed Effect panel data regression technique has been applied in the study to identify the factors which influence urban-rural inequality in education. The model shows that the following factors can reduce literacy disparity between urban and rural areas of India: low fertility rate in rural women, higher percentages of rural females marrying after the age of 21 year
-    
-[^6]: 具有时间变动潜在群组结构的面板数据模型
-
-    Panel Data Models with Time-Varying Latent Group Structures. (arXiv:2307.15863v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.15863](http://arxiv.org/abs/2307.15863)
-
-    本文提出了一个具有时间变动潜在群组结构的面板数据模型，通过核范数正则估计和K均值算法，可以正确估计突变点、群组数量和群组成员资格。
+    本文介绍了一种在条件异方差的情况下，使用最高拉格朗日乘子方法来测试条件均值中的阈值非线性。采用线性ARMA-GARCH模型与TARMA-GARCH模型进行比较，并推导了检验统计量的渐近零分布。实验证明，忽视异方差性会导致测试失效，即使在大样本情况下也无法达到正确的结果。此外，TARMA模型还能很好地处理测量误差问题。
 
     
 
-    本文考虑了一个包含交互固定效应和未观测到的个体和时间异质性的线性面板模型，这些异质性分别由一些潜在的群组结构和一个未知的结构性突变捕捉。为了增加现实性，模型在突变前后可能有不同数量的群组和/或不同的群组成员资格。通过初步的核范数正则估计，然后进行逐行和逐列线性回归，我们利用二分分割和潜在群组结构的想法，同时使用顺序测试的K均值算法来估计突变点以及突变前后的群组数量。实验证明，突变点、群组数量和群组成员资格都可以以接近1的概率被正确估计。建立了斜率系数估计量的渐近分布。蒙特卡洛模拟展示了该方法在有限样本下的优异性能。
+    许多宏观经济时间序列在条件均值和条件方差上都表现出非线性，实践中重要的是要分别研究这两个方面。本文针对条件异方差的情况，提出了一种在条件均值中测试阈值非线性的最高拉格朗日乘子方法。我们提出了一个线性ARMA-GARCH模型的检验，测试其与TARMA-GARCH模型的假设对立。我们推导了检验统计量的渐近零分布，由于在零假设下不存在的干扰参数，与GARCH型创新相结合的非线性移动平均使得此问题更加困难。我们发现，没有考虑异方差性的测试即使在大样本情况下也无法达到正确的大小。此外，我们还展示了TARMA模型的优势，能够自然地解决广泛存在的测量误差问题。
 
-    This paper considers a linear panel model with interactive fixed effects and unobserved individual and time heterogeneities that are captured by some latent group structures and an unknown structural break, respectively. To enhance realism the model may have different numbers of groups and/or different group memberships before and after the break. With the preliminary nuclear-norm-regularized estimation followed by row- and column-wise linear regressions, we estimate the break point based on the idea of binary segmentation and the latent group structures together with the number of groups before and after the break by sequential testing K-means algorithm simultaneously. It is shown that the break point, the number of groups and the group memberships can each be estimated correctly with probability approaching one. Asymptotic distributions of the estimators of the slope coefficients are established. Monte Carlo simulations demonstrate excellent finite sample performance for the proposed
+    Many macroeconomic time series are characterised by nonlinearity both in the conditional mean and in the conditional variance and, in practice, it is important to investigate separately these two aspects. Here we address the issue of testing for threshold nonlinearity in the conditional mean, in the presence of conditional heteroskedasticity. We propose a supremum Lagrange Multiplier approach to test a linear ARMA-GARCH model against the alternative of a TARMA-GARCH model. We derive the asymptotic null distribution of the test statistic and this requires novel results since the difficulties of working with nuisance parameters, absent under the null hypothesis, are amplified by the non-linear moving average, combined with GARCH-type innovations. We show that tests that do not account for heteroskedasticity fail to achieve the correct size even for large sample sizes. Moreover, we show that the TARMA specification naturally accounts for the ubiquitous presence of measurement error that a
     
-[^7]: 线性二次高斯博弈中的信息不对称：利用对手的动作修正信念
+[^4]: 网络干扰下异质处理效应的随机化推断
 
-    Linear-quadratic Gaussian Games with Asymmetric Information: Belief Corrections Using the Opponents Actions. (arXiv:2307.15842v1 [math.OC])
+    Randomization Inference of Heterogeneous Treatment Effects under Network Interference. (arXiv:2308.00202v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.15842](http://arxiv.org/abs/2307.15842)
+    [http://arxiv.org/abs/2308.00202](http://arxiv.org/abs/2308.00202)
 
-    本文研究了两个玩家之间的线性二次高斯博弈，在信息不对称的情况下，通过利用对手的动作来修正信念，提高对状态的估计，并改善整体结果。
-
-    
-
-    本文考虑两个玩家的非零和线性二次高斯博弈，玩家都希望在控制线性和随机状态过程并最小化二次成本函数的同时，使用线性策略。系统部分可观察，玩家之间存在信息不对称。具体而言，每个玩家对状态过程有私有且有噪声的测量，同时可以看到对手动作的历史。这种不对称性带来了挑战，引入了玩家关于状态的信念过程的相关性，并导致了关于对手信念的循环性。我们表明，通过利用对手的动作可获得的的信息，两个玩家都可以提高对状态的估计并改善整体结果。此外，我们提供了他们的信念过程的贝叶斯更新规则的闭式解。我们展示了存在一个在状态估计中线性的、带有
-
-    We consider two-player non-zero-sum linear-quadratic Gaussian games in which both players aim to minimize a quadratic cost function while controlling a linear and stochastic state process {using linear policies}. The system is partially observable with asymmetric information available to the players. In particular, each player has a private and noisy measurement of the state process but can see the history of their opponent's actions. The challenge of this asymmetry is that it introduces correlations into the players' belief processes for the state and leads to circularity in their beliefs about their opponents beliefs. We show that by leveraging the information available through their opponent's actions, both players can enhance their state estimates and improve their overall outcomes. In addition, we provide a closed-form solution for the Bayesian updating rule of their belief process. We show that there is a Nash equilibrium which is linear in the estimation of the state and with a 
-    
-[^8]: 网络不确定性下的博弈论研究
-
-    Games Under Network Uncertainty. (arXiv:2305.03124v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.03124](http://arxiv.org/abs/2305.03124)
-
-    本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。
+    本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。
 
     
 
-    本文研究了一种信息不完全的网络博弈，其中代理人的信息仅限于其直接邻居的身份。代理人对其他人的邻接模式形成信念，并进行线性二次努力博弈以最大化插值回报。我们证明了纯策略下Bayesian-Nash均衡的存在性和唯一性。在这个均衡下，代理人使用本地信息，即他们的直接连接的知识来推断他们的行动与其他代理人的互补强度，这是通过他们对网络中步长数量的更新信仰所给出的。我们的模型清晰展示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。我们还表征了不同形式的先验信仰下的均衡代理行为，例如对所有网络的均匀先验，Erdos-Reyni网络生成以及对网络的所有子图的同质和异质先验。
+    我们设计了在单位之间存在网络干扰时进行异质处理效应随机化测试的方法。我们的建模策略使用网络曝光映射的概念将网络干扰引入潜在结果框架中。我们考虑了三个零假设，代表了不同的均匀处理效应的概念，但由于干扰参数和潜在结果的多样性，这些假设并不准确。为了解决多个潜在结果的问题，我们提出了一种扩展现有方法的条件随机化推断方法。此外，我们还提出了两种克服干扰参数问题的技术。我们证明了我们的条件随机化推断方法与处理干扰参数的两种技术之一结合使用，可以产生渐近有效的p值。我们在一个网络数据集上演示了测试过程，并展示了蒙特卡洛研究的结果。
 
-    We consider an incomplete information network game in which agents' information is restricted only to the identity of their immediate neighbors. Agents form beliefs about the adjacency pattern of others and play a linear-quadratic effort game to maximize interim payoffs. We establish the existence and uniqueness of Bayesian-Nash equilibria in pure strategies. In this equilibrium agents use local information, i.e., knowledge of their direct connections to make inferences about the complementarity strength of their actions with those of other agents which is given by their updated beliefs regarding the number of walks they have in the network. Our model clearly demonstrates how asymmetric information based on network position and the identity of agents affect strategic behavior in such network games. We also characterize agent behavior in equilibria under different forms of ex-ante prior beliefs such as uniform priors over the set of all networks, Erdos-Reyni network generation, and homo
+    We design randomization tests of heterogeneous treatment effects when units interact on a network. Our modeling strategy allows network interference into the potential outcomes framework using the concept of network exposure mapping. We consider three null hypotheses that represent different notions of homogeneous treatment effects, but due to nuisance parameters and the multiplicity of potential outcomes, the hypotheses are not sharp. To address the issue of multiple potential outcomes, we propose a conditional randomization inference method that expands on existing methods. Additionally, we propose two techniques that overcome the nuisance parameter issue. We show that our conditional randomization inference method, combined with either of the proposed techniques for handling nuisance parameters, produces asymptotically valid p-values. We illustrate the testing procedures on a network data set and the results of a Monte Carlo study are also presented.
     
-[^9]: 高频预测交易及其影响：小内幕交易者对压轴者的影响
+[^5]: 在一个顺序公共物品博弈中的位置不确定性：一个实验
 
-    High-frequency Anticipatory Trading and Its Influences: Small Informed Trader vs. Front-runner. (arXiv:2304.13985v1 [q-fin.TR])
+    Position Uncertainty in a Sequential Public Goods Game: An Experiment. (arXiv:2308.00179v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.13985](http://arxiv.org/abs/2304.13985)
+    [http://arxiv.org/abs/2308.00179](http://arxiv.org/abs/2308.00179)
 
-    本文研究了大内幕交易者与能够预测其订单的高频交易者之间的互动，发现高频交易者的策略与库存厌恶、预测准确性和市场活跃度有关，而其行为对大交易者有不同的影响。
-
-    
-
-    本文研究了大内幕交易者(IT)与能够预测前者即将到来订单的高频交易者(HFT)在扩展的Kyle(1985)模型下的互动。讨论了不同情况下的均衡。依靠速度优势，HFT总是提前和大单交易同向。然而，她是否提供流动性取决于她的库存厌恶、预测准确性和市场活跃度。她可能会回馈流动性(充当压轴者)或继续带走流动性(此时我们称她为小IT)。小IT总是伤害大交易者，而压轴者可能使她受益。此外，我们惊奇地发现(1)增加HFT信号中的噪声实际上可能会降低IT的利润;(2)尽管提供流动性，压轴者可能比小内幕交易者更加伤害IT。
-
-    In this paper, the interactions between a large informed trader (IT, for short) and a high-frequency trader (HFT, for short) who can anticipate the former's incoming order are studied in an extended Kyle's (1985) model. Equilibria under various specific situations are discussed. Relying on the speed advantage, HFT always trades in the same direction as the large order in advance. However, whether or not she provides liquidity depends on her inventory aversion, the prediction accuracy, and the market activeness. She may supply liquidity back (act as a front-runner) or continue to take it away (in this case we call her a small IT). Small IT always harms the large trader while front-runner may benefit her. Besides, we find surprisingly that (1) increasing the noise in HFT's signal may in fact decrease IT's profit; (2) although providing liquidity, a front-runner may harm IT more than a small IT.
-    
-[^10]: 隐秘的学习和披露
-
-    Covert learning and disclosure. (arXiv:2304.02989v1 [econ.TH])
-
-    [http://arxiv.org/abs/2304.02989](http://arxiv.org/abs/2304.02989)
-
-    本研究研究了一个信息获取和传递的模型，在该模型中，发送者选择有选择性地忽视信息，而不是欺骗接收者。本文阐明了欺骗可能性如何决定发送者选择获取和传递的信息，并确定了发送者和接收者最优的伪造环境。
+    该研究通过经济实验测试了在顺序公共物品博弈中经济学模型的理论预测。结果显示大约25%的受试者的行为与理论预测一致，但也观察到了其他行为类型的存在。
 
     
 
-    本研究研究了一个信息获取和传递的模型，在该模型中，发送者误报其发现的能力受到限制。在均衡状态下，发送者选择有选择性地忽视信息，而不是欺骗接收者。虽然不会产生欺骗，但我强调了欺骗可能性如何决定发送者选择获取和传递的信息。然后，本文转向比较静态分析，阐明了发送者如何从其声明更可验证中受益，并表明这类似于增加其承诺能力。最后，本文确定了发送者和接收者最优的伪造环境。
+    Gallice和Monzón（2019）提出了一种能够在有限数量的自私代理之间维持全面合作的自然环境。他们证明，在一个顺序公共物品博弈中，代理人缺乏对自己在序列中位置的知识，但可以观察到一些前任的行动，由于代理人有激励让潜在的继任者效仿自己的贡献，所以全面贡献会在均衡中出现。本研究旨在通过经济实验来测试这个模型的理论预测。我们进行了三个处理，变化了受试者可以观察到的过去行动信息的数量以及他们的位置意识。通过严格的结构计量分析，我们发现大约25%的受试者的行为符合理论预测。然而，我们还观察到剩余受试者中存在替代行为类型。其中大多数被归类为有条件的合作者。
 
-    I study a model of information acquisition and transmission in which the sender's ability to misreport her findings is limited. In equilibrium, the sender only influences the receiver by choosing to remain selectively ignorant, rather than by deceiving her about the discoveries. Although deception does not occur, I highlight how deception possibilities determine what information the sender chooses to acquire and transmit. I then turn to comparative statics, characterizing in which sense the sender benefits from her claims being more verifiable, showing this is akin to increasing her commitment power. Finally, I characterize sender- and receiver-optimal falsification environments.
+    Gallice and Monz\'on (2019) present a natural environment that sustains full co-operation in one-shot social dilemmas among a finite number of self-interested agents. They demonstrate that in a sequential public goods game, where agents lack knowledge of their position in the sequence but can observe some predecessors' actions, full contribution emerges in equilibrium due to agents' incentive to induce potential successors to follow suit. In this study, we aim to test the theoretical predictions of this model through an economic experiment. We conducted three treatments, varying the amount of information about past actions that a subject can observe, as well as their positional awareness. Through rigorous structural econometric analysis, we found that approximately 25% of the subjects behaved in line with the theoretical predictions. However, we also observed the presence of alternative behavioural types among the remaining subjects. The majority were classified as conditional co-opera
     
-[^11]: 包含工具变量的内生线性回归
+[^6]: 杂志与之间的关联：关于依赖日志的变量和差异法的危险性
 
-    Endogenous Linear Regressions with Included Instrumental Variables. (arXiv:2304.00626v1 [econ.EM])
+    What's Logs Got to do With it: On the Perils of log Dependent Variables and Difference-in-Differences. (arXiv:2308.00167v1 [econ.EM])
 
-    [http://arxiv.org/abs/2304.00626](http://arxiv.org/abs/2304.00626)
+    [http://arxiv.org/abs/2308.00167](http://arxiv.org/abs/2308.00167)
 
-    该论文提出了两种半参数估计器和一种基于离散化的估计器，可以在不需要排除工具变量的情况下鉴别内生线性回归模型，并且这些估计方法在有限样本中表现良好。
-
-    
-
-    我们展示了在标准均值独立条件和给定包含外生协变量的条件下内生线性回归模型可以在不需要排除工具变量的情况下被鉴别。基于鉴别结果，我们提出了两个半参数估计器，以及一种不需要非参数回归的基于离散化的估计器。我们建立了它们的渐进正态性，提供了相应的方差估计器，并通过模拟演示了我们提出的估计和推断程序的良好有限样本表现。特别地，我们发现基于离散化的估计器在有限样本中表现非常好，同时计算非常简单和快速。
-
-    We show that endogenous linear regression models can be identified without excluded instrumental variables, based on the standard mean independence condition and a no-multicollinearity condition on the conditional expectations of endogenous covariates given the included exogenous covariates. Based on the identification results, we propose two semiparametric estimators as well as a discretization-based estimator that does not require any nonparametric regressions. We establish their asymptotic normality, provide corresponding variance estimators, and demonstrate via simulations the good finite-sample performances of our proposed estimation and inference procedures. In particular, we find that the discretization-based estimator performs remarkably well in finite samples, while being very simple and fast to compute.
-    
-[^12]: 经济主体的动态运输
-
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
-
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
+    依赖变量采用对数变换并不无害，在差异法模型中会导致差异法项的方向与水平规范条件下不同，具体取决于基线结果分布的差异。
 
     
 
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
+    在使用差异法（DD）模型时，依赖变量的对数变换并不无害。当依赖变量采用对数形式时，差异法项捕捉到了不同组别之间增长率的近似比例差异。通过模拟和两个实证例子的展示，我证明了如果基线结果分布在不同组别之间存在足够不同，对数规范条件下的差异法系数可能与水平规范条件下的系数方向相反。我提供了一个条件，基于(i)聚合时间效应和(ii)基线结果均值之间的差异，来说明何时会发生符号反转。
 
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
+    The log transformation of the dependent variable is not innocuous when using a difference-in-differences (DD) model. With a dependent variable in logs, the DD term captures an approximation of the proportional difference in growth rates across groups. As I show with both simulations and two empirical examples, if the baseline outcome distributions are sufficiently different across groups, the DD parameter for a log-specification can be different in sign to that of a levels-specification. I provide a condition, based on (i) the aggregate time effect, and (ii) the difference in relative baseline outcome means, for when the sign-switch will occur.
     
-[^13]: 在多极世界中高效提供公共物品
+[^7]: 网络中的疫情控制和传播
 
-    Efficient Public Good Provision in a Multipolar World. (arXiv:2303.10514v1 [econ.TH])
+    Control and Spread of Contagion in Networks. (arXiv:2308.00062v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.10514](http://arxiv.org/abs/2303.10514)
+    [http://arxiv.org/abs/2308.00062](http://arxiv.org/abs/2308.00062)
 
-    本研究建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型，展示了在固定的时间视野内，自私的玩家之间可以实现全面合作，并发现了各组内的同时高效提供是一个均衡策略。
-
-    
-
-    我们建立了一个具有组、位置不确定性和观察学习的公共物品博弈模型。各组内的贡献是同时进行的，而各组的游戏则是基于过去贡献不完整样本的观察依次进行的。我们展示了在固定的时间视野内，即使是自私的玩家之间也可以实现全面合作。位置不确定性意味着存在一个均衡，即玩家组有条件地合作以期影响后续组玩家的行动。条件合作意味着每个组成员都是关键的，因此各组内的同时高效提供是一个均衡策略。
-
-    We model a public goods game with groups, position uncertainty, and observational learning. Contributions are simultaneous within groups, but groups play sequentially based on their observation of an incomplete sample of past contributions. We show that full cooperation between and within groups is possible with self-interested players on a fixed horizon. Position uncertainty implies the existence of an equilibrium where groups of players conditionally cooperate in the hope of influencing further groups. Conditional cooperation implies that each group member is pivotal, so that efficient simultaneous provision within groups is an equilibrium.
-    
-[^14]: 打击算法勾结：一种机制设计方法
-
-    Combating Algorithmic Collusion: A Mechanism Design Approach. (arXiv:2303.02576v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2303.02576](http://arxiv.org/abs/2303.02576)
-
-    本文提出了一种机制设计方法来打击算法勾结，通过保护欺骗者免受价格战的影响，实现了有效降低价格，不影响产品种类或平台付款。
+    本论文研究了在网络中的疫情控制和传播，提出了新的算法，定义了新的平衡对象，并证明了它们的理论性质。研究结果揭示了起始集合之间的互补性、网络的韧性和全局效应对疫情传播的影响。通过大规模模拟实验，对1000名玩家在无标度网络中的疫情传播进行了深入分析，并提供了数量化的见解。
 
     
 
-    最近关注的焦点是平台上人工智能卖家勾结限制产量并提高价格的可能性。然而，这样的协议（卡特尔）对个别卖家以低价（欺骗）违背有增加自己利润的动机。因此，稳定这样的卡特尔需要可信的惩罚威胁，例如价格战。本文提出了一种机制，通过保护任何欺骗者免受价格战的影响来瓦解卡特尔，只有在实际发生这样的惩罚时，才保证不受任意惩罚影响的利润流。引发游戏的均衡分析预测会恢复到重复静态纳什定价。当在强化学习框架中实施时，它能够显著降低价格（降低40%或更多的利润率），不影响产品种类或要求平台在路径上进行任何付款。这种机制适用于差异化销售。
+    我们研究了在包括全局效应的二进制动作网络协调游戏中行动的传播。这一模型捕捉了在线社交网络中特定行动或叙述的传播的重要方面，为我们理解它们对社会结果的影响提供了基础。我们的模型自然地捕捉了起始集合之间的互补性、网络的韧性和全局效应，并突出了传播疫情的渠道之间的相互依赖关系。我们提出了新的、自然的、计算可行的算法来定义和计算方便普遍研究网络中传播疫情的平衡对象，并证明了它们的理论性质。我们的算法易于实施，有助于量化以前由于计算难以实现而难以获得的关系。使用这些算法，我们通过数百万次蒙特卡罗模拟研究了1000名玩家在无标度网络中的疫情传播。我们的分析提供了数量化的见解。
 
-    Attention has recently been focused on the possibility of artificially intelligent sellers on platforms colluding to limit output and raise prices. Such arrangements (cartels), however, feature an incentive for individual sellers to deviate to a lower price (cheat) to increase their own profits. Stabilizing such cartels therefore requires credible threats of punishments, such as price wars. In this paper, I propose a mechanism to destabilize cartels by protecting any cheaters from a price war by guaranteeing a stream of profits which is unaffected by arbitrary punishments, only if such punishments actually occur. Equilibrium analysis of the induced game predicts a reversion to repeated static Nash pricing. When implemented in a reinforcement learning framework, it provides substantial reductions in prices (reducing markups by 40% or more), without affecting product variety or requiring the platform to make any payments on path. This mechanism applies to both the sale of differentiated 
+    We study proliferation of an action in binary action network coordination games that are generalized to include global effects. This captures important aspects of proliferation of a particular action or narrative in online social networks, providing a basis to understand their impact on societal outcomes. Our model naturally captures complementarities among starting sets, network resilience, and global effects, and highlights interdependence in channels through which contagion spreads. We present new, natural, and computationally tractable algorithms to define and compute equilibrium objects that facilitate the general study of contagion in networks and prove their theoretical properties. Our algorithms are easy to implement and help to quantify relationships previously inaccessible due to computational intractability. Using these algorithms, we study the spread of contagion in scale-free networks with 1,000 players using millions of Monte Carlo simulations. Our analysis provides quant
     
-[^15]: 聚类协变量回归
+[^8]: 一种新的技术相互依赖的映射
 
-    Clustered Covariate Regression. (arXiv:2302.09255v2 [econ.EM] UPDATED)
+    A new mapping of technological interdependence. (arXiv:2308.00014v1 [econ.EM])
 
-    [http://arxiv.org/abs/2302.09255](http://arxiv.org/abs/2302.09255)
+    [http://arxiv.org/abs/2308.00014](http://arxiv.org/abs/2308.00014)
 
-    本文提出了一种聚类协变量回归方法，该方法通过使用聚类和紧凑参数支持的自然限制来解决高维度协变量问题。与竞争估计器相比，该方法在偏差减小和尺寸控制方面表现出色，并在估计汽油需求的价格和收入弹性方面具有实用性。
-
-    
-
-    模型估计中协变量维度的高度增加，解决这个问题的现有技术通常需要无序性或不可观测参数向量的离散异质性。然而，在某些经验背景下，经济理论可能不支持任何限制，这可能导致严重的偏差和误导性推断。本文介绍的基于聚类的分组参数估计器（GPE）放弃这两个限制，而选择参数支持是紧凑的自然限制。在标准条件下，GPE具有稳健的大样本性质，并适应了支持可以远离零点的稀疏和非稀疏参数。广泛的蒙特卡洛模拟证明了与竞争估计器相比，GPE在偏差减小和尺寸控制方面的出色性能。对于估计汽油需求的价格和收入弹性的实证应用突显了GPE的实用性。
-
-    High covariate dimensionality is increasingly occurrent in model estimation, and existing techniques to address this issue typically require sparsity or discrete heterogeneity of the unobservable parameter vector. However, neither restriction may be supported by economic theory in some empirical contexts, leading to severe bias and misleading inference. The clustering-based grouped parameter estimator (GPE) introduced in this paper drops both restrictions in favour of the natural one that the parameter support be compact. GPE exhibits robust large sample properties under standard conditions and accommodates both sparse and non-sparse parameters whose support can be bounded away from zero. Extensive Monte Carlo simulations demonstrate the excellent performance of GPE in terms of bias reduction and size control compared to competing estimators. An empirical application of GPE to estimating price and income elasticities of demand for gasoline highlights its practical utility.
-    
-[^16]: “反前向交易攻击”问题的解决方案
-
-    Commitment Against Front Running Attacks. (arXiv:2301.13785v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2301.13785](http://arxiv.org/abs/2301.13785)
-
-    研究者提供了一个能够区分前向交易攻击与合法竞争的博弈论分析，并提出一种提交-揭示协议解决了最严重的前向交易攻击，同时保持了合法用户之间的交易竞争，也减少了攻击者之间的竞争。
+    本文利用文本挖掘和网络分析的方法，研究了不同部门之间的技术相互依赖关系，并证明了在技术创新中，间接联系和直接联系同等重要。
 
     
 
-    我们提供了一个关于前向交易攻击问题的博弈论分析，并使用它来区分攻击与合法用户之间为争先区块而进行的竞争。我们还用它来引入一个直观的前向交易攻击严重性概念。随后，我们研究了一种简单的提交-揭示协议，并讨论了其特点。该协议有成本，因为它需要两条消息和引入了延迟。但是，我们表明它能够防止最严重的前向交易攻击，同时保护合法用户之间的谁能够最早获得放在区块里的交易的合法竞争。此外，它还减少了攻击者之间的竞争，这也有利于诚实的用户。
+    哪些技术联系影响了部门的创新能力？这些效应如何通过技术空间传递？本文使用新颖的文本挖掘和网络分析方法回答了这两个关键问题。我们通过分析美国专利商标局（USPTO）授予的650万项专利的文本，并应用网络分析方法，研究了半个世纪（从1976年到2021年）期间不同部门之间的技术相互依赖关系，揭示了存在于技术领域之间的全谱的联系。我们证明专利文本包含了往往无法通过传统的创新指标（例如专利引用）捕捉到的丰富信息。通过使用网络分析，我们记录了间接联系和直接联系同等重要，并且前者大部分使用传统的间接联系度量方法（如Leontief逆矩阵）往往会被隐藏。最后，基于冲击响应分析，我们进行了说明。
 
-    We provide a game-theoretic analysis of the problem of front-running attacks. We use it to distinguish attacks from legitimate competition among honest users for having their transactions included earlier in the block. We also use it to introduce an intuitive notion of the severity of front-running attacks. We then study a simple commit-reveal protocol and discuss its properties. This protocol has costs because it requires two messages and imposes a delay. However, we show that it prevents the most severe front-running attacks while preserving legitimate competition between users, guaranteeing that the earliest transaction in a block belongs to the honest user who values it the most. Furthermore, it reduces competition among attackers, which also benefits honest users.
+    Which technological linkages affect the sector's ability to innovate? How do these effects transmit through the technology space? This paper answers these two key questions using novel methods of text mining and network analysis. We examine technological interdependence across sectors over a period of half a century (from 1976 to 2021) by analyzing the text of 6.5 million patents granted by the United States Patent and Trademark Office (USPTO), and applying network analysis to uncover the full spectrum of linkages existing across technology areas. We demonstrate that patent text contains a wealth of information often not captured by traditional innovation metrics, such as patent citations. By using network analysis, we document that indirect linkages are as important as direct connections and that the former would remain mostly hidden using more traditional measures of indirect linkages, such as the Leontief inverse matrix. Finally, based on an impulse-response analysis, we illustrate 
     
-[^17]: 驱动技术复杂性的协同小世界
+[^9]: Bitcoin Gold, Litecoin Silver:加密货币估值与交易策略的介绍
 
-    Synergistic Small Worlds that Drive Technological Sophistication. (arXiv:2301.04579v2 [econ.GN] UPDATED)
+    Bitcoin Gold, Litecoin Silver:An Introduction to Cryptocurrency's Valuation and Trading Strategy. (arXiv:2308.00013v1 [cs.CE])
 
-    [http://arxiv.org/abs/2301.04579](http://arxiv.org/abs/2301.04579)
+    [http://arxiv.org/abs/2308.00013](http://arxiv.org/abs/2308.00013)
 
-    本文利用部分信息分解方法量化了生产过程中的相互作用性质，发现更复杂的行业展示出高度模块化的小世界拓扑结构，并且拥有良好建立的连接核心和专业模块的国家和行业展现出更高的经济复杂性和产出效率。
-
-    
-
-    高度发达的经济体在各种产品的创造方面展现出很高的复杂性。然而，在研究行业或整个经济体等大系统时，生产过程中发生的相互作用的性质和基本结构仍然不透明。本文利用部分信息分解方法，量化了这些相互作用的性质，从而推断出创新有多少来自于特定的输入相互作用以及它们的结构。这些估计结果揭示了支撑技术复杂性的微妙相互作用的全新图景。通过分析协同作用网络，我们发现更复杂的行业往往展现出高度模块化的小世界拓扑结构，其中第三产业是其中心连接核心。拥有良好建立的连接核心和专业模块的国家和行业展示出更高的经济复杂性和产出效率。类似的模块化网络
-
-    Advanced economies exhibit a high degree of sophistication in the creation of various products. While critical to such sophistication, the nature and underlying structure of the interactions taking place inside production processes remain opaque when studying large systems such as industries or entire economies. Using partial information decomposition, we quantify the nature of these interactions, allowing us to infer how much innovation stems form specific input interactions and how they are structured. These estimates yield a novel picture of the nuanced interactions underpinning technological sophistication. By analyzing networks of synergistic interactions, we find that more sophisticated industries tend to exhibit highly modular small-world topologies; with the tertiary sector as its central connective core. Countries and industries that have a well-established connective core and specialized modules exhibit higher economic complexity and output efficiency. Similar modular network
-    
-[^18]: 经济学和金融中的贝叶斯预测：现代综述
-
-    Bayesian Forecasting in Economics and Finance: A Modern Review. (arXiv:2212.03471v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2212.03471](http://arxiv.org/abs/2212.03471)
-
-    这篇论文综述了经济学和金融领域贝叶斯预测的现状和方法，以及贝叶斯计算在该领域的应用。贝叶斯预测能够明确地量化预测问题中的各种未知因素，并将其纳入预测分布中，使得贝叶斯预测可以适用于各种规模和复杂性的问题。
+    本论文介绍了比特币和莱特币的估值与交易策略。研究使用了多个指标，并通过价格-效用比率提供了新的加密资产估值视角。
 
     
 
-    贝叶斯统计方法为概率预测提供了一种有原则和一致性的方法。对于任何预测问题中的所有未知因素，包括模型、参数和潜在状态，都可以明确地进行量化，并通过积分或平均化过程将其纳入预测分布中。与方法的优雅性相结合，贝叶斯预测现在以贝叶斯计算领域的蓬勃发展为支撑，使得几乎可以为任何大小或复杂性的问题生成贝叶斯预测。本综述旨在提供经济学和金融领域贝叶斯预测的现状。其目的是为读者提供现代方法的概述，并为实施提供足够的计算细节。
+    从历史上看，黄金和白银在传统货币系统中起着不同的作用。黄金被视为优秀的价值存储工具，导致人们囤积黄金，而白银通常被用作交换媒介。随着金融世界的发展，加密货币的出现引入了一种新的价值和交换范式。然而，这些数字资产作为价值存储工具的特性仍然很少被研究。莱特币的创始人Charlie Lee曾将比特币比作黄金，莱特币比作白银。为了验证这个比喻，我们的研究采用了几种指标，包括未花费的交易输出（UTXO），已花费的交易输出（STXO），加权平均寿命（WAL），CoinDaysDestroyed（CDD）和公开的链上交易数据。此外，我们还设计了以价格-效用比率（PU）为核心的交易策略，为加密资产的估值提供了一种新的视角，超越了传统的用途。我们的回测结果没有
 
-    The Bayesian statistical paradigm provides a principled and coherent approach to probabilistic forecasting. Uncertainty about all unknowns that characterize any forecasting problem -- model, parameters, latent states -- is able to be quantified explicitly, and factored into the forecast distribution via the process of integration or averaging. Allied with the elegance of the method, Bayesian forecasting is now underpinned by the burgeoning field of Bayesian computation, which enables Bayesian forecasts to be produced for virtually any problem, no matter how large, or complex. The current state of play in Bayesian forecasting in economics and finance is the subject of this review. The aim is to provide the reader with an overview of modern approaches to the field, set in some historical context; and with sufficient computational detail given to assist the reader with implementation.
+    Historically, gold and silver have played distinct roles in traditional monetary systems. While gold has primarily been revered as a superior store of value, prompting individuals to hoard it, silver has commonly been used as a medium of exchange. As the financial world evolves, the emergence of cryptocurrencies has introduced a new paradigm of value and exchange. However, the store-of-value characteristic of these digital assets remains largely uncharted. Charlie Lee, the founder of Litecoin, once likened Bitcoin to gold and Litecoin to silver. To validate this analogy, our study employs several metrics, including unspent transaction outputs (UTXO), spent transaction outputs (STXO), Weighted Average Lifespan (WAL), CoinDaysDestroyed (CDD), and public on-chain transaction data. Furthermore, we've devised trading strategies centered around the Price-to-Utility (PU) ratio, offering a fresh perspective on crypto-asset valuation beyond traditional utilities. Our back-testing results not on
     
-[^19]: Rawlsian Assignments（论文编号：arXiv:2207.02930v2 [econ.TH]，已更新）
+[^10]: 关于APT的时变结构及其在日本股票市场的应用研究
 
-    Rawlsian Assignments. (arXiv:2207.02930v2 [econ.TH] UPDATED)
+    On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices. (arXiv:2305.05998v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2207.02930](http://arxiv.org/abs/2207.02930)
+    [http://arxiv.org/abs/2305.05998](http://arxiv.org/abs/2305.05998)
 
-    本文针对转移不允许时的不可分割物品分配问题，引入了Rawlsian Assignments的概念，并且证明了存在一种独特的Rawlsian Assignments可以在保持有效和匿名性的同时满足平等主义的要求。
-
-    
-
-    本文研究了当转移不允许时如何分配不可分割的物品给个人。以前的文献主要关注效率（从前后两个角度）以及个体公平分配。因此，平等主义的问题常常被忽视。本文受住房合作社中公寓的分配所启发，家庭希望分配的平等性成为第一要求。特别是，他们想避免分配时有的家庭得到了自己最喜欢的公寓，而其他家庭则拥有极低的选择权。基于Rawls的公平理念，我们引入了Rawlsian Assignments的概念。我们证明，总是存在一种独特的Rawlsian Assignments，它是有效的并满足匿名性。我们用来自住房合作社的偏好数据来说明我们的分析。我们的结果表明，从平等主义的角度来看，Rawlsian Assignments可以显著改善概率效果。
-
-    We study the assignment of indivisible objects to individuals when transfers are not allowed. Previous literature has mainly focused on efficiency (from ex-ante and ex-post perspectives), and individually fair assignments. Consequently, egalitarian concerns have been overlooked. We are inspired by the assignment of apartments in housing cooperatives where families regard the egalitarianism of the assignments as a first-order requirement. In particular, they want to avoid assignments where some families get their most preferred apartment, while others get options ranked very low in their preferences. Based on Rawls' idea of fairness, we introduce the notion of Rawlsian assignments. We prove that there always exists a unique Rawlsian assignment, which is efficient, and satisfies anonymity. We illustrate our analysis with preference data from housing cooperatives. Our results show that the Rawlsian assignment substantially improves, from an egalitarian perspective, both the probabilistic 
-    
-[^20]: 基于平滑性的在线二分匹配
-
-    Online Bipartite Matching via Smoothness. (arXiv:2203.13140v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2203.13140](http://arxiv.org/abs/2203.13140)
-
-    Eden et al. (2021)证明了在线二分匹配问题是$\mu=1$收入覆盖的，这个结果结合了一维代理和随机拍卖的值覆盖概念。
+    本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。
 
     
 
-    在线二分匹配问题涉及到离线买家希望与在线商品匹配。Eden等人（2021）对在线二分匹配进行了平滑性证明（Syrgkanis和Tardos，2013）。此外，它可以被解释为将$\lambda = 1-1/e$值覆盖（适用于一维代理和随机拍卖）和$\mu = 1$收入覆盖（Hartline等人，2014）结合在一起。注意，值覆盖是关于一维代理的事实，与底层可行性设置无关。因此，Eden等人（2021）的重要新结果是在线二分匹配是$\mu = 1$收入覆盖的。从这个角度出发，得出了许多旧的和新的观察结果。
+    本文是第一篇研究在日本股票市场中考察APT时间不稳定性的论文。具体而言，我们采用Fama和MacBeth（1973）的两步回归和Kamstra和Shi（2023）的广义GRS测试方法，衡量每个风险因子变化对股票风险溢价的影响，以考察APT的有效性随时间的变化。我们总结我们的实证结果如下：（1）APT在整个样本期间得到支持，但并不总是有效的；（2）货币政策的变化在日本影响APT的有效性；（3）每个因子的风险溢价的时变估计也不稳定，受到商业周期和经济危机的影响。因此，我们得出结论，APT作为解释日本股票市场的适当模型的有效性随时间的变化并不稳定。
 
-    The online bipartite matching problem has offline buyers desiring to be matched to online items. The analysis of online bipartite matching of Eden et al. (2021) is a smoothness proof (Syrgkanis and Tardos, 2013). Moreover, it can be interpreted as combining a $\lambda = 1-1/e$ value covering (which holds for single-dimensional agents and randomized auctions) and $\mu = 1$ revenue covering (Hartline et al., 2014). Note that value covering is a fact about single-dimensional agents and has nothing to do with the underlying feasibility setting. Thus, the essential new result from Eden et al. (2021) is that online bipartite matching is $\mu=1$ revenue covered. A number of old and new observations follow from this perspective.
+    This paper is the first study to examine the time instability of the APT in the Japanese stock market. In particular, we measure how changes in each risk factor affect the stock risk premiums to investigate the validity of the APT over time, applying the rolling window method to Fama and MacBeth's (1973) two-step regression and Kamstra and Shi's (2023) generalized GRS test. We summarize our empirical results as follows: (1) the APT is supported over the entire sample period but not at all times, (2) the changes in monetary policy greatly affect the validity of the APT in Japan, and (3) the time-varying estimates of the risk premiums for each factor are also unstable over time, and they are affected by the business cycle and economic crises. Therefore, we conclude that the validity of the APT as an appropriate model to explain the Japanese sector index is not stable over time.
+    
+[^11]: 强健的数据监管
+
+    Robust Data Regulation. (arXiv:2305.05822v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.05822](http://arxiv.org/abs/2305.05822)
+
+    本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。
+
+    
+
+    本文研究了关于监管公司访问消费者数据以用于价格歧视的问题，特别是当监管机构对数据和支付意愿之间的相关结构存在非贝叶斯不确定性时。因此，垄断者如何细分市场还不清楚。本文描述了可以最大化最劣消费者剩余价值的所有政策：如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。
+
+    I study how to regulate firms' access to consumer data when it is used for price discrimination and the regulator possesses non-Bayesian uncertainty about the correlation structure between data and willingness to pay. Therefore, it is unclear how the monopolist will segment the market. I characterize all policies that maximize worst-case consumer surplus: the regulator allows the monopolist to access data, if the database does not reveal a minority group of consumers.
+    
+[^12]: 递归偏好与模糊态度
+
+    Recursive Preferences and Ambiguity Attitudes. (arXiv:2304.06830v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.06830](http://arxiv.org/abs/2304.06830)
+
+    本文研究了递归偏好和不确定性态度，并得出结论，在跨时间消费选择问题中，递归偏好总是常数绝对模糊规避，同时提出了广义长方形的函数方程。递归限制了我们只能采用递归变化偏好。
+
+    
+
+    本文研究了动态环境中递归的强影响，以及对不确定性态度的影响。在跨时间消费选择问题中，递归偏好总是意味着常数绝对模糊规避，同时也提出了一种称为“广义长方形”的函数方程，它将递归最小最大偏好的标准概念推广到一般的确定性等价物。研究表明，如果模糊规避被建模为偏好的凸性形式，则递归限制我们只能采用递归变化偏好。
+
+    We illustrate the strong implications of recursivity, a standard assumption in dynamic environments, on attitudes toward uncertainty. In intertemporal consumption choice problems, recursivity always implies constant absolute ambiguity aversion (CAAA) when applying the standard dynamic extension of monotonicity. Our analysis also yields a functional equation called "generalized rectangularity", as it generalizes the standard notion of rectangularity for recursive maxmin preferences to general certainty equivalents. Our results highlight that if uncertainty aversion is modeled as a form of convexity of preferences, recursivity limits us to only recursive variational preferences.
+    
+[^13]: 揭示选择分组
+
+    Revealing Choice Bracketing. (arXiv:2006.14869v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2006.14869](http://arxiv.org/abs/2006.14869)
+
+    该论文通过设计实验和测试发现，在一个决策问题中，有40-43%的人采用狭义分组方式进行选择，而0-15%的人采用广义分组方式。根据预测精度调整后，74%的受试者最适合用狭义分组来描述，13%适合用广义分组来描述，6%适合用中间情况来描述。
+
+    
+
+    在一个由多个选择组成的决策问题中，一个人可能没有考虑到他们选择之间的相互依赖关系。为了了解人们在这种问题中做出决策的方式，我们设计了一项新颖的实验证明和揭示偏好测试，来确定每个受试者如何对他们的选择进行分组。在独立的风险下的投资组合分配、社会分配和引导价值函数购物实验中，我们发现我们的受试者中有40-43%与狭义分组一致，0-15%与广义分组一致。根据每个模型的预测精度进行调整，74%的受试者最好用狭义分组来描述，13%用广义分组来描述，6%用中间情况来描述。
+
+    In a decision problem comprised of multiple choices, a person may fail to take into account the interdependencies between their choices. To understand how people make decisions in such problems, we design a novel experiment and revealed preference tests that determine how each subject brackets their choices. In separate portfolio allocation under risk, social allocation, and induced-value function shopping experiments, we find that 40-43% of our subjects are consistent with narrow bracketing while 0-15% are consistent with broad bracketing. Adjusting for each model's predictive precision, 74% of subjects are best described by narrow bracketing, 13% by broad bracketing, and 6% by intermediate cases.
+    
+[^14]: 时间序列中风险测度的变点检验
+
+    Change-Point Testing for Risk Measures in Time Series. (arXiv:1809.02303v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1809.02303](http://arxiv.org/abs/1809.02303)
+
+    我们提出了一种变点检验方法，可以在时间序列的尾部检测到一般多重结构变化，并避免了标准误差估计的问题。实证研究表明我们的方法可以在金融时间序列中检测和量化市场不稳定性。
+
+    
+
+    我们提出了一种新的方法，用于对弱相关时间序列中预期损失和相关风险测度的非参数估计进行变点检验。在一般假设下，我们可以检测到时间序列边缘分布尾部的一般多重结构变化。自归一化使我们能够避免标准误差估计的问题。我们的方法的理论基础是在弱假设下发展起来的函数中心极限定理。对S&P 500和美国国债回报的实证研究说明了我们的方法在通过金融时间序列的尾部检测和量化市场不稳定性方面的实际应用。
+
+    We propose novel methods for change-point testing for nonparametric estimators of expected shortfall and related risk measures in weakly dependent time series. We can detect general multiple structural changes in the tails of marginal distributions of time series under general assumptions. Self-normalization allows us to avoid the issues of standard error estimation. The theoretical foundations for our methods are functional central limit theorems, which we develop under weak assumptions. An empirical study of S&P 500 and US Treasury bond returns illustrates the practical use of our methods in detecting and quantifying market instability via the tails of financial time series.
     
 

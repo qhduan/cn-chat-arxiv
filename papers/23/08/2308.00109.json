@@ -1,0 +1,12 @@
+{
+    "title": "A Sentence is Worth a Thousand Pictures: Can Large Language Models Understand Human Language?. (arXiv:2308.00109v1 [cs.CL])",
+    "abstract": "Artificial Intelligence applications show great potential for language-related tasks that rely on next-word prediction. The current generation of large language models have been linked to claims about human-like linguistic performance and their applications are hailed both as a key step towards Artificial General Intelligence and as major advance in understanding the cognitive, and even neural basis of human language. We analyze the contribution of large language models as theoretically informative representations of a target system vs. atheoretical powerful mechanistic tools, and we identify the key abilities that are still missing from the current state of development and exploitation of these models.",
+    "link": "http://arxiv.org/abs/2308.00109",
+    "context": "Title: A Sentence is Worth a Thousand Pictures: Can Large Language Models Understand Human Language?. (arXiv:2308.00109v1 [cs.CL])\nAbstract: Artificial Intelligence applications show great potential for language-related tasks that rely on next-word prediction. The current generation of large language models have been linked to claims about human-like linguistic performance and their applications are hailed both as a key step towards Artificial General Intelligence and as major advance in understanding the cognitive, and even neural basis of human language. We analyze the contribution of large language models as theoretically informative representations of a target system vs. atheoretical powerful mechanistic tools, and we identify the key abilities that are still missing from the current state of development and exploitation of these models.",
+    "path": "papers/23/08/2308.00109.json",
+    "total_tokens": 693,
+    "translated_title": "一句话胜千张图片：大型语言模型能理解人类语言吗？",
+    "translated_abstract": "人工智能应用在依赖于下一个单词预测的语言相关任务中表现出巨大潜力。当前一代大型语言模型被认为能够达到类人语言表现，并且它们的应用被誉为人工通用智能的关键步骤，同时也是对人类语言认知和神经基础的重大进展的理解。我们分析了大型语言模型作为目标系统的理论信息丰富表示与非理论强大机械工具的贡献，并确定了当前发展和利用这些模型所缺失的关键能力。",
+    "tldr": "本文分析了大型语言模型作为理论信息丰富表示和非理论强大机械工具的贡献，并指出当前的模型发展和利用中仍然缺乏关键能力。",
+    "en_tdlr": "This paper analyzes the contribution of large language models as theoretically informative representations and atheoretical powerful mechanistic tools, and identifies the key abilities that are still missing in the current development and utilization of these models."
+}

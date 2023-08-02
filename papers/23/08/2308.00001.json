@@ -1,0 +1,11 @@
+{
+    "title": "De Re and De Dicto Knowledge in Egocentric Setting. (arXiv:2308.00001v1 [cs.AI])",
+    "abstract": "Prior proposes the term \"egocentric\" for logical systems that study properties of agents rather than properties of possible worlds. In such a setting, the paper introduces two different modalities capturing de re and de dicto knowledge and proves that these two modalities are not definable through each other.",
+    "link": "http://arxiv.org/abs/2308.00001",
+    "context": "Title: De Re and De Dicto Knowledge in Egocentric Setting. (arXiv:2308.00001v1 [cs.AI])\nAbstract: Prior proposes the term \"egocentric\" for logical systems that study properties of agents rather than properties of possible worlds. In such a setting, the paper introduces two different modalities capturing de re and de dicto knowledge and proves that these two modalities are not definable through each other.",
+    "path": "papers/23/08/2308.00001.json",
+    "total_tokens": 545,
+    "translated_title": "在自我中心的环境中的\"De Re\"和\"De Dicto\"知识",
+    "translated_abstract": "先前的研究提出了 \"自我中心\" 这一术语，用于研究代理器的属性而不是可能世界的属性的逻辑系统。在这样的环境中，本文介绍了两种捕捉\"De Re\"和\"De Dicto\"知识的不同模态，并证明了这两种模态不能通过彼此定义。",
+    "tldr": "本文在自我中心的环境中引入了两个不同模态来捕捉\"De Re\"和\"De Dicto\"知识，并证明了这两个模态不能互相定义。"
+}

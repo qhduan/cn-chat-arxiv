@@ -1,0 +1,11 @@
+{
+    "title": "Universal Majorization-Minimization Algorithms. (arXiv:2308.00190v1 [math.OC])",
+    "abstract": "Majorization-minimization (MM) is a family of optimization methods that iteratively reduce a loss by minimizing a locally-tight upper bound, called a majorizer. Traditionally, majorizers were derived by hand, and MM was only applicable to a small number of well-studied problems. We present optimizers that instead derive majorizers automatically, using a recent generalization of Taylor mode automatic differentiation. These universal MM optimizers can be applied to arbitrary problems and converge from any starting point, with no hyperparameter tuning.",
+    "link": "http://arxiv.org/abs/2308.00190",
+    "context": "Title: Universal Majorization-Minimization Algorithms. (arXiv:2308.00190v1 [math.OC])\nAbstract: Majorization-minimization (MM) is a family of optimization methods that iteratively reduce a loss by minimizing a locally-tight upper bound, called a majorizer. Traditionally, majorizers were derived by hand, and MM was only applicable to a small number of well-studied problems. We present optimizers that instead derive majorizers automatically, using a recent generalization of Taylor mode automatic differentiation. These universal MM optimizers can be applied to arbitrary problems and converge from any starting point, with no hyperparameter tuning.",
+    "path": "papers/23/08/2308.00190.json",
+    "total_tokens": 591,
+    "translated_title": "通用主导-极小化算法",
+    "translated_abstract": "主导-极小化（MM）是一类优化方法，通过最小化一个局部紧上界，即主导器，来迭代地降低损失。传统上，主导器是手动推导的，因此MM只适用于少数经过深入研究的问题。我们提出一种优化器，通过使用最近的泰勒模式自动微分的广义化方法来自动推导主导器。这些通用的MM优化器可以应用于任意问题，并且从任何起始点收敛，无需调整超参数。",
+    "tldr": "这项研究提出了一种通用的主导-极小化算法，它通过自动推导主导器来解决任意问题，并且可以从任何起始点收敛，无需调整超参数。"
+}

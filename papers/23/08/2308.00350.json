@@ -1,0 +1,11 @@
+{
+    "title": "Learning Green's Function Efficiently Using Low-Rank Approximations. (arXiv:2308.00350v1 [cs.LG])",
+    "abstract": "Learning the Green's function using deep learning models enables to solve different classes of partial differential equations. A practical limitation of using deep learning for the Green's function is the repeated computationally expensive Monte-Carlo integral approximations. We propose to learn the Green's function by low-rank decomposition, which results in a novel architecture to remove redundant computations by separate learning with domain data for evaluation and Monte-Carlo samples for integral approximation. Using experiments we show that the proposed method improves computational time compared to MOD-Net while achieving comparable accuracy compared to both PINNs and MOD-Net.",
+    "link": "http://arxiv.org/abs/2308.00350",
+    "context": "Title: Learning Green's Function Efficiently Using Low-Rank Approximations. (arXiv:2308.00350v1 [cs.LG])\nAbstract: Learning the Green's function using deep learning models enables to solve different classes of partial differential equations. A practical limitation of using deep learning for the Green's function is the repeated computationally expensive Monte-Carlo integral approximations. We propose to learn the Green's function by low-rank decomposition, which results in a novel architecture to remove redundant computations by separate learning with domain data for evaluation and Monte-Carlo samples for integral approximation. Using experiments we show that the proposed method improves computational time compared to MOD-Net while achieving comparable accuracy compared to both PINNs and MOD-Net.",
+    "path": "papers/23/08/2308.00350.json",
+    "total_tokens": 637,
+    "translated_title": "使用低秩近似有效地学习Green函数",
+    "translated_abstract": "使用深度学习模型学习Green函数可以解决不同类型的偏微分方程。使用深度学习学习Green函数的一个实际限制是重复的计算密集的蒙特卡洛积分逼近。我们提出一种通过低秩分解学习Green函数的方法，该方法通过使用领域数据进行评估和蒙特卡洛样本进行积分逼近，从而消除了冗余计算。通过实验证明，与MOD-Net相比，所提出的方法提高了计算时间，同时在准确性上与PINNs和MOD-Net相当。",
+    "tldr": "该论文提出了一种使用低秩分解学习Green函数的方法，通过使用领域数据和蒙特卡洛样本进行分别学习和积分逼近，从而提高了计算效率并保持了准确性。"
+}
