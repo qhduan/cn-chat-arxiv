@@ -23,14 +23,15 @@
 | [^19] | [On the Generalized Likelihood Ratio Test and One-Class Classifiers.](http://arxiv.org/abs/2210.12494) | 本文考虑了一类分类器和广义似然比检验的问题，证明了多层感知器神经网络和支持向量机模型在收敛时会表现为广义似然比检验。同时，作者还展示了一类最小二乘SVM在收敛时也能达到广义似然比检验的效果。 |
 | [^20] | [Learning Graphical Factor Models with Riemannian Optimization.](http://arxiv.org/abs/2210.11950) | 本文提出了一种灵活的算法框架，用于在协方差矩阵上具有低秩结构约束的图学习。通过使用Riemannian优化，利用正定矩阵和固定秩正半定矩阵的几何特性，解决了这类问题。 |
 | [^21] | [Causal Discovery and Knowledge Injection for Contestable Neural Networks.](http://arxiv.org/abs/2205.09787) | 本研究提出了一种可以进行双向互动的方法，通过允许神经网络展示其所学因果图，并允许人类修改因果图后重新注入机器中，从而提供了一种调试神经网络的方式，实验结果显示该方法可以显著改善预测性能。 |
-| [^22] | [A Framework and Benchmark for Deep Batch Active Learning for Regression.](http://arxiv.org/abs/2203.09410) | 本研究提出了一个深度批量主动学习回归的框架和基准测试，其中包括许多现有的贝叶斯和非贝叶斯方法。提出了一种替换常用最后一层特征的新方法，并结合一种新颖的聚类方法。在15个大型表格回归数据集上进行测试，该方法在基准测试中表现优异，适用于大型数据集且易于使用。 |
-| [^23] | [AgraSSt: Approximate Graph Stein Statistics for Interpretable Assessment of Implicit Graph Generators.](http://arxiv.org/abs/2203.03673) | AgraSSt是一种用于评估隐式图生成器质量的统计方法，通过构建基于核的差异度量，它能够确定学习到的图生成过程是否能生成类似给定输入图的图形，并提供有关图生成器训练过程的可解释性问题和可靠样本批次的信息。 |
-| [^24] | [Transfer-Learning Across Datasets with Different Input Dimensions: An Algorithm and Analysis for the Linear Regression Case.](http://arxiv.org/abs/2202.05069) | 本文提出了一种适用于线性回归情况的迁移学习算法，该算法能够将新数据与历史数据相结合，特别在新数据稀缺的情况下具有益处，并且在实验验证中表现出对负迁移学习的鲁棒性。 |
-| [^25] | [Spectral learning of multivariate extremes.](http://arxiv.org/abs/2111.07799) | 我们提出了一种用于分析多元极值的谱聚类算法，并通过理论和数值实验展示了其在学习角度测度方面的性能。 |
-| [^26] | [Integrated Conditional Estimation-Optimization.](http://arxiv.org/abs/2110.12351) | 该论文提出了一种综合条件估计-优化（ICEO）框架，可以在考虑优化问题结构的同时估计随机参数的条件分布，并提供了一些性能保证。 |
-| [^27] | [On the Universality of the Double Descent Peak in Ridgeless Regression.](http://arxiv.org/abs/2010.01851) | 我们证明了在无岭线性回归中存在一个双下降峰，无论输入分布的特征映射是确定性的还是随机的，都会导致期望均方泛化误差增加。并且我们的结果适用于广泛的输入分布类。 |
-| [^28] | [An Integrated Multi-Time-Scale Modeling for Solar Irradiance Forecasting Using Deep Learning.](http://arxiv.org/abs/1905.02616) | 本研究提出了一种使用深度学习方法进行太阳辐照度预测的统一架构，能够在不同时间尺度上进行预测，并提出了一个框架来将这种方法扩展到每小时预测范围。 |
-| [^29] | [Considerations When Learning Additive Explanations for Black-Box Models.](http://arxiv.org/abs/1801.08640) | 本文研究了非增加型模型的全局增加性解释方法，发现不同的解释方法以不同的方式刻画了黑盒模型预测函数中的非增加性成分。尽管精简的解释一般是最准确的增加性解释，但显式建模非增加性成分的树形解释往往更准确。机器学习从业者能够更好地利用增加性解释来完成各种任务。 |
+| [^22] | [Seeded graph matching for the correlated Wigner model via the projected power method.](http://arxiv.org/abs/2204.04099) | 本文研究了在相关维格纳模型下的有种子图匹配问题，通过分析表明，使用投影功率方法（PPM）作为图匹配算法可以在给定接近真实匹配的种子的情况下高概率地改进种子并恢复真实匹配。 |
+| [^23] | [A Framework and Benchmark for Deep Batch Active Learning for Regression.](http://arxiv.org/abs/2203.09410) | 本研究提出了一个深度批量主动学习回归的框架和基准测试，其中包括许多现有的贝叶斯和非贝叶斯方法。提出了一种替换常用最后一层特征的新方法，并结合一种新颖的聚类方法。在15个大型表格回归数据集上进行测试，该方法在基准测试中表现优异，适用于大型数据集且易于使用。 |
+| [^24] | [AgraSSt: Approximate Graph Stein Statistics for Interpretable Assessment of Implicit Graph Generators.](http://arxiv.org/abs/2203.03673) | AgraSSt是一种用于评估隐式图生成器质量的统计方法，通过构建基于核的差异度量，它能够确定学习到的图生成过程是否能生成类似给定输入图的图形，并提供有关图生成器训练过程的可解释性问题和可靠样本批次的信息。 |
+| [^25] | [Transfer-Learning Across Datasets with Different Input Dimensions: An Algorithm and Analysis for the Linear Regression Case.](http://arxiv.org/abs/2202.05069) | 本文提出了一种适用于线性回归情况的迁移学习算法，该算法能够将新数据与历史数据相结合，特别在新数据稀缺的情况下具有益处，并且在实验验证中表现出对负迁移学习的鲁棒性。 |
+| [^26] | [Spectral learning of multivariate extremes.](http://arxiv.org/abs/2111.07799) | 我们提出了一种用于分析多元极值的谱聚类算法，并通过理论和数值实验展示了其在学习角度测度方面的性能。 |
+| [^27] | [Integrated Conditional Estimation-Optimization.](http://arxiv.org/abs/2110.12351) | 该论文提出了一种综合条件估计-优化（ICEO）框架，可以在考虑优化问题结构的同时估计随机参数的条件分布，并提供了一些性能保证。 |
+| [^28] | [On the Universality of the Double Descent Peak in Ridgeless Regression.](http://arxiv.org/abs/2010.01851) | 我们证明了在无岭线性回归中存在一个双下降峰，无论输入分布的特征映射是确定性的还是随机的，都会导致期望均方泛化误差增加。并且我们的结果适用于广泛的输入分布类。 |
+| [^29] | [An Integrated Multi-Time-Scale Modeling for Solar Irradiance Forecasting Using Deep Learning.](http://arxiv.org/abs/1905.02616) | 本研究提出了一种使用深度学习方法进行太阳辐照度预测的统一架构，能够在不同时间尺度上进行预测，并提出了一个框架来将这种方法扩展到每小时预测范围。 |
+| [^30] | [Considerations When Learning Additive Explanations for Black-Box Models.](http://arxiv.org/abs/1801.08640) | 本文研究了非增加型模型的全局增加性解释方法，发现不同的解释方法以不同的方式刻画了黑盒模型预测函数中的非增加性成分。尽管精简的解释一般是最准确的增加性解释，但显式建模非增加性成分的树形解释往往更准确。机器学习从业者能够更好地利用增加性解释来完成各种任务。 |
 
 # 详细
 
@@ -328,7 +329,21 @@
 
     Neural networks have proven to be effective at solving machine learning tasks but it is unclear whether they learn any relevant causal relationships, while their black-box nature makes it difficult for modellers to understand and debug them. We propose a novel method overcoming these issues by allowing a two-way interaction whereby neural-network-empowered machines can expose the underpinning learnt causal graphs and humans can contest the machines by modifying the causal graphs before re-injecting them into the machines. The learnt models are guaranteed to conform to the graphs and adhere to expert knowledge, some of which can also be given up-front. By building a window into the model behaviour and enabling knowledge injection, our method allows practitioners to debug networks based on the causal structure discovered from the data and underpinning the predictions. Experiments with real and synthetic tabular data show that our method improves predictive performance up to 2.4x while pr
     
-[^22]: 深度批量主动学习回归的框架和基准
+[^22]: 通过投影功率方法进行相关维格纳模型的有种子图匹配
+
+    Seeded graph matching for the correlated Wigner model via the projected power method. (arXiv:2204.04099v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2204.04099](http://arxiv.org/abs/2204.04099)
+
+    本文研究了在相关维格纳模型下的有种子图匹配问题，通过分析表明，使用投影功率方法（PPM）作为图匹配算法可以在给定接近真实匹配的种子的情况下高概率地改进种子并恢复真实匹配。
+
+    
+
+    在图匹配问题中，我们观察两个图G和H，并通过最大化边协议的一些度量来找到它们顶点之间的赋值（或匹配）。我们假设观察到的图对G和H是从相关维格纳模型中抽取的，这是一个用于相关加权图的流行模型，其中G和H的邻接矩阵的元素是独立的高斯分布，并且G的每条边与H的其中一条边（由未知的匹配确定）相关联，边相关性由参数σ∈[0,1)描述。在本文中，我们分析了作为“有种子”的图匹配算法的“投影功率方法”（PPM）的性能，其中我们提供一个部分正确的初始匹配（称为种子）作为附加信息。我们证明，如果种子足够接近真实匹配，则PPM在高概率下会迭代改进种子并恢复真实匹配（或恢复最大化边协议）。
+
+    In the \emph{graph matching} problem we observe two graphs $G,H$ and the goal is to find an assignment (or matching) between their vertices such that some measure of edge agreement is maximized. We assume in this work that the observed pair $G,H$ has been drawn from the correlated Wigner model -- a popular model for correlated weighted graphs -- where the entries of the adjacency matrices of $G$ and $H$ are independent Gaussians and each edge of $G$ is correlated with one edge of $H$ (determined by the unknown matching) with the edge correlation described by a parameter $\sigma\in [0,1)$. In this paper, we analyse the performance of the \emph{projected power method} (PPM) as a \emph{seeded} graph matching algorithm where we are given an initial partially correct matching (called the seed) as side information. We prove that if the seed is close enough to the ground-truth matching, then with high probability, PPM iteratively improves the seed and recovers the ground-truth matching (eithe
+    
+[^23]: 深度批量主动学习回归的框架和基准
 
     A Framework and Benchmark for Deep Batch Active Learning for Regression. (arXiv:2203.09410v3 [stat.ML] UPDATED)
 
@@ -342,7 +357,7 @@
 
     The acquisition of labels for supervised learning can be expensive. In order to improve the sample-efficiency of neural network regression, we study active learning methods that adaptively select batches of unlabeled data for labeling. We present a framework for constructing such methods out of (network-dependent) base kernels, kernel transformations and selection methods. Our framework encompasses many existing Bayesian methods based on Gaussian Process approximations of neural networks as well as non-Bayesian methods. Additionally, we propose to replace the commonly used last-layer features with sketched finite-width Neural Tangent Kernels, and to combine them with a novel clustering method. To evaluate different methods, we introduce an open-source benchmark consisting of 15 large tabular regression data sets. Our proposed method outperforms the state-of-the-art on our benchmark, scales to large data sets, and works out-of-the-box without adjusting the network architecture or traini
     
-[^23]: AgraSSt: 适用于解释性评估隐式图生成器的近似图斯坦统计方法
+[^24]: AgraSSt: 适用于解释性评估隐式图生成器的近似图斯坦统计方法
 
     AgraSSt: Approximate Graph Stein Statistics for Interpretable Assessment of Implicit Graph Generators. (arXiv:2203.03673v4 [stat.ML] UPDATED)
 
@@ -356,7 +371,7 @@
 
     We propose and analyse a novel statistical procedure, coined AgraSSt, to assess the quality of graph generators that may not be available in explicit form. In particular, AgraSSt can be used to determine whether a learnt graph generating process is capable of generating graphs that resemble a given input graph. Inspired by Stein operators for random graphs, the key idea of AgraSSt is the construction of a kernel discrepancy based on an operator obtained from the graph generator. AgraSSt can provide interpretable criticisms for a graph generator training procedure and help identify reliable sample batches for downstream tasks. Using Stein`s method we give theoretical guarantees for a broad class of random graph models. We provide empirical results on both synthetic input graphs with known graph generation procedures, and real-world input graphs that the state-of-the-art (deep) generative models for graphs are trained on.
     
-[^24]: 不同输入维度数据集之间的迁移学习：线性回归情况下的算法和分析
+[^25]: 不同输入维度数据集之间的迁移学习：线性回归情况下的算法和分析
 
     Transfer-Learning Across Datasets with Different Input Dimensions: An Algorithm and Analysis for the Linear Regression Case. (arXiv:2202.05069v2 [stat.ML] UPDATED)
 
@@ -370,7 +385,7 @@
 
     With the development of new sensors and monitoring devices, more sources of data become available to be used as inputs for machine learning models. These can on the one hand help to improve the accuracy of a model. On the other hand however, combining these new inputs with historical data remains a challenge that has not yet been studied in enough detail. In this work, we propose a transfer-learning algorithm that combines the new and the historical data, that is especially beneficial when the new data is scarce. We focus the approach on the linear regression case, which allows us to conduct a rigorous theoretical study on the benefits of the approach. We show that our approach is robust against negative transfer-learning, and we confirm this result empirically with real and simulated data.
     
-[^25]: 多元极值的谱学习
+[^26]: 多元极值的谱学习
 
     Spectral learning of multivariate extremes. (arXiv:2111.07799v2 [stat.ML] UPDATED)
 
@@ -384,7 +399,7 @@
 
     We propose a spectral clustering algorithm for analyzing the dependence structure of multivariate extremes. More specifically, we focus on the asymptotic dependence of multivariate extremes characterized by the angular or spectral measure in extreme value theory. Our work studies the theoretical performance of spectral clustering based on a random $k$-nearest neighbor graph constructed from an extremal sample, i.e., the angular part of random vectors for which the radius exceeds a large threshold. In particular, we derive the asymptotic distribution of extremes arising from a linear factor model and prove that, under certain conditions, spectral clustering can consistently identify the clusters of extremes arising in this model. Leveraging this result we propose a simple consistent estimation strategy for learning the angular measure. Our theoretical findings are complemented with numerical experiments illustrating the finite sample performance of our methods.
     
-[^26]: 综合条件估计-优化
+[^27]: 综合条件估计-优化
 
     Integrated Conditional Estimation-Optimization. (arXiv:2110.12351v3 [stat.ML] UPDATED)
 
@@ -398,7 +413,7 @@
 
     Many real-world optimization problems involve uncertain parameters with probability distributions that can be estimated using contextual feature information. In contrast to the standard approach of first estimating the distribution of uncertain parameters and then optimizing the objective based on the estimation, we propose an integrated conditional estimation-optimization (ICEO) framework that estimates the underlying conditional distribution of the random parameter while considering the structure of the optimization problem. We directly model the relationship between the conditional distribution of the random parameter and the contextual features, and then estimate the probabilistic model with an objective that aligns with the downstream optimization problem. We show that our ICEO approach is asymptotically consistent under moderate regularity conditions and further provide finite performance guarantees in the form of generalization bounds. Computationally, performing estimation with
     
-[^27]: 无岭回归中双下降峰的普遍性研究
+[^28]: 无岭回归中双下降峰的普遍性研究
 
     On the Universality of the Double Descent Peak in Ridgeless Regression. (arXiv:2010.01851v8 [stat.ML] UPDATED)
 
@@ -412,7 +427,7 @@
 
     We prove a non-asymptotic distribution-independent lower bound for the expected mean squared generalization error caused by label noise in ridgeless linear regression. Our lower bound generalizes a similar known result to the overparameterized (interpolating) regime. In contrast to most previous works, our analysis applies to a broad class of input distributions with almost surely full-rank feature matrices, which allows us to cover various types of deterministic or random feature maps. Our lower bound is asymptotically sharp and implies that in the presence of label noise, ridgeless linear regression does not perform well around the interpolation threshold for any of these feature maps. We analyze the imposed assumptions in detail and provide a theory for analytic (random) feature maps. Using this theory, we can show that our assumptions are satisfied for input distributions with a (Lebesgue) density and feature maps given by random deep neural networks with analytic activation functi
     
-[^28]: 使用深度学习的集成多时间尺度建模进行太阳辐照度预测
+[^29]: 使用深度学习的集成多时间尺度建模进行太阳辐照度预测
 
     An Integrated Multi-Time-Scale Modeling for Solar Irradiance Forecasting Using Deep Learning. (arXiv:1905.02616v3 [cs.LG] UPDATED)
 
@@ -426,7 +441,7 @@
 
     For short-term solar irradiance forecasting, the traditional point forecasting methods are rendered less useful due to the non-stationary characteristic of solar power. The amount of operating reserves required to maintain reliable operation of the electric grid rises due to the variability of solar energy. The higher the uncertainty in the generation, the greater the operating-reserve requirements, which translates to an increased cost of operation. In this research work, we propose a unified architecture for multi-time-scale predictions for intra-day solar irradiance forecasting using recurrent neural networks (RNN) and long-short-term memory networks (LSTMs). This paper also lays out a framework for extending this modeling approach to intra-hour forecasting horizons thus, making it a multi-time-horizon forecasting approach, capable of predicting intra-hour as well as intra-day solar irradiance. We develop an end-to-end pipeline to effectuate the proposed architecture. The performanc
     
-[^29]: 在学习黑盒模型的增加性解释时需要考虑的问题
+[^30]: 在学习黑盒模型的增加性解释时需要考虑的问题
 
     Considerations When Learning Additive Explanations for Black-Box Models. (arXiv:1801.08640v4 [stat.ML] UPDATED)
 

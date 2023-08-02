@@ -155,10 +155,11 @@
 | [^151] | [Integrated Conditional Estimation-Optimization.](http://arxiv.org/abs/2110.12351) | 该论文提出了一种综合条件估计-优化（ICEO）框架，可以在考虑优化问题结构的同时估计随机参数的条件分布，并提供了一些性能保证。 |
 | [^152] | [The Complexity of Learning Approval-Based Multiwinner Voting Rules.](http://arxiv.org/abs/2110.00254) | 本研究关注基于批准的多赢者投票规则的学习问题，我们发现尽管存在指数级的可能结果，但通过多项式数量的样本可以高置信度和准确性地学习目标规则。 |
 | [^153] | [Dynamic Collective Intelligence Learning: Finding Efficient Sparse Model via Refined Gradients for Pruned Weights.](http://arxiv.org/abs/2109.04660) | 本文介绍了动态集体智能学习（DCIL）方法，利用精炼的梯度更新剪枝权重，通过形成双向转发路径来寻找高效稀疏模型。这种方法利用了剪枝和未剪枝权重的集体智能之间的学习协同作用。 |
-| [^154] | [Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth.](http://arxiv.org/abs/2103.03404) | 这项研究提出了一种新的方法来理解自注意力网络，通过将其输出分解为较小的项，证明自注意力对“标记均衡性”的强归纳偏见，而跳跃连接和多层感知机可以阻止输出的退化。 |
-| [^155] | [On the Universality of the Double Descent Peak in Ridgeless Regression.](http://arxiv.org/abs/2010.01851) | 我们证明了在无岭线性回归中存在一个双下降峰，无论输入分布的特征映射是确定性的还是随机的，都会导致期望均方泛化误差增加。并且我们的结果适用于广泛的输入分布类。 |
-| [^156] | [An Integrated Multi-Time-Scale Modeling for Solar Irradiance Forecasting Using Deep Learning.](http://arxiv.org/abs/1905.02616) | 本研究提出了一种使用深度学习方法进行太阳辐照度预测的统一架构，能够在不同时间尺度上进行预测，并提出了一个框架来将这种方法扩展到每小时预测范围。 |
-| [^157] | [Considerations When Learning Additive Explanations for Black-Box Models.](http://arxiv.org/abs/1801.08640) | 本文研究了非增加型模型的全局增加性解释方法，发现不同的解释方法以不同的方式刻画了黑盒模型预测函数中的非增加性成分。尽管精简的解释一般是最准确的增加性解释，但显式建模非增加性成分的树形解释往往更准确。机器学习从业者能够更好地利用增加性解释来完成各种任务。 |
+| [^154] | [On Multi-objective Policy Optimization as a Tool for Reinforcement Learning: Case Studies in Offline RL and Finetuning.](http://arxiv.org/abs/2106.08199) | 本文介绍了多目标政策优化作为强化学习工具的案例研究，并提出了一种改进的多目标 RL 算法 DiME。 |
+| [^155] | [Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth.](http://arxiv.org/abs/2103.03404) | 这项研究提出了一种新的方法来理解自注意力网络，通过将其输出分解为较小的项，证明自注意力对“标记均衡性”的强归纳偏见，而跳跃连接和多层感知机可以阻止输出的退化。 |
+| [^156] | [On the Universality of the Double Descent Peak in Ridgeless Regression.](http://arxiv.org/abs/2010.01851) | 我们证明了在无岭线性回归中存在一个双下降峰，无论输入分布的特征映射是确定性的还是随机的，都会导致期望均方泛化误差增加。并且我们的结果适用于广泛的输入分布类。 |
+| [^157] | [An Integrated Multi-Time-Scale Modeling for Solar Irradiance Forecasting Using Deep Learning.](http://arxiv.org/abs/1905.02616) | 本研究提出了一种使用深度学习方法进行太阳辐照度预测的统一架构，能够在不同时间尺度上进行预测，并提出了一个框架来将这种方法扩展到每小时预测范围。 |
+| [^158] | [Considerations When Learning Additive Explanations for Black-Box Models.](http://arxiv.org/abs/1801.08640) | 本文研究了非增加型模型的全局增加性解释方法，发现不同的解释方法以不同的方式刻画了黑盒模型预测函数中的非增加性成分。尽管精简的解释一般是最准确的增加性解释，但显式建模非增加性成分的树形解释往往更准确。机器学习从业者能够更好地利用增加性解释来完成各种任务。 |
 
 # 详细
 
@@ -2304,7 +2305,21 @@
 
     With the growth of deep neural networks (DNN), the number of DNN parameters has drastically increased. This makes DNN models hard to be deployed on resource-limited embedded systems. To alleviate this problem, dynamic pruning methods have emerged, which try to find diverse sparsity patterns during training by utilizing Straight-Through-Estimator (STE) to approximate gradients of pruned weights. STE can help the pruned weights revive in the process of finding dynamic sparsity patterns. However, using these coarse gradients causes training instability and performance degradation owing to the unreliable gradient signal of the STE approximation. In this work, to tackle this issue, we introduce refined gradients to update the pruned weights by forming dual forwarding paths from two sets (pruned and unpruned) of weights. We propose a novel Dynamic Collective Intelligence Learning (DCIL) which makes use of the learning synergy between the collective intelligence of both weight sets. We verify
     
-[^154]: 注意力不是答案：纯注意力在深度方面以双指数方式降低等级
+[^154]: 多目标政策优化作为强化学习工具的研究：离线 RL 和微调案例研究
+
+    On Multi-objective Policy Optimization as a Tool for Reinforcement Learning: Case Studies in Offline RL and Finetuning. (arXiv:2106.08199v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2106.08199](http://arxiv.org/abs/2106.08199)
+
+    本文介绍了多目标政策优化作为强化学习工具的案例研究，并提出了一种改进的多目标 RL 算法 DiME。
+
+    
+
+    许多改进深度强化学习（RL）算法鲁棒性和效率的方法可以理解为在策略优化步骤中引入额外的目标或约束。这包括探索奖励、熵正则化以及朝向教师或数据先验的正则化等各种想法。通常，任务奖励和辅助目标存在冲突，我们认为这使得将这些情况视为多目标（MO）优化问题是自然的。我们展示了这个观点如何帮助我们开发出更新颖、更有效的 RL 算法。具体而言，我们重点关注离线 RL 和微调作为案例研究，并展示了现有方法可以被理解为依赖于线性标量化的 MO 算法。我们假设用更好的算法替代线性标量化可以提高性能。我们引入了专家混合蒸馏（DiME）算法，它是一种改进的多目标 RL 算法。
+
+    Many advances that have improved the robustness and efficiency of deep reinforcement learning (RL) algorithms can, in one way or another, be understood as introducing additional objectives or constraints in the policy optimization step. This includes ideas as far ranging as exploration bonuses, entropy regularization, and regularization toward teachers or data priors. Often, the task reward and auxiliary objectives are in conflict, and in this paper we argue that this makes it natural to treat these cases as instances of multi-objective (MO) optimization problems. We demonstrate how this perspective allows us to develop novel and more effective RL algorithms. In particular, we focus on offline RL and finetuning as case studies, and show that existing approaches can be understood as MO algorithms relying on linear scalarization. We hypothesize that replacing linear scalarization with a better algorithm can improve performance. We introduce Distillation of a Mixture of Experts (DiME), a 
+    
+[^155]: 注意力不是答案：纯注意力在深度方面以双指数方式降低等级
 
     Attention is Not All You Need: Pure Attention Loses Rank Doubly Exponentially with Depth. (arXiv:2103.03404v2 [cs.LG] UPDATED)
 
@@ -2318,7 +2333,7 @@
 
     Attention-based architectures have become ubiquitous in machine learning, yet our understanding of the reasons for their effectiveness remains limited. This work proposes a new way to understand self-attention networks: we show that their output can be decomposed into a sum of smaller terms, each involving the operation of a sequence of attention heads across layers. Using this decomposition, we prove that self-attention possesses a strong inductive bias towards "token uniformity". Specifically, without skip connections or multi-layer perceptrons (MLPs), the output converges doubly exponentially to a rank-1 matrix. On the other hand, skip connections and MLPs stop the output from degeneration. Our experiments verify the identified convergence phenomena on different variants of standard transformer architectures.
     
-[^155]: 无岭回归中双下降峰的普遍性研究
+[^156]: 无岭回归中双下降峰的普遍性研究
 
     On the Universality of the Double Descent Peak in Ridgeless Regression. (arXiv:2010.01851v8 [stat.ML] UPDATED)
 
@@ -2332,7 +2347,7 @@
 
     We prove a non-asymptotic distribution-independent lower bound for the expected mean squared generalization error caused by label noise in ridgeless linear regression. Our lower bound generalizes a similar known result to the overparameterized (interpolating) regime. In contrast to most previous works, our analysis applies to a broad class of input distributions with almost surely full-rank feature matrices, which allows us to cover various types of deterministic or random feature maps. Our lower bound is asymptotically sharp and implies that in the presence of label noise, ridgeless linear regression does not perform well around the interpolation threshold for any of these feature maps. We analyze the imposed assumptions in detail and provide a theory for analytic (random) feature maps. Using this theory, we can show that our assumptions are satisfied for input distributions with a (Lebesgue) density and feature maps given by random deep neural networks with analytic activation functi
     
-[^156]: 使用深度学习的集成多时间尺度建模进行太阳辐照度预测
+[^157]: 使用深度学习的集成多时间尺度建模进行太阳辐照度预测
 
     An Integrated Multi-Time-Scale Modeling for Solar Irradiance Forecasting Using Deep Learning. (arXiv:1905.02616v3 [cs.LG] UPDATED)
 
@@ -2346,7 +2361,7 @@
 
     For short-term solar irradiance forecasting, the traditional point forecasting methods are rendered less useful due to the non-stationary characteristic of solar power. The amount of operating reserves required to maintain reliable operation of the electric grid rises due to the variability of solar energy. The higher the uncertainty in the generation, the greater the operating-reserve requirements, which translates to an increased cost of operation. In this research work, we propose a unified architecture for multi-time-scale predictions for intra-day solar irradiance forecasting using recurrent neural networks (RNN) and long-short-term memory networks (LSTMs). This paper also lays out a framework for extending this modeling approach to intra-hour forecasting horizons thus, making it a multi-time-horizon forecasting approach, capable of predicting intra-hour as well as intra-day solar irradiance. We develop an end-to-end pipeline to effectuate the proposed architecture. The performanc
     
-[^157]: 在学习黑盒模型的增加性解释时需要考虑的问题
+[^158]: 在学习黑盒模型的增加性解释时需要考虑的问题
 
     Considerations When Learning Additive Explanations for Black-Box Models. (arXiv:1801.08640v4 [stat.ML] UPDATED)
 
