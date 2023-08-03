@@ -1,0 +1,12 @@
+{
+    "title": "A quantum double-or-nothing game: The Kelly Criterion for Spins. (arXiv:2308.01305v1 [quant-ph])",
+    "abstract": "A sequence of spin-1/2 particles polarised in one of two possible directions is presented to an experimenter, who can wager in a double-or-nothing game on the outcomes of measurements in freely chosen polarisation directions. Wealth is accrued through astute betting. As information is gained from the stream of particles, the measurement directions are progressively adjusted, and the portfolio growth rate is raised. The optimal quantum strategy is determined numerically and shown to differ from the classical strategy, which is associated with the Kelly criterion. The paper contributes to the development of quantum finance, as aspects of portfolio optimisation are extended to the quantum realm.",
+    "link": "http://arxiv.org/abs/2308.01305",
+    "context": "Title: A quantum double-or-nothing game: The Kelly Criterion for Spins. (arXiv:2308.01305v1 [quant-ph])\nAbstract: A sequence of spin-1/2 particles polarised in one of two possible directions is presented to an experimenter, who can wager in a double-or-nothing game on the outcomes of measurements in freely chosen polarisation directions. Wealth is accrued through astute betting. As information is gained from the stream of particles, the measurement directions are progressively adjusted, and the portfolio growth rate is raised. The optimal quantum strategy is determined numerically and shown to differ from the classical strategy, which is associated with the Kelly criterion. The paper contributes to the development of quantum finance, as aspects of portfolio optimisation are extended to the quantum realm.",
+    "path": "papers/23/08/2308.01305.json",
+    "total_tokens": 709,
+    "translated_title": "一个量子双倍或无的游戏：旋转的Kelly准则",
+    "translated_abstract": "将一系列极化在两个可能方向的自旋-1/2粒子呈现给实验者，他可以在自由选择的极化方向的测量结果上进行双倍或无的下注游戏。通过精明的投注积累财富。随着从粒子流中获得信息，逐渐调整测量方向，并提高组合增长率。利用数值方法确定了最优的量子策略，并证明与通常与Kelly准则相关的经典策略不同。本文为量子金融的发展做出了贡献，将组合优化的方面拓展到量子领域。",
+    "tldr": "本研究介绍了一个量子双倍或无的游戏，探讨了粒子流中的信息如何影响投注策略，在量子领域中发展了组合优化的方面。",
+    "en_tdlr": "This paper presents a quantum double-or-nothing game and explores how information from a stream of particles affects betting strategies, contributing to the development of portfolio optimization in the quantum realm."
+}

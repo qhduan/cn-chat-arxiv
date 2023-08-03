@@ -1,0 +1,12 @@
+{
+    "title": "Domain-adapted Learning and Interpretability: DRL for Gas Trading. (arXiv:2301.08359v2 [q-fin.TR] UPDATED)",
+    "abstract": "Deep Reinforcement Learning (Deep RL) has been explored for a number of applications in finance and stock trading. In this paper, we present a practical implementation of Deep RL for trading natural gas futures contracts. The Sharpe Ratio obtained exceeds benchmarks given by trend following and mean reversion strategies as well as results reported in literature. Moreover, we propose a simple but effective ensemble learning scheme for trading, which significantly improves performance through enhanced model stability and robustness as well as lower turnover and hence lower transaction cost. We discuss the resulting Deep RL strategy in terms of model explainability, trading frequency and risk measures.",
+    "link": "http://arxiv.org/abs/2301.08359",
+    "context": "Title: Domain-adapted Learning and Interpretability: DRL for Gas Trading. (arXiv:2301.08359v2 [q-fin.TR] UPDATED)\nAbstract: Deep Reinforcement Learning (Deep RL) has been explored for a number of applications in finance and stock trading. In this paper, we present a practical implementation of Deep RL for trading natural gas futures contracts. The Sharpe Ratio obtained exceeds benchmarks given by trend following and mean reversion strategies as well as results reported in literature. Moreover, we propose a simple but effective ensemble learning scheme for trading, which significantly improves performance through enhanced model stability and robustness as well as lower turnover and hence lower transaction cost. We discuss the resulting Deep RL strategy in terms of model explainability, trading frequency and risk measures.",
+    "path": "papers/23/01/2301.08359.json",
+    "total_tokens": 773,
+    "translated_title": "领域自适应学习与可解释性：天然气交易的深度强化学习",
+    "translated_abstract": "深度强化学习（Deep RL）已经在金融和股票交易等很多应用中得到了探索。本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用。所得到的夏普比率超过了趋势跟踪和均值回归策略提供的基准及文献中的结果。此外，我们提出了一个简单而有效的集成学习方案，通过提高模型的稳定性和鲁棒性以及降低换手率和交易成本来显著提高性能。我们讨论了 resulting Deep RL 策略的模型可解释性、交易频率和风险度量。",
+    "tldr": "本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用，提高了交易性能并降低了交易成本。同时，通过提出的集成学习方案，提高了模型稳定性和鲁棒性。",
+    "en_tdlr": "This paper presents a practical application of Deep Reinforcement Learning (Deep RL) in trading natural gas futures contracts, improving trading performance and reducing transaction costs. Meanwhile, through the proposed ensemble learning scheme, model stability and robustness are enhanced."
+}

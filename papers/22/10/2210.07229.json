@@ -1,0 +1,12 @@
+{
+    "title": "Mass-Editing Memory in a Transformer. (arXiv:2210.07229v2 [cs.CL] UPDATED)",
+    "abstract": "Recent work has shown exciting promise in updating large language models with new memories, so as to replace obsolete information or add specialized knowledge. However, this line of work is predominantly limited to updating single associations. We develop MEMIT, a method for directly updating a language model with many memories, demonstrating experimentally that it can scale up to thousands of associations for GPT-J (6B) and GPT-NeoX (20B), exceeding prior work by orders of magnitude. Our code and data are at https://memit.baulab.info.",
+    "link": "http://arxiv.org/abs/2210.07229",
+    "context": "Title: Mass-Editing Memory in a Transformer. (arXiv:2210.07229v2 [cs.CL] UPDATED)\nAbstract: Recent work has shown exciting promise in updating large language models with new memories, so as to replace obsolete information or add specialized knowledge. However, this line of work is predominantly limited to updating single associations. We develop MEMIT, a method for directly updating a language model with many memories, demonstrating experimentally that it can scale up to thousands of associations for GPT-J (6B) and GPT-NeoX (20B), exceeding prior work by orders of magnitude. Our code and data are at https://memit.baulab.info.",
+    "path": "papers/22/10/2210.07229.json",
+    "total_tokens": 636,
+    "translated_title": "在Transformer中进行大规模编辑内存",
+    "translated_abstract": "最近的研究展示了在更新大型语言模型时使用新的记忆的激动人心的前景，以替换过时的信息或添加专业知识。然而，这一领域的工作主要仅限于更新单个关联。我们开发了MEMIT，一种直接更新语言模型的方法，实验证明它可以扩展到数千个关联，对于GPT-J(6B)和GPT-NeoX(20B)，超过了之前的工作数个数量级。我们的代码和数据可以在https://memit.baulab.info找到。",
+    "tldr": "该论文提出了一种在Transformer中进行大规模编辑内存的方法，可以有效地更新语言模型的记忆，实验证明其在关联数量上具有数量级的优势。",
+    "en_tdlr": "This paper presents a method for mass-editing memory in a Transformer, which can effectively update the memory of language models. Experimental results show that it has orders of magnitude advantage in terms of the number of associations."
+}

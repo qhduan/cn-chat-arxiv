@@ -1,0 +1,11 @@
+{
+    "title": "Chat Translation Error Detection for Assisting Cross-lingual Communications. (arXiv:2308.01044v1 [cs.CL])",
+    "abstract": "In this paper, we describe the development of a communication support system that detects erroneous translations to facilitate crosslingual communications due to the limitations of current machine chat translation methods. We trained an error detector as the baseline of the system and constructed a new Japanese-English bilingual chat corpus, BPersona-chat, which comprises multiturn colloquial chats augmented with crowdsourced quality ratings. The error detector can serve as an encouraging foundation for more advanced erroneous translation detection systems.",
+    "link": "http://arxiv.org/abs/2308.01044",
+    "context": "Title: Chat Translation Error Detection for Assisting Cross-lingual Communications. (arXiv:2308.01044v1 [cs.CL])\nAbstract: In this paper, we describe the development of a communication support system that detects erroneous translations to facilitate crosslingual communications due to the limitations of current machine chat translation methods. We trained an error detector as the baseline of the system and constructed a new Japanese-English bilingual chat corpus, BPersona-chat, which comprises multiturn colloquial chats augmented with crowdsourced quality ratings. The error detector can serve as an encouraging foundation for more advanced erroneous translation detection systems.",
+    "path": "papers/23/08/2308.01044.json",
+    "total_tokens": 682,
+    "translated_title": "辅助跨语言交流的聊天翻译错误检测",
+    "translated_abstract": "本文描述了一个通信支持系统的开发，该系统可以检测错误的翻译，以促进跨语言交流，因为当前机器聊天翻译方法的局限性。我们训练了一个错误检测器作为系统的基线，并构建了一个新的日英双语聊天语料库，BPesona-chat，其中包含了用众包进行质量评级的多轮口语聊天。错误检测器可以为更高级错误翻译检测系统打下良好的基础。",
+    "tldr": "本文开发了一个通信支持系统，能够检测错误的翻译，以促进跨语言交流。研究者开发了一个错误检测器作为系统的基线，并构建了一个新的日英双语聊天语料库，此举为更高级错误翻译检测系统提供了支持。"
+}

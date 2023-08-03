@@ -2,133 +2,208 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Increasing Supply Chain Resiliency Through Equilibrium Pricing and Stipulating Transportation Quota Regulation.](http://arxiv.org/abs/2308.00681) | 本文研究了政府在供应链中断时通过规定最低配额运输来增加供应链的弹性。研究以铁路运输市场为例，考虑了不同产品的盈利水平差异，提出了解决方案。 |
-| [^2] | [SurveyLM: A platform to explore emerging value perspectives in augmented language models' behaviors.](http://arxiv.org/abs/2308.00521) | SurveyLM是一个用于分析增强语言模型行为中新兴价值观的平台，通过调查和实验方法系统评估了ALMs的对齐和新兴行为，并利用ALMs的反馈来增强调查和实验设计。 |
-| [^3] | [Exploiting the dynamics of commodity futures curves.](http://arxiv.org/abs/2308.00383) | 本文利用Nelson-Siegel模型对商品期货价格进行了建模，开发了基于斜率变化的投资策略，能够在短期内产生显著的利润，并且可以抵消经济放缓期间的回撤损失。 |
-| [^4] | [Position Uncertainty in a Sequential Public Goods Game: An Experiment.](http://arxiv.org/abs/2308.00179) | 该研究通过经济实验测试了在顺序公共物品博弈中经济学模型的理论预测。结果显示大约25%的受试者的行为与理论预测一致，但也观察到了其他行为类型的存在。 |
-| [^5] | [Efficient Multi-Change Point Analysis to decode Economic Crisis Information from the S&P500 Mean Market Correlation.](http://arxiv.org/abs/2308.00087) | 本研究提出了一种高效多变点分析方法，通过解码S&P500平均市场相关性，从中获取经济危机信息。研究结果表明，平均市场相关性可以作为一种信息丰富的宏观经济度量，用于理解整体经济动力。 |
-| [^6] | [FinPT: Financial Risk Prediction with Profile Tuning on Pretrained Foundation Models.](http://arxiv.org/abs/2308.00065) | FinPT是一种新颖的资金风险预测方法，通过在大型预训练基础模型上进行个人资料调整，填充金融表格数据并获得自然语言客户资料，从而提高预测准确性。 |
-| [^7] | [Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment.](http://arxiv.org/abs/2308.00016) | 本论文提出了一种通过引入人机交互的新型 alpha 挖掘范式，并利用大型语言模型的能力，通过一种新颖的提示工程算法框架，开发了 Alpha-GPT。通过多个实验，展示了 Alpha-GPT 在量化投资领域的有效性和优势。 |
-| [^8] | [Bitcoin Gold, Litecoin Silver:An Introduction to Cryptocurrency's Valuation and Trading Strategy.](http://arxiv.org/abs/2308.00013) | 本论文介绍了比特币和莱特币的估值与交易策略。研究使用了多个指标，并通过价格-效用比率提供了新的加密资产估值视角。 |
-| [^9] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
-| [^10] | [Towards Multi-Agent Reinforcement Learning driven Over-The-Counter Market Simulations.](http://arxiv.org/abs/2210.07184) | 该论文研究了多智能体强化学习在场外交易市场模拟中的应用，通过适当设计奖励函数和共享策略学习，智能体能够学习到涵盖利润损失、最优执行和市场份额等多目标的新兴行为，同时也提出了一种基于强化学习的校准算法。 |
-| [^11] | [Statistical inference for rough volatility: Central limit theorems.](http://arxiv.org/abs/2210.01216) | 本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。 |
+| [^1] | [A quantum double-or-nothing game: The Kelly Criterion for Spins.](http://arxiv.org/abs/2308.01305) | 本研究介绍了一个量子双倍或无的游戏，探讨了粒子流中的信息如何影响投注策略，在量子领域中发展了组合优化的方面。 |
+| [^2] | [Adaptive Collaborative Filtering with Personalized Time Decay Functions for Financial Product Recommendation.](http://arxiv.org/abs/2308.01208) | 本研究提出了一种使用个性化时间衰减函数的自适应协同过滤金融产品推荐系统，以解决传统推荐系统在动态环境下提供可靠推荐的挑战。该方法通过建模客户和产品之间的动态协同信号，处理金融数据的非平稳性，为用户提供可靠的推荐。 |
+| [^3] | [An optimal transport approach for the multiple quantile hedging problem.](http://arxiv.org/abs/2308.01121) | 这篇论文提出了一种最优输运方法解决多分位数对冲问题，在非线性市场中，将该问题重构为一个蒙特卡罗最优输运问题，在线性市场中引入了半离散最优输运问题，并设计了基于SGA算法的数值方法来计算多分位数对冲价格。 |
+| [^4] | [Quantitative statistical analysis of order-splitting behaviour of individual trading accounts in the Japanese stock market over nine years.](http://arxiv.org/abs/2308.01112) | 本研究在日本股市九年时间内进行了定量统计分析，关注个人交易账户的订单拆分行为，通过大规模的微观数据集提供了对订单拆分行为的定量预测的实质支持。 |
+| [^5] | [Bayesian framework for characterizing cryptocurrency market dynamics, structural dependency, and volatility using potential field.](http://arxiv.org/abs/2308.01013) | 基于潜力场理论和贝叶斯框架，提出了一个新的模型来描绘加密货币的结构依赖关系并预测市场趋势，该模型通过非线性潜力函数推断吸引子和排斥子作为可靠的市场指标。 |
+| [^6] | [Incident-Specific Cyber Insurance.](http://arxiv.org/abs/2308.00921) | 本文旨在建立事件特定的网络保险产品的经济基础，通过使用真实的网络事件数据，研究如何设计事件特定的赔偿措施，实现保险卖方和购买方的帕累托最优性。 |
+| [^7] | [Towards Climate Neutrality: A Comprehensive Overview of Sustainable Operations Management, Optimization, and Wastewater Treatment Strategies.](http://arxiv.org/abs/2308.00808) | 本文综述了可持续运营管理、优化和废水处理领域的研究进展，提出了有效的脱碳策略和可持续性方法，以实现欧洲气候中性愿景。研究还探讨了数字化在减碳中的作用，回顾了政府行动的脱碳政策，并对应用于科学技术领域的优化方法进行了综述，强调了非传统能源和分布式发电系统的重要性。 |
+| [^8] | [Second-Order Approximation of Limit Order Books in a Single-Scale Regime.](http://arxiv.org/abs/2308.00805) | 本文在单一尺度下对无限维限价委托订单簿模型进行了一阶和二阶近似，得到了非退化的价格和成交量动态，并证明了演化方程的唯一解以及标准化的LOB模型序列弱收敛于该解。 |
+| [^9] | [Infodemia e pandemia: la cognitive warfare ai tempi del SARS-CoV-2.](http://arxiv.org/abs/2308.00706) | SARS-CoV-2病毒引发了一场信息泛滥，导致不确定氛围的建立。国家和非国家行为者通过操纵认知领域进行信息管理，构成了一场认知战争。公民和机构应采取批判性分析态度，国际合作政策可帮助抗击认知战争并减少其灾难性影响。 |
+| [^10] | [An Empirical Study on the Holiday Effect of China's Time-Honored Companies.](http://arxiv.org/abs/2308.00702) | 本文以中国老字号品牌企业为研究对象，通过实证研究了节日效应对中国老字号品牌企业上市公司回报的影响。实证结果有助于我们了解中国老字号品牌企业的特点和节日效应对其股票市场的影响。 |
+| [^11] | [Liquidity fragmentation on decentralized exchanges.](http://arxiv.org/abs/2307.13772) | 本研究通过分析Uniswap的数据发现，去中心化交易所中的固定交易成本导致了小型流动性提供者受到不成比例的影响，结果是低费用池和高费用池之间的流动性供应分裂，给大型流动性提供者和小型流动性提供者带来不同的影响。 |
+| [^12] | [Decentralized Prediction Markets and Sports Books.](http://arxiv.org/abs/2307.08768) | 这项工作提出了一种基于流动性的分散预测市场框架，该框架具备合理的金融性质，并提出了有意义的交易费用机制。 |
+| [^13] | [ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations.](http://arxiv.org/abs/2305.11900) | 本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。 |
+| [^14] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
+| [^15] | [Domain-adapted Learning and Imitation: DRL for Power Arbitrage.](http://arxiv.org/abs/2301.08360) | 本文提出了一种领域自适应学习和模仿的深度强化学习方法，用于电力套利交易。通过利用奖励工程和订单分段的方式，该方法能够提高训练的收敛性，增加竞标成功率，并显著提高利润和损失。 |
+| [^16] | [Domain-adapted Learning and Interpretability: DRL for Gas Trading.](http://arxiv.org/abs/2301.08359) | 本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用，提高了交易性能并降低了交易成本。同时，通过提出的集成学习方案，提高了模型稳定性和鲁棒性。 |
 
 # 详细
 
-[^1]: 通过平衡定价和规定运输配额来增加供应链的弹性
+[^1]: 一个量子双倍或无的游戏：旋转的Kelly准则
 
-    Increasing Supply Chain Resiliency Through Equilibrium Pricing and Stipulating Transportation Quota Regulation. (arXiv:2308.00681v1 [math.OC])
+    A quantum double-or-nothing game: The Kelly Criterion for Spins. (arXiv:2308.01305v1 [quant-ph])
 
-    [http://arxiv.org/abs/2308.00681](http://arxiv.org/abs/2308.00681)
+    [http://arxiv.org/abs/2308.01305](http://arxiv.org/abs/2308.01305)
 
-    本文研究了政府在供应链中断时通过规定最低配额运输来增加供应链的弹性。研究以铁路运输市场为例，考虑了不同产品的盈利水平差异，提出了解决方案。
-
-    
-
-    供应链的中断可能由多种原因引起，包括自然灾害或市场动态。如果中断对经济产生深远影响，监管机构可能决定干预以最大程度减少对社会的影响。本文研究了政府在运输能力低于总产量并且不同产品的盈利水平差异显著的市场上规定的最低配额运输。在北美，铁路运输市场有一个有趣的例子，铁路容量被用于各种产品和商品，如石油和谷物。本研究假定存在一个运输公司，其容量有限，将会运输一组具有异质运输和生产成本和价格的产品。给出了市场参与者以及政府面临的数学问题，并提出了解决方案。
-
-    Supply chain disruption can occur for a variety of reasons, including natural disasters or market dynamics. If the disruption is profound and with dire consequences for the economy, the regulators may decide to intervene to minimize the impact for the betterment of the society. This paper investigates the minimum quota regulation on transportation amounts, stipulated by the government in a market where transportation capacity is below total production and profitability levels differ significantly among different products. In North America, an interesting example can happen in rail transportation market, where the rail capacity is used for a variety of products and commodities such as oil and grains. This research assumes that there is a shipping company with limited capacity which will ship a group of products with heterogeneous transportation and production costs and prices. Mathematical problems for the market players as well as the government are presented, solutions are proposed, a
-    
-[^2]: SurveyLM: 一种探索增强语言模型行为中新兴价值观的平台
-
-    SurveyLM: A platform to explore emerging value perspectives in augmented language models' behaviors. (arXiv:2308.00521v1 [cs.AI])
-
-    [http://arxiv.org/abs/2308.00521](http://arxiv.org/abs/2308.00521)
-
-    SurveyLM是一个用于分析增强语言模型行为中新兴价值观的平台，通过调查和实验方法系统评估了ALMs的对齐和新兴行为，并利用ALMs的反馈来增强调查和实验设计。
+    本研究介绍了一个量子双倍或无的游戏，探讨了粒子流中的信息如何影响投注策略，在量子领域中发展了组合优化的方面。
 
     
 
-    本白皮书介绍了我们在SurveyLM上的工作，这是一个用于分析增强语言模型(ALM)在复杂社会环境中通过动态演变的态度和价值观展现出的紧密对齐行为的平台。像ALM这样的社交人工智能系统通常在细微的社交场景中运作，没有单一的正确回答，或者答案很大程度上取决于背景因素，因此需要深入理解它们的对齐动态。为了解决这个问题，我们应用传统社会行为研究中常用的调查和实验方法系统地评估ALM，从而提供了对其对齐和新兴行为的前所未有的深入洞察。此外，SurveyLM平台利用ALM自身的反馈来增强调查和实验设计，利用了ALM未充分利用的方面，加速了高质量调查框架的开发和测试，同时节约了资源。
+    将一系列极化在两个可能方向的自旋-1/2粒子呈现给实验者，他可以在自由选择的极化方向的测量结果上进行双倍或无的下注游戏。通过精明的投注积累财富。随着从粒子流中获得信息，逐渐调整测量方向，并提高组合增长率。利用数值方法确定了最优的量子策略，并证明与通常与Kelly准则相关的经典策略不同。本文为量子金融的发展做出了贡献，将组合优化的方面拓展到量子领域。
 
-    This white paper presents our work on SurveyLM, a platform for analyzing augmented language models' (ALMs) emergent alignment behaviors through their dynamically evolving attitude and value perspectives in complex social contexts. Social Artificial Intelligence (AI) systems, like ALMs, often function within nuanced social scenarios where there is no singular correct response, or where an answer is heavily dependent on contextual factors, thus necessitating an in-depth understanding of their alignment dynamics. To address this, we apply survey and experimental methodologies, traditionally used in studying social behaviors, to evaluate ALMs systematically, thus providing unprecedented insights into their alignment and emergent behaviors. Moreover, the SurveyLM platform leverages the ALMs' own feedback to enhance survey and experiment designs, exploiting an underutilized aspect of ALMs, which accelerates the development and testing of high-quality survey frameworks while conserving resour
+    A sequence of spin-1/2 particles polarised in one of two possible directions is presented to an experimenter, who can wager in a double-or-nothing game on the outcomes of measurements in freely chosen polarisation directions. Wealth is accrued through astute betting. As information is gained from the stream of particles, the measurement directions are progressively adjusted, and the portfolio growth rate is raised. The optimal quantum strategy is determined numerically and shown to differ from the classical strategy, which is associated with the Kelly criterion. The paper contributes to the development of quantum finance, as aspects of portfolio optimisation are extended to the quantum realm.
     
-[^3]: 利用商品期货曲线的动态特性
+[^2]: 个性化时间衰减函数的自适应协同过滤金融产品推荐系统
 
-    Exploiting the dynamics of commodity futures curves. (arXiv:2308.00383v1 [q-fin.GN])
+    Adaptive Collaborative Filtering with Personalized Time Decay Functions for Financial Product Recommendation. (arXiv:2308.01208v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.00383](http://arxiv.org/abs/2308.00383)
+    [http://arxiv.org/abs/2308.01208](http://arxiv.org/abs/2308.01208)
 
-    本文利用Nelson-Siegel模型对商品期货价格进行了建模，开发了基于斜率变化的投资策略，能够在短期内产生显著的利润，并且可以抵消经济放缓期间的回撤损失。
-
-    
-
-    本文使用Nelson-Siegel模型对商品期货价格的期限结构进行建模。利用水平、斜率和曲率参数中嵌入的信息，我们开发了新颖的投资策略，假设最近期货曲线的平行、斜率或蝶形变化会在短期内持续。基于斜率变化的系统性策略可以产生显著的利润，与先前记录的风险因素无关，并且可以在合理的交易成本下存活。进一步分析表明，斜率策略的盈利性随着投资者情绪的增强而增加，并在经济放缓期间部分抵消了回撤带来的损失。通过合理的市场时间选择，盈利性也可以放大，并且在Nelson-Siegel模型的替代规范下仍然存在。
-
-    The Nelson-Siegel framework is employed to model the term structure of commodity futures prices. Exploiting the information embedded in the level, slope and curvature parameters, we develop novel investment strategies that assume short-term continuation of recent parallel, slope or butterfly movements of futures curves. Systematic strategies based on the change in the slope generate significant profits that are unrelated to previously documented risk factors and can survive reasonable transaction costs. Further analysis demonstrates that the profitability of the slope strategy increases with investor sentiment and is in part a compensation for the drawdowns incurred during economic slowdowns. The profitability can also be magnified through timing and persists under alternative specifications of the Nelson-Siegel model.
-    
-[^4]: 在一个顺序公共物品博弈中的位置不确定性：一个实验
-
-    Position Uncertainty in a Sequential Public Goods Game: An Experiment. (arXiv:2308.00179v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.00179](http://arxiv.org/abs/2308.00179)
-
-    该研究通过经济实验测试了在顺序公共物品博弈中经济学模型的理论预测。结果显示大约25%的受试者的行为与理论预测一致，但也观察到了其他行为类型的存在。
+    本研究提出了一种使用个性化时间衰减函数的自适应协同过滤金融产品推荐系统，以解决传统推荐系统在动态环境下提供可靠推荐的挑战。该方法通过建模客户和产品之间的动态协同信号，处理金融数据的非平稳性，为用户提供可靠的推荐。
 
     
 
-    Gallice和Monzón（2019）提出了一种能够在有限数量的自私代理之间维持全面合作的自然环境。他们证明，在一个顺序公共物品博弈中，代理人缺乏对自己在序列中位置的知识，但可以观察到一些前任的行动，由于代理人有激励让潜在的继任者效仿自己的贡献，所以全面贡献会在均衡中出现。本研究旨在通过经济实验来测试这个模型的理论预测。我们进行了三个处理，变化了受试者可以观察到的过去行动信息的数量以及他们的位置意识。通过严格的结构计量分析，我们发现大约25%的受试者的行为符合理论预测。然而，我们还观察到剩余受试者中存在替代行为类型。其中大多数被归类为有条件的合作者。
+    传统的推荐系统通常假设历史数据是不变的，无法考虑用户偏好的动态性，限制了它们在时间敏感环境中提供可靠推荐的能力。这一假设在金融领域尤其有问题，因为金融产品的估值不断变化，导致客户兴趣频繁转移。这些演变的兴趣可以通过过去客户-产品交互中总结出来，其效用随着时间的推移会因客户而异。为了解决这一挑战，我们提出了一种时间相关的协同过滤算法，可以使用个性化衰减函数自适应地折价远离的客户-产品交互。我们的方法旨在处理金融数据的非平稳性，并通过建模客户和产品之间的动态协同信号来产生可靠的推荐。我们使用专有数据集对我们的方法进行评估。
 
-    Gallice and Monz\'on (2019) present a natural environment that sustains full co-operation in one-shot social dilemmas among a finite number of self-interested agents. They demonstrate that in a sequential public goods game, where agents lack knowledge of their position in the sequence but can observe some predecessors' actions, full contribution emerges in equilibrium due to agents' incentive to induce potential successors to follow suit. In this study, we aim to test the theoretical predictions of this model through an economic experiment. We conducted three treatments, varying the amount of information about past actions that a subject can observe, as well as their positional awareness. Through rigorous structural econometric analysis, we found that approximately 25% of the subjects behaved in line with the theoretical predictions. However, we also observed the presence of alternative behavioural types among the remaining subjects. The majority were classified as conditional co-opera
+    Classical recommender systems often assume that historical data are stationary and fail to account for the dynamic nature of user preferences, limiting their ability to provide reliable recommendations in time-sensitive settings. This assumption is particularly problematic in finance, where financial products exhibit continuous changes in valuations, leading to frequent shifts in client interests. These evolving interests, summarized in the past client-product interactions, see their utility fade over time with a degree that might differ from one client to another. To address this challenge, we propose a time-dependent collaborative filtering algorithm that can adaptively discount distant client-product interactions using personalized decay functions. Our approach is designed to handle the non-stationarity of financial data and produce reliable recommendations by modeling the dynamic collaborative signals between clients and products. We evaluate our method using a proprietary dataset 
     
-[^5]: 从S&P500平均市场相关性中解码经济危机信息的高效多变点分析
+[^3]: 多分位数对冲问题的最优输运方法
 
-    Efficient Multi-Change Point Analysis to decode Economic Crisis Information from the S&P500 Mean Market Correlation. (arXiv:2308.00087v1 [q-fin.ST])
+    An optimal transport approach for the multiple quantile hedging problem. (arXiv:2308.01121v1 [math.PR])
 
-    [http://arxiv.org/abs/2308.00087](http://arxiv.org/abs/2308.00087)
+    [http://arxiv.org/abs/2308.01121](http://arxiv.org/abs/2308.01121)
 
-    本研究提出了一种高效多变点分析方法，通过解码S&P500平均市场相关性，从中获取经济危机信息。研究结果表明，平均市场相关性可以作为一种信息丰富的宏观经济度量，用于理解整体经济动力。
-
-    
-
-    确定导致经济剧变的宏观经济事件对于理解整体经济动力非常重要。我们介绍了一个开源的高效 Python 实现的贝叶斯多趋势变点分析，解决了从相关性度量中提取危机信息的显著内存和计算时间限制问题。因此，我们关注近20年的S&P500平均市场相关性，包括互联网泡沫、全球金融危机和欧元危机。该分析分为两个部分：首先，回顾整个数据集，然后，在危机前的分段中以在线自适应方式进行。在线敏感性时间范围大致确定为危机发生后约80到100个交易日。与全球经济事件的详细比较支持将平均市场相关性解释为一种信息丰富的宏观经济度量。
-
-    Identifying macroeconomic events that are responsible for dramatic changes of economy is of particular relevance to understand the overall economic dynamics. We introduce an open-source available efficient Python implementation of a Bayesian multi-trend change point analysis which solves significant memory and computing time limitations to extract crisis information from a correlation metric. Therefore, we focus on the recently investigated S&P500 mean market correlation in a period of roughly 20 years that includes the dot-com bubble, the global financial crisis and the Euro crisis. The analysis is performed two-fold: first, in retrospect on the whole dataset and second, in an on-line adaptive manner in pre-crisis segments. The on-line sensitivity horizon is roughly determined to be 80 up to 100 trading days after a crisis onset. A detailed comparison to global economic events supports the interpretation of the mean market correlation as an informative macroeconomic measure by a rathe
-    
-[^6]: FinPT:使用预训练基础模型进行资金风险预测中个人资料调整
-
-    FinPT: Financial Risk Prediction with Profile Tuning on Pretrained Foundation Models. (arXiv:2308.00065v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2308.00065](http://arxiv.org/abs/2308.00065)
-
-    FinPT是一种新颖的资金风险预测方法，通过在大型预训练基础模型上进行个人资料调整，填充金融表格数据并获得自然语言客户资料，从而提高预测准确性。
+    这篇论文提出了一种最优输运方法解决多分位数对冲问题，在非线性市场中，将该问题重构为一个蒙特卡罗最优输运问题，在线性市场中引入了半离散最优输运问题，并设计了基于SGA算法的数值方法来计算多分位数对冲价格。
 
     
 
-    资金风险预测在金融领域中起着至关重要的作用。机器学习方法已被广泛应用于自动检测潜在风险，从而节省劳动成本。然而，近年来这一领域的发展滞后于以下两个事实：1）所使用的算法有些过时，特别是在生成AI和大型语言模型（LLMs）快速发展的背景下；2）缺乏统一且开源的金融基准已经阻碍了相关研究多年。为解决这些问题，我们提出了FinPT和FinBench：前者是一种新颖的资金风险预测方法，对大型预训练基础模型进行个人资料调整；后者是一套关于资金风险的高质量数据集，如违约、欺诈和流失。在FinPT中，我们将金融表格数据填充到预定义的指令模板中，通过提示LLMs获得自然语言客户资料，并进行精调。
+    我们考虑多分位数对冲问题，这是一类包含分位数对冲问题（F{\"o}llmer \& Leukert 1999）和PnL匹配问题（Bouchard \& Vu 2012）作为特例的部分对冲问题。在非线性完全市场中，我们展示了这个问题可以重构为一种蒙特卡罗最优输运问题。利用这个观察，我们引入了该问题的Kantorovitch版本，并证明了两个问题的价值是相等的。在线性情况下，我们得到多分位数对冲问题可以看作是一种半离散最优输运问题，并进一步引入了对偶问题。然后，我们证明不存在对偶间隙，使我们能够设计基于SGA算法的数值方法来计算多分位数对冲价格。
 
-    Financial risk prediction plays a crucial role in the financial sector. Machine learning methods have been widely applied for automatically detecting potential risks and thus saving the cost of labor. However, the development in this field is lagging behind in recent years by the following two facts: 1) the algorithms used are somewhat outdated, especially in the context of the fast advance of generative AI and large language models (LLMs); 2) the lack of a unified and open-sourced financial benchmark has impeded the related research for years. To tackle these issues, we propose FinPT and FinBench: the former is a novel approach for financial risk prediction that conduct Profile Tuning on large pretrained foundation models, and the latter is a set of high-quality datasets on financial risks such as default, fraud, and churn. In FinPT, we fill the financial tabular data into the pre-defined instruction template, obtain natural-language customer profiles by prompting LLMs, and fine-tune 
+    We consider the multiple quantile hedging problem, which is a class of partial hedging problems containing as special examples the quantile hedging problem (F{\"o}llmer \& Leukert 1999) and the PnL matching problem (introduced in Bouchard \& Vu 2012). In complete non-linear markets, we show that the problem can be reformulated as a kind of Monge optimal transport problem. Using this observation, we introduce a Kantorovitch version of the problem and prove that the value of both problems coincide. In the linear case, we thus obtain that the multiple quantile hedging problem can be seen as a semi-discrete optimal transport problem, for which we further introduce the dual problem. We then prove that there is no duality gap, allowing us to design a numerical method based on SGA algorithms to compute the multiple quantile hedging price.
     
-[^7]: Alpha-GPT：人机交互式 Alpha 挖掘在量化投资中的应用
+[^4]: 日本股市个人交易账户九年来订单拆分行为的定量统计分析
 
-    Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment. (arXiv:2308.00016v1 [q-fin.CP])
+    Quantitative statistical analysis of order-splitting behaviour of individual trading accounts in the Japanese stock market over nine years. (arXiv:2308.01112v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2308.00016](http://arxiv.org/abs/2308.00016)
+    [http://arxiv.org/abs/2308.01112](http://arxiv.org/abs/2308.01112)
 
-    本论文提出了一种通过引入人机交互的新型 alpha 挖掘范式，并利用大型语言模型的能力，通过一种新颖的提示工程算法框架，开发了 Alpha-GPT。通过多个实验，展示了 Alpha-GPT 在量化投资领域的有效性和优势。
-
-    
-
-    在量化投资研究中，挖掘新的 alpha（有效的交易信号或因子）是其中最重要的任务之一。传统的 alpha 挖掘方法，无论是手工合成因子还是算法挖掘因子（如遗传编程搜索），都存在固有的局限性，尤其在实施量化分析师的想法方面。在本研究中，我们提出了一种新的 alpha 挖掘范式，引入了人机交互，并通过利用大型语言模型的能力，提出了一种新颖的提示工程算法框架来实现这个范式。此外，我们开发了 Alpha-GPT，一种新的交互式 alpha 挖掘系统框架，以一种启发式的方式“理解”量化研究人员的想法，并输出具有创造性、深入洞察力和有效性的 alpha。通过多个 alpha 挖掘实验，我们展示了 Alpha-GPT 的有效性和优势。
-
-    One of the most important tasks in quantitative investment research is mining new alphas (effective trading signals or factors). Traditional alpha mining methods, either hand-crafted factor synthesizing or algorithmic factor mining (e.g., search with genetic programming), have inherent limitations, especially in implementing the ideas of quants. In this work, we propose a new alpha mining paradigm by introducing human-AI interaction, and a novel prompt engineering algorithmic framework to implement this paradigm by leveraging the power of large language models. Moreover, we develop Alpha-GPT, a new interactive alpha mining system framework that provides a heuristic way to ``understand'' the ideas of quant researchers and outputs creative, insightful, and effective alphas. We demonstrate the effectiveness and advantage of Alpha-GPT via a number of alpha mining experiments.
-    
-[^8]: Bitcoin Gold, Litecoin Silver:加密货币估值与交易策略的介绍
-
-    Bitcoin Gold, Litecoin Silver:An Introduction to Cryptocurrency's Valuation and Trading Strategy. (arXiv:2308.00013v1 [cs.CE])
-
-    [http://arxiv.org/abs/2308.00013](http://arxiv.org/abs/2308.00013)
-
-    本论文介绍了比特币和莱特币的估值与交易策略。研究使用了多个指标，并通过价格-效用比率提供了新的加密资产估值视角。
+    本研究在日本股市九年时间内进行了定量统计分析，关注个人交易账户的订单拆分行为，通过大规模的微观数据集提供了对订单拆分行为的定量预测的实质支持。
 
     
 
-    从历史上看，黄金和白银在传统货币系统中起着不同的作用。黄金被视为优秀的价值存储工具，导致人们囤积黄金，而白银通常被用作交换媒介。随着金融世界的发展，加密货币的出现引入了一种新的价值和交换范式。然而，这些数字资产作为价值存储工具的特性仍然很少被研究。莱特币的创始人Charlie Lee曾将比特币比作黄金，莱特币比作白银。为了验证这个比喻，我们的研究采用了几种指标，包括未花费的交易输出（UTXO），已花费的交易输出（STXO），加权平均寿命（WAL），CoinDaysDestroyed（CDD）和公开的链上交易数据。此外，我们还设计了以价格-效用比率（PU）为核心的交易策略，为加密资产的估值提供了一种新的视角，超越了传统的用途。我们的回测结果没有
+    在这项研究中，我们关注订单拆分行为。订单拆分是一种交易策略，将大型潜在元订单拆分为小块，以降低交易成本。这种策略性行为被认为很重要，因为它是长程相关性（LRC）在持续订单流中微观起源的有前景的候选者。实际上，在2005年，Lillo、Mike和Farmer (LMF) 提出了一个订单拆分交易者的微观模型，以从微观动力学量化预测LRC的渐近行为。这个场景的合理性已经由Toth等人在2015年进行了定性研究。然而，在缺乏大型微观数据集的情况下，尚未提出关于LMF模型定量预测的实质支持。在本报告中，我们首次提供了每个交易账户级别上订单拆分行为的定量统计分析。我们分析了大量的东京股市数据集。
 
-    Historically, gold and silver have played distinct roles in traditional monetary systems. While gold has primarily been revered as a superior store of value, prompting individuals to hoard it, silver has commonly been used as a medium of exchange. As the financial world evolves, the emergence of cryptocurrencies has introduced a new paradigm of value and exchange. However, the store-of-value characteristic of these digital assets remains largely uncharted. Charlie Lee, the founder of Litecoin, once likened Bitcoin to gold and Litecoin to silver. To validate this analogy, our study employs several metrics, including unspent transaction outputs (UTXO), spent transaction outputs (STXO), Weighted Average Lifespan (WAL), CoinDaysDestroyed (CDD), and public on-chain transaction data. Furthermore, we've devised trading strategies centered around the Price-to-Utility (PU) ratio, offering a fresh perspective on crypto-asset valuation beyond traditional utilities. Our back-testing results not on
+    In this research, we focus on the order-splitting behavior. The order splitting is a trading strategy to execute their large potential metaorder into small pieces to reduce transaction cost. This strategic behavior is believed to be important because it is a promising candidate for the microscopic origin of the long-range correlation (LRC) in the persistent order flow. Indeed, in 2005, Lillo, Mike, and Farmer (LMF) introduced a microscopic model of the order-splitting traders to predict the asymptotic behavior of the LRC from the microscopic dynamics, even quantitatively. The plausibility of this scenario has been qualitatively investigated by Toth et al. 2015. However, no solid support has been presented yet on the quantitative prediction by the LMF model in the lack of large microscopic datasets. In this report, we have provided the first quantitative statistical analysis of the order-splitting behavior at the level of each trading account. We analyse a large dataset of the Tokyo sto
     
-[^9]: 关于APT的时变结构及其在日本股票市场的应用研究
+[^5]: 基于潜力场的贝叶斯框架用于描绘加密货币市场动态、结构依赖和波动性
+
+    Bayesian framework for characterizing cryptocurrency market dynamics, structural dependency, and volatility using potential field. (arXiv:2308.01013v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2308.01013](http://arxiv.org/abs/2308.01013)
+
+    基于潜力场理论和贝叶斯框架，提出了一个新的模型来描绘加密货币的结构依赖关系并预测市场趋势，该模型通过非线性潜力函数推断吸引子和排斥子作为可靠的市场指标。
+
+    
+
+    在加密货币交易中，识别加密货币之间的结构依赖关系并预测市场趋势对于有效管理投资组合至关重要。本文提出了一个基于潜力场理论和高斯过程的统一的贝叶斯框架，用历史价格信息来描绘各种加密货币的结构依赖关系。我们的研究工作有以下重要贡献：(i)提出了一个新的模型，将加密货币价格运动视为受时间变化的非线性潜力场驱动的动力系统的轨迹。(ii)通过Lyapunov稳定性分析验证了加密货币市场中非线性潜力函数的存在。(iii)开发了一个贝叶斯框架，用于根据观察到的加密货币价格推断非线性潜力函数。(iv)提出了从潜力场中推断出的吸引子和排斥子是可靠的加密货币市场指标，超越了现有的属性。
+
+    Identifying the structural dependence between the cryptocurrencies and predicting market trend are fundamental for effective portfolio management in cryptocurrency trading. In this paper, we present a unified Bayesian framework based on potential field theory and Gaussian Process to characterize the structural dependency of various cryptocurrencies, using historic price information. The following are our significant contributions: (i) Proposed a novel model for cryptocurrency price movements as a trajectory of a dynamical system governed by a time-varying non-linear potential field. (ii) Validated the existence of the non-linear potential function in cryptocurrency market through Lyapunov stability analysis. (iii) Developed a Bayesian framework for inferring the non-linear potential function from observed cryptocurrency prices. (iv) Proposed that attractors and repellers inferred from the potential field are reliable cryptocurrency market indicators, surpassing existing attributes, suc
+    
+[^6]: 事件特定的网络保险
+
+    Incident-Specific Cyber Insurance. (arXiv:2308.00921v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2308.00921](http://arxiv.org/abs/2308.00921)
+
+    本文旨在建立事件特定的网络保险产品的经济基础，通过使用真实的网络事件数据，研究如何设计事件特定的赔偿措施，实现保险卖方和购买方的帕累托最优性。
+
+    
+
+    在目前的市场实践中，许多网络保险产品为各类事件导致的损失提供捆绑套餐，例如数据泄露和勒索软件攻击，而每种事件类型的保险覆盖都有单独的限额和免赔额。虽然这给予了潜在的网络保险购买者更多灵活性来定制保险覆盖，并更好地管理卖方的风险暴露，但这也使得决策过程复杂化，需要确定双方保留和转移风险的最佳数量。本文旨在建立事件特定的网络保险产品的经济基础，重点研究如何为实现保险卖方和购买方的帕累托最优性而设计事件特定的赔偿措施。通过使用真实的网络事件数据来说明这种方法的可行性，并讨论了几种实践中的实施改进方法。
+
+    In the current market practice, many cyber insurance products offer a coverage bundle for losses arising from various types of incidents, such as data breaches and ransomware attacks, and the coverage for each incident type comes with a separate limit and deductible. Although this gives prospective cyber insurance buyers more flexibility in customizing the coverage and better manages the risk exposures of sellers, it complicates the decision-making process in determining the optimal amount of risks to retain and transfer for both parties. This paper aims to build an economic foundation for these incident-specific cyber insurance products with a focus on how incident-specific indemnities should be designed for achieving Pareto optimality for both the insurance seller and buyer. Real data on cyber incidents is used to illustrate the feasibility of this approach. Several implementation improvement methods for practicality are also discussed.
+    
+[^7]: 迈向气候中性：可持续运营管理、优化和废水处理策略综述
+
+    Towards Climate Neutrality: A Comprehensive Overview of Sustainable Operations Management, Optimization, and Wastewater Treatment Strategies. (arXiv:2308.00808v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.00808](http://arxiv.org/abs/2308.00808)
+
+    本文综述了可持续运营管理、优化和废水处理领域的研究进展，提出了有效的脱碳策略和可持续性方法，以实现欧洲气候中性愿景。研究还探讨了数字化在减碳中的作用，回顾了政府行动的脱碳政策，并对应用于科学技术领域的优化方法进行了综述，强调了非传统能源和分布式发电系统的重要性。
+
+    
+
+    在可持续运营管理、优化和废水处理领域进行了许多研究，取得了可持续发展。本文在欧洲气候中性愿景的背景下，回顾了有效的脱碳策略，并提出了可持续性方法来减轻建筑、能源、工业和交通等各个领域的碳化。该研究还探讨了数字化在减碳中的作用，并回顾了能够将政府行动引导向气候中性社会的脱碳政策。本文还对应用于科学技术领域的优化方法进行了综述，包括基于各种同行评审的研究论文的现代优化技术。它强调了非传统能源和分布式发电系统以及非管制和管制环境。此外，本文批评性地回顾了性能和能力。
+
+    Various studies have been conducted in the fields of sustainable operations management, optimization, and wastewater treatment, yielding unsubstantiated recovery. In the context of Europes climate neutrality vision, this paper reviews effective decarbonization strategies and proposes sustainable approaches to mitigate carbonization in various sectors such as building, energy, industry, and transportation. The study also explores the role of digitalization in decarbonization and reviews decarbonization policies that can direct governments action towards a climate-neutral society. The paper also presents a review of optimization approaches applied in the fields of science and technology, incorporating modern optimization techniques based on various peer-reviewed published research papers. It emphasizes non-conventional energy and distributed power generating systems along with the deregulated and regulated environment. Additionally, this paper critically reviews the performance and capab
+    
+[^8]: 单尺度情况下限价委托订单簿的二阶近似
+
+    Second-Order Approximation of Limit Order Books in a Single-Scale Regime. (arXiv:2308.00805v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2308.00805](http://arxiv.org/abs/2308.00805)
+
+    本文在单一尺度下对无限维限价委托订单簿模型进行了一阶和二阶近似，得到了非退化的价格和成交量动态，并证明了演化方程的唯一解以及标准化的LOB模型序列弱收敛于该解。
+
+    
+
+    我们在一个单一的尺度情况下建立了一个无限维度的限价委托订单簿模型(LOB)的一阶和二阶近似，该模型中市场委托和限价委托在一个共同的时间尺度下到达。通过我们选择的尺度，我们得到价格和成交量动态的非退化的一阶和二阶近似。一阶近似由一个标准的耦合ODE-PDE系统给出，而二阶近似是非标准的，并且用一个由圆柱布朗运动驱动的无限维随机演化方程描述。驱动噪声过程在模型参数方面表现出非平凡的相关性。我们证明演化方程有唯一的解，并且标准化的LOB模型序列弱收敛于演化方程的解。证明使用了一个非标准的鞅问题。我们将我们模型的简化版本校准到市场数据，并展示了模型的准确性。
+
+    We establish a first and second-order approximation for an infinite dimensional limit order book model (LOB) in a single (''critical'') scaling regime where market and limit orders arrive at a common time scale. With our choice of scaling we obtain non-degenerate first-order and second-order approximations for the price and volume dynamics. While the first-order approximation is given by a standard coupled ODE-PDE system, the second-order approximation is non-standard and described in terms of an infinite-dimensional stochastic evolution equation driven by a cylindrical Brownian motion. The driving noise processes exhibit a non-trivial correlation in terms of the model parameters. We prove that the evolution equation has a unique solution and that the sequence of standardized LOB models converges weakly to the solution of the evolution equation. The proof uses a non-standard martingale problem. We calibrate a simplified version of our model to market data and show that the model accura
+    
+[^9]: Infodemia和大流行病：SARS-CoV-2时代的认知战争
+
+    Infodemia e pandemia: la cognitive warfare ai tempi del SARS-CoV-2. (arXiv:2308.00706v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2308.00706](http://arxiv.org/abs/2308.00706)
+
+    SARS-CoV-2病毒引发了一场信息泛滥，导致不确定氛围的建立。国家和非国家行为者通过操纵认知领域进行信息管理，构成了一场认知战争。公民和机构应采取批判性分析态度，国际合作政策可帮助抗击认知战争并减少其灾难性影响。
+
+    
+
+    随着SARS-CoV-2的出现，出现了两种流行病：一种是健康流行病，另一种是信息流行病。该病毒引发了一场前所未有的信息泛滥，为建立极度不确定的氛围做出了贡献。大量冗余的信息也成为国家和非国家行为者在全球范围内传播宣传的有效途径。这是一种真正的敌对行为，其中不预见身体暴力，而是通过操纵认知领域来对信息进行系统管理。因此，公民和机构采取主动的批判性分析态度，以及在国际层面上实施共同政策，无疑可以促进对认知战争（所谓的认知战争）的斗争，并因此限制其灾难性影响。
+
+    With the appearance of SARS-CoV-2, two epidemics have spread: one for health and one for information. The virus has generated an unprecedented infodemic, contributing to the establishment of a climate of great uncertainty. Massive and redundant information has also been an effective vector of propaganda, on a global scale, by state and non-state actors. A real hostile act in which physical violence is not foreseen, but systematic management of information through the manipulation of the cognitive sphere. For this reason, the adoption of an attitude of active critical analysis by citizens and institutions and also the implementation of common policies at an international level could undoubtedly facilitate the fight against cognitive warfare (so-called cognitive warfare) and therefore limit its disastrous effects.
+    
+[^10]: 中国老字号企业节日效应的实证研究
+
+    An Empirical Study on the Holiday Effect of China's Time-Honored Companies. (arXiv:2308.00702v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2308.00702](http://arxiv.org/abs/2308.00702)
+
+    本文以中国老字号品牌企业为研究对象，通过实证研究了节日效应对中国老字号品牌企业上市公司回报的影响。实证结果有助于我们了解中国老字号品牌企业的特点和节日效应对其股票市场的影响。
+
+    
+
+    中国老字号品牌企业的股票板块在证券股票市场中占据重要地位。节日效应是证券市场上出现的市场异常之一，指的是股票市场在节日周围的交易日与其他交易日的回报显著不同的现象。对中国老字号品牌企业的节日效应的研究可以为我们的老字号品牌振兴和老字号企业的振兴提供新思路。本文以中国老字号品牌企业的上市公司为研究对象，利用事件研究方法，重点研究了节日效应对中国老字号品牌企业上市公司的影响，并通过实证分析了2012年至2021年春节期间中国老字号品牌企业上市公司回报的变化。实证结果显示：老字号概念股具有
+
+    The stock segment of China's time-honored brand enterprises has an important position in our securities stock market. The holiday effect is one of the market anomalies that occur in the securities market, which refers to the phenomenon that the stock market has significantly different returns than other trading days around festivals. The study of the holiday effect of China's time-honored brand enterprises can provide fresh ideas for the revitalization of our time-honored brands and the revitalization of time-honored enterprises. This paper takes listed companies of China's time-honored brand enterprises as the research object and focuses on the impact of the holiday effect on listed companies of China's time-honored brands with the help of the event study, and empirically analyses the changes in the return of listed companies of China time-honored brands during the Spring Festival period from 2012 to 2021. The empirical results reveal that: the time-honored brand concept stocks have a
+    
+[^11]: 去中心化交易所的流动性分裂
+
+    Liquidity fragmentation on decentralized exchanges. (arXiv:2307.13772v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2307.13772](http://arxiv.org/abs/2307.13772)
+
+    本研究通过分析Uniswap的数据发现，去中心化交易所中的固定交易成本导致了小型流动性提供者受到不成比例的影响，结果是低费用池和高费用池之间的流动性供应分裂，给大型流动性提供者和小型流动性提供者带来不同的影响。
+
+    
+
+    我们研究了去中心化交易所中流动性供应的规模经济性，重点关注固定交易成本（例如燃气价格）对流动性提供者（LPs）的影响。小型LPs受到固定成本的不成比例影响，导致低费用池和高费用池之间的流动性供应分裂。通过分析Uniswap的数据，我们发现高费用池吸引了56%的流动性供应，但只执行了35%的交易量。大型（机构）LPs主导低费用池，经常根据大量交易进行调整。相反，小型（零售）LPs趋于高费用池，为了减轻较小的流动性管理成本而接受较低的执行概率。
+
+    We study economies of scale in liquidity provision on decentralized exchanges, focusing on the impact of fixed transaction costs such as gas prices on liquidity providers (LPs). Small LPs are disproportionately affected by the fixed cost, resulting in liquidity supply fragmentation between low- and high-fee pools. Analyzing Uniswap data, we find that high-fee pools attract 56% of liquidity supply but execute only 35% of trading volume. Large (institutional) LPs dominate low-fee pools, frequently adjusting positions in response to substantial trading volume. In contrast, small (retail) LPs converge to high-fee pools, accepting lower execution probabilities to mitigate smaller liquidity management costs.
+    
+[^12]: 分散预测市场和体育博彩
+
+    Decentralized Prediction Markets and Sports Books. (arXiv:2307.08768v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2307.08768](http://arxiv.org/abs/2307.08768)
+
+    这项工作提出了一种基于流动性的分散预测市场框架，该框架具备合理的金融性质，并提出了有意义的交易费用机制。
+
+    
+
+    预测市场允许交易者对潜在的未来结果进行投注，这些市场存在于天气、政治、体育和经济预测领域。在这项工作中，我们考虑了使用自动化市场制造商（AMMs）的分散预测市场框架。具体而言，我们构建了一个基于流动性的预测市场 AMM 结构，该结构在底层效用函数上满足合理的金融性质，包括投注成本和结果定价的相关性。重要的是，我们研究了流动性如何可以从 AMM 中汇集或撤回以及对市场行为的影响。在考虑这个分散的框架时，我们还提出了可以用于交易收取有意义费用的建议，以补偿流动性提供者对市场的重要功能。
+
+    Prediction markets allow traders to bet on potential future outcomes. These markets exist for weather, political, sports, and economic forecasting. Within this work we consider a decentralized framework for prediction markets using automated market makers (AMMs). Specifically, we construct a liquidity-based AMM structure for prediction markets that, under reasonable axioms on the underlying utility function, satisfy meaningful financial properties on the cost of betting and the resulting pricing oracle. Importantly, we study how liquidity can be pooled or withdrawn from the AMM and the resulting implications to the market behavior. In considering this decentralized framework, we additionally propose financially meaningful fees that can be collected for trading to compensate the liquidity providers for their vital market function.
+    
+[^13]: ChatGPT与劳动力市场：揭示AI讨论对学生收入预期影响
+
+    ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations. (arXiv:2305.11900v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.11900](http://arxiv.org/abs/2305.11900)
+
+    本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。
+
+    
+
+    本文研究了负面和正面 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响。我们的研究发现，在接触AI讨论后，学生信心会降低，特别是在阅读负面情绪的讨论摘录时，这种影响更加明显。与STEM专业不同，非STEM领域的学生表现出不对称和悲观的信仰变化，表明他们可能感受到新兴AI技术的影响更强。对于未来收入的悲观信仰更新也普遍存在于各个性别和GPA水平之间，这表明所有学生群体都存在广泛的AI担忧。教育工作者、管理者和政策制定者可以定期与学生互动以解决他们的担忧，并改进教育课程，使他们更好地准备未来，这个未来必然会被AI改变。
+
+    This paper investigates the causal impact of negatively and positively framed ChatGPT Artificial Intelligence (AI) discussions on US students' anticipated labor market outcomes. Our findings reveal students reduce their confidence regarding their future earnings prospects after exposure to AI debates, and this effect is more pronounced after reading discussion excerpts with a negative tone. Unlike STEM majors, students in Non-STEM fields show asymmetric and pessimistic belief changes, suggesting that they might feel more vulnerable to emerging AI technologies. Pessimistic belief updates regarding future earnings are also prevalent across gender and GPA levels, indicating widespread AI concerns among all student subgroups. Educators, administrators, and policymakers may regularly engage with students to address their concerns and enhance educational curricula to better prepare them for a future that will be inevitably shaped by AI.
+    
+[^14]: 关于APT的时变结构及其在日本股票市场的应用研究
 
     On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices. (arXiv:2305.05998v1 [q-fin.ST])
 
@@ -142,32 +217,32 @@
 
     This paper is the first study to examine the time instability of the APT in the Japanese stock market. In particular, we measure how changes in each risk factor affect the stock risk premiums to investigate the validity of the APT over time, applying the rolling window method to Fama and MacBeth's (1973) two-step regression and Kamstra and Shi's (2023) generalized GRS test. We summarize our empirical results as follows: (1) the APT is supported over the entire sample period but not at all times, (2) the changes in monetary policy greatly affect the validity of the APT in Japan, and (3) the time-varying estimates of the risk premiums for each factor are also unstable over time, and they are affected by the business cycle and economic crises. Therefore, we conclude that the validity of the APT as an appropriate model to explain the Japanese sector index is not stable over time.
     
-[^10]: 多智能体强化学习驱动的场外交易市场模拟
+[^15]: 领域自适应学习和模仿：用于电力套利的深度强化学习
 
-    Towards Multi-Agent Reinforcement Learning driven Over-The-Counter Market Simulations. (arXiv:2210.07184v2 [cs.MA] UPDATED)
+    Domain-adapted Learning and Imitation: DRL for Power Arbitrage. (arXiv:2301.08360v2 [q-fin.TR] UPDATED)
 
-    [http://arxiv.org/abs/2210.07184](http://arxiv.org/abs/2210.07184)
+    [http://arxiv.org/abs/2301.08360](http://arxiv.org/abs/2301.08360)
 
-    该论文研究了多智能体强化学习在场外交易市场模拟中的应用，通过适当设计奖励函数和共享策略学习，智能体能够学习到涵盖利润损失、最优执行和市场份额等多目标的新兴行为，同时也提出了一种基于强化学习的校准算法。
-
-    
-
-    我们研究了场外交易市场中流动性提供者和流动性接受者代理之间的博弈，典型示例是外汇市场。我们展示了如何通过适当设计参数化的奖励函数家族，并结合共享策略学习，构建出这个问题的高效解决方案。通过相互对战，我们基于深度强化学习的智能体能够学习到相对于利润损失、最优执行和市场份额等广泛目标的新兴行为。特别地，我们发现流动性提供者自然地学习到平衡对冲和偏斜的策略，其中偏斜是指根据其库存量将买入价格和卖出价格设置为非对称。我们还提出了一种新颖的基于强化学习的校准算法，我们发现它在对博弈均衡施加约束方面表现良好。在理论方面，我们能够展示我们的多智能体策略梯度算法在转换下的收敛速度。
-
-    We study a game between liquidity provider and liquidity taker agents interacting in an over-the-counter market, for which the typical example is foreign exchange. We show how a suitable design of parameterized families of reward functions coupled with shared policy learning constitutes an efficient solution to this problem. By playing against each other, our deep-reinforcement-learning-driven agents learn emergent behaviors relative to a wide spectrum of objectives encompassing profit-and-loss, optimal execution and market share. In particular, we find that liquidity providers naturally learn to balance hedging and skewing, where skewing refers to setting their buy and sell prices asymmetrically as a function of their inventory. We further introduce a novel RL-based calibration algorithm which we found performed well at imposing constraints on the game equilibrium. On the theoretical side, we are able to show convergence rates for our multi-agent policy gradient algorithm under a tran
-    
-[^11]: 基于粗糙波动性的统计推断：中心极限定理
-
-    Statistical inference for rough volatility: Central limit theorems. (arXiv:2210.01216v2 [math.ST] UPDATED)
-
-    [http://arxiv.org/abs/2210.01216](http://arxiv.org/abs/2210.01216)
-
-    本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。
+    本文提出了一种领域自适应学习和模仿的深度强化学习方法，用于电力套利交易。通过利用奖励工程和订单分段的方式，该方法能够提高训练的收敛性，增加竞标成功率，并显著提高利润和损失。
 
     
 
-    近年来，存在大量经验证据表明随机波动性是粗糙的。换句话说，随机波动性的局部行为比半鞘型过程更加不规则，类似于分数布朗运动，Hurst参数$H<0.5$。本文基于高频价格观测，推导出了一致且渐进混合正态的$H$估计器。与之前的工作不同的是，我们在半参数设置下工作，不假设任何先验关系与真实波动率之间的关系。此外，我们的估计器在参数化粗糙波动模型中获得了最小最大意义下的最优收敛速度。
+    本文讨论荷兰电力市场，由日前市场和即时平衡市场组成，并且运作方式类似拍卖。由于供需波动，通常存在不平衡导致两个市场价格不同，从而提供套利机会。为了解决这个问题，我们对问题进行了重构，并提出了一种协作式双代理深度强化学习方法，用于欧洲电力套利交易的双层仿真与优化。我们还引入了两种新的实现方式，通过模仿电力交易员的交易行为来融入领域特定知识。通过利用奖励工程来模仿领域专业知识，我们能够重新设计强化学习代理的奖励系统，改善训练中的收敛性并提高整体性能。此外，订单分段增加了竞标成功率，显著提高了利润和损失。我们的研究演示了通过领域自适应学习和模仿的深度强化学习方法在电力套利中的应用。
 
-    In recent years, there has been substantive empirical evidence that stochastic volatility is rough. In other words, the local behavior of stochastic volatility is much more irregular than semimartingales and resembles that of a fractional Brownian motion with Hurst parameter $H<0.5$. In this paper, we derive a consistent and asymptotically mixed normal estimator of $H$ based on high-frequency price observations. In contrast to previous works, we work in a semiparametric setting and do not assume any a priori relationship between volatility estimators and true volatility. Furthermore, our estimator attains a rate of convergence that is known to be optimal in a minimax sense in parametric rough volatility models.
+    In this paper, we discuss the Dutch power market, which is comprised of a day-ahead market and an intraday balancing market that operates like an auction. Due to fluctuations in power supply and demand, there is often an imbalance that leads to different prices in the two markets, providing an opportunity for arbitrage. To address this issue, we restructure the problem and propose a collaborative dual-agent reinforcement learning approach for this bi-level simulation and optimization of European power arbitrage trading. We also introduce two new implementations designed to incorporate domain-specific knowledge by imitating the trading behaviours of power traders. By utilizing reward engineering to imitate domain expertise, we are able to reform the reward system for the RL agent, which improves convergence during training and enhances overall performance. Additionally, the tranching of orders increases bidding success rates and significantly boosts profit and loss (P&L). Our study demo
+    
+[^16]: 领域自适应学习与可解释性：天然气交易的深度强化学习
+
+    Domain-adapted Learning and Interpretability: DRL for Gas Trading. (arXiv:2301.08359v2 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/2301.08359](http://arxiv.org/abs/2301.08359)
+
+    本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用，提高了交易性能并降低了交易成本。同时，通过提出的集成学习方案，提高了模型稳定性和鲁棒性。
+
+    
+
+    深度强化学习（Deep RL）已经在金融和股票交易等很多应用中得到了探索。本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用。所得到的夏普比率超过了趋势跟踪和均值回归策略提供的基准及文献中的结果。此外，我们提出了一个简单而有效的集成学习方案，通过提高模型的稳定性和鲁棒性以及降低换手率和交易成本来显著提高性能。我们讨论了 resulting Deep RL 策略的模型可解释性、交易频率和风险度量。
+
+    Deep Reinforcement Learning (Deep RL) has been explored for a number of applications in finance and stock trading. In this paper, we present a practical implementation of Deep RL for trading natural gas futures contracts. The Sharpe Ratio obtained exceeds benchmarks given by trend following and mean reversion strategies as well as results reported in literature. Moreover, we propose a simple but effective ensemble learning scheme for trading, which significantly improves performance through enhanced model stability and robustness as well as lower turnover and hence lower transaction cost. We discuss the resulting Deep RL strategy in terms of model explainability, trading frequency and risk measures.
     
 

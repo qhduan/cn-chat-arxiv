@@ -1,0 +1,11 @@
+{
+    "title": "Spatial Intelligence of a Self-driving Car and Rule-Based Decision Making. (arXiv:2308.01085v1 [cs.RO])",
+    "abstract": "In this paper we show how rule-based decision making can be combined with traditional motion planning techniques to achieve human-like behavior of a self-driving vehicle in complex traffic situations. We give and discuss examples of decision rules in autonomous driving. We draw on these examples to illustrate that developing techniques for spatial awareness of robots is an exciting activity which deserves more attention from spatial reasoning community that it had received so far.",
+    "link": "http://arxiv.org/abs/2308.01085",
+    "context": "Title: Spatial Intelligence of a Self-driving Car and Rule-Based Decision Making. (arXiv:2308.01085v1 [cs.RO])\nAbstract: In this paper we show how rule-based decision making can be combined with traditional motion planning techniques to achieve human-like behavior of a self-driving vehicle in complex traffic situations. We give and discuss examples of decision rules in autonomous driving. We draw on these examples to illustrate that developing techniques for spatial awareness of robots is an exciting activity which deserves more attention from spatial reasoning community that it had received so far.",
+    "path": "papers/23/08/2308.01085.json",
+    "total_tokens": 635,
+    "translated_title": "自动驾驶汽车的空间智能和基于规则的决策制定",
+    "translated_abstract": "本文展示了如何将基于规则的决策制定与传统的运动计划技术相结合，以实现自动驾驶车辆在复杂交通情况下表现出近似于人类行为的能力。我们提供并讨论了自动驾驶中的决策规则示例。通过这些示例，我们说明发展机器人空间意识技术是一项令人兴奋的活动，值得更多的空间推理社区关注。",
+    "tldr": "本文展示了如何将规则决策与运动规划技术相结合，实现自动驾驶车辆在复杂交通情况下表现出人类行为的能力，强调了发展机器人空间意识技术的重要性。"
+}

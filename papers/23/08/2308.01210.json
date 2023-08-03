@@ -1,0 +1,12 @@
+{
+    "title": "Global Hierarchical Neural Networks using Hierarchical Softmax. (arXiv:2308.01210v1 [stat.ML])",
+    "abstract": "This paper presents a framework in which hierarchical softmax is used to create a global hierarchical classifier. The approach is applicable for any classification task where there is a natural hierarchy among classes. We show empirical results on four text classification datasets. In all datasets the hierarchical softmax improved on the regular softmax used in a flat classifier in terms of macro-F1 and macro-recall. In three out of four datasets hierarchical softmax achieved a higher micro-accuracy and macro-precision.",
+    "link": "http://arxiv.org/abs/2308.01210",
+    "context": "Title: Global Hierarchical Neural Networks using Hierarchical Softmax. (arXiv:2308.01210v1 [stat.ML])\nAbstract: This paper presents a framework in which hierarchical softmax is used to create a global hierarchical classifier. The approach is applicable for any classification task where there is a natural hierarchy among classes. We show empirical results on four text classification datasets. In all datasets the hierarchical softmax improved on the regular softmax used in a flat classifier in terms of macro-F1 and macro-recall. In three out of four datasets hierarchical softmax achieved a higher micro-accuracy and macro-precision.",
+    "path": "papers/23/08/2308.01210.json",
+    "total_tokens": 657,
+    "translated_title": "使用层次化softmax的全局层次化神经网络",
+    "translated_abstract": "本文提出了一个框架，在其中使用层次化softmax来创建一个全局层次化分类器。该方法适用于任何具有自然层次结构的分类任务。我们在四个文本分类数据集上展示了实证结果。在所有数据集中，相对于使用平面分类器的常规softmax，层次化softmax在宏F1和宏召回率方面都有所提升。在四个数据集中的三个数据集中，层次化softmax实现了更高的微准确率和宏精确率。",
+    "tldr": "本文提出了一种使用层次化softmax的全局层次化神经网络框架，适用于具有层次结构的分类任务，并且在四个文本分类数据集上的实验结果表明，相较于常规softmax和平面分类器，层次化softmax能够取得更好的分类性能。",
+    "en_tdlr": "This paper proposes a global hierarchical neural network framework using hierarchical softmax for classification tasks with natural hierarchy, and empirical results on four text classification datasets show that hierarchical softmax outperforms regular softmax and flat classifiers in terms of classification performance."
+}

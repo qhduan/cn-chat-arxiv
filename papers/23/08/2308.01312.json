@@ -1,0 +1,12 @@
+{
+    "title": "Lode Encoder: AI-constrained co-creativity. (arXiv:2308.01312v1 [cs.LG])",
+    "abstract": "We present Lode Encoder, a gamified mixed-initiative level creation system for the classic platform-puzzle game Lode Runner. The system is built around several autoencoders which are trained on sets of Lode Runner levels. When fed with the user's design, each autoencoder produces a version of that design which is closer in style to the levels that it was trained on. The Lode Encoder interface allows the user to build and edit levels through 'painting' from the suggestions provided by the autoencoders. Crucially, in order to encourage designers to explore new possibilities, the system does not include more traditional editing tools. We report on the system design and training procedure, as well as on the evolution of the system itself and user tests.",
+    "link": "http://arxiv.org/abs/2308.01312",
+    "context": "Title: Lode Encoder: AI-constrained co-creativity. (arXiv:2308.01312v1 [cs.LG])\nAbstract: We present Lode Encoder, a gamified mixed-initiative level creation system for the classic platform-puzzle game Lode Runner. The system is built around several autoencoders which are trained on sets of Lode Runner levels. When fed with the user's design, each autoencoder produces a version of that design which is closer in style to the levels that it was trained on. The Lode Encoder interface allows the user to build and edit levels through 'painting' from the suggestions provided by the autoencoders. Crucially, in order to encourage designers to explore new possibilities, the system does not include more traditional editing tools. We report on the system design and training procedure, as well as on the evolution of the system itself and user tests.",
+    "path": "papers/23/08/2308.01312.json",
+    "total_tokens": 734,
+    "translated_title": "Lode Encoder: AI约束下的共创性游戏关卡生成器",
+    "translated_abstract": "我们提出了Lode Encoder，这是一个以经典平台益智游戏Lode Runner为基础的创意游戏关卡生成系统。该系统基于多个自编码器，这些自编码器通过对一系列Lode Runner关卡进行训练来生成与用户设计风格更相似的版本。Lode Encoder界面允许用户通过自编码器提供的建议来构建和编辑关卡。为了鼓励设计师探索新的可能性，该系统不包含传统的编辑工具。我们报告了系统设计和训练过程，以及系统演进和用户测试的结果。",
+    "tldr": "Lode Encoder是一个基于AI的共创性游戏关卡生成器，通过训练自编码器并结合用户设计，生成更加符合设计风格的关卡，鼓励设计师探索新的可能性。",
+    "en_tdlr": "Lode Encoder is an AI-based co-creative game level generator that utilizes autoencoders to generate levels closer in style to the user's design by training on a set of existing levels. It encourages designers to explore new possibilities by providing suggestions and removing traditional editing tools."
+}

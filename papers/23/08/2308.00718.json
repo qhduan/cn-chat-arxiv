@@ -1,0 +1,12 @@
+{
+    "title": "Beam Detection Based on Machine Learning Algorithms. (arXiv:2308.00718v1 [physics.data-an])",
+    "abstract": "The positions of free electron laser beams on screens are precisely determined by a sequence of machine learning models. Transfer training is conducted in a self-constructed convolutional neural network based on VGG16 model. Output of intermediate layers are passed as features to a support vector regression model. With this sequence, 85.8% correct prediction is achieved on test data.",
+    "link": "http://arxiv.org/abs/2308.00718",
+    "context": "Title: Beam Detection Based on Machine Learning Algorithms. (arXiv:2308.00718v1 [physics.data-an])\nAbstract: The positions of free electron laser beams on screens are precisely determined by a sequence of machine learning models. Transfer training is conducted in a self-constructed convolutional neural network based on VGG16 model. Output of intermediate layers are passed as features to a support vector regression model. With this sequence, 85.8% correct prediction is achieved on test data.",
+    "path": "papers/23/08/2308.00718.json",
+    "total_tokens": 570,
+    "translated_title": "基于机器学习算法的光束检测",
+    "translated_abstract": "通过一系列机器学习模型精确确定自由电子激光束在屏幕上的位置。在基于VGG16模型的自建卷积神经网络中进行迁移训练。将中间层的输出作为特征传递给支持向量回归模型。通过这个序列，在测试数据上实现了85.8％的正确预测。",
+    "tldr": "本文介绍了一种基于机器学习算法的光束检测方法，通过自建卷积神经网络和支持向量回归模型的组合进行预测，成功实现了85.8%的准确率。",
+    "en_tdlr": "This paper presents a beam detection method based on machine learning algorithms, which combines a self-constructed convolutional neural network and a support vector regression model to achieve a prediction accuracy of 85.8%."
+}

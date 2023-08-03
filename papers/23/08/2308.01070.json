@@ -1,0 +1,12 @@
+{
+    "title": "When Analytic Calculus Cracks AdaBoost Code. (arXiv:2308.01070v1 [cs.LG])",
+    "abstract": "The principle of boosting in supervised learning involves combining multiple weak classifiers to obtain a stronger classifier. AdaBoost has the reputation to be a perfect example of this approach. We have previously shown that AdaBoost is not truly an optimization algorithm. This paper shows that AdaBoost is an algorithm in name only, as the resulting combination of weak classifiers can be explicitly calculated using a truth table. This study is carried out by considering a problem with two classes and is illustrated by the particular case of three binary classifiers and presents results in comparison with those from the implementation of AdaBoost algorithm of the Python library scikit-learn.",
+    "link": "http://arxiv.org/abs/2308.01070",
+    "context": "Title: When Analytic Calculus Cracks AdaBoost Code. (arXiv:2308.01070v1 [cs.LG])\nAbstract: The principle of boosting in supervised learning involves combining multiple weak classifiers to obtain a stronger classifier. AdaBoost has the reputation to be a perfect example of this approach. We have previously shown that AdaBoost is not truly an optimization algorithm. This paper shows that AdaBoost is an algorithm in name only, as the resulting combination of weak classifiers can be explicitly calculated using a truth table. This study is carried out by considering a problem with two classes and is illustrated by the particular case of three binary classifiers and presents results in comparison with those from the implementation of AdaBoost algorithm of the Python library scikit-learn.",
+    "path": "papers/23/08/2308.01070.json",
+    "total_tokens": 634,
+    "translated_title": "当解析式微积分破解AdaBoost密码时",
+    "translated_abstract": "监督式学习中的增强原理涉及将多个弱分类器组合以获得一个更强的分类器。AdaBoost被认为是这种方法的一个完美例子。我们之前已经证明了AdaBoost并不真正是一个优化算法。本文表明，AdaBoost只是一种名义上的算法，因为可以使用真值表明确地计算得到弱分类器的组合。本研究通过考虑一个两类问题来进行，以三个二元分类器的特殊情况为例，并与Python库scikit-learn中AdaBoost算法的实现结果进行对比。",
+    "tldr": "本文表明AdaBoost只是一种名义上的算法，因为可以使用真值表明确地计算得到弱分类器的组合。",
+    "en_tdlr": "This paper shows that AdaBoost is just a nominal algorithm as the combination of weak classifiers can be explicitly calculated using a truth table."
+}

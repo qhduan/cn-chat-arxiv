@@ -1,0 +1,11 @@
+{
+    "title": "Leveraging Few-Shot Data Augmentation and Waterfall Prompting for Response Generation. (arXiv:2308.01080v1 [cs.CL])",
+    "abstract": "This paper discusses our approaches for task-oriented conversational modelling using subjective knowledge, with a particular emphasis on response generation. Our methodology was shaped by an extensive data analysis that evaluated key factors such as response length, sentiment, and dialogue acts present in the provided dataset. We used few-shot learning to augment the data with newly generated subjective knowledge items and present three approaches for DSTC11: (1) task-specific model exploration, (2) incorporation of the most frequent question into all generated responses, and (3) a waterfall prompting technique using a combination of both GPT-3 and ChatGPT.",
+    "link": "http://arxiv.org/abs/2308.01080",
+    "context": "Title: Leveraging Few-Shot Data Augmentation and Waterfall Prompting for Response Generation. (arXiv:2308.01080v1 [cs.CL])\nAbstract: This paper discusses our approaches for task-oriented conversational modelling using subjective knowledge, with a particular emphasis on response generation. Our methodology was shaped by an extensive data analysis that evaluated key factors such as response length, sentiment, and dialogue acts present in the provided dataset. We used few-shot learning to augment the data with newly generated subjective knowledge items and present three approaches for DSTC11: (1) task-specific model exploration, (2) incorporation of the most frequent question into all generated responses, and (3) a waterfall prompting technique using a combination of both GPT-3 and ChatGPT.",
+    "path": "papers/23/08/2308.01080.json",
+    "total_tokens": 662,
+    "translated_title": "利用少样本数据增强和瀑布提示的方式来进行回复生成",
+    "translated_abstract": "本文讨论了我们在任务导向的对话建模中使用主观知识的方法，特别强调回复生成。我们的方法是通过对提供的数据集进行数据分析，评估回复长度、情感和对话行为等关键因素来确定的。我们利用少样本学习以生成新的主观知识项目来增强数据，并提出了三种DSTC11的方法：（1）任务特定模型探索，（2）将最常见的问题并入所有生成的回复中，以及（3）使用GPT-3和ChatGPT的瀑布提示技术。",
+    "tldr": "本文介绍了一种利用少样本数据增强和瀑布提示的方式来进行回复生成的方法，通过数据分析确定关键因素，并提出了三种不同的方法。"
+}

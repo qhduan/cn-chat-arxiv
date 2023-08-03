@@ -1,0 +1,12 @@
+{
+    "title": "An Exact Kernel Equivalence for Finite Classification Models. (arXiv:2308.00824v1 [cs.LG])",
+    "abstract": "We explore the equivalence between neural networks and kernel methods by deriving the first exact representation of any finite-size parametric classification model trained with gradient descent as a kernel machine. We compare our exact representation to the well-known Neural Tangent Kernel (NTK) and discuss approximation error relative to the NTK and other non-exact path kernel formulations. We experimentally demonstrate that the kernel can be computed for realistic networks up to machine precision. We use this exact kernel to show that our theoretical contribution can provide useful insights into the predictions made by neural networks, particularly the way in which they generalize.",
+    "link": "http://arxiv.org/abs/2308.00824",
+    "context": "Title: An Exact Kernel Equivalence for Finite Classification Models. (arXiv:2308.00824v1 [cs.LG])\nAbstract: We explore the equivalence between neural networks and kernel methods by deriving the first exact representation of any finite-size parametric classification model trained with gradient descent as a kernel machine. We compare our exact representation to the well-known Neural Tangent Kernel (NTK) and discuss approximation error relative to the NTK and other non-exact path kernel formulations. We experimentally demonstrate that the kernel can be computed for realistic networks up to machine precision. We use this exact kernel to show that our theoretical contribution can provide useful insights into the predictions made by neural networks, particularly the way in which they generalize.",
+    "path": "papers/23/08/2308.00824.json",
+    "total_tokens": 698,
+    "translated_title": "有限分类模型的精确核等价性",
+    "translated_abstract": "本研究通过推导梯度下降训练的任意有限大小参数分类模型的精确表示，探索神经网络和核方法之间的等价性。我们将我们的精确表示与著名的神经切向核（NTK）进行比较，并讨论相对于NTK和其他非精确路径核公式的近似误差。我们通过实验证明，可以计算出逼真网络的核到机器精度。我们利用这个精确核来展示我们的理论贡献如何为神经网络的预测提供有用的见解，特别是它们的泛化方式。",
+    "tldr": "本研究推导出梯度下降训练的有限分类模型的精确核表示，揭示了神经网络和核方法之间的等价性，并通过实验证明了精确核对神经网络预测的指导作用。",
+    "en_tdlr": "This paper derives the exact kernel representation of finite classification models trained with gradient descent, revealing the equivalence between neural networks and kernel methods. Experimental results demonstrate the usefulness of the exact kernel in providing insights into neural network predictions, particularly their generalization."
+}

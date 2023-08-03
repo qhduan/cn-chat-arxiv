@@ -1,0 +1,11 @@
+{
+    "title": "Methodologies for Improving Modern Industrial Recommender Systems. (arXiv:2308.01204v1 [cs.IR])",
+    "abstract": "Recommender system (RS) is an established technology with successful applications in social media, e-commerce, entertainment, and more. RSs are indeed key to the success of many popular APPs, such as YouTube, Tik Tok, Xiaohongshu, Bilibili, and others. This paper explores the methodology for improving modern industrial RSs. It is written for experienced RS engineers who are diligently working to improve their key performance indicators, such as retention and duration. The experiences shared in this paper have been tested in some real industrial RSs and are likely to be generalized to other RSs as well. Most contents in this paper are industry experience without publicly available references.",
+    "link": "http://arxiv.org/abs/2308.01204",
+    "context": "Title: Methodologies for Improving Modern Industrial Recommender Systems. (arXiv:2308.01204v1 [cs.IR])\nAbstract: Recommender system (RS) is an established technology with successful applications in social media, e-commerce, entertainment, and more. RSs are indeed key to the success of many popular APPs, such as YouTube, Tik Tok, Xiaohongshu, Bilibili, and others. This paper explores the methodology for improving modern industrial RSs. It is written for experienced RS engineers who are diligently working to improve their key performance indicators, such as retention and duration. The experiences shared in this paper have been tested in some real industrial RSs and are likely to be generalized to other RSs as well. Most contents in this paper are industry experience without publicly available references.",
+    "path": "papers/23/08/2308.01204.json",
+    "total_tokens": 698,
+    "translated_title": "提升现代工业推荐系统的方法论",
+    "translated_abstract": "推荐系统（RS）是一项成熟的技术，已成功应用于社交媒体、电子商务、娱乐等领域。RS确实是许多流行APP（如YouTube、Tik Tok、小红书、哔哩哔哩等）成功的关键。本文探讨了提高现代工业RS的方法论，旨在为经验丰富的RS工程师提供帮助，他们正在努力改善关键性能指标，如用户留存和使用时长。本文中分享的经验已经在一些真实的工业RS上进行了测试，并且可能适用于其他RS。大部分内容都基于业界经验，没有公开可用的参考资料。",
+    "tldr": "本文探讨了提高现代工业推荐系统的方法论，为经验丰富的RS工程师提供实用经验，可能适用于其他RS。"
+}

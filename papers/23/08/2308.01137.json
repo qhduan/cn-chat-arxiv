@@ -1,0 +1,12 @@
+{
+    "title": "Multi-task learning for classification, segmentation, reconstruction, and detection on chest CT scans. (arXiv:2308.01137v1 [eess.IV])",
+    "abstract": "Lung cancer and covid-19 have one of the highest morbidity and mortality rates in the world. For physicians, the identification of lesions is difficult in the early stages of the disease and time-consuming. Therefore, multi-task learning is an approach to extracting important features, such as lesions, from small amounts of medical data because it learns to generalize better. We propose a novel multi-task framework for classification, segmentation, reconstruction, and detection. To the best of our knowledge, we are the first ones who added detection to the multi-task solution. Additionally, we checked the possibility of using two different backbones and different loss functions in the segmentation task.",
+    "link": "http://arxiv.org/abs/2308.01137",
+    "context": "Title: Multi-task learning for classification, segmentation, reconstruction, and detection on chest CT scans. (arXiv:2308.01137v1 [eess.IV])\nAbstract: Lung cancer and covid-19 have one of the highest morbidity and mortality rates in the world. For physicians, the identification of lesions is difficult in the early stages of the disease and time-consuming. Therefore, multi-task learning is an approach to extracting important features, such as lesions, from small amounts of medical data because it learns to generalize better. We propose a novel multi-task framework for classification, segmentation, reconstruction, and detection. To the best of our knowledge, we are the first ones who added detection to the multi-task solution. Additionally, we checked the possibility of using two different backbones and different loss functions in the segmentation task.",
+    "path": "papers/23/08/2308.01137.json",
+    "total_tokens": 785,
+    "translated_title": "多任务学习用于胸部CT扫描的分类、分割、重建和检测",
+    "translated_abstract": "肺癌和COVID-19在世界上具有最高的患病率和死亡率之一。对于医生来说，早期疾病的病变识别困难且耗时。因此，多任务学习是一种从少量医疗数据中提取重要特征（如病变）的方法，因为它学习更好地概括。我们提出了一种新颖的多任务框架，用于分类、分割、重建和检测。据我们所知，我们是第一个将检测添加到多任务解决方案中的人。此外，我们在分割任务中检查了使用两个不同的骨干网络和不同的损失函数的可能性。",
+    "tldr": "本文提出了一种多任务学习框架，应用于胸部CT扫描的分类、分割、重建和检测。该方法可以从少量医疗数据中提取重要特征，如病变，以更好地概括和识别早期疾病。",
+    "en_tdlr": "This paper proposes a novel multi-task learning framework for classification, segmentation, reconstruction, and detection on chest CT scans. It is able to extract important features, such as lesions, from small amounts of medical data to better generalize and identify early-stage diseases."
+}

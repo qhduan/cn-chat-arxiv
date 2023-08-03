@@ -1,0 +1,12 @@
+{
+    "title": "QUANT: A Minimalist Interval Method for Time Series Classification. (arXiv:2308.00928v1 [cs.LG])",
+    "abstract": "We show that it is possible to achieve the same accuracy, on average, as the most accurate existing interval methods for time series classification on a standard set of benchmark datasets using a single type of feature (quantiles), fixed intervals, and an 'off the shelf' classifier. This distillation of interval-based approaches represents a fast and accurate method for time series classification, achieving state-of-the-art accuracy on the expanded set of 142 datasets in the UCR archive with a total compute time (training and inference) of less than 15 minutes using a single CPU core.",
+    "link": "http://arxiv.org/abs/2308.00928",
+    "context": "Title: QUANT: A Minimalist Interval Method for Time Series Classification. (arXiv:2308.00928v1 [cs.LG])\nAbstract: We show that it is possible to achieve the same accuracy, on average, as the most accurate existing interval methods for time series classification on a standard set of benchmark datasets using a single type of feature (quantiles), fixed intervals, and an 'off the shelf' classifier. This distillation of interval-based approaches represents a fast and accurate method for time series classification, achieving state-of-the-art accuracy on the expanded set of 142 datasets in the UCR archive with a total compute time (training and inference) of less than 15 minutes using a single CPU core.",
+    "path": "papers/23/08/2308.00928.json",
+    "total_tokens": 767,
+    "translated_title": "QUANT：一种用于时间序列分类的极简区间方法",
+    "translated_abstract": "我们展示了在标准一组基准数据集上，使用一种特征类型（分位数）、固定区间和一个现成的分类器，可以实现与现有最准确的区间方法平均准确率相同的准确率。这种区间方法的精简表示了一种快速准确的时间序列分类方法，在UCR存档的扩展数据集中，使用单个CPU核心的总计算时间（训练和推断）不超过15分钟的情况下，实现了最先进的准确率。",
+    "tldr": "QUANT是一种用于时间序列分类的极简区间方法，可以使用单一的特征（分位数）、固定区间和一个现成的分类器，在标准数据集上实现与现有最准确的区间方法相同的准确率。在UCR存档的扩展数据集上，使用单个CPU核心的总计算时间（训练和推断）不超过15分钟，在时间序列分类中取得了最先进的准确率。",
+    "en_tdlr": "QUANT is a minimalist interval method for time series classification, achieving the same accuracy as existing interval methods on a standard set of benchmark datasets using a single feature (quantiles), fixed intervals, and an 'off the shelf' classifier. It achieves state-of-the-art accuracy on the expanded set of 142 datasets in the UCR archive with a total compute time (training and inference) of less than 15 minutes using a single CPU core."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Divergence of the ADAM algorithm with fixed-stepsize: a (very) simple example. (arXiv:2308.00720v1 [cs.LG])",
+    "abstract": "A very simple unidimensional function with Lipschitz continuous gradient is constructed such that the ADAM algorithm with constant stepsize, started from the origin, diverges when applied to minimize this function in the absence of noise on the gradient. Divergence occurs irrespective of the choice of the method parameters.",
+    "link": "http://arxiv.org/abs/2308.00720",
+    "context": "Title: Divergence of the ADAM algorithm with fixed-stepsize: a (very) simple example. (arXiv:2308.00720v1 [cs.LG])\nAbstract: A very simple unidimensional function with Lipschitz continuous gradient is constructed such that the ADAM algorithm with constant stepsize, started from the origin, diverges when applied to minimize this function in the absence of noise on the gradient. Divergence occurs irrespective of the choice of the method parameters.",
+    "path": "papers/23/08/2308.00720.json",
+    "total_tokens": 542,
+    "translated_title": "ADAM算法在固定步长下的发散：一个(非常)简单的例子",
+    "translated_abstract": "构造了一个非常简单的一维函数，其梯度是利普希茨连续的，当在梯度没有噪声的情况下，从原点开始应用ADAM算法来最小化这个函数时，该算法以恒定的步长发散。不管方法参数如何选择，都会出现发散现象。",
+    "tldr": "在没有梯度噪声的情况下，ADAM算法在固定步长时会发散，而不受方法参数选择的影响。",
+    "en_tdlr": "The ADAM algorithm with a fixed stepsize diverges when applied to minimize a simple unidimensional function with Lipschitz continuous gradient in the absence of noise, irrespective of the choice of method parameters."
+}

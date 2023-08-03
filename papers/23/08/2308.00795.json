@@ -1,0 +1,11 @@
+{
+    "title": "Duopoly insurers' incentives for data quality under a mandatory cyber data sharing regime. (arXiv:2308.00795v1 [econ.TH])",
+    "abstract": "We study the impact of data sharing policies on cyber insurance markets. These policies have been proposed to address the scarcity of data about cyber threats, which is essential to manage cyber risks. We propose a Cournot duopoly competition model in which two insurers choose the number of policies they offer (i.e., their production level) and also the resources they invest to ensure the quality of data regarding the cost of claims (i.e., the data quality of their production cost). We find that enacting mandatory data sharing sometimes creates situations in which at most one of the two insurers invests in data quality, whereas both insurers would invest when information sharing is not mandatory. This raises concerns about the merits of making data sharing mandatory.",
+    "link": "http://arxiv.org/abs/2308.00795",
+    "context": "Title: Duopoly insurers' incentives for data quality under a mandatory cyber data sharing regime. (arXiv:2308.00795v1 [econ.TH])\nAbstract: We study the impact of data sharing policies on cyber insurance markets. These policies have been proposed to address the scarcity of data about cyber threats, which is essential to manage cyber risks. We propose a Cournot duopoly competition model in which two insurers choose the number of policies they offer (i.e., their production level) and also the resources they invest to ensure the quality of data regarding the cost of claims (i.e., the data quality of their production cost). We find that enacting mandatory data sharing sometimes creates situations in which at most one of the two insurers invests in data quality, whereas both insurers would invest when information sharing is not mandatory. This raises concerns about the merits of making data sharing mandatory.",
+    "path": "papers/23/08/2308.00795.json",
+    "total_tokens": 746,
+    "translated_title": "两家垄断保险公司在强制性网络数据共享制度下对数据质量的激励效应",
+    "translated_abstract": "我们研究了数据共享政策对网络保险市场的影响。这些政策旨在解决网络威胁数据的稀缺性问题，这对于管理网络风险至关重要。我们提出了一个柯诺垄断竞争模型，其中两家保险公司选择他们提供的保险数量（即生产水平），以及他们投资于确保索赔成本数据质量的资源（即他们生产成本的数据质量）。我们发现，强制数据共享有时会导致只有两家保险公司中的一家投资于数据质量，而当信息共享不是强制性的时候，两家保险公司都会进行投资。这引发了关于强制数据共享的可取之处的担忧。",
+    "tldr": "在强制数据共享的情况下，两家保险公司的数据质量投资可能不一样，对于强制数据共享的有效性存在担忧。"
+}
