@@ -4,13 +4,14 @@
 | --- | --- | --- |
 | [^1] | [Analyzing the Reporting Error of Public Transport Trips in the Danish National Travel Survey Using Smart Card Data.](http://arxiv.org/abs/2308.01198) | 本研究使用丹麦智能卡数据和全国出行调查数据，发现在公共交通用户的时间报告中存在中位数为11.34分钟的报告误差。 |
 | [^2] | [The Bayesian Context Trees State Space Model for time series modelling and forecasting.](http://arxiv.org/abs/2308.00913) | 该论文介绍了基于贝叶斯上下文树状态空间模型的时间序列建模和预测方法，通过层级贝叶斯框架将离散状态和实值时间序列模型组合，构建出灵活且可解释的混合模型，并提出了有效的算法来进行贝叶斯推断和预测。 |
-| [^3] | [Duopoly insurers' incentives for data quality under a mandatory cyber data sharing regime.](http://arxiv.org/abs/2308.00795) | 在强制数据共享的情况下，两家保险公司的数据质量投资可能不一样，对于强制数据共享的有效性存在担忧。 |
-| [^4] | [Infodemia e pandemia: la cognitive warfare ai tempi del SARS-CoV-2.](http://arxiv.org/abs/2308.00706) | SARS-CoV-2病毒引发了一场信息泛滥，导致不确定氛围的建立。国家和非国家行为者通过操纵认知领域进行信息管理，构成了一场认知战争。公民和机构应采取批判性分析态度，国际合作政策可帮助抗击认知战争并减少其灾难性影响。 |
-| [^5] | [ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations.](http://arxiv.org/abs/2305.11900) | 本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。 |
-| [^6] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
-| [^7] | [Treatment Effects in Bunching Designs: The Impact of Mandatory Overtime Pay on Hours.](http://arxiv.org/abs/2205.10310) | 这项研究利用扎堆设计评估了强制加班工资对工时的影响，并发现加班规定对工时和就业有明显但有限的影响。 |
-| [^8] | [Effect or Treatment Heterogeneity? Policy Evaluation with Aggregated and Disaggregated Treatments.](http://arxiv.org/abs/2110.01427) | 本文提出了一种分解方法，以发现治疗效果和治疗分配中的差异化，避免虚假发现，并评估治疗分配质量。研究发现，吸烟对出生体重的效应差异部分是由于不同的吸烟强度，而职业培训对工作军效果的性别差距主要是由于不同的选择性进入。 |
-| [^9] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
+| [^3] | [Towards Climate Neutrality: A Comprehensive Overview of Sustainable Operations Management, Optimization, and Wastewater Treatment Strategies.](http://arxiv.org/abs/2308.00808) | 本文综述了可持续运营管理、优化和废水处理领域的研究进展，提出了有效的脱碳策略和可持续性方法，以实现欧洲气候中性愿景。研究还探讨了数字化在减碳中的作用，回顾了政府行动的脱碳政策，并对应用于科学技术领域的优化方法进行了综述，强调了非传统能源和分布式发电系统的重要性。 |
+| [^4] | [Duopoly insurers' incentives for data quality under a mandatory cyber data sharing regime.](http://arxiv.org/abs/2308.00795) | 在强制数据共享的情况下，两家保险公司的数据质量投资可能不一样，对于强制数据共享的有效性存在担忧。 |
+| [^5] | [Infodemia e pandemia: la cognitive warfare ai tempi del SARS-CoV-2.](http://arxiv.org/abs/2308.00706) | SARS-CoV-2病毒引发了一场信息泛滥，导致不确定氛围的建立。国家和非国家行为者通过操纵认知领域进行信息管理，构成了一场认知战争。公民和机构应采取批判性分析态度，国际合作政策可帮助抗击认知战争并减少其灾难性影响。 |
+| [^6] | [ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations.](http://arxiv.org/abs/2305.11900) | 本文研究了 ChatGPT人工智能（AI）讨论对美国学生预期劳动市场结果的因果影响，结果发现学生信心会降低，对未来的收入前景保持悲观态度，这种影响广泛存在于不同学生群体中。这个研究给教育工作者、管理者和政策制定者提供了一个机会，以更好地了解学生的担忧并改进教育课程，使学生更好地准备未来，这个未来必然会被AI改变。 |
+| [^7] | [On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices.](http://arxiv.org/abs/2305.05998) | 本文研究了日本股票市场中APT的时间不稳定性，发现APT作为解释日本股票市场的适当模型的有效性随时间变化不稳定，风险因素的变化、货币政策和商业周期等因素都可能影响其有效性。 |
+| [^8] | [Treatment Effects in Bunching Designs: The Impact of Mandatory Overtime Pay on Hours.](http://arxiv.org/abs/2205.10310) | 这项研究利用扎堆设计评估了强制加班工资对工时的影响，并发现加班规定对工时和就业有明显但有限的影响。 |
+| [^9] | [Effect or Treatment Heterogeneity? Policy Evaluation with Aggregated and Disaggregated Treatments.](http://arxiv.org/abs/2110.01427) | 本文提出了一种分解方法，以发现治疗效果和治疗分配中的差异化，避免虚假发现，并评估治疗分配质量。研究发现，吸烟对出生体重的效应差异部分是由于不同的吸烟强度，而职业培训对工作军效果的性别差距主要是由于不同的选择性进入。 |
+| [^10] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
 
 # 详细
 
@@ -42,7 +43,21 @@
 
     A hierarchical Bayesian framework is introduced for developing rich mixture models for real-valued time series, along with a collection of effective tools for learning and inference. At the top level, meaningful discrete states are identified as appropriately quantised values of some of the most recent samples. This collection of observable states is described as a discrete context-tree model. Then, at the bottom level, a different, arbitrary model for real-valued time series - a base model - is associated with each state. This defines a very general framework that can be used in conjunction with any existing model class to build flexible and interpretable mixture models. We call this the Bayesian Context Trees State Space Model, or the BCT-X framework. Efficient algorithms are introduced that allow for effective, exact Bayesian inference; in particular, the maximum a posteriori probability (MAP) context-tree model can be identified. These algorithms can be updated sequentially, facili
     
-[^3]: 两家垄断保险公司在强制性网络数据共享制度下对数据质量的激励效应
+[^3]: 迈向气候中性：可持续运营管理、优化和废水处理策略综述
+
+    Towards Climate Neutrality: A Comprehensive Overview of Sustainable Operations Management, Optimization, and Wastewater Treatment Strategies. (arXiv:2308.00808v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.00808](http://arxiv.org/abs/2308.00808)
+
+    本文综述了可持续运营管理、优化和废水处理领域的研究进展，提出了有效的脱碳策略和可持续性方法，以实现欧洲气候中性愿景。研究还探讨了数字化在减碳中的作用，回顾了政府行动的脱碳政策，并对应用于科学技术领域的优化方法进行了综述，强调了非传统能源和分布式发电系统的重要性。
+
+    
+
+    在可持续运营管理、优化和废水处理领域进行了许多研究，取得了可持续发展。本文在欧洲气候中性愿景的背景下，回顾了有效的脱碳策略，并提出了可持续性方法来减轻建筑、能源、工业和交通等各个领域的碳化。该研究还探讨了数字化在减碳中的作用，并回顾了能够将政府行动引导向气候中性社会的脱碳政策。本文还对应用于科学技术领域的优化方法进行了综述，包括基于各种同行评审的研究论文的现代优化技术。它强调了非传统能源和分布式发电系统以及非管制和管制环境。此外，本文批评性地回顾了性能和能力。
+
+    Various studies have been conducted in the fields of sustainable operations management, optimization, and wastewater treatment, yielding unsubstantiated recovery. In the context of Europes climate neutrality vision, this paper reviews effective decarbonization strategies and proposes sustainable approaches to mitigate carbonization in various sectors such as building, energy, industry, and transportation. The study also explores the role of digitalization in decarbonization and reviews decarbonization policies that can direct governments action towards a climate-neutral society. The paper also presents a review of optimization approaches applied in the fields of science and technology, incorporating modern optimization techniques based on various peer-reviewed published research papers. It emphasizes non-conventional energy and distributed power generating systems along with the deregulated and regulated environment. Additionally, this paper critically reviews the performance and capab
+    
+[^4]: 两家垄断保险公司在强制性网络数据共享制度下对数据质量的激励效应
 
     Duopoly insurers' incentives for data quality under a mandatory cyber data sharing regime. (arXiv:2308.00795v1 [econ.TH])
 
@@ -56,7 +71,7 @@
 
     We study the impact of data sharing policies on cyber insurance markets. These policies have been proposed to address the scarcity of data about cyber threats, which is essential to manage cyber risks. We propose a Cournot duopoly competition model in which two insurers choose the number of policies they offer (i.e., their production level) and also the resources they invest to ensure the quality of data regarding the cost of claims (i.e., the data quality of their production cost). We find that enacting mandatory data sharing sometimes creates situations in which at most one of the two insurers invests in data quality, whereas both insurers would invest when information sharing is not mandatory. This raises concerns about the merits of making data sharing mandatory.
     
-[^4]: Infodemia和大流行病：SARS-CoV-2时代的认知战争
+[^5]: Infodemia和大流行病：SARS-CoV-2时代的认知战争
 
     Infodemia e pandemia: la cognitive warfare ai tempi del SARS-CoV-2. (arXiv:2308.00706v1 [physics.soc-ph])
 
@@ -70,7 +85,7 @@
 
     With the appearance of SARS-CoV-2, two epidemics have spread: one for health and one for information. The virus has generated an unprecedented infodemic, contributing to the establishment of a climate of great uncertainty. Massive and redundant information has also been an effective vector of propaganda, on a global scale, by state and non-state actors. A real hostile act in which physical violence is not foreseen, but systematic management of information through the manipulation of the cognitive sphere. For this reason, the adoption of an attitude of active critical analysis by citizens and institutions and also the implementation of common policies at an international level could undoubtedly facilitate the fight against cognitive warfare (so-called cognitive warfare) and therefore limit its disastrous effects.
     
-[^5]: ChatGPT与劳动力市场：揭示AI讨论对学生收入预期影响
+[^6]: ChatGPT与劳动力市场：揭示AI讨论对学生收入预期影响
 
     ChatGPT and the Labor Market: Unraveling the Effect of AI Discussions on Students' Earnings Expectations. (arXiv:2305.11900v1 [econ.GN])
 
@@ -84,7 +99,7 @@
 
     This paper investigates the causal impact of negatively and positively framed ChatGPT Artificial Intelligence (AI) discussions on US students' anticipated labor market outcomes. Our findings reveal students reduce their confidence regarding their future earnings prospects after exposure to AI debates, and this effect is more pronounced after reading discussion excerpts with a negative tone. Unlike STEM majors, students in Non-STEM fields show asymmetric and pessimistic belief changes, suggesting that they might feel more vulnerable to emerging AI technologies. Pessimistic belief updates regarding future earnings are also prevalent across gender and GPA levels, indicating widespread AI concerns among all student subgroups. Educators, administrators, and policymakers may regularly engage with students to address their concerns and enhance educational curricula to better prepare them for a future that will be inevitably shaped by AI.
     
-[^6]: 关于APT的时变结构及其在日本股票市场的应用研究
+[^7]: 关于APT的时变结构及其在日本股票市场的应用研究
 
     On the Time-Varying Structure of the Arbitrage Pricing Theory using the Japanese Sector Indices. (arXiv:2305.05998v1 [q-fin.ST])
 
@@ -98,7 +113,7 @@
 
     This paper is the first study to examine the time instability of the APT in the Japanese stock market. In particular, we measure how changes in each risk factor affect the stock risk premiums to investigate the validity of the APT over time, applying the rolling window method to Fama and MacBeth's (1973) two-step regression and Kamstra and Shi's (2023) generalized GRS test. We summarize our empirical results as follows: (1) the APT is supported over the entire sample period but not at all times, (2) the changes in monetary policy greatly affect the validity of the APT in Japan, and (3) the time-varying estimates of the risk premiums for each factor are also unstable over time, and they are affected by the business cycle and economic crises. Therefore, we conclude that the validity of the APT as an appropriate model to explain the Japanese sector index is not stable over time.
     
-[^7]: 批量设计中的治疗效果: 强制加班工资对工时的影响
+[^8]: 批量设计中的治疗效果: 强制加班工资对工时的影响
 
     Treatment Effects in Bunching Designs: The Impact of Mandatory Overtime Pay on Hours. (arXiv:2205.10310v2 [econ.EM] UPDATED)
 
@@ -112,7 +127,7 @@
 
     The 1938 Fair Labor Standards Act mandates overtime premium pay for most U.S. workers, but it has proven difficult to assess the policy's impact on the labor market because the rule applies nationally and has varied little over time. I use the extent to which firms bunch workers at the overtime threshold of 40 hours in a week to estimate the rule's effect on hours, drawing on data from individual workers' weekly paychecks. To do so I generalize a popular identification strategy that exploits bunching at kink points in a decision-maker's choice set. Making only nonparametric assumptions about preferences and heterogeneity, I show that the average causal response among bunchers to the policy switch at the kink is partially identified. The bounds indicate a relatively small elasticity of demand for weekly hours, suggesting that the overtime mandate has a discernible but limited impact on hours and employment.
     
-[^8]: 《治疗效果差异还是治疗差异？聚合和细分治疗的政策评估》
+[^9]: 《治疗效果差异还是治疗差异？聚合和细分治疗的政策评估》
 
     Effect or Treatment Heterogeneity? Policy Evaluation with Aggregated and Disaggregated Treatments. (arXiv:2110.01427v3 [econ.EM] UPDATED)
 
@@ -126,7 +141,7 @@
 
     Binary treatments are often ex-post aggregates of multiple treatments or can be disaggregated into multiple treatment versions. Thus, effects can be heterogeneous due to either effect or treatment heterogeneity. We propose a decomposition method that uncovers masked heterogeneity, avoids spurious discoveries, and evaluates treatment assignment quality. The estimation and inference procedure based on double/debiased machine learning allows for high-dimensional confounding, many treatments and extreme propensity scores. Our applications suggest that heterogeneous effects of smoking on birthweight are partially due to different smoking intensities and that gender gaps in Job Corps effectiveness are largely explained by differential selection into vocational training.
     
-[^9]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
+[^10]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
 
     More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
 
