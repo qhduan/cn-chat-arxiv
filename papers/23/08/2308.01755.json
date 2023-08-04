@@ -1,0 +1,12 @@
+{
+    "title": "Repeated Bidding with Dynamic Value. (arXiv:2308.01755v1 [econ.TH])",
+    "abstract": "We consider a repeated auction where the buyer's utility for an item depends on the time that elapsed since his last purchase. We present an algorithm to build the optimal bidding policy, and then, because optimal might be impractical, we discuss the cost for the buyer of limiting himself to shading policies.",
+    "link": "http://arxiv.org/abs/2308.01755",
+    "context": "Title: Repeated Bidding with Dynamic Value. (arXiv:2308.01755v1 [econ.TH])\nAbstract: We consider a repeated auction where the buyer's utility for an item depends on the time that elapsed since his last purchase. We present an algorithm to build the optimal bidding policy, and then, because optimal might be impractical, we discuss the cost for the buyer of limiting himself to shading policies.",
+    "path": "papers/23/08/2308.01755.json",
+    "total_tokens": 522,
+    "translated_title": "动态价值下的重复竞标",
+    "translated_abstract": "我们考虑了一个重复拍卖的情况，买家对物品的效用取决于自上次购买以来经过的时间。我们提出了一个算法来构建最优的竞标策略，然后讨论了买家限制自己使用遮蔽策略所带来的成本。",
+    "tldr": "在动态价值下的重复拍卖中，我们提出了一个算法来构建最优的竞标策略，并讨论了买家限制自己使用遮蔽策略所带来的成本。",
+    "en_tdlr": "We propose an algorithm to build the optimal bidding policy in a repeated auction with dynamic value, and discuss the cost for the buyer of using shading policies."
+}

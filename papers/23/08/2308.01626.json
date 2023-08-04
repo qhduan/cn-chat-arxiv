@@ -1,0 +1,11 @@
+{
+    "title": "Interleaving GANs with knowledge graphs to support design creativity for book covers. (arXiv:2308.01626v1 [cs.CV])",
+    "abstract": "An attractive book cover is important for the success of a book. In this paper, we apply Generative Adversarial Networks (GANs) to the book covers domain, using different methods for training in order to obtain better generated images. We interleave GANs with knowledge graphs to alter the input title to obtain multiple possible options for any given title, which are then used as an augmented input to the generator. Finally, we use the discriminator obtained during the training phase to select the best images generated with new titles. Our method performed better at generating book covers than previous attempts, and the knowledge graph gives better options to the book author or editor compared to using GANs alone.",
+    "link": "http://arxiv.org/abs/2308.01626",
+    "context": "Title: Interleaving GANs with knowledge graphs to support design creativity for book covers. (arXiv:2308.01626v1 [cs.CV])\nAbstract: An attractive book cover is important for the success of a book. In this paper, we apply Generative Adversarial Networks (GANs) to the book covers domain, using different methods for training in order to obtain better generated images. We interleave GANs with knowledge graphs to alter the input title to obtain multiple possible options for any given title, which are then used as an augmented input to the generator. Finally, we use the discriminator obtained during the training phase to select the best images generated with new titles. Our method performed better at generating book covers than previous attempts, and the knowledge graph gives better options to the book author or editor compared to using GANs alone.",
+    "path": "papers/23/08/2308.01626.json",
+    "total_tokens": 768,
+    "translated_title": "将知识图谱与生成对抗网络相互交错应用于书籍封面设计的创意支持",
+    "translated_abstract": "书籍封面的吸引力对于一本书的成功至关重要。本文将生成对抗网络（GANs）应用于书籍封面领域，使用不同的训练方法以获得更好的生成图像。我们将知识图谱与GANs相互交错，改变输入标题以获得给定标题的多个可能选项，然后将其作为生成器的增强输入。最后，我们利用训练阶段获得的鉴别器选择使用新标题生成的最佳图像。相比仅使用GANs，我们的方法在生成书籍封面方面表现更好，而知识图谱与书籍作者或编辑相比提供了更好的选择。",
+    "tldr": "本文将生成对抗网络与知识图谱相互交错应用于书籍封面设计，通过改变输入标题获得多个选项并利用鉴别器选择最佳图像，表现出比之前方法更好的生成效果和更好的选择。"
+}

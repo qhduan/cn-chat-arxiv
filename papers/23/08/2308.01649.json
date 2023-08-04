@@ -1,0 +1,12 @@
+{
+    "title": "MARLIM: Multi-Agent Reinforcement Learning for Inventory Management. (arXiv:2308.01649v1 [cs.LG])",
+    "abstract": "Maintaining a balance between the supply and demand of products by optimizing replenishment decisions is one of the most important challenges in the supply chain industry. This paper presents a novel reinforcement learning framework called MARLIM, to address the inventory management problem for a single-echelon multi-products supply chain with stochastic demands and lead-times. Within this context, controllers are developed through single or multiple agents in a cooperative setting. Numerical experiments on real data demonstrate the benefits of reinforcement learning methods over traditional baselines.",
+    "link": "http://arxiv.org/abs/2308.01649",
+    "context": "Title: MARLIM: Multi-Agent Reinforcement Learning for Inventory Management. (arXiv:2308.01649v1 [cs.LG])\nAbstract: Maintaining a balance between the supply and demand of products by optimizing replenishment decisions is one of the most important challenges in the supply chain industry. This paper presents a novel reinforcement learning framework called MARLIM, to address the inventory management problem for a single-echelon multi-products supply chain with stochastic demands and lead-times. Within this context, controllers are developed through single or multiple agents in a cooperative setting. Numerical experiments on real data demonstrate the benefits of reinforcement learning methods over traditional baselines.",
+    "path": "papers/23/08/2308.01649.json",
+    "total_tokens": 691,
+    "translated_title": "MARLIM: 多智能体强化学习在库存管理中的应用",
+    "translated_abstract": "在供应链行业中，通过优化补货决策来维持产品供需平衡是一个重要的挑战。本文提出了一种名为MARLIM的新型强化学习框架，用于解决具有随机需求和交货时间的单层多产品供应链的库存管理问题。在这个背景下，通过单个或多个智能体在合作环境中开发控制器。对真实数据进行的数值实验证明了强化学习方法相对于传统基准方法的优势。",
+    "tldr": "本文提出了一个名为MARLIM的新型多智能体强化学习框架，用于解决具有随机需求和交货时间的单层多产品供应链的库存管理问题，并通过数值实验证明了强化学习方法相对于传统基准方法的优势。",
+    "en_tdlr": "This paper presents a novel multi-agent reinforcement learning framework called MARLIM for addressing the inventory management problem in a single-echelon multi-products supply chain with stochastic demands and lead-times, and demonstrates the advantages of reinforcement learning methods over traditional baselines through numerical experiments."
+}

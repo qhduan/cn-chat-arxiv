@@ -1,0 +1,12 @@
+{
+    "title": "An enhanced motion planning approach by integrating driving heterogeneity and long-term trajectory prediction for automated driving systems. (arXiv:2308.01369v1 [cs.RO])",
+    "abstract": "Navigating automated driving systems (ADSs) through complex driving environments is difficult. Predicting the driving behavior of surrounding human-driven vehicles (HDVs) is a critical component of an ADS. This paper proposes an enhanced motion-planning approach for an ADS in a highway-merging scenario. The proposed enhanced approach utilizes the results of two aspects: the driving behavior and long-term trajectory of surrounding HDVs, which are coupled using a hierarchical model that is used for the motion planning of an ADS to improve driving safety.",
+    "link": "http://arxiv.org/abs/2308.01369",
+    "context": "Title: An enhanced motion planning approach by integrating driving heterogeneity and long-term trajectory prediction for automated driving systems. (arXiv:2308.01369v1 [cs.RO])\nAbstract: Navigating automated driving systems (ADSs) through complex driving environments is difficult. Predicting the driving behavior of surrounding human-driven vehicles (HDVs) is a critical component of an ADS. This paper proposes an enhanced motion-planning approach for an ADS in a highway-merging scenario. The proposed enhanced approach utilizes the results of two aspects: the driving behavior and long-term trajectory of surrounding HDVs, which are coupled using a hierarchical model that is used for the motion planning of an ADS to improve driving safety.",
+    "path": "papers/23/08/2308.01369.json",
+    "total_tokens": 747,
+    "translated_title": "一种通过集成驾驶异质性和长期轨迹预测来增强运动规划方法的自动驾驶系统",
+    "translated_abstract": "自动驾驶系统在复杂驾驶环境中的导航是困难的。预测周围人驾驶车辆的驾驶行为是自动驾驶系统的一个关键组成部分。本文提出了一种用于高速公路合流场景的自动驾驶系统的增强运动规划方法。该增强方法利用了两个方面的结果：周围人驾驶车辆的驾驶行为和长期轨迹，通过使用层级模型将它们耦合起来，用于自动驾驶系统的运动规划，以提高驾驶安全性。",
+    "tldr": "本文提出了一种通过集成驾驶异质性和长期轨迹预测来增强运动规划方法的自动驾驶系统。该方法利用层级模型将周围人驾驶车辆的驾驶行为和长期轨迹进行耦合，以提高驾驶安全性。",
+    "en_tdlr": "This paper proposes an enhanced motion planning approach for automated driving systems by integrating driving heterogeneity and long-term trajectory prediction, which improves driving safety by coupling the driving behavior and long-term trajectory of surrounding vehicles using a hierarchical model."
+}

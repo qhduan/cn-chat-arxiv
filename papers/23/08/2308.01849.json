@@ -1,0 +1,11 @@
+{
+    "title": "Curricular Transfer Learning for Sentence Encoded Tasks. (arXiv:2308.01849v1 [cs.CL])",
+    "abstract": "Fine-tuning language models in a downstream task is the standard approach for many state-of-the-art methodologies in the field of NLP. However, when the distribution between the source task and target task drifts, \\textit{e.g.}, conversational environments, these gains tend to be diminished. This article proposes a sequence of pre-training steps (a curriculum) guided by \"data hacking\" and grammar analysis that allows further gradual adaptation between pre-training distributions. In our experiments, we acquire a considerable improvement from our method compared to other known pre-training approaches for the MultiWoZ task.",
+    "link": "http://arxiv.org/abs/2308.01849",
+    "context": "Title: Curricular Transfer Learning for Sentence Encoded Tasks. (arXiv:2308.01849v1 [cs.CL])\nAbstract: Fine-tuning language models in a downstream task is the standard approach for many state-of-the-art methodologies in the field of NLP. However, when the distribution between the source task and target task drifts, \\textit{e.g.}, conversational environments, these gains tend to be diminished. This article proposes a sequence of pre-training steps (a curriculum) guided by \"data hacking\" and grammar analysis that allows further gradual adaptation between pre-training distributions. In our experiments, we acquire a considerable improvement from our method compared to other known pre-training approaches for the MultiWoZ task.",
+    "path": "papers/23/08/2308.01849.json",
+    "total_tokens": 669,
+    "translated_title": "句子编码任务的课程迁移学习",
+    "translated_abstract": "微调语言模型是自然语言处理领域许多最先进方法的标准做法。然而，当源任务和目标任务之间的分布漂移时，例如，对话环境下，这些收益往往会减少。本文提出了一种由“数据入侵”和语法分析引导的预训练步骤序列（课程），允许在预训练分布之间进一步逐渐适应。在我们的实验中，与其他已知的预训练方法相比，我们的方法在MultiWoZ任务中取得了显着的改进。",
+    "tldr": "本文提出了一种课程迁移学习的方法，通过数据入侵和语法分析引导，逐步适应预训练分布，并在MultiWoZ任务中取得了显着的改进。"
+}

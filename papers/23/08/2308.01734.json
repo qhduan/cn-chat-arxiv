@@ -1,0 +1,12 @@
+{
+    "title": "Ambient Adventures: Teaching ChatGPT on Developing Complex Stories. (arXiv:2308.01734v1 [cs.CL])",
+    "abstract": "Imaginative play is an area of creativity that could allow robots to engage with the world around them in a much more personified way. Imaginary play can be seen as taking real objects and locations and using them as imaginary objects and locations in virtual scenarios. We adopted the story generation capability of large language models (LLMs) to obtain the stories used for imaginary play with human-written prompts. Those generated stories will be simplified and mapped into action sequences that can guide the agent in imaginary play. To evaluate whether the agent can successfully finish the imaginary play, we also designed a text adventure game to simulate a house as the playground for the agent to interact.",
+    "link": "http://arxiv.org/abs/2308.01734",
+    "context": "Title: Ambient Adventures: Teaching ChatGPT on Developing Complex Stories. (arXiv:2308.01734v1 [cs.CL])\nAbstract: Imaginative play is an area of creativity that could allow robots to engage with the world around them in a much more personified way. Imaginary play can be seen as taking real objects and locations and using them as imaginary objects and locations in virtual scenarios. We adopted the story generation capability of large language models (LLMs) to obtain the stories used for imaginary play with human-written prompts. Those generated stories will be simplified and mapped into action sequences that can guide the agent in imaginary play. To evaluate whether the agent can successfully finish the imaginary play, we also designed a text adventure game to simulate a house as the playground for the agent to interact.",
+    "path": "papers/23/08/2308.01734.json",
+    "total_tokens": 754,
+    "translated_title": "环境冒险：教授ChatGPT开发复杂故事",
+    "translated_abstract": "想象力的游戏是一种创造力的领域，它可以让机器人以更加拟人化的方式与周围世界进行互动。想象游戏可以看作是将真实的物体和地点作为虚拟场景中的想象物体和地点。我们采用大型语言模型（LLMs）的故事生成能力，使用人类编写的提示来获取用于想象游戏的故事。这些生成的故事将被简化并映射为行动序列，以指导代理人进行想象游戏。为了评估代理人是否能成功完成想象游戏，我们还设计了一个文本冒险游戏，模拟房子作为代理人互动的游乐场。",
+    "tldr": "本文研究了通过使用大型语言模型生成故事，并将其映射为行动序列，以在想象游戏中指导代理人进行互动。同时，还设计了一个文本冒险游戏来评估代理人的表现。",
+    "en_tdlr": "This paper explores teaching ChatGPT to generate complex stories and mapping them into action sequences for interactive play. A text adventure game is designed to evaluate the performance of the agent."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A new probabilistic analysis of the yard-sale model. (arXiv:2308.01485v1 [q-fin.GN])",
+    "abstract": "In Chakraborti's yard-sale model of an economy, identical agents engage in trades that result in wealth exchanges, but conserve the combined wealth of all agents and each agent's expected wealth. In this model, wealth condensation, that is, convergence to a state in which one agent owns everything and the others own nothing, occurs almost surely. We give a proof of this fact that is much shorter than existing ones and extends to a modified model in which there is a wealth-acquired advantage, i.e., the wealthier of two trading partners is more likely to benefit from the trade.",
+    "link": "http://arxiv.org/abs/2308.01485",
+    "context": "Title: A new probabilistic analysis of the yard-sale model. (arXiv:2308.01485v1 [q-fin.GN])\nAbstract: In Chakraborti's yard-sale model of an economy, identical agents engage in trades that result in wealth exchanges, but conserve the combined wealth of all agents and each agent's expected wealth. In this model, wealth condensation, that is, convergence to a state in which one agent owns everything and the others own nothing, occurs almost surely. We give a proof of this fact that is much shorter than existing ones and extends to a modified model in which there is a wealth-acquired advantage, i.e., the wealthier of two trading partners is more likely to benefit from the trade.",
+    "path": "papers/23/08/2308.01485.json",
+    "total_tokens": 698,
+    "translated_title": "庙会模型的新概率分析",
+    "translated_abstract": "在 Chakraborti 的庙会模型中，相同的代理人进行交易，导致财富的交换，但保持代理人的总财富和每个代理人的预期财富不变。在这个模型中，几乎可以确定地出现财富的凝聚，即收敛到一个代理人拥有一切而其他代理人一无所有的状态。我们给出了一个比现有证明更短且适用于修改后模型的证明，其中存在财富增益优势，即财富较多的两个交易伙伴更有可能从交易中受益。",
+    "tldr": "这个论文通过新的概率分析证明了Chakraborti的庙会模型中几乎肯定会出现财富凝聚的现象，并且这一结果还扩展到了具有财富获取优势的修改后模型中。",
+    "en_tdlr": "This paper provides a new probabilistic analysis to prove the phenomenon of wealth condensation in Chakraborti's yard-sale model, and extends this result to a modified model with a wealth-acquired advantage."
+}

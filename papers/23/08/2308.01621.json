@@ -1,0 +1,11 @@
+{
+    "title": "A Novel Convolutional Neural Network Architecture with a Continuous Symmetry. (arXiv:2308.01621v1 [cs.CV])",
+    "abstract": "This paper introduces a new Convolutional Neural Network (ConvNet) architecture inspired by a class of partial differential equations (PDEs) called quasi-linear hyperbolic systems. With comparable performance on image classification task, it allows for the modification of the weights via a continuous group of symmetry. This is a significant shift from traditional models where the architecture and weights are essentially fixed. We wish to promote the (internal) symmetry as a new desirable property for a neural network, and to draw attention to the PDE perspective in analyzing and interpreting ConvNets in the broader Deep Learning community.",
+    "link": "http://arxiv.org/abs/2308.01621",
+    "context": "Title: A Novel Convolutional Neural Network Architecture with a Continuous Symmetry. (arXiv:2308.01621v1 [cs.CV])\nAbstract: This paper introduces a new Convolutional Neural Network (ConvNet) architecture inspired by a class of partial differential equations (PDEs) called quasi-linear hyperbolic systems. With comparable performance on image classification task, it allows for the modification of the weights via a continuous group of symmetry. This is a significant shift from traditional models where the architecture and weights are essentially fixed. We wish to promote the (internal) symmetry as a new desirable property for a neural network, and to draw attention to the PDE perspective in analyzing and interpreting ConvNets in the broader Deep Learning community.",
+    "path": "papers/23/08/2308.01621.json",
+    "total_tokens": 743,
+    "translated_title": "一种具有连续对称性的新型卷积神经网络架构",
+    "translated_abstract": "本文介绍了一种新的卷积神经网络(ConvNet)架构，其灵感来自于一类称为拟线性双曲系统的偏微分方程(PDEs)。在图像分类任务上具有可比较的性能，它允许通过连续的对称性修改权重。这是与传统模型中基本固定的架构和权重相比的重大转变。我们希望将(内部)对称性作为一种新的神经网络期望特性，并在更广泛的深度学习社区中吸引对PDE视角分析和解释ConvNet的关注。",
+    "tldr": "本文介绍了一种新的卷积神经网络架构，通过连续的对称性修改权重，具有与传统模型不同的特点，希望将对称性作为神经网络的新期望特性，并推广将偏微分方程的视角应用于ConvNet的分析和解释。"
+}

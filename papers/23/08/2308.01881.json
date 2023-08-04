@@ -1,0 +1,11 @@
+{
+    "title": "The Banks Set and the Bipartisan Set May be Disjoint. (arXiv:2308.01881v1 [econ.TH])",
+    "abstract": "Tournament solutions play an important role within social choice theory and the mathematical social sciences at large. We construct a tournament of order 36 for which the Banks set and the bipartisan set are disjoint. This implies that refinements of the Banks set, such as the minimal extending set and the tournament equilibrium set, can also be disjoint from the bipartisan set.",
+    "link": "http://arxiv.org/abs/2308.01881",
+    "context": "Title: The Banks Set and the Bipartisan Set May be Disjoint. (arXiv:2308.01881v1 [econ.TH])\nAbstract: Tournament solutions play an important role within social choice theory and the mathematical social sciences at large. We construct a tournament of order 36 for which the Banks set and the bipartisan set are disjoint. This implies that refinements of the Banks set, such as the minimal extending set and the tournament equilibrium set, can also be disjoint from the bipartisan set.",
+    "path": "papers/23/08/2308.01881.json",
+    "total_tokens": 549,
+    "translated_title": "银行集和两党集可能是不相交的。",
+    "translated_abstract": "锦标赛解在社会选择理论和数学社会科学中起着重要作用。我们构造了一个36阶的锦标赛，其中银行集和两党集是不相交的。这意味着银行集的改进集，如最小扩展集和锦标赛均衡集，也可能与两党集不相交。",
+    "tldr": "该论文研究了一个锦标赛的性质，发现银行集和两党集是不相交的，这意味着银行集的改进集也与两党集不相交。"
+}

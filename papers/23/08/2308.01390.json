@@ -1,0 +1,11 @@
+{
+    "title": "OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models. (arXiv:2308.01390v1 [cs.CV])",
+    "abstract": "We introduce OpenFlamingo, a family of autoregressive vision-language models ranging from 3B to 9B parameters. OpenFlamingo is an ongoing effort to produce an open-source replication of DeepMind's Flamingo models. On seven vision-language datasets, OpenFlamingo models average between 80 - 89% of corresponding Flamingo performance. This technical report describes our models, training data, hyperparameters, and evaluation suite. We share our models and code at https://github.com/mlfoundations/open_flamingo.",
+    "link": "http://arxiv.org/abs/2308.01390",
+    "context": "Title: OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models. (arXiv:2308.01390v1 [cs.CV])\nAbstract: We introduce OpenFlamingo, a family of autoregressive vision-language models ranging from 3B to 9B parameters. OpenFlamingo is an ongoing effort to produce an open-source replication of DeepMind's Flamingo models. On seven vision-language datasets, OpenFlamingo models average between 80 - 89% of corresponding Flamingo performance. This technical report describes our models, training data, hyperparameters, and evaluation suite. We share our models and code at https://github.com/mlfoundations/open_flamingo.",
+    "path": "papers/23/08/2308.01390.json",
+    "total_tokens": 683,
+    "translated_title": "OpenFlamingo: 一个用于训练大型自回归视觉语言模型的开源框架",
+    "translated_abstract": "我们介绍了OpenFlamingo，这是一系列自回归的视觉语言模型，参数范围从3B到9B。 OpenFlamingo是一个持续努力的项目，旨在复制DeepMind的Flamingo模型的开源版本。在七个视觉语言数据集上，OpenFlamingo模型的性能介于对应的Flamingo性能的80%至89%之间。本技术报告介绍了我们的模型、训练数据、超参数和评估套件。我们在https://github.com/mlfoundations/open_flamingo上分享我们的模型和代码。",
+    "tldr": "OpenFlamingo是一个开源框架，用于训练大型自回归视觉语言模型。它在多个数据集上表现良好，达到了对应模型性能的80%至89%。"
+}

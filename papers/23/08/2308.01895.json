@@ -1,0 +1,11 @@
+{
+    "title": "Improving Replay Sample Selection and Storage for Less Forgetting in Continual Learning. (arXiv:2308.01895v1 [cs.LG])",
+    "abstract": "Continual learning seeks to enable deep learners to train on a series of tasks of unknown length without suffering from the catastrophic forgetting of previous tasks. One effective solution is replay, which involves storing few previous experiences in memory and replaying them when learning the current task. However, there is still room for improvement when it comes to selecting the most informative samples for storage and determining the optimal number of samples to be stored. This study aims to address these issues with a novel comparison of the commonly used reservoir sampling to various alternative population strategies and providing a novel detailed analysis of how to find the optimal number of stored samples.",
+    "link": "http://arxiv.org/abs/2308.01895",
+    "context": "Title: Improving Replay Sample Selection and Storage for Less Forgetting in Continual Learning. (arXiv:2308.01895v1 [cs.LG])\nAbstract: Continual learning seeks to enable deep learners to train on a series of tasks of unknown length without suffering from the catastrophic forgetting of previous tasks. One effective solution is replay, which involves storing few previous experiences in memory and replaying them when learning the current task. However, there is still room for improvement when it comes to selecting the most informative samples for storage and determining the optimal number of samples to be stored. This study aims to address these issues with a novel comparison of the commonly used reservoir sampling to various alternative population strategies and providing a novel detailed analysis of how to find the optimal number of stored samples.",
+    "path": "papers/23/08/2308.01895.json",
+    "total_tokens": 736,
+    "translated_title": "改进回放样本选择和存储以减少持续学习中的遗忘问题",
+    "translated_abstract": "持续学习旨在使深度学习者能够在一系列未知长度的任务上进行训练，而不会遗忘以前的任务。其中一种有效的解决方案是回放，即将少量先前的经验存储在内存中，并在学习当前任务时重新播放它们。然而，在选择最有信息量的样本进行存储以及确定所需存储样本的最佳数量方面仍有改进的空间。本研究旨在通过对常用的蓄水池抽样与各种替代方法进行比较，提供一个新颖的详细分析，以解决这些问题，并找到最佳的存储样本数。",
+    "tldr": "本文研究了改进持续学习中回放样本选择和存储的方法，通过对蓄水池抽样和其他替代策略进行比较，并提供了寻找最佳存储样本数量的详细分析。"
+}

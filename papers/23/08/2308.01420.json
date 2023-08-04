@@ -1,0 +1,12 @@
+{
+    "title": "SAP-sLDA: An Interpretable Interface for Exploring Unstructured Text. (arXiv:2308.01420v1 [cs.CL])",
+    "abstract": "A common way to explore text corpora is through low-dimensional projections of the documents, where one hopes that thematically similar documents will be clustered together in the projected space. However, popular algorithms for dimensionality reduction of text corpora, like Latent Dirichlet Allocation (LDA), often produce projections that do not capture human notions of document similarity. We propose a semi-supervised human-in-the-loop LDA-based method for learning topics that preserve semantically meaningful relationships between documents in low-dimensional projections. On synthetic corpora, our method yields more interpretable projections than baseline methods with only a fraction of labels provided. On a real corpus, we obtain qualitatively similar results.",
+    "link": "http://arxiv.org/abs/2308.01420",
+    "context": "Title: SAP-sLDA: An Interpretable Interface for Exploring Unstructured Text. (arXiv:2308.01420v1 [cs.CL])\nAbstract: A common way to explore text corpora is through low-dimensional projections of the documents, where one hopes that thematically similar documents will be clustered together in the projected space. However, popular algorithms for dimensionality reduction of text corpora, like Latent Dirichlet Allocation (LDA), often produce projections that do not capture human notions of document similarity. We propose a semi-supervised human-in-the-loop LDA-based method for learning topics that preserve semantically meaningful relationships between documents in low-dimensional projections. On synthetic corpora, our method yields more interpretable projections than baseline methods with only a fraction of labels provided. On a real corpus, we obtain qualitatively similar results.",
+    "path": "papers/23/08/2308.01420.json",
+    "total_tokens": 744,
+    "translated_title": "SAP-sLDA: 一个可解释的界面用于探索非结构化文本",
+    "translated_abstract": "一种探索文本语料库的常见方法是通过文档的低维投影，希望主题相似的文档能够在投影空间中聚类在一起。然而，常用的用于降维文本语料库的算法，如潜在狄利克雷分配（LDA），往往会产生无法捕捉文档相似性的人类概念的投影。我们提出了一种半监督人类参与的基于LDA的方法来学习主题，在低维投影中保留语义上有意义的文档之间的关系。在合成语料库上，我们的方法比仅提供少量标签的基线方法产生更易解释的投影。在实际语料库上，我们获得了类似的结果。",
+    "tldr": "SAP-sLDA提出了一种半监督人类参与的LDA方法，可以在低维投影中学习主题并保留文档之间的语义关系。",
+    "en_tdlr": "SAP-sLDA proposes a semi-supervised human-in-the-loop LDA method that learns topics in low-dimensional projections while preserving semantic relationships between documents."
+}
