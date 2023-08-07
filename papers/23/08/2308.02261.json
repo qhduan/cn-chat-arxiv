@@ -1,0 +1,11 @@
+{
+    "title": "Adaptive Proximal Gradient Method for Convex Optimization. (arXiv:2308.02261v1 [math.OC])",
+    "abstract": "In this paper, we explore two fundamental first-order algorithms in convex optimization, namely, gradient descent (GD) and proximal gradient method (ProxGD). Our focus is on making these algorithms entirely adaptive by leveraging local curvature information of smooth functions. We propose adaptive versions of GD and ProxGD that are based on observed gradient differences and, thus, have no added computational costs. Moreover, we prove convergence of our methods assuming only local Lipschitzness of the gradient. In addition, the proposed versions allow for even larger stepsizes than those initially suggested in [MM20].",
+    "link": "http://arxiv.org/abs/2308.02261",
+    "context": "Title: Adaptive Proximal Gradient Method for Convex Optimization. (arXiv:2308.02261v1 [math.OC])\nAbstract: In this paper, we explore two fundamental first-order algorithms in convex optimization, namely, gradient descent (GD) and proximal gradient method (ProxGD). Our focus is on making these algorithms entirely adaptive by leveraging local curvature information of smooth functions. We propose adaptive versions of GD and ProxGD that are based on observed gradient differences and, thus, have no added computational costs. Moreover, we prove convergence of our methods assuming only local Lipschitzness of the gradient. In addition, the proposed versions allow for even larger stepsizes than those initially suggested in [MM20].",
+    "path": "papers/23/08/2308.02261.json",
+    "total_tokens": 708,
+    "translated_title": "自适应近端梯度方法的凸优化",
+    "translated_abstract": "在本文中，我们探讨了凸优化中的两个基本一阶算法，即梯度下降（GD）和近端梯度方法（ProxGD）。我们的重点是通过利用平滑函数的局部曲率信息，使这些算法完全自适应。我们提出了基于观察到的梯度差异的自适应版本的GD和ProxGD，因此不会增加计算成本。此外，我们在仅假设梯度的局部Lipschitz性的情况下，证明了我们方法的收敛性。另外，所提出的版本允许使用比[MM20]最初建议的更大的步长。",
+    "tldr": "本文提出了自适应版本的梯度下降（GD）和近端梯度方法（ProxGD），通过利用局部曲率信息完全自适应。所提出的方法具有收敛性，且允许使用更大的步长。"
+}

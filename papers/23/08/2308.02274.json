@@ -1,0 +1,12 @@
+{
+    "title": "Game theoretic foundations of the Gately power measure for directed networks. (arXiv:2308.02274v1 [cs.GT])",
+    "abstract": "We introduce a new network centrality measure founded on the Gately value for cooperative games with transferable utilities. A directed network is interpreted as representing control or authority relations between players--constituting a hierarchical network. The power distribution of a hierarchical network can be represented through a TU-game. We investigate the properties of this TU-representation and investigate the Gately value of the TU-representation resulting in the Gately power measure. We establish when the Gately measure is a Core power gauge, investigate the relationship of the Gately with the $\\beta$-measure, and construct an axiomatisation of the Gately measure.",
+    "link": "http://arxiv.org/abs/2308.02274",
+    "context": "Title: Game theoretic foundations of the Gately power measure for directed networks. (arXiv:2308.02274v1 [cs.GT])\nAbstract: We introduce a new network centrality measure founded on the Gately value for cooperative games with transferable utilities. A directed network is interpreted as representing control or authority relations between players--constituting a hierarchical network. The power distribution of a hierarchical network can be represented through a TU-game. We investigate the properties of this TU-representation and investigate the Gately value of the TU-representation resulting in the Gately power measure. We establish when the Gately measure is a Core power gauge, investigate the relationship of the Gately with the $\\beta$-measure, and construct an axiomatisation of the Gately measure.",
+    "path": "papers/23/08/2308.02274.json",
+    "total_tokens": 701,
+    "translated_title": "基于Gately博弈论的有向网络Gately能量衡量的基础",
+    "translated_abstract": "我们引入了一种新的网络中心性度量，基于可转移效用的合作博弈中的Gately值。有向网络被解释为代表玩家之间的控制或权威关系 - 构成一个等级网络。层级网络的权力分配可以通过TU博弈来表示。我们研究了这个TU表示的特性，并研究了由此产生的Gately能量衡量中的Gately值。我们确定了何时Gately衡量为核心能量衡量，研究了Gately与β-衡量的关系，并构建了Gately衡量的公理化。",
+    "tldr": "该论文基于合作博弈中的Gately值，引入了一种新的网络中心性度量方法，用于衡量有向网络的权力分配并探讨了其特性和与其他衡量方法的关系。",
+    "en_tdlr": "This paper introduces a new network centrality measure based on the Gately value in cooperative games, explores its properties and its relationship with other measures, and provides an axiomatization of the Gately measure."
+}

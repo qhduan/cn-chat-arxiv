@@ -1,0 +1,11 @@
+{
+    "title": "Exponential Concentration of Stochastic Approximation with Non-vanishing Gradient. (arXiv:2208.07243v3 [stat.ML] UPDATED)",
+    "abstract": "We analyze the behavior of stochastic approximation algorithms where iterates, in expectation, make progress towards an objective at each step. When progress is proportional to the step size of the algorithm, we prove exponential concentration bounds. These tail-bounds contrast asymptotic normality results which are more frequently associated with stochastic approximation. The methods that we develop rely on a geometric ergodicity proof. This extends a result on Markov chains due to Hajek (1982) to the area of stochastic approximation algorithms. For Projected Stochastic Gradient Descent with a non-vanishing gradient, our results can be used to prove $O(1/t)$ and linear convergence rates.",
+    "link": "http://arxiv.org/abs/2208.07243",
+    "context": "Title: Exponential Concentration of Stochastic Approximation with Non-vanishing Gradient. (arXiv:2208.07243v3 [stat.ML] UPDATED)\nAbstract: We analyze the behavior of stochastic approximation algorithms where iterates, in expectation, make progress towards an objective at each step. When progress is proportional to the step size of the algorithm, we prove exponential concentration bounds. These tail-bounds contrast asymptotic normality results which are more frequently associated with stochastic approximation. The methods that we develop rely on a geometric ergodicity proof. This extends a result on Markov chains due to Hajek (1982) to the area of stochastic approximation algorithms. For Projected Stochastic Gradient Descent with a non-vanishing gradient, our results can be used to prove $O(1/t)$ and linear convergence rates.",
+    "path": "papers/22/08/2208.07243.json",
+    "total_tokens": 733,
+    "translated_title": "非零梯度的随机逼近的指数集中性分析",
+    "translated_abstract": "我们分析了随机逼近算法的行为，其中每一步迭代，期望中向目标取得进展。当进展与算法的步长成比例时，我们证明了指数级的集中性界限。这些尾部界限与更常见的随机逼近的渐近正态结果形成对比。我们开发的方法依赖于几何阻尼性证明。这扩展了Hajek（1982）对马尔可夫链的结果到随机逼近算法的领域。对于具有非零梯度的投影随机梯度下降算法，我们的结果可以用来证明$O(1/t)$和线性收敛速度。",
+    "tldr": "本研究分析了非零梯度的随机逼近算法的行为，并证明了指数级的集中性界限，这对于投影随机梯度下降算法的收敛速度有重要意义。"
+}

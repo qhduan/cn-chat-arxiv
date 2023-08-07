@@ -1,0 +1,12 @@
+{
+    "title": "Self-Normalizing Neural Network, Enabling One Shot Transfer Learning for Modeling EDFA Wavelength Dependent Gain. (arXiv:2308.02233v1 [cs.NI])",
+    "abstract": "We present a novel ML framework for modeling the wavelength-dependent gain of multiple EDFAs, based on semi-supervised, self-normalizing neural networks, enabling one-shot transfer learning. Our experiments on 22 EDFAs in Open Ireland and COSMOS testbeds show high-accuracy transfer-learning even when operated across different amplifier types.",
+    "link": "http://arxiv.org/abs/2308.02233",
+    "context": "Title: Self-Normalizing Neural Network, Enabling One Shot Transfer Learning for Modeling EDFA Wavelength Dependent Gain. (arXiv:2308.02233v1 [cs.NI])\nAbstract: We present a novel ML framework for modeling the wavelength-dependent gain of multiple EDFAs, based on semi-supervised, self-normalizing neural networks, enabling one-shot transfer learning. Our experiments on 22 EDFAs in Open Ireland and COSMOS testbeds show high-accuracy transfer-learning even when operated across different amplifier types.",
+    "path": "papers/23/08/2308.02233.json",
+    "total_tokens": 602,
+    "translated_title": "自正规化神经网络，实现EDFA波长相关增益建模的一次迁移学习",
+    "translated_abstract": "我们提出了一个基于半监督、自正规化神经网络的新型机器学习框架，用于多个EDFA器件的波长相关增益建模，并实现了一次迁移学习。我们在Open Ireland和COSMOS测试平台上对22个EDFA进行了实验，结果显示即使在不同的放大器类型下，也能实现高精度的迁移学习。",
+    "tldr": "本论文提出了一种基于自正规化神经网络的新型机器学习框架，能够实现一次迁移学习并对多个EDFA器件的波长相关增益进行建模。",
+    "en_tdlr": "This paper proposes a novel ML framework based on self-normalizing neural networks, enabling one-shot transfer learning for modeling the wavelength-dependent gain of multiple EDFAs. Experimental results show high-accuracy transfer learning even across different amplifier types."
+}

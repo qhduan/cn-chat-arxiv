@@ -1,0 +1,11 @@
+{
+    "title": "Differentiable adaptive short-time Fourier transform with respect to the window length. (arXiv:2308.02418v1 [eess.SP])",
+    "abstract": "This paper presents a gradient-based method for on-the-fly optimization for both per-frame and per-frequency window length of the short-time Fourier transform (STFT), related to previous work in which we developed a differentiable version of STFT by making the window length a continuous parameter. The resulting differentiable adaptive STFT possesses commendable properties, such as the ability to adapt in the same time-frequency representation to both transient and stationary components, while being easily optimized by gradient descent. We validate the performance of our method in vibration analysis.",
+    "link": "http://arxiv.org/abs/2308.02418",
+    "context": "Title: Differentiable adaptive short-time Fourier transform with respect to the window length. (arXiv:2308.02418v1 [eess.SP])\nAbstract: This paper presents a gradient-based method for on-the-fly optimization for both per-frame and per-frequency window length of the short-time Fourier transform (STFT), related to previous work in which we developed a differentiable version of STFT by making the window length a continuous parameter. The resulting differentiable adaptive STFT possesses commendable properties, such as the ability to adapt in the same time-frequency representation to both transient and stationary components, while being easily optimized by gradient descent. We validate the performance of our method in vibration analysis.",
+    "path": "papers/23/08/2308.02418.json",
+    "total_tokens": 710,
+    "translated_title": "基于梯度的可微分自适应短时傅里叶变换",
+    "translated_abstract": "本文提出了一种基于梯度的方法，用于实时优化短时傅里叶变换（STFT）的帧间和频率间窗长，与我们之前开发的将窗长变为连续参数的可微分版本的STFT相关。生成的可微分自适应STFT具有出色的特性，例如在同一时频表示中适应瞬态和稳态成分，同时可以通过梯度下降轻松进行优化。我们在振动分析中验证了该方法的性能。",
+    "tldr": "本文提出了一种基于梯度的方法，用于实时优化短时傅里叶变换（STFT）的帧间和频率间窗长。生成的可微分自适应STFT具有出色的特性，可以适应瞬态和稳态成分，并且易于优化。"
+}

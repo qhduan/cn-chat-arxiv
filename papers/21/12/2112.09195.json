@@ -1,0 +1,11 @@
+{
+    "title": "Mitigating the Bias of Centered Objects in Common Datasets. (arXiv:2112.09195v3 [cs.CV] UPDATED)",
+    "abstract": "Convolutional networks are considered shift invariant, but it was demonstrated that their response may vary according to the exact location of the objects. In this paper we will demonstrate that most commonly investigated datasets have a bias, where objects are over-represented at the center of the image during training. This bias and the boundary condition of these networks can have a significant effect on the performance of these architectures and their accuracy drops significantly as an object approaches the boundary. We will also demonstrate how this effect can be mitigated with data augmentation techniques.",
+    "link": "http://arxiv.org/abs/2112.09195",
+    "context": "Title: Mitigating the Bias of Centered Objects in Common Datasets. (arXiv:2112.09195v3 [cs.CV] UPDATED)\nAbstract: Convolutional networks are considered shift invariant, but it was demonstrated that their response may vary according to the exact location of the objects. In this paper we will demonstrate that most commonly investigated datasets have a bias, where objects are over-represented at the center of the image during training. This bias and the boundary condition of these networks can have a significant effect on the performance of these architectures and their accuracy drops significantly as an object approaches the boundary. We will also demonstrate how this effect can be mitigated with data augmentation techniques.",
+    "path": "papers/21/12/2112.09195.json",
+    "total_tokens": 750,
+    "translated_title": "减轻常见数据集中物体偏差的方法",
+    "translated_abstract": "卷积网络被认为具有平移不变性，但是已经证明它们的响应可能根据物体的确切位置而变化。在本文中，我们将证明大多数常见的研究数据集存在一种偏差，即训练过程中图像中心的物体被过度表示。这种偏差和网络的边界条件对这些架构的性能有显著影响，当物体靠近边界时，它们的准确性会明显下降。我们还将展示如何通过数据增强技术来减轻这种影响。",
+    "tldr": "本文讨论了卷积网络对物体位置的响应变化以及常见数据集中物体偏差问题。研究发现，训练过程中图像中心的物体过度表示导致网络性能受限，特别是当物体靠近边界时。同时，作者提出了使用数据增强技术来减轻这种影响的方法。"
+}

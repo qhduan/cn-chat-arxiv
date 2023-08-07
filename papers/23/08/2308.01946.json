@@ -1,0 +1,11 @@
+{
+    "title": "Experimental Results regarding multiple Machine Learning via Quaternions. (arXiv:2308.01946v1 [cs.LG])",
+    "abstract": "This paper presents an experimental study on the application of quaternions in several machine learning algorithms. Quaternion is a mathematical representation of rotation in three-dimensional space, which can be used to represent complex data transformations. In this study, we explore the use of quaternions to represent and classify rotation data, using randomly generated quaternion data and corresponding labels, converting quaternions to rotation matrices, and using them as input features. Based on quaternions and multiple machine learning algorithms, it has shown higher accuracy and significantly improved performance in prediction tasks. Overall, this study provides an empirical basis for exploiting quaternions for machine learning tasks.",
+    "link": "http://arxiv.org/abs/2308.01946",
+    "context": "Title: Experimental Results regarding multiple Machine Learning via Quaternions. (arXiv:2308.01946v1 [cs.LG])\nAbstract: This paper presents an experimental study on the application of quaternions in several machine learning algorithms. Quaternion is a mathematical representation of rotation in three-dimensional space, which can be used to represent complex data transformations. In this study, we explore the use of quaternions to represent and classify rotation data, using randomly generated quaternion data and corresponding labels, converting quaternions to rotation matrices, and using them as input features. Based on quaternions and multiple machine learning algorithms, it has shown higher accuracy and significantly improved performance in prediction tasks. Overall, this study provides an empirical basis for exploiting quaternions for machine learning tasks.",
+    "path": "papers/23/08/2308.01946.json",
+    "total_tokens": 750,
+    "translated_title": "通过四元数进行多机器学习的实验结果",
+    "translated_abstract": "本论文介绍了关于在多个机器学习算法中应用四元数的实验研究。四元数是三维空间中旋转的数学表示，可以用于表示复杂的数据转换。在这项研究中，我们探讨了使用四元数来表示和分类旋转数据的方法，使用随机生成的四元数数据和相应的标签，将四元数转换为旋转矩阵，并将其作为输入特征。基于四元数和多个机器学习算法，实验结果显示在预测任务中准确率更高且性能显著提升。总体上，这项研究为利用四元数进行机器学习任务提供了实证基础。",
+    "tldr": "本论文通过实验研究了在多个机器学习算法中应用四元数的效果。研究结果表明，使用四元数来表示和分类旋转数据，并结合多个机器学习算法，可以获得更高的准确率和性能提升。"
+}

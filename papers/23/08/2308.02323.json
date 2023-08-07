@@ -1,0 +1,12 @@
+{
+    "title": "Dataflow Dialogue Generation. (arXiv:2308.02323v1 [cs.CL])",
+    "abstract": "We demonstrate task-oriented dialogue generation within the dataflow dialogue paradigm. We show an example of agenda driven dialogue generation for the MultiWOZ domain, and an example of generation without an agenda for the SMCalFlow domain, where we show an improvement in the accuracy of the translation of user requests to dataflow expressions when the generated dialogues are used to augment the translation training dataset.",
+    "link": "http://arxiv.org/abs/2308.02323",
+    "context": "Title: Dataflow Dialogue Generation. (arXiv:2308.02323v1 [cs.CL])\nAbstract: We demonstrate task-oriented dialogue generation within the dataflow dialogue paradigm. We show an example of agenda driven dialogue generation for the MultiWOZ domain, and an example of generation without an agenda for the SMCalFlow domain, where we show an improvement in the accuracy of the translation of user requests to dataflow expressions when the generated dialogues are used to augment the translation training dataset.",
+    "path": "papers/23/08/2308.02323.json",
+    "total_tokens": 639,
+    "translated_title": "数据流对话生成",
+    "translated_abstract": "我们在数据流对话范式中展示了任务导向的对话生成。我们展示了在MultiWOZ领域中基于议程的对话生成示例，以及在SMCalFlow领域中没有议程的生成示例，其中我们展示了使用生成的对话增强翻译训练数据集时，用户请求到数据流表达式的翻译准确性的提升。",
+    "tldr": "本文展示了在数据流对话范式下的任务导向的对话生成。在MultiWOZ领域中，展示了基于议程的对话生成示例；在SMCalFlow领域中，展示了没有议程的对话生成示例，并且通过使用生成的对话来增强翻译训练数据集，提高了用户请求到数据流表达式的翻译准确性。",
+    "en_tdlr": "This paper demonstrates task-oriented dialogue generation within the dataflow dialogue paradigm. It shows an example of agenda driven dialogue generation in the MultiWOZ domain, and an example of generation without an agenda in the SMCalFlow domain, with an improvement in the translation accuracy of user requests to dataflow expressions when the generated dialogues are used to augment the translation training dataset."
+}

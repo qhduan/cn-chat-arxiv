@@ -2,172 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Banks Set and the Bipartisan Set May be Disjoint.](http://arxiv.org/abs/2308.01881) | 该论文研究了一个锦标赛的性质，发现银行集和两党集是不相交的，这意味着银行集的改进集也与两党集不相交。 |
-| [^2] | [Trading and wealth evolution in the Proof of Stake protocol.](http://arxiv.org/abs/2308.01803) | 本文研究了Proof of Stake（PoS）协议中的交易和财富演化。通过分析 PoS 协议中没有交易的情况下的财富演化、考虑矿工的交易激励和策略，以及研究 PoS 交易环境中矿工的集体行为，总结了该协议的经济特征。 |
-| [^3] | [Repeated Bidding with Dynamic Value.](http://arxiv.org/abs/2308.01755) | 在动态价值下的重复拍卖中，我们提出了一个算法来构建最优的竞标策略，并讨论了买家限制自己使用遮蔽策略所带来的成本。 |
-| [^4] | [Quantifying Retrospective Human Responsibility in Intelligent Systems.](http://arxiv.org/abs/2308.01752) | 本论文提出了三种衡量使用智能系统时追溯人类责任的方法，包括对人类与系统重复交互的量化，对决策信息形成中人类独特贡献的量化，以及对人类行动合理性的量化。 |
-| [^5] | [A Robust Method for Microforecasting and Estimation of Random Effects.](http://arxiv.org/abs/2308.01596) | 我们提出了一种稳健的方法，用于在面板数据模型和增值模型中预测个体结果和估计随机效应，特别是在时间维度较短的情况下。该方法通过加权平均值结合了时序和汇总的预测/估计，并利用个体权重来提高预测的准确性。与现有方法相比，我们的方法不仅假设较少，而且可以在更弱的假设下获得良好的性能。该方法还避免了专制，通过让数据决定每个个体应借用多少力量。 |
-| [^6] | [Limit Theory under Network Dependence and Nonstationarity.](http://arxiv.org/abs/2308.01418) | 本文研究了时间序列回归模型的极限理论和局部到一致性参数化建模时间序列非平稳性。同时，还探讨了考虑特征值的协方差矩阵和非平稳自回归过程中单位根适度偏差的非渐近理论结果，并提出了非平稳时间序列计量经济学和网络计量经济学中的开放问题。 |
-| [^7] | [What's Logs Got to do With it: On the Perils of log Dependent Variables and Difference-in-Differences.](http://arxiv.org/abs/2308.00167) | 依赖变量采用对数变换并不无害，在差异法模型中会导致差异法项的方向与水平规范条件下不同，具体取决于基线结果分布的差异。 |
-| [^8] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^9] | [Dynamic and Stochastic Rational Behavior.](http://arxiv.org/abs/2302.04417) | 本文使用动态随机效用模型（DRUM）分析选择行为，在面板数据的支持下，完全描述了DRUM。DRUM是更灵活的，比Afriat的框架更有信息量且适用性更广。 |
-| [^10] | [Semiparametric Bayesian Estimation of Dynamic Discrete Choice Models.](http://arxiv.org/abs/2202.04339) | 本文提出了一种半参数贝叶斯估计方法，用于估计动态离散选择模型。通过使用极值分布的位置-尺度混合，我们的方法在多项选择设置中实现了可行的推断，并在冲击不符合极值分布情况下提供可靠的推断。 |
-| [^11] | [Sharp Sensitivity Analysis for Inverse Propensity Weighting via Quantile Balancing.](http://arxiv.org/abs/2102.04543) | 本论文提出了一种通过分位数平衡实现反向权重的尖锐敏感性分析方法，用于估计与给定量的未观察到的混淆因素相容的治疗效应范围。 |
+| [^1] | [Composite Quantile Factor Models.](http://arxiv.org/abs/2308.02450) | 该论文介绍了一种在高维面板数据中进行因子分析的新方法，即复合分位数因子模型。其创新之处在于在不同分位数上估计因子和因子载荷，提高了估计结果的适应性，并引入了一种一致选择因子数的信息准则。模拟结果和实证研究表明，该方法在非正态分布下具有良好的性质。 |
+| [^2] | [Matrix Completion When Missing Is Not at Random and Its Applications in Causal Panel Data Models.](http://arxiv.org/abs/2308.02364) | 本文提出了一个矩阵补全的推断框架，可以处理非随机缺失且无需强信号，方法包括将缺失条目分组并应用核范数正则化进行估计。研究受到Tick Size Pilot Program的启发，该实验评估了扩大Tick Size对股票市场品质的影响。 |
+| [^3] | [Game theoretic foundations of the Gately power measure for directed networks.](http://arxiv.org/abs/2308.02274) | 该论文基于合作博弈中的Gately值，引入了一种新的网络中心性度量方法，用于衡量有向网络的权力分配并探讨了其特性和与其他衡量方法的关系。 |
+| [^4] | [Should we trust web-scraped data?.](http://arxiv.org/abs/2308.02231) | 本论文指出天真的网络抓取程序可能导致收集数据中的抽样偏差，并描述了来源于网络内容易变性、个性化和未索引的抽样偏差。通过例子说明了抽样偏差的普遍性和程度，并提供了克服抽样偏差的建议。 |
+| [^5] | [A Non-Parametric Test of Risk Aversion.](http://arxiv.org/abs/2308.02083) | 本研究提出了一种检验期望效用和凹凸性的简单方法，结果发现几乎没有支持这两个模型。此外，研究还证明使用流行的多价格清单方法测量风险规避是不合适的，由于参数错误导致了风险规避高普遍性的现象。 |
+| [^6] | [Human and Machine Intelligence in n-Person Games with Partial Knowledge.](http://arxiv.org/abs/2302.13937) | 提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。 |
+| [^7] | [When do Default Nudges Work?.](http://arxiv.org/abs/2301.08797) | 通过在瑞典Covid-19疫苗推出中的区域变化，研究了对激励有差异的群体的提示效果，结果显示提示对于个人无意义的选择更有效。 |
+| [^8] | [Learning from Viral Content.](http://arxiv.org/abs/2210.01267) | 本文研究了社交媒体上的学习，发现向用户展示病毒性故事可以增加信息汇集，但也可能导致大多数分享的故事是错误的稳定状态。这些误导性的稳定状态会自我维持，对平台设计和鲁棒性产生多种后果。 |
+| [^9] | [SoK: Blockchain Decentralization.](http://arxiv.org/abs/2205.04256) | 该论文为区块链去中心化领域的知识系统化，提出了分类法并建议使用指数来衡量和量化区块链的去中心化水平。除了共识去中心化外，其他方面的研究相对较少。这项工作为未来的研究提供了基准和指导。 |
+| [^10] | [Pigeonhole Design: Balancing Sequential Experiments from an Online Matching Perspective.](http://arxiv.org/abs/2201.12936) | 本研究研究了一种新颖的在线实验设计问题，称为“在线阻塞问题”，旨在平衡顺序到达的具有异质协变信息的实验对象，以最小化总差异。作者提出了一种名为“鸽巢设计”的方法来解决该问题。 |
+| [^11] | [A Computational Approach to Identification of Treatment Effects for Policy Evaluation.](http://arxiv.org/abs/2009.13861) | 本文研究了一种计算方法，能够在存在未观察到的异质性和仅有二值工具变量的情况下，推广局部治疗效应到不同的反事实情境，并且提出了一个新的框架，可以系统地计算各种与政策相关的治疗参数的尖锐非参数界限。 |
 
 # 详细
 
-[^1]: 银行集和两党集可能是不相交的。
+[^1]: 复合分位数因子模型
 
-    The Banks Set and the Bipartisan Set May be Disjoint. (arXiv:2308.01881v1 [econ.TH])
+    Composite Quantile Factor Models. (arXiv:2308.02450v1 [econ.EM])
 
-    [http://arxiv.org/abs/2308.01881](http://arxiv.org/abs/2308.01881)
+    [http://arxiv.org/abs/2308.02450](http://arxiv.org/abs/2308.02450)
 
-    该论文研究了一个锦标赛的性质，发现银行集和两党集是不相交的，这意味着银行集的改进集也与两党集不相交。
-
-    
-
-    锦标赛解在社会选择理论和数学社会科学中起着重要作用。我们构造了一个36阶的锦标赛，其中银行集和两党集是不相交的。这意味着银行集的改进集，如最小扩展集和锦标赛均衡集，也可能与两党集不相交。
-
-    Tournament solutions play an important role within social choice theory and the mathematical social sciences at large. We construct a tournament of order 36 for which the Banks set and the bipartisan set are disjoint. This implies that refinements of the Banks set, such as the minimal extending set and the tournament equilibrium set, can also be disjoint from the bipartisan set.
-    
-[^2]: Proof of Stake协议中的交易和财富演化
-
-    Trading and wealth evolution in the Proof of Stake protocol. (arXiv:2308.01803v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.01803](http://arxiv.org/abs/2308.01803)
-
-    本文研究了Proof of Stake（PoS）协议中的交易和财富演化。通过分析 PoS 协议中没有交易的情况下的财富演化、考虑矿工的交易激励和策略，以及研究 PoS 交易环境中矿工的集体行为，总结了该协议的经济特征。
+    该论文介绍了一种在高维面板数据中进行因子分析的新方法，即复合分位数因子模型。其创新之处在于在不同分位数上估计因子和因子载荷，提高了估计结果的适应性，并引入了一种一致选择因子数的信息准则。模拟结果和实证研究表明，该方法在非正态分布下具有良好的性质。
 
     
 
-    随着Proof of Stake（PoS）区块链的越来越广泛采用，研究这种区块链创造的经济是及时的。在本章中，我们将调查依据PoS协议发行新币的加密货币中的交易和财富演化的最新进展。我们首先考虑在没有交易的情况下PoS协议的财富演化，并关注去中心化的问题。接下来，我们通过最优控制的视角考虑每个矿工的交易激励和策略，矿工需要权衡PoS挖矿和交易。最后，我们通过均场模型研究在PoS交易环境中矿工的集体行为。在我们的研究中使用了随机和分析工具。同时还提出了一系列未解决的问题。
+    本文介绍了一种在高维面板数据中进行因子分析的方法，即复合分位数因子模型。我们提出了在不同分位数上估计因子和因子载荷的方法，使得估计结果能够更好地适应不同分位数下数据的特征，并且仍然能够对数据的均值进行建模。我们推导了估计的因子和因子载荷的极限分布，并讨论了一种一致选择因子数的信息准则。模拟结果表明，所提出的估计器和信息准则对于几种非正态分布具有良好的有限样本性质。我们还对246个季度宏观经济变量的因子分析进行了实证研究，并开发了一个名为cqrfactor的伴随R包。
 
-    With the increasing adoption of the Proof of Stake (PoS) blockchain, it is timely to study the economy created by such blockchain. In this chapter, we will survey recent progress on the trading and wealth evolution in a cryptocurrency where the new coins are issued according to the PoS protocol. We first consider the wealth evolution in the PoS protocol assuming no trading, and focus on the problem of decentralisation. Next we consider each miner's trading incentive and strategy through the lens of optimal control, where the miner needs to trade off PoS mining and trading. Finally, we study the collective behavior of the miners in a PoS trading environment by a mean field model. We use both stochastic and analytic tools in our study. A list of open problems are also presented.
+    This paper introduces the method of composite quantile factor model for factor analysis in high-dimensional panel data. We propose to estimate the factors and factor loadings across different quantiles of the data, allowing the estimates to better adapt to features of the data at different quantiles while still modeling the mean of the data. We develop the limiting distribution of the estimated factors and factor loadings, and an information criterion for consistent factor number selection is also discussed. Simulations show that the proposed estimator and the information criterion have good finite sample properties for several non-normal distributions under consideration. We also consider an empirical study on the factor analysis for 246 quarterly macroeconomic variables. A companion R package cqrfactor is developed.
     
-[^3]: 动态价值下的重复竞标
+[^2]: 矩阵补全: 非随机缺失及其在因果面板数据模型中的应用
 
-    Repeated Bidding with Dynamic Value. (arXiv:2308.01755v1 [econ.TH])
+    Matrix Completion When Missing Is Not at Random and Its Applications in Causal Panel Data Models. (arXiv:2308.02364v1 [stat.ME])
 
-    [http://arxiv.org/abs/2308.01755](http://arxiv.org/abs/2308.01755)
+    [http://arxiv.org/abs/2308.02364](http://arxiv.org/abs/2308.02364)
 
-    在动态价值下的重复拍卖中，我们提出了一个算法来构建最优的竞标策略，并讨论了买家限制自己使用遮蔽策略所带来的成本。
-
-    
-
-    我们考虑了一个重复拍卖的情况，买家对物品的效用取决于自上次购买以来经过的时间。我们提出了一个算法来构建最优的竞标策略，然后讨论了买家限制自己使用遮蔽策略所带来的成本。
-
-    We consider a repeated auction where the buyer's utility for an item depends on the time that elapsed since his last purchase. We present an algorithm to build the optimal bidding policy, and then, because optimal might be impractical, we discuss the cost for the buyer of limiting himself to shading policies.
-    
-[^4]: 对智能系统中的人类追溯责任进行量化
-
-    Quantifying Retrospective Human Responsibility in Intelligent Systems. (arXiv:2308.01752v1 [cs.HC])
-
-    [http://arxiv.org/abs/2308.01752](http://arxiv.org/abs/2308.01752)
-
-    本论文提出了三种衡量使用智能系统时追溯人类责任的方法，包括对人类与系统重复交互的量化，对决策信息形成中人类独特贡献的量化，以及对人类行动合理性的量化。
+    本文提出了一个矩阵补全的推断框架，可以处理非随机缺失且无需强信号，方法包括将缺失条目分组并应用核范数正则化进行估计。研究受到Tick Size Pilot Program的启发，该实验评估了扩大Tick Size对股票市场品质的影响。
 
     
 
-    智能系统已成为我们生活中的重要组成部分。在与这些系统的互动中，人类对结果的责任变得模糊，因为信息获取、决策和行动实施的部分可能由人类和系统共同完成。在导致不利结果的事件中，确定人类因果责任尤为重要。我们提出了三种衡量使用智能系统时的追溯人类因果责任的方法。 第一种方法涉及人类与系统的重复交互。利用信息论，它量化了人类对过去事件结果的平均独特贡献。第二和第三种方法分别涉及人类在与智能系统的单次过去交互中的因果责任。它们分别量化了人类在形成决策所使用的信息方面的独特贡献以及人类实施行动的合理性。
+    本文在缺失数据非随机的情况下，开发了一个推断框架来进行矩阵补全，并且无需强信号的要求。我们的方法基于观察到，如果缺失条目的数量相对于面板的大小足够小，即使缺失是非随机的，也可以很好地估计它们。利用这个事实，我们将缺失的条目分成较小的组，并通过核范数正则化来估计每组。此外，我们还证明了，在适当的去偏估计下，我们提出的估计量即使对于相当弱的信号也是渐近正态的。我们的研究受到了最近关于Tick Size Pilot Program的研究的启发，这是一项由美国证券交易委员会（SEC）从2016年到2018年进行的实验，旨在评估扩大股票最小变动价位（Tick Size）对市场品质的影响。而以往的研究都是基于传统的回归或差分法，假设处理效应在不变的情况下进行的。
 
-    Intelligent systems have become a major part of our lives. Human responsibility for outcomes becomes unclear in the interaction with these systems, as parts of information acquisition, decision-making, and action implementation may be carried out jointly by humans and systems. Determining human causal responsibility with intelligent systems is particularly important in events that end with adverse outcomes. We developed three measures of retrospective human causal responsibility when using intelligent systems. The first measure concerns repetitive human interactions with a system. Using information theory, it quantifies the average human's unique contribution to the outcomes of past events. The second and third measures concern human causal responsibility in a single past interaction with an intelligent system. They quantify, respectively, the unique human contribution in forming the information used for decision-making and the reasonability of the actions that the human carried out. T
+    This paper develops an inferential framework for matrix completion when missing is not at random and without the requirement of strong signals. Our development is based on the observation that if the number of missing entries is small enough compared to the panel size, then they can be estimated well even when missing is not at random. Taking advantage of this fact, we divide the missing entries into smaller groups and estimate each group via nuclear norm regularization. In addition, we show that with appropriate debiasing, our proposed estimate is asymptotically normal even for fairly weak signals. Our work is motivated by recent research on the Tick Size Pilot Program, an experiment conducted by the Security and Exchange Commission (SEC) to evaluate the impact of widening the tick size on the market quality of stocks from 2016 to 2018. While previous studies were based on traditional regression or difference-in-difference methods by assuming that the treatment effect is invariant wit
     
-[^5]: 一种微观预测和随机效应估计的稳健方法
+[^3]: 基于Gately博弈论的有向网络Gately能量衡量的基础
 
-    A Robust Method for Microforecasting and Estimation of Random Effects. (arXiv:2308.01596v1 [econ.EM])
+    Game theoretic foundations of the Gately power measure for directed networks. (arXiv:2308.02274v1 [cs.GT])
 
-    [http://arxiv.org/abs/2308.01596](http://arxiv.org/abs/2308.01596)
+    [http://arxiv.org/abs/2308.02274](http://arxiv.org/abs/2308.02274)
 
-    我们提出了一种稳健的方法，用于在面板数据模型和增值模型中预测个体结果和估计随机效应，特别是在时间维度较短的情况下。该方法通过加权平均值结合了时序和汇总的预测/估计，并利用个体权重来提高预测的准确性。与现有方法相比，我们的方法不仅假设较少，而且可以在更弱的假设下获得良好的性能。该方法还避免了专制，通过让数据决定每个个体应借用多少力量。
-
-    
-
-    我们提出了一种方法，在面板数据模型和增值模型中，对个体结果进行预测和估计随机效应，当面板数据的时间维度较短时。该方法稳健且易于实现，需要的假设很少。该方法的思想是，在时间序列信息的基础上，将时序和汇总的预测/估计的加权平均值，其中个体权重基于时间序列信息。我们展示了个体权重的预测最优性，无论是在最小化最大遗憾还是均方预测误差方面。然后，我们提供了可行的权重，以在弱于现有方法所需假设的情况下确保良好的性能。与现有的收缩方法不同，我们的方法利用了多数的优势，但避免了专制，通过针对个人（而不是群体）的准确性，并让数据决定每个个体应借用多少力量。与现有的经验贝叶斯方法不同，我们的频率主义方法不需要任何分布假设。
-
-    We propose a method for forecasting individual outcomes and estimating random effects in linear panel data models and value-added models when the panel has a short time dimension. The method is robust, trivial to implement and requires minimal assumptions. The idea is to take a weighted average of time series- and pooled forecasts/estimators, with individual weights that are based on time series information. We show the forecast optimality of individual weights, both in terms of minimax-regret and of mean squared forecast error. We then provide feasible weights that ensure good performance under weaker assumptions than those required by existing approaches. Unlike existing shrinkage methods, our approach borrows the strength - but avoids the tyranny - of the majority, by targeting individual (instead of group) accuracy and letting the data decide how much strength each individual should borrow. Unlike existing empirical Bayesian methods, our frequentist approach requires no distributio
-    
-[^6]: 网络依赖性和非平稳性下的极限理论
-
-    Limit Theory under Network Dependence and Nonstationarity. (arXiv:2308.01418v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.01418](http://arxiv.org/abs/2308.01418)
-
-    本文研究了时间序列回归模型的极限理论和局部到一致性参数化建模时间序列非平稳性。同时，还探讨了考虑特征值的协方差矩阵和非平稳自回归过程中单位根适度偏差的非渐近理论结果，并提出了非平稳时间序列计量经济学和网络计量经济学中的开放问题。
+    该论文基于合作博弈中的Gately值，引入了一种新的网络中心性度量方法，用于衡量有向网络的权力分配并探讨了其特性和与其他衡量方法的关系。
 
     
 
-    这些讲座笔记是一门关于时间序列计量经济学和网络计量经济学的短期课程的补充资料。我们强调时间序列回归模型的极限理论，以及在建模时间序列非平稳性时使用的局部到一致性参数化方法。此外，我们还介绍了在考虑协方差矩阵的特征值时的适度偏差原则的各种非渐近理论结果，以及非平稳自回归过程中单位根适度偏差的渐近理论。虽然并未涵盖文献中的所有应用，但我们还讨论了非平稳时间序列计量经济学和网络计量经济学中的一些开放问题。
+    我们引入了一种新的网络中心性度量，基于可转移效用的合作博弈中的Gately值。有向网络被解释为代表玩家之间的控制或权威关系 - 构成一个等级网络。层级网络的权力分配可以通过TU博弈来表示。我们研究了这个TU表示的特性，并研究了由此产生的Gately能量衡量中的Gately值。我们确定了何时Gately衡量为核心能量衡量，研究了Gately与β-衡量的关系，并构建了Gately衡量的公理化。
 
-    These lecture notes represent supplementary material for a short course on time series econometrics and network econometrics. We give emphasis on limit theory for time series regression models as well as the use of the local-to-unity parametrization when modeling time series nonstationarity. Moreover, we present various non-asymptotic theory results for moderate deviation principles when considering the eigenvalues of covariance matrices as well as asymptotics for unit root moderate deviations in nonstationary autoregressive processes. Although not all applications from the literature are covered we also discuss some open problems in nonstationary time series econometrics and network econometrics.
+    We introduce a new network centrality measure founded on the Gately value for cooperative games with transferable utilities. A directed network is interpreted as representing control or authority relations between players--constituting a hierarchical network. The power distribution of a hierarchical network can be represented through a TU-game. We investigate the properties of this TU-representation and investigate the Gately value of the TU-representation resulting in the Gately power measure. We establish when the Gately measure is a Core power gauge, investigate the relationship of the Gately with the $\beta$-measure, and construct an axiomatisation of the Gately measure.
     
-[^7]: 杂志与之间的关联：关于依赖日志的变量和差异法的危险性
+[^4]: 我们应该相信网络抓取的数据吗？
 
-    What's Logs Got to do With it: On the Perils of log Dependent Variables and Difference-in-Differences. (arXiv:2308.00167v1 [econ.EM])
+    Should we trust web-scraped data?. (arXiv:2308.02231v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.00167](http://arxiv.org/abs/2308.00167)
+    [http://arxiv.org/abs/2308.02231](http://arxiv.org/abs/2308.02231)
 
-    依赖变量采用对数变换并不无害，在差异法模型中会导致差异法项的方向与水平规范条件下不同，具体取决于基线结果分布的差异。
-
-    
-
-    在使用差异法（DD）模型时，依赖变量的对数变换并不无害。当依赖变量采用对数形式时，差异法项捕捉到了不同组别之间增长率的近似比例差异。通过模拟和两个实证例子的展示，我证明了如果基线结果分布在不同组别之间存在足够不同，对数规范条件下的差异法系数可能与水平规范条件下的系数方向相反。我提供了一个条件，基于(i)聚合时间效应和(ii)基线结果均值之间的差异，来说明何时会发生符号反转。
-
-    The log transformation of the dependent variable is not innocuous when using a difference-in-differences (DD) model. With a dependent variable in logs, the DD term captures an approximation of the proportional difference in growth rates across groups. As I show with both simulations and two empirical examples, if the baseline outcome distributions are sufficiently different across groups, the DD parameter for a log-specification can be different in sign to that of a levels-specification. I provide a condition, based on (i) the aggregate time effect, and (ii) the difference in relative baseline outcome means, for when the sign-switch will occur.
-    
-[^8]: 期权的价格发现
-
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
-
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+    本论文指出天真的网络抓取程序可能导致收集数据中的抽样偏差，并描述了来源于网络内容易变性、个性化和未索引的抽样偏差。通过例子说明了抽样偏差的普遍性和程度，并提供了克服抽样偏差的建议。
 
     
 
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+    实证研究人员越来越多地采用计量经济学和机器学习方法，导致了对一种数据收集方法的广泛使用：网络抓取。网络抓取指的是使用自动化计算机程序访问网站并下载其内容。本文的主要论点是，天真的网络抓取程序可能会导致收集数据中的抽样偏差。本文描述了网络抓取数据中的三种抽样偏差来源。更具体地说，抽样偏差源于网络内容的易变性（即可能发生变化）、个性化（即根据请求特征呈现）和未索引（即人口登记簿的丰富性）。通过一系列例子，我说明了抽样偏差的普遍性和程度。为了支持研究人员和审稿人，本文提供了关于对网络抓取数据的抽样偏差进行预期、检测和克服的建议。
 
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    The increasing adoption of econometric and machine-learning approaches by empirical researchers has led to a widespread use of one data collection method: web scraping. Web scraping refers to the use of automated computer programs to access websites and download their content. The key argument of this paper is that na\"ive web scraping procedures can lead to sampling bias in the collected data. This article describes three sources of sampling bias in web-scraped data. More specifically, sampling bias emerges from web content being volatile (i.e., being subject to change), personalized (i.e., presented in response to request characteristics), and unindexed (i.e., abundance of a population register). In a series of examples, I illustrate the prevalence and magnitude of sampling bias. To support researchers and reviewers, this paper provides recommendations on anticipating, detecting, and overcoming sampling bias in web-scraped data.
     
-[^9]: 动态与随机的理性行为
+[^5]: 风险规避的非参数检验
 
-    Dynamic and Stochastic Rational Behavior. (arXiv:2302.04417v2 [econ.TH] UPDATED)
+    A Non-Parametric Test of Risk Aversion. (arXiv:2308.02083v1 [econ.GN])
 
-    [http://arxiv.org/abs/2302.04417](http://arxiv.org/abs/2302.04417)
+    [http://arxiv.org/abs/2308.02083](http://arxiv.org/abs/2308.02083)
 
-    本文使用动态随机效用模型（DRUM）分析选择行为，在面板数据的支持下，完全描述了DRUM。DRUM是更灵活的，比Afriat的框架更有信息量且适用性更广。
-
-    
-
-    本文采用动态随机效用模型（DRUM）分析选择行为。在DRUM中，每个消费者或决策者在每个时期从随机效用过程中绘制实用函数，并在提供的菜单下进行最大化。 DRUM允许在偏好中进行无限制的时间相关性和交叉截面异质性。当选择和菜单的面板数据可用时，我们完全描述了DRUM。我们的结果涵盖具有连续选择的消费者需求和有限离散选择设置。 DRUM与一组确定性行为的有限混合相关联，可以表示为静态理性化行为的Kronecker积。我们利用了Weyl-Minkowski定理的一般化，利用这一联系使得能够将 McFadden-Richter（1990）的静态随机效用模型（RUM）的特征转换为其动态形式。 DRUM比Afriat的（1967）框架更灵活，比RUM更有信息量。在一个应用中，我们发现静态效用最大化的行为覆盖了DRUM的封界。
-
-    We analyze choice behavior using Dynamic Random Utility Model (DRUM). Under DRUM, each consumer or decision-maker draws a utility function from a stochastic utility process in each period and maximizes it subject to a menu. DRUM allows for unrestricted time correlation and cross-section heterogeneity in preferences. We fully characterize DRUM when panel data on choices and menus are available. Our results cover consumer demand with a continuum of choices and finite discrete choice setups. DRUM is linked to a finite mixture of deterministic behaviors that can be represented as the Kronecker product of static rationalizable behaviors. We exploit a generalization of the Weyl-Minkowski theorem that uses this link and enables conversion of the characterizations of the static Random Utility Model (RUM) of McFadden-Richter (1990) to its dynamic form. DRUM is more flexible than Afriat's (1967) framework and more informative than RUM. In an application, we find that static utility maximization 
-    
-[^10]: 动态离散选择模型的半参数贝叶斯估计方法
-
-    Semiparametric Bayesian Estimation of Dynamic Discrete Choice Models. (arXiv:2202.04339v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2202.04339](http://arxiv.org/abs/2202.04339)
-
-    本文提出了一种半参数贝叶斯估计方法，用于估计动态离散选择模型。通过使用极值分布的位置-尺度混合，我们的方法在多项选择设置中实现了可行的推断，并在冲击不符合极值分布情况下提供可靠的推断。
+    本研究提出了一种检验期望效用和凹凸性的简单方法，结果发现几乎没有支持这两个模型。此外，研究还证明使用流行的多价格清单方法测量风险规避是不合适的，由于参数错误导致了风险规避高普遍性的现象。
 
     
 
-    我们提出了一个可行的半参数估计方法来估计结构性动态离散选择模型。在提出的框架中，附加效用冲击的分布被建模为包含不同数量混合成分的极值分布的位置-尺度混合。我们的方法利用了极值分布在多项选择设置中的分析可行性和位置-尺度混合的灵活性。我们使用Hamiltonian Monte Carlo和近似最优的可逆跳跃算法实施贝叶斯推断的方法。在我们的模拟实验中，我们表明当冲击不符合极值分布时，标准的动态Logit模型可能会产生误导性的结果，尤其是对于反事实情况的分析。我们的半参数方法在这些情况下提供了可靠的推断。我们在合适的距离上开发了关于位置-尺度混合的逼近和后验集中的理论结果。
+    在经济学中，通过期望效用范式内的凹凸伯努利效用来建模风险规避。我们提出了一种简单的期望效用和凹凸性的测试方法。我们发现很少支持任何一种模型：只有30%的选择符合凹凸效用，只有72名受试者中的两人符合期望效用，而其中只有一人符合经济学中的风险规避模型。我们的结果与使用流行的多价格清单方法获取的看似“风险规避”的选择的普遍现象形成对比，这一结果我们在本文中重复了。我们证明了这种方法不适用于衡量风险规避，并且它产生风险规避高普遍性的原因是参数错误。
 
-    We propose a tractable semiparametric estimation method for structural dynamic discrete choice models. The distribution of additive utility shocks in the proposed framework is modeled by location-scale mixtures of extreme value distributions with varying numbers of mixture components. Our approach exploits the analytical tractability of extreme value distributions in the multinomial choice settings and the flexibility of the location-scale mixtures. We implement the Bayesian approach to inference using Hamiltonian Monte Carlo and an approximately optimal reversible jump algorithm. In our simulation experiments, we show that the standard dynamic logit model can deliver misleading results, especially about counterfactuals, when the shocks are not extreme value distributed. Our semiparametric approach delivers reliable inference in these settings. We develop theoretical results on approximations by location-scale mixtures in an appropriate distance and posterior concentration of the set i
+    In economics, risk aversion is modeled via a concave Bernoulli utility within the expected-utility paradigm. We propose a simple test of expected utility and concavity. We find little support for either: only 30 percent of the choices are consistent with a concave utility, only two out of 72 subjects are consistent with expected utility, and only one of them fits the economic model of risk aversion. Our findings contrast with the preponderance of seemingly "risk-averse" choices that have been elicited using the popular multiple-price list methodology, a result we replicate in this paper. We demonstrate that this methodology is unfit to measure risk aversion, and that the high prevalence of risk aversion it produces is due to parametric misspecification.
     
-[^11]: 通过分位数平衡实现反向权重的尖锐敏感性分析
+[^6]: 有限知识下n人博弈的人类与机器智能
 
-    Sharp Sensitivity Analysis for Inverse Propensity Weighting via Quantile Balancing. (arXiv:2102.04543v3 [math.ST] UPDATED)
+    Human and Machine Intelligence in n-Person Games with Partial Knowledge. (arXiv:2302.13937v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2102.04543](http://arxiv.org/abs/2102.04543)
+    [http://arxiv.org/abs/2302.13937](http://arxiv.org/abs/2302.13937)
 
-    本论文提出了一种通过分位数平衡实现反向权重的尖锐敏感性分析方法，用于估计与给定量的未观察到的混淆因素相容的治疗效应范围。
+    提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。
 
     
 
-    反向权重（IPW）是一种常用的从观测数据中估计治疗效应的方法。然而，它的正确性依赖于不可测试（且经常难以置信）的假设，即所有混淆因素都已被测量。本文提出了一种对IPW进行坚韧的敏感性分析，用于估计与给定量的未观察到的混淆因素相容的治疗效应范围。估计的范围收敛于最窄的可能区间（在给定假设下）,包含真实的治疗效应。我们的提议是赵，Small和Bhattacharya（2019）的影响力敏感性分析的改进，我们表明，即使渐近地，该方法给出的界限也过宽。这种分析基于Tan（2006）边际敏感性模型的新部分鉴别结果。
+    本文提出了一个新的框架——有限知识下的n人博弈，其中玩家只对游戏的某些方面（包括行动、结果和其他玩家）有限的了解。为了分析这些游戏，我介绍了一组新的概念和机制，重点关注人类和机器决策之间的相互作用。具体而言，我引入了两个主要概念：第一个是“游戏智能”（GI）机制，它通过考虑参考机器智能下的“错误”，不仅仅是游戏的结果，量化了玩家在游戏中展示出的智能。第二个是“防作弊性”，这是一种实用的、可计算的策略无关性的概念。GI机制提供了一种实用的方法来评估玩家，可以潜在地应用于从在线游戏到现实生活决策的各种游戏。
 
-    Inverse propensity weighting (IPW) is a popular method for estimating treatment effects from observational data. However, its correctness relies on the untestable (and frequently implausible) assumption that all confounders have been measured. This paper introduces a robust sensitivity analysis for IPW that estimates the range of treatment effects compatible with a given amount of unobserved confounding. The estimated range converges to the narrowest possible interval (under the given assumptions) that must contain the true treatment effect. Our proposal is a refinement of the influential sensitivity analysis by Zhao, Small, and Bhattacharya (2019), which we show gives bounds that are too wide even asymptotically. This analysis is based on new partial identification results for Tan (2006)'s marginal sensitivity model.
+    In this note, I introduce a new framework called n-person games with partial knowledge, in which players have only limited knowledge about the aspects of the game -- including actions, outcomes, and other players. For example, playing an actual game of chess is a game of partial knowledge. To analyze these games, I introduce a set of new concepts and mechanisms for measuring the intelligence of players, with a focus on the interplay between human- and machine-based decision-making. Specifically, I introduce two main concepts: firstly, the Game Intelligence (GI) mechanism, which quantifies a player's demonstrated intelligence in a game by considering not only the game's outcome but also the "mistakes" made during the game according to the reference machine's intelligence. Secondly, I define gaming-proofness, a practical and computational concept of strategy-proofness. The GI mechanism provides a practicable way to assess players and can potentially be applied to a wide range of games, f
+    
+[^7]: 默认提示什么时候有效?
+
+    When do Default Nudges Work?. (arXiv:2301.08797v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2301.08797](http://arxiv.org/abs/2301.08797)
+
+    通过在瑞典Covid-19疫苗推出中的区域变化，研究了对激励有差异的群体的提示效果，结果显示提示对于个人无意义的选择更有效。
+
+    
+
+    提示是科学和政策上一个新兴的话题，但不同激励群体中的提示效果的证据还不足。本文利用瑞典Covid-19疫苗推出过程中的区域变化，研究了对激励有差异的群体的提示效果：对于16-17岁的孩子，Covid-19不危险，而50-59岁的人则面临着严重疾病或死亡的巨大风险。我们发现，年轻人的反应显著强烈，这与提示对于个人无意义的选择更有效的理论相一致。
+
+    Nudging is a burgeoning topic in science and in policy, but evidence on the effectiveness of nudges among differentially-incentivized groups is lacking. This paper exploits regional variations in the roll-out of the Covid-19 vaccine in Sweden to examine the effect of a nudge on groups whose intrinsic incentives are different: 16-17-year-olds, for whom Covid-19 is not dangerous, and 50-59-year-olds, who face a substantial risk of death or severe dis-ease. We find a significantly stronger response in the younger group, consistent with the theory that nudges are more effective for choices that are not meaningful to the individual.
+    
+[^8]: 从病毒性内容中学习
+
+    Learning from Viral Content. (arXiv:2210.01267v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2210.01267](http://arxiv.org/abs/2210.01267)
+
+    本文研究了社交媒体上的学习，发现向用户展示病毒性故事可以增加信息汇集，但也可能导致大多数分享的故事是错误的稳定状态。这些误导性的稳定状态会自我维持，对平台设计和鲁棒性产生多种后果。
+
+    
+
+    我们研究了社交媒体上的学习，采用了一个均衡模型来描述用户与共享新闻故事进行交互。理性用户按顺序到达，观察到原始故事（即私有信号）和新闻推送中前辈故事的样本，然后决定分享哪些故事。观察到的故事样本取决于前辈分享的内容以及生成新闻推送的抽样算法。我们重点研究了这个算法如何选择更具病毒性（即被广泛分享）的故事的频率。向用户展示病毒性故事可以增加信息汇集，但也可能产生大多数分享故事错误的稳定状态。这些误导性的稳定状态自我持续，因为观察到错误故事的用户会形成错误的信念，从而理性地继续分享它们。最后，我们描述了平台设计和鲁棒性方面的若干后果。
+
+    We study learning on social media with an equilibrium model of users interacting with shared news stories. Rational users arrive sequentially, observe an original story (i.e., a private signal) and a sample of predecessors' stories in a news feed, and then decide which stories to share. The observed sample of stories depends on what predecessors share as well as the sampling algorithm generating news feeds. We focus on how often this algorithm selects more viral (i.e., widely shared) stories. Showing users viral stories can increase information aggregation, but it can also generate steady states where most shared stories are wrong. These misleading steady states self-perpetuate, as users who observe wrong stories develop wrong beliefs, and thus rationally continue to share them. Finally, we describe several consequences for platform design and robustness.
+    
+[^9]: SoK：区块链去中心化
+
+    SoK: Blockchain Decentralization. (arXiv:2205.04256v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.04256](http://arxiv.org/abs/2205.04256)
+
+    该论文为区块链去中心化领域的知识系统化，提出了分类法并建议使用指数来衡量和量化区块链的去中心化水平。除了共识去中心化外，其他方面的研究相对较少。这项工作为未来的研究提供了基准和指导。
+
+    
+
+    区块链通过在点对点网络中实现分布式信任，为去中心化经济提供了支持。然而，令人惊讶的是，目前还缺乏广泛接受的去中心化定义或度量标准。我们通过全面分析现有研究，探索了区块链去中心化的知识系统化（SoK）。首先，我们通过对现有研究的定性分析，在共识、网络、治理、财富和交易等五个方面建立了用于分析区块链去中心化的分类法。我们发现，除了共识去中心化以外，其他方面的研究相对较少。其次，我们提出了一种指数，通过转换香农熵来衡量和量化区块链在不同方面的去中心化水平。我们通过比较静态模拟验证了该指数的可解释性。我们还提供了其他指数的定义和讨论，包括基尼系数、中本聪系数和赫尔曼-赫尔东指数等。我们的工作概述了当前区块链去中心化的景象，并提出了一个量化的度量标准，为未来的研究提供基准。
+
+    Blockchain empowers a decentralized economy by enabling distributed trust in a peer-to-peer network. However, surprisingly, a widely accepted definition or measurement of decentralization is still lacking. We explore a systematization of knowledge (SoK) on blockchain decentralization by comprehensively analyzing existing studies in various aspects. First, we establish a taxonomy for analyzing blockchain decentralization in the five facets of consensus, network, governance, wealth, and transaction bu qualitative analysis of existing research. We find relatively little research on aspects other than consensus decentralization. Second, we propose an index that measures and quantifies the decentralization level of blockchain across different facets by transforming Shannon entropy. We verify the explainability of the index via comparative static simulations. We also provide the definition and discussion of alternative indices including the Gini Coefficient, Nakamoto Coefficient, and Herfind
+    
+[^10]: 鸽巢设计：从在线匹配的视角平衡顺序实验
+
+    Pigeonhole Design: Balancing Sequential Experiments from an Online Matching Perspective. (arXiv:2201.12936v4 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2201.12936](http://arxiv.org/abs/2201.12936)
+
+    本研究研究了一种新颖的在线实验设计问题，称为“在线阻塞问题”，旨在平衡顺序到达的具有异质协变信息的实验对象，以最小化总差异。作者提出了一种名为“鸽巢设计”的方法来解决该问题。
+
+    
+
+    实践者和学者长期以来都认识到实验对公司带来的好处。然而，对于运行在线A/B测试的面向Web的公司来说，在顺序到达实验对象时平衡协变信息仍然具有挑战性。在本文中，我们研究了一种新颖的在线实验设计问题，我们称之为“在线阻塞问题”。在这个问题中，具有异质协变信息的实验对象按顺序到达，必须立即分配到控制组或处理组中，目标是最小化总差异，即两组之间的最小权重完美匹配。为了解决这个问题，我们提出了一种新颖的实验设计方法，称为“鸽巢设计”。鸽巢设计首先将协变空间划分为较小的空间，我们称之为鸽巢，然后在每个鸽巢中到达实验对象时。
+
+    Practitioners and academics have long appreciated the benefits that experimentation brings to firms. For web-facing firms running online A/B tests, however, it still remains challenging in balancing covariate information when experimental subjects arrive sequentially. In this paper, we study a novel online experimental design problem, which we refer to as the "Online Blocking Problem." In this problem, experimental subjects with heterogeneous covariate information arrive sequentially and must be immediately assigned into either the control or the treatment group, with an objective of minimizing the total discrepancy, which is defined as the minimum weight perfect matching between the two groups. To solve this problem, we propose a novel experimental design approach, which we refer to as the "Pigeonhole Design." The pigeonhole design first partitions the covariate space into smaller spaces, which we refer to as pigeonholes, and then, when the experimental subjects arrive at each pigeonh
+    
+[^11]: 一种用于政策评估的治疗效果识别的计算方法
+
+    A Computational Approach to Identification of Treatment Effects for Policy Evaluation. (arXiv:2009.13861v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2009.13861](http://arxiv.org/abs/2009.13861)
+
+    本文研究了一种计算方法，能够在存在未观察到的异质性和仅有二值工具变量的情况下，推广局部治疗效应到不同的反事实情境，并且提出了一个新的框架，可以系统地计算各种与政策相关的治疗参数的尖锐非参数界限。
+
+    
+
+    对于反事实政策评估，确保治疗参数与所讨论的政策相关非常重要。在存在未观察到的异质性的情况下，这一点尤为具有挑战性，而这在局部平均治疗效应（LATE）的定义中得到了很好的体现。作为内在的局部效应，LATE已知在反事实环境下缺乏外部效度。本文研究了当工具变量仅为二值时，将局部治疗效应推广到不同反事实情境的可能性。我们提出了一个新的框架，系统地计算各种与政策相关的治疗参数的尖锐非参数界限，这些参数被定义为边际治疗效应（MTE）的加权平均。我们的框架足够灵活，能够充分融入工具变量的统计独立性（而不仅仅是均值独立性），并且能够考虑多种形状约束之外的鉴定假设，这些形状约束在之前的研究中已经被考虑过了。
+
+    For counterfactual policy evaluation, it is important to ensure that treatment parameters are relevant to policies in question. This is especially challenging under unobserved heterogeneity, as is well featured in the definition of the local average treatment effect (LATE). Being intrinsically local, the LATE is known to lack external validity in counterfactual environments. This paper investigates the possibility of extrapolating local treatment effects to different counterfactual settings when instrumental variables are only binary. We propose a novel framework to systematically calculate sharp nonparametric bounds on various policy-relevant treatment parameters that are defined as weighted averages of the marginal treatment effect (MTE). Our framework is flexible enough to fully incorporate statistical independence (rather than mean independence) of instruments and a large menu of identifying assumptions beyond the shape restrictions on the MTE that have been considered in prior stu
     
 

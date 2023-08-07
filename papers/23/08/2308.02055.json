@@ -1,0 +1,12 @@
+{
+    "title": "Seasonality Based Reranking of E-commerce Autocomplete Using Natural Language Queries. (arXiv:2308.02055v1 [cs.IR])",
+    "abstract": "Query autocomplete (QAC) also known as typeahead, suggests list of complete queries as user types prefix in the search box. It is one of the key features of modern search engines specially in e-commerce. One of the goals of typeahead is to suggest relevant queries to users which are seasonally important. In this paper we propose a neural network based natural language processing (NLP) algorithm to incorporate seasonality as a signal and present end to end evaluation of the QAC ranking model. Incorporating seasonality into autocomplete ranking model can improve autocomplete relevance and business metric.",
+    "link": "http://arxiv.org/abs/2308.02055",
+    "context": "Title: Seasonality Based Reranking of E-commerce Autocomplete Using Natural Language Queries. (arXiv:2308.02055v1 [cs.IR])\nAbstract: Query autocomplete (QAC) also known as typeahead, suggests list of complete queries as user types prefix in the search box. It is one of the key features of modern search engines specially in e-commerce. One of the goals of typeahead is to suggest relevant queries to users which are seasonally important. In this paper we propose a neural network based natural language processing (NLP) algorithm to incorporate seasonality as a signal and present end to end evaluation of the QAC ranking model. Incorporating seasonality into autocomplete ranking model can improve autocomplete relevance and business metric.",
+    "path": "papers/23/08/2308.02055.json",
+    "total_tokens": 673,
+    "translated_title": "基于自然语言查询的电子商务自动完成的季节性重新排序",
+    "translated_abstract": "查询自动完成（QAC）也被称为typeahead，它在用户在搜索框中输入前缀时建议完整查询列表。它是现代搜索引擎特别是在电子商务领域的关键功能之一。typeahead的目标之一是向用户建议与季节性相关的重要查询。在本文中，我们提出了一种基于神经网络的自然语言处理（NLP）算法，以将季节性作为一个信号并对QAC排序模型进行端到端评估。将季节性纳入自动完成排序模型中可以提高自动完成的相关性和业务指标。",
+    "tldr": "本文提出了一种基于神经网络的自然语言处理算法，用于将季节性作为信号来重新排序电子商务的自动完成功能，从而提高自动完成的相关性和业务指标。",
+    "en_tdlr": "This paper proposes a neural network based natural language processing algorithm to incorporate seasonality as a signal for reranking e-commerce autocomplete, improving relevance and business metrics."
+}

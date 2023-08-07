@@ -1,0 +1,12 @@
+{
+    "title": "Pruning a neural network using Bayesian inference. (arXiv:2308.02451v1 [stat.ML])",
+    "abstract": "Neural network pruning is a highly effective technique aimed at reducing the computational and memory demands of large neural networks. In this research paper, we present a novel approach to pruning neural networks utilizing Bayesian inference, which can seamlessly integrate into the training procedure. Our proposed method leverages the posterior probabilities of the neural network prior to and following pruning, enabling the calculation of Bayes factors. The calculated Bayes factors guide the iterative pruning. Through comprehensive evaluations conducted on multiple benchmarks, we demonstrate that our method achieves desired levels of sparsity while maintaining competitive accuracy.",
+    "link": "http://arxiv.org/abs/2308.02451",
+    "context": "Title: Pruning a neural network using Bayesian inference. (arXiv:2308.02451v1 [stat.ML])\nAbstract: Neural network pruning is a highly effective technique aimed at reducing the computational and memory demands of large neural networks. In this research paper, we present a novel approach to pruning neural networks utilizing Bayesian inference, which can seamlessly integrate into the training procedure. Our proposed method leverages the posterior probabilities of the neural network prior to and following pruning, enabling the calculation of Bayes factors. The calculated Bayes factors guide the iterative pruning. Through comprehensive evaluations conducted on multiple benchmarks, we demonstrate that our method achieves desired levels of sparsity while maintaining competitive accuracy.",
+    "path": "papers/23/08/2308.02451.json",
+    "total_tokens": 661,
+    "translated_title": "使用贝叶斯推断修剪神经网络",
+    "translated_abstract": "神经网络修剪是一种非常有效的技术，旨在减少大型神经网络的计算和内存需求。在这篇研究论文中，我们提出了一种利用贝叶斯推断修剪神经网络的新方法，它可以无缝地集成到训练过程中。我们提出的方法利用修剪前后的神经网络的后验概率，从而计算贝叶斯因子。计算的贝叶斯因子指导着迭代修剪过程。通过对多个基准进行全面评估，我们证明了我们的方法在保持竞争力的准确性的同时实现了理想的稀疏程度。",
+    "tldr": "使用贝叶斯推断修剪神经网络的新方法可以实现理想的稀疏程度，同时保持竞争力的准确性。",
+    "en_tdlr": "A novel approach to pruning neural networks using Bayesian inference achieves desired levels of sparsity while maintaining competitive accuracy."
+}

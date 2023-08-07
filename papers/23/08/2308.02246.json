@@ -1,0 +1,11 @@
+{
+    "title": "Statistically consistent term structures have affine geometry. (arXiv:2308.02246v1 [q-fin.MF])",
+    "abstract": "This paper is concerned with finite dimensional models for the entire term structure for energy futures. As soon as a finite dimensional set of possible yield curves is chosen, one likes to estimate the dynamic behaviour of the yield curve evolution from data. The estimated model should be free of arbitrage which is known to result in some drift condition. If the yield curve evolution is modelled by a diffusion, then this leaves the diffusion coefficient open for estimation. From a practical perspective, this requires that the chosen set of possible yield curves is compatible with any obtained diffusion coefficient. In this paper, we show that this compatibility enforces an affine geometry of the set of possible yield curves.",
+    "link": "http://arxiv.org/abs/2308.02246",
+    "context": "Title: Statistically consistent term structures have affine geometry. (arXiv:2308.02246v1 [q-fin.MF])\nAbstract: This paper is concerned with finite dimensional models for the entire term structure for energy futures. As soon as a finite dimensional set of possible yield curves is chosen, one likes to estimate the dynamic behaviour of the yield curve evolution from data. The estimated model should be free of arbitrage which is known to result in some drift condition. If the yield curve evolution is modelled by a diffusion, then this leaves the diffusion coefficient open for estimation. From a practical perspective, this requires that the chosen set of possible yield curves is compatible with any obtained diffusion coefficient. In this paper, we show that this compatibility enforces an affine geometry of the set of possible yield curves.",
+    "path": "papers/23/08/2308.02246.json",
+    "total_tokens": 780,
+    "translated_title": "统计一致的期限结构具有仿射几何",
+    "translated_abstract": "本文涉及能源期货全期限结构的有限维模型。在选择了一组可能的收益率曲线之后，我们希望从数据中估计收益率曲线演化的动态行为。估计出的模型应该没有套利，这被认为会导致某些漂移条件。如果收益率曲线的演化模型是扩散过程，那么扩散系数的估计就是开放的。从实际角度来看，这要求所选择的可能收益率曲线集与所获得的扩散系数是相容的。在本文中，我们展示了这种相容性强制了一组可能的收益率曲线的仿射几何性质。",
+    "tldr": "本文研究了能源期货的全期限结构的有限维模型，并提出了一个相容性概念，要求所选择的可能收益率曲线集与所获得的扩散系数是相容的，从而推导出一组可能的收益率曲线具有仿射几何性质。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Baby Llama: knowledge distillation from an ensemble of teachers trained on a small dataset with no performance penalty. (arXiv:2308.02019v1 [cs.CL])",
+    "abstract": "We present our proposed solution to the BabyLM challenge [arXiv:2301.11796], whose goal was to improve the sample efficiency of language models. We trained an ensemble consisting of a GPT-2 and small LLaMA models on the developmentally-plausible, 10M-word BabyLM dataset, then distilled it into a small, 58M-parameter LLaMA model, which exceeds in performance both of its teachers as well as a similar model trained without distillation. This suggests that distillation can not only retain the full performance of the teacher model when the latter is trained on a sufficiently small dataset; it can exceed it, and lead to significantly better performance than direct training.",
+    "link": "http://arxiv.org/abs/2308.02019",
+    "context": "Title: Baby Llama: knowledge distillation from an ensemble of teachers trained on a small dataset with no performance penalty. (arXiv:2308.02019v1 [cs.CL])\nAbstract: We present our proposed solution to the BabyLM challenge [arXiv:2301.11796], whose goal was to improve the sample efficiency of language models. We trained an ensemble consisting of a GPT-2 and small LLaMA models on the developmentally-plausible, 10M-word BabyLM dataset, then distilled it into a small, 58M-parameter LLaMA model, which exceeds in performance both of its teachers as well as a similar model trained without distillation. This suggests that distillation can not only retain the full performance of the teacher model when the latter is trained on a sufficiently small dataset; it can exceed it, and lead to significantly better performance than direct training.",
+    "path": "papers/23/08/2308.02019.json",
+    "total_tokens": 797,
+    "translated_title": "Baby Llama：从一组在小数据集上训练的教师中进行知识蒸馏，无性能损失",
+    "translated_abstract": "我们提出了我们对BabyLM挑战[arXiv:2301.11796]的解决方案，其目标是提高语言模型的样本效率。我们在以发展性为基础的10M词语的BabyLM数据集上训练了一个由GPT-2和小型LLaMA模型组成的集合，然后将其蒸馏为一个小型的58M参数LLaMA模型，其性能超过了两个教师模型以及一个没有进行蒸馏训练的类似模型。这表明，当教师模型在足够小的数据集上训练时，蒸馏不仅可以保持教师模型的全部性能，还可以超过它，并导致比直接训练更好的性能。",
+    "tldr": "本文提出了一种从在小数据集上训练的教师中进行知识蒸馏的方法，并证明当教师模型在足够小的数据集上训练时，蒸馏可以保持甚至超过教师模型的性能。",
+    "en_tdlr": "This paper presents a method of knowledge distillation from teachers trained on small datasets and proves that distillation can maintain or even exceed the performance of the teacher model when trained on sufficiently small datasets."
+}
