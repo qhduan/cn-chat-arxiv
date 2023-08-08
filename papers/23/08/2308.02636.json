@@ -1,0 +1,11 @@
+{
+    "title": "Learning from Topology: Cosmological Parameter Estimation from the Large-scale Structure. (arXiv:2308.02636v1 [astro-ph.CO])",
+    "abstract": "The topology of the large-scale structure of the universe contains valuable information on the underlying cosmological parameters. While persistent homology can extract this topological information, the optimal method for parameter estimation from the tool remains an open question. To address this, we propose a neural network model to map persistence images to cosmological parameters. Through a parameter recovery test, we demonstrate that our model makes accurate and precise estimates, considerably outperforming conventional Bayesian inference approaches.",
+    "link": "http://arxiv.org/abs/2308.02636",
+    "context": "Title: Learning from Topology: Cosmological Parameter Estimation from the Large-scale Structure. (arXiv:2308.02636v1 [astro-ph.CO])\nAbstract: The topology of the large-scale structure of the universe contains valuable information on the underlying cosmological parameters. While persistent homology can extract this topological information, the optimal method for parameter estimation from the tool remains an open question. To address this, we propose a neural network model to map persistence images to cosmological parameters. Through a parameter recovery test, we demonstrate that our model makes accurate and precise estimates, considerably outperforming conventional Bayesian inference approaches.",
+    "path": "papers/23/08/2308.02636.json",
+    "total_tokens": 681,
+    "translated_title": "从拓扑学中学习：大尺度结构的宇宙参数估计",
+    "translated_abstract": "宇宙大尺度结构的拓扑包含着有关基础宇宙参数的宝贵信息。虽然持续同调可以提取这种拓扑信息，但如何最佳地从这个工具中进行参数估计仍然是一个开放的问题。为了解决这个问题，我们提出了一个神经网络模型，用于将持续图像映射到宇宙参数。通过参数恢复测试，我们证明我们的模型能够准确而精确地估计，明显优于传统的贝叶斯推断方法。",
+    "tldr": "该论文提出了一种基于持续同调和神经网络的方法，利用大尺度结构的拓扑信息估计宇宙参数。通过参数恢复测试，发现该方法比传统的贝叶斯推断方法更准确和精确。"
+}

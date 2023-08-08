@@ -1,0 +1,11 @@
+{
+    "title": "Augmented Dynamic Gordon Growth Model. (arXiv:2201.06012v3 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper, we introduce a dynamic Gordon growth model, which is augmented by a time-varying spot interest rate and the Gordon growth model for dividends. Using the risk-neutral valuation method and locally risk-minimizing strategy, we obtain pricing and hedging formulas for the dividend--paying European call and put options, Margrabe exchange options, and equity--linked life insurance products. Also, we provide ML estimator of the model.",
+    "link": "http://arxiv.org/abs/2201.06012",
+    "context": "Title: Augmented Dynamic Gordon Growth Model. (arXiv:2201.06012v3 [q-fin.MF] UPDATED)\nAbstract: In this paper, we introduce a dynamic Gordon growth model, which is augmented by a time-varying spot interest rate and the Gordon growth model for dividends. Using the risk-neutral valuation method and locally risk-minimizing strategy, we obtain pricing and hedging formulas for the dividend--paying European call and put options, Margrabe exchange options, and equity--linked life insurance products. Also, we provide ML estimator of the model.",
+    "path": "papers/22/01/2201.06012.json",
+    "total_tokens": 739,
+    "translated_title": "增强的动态戈登增长模型",
+    "translated_abstract": "本文引入了一种动态的戈登增长模型，其通过时间变化的即期利率和戈登增长模型来扩充。利用风险中性估值方法和局部风险最小化策略，我们获得了红利支付的欧式看涨和看跌期权、Margrabe交换期权以及股权链接的人寿保险产品的定价和对冲公式。此外，我们还提供了该模型的最大似然估计。",
+    "tldr": "本文介绍了一种增强的动态戈登增长模型，通过引入时间变化的即期利率和戈登增长模型扩充了模型。利用风险中性估值方法和局部风险最小化策略，获得了红利支付的欧式看涨和看跌期权、Margrabe交换期权以及股权链接的人寿保险产品的定价和对冲公式。同时提供了该模型的最大似然估计。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "An Intrinsic Approach to Scalar-Curvature Estimation for Point Clouds. (arXiv:2308.02615v1 [stat.ML])",
+    "abstract": "We introduce an intrinsic estimator for the scalar curvature of a data set presented as a finite metric space. Our estimator depends only on the metric structure of the data and not on an embedding in $\\mathbb{R}^n$. We show that the estimator is consistent in the sense that for points sampled from a probability measure on a compact Riemannian manifold, the estimator converges to the scalar curvature as the number of points increases. To justify its use in applications, we show that the estimator is stable with respect to perturbations of the metric structure, e.g., noise in the sample or error estimating the intrinsic metric. We validate our estimator experimentally on synthetic data that is sampled from manifolds with specified curvature.",
+    "link": "http://arxiv.org/abs/2308.02615",
+    "context": "Title: An Intrinsic Approach to Scalar-Curvature Estimation for Point Clouds. (arXiv:2308.02615v1 [stat.ML])\nAbstract: We introduce an intrinsic estimator for the scalar curvature of a data set presented as a finite metric space. Our estimator depends only on the metric structure of the data and not on an embedding in $\\mathbb{R}^n$. We show that the estimator is consistent in the sense that for points sampled from a probability measure on a compact Riemannian manifold, the estimator converges to the scalar curvature as the number of points increases. To justify its use in applications, we show that the estimator is stable with respect to perturbations of the metric structure, e.g., noise in the sample or error estimating the intrinsic metric. We validate our estimator experimentally on synthetic data that is sampled from manifolds with specified curvature.",
+    "path": "papers/23/08/2308.02615.json",
+    "total_tokens": 810,
+    "translated_title": "对于点云的标量曲率估计的内在方法",
+    "translated_abstract": "我们引入了一种内在的估计方法，用于对作为有限度量空间呈现的数据集的标量曲率。我们的估计方法仅依赖于数据的度量结构，而不依赖于其在n维实数空间中的嵌入。我们证明了该估计方法是一致的，即对于从紧致黎曼流形上的概率测度中采样的点，随着点的数量增加，估计结果会收敛到标量曲率。为了证明其在应用中的可行性，我们还展示了该估计方法对度量结构的扰动具有稳定性，例如样本中的噪声或估计内在度量误差。我们在从具有指定曲率的流形中采样的合成数据上进行了实验验证。",
+    "tldr": "我们提出了一种内在的方法来估计点云的标量曲率，该方法仅依赖于数据的度量结构，而不依赖于其在n维实数空间中的嵌入。我们通过理论分析和实验证明了该方法的一致性和稳定性。"
+}

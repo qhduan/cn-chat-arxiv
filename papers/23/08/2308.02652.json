@@ -1,0 +1,12 @@
+{
+    "title": "A Review of Change of Variable Formulas for Generative Modeling. (arXiv:2308.02652v1 [cs.LG])",
+    "abstract": "Change-of-variables (CoV) formulas allow to reduce complicated probability densities to simpler ones by a learned transformation with tractable Jacobian determinant. They are thus powerful tools for maximum-likelihood learning, Bayesian inference, outlier detection, model selection, etc. CoV formulas have been derived for a large variety of model types, but this information is scattered over many separate works. We present a systematic treatment from the unifying perspective of encoder/decoder architectures, which collects 28 CoV formulas in a single place, reveals interesting relationships between seemingly diverse methods, emphasizes important distinctions that are not always clear in the literature, and identifies surprising gaps for future research.",
+    "link": "http://arxiv.org/abs/2308.02652",
+    "context": "Title: A Review of Change of Variable Formulas for Generative Modeling. (arXiv:2308.02652v1 [cs.LG])\nAbstract: Change-of-variables (CoV) formulas allow to reduce complicated probability densities to simpler ones by a learned transformation with tractable Jacobian determinant. They are thus powerful tools for maximum-likelihood learning, Bayesian inference, outlier detection, model selection, etc. CoV formulas have been derived for a large variety of model types, but this information is scattered over many separate works. We present a systematic treatment from the unifying perspective of encoder/decoder architectures, which collects 28 CoV formulas in a single place, reveals interesting relationships between seemingly diverse methods, emphasizes important distinctions that are not always clear in the literature, and identifies surprising gaps for future research.",
+    "path": "papers/23/08/2308.02652.json",
+    "total_tokens": 754,
+    "translated_title": "对生成建模的变量变换公式的综述",
+    "translated_abstract": "变量变换（CoV）公式通过可计算雅可比行列式的学习变换将复杂的概率密度简化为简单的形式，是最大似然学习、贝叶斯推断、异常检测、模型选择等领域的强大工具。虽然已经为多种模型类型导出了CoV公式，但这些信息散布在许多不同的文献中。本文从编码器/解码器架构的统一视角出发，对28个CoV公式进行了系统性的研究，将看似不同的方法之间的有趣关系呈现出来，强调了文献中不常清楚的重要区别，并为未来的研究提供了令人惊讶的空白。",
+    "tldr": "本文从编码器/解码器架构的统一视角出发，系统性地总结了28个变量变换公式，揭示了不同方法之间的有趣关系，强调了重要区别，并提出了未来研究的方向。",
+    "en_tdlr": "This paper provides a systematic treatment of 28 change-of-variables formulas from the perspective of encoder/decoder architectures, revealing interesting relationships between different methods, highlighting important distinctions, and identifying gaps for future research."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Introduction to Online Convex Optimization. (arXiv:1909.05207v3 [cs.LG] UPDATED)",
+    "abstract": "This manuscript portrays optimization as a process. In many practical applications the environment is so complex that it is infeasible to lay out a comprehensive theoretical model and use classical algorithmic theory and mathematical optimization. It is necessary as well as beneficial to take a robust approach, by applying an optimization method that learns as one goes along, learning from experience as more aspects of the problem are observed. This view of optimization as a process has become prominent in varied fields and has led to some spectacular success in modeling and systems that are now part of our daily lives.",
+    "link": "http://arxiv.org/abs/1909.05207",
+    "context": "Title: Introduction to Online Convex Optimization. (arXiv:1909.05207v3 [cs.LG] UPDATED)\nAbstract: This manuscript portrays optimization as a process. In many practical applications the environment is so complex that it is infeasible to lay out a comprehensive theoretical model and use classical algorithmic theory and mathematical optimization. It is necessary as well as beneficial to take a robust approach, by applying an optimization method that learns as one goes along, learning from experience as more aspects of the problem are observed. This view of optimization as a process has become prominent in varied fields and has led to some spectacular success in modeling and systems that are now part of our daily lives.",
+    "path": "papers/19/09/1909.05207.json",
+    "total_tokens": 618,
+    "translated_title": "在线凸优化导论",
+    "translated_abstract": "本文将优化描述为一个过程。在许多实际应用中，环境太复杂，无法建立全面的理论模型并使用经典算法和数学优化。因此，采用一种学习的优化方法，在观察到问题的更多方面时通过经验进行学习是必要且有益的。将优化视为一个过程的观点在各个领域变得突出，并在建模和成为我们日常生活一部分的系统中取得了一些引人注目的成就。",
+    "tldr": "本文将优化描述为一个过程，在实际应用中，采用在线学习的优化方法对复杂环境进行优化建模，并取得了引人注目的成就。",
+    "en_tdlr": "This paper portrays optimization as a process, and proposes using online learning based optimization methods to model complex environments in practical applications, which has led to remarkable achievements."
+}

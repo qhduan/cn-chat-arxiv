@@ -1,0 +1,12 @@
+{
+    "title": "Constrained monotone mean-variance problem with random coefficients. (arXiv:2212.14188v2 [q-fin.MF] UPDATED)",
+    "abstract": "This paper studies the monotone mean-variance (MMV) problem and the classical mean-variance (MV) problem with convex cone trading constraints in a market with random coefficients. We provide semiclosed optimal strategies and optimal values for both problems via certain backward stochastic differential equations (BSDEs). After noting the links between these BSDEs, we find that the two problems share the same optimal portfolio and optimal value. This generalizes the result of Shen and Zou $[$ SIAM J. Financial Math., 13 (2022), pp. SC99-SC112$]$ from deterministic coefficients to random ones.",
+    "link": "http://arxiv.org/abs/2212.14188",
+    "context": "Title: Constrained monotone mean-variance problem with random coefficients. (arXiv:2212.14188v2 [q-fin.MF] UPDATED)\nAbstract: This paper studies the monotone mean-variance (MMV) problem and the classical mean-variance (MV) problem with convex cone trading constraints in a market with random coefficients. We provide semiclosed optimal strategies and optimal values for both problems via certain backward stochastic differential equations (BSDEs). After noting the links between these BSDEs, we find that the two problems share the same optimal portfolio and optimal value. This generalizes the result of Shen and Zou $[$ SIAM J. Financial Math., 13 (2022), pp. SC99-SC112$]$ from deterministic coefficients to random ones.",
+    "path": "papers/22/12/2212.14188.json",
+    "total_tokens": 745,
+    "translated_title": "具有随机系数的受约束单调均值-方差问题",
+    "translated_abstract": "本文研究了具有随机系数的受约束单调均值-方差（MMV）问题和具有凸锥交易约束的经典均值-方差（MV）问题。我们通过一定的逆向随机微分方程（BSDEs）提供了两个问题的半封闭最优策略和最优值。在注意到这些BSDEs之间的联系后，我们发现这两个问题共享相同的最优投资组合和最优值。这将Shen和Zou的结果（SIAM J. Financial Math.，13（2022），pp. SC99-SC112）从确定性系数推广到随机系数。",
+    "tldr": "本文研究了具有随机系数的受约束单调均值-方差问题和经典均值-方差问题，并通过逆向随机微分方程提供了最优策略和最优值。结果表明这两个问题共享相同的最优投资组合和最优值。",
+    "en_tdlr": "This paper investigates the constrained monotone mean-variance problem and the classical mean-variance problem with random coefficients. Optimal strategies and values for both problems are obtained using backward stochastic differential equations. The results reveal that the two problems share the same optimal portfolio and value."
+}

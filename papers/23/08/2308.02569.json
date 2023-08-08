@@ -1,0 +1,12 @@
+{
+    "title": "BioBERT Based SNP-traits Associations Extraction from Biomedical Literature. (arXiv:2308.02569v1 [cs.CL])",
+    "abstract": "Scientific literature contains a considerable amount of information that provides an excellent opportunity for developing text mining methods to extract biomedical relationships. An important type of information is the relationship between singular nucleotide polymorphisms (SNP) and traits. In this paper, we present a BioBERT-GRU method to identify SNP- traits associations. Based on the evaluation of our method on the SNPPhenA dataset, it is concluded that this new method performs better than previous machine learning and deep learning based methods. BioBERT-GRU achieved the result a precision of 0.883, recall of 0.882 and F1-score of 0.881.",
+    "link": "http://arxiv.org/abs/2308.02569",
+    "context": "Title: BioBERT Based SNP-traits Associations Extraction from Biomedical Literature. (arXiv:2308.02569v1 [cs.CL])\nAbstract: Scientific literature contains a considerable amount of information that provides an excellent opportunity for developing text mining methods to extract biomedical relationships. An important type of information is the relationship between singular nucleotide polymorphisms (SNP) and traits. In this paper, we present a BioBERT-GRU method to identify SNP- traits associations. Based on the evaluation of our method on the SNPPhenA dataset, it is concluded that this new method performs better than previous machine learning and deep learning based methods. BioBERT-GRU achieved the result a precision of 0.883, recall of 0.882 and F1-score of 0.881.",
+    "path": "papers/23/08/2308.02569.json",
+    "total_tokens": 742,
+    "translated_title": "基于BioBERT的生物医学文献中SNP-特征关联的提取",
+    "translated_abstract": "科学文献中包含大量信息，为开发文本挖掘方法提供了极好的机会，以提取生物医学关系。重要的一类信息是单核苷酸多态性（SNP）与特征之间的关联。本文提出了一种基于BioBERT-GRU的方法来识别SNP-特征关联。通过在SNPPhenA数据集上对我们的方法进行评估，得出结论：该新方法在性能上优于以前的机器学习和深度学习方法。BioBERT-GRU实现了精度0.883，召回率0.882和F1-score 0.881的结果。",
+    "tldr": "本文使用BioBERT-GRU方法提取生物医学文献中SNP-特征关联，经过评估证明该方法在性能上胜过以往的机器学习和深度学习方法，达到了较高的精度、召回率和F1-score。",
+    "en_tdlr": "This paper proposes a BioBERT-GRU method to extract SNP-trait associations from biomedical literature. Evaluation results show that this method outperforms previous machine learning and deep learning based methods, achieving high precision, recall, and F1-score."
+}

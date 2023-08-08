@@ -1,0 +1,11 @@
+{
+    "title": "The Expected Shapley value on a class of probabilistic games. (arXiv:2308.03489v1 [econ.TH])",
+    "abstract": "We study a class of probabilistic cooperative games which can be treated as an extension of the classical cooperative games with transferable utilities. The coalitions have an exogenous probability of being realized. This probability distribution is known beforehand and the distribution of the expected worth needs to be done before the realization of the state. We obtain a value for this class of games and present three characterizations of this value using natural extensions of the axioms used in the seminal axiomatization of the Shapley value. The value, which we call the Expected Shapley value, allocates the players their expected worth with respect to a probability distribution.",
+    "link": "http://arxiv.org/abs/2308.03489",
+    "context": "Title: The Expected Shapley value on a class of probabilistic games. (arXiv:2308.03489v1 [econ.TH])\nAbstract: We study a class of probabilistic cooperative games which can be treated as an extension of the classical cooperative games with transferable utilities. The coalitions have an exogenous probability of being realized. This probability distribution is known beforehand and the distribution of the expected worth needs to be done before the realization of the state. We obtain a value for this class of games and present three characterizations of this value using natural extensions of the axioms used in the seminal axiomatization of the Shapley value. The value, which we call the Expected Shapley value, allocates the players their expected worth with respect to a probability distribution.",
+    "path": "papers/23/08/2308.03489.json",
+    "total_tokens": 691,
+    "translated_title": "在一类概率博弈中的预期Shapley值",
+    "translated_abstract": "我们研究了一类概率合作博弈，可视为可转移效用的经典合作博弈的扩展。联盟的实现具有外生概率。这个概率分布事先已知，并且在状态实现之前需要对预期价值的分布进行确定。我们为这类博弈得到了一个值，并提出了三个用于描述这个值的特性，这些特性使用了Shapley值的基本公理的自然扩展。这个值，我们称之为预期Shapley值，根据概率分布分配给玩家他们的预期价值。",
+    "tldr": "本文研究了一类概率博弈，该博弈可视为可转移效用的经典博弈的扩展，提出了预期Shapley值来分配玩家的预期价值。"
+}

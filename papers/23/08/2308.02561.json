@@ -1,0 +1,11 @@
+{
+    "title": "Large-scale Generative Simulation Artificial Intelligence: the Next Hotspot in Generative AI. (arXiv:2308.02561v1 [cs.AI])",
+    "abstract": "The concept of GenAI has been developed for decades. Until recently, it has impressed us with substantial breakthroughs in natural language processing and computer vision, actively engaging in industrial scenarios. Noticing the practical challenges, e.g., limited learning resources, and overly dependencies on scientific discovery empiricism, we nominate large-scale generative simulation artificial intelligence (LS-GenAI) as the next hotspot for GenAI to connect.",
+    "link": "http://arxiv.org/abs/2308.02561",
+    "context": "Title: Large-scale Generative Simulation Artificial Intelligence: the Next Hotspot in Generative AI. (arXiv:2308.02561v1 [cs.AI])\nAbstract: The concept of GenAI has been developed for decades. Until recently, it has impressed us with substantial breakthroughs in natural language processing and computer vision, actively engaging in industrial scenarios. Noticing the practical challenges, e.g., limited learning resources, and overly dependencies on scientific discovery empiricism, we nominate large-scale generative simulation artificial intelligence (LS-GenAI) as the next hotspot for GenAI to connect.",
+    "path": "papers/23/08/2308.02561.json",
+    "total_tokens": 597,
+    "translated_title": "大规模生成模拟人工智能：生成AI中的下一个热点",
+    "translated_abstract": "GenAI的概念已经发展了数十年。最近，它在自然语言处理和计算机视觉方面取得了重大突破，在工业场景中积极参与。鉴于现实挑战，如有限的学习资源和过于依赖科学发现经验主义，我们将大规模生成模拟人工智能（LS-GenAI）提名为GenAI的下一个连接热点。",
+    "tldr": "大规模生成模拟人工智能是GenAI中的下一个热点，可以解决学习资源有限和过于依赖科学发现经验主义等实际挑战。"
+}

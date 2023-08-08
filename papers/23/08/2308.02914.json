@@ -1,0 +1,12 @@
+{
+    "title": "Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy. (arXiv:2308.02914v1 [cs.AI])",
+    "abstract": "Anomaly detection is a challenging task, particularly in systems with many variables. Anomalies are outliers that statistically differ from the analyzed data and can arise from rare events, malfunctions, or system misuse. This study investigated the ability to detect anomalies in global financial markets through Graph Neural Networks (GNN) considering an uncertainty scenario measured by a nonextensive entropy. The main findings show that the complex structure of highly correlated assets decreases in a crisis, and the number of anomalies is statistically different for nonextensive entropy parameters considering before, during, and after crisis.",
+    "link": "http://arxiv.org/abs/2308.02914",
+    "context": "Title: Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy. (arXiv:2308.02914v1 [cs.AI])\nAbstract: Anomaly detection is a challenging task, particularly in systems with many variables. Anomalies are outliers that statistically differ from the analyzed data and can arise from rare events, malfunctions, or system misuse. This study investigated the ability to detect anomalies in global financial markets through Graph Neural Networks (GNN) considering an uncertainty scenario measured by a nonextensive entropy. The main findings show that the complex structure of highly correlated assets decreases in a crisis, and the number of anomalies is statistically different for nonextensive entropy parameters considering before, during, and after crisis.",
+    "path": "papers/23/08/2308.02914.json",
+    "total_tokens": 752,
+    "translated_title": "使用图神经网络和非极端熵在全球金融市场中进行异常检测",
+    "translated_abstract": "异常检测是一个具有许多变量的系统中的一项具有挑战性的任务。异常是与分析数据在统计上不同的离群值，可能来自罕见事件、设备故障或系统滥用。本研究通过考虑由非极端熵衡量的不确定性场景，研究了使用图神经网络(GNN)在全球金融市场中检测异常的能力。主要发现表明，在危机期间高度相关的资产的复杂结构减少，不同的非极端熵参数在危机前、期间和后的异常数量在统计上存在差异。",
+    "tldr": "通过使用图神经网络和非极端熵，在全球金融市场中成功检测出了异常情况，发现了在危机期间高度相关的资产的复杂结构减少，并且不同的非极端熵参数在危机前、期间和后的异常数量存在统计上的差异",
+    "en_tdlr": "Anomaly detection in global financial markets was successfully achieved by utilizing Graph Neural Networks and nonextensive entropy. The study revealed a decrease in the complex structure of highly correlated assets during crises, and statistical differences in the number of anomalies for different nonextensive entropy parameters before, during, and after crises."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Token-Modification Adversarial Attacks for Natural Language Processing: A Survey. (arXiv:2103.00676v2 [cs.CL] UPDATED)",
+    "abstract": "There are now many adversarial attacks for natural language processing systems. Of these, a vast majority achieve success by modifying individual document tokens, which we call here a token-modification attack. Each token-modification attack is defined by a specific combination of fundamental components, such as a constraint on the adversary or a particular search algorithm. Motivated by this observation, we survey existing token-modification attacks and extract the components of each. We use an attack-independent framework to structure our survey which results in an effective categorisation of the field and an easy comparison of components. This survey aims to guide new researchers to this field and spark further research into individual attack components.",
+    "link": "http://arxiv.org/abs/2103.00676",
+    "context": "Title: Token-Modification Adversarial Attacks for Natural Language Processing: A Survey. (arXiv:2103.00676v2 [cs.CL] UPDATED)\nAbstract: There are now many adversarial attacks for natural language processing systems. Of these, a vast majority achieve success by modifying individual document tokens, which we call here a token-modification attack. Each token-modification attack is defined by a specific combination of fundamental components, such as a constraint on the adversary or a particular search algorithm. Motivated by this observation, we survey existing token-modification attacks and extract the components of each. We use an attack-independent framework to structure our survey which results in an effective categorisation of the field and an easy comparison of components. This survey aims to guide new researchers to this field and spark further research into individual attack components.",
+    "path": "papers/21/03/2103.00676.json",
+    "total_tokens": 744,
+    "translated_title": "自然语言处理中的标记修改对抗攻击：一项调研",
+    "translated_abstract": "现在有很多针对自然语言处理系统的对抗攻击。其中，绝大多数攻击通过修改单个文档标记来实现成功，我们将其称为标记修改攻击。每种标记修改攻击都由一组特定的基本组件定义，例如对攻击者的约束或特定的搜索算法。基于这一观察，我们对现有的标记修改攻击进行调查，并提取每种攻击的组件。我们使用一个与攻击无关的框架来组织我们的调研，从而对该领域进行有效的分类，并方便进行组件比较。本调研旨在指导新的研究人员进入这一领域，并推动对于个体攻击组件的进一步研究。",
+    "tldr": "这项调研对现有的自然语言处理中的标记修改对抗攻击进行了分类和比较，并旨在指导新的研究并推动进一步的攻击组件研究。"
+}

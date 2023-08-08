@@ -1,0 +1,12 @@
+{
+    "title": "Hamilton-Jacobi-Bellman Equation Arising from Optimal Portfolio Selection Problem. (arXiv:2308.02627v1 [q-fin.MF])",
+    "abstract": "The Hamilton-Jacobi-Bellman equation arising from the optimal portfolio selection problem is studied by means of the maximal monotone operator method. The existence and uniqueness of a solution to the Cauchy problem for the nonlinear parabolic partial integral differential equation in an abstract setting are investigated by using the Banach fixed-point theorem, the Fourier transform, and the monotone operators technique.",
+    "link": "http://arxiv.org/abs/2308.02627",
+    "context": "Title: Hamilton-Jacobi-Bellman Equation Arising from Optimal Portfolio Selection Problem. (arXiv:2308.02627v1 [q-fin.MF])\nAbstract: The Hamilton-Jacobi-Bellman equation arising from the optimal portfolio selection problem is studied by means of the maximal monotone operator method. The existence and uniqueness of a solution to the Cauchy problem for the nonlinear parabolic partial integral differential equation in an abstract setting are investigated by using the Banach fixed-point theorem, the Fourier transform, and the monotone operators technique.",
+    "path": "papers/23/08/2308.02627.json",
+    "total_tokens": 648,
+    "translated_title": "由最优投资组合选择问题引起的 Hamilton-Jacobi-Bellman 方程",
+    "translated_abstract": "本文通过使用最大单调算子方法研究了由最优投资组合选择问题引起的 Hamilton-Jacobi-Bellman 方程。通过使用 Banach 不动点定理、傅里叶变换和单调算子技术，研究了抽象情况下非线性抛物型偏积分微分方程的 Cauchy 问题的解的存在性和唯一性。",
+    "tldr": "本文研究了由最优投资组合选择问题引起的 Hamilton-Jacobi-Bellman 方程，并通过使用最大单调算子方法、Banach 不动点定理、傅里叶变换和单调算子技术，研究了抽象情况下非线性抛物型偏积分微分方程的解的存在性和唯一性。",
+    "en_tdlr": "This paper studies the Hamilton-Jacobi-Bellman equation arising from the optimal portfolio selection problem and investigates the existence and uniqueness of a solution to the nonlinear parabolic partial integral differential equation in an abstract setting using the maximal monotone operator method, Banach fixed-point theorem, Fourier transform, and monotone operators technique."
+}

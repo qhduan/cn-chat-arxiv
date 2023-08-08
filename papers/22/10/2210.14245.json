@@ -1,0 +1,12 @@
+{
+    "title": "CaloFlow for CaloChallenge Dataset 1. (arXiv:2210.14245v2 [physics.ins-det] UPDATED)",
+    "abstract": "CaloFlow is a new and promising approach to fast calorimeter simulation based on normalizing flows. Applying CaloFlow to the photon and charged pion Geant4 showers of Dataset 1 of the Fast Calorimeter Simulation Challenge 2022, we show how it can produce high-fidelity samples with a sampling time that is several orders of magnitude faster than Geant4. We demonstrate the fidelity of the samples using calorimeter shower images, histograms of high-level features, and aggregate metrics such as a classifier trained to distinguish CaloFlow from Geant4 samples.",
+    "link": "http://arxiv.org/abs/2210.14245",
+    "context": "Title: CaloFlow for CaloChallenge Dataset 1. (arXiv:2210.14245v2 [physics.ins-det] UPDATED)\nAbstract: CaloFlow is a new and promising approach to fast calorimeter simulation based on normalizing flows. Applying CaloFlow to the photon and charged pion Geant4 showers of Dataset 1 of the Fast Calorimeter Simulation Challenge 2022, we show how it can produce high-fidelity samples with a sampling time that is several orders of magnitude faster than Geant4. We demonstrate the fidelity of the samples using calorimeter shower images, histograms of high-level features, and aggregate metrics such as a classifier trained to distinguish CaloFlow from Geant4 samples.",
+    "path": "papers/22/10/2210.14245.json",
+    "total_tokens": 661,
+    "translated_title": "CaloFlow用于CaloChallenge数据集1的新方法",
+    "translated_abstract": "CaloFlow是一种基于归一化流的快速量能器模拟的新方法。将CaloFlow应用于Fast Calorimeter Simulation Challenge 2022的光子和带电π介子Geant4 shower的Dataset 1，我们展示它可以比Geant4快几个数量级产生高保真度的样本。我们使用量能器shower图像、高级特征的直方图以及分类器将CaloFlow与Geant4样本区分开来来证明样本的保真度。",
+    "tldr": "CaloFlow是一种新的、有前景的快速量能器模拟方法，可以比Geant4快几个数量级生成高保真度的样本。使用量能器图片、直方图和分类器证明了其样本的保真度。",
+    "en_tdlr": "CaloFlow is a new and promising approach to fast calorimeter simulation that can generate high-fidelity samples several orders of magnitude faster than Geant4. The fidelity of the samples is demonstrated using calorimeter shower images, histograms of high-level features, and a classifier trained to distinguish CaloFlow from Geant4 samples."
+}

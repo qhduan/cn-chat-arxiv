@@ -1,0 +1,12 @@
+{
+    "title": "Industrial Memories: Exploring the Findings of Government Inquiries with Neural Word Embedding and Machine Learning. (arXiv:2308.02556v1 [cs.CL])",
+    "abstract": "We present a text mining system to support the exploration of large volumes of text detailing the findings of government inquiries. Despite their historical significance and potential societal impact, key findings of inquiries are often hidden within lengthy documents and remain inaccessible to the general public. We transform the findings of the Irish government's inquiry into industrial schools and through the use of word embedding, text classification and visualisation, present an interactive web-based platform that enables the exploration of the text to uncover new historical insights.",
+    "link": "http://arxiv.org/abs/2308.02556",
+    "context": "Title: Industrial Memories: Exploring the Findings of Government Inquiries with Neural Word Embedding and Machine Learning. (arXiv:2308.02556v1 [cs.CL])\nAbstract: We present a text mining system to support the exploration of large volumes of text detailing the findings of government inquiries. Despite their historical significance and potential societal impact, key findings of inquiries are often hidden within lengthy documents and remain inaccessible to the general public. We transform the findings of the Irish government's inquiry into industrial schools and through the use of word embedding, text classification and visualisation, present an interactive web-based platform that enables the exploration of the text to uncover new historical insights.",
+    "path": "papers/23/08/2308.02556.json",
+    "total_tokens": 708,
+    "translated_title": "工业记忆：通过神经词嵌入和机器学习探索政府调查的发现",
+    "translated_abstract": "我们提出了一个文本挖掘系统，以支持探索大量关于政府调查发现的文本。尽管这些调查具有历史意义和潜在的社会影响，但关键发现常常隐藏在冗长的文件中，对一般公众来说无法获取。我们通过使用词嵌入、文本分类和可视化技术，将爱尔兰政府对工业学校的调查结果进行转化，呈现出一个交互式的基于网络的平台，可以探索文本以揭示新的历史洞见。",
+    "tldr": "通过使用神经词嵌入、文本分类和可视化技术，我们提出了一个文本挖掘系统，用于支持探索政府调查发现的大量文本，并通过一个交互式的基于网络的平台，揭示新的历史洞见。",
+    "en_tdlr": "We propose a text mining system that utilizes neural word embedding, text classification, and visualization techniques to explore a large volume of textual data related to government inquiries. Through an interactive web-based platform, we uncover new historical insights from the findings of the Irish government's inquiry into industrial schools."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Paradigm Shifts in Artificial Intelligence. (arXiv:2308.02558v1 [cs.AI])",
+    "abstract": "Kuhn's framework of scientific progress (Kuhn, 1962) provides a useful framing of the paradigm shifts that have occurred in Artificial Intelligence over the last 60 years. The framework is also useful in understanding what is arguably a new paradigm shift in AI, signaled by the emergence of large pre-trained systems such as GPT-3, on which conversational agents such as ChatGPT are based. Such systems make intelligence a commoditized general purpose technology that is configurable to applications. In this paper, I summarize the forces that led to the rise and fall of each paradigm, and discuss the pressing issues and risks associated with the current paradigm shift in AI.",
+    "link": "http://arxiv.org/abs/2308.02558",
+    "context": "Title: The Paradigm Shifts in Artificial Intelligence. (arXiv:2308.02558v1 [cs.AI])\nAbstract: Kuhn's framework of scientific progress (Kuhn, 1962) provides a useful framing of the paradigm shifts that have occurred in Artificial Intelligence over the last 60 years. The framework is also useful in understanding what is arguably a new paradigm shift in AI, signaled by the emergence of large pre-trained systems such as GPT-3, on which conversational agents such as ChatGPT are based. Such systems make intelligence a commoditized general purpose technology that is configurable to applications. In this paper, I summarize the forces that led to the rise and fall of each paradigm, and discuss the pressing issues and risks associated with the current paradigm shift in AI.",
+    "path": "papers/23/08/2308.02558.json",
+    "total_tokens": 688,
+    "translated_title": "人工智能中的范式转变",
+    "translated_abstract": "Kuhn (1962) 的科学进步框架提供了一个有用的视角，用于理解过去60年来人工智能中发生的范式转变。该框架同样有助于理解人工智能中的一个新的范式转变，这一转变的标志是大型预训练系统的出现，如基于ChatGPT的对话代理。这些系统使得智能成为一种可配置应用的通用技术产品。在本文中，我总结了导致每个范式兴起和衰落的力量，并讨论了当前人工智能范式转变所面临的紧迫问题和风险。",
+    "tldr": "本文总结了过去60年来人工智能中发生的范式转变，并讨论了当前人工智能范式转变所面临的紧迫问题和风险。",
+    "en_tdlr": "This paper summarizes the paradigm shifts that have occurred in artificial intelligence over the past 60 years and discusses the pressing issues and risks associated with the current paradigm shift in AI."
+}

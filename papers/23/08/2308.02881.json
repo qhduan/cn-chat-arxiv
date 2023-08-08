@@ -1,0 +1,12 @@
+{
+    "title": "Private Federated Learning with Dynamic Power Control via Non-Coherent Over-the-Air Computation. (arXiv:2308.02881v1 [cs.LG])",
+    "abstract": "To further preserve model weight privacy and improve model performance in Federated Learning (FL), FL via Over-the-Air Computation (AirComp) scheme based on dynamic power control is proposed. The edge devices (EDs) transmit the signs of local stochastic gradients by activating two adjacent orthogonal frequency division multi-plexing (OFDM) subcarriers, and majority votes (MVs) at the edge server (ES) are obtained by exploiting the energy accumulation on the subcarriers. Then, we propose a dynamic power control algorithm to further offset the biased aggregation of the MV aggregation values. We show that the whole scheme can mitigate the impact of the time synchronization error, channel fading and noise. The theoretical convergence proof of the scheme is re-derived.",
+    "link": "http://arxiv.org/abs/2308.02881",
+    "context": "Title: Private Federated Learning with Dynamic Power Control via Non-Coherent Over-the-Air Computation. (arXiv:2308.02881v1 [cs.LG])\nAbstract: To further preserve model weight privacy and improve model performance in Federated Learning (FL), FL via Over-the-Air Computation (AirComp) scheme based on dynamic power control is proposed. The edge devices (EDs) transmit the signs of local stochastic gradients by activating two adjacent orthogonal frequency division multi-plexing (OFDM) subcarriers, and majority votes (MVs) at the edge server (ES) are obtained by exploiting the energy accumulation on the subcarriers. Then, we propose a dynamic power control algorithm to further offset the biased aggregation of the MV aggregation values. We show that the whole scheme can mitigate the impact of the time synchronization error, channel fading and noise. The theoretical convergence proof of the scheme is re-derived.",
+    "path": "papers/23/08/2308.02881.json",
+    "total_tokens": 758,
+    "translated_title": "私密联邦学习的动态功率控制与非相干空中计算方法",
+    "translated_abstract": "为了进一步保护模型参数的隐私，并提高联邦学习中的模型性能，提出了一种基于动态功率控制的非相干空中计算方案。边缘设备通过激活两个相邻的正交频分多路复用（OFDM）子载波来传输本地随机梯度的符号，并利用子载波上的能量累积获得边缘服务器上的多数投票结果。然后，我们提出了一种动态功率控制算法来进一步抵消多数投票聚合值的偏差。我们证明了整个方案可以减轻时间同步误差、信道衰落和噪声的影响。该方案的理论收敛性证明也被重新推导出来。",
+    "tldr": "通过动态功率控制的非相干空中计算方法实现了私密联邦学习，提高了模型性能并保护了模型参数的隐私。",
+    "en_tdlr": "Private federated learning is achieved through dynamic power control and non-coherent over-the-air computation, improving model performance and preserving model weight privacy."
+}

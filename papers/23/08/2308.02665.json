@@ -1,0 +1,12 @@
+{
+    "title": "Let's Give a Voice to Conversational Agents in Virtual Reality. (arXiv:2308.02665v1 [cs.AI])",
+    "abstract": "The dialogue experience with conversational agents can be greatly enhanced with multimodal and immersive interactions in virtual reality. In this work, we present an open-source architecture with the goal of simplifying the development of conversational agents operating in virtual environments. The architecture offers the possibility of plugging in conversational agents of different domains and adding custom or cloud-based Speech-To-Text and Text-To-Speech models to make the interaction voice-based. Using this architecture, we present two conversational prototypes operating in the digital health domain developed in Unity for both non-immersive displays and VR headsets.",
+    "link": "http://arxiv.org/abs/2308.02665",
+    "context": "Title: Let's Give a Voice to Conversational Agents in Virtual Reality. (arXiv:2308.02665v1 [cs.AI])\nAbstract: The dialogue experience with conversational agents can be greatly enhanced with multimodal and immersive interactions in virtual reality. In this work, we present an open-source architecture with the goal of simplifying the development of conversational agents operating in virtual environments. The architecture offers the possibility of plugging in conversational agents of different domains and adding custom or cloud-based Speech-To-Text and Text-To-Speech models to make the interaction voice-based. Using this architecture, we present two conversational prototypes operating in the digital health domain developed in Unity for both non-immersive displays and VR headsets.",
+    "path": "papers/23/08/2308.02665.json",
+    "total_tokens": 731,
+    "translated_title": "在虚拟现实中让对话代理发出声音",
+    "translated_abstract": "通过虚拟现实中的多模态和沉浸式交互，可以极大地增强与对话代理的对话体验。在这项工作中，我们提出了一个开源架构，旨在简化在虚拟环境中运行对话代理的开发。该架构提供了将不同领域的对话代理插入和添加自定义或基于云的语音到文本和文本到语音模型，以实现基于语音的交互的可能性。利用这个架构，我们展示了在数字健康领域开发的两个对话原型，用于非沉浸式显示和虚拟现实头盔。",
+    "tldr": "本研究提出了一个简化开发虚拟环境中对话代理的开源架构，通过多模态和沉浸式交互提升与对话代理的对话体验，并通过添加语音到文本和文本到语音模型实现基于语音的交互。",
+    "en_tdlr": "This research presents an open-source architecture to simplify the development of conversational agents in virtual environments. It enhances the dialogue experience with conversational agents through multimodal and immersive interactions, and enables voice-based interaction by adding speech-to-text and text-to-speech models."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Set-alternating schemes: A new class of large Condorcet domains. (arXiv:2308.02817v1 [cs.DM])",
+    "abstract": "In this paper, we introduce set-alternating schemes to construct Condorcet domains. These schemes lead to domains which are copious, connected, and peak-pit. The resulting family of domains includes some of Arrow's single-peaked domains of size $2^{n-1}$, which we prove to be the smallest possible domains. Still, schemes of this type lead to domains larger than the domains of Fishburn's alternating scheme. Thanks to the concise form of our schemes, we can analyze the growth of our fastest-growing domains. We show that the domain size for sufficiently high $n$ exceeds $2.1973^n$, improving the previous record $2.1890^n$ from \\cite{karpov2023constructing}. To perform this analysis, a bijection between suborders and Dyck words, counted by the Catalan numbers, is developed.",
+    "link": "http://arxiv.org/abs/2308.02817",
+    "context": "Title: Set-alternating schemes: A new class of large Condorcet domains. (arXiv:2308.02817v1 [cs.DM])\nAbstract: In this paper, we introduce set-alternating schemes to construct Condorcet domains. These schemes lead to domains which are copious, connected, and peak-pit. The resulting family of domains includes some of Arrow's single-peaked domains of size $2^{n-1}$, which we prove to be the smallest possible domains. Still, schemes of this type lead to domains larger than the domains of Fishburn's alternating scheme. Thanks to the concise form of our schemes, we can analyze the growth of our fastest-growing domains. We show that the domain size for sufficiently high $n$ exceeds $2.1973^n$, improving the previous record $2.1890^n$ from \\cite{karpov2023constructing}. To perform this analysis, a bijection between suborders and Dyck words, counted by the Catalan numbers, is developed.",
+    "path": "papers/23/08/2308.02817.json",
+    "total_tokens": 765,
+    "translated_title": "集合交替方案：一类新的大型康多塞域",
+    "translated_abstract": "本文引入了集合交替方案来构建康多塞域。这些方案导致了丰富、连通和Peak-Pit的域。所得到的域族包括一些Arrow的大小为$2^{n-1}$的单峰域，我们证明它们是可能最小的域。然而，这类方案导致的域比Fishburn的交替方案的域要大。由于我们方案的简洁形式，我们可以分析我们增长最快的域的增长率。我们展示了对于足够高的n，域的大小超过了 $2.1973^n$，改进了\\cite{karpov2023constructing}中的先前记录 $2.1890^n$。为了进行这个分析，我们开发了一个辛勤隶属和Dyck词之间的双射，由卡塔兰数计数。",
+    "tldr": "本文引入了一种新的集合交替方案来构建康多塞域，并展示了这类方案导致的域的一些重要特性和增长规律。"
+}

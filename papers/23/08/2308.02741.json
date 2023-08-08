@@ -1,0 +1,12 @@
+{
+    "title": "Nonlinear Controller Design for a Quadrotor with Inverted Pendulum. (arXiv:2308.02741v1 [cs.RO])",
+    "abstract": "The quadrotor is a $6$ degrees-of-freedom (DoF) system with underactuation. Adding a spherical pendulum on top of a quadrotor further complicates the task of achieving any output tracking while stabilizing the rest. In this report, we present different types of controllers for the nonlinear dynamical system of quadrotor and pendulum combination, utilizing feedback-linearization and control Lyapunov function with quadratic programming (CLF-QP) approaches. We demonstrated trajectory tracking for quadrotor-only case as well as quadrotor-pendulum-combined case.",
+    "link": "http://arxiv.org/abs/2308.02741",
+    "context": "Title: Nonlinear Controller Design for a Quadrotor with Inverted Pendulum. (arXiv:2308.02741v1 [cs.RO])\nAbstract: The quadrotor is a $6$ degrees-of-freedom (DoF) system with underactuation. Adding a spherical pendulum on top of a quadrotor further complicates the task of achieving any output tracking while stabilizing the rest. In this report, we present different types of controllers for the nonlinear dynamical system of quadrotor and pendulum combination, utilizing feedback-linearization and control Lyapunov function with quadratic programming (CLF-QP) approaches. We demonstrated trajectory tracking for quadrotor-only case as well as quadrotor-pendulum-combined case.",
+    "path": "papers/23/08/2308.02741.json",
+    "total_tokens": 744,
+    "translated_title": "倒立摆扬升器的非线性控制器设计",
+    "translated_abstract": "四旋翼飞行器是一个具有六个自由度的欠驱动系统。在四旋翼飞行器上增加一个球形摆锤进一步增加了在稳定其余部分时实现任何输出跟踪的复杂性。在本文中，我们提出了用于四旋翼飞行器和倒立摆组合的非线性动力学系统的不同类型控制器，利用反馈线性化和具有二次规划的控制Lyapunov函数（CLF-QP）方法。我们展示了四旋翼飞行器独立情况下以及四旋翼飞行器-倒立摆组合情况下的轨迹跟踪。",
+    "tldr": "本文介绍了一种倒立摆扬升器的非线性控制器设计，该设计适用于四旋翼飞行器和倒立摆组合的动力学系统，并展示了轨迹跟踪的实验结果。",
+    "en_tdlr": "This paper presents the design of a nonlinear controller for a quadrotor with an inverted pendulum, demonstrating trajectory tracking for both the quadrotor-only case and the quadrotor-pendulum-combined case."
+}

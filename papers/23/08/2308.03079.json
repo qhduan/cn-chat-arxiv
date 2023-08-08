@@ -1,0 +1,11 @@
+{
+    "title": "Visualization of Extremely Sparse Contingency Table by Taxicab Correspondence Analysis: A Case Study of Textual Data. (arXiv:2308.03079v1 [stat.ML])",
+    "abstract": "We present an overview of taxicab correspondence analysis, a robust variant of correspondence analysis, for visualization of extremely sparse ontingency tables. In particular we visualize an extremely sparse textual data set of size 590 by 8265 concerning fragments of 8 sacred books recently introduced by Sah and Fokou\\'e (2019) and studied quite in detail by (12 + 1) dimension reduction methods (t-SNE, UMAP, PHATE,...) by Ma, Sun and Zou (2022).",
+    "link": "http://arxiv.org/abs/2308.03079",
+    "context": "Title: Visualization of Extremely Sparse Contingency Table by Taxicab Correspondence Analysis: A Case Study of Textual Data. (arXiv:2308.03079v1 [stat.ML])\nAbstract: We present an overview of taxicab correspondence analysis, a robust variant of correspondence analysis, for visualization of extremely sparse ontingency tables. In particular we visualize an extremely sparse textual data set of size 590 by 8265 concerning fragments of 8 sacred books recently introduced by Sah and Fokou\\'e (2019) and studied quite in detail by (12 + 1) dimension reduction methods (t-SNE, UMAP, PHATE,...) by Ma, Sun and Zou (2022).",
+    "path": "papers/23/08/2308.03079.json",
+    "total_tokens": 736,
+    "translated_title": "对于非常稀疏的列联表的出租车对应分析的可视化：一个文本数据的案例研究",
+    "translated_abstract": "我们介绍了一种鲁棒的对应分析变体——出租车对应分析，用于可视化非常稀疏的列联表。具体来说，我们可视化了一个尺寸为590 × 8265的非常稀疏文本数据集，其中涉及最近由Sah和Fokou\\'e（2019）引入的8本圣书的片段，并由Ma，Sun和Zou（2022）使用（12 + 1）维度约减方法（t-SNE, UMAP, PHATE,...）进行详细研究。",
+    "tldr": "出租车对应分析是一种可视化非常稀疏的列联表的方法，我们在一个涉及文本数据的案例研究中进行了应用，研究了Sah和Fokou\\'e（2019）引入的8本圣书片段，并使用多种维度约减方法进行了详细研究。"
+}
