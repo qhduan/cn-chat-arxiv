@@ -25,14 +25,15 @@
 | [^21] | [Revealed Preferences of One-Sided Matching.](http://arxiv.org/abs/2210.14388) | 本文研究了单边匹配的显露偏好，提出了合理化的概念，并在非可转让和可转让效用设置中进行了研究。 |
 | [^22] | [The Policy Implications of Economic Complexity.](http://arxiv.org/abs/2205.02164) | 本文提供了经济复杂性政策启示的框架，包括不同方法的应用和时机，地理扩散的影响以及结构性变革的推动者的角色。 |
 | [^23] | [Improving the Deferred Acceptance with Minimal Compromise.](http://arxiv.org/abs/2205.00032) | 该论文提出了一种新的延迟接受方法，通过满足学校的优先权要求，同时提高学生福利，并减少不公平。 |
-| [^24] | [Effect or Treatment Heterogeneity? Policy Evaluation with Aggregated and Disaggregated Treatments.](http://arxiv.org/abs/2110.01427) | 本文提出了一种分解方法，以发现治疗效果和治疗分配中的差异化，避免虚假发现，并评估治疗分配质量。研究发现，吸烟对出生体重的效应差异部分是由于不同的吸烟强度，而职业培训对工作军效果的性别差距主要是由于不同的选择性进入。 |
-| [^25] | [Conflicts, Assortative Matching, and the Evolution of Signaling Norms.](http://arxiv.org/abs/2106.10772) | 本文提出了一个模型来解释冲突在决定信号规范崛起和衰落中的潜在作用。通过模拟实验证明，冲突可以导致信号规范的崩溃，并且该崩溃会传播到相对封闭的群体。 |
-| [^26] | [Selling Data to an Agent with Endogenous Information.](http://arxiv.org/abs/2103.05788) | 该论文研究了一个数据经纪人向代理商出售信息的模型，发现提供完整信息的价格至少可以获得最优收入的一半。 |
-| [^27] | [Bandits in Matching Markets: Ideas and Proposals for Peer Lending.](http://arxiv.org/abs/2011.04400) | 本文探讨了匹配市场中P2P借贷的市场设计和抽象，通过将其建模为一个优化问题，同时考虑市场两边的代理人效用和对借款人公平分配的影响。通过基于顺序决策的技术，贷款人可以根据竞争的动态调整选择，影响其投资回报。模拟实验显示贷款人的遗憾取决于初始偏好设置。 |
-| [^28] | [A Computational Approach to Identification of Treatment Effects for Policy Evaluation.](http://arxiv.org/abs/2009.13861) | 本文研究了一种计算方法，能够在存在未观察到的异质性和仅有二值工具变量的情况下，推广局部治疗效应到不同的反事实情境，并且提出了一个新的框架，可以系统地计算各种与政策相关的治疗参数的尖锐非参数界限。 |
-| [^29] | [Multi-Purchase Behavior: Modeling, Estimation and Optimization.](http://arxiv.org/abs/2006.08055) | 本研究提出了一种名为Bundle-MVL-K的多次购买选择模型家族，并开发了一种迭代策略来高效地计算出该模型的优化推荐。这是对多次购买选择模型进行操作化的首次尝试之一，并首次建立了多次购买行为建模与收入增益之间的定量联系。 |
-| [^30] | [The Race between Technology and Woman: Changes in Gender and Skill Premia in OECD Countries.](http://arxiv.org/abs/2005.12600) | 技术变革对于缩小性别工资差距、扩大技能工资差距和降低劳动份额有重要贡献。 |
-| [^31] | [Counterfactual Inference for Consumer Choice Across Many Product Categories.](http://arxiv.org/abs/1906.02635) | 本文提出了一种方法用于估计消费者在多个产品类别中的偏好选择。我们利用机器学习的概率模型，考虑了时变产品属性和产品缺货的情况，并展示了我们的模型相较于传统方法的改进之处在于能够准确估计偏好的异质性。 |
+| [^24] | [Tit for Tattling: Cooperation, communication, and how each could stabilize the other.](http://arxiv.org/abs/2201.06792) | 本文探讨了间接互惠中的合作与沟通之间的相互关系。论文提出了三个条件，这些条件在没有外部压力的情况下维持了沟通系统的真实性和合作的普遍性。 |
+| [^25] | [Effect or Treatment Heterogeneity? Policy Evaluation with Aggregated and Disaggregated Treatments.](http://arxiv.org/abs/2110.01427) | 本文提出了一种分解方法，以发现治疗效果和治疗分配中的差异化，避免虚假发现，并评估治疗分配质量。研究发现，吸烟对出生体重的效应差异部分是由于不同的吸烟强度，而职业培训对工作军效果的性别差距主要是由于不同的选择性进入。 |
+| [^26] | [Conflicts, Assortative Matching, and the Evolution of Signaling Norms.](http://arxiv.org/abs/2106.10772) | 本文提出了一个模型来解释冲突在决定信号规范崛起和衰落中的潜在作用。通过模拟实验证明，冲突可以导致信号规范的崩溃，并且该崩溃会传播到相对封闭的群体。 |
+| [^27] | [Selling Data to an Agent with Endogenous Information.](http://arxiv.org/abs/2103.05788) | 该论文研究了一个数据经纪人向代理商出售信息的模型，发现提供完整信息的价格至少可以获得最优收入的一半。 |
+| [^28] | [Bandits in Matching Markets: Ideas and Proposals for Peer Lending.](http://arxiv.org/abs/2011.04400) | 本文探讨了匹配市场中P2P借贷的市场设计和抽象，通过将其建模为一个优化问题，同时考虑市场两边的代理人效用和对借款人公平分配的影响。通过基于顺序决策的技术，贷款人可以根据竞争的动态调整选择，影响其投资回报。模拟实验显示贷款人的遗憾取决于初始偏好设置。 |
+| [^29] | [A Computational Approach to Identification of Treatment Effects for Policy Evaluation.](http://arxiv.org/abs/2009.13861) | 本文研究了一种计算方法，能够在存在未观察到的异质性和仅有二值工具变量的情况下，推广局部治疗效应到不同的反事实情境，并且提出了一个新的框架，可以系统地计算各种与政策相关的治疗参数的尖锐非参数界限。 |
+| [^30] | [Multi-Purchase Behavior: Modeling, Estimation and Optimization.](http://arxiv.org/abs/2006.08055) | 本研究提出了一种名为Bundle-MVL-K的多次购买选择模型家族，并开发了一种迭代策略来高效地计算出该模型的优化推荐。这是对多次购买选择模型进行操作化的首次尝试之一，并首次建立了多次购买行为建模与收入增益之间的定量联系。 |
+| [^31] | [The Race between Technology and Woman: Changes in Gender and Skill Premia in OECD Countries.](http://arxiv.org/abs/2005.12600) | 技术变革对于缩小性别工资差距、扩大技能工资差距和降低劳动份额有重要贡献。 |
+| [^32] | [Counterfactual Inference for Consumer Choice Across Many Product Categories.](http://arxiv.org/abs/1906.02635) | 本文提出了一种方法用于估计消费者在多个产品类别中的偏好选择。我们利用机器学习的概率模型，考虑了时变产品属性和产品缺货的情况，并展示了我们的模型相较于传统方法的改进之处在于能够准确估计偏好的异质性。 |
 
 # 详细
 
@@ -358,7 +359,21 @@
 
     In school choice problems, the motivation for students' welfare (efficiency) is restrained by concerns to respect schools' priorities (fairness). Among the fair matchings, even the best one in terms of welfare (SOSM) is inefficient. Moreover, any mechanism that improves welfare over the SOSM is manipulable by the students. First, we characterize the "least manipulable" mechanisms in this class: monotonically-promoting transformation proofness ensures that no student is better off by promoting their assigned school under the true preferences. Second, we use the notion that a matching is less unfair if it yields a smaller set of students whose priorities are violated, and define minimal unfairness accordingly. We then show that the Efficiency Adjusted Deferred Acceptance (EADA) mechanism is minimally unfair in the class of efficient and monotonically-promoting transformation proof mechanisms. When the objective is to improve students' welfare over the SOSM, this characterization implies 
     
-[^24]: 《治疗效果差异还是治疗差异？聚合和细分治疗的政策评估》
+[^24]: 捅马蜂窝：合作、沟通及其如何稳定彼此
+
+    Tit for Tattling: Cooperation, communication, and how each could stabilize the other. (arXiv:2201.06792v4 [q-bio.PE] UPDATED)
+
+    [http://arxiv.org/abs/2201.06792](http://arxiv.org/abs/2201.06792)
+
+    本文探讨了间接互惠中的合作与沟通之间的相互关系。论文提出了三个条件，这些条件在没有外部压力的情况下维持了沟通系统的真实性和合作的普遍性。
+
+    
+
+    间接互惠是一种个体与那些与他人合作的个体合作的机制。这创造了一种无需重复互动即可激励合作的制度（而直接互惠则需要）。然而，间接互惠引发了一个新问题：个体如何知道谁与他人合作过？为了知道这一点，个体需要访问某种声誉信息。也许存在一种沟通系统来传播声誉信息，但它如何保持真实和有信息量呢？大多数论文假设存在一个真实、坦诚和有信息量的沟通系统；在本文中，我们将阐述在没有外部压力的情况下，这种沟通系统如何在进化中保持稳定。具体而言，我们提出了三个条件，这些条件共同维持了沟通系统的真实性和合作的普遍性：个体（1）使用奖励合作行为的规范
+
+    Indirect reciprocity is a mechanism by which individuals cooperate with those who have cooperated with others. This creates a regime in which repeated interactions are not necessary to incent cooperation (as would be required for direct reciprocity). However, indirect reciprocity creates a new problem: how do agents know who has cooperated with others? To know this, agents would need to access some form of reputation information. Perhaps there is a communication system to disseminate reputation information, but how does it remain truthful and informative? Most papers assume the existence of a truthful, forthcoming, and informative communication system; in this paper, we seek to explain how such a communication system could remain evolutionarily stable in the absence of exogenous pressures. Specifically, we present three conditions that together maintain both the truthfulness of the communication system and the prevalence of cooperation: individuals (1) use a norm that rewards the behav
+    
+[^25]: 《治疗效果差异还是治疗差异？聚合和细分治疗的政策评估》
 
     Effect or Treatment Heterogeneity? Policy Evaluation with Aggregated and Disaggregated Treatments. (arXiv:2110.01427v3 [econ.EM] UPDATED)
 
@@ -372,7 +387,7 @@
 
     Binary treatments are often ex-post aggregates of multiple treatments or can be disaggregated into multiple treatment versions. Thus, effects can be heterogeneous due to either effect or treatment heterogeneity. We propose a decomposition method that uncovers masked heterogeneity, avoids spurious discoveries, and evaluates treatment assignment quality. The estimation and inference procedure based on double/debiased machine learning allows for high-dimensional confounding, many treatments and extreme propensity scores. Our applications suggest that heterogeneous effects of smoking on birthweight are partially due to different smoking intensities and that gender gaps in Job Corps effectiveness are largely explained by differential selection into vocational training.
     
-[^25]: 冲突、同类匹配和信号规范的演化
+[^26]: 冲突、同类匹配和信号规范的演化
 
     Conflicts, Assortative Matching, and the Evolution of Signaling Norms. (arXiv:2106.10772v4 [q-bio.PE] UPDATED)
 
@@ -386,7 +401,7 @@
 
     This paper proposes a model to explain the potential role of inter-group conflicts in determining the rise and fall of signaling norms. Individuals in a population are characterized by high and low productivity types and they are matched in pairs to form social relationships such as mating or foraging relationships. In each relationship, an individual's payoff is increasing in its own type and its partner's type. Hence, the payoff structure of a relationship does not resemble a dilemma situation. Assume that types are not observable. In one population, assortative matching according to types is sustained by signaling. In the other population, individuals do not signal and they are randomly matched. Types evolve within each population. At the same time, the two populations may engage in conflicts. Due to assortative matching, high types grow faster in the population with signaling, yet they bear the cost of signaling, which lowers their population's fitness in the long run. Through simu
     
-[^26]: 向内生信息的代理商出售数据
+[^27]: 向内生信息的代理商出售数据
 
     Selling Data to an Agent with Endogenous Information. (arXiv:2103.05788v4 [econ.TH] UPDATED)
 
@@ -400,7 +415,7 @@
 
     We consider a model of a data broker selling information to a single agent to maximize his revenue. The agent has a private valuation of the additional information, and upon receiving the signal from the data broker, the agent can conduct her own experiment to refine her posterior belief on the states with additional costs. To maximize expected revenue, only offering full information in general is suboptimal, and the optimal mechanism may contain a continuum of menu options with partial information to prevent the agent from having incentives to acquire additional information from other sources. However, our main result shows that the additional benefit from price discrimination is limited, i.e., posting a deterministic price for revealing full information obtains at least half of the optimal revenue for arbitrary prior and cost functions.
     
-[^27]: 匹配市场中的赌徒：点子和对等借贷的提议
+[^28]: 匹配市场中的赌徒：点子和对等借贷的提议
 
     Bandits in Matching Markets: Ideas and Proposals for Peer Lending. (arXiv:2011.04400v5 [cs.GT] UPDATED)
 
@@ -414,7 +429,7 @@
 
     Motivated by recent applications of sequential decision making in matching markets, in this paper we attempt at formulating and abstracting market designs for P2P lending. We describe a paradigm to set the stage for how peer to peer investments can be conceived from a matching market perspective, especially when both borrower and lender preferences are respected. We model these specialized markets as an optimization problem and consider different utilities for agents on both sides of the market while also understanding the impact of equitable allocations to borrowers. We devise a technique based on sequential decision making that allow the lenders to adjust their choices based on the dynamics of uncertainty from competition over time and that also impacts the rewards in return for their investments. Using simulated experiments we show the dynamics of the regret based on the optimal borrower-lender matching and find that the lender regret depends on the initial preferences set by the le
     
-[^28]: 一种用于政策评估的治疗效果识别的计算方法
+[^29]: 一种用于政策评估的治疗效果识别的计算方法
 
     A Computational Approach to Identification of Treatment Effects for Policy Evaluation. (arXiv:2009.13861v3 [econ.EM] UPDATED)
 
@@ -428,7 +443,7 @@
 
     For counterfactual policy evaluation, it is important to ensure that treatment parameters are relevant to policies in question. This is especially challenging under unobserved heterogeneity, as is well featured in the definition of the local average treatment effect (LATE). Being intrinsically local, the LATE is known to lack external validity in counterfactual environments. This paper investigates the possibility of extrapolating local treatment effects to different counterfactual settings when instrumental variables are only binary. We propose a novel framework to systematically calculate sharp nonparametric bounds on various policy-relevant treatment parameters that are defined as weighted averages of the marginal treatment effect (MTE). Our framework is flexible enough to fully incorporate statistical independence (rather than mean independence) of instruments and a large menu of identifying assumptions beyond the shape restrictions on the MTE that have been considered in prior stu
     
-[^29]: 多次购买行为：建模、估计和优化
+[^30]: 多次购买行为：建模、估计和优化
 
     Multi-Purchase Behavior: Modeling, Estimation and Optimization. (arXiv:2006.08055v2 [cs.IR] UPDATED)
 
@@ -442,7 +457,7 @@
 
     We study the problem of modeling purchase of multiple products and utilizing it to display optimized recommendations for online retailers and e-commerce platforms.  We present a parsimonious multi-purchase family of choice models called the Bundle-MVL-K family, and develop a binary search based iterative strategy that efficiently computes optimized recommendations for this model. We establish the hardness of computing optimal recommendation sets, and derive several structural properties of the optimal solution that aid in speeding up computation. This is one of the first attempts at operationalizing multi-purchase class of choice models. We show one of the first quantitative links between modeling multiple purchase behavior and revenue gains. The efficacy of our modeling and optimization techniques compared to competing solutions is shown using several real world datasets on multiple metrics such as model fitness, expected revenue gains and run-time reductions. For example, the expecte
     
-[^30]: 技术和女性之间的竞争：OECD国家中性别和技能溢价的变化
+[^31]: 技术和女性之间的竞争：OECD国家中性别和技能溢价的变化
 
     The Race between Technology and Woman: Changes in Gender and Skill Premia in OECD Countries. (arXiv:2005.12600v6 [econ.GN] UPDATED)
 
@@ -456,7 +471,7 @@
 
     The era of technological change entails complex patterns of changes in wages and employment. We develop a unified framework to measure the contribution of technological change embodied in new capital to changes in the relative wages and income shares of different types of labor. We obtain the aggregate elasticities of substitution by estimating and aggregating sectoral production function parameters with cross-country and cross-industry panel data from OECD countries. We show that advances in information, communication, and computation technologies contribute significantly to narrowing the gender wage gap, widening the skill wage gap, and declining labor shares.
     
-[^31]: 在多个产品类别中进行消费者选择的反事实推断
+[^32]: 在多个产品类别中进行消费者选择的反事实推断
 
     Counterfactual Inference for Consumer Choice Across Many Product Categories. (arXiv:1906.02635v2 [cs.LG] UPDATED)
 

@@ -34,20 +34,21 @@
 | [^30] | [Learning to Incentivize Information Acquisition: Proper Scoring Rules Meet Principal-Agent Model.](http://arxiv.org/abs/2303.08613) | 本文设计了一种样本高效算法，将 UCB 算法（Auer等人，2002）应用于委托代理模型的在线设置，该算法能够通过与策略代理多次互动来设计最优的计分规则，并实现良好的效果。 |
 | [^31] | [Expectation consistency for calibration of neural networks.](http://arxiv.org/abs/2303.02644) | 本文介绍了一种名为期望一致性（EC）的新型校准技术，该方法通过对最后一层权重进行后训练重新缩放，使平均验证置信度与平均正确标签比例相一致，在不同神经网络架构和数据集上实现了类似温度缩放（TS）的校准性能。 |
 | [^32] | [On the Within-Group Fairness of Screening Classifiers.](http://arxiv.org/abs/2302.00025) | 本文探讨了筛选分类器的组内公平性问题，指出使用校准的分类器可能存在对感兴趣的人口群体内的合格成员存在不公平对待的问题，并提出了一种基于动态规划的高效后处理算法来最小化修改分类器，以实现组内公平性。 |
-| [^33] | [Sliced Optimal Partial Transport.](http://arxiv.org/abs/2212.08049) | 本文提出了一种适用于一维非负测度之间最优偏转运输问题的高效算法，并通过切片的方式定义了切片最优偏转运输距离。 |
-| [^34] | [Deep Learning Based Residuals in Non-linear Factor Models: Precision Matrix Estimation of Returns with Low Signal-to-Noise Ratio.](http://arxiv.org/abs/2209.04512) | 本文介绍了在深度学习框架中使用非线性因子模型对大型投资组合中资产回报的精确矩阵进行一致估计和收敛速度。我们的方法不仅适用于金融市场典型的低信噪比环境，还与弱因子兼容，并且通过理论分析建立了统一的界限，同时提供了基于数据的一致误差协方差估计方法。模拟和实证结果显示我们的模型具有卓越的准确性。 |
-| [^35] | [Statistical and Computational Trade-offs in Variational Inference: A Case Study in Inferential Model Selection.](http://arxiv.org/abs/2207.11208) | 本文通过一个推理模型选择的案例研究，研究了变分推断中的统计和计算权衡。在高斯推理模型中，我们发现，低秩推断模型在固定计算预算下产生了更高的统计近似误差，但较低的计算误差。 |
-| [^36] | [Transfer Learning with Deep Tabular Models.](http://arxiv.org/abs/2206.15306) | 深度表格模型的迁移学习在医学诊断等领域展现出了比传统方法更优异的性能，并且提出了应对上下游特征集不同情况的解决方法。 |
-| [^37] | [Robust Fine-Tuning of Deep Neural Networks with Hessian-based Generalization Guarantees.](http://arxiv.org/abs/2206.02659) | 本文通过Hessian-based分析，提出一种基于距离的泛化度量方法，用于理解深度神经网络微调的泛化特性。通过PAC-Bayesian分析，给出了基于Hessian距离的微调模型泛化界。此外，还对微调面对标签噪声的问题进行了研究，并提出了一种相关算法和泛化误差保证。 |
-| [^38] | [Persistent Homology of Coarse Grained State Space Networks.](http://arxiv.org/abs/2206.02530) | 本研究利用持续同调分析复杂过渡网络，发现粗粒化状态空间网络能够更好地捕捉底层动态系统的丰富信息，提高动态状态检测和噪声鲁棒性。 |
-| [^39] | [Variational Inference for Bayesian Bridge Regression.](http://arxiv.org/abs/2205.09515) | 本文研究了自动微分变分推断在具有桥惩罚的回归模型上的应用，该方法通过使用小批量数据并提供全贝叶斯推断结果来加速计算时间。通过在B样条非参数回归模型上进行的模拟研究，验证了该方法的性能。 |
-| [^40] | [Kernel Robust Hypothesis Testing.](http://arxiv.org/abs/2203.12777) | 本文使用核方法构造不确定性集，在贝叶斯设置和Neyman-Pearson设置中分别研究了最小化最坏情况下错误概率和控制错误概率的问题，并提出了基于MMD的一系列测试。 |
-| [^41] | [KINet: Unsupervised Forward Models for Robotic Pushing Manipulation.](http://arxiv.org/abs/2202.09006) | 本文介绍了一种名为KINet的无监督框架，用于推理对象之间的相互作用。通过学习关键点表示和关系，该模型可以自动推广到不同场景中，并成功预测未来的关键点状态。 |
-| [^42] | [Lazy OCO: Online Convex Optimization on a Switching Budget.](http://arxiv.org/abs/2102.03803) | 本研究提出了一种懒惰型在线凸优化的算法，其在切换次数有限的情况下达到了近似最优的遗憾上界，并且在连续设置中呈现出高效的计算性能。 |
-| [^43] | [Spike and slab Bayesian sparse principal component analysis.](http://arxiv.org/abs/2102.00305) | 本论文提出了一种采用峰值和板条先验的参数扩展坐标上升变分推断算法，用于解决贝叶斯稀疏主成分分析中的正交性约束问题。通过广泛的数值模拟，证明了该算法在性能上优于其他SPCA方法。 |
-| [^44] | [Nonparametric approximation of conditional expectation operators.](http://arxiv.org/abs/2012.12917) | 本文研究了在最小假设下对条件期望算子的统计逼近问题，并通过修改其定义域证明了该算子可以被再现核希尔伯特空间上的希尔伯特-施密特算子任意好地逼近。这为非参数估计提供了一种优于传统参数投影方法的方法，并揭示了非参数估计的极限对象。 |
-| [^45] | [Introduction to Online Convex Optimization.](http://arxiv.org/abs/1909.05207) | 本文将优化描述为一个过程，在实际应用中，采用在线学习的优化方法对复杂环境进行优化建模，并取得了引人注目的成就。 |
-| [^46] | [Counterfactual Inference for Consumer Choice Across Many Product Categories.](http://arxiv.org/abs/1906.02635) | 本文提出了一种方法用于估计消费者在多个产品类别中的偏好选择。我们利用机器学习的概率模型，考虑了时变产品属性和产品缺货的情况，并展示了我们的模型相较于传统方法的改进之处在于能够准确估计偏好的异质性。 |
+| [^33] | [Spectral Regularized Kernel Two-Sample Tests.](http://arxiv.org/abs/2212.09201) | 本文研究了基于概率分布的再生核希尔伯特空间嵌入的双样本检验的最优性。我们发现最大均值差异（MMD）检验在分离边界方面并不是最优的，因此我们提出了一种基于谱正则化的修改方法，使得检验具有更小的分离边界。同时，我们还提出了自适应版本的检验，通过数据驱动的策略选择正则化参数，展示了其近乎最优的性能。 |
+| [^34] | [Sliced Optimal Partial Transport.](http://arxiv.org/abs/2212.08049) | 本文提出了一种适用于一维非负测度之间最优偏转运输问题的高效算法，并通过切片的方式定义了切片最优偏转运输距离。 |
+| [^35] | [Deep Learning Based Residuals in Non-linear Factor Models: Precision Matrix Estimation of Returns with Low Signal-to-Noise Ratio.](http://arxiv.org/abs/2209.04512) | 本文介绍了在深度学习框架中使用非线性因子模型对大型投资组合中资产回报的精确矩阵进行一致估计和收敛速度。我们的方法不仅适用于金融市场典型的低信噪比环境，还与弱因子兼容，并且通过理论分析建立了统一的界限，同时提供了基于数据的一致误差协方差估计方法。模拟和实证结果显示我们的模型具有卓越的准确性。 |
+| [^36] | [Statistical and Computational Trade-offs in Variational Inference: A Case Study in Inferential Model Selection.](http://arxiv.org/abs/2207.11208) | 本文通过一个推理模型选择的案例研究，研究了变分推断中的统计和计算权衡。在高斯推理模型中，我们发现，低秩推断模型在固定计算预算下产生了更高的统计近似误差，但较低的计算误差。 |
+| [^37] | [Transfer Learning with Deep Tabular Models.](http://arxiv.org/abs/2206.15306) | 深度表格模型的迁移学习在医学诊断等领域展现出了比传统方法更优异的性能，并且提出了应对上下游特征集不同情况的解决方法。 |
+| [^38] | [Robust Fine-Tuning of Deep Neural Networks with Hessian-based Generalization Guarantees.](http://arxiv.org/abs/2206.02659) | 本文通过Hessian-based分析，提出一种基于距离的泛化度量方法，用于理解深度神经网络微调的泛化特性。通过PAC-Bayesian分析，给出了基于Hessian距离的微调模型泛化界。此外，还对微调面对标签噪声的问题进行了研究，并提出了一种相关算法和泛化误差保证。 |
+| [^39] | [Persistent Homology of Coarse Grained State Space Networks.](http://arxiv.org/abs/2206.02530) | 本研究利用持续同调分析复杂过渡网络，发现粗粒化状态空间网络能够更好地捕捉底层动态系统的丰富信息，提高动态状态检测和噪声鲁棒性。 |
+| [^40] | [Variational Inference for Bayesian Bridge Regression.](http://arxiv.org/abs/2205.09515) | 本文研究了自动微分变分推断在具有桥惩罚的回归模型上的应用，该方法通过使用小批量数据并提供全贝叶斯推断结果来加速计算时间。通过在B样条非参数回归模型上进行的模拟研究，验证了该方法的性能。 |
+| [^41] | [Kernel Robust Hypothesis Testing.](http://arxiv.org/abs/2203.12777) | 本文使用核方法构造不确定性集，在贝叶斯设置和Neyman-Pearson设置中分别研究了最小化最坏情况下错误概率和控制错误概率的问题，并提出了基于MMD的一系列测试。 |
+| [^42] | [KINet: Unsupervised Forward Models for Robotic Pushing Manipulation.](http://arxiv.org/abs/2202.09006) | 本文介绍了一种名为KINet的无监督框架，用于推理对象之间的相互作用。通过学习关键点表示和关系，该模型可以自动推广到不同场景中，并成功预测未来的关键点状态。 |
+| [^43] | [Lazy OCO: Online Convex Optimization on a Switching Budget.](http://arxiv.org/abs/2102.03803) | 本研究提出了一种懒惰型在线凸优化的算法，其在切换次数有限的情况下达到了近似最优的遗憾上界，并且在连续设置中呈现出高效的计算性能。 |
+| [^44] | [Spike and slab Bayesian sparse principal component analysis.](http://arxiv.org/abs/2102.00305) | 本论文提出了一种采用峰值和板条先验的参数扩展坐标上升变分推断算法，用于解决贝叶斯稀疏主成分分析中的正交性约束问题。通过广泛的数值模拟，证明了该算法在性能上优于其他SPCA方法。 |
+| [^45] | [Nonparametric approximation of conditional expectation operators.](http://arxiv.org/abs/2012.12917) | 本文研究了在最小假设下对条件期望算子的统计逼近问题，并通过修改其定义域证明了该算子可以被再现核希尔伯特空间上的希尔伯特-施密特算子任意好地逼近。这为非参数估计提供了一种优于传统参数投影方法的方法，并揭示了非参数估计的极限对象。 |
+| [^46] | [Introduction to Online Convex Optimization.](http://arxiv.org/abs/1909.05207) | 本文将优化描述为一个过程，在实际应用中，采用在线学习的优化方法对复杂环境进行优化建模，并取得了引人注目的成就。 |
+| [^47] | [Counterfactual Inference for Consumer Choice Across Many Product Categories.](http://arxiv.org/abs/1906.02635) | 本文提出了一种方法用于估计消费者在多个产品类别中的偏好选择。我们利用机器学习的概率模型，考虑了时变产品属性和产品缺货的情况，并展示了我们的模型相较于传统方法的改进之处在于能够准确估计偏好的异质性。 |
 
 # 详细
 
@@ -499,7 +500,21 @@
 
     Screening classifiers are increasingly used to identify qualified candidates in a variety of selection processes. In this context, it has been recently shown that, if a classifier is calibrated, one can identify the smallest set of candidates which contains, in expectation, a desired number of qualified candidates using a threshold decision rule. This lends support to focusing on calibration as the only requirement for screening classifiers. In this paper, we argue that screening policies that use calibrated classifiers may suffer from an understudied type of within-group unfairness -- they may unfairly treat qualified members within demographic groups of interest. Further, we argue that this type of unfairness can be avoided if classifiers satisfy within-group monotonicity, a natural monotonicity property within each of the groups. Then, we introduce an efficient post-processing algorithm based on dynamic programming to minimally modify a given calibrated classifier so that its probab
     
-[^33]: 切片最优偏转运输
+[^33]: 具有谱正则化的核双样本检验
+
+    Spectral Regularized Kernel Two-Sample Tests. (arXiv:2212.09201v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2212.09201](http://arxiv.org/abs/2212.09201)
+
+    本文研究了基于概率分布的再生核希尔伯特空间嵌入的双样本检验的最优性。我们发现最大均值差异（MMD）检验在分离边界方面并不是最优的，因此我们提出了一种基于谱正则化的修改方法，使得检验具有更小的分离边界。同时，我们还提出了自适应版本的检验，通过数据驱动的策略选择正则化参数，展示了其近乎最优的性能。
+
+    
+
+    在过去的十年中，一种在非参数检验问题中广受欢迎的方法是基于概率分布的再生核希尔伯特空间（RKHS）嵌入的概念来处理一般（即非欧几里得）域上的问题。我们工作的主要目标是理解基于这种方法构建的双样本检验的最优性。首先，我们展示了流行的最大均值差异（MMD）双样本检验在Hellinger距离下的分离边界方面并不是最优的。其次，我们提出了一种基于谱正则化的MMD检验修改方法，通过考虑协方差信息（MMD检验无法捕获），证明了所提出的检验具有比MMD检验更小的分离边界的极小极大最优性。第三，我们提出了上述检验的自适应版本，其中涉及一种数据驱动策略来选择正则化参数，并展示了自适应检验几乎是最优的。
+
+    Over the last decade, an approach that has gained a lot of popularity to tackle non-parametric testing problems on general (i.e., non-Euclidean) domains is based on the notion of reproducing kernel Hilbert space (RKHS) embedding of probability distributions. The main goal of our work is to understand the optimality of two-sample tests constructed based on this approach. First, we show that the popular MMD (maximum mean discrepancy) two-sample test is not optimal in terms of the separation boundary measured in Hellinger distance. Second, we propose a modification to the MMD test based on spectral regularization by taking into account the covariance information (which is not captured by the MMD test) and prove the proposed test to be minimax optimal with a smaller separation boundary than that achieved by the MMD test. Third, we propose an adaptive version of the above test which involves a data-driven strategy to choose the regularization parameter and show the adaptive test to be almos
+    
+[^34]: 切片最优偏转运输
 
     Sliced Optimal Partial Transport. (arXiv:2212.08049v5 [cs.LG] UPDATED)
 
@@ -513,7 +528,7 @@
 
     Optimal transport (OT) has become exceedingly popular in machine learning, data science, and computer vision. The core assumption in the OT problem is the equal total amount of mass in source and target measures, which limits its application. Optimal Partial Transport (OPT) is a recently proposed solution to this limitation. Similar to the OT problem, the computation of OPT relies on solving a linear programming problem (often in high dimensions), which can become computationally prohibitive. In this paper, we propose an efficient algorithm for calculating the OPT problem between two non-negative measures in one dimension. Next, following the idea of sliced OT distances, we utilize slicing to define the sliced OPT distance. Finally, we demonstrate the computational and accuracy benefits of the sliced OPT-based method in various numerical experiments. In particular, we show an application of our proposed Sliced-OPT in noisy point cloud registration.
     
-[^34]: 基于深度学习的非线性因子模型中的残差：低信噪比下资产回报的精确矩阵估计
+[^35]: 基于深度学习的非线性因子模型中的残差：低信噪比下资产回报的精确矩阵估计
 
     Deep Learning Based Residuals in Non-linear Factor Models: Precision Matrix Estimation of Returns with Low Signal-to-Noise Ratio. (arXiv:2209.04512v2 [stat.ML] UPDATED)
 
@@ -527,7 +542,7 @@
 
     This paper introduces a consistent estimator and rate of convergence for the precision matrix of asset returns in large portfolios using a non-linear factor model within the deep learning framework. Our estimator remains valid even in low signal-to-noise ratio environments typical for financial markets and is compatible with weak factors. Our theoretical analysis establishes uniform bounds on expected estimation risk based on deep neural networks for an expanding number of assets. Additionally, we provide a new consistent data-dependent estimator of error covariance in deep neural networks. Our models demonstrate superior accuracy in extensive simulations and the empirics.
     
-[^35]: 变分推断中的统计和计算权衡：推理模型选择中的案例研究
+[^36]: 变分推断中的统计和计算权衡：推理模型选择中的案例研究
 
     Statistical and Computational Trade-offs in Variational Inference: A Case Study in Inferential Model Selection. (arXiv:2207.11208v2 [stat.ML] UPDATED)
 
@@ -541,7 +556,7 @@
 
     Variational inference has recently emerged as a popular alternative to the classical Markov chain Monte Carlo (MCMC) in large-scale Bayesian inference. The core idea is to trade statistical accuracy for computational efficiency. In this work, we study these statistical and computational trade-offs in variational inference via a case study in inferential model selection. Focusing on Gaussian inferential models (or variational approximating families) with diagonal plus low-rank precision matrices, we initiate a theoretical study of the trade-offs in two aspects, Bayesian posterior inference error and frequentist uncertainty quantification error. From the Bayesian posterior inference perspective, we characterize the error of the variational posterior relative to the exact posterior. We prove that, given a fixed computation budget, a lower-rank inferential model produces variational posteriors with a higher statistical approximation error, but a lower computational error; it reduces varian
     
-[^36]: 深度表格模型的迁移学习
+[^37]: 深度表格模型的迁移学习
 
     Transfer Learning with Deep Tabular Models. (arXiv:2206.15306v2 [cs.LG] UPDATED)
 
@@ -555,7 +570,7 @@
 
     Recent work on deep learning for tabular data demonstrates the strong performance of deep tabular models, often bridging the gap between gradient boosted decision trees and neural networks. Accuracy aside, a major advantage of neural models is that they learn reusable features and are easily fine-tuned in new domains. This property is often exploited in computer vision and natural language applications, where transfer learning is indispensable when task-specific training data is scarce. In this work, we demonstrate that upstream data gives tabular neural networks a decisive advantage over widely used GBDT models. We propose a realistic medical diagnosis benchmark for tabular transfer learning, and we present a how-to guide for using upstream data to boost performance with a variety of tabular neural network architectures. Finally, we propose a pseudo-feature method for cases where the upstream and downstream feature sets differ, a tabular-specific problem widespread in real-world appli
     
-[^37]: 具有基于Hessian的泛化保证的深度神经网络鲁棒微调
+[^38]: 具有基于Hessian的泛化保证的深度神经网络鲁棒微调
 
     Robust Fine-Tuning of Deep Neural Networks with Hessian-based Generalization Guarantees. (arXiv:2206.02659v5 [cs.LG] UPDATED)
 
@@ -569,7 +584,7 @@
 
     We consider fine-tuning a pretrained deep neural network on a target task. We study the generalization properties of fine-tuning to understand the problem of overfitting, which has often been observed (e.g., when the target dataset is small or when the training labels are noisy). Existing generalization measures for deep networks depend on notions such as distance from the initialization (i.e., the pretrained network) of the fine-tuned model and noise stability properties of deep networks. This paper identifies a Hessian-based distance measure through PAC-Bayesian analysis, which is shown to correlate well with observed generalization gaps of fine-tuned models. Theoretically, we prove Hessian distance-based generalization bounds for fine-tuned models. We also describe an extended study of fine-tuning against label noise, where overfitting is against a critical problem; We present an algorithm and a generalization error guarantee for this algorithm under a class conditional independent 
     
-[^38]: 粗粒化状态空间网络的持续同调
+[^39]: 粗粒化状态空间网络的持续同调
 
     Persistent Homology of Coarse Grained State Space Networks. (arXiv:2206.02530v2 [stat.ML] UPDATED)
 
@@ -583,7 +598,7 @@
 
     This work is dedicated to the topological analysis of complex transitional networks for dynamic state detection. Transitional networks are formed from time series data and they leverage graph theory tools to reveal information about the underlying dynamic system. However, traditional tools can fail to summarize the complex topology present in such graphs. In this work, we leverage persistent homology from topological data analysis to study the structure of these networks. We contrast dynamic state detection from time series using a coarse-grained state-space network (CGSSN) and topological data analysis (TDA) to two state of the art approaches: ordinal partition networks (OPNs) combined with TDA and the standard application of persistent homology to the time-delay embedding of the signal. We show that the CGSSN captures rich information about the dynamic state of the underlying dynamical system as evidenced by a significant improvement in dynamic state detection and noise robustness in
     
-[^39]: 变分推断用于贝叶斯桥回归
+[^40]: 变分推断用于贝叶斯桥回归
 
     Variational Inference for Bayesian Bridge Regression. (arXiv:2205.09515v2 [stat.ML] UPDATED)
 
@@ -597,7 +612,7 @@
 
     We study the implementation of Automatic Differentiation Variational inference (ADVI) for Bayesian inference on regression models with bridge penalization. The bridge approach uses $\ell_{\alpha}$ norm, with $\alpha \in (0, +\infty)$ to define a penalization on large values of the regression coefficients, which includes the Lasso ($\alpha = 1$) and ridge $(\alpha = 2)$ penalizations as special cases. Full Bayesian inference seamlessly provides joint uncertainty estimates for all model parameters. Although MCMC aproaches are available for bridge regression, it can be slow for large dataset, specially in high dimensions. The ADVI implementation allows the use of small batches of data at each iteration (due to stochastic gradient based algorithms), therefore speeding up computational time in comparison with MCMC. We illustrate the approach on non-parametric regression models with B-splines, although the method works seamlessly for other choices of basis functions. A simulation study shows
     
-[^40]: 核鲁棒假设检验
+[^41]: 核鲁棒假设检验
 
     Kernel Robust Hypothesis Testing. (arXiv:2203.12777v2 [eess.SP] CROSS LISTED)
 
@@ -611,7 +626,7 @@
 
     The problem of robust hypothesis testing is studied, where under the null and the alternative hypotheses, the data-generating distributions are assumed to be in some uncertainty sets, and the goal is to design a test that performs well under the worst-case distributions over the uncertainty sets. In this paper, uncertainty sets are constructed in a data-driven manner using kernel method, i.e., they are centered around empirical distributions of training samples from the null and alternative hypotheses, respectively; and are constrained via the distance between kernel mean embeddings of distributions in the reproducing kernel Hilbert space, i.e., maximum mean discrepancy (MMD). The Bayesian setting and the Neyman-Pearson setting are investigated. For the Bayesian setting where the goal is to minimize the worst-case error probability, an optimal test is firstly obtained when the alphabet is finite. When the alphabet is infinite, a tractable approximation is proposed to quantify the worst
     
-[^41]: KINet：用于机器人推动操作的无监督前向模型
+[^42]: KINet：用于机器人推动操作的无监督前向模型
 
     KINet: Unsupervised Forward Models for Robotic Pushing Manipulation. (arXiv:2202.09006v3 [cs.CV] UPDATED)
 
@@ -625,7 +640,7 @@
 
     Object-centric representation is an essential abstraction for forward prediction. Most existing forward models learn this representation through extensive supervision (e.g., object class and bounding box) although such ground-truth information is not readily accessible in reality. To address this, we introduce KINet (Keypoint Interaction Network) -- an end-to-end unsupervised framework to reason about object interactions based on a keypoint representation. Using visual observations, our model learns to associate objects with keypoint coordinates and discovers a graph representation of the system as a set of keypoint embeddings and their relations. It then learns an action-conditioned forward model using contrastive estimation to predict future keypoint states. By learning to perform physical reasoning in the keypoint space, our model automatically generalizes to scenarios with a different number of objects, novel backgrounds, and unseen object geometries. Experiments demonstrate the ef
     
-[^42]: 懒惰型在线凸优化: 切换预算下的研究
+[^43]: 懒惰型在线凸优化: 切换预算下的研究
 
     Lazy OCO: Online Convex Optimization on a Switching Budget. (arXiv:2102.03803v6 [cs.LG] UPDATED)
 
@@ -639,7 +654,7 @@
 
     We study a variant of online convex optimization where the player is permitted to switch decisions at most $S$ times in expectation throughout $T$ rounds. Similar problems have been addressed in prior work for the discrete decision set setting, and more recently in the continuous setting but only with an adaptive adversary. In this work, we aim to fill the gap and present computationally efficient algorithms in the more prevalent oblivious setting, establishing a regret bound of $O(T/S)$ for general convex losses and $\widetilde O(T/S^2)$ for strongly convex losses. In addition, for stochastic i.i.d.~losses, we present a simple algorithm that performs $\log T$ switches with only a multiplicative $\log T$ factor overhead in its regret in both the general and strongly convex settings. Finally, we complement our algorithms with lower bounds that match our upper bounds in some of the cases we consider.
     
-[^43]: 峰值和板条贝叶斯稀疏主成分分析
+[^44]: 峰值和板条贝叶斯稀疏主成分分析
 
     Spike and slab Bayesian sparse principal component analysis. (arXiv:2102.00305v2 [stat.ME] UPDATED)
 
@@ -653,7 +668,7 @@
 
     Sparse principal component analysis (SPCA) is a popular tool for dimensionality reduction in high-dimensional data. However, there is still a lack of theoretically justified Bayesian SPCA methods that can scale well computationally. One of the major challenges in Bayesian SPCA is selecting an appropriate prior for the loadings matrix, considering that principal components are mutually orthogonal. We propose a novel parameter-expanded coordinate ascent variational inference (PX-CAVI) algorithm. This algorithm utilizes a spike and slab prior, which incorporates parameter expansion to cope with the orthogonality constraint. Besides comparing to two popular SPCA approaches, we introduce the PX-EM algorithm as an EM analogue to the PX-CAVI algorithm for comparison. Through extensive numerical simulations, we demonstrate that the PX-CAVI algorithm outperforms these SPCA approaches, showcasing its superiority in terms of performance. We study the posterior contraction rate of the variational 
     
-[^44]: 非参数逼近条件期望算子
+[^45]: 非参数逼近条件期望算子
 
     Nonparametric approximation of conditional expectation operators. (arXiv:2012.12917v3 [math.ST] UPDATED)
 
@@ -667,7 +682,7 @@
 
     Given the joint distribution of two random variables $X,Y$ on some second countable locally compact Hausdorff space, we investigate the statistical approximation of the $L^2$-operator defined by $[Pf](x) := \mathbb{E}[ f(Y) \mid X = x ]$ under minimal assumptions. By modifying its domain, we prove that $P$ can be arbitrarily well approximated in operator norm by Hilbert-Schmidt operators acting on a reproducing kernel Hilbert space. This fact allows to estimate $P$ uniformly by finite-rank operators over a dense subspace even when $P$ is not compact. In terms of modes of convergence, we thereby obtain the superiority of kernel-based techniques over classically used parametric projection approaches such as Galerkin methods. This also provides a novel perspective on which limiting object the nonparametric estimate of $P$ converges to. As an application, we show that these results are particularly important for a large family of spectral analysis techniques for Markov transition operators
     
-[^45]: 在线凸优化导论
+[^46]: 在线凸优化导论
 
     Introduction to Online Convex Optimization. (arXiv:1909.05207v3 [cs.LG] UPDATED)
 
@@ -681,7 +696,7 @@
 
     This manuscript portrays optimization as a process. In many practical applications the environment is so complex that it is infeasible to lay out a comprehensive theoretical model and use classical algorithmic theory and mathematical optimization. It is necessary as well as beneficial to take a robust approach, by applying an optimization method that learns as one goes along, learning from experience as more aspects of the problem are observed. This view of optimization as a process has become prominent in varied fields and has led to some spectacular success in modeling and systems that are now part of our daily lives.
     
-[^46]: 在多个产品类别中进行消费者选择的反事实推断
+[^47]: 在多个产品类别中进行消费者选择的反事实推断
 
     Counterfactual Inference for Consumer Choice Across Many Product Categories. (arXiv:1906.02635v2 [cs.LG] UPDATED)
 

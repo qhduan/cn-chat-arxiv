@@ -1,0 +1,11 @@
+{
+    "title": "How Good Are SOTA Fake News Detectors. (arXiv:2308.02727v1 [cs.CL])",
+    "abstract": "Automatic fake news detection with machine learning can prevent the dissemination of false statements before they gain many views. Several datasets labeling statements as legitimate or false have been created since the 2016 United States presidential election for the prospect of training machine learning models. We evaluate the robustness of both traditional and deep state-of-the-art models to gauge how well they may perform in the real world. We find that traditional models tend to generalize better to data outside the distribution it was trained on compared to more recently-developed large language models, though the best model to use may depend on the specific task at hand.",
+    "link": "http://arxiv.org/abs/2308.02727",
+    "context": "Title: How Good Are SOTA Fake News Detectors. (arXiv:2308.02727v1 [cs.CL])\nAbstract: Automatic fake news detection with machine learning can prevent the dissemination of false statements before they gain many views. Several datasets labeling statements as legitimate or false have been created since the 2016 United States presidential election for the prospect of training machine learning models. We evaluate the robustness of both traditional and deep state-of-the-art models to gauge how well they may perform in the real world. We find that traditional models tend to generalize better to data outside the distribution it was trained on compared to more recently-developed large language models, though the best model to use may depend on the specific task at hand.",
+    "path": "papers/23/08/2308.02727.json",
+    "total_tokens": 735,
+    "translated_title": "SOTA假新闻检测的效果如何",
+    "translated_abstract": "使用机器学习进行自动的假新闻检测可以防止虚假陈述在获得很多观点之前传播。自2016年美国总统选举以来，已经创建了几个将陈述标记为合法或虚假的数据集，以便训练机器学习模型。我们评估了传统和最新技术模型的鲁棒性，以衡量它们在实际世界中的表现如何。我们发现，与最近开发的大型语言模型相比，传统模型更倾向于更好地泛化到其训练集之外的数据上，尽管最佳模型的选择可能取决于具体的任务。",
+    "tldr": "本研究评估了传统和最新技术模型在实际世界中的假新闻检测效果，发现传统模型在不同数据分布上更具鲁棒性，但最佳模型的选择取决于具体任务。"
+}
