@@ -1,0 +1,12 @@
+{
+    "title": "A Quest for Knowledge. (arXiv:2102.13434v7 [econ.TH] UPDATED)",
+    "abstract": "Is more novel research always desirable? We develop a model in which knowledge shapes society's policies and guides the search for discoveries. Researchers select a question and how intensely to study it. The novelty of a question determines both the value and difficulty of discovering its answer. We show that the benefits of discoveries are nonmonotone in novelty. Knowledge expands endogenously step-by-step over time. Through a dynamic externality, moonshots -- research on questions more novel than what is myopically optimal -- can improve the evolution of knowledge. Moonshots induce research cycles in which subsequent researchers connect the moonshot to previous knowledge.",
+    "link": "http://arxiv.org/abs/2102.13434",
+    "context": "Title: A Quest for Knowledge. (arXiv:2102.13434v7 [econ.TH] UPDATED)\nAbstract: Is more novel research always desirable? We develop a model in which knowledge shapes society's policies and guides the search for discoveries. Researchers select a question and how intensely to study it. The novelty of a question determines both the value and difficulty of discovering its answer. We show that the benefits of discoveries are nonmonotone in novelty. Knowledge expands endogenously step-by-step over time. Through a dynamic externality, moonshots -- research on questions more novel than what is myopically optimal -- can improve the evolution of knowledge. Moonshots induce research cycles in which subsequent researchers connect the moonshot to previous knowledge.",
+    "path": "papers/21/02/2102.13434.json",
+    "total_tokens": 701,
+    "translated_title": "知识探索",
+    "translated_abstract": "更多的新颖研究总是让人向往的吗？我们构建了一个模型，其中知识塑造了社会的政策，并指导发现的搜索。研究人员选择一个问题以及对其进行深入研究的程度。问题的新颖性决定了发现答案的价值和难度。我们展示了发现的收益在新颖性上是非单调的。知识在时间上逐步内生地扩展。通过一种动态外部性，超前研究-对比远远超过眼前最优选择的问题进行研究-可以改善知识的演化。超前研究引发了研究周期，随后的研究人员将超前研究与先前的知识相连接。",
+    "tldr": "这项研究发现，新颖度不一定意味着更大的收益，通过超前研究可以改善知识的演化。",
+    "en_tdlr": "This study finds that novelty does not necessarily mean greater benefits, and the evolution of knowledge can be improved through moonshot research."
+}

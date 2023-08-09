@@ -1,0 +1,12 @@
+{
+    "title": "Character-level NMT and language similarity. (arXiv:2308.04398v1 [cs.CL])",
+    "abstract": "We explore the effectiveness of character-level neural machine translation using Transformer architecture for various levels of language similarity and size of the training dataset on translation between Czech and Croatian, German, Hungarian, Slovak, and Spanish. We evaluate the models using automatic MT metrics and show that translation between similar languages benefits from character-level input segmentation, while for less related languages, character-level vanilla Transformer-base often lags behind subword-level segmentation. We confirm previous findings that it is possible to close the gap by finetuning the already trained subword-level models to character-level.",
+    "link": "http://arxiv.org/abs/2308.04398",
+    "context": "Title: Character-level NMT and language similarity. (arXiv:2308.04398v1 [cs.CL])\nAbstract: We explore the effectiveness of character-level neural machine translation using Transformer architecture for various levels of language similarity and size of the training dataset on translation between Czech and Croatian, German, Hungarian, Slovak, and Spanish. We evaluate the models using automatic MT metrics and show that translation between similar languages benefits from character-level input segmentation, while for less related languages, character-level vanilla Transformer-base often lags behind subword-level segmentation. We confirm previous findings that it is possible to close the gap by finetuning the already trained subword-level models to character-level.",
+    "path": "papers/23/08/2308.04398.json",
+    "total_tokens": 843,
+    "translated_title": "字符级神经机器翻译和语言相似性",
+    "translated_abstract": "我们探索了使用Transformer架构进行字符级神经机器翻译在不同语言相似性和训练数据集大小上的有效性，翻译语言包括捷克语和克罗地亚语、德语、匈牙利语、斯洛伐克语和西班牙语。我们使用自动机器翻译评估指标对模型进行评估，并显示对于相似语言之间的翻译，字符级输入分割可以带来益处，而对于关联性较小的语言，字符级Transformer模型往往落后于子词级分割。我们证实了之前的研究结果，即可以通过对已经训练好的子词级模型进行字符级微调来弥补差距。",
+    "tldr": "本研究探索了字符级神经机器翻译在不同语言相似性和数据集大小上的有效性，通过对捷克语和克罗地亚语、德语、匈牙利语、斯洛伐克语和西班牙语的翻译进行评估，发现对于相似语言，字符级输入分割有益处，而对于关联性较小的语言，字符级模型落后于子词级模型，但可以通过字符级微调来弥补差距。",
+    "en_tdlr": "This study explores the effectiveness of character-level neural machine translation for different levels of language similarity and dataset sizes, showing that character-level input segmentation benefits translation between similar languages, but character-level models lag behind subword-level models for less related languages, which can be improved through character-level fine-tuning."
+}

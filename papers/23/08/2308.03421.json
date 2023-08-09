@@ -1,0 +1,11 @@
+{
+    "title": "RecycleGPT: An Autoregressive Language Model with Recyclable Module. (arXiv:2308.03421v2 [cs.CL] UPDATED)",
+    "abstract": "Existing large language models have to run K times to generate a sequence of K tokens. In this paper, we present RecycleGPT, a generative language model with fast decoding speed by recycling pre-generated model states without running the whole model in multiple steps. Our approach relies on the observation that adjacent tokens in a sequence usually have strong correlations and the next token in a sequence can be reasonably guessed or inferred based on the preceding ones. Experiments and analysis demonstrate the effectiveness of our approach in lowering inference latency, achieving up to 1.4x speedup while preserving high performance.",
+    "link": "http://arxiv.org/abs/2308.03421",
+    "context": "Title: RecycleGPT: An Autoregressive Language Model with Recyclable Module. (arXiv:2308.03421v2 [cs.CL] UPDATED)\nAbstract: Existing large language models have to run K times to generate a sequence of K tokens. In this paper, we present RecycleGPT, a generative language model with fast decoding speed by recycling pre-generated model states without running the whole model in multiple steps. Our approach relies on the observation that adjacent tokens in a sequence usually have strong correlations and the next token in a sequence can be reasonably guessed or inferred based on the preceding ones. Experiments and analysis demonstrate the effectiveness of our approach in lowering inference latency, achieving up to 1.4x speedup while preserving high performance.",
+    "path": "papers/23/08/2308.03421.json",
+    "total_tokens": 722,
+    "translated_title": "RecycleGPT：一种具有可回收模块的自回归语言模型",
+    "translated_abstract": "现有的大型语言模型必须运行K次才能生成K个令牌的序列。在本文中，我们提出了RecycleGPT，这是一种具有快速解码速度的生成式语言模型，通过回收预生成的模型状态而无需将整个模型运行多次步骤。我们的方法基于这样的观察：序列中相邻的令牌通常具有很强的相关性，并且可以根据前面的令牌合理猜测或推断出下一个令牌。实验证明了我们的方法在降低推理延迟方面的有效性，实现了高达1.4倍的加速，同时保持高性能。",
+    "tldr": "RecycleGPT是一种生成式语言模型，通过回收预生成的模型状态而无需多次运行整个模型，并且证明了其降低推理延迟的有效性，实现高速解码和保持高性能。"
+}

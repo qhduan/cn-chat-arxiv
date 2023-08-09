@@ -1,0 +1,11 @@
+{
+    "title": "Intelligent Assistant Language Understanding On Device. (arXiv:2308.03905v1 [cs.CL])",
+    "abstract": "It has recently become feasible to run personal digital assistants on phones and other personal devices. In this paper we describe a design for a natural language understanding system that runs on device. In comparison to a server-based assistant, this system is more private, more reliable, faster, more expressive, and more accurate. We describe what led to key choices about architecture and technologies. For example, some approaches in the dialog systems literature are difficult to maintain over time in a deployment setting. We hope that sharing learnings from our practical experiences may help inform future work in the research community.",
+    "link": "http://arxiv.org/abs/2308.03905",
+    "context": "Title: Intelligent Assistant Language Understanding On Device. (arXiv:2308.03905v1 [cs.CL])\nAbstract: It has recently become feasible to run personal digital assistants on phones and other personal devices. In this paper we describe a design for a natural language understanding system that runs on device. In comparison to a server-based assistant, this system is more private, more reliable, faster, more expressive, and more accurate. We describe what led to key choices about architecture and technologies. For example, some approaches in the dialog systems literature are difficult to maintain over time in a deployment setting. We hope that sharing learnings from our practical experiences may help inform future work in the research community.",
+    "path": "papers/23/08/2308.03905.json",
+    "total_tokens": 698,
+    "translated_title": "在设备上的智能助手语言理解",
+    "translated_abstract": "最近，将个人数字助手应用于手机和其他个人设备已成为可能。在本文中，我们描述了一个在设备上运行的自然语言理解系统的设计。与基于服务器的助手相比，该系统更具私密性、可靠性、速度快、表达更强、准确性更高。我们描述了在架构和技术方面做出的关键选择。例如，对话系统文献中的一些方法在部署环境中难以长期维护。我们希望通过分享实践经验，为研究界的未来工作提供参考。",
+    "tldr": "本论文描述了一种在设备上运行的自然语言理解系统的设计，相比于基于服务器的助手，该系统更加私密、可靠、快速、表达更强、准确性更高。通过分享实践经验，为研究界的未来工作提供参考。"
+}

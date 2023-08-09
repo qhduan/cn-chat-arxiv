@@ -1,0 +1,12 @@
+{
+    "title": "Forget Demonstrations, Focus on Learning from Textual Instructions. (arXiv:2308.03795v1 [cs.CL])",
+    "abstract": "This work studies a challenging yet more realistic setting for zero-shot cross-task generalization: demonstration-free learning from textual instructions, presuming the existence of a paragraph-style task definition while no demonstrations exist. To better learn the task supervision from the definition, we propose two strategies: first, to automatically find out the critical sentences in the definition; second, a ranking objective to force the model to generate the gold outputs with higher probabilities when those critical parts are highlighted in the definition. The joint efforts of the two strategies yield state-of-the-art performance on the challenging benchmark. Our code will be released in the final version of the paper.",
+    "link": "http://arxiv.org/abs/2308.03795",
+    "context": "Title: Forget Demonstrations, Focus on Learning from Textual Instructions. (arXiv:2308.03795v1 [cs.CL])\nAbstract: This work studies a challenging yet more realistic setting for zero-shot cross-task generalization: demonstration-free learning from textual instructions, presuming the existence of a paragraph-style task definition while no demonstrations exist. To better learn the task supervision from the definition, we propose two strategies: first, to automatically find out the critical sentences in the definition; second, a ranking objective to force the model to generate the gold outputs with higher probabilities when those critical parts are highlighted in the definition. The joint efforts of the two strategies yield state-of-the-art performance on the challenging benchmark. Our code will be released in the final version of the paper.",
+    "path": "papers/23/08/2308.03795.json",
+    "total_tokens": 707,
+    "translated_title": "忘记演示，专注于从文本指令中学习",
+    "translated_abstract": "本研究针对零示范跨任务泛化的一个更具挑战性但更真实的情境进行研究：从文本指令中学习而无需示范，假设存在一种段落式任务定义但不存在示范。为了更好地从定义中学习任务监督，我们提出了两种策略：首先，自动找出定义中的关键句子；其次，使用排名目标来强制模型在定义中突出显示这些关键部分时生成金标输出的概率更高。这两种策略的共同努力在具有挑战性的基准测试中产生了最先进的性能。我们的代码将在论文的最终版本中发布。",
+    "tldr": "本研究提出了一种从文本指令中学习任务的方法，通过自动找出定义中的关键句子和使用排名目标，实现了最先进的性能。",
+    "en_tdlr": "This study proposes a method for learning tasks from textual instructions, achieving state-of-the-art performance by automatically identifying critical sentences in the definition and using a ranking objective."
+}

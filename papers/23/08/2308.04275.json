@@ -1,0 +1,11 @@
+{
+    "title": "In-Context Alignment: Chat with Vanilla Language Models Before Fine-Tuning. (arXiv:2308.04275v1 [cs.CL])",
+    "abstract": "In this note, we explore inference-time alignment through in-context learning. We consider a vanilla pretrained language model Llama-2 before any fine-tuning and retrieve an average of 9 demonstration alignment examples when the model is prompted to follow chat-style instructions. Compared to direct prompting, the in-context alignment without changing model weights leads to a 7x increase in win-rate w.r.t. the text-davinci-003 model from OpenAI, making the vanilla language model comparable to strong baselines with alignment fine-tuning.",
+    "link": "http://arxiv.org/abs/2308.04275",
+    "context": "Title: In-Context Alignment: Chat with Vanilla Language Models Before Fine-Tuning. (arXiv:2308.04275v1 [cs.CL])\nAbstract: In this note, we explore inference-time alignment through in-context learning. We consider a vanilla pretrained language model Llama-2 before any fine-tuning and retrieve an average of 9 demonstration alignment examples when the model is prompted to follow chat-style instructions. Compared to direct prompting, the in-context alignment without changing model weights leads to a 7x increase in win-rate w.r.t. the text-davinci-003 model from OpenAI, making the vanilla language model comparable to strong baselines with alignment fine-tuning.",
+    "path": "papers/23/08/2308.04275.json",
+    "total_tokens": 723,
+    "translated_title": "在微调之前与纯净语言模型对话进行上下文对齐",
+    "translated_abstract": "在这个说明中，我们通过上下文学习来探索推理时的对齐。我们考虑了一个纯净的预训练语言模型 Llama-2，在进行任何微调之前，当模型被要求按照聊天式的指令进行操作时，我们检索到了平均9个对齐演示示例。与直接提示相比，不改变模型权重的上下文对齐导致了与OpenAI的text-davinci-003模型相比，胜率提高了7倍，使得纯净语言模型可以媲美通过对齐微调的强基准模型。",
+    "tldr": "本文提出了一种在微调之前与纯净语言模型进行对话的方法，通过上下文学习实现了推理时的对齐。实验证明，这种方法将纯净语言模型的胜率提高了7倍，使其可以与通过对齐微调的强基准模型媲美。"
+}

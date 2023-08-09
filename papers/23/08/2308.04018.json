@@ -1,0 +1,12 @@
+{
+    "title": "Improving Performance of Semi-Supervised Learning by Adversarial Attacks. (arXiv:2308.04018v1 [cs.LG])",
+    "abstract": "Semi-supervised learning (SSL) algorithm is a setup built upon a realistic assumption that access to a large amount of labeled data is tough. In this study, we present a generalized framework, named SCAR, standing for Selecting Clean samples with Adversarial Robustness, for improving the performance of recent SSL algorithms. By adversarially attacking pre-trained models with semi-supervision, our framework shows substantial advances in classifying images. We introduce how adversarial attacks successfully select high-confident unlabeled data to be labeled with current predictions. On CIFAR10, three recent SSL algorithms with SCAR result in significantly improved image classification.",
+    "link": "http://arxiv.org/abs/2308.04018",
+    "context": "Title: Improving Performance of Semi-Supervised Learning by Adversarial Attacks. (arXiv:2308.04018v1 [cs.LG])\nAbstract: Semi-supervised learning (SSL) algorithm is a setup built upon a realistic assumption that access to a large amount of labeled data is tough. In this study, we present a generalized framework, named SCAR, standing for Selecting Clean samples with Adversarial Robustness, for improving the performance of recent SSL algorithms. By adversarially attacking pre-trained models with semi-supervision, our framework shows substantial advances in classifying images. We introduce how adversarial attacks successfully select high-confident unlabeled data to be labeled with current predictions. On CIFAR10, three recent SSL algorithms with SCAR result in significantly improved image classification.",
+    "path": "papers/23/08/2308.04018.json",
+    "total_tokens": 727,
+    "translated_title": "通过对抗攻击改进半监督学习的性能",
+    "translated_abstract": "半监督学习算法是建立在一个现实的假设上，即访问大量标记数据很困难。本研究提出了一个名为SCAR的通用框架，用于改进最近的半监督学习算法的性能。通过对预训练模型进行对抗攻击，我们的框架在图像分类方面取得了显著进展。我们介绍了对抗攻击如何成功选择高置信度的未标记数据，并与当前预测的进行标记。在CIFAR10数据集上，三个最近的半监督学习算法与SCAR框架相结合，显著提高了图像分类的性能。",
+    "tldr": "本文提出了一个名为SCAR的通用框架，通过对预训练模型进行对抗攻击来改进半监督学习算法的性能，显著提高了图像分类的准确性。",
+    "en_tdlr": "This paper proposes a generalized framework called SCAR, which improves the performance of semi-supervised learning algorithms by adversarially attacking pre-trained models, resulting in significantly improved image classification accuracy."
+}

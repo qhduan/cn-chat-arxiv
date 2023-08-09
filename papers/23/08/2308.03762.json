@@ -1,0 +1,12 @@
+{
+    "title": "GPT-4 Can't Reason. (arXiv:2308.03762v1 [cs.CL])",
+    "abstract": "GPT-4 was released in March 2023 to wide acclaim, marking a very substantial improvement across the board over GPT-3.5 (OpenAI's previously best model, which had powered the initial release of ChatGPT). However, despite the genuinely impressive improvement, there are good reasons to be highly skeptical of GPT-4's ability to reason. This position paper discusses the nature of reasoning; criticizes the current formulation of reasoning problems in the NLP community, as well as the way in which LLM reasoning performance is currently evaluated; introduces a small collection of 21 diverse reasoning problems; and performs a detailed qualitative evaluation of GPT-4's performance on those problems. Based on this analysis, the paper concludes that, despite its occasional flashes of analytical brilliance, GPT-4 at present is utterly incapable of reasoning.",
+    "link": "http://arxiv.org/abs/2308.03762",
+    "context": "Title: GPT-4 Can't Reason. (arXiv:2308.03762v1 [cs.CL])\nAbstract: GPT-4 was released in March 2023 to wide acclaim, marking a very substantial improvement across the board over GPT-3.5 (OpenAI's previously best model, which had powered the initial release of ChatGPT). However, despite the genuinely impressive improvement, there are good reasons to be highly skeptical of GPT-4's ability to reason. This position paper discusses the nature of reasoning; criticizes the current formulation of reasoning problems in the NLP community, as well as the way in which LLM reasoning performance is currently evaluated; introduces a small collection of 21 diverse reasoning problems; and performs a detailed qualitative evaluation of GPT-4's performance on those problems. Based on this analysis, the paper concludes that, despite its occasional flashes of analytical brilliance, GPT-4 at present is utterly incapable of reasoning.",
+    "path": "papers/23/08/2308.03762.json",
+    "total_tokens": 740,
+    "translated_title": "GPT-4无法进行推理",
+    "translated_abstract": "GPT-4于2023年3月发布，广受好评，相比之前的GPT-3.5（OpenAI之前最好的模型，用于ChatGPT的初次发布），在各个方面都有很大的改进。然而，尽管有着令人印象深刻的改进，对于GPT-4的推理能力存在充分的怀疑是有道理的。本文讨论了推理的本质；批评了当前NLP社区中推理问题的表述方式，以及目前LLM推理性能的评估方式；引入了一系列由21个多样化推理问题组成的集合；并对GPT-4在这些问题上的性能进行了详细的定性评估。基于这个分析，本文得出结论，尽管偶尔显示出分析上的才智，但目前的GPT-4完全无法进行推理。",
+    "tldr": "GPT-4在推理方面无能为力，尽管有着偶尔显示的分析才智。",
+    "en_tdlr": "GPT-4 is incapable of reasoning, despite occasional flashes of analytical brilliance."
+}

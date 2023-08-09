@@ -1,0 +1,12 @@
+{
+    "title": "Actor-Critic with variable time discretization via sustained actions. (arXiv:2308.04299v1 [cs.AI])",
+    "abstract": "Reinforcement learning (RL) methods work in discrete time. In order to apply RL to inherently continuous problems like robotic control, a specific time discretization needs to be defined. This is a choice between sparse time control, which may be easier to train, and finer time control, which may allow for better ultimate performance. In this work, we propose SusACER, an off-policy RL algorithm that combines the advantages of different time discretization settings. Initially, it operates with sparse time discretization and gradually switches to a fine one. We analyze the effects of the changing time discretization in robotic control environments: Ant, HalfCheetah, Hopper, and Walker2D. In all cases our proposed algorithm outperforms state of the art.",
+    "link": "http://arxiv.org/abs/2308.04299",
+    "context": "Title: Actor-Critic with variable time discretization via sustained actions. (arXiv:2308.04299v1 [cs.AI])\nAbstract: Reinforcement learning (RL) methods work in discrete time. In order to apply RL to inherently continuous problems like robotic control, a specific time discretization needs to be defined. This is a choice between sparse time control, which may be easier to train, and finer time control, which may allow for better ultimate performance. In this work, we propose SusACER, an off-policy RL algorithm that combines the advantages of different time discretization settings. Initially, it operates with sparse time discretization and gradually switches to a fine one. We analyze the effects of the changing time discretization in robotic control environments: Ant, HalfCheetah, Hopper, and Walker2D. In all cases our proposed algorithm outperforms state of the art.",
+    "path": "papers/23/08/2308.04299.json",
+    "total_tokens": 800,
+    "translated_title": "变化的时间离散化下的演员-评论者算法：通过持续动作来实现",
+    "translated_abstract": "强化学习方法在离散时间下工作。为了将强化学习应用于像机器人控制这样的连续问题，需要定义特定的时间离散化。这是在稀疏时间控制和精细时间控制之间的选择，稀疏时间控制可能更容易训练，而精细时间控制可能使最终性能更好。在这项工作中，我们提出了SusACER，一种离策略强化学习算法，结合了不同时间离散化设置的优点。最初，它使用稀疏时间离散化，并逐渐切换到精细时间离散化。我们分析了在机器人控制环境中改变时间离散化的影响：Ant，HalfCheetah，Hopper和Walker2D。在所有情况下，我们提出的算法优于现有技术。",
+    "tldr": "这篇论文提出了一种称为SusACER的演员-评论者算法，可以通过使用持续动作，在变化的时间离散化过程中取得更好的机器人控制性能。",
+    "en_tdlr": "This paper proposes an actor-critic algorithm called SusACER, which achieves better robotic control performance by utilizing sustained actions and adapting to variable time discretization."
+}

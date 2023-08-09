@@ -1,0 +1,11 @@
+{
+    "title": "Measure of Uncertainty in Human Emotions. (arXiv:2308.04032v1 [cs.AI])",
+    "abstract": "Many research explore how well computers are able to examine emotions displayed by humans and use that data to perform different tasks. However, there have been very few research which evaluate the computers ability to generate emotion classification information in an attempt to help the user make decisions or perform tasks. This is a crucial area to explore as it is paramount to the two way communication between humans and computers. This research conducted an experiment to investigate the impact of different uncertainty information displays of emotion classification on the human decision making process. Results show that displaying more uncertainty information can help users to be more confident when making decisions.",
+    "link": "http://arxiv.org/abs/2308.04032",
+    "context": "Title: Measure of Uncertainty in Human Emotions. (arXiv:2308.04032v1 [cs.AI])\nAbstract: Many research explore how well computers are able to examine emotions displayed by humans and use that data to perform different tasks. However, there have been very few research which evaluate the computers ability to generate emotion classification information in an attempt to help the user make decisions or perform tasks. This is a crucial area to explore as it is paramount to the two way communication between humans and computers. This research conducted an experiment to investigate the impact of different uncertainty information displays of emotion classification on the human decision making process. Results show that displaying more uncertainty information can help users to be more confident when making decisions.",
+    "path": "papers/23/08/2308.04032.json",
+    "total_tokens": 678,
+    "translated_title": "人类情绪的不确定性测量",
+    "translated_abstract": "许多研究探讨计算机如何能够检测人类展示的情绪并利用这些数据执行不同的任务。然而，很少有研究评估计算机生成情绪分类信息的能力，以帮助用户做出决策或执行任务。这是一个关键领域需要研究，因为它对人与计算机之间的双向交流至关重要。本研究进行了实验，探讨了情绪分类的不确定性信息展示对人类决策过程的影响。结果表明，展示更多的不确定性信息可以帮助用户在做决策时更加自信。",
+    "tldr": "本研究探讨了情绪分类的不确定性信息展示对人类决策过程的影响，结果显示展示更多的不确定性信息可以增强用户决策的自信度。 (This study investigated the impact of displaying more uncertainty information on human decision making in emotion classification, and the results showed that it can increase users' confidence in decision making.)"
+}

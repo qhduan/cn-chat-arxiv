@@ -1,0 +1,12 @@
+{
+    "title": "Legal Summarisation through LLMs: The PRODIGIT Project. (arXiv:2308.04416v1 [cs.CL])",
+    "abstract": "We present some initial results of a large-scale Italian project called PRODIGIT which aims to support tax judges and lawyers through digital technology, focusing on AI. We have focused on generation of summaries of judicial decisions and on the extraction of related information, such as the identification of legal issues and decision-making criteria, and the specification of keywords. To this end, we have deployed and evaluated different tools and approaches to extractive and abstractive summarisation. We have applied LLMs, and particularly on GPT4, which has enabled us to obtain results that proved satisfactory, according to an evaluation by expert tax judges and lawyers. On this basis, a prototype application is being built which will be made publicly available.",
+    "link": "http://arxiv.org/abs/2308.04416",
+    "context": "Title: Legal Summarisation through LLMs: The PRODIGIT Project. (arXiv:2308.04416v1 [cs.CL])\nAbstract: We present some initial results of a large-scale Italian project called PRODIGIT which aims to support tax judges and lawyers through digital technology, focusing on AI. We have focused on generation of summaries of judicial decisions and on the extraction of related information, such as the identification of legal issues and decision-making criteria, and the specification of keywords. To this end, we have deployed and evaluated different tools and approaches to extractive and abstractive summarisation. We have applied LLMs, and particularly on GPT4, which has enabled us to obtain results that proved satisfactory, according to an evaluation by expert tax judges and lawyers. On this basis, a prototype application is being built which will be made publicly available.",
+    "path": "papers/23/08/2308.04416.json",
+    "total_tokens": 733,
+    "translated_title": "LLMs背景下的法律摘要：PRODIGIT项目",
+    "translated_abstract": "我们介绍了一个名为PRODIGIT的大型意大利项目的初步结果，该项目旨在通过数字技术（尤其是人工智能）支持税务法官和律师。我们关注的是法官决策的摘要生成以及相关信息的提取，如法律问题和决策标准的确定，以及关键词的规定。为此，我们使用了不同的工具和方法来进行摘要提取和抽象化。我们应用了LLMs，特别是GPT4，根据专业税务法官和律师的评估，我们得到了令人满意的结果。基于这个基础，正在建设一个原型应用，将公开提供。",
+    "tldr": "PRODIGIT项目旨在通过数字技术支持税务法官和律师，特别是通过使用LLMs和GPT4进行法律摘要生成和相关信息提取的方法得到令人满意的结果。",
+    "en_tdlr": "The PRODIGIT project aims to support tax judges and lawyers through digital technology, particularly by using LLMs and GPT4 for legal summarisation and extraction of related information, yielding satisfactory results."
+}

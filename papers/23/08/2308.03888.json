@@ -1,0 +1,12 @@
+{
+    "title": "Deep neural networks from the perspective of ergodic theory. (arXiv:2308.03888v1 [cs.LG])",
+    "abstract": "The design of deep neural networks remains somewhat of an art rather than precise science. By tentatively adopting ergodic theory considerations on top of viewing the network as the time evolution of a dynamical system, with each layer corresponding to a temporal instance, we show that some rules of thumb, which might otherwise appear mysterious, can be attributed heuristics.",
+    "link": "http://arxiv.org/abs/2308.03888",
+    "context": "Title: Deep neural networks from the perspective of ergodic theory. (arXiv:2308.03888v1 [cs.LG])\nAbstract: The design of deep neural networks remains somewhat of an art rather than precise science. By tentatively adopting ergodic theory considerations on top of viewing the network as the time evolution of a dynamical system, with each layer corresponding to a temporal instance, we show that some rules of thumb, which might otherwise appear mysterious, can be attributed heuristics.",
+    "path": "papers/23/08/2308.03888.json",
+    "total_tokens": 561,
+    "translated_title": "从遍历理论的角度看深度神经网络",
+    "translated_abstract": "对于深度神经网络的设计来说，仍然更多地是一门艺术而不是精确的科学。通过将遍历理论考虑引入到将网络视为动力系统时间演化的观点上，其中每一层对应于一个时间实例，我们展示了一些经验法则可以归属为启发式方法，从而使得这些方法的神秘性得以解释。",
+    "tldr": "本论文从遍历理论的角度出发，将深度神经网络视为动力系统的时间演化，通过引入一些经验法则，解释了神经网络设计中的一些启发式方法。",
+    "en_tdlr": "This paper explores deep neural networks as a dynamical system from the perspective of ergodic theory and explains some heuristics in network design by introducing empirical rules."
+}

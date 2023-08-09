@@ -1,0 +1,11 @@
+{
+    "title": "Discriminator optimal transport. (arXiv:1910.06832v3 [stat.ML] UPDATED)",
+    "abstract": "Within a broad class of generative adversarial networks, we show that discriminator optimization process increases a lower bound of the dual cost function for the Wasserstein distance between the target distribution $p$ and the generator distribution $p_G$. It implies that the trained discriminator can approximate optimal transport (OT) from $p_G$ to $p$.Based on some experiments and a bit of OT theory, we propose a discriminator optimal transport (DOT) scheme to improve generated images. We show that it improves inception score and FID calculated by un-conditional GAN trained by CIFAR-10, STL-10 and a public pre-trained model of conditional GAN by ImageNet.",
+    "link": "http://arxiv.org/abs/1910.06832",
+    "context": "Title: Discriminator optimal transport. (arXiv:1910.06832v3 [stat.ML] UPDATED)\nAbstract: Within a broad class of generative adversarial networks, we show that discriminator optimization process increases a lower bound of the dual cost function for the Wasserstein distance between the target distribution $p$ and the generator distribution $p_G$. It implies that the trained discriminator can approximate optimal transport (OT) from $p_G$ to $p$.Based on some experiments and a bit of OT theory, we propose a discriminator optimal transport (DOT) scheme to improve generated images. We show that it improves inception score and FID calculated by un-conditional GAN trained by CIFAR-10, STL-10 and a public pre-trained model of conditional GAN by ImageNet.",
+    "path": "papers/19/10/1910.06832.json",
+    "total_tokens": 773,
+    "translated_title": "判别器最优输运",
+    "translated_abstract": "在广泛的生成对抗网络中，我们展示了判别器优化过程增加了目标分布$p$和生成器分布$p_G$之间Wasserstein距离的对偶代价函数的下限。这意味着训练好的判别器可以近似从$p_G$到$p$的最优输运。基于一些实验和一点输运理论，我们提出了一种判别器最优输运（DOT）方案来改进生成的图像。我们展示了它在CIFAR-10、STL-10和一个以ImageNet为条件的预训练模型训练的无条件GAN计算的内涵分数和FID上的改进。",
+    "tldr": "这篇论文研究了判别器优化过程如何增加生成对抗网络中Wasserstein距离的对偶代价函数的下限，从而使训练好的判别器能够近似最优输运。作者提出了一种判别器最优输运（DOT）方案，通过实验证明了在不同数据集上的生成图像质量有所提升。"
+}

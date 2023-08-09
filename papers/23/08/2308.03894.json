@@ -1,0 +1,12 @@
+{
+    "title": "A new approach for evaluating internal cluster validation indices. (arXiv:2308.03894v1 [cs.LG])",
+    "abstract": "A vast number of different methods are available for unsupervised classification. Since no algorithm and parameter setting performs best in all types of data, there is a need for cluster validation to select the actually best-performing algorithm. Several indices were proposed for this purpose without using any additional (external) information. These internal validation indices can be evaluated by applying them to classifications of datasets with a known cluster structure. Evaluation approaches differ in how they use the information on the ground-truth classification. This paper reviews these approaches, considering their advantages and disadvantages, and then suggests a new approach.",
+    "link": "http://arxiv.org/abs/2308.03894",
+    "context": "Title: A new approach for evaluating internal cluster validation indices. (arXiv:2308.03894v1 [cs.LG])\nAbstract: A vast number of different methods are available for unsupervised classification. Since no algorithm and parameter setting performs best in all types of data, there is a need for cluster validation to select the actually best-performing algorithm. Several indices were proposed for this purpose without using any additional (external) information. These internal validation indices can be evaluated by applying them to classifications of datasets with a known cluster structure. Evaluation approaches differ in how they use the information on the ground-truth classification. This paper reviews these approaches, considering their advantages and disadvantages, and then suggests a new approach.",
+    "path": "papers/23/08/2308.03894.json",
+    "total_tokens": 643,
+    "translated_title": "一种评估内部聚类验证指标的新方法",
+    "translated_abstract": "无监督分类有很多不同的方法可供选择。由于没有一个算法和参数设置在所有类型的数据中表现最佳，因此需要进行聚类验证来选择真正表现最好的算法。为此，提出了几种不使用任何额外（外部）信息的内部验证指标。可以通过将它们应用于具有已知聚类结构的数据集的分类来评估这些内部验证指标。评估方法在如何使用真实分类信息方面存在差异。本文回顾了这些方法，考虑了它们的优势和劣势，然后提出了一种新方法。",
+    "tldr": "本文回顾了现有的聚类验证方法并提出了一种新方法，用于评估无监督分类算法在不同类型的数据中的表现。",
+    "en_tdlr": "This paper reviews existing cluster validation methods and proposes a new approach for evaluating the performance of unsupervised classification algorithms on different types of data."
+}

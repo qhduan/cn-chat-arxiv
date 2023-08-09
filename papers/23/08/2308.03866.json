@@ -1,0 +1,12 @@
+{
+    "title": "Trusting Language Models in Education. (arXiv:2308.03866v1 [cs.CL])",
+    "abstract": "Language Models are being widely used in Education. Even though modern deep learning models achieve very good performance on question-answering tasks, sometimes they make errors. To avoid misleading students by showing wrong answers, it is important to calibrate the confidence - that is, the prediction probability - of these models. In our work, we propose to use an XGBoost on top of BERT to output the corrected probabilities, using features based on the attention mechanism. Our hypothesis is that the level of uncertainty contained in the flow of attention is related to the quality of the model's response itself.",
+    "link": "http://arxiv.org/abs/2308.03866",
+    "context": "Title: Trusting Language Models in Education. (arXiv:2308.03866v1 [cs.CL])\nAbstract: Language Models are being widely used in Education. Even though modern deep learning models achieve very good performance on question-answering tasks, sometimes they make errors. To avoid misleading students by showing wrong answers, it is important to calibrate the confidence - that is, the prediction probability - of these models. In our work, we propose to use an XGBoost on top of BERT to output the corrected probabilities, using features based on the attention mechanism. Our hypothesis is that the level of uncertainty contained in the flow of attention is related to the quality of the model's response itself.",
+    "path": "papers/23/08/2308.03866.json",
+    "total_tokens": 655,
+    "translated_title": "在教育中信任语言模型",
+    "translated_abstract": "语言模型在教育领域被广泛应用。尽管现代深度学习模型在问答任务上表现出色，但有时会出现错误。为了避免向学生展示错误答案，重要的是校准这些模型的置信度 - 即预测概率。在我们的工作中，我们提出使用一种基于注意力机制的特征的XGBoost在BERT之上输出校正的概率。我们的假设是注意力流中包含的不确定性水平与模型的响应质量相关。",
+    "tldr": "本研究在教育中使用语言模型，提出了使用XGBoost和BERT的结合来校准语言模型的置信度，通过基于注意力机制的特征来输出校正的概率。",
+    "en_tdlr": "This study proposes using a combination of XGBoost and BERT to calibrate the confidence of language models in education, by outputting corrected probabilities based on features derived from the attention mechanism."
+}

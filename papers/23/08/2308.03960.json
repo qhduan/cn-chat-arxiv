@@ -1,0 +1,11 @@
+{
+    "title": "Amortized Global Search for Efficient Preliminary Trajectory Design with Deep Generative Models. (arXiv:2308.03960v1 [cs.LG])",
+    "abstract": "Preliminary trajectory design is a global search problem that seeks multiple qualitatively different solutions to a trajectory optimization problem. Due to its high dimensionality and non-convexity, and the frequent adjustment of problem parameters, the global search becomes computationally demanding. In this paper, we exploit the clustering structure in the solutions and propose an amortized global search (AmorGS) framework. We use deep generative models to predict trajectory solutions that share similar structures with previously solved problems, which accelerates the global search for unseen parameter values. Our method is evaluated using De Jong's 5th function and a low-thrust circular restricted three-body problem.",
+    "link": "http://arxiv.org/abs/2308.03960",
+    "context": "Title: Amortized Global Search for Efficient Preliminary Trajectory Design with Deep Generative Models. (arXiv:2308.03960v1 [cs.LG])\nAbstract: Preliminary trajectory design is a global search problem that seeks multiple qualitatively different solutions to a trajectory optimization problem. Due to its high dimensionality and non-convexity, and the frequent adjustment of problem parameters, the global search becomes computationally demanding. In this paper, we exploit the clustering structure in the solutions and propose an amortized global search (AmorGS) framework. We use deep generative models to predict trajectory solutions that share similar structures with previously solved problems, which accelerates the global search for unseen parameter values. Our method is evaluated using De Jong's 5th function and a low-thrust circular restricted three-body problem.",
+    "path": "papers/23/08/2308.03960.json",
+    "total_tokens": 820,
+    "translated_title": "高摊还全局搜索方法在带有深度生成模型的有效初步轨迹设计中的应用",
+    "translated_abstract": "初步轨迹设计是一种全局搜索问题，旨在寻找多个在轨迹优化问题中具有不同特征的解。由于其高维度和非凸性，以及问题参数的频繁调整，全局搜索变得计算上具有挑战性。本文利用解的聚类结构，并提出了一种摊还全局搜索（AmorGS）框架。我们使用深度生成模型来预测与先前解决问题具有相似结构的轨迹解，从而加速对未见参数值的全局搜索。我们通过使用De Jong的第五函数和低推力圆形限制性三体问题对我们的方法进行评估。",
+    "tldr": "本文提出了一种摊还全局搜索框架（AmorGS），利用深度生成模型加速对初步轨迹设计问题的全局搜索。该方法通过预测具有相似结构的轨迹解，能够在高维度和非凸性问题中更高效地寻找多个不同特征的解。通过在两个实际问题上的评估，证明了该方法的有效性。"
+}
