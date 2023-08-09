@@ -6,13 +6,14 @@
 | [^2] | [Extended mean-field control problems with multi-dimensional singular controls.](http://arxiv.org/abs/2308.04378) | 本文研究了具有多维奇异控制的扩展均场控制问题，引入了两层参数化的概念，通过统一和一致地插值跳跃，推导出收益的显式表示和DPP，并解决了奇异控制的关键挑战。 |
 | [^3] | [Regularity in forex returns during financial distress: Evidence from India.](http://arxiv.org/abs/2308.04181) | 本研究利用熵的概念研究了印度外汇市场回报的规律性，在金融危机期间外汇回报的规律性增加。 |
 | [^4] | [Options are also options on options: how to smile with Black-Scholes.](http://arxiv.org/abs/2308.04130) | 该论文研究了对期权进行期权的概念，使用Black-Scholes模型推导了微笑曲线，提供了准闭合的定价公式，并探讨了价格与标的资产之间的标准化关系。 |
-| [^5] | [Parameter Estimation Methods of Required Rate of Return.](http://arxiv.org/abs/2305.19708) | 本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。 |
-| [^6] | [Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes.](http://arxiv.org/abs/2301.00790) | 本文提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。使用梯度提升决策树（GBDT）并结合dropout技术的模型具有良好的性能和泛化能力，而动态特征中和则是一种高效而不需要重新训练模型就可以应用于任何机器学习模型中的后处理技术。 |
-| [^7] | [From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets.](http://arxiv.org/abs/2208.01791) | 本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。 |
-| [^8] | [The roughness exponent and its model-free estimation.](http://arxiv.org/abs/2111.10301) | 本文提出了对于函数$x$，基于Faber-Schauder系数的温和条件，无需对其动态作出任何假设即可一致地估计其粗糙指数，并给出了推广方法。 |
-| [^9] | [Equity--Linked Life Insurances on Maximum of Several Assets.](http://arxiv.org/abs/2111.04038) | 本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。 |
-| [^10] | [Social contagion and asset prices: Reddit's self-organised bull runs.](http://arxiv.org/abs/2104.01847) | 本文通过分析Reddit的WallStreetBets论坛上的交易者的信念和持仓情况，研究了社交力量如何影响资产价格。研究发现，社交媒体上表达的情绪和过去资产回报影响交易者对资产未来表现的看涨或看跌的情绪，零售交易者的需求受到论坛讨论的影响，特异性投资者情绪的市场影响扩大，并且炒作投资者更容易受到市场泡沫的影响。 |
-| [^11] | [The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan.](http://arxiv.org/abs/2102.00687) | 本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。 |
+| [^5] | [Ramifications of generalized Feller theory.](http://arxiv.org/abs/2308.03858) | 广义费勒理论提供了除了局部紧致状态空间以外的重要模拟，扩展了与广义费勒过程相关的常识结果，并引入了延伸的费勒过程概念，通过代数同态的广义费勒半群与输运方程和加权空间上的连续半流相关联。 |
+| [^6] | [Parameter Estimation Methods of Required Rate of Return.](http://arxiv.org/abs/2305.19708) | 本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。 |
+| [^7] | [Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes.](http://arxiv.org/abs/2301.00790) | 本文提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。使用梯度提升决策树（GBDT）并结合dropout技术的模型具有良好的性能和泛化能力，而动态特征中和则是一种高效而不需要重新训练模型就可以应用于任何机器学习模型中的后处理技术。 |
+| [^8] | [From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets.](http://arxiv.org/abs/2208.01791) | 本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。 |
+| [^9] | [The roughness exponent and its model-free estimation.](http://arxiv.org/abs/2111.10301) | 本文提出了对于函数$x$，基于Faber-Schauder系数的温和条件，无需对其动态作出任何假设即可一致地估计其粗糙指数，并给出了推广方法。 |
+| [^10] | [Equity--Linked Life Insurances on Maximum of Several Assets.](http://arxiv.org/abs/2111.04038) | 本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。 |
+| [^11] | [Social contagion and asset prices: Reddit's self-organised bull runs.](http://arxiv.org/abs/2104.01847) | 本文通过分析Reddit的WallStreetBets论坛上的交易者的信念和持仓情况，研究了社交力量如何影响资产价格。研究发现，社交媒体上表达的情绪和过去资产回报影响交易者对资产未来表现的看涨或看跌的情绪，零售交易者的需求受到论坛讨论的影响，特异性投资者情绪的市场影响扩大，并且炒作投资者更容易受到市场泡沫的影响。 |
+| [^12] | [The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan.](http://arxiv.org/abs/2102.00687) | 本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。 |
 
 # 详细
 
@@ -72,7 +73,21 @@
 
     We observe that a European Call option with strike $L > K$ can be seen as a Call option with strike $L-K$ on a Call option with strike $K$. Under no arbitrage assumptions, this yields immediately that the prices of the two contracts are the same, in full generality. We study in detail the relative pricing function which gives the price of the Call on Call option as a function of its underlying Call option, and provide quasi-closed formula for those new pricing functions in the Carr-Pelts-Tehranchi family [Carr and Pelts, Duality, Deltas, and Derivatives Pricing, 2015] and [Tehranchi, A Black-Scholes inequality: applications and generalisations, Finance Stoch, 2020] that includes the Black-Scholes model as a particular case. We also study the properties of the function that maps the price normalized by the underlier, viewed as a function of the moneyness, to the normalized relative price, which allows us to produce several new closed formulas. In connection to the symmetry transformatio
     
-[^5]: 需要回报率的参数估计方法
+[^5]: 广义费勒理论的影响
+
+    Ramifications of generalized Feller theory. (arXiv:2308.03858v1 [math.PR])
+
+    [http://arxiv.org/abs/2308.03858](http://arxiv.org/abs/2308.03858)
+
+    广义费勒理论提供了除了局部紧致状态空间以外的重要模拟，扩展了与广义费勒过程相关的常识结果，并引入了延伸的费勒过程概念，通过代数同态的广义费勒半群与输运方程和加权空间上的连续半流相关联。
+
+    
+
+    广义费勒理论提供了除了局部紧致状态空间以外的重要模拟。这在解决某些随机偏微分方程、分数过程的马尔可夫提升，或无限维度的仿射和多项式过程中非常有用，在特征随机微分方程理论中占据重要地位。我们扩展了一些与广义费勒过程相关的常识结果，特别是它们的构造和路径特性，并详细提供了通常相当复杂的证明。我们还引入了延伸的费勒过程的概念，并将其与标准和广义过程进行比较。一个关键的例子是将代数同态的广义费勒半群通过特征方法与输运方程和加权空间上的连续半流相关联，即一种非常通用的处理加权空间上微分方程的方法。我们还提供了一个反例，展示了...
+
+    Generalized Feller theory provides an important analog to Feller theory beyond locally compact state spaces. This is very useful for solutions of certain stochastic partial differential equations, Markovian lifts of fractional processes, or infinite dimensional affine and polynomial processes which appear prominently in the theory of signature stochastic differential equations. We extend several folklore results related to generalized Feller processes, in particular on their construction and path properties, and provide the often quite sophisticated proofs in full detail. We also introduce the new concept of extended Feller processes and compare them with standard and generalized ones. A key example relates generalized Feller semigroups of algebra homomorphisms via the method of characteristics to transport equations and continuous semiflows on weighted spaces, i.e. a remarkably generic way to treat differential equations on weighted spaces. We also provide a counterexample, which show
+    
+[^6]: 需要回报率的参数估计方法
 
     Parameter Estimation Methods of Required Rate of Return. (arXiv:2305.19708v1 [q-fin.CP])
 
@@ -86,7 +101,7 @@
 
     In this study, we introduce new estimation methods for the required rate of returns on equity and liabilities of private and public companies using the stochastic dividend discount model (DDM). To estimate the required rate of return on equity, we use the maximum likelihood method, the Bayesian method, and the Kalman filtering. We also provide a method that evaluates the market values of liabilities. We apply the model to a set of firms from the S&P 500 index using historical dividend and price data over a 32--year period. Overall, the suggested methods can be used to estimate the required rate of returns.
     
-[^6]: 面向时序表格数据的动态特征工程和模型选择方法在制度变化下的应用
+[^7]: 面向时序表格数据的动态特征工程和模型选择方法在制度变化下的应用
 
     Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes. (arXiv:2301.00790v2 [q-fin.CP] UPDATED)
 
@@ -100,7 +115,7 @@
 
     The application of deep learning algorithms to temporal panel datasets is difficult due to heavy non-stationarities which can lead to over-fitted models that under-perform under regime changes. In this work we propose a new machine learning pipeline for ranking predictions on temporal panel datasets which is robust under regime changes of data. Different machine-learning models, including Gradient Boosting Decision Trees (GBDTs) and Neural Networks with and without simple feature engineering are evaluated in the pipeline with different settings. We find that GBDT models with dropout display high performance, robustness and generalisability with relatively low complexity and reduced computational cost. We then show that online learning techniques can be used in post-prediction processing to enhance the results. In particular, dynamic feature neutralisation, an efficient procedure that requires no retraining of models and can be applied post-prediction to any machine learning model, impr
     
-[^7]: 从工作地到居住地：最低工资政策对当地住房市场的溢出效应
+[^8]: 从工作地到居住地：最低工资政策对当地住房市场的溢出效应
 
     From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets. (arXiv:2208.01791v2 [econ.GN] UPDATED)
 
@@ -114,7 +129,7 @@
 
     The recent rise of sub-national minimum wage (MW) policies in the US has resulted in significant dispersion of MW levels within urban areas. In this paper, we study the spillover effects of these policies on local rental markets through commuting. To do so, for each USPS ZIP code we construct a "workplace" MW measure based on the location of its resident's jobs, and use it to estimate the effect of MW policies on rents. We use a novel identification strategy that exploits the fine timing of differential changes in the workplace MW across ZIP codes that share the same "residence" MW, defined as the same location's MW. Our baseline results imply that a 10 percent increase in the workplace MW increases rents at residence ZIP codes by 0.69 percent. To illustrate the importance of commuting patterns, we use our estimates and a simple model to simulate the impact of federal and city counterfactual MW policies. The simulations suggest that landlords pocket approximately 10 cents of each dolla
     
-[^8]: 粗糙指数及其无模型估计
+[^9]: 粗糙指数及其无模型估计
 
     The roughness exponent and its model-free estimation. (arXiv:2111.10301v4 [math.ST] UPDATED)
 
@@ -128,7 +143,7 @@
 
     Motivated by pathwise stochastic calculus, we say that a continuous real-valued function $x$ admits the roughness exponent $R$ if the $p^{\text{th}}$ variation of $x$ converges to zero if $p>1/R$ and to infinity if $p<1/R$. For the sample paths of many stochastic processes, such as fractional Brownian motion, the roughness exponent exists and equals the standard Hurst parameter. In our main result, we provide a mild condition on the Faber--Schauder coefficients of $x$ under which the roughness exponent exists and is given as the limit of the classical Gladyshev estimates $\widehat R_n(x)$. This result can be viewed as a strong consistency result for the Gladyshev estimators in an entirely model-free setting, because no assumption whatsoever is made on the possible dynamics of the function $x$. Nonetheless, our proof is probabilistic and relies on a martingale that is hidden in the Faber--Schauder expansion of $x$. Since the Gladyshev estimators are not scale-invariant, we construct sev
     
-[^9]: 基于多个资产的股权链接人寿保险
+[^10]: 基于多个资产的股权链接人寿保险
 
     Equity--Linked Life Insurances on Maximum of Several Assets. (arXiv:2111.04038v3 [q-fin.MF] UPDATED)
 
@@ -142,7 +157,7 @@
 
     This paper presents pricing and hedging methods for segregated funds and unit-linked life insurance products that are based on a Bayesian Markov--Switching Vector Autoregressive (MS--VAR) process. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a heteroscedastic model. An advantage of our model is it depends on economic variables and is not complicated.
     
-[^10]: 社会传染和资产价格：Reddit的自组织牛市运行
+[^11]: 社会传染和资产价格：Reddit的自组织牛市运行
 
     Social contagion and asset prices: Reddit's self-organised bull runs. (arXiv:2104.01847v5 [econ.GN] UPDATED)
 
@@ -156,7 +171,7 @@
 
     Can unstructured text data from social media help explain the drivers of large asset price fluctuations? This paper investigates how social forces affect asset prices, by using machine learning tools to extract beliefs and positions of `hype' traders active on Reddit's WallStreetBets (WSB) forum. Our stylized model shows that peer effects help explain return predictability and reversals, as well as bubble dynamics. We empirically document that sentiments expressed by WSB users about assets' future performances (bullish or bearish) are in part due to sentiments of their peers and past asset returns. The paper directly estimates the effect of WSB activity on asset prices. We document: that retail trader demand follows WSB discussions through using Trade and Quote (TAQ) data, the predictability of prices from retail trader discourse, the amplified market impact of idiosyncratic investor sentiment from viral content online, and the greater exposure of hype investors to bubbles in the marke
     
-[^11]: 性别失衡对日本婚姻和生育的影响：以第二次世界大战为例证
+[^12]: 性别失衡对日本婚姻和生育的影响：以第二次世界大战为例证
 
     The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan. (arXiv:2102.00687v2 [econ.GN] UPDATED)
 
