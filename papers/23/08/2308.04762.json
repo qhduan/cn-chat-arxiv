@@ -1,0 +1,11 @@
+{
+    "title": "Tram-FL: Routing-based Model Training for Decentralized Federated Learning. (arXiv:2308.04762v1 [cs.LG])",
+    "abstract": "In decentralized federated learning (DFL), substantial traffic from frequent inter-node communication and non-independent and identically distributed (non-IID) data challenges high-accuracy model acquisition. We propose Tram-FL, a novel DFL method, which progressively refines a global model by transferring it sequentially amongst nodes, rather than by exchanging and aggregating local models. We also introduce a dynamic model routing algorithm for optimal route selection, aimed at enhancing model precision with minimal forwarding. Our experiments using MNIST, CIFAR-10, and IMDb datasets demonstrate that Tram-FL with the proposed routing delivers high model accuracy under non-IID conditions, outperforming baselines while reducing communication costs.",
+    "link": "http://arxiv.org/abs/2308.04762",
+    "context": "Title: Tram-FL: Routing-based Model Training for Decentralized Federated Learning. (arXiv:2308.04762v1 [cs.LG])\nAbstract: In decentralized federated learning (DFL), substantial traffic from frequent inter-node communication and non-independent and identically distributed (non-IID) data challenges high-accuracy model acquisition. We propose Tram-FL, a novel DFL method, which progressively refines a global model by transferring it sequentially amongst nodes, rather than by exchanging and aggregating local models. We also introduce a dynamic model routing algorithm for optimal route selection, aimed at enhancing model precision with minimal forwarding. Our experiments using MNIST, CIFAR-10, and IMDb datasets demonstrate that Tram-FL with the proposed routing delivers high model accuracy under non-IID conditions, outperforming baselines while reducing communication costs.",
+    "path": "papers/23/08/2308.04762.json",
+    "total_tokens": 816,
+    "translated_title": "Tram-FL: 基于路由的去中心化联邦学习的模型训练",
+    "translated_abstract": "在去中心化联邦学习（DFL）中，频繁的节点间通信和非独立和同分布（non-IID）数据导致高精度模型获取的挑战。我们提出了一种名为Tram-FL的新型DFL方法，该方法通过逐个将全局模型传输到节点之间进行逐步细化，而不是通过交换和汇聚本地模型。我们还引入了一种动态模型路由算法，用于选择最佳路径，旨在在最小转发的情况下增强模型精度。我们使用MNIST、CIFAR-10和IMDb数据集进行的实验证明，Tram-FL在非IID条件下提供了高模型准确性，优于基准并降低了通信成本。",
+    "tldr": "Tram-FL是一种基于路由的去中心化联邦学习（DFL）模型训练方法，通过逐步传输全局模型而不是本地模型的交换和汇聚，以及动态模型路由算法，实现在非IID条件下高模型准确性和降低通信成本。"
+}

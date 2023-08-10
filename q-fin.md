@@ -2,187 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Limited substitutability, relative price changes and the uplifting of public natural capital values.](http://arxiv.org/abs/2308.04400) | 本研究通过全球元分析得出，生态系统服务相对价格每年约为2.2%，用于公共项目评估和环境经济会计中的调整。 |
-| [^2] | [Extended mean-field control problems with multi-dimensional singular controls.](http://arxiv.org/abs/2308.04378) | 本文研究了具有多维奇异控制的扩展均场控制问题，引入了两层参数化的概念，通过统一和一致地插值跳跃，推导出收益的显式表示和DPP，并解决了奇异控制的关键挑战。 |
-| [^3] | [Regularity in forex returns during financial distress: Evidence from India.](http://arxiv.org/abs/2308.04181) | 本研究利用熵的概念研究了印度外汇市场回报的规律性，在金融危机期间外汇回报的规律性增加。 |
-| [^4] | [Options are also options on options: how to smile with Black-Scholes.](http://arxiv.org/abs/2308.04130) | 该论文研究了对期权进行期权的概念，使用Black-Scholes模型推导了微笑曲线，提供了准闭合的定价公式，并探讨了价格与标的资产之间的标准化关系。 |
-| [^5] | [Ramifications of generalized Feller theory.](http://arxiv.org/abs/2308.03858) | 广义费勒理论提供了除了局部紧致状态空间以外的重要模拟，扩展了与广义费勒过程相关的常识结果，并引入了延伸的费勒过程概念，通过代数同态的广义费勒半群与输运方程和加权空间上的连续半流相关联。 |
-| [^6] | [Parameter Estimation Methods of Required Rate of Return.](http://arxiv.org/abs/2305.19708) | 本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。 |
-| [^7] | [Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes.](http://arxiv.org/abs/2301.00790) | 本文提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。使用梯度提升决策树（GBDT）并结合dropout技术的模型具有良好的性能和泛化能力，而动态特征中和则是一种高效而不需要重新训练模型就可以应用于任何机器学习模型中的后处理技术。 |
-| [^8] | [From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets.](http://arxiv.org/abs/2208.01791) | 本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。 |
-| [^9] | [The roughness exponent and its model-free estimation.](http://arxiv.org/abs/2111.10301) | 本文提出了对于函数$x$，基于Faber-Schauder系数的温和条件，无需对其动态作出任何假设即可一致地估计其粗糙指数，并给出了推广方法。 |
-| [^10] | [Equity--Linked Life Insurances on Maximum of Several Assets.](http://arxiv.org/abs/2111.04038) | 本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。 |
-| [^11] | [Social contagion and asset prices: Reddit's self-organised bull runs.](http://arxiv.org/abs/2104.01847) | 本文通过分析Reddit的WallStreetBets论坛上的交易者的信念和持仓情况，研究了社交力量如何影响资产价格。研究发现，社交媒体上表达的情绪和过去资产回报影响交易者对资产未来表现的看涨或看跌的情绪，零售交易者的需求受到论坛讨论的影响，特异性投资者情绪的市场影响扩大，并且炒作投资者更容易受到市场泡沫的影响。 |
-| [^12] | [The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan.](http://arxiv.org/abs/2102.00687) | 本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。 |
+| [^1] | [The Mobilit\"at.Leben Study: a Year-Long Mobility-Tracking Panel.](http://arxiv.org/abs/2308.04973) | Mobilit\"at.Leben研究调查了2022年德国的一个自然实验对出行行为的影响，研究包括两个时期和两个元素，通过问卷调查和基于智能手机的被动航点跟踪，并分享了关于进行大规模面板研究的经验。 |
+| [^2] | [Methods for Acquiring and Incorporating Knowledge into Stock Price Prediction: A Survey.](http://arxiv.org/abs/2308.04947) | 这项调查论文系统而全面地描述了从不同来源获得外部知识的方法，以应用于股票价格预测，帮助理解股票市场的复杂性。 |
+| [^3] | [Correlation-diversified portfolio construction by finding maximum independent set in large-scale market graph.](http://arxiv.org/abs/2308.04769) | 该论文通过使用量子启发式算法simulated bifurcation（SB）来解决了在大规模市场图中寻找最大独立集（MIS）的问题，构建了相关多样化的投资组合，并取得了优于传统MIS求解器的计算时间和解决方案准确性。 |
+| [^4] | [Instabilities of explicit finite difference schemes with ghost points on the diffusion equation.](http://arxiv.org/abs/2308.04629) | 本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。 |
+| [^5] | [Efficient option pricing with unary-based photonic computing chip and generative adversarial learning.](http://arxiv.org/abs/2308.04493) | 本研究提出了一种基于一元光子计算芯片和生成对抗学习的高效期权定价方法，通过引入量子幅度估计算法，相比传统方法实现了二次加速。其中，生成对抗网络用于高效学习和加载资产分布，准确捕捉市场趋势。这项工作为金融应用中的专用光子处理器发展提供了新的思路。 |
+| [^6] | [Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy.](http://arxiv.org/abs/2308.02914) | 通过使用图神经网络和非极端熵，在全球金融市场中成功检测出了异常情况，发现了在危机期间高度相关的资产的复杂结构减少，并且不同的非极端熵参数在危机前、期间和后的异常数量存在统计上的差异 |
+| [^7] | [Modeling evidential cooperation in large worlds.](http://arxiv.org/abs/2307.04879) | 该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。 |
+| [^8] | [Estimating the roughness exponent of stochastic volatility from discrete observations of the realized variance.](http://arxiv.org/abs/2307.02582) | 本文提出了一种新的估计器，用于从离散观测中测量连续轨迹的粗糙指数，该估计器适用于随机波动模型的估计，并在大多数分数布朗运动样本路径中收敛。 |
+| [^9] | [The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland.](http://arxiv.org/abs/2306.12924) | 波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。 |
+| [^10] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^11] | [Market Mechanisms for Low-Carbon Electricity Investments: A Game-Theoretical Analysis.](http://arxiv.org/abs/2212.06984) | 本论文研究了激励低碳能源投资的市场机制，并保护消费者免受供应短缺造成的高价影响。研究提出了一种新的市场机制（PIU），通过罚款支付、供应激励和能源价格抬升来减少供应短缺价格的影响。通过建立博弈论框架，证明了在罚款支付和供应激励的情况下存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。 |
+| [^12] | [Formation of trade networks by economies of scale and product differentiation.](http://arxiv.org/abs/2212.02841) | 本文研究了贸易网络的形成，在个体决策的基础上建立了一个新的模型，考虑了比较优势、经济规模效应、个体异质性和运输成本等因素。通过数值模拟和统计力学方法，我们揭示了三种不同的贸易网络结构。 |
 
 # 详细
 
-[^1]: 有限的替代性、相对价格变动与公共自然资本价值的提升
+[^1]: Mobilit\"at.Leben研究：一年的移动追踪面板
 
-    Limited substitutability, relative price changes and the uplifting of public natural capital values. (arXiv:2308.04400v1 [econ.GN])
+    The Mobilit\"at.Leben Study: a Year-Long Mobility-Tracking Panel. (arXiv:2308.04973v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.04400](http://arxiv.org/abs/2308.04400)
+    [http://arxiv.org/abs/2308.04973](http://arxiv.org/abs/2308.04973)
 
-    本研究通过全球元分析得出，生态系统服务相对价格每年约为2.2%，用于公共项目评估和环境经济会计中的调整。
-
-    
-
-    随着全球经济的不断增长，生态系统服务往往停滞或减少。经济学理论已经揭示了如何将这种相对稀缺性的转变反映到公共项目评估和环境经济会计中，但缺乏实证证据来将理论付诸实践。为了估计可用于进行此类调整的生态系统服务相对价格变化，我们对环境价值评估研究进行了全球元分析，以推导出意愿支付收入弹性作为有限替代性程度的代理。基于749个收入-意愿支付对，我们估计意愿支付收入弹性约为0.78（95-CI：0.6至1.0）。将这些结果与生态系统服务相对稀缺性变化的全球数据集结合起来，我们估计生态系统服务相对价格每年约为2.2％。在对非木材林生态系统的自然资本估值中应用了这些结果。
-
-    As the global economy continues to grow, ecosystem services tend to stagnate or degrow. Economic theory has shown how such shifts in relative scarcities can be reflected in the appraisal of public projects and environmental-economic accounting, but empirical evidence has been lacking to put the theory into practice. To estimate the relative price change in ecosystem services that can be used to make such adjustments, we perform a global meta-analysis of environmental valuation studies to derive income elasticities of willingness to pay (WTP) for ecosystem services as a proxy for the degree of limited substitutability. Based on 749 income-WTP pairs, we estimate an income elasticity of WTP of around 0.78 (95-CI: 0.6 to 1.0). Combining these results with a global data set on shifts in the relative scarcity of ecosystem services, we estimate relative price change of ecosystem services of around 2.2 percent per year. In an application to natural capital valuation of non-timber forest ecosys
-    
-[^2]: 具有多维奇异控制的扩展均场控制问题
-
-    Extended mean-field control problems with multi-dimensional singular controls. (arXiv:2308.04378v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2308.04378](http://arxiv.org/abs/2308.04378)
-
-    本文研究了具有多维奇异控制的扩展均场控制问题，引入了两层参数化的概念，通过统一和一致地插值跳跃，推导出收益的显式表示和DPP，并解决了奇异控制的关键挑战。
+    Mobilit\"at.Leben研究调查了2022年德国的一个自然实验对出行行为的影响，研究包括两个时期和两个元素，通过问卷调查和基于智能手机的被动航点跟踪，并分享了关于进行大规模面板研究的经验。
 
     
 
-    本文研究具有多维奇异控制的扩展均场控制问题。在分析奇异控制时，关键挑战是跳跃成本的计算。当控制为一维时，最自然的计算方法是线性插值。当控制为多维时，情况更加复杂，特别是当模型参数依赖于附加的均场交互项时，此时需要在分布和路径上"共同"和"一致"插值跳跃。为此，引入了概率过程的两层参数化的新概念。两层参数化使我们能够等价地用控制过程的参数化的连续函数重写收益，并以最小跳跃成本的形式推导出收益的显式表示。基于此，我们推导出具有多维奇异控制的扩展均场控制问题的DPP（Determinantal Point Processes）。
+    Mobilit\"at.Leben研究调查了德国一个自然实验对出行行为的影响。为应对2022年的生活成本危机，在2022年6月、7月和8月，引入了两项政策措施，以减少人口出行成本：燃油消费税削减和几乎免费的公共交通，称为9欧票。德国票的继任者，所谓的Deutschlandticket的公告，导致立即决定继续研究。Mobilit\"at.Leben研究有两个时期，9欧票时期和Deutschlandticket时期，包括几个问卷调查和基于智能手机的被动航点跟踪。整个研究持续时间共计十三个月。在本论文中，我们报告了研究设计、招募策略、调查参与情况以及跟踪部分，并分享了我们在进行大规模面板研究方面的经验。总体而言，3080人参加了这项研究。
 
-    We consider extended mean-field control problems with multi-dimensional singular controls. A key challenge when analysing singular controls are jump costs. When controls are one-dimensional, jump costs are most naturally computed by linear interpolation. When the controls are multi-dimensional the situation is more complex, especially when the model parameters depend on an additional mean-field interaction term, in which case one needs to "jointly" and "consistently" interpolate jumps both on a distributional and a pathwise level. This is achieved by introducing the novel concept of two-layer parametrisations of stochastic processes. Two-layer parametrisations allow us to equivalently rewrite rewards in terms of continuous functions of parametrisations of the control process and to derive an explicit representation of rewards in terms of minimal jump costs. From this we derive a DPP for extended mean-field control problems with multi-dimensional singular controls. Under the additional 
+    The Mobilit\"at.Leben study investigated travel behavior effects of a natural experiment in Germany. In response to the 2022 cost-of-living crisis, two policy measures to reduce travel costs for the population in June, July, and August 2022 were introduced: a fuel excise tax cut and almost fare-free public transport with the so-called 9-Euro-Ticket. The announcement of a successor ticket to the 9-Euro-Ticket, the so-called Deutschlandticket, led to the immediate decision to continue the study. The Mobilit\"at.Leben study has two periods, the 9-Euro-Ticket period and the Deutschlandticket period, and comprises two elements: several questionnaires and a smartphone-based passive waypoint tracking. The entire duration of the study was almost thirteen months.  In this paper, we report on the study design, the recruitment strategy, the study participation in the survey, and the tracking parts, and we share our experience in conducting such large-scale panel studies. Overall, 3,080 people reg
     
-[^3]: 金融危机期间的外汇回报的规律性：来自印度的证据
+[^2]: 获得和整合知识用于股票价格预测的方法：一项调查
 
-    Regularity in forex returns during financial distress: Evidence from India. (arXiv:2308.04181v1 [q-fin.ST])
+    Methods for Acquiring and Incorporating Knowledge into Stock Price Prediction: A Survey. (arXiv:2308.04947v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2308.04181](http://arxiv.org/abs/2308.04181)
+    [http://arxiv.org/abs/2308.04947](http://arxiv.org/abs/2308.04947)
 
-    本研究利用熵的概念研究了印度外汇市场回报的规律性，在金融危机期间外汇回报的规律性增加。
-
-    
-
-    本文使用熵的概念研究印度外汇市场回报的规律性/非规律性。使用近似熵和样本熵统计量来衡量数据中的可重复性程度，并量化时间段为2006年至2021年的外汇回报的随机性。研究的主要目标是观察外汇回报的随机性在给定的时间段内，特别是在全球金融市场出现高度不稳定或动荡的时期，是如何演变的。为了实现这一目标，我们研究了两个重大的金融动荡事件，即2006年至2007年的次贷危机，也被称为全球金融危机（GFC），以及2020年至2021年的新冠疫情。我们的实证结果极大地证实了我们的工作假设，即印度主要外汇汇率的回报规律性在金融危机时期增加。这一点通过回报的波动率的减少来证明。
-
-    This paper uses the concepts of entropy to study the regularity/irregularity of the returns from the Indian Foreign exchange (forex) markets. The Approximate Entropy and Sample Entropy statistics which measure the level of repeatability in the data are used to quantify the randomness in the forex returns from the time period 2006 to 2021. The main objective of the research is to see how the randomness of the foreign exchange returns evolve over the given time period particularly during periods of high financial instability or turbulence in the global financial market. With this objective we look at 2 major financial upheavals, the subprime crisis also known as the Global Financial Crisis (GFC) during 2006-2007 and the recent Covid-19 pandemic during 2020-2021. Our empirical results overwhelmingly confirm our working hypothesis that regularity in the returns of the major Indian foreign exchange rates increases during times of financial crisis. This is evidenced by a decrease in the valu
-    
-[^4]: 也可以对期权进行期权：如何使用Black-Scholes推导微笑曲线
-
-    Options are also options on options: how to smile with Black-Scholes. (arXiv:2308.04130v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2308.04130](http://arxiv.org/abs/2308.04130)
-
-    该论文研究了对期权进行期权的概念，使用Black-Scholes模型推导了微笑曲线，提供了准闭合的定价公式，并探讨了价格与标的资产之间的标准化关系。
+    这项调查论文系统而全面地描述了从不同来源获得外部知识的方法，以应用于股票价格预测，帮助理解股票市场的复杂性。
 
     
 
-    我们观察到，具有行权价$L > K$的欧式看涨期权可以视为具有行权价$L-K$的期权对看涨期权。在无套利假设下，这立即得出两个合约的价格是一样的，完全一般化。我们详细研究了相对定价函数，它给出了看涨期权对看涨期权的价格作为其基础看涨期权的函数，并为Carr-Pelts-Tehranchi家族中的这些新定价函数提供准闭合的公式，其中包括Black-Scholes模型作为特殊情况。我们还研究了将价格以标准化方式除以标的资产，作为点价相对价格的函数的性质，这使我们能够得出几个新的闭合公式。
+    预测股票价格是一个具有挑战性的研究问题，因为股票市场的固有波动性和非线性性质。近年来，利用外部知识来理解股票市场的知识增强型股票价格预测方法表现出突破性的成果。尽管这些方法的重要性，但在从外部知识类型的角度系统地综合以往研究方面，学术作品的稀缺性存在一定问题。具体而言，外部知识可以以不同的数据结构建模，我们将其分为非图形化格式和图形化格式两类：1) 非图形化知识捕获与个别股票密切相关的上下文信息和多媒体描述；2) 图形化知识捕获股票市场中相互关联和相互依赖的信息。本调查论文旨在系统而全面地描述从不同来源获取外部知识的方法。
 
-    We observe that a European Call option with strike $L > K$ can be seen as a Call option with strike $L-K$ on a Call option with strike $K$. Under no arbitrage assumptions, this yields immediately that the prices of the two contracts are the same, in full generality. We study in detail the relative pricing function which gives the price of the Call on Call option as a function of its underlying Call option, and provide quasi-closed formula for those new pricing functions in the Carr-Pelts-Tehranchi family [Carr and Pelts, Duality, Deltas, and Derivatives Pricing, 2015] and [Tehranchi, A Black-Scholes inequality: applications and generalisations, Finance Stoch, 2020] that includes the Black-Scholes model as a particular case. We also study the properties of the function that maps the price normalized by the underlier, viewed as a function of the moneyness, to the normalized relative price, which allows us to produce several new closed formulas. In connection to the symmetry transformatio
+    Predicting stock prices presents a challenging research problem due to the inherent volatility and non-linear nature of the stock market. In recent years, knowledge-enhanced stock price prediction methods have shown groundbreaking results by utilizing external knowledge to understand the stock market. Despite the importance of these methods, there is a scarcity of scholarly works that systematically synthesize previous studies from the perspective of external knowledge types. Specifically, the external knowledge can be modeled in different data structures, which we group into non-graph-based formats and graph-based formats: 1) non-graph-based knowledge captures contextual information and multimedia descriptions specifically associated with an individual stock; 2) graph-based knowledge captures interconnected and interdependent information in the stock market. This survey paper aims to provide a systematic and comprehensive description of methods for acquiring external knowledge from va
     
-[^5]: 广义费勒理论的影响
+[^3]: 通过在大规模市场图中寻找最大独立集构建相关多样化投资组合
 
-    Ramifications of generalized Feller theory. (arXiv:2308.03858v1 [math.PR])
+    Correlation-diversified portfolio construction by finding maximum independent set in large-scale market graph. (arXiv:2308.04769v1 [cs.ET])
 
-    [http://arxiv.org/abs/2308.03858](http://arxiv.org/abs/2308.03858)
+    [http://arxiv.org/abs/2308.04769](http://arxiv.org/abs/2308.04769)
 
-    广义费勒理论提供了除了局部紧致状态空间以外的重要模拟，扩展了与广义费勒过程相关的常识结果，并引入了延伸的费勒过程概念，通过代数同态的广义费勒半群与输运方程和加权空间上的连续半流相关联。
-
-    
-
-    广义费勒理论提供了除了局部紧致状态空间以外的重要模拟。这在解决某些随机偏微分方程、分数过程的马尔可夫提升，或无限维度的仿射和多项式过程中非常有用，在特征随机微分方程理论中占据重要地位。我们扩展了一些与广义费勒过程相关的常识结果，特别是它们的构造和路径特性，并详细提供了通常相当复杂的证明。我们还引入了延伸的费勒过程的概念，并将其与标准和广义过程进行比较。一个关键的例子是将代数同态的广义费勒半群通过特征方法与输运方程和加权空间上的连续半流相关联，即一种非常通用的处理加权空间上微分方程的方法。我们还提供了一个反例，展示了...
-
-    Generalized Feller theory provides an important analog to Feller theory beyond locally compact state spaces. This is very useful for solutions of certain stochastic partial differential equations, Markovian lifts of fractional processes, or infinite dimensional affine and polynomial processes which appear prominently in the theory of signature stochastic differential equations. We extend several folklore results related to generalized Feller processes, in particular on their construction and path properties, and provide the often quite sophisticated proofs in full detail. We also introduce the new concept of extended Feller processes and compare them with standard and generalized ones. A key example relates generalized Feller semigroups of algebra homomorphisms via the method of characteristics to transport equations and continuous semiflows on weighted spaces, i.e. a remarkably generic way to treat differential equations on weighted spaces. We also provide a counterexample, which show
-    
-[^6]: 需要回报率的参数估计方法
-
-    Parameter Estimation Methods of Required Rate of Return. (arXiv:2305.19708v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2305.19708](http://arxiv.org/abs/2305.19708)
-
-    本研究提出了使用DDM模型对私营和上市公司的股权和负债所需回报率进行估计的新方法，其中包括最大似然方法、贝叶斯方法和卡尔曼滤波。该模型可用于S&P 500指数的公司的历史数据，以估算回报率和负债市场价值。
+    该论文通过使用量子启发式算法simulated bifurcation（SB）来解决了在大规模市场图中寻找最大独立集（MIS）的问题，构建了相关多样化的投资组合，并取得了优于传统MIS求解器的计算时间和解决方案准确性。
 
     
 
-    本研究介绍了使用随机股利折现模型（DDM）对私营和上市公司的股权和负债需要回报率进行估计的新方法。为了估计股权需要回报率，我们使用最大似然方法、贝叶斯方法和卡尔曼滤波。我们还提供了评估负债市场价值的方法。我们将该模型应用于S&P 500指数的一组公司，使用历史股利和价格数据进行了为期32年的研究。总的来说，本研究提出的方法可用于估计所需的回报率。
+    可以通过在将边对应于两只股票之间的相关性的市场图中寻找最大独立集（MIS），来构建相关多样化的投资组合。随着市场图的规模增大，找到MIS的计算复杂度呈指数增长，使得在大规模市场图中选择MIS变得困难。在这里，我们通过基于量子启发式算法simulated bifurcation（SB）的组合优化求解器（Ising机器）解决了大规模市场图的MIS问题，并使用长期历史市场数据研究了构建的投资组合的投资表现。使用不同规模的股票宇宙[TOPIX 100, Nikkei 225, TOPIX 1000和TOPIX（包括约2000个成分股）]的比较表明，基于SB的求解器在计算时间和解决方案准确性方面优于传统的MIS求解器。通过使用基于SB的求解器，我们优化
 
-    In this study, we introduce new estimation methods for the required rate of returns on equity and liabilities of private and public companies using the stochastic dividend discount model (DDM). To estimate the required rate of return on equity, we use the maximum likelihood method, the Bayesian method, and the Kalman filtering. We also provide a method that evaluates the market values of liabilities. We apply the model to a set of firms from the S&P 500 index using historical dividend and price data over a 32--year period. Overall, the suggested methods can be used to estimate the required rate of returns.
+    Correlation-diversified portfolios can be constructed by finding the maximum independent sets (MISs) in market graphs with edges corresponding to correlations between two stocks. The computational complexity to find the MIS increases exponentially as the size of the market graph increases, making the MIS selection in a large-scale market graph difficult. Here we construct a diversified portfolio by solving the MIS problem for a large-scale market graph with a combinatorial optimization solver (an Ising machine) based on a quantum-inspired algorithm called simulated bifurcation (SB) and investigate the investment performance of the constructed portfolio using long-term historical market data. Comparisons using stock universes of various sizes [TOPIX 100, Nikkei 225, TOPIX 1000, and TOPIX (including approximately 2,000 constituents)] show that the SB-based solver outperforms conventional MIS solvers in terms of computation-time and solution-accuracy. By using the SB-based solver, we opti
     
-[^7]: 面向时序表格数据的动态特征工程和模型选择方法在制度变化下的应用
+[^4]: 显式有限差分格式中使用虚拟点的扩散方程的不稳定性研究
 
-    Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes. (arXiv:2301.00790v2 [q-fin.CP] UPDATED)
+    Instabilities of explicit finite difference schemes with ghost points on the diffusion equation. (arXiv:2308.04629v1 [math.NA])
 
-    [http://arxiv.org/abs/2301.00790](http://arxiv.org/abs/2301.00790)
+    [http://arxiv.org/abs/2308.04629](http://arxiv.org/abs/2308.04629)
 
-    本文提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。使用梯度提升决策树（GBDT）并结合dropout技术的模型具有良好的性能和泛化能力，而动态特征中和则是一种高效而不需要重新训练模型就可以应用于任何机器学习模型中的后处理技术。
-
-    
-
-    由于严重的非平稳性，将深度学习算法应用于时序面板数据集是困难的，这可能导致过度拟合的模型在制度变化下性能不佳。在本文中，我们提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。管道评估不同的机器学习模型，包括梯度提升决策树（GBDT）和具有和不具有简单特征工程的神经网络。我们发现，具有dropout的GBDT模型具有高性能、稳健性和泛化能力，而且相对复杂度较低、计算成本较低。然后，我们展示了在线学习技术可以在预测后处理中用于增强结果。特别地，我们提出了动态特征中和，这是一种无需重新训练模型就可以应用于任何机器学习模型的高效过程。
-
-    The application of deep learning algorithms to temporal panel datasets is difficult due to heavy non-stationarities which can lead to over-fitted models that under-perform under regime changes. In this work we propose a new machine learning pipeline for ranking predictions on temporal panel datasets which is robust under regime changes of data. Different machine-learning models, including Gradient Boosting Decision Trees (GBDTs) and Neural Networks with and without simple feature engineering are evaluated in the pipeline with different settings. We find that GBDT models with dropout display high performance, robustness and generalisability with relatively low complexity and reduced computational cost. We then show that online learning techniques can be used in post-prediction processing to enhance the results. In particular, dynamic feature neutralisation, an efficient procedure that requires no retraining of models and can be applied post-prediction to any machine learning model, impr
-    
-[^8]: 从工作地到居住地：最低工资政策对当地住房市场的溢出效应
-
-    From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets. (arXiv:2208.01791v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2208.01791](http://arxiv.org/abs/2208.01791)
-
-    本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。
+    本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。
 
     
 
-    美国最近出现了各州颁布地方最低工资政策，导致城市地区内的最低工资水平出现显著差异。本文通过通勤研究这些政策对当地租房市场的溢出效应。我们根据居民工作地点构建每个邮政编码区域的“工作地”最低工资水平，并用它估计最低工资政策对租金的影响。我们采用了一种新的识别策略，利用了共享“居住地”最低工资水平（即相同地点的最低工资水平）的邮政编码区域之间工作地最低工资变化的细节时机不同。我们的基准结果表明，工作地最低工资水平增加10%会导致居住地邮政编码区域的租金增加0.69%。为了说明通勤模式的重要性，我们使用估计结果和一个简单的模型来模拟联邦和城市虚拟最低工资政策的影响。模拟结果表明，房东每收入1美元，大约会入袋10美分。
+    虚拟点允许捕捉不位于有限差分网格离散化上的边界条件。本文探讨了虚拟点对显式欧拉有限差分格式在扩散方程背景下稳定性的影响。特别地，我们考虑了在Black-Scholes模型下的一触即付期权的情况。然而，观察和结果对于更广泛的金融合同和模型也是有效的。
 
-    The recent rise of sub-national minimum wage (MW) policies in the US has resulted in significant dispersion of MW levels within urban areas. In this paper, we study the spillover effects of these policies on local rental markets through commuting. To do so, for each USPS ZIP code we construct a "workplace" MW measure based on the location of its resident's jobs, and use it to estimate the effect of MW policies on rents. We use a novel identification strategy that exploits the fine timing of differential changes in the workplace MW across ZIP codes that share the same "residence" MW, defined as the same location's MW. Our baseline results imply that a 10 percent increase in the workplace MW increases rents at residence ZIP codes by 0.69 percent. To illustrate the importance of commuting patterns, we use our estimates and a simple model to simulate the impact of federal and city counterfactual MW policies. The simulations suggest that landlords pocket approximately 10 cents of each dolla
+    Ghost, or fictitious points allow to capture boundary conditions that are not located on the finite difference grid discretization. We explore in this paper the impact of ghost points on the stability of the explicit Euler finite difference scheme in the context of the diffusion equation. In particular, we consider the case of a one-touch option under the Black-Scholes model. The observations and results are however valid for a much wider range of financial contracts and models.
     
-[^9]: 粗糙指数及其无模型估计
+[^5]: 基于一元光子计算芯片和生成对抗学习的高效期权定价
 
-    The roughness exponent and its model-free estimation. (arXiv:2111.10301v4 [math.ST] UPDATED)
+    Efficient option pricing with unary-based photonic computing chip and generative adversarial learning. (arXiv:2308.04493v1 [quant-ph])
 
-    [http://arxiv.org/abs/2111.10301](http://arxiv.org/abs/2111.10301)
+    [http://arxiv.org/abs/2308.04493](http://arxiv.org/abs/2308.04493)
 
-    本文提出了对于函数$x$，基于Faber-Schauder系数的温和条件，无需对其动态作出任何假设即可一致地估计其粗糙指数，并给出了推广方法。
-
-    
-
-    本文基于路径随机微积分，定义了一个连续的实函数$x$具有粗糙指数$R$，如果$x$的$p$阶变差在$p>1/R$时趋向于零，而在$p<1/R$时趋向于无穷大。对于许多随机过程的样本路径，例如分数布朗运动，其粗糙指数存在并等于标准赫斯特参数。在我们的主要结果中，我们提供了在Faber-Schauder系数上的一个温和条件，使得粗糙指数存在，并且给出为经典Gladyshev估计$\widehat{R_n}(x)$的极限。这个结果可以被视为Gladyshev估计器在完全无模型设置中的强一致性结果，因为在函数$x$的可能动态方面没有任何假设。尽管如此，我们的证明具有概率性，依赖于隐藏在$x$的Faber-Schauder展开中的一个鞅。由于Gladyshev估计器不是尺度不变的，我们构造了若干量尺度不变的有用推广。
-
-    Motivated by pathwise stochastic calculus, we say that a continuous real-valued function $x$ admits the roughness exponent $R$ if the $p^{\text{th}}$ variation of $x$ converges to zero if $p>1/R$ and to infinity if $p<1/R$. For the sample paths of many stochastic processes, such as fractional Brownian motion, the roughness exponent exists and equals the standard Hurst parameter. In our main result, we provide a mild condition on the Faber--Schauder coefficients of $x$ under which the roughness exponent exists and is given as the limit of the classical Gladyshev estimates $\widehat R_n(x)$. This result can be viewed as a strong consistency result for the Gladyshev estimators in an entirely model-free setting, because no assumption whatsoever is made on the possible dynamics of the function $x$. Nonetheless, our proof is probabilistic and relies on a martingale that is hidden in the Faber--Schauder expansion of $x$. Since the Gladyshev estimators are not scale-invariant, we construct sev
-    
-[^10]: 基于多个资产的股权链接人寿保险
-
-    Equity--Linked Life Insurances on Maximum of Several Assets. (arXiv:2111.04038v3 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2111.04038](http://arxiv.org/abs/2111.04038)
-
-    本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。
+    本研究提出了一种基于一元光子计算芯片和生成对抗学习的高效期权定价方法，通过引入量子幅度估计算法，相比传统方法实现了二次加速。其中，生成对抗网络用于高效学习和加载资产分布，准确捕捉市场趋势。这项工作为金融应用中的专用光子处理器发展提供了新的思路。
 
     
 
-    本文提出了基于贝叶斯马尔科夫-切换向量自回归（MS-VAR）过程的分离资金和单位链接人寿保险产品的定价和对冲方法。我们假设切换制度的过程由一个均匀马尔科夫过程和一个残差过程所生成，残差过程遵循一个异方差模型。我们模型的优势在于它依赖于经济变量并且不复杂。
+    在现代金融行业系统中，产品结构变得越来越复杂，传统计算能力的瓶颈已经制约了金融行业的发展。本文提出了一种实现欧式期权定价的光子芯片，结合量子幅度估计算法，与经典蒙特卡洛方法相比，实现了二次加速。电路包括三个模块：加载资产价格分布的模块、计算预期收益的模块以及执行量子幅度估计算法以引入加速的模块。在分布模块中，嵌入了生成对抗网络以便高效地学习和加载资产分布，准确捕捉市场趋势。这项工作是专用光子处理器在金融应用中发展的一个新进展，有潜力改进期权定价的效率。
 
-    This paper presents pricing and hedging methods for segregated funds and unit-linked life insurance products that are based on a Bayesian Markov--Switching Vector Autoregressive (MS--VAR) process. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a heteroscedastic model. An advantage of our model is it depends on economic variables and is not complicated.
+    In the modern financial industry system, the structure of products has become more and more complex, and the bottleneck constraint of classical computing power has already restricted the development of the financial industry. Here, we present a photonic chip that implements the unary approach to European option pricing, in combination with the quantum amplitude estimation algorithm, to achieve a quadratic speedup compared to classical Monte Carlo methods. The circuit consists of three modules: a module loading the distribution of asset prices, a module computing the expected payoff, and a module performing the quantum amplitude estimation algorithm to introduce speed-ups. In the distribution module, a generative adversarial network is embedded for efficient learning and loading of asset distributions, which precisely capture the market trends. This work is a step forward in the development of specialized photonic processors for applications in finance, with the potential to improve the
     
-[^11]: 社会传染和资产价格：Reddit的自组织牛市运行
+[^6]: 使用图神经网络和非极端熵在全球金融市场中进行异常检测
 
-    Social contagion and asset prices: Reddit's self-organised bull runs. (arXiv:2104.01847v5 [econ.GN] UPDATED)
+    Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy. (arXiv:2308.02914v1 [cs.AI])
 
-    [http://arxiv.org/abs/2104.01847](http://arxiv.org/abs/2104.01847)
+    [http://arxiv.org/abs/2308.02914](http://arxiv.org/abs/2308.02914)
 
-    本文通过分析Reddit的WallStreetBets论坛上的交易者的信念和持仓情况，研究了社交力量如何影响资产价格。研究发现，社交媒体上表达的情绪和过去资产回报影响交易者对资产未来表现的看涨或看跌的情绪，零售交易者的需求受到论坛讨论的影响，特异性投资者情绪的市场影响扩大，并且炒作投资者更容易受到市场泡沫的影响。
-
-    
-
-    社交媒体中的非结构化文本数据能否帮助解释大型资产价格波动的驱动因素？本文通过使用机器学习工具提取Reddit的WallStreetBets（WSB）论坛上活跃的“炒作”交易者的信念和持仓情况，研究社会力量如何影响资产价格。我们的简化模型显示，同伴效应有助于解释回报可预测性和逆转，以及泡沫动力学。我们经验性地记录下，WSB用户对资产未来表现（看涨或看跌）的情绪部分源于其同伴和过去的资产回报的情绪。本文直接估计了WSB活动对资产价格的影响。我们记录下：零售交易者需求通过使用交易和行情（TAQ）数据跟随WSB讨论，零售交易者言论对价格的可预测性，在线病毒内容引发的特异性投资者情绪的市场影响扩大，以及炒作投资者对市场泡沫的更高曝光度。
-
-    Can unstructured text data from social media help explain the drivers of large asset price fluctuations? This paper investigates how social forces affect asset prices, by using machine learning tools to extract beliefs and positions of `hype' traders active on Reddit's WallStreetBets (WSB) forum. Our stylized model shows that peer effects help explain return predictability and reversals, as well as bubble dynamics. We empirically document that sentiments expressed by WSB users about assets' future performances (bullish or bearish) are in part due to sentiments of their peers and past asset returns. The paper directly estimates the effect of WSB activity on asset prices. We document: that retail trader demand follows WSB discussions through using Trade and Quote (TAQ) data, the predictability of prices from retail trader discourse, the amplified market impact of idiosyncratic investor sentiment from viral content online, and the greater exposure of hype investors to bubbles in the marke
-    
-[^12]: 性别失衡对日本婚姻和生育的影响：以第二次世界大战为例证
-
-    The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan. (arXiv:2102.00687v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2102.00687](http://arxiv.org/abs/2102.00687)
-
-    本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。
+    通过使用图神经网络和非极端熵，在全球金融市场中成功检测出了异常情况，发现了在危机期间高度相关的资产的复杂结构减少，并且不同的非极端熵参数在危机前、期间和后的异常数量存在统计上的差异
 
     
 
-    本研究利用第二次世界大战期间男性损失导致性别比例前所未有的变化，来研究性别失衡对日本婚姻市场和生育结果的影响。利用新数字化的基于人口普查的历史统计数据，我们发现男性在婚姻市场和家庭内部的生育决策中比女性具有更强的议价地位。在相对男性稀缺的情况下，尤其是年轻人更有可能结婚和离婚，但是丧偶妇女重新婚姻的可能性比丧偶男性要低。我们还发现，女性在婚姻市场上的议价地位在1950年代可能并没有改善。在战后堕胎法律的制度变化下，相对男性稀缺的地区的婚内生育率和死胎率增加。我们关于非婚生子女的结果表明，在家庭内部议价的理论预测在经济体中是具有稳健性的。
+    异常检测是一个具有许多变量的系统中的一项具有挑战性的任务。异常是与分析数据在统计上不同的离群值，可能来自罕见事件、设备故障或系统滥用。本研究通过考虑由非极端熵衡量的不确定性场景，研究了使用图神经网络(GNN)在全球金融市场中检测异常的能力。主要发现表明，在危机期间高度相关的资产的复杂结构减少，不同的非极端熵参数在危机前、期间和后的异常数量在统计上存在差异。
 
-    This study uses the unprecedented changes in the sex ratio due to the losses of men during World War II to identify the impacts of the gender imbalance on marriage market and birth outcomes in Japan. Using newly digitized census-based historical statistics, we find evidence that men had a stronger bargaining position in the marriage market and intra-household fertility decisions than women. Under relative male scarcity, while people, especially younger people, were more likely to marry and divorce, widowed women were less likely to remarry than widowed men. We also find that women's bargaining position in the marriage market might not have improved throughout the 1950s. Given the institutional changes in the abortion law after the war, marital fertility and stillbirth rates increased in the areas that suffered relative male scarcity. Our result on out-of-wedlock births indicates that the theoretical prediction of intra-household bargaining is considered to be robust in an economy in wh
+    Anomaly detection is a challenging task, particularly in systems with many variables. Anomalies are outliers that statistically differ from the analyzed data and can arise from rare events, malfunctions, or system misuse. This study investigated the ability to detect anomalies in global financial markets through Graph Neural Networks (GNN) considering an uncertainty scenario measured by a nonextensive entropy. The main findings show that the complex structure of highly correlated assets decreases in a crisis, and the number of anomalies is statistically different for nonextensive entropy parameters considering before, during, and after crisis.
+    
+[^7]: 在大规模世界中建模证据合作
+
+    Modeling evidential cooperation in large worlds. (arXiv:2307.04879v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.04879](http://arxiv.org/abs/2307.04879)
+
+    该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。
+
+    
+
+    大规模世界中的证据合作（ECL）指的是人类和其他代理人可以通过与具有不同价值观的相似代理人在一个大宇宙中的因果断开部分合作而获益。合作为代理人提供了其他相似代理人可能会合作的证据，从而使所有人都从交易中获益。对于利他主义者来说，这可能是一个关键的考虑因素。我将ECL发展为一个不完全信息的谈判问题的博弈论模型。该模型融入了对他人价值观和实证情况的不确定性，并解决了选择妥协结果的问题。使用该模型，我调查了ECL存在的问题，并概述了开放的技术和哲学问题。我展示了所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。然而，我反对通过对效用函数进行归一化来隐式选择妥协结果。我回顾了谈判理论和
+
+    Evidential cooperation in large worlds (ECL) refers to the idea that humans and other agents can benefit by cooperating with similar agents with differing values in causally disconnected parts of a large universe. Cooperating provides agents with evidence that other similar agents are likely to cooperate too, resulting in gains from trade for all. This could be a crucial consideration for altruists.  I develop a game-theoretic model of ECL as an incomplete information bargaining problem. The model incorporates uncertainty about others' value systems and empirical situations, and addresses the problem of selecting a compromise outcome. Using the model, I investigate issues with ECL and outline open technical and philosophical questions.  I show that all cooperators must maximize the same weighted sum of utility functions to reach a Pareto optimal outcome. However, I argue against selecting a compromise outcome implicitly by normalizing utility functions. I review bargaining theory and a
+    
+[^8]: 从离散实现方差的观测中估计随机波动的粗糙指数
+
+    Estimating the roughness exponent of stochastic volatility from discrete observations of the realized variance. (arXiv:2307.02582v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2307.02582](http://arxiv.org/abs/2307.02582)
+
+    本文提出了一种新的估计器，用于从离散观测中测量连续轨迹的粗糙指数，该估计器适用于随机波动模型的估计，并在大多数分数布朗运动样本路径中收敛。
+
+    
+
+    本文考虑在随机波动模型中估计波动性的粗糙度，该模型是作为分数布朗运动（带漂移）的非线性函数而产生的。为此，我们引入一个新的估计量，该估计量测量连续轨迹的所谓粗糙指数，基于其原函数的离散观测。我们给出了对于基础轨迹的条件，在这些条件下，我们的估计器以严格路径方式收敛。然后我们验证了这些条件在几乎每个分数布朗运动（带漂移）样本路径中都得到满足。作为结果，在大类粗波动模型的背景下，我们得到了强一致性定理。数值模拟结果表明，在经过我们估计器的尺度不变修改后，我们的估计程序表现良好。
+
+    We consider the problem of estimating the roughness of the volatility in a stochastic volatility model that arises as a nonlinear function of fractional Brownian motion with drift. To this end, we introduce a new estimator that measures the so-called roughness exponent of a continuous trajectory, based on discrete observations of its antiderivative. We provide conditions on the underlying trajectory under which our estimator converges in a strictly pathwise sense. Then we verify that these conditions are satisfied by almost every sample path of fractional Brownian motion (with drift). As a consequence, we obtain strong consistency theorems in the context of a large class of rough volatility models. Numerical simulations show that our estimation procedure performs well after passing to a scale-invariant modification of our estimator.
+    
+[^9]: 孩子对波兰女性和男性的劳动力市场结果的影响
+
+    The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland. (arXiv:2306.12924v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.12924](http://arxiv.org/abs/2306.12924)
+
+    波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。
+
+    
+
+    波兰是欧洲性别薪酬差距最小的国家之一。与此同时，它是一个保守的国家，女性的权利一直在下降。我们认为，在波兰背景下，收入差距比小时工资差距更适合衡量性别劳动力市场结果。我们使用调整为低分辨率的安慰剂事件历史方法和波兰世代和性别调查的两个波次（2010年、2014年）分析了波兰的收入性别差距与育儿状态的关系。与在西欧进行的类似研究相反，我们的分析揭示了女性和男性普遍存在的预期行为。我们展示，在生育后，母亲的收入降低了约20％，但在15年后，与非母亲的收入轨迹趋于一致。相比之下，未来父亲的收入高于非父亲的收入，这表明父亲溢价在孩子到来之前就存在。总的来说，我们的研究揭示了一个保守的国家中性别劳动力市场结果的复杂性。
+
+    Poland records one of the lowest gender wage gaps in Europe. At the same time, it is a socially conservative country where women's rights have been on the decline. We argue that, in the Polish context, the gender gap in income is a more appropriate measure of gendered labour market outcomes than the gap in the hourly wage. We analyse the gender gap in income in Poland in relation to the parenthood status, using the placebo event history method, adjusted to low resolution data, and the two waves of the Polish Generations and Gender Survey (2010, 2014). Contrary to similar studies conducted in Western Europe, our analysis uncovers a large degree of anticipatory behaviour in both women and men who expect to become parents. We show that mothers' income decreases by about 20% after birth, but converges to the income trajectory of non-mothers after 15 years. In contrast, the income of eventual fathers is higher than that of non-fathers both before and after birth, suggesting that the fatherh
+    
+[^10]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^11]: 低碳电力投资的市场机制：博弈论分析
+
+    Market Mechanisms for Low-Carbon Electricity Investments: A Game-Theoretical Analysis. (arXiv:2212.06984v2 [eess.SY] UPDATED)
+
+    [http://arxiv.org/abs/2212.06984](http://arxiv.org/abs/2212.06984)
+
+    本论文研究了激励低碳能源投资的市场机制，并保护消费者免受供应短缺造成的高价影响。研究提出了一种新的市场机制（PIU），通过罚款支付、供应激励和能源价格抬升来减少供应短缺价格的影响。通过建立博弈论框架，证明了在罚款支付和供应激励的情况下存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。
+
+    
+
+    电力市场正从传统能源资源（如化石燃料）的主导地位转向低碳能源资源（如可再生能源和储能）。本研究研究了激励低碳能源投资的市场机制，同时确保投资者获得足够的市场收入，引导投资者的战略投资达到社会最优，并保护消费者免受供应短缺造成的高价影响。为了减少供应短缺价格的影响，我们提出了一种新的市场机制，包括失掉负荷的罚款支付、供应激励和能源价格抬升（PIU）。我们建立了一个博弈论框架来分析市场均衡。我们证明，在罚款支付和供应激励的情况下，存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。
+
+    Electricity markets are transforming from the dominance of conventional energy resources (CERs), e.g., fossil fuels, to low-carbon energy resources (LERs), e.g., renewables and energy storage. This work examines market mechanisms to incentivize LER investments, while ensuring adequate market revenues for investors, guiding investors' strategic investments towards social optimum, and protecting consumers from scarcity prices. To reduce the impact of excessive scarcity prices, we present a new market mechanism, which consists of a Penalty payment for lost load, a supply Incentive, and an energy price Uplift (PIU). We establish a game-theoretical framework to analyze market equilibrium. We prove that one Nash equilibrium under the penalty payment and supply incentive can reach the social optimum given quadratic supply costs of CERs. Although the price uplift can ensure adequate revenues, the resulting system cost deviates from the social optimum while the gap decreases as more CERs retire
+    
+[^12]: 规模经济和产品差异化形成的贸易网络的构建
+
+    Formation of trade networks by economies of scale and product differentiation. (arXiv:2212.02841v2 [physics.soc-ph] UPDATED)
+
+    [http://arxiv.org/abs/2212.02841](http://arxiv.org/abs/2212.02841)
+
+    本文研究了贸易网络的形成，在个体决策的基础上建立了一个新的模型，考虑了比较优势、经济规模效应、个体异质性和运输成本等因素。通过数值模拟和统计力学方法，我们揭示了三种不同的贸易网络结构。
+
+    
+
+    理解网络的结构和形成是复杂性科学的一个核心主题。经济网络是通过个体决策形成的，因此不能用传统的随机图模型来准确描述。本文建立了一个基于个体决策的贸易网络形成模型。该模型包括贸易形成的关键因素：比较优势和经济规模效应，同时还考虑了个体的异质性和运输或交易成本。数值模拟显示出形成的贸易网络有三种宏观不同的制度。根据具体的运输成本和个体偏好的异质性，我们发现中央集中生产与星型贸易网络、分散生产与全球贸易、局部生产与无贸易之间的转变。利用统计力学的方法，我们提供了关于这些转变的解析理论。
+
+    Understanding the structure and formation of networks is a central topic in complexity science. Economic networks are formed by decisions of individual agents and thus not properly described by established random graph models. In this article, we establish a model for the emergence of trade networks that is based on rational decisions of individual agents. The model incorporates key drivers for the emergence of trade, comparative advantage and economic scale effects, but also the heterogeneity of agents and the transportation or transaction costs. Numerical simulations show three macroscopically different regimes of the emerging trade networks. Depending on the specific transportation costs and the heterogeneity of individual preferences, we find centralized production with a star-like trade network, distributed production with all-to-all trading or local production and no trade. Using methods from statistical mechanics, we provide an analytic theory of the transitions between these re
     
 

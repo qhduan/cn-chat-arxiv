@@ -1,0 +1,12 @@
+{
+    "title": "Correlating Medi- Claim Service by Deep Learning Neural Networks. (arXiv:2308.04469v1 [cs.LG])",
+    "abstract": "Medical insurance claims are of organized crimes related to patients, physicians, diagnostic centers, and insurance providers, forming a chain reaction that must be monitored constantly. These kinds of frauds affect the financial growth of both insured people and health insurance companies. The Convolution Neural Network architecture is used to detect fraudulent claims through a correlation study of regression models, which helps to detect money laundering on different claims given by different providers. Supervised and unsupervised classifiers are used to detect fraud and non-fraud claims.",
+    "link": "http://arxiv.org/abs/2308.04469",
+    "context": "Title: Correlating Medi- Claim Service by Deep Learning Neural Networks. (arXiv:2308.04469v1 [cs.LG])\nAbstract: Medical insurance claims are of organized crimes related to patients, physicians, diagnostic centers, and insurance providers, forming a chain reaction that must be monitored constantly. These kinds of frauds affect the financial growth of both insured people and health insurance companies. The Convolution Neural Network architecture is used to detect fraudulent claims through a correlation study of regression models, which helps to detect money laundering on different claims given by different providers. Supervised and unsupervised classifiers are used to detect fraud and non-fraud claims.",
+    "path": "papers/23/08/2308.04469.json",
+    "total_tokens": 723,
+    "translated_title": "通过深度学习神经网络相关医疗保险索赔服务",
+    "translated_abstract": "医疗保险索赔中存在与患者、医生、诊断中心和保险提供商相关的有组织犯罪，形成了必须不断监测的连锁反应。这些欺诈行为影响被保险人和健康保险公司的财务增长。通过对回归模型的相关性研究，利用卷积神经网络架构来检测欺诈索赔，从而有助于检测来自不同提供商的不同索赔的洗钱行为。使用了有监督和无监督分类器来检测欺诈和非欺诈索赔。",
+    "tldr": "本论文通过使用深度学习神经网络，结合回归模型的相关性研究，利用卷积神经网络架构来检测医疗保险索赔中的欺诈行为，并使用有监督和无监督分类器来区分欺诈和非欺诈索赔。",
+    "en_tdlr": "This paper proposes the use of deep learning neural networks and regression models to detect fraudulent claims in medical insurance and differentiate between fraud and non-fraud claims using supervised and unsupervised classifiers."
+}

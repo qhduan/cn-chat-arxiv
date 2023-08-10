@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating LLM Inference with Staged Speculative Decoding. (arXiv:2308.04623v1 [cs.AI])",
+    "abstract": "Recent advances with large language models (LLM) illustrate their diverse capabilities. We propose a novel algorithm, staged speculative decoding, to accelerate LLM inference in small-batch, on-device scenarios. We address the low arithmetic intensity of small-batch inference by improving upon previous work in speculative decoding. First, we restructure the speculative batch as a tree, which reduces generation costs and increases the expected tokens per batch. Second, we add a second stage of speculative decoding. Taken together, we reduce single-batch decoding latency by 3.16x with a 762M parameter GPT-2-L model while perfectly preserving output quality.",
+    "link": "http://arxiv.org/abs/2308.04623",
+    "context": "Title: Accelerating LLM Inference with Staged Speculative Decoding. (arXiv:2308.04623v1 [cs.AI])\nAbstract: Recent advances with large language models (LLM) illustrate their diverse capabilities. We propose a novel algorithm, staged speculative decoding, to accelerate LLM inference in small-batch, on-device scenarios. We address the low arithmetic intensity of small-batch inference by improving upon previous work in speculative decoding. First, we restructure the speculative batch as a tree, which reduces generation costs and increases the expected tokens per batch. Second, we add a second stage of speculative decoding. Taken together, we reduce single-batch decoding latency by 3.16x with a 762M parameter GPT-2-L model while perfectly preserving output quality.",
+    "path": "papers/23/08/2308.04623.json",
+    "total_tokens": 795,
+    "translated_title": "采用分阶段推测解码加速LLM推理",
+    "translated_abstract": "最近LLM的大规模语言模型的进展展示了它们的多样化能力。我们提出了一种新颖的算法，即分阶段推测解码，来加速在小批量、设备上进行LLM推理。通过改进先前的推测解码工作，我们解决了小批量推理的低算术强度问题。首先，我们将推测批次重新组织成树形结构，从而降低了生成成本，并增加了每批预期的标记数。其次，我们增加了第二阶段的推测解码。综合而言，我们在保持输出质量完美的情况下，将单批解码延迟降低了3.16倍，使用了762M参数的GPT-2-L模型。",
+    "tldr": "本文提出了一种新算法，分阶段推测解码，用于加速在小批量、设备上进行LLM推理。通过使用树形结构的批次重组和增加第二阶段的推测解码，将单批解码延迟降低了3.16倍，而输出质量保持完美。",
+    "en_tdlr": "This paper proposes a novel algorithm, staged speculative decoding, to accelerate LLM inference in small-batch, on-device scenarios. By restructuring the speculative batch as a tree and adding a second stage of speculative decoding, the decoding latency is reduced by 3.16x while preserving the output quality perfectly."
+}

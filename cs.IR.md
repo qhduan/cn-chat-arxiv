@@ -2,85 +2,224 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Your Negative May not Be True Negative: Boosting Image-Text Matching with False Negative Elimination.](http://arxiv.org/abs/2308.04380) | 本文提出了一种新颖的False Negative Elimination（FNE）策略，通过抽样选择负样本来减轻图像-文本匹配中由错误负样本引入的问题，提高检索性能。 |
-| [^2] | [Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval.](http://arxiv.org/abs/2308.04343) | 本论文提出了一种统一双流编码器架构的跨模态检索方法，使用Transformer进行图像和文本的编码，并通过层次对齐模块实现更好的交互和对齐效果。 |
-| [^3] | [Advancing Natural-Language Based Audio Retrieval with PaSST and Large Audio-Caption Data Sets.](http://arxiv.org/abs/2308.04258) | 本研究提出了一个基于预训练转换器的文本到音频检索系统，通过在共享空间中映射音频和文字描述来提高检索性能，其中自注意力的音频编码器和额外的人工生成和合成数据集是关键组件，取得了在DCASE挑战中的第一名，并在ClothoV2基准测试中超过当前最先进方法5.6个百分点。 |
-| [^4] | [UniRecSys: A Unified Framework for Personalized, Group, Package, and Package-to-Group Recommendations.](http://arxiv.org/abs/2308.04247) | 这篇论文提出了一个新的统一推荐框架，可以处理个性化、群组、套餐和套餐到群组推荐这四种任务，填补了当前研究的空白部分。 |
-| [^5] | [OpinionConv: Conversational Product Search with Grounded Opinions.](http://arxiv.org/abs/2308.04226) | OpinionConv是第一个用于模拟销售对话的对话式AI，通过利用产品评论作为观点的丰富来源，实现了对话和决策中的真实性和信息基础。 |
-| [^6] | [Understanding and Modeling Passive-Negative Feedback for Short-video Sequential Recommendation.](http://arxiv.org/abs/2308.04086) | 这篇论文研究了短视频平台中的顺序推荐任务，传统推荐系统主要考虑用户的正反馈行为，但在这个新场景中，用户通过跳过不喜欢的视频表达被动负反馈，这种被动负反馈可以反映用户的兴趣并用于提取用户偏好。 |
-| [^7] | [Online Distillation-enhanced Multi-modal Transformer for Sequential Recommendation.](http://arxiv.org/abs/2308.04067) | 本文研究了多模态顺序推荐中物品表示学习对推荐任务的影响以及不同阶段信息融合的差异，并提出了一个适合协同学习和融合多样信息的新的模型不可知的框架。 |
-| [^8] | [Adapting Foundation Models for Information Synthesis of Wireless Communication Specifications.](http://arxiv.org/abs/2308.04033) | 本文介绍了NextGen Communications Copilot，这是一个用于无线通信规范信息综合的对话式人工智能工具。它采用基础模型，并引入了领域特定的数据库、上下文提取器和反馈机制，能够提供准确且相关的上下文信息，并结合专家反馈和数据贡献工具。在基准数据集的评估中，该系统展示了更多的优势。 |
-| [^9] | [Top K Relevant Passage Retrieval for Biomedical Question Answering.](http://arxiv.org/abs/2308.04028) | 这篇论文提出了一种用于生物医学问题回答的Top K相关段落检索方法，传统的稀疏向量空间模型不适用于这个任务。然而，对于临床领域来说，这个问题还没有得到很好的解决。 |
-| [^10] | [Exploring the Spatiotemporal Features of Online Food Recommendation Service.](http://arxiv.org/abs/2308.04019) | 本文研究了在线美食推荐服务（OFRS）的时空特征，通过实验分析提取了最有价值的特征，并设计了一种有效的组合方法。同时，分析了时空序列，并提出了一种更优化的时空建模方法。 |
-| [^11] | [Multi-Granularity Attention Model for Group Recommendation.](http://arxiv.org/abs/2308.04017) | 多粒度注意力模型为群组推荐提供了一种新方法，通过利用多个粒度层次来揭示群组成员的潜在偏好并减少推荐噪声。 |
-| [^12] | [Semantic Equivalence of e-Commerce Queries.](http://arxiv.org/abs/2308.03869) | 本文介绍了一种识别和利用电子商务查询等价性的框架，以提升搜索者和商业结果。该框架解决了将查询映射为搜索意图向量表示、识别等价或相似意图的最近邻查询以及优化用户或商业目标等三个关键问题。通过表面相似性和行为相似性来确定查询的等价性。 |
-| [^13] | [Mobile Supply: The Last Piece of Jigsaw of Recommender System.](http://arxiv.org/abs/2308.03855) | 本研究提出了一种新的推荐系统模块，称为移动供应，旨在解决分页机制问题。通过在用户设备上部署推荐算法，可以有效减少数据传输延迟和提升用户的沉浸式体验。 |
-| [^14] | [Search Engine and Recommendation System for the Music Industry built with JinaAI.](http://arxiv.org/abs/2308.03842) | 该论文介绍了使用JinaAI构建音乐行业的搜索引擎和推荐系统的研究，通过匹配歌曲歌词和提供准确的搜索结果来解决现有搜索引擎的问题。 |
-| [^15] | [Randomized algorithms for precise measurement of differentially-private, personalized recommendations.](http://arxiv.org/abs/2308.03735) | 这项研究提出了一种随机算法，用于精确测量差分隐私的个性化推荐。通过离线实验，该算法在关键指标上与私密的非个性化和非私密的个性化实现进行了比较。 |
-| [^16] | [Document Layout Annotation: Database and Benchmark in the Domain of Public Affairs.](http://arxiv.org/abs/2306.10046) | 该研究介绍了一个基于4个基本布局块和4个文本类别的布局标签的数字文档的半自动注释过程，生成了一个用于公共事务领域的DLA新数据库，以帮助自动处理数字文档。 |
-| [^17] | [Learning To Rank Diversely At Airbnb.](http://arxiv.org/abs/2210.07774) | 这篇论文研究了在Airbnb上学习多样化的排序方法。通过纠正传统排序框架中的假设，提出了一种基于高效神经网络架构的排序策略，以实现更准确的房源匹配，并加入了考虑房源相似性的方法以实现多样化的排序。 |
-| [^18] | [PCDF: A Parallel-Computing Distributed Framework for Sponsored Search Advertising Serving.](http://arxiv.org/abs/2206.12893) | 本研究提出了一个名为PCDF的并行计算分布式框架，用于赞助搜索广告服务。该框架通过将计算分为预处理模块、广告排序模块和重新排序模块，有效降低了推断延迟，同时考虑了有机搜索结果对广告排序的影响。 |
-| [^19] | [CT4Rec: Simple yet Effective Consistency Training for Sequential Recommendation.](http://arxiv.org/abs/2112.06668) | 本文提出了一种简单而有效的顺序推荐一致性训练方法，通过引入一致性约束（C$^2$-Rec），只使用两个额外的训练目标，而不需要进行结构修改和数据增强策略，从而生成更好的用户表示并向用户推荐更有吸引力的物品。 |
+| [^1] | [Dual Intents Graph Modeling for User-centric Group Discovery.](http://arxiv.org/abs/2308.05013) | 本文研究了用户参与群组的激励意图，包括社交意图和个人兴趣意图，并提出了双重意图图模型来进行用户中心的群组发现任务。 |
+| [^2] | [LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following.](http://arxiv.org/abs/2308.04913) | LLaMA-E是一种统一且定制的指导语言模型，旨在解决电子商务创作过程中遇到的各种任务，包括广告生成、查询增强的产品标题改写、产品分类、购买意图推测和常规问答。 |
+| [^3] | [Parallel Knowledge Enhancement based Framework for Multi-behavior Recommendation.](http://arxiv.org/abs/2308.04807) | 提出了一种并行知识增强框架（PKEF）用于解决多行为推荐中的问题，包括解决融合步骤中数据不平衡问题和减少负面信息传递问题。 |
+| [^4] | [DiVa: An Iterative Framework to Harvest More Diverse and Valid Labels from User Comments for Music.](http://arxiv.org/abs/2308.04805) | DiVa是一个迭代框架，通过从用户评论中收集更多多样且有效的标签，使分类器能够为歌曲形成完整的标签集，并且在实验证明了其优越性。 |
+| [^5] | [Entire Space Cascade Delayed Feedback Modeling for Effective Conversion Rate Prediction.](http://arxiv.org/abs/2308.04768) | 本文提出了一种整体空间级联延迟反馈建模方法来解决有效转化率预测问题，该方法能够处理转化后退款率预测中的数据稀疏性和样本选择偏差，并利用级联延迟反馈的信息提高模型训练的数据新鲜度。 |
+| [^6] | [Building Interpretable and Reliable Open Information Retriever for New Domains Overnight.](http://arxiv.org/abs/2308.04756) | 本论文提出了一种信息检索流程，通过使用实体/事件链接模型和查询分解模型，更准确地聚焦于查询的不同信息单元。这种流程在段落覆盖和命名准确性方面显著改进，同时也更具解释性和可靠性。 |
+| [^7] | [Self-supervised Learning of Rotation-invariant 3D Point Set Features using Transformer and its Self-distillation.](http://arxiv.org/abs/2308.04725) | 本文提出了一种使用Transformer和自蒸馏的自监督学习框架，用于从大量无标签的3D点集中获取准确且旋转不变的3D点集特征。 |
+| [^8] | [Pareto Invariant Representation Learning for Multimedia Recommendation.](http://arxiv.org/abs/2308.04706) | 本文介绍了一种名为Pareto Invariant Representation Learning（PaInvRL）的框架，应用于多媒体推荐。该框架通过学习不变表示和变体表示的同时来缓解通用表示引入的错误相关性问题。从IID-OOD多目标优化的角度，PaInvRL减少了错误相关性对用户偏好的影响。 |
+| [^9] | [Evaluating and Optimizing the Effectiveness of Neural Machine Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark.](http://arxiv.org/abs/2308.04693) | 本研究评估了神经机器翻译在支持代码检索模型中的效果，并发现NMT在自然语言到代码翻译任务中准确性较低。为了解决这个问题，我们提出了一种针对抽象语法树的定制表示方法ASTTrans Representation。 |
+| [^10] | [web crawler strategies for web pages under robot.txt restriction.](http://arxiv.org/abs/2308.04689) | 本文研究了在robot.txt限制下的网络爬虫策略，讨论了搜索引擎如何确定网页排名以及如何获取数据库中的网页。并介绍了机器人排除协议规则和robot.txt文件的基本格式。 |
+| [^11] | [Unified Matrix Factorization with Dynamic Multi-view Clustering.](http://arxiv.org/abs/2308.04661) | 这篇论文提出了一种基于动态多视图聚类的统一矩阵分解方法，对于具有数十亿用户和数万亿项目的推荐系统，可以实现实时应用，并在训练过程中动态丢弃不好的聚类。 |
+| [^12] | [RECipe: Does a Multi-Modal Recipe Knowledge Graph Fit a Multi-Purpose Recommendation System?.](http://arxiv.org/abs/2308.04579) | RECipe是一个多用途的菜谱推荐框架，使用多模态知识图谱作为支撑，通过在用户以自然语言查询或提供图像时向用户推荐菜谱，超越传统推荐系统的方法。 |
+| [^13] | [Who should I Collaborate with? A Comparative Study of Academia and Industry Research Collaboration in NLP.](http://arxiv.org/abs/2308.04524) | 本研究调查了学术界和工业界在自然语言处理（NLP）领域的合作对研究的影响。结果显示，学术界和工业界的合作出版物数量有增长趋势，并且这些出版物往往比仅由学术界产生的出版物具有更高的影响力。 |
+| [^14] | [Changes in Policy Preferences in German Tweets during the COVID Pandemic.](http://arxiv.org/abs/2308.04444) | 这项研究提供了一种量化德国推特上COVID疫情期间政策偏好的方法，通过建立细粒度政治偏好的数据集，并使用文本分类模型进行分析，结果显示政治观点在疫情期间有所增加，研究还突出了不同政治类别的变化。 |
+| [^15] | [OpinionConv: Conversational Product Search with Grounded Opinions.](http://arxiv.org/abs/2308.04226) | OpinionConv是第一个用于模拟销售对话的对话式AI，通过利用产品评论作为观点的丰富来源，实现了对话和决策中的真实性和信息基础。 |
+| [^16] | [Mobile Supply: The Last Piece of Jigsaw of Recommender System.](http://arxiv.org/abs/2308.03855) | 本研究提出了一种新的推荐系统模块，称为移动供应，旨在解决分页机制问题。通过在用户设备上部署推荐算法，可以有效减少数据传输延迟和提升用户的沉浸式体验。 |
+| [^17] | [Doubly Robust Estimator for Off-Policy Evaluation with Large Action Spaces.](http://arxiv.org/abs/2308.03443) | 本文提出了一种用于具有大动作空间的离策略评估的双重稳健估计器（MDR）。与现有的基准估计器相比，MDR能够在减小方差的同时保持无偏性，从而提高了估计的准确性。实验结果证实了MDR相对于现有估计器的优越性。 |
+| [^18] | [CT4Rec: Simple yet Effective Consistency Training for Sequential Recommendation.](http://arxiv.org/abs/2112.06668) | 本文提出了一种简单而有效的顺序推荐一致性训练方法，通过引入一致性约束（C$^2$-Rec），只使用两个额外的训练目标，而不需要进行结构修改和数据增强策略，从而生成更好的用户表示并向用户推荐更有吸引力的物品。 |
 
 # 详细
 
-[^1]: 你的负样本可能不是真正的负样本：通过消除错误负样本增强图像-文本匹配
+[^1]: 用户中心的群组发现的双重意图图建模
 
-    Your Negative May not Be True Negative: Boosting Image-Text Matching with False Negative Elimination. (arXiv:2308.04380v1 [cs.CV])
+    Dual Intents Graph Modeling for User-centric Group Discovery. (arXiv:2308.05013v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.04380](http://arxiv.org/abs/2308.04380)
+    [http://arxiv.org/abs/2308.05013](http://arxiv.org/abs/2308.05013)
 
-    本文提出了一种新颖的False Negative Elimination（FNE）策略，通过抽样选择负样本来减轻图像-文本匹配中由错误负样本引入的问题，提高检索性能。
-
-    
-
-    大多数现有的图像-文本匹配方法采用三元组损失作为优化目标，并选择适当的负样本以有效训练模型，例如，困难负样本能够使模型学习得更高效和有效。然而，我们观察到现有方法主要使用与锚点最相似的样本作为困难负样本，但这些样本可能并不是真正的负样本。换句话说，具有高相似度但没有与锚点配对的样本可能仍具有正面的语义关联，我们称之为错误负样本。在三元组损失中排除这些错误负样本会误导语义表示学习，并导致检索性能下降。本文提出了一种新颖的错误负样本消除（FNE）策略来通过抽样选择负样本，以缓解错误负样本引入的问题。具体而言，我们首先独立构造正样本和负样本的分布...
-
-    Most existing image-text matching methods adopt triplet loss as the optimization objective, and choosing a proper negative sample for the triplet of <anchor, positive, negative> is important for effectively training the model, e.g., hard negatives make the model learn efficiently and effectively. However, we observe that existing methods mainly employ the most similar samples as hard negatives, which may not be true negatives. In other words, the samples with high similarity but not paired with the anchor may reserve positive semantic associations, and we call them false negatives. Repelling these false negatives in triplet loss would mislead the semantic representation learning and result in inferior retrieval performance. In this paper, we propose a novel False Negative Elimination (FNE) strategy to select negatives via sampling, which could alleviate the problem introduced by false negatives. Specifically, we first construct the distributions of positive and negative samples separat
-    
-[^2]: 用Transformer将双流编码器统一起来进行跨模态检索
-
-    Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval. (arXiv:2308.04343v1 [cs.CV])
-
-    [http://arxiv.org/abs/2308.04343](http://arxiv.org/abs/2308.04343)
-
-    本论文提出了一种统一双流编码器架构的跨模态检索方法，使用Transformer进行图像和文本的编码，并通过层次对齐模块实现更好的交互和对齐效果。
+    本文研究了用户参与群组的激励意图，包括社交意图和个人兴趣意图，并提出了双重意图图模型来进行用户中心的群组发现任务。
 
     
 
-    大多数现有的跨模态检索方法使用不同的架构的双流编码器，例如，用于图像的CNN和用于文本的RNN / Transformer。这种架构上的差异可能会导致不同的语义分布空间，并限制图像和文本之间的交互，进而导致图像和文本之间的对齐效果较差。为填补这一研究空白，受Transformer在视觉任务中的最新进展的启发，我们提出使用Transformer统一两种模态的编码器架构，用于跨模态检索。具体而言，我们设计了一个完全基于双流Transformer的跨模态检索框架，称为“Hierarchical Alignment Transformers (HAT)”，其中包括一种图像Transformer、一种文本Transformer和一个层次对齐模块。通过这种相同的架构，编码器可以为图像和文本生成更相似的表示，并实现更好的交互和对齐。
+    在线群组越来越普遍，为用户提供了分享经验和探索兴趣的空间。因此，用户中心的群组发现任务，即向用户推荐群组，可以帮助用户的在线体验和平台的长期发展。现有的推荐方法不能处理这个任务，因为将用户-群组参与建模成一个二部图忽视了他们的项目侧兴趣。虽然有一些作品试图解决这个任务，但仍然不足以完全保留社交上下文并确保有效的兴趣表示学习。本文重点研究激励用户参与群组的意图，这些意图可以分为不同类型，如社交意图和个人兴趣意图。前者指的是用户加入群组受到他们的社交关系的影响，而后者指的是用户与志同道合的人一起加入群组进行自我享受。为了理解这些意图
 
-    Most existing cross-modal retrieval methods employ two-stream encoders with different architectures for images and texts, \textit{e.g.}, CNN for images and RNN/Transformer for texts. Such discrepancy in architectures may induce different semantic distribution spaces and limit the interactions between images and texts, and further result in inferior alignment between images and texts. To fill this research gap, inspired by recent advances of Transformers in vision tasks, we propose to unify the encoder architectures with Transformers for both modalities. Specifically, we design a cross-modal retrieval framework purely based on two-stream Transformers, dubbed \textbf{Hierarchical Alignment Transformers (HAT)}, which consists of an image Transformer, a text Transformer, and a hierarchical alignment module. With such identical architectures, the encoders could produce representations with more similar characteristics for images and texts, and make the interactions and alignments between th
+    Online groups have become increasingly prevalent, providing users with space to share experiences and explore interests. Therefore, user-centric group discovery task, i.e., recommending groups to users can help both users' online experiences and platforms' long-term developments. Existing recommender methods can not deal with this task as modeling user-group participation into a bipartite graph overlooks their item-side interests. Although there exist a few works attempting to address this task, they still fall short in fully preserving the social context and ensuring effective interest representation learning.  In this paper, we focus on exploring the intents that motivate users to participate in groups, which can be categorized into different types, like the social-intent and the personal interest-intent. The former refers to users joining a group affected by their social links, while the latter relates to users joining groups with like-minded people for self-enjoyment. To comprehend
     
-[^3]: 使用PaSST和大规模音频字幕数据集推进基于自然语言的音频检索
+[^2]: LLaMA-E：多方面指导下的电子商务创作增强系统
 
-    Advancing Natural-Language Based Audio Retrieval with PaSST and Large Audio-Caption Data Sets. (arXiv:2308.04258v1 [eess.AS])
+    LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following. (arXiv:2308.04913v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.04258](http://arxiv.org/abs/2308.04258)
+    [http://arxiv.org/abs/2308.04913](http://arxiv.org/abs/2308.04913)
 
-    本研究提出了一个基于预训练转换器的文本到音频检索系统，通过在共享空间中映射音频和文字描述来提高检索性能，其中自注意力的音频编码器和额外的人工生成和合成数据集是关键组件，取得了在DCASE挑战中的第一名，并在ClothoV2基准测试中超过当前最先进方法5.6个百分点。
-
-    
-
-    本研究提出了一种基于预训练文本和频谱图转换器的文本到音频检索系统。我们的方法将录音和文字描述映射到共享的音频字幕空间中，使得不同模态的相关示例靠近。通过系统分析，我们研究了系统的每个组件对检索性能的影响。结果表明，我们确认了两个关键组件在提高性能方面起到了至关重要的作用：基于自注意力的音频编码器用于音频嵌入和利用额外的人工生成和合成数据集进行预训练。我们进一步尝试通过添加可用关键字来增加ClothoV2字幕的多样性，但这只带来了较小的改进。我们的系统在2023年DCASE挑战中名列第一，并且在ClothoV2基准测试中的平均准确率（mAP@10）较当前最先进方法提升了5.6个百分点。
-
-    This work presents a text-to-audio-retrieval system based on pre-trained text and spectrogram transformers. Our method projects recordings and textual descriptions into a shared audio-caption space in which related examples from different modalities are close. Through a systematic analysis, we examine how each component of the system influences retrieval performance. As a result, we identify two key components that play a crucial role in driving performance: the self-attention-based audio encoder for audio embedding and the utilization of additional human-generated and synthetic data sets during pre-training. We further experimented with augmenting ClothoV2 captions with available keywords to increase their variety; however, this only led to marginal improvements. Our system ranked first in the 2023's DCASE Challenge, and it outperforms the current state of the art on the ClothoV2 benchmark by 5.6 pp. mAP@10.
-    
-[^4]: 统一推荐系统：个性化、群组、套餐和套餐到群组的推荐的统一框架
-
-    UniRecSys: A Unified Framework for Personalized, Group, Package, and Package-to-Group Recommendations. (arXiv:2308.04247v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.04247](http://arxiv.org/abs/2308.04247)
-
-    这篇论文提出了一个新的统一推荐框架，可以处理个性化、群组、套餐和套餐到群组推荐这四种任务，填补了当前研究的空白部分。
+    LLaMA-E是一种统一且定制的指导语言模型，旨在解决电子商务创作过程中遇到的各种任务，包括广告生成、查询增强的产品标题改写、产品分类、购买意图推测和常规问答。
 
     
 
-    推荐系统旨在通过为各种产品和服务提供定制推荐来提高用户体验。这些系统帮助用户做出更明智的决策，提高用户对平台的满意度。然而，这些系统的实施在很大程度上取决于上下文，从向用户或群组推荐项目或套餐中都有所不同。这就需要在部署过程中仔细探索多个模型，因为目前没有一个统一的方法来处理不同层面的推荐。此外，这些个体模型必须根据上下文密切调整其生成的推荐结果，以防止其生成的推荐结果产生显著差异。在本文中，我们提出了一种新颖的统一推荐框架，解决了个性化、群组、套餐或套餐到群组推荐四个任务，填补了当前研究中的空白部分。
+    电子商务创作涉及创建吸引人、丰富且有针对性的促销内容，以推动产品销售。大型语言模型（LLM）的出现引入了一种创新的范例，为解决这种情景中的各种创作任务提供了统一的解决方案。然而，基于通用语料库和常识知识训练的主流LLM在适应电子商务产品和客户独特的复杂和个性化特征方面存在局限性。此外，像GPT-3.5这样的LLM需要进行远程访问，引发了在传输过程中保护大量客户隐私数据的担忧。本文提出了LLaMA-E，针对多样化的电子商务创作任务的统一且定制的指导语言模型。具体而言，领域专家从广告生成、查询增强的产品标题改写、产品分类、购买意图推测和常规问答等任务中创建了种子指导集合。这些任务能够...
 
-    Recommender systems aim to enhance the overall user experience by providing tailored recommendations for a variety of products and services. These systems help users make more informed decisions, leading to greater user satisfaction with the platform. However, the implementation of these systems largely depends on the context, which can vary from recommending an item or package to a user or a group. This requires careful exploration of several models during the deployment, as there is no comprehensive and unified approach that deals with recommendations at different levels. Furthermore, these individual models must be closely attuned to their generated recommendations depending on the context to prevent significant variation in their generated recommendations. In this paper, we propose a novel unified recommendation framework that addresses all four recommendation tasks, namely personalized, group, package, or package-to-group recommendation, filling the gap in the current research lan
+    E-commerce authoring involves creating attractive, abundant, and targeted promotional content to drive product sales. The emergence of large language models (LLMs) introduces an innovative paradigm, offering a unified solution to address various authoring tasks within this scenario. However, mainstream LLMs trained on general corpora with common sense knowledge reveal limitations in fitting complex and personalized features unique to e-commerce products and customers. Furthermore, LLMs like GPT-3.5 necessitate remote accessibility, raising concerns about safeguarding voluminous customer privacy data during transmission. This paper proposes the LLaMA-E, the unified and customized instruction-following language models focusing on diverse e-commerce authoring tasks. Specifically, the domain experts create the seed instruction set from the tasks of ads generation, query-enhanced product title rewriting, product classification, purchase intent speculation, and general Q&A. These tasks enabl
     
-[^5]: OpinionConv: 通过基于真实主观体验的观点实现对话式产品搜索
+[^3]: 并行知识增强式多行为推荐框架
+
+    Parallel Knowledge Enhancement based Framework for Multi-behavior Recommendation. (arXiv:2308.04807v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.04807](http://arxiv.org/abs/2308.04807)
+
+    提出了一种并行知识增强框架（PKEF）用于解决多行为推荐中的问题，包括解决融合步骤中数据不平衡问题和减少负面信息传递问题。
+
+    
+
+    多行为推荐算法旨在利用用户和物品之间的多重交互来学习用户的潜在偏好。最近的多行为推荐框架包括两个步骤：融合和预测。在融合步骤中，先进的神经网络被用来建模用户行为之间的层级相关性。在预测步骤中，多个信号被利用以联合优化模型，采用多任务学习（MTL）范式。然而，最近的方法没有解决融合步骤中由于数据分布不平衡而引起的问题，导致学到的关系被高频行为所主导。在预测步骤中，现有方法使用门机制来直接聚合由耦合输入生成的专家信息，导致负面信息传递。为了解决这些问题，我们提出了一种并行知识增强框架（PKEF）用于多行为推荐。
+
+    Multi-behavior recommendation algorithms aim to leverage the multiplex interactions between users and items to learn users' latent preferences. Recent multi-behavior recommendation frameworks contain two steps: fusion and prediction. In the fusion step, advanced neural networks are used to model the hierarchical correlations between user behaviors. In the prediction step, multiple signals are utilized to jointly optimize the model with a multi-task learning (MTL) paradigm. However, recent approaches have not addressed the issue caused by imbalanced data distribution in the fusion step, resulting in the learned relationships being dominated by high-frequency behaviors. In the prediction step, the existing methods use a gate mechanism to directly aggregate expert information generated by coupling input, leading to negative information transfer. To tackle these issues, we propose a Parallel Knowledge Enhancement Framework (PKEF) for multi-behavior recommendation. Specifically, we enhance 
+    
+[^4]: DiVa：一种从用户评论中收集更多多样且有效的音乐标签的迭代框架
+
+    DiVa: An Iterative Framework to Harvest More Diverse and Valid Labels from User Comments for Music. (arXiv:2308.04805v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.04805](http://arxiv.org/abs/2308.04805)
+
+    DiVa是一个迭代框架，通过从用户评论中收集更多多样且有效的标签，使分类器能够为歌曲形成完整的标签集，并且在实验证明了其优越性。
+
+    
+
+    为了实现充分的音乐搜索，形成每首歌曲的完整标签集是至关重要的。然而，当前的解决方案无法解决这个问题，因为它们不能产生足够多样化的映射来弥补黄金标签所遗漏的信息。基于这样的观察，这些遗漏的信息可能已经在用户评论中提供，我们提出在一个重要但未被充分探索的场景中研究自动音乐标注，即在给定有限黄金标签的情况下，模型需要从用户评论中收集更多多样且有效的标签。为此，我们设计了一个迭代框架（DiVa），通过从预训练分类器中推断出的伪标签和一种新颖的联合得分函数，使分类器能够为歌曲形成完整的标签集。对一个密集注释的测试集上的实验证明了DiVa相对于最先进的技术的优越性。
+
+    Towards sufficient music searching, it is vital to form a complete set of labels for each song. However, current solutions fail to resolve it as they cannot produce diverse enough mappings to make up for the information missed by the gold labels. Based on the observation that such missing information may already be presented in user comments, we propose to study the automated music labeling in an essential but under-explored setting, where the model is required to harvest more diverse and valid labels from the users' comments given limited gold labels. To this end, we design an iterative framework (DiVa) to harvest more $\underline{\text{Di}}$verse and $\underline{\text{Va}}$lid labels from user comments for music. The framework makes a classifier able to form complete sets of labels for songs via pseudo-labels inferred from pre-trained classifiers and a novel joint score function. The experiment on a densely annotated testing set reveals the superiority of the Diva over state-of-the-a
+    
+[^5]: 有效的转化率预测的整体空间级联延迟反馈建模
+
+    Entire Space Cascade Delayed Feedback Modeling for Effective Conversion Rate Prediction. (arXiv:2308.04768v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.04768](http://arxiv.org/abs/2308.04768)
+
+    本文提出了一种整体空间级联延迟反馈建模方法来解决有效转化率预测问题，该方法能够处理转化后退款率预测中的数据稀疏性和样本选择偏差，并利用级联延迟反馈的信息提高模型训练的数据新鲜度。
+
+    
+
+    转化率预测是大规模电子商务平台的重要任务。然而，在在线购物系统中，经常发生转化后的退款行为，这促使我们关注于构建更健康的购物服务的有效转化率。本文将没有任何后续退款的物品购买的概率定义为有效转化率。有效转化率预测的简单范式是将其分解为两个子任务：转化率预测和转化后退款率预测。然而，转化后退款率预测存在数据稀疏性和样本选择偏差问题，因为退款行为只有在用户购买后才可见。此外，转化和退款事件中存在延迟反馈，它们是顺序依赖的，被称为级联延迟反馈，这对模型训练的数据新鲜度造成了很大的伤害。先前的研究主要集中于解决数据稀疏性、样本选择偏差或延迟反馈的问题。
+
+    Conversion rate (CVR) prediction is an essential task for large-scale e-commerce platforms. However, refund behaviors frequently occur after conversion in online shopping systems, which drives us to pay attention to effective conversion for building healthier shopping services. This paper defines the probability of item purchasing without any subsequent refund as an effective conversion rate (ECVR). A simple paradigm for ECVR prediction is to decompose it into two sub-tasks: CVR prediction and post-conversion refund rate (RFR) prediction. However, RFR prediction suffers from data sparsity (DS) and sample selection bias (SSB) issues, as the refund behaviors are only available after user purchase. Furthermore, there is delayed feedback in both conversion and refund events and they are sequentially dependent, named cascade delayed feedback (CDF), which significantly harms data freshness for model training. Previous studies mainly focus on tackling DS and SSB or delayed feedback for a sing
+    
+[^6]: 为新的领域构建可解释和可靠的开放信息检索器
+
+    Building Interpretable and Reliable Open Information Retriever for New Domains Overnight. (arXiv:2308.04756v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.04756](http://arxiv.org/abs/2308.04756)
+
+    本论文提出了一种信息检索流程，通过使用实体/事件链接模型和查询分解模型，更准确地聚焦于查询的不同信息单元。这种流程在段落覆盖和命名准确性方面显著改进，同时也更具解释性和可靠性。
+
+    
+
+    信息检索（IR）或知识检索是许多下游任务（如开放领域问答）的关键组成部分。然而，它面临许多挑战，因为它需要简洁性、完整性和正确性。最近的研究中，通过使用稠密向量表示查询和知识段落，并学习词汇和语义相似性，稠密检索模型在领域内IR和QA基准上取得了最先进的性能。然而，使用单一的稠密向量和端到端监督并不总是最优的，因为查询可能需要注意多个方面和隐含的知识。在这项工作中，我们提出了一种信息检索流程，利用实体/事件链接模型和查询分解模型，更准确地聚焦于查询的不同信息单元。我们证明，尽管更具解释性和可靠性，我们提出的流程在段落覆盖和命名准确性方面都有显著改进。
+
+    Information retrieval (IR) or knowledge retrieval, is a critical component for many down-stream tasks such as open-domain question answering (QA). It is also very challenging, as it requires succinctness, completeness, and correctness. In recent works, dense retrieval models have achieved state-of-the-art (SOTA) performance on in-domain IR and QA benchmarks by representing queries and knowledge passages with dense vectors and learning the lexical and semantic similarity. However, using single dense vectors and end-to-end supervision are not always optimal because queries may require attention to multiple aspects and event implicit knowledge. In this work, we propose an information retrieval pipeline that uses entity/event linking model and query decomposition model to focus more accurately on different information units of the query. We show that, while being more interpretable and reliable, our proposed pipeline significantly improves passage coverages and denotation accuracies across
+    
+[^7]: 使用Transformer和自蒸馏的自监督学习旋转不变的3D点集特征
+
+    Self-supervised Learning of Rotation-invariant 3D Point Set Features using Transformer and its Self-distillation. (arXiv:2308.04725v1 [cs.CV])
+
+    [http://arxiv.org/abs/2308.04725](http://arxiv.org/abs/2308.04725)
+
+    本文提出了一种使用Transformer和自蒸馏的自监督学习框架，用于从大量无标签的3D点集中获取准确且旋转不变的3D点集特征。
+
+    
+
+    在分析3D点集数据中，3D物体的旋转不变性是一个重要的属性。传统的具有旋转不变性的3D点集深度神经网络通常通过使用有标签的3D点集作为训练样本，通过监督学习获取准确的3D形状特征。然而，由于3D点集数据的快速增长和标注的高成本，需要一个从大量无标签的3D点集中学习旋转不变的3D形状特征的框架。本文提出了一种新颖的自监督学习框架，用于在对象级别获取准确且旋转不变的3D点集特征。我们提出的轻量级深度神经网络架构将输入的3D点集分解为多个全局尺度的区域（称为tokens），这些区域保留了构成3D对象的局部形状的空间布局。我们使用自注意机制来改进tokens，并将它们聚合成每个3D点集的表达性旋转不变特征。我们的深度神经网络通过自蒸馏机制进行有效训练。
+
+    Invariance against rotations of 3D objects is an important property in analyzing 3D point set data. Conventional 3D point set DNNs having rotation invariance typically obtain accurate 3D shape features via supervised learning by using labeled 3D point sets as training samples. However, due to the rapid increase in 3D point set data and the high cost of labeling, a framework to learn rotation-invariant 3D shape features from numerous unlabeled 3D point sets is required. This paper proposes a novel self-supervised learning framework for acquiring accurate and rotation-invariant 3D point set features at object-level. Our proposed lightweight DNN architecture decomposes an input 3D point set into multiple global-scale regions, called tokens, that preserve the spatial layout of partial shapes composing the 3D object. We employ a self-attention mechanism to refine the tokens and aggregate them into an expressive rotation-invariant feature per 3D point set. Our DNN is effectively trained by u
+    
+[^8]: Pareto不变表示学习在多媒体推荐中的应用
+
+    Pareto Invariant Representation Learning for Multimedia Recommendation. (arXiv:2308.04706v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.04706](http://arxiv.org/abs/2308.04706)
+
+    本文介绍了一种名为Pareto Invariant Representation Learning（PaInvRL）的框架，应用于多媒体推荐。该框架通过学习不变表示和变体表示的同时来缓解通用表示引入的错误相关性问题。从IID-OOD多目标优化的角度，PaInvRL减少了错误相关性对用户偏好的影响。
+
+    
+
+    多媒体推荐涉及个性化排序任务，通常使用通用编码器表示多媒体内容。然而，这些通用表示引入了错误的相关性，无法揭示用户的真实偏好。现有的工作尝试通过学习不变表示来缓解这个问题，但忽视了独立同分布（IID）和非分布（OOD）广义化之间的平衡。本文提出了一个名为Pareto Invariant Representation Learning（PaInvRL）的框架，从IID-OOD多目标优化的角度减少了错误相关性的影响，同时学习不变表示（吸引用户注意的内在因素）和变体表示（其他因素）。具体而言，PaInvRL包括三个迭代执行的模块：（i）非同质识别模块，用于识别反映分布转移
+
+    Multimedia recommendation involves personalized ranking tasks, where multimedia content is usually represented using a generic encoder. However, these generic representations introduce spurious correlations that fail to reveal users' true preferences. Existing works attempt to alleviate this problem by learning invariant representations, but overlook the balance between independent and identically distributed (IID) and out-of-distribution (OOD) generalization. In this paper, we propose a framework called Pareto Invariant Representation Learning (PaInvRL) to mitigate the impact of spurious correlations from an IID-OOD multi-objective optimization perspective, by learning invariant representations (intrinsic factors that attract user attention) and variant representations (other factors) simultaneously. Specifically, PaInvRL includes three iteratively executed modules: (i) heterogeneous identification module, which identifies the heterogeneous environments to reflect distributional shift
+    
+[^9]: 评估和优化神经机器翻译在支持代码检索模型中的效果：基于CAT基准的研究
+
+    Evaluating and Optimizing the Effectiveness of Neural Machine Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark. (arXiv:2308.04693v1 [cs.SE])
+
+    [http://arxiv.org/abs/2308.04693](http://arxiv.org/abs/2308.04693)
+
+    本研究评估了神经机器翻译在支持代码检索模型中的效果，并发现NMT在自然语言到代码翻译任务中准确性较低。为了解决这个问题，我们提出了一种针对抽象语法树的定制表示方法ASTTrans Representation。
+
+    
+
+    神经机器翻译（NMT）在软件工程任务中得到广泛应用。NMT在代码检索中的有效性取决于从源语言的令牌序列到目标语言的令牌序列之间的学习能力。虽然NMT在伪代码到代码的翻译中表现良好，但在学习将自然语言查询翻译成新的实际代码文档/实现数据集中的源代码时可能面临挑战。在这项工作中，我们分析了NMT在新的CAT基准中进行自然语言到代码翻译的性能，该基准包括三个经过优化的Java数据集TLCodeSum、CodeSearchNet、Funcom和一个Python数据集PCSD的版本。我们的评估结果显示，NMT在这个任务中的准确性较低，通过CrystalBLEU和Meteor度量所得。为了减轻NMT在学习源代码的复杂表示方面的任务，我们提出了ASTTrans Representation，这是一种针对抽象语法树的定制表示方法。
+
+    Neural Machine Translation (NMT) is widely applied in software engineering tasks. The effectiveness of NMT for code retrieval relies on the ability to learn from the sequence of tokens in the source language to the sequence of tokens in the target language. While NMT performs well in pseudocode-to-code translation, it might have challenges in learning to translate from natural language query to source code in newly curated real-world code documentation/ implementation datasets. In this work, we analyze the performance of NMT in natural language-to-code translation in the newly curated CAT benchmark that includes the optimized versions of three Java datasets TLCodeSum, CodeSearchNet, Funcom, and a Python dataset PCSD. Our evaluation shows that NMT has low accuracy, measured by CrystalBLEU and Meteor metrics in this task. To alleviate the duty of NMT in learning complex representation of source code, we propose ASTTrans Representation, a tailored representation of an Abstract Syntax Tree
+    
+[^10]: 网络爬虫在robot.txt限制下的策略研究
+
+    web crawler strategies for web pages under robot.txt restriction. (arXiv:2308.04689v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.04689](http://arxiv.org/abs/2308.04689)
+
+    本文研究了在robot.txt限制下的网络爬虫策略，讨论了搜索引擎如何确定网页排名以及如何获取数据库中的网页。并介绍了机器人排除协议规则和robot.txt文件的基本格式。
+
+    
+
+    当今，所有人都了解互联网并每天在互联网上工作。本文介绍了为用户输入的关键字进行搜索的搜索引擎。搜索引擎使用不同的搜索算法，为上网者提供方便的结果。上网者选择排名靠前的搜索结果，但是网页的排名是如何由搜索引擎确定的？搜索引擎如何获取数据库中的所有网页？本文给出了所有这些基本问题的答案。本研究论文还讨论了为搜索引擎工作的网络爬虫和网络爬虫的机器人排除协议规则。网站管理员使用robot.txt文件中的不同限制规则指导网络爬虫，本文还提到了一些基本的robot.txt格式。
+
+    In the present time, all know about World Wide Web and work over the Internet daily. In this paper, we introduce the search engines working for keywords that are entered by users to find something. The search engine uses different search algorithms for convenient results for providing to the net surfer. Net surfers go with the top search results but how did the results of web pages get higher ranks over search engines? how the search engine got that all the web pages in the database? This paper gives the answers to all these kinds of basic questions. Web crawlers working for search engines and robot exclusion protocol rules for web crawlers are also addressed in this research paper. Webmaster uses different restriction facts in robot.txt file to instruct web crawler, some basic formats of robot.txt are also mentioned in this paper.
+    
+[^11]: 统一矩阵分解与动态多视图聚类
+
+    Unified Matrix Factorization with Dynamic Multi-view Clustering. (arXiv:2308.04661v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.04661](http://arxiv.org/abs/2308.04661)
+
+    这篇论文提出了一种基于动态多视图聚类的统一矩阵分解方法，对于具有数十亿用户和数万亿项目的推荐系统，可以实现实时应用，并在训练过程中动态丢弃不好的聚类。
+
+    
+
+    矩阵分解(MF)是一种经典的协同过滤算法，用于推荐系统。它将用户-项目交互矩阵分解为低维用户表示矩阵和项目表示矩阵的乘积。在典型的推荐场景中，用户-项目交互模式通常是一个两阶段过程，并且需要对获得的用户和项目表示进行静态聚类分析。然而，上述过程需要大量的时间和计算资源，因此很难应用于具有数十亿用户和数万亿项目的电子商务或物联网环境中。为了解决这个问题，我们提出了一种基于动态多视图聚类(MFDMC)的统一矩阵分解方法，采用端到端的训练范式。具体而言，在每个视图中，用户/项目表示被视为所有聚类的加权投影。每个聚类的表示是可学习的，可以动态丢弃不好的聚类。
+
+    Matrix factorization (MF) is a classical collaborative filtering algorithm for recommender systems. It decomposes the user-item interaction matrix into a product of low-dimensional user representation matrix and item representation matrix. In typical recommendation scenarios, the user-item interaction paradigm is usually a two-stage process and requires static clustering analysis of the obtained user and item representations. The above process, however, is time and computationally intensive, making it difficult to apply in real-time to e-commerce or Internet of Things environments with billions of users and trillions of items. To address this, we propose a unified matrix factorization method based on dynamic multi-view clustering (MFDMC) that employs an end-to-end training paradigm. Specifically, in each view, a user/item representation is regarded as a weighted projection of all clusters. The representation of each cluster is learnable, enabling the dynamic discarding of bad clusters.
+    
+[^12]: RECipe: 多模态菜谱知识图谱适用于多用途推荐系统吗？
+
+    RECipe: Does a Multi-Modal Recipe Knowledge Graph Fit a Multi-Purpose Recommendation System?. (arXiv:2308.04579v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.04579](http://arxiv.org/abs/2308.04579)
+
+    RECipe是一个多用途的菜谱推荐框架，使用多模态知识图谱作为支撑，通过在用户以自然语言查询或提供图像时向用户推荐菜谱，超越传统推荐系统的方法。
+
+    
+
+    在过去的两十年中，推荐系统（RS）已经使用机器学习（ML）的解决方案为商业或在线平台的客户推荐电影、图书和餐厅等物品。然而，相对于这些应用，菜谱推荐尚未得到很多关注。我们介绍了RECipe作为一个多用途的菜谱推荐框架，具有多模态知识图谱（MMKG）的支撑。RECipe的动机是通过在用户以自然语言查询或提供图像时向用户推荐菜谱，超越（深度）神经协同过滤（NCF）。RECipe由3个子系统组成：基于行为的推荐器、基于评论的推荐器和基于图像的推荐器。每个子系统都依赖于图中实体和关系的嵌入表示。我们首先从微软的MPNet模型的微调模型中获取文本实体（例如评论或成分）的（预训练）嵌入表示。
+
+    Over the past two decades, recommendation systems (RSs) have used machine learning (ML) solutions to recommend items, e.g., movies, books, and restaurants, to clients of a business or an online platform. Recipe recommendation, however, has not yet received much attention compared to those applications. We introduce RECipe as a multi-purpose recipe recommendation framework with a multi-modal knowledge graph (MMKG) backbone. The motivation behind RECipe is to go beyond (deep) neural collaborative filtering (NCF) by recommending recipes to users when they query in natural language or by providing an image. RECipe consists of 3 subsystems: (1) behavior-based recommender, (2) review-based recommender, and (3) image-based recommender. Each subsystem relies on the embedding representations of entities and relations in the graph. We first obtain (pre-trained) embedding representations of textual entities, such as reviews or ingredients, from a fine-tuned model of Microsoft's MPNet. We initiali
+    
+[^13]: 我应该和谁合作? 关于NLP学术界与工业界合作的比较研究。
+
+    Who should I Collaborate with? A Comparative Study of Academia and Industry Research Collaboration in NLP. (arXiv:2308.04524v1 [cs.DL])
+
+    [http://arxiv.org/abs/2308.04524](http://arxiv.org/abs/2308.04524)
+
+    本研究调查了学术界和工业界在自然语言处理（NLP）领域的合作对研究的影响。结果显示，学术界和工业界的合作出版物数量有增长趋势，并且这些出版物往往比仅由学术界产生的出版物具有更高的影响力。
+
+    
+
+    我们的研究目标是调查学术界和工业界在自然语言处理（NLP）领域的合作对研究的影响。为了实现这一目标，我们创建了一个从NLP论文中提取机构和引用信息的流程，并将其分为三类：学术界、工业界和混合型（学术界与工业界的合作）。我们的实证分析发现，工业界和学术界-工业界合作出版物的数量呈增长趋势，并且这些类型的出版物与仅在学术界产生的出版物相比，往往具有更高的影响力。
+
+    The goal of our research was to investigate the effects of collaboration between academia and industry on Natural Language Processing (NLP). To do this, we created a pipeline to extract affiliations and citations from NLP papers and divided them into three categories: academia, industry, and hybrid (collaborations between academia and industry). Our empirical analysis found that there is a trend towards an increase in industry and academia-industry collaboration publications and that these types of publications tend to have a higher impact compared to those produced solely within academia.
+    
+[^14]: 德国推特上COVID疫情期间政策偏好的变化
+
+    Changes in Policy Preferences in German Tweets during the COVID Pandemic. (arXiv:2308.04444v1 [cs.CY])
+
+    [http://arxiv.org/abs/2308.04444](http://arxiv.org/abs/2308.04444)
+
+    这项研究提供了一种量化德国推特上COVID疫情期间政策偏好的方法，通过建立细粒度政治偏好的数据集，并使用文本分类模型进行分析，结果显示政治观点在疫情期间有所增加，研究还突出了不同政治类别的变化。
+
+    
+
+    在线社交媒体已成为交流政治观点的重要论坛。针对COVID措施，公民直接在这些平台上表达了自己的政策偏好。在在线社交媒体中量化政治偏好仍然具有挑战性：大量的内容需要可扩展的自动提取政治偏好--然而，由于缺乏数据集，使用当前的机器学习（ML）技术进行细粒度的政治偏好提取是困难的。在这里，我们提供了一个带有细粒度政治偏好注释的推文数据集。使用训练在这个数据上的文本分类模型，我们提取了从2019年到2022年的德国Twitter语料库中的政策偏好。我们的结果表明，对于COVID疫情，政治观点的表达增加了。我们使用一个成熟的政策偏好分类法分析了细粒度的政治观点，并突出了不同政治类别的变化。
+
+    Online social media have become an important forum for exchanging political opinions. In response to COVID measures citizens expressed their policy preferences directly on these platforms. Quantifying political preferences in online social media remains challenging: The vast amount of content requires scalable automated extraction of political preferences -- however fine grained political preference extraction is difficult with current machine learning (ML) technology, due to the lack of data sets. Here we present a novel data set of tweets with fine grained political preference annotations. A text classification model trained on this data is used to extract policy preferences in a German Twitter corpus ranging from 2019 to 2022. Our results indicate that in response to the COVID pandemic, expression of political opinions increased. Using a well established taxonomy of policy preferences we analyse fine grained political views and highlight changes in distinct political categories. The
+    
+[^15]: OpinionConv: 通过基于真实主观体验的观点实现对话式产品搜索
 
     OpinionConv: Conversational Product Search with Grounded Opinions. (arXiv:2308.04226v1 [cs.HC])
 
@@ -94,105 +233,7 @@
 
     When searching for products, the opinions of others play an important role in making informed decisions. Subjective experiences about a product can be a valuable source of information. This is also true in sales conversations, where a customer and a sales assistant exchange facts and opinions about products. However, training an AI for such conversations is complicated by the fact that language models do not possess authentic opinions for their lack of real-world experience. We address this problem by leveraging product reviews as a rich source of product opinions to ground conversational AI in true subjective narratives. With OpinionConv, we develop the first conversational AI for simulating sales conversations. To validate the generated conversations, we conduct several user studies showing that the generated opinions are perceived as realistic. Our assessors also confirm the importance of opinions as an informative basis for decision-making.
     
-[^6]: 理解和建模短视频顺序推荐中的被动负反馈
-
-    Understanding and Modeling Passive-Negative Feedback for Short-video Sequential Recommendation. (arXiv:2308.04086v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.04086](http://arxiv.org/abs/2308.04086)
-
-    这篇论文研究了短视频平台中的顺序推荐任务，传统推荐系统主要考虑用户的正反馈行为，但在这个新场景中，用户通过跳过不喜欢的视频表达被动负反馈，这种被动负反馈可以反映用户的兴趣并用于提取用户偏好。
-
-    
-
-    顺序推荐是推荐系统中最重要的任务之一，其目标是根据历史行为推荐下一个交互项。传统的顺序推荐主要考虑了诸如点击、购买等收集到的正反馈。然而，在TikTok等短视频平台上，视频浏览行为并不总是代表正反馈。具体来说，这些视频是自动播放的，用户被动地接收推荐的视频。在这种新场景下，用户通过跳过他们不喜欢的视频来表达被动负反馈，这提供了有关他们喜好的有价值的信息。与传统推荐系统中研究的负反馈不同，这种被动负反馈可以反映用户的兴趣，并作为抽取用户偏好的重要监督信号。因此，在这一全新的推荐场景中，仔细设计和利用被动负反馈至关重要。
-
-    Sequential recommendation is one of the most important tasks in recommender systems, which aims to recommend the next interacted item with historical behaviors as input. Traditional sequential recommendation always mainly considers the collected positive feedback such as click, purchase, etc. However, in short-video platforms such as TikTok, video viewing behavior may not always represent positive feedback. Specifically, the videos are played automatically, and users passively receive the recommended videos. In this new scenario, users passively express negative feedback by skipping over videos they do not like, which provides valuable information about their preferences. Different from the negative feedback studied in traditional recommender systems, this passive-negative feedback can reflect users' interests and serve as an important supervision signal in extracting users' preferences. Therefore, it is essential to carefully design and utilize it in this novel recommendation scenario
-    
-[^7]: 在线蒸馏增强的多模态变压器用于顺序推荐
-
-    Online Distillation-enhanced Multi-modal Transformer for Sequential Recommendation. (arXiv:2308.04067v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.04067](http://arxiv.org/abs/2308.04067)
-
-    本文研究了多模态顺序推荐中物品表示学习对推荐任务的影响以及不同阶段信息融合的差异，并提出了一个适合协同学习和融合多样信息的新的模型不可知的框架。
-
-    
-
-    多模态推荐系统在近年来受到广泛关注, 它整合了各种类型的信息。然而,与传统的基于协同过滤的多模态推荐系统相比, 多模态顺序推荐的研究仍处于初级阶段。不同于仅依赖于物品标识符（ID）信息并关注网络结构设计的传统顺序推荐模型, 多模态推荐模型需要强调物品表示学习和异构数据源的融合。本文研究了物品表示学习对下游推荐任务的影响, 并检验了不同阶段信息融合的差异。通过实证实验, 我们证明了需要设计一个适合协同学习和融合多样信息的框架。基于此, 我们提出了一个新的模型不可知的框架用于多模态顺序推荐。
-
-    Multi-modal recommendation systems, which integrate diverse types of information, have gained widespread attention in recent years. However, compared to traditional collaborative filtering-based multi-modal recommendation systems, research on multi-modal sequential recommendation is still in its nascent stages. Unlike traditional sequential recommendation models that solely rely on item identifier (ID) information and focus on network structure design, multi-modal recommendation models need to emphasize item representation learning and the fusion of heterogeneous data sources. This paper investigates the impact of item representation learning on downstream recommendation tasks and examines the disparities in information fusion at different stages. Empirical experiments are conducted to demonstrate the need to design a framework suitable for collaborative learning and fusion of diverse information. Based on this, we propose a new model-agnostic framework for multi-modal sequential recom
-    
-[^8]: 适应无线通信规范信息综合的基础模型
-
-    Adapting Foundation Models for Information Synthesis of Wireless Communication Specifications. (arXiv:2308.04033v1 [cs.NI])
-
-    [http://arxiv.org/abs/2308.04033](http://arxiv.org/abs/2308.04033)
-
-    本文介绍了NextGen Communications Copilot，这是一个用于无线通信规范信息综合的对话式人工智能工具。它采用基础模型，并引入了领域特定的数据库、上下文提取器和反馈机制，能够提供准确且相关的上下文信息，并结合专家反馈和数据贡献工具。在基准数据集的评估中，该系统展示了更多的优势。
-
-    
-
-    理解、开发和研究现代无线通信技术的现有方法涉及耗时且繁琐的过程，需要筛选大量的网页和技术规范文件，收集所需信息并进行综合。本文提出了NextGen Communications Copilot，这是一个用于无线通信规范信息综合的对话式人工智能工具。该系统基于最新的基础模型进展，并包括三个关键的附加组件：一个领域特定的数据库，一个上下文提取器和一个反馈机制。该系统可以从无线技术规范数据库中提取简洁的、与查询相关的上下文信息，并结合专家反馈和数据贡献工具。在使用由专家创建的查询和参考响应的基准数据集进行评估时，该系统展示了更多的优势。
-
-    Existing approaches to understanding, developing and researching modern wireless communication technologies involves time-intensive and arduous process of sifting through numerous webpages and technical specification documents, gathering the required information and synthesizing it. This paper presents NextGen Communications Copilot, a conversational artificial intelligence tool for information synthesis of wireless communication specifications. The system builds on top of recent advancements in foundation models and consists of three key additional components: a domain-specific database, a context extractor, and a feedback mechanism. The system appends user queries with concise and query-dependent contextual information extracted from a database of wireless technical specifications and incorporates tools for expert feedback and data contributions. On evaluation using a benchmark dataset of queries and reference responses created by subject matter experts, the system demonstrated more 
-    
-[^9]: 生物医学问题回答的Top K相关段落检索
-
-    Top K Relevant Passage Retrieval for Biomedical Question Answering. (arXiv:2308.04028v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.04028](http://arxiv.org/abs/2308.04028)
-
-    这篇论文提出了一种用于生物医学问题回答的Top K相关段落检索方法，传统的稀疏向量空间模型不适用于这个任务。然而，对于临床领域来说，这个问题还没有得到很好的解决。
-
-    
-
-    问答是一项利用大量文档回答事实性问题的任务。它旨在以自然语言回答用户的问题并提供准确的答案。问答依赖于高效的段落检索来选择候选上下文，传统的稀疏向量空间模型，如TF-IDF或BM25，是事实上的方法。在网络上，没有一篇文章可以提供所有可能的答案，以回答用户所提出的问题。现有的稠密段落检索模型已经对维基百科2018年12月20日的倾销进行了训练，用作回答问题的源文档。问答系统在多个开放领域和机器理解系统上取得了重大进展，使用了大规模的注释数据集。然而，在临床领域，这个问题仍然相对未被探索。根据多项调查，无法从维基百科准确回答生物医学问题。
-
-    Question answering is a task that answers factoid questions using a large collection of documents. It aims to provide precise answers in response to the user's questions in natural language. Question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. On the web, there is no single article that could provide all the possible answers available on the internet to the question of the problem asked by the user. The existing Dense Passage Retrieval model has been trained on Wikipedia dump from Dec. 20, 2018, as the source documents for answering questions. Question answering (QA) has made big strides with several open-domain and machine comprehension systems built using large-scale annotated datasets. However, in the clinical domain, this problem remains relatively unexplored. According to multiple surveys, Biomedical Questions cannot be answered correctly from Wikipedia 
-    
-[^10]: 探索在线美食推荐服务的时空特征
-
-    Exploring the Spatiotemporal Features of Online Food Recommendation Service. (arXiv:2308.04019v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.04019](http://arxiv.org/abs/2308.04019)
-
-    本文研究了在线美食推荐服务（OFRS）的时空特征，通过实验分析提取了最有价值的特征，并设计了一种有效的组合方法。同时，分析了时空序列，并提出了一种更优化的时空建模方法。
-
-    
-
-    在线美食推荐服务（OFRS）具有显著的时空特征，并且具有在及时满足用户需求方面的便利优势。已经进行了许多研究来探索其时空属性，但对OFRS的时空特征进行全面深入的分析尚未进行。因此，本文基于三个问题研究了OFRS：时空特征如何发挥作用；为什么不能使用自注意力来建模OFRS的时空序列；如何结合时空特征以提高OFRS的效率。首先，通过实验分析，我们系统地提取了OFRS的时空特征，确定了最有价值的特征并设计了一种有效的组合方法。其次，我们进行了对时空序列的详细分析，揭示了自注意力在OFRS中的不足之处，并提出了一种更优化的时空建模方法。
-
-    Online Food Recommendation Service (OFRS) has remarkable spatiotemporal characteristics and the advantage of being able to conveniently satisfy users' needs in a timely manner. There have been a variety of studies that have begun to explore its spatiotemporal properties, but a comprehensive and in-depth analysis of the OFRS spatiotemporal features is yet to be conducted. Therefore, this paper studies the OFRS based on three questions: how spatiotemporal features play a role; why self-attention cannot be used to model the spatiotemporal sequences of OFRS; and how to combine spatiotemporal features to improve the efficiency of OFRS. Firstly, through experimental analysis, we systemically extracted the spatiotemporal features of OFRS, identified the most valuable features and designed an effective combination method. Secondly, we conducted a detailed analysis of the spatiotemporal sequences, which revealed the shortcomings of self-attention in OFRS, and proposed a more optimized spatiotem
-    
-[^11]: 多粒度注意力模型用于群组推荐
-
-    Multi-Granularity Attention Model for Group Recommendation. (arXiv:2308.04017v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.04017](http://arxiv.org/abs/2308.04017)
-
-    多粒度注意力模型为群组推荐提供了一种新方法，通过利用多个粒度层次来揭示群组成员的潜在偏好并减少推荐噪声。
-
-    
-
-    群组推荐是基于共同兴趣、偏好和特征为一组用户提供个性化推荐的方法。目前的研究已经探索了不同的方法，用于整合个人偏好并做出有利于整个群组的集体决策。然而，大部分方法过于依赖行为丰富的用户，忽视了行为相对稀疏的用户的潜在偏好，导致个人兴趣的学习不足。为了解决这个问题，我们提出了多粒度注意力模型（MGAM），这是一种利用多个粒度层次（即子集、群组和超集）来揭示群组成员潜在偏好和减少推荐噪声的新方法。特别地，我们提出了一个子集偏好提取模块，通过整合用户与物品的交互信息和使用层次化机制，增强了用户潜在的子集级别偏好的表示。
-
-    Group recommendation provides personalized recommendations to a group of users based on their shared interests, preferences, and characteristics. Current studies have explored different methods for integrating individual preferences and making collective decisions that benefit the group as a whole. However, most of them heavily rely on users with rich behavior and ignore latent preferences of users with relatively sparse behavior, leading to insufficient learning of individual interests. To address this challenge, we present the Multi-Granularity Attention Model (MGAM), a novel approach that utilizes multiple levels of granularity (i.e., subsets, groups, and supersets) to uncover group members' latent preferences and mitigate recommendation noise. Specially, we propose a Subset Preference Extraction module that enhances the representation of users' latent subset-level preferences by incorporating their previous interactions with items and utilizing a hierarchical mechanism. Additionall
-    
-[^12]: 电子商务查询的语义等价性
-
-    Semantic Equivalence of e-Commerce Queries. (arXiv:2308.03869v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.03869](http://arxiv.org/abs/2308.03869)
-
-    本文介绍了一种识别和利用电子商务查询等价性的框架，以提升搜索者和商业结果。该框架解决了将查询映射为搜索意图向量表示、识别等价或相似意图的最近邻查询以及优化用户或商业目标等三个关键问题。通过表面相似性和行为相似性来确定查询的等价性。
-
-    
-
-    电子商务搜索中，查询变化会带来挑战，因为相同的搜索意图可以通过具有表层差异的不同查询来表达。本文介绍了一个框架来识别和利用查询等价性以提升搜索者和商业结果。所提出的方法解决了三个关键问题：将查询映射到搜索意图的向量表示，识别表达等价或相似意图的最近邻查询，以及优化用户或商业目标。该框架利用表面相似性和行为相似性来确定查询的等价性。表面相似性涉及基于词的变形、词序、复合和噪声词来规范化查询。行为相似性利用历史搜索行为生成查询意图的向量表示。离线过程用于训练句子相似性模型，而在线最近邻方法支持对未见查询的处理。
-
-    Search query variation poses a challenge in e-commerce search, as equivalent search intents can be expressed through different queries with surface-level differences. This paper introduces a framework to recognize and leverage query equivalence to enhance searcher and business outcomes. The proposed approach addresses three key problems: mapping queries to vector representations of search intent, identifying nearest neighbor queries expressing equivalent or similar intent, and optimizing for user or business objectives. The framework utilizes both surface similarity and behavioral similarity to determine query equivalence. Surface similarity involves canonicalizing queries based on word inflection, word order, compounding, and noise words. Behavioral similarity leverages historical search behavior to generate vector representations of query intent. An offline process is used to train a sentence similarity model, while an online nearest neighbor approach supports processing of unseen qu
-    
-[^13]: 移动供应：推荐系统的最后一块拼图
+[^16]: 移动供应：推荐系统的最后一块拼图
 
     Mobile Supply: The Last Piece of Jigsaw of Recommender System. (arXiv:2308.03855v1 [cs.IR])
 
@@ -206,77 +247,21 @@
 
     Recommendation system is a fundamental functionality of online platforms. With the development of computing power of mobile phones, some researchers have deployed recommendation algorithms on users' devices to solve the problems of data transmission delay and pagination mechanism. However, the existing edge-side mobile rankings cannot completely solve the problem of pagination mechanism. The mobile rankings can only sort the items on the current page, so it will not work if it is called once or twice. Besides, after the user has viewed the items of interest to the user on the current page, the user refresh to get a new page of items. This will make the mobile ranking model do a lot of useless work and affect the user's immersive experience. In order to solve the pagination mechanism problem, we propose a completely new module in the pipeline of recommender named Mobile Supply. The pipeline of recommender system is extended to "retrival->pre-ranking->ranking->re-ranking->Mobile Supply->
     
-[^14]: 使用JinaAI构建音乐行业的搜索引擎和推荐系统
+[^17]: 用于具有大动作空间的离策略评估的双重稳健估计器
 
-    Search Engine and Recommendation System for the Music Industry built with JinaAI. (arXiv:2308.03842v1 [cs.LG])
+    Doubly Robust Estimator for Off-Policy Evaluation with Large Action Spaces. (arXiv:2308.03443v1 [stat.ML])
 
-    [http://arxiv.org/abs/2308.03842](http://arxiv.org/abs/2308.03842)
+    [http://arxiv.org/abs/2308.03443](http://arxiv.org/abs/2308.03443)
 
-    该论文介绍了使用JinaAI构建音乐行业的搜索引擎和推荐系统的研究，通过匹配歌曲歌词和提供准确的搜索结果来解决现有搜索引擎的问题。
-
-    
-
-    关于音乐行业中搜索引擎和基于推荐的系统的发展是一个最引人注目的辩论之一。研究表明，在搜索引擎领域存在着严重的抑郁，这是由于诸如速度、准确性以及查询数据的格式等令人担忧的因素所导致的。人们经常在仅根据标题搜索歌曲时遇到困难，因此提出了一种解决方案，通过单个查询输入完成搜索分析，并与数据库中的歌曲歌词进行匹配。因此，引入前沿技术工具以开发用户友好的搜索引擎至关重要。Jina AI是用于构建神经搜索引擎的MLOps框架，它被用于帮助用户获得准确的结果。Jina AI有效地帮助维护和提升搜索引擎对给定查询的性能质量。通过使用JinaAI构建了一个高效的音乐行业搜索引擎和推荐系统。
-
-    One of the most intriguing debates regarding a novel task is the development of search engines and recommendation-based systems in the music industry. Studies have shown a drastic depression in the search engine fields, due to concerning factors such as speed, accuracy and the format of data given for querying. Often people face difficulty in searching for a song solely based on the title, hence a solution is proposed to complete a search analysis through a single query input and is matched with the lyrics of the songs present in the database. Hence it is essential to incorporate cutting-edge technology tools for developing a user-friendly search engine. Jina AI is an MLOps framework for building neural search engines that are utilized, in order for the user to obtain accurate results. Jina AI effectively helps to maintain and enhance the quality of performance for the search engine for the query given. An effective search engine and a recommendation system for the music industry, buil
-    
-[^15]: 随机算法用于精确测量差分隐私的个性化推荐
-
-    Randomized algorithms for precise measurement of differentially-private, personalized recommendations. (arXiv:2308.03735v2 [cs.CR] UPDATED)
-
-    [http://arxiv.org/abs/2308.03735](http://arxiv.org/abs/2308.03735)
-
-    这项研究提出了一种随机算法，用于精确测量差分隐私的个性化推荐。通过离线实验，该算法在关键指标上与私密的非个性化和非私密的个性化实现进行了比较。
+    本文提出了一种用于具有大动作空间的离策略评估的双重稳健估计器（MDR）。与现有的基准估计器相比，MDR能够在减小方差的同时保持无偏性，从而提高了估计的准确性。实验结果证实了MDR相对于现有估计器的优越性。
 
     
 
-    个性化推荐是当今互联网生态系统的重要组成部分，它帮助艺术家和创作者吸引感兴趣的用户，同时也帮助用户发现新的有趣内容。然而，由于个人数据和数据隐私的历史上粗心对待，许多用户对个性化推荐平台持怀疑态度。现在，依赖于个性化推荐的企业正进入一个新的范例，需要对他们的系统进行改进，以保护隐私。本文提出了一种个性化推荐算法，既可以实现精确测量，又可以保护差分隐私。我们以广告为例应用，并进行离线实验，量化提出的隐私保护算法对用户体验、广告商价值和平台收入等关键指标的影响，与（私密的）非个性化和非私密的个性化实现的极端情况进行对比。
+    本文研究了在具有大动作空间的背景下的离策略评估（OPE）。现有的基准估计器存在严重的偏差和方差折衷问题。参数化方法由于很难确定正确的模型而导致偏差，而重要性加权方法由于方差而产生问题。为了克服这些限制，本文提出了基于判别式的不良行为抑制器（MIPS）来通过对动作的嵌入来减小估计器的方差。为了使估计器更准确，我们提出了MIPS的双重稳健估计器——边际化双重稳健（MDR）估计器。理论分析表明，所提出的估计器在比MIPS更弱的假设下是无偏的，同时保持了对IPS的方差减小，这是MIPS的主要优势。经验实验证实了MDR相对于现有估计器的优越性。
 
-    Personalized recommendations form an important part of today's internet ecosystem, helping artists and creators to reach interested users, and helping users to discover new and engaging content. However, many users today are skeptical of platforms that personalize recommendations, in part due to historically careless treatment of personal data and data privacy. Now, businesses that rely on personalized recommendations are entering a new paradigm, where many of their systems must be overhauled to be privacy-first. In this article, we propose an algorithm for personalized recommendations that facilitates both precise and differentially-private measurement. We consider advertising as an example application, and conduct offline experiments to quantify how the proposed privacy-preserving algorithm affects key metrics related to user experience, advertiser value, and platform revenue compared to the extremes of both (private) non-personalized and non-private, personalized implementations.
+    We study Off-Policy Evaluation (OPE) in contextual bandit settings with large action spaces. The benchmark estimators suffer from severe bias and variance tradeoffs. Parametric approaches suffer from bias due to difficulty specifying the correct model, whereas ones with importance weight suffer from variance. To overcome these limitations, Marginalized Inverse Propensity Scoring (MIPS) was proposed to mitigate the estimator's variance via embeddings of an action. To make the estimator more accurate, we propose the doubly robust estimator of MIPS called the Marginalized Doubly Robust (MDR) estimator. Theoretical analysis shows that the proposed estimator is unbiased under weaker assumptions than MIPS while maintaining variance reduction against IPS, which was the main advantage of MIPS. The empirical experiment verifies the supremacy of MDR against existing estimators.
     
-[^16]: 公共事务领域中文档布局注释：数据库与基准
-
-    Document Layout Annotation: Database and Benchmark in the Domain of Public Affairs. (arXiv:2306.10046v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.10046](http://arxiv.org/abs/2306.10046)
-
-    该研究介绍了一个基于4个基本布局块和4个文本类别的布局标签的数字文档的半自动注释过程，生成了一个用于公共事务领域的DLA新数据库，以帮助自动处理数字文档。
-
-    
-
-    每天都会生成成千上万个数字文档，其中包含对公司、公共组织和公民有用的信息。鉴于手动处理这些文档的不可能性，在某些行业中自动处理这些文档变得越来越必要。然而，这项任务仍然具有挑战性，因为在大多数情况下，仅基于文本的解析是不足以完全理解通过不同重要性的不同组件呈现的信息的。在这方面，文档布局分析（DLA）多年来一直是一个有趣的研究领域，旨在检测和分类文档的基本组件。在这项工作中，我们使用一种程序对数字文档进行半自动注释，包括4个基本布局块和4个文本类别的不同布局标签。我们应用此程序在20四个来自西班牙政府的数据源上收集了一个公共事务领域的DLA新数据库。该数据库包含......
-
-    Every day, thousands of digital documents are generated with useful information for companies, public organizations, and citizens. Given the impossibility of processing them manually, the automatic processing of these documents is becoming increasingly necessary in certain sectors. However, this task remains challenging, since in most cases a text-only based parsing is not enough to fully understand the information presented through different components of varying significance. In this regard, Document Layout Analysis (DLA) has been an interesting research field for many years, which aims to detect and classify the basic components of a document. In this work, we used a procedure to semi-automatically annotate digital documents with different layout labels, including 4 basic layout blocks and 4 text categories. We apply this procedure to collect a novel database for DLA in the public affairs domain, using a set of 24 data sources from the Spanish Administration. The database comprises 
-    
-[^17]: 在Airbnb上学习多样化的排序方法
-
-    Learning To Rank Diversely At Airbnb. (arXiv:2210.07774v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2210.07774](http://arxiv.org/abs/2210.07774)
-
-    这篇论文研究了在Airbnb上学习多样化的排序方法。通过纠正传统排序框架中的假设，提出了一种基于高效神经网络架构的排序策略，以实现更准确的房源匹配，并加入了考虑房源相似性的方法以实现多样化的排序。
-
-    
-
-    Airbnb是一个双边市场，将出租房源的房东与来自全球的潜在客人联系在一起。将基于神经网络的学习排序技术应用到匹配客人与房东的过程中已经取得了显著的改进。这些排序改进是通过一种核心策略驱动的：按照其预计的预订概率对房源进行排序，然后迭代地改进这些预订概率估计的技术。然而，这一策略暗含的一个假设是，搜索结果中的每个房源的预订概率可以独立确定。本文讨论了这个假设的错误，并提供了一个纠正这个假设的理论基础，以及基于该理论的高效神经网络架构。通过显式考虑房源之间的可能相似性并减小它们的方法，实现了多样化排序。
-
-    Airbnb is a two-sided marketplace, bringing together hosts who own listings for rent, with prospective guests from around the globe. Applying neural network-based learning to rank techniques has led to significant improvements in matching guests with hosts. These improvements in ranking were driven by a core strategy: order the listings by their estimated booking probabilities, then iterate on techniques to make these booking probability estimates more and more accurate. Embedded implicitly in this strategy was an assumption that the booking probability of a listing could be determined independently of other listings in search results. In this paper we discuss how this assumption, pervasive throughout the commonly-used learning to rank frameworks, is false. We provide a theoretical foundation correcting this assumption, followed by efficient neural network architectures based on the theory. Explicitly accounting for possible similarities between listings, and reducing them to diversify
-    
-[^18]: PCDF：一种用于赞助搜索广告服务的并行计算分布式框架
-
-    PCDF: A Parallel-Computing Distributed Framework for Sponsored Search Advertising Serving. (arXiv:2206.12893v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2206.12893](http://arxiv.org/abs/2206.12893)
-
-    本研究提出了一个名为PCDF的并行计算分布式框架，用于赞助搜索广告服务。该框架通过将计算分为预处理模块、广告排序模块和重新排序模块，有效降低了推断延迟，同时考虑了有机搜索结果对广告排序的影响。
-
-    
-
-    传统的赞助搜索在线广告系统遵循级联范式，包括检索、预排序和排序。由于在线推断效率的严格要求，很难在排序阶段部署有用但计算密集的模块。此外，目前在行业中使用的排序模型假设用户点击仅依赖于广告本身，这导致排名阶段忽视了有机搜索结果对预测广告的影响。在这项工作中，我们提出了一个新颖的框架PCDF（并行计算分布式框架），允许将计算成本分为三个部分，并将它们与检索阶段并行部署在预处理模块、广告排序模块和重新排序模块中。与经典框架相比，我们的PCDF有效降低了整体推断延迟。整个模块是端到端离线的。
-
-    Traditional online advertising systems for sponsored search follow a cascade paradigm with retrieval, pre-ranking,ranking, respectively. Constrained by strict requirements on online inference efficiency, it tend to be difficult to deploy useful but computationally intensive modules in the ranking stage. Moreover, ranking models currently used in the industry assume the user click only relies on the advertisements itself, which results in the ranking stage overlooking the impact of organic search results on the predicted advertisements (ads). In this work, we propose a novel framework PCDF(Parallel-Computing Distributed Framework), allowing to split the computation cost into three parts and to deploy them in the pre-module in parallel with the retrieval stage, the middle-module for ranking ads, and the post-module for re-ranking ads with external items. Our PCDF effectively reduces the overall inference latency compared with the classic framework. The whole module is end-to-end offline 
-    
-[^19]: CT4Rec: 简单而有效的顺序推荐一致性训练
+[^18]: CT4Rec: 简单而有效的顺序推荐一致性训练
 
     CT4Rec: Simple yet Effective Consistency Training for Sequential Recommendation. (arXiv:2112.06668v2 [cs.IR] UPDATED)
 

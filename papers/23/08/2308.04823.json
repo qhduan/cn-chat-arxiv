@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating the Generation Capabilities of Large Chinese Language Models. (arXiv:2308.04823v1 [cs.CL])",
+    "abstract": "This paper presents CG-Eval, the first comprehensive evaluation of the generation capabilities of large Chinese language models across a wide range of academic disciplines. The models' performance was assessed based on their ability to generate accurate and relevant responses to different types of questions in six disciplines, namely, Science and Engineering, Humanities and Social Sciences, Mathematical Calculations, Medical Practitioner Qualification Examination, Judicial Examination, and Certified Public Accountant Examination. This paper also presents Gscore, a composite index derived from the weighted sum of multiple metrics to measure the quality of model's generation against a reference. The test data and test results can be found at this http URL",
+    "link": "http://arxiv.org/abs/2308.04823",
+    "context": "Title: Evaluating the Generation Capabilities of Large Chinese Language Models. (arXiv:2308.04823v1 [cs.CL])\nAbstract: This paper presents CG-Eval, the first comprehensive evaluation of the generation capabilities of large Chinese language models across a wide range of academic disciplines. The models' performance was assessed based on their ability to generate accurate and relevant responses to different types of questions in six disciplines, namely, Science and Engineering, Humanities and Social Sciences, Mathematical Calculations, Medical Practitioner Qualification Examination, Judicial Examination, and Certified Public Accountant Examination. This paper also presents Gscore, a composite index derived from the weighted sum of multiple metrics to measure the quality of model's generation against a reference. The test data and test results can be found at this http URL",
+    "path": "papers/23/08/2308.04823.json",
+    "total_tokens": 678,
+    "translated_title": "评估大型中文语言模型的生成能力",
+    "translated_abstract": "本文介绍了CG-Eval，这是第一个对大型中文语言模型在多个学科领域生成能力进行全面评估的研究。通过在科学工程、人文社科、数学计算、医师资格考试、司法考试和注册会计师考试六个学科中生成准确和相关的回答，评估了这些模型的性能。本文还提出了Gscore，这是一个由多个度量指标加权求和得到的综合指数，用于衡量模型生成结果与参考答案的质量。测试数据和测试结果可在此http URL找到。",
+    "tldr": "本文首次对大型中文语言模型在多个学科领域的生成能力进行了全面评估，并提出了Gscore作为衡量生成结果质量的综合指数。",
+    "en_tdlr": "This paper presents the first comprehensive evaluation of the generation capabilities of large Chinese language models across multiple academic disciplines and introduces Gscore as a composite index to measure the quality of generated responses."
+}

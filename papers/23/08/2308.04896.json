@@ -1,0 +1,12 @@
+{
+    "title": "Why Data Science Projects Fail. (arXiv:2308.04896v1 [cs.LG])",
+    "abstract": "Data Science is a modern Data Intelligence practice, which is the core of many businesses and helps businesses build smart strategies around to deal with businesses challenges more efficiently. Data Science practice also helps in automating business processes using the algorithm, and it has several other benefits, which also deliver in a non-profitable framework. In regards to data science, three key components primarily influence the effective outcome of a data science project. Those are 1.Availability of Data 2.Algorithm 3.Processing power or infrastructure",
+    "link": "http://arxiv.org/abs/2308.04896",
+    "context": "Title: Why Data Science Projects Fail. (arXiv:2308.04896v1 [cs.LG])\nAbstract: Data Science is a modern Data Intelligence practice, which is the core of many businesses and helps businesses build smart strategies around to deal with businesses challenges more efficiently. Data Science practice also helps in automating business processes using the algorithm, and it has several other benefits, which also deliver in a non-profitable framework. In regards to data science, three key components primarily influence the effective outcome of a data science project. Those are 1.Availability of Data 2.Algorithm 3.Processing power or infrastructure",
+    "path": "papers/23/08/2308.04896.json",
+    "total_tokens": 619,
+    "translated_title": "为何数据科学项目失败。",
+    "translated_abstract": "数据科学是一种现代数据智能实践，是许多企业的核心，帮助企业更高效地解决业务挑战并建立智能战略。数据科学实践还可以使用算法自动化业务流程，并具有许多其他非盈利框架中的优势。就数据科学而言，影响数据科学项目有效结果的三个主要因素是：1. 数据的可用性，2. 算法，3. 计算能力或基础设施。",
+    "tldr": "数据科学是一种现代数据智能实践，对于企业来说非常重要，但是数据科学项目失败的原因主要在于数据的可用性、算法和计算能力或基础设施等方面。",
+    "en_tdlr": "Data science is a modern data intelligence practice that is crucial for businesses. However, the failure of data science projects often stems from issues related to data availability, algorithm selection, and computing power or infrastructure."
+}

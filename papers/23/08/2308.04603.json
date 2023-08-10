@@ -1,0 +1,11 @@
+{
+    "title": "Deep Learning based Image Watermarking: A Brief Survey. (arXiv:2308.04603v1 [cs.MM])",
+    "abstract": "The act of secretly embedding and extracting a watermark on a cover image to protect it is known as image watermarking. In recent years, deep learning-based image watermarking techniques have been emerging one after another. To study the state-of-the-art, this survey categorizes cutting-edge deep learning-based image watermarking techniques into Embedder-Extractor Joint Training, Deep Networks as a Feature Transformation, and Hybrid schemes. Research directions in each category are also analyzed and summarized. Additionally, potential future research directions are discussed to envision future studies.",
+    "link": "http://arxiv.org/abs/2308.04603",
+    "context": "Title: Deep Learning based Image Watermarking: A Brief Survey. (arXiv:2308.04603v1 [cs.MM])\nAbstract: The act of secretly embedding and extracting a watermark on a cover image to protect it is known as image watermarking. In recent years, deep learning-based image watermarking techniques have been emerging one after another. To study the state-of-the-art, this survey categorizes cutting-edge deep learning-based image watermarking techniques into Embedder-Extractor Joint Training, Deep Networks as a Feature Transformation, and Hybrid schemes. Research directions in each category are also analyzed and summarized. Additionally, potential future research directions are discussed to envision future studies.",
+    "path": "papers/23/08/2308.04603.json",
+    "total_tokens": 750,
+    "translated_title": "基于深度学习的图像水印技术：简要调查",
+    "translated_abstract": "图像水印是指在一张封面图像中秘密嵌入和提取水印以保护图像的行为。近年来，基于深度学习的图像水印技术层出不穷。为了研究最新的技术，本调查将前沿的基于深度学习的图像水印技术分为嵌入器-提取器联合训练、深度网络作为特征变换和混合方案。还分析和总结了每个类别中的研究方向。此外，还讨论了潜在的未来研究方向，展望未来的研究。",
+    "tldr": "该论文调查了基于深度学习的图像水印技术的最新研究进展，将其分为嵌入器-提取器联合训练、深度网络作为特征变换和混合方案。对每个类别的研究方向进行了分析和总结，并讨论了未来的研究方向。"
+}

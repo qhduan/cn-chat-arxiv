@@ -2,172 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Limited substitutability, relative price changes and the uplifting of public natural capital values.](http://arxiv.org/abs/2308.04400) | 本研究通过全球元分析得出，生态系统服务相对价格每年约为2.2%，用于公共项目评估和环境经济会计中的调整。 |
-| [^2] | [Fine-Tuning Games: Bargaining and Adaptation for General-Purpose Models.](http://arxiv.org/abs/2308.04399) | 本文提出了一个模型，探讨了通用模型的微调过程中的利润分享问题，为一般类的成本和收入函数描述了解决方案的条件。 |
-| [^3] | [Causal Interpretation of Linear Social Interaction Models with Endogenous Networks.](http://arxiv.org/abs/2308.04276) | 本研究研究了在内生网络条件下线性社交互作用模型的因果解释，并提出使用潜在同伴处理作为工具变量，通过两个IV-based估计量实现了溢出效应的因果解释。 |
-| [^4] | [Threshold Regression in Heterogeneous Panel Data with Interactive Fixed Effects.](http://arxiv.org/abs/2308.04057) | 本文介绍了在面板数据阈值回归中引入了单位特定的异质性，并提出了一种新的参数估计方法，该方法可以更快地收敛。对费尔斯坦-宝里奥卡之谜的研究结果表明…… |
-| [^5] | [Constructing High Frequency Economic Indicators by Imputation.](http://arxiv.org/abs/2303.01863) | 该论文提出了一种通过插补方法构建高频经济指标的方法，通过利用已有的低频扩散指数和从高频数据估计的多个因子来插补高频数据，考虑序列相关性的动态过程可以得到更准确的插补值。 |
-| [^6] | [From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets.](http://arxiv.org/abs/2208.01791) | 本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。 |
-| [^7] | [Parallel Trends and Dynamic Choices.](http://arxiv.org/abs/2207.06564) | 本文探讨了治疗效应评估方法DiD的主要识别假设——平行趋势与经济模型动态选择的联系， 阐明了其对代理行为的影响，并指出这些选择动机如何导致对平行趋势的违反，最后提出了适应这些动态选择特征的其他假设与识别结果。 |
-| [^8] | [Causal Inference with Noncompliance and Unknown Interference.](http://arxiv.org/abs/2108.07455) | 该论文提出了一个基于曝光映射的新概念，以解决个体在社交网络中相互作用且可能不遵从治疗方案的情况下的因果推断问题。 |
-| [^9] | [Social contagion and asset prices: Reddit's self-organised bull runs.](http://arxiv.org/abs/2104.01847) | 本文通过分析Reddit的WallStreetBets论坛上的交易者的信念和持仓情况，研究了社交力量如何影响资产价格。研究发现，社交媒体上表达的情绪和过去资产回报影响交易者对资产未来表现的看涨或看跌的情绪，零售交易者的需求受到论坛讨论的影响，特异性投资者情绪的市场影响扩大，并且炒作投资者更容易受到市场泡沫的影响。 |
-| [^10] | [A Quest for Knowledge.](http://arxiv.org/abs/2102.13434) | 这项研究发现，新颖度不一定意味着更大的收益，通过超前研究可以改善知识的演化。 |
-| [^11] | [The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan.](http://arxiv.org/abs/2102.00687) | 本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。 |
+| [^1] | [The Mobilit\"at.Leben Study: a Year-Long Mobility-Tracking Panel.](http://arxiv.org/abs/2308.04973) | Mobilit\"at.Leben研究调查了2022年德国的一个自然实验对出行行为的影响，研究包括两个时期和两个元素，通过问卷调查和基于智能手机的被动航点跟踪，并分享了关于进行大规模面板研究的经验。 |
+| [^2] | [A Guide to Impact Evaluation under Sample Selection and Missing Data: Teacher's Aides and Adolescent Mental Health.](http://arxiv.org/abs/2308.04963) | 本文提供了一个在样本选择和缺失数据下进行冲击评估的指南，并通过对丹麦学校教师助理试验的分析，展示了处理缺失数据对于心理健康影响结论的重要性。 |
+| [^3] | [School Choice with Multiple Priorities.](http://arxiv.org/abs/2308.04780) | 本研究提出了一个具有多个优先级的学校选择模型，引入了一种名为M-fairness的公平性概念，并介绍了一种利用效率调整延迟接受算法的机制，该机制是学生最优M稳定的，改进群体最优M稳定的，并且对改进是有响应的。 |
+| [^4] | [Tropical Analysis: With an Application to Indivisible Goods.](http://arxiv.org/abs/2308.04593) | 该论文建立了单调对应的次梯度定理，介绍了潜力定理和对偶定理，并利用这些结果重新解释和扩展了关于具有不可分割物品的经济需求的表征，还引入了一个简单的测试来验证准线性经济中是否存在Walras均衡。 |
+| [^5] | [Limit Theory under Network Dependence and Nonstationarity.](http://arxiv.org/abs/2308.01418) | 本文研究了时间序列回归模型的极限理论和局部到一致性参数化建模时间序列非平稳性。同时，还探讨了考虑特征值的协方差矩阵和非平稳自回归过程中单位根适度偏差的非渐近理论结果，并提出了非平稳时间序列计量经济学和网络计量经济学中的开放问题。 |
+| [^6] | [Modeling evidential cooperation in large worlds.](http://arxiv.org/abs/2307.04879) | 该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。 |
+| [^7] | [The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland.](http://arxiv.org/abs/2306.12924) | 波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。 |
+| [^8] | [Utilitarian Theorems and Equivalence of Utility Theories.](http://arxiv.org/abs/2304.09973) | 本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。 |
+| [^9] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^10] | [Market Mechanisms for Low-Carbon Electricity Investments: A Game-Theoretical Analysis.](http://arxiv.org/abs/2212.06984) | 本论文研究了激励低碳能源投资的市场机制，并保护消费者免受供应短缺造成的高价影响。研究提出了一种新的市场机制（PIU），通过罚款支付、供应激励和能源价格抬升来减少供应短缺价格的影响。通过建立博弈论框架，证明了在罚款支付和供应激励的情况下存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。 |
+| [^11] | [Formation of trade networks by economies of scale and product differentiation.](http://arxiv.org/abs/2212.02841) | 本文研究了贸易网络的形成，在个体决策的基础上建立了一个新的模型，考虑了比较优势、经济规模效应、个体异质性和运输成本等因素。通过数值模拟和统计力学方法，我们揭示了三种不同的贸易网络结构。 |
+| [^12] | [Agreement and Statistical Efficiency in Bayesian Perception Models.](http://arxiv.org/abs/2205.11561) | 本文研究了贝叶斯感知模型在连通网络上的重复沟通中的渐近行为，发现尽管个体代理人不是经典意义上的效用最大化者，最终他们会达成一致，并且极限后验分布是贝叶斯最优的。 |
 
 # 详细
 
-[^1]: 有限的替代性、相对价格变动与公共自然资本价值的提升
+[^1]: Mobilit\"at.Leben研究：一年的移动追踪面板
 
-    Limited substitutability, relative price changes and the uplifting of public natural capital values. (arXiv:2308.04400v1 [econ.GN])
+    The Mobilit\"at.Leben Study: a Year-Long Mobility-Tracking Panel. (arXiv:2308.04973v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.04400](http://arxiv.org/abs/2308.04400)
+    [http://arxiv.org/abs/2308.04973](http://arxiv.org/abs/2308.04973)
 
-    本研究通过全球元分析得出，生态系统服务相对价格每年约为2.2%，用于公共项目评估和环境经济会计中的调整。
-
-    
-
-    随着全球经济的不断增长，生态系统服务往往停滞或减少。经济学理论已经揭示了如何将这种相对稀缺性的转变反映到公共项目评估和环境经济会计中，但缺乏实证证据来将理论付诸实践。为了估计可用于进行此类调整的生态系统服务相对价格变化，我们对环境价值评估研究进行了全球元分析，以推导出意愿支付收入弹性作为有限替代性程度的代理。基于749个收入-意愿支付对，我们估计意愿支付收入弹性约为0.78（95-CI：0.6至1.0）。将这些结果与生态系统服务相对稀缺性变化的全球数据集结合起来，我们估计生态系统服务相对价格每年约为2.2％。在对非木材林生态系统的自然资本估值中应用了这些结果。
-
-    As the global economy continues to grow, ecosystem services tend to stagnate or degrow. Economic theory has shown how such shifts in relative scarcities can be reflected in the appraisal of public projects and environmental-economic accounting, but empirical evidence has been lacking to put the theory into practice. To estimate the relative price change in ecosystem services that can be used to make such adjustments, we perform a global meta-analysis of environmental valuation studies to derive income elasticities of willingness to pay (WTP) for ecosystem services as a proxy for the degree of limited substitutability. Based on 749 income-WTP pairs, we estimate an income elasticity of WTP of around 0.78 (95-CI: 0.6 to 1.0). Combining these results with a global data set on shifts in the relative scarcity of ecosystem services, we estimate relative price change of ecosystem services of around 2.2 percent per year. In an application to natural capital valuation of non-timber forest ecosys
-    
-[^2]: Fine-Tuning Games: Bargaining and Adaptation for General-Purpose Models
-
-    Fine-Tuning Games: Bargaining and Adaptation for General-Purpose Models. (arXiv:2308.04399v1 [cs.GT])
-
-    [http://arxiv.org/abs/2308.04399](http://arxiv.org/abs/2308.04399)
-
-    本文提出了一个模型，探讨了通用模型的微调过程中的利润分享问题，为一般类的成本和收入函数描述了解决方案的条件。
+    Mobilit\"at.Leben研究调查了2022年德国的一个自然实验对出行行为的影响，研究包括两个时期和两个元素，通过问卷调查和基于智能手机的被动航点跟踪，并分享了关于进行大规模面板研究的经验。
 
     
 
-    机器学习（ML）和人工智能（AI）方面的重大进展越来越多地采用开发和发布通用模型的形式。这些模型旨在由其他企业和机构进行适应，以执行特定的领域专用功能。这个过程被称为适应或微调。本文提供了一个微调过程的模型，其中一位通用专家将技术产品（即ML模型）提升到一定的性能水平，并且一位或多位领域专家将其调整适用于特定领域。这两个实体都是追求利润的，当他们投资于技术时会产生成本，在技术进入市场前，他们必须就如何分享收入达成谈判协议。对于相对一般的成本和收入函数类，我们刻画了微调博弈产生利润分享解决方案的条件。我们观察到，任何潜在的领域专业化都会产生...
+    Mobilit\"at.Leben研究调查了德国一个自然实验对出行行为的影响。为应对2022年的生活成本危机，在2022年6月、7月和8月，引入了两项政策措施，以减少人口出行成本：燃油消费税削减和几乎免费的公共交通，称为9欧票。德国票的继任者，所谓的Deutschlandticket的公告，导致立即决定继续研究。Mobilit\"at.Leben研究有两个时期，9欧票时期和Deutschlandticket时期，包括几个问卷调查和基于智能手机的被动航点跟踪。整个研究持续时间共计十三个月。在本论文中，我们报告了研究设计、招募策略、调查参与情况以及跟踪部分，并分享了我们在进行大规模面板研究方面的经验。总体而言，3080人参加了这项研究。
 
-    Major advances in Machine Learning (ML) and Artificial Intelligence (AI) increasingly take the form of developing and releasing general-purpose models. These models are designed to be adapted by other businesses and agencies to perform a particular, domain-specific function. This process has become known as adaptation or fine-tuning. This paper offers a model of the fine-tuning process where a Generalist brings the technological product (here an ML model) to a certain level of performance, and one or more Domain-specialist(s) adapts it for use in a particular domain. Both entities are profit-seeking and incur costs when they invest in the technology, and they must reach a bargaining agreement on how to share the revenue for the technology to reach the market. For a relatively general class of cost and revenue functions, we characterize the conditions under which the fine-tuning game yields a profit-sharing solution. We observe that any potential domain-specialization will either contri
+    The Mobilit\"at.Leben study investigated travel behavior effects of a natural experiment in Germany. In response to the 2022 cost-of-living crisis, two policy measures to reduce travel costs for the population in June, July, and August 2022 were introduced: a fuel excise tax cut and almost fare-free public transport with the so-called 9-Euro-Ticket. The announcement of a successor ticket to the 9-Euro-Ticket, the so-called Deutschlandticket, led to the immediate decision to continue the study. The Mobilit\"at.Leben study has two periods, the 9-Euro-Ticket period and the Deutschlandticket period, and comprises two elements: several questionnaires and a smartphone-based passive waypoint tracking. The entire duration of the study was almost thirteen months.  In this paper, we report on the study design, the recruitment strategy, the study participation in the survey, and the tracking parts, and we share our experience in conducting such large-scale panel studies. Overall, 3,080 people reg
     
-[^3]: 在内生网络条件下对线性社交互作用模型进行因果解释
+[^2]: 一个在样本选择和缺失数据下的冲击评估指南：教师助理和青少年心理健康
 
-    Causal Interpretation of Linear Social Interaction Models with Endogenous Networks. (arXiv:2308.04276v1 [econ.EM])
+    A Guide to Impact Evaluation under Sample Selection and Missing Data: Teacher's Aides and Adolescent Mental Health. (arXiv:2308.04963v1 [econ.EM])
 
-    [http://arxiv.org/abs/2308.04276](http://arxiv.org/abs/2308.04276)
+    [http://arxiv.org/abs/2308.04963](http://arxiv.org/abs/2308.04963)
 
-    本研究研究了在内生网络条件下线性社交互作用模型的因果解释，并提出使用潜在同伴处理作为工具变量，通过两个IV-based估计量实现了溢出效应的因果解释。
-
-    
-
-    本研究在异质处理效应框架下，研究了在内生网络形成条件下线性社交互作用模型的因果解释。我们考虑了一个实验设置，其中个体被随机分配到处理组，但对网络结构没有干预。我们发现，在估计平均直接处理效应时，忽略网络内生性进行线性回归并没有问题。然而，对于估计平均溢出效应，这种做法会导致样本选择偏误和负权重问题。为了克服这些问题，我们提出使用潜在同伴处理作为工具变量（IV），它自动成为实际溢出暴露的有效IV。利用这个IV，我们研究了两个基于IV的估计量，并证明它们对于溢出效应具有局部平均处理效应类型的因果解释。
-
-    This study investigates the causal interpretation of linear social interaction models in the presence of endogeneity in network formation under a heterogeneous treatment effects framework. We consider an experimental setting in which individuals are randomly assigned to treatments while no interventions are made for the network structure. We show that running a linear regression ignoring network endogeneity is not problematic for estimating the average direct treatment effect. However, it leads to sample selection bias and negative-weights problem for the estimation of the average spillover effect. To overcome these problems, we propose using potential peer treatment as an instrumental variable (IV), which is automatically a valid IV for actual spillover exposure. Using this IV, we examine two IV-based estimands and demonstrate that they have a local average treatment-effect-type causal interpretation for the spillover effect.
-    
-[^4]: 异质面板数据中的阈值回归与交互固定效应
-
-    Threshold Regression in Heterogeneous Panel Data with Interactive Fixed Effects. (arXiv:2308.04057v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.04057](http://arxiv.org/abs/2308.04057)
-
-    本文介绍了在面板数据阈值回归中引入了单位特定的异质性，并提出了一种新的参数估计方法，该方法可以更快地收敛。对费尔斯坦-宝里奥卡之谜的研究结果表明……
+    本文提供了一个在样本选择和缺失数据下进行冲击评估的指南，并通过对丹麦学校教师助理试验的分析，展示了处理缺失数据对于心理健康影响结论的重要性。
 
     
 
-    本文介绍了在面板数据阈值回归中引入了单位特定的异质性。斜率系数和阈值参数都允许因单位而异。异质阈值参数通过单位专有的经验分位数转换来表示，该转换由整个面板数据高效估计得出。在误差项中，面板数据的未观测异质性采用了交互固定效应的一般形式。这种新引入的参数异质性对模型的识别、估计、解释和渐近推断都有重要影响。假设阈值幅度收缩，现在意味着异质性的收缩，使得估计器的收敛速度比以前更快。我们推导了所提出估计器的渐近理论，蒙特卡洛模拟结果表明其在小样本中的有效性。我们应用新模型对费尔斯坦-宝里奥卡之谜进行了研究，发现……
+    本文关注在数据选择性和/或缺失情况下，因果评估问题的辨认、估计和规范化检验。我们利用图形方法文献中的最新进展，提供一个统一的框架来指导实证研究。这种方法整合并与在缺失数据、因果机器学习、面板数据分析等领域中的著名辨认和检验策略相连接。在样本选择模型和受损实验中的辨认和规范化检验背景下，我们展示了其实用性。我们对丹麦学校六年级的大规模集群随机对照教师助理试验进行了新颖的分析。即使有详细的行政数据，处理缺失数据在关于心理健康影响的整体结论中起着至关重要的作用。结果表明，教学助理提供了一种改善内化行为的有效方法。
 
-    This paper introduces unit-specific heterogeneity in panel data threshold regression. Both slope coefficients and threshold parameters are allowed to vary by unit. The heterogeneous threshold parameters manifest via a unit-specific empirical quantile transformation of a common underlying threshold parameter which is estimated efficiently from the whole panel. In the errors, the unobserved heterogeneity of the panel takes the general form of interactive fixed effects. The newly introduced parameter heterogeneity has implications for model identification, estimation, interpretation, and asymptotic inference. The assumption of a shrinking threshold magnitude now implies shrinking heterogeneity and leads to faster estimator rates of convergence than previously encountered. The asymptotic theory for the proposed estimators is derived and Monte Carlo simulations demonstrate its usefulness in small samples. The new model is employed to examine the Feldstein-Horioka puzzle and it is found that
+    This paper is concerned with identification, estimation, and specification testing in causal evaluation problems when data is selective and/or missing. We leverage recent advances in the literature on graphical methods to provide a unifying framework for guiding empirical practice. The approach integrates and connects to prominent identification and testing strategies in the literature on missing data, causal machine learning, panel data analysis, and more. We demonstrate its utility in the context of identification and specification testing in sample selection models and field experiments with attrition. We provide a novel analysis of a large-scale cluster-randomized controlled teacher's aide trial in Danish schools at grade 6. Even with detailed administrative data, the handling of missing data crucially affects broader conclusions about effects on mental health. Results suggest that teaching assistants provide an effective way of improving internalizing behavior for large parts of t
     
-[^5]: 利用插补方法构建高频经济指标
+[^3]: 具有多个优先级的学校选择模型
 
-    Constructing High Frequency Economic Indicators by Imputation. (arXiv:2303.01863v2 [econ.EM] UPDATED)
+    School Choice with Multiple Priorities. (arXiv:2308.04780v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.01863](http://arxiv.org/abs/2303.01863)
+    [http://arxiv.org/abs/2308.04780](http://arxiv.org/abs/2308.04780)
 
-    该论文提出了一种通过插补方法构建高频经济指标的方法，通过利用已有的低频扩散指数和从高频数据估计的多个因子来插补高频数据，考虑序列相关性的动态过程可以得到更准确的插补值。
-
-    
-
-    通常将月度和周度经济指标视为从高频和低频数据中估计出的最大公因子，可以分别或联合使用。为了在不直接建模的情况下融合混合频率的信息，我们针对已有的低频扩散指数，将高频值视为缺失值进行插补。我们使用从高频数据估计出的多个因子来插补这些值。在考虑的实证例子中，不考虑特异误差的序列相关性的静态矩阵完成得到的缺失值估计不精确，而无论因子是如何估计的。考虑序列相关性的单方程和基于系统的动态过程得到的插补值更接近观测到的低频值。这在将消费者情绪指标的月度值插补到1978年之前只有季度数据发布的反事实练习中也适用。
-
-    Monthly and weekly economic indicators are often taken to be the largest common factor estimated from high and low frequency data, either separately or jointly. To incorporate mixed frequency information without directly modeling them, we target a low frequency diffusion index that is already available, and treat high frequency values as missing. We impute these values using multiple factors estimated from the high frequency data. In the empirical examples considered, static matrix completion that does not account for serial correlation in the idiosyncratic errors yields imprecise estimates of the missing values irrespective of how the factors are estimated. Single equation and systems-based dynamic procedures that account for serial correlation yield imputed values that are closer to the observed low frequency ones. This is the case in the counterfactual exercise that imputes the monthly values of consumer sentiment series before 1978 when the data was released only on a quarterly bas
-    
-[^6]: 从工作地到居住地：最低工资政策对当地住房市场的溢出效应
-
-    From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets. (arXiv:2208.01791v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2208.01791](http://arxiv.org/abs/2208.01791)
-
-    本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。
+    本研究提出了一个具有多个优先级的学校选择模型，引入了一种名为M-fairness的公平性概念，并介绍了一种利用效率调整延迟接受算法的机制，该机制是学生最优M稳定的，改进群体最优M稳定的，并且对改进是有响应的。
 
     
 
-    美国最近出现了各州颁布地方最低工资政策，导致城市地区内的最低工资水平出现显著差异。本文通过通勤研究这些政策对当地租房市场的溢出效应。我们根据居民工作地点构建每个邮政编码区域的“工作地”最低工资水平，并用它估计最低工资政策对租金的影响。我们采用了一种新的识别策略，利用了共享“居住地”最低工资水平（即相同地点的最低工资水平）的邮政编码区域之间工作地最低工资变化的细节时机不同。我们的基准结果表明，工作地最低工资水平增加10%会导致居住地邮政编码区域的租金增加0.69%。为了说明通勤模式的重要性，我们使用估计结果和一个简单的模型来模拟联邦和城市虚拟最低工资政策的影响。模拟结果表明，房东每收入1美元，大约会入袋10美分。
+    本研究考虑了一种模型，在这种模型中，学校可能对学生有多个优先级顺序，这些顺序可能相互矛盾。例如，在学校选择系统中，由于兄弟姐妹优先级和步行区域优先级并存，基于它们的优先级顺序可能存在冲突。在这种情况下，可能找不到满足所有优先级顺序的匹配。我们引入了一种名为M-fairness的新颖公平性概念来研究这样的市场。此外，我们重点研究了一种更具体的情况，即所有学校都有两个优先级顺序，并且对于某个学生群体，每所学校的一个优先级顺序是另一优先级顺序的改进。一个说明性例子是具有基于优先级的积极行动政策的学校选择匹配市场。我们引入了一种利用效率调整延迟接受算法的机制，并证明该机制是学生最优M稳定的，改进群体最优M稳定的，并且对改进是有响应的。
 
-    The recent rise of sub-national minimum wage (MW) policies in the US has resulted in significant dispersion of MW levels within urban areas. In this paper, we study the spillover effects of these policies on local rental markets through commuting. To do so, for each USPS ZIP code we construct a "workplace" MW measure based on the location of its resident's jobs, and use it to estimate the effect of MW policies on rents. We use a novel identification strategy that exploits the fine timing of differential changes in the workplace MW across ZIP codes that share the same "residence" MW, defined as the same location's MW. Our baseline results imply that a 10 percent increase in the workplace MW increases rents at residence ZIP codes by 0.69 percent. To illustrate the importance of commuting patterns, we use our estimates and a simple model to simulate the impact of federal and city counterfactual MW policies. The simulations suggest that landlords pocket approximately 10 cents of each dolla
+    This study considers a model where schools may have multiple priority orders on students, which may be inconsistent with each other. For example, in school choice systems, since the sibling priority and the walk zone priority coexist, the priority orders based on them would be conflicting. In that case, there may be no matching that respect to all priority orders. We introduce a novel fairness notion called M-fairness to examine such markets. Further, we focus on a more specific situation where all schools have two priority orders, and for a certain group of students, a priority order of each school is an improvement of the other priority order of the school. An illustrative example is the school choice matching market with a priority-based affirmative action policy. We introduce a mechanism that utilizes the efficiency adjusted deferred acceptance algorithm and show that the mechanism is student optimally M-stable, improved-group optimally M-stable and responsive to improvements.
     
-[^7]: 平行趋势和动态选择
+[^4]: 热带分析：以不可分割物品为应用
 
-    Parallel Trends and Dynamic Choices. (arXiv:2207.06564v2 [econ.EM] UPDATED)
+    Tropical Analysis: With an Application to Indivisible Goods. (arXiv:2308.04593v1 [econ.TH])
 
-    [http://arxiv.org/abs/2207.06564](http://arxiv.org/abs/2207.06564)
+    [http://arxiv.org/abs/2308.04593](http://arxiv.org/abs/2308.04593)
 
-    本文探讨了治疗效应评估方法DiD的主要识别假设——平行趋势与经济模型动态选择的联系， 阐明了其对代理行为的影响，并指出这些选择动机如何导致对平行趋势的违反，最后提出了适应这些动态选择特征的其他假设与识别结果。
-
-    
-
-    Difference-in-differences（DiD）是一种常用的估计治疗效应的方法，平行趋势是其最主要的识别假设：未经处理结果的平均趋势必须与观察到的治疗状态无关。在观察设置中，治疗通常是由理性行为者（如政策制定者、公司或个体行为者）做出或影响的动态选择。本文将平行趋势假设与动态选择的经济模型联系起来，这些模型允许动态选择动机，如学习或最优停止。在这些情况下，我们阐明了平行趋势对代理行为的影响，并展示了这些选择动机如何在简单的环境中导致对平行趋势的违反，即使预期关注被排除在外或未经处理结果的平均值保持不变。最后，我们考虑了一些假设下的识别结果，以适应这些动态选择的特征。
-
-    Difference-in-differences (or DiD) is a commonly used method for estimating treatment effects, and parallel trends is its main identifying assumption: the trend in mean untreated outcomes must be independent of the observed treatment status. In observational settings, treatment is often a dynamic choice made or influenced by rational agents, such as policy-makers, firms, or individual agents. This paper relates the parallel trends assumption to economic models of dynamic choice, which allow for dynamic selection motives such as learning or optimal stopping. In these cases, we clarify the implications of parallel trends on agent behavior, and we show how these selection motives can lead to violations of parallel trends even in simple settings where anticipation concerns are ruled out or when mean untreated outcomes are stationary. Finally, we consider some identification results under alternative assumptions that accommodate these features of dynamic choice.
-    
-[^8]: 非遵从和未知干扰的因果推断
-
-    Causal Inference with Noncompliance and Unknown Interference. (arXiv:2108.07455v3 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2108.07455](http://arxiv.org/abs/2108.07455)
-
-    该论文提出了一个基于曝光映射的新概念，以解决个体在社交网络中相互作用且可能不遵从治疗方案的情况下的因果推断问题。
+    该论文建立了单调对应的次梯度定理，介绍了潜力定理和对偶定理，并利用这些结果重新解释和扩展了关于具有不可分割物品的经济需求的表征，还引入了一个简单的测试来验证准线性经济中是否存在Walras均衡。
 
     
 
-    我们考虑一个因果推断模型，其中个体在社交网络中相互作用，并且可能不遵从被分配的治疗方案。特别地，我们假设网络干扰形式对研究人员是未知的。为了在这种情况下估计有意义的因果参数，我们引入了一个新的曝光映射概念，将潜在复杂的溢出效应总结为固定维度的工具变量统计量。我们研究了意向治疗效应和遵从者的平均治疗效应的识别条件，同时明确考虑到曝光映射错误规定的可能性。基于我们的识别结果，我们通过逆概率加权开发了非参数估计过程。它们的渐近性质，包括一种近似邻域干扰框架下的一致性和渐近正态性。为了一个实证示例，我们将我们的方法应用于实验数据。
+    我们建立了单调对应的次梯度定理 - 如果单调对应等于一个潜力的次梯度，那么它是保守的，即使选择路径上的对应物也无关紧要，其沿闭合路径的积分消失。我们证明了两个相应的结果：潜力定理，其中一个保守的单调对应可以被积分到潜力中，以及对偶定理，其中潜力具有一个 Fenchel 对偶，其次梯度又是另一个保守的单调对应。我们利用这些结果重新解释和扩展了Baldwin和Klemperer（2019年）关于具有不可分割物品的经济需求的表征。我们引入了一个在准线性经济中存在Walras均衡的简单测试。Fenchel的对偶定理表明，当总效用是凹的时，此测试是合适的，即使所有消费者都具有凹的效用，但在具有不可分割物品的情况下不一定成立。
 
-    We consider a causal inference model in which individuals interact in a social network and they may not comply with the assigned treatments. In particular, we suppose that the form of network interference is unknown to researchers. To estimate meaningful causal parameters in this situation, we introduce a new concept of exposure mapping, which summarizes potentially complicated spillover effects into a fixed dimensional statistic of instrumental variables. We investigate identification conditions for the intention-to-treat effects and the average treatment effects for compliers, while explicitly considering the possibility of misspecification of exposure mapping. Based on our identification results, we develop nonparametric estimation procedures via inverse probability weighting. Their asymptotic properties, including consistency and asymptotic normality, are investigated using an approximate neighborhood interference framework. For an empirical illustration, we apply our method to exp
+    We establish the Subgradient Theorem for monotone correspondences -- a monotone correspondence is equal to the subdifferential of a potential if and only if it is conservative, i.e. its integral along a closed path vanishes irrespective of the selection from the correspondence along the path. We prove two attendant results: the Potential Theorem, whereby a conservative monotone correspondence can be integrated up to a potential, and the Duality Theorem, whereby the potential has a Fenchel dual whose subdifferential is another conservative monotone correspondence. We use these results to reinterpret and extend Baldwin and Klemperer's (2019) characterization of demand in economies with indivisible goods. We introduce a simple test for existence of Walrasian equilibrium in quasi-linear economies. Fenchel's Duality Theorem implies this test is met when the aggregate utility is concave, which is not necessarily the case with indivisible goods even if all consumers have concave utilities.
     
-[^9]: 社会传染和资产价格：Reddit的自组织牛市运行
+[^5]: 网络依赖性和非平稳性下的极限理论
 
-    Social contagion and asset prices: Reddit's self-organised bull runs. (arXiv:2104.01847v5 [econ.GN] UPDATED)
+    Limit Theory under Network Dependence and Nonstationarity. (arXiv:2308.01418v1 [econ.EM])
 
-    [http://arxiv.org/abs/2104.01847](http://arxiv.org/abs/2104.01847)
+    [http://arxiv.org/abs/2308.01418](http://arxiv.org/abs/2308.01418)
 
-    本文通过分析Reddit的WallStreetBets论坛上的交易者的信念和持仓情况，研究了社交力量如何影响资产价格。研究发现，社交媒体上表达的情绪和过去资产回报影响交易者对资产未来表现的看涨或看跌的情绪，零售交易者的需求受到论坛讨论的影响，特异性投资者情绪的市场影响扩大，并且炒作投资者更容易受到市场泡沫的影响。
-
-    
-
-    社交媒体中的非结构化文本数据能否帮助解释大型资产价格波动的驱动因素？本文通过使用机器学习工具提取Reddit的WallStreetBets（WSB）论坛上活跃的“炒作”交易者的信念和持仓情况，研究社会力量如何影响资产价格。我们的简化模型显示，同伴效应有助于解释回报可预测性和逆转，以及泡沫动力学。我们经验性地记录下，WSB用户对资产未来表现（看涨或看跌）的情绪部分源于其同伴和过去的资产回报的情绪。本文直接估计了WSB活动对资产价格的影响。我们记录下：零售交易者需求通过使用交易和行情（TAQ）数据跟随WSB讨论，零售交易者言论对价格的可预测性，在线病毒内容引发的特异性投资者情绪的市场影响扩大，以及炒作投资者对市场泡沫的更高曝光度。
-
-    Can unstructured text data from social media help explain the drivers of large asset price fluctuations? This paper investigates how social forces affect asset prices, by using machine learning tools to extract beliefs and positions of `hype' traders active on Reddit's WallStreetBets (WSB) forum. Our stylized model shows that peer effects help explain return predictability and reversals, as well as bubble dynamics. We empirically document that sentiments expressed by WSB users about assets' future performances (bullish or bearish) are in part due to sentiments of their peers and past asset returns. The paper directly estimates the effect of WSB activity on asset prices. We document: that retail trader demand follows WSB discussions through using Trade and Quote (TAQ) data, the predictability of prices from retail trader discourse, the amplified market impact of idiosyncratic investor sentiment from viral content online, and the greater exposure of hype investors to bubbles in the marke
-    
-[^10]: 知识探索
-
-    A Quest for Knowledge. (arXiv:2102.13434v7 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2102.13434](http://arxiv.org/abs/2102.13434)
-
-    这项研究发现，新颖度不一定意味着更大的收益，通过超前研究可以改善知识的演化。
+    本文研究了时间序列回归模型的极限理论和局部到一致性参数化建模时间序列非平稳性。同时，还探讨了考虑特征值的协方差矩阵和非平稳自回归过程中单位根适度偏差的非渐近理论结果，并提出了非平稳时间序列计量经济学和网络计量经济学中的开放问题。
 
     
 
-    更多的新颖研究总是让人向往的吗？我们构建了一个模型，其中知识塑造了社会的政策，并指导发现的搜索。研究人员选择一个问题以及对其进行深入研究的程度。问题的新颖性决定了发现答案的价值和难度。我们展示了发现的收益在新颖性上是非单调的。知识在时间上逐步内生地扩展。通过一种动态外部性，超前研究-对比远远超过眼前最优选择的问题进行研究-可以改善知识的演化。超前研究引发了研究周期，随后的研究人员将超前研究与先前的知识相连接。
+    这些讲座笔记是一门关于时间序列计量经济学和网络计量经济学的短期课程的补充资料。我们强调时间序列回归模型的极限理论，以及在建模时间序列非平稳性时使用的局部到一致性参数化方法。此外，我们还介绍了在考虑协方差矩阵的特征值时的适度偏差原则的各种非渐近理论结果，以及非平稳自回归过程中单位根适度偏差的渐近理论。虽然并未涵盖文献中的所有应用，但我们还讨论了非平稳时间序列计量经济学和网络计量经济学中的一些开放问题。
 
-    Is more novel research always desirable? We develop a model in which knowledge shapes society's policies and guides the search for discoveries. Researchers select a question and how intensely to study it. The novelty of a question determines both the value and difficulty of discovering its answer. We show that the benefits of discoveries are nonmonotone in novelty. Knowledge expands endogenously step-by-step over time. Through a dynamic externality, moonshots -- research on questions more novel than what is myopically optimal -- can improve the evolution of knowledge. Moonshots induce research cycles in which subsequent researchers connect the moonshot to previous knowledge.
+    These lecture notes represent supplementary material for a short course on time series econometrics and network econometrics. We give emphasis on limit theory for time series regression models as well as the use of the local-to-unity parametrization when modeling time series nonstationarity. Moreover, we present various non-asymptotic theory results for moderate deviation principles when considering the eigenvalues of covariance matrices as well as asymptotics for unit root moderate deviations in nonstationary autoregressive processes. Although not all applications from the literature are covered we also discuss some open problems in nonstationary time series econometrics and network econometrics.
     
-[^11]: 性别失衡对日本婚姻和生育的影响：以第二次世界大战为例证
+[^6]: 在大规模世界中建模证据合作
 
-    The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan. (arXiv:2102.00687v2 [econ.GN] UPDATED)
+    Modeling evidential cooperation in large worlds. (arXiv:2307.04879v1 [econ.GN])
 
-    [http://arxiv.org/abs/2102.00687](http://arxiv.org/abs/2102.00687)
+    [http://arxiv.org/abs/2307.04879](http://arxiv.org/abs/2307.04879)
 
-    本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。
+    该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。
 
     
 
-    本研究利用第二次世界大战期间男性损失导致性别比例前所未有的变化，来研究性别失衡对日本婚姻市场和生育结果的影响。利用新数字化的基于人口普查的历史统计数据，我们发现男性在婚姻市场和家庭内部的生育决策中比女性具有更强的议价地位。在相对男性稀缺的情况下，尤其是年轻人更有可能结婚和离婚，但是丧偶妇女重新婚姻的可能性比丧偶男性要低。我们还发现，女性在婚姻市场上的议价地位在1950年代可能并没有改善。在战后堕胎法律的制度变化下，相对男性稀缺的地区的婚内生育率和死胎率增加。我们关于非婚生子女的结果表明，在家庭内部议价的理论预测在经济体中是具有稳健性的。
+    大规模世界中的证据合作（ECL）指的是人类和其他代理人可以通过与具有不同价值观的相似代理人在一个大宇宙中的因果断开部分合作而获益。合作为代理人提供了其他相似代理人可能会合作的证据，从而使所有人都从交易中获益。对于利他主义者来说，这可能是一个关键的考虑因素。我将ECL发展为一个不完全信息的谈判问题的博弈论模型。该模型融入了对他人价值观和实证情况的不确定性，并解决了选择妥协结果的问题。使用该模型，我调查了ECL存在的问题，并概述了开放的技术和哲学问题。我展示了所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。然而，我反对通过对效用函数进行归一化来隐式选择妥协结果。我回顾了谈判理论和
 
-    This study uses the unprecedented changes in the sex ratio due to the losses of men during World War II to identify the impacts of the gender imbalance on marriage market and birth outcomes in Japan. Using newly digitized census-based historical statistics, we find evidence that men had a stronger bargaining position in the marriage market and intra-household fertility decisions than women. Under relative male scarcity, while people, especially younger people, were more likely to marry and divorce, widowed women were less likely to remarry than widowed men. We also find that women's bargaining position in the marriage market might not have improved throughout the 1950s. Given the institutional changes in the abortion law after the war, marital fertility and stillbirth rates increased in the areas that suffered relative male scarcity. Our result on out-of-wedlock births indicates that the theoretical prediction of intra-household bargaining is considered to be robust in an economy in wh
+    Evidential cooperation in large worlds (ECL) refers to the idea that humans and other agents can benefit by cooperating with similar agents with differing values in causally disconnected parts of a large universe. Cooperating provides agents with evidence that other similar agents are likely to cooperate too, resulting in gains from trade for all. This could be a crucial consideration for altruists.  I develop a game-theoretic model of ECL as an incomplete information bargaining problem. The model incorporates uncertainty about others' value systems and empirical situations, and addresses the problem of selecting a compromise outcome. Using the model, I investigate issues with ECL and outline open technical and philosophical questions.  I show that all cooperators must maximize the same weighted sum of utility functions to reach a Pareto optimal outcome. However, I argue against selecting a compromise outcome implicitly by normalizing utility functions. I review bargaining theory and a
+    
+[^7]: 孩子对波兰女性和男性的劳动力市场结果的影响
+
+    The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland. (arXiv:2306.12924v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.12924](http://arxiv.org/abs/2306.12924)
+
+    波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。
+
+    
+
+    波兰是欧洲性别薪酬差距最小的国家之一。与此同时，它是一个保守的国家，女性的权利一直在下降。我们认为，在波兰背景下，收入差距比小时工资差距更适合衡量性别劳动力市场结果。我们使用调整为低分辨率的安慰剂事件历史方法和波兰世代和性别调查的两个波次（2010年、2014年）分析了波兰的收入性别差距与育儿状态的关系。与在西欧进行的类似研究相反，我们的分析揭示了女性和男性普遍存在的预期行为。我们展示，在生育后，母亲的收入降低了约20％，但在15年后，与非母亲的收入轨迹趋于一致。相比之下，未来父亲的收入高于非父亲的收入，这表明父亲溢价在孩子到来之前就存在。总的来说，我们的研究揭示了一个保守的国家中性别劳动力市场结果的复杂性。
+
+    Poland records one of the lowest gender wage gaps in Europe. At the same time, it is a socially conservative country where women's rights have been on the decline. We argue that, in the Polish context, the gender gap in income is a more appropriate measure of gendered labour market outcomes than the gap in the hourly wage. We analyse the gender gap in income in Poland in relation to the parenthood status, using the placebo event history method, adjusted to low resolution data, and the two waves of the Polish Generations and Gender Survey (2010, 2014). Contrary to similar studies conducted in Western Europe, our analysis uncovers a large degree of anticipatory behaviour in both women and men who expect to become parents. We show that mothers' income decreases by about 20% after birth, but converges to the income trajectory of non-mothers after 15 years. In contrast, the income of eventual fathers is higher than that of non-fathers both before and after birth, suggesting that the fatherh
+    
+[^8]: 实用主义定理与效用理论的等价性
+
+    Utilitarian Theorems and Equivalence of Utility Theories. (arXiv:2304.09973v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.09973](http://arxiv.org/abs/2304.09973)
+
+    本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。
+
+    
+
+    本文研究了一个环境，在该环境下，Harsanyi提出的NM效用函数的实用主义定理与Harvey提出的Alt效用函数的实用主义定理同时成立，并证明了在这种情况下，NM效用函数与Alt效用函数重合。这一结果具有悖论性，我们必须假定至少一个实用主义定理包含了一个强假设。我们逐一检查各个假设，并得出结论：Harsanyi的公理之一是强假设。
+
+    In this paper, we consider an environment in which the utilitarian theorem for the NM utility function derived by Harsanyi and the utilitarian theorem for Alt's utility function derived by Harvey hold simultaneously, and prove that the NM utility function coincides with Alt's utility function under this setup. This result is so paradoxical that we must presume that at least one of the utilitarian theorems contains a strong assumption. We examine the assumptions one by one and conclude that one of Harsanyi's axioms is strong.
+    
+[^9]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^10]: 低碳电力投资的市场机制：博弈论分析
+
+    Market Mechanisms for Low-Carbon Electricity Investments: A Game-Theoretical Analysis. (arXiv:2212.06984v2 [eess.SY] UPDATED)
+
+    [http://arxiv.org/abs/2212.06984](http://arxiv.org/abs/2212.06984)
+
+    本论文研究了激励低碳能源投资的市场机制，并保护消费者免受供应短缺造成的高价影响。研究提出了一种新的市场机制（PIU），通过罚款支付、供应激励和能源价格抬升来减少供应短缺价格的影响。通过建立博弈论框架，证明了在罚款支付和供应激励的情况下存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。
+
+    
+
+    电力市场正从传统能源资源（如化石燃料）的主导地位转向低碳能源资源（如可再生能源和储能）。本研究研究了激励低碳能源投资的市场机制，同时确保投资者获得足够的市场收入，引导投资者的战略投资达到社会最优，并保护消费者免受供应短缺造成的高价影响。为了减少供应短缺价格的影响，我们提出了一种新的市场机制，包括失掉负荷的罚款支付、供应激励和能源价格抬升（PIU）。我们建立了一个博弈论框架来分析市场均衡。我们证明，在罚款支付和供应激励的情况下，存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。
+
+    Electricity markets are transforming from the dominance of conventional energy resources (CERs), e.g., fossil fuels, to low-carbon energy resources (LERs), e.g., renewables and energy storage. This work examines market mechanisms to incentivize LER investments, while ensuring adequate market revenues for investors, guiding investors' strategic investments towards social optimum, and protecting consumers from scarcity prices. To reduce the impact of excessive scarcity prices, we present a new market mechanism, which consists of a Penalty payment for lost load, a supply Incentive, and an energy price Uplift (PIU). We establish a game-theoretical framework to analyze market equilibrium. We prove that one Nash equilibrium under the penalty payment and supply incentive can reach the social optimum given quadratic supply costs of CERs. Although the price uplift can ensure adequate revenues, the resulting system cost deviates from the social optimum while the gap decreases as more CERs retire
+    
+[^11]: 规模经济和产品差异化形成的贸易网络的构建
+
+    Formation of trade networks by economies of scale and product differentiation. (arXiv:2212.02841v2 [physics.soc-ph] UPDATED)
+
+    [http://arxiv.org/abs/2212.02841](http://arxiv.org/abs/2212.02841)
+
+    本文研究了贸易网络的形成，在个体决策的基础上建立了一个新的模型，考虑了比较优势、经济规模效应、个体异质性和运输成本等因素。通过数值模拟和统计力学方法，我们揭示了三种不同的贸易网络结构。
+
+    
+
+    理解网络的结构和形成是复杂性科学的一个核心主题。经济网络是通过个体决策形成的，因此不能用传统的随机图模型来准确描述。本文建立了一个基于个体决策的贸易网络形成模型。该模型包括贸易形成的关键因素：比较优势和经济规模效应，同时还考虑了个体的异质性和运输或交易成本。数值模拟显示出形成的贸易网络有三种宏观不同的制度。根据具体的运输成本和个体偏好的异质性，我们发现中央集中生产与星型贸易网络、分散生产与全球贸易、局部生产与无贸易之间的转变。利用统计力学的方法，我们提供了关于这些转变的解析理论。
+
+    Understanding the structure and formation of networks is a central topic in complexity science. Economic networks are formed by decisions of individual agents and thus not properly described by established random graph models. In this article, we establish a model for the emergence of trade networks that is based on rational decisions of individual agents. The model incorporates key drivers for the emergence of trade, comparative advantage and economic scale effects, but also the heterogeneity of agents and the transportation or transaction costs. Numerical simulations show three macroscopically different regimes of the emerging trade networks. Depending on the specific transportation costs and the heterogeneity of individual preferences, we find centralized production with a star-like trade network, distributed production with all-to-all trading or local production and no trade. Using methods from statistical mechanics, we provide an analytic theory of the transitions between these re
+    
+[^12]: Bayesian感知模型中的一致性和统计效率
+
+    Agreement and Statistical Efficiency in Bayesian Perception Models. (arXiv:2205.11561v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2205.11561](http://arxiv.org/abs/2205.11561)
+
+    本文研究了贝叶斯感知模型在连通网络上的重复沟通中的渐近行为，发现尽管个体代理人不是经典意义上的效用最大化者，最终他们会达成一致，并且极限后验分布是贝叶斯最优的。
+
+    
+
+    自1970年代以来，经济学领域一直研究贝叶斯群体学习模型，最近在计算语言学方面也进行了研究。经济学模型假设代理人在沟通和行动中最大化效用。然而，这些经济学模型无法解释在许多实验研究中观察到的 "概率匹配" 现象。为了解决这些观察结果，引入了一些不完全符合经济学效用最大化框架的贝叶斯模型。在这些模型中，个体在沟通中从其后验分布中进行抽样。本研究探讨了这种模型在连通网络上进行重复沟通时的渐近行为。令人惊讶的是，尽管个体代理人在经典意义上并不是效用最大化者，但我们证明他们最终会达成一致，并且进一步证明极限后验分布是贝叶斯最优的。
+
+    Bayesian models of group learning are studied in Economics since the 1970s and more recently in computational linguistics. The models from Economics postulate that agents maximize utility in their communication and actions. The Economics models do not explain the ``probability matching" phenomena that are observed in many experimental studies. To address these observations, Bayesian models that do not formally fit into the economic utility maximization framework were introduced. In these models individuals sample from their posteriors in communication. In this work we study the asymptotic behavior of such models on connected networks with repeated communication. Perhaps surprisingly, despite the fact that individual agents are not utility maximizers in the classical sense, we establish that the individuals ultimately agree and furthermore show that the limiting posterior is Bayes optimal.
     
 

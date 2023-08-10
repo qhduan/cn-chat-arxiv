@@ -1,0 +1,11 @@
+{
+    "title": "Multiclass Online Learnability under Bandit Feedback. (arXiv:2308.04620v1 [cs.LG])",
+    "abstract": "We study online multiclass classification under bandit feedback. We extend the results of (daniely2013price) by showing that the finiteness of the Bandit Littlestone dimension is necessary and sufficient for bandit online multiclass learnability even when the label space is unbounded. Our result complements the recent work by (hanneke2023multiclass) who show that the Littlestone dimension characterizes online multiclass learnability in the full-information setting when the label space is unbounded.",
+    "link": "http://arxiv.org/abs/2308.04620",
+    "context": "Title: Multiclass Online Learnability under Bandit Feedback. (arXiv:2308.04620v1 [cs.LG])\nAbstract: We study online multiclass classification under bandit feedback. We extend the results of (daniely2013price) by showing that the finiteness of the Bandit Littlestone dimension is necessary and sufficient for bandit online multiclass learnability even when the label space is unbounded. Our result complements the recent work by (hanneke2023multiclass) who show that the Littlestone dimension characterizes online multiclass learnability in the full-information setting when the label space is unbounded.",
+    "path": "papers/23/08/2308.04620.json",
+    "total_tokens": 596,
+    "translated_title": "多类在线学习在Bandit反馈下的研究",
+    "translated_abstract": "我们研究了在Bandit反馈下的多类在线分类问题。我们扩展了(daniely2013price)的结果，通过展示Bandit Littlestone维度的有限性是多类在线学习的必要且充分条件，即使标签空间是无界的。我们的结果补充了(hanneke2023multiclass)的最近工作，他们在标签空间无界的全信息设置中，展示了Littlestone维度刻画了在线多类学习的能力。",
+    "tldr": "Bandit反馈下的在线多类学习的关键在于Bandit Littlestone维度的有限性，无论标签空间是否无界。"
+}

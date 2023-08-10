@@ -1,0 +1,11 @@
+{
+    "title": "Towards true discovery of the differential equations. (arXiv:2308.04901v1 [cs.LG])",
+    "abstract": "Differential equation discovery, a machine learning subfield, is used to develop interpretable models, particularly in nature-related applications. By expertly incorporating the general parametric form of the equation of motion and appropriate differential terms, algorithms can autonomously uncover equations from data. This paper explores the prerequisites and tools for independent equation discovery without expert input, eliminating the need for equation form assumptions. We focus on addressing the challenge of assessing the adequacy of discovered equations when the correct equation is unknown, with the aim of providing insights for reliable equation discovery without prior knowledge of the equation form.",
+    "link": "http://arxiv.org/abs/2308.04901",
+    "context": "Title: Towards true discovery of the differential equations. (arXiv:2308.04901v1 [cs.LG])\nAbstract: Differential equation discovery, a machine learning subfield, is used to develop interpretable models, particularly in nature-related applications. By expertly incorporating the general parametric form of the equation of motion and appropriate differential terms, algorithms can autonomously uncover equations from data. This paper explores the prerequisites and tools for independent equation discovery without expert input, eliminating the need for equation form assumptions. We focus on addressing the challenge of assessing the adequacy of discovered equations when the correct equation is unknown, with the aim of providing insights for reliable equation discovery without prior knowledge of the equation form.",
+    "path": "papers/23/08/2308.04901.json",
+    "total_tokens": 712,
+    "translated_title": "迈向真正的微分方程发现",
+    "translated_abstract": "微分方程发现是机器学习的一个子领域，用于开发可解释的模型，特别是在与自然相关的应用中。通过巧妙地结合运动方程的一般参数形式和合适的微分项，算法可以自动从数据中发现方程。本文探讨了独立方程发现的先决条件和工具，消除了对方程形式假设的需求。我们重点解决了在正确方程未知的情况下评估发现方程的适当性的挑战，旨在为在没有先验方程知识的情况下可靠地发现方程提供洞察力。",
+    "tldr": "本文研究了独立方程发现的先决条件和工具，并解决了在正确方程未知的情况下评估发现方程的挑战，旨在为在没有先验方程知识的情况下可靠地发现方程提供洞察力。"
+}

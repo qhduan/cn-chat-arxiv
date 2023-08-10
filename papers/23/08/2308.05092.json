@@ -1,0 +1,12 @@
+{
+    "title": "A degree of image identification at sub-human scales could be possible with more advanced clusters. (arXiv:2308.05092v1 [cs.CV])",
+    "abstract": "The purpose of the research is to determine if currently available self-supervised learning techniques can accomplish human level comprehension of visual images using the same degree and amount of sensory input that people acquire from. Initial research on this topic solely considered data volume scaling. Here, we scale both the volume of data and the quality of the image. This scaling experiment is a self-supervised learning method that may be done without any outside financing. We find that scaling up data volume and picture resolution at the same time enables human-level item detection performance at sub-human sizes.We run a scaling experiment with vision transformers trained on up to 200000 images up to 256 ppi.",
+    "link": "http://arxiv.org/abs/2308.05092",
+    "context": "Title: A degree of image identification at sub-human scales could be possible with more advanced clusters. (arXiv:2308.05092v1 [cs.CV])\nAbstract: The purpose of the research is to determine if currently available self-supervised learning techniques can accomplish human level comprehension of visual images using the same degree and amount of sensory input that people acquire from. Initial research on this topic solely considered data volume scaling. Here, we scale both the volume of data and the quality of the image. This scaling experiment is a self-supervised learning method that may be done without any outside financing. We find that scaling up data volume and picture resolution at the same time enables human-level item detection performance at sub-human sizes.We run a scaling experiment with vision transformers trained on up to 200000 images up to 256 ppi.",
+    "path": "papers/23/08/2308.05092.json",
+    "total_tokens": 760,
+    "translated_title": "在更先进的集群条件下，可能实现亚人类尺度下的图像识别程度",
+    "translated_abstract": "研究的目的是确定当前可用的自我监督学习技术是否能够使用与人类获取感官输入相同程度和数量的数据来实现人类水平的对视觉图像的理解。一开始，该领域的研究仅考虑了数据量的扩大。在这里，我们同时扩展了数据量和图像质量。这个扩展实验是一种无需任何外部融资的自我监督学习方法。我们发现，在同时扩展数据量和图片分辨率的情况下，可以实现在亚人类尺度下的人类级别物体检测性能。我们对以最高256像素每英寸分辨率训练的Vision Transformers进行了可扩展实验，使用了多达200,000张图像。",
+    "tldr": "该研究旨在通过扩展数据量和图像质量，利用自我监督学习方法在更先进的集群条件下实现了亚人类尺度下的人类级别物体检测性能。",
+    "en_tdlr": "This research aims to achieve human-level item detection performance at sub-human scales by scaling up both data volume and picture resolution using self-supervised learning methods under more advanced cluster conditions."
+}

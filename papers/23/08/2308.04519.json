@@ -1,0 +1,12 @@
+{
+    "title": "DisCoCat for Donkey Sentences. (arXiv:2308.04519v1 [cs.CL])",
+    "abstract": "We demonstrate how to parse Geach's Donkey sentences in a compositional distributional model of meaning. We build on previous work on the DisCoCat (Distributional Compositional Categorical) framework, including extensions that model discourse, determiners, and relative pronouns. We present a type-logical syntax for parsing donkey sentences, for which we define both relational and vector space semantics.",
+    "link": "http://arxiv.org/abs/2308.04519",
+    "context": "Title: DisCoCat for Donkey Sentences. (arXiv:2308.04519v1 [cs.CL])\nAbstract: We demonstrate how to parse Geach's Donkey sentences in a compositional distributional model of meaning. We build on previous work on the DisCoCat (Distributional Compositional Categorical) framework, including extensions that model discourse, determiners, and relative pronouns. We present a type-logical syntax for parsing donkey sentences, for which we define both relational and vector space semantics.",
+    "path": "papers/23/08/2308.04519.json",
+    "total_tokens": 553,
+    "translated_title": "DisCoCat用于Donkey句子",
+    "translated_abstract": "我们展示了如何在一个组合分布式意义模型中解析Geach的Donkey句子。我们在之前关于DisCoCat（分布式组合范畴）框架的工作基础上进行扩展，包括对话语、限定词和关系代词的建模。我们提出了一种类型逻辑语法来解析donkey句子，同时定义了关系和向量空间语义。",
+    "tldr": "这篇论文展示了如何在一个组合分布式意义模型中解析Donkey句子，并提出了一种类型逻辑语法和关系向量空间语义。",
+    "en_tdlr": "This paper demonstrates how to parse Donkey sentences in a compositional distributional model of meaning, and proposes a type-logical syntax and relational vector space semantics."
+}

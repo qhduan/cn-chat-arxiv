@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Method for improving accuracy in neural network by reinstating traditional back propagation technique. (arXiv:2308.05059v1 [cs.LG])",
+    "abstract": "Deep learning has revolutionized industries like computer vision, natural language processing, and speech recognition. However, back propagation, the main method for training deep neural networks, faces challenges like computational overhead and vanishing gradients. In this paper, we propose a novel instant parameter update methodology that eliminates the need for computing gradients at each layer. Our approach accelerates learning, avoids the vanishing gradient problem, and outperforms state-of-the-art methods on benchmark data sets. This research presents a promising direction for efficient and effective deep neural network training.",
+    "link": "http://arxiv.org/abs/2308.05059",
+    "context": "Title: A Novel Method for improving accuracy in neural network by reinstating traditional back propagation technique. (arXiv:2308.05059v1 [cs.LG])\nAbstract: Deep learning has revolutionized industries like computer vision, natural language processing, and speech recognition. However, back propagation, the main method for training deep neural networks, faces challenges like computational overhead and vanishing gradients. In this paper, we propose a novel instant parameter update methodology that eliminates the need for computing gradients at each layer. Our approach accelerates learning, avoids the vanishing gradient problem, and outperforms state-of-the-art methods on benchmark data sets. This research presents a promising direction for efficient and effective deep neural network training.",
+    "path": "papers/23/08/2308.05059.json",
+    "total_tokens": 718,
+    "translated_title": "通过恢复传统的反向传播技术来提高神经网络的准确性的一种新方法",
+    "translated_abstract": "深度学习已经在计算机视觉、自然语言处理和语音识别等领域彻底改变了工业。然而，用于训练深度神经网络的主要方法——反向传播，面临着计算开销大和梯度消失等挑战。在本文中，我们提出了一种新的即时参数更新方法，它消除了在每个层计算梯度的需要。我们的方法加速了学习过程，避免了梯度消失问题，并在基准数据集上优于最先进的方法。这项研究为高效有效的深度神经网络训练提供了有希望的方向。",
+    "tldr": "本文提出了一种新的即时参数更新方法来解决深度神经网络训练中的梯度消失问题，加速学习过程并在基准数据集上取得了优于最先进方法的成果。",
+    "en_tdlr": "This paper proposes a novel instant parameter update methodology to address the vanishing gradient problem in deep neural network training, accelerating the learning process and achieving better performance than state-of-the-art methods on benchmark datasets."
+}

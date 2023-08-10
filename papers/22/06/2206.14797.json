@@ -1,0 +1,12 @@
+{
+    "title": "3D-Aware Video Generation. (arXiv:2206.14797v4 [cs.CV] UPDATED)",
+    "abstract": "Generative models have emerged as an essential building block for many image synthesis and editing tasks. Recent advances in this field have also enabled high-quality 3D or video content to be generated that exhibits either multi-view or temporal consistency. With our work, we explore 4D generative adversarial networks (GANs) that learn unconditional generation of 3D-aware videos. By combining neural implicit representations with time-aware discriminator, we develop a GAN framework that synthesizes 3D video supervised only with monocular videos. We show that our method learns a rich embedding of decomposable 3D structures and motions that enables new visual effects of spatio-temporal renderings while producing imagery with quality comparable to that of existing 3D or video GANs.",
+    "link": "http://arxiv.org/abs/2206.14797",
+    "context": "Title: 3D-Aware Video Generation. (arXiv:2206.14797v4 [cs.CV] UPDATED)\nAbstract: Generative models have emerged as an essential building block for many image synthesis and editing tasks. Recent advances in this field have also enabled high-quality 3D or video content to be generated that exhibits either multi-view or temporal consistency. With our work, we explore 4D generative adversarial networks (GANs) that learn unconditional generation of 3D-aware videos. By combining neural implicit representations with time-aware discriminator, we develop a GAN framework that synthesizes 3D video supervised only with monocular videos. We show that our method learns a rich embedding of decomposable 3D structures and motions that enables new visual effects of spatio-temporal renderings while producing imagery with quality comparable to that of existing 3D or video GANs.",
+    "path": "papers/22/06/2206.14797.json",
+    "total_tokens": 786,
+    "translated_title": "3D感知视频生成",
+    "translated_abstract": "生成模型已成为许多图像合成和编辑任务的重要构建块。最近在这个领域的进展也使得能够生成具有多视图或时态一致性的高质量3D或视频内容。在我们的工作中，我们探索了学习无条件生成3D感知视频的4D生成对抗网络（GAN）。通过将神经隐式表示与时间感知的判别器相结合，我们开发了一个GAN框架，仅通过单目视频监督合成3D视频。我们展示了我们的方法学习了丰富的可分解的3D结构和动作嵌入，从而实现了新的时空渲染的视觉效果，同时产生了与现有3D或视频GAN质量相媲美的图像。",
+    "tldr": "通过结合神经隐式表示和时间感知的判别器，我们开发了一个4D GAN框架，能够在没有条件的情况下生成3D感知视频，产生具有多视图和时态一致性的高质量图像，并学习了丰富的可分解的3D结构和运动。",
+    "en_tdlr": "By combining neural implicit representations with a time-aware discriminator, our 4D GAN framework can generate high-quality 3D-aware videos with multi-view and temporal consistency, while learning rich decomposable 3D structures and motions."
+}

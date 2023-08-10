@@ -1,0 +1,11 @@
+{
+    "title": "Who should I Collaborate with? A Comparative Study of Academia and Industry Research Collaboration in NLP. (arXiv:2308.04524v1 [cs.DL])",
+    "abstract": "The goal of our research was to investigate the effects of collaboration between academia and industry on Natural Language Processing (NLP). To do this, we created a pipeline to extract affiliations and citations from NLP papers and divided them into three categories: academia, industry, and hybrid (collaborations between academia and industry). Our empirical analysis found that there is a trend towards an increase in industry and academia-industry collaboration publications and that these types of publications tend to have a higher impact compared to those produced solely within academia.",
+    "link": "http://arxiv.org/abs/2308.04524",
+    "context": "Title: Who should I Collaborate with? A Comparative Study of Academia and Industry Research Collaboration in NLP. (arXiv:2308.04524v1 [cs.DL])\nAbstract: The goal of our research was to investigate the effects of collaboration between academia and industry on Natural Language Processing (NLP). To do this, we created a pipeline to extract affiliations and citations from NLP papers and divided them into three categories: academia, industry, and hybrid (collaborations between academia and industry). Our empirical analysis found that there is a trend towards an increase in industry and academia-industry collaboration publications and that these types of publications tend to have a higher impact compared to those produced solely within academia.",
+    "path": "papers/23/08/2308.04524.json",
+    "total_tokens": 761,
+    "translated_title": "我应该和谁合作? 关于NLP学术界与工业界合作的比较研究。",
+    "translated_abstract": "我们的研究目标是调查学术界和工业界在自然语言处理（NLP）领域的合作对研究的影响。为了实现这一目标，我们创建了一个从NLP论文中提取机构和引用信息的流程，并将其分为三类：学术界、工业界和混合型（学术界与工业界的合作）。我们的实证分析发现，工业界和学术界-工业界合作出版物的数量呈增长趋势，并且这些类型的出版物与仅在学术界产生的出版物相比，往往具有更高的影响力。",
+    "tldr": "本研究调查了学术界和工业界在自然语言处理（NLP）领域的合作对研究的影响。结果显示，学术界和工业界的合作出版物数量有增长趋势，并且这些出版物往往比仅由学术界产生的出版物具有更高的影响力。"
+}

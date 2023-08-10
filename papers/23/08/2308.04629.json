@@ -1,0 +1,12 @@
+{
+    "title": "Instabilities of explicit finite difference schemes with ghost points on the diffusion equation. (arXiv:2308.04629v1 [math.NA])",
+    "abstract": "Ghost, or fictitious points allow to capture boundary conditions that are not located on the finite difference grid discretization. We explore in this paper the impact of ghost points on the stability of the explicit Euler finite difference scheme in the context of the diffusion equation. In particular, we consider the case of a one-touch option under the Black-Scholes model. The observations and results are however valid for a much wider range of financial contracts and models.",
+    "link": "http://arxiv.org/abs/2308.04629",
+    "context": "Title: Instabilities of explicit finite difference schemes with ghost points on the diffusion equation. (arXiv:2308.04629v1 [math.NA])\nAbstract: Ghost, or fictitious points allow to capture boundary conditions that are not located on the finite difference grid discretization. We explore in this paper the impact of ghost points on the stability of the explicit Euler finite difference scheme in the context of the diffusion equation. In particular, we consider the case of a one-touch option under the Black-Scholes model. The observations and results are however valid for a much wider range of financial contracts and models.",
+    "path": "papers/23/08/2308.04629.json",
+    "total_tokens": 630,
+    "translated_title": "显式有限差分格式中使用虚拟点的扩散方程的不稳定性研究",
+    "translated_abstract": "虚拟点允许捕捉不位于有限差分网格离散化上的边界条件。本文探讨了虚拟点对显式欧拉有限差分格式在扩散方程背景下稳定性的影响。特别地，我们考虑了在Black-Scholes模型下的一触即付期权的情况。然而，观察和结果对于更广泛的金融合同和模型也是有效的。",
+    "tldr": "本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。",
+    "en_tdlr": "This paper investigates the stability of explicit Euler finite difference scheme with ghost points in the context of the diffusion equation, considering the case of a one-touch option under the Black-Scholes model."
+}
