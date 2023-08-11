@@ -1,0 +1,12 @@
+{
+    "title": "A Comparison of Classical and Deep Reinforcement Learning Methods for HVAC Control. (arXiv:2308.05711v1 [cs.LG])",
+    "abstract": "Reinforcement learning (RL) is a promising approach for optimizing HVAC control. RL offers a framework for improving system performance, reducing energy consumption, and enhancing cost efficiency. We benchmark two popular classical and deep RL methods (Q-Learning and Deep-Q-Networks) across multiple HVAC environments and explore the practical consideration of model hyper-parameter selection and reward tuning. The findings provide insight for configuring RL agents in HVAC systems, promoting energy-efficient and cost-effective operation.",
+    "link": "http://arxiv.org/abs/2308.05711",
+    "context": "Title: A Comparison of Classical and Deep Reinforcement Learning Methods for HVAC Control. (arXiv:2308.05711v1 [cs.LG])\nAbstract: Reinforcement learning (RL) is a promising approach for optimizing HVAC control. RL offers a framework for improving system performance, reducing energy consumption, and enhancing cost efficiency. We benchmark two popular classical and deep RL methods (Q-Learning and Deep-Q-Networks) across multiple HVAC environments and explore the practical consideration of model hyper-parameter selection and reward tuning. The findings provide insight for configuring RL agents in HVAC systems, promoting energy-efficient and cost-effective operation.",
+    "path": "papers/23/08/2308.05711.json",
+    "total_tokens": 696,
+    "translated_title": "经典强化学习方法与深度强化学习方法在暖通空调控制中的比较",
+    "translated_abstract": "强化学习（RL）是优化暖通空调控制的一种有前景的方法。RL提供了改进系统性能、减少能源消耗和提高成本效益的框架。我们对两种流行的经典强化学习方法（Q-Learning和Deep-Q-Networks）在多个暖通空调环境中进行了基准测试，并探讨了模型超参数选择和奖励调节的实际考虑因素。研究结果为配置HVAC系统中的RL代理提供了洞察力，促进了能源高效和成本有效的运行。",
+    "tldr": "该论文比较了经典强化学习方法和深度强化学习方法在暖通空调控制中的应用，并探讨了模型参数和奖励设置的实际考虑因素。研究结果为能源高效和成本有效的操作提供了洞察力。",
+    "en_tdlr": "This paper compares classical and deep reinforcement learning methods for HVAC control, exploring practical considerations of model hyper-parameter selection and reward tuning. The findings provide insight for energy-efficient and cost-effective operation."
+}

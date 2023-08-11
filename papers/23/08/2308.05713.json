@@ -1,0 +1,12 @@
+{
+    "title": "Testing GPT-4 with Wolfram Alpha and Code Interpreter plug-ins on math and science problems. (arXiv:2308.05713v1 [cs.AI])",
+    "abstract": "This report describes a test of the large language model GPT-4 with the Wolfram Alpha and the Code Interpreter plug-ins on 105 original problems in science and math, at the high school and college levels, carried out in June-August 2023. Our tests suggest that the plug-ins significantly enhance GPT's ability to solve these problems. Having said that, there are still often \"interface\" failures; that is, GPT often has trouble formulating problems in a way that elicits useful answers from the plug-ins. Fixing these interface failures seems like a central challenge in making GPT a reliable tool for college-level calculation problems.",
+    "link": "http://arxiv.org/abs/2308.05713",
+    "context": "Title: Testing GPT-4 with Wolfram Alpha and Code Interpreter plug-ins on math and science problems. (arXiv:2308.05713v1 [cs.AI])\nAbstract: This report describes a test of the large language model GPT-4 with the Wolfram Alpha and the Code Interpreter plug-ins on 105 original problems in science and math, at the high school and college levels, carried out in June-August 2023. Our tests suggest that the plug-ins significantly enhance GPT's ability to solve these problems. Having said that, there are still often \"interface\" failures; that is, GPT often has trouble formulating problems in a way that elicits useful answers from the plug-ins. Fixing these interface failures seems like a central challenge in making GPT a reliable tool for college-level calculation problems.",
+    "path": "papers/23/08/2308.05713.json",
+    "total_tokens": 755,
+    "translated_title": "通过在数学和科学问题上使用Wolfram Alpha和Code Interpreter插件测试GPT-4",
+    "translated_abstract": "本报告描述了在2023年6月至8月期间对大型语言模型GPT-4在科学和数学领域进行的105个原创问题的测试，其中使用了Wolfram Alpha和Code Interpreter插件。我们的测试表明，这些插件显著增强了GPT解决这些问题的能力。然而，仍然经常出现“接口”故障；也就是说，GPT经常在问题的表述上遇到困难，无法从插件中得到有用的答案。解决这些接口故障似乎是使GPT成为可靠的大学级计算问题工具的关键挑战。",
+    "tldr": "本研究测试了GPT-4在科学和数学问题上使用Wolfram Alpha和Code Interpreter插件的效果，结果表明插件显著提升了GPT的问题解决能力，但接口故障仍然是其可靠性的主要挑战。",
+    "en_tdlr": "This study tests the effectiveness of GPT-4 with Wolfram Alpha and Code Interpreter plug-ins on science and math problems, showing that the plug-ins significantly improve GPT's problem-solving capabilities. However, interface failures remain a major challenge for its reliability."
+}

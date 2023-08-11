@@ -1,0 +1,12 @@
+{
+    "title": "Decoding Layer Saliency in Language Transformers. (arXiv:2308.05219v1 [cs.CL])",
+    "abstract": "In this paper, we introduce a strategy for identifying textual saliency in large-scale language models applied to classification tasks. In visual networks where saliency is more well-studied, saliency is naturally localized through the convolutional layers of the network; however, the same is not true in modern transformer-stack networks used to process natural language. We adapt gradient-based saliency methods for these networks, propose a method for evaluating the degree of semantic coherence of each layer, and demonstrate consistent improvement over numerous other methods for textual saliency on multiple benchmark classification datasets. Our approach requires no additional training or access to labelled data, and is comparatively very computationally efficient.",
+    "link": "http://arxiv.org/abs/2308.05219",
+    "context": "Title: Decoding Layer Saliency in Language Transformers. (arXiv:2308.05219v1 [cs.CL])\nAbstract: In this paper, we introduce a strategy for identifying textual saliency in large-scale language models applied to classification tasks. In visual networks where saliency is more well-studied, saliency is naturally localized through the convolutional layers of the network; however, the same is not true in modern transformer-stack networks used to process natural language. We adapt gradient-based saliency methods for these networks, propose a method for evaluating the degree of semantic coherence of each layer, and demonstrate consistent improvement over numerous other methods for textual saliency on multiple benchmark classification datasets. Our approach requires no additional training or access to labelled data, and is comparatively very computationally efficient.",
+    "path": "papers/23/08/2308.05219.json",
+    "total_tokens": 724,
+    "translated_title": "语言转换器中的层显著性解码",
+    "translated_abstract": "本文介绍了一种在大规模语言模型应用于分类任务中识别文本显著性的策略。在视觉网络中，显著性往往通过卷积层自然地进行定位，然而，在用于处理自然语言的现代transformer-stack网络中，并非如此。我们为这些网络适应了基于梯度的显著性方法，提出了一种评估每层语义一致性程度的方法，并在多个基准分类数据集上展示了与其他多种文本显著性方法相比的一致提升。我们的方法不需要额外的训练或访问标记数据，而且计算效率相对较高。",
+    "tldr": "本文提出了一种在语言转换器中识别文本显著性的策略，并适应了基于梯度的显著性方法，在多个基准分类数据集上取得了一致提升。",
+    "en_tdlr": "This paper introduces a strategy for identifying textual saliency in language transformers and adapts gradient-based saliency methods, achieving consistent improvement on multiple benchmark classification datasets."
+}

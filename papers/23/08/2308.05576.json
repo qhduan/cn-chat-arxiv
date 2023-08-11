@@ -1,0 +1,12 @@
+{
+    "title": "Do Language Models Refer?. (arXiv:2308.05576v1 [cs.CL])",
+    "abstract": "What do language models (LMs) do with language? Everyone agrees that they produce sequences of (mostly) coherent sentences. But are they saying anything with those strings or simply babbling in a convincing simulacrum of language use? This is a vague question, and there are many ways of making it precise. Here we will address one aspect of the question, namely, whether LMs' words refer: that is, whether the outputs of LMs achieve \"word-to-world\" connections. There is prima facie reason to think they do not since LMs do not interact with the world in the way that ordinary language users do. Drawing on insights from the externalist tradition in philosophy of language, we argue that appearances are misleading and that there is good reason to think that LMs can refer.",
+    "link": "http://arxiv.org/abs/2308.05576",
+    "context": "Title: Do Language Models Refer?. (arXiv:2308.05576v1 [cs.CL])\nAbstract: What do language models (LMs) do with language? Everyone agrees that they produce sequences of (mostly) coherent sentences. But are they saying anything with those strings or simply babbling in a convincing simulacrum of language use? This is a vague question, and there are many ways of making it precise. Here we will address one aspect of the question, namely, whether LMs' words refer: that is, whether the outputs of LMs achieve \"word-to-world\" connections. There is prima facie reason to think they do not since LMs do not interact with the world in the way that ordinary language users do. Drawing on insights from the externalist tradition in philosophy of language, we argue that appearances are misleading and that there is good reason to think that LMs can refer.",
+    "path": "papers/23/08/2308.05576.json",
+    "total_tokens": 769,
+    "translated_title": "语言模型是否具有指称能力？",
+    "translated_abstract": "语言模型（LMs）用语言做什么？大家都同意它们能够生成（大部分）连贯的句子。但是它们用这些字符串表达了什么，还是只是以一种令人信服的语言运用的模拟中胡言乱语？这是一个模糊的问题，有许多方法可以使其明确化。这里我们将解决该问题的一个方面，即，LMs的词语是否指称：即，LMs的输出是否实现了“词语-世界”之间的联系。有初步的理由认为它们不具备指称能力，因为LMs没有像普通语言用户那样与世界互动。借鉴语言哲学的外部主义传统的观点，我们认为表象是误导的，有充分的理由认为LMs可以指称。",
+    "tldr": "论文探讨了语言模型是否具有指称能力，并通过借鉴语言哲学外部主义传统的观点，提出了LMs可以指称的理由。",
+    "en_tdlr": "This paper examines whether language models have the ability to refer and argues, drawing on insights from the externalist tradition in philosophy of language, that there is good reason to believe that language models can refer."
+}

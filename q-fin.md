@@ -2,187 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Mobilit\"at.Leben Study: a Year-Long Mobility-Tracking Panel.](http://arxiv.org/abs/2308.04973) | Mobilit\"at.Leben研究调查了2022年德国的一个自然实验对出行行为的影响，研究包括两个时期和两个元素，通过问卷调查和基于智能手机的被动航点跟踪，并分享了关于进行大规模面板研究的经验。 |
-| [^2] | [Methods for Acquiring and Incorporating Knowledge into Stock Price Prediction: A Survey.](http://arxiv.org/abs/2308.04947) | 这项调查论文系统而全面地描述了从不同来源获得外部知识的方法，以应用于股票价格预测，帮助理解股票市场的复杂性。 |
-| [^3] | [Correlation-diversified portfolio construction by finding maximum independent set in large-scale market graph.](http://arxiv.org/abs/2308.04769) | 该论文通过使用量子启发式算法simulated bifurcation（SB）来解决了在大规模市场图中寻找最大独立集（MIS）的问题，构建了相关多样化的投资组合，并取得了优于传统MIS求解器的计算时间和解决方案准确性。 |
-| [^4] | [Instabilities of explicit finite difference schemes with ghost points on the diffusion equation.](http://arxiv.org/abs/2308.04629) | 本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。 |
-| [^5] | [Efficient option pricing with unary-based photonic computing chip and generative adversarial learning.](http://arxiv.org/abs/2308.04493) | 本研究提出了一种基于一元光子计算芯片和生成对抗学习的高效期权定价方法，通过引入量子幅度估计算法，相比传统方法实现了二次加速。其中，生成对抗网络用于高效学习和加载资产分布，准确捕捉市场趋势。这项工作为金融应用中的专用光子处理器发展提供了新的思路。 |
-| [^6] | [Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy.](http://arxiv.org/abs/2308.02914) | 通过使用图神经网络和非极端熵，在全球金融市场中成功检测出了异常情况，发现了在危机期间高度相关的资产的复杂结构减少，并且不同的非极端熵参数在危机前、期间和后的异常数量存在统计上的差异 |
-| [^7] | [Modeling evidential cooperation in large worlds.](http://arxiv.org/abs/2307.04879) | 该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。 |
-| [^8] | [Estimating the roughness exponent of stochastic volatility from discrete observations of the realized variance.](http://arxiv.org/abs/2307.02582) | 本文提出了一种新的估计器，用于从离散观测中测量连续轨迹的粗糙指数，该估计器适用于随机波动模型的估计，并在大多数分数布朗运动样本路径中收敛。 |
-| [^9] | [The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland.](http://arxiv.org/abs/2306.12924) | 波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。 |
-| [^10] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^11] | [Market Mechanisms for Low-Carbon Electricity Investments: A Game-Theoretical Analysis.](http://arxiv.org/abs/2212.06984) | 本论文研究了激励低碳能源投资的市场机制，并保护消费者免受供应短缺造成的高价影响。研究提出了一种新的市场机制（PIU），通过罚款支付、供应激励和能源价格抬升来减少供应短缺价格的影响。通过建立博弈论框架，证明了在罚款支付和供应激励的情况下存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。 |
-| [^12] | [Formation of trade networks by economies of scale and product differentiation.](http://arxiv.org/abs/2212.02841) | 本文研究了贸易网络的形成，在个体决策的基础上建立了一个新的模型，考虑了比较优势、经济规模效应、个体异质性和运输成本等因素。通过数值模拟和统计力学方法，我们揭示了三种不同的贸易网络结构。 |
+| [^1] | [Efficient Variational Inference for Large Skew-t Copulas with Application to Intraday Equity Returns.](http://arxiv.org/abs/2308.05564) | 本研究提出一种快速而准确的贝叶斯变分推理方法，用于估计大规模偏t乌鸦因子勾结模型。该方法能够捕捉到金融数据中的不对称和极端尾部相关性，以及股票对之间的异质性非对称依赖。 |
+| [^2] | [Financial Fraud Detection: A Comparative Study of Quantum Machine Learning Models.](http://arxiv.org/abs/2308.05237) | 该研究通过比较研究四种量子机器学习模型，证明了量子支持向量分类器模型在金融欺诈检测方面具有最高性能，并为量子机器学习在欺诈检测领域的未来发展提供了重要见解。 |
+| [^3] | ["Generate" the Future of Work through AI: Empirical Evidence from Online Labor Markets.](http://arxiv.org/abs/2308.05201) | 这项研究通过利用ChatGPT作为外生冲击，揭示了其对在线劳动市场的影响。结果显示，直接接触ChatGPT的任务和自由职业者的交易量显著下降，但适应新技术并提供增强人工智能的服务的自由职业者仍能获得利益。 |
+| [^4] | [SmartDCA superiority.](http://arxiv.org/abs/2308.05200) | 本文介绍了一种新的投资策略SmartDCA，它通过根据价格水平调整资产购买，相比传统的DCA方法，能够提高投资的效率。在数学分析中，证明了SmartDCA的优越性。此外，在引入有界版本的SmartDCA时，作者提出了两个新的均值定义，以解决可能导致无限投资的问题。 |
+| [^5] | [Empirical Evidence for the New Definitions in Financial Markets.](http://arxiv.org/abs/2305.03468) | 研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。 |
+| [^6] | [Conditional Generative Models for Learning Stochastic Processes.](http://arxiv.org/abs/2304.10382) | 提出了一种称为 C-qGAN 的框架，利用量子电路结构实现了有效的状态准备过程，可以利用该方法加速蒙特卡罗分析等算法，并将其应用于亚式期权衍生品定价的任务中。 |
+| [^7] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
+| [^8] | [Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes.](http://arxiv.org/abs/2301.00790) | 本文提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。使用梯度提升决策树（GBDT）并结合dropout技术的模型具有良好的性能和泛化能力，而动态特征中和则是一种高效而不需要重新训练模型就可以应用于任何机器学习模型中的后处理技术。 |
+| [^9] | [A stochastic volatility model for the valuation of temperature derivatives.](http://arxiv.org/abs/2209.05918) | 本文提出了一种新的随机波动模型，用于温度的估值，该模型在处理极端事件时更加谨慎，同时保持可追踪性，并提供了一种有效计算天气衍生品平均支付的方法。 |
+| [^10] | [Cost-efficient Payoffs under Model Ambiguity.](http://arxiv.org/abs/2207.02948) | 该论文研究了在模型不确定性下寻找成本效益收益的问题，并确定了鲁棒成本效益收益的解决方案。研究表明最大最小鲁棒期望效用的解也是鲁棒成本效益收益的解。通过示例说明了不确定性对收益的影响。 |
+| [^11] | [Polarization and Quid Pro Quo: The Role of Party Cohesiveness.](http://arxiv.org/abs/2205.07486) | 研究表明，一个利益集团是否能够利用不断增加的意识形态和情感极化获利取决于两个政党社交网络相对凝聚度的聚合度量，而在没有意识形态 polarization 的情况下，两个政党社交网络的相对凝聚度则变得无关紧要。 |
 
 # 详细
 
-[^1]: Mobilit\"at.Leben研究：一年的移动追踪面板
+[^1]: 大规模偏t乌鸦勾结的高效变分推理及其在股票收益率中的应用
 
-    The Mobilit\"at.Leben Study: a Year-Long Mobility-Tracking Panel. (arXiv:2308.04973v1 [econ.GN])
+    Efficient Variational Inference for Large Skew-t Copulas with Application to Intraday Equity Returns. (arXiv:2308.05564v1 [econ.EM])
 
-    [http://arxiv.org/abs/2308.04973](http://arxiv.org/abs/2308.04973)
+    [http://arxiv.org/abs/2308.05564](http://arxiv.org/abs/2308.05564)
 
-    Mobilit\"at.Leben研究调查了2022年德国的一个自然实验对出行行为的影响，研究包括两个时期和两个元素，通过问卷调查和基于智能手机的被动航点跟踪，并分享了关于进行大规模面板研究的经验。
-
-    
-
-    Mobilit\"at.Leben研究调查了德国一个自然实验对出行行为的影响。为应对2022年的生活成本危机，在2022年6月、7月和8月，引入了两项政策措施，以减少人口出行成本：燃油消费税削减和几乎免费的公共交通，称为9欧票。德国票的继任者，所谓的Deutschlandticket的公告，导致立即决定继续研究。Mobilit\"at.Leben研究有两个时期，9欧票时期和Deutschlandticket时期，包括几个问卷调查和基于智能手机的被动航点跟踪。整个研究持续时间共计十三个月。在本论文中，我们报告了研究设计、招募策略、调查参与情况以及跟踪部分，并分享了我们在进行大规模面板研究方面的经验。总体而言，3080人参加了这项研究。
-
-    The Mobilit\"at.Leben study investigated travel behavior effects of a natural experiment in Germany. In response to the 2022 cost-of-living crisis, two policy measures to reduce travel costs for the population in June, July, and August 2022 were introduced: a fuel excise tax cut and almost fare-free public transport with the so-called 9-Euro-Ticket. The announcement of a successor ticket to the 9-Euro-Ticket, the so-called Deutschlandticket, led to the immediate decision to continue the study. The Mobilit\"at.Leben study has two periods, the 9-Euro-Ticket period and the Deutschlandticket period, and comprises two elements: several questionnaires and a smartphone-based passive waypoint tracking. The entire duration of the study was almost thirteen months.  In this paper, we report on the study design, the recruitment strategy, the study participation in the survey, and the tracking parts, and we share our experience in conducting such large-scale panel studies. Overall, 3,080 people reg
-    
-[^2]: 获得和整合知识用于股票价格预测的方法：一项调查
-
-    Methods for Acquiring and Incorporating Knowledge into Stock Price Prediction: A Survey. (arXiv:2308.04947v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2308.04947](http://arxiv.org/abs/2308.04947)
-
-    这项调查论文系统而全面地描述了从不同来源获得外部知识的方法，以应用于股票价格预测，帮助理解股票市场的复杂性。
+    本研究提出一种快速而准确的贝叶斯变分推理方法，用于估计大规模偏t乌鸦因子勾结模型。该方法能够捕捉到金融数据中的不对称和极端尾部相关性，以及股票对之间的异质性非对称依赖。
 
     
 
-    预测股票价格是一个具有挑战性的研究问题，因为股票市场的固有波动性和非线性性质。近年来，利用外部知识来理解股票市场的知识增强型股票价格预测方法表现出突破性的成果。尽管这些方法的重要性，但在从外部知识类型的角度系统地综合以往研究方面，学术作品的稀缺性存在一定问题。具体而言，外部知识可以以不同的数据结构建模，我们将其分为非图形化格式和图形化格式两类：1) 非图形化知识捕获与个别股票密切相关的上下文信息和多媒体描述；2) 图形化知识捕获股票市场中相互关联和相互依赖的信息。本调查论文旨在系统而全面地描述从不同来源获取外部知识的方法。
+    大规模偏t乌鸦因子勾结模型对金融数据建模具有吸引力，因为它们允许不对称和极端的尾部相关性。我们展示了Azzalini和Capitanio（2003）所隐含的乌鸦勾结在成对非对称依赖性方面比两种流行的乌鸦勾结更高。在高维情况下，对该乌鸦勾结的估计具有挑战性，我们提出了一种快速而准确的贝叶斯变分推理方法来解决这个问题。该方法使用条件高斯生成表示法定义了一个可以准确近似的附加后验。使用快速随机梯度上升算法来解决变分优化。这种新的方法被用来估计2017年至2021年间93个美国股票的股票收益率的勾结模型。除了成对相关性的变化外，该勾结还捕捉到了股票对之间的非对称依赖的大量异质性。
 
-    Predicting stock prices presents a challenging research problem due to the inherent volatility and non-linear nature of the stock market. In recent years, knowledge-enhanced stock price prediction methods have shown groundbreaking results by utilizing external knowledge to understand the stock market. Despite the importance of these methods, there is a scarcity of scholarly works that systematically synthesize previous studies from the perspective of external knowledge types. Specifically, the external knowledge can be modeled in different data structures, which we group into non-graph-based formats and graph-based formats: 1) non-graph-based knowledge captures contextual information and multimedia descriptions specifically associated with an individual stock; 2) graph-based knowledge captures interconnected and interdependent information in the stock market. This survey paper aims to provide a systematic and comprehensive description of methods for acquiring external knowledge from va
+    Large skew-t factor copula models are attractive for the modeling of financial data because they allow for asymmetric and extreme tail dependence. We show that the copula implicit in the skew-t distribution of Azzalini and Capitanio (2003) allows for a higher level of pairwise asymmetric dependence than two popular alternative skew-t copulas. Estimation of this copula in high dimensions is challenging, and we propose a fast and accurate Bayesian variational inference (VI) approach to do so. The method uses a conditionally Gaussian generative representation of the skew-t distribution to define an augmented posterior that can be approximated accurately. A fast stochastic gradient ascent algorithm is used to solve the variational optimization. The new methodology is used to estimate copula models for intraday returns from 2017 to 2021 on 93 U.S. equities. The copula captures substantial heterogeneity in asymmetric dependence over equity pairs, in addition to the variability in pairwise co
     
-[^3]: 通过在大规模市场图中寻找最大独立集构建相关多样化投资组合
+[^2]: 金融欺诈检测：量子机器学习模型的比较研究
 
-    Correlation-diversified portfolio construction by finding maximum independent set in large-scale market graph. (arXiv:2308.04769v1 [cs.ET])
+    Financial Fraud Detection: A Comparative Study of Quantum Machine Learning Models. (arXiv:2308.05237v1 [quant-ph])
 
-    [http://arxiv.org/abs/2308.04769](http://arxiv.org/abs/2308.04769)
+    [http://arxiv.org/abs/2308.05237](http://arxiv.org/abs/2308.05237)
 
-    该论文通过使用量子启发式算法simulated bifurcation（SB）来解决了在大规模市场图中寻找最大独立集（MIS）的问题，构建了相关多样化的投资组合，并取得了优于传统MIS求解器的计算时间和解决方案准确性。
-
-    
-
-    可以通过在将边对应于两只股票之间的相关性的市场图中寻找最大独立集（MIS），来构建相关多样化的投资组合。随着市场图的规模增大，找到MIS的计算复杂度呈指数增长，使得在大规模市场图中选择MIS变得困难。在这里，我们通过基于量子启发式算法simulated bifurcation（SB）的组合优化求解器（Ising机器）解决了大规模市场图的MIS问题，并使用长期历史市场数据研究了构建的投资组合的投资表现。使用不同规模的股票宇宙[TOPIX 100, Nikkei 225, TOPIX 1000和TOPIX（包括约2000个成分股）]的比较表明，基于SB的求解器在计算时间和解决方案准确性方面优于传统的MIS求解器。通过使用基于SB的求解器，我们优化
-
-    Correlation-diversified portfolios can be constructed by finding the maximum independent sets (MISs) in market graphs with edges corresponding to correlations between two stocks. The computational complexity to find the MIS increases exponentially as the size of the market graph increases, making the MIS selection in a large-scale market graph difficult. Here we construct a diversified portfolio by solving the MIS problem for a large-scale market graph with a combinatorial optimization solver (an Ising machine) based on a quantum-inspired algorithm called simulated bifurcation (SB) and investigate the investment performance of the constructed portfolio using long-term historical market data. Comparisons using stock universes of various sizes [TOPIX 100, Nikkei 225, TOPIX 1000, and TOPIX (including approximately 2,000 constituents)] show that the SB-based solver outperforms conventional MIS solvers in terms of computation-time and solution-accuracy. By using the SB-based solver, we opti
-    
-[^4]: 显式有限差分格式中使用虚拟点的扩散方程的不稳定性研究
-
-    Instabilities of explicit finite difference schemes with ghost points on the diffusion equation. (arXiv:2308.04629v1 [math.NA])
-
-    [http://arxiv.org/abs/2308.04629](http://arxiv.org/abs/2308.04629)
-
-    本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。
+    该研究通过比较研究四种量子机器学习模型，证明了量子支持向量分类器模型在金融欺诈检测方面具有最高性能，并为量子机器学习在欺诈检测领域的未来发展提供了重要见解。
 
     
 
-    虚拟点允许捕捉不位于有限差分网格离散化上的边界条件。本文探讨了虚拟点对显式欧拉有限差分格式在扩散方程背景下稳定性的影响。特别地，我们考虑了在Black-Scholes模型下的一触即付期权的情况。然而，观察和结果对于更广泛的金融合同和模型也是有效的。
+    在本研究中，针对金融欺诈检测进行了四种量子机器学习（QML）模型的比较研究。我们证明了量子支持向量分类器模型的性能最高，欺诈和非欺诈类别的F1分数均为0.98。其他模型如变分量子分类器、估计量子神经网络和采样器量子神经网络展示了有希望的结果，推动了QML在金融应用中的潜力。虽然它们存在一定的限制，但所得到的洞察为未来的增强和优化策略铺平了道路。然而，挑战存在，包括需要更高效的量子算法和更大更复杂的数据集。该文章提供了克服当前限制的解决方案，并为量子机器学习在欺诈检测领域提供了新的见解，对其未来发展有重要影响。
 
-    Ghost, or fictitious points allow to capture boundary conditions that are not located on the finite difference grid discretization. We explore in this paper the impact of ghost points on the stability of the explicit Euler finite difference scheme in the context of the diffusion equation. In particular, we consider the case of a one-touch option under the Black-Scholes model. The observations and results are however valid for a much wider range of financial contracts and models.
+    In this research, a comparative study of four Quantum Machine Learning (QML) models was conducted for fraud detection in finance. We proved that the Quantum Support Vector Classifier model achieved the highest performance, with F1 scores of 0.98 for fraud and non-fraud classes. Other models like the Variational Quantum Classifier, Estimator Quantum Neural Network (QNN), and Sampler QNN demonstrate promising results, propelling the potential of QML classification for financial applications. While they exhibit certain limitations, the insights attained pave the way for future enhancements and optimisation strategies. However, challenges exist, including the need for more efficient Quantum algorithms and larger and more complex datasets. The article provides solutions to overcome current limitations and contributes new insights to the field of Quantum Machine Learning in fraud detection, with important implications for its future development.
     
-[^5]: 基于一元光子计算芯片和生成对抗学习的高效期权定价
+[^3]: 通过人工智能"生成"工作：在线劳动市场的经验证据
 
-    Efficient option pricing with unary-based photonic computing chip and generative adversarial learning. (arXiv:2308.04493v1 [quant-ph])
+    "Generate" the Future of Work through AI: Empirical Evidence from Online Labor Markets. (arXiv:2308.05201v1 [cs.AI])
 
-    [http://arxiv.org/abs/2308.04493](http://arxiv.org/abs/2308.04493)
+    [http://arxiv.org/abs/2308.05201](http://arxiv.org/abs/2308.05201)
 
-    本研究提出了一种基于一元光子计算芯片和生成对抗学习的高效期权定价方法，通过引入量子幅度估计算法，相比传统方法实现了二次加速。其中，生成对抗网络用于高效学习和加载资产分布，准确捕捉市场趋势。这项工作为金融应用中的专用光子处理器发展提供了新的思路。
-
-    
-
-    在现代金融行业系统中，产品结构变得越来越复杂，传统计算能力的瓶颈已经制约了金融行业的发展。本文提出了一种实现欧式期权定价的光子芯片，结合量子幅度估计算法，与经典蒙特卡洛方法相比，实现了二次加速。电路包括三个模块：加载资产价格分布的模块、计算预期收益的模块以及执行量子幅度估计算法以引入加速的模块。在分布模块中，嵌入了生成对抗网络以便高效地学习和加载资产分布，准确捕捉市场趋势。这项工作是专用光子处理器在金融应用中发展的一个新进展，有潜力改进期权定价的效率。
-
-    In the modern financial industry system, the structure of products has become more and more complex, and the bottleneck constraint of classical computing power has already restricted the development of the financial industry. Here, we present a photonic chip that implements the unary approach to European option pricing, in combination with the quantum amplitude estimation algorithm, to achieve a quadratic speedup compared to classical Monte Carlo methods. The circuit consists of three modules: a module loading the distribution of asset prices, a module computing the expected payoff, and a module performing the quantum amplitude estimation algorithm to introduce speed-ups. In the distribution module, a generative adversarial network is embedded for efficient learning and loading of asset distributions, which precisely capture the market trends. This work is a step forward in the development of specialized photonic processors for applications in finance, with the potential to improve the
-    
-[^6]: 使用图神经网络和非极端熵在全球金融市场中进行异常检测
-
-    Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy. (arXiv:2308.02914v1 [cs.AI])
-
-    [http://arxiv.org/abs/2308.02914](http://arxiv.org/abs/2308.02914)
-
-    通过使用图神经网络和非极端熵，在全球金融市场中成功检测出了异常情况，发现了在危机期间高度相关的资产的复杂结构减少，并且不同的非极端熵参数在危机前、期间和后的异常数量存在统计上的差异
+    这项研究通过利用ChatGPT作为外生冲击，揭示了其对在线劳动市场的影响。结果显示，直接接触ChatGPT的任务和自由职业者的交易量显著下降，但适应新技术并提供增强人工智能的服务的自由职业者仍能获得利益。
 
     
 
-    异常检测是一个具有许多变量的系统中的一项具有挑战性的任务。异常是与分析数据在统计上不同的离群值，可能来自罕见事件、设备故障或系统滥用。本研究通过考虑由非极端熵衡量的不确定性场景，研究了使用图神经网络(GNN)在全球金融市场中检测异常的能力。主要发现表明，在危机期间高度相关的资产的复杂结构减少，不同的非极端熵参数在危机前、期间和后的异常数量在统计上存在差异。
+    随着通用生成式人工智能的出现，对其对劳动市场的影响的兴趣不断增加。为了填补现有的实证空白，我们将ChatGPT的推出解释为一种外生冲击，并采用差异法来量化其对在线劳动市场中与文本相关的工作和自由职业者的影响。我们的结果显示，直接接触ChatGPT的任务和自由职业者的交易量显著下降。此外，这种下降在相对较高的过去交易量或较低的质量标准下尤为显著。然而，并非所有服务提供商都普遍经历了负面影响。随后的分析表明，在这个转型期间，能够适应新进展并提供增强人工智能技术的服务的自由职业者可以获得可观的利益。因此，虽然ChatGPT的出现有可能替代人力劳动
 
-    Anomaly detection is a challenging task, particularly in systems with many variables. Anomalies are outliers that statistically differ from the analyzed data and can arise from rare events, malfunctions, or system misuse. This study investigated the ability to detect anomalies in global financial markets through Graph Neural Networks (GNN) considering an uncertainty scenario measured by a nonextensive entropy. The main findings show that the complex structure of highly correlated assets decreases in a crisis, and the number of anomalies is statistically different for nonextensive entropy parameters considering before, during, and after crisis.
+    With the advent of general-purpose Generative AI, the interest in discerning its impact on the labor market escalates. In an attempt to bridge the extant empirical void, we interpret the launch of ChatGPT as an exogenous shock, and implement a Difference-in-Differences (DID) approach to quantify its influence on text-related jobs and freelancers within an online labor marketplace. Our results reveal a significant decrease in transaction volume for gigs and freelancers directly exposed to ChatGPT. Additionally, this decline is particularly marked in units of relatively higher past transaction volume or lower quality standards. Yet, the negative effect is not universally experienced among service providers. Subsequent analyses illustrate that freelancers proficiently adapting to novel advancements and offering services that augment AI technologies can yield substantial benefits amidst this transformative period. Consequently, even though the advent of ChatGPT could conceivably substitute
     
-[^7]: 在大规模世界中建模证据合作
+[^4]: SmartDCA优势
 
-    Modeling evidential cooperation in large worlds. (arXiv:2307.04879v1 [econ.GN])
+    SmartDCA superiority. (arXiv:2308.05200v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2307.04879](http://arxiv.org/abs/2307.04879)
+    [http://arxiv.org/abs/2308.05200](http://arxiv.org/abs/2308.05200)
 
-    该论文研究了大规模世界中的证据合作（ECL）的问题，并提出了一个不完全信息的谈判问题的博弈论模型。通过模型，作者发现所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。
-
-    
-
-    大规模世界中的证据合作（ECL）指的是人类和其他代理人可以通过与具有不同价值观的相似代理人在一个大宇宙中的因果断开部分合作而获益。合作为代理人提供了其他相似代理人可能会合作的证据，从而使所有人都从交易中获益。对于利他主义者来说，这可能是一个关键的考虑因素。我将ECL发展为一个不完全信息的谈判问题的博弈论模型。该模型融入了对他人价值观和实证情况的不确定性，并解决了选择妥协结果的问题。使用该模型，我调查了ECL存在的问题，并概述了开放的技术和哲学问题。我展示了所有合作者必须最大化相同的加权效用函数之和才能达到帕累托最优结果。然而，我反对通过对效用函数进行归一化来隐式选择妥协结果。我回顾了谈判理论和
-
-    Evidential cooperation in large worlds (ECL) refers to the idea that humans and other agents can benefit by cooperating with similar agents with differing values in causally disconnected parts of a large universe. Cooperating provides agents with evidence that other similar agents are likely to cooperate too, resulting in gains from trade for all. This could be a crucial consideration for altruists.  I develop a game-theoretic model of ECL as an incomplete information bargaining problem. The model incorporates uncertainty about others' value systems and empirical situations, and addresses the problem of selecting a compromise outcome. Using the model, I investigate issues with ECL and outline open technical and philosophical questions.  I show that all cooperators must maximize the same weighted sum of utility functions to reach a Pareto optimal outcome. However, I argue against selecting a compromise outcome implicitly by normalizing utility functions. I review bargaining theory and a
-    
-[^8]: 从离散实现方差的观测中估计随机波动的粗糙指数
-
-    Estimating the roughness exponent of stochastic volatility from discrete observations of the realized variance. (arXiv:2307.02582v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2307.02582](http://arxiv.org/abs/2307.02582)
-
-    本文提出了一种新的估计器，用于从离散观测中测量连续轨迹的粗糙指数，该估计器适用于随机波动模型的估计，并在大多数分数布朗运动样本路径中收敛。
+    本文介绍了一种新的投资策略SmartDCA，它通过根据价格水平调整资产购买，相比传统的DCA方法，能够提高投资的效率。在数学分析中，证明了SmartDCA的优越性。此外，在引入有界版本的SmartDCA时，作者提出了两个新的均值定义，以解决可能导致无限投资的问题。
 
     
 
-    本文考虑在随机波动模型中估计波动性的粗糙度，该模型是作为分数布朗运动（带漂移）的非线性函数而产生的。为此，我们引入一个新的估计量，该估计量测量连续轨迹的所谓粗糙指数，基于其原函数的离散观测。我们给出了对于基础轨迹的条件，在这些条件下，我们的估计器以严格路径方式收敛。然后我们验证了这些条件在几乎每个分数布朗运动（带漂移）样本路径中都得到满足。作为结果，在大类粗波动模型的背景下，我们得到了强一致性定理。数值模拟结果表明，在经过我们估计器的尺度不变修改后，我们的估计程序表现良好。
+    美元成本平均法(DCA)是一种广泛应用的技术，用于减轻长期投资中对升值资产的波动性。然而，DCA的低效性来源于在不考虑市场状况的情况下固定投资金额。本文介绍了一种更高效的方法，我们称之为SmartDCA，该方法基于价格水平来调整资产购买。SmartDCA的简单性使得我们能够进行严格的数学分析，通过应用Cauchy-Schwartz不等式和Lehmer平均数，我们证明了它的优越性。我们进一步将我们的分析扩展到了我们所称的ρ-SmartDCA，在这种情况下，投资金额被提升到ρ的幂。我们证明了较高的ρ值可以带来更好的性能。然而，这种方法可能导致无限的投资。为了解决这个问题，我们引入了SmartDCA的有界版本，利用了我们称之为准Lehmer平均数的两个新的均值定义。
 
-    We consider the problem of estimating the roughness of the volatility in a stochastic volatility model that arises as a nonlinear function of fractional Brownian motion with drift. To this end, we introduce a new estimator that measures the so-called roughness exponent of a continuous trajectory, based on discrete observations of its antiderivative. We provide conditions on the underlying trajectory under which our estimator converges in a strictly pathwise sense. Then we verify that these conditions are satisfied by almost every sample path of fractional Brownian motion (with drift). As a consequence, we obtain strong consistency theorems in the context of a large class of rough volatility models. Numerical simulations show that our estimation procedure performs well after passing to a scale-invariant modification of our estimator.
+    Dollar-Cost Averaging (DCA) is a widely used technique to mitigate volatility in long-term investments of appreciating assets. However, the inefficiency of DCA arises from fixing the investment amount regardless of market conditions. In this paper, we present a more efficient approach that we name SmartDCA, which consists in adjusting asset purchases based on price levels. The simplicity of SmartDCA allows for rigorous mathematical analysis, enabling us to establish its superiority through the application of Cauchy-Schwartz inequality and Lehmer means. We further extend our analysis to what we refer to as $\rho$-SmartDCA, where the invested amount is raised to the power of $\rho$. We demonstrate that higher values of $\rho$ lead to enhanced performance. However, this approach may result in unbounded investments. To address this concern, we introduce a bounded version of SmartDCA, taking advantage of two novel mean definitions that we name quasi-Lehmer means. The bounded SmartDCA is spe
     
-[^9]: 孩子对波兰女性和男性的劳动力市场结果的影响
+[^5]: 金融市场新定义的经验证据
 
-    The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland. (arXiv:2306.12924v1 [econ.GN])
+    Empirical Evidence for the New Definitions in Financial Markets. (arXiv:2305.03468v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2306.12924](http://arxiv.org/abs/2306.12924)
+    [http://arxiv.org/abs/2305.03468](http://arxiv.org/abs/2305.03468)
 
-    波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。
-
-    
-
-    波兰是欧洲性别薪酬差距最小的国家之一。与此同时，它是一个保守的国家，女性的权利一直在下降。我们认为，在波兰背景下，收入差距比小时工资差距更适合衡量性别劳动力市场结果。我们使用调整为低分辨率的安慰剂事件历史方法和波兰世代和性别调查的两个波次（2010年、2014年）分析了波兰的收入性别差距与育儿状态的关系。与在西欧进行的类似研究相反，我们的分析揭示了女性和男性普遍存在的预期行为。我们展示，在生育后，母亲的收入降低了约20％，但在15年后，与非母亲的收入轨迹趋于一致。相比之下，未来父亲的收入高于非父亲的收入，这表明父亲溢价在孩子到来之前就存在。总的来说，我们的研究揭示了一个保守的国家中性别劳动力市场结果的复杂性。
-
-    Poland records one of the lowest gender wage gaps in Europe. At the same time, it is a socially conservative country where women's rights have been on the decline. We argue that, in the Polish context, the gender gap in income is a more appropriate measure of gendered labour market outcomes than the gap in the hourly wage. We analyse the gender gap in income in Poland in relation to the parenthood status, using the placebo event history method, adjusted to low resolution data, and the two waves of the Polish Generations and Gender Survey (2010, 2014). Contrary to similar studies conducted in Western Europe, our analysis uncovers a large degree of anticipatory behaviour in both women and men who expect to become parents. We show that mothers' income decreases by about 20% after birth, but converges to the income trajectory of non-mothers after 15 years. In contrast, the income of eventual fathers is higher than that of non-fathers both before and after birth, suggesting that the fatherh
-    
-[^10]: 期权的价格发现
-
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
-
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+    研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。
 
     
 
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+    本研究给出了支持金融市场新定义的经验证据。分析了1889-1978年美国金融市场投资者的风险态度，结果表明，1977年在投资综合S＆P 500指数的股票投资者是风险规避者。相反，投资美国国债的无风险资产投资者则表现出不足的风险偏爱，这可以被认为是一种风险规避行为。这些发现表明，金融市场新定义准确反映了投资者的行为，应考虑在投资策略中。
 
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    This study presents empirical evidence to support the validity of new definitions in financial markets. The risk attitudes of investors in US financial markets from 1889-1978 are analyzed and the results indicate that equity investors who invested in the composite S&P 500 index were risk-averse in 1977. Conversely, risk-free asset investors who invested in US Treasury bills were found to exhibit not enough risk-loving behavior, which can be considered a type of risk-averse behavior. These findings suggest that the new definitions in financial markets accurately reflect the behavior of investors and should be considered in investment strategies.
     
-[^11]: 低碳电力投资的市场机制：博弈论分析
+[^6]: 学习随机过程的有条件生成模型
 
-    Market Mechanisms for Low-Carbon Electricity Investments: A Game-Theoretical Analysis. (arXiv:2212.06984v2 [eess.SY] UPDATED)
+    Conditional Generative Models for Learning Stochastic Processes. (arXiv:2304.10382v1 [quant-ph])
 
-    [http://arxiv.org/abs/2212.06984](http://arxiv.org/abs/2212.06984)
+    [http://arxiv.org/abs/2304.10382](http://arxiv.org/abs/2304.10382)
 
-    本论文研究了激励低碳能源投资的市场机制，并保护消费者免受供应短缺造成的高价影响。研究提出了一种新的市场机制（PIU），通过罚款支付、供应激励和能源价格抬升来减少供应短缺价格的影响。通过建立博弈论框架，证明了在罚款支付和供应激励的情况下存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。
-
-    
-
-    电力市场正从传统能源资源（如化石燃料）的主导地位转向低碳能源资源（如可再生能源和储能）。本研究研究了激励低碳能源投资的市场机制，同时确保投资者获得足够的市场收入，引导投资者的战略投资达到社会最优，并保护消费者免受供应短缺造成的高价影响。为了减少供应短缺价格的影响，我们提出了一种新的市场机制，包括失掉负荷的罚款支付、供应激励和能源价格抬升（PIU）。我们建立了一个博弈论框架来分析市场均衡。我们证明，在罚款支付和供应激励的情况下，存在一个纳什均衡点可以达到社会最优，假设传统能源资源的供应成本为二次函数。虽然能源价格抬升可以确保足够的收入，但所得的系统成本偏离了社会最优，这个差距随着更多传统能源资源的退役而减少。
-
-    Electricity markets are transforming from the dominance of conventional energy resources (CERs), e.g., fossil fuels, to low-carbon energy resources (LERs), e.g., renewables and energy storage. This work examines market mechanisms to incentivize LER investments, while ensuring adequate market revenues for investors, guiding investors' strategic investments towards social optimum, and protecting consumers from scarcity prices. To reduce the impact of excessive scarcity prices, we present a new market mechanism, which consists of a Penalty payment for lost load, a supply Incentive, and an energy price Uplift (PIU). We establish a game-theoretical framework to analyze market equilibrium. We prove that one Nash equilibrium under the penalty payment and supply incentive can reach the social optimum given quadratic supply costs of CERs. Although the price uplift can ensure adequate revenues, the resulting system cost deviates from the social optimum while the gap decreases as more CERs retire
-    
-[^12]: 规模经济和产品差异化形成的贸易网络的构建
-
-    Formation of trade networks by economies of scale and product differentiation. (arXiv:2212.02841v2 [physics.soc-ph] UPDATED)
-
-    [http://arxiv.org/abs/2212.02841](http://arxiv.org/abs/2212.02841)
-
-    本文研究了贸易网络的形成，在个体决策的基础上建立了一个新的模型，考虑了比较优势、经济规模效应、个体异质性和运输成本等因素。通过数值模拟和统计力学方法，我们揭示了三种不同的贸易网络结构。
+    提出了一种称为 C-qGAN 的框架，利用量子电路结构实现了有效的状态准备过程，可以利用该方法加速蒙特卡罗分析等算法，并将其应用于亚式期权衍生品定价的任务中。
 
     
 
-    理解网络的结构和形成是复杂性科学的一个核心主题。经济网络是通过个体决策形成的，因此不能用传统的随机图模型来准确描述。本文建立了一个基于个体决策的贸易网络形成模型。该模型包括贸易形成的关键因素：比较优势和经济规模效应，同时还考虑了个体的异质性和运输或交易成本。数值模拟显示出形成的贸易网络有三种宏观不同的制度。根据具体的运输成本和个体偏好的异质性，我们发现中央集中生产与星型贸易网络、分散生产与全球贸易、局部生产与无贸易之间的转变。利用统计力学的方法，我们提供了关于这些转变的解析理论。
+    提出了一种学习多模态分布的框架，称为条件量子生成对抗网络（C-qGAN）。神经网络结构严格采用量子电路，因此被证明能够比当前的方法更有效地表示状态准备过程。这种方法有潜力加速蒙特卡罗分析等算法。特别地，在展示了网络在学习任务中的有效性后，将该技术应用于定价亚式期权衍生品，为未来研究其他路径相关期权打下基础。
 
-    Understanding the structure and formation of networks is a central topic in complexity science. Economic networks are formed by decisions of individual agents and thus not properly described by established random graph models. In this article, we establish a model for the emergence of trade networks that is based on rational decisions of individual agents. The model incorporates key drivers for the emergence of trade, comparative advantage and economic scale effects, but also the heterogeneity of agents and the transportation or transaction costs. Numerical simulations show three macroscopically different regimes of the emerging trade networks. Depending on the specific transportation costs and the heterogeneity of individual preferences, we find centralized production with a star-like trade network, distributed production with all-to-all trading or local production and no trade. Using methods from statistical mechanics, we provide an analytic theory of the transitions between these re
+    A framework to learn a multi-modal distribution is proposed, denoted as the Conditional Quantum Generative Adversarial Network (C-qGAN). The neural network structure is strictly within a quantum circuit and, as a consequence, is shown to represents a more efficient state preparation procedure than current methods. This methodology has the potential to speed-up algorithms, such as Monte Carlo analysis. In particular, after demonstrating the effectiveness of the network in the learning task, the technique is applied to price Asian option derivatives, providing the foundation for further research on other path-dependent options.
+    
+[^7]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
+
+    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
+
+    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
+
+    
+
+    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
+
+    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
+    
+[^8]: 面向时序表格数据的动态特征工程和模型选择方法在制度变化下的应用
+
+    Dynamic Feature Engineering and model selection methods for temporal tabular datasets with regime changes. (arXiv:2301.00790v2 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2301.00790](http://arxiv.org/abs/2301.00790)
+
+    本文提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。使用梯度提升决策树（GBDT）并结合dropout技术的模型具有良好的性能和泛化能力，而动态特征中和则是一种高效而不需要重新训练模型就可以应用于任何机器学习模型中的后处理技术。
+
+    
+
+    由于严重的非平稳性，将深度学习算法应用于时序面板数据集是困难的，这可能导致过度拟合的模型在制度变化下性能不佳。在本文中，我们提出了一种新的机器学习管道，用于在数据制度变化下对时序面板数据集的预测进行排名。管道评估不同的机器学习模型，包括梯度提升决策树（GBDT）和具有和不具有简单特征工程的神经网络。我们发现，具有dropout的GBDT模型具有高性能、稳健性和泛化能力，而且相对复杂度较低、计算成本较低。然后，我们展示了在线学习技术可以在预测后处理中用于增强结果。特别地，我们提出了动态特征中和，这是一种无需重新训练模型就可以应用于任何机器学习模型的高效过程。
+
+    The application of deep learning algorithms to temporal panel datasets is difficult due to heavy non-stationarities which can lead to over-fitted models that under-perform under regime changes. In this work we propose a new machine learning pipeline for ranking predictions on temporal panel datasets which is robust under regime changes of data. Different machine-learning models, including Gradient Boosting Decision Trees (GBDTs) and Neural Networks with and without simple feature engineering are evaluated in the pipeline with different settings. We find that GBDT models with dropout display high performance, robustness and generalisability with relatively low complexity and reduced computational cost. We then show that online learning techniques can be used in post-prediction processing to enhance the results. In particular, dynamic feature neutralisation, an efficient procedure that requires no retraining of models and can be applied post-prediction to any machine learning model, impr
+    
+[^9]: 用于温度衍生品定价的随机波动模型
+
+    A stochastic volatility model for the valuation of temperature derivatives. (arXiv:2209.05918v2 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2209.05918](http://arxiv.org/abs/2209.05918)
+
+    本文提出了一种新的随机波动模型，用于温度的估值，该模型在处理极端事件时更加谨慎，同时保持可追踪性，并提供了一种有效计算天气衍生品平均支付的方法。
+
+    
+
+    本文提出了一种新的随机波动模型，用于温度的估值，这是Benth和Benth（2007）提出的Ornstein-Uhlenbeck模型的自然延伸。该模型在保持可追踪性的同时，更加谨慎地处理极端事件。我们提供了一种基于条件最小二乘法的方法，在每日数据上估计参数，并在八个主要的欧洲城市中估计我们的模型。然后，我们展示了如何通过蒙特卡罗和傅里叶变换技术有效地计算天气衍生品的平均支付。这种新模型可以更好地评估与温度波动相关的风险。
+
+    This paper develops a new stochastic volatility model for the temperature that is a natural extension of the Ornstein-Uhlenbeck model proposed by Benth and Benth (2007). This model allows to be more conservative regarding extreme events while keeping tractability. We give a method based on Conditional Least Squares to estimate the parameters on daily data and estimate our model on eight major European cities. We then show how to calculate efficiently the average payoff of weather derivatives both by Monte-Carlo and Fourier transform techniques. This new model allows to better assess the risk related to temperature volatility.
+    
+[^10]: 模型不确定性下的成本效益收益
+
+    Cost-efficient Payoffs under Model Ambiguity. (arXiv:2207.02948v2 [q-fin.PM] UPDATED)
+
+    [http://arxiv.org/abs/2207.02948](http://arxiv.org/abs/2207.02948)
+
+    该论文研究了在模型不确定性下寻找成本效益收益的问题，并确定了鲁棒成本效益收益的解决方案。研究表明最大最小鲁棒期望效用的解也是鲁棒成本效益收益的解。通过示例说明了不确定性对收益的影响。
+
+    
+
+    Dybvig（1988a，b）在完全市场的条件下解决了寻找最便宜的达成给定目标分布的收益（“成本效益收益”）的问题。然而，在不确定性存在的情况下，收益的分布不再确定。我们研究了在满足一定条件下找到最便宜的收益，其最差情况下的分布随机优于给定目标分布（“鲁棒成本效益收益”）的问题，并确定了解决方案。我们还研究了Gilboa和Schmeidler的最大最小期望效用设置和在可能的非期望效用设置中的鲁棒偏好与“鲁棒成本效益收益”之间的联系。具体来说，我们证明了最大最小鲁棒期望效用的解必然是鲁棒成本效益收益。我们通过包括风险资产的漂移和波动性的不确定性的示例来说明我们的研究。
+
+    Dybvig (1988a,b) solves in a complete market setting the problem of finding a payoff that is cheapest possible in reaching a given target distribution ("cost-efficient payoff"). In the presence of ambiguity, the distribution of a payoff is, however, no longer known with certainty. We study the problem of finding the cheapest possible payoff whose worst-case distribution stochastically dominates a given target distribution ("robust cost-efficient payoff") and determine solutions under certain conditions. We study the link between "robust cost-efficiency" and the maxmin expected utility setting of Gilboa and Schmeidler, as well as more generally with robust preferences in a possibly non-expected utility setting. Specifically, we show that solutions to maxmin robust expected utility are necessarily robust cost-efficient. We illustrate our study with examples involving uncertainty both on the drift and on the volatility of the risky asset.
+    
+[^11]: 极化和交换：政党凝聚力的作用。
+
+    Polarization and Quid Pro Quo: The Role of Party Cohesiveness. (arXiv:2205.07486v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.07486](http://arxiv.org/abs/2205.07486)
+
+    研究表明，一个利益集团是否能够利用不断增加的意识形态和情感极化获利取决于两个政党社交网络相对凝聚度的聚合度量，而在没有意识形态 polarization 的情况下，两个政党社交网络的相对凝聚度则变得无关紧要。
+
+    
+
+    什么情况下，利益集团才能利用政党之间的意识形态和情感极化来获取利益？我们研究了一个模型，其中利益集团可信地承诺向立法者支付款项，条件是他们投票支持其支持的政策。议员们看重在党内的朋友投票，如果违反其党派的意识形态优先政策投票，则会受到一种意识形态上的不利。情感上的极化，由于其人际关系的本质，在模型中假设议员重视将其投票决策与反对党议员区分开来。我们的主要发现是，两个政党社交网络相对凝聚度的聚合度量确定了利益集团能否利用不断增加的极化获利。然而，如果两个政党之间没有意识形态 polarization，则相对凝聚度的意义将消失。
+
+    When can an interest group exploit ideological and affective polarization between political parties to its advantage? We study a model where an interest group credibly promises payments to legislators conditional on voting for its favored policy. Legislators value voting as their friends within their party, and suffer an ideological-disutility upon voting against their party's ideologically preferred policy. Affective polarization, owing to its interpersonal nature, is modeled by assuming a legislator values distinguishing her voting decision from legislators in the opposite party. Our main finding is that an aggregate measure of relative cohesiveness of social networks in the two parties determines whether the interest group can profitably exploit increasing polarization. However, the significance of relative cohesiveness vanishes if there is no ideological polarization between the two parties.
     
 

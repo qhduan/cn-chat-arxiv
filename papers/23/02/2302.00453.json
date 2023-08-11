@@ -1,0 +1,11 @@
+{
+    "title": "Width and Depth Limits Commute in Residual Networks. (arXiv:2302.00453v2 [stat.ML] UPDATED)",
+    "abstract": "We show that taking the width and depth to infinity in a deep neural network with skip connections, when branches are scaled by $1/\\sqrt{depth}$ (the only nontrivial scaling), result in the same covariance structure no matter how that limit is taken. This explains why the standard infinite-width-then-depth approach provides practical insights even for networks with depth of the same order as width. We also demonstrate that the pre-activations, in this case, have Gaussian distributions which has direct applications in Bayesian deep learning. We conduct extensive simulations that show an excellent match with our theoretical findings.",
+    "link": "http://arxiv.org/abs/2302.00453",
+    "context": "Title: Width and Depth Limits Commute in Residual Networks. (arXiv:2302.00453v2 [stat.ML] UPDATED)\nAbstract: We show that taking the width and depth to infinity in a deep neural network with skip connections, when branches are scaled by $1/\\sqrt{depth}$ (the only nontrivial scaling), result in the same covariance structure no matter how that limit is taken. This explains why the standard infinite-width-then-depth approach provides practical insights even for networks with depth of the same order as width. We also demonstrate that the pre-activations, in this case, have Gaussian distributions which has direct applications in Bayesian deep learning. We conduct extensive simulations that show an excellent match with our theoretical findings.",
+    "path": "papers/23/02/2302.00453.json",
+    "total_tokens": 903,
+    "translated_title": "深度残差网络中宽度和深度极限的通行",
+    "translated_abstract": "本文研究了带有跳跃连接的深度神经网络中，当枝干按比例$1/\\sqrt{depth}$缩放时，将宽度和深度趋向无穷得到的协方差结构是相同的。这解释了为什么标准的宽度无限、然后深度趋向无穷的方法对于深度和宽度处于相同阶数的网络也能提供实际洞见。我们还证明了在这种情况下，预激活具有高斯分布，这在贝叶斯深度学习中具有直接应用。我们进行了大量模拟实验，结果与理论发现非常吻合。",
+    "tldr": "本文研究了深度残差网络中宽度和深度的极限情况，发现当枝干按比例缩放时，得到的协方差结构是相同的。这一发现解释了为什么即使深度和宽度处于相同阶数的网络，标准的宽度无限、然后深度趋向无穷的方法也能提供实际洞见。此外，本文还证明了在这种情况下预激活具有高斯分布，这对贝叶斯深度学习具有直接应用。通过大量模拟实验证明了理论发现的准确性。"
+}

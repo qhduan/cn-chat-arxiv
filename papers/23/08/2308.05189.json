@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchical Representations for Spatio-Temporal Visual Attention Modeling and Understanding. (arXiv:2308.05189v1 [cs.CV])",
+    "abstract": "This PhD. Thesis concerns the study and development of hierarchical representations for spatio-temporal visual attention modeling and understanding in video sequences. More specifically, we propose two computational models for visual attention. First, we present a generative probabilistic model for context-aware visual attention modeling and understanding. Secondly, we develop a deep network architecture for visual attention modeling, which first estimates top-down spatio-temporal visual attention, and ultimately serves for modeling attention in the temporal domain.",
+    "link": "http://arxiv.org/abs/2308.05189",
+    "context": "Title: Hierarchical Representations for Spatio-Temporal Visual Attention Modeling and Understanding. (arXiv:2308.05189v1 [cs.CV])\nAbstract: This PhD. Thesis concerns the study and development of hierarchical representations for spatio-temporal visual attention modeling and understanding in video sequences. More specifically, we propose two computational models for visual attention. First, we present a generative probabilistic model for context-aware visual attention modeling and understanding. Secondly, we develop a deep network architecture for visual attention modeling, which first estimates top-down spatio-temporal visual attention, and ultimately serves for modeling attention in the temporal domain.",
+    "path": "papers/23/08/2308.05189.json",
+    "total_tokens": 660,
+    "translated_title": "基于层次化表示的时空视觉注意力建模和理解",
+    "translated_abstract": "本博士论文研究和开发了基于层次化表示的时空视觉注意力建模和理解方法，针对视频序列中的视觉注意力问题，提出了两种计算模型。首先，我们提出了一种上下文感知的生成概率模型用于视觉注意力建模和理解。其次，我们开发了一个深度网络架构，用于建模上行的时空视觉注意力，并最终用于建模时间领域中的注意力。",
+    "tldr": "本文研究了基于层次化表示的时空视觉注意力建模和理解，在视频序列中提出了上下文感知的生成概率模型以及用于建模时空视觉注意力和时间领域注意力的深度网络架构。",
+    "en_tdlr": "This PhD. Thesis introduces hierarchical representations for spatio-temporal visual attention modeling and understanding. It proposes a generative probabilistic model for context-aware visual attention and develops a deep network architecture for modeling top-down spatio-temporal attention and attention in the temporal domain in video sequences."
+}

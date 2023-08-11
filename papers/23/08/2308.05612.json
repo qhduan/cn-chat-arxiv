@@ -1,0 +1,12 @@
+{
+    "title": "A Smart Robotic System for Industrial Plant Supervision. (arXiv:2308.05612v1 [cs.RO])",
+    "abstract": "In today's chemical production plants, human field operators perform frequent checks on the plant's integrity to guarantee high safety standards, and thus are possibly the first to encounter dangerous operating conditions. To alleviate their tasks of failure detection and monitoring by audio, visual, and olfactory perceptions, we present a robotic system that consists of an autonomously navigating robot integrated with various sensors and data processing. We aim to resemble the human sensing and interpretation capabilities of sight, smell, and hearing, for providing automated inspection. We evaluate our system extensively at a wastewater facility in full working conditions. Our results demonstrate that the system is able to robustly navigate a plant and to provide useful information about critical operating conditions.",
+    "link": "http://arxiv.org/abs/2308.05612",
+    "context": "Title: A Smart Robotic System for Industrial Plant Supervision. (arXiv:2308.05612v1 [cs.RO])\nAbstract: In today's chemical production plants, human field operators perform frequent checks on the plant's integrity to guarantee high safety standards, and thus are possibly the first to encounter dangerous operating conditions. To alleviate their tasks of failure detection and monitoring by audio, visual, and olfactory perceptions, we present a robotic system that consists of an autonomously navigating robot integrated with various sensors and data processing. We aim to resemble the human sensing and interpretation capabilities of sight, smell, and hearing, for providing automated inspection. We evaluate our system extensively at a wastewater facility in full working conditions. Our results demonstrate that the system is able to robustly navigate a plant and to provide useful information about critical operating conditions.",
+    "path": "papers/23/08/2308.05612.json",
+    "total_tokens": 696,
+    "translated_title": "自动化工厂监控的智能机器人系统",
+    "translated_abstract": "在现代化工生产厂中，人工操作员经常对工厂的完整性进行检查，以确保高安全标准，因此可能是第一个遇到危险操作条件的人。为了减轻他们在故障检测和监控方面的任务，我们提出了一个机器人系统，该系统由一个自主导航机器人和各种传感器和数据处理器组成。我们的目标是模拟人类的视觉、嗅觉和听觉感知和解释能力，以进行自动化检查。我们在一个废水处理设施中对我们的系统进行了广泛的评估，结果表明该系统能够稳定地导航工厂并提供有关关键操作条件的有用信息。",
+    "tldr": "我们提出了一个智能机器人系统，可以自动检查化工生产厂的完整性并提供关键操作条件的有用信息。",
+    "en_tdlr": "We propose a smart robotic system that can automatically inspect the integrity of chemical production plants and provide useful information about critical operating conditions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A survey of some recent developments in measures of association. (arXiv:2211.04702v2 [stat.ME] UPDATED)",
+    "abstract": "This paper surveys some recent developments in measures of association related to a new coefficient of correlation introduced by the author. A straightforward extension of this coefficient to standard Borel spaces (which includes all Polish spaces), overlooked in the literature so far, is proposed at the end of the survey.",
+    "link": "http://arxiv.org/abs/2211.04702",
+    "context": "Title: A survey of some recent developments in measures of association. (arXiv:2211.04702v2 [stat.ME] UPDATED)\nAbstract: This paper surveys some recent developments in measures of association related to a new coefficient of correlation introduced by the author. A straightforward extension of this coefficient to standard Borel spaces (which includes all Polish spaces), overlooked in the literature so far, is proposed at the end of the survey.",
+    "path": "papers/22/11/2211.04702.json",
+    "total_tokens": 528,
+    "translated_title": "关联度测量方法的一些最新发展综述",
+    "translated_abstract": "本文综述了与作者引入的一种新的相关系数相关的关联度测量方法的一些最新发展。并在综述的最后提出了一个对标准Borel空间（包括所有波兰空间）的直接推广，这一推广在文献中迄今被忽视。",
+    "tldr": "本文综述了与作者引入的一种新的相关系数相关的关联度测量方法的一些最新发展，并提出了一个对标准Borel空间的直接推广。",
+    "en_tdlr": "This paper surveys recent developments in measures of association related to a new coefficient of correlation introduced by the author, and proposes a direct extension to standard Borel spaces, which has been overlooked in the literature so far."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A stochastic volatility model for the valuation of temperature derivatives. (arXiv:2209.05918v2 [q-fin.RM] UPDATED)",
+    "abstract": "This paper develops a new stochastic volatility model for the temperature that is a natural extension of the Ornstein-Uhlenbeck model proposed by Benth and Benth (2007). This model allows to be more conservative regarding extreme events while keeping tractability. We give a method based on Conditional Least Squares to estimate the parameters on daily data and estimate our model on eight major European cities. We then show how to calculate efficiently the average payoff of weather derivatives both by Monte-Carlo and Fourier transform techniques. This new model allows to better assess the risk related to temperature volatility.",
+    "link": "http://arxiv.org/abs/2209.05918",
+    "context": "Title: A stochastic volatility model for the valuation of temperature derivatives. (arXiv:2209.05918v2 [q-fin.RM] UPDATED)\nAbstract: This paper develops a new stochastic volatility model for the temperature that is a natural extension of the Ornstein-Uhlenbeck model proposed by Benth and Benth (2007). This model allows to be more conservative regarding extreme events while keeping tractability. We give a method based on Conditional Least Squares to estimate the parameters on daily data and estimate our model on eight major European cities. We then show how to calculate efficiently the average payoff of weather derivatives both by Monte-Carlo and Fourier transform techniques. This new model allows to better assess the risk related to temperature volatility.",
+    "path": "papers/22/09/2209.05918.json",
+    "total_tokens": 727,
+    "translated_title": "用于温度衍生品定价的随机波动模型",
+    "translated_abstract": "本文提出了一种新的随机波动模型，用于温度的估值，这是Benth和Benth（2007）提出的Ornstein-Uhlenbeck模型的自然延伸。该模型在保持可追踪性的同时，更加谨慎地处理极端事件。我们提供了一种基于条件最小二乘法的方法，在每日数据上估计参数，并在八个主要的欧洲城市中估计我们的模型。然后，我们展示了如何通过蒙特卡罗和傅里叶变换技术有效地计算天气衍生品的平均支付。这种新模型可以更好地评估与温度波动相关的风险。",
+    "tldr": "本文提出了一种新的随机波动模型，用于温度的估值，该模型在处理极端事件时更加谨慎，同时保持可追踪性，并提供了一种有效计算天气衍生品平均支付的方法。",
+    "en_tdlr": "This paper develops a new stochastic volatility model for temperature valuation that is more conservative in handling extreme events while maintaining tractability, and provides an efficient method to calculate the average payoff of weather derivatives."
+}

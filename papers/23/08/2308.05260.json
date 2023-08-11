@@ -1,0 +1,12 @@
+{
+    "title": "AI4GCC -- Track 3: Consumption and the Challenges of Multi-Agent RL. (arXiv:2308.05260v1 [cs.AI])",
+    "abstract": "The AI4GCC competition presents a bold step forward in the direction of integrating machine learning with traditional economic policy analysis. Below, we highlight two potential areas for improvement that could enhance the competition's ability to identify and evaluate proposed negotiation protocols. Firstly, we suggest the inclusion of an additional index that accounts for consumption/utility as part of the evaluation criteria. Secondly, we recommend further investigation into the learning dynamics of agents in the simulator and the game theoretic properties of outcomes from proposed negotiation protocols. We hope that these suggestions can be of use for future iterations of the competition/simulation.",
+    "link": "http://arxiv.org/abs/2308.05260",
+    "context": "Title: AI4GCC -- Track 3: Consumption and the Challenges of Multi-Agent RL. (arXiv:2308.05260v1 [cs.AI])\nAbstract: The AI4GCC competition presents a bold step forward in the direction of integrating machine learning with traditional economic policy analysis. Below, we highlight two potential areas for improvement that could enhance the competition's ability to identify and evaluate proposed negotiation protocols. Firstly, we suggest the inclusion of an additional index that accounts for consumption/utility as part of the evaluation criteria. Secondly, we recommend further investigation into the learning dynamics of agents in the simulator and the game theoretic properties of outcomes from proposed negotiation protocols. We hope that these suggestions can be of use for future iterations of the competition/simulation.",
+    "path": "papers/23/08/2308.05260.json",
+    "total_tokens": 760,
+    "translated_title": "AI4GCC -- 第三项赛道：消费和多机器人强化学习的挑战",
+    "translated_abstract": "AI4GCC竞赛在将机器学习与传统经济政策分析相结合的方向上迈出了大胆的一步。在下面，我们强调了两个潜在的改进领域，可以增强比赛的能力，以识别和评估提出的谈判协议。首先，我们建议在评估标准中增加一个额外的指标，考虑到消费/效用。其次，我们建议进一步研究模拟器中代理的学习动力学以及来自提出的谈判协议的博弈论属性的结果。我们希望这些建议对未来的比赛/模拟有所帮助。",
+    "tldr": "AI4GCC竞赛在将机器学习与传统经济政策分析相结合的方向上迈出重要一步。建议改进评估标准，考虑消费/效用，并进一步研究代理的学习动力学及谈判协议的博弈论属性。",
+    "en_tdlr": "The AI4GCC competition is an important step towards integrating machine learning with traditional economic policy analysis. It is suggested to improve the evaluation criteria by considering consumption/utility and further investigate the learning dynamics of agents and the game theoretic properties of proposed negotiation protocols."
+}

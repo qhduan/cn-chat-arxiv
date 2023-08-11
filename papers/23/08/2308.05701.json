@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Potential of World Models for Anomaly Detection in Autonomous Driving. (arXiv:2308.05701v1 [cs.AI])",
+    "abstract": "In recent years there have been remarkable advancements in autonomous driving. While autonomous vehicles demonstrate high performance in closed-set conditions, they encounter difficulties when confronted with unexpected situations. At the same time, world models emerged in the field of model-based reinforcement learning as a way to enable agents to predict the future depending on potential actions. This led to outstanding results in sparse reward and complex control tasks. This work provides an overview of how world models can be leveraged to perform anomaly detection in the domain of autonomous driving. We provide a characterization of world models and relate individual components to previous works in anomaly detection to facilitate further research in the field.",
+    "link": "http://arxiv.org/abs/2308.05701",
+    "context": "Title: Exploring the Potential of World Models for Anomaly Detection in Autonomous Driving. (arXiv:2308.05701v1 [cs.AI])\nAbstract: In recent years there have been remarkable advancements in autonomous driving. While autonomous vehicles demonstrate high performance in closed-set conditions, they encounter difficulties when confronted with unexpected situations. At the same time, world models emerged in the field of model-based reinforcement learning as a way to enable agents to predict the future depending on potential actions. This led to outstanding results in sparse reward and complex control tasks. This work provides an overview of how world models can be leveraged to perform anomaly detection in the domain of autonomous driving. We provide a characterization of world models and relate individual components to previous works in anomaly detection to facilitate further research in the field.",
+    "path": "papers/23/08/2308.05701.json",
+    "total_tokens": 722,
+    "translated_title": "探索世界模型在自动驾驶异常检测中的潜力",
+    "translated_abstract": "近年来，自动驾驶技术取得了显著进展。尽管自动驾驶车辆在封闭条件下表现出高性能，但在面对意外情况时遇到困难。与此同时，世界模型在基于模型的增强学习领域中出现，作为一种使智能体能够根据潜在行动预测未来的方式。这在稀疏奖励和复杂控制任务中取得了出色的结果。本文概述了如何利用世界模型在自动驾驶领域进行异常检测，并将各个组成部分与先前的异常检测工作相关联，以促进进一步的研究。",
+    "tldr": "本文探讨了在自动驾驶领域利用世界模型进行异常检测的潜力，并提供了相关研究的概述和组成部分的联系。",
+    "en_tdlr": "This paper explores the potential of using world models for anomaly detection in autonomous driving, providing an overview of the related research and the relationship between individual components."
+}

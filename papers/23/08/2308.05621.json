@@ -1,0 +1,12 @@
+{
+    "title": "Normalized Gradients for All. (arXiv:2308.05621v1 [cs.LG])",
+    "abstract": "In this short note, I show how to adapt to H\\\"{o}lder smoothness using normalized gradients in a black-box way. Moreover, the bound will depend on a novel notion of local H\\\"{o}lder smoothness. The main idea directly comes from Levy [2017].",
+    "link": "http://arxiv.org/abs/2308.05621",
+    "context": "Title: Normalized Gradients for All. (arXiv:2308.05621v1 [cs.LG])\nAbstract: In this short note, I show how to adapt to H\\\"{o}lder smoothness using normalized gradients in a black-box way. Moreover, the bound will depend on a novel notion of local H\\\"{o}lder smoothness. The main idea directly comes from Levy [2017].",
+    "path": "papers/23/08/2308.05621.json",
+    "total_tokens": 531,
+    "translated_title": "所有情况下的标准化梯度",
+    "translated_abstract": "在这篇简短的论文中，我展示了如何以黑盒的方式利用标准化梯度来适应 H\\\"{o}lder 光滑性。此外，这个界限将依赖于局部 H\\\"{o}lder 光滑性的一种新概念。主要思想直接来自于 Levy [2017]。",
+    "tldr": "这篇论文提出了一种利用标准化梯度适应 H\\\"{o}lder 光滑性的方法，并引入了局部 H\\\"{o}lder 光滑性的新概念。",
+    "en_tdlr": "This paper presents a method for adapting to H\\\"{o}lder smoothness using normalized gradients, and introduces a novel notion of local H\\\"{o}lder smoothness."
+}

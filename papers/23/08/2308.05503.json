@@ -1,0 +1,11 @@
+{
+    "title": "EFX Allocations Exist for Binary Valuations. (arXiv:2308.05503v1 [cs.CE])",
+    "abstract": "We study the fair division problem and the existence of allocations satisfying the fairness criterion envy-freeness up to any item (EFX). The existence of EFX allocations is a major open problem in the fair division literature. We consider binary valuations where the marginal gain of the value by receiving an extra item is either $0$ or $1$. Babaioff et al. [2021] proved that EFX allocations always exist for binary and submodular valuations. In this paper, by using completely different techniques, we extend this existence result to general binary valuations that are not necessarily submodular, and we present a polynomial time algorithm for computing an EFX allocation.",
+    "link": "http://arxiv.org/abs/2308.05503",
+    "context": "Title: EFX Allocations Exist for Binary Valuations. (arXiv:2308.05503v1 [cs.CE])\nAbstract: We study the fair division problem and the existence of allocations satisfying the fairness criterion envy-freeness up to any item (EFX). The existence of EFX allocations is a major open problem in the fair division literature. We consider binary valuations where the marginal gain of the value by receiving an extra item is either $0$ or $1$. Babaioff et al. [2021] proved that EFX allocations always exist for binary and submodular valuations. In this paper, by using completely different techniques, we extend this existence result to general binary valuations that are not necessarily submodular, and we present a polynomial time algorithm for computing an EFX allocation.",
+    "path": "papers/23/08/2308.05503.json",
+    "total_tokens": 695,
+    "translated_title": "二进制估值的EFX分配存在问题",
+    "translated_abstract": "我们研究了公平分配问题以及满足公平条件（EFX）的分配的存在性。EFX分配的存在性是公平分配文献中的一个重要开放问题。我们考虑二进制估值，其中通过获得额外物品的边际增益为0或1。Babaioff等人[2021]证明了对于二进制和次模的估值，EFX分配总是存在的。在本文中，通过使用完全不同的技术，我们将这个存在性结果扩展到一般的二进制估值上，并提出了一个计算EFX分配的多项式时间算法。",
+    "tldr": "本文研究了公平分配问题中的EFX分配的存在性，扩展了之前对二进制和次模估值的结论，提出了一个计算EFX分配的多项式时间算法。"
+}

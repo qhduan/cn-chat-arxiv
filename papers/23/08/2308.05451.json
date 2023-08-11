@@ -1,0 +1,12 @@
+{
+    "title": "A Forecaster's Review of Judea Pearl's Causality: Models, Reasoning and Inference, Second Edition, 2009. (arXiv:2308.05451v1 [stat.ME])",
+    "abstract": "With the big popularity and success of Judea Pearl's original causality book, this review covers the main topics updated in the second edition in 2009 and illustrates an easy-to-follow causal inference strategy in a forecast scenario. It further discusses some potential benefits and challenges for causal inference with time series forecasting when modeling the counterfactuals, estimating the uncertainty and incorporating prior knowledge to estimate causal effects in different forecasting scenarios.",
+    "link": "http://arxiv.org/abs/2308.05451",
+    "context": "Title: A Forecaster's Review of Judea Pearl's Causality: Models, Reasoning and Inference, Second Edition, 2009. (arXiv:2308.05451v1 [stat.ME])\nAbstract: With the big popularity and success of Judea Pearl's original causality book, this review covers the main topics updated in the second edition in 2009 and illustrates an easy-to-follow causal inference strategy in a forecast scenario. It further discusses some potential benefits and challenges for causal inference with time series forecasting when modeling the counterfactuals, estimating the uncertainty and incorporating prior knowledge to estimate causal effects in different forecasting scenarios.",
+    "path": "papers/23/08/2308.05451.json",
+    "total_tokens": 716,
+    "translated_title": "《因果：模型、推理与推断》第二版的一位预测员的评述",
+    "translated_abstract": "鉴于朱迪亚·珀尔原著《因果》的巨大普及和成功，本评述介绍了2009年第二版更新的主要内容，并展示了一种易于跟随的预测场景下的因果推断策略。此外，还讨论了在建模反事实、估计不确定性以及融入先前知识以在不同预测场景下估计因果效应时，使用时间序列预测进行因果推断可能带来的一些潜在益处和挑战。",
+    "tldr": "本文评述了朱迪亚·珀尔的《因果：模型、推理与推断》第二版，重点介绍了其中的更新内容以及一种易于跟随的预测场景下的因果推断策略，并讨论了在时间序列预测中应用因果推断所面临的潜在益处和挑战。",
+    "en_tdlr": "This review covers the updated topics in Judea Pearl's \"Causality: Models, Reasoning and Inference\" second edition, and introduces an easy-to-follow causal inference strategy in a forecast scenario. It also discusses the potential benefits and challenges in using causal inference for time series forecasting."
+}

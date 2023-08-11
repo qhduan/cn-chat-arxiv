@@ -1,0 +1,12 @@
+{
+    "title": "The Decision-Conflict Logit. (arXiv:2008.04229v8 [econ.TH] UPDATED)",
+    "abstract": "We introduce the *decision-conflict logit*, a simple and disciplined extension of the logit with an outside option that assigns a menu-dependent utility to that option. The relative value of this utility at a menu could be interpreted as proxying decision difficulty and determines the probability of avoiding/delaying choice at that menu. We focus on two intuitively structured special cases of the model that offer complementary insights, and argue that they explain a variety of observed choice-deferral effects that are caused by hard decisions. We conclude by illustrating the usability of the proposed modelling framework in applications.",
+    "link": "http://arxiv.org/abs/2008.04229",
+    "context": "Title: The Decision-Conflict Logit. (arXiv:2008.04229v8 [econ.TH] UPDATED)\nAbstract: We introduce the *decision-conflict logit*, a simple and disciplined extension of the logit with an outside option that assigns a menu-dependent utility to that option. The relative value of this utility at a menu could be interpreted as proxying decision difficulty and determines the probability of avoiding/delaying choice at that menu. We focus on two intuitively structured special cases of the model that offer complementary insights, and argue that they explain a variety of observed choice-deferral effects that are caused by hard decisions. We conclude by illustrating the usability of the proposed modelling framework in applications.",
+    "path": "papers/20/08/2008.04229.json",
+    "total_tokens": 724,
+    "translated_title": "决策冲突逻辑回归模型",
+    "translated_abstract": "我们引入了一种简单而有纪律性的扩展逻辑回归模型——决策冲突逻辑回归模型，该模型具有一个包含菜单相关效用的外部选择选项。这个选项的相对价值可以被解释为决策难度的代理变量，并决定了在该菜单上避免/延迟选择的概率。我们重点研究模型的两个直观结构的特殊情况，这给出了互补的见解，并论证了它们解释了由于难决策引起的各种观察到的推迟决策效应。最后，我们通过展示该建议模型框架的实用性来总结。",
+    "tldr": "决策冲突逻辑回归模型是一种模型扩展，具有外部选择选项和菜单相关效用。该模型解释了决策难度引起的推迟决策效应，并具有实践应用的可行性。",
+    "en_tdlr": "The decision-conflict logit is a model extension that incorporates an outside option and menu-dependent utility. It explains choice-deferral effects caused by decision difficulty and has practical applications."
+}
