@@ -1,0 +1,11 @@
+{
+    "title": "A method for escaping limit cycles in training GANs. (arXiv:2010.03322v3 [stat.ML] UPDATED)",
+    "abstract": "This paper mainly conducts further research to alleviate the issue of limit cycling behavior in training generative adversarial networks (GANs) through the proposed predictive centripetal acceleration algorithm (PCAA). Specifically, we first derive the upper and lower bounds on the last-iterate convergence rates of PCAA for the general bilinear game, with the upper bound notably improving upon previous results. Then, we combine PCAA with the adaptive moment estimation algorithm (Adam) to propose PCAA-Adam, a practical approach for training GANs. Finally, we validate the effectiveness of the proposed algorithm through experiments conducted on bilinear games, multivariate Gaussian distributions, and the CelebA dataset, respectively.",
+    "link": "http://arxiv.org/abs/2010.03322",
+    "context": "Title: A method for escaping limit cycles in training GANs. (arXiv:2010.03322v3 [stat.ML] UPDATED)\nAbstract: This paper mainly conducts further research to alleviate the issue of limit cycling behavior in training generative adversarial networks (GANs) through the proposed predictive centripetal acceleration algorithm (PCAA). Specifically, we first derive the upper and lower bounds on the last-iterate convergence rates of PCAA for the general bilinear game, with the upper bound notably improving upon previous results. Then, we combine PCAA with the adaptive moment estimation algorithm (Adam) to propose PCAA-Adam, a practical approach for training GANs. Finally, we validate the effectiveness of the proposed algorithm through experiments conducted on bilinear games, multivariate Gaussian distributions, and the CelebA dataset, respectively.",
+    "path": "papers/20/10/2010.03322.json",
+    "total_tokens": 759,
+    "translated_title": "一种用于逃逸训练GAN中的极限周期的方法",
+    "translated_abstract": "本文通过提出的预测离心加速度算法（PCAA），对训练生成对抗网络（GANs）中极限周期行为问题进行深入研究。具体而言，我们首先推导了PCAA在一般双线性博弈的最后迭代收敛速率的上下界，在上界方面得到了显著改进。然后，我们将PCAA与自适应矩估计算法（Adam）相结合，提出了一种用于训练GANs的实用方法PCAA-Adam。最后，我们通过在双线性博弈、多元高斯分布和CelebA数据集上进行的实验证明了所提出算法的有效性。",
+    "tldr": "本文提出了一种用于逃逸训练GAN中的极限周期的方法，通过预测离心加速度算法（PCAA）和自适应矩估计算法（Adam）相结合，有效改善了训练过程中的极限周期行为问题。"
+}

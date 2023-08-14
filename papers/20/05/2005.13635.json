@@ -1,0 +1,12 @@
+{
+    "title": "Towards AI Forensics: Did the Artificial Intelligence System Do It?. (arXiv:2005.13635v3 [cs.AI] UPDATED)",
+    "abstract": "Artificial intelligence (AI) makes decisions impacting our daily lives in an increasingly autonomous manner. Their actions might cause accidents, harm, or, more generally, violate regulations. Determining whether an AI caused a specific event and, if so, what triggered the AI's action, are key forensic questions. We provide a conceptualization of the problems and strategies for forensic investigation. We focus on AI that is potentially ``malicious by design'' and grey box analysis. Our evaluation using convolutional neural networks illustrates challenges and ideas for identifying malicious AI.",
+    "link": "http://arxiv.org/abs/2005.13635",
+    "context": "Title: Towards AI Forensics: Did the Artificial Intelligence System Do It?. (arXiv:2005.13635v3 [cs.AI] UPDATED)\nAbstract: Artificial intelligence (AI) makes decisions impacting our daily lives in an increasingly autonomous manner. Their actions might cause accidents, harm, or, more generally, violate regulations. Determining whether an AI caused a specific event and, if so, what triggered the AI's action, are key forensic questions. We provide a conceptualization of the problems and strategies for forensic investigation. We focus on AI that is potentially ``malicious by design'' and grey box analysis. Our evaluation using convolutional neural networks illustrates challenges and ideas for identifying malicious AI.",
+    "path": "papers/20/05/2005.13635.json",
+    "total_tokens": 711,
+    "translated_title": "朝向人工智能取证：人工智能系统是否做到了？(arXiv:2005.13635v3 [cs.AI] UPDATED)",
+    "translated_abstract": "人工智能（AI）以日益自主的方式做出影响我们日常生活的决策。它们的行为可能会导致事故、伤害，或者更普遍地违反规定。确定AI是否导致了特定事件，以及如果是这样，是什么触发了AI的行动，是关键的取证问题。我们提供了对这些问题的概念化和取证调查策略。我们重点研究可能是“恶意设计”的AI和灰盒分析。我们使用卷积神经网络进行评估，揭示了识别恶意AI的挑战和思路。",
+    "tldr": "本文关注人工智能是否导致特定事件以及触发AI行动的问题，提供了取证调查策略，并使用卷积神经网络评估了识别恶意AI的挑战和思路。",
+    "en_tdlr": "This paper focuses on determining whether artificial intelligence caused specific events and what triggered AI actions, and provides forensic investigation strategies. The challenges and ideas for identifying malicious AI are evaluated using convolutional neural networks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Option pricing under path-dependent stock models. (arXiv:2211.10953v2 [math.PR] UPDATED)",
+    "abstract": "This paper studies how to price and hedge options under stock models given as a path-dependent SDE solution. When the path-dependent SDE coefficients have Fr\\'{e}chet derivatives, an option price is differentiable with respect to time and the path, and is given as a solution to the path-dependent PDE. This can be regarded as a path-dependent version of the Feynman-Kac formula. As a byproduct, we obtain the differentiability of path-dependent SDE solutions and the SDE representation of their derivatives. In addition, we provide formulas for Greeks with path-dependent coefficient perturbations. A stock model having coefficients with time integration forms of paths is covered as an example.",
+    "link": "http://arxiv.org/abs/2211.10953",
+    "context": "Title: Option pricing under path-dependent stock models. (arXiv:2211.10953v2 [math.PR] UPDATED)\nAbstract: This paper studies how to price and hedge options under stock models given as a path-dependent SDE solution. When the path-dependent SDE coefficients have Fr\\'{e}chet derivatives, an option price is differentiable with respect to time and the path, and is given as a solution to the path-dependent PDE. This can be regarded as a path-dependent version of the Feynman-Kac formula. As a byproduct, we obtain the differentiability of path-dependent SDE solutions and the SDE representation of their derivatives. In addition, we provide formulas for Greeks with path-dependent coefficient perturbations. A stock model having coefficients with time integration forms of paths is covered as an example.",
+    "path": "papers/22/11/2211.10953.json",
+    "total_tokens": 725,
+    "translated_title": "基于路径依赖股票模型的期权定价",
+    "translated_abstract": "本文研究了如何在给定路径依赖SDE解的股票模型下定价和对冲期权。当路径依赖SDE系数具有弗雷歇导数时，期权价格对时间和路径可导，并且可以被视为路径依赖偏微分方程的解。这可以看作是费曼-卡克公式的路径依赖版本。作为附带结果，我们得到了路径依赖SDE解的可导性以及其导数的SDE表示。此外，我们提供了路径依赖系数扰动的希腊字母公式。作为示例，涵盖了具有路径的时间积分形式系数的股票模型。",
+    "tldr": "该论文研究了在路径依赖股票模型下如何定价和对冲期权，并提供了路径依赖SDE解的可导性和导数的SDE表示。",
+    "en_tdlr": "This paper investigates the pricing and hedging of options under path-dependent stock models, providing insights into the differentiability of path-dependent SDE solutions and their derivatives, as well as offering formulas for Greeks with path-dependent coefficient perturbations."
+}

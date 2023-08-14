@@ -2,187 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [SSLRec: A Self-Supervised Learning Library for Recommendation.](http://arxiv.org/abs/2308.05697) | SSLRec是一个自监督学习的推荐系统库，为评估各种SSL增强推荐系统提供了标准化、灵活和综合的框架。 |
-| [^2] | [Finding Already Debunked Narratives via Multistage Retrieval: Enabling Cross-Lingual, Cross-Dataset and Zero-Shot Learning.](http://arxiv.org/abs/2308.05680) | 本研究通过创建新的数据集、评估多语言预训练Transformer模型以及提出多阶段框架来解决了跨语言澄清检索问题。 |
-| [^3] | [LASIGE and UNICAGE solution to the NASA LitCoin NLP Competition.](http://arxiv.org/abs/2308.05609) | 本文介绍了LASIGE和UNICAGE在NASA LitCoin NLP竞赛中的解决方案，通过将产业界的数据工程解决方案与学术界的命名实体识别和关系抽取系统整合，成功地在大规模的生物医学文本处理任务中取得了显著成果。 |
-| [^4] | [Multi-domain Recommendation with Embedding Disentangling and Domain Alignment.](http://arxiv.org/abs/2308.05508) | 该研究提出了一种新的多领域推荐方法EDDA，它通过嵌入解耦推荐器和领域对齐两个关键组件分别解决了知识解耦和跨领域知识转移的挑战。 |
-| [^5] | [Bringing order into the realm of Transformer-based language models for artificial intelligence and law.](http://arxiv.org/abs/2308.05502) | 本文提供了第一个对基于Transformer的语言模型在法律领域的人工智能问题和任务中的方法的系统概述。文章旨在突出这一领域的研究进展，以进一步了解Transformer在支持法律流程中的AI成功贡献以及当前的局限性。 |
-| [^6] | [Product Review Image Ranking for Fashion E-commerce.](http://arxiv.org/abs/2308.05390) | 本文针对时尚电子商务平台上的产品评论图片排序问题，提出了一个简单而有效的训练过程，能够将最相关的图片显示在前面，对用户的在线购物选择和行为产生影响。 |
-| [^7] | [Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning.](http://arxiv.org/abs/2308.05379) | 这篇论文提出了一种行为增强的相关模型，利用自我监督学习，通过从用户历史行为数据中提取辅助查询-项目交互，来改进搜索引擎中的查询-项目匹配，提高准确性和鲁棒性。 |
-| [^8] | [Investigating disaster response through social media data and the Susceptible-Infected-Recovered (SIR) model: A case study of 2020 Western U.S. wildfire season.](http://arxiv.org/abs/2308.05281) | 该研究通过社交媒体数据和SIR模型研究了2020年西部美国火灾季的灾害响应。研究发现Twitter用户主要关注健康影响、损失和撤离三个主题，并使用SIR理论探索了这些主题在Twitter上的传播规模和速度。 |
-| [^9] | [Dual Intents Graph Modeling for User-centric Group Discovery.](http://arxiv.org/abs/2308.05013) | 本文研究了用户参与群组的激励意图，包括社交意图和个人兴趣意图，并提出了双重意图图模型来进行用户中心的群组发现任务。 |
-| [^10] | [Adapting Foundation Models for Information Synthesis of Wireless Communication Specifications.](http://arxiv.org/abs/2308.04033) | 本文介绍了NextGen Communications Copilot，这是一个用于无线通信规范信息综合的对话式人工智能工具。它采用基础模型，并引入了领域特定的数据库、上下文提取器和反馈机制，能够提供准确且相关的上下文信息，并结合专家反馈和数据贡献工具。在基准数据集的评估中，该系统展示了更多的优势。 |
-| [^11] | [From Retrieval to Generation: Efficient and Effective Entity Set Expansion.](http://arxiv.org/abs/2304.03531) | 本文提出了GenExpan，一种基于生成式预训练语言模型的实体集扩展框架，利用前缀树保证实体生成的有效性，采用自动生成的类名来引导模型生成同一类实体，从而提高了效率和可扩展性。 |
-| [^12] | [Metric Search for Rank List Compatibility Matching with Applications.](http://arxiv.org/abs/2303.11174) | 我们提出了一种新算法，利用Kendall-Tau距离来衡量用户在排名列表中的相似度，并应用级联度量树来提高搜索性能。通过实验验证，该算法能够在实际时间内返回最佳匹配的用户。 |
+| [^1] | [A Large Language Model Enhanced Conversational Recommender System.](http://arxiv.org/abs/2308.06212) | 一种基于大型语言模型的增强对话推荐系统，通过利用大型语言模型的推理和生成能力，有效地管理子任务、解决不同的子任务，并生成与用户交互的回应。 |
+| [^2] | [Identification of the Relevance of Comments in Codes Using Bag of Words and Transformer Based Models.](http://arxiv.org/abs/2308.06144) | 本研究通过使用词袋和基于Transformer的模型，对代码注释的相关性进行识别。在训练语料库中，探索了不同的特征工程和文本分类技术，并比较了传统词袋模型和Transformer模型的性能。 |
+| [^3] | [Toward a Better Understanding of Loss Functions for Collaborative Filtering.](http://arxiv.org/abs/2308.06091) | 现有研究已经表明，通过改进对齐和均匀性设计的损失函数可以实现显著的性能提升。本文提出了一种新的损失函数，称为MAWU，它考虑了数据集的独特模式。 |
+| [^4] | [Deep Context Interest Network for Click-Through Rate Prediction.](http://arxiv.org/abs/2308.06037) | 这篇论文提出了一种名为深度上下文兴趣网络（DCIN）的模型，该模型通过完整地建模点击及其展示上下文来学习用户的上下文感知兴趣，以提高点击率预测性能。 |
+| [^5] | [Designing a User Contextual Profile Ontology: A Focus on the Vehicle Sales Domain.](http://arxiv.org/abs/2308.06018) | 本研究设计了一个用户背景上下文的本体论，以汽车销售领域为重点，旨在填补将背景信息与不同的用户配置文件集成的研究空白。该本体论作为一个结构基础，标准化了用户配置文件和背景信息的表示，提高了系统捕捉用户偏好和背景信息的准确性。 |
+| [^6] | [Augmented Negative Sampling for Collaborative Filtering.](http://arxiv.org/abs/2308.05972) | 本文介绍了增强的负采样方法用于协同过滤，以解决现有方法中从原始项选择负样本的限制，并提出了模糊陷阱和信息歧视两个限制的解决方案。 |
+| [^7] | [LittleMu: Deploying an Online Virtual Teaching Assistant via Heterogeneous Sources Integration and Chain of Teach Prompts.](http://arxiv.org/abs/2308.05935) | 本文提出了一个虚拟的MOOC助教 LittleMu，通过整合异构数据源和教学提示链路来支持广泛范围的准确回答和知识相关的闲聊服务。 |
+| [^8] | [LTP-MMF: Towards Long-term Provider Max-min Fairness Under Recommendation Feedback Loops.](http://arxiv.org/abs/2308.05902) | 该论文提出了一种在线排序模型，名为长期供应商MMF，以解决推荐反馈循环下的长期供应商最大最小公平性的挑战。 |
+| [^9] | [Collaborative filtering to capture AI user's preferences as norms.](http://arxiv.org/abs/2308.02542) | 本论文提出了一种以协同过滤方法构建规范以捕捉AI用户偏好的新视角。 |
+| [^10] | [A Survey on Popularity Bias in Recommender Systems.](http://arxiv.org/abs/2308.01118) | 这篇综述论文讨论了推荐系统中的流行偏差问题，并回顾了现有的方法来检测、量化和减少流行偏差。它同时提供了计算度量的概述和主要技术方法的回顾。 |
+| [^11] | [Framework to Automatically Determine the Quality of Open Data Catalogs.](http://arxiv.org/abs/2307.15464) | 本文提出了一个框架，用于自动确定开放数据目录的质量，该框架可以分析核心质量维度并提供评估机制，同时也考虑到了非核心质量维度，旨在帮助数据驱动型组织基于可信的数据资产做出明智的决策。 |
+| [^12] | [Kuaipedia: a Large-scale Multi-modal Short-video Encyclopedia.](http://arxiv.org/abs/2211.00732) | Kuaipedia是一个大规模的多模式短视频百科全书，通过知识视频的形式，能够轻松表达网民对某个项目的各个方面的需求。 |
+| [^13] | [Lib-SibGMU -- A University Library Circulation Dataset for Recommender Systems Developmen.](http://arxiv.org/abs/2208.12356) | Lib-SibGMU是一个开放的大学图书馆借阅数据集，可以用于推荐系统开发。在该数据集上我们发现使用fastText模型作为向量化器可以获得竞争性的结果。 |
+| [^14] | [AdaMCT: Adaptive Mixture of CNN-Transformer for Sequential Recommendation.](http://arxiv.org/abs/2205.08776) | 这项研究提出了一种名为AdaMCT的适应性混合CNN-Transformer模型，用于顺序推荐。该模型结合了Transformer的全局注意机制和局部卷积滤波器，以更好地捕捉用户的长期和短期偏好，并通过个性化的方法确定混合重要性。另外，研究还提出了Squeeze-Excita方法，以同时考虑多个相关项目的购买选项。 |
 
 # 详细
 
-[^1]: SSLRec: 一个自监督学习的推荐系统库
+[^1]: 一个基于大型语言模型的增强对话推荐系统
 
-    SSLRec: A Self-Supervised Learning Library for Recommendation. (arXiv:2308.05697v1 [cs.IR])
+    A Large Language Model Enhanced Conversational Recommender System. (arXiv:2308.06212v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.05697](http://arxiv.org/abs/2308.05697)
+    [http://arxiv.org/abs/2308.06212](http://arxiv.org/abs/2308.06212)
 
-    SSLRec是一个自监督学习的推荐系统库，为评估各种SSL增强推荐系统提供了标准化、灵活和综合的框架。
-
-    
-
-    自监督学习（SSL）作为解决推荐系统中稀疏和噪声数据挑战的解决方案，在最近几年引起了广泛关注。尽管设计了越来越多的SSL算法来在不同领域中提供最先进的推荐性能（例如图协同过滤、顺序推荐、社交推荐、知识图增强推荐），但目前仍缺乏一个统一框架来整合不同领域的推荐算法。这样的框架可以作为自监督推荐算法的基石，统一现有方法的验证，并推动新方法的设计。为了解决这个问题，我们介绍了SSLRec，一个新颖的基准平台，为评估各种SSL增强推荐系统提供了标准化、灵活和综合的框架。SSLRec库具有模块化架构，可以方便用户评估最先进的推荐器。
-
-    Self-supervised learning (SSL) has gained significant interest in recent years as a solution to address the challenges posed by sparse and noisy data in recommender systems. Despite the growing number of SSL algorithms designed to provide state-of-the-art performance in various recommendation scenarios (e.g., graph collaborative filtering, sequential recommendation, social recommendation, KG-enhanced recommendation), there is still a lack of unified frameworks that integrate recommendation algorithms across different domains. Such a framework could serve as the cornerstone for self-supervised recommendation algorithms, unifying the validation of existing methods and driving the design of new ones. To address this gap, we introduce SSLRec, a novel benchmark platform that provides a standardized, flexible, and comprehensive framework for evaluating various SSL-enhanced recommenders. The SSLRec library features a modular architecture that allows users to easily evaluate state-of-the-art m
-    
-[^2]: 通过多阶段检索找到已经被澄清的叙述：实现跨语言、跨数据集和零样本学习
-
-    Finding Already Debunked Narratives via Multistage Retrieval: Enabling Cross-Lingual, Cross-Dataset and Zero-Shot Learning. (arXiv:2308.05680v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.05680](http://arxiv.org/abs/2308.05680)
-
-    本研究通过创建新的数据集、评估多语言预训练Transformer模型以及提出多阶段框架来解决了跨语言澄清检索问题。
+    一种基于大型语言模型的增强对话推荐系统，通过利用大型语言模型的推理和生成能力，有效地管理子任务、解决不同的子任务，并生成与用户交互的回应。
 
     
 
-    检索已经被澄清的叙述的任务旨在检测已经经过事实核查的故事。成功检测到已被澄清的声明不仅减少了专业事实核查人员的手动努力，还可以有助于减缓虚假信息的传播。由于缺乏可用数据，这是一个研究不足的问题，特别是在考虑跨语言任务时，即在检查的在线帖子的语言与事实核查文章的语言不同的情况下进行检索。本文通过以下方式填补了这一空白：（i）创建了一个新颖的数据集，以允许对已被澄清的叙述进行跨语言检索的研究，使用推文作为对事实核查文章数据库的查询；（ii）展示了一个全面的实验，以评估经过微调和现成的多语言预训练Transformer模型在这个任务上的性能；（iii）提出了一个新颖的多阶段框架，将这个跨语言澄清检索问题划分为不同的阶段。
+    对话推荐系统旨在通过对话界面向用户推荐高质量的物品。它通常包含多个子任务，如用户偏好获取、推荐、解释和物品信息搜索。为了开发有效的对话推荐系统，面临一些挑战：1）如何正确管理子任务；2）如何有效解决不同的子任务；3）如何正确生成与用户交互的回应。最近，大型语言模型展示了前所未有的推理和生成能力，为开发更强大的对话推荐系统提供了新的机会。在这项工作中，我们提出了一种新的基于大型语言模型的对话推荐系统，称为LLMCRS，来解决上述挑战。在子任务管理方面，我们利用大型语言模型的推理能力来有效地管理子任务。在子任务解决方面，我们将大型语言模型与不同子任务的专家模型相结合，实现了增强性能。在回应生成方面，我们利用生成能力来生成回应。
 
-    The task of retrieving already debunked narratives aims to detect stories that have already been fact-checked. The successful detection of claims that have already been debunked not only reduces the manual efforts of professional fact-checkers but can also contribute to slowing the spread of misinformation. Mainly due to the lack of readily available data, this is an understudied problem, particularly when considering the cross-lingual task, i.e. the retrieval of fact-checking articles in a language different from the language of the online post being checked. This paper fills this gap by (i) creating a novel dataset to enable research on cross-lingual retrieval of already debunked narratives, using tweets as queries to a database of fact-checking articles; (ii) presenting an extensive experiment to benchmark fine-tuned and off-the-shelf multilingual pre-trained Transformer models for this task; and (iii) proposing a novel multistage framework that divides this cross-lingual debunk ret
+    Conversational recommender systems (CRSs) aim to recommend high-quality items to users through a dialogue interface. It usually contains multiple sub-tasks, such as user preference elicitation, recommendation, explanation, and item information search. To develop effective CRSs, there are some challenges: 1) how to properly manage sub-tasks; 2) how to effectively solve different sub-tasks; and 3) how to correctly generate responses that interact with users. Recently, Large Language Models (LLMs) have exhibited an unprecedented ability to reason and generate, presenting a new opportunity to develop more powerful CRSs. In this work, we propose a new LLM-based CRS, referred to as LLMCRS, to address the above challenges. For sub-task management, we leverage the reasoning ability of LLM to effectively manage sub-task. For sub-task solving, we collaborate LLM with expert models of different sub-tasks to achieve the enhanced performance. For response generation, we utilize the generation abili
     
-[^3]: LASIGE和UNICAGE解决NASA LitCoin NLP竞赛的方案
+[^2]: 使用词袋和基于Transformer的模型识别代码评论的相关性
 
-    LASIGE and UNICAGE solution to the NASA LitCoin NLP Competition. (arXiv:2308.05609v1 [cs.CL])
+    Identification of the Relevance of Comments in Codes Using Bag of Words and Transformer Based Models. (arXiv:2308.06144v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.05609](http://arxiv.org/abs/2308.05609)
+    [http://arxiv.org/abs/2308.06144](http://arxiv.org/abs/2308.06144)
 
-    本文介绍了LASIGE和UNICAGE在NASA LitCoin NLP竞赛中的解决方案，通过将产业界的数据工程解决方案与学术界的命名实体识别和关系抽取系统整合，成功地在大规模的生物医学文本处理任务中取得了显著成果。
-
-    
-
-    对于大多数研究人员来说，生物医学自然语言处理（NLP）往往变得繁琐，往往是因为需要处理的文本数量和异质性。为了解决这个挑战，行业不断开发高效的工具并创建更灵活的工程解决方案。本文介绍了行业数据工程解决方案与命名实体识别（LasigeUnicage_NER）和关系抽取（BiOnt）的学术系统的整合。我们的设计反映了这些组件与其他数据集和生物医学本体的额外训练数据的外部知识的整合。我们在2022年LitCoin NLP挑战赛中使用了这个流水线，我们的团队LasigeUnicage获得了第七名奖项，约有200个参赛团队，反映了学术界（LASIGE）和产业界（Unicage）之间的成功合作。支持这项工作的软件可在
-
-    Biomedical Natural Language Processing (NLP) tends to become cumbersome for most researchers, frequently due to the amount and heterogeneity of text to be processed. To address this challenge, the industry is continuously developing highly efficient tools and creating more flexible engineering solutions. This work presents the integration between industry data engineering solutions for efficient data processing and academic systems developed for Named Entity Recognition (LasigeUnicage\_NER) and Relation Extraction (BiOnt). Our design reflects an integration of those components with external knowledge in the form of additional training data from other datasets and biomedical ontologies. We used this pipeline in the 2022 LitCoin NLP Challenge, where our team LasigeUnicage was awarded the 7th Prize out of approximately 200 participating teams, reflecting a successful collaboration between the academia (LASIGE) and the industry (Unicage). The software supporting this work is available at \
-    
-[^4]: 多领域推荐中的嵌入解耦与领域对齐
-
-    Multi-domain Recommendation with Embedding Disentangling and Domain Alignment. (arXiv:2308.05508v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.05508](http://arxiv.org/abs/2308.05508)
-
-    该研究提出了一种新的多领域推荐方法EDDA，它通过嵌入解耦推荐器和领域对齐两个关键组件分别解决了知识解耦和跨领域知识转移的挑战。
+    本研究通过使用词袋和基于Transformer的模型，对代码注释的相关性进行识别。在训练语料库中，探索了不同的特征工程和文本分类技术，并比较了传统词袋模型和Transformer模型的性能。
 
     
 
-    多领域推荐(MDR)旨在为具有重叠用户/物品的不同领域(例如产品类型)提供推荐，对于拥有多个服务的平台如亚马逊、Facebook和LinkedIn是常见的。现有的MDR模型面临两个挑战：首先，很难解耦可以泛化到所有领域的知识(例如，用户喜欢廉价的物品)与特定于单个领域的知识(例如，用户喜欢蓝色的服装但不喜欢蓝色的汽车)。其次，它们在具有小重叠的领域之间转移知识的能力有限。我们提出了一种名为EDDA的新的MDR方法，其中包含两个关键组成部分，即嵌入解耦推荐器和领域对齐，分别解决了这两个挑战。特别地，嵌入解耦推荐器分离了跨领域部分和单领域部分的模型和嵌入，而大多数现有的MDR方法只关注模型层面的解耦。领域对齐使用领域特定的对抗训练来提升不同领域之间的知识转移能力。
+    今年，信息检索论坛(FIRE)启动了一个共享任务，用于对不同代码段的评论进行分类。这是一个二元文本分类任务，目标是确定给定代码段的评论是否相关。印度科学教育与研究院博帕尔分院(IISERB)的BioNLP-IISERB小组参与了这项任务，并为五种不同的模型提交了五种运行结果。本文介绍了这些模型的概况和在训练语料库上的其他重要发现。这些方法涉及不同的特征工程方案和文本分类技术。对于词袋模型，我们探索了不同的分类器，如随机森林、支持向量机和逻辑回归，以识别给定训练语料库中的重要特征。此外，还研究了基于预训练Transformer的模型。
 
-    Multi-domain recommendation (MDR) aims to provide recommendations for different domains (e.g., types of products) with overlapping users/items and is common for platforms such as Amazon, Facebook, and LinkedIn that host multiple services. Existing MDR models face two challenges: First, it is difficult to disentangle knowledge that generalizes across domains (e.g., a user likes cheap items) and knowledge specific to a single domain (e.g., a user likes blue clothing but not blue cars). Second, they have limited ability to transfer knowledge across domains with small overlaps. We propose a new MDR method named EDDA with two key components, i.e., embedding disentangling recommender and domain alignment, to tackle the two challenges respectively. In particular, the embedding disentangling recommender separates both the model and embedding for the inter-domain part and the intra-domain part, while most existing MDR methods only focus on model-level disentangling. The domain alignment leverag
+    The Forum for Information Retrieval (FIRE) started a shared task this year for classification of comments of different code segments. This is binary text classification task where the objective is to identify whether comments given for certain code segments are relevant or not. The BioNLP-IISERB group at the Indian Institute of Science Education and Research Bhopal (IISERB) participated in this task and submitted five runs for five different models. The paper presents the overview of the models and other significant findings on the training corpus. The methods involve different feature engineering schemes and text classification techniques. The performance of the classical bag of words model and transformer-based models were explored to identify significant features from the given training corpus. We have explored different classifiers viz., random forest, support vector machine and logistic regression using the bag of words model. Furthermore, the pre-trained transformer based models 
     
-[^5]: 将顺序带入基于Transformer的语言模型中，用于人工智能和法律的应用
+[^3]: 对协同过滤丢失函数的更好理解
 
-    Bringing order into the realm of Transformer-based language models for artificial intelligence and law. (arXiv:2308.05502v1 [cs.CL])
+    Toward a Better Understanding of Loss Functions for Collaborative Filtering. (arXiv:2308.06091v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.05502](http://arxiv.org/abs/2308.05502)
+    [http://arxiv.org/abs/2308.06091](http://arxiv.org/abs/2308.06091)
 
-    本文提供了第一个对基于Transformer的语言模型在法律领域的人工智能问题和任务中的方法的系统概述。文章旨在突出这一领域的研究进展，以进一步了解Transformer在支持法律流程中的AI成功贡献以及当前的局限性。
-
-    
-
-    基于Transformer的语言模型（TLM）被广泛认可是一种先进的技术，能够成功开发出基于深度学习的解决方案，用于需要自然语言处理和理解的问题和应用。与其他文本领域一样，TLM确实推动了法律领域许多感兴趣任务对人工智能方法的最新进展。尽管第一个Transformer模型提出了大约6年时间，但这项技术以前所未有的速度迅猛发展，BERT和相关模型成为主要参考，也在法律领域占有重要地位。本文首次系统概述了TLM在法律领域的人工智能驱动问题和任务中的方法。一个主要目标是突出研究在这一领域的进展，以便一方面了解Transformer在支持法律流程中取得的AI成功贡献是什么，另一方面了解当前的局限性是什么。
-
-    Transformer-based language models (TLMs) have widely been recognized to be a cutting-edge technology for the successful development of deep-learning-based solutions to problems and applications that require natural language processing and understanding. Like for other textual domains, TLMs have indeed pushed the state-of-the-art of AI approaches for many tasks of interest in the legal domain. Despite the first Transformer model being proposed about six years ago, there has been a rapid progress of this technology at an unprecedented rate, whereby BERT and related models represent a major reference, also in the legal domain. This article provides the first systematic overview of TLM-based methods for AI-driven problems and tasks in the legal sphere. A major goal is to highlight research advances in this field so as to understand, on the one hand, how the Transformers have contributed to the success of AI in supporting legal processes, and on the other hand, what are the current limitati
-    
-[^6]: 时尚电子商务中的产品评论图片排序
-
-    Product Review Image Ranking for Fashion E-commerce. (arXiv:2308.05390v1 [cs.CV])
-
-    [http://arxiv.org/abs/2308.05390](http://arxiv.org/abs/2308.05390)
-
-    本文针对时尚电子商务平台上的产品评论图片排序问题，提出了一个简单而有效的训练过程，能够将最相关的图片显示在前面，对用户的在线购物选择和行为产生影响。
+    现有研究已经表明，通过改进对齐和均匀性设计的损失函数可以实现显著的性能提升。本文提出了一种新的损失函数，称为MAWU，它考虑了数据集的独特模式。
 
     
 
-    在一个时尚电子商务平台上，顾客无法亲自检查产品，因此能够看到其他顾客对产品的文字和图片评论在做购买决策时非常重要。随着用户生成内容的增加，客户图像的数量也相应增加，因此将最相关的图片显示在前面对于用户的在线购物选择和行为可能产生影响。本文提出了一个简单而有效的训练过程，用于排名顾客图像。我们创建了一个数据集，包括印度主要时尚电子商务公司Myntra的工作室帖子和高度参与（顶/踩）的用户生成内容图像，并对上述数据集的图像使用了选择的扭曲技术，使它们的质量达到与低质量的UGC图像相当。
+    协同过滤（CF）是现代推荐系统中的关键技术。CF模型的学习过程通常由三个组件组成：交互编码器、损失函数和负采样。尽管许多现有研究已经提出了各种CF模型来设计复杂的交互编码器，但最近的工作表明，简单地重新制定损失函数可以实现显著的性能提升。本文深入分析了现有损失函数之间的关系。我们的数学分析揭示了先前的损失函数可以解释为对齐和均匀性函数：（i）对齐匹配用户和物品表示，（ii）均匀性分散用户和物品分布。受到这个分析的启示，我们提出了一种改进对齐和均匀性设计的损失函数，考虑到数据集的独特模式，称为Margin-aware Alignment and Weighted Uniformity（MAWU）。MAWU的关键创新是
 
-    In a fashion e-commerce platform where customers can't physically examine the products on their own, being able to see other customers' text and image reviews of the product is critical while making purchase decisions. Given the high reliance on these reviews, over the years we have observed customers proactively sharing their reviews. With an increase in the coverage of User Generated Content (UGC), there has been a corresponding increase in the number of customer images. It is thus imperative to display the most relevant images on top as it may influence users' online shopping choices and behavior. In this paper, we propose a simple yet effective training procedure for ranking customer images. We created a dataset consisting of Myntra (A Major Indian Fashion e-commerce company) studio posts and highly engaged (upvotes/downvotes) UGC images as our starting point and used selected distortion techniques on the images of the above dataset to bring their quality at par with those of bad U
+    Collaborative filtering (CF) is a pivotal technique in modern recommender systems. The learning process of CF models typically consists of three components: interaction encoder, loss function, and negative sampling. Although many existing studies have proposed various CF models to design sophisticated interaction encoders, recent work shows that simply reformulating the loss functions can achieve significant performance gains. This paper delves into analyzing the relationship among existing loss functions. Our mathematical analysis reveals that the previous loss functions can be interpreted as alignment and uniformity functions: (i) the alignment matches user and item representations, and (ii) the uniformity disperses user and item distributions. Inspired by this analysis, we propose a novel loss function that improves the design of alignment and uniformity considering the unique patterns of datasets called Margin-aware Alignment and Weighted Uniformity (MAWU). The key novelty of MAWU 
     
-[^7]: 超越语义：利用自我监督学习的行为增强相关模型的学习
+[^4]: 深度上下文兴趣网络用于点击率预测
 
-    Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning. (arXiv:2308.05379v1 [cs.IR])
+    Deep Context Interest Network for Click-Through Rate Prediction. (arXiv:2308.06037v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.05379](http://arxiv.org/abs/2308.05379)
+    [http://arxiv.org/abs/2308.06037](http://arxiv.org/abs/2308.06037)
 
-    这篇论文提出了一种行为增强的相关模型，利用自我监督学习，通过从用户历史行为数据中提取辅助查询-项目交互，来改进搜索引擎中的查询-项目匹配，提高准确性和鲁棒性。
-
-    
-
-    相关建模旨在定位与对应查询相关的理想项目，这对于搜索引擎确保用户体验非常重要。虽然大多数传统方法通过评估查询与项目之间的语义相似性来解决这个问题，但纯语义匹配并不是唯一的方法。实际上，从用户搜索记录的历史行为数据中提取的辅助查询-项目交互可以提供进一步揭示用户搜索意图的线索。得益于此，我们设计了一种新颖的基于行为增强相关学习模型的支付宝搜索模型（BARL-ASe），该模型利用目标项目的相邻查询和目标查询的相邻项目来补充目标查询-项目的语义匹配。具体而言，我们的模型建立了多层共同注意力，从相邻和目标视图中提取了粗粒度和细粒度的语义表示。模型随后采用邻居-目标的自我监督学习来提高精度和鲁棒性。
-
-    Relevance modeling aims to locate desirable items for corresponding queries, which is crucial for search engines to ensure user experience. Although most conventional approaches address this problem by assessing the semantic similarity between the query and item, pure semantic matching is not everything. In reality, auxiliary query-item interactions extracted from user historical behavior data of the search log could provide hints to reveal users' search intents further. Drawing inspiration from this, we devise a novel Behavior Augmented Relevance Learning model for Alipay Search (BARL-ASe) that leverages neighbor queries of target item and neighbor items of target query to complement target query-item semantic matching. Specifically, our model builds multi-level co-attention for distilling coarse-grained and fine-grained semantic representations from both neighbor and target views. The model subsequently employs neighbor-target self-supervised learning to improve the accuracy and robu
-    
-[^8]: 通过社交媒体数据和易感-感染-康复（SIR）模型研究灾害响应：以2020年西部美国火灾季为案例研究
-
-    Investigating disaster response through social media data and the Susceptible-Infected-Recovered (SIR) model: A case study of 2020 Western U.S. wildfire season. (arXiv:2308.05281v1 [cs.SI])
-
-    [http://arxiv.org/abs/2308.05281](http://arxiv.org/abs/2308.05281)
-
-    该研究通过社交媒体数据和SIR模型研究了2020年西部美国火灾季的灾害响应。研究发现Twitter用户主要关注健康影响、损失和撤离三个主题，并使用SIR理论探索了这些主题在Twitter上的传播规模和速度。
+    这篇论文提出了一种名为深度上下文兴趣网络（DCIN）的模型，该模型通过完整地建模点击及其展示上下文来学习用户的上下文感知兴趣，以提高点击率预测性能。
 
     
 
-    有效的灾害响应对受影响的社区至关重要。应急人员和决策者在灾害期间在了解社区所面临问题的可靠和及时的指标上将受益于社交媒体提供的丰富数据来源。社交媒体可以反映公众关注和需求，为决策者提供有价值的洞见，以了解不断演变的情况并优化资源配置。我们使用双向编码器表示转换（BERT）主题建模对Twitter数据进行主题聚类。然后，我们进行了时间-空间分析，研究了这些主题在2020年美国西部火灾季期间在不同地区的分布情况。我们的结果显示，Twitter用户主要关注三个主题：“健康影响”，“损失”，“撤离”。我们使用易感-感染-康复（SIR）理论来探索主题在Twitter上的传播规模和速度。结果清晰地显示了主题传播的情况。
+    点击率（CTR）预测是在线广告等工业应用中的关键问题，它估计用户点击某个项目的概率。许多研究致力于用户行为建模以提高CTR预测性能，但大多数方法只从用户点击项目中建模用户的正向兴趣，忽略了展示项目周围的上下文信息，导致性能较差。本文强调了上下文信息对用户行为建模的重要性，并提出了一个名为深度上下文兴趣网络（DCIN）的新模型，该模型通过完整地建模点击及其展示上下文来学习用户的上下文感知兴趣。DCIN包括三个关键模块：1）位置感知上下文聚合模块（PCAM），通过注意机制对展示项目进行聚合；2）反馈-上下文融合模块（FCFM），通过非线性函数将点击和展示上下文的表示进行融合；
 
-    Effective disaster response is critical for affected communities. Responders and decision-makers would benefit from reliable, timely measures of the issues impacting their communities during a disaster, and social media offers a potentially rich data source. Social media can reflect public concerns and demands during a disaster, offering valuable insights for decision-makers to understand evolving situations and optimize resource allocation. We used Bidirectional Encoder Representations from Transformers (BERT) topic modeling to cluster topics from Twitter data. Then, we conducted a temporal-spatial analysis to examine the distribution of these topics across different regions during the 2020 western U.S. wildfire season. Our results show that Twitter users mainly focused on three topics:"health impact," "damage," and "evacuation." We used the Susceptible-Infected-Recovered (SIR) theory to explore the magnitude and velocity of topic diffusion on Twitter. The results displayed a clear re
+    Click-Through Rate (CTR) prediction, estimating the probability of a user clicking on an item, is essential in industrial applications, such as online advertising. Many works focus on user behavior modeling to improve CTR prediction performance. However, most of those methods only model users' positive interests from users' click items while ignoring the context information, which is the display items around the clicks, resulting in inferior performance. In this paper, we highlight the importance of context information on user behavior modeling and propose a novel model named Deep Context Interest Network (DCIN), which integrally models the click and its display context to learn users' context-aware interests. DCIN consists of three key modules: 1) Position-aware Context Aggregation Module (PCAM), which performs aggregation of display items with an attention mechanism; 2) Feedback-Context Fusion Module (FCFM), which fuses the representation of clicks and display contexts through non-li
     
-[^9]: 用户中心的群组发现的双重意图图建模
+[^5]: 设计一个用户背景上下文的本体论: 以汽车销售领域为重点
 
-    Dual Intents Graph Modeling for User-centric Group Discovery. (arXiv:2308.05013v1 [cs.IR])
+    Designing a User Contextual Profile Ontology: A Focus on the Vehicle Sales Domain. (arXiv:2308.06018v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.05013](http://arxiv.org/abs/2308.05013)
+    [http://arxiv.org/abs/2308.06018](http://arxiv.org/abs/2308.06018)
 
-    本文研究了用户参与群组的激励意图，包括社交意图和个人兴趣意图，并提出了双重意图图模型来进行用户中心的群组发现任务。
-
-    
-
-    在线群组越来越普遍，为用户提供了分享经验和探索兴趣的空间。因此，用户中心的群组发现任务，即向用户推荐群组，可以帮助用户的在线体验和平台的长期发展。现有的推荐方法不能处理这个任务，因为将用户-群组参与建模成一个二部图忽视了他们的项目侧兴趣。虽然有一些作品试图解决这个任务，但仍然不足以完全保留社交上下文并确保有效的兴趣表示学习。本文重点研究激励用户参与群组的意图，这些意图可以分为不同类型，如社交意图和个人兴趣意图。前者指的是用户加入群组受到他们的社交关系的影响，而后者指的是用户与志同道合的人一起加入群组进行自我享受。为了理解这些意图
-
-    Online groups have become increasingly prevalent, providing users with space to share experiences and explore interests. Therefore, user-centric group discovery task, i.e., recommending groups to users can help both users' online experiences and platforms' long-term developments. Existing recommender methods can not deal with this task as modeling user-group participation into a bipartite graph overlooks their item-side interests. Although there exist a few works attempting to address this task, they still fall short in fully preserving the social context and ensuring effective interest representation learning.  In this paper, we focus on exploring the intents that motivate users to participate in groups, which can be categorized into different types, like the social-intent and the personal interest-intent. The former refers to users joining a group affected by their social links, while the latter relates to users joining groups with like-minded people for self-enjoyment. To comprehend
-    
-[^10]: 适应无线通信规范信息综合的基础模型
-
-    Adapting Foundation Models for Information Synthesis of Wireless Communication Specifications. (arXiv:2308.04033v1 [cs.NI])
-
-    [http://arxiv.org/abs/2308.04033](http://arxiv.org/abs/2308.04033)
-
-    本文介绍了NextGen Communications Copilot，这是一个用于无线通信规范信息综合的对话式人工智能工具。它采用基础模型，并引入了领域特定的数据库、上下文提取器和反馈机制，能够提供准确且相关的上下文信息，并结合专家反馈和数据贡献工具。在基准数据集的评估中，该系统展示了更多的优势。
+    本研究设计了一个用户背景上下文的本体论，以汽车销售领域为重点，旨在填补将背景信息与不同的用户配置文件集成的研究空白。该本体论作为一个结构基础，标准化了用户配置文件和背景信息的表示，提高了系统捕捉用户偏好和背景信息的准确性。
 
     
 
-    理解、开发和研究现代无线通信技术的现有方法涉及耗时且繁琐的过程，需要筛选大量的网页和技术规范文件，收集所需信息并进行综合。本文提出了NextGen Communications Copilot，这是一个用于无线通信规范信息综合的对话式人工智能工具。该系统基于最新的基础模型进展，并包括三个关键的附加组件：一个领域特定的数据库，一个上下文提取器和一个反馈机制。该系统可以从无线技术规范数据库中提取简洁的、与查询相关的上下文信息，并结合专家反馈和数据贡献工具。在使用由专家创建的查询和参考响应的基准数据集进行评估时，该系统展示了更多的优势。
+    在数字时代，理解和定制用户与系统和应用程序的交互体验至关重要。这需要创建将用户配置文件与背景信息相结合的用户背景上下文。然而，对于将背景信息与不同的用户配置文件集成的研究尚缺乏。本研究旨在通过设计一个用户背景上下文的本体论来填补这一空白，该本体论考虑了每个配置文件上的用户配置文件和背景信息。具体而言，我们介绍了一个以汽车销售领域为重点的用户背景上下文本体论的设计和开发。我们设计的本体论作为规范用户配置文件和背景信息表示的结构基础，增强了系统捕捉用户偏好和背景信息的准确性。此外，我们通过使用用户背景上下文本体论进行个性化推荐生成的案例研究进行了说明。
 
-    Existing approaches to understanding, developing and researching modern wireless communication technologies involves time-intensive and arduous process of sifting through numerous webpages and technical specification documents, gathering the required information and synthesizing it. This paper presents NextGen Communications Copilot, a conversational artificial intelligence tool for information synthesis of wireless communication specifications. The system builds on top of recent advancements in foundation models and consists of three key additional components: a domain-specific database, a context extractor, and a feedback mechanism. The system appends user queries with concise and query-dependent contextual information extracted from a database of wireless technical specifications and incorporates tools for expert feedback and data contributions. On evaluation using a benchmark dataset of queries and reference responses created by subject matter experts, the system demonstrated more 
+    In the digital age, it is crucial to understand and tailor experiences for users interacting with systems and applications. This requires the creation of user contextual profiles that combine user profiles with contextual information. However, there is a lack of research on the integration of contextual information with different user profiles. This study aims to address this gap by designing a user contextual profile ontology that considers both user profiles and contextual information on each profile. Specifically, we present a design and development of the user contextual profile ontology with a focus on the vehicle sales domain. Our designed ontology serves as a structural foundation for standardizing the representation of user profiles and contextual information, enhancing the system's ability to capture user preferences and contextual information of the user accurately. Moreover, we illustrate a case study using the User Contextual Profile Ontology in generating personalized reco
     
-[^11]: 从检索到生成：高效且有效的实体集扩展方法
+[^6]: 增强的负采样用于协同过滤
 
-    From Retrieval to Generation: Efficient and Effective Entity Set Expansion. (arXiv:2304.03531v1 [cs.CL])
+    Augmented Negative Sampling for Collaborative Filtering. (arXiv:2308.05972v1 [cs.IR])
 
-    [http://arxiv.org/abs/2304.03531](http://arxiv.org/abs/2304.03531)
+    [http://arxiv.org/abs/2308.05972](http://arxiv.org/abs/2308.05972)
 
-    本文提出了GenExpan，一种基于生成式预训练语言模型的实体集扩展框架，利用前缀树保证实体生成的有效性，采用自动生成的类名来引导模型生成同一类实体，从而提高了效率和可扩展性。
-
-    
-
-    实体集扩展（ESE）是一项至关重要的任务，旨在扩展由小的种子实体集描述的目标语义类的实体。大多数现有的ESE方法是基于检索的框架，需要提取实体的上下文特征，并计算种子实体和候选实体之间的相似性。为了实现这两个目的，它们必须迭代地遍历语料库和数据集中提供的实体词汇，导致效率和可扩展性较差。实验结果表明，基于检索的ESE方法消耗的时间与实体词汇和语料库的大小成线性增长。本文首先提出了一种生成式ESE框架，Generative Entity Set Expansion (GenExpan)，它利用生成式预训练语言模型来完成ESE任务。具体而言，采用前缀树来保证实体生成的有效性，并采用自动生成的类名来引导模型生成同一类实体。
-
-    Entity Set Expansion (ESE) is a critical task aiming to expand entities of the target semantic class described by a small seed entity set. Most existing ESE methods are retrieval-based frameworks that need to extract the contextual features of entities and calculate the similarity between seed entities and candidate entities. To achieve the two purposes, they should iteratively traverse the corpus and the entity vocabulary provided in the datasets, resulting in poor efficiency and scalability. The experimental results indicate that the time consumed by the retrieval-based ESE methods increases linearly with entity vocabulary and corpus size. In this paper, we firstly propose a generative ESE framework, Generative Entity Set Expansion (GenExpan), which utilizes a generative pre-trained language model to accomplish ESE task. Specifically, a prefix tree is employed to guarantee the validity of entity generation, and automatically generated class names are adopted to guide the model to gen
-    
-[^12]: 应用于排名列表兼容匹配的度量搜索算法及其应用
-
-    Metric Search for Rank List Compatibility Matching with Applications. (arXiv:2303.11174v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2303.11174](http://arxiv.org/abs/2303.11174)
-
-    我们提出了一种新算法，利用Kendall-Tau距离来衡量用户在排名列表中的相似度，并应用级联度量树来提高搜索性能。通过实验验证，该算法能够在实际时间内返回最佳匹配的用户。
+    本文介绍了增强的负采样方法用于协同过滤，以解决现有方法中从原始项选择负样本的限制，并提出了模糊陷阱和信息歧视两个限制的解决方案。
 
     
 
-    随着在线约会在过去几年中变得越来越流行，需要一种高效且有效的算法来匹配用户。在这个项目中，我们提出了一种新的约会匹配算法，该算法使用Kendall-Tau距离来衡量用户在列表中对项目（例如，他们喜欢的运动、音乐等）的排序相似度。为了提高搜索过程的性能，我们在此度量上应用了一种基于树的搜索结构，级联度量树（CMT）。该树是建立在所有用户的排名列表上的；当提供查询目标和半径时，我们的算法可以返回目标半径内的用户。我们通过变化列表长度、人口规模和查询半径，在合成数据集上测试了该搜索方法的可扩展性。我们观察到，该算法能够在合理的参数下，在实际时间内查询到最佳匹配的人。我们还提供了对该算法的潜在未来改进措施。
+    负采样对于基于隐式反馈的协同过滤是必不可少的，它用于从大量未标记数据中构建负信号，以指导监督学习。现有方法的最新想法是利用携带更多有用信息的困难负样本来构建更好的决策边界。为了平衡效率和效果，绝大多数现有方法采用两遍方法，其中第一遍采样固定数量的未观察项，采用简单静态分布，然后第二遍使用更复杂的负采样策略选择最终的负项。然而，从原始项中选择负样本固有的限制，可能无法很好地与正样本形成对比。在本文中，我们通过实验证实了这一观察，并介绍了现有解决方案的两个限制：模糊陷阱和信息歧视。我们对这些限制的回应是引入增强的负采样方法，它能够更好地应对这些限制。
 
-    As online dating has become more popular in the past few years, an efficient and effective algorithm to match users is needed. In this project, we proposed a new dating matching algorithm that uses Kendall-Tau distance to measure the similarity between users based on their ranking for items in a list. (e.g., their favourite sports, music, etc.) To increase the performance of the search process, we applied a tree-based searching structure, Cascading Metric Tree (CMT), on this metric. The tree is built on ranked lists from all the users; when a query target and a radius are provided, our algorithm can return users within the radius of the target. We tested the scaling of this searching method on a synthetic dataset by varying list length, population size, and query radius. We observed that the algorithm is able to query the best matching people for the user in a practical time, given reasonable parameters. We also provided potential future improvements that can be made to this algorithm 
+    Negative sampling is essential for implicit-feedback-based collaborative filtering, which is used to constitute negative signals from massive unlabeled data to guide supervised learning. The state-of-the-art idea is to utilize hard negative samples that carry more useful information to form a better decision boundary. To balance efficiency and effectiveness, the vast majority of existing methods follow the two-pass approach, in which the first pass samples a fixed number of unobserved items by a simple static distribution and then the second pass selects the final negative items using a more sophisticated negative sampling strategy. However, selecting negative samples from the original items is inherently restricted, and thus may not be able to contrast positive samples well. In this paper, we confirm this observation via experiments and introduce two limitations of existing solutions: ambiguous trap and information discrimination. Our response to such limitations is to introduce augme
+    
+[^7]: LittleMu：通过异构数据源整合和教学提示链路部署在线虚拟助教
+
+    LittleMu: Deploying an Online Virtual Teaching Assistant via Heterogeneous Sources Integration and Chain of Teach Prompts. (arXiv:2308.05935v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.05935](http://arxiv.org/abs/2308.05935)
+
+    本文提出了一个虚拟的MOOC助教 LittleMu，通过整合异构数据源和教学提示链路来支持广泛范围的准确回答和知识相关的闲聊服务。
+
+    
+
+    在教育的漫长历史中，助教在学习中发挥了重要作用。然而，由于真实在线教育场景的复杂性和缺乏训练数据，很少有MOOC平台提供人工或虚拟助教来支持大量在线学生的学习。在本文中，我们提出了一个虚拟的MOOC助教LittleMu，仅使用少量标注训练数据，提供问题回答和闲聊服务。LittleMu由两个交互模块组成，包括异构检索和语言模型提示，首先整合结构化、半结构化和非结构化的知识源，支持广泛范围的问题的准确回答。然后，我们设计了名为“Chain of Teach”提示的精心示范，利用大规模预训练模型处理复杂的未收集问题。除了问题回答，我们还开发了其他教育服务，如知识相关的闲聊。我们通过机器人测试系统的性能。
+
+    Teaching assistants have played essential roles in the long history of education. However, few MOOC platforms are providing human or virtual teaching assistants to support learning for massive online students due to the complexity of real-world online education scenarios and the lack of training data. In this paper, we present a virtual MOOC teaching assistant, LittleMu with minimum labeled training data, to provide question answering and chit-chat services. Consisting of two interactive modules of heterogeneous retrieval and language model prompting, LittleMu first integrates structural, semi- and unstructured knowledge sources to support accurate answers for a wide range of questions. Then, we design delicate demonstrations named "Chain of Teach" prompts to exploit the large-scale pre-trained model to handle complex uncollected questions. Except for question answering, we develop other educational services such as knowledge-grounded chit-chat. We test the system's performance via bot
+    
+[^8]: LTP-MMF: 面向推荐反馈循环下的长期供应商最大最小公平性
+
+    LTP-MMF: Towards Long-term Provider Max-min Fairness Under Recommendation Feedback Loops. (arXiv:2308.05902v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.05902](http://arxiv.org/abs/2308.05902)
+
+    该论文提出了一种在线排序模型，名为长期供应商MMF，以解决推荐反馈循环下的长期供应商最大最小公平性的挑战。
+
+    
+
+    多利益相关者推荐系统涉及各种角色，如用户、供应商。先前的研究指出，最大最小公平性（MMF）是支持弱供应商的更好指标。然而，考虑到MMF时，这些角色的特征或参数会随时间变化，如何确保长期供应商MMF已经成为一个重要挑战。我们观察到，推荐反馈循环（RFL）会对供应商的MMF产生重大影响。RFL意味着推荐系统只能从用户那里接收到已公开物品的反馈，并根据这些反馈增量更新推荐模型。在利用反馈时，推荐模型将把未公开的物品视为负面样本。这样，尾部供应商将无法被曝光，其物品将始终被视为负面样本。在RFL中，这种现象会越来越严重。为了缓解这个问题，本文提出了一个名为长期供应商MMF的在线排序模型。
+
+    Multi-stakeholder recommender systems involve various roles, such as users, providers. Previous work pointed out that max-min fairness (MMF) is a better metric to support weak providers. However, when considering MMF, the features or parameters of these roles vary over time, how to ensure long-term provider MMF has become a significant challenge. We observed that recommendation feedback loops (named RFL) will influence the provider MMF greatly in the long term. RFL means that recommender system can only receive feedback on exposed items from users and update recommender models incrementally based on this feedback. When utilizing the feedback, the recommender model will regard unexposed item as negative. In this way, tail provider will not get the opportunity to be exposed, and its items will always be considered as negative samples. Such phenomenons will become more and more serious in RFL. To alleviate the problem, this paper proposes an online ranking model named Long-Term Provider M
+    
+[^9]: 以协同过滤捕捉AI用户偏好作为规范的方法
+
+    Collaborative filtering to capture AI user's preferences as norms. (arXiv:2308.02542v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.02542](http://arxiv.org/abs/2308.02542)
+
+    本论文提出了一种以协同过滤方法构建规范以捕捉AI用户偏好的新视角。
+
+    
+
+    将AI技术根据每个用户的偏好进行定制是其良好运行的基础。然而，当前的方法需要用户过多参与，并且未能真正捕捉到他们的真实偏好。事实上，为了避免手动设置偏好的麻烦，用户通常会接受默认设置，即使这些设置与他们的真实偏好不符。规范可以用来调节行为，确保其符合用户的偏好，但是尽管文献已经详细研究了规范，大部分提议都是从形式化的角度出发。实际上，虽然已经有一些关于构建规范以捕捉用户隐私偏好的研究，但是这些方法依赖于领域知识，在AI技术的情况下，这很难获得和维护。我们认为，在构建规范时需要一种新的视角，即利用系统中大量用户的偏好信息。受到推荐系统的启发，我们相信协同过滤可以成为构建规范的方法。
+
+    Customising AI technologies to each user's preferences is fundamental to them functioning well. Unfortunately, current methods require too much user involvement and fail to capture their true preferences. In fact, to avoid the nuisance of manually setting preferences, users usually accept the default settings even if these do not conform to their true preferences. Norms can be useful to regulate behaviour and ensure it adheres to user preferences but, while the literature has thoroughly studied norms, most proposals take a formal perspective. Indeed, while there has been some research on constructing norms to capture a user's privacy preferences, these methods rely on domain knowledge which, in the case of AI technologies, is difficult to obtain and maintain. We argue that a new perspective is required when constructing norms, which is to exploit the large amount of preference information readily available from whole systems of users. Inspired by recommender systems, we believe that co
+    
+[^10]: 推荐系统中的流行偏差综述
+
+    A Survey on Popularity Bias in Recommender Systems. (arXiv:2308.01118v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.01118](http://arxiv.org/abs/2308.01118)
+
+    这篇综述论文讨论了推荐系统中的流行偏差问题，并回顾了现有的方法来检测、量化和减少流行偏差。它同时提供了计算度量的概述和主要技术方法的回顾。
+
+    
+
+    推荐系统以个性化的方式帮助人们找到相关内容。这些系统的一个主要承诺是能够增加目录中较少知名的物品的可见性。然而，现有研究表明，在许多情况下，现今的推荐算法反而表现出流行偏差，即它们在推荐中经常关注相当流行的物品。这种偏差不仅可能导致短期内对消费者和提供者的推荐价值有限，而且还可能引起不希望的强化效应。在本文中，我们讨论了流行偏差的潜在原因，并回顾了现有的检测、量化和减少推荐系统中流行偏差的方法。因此，我们的综述既包括了文献中使用的计算度量的概述，也包括了减少偏差的主要技术方法的回顾。我们还对这些方法进行了批判性讨论。
+
+    Recommender systems help people find relevant content in a personalized way. One main promise of such systems is that they are able to increase the visibility of items in the long tail, i.e., the lesser-known items in a catalogue. Existing research, however, suggests that in many situations today's recommendation algorithms instead exhibit a popularity bias, meaning that they often focus on rather popular items in their recommendations. Such a bias may not only lead to limited value of the recommendations for consumers and providers in the short run, but it may also cause undesired reinforcement effects over time. In this paper, we discuss the potential reasons for popularity bias and we review existing approaches to detect, quantify and mitigate popularity bias in recommender systems. Our survey therefore includes both an overview of the computational metrics used in the literature as well as a review of the main technical approaches to reduce the bias. We furthermore critically discu
+    
+[^11]: 自动确定开放数据目录质量的框架
+
+    Framework to Automatically Determine the Quality of Open Data Catalogs. (arXiv:2307.15464v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.15464](http://arxiv.org/abs/2307.15464)
+
+    本文提出了一个框架，用于自动确定开放数据目录的质量，该框架可以分析核心质量维度并提供评估机制，同时也考虑到了非核心质量维度，旨在帮助数据驱动型组织基于可信的数据资产做出明智的决策。
+
+    
+
+    数据目录在现代数据驱动型组织中起着关键作用，通过促进各种数据资产的发现、理解和利用。然而，在开放和大规模数据环境中确保其质量和可靠性是复杂的。本文提出了一个框架，用于自动确定开放数据目录的质量，解决了高效和可靠的质量评估机制的需求。我们的框架可以分析各种核心质量维度，如准确性、完整性、一致性、可扩展性和及时性，提供多种评估兼容性和相似性的替代方案，以及实施一组非核心质量维度，如溯源性、可读性和许可证。其目标是使数据驱动型组织能够基于可信和精心管理的数据资产做出明智的决策。
+
+    Data catalogs play a crucial role in modern data-driven organizations by facilitating the discovery, understanding, and utilization of diverse data assets. However, ensuring their quality and reliability is complex, especially in open and large-scale data environments. This paper proposes a framework to automatically determine the quality of open data catalogs, addressing the need for efficient and reliable quality assessment mechanisms. Our framework can analyze various core quality dimensions, such as accuracy, completeness, consistency, scalability, and timeliness, offer several alternatives for the assessment of compatibility and similarity across such catalogs as well as the implementation of a set of non-core quality dimensions such as provenance, readability, and licensing. The goal is to empower data-driven organizations to make informed decisions based on trustworthy and well-curated data assets. The source code that illustrates our approach can be downloaded from https://www.
+    
+[^12]: Kuaipedia:一个大规模的多模式短视频百科全书
+
+    Kuaipedia: a Large-scale Multi-modal Short-video Encyclopedia. (arXiv:2211.00732v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2211.00732](http://arxiv.org/abs/2211.00732)
+
+    Kuaipedia是一个大规模的多模式短视频百科全书，通过知识视频的形式，能够轻松表达网民对某个项目的各个方面的需求。
+
+    
+
+    过去20年中，在线百科全书（如维基百科）得到了很好的发展和研究。人们可以在由志愿者社区编辑的维基页面上找到维基项的任何属性或其他信息。然而，传统的文本、图片和表格很难表达维基项的某些方面。例如，当我们谈论“柴犬”时，人们可能更关心“如何喂养它”或“如何训练它不保护食物”。目前，短视频平台已成为在线世界的标志。无论你使用的是TikTok、Instagram、快手还是YouTube Shorts，短视频应用程序已改变了我们今天的内容消费和创作方式。除了为娱乐制作短视频外，我们越来越多地看到作者们在各行各业广泛分享有见解的知识。这些短视频，我们称之为知识视频，可以轻松表达消费者想了解有关某个项目（例如柴犬）的任何方面（例如毛发或如何喂养）。
+
+    Online encyclopedias, such as Wikipedia, have been well-developed and researched in the last two decades. One can find any attributes or other information of a wiki item on a wiki page edited by a community of volunteers. However, the traditional text, images and tables can hardly express some aspects of an wiki item. For example, when we talk about ``Shiba Inu'', one may care more about ``How to feed it'' or ``How to train it not to protect its food''. Currently, short-video platforms have become a hallmark in the online world. Whether you're on TikTok, Instagram, Kuaishou, or YouTube Shorts, short-video apps have changed how we consume and create content today. Except for producing short videos for entertainment, we can find more and more authors sharing insightful knowledge widely across all walks of life. These short videos, which we call knowledge videos, can easily express any aspects (e.g. hair or how-to-feed) consumers want to know about an item (e.g. Shiba Inu), and they can b
+    
+[^13]: Lib-SibGMU -- 用于推荐系统开发的大学图书馆借阅数据集
+
+    Lib-SibGMU -- A University Library Circulation Dataset for Recommender Systems Developmen. (arXiv:2208.12356v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2208.12356](http://arxiv.org/abs/2208.12356)
+
+    Lib-SibGMU是一个开放的大学图书馆借阅数据集，可以用于推荐系统开发。在该数据集上我们发现使用fastText模型作为向量化器可以获得竞争性的结果。
+
+    
+
+    我们以CC BY 4.0许可证开源了Lib-SibGMU的大学图书馆借阅数据集，供广大研究社区使用，并在该数据集上评估了主要的推荐系统算法。我们展示了一个由将借阅书籍历史转化为向量的向量化器和一个基于邻域的推荐器组成的推荐体系结构，分别进行训练。我们证明使用fastText模型作为向量化器可以获得竞争性的结果。
+
+    We opensource under CC BY 4.0 license Lib-SibGMU - a university library circulation dataset - for a wide research community, and benchmark major algorithms for recommender systems on this dataset. For a recommender architecture that consists of a vectorizer that turns the history of the books borrowed into a vector, and a neighborhood-based recommender, trained separately, we show that using the fastText model as a vectorizer delivers competitive results.
+    
+[^14]: AdaMCT：适应性CNN-Transformer混合模型用于顺序推荐
+
+    AdaMCT: Adaptive Mixture of CNN-Transformer for Sequential Recommendation. (arXiv:2205.08776v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2205.08776](http://arxiv.org/abs/2205.08776)
+
+    这项研究提出了一种名为AdaMCT的适应性混合CNN-Transformer模型，用于顺序推荐。该模型结合了Transformer的全局注意机制和局部卷积滤波器，以更好地捕捉用户的长期和短期偏好，并通过个性化的方法确定混合重要性。另外，研究还提出了Squeeze-Excita方法，以同时考虑多个相关项目的购买选项。
+
+    
+
+    顺序推荐旨在从一系列交互中建模用户的动态偏好。顺序推荐中的一个关键挑战在于用户偏好的固有变化性。一个有效的顺序推荐模型应该能够捕捉到用户展示的长期和短期偏好，其中前者可以提供对影响后者的稳定兴趣的全面理解。为了更有效地捕捉这样的信息，我们将局部感知性偏差引入Transformer中，通过将其全局注意机制与局部卷积滤波器结合起来，并通过层感知的自适应混合单元AdaMCT以个性化基础确定混合重要性。此外，由于用户可能会反复浏览潜在的购买选项，在长期和短期偏好建模中同时考虑多个相关项目是可预期的。鉴于基于softmax的注意力可能会促进单峰激活，我们提出了Squeeze-Excita方法。
+
+    Sequential recommendation (SR) aims to model users dynamic preferences from a series of interactions. A pivotal challenge in user modeling for SR lies in the inherent variability of user preferences. An effective SR model is expected to capture both the long-term and short-term preferences exhibited by users, wherein the former can offer a comprehensive understanding of stable interests that impact the latter. To more effectively capture such information, we incorporate locality inductive bias into the Transformer by amalgamating its global attention mechanism with a local convolutional filter, and adaptively ascertain the mixing importance on a personalized basis through layer-aware adaptive mixture units, termed as AdaMCT. Moreover, as users may repeatedly browse potential purchases, it is expected to consider multiple relevant items concurrently in long-/short-term preferences modeling. Given that softmax-based attention may promote unimodal activation, we propose the Squeeze-Excita
     
 

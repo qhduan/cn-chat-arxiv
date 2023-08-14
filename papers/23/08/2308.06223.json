@@ -1,0 +1,12 @@
+{
+    "title": "An approach to extend Cross-Impact Balance method in multiple timespans. (arXiv:2308.06223v1 [econ.GN])",
+    "abstract": "Cross-Impact Balance Analysis (CIB) is a widely used method to build scenarios and help researchers to formulate policies in different fields, such as management sciences and social sciences. During the development of the CIB method over the years, some derivative methods were developed to expand its application scope, including a method called dynamic CIB. However, the workflow of dynamic CIB is relatively complex. In this article, we provide another approach to extend CIB in multiple timespans based on the concept 'scenario weight' and simplify the workflow to bring convenience to the policy makers.",
+    "link": "http://arxiv.org/abs/2308.06223",
+    "context": "Title: An approach to extend Cross-Impact Balance method in multiple timespans. (arXiv:2308.06223v1 [econ.GN])\nAbstract: Cross-Impact Balance Analysis (CIB) is a widely used method to build scenarios and help researchers to formulate policies in different fields, such as management sciences and social sciences. During the development of the CIB method over the years, some derivative methods were developed to expand its application scope, including a method called dynamic CIB. However, the workflow of dynamic CIB is relatively complex. In this article, we provide another approach to extend CIB in multiple timespans based on the concept 'scenario weight' and simplify the workflow to bring convenience to the policy makers.",
+    "path": "papers/23/08/2308.06223.json",
+    "total_tokens": 710,
+    "translated_title": "多时间跨度下扩展交互影响平衡方法的一种方法",
+    "translated_abstract": "交互影响平衡分析（CIB）是一种广泛应用于不同领域（如管理科学和社会科学）的建立情景和帮助研究人员制定政策的方法。在多年的CIB方法发展过程中，一些派生方法被开发出来以扩展其应用范围，其中包括一种称为动态CIB的方法。然而，动态CIB的工作流程相对复杂。本文提出了一种基于“情景权重”概念扩展CIB在多个时间跨度下的方法，并简化工作流程以为决策者带来便利。",
+    "tldr": "本文介绍了一种基于“情景权重”概念的方法，扩展了交互影响平衡方法在多时间跨度下的应用，并通过简化工作流程为决策者提供了便捷。",
+    "en_tdlr": "This article presents an approach based on the concept of \"scenario weight\" to extend the application of the Cross-Impact Balance method in multiple time spans, simplifying the workflow and providing convenience for decision-makers."
+}

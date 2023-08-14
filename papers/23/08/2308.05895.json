@@ -1,0 +1,12 @@
+{
+    "title": "Characterizing Correlation Matrices that Admit a Clustered Factor Representation. (arXiv:2308.05895v1 [econ.EM])",
+    "abstract": "The Clustered Factor (CF) model induces a block structure on the correlation matrix and is commonly used to parameterize correlation matrices. Our results reveal that the CF model imposes superfluous restrictions on the correlation matrix. This can be avoided by a different parametrization, involving the logarithmic transformation of the block correlation matrix.",
+    "link": "http://arxiv.org/abs/2308.05895",
+    "context": "Title: Characterizing Correlation Matrices that Admit a Clustered Factor Representation. (arXiv:2308.05895v1 [econ.EM])\nAbstract: The Clustered Factor (CF) model induces a block structure on the correlation matrix and is commonly used to parameterize correlation matrices. Our results reveal that the CF model imposes superfluous restrictions on the correlation matrix. This can be avoided by a different parametrization, involving the logarithmic transformation of the block correlation matrix.",
+    "path": "papers/23/08/2308.05895.json",
+    "total_tokens": 570,
+    "translated_title": "描述接受集群化因子表示的相关矩阵特征",
+    "translated_abstract": "集群化因子模型在相关矩阵上引导了一个块状结构，常用于参数化相关矩阵。我们的结果揭示了集群化因子模型对相关矩阵施加了多余的限制。通过不同的参数化方法，采用对数变换块相关矩阵可以避免这一问题。",
+    "tldr": "该论文研究了相关矩阵的集群化因子表示，发现集群化因子模型对相关矩阵施加了多余限制，并提出了一种新的参数化方法以避免这种问题。",
+    "en_tdlr": "The paper investigates the clustered factor representation of correlation matrices and identifies that it imposes superfluous restrictions. A new parametrization approach involving the logarithmic transformation of the block correlation matrix is proposed to mitigate this issue."
+}

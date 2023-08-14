@@ -1,0 +1,12 @@
+{
+    "title": "Knowledge Propagation over Conditional Independence Graphs. (arXiv:2308.05857v1 [cs.AI])",
+    "abstract": "Conditional Independence (CI) graph is a special type of a Probabilistic Graphical Model (PGM) where the feature connections are modeled using an undirected graph and the edge weights show the partial correlation strength between the features. Since the CI graphs capture direct dependence between features, they have been garnering increasing interest within the research community for gaining insights into the systems from various domains, in particular discovering the domain topology. In this work, we propose algorithms for performing knowledge propagation over the CI graphs. Our experiments demonstrate that our techniques improve upon the state-of-the-art on the publicly available Cora and PubMed datasets.",
+    "link": "http://arxiv.org/abs/2308.05857",
+    "context": "Title: Knowledge Propagation over Conditional Independence Graphs. (arXiv:2308.05857v1 [cs.AI])\nAbstract: Conditional Independence (CI) graph is a special type of a Probabilistic Graphical Model (PGM) where the feature connections are modeled using an undirected graph and the edge weights show the partial correlation strength between the features. Since the CI graphs capture direct dependence between features, they have been garnering increasing interest within the research community for gaining insights into the systems from various domains, in particular discovering the domain topology. In this work, we propose algorithms for performing knowledge propagation over the CI graphs. Our experiments demonstrate that our techniques improve upon the state-of-the-art on the publicly available Cora and PubMed datasets.",
+    "path": "papers/23/08/2308.05857.json",
+    "total_tokens": 656,
+    "translated_title": "在条件独立图上的知识传播",
+    "translated_abstract": "条件独立（CI）图是一种特殊类型的概率图模型（PGM），其中特征连接使用无向图建模，边权重表示特征之间的部分相关性强度。由于CI图捕捉了特征之间的直接依赖关系，它们在研究社区中引起了越来越多的关注，特别是在发现领域拓扑方面。在这项工作中，我们提出了在CI图上执行知识传播的算法。我们的实验证明，我们的技术在公开的Cora和PubMed数据集上超过了最先进的方法。",
+    "tldr": "这项工作提出了在条件独立图上进行知识传播的算法，并通过在Cora和PubMed数据集上的实验证明了其优于现有方法的效果。",
+    "en_tdlr": "This work proposes algorithms for performing knowledge propagation over conditional independence graphs, and demonstrates their superiority over existing methods through experiments on the Cora and PubMed datasets."
+}

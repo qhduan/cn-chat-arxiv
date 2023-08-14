@@ -1,0 +1,12 @@
+{
+    "title": "Amortized neural networks for agent-based model forecasting. (arXiv:2308.05753v1 [econ.EM])",
+    "abstract": "In this paper, we propose a new procedure for unconditional and conditional forecasting in agent-based models. The proposed algorithm is based on the application of amortized neural networks and consists of two steps. The first step simulates artificial datasets from the model. In the second step, a neural network is trained to predict the future values of the variables using the history of observations. The main advantage of the proposed algorithm is its speed. This is due to the fact that, after the training procedure, it can be used to yield predictions for almost any data without additional simulations or the re-estimation of the neural network",
+    "link": "http://arxiv.org/abs/2308.05753",
+    "context": "Title: Amortized neural networks for agent-based model forecasting. (arXiv:2308.05753v1 [econ.EM])\nAbstract: In this paper, we propose a new procedure for unconditional and conditional forecasting in agent-based models. The proposed algorithm is based on the application of amortized neural networks and consists of two steps. The first step simulates artificial datasets from the model. In the second step, a neural network is trained to predict the future values of the variables using the history of observations. The main advantage of the proposed algorithm is its speed. This is due to the fact that, after the training procedure, it can be used to yield predictions for almost any data without additional simulations or the re-estimation of the neural network",
+    "path": "papers/23/08/2308.05753.json",
+    "total_tokens": 651,
+    "translated_title": "基于摊销神经网络的代理模型预测方法",
+    "translated_abstract": "本文提出了一种基于摊销神经网络的无条件和条件预测代理模型的新方法。所提出的算法包括两个步骤。第一步从模型中模拟人工数据集。第二步，通过观测历史数据训练神经网络来预测变量的未来值。所提算法的主要优点是速度快。这是因为在训练过程之后，它可以用于几乎任何数据的预测，而不需要额外的模拟或重新估计神经网络。",
+    "tldr": "本文提出了一种基于摊销神经网络的代理模型预测方法，通过训练神经网络来预测变量的未来值，具有速度快的优点。",
+    "en_tdlr": "This paper proposes a new method for forecasting in agent-based models using amortized neural networks, which can predict future values of variables with high speed after training."
+}

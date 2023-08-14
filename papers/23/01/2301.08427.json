@@ -1,0 +1,12 @@
+{
+    "title": "Which Features are Learned by CodeBert: An Empirical Study of the BERT-based Source Code Representation Learning. (arXiv:2301.08427v2 [cs.CL] UPDATED)",
+    "abstract": "The Bidirectional Encoder Representations from Transformers (BERT) were proposed in the natural language process (NLP) and shows promising results. Recently researchers applied the BERT to source-code representation learning and reported some good news on several downstream tasks. However, in this paper, we illustrated that current methods cannot effectively understand the logic of source codes. The representation of source code heavily relies on the programmer-defined variable and function names. We design and implement a set of experiments to demonstrate our conjecture and provide some insights for future works.",
+    "link": "http://arxiv.org/abs/2301.08427",
+    "context": "Title: Which Features are Learned by CodeBert: An Empirical Study of the BERT-based Source Code Representation Learning. (arXiv:2301.08427v2 [cs.CL] UPDATED)\nAbstract: The Bidirectional Encoder Representations from Transformers (BERT) were proposed in the natural language process (NLP) and shows promising results. Recently researchers applied the BERT to source-code representation learning and reported some good news on several downstream tasks. However, in this paper, we illustrated that current methods cannot effectively understand the logic of source codes. The representation of source code heavily relies on the programmer-defined variable and function names. We design and implement a set of experiments to demonstrate our conjecture and provide some insights for future works.",
+    "path": "papers/23/01/2301.08427.json",
+    "total_tokens": 675,
+    "translated_title": "CodeBert能学到哪些特征：BERT基于源码表示学习的实证研究",
+    "translated_abstract": "双向编码器表示转换(BERT)在自然语言处理(NLP)领域提出，并显示出了良好的结果。最近，研究人员将BERT应用于源码表示学习，并在几个下游任务中取得了一些好消息。然而，在本文中，我们说明了当前方法无法有效理解源代码的逻辑。源代码的表示在很大程度上依赖于程序员定义的变量和函数名。我们设计并实施了一系列实验来验证我们的猜想，并为未来的工作提供一些见解。",
+    "tldr": "该论文研究了CodeBert在源码表示学习中学到了哪些特征，发现当前方法无法有效理解源代码的逻辑，而源代码的表示依赖于程序员定义的变量和函数名。",
+    "en_tdlr": "This paper investigates the features learned by CodeBert in source code representation learning, revealing that current methods cannot effectively comprehend the logic of source code, which heavily relies on programmer-defined variable and function names."
+}

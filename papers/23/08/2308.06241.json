@@ -1,0 +1,12 @@
+{
+    "title": "Covid-19 Public Sentiment Analysis for Indian Tweets Classification. (arXiv:2308.06241v1 [cs.CL])",
+    "abstract": "When any extraordinary event takes place in the world wide area, it is the social media that acts as the fastest carrier of the news along with the consequences dealt with that event. One can gather much information through social networks regarding the sentiments, behavior, and opinions of the people. In this paper, we focus mainly on sentiment analysis of twitter data of India which comprises of COVID-19 tweets. We show how Twitter data has been extracted and then run sentimental analysis queries on it. This is helpful to analyze the information in the tweets where opinions are highly unstructured, heterogeneous, and are either positive or negative or neutral in some cases.",
+    "link": "http://arxiv.org/abs/2308.06241",
+    "context": "Title: Covid-19 Public Sentiment Analysis for Indian Tweets Classification. (arXiv:2308.06241v1 [cs.CL])\nAbstract: When any extraordinary event takes place in the world wide area, it is the social media that acts as the fastest carrier of the news along with the consequences dealt with that event. One can gather much information through social networks regarding the sentiments, behavior, and opinions of the people. In this paper, we focus mainly on sentiment analysis of twitter data of India which comprises of COVID-19 tweets. We show how Twitter data has been extracted and then run sentimental analysis queries on it. This is helpful to analyze the information in the tweets where opinions are highly unstructured, heterogeneous, and are either positive or negative or neutral in some cases.",
+    "path": "papers/23/08/2308.06241.json",
+    "total_tokens": 659,
+    "translated_title": "Covid-19印度推文分类的公众情感分析",
+    "translated_abstract": "当世界范围内发生任何特殊事件时，社交媒体往往是最快的新闻传播载体，同时也涉及到该事件的后果。人们可以通过社交网络收集有关人们情感、行为和观点的丰富信息。本文主要关注对印度COVID-19推文的情感分析。我们展示了如何提取Twitter数据，并对其进行情感分析。这有助于分析推文中非常非结构化、异构的观点，有时是正面的、负面的，或是中性的。",
+    "tldr": "本文主要关注印度COVID-19推文的情感分析，通过提取Twitter数据并对其进行情感分析，有助于分析推文中非结构化、异构的观点。",
+    "en_tdlr": "This paper focuses on sentiment analysis of COVID-19 tweets from India by extracting Twitter data and conducting sentiment analysis, which helps analyze the unstructured and heterogeneous opinions in the tweets."
+}

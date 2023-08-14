@@ -1,0 +1,11 @@
+{
+    "title": "Lib-SibGMU -- A University Library Circulation Dataset for Recommender Systems Developmen. (arXiv:2208.12356v2 [cs.IR] UPDATED)",
+    "abstract": "We opensource under CC BY 4.0 license Lib-SibGMU - a university library circulation dataset - for a wide research community, and benchmark major algorithms for recommender systems on this dataset. For a recommender architecture that consists of a vectorizer that turns the history of the books borrowed into a vector, and a neighborhood-based recommender, trained separately, we show that using the fastText model as a vectorizer delivers competitive results.",
+    "link": "http://arxiv.org/abs/2208.12356",
+    "context": "Title: Lib-SibGMU -- A University Library Circulation Dataset for Recommender Systems Developmen. (arXiv:2208.12356v2 [cs.IR] UPDATED)\nAbstract: We opensource under CC BY 4.0 license Lib-SibGMU - a university library circulation dataset - for a wide research community, and benchmark major algorithms for recommender systems on this dataset. For a recommender architecture that consists of a vectorizer that turns the history of the books borrowed into a vector, and a neighborhood-based recommender, trained separately, we show that using the fastText model as a vectorizer delivers competitive results.",
+    "path": "papers/22/08/2208.12356.json",
+    "total_tokens": 637,
+    "translated_title": "Lib-SibGMU -- 用于推荐系统开发的大学图书馆借阅数据集",
+    "translated_abstract": "我们以CC BY 4.0许可证开源了Lib-SibGMU的大学图书馆借阅数据集，供广大研究社区使用，并在该数据集上评估了主要的推荐系统算法。我们展示了一个由将借阅书籍历史转化为向量的向量化器和一个基于邻域的推荐器组成的推荐体系结构，分别进行训练。我们证明使用fastText模型作为向量化器可以获得竞争性的结果。",
+    "tldr": "Lib-SibGMU是一个开放的大学图书馆借阅数据集，可以用于推荐系统开发。在该数据集上我们发现使用fastText模型作为向量化器可以获得竞争性的结果。"
+}
