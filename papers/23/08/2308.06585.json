@@ -1,0 +1,11 @@
+{
+    "title": "Approximate Answering of Graph Queries. (arXiv:2308.06585v1 [cs.LG])",
+    "abstract": "Knowledge graphs (KGs) are inherently incomplete because of incomplete world knowledge and bias in what is the input to the KG. Additionally, world knowledge constantly expands and evolves, making existing facts deprecated or introducing new ones. However, we would still want to be able to answer queries as if the graph were complete. In this chapter, we will give an overview of several methods which have been proposed to answer queries in such a setting. We will first provide an overview of the different query types which can be supported by these methods and datasets typically used for evaluation, as well as an insight into their limitations. Then, we give an overview of the different approaches and describe them in terms of expressiveness, supported graph types, and inference capabilities.",
+    "link": "http://arxiv.org/abs/2308.06585",
+    "context": "Title: Approximate Answering of Graph Queries. (arXiv:2308.06585v1 [cs.LG])\nAbstract: Knowledge graphs (KGs) are inherently incomplete because of incomplete world knowledge and bias in what is the input to the KG. Additionally, world knowledge constantly expands and evolves, making existing facts deprecated or introducing new ones. However, we would still want to be able to answer queries as if the graph were complete. In this chapter, we will give an overview of several methods which have been proposed to answer queries in such a setting. We will first provide an overview of the different query types which can be supported by these methods and datasets typically used for evaluation, as well as an insight into their limitations. Then, we give an overview of the different approaches and describe them in terms of expressiveness, supported graph types, and inference capabilities.",
+    "path": "papers/23/08/2308.06585.json",
+    "total_tokens": 719,
+    "translated_title": "图查询的近似答案",
+    "translated_abstract": "知识图谱（KG）由于世界知识的不完整和输入KG的偏见而本质上是不完整的。此外，世界知识不断扩展和发展，使现有事实过时或引入新的事实。然而，我们仍然希望能够像图谱完整一样回答查询。在本章中，我们将概述几种已经提出的方法，以在这种情况下回答查询。首先，我们将概述这些方法支持的不同查询类型和通常用于评估的数据集，以及对它们的限制的了解。然后，我们将概述不同的方法，并以表达能力、支持的图类型和推理能力来描述它们。",
+    "tldr": "本章概述了几种方法，用于在知识图谱不完整的情况下回答查询。这些方法涵盖了不同的查询类型和图类型，并具有不同的推理能力。"
+}

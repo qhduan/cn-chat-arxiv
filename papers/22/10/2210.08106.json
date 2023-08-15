@@ -1,0 +1,11 @@
+{
+    "title": "A Primal-Dual Algorithm for Hybrid Federated Learning. (arXiv:2210.08106v2 [cs.LG] UPDATED)",
+    "abstract": "Very few methods for hybrid federated learning, where clients only hold subsets of both features and samples, exist. Yet, this scenario is very important in practical settings. We provide a fast, robust algorithm for hybrid federated learning that hinges on Fenchel Duality. We prove the convergence of the algorithm to the same solution as if the model was trained centrally in a variety of practical regimes. Furthermore, we provide experimental results that demonstrate the performance improvements of the algorithm over a commonly used method in federated learning, FedAvg. We also provide privacy considerations and necessary steps to protect client data.",
+    "link": "http://arxiv.org/abs/2210.08106",
+    "context": "Title: A Primal-Dual Algorithm for Hybrid Federated Learning. (arXiv:2210.08106v2 [cs.LG] UPDATED)\nAbstract: Very few methods for hybrid federated learning, where clients only hold subsets of both features and samples, exist. Yet, this scenario is very important in practical settings. We provide a fast, robust algorithm for hybrid federated learning that hinges on Fenchel Duality. We prove the convergence of the algorithm to the same solution as if the model was trained centrally in a variety of practical regimes. Furthermore, we provide experimental results that demonstrate the performance improvements of the algorithm over a commonly used method in federated learning, FedAvg. We also provide privacy considerations and necessary steps to protect client data.",
+    "path": "papers/22/10/2210.08106.json",
+    "total_tokens": 711,
+    "translated_title": "一种混合联邦学习的原始-对偶算法",
+    "translated_abstract": "在实际情况中，混合联邦学习很重要，但对于仅持有部分特征和样本的客户端，很少有方法存在。我们提供了一种基于Fenchel对偶性的快速、稳健的混合联邦学习算法。我们证明了算法在各种实际情况下收敛于与在中心训练模型相同的解决方案。此外，我们还提供了实验结果，证明了该算法相对于联邦学习中常用的方法FedAvg的性能改进。我们还提供了隐私考虑和保护客户数据的必要步骤。",
+    "tldr": "该论文提出了一种基于Fenchel对偶性的快速、稳健的混合联邦学习算法。实验证明了该算法相对于传统的FedAvg方法的性能改进，并提供了隐私保护措施。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Greedy online change point detection. (arXiv:2308.07012v1 [eess.SP])",
+    "abstract": "Standard online change point detection (CPD) methods tend to have large false discovery rates as their detections are sensitive to outliers. To overcome this drawback, we propose Greedy Online Change Point Detection (GOCPD), a computationally appealing method which finds change points by maximizing the probability of the data coming from the (temporal) concatenation of two independent models. We show that, for time series with a single change point, this objective is unimodal and thus CPD can be accelerated via ternary search with logarithmic complexity. We demonstrate the effectiveness of GOCPD on synthetic data and validate our findings on real-world univariate and multivariate settings.",
+    "link": "http://arxiv.org/abs/2308.07012",
+    "context": "Title: Greedy online change point detection. (arXiv:2308.07012v1 [eess.SP])\nAbstract: Standard online change point detection (CPD) methods tend to have large false discovery rates as their detections are sensitive to outliers. To overcome this drawback, we propose Greedy Online Change Point Detection (GOCPD), a computationally appealing method which finds change points by maximizing the probability of the data coming from the (temporal) concatenation of two independent models. We show that, for time series with a single change point, this objective is unimodal and thus CPD can be accelerated via ternary search with logarithmic complexity. We demonstrate the effectiveness of GOCPD on synthetic data and validate our findings on real-world univariate and multivariate settings.",
+    "path": "papers/23/08/2308.07012.json",
+    "total_tokens": 703,
+    "translated_title": "贪心在线变点检测",
+    "translated_abstract": "标准的在线变点检测方法对异常值敏感，容易产生较高的误报率。为了克服这个缺点，我们提出了一种计算上具有吸引力的方法——贪心在线变点检测（GOCPD）。该方法通过最大化数据来自两个独立模型（时间上的）级联的概率来找到变点。我们证明，在具有单个变点的时间序列中，这个目标是单峰的，因此变点检测可以通过具有对数复杂度的三分搜索进行加速。我们在合成数据上验证了GOCPD的有效性，并在实际的单变量和多变量设置中验证了我们的发现。",
+    "tldr": "GOCPD是一种贪心算法，在线变点检测方法，通过最大化数据来自两个独立模型的概率来找到变点，具有较高的准确性，并且可以通过三分搜索进行加速。",
+    "en_tdlr": "GOCPD is a greedy algorithm for online change point detection that finds change points by maximizing the probability of the data coming from two independent models, demonstrating high accuracy and can be accelerated through ternary search."
+}

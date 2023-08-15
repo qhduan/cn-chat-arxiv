@@ -1,0 +1,11 @@
+{
+    "title": "Online Estimation of the Koopman Operator Using Fourier Features. (arXiv:2212.01503v2 [cs.RO] UPDATED)",
+    "abstract": "Transfer operators offer linear representations and global, physically meaningful features of nonlinear dynamical systems. Discovering transfer operators, such as the Koopman operator, require careful crafted dictionaries of observables, acting on states of the dynamical system. This is ad hoc and requires the full dataset for evaluation. In this paper, we offer an optimization scheme to allow joint learning of the observables and Koopman operator with online data. Our results show we are able to reconstruct the evolution and represent the global features of complex dynamical systems.",
+    "link": "http://arxiv.org/abs/2212.01503",
+    "context": "Title: Online Estimation of the Koopman Operator Using Fourier Features. (arXiv:2212.01503v2 [cs.RO] UPDATED)\nAbstract: Transfer operators offer linear representations and global, physically meaningful features of nonlinear dynamical systems. Discovering transfer operators, such as the Koopman operator, require careful crafted dictionaries of observables, acting on states of the dynamical system. This is ad hoc and requires the full dataset for evaluation. In this paper, we offer an optimization scheme to allow joint learning of the observables and Koopman operator with online data. Our results show we are able to reconstruct the evolution and represent the global features of complex dynamical systems.",
+    "path": "papers/22/12/2212.01503.json",
+    "total_tokens": 671,
+    "translated_title": "在线估计使用傅里叶特征的Koopman算符",
+    "translated_abstract": "转移算子提供非线性动力系统的线性表示和全局且物理意义明确的特征。发现转移算子，例如Koopman算符，需要精心构建的可观测量词典，作用于动力系统的状态上。这种方法是临时性的，需要使用整个数据集进行评估。在本文中，我们提供了一种优化方案，可以使用在线数据联合学习可观测量和Koopman算符。我们的结果表明，我们能够重构演变并表示复杂动力系统的全局特征。",
+    "tldr": "本文提出了一种在线数据估计Koopman算符的优化方案，通过联合学习可观测量和Koopman算符，能够重构演变并表示复杂动力系统的全局特征。"
+}

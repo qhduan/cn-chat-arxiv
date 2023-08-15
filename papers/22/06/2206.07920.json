@@ -1,0 +1,12 @@
+{
+    "title": "PInKS: Preconditioned Commonsense Inference with Minimal Supervision. (arXiv:2206.07920v2 [cs.CL] UPDATED)",
+    "abstract": "Reasoning with preconditions such as \"glass can be used for drinking water unless the glass is shattered\" remains an open problem for language models. The main challenge lies in the scarcity of preconditions data and the model's lack of support for such reasoning. We present PInKS, Preconditioned Commonsense Inference with WeaK Supervision, an improved model for reasoning with preconditions through minimum supervision. We show, both empirically and theoretically, that PInKS improves the results on benchmarks focused on reasoning with the preconditions of commonsense knowledge (up to 40% Macro-F1 scores). We further investigate PInKS through PAC-Bayesian informativeness analysis, precision measures, and ablation study.",
+    "link": "http://arxiv.org/abs/2206.07920",
+    "context": "Title: PInKS: Preconditioned Commonsense Inference with Minimal Supervision. (arXiv:2206.07920v2 [cs.CL] UPDATED)\nAbstract: Reasoning with preconditions such as \"glass can be used for drinking water unless the glass is shattered\" remains an open problem for language models. The main challenge lies in the scarcity of preconditions data and the model's lack of support for such reasoning. We present PInKS, Preconditioned Commonsense Inference with WeaK Supervision, an improved model for reasoning with preconditions through minimum supervision. We show, both empirically and theoretically, that PInKS improves the results on benchmarks focused on reasoning with the preconditions of commonsense knowledge (up to 40% Macro-F1 scores). We further investigate PInKS through PAC-Bayesian informativeness analysis, precision measures, and ablation study.",
+    "path": "papers/22/06/2206.07920.json",
+    "total_tokens": 744,
+    "translated_title": "PInKS: 带有最小监督的预处理常识推理",
+    "translated_abstract": "对于语言模型来说，以“玻璃可以用来装水，除非玻璃破碎”等前提进行推理仍然是一个未解决的问题。主要挑战在于前提数据的稀缺性以及模型对此类推理的支持不足。我们提出了PInKS（带有最小监督的预处理常识推理），这是一个通过最小监督来进行前提推理的改进模型。我们通过实验证明，PInKS在专注于常识知识前提推理的基准测试上改善了结果（最多提高了40%的Macro-F1分数）。我们进一步通过PAC-Bayesian信息分析、精确度指标和消融研究来研究PInKS。",
+    "tldr": "PInKS是一种通过最小监督实现前提推理的改进模型，通过提高常识知识前提推理基准测试的结果，证明了其有效性。",
+    "en_tdlr": "PInKS is an improved model for reasoning with preconditions through minimum supervision, and it has been shown to improve results on benchmarks for reasoning with commonsense knowledge preconditions, demonstrating its effectiveness."
+}

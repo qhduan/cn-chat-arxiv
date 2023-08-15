@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models and Knowledge Graphs: Opportunities and Challenges. (arXiv:2308.06374v1 [cs.AI])",
+    "abstract": "Large Language Models (LLMs) have taken Knowledge Representation -- and the world -- by storm. This inflection point marks a shift from explicit knowledge representation to a renewed focus on the hybrid representation of both explicit knowledge and parametric knowledge. In this position paper, we will discuss some of the common debate points within the community on LLMs (parametric knowledge) and Knowledge Graphs (explicit knowledge) and speculate on opportunities and visions that the renewed focus brings, as well as related research topics and challenges.",
+    "link": "http://arxiv.org/abs/2308.06374",
+    "context": "Title: Large Language Models and Knowledge Graphs: Opportunities and Challenges. (arXiv:2308.06374v1 [cs.AI])\nAbstract: Large Language Models (LLMs) have taken Knowledge Representation -- and the world -- by storm. This inflection point marks a shift from explicit knowledge representation to a renewed focus on the hybrid representation of both explicit knowledge and parametric knowledge. In this position paper, we will discuss some of the common debate points within the community on LLMs (parametric knowledge) and Knowledge Graphs (explicit knowledge) and speculate on opportunities and visions that the renewed focus brings, as well as related research topics and challenges.",
+    "path": "papers/23/08/2308.06374.json",
+    "total_tokens": 618,
+    "translated_title": "大型语言模型和知识图谱：机遇与挑战",
+    "translated_abstract": "大型语言模型（LLMs）已经给知识表示领域和整个世界带来了风暴。这一转折点标志着知识表示从显式知识表示转向显式知识和参数化知识混合表示的焦点的重塑。在这篇立场论文中，我们将讨论LLMs（参数化知识）和知识图谱（显式知识）领域内的一些常见争论，展望焦点重塑所带来的机遇和愿景，以及相关的研究主题和挑战。",
+    "tldr": "大型语言模型和知识图谱的结合为知识表示带来了新的机遇和挑战。",
+    "en_tdlr": "The integration of large language models and knowledge graphs brings new opportunities and challenges to knowledge representation."
+}

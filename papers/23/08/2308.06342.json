@@ -1,0 +1,12 @@
+{
+    "title": "Mirror Diffusion Models. (arXiv:2308.06342v1 [cs.LG])",
+    "abstract": "Diffusion models have successfully been applied to generative tasks in various continuous domains. However, applying diffusion to discrete categorical data remains a non-trivial task. Moreover, generation in continuous domains often requires clipping in practice, which motivates the need for a theoretical framework for adapting diffusion to constrained domains. Inspired by the mirror Langevin algorithm for the constrained sampling problem, in this theoretical report we propose Mirror Diffusion Models (MDMs). We demonstrate MDMs in the context of simplex diffusion and propose natural extensions to popular domains such as image and text generation.",
+    "link": "http://arxiv.org/abs/2308.06342",
+    "context": "Title: Mirror Diffusion Models. (arXiv:2308.06342v1 [cs.LG])\nAbstract: Diffusion models have successfully been applied to generative tasks in various continuous domains. However, applying diffusion to discrete categorical data remains a non-trivial task. Moreover, generation in continuous domains often requires clipping in practice, which motivates the need for a theoretical framework for adapting diffusion to constrained domains. Inspired by the mirror Langevin algorithm for the constrained sampling problem, in this theoretical report we propose Mirror Diffusion Models (MDMs). We demonstrate MDMs in the context of simplex diffusion and propose natural extensions to popular domains such as image and text generation.",
+    "path": "papers/23/08/2308.06342.json",
+    "total_tokens": 722,
+    "translated_title": "镜像扩散模型",
+    "translated_abstract": "扩散模型在各种连续领域的生成任务中取得了成功。然而，在离散的分类数据中应用扩散仍然是一个非平凡的任务。此外，在连续领域的生成中常常需要进行剪切，这就需要一个将扩散适应约束域的理论框架。受限制抽样问题的镜像Langevin算法的启发，本理论报告中我们提出了镜像扩散模型(MDMs)。我们演示了MDMs在simplex扩散的背景下，并提出了对图像和文本生成等热门领域的自然扩展。",
+    "tldr": "本文提出了镜像扩散模型(MDMs)，用于在离散分类数据和连续领域中进行生成任务。MDMs受限制抽样问题的镜像Langevin算法启发，并提供了适应简单扩散、图像生成和文本生成等领域的自然扩展。",
+    "en_tdlr": "The paper proposes Mirror Diffusion Models (MDMs) for generative tasks in both discrete categorical data and continuous domains. Inspired by the mirror Langevin algorithm for constrained sampling, MDMs provide a theoretical framework that can adapt to various domains such as simplex diffusion, image generation, and text generation."
+}

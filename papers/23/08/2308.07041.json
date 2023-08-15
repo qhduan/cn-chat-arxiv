@@ -1,0 +1,12 @@
+{
+    "title": "The four types of stablecoins: A comparative analysis. (arXiv:2308.07041v1 [econ.GN])",
+    "abstract": "Stablecoins have gained significant popularity recently, with their market cap rising to over $180 billion. However, recent events have raised concerns about their stability. In this paper, we classify stablecoins into four types based on the source and management of collateral and investigate the stability of each type under different conditions. We highlight each type's potential instabilities and underlying tradeoffs using agent-based simulations. The results emphasize the importance of carefully evaluating the origin of a stablecoin's collateral and its collateral management mechanism to ensure stability and minimize risks. Enhanced understanding of stablecoins should be informative to regulators, policymakers, and investors alike.",
+    "link": "http://arxiv.org/abs/2308.07041",
+    "context": "Title: The four types of stablecoins: A comparative analysis. (arXiv:2308.07041v1 [econ.GN])\nAbstract: Stablecoins have gained significant popularity recently, with their market cap rising to over $180 billion. However, recent events have raised concerns about their stability. In this paper, we classify stablecoins into four types based on the source and management of collateral and investigate the stability of each type under different conditions. We highlight each type's potential instabilities and underlying tradeoffs using agent-based simulations. The results emphasize the importance of carefully evaluating the origin of a stablecoin's collateral and its collateral management mechanism to ensure stability and minimize risks. Enhanced understanding of stablecoins should be informative to regulators, policymakers, and investors alike.",
+    "path": "papers/23/08/2308.07041.json",
+    "total_tokens": 789,
+    "translated_title": "四种稳定币的比较分析",
+    "translated_abstract": "近期，稳定币越来越受欢迎，市值已经超过1800亿美元。然而，最近的事件引发了对其稳定性的担忧。在本文中，我们根据抵押物的来源和管理将稳定币分为四种类型，并研究了每种类型在不同条件下的稳定性。通过使用基于代理人模型的模拟，我们强调了每种类型的潜在不稳定性和相关的权衡。结果强调了仔细评估稳定币抵押物的来源和抵押品管理机制的重要性，以确保稳定性并降低风险。对于监管机构、政策制定者和投资者而言，对稳定币的更深入理解将具有重要意义。",
+    "tldr": "本文将稳定币分为四种类型，并通过代理人模型模拟研究了每种类型稳定币的潜在不稳定性和权衡。结果强调了评估稳定币抵押物来源和抵押品管理机制的重要性，以确保稳定性和降低风险。",
+    "en_tdlr": "This paper classifies stablecoins into four types and investigates their potential instabilities and tradeoffs using agent-based simulations. The results highlight the importance of evaluating the origin of a stablecoin's collateral and its management mechanism to ensure stability and minimize risks."
+}

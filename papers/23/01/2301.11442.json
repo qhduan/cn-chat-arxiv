@@ -1,0 +1,11 @@
+{
+    "title": "Communication-Efficient Collaborative Regret Minimization in Multi-Armed Bandits. (arXiv:2301.11442v2 [cs.LG] UPDATED)",
+    "abstract": "In this paper, we study the collaborative learning model, which concerns the tradeoff between parallelism and communication overhead in multi-agent multi-armed bandits. For regret minimization in multi-armed bandits, we present the first set of tradeoffs between the number of rounds of communication among the agents and the regret of the collaborative learning process.",
+    "link": "http://arxiv.org/abs/2301.11442",
+    "context": "Title: Communication-Efficient Collaborative Regret Minimization in Multi-Armed Bandits. (arXiv:2301.11442v2 [cs.LG] UPDATED)\nAbstract: In this paper, we study the collaborative learning model, which concerns the tradeoff between parallelism and communication overhead in multi-agent multi-armed bandits. For regret minimization in multi-armed bandits, we present the first set of tradeoffs between the number of rounds of communication among the agents and the regret of the collaborative learning process.",
+    "path": "papers/23/01/2301.11442.json",
+    "total_tokens": 587,
+    "translated_title": "多臂赌博机中的高效沟通合作后悔最小化研究",
+    "translated_abstract": "本文研究了多智能体多臂赌博机中并行性和沟通开销之间的折中问题。为了在多臂赌博机中实现后悔最小化，我们提出了一组代理之间通信轮次和合作学习过程后悔之间的权衡关系。",
+    "tldr": "本文研究了多智能体多臂赌博机中并行性和沟通开销之间的折中问题，并提出了一组代理之间通信轮次和合作学习过程后悔之间的权衡关系。"
+}

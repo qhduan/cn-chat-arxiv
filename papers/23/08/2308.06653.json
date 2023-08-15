@@ -1,0 +1,12 @@
+{
+    "title": "Smart Knowledge Transfer using Google-like Search. (arXiv:2308.06653v1 [cs.SE])",
+    "abstract": "To address the issue of rising software maintenance cost due to program comprehension challenges, we propose SMARTKT (Smart Knowledge Transfer), a search framework, which extracts and integrates knowledge related to various aspects of an application in form of a semantic graph. This graph supports syntax and semantic queries and converts the process of program comprehension into a {\\em google-like} search problem.",
+    "link": "http://arxiv.org/abs/2308.06653",
+    "context": "Title: Smart Knowledge Transfer using Google-like Search. (arXiv:2308.06653v1 [cs.SE])\nAbstract: To address the issue of rising software maintenance cost due to program comprehension challenges, we propose SMARTKT (Smart Knowledge Transfer), a search framework, which extracts and integrates knowledge related to various aspects of an application in form of a semantic graph. This graph supports syntax and semantic queries and converts the process of program comprehension into a {\\em google-like} search problem.",
+    "path": "papers/23/08/2308.06653.json",
+    "total_tokens": 565,
+    "translated_title": "使用类似谷歌搜索的智能知识传输的研究",
+    "translated_abstract": "为了解决程序理解挑战导致的软件维护成本上升的问题，我们提出了智能知识传输（SMARTKT），一个搜索框架，该框架以语义图的形式提取并整合与应用程序各个方面相关的知识。这个图支持语法和语义查询，并将程序理解的过程转化为类似于谷歌搜索的问题。",
+    "tldr": "研究提出了SMARTKT，通过一个类似谷歌搜索的框架，将程序理解过程转化为语义图查询，从而解决了软件维护成本上升的挑战。",
+    "en_tdlr": "The study proposes SMARTKT, a search framework that converts the process of program comprehension into semantic graph queries, addressing the challenge of rising software maintenance cost."
+}

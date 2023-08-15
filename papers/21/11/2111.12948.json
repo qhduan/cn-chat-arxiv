@@ -1,0 +1,12 @@
+{
+    "title": "Difference in Differences and Ratio in Ratios for Limited Dependent Variables. (arXiv:2111.12948v2 [econ.EM] UPDATED)",
+    "abstract": "Difference in differences (DD) is widely used to find policy/treatment effects with observational data, but applying DD to limited dependent variables (LDV's) Y has been problematic. This paper addresses how to apply DD and related approaches (such as \"ratio in ratios\" or \"ratio in odds ratios\") to binary, count, fractional, multinomial or zero-censored Y under the unifying framework of `generalized linear models with link functions'. We evaluate DD and the related approaches with simulation and empirical studies, and recommend 'Poisson Quasi-MLE' for non-negative (such as count or zero-censored) Y and (multinomial) logit MLE for binary, fractional or multinomial Y.",
+    "link": "http://arxiv.org/abs/2111.12948",
+    "context": "Title: Difference in Differences and Ratio in Ratios for Limited Dependent Variables. (arXiv:2111.12948v2 [econ.EM] UPDATED)\nAbstract: Difference in differences (DD) is widely used to find policy/treatment effects with observational data, but applying DD to limited dependent variables (LDV's) Y has been problematic. This paper addresses how to apply DD and related approaches (such as \"ratio in ratios\" or \"ratio in odds ratios\") to binary, count, fractional, multinomial or zero-censored Y under the unifying framework of `generalized linear models with link functions'. We evaluate DD and the related approaches with simulation and empirical studies, and recommend 'Poisson Quasi-MLE' for non-negative (such as count or zero-censored) Y and (multinomial) logit MLE for binary, fractional or multinomial Y.",
+    "path": "papers/21/11/2111.12948.json",
+    "total_tokens": 761,
+    "translated_title": "有限依赖变量的区别与区别和比率在比率中的差异",
+    "translated_abstract": "区别与区别（DD）被广泛用于通过观察数据找到政策/治疗效果，但将DD应用于有限依赖变量（LDV）Y一直存在问题。本文探讨了如何将DD和相关方法（如“比率在比率中”或“比率在几率比中”）应用于二元、计数、分数、多项式或零截断的Y，统一框架是“广义线性模型与链接函数”。我们通过模拟和实证研究评估了DD和相关方法，并推荐“泊松准最大似然估计”用于非负（例如计数或零截断）的Y，以及二元、分数或多项式Y的（多项式）逻辑MLE。",
+    "tldr": "本文解决了将区别与区别和相关方法应用于有限依赖变量的问题，并在二元、计数、分数、多项式或零截断Y中推荐了适用的估计方法。",
+    "en_tdlr": "This paper addresses the problem of applying difference in differences and related methods to limited dependent variables, and recommends suitable estimation methods for binary, count, fractional, multinomial, or zero-censored Y."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Long-term Effects of Temperature Variations on Economic Growth: A Machine Learning Approach. (arXiv:2308.06265v1 [econ.GN])",
+    "abstract": "This study investigates the long-term effects of temperature variations on economic growth using a data-driven approach. Leveraging machine learning techniques, we analyze global land surface temperature data from Berkeley Earth and economic indicators, including GDP and population data, from the World Bank. Our analysis reveals a significant relationship between average temperature and GDP growth, suggesting that climate variations can substantially impact economic performance. This research underscores the importance of incorporating climate factors into economic planning and policymaking, and it demonstrates the utility of machine learning in uncovering complex relationships in climate-economy studies.",
+    "link": "http://arxiv.org/abs/2308.06265",
+    "context": "Title: Long-term Effects of Temperature Variations on Economic Growth: A Machine Learning Approach. (arXiv:2308.06265v1 [econ.GN])\nAbstract: This study investigates the long-term effects of temperature variations on economic growth using a data-driven approach. Leveraging machine learning techniques, we analyze global land surface temperature data from Berkeley Earth and economic indicators, including GDP and population data, from the World Bank. Our analysis reveals a significant relationship between average temperature and GDP growth, suggesting that climate variations can substantially impact economic performance. This research underscores the importance of incorporating climate factors into economic planning and policymaking, and it demonstrates the utility of machine learning in uncovering complex relationships in climate-economy studies.",
+    "path": "papers/23/08/2308.06265.json",
+    "total_tokens": 752,
+    "translated_title": "温度变化对经济增长的长期影响：一种机器学习方法的研究",
+    "translated_abstract": "本研究采用数据驱动方法，调查了温度变化对经济增长的长期影响。利用机器学习技术，分析了来自伯克利地球和世界银行的全球陆地表面温度数据和经济指标，包括GDP和人口数据。我们的分析揭示了平均温度和GDP增长之间的显著关系，表明气候变化可以大幅影响经济表现。该研究强调了将气候因素纳入经济规划和政策制定中的重要性，并证明了机器学习在揭示气候经济研究中复杂关系方面的实用性。",
+    "tldr": "这项研究利用机器学习方法调查了温度变化对经济增长的长期影响，发现平均温度和GDP增长之间存在显著关系，表明气候变化可对经济表现产生重大影响。",
+    "en_tdlr": "This study investigates the long-term effects of temperature variations on economic growth using a data-driven approach. It reveals a significant relationship between average temperature and GDP growth, suggesting that climate variations can substantially impact economic performance."
+}

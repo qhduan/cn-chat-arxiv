@@ -1,0 +1,12 @@
+{
+    "title": "Data-centric Artificial Intelligence. (arXiv:2212.11854v2 [cs.AI] UPDATED)",
+    "abstract": "Data-centric artificial intelligence (data-centric AI) represents an emerging paradigm emphasizing that the systematic design and engineering of data is essential for building effective and efficient AI-based systems. The objective of this article is to introduce practitioners and researchers from the field of Information Systems (IS) to data-centric AI. We define relevant terms, provide key characteristics to contrast the data-centric paradigm to the model-centric one, and introduce a framework for data-centric AI. We distinguish data-centric AI from related concepts and discuss its longer-term implications for the IS community.",
+    "link": "http://arxiv.org/abs/2212.11854",
+    "context": "Title: Data-centric Artificial Intelligence. (arXiv:2212.11854v2 [cs.AI] UPDATED)\nAbstract: Data-centric artificial intelligence (data-centric AI) represents an emerging paradigm emphasizing that the systematic design and engineering of data is essential for building effective and efficient AI-based systems. The objective of this article is to introduce practitioners and researchers from the field of Information Systems (IS) to data-centric AI. We define relevant terms, provide key characteristics to contrast the data-centric paradigm to the model-centric one, and introduce a framework for data-centric AI. We distinguish data-centric AI from related concepts and discuss its longer-term implications for the IS community.",
+    "path": "papers/22/12/2212.11854.json",
+    "total_tokens": 632,
+    "translated_title": "数据中心人工智能",
+    "translated_abstract": "数据中心人工智能（data-centric AI）是一种新兴的范式，强调系统性地设计和构建数据对于建立有效和高效的基于人工智能的系统至关重要。本文的目的是向信息系统领域的从业者和研究人员介绍数据中心人工智能。我们定义相关术语，提供关键特征来对比数据中心范式和模型中心范式，并介绍了一个数据中心人工智能的框架。我们区分数据中心人工智能和相关概念，并讨论其对信息系统社区的长期影响。",
+    "tldr": "数据中心人工智能是一种新兴的范式，它强调系统性地设计和构建数据对于建立有效和高效的基于人工智能的系统至关重要。",
+    "en_tdlr": "Data-centric artificial intelligence is an emerging paradigm that emphasizes the systematic design and engineering of data as essential for building effective and efficient AI-based systems."
+}

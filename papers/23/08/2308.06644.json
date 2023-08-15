@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating Diffusion-based Combinatorial Optimization Solvers by Progressive Distillation. (arXiv:2308.06644v1 [cs.LG])",
+    "abstract": "Graph-based diffusion models have shown promising results in terms of generating high-quality solutions to NP-complete (NPC) combinatorial optimization (CO) problems. However, those models are often inefficient in inference, due to the iterative evaluation nature of the denoising diffusion process. This paper proposes to use progressive distillation to speed up the inference by taking fewer steps (e.g., forecasting two steps ahead within a single step) during the denoising process. Our experimental results show that the progressively distilled model can perform inference 16 times faster with only 0.019% degradation in performance on the TSP-50 dataset.",
+    "link": "http://arxiv.org/abs/2308.06644",
+    "context": "Title: Accelerating Diffusion-based Combinatorial Optimization Solvers by Progressive Distillation. (arXiv:2308.06644v1 [cs.LG])\nAbstract: Graph-based diffusion models have shown promising results in terms of generating high-quality solutions to NP-complete (NPC) combinatorial optimization (CO) problems. However, those models are often inefficient in inference, due to the iterative evaluation nature of the denoising diffusion process. This paper proposes to use progressive distillation to speed up the inference by taking fewer steps (e.g., forecasting two steps ahead within a single step) during the denoising process. Our experimental results show that the progressively distilled model can perform inference 16 times faster with only 0.019% degradation in performance on the TSP-50 dataset.",
+    "path": "papers/23/08/2308.06644.json",
+    "total_tokens": 714,
+    "translated_title": "通过逐步蒸馏加速基于扩散的组合优化求解器",
+    "translated_abstract": "基于图扩散模型在生成高质量解决方案的NP完全组合优化问题方面表现出了良好的结果。然而，由于去噪扩散过程的迭代评估特性，这些模型在推理上常常效率低下。本文提出使用逐步蒸馏来加速推理过程，仅在单步内预测两个步骤之前的情况。我们的实验结果表明，经过逐步蒸馏的模型可以在TSP-50数据集上进行推理，速度快了16倍，性能仅有0.019%的降级。",
+    "tldr": "本文提出使用逐步蒸馏来加速基于扩散的组合优化求解器，并在TSP-50数据集上展示了16倍的推理速度提升，仅有0.019%的性能降级。",
+    "en_tdlr": "This paper proposes to accelerate diffusion-based combinatorial optimization solvers by using progressive distillation, and demonstrates a 16 times speedup in inference with only 0.019% degradation in performance on the TSP-50 dataset."
+}

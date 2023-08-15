@@ -1,0 +1,12 @@
+{
+    "title": "Quantile Time Series Regression Models Revisited. (arXiv:2308.06617v1 [econ.EM])",
+    "abstract": "This article discusses recent developments in the literature of quantile time series models in the cases of stationary and nonstationary underline stochastic processes.",
+    "link": "http://arxiv.org/abs/2308.06617",
+    "context": "Title: Quantile Time Series Regression Models Revisited. (arXiv:2308.06617v1 [econ.EM])\nAbstract: This article discusses recent developments in the literature of quantile time series models in the cases of stationary and nonstationary underline stochastic processes.",
+    "path": "papers/23/08/2308.06617.json",
+    "total_tokens": 408,
+    "translated_title": "量化时间序列回归模型的再探讨",
+    "translated_abstract": "本文讨论了量化时间序列模型在平稳和非平稳背景下的最新发展。",
+    "tldr": "本文重新探讨了量化时间序列回归模型的最新发展，包括在平稳和非平稳背景下的应用。",
+    "en_tdlr": "This article revisits the recent developments in quantile time series regression models, including their applications in both stationary and nonstationary contexts."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "On the Interplay of Convolutional Padding and Adversarial Robustness. (arXiv:2308.06612v1 [cs.CV])",
+    "abstract": "It is common practice to apply padding prior to convolution operations to preserve the resolution of feature-maps in Convolutional Neural Networks (CNN). While many alternatives exist, this is often achieved by adding a border of zeros around the inputs. In this work, we show that adversarial attacks often result in perturbation anomalies at the image boundaries, which are the areas where padding is used. Consequently, we aim to provide an analysis of the interplay between padding and adversarial attacks and seek an answer to the question of how different padding modes (or their absence) affect adversarial robustness in various scenarios.",
+    "link": "http://arxiv.org/abs/2308.06612",
+    "context": "Title: On the Interplay of Convolutional Padding and Adversarial Robustness. (arXiv:2308.06612v1 [cs.CV])\nAbstract: It is common practice to apply padding prior to convolution operations to preserve the resolution of feature-maps in Convolutional Neural Networks (CNN). While many alternatives exist, this is often achieved by adding a border of zeros around the inputs. In this work, we show that adversarial attacks often result in perturbation anomalies at the image boundaries, which are the areas where padding is used. Consequently, we aim to provide an analysis of the interplay between padding and adversarial attacks and seek an answer to the question of how different padding modes (or their absence) affect adversarial robustness in various scenarios.",
+    "path": "papers/23/08/2308.06612.json",
+    "total_tokens": 702,
+    "translated_title": "关于卷积填充与对抗鲁棒性之间的相互作用",
+    "translated_abstract": "在卷积神经网络（CNN）中，常常在卷积操作之前进行填充操作，以保留特征图的分辨率。虽然有很多替代方法，但通常是通过在输入周围添加一圈零进行填充。在这项工作中，我们展示了对抗攻击通常会在图像边界出现扰动异常，而这些边界正是填充所用的区域。因此，我们旨在对填充和对抗攻击之间的相互作用进行分析，并寻找不同填充模式（或缺乏填充）对不同场景下的对抗鲁棒性产生的影响。",
+    "tldr": "本研究分析了卷积填充和对抗攻击之间的相互作用，探讨了不同填充模式对对抗鲁棒性的影响。"
+}
