@@ -1,0 +1,12 @@
+{
+    "title": "Achieving High Accuracy with PINNs via Energy Natural Gradients. (arXiv:2302.13163v2 [cs.LG] UPDATED)",
+    "abstract": "We propose energy natural gradient descent, a natural gradient method with respect to a Hessian-induced Riemannian metric as an optimization algorithm for physics-informed neural networks (PINNs) and the deep Ritz method. As a main motivation we show that the update direction in function space resulting from the energy natural gradient corresponds to the Newton direction modulo an orthogonal projection onto the model's tangent space. We demonstrate experimentally that energy natural gradient descent yields highly accurate solutions with errors several orders of magnitude smaller than what is obtained when training PINNs with standard optimizers like gradient descent or Adam, even when those are allowed significantly more computation time.",
+    "link": "http://arxiv.org/abs/2302.13163",
+    "context": "Title: Achieving High Accuracy with PINNs via Energy Natural Gradients. (arXiv:2302.13163v2 [cs.LG] UPDATED)\nAbstract: We propose energy natural gradient descent, a natural gradient method with respect to a Hessian-induced Riemannian metric as an optimization algorithm for physics-informed neural networks (PINNs) and the deep Ritz method. As a main motivation we show that the update direction in function space resulting from the energy natural gradient corresponds to the Newton direction modulo an orthogonal projection onto the model's tangent space. We demonstrate experimentally that energy natural gradient descent yields highly accurate solutions with errors several orders of magnitude smaller than what is obtained when training PINNs with standard optimizers like gradient descent or Adam, even when those are allowed significantly more computation time.",
+    "path": "papers/23/02/2302.13163.json",
+    "total_tokens": 754,
+    "translated_title": "利用能量自然梯度实现PINNs的高准确度",
+    "translated_abstract": "我们提出了能量自然梯度下降，这是一种基于Hessian诱导的黎曼度量的自然梯度方法，作为物理约束神经网络（PINNs）和深度Ritz方法的优化算法。作为主要动机，我们展示了能量自然梯度的更新方向在函数空间的结果与牛顿方向模除模型切空间的正交投影相对应。我们在实验中证明，即使允许标准优化器如梯度下降或Adam具有更长的计算时间，能量自然梯度下降仍然能产生比他们的误差小几个数量级的高精度解决方案。",
+    "tldr": "我们提出了能量自然梯度下降算法，用于优化物理约束神经网络（PINNs）和深度Ritz方法。实验结果表明，与标准优化器相比，能量自然梯度下降算法能够产生更高准确度的解决方案。",
+    "en_tdlr": "We propose energy natural gradient descent as an optimization algorithm for physics-informed neural networks (PINNs) and the deep Ritz method, which can achieve highly accurate solutions with errors several orders of magnitude smaller than standard optimizers."
+}

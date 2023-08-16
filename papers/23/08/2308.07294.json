@@ -1,0 +1,12 @@
+{
+    "title": "Why Not? Explaining Missing Entailments with Evee (Technical Report). (arXiv:2308.07294v2 [cs.AI] UPDATED)",
+    "abstract": "Understanding logical entailments derived by a description logic reasoner is not always straight-forward for ontology users. For this reason, various methods for explaining entailments using justifications and proofs have been developed and implemented as plug-ins for the ontology editor Prot\\'eg\\'e. However, when the user expects a missing consequence to hold, it is equally important to explain why it does not follow from the ontology. In this paper, we describe a new version of $\\rm E{\\scriptsize VEE}$, a Prot\\'eg\\'e plugin that now also provides explanations for missing consequences, via existing and new techniques based on abduction and counterexamples.",
+    "link": "http://arxiv.org/abs/2308.07294",
+    "context": "Title: Why Not? Explaining Missing Entailments with Evee (Technical Report). (arXiv:2308.07294v2 [cs.AI] UPDATED)\nAbstract: Understanding logical entailments derived by a description logic reasoner is not always straight-forward for ontology users. For this reason, various methods for explaining entailments using justifications and proofs have been developed and implemented as plug-ins for the ontology editor Prot\\'eg\\'e. However, when the user expects a missing consequence to hold, it is equally important to explain why it does not follow from the ontology. In this paper, we describe a new version of $\\rm E{\\scriptsize VEE}$, a Prot\\'eg\\'e plugin that now also provides explanations for missing consequences, via existing and new techniques based on abduction and counterexamples.",
+    "path": "papers/23/08/2308.07294.json",
+    "total_tokens": 713,
+    "translated_title": "为什么不呢？用Evee解释缺失的蕴涵关系（技术报告）",
+    "translated_abstract": "对于本体用户来说，理解描述逻辑推理器派生出的逻辑蕴涵关系并不总是直接的。因此，已经开发和实现了各种用于解释蕴涵关系的方法，这些方法通过证明和证据作为Protégé本体编辑器的插件来提供。然而，当用户预期某种缺失的蕴涵关系应该成立时，同样重要的是解释为什么它不会从本体中得出。在本文中，我们描述了EVEE的新版本，它是一个Protégé插件，现在还通过基于绑定和反例的现有和新技术来提供解释缺失蕴涵关系的功能。",
+    "tldr": "本文介绍了新版本的Evee插件，它通过基于绑定和反例的技术来解释本体中缺失的蕴涵关系。",
+    "en_tdlr": "This paper presents a new version of the Evee plugin, which provides explanations for missing entailments in ontologies using abduction and counterexamples techniques."
+}

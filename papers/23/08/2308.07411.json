@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Intersection of Large Language Models and Agent-Based Modeling via Prompt Engineering. (arXiv:2308.07411v1 [cs.AI])",
+    "abstract": "The final frontier for simulation is the accurate representation of complex, real-world social systems. While agent-based modeling (ABM) seeks to study the behavior and interactions of agents within a larger system, it is unable to faithfully capture the full complexity of human-driven behavior. Large language models (LLMs), like ChatGPT, have emerged as a potential solution to this bottleneck by enabling researchers to explore human-driven interactions in previously unimaginable ways. Our research investigates simulations of human interactions using LLMs. Through prompt engineering, inspired by Park et al. (2023), we present two simulations of believable proxies of human behavior: a two-agent negotiation and a six-agent murder mystery game.",
+    "link": "http://arxiv.org/abs/2308.07411",
+    "context": "Title: Exploring the Intersection of Large Language Models and Agent-Based Modeling via Prompt Engineering. (arXiv:2308.07411v1 [cs.AI])\nAbstract: The final frontier for simulation is the accurate representation of complex, real-world social systems. While agent-based modeling (ABM) seeks to study the behavior and interactions of agents within a larger system, it is unable to faithfully capture the full complexity of human-driven behavior. Large language models (LLMs), like ChatGPT, have emerged as a potential solution to this bottleneck by enabling researchers to explore human-driven interactions in previously unimaginable ways. Our research investigates simulations of human interactions using LLMs. Through prompt engineering, inspired by Park et al. (2023), we present two simulations of believable proxies of human behavior: a two-agent negotiation and a six-agent murder mystery game.",
+    "path": "papers/23/08/2308.07411.json",
+    "total_tokens": 766,
+    "translated_title": "通过提示工程探索大型语言模型和基于Agent的建模的交叉点",
+    "translated_abstract": "模拟复杂真实世界社会系统的准确表示是一个最终的挑战。尽管基于Agent的建模（ABM）旨在研究一个更大系统中的Agent的行为和相互作用，但无法忠实地捕捉到人类驱动行为的全部复杂性。大型语言模型（LLMs），如ChatGPT，已经成为潜在的解决这一瓶颈的方法，使研究人员能够以前所未有的方式探索人类驱动的互动。我们的研究通过受Park等人（2023年）启发的提示工程，调查了使用LLMs进行人类互动模拟的场景。我们提出了两个关于人类行为的可信代理的仿真：一个是两个Agent的谈判，另一个是六个Agent的谋杀之谜游戏。",
+    "tldr": "通过提示工程，我们使用大型语言模型进行人类互动模拟，包括两个Agent的谈判和六个Agent的谋杀之谜游戏。",
+    "en_tdlr": "Using prompt engineering, we explore simulations of human interactions using large language models, including two-agent negotiation and a six-agent murder mystery game."
+}

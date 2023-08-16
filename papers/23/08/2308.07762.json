@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating the anticipated outcomes of MRI seizure image from open-source tool- Prototype approach. (arXiv:2308.07762v1 [physics.med-ph])",
+    "abstract": "Epileptic Seizure is an abnormal neuronal exertion in the brain, affecting nearly 70 million of the world's population (Ngugi et al., 2010). So many open-source neuroimaging tools are used for metabolism checkups and analysis purposes. The scope of open-source tools like MATLAB, Slicer 3D, Brain Suite21a, SPM, and MedCalc are explained in this paper. MATLAB was used by 60% of the researchers for their image processing and 10% of them use their proprietary software. More than 30% of the researchers use other open-source software tools with their processing techniques for the study of magnetic resonance seizure images",
+    "link": "http://arxiv.org/abs/2308.07762",
+    "context": "Title: Evaluating the anticipated outcomes of MRI seizure image from open-source tool- Prototype approach. (arXiv:2308.07762v1 [physics.med-ph])\nAbstract: Epileptic Seizure is an abnormal neuronal exertion in the brain, affecting nearly 70 million of the world's population (Ngugi et al., 2010). So many open-source neuroimaging tools are used for metabolism checkups and analysis purposes. The scope of open-source tools like MATLAB, Slicer 3D, Brain Suite21a, SPM, and MedCalc are explained in this paper. MATLAB was used by 60% of the researchers for their image processing and 10% of them use their proprietary software. More than 30% of the researchers use other open-source software tools with their processing techniques for the study of magnetic resonance seizure images",
+    "path": "papers/23/08/2308.07762.json",
+    "total_tokens": 723,
+    "translated_title": "评估开源工具MRI癫痫图像预期结果的原型方法",
+    "translated_abstract": "癫痫是大脑中异常的神经活动，影响全球近7000万人口（Ngugi et al., 2010）。许多开源神经影像工具用于代谢检查和分析。本文介绍了诸如MATLAB，Slicer 3D，Brain Suite21a，SPM和MedCalc等开源工具的范围。60%的研究人员使用MATLAB进行图像处理，10%的人使用自有软件。超过30%的研究人员在处理技术中使用其他开源软件工具来研究磁共振癫痫图像。",
+    "tldr": "本论文评估了开源工具在MRI癫痫图像处理中的应用，展示了MATLAB等工具的范围和使用率，并介绍了其他开源软件工具在磁共振癫痫图像研究中的应用。",
+    "en_tdlr": "This paper evaluates the application of open-source tools in processing MRI seizure images, showcasing the scope and usage of tools like MATLAB, and introduces the application of other open-source software tools in magnetic resonance seizure image research."
+}
