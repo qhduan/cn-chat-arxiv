@@ -1,0 +1,11 @@
+{
+    "title": "Testing Partial Instrument Monotonicity. (arXiv:2308.08390v1 [econ.EM])",
+    "abstract": "When multi-dimensional instruments are used to identify and estimate causal effects, the monotonicity condition may not hold due to heterogeneity in the population. Under a partial monotonicity condition, which only requires the monotonicity to hold for each instrument separately holding all the other instruments fixed, the 2SLS estimand can still be a positively weighted average of LATEs. In this paper, we provide a simple nonparametric test for partial instrument monotonicity. We demonstrate the good finite sample properties of the test through Monte Carlo simulations. We then apply the test to monetary incentives and distance from results centers as instruments for the knowledge of HIV status.",
+    "link": "http://arxiv.org/abs/2308.08390",
+    "context": "Title: Testing Partial Instrument Monotonicity. (arXiv:2308.08390v1 [econ.EM])\nAbstract: When multi-dimensional instruments are used to identify and estimate causal effects, the monotonicity condition may not hold due to heterogeneity in the population. Under a partial monotonicity condition, which only requires the monotonicity to hold for each instrument separately holding all the other instruments fixed, the 2SLS estimand can still be a positively weighted average of LATEs. In this paper, we provide a simple nonparametric test for partial instrument monotonicity. We demonstrate the good finite sample properties of the test through Monte Carlo simulations. We then apply the test to monetary incentives and distance from results centers as instruments for the knowledge of HIV status.",
+    "path": "papers/23/08/2308.08390.json",
+    "total_tokens": 722,
+    "translated_title": "测试部分仪器单调性",
+    "translated_abstract": "当使用多维仪器来确定和估计因果效应时，由于个体群体的异质性，单调性条件可能不成立。在部分单调性条件下，仅要求单调性在每个仪器分别保持其他仪器固定时成立，2SLS估计量仍然可以是LATE（局部平均处理效应）的正加权平均值。本文提供了一个简单的非参数测试方法来测试部分仪器单调性。我们通过蒙特卡洛模拟展示了该测试的良好样本性质。然后，我们将该测试应用于货币激励和距离测试中心作为HIV状态知识的仪器。",
+    "tldr": "本文提出了一个简单的非参数测试方法来测试部分仪器单调性，该测试通过蒙特卡洛模拟展示了良好的样本性质，并将该方法应用于HIV状态知识的仪器选择问题。"
+}

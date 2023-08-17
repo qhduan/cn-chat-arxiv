@@ -1,0 +1,11 @@
+{
+    "title": "On Neural Quantum Support Vector Machines. (arXiv:2308.08467v1 [quant-ph])",
+    "abstract": "In \\cite{simon2023algorithms} we introduced four algorithms for the training of neural support vector machines (NSVMs) and demonstrated their feasibility. In this note we introduce neural quantum support vector machines, that is, NSVMs with a quantum kernel, and extend our results to this setting.",
+    "link": "http://arxiv.org/abs/2308.08467",
+    "context": "Title: On Neural Quantum Support Vector Machines. (arXiv:2308.08467v1 [quant-ph])\nAbstract: In \\cite{simon2023algorithms} we introduced four algorithms for the training of neural support vector machines (NSVMs) and demonstrated their feasibility. In this note we introduce neural quantum support vector machines, that is, NSVMs with a quantum kernel, and extend our results to this setting.",
+    "path": "papers/23/08/2308.08467.json",
+    "total_tokens": 465,
+    "translated_title": "论神经量子支持向量机",
+    "translated_abstract": "在 \\cite{simon2023algorithms} 中，我们介绍了四种用于训练神经支持向量机（NSVMs）的算法，并证明了其可行性。在本文中，我们引入了神经量子支持向量机，即具有量子核的NSVMs，并将我们的结果扩展到这个情景中。",
+    "tldr": "本文介绍了神经量子支持向量机，利用量子核，扩展了神经支持向量机的训练算法。"
+}

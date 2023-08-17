@@ -1,0 +1,12 @@
+{
+    "title": "LCE: An Augmented Combination of Bagging and Boosting in Python. (arXiv:2308.07250v2 [cs.LG] UPDATED)",
+    "abstract": "lcensemble is a high-performing, scalable and user-friendly Python package for the general tasks of classification and regression. The package implements Local Cascade Ensemble (LCE), a machine learning method that further enhances the prediction performance of the current state-of-the-art methods Random Forest and XGBoost. LCE combines their strengths and adopts a complementary diversification approach to obtain a better generalizing predictor. The package is compatible with scikit-learn, therefore it can interact with scikit-learn pipelines and model selection tools. It is distributed under the Apache 2.0 license, and its source code is available at https://github.com/LocalCascadeEnsemble/LCE.",
+    "link": "http://arxiv.org/abs/2308.07250",
+    "context": "Title: LCE: An Augmented Combination of Bagging and Boosting in Python. (arXiv:2308.07250v2 [cs.LG] UPDATED)\nAbstract: lcensemble is a high-performing, scalable and user-friendly Python package for the general tasks of classification and regression. The package implements Local Cascade Ensemble (LCE), a machine learning method that further enhances the prediction performance of the current state-of-the-art methods Random Forest and XGBoost. LCE combines their strengths and adopts a complementary diversification approach to obtain a better generalizing predictor. The package is compatible with scikit-learn, therefore it can interact with scikit-learn pipelines and model selection tools. It is distributed under the Apache 2.0 license, and its source code is available at https://github.com/LocalCascadeEnsemble/LCE.",
+    "path": "papers/23/08/2308.07250.json",
+    "total_tokens": 738,
+    "translated_title": "LCE: Python中增强版的Bagging和Boosting的结合方法",
+    "translated_abstract": "lcensemble是一个高性能、可扩展且用户友好的Python包，用于分类和回归的常见任务。该包实现了局部级联集成(LCE)，这是一种机器学习方法，进一步提高了当前最先进的方法如随机森林和XGBoost的预测性能。LCE将它们的优势结合起来，并采用一种互补的多样化方法来获得更好的泛化预测器。该包与scikit-learn兼容, 可以与scikit-learn的流水线和模型选择工具交互。它在Apache 2.0许可下分发，并且其源代码可以在https://github.com/LocalCascadeEnsemble/LCE获得。",
+    "tldr": "LCE是一个用于分类和回归任务的Python包，它实现了局部级联集成方法，通过结合随机森林和XGBoost的优势，采用多样化的方法获得更好的泛化预测性能。",
+    "en_tdlr": "LCE is a Python package for classification and regression tasks, which implements the Local Cascade Ensemble method. By combining the strengths of Random Forest and XGBoost with a diversification approach, it achieves better generalization performance."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Modified Verhulst-Solow model for long-term population and economic growths. (arXiv:2308.08315v1 [econ.GN])",
+    "abstract": "In this study, we analyze the relationship between human population growth and economic dynamics. To do so, we present a modified version of the Verhulst model and the Solow model, which together simulate population dynamics and the role of economic variables in capital accumulation. The model incorporates support and foraging functions, which participate in the dynamic relationship between population growth and the creation and destruction of carrying capacity. The validity of the model is demonstrated using empirical data.",
+    "link": "http://arxiv.org/abs/2308.08315",
+    "context": "Title: Modified Verhulst-Solow model for long-term population and economic growths. (arXiv:2308.08315v1 [econ.GN])\nAbstract: In this study, we analyze the relationship between human population growth and economic dynamics. To do so, we present a modified version of the Verhulst model and the Solow model, which together simulate population dynamics and the role of economic variables in capital accumulation. The model incorporates support and foraging functions, which participate in the dynamic relationship between population growth and the creation and destruction of carrying capacity. The validity of the model is demonstrated using empirical data.",
+    "path": "papers/23/08/2308.08315.json",
+    "total_tokens": 629,
+    "translated_title": "修改的 Verhulst-Solow 模型用于长期人口和经济增长",
+    "translated_abstract": "在这项研究中，我们分析人口增长与经济动态之间的关系。为了实现这一目标，我们提出了一个修改版的 Verhulst 模型和 Solow 模型，这两个模型共同模拟人口动态和经济变量在资本积累中的作用。该模型包含了支持和觅食功能，这些功能参与了人口增长和承载能力的创造和破坏之间的动态关系。该模型的有效性通过经验数据得到了验证。",
+    "tldr": "这个论文修改了Verhulst-Solow模型，用于模拟人口和经济变量间的关系，并结合实证数据验证了模型的有效性。"
+}

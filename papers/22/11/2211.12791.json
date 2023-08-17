@@ -1,0 +1,12 @@
+{
+    "title": "An ensemble of VisNet, Transformer-M, and pretraining models for molecular property prediction in OGB Large-Scale Challenge @ NeurIPS 2022. (arXiv:2211.12791v2 [cs.LG] UPDATED)",
+    "abstract": "In the technical report, we provide our solution for OGB-LSC 2022 Graph Regression Task. The target of this task is to predict the quantum chemical property, HOMO-LUMO gap for a given molecule on PCQM4Mv2 dataset. In the competition, we designed two kinds of models: Transformer-M-ViSNet which is an geometry-enhanced graph neural network for fully connected molecular graphs and Pretrained-3D-ViSNet which is a pretrained ViSNet by distilling geomeotric information from optimized structures. With an ensemble of 22 models, ViSNet Team achieved the MAE of 0.0723 eV on the test-challenge set, dramatically reducing the error by 39.75% compared with the best method in the last year competition.",
+    "link": "http://arxiv.org/abs/2211.12791",
+    "context": "Title: An ensemble of VisNet, Transformer-M, and pretraining models for molecular property prediction in OGB Large-Scale Challenge @ NeurIPS 2022. (arXiv:2211.12791v2 [cs.LG] UPDATED)\nAbstract: In the technical report, we provide our solution for OGB-LSC 2022 Graph Regression Task. The target of this task is to predict the quantum chemical property, HOMO-LUMO gap for a given molecule on PCQM4Mv2 dataset. In the competition, we designed two kinds of models: Transformer-M-ViSNet which is an geometry-enhanced graph neural network for fully connected molecular graphs and Pretrained-3D-ViSNet which is a pretrained ViSNet by distilling geomeotric information from optimized structures. With an ensemble of 22 models, ViSNet Team achieved the MAE of 0.0723 eV on the test-challenge set, dramatically reducing the error by 39.75% compared with the best method in the last year competition.",
+    "path": "papers/22/11/2211.12791.json",
+    "total_tokens": 782,
+    "translated_title": "《VisNet、Transformer-M和预训练模型在OGB大规模挑战中的分子性质预测中的集成》",
+    "translated_abstract": "在这份技术报告中，我们提供了我们在OGB-LSC 2022图回归任务中的解决方案。该任务的目标是预测PCQM4Mv2数据集中给定分子的量子化学性质，即HOMO-LUMO能隙。在比赛中，我们设计了两种模型：Transformer-M-ViSNet（一种增强几何图神经网络）和Pretrained-3D-ViSNet（通过提取优化结构的几何信息进行预训练的ViSNet）。通过22种模型的集成，ViSNet团队在测试挑战集上实现了0.0723 eV的MAE，相较于去年比赛中最佳方法，错误减少了39.75%。",
+    "tldr": "本研究通过集成VisNet、Transformer-M和预训练模型，成功预测了给定分子的量子化学性质，取得了显著的性能提升。",
+    "en_tdlr": "This study achieved significant performance improvement in predicting the quantum chemical property of given molecules by ensembling VisNet, Transformer-M, and pretrained models."
+}

@@ -2,132 +2,104 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Nested Multilevel Monte Carlo with Biased and Antithetic Sampling.](http://arxiv.org/abs/2308.07835) | 本文提出了一种使用有偏和对偶采样的嵌套多层蒙特卡洛方法，用于估计具有嵌套结构的两个期望，该方法能够在低计算成本下获得高精度的估计结果。 |
-| [^2] | [Online Universal Dirichlet Factor Portfolios.](http://arxiv.org/abs/2308.07763) | 该研究提出了一种在线投资组合分配方案，使用因子加权来产生优于均匀分配的投资组合，通过理论和实证分析证明了其有效性。 |
-| [^3] | [Reconstructing cryptocurrency processes via Markov chains.](http://arxiv.org/abs/2308.07626) | 该论文通过马尔可夫链重建加密货币的过程，并使用统计方法预测其动态。研究结果表明，使用经验概率进行预测是有效的。 |
-| [^4] | [Impact of COVID-19 Lockdown Measures on Chinese Startups and Local Government Public Finance: Challenges and Policy Implications.](http://arxiv.org/abs/2308.07437) | 本文评估了COVID-19对中国地方政府公共财政的影响，发现封锁措施对初创企业造成了负面影响。政策制定者应考虑实施更多针对初创企业的优惠政策，以确保它们的生存和发展。 |
-| [^5] | [Stochastic Optimal Investment Strategy for Net-Zero Energy Houses.](http://arxiv.org/abs/2308.07334) | 本研究旨在研究净零能量住宅，并提出了面向该领域的随机最优投资策略。该策略考虑了用户之间的电力分享和储能设备的使用方式，通过随机凸优化和合作博弈的建模方法来解决问题。 |
-| [^6] | [Variations on the Reinforcement Learning performance of Blackjack.](http://arxiv.org/abs/2308.07329) | 本研究探讨了在不同的牌堆大小下，强化学习代理在Blackjack游戏中的表现变化。研究发现算法的学习收敛速度与牌堆大小有关，并展示了使用基本策略和HI-LO系统的牌数计数器如何使庄家破产。这项工作的创新之处在于认识到牌堆大小是影响Blackjack表现的关键因素。 |
-| [^7] | [PM-Gati Shakti: Advancing India's Energy Future through Demand Forecasting -- A Case Study.](http://arxiv.org/abs/2308.07320) | 该研究通过PM-Gati Shakti倡议中的六个关键支柱，以德里最大需求预测为案例，探讨了如何提高印度能源未来的连通性和竞争力。预测在电力供应和负荷需求平衡、财务规划和调度等方面发挥着重要作用，尤其对印度农村地区和东北地区非常重要。 |
-| [^8] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
-| [^9] | [The multidimensional COS method for option pricing.](http://arxiv.org/abs/2307.12843) | 多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。 |
-| [^10] | [Individual Claims Reserving using Activation Patterns.](http://arxiv.org/abs/2208.08430) | 通过激活模式，我们提出了一种利用多项逻辑回归模型来预测个别索赔准备金的方法。通过使用加拿大一家主要保险公司的汽车数据集进行验证，我们证明了这种方法能够准确预测总准备金和每个保险类别的准备金，有助于保险人更好地了解其索赔准备金的动态。 |
+| [^1] | [Modified Verhulst-Solow model for long-term population and economic growths.](http://arxiv.org/abs/2308.08315) | 这个论文修改了Verhulst-Solow模型，用于模拟人口和经济变量间的关系，并结合实证数据验证了模型的有效性。 |
+| [^2] | [Microstructure-Empowered Stock Factor Extraction and Utilization.](http://arxiv.org/abs/2308.08135) | 本论文提出了一个新的框架，旨在从订单流数据中有效提取关键因子，用于多样化下游任务。 |
+| [^3] | [The Geometry of Constant Function Market Makers.](http://arxiv.org/abs/2308.08066) | 本文提出了一个通用几何框架来描述不变函数市场制造商（CFMM），包括了已有研究中的许多结果，并且不需要强条件。每个CFMM都有一个唯一的交易函数，该函数是非递减、凹的和均匀的。此外，还展示了CFMM满足直观和几何的组合规则，并给出了投资组合价值函数和交易函数等价的新证明。最后，将许多结果推广到一般设置中，其中CFMM可以不是路径无关但只允许一次交易。 |
+| [^4] | [Company Similarity using Large Language Models.](http://arxiv.org/abs/2308.08031) | 本文研究了使用大型语言模型进行公司相似性分析的方法，并发现预训练和微调的模型可以学习公司的嵌入表示，用于复现行业分类并评估财务指标。根据嵌入的相似性判断公司在财务上也相似。 |
+| [^5] | [Does courier gender matter? Exploring mode choice behaviour for E-groceries crowd-shipping in developing economies.](http://arxiv.org/abs/2308.07993) | 本研究通过调查、模拟和建模，探讨了发展中国家电子杂货众包配送中偶尔快递员的模式选择行为。研究结果表明，女性愿意以较少的薪酬提供众包配送服务，并且在交通方式上与男性存在差异。 |
+| [^6] | [Portfolio Selection via Topological Data Analysis.](http://arxiv.org/abs/2308.07944) | 通过拓扑数据分析，我们提出了一个基于两阶段方法的投资组合选择系统。实验结果表明，我们的系统优于其他方法，验证了拓扑数据分析作为一个强大的投资组合选择工具的可行性。 |
+| [^7] | [The multidimensional COS method for option pricing.](http://arxiv.org/abs/2307.12843) | 多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。 |
+| [^8] | [DeFi Lending During The Merge.](http://arxiv.org/abs/2303.08748) | 以太坊的合并计划及干预让去中心化金融中的借贷协议感到担忧，限制了用户的借贷权限，以避免大规模的清算。 |
+| [^9] | [The barriers to sustainable risk transfer in the cyber-insurance market.](http://arxiv.org/abs/2303.02061) | 该研究通过模拟一个人工网络保险市场的蒙特卡罗实验，发现网络威胁的动态性和缺乏可靠的事故报告导致了低效的风险转移。重新保险公司的参与程度对风险转移能力有重要影响。 |
+| [^10] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
 
 # 详细
 
-[^1]: 使用有偏和对偶采样的嵌套多层蒙特卡洛方法
+[^1]: 修改的 Verhulst-Solow 模型用于长期人口和经济增长
 
-    Nested Multilevel Monte Carlo with Biased and Antithetic Sampling. (arXiv:2308.07835v1 [q-fin.CP])
+    Modified Verhulst-Solow model for long-term population and economic growths. (arXiv:2308.08315v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.07835](http://arxiv.org/abs/2308.07835)
+    [http://arxiv.org/abs/2308.08315](http://arxiv.org/abs/2308.08315)
 
-    本文提出了一种使用有偏和对偶采样的嵌套多层蒙特卡洛方法，用于估计具有嵌套结构的两个期望，该方法能够在低计算成本下获得高精度的估计结果。
-
-    
-
-    本文考虑估计形式为$U_0 = E[\max\{U_1(Y), \pi(Y)\}]$的嵌套结构的两个期望的问题，其中$U_1(Y) = E[X\ |\ Y]$。这种形式的项在金融风险估计和期权定价中出现。在$U_1(Y)$需要逼近但确切采样$X$和$Y$可用的情况下，已经在文献中研究过对偶多层蒙特卡洛(MLMC)方法。在一般条件下，对偶MLMC估计器以阶数$\varepsilon^{-2}$的成本获得均方根误差$\varepsilon$。如果另外$X$和$Y$也需要近似采样，则需要仔细平衡估计的各个方面，以避免显著的计算负担。在对$X$和$Y$的逼近满足强收敛条件的情况下，可以使用随机多层蒙特卡洛技术构造$U_1$的无偏蒙特卡洛估计，并将其与对偶MLMC估计的$U_0$配对以恢复阶数为$\varepsilon^{-2}$的结果。
-
-    We consider the problem of estimating a nested structure of two expectations taking the form $U_0 = E[\max\{U_1(Y), \pi(Y)\}]$, where $U_1(Y) = E[X\ |\ Y]$. Terms of this form arise in financial risk estimation and option pricing. When $U_1(Y)$ requires approximation, but exact samples of $X$ and $Y$ are available, an antithetic multilevel Monte Carlo (MLMC) approach has been well-studied in the literature. Under general conditions, the antithetic MLMC estimator obtains a root mean squared error $\varepsilon$ with order $\varepsilon^{-2}$ cost. If, additionally, $X$ and $Y$ require approximate sampling, careful balancing of the various aspects of approximation is required to avoid a significant computational burden. Under strong convergence criteria on approximations to $X$ and $Y$, randomised multilevel Monte Carlo techniques can be used to construct unbiased Monte Carlo estimates of $U_1$, which can be paired with an antithetic MLMC estimate of $U_0$ to recover order $\varepsilon^{-2
-    
-[^2]: 在线通用狄利克雷因子投资组合
-
-    Online Universal Dirichlet Factor Portfolios. (arXiv:2308.07763v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2308.07763](http://arxiv.org/abs/2308.07763)
-
-    该研究提出了一种在线投资组合分配方案，使用因子加权来产生优于均匀分配的投资组合，通过理论和实证分析证明了其有效性。
+    这个论文修改了Verhulst-Solow模型，用于模拟人口和经济变量间的关系，并结合实证数据验证了模型的有效性。
 
     
 
-    我们重新审视了在线投资组合分配问题，并提出使用因子加权来产生优于均匀狄利克雷分配方案的投资组合。我们在收益已知遵循因子模型的情况下，证明了投资组合增长的下界。我们还通过实证研究证明，因子加权的狄利克雷抽样组合优于均匀抽样的狄利克雷组合所产生的财富。
+    在这项研究中，我们分析人口增长与经济动态之间的关系。为了实现这一目标，我们提出了一个修改版的 Verhulst 模型和 Solow 模型，这两个模型共同模拟人口动态和经济变量在资本积累中的作用。该模型包含了支持和觅食功能，这些功能参与了人口增长和承载能力的创造和破坏之间的动态关系。该模型的有效性通过经验数据得到了验证。
 
-    We revisit the online portfolio allocation problem and propose universal portfolios that use factor weighing to produce portfolios that out-perform uniform dirichlet allocation schemes. We show a few analytical results on the lower bounds of portfolio growth when the returns are known to follow a factor model. We also show analytically that factor weighted dirichlet sampled portfolios dominate the wealth generated by uniformly sampled dirichlet portfolios. We corroborate our analytical results with empirical studies on equity markets that are known to be driven by factors.
+    In this study, we analyze the relationship between human population growth and economic dynamics. To do so, we present a modified version of the Verhulst model and the Solow model, which together simulate population dynamics and the role of economic variables in capital accumulation. The model incorporates support and foraging functions, which participate in the dynamic relationship between population growth and the creation and destruction of carrying capacity. The validity of the model is demonstrated using empirical data.
     
-[^3]: 通过马尔可夫链重建加密货币过程
+[^2]: 微结构强化的股票因子提取与利用
 
-    Reconstructing cryptocurrency processes via Markov chains. (arXiv:2308.07626v1 [q-fin.CP])
+    Microstructure-Empowered Stock Factor Extraction and Utilization. (arXiv:2308.08135v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2308.07626](http://arxiv.org/abs/2308.07626)
+    [http://arxiv.org/abs/2308.08135](http://arxiv.org/abs/2308.08135)
 
-    该论文通过马尔可夫链重建加密货币的过程，并使用统计方法预测其动态。研究结果表明，使用经验概率进行预测是有效的。
-
-    
-
-    对数字股票市场的研究逐渐增加，导致人们对加密货币的关注度也越来越高。传统股票的分析方法和工具也被应用于数字货币市场，其中包括对市场波动过程的识别。作为一种有趣的随机过程，常规的统计方法是重建这些过程的合适工具。然而，除了机会，如果发现确定性模式，行为组件的描述也应该存在。马尔可夫方法是这个努力的前沿。本文考虑一至八阶马尔可夫链作为预测三个主要加密货币动力学的方法，并基于日内收益率的经验基础进行预测。除了预测，我们还调查了每个随机过程中是否存在长记忆组件。结果显示，使用经验概率得到的预测是有效的。
-
-    The growing attention on cryptocurrencies has led to increasing research on digital stock markets. Approaches and tools usually applied to characterize standard stocks have been applied to the digital ones. Among these tools is the identification of processes of market fluctuations. Being interesting stochastic processes, the usual statistical methods are appropriate tools for their reconstruction. There, besides chance, the description of a behavioural component shall be present whenever a deterministic pattern is ever found. Markov approaches are at the leading edge of this endeavour. In this paper, Markov chains of orders one to eight are considered as a way to forecast the dynamics of three major cryptocurrencies. It is accomplished using an empirical basis of intra-day returns. Besides forecasting, we investigate the existence of eventual long-memory components in each of those stochastic processes. Results show that predictions obtained from using the empirical probabilities are 
-    
-[^4]: COVID-19封锁措施对中国初创企业和地方政府公共财政的影响：挑战和政策启示
-
-    Impact of COVID-19 Lockdown Measures on Chinese Startups and Local Government Public Finance: Challenges and Policy Implications. (arXiv:2308.07437v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.07437](http://arxiv.org/abs/2308.07437)
-
-    本文评估了COVID-19对中国地方政府公共财政的影响，发现封锁措施对初创企业造成了负面影响。政策制定者应考虑实施更多针对初创企业的优惠政策，以确保它们的生存和发展。
+    本论文提出了一个新的框架，旨在从订单流数据中有效提取关键因子，用于多样化下游任务。
 
     
 
-    本文旨在评估COVID-19对中国地方政府公共财政的影响，特别关注封锁措施对疫情期间初创企业的影响。疫情爆发给地方政府带来了重大的财政压力，封锁措施导致收入下降和与公共卫生和社会福利相关的支出增加。与此同时，初创企业面临着诸多挑战，包括融资减少和盈利能力降低，这是封锁措施对创业的负面影响所致。此外，疫情引发了短期和长期的经济冲击，影响就业和经济复苏。为应对这些挑战，政策制定者需在健康关切和经济发展之间取得平衡。在这方面，政府应考虑实施更多针对初创企业的优惠政策，以确保它们的生存和发展。这些政策可能包括财务支援、税收激励和减免等。
+    高频量化投资是股票投资的重要方面。特别是订单流数据在高频交易数据中起着关键作用，因为它提供了最详细的信息，包括订单簿和逐笔交易记录的全面数据。订单流数据对市场分析非常有价值，因为它为交易者提供了必要的洞察力，帮助他们做出明智的决策。然而，由于涉及到大量的数据和传统因子挖掘技术的局限性，订单流数据的提取和有效利用存在挑战，这些技术主要是为粗粒度股票数据设计的。为了解决这些挑战，我们提出了一个新的框架，旨在从订单流数据中有效提取关键因子，用于不同粒度和场景的多样化下游任务。我们的方法包括一个上下文编码器和一个因子提取器。上下文编码器学习一个嵌入f
 
-    This paper aims to assess the impact of COVID-19 on the public finance of Chinese local governments, with a particular focus on the effect of lockdown measures on startups during the pandemic. The outbreak has placed significant fiscal pressure on local governments, as containment measures have led to declines in revenue and increased expenses related to public health and social welfare. In tandem, startups have faced substantial challenges, including reduced funding and profitability, due to the negative impact of lockdown measures on entrepreneurship. Moreover, the pandemic has generated short- and long-term economic shocks, affecting both employment and economic recovery. To address these challenges, policymakers must balance health concerns with economic development. In this regard, the government should consider implementing more preferential policies that focus on startups to ensure their survival and growth. Such policies may include financial assistance, tax incentives, and reg
+    High-frequency quantitative investment is a crucial aspect of stock investment. Notably, order flow data plays a critical role as it provides the most detailed level of information among high-frequency trading data, including comprehensive data from the order book and transaction records at the tick level. The order flow data is extremely valuable for market analysis as it equips traders with essential insights for making informed decisions. However, extracting and effectively utilizing order flow data present challenges due to the large volume of data involved and the limitations of traditional factor mining techniques, which are primarily designed for coarser-level stock data. To address these challenges, we propose a novel framework that aims to effectively extract essential factors from order flow data for diverse downstream tasks across different granularities and scenarios. Our method consists of a Context Encoder and an Factor Extractor. The Context Encoder learns an embedding f
     
-[^5]: 面向净零能量住宅的随机最优投资策略
+[^3]: 不变函数市场制造商的几何学
 
-    Stochastic Optimal Investment Strategy for Net-Zero Energy Houses. (arXiv:2308.07334v1 [econ.GN])
+    The Geometry of Constant Function Market Makers. (arXiv:2308.08066v1 [math.OC])
 
-    [http://arxiv.org/abs/2308.07334](http://arxiv.org/abs/2308.07334)
+    [http://arxiv.org/abs/2308.08066](http://arxiv.org/abs/2308.08066)
 
-    本研究旨在研究净零能量住宅，并提出了面向该领域的随机最优投资策略。该策略考虑了用户之间的电力分享和储能设备的使用方式，通过随机凸优化和合作博弈的建模方法来解决问题。
-
-    
-
-    在这项研究中，我们调查了净零能量住宅（ZEH），通过将当地产电的光伏（PV）面板和燃料电池集成到本地电力系统中，实现碳中和的目标。本文考察了通过集成PV面板和电池储存设备来实现ZEH状态的用户之间的电力分享对应的影响。我们提出了两种潜在的情景：第一种假设所有用户都单独投资于储能设备，以在当地水平上最小化成本而不进行能量分享；第二种设想通过集体使用由中央管理器管理的共享储能设备来实现成本最小化。这两种情景分别被建模为随机凸优化问题和合作博弈。为了解决由多个随机变量引起的随机挑战，我们将蒙特卡罗样本平均逼近（SAA）应用于这些问题。
-
-    In this research, we investigate Net-Zero Energy Houses (ZEH), which harness regionally produced electricity from photovoltaic(PV) panels and fuel cells, integrating them into a local power system in pursuit of achieving carbon neutrality. This paper examines the impact of electricity sharing among users who are working towards attaining ZEH status through the integration of PV panels and battery storage devices. We propose two potential scenarios: the first assumes that all users individually invest in storage devices, hence minimizing their costs on a local level without energy sharing; the second envisions cost minimization through the collective use of a shared storage device, managed by a central manager. These two scenarios are formulated as a stochastic convex optimization and a cooperative game, respectively. To tackle the stochastic challenges posed by multiple random variables, we apply the Monte Carlo sample average approximation (SAA) to the problems. To demonstrate the pra
-    
-[^6]: Blackjack的强化学习性能变化
-
-    Variations on the Reinforcement Learning performance of Blackjack. (arXiv:2308.07329v1 [cs.AI])
-
-    [http://arxiv.org/abs/2308.07329](http://arxiv.org/abs/2308.07329)
-
-    本研究探讨了在不同的牌堆大小下，强化学习代理在Blackjack游戏中的表现变化。研究发现算法的学习收敛速度与牌堆大小有关，并展示了使用基本策略和HI-LO系统的牌数计数器如何使庄家破产。这项工作的创新之处在于认识到牌堆大小是影响Blackjack表现的关键因素。
+    本文提出了一个通用几何框架来描述不变函数市场制造商（CFMM），包括了已有研究中的许多结果，并且不需要强条件。每个CFMM都有一个唯一的交易函数，该函数是非递减、凹的和均匀的。此外，还展示了CFMM满足直观和几何的组合规则，并给出了投资组合价值函数和交易函数等价的新证明。最后，将许多结果推广到一般设置中，其中CFMM可以不是路径无关但只允许一次交易。
 
     
 
-    Blackjack或称为“21点”是一种流行的基于扑克牌的运气和技巧游戏。游戏的目标是在不超过21点的情况下，获得比庄家更高的手牌总数。理想的黑杰克策略将在长期内最大化财务回报，同时避免赌徒的破产。由于黑杰克的随机环境和固有的奖励结构，这为我们更好地理解强化学习代理在环境变化下的表现提供了一个吸引人的问题。在这里，我们考虑了一种用于最佳玩法的Q-learning解决方案，并研究了算法学习收敛速度与牌堆大小的关系。我们还实现了一个允许使用通用黑杰克规则的模拟器，以展示一个使用基本策略和HI-LO系统的牌数完美计数器如何使庄家破产，以及环境变化对这个结果的影响。我们的工作的创新之处在于将牌堆大小的影响概念性地理解为黑杰克中的因素。
+    无常数函数市场制造商（CFMM）是加密货币代币的最受欢迎的分散交易场所类型。在本文中，我们提供了一个非常通用的几何框架（或“公设”），涵盖和概括了文献中关于CFMM的许多已知结果，而不需要可导性或均匀性等强条件。这个框架的一个特殊结果是，每个CFMM都有一个（唯一的）规范交易函数，该函数是非递减、凹的和均匀的，从而显示出只针对均匀交易函数已知的许多结果实际上是完全普遍的。我们还展示了CFMM满足一些直观的和几何学的组合规则，并通过圆锥对偶给出了投资组合价值函数和交易函数等价的新证明。许多结果被推广到CFMM不被假设为路径无关但只允许一次交易的一般设置。最后，我们证明了所有的“路径无关”CFMM...
 
-    Blackjack or "21" is a popular card-based game of chance and skill. The objective of the game is to win by obtaining a hand total higher than the dealer's without exceeding 21. The ideal blackjack strategy will maximize financial return in the long run while avoiding gambler's ruin. The stochastic environment and inherent reward structure of blackjack presents an appealing problem to better understand reinforcement learning agents in the presence of environment variations. Here we consider a q-learning solution for optimal play and investigate the rate of learning convergence of the algorithm as a function of deck size. A blackjack simulator allowing for universal blackjack rules is also implemented to demonstrate the extent to which a card counter perfectly using the basic strategy and hi-lo system can bring the house to bankruptcy and how environment variations impact this outcome. The novelty of our work is to place this conceptual understanding of the impact of deck size in the con
+    Constant function market makers (CFMMs) are the most popular type of decentralized trading venue for cryptocurrency tokens. In this paper, we give a very general geometric framework (or 'axioms') which encompass and generalize many of the known results for CFMMs in the literature, without requiring strong conditions such as differentiability or homogeneity. One particular consequence of this framework is that every CFMM has a (unique) canonical trading function that is nondecreasing, concave, and homogeneous, showing that many results known only for homogeneous trading functions are actually fully general. We also show that CFMMs satisfy a number of intuitive and geometric composition rules, and give a new proof, via conic duality, of the equivalence of the portfolio value function and the trading function. Many results are extended to the general setting where the CFMM is not assumed to be path-independent, but only one trade is allowed. Finally, we show that all 'path-independent' CF
     
-[^7]: PM-Gati Shakti：通过需求预测推动印度能源未来的研究 -- 以德里最大需求预测案例研究为例
+[^4]: 使用大型语言模型进行公司相似性的研究
 
-    PM-Gati Shakti: Advancing India's Energy Future through Demand Forecasting -- A Case Study. (arXiv:2308.07320v1 [econ.GN])
+    Company Similarity using Large Language Models. (arXiv:2308.08031v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2308.07320](http://arxiv.org/abs/2308.07320)
+    [http://arxiv.org/abs/2308.08031](http://arxiv.org/abs/2308.08031)
 
-    该研究通过PM-Gati Shakti倡议中的六个关键支柱，以德里最大需求预测为案例，探讨了如何提高印度能源未来的连通性和竞争力。预测在电力供应和负荷需求平衡、财务规划和调度等方面发挥着重要作用，尤其对印度农村地区和东北地区非常重要。
-
-    
-
-    PM-Gati-Shakti倡议整合了包括铁路、港口、水路、物流基础设施、大众交通、机场和道路在内的多个部门。该倡议旨在提高连通性，增强印度企业的竞争力，重点关注六个关键支柱，即“提高生产力的连通性”：全面性、优先级、优化、同步性、分析性和动态性。本研究探讨了将这些支柱应用于解决“德里最大需求预测”问题的案例。电力预测在电网中起着非常重要的作用，因为它需要在任何时候保持供应和负荷需求之间的平衡，以提供优质的电力供应，用于财务规划、发电储备等。预测不仅有助于生产计划，还有助于进口/出口等调度，这在印度非常常见，也是印度农村地区和东北地区常常需要的。
-
-    PM-Gati-Shakti Initiative, integration of ministries, including railways, ports, waterways, logistic infrastructure, mass transport, airports, and roads. Aimed at enhancing connectivity and bolstering the competitiveness of Indian businesses, the initiative focuses on six pivotal pillars known as "Connectivity for Productivity": comprehensiveness, prioritization, optimization, synchronization, analytical, and dynamic. In this study, we explore the application of these pillars to address the problem of "Maximum Demand Forecasting in Delhi." Electricity forecasting plays a very significant role in the power grid as it is required to maintain a balance between supply and load demand at all times, to provide a quality electricity supply, for Financial planning, generation reserve, and many more. Forecasting helps not only in Production Planning but also in Scheduling like Import / Export which is very often in India and mostly required by the rural areas and North Eastern Regions of India.
-    
-[^8]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
-
-    The Disagreement Dividend. (arXiv:2308.06607v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.06607](http://arxiv.org/abs/2308.06607)
-
-    通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。
+    本文研究了使用大型语言模型进行公司相似性分析的方法，并发现预训练和微调的模型可以学习公司的嵌入表示，用于复现行业分类并评估财务指标。根据嵌入的相似性判断公司在财务上也相似。
 
     
 
-    我们研究了在一个带有替代生产技术和正外部性的简单重复博弈中，观点不同如何影响群体的生产绩效。参与者可以持有不同的观点，即对技术的特性和质量持有不同的看法。这种分歧有两个主要特点。首先，不同的观点会导致不同的技术和努力选择--“乐观”的观点会导致比“怀疑”的观点更高的努力程度。其次，观点是有韧性的--只有在出乎意料的证据证明其为错误时才会发生变化。当只有一种生产技术可用时，对其生产力的分歧(i)激励乐观主义者比与有类似观点的玩家匹配时更努力地工作；(ii)可以降低怀疑主义者的努力。第一个力量构成了我们所谓的“分歧红利”的核心。我们展示了如果外部性足够强，一个有类似观点的乐观主义者团队在预期产出方面会被一个具有分歧观点的团队在表现上超过。
+    在金融领域中，识别具有相似特点的公司是一项核心任务，广泛应用于投资组合构建、资产定价和风险归因。当缺乏对相似性的严格定义时，金融分析师通常采用“传统”的行业分类，如全球行业分类系统（GICS），它在不同粒度级别上为每家公司分配一个唯一的类别。然而，由于GICS分类是离散的，不能对公司进行相似性排名。在本文中，我们通过分析SEC文件中的业务描述，探索了预训练和微调的大型语言模型（LLMs）学习公司嵌入的能力。我们展示了我们可以使用这些嵌入作为特征来复现GICS分类。我们还对这些嵌入进行了各种机器学习和财务指标的基准测试，并得出结论，根据嵌入的相似性来判断的公司也在财务上相似。
 
-    We study how disagreement influences the productive performance of a group in a simple repeated game with alternative production technologies and positive externalities. Players can disagree, i.e. hold different views about the characteristics and quality of the technologies. This disagreement has two main characteristics. First, different views lead to different technology and effort choices -- "optimistic" views justify higher effort than "skeptical" views. Second, views are resilient -- changed only if falsified by surprising evidence. When only one production technology is available, disagreement over its productivity (i) incentivizes the optimistic agent to work harder than when matched with a like-minded player; (ii) can reduce the effort of the skeptic agent. The first force lies at the core of what we call the "disagreement dividend." We show that if externalities are sufficiently strong, a team of like-minded optimists is outperformed -- in terms of expected output -- by a dis
+    Identifying companies with similar profiles is a core task in finance with a wide range of applications in portfolio construction, asset pricing and risk attribution. When a rigorous definition of similarity is lacking, financial analysts usually resort to 'traditional' industry classifications such as Global Industry Classification System (GICS) which assign a unique category to each company at different levels of granularity. Due to their discrete nature, though, GICS classifications do not allow for ranking companies in terms of similarity. In this paper, we explore the ability of pre-trained and finetuned large language models (LLMs) to learn company embeddings based on the business descriptions reported in SEC filings. We show that we can reproduce GICS classifications using the embeddings as features. We also benchmark these embeddings on various machine learning and financial metrics and conclude that the companies that are similar according to the embeddings are also similar in
     
-[^9]: 多维COS方法用于期权定价
+[^5]: 快递员性别重要吗？探索发展中国家电子杂货众包配送的模式选择行为
+
+    Does courier gender matter? Exploring mode choice behaviour for E-groceries crowd-shipping in developing economies. (arXiv:2308.07993v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.07993](http://arxiv.org/abs/2308.07993)
+
+    本研究通过调查、模拟和建模，探讨了发展中国家电子杂货众包配送中偶尔快递员的模式选择行为。研究结果表明，女性愿意以较少的薪酬提供众包配送服务，并且在交通方式上与男性存在差异。
+
+    
+
+    本研究探讨了可能充当偶尔快递员提供众包配送服务的人们的模式选择行为。鉴于在线杂货服务近年来越来越受欢迎，它已成为众包配送提供商的主要市场。研究采用了行为调查、PTV Visum模拟和基于随机效用最大化理论的离散选择行为建模。通过考虑多模式城市交通网络中偶然快递员的性别差异，研究了模式选择行为。行为数据集是在乌克兰哈尔科夫市于2021年初收集的。结果显示，女性愿意以比男性少8％的薪酬提供众包配送服务。女性也更愿意通过汽车和地铁进行10％的更长绕道，而男性快递员在骑自行车或步行时愿意增加25％的绕道路程。考虑到众包配送绕道对快递人员的影响。
+
+    This paper examines the mode choice behaviour of people who may act as occasional couriers to provide crowd-shipping (CS) deliveries. Given its recent increase in popularity, online grocery services have become the main market for crowd-shipping deliveries' provider. The study included a behavioural survey, PTV Visum simulations and discrete choice behaviour modelling based on random utility maximization theory. Mode choice behaviour was examined by considering the gender heterogeneity of the occasional couriers in a multimodal urban transport network. The behavioural dataset was collected in the city of Kharkiv, Ukraine, at the beginning of 2021. The results indicated that women were willing to provide CS service with 8% less remuneration than men. Women were also more likely to make 10% longer detours by car and metro than men, while male couriers were willing to implement 25% longer detours when travelling by bike or walking. Considering the integration of CS detours into the courie
+    
+[^6]: 通过拓扑数据分析进行投资组合选择
+
+    Portfolio Selection via Topological Data Analysis. (arXiv:2308.07944v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2308.07944](http://arxiv.org/abs/2308.07944)
+
+    通过拓扑数据分析，我们提出了一个基于两阶段方法的投资组合选择系统。实验结果表明，我们的系统优于其他方法，验证了拓扑数据分析作为一个强大的投资组合选择工具的可行性。
+
+    
+
+    投资组合管理是投资决策的重要部分。然而，传统方法往往不能提供合理的表现。这个问题源于这些方法无法考虑到股市多元时间序列数据的独特特征。我们提出了一个两阶段的方法来构建一个由普通股票组成的投资组合。该方法涉及时间序列表示的生成及其后续聚类。我们的方法利用基于拓扑数据分析（TDA）的特征进行表示的生成，使我们能够阐明数据中的拓扑结构。实验结果表明，我们提出的系统优于其他方法。这种优越性在不同的时间框架下都是一致的，说明TDA作为一个强大的投资组合选择工具的可行性。
+
+    Portfolio management is an essential part of investment decision-making. However, traditional methods often fail to deliver reasonable performance. This problem stems from the inability of these methods to account for the unique characteristics of multivariate time series data from stock markets. We present a two-stage method for constructing an investment portfolio of common stocks. The method involves the generation of time series representations followed by their subsequent clustering. Our approach utilizes features based on Topological Data Analysis (TDA) for the generation of representations, allowing us to elucidate the topological structure within the data. Experimental results show that our proposed system outperforms other methods. This superior performance is consistent over different time frames, suggesting the viability of TDA as a powerful tool for portfolio selection.
+    
+[^7]: 多维COS方法用于期权定价
 
     The multidimensional COS method for option pricing. (arXiv:2307.12843v1 [q-fin.CP])
 
@@ -141,18 +113,46 @@
 
     The multidimensional COS method is a numerical tool to price financial options, which depend on several underlyings. The method makes use of the characteristic function $\varphi$ of the logarithmic returns of the underlyings and it is advantageous if the Fourier-cosine coefficients $v_{\boldsymbol{k}}$ of the payoff function are given in closed-form. However, in important cases, neither $\varphi$ nor $v_{\boldsymbol{k}}$ are given analytically but need to be recovered numerically. In this article, we prove the convergence of the multidimensional COS method including numerical uncertainty on $\varphi$ and $v_{\boldsymbol{k}}$. Our analysis helps to understand how the approximation errors on $\varphi$ and $v_{\boldsymbol{k}}$ propagate in the COS method.
     
-[^10]: 利用激活模式进行个别理赔准备金估计
+[^8]: 合并过程中的 DeFi 借贷
 
-    Individual Claims Reserving using Activation Patterns. (arXiv:2208.08430v3 [q-fin.MF] UPDATED)
+    DeFi Lending During The Merge. (arXiv:2303.08748v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2208.08430](http://arxiv.org/abs/2208.08430)
+    [http://arxiv.org/abs/2303.08748](http://arxiv.org/abs/2303.08748)
 
-    通过激活模式，我们提出了一种利用多项逻辑回归模型来预测个别索赔准备金的方法。通过使用加拿大一家主要保险公司的汽车数据集进行验证，我们证明了这种方法能够准确预测总准备金和每个保险类别的准备金，有助于保险人更好地了解其索赔准备金的动态。
+    以太坊的合并计划及干预让去中心化金融中的借贷协议感到担忧，限制了用户的借贷权限，以避免大规模的清算。
 
     
 
-    一个索赔的发生往往不仅会影响合同中提供的一项保险，而是多个保险。为了考虑到这种多变量特性，我们提出了一种围绕不同保险激活来预测准备金金额的新个别索赔准备金模型。使用多项逻辑回归的框架，我们模拟了每项索赔的不同保险的激活情况以及其在后续年份中的发展，即后续年份中其他保险的激活情况以及可能由此产生的所有可能支付。因此，该模型允许我们完成投资组合中的个别未决索赔的发展。利用来自加拿大一家主要保险公司的最新汽车数据集，我们证明了这种方法能够准确预测总准备金以及每项保险的准备金，从而使保险人能够更好地了解其索赔准备金的动态。
+    去中心化金融中的借贷协议实现了借方与贷方之间无需信任第三方进行清算或市场交易的借贷资金交换。利率完全由资金的供需按照预设函数设定。在以太坊从 PoW 共识机制向 PoS 共识机制的“合并”前夕，一部分以太坊生态系统的参与者宣布计划继续使用 PoW 链。无论他们的 ETH 是否被借出，所有 ETH 持有人都将在每条链上持有原生代币。这一变化引起了借贷协议的担忧。他们担心 ETH 借贷利率飙升会导致大规模清算，从而削弱协议的可行性。因此，运营这些协议的去中心化自治组织别无选择，只能限制用户的借贷权限。我们研究了合并和干预对以太坊上两个最大的借贷协议的影响。
 
-    The occurrence of a claim often impacts not one but multiple insurance coverages provided in the contract. To account for this multivariate feature, we propose a new individual claims reserving model built around the activation of the different coverages to predict the reserve amounts. Using the framework of multinomial logistic regression, we model the activation of the different insurance coverages for each claim and their development in the following years, i.e. the activation of other coverages in the later years and all the possible payments that might result from them. As such, the model allows us to complete the individual development of the open claims in the portfolio. Using a recent automobile dataset from a major Canadian insurance company, we demonstrate that this approach generates accurate predictions of the total reserves as well as of the reserves per insurance coverage. This allows the insurer to get better insights in the dynamics of his claims reserves.
+    Lending protocols in decentralized finance enable the permissionless exchange of capital from lenders to borrowers without relying on a trusted third party for clearing or market-making. Interest rates are purely set by the supply and demand of capital according to a pre-defined function. In the lead-up to The Merge: Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS), a fraction of the Ethereum ecosystem announced plans of continuing with a PoW-chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow.  We investigate the effects of the merge and the intervention on the two biggest lending protocols on Ethereum: A
+    
+[^9]: 《网络保险市场可持续风险转移的障碍》
+
+    The barriers to sustainable risk transfer in the cyber-insurance market. (arXiv:2303.02061v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2303.02061](http://arxiv.org/abs/2303.02061)
+
+    该研究通过模拟一个人工网络保险市场的蒙特卡罗实验，发现网络威胁的动态性和缺乏可靠的事故报告导致了低效的风险转移。重新保险公司的参与程度对风险转移能力有重要影响。
+
+    
+
+    有效的风险转移是确保市场可持续性的重要条件，根据建立在经济学文献中的理论。在一个低效的市场中，可能会产生重大的财务不平衡，可能危及到一些市场参与者的偿付能力。由于网络威胁不断演变和缺乏公共数据共享，使得引用的网络保险费率被认为是高效的经济条件非常不可能被满足。本文通过蒙特卡罗模拟研究了一个人工网络保险市场，并根据市场参与者之间的信息设置，比较了高效和低效的结果。通过网络威胁的动态性和缺乏可靠和集中化的事故报告，证明了损失分布的多样性的存在是合理的。结果显示，当损失预期不被共享时，再保险公司的参与程度有限，导致保费增加，同时降低了总体的风险转移能力。
+
+    Efficient risk transfer is an important condition for ensuring the sustainability of a market according to the established economics literature. In an inefficient market, significant financial imbalances may develop and potentially jeopardise the solvency of some market participants. The constantly evolving nature of cyber-threats and lack of public data sharing mean that the economic conditions required for quoted cyber-insurance premiums to be considered efficient are highly unlikely to be met. This paper develops Monte Carlo simulations of an artificial cyber-insurance market and compares the efficient and inefficient outcomes based on the informational setup between the market participants. The existence of diverse loss distributions is justified by the dynamic nature of cyber-threats and the absence of any reliable and centralised incident reporting. It is shown that the limited involvement of reinsurers when loss expectations are not shared leads to increased premiums and lower o
+    
+[^10]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Online Control for Linear Dynamics: A Data-Driven Approach. (arXiv:2308.08138v1 [eess.SY])",
+    "abstract": "This paper considers an online control problem over a linear time-invariant system with unknown dynamics, bounded disturbance, and adversarial cost. We propose a data-driven strategy to reduce the regret of the controller. Unlike model-based methods, our algorithm does not identify the system model, instead, it leverages a single noise-free trajectory to calculate the accumulation of disturbance and makes decisions using the accumulated disturbance action controller we design, whose parameters are updated by online gradient descent. We prove that the regret of our algorithm is $\\mathcal{O}(\\sqrt{T})$ under mild assumptions, suggesting that its performance is on par with model-based methods.",
+    "link": "http://arxiv.org/abs/2308.08138",
+    "context": "Title: Online Control for Linear Dynamics: A Data-Driven Approach. (arXiv:2308.08138v1 [eess.SY])\nAbstract: This paper considers an online control problem over a linear time-invariant system with unknown dynamics, bounded disturbance, and adversarial cost. We propose a data-driven strategy to reduce the regret of the controller. Unlike model-based methods, our algorithm does not identify the system model, instead, it leverages a single noise-free trajectory to calculate the accumulation of disturbance and makes decisions using the accumulated disturbance action controller we design, whose parameters are updated by online gradient descent. We prove that the regret of our algorithm is $\\mathcal{O}(\\sqrt{T})$ under mild assumptions, suggesting that its performance is on par with model-based methods.",
+    "path": "papers/23/08/2308.08138.json",
+    "total_tokens": 746,
+    "translated_title": "在线控制线性动力学：一种数据驱动方法",
+    "translated_abstract": "本文考虑了一个在线控制问题，涉及到具有未知动力学、有界扰动和对抗成本的线性时不变系统。我们提出了一种数据驱动策略来降低控制器的后悔。与基于模型的方法不同，我们的算法不需要识别系统模型，而是利用单个无噪声轨迹来计算扰动的累积，并使用我们设计的累积扰动动作控制器做出决策，其参数通过在线梯度下降进行更新。我们证明，在温和的假设下，我们算法的后悔是$\\mathcal{O}(\\sqrt{T})$的，这表明它的性能与基于模型的方法相当。",
+    "tldr": "本文提出了一种数据驱动的方法来解决在线控制线性动力学问题，该方法不需要识别系统模型，而是通过累积扰动来进行决策，证明了算法性能与基于模型的方法相当。",
+    "en_tdlr": "This paper proposes a data-driven approach to solve the online control problem for linear dynamics, which does not require identifying the system model but makes decisions based on the accumulation of disturbance. The algorithm's performance is proven to be comparable to model-based methods."
+}

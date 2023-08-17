@@ -1,0 +1,12 @@
+{
+    "title": "ChinaTelecom System Description to VoxCeleb Speaker Recognition Challenge 2023. (arXiv:2308.08181v1 [cs.SD])",
+    "abstract": "This technical report describes ChinaTelecom system for Track 1 (closed) of the VoxCeleb2023 Speaker Recognition Challenge (VoxSRC 2023). Our system consists of several ResNet variants trained only on VoxCeleb2, which were fused for better performance later. Score calibration was also applied for each variant and the fused system. The final submission achieved minDCF of 0.1066 and EER of 1.980%.",
+    "link": "http://arxiv.org/abs/2308.08181",
+    "context": "Title: ChinaTelecom System Description to VoxCeleb Speaker Recognition Challenge 2023. (arXiv:2308.08181v1 [cs.SD])\nAbstract: This technical report describes ChinaTelecom system for Track 1 (closed) of the VoxCeleb2023 Speaker Recognition Challenge (VoxSRC 2023). Our system consists of several ResNet variants trained only on VoxCeleb2, which were fused for better performance later. Score calibration was also applied for each variant and the fused system. The final submission achieved minDCF of 0.1066 and EER of 1.980%.",
+    "path": "papers/23/08/2308.08181.json",
+    "total_tokens": 658,
+    "translated_title": "中国电信对VoxCeleb2023说话人识别挑战的系统描述",
+    "translated_abstract": "这份技术报告描述了中国电信针对VoxCeleb2023说话人识别挑战（VoxSRC 2023）的系统。我们的系统由几个在VoxCeleb2上训练的ResNet变种组成，后来进行了融合以提高性能。每个变种和融合系统都进行了得分校准。最终提交的结果达到了0.1066的minDCF和1.980%的EER。",
+    "tldr": "中国电信的系统在VoxCeleb2023说话人识别挑战中取得了优异的表现，通过使用多个在VoxCeleb2上训练的ResNet模型，并进行融合和得分校准，最终获得了0.1066的minDCF和1.980%的EER。",
+    "en_tdlr": "ChinaTelecom achieved excellent performance in the VoxCeleb2023 Speaker Recognition Challenge by utilizing multiple ResNet models trained on VoxCeleb2, fusing them together, and applying score calibration, resulting in a minDCF of 0.1066 and an EER of 1.980%."
+}

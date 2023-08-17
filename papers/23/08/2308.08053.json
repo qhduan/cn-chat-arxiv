@@ -1,0 +1,11 @@
+{
+    "title": "Natural Evolution Strategies as a Black Box Estimator for Stochastic Variational Inference. (arXiv:2308.08053v1 [cs.NE])",
+    "abstract": "Stochastic variational inference and its derivatives in the form of variational autoencoders enjoy the ability to perform Bayesian inference on large datasets in an efficient manner. However, performing inference with a VAE requires a certain design choice (i.e. reparameterization trick) to allow unbiased and low variance gradient estimation, restricting the types of models that can be created. To overcome this challenge, an alternative estimator based on natural evolution strategies is proposed. This estimator does not make assumptions about the kind of distributions used, allowing for the creation of models that would otherwise not have been possible under the VAE framework.",
+    "link": "http://arxiv.org/abs/2308.08053",
+    "context": "Title: Natural Evolution Strategies as a Black Box Estimator for Stochastic Variational Inference. (arXiv:2308.08053v1 [cs.NE])\nAbstract: Stochastic variational inference and its derivatives in the form of variational autoencoders enjoy the ability to perform Bayesian inference on large datasets in an efficient manner. However, performing inference with a VAE requires a certain design choice (i.e. reparameterization trick) to allow unbiased and low variance gradient estimation, restricting the types of models that can be created. To overcome this challenge, an alternative estimator based on natural evolution strategies is proposed. This estimator does not make assumptions about the kind of distributions used, allowing for the creation of models that would otherwise not have been possible under the VAE framework.",
+    "path": "papers/23/08/2308.08053.json",
+    "total_tokens": 676,
+    "translated_title": "自然进化策略作为随机变分推断的黑盒估计器",
+    "translated_abstract": "随机变分推断及其变种（如变分自动编码器）能够以高效的方式对大型数据集进行贝叶斯推断。然而，使用变分自动编码器进行推断需要进行某种设计选择（例如重新参数化技巧），以实现无偏和低方差的梯度估计，限制了可以创建的模型类型。为了克服这一挑战，提出了一种基于自然进化策略的替代估计器。该估计器不对所使用的分布类型做出任何假设，从而可以创建在变分自动编码器框架下否则无法实现的模型。",
+    "tldr": "提出了一种基于自然进化策略的黑盒估计器，可以克服变分自动编码器框架下对分布类型的限制。"
+}
