@@ -21,13 +21,14 @@
 | [^17] | [Phase Retrieval with Background Information: Decreased References and Efficient Methods.](http://arxiv.org/abs/2308.08328) | 本文提出了具备背景信息的相位恢复方法，通过改进方法与理论结果，成功减少了对背景信息的需求。 |
 | [^18] | [Pre-training with Large Language Model-based Document Expansion for Dense Passage Retrieval.](http://arxiv.org/abs/2308.08285) | 本文研究了基于大型语言模型的文档扩展预训练对稠密通道检索的潜力，通过利用该方法进行查询生成并传递扩展的知识给检索器，实验证明这种方法显著提高了大规模网络搜索任务的检索性能。 |
 | [^19] | [Uncovering User Interest from Biased and Noised Watch Time in Video Recommendation.](http://arxiv.org/abs/2308.08120) | 本研究分析了视频推荐中观看时长的生成机制，提出了一种基于因果推断的视频推荐方法，减轻了持续时间偏差和噪声观看带来的问题，并改善了从观看时长中揭示用户兴趣的效果。 |
-| [^20] | [Decentralized Graph Neural Network for Privacy-Preserving Recommendation.](http://arxiv.org/abs/2308.08072) | 本文提出了一种去中心化图神经网络（DGREC）框架，用于隐私保护推荐，其中用户可以选择公开他们的交互。该框架通过图构建、局部梯度计算和全局梯度传递三个阶段实现，同时引入了名为安全梯度共享的差分隐私机制，保护用户的私密数据。 |
-| [^21] | [Transforming Sentiment Analysis in the Financial Domain with ChatGPT.](http://arxiv.org/abs/2308.07935) | 本研究使用ChatGPT 3.5来进行金融情绪分析，特别关注外汇市场，通过零-shot提示方法，在精心策划的数据集上评估了其性能，并发现与传统模型相比，ChatGPT在金融情绪分析中表现出约35％的性能提升。 |
-| [^22] | [SPM: Structured Pretraining and Matching Architectures for Relevance Modeling in Meituan Search.](http://arxiv.org/abs/2308.07711) | 本论文提出了一种用于在Meituan搜索中进行相关性建模的新颖两阶段预训练和匹配架构。 |
-| [^23] | [A Survey on Point-of-Interest Recommendations Leveraging Heterogeneous Data.](http://arxiv.org/abs/2308.07426) | 本文针对旅游领域的兴趣点推荐问题进行了调查研究，探讨了利用异构数据解决旅途中兴趣点推荐问题的潜力与挑战。 |
-| [^24] | [Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning.](http://arxiv.org/abs/2308.05379) | 这篇论文提出了一种行为增强的相关模型，利用自我监督学习，通过从用户历史行为数据中提取辅助查询-项目交互，来改进搜索引擎中的查询-项目匹配，提高准确性和鲁棒性。 |
-| [^25] | [LLM-Rec: Personalized Recommendation via Prompting Large Language Models.](http://arxiv.org/abs/2307.15780) | 本文通过引导大型语言模型进行个性化推荐的研究，提出了四种不同的引导策略，并通过实验证明了这些策略的有效性。这一发现强调了在个性化内容推荐中，采用多样的引导和输入增强技术可以提高大型语言模型的推荐性能。 |
-| [^26] | [Editing Language Model-based Knowledge Graph Embeddings.](http://arxiv.org/abs/2301.10405) | 本文提出了一种新的任务——编辑基于语言模型的知识图谱嵌入，旨在实现对KG嵌入的数据高效和快速更新。针对这一任务，提出了一个简单而强大的方案——KGEditor，可以更好地更新特定事实而不影响其余部分的性能。 |
+| [^20] | [Pro-Cap: Leveraging a Frozen Vision-Language Model for Hateful Meme Detection.](http://arxiv.org/abs/2308.08088) | Pro-Cap是一种利用冻结的视觉-语言模型进行恶意迷因检测的方法，通过提问与恶意内容相关的问题并利用回答作为图像标题，以更有效地利用强大的预训练模型进行检测。 |
+| [^21] | [Decentralized Graph Neural Network for Privacy-Preserving Recommendation.](http://arxiv.org/abs/2308.08072) | 本文提出了一种去中心化图神经网络（DGREC）框架，用于隐私保护推荐，其中用户可以选择公开他们的交互。该框架通过图构建、局部梯度计算和全局梯度传递三个阶段实现，同时引入了名为安全梯度共享的差分隐私机制，保护用户的私密数据。 |
+| [^22] | [Transforming Sentiment Analysis in the Financial Domain with ChatGPT.](http://arxiv.org/abs/2308.07935) | 本研究使用ChatGPT 3.5来进行金融情绪分析，特别关注外汇市场，通过零-shot提示方法，在精心策划的数据集上评估了其性能，并发现与传统模型相比，ChatGPT在金融情绪分析中表现出约35％的性能提升。 |
+| [^23] | [SPM: Structured Pretraining and Matching Architectures for Relevance Modeling in Meituan Search.](http://arxiv.org/abs/2308.07711) | 本论文提出了一种用于在Meituan搜索中进行相关性建模的新颖两阶段预训练和匹配架构。 |
+| [^24] | [A Survey on Point-of-Interest Recommendations Leveraging Heterogeneous Data.](http://arxiv.org/abs/2308.07426) | 本文针对旅游领域的兴趣点推荐问题进行了调查研究，探讨了利用异构数据解决旅途中兴趣点推荐问题的潜力与挑战。 |
+| [^25] | [Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning.](http://arxiv.org/abs/2308.05379) | 这篇论文提出了一种行为增强的相关模型，利用自我监督学习，通过从用户历史行为数据中提取辅助查询-项目交互，来改进搜索引擎中的查询-项目匹配，提高准确性和鲁棒性。 |
+| [^26] | [LLM-Rec: Personalized Recommendation via Prompting Large Language Models.](http://arxiv.org/abs/2307.15780) | 本文通过引导大型语言模型进行个性化推荐的研究，提出了四种不同的引导策略，并通过实验证明了这些策略的有效性。这一发现强调了在个性化内容推荐中，采用多样的引导和输入增强技术可以提高大型语言模型的推荐性能。 |
+| [^27] | [Editing Language Model-based Knowledge Graph Embeddings.](http://arxiv.org/abs/2301.10405) | 本文提出了一种新的任务——编辑基于语言模型的知识图谱嵌入，旨在实现对KG嵌入的数据高效和快速更新。针对这一任务，提出了一个简单而强大的方案——KGEditor，可以更好地更新特定事实而不影响其余部分的性能。 |
 
 # 详细
 
@@ -297,7 +298,21 @@
 
     In the video recommendation, watch time is commonly adopted as an indicator of user interest. However, watch time is not only influenced by the matching of users' interests but also by other factors, such as duration bias and noisy watching. Duration bias refers to the tendency for users to spend more time on videos with longer durations, regardless of their actual interest level. Noisy watching, on the other hand, describes users taking time to determine whether they like a video or not, which can result in users spending time watching videos they do not like. Consequently, the existence of duration bias and noisy watching make watch time an inadequate label for indicating user interest. Furthermore, current methods primarily address duration bias and ignore the impact of noisy watching, which may limit their effectiveness in uncovering user interest from watch time. In this study, we first analyze the generation mechanism of users' watch time from a unified causal viewpoint. Specific
     
-[^20]: 基于去中心化图神经网络的隐私保护推荐系统
+[^20]: Pro-Cap: 利用冻结的视觉-语言模型进行恶意迷因检测
+
+    Pro-Cap: Leveraging a Frozen Vision-Language Model for Hateful Meme Detection. (arXiv:2308.08088v1 [cs.CV])
+
+    [http://arxiv.org/abs/2308.08088](http://arxiv.org/abs/2308.08088)
+
+    Pro-Cap是一种利用冻结的视觉-语言模型进行恶意迷因检测的方法，通过提问与恶意内容相关的问题并利用回答作为图像标题，以更有效地利用强大的预训练模型进行检测。
+
+    
+
+    恶意迷因检测是一项具有挑战性的多模态任务，需要理解视觉和语言，并进行跨模态交互。最近的研究尝试使用预训练的视觉-语言模型(PVLMs)对该任务进行微调。然而，随着模型规模的增加，更有效地利用强大的PVLMs变得比简单微调它们更为重要。最近，研究人员尝试将迷因图像转化为文本标题，并通过提示语言模型进行预测。这种方法表现出良好的性能，但受到了非信息性图像标题的限制。考虑到上述两个因素，我们提出了一种基于探测的标题生成方法，以零样本视觉问答(VQA)的方式利用PVLMs。具体而言，我们通过提问与恶意内容相关的问题来提示一个冻结的PVLM，并将回答作为图像标题(我们称之为Pro-Cap)，以确保标题包含恶意内容检测所需的关键信息。
+
+    Hateful meme detection is a challenging multimodal task that requires comprehension of both vision and language, as well as cross-modal interactions. Recent studies have tried to fine-tune pre-trained vision-language models (PVLMs) for this task. However, with increasing model sizes, it becomes important to leverage powerful PVLMs more efficiently, rather than simply fine-tuning them. Recently, researchers have attempted to convert meme images into textual captions and prompt language models for predictions. This approach has shown good performance but suffers from non-informative image captions. Considering the two factors mentioned above, we propose a probing-based captioning approach to leverage PVLMs in a zero-shot visual question answering (VQA) manner. Specifically, we prompt a frozen PVLM by asking hateful content-related questions and use the answers as image captions (which we call Pro-Cap), so that the captions contain information critical for hateful content detection. The g
+    
+[^21]: 基于去中心化图神经网络的隐私保护推荐系统
 
     Decentralized Graph Neural Network for Privacy-Preserving Recommendation. (arXiv:2308.08072v1 [cs.IR])
 
@@ -311,7 +326,7 @@
 
     Building a graph neural network (GNN)-based recommender system without violating user privacy proves challenging. Existing methods can be divided into federated GNNs and decentralized GNNs. But both methods have undesirable effects, i.e., low communication efficiency and privacy leakage. This paper proposes DGREC, a novel decentralized GNN for privacy-preserving recommendations, where users can choose to publicize their interactions. It includes three stages, i.e., graph construction, local gradient calculation, and global gradient passing. The first stage builds a local inner-item hypergraph for each user and a global inter-user graph. The second stage models user preference and calculates gradients on each local device. The third stage designs a local differential privacy mechanism named secure gradient-sharing, which proves strong privacy-preserving of users' private data. We conduct extensive experiments on three public datasets to validate the consistent superiority of our framewo
     
-[^21]: 用ChatGPT变革金融领域的情绪分析
+[^22]: 用ChatGPT变革金融领域的情绪分析
 
     Transforming Sentiment Analysis in the Financial Domain with ChatGPT. (arXiv:2308.07935v1 [cs.CL])
 
@@ -325,7 +340,7 @@
 
     Financial sentiment analysis plays a crucial role in decoding market trends and guiding strategic trading decisions. Despite the deployment of advanced deep learning techniques and language models to refine sentiment analysis in finance, this study breaks new ground by investigating the potential of large language models, particularly ChatGPT 3.5, in financial sentiment analysis, with a strong emphasis on the foreign exchange market (forex). Employing a zero-shot prompting approach, we examine multiple ChatGPT prompts on a meticulously curated dataset of forex-related news headlines, measuring performance using metrics such as precision, recall, f1-score, and Mean Absolute Error (MAE) of the sentiment class. Additionally, we probe the correlation between predicted sentiment and market returns as an additional evaluation approach. ChatGPT, compared to FinBERT, a well-established sentiment analysis model for financial texts, exhibited approximately 35\% enhanced performance in sentiment 
     
-[^22]: SPM: Meituan搜索中用于相关性建模的结构化预训练和匹配架构
+[^23]: SPM: Meituan搜索中用于相关性建模的结构化预训练和匹配架构
 
     SPM: Structured Pretraining and Matching Architectures for Relevance Modeling in Meituan Search. (arXiv:2308.07711v1 [cs.IR])
 
@@ -339,7 +354,7 @@
 
     In e-commerce search, relevance between query and documents is an essential requirement for satisfying user experience. Different from traditional e-commerce platforms that offer products, users search on life service platforms such as Meituan mainly for product providers, which usually have abundant structured information, e.g. name, address, category, thousands of products. Modeling search relevance with these rich structured contents is challenging due to the following issues: (1) there is language distribution discrepancy among different fields of structured document, making it difficult to directly adopt off-the-shelf pretrained language model based methods like BERT. (2) different fields usually have different importance and their length vary greatly, making it difficult to extract document information helpful for relevance matching.  To tackle these issues, in this paper we propose a novel two-stage pretraining and matching architecture for relevance matching with rich structure
     
-[^23]: 利用异构数据进行兴趣点推荐的调查
+[^24]: 利用异构数据进行兴趣点推荐的调查
 
     A Survey on Point-of-Interest Recommendations Leveraging Heterogeneous Data. (arXiv:2308.07426v1 [cs.IR])
 
@@ -353,7 +368,7 @@
 
     Tourism is an important application domain for recommender systems. In this domain, recommender systems are for example tasked with providing personalized recommendations for transportation, accommodation, points-of-interest (POIs), or tourism services. Among these tasks, in particular the problem of recommending POIs that are of likely interest to individual tourists has gained growing attention in recent years. Providing POI recommendations to tourists \emph{during their trip} can however be especially challenging due to the variability of the users' context. With the rapid development of the Web and today's multitude of online services, vast amounts of data from various sources have become available, and these heterogeneous data sources represent a huge potential to better address the challenges of in-trip POI recommendation problems. In this work, we provide a comprehensive survey of published research on POI recommendation between 2017 and 2022 from the perspective of heterogeneou
     
-[^24]: 超越语义：利用自我监督学习的行为增强相关模型的学习
+[^25]: 超越语义：利用自我监督学习的行为增强相关模型的学习
 
     Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning. (arXiv:2308.05379v1 [cs.IR])
 
@@ -367,7 +382,7 @@
 
     Relevance modeling aims to locate desirable items for corresponding queries, which is crucial for search engines to ensure user experience. Although most conventional approaches address this problem by assessing the semantic similarity between the query and item, pure semantic matching is not everything. In reality, auxiliary query-item interactions extracted from user historical behavior data of the search log could provide hints to reveal users' search intents further. Drawing inspiration from this, we devise a novel Behavior Augmented Relevance Learning model for Alipay Search (BARL-ASe) that leverages neighbor queries of target item and neighbor items of target query to complement target query-item semantic matching. Specifically, our model builds multi-level co-attention for distilling coarse-grained and fine-grained semantic representations from both neighbor and target views. The model subsequently employs neighbor-target self-supervised learning to improve the accuracy and robu
     
-[^25]: LLM-Rec: 通过引导大型语言模型进行个性化推荐
+[^26]: LLM-Rec: 通过引导大型语言模型进行个性化推荐
 
     LLM-Rec: Personalized Recommendation via Prompting Large Language Models. (arXiv:2307.15780v1 [cs.CL])
 
@@ -381,7 +396,7 @@
 
     We investigate various prompting strategies for enhancing personalized content recommendation performance with large language models (LLMs) through input augmentation. Our proposed approach, termed LLM-Rec, encompasses four distinct prompting strategies: (1) basic prompting, (2) recommendation-driven prompting, (3) engagement-guided prompting, and (4) recommendation-driven + engagement-guided prompting. Our empirical experiments show that combining the original content description with the augmented input text generated by LLM using these prompting strategies leads to improved recommendation performance. This finding highlights the importance of incorporating diverse prompts and input augmentation techniques to enhance the recommendation capabilities with large language models for personalized content recommendation.
     
-[^26]: 基于语言模型的知识图谱嵌入编辑
+[^27]: 基于语言模型的知识图谱嵌入编辑
 
     Editing Language Model-based Knowledge Graph Embeddings. (arXiv:2301.10405v4 [cs.CL] UPDATED)
 
