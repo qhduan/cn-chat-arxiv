@@ -1,0 +1,12 @@
+{
+    "title": "Noise Sensitivity and Stability of Deep Neural Networks for Binary Classification. (arXiv:2308.09374v1 [stat.ML])",
+    "abstract": "A first step is taken towards understanding often observed non-robustness phenomena of deep neural net (DNN) classifiers. This is done from the perspective of Boolean functions by asking if certain sequences of Boolean functions represented by common DNN models are noise sensitive or noise stable, concepts defined in the Boolean function literature. Due to the natural randomness in DNN models, these concepts are extended to annealed and quenched versions. Here we sort out the relation between these definitions and investigate the properties of two standard DNN architectures, the fully connected and convolutional models, when initiated with Gaussian weights.",
+    "link": "http://arxiv.org/abs/2308.09374",
+    "context": "Title: Noise Sensitivity and Stability of Deep Neural Networks for Binary Classification. (arXiv:2308.09374v1 [stat.ML])\nAbstract: A first step is taken towards understanding often observed non-robustness phenomena of deep neural net (DNN) classifiers. This is done from the perspective of Boolean functions by asking if certain sequences of Boolean functions represented by common DNN models are noise sensitive or noise stable, concepts defined in the Boolean function literature. Due to the natural randomness in DNN models, these concepts are extended to annealed and quenched versions. Here we sort out the relation between these definitions and investigate the properties of two standard DNN architectures, the fully connected and convolutional models, when initiated with Gaussian weights.",
+    "path": "papers/23/08/2308.09374.json",
+    "total_tokens": 677,
+    "translated_title": "深度神经网络在二分类中的噪声敏感性和稳定性研究",
+    "translated_abstract": "从布尔函数的角度出发，对深度神经网络（DNN）分类器的非鲁棒性现象进行了初步探索。通过研究常见DNN模型表示的布尔函数序列是否具有噪声敏感性或噪声稳定性，对这些概念进行了推广，并考虑了退火和淬火版本。本文澄清了这些定义之间的关系，并研究了两种常见DNN架构，即全连接和卷积模型，在初始化时使用高斯权重的特性。",
+    "tldr": "本文通过研究深度神经网络分类器的噪声敏感性和稳定性，对非鲁棒性现象进行了探索，并澄清了这些概念的定义和关系。",
+    "en_tdlr": "This paper investigates the noise sensitivity and stability of deep neural network classifiers, shedding light on the non-robustness phenomena and providing clarification on the definitions and relations of these concepts."
+}

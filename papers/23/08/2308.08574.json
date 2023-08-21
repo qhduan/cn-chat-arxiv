@@ -1,0 +1,12 @@
+{
+    "title": "A Comparative Analysis of the Capabilities of Nature-inspired Feature Selection Algorithms in Predicting Student Performance. (arXiv:2308.08574v1 [cs.LG])",
+    "abstract": "Predicting student performance is key in leveraging effective pre-failure interventions for at-risk students. In this paper, I have analyzed the relative performance of a suite of 12 nature-inspired algorithms when used to predict student performance across 3 datasets consisting of instance-based clickstream data, intra-course single-course performance, and performance when taking multiple courses simultaneously. I found that, for all datasets, leveraging an ensemble approach using NIAs for feature selection and traditional ML algorithms for classification increased predictive accuracy while also reducing feature set size by 2/3.",
+    "link": "http://arxiv.org/abs/2308.08574",
+    "context": "Title: A Comparative Analysis of the Capabilities of Nature-inspired Feature Selection Algorithms in Predicting Student Performance. (arXiv:2308.08574v1 [cs.LG])\nAbstract: Predicting student performance is key in leveraging effective pre-failure interventions for at-risk students. In this paper, I have analyzed the relative performance of a suite of 12 nature-inspired algorithms when used to predict student performance across 3 datasets consisting of instance-based clickstream data, intra-course single-course performance, and performance when taking multiple courses simultaneously. I found that, for all datasets, leveraging an ensemble approach using NIAs for feature selection and traditional ML algorithms for classification increased predictive accuracy while also reducing feature set size by 2/3.",
+    "path": "papers/23/08/2308.08574.json",
+    "total_tokens": 682,
+    "translated_title": "自然启发的特征选择算法在预测学生表现中的能力的比较分析",
+    "translated_abstract": "预测学生表现对于有效防止风险学生失败至关重要。本文分析了一套12个自然启发算法在预测学生表现中的相对性能，包括基于实例的点击流数据、课内单一课程表现以及同时参加多个课程时的表现，发现利用自然启发的算法进行特征选择并结合传统机器学习算法进行分类，可以提高预测准确性，并减少特征集大小的2/3。",
+    "tldr": "本研究对比分析了12种自然启发的特征选择算法在预测学生表现中的能力，发现利用这些算法进行特征选择并结合传统机器学习算法可以提高预测准确性，并减少特征集大小。",
+    "en_tdlr": "This study compares the capabilities of 12 nature-inspired feature selection algorithms in predicting student performance and finds that leveraging these algorithms for feature selection and combining them with traditional machine learning algorithms can increase predictive accuracy and reduce feature set size."
+}

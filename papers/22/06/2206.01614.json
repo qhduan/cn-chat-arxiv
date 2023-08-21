@@ -1,0 +1,11 @@
+{
+    "title": "Learning logic programs by combining programs. (arXiv:2206.01614v3 [cs.LG] UPDATED)",
+    "abstract": "The goal of inductive logic programming is to induce a logic program (a set of logical rules) that generalises training examples. Inducing programs with many rules and literals is a major challenge. To tackle this challenge, we introduce an approach where we learn small non-separable programs and combine them. We implement our approach in a constraint-driven ILP system. Our approach can learn optimal and recursive programs and perform predicate invention. Our experiments on multiple domains, including game playing and program synthesis, show that our approach can drastically outperform existing approaches in terms of predictive accuracies and learning times, sometimes reducing learning times from over an hour to a few seconds.",
+    "link": "http://arxiv.org/abs/2206.01614",
+    "context": "Title: Learning logic programs by combining programs. (arXiv:2206.01614v3 [cs.LG] UPDATED)\nAbstract: The goal of inductive logic programming is to induce a logic program (a set of logical rules) that generalises training examples. Inducing programs with many rules and literals is a major challenge. To tackle this challenge, we introduce an approach where we learn small non-separable programs and combine them. We implement our approach in a constraint-driven ILP system. Our approach can learn optimal and recursive programs and perform predicate invention. Our experiments on multiple domains, including game playing and program synthesis, show that our approach can drastically outperform existing approaches in terms of predictive accuracies and learning times, sometimes reducing learning times from over an hour to a few seconds.",
+    "path": "papers/22/06/2206.01614.json",
+    "total_tokens": 749,
+    "translated_title": "通过组合程序学习逻辑程序",
+    "translated_abstract": "归纳逻辑编程的目标是归纳出一个逻辑程序（一组逻辑规则），以概括训练样例。归纳具有多个规则和文字的程序是一个重大挑战。为了解决这个挑战，我们引入了一种方法，我们学习小型的不可分离的程序，并将它们组合起来。我们在一个基于约束的归纳逻辑编程系统中实现了我们的方法。我们的方法可以学习最优和递归程序，并进行谓词发明。我们在多个领域（包括游戏玩法和程序合成）的实验结果表明，我们的方法在预测准确性和学习时间方面相比现有方法有显著的优势，有时将学习时间从一个小时降低到几秒钟。",
+    "tldr": "本论文介绍了一种通过组合小型非可分离程序的方法来学习逻辑程序。实验结果表明，这种方法在预测准确性和学习时间方面显著优于现有方法。"
+}

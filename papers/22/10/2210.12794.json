@@ -1,0 +1,11 @@
+{
+    "title": "Variable population manipulations of reallocation rules in economies with single-peaked preferences. (arXiv:2210.12794v2 [econ.TH] UPDATED)",
+    "abstract": "In a one-commodity economy with single-peaked preferences and individual endowments, we study different ways in which reallocation rules can be strategically distorted by affecting the set of active agents. We introduce and characterize the family of monotonic reallocation rules and show that each rule in this class is withdrawal-proof and endowments-merging-proof, at least one is endowments-splitting-proof and that no such rule is pre-delivery-proof.",
+    "link": "http://arxiv.org/abs/2210.12794",
+    "context": "Title: Variable population manipulations of reallocation rules in economies with single-peaked preferences. (arXiv:2210.12794v2 [econ.TH] UPDATED)\nAbstract: In a one-commodity economy with single-peaked preferences and individual endowments, we study different ways in which reallocation rules can be strategically distorted by affecting the set of active agents. We introduce and characterize the family of monotonic reallocation rules and show that each rule in this class is withdrawal-proof and endowments-merging-proof, at least one is endowments-splitting-proof and that no such rule is pre-delivery-proof.",
+    "path": "papers/22/10/2210.12794.json",
+    "total_tokens": 673,
+    "translated_title": "单峰偏好下的经济体中可变人口调整规则",
+    "translated_abstract": "在具有单峰偏好和个体禀赋的单商品经济体中，我们研究了通过影响活动代理人集合而战略性扭曲再分配规则的不同方式。我们引入并描述了单调再分配规则家族，并证明了该类规则中的每个规则都是抽取证明和禀赋合并证明的，并且至少有一个是禀赋分割证明的，但没有这样的规则是预交货证明的。",
+    "tldr": "本论文研究了单峰偏好下的经济体中通过调整活动代理人集合来战略性扭曲再分配规则的不同方式，并且提出了一类单调再分配规则，证明了其具有一定的性质，但并非全部具备。"
+}

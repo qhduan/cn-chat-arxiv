@@ -1,0 +1,11 @@
+{
+    "title": "Endowments, patience types, and uniqueness in two-good HARA utility economies. (arXiv:2308.09347v1 [econ.TH])",
+    "abstract": "This paper establishes a link between endowments, patience types, and the parameters of the HARA Bernoulli utility function that ensure equilibrium uniqueness in an economy with two goods and two impatience types with additive separable preferences. We provide sufficient conditions that guarantee uniqueness of equilibrium for any possible value of $\\gamma$ in the HARA utility function $\\frac{\\gamma}{1-\\gamma}\\left(b+\\frac{a}{\\gamma}x\\right)^{1-\\gamma}$. The analysis contributes to the literature on uniqueness in pure exchange economies with two-goods and two agent types and extends the result in [4].",
+    "link": "http://arxiv.org/abs/2308.09347",
+    "context": "Title: Endowments, patience types, and uniqueness in two-good HARA utility economies. (arXiv:2308.09347v1 [econ.TH])\nAbstract: This paper establishes a link between endowments, patience types, and the parameters of the HARA Bernoulli utility function that ensure equilibrium uniqueness in an economy with two goods and two impatience types with additive separable preferences. We provide sufficient conditions that guarantee uniqueness of equilibrium for any possible value of $\\gamma$ in the HARA utility function $\\frac{\\gamma}{1-\\gamma}\\left(b+\\frac{a}{\\gamma}x\\right)^{1-\\gamma}$. The analysis contributes to the literature on uniqueness in pure exchange economies with two-goods and two agent types and extends the result in [4].",
+    "path": "papers/23/08/2308.09347.json",
+    "total_tokens": 672,
+    "translated_title": "资产、耐心类型和两种商品HARA效用经济中的唯一性",
+    "translated_abstract": "本文在具有两种商品和两种耐心类型的经济中，建立了资产、耐心类型和HARA伯努利效用函数参数之间的联系，以确保均衡的唯一性。我们提供了保证任意$\\gamma$值下均衡的唯一性的充分条件。这项分析对于具有两种商品和两种代理人类型的纯交换经济中的唯一性的研究做出了贡献，并扩展了之前的研究结果。",
+    "tldr": "本文研究了具有两种商品和两种耐心类型的经济中的均衡唯一性问题，并提供了保证唯一性的充分条件。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Supercompliers. (arXiv:2212.14105v2 [econ.EM] UPDATED)",
+    "abstract": "In a binary-treatment instrumental variable framework, we define supercompliers as the subpopulation whose treatment take-up positively responds to eligibility and whose outcome positively responds to take-up. Supercompliers are the only subpopulation to benefit from treatment eligibility and, hence, are of great policy interest. Given a set of jointly testable assumptions and a binary outcome, we can completely identify the characteristics of supercompliers. Specifically, we require the standard assumptions from the local average treatment effect literature along with an outcome monotonicity assumption (i.e., treatment is weakly beneficial). We can estimate and conduct inference on supercomplier characteristics using standard instrumental variable regression.",
+    "link": "http://arxiv.org/abs/2212.14105",
+    "context": "Title: Supercompliers. (arXiv:2212.14105v2 [econ.EM] UPDATED)\nAbstract: In a binary-treatment instrumental variable framework, we define supercompliers as the subpopulation whose treatment take-up positively responds to eligibility and whose outcome positively responds to take-up. Supercompliers are the only subpopulation to benefit from treatment eligibility and, hence, are of great policy interest. Given a set of jointly testable assumptions and a binary outcome, we can completely identify the characteristics of supercompliers. Specifically, we require the standard assumptions from the local average treatment effect literature along with an outcome monotonicity assumption (i.e., treatment is weakly beneficial). We can estimate and conduct inference on supercomplier characteristics using standard instrumental variable regression.",
+    "path": "papers/22/12/2212.14105.json",
+    "total_tokens": 733,
+    "translated_title": "超级编译器",
+    "translated_abstract": "在一个二元处理工具变量的框架下，我们将超级编译器定义为那些对待遇资格积极响应并且对结果积极响应的子群体。超级编译器是唯一从治疗资格中受益的子群体，因此具有重要的政策意义。在一组联合可验证的假设和二元结果的前提下，我们可以完全确定超级编译器的特征。具体而言，我们需要来自局部平均处理效应文献的标准假设，以及结果单调性假设（即，治疗是弱有益的）。我们可以使用标准的工具变量回归估计和推断超级编译器的特征。",
+    "tldr": "超级编译器是在二元处理工具变量框架下，对待遇资格和结果积极响应的子群体，具有重要的政策意义，并且可以通过标准工具变量回归进行估计和推断。"
+}

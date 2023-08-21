@@ -1,0 +1,11 @@
+{
+    "title": "Factuality Detection using Machine Translation -- a Use Case for German Clinical Text. (arXiv:2308.08827v1 [cs.CL])",
+    "abstract": "Factuality can play an important role when automatically processing clinical text, as it makes a difference if particular symptoms are explicitly not present, possibly present, not mentioned, or affirmed. In most cases, a sufficient number of examples is necessary to handle such phenomena in a supervised machine learning setting. However, as clinical text might contain sensitive information, data cannot be easily shared. In the context of factuality detection, this work presents a simple solution using machine translation to translate English data to German to train a transformer-based factuality detection model.",
+    "link": "http://arxiv.org/abs/2308.08827",
+    "context": "Title: Factuality Detection using Machine Translation -- a Use Case for German Clinical Text. (arXiv:2308.08827v1 [cs.CL])\nAbstract: Factuality can play an important role when automatically processing clinical text, as it makes a difference if particular symptoms are explicitly not present, possibly present, not mentioned, or affirmed. In most cases, a sufficient number of examples is necessary to handle such phenomena in a supervised machine learning setting. However, as clinical text might contain sensitive information, data cannot be easily shared. In the context of factuality detection, this work presents a simple solution using machine translation to translate English data to German to train a transformer-based factuality detection model.",
+    "path": "papers/23/08/2308.08827.json",
+    "total_tokens": 697,
+    "translated_title": "使用机器翻译的事实度检测 -- 德语临床文本的应用案例",
+    "translated_abstract": "在自动处理临床文本时，事实度可以起到重要作用，因为明确指出某些症状是否存在、可能存在、未提及或肯定不存在是有差别的。在大多数情况下，在监督式机器学习环境中处理这类现象需要足够数量的样例。然而，由于临床文本可能包含敏感信息，数据不能轻易共享。在事实度检测的背景下，本文提出了一种简单的解决方案，使用机器翻译将英语数据翻译成德语，以训练基于Transformer的事实度检测模型。",
+    "tldr": "这项工作使用机器翻译将英语数据翻译成德语，以训练临床文本中的事实度检测模型。这种方法解决了临床数据难以共享的问题。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An Extended Convergence Result for Behaviour Tree Controllers. (arXiv:2308.08994v1 [eess.SY])",
+    "abstract": "Behavior trees (BTs) are an optimally modular framework to assemble hierarchical hybrid control policies from a set of low-level control policies using a tree structure. Many robotic tasks are naturally decomposed into a hierarchy of control tasks, and modularity is a well-known tool for handling complexity, therefor behavior trees have garnered widespread usage in the robotics community. In this paper, we study the convergence of BTs, in the sense of reaching a desired part of the state space. Earlier results on BT convergence were often tailored to specific families of BTs, created using different design principles. The results of this paper generalize the earlier results and also include new cases of cyclic switching not covered in the literature.",
+    "link": "http://arxiv.org/abs/2308.08994",
+    "context": "Title: An Extended Convergence Result for Behaviour Tree Controllers. (arXiv:2308.08994v1 [eess.SY])\nAbstract: Behavior trees (BTs) are an optimally modular framework to assemble hierarchical hybrid control policies from a set of low-level control policies using a tree structure. Many robotic tasks are naturally decomposed into a hierarchy of control tasks, and modularity is a well-known tool for handling complexity, therefor behavior trees have garnered widespread usage in the robotics community. In this paper, we study the convergence of BTs, in the sense of reaching a desired part of the state space. Earlier results on BT convergence were often tailored to specific families of BTs, created using different design principles. The results of this paper generalize the earlier results and also include new cases of cyclic switching not covered in the literature.",
+    "path": "papers/23/08/2308.08994.json",
+    "total_tokens": 722,
+    "translated_title": "行为树控制器的延伸收敛结果",
+    "translated_abstract": "行为树（BTs）是一种通过树结构从一组低级控制策略组合成分层混合控制策略的最优模块化框架。许多机器人任务自然地分解为控制任务的层次结构，并且模块化是处理复杂性的众所周知的工具，因此行为树在机器人社区广泛使用。本文研究了BT的收敛性，即达到状态空间的期望部分。先前关于BT收敛的结果通常针对使用不同设计原则创建的特定BT族群进行了调整。本文的结果推广了以前的结果，还包括了文献中未涵盖的循环切换的新情况。",
+    "tldr": "本文研究了行为树控制器的收敛性，广泛推广了早期的结果，并包括了文献中未涵盖的新情况。",
+    "en_tdlr": "This paper studies the convergence of behavior tree controllers, generalizing earlier results and including new cases of cyclic switching not covered in the literature."
+}

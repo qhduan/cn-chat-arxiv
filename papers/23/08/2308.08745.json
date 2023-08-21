@@ -1,0 +1,11 @@
+{
+    "title": "When to efficiently rebalance a portfolio. (arXiv:2308.08745v1 [q-fin.MF])",
+    "abstract": "A constant weight asset allocation is a popular investment strategy and is optimal under a suitable continuous model. We study the tracking error for the target continuous rebalancing strategy by a feasible discrete-in-time rebalancing under a general multi-dimensional Brownian semimartingale model of asset prices. In a high-frequency asymptotic framework, we derive an asymptotically efficient sequence of simple predictable strategies.",
+    "link": "http://arxiv.org/abs/2308.08745",
+    "context": "Title: When to efficiently rebalance a portfolio. (arXiv:2308.08745v1 [q-fin.MF])\nAbstract: A constant weight asset allocation is a popular investment strategy and is optimal under a suitable continuous model. We study the tracking error for the target continuous rebalancing strategy by a feasible discrete-in-time rebalancing under a general multi-dimensional Brownian semimartingale model of asset prices. In a high-frequency asymptotic framework, we derive an asymptotically efficient sequence of simple predictable strategies.",
+    "path": "papers/23/08/2308.08745.json",
+    "total_tokens": 603,
+    "translated_title": "何时高效地重新平衡投资组合",
+    "translated_abstract": "固定权重资产配置是一种流行的投资策略，在适当的连续模型下是最优的。我们研究了在一般的多维布朗半鞅资产价格模型下，通过可行的离散时间重新平衡，针对目标连续重新平衡策略的跟踪误差。在高频渐近框架下，我们导出了一组渐近高效的简单可预测策略。",
+    "tldr": "本论文研究了在多维布朗半鞅资产价格模型下，通过离散时间重新平衡的跟踪误差问题，并提出了一组高效的简单可预测策略。"
+}

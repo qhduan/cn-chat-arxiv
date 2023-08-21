@@ -1,0 +1,12 @@
+{
+    "title": "Probabilistic Results on the Architecture of Mathematical Reasoning Aligned by Cognitive Alternation. (arXiv:2308.08714v1 [cs.AI])",
+    "abstract": "We envision a machine capable of solving mathematical problems. Dividing the quantitative reasoning system into two parts: thought processes and cognitive processes, we provide probabilistic descriptions of the architecture.",
+    "link": "http://arxiv.org/abs/2308.08714",
+    "context": "Title: Probabilistic Results on the Architecture of Mathematical Reasoning Aligned by Cognitive Alternation. (arXiv:2308.08714v1 [cs.AI])\nAbstract: We envision a machine capable of solving mathematical problems. Dividing the quantitative reasoning system into two parts: thought processes and cognitive processes, we provide probabilistic descriptions of the architecture.",
+    "path": "papers/23/08/2308.08714.json",
+    "total_tokens": 486,
+    "translated_title": "数学推理的架构的概率性结果与认知交替（arXiv:2308.08714v1[cs.AI]）",
+    "translated_abstract": "我们设想一台能够解决数学问题的机器。将定量推理系统分为思维过程和认知过程两部分，我们提供了架构的概率性描述。",
+    "tldr": "该论文研究了一种能够解决数学问题的机器，将定量推理系统分为思维过程和认知过程两部分，并提供了架构的概率性描述。",
+    "en_tdlr": "This paper investigates a machine capable of solving mathematical problems by dividing the quantitative reasoning system into thought processes and cognitive processes, and provides probabilistic descriptions of the architecture."
+}

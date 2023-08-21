@@ -1,0 +1,11 @@
+{
+    "title": "A Principle for Global Optimization with Gradients. (arXiv:2308.09556v1 [math.OC])",
+    "abstract": "This work demonstrates the utility of gradients for the global optimization of certain differentiable functions with many suboptimal local minima. To this end, a principle for generating search directions from non-local quadratic approximants based on gradients of the objective function is analyzed. Experiments measure the quality of non-local search directions as well as the performance of a proposed simplistic algorithm, of the covariance matrix adaptation evolution strategy (CMA-ES), and of a randomly reinitialized Broyden-Fletcher-Goldfarb-Shanno (BFGS) method.",
+    "link": "http://arxiv.org/abs/2308.09556",
+    "context": "Title: A Principle for Global Optimization with Gradients. (arXiv:2308.09556v1 [math.OC])\nAbstract: This work demonstrates the utility of gradients for the global optimization of certain differentiable functions with many suboptimal local minima. To this end, a principle for generating search directions from non-local quadratic approximants based on gradients of the objective function is analyzed. Experiments measure the quality of non-local search directions as well as the performance of a proposed simplistic algorithm, of the covariance matrix adaptation evolution strategy (CMA-ES), and of a randomly reinitialized Broyden-Fletcher-Goldfarb-Shanno (BFGS) method.",
+    "path": "papers/23/08/2308.09556.json",
+    "total_tokens": 671,
+    "translated_title": "具有梯度的全局优化原理",
+    "translated_abstract": "这项工作展示了在具有许多次优局部最小值的可微函数的全局优化中，梯度的实用性。为此，分析了通过梯度生成非局部二次近似搜寻方向的原则。实验测量了非局部搜寻方向的质量以及提出的简化算法、协方差矩阵适应进化策略(CMA-ES)和随机重新初始化的Broyden-Fletcher-Goldfarb-Shanno(BFGS)方法的性能。",
+    "tldr": "该论文通过分析在具有许多次优局部最小值的可微函数的全局优化中利用梯度的原理，展示了梯度在全局优化中的实用性，并进行了相应的实验研究。"
+}

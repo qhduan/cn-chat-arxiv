@@ -1,0 +1,12 @@
+{
+    "title": "AdaptEx: A Self-Service Contextual Bandit Platform. (arXiv:2308.08650v1 [cs.IR])",
+    "abstract": "This paper presents AdaptEx, a self-service contextual bandit platform widely used at Expedia Group, that leverages multi-armed bandit algorithms to personalize user experiences at scale. AdaptEx considers the unique context of each visitor to select the optimal variants and learns quickly from every interaction they make. It offers a powerful solution to improve user experiences while minimizing the costs and time associated with traditional testing methods. The platform unlocks the ability to iterate towards optimal product solutions quickly, even in ever-changing content and continuous \"cold start\" situations gracefully.",
+    "link": "http://arxiv.org/abs/2308.08650",
+    "context": "Title: AdaptEx: A Self-Service Contextual Bandit Platform. (arXiv:2308.08650v1 [cs.IR])\nAbstract: This paper presents AdaptEx, a self-service contextual bandit platform widely used at Expedia Group, that leverages multi-armed bandit algorithms to personalize user experiences at scale. AdaptEx considers the unique context of each visitor to select the optimal variants and learns quickly from every interaction they make. It offers a powerful solution to improve user experiences while minimizing the costs and time associated with traditional testing methods. The platform unlocks the ability to iterate towards optimal product solutions quickly, even in ever-changing content and continuous \"cold start\" situations gracefully.",
+    "path": "papers/23/08/2308.08650.json",
+    "total_tokens": 729,
+    "translated_title": "AdaptEx：一个自助上下文赌博平台",
+    "translated_abstract": "本文介绍了AdaptEx，这是一个在Expedia Group广泛使用的自助上下文赌博平台，它利用多臂赌博算法以规模化的方式个性化用户体验。AdaptEx考虑了每个访问者的独特上下文，选择了最优的变体，并能够快速学习每次互动。它提供了一个强大的解决方案，既能改善用户体验，同时又能最大限度地减少传统测试方法所需的成本和时间。该平台能够在内容不断变化和持续“冷启动”情况下，优雅地快速迭代朝着最优解前进。",
+    "tldr": "AdaptEx是一个自助上下文赌博平台，通过利用多臂赌博算法个性化用户体验并提供最优解，同时最小化传统测试方法的成本和时间。它能够在不断变化的内容和“冷启动”情况下快速迭代。",
+    "en_tdlr": "AdaptEx is a self-service contextual bandit platform that leverages multi-armed bandit algorithms to personalize user experiences and provide optimal solutions, while minimizing the costs and time associated with traditional testing methods. It enables fast iteration in ever-changing content and \"cold start\" situations."
+}

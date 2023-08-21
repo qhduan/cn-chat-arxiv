@@ -1,0 +1,12 @@
+{
+    "title": "Approximate Real Symmetric Tensor Rank. (arXiv:2207.12529v4 [math.NA] UPDATED)",
+    "abstract": "We investigate the effect of an $\\varepsilon$-room of perturbation tolerance on symmetric tensor decomposition. To be more precise, suppose a real symmetric $d$-tensor $f$, a norm $||.||$ on the space of symmetric $d$-tensors, and $\\varepsilon >0$ are given. What is the smallest symmetric tensor rank in the $\\varepsilon$-neighborhood of $f$? In other words, what is the symmetric tensor rank of $f$ after a clever $\\varepsilon$-perturbation? We prove two theorems and develop three corresponding algorithms that give constructive upper bounds for this question. With expository goals in mind; we present probabilistic and convex geometric ideas behind our results, reproduce some known results, and point out open problems.",
+    "link": "http://arxiv.org/abs/2207.12529",
+    "context": "Title: Approximate Real Symmetric Tensor Rank. (arXiv:2207.12529v4 [math.NA] UPDATED)\nAbstract: We investigate the effect of an $\\varepsilon$-room of perturbation tolerance on symmetric tensor decomposition. To be more precise, suppose a real symmetric $d$-tensor $f$, a norm $||.||$ on the space of symmetric $d$-tensors, and $\\varepsilon >0$ are given. What is the smallest symmetric tensor rank in the $\\varepsilon$-neighborhood of $f$? In other words, what is the symmetric tensor rank of $f$ after a clever $\\varepsilon$-perturbation? We prove two theorems and develop three corresponding algorithms that give constructive upper bounds for this question. With expository goals in mind; we present probabilistic and convex geometric ideas behind our results, reproduce some known results, and point out open problems.",
+    "path": "papers/22/07/2207.12529.json",
+    "total_tokens": 721,
+    "translated_title": "近似实对称张量秩",
+    "translated_abstract": "我们研究了对称张量分解中的扰动容忍度对结果的影响。具体而言，给定一个实对称d-张量f，一个张量空间上的范数||.||，以及一个正数ε>0。在f的ε-邻域内，最小的对称张量秩是多少？换句话说，经过一个巧妙的ε-扰动后，f的对称张量秩是多少？我们证明了两个定理并开发了三个对应的算法来给出这个问题的上界构造。考虑到我们的认识目标；我们介绍了我们结果背后的概率和凸几何思想，再现了一些已知结果，并指出了开放问题。",
+    "tldr": "我们研究了对称张量分解中的扰动容忍度对结果的影响，并提出了一种计算对称张量秩的算法。",
+    "en_tdlr": "We investigate the effect of perturbation tolerance on symmetric tensor decomposition, and propose an algorithm to compute the symmetric tensor rank."
+}

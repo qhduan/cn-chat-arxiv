@@ -1,0 +1,11 @@
+{
+    "title": "Conditional Sampling of Variational Autoencoders via Iterated Approximate Ancestral Sampling. (arXiv:2308.09078v1 [cs.LG])",
+    "abstract": "Conditional sampling of variational autoencoders (VAEs) is needed in various applications, such as missing data imputation, but is computationally intractable. A principled choice for asymptotically exact conditional sampling is Metropolis-within-Gibbs (MWG). However, we observe that the tendency of VAEs to learn a structured latent space, a commonly desired property, can cause the MWG sampler to get \"stuck\" far from the target distribution. This paper mitigates the limitations of MWG: we systematically outline the pitfalls in the context of VAEs, propose two original methods that address these pitfalls, and demonstrate an improved performance of the proposed methods on a set of sampling tasks.",
+    "link": "http://arxiv.org/abs/2308.09078",
+    "context": "Title: Conditional Sampling of Variational Autoencoders via Iterated Approximate Ancestral Sampling. (arXiv:2308.09078v1 [cs.LG])\nAbstract: Conditional sampling of variational autoencoders (VAEs) is needed in various applications, such as missing data imputation, but is computationally intractable. A principled choice for asymptotically exact conditional sampling is Metropolis-within-Gibbs (MWG). However, we observe that the tendency of VAEs to learn a structured latent space, a commonly desired property, can cause the MWG sampler to get \"stuck\" far from the target distribution. This paper mitigates the limitations of MWG: we systematically outline the pitfalls in the context of VAEs, propose two original methods that address these pitfalls, and demonstrate an improved performance of the proposed methods on a set of sampling tasks.",
+    "path": "papers/23/08/2308.09078.json",
+    "total_tokens": 719,
+    "translated_title": "通过迭代近似祖先采样实现变分自编码器的条件采样",
+    "translated_abstract": "在各种应用中，如缺失数据填充，需要对变分自编码器（VAE）进行条件采样，但这是计算上不可行的。渐近精确条件采样的原则选择是Metropolis-within-Gibbs（MWG）。然而，我们观察到VAE倾向于学习结构化潜变量空间，这是一个常见的期望特性，但却导致MWG采样器远离目标分布。本文克服了MWG的局限性：我们系统地概述了在VAE上上述局限性，并提出了两种原始方法来解决这些问题，并在一组采样任务上展示了所提方法的改进性能。",
+    "tldr": "本文提出了两种原始方法来解决变分自编码器（VAE）条件采样中的困难，并在采样任务中展示了改进性能。"
+}

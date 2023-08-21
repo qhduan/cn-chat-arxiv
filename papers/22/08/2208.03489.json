@@ -1,0 +1,12 @@
+{
+    "title": "Forecasting Algorithms for Causal Inference with Panel Data. (arXiv:2208.03489v2 [econ.EM] UPDATED)",
+    "abstract": "Conducting causal inference with panel data is a core challenge in social science research. We adapt a deep neural architecture for time series forecasting (the N-BEATS algorithm) to more accurately predict the counterfactual evolution of a treated unit had treatment not occurred. Across a range of settings, the resulting estimator (\"SyNBEATS\") significantly outperforms commonly employed methods (synthetic controls, two-way fixed effects), and attains comparable or more accurate performance compared to recently proposed methods (synthetic difference-in-differences, matrix completion). Our results highlight how advances in the forecasting literature can be harnessed to improve causal inference in panel data settings.",
+    "link": "http://arxiv.org/abs/2208.03489",
+    "context": "Title: Forecasting Algorithms for Causal Inference with Panel Data. (arXiv:2208.03489v2 [econ.EM] UPDATED)\nAbstract: Conducting causal inference with panel data is a core challenge in social science research. We adapt a deep neural architecture for time series forecasting (the N-BEATS algorithm) to more accurately predict the counterfactual evolution of a treated unit had treatment not occurred. Across a range of settings, the resulting estimator (\"SyNBEATS\") significantly outperforms commonly employed methods (synthetic controls, two-way fixed effects), and attains comparable or more accurate performance compared to recently proposed methods (synthetic difference-in-differences, matrix completion). Our results highlight how advances in the forecasting literature can be harnessed to improve causal inference in panel data settings.",
+    "path": "papers/22/08/2208.03489.json",
+    "total_tokens": 773,
+    "translated_title": "面板数据因果推断的预测算法",
+    "translated_abstract": "在社会科学研究中，使用面板数据进行因果推断是一项核心挑战。我们将一种深度神经架构用于时间序列预测（N-BEATS算法），以更准确地预测在未进行处理的情况下受治疗单位的反事实演变。在各种情境下，所得到的估计器（“SyNBEATS”）在性能上明显优于常用方法（合成对照法、双向固定效应），并且与最近提出的方法（合成差异法、矩阵补全）在准确性上达到了相当的水平或更高。我们的结果突显了如何利用预测文献的进展来改善面板数据环境下的因果推断。",
+    "tldr": "该论文将深度神经网络算法应用于时间序列预测，以提高面板数据中的因果推断准确性。通过实验证明，该算法在各种情景下明显优于现有方法，为面板数据研究提供了新的方法和工具。",
+    "en_tdlr": "This paper applies a deep neural network algorithm to time series forecasting, improving the accuracy of causal inference in panel data. Experimental results demonstrate that the algorithm outperforms existing methods in various scenarios, providing new approaches and tools for panel data research."
+}
