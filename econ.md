@@ -24,9 +24,10 @@
 | [^20] | [Non-Smooth Integrability Theory.](http://arxiv.org/abs/2203.04770) | 本文研究了一种计算非可微需求函数的效用函数的方法，并得到了两个新的充分和必要条件。此外，我们还展示了唯一性和弱序的表示。我们将这些结果应用于计量经济理论，并得到了关于需求函数收敛性和具有均匀利普希茨常数的结果。 |
 | [^21] | [Long-term Causal Inference Under Persistent Confounding via Data Combination.](http://arxiv.org/abs/2202.07234) | 本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。 |
 | [^22] | [Revealed preference characterization of marital stability under mutual consent divorce.](http://arxiv.org/abs/2110.10781) | 该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。 |
-| [^23] | [Persuasion with Ambiguous Receiver Preferences.](http://arxiv.org/abs/2109.11536) | 本文描述了一个贝叶斯说服问题，研究了发送者和接收者之间的零和博弈。发送者通过线性化先验分布，创建了一个均匀分布的后验均值，在不同的背景下优化结果。 |
-| [^24] | [Semiparametric Estimation of Long-Term Treatment Effects.](http://arxiv.org/abs/2107.14405) | 本文开发了一种半参数方法，将实验的短期结果和观测值结合起来，以估计长期治疗效果。这种方法可以应用于各种情况，并具有高效性和较好的估计效果。 |
-| [^25] | [Role models and revealed gender-specific costs of STEM in an extended Roy model of major choice.](http://arxiv.org/abs/2005.09095) | 本研究基于分析女性选择大学专业的情况，关注于角色模型对选择和结果的影响。通过一个扩展的罗伊模型，我们根据观测选择转变得出了补偿工资差异的尖锐界限，进一步研究了STEM领域的成本。 |
+| [^23] | [Robust Equilibria in General Competing Mechanism Games.](http://arxiv.org/abs/2109.13177) | 本文提出了在一般竞争机制博弈中的稳健纯效益均衡概念，并确定了其与其他稳健概念的一致性。如果代理的效用函数可加可分，则可以通过贝叶斯激励兼容直接机制对稳健纯效益均衡的均衡分配进行全面刻画。 |
+| [^24] | [Persuasion with Ambiguous Receiver Preferences.](http://arxiv.org/abs/2109.11536) | 本文描述了一个贝叶斯说服问题，研究了发送者和接收者之间的零和博弈。发送者通过线性化先验分布，创建了一个均匀分布的后验均值，在不同的背景下优化结果。 |
+| [^25] | [Semiparametric Estimation of Long-Term Treatment Effects.](http://arxiv.org/abs/2107.14405) | 本文开发了一种半参数方法，将实验的短期结果和观测值结合起来，以估计长期治疗效果。这种方法可以应用于各种情况，并具有高效性和较好的估计效果。 |
+| [^26] | [Role models and revealed gender-specific costs of STEM in an extended Roy model of major choice.](http://arxiv.org/abs/2005.09095) | 本研究基于分析女性选择大学专业的情况，关注于角色模型对选择和结果的影响。通过一个扩展的罗伊模型，我们根据观测选择转变得出了补偿工资差异的尖锐界限，进一步研究了STEM领域的成本。 |
 
 # 详细
 
@@ -338,7 +339,21 @@
 
     We present a revealed preference characterization of marital stability explicitly accounting for the divorce law governing marital dissolution. We focus on mutual consent divorce, where individuals can divorce their partner only if they can obtain their consent. We provide theoretical insights into the potential of the characterization for identifying intrahousehold consumption. Simulation exercises using household data drawn from the Longitudinal Internet Studies for the Social Sciences (LISS) panel support our theoretical findings.
     
-[^23]: 具有模糊接收者偏好的说服问题
+[^23]: 一般竞争机制博弈中的稳健均衡
+
+    Robust Equilibria in General Competing Mechanism Games. (arXiv:2109.13177v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2109.13177](http://arxiv.org/abs/2109.13177)
+
+    本文提出了在一般竞争机制博弈中的稳健纯效益均衡概念，并确定了其与其他稳健概念的一致性。如果代理的效用函数可加可分，则可以通过贝叶斯激励兼容直接机制对稳健纯效益均衡的均衡分配进行全面刻画。
+
+    
+
+    本文提出了在不完全信息的一般竞争机制博弈中的稳健纯效益均衡（robust PBE）的概念，其中机制允许设计者在代理发送消息的同时给自己发送消息。该文确定了在效用环境中，稳健纯效益均衡与强稳健纯效益均衡（Epstein and Peters (1999), Han (2007)）以及稳健纯效益均衡概念相一致的情况。如果每个代理的效用函数与负责人的行动是可加可分的，则可以在稳健纯效益均衡及其变种的概念下，通过贝叶斯激励兼容（BIC）直接机制对均衡分配进行全面刻画，而无需引用博弈中允许的任意一般机制集合。然而，在标准竞争机制博弈中，采用稳健纯效益均衡作为解的概念，并不能通过BIC直接机制对均衡分配进行全面刻画，即使使用了限制性的机制集合。
+
+    This paper proposes the notion of robust PBE in a general competing mechanism game of incomplete information where a mechanism allows its designer to send a message to himself at the same time agents send messages. It identifies the utility environments where the notion of robust PBE coincides with that of strongly robust PBE (Epstein and Peters (1999), Han (2007)) and with that of robust PBE respectively. If each agent's utility function is additively separable with respect to principals' actions, it is possible to provide the full characterization of equilibrium allocations under the notion of robust PBE and its variations, in terms of Bayesian incentive compatible (BIC) direct mechanisms, without reference to the set of arbitrary general mechanisms allowed in the game. However, in the standard competing mechanism agme, the adoption of robust PBE as the solution concept does not lead to the full characterization of equilibrium allocations in terms of BIC direct mechanisms even with a
+    
+[^24]: 具有模糊接收者偏好的说服问题
 
     Persuasion with Ambiguous Receiver Preferences. (arXiv:2109.11536v5 [econ.TH] UPDATED)
 
@@ -352,7 +367,7 @@
 
     I describe a Bayesian persuasion problem where Receiver has a private type representing a cutoff for choosing Sender's preferred action, and Sender has maxmin preferences over all Receiver type distributions with known mean and bounds. This problem can be represented as a zero-sum game where Sender chooses a distribution of posterior mean beliefs that is a mean-preserving contraction of the prior over states, and an adversarial Nature chooses a Receiver type distribution with the known mean; the player with the higher realization from their chosen distribution wins. I formalize the connection between maxmin persuasion and similar games used to model political spending, all-pay auctions, and competitive persuasion. In both a standard binary-state setting and a new continuous-state setting, Sender optimally linearizes the prior distribution over states to create a distribution of posterior means that is uniform on a known interval with an atom at the lower bound of its support.
     
-[^24]: 长期治疗效果的半参数估计方法
+[^25]: 长期治疗效果的半参数估计方法
 
     Semiparametric Estimation of Long-Term Treatment Effects. (arXiv:2107.14405v4 [econ.EM] UPDATED)
 
@@ -366,7 +381,7 @@
 
     Long-term outcomes of experimental evaluations are necessarily observed after long delays. We develop semiparametric methods for combining the short-term outcomes of experiments with observational measurements of short-term and long-term outcomes, in order to estimate long-term treatment effects. We characterize semiparametric efficiency bounds for various instances of this problem. These calculations facilitate the construction of several estimators. We analyze the finite-sample performance of these estimators with a simulation calibrated to data from an evaluation of the long-term effects of a poverty alleviation program.
     
-[^25]: 杰出的角色模型与STEM领域的性别特定成本：一个扩展的罗伊模型的要素选择
+[^26]: 杰出的角色模型与STEM领域的性别特定成本：一个扩展的罗伊模型的要素选择
 
     Role models and revealed gender-specific costs of STEM in an extended Roy model of major choice. (arXiv:2005.09095v4 [econ.EM] UPDATED)
 
