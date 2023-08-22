@@ -54,12 +54,13 @@
 | [^50] | [ICL-D3IE: In-Context Learning with Diverse Demonstrations Updating for Document Information Extraction.](http://arxiv.org/abs/2303.05063) | 这篇论文提出了一个简单而有效的上下文学习框架ICL-D3IE，这个框架使LLM在不同类型演示下的DIE任务中表现出色，具有改进性能的反馈机制，同时涵盖了位置和格式方面的演示示例。 |
 | [^51] | [Language-Specific Representation of Emotion-Concept Knowledge Causally Supports Emotion Inference.](http://arxiv.org/abs/2302.09582) | 本研究通过操纵大型语言模型中的语言衍生的情绪概念知识表示，探讨了语言是否会因果支持情绪推断。实验结果显示，属性特定的神经元操纵导致情绪推断任务的性能下降，这与人类心理空间中不同属性的重要性有关。这些发现为支持基于语言的情绪推断机制提供了因果证据，并凸显了情绪概念知识的贡献。 |
 | [^52] | [Data Augmentation using Transformers and Similarity Measures for Improving Arabic Text Classification.](http://arxiv.org/abs/2212.13939) | 本论文提出一种使用Transformer和相似度度量进行数据增强的方法，以改进阿拉伯文本分类，该方法利用AraGPT-2进行增强，并使用Euclidean、cosine、Jaccard和BLEU距离评估生成的句子。 |
-| [^53] | [Towards Practical Few-shot Federated NLP.](http://arxiv.org/abs/2212.00192) | 本论文介绍了一个用于处理联邦自然语言处理中少样本问题的方法，通过引入数据生成器和基于提示的联邦学习系统，能够在有限的标记数据下实现与完整微调相媲美的性能。然而，这种性能要求付出显著的系统成本。 |
-| [^54] | [I Can't Believe There's No Images! Learning Visual Tasks Using only Language Data.](http://arxiv.org/abs/2211.09778) | 本文研究了通过利用对比训练的视觉和语言编码器的联合嵌入空间，并仅使用文本训练数据，在没有对视觉训练数据进行训练的情况下完成四项代表性视觉任务。研究发现这些模型表现良好，具有一定的可迁移性。 |
-| [^55] | [YATO: Yet Another deep learning based Text analysis Open toolkit.](http://arxiv.org/abs/2209.13877) | YATO是一个轻量且易于使用的开源工具包，支持深度学习文本分析，可组合不同的特征类型，并提供灵活性和易用性的优势，促进了先进NLP模型的复现和改进，以及跨学科应用的推动。 |
-| [^56] | [PreSTU: Pre-Training for Scene-Text Understanding.](http://arxiv.org/abs/2209.05534) | PreSTU是一种针对场景文本理解的预训练方法，通过引入OCR感知的预训练目标，可以提高模型对于图像中嵌入文本的识别和连接能力，并在多个视觉问答和图像字幕基准上展示了其有效性。 |
-| [^57] | [Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks.](http://arxiv.org/abs/2207.13243) | 这篇综述调查了深度神经网络内部结构内部解释方法，并提出了一种分析方法的分类。这些解释方法对于帮助构建更可信赖的AI是至关重要的。 |
-| [^58] | [Unsupervised Multimodal Word Discovery based on Double Articulation Analysis with Co-occurrence cues.](http://arxiv.org/abs/2201.06786) | 本研究提出了一种无监督学习方法，基于语音学信息和对象信息，用于从语音信号中发现单词和音素，并同时利用多种模态的对象信息。实验结果表明，该方法在单词发现性能上优于基线方法。 |
+| [^53] | [Federated Few-Shot Learning for Mobile NLP.](http://arxiv.org/abs/2212.05974) | 本研究首次探索了联邦学习在移动少样本自然语言处理中的应用，通过使用伪标签和提示学习算法，实现了仅有少量标记数据时的竞争性准确性。同时，通过创新的设计解决了高执行成本的问题。 |
+| [^54] | [Towards Practical Few-shot Federated NLP.](http://arxiv.org/abs/2212.00192) | 本论文介绍了一个用于处理联邦自然语言处理中少样本问题的方法，通过引入数据生成器和基于提示的联邦学习系统，能够在有限的标记数据下实现与完整微调相媲美的性能。然而，这种性能要求付出显著的系统成本。 |
+| [^55] | [I Can't Believe There's No Images! Learning Visual Tasks Using only Language Data.](http://arxiv.org/abs/2211.09778) | 本文研究了通过利用对比训练的视觉和语言编码器的联合嵌入空间，并仅使用文本训练数据，在没有对视觉训练数据进行训练的情况下完成四项代表性视觉任务。研究发现这些模型表现良好，具有一定的可迁移性。 |
+| [^56] | [YATO: Yet Another deep learning based Text analysis Open toolkit.](http://arxiv.org/abs/2209.13877) | YATO是一个轻量且易于使用的开源工具包，支持深度学习文本分析，可组合不同的特征类型，并提供灵活性和易用性的优势，促进了先进NLP模型的复现和改进，以及跨学科应用的推动。 |
+| [^57] | [PreSTU: Pre-Training for Scene-Text Understanding.](http://arxiv.org/abs/2209.05534) | PreSTU是一种针对场景文本理解的预训练方法，通过引入OCR感知的预训练目标，可以提高模型对于图像中嵌入文本的识别和连接能力，并在多个视觉问答和图像字幕基准上展示了其有效性。 |
+| [^58] | [Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks.](http://arxiv.org/abs/2207.13243) | 这篇综述调查了深度神经网络内部结构内部解释方法，并提出了一种分析方法的分类。这些解释方法对于帮助构建更可信赖的AI是至关重要的。 |
+| [^59] | [Unsupervised Multimodal Word Discovery based on Double Articulation Analysis with Co-occurrence cues.](http://arxiv.org/abs/2201.06786) | 本研究提出了一种无监督学习方法，基于语音学信息和对象信息，用于从语音信号中发现单词和音素，并同时利用多种模态的对象信息。实验结果表明，该方法在单词发现性能上优于基线方法。 |
 
 # 详细
 
@@ -791,7 +792,21 @@
 
     The performance of learning models heavily relies on the availability and adequacy of training data. To address the dataset adequacy issue, researchers have extensively explored data augmentation (DA) as a promising approach. DA generates new data instances through transformations applied to the available data, thereby increasing dataset size and variability. This approach has enhanced model performance and accuracy, particularly in addressing class imbalance problems in classification tasks. However, few studies have explored DA for the Arabic language, relying on traditional approaches such as paraphrasing or noising-based techniques. In this paper, we propose a new Arabic DA method that employs the recent powerful modeling technique, namely the AraGPT-2, for the augmentation process. The generated sentences are evaluated in terms of context, semantics, diversity, and novelty using the Euclidean, cosine, Jaccard, and BLEU distances. Finally, the AraBERT transformer is used on sentime
     
-[^53]: 迈向实用的少样本联邦自然语言处理
+[^53]: 基于联邦学习的移动自然语言处理中的少样本学习
+
+    Federated Few-Shot Learning for Mobile NLP. (arXiv:2212.05974v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2212.05974](http://arxiv.org/abs/2212.05974)
+
+    本研究首次探索了联邦学习在移动少样本自然语言处理中的应用，通过使用伪标签和提示学习算法，实现了仅有少量标记数据时的竞争性准确性。同时，通过创新的设计解决了高执行成本的问题。
+
+    
+
+    自然语言处理（NLP）在移动应用中得到广泛应用。为了支持各种语言理解任务，通常需要在联邦隐私保护环境中对基础NLP模型进行微调。这个过程通常依赖于至少数十万个来自移动客户端的带标签训练样本；然而移动用户通常缺乏标记数据的意愿或知识。这种数据标签的不足被称为少样本场景，它成为移动NLP应用的主要障碍。本研究首次探究了少样本场景下的联邦NLP（FedFSL）。通过结合伪标签和提示学习等算法进展，我们首先建立了一个训练流程，在仅有0.05%（少于100个）的训练数据被标记，其余数据未标记的情况下，实现了竞争性的准确性。为了具体实施这个工作流程，我们进一步提出了一个名为FeS的系统，通过创新设计解决了高执行成本的问题。其中包括课程进度控制，目标网络和验证器网络的结构等方面的创新。
+
+    Natural language processing (NLP) sees rich mobile applications. To support various language understanding tasks, a foundation NLP model is often fine-tuned in a federated, privacy-preserving setting (FL). This process currently relies on at least hundreds of thousands of labeled training samples from mobile clients; yet mobile users often lack willingness or knowledge to label their data. Such an inadequacy of data labels is known as a few-shot scenario; it becomes the key blocker for mobile NLP applications.  For the first time, this work investigates federated NLP in the few-shot scenario (FedFSL). By retrofitting algorithmic advances of pseudo labeling and prompt learning, we first establish a training pipeline that delivers competitive accuracy when only 0.05% (fewer than 100) of the training data is labeled and the remaining is unlabeled. To instantiate the workflow, we further present a system FeS, addressing the high execution cost with novel designs. (1) Curriculum pacing, whi
+    
+[^54]: 迈向实用的少样本联邦自然语言处理
 
     Towards Practical Few-shot Federated NLP. (arXiv:2212.00192v2 [cs.CL] UPDATED)
 
@@ -805,7 +820,7 @@
 
     Transformer-based pre-trained models have emerged as the predominant solution for natural language processing (NLP). Fine-tuning such pre-trained models for downstream tasks often requires a considerable amount of labeled private data. In practice, private data is often distributed across heterogeneous mobile devices and may be prohibited from being uploaded. Moreover, well-curated labeled data is often scarce, presenting an additional challenge. To address these challenges, we first introduce a data generator for federated few-shot learning tasks, which encompasses the quantity and skewness of scarce labeled data in a realistic setting. Subsequently, we propose AUG-FedPrompt, a prompt-based federated learning system that exploits abundant unlabeled data for data augmentation. Our experiments indicate that AUG-FedPrompt can perform on par with full-set fine-tuning with a limited amount of labeled data. However, such competitive performance comes at a significant system cost.
     
-[^54]: 我竟然没有图片了！仅使用语言数据学习视觉任务
+[^55]: 我竟然没有图片了！仅使用语言数据学习视觉任务
 
     I Can't Believe There's No Images! Learning Visual Tasks Using only Language Data. (arXiv:2211.09778v3 [cs.CV] UPDATED)
 
@@ -819,7 +834,7 @@
 
     Many high-level skills that are required for computer vision tasks, such as parsing questions, comparing and contrasting semantics, and writing descriptions, are also required in other domains such as natural language processing. In this paper, we ask whether it is possible to learn those skills from textual data and then transfer them to vision tasks without ever training on visual training data. Key to our approach is exploiting the joint embedding space of contrastively trained vision and language encoders. In practice, there can be systematic differences between embedding spaces for different modalities in contrastive models, and we analyze how these differences affect our approach and study strategies to mitigate this concern. We produce models using only text training data on four representative tasks: image captioning, visual entailment, visual question answering and visual news, and evaluate them on standard benchmarks using images. We find these models generally perform close 
     
-[^55]: YATO: 另一个基于深度学习的文本分析开源工具包
+[^56]: YATO: 另一个基于深度学习的文本分析开源工具包
 
     YATO: Yet Another deep learning based Text analysis Open toolkit. (arXiv:2209.13877v3 [cs.CL] UPDATED)
 
@@ -833,7 +848,7 @@
 
     We introduce YATO, an open-source, easy-to-use toolkit for text analysis with deep learning. Different from existing heavily engineered toolkits and platforms, YATO is lightweight and user-friendly for researchers from cross-disciplinary areas. Designed in a hierarchical structure, YATO supports free combinations of three types of widely used features including 1) traditional neural networks (CNN, RNN, etc.); 2) pre-trained language models (BERT, RoBERTa, ELECTRA, etc.); and 3) user-customized neural features via a simple configurable file. Benefiting from the advantages of flexibility and ease of use, YATO can facilitate fast reproduction and refinement of state-of-the-art NLP models, and promote the cross-disciplinary applications of NLP techniques. The code, examples, and documentation are publicly available at https://github.com/jiesutd/YATO. A demo video is also available at https://youtu.be/tSjjf5BzfQg.
     
-[^56]: PreSTU: 场景文本理解的预训练方法
+[^57]: PreSTU: 场景文本理解的预训练方法
 
     PreSTU: Pre-Training for Scene-Text Understanding. (arXiv:2209.05534v3 [cs.CV] UPDATED)
 
@@ -847,7 +862,7 @@
 
     The ability to recognize and reason about text embedded in visual inputs is often lacking in vision-and-language (V&L) models, perhaps because V&L pre-training methods have often failed to include such an ability in their training objective. In this paper, we propose PreSTU, a novel pre-training recipe dedicated to scene-text understanding (STU). PreSTU introduces OCR-aware pre-training objectives that encourage the model to recognize text from an image and connect it to the rest of the image content. We implement PreSTU using a simple transformer-based encoder-decoder architecture, combined with large-scale image-text datasets with scene text obtained from an off-the-shelf OCR system. We empirically demonstrate the effectiveness of this pre-training approach on eight visual question answering and four image captioning benchmarks.
     
-[^57]: 走向透明AI: 对深度神经网络内部结构的解释的调查
+[^58]: 走向透明AI: 对深度神经网络内部结构的解释的调查
 
     Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks. (arXiv:2207.13243v6 [cs.LG] UPDATED)
 
@@ -861,7 +876,7 @@
 
     The last decade of machine learning has seen drastic increases in scale and capabilities. Deep neural networks (DNNs) are increasingly being deployed in the real world. However, they are difficult to analyze, raising concerns about using them without a rigorous understanding of how they function. Effective tools for interpreting them will be important for building more trustworthy AI by helping to identify problems, fix bugs, and improve basic understanding. In particular, "inner" interpretability techniques, which focus on explaining the internal components of DNNs, are well-suited for developing a mechanistic understanding, guiding manual modifications, and reverse engineering solutions.  Much recent work has focused on DNN interpretability, and rapid progress has thus far made a thorough systematization of methods difficult. In this survey, we review over 300 works with a focus on inner interpretability tools. We introduce a taxonomy that classifies methods by what part of the netwo
     
-[^58]: 无监督双关节分析与共现线索的多模态单词发现
+[^59]: 无监督双关节分析与共现线索的多模态单词发现
 
     Unsupervised Multimodal Word Discovery based on Double Articulation Analysis with Co-occurrence cues. (arXiv:2201.06786v2 [cs.AI] UPDATED)
 
