@@ -1,0 +1,12 @@
+{
+    "title": "Cluster-Robust Inference Robust to Large Clusters. (arXiv:2308.10138v1 [econ.EM])",
+    "abstract": "The recent literature Sasaki and Wang (2022) points out that the conventional cluster-robust standard errors fail in the presence of large clusters. We propose a novel method of cluster-robust inference that is valid even in the presence of large clusters. Specifically, we derive the asymptotic distribution for the t-statistics based on the common cluster-robust variance estimators when the distribution of cluster sizes follows a power law with an exponent less than two. We then propose an inference procedure based on subsampling and show its validity. Our proposed method does not require tail index estimation and remains valid under the usual thin-tailed scenarios as well.",
+    "link": "http://arxiv.org/abs/2308.10138",
+    "context": "Title: Cluster-Robust Inference Robust to Large Clusters. (arXiv:2308.10138v1 [econ.EM])\nAbstract: The recent literature Sasaki and Wang (2022) points out that the conventional cluster-robust standard errors fail in the presence of large clusters. We propose a novel method of cluster-robust inference that is valid even in the presence of large clusters. Specifically, we derive the asymptotic distribution for the t-statistics based on the common cluster-robust variance estimators when the distribution of cluster sizes follows a power law with an exponent less than two. We then propose an inference procedure based on subsampling and show its validity. Our proposed method does not require tail index estimation and remains valid under the usual thin-tailed scenarios as well.",
+    "path": "papers/23/08/2308.10138.json",
+    "total_tokens": 736,
+    "translated_title": "对大型聚类集群具有鲁棒性的聚类鲁棒推断",
+    "translated_abstract": "最近文献Sasaki和Wang (2022)指出，在存在大型聚类集群的情况下，传统的聚类鲁棒标准误差失效。我们提出了一种新的聚类鲁棒推断方法，即使在存在大型聚类集群的情况下也是有效的。具体而言，当聚类大小的分布呈幂律且指数小于2时，我们推导了基于常见聚类鲁棒方差估计值的t统计量的渐近分布。然后，我们提出了一种基于子抽样的推断过程，并证明了其有效性。我们提出的方法不需要尾指数估计，并且在通常的尾分布情况下也保持有效。",
+    "tldr": "本文提出了一种对大型聚类集群具有鲁棒性的聚类鲁棒推断方法，无需尾指数估计且在尾分布情况下也有效。",
+    "en_tdlr": "This paper proposes a method of cluster-robust inference that is robust to large clusters, without the need for tail index estimation and remains valid under thin-tailed scenarios."
+}

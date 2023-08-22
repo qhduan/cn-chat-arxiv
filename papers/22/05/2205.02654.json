@@ -1,0 +1,11 @@
+{
+    "title": "Polynomial-Time Algorithms for Counting and Sampling Markov Equivalent DAGs with Applications. (arXiv:2205.02654v3 [cs.LG] UPDATED)",
+    "abstract": "Counting and sampling directed acyclic graphs from a Markov equivalence class are fundamental tasks in graphical causal analysis. In this paper we show that these tasks can be performed in polynomial time, solving a long-standing open problem in this area. Our algorithms are effective and easily implementable. As we show in experiments, these breakthroughs make thought-to-be-infeasible strategies in active learning of causal structures and causal effect identification with regard to a Markov equivalence class practically applicable.",
+    "link": "http://arxiv.org/abs/2205.02654",
+    "context": "Title: Polynomial-Time Algorithms for Counting and Sampling Markov Equivalent DAGs with Applications. (arXiv:2205.02654v3 [cs.LG] UPDATED)\nAbstract: Counting and sampling directed acyclic graphs from a Markov equivalence class are fundamental tasks in graphical causal analysis. In this paper we show that these tasks can be performed in polynomial time, solving a long-standing open problem in this area. Our algorithms are effective and easily implementable. As we show in experiments, these breakthroughs make thought-to-be-infeasible strategies in active learning of causal structures and causal effect identification with regard to a Markov equivalence class practically applicable.",
+    "path": "papers/22/05/2205.02654.json",
+    "total_tokens": 705,
+    "translated_title": "多项式时间算法在计数和采样马尔可夫等价的有向无环图中的应用",
+    "translated_abstract": "在图形因果分析中，从马尔可夫等价类中计数和采样有向无环图是基本任务。本文展示了这些任务可以在多项式时间内完成，解决了这一领域的长期未解决问题。我们的算法有效且易于实现。正如我们在实验中展示的那样，这些突破使得在活跃学习因果结构和因果效应识别方面，对于马尔可夫等价类，原本认为不可行的策略实际可应用。",
+    "tldr": "本文提出了一种多项式时间算法，用于在马尔可夫等价类中计数和采样有向无环图。该算法解决了这一领域的长期未解决问题，并且在实验中得到验证，可以在活跃学习因果结构和因果效应识别方面实际应用。"
+}

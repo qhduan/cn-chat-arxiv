@@ -1,0 +1,12 @@
+{
+    "title": "Is there a universal parametric city size distribution? Empirical evidence for 70 countries. (arXiv:2308.10018v1 [econ.GN])",
+    "abstract": "We study the parametric description of the city size distribution (CSD) of 70 different countries (developed and developing) using seven models, as follows: the lognormal (LN), the loglogistic (LL), the double Pareto lognormal (dPLN), the two-lognormal (2LN), the two-loglogistic (2LL), the three-lognormal (3LN) and the three-loglogistic (3LL). Our results show that 3LN and 3LL are the best densities in terms of non-rejections out of standard statistical tests. Meanwhile, according to the information criteria AIC and BIC, there is no systematically dominant distribution.",
+    "link": "http://arxiv.org/abs/2308.10018",
+    "context": "Title: Is there a universal parametric city size distribution? Empirical evidence for 70 countries. (arXiv:2308.10018v1 [econ.GN])\nAbstract: We study the parametric description of the city size distribution (CSD) of 70 different countries (developed and developing) using seven models, as follows: the lognormal (LN), the loglogistic (LL), the double Pareto lognormal (dPLN), the two-lognormal (2LN), the two-loglogistic (2LL), the three-lognormal (3LN) and the three-loglogistic (3LL). Our results show that 3LN and 3LL are the best densities in terms of non-rejections out of standard statistical tests. Meanwhile, according to the information criteria AIC and BIC, there is no systematically dominant distribution.",
+    "path": "papers/23/08/2308.10018.json",
+    "total_tokens": 773,
+    "translated_title": "是否存在普遍的城市规模分布？对70个国家的经验证据。",
+    "translated_abstract": "本研究使用七个模型，即对数正态分布、对数逻辑分布、双帕累托对数正态分布、两个对数正态分布、两个对数逻辑分布、三个对数正态分布和三个对数逻辑分布，研究了70个不同国家（发达和发展中国家）的城市规模分布（CSD）的参数化描述。我们的研究结果表明，三个对数正态分布和三个对数逻辑分布在标准统计测试中的非拒绝率最高。而根据信息准则AIC和BIC，没有系统性占优的分布。",
+    "tldr": "本研究探索了七个模型来描述70个国家的城市规模分布，并发现三个对数正态分布和三个对数逻辑分布在统计测试中的表现最好，然而，根据信息准则AIC和BIC，没有任何一个分布被系统性地认定为占优。",
+    "en_tdlr": "This study examines the parametric description of city size distributions for 70 countries using seven models and finds that the three-lognormal and three-loglogistic distributions perform the best in statistical tests. However, based on AIC and BIC criteria, there is no systematically dominant distribution."
+}

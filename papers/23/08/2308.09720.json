@@ -1,0 +1,12 @@
+{
+    "title": "On the Unexpected Abilities of Large Language Models. (arXiv:2308.09720v1 [cs.AI])",
+    "abstract": "Large language models are capable of displaying a wide range of abilities that are not directly connected with the task for which they are trained: predicting the next words of human-written texts. In this article, I discuss the nature of this indirect acquisition process and its relation to other known indirect processes. I argue that an important side effect of such indirect acquisition is the development of integrated abilities. I discuss the extent to which the abilities developed by large language models are predictable. Finally, I briefly discuss the relation between the cognitive skills acquired by these systems and human cognition.",
+    "link": "http://arxiv.org/abs/2308.09720",
+    "context": "Title: On the Unexpected Abilities of Large Language Models. (arXiv:2308.09720v1 [cs.AI])\nAbstract: Large language models are capable of displaying a wide range of abilities that are not directly connected with the task for which they are trained: predicting the next words of human-written texts. In this article, I discuss the nature of this indirect acquisition process and its relation to other known indirect processes. I argue that an important side effect of such indirect acquisition is the development of integrated abilities. I discuss the extent to which the abilities developed by large language models are predictable. Finally, I briefly discuss the relation between the cognitive skills acquired by these systems and human cognition.",
+    "path": "papers/23/08/2308.09720.json",
+    "total_tokens": 670,
+    "translated_title": "关于大型语言模型的意想不到能力",
+    "translated_abstract": "大型语言模型能展示出与其训练任务（预测人类书写文本的下一个单词）不直接相关的广泛能力。本文讨论了这种间接获取过程的性质及其与其他已知间接过程的关系。文章主张这种间接获取的一个重要副作用是综合能力的发展。本文还讨论了大型语言模型所开发的能力在多大程度上是可预测的。最后，文章简要讨论了这些系统所获得的认知技能与人类认知之间的关系。",
+    "tldr": "大型语言模型展示了与其训练任务不直接相关的广泛能力，通过间接获取过程使其拥有综合能力的发展，这些能力在一定程度上可预测，并且与人类认知有关。",
+    "en_tdlr": "Large language models demonstrate a wide range of abilities that are not directly related to their training task of predicting human-written texts. Through an indirect acquisition process, these models develop integrated abilities that are somewhat predictable and have connections to human cognition."
+}

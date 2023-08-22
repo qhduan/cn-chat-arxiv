@@ -1,0 +1,12 @@
+{
+    "title": "Continual Learning as Computationally Constrained Reinforcement Learning. (arXiv:2307.04345v2 [cs.LG] UPDATED)",
+    "abstract": "An agent that efficiently accumulates knowledge to develop increasingly sophisticated skills over a long lifetime could advance the frontier of artificial intelligence capabilities. The design of such agents, which remains a long-standing challenge of artificial intelligence, is addressed by the subject of continual learning. This monograph clarifies and formalizes concepts of continual learning, introducing a framework and set of tools to stimulate further research.",
+    "link": "http://arxiv.org/abs/2307.04345",
+    "context": "Title: Continual Learning as Computationally Constrained Reinforcement Learning. (arXiv:2307.04345v2 [cs.LG] UPDATED)\nAbstract: An agent that efficiently accumulates knowledge to develop increasingly sophisticated skills over a long lifetime could advance the frontier of artificial intelligence capabilities. The design of such agents, which remains a long-standing challenge of artificial intelligence, is addressed by the subject of continual learning. This monograph clarifies and formalizes concepts of continual learning, introducing a framework and set of tools to stimulate further research.",
+    "path": "papers/23/07/2307.04345.json",
+    "total_tokens": 617,
+    "translated_title": "连续学习作为计算受限的强化学习",
+    "translated_abstract": "一种能够在漫长的生命周期内高效积累知识并发展越来越复杂技能的智能体可以推动人工智能能力的前沿。连续学习这一长期以来一直是人工智能领域的挑战，本文介绍了关于连续学习的概念并提出了一个框架和一套工具，以促进进一步的研究。",
+    "tldr": "本文研究了连续学习作为计算受限的强化学习的主题，提出了一个框架和一套工具来解决人工智能领域长期以来的挑战并促进进一步的研究。",
+    "en_tdlr": "This paper investigates the topic of continual learning as computationally constrained reinforcement learning, proposing a framework and set of tools to address the long-standing challenge in the field of artificial intelligence and stimulate further research."
+}

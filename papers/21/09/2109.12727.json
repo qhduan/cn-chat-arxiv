@@ -1,0 +1,12 @@
+{
+    "title": "Anomalous Edge Detection in Edge Exchangeable Social Network Models. (arXiv:2109.12727v2 [cs.SI] UPDATED)",
+    "abstract": "This paper studies detecting anomalous edges in directed graphs that model social networks. We exploit edge exchangeability as a criterion for distinguishing anomalous edges from normal edges. Then we present an anomaly detector based on conformal prediction theory; this detector has a guaranteed upper bound for false positive rate. In numerical experiments, we show that the proposed algorithm achieves superior performance to baseline methods.",
+    "link": "http://arxiv.org/abs/2109.12727",
+    "context": "Title: Anomalous Edge Detection in Edge Exchangeable Social Network Models. (arXiv:2109.12727v2 [cs.SI] UPDATED)\nAbstract: This paper studies detecting anomalous edges in directed graphs that model social networks. We exploit edge exchangeability as a criterion for distinguishing anomalous edges from normal edges. Then we present an anomaly detector based on conformal prediction theory; this detector has a guaranteed upper bound for false positive rate. In numerical experiments, we show that the proposed algorithm achieves superior performance to baseline methods.",
+    "path": "papers/21/09/2109.12727.json",
+    "total_tokens": 615,
+    "translated_title": "在边缘可交换的社交网络模型中的异常边缘检测",
+    "translated_abstract": "本文研究了在模拟社交网络的有向图中检测异常边缘。我们利用边缘可交换性作为鉴别异常边缘和正常边缘的标准。然后我们基于一致预测理论提出了一种异常检测器；该检测器具有保证的误判率上界。在数值实验中，我们展示了所提算法相对于基准方法的卓越性能。",
+    "tldr": "本文研究了在社交网络模型中检测异常边缘的问题，并提出了一种基于边缘可交换性和一致预测理论的异常检测算法，该算法在实验中表现出卓越的性能。",
+    "en_tdlr": "This paper investigates the detection of anomalous edges in social network models and proposes an anomaly detector based on edge exchangeability and conformal prediction theory, which achieves superior performance in numerical experiments compared to baseline methods."
+}

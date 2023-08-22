@@ -1,0 +1,12 @@
+{
+    "title": "On the parametric description of log-growth rates of cities' sizes of four European countries and the USA. (arXiv:2308.10034v1 [econ.GN])",
+    "abstract": "We have studied the parametric description of the distribution of the log-growth rates of the sizes of cities of France, Germany, Italy, Spain and the USA. We have considered several parametric distributions well known in the literature as well as some others recently introduced. There are some models that provide similar excellent performance, for all studied samples. The normal distribution is not the one observed empirically.",
+    "link": "http://arxiv.org/abs/2308.10034",
+    "context": "Title: On the parametric description of log-growth rates of cities' sizes of four European countries and the USA. (arXiv:2308.10034v1 [econ.GN])\nAbstract: We have studied the parametric description of the distribution of the log-growth rates of the sizes of cities of France, Germany, Italy, Spain and the USA. We have considered several parametric distributions well known in the literature as well as some others recently introduced. There are some models that provide similar excellent performance, for all studied samples. The normal distribution is not the one observed empirically.",
+    "path": "papers/23/08/2308.10034.json",
+    "total_tokens": 607,
+    "translated_title": "关于四个欧洲国家和美国城市规模对数增长率的参数化描述",
+    "translated_abstract": "我们研究了法国、德国、意大利、西班牙和美国城市规模对数增长率分布的参数化描述。我们考虑了文献中已知的几种参数化分布以及一些最近引入的其他分布。对于所有研究样本来说，有一些模型表现出类似的优秀性能。正态分布并不是从经验上观察到的分布。",
+    "tldr": "这项研究对法国、德国、意大利、西班牙和美国的城市规模对数增长率进行了参数化描述，发现正态分布并不是实际观察到的分布。",
+    "en_tdlr": "This study investigates the parametric description of log-growth rates of city sizes in France, Germany, Italy, Spain, and the USA, revealing that the observed distribution is not normal."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Generalisation Through Negation and Predicate Invention. (arXiv:2301.07629v2 [cs.AI] UPDATED)",
+    "abstract": "The ability to generalise from a small number of examples is a fundamental challenge in machine learning. To tackle this challenge, we introduce an inductive logic programming (ILP) approach that combines negation and predicate invention. Combining these two features allows an ILP system to generalise better by learning rules with universally quantified body-only variables. We implement our idea in NOPI, which can learn normal logic programs with predicate invention, including Datalog programs with stratified negation. Our experimental results on multiple domains show that our approach can improve predictive accuracies and learning times.",
+    "link": "http://arxiv.org/abs/2301.07629",
+    "context": "Title: Generalisation Through Negation and Predicate Invention. (arXiv:2301.07629v2 [cs.AI] UPDATED)\nAbstract: The ability to generalise from a small number of examples is a fundamental challenge in machine learning. To tackle this challenge, we introduce an inductive logic programming (ILP) approach that combines negation and predicate invention. Combining these two features allows an ILP system to generalise better by learning rules with universally quantified body-only variables. We implement our idea in NOPI, which can learn normal logic programs with predicate invention, including Datalog programs with stratified negation. Our experimental results on multiple domains show that our approach can improve predictive accuracies and learning times.",
+    "path": "papers/23/01/2301.07629.json",
+    "total_tokens": 732,
+    "translated_title": "通过否定和谓词创造实现一般化",
+    "translated_abstract": "在机器学习中，从少量的示例中进行泛化是一个基本挑战。为了解决这个挑战，我们引入了一种归纳逻辑编程（ILP）方法，结合了否定和谓词创造。结合这两个特性可以使ILP系统通过学习仅具有全量化身体变量的规则来更好地泛化。我们将这个想法实现在NOPI中，它可以学习具有谓词创造的正常逻辑程序，包括具有分层否定的Datalog程序。我们在多个领域上的实验结果表明，我们的方法可以提高预测准确性和学习时间。",
+    "tldr": "这篇论文介绍了一种结合了否定和谓词创造的归纳逻辑编程方法，通过学习仅具有全量化身体变量的规则来改善泛化能力，并实现在NOPI中。实验结果表明，这种方法可以提高预测准确性和学习效率。",
+    "en_tdlr": "This paper introduces an inductive logic programming approach that combines negation and predicate invention to improve generalization, implemented in NOPI. Experimental results show that this method can enhance predictive accuracy and learning efficiency."
+}

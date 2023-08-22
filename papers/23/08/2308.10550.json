@@ -1,0 +1,12 @@
+{
+    "title": "Explicit Computations for Delayed Semistatic Hedging. (arXiv:2308.10550v1 [q-fin.MF])",
+    "abstract": "In this work we consider the exponential utility maximization problem in the framework of semistatic hedging.",
+    "link": "http://arxiv.org/abs/2308.10550",
+    "context": "Title: Explicit Computations for Delayed Semistatic Hedging. (arXiv:2308.10550v1 [q-fin.MF])\nAbstract: In this work we consider the exponential utility maximization problem in the framework of semistatic hedging.",
+    "path": "papers/23/08/2308.10550.json",
+    "total_tokens": 391,
+    "translated_title": "延迟半静态对冲的明确计算",
+    "translated_abstract": "在这项工作中，我们考虑了在半静态对冲框架下的指数效用最大化问题。",
+    "tldr": "该论文研究了延迟半静态对冲中的指数效用最大化问题。",
+    "en_tdlr": "This paper investigates the problem of exponential utility maximization in the context of delayed semistatic hedging."
+}

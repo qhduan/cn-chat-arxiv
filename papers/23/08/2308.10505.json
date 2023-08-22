@@ -1,0 +1,11 @@
+{
+    "title": "A Clustering Algorithm to Organize Satellite Hotspot Data for the Purpose of Tracking Bushfires Remotely. (arXiv:2308.10505v1 [cs.LG])",
+    "abstract": "This paper proposes a spatiotemporal clustering algorithm and its implementation in the R package spotoroo. This work is motivated by the catastrophic bushfires in Australia throughout the summer of 2019-2020 and made possible by the availability of satellite hotspot data. The algorithm is inspired by two existing spatiotemporal clustering algorithms but makes enhancements to cluster points spatially in conjunction with their movement across consecutive time periods. It also allows for the adjustment of key parameters, if required, for different locations and satellite data sources. Bushfire data from Victoria, Australia, is used to illustrate the algorithm and its use within the package.",
+    "link": "http://arxiv.org/abs/2308.10505",
+    "context": "Title: A Clustering Algorithm to Organize Satellite Hotspot Data for the Purpose of Tracking Bushfires Remotely. (arXiv:2308.10505v1 [cs.LG])\nAbstract: This paper proposes a spatiotemporal clustering algorithm and its implementation in the R package spotoroo. This work is motivated by the catastrophic bushfires in Australia throughout the summer of 2019-2020 and made possible by the availability of satellite hotspot data. The algorithm is inspired by two existing spatiotemporal clustering algorithms but makes enhancements to cluster points spatially in conjunction with their movement across consecutive time periods. It also allows for the adjustment of key parameters, if required, for different locations and satellite data sources. Bushfire data from Victoria, Australia, is used to illustrate the algorithm and its use within the package.",
+    "path": "papers/23/08/2308.10505.json",
+    "total_tokens": 748,
+    "translated_title": "用于远程追踪灾害火灾的卫星热点数据聚类算法",
+    "translated_abstract": "本文提出了一种时空聚类算法，并在R软件包spotoroo中实现。本研究受到2019-2020年澳大利亚灾难性火灾的影响，并借助卫星热点数据的可用性实现。该算法受到两种已有的时空聚类算法的启发，在空间上改进了点的聚类，并在连续的时间段内跟踪其运动。同时，该算法还允许根据需要调整重要参数，以适应不同的位置和卫星数据源。使用澳大利亚维多利亚州的火灾数据对算法进行了演示。",
+    "tldr": "本文提出了一种用于远程追踪灾害火灾的卫星热点数据聚类算法，能够在空间和时间上对点进行聚类，并允许根据需要调整参数以适应不同的位置和卫星数据源。"
+}

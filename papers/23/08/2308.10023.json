@@ -1,0 +1,12 @@
+{
+    "title": "Student't mixture models for stock indices. A comparative study. (arXiv:2308.10023v1 [econ.GN])",
+    "abstract": "We perform a comparative study for multiple equity indices of different countries using different models to determine the best fit using the Kolmogorov-Smirnov statistic, the Anderson-Darling statistic, the Akaike information criterion and the Bayesian information criteria as goodness-of-fit measures. We fit models both to daily and to hourly log-returns. The main result is the excellent performance of a mixture of three Student's $t$ distributions with the numbers of degrees of freedom fixed a priori (3St). In addition, we find that the different components of the 3St mixture with small/moderate/high degree of freedom parameter describe the extreme/moderate/small log-returns of the studied equity indices.",
+    "link": "http://arxiv.org/abs/2308.10023",
+    "context": "Title: Student't mixture models for stock indices. A comparative study. (arXiv:2308.10023v1 [econ.GN])\nAbstract: We perform a comparative study for multiple equity indices of different countries using different models to determine the best fit using the Kolmogorov-Smirnov statistic, the Anderson-Darling statistic, the Akaike information criterion and the Bayesian information criteria as goodness-of-fit measures. We fit models both to daily and to hourly log-returns. The main result is the excellent performance of a mixture of three Student's $t$ distributions with the numbers of degrees of freedom fixed a priori (3St). In addition, we find that the different components of the 3St mixture with small/moderate/high degree of freedom parameter describe the extreme/moderate/small log-returns of the studied equity indices.",
+    "path": "papers/23/08/2308.10023.json",
+    "total_tokens": 741,
+    "translated_title": "学生混合模型用于股票指数的比较研究",
+    "translated_abstract": "我们使用不同的模型对多个不同国家的股票指数进行比较研究，使用Kolmogorov-Smirnov统计量、Anderson-Darling统计量、Akaike信息准则和贝叶斯信息准则作为拟合效果的度量标准。我们将模型分别拟合到日频和小时频的对数收益率上。主要结果是，学生三元混合分布模型（3St）表现出优异的性能，自由度的数量事先确定。此外，我们发现具有小/适中/大自由度参数的3St混合模型的不同分量可以描述所研究的股票指数的极端/适中/较小对数收益率。",
+    "tldr": "该论文通过比较研究多个不同国家的股票指数，使用不同的模型进行拟合，并且发现学生三元混合分布模型在拟合效果方面表现出色。",
+    "en_tdlr": "This paper performs a comparative study on multiple equity indices of different countries, fitting different models and finding that a mixture of three Student's t distributions shows excellent performance in terms of fitting."
+}

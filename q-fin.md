@@ -2,277 +2,412 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Wisdom of the Crowds or Ignorance of the Masses? A data-driven guide to WSB.](http://arxiv.org/abs/2308.09485) | 这篇论文通过对WallStreetBets论坛的数据分析，揭示了零售投资者的群集行为在资产价格波动中的重要作用。 |
-| [^2] | [The Inflation Attention Threshold and Inflation Surges.](http://arxiv.org/abs/2308.09480) | 本论文研究了通胀关注度与通胀激增之间的关系，发现在通胀率低稳定时，人们关注度较低，但一旦通胀率超过4%，关注度会明显增加，高关注区域的关注度是低关注区域的两倍。这种关注阈值的存在导致了状态依赖效应，即在宽松货币政策时，成本推动冲击对通胀的影响更大。这些结论有助于理解最近美国的通胀激增现象。 |
-| [^3] | [Black-Litterman, Bayesian Shrinkage, and Factor Models in Portfolio Selection: You Can Have It All.](http://arxiv.org/abs/2308.09264) | 该论文提出了一个融合缩小估计、观点纳入和因子模型的贝叶斯蓝图，该蓝图在投资组合选择中应用并优于简单的$1/N$投资组合。 |
-| [^4] | [Econometrics Modelling Approach to Examine the Effect of STEM Policy Changes on Asian Students Enrollment Decision in USA.](http://arxiv.org/abs/2308.08972) | 该论文通过经济计量学建模方法研究了STEM政策变化对亚洲学生在美国报考决策的影响，发现STE政策的实施对学生报考STEM专业产生了影响。 |
-| [^5] | [Decarbonizing the European energy system in the absence of Russian gas: Hydrogen uptake and carbon capture developments in the power, heat and industry sectors.](http://arxiv.org/abs/2308.08953) | 该论文分析了欧洲能源系统在没有俄罗斯天然气的情况下的减碳策略，发现电力领域逐渐减少使用天然气并采用具有碳捕获与储存的煤炭和可再生能源发电，钢铁行业也采用了煤炭和氢气来实现脱碳。 |
-| [^6] | [IMM: An Imitative Reinforcement Learning Approach with Predictive Representation Learning for Automatic Market Making.](http://arxiv.org/abs/2308.08918) | 本研究提出了一种基于预测表示学习的模仿增强学习方法，在自动做市中应用。该方法通过借鉴专业人类做市商的工作流程，结合子优信号专家的知识和直接策略交互，开发了适用于多价格水平的做市策略。 |
-| [^7] | [Entrepreneurial Higher Education Education, Knowledge and Wealth Creation.](http://arxiv.org/abs/2308.08808) | 这本书讨论了高等教育在知识创造、教学和应用研究方面的角色，并分析了成功的学术商业化案例以及大学如何推动地区和国家的经济发展。 |
-| [^8] | [Large Language Models at Work in China's Labor Market.](http://arxiv.org/abs/2308.08776) | 本文研究了大型语言模型（LLMs）对中国劳动市场的潜在影响，并分析了职业对LLM能力的暴露程度及其与工资水平和经验溢价之间的关系。研究结果表明，高薪和经验密集型工作可能面临更大的替代风险。此外，研究还开发了一个考虑行业暴露的经济增长模型，以量化AI采用对生产力和就业之间的权衡。这项研究为理解中国劳动市场中越来越强大的AI系统的影响提供了基础。 |
-| [^9] | [Semi-analytic pricing of American options in some time-dependent jump-diffusion models.](http://arxiv.org/abs/2308.08760) | 该论文提出了一种半解析定价方法，用于时间相关跳跃扩散模型下的美式期权定价问题。该方法允许模型参数对时间的任意依赖，并将美式期权定价问题简化为一组代数非线性方程和线性Fredholm-Volterra方程的求解问题。此外，论文还得到了类似的Fredholm-Volterra线性方程解决的期权希腊值。 |
-| [^10] | [When to efficiently rebalance a portfolio.](http://arxiv.org/abs/2308.08745) | 本论文研究了在多维布朗半鞅资产价格模型下，通过离散时间重新平衡的跟踪误差问题，并提出了一组高效的简单可预测策略。 |
-| [^11] | [Detecting Financial Market Manipulation with Statistical Physics Tools.](http://arxiv.org/abs/2308.08683) | 该论文通过运用统计物理工具对金融市场进行分析，并提出了一种新的概念框架。研究者们用粒子运动模型表示订单簿动态，并定义了系统的动量度量用于概括和评估市场状况。此方法在捕捉市场操纵活动中具有重要意义，并在识别和解释LUNA和Bitcoin市场中的异常表现方面胜过常规方法。 |
-| [^12] | [Cooperation and interdependence in global science funding.](http://arxiv.org/abs/2308.08630) | 中国和美国在全球科学资金中扮演着重要角色，中国在国内和国际资金方面的活动非常强劲，而美国则保持着大多数国家的最重要研究合作伙伴地位。 |
-| [^13] | [BIRP: Bitcoin Information Retrieval Prediction Model Based on Multimodal Pattern Matching.](http://arxiv.org/abs/2308.08558) | 本文提出了一种基于多模式匹配的比特币信息检索预测模型(BIRP)，通过排列相似的过去图表运动来提高预测能力，应用于比特币市场。 |
-| [^14] | [AI-Assisted Investigation of On-Chain Parameters: Risky Cryptocurrencies and Price Factors.](http://arxiv.org/abs/2308.08554) | 本论文使用人工智能算法分析历史数据和区块链参数，找出影响加密货币价格的因素并识别风险加密货币。 |
-| [^15] | [Recurrent Neural Networks with more flexible memory: better predictions than rough volatility.](http://arxiv.org/abs/2308.08550) | 本论文提出了具有更灵活记忆的递归神经网络，能够更好地预测具有长期记忆的资产价格波动性，优于传统的粗糙波动性预测方法。 |
-| [^16] | [Effects of Daily News Sentiment on Stock Price Forecasting.](http://arxiv.org/abs/2308.08549) | 本研究探讨了每日新闻情绪对股票价格预测的影响，并设计了一个高效的系统从新闻中提取情绪影响因素。研究发现投资者情绪对股票价格波动有显著影响。 |
-| [^17] | [VolTS: A Volatility-based Trading System to forecast Stock Markets Trend using Statistics and Machine Learning.](http://arxiv.org/abs/2307.13422) | 本文提出了一种新型的基于波动性的交易策略，结合统计分析和机器学习技术，用于预测股市趋势。方法包括多个步骤，如数据探索、相关性分析、技术指标应用、假设检验和变量选择算法。研究使用聚类算法对股票进行分组，并利用格兰杰因果性检验确定股票之间的预测关系。总结来说，这一方法可用于建立一个交易系统，以预测股市趋势。 |
-| [^18] | [Revealed preference characterization of marital stability under mutual consent divorce.](http://arxiv.org/abs/2110.10781) | 该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。 |
+| [^1] | [Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks.](http://arxiv.org/abs/2308.10568) | 我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。 |
+| [^2] | [D-TIPO: Deep time-inconsistent portfolio optimization with stocks and options.](http://arxiv.org/abs/2308.10556) | 本文提出了一种用于时不一致组合优化的机器学习算法，该算法使用股票和期权进行资产配置，并考虑了实际交易约束和相关跳跃扩散SDE模型。 |
+| [^3] | [Explicit Computations for Delayed Semistatic Hedging.](http://arxiv.org/abs/2308.10550) | 该论文研究了延迟半静态对冲中的指数效用最大化问题。 |
+| [^4] | [Exploring the Role of Perceived Range Anxiety in Adoption Behavior of Plug-in Electric Vehicles.](http://arxiv.org/abs/2308.10313) | 本研究通过嵌套逻辑模型（NL）模型探讨了感知里程焦虑对插电式电动汽车采纳行为的影响，并通过两层次的NL模型捕捉了个人在车辆交易类型和EV类型方面的决策。 |
+| [^5] | [Digital Real Estate in the Metaverse: An Empirical Analysis of Retail Investor Motivations.](http://arxiv.org/abs/2308.10309) | 本研究通过对加密虚拟世界拥有者的调查，揭示了数字房地产零售投资者的动机，包括美学和身份、社交和社区、投机和投资以及创新和技术。研究结果表明年龄、教育、投资知识、风险承受能力和冲动行为对投资者群体归属具有显著影响。该研究为投资者和开发者提供了宝贵的见解，强调了加密虚拟世界平台吸引零售投资者的潜力。 |
+| [^6] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
+| [^7] | [Green or greedy: the relationship between perceived benefits and homeowners' intention to adopt residential low-carbon technologies.](http://arxiv.org/abs/2308.10104) | 该研究分析了业主在考虑采用低碳技术时的决策路径，发现其采用意愿受计划行为理论影响。研究结果表明，对于低碳技术的态度更与产品特定收益相关，而环境收益对态度形成的正向关联比财务收益更高。 |
+| [^8] | [Startup Acquisitions: Acquihires and Talent Hoarding.](http://arxiv.org/abs/2308.10046) | 该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。 |
+| [^9] | [Do We Price Happiness? Evidence from Korean Stock Market.](http://arxiv.org/abs/2308.10039) | 本研究使用谷歌趋势数据探索了幸福搜索量对跨部门股票回报的影响。结果发现，幸福搜索曝光可以解释未来的回报，特别是对大型和价值型公司有影响，这表明幸福搜索量可能反映了公司生产满足社会实用需求的能力。该研究对寻求利用基于幸福搜索量的策略实现超额回报的机构投资者具有重要意义。 |
+| [^10] | [On the parametric description of log-growth rates of cities' sizes of four European countries and the USA.](http://arxiv.org/abs/2308.10034) | 这项研究对法国、德国、意大利、西班牙和美国的城市规模对数增长率进行了参数化描述，发现正态分布并不是实际观察到的分布。 |
+| [^11] | [The Distribution of Strike Size:Empirical Evidence from Europe and North America in the 19th and 20th Centuries.](http://arxiv.org/abs/2308.10030) | 本研究通过分析19世纪和20世纪欧洲和北美的罢工数据，发现罢工规模的分布可用两个或三个对数正态分布的混合模型来描述，并且在上尾部时，帕累托幂律与截断对数正态分布几乎没有区别。 |
+| [^12] | [Student't mixture models for stock indices. A comparative study.](http://arxiv.org/abs/2308.10023) | 该论文通过比较研究多个不同国家的股票指数，使用不同的模型进行拟合，并且发现学生三元混合分布模型在拟合效果方面表现出色。 |
+| [^13] | [Is there a universal parametric city size distribution? Empirical evidence for 70 countries.](http://arxiv.org/abs/2308.10018) | 本研究探索了七个模型来描述70个国家的城市规模分布，并发现三个对数正态分布和三个对数逻辑分布在统计测试中的表现最好，然而，根据信息准则AIC和BIC，没有任何一个分布被系统性地认定为占优。 |
+| [^14] | [To the Moon: Analyzing Collective Trading Events on the Wings of Sentiment Analysis.](http://arxiv.org/abs/2308.09968) | 本研究基于情感分析，研究了在社交媒体上组织的零售投资者参与特定股票的趋势，并比较了Reddit和Twitter对股票波动的影响。结果发现，与Reddit活动相比，Twitter活动和情感在这些事件中的作用较小。 |
+| [^15] | [Paths to Influence: How Coordinated Influence Operations Affect the Prominence of Ideas.](http://arxiv.org/abs/2308.09818) | 本文通过四个例子解释了协调操作如何影响社交网络上的思想显著性，总结出四种典型的影响途径：通过加强推广，通过削弱推广，通过加强贬低，以及通过削弱贬低。 |
+| [^16] | [Managers' Choice of Disclosure Complexity.](http://arxiv.org/abs/2308.09789) | Aghamolla and Smith (2023) contribute to our understanding of how managers choose financial reporting complexity. They find a U-shaped relationship between complexity and returns, and a negative association between complexity and investor sophistication. However, their findings also suggest a counterfactual positive market response to complexity. They propose a simplified approach where simple disclosures indicate positive surprises, leading to greater investor skepticism towards complexity and a positive association between investor sophistication and complexity. This highlights the need for further research to examine complexity as an interaction of reporting and economic transactions. |
+| [^17] | [Discretionary Extensions to Unemployment-Insurance Compensation and Some Potential Costs for a McCall Worker.](http://arxiv.org/abs/2308.09783) | 研究了失业保险补偿的自由发放问题对于麦考尔工人的影响，发现政策制定者可以自行决定是否延长补贴，并发现延长补贴会使工人变得更加挑剔，在失业期间更加谨慎接受工作机会。研究还发现错误估计延长发放的成本较小。 |
+| [^18] | [Instabilities of explicit finite difference schemes with ghost points on the diffusion equation.](http://arxiv.org/abs/2308.04629) | 本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。 |
+| [^19] | [Decomposing cryptocurrency dynamics into recurring and noisy components.](http://arxiv.org/abs/2306.17095) | 本文研究了加密货币市场的时间模式，发现与传统股票市场不同的市场行为，表现为三个增强活动阶段与不同时段的交易时段相一致。在15分钟间隔内出现了活动激增的有趣模式，尤其在整点时出现，暗示了算法交易的潜在作用。此外，比特币和以太坊的重复活动突发与美国重大宏观经济报告发布时间相一致。 |
+| [^20] | [LQG Risk-Sensitive Mean Field Games with a Major Agent: A Variational Approach.](http://arxiv.org/abs/2305.15364) | 本研究在风险敏感的均场博弈中引入了一个主要代理，与众多次要代理相互作用，对次要代理产生重大影响，为风险敏感理论的进一步发展提供了思路。 |
+| [^21] | [Particle MCMC in forecasting frailty correlated default models with expert opinion.](http://arxiv.org/abs/2304.11586) | 本文使用贝叶斯方法和粒子马尔可夫链蒙特卡罗算法结合专家意见，预测涵盖1980年1月至2019年6月美国公共非金融公司的脆弱相关违约模型。结果显示隐藏因素的波动性和均值回归对未观察到的违约强度与潜在变量的依赖关系有着显著的正向影响，1年的预测相对较好，而当预测时间跨度延长到2年和3年时，预测准确率下降。 |
+| [^22] | [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.](http://arxiv.org/abs/2303.10130) | 该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。 |
+| [^23] | [Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies.](http://arxiv.org/abs/2211.13100) | 本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。 |
+| [^24] | [Solidarity in natural gas storage: A potential allocation mechanism of stored quantities among several players during times of crisis.](http://arxiv.org/abs/2209.05089) | 本文提出了一种潜在的团结框架，用于解决天然气储备在危机期间的分配问题。通过建立博弈论模型和考虑不确定性因素，该机制基于自愿参与，并可以促进储存能力的更有效利用。 |
+| [^25] | [Polynomial Voting Rules.](http://arxiv.org/abs/2206.10105) | 本文提出了一种新的多项式投票规则类别，该规则通过区分选民的投票权和选民在系统中的份额，防止了任何选民操控投票过程，增强了系统的安全性。我们还证明了选民份额形成收敛于狄利克雷分布的过程，而选民的投票权则随时间衰减到零。在初始总投票量较大时，存在分享稳定性的相变现象。 |
+| [^26] | [The Economics of Orbit Use: Open Access, External Costs, and Runaway Debris Growth.](http://arxiv.org/abs/2202.07442) | 本研究提出了一个动态的物理经济模型，研究了地球轨道利用的条件，其中包括内生的卫星碰撞风险。研究发现，在开放获取和外部成本内部化两种情况下，Kessler综合症都可能出现，而自催化的碎片增长在Kessler综合症的出现中起到关键作用。 |
+| [^27] | [Deep Reinforcement Learning for Active High Frequency Trading.](http://arxiv.org/abs/2101.07107) | 本文介绍了一个基于深度强化学习的框架，用于在股票市场中进行活跃的高频交易。通过训练DRL代理来交易股票，并使用Proximal Policy Optimization算法进行优化。通过仅选择具有最大价格变动的训练样本来提高训练数据的信噪比。通过实验证明，代理能够创建对底层环境的动态表示，并能够识别偶尔出现的规律。 |
 
 # 详细
 
-[^1]: 众人的智慧还是群众的无知？一个数据驱动的对WSB的指南
+[^1]: 对于存在信用、资金和反向风险的具有双边现金流的易损衍生品合约的分析估值
 
-    Wisdom of the Crowds or Ignorance of the Masses? A data-driven guide to WSB. (arXiv:2308.09485v1 [econ.GN])
+    Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks. (arXiv:2308.10568v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2308.09485](http://arxiv.org/abs/2308.09485)
+    [http://arxiv.org/abs/2308.10568](http://arxiv.org/abs/2308.10568)
 
-    这篇论文通过对WallStreetBets论坛的数据分析，揭示了零售投资者的群集行为在资产价格波动中的重要作用。
-
-    
-
-    经济学中一个平凡但基本的问题是：是什么导致了资产价格的大幅波动？2021年1月22日至28日期间，GameStop股票价格翻了十倍，这表明散户投资者的群集行为是一个重要的促成因素。本文提供了对引起热潮的论坛WallStreetBets（WSB）的数据驱动指南。我们的初始实验使用大规模的语言主题模型和网络工具对论坛进行了分解。主题模型描述了论坛随时间的演变，并展示了某些主题（如市场/S\&P500讨论）的持久性，以及对其他主题（如COVID或原油）的零散兴趣。网络分析使我们能够基于用户的发帖和讨论习惯将零售投资者的景观进行分解；出现了几个大的、相关的资产讨论群集，周围是较小的、小众的群集。第二组实验评估了WSB讨论对市场的影响。
-
-    A trite yet fundamental question in economics is: What causes large asset price fluctuations? A tenfold rise in the price of GameStop equity, between the 22nd and 28th of January 2021, demonstrated that herding behaviour among retail investors is an important contributing factor. This paper presents a data-driven guide to the forum that started the hype -- WallStreetBets (WSB). Our initial experiments decompose the forum using a large language topic model and network tools. The topic model describes the evolution of the forum over time and shows the persistence of certain topics (such as the market / S\&P500 discussion), and the sporadic interest in others, such as COVID or crude oil. Network analysis allows us to decompose the landscape of retail investors into clusters based on their posting and discussion habits; several large, correlated asset discussion clusters emerge, surrounded by smaller, niche ones. A second set of experiments assesses the impact that WSB discussions have had
-    
-[^2]: 通胀关注阈值与通胀激增
-
-    The Inflation Attention Threshold and Inflation Surges. (arXiv:2308.09480v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.09480](http://arxiv.org/abs/2308.09480)
-
-    本论文研究了通胀关注度与通胀激增之间的关系，发现在通胀率低稳定时，人们关注度较低，但一旦通胀率超过4%，关注度会明显增加，高关注区域的关注度是低关注区域的两倍。这种关注阈值的存在导致了状态依赖效应，即在宽松货币政策时，成本推动冲击对通胀的影响更大。这些结论有助于理解最近美国的通胀激增现象。
+    我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。
 
     
 
-    在最近通胀激增爆发时，公众对通胀的关注度很低，但一旦通胀开始上升，关注度迅速增加。本文构建了一个一般均衡货币模型，该模型在通胀低而稳定时，最优化的策略是对通胀关注较少，但一旦通胀超过某个阈值，就会增加关注度。利用调查问卷中的通胀预期，我估计关注阈值在4%通胀率，高关注区域的关注度是低关注区域的两倍。当校准到这些发现时，该模型产生与美国最近通胀激增一致的通胀和通胀预期动态。关注阈值导致状态依赖性：成本推动冲击在货币宽松政策时更加通胀。这些状态依赖性效应在恒定关注或理性预期模型中是不存在的。
+    我们研究了在存在资金、信用和反向风险的情况下，对具有双边现金流的易损衍生品进行估值的问题，并导出了一个关于平值（ATM）远期合约的闭合形式估值公式，以及一个对于一般情况的二阶近似。我们假设了一个具有异质利率和违约发生的模型，并推导出合约的违约前估值函数的Cauchy问题，其中包括任何供应方风险 - 与计算估值调整（统称XVA）不同。在一个特定的资金策略下，线性化Cauchy问题，我们得到了违约前估值的通用概率表示（定理1）。我们将这个通用框架应用于股票远期合约的估值，并建立了合约可以在特定概率测度下表示为具有适当选择的执行价和到期日的欧式期权的连续投资组合。
 
-    At the outbreak of the recent inflation surge, the public's attention to inflation was low but increased rapidly once inflation started to rise. In this paper, I develop a general equilibrium monetary model where it is optimal for agents to pay little attention to inflation when inflation is low and stable, but in which they increase their attention once inflation exceeds a certain threshold. Using survey inflation expectations, I estimate the attention threshold to be at an inflation rate of 4%, with attention in the high-attention regime being twice as high as in the low-attention regime. When calibrated to match these findings, the model generates inflation and inflation expectation dynamics consistent with the recent inflation surge in the US. The attention threshold induces a state dependency: cost-push shocks become more inflationary in times of loose monetary policy. These state-dependent effects are absent in the model with constant attention or under rational expectations. Fol
+    We study the problem of valuing a vulnerable derivative with bilateral cash flows between two counterparties in the presence of funding, credit and wrong-way risks, and derive a closed-form valuation formula for an at-the-money (ATM) forward contract as well as a second order approximation for the general case. We posit a model with heterogeneous interest rates and default occurrence and infer a Cauchy problem for the pre-default valuation function of the contract, which includes ab initio any counterparty risk - as opposed to calculating valuation adjustments collectively known as XVA. Under a specific funding policy which linearises the Cauchy problem, we obtain a generic probabilistic representation for the pre-default valuation (Theorem 1). We apply this general framework to the valuation of an equity forward and establish the contract can be expressed as a continuous portfolio of European options with suitably chosen strikes and expiries under a particular probability measure (The
     
-[^3]: Black-Litterman、Bayesian Shrinkage和Factor Models在投资组合选择中的应用：拥有全面的选择。
+[^2]: D-TIPO: 使用股票和期权进行深度时不一致组合优化的机器学习算法
 
-    Black-Litterman, Bayesian Shrinkage, and Factor Models in Portfolio Selection: You Can Have It All. (arXiv:2308.09264v1 [q-fin.PM])
+    D-TIPO: Deep time-inconsistent portfolio optimization with stocks and options. (arXiv:2308.10556v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2308.09264](http://arxiv.org/abs/2308.09264)
+    [http://arxiv.org/abs/2308.10556](http://arxiv.org/abs/2308.10556)
 
-    该论文提出了一个融合缩小估计、观点纳入和因子模型的贝叶斯蓝图，该蓝图在投资组合选择中应用并优于简单的$1/N$投资组合。
-
-    
-
-    均值方差分析被广泛应用于投资组合管理，以在预期收益和波动性之间实现最优的权衡。然而，该方法存在一些限制，尤其是对估计误差的脆弱性和对历史数据的依赖性。虽然缩小估计器和因子模型已被引入以通过偏差-方差权衡来提高估计准确性，而Black-Litterman模型已被开发用于整合投资者观点，但缺乏一个将三种方法结合起来的统一框架。我们的研究首次提出了一个贝叶斯蓝图，将缩小估计与观点纳入融合，将两者都概念化为贝叶斯更新。然后，我们将该模型应用于Fama-French因子模型的上下文中，从而整合了每种方法的优势。最后，通过在跨越十年的美国股票市场进行全面的实证研究，我们证明该模型优于简单的$1/N$投资组合。
-
-    Mean-variance analysis is widely used in portfolio management to identify the best portfolio that makes an optimal trade-off between expected return and volatility. Yet, this method has its limitations, notably its vulnerability to estimation errors and its reliance on historical data. While shrinkage estimators and factor models have been introduced to improve estimation accuracy through bias-variance trade-offs, and the Black-Litterman model has been developed to integrate investor opinions, a unified framework combining three approaches has been lacking. Our study debuts a Bayesian blueprint that fuses shrinkage estimation with view inclusion, conceptualizing both as Bayesian updates. This model is then applied within the context of the Fama-French approach factor models, thereby integrating the advantages of each methodology. Finally, through a comprehensive empirical study in the US equity market spanning a decade, we show that the model outperforms both the simple $1/N$ portfolio
-    
-[^4]: 经济计量学建模方法用于研究STEM政策变化对亚洲学生在美国的报考决策的影响
-
-    Econometrics Modelling Approach to Examine the Effect of STEM Policy Changes on Asian Students Enrollment Decision in USA. (arXiv:2308.08972v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.08972](http://arxiv.org/abs/2308.08972)
-
-    该论文通过经济计量学建模方法研究了STEM政策变化对亚洲学生在美国报考决策的影响，发现STE政策的实施对学生报考STEM专业产生了影响。
+    本文提出了一种用于时不一致组合优化的机器学习算法，该算法使用股票和期权进行资产配置，并考虑了实际交易约束和相关跳跃扩散SDE模型。
 
     
 
-    学术研究表明，国际学生流动性引起了重大关注，先前的文献主要从政治和公共政策的角度关注迁移行业。对于许多国家来说，国际学生流动性通过金融收益和吸引有技能的移民在其经济中起到了至关重要的作用。虽然以前的研究探讨了迁移和国家经济政策的决定因素，但只有少数研究考察了政策变化对迁移趋势的影响。在本研究中，研究人员调查了移民政策变化，尤其是对STEM项目的选择性实习培训（OPT）延期对亚洲学生报考大学STEM专业的偏好的影响。研究利用观测数据，采用准实验设计，使用差异法分析信息。研究结果表明，STE政策的实施对学生报考STEM专业产生了影响。
+    本文提出了一种用于时不一致组合优化的机器学习算法。该算法基于基于神经网络的交易方案，其中每个时间点的资产配置由神经网络确定。损失函数由组合优化问题的目标函数的经验版本给出。此外，通过在神经网络的输出层选择适当的激活函数，可以自然地满足各种交易约束。除此之外，我们的主要贡献是将期权加入到风险资产组合中，并使用额外的神经网络确定分配给期权的金额以及期权的行权价格。我们考虑更符合投资者理性偏好的目标函数，应用现实的交易约束，用相关跳跃扩散SDE模拟资产。在不完全市场情况下进行实证研究。
 
-    Academic research has shown significant interest in international student mobility, with previous literature primarily focusing on the migration industry from a political and public policy perspective. For many countries, international student mobility plays a crucial role in bolstering their economies through financial gains and attracting skilled immigrants. While previous studies have explored the determinants of mobility and country economic policies, only a few have examined the impact of policy changes on mobility trends. In this study, the researchers investigate the influence of immigration policy changes, particularly the optional practical training (OPT) extension on STEM programs, on Asian students' preference for enrolling in STEM majors at universities. The study utilizes observational data and employs a quasi-experimental design, analysing the information using the difference-in-difference technique. The findings of the research indicate that the implementation of the STE
+    In this paper, we propose a machine learning algorithm for time-inconsistent portfolio optimization. The proposed algorithm builds upon neural network based trading schemes, in which the asset allocation at each time point is determined by a a neural network. The loss function is given by an empirical version of the objective function of the portfolio optimization problem. Moreover, various trading constraints are naturally fulfilled by choosing appropriate activation functions in the output layers of the neural networks. Besides this, our main contribution is to add options to the portfolio of risky assets and a risk-free bond and using additional neural networks to determine the amount allocated into the options as well as their strike prices.  We consider objective functions more in line with the rational preference of an investor than the classical mean-variance, apply realistic trading constraints and model the assets with a correlated jump-diffusion SDE. With an incomplete market
     
-[^5]: 在没有俄罗斯天然气的情况下减碳欧洲能源系统：电力、热能和工业领域的氢气利用和碳捕获发展
+[^3]: 延迟半静态对冲的明确计算
 
-    Decarbonizing the European energy system in the absence of Russian gas: Hydrogen uptake and carbon capture developments in the power, heat and industry sectors. (arXiv:2308.08953v1 [econ.GN])
+    Explicit Computations for Delayed Semistatic Hedging. (arXiv:2308.10550v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2308.08953](http://arxiv.org/abs/2308.08953)
+    [http://arxiv.org/abs/2308.10550](http://arxiv.org/abs/2308.10550)
 
-    该论文分析了欧洲能源系统在没有俄罗斯天然气的情况下的减碳策略，发现电力领域逐渐减少使用天然气并采用具有碳捕获与储存的煤炭和可再生能源发电，钢铁行业也采用了煤炭和氢气来实现脱碳。
-
-    
-
-    氢气和碳捕获与储存对于在各种路径情景中减碳欧洲能源系统至关重要。然而，它们在不同领域和国家的及时采用受到可再生能源和化石能源供应选择的影响。本文分析了欧洲能源系统在2060年之前的减碳情况，涵盖了电力、热能和工业领域，以及在欧洲脱离俄罗斯天然气后这些领域中氢气和碳捕获与储存的使用变化。结果表明，在电力领域，天然气的使用显著减少，而代之以具有碳捕获与储存的煤炭，并进一步扩大可再生发电设备。在钢铁行业中，当忽略俄罗斯天然气时，煤炭与碳捕获与储存也被用作中间步骤，然后再完全使用氢气实现脱碳。氢气的生产大部分依赖具有碳捕获与储存技术的天然气。
-
-    Hydrogen and carbon capture and storage are pivotal to decarbonize the European energy system in a broad range of pathway scenarios. Yet, their timely uptake in different sectors and distribution across countries are affected by supply options of renewable and fossil energy sources. Here, we analyze the decarbonization of the European energy system towards 2060, covering the power, heat, and industry sectors, and the change in use of hydrogen and carbon capture and storage in these sectors upon Europe's decoupling from Russian gas. The results indicate that the use of gas is significantly reduced in the power sector, instead being replaced by coal with carbon capture and storage, and with a further expansion of renewable generators. Coal coupled with carbon capture and storage is also used in the steel sector as an intermediary step when Russian gas is neglected, before being fully decarbonized with hydrogen. Hydrogen production mostly relies on natural gas with carbon capture and stor
-    
-[^6]: 基于预测表示学习的模仿增强学习方法在自动做市中的应用
-
-    IMM: An Imitative Reinforcement Learning Approach with Predictive Representation Learning for Automatic Market Making. (arXiv:2308.08918v1 [cs.LG])
-
-    [http://arxiv.org/abs/2308.08918](http://arxiv.org/abs/2308.08918)
-
-    本研究提出了一种基于预测表示学习的模仿增强学习方法，在自动做市中应用。该方法通过借鉴专业人类做市商的工作流程，结合子优信号专家的知识和直接策略交互，开发了适用于多价格水平的做市策略。
+    该论文研究了延迟半静态对冲中的指数效用最大化问题。
 
     
 
-    做市（MM）在金融交易中引起了广泛关注，因为它在确保市场流动性方面具有至关重要的功能。在顺序决策方面具有强大能力的强化学习（RL）技术在量化交易方面取得了显著的成功。然而，大多数现有的基于RL的MM方法都专注于优化单一价格水平策略，而对于频繁撤销订单和丢失队列优先级等问题无法解决。涉及多个价格水平的策略更符合实际交易场景。然而，由于多价格水平策略涉及到全面的交易行为空间的复杂性，有效训练盈利的RL代理人在MM方面仍然是一个挑战。受到专业做市商高效工作流程的启发，我们提出了一种新颖的RL框架，即模仿市场做市商（IMM），它利用子优信号专家的知识和直接策略交互的方式来开发多价格水平的MM策略。
+    在这项工作中，我们考虑了在半静态对冲框架下的指数效用最大化问题。
 
-    Market making (MM) has attracted significant attention in financial trading owing to its essential function in ensuring market liquidity. With strong capabilities in sequential decision-making, Reinforcement Learning (RL) technology has achieved remarkable success in quantitative trading. Nonetheless, most existing RL-based MM methods focus on optimizing single-price level strategies which fail at frequent order cancellations and loss of queue priority. Strategies involving multiple price levels align better with actual trading scenarios. However, given the complexity that multi-price level strategies involves a comprehensive trading action space, the challenge of effectively training profitable RL agents for MM persists. Inspired by the efficient workflow of professional human market makers, we propose Imitative Market Maker (IMM), a novel RL framework leveraging both knowledge from suboptimal signal-based experts and direct policy interactions to develop multi-price level MM strategi
+    In this work we consider the exponential utility maximization problem in the framework of semistatic hedging.
     
-[^7]: 企业家式高等教育：教育、知识与财富创造
+[^4]: 探索感知里程焦虑对插电式电动汽车采纳行为的作用
 
-    Entrepreneurial Higher Education Education, Knowledge and Wealth Creation. (arXiv:2308.08808v1 [econ.GN])
+    Exploring the Role of Perceived Range Anxiety in Adoption Behavior of Plug-in Electric Vehicles. (arXiv:2308.10313v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.08808](http://arxiv.org/abs/2308.08808)
+    [http://arxiv.org/abs/2308.10313](http://arxiv.org/abs/2308.10313)
 
-    这本书讨论了高等教育在知识创造、教学和应用研究方面的角色，并分析了成功的学术商业化案例以及大学如何推动地区和国家的经济发展。
-
-    
-
-    本书详细讨论了高等教育在基础知识创造、教学和应用研究以商业化方面的作用。本书提供了教育历史上如何解决这一挑战，成功的学术商业化案例，基础科学与应用科学的结合以及大学如何发展地区和国家经济的历史账户。本书还讨论了研究商业化中的文化和社会挑战，以及打破现状的途径。
-
-    This book presents detailed discussion on the role of higher education in terms of serving basic knowledge creation, teaching, and doing applied research for commercialization. The book presents an historical account on how this challenge was addressed earlier in education history, the cases of successful academic commercialization, the marriage between basic and applied science and how universities develop economies of the regions and countries. This book also discusses cultural and social challenges in research commercialization and pathways to break the status quo.
-    
-[^8]: 大型语言模型在中国劳动市场的应用
-
-    Large Language Models at Work in China's Labor Market. (arXiv:2308.08776v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.08776](http://arxiv.org/abs/2308.08776)
-
-    本文研究了大型语言模型（LLMs）对中国劳动市场的潜在影响，并分析了职业对LLM能力的暴露程度及其与工资水平和经验溢价之间的关系。研究结果表明，高薪和经验密集型工作可能面临更大的替代风险。此外，研究还开发了一个考虑行业暴露的经济增长模型，以量化AI采用对生产力和就业之间的权衡。这项研究为理解中国劳动市场中越来越强大的AI系统的影响提供了基础。
+    本研究通过嵌套逻辑模型（NL）模型探讨了感知里程焦虑对插电式电动汽车采纳行为的影响，并通过两层次的NL模型捕捉了个人在车辆交易类型和EV类型方面的决策。
 
     
 
-    本文探讨了大型语言模型（LLMs）对中国劳动市场的潜在影响。我们通过结合人类专业知识和LLM分类，按照Eloundou等人（2023）的方法分析了职业对LLM能力的暴露程度。然后将职业暴露程度聚合到行业水平上，得到行业暴露得分。结果表明，职业暴露和工资水平/经验溢价之间存在正相关关系，表明高薪和经验密集型的工作可能面临着LLM驱动软件的更大替代风险。行业暴露得分与专家评估和经济直觉相一致。我们还开发了一个考虑行业暴露的经济增长模型，以量化AI采用带来的生产力和就业之间的权衡。总体来说，本研究为理解中国越来越强大的AI系统对劳动市场的影响提供了分析基础。主要创新包括职业水平的暴露情况。
+    解决道路交通所造成的负外部性问题的可持续解决方案是用电动汽车（EVs）取代内燃机动车，尤其是包括插电式混合动力汽车（PHEV）和电池电动汽车（BEV）在内的插电式电动汽车（PEV）。然而，EV的市场份额仍然很低，预计将保持低位且不确定。这说明有必要深入了解EV采纳行为，重点关注大规模EV采纳的主要障碍之一，即电动驾驶里程的限制。本研究从两个方向扩展了现有文献。首先，探讨了心理因素对EV采纳行为的影响，即所谓的里程焦虑，通过提出一个嵌套逻辑模型（NL）模型来进行实证研究。其次，两层次的NL模型捕捉了个人在车辆交易类型和EV类型方面的决策，其中上层模型为选择的车辆交易类型提供了决策。
 
-    This paper explores the potential impacts of large language models (LLMs) on the Chinese labor market. We analyze occupational exposure to LLM capabilities by incorporating human expertise and LLM classifications, following Eloundou et al. (2023)'s methodology. We then aggregate occupation exposure to the industry level to obtain industry exposure scores. The results indicate a positive correlation between occupation exposure and wage levels/experience premiums, suggesting higher-paying and experience-intensive jobs may face greater displacement risks from LLM-powered software. The industry exposure scores align with expert assessments and economic intuitions. We also develop an economic growth model incorporating industry exposure to quantify the productivity-employment trade-off from AI adoption. Overall, this study provides an analytical basis for understanding the labor market impacts of increasingly capable AI systems in China. Key innovations include the occupation-level exposure
+    A sustainable solution to negative externalities imposed by road transportation is replacing internal combustion vehicles with electric vehicles (EVs), especially plug-in EV (PEV) encompassing plug-in hybrid EV (PHEV) and battery EV (BEV). However, EV market share is still low and is forecast to remain low and uncertain. This shows a research need for an in-depth understanding of EV adoption behavior with a focus on one of the main barriers to the mass EV adoption, which is the limited electric driving range. The present study extends the existing literature in two directions; First, the influence of the psychological aspect of driving range, which is referred to as range anxiety, is explored on EV adoption behavior by presenting a nested logit (NL) model with a latent construct. Second, the two-level NL model captures individuals' decision on EV adoption behavior distinguished by vehicle transaction type and EV type, where the upper level yields the vehicle transaction type selected f
     
-[^9]: 一种时间相关跳跃扩散模型下美式期权的半解析定价方法
+[^5]: 数字世界中的房地产：关于零售投资者动机的实证分析
 
-    Semi-analytic pricing of American options in some time-dependent jump-diffusion models. (arXiv:2308.08760v1 [q-fin.PR])
+    Digital Real Estate in the Metaverse: An Empirical Analysis of Retail Investor Motivations. (arXiv:2308.10309v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2308.08760](http://arxiv.org/abs/2308.08760)
+    [http://arxiv.org/abs/2308.10309](http://arxiv.org/abs/2308.10309)
 
-    该论文提出了一种半解析定价方法，用于时间相关跳跃扩散模型下的美式期权定价问题。该方法允许模型参数对时间的任意依赖，并将美式期权定价问题简化为一组代数非线性方程和线性Fredholm-Volterra方程的求解问题。此外，论文还得到了类似的Fredholm-Volterra线性方程解决的期权希腊值。
-
-    
-
-    本文提出了一种半解析定价方法，用于某些时间相关跳跃扩散模型下的美式期权。该方法是对我们之前在各种时间相关单因子甚至随机波动性模型中定价障碍期权[Itkin et al., 2021]和美式期权[Carr and Itkin, 2021; Itkin and Muravey, 2023]的方法进一步推广。我们的方法：i）允许模型参数对时间的任意依赖；ii）将美式期权定价问题的求解简化为求解一个代数非线性方程以确定行权边界和一个线性Fredholm-Volterra方程以确定期权价格；iii）期权希腊值通过对所要求的参数对方程（25）进行微分得到类似的Fredholm-Volterra线性方程解决。
-
-    In this paper we propose a semi-analytic approach to pricing American options for some time-dependent jump-diffusions models. The idea of the method is to further generalize our approach developed for pricing barrier, [Itkin et al., 2021], and American, [Carr and Itkin, 2021; Itkin and Muravey, 2023], options in various time-dependent one factor and even stochastic volatility models. Our approach i) allows arbitrary dependencies of the model parameters on time; ii) reduces solution of the pricing problem for American options to a simpler problem of solving an algebraic nonlinear equation for the exercise boundary and a linear Fredholm-Volterra equation for the the option price; iii) the options Greeks solve a similar Fredholm-Volterra linear equation obtained by just differentiating Eq. (25) by the required parameter.
-    
-[^10]: 何时高效地重新平衡投资组合
-
-    When to efficiently rebalance a portfolio. (arXiv:2308.08745v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2308.08745](http://arxiv.org/abs/2308.08745)
-
-    本论文研究了在多维布朗半鞅资产价格模型下，通过离散时间重新平衡的跟踪误差问题，并提出了一组高效的简单可预测策略。
+    本研究通过对加密虚拟世界拥有者的调查，揭示了数字房地产零售投资者的动机，包括美学和身份、社交和社区、投机和投资以及创新和技术。研究结果表明年龄、教育、投资知识、风险承受能力和冲动行为对投资者群体归属具有显著影响。该研究为投资者和开发者提供了宝贵的见解，强调了加密虚拟世界平台吸引零售投资者的潜力。
 
     
 
-    固定权重资产配置是一种流行的投资策略，在适当的连续模型下是最优的。我们研究了在一般的多维布朗半鞅资产价格模型下，通过可行的离散时间重新平衡，针对目标连续重新平衡策略的跟踪误差。在高频渐近框架下，我们导出了一组渐近高效的简单可预测策略。
+    本文研究了在加密虚拟世界中拥有数字房地产的零售投资者的动机。通过对虚拟世界地主的内在和外在动机进行详细的金融行为调查，我们应用主成分分析揭示了四个独特的动机群体：（1）美学和身份，（2）社交和社区，（3）投机和投资，以及（4）创新和技术。我们的研究结果表明，年龄、教育、投资知识、冒险精神和冲动行为显著影响投资者群体的归属。这项研究为投资者和开发者提供了宝贵的见解，强调了一个平台吸引具有投机动机、长期参与度和主动或被动交易特征的零售投资者的潜力，具体取决于独特的加密虚拟世界属性。
 
-    A constant weight asset allocation is a popular investment strategy and is optimal under a suitable continuous model. We study the tracking error for the target continuous rebalancing strategy by a feasible discrete-in-time rebalancing under a general multi-dimensional Brownian semimartingale model of asset prices. In a high-frequency asymptotic framework, we derive an asymptotically efficient sequence of simple predictable strategies.
+    This paper investigates retail investor motivations for digital real estate ownership in the crypto-metaverse. Utilizing a detailed financial behavior survey of metaverse landowners' intrinsic and extrinsic motivations, we apply principal components analysis to uncover four distinct motivational groups: (1) Aesthetics and Identity, (2) Social and Community, (3) Speculation and Investment, and (4) Innovation and Technology. Our findings reveal that age, education, investment knowledge, risk-taking, and impulsivity significantly influence investor group membership. This research provides valuable insights to investors and developers, underscoring the potential of a platform to attract retail investors with speculative intentions, engagement longevity, and passive or active trading characteristics, contingent on unique crypto-metaverse attributes.
     
-[^11]: 用统计物理工具检测金融市场操纵
+[^6]: 持不同意见：测量FOMC会议中的隐藏异议
 
-    Detecting Financial Market Manipulation with Statistical Physics Tools. (arXiv:2308.08683v1 [q-fin.TR])
+    Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.08683](http://arxiv.org/abs/2308.08683)
+    [http://arxiv.org/abs/2308.10131](http://arxiv.org/abs/2308.10131)
 
-    该论文通过运用统计物理工具对金融市场进行分析，并提出了一种新的概念框架。研究者们用粒子运动模型表示订单簿动态，并定义了系统的动量度量用于概括和评估市场状况。此方法在捕捉市场操纵活动中具有重要意义，并在识别和解释LUNA和Bitcoin市场中的异常表现方面胜过常规方法。
-
-    
-
-    我们受到统计物理的启发，开发了一个用于分析金融市场的新概念框架。我们将订单簿动态建模为粒子的运动，并将系统的动量度量定义为总结和评估市场状态的一种方式。我们的方法在捕捉显著的金融市场现象方面很有用：特别是它有助于检测被称为“虚假订单”和“分层订单”的市场操纵活动。我们应用我们的方法来识别LUNA加密货币的闪崩期间的病态订单簿行为，揭示了市场中广泛存在的伪造订单和分层订单。此外，我们还证实了我们的技术在识别LUNA和Bitcoin加密货币市场的市场操纵方面优于常规的基于Z分数的异常检测方法。
-
-    We take inspiration from statistical physics to develop a novel conceptual framework for the analysis of financial markets. We model the order book dynamics as a motion of particles and define the momentum measure of the system as a way to summarise and assess the state of the market. Our approach proves useful in capturing salient financial market phenomena: in particular, it helps detect the market manipulation activities called spoofing and layering. We apply our method to identify pathological order book behaviours during the flash crash of the LUNA cryptocurrency, uncovering widespread instances of spoofing and layering in the market. Furthermore, we establish that our technique outperforms the conventional Z-score-based anomaly detection method in identifying market manipulations across both LUNA and Bitcoin cryptocurrency markets.
-    
-[^12]: 全球科学资金的合作与相互依赖
-
-    Cooperation and interdependence in global science funding. (arXiv:2308.08630v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.08630](http://arxiv.org/abs/2308.08630)
-
-    中国和美国在全球科学资金中扮演着重要角色，中国在国内和国际资金方面的活动非常强劲，而美国则保持着大多数国家的最重要研究合作伙伴地位。
+    该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。
 
     
 
-    研发投资对科学和经济发展以及社会福祉至关重要。由于科学研究需要大量资源，国家科学投资是科学产出的重要推动者。随着科学产出日益国际化，研究各国科学活动在国内和国际上的资金来源如何成为一个至关重要的研究课题。通过追踪学术论文中得到承认的研究拨款，我们的研究揭示了中国和美国在全球资金格局中的双头垄断，资金模式截然不同。尽管中国在国内和国际资金方面的资金活动非常强劲，超过了美国，但美国在作为大多数国家最重要的研究合作伙伴方面仍然保持着最重要的地位。我们的结果还凸显了低收入和中等收入国家对全球资金中断的不稳定性。
+    基于1976年至2017年的FOMC投票异议记录和会议记录，我们开发了一个基于自我关注模块的深度学习模型，用于确定每个成员在每个会议中的异议程度。虽然异议很少见，但我们发现成员们经常对政策决策持保留意见。异议程度主要由当前或预测的宏观经济数据驱动，成员的个人特征几乎不起作用。我们还利用模型评估会议之间成员的演讲，并发现它们所揭示的异议程度与随后的会议异议程度之间存在弱相关性。最后，我们发现每当货币政策行动更加激进时，异议程度会增加。
 
-    Research and development investments are key to scientific and economic development and to the well-being of society. Because scientific research demands significant resources, national scientific investment is a crucial driver of scientific production. As scientific production becomes increasingly multinational, it is critically important to study how nations' scientific activities are funded both domestically and internationally. By tracing research grants acknowledged in scholarly publications, our study reveals a duopoly of China and the United States in the global funding landscape, with a contrasting funding pattern; while China has surpassed the United States both in acknowledged domestic and international funding with its strong funding activity for the Chinese institutions, the United States largely maintains its place as the most important research partner for most countries. Our results also highlight the precarity of low- and middle-income countries to global funding disrup
+    Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
     
-[^13]: BIRP: 基于多模式匹配的比特币信息检索预测模型
+[^7]: 绿色还是贪婪：感知收益与业主采用低碳技术的意向之间的关系
 
-    BIRP: Bitcoin Information Retrieval Prediction Model Based on Multimodal Pattern Matching. (arXiv:2308.08558v1 [q-fin.ST])
+    Green or greedy: the relationship between perceived benefits and homeowners' intention to adopt residential low-carbon technologies. (arXiv:2308.10104v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.08558](http://arxiv.org/abs/2308.08558)
+    [http://arxiv.org/abs/2308.10104](http://arxiv.org/abs/2308.10104)
 
-    本文提出了一种基于多模式匹配的比特币信息检索预测模型(BIRP)，通过排列相似的过去图表运动来提高预测能力，应用于比特币市场。
-
-    
-
-    在随机行走假设下，金融时间序列被认为是鞅过程。为了发现金融市场中隐藏的可重复模式，人们开发了各种多模式匹配算法，而不仅仅依靠原始价格进行投资决策。许多基于图表的模式匹配工具只能在当前图表模式的基础上检索类似的过去图表模式，并将整个解释和预测分析以及最终的投资决策留给投资者。本文提出了一种基于当前图表信息对相似过去图表运动进行排序的方法，并证明利用这些额外特征可以提高我们模型的方向预测能力。由于比特币具有高度波动的价格，使其难以预测其未来走势，因此我们将我们的排序和方向预测建模方法应用于比特币。
-
-    Financial time series have historically been assumed to be a martingale process under the Random Walk hypothesis. Instead of making investment decisions using the raw prices alone, various multimodal pattern matching algorithms have been developed to help detect subtly hidden repeatable patterns within the financial market. Many of the chart-based pattern matching tools only retrieve similar past chart (PC) patterns given the current chart (CC) pattern, and leaves the entire interpretive and predictive analysis, thus ultimately the final investment decision, to the investors. In this paper, we propose an approach of ranking similar PC movements given the CC information and show that exploiting this as additional features improves the directional prediction capacity of our model. We apply our ranking and directional prediction modeling methodologies on Bitcoin due to its highly volatile prices that make it challenging to predict its future movements.
-    
-[^14]: AI辅助调查区块链参数：风险加密货币和价格因素
-
-    AI-Assisted Investigation of On-Chain Parameters: Risky Cryptocurrencies and Price Factors. (arXiv:2308.08554v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2308.08554](http://arxiv.org/abs/2308.08554)
-
-    本论文使用人工智能算法分析历史数据和区块链参数，找出影响加密货币价格的因素并识别风险加密货币。
+    该研究分析了业主在考虑采用低碳技术时的决策路径，发现其采用意愿受计划行为理论影响。研究结果表明，对于低碳技术的态度更与产品特定收益相关，而环境收益对态度形成的正向关联比财务收益更高。
 
     
 
-    近年来，加密货币已成为投资者和学者广泛研究的热门话题。为了做出明智的投资决策，了解影响加密货币价格的因素并识别风险加密货币是至关重要的。本文重点分析历史数据，并使用人工智能算法对区块链参数进行分析，以识别影响加密货币价格的因素并找到风险加密货币。我们对历史加密货币的链上数据进行分析，并测量了价格与其他参数之间的相关性。此外，我们使用聚类和分类方法来更好地理解加密货币，并将其分类为风险或非风险。分析结果显示，大部分加密货币（39％）已退出市场，而只有很小一部分（10％）存活了1000多天。我们的分析揭示了一个显著的负相关关系
+    过渡到零排放经济需要深入了解业主在考虑采用低碳技术时的决策路径。这些低碳技术既带来个人收益，也带来集体收益，积极的感知关键影响态度和意愿。我们的研究分析了两种主要收益之间的关系：家庭级财务收益和更广泛的环境优势。我们关注屋顶光伏系统、节能家电和绿色电力电费的采用意愿，利用偏最小二乘结构方程模型来证明低碳技术采用意愿基于计划行为理论。对低碳技术的态度与产品特定收益联系更强，而不是情感构建。在评估收益方面，环境收益与态度形成的正向关联比财务收益更高。
 
-    Cryptocurrencies have become a popular and widely researched topic of interest in recent years for investors and scholars. In order to make informed investment decisions, it is essential to comprehend the factors that impact cryptocurrency prices and to identify risky cryptocurrencies. This paper focuses on analyzing historical data and using artificial intelligence algorithms on on-chain parameters to identify the factors affecting a cryptocurrency's price and to find risky cryptocurrencies. We conducted an analysis of historical cryptocurrencies' on-chain data and measured the correlation between the price and other parameters. In addition, we used clustering and classification in order to get a better understanding of a cryptocurrency and classify it as risky or not. The analysis revealed that a significant proportion of cryptocurrencies (39%) disappeared from the market, while only a small fraction (10%) survived for more than 1000 days. Our analysis revealed a significant negative
+    Transitioning to a net-zero economy requires a nuanced understanding of homeowners decision-making pathways when considering the adoption of Low Carbon Technologies (LCTs). These LCTs present both personal and collective benefits, with positive perceptions critically influencing attitudes and intentions. Our study analyses the relationship between two primary benefits: the household-level financial gain and the broader environmental advantage. Focusing on the intention to adopt Rooftop Photovoltaic Systems, Energy Efficient Appliances, and Green Electricity Tariffs, we employ Partial Least Squares Structural Equation Modeling to demonstrate that the adoption intention of the LCTs is underpinned by the Theory of Planned Behaviour. Attitudes toward the LCTs are more strongly related to product-specific benefits than affective constructs. In terms of evaluative benefits, environmental benefits exhibit a higher positive association with attitude formation compared to financial benefits. Ho
     
-[^15]: 具有更灵活记忆的递归神经网络：比粗糙波动性有更好的预测能力
+[^8]: 创业公司收购：人才抢购和人才囤积
 
-    Recurrent Neural Networks with more flexible memory: better predictions than rough volatility. (arXiv:2308.08550v1 [q-fin.ST])
+    Startup Acquisitions: Acquihires and Talent Hoarding. (arXiv:2308.10046v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.08550](http://arxiv.org/abs/2308.08550)
+    [http://arxiv.org/abs/2308.10046](http://arxiv.org/abs/2308.10046)
 
-    本论文提出了具有更灵活记忆的递归神经网络，能够更好地预测具有长期记忆的资产价格波动性，优于传统的粗糙波动性预测方法。
-
-    
-
-    我们扩展了递归神经网络，为其输出的每个维度包括多个灵活的时间尺度，从而机械地改善了其对具有长期记忆或高度不同时间尺度的过程的建模能力。我们比较了普通的长短期记忆网络（LSTMs）和扩展的LSTMs在预测具有长期记忆的资产价格波动性方面的能力。通常情况下，训练扩展的LSTMs所需的时期数减少了一半，而具有相同超参数的模型在验证和测试损失的变化较小。我们还展示了，在使用多个时间序列的数据集进行训练和测试时，验证损失最小的模型比粗糙波动性预测的准确率高约20%。
-
-    We extend recurrent neural networks to include several flexible timescales for each dimension of their output, which mechanically improves their abilities to account for processes with long memory or with highly disparate time scales. We compare the ability of vanilla and extended long short term memory networks (LSTMs) to predict asset price volatility, known to have a long memory. Generally, the number of epochs needed to train extended LSTMs is divided by two, while the variation of validation and test losses among models with the same hyperparameters is much smaller. We also show that the model with the smallest validation loss systemically outperforms rough volatility predictions by about 20% when trained and tested on a dataset with multiple time series.
-    
-[^16]: 每日新闻情绪对股票价格预测的影响
-
-    Effects of Daily News Sentiment on Stock Price Forecasting. (arXiv:2308.08549v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2308.08549](http://arxiv.org/abs/2308.08549)
-
-    本研究探讨了每日新闻情绪对股票价格预测的影响，并设计了一个高效的系统从新闻中提取情绪影响因素。研究发现投资者情绪对股票价格波动有显著影响。
+    该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。
 
     
 
-    预测股票的未来价格是一项艰巨的任务。然而，引入额外的因素可以显著改善我们的预测，而不仅仅依靠股票的历史价格数据来预测其未来价格。研究表明，投资者情绪受到有关公司的每日新闻的影响，可以对股票价格波动产生重大影响。虽然有很多信息来源可以获取这些信息，但它们往往充斥着大量的噪声，使得准确提取情感变得困难。因此，我们的研究重点是设计一个高效的系统，从关于NITY50股票的新闻中获取情绪，并研究这些股票的财经新闻情绪在一段时间内对其价格的影响程度。本文介绍了一个强大的数据收集和预处理框架，用于创建一个历时约3.7年的新闻数据库，包含了近50万条新闻数据。
+    我们提出了一个创业公司收购模型，可能导致低效的 "人才囤积"。我们开发了一个有两个竞争公司的模型，这些公司可以收购和整合一个在不同领域运营的创业公司，这种收购改善了收购公司的竞争力。我们表明，即使没有经典的竞争效应，这种收购也可能不是良性的，而是垄断行为的结果，导致人才分配低效。此外，我们还表明，这种人才囤积可能会降低消费者剩余，并导致被收购员工的工作不稳定性增加。
 
-    Predicting future prices of a stock is an arduous task to perform. However, incorporating additional elements can significantly improve our predictions, rather than relying solely on a stock's historical price data to forecast its future price. Studies have demonstrated that investor sentiment, which is impacted by daily news about the company, can have a significant impact on stock price swings. There are numerous sources from which we can get this information, but they are cluttered with a lot of noise, making it difficult to accurately extract the sentiments from them. Hence the focus of our research is to design an efficient system to capture the sentiments from the news about the NITY50 stocks and investigate how much the financial news sentiment of these stocks are affecting their prices over a period of time. This paper presents a robust data collection and preprocessing framework to create a news database for a timeline of around 3.7 years, consisting of almost half a million n
+    We present a model of startup acquisitions, which may give rise to inefficient "talent hoarding." We develop a model with two competing firms that can acquire and integrate (or "acquihire") a startup operating in an orthogonal market. Such an acquihire improves the competitiveness of the acquiring firm. We show that even absent the classical competition effects, acquihires need not be benign but can be the result of oligopolistic behavior, leading to an inefficient allocation of talent. Further, we show that such talent hoarding may reduce consumer surplus and lead to more job volatility for acquihired employees.
     
-[^17]: VolTS：一种利用统计和机器学习预测股市趋势的基于波动性的交易系统
+[^9]: 我们是否定价幸福？来自韩国股市的证据。
 
-    VolTS: A Volatility-based Trading System to forecast Stock Markets Trend using Statistics and Machine Learning. (arXiv:2307.13422v1 [q-fin.TR])
+    Do We Price Happiness? Evidence from Korean Stock Market. (arXiv:2308.10039v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.13422](http://arxiv.org/abs/2307.13422)
+    [http://arxiv.org/abs/2308.10039](http://arxiv.org/abs/2308.10039)
 
-    本文提出了一种新型的基于波动性的交易策略，结合统计分析和机器学习技术，用于预测股市趋势。方法包括多个步骤，如数据探索、相关性分析、技术指标应用、假设检验和变量选择算法。研究使用聚类算法对股票进行分组，并利用格兰杰因果性检验确定股票之间的预测关系。总结来说，这一方法可用于建立一个交易系统，以预测股市趋势。
-
-    
-
-    基于波动性的交易策略因其能够从市场动态中捕捉利润机会而在金融市场中引起了很大关注。在本文中，我们提出了一种将统计分析与机器学习技术相结合的新型基于波动性的交易策略，用于预测股市趋势。该方法包括数据探索、相关性和自相关性分析、技术指标使用、假设检验和统计模型应用以及变量选择算法的使用等多个步骤。特别地，我们使用k-means++聚类算法对纽约证券交易所和纳斯达克交易所的九个最大股票的平均波动性进行分组。得到的聚类结果是基于股票波动性行为来识别股票之间关系的基础。接下来，我们使用格兰杰因果性检验对中等波动性的聚类数据集进行，以确定一只股票对另一只股票的预测能力。通过识别这些关系，我们构建一个交易系统来预测股市趋势。
-
-    Volatility-based trading strategies have attracted a lot of attention in financial markets due to their ability to capture opportunities for profit from market dynamics. In this article, we propose a new volatility-based trading strategy that combines statistical analysis with machine learning techniques to forecast stock markets trend.  The method consists of several steps including, data exploration, correlation and autocorrelation analysis, technical indicator use, application of hypothesis tests and statistical models, and use of variable selection algorithms. In particular, we use the k-means++ clustering algorithm to group the mean volatility of the nine largest stocks in the NYSE and NasdaqGS markets. The resulting clusters are the basis for identifying relationships between stocks based on their volatility behaviour. Next, we use the Granger Causality Test on the clustered dataset with mid-volatility to determine the predictive power of a stock over another stock. By identifyin
-    
-[^18]: 基于揭示性偏好的互意离婚下婚姻稳定性的刻画
-
-    Revealed preference characterization of marital stability under mutual consent divorce. (arXiv:2110.10781v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2110.10781](http://arxiv.org/abs/2110.10781)
-
-    该论文提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律下的互意离婚，为了评估该刻画在确定家庭内消费方面的潜力，还进行了模拟实验。
+    本研究使用谷歌趋势数据探索了幸福搜索量对跨部门股票回报的影响。结果发现，幸福搜索曝光可以解释未来的回报，特别是对大型和价值型公司有影响，这表明幸福搜索量可能反映了公司生产满足社会实用需求的能力。该研究对寻求利用基于幸福搜索量的策略实现超额回报的机构投资者具有重要意义。
 
     
 
-    我们提出了一个基于揭示性偏好的婚姻稳定性刻画，明确考虑了调节婚姻解散的离婚法律。我们重点研究了互意离婚，即当事人只有在获得了对方的同意时才能离婚。我们提供理论见解，探讨了该刻画在确定家庭内消费方面的潜力。我们使用从“社会科学的网络化纵向研究”（LISS）小组抽取的家庭数据进行模拟实验，结果支持了我们的理论发现。
+    本研究探讨了互联网搜索量数据，特别是谷歌趋势，作为跨部门股票回报的指标的潜力。与以往的研究不同，我们的研究特别研究了“幸福”这个主题的搜索量以及其对风险定价而不是情绪测量的影响。实证结果表明，“幸福”搜索曝光（HSE）可以解释未来的回报，尤其是对大型和价值型公司。这表明HSE可能是公司能够生产满足社会实用需求的商品或服务的反映。我们的研究结果对寻求利用基于HSE的策略实现超额回报的机构投资者具有重要意义。此外，我们的研究表明，一些谷歌趋势上的搜索主题在选取得当的情况下可以与影响股票价格的风险相关联。
 
-    We present a revealed preference characterization of marital stability explicitly accounting for the divorce law governing marital dissolution. We focus on mutual consent divorce, where individuals can divorce their partner only if they can obtain their consent. We provide theoretical insights into the potential of the characterization for identifying intrahousehold consumption. Simulation exercises using household data drawn from the Longitudinal Internet Studies for the Social Sciences (LISS) panel support our theoretical findings.
+    This study explores the potential of internet search volume data, specifically Google Trends, as an indicator for cross-sectional stock returns. Unlike previous studies, our research specifically investigates the search volume of the topic 'happiness' and its impact on stock returns in the aspect of risk pricing rather than as sentiment measurement. Empirical results indicate that this 'happiness' search exposure (HSE) can explain future returns, particularly for big and value firms. This suggests that HSE might be a reflection of a firm's ability to produce goods or services that meet societal utility needs. Our findings have significant implications for institutional investors seeking to leverage HSE-based strategies for outperformance. Additionally, our research suggests that, when selected judiciously, some search topics on Google Trends can be related to risks that impact stock prices.
+    
+[^10]: 关于四个欧洲国家和美国城市规模对数增长率的参数化描述
+
+    On the parametric description of log-growth rates of cities' sizes of four European countries and the USA. (arXiv:2308.10034v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.10034](http://arxiv.org/abs/2308.10034)
+
+    这项研究对法国、德国、意大利、西班牙和美国的城市规模对数增长率进行了参数化描述，发现正态分布并不是实际观察到的分布。
+
+    
+
+    我们研究了法国、德国、意大利、西班牙和美国城市规模对数增长率分布的参数化描述。我们考虑了文献中已知的几种参数化分布以及一些最近引入的其他分布。对于所有研究样本来说，有一些模型表现出类似的优秀性能。正态分布并不是从经验上观察到的分布。
+
+    We have studied the parametric description of the distribution of the log-growth rates of the sizes of cities of France, Germany, Italy, Spain and the USA. We have considered several parametric distributions well known in the literature as well as some others recently introduced. There are some models that provide similar excellent performance, for all studied samples. The normal distribution is not the one observed empirically.
+    
+[^11]: 罢工规模的分布：19世纪和20世纪欧洲和北美的实证证据
+
+    The Distribution of Strike Size:Empirical Evidence from Europe and North America in the 19th and 20th Centuries. (arXiv:2308.10030v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.10030](http://arxiv.org/abs/2308.10030)
+
+    本研究通过分析19世纪和20世纪欧洲和北美的罢工数据，发现罢工规模的分布可用两个或三个对数正态分布的混合模型来描述，并且在上尾部时，帕累托幂律与截断对数正态分布几乎没有区别。
+
+    
+
+    我们研究了欧洲和美国几个国家长期内罢工规模的分布，我们使用失去人天数来衡量。当考虑全样本时，两个或三个对数正态分布的混合模型成为非常方便的模型。当限制在上尾部时，帕累托幂律与截断对数正态分布几乎无法区分开来。
+
+    We study the distribution of strike size, which we measure as lost person days, for a long period in several countries of Europe and America. When we consider the full samples, the mixtures of two or three lognormals arise as very convenient models. When restricting to the upper tails, the Pareto power law becomes almost indistinguishable of the truncated lognormal.
+    
+[^12]: 学生混合模型用于股票指数的比较研究
+
+    Student't mixture models for stock indices. A comparative study. (arXiv:2308.10023v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.10023](http://arxiv.org/abs/2308.10023)
+
+    该论文通过比较研究多个不同国家的股票指数，使用不同的模型进行拟合，并且发现学生三元混合分布模型在拟合效果方面表现出色。
+
+    
+
+    我们使用不同的模型对多个不同国家的股票指数进行比较研究，使用Kolmogorov-Smirnov统计量、Anderson-Darling统计量、Akaike信息准则和贝叶斯信息准则作为拟合效果的度量标准。我们将模型分别拟合到日频和小时频的对数收益率上。主要结果是，学生三元混合分布模型（3St）表现出优异的性能，自由度的数量事先确定。此外，我们发现具有小/适中/大自由度参数的3St混合模型的不同分量可以描述所研究的股票指数的极端/适中/较小对数收益率。
+
+    We perform a comparative study for multiple equity indices of different countries using different models to determine the best fit using the Kolmogorov-Smirnov statistic, the Anderson-Darling statistic, the Akaike information criterion and the Bayesian information criteria as goodness-of-fit measures. We fit models both to daily and to hourly log-returns. The main result is the excellent performance of a mixture of three Student's $t$ distributions with the numbers of degrees of freedom fixed a priori (3St). In addition, we find that the different components of the 3St mixture with small/moderate/high degree of freedom parameter describe the extreme/moderate/small log-returns of the studied equity indices.
+    
+[^13]: 是否存在普遍的城市规模分布？对70个国家的经验证据。
+
+    Is there a universal parametric city size distribution? Empirical evidence for 70 countries. (arXiv:2308.10018v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.10018](http://arxiv.org/abs/2308.10018)
+
+    本研究探索了七个模型来描述70个国家的城市规模分布，并发现三个对数正态分布和三个对数逻辑分布在统计测试中的表现最好，然而，根据信息准则AIC和BIC，没有任何一个分布被系统性地认定为占优。
+
+    
+
+    本研究使用七个模型，即对数正态分布、对数逻辑分布、双帕累托对数正态分布、两个对数正态分布、两个对数逻辑分布、三个对数正态分布和三个对数逻辑分布，研究了70个不同国家（发达和发展中国家）的城市规模分布（CSD）的参数化描述。我们的研究结果表明，三个对数正态分布和三个对数逻辑分布在标准统计测试中的非拒绝率最高。而根据信息准则AIC和BIC，没有系统性占优的分布。
+
+    We study the parametric description of the city size distribution (CSD) of 70 different countries (developed and developing) using seven models, as follows: the lognormal (LN), the loglogistic (LL), the double Pareto lognormal (dPLN), the two-lognormal (2LN), the two-loglogistic (2LL), the three-lognormal (3LN) and the three-loglogistic (3LL). Our results show that 3LN and 3LL are the best densities in terms of non-rejections out of standard statistical tests. Meanwhile, according to the information criteria AIC and BIC, there is no systematically dominant distribution.
+    
+[^14]: 飞往月球：基于情感分析对集体交易事件的分析
+
+    To the Moon: Analyzing Collective Trading Events on the Wings of Sentiment Analysis. (arXiv:2308.09968v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2308.09968](http://arxiv.org/abs/2308.09968)
+
+    本研究基于情感分析，研究了在社交媒体上组织的零售投资者参与特定股票的趋势，并比较了Reddit和Twitter对股票波动的影响。结果发现，与Reddit活动相比，Twitter活动和情感在这些事件中的作用较小。
+
+    
+
+    本研究调查了零售投资者通过社交媒体平台，尤其是Reddit，组织自己参与特定股票的增长趋势。先前的研究已经强调了Reddit活动与相关股票的波动之间的显著关联。本研究旨在扩展分析至Twitter，作为最有影响力的社交媒体平台之一。为了实现这一目标，我们收集了相关的推文，并分析其情感以探索Twitter活动、情感与股票波动之间的关联。结果显示，Twitter活动与股票波动之间存在显著关系，但推文情感与股票表现之间的联系较弱。总体上，与Reddit活动相比，Twitter活动和情感似乎在这些事件中发挥的作用较小。这些发现为社交媒体平台对股市动态的影响提供了新的理论见解，也可能在实践中辅助投资者和监管机构。
+
+    This research investigates the growing trend of retail investors participating in certain stocks by organizing themselves on social media platforms, particularly Reddit. Previous studies have highlighted a notable association between Reddit activity and the volatility of affected stocks. This study seeks to expand the analysis to Twitter, which is among the most impactful social media platforms. To achieve this, we collected relevant tweets and analyzed their sentiment to explore the correlation between Twitter activity, sentiment, and stock volatility. The results reveal a significant relationship between Twitter activity and stock volatility but a weak link between tweet sentiment and stock performance. In general, Twitter activity and sentiment appear to play a less critical role in these events than Reddit activity. These findings offer new theoretical insights into the impact of social media platforms on stock market dynamics, and they may practically assist investors and regulato
+    
+[^15]: 影响途径：如何通过协调操作影响思想的显著性
+
+    Paths to Influence: How Coordinated Influence Operations Affect the Prominence of Ideas. (arXiv:2308.09818v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.09818](http://arxiv.org/abs/2308.09818)
+
+    本文通过四个例子解释了协调操作如何影响社交网络上的思想显著性，总结出四种典型的影响途径：通过加强推广，通过削弱推广，通过加强贬低，以及通过削弱贬低。
+
+    
+
+    本文提供了四个不同的例子，展示了协调操作如何对社交网络上的思想显著性施加压力。我们认为这些例子说明了四种典型的影响途径：通过加强推广，通过削弱推广，通过加强贬低，以及通过削弱贬低。我们在一个简单的经济模型中形式化了这个理念，并得出了一些关于何时应该期望遵循每种途径的预测。最后，我们概述了如何定量估算（该模型的变体的）关键参数，并且该模型适用范围远远不止于激发它的国际政治影响的例子。
+
+    This paper presents four examples of different ways that coordinated influence operations exert pressure on the prominence of ideas on social networks. We argue that these examples illustrate the four archetypical paths to influence: promotion by strengthening, promotion by weakening, demotion by strengthening, and demotion by weakening. We formalize this idea in a stylized economic model of the optimal behavior of the influence operator and derive some predictions about when we should expect each path to be followed. Finally we sketch out how one might go about quantitatively estimating the key parameters of (a variant of) this model and how it applies much more broadly than in the international political influence examples that motivate it.
+    
+[^16]: 管理者选择披露复杂性
+
+    Managers' Choice of Disclosure Complexity. (arXiv:2308.09789v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.09789](http://arxiv.org/abs/2308.09789)
+
+    Aghamolla and Smith (2023) contribute to our understanding of how managers choose financial reporting complexity. They find a U-shaped relationship between complexity and returns, and a negative association between complexity and investor sophistication. However, their findings also suggest a counterfactual positive market response to complexity. They propose a simplified approach where simple disclosures indicate positive surprises, leading to greater investor skepticism towards complexity and a positive association between investor sophistication and complexity. This highlights the need for further research to examine complexity as an interaction of reporting and economic transactions.
+
+    
+
+    Aghamolla和Smith（2023）在加强我们对管理者如何选择财务报告复杂性方面做出了重要贡献。我概述了该理论的关键假设和影响，并讨论了两个实证影响：（1）复杂性与回报之间的U型关系，以及（2）复杂性与投资者的熟练程度之间的负关联。然而，稳健的均衡还意味着复杂性对市场的正反馈。我提出了一种简化的方法，即简单披露表示积极意外，并展示了这意味着投资者对复杂性持更大怀疑态度，以及投资者熟练程度与复杂性之间的正关联。需要进一步研究将复杂性视为报告和经济交易的交互作用，而不仅仅是一种报告现象。
+
+    Aghamolla and Smith (2023) make a significant contribution to enhancing our understanding of how managers choose financial reporting complexity. I outline the key assumptions and implications of the theory, and discuss two empirical implications: (1) a U-shaped relationship between complexity and returns, and (2) a negative association between complexity and investor sophistication. However, the robust equilibrium also implies a counterfactual positive market response to complexity. I develop a simplified approach in which simple disclosures indicate positive surprises, and show that this implies greater investor skepticism toward complexity and a positive association between investor sophistication and complexity. More work is needed to understand complexity as an interaction of reporting and economic transactions, rather than solely as a reporting phenomenon.
+    
+[^17]: 对于麦考尔工人来说，失业保险补偿自由发放给予及其可能的成本
+
+    Discretionary Extensions to Unemployment-Insurance Compensation and Some Potential Costs for a McCall Worker. (arXiv:2308.09783v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.09783](http://arxiv.org/abs/2308.09783)
+
+    研究了失业保险补偿的自由发放问题对于麦考尔工人的影响，发现政策制定者可以自行决定是否延长补贴，并发现延长补贴会使工人变得更加挑剔，在失业期间更加谨慎接受工作机会。研究还发现错误估计延长发放的成本较小。
+
+    
+
+    失业保险为符合条件的失业工人提供暂时的现金补贴。在经济衰退期间，补贴有时会被自行决定性地延长。在考虑暂时的补贴和连续的工作机会的模型中，研究了政策制定者可以自行决定是否延长补贴时，工人的保留工资。工人的最优劳动供给选择是由一系列随着剩余补贴周数递增的保留工资组成的。延长发放的可能性会提高整个保留工资序列，这意味着工人在失业期间接受工作机会时更加挑剔。研究了错误估计延长发放的概率和时间长度的福利后果。在数值例子中，错误估计的成本较小，这对于考虑经济衰退、病毒大流行、极端高温和自然灾害的政策制定者有影响。
+
+    Unemployment insurance provides temporary cash benefits to eligible unemployed workers. Benefits are sometimes extended by discretion during economic slumps. In a model that features temporary benefits and sequential job opportunities, a worker's reservation wages are studied when policymakers can make discretionary extensions to benefits. A worker's optimal labor-supply choice is characterized by a sequence of reservation wages that increases with weeks of remaining benefits. The possibility of an extension raises the entire sequence of reservation wages, meaning a worker is more selective when accepting job offers throughout their spell of unemployment. The welfare consequences of misperceiving the probability and length of an extension are investigated. In a numerical example, the costs of misperception are small, which has implications for policymakers considering economic slumps, virus pandemics, extreme heat, and natural disasters.
+    
+[^18]: 显式有限差分格式中使用虚拟点的扩散方程的不稳定性研究
+
+    Instabilities of explicit finite difference schemes with ghost points on the diffusion equation. (arXiv:2308.04629v1 [math.NA])
+
+    [http://arxiv.org/abs/2308.04629](http://arxiv.org/abs/2308.04629)
+
+    本文研究了使用虚拟点的扩散方程中显式有限差分格式的稳定性，并且考虑了一触即付期权在Black-Scholes模型下的情况。
+
+    
+
+    虚拟点允许捕捉不位于有限差分网格离散化上的边界条件。本文探讨了虚拟点对显式欧拉有限差分格式在扩散方程背景下稳定性的影响。特别地，我们考虑了在Black-Scholes模型下的一触即付期权的情况。然而，观察和结果对于更广泛的金融合同和模型也是有效的。
+
+    Ghost, or fictitious points allow to capture boundary conditions that are not located on the finite difference grid discretization. We explore in this paper the impact of ghost points on the stability of the explicit Euler finite difference scheme in the context of the diffusion equation. In particular, we consider the case of a one-touch option under the Black-Scholes model. The observations and results are however valid for a much wider range of financial contracts and models.
+    
+[^19]: 将加密货币动态分解为重复和噪声成分的研究
+
+    Decomposing cryptocurrency dynamics into recurring and noisy components. (arXiv:2306.17095v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2306.17095](http://arxiv.org/abs/2306.17095)
+
+    本文研究了加密货币市场的时间模式，发现与传统股票市场不同的市场行为，表现为三个增强活动阶段与不同时段的交易时段相一致。在15分钟间隔内出现了活动激增的有趣模式，尤其在整点时出现，暗示了算法交易的潜在作用。此外，比特币和以太坊的重复活动突发与美国重大宏观经济报告发布时间相一致。
+
+    
+
+    本文研究了加密货币市场的时间模式，重点关注比特币、以太坊、狗狗币和Winklink从2020年1月到2022年12月的情况。通过相关矩阵形式将市场活动指标——对数收益、成交量和交易数量，每10秒采样一次，分为日内和周内周期，然后进一步分解为重复和噪声成分。主要发现包括与传统股票市场不同的市场行为，因为没有交易开放和关闭。这表现为三个增强活动阶段，分别与亚洲、欧洲和美国的交易时段相一致。还注意到了在15分钟间隔内出现的活动激增的有趣模式，尤其在整点时出现，暗示了算法交易的潜在作用。最重要的是，发现比特币和以太坊的重复活动突发与美国重大宏观经济报告发布时间重合。
+
+    This paper investigates the temporal patterns of activity in the cryptocurrency market with a focus on bitcoin, ether, dogecoin, and winklink from January 2020 to December 2022. Market activity measures - logarithmic returns, volume, and transaction number, sampled every 10 seconds, were divided into intraday and intraweek periods and then further decomposed into recurring and noise components via correlation matrix formalism. The key findings include the distinctive market behavior from traditional stock markets due to the nonexistence of trade opening and closing. This was manifest in three enhanced-activity phases aligning with Asian, European, and US trading sessions. An intriguing pattern of activity surge in 15-minute intervals, particularly at full hours, was also noticed, implying the potential role of algorithmic trading. Most notably, recurring bursts of activity in bitcoin and ether were identified to coincide with the release times of significant US macroeconomic reports su
+    
+[^20]: LQG风险敏感均场博弈中的主要代理商：一种变分方法
+
+    LQG Risk-Sensitive Mean Field Games with a Major Agent: A Variational Approach. (arXiv:2305.15364v1 [math.OC])
+
+    [http://arxiv.org/abs/2305.15364](http://arxiv.org/abs/2305.15364)
+
+    本研究在风险敏感的均场博弈中引入了一个主要代理，与众多次要代理相互作用，对次要代理产生重大影响，为风险敏感理论的进一步发展提供了思路。
+
+    
+
+    风险敏感在金融和经济研究中扮演重要角色，风险中性模型无法捕捉并证明现实中观察到的所有经济行为。最近发展了风险敏感均场博弈理论，用于存在大量不可区分、渐近可忽略和异质的风险敏感玩家通过人口状态经验分布相耦合的系统。在这项工作中，我们将线性二次高斯风险敏感均场博弈理论扩展到存在一个主要代理和大量次要代理的设置中。主要代理对每个次要代理产生重大影响，并且其影响不会随着次要代理数量的增加而崩溃。每个代理都受到具有指数-积分二次代价函数的线性动态影响。此外，所有代理通过次要代理的平均状态（所谓的经验平均场）和主要代理的状态相互作用。
+
+    Risk sensitivity plays an important role in the study of finance and economics as risk-neutral models cannot capture and justify all economic behaviors observed in reality. Risk-sensitive mean field game theory was developed recently for systems where there exists a large number of indistinguishable, asymptotically negligible and heterogeneous risk-sensitive players, who are coupled via the empirical distribution of state across population. In this work, we extend the theory of Linear Quadratic Gaussian risk-sensitive mean-field games to the setup where there exists one major agent as well as a large number of minor agents. The major agent has a significant impact on each minor agent and its impact does not collapse with the increase in the number of minor agents. Each agent is subject to linear dynamics with an exponential-of-integral quadratic cost functional. Moreover, all agents interact via the average state of minor agents (so-called empirical mean field) and the major agent's st
+    
+[^21]: 专家意见下的粒子马尔可夫链蒙特卡罗方法用于预测脆弱相关违约模型
+
+    Particle MCMC in forecasting frailty correlated default models with expert opinion. (arXiv:2304.11586v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2304.11586](http://arxiv.org/abs/2304.11586)
+
+    本文使用贝叶斯方法和粒子马尔可夫链蒙特卡罗算法结合专家意见，预测涵盖1980年1月至2019年6月美国公共非金融公司的脆弱相关违约模型。结果显示隐藏因素的波动性和均值回归对未观察到的违约强度与潜在变量的依赖关系有着显著的正向影响，1年的预测相对较好，而当预测时间跨度延长到2年和3年时，预测准确率下降。
+
+    
+
+    预测公司违约风险一直是金融领域的一个关键话题，因为破产对市场参与者以及整个经济都会造成巨大的成本。本文旨在预测涵盖1980年1月至2019年6月的一组美国公共非金融公司的脆弱相关违约模型，并结合粒子马尔可夫链蒙特卡罗（Particle MCMC）算法和贝叶斯方法来研究该问题。研究发现，隐藏因素的波动性和均值回归对未观察到的违约强度与潜在变量的依赖关系有着非常显著的正向影响。结果还表明，对于具有不同先验分布的脆弱相关违约模型，1年的预测相对较好，而当预测时间跨度延长到2年和3年时，预测准确率下降。
+
+    Predicting corporate default risk has long been a crucial topic in the finance field, as bankruptcies impose enormous costs on market participants as well as the economy as a whole. This paper aims to forecast frailty correlated default models with subjective judgements on a sample of U.S. public non-financial firms spanning January 1980-June 2019. We consider a reduced-form model and adopt a Bayesian approach coupled with the Particle Markov Chain Monte Carlo (Particle MCMC) algorithm to scrutinize this problem. The findings show that the volatility and the mean reversion of the hidden factor, which determine the dependence of the unobserved default intensities on the latent variable, have a highly economically and statistically significant positive impact on the default intensities of the firms. The results also indicate that the 1-year prediction for frailty correlated default models with different prior distributions is relatively good, whereas the prediction accuracy ratios for fr
+    
+[^22]: GPT是GPT：大语言模型对劳动力市场影响的早期研究
+
+    GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models. (arXiv:2303.10130v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.10130](http://arxiv.org/abs/2303.10130)
+
+    该研究调查了GPT（大语言模型）和相关技术对美国劳动力市场的潜在影响，发现大约80%的美国劳动力可能会受到10%的工作任务的影响，涵盖了所有工资水平和各行各业，预示着这些模型可能具有显著的经济、社会和政策影响。
+
+    
+
+    我们研究了生成预训练变压器（GPT）模型和相关技术对美国劳动力市场的潜在影响。使用新的标准，我们评估职业与GPT能力的对应关系，结合人类专业知识和GPT-4的分类。我们的研究结果表明，约80%的美国劳动力可能会至少有10%的工作任务受到GPT引入的影响，而约19%的工人可能会看到至少50%的任务受到影响。影响范围涵盖了所有工资水平，高收入工作可能面临更大的风险。值得注意的是，影响并不局限于最近生产率增长较高的行业。我们得出结论，生成预训练变压器具有通用技术（GPT）的特性，表明这些模型可能具有显著的经济、社会和政策影响。
+
+    We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that as these models could have notable economic, social, and policy implications.
+    
+[^23]: 两部门增长经济体中理性资产价格泡沫的必要性。
+
+    Necessity of Rational Asset Price Bubbles in Two-Sector Growth Economies. (arXiv:2211.13100v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2211.13100](http://arxiv.org/abs/2211.13100)
+
+    本研究提出了两部门内生增长模型，证明了在宽松的金融条件下理性资产价格泡沫是不可避免的，它存在于具有更快经济增长的多部门经济体中。
+
+    
+
+    我们提出了合理的经济模型，其中存在具有理性资产价格泡沫的均衡，但资产价格等于基本价值的均衡不存在。这些经济体具有比股利增长更快的多个部门的增长。在我们的两部门内生增长模型中，创业者可以获得受特异性投资风险（技术部门）影响的生产技术，并交易支付股息的资产（土地）。当杠杆超过临界值时，唯一的趋势稳态均衡表现出从基本状态到具有增长的泡沫状态的相变，这意味着在宽松的金融条件下泡沫的不可避免性。
+
+    We present plausible economic models in which an equilibrium with rational asset price bubbles exists but equilibria with asset prices equal to fundamental values do not. These economies feature multiple sectors with faster economic growth than dividend growth. In our two-sector endogenous growth model, entrepreneurs have access to a production technology subject to idiosyncratic investment risk (tech sector) and trade a dividend-paying asset (land). When leverage is relaxed beyond a critical value, the unique trend stationary equilibrium exhibits a phase transition from the fundamental regime to the bubbly regime with growth, implying the inevitability of bubbles with loose financial conditions.
+    
+[^24]: 天然气储存中的团结：危机期间多个参与者之间存储量的潜在分配机制
+
+    Solidarity in natural gas storage: A potential allocation mechanism of stored quantities among several players during times of crisis. (arXiv:2209.05089v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.05089](http://arxiv.org/abs/2209.05089)
+
+    本文提出了一种潜在的团结框架，用于解决天然气储备在危机期间的分配问题。通过建立博弈论模型和考虑不确定性因素，该机制基于自愿参与，并可以促进储存能力的更有效利用。
+
+    
+
+    最近欧盟能源供应的中断表明供应危机构成了真正的威胁，成员国必须更好地准备应对相关挑战。根据目前的做法，成员国独立填充其天然气储备，而未来如何实行团结尚不明确，即如何可能重新分配一个或多个成员的积累储备来帮助其他成员。本文提出了一些潜在团结框架的指导方针，并通过建立博弈论模型来捕捉该问题的基本特征，考虑与天然气储存水平和可能的输电瓶颈相关的未来条件的不确定性。提出的供应安全相关合作机制基于自愿参与，可以促进储存能力的更有效利用。
+
+    The recently experienced disruptions in the EU's energy supply pointed out that supply crises pose a real thread and the member states must be better prepared do deal with the related challenges. According to the current practice, member states fill their gas storages independently, while it is not clear how solidarity could be put into practice in the future, i.e. how the accumulated reserves of one or more members may be potentially redistributed to help others in need. In this paper we propose some possible guidelines for a potential solidarity framework, and formalize a game-theoretic model in order to capture the basic features of the problem, considering the related uncertainty of the future conditions related to gas storage levels and possible transmission bottlenecks as well. The proposed mechanism of supply-security related cooperation is based on voluntary participation, and may contribute to the more efficient utilization of storage capacities. Via the computational model we
+    
+[^25]: 多项式投票规则
+
+    Polynomial Voting Rules. (arXiv:2206.10105v4 [math.PR] UPDATED)
+
+    [http://arxiv.org/abs/2206.10105](http://arxiv.org/abs/2206.10105)
+
+    本文提出了一种新的多项式投票规则类别，该规则通过区分选民的投票权和选民在系统中的份额，防止了任何选民操控投票过程，增强了系统的安全性。我们还证明了选民份额形成收敛于狄利克雷分布的过程，而选民的投票权则随时间衰减到零。在初始总投票量较大时，存在分享稳定性的相变现象。
+
+    
+
+    我们提出并研究了一种新的多项式投票规则类别，用于一般的去中心化决策/共识系统，更具体地说，用于PoS（权益证明）协议。主要思想受到了彭罗斯平方根定律和最近的二次投票规则的启发，即区分选民的投票权和选民在系统中的份额（占总份额的比例）。我们证明，虽然选民份额形成了收敛于狄利克雷分布的鞅过程，但他们的投票权却是一个随时间衰减到零的超鞅过程。这防止了任何选民操控投票过程，从而增强了安全性。对于这两个极限结果，我们还提供了明确的收敛速度。当初始的总投票量（或权益）很大时，我们展示了分享稳定性（或缺乏稳定性）的相变现象，即相对于总份额的选民初始份额的变化。我们还研究了选民之间交易（投票/权益的交易）的情况。
+
+    We propose and study a new class of polynomial voting rules for a general decentralized decision/consensus system, and more specifically for the PoS (Proof of Stake) protocol. The main idea, inspired by the Penrose square-root law and the more recent quadratic voting rule, is to differentiate a voter's voting power and the voter's share (fraction of the total in the system). We show that while voter shares form a martingale process that converge to a Dirichlet distribution, their voting powers follow a super-martingale process that decays to zero over time. This prevents any voter from controlling the voting process, and thus enhances security. For both limiting results, we also provide explicit rates of convergence. When the initial total volume of votes (or stakes) is large, we show a phase transition in share stability (or the lack thereof), corresponding to the voter's initial share relative to the total. We also study the scenario in which trading (of votes/stakes) among the voter
+    
+[^26]: 轨道利用的经济学：开放获取、外部成本和失控碎片的增长
+
+    The Economics of Orbit Use: Open Access, External Costs, and Runaway Debris Growth. (arXiv:2202.07442v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2202.07442](http://arxiv.org/abs/2202.07442)
+
+    本研究提出了一个动态的物理经济模型，研究了地球轨道利用的条件，其中包括内生的卫星碰撞风险。研究发现，在开放获取和外部成本内部化两种情况下，Kessler综合症都可能出现，而自催化的碎片增长在Kessler综合症的出现中起到关键作用。
+
+    
+
+    我们提出了一个动态的物理经济模型，用于研究地球轨道利用的条件，其中具有内生的卫星碰撞风险，以研究在轨道物体之间产生碎片的碰撞导致的可能使地球轨道无法使用的结果，即Kessler综合症。我们描述了开放获取条件下轨道上物体的动力学以及当外部成本——额外卫星发射对所有卫星面临的碰撞风险的影响——内部化时的情况，我们证明Kessler综合症在两种情况下都可能出现。最后，我们表明，一旦对卫星发射的经济激励建模，Kessler综合症的出现需要自催化的碎片增长是必不可少的。在我们的主要校准中，Kessler综合症可能在2040年至2184年之间的任何时间出现，具体日期对自催化碎片增长参数的校准非常敏感。
+
+    We present a dynamic physico-economic model of Earth orbit use with endogenous satellite collision risk to study conditions under which debris-producing collisions between orbiting bodies result in debris growth that may render Earth's orbits unusable, an outcome known as Kessler Syndrome. We characterize the dynamics of objects in orbit under open access as well as when external costs -- the impact of an additional satellite launch on the collision risk faced by all satellites -- are internalized, and we show that Kessler Syndrome can emerge in both cases. Finally, we show that once the economic incentives of satellite launching are modeled, for Kessler Syndrome to emerge, autocatalytic debris growth is essential. In our main calibration, Kessler Syndrome can emerge anytime between the year 2040 and the year 2184, with the precise date being very sensitive to the calibration of autocatalytic debris growth parameters.
+    
+[^27]: 高频交易中的深度强化学习
+
+    Deep Reinforcement Learning for Active High Frequency Trading. (arXiv:2101.07107v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2101.07107](http://arxiv.org/abs/2101.07107)
+
+    本文介绍了一个基于深度强化学习的框架，用于在股票市场中进行活跃的高频交易。通过训练DRL代理来交易股票，并使用Proximal Policy Optimization算法进行优化。通过仅选择具有最大价格变动的训练样本来提高训练数据的信噪比。通过实验证明，代理能够创建对底层环境的动态表示，并能够识别偶尔出现的规律。
+
+    
+
+    我们介绍了第一个基于端到端深度强化学习（DRL）的框架，用于在股票市场中进行活跃的高频交易。我们训练DRL代理使用Proximal Policy Optimization算法来交易一单位的英特尔公司股票。训练是在连续三个月的高频限价委托簿数据上进行的，其中最后一个月是验证数据。为了最大化训练数据中的信噪比，我们通过仅选择具有最大价格变动的训练样本来组成后者。然后在接下来的一个月的数据上进行测试。使用顺序模型优化技术进行超参数调优。我们考虑了三种不同的状态特征化方式，它们在基于LOB的元特征上有所不同。通过分析代理在测试数据上的表现，我们认为代理能够创建对底层环境的动态表示。它们能够识别偶尔出现的规律。
+
+    We introduce the first end-to-end Deep Reinforcement Learning (DRL) based framework for active high frequency trading in the stock market. We train DRL agents to trade one unit of Intel Corporation stock by employing the Proximal Policy Optimization algorithm. The training is performed on three contiguous months of high frequency Limit Order Book data, of which the last month constitutes the validation data. In order to maximise the signal to noise ratio in the training data, we compose the latter by only selecting training samples with largest price changes. The test is then carried out on the following month of data. Hyperparameters are tuned using the Sequential Model Based Optimization technique. We consider three different state characterizations, which differ in their LOB-based meta-features. Analysing the agents' performances on test data, we argue that the agents are able to create a dynamic representation of the underlying environment. They identify occasional regularities pre
     
 

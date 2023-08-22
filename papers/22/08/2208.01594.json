@@ -1,0 +1,11 @@
+{
+    "title": "The character of non-manipulable collective choices between two alternatives. (arXiv:2208.01594v2 [econ.TH] UPDATED)",
+    "abstract": "We consider classes of non-manipulable two-valued social choice functions, i.e., social choice functions with range of cardinality two within a larger set of alternatives. Corresponding to the different classes, the functional forms are described. Further we show that they, and some others from previous literature, can all be unified using a common structure. Such a structure relies on the concept of character function we introduce. This is a function from the domain of the admissible profiles, that notably we do not assume to be universal, to a partially ordered set. The proper choice of the character function, marks the distinction among different classes and permits the description of all social choice functions of a class in simple terms.",
+    "link": "http://arxiv.org/abs/2208.01594",
+    "context": "Title: The character of non-manipulable collective choices between two alternatives. (arXiv:2208.01594v2 [econ.TH] UPDATED)\nAbstract: We consider classes of non-manipulable two-valued social choice functions, i.e., social choice functions with range of cardinality two within a larger set of alternatives. Corresponding to the different classes, the functional forms are described. Further we show that they, and some others from previous literature, can all be unified using a common structure. Such a structure relies on the concept of character function we introduce. This is a function from the domain of the admissible profiles, that notably we do not assume to be universal, to a partially ordered set. The proper choice of the character function, marks the distinction among different classes and permits the description of all social choice functions of a class in simple terms.",
+    "path": "papers/22/08/2208.01594.json",
+    "total_tokens": 725,
+    "translated_title": "非操纵性的两个选择之间的集体选择的特征",
+    "translated_abstract": "我们考虑非可操作的两个值社会选择函数的类别，即在更大的备选集合中的基数为两个的社会选择函数。对应于不同的类别，描述了函数形式。此外，我们展示了它们和之前文献中的一些其他函数都可以通过一个共同的结构统一起来。这样的结构依赖于我们引入的特征函数的概念。这是一个从可接受的配置域到一个偏序集的函数，值得注意的是，我们没有假设它是普遍的。特征函数的正确选择标志着不同类别之间的区别，并且能够以简单的术语描述一个类别中的所有社会选择函数。",
+    "tldr": "本文考虑了非操纵性的两个值社会选择函数的类别，并介绍了一个共同的结构，即特征函数，用于描述不同类别中的社会选择函数。"
+}

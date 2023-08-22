@@ -1,0 +1,11 @@
+{
+    "title": "Learning representations by forward-propagating errors. (arXiv:2308.09728v1 [cs.LG])",
+    "abstract": "Back-propagation (BP) is widely used learning algorithm for neural network optimization. However, BP requires enormous computation cost and is too slow to train in central processing unit (CPU). Therefore current neural network optimizaiton is performed in graphical processing unit (GPU) with compute unified device architecture (CUDA) programming. In this paper, we propose a light, fast learning algorithm on CPU that is fast as CUDA acceleration on GPU. This algorithm is based on forward-propagating method, using concept of dual number in algebraic geometry.",
+    "link": "http://arxiv.org/abs/2308.09728",
+    "context": "Title: Learning representations by forward-propagating errors. (arXiv:2308.09728v1 [cs.LG])\nAbstract: Back-propagation (BP) is widely used learning algorithm for neural network optimization. However, BP requires enormous computation cost and is too slow to train in central processing unit (CPU). Therefore current neural network optimizaiton is performed in graphical processing unit (GPU) with compute unified device architecture (CUDA) programming. In this paper, we propose a light, fast learning algorithm on CPU that is fast as CUDA acceleration on GPU. This algorithm is based on forward-propagating method, using concept of dual number in algebraic geometry.",
+    "path": "papers/23/08/2308.09728.json",
+    "total_tokens": 639,
+    "translated_title": "通过前向传播误差学习表示",
+    "translated_abstract": "反向传播（BP）是神经网络优化中广泛使用的学习算法。然而，BP需要巨大的计算成本，对于在中央处理单元（CPU）上进行训练来说太慢。因此，当前的神经网络优化是在图形处理单元（GPU）上进行，使用计算统一设备架构（CUDA）编程。在本文中，我们提出了一种基于在CPU上快速实现CUDA加速的轻量级快速学习算法。该算法基于在代数几何中使用双数概念的前向传播方法。",
+    "tldr": "本文提出了一种基于前向传播和代数几何中双数概念的快速学习算法，可以在CPU上实现与CUDA加速相媲美的性能。"
+}

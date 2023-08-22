@@ -1,0 +1,12 @@
+{
+    "title": "YORC: Yoruba Reading Comprehension dataset. (arXiv:2308.09768v1 [cs.CL])",
+    "abstract": "In this paper, we create YORC: a new multi-choice Yoruba Reading Comprehension dataset that is based on Yoruba high-school reading comprehension examination. We provide baseline results by performing cross-lingual transfer using existing English RACE dataset based on a pre-trained encoder-only model. Additionally, we provide results by prompting large language models (LLMs) like GPT-4.",
+    "link": "http://arxiv.org/abs/2308.09768",
+    "context": "Title: YORC: Yoruba Reading Comprehension dataset. (arXiv:2308.09768v1 [cs.CL])\nAbstract: In this paper, we create YORC: a new multi-choice Yoruba Reading Comprehension dataset that is based on Yoruba high-school reading comprehension examination. We provide baseline results by performing cross-lingual transfer using existing English RACE dataset based on a pre-trained encoder-only model. Additionally, we provide results by prompting large language models (LLMs) like GPT-4.",
+    "path": "papers/23/08/2308.09768.json",
+    "total_tokens": 592,
+    "translated_title": "YORC：约鲁巴语阅读理解数据集",
+    "translated_abstract": "本文介绍了YORC：一个基于约鲁巴语高中阅读理解考试的新的多项选择约鲁巴语阅读理解数据集。我们使用已训练的仅编码器模型，通过跨语言转移来提供基准结果，同时还使用大型语言模型（LLMs）如GPT-4提供了结果。",
+    "tldr": "本文介绍了一个新的多项选择约鲁巴语阅读理解数据集YORC，通过跨语言转移和大型语言模型的使用，提供了该数据集的基准结果和更高层次的结果。",
+    "en_tdlr": "This paper introduces a new multi-choice Yoruba Reading Comprehension dataset called YORC. Baseline results are provided using cross-lingual transfer with a pre-trained encoder-only model, as well as results obtained by prompting large language models (LLMs) like GPT-4."
+}

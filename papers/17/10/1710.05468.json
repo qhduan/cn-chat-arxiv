@@ -1,0 +1,11 @@
+{
+    "title": "Generalization in Deep Learning. (arXiv:1710.05468v8 [stat.ML] UPDATED)",
+    "abstract": "This paper provides theoretical insights into why and how deep learning can generalize well, despite its large capacity, complexity, possible algorithmic instability, nonrobustness, and sharp minima, responding to an open question in the literature. We also discuss approaches to provide non-vacuous generalization guarantees for deep learning. Based on theoretical observations, we propose new open problems and discuss the limitations of our results.",
+    "link": "http://arxiv.org/abs/1710.05468",
+    "context": "Title: Generalization in Deep Learning. (arXiv:1710.05468v8 [stat.ML] UPDATED)\nAbstract: This paper provides theoretical insights into why and how deep learning can generalize well, despite its large capacity, complexity, possible algorithmic instability, nonrobustness, and sharp minima, responding to an open question in the literature. We also discuss approaches to provide non-vacuous generalization guarantees for deep learning. Based on theoretical observations, we propose new open problems and discuss the limitations of our results.",
+    "path": "papers/17/10/1710.05468.json",
+    "total_tokens": 670,
+    "translated_title": "深度学习的泛化问题",
+    "translated_abstract": "本文从理论上解释了为什么以及如何深度学习能够在容量大、复杂性高、可能存在算法不稳定性、非鲁棒性和尖锐极小值的情况下实现良好的泛化，回应了文献中的一个开放问题。我们还讨论了提供深度学习非虚空泛化保证的方法。基于理论观察，我们提出了一些新的开放问题，并讨论了我们研究结果的局限性。",
+    "tldr": "本文从理论上解释了为什么以及如何深度学习能够在容量大、复杂性高、可能存在算法不稳定性、非鲁棒性和尖锐极小值的情况下实现良好的泛化，提出了一些新的开放问题，并讨论了研究结果的局限性。"
+}

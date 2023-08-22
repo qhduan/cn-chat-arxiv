@@ -1,0 +1,12 @@
+{
+    "title": "The Distribution of Strike Size:Empirical Evidence from Europe and North America in the 19th and 20th Centuries. (arXiv:2308.10030v1 [econ.GN])",
+    "abstract": "We study the distribution of strike size, which we measure as lost person days, for a long period in several countries of Europe and America. When we consider the full samples, the mixtures of two or three lognormals arise as very convenient models. When restricting to the upper tails, the Pareto power law becomes almost indistinguishable of the truncated lognormal.",
+    "link": "http://arxiv.org/abs/2308.10030",
+    "context": "Title: The Distribution of Strike Size:Empirical Evidence from Europe and North America in the 19th and 20th Centuries. (arXiv:2308.10030v1 [econ.GN])\nAbstract: We study the distribution of strike size, which we measure as lost person days, for a long period in several countries of Europe and America. When we consider the full samples, the mixtures of two or three lognormals arise as very convenient models. When restricting to the upper tails, the Pareto power law becomes almost indistinguishable of the truncated lognormal.",
+    "path": "papers/23/08/2308.10030.json",
+    "total_tokens": 673,
+    "translated_title": "罢工规模的分布：19世纪和20世纪欧洲和北美的实证证据",
+    "translated_abstract": "我们研究了欧洲和美国几个国家长期内罢工规模的分布，我们使用失去人天数来衡量。当考虑全样本时，两个或三个对数正态分布的混合模型成为非常方便的模型。当限制在上尾部时，帕累托幂律与截断对数正态分布几乎无法区分开来。",
+    "tldr": "本研究通过分析19世纪和20世纪欧洲和北美的罢工数据，发现罢工规模的分布可用两个或三个对数正态分布的混合模型来描述，并且在上尾部时，帕累托幂律与截断对数正态分布几乎没有区别。",
+    "en_tdlr": "This study analyzes the distribution of strike size in Europe and North America during the 19th and 20th centuries, finding that a mixture of two or three lognormal distributions is a suitable model. It also suggests that the Pareto power law and truncated lognormal distribution are almost indistinguishable in the upper tails."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Synergistic Integration of Large Language Models and Cognitive Architectures for Robust AI: An Exploratory Analysis. (arXiv:2308.09830v1 [cs.AI])",
+    "abstract": "This paper explores alternatives for integrating two subdisciplines of AI in the construction of artificial agents that exhibit intelligent behavior: Large Language Models (LLMs) and Cognitive Architectures (CAs). Guided by theoretical models and supported by preliminary empirical data, we hypothesize how diverse synergistic approaches can mutually compensate for their respective weaknesses and limitations, ultimately fostering more robust and sophisticated artificial intelligence systems. Additionally, we discuss the tradeoffs and challenges associated with each approach.",
+    "link": "http://arxiv.org/abs/2308.09830",
+    "context": "Title: Synergistic Integration of Large Language Models and Cognitive Architectures for Robust AI: An Exploratory Analysis. (arXiv:2308.09830v1 [cs.AI])\nAbstract: This paper explores alternatives for integrating two subdisciplines of AI in the construction of artificial agents that exhibit intelligent behavior: Large Language Models (LLMs) and Cognitive Architectures (CAs). Guided by theoretical models and supported by preliminary empirical data, we hypothesize how diverse synergistic approaches can mutually compensate for their respective weaknesses and limitations, ultimately fostering more robust and sophisticated artificial intelligence systems. Additionally, we discuss the tradeoffs and challenges associated with each approach.",
+    "path": "papers/23/08/2308.09830.json",
+    "total_tokens": 668,
+    "translated_title": "大型语言模型和认知架构的协同集成对于稳健人工智能的探索分析",
+    "translated_abstract": "本文探讨了在构建表现出智能行为的人工智能代理时，将大型语言模型(LLMs)和认知架构(CAs) 进行集成的替代方案。在理论模型的指导下，通过初步的经验数据支持，我们假设不同的协同方法可以互补它们各自的弱点和限制，从而培育出更稳健和复杂的人工智能系统。此外，我们还讨论了每种方法所涉及的权衡和挑战。",
+    "tldr": "本文探索了将大型语言模型和认知架构相结合的替代方案，通过协同方法互补各自的弱点和限制，从而实现更稳健和复杂的人工智能系统。",
+    "en_tdlr": "This paper explores alternative approaches for integrating large language models and cognitive architectures, utilizing synergistic methods to compensate for their respective weaknesses and limitations, ultimately achieving more robust and sophisticated artificial intelligence systems."
+}
