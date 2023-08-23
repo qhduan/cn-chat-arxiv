@@ -12,16 +12,17 @@
 | [^8] | [Forecasting inflation using disaggregates and machine learning.](http://arxiv.org/abs/2308.11173) | 本文研究了使用细分预测和机器学习方法来预测通胀的有效性，发现机器学习方法在预测准确性上优于传统的时间序列模型，特别在预测细分数据方面表现出色。 |
 | [^9] | [NLP-based detection of systematic anomalies among the narratives of consumer complaints.](http://arxiv.org/abs/2308.11138) | 本文开发了一种基于自然语言处理的方法，用于检测消费者投诉叙述中的系统异常。这种方法可以解决分类算法对于较小且频繁出现的系统异常检测的问题，并将投诉叙述转化为定量数据进行分析。 |
 | [^10] | [Spurious Correlations and Where to Find Them.](http://arxiv.org/abs/2308.11043) | 本论文研究了错误相关性的发生原因以及其对标准ERM基线的影响，并观察到了这些原因与模型设计选择之间的模式。 |
-| [^11] | [Econometrics of Machine Learning Methods in Economic Forecasting.](http://arxiv.org/abs/2308.10993) | 该论文调查了机器学习在经济预测中的最新进展，包括即时预测、文本数据、面板和张量数据、Granger因果关系测试、时间序列交叉验证和经济损失分类。 |
-| [^12] | [Generalized Sum Pooling for Metric Learning.](http://arxiv.org/abs/2308.09228) | 本论文提出了一种泛化求和池化方法（GSP）用于深度度量学习。GSP通过选择语义实体的子集，学习忽略无用信息，并学习每个实体的重要性权重，从而改进了全局平均池化（GAP）方法。 |
-| [^13] | [Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space.](http://arxiv.org/abs/2307.14953) | 本文提出了一种基于字典学习和最优传输的MSDA框架，通过将每个域表示为字典原子的Wasserstein重心来缓解数据分布偏移。根据该字典，提出了两种新的MSDA方法，分别基于目标域标记样本的重构和在原子分布上学习的分类器的集成。在多个基准测试集上进行的实验证明，这些方法在分类任务上取得了显著的改进效果。 |
-| [^14] | [Variational Autoencoding Molecular Graphs with Denoising Diffusion Probabilistic Model.](http://arxiv.org/abs/2307.00623) | 这篇论文提出了一种新颖的分子深度生成模型，将分层结构融入概率潜在向量中，并通过去噪扩散概率模型来设计有效的分子潜在向量，用于分子性质预测。 |
-| [^15] | [Gibbs free energies via isobaric-isothermal flows.](http://arxiv.org/abs/2305.13233) | 采用机器学习模型利用等压等温流得到吉布斯自由能，并在单原子水的结晶中进行了测试，表现出优秀的性能。 |
-| [^16] | [Double Pessimism is Provably Efficient for Distributionally Robust Offline Reinforcement Learning: Generic Algorithm and Robust Partial Coverage.](http://arxiv.org/abs/2305.09659) | 本论文提出了一个名为P2MPO的算法框架，用于解决基于鲁棒离线RL的问题。该框架结合了灵活的模型估计子例程和双重悲观的策略优化步骤，采用双重悲观性原则以克服模型偏移等问题。研究表明，在模型准确性的假设下，该框架在拥有良好的鲁棒部分覆盖数据的情况下是具备高效性的。 |
-| [^17] | [Double and Single Descent in Causal Inference with an Application to High-Dimensional Synthetic Control.](http://arxiv.org/abs/2305.00700) | 本文考虑了高度过参数化的因果推断模型，探讨了多个控制单元的高维合成控制估计性能，发现增加控制单元可以帮助提高填充性能，甚至超过了预处理拟合完美的点。 |
-| [^18] | [Optimistic Online Mirror Descent for Bridging Stochastic and Adversarial Online Convex Optimization.](http://arxiv.org/abs/2302.04552) | 本论文研究了乐观的在线镜像下降算法在Stochastically Extended Adversarial (SEA)模型中的理论保证，对于凸和平滑的函数，其遗憾界限为O(sqrt(σ_{1:T}^2) + sqrt(Σ_{1:T}^2))，对于强凸和平滑的函数，其界限为O(sqrt(σ_{\max}^2) + sqrt(Σ_{\max}^2))。 |
-| [^19] | [Probable Domain Generalization via Quantile Risk Minimization.](http://arxiv.org/abs/2207.09944) | 该论文提出了一种通过Quantile Risk Minimization（QRM）方法实现可能的领域泛化的概率性框架。通过最小化预测器风险分布在不同领域上的分位数，该方法可以实现在测试时以高概率表现良好的预测器。 |
-| [^20] | [Active Exploration for Inverse Reinforcement Learning.](http://arxiv.org/abs/2207.08645) | AceIRL提出了一种新的逆强化学习算法，通过主动探索来学习奖励函数和策略，在不需要环境生成模型的情况下，能够确定可行奖励函数的置信区间，并找到侧重于环境中最有信息的区域的探索策略。 |
+| [^11] | [On Exact Bayesian Credible Sets for Classification and Pattern Recognition.](http://arxiv.org/abs/2308.11037) | 本文提出了一个通用的可信区间，能够实现任意预先指定的可信水平。通过建立贝叶斯最高后验密度可信区间与Neyman-Pearson引理之间的简单联系，我们引入了一个随机决策规则来解决离散可信水平之间的空隙，并且开发了“方向盘图”来可视化分类的不确定性。 |
+| [^12] | [Econometrics of Machine Learning Methods in Economic Forecasting.](http://arxiv.org/abs/2308.10993) | 该论文调查了机器学习在经济预测中的最新进展，包括即时预测、文本数据、面板和张量数据、Granger因果关系测试、时间序列交叉验证和经济损失分类。 |
+| [^13] | [Generalized Sum Pooling for Metric Learning.](http://arxiv.org/abs/2308.09228) | 本论文提出了一种泛化求和池化方法（GSP）用于深度度量学习。GSP通过选择语义实体的子集，学习忽略无用信息，并学习每个实体的重要性权重，从而改进了全局平均池化（GAP）方法。 |
+| [^14] | [Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space.](http://arxiv.org/abs/2307.14953) | 本文提出了一种基于字典学习和最优传输的MSDA框架，通过将每个域表示为字典原子的Wasserstein重心来缓解数据分布偏移。根据该字典，提出了两种新的MSDA方法，分别基于目标域标记样本的重构和在原子分布上学习的分类器的集成。在多个基准测试集上进行的实验证明，这些方法在分类任务上取得了显著的改进效果。 |
+| [^15] | [Variational Autoencoding Molecular Graphs with Denoising Diffusion Probabilistic Model.](http://arxiv.org/abs/2307.00623) | 这篇论文提出了一种新颖的分子深度生成模型，将分层结构融入概率潜在向量中，并通过去噪扩散概率模型来设计有效的分子潜在向量，用于分子性质预测。 |
+| [^16] | [Gibbs free energies via isobaric-isothermal flows.](http://arxiv.org/abs/2305.13233) | 采用机器学习模型利用等压等温流得到吉布斯自由能，并在单原子水的结晶中进行了测试，表现出优秀的性能。 |
+| [^17] | [Double Pessimism is Provably Efficient for Distributionally Robust Offline Reinforcement Learning: Generic Algorithm and Robust Partial Coverage.](http://arxiv.org/abs/2305.09659) | 本论文提出了一个名为P2MPO的算法框架，用于解决基于鲁棒离线RL的问题。该框架结合了灵活的模型估计子例程和双重悲观的策略优化步骤，采用双重悲观性原则以克服模型偏移等问题。研究表明，在模型准确性的假设下，该框架在拥有良好的鲁棒部分覆盖数据的情况下是具备高效性的。 |
+| [^18] | [Double and Single Descent in Causal Inference with an Application to High-Dimensional Synthetic Control.](http://arxiv.org/abs/2305.00700) | 本文考虑了高度过参数化的因果推断模型，探讨了多个控制单元的高维合成控制估计性能，发现增加控制单元可以帮助提高填充性能，甚至超过了预处理拟合完美的点。 |
+| [^19] | [Optimistic Online Mirror Descent for Bridging Stochastic and Adversarial Online Convex Optimization.](http://arxiv.org/abs/2302.04552) | 本论文研究了乐观的在线镜像下降算法在Stochastically Extended Adversarial (SEA)模型中的理论保证，对于凸和平滑的函数，其遗憾界限为O(sqrt(σ_{1:T}^2) + sqrt(Σ_{1:T}^2))，对于强凸和平滑的函数，其界限为O(sqrt(σ_{\max}^2) + sqrt(Σ_{\max}^2))。 |
+| [^20] | [Probable Domain Generalization via Quantile Risk Minimization.](http://arxiv.org/abs/2207.09944) | 该论文提出了一种通过Quantile Risk Minimization（QRM）方法实现可能的领域泛化的概率性框架。通过最小化预测器风险分布在不同领域上的分位数，该方法可以实现在测试时以高概率表现良好的预测器。 |
+| [^21] | [Active Exploration for Inverse Reinforcement Learning.](http://arxiv.org/abs/2207.08645) | AceIRL提出了一种新的逆强化学习算法，通过主动探索来学习奖励函数和策略，在不需要环境生成模型的情况下，能够确定可行奖励函数的置信区间，并找到侧重于环境中最有信息的区域的探索策略。 |
 
 # 详细
 
@@ -165,7 +166,21 @@
 
     Spurious correlations occur when a model learns unreliable features from the data and are a well-known drawback of data-driven learning. Although there are several algorithms proposed to mitigate it, we are yet to jointly derive the indicators of spurious correlations. As a result, the solutions built upon standalone hypotheses fail to beat simple ERM baselines. We collect some of the commonly studied hypotheses behind the occurrence of spurious correlations and investigate their influence on standard ERM baselines using synthetic datasets generated from causal graphs. Subsequently, we observe patterns connecting these hypotheses and model design choices.
     
-[^11]: 机器学习方法在经济预测中的计量经济学
+[^11]: 关于分类和模式识别的精确贝叶斯可信区间
+
+    On Exact Bayesian Credible Sets for Classification and Pattern Recognition. (arXiv:2308.11037v1 [math.ST])
+
+    [http://arxiv.org/abs/2308.11037](http://arxiv.org/abs/2308.11037)
+
+    本文提出了一个通用的可信区间，能够实现任意预先指定的可信水平。通过建立贝叶斯最高后验密度可信区间与Neyman-Pearson引理之间的简单联系，我们引入了一个随机决策规则来解决离散可信水平之间的空隙，并且开发了“方向盘图”来可视化分类的不确定性。
+
+    
+
+    目前的贝叶斯可信区间定义通常无法达到任意预先指定的可信水平。对于分类问题，这个缺点尤为严重，因为只有有限个可实现的可信水平。因此，迄今为止没有一种通用的方法可以构建一个精确的分类可信区间。在本文中，我们引入了一个广义的可信区间，可以实现任何预先指定的可信水平。关键洞察是贝叶斯最高后验密度可信区间和Neyman-Pearson引理之间的简单联系，在我们所知道的范围内，这一点之前还未被注意到。利用这个联系，我们引入了一个随机决策规则来填补离散的可信水平之间的空隙。除了这个方法论，我们还开发了“方向盘图”来表示可信区间，这在可视化分类的不确定性方面非常有用。通过为离散参数开发 准确的可信区间，我们进行了一项创新
+
+    The current definition of a Bayesian credible set cannot, in general, achieve an arbitrarily preassigned credible level. This drawback is particularly acute for classification problems, where there are only a finite number of achievable credible levels. As a result, there is as of today no general way to construct an exact credible set for classification. In this paper, we introduce a generalized credible set that can achieve any preassigned credible level. The key insight is a simple connection between the Bayesian highest posterior density credible set and the Neyman--Pearson lemma, which, as far as we know, hasn't been noticed before. Using this connection, we introduce a randomized decision rule to fill the gaps among the discrete credible levels. Accompanying this methodology, we also develop the Steering Wheel Plot to represent the credible set, which is useful in visualizing the uncertainty in classification. By developing the exact credible set for discrete parameters, we make 
+    
+[^12]: 机器学习方法在经济预测中的计量经济学
 
     Econometrics of Machine Learning Methods in Economic Forecasting. (arXiv:2308.10993v1 [econ.EM])
 
@@ -179,7 +194,7 @@
 
     This paper surveys the recent advances in machine learning method for economic forecasting. The survey covers the following topics: nowcasting, textual data, panel and tensor data, high-dimensional Granger causality tests, time series cross-validation, classification with economic losses.
     
-[^12]: 泛化的求和池化用于度量学习
+[^13]: 泛化的求和池化用于度量学习
 
     Generalized Sum Pooling for Metric Learning. (arXiv:2308.09228v2 [cs.CV] UPDATED)
 
@@ -193,7 +208,7 @@
 
     A common architectural choice for deep metric learning is a convolutional neural network followed by global average pooling (GAP). Albeit simple, GAP is a highly effective way to aggregate information. One possible explanation for the effectiveness of GAP is considering each feature vector as representing a different semantic entity and GAP as a convex combination of them. Following this perspective, we generalize GAP and propose a learnable generalized sum pooling method (GSP). GSP improves GAP with two distinct abilities: i) the ability to choose a subset of semantic entities, effectively learning to ignore nuisance information, and ii) learning the weights corresponding to the importance of each entity. Formally, we propose an entropy-smoothed optimal transport problem and show that it is a strict generalization of GAP, i.e., a specific realization of the problem gives back GAP. We show that this optimization problem enjoys analytical gradients enabling us to use it as a direct lear
     
-[^13]: 在Wasserstein空间中通过数据集字典学习进行多源域自适应
+[^14]: 在Wasserstein空间中通过数据集字典学习进行多源域自适应
 
     Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space. (arXiv:2307.14953v1 [cs.LG])
 
@@ -207,7 +222,7 @@
 
     This paper seeks to solve Multi-Source Domain Adaptation (MSDA), which aims to mitigate data distribution shifts when transferring knowledge from multiple labeled source domains to an unlabeled target domain. We propose a novel MSDA framework based on dictionary learning and optimal transport. We interpret each domain in MSDA as an empirical distribution. As such, we express each domain as a Wasserstein barycenter of dictionary atoms, which are empirical distributions. We propose a novel algorithm, DaDiL, for learning via mini-batches: (i) atom distributions; (ii) a matrix of barycentric coordinates. Based on our dictionary, we propose two novel methods for MSDA: DaDil-R, based on the reconstruction of labeled samples in the target domain, and DaDiL-E, based on the ensembling of classifiers learned on atom distributions. We evaluate our methods in 3 benchmarks: Caltech-Office, Office 31, and CRWU, where we improved previous state-of-the-art by 3.15%, 2.29%, and 7.71% in classification 
     
-[^14]: 使用去噪扩散概率模型对分子图进行变分自动编码
+[^15]: 使用去噪扩散概率模型对分子图进行变分自动编码
 
     Variational Autoencoding Molecular Graphs with Denoising Diffusion Probabilistic Model. (arXiv:2307.00623v1 [cs.LG])
 
@@ -221,7 +236,7 @@
 
     In data-driven drug discovery, designing molecular descriptors is a very important task. Deep generative models such as variational autoencoders (VAEs) offer a potential solution by designing descriptors as probabilistic latent vectors derived from molecular structures. These models can be trained on large datasets, which have only molecular structures, and applied to transfer learning. Nevertheless, the approximate posterior distribution of the latent vectors of the usual VAE assumes a simple multivariate Gaussian distribution with zero covariance, which may limit the performance of representing the latent features. To overcome this limitation, we propose a novel molecular deep generative model that incorporates a hierarchical structure into the probabilistic latent vectors. We achieve this by a denoising diffusion probabilistic model (DDPM). We demonstrate that our model can design effective molecular latent vectors for molecular property prediction from some experiments by small dat
     
-[^15]: 通过等压等温流获得吉布斯自由能
+[^16]: 通过等压等温流获得吉布斯自由能
 
     Gibbs free energies via isobaric-isothermal flows. (arXiv:2305.13233v1 [physics.comp-ph])
 
@@ -235,7 +250,7 @@
 
     We present a machine-learning model based on normalizing flows that is trained to sample from the isobaric-isothermal (NPT) ensemble. In our approach, we approximate the joint distribution of a fully-flexible triclinic simulation box and particle coordinates to achieve a desired internal pressure. We test our model on monatomic water in the cubic and hexagonal ice phases and find excellent agreement of Gibbs free energies and other observables compared with established baselines.
     
-[^16]: 分布式鲁棒的离线强化学习：基于双重悲观性的通用算法和强健部分覆盖
+[^17]: 分布式鲁棒的离线强化学习：基于双重悲观性的通用算法和强健部分覆盖
 
     Double Pessimism is Provably Efficient for Distributionally Robust Offline Reinforcement Learning: Generic Algorithm and Robust Partial Coverage. (arXiv:2305.09659v1 [cs.LG])
 
@@ -249,7 +264,7 @@
 
     We study distributionally robust offline reinforcement learning (robust offline RL), which seeks to find an optimal robust policy purely from an offline dataset that can perform well in perturbed environments. We propose a generic algorithm framework \underline{D}oubly \underline{P}essimistic \underline{M}odel-based \underline{P}olicy \underline{O}ptimization ($\texttt{P}^2\texttt{MPO}$) for robust offline RL, which features a novel combination of a flexible model estimation subroutine and a doubly pessimistic policy optimization step. The \emph{double pessimism} principle is crucial to overcome the distributional shift incurred by i) the mismatch between behavior policy and the family of target policies; and ii) the perturbation of the nominal model. Under certain accuracy assumptions on the model estimation subroutine, we show that $\texttt{P}^2\texttt{MPO}$ is provably efficient with \emph{robust partial coverage data}, which means that the offline dataset has good coverage of the d
     
-[^17]: 因果推断中的双重和单一下降现象，及其在高维合成控制中的应用。
+[^18]: 因果推断中的双重和单一下降现象，及其在高维合成控制中的应用。
 
     Double and Single Descent in Causal Inference with an Application to High-Dimensional Synthetic Control. (arXiv:2305.00700v1 [econ.EM])
 
@@ -263,7 +278,7 @@
 
     Motivated by a recent literature on the double-descent phenomenon in machine learning, we consider highly over-parametrized models in causal inference, including synthetic control with many control units. In such models, there may be so many free parameters that the model fits the training data perfectly. As a motivating example, we first investigate high-dimensional linear regression for imputing wage data, where we find that models with many more covariates than sample size can outperform simple ones. As our main contribution, we document the performance of high-dimensional synthetic control estimators with many control units. We find that adding control units can help improve imputation performance even beyond the point where the pre-treatment fit is perfect. We then provide a unified theoretical perspective on the performance of these high-dimensional models. Specifically, we show that more complex models can be interpreted as model-averaging estimators over simpler ones, which we 
     
-[^18]: 乐观的在线镜像下降算法用于连接随机性和对抗性在线凸优化
+[^19]: 乐观的在线镜像下降算法用于连接随机性和对抗性在线凸优化
 
     Optimistic Online Mirror Descent for Bridging Stochastic and Adversarial Online Convex Optimization. (arXiv:2302.04552v2 [cs.LG] UPDATED)
 
@@ -277,7 +292,7 @@
 
     Stochastically Extended Adversarial (SEA) model is introduced by Sachs et al. [2022] as an interpolation between stochastic and adversarial online convex optimization. Under the smoothness condition, they demonstrate that the expected regret of optimistic follow-the-regularized-leader (FTRL) depends on the cumulative stochastic variance $\sigma_{1:T}^2$ and the cumulative adversarial variation $\Sigma_{1:T}^2$ for convex functions. They also provide a slightly weaker bound based on the maximal stochastic variance $\sigma_{\max}^2$ and the maximal adversarial variation $\Sigma_{\max}^2$ for strongly convex functions. Inspired by their work, we investigate the theoretical guarantees of optimistic online mirror descent (OMD) for the SEA model. For convex and smooth functions, we obtain the same $\mathcal{O}(\sqrt{\sigma_{1:T}^2}+\sqrt{\Sigma_{1:T}^2})$ regret bound, without the convexity requirement of individual functions. For strongly convex and smooth functions, we establish an $\mathc
     
-[^19]: 通过分位数风险最小化实现可能的领域泛化
+[^20]: 通过分位数风险最小化实现可能的领域泛化
 
     Probable Domain Generalization via Quantile Risk Minimization. (arXiv:2207.09944v4 [stat.ML] UPDATED)
 
@@ -291,7 +306,7 @@
 
     Domain generalization (DG) seeks predictors which perform well on unseen test distributions by leveraging data drawn from multiple related training distributions or domains. To achieve this, DG is commonly formulated as an average- or worst-case problem over the set of possible domains. However, predictors that perform well on average lack robustness while predictors that perform well in the worst case tend to be overly-conservative. To address this, we propose a new probabilistic framework for DG where the goal is to learn predictors that perform well with high probability. Our key idea is that distribution shifts seen during training should inform us of probable shifts at test time, which we realize by explicitly relating training and test domains as draws from the same underlying meta-distribution. To achieve probable DG, we propose a new optimization problem called Quantile Risk Minimization (QRM). By minimizing the $\alpha$-quantile of predictor's risk distribution over domains, Q
     
-[^20]: 逆强化学习的主动探索方法
+[^21]: 逆强化学习的主动探索方法
 
     Active Exploration for Inverse Reinforcement Learning. (arXiv:2207.08645v3 [cs.LG] UPDATED)
 
