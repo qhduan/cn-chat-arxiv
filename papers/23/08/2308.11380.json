@@ -1,0 +1,12 @@
+{
+    "title": "Convoifilter: A case study of doing cocktail party speech recognition. (arXiv:2308.11380v1 [cs.SD])",
+    "abstract": "This paper presents an end-to-end model designed to improve automatic speech recognition (ASR) for a particular speaker in a crowded, noisy environment. The model utilizes a single-channel speech enhancement module that isolates the speaker's voice from background noise, along with an ASR module. Through this approach, the model is able to decrease the word error rate (WER) of ASR from 80% to 26.4%. Typically, these two components are adjusted independently due to variations in data requirements. However, speech enhancement can create anomalies that decrease ASR efficiency. By implementing a joint fine-tuning strategy, the model can reduce the WER from 26.4% in separate tuning to 14.5% in joint tuning.",
+    "link": "http://arxiv.org/abs/2308.11380",
+    "context": "Title: Convoifilter: A case study of doing cocktail party speech recognition. (arXiv:2308.11380v1 [cs.SD])\nAbstract: This paper presents an end-to-end model designed to improve automatic speech recognition (ASR) for a particular speaker in a crowded, noisy environment. The model utilizes a single-channel speech enhancement module that isolates the speaker's voice from background noise, along with an ASR module. Through this approach, the model is able to decrease the word error rate (WER) of ASR from 80% to 26.4%. Typically, these two components are adjusted independently due to variations in data requirements. However, speech enhancement can create anomalies that decrease ASR efficiency. By implementing a joint fine-tuning strategy, the model can reduce the WER from 26.4% in separate tuning to 14.5% in joint tuning.",
+    "path": "papers/23/08/2308.11380.json",
+    "total_tokens": 793,
+    "translated_title": "Convoifilter: 鸡尾酒会语音识别的案例研究",
+    "translated_abstract": "本文提出了一个端到端的模型，用于改进拥挤、嘈杂环境下的自动语音识别（ASR），针对特定说话者。该模型利用单声道语音增强模块将说话者的声音与背景噪声分离，结合ASR模块。通过这种方法，该模型能够将ASR的词错误率（WER）从80%降低到26.4%。通常情况下，由于数据要求的变化，这两个组件会独立调整。然而，语音增强可能会导致ASR效率下降。通过实施联合微调策略，该模型可以将分别调整的WER从26.4%降低到14.5%。",
+    "tldr": "本文通过使用单声道语音增强模块与ASR模块，成功将ASR的词错误率从80%降低到26.4%，并通过联合微调策略将其进一步降低到14.5%。",
+    "en_tdlr": "This paper presents an end-to-end model that utilizes a single-channel speech enhancement module and an ASR module to decrease the word error rate (WER) of ASR from 80% to 26.4%. By implementing a joint fine-tuning strategy, the WER is further reduced to 14.5%."
+}

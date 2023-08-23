@@ -1,0 +1,12 @@
+{
+    "title": "Approximate Core Allocations for Edge Cover Games. (arXiv:2308.11222v1 [math.CO])",
+    "abstract": "We study the approximate core for edge cover games, which are cooperative games stemming from edge cover problems. In these games, each player controls a vertex on a network $G = (V, E; w)$, and the cost of a coalition $S\\subseteq V$ is equivalent to the minimum weight of edge covers in the subgraph induced by $S$. We prove that the 3/4-core of edge cover games is always non-empty and can be computed in polynomial time by using linear program duality approach. This ratio is the best possible, as it represents the integrality gap of the natural LP for edge cover problems. Moreover, our analysis reveals that the ratio of approximate core corresponds with the length of the shortest odd cycle of underlying graphs.",
+    "link": "http://arxiv.org/abs/2308.11222",
+    "context": "Title: Approximate Core Allocations for Edge Cover Games. (arXiv:2308.11222v1 [math.CO])\nAbstract: We study the approximate core for edge cover games, which are cooperative games stemming from edge cover problems. In these games, each player controls a vertex on a network $G = (V, E; w)$, and the cost of a coalition $S\\subseteq V$ is equivalent to the minimum weight of edge covers in the subgraph induced by $S$. We prove that the 3/4-core of edge cover games is always non-empty and can be computed in polynomial time by using linear program duality approach. This ratio is the best possible, as it represents the integrality gap of the natural LP for edge cover problems. Moreover, our analysis reveals that the ratio of approximate core corresponds with the length of the shortest odd cycle of underlying graphs.",
+    "path": "papers/23/08/2308.11222.json",
+    "total_tokens": 788,
+    "translated_title": "近似核心分配的边覆盖游戏",
+    "translated_abstract": "我们研究了近似核心分配的边覆盖游戏，这些游戏源自边覆盖问题。在这些游戏中，每个玩家控制着网络G =（V，E；w）上的一个顶点，联盟S的成本等于由S诱导的子图中的边覆盖的最小权重。我们证明了边覆盖游戏的3/4-核心始终非空，并且可以通过使用线性规划对偶方法在多项式时间内计算出来。这个比率是最好的，因为它表示了边覆盖问题的自然LP的整数性间隙。此外，我们的分析表明，近似核心的比率与底层图的最短奇数环的长度对应。",
+    "tldr": "本研究探讨了边覆盖游戏的近似核心分配，证明了3/4-核心始终非空并可以在多项式时间内计算，同时与底层图的最短奇数环长度对应。",
+    "en_tdlr": "This study investigates approximate core allocations for edge cover games, proving that the 3/4-core is always non-empty and computable in polynomial time. The analysis also reveals that the ratio of approximate core corresponds to the length of the shortest odd cycle in the underlying graph."
+}

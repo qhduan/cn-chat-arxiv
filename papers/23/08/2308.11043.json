@@ -1,0 +1,11 @@
+{
+    "title": "Spurious Correlations and Where to Find Them. (arXiv:2308.11043v1 [cs.LG])",
+    "abstract": "Spurious correlations occur when a model learns unreliable features from the data and are a well-known drawback of data-driven learning. Although there are several algorithms proposed to mitigate it, we are yet to jointly derive the indicators of spurious correlations. As a result, the solutions built upon standalone hypotheses fail to beat simple ERM baselines. We collect some of the commonly studied hypotheses behind the occurrence of spurious correlations and investigate their influence on standard ERM baselines using synthetic datasets generated from causal graphs. Subsequently, we observe patterns connecting these hypotheses and model design choices.",
+    "link": "http://arxiv.org/abs/2308.11043",
+    "context": "Title: Spurious Correlations and Where to Find Them. (arXiv:2308.11043v1 [cs.LG])\nAbstract: Spurious correlations occur when a model learns unreliable features from the data and are a well-known drawback of data-driven learning. Although there are several algorithms proposed to mitigate it, we are yet to jointly derive the indicators of spurious correlations. As a result, the solutions built upon standalone hypotheses fail to beat simple ERM baselines. We collect some of the commonly studied hypotheses behind the occurrence of spurious correlations and investigate their influence on standard ERM baselines using synthetic datasets generated from causal graphs. Subsequently, we observe patterns connecting these hypotheses and model design choices.",
+    "path": "papers/23/08/2308.11043.json",
+    "total_tokens": 664,
+    "translated_title": "错误的相关性及其发现方法",
+    "translated_abstract": "错误的相关性指的是模型从数据中学习到不可靠的特征，是数据驱动学习的一个已知缺陷。尽管已经有几种算法提出来减轻这个问题，但我们还没有能够共同推导出错误相关性的指标。因此，基于独立假设构建的解决方案无法击败简单的ERM基线。我们收集了一些常见的错误相关性出现背后的假设，并使用从因果图生成的合成数据集研究它们对标准ERM基线的影响。随后，我们观察到这些假设和模型设计选择之间的模式。",
+    "tldr": "本论文研究了错误相关性的发生原因以及其对标准ERM基线的影响，并观察到了这些原因与模型设计选择之间的模式。"
+}

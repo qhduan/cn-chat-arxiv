@@ -1,0 +1,12 @@
+{
+    "title": "An alternative to SVM Method for Data Classification. (arXiv:2308.11579v1 [cs.LG])",
+    "abstract": "Support vector machine (SVM), is a popular kernel method for data classification that demonstrated its efficiency for a large range of practical applications. The method suffers, however, from some weaknesses including; time processing, risk of failure of the optimization process for high dimension cases, generalization to multi-classes, unbalanced classes, and dynamic classification. In this paper an alternative method is proposed having a similar performance, with a sensitive improvement of the aforementioned shortcomings. The new method is based on a minimum distance to optimal subspaces containing the mapped original classes.",
+    "link": "http://arxiv.org/abs/2308.11579",
+    "context": "Title: An alternative to SVM Method for Data Classification. (arXiv:2308.11579v1 [cs.LG])\nAbstract: Support vector machine (SVM), is a popular kernel method for data classification that demonstrated its efficiency for a large range of practical applications. The method suffers, however, from some weaknesses including; time processing, risk of failure of the optimization process for high dimension cases, generalization to multi-classes, unbalanced classes, and dynamic classification. In this paper an alternative method is proposed having a similar performance, with a sensitive improvement of the aforementioned shortcomings. The new method is based on a minimum distance to optimal subspaces containing the mapped original classes.",
+    "path": "papers/23/08/2308.11579.json",
+    "total_tokens": 653,
+    "translated_title": "SVM方法的一种替代方法用于数据分类",
+    "translated_abstract": "支持向量机(SVM)是一种广泛应用的核方法，用于数据分类，并在许多实际应用中证明了其效率。然而，该方法存在一些缺点，包括时间处理、高维情况下优化过程失败的风险、多类别、不平衡类别和动态分类的泛化能力。本文提出了一种新的方法，具有类似的性能，对上述缺点进行了敏感改进。这种新方法基于到包含映射原始类别的最优子空间的最小距离。",
+    "tldr": "本文提出了一种新的方法来替代支持向量机(SVM)方法进行数据分类，在保持类似性能的同时，对SVM方法的一些缺点进行了改进和敏感处理。",
+    "en_tdlr": "An alternative method to SVM for data classification is proposed in this paper, which shows similar performance while addressing some weaknesses of SVM such as time processing, optimization failure in high dimensions, generalization to multi-classes, unbalanced classes, and dynamic classification."
+}

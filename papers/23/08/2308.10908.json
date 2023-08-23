@@ -1,0 +1,11 @@
+{
+    "title": "MLOps: A Review. (arXiv:2308.10908v1 [cs.LG])",
+    "abstract": "Recently, Machine Learning (ML) has become a widely accepted method for significant progress that is rapidly evolving. Since it employs computational methods to teach machines and produce acceptable answers. The significance of the Machine Learning Operations (MLOps) methods, which can provide acceptable answers for such problems, is examined in this study. To assist in the creation of software that is simple to use, the authors research MLOps methods. To choose the best tool structure for certain projects, the authors also assess the features and operability of various MLOps methods. A total of 22 papers were assessed that attempted to apply the MLOps idea. Finally, the authors admit the scarcity of fully effective MLOps methods based on which advancements can self-regulate by limiting human engagement.",
+    "link": "http://arxiv.org/abs/2308.10908",
+    "context": "Title: MLOps: A Review. (arXiv:2308.10908v1 [cs.LG])\nAbstract: Recently, Machine Learning (ML) has become a widely accepted method for significant progress that is rapidly evolving. Since it employs computational methods to teach machines and produce acceptable answers. The significance of the Machine Learning Operations (MLOps) methods, which can provide acceptable answers for such problems, is examined in this study. To assist in the creation of software that is simple to use, the authors research MLOps methods. To choose the best tool structure for certain projects, the authors also assess the features and operability of various MLOps methods. A total of 22 papers were assessed that attempted to apply the MLOps idea. Finally, the authors admit the scarcity of fully effective MLOps methods based on which advancements can self-regulate by limiting human engagement.",
+    "path": "papers/23/08/2308.10908.json",
+    "total_tokens": 809,
+    "translated_title": "MLOps：一项综述研究",
+    "translated_abstract": "最近，机器学习（ML）已成为一种广泛接受的方法，用于快速发展的重要进展。由于它采用计算方法来教导机器并产生可接受的答案。本研究考察了机器学习运维（MLOps）方法的重要性，这些方法可以为这类问题提供可接受的答案。为了帮助创建易于使用的软件，作者研究了MLOps方法。为了选择适用于特定项目的最佳工具结构，作者还评估了各种MLOps方法的特性和可操作性。总共评估了22篇试图应用MLOps理念的论文。最后，作者承认了基于这样的进展可以通过限制人类参与来自我调节的完全有效的MLOps方法的稀缺性。",
+    "tldr": "本研究综述了机器学习运维（MLOps）方法在解决问题中的可接受答案的重要性，并评估了22篇应用MLOps理念的论文。研究发现需要更加有效的MLOps方法以减少人类的参与。"
+}

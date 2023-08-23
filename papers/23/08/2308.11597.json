@@ -1,0 +1,12 @@
+{
+    "title": "Nash Equilibrium Existence without Convexity. (arXiv:2308.11597v1 [econ.TH])",
+    "abstract": "In this paper, I prove the existence of a pure-strategy Nash equilibrium for a large class of games with nonconvex strategy spaces. Specifically, if each player's strategies form a compact, connected Euclidean neighborhood retract and if all best-response correspondences are null-homotopic, then the game has a pure-strategy Nash equilibrium. As an application, I show how this result can prove the fundamental theorem of algebra.",
+    "link": "http://arxiv.org/abs/2308.11597",
+    "context": "Title: Nash Equilibrium Existence without Convexity. (arXiv:2308.11597v1 [econ.TH])\nAbstract: In this paper, I prove the existence of a pure-strategy Nash equilibrium for a large class of games with nonconvex strategy spaces. Specifically, if each player's strategies form a compact, connected Euclidean neighborhood retract and if all best-response correspondences are null-homotopic, then the game has a pure-strategy Nash equilibrium. As an application, I show how this result can prove the fundamental theorem of algebra.",
+    "path": "papers/23/08/2308.11597.json",
+    "total_tokens": 612,
+    "translated_title": "无凸性情况下的纳什均衡存在性",
+    "translated_abstract": "本文证明了在具有非凸策略空间的广泛游戏类中存在纯策略纳什均衡。具体而言，如果每个玩家的策略集形成一个紧致、连通的欧几里得邻域回缩，并且所有最优响应对应都是零同伦的，则该游戏具有一个纯策略纳什均衡。作为一个应用，我展示了这个结果如何证明了代数基本定理。",
+    "tldr": "本文证明了在具有非凸策略空间的游戏类中存在纯策略纳什均衡，并展示了如何通过这个结果证明了代数基本定理。",
+    "en_tdlr": "This paper proves the existence of pure-strategy Nash equilibrium in a wide class of games with nonconvex strategy spaces, and demonstrates how this result can prove the fundamental theorem of algebra."
+}

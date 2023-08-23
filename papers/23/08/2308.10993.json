@@ -1,0 +1,12 @@
+{
+    "title": "Econometrics of Machine Learning Methods in Economic Forecasting. (arXiv:2308.10993v1 [econ.EM])",
+    "abstract": "This paper surveys the recent advances in machine learning method for economic forecasting. The survey covers the following topics: nowcasting, textual data, panel and tensor data, high-dimensional Granger causality tests, time series cross-validation, classification with economic losses.",
+    "link": "http://arxiv.org/abs/2308.10993",
+    "context": "Title: Econometrics of Machine Learning Methods in Economic Forecasting. (arXiv:2308.10993v1 [econ.EM])\nAbstract: This paper surveys the recent advances in machine learning method for economic forecasting. The survey covers the following topics: nowcasting, textual data, panel and tensor data, high-dimensional Granger causality tests, time series cross-validation, classification with economic losses.",
+    "path": "papers/23/08/2308.10993.json",
+    "total_tokens": 531,
+    "translated_title": "机器学习方法在经济预测中的计量经济学",
+    "translated_abstract": "本文概述了机器学习方法在经济预测中的最新进展。该调查涵盖了以下主题：即时预测、文本数据、面板和张量数据、高维Granger因果关系测试、时间序列交叉验证、经济损失分类。",
+    "tldr": "该论文调查了机器学习在经济预测中的最新进展，包括即时预测、文本数据、面板和张量数据、Granger因果关系测试、时间序列交叉验证和经济损失分类。",
+    "en_tdlr": "This paper surveys the recent advances in machine learning method for economic forecasting, including nowcasting, textual data, panel and tensor data, high-dimensional Granger causality tests, time series cross-validation, and classification with economic losses."
+}

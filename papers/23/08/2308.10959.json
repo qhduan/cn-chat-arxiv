@@ -1,0 +1,11 @@
+{
+    "title": "DocPrompt: Large-scale continue pretrain for zero-shot and few-shot document question answering. (arXiv:2308.10959v1 [cs.CL])",
+    "abstract": "In this paper, we propose Docprompt for document question answering tasks with powerful zero-shot and few-shot performance. We proposed a novel weakly supervised data generation method, a novel multl-stage training method and a novel understanding model & generation model ensemble method. Experiment results show that the Docprompt model after continue pretrain significantly outperforms the existing strong baseline models on document question answering tasks. This method greatly improves the delivery efficiency and model performance of document question answering customer projects, reducing annotation costs and labor costs. Our demo can be found at https://huggingface.co/spaces/PaddlePaddle/ERNIE-Layout.",
+    "link": "http://arxiv.org/abs/2308.10959",
+    "context": "Title: DocPrompt: Large-scale continue pretrain for zero-shot and few-shot document question answering. (arXiv:2308.10959v1 [cs.CL])\nAbstract: In this paper, we propose Docprompt for document question answering tasks with powerful zero-shot and few-shot performance. We proposed a novel weakly supervised data generation method, a novel multl-stage training method and a novel understanding model & generation model ensemble method. Experiment results show that the Docprompt model after continue pretrain significantly outperforms the existing strong baseline models on document question answering tasks. This method greatly improves the delivery efficiency and model performance of document question answering customer projects, reducing annotation costs and labor costs. Our demo can be found at https://huggingface.co/spaces/PaddlePaddle/ERNIE-Layout.",
+    "path": "papers/23/08/2308.10959.json",
+    "total_tokens": 811,
+    "translated_title": "DocPrompt: 大规模连续预训练用于零样本和少样本文档问答",
+    "translated_abstract": "本文提出了一个名为DocPrompt的方法，用于处理文档问答任务，具有强大的零样本和少样本性能。我们提出了一种新颖的弱监督数据生成方法、一种新颖的多阶段训练方法，以及一种新颖的理解模型和生成模型集成方法。实验结果表明，在文档问答任务中，经过连续预训练的DocPrompt模型明显优于现有的强基线模型。这种方法极大地提高了文档问答客户项目的交付效率和模型性能，降低了注释成本和劳动成本。我们的演示可以在https://huggingface.co/spaces/PaddlePaddle/ERNIE-Layout找到。",
+    "tldr": "本文提出了一个名为DocPrompt的方法，用于处理文档问答任务，具有强大的零样本和少样本性能。实验结果表明，DocPrompt模型经过连续预训练后在文档问答任务中表现优异，大大提高了交付效率和模型性能，降低了注释成本和劳动成本。"
+}

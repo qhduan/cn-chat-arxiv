@@ -1,0 +1,11 @@
+{
+    "title": "Mobility-Aware Computation Offloading for Swarm Robotics using Deep Reinforcement Learning. (arXiv:2308.11154v1 [cs.RO])",
+    "abstract": "Swarm robotics is envisioned to automate a large number of dirty, dangerous, and dull tasks. Robots have limited energy, computation capability, and communication resources. Therefore, current swarm robotics have a small number of robots, which can only provide limited spatio-temporal information. In this paper, we propose to leverage the mobile edge computing to alleviate the computation burden. We develop an effective solution based on a mobility-aware deep reinforcement learning model at the edge server side for computing scheduling and resource. Our results show that the proposed approach can meet delay requirements and guarantee computation precision by using minimum robot energy.",
+    "link": "http://arxiv.org/abs/2308.11154",
+    "context": "Title: Mobility-Aware Computation Offloading for Swarm Robotics using Deep Reinforcement Learning. (arXiv:2308.11154v1 [cs.RO])\nAbstract: Swarm robotics is envisioned to automate a large number of dirty, dangerous, and dull tasks. Robots have limited energy, computation capability, and communication resources. Therefore, current swarm robotics have a small number of robots, which can only provide limited spatio-temporal information. In this paper, we propose to leverage the mobile edge computing to alleviate the computation burden. We develop an effective solution based on a mobility-aware deep reinforcement learning model at the edge server side for computing scheduling and resource. Our results show that the proposed approach can meet delay requirements and guarantee computation precision by using minimum robot energy.",
+    "path": "papers/23/08/2308.11154.json",
+    "total_tokens": 688,
+    "translated_title": "使用深度强化学习的移动感知计算卸载于群体机器人中的应用",
+    "translated_abstract": "群体机器人被设想为能自动化进行大量肮脏、危险和乏味任务的机器人。然而，机器人能量、计算能力和通信资源有限。因此，目前的群体机器人只能提供有限的时空信息。在本文中，我们提出利用移动边缘计算来减轻计算负担。我们基于移动感知的深度强化学习模型在边缘服务器端开发了一种有效的解决方案，用于计算调度和资源分配。我们的结果表明，所提出的方法可以通过使用最小的机器人能量来满足延迟要求并保证计算精度。",
+    "tldr": "使用深度强化学习的移动感知计算卸载于群体机器人中的应用，可以减轻计算负担，满足延迟要求并保证计算精度，同时使用最小的机器人能量。"
+}

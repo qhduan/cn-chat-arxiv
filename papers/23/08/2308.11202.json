@@ -1,0 +1,12 @@
+{
+    "title": "Analysis of Optimal Portfolio Management Using Hierarchical Clustering. (arXiv:2308.11202v1 [q-fin.PM])",
+    "abstract": "Portfolio optimization is a task that investors use to determine the best allocations for their investments, and fund managers implement computational models to help guide their decisions. While one of the most common portfolio optimization models in the industry is the Markowitz Model, practitioners recognize limitations in its framework that lead to suboptimal out-of-sample performance and unrealistic allocations. In this study, I refine the Markowitz Model by incorporating machine learning to improve portfolio performance. By using a hierarchical clustering-based approach, I am able to enhance portfolio performance on a risk-adjusted basis compared to the Markowitz Model, across various market factors.",
+    "link": "http://arxiv.org/abs/2308.11202",
+    "context": "Title: Analysis of Optimal Portfolio Management Using Hierarchical Clustering. (arXiv:2308.11202v1 [q-fin.PM])\nAbstract: Portfolio optimization is a task that investors use to determine the best allocations for their investments, and fund managers implement computational models to help guide their decisions. While one of the most common portfolio optimization models in the industry is the Markowitz Model, practitioners recognize limitations in its framework that lead to suboptimal out-of-sample performance and unrealistic allocations. In this study, I refine the Markowitz Model by incorporating machine learning to improve portfolio performance. By using a hierarchical clustering-based approach, I am able to enhance portfolio performance on a risk-adjusted basis compared to the Markowitz Model, across various market factors.",
+    "path": "papers/23/08/2308.11202.json",
+    "total_tokens": 723,
+    "translated_title": "使用层次聚类分析的最优组合管理分析",
+    "translated_abstract": "组合优化是投资者用来确定最佳配置的任务，基金经理则通过实施计算模型来辅助决策。尽管行业中最常见的组合优化模型是马科维茨模型，但实践者认识到其框架存在限制，导致样本外表现亚优和配置不实际。在这项研究中，我通过将机器学习纳入马科维茨模型以提高组合表现。通过使用基于层次聚类的方法，我能够在风险调整基础上提升组合表现，并在各种市场因素上超过马科维茨模型。",
+    "tldr": "本研究通过将机器学习应用于马科维茨模型中，使用层次聚类方法改进了组合优化的表现。与马科维茨模型相比，在风险调整的基础上实现了更好的投资组合表现。",
+    "en_tdlr": "This study improves portfolio optimization performance by incorporating machine learning into the Markowitz model, using a hierarchical clustering-based approach. It achieves better portfolio performance on a risk-adjusted basis compared to the Markowitz model."
+}

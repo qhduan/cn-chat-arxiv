@@ -1,0 +1,12 @@
+{
+    "title": "Is There Any Social Principle for LLM-Based Agents?. (arXiv:2308.11136v1 [cs.CY])",
+    "abstract": "Focus on Large Language Model based agents should involve more than \"human-centered\" alignment or application. We argue that more attention should be paid to the agent itself and discuss the potential of social sciences for agents.",
+    "link": "http://arxiv.org/abs/2308.11136",
+    "context": "Title: Is There Any Social Principle for LLM-Based Agents?. (arXiv:2308.11136v1 [cs.CY])\nAbstract: Focus on Large Language Model based agents should involve more than \"human-centered\" alignment or application. We argue that more attention should be paid to the agent itself and discuss the potential of social sciences for agents.",
+    "path": "papers/23/08/2308.11136.json",
+    "total_tokens": 483,
+    "translated_title": "LLM基于智能体是否存在社会原则？",
+    "translated_abstract": "关注基于大型语言模型的智能体应该超越“以人为中心”的对齐或应用。我们认为应该更多关注智能体本身，并探讨社会科学在智能体中的潜力。",
+    "tldr": "LLM基于智能体不仅应关注“以人为中心”的对齐或应用，还应关注智能体自身，并探讨社会科学在智能体中的潜力。",
+    "en_tdlr": "Attention should not only be focused on \"human-centered\" alignment or application of LLM-based agents, but also on the agents themselves, and explore the potential of social sciences for agents."
+}

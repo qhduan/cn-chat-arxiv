@@ -1,0 +1,11 @@
+{
+    "title": "Explaining Emergence. (arXiv:2308.10912v1 [cs.CC])",
+    "abstract": "Emergence is a pregnant property in various fields. It is the fact for a phenomenon to appear surprisingly and to be such that it seems at first sight that it is not possible to predict its apparition. That is the reason why it has often been said that emergence is a subjective property relative to the observer. Some mathematical systems having very simple and deterministic rules nevertheless show emergent behavior. Studying these systems shed a new light on the subject and allows to define a new concept, computational irreducibility, which deals with behaviors that even though they are totally deterministic cannot be predicted without simulating them. Computational irreducibility is then a key for understanding emergent phenomena from an objective point of view that does not need the mention of any observer.",
+    "link": "http://arxiv.org/abs/2308.10912",
+    "context": "Title: Explaining Emergence. (arXiv:2308.10912v1 [cs.CC])\nAbstract: Emergence is a pregnant property in various fields. It is the fact for a phenomenon to appear surprisingly and to be such that it seems at first sight that it is not possible to predict its apparition. That is the reason why it has often been said that emergence is a subjective property relative to the observer. Some mathematical systems having very simple and deterministic rules nevertheless show emergent behavior. Studying these systems shed a new light on the subject and allows to define a new concept, computational irreducibility, which deals with behaviors that even though they are totally deterministic cannot be predicted without simulating them. Computational irreducibility is then a key for understanding emergent phenomena from an objective point of view that does not need the mention of any observer.",
+    "path": "papers/23/08/2308.10912.json",
+    "total_tokens": 726,
+    "translated_title": "解释出现.（arXiv:2308.10912v1 [cs.CC]）",
+    "translated_abstract": "出现是各个领域中一个重要的性质。它是一个现象出现得令人惊讶，并且似乎不能预测其出现的事实。这也是为什么经常说出现是相对于观察者而言的主观属性。一些具有简单而确定性规则的数学系统却表现出出现行为。研究这些系统为这个主题带来了新的视角，并且定义了一个新概念，即计算不可简化性，它涉及到行为的完全确定性，但无法在不模拟的情况下预测。因此，计算不可简化性是从客观角度理解出现现象的关键，它不需要提及任何观察者。",
+    "tldr": "论文研究了出现现象，提出了计算不可简化性的概念，这是能够从客观角度理解出现现象的关键。"
+}
