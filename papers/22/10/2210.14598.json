@@ -1,0 +1,11 @@
+{
+    "title": "Exact Manifold Gaussian Variational Bayes. (arXiv:2210.14598v2 [stat.ML] UPDATED)",
+    "abstract": "We propose an optimization algorithm for Variational Inference (VI) in complex models. Our approach relies on natural gradient updates where the variational space is a Riemann manifold. We develop an efficient algorithm for Gaussian Variational Inference that implicitly satisfies the positive definite constraint on the variational covariance matrix. Our Exact manifold Gaussian Variational Bayes (EMGVB) provides exact but simple update rules and is straightforward to implement. Due to its black-box nature, EMGVB stands as a ready-to-use solution for VI in complex models. Over five datasets, we empirically validate our feasible approach on different statistical, econometric, and deep learning models, discussing its performance with respect to baseline methods.",
+    "link": "http://arxiv.org/abs/2210.14598",
+    "context": "Title: Exact Manifold Gaussian Variational Bayes. (arXiv:2210.14598v2 [stat.ML] UPDATED)\nAbstract: We propose an optimization algorithm for Variational Inference (VI) in complex models. Our approach relies on natural gradient updates where the variational space is a Riemann manifold. We develop an efficient algorithm for Gaussian Variational Inference that implicitly satisfies the positive definite constraint on the variational covariance matrix. Our Exact manifold Gaussian Variational Bayes (EMGVB) provides exact but simple update rules and is straightforward to implement. Due to its black-box nature, EMGVB stands as a ready-to-use solution for VI in complex models. Over five datasets, we empirically validate our feasible approach on different statistical, econometric, and deep learning models, discussing its performance with respect to baseline methods.",
+    "path": "papers/22/10/2210.14598.json",
+    "total_tokens": 778,
+    "translated_title": "确切的流形高斯变分贝叶斯",
+    "translated_abstract": "我们提出了一种用于复杂模型中变分推断（VI）的优化算法。我们的方法依赖于自然梯度更新，其中变分空间是一个黎曼流形。我们开发了一个高效的高斯变分推断算法，以隐式满足变分协方差矩阵的正定约束。我们的确切流形高斯变分贝叶斯（EMGVB）提供了精确但简单的更新规则，并且易于实现。由于其黑盒性质，EMGVB成为复杂模型中即插即用的解决方案。通过在不同统计、计量和深度学习模型上使用五个数据集，我们对我们的可行性方法进行了实证验证，并与基准方法进行了性能讨论。",
+    "tldr": "我们提出了一种在复杂模型中进行变分推断的优化算法，通过使用自然梯度更新和黎曼流形，我们开发了一种高效的高斯变分推断算法，并验证了其在多个数据集上的性能。"
+}

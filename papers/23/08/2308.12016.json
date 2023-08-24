@@ -1,0 +1,12 @@
+{
+    "title": "MKL-$L_{0/1}$-SVM. (arXiv:2308.12016v1 [stat.ML])",
+    "abstract": "This paper presents a Multiple Kernel Learning (abbreviated as MKL) framework for the Support Vector Machine (SVM) with the $(0, 1)$ loss function. Some first-order optimality conditions are given and then exploited to develop a fast ADMM solver to deal with the nonconvex and nonsmooth optimization problem. Extensive numerical experiments on synthetic and real datasets show that the performance of our MKL-$L_{0/1}$-SVM is comparable with the one of the leading approaches called SimpleMKL developed by Rakotomamonjy, Bach, Canu, and Grandvalet [Journal of Machine Learning Research, vol. 9, pp. 2491-2521, 2008].",
+    "link": "http://arxiv.org/abs/2308.12016",
+    "context": "Title: MKL-$L_{0/1}$-SVM. (arXiv:2308.12016v1 [stat.ML])\nAbstract: This paper presents a Multiple Kernel Learning (abbreviated as MKL) framework for the Support Vector Machine (SVM) with the $(0, 1)$ loss function. Some first-order optimality conditions are given and then exploited to develop a fast ADMM solver to deal with the nonconvex and nonsmooth optimization problem. Extensive numerical experiments on synthetic and real datasets show that the performance of our MKL-$L_{0/1}$-SVM is comparable with the one of the leading approaches called SimpleMKL developed by Rakotomamonjy, Bach, Canu, and Grandvalet [Journal of Machine Learning Research, vol. 9, pp. 2491-2521, 2008].",
+    "path": "papers/23/08/2308.12016.json",
+    "total_tokens": 716,
+    "translated_title": "MKL-$L_{0/1}$-SVM: 一种多核学习的支持向量机框架",
+    "translated_abstract": "本文提出了一种适用于$(0, 1)$损失函数的支持向量机的多核学习（MKL）框架。首先给出了一阶最优性条件，然后利用它们开发了一个快速的ADMM求解器来处理非凸非光滑的优化问题。详细的合成和真实数据集上的实验表明，我们的MKL-$L_{0/1}$-SVM的性能与一种名为SimpleMKL的领先方法相当。",
+    "tldr": "本文提出了一种多核学习的支持向量机框架(MKL-$L_{0/1}$-SVM)，通过开发快速的ADMM求解器处理非凸非光滑的优化问题，并在实验中展示了与领先方法相当的性能。",
+    "en_tdlr": "This paper presents a Multiple Kernel Learning framework (MKL-$L_{0/1}$-SVM) for the Support Vector Machine with the $(0, 1)$ loss function, and shows comparable performance compared to a leading approach in extensive experiments."
+}

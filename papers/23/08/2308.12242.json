@@ -1,0 +1,11 @@
+{
+    "title": "Recent Developments in Pandora's Box Problem: Variants and Applications. (arXiv:2308.12242v1 [cs.GT])",
+    "abstract": "In 1979, Weitzman introduced Pandora's box problem as a framework for sequential search with costly inspections. Recently, there has been a surge of interest in Pandora's box problem, particularly among researchers working at the intersection of economics and computation. This survey provides an overview of the recent literature on Pandora's box problem, including its latest extensions and applications in areas such as market design, decision theory, and machine learning.",
+    "link": "http://arxiv.org/abs/2308.12242",
+    "context": "Title: Recent Developments in Pandora's Box Problem: Variants and Applications. (arXiv:2308.12242v1 [cs.GT])\nAbstract: In 1979, Weitzman introduced Pandora's box problem as a framework for sequential search with costly inspections. Recently, there has been a surge of interest in Pandora's box problem, particularly among researchers working at the intersection of economics and computation. This survey provides an overview of the recent literature on Pandora's box problem, including its latest extensions and applications in areas such as market design, decision theory, and machine learning.",
+    "path": "papers/23/08/2308.12242.json",
+    "total_tokens": 608,
+    "translated_title": "潘多拉盒子问题的最新进展：变体和应用",
+    "translated_abstract": "1979年，Weitzman引入了潘多拉盒子问题作为一个具有昂贵检查的顺序搜索框架。最近，潘多拉盒子问题特别受到经济学和计算领域交叉研究人员的关注。本综述文章概述了关于潘多拉盒子问题的最新文献，包括最新的扩展和在市场设计、决策理论和机器学习等领域的应用。",
+    "tldr": "潘多拉盒子问题是一个顺序搜索框架，最新研究主要关注其扩展和在市场设计、决策理论和机器学习等领域的应用。"
+}

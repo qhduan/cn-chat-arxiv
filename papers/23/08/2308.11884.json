@@ -1,0 +1,11 @@
+{
+    "title": "Integrating the Wikidata Taxonomy into YAGO. (arXiv:2308.11884v1 [cs.AI])",
+    "abstract": "Wikidata is one of the largest public general-purpose Knowledge Bases (KBs). Yet, due to its collaborative nature, its schema and taxonomy have become convoluted. For the YAGO 4 KB, we combined Wikidata with the ontology from Schema.org, which reduced and cleaned up the taxonomy and constraints and made it possible to run automated reasoners on the data. However, it also cut away large parts of the Wikidata taxonomy. In this paper, we present our effort to merge the entire Wikidata taxonomy into the YAGO KB as much as possible. We pay particular attention to logical constraints and a careful distinction of classes and instances. Our work creates YAGO 4.5, which adds a rich layer of informative classes to YAGO, while at the same time keeping the KB logically consistent.",
+    "link": "http://arxiv.org/abs/2308.11884",
+    "context": "Title: Integrating the Wikidata Taxonomy into YAGO. (arXiv:2308.11884v1 [cs.AI])\nAbstract: Wikidata is one of the largest public general-purpose Knowledge Bases (KBs). Yet, due to its collaborative nature, its schema and taxonomy have become convoluted. For the YAGO 4 KB, we combined Wikidata with the ontology from Schema.org, which reduced and cleaned up the taxonomy and constraints and made it possible to run automated reasoners on the data. However, it also cut away large parts of the Wikidata taxonomy. In this paper, we present our effort to merge the entire Wikidata taxonomy into the YAGO KB as much as possible. We pay particular attention to logical constraints and a careful distinction of classes and instances. Our work creates YAGO 4.5, which adds a rich layer of informative classes to YAGO, while at the same time keeping the KB logically consistent.",
+    "path": "papers/23/08/2308.11884.json",
+    "total_tokens": 759,
+    "translated_title": "将Wikidata分类体系集成到YAGO中",
+    "translated_abstract": "Wikidata是最大的公共通用知识库之一。然而，由于它的合作性质，其模式和分类体系变得复杂。在YAGO 4知识库中，我们将Wikidata与Schema.org的本体论结合起来，减少和清理分类体系和约束条件，并使其能够在数据上运行自动推理器。然而，这也舍弃了大部分的Wikidata分类体系。在本文中，我们展示了将整个Wikidata分类体系尽可能地合并到YAGO知识库中的工作。我们特别关注逻辑约束和类与实例的细致区分。我们的工作创建了YAGO 4.5，为YAGO添加了丰富的信息类别，同时保持了知识库的逻辑一致性。",
+    "tldr": "本文介绍了将整个Wikidata分类体系尽可能地合并到YAGO知识库中的工作，为YAGO添加了丰富的信息类别，并保持了知识库的逻辑一致性。"
+}

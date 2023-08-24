@@ -1,0 +1,12 @@
+{
+    "title": "Dive into Deep Learning. (arXiv:2106.11342v5 [cs.LG] UPDATED)",
+    "abstract": "This open-source book represents our attempt to make deep learning approachable, teaching readers the concepts, the context, and the code. The entire book is drafted in Jupyter notebooks, seamlessly integrating exposition figures, math, and interactive examples with self-contained code. Our goal is to offer a resource that could (i) be freely available for everyone; (ii) offer sufficient technical depth to provide a starting point on the path to actually becoming an applied machine learning scientist; (iii) include runnable code, showing readers how to solve problems in practice; (iv) allow for rapid updates, both by us and also by the community at large; (v) be complemented by a forum for interactive discussion of technical details and to answer questions.",
+    "link": "http://arxiv.org/abs/2106.11342",
+    "context": "Title: Dive into Deep Learning. (arXiv:2106.11342v5 [cs.LG] UPDATED)\nAbstract: This open-source book represents our attempt to make deep learning approachable, teaching readers the concepts, the context, and the code. The entire book is drafted in Jupyter notebooks, seamlessly integrating exposition figures, math, and interactive examples with self-contained code. Our goal is to offer a resource that could (i) be freely available for everyone; (ii) offer sufficient technical depth to provide a starting point on the path to actually becoming an applied machine learning scientist; (iii) include runnable code, showing readers how to solve problems in practice; (iv) allow for rapid updates, both by us and also by the community at large; (v) be complemented by a forum for interactive discussion of technical details and to answer questions.",
+    "path": "papers/21/06/2106.11342.json",
+    "total_tokens": 767,
+    "translated_title": "深入深度学习",
+    "translated_abstract": "这本开源书是我们的努力，让深度学习变得易于理解，教读者概念、背景和代码。整本书都是在Jupyter笔记本中起草的，与独立的代码无缝集成了说明图、数学和互动示例。我们的目标是提供一个资源，既可以自由使用，又可以提供足够的技术深度，为成为应用机器学习科学家的起点; 包括可运行的代码，向读者展示如何实践解决问题; 允许快速更新，不仅由我们，还由整个社区更新; 接受技术细节的互动讨论和解答问题的论坛。",
+    "tldr": "《深入深度学习》是一本旨在使深度学习易于理解的开源书籍，提供从概念到代码的教学资源，旨在成为成为应用机器学习科学家的起点，并允许社区快速更新和互动讨论。",
+    "en_tdlr": "\"Dive into Deep Learning\" is an open-source book aimed at making deep learning approachable by teaching readers the concepts and code, serving as a starting point for aspiring applied machine learning scientists, and allowing for rapid updates and interactive discussions within the community."
+}

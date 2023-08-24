@@ -1,0 +1,12 @@
+{
+    "title": "Recording of 50 Business Assignments. (arXiv:2308.12211v1 [cs.SE])",
+    "abstract": "One of the main use cases of process mining is to discover and analyze how users follow business assignments, providing valuable insights into process efficiency and optimization. In this paper, we present a comprehensive dataset consisting of 50 real business processes. The dataset holds significant potential for research in various applications, including task mining and process automation which is a valuable resource for researchers and practitioners.",
+    "link": "http://arxiv.org/abs/2308.12211",
+    "context": "Title: Recording of 50 Business Assignments. (arXiv:2308.12211v1 [cs.SE])\nAbstract: One of the main use cases of process mining is to discover and analyze how users follow business assignments, providing valuable insights into process efficiency and optimization. In this paper, we present a comprehensive dataset consisting of 50 real business processes. The dataset holds significant potential for research in various applications, including task mining and process automation which is a valuable resource for researchers and practitioners.",
+    "path": "papers/23/08/2308.12211.json",
+    "total_tokens": 574,
+    "translated_title": "记录了50个商业任务的数据集",
+    "translated_abstract": "过程挖掘的主要用途之一是发现和分析用户如何完成商业任务，从而提供有关过程效率和优化的有价值见解。本文介绍了一个包含50个真实商业流程的全面数据集。该数据集对于任务挖掘和流程自动化等各种应用具有重要的研究潜力，是研究人员和实践者的宝贵资源。",
+    "tldr": "本文提供了一个包含50个真实商业流程的数据集，用于发现和分析用户完成商业任务的过程，对于任务挖掘和流程自动化等应用具有重要研究潜力。",
+    "en_tdlr": "This paper presents a comprehensive dataset of 50 real business processes for discovering and analyzing how users follow business assignments, which holds significant research potential in applications such as task mining and process automation."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Sequential Cursed Equilibrium. (arXiv:2212.06025v4 [econ.TH] UPDATED)",
+    "abstract": "We propose an extensive-form solution concept, with players that neglect information from hypothetical events, but make inferences from observed events. Our concept modifies cursed equilibrium (Eyster and Rabin, 2005), and allows that players can be 'cursed about' endogenous information.",
+    "link": "http://arxiv.org/abs/2212.06025",
+    "context": "Title: Sequential Cursed Equilibrium. (arXiv:2212.06025v4 [econ.TH] UPDATED)\nAbstract: We propose an extensive-form solution concept, with players that neglect information from hypothetical events, but make inferences from observed events. Our concept modifies cursed equilibrium (Eyster and Rabin, 2005), and allows that players can be 'cursed about' endogenous information.",
+    "path": "papers/22/12/2212.06025.json",
+    "total_tokens": 503,
+    "translated_title": "顺序邪恶均衡",
+    "translated_abstract": "我们提出了一种广泛的形式解概念，其中的参与者忽略了假设事件的信息，但从观察到的事件中进行推断。我们的概念修改了邪恶均衡（Eyster和Rabin，2005），使参与者可以对内生信息感到“邪恶”。",
+    "tldr": "这项研究提出了一种修改的解概念，允许参与者在游戏中忽略假设事件的信息，而从观察到的事件中进行推断。"
+}

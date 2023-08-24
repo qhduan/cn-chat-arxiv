@@ -1,0 +1,12 @@
+{
+    "title": "Physics-informed neural networks with unknown measurement noise. (arXiv:2211.15498v2 [stat.ML] UPDATED)",
+    "abstract": "Physics-informed neural networks (PINNs) constitute a flexible approach to both finding solutions and identifying parameters of partial differential equations. Most works on the topic assume noiseless data, or data contaminated by weak Gaussian noise. We show that the standard PINN framework breaks down in case of non-Gaussian noise. We give a way of resolving this fundamental issue and we propose to jointly train an energy-based model (EBM) to learn the correct noise distribution. We illustrate the improved performance of our approach using multiple examples.",
+    "link": "http://arxiv.org/abs/2211.15498",
+    "context": "Title: Physics-informed neural networks with unknown measurement noise. (arXiv:2211.15498v2 [stat.ML] UPDATED)\nAbstract: Physics-informed neural networks (PINNs) constitute a flexible approach to both finding solutions and identifying parameters of partial differential equations. Most works on the topic assume noiseless data, or data contaminated by weak Gaussian noise. We show that the standard PINN framework breaks down in case of non-Gaussian noise. We give a way of resolving this fundamental issue and we propose to jointly train an energy-based model (EBM) to learn the correct noise distribution. We illustrate the improved performance of our approach using multiple examples.",
+    "path": "papers/22/11/2211.15498.json",
+    "total_tokens": 705,
+    "translated_title": "具有未知测量噪声的物理信息神经网络",
+    "translated_abstract": "物理信息神经网络(PINNs)是一种既能找到解决方案又能识别偏微分方程参数的灵活方法。大多数相关的研究都假设数据是无噪声的，或者是受弱高斯噪声污染的。我们展示了标准PINN框架在非高斯噪声情况下失效的问题，并提出了一种解决这个根本性问题的方法，即同时训练一个能量模型(Energy-Based Model, EBM)来学习正确的噪声分布。我们通过多个例子展示了我们方法的改进性能。",
+    "tldr": "这篇论文提出了一种解决物理信息神经网络在存在非高斯噪声情况下失效的问题的方法，即通过同时训练一个能量模型来学习正确的噪声分布。通过多个例子的实验证明了该方法的改进性能。",
+    "en_tdlr": "This paper proposes a method to address the issue of Physics-informed neural networks breaking down in the presence of non-Gaussian noise by jointly training an energy-based model to learn the correct noise distribution. The improved performance of this approach is demonstrated using multiple examples."
+}

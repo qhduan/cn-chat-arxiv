@@ -1,0 +1,12 @@
+{
+    "title": "VBMO: Voting-Based Multi-Objective Path Planning. (arXiv:2308.11755v1 [cs.AI])",
+    "abstract": "This paper presents VBMO, the Voting-Based Multi-Objective path planning algorithm, that generates optimal single-objective plans, evaluates each of them with respect to the other objectives, and selects one with a voting mechanism. VBMO does not use hand-tuned weights, consider the multiple objectives at every step of search, or use an evolutionary algorithm. Instead, it considers how a plan that is optimal in one objective may perform well with respect to others. VBMO incorporates three voting mechanisms: range, Borda, and combined approval. Extensive evaluation in diverse and complex environments demonstrates the algorithm's ability to efficiently produce plans that satisfy multiple objectives.",
+    "link": "http://arxiv.org/abs/2308.11755",
+    "context": "Title: VBMO: Voting-Based Multi-Objective Path Planning. (arXiv:2308.11755v1 [cs.AI])\nAbstract: This paper presents VBMO, the Voting-Based Multi-Objective path planning algorithm, that generates optimal single-objective plans, evaluates each of them with respect to the other objectives, and selects one with a voting mechanism. VBMO does not use hand-tuned weights, consider the multiple objectives at every step of search, or use an evolutionary algorithm. Instead, it considers how a plan that is optimal in one objective may perform well with respect to others. VBMO incorporates three voting mechanisms: range, Borda, and combined approval. Extensive evaluation in diverse and complex environments demonstrates the algorithm's ability to efficiently produce plans that satisfy multiple objectives.",
+    "path": "papers/23/08/2308.11755.json",
+    "total_tokens": 712,
+    "translated_title": "VBMO: 基于投票的多目标路径规划",
+    "translated_abstract": "本文提出了VBMO，一种基于投票的多目标路径规划算法。该算法生成最优单目标规划，通过评估每个规划相对于其他目标的表现，并使用投票机制选择最佳规划。VBMO不使用手动调节的权重，在搜索的每个步骤中考虑多个目标，也不使用进化算法。相反，它考虑到在一个目标上最优的规划可能在其他目标上表现良好。VBMO使用三种投票机制：范围投票、Borda投票和综合赞成投票。对于多样和复杂环境的广泛评估证明了该算法有效地生成满足多个目标的规划能力。",
+    "tldr": "VBMO是一种基于投票的多目标路径规划算法，通过评估多个最优规划并使用投票机制选择最佳规划，实现了高效满足多个目标的路径规划。",
+    "en_tdlr": "VBMO is a voting-based multi-objective path planning algorithm that efficiently produces plans satisfying multiple objectives by evaluating and selecting the best plan through a voting mechanism."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Multimodal Latent Emotion Recognition from Micro-expression and Physiological Signals. (arXiv:2308.12156v1 [cs.CV])",
+    "abstract": "This paper discusses the benefits of incorporating multimodal data for improving latent emotion recognition accuracy, focusing on micro-expression (ME) and physiological signals (PS). The proposed approach presents a novel multimodal learning framework that combines ME and PS, including a 1D separable and mixable depthwise inception network, a standardised normal distribution weighted feature fusion method, and depth/physiology guided attention modules for multimodal learning. Experimental results show that the proposed approach outperforms the benchmark method, with the weighted fusion method and guided attention modules both contributing to enhanced performance.",
+    "link": "http://arxiv.org/abs/2308.12156",
+    "context": "Title: Multimodal Latent Emotion Recognition from Micro-expression and Physiological Signals. (arXiv:2308.12156v1 [cs.CV])\nAbstract: This paper discusses the benefits of incorporating multimodal data for improving latent emotion recognition accuracy, focusing on micro-expression (ME) and physiological signals (PS). The proposed approach presents a novel multimodal learning framework that combines ME and PS, including a 1D separable and mixable depthwise inception network, a standardised normal distribution weighted feature fusion method, and depth/physiology guided attention modules for multimodal learning. Experimental results show that the proposed approach outperforms the benchmark method, with the weighted fusion method and guided attention modules both contributing to enhanced performance.",
+    "path": "papers/23/08/2308.12156.json",
+    "total_tokens": 713,
+    "translated_title": "多模态潜在情绪识别中微表情和生理信号的研究",
+    "translated_abstract": "本文讨论了将多模态数据引入潜在情绪识别以提高准确性的益处，重点关注微表情（ME）和生理信号（PS）。提出了一种新颖的多模态学习框架，融合了ME和PS，包括一维可分离、可混合的深层网络，标准化的正态分布加权特征融合方法，以及深度/生理学引导的多模态学习注意模块。实验证明，所提出的方法优于基准方法，加权融合方法和注意模块均对性能的提升起到了作用。",
+    "tldr": "本研究讨论了将微表情和生理信号纳入多模态潜在情绪识别的优势，并提出了一种新的多模态学习框架，实验证明该方法在性能上超越了基准方法。",
+    "en_tdlr": "This research discusses the benefits of incorporating micro-expression and physiological signals in multimodal latent emotion recognition, and proposes a novel multimodal learning framework that outperforms the benchmark method in terms of performance."
+}

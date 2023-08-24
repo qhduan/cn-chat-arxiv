@@ -1,0 +1,11 @@
+{
+    "title": "Addressing Data Scarcity in Optical Matrix Multiplier Modeling Using Transfer Learning. (arXiv:2308.11630v1 [cs.LG])",
+    "abstract": "We present and experimentally evaluate using transfer learning to address experimental data scarcity when training neural network (NN) models for Mach-Zehnder interferometer mesh-based optical matrix multipliers. Our approach involves pre-training the model using synthetic data generated from a less accurate analytical model and fine-tuning with experimental data. Our investigation demonstrates that this method yields significant reductions in modeling errors compared to using an analytical model, or a standalone NN model when training data is limited. Utilizing regularization techniques and ensemble averaging, we achieve < 1 dB root-mean-square error on the matrix weights implemented by a photonic chip while using only 25% of the available data.",
+    "link": "http://arxiv.org/abs/2308.11630",
+    "context": "Title: Addressing Data Scarcity in Optical Matrix Multiplier Modeling Using Transfer Learning. (arXiv:2308.11630v1 [cs.LG])\nAbstract: We present and experimentally evaluate using transfer learning to address experimental data scarcity when training neural network (NN) models for Mach-Zehnder interferometer mesh-based optical matrix multipliers. Our approach involves pre-training the model using synthetic data generated from a less accurate analytical model and fine-tuning with experimental data. Our investigation demonstrates that this method yields significant reductions in modeling errors compared to using an analytical model, or a standalone NN model when training data is limited. Utilizing regularization techniques and ensemble averaging, we achieve < 1 dB root-mean-square error on the matrix weights implemented by a photonic chip while using only 25% of the available data.",
+    "path": "papers/23/08/2308.11630.json",
+    "total_tokens": 827,
+    "translated_title": "使用迁移学习解决光学矩阵乘法模型中的数据稀缺问题",
+    "translated_abstract": "我们提出并通过实验证明使用迁移学习可以解决训练Mach-Zehnder干涉仪网状光学矩阵乘法器的神经网络模型时面临的实验数据稀缺问题。我们的方法包括使用从不太准确的解析模型生成的合成数据进行预训练，并使用实验数据进行微调。我们的研究表明，与使用解析模型或独立神经网络模型相比，这种方法可以显著减小建模误差。通过利用正则化技术和集成平均，我们在仅使用25%可用数据的情况下，实现了对由光子芯片实现的矩阵权重的小于1 dB的均方根误差。",
+    "tldr": "本研究使用迁移学习解决了光学矩阵乘法模型训练中的数据稀缺问题，并通过利用合成数据进行预训练和实验数据进行微调，成功减小了建模误差，在仅使用25%数据的情况下实现对矩阵权重的小于1 dB的均方根误差。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Deep learning-based flow disaggregation for hydropower plant management. (arXiv:2308.11631v1 [eess.SP])",
+    "abstract": "High temporal resolution data is a vital resource for hydropower plant management. Currently, only daily resolution data are available for most of Norwegian hydropower plant, however, to achieve more accurate management, sub-daily resolution data are often required. To deal with the wide absence of sub-daily data, time series disaggregation is a potential tool. In this study, we proposed a time series disaggregation model based on deep learning, the model is tested using flow data from a Norwegian flow station, to disaggregate the daily flow into hourly flow. Preliminary results show some promising aspects for the proposed model.",
+    "link": "http://arxiv.org/abs/2308.11631",
+    "context": "Title: Deep learning-based flow disaggregation for hydropower plant management. (arXiv:2308.11631v1 [eess.SP])\nAbstract: High temporal resolution data is a vital resource for hydropower plant management. Currently, only daily resolution data are available for most of Norwegian hydropower plant, however, to achieve more accurate management, sub-daily resolution data are often required. To deal with the wide absence of sub-daily data, time series disaggregation is a potential tool. In this study, we proposed a time series disaggregation model based on deep learning, the model is tested using flow data from a Norwegian flow station, to disaggregate the daily flow into hourly flow. Preliminary results show some promising aspects for the proposed model.",
+    "path": "papers/23/08/2308.11631.json",
+    "total_tokens": 712,
+    "translated_title": "基于深度学习的水电站管理流量分解",
+    "translated_abstract": "高时空分辨率数据对于水电站管理至关重要。目前，大部分挪威水电站只有每日分辨率的数据，然而，为了实现更精确的管理，通常需要亚日分辨率的数据。为了解决亚日数据的普遍缺失，时间序列分解是一种潜在的工具。在本研究中，我们提出了一个基于深度学习的时间序列分解模型，该模型使用挪威某流量测站的数据进行测试，将每日流量分解为每小时流量。初步结果显示了该模型的一些有希望的方面。",
+    "tldr": "本研究提出了一种基于深度学习的时间序列分解模型，用于将每日流量分解为每小时流量，并在挪威某流量测站的数据上进行了测试，初步结果显示了该模型的一些有希望的方面。",
+    "en_tdlr": "This study proposes a deep learning-based time series disaggregation model to disaggregate daily flow into hourly flow. Testing on data from a Norwegian flow station shows promising preliminary results."
+}

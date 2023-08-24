@@ -2,19 +2,103 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Designing an attack-defense game: how to increase robustness of financial transaction models via a competition.](http://arxiv.org/abs/2308.11406) | 通过设计一款攻防游戏，我们研究了使用序列金融数据的神经网络模型的对抗攻击和防御的现状和动态，并且通过分析比赛动态，回答了隐藏模型免受恶意用户攻击的重要性以及需要多长时间才能破解模型的问题。 |
-| [^2] | [From Mundane to Meaningful: AI's Influence on Work Dynamics -- evidence from ChatGPT and Stack Overflow.](http://arxiv.org/abs/2308.11302) | 本研究探讨了ChatGPT对编码问题解决方式的影响，发现它显著减少了问题数量，提高了问题文档质量，以及剩下的问题更加复杂，暗示着AI不仅提升了生产力，还改变了工作方式。 |
-| [^3] | [Network Momentum across Asset Classes.](http://arxiv.org/abs/2308.11294) | 本文研究了跨资产类别的网络动量，通过观察资产间动量传递，提出了一种新的交易信号，并探索了不同类别的连续期货合约之间的动量特征的相互关系。 |
-| [^4] | [Analysis of Optimal Portfolio Management Using Hierarchical Clustering.](http://arxiv.org/abs/2308.11202) | 本研究通过将机器学习应用于马科维茨模型中，使用层次聚类方法改进了组合优化的表现。与马科维茨模型相比，在风险调整的基础上实现了更好的投资组合表现。 |
-| [^5] | [NLP-based detection of systematic anomalies among the narratives of consumer complaints.](http://arxiv.org/abs/2308.11138) | 本文开发了一种基于自然语言处理的方法，用于检测消费者投诉叙述中的系统异常。这种方法可以解决分类算法对于较小且频繁出现的系统异常检测的问题，并将投诉叙述转化为定量数据进行分析。 |
-| [^6] | [Classical Economics: Lost and Found.](http://arxiv.org/abs/2308.11069) | 经济学家认为阿罗和德布鲁的广义均衡模型不能准确描述不断变化的市场，而古典观点对市场机制提供了更好的解释。 |
-| [^7] | ["Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion.](http://arxiv.org/abs/2308.10974) | "引用GPT的“豚鼠试验”是一种创新的智能代理建模方法，利用智能代理代表企业进行竞争和勾结研究。它比使用人类主体进行实验更具成本效益和灵活性，并展现出超越传统代理建模方法的能力。" |
-| [^8] | [Propagation of carbon tax in credit portfolio through macroeconomic factors.](http://arxiv.org/abs/2307.12695) | 我们研究了碳税在信贷组合中的传播，通过考虑宏观经济因素，描述了碳税对公司价值和信贷风险的影响。 |
-| [^9] | [BDG inequalities and their applications for model-free continuous price paths with instant enforcement.](http://arxiv.org/abs/2109.07928) | 本文介绍了一种外度量，通过其在时间$t$和基本事件$\omega$对的集合上的取值来表示立即可阻塞的属性，然后利用BDG不等式定义了一个特定类型的积分，并证明了在即时执行的情况下适用的一些性质。 |
+| [^1] | [Learning to Learn Financial Networks for Optimising Momentum Strategies.](http://arxiv.org/abs/2308.12212) | 这篇论文提出了一个端到端的机器学习框架L2GMOM，它可以同时学习金融网络和优化网络动量策略的交易信号，解决了传统方法依赖昂贵数据库和金融专业知识的问题，并提供了高度可解释的前向传播架构。 |
+| [^2] | [Investigating Short-Term Dynamics in Green Bond Markets.](http://arxiv.org/abs/2308.12179) | 本文研究了绿色债券市场短期动态的影响。通过使用自激励过程和连续时间移动平均模型，研究了债券价格的高频动态，并考虑了价格上行和下行运动的交叉效应。实证结果表明，在与利率公告相关的时间段中，特别是对于能源市场中的发行人，存在差异。 |
+| [^3] | [Retail Demand Forecasting: A Comparative Study for Multivariate Time Series.](http://arxiv.org/abs/2308.11939) | 本研究通过将客户需求的时间序列数据与宏观经济变量相结合，开发并比较了各种回归和机器学习模型，以准确预测零售需求。 |
+| [^4] | [Discrimination and Constraints: Evidence from The Voice.](http://arxiv.org/abs/2308.11922) | 通过The Voice电视节目的盲选实验，发现雇佣过程中的性别偏见导致了劳动力市场的不平等，当选手是异性教练的接受者时，有更大的可能被选中。 |
+| [^5] | [Optimal Robust Reinsurance with Multiple Insurers.](http://arxiv.org/abs/2308.11828) | 本研究探讨了一种面对多种模型不确定性的再保险商策略，其通过设计最大化预期财富的再保险合同，并在保险商模型的重心失真下定价，解决了连续时间的领导者-追随者博弈问题。 |
+| [^6] | [The Impact of Stocks on Correlations of Crop Yields and Prices and on Revenue Insurance Premiums using Semiparametric Quantile Regression.](http://arxiv.org/abs/2308.11805) | 本文使用半参数分位回归研究了股票对作物产量和价格相关性以及收益保险费用的影响。通过惩罚B样条来估计储存条件下的联合分布，并通过模拟研究验证了该方法的有效性。应用该方法进行估计后发现玉米和大豆在美国的储存条件下具有相关性，并计算出相应的收益保险费用。 |
+| [^7] | [Designing an attack-defense game: how to increase robustness of financial transaction models via a competition.](http://arxiv.org/abs/2308.11406) | 通过设计一款攻防游戏，我们研究了使用序列金融数据的神经网络模型的对抗攻击和防御的现状和动态，并且通过分析比赛动态，回答了隐藏模型免受恶意用户攻击的重要性以及需要多长时间才能破解模型的问题。 |
+| [^8] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^9] | [Mapping intra firm trade in the automotive sector: a network approach.](http://arxiv.org/abs/2202.00409) | 本研究提出了一种多层次方法，利用企业和国家层面的数据构建了一组汽车生产链各个环节的国家内部企业贸易网络。通过图形模式检测方法，提取了潜在的国家层面的企业内贸易联系。 |
 
 # 详细
 
-[^1]: 设计一款攻防游戏：通过竞争来增加金融交易模型的鲁棒性
+[^1]: 学习学习金融网络以优化动力策略
+
+    Learning to Learn Financial Networks for Optimising Momentum Strategies. (arXiv:2308.12212v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2308.12212](http://arxiv.org/abs/2308.12212)
+
+    这篇论文提出了一个端到端的机器学习框架L2GMOM，它可以同时学习金融网络和优化网络动量策略的交易信号，解决了传统方法依赖昂贵数据库和金融专业知识的问题，并提供了高度可解释的前向传播架构。
+
+    
+
+    网络动量提供了一种新型的风险溢价，它利用金融网络中资产之间的相互关联来预测未来的回报。然而，目前构建金融网络的过程依赖于昂贵的数据库和金融专业知识，限制了小型和学术机构的可访问性。此外，传统方法将网络构建和投资组合优化视为单独的任务，可能会影响最优投资组合的表现。为了解决这些挑战，我们提出了L2GMOM，一个端到端的机器学习框架，可同时学习金融网络和优化网络动量策略的交易信号。L2GMOM模型是一个具有高度可解释前向传播架构的神经网络，它是从算法展开中推导出来的。L2GMOM具有灵活性，并可以使用不同的投资组合绩效损失函数进行训练，例如负夏普比率。在回测中。
+
+    Network momentum provides a novel type of risk premium, which exploits the interconnections among assets in a financial network to predict future returns. However, the current process of constructing financial networks relies heavily on expensive databases and financial expertise, limiting accessibility for small-sized and academic institutions. Furthermore, the traditional approach treats network construction and portfolio optimisation as separate tasks, potentially hindering optimal portfolio performance. To address these challenges, we propose L2GMOM, an end-to-end machine learning framework that simultaneously learns financial networks and optimises trading signals for network momentum strategies. The model of L2GMOM is a neural network with a highly interpretable forward propagation architecture, which is derived from algorithm unrolling. The L2GMOM is flexible and can be trained with diverse loss functions for portfolio performance, e.g. the negative Sharpe ratio. Backtesting on 
+    
+[^2]: 研究绿色债券市场的短期动态
+
+    Investigating Short-Term Dynamics in Green Bond Markets. (arXiv:2308.12179v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2308.12179](http://arxiv.org/abs/2308.12179)
+
+    本文研究了绿色债券市场短期动态的影响。通过使用自激励过程和连续时间移动平均模型，研究了债券价格的高频动态，并考虑了价格上行和下行运动的交叉效应。实证结果表明，在与利率公告相关的时间段中，特别是对于能源市场中的发行人，存在差异。
+
+    
+
+    本论文从交易活动的角度研究了债券市场中"绿色"标签的影响。研究认为，收益动态变化中的跳跃具有特定的记忆性质，可以通过自激励过程很好地表示。具体而言，我们使用霍克斯过程，并通过连续时间移动平均模型描述强度，研究债券价格的高频动态。我们还引入了模型的双变量扩展，处理价格上行和下行运动的交叉效应。实证结果表明，如果考虑与利率公告相关的时间段，尤其是在能源市场中运营的发行人的情况下，差异会出现。
+
+    The paper investigates the effect of the label green in bond markets from the lens of the trading activity. The idea is that jumps in the dynamics of returns have a specific memory nature that can be well represented through a self-exciting process. Specifically, using Hawkes processes where the intensity is described through a continuous time moving average model, we study the high-frequency dynamics of bond prices. We also introduce a bivariate extension of the model that deals with the cross-effect of upward and downward price movements. Empirical results suggest that differences emerge if we consider periods with relevant interest rate announcements, especially in the case of an issuer operating in the energy market.
+    
+[^3]: 零售需求预测：多元时间序列的比较研究
+
+    Retail Demand Forecasting: A Comparative Study for Multivariate Time Series. (arXiv:2308.11939v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.11939](http://arxiv.org/abs/2308.11939)
+
+    本研究通过将客户需求的时间序列数据与宏观经济变量相结合，开发并比较了各种回归和机器学习模型，以准确预测零售需求。
+
+    
+
+    在零售行业中，准确的需求预测是财务绩效和供应链效率的重要决定因素。随着全球市场日益互联互通，企业开始采用先进的预测模型来获取竞争优势。然而，现有文献主要关注历史销售数据，忽略了宏观经济条件对消费者支出行为的重要影响。在本研究中，我们通过将客户需求的时间序列数据与消费者物价指数（CPI）、消费者信心指数（ICS）和失业率等宏观经济变量相结合，弥补了这一差距。利用这个综合数据集，我们开发并比较了各种回归和机器学习模型，以准确预测零售需求。
+
+    Accurate demand forecasting in the retail industry is a critical determinant of financial performance and supply chain efficiency. As global markets become increasingly interconnected, businesses are turning towards advanced prediction models to gain a competitive edge. However, existing literature mostly focuses on historical sales data and ignores the vital influence of macroeconomic conditions on consumer spending behavior. In this study, we bridge this gap by enriching time series data of customer demand with macroeconomic variables, such as the Consumer Price Index (CPI), Index of Consumer Sentiment (ICS), and unemployment rates. Leveraging this comprehensive dataset, we develop and compare various regression and machine learning models to predict retail demand accurately.
+    
+[^4]: 歧视和限制：来自The Voice的证据
+
+    Discrimination and Constraints: Evidence from The Voice. (arXiv:2308.11922v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.11922](http://arxiv.org/abs/2308.11922)
+
+    通过The Voice电视节目的盲选实验，发现雇佣过程中的性别偏见导致了劳动力市场的不平等，当选手是异性教练的接受者时，有更大的可能被选中。
+
+    
+
+    性别歧视在雇佣过程中是导致劳动力市场不平等的一个重要因素。然而，关于雇佣经理人的性别偏见在这些不平等中起到了多大程度的作用，目前还没有太多证据。本文利用The Voice电视节目的独特数据集，将其作为一个实验，以识别选择过程中自身的性别偏见。在第一轮电视台面试中，有四位著名录音艺术家担任导师，他们会盲选（椅子背对舞台）以避免看到选手。通过差异法估计策略，可以证明教练（雇佣人）和艺术家的性别是外生的，我发现当选手是异性教练的接受者时，他们更有4.5个百分点（11％）的可能性被选中。我还使用Athey等人（2018）的机器学习方法，包括团队性别组成的异质性。
+
+    Gender discrimination in the hiring process is one significant factor contributing to labor market disparities. However, there is little evidence on the extent to which gender bias by hiring managers is responsible for these disparities. In this paper, I exploit a unique dataset of blind auditions of The Voice television show as an experiment to identify own gender bias in the selection process. The first televised stage audition, in which four noteworthy recording artists are coaches, listens to the contestants blindly (chairs facing away from the stage) to avoid seeing the contestant. Using a difference-in-differences estimation strategy, a coach (hiring person) is demonstrably exogenous with respect to the artist's gender, I find that artists are 4.5 percentage points (11 percent) more likely to be selected when they are the recipients of an opposite-gender coach. I also utilize the machine-learning approach in Athey et al. (2018) to include heterogeneity from team gender compositio
+    
+[^5]: 多家保险商的最优鲁棒再保险研究
+
+    Optimal Robust Reinsurance with Multiple Insurers. (arXiv:2308.11828v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2308.11828](http://arxiv.org/abs/2308.11828)
+
+    本研究探讨了一种面对多种模型不确定性的再保险商策略，其通过设计最大化预期财富的再保险合同，并在保险商模型的重心失真下定价，解决了连续时间的领导者-追随者博弈问题。
+
+    
+
+    我们研究了一家面临多个模型不确定性的再保险商。再保险商向$n$家保险商提供合同，其索赔遵循不同的复合泊松过程。由于再保险商对于保险商的索赔严重程度分布和频率存在不确定性，他们设计了最大化预期财富的再保险合同，同时还需要承担一个熵惩罚。而保险商则寻求在无歧义的情况下最大化他们的预期效用。我们解决了这个连续时间的领导者-追随者博弈问题，得到再保险商在保险商模型的重心失真下的定价方式。我们将这些结果应用到比例再保险和超额损失再保险合同，并进行了数值解析。此外，我们还解决了再保险商在模糊情况下最大化他们的预期效用的相关问题，并比较了解的不同。
+
+    We study a reinsurer who faces multiple sources of model uncertainty. The reinsurer offers contracts to $n$ insurers whose claims follow different compound Poisson processes. As the reinsurer is uncertain about the insurers' claim severity distributions and frequencies, they design reinsurance contracts that maximise their expected wealth subject to an entropy penalty. Insurers meanwhile seek to maximise their expected utility without ambiguity. We solve this continuous-time Stackelberg game for general reinsurance contracts and find that the reinsurer prices under a distortion of the barycentre of the insurers' models. We apply our results to proportional reinsurance and excess-of-loss reinsurance contracts, and illustrate the solutions numerically. Furthermore, we solve the related problem where the reinsurer maximises, still under ambiguity, their expected utility and compare the solutions.
+    
+[^6]: 股票对作物产量和价格相关性以及收益保险费用的影响：使用半参数分位回归研究
+
+    The Impact of Stocks on Correlations of Crop Yields and Prices and on Revenue Insurance Premiums using Semiparametric Quantile Regression. (arXiv:2308.11805v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.11805](http://arxiv.org/abs/2308.11805)
+
+    本文使用半参数分位回归研究了股票对作物产量和价格相关性以及收益保险费用的影响。通过惩罚B样条来估计储存条件下的联合分布，并通过模拟研究验证了该方法的有效性。应用该方法进行估计后发现玉米和大豆在美国的储存条件下具有相关性，并计算出相应的收益保险费用。
+
+    
+
+    作物产量和收获价格常常被认为是负相关的，因此通过稳定收益来作为自然风险管理对冲。储存理论认为，该相关性是从前几年的库存中得出的一个递增函数。储存条件下的二阶矩对于短缺期间的价格波动和对冲需求具有影响，而空间上变化的产量-价格相关结构对于谁从商品支持政策中受益具有影响。在本文中，我们提出使用惩罚B样条的半参数分位回归（SQR）来估计储存条件下的产量和价格的联合分布。通过全面的模拟研究验证的提出方法，允许使用SQR从真实的联合分布中抽样。然后，将其应用于估计美国玉米和大豆的储存条件下的相关性和收益保险费用。对于这两种作物，Cornbelt c
+
+    Crop yields and harvest prices are often considered to be negatively correlated, thus acting as a natural risk management hedge through stabilizing revenues. Storage theory gives reason to believe that the correlation is an increasing function of stocks carried over from previous years. Stock-conditioned second moments have implications for price movements during shortages and for hedging needs, while spatially varying yield-price correlation structures have implications for who benefits from commodity support policies. In this paper, we propose to use semi-parametric quantile regression (SQR) with penalized B-splines to estimate a stock-conditioned joint distribution of yield and price. The proposed method, validated through a comprehensive simulation study, enables sampling from the true joint distribution using SQR. Then it is applied to approximate stock-conditioned correlation and revenue insurance premium for both corn and soybeans in the United States. For both crops, Cornbelt c
+    
+[^7]: 设计一款攻防游戏：通过竞争来增加金融交易模型的鲁棒性
 
     Designing an attack-defense game: how to increase robustness of financial transaction models via a competition. (arXiv:2308.11406v1 [cs.LG])
 
@@ -28,116 +112,32 @@
 
     Given the escalating risks of malicious attacks in the finance sector and the consequential severe damage, a thorough understanding of adversarial strategies and robust defense mechanisms for machine learning models is critical. The threat becomes even more severe with the increased adoption in banks more accurate, but potentially fragile neural networks. We aim to investigate the current state and dynamics of adversarial attacks and defenses for neural network models that use sequential financial data as the input.  To achieve this goal, we have designed a competition that allows realistic and detailed investigation of problems in modern financial transaction data. The participants compete directly against each other, so possible attacks and defenses are examined in close-to-real-life conditions. Our main contributions are the analysis of the competition dynamics that answers the questions on how important it is to conceal a model from malicious users, how long does it take to break i
     
-[^2]: 从日常到有意义：AI对工作动态的影响 - 来自ChatGPT和Stack Overflow的证据
+[^8]: 期权的价格发现
 
-    From Mundane to Meaningful: AI's Influence on Work Dynamics -- evidence from ChatGPT and Stack Overflow. (arXiv:2308.11302v1 [econ.GN])
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2308.11302](http://arxiv.org/abs/2308.11302)
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
 
-    本研究探讨了ChatGPT对编码问题解决方式的影响，发现它显著减少了问题数量，提高了问题文档质量，以及剩下的问题更加复杂，暗示着AI不仅提升了生产力，还改变了工作方式。
-
-    
-
-    本文阐述了生成式AI如何为巨大的生产力提升提供机会，同时也引发了关于这些新强大技术对我们工作和共享知识方式的影响的问题。具体而言，我们探讨了ChatGPT如何改变了编码的一个基本方面：问题解决。为此，我们利用了ChatGPT在2022年11月30日突然发布对最大的在线编码社区Stack Overflow使用的影响。使用准实验方法（差分准差法），我们发现问题数量显著下降。此外，在ChatGPT发布后，问题的文档更加完善。最后，我们发现剩下的问题更加复杂。这些发现不仅表明了生产力的提升，而且还表明了我们工作方式的根本变化，其中AI解决了常规查询，使人们能够专注于更复杂的任务。
-
-    This paper illustrates how generative AI could give opportunities for big productivity gains but also opens up questions about the impact of these new powerful technologies on the way we work and share knowledge. More specifically, we explore how ChatGPT changed a fundamental aspect of coding: problem-solving. To do so, we exploit the effect of the sudden release of ChatGPT on the 30th of November 2022 on the usage of the largest online community for coders: Stack Overflow. Using quasi-experimental methods (Difference-in-Difference), we find a significant drop in the number of questions. In addition, the questions are better documented after the release of ChatGPT. Finally, we find evidence that the remaining questions are more complex. These findings suggest not only productivity gains but also a fundamental change in the way we work where routine inquiries are solved by AI allowing humans to focus on more complex tasks.
-    
-[^3]: 跨资产类别的网络动量
-
-    Network Momentum across Asset Classes. (arXiv:2308.11294v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2308.11294](http://arxiv.org/abs/2308.11294)
-
-    本文研究了跨资产类别的网络动量，通过观察资产间动量传递，提出了一种新的交易信号，并探索了不同类别的连续期货合约之间的动量特征的相互关系。
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
 
     
 
-    我们研究了网络动量概念，这是一种从资产间动量传递中得出的新型交易信号。起初，我们只在经济和基本联系中观察到这种现象，例如同一公司的股票-债券关系和通过供求链相连的股票，动量传递意味着动量风险溢价从一个资产传递到另一个资产。动量风险溢价的相似性，如共动性模式所示，已经在多个资产类别中被发现，包括商品、股票、债券和货币。然而，由于缺乏公司层面之外的共同特征或经济联系，研究动量传递的网络效应在这些类别之间一直面临挑战。在本文中，我们探索了跨越这四个类别的64个连续期货合约的动量特征之间的相互关系。我们利用了一个线性且可解释的图学习模型，通过最小化损失函数来学习网络中的动量特征。
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
 
-    We investigate the concept of network momentum, a novel trading signal derived from momentum spillover across assets. Initially observed within the confines of pairwise economic and fundamental ties, such as the stock-bond connection of the same company and stocks linked through supply-demand chains, momentum spillover implies a propagation of momentum risk premium from one asset to another. The similarity of momentum risk premium, exemplified by co-movement patterns, has been spotted across multiple asset classes including commodities, equities, bonds and currencies. However, studying the network effect of momentum spillover across these classes has been challenging due to a lack of readily available common characteristics or economic ties beyond the company level. In this paper, we explore the interconnections of momentum features across a diverse range of 64 continuous future contracts spanning these four classes. We utilise a linear and interpretable graph learning model with minim
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^4]: 使用层次聚类分析的最优组合管理分析
+[^9]: 在汽车行业中的企业内贸易的映射: 一种网络方法
 
-    Analysis of Optimal Portfolio Management Using Hierarchical Clustering. (arXiv:2308.11202v1 [q-fin.PM])
+    Mapping intra firm trade in the automotive sector: a network approach. (arXiv:2202.00409v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2308.11202](http://arxiv.org/abs/2308.11202)
+    [http://arxiv.org/abs/2202.00409](http://arxiv.org/abs/2202.00409)
 
-    本研究通过将机器学习应用于马科维茨模型中，使用层次聚类方法改进了组合优化的表现。与马科维茨模型相比，在风险调整的基础上实现了更好的投资组合表现。
-
-    
-
-    组合优化是投资者用来确定最佳配置的任务，基金经理则通过实施计算模型来辅助决策。尽管行业中最常见的组合优化模型是马科维茨模型，但实践者认识到其框架存在限制，导致样本外表现亚优和配置不实际。在这项研究中，我通过将机器学习纳入马科维茨模型以提高组合表现。通过使用基于层次聚类的方法，我能够在风险调整基础上提升组合表现，并在各种市场因素上超过马科维茨模型。
-
-    Portfolio optimization is a task that investors use to determine the best allocations for their investments, and fund managers implement computational models to help guide their decisions. While one of the most common portfolio optimization models in the industry is the Markowitz Model, practitioners recognize limitations in its framework that lead to suboptimal out-of-sample performance and unrealistic allocations. In this study, I refine the Markowitz Model by incorporating machine learning to improve portfolio performance. By using a hierarchical clustering-based approach, I am able to enhance portfolio performance on a risk-adjusted basis compared to the Markowitz Model, across various market factors.
-    
-[^5]: 基于自然语言处理的消费者投诉叙述中系统异常的检测方法
-
-    NLP-based detection of systematic anomalies among the narratives of consumer complaints. (arXiv:2308.11138v1 [stat.ME])
-
-    [http://arxiv.org/abs/2308.11138](http://arxiv.org/abs/2308.11138)
-
-    本文开发了一种基于自然语言处理的方法，用于检测消费者投诉叙述中的系统异常。这种方法可以解决分类算法对于较小且频繁出现的系统异常检测的问题，并将投诉叙述转化为定量数据进行分析。
+    本研究提出了一种多层次方法，利用企业和国家层面的数据构建了一组汽车生产链各个环节的国家内部企业贸易网络。通过图形模式检测方法，提取了潜在的国家层面的企业内贸易联系。
 
     
 
-    我们开发了一种基于自然语言处理的方法，用于检测投诉叙述中的系统异常，简称为系统异常。尽管分类算法被用于检测明显的异常，但在较小且频繁出现的系统异常情况下，算法可能会因为各种原因而失效，包括技术原因和人工分析师的自然限制。因此，在分类之后的下一步中，我们将投诉叙述转化为定量数据，然后使用一种算法来检测系统异常。我们使用消费者金融保护局的消费者投诉数据库中的投诉叙述来说明整个过程。
+    企业内贸易描述的是附属企业之间的贸易，随着全球生产的分散化，它变得越来越重要。然而，关于全球企业内贸易模式的统计数据普遍不可得。本研究提出了一种新颖的多层次方法，将企业和国家层面的数据结合起来，构建了一组汽车生产链各个环节的国家内部企业贸易网络。在宏观层面上构建了一种多层次网络，其中包括国际贸易网络、微观层面上的企业所有权网络以及将两者连接起来的企业-国家隶属网络。采用图形模式检测方法来筛选这些网络，提取潜在的国家内部企业贸易联系，其中模式（或子结构）是由贸易相连的两个国家，每个国家都附属于一个企业，而这两个企业又通过所有权联系在一起。图形模式检测用于提取潜在的国家层面的企业内贸易联系。
 
-    We develop an NLP-based procedure for detecting systematic nonmeritorious consumer complaints, simply called systematic anomalies, among complaint narratives. While classification algorithms are used to detect pronounced anomalies, in the case of smaller and frequent systematic anomalies, the algorithms may falter due to a variety of reasons, including technical ones as well as natural limitations of human analysts. Therefore, as the next step after classification, we convert the complaint narratives into quantitative data, which are then analyzed using an algorithm for detecting systematic anomalies. We illustrate the entire procedure using complaint narratives from the Consumer Complaint Database of the Consumer Financial Protection Bureau.
-    
-[^6]: 古典经济学：遗失与重拾
-
-    Classical Economics: Lost and Found. (arXiv:2308.11069v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.11069](http://arxiv.org/abs/2308.11069)
-
-    经济学家认为阿罗和德布鲁的广义均衡模型不能准确描述不断变化的市场，而古典观点对市场机制提供了更好的解释。
-
-    
-
-    当经济学家将阿罗和德布鲁的广义均衡模型视为准确描述实际不断变化的市场时，他们错过了真实世界中市场的本质。相比之下，古典观点对市场机制提供了一个有益的基础，可以融入现代的见解，解释市场如何创造和协调信息。
-
-    "Economists miss the boat when they act as if Arrow and Debreu's general equilibrium model accurately describes markets in the real world of constant change. In contrast, the classical view on the market mechanism offers a helpful foundation on which to add modern insights about how markets create and coordinate information."
-    
-[^7]: "引用GPT的“豚鼠试验”：一种研究企业竞争和勾结的创新智能代理建模方法"
-
-    "Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion. (arXiv:2308.10974v1 [cs.AI])
-
-    [http://arxiv.org/abs/2308.10974](http://arxiv.org/abs/2308.10974)
-
-    "引用GPT的“豚鼠试验”是一种创新的智能代理建模方法，利用智能代理代表企业进行竞争和勾结研究。它比使用人类主体进行实验更具成本效益和灵活性，并展现出超越传统代理建模方法的能力。"
-
-    
-
-    企业竞争和勾结涉及复杂的动态，尤其是考虑到企业之间的沟通。这些问题可以被建模为复杂系统的问题，传统上通过涉及人类主体或基于代理的建模方法进行探究。我们提出了一种创新的框架，称为智能代理建模（SABM），其中由GPT-4技术支持的智能代理代表企业并相互交互。我们进行了一项控制实验，研究了不同条件下企业价格竞争和勾结行为。与使用人类主体进行实验相比，SABM更具成本效益和灵活性。智能代理拥有决策的广泛知识库，展现出类似人类的战略能力，超越了传统的基于代理的建模方法。此外，智能代理能够模拟人类对话并个性化，使其成为研究涉及沟通的复杂情况的理想选择。我们的结果表明...
-
-    Firm competition and collusion involve complex dynamics, particularly when considering communication among firms. Such issues can be modeled as problems of complex systems, traditionally approached through experiments involving human subjects or agent-based modeling methods. We propose an innovative framework called Smart Agent-Based Modeling (SABM), wherein smart agents, supported by GPT-4 technologies, represent firms, and interact with one another. We conducted a controlled experiment to study firm price competition and collusion behaviors under various conditions. SABM is more cost-effective and flexible compared to conducting experiments with human subjects. Smart agents possess an extensive knowledge base for decision-making and exhibit human-like strategic abilities, surpassing traditional ABM agents. Furthermore, smart agents can simulate human conversation and be personalized, making them ideal for studying complex situations involving communication. Our results demonstrate th
-    
-[^8]: 碳税在信贷组合中的传播通过宏观经济因素
-
-    Propagation of carbon tax in credit portfolio through macroeconomic factors. (arXiv:2307.12695v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2307.12695](http://arxiv.org/abs/2307.12695)
-
-    我们研究了碳税在信贷组合中的传播，通过考虑宏观经济因素，描述了碳税对公司价值和信贷风险的影响。
-
-    
-
-    我们研究了碳税在封闭经济中如何在信贷组合中传播，并准确描述了碳税动态如何影响公司价值和信贷风险度量。我们采用随机多部门模型来考虑碳税对部门公司生产和家庭消费的影响。税收根据NGFS情景提供的碳价格进行校准，以及部门家庭消费和公司生产以及其相关温室气体排放。对于每个部门，这产生了公司生产和家庭消费对碳税的敏感度以及部门之间的关系。我们的模型允许我们分析短期碳税的影响，与标准的整体评估模型相反，后者既是确定性的，又只能捕捉气候过渡政策的长期趋势。最后，我们使用折现现金流量法来计算公司的价值，然后用它来进行资产定价和信用风险评估。
-
-    We study how the introduction of carbon taxes in a closed economy propagate in a credit portfolio and precisely describe how carbon taxes dynamics affect the firm value and credit risk measures. We adapt a stochastic multisectoral model to take into account carbon taxes on both sectoral firms' production and household's consumption. Taxes are calibrated on carbon prices, provided by the NGFS scenarios, as well as on sectoral households' consumption and firms' production, together with their related greenhouse gases emissions. For each sector, this yields the sensitivity of firms' production and households' consumption to carbon taxes and the relationships between sectors. Our model allows us to analyze the short-term effects of carbon taxes as opposed to standard Integrated Assessment Models, which are not only deterministic but also only capture long-term trends of climate transition policy. Finally, we use a Discounted Cash Flows methodology to compute firms' values which we then use
-    
-[^9]: BDG不等式及其在无模型连续价格路径中的应用
-
-    BDG inequalities and their applications for model-free continuous price paths with instant enforcement. (arXiv:2109.07928v4 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2109.07928](http://arxiv.org/abs/2109.07928)
-
-    本文介绍了一种外度量，通过其在时间$t$和基本事件$\omega$对的集合上的取值来表示立即可阻塞的属性，然后利用BDG不等式定义了一个特定类型的积分，并证明了在即时执行的情况下适用的一些性质。
-
-    
-
-    Shafer和Vovk在他们的书中介绍了“即时执行”和“即时阻塞”属性的概念。然而，与Vovk在“典型”价格路径集合的情况不同，他们没有将这些概念与任何外度量联系起来。在本文中，我们引入了一个外度量，它在空间$[0, +\infty) \times \Omega$上赋予那些立即可阻塞的时间$t$和基本事件$\omega$对的集合（属性）以零值。接下来，对于一个稍微修改的度量，我们证明了It\^o的等距定理和BDG不等式，然后使用它们定义了一个It\^o型积分。此外，我们证明了无模型连续鞅的二次变差的几个属性，它们在即时执行的情况下成立。
-
-    Shafer and Vovk introduce in their book \cite{ShaferVovk:2018} the notion of \emph{instant enforcement} and \emph{instantly blockable} properties. However, they do not associate these notions with any outer measure, unlike what Vovk did in the case of sets of ''typical'' price paths. In this paper we introduce an outer measure on the space $[0, +\ns) \times \Omega$ which assigns zero value exactly to those sets (properties) of pairs of time $t$ and an elementary event $\omega$ which are instantly blockable. Next, for a slightly modified measure, we prove It\^o's isometry and BDG inequalities, and then use them to define an It\^o-type integral. Additionally, we prove few properties for the quadratic variation of model-free, continuous martingales, which hold with instant enforcement.
+    Intra-firm trade describes the trade between affiliated firms and is increasingly important as global production is fragmented. However, statistics and data on global intra-firm trade patterns are widely unavailable. This study proposes a novel multilevel approach combining firm and country level data to construct a set of country intra-firm trade networks for various segments of the automotive production chain. A multilevel network is constructed with a network of international trade at the macro level, a firm ownership network at the micro level and a firm-country affiliation network linking the two, at the meso level. A motif detection approach is used to filter these networks to extract potential intra-firm trade ties between countries, where the motif (or substructure) is two countries linked by trade, each affiliated with a firm, and these two firms linked by ownership. The motif detection is used to extract potential country level intra-firm trade ties. An Exponential Random Gra
     
 

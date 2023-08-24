@@ -1,0 +1,11 @@
+{
+    "title": "Patient Clustering via Integrated Profiling of Clinical and Digital Data. (arXiv:2308.11748v1 [cs.LG])",
+    "abstract": "We introduce a novel profile-based patient clustering model designed for clinical data in healthcare. By utilizing a method grounded on constrained low-rank approximation, our model takes advantage of patients' clinical data and digital interaction data, including browsing and search, to construct patient profiles. As a result of the method, nonnegative embedding vectors are generated, serving as a low-dimensional representation of the patients. Our model was assessed using real-world patient data from a healthcare web portal, with a comprehensive evaluation approach which considered clustering and recommendation capabilities. In comparison to other baselines, our approach demonstrated superior performance in terms of clustering coherence and recommendation accuracy.",
+    "link": "http://arxiv.org/abs/2308.11748",
+    "context": "Title: Patient Clustering via Integrated Profiling of Clinical and Digital Data. (arXiv:2308.11748v1 [cs.LG])\nAbstract: We introduce a novel profile-based patient clustering model designed for clinical data in healthcare. By utilizing a method grounded on constrained low-rank approximation, our model takes advantage of patients' clinical data and digital interaction data, including browsing and search, to construct patient profiles. As a result of the method, nonnegative embedding vectors are generated, serving as a low-dimensional representation of the patients. Our model was assessed using real-world patient data from a healthcare web portal, with a comprehensive evaluation approach which considered clustering and recommendation capabilities. In comparison to other baselines, our approach demonstrated superior performance in terms of clustering coherence and recommendation accuracy.",
+    "path": "papers/23/08/2308.11748.json",
+    "total_tokens": 757,
+    "translated_title": "通过综合分析临床和数字数据进行患者聚类",
+    "translated_abstract": "我们引入了一种新型的基于个人配置的患者聚类模型，该模型针对医疗保健中的临床数据设计。通过利用基于约束的低秩近似方法，我们的模型利用患者的临床数据和数字交互数据（包括浏览和搜索）来构建患者配置。作为该方法的结果，生成了非负的嵌入向量，作为患者的低维表示。我们使用来自医疗保健网站的真实患者数据对我们的模型进行了评估，采用了综合评估方法，考虑了聚类和推荐能力。与其他基线相比，我们的方法在聚类一致性和推荐准确性方面表现出卓越的性能。",
+    "tldr": "本研究引入了一种基于个人配置的患者聚类模型，利用临床数据和数字交互数据构建患者配置，通过综合评估显示出卓越的聚类性能和推荐准确性。"
+}
