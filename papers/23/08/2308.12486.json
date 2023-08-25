@@ -1,0 +1,12 @@
+{
+    "title": "A Model of Sequential Learning based on Non-Axiomatic Logic. (arXiv:2308.12486v1 [cs.AI])",
+    "abstract": "Sequential learning is a fundamental function of an intelligent agent. This technical report introduces a model of sequential learning, which is interpretable through Non-Axiomatic Logic. The learning procedure includes three steps, hypothesizing, revising, and recycling, and can work under the Assumption of Insufficient Knowledge and Resources. Although there are limitations for the current design, the model has been proven effective in some simple cases.",
+    "link": "http://arxiv.org/abs/2308.12486",
+    "context": "Title: A Model of Sequential Learning based on Non-Axiomatic Logic. (arXiv:2308.12486v1 [cs.AI])\nAbstract: Sequential learning is a fundamental function of an intelligent agent. This technical report introduces a model of sequential learning, which is interpretable through Non-Axiomatic Logic. The learning procedure includes three steps, hypothesizing, revising, and recycling, and can work under the Assumption of Insufficient Knowledge and Resources. Although there are limitations for the current design, the model has been proven effective in some simple cases.",
+    "path": "papers/23/08/2308.12486.json",
+    "total_tokens": 647,
+    "translated_title": "基于非公理逻辑的顺序学习模型",
+    "translated_abstract": "顺序学习是智能代理的基本功能。本技术报告介绍了一个基于非公理逻辑的顺序学习模型。学习过程包括假设、修正和循环三个步骤，并可以适用于知识和资源不足的情况。虽然当前设计存在一定限制，但该模型已在一些简单案例中证明有效。",
+    "tldr": "这个论文提出了一个基于非公理逻辑的顺序学习模型，用于智能代理的学习功能。它包含假设、修正和循环三个步骤，并在知识和资源不足的情况下工作。尽管有一些限制，但该模型已在一些简单案例中证明有效。",
+    "en_tdlr": "This paper introduces a model of sequential learning based on non-axiomatic logic for the learning function of intelligent agents. It includes hypothesizing, revising, and recycling steps and works under the assumption of insufficient knowledge and resources. Despite some limitations, the model has been proven effective in some simple cases."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Integer Factorisation, Fermat & Machine Learning on a Classical Computer. (arXiv:2308.12290v1 [cs.LG])",
+    "abstract": "In this paper we describe a deep learning--based probabilistic algorithm for integer factorisation. We use Lawrence's extension of Fermat's factorisation algorithm to reduce the integer factorisation problem to a binary classification problem. To address the classification problem, based on the ease of generating large pseudo--random primes, a corpus of training data, as large as needed, is synthetically generated. We will introduce the algorithm, summarise some experiments, analyse where these experiments fall short, and finally put out a call to others to reproduce, verify and see if this approach can be improved to a point where it becomes a practical, scalable factorisation algorithm.",
+    "link": "http://arxiv.org/abs/2308.12290",
+    "context": "Title: Integer Factorisation, Fermat & Machine Learning on a Classical Computer. (arXiv:2308.12290v1 [cs.LG])\nAbstract: In this paper we describe a deep learning--based probabilistic algorithm for integer factorisation. We use Lawrence's extension of Fermat's factorisation algorithm to reduce the integer factorisation problem to a binary classification problem. To address the classification problem, based on the ease of generating large pseudo--random primes, a corpus of training data, as large as needed, is synthetically generated. We will introduce the algorithm, summarise some experiments, analyse where these experiments fall short, and finally put out a call to others to reproduce, verify and see if this approach can be improved to a point where it becomes a practical, scalable factorisation algorithm.",
+    "path": "papers/23/08/2308.12290.json",
+    "total_tokens": 738,
+    "translated_title": "整数因式分解、费马和机器学习在经典计算机上的应用",
+    "translated_abstract": "本文描述了一种基于深度学习的概率算法用于整数因式分解。我们使用劳伦斯对费马因式分解算法的扩展，将整数因式分解问题转化为二元分类问题。为了解决分类问题，在能够生成大型伪随机素数的便利性基础上，我们合成生成了一组训练数据。我们将介绍该算法，总结一些实验，分析这些实验的不足之处，并呼吁其他人重现、验证并探索是否可以改进这种方法，使其成为一种实用的可扩展的因式分解算法。",
+    "tldr": "这篇论文介绍了一种基于深度学习的整数因式分解概率算法，通过将问题转化为二元分类问题，通过大量合成生成的训练数据，可以在经典计算机上应用，具有实用性和可扩展性。",
+    "en_tdlr": "This paper presents a deep learning-based probabilistic algorithm for integer factorization, which transforms the problem into a binary classification task. By utilizing a large corpus of synthetically generated training data, this approach can be applied on classical computers and shows practicality and scalability."
+}

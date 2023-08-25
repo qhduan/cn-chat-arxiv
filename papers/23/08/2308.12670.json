@@ -1,0 +1,12 @@
+{
+    "title": "Optimal data pooling for shared learning in maintenance operations. (arXiv:2308.12670v1 [cs.LG])",
+    "abstract": "This paper addresses the benefits of pooling data for shared learning in maintenance operations. We consider a set of systems subject to Poisson degradation that are coupled through an a-priori unknown rate. Decision problems involving these systems are high-dimensional Markov decision processes (MDPs). We present a decomposition result that reduces such an MDP to two-dimensional MDPs, enabling structural analyses and computations. We leverage this decomposition to demonstrate that pooling data can lead to significant cost reductions compared to not pooling.",
+    "link": "http://arxiv.org/abs/2308.12670",
+    "context": "Title: Optimal data pooling for shared learning in maintenance operations. (arXiv:2308.12670v1 [cs.LG])\nAbstract: This paper addresses the benefits of pooling data for shared learning in maintenance operations. We consider a set of systems subject to Poisson degradation that are coupled through an a-priori unknown rate. Decision problems involving these systems are high-dimensional Markov decision processes (MDPs). We present a decomposition result that reduces such an MDP to two-dimensional MDPs, enabling structural analyses and computations. We leverage this decomposition to demonstrate that pooling data can lead to significant cost reductions compared to not pooling.",
+    "path": "papers/23/08/2308.12670.json",
+    "total_tokens": 608,
+    "translated_title": "维护操作中数据共享学习的最优数据汇聚",
+    "translated_abstract": "本文讨论了维护操作中汇聚数据进行共享学习的好处。我们考虑了一组通过先验未知速率相互耦合的泊松退化系统。涉及这些系统的决策问题是高维度马尔可夫决策过程（MDP）。我们提出了一个将这样的MDP分解为二维MDP的分解结果，从而实现结构分析和计算。我们利用这个分解结果证明了数据共享可以相对于不共享时显著降低成本。",
+    "tldr": "本文研究了在维护操作中，通过数据共享学习可以显著降低成本的最优数据汇聚方法。",
+    "en_tdlr": "This paper investigates the optimal data pooling method for shared learning in maintenance operations, showing that it can significantly reduce costs."
+}

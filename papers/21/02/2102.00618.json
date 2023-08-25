@@ -1,0 +1,12 @@
+{
+    "title": "Monotone additive statistics. (arXiv:2102.00618v4 [econ.TH] UPDATED)",
+    "abstract": "The expectation is an example of a descriptive statistic that is monotone with respect to stochastic dominance, and additive for sums of independent random variables. We provide a complete characterization of such statistics, and explore a number of applications to models of individual and group decision-making. These include a representation of stationary monotone time preferences, extending the work of Fishburn and Rubinstein (1982) to time lotteries. This extension offers a new perspective on risk attitudes toward time, as well as on the aggregation of multiple discount factors.",
+    "link": "http://arxiv.org/abs/2102.00618",
+    "context": "Title: Monotone additive statistics. (arXiv:2102.00618v4 [econ.TH] UPDATED)\nAbstract: The expectation is an example of a descriptive statistic that is monotone with respect to stochastic dominance, and additive for sums of independent random variables. We provide a complete characterization of such statistics, and explore a number of applications to models of individual and group decision-making. These include a representation of stationary monotone time preferences, extending the work of Fishburn and Rubinstein (1982) to time lotteries. This extension offers a new perspective on risk attitudes toward time, as well as on the aggregation of multiple discount factors.",
+    "path": "papers/21/02/2102.00618.json",
+    "total_tokens": 676,
+    "translated_title": "单调可加统计量",
+    "translated_abstract": "期望是一种关于随机优胜关系单调且关于独立随机变量之和可加的描述性统计量的示例。我们提供了这类统计量的完整刻画，并探讨了在个体和群体决策模型中的多个应用。其中包括对稳态单调时间偏好的表示，将Fishburn和Rubinstein（1982）的工作扩展到时间抽奖。这种扩展为时间风险态度以及多个折现因子的汇总提供了新的视角。",
+    "tldr": "这篇论文提供了单调可加统计量的完整刻画，探讨了其在个体和群体决策模型中的多个应用，并对稳态单调时间偏好进行了扩展，为时间风险态度和多个折现因子的汇总提供了新的视角。",
+    "en_tdlr": "This paper provides a complete characterization of monotone additive statistics and explores their various applications in individual and group decision-making models. It extends the representation of stationary monotone time preferences and offers a new perspective on risk attitudes towards time and the aggregation of multiple discount factors."
+}

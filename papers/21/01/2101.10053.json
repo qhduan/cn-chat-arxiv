@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Trading with Signals and Stochastic Price Impact. (arXiv:2101.10053v3 [q-fin.MF] UPDATED)",
+    "abstract": "Trading frictions are stochastic. They are, moreover, in many instances fast-mean reverting. Here, we study how to optimally trade in a market with stochastic price impact and study approximations to the resulting optimal control problem using singular perturbation methods. We prove, by constructing sub- and super-solutions, that the approximations are accurate to the specified order. Finally, we perform some numerical experiments to illustrate the effect that stochastic trading frictions have on optimal trading.",
+    "link": "http://arxiv.org/abs/2101.10053",
+    "context": "Title: Optimal Trading with Signals and Stochastic Price Impact. (arXiv:2101.10053v3 [q-fin.MF] UPDATED)\nAbstract: Trading frictions are stochastic. They are, moreover, in many instances fast-mean reverting. Here, we study how to optimally trade in a market with stochastic price impact and study approximations to the resulting optimal control problem using singular perturbation methods. We prove, by constructing sub- and super-solutions, that the approximations are accurate to the specified order. Finally, we perform some numerical experiments to illustrate the effect that stochastic trading frictions have on optimal trading.",
+    "path": "papers/21/01/2101.10053.json",
+    "total_tokens": 658,
+    "translated_title": "信号和随机价格冲击下的最优交易",
+    "translated_abstract": "交易摩擦是随机的，在许多情况下是快速均值回归的。在这里，我们研究了在具有随机价格冲击的市场中如何进行最优交易，并使用奇异摄动方法研究了对应的最优控制问题的近似方法。通过构建次解和超解，我们证明了这些近似是准确的到指定的阶数。最后，我们进行了一些数值实验，以说明随机交易摩擦对最优交易的影响。",
+    "tldr": "本研究探讨了在具有随机价格冲击的市场中的最优交易策略，并使用奇异摄动方法进行了有效的近似。数值实验进一步展示了随机交易摩擦对最优交易的影响。",
+    "en_tdlr": "This study examines optimal trading strategies in a market with stochastic price impact and provides effective approximations using singular perturbation methods. Numerical experiments further demonstrate the impact of stochastic trading frictions on optimal trading."
+}

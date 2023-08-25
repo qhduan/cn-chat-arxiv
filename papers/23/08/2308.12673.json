@@ -1,0 +1,12 @@
+{
+    "title": "Masked Feature Modelling: Feature Masking for the Unsupervised Pre-training of a Graph Attention Network Block for Bottom-up Video Event Recognition. (arXiv:2308.12673v1 [cs.CV])",
+    "abstract": "In this paper, we introduce Masked Feature Modelling (MFM), a novel approach for the unsupervised pre-training of a Graph Attention Network (GAT) block. MFM utilizes a pretrained Visual Tokenizer to reconstruct masked features of objects within a video, leveraging the MiniKinetics dataset. We then incorporate the pre-trained GAT block into a state-of-the-art bottom-up supervised video-event recognition architecture, ViGAT, to improve the model's starting point and overall accuracy. Experimental evaluations on the YLI-MED dataset demonstrate the effectiveness of MFM in improving event recognition performance.",
+    "link": "http://arxiv.org/abs/2308.12673",
+    "context": "Title: Masked Feature Modelling: Feature Masking for the Unsupervised Pre-training of a Graph Attention Network Block for Bottom-up Video Event Recognition. (arXiv:2308.12673v1 [cs.CV])\nAbstract: In this paper, we introduce Masked Feature Modelling (MFM), a novel approach for the unsupervised pre-training of a Graph Attention Network (GAT) block. MFM utilizes a pretrained Visual Tokenizer to reconstruct masked features of objects within a video, leveraging the MiniKinetics dataset. We then incorporate the pre-trained GAT block into a state-of-the-art bottom-up supervised video-event recognition architecture, ViGAT, to improve the model's starting point and overall accuracy. Experimental evaluations on the YLI-MED dataset demonstrate the effectiveness of MFM in improving event recognition performance.",
+    "path": "papers/23/08/2308.12673.json",
+    "total_tokens": 801,
+    "translated_title": "遮罩特征建模：无监督预训练图注意力网络块的特征遮罩方法",
+    "translated_abstract": "本文介绍了一种新颖的方法，即遮罩特征建模(MFM)，用于无监督预训练图注意力网络(GAT)块。MFM利用预训练的视觉分词器来重构视频中对象的遮罩特征，利用MiniKinetics数据集。然后将预训练的GAT块融入到最先进的自底向上有监督视频事件识别架构ViGAT中，以改善模型的起点和整体准确性。在YLI-MED数据集上的实验评估表明，MFM在提高事件识别性能方面具有有效性。",
+    "tldr": "本文提出了一种新的遮罩特征建模方法(MFM)，用于无监督预训练图注意力网络块。通过利用预训练的视觉分词器来重构视频中对象的遮罩特征，将预训练的GAT块融入到视频事件识别架构ViGAT中，以改善模型的性能。",
+    "en_tdlr": "This paper presents a novel approach, Masked Feature Modelling (MFM), for unsupervised pre-training of a Graph Attention Network (GAT) block. By utilizing a pretrained Visual Tokenizer to reconstruct masked features of objects within videos and incorporating the pre-trained GAT block into the video-event recognition architecture ViGAT, the model's performance is improved."
+}

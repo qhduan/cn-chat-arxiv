@@ -1,0 +1,12 @@
+{
+    "title": "A Huber Loss Minimization Approach to Byzantine Robust Federated Learning. (arXiv:2308.12581v1 [cs.LG])",
+    "abstract": "Federated learning systems are susceptible to adversarial attacks. To combat this, we introduce a novel aggregator based on Huber loss minimization, and provide a comprehensive theoretical analysis. Under independent and identically distributed (i.i.d) assumption, our approach has several advantages compared to existing methods. Firstly, it has optimal dependence on $\\epsilon$, which stands for the ratio of attacked clients. Secondly, our approach does not need precise knowledge of $\\epsilon$. Thirdly, it allows different clients to have unequal data sizes. We then broaden our analysis to include non-i.i.d data, such that clients have slightly different distributions.",
+    "link": "http://arxiv.org/abs/2308.12581",
+    "context": "Title: A Huber Loss Minimization Approach to Byzantine Robust Federated Learning. (arXiv:2308.12581v1 [cs.LG])\nAbstract: Federated learning systems are susceptible to adversarial attacks. To combat this, we introduce a novel aggregator based on Huber loss minimization, and provide a comprehensive theoretical analysis. Under independent and identically distributed (i.i.d) assumption, our approach has several advantages compared to existing methods. Firstly, it has optimal dependence on $\\epsilon$, which stands for the ratio of attacked clients. Secondly, our approach does not need precise knowledge of $\\epsilon$. Thirdly, it allows different clients to have unequal data sizes. We then broaden our analysis to include non-i.i.d data, such that clients have slightly different distributions.",
+    "path": "papers/23/08/2308.12581.json",
+    "total_tokens": 780,
+    "translated_title": "一种Huber损失最小化方法用于拜占庭鲁棒的联邦学习",
+    "translated_abstract": "联邦学习系统容易受到对抗攻击。为了应对这个问题，我们引入了一种基于Huber损失最小化的新型聚合器，并提供了全面的理论分析。在独立同分布（i.i.d）假设下，与现有方法相比，我们的方法具有几个优势。首先，它对于被攻击客户端比率$\\epsilon$具有最优的依赖关系。其次，我们的方法不需要对$\\epsilon$有精确的知识。第三，它允许不同的客户端具有不均等的数据大小。然后，我们将分析扩展到包括非i.i.d数据，这意味着客户端具有略有不同的分布。",
+    "tldr": "本文介绍了一种基于Huber损失最小化的新型聚合器用于拜占庭鲁棒的联邦学习。在独立同分布假设下，该方法具有与现有方法相比的优势，并对非i.i.d数据进行了扩展分析。",
+    "en_tdlr": "This paper introduces a novel aggregator based on Huber loss minimization for Byzantine robust federated learning. Under the assumption of independent and identically distributed data, this approach has advantages compared to existing methods and extends the analysis to non-i.i.d data."
+}

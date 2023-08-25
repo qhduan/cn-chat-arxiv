@@ -1,0 +1,12 @@
+{
+    "title": "Geodesic Mode Connectivity. (arXiv:2308.12666v1 [cs.LG])",
+    "abstract": "Mode connectivity is a phenomenon where trained models are connected by a path of low loss. We reframe this in the context of Information Geometry, where neural networks are studied as spaces of parameterized distributions with curved geometry. We hypothesize that shortest paths in these spaces, known as geodesics, correspond to mode-connecting paths in the loss landscape. We propose an algorithm to approximate geodesics and demonstrate that they achieve mode connectivity.",
+    "link": "http://arxiv.org/abs/2308.12666",
+    "context": "Title: Geodesic Mode Connectivity. (arXiv:2308.12666v1 [cs.LG])\nAbstract: Mode connectivity is a phenomenon where trained models are connected by a path of low loss. We reframe this in the context of Information Geometry, where neural networks are studied as spaces of parameterized distributions with curved geometry. We hypothesize that shortest paths in these spaces, known as geodesics, correspond to mode-connecting paths in the loss landscape. We propose an algorithm to approximate geodesics and demonstrate that they achieve mode connectivity.",
+    "path": "papers/23/08/2308.12666.json",
+    "total_tokens": 567,
+    "translated_title": "测地线模式连通性",
+    "translated_abstract": "模式连通性是指训练好的模型之间存在一条低损失路径的现象。我们将这一现象重新解释为信息几何的一部分，其中神经网络被研究为具有曲线几何的参数化分布空间。我们假设这些空间中的最短路径，即测地线，对应于损失景观中的模式连接路径。我们提出了一种近似测地线的算法，并证明其实现了模式连通性。",
+    "tldr": "本文探讨了测地线模式连通性的现象，并提出了一种算法近似测地线，实现了模式连通性。",
+    "en_tdlr": "This paper investigates the phenomenon of geodesic mode connectivity and proposes an algorithm to approximate geodesics, achieving mode connectivity."
+}

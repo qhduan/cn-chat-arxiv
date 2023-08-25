@@ -1,0 +1,12 @@
+{
+    "title": "The Limits of Citation Counts. (arXiv:1711.02695v2 [cs.DL] CROSS LISTED)",
+    "abstract": "I study the measurement of the influence of scientists based on bibliographic data. The main result is an axiomatic characterization of the family of citation-counting indices, a wide class of influence measures which includes the popular h-index. The result highlights several limits of these indices: they cannot be used to compare scientists across fields, nor can they account for indirect influence. I discuss how these limits can be overcome by using richer bibliographic information.",
+    "link": "http://arxiv.org/abs/1711.02695",
+    "context": "Title: The Limits of Citation Counts. (arXiv:1711.02695v2 [cs.DL] CROSS LISTED)\nAbstract: I study the measurement of the influence of scientists based on bibliographic data. The main result is an axiomatic characterization of the family of citation-counting indices, a wide class of influence measures which includes the popular h-index. The result highlights several limits of these indices: they cannot be used to compare scientists across fields, nor can they account for indirect influence. I discuss how these limits can be overcome by using richer bibliographic information.",
+    "path": "papers/17/11/1711.02695.json",
+    "total_tokens": 630,
+    "translated_title": "引用次数的局限性",
+    "translated_abstract": "我研究基于文献数据来衡量科学家影响力的方法。主要结果是对引用计数指数家族进行了公理特征化，这是一类广泛的影响力衡量方法，包括了广为流行的h指数。结果强调了这些指数的几个限制：它们不能用于跨领域比较科学家，也不能考虑间接影响力。我讨论了如何通过使用更丰富的文献信息来克服这些限制。",
+    "tldr": "引用次数作为衡量科学家影响力的指标存在局限性，不能用于跨领域比较科学家，也不能考虑间接影响力。通过使用更丰富的文献信息可以克服这些限制。",
+    "en_tdlr": "Citation counts as a measure of scientists' influence have limitations, as they cannot be used to compare scientists across fields, nor can they account for indirect influence. These limitations can be overcome by using richer bibliographic information."
+}

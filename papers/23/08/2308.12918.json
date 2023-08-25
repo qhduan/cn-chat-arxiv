@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks. (arXiv:2308.12918v1 [cs.LG])",
+    "abstract": "There have been recent adversarial attacks that are difficult to find. These new adversarial attacks methods may pose challenges to current deep learning cyber defense systems and could influence the future defense of cyberattacks. The authors focus on this domain in this research paper. They explore the consequences of vulnerabilities in AI systems. This includes discussing how they might arise, differences between randomized and adversarial examples and also potential ethical implications of vulnerabilities. Moreover, it is important to train the AI systems appropriately when they are in testing phase and getting them ready for broader use.",
+    "link": "http://arxiv.org/abs/2308.12918",
+    "context": "Title: Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks. (arXiv:2308.12918v1 [cs.LG])\nAbstract: There have been recent adversarial attacks that are difficult to find. These new adversarial attacks methods may pose challenges to current deep learning cyber defense systems and could influence the future defense of cyberattacks. The authors focus on this domain in this research paper. They explore the consequences of vulnerabilities in AI systems. This includes discussing how they might arise, differences between randomized and adversarial examples and also potential ethical implications of vulnerabilities. Moreover, it is important to train the AI systems appropriately when they are in testing phase and getting them ready for broader use.",
+    "path": "papers/23/08/2308.12918.json",
+    "total_tokens": 709,
+    "translated_title": "评估机器学习系统在对抗攻击方面的漏洞",
+    "translated_abstract": "最近出现了一些难以发现的对抗攻击。这些新的对抗攻击方法可能对当前的深度学习网络防御系统构成挑战，并可能影响未来网络攻击的防御。本研究论文作者专注于这个领域。他们探讨了AI系统的漏洞带来的后果。这包括讨论漏洞可能发生的原因，随机化和对抗性示例之间的差异，以及漏洞可能引发的道德问题。此外，当AI系统处于测试阶段并准备进行更广泛的使用时，适当进行针对性的训练是至关重要的。",
+    "tldr": "本研究评估了机器学习系统在面对对抗攻击时的漏洞，并讨论了漏洞可能的原因、对抗攻击与随机化示例的差异以及相关的道德问题。",
+    "en_tdlr": "This research evaluates the vulnerabilities in ML systems in the context of adversarial attacks and discusses the potential causes, differences between adversarial and randomized examples, as well as ethical implications."
+}
