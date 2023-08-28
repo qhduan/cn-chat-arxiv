@@ -1,0 +1,12 @@
+{
+    "title": "Scenario generation for market risk models using generative neural networks. (arXiv:2109.10072v5 [cs.LG] UPDATED)",
+    "abstract": "In this research, we show how to expand existing approaches of using generative adversarial networks (GANs) as economic scenario generators (ESG) to a whole internal market risk model - with enough risk factors to model the full band-width of investments for an insurance company and for a one year time horizon as required in Solvency 2. We demonstrate that the results of a GAN-based internal model are similar to regulatory approved internal models in Europe. Therefore, GAN-based models can be seen as a data-driven alternative way of market risk modeling.",
+    "link": "http://arxiv.org/abs/2109.10072",
+    "context": "Title: Scenario generation for market risk models using generative neural networks. (arXiv:2109.10072v5 [cs.LG] UPDATED)\nAbstract: In this research, we show how to expand existing approaches of using generative adversarial networks (GANs) as economic scenario generators (ESG) to a whole internal market risk model - with enough risk factors to model the full band-width of investments for an insurance company and for a one year time horizon as required in Solvency 2. We demonstrate that the results of a GAN-based internal model are similar to regulatory approved internal models in Europe. Therefore, GAN-based models can be seen as a data-driven alternative way of market risk modeling.",
+    "path": "papers/21/09/2109.10072.json",
+    "total_tokens": 669,
+    "translated_title": "使用生成性神经网络进行市场风险模型的场景生成",
+    "translated_abstract": "本研究展示了如何扩展使用生成对抗网络（GAN）作为经济场景生成器（ESG）的现有方法，将其应用于整个内部市场风险模型，以模拟保险公司的全方位投资风险因素，并符合 Solvency 2 所要求的一年时间范围。我们证明了基于 GAN 的内部模型的结果与欧洲监管批准的内部模型类似。因此，可以将基于 GAN 的模型视为一种数据驱动的市场风险建模的替代方式。",
+    "tldr": "本研究展示了如何使用生成性神经网络作为经济场景生成器，将其应用于整个内部市场风险模型，具有与欧洲监管批准的内部模型相似的结果。",
+    "en_tdlr": "This research demonstrates how to use generative neural networks as economic scenario generators for a comprehensive internal market risk model, with results similar to approved internal models in Europe."
+}

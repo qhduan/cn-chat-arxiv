@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian low-rank adaptation for large language models. (arXiv:2308.13111v1 [cs.LG])",
+    "abstract": "Parameter-efficient fine-tuning (PEFT) has emerged as a new paradigm for cost-efficient fine-tuning of large language models (LLMs), with low-rank adaptation (LoRA) being a widely adopted choice. However, fine-tuned LLMs often become overconfident especially on when fine-tuned on smaller datasets. Bayesian methods, with their inherent ability to estimate uncertainty, serve as potent tools to mitigate overconfidence and enhance calibration. In this work, we introduce Laplace-LoRA, a straightforward yet effective Bayesian method, which applies the Laplace approximation to the LoRA parameters and, considerably boosts the calibration of fine-tuned LLMs.",
+    "link": "http://arxiv.org/abs/2308.13111",
+    "context": "Title: Bayesian low-rank adaptation for large language models. (arXiv:2308.13111v1 [cs.LG])\nAbstract: Parameter-efficient fine-tuning (PEFT) has emerged as a new paradigm for cost-efficient fine-tuning of large language models (LLMs), with low-rank adaptation (LoRA) being a widely adopted choice. However, fine-tuned LLMs often become overconfident especially on when fine-tuned on smaller datasets. Bayesian methods, with their inherent ability to estimate uncertainty, serve as potent tools to mitigate overconfidence and enhance calibration. In this work, we introduce Laplace-LoRA, a straightforward yet effective Bayesian method, which applies the Laplace approximation to the LoRA parameters and, considerably boosts the calibration of fine-tuned LLMs.",
+    "path": "papers/23/08/2308.13111.json",
+    "total_tokens": 735,
+    "translated_title": "基于贝叶斯低秩适应的大型语言模型",
+    "translated_abstract": "参数高效的微调（PEFT）已成为大型语言模型（LLMs）成本高效微调的新范式，其中低秩适应（LoRA）被广泛采用。然而，经过微调的LLMs往往变得过于自信，尤其是在较小数据集上进行微调时。贝叶斯方法具有估计不确定性的固有能力，可作为减轻过度自信并增强校准能力的有力工具。在这项工作中，我们引入了Laplace-LoRA，一种直观而有效的贝叶斯方法，它将拉普拉斯近似应用于LoRA参数，并显著提升了经过微调的LLMs的校准能力。",
+    "tldr": "本研究提出了一种名为Laplace-LoRA的贝叶斯方法，通过应用拉普拉斯近似来增强经过微调的大型语言模型的校准能力。",
+    "en_tdlr": "This paper introduces Laplace-LoRA, a Bayesian method that enhances the calibration of fine-tuned large language models by applying the Laplace approximation to the LoRA parameters."
+}

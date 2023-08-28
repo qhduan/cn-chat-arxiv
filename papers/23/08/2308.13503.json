@@ -1,0 +1,11 @@
+{
+    "title": "Attending Generalizability in Course of Deep Fake Detection by Exploring Multi-task Learning. (arXiv:2308.13503v1 [cs.CV])",
+    "abstract": "This work explores various ways of exploring multi-task learning (MTL) techniques aimed at classifying videos as original or manipulated in cross-manipulation scenario to attend generalizability in deep fake scenario. The dataset used in our evaluation is FaceForensics++, which features 1000 original videos manipulated by four different techniques, with a total of 5000 videos. We conduct extensive experiments on multi-task learning and contrastive techniques, which are well studied in literature for their generalization benefits. It can be concluded that the proposed detection model is quite generalized, i.e., accurately detects manipulation methods not encountered during training as compared to the state-of-the-art.",
+    "link": "http://arxiv.org/abs/2308.13503",
+    "context": "Title: Attending Generalizability in Course of Deep Fake Detection by Exploring Multi-task Learning. (arXiv:2308.13503v1 [cs.CV])\nAbstract: This work explores various ways of exploring multi-task learning (MTL) techniques aimed at classifying videos as original or manipulated in cross-manipulation scenario to attend generalizability in deep fake scenario. The dataset used in our evaluation is FaceForensics++, which features 1000 original videos manipulated by four different techniques, with a total of 5000 videos. We conduct extensive experiments on multi-task learning and contrastive techniques, which are well studied in literature for their generalization benefits. It can be concluded that the proposed detection model is quite generalized, i.e., accurately detects manipulation methods not encountered during training as compared to the state-of-the-art.",
+    "path": "papers/23/08/2308.13503.json",
+    "total_tokens": 796,
+    "translated_title": "通过探究多任务学习，解决深度伪造检测中的泛化性问题",
+    "translated_abstract": "本研究探索了多种多任务学习技术的方式，旨在在跨操控场景中将视频分类为原始或被篡改，以解决深度伪造场景中的泛化性问题。我们在FaceForensics++数据集上进行了广泛的实验，该数据集包含1000个原始视频，通过四种不同的技术进行了篡改，共计5000个视频。我们对多任务学习和对比学习技术进行了广泛的实验，这些技术在文献中已经被广泛研究，具有泛化性的好处。可以得出结论：所提出的检测模型非常泛化，即与最先进的方法相比，能够准确检测在训练中未遇到的篡改方法。",
+    "tldr": "本研究通过使用多任务学习技术，在深度伪造检测中解决了泛化性问题。在经过广泛的实验后，研究发现所提出的检测模型能够准确检测训练中未遇到的篡改方法。"
+}

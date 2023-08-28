@@ -1,0 +1,11 @@
+{
+    "title": "Grover Search for Portfolio Selection. (arXiv:2308.13063v1 [q-fin.CP])",
+    "abstract": "We present explicit oracles designed to be used in Grover's algorithm to match investor preferences. Specifically, the oracles select portfolios with returns and standard deviations exceeding and falling below certain thresholds, respectively. One potential use case for the oracles is selecting portfolios with the best Sharpe ratios. We have implemented these algorithms using quantum simulators.",
+    "link": "http://arxiv.org/abs/2308.13063",
+    "context": "Title: Grover Search for Portfolio Selection. (arXiv:2308.13063v1 [q-fin.CP])\nAbstract: We present explicit oracles designed to be used in Grover's algorithm to match investor preferences. Specifically, the oracles select portfolios with returns and standard deviations exceeding and falling below certain thresholds, respectively. One potential use case for the oracles is selecting portfolios with the best Sharpe ratios. We have implemented these algorithms using quantum simulators.",
+    "path": "papers/23/08/2308.13063.json",
+    "total_tokens": 600,
+    "translated_title": "用于组合选择的Grover搜索",
+    "translated_abstract": "我们提出了明确的接口，用于在Grover算法中匹配投资者的偏好。具体而言，这些接口选择收益率和标准差超过和低于特定阈值的组合。接口的一个潜在用例是选择具有最佳夏普比率的组合。我们已经使用量子模拟器实现了这些算法。",
+    "tldr": "该论文通过使用Grover算法和明确的接口，实现了用于组合选择的搜索。接口能够根据投资者的偏好选择具有收益率和标准差超过和低于特定阈值的组合，其中一个用例是选择具有最佳夏普比率的组合。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "DISGO: Automatic End-to-End Evaluation for Scene Text OCR. (arXiv:2308.13173v1 [cs.CV])",
+    "abstract": "This paper discusses the challenges of optical character recognition (OCR) on natural scenes, which is harder than OCR on documents due to the wild content and various image backgrounds. We propose to uniformly use word error rates (WER) as a new measurement for evaluating scene-text OCR, both end-to-end (e2e) performance and individual system component performances. Particularly for the e2e metric, we name it DISGO WER as it considers Deletion, Insertion, Substitution, and Grouping/Ordering errors. Finally we propose to utilize the concept of super blocks to automatically compute BLEU scores for e2e OCR machine translation. The small SCUT public test set is used to demonstrate WER performance by a modularized OCR system.",
+    "link": "http://arxiv.org/abs/2308.13173",
+    "context": "Title: DISGO: Automatic End-to-End Evaluation for Scene Text OCR. (arXiv:2308.13173v1 [cs.CV])\nAbstract: This paper discusses the challenges of optical character recognition (OCR) on natural scenes, which is harder than OCR on documents due to the wild content and various image backgrounds. We propose to uniformly use word error rates (WER) as a new measurement for evaluating scene-text OCR, both end-to-end (e2e) performance and individual system component performances. Particularly for the e2e metric, we name it DISGO WER as it considers Deletion, Insertion, Substitution, and Grouping/Ordering errors. Finally we propose to utilize the concept of super blocks to automatically compute BLEU scores for e2e OCR machine translation. The small SCUT public test set is used to demonstrate WER performance by a modularized OCR system.",
+    "path": "papers/23/08/2308.13173.json",
+    "total_tokens": 746,
+    "translated_title": "DISGO: 自动化端到端评估场景文本OCR",
+    "translated_abstract": "本文讨论了在自然场景中进行光学字符识别（OCR）的挑战，相比于文档上的OCR来说更困难，因为其中包含了各种各样的图像背景。我们提出统一使用词错误率（WER）作为评估场景文本OCR性能的一种新的衡量标准，既可以用于端到端（e2e）性能，也可以用于单个系统组件的性能。特别是对于端到端的度量，我们称其为DISGO WER，因为它考虑了删除、插入、替换和分组/排序错误。最后，我们提出利用超级块的概念来自动计算端到端OCR机器翻译的BLEU分数。使用小规模的SCUT公共测试数据集来演示模块化OCR系统的WER性能。",
+    "tldr": "本文提出了一种自动化评估场景文本OCR的方法，采用统一的词错误率作为衡量标准，考虑了删除、插入、替换和分组/排序错误，同时使用超级块的概念计算BLEU分数。"
+}

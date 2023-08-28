@@ -1,0 +1,11 @@
+{
+    "title": "Training Neural Networks with Universal Adiabatic Quantum Computing. (arXiv:2308.13028v1 [quant-ph])",
+    "abstract": "The training of neural networks (NNs) is a computationally intensive task requiring significant time and resources. This paper presents a novel approach to NN training using Adiabatic Quantum Computing (AQC), a paradigm that leverages the principles of adiabatic evolution to solve optimisation problems. We propose a universal AQC method that can be implemented on gate quantum computers, allowing for a broad range of Hamiltonians and thus enabling the training of expressive neural networks. We apply this approach to various neural networks with continuous, discrete, and binary weights. Our results indicate that AQC can very efficiently find the global minimum of the loss function, offering a promising alternative to classical training methods.",
+    "link": "http://arxiv.org/abs/2308.13028",
+    "context": "Title: Training Neural Networks with Universal Adiabatic Quantum Computing. (arXiv:2308.13028v1 [quant-ph])\nAbstract: The training of neural networks (NNs) is a computationally intensive task requiring significant time and resources. This paper presents a novel approach to NN training using Adiabatic Quantum Computing (AQC), a paradigm that leverages the principles of adiabatic evolution to solve optimisation problems. We propose a universal AQC method that can be implemented on gate quantum computers, allowing for a broad range of Hamiltonians and thus enabling the training of expressive neural networks. We apply this approach to various neural networks with continuous, discrete, and binary weights. Our results indicate that AQC can very efficiently find the global minimum of the loss function, offering a promising alternative to classical training methods.",
+    "path": "papers/23/08/2308.13028.json",
+    "total_tokens": 782,
+    "translated_title": "使用通用绝热量子计算训练神经网络",
+    "translated_abstract": "神经网络（NNs）的训练是一个计算密集型的任务，需要大量的时间和资源。本文提出了一种使用绝热量子计算（AQC）来训练NN的新方法，AQC 是利用绝热演化原理来解决优化问题的一种范式。我们提出了一种可以在门量子计算机上实现的通用 AQC 方法，可以应用于广泛的哈密顿量，从而实现对具有表达力的神经网络进行训练。我们将这种方法应用于具有连续、离散和二进制权重的各种神经网络。我们的结果表明，AQC可以非常高效地找到损失函数的全局最小值，为经典训练方法提供了有希望的替代方案。",
+    "tldr": "该论文提出了一种使用通用绝热量子计算来训练神经网络的新方法，通过利用绝热演化原理，该方法可以高效地找到损失函数的全局最小值，为经典训练方法提供了有希望的替代方案。"
+}

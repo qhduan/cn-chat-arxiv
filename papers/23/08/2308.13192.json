@@ -1,0 +1,12 @@
+{
+    "title": "Formalising Natural Language Quantifiers for Human-Robot Interactions. (arXiv:2308.13192v1 [cs.AI])",
+    "abstract": "We present a method for formalising quantifiers in natural language in the context of human-robot interactions. The solution is based on first-order logic extended with capabilities to represent the cardinality of variables, operating similarly to generalised quantifiers. To demonstrate the method, we designed an end-to-end system able to receive input as natural language, convert it into a formal logical representation, evaluate it, and return a result or send a command to a simulated robot.",
+    "link": "http://arxiv.org/abs/2308.13192",
+    "context": "Title: Formalising Natural Language Quantifiers for Human-Robot Interactions. (arXiv:2308.13192v1 [cs.AI])\nAbstract: We present a method for formalising quantifiers in natural language in the context of human-robot interactions. The solution is based on first-order logic extended with capabilities to represent the cardinality of variables, operating similarly to generalised quantifiers. To demonstrate the method, we designed an end-to-end system able to receive input as natural language, convert it into a formal logical representation, evaluate it, and return a result or send a command to a simulated robot.",
+    "path": "papers/23/08/2308.13192.json",
+    "total_tokens": 617,
+    "translated_title": "人机交互中自然语言量词的形式化",
+    "translated_abstract": "我们提出了一种在人机交互背景下形式化自然语言量词的方法。该解决方案基于一阶逻辑并扩展了表示变量基数的能力，类似于广义量词。为了展示这种方法，我们设计了一个端到端的系统，能够接收自然语言输入，将其转换为形式化的逻辑表示，评估它，并返回结果或向模拟机器人发送命令。",
+    "tldr": "本文提出了一种在人机交互中形式化自然语言量词的方法，并设计了一个端到端系统以实现自然语言输入到逻辑表示的转换和评估，从而实现对机器人的控制。",
+    "en_tdlr": "This paper presents a method for formalising natural language quantifiers in the context of human-robot interactions, and designs an end-to-end system for converting and evaluating natural language input into logical representation, enabling control of robots."
+}

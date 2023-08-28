@@ -1,0 +1,11 @@
+{
+    "title": "Bayesian polynomial neural networks and polynomial neural ordinary differential equations. (arXiv:2308.10892v2 [cs.LG] UPDATED)",
+    "abstract": "Symbolic regression with polynomial neural networks and polynomial neural ordinary differential equations (ODEs) are two recent and powerful approaches for equation recovery of many science and engineering problems. However, these methods provide point estimates for the model parameters and are currently unable to accommodate noisy data. We address this challenge by developing and validating the following Bayesian inference methods: the Laplace approximation, Markov Chain Monte Carlo (MCMC) sampling methods, and variational inference. We have found the Laplace approximation to be the best method for this class of problems. Our work can be easily extended to the broader class of symbolic neural networks to which the polynomial neural network belongs.",
+    "link": "http://arxiv.org/abs/2308.10892",
+    "context": "Title: Bayesian polynomial neural networks and polynomial neural ordinary differential equations. (arXiv:2308.10892v2 [cs.LG] UPDATED)\nAbstract: Symbolic regression with polynomial neural networks and polynomial neural ordinary differential equations (ODEs) are two recent and powerful approaches for equation recovery of many science and engineering problems. However, these methods provide point estimates for the model parameters and are currently unable to accommodate noisy data. We address this challenge by developing and validating the following Bayesian inference methods: the Laplace approximation, Markov Chain Monte Carlo (MCMC) sampling methods, and variational inference. We have found the Laplace approximation to be the best method for this class of problems. Our work can be easily extended to the broader class of symbolic neural networks to which the polynomial neural network belongs.",
+    "path": "papers/23/08/2308.10892.json",
+    "total_tokens": 764,
+    "translated_title": "贝叶斯多项式神经网络和多项式神经常微分方程",
+    "translated_abstract": "多项式神经网络和多项式神经常微分方程是最近用于科学和工程问题方程恢复的两种强大方法。然而，这些方法只能提供模型参数的点估计，并且目前不能适应噪声数据。我们通过开发和验证以下贝叶斯推断方法来解决这个挑战: 拉普拉斯近似、马尔可夫链蒙特卡洛(MCMC)采样方法和变分推断。我们发现拉普拉斯近似是这类问题的最佳方法。我们的工作可以轻松扩展到多项式神经网络所属的更广泛的符号神经网络类别。",
+    "tldr": "本研究提出了贝叶斯推断方法来改善多项式神经网络和多项式神经常微分方程在方程恢复问题中的表现，其中拉普拉斯近似是最佳的方法。这种方法可以推广到更广泛的符号神经网络类别。"
+}

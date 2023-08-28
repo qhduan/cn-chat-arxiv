@@ -1,0 +1,11 @@
+{
+    "title": "A Survey of AI Music Generation Tools and Models. (arXiv:2308.12982v1 [cs.SD])",
+    "abstract": "In this work, we provide a comprehensive survey of AI music generation tools, including both research projects and commercialized applications. To conduct our analysis, we classified music generation approaches into three categories: parameter-based, text-based, and visual-based classes. Our survey highlights the diverse possibilities and functional features of these tools, which cater to a wide range of users, from regular listeners to professional musicians. We observed that each tool has its own set of advantages and limitations. As a result, we have compiled a comprehensive list of these factors that should be considered during the tool selection process. Moreover, our survey offers critical insights into the underlying mechanisms and challenges of AI music generation.",
+    "link": "http://arxiv.org/abs/2308.12982",
+    "context": "Title: A Survey of AI Music Generation Tools and Models. (arXiv:2308.12982v1 [cs.SD])\nAbstract: In this work, we provide a comprehensive survey of AI music generation tools, including both research projects and commercialized applications. To conduct our analysis, we classified music generation approaches into three categories: parameter-based, text-based, and visual-based classes. Our survey highlights the diverse possibilities and functional features of these tools, which cater to a wide range of users, from regular listeners to professional musicians. We observed that each tool has its own set of advantages and limitations. As a result, we have compiled a comprehensive list of these factors that should be considered during the tool selection process. Moreover, our survey offers critical insights into the underlying mechanisms and challenges of AI music generation.",
+    "path": "papers/23/08/2308.12982.json",
+    "total_tokens": 738,
+    "translated_title": "AI音乐生成工具和模型综述",
+    "translated_abstract": "在这项工作中，我们提供了一个全面的AI音乐生成工具的综述，包括研究项目和商业应用。为了进行我们的分析，我们将音乐生成方法分为三类：基于参数、基于文本和基于图像。我们的综述突出了这些工具的多样性和功能特点，适用于从普通听众到专业音乐人的各种用户。我们观察到每个工具都有自己的优点和局限性。因此，我们编制了一个全面的列表，列出了在选择工具过程中应考虑的这些因素。此外，我们的综述提供了关于AI音乐生成的底层机制和挑战的重要见解。",
+    "tldr": "这篇论文提供了一个全面的AI音乐生成工具综述，分类了基于参数、文本和图像的音乐生成方法，并详细介绍了这些工具的优点、局限性以及选择过程中需要考虑的因素。"
+}

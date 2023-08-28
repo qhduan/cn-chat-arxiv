@@ -1,0 +1,11 @@
+{
+    "title": "Symbolic Relational Deep Reinforcement Learning based on Graph Neural Networks and Autoregressive Policy Decomposition. (arXiv:2009.12462v4 [cs.LG] UPDATED)",
+    "abstract": "We focus on reinforcement learning (RL) in relational problems that are naturally defined in terms of objects, their relations, and object-centric actions. These problems are characterized by variable state and action spaces, and finding a fixed-length representation, required by most existing RL methods, is difficult, if not impossible. We present a deep RL framework based on graph neural networks and auto-regressive policy decomposition that naturally works with these problems and is completely domain-independent. We demonstrate the framework's broad applicability in three distinct domains and show impressive zero-shot generalization over different problem sizes.",
+    "link": "http://arxiv.org/abs/2009.12462",
+    "context": "Title: Symbolic Relational Deep Reinforcement Learning based on Graph Neural Networks and Autoregressive Policy Decomposition. (arXiv:2009.12462v4 [cs.LG] UPDATED)\nAbstract: We focus on reinforcement learning (RL) in relational problems that are naturally defined in terms of objects, their relations, and object-centric actions. These problems are characterized by variable state and action spaces, and finding a fixed-length representation, required by most existing RL methods, is difficult, if not impossible. We present a deep RL framework based on graph neural networks and auto-regressive policy decomposition that naturally works with these problems and is completely domain-independent. We demonstrate the framework's broad applicability in three distinct domains and show impressive zero-shot generalization over different problem sizes.",
+    "path": "papers/20/09/2009.12462.json",
+    "total_tokens": 781,
+    "translated_title": "基于图神经网络和自回归策略分解的符号关系深度强化学习",
+    "translated_abstract": "我们关注于以对象、它们之间的关系和以对象为中心的动作来自然定义的符号关系问题中的强化学习。这些问题具有可变的状态和动作空间，对于大多数现有的强化学习方法而言，找到一个固定长度的表示是困难的，甚至不可能的。我们提出了一个基于图神经网络和自回归策略分解的深度强化学习框架，可以自然地应用于这些问题，并且完全是领域无关的。我们在三个不同的领域展示了该框架的广泛适用性，并展示了在不同问题大小上引人注目的零-shot泛化效果。",
+    "tldr": "这篇论文介绍了一种基于图神经网络和自回归策略分解的深度强化学习框架，能够处理符号关系问题的可变状态和动作空间，并在多个领域展现了广泛的适用性和令人印象深刻的零-shot泛化能力。"
+}

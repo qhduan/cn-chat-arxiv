@@ -1,0 +1,11 @@
+{
+    "title": "A topological model for partial equivariance in deep learning and data analysis. (arXiv:2308.13357v1 [stat.ML])",
+    "abstract": "In this article, we propose a topological model to encode partial equivariance in neural networks. To this end, we introduce a class of operators, called P-GENEOs, that change data expressed by measurements, respecting the action of certain sets of transformations, in a non-expansive way. If the set of transformations acting is a group, then we obtain the so-called GENEOs. We then study the spaces of measurements, whose domains are subject to the action of certain self-maps, and the space of P-GENEOs between these spaces. We define pseudo-metrics on them and show some properties of the resulting spaces. In particular, we show how such spaces have convenient approximation and convexity properties.",
+    "link": "http://arxiv.org/abs/2308.13357",
+    "context": "Title: A topological model for partial equivariance in deep learning and data analysis. (arXiv:2308.13357v1 [stat.ML])\nAbstract: In this article, we propose a topological model to encode partial equivariance in neural networks. To this end, we introduce a class of operators, called P-GENEOs, that change data expressed by measurements, respecting the action of certain sets of transformations, in a non-expansive way. If the set of transformations acting is a group, then we obtain the so-called GENEOs. We then study the spaces of measurements, whose domains are subject to the action of certain self-maps, and the space of P-GENEOs between these spaces. We define pseudo-metrics on them and show some properties of the resulting spaces. In particular, we show how such spaces have convenient approximation and convexity properties.",
+    "path": "papers/23/08/2308.13357.json",
+    "total_tokens": 726,
+    "translated_title": "深度学习和数据分析中的部分等变性的拓扑模型",
+    "translated_abstract": "本文提出了一种拓扑模型，用于在神经网络中编码部分等变性。为此，我们引入了一类称为P-GENEO的运算符，以非扩张的方式改变通过测量表示的数据，并遵循一定集合的变换作用。如果变换作用的集合是一个群，则得到所谓的GENEO。然后，我们研究了受某些自映射作用的测量空间以及这些空间之间的P-GENEO空间。我们在它们上定义了伪度量，并展示了一些结果空间的性质。特别地，我们展示了这些空间具有便利的逼近和凸性质。",
+    "tldr": "本文提出了一种拓扑模型，用于在神经网络中编码部分等变性，并研究了相应的测量空间和P-GENEO空间的性质。"
+}

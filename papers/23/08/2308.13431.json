@@ -1,0 +1,11 @@
+{
+    "title": "Six Lectures on Linearized Neural Networks. (arXiv:2308.13431v1 [stat.ML])",
+    "abstract": "In these six lectures, we examine what can be learnt about the behavior of multi-layer neural networks from the analysis of linear models. We first recall the correspondence between neural networks and linear models via the so-called lazy regime. We then review four models for linearized neural networks: linear regression with concentrated features, kernel ridge regression, random feature model and neural tangent model. Finally, we highlight the limitations of the linear theory and discuss how other approaches can overcome them.",
+    "link": "http://arxiv.org/abs/2308.13431",
+    "context": "Title: Six Lectures on Linearized Neural Networks. (arXiv:2308.13431v1 [stat.ML])\nAbstract: In these six lectures, we examine what can be learnt about the behavior of multi-layer neural networks from the analysis of linear models. We first recall the correspondence between neural networks and linear models via the so-called lazy regime. We then review four models for linearized neural networks: linear regression with concentrated features, kernel ridge regression, random feature model and neural tangent model. Finally, we highlight the limitations of the linear theory and discuss how other approaches can overcome them.",
+    "path": "papers/23/08/2308.13431.json",
+    "total_tokens": 714,
+    "translated_title": "线性化神经网络的六个讲座",
+    "translated_abstract": "在这六个讲座中，我们从线性模型的分析中探讨了对多层神经网络行为的学习。我们首先回顾了通过所谓的懒惰模式将神经网络与线性模型相对应的情况。然后，我们回顾了线性化神经网络的四个模型：带有集中特征的线性回归，核岭回归，随机特征模型和神经切线模型。最后，我们强调了线性理论的局限性，并讨论了其他方法如何克服这些局限性。",
+    "tldr": "这篇论文通过分析线性模型，探讨了多层神经网络行为的学习。研究使用了线性回归、核岭回归、随机特征模型和神经切线模型等四个线性化神经网络模型。研究还讨论了线性理论的局限性和其他方法如何克服这些局限性。"
+}
