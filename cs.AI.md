@@ -80,18 +80,19 @@
 | [^76] | [ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding with GPT and Prototype Guidance.](http://arxiv.org/abs/2303.16894) | 本文提出了ViewRefer，这是一个多视角的三维视觉定位框架，利用大规模语言模型和多视角原型，从文本和3D模态中获取视角知识并增强框架的表现。 |
 | [^77] | [Learning Causal Attributions in Neural Networks: Beyond Direct Effects.](http://arxiv.org/abs/2303.13850) | 本文提出了一种方法来估计和维护神经网络模型中输入-输出属性的因果关系，不仅考虑直接影响，还能考虑间接影响。此方法能够在训练神经网络模型的同时有效地量化因果归因，实验结果表明该方法能够有效地学习因果归因。 |
 | [^78] | [PDSketch: Integrated Planning Domain Programming and Learning.](http://arxiv.org/abs/2303.05501) | 本文通过PDSketch语言和可训练的神经网络，实现了模型的学习和在线规划，加速了机器人的灵活性和通用性。 |
-| [^79] | [Internally Rewarded Reinforcement Learning.](http://arxiv.org/abs/2302.00270) | 这项研究探讨了一类强化学习问题，其中策略的奖励信号由与之相关且同时优化的判别器生成，导致学习过程不稳定。实验结果表明，修剪线性奖励函数可以稳定训练过程。 |
-| [^80] | [SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields.](http://arxiv.org/abs/2212.02501) | SceneRF利用自监督学习结合NeRF的辐射场技术，无需深度监督，只需使用图像序列训练，可以高效处理大场景，能够生成新的深度视图并进行3D场景重建，性能在室内外场景中优于所有基线方法。 |
-| [^81] | [WSSL: Weighted Self-supervised Learning Framework For Image-inpainting.](http://arxiv.org/abs/2211.13856) | 我们提出了一种加权自监督学习框架用于图像修复，通过学习多个权重的先验任务特征，并利用重建损失和感知损失函数来生成更具吸引力的图像。 |
-| [^82] | [Distinctive Self-Similar Object Detection.](http://arxiv.org/abs/2211.10995) | 本文提出了一种独特的自相似物体检测方法，通过使用火和烟的自相似特征来解决其形状多样性的问题，并设计了一种半监督方法来评估和提高物体检测精度。 |
-| [^83] | [Distributed Graph Neural Network Training: A Survey.](http://arxiv.org/abs/2211.00216) | 这项调查研究了分布式图神经网络训练中的挑战，并提出了解决方案来优化特征通信、模型精度和分布式同步。 |
-| [^84] | [Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving.](http://arxiv.org/abs/2208.12263) | 本研究提出了Scene-Rep Transformer来提升强化学习决策能力，通过改进场景表示编码和顺序预测潜在蒸馏。采用多阶段Transformer编码器建模交互意识和意图意识，并使用顺序潜在Transformer进行自监督学习，加速训练和减少探索空间。 |
-| [^85] | [A Perceptually Optimized and Self-Calibrated Tone Mapping Operator.](http://arxiv.org/abs/2206.09146) | 本文开发了一种两步神经网络TMO，具有自校准和感知优化功能，可以将HDR图像压缩到LDR图像，同时通过感知度量实现了灵敏的质量优化。 |
-| [^86] | [Grammar-Based Grounded Lexicon Learning.](http://arxiv.org/abs/2202.08806) | 基于语法的基础词汇学习（G2L2）是一种从基础数据中学习语言含义表示的方法，通过将单词映射到语法类型和神经符号语义程序，利用基于语法的组合推导句子的含义，最终可以在基础输入上执行。 |
-| [^87] | [A Simplified Variant of G\"odel's Ontological Argument.](http://arxiv.org/abs/2202.06264) | 本论文提出了G\"odel的本体论证的简化变体，该变体在基本模态逻辑K或KT中已经是有效的，避免了复杂的谓词，并且展示了人机交互在计算形而上学中的应用。 |
-| [^88] | [Graph-Based Recommendation System Enhanced with Community Detection.](http://arxiv.org/abs/2201.03622) | 本文提出了一个基于图的推荐系统，利用数学和统计方法确定标签的相似性，包括词汇相似性和共现解决方案，并考虑了标签分配的时间，以提高推荐的准确性。 |
-| [^89] | [Fact Check: Analyzing Financial Events from Multilingual News Sources.](http://arxiv.org/abs/2106.15221) | FactCheck in finance是一个基于深度学习模型的网络新闻聚合器，能够从多语言新闻源中提取重要的金融事件，并通过无监督聚类方法对其进行聚类。通过使用Transformer-based事实核查器来检查新闻文章的可信度，该系统显示出优于几个强基准模型的性能。 |
-| [^90] | [Symbolic Relational Deep Reinforcement Learning based on Graph Neural Networks and Autoregressive Policy Decomposition.](http://arxiv.org/abs/2009.12462) | 这篇论文介绍了一种基于图神经网络和自回归策略分解的深度强化学习框架，能够处理符号关系问题的可变状态和动作空间，并在多个领域展现了广泛的适用性和令人印象深刻的零-shot泛化能力。 |
+| [^79] | [Grimm in Wonderland: Prompt Engineering with Midjourney to Illustrate Fairytales.](http://arxiv.org/abs/2302.08961) | 通过插入格林童话和基于现有文本的启示工程，我们探讨了文本到图像生成和启示工程的可行性，提出了一个4阶段的启示工程过程，并讨论了生成模型在某些插图上的困难。 |
+| [^80] | [Internally Rewarded Reinforcement Learning.](http://arxiv.org/abs/2302.00270) | 这项研究探讨了一类强化学习问题，其中策略的奖励信号由与之相关且同时优化的判别器生成，导致学习过程不稳定。实验结果表明，修剪线性奖励函数可以稳定训练过程。 |
+| [^81] | [SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields.](http://arxiv.org/abs/2212.02501) | SceneRF利用自监督学习结合NeRF的辐射场技术，无需深度监督，只需使用图像序列训练，可以高效处理大场景，能够生成新的深度视图并进行3D场景重建，性能在室内外场景中优于所有基线方法。 |
+| [^82] | [WSSL: Weighted Self-supervised Learning Framework For Image-inpainting.](http://arxiv.org/abs/2211.13856) | 我们提出了一种加权自监督学习框架用于图像修复，通过学习多个权重的先验任务特征，并利用重建损失和感知损失函数来生成更具吸引力的图像。 |
+| [^83] | [Distinctive Self-Similar Object Detection.](http://arxiv.org/abs/2211.10995) | 本文提出了一种独特的自相似物体检测方法，通过使用火和烟的自相似特征来解决其形状多样性的问题，并设计了一种半监督方法来评估和提高物体检测精度。 |
+| [^84] | [Distributed Graph Neural Network Training: A Survey.](http://arxiv.org/abs/2211.00216) | 这项调查研究了分布式图神经网络训练中的挑战，并提出了解决方案来优化特征通信、模型精度和分布式同步。 |
+| [^85] | [Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving.](http://arxiv.org/abs/2208.12263) | 本研究提出了Scene-Rep Transformer来提升强化学习决策能力，通过改进场景表示编码和顺序预测潜在蒸馏。采用多阶段Transformer编码器建模交互意识和意图意识，并使用顺序潜在Transformer进行自监督学习，加速训练和减少探索空间。 |
+| [^86] | [A Perceptually Optimized and Self-Calibrated Tone Mapping Operator.](http://arxiv.org/abs/2206.09146) | 本文开发了一种两步神经网络TMO，具有自校准和感知优化功能，可以将HDR图像压缩到LDR图像，同时通过感知度量实现了灵敏的质量优化。 |
+| [^87] | [Grammar-Based Grounded Lexicon Learning.](http://arxiv.org/abs/2202.08806) | 基于语法的基础词汇学习（G2L2）是一种从基础数据中学习语言含义表示的方法，通过将单词映射到语法类型和神经符号语义程序，利用基于语法的组合推导句子的含义，最终可以在基础输入上执行。 |
+| [^88] | [A Simplified Variant of G\"odel's Ontological Argument.](http://arxiv.org/abs/2202.06264) | 本论文提出了G\"odel的本体论证的简化变体，该变体在基本模态逻辑K或KT中已经是有效的，避免了复杂的谓词，并且展示了人机交互在计算形而上学中的应用。 |
+| [^89] | [Graph-Based Recommendation System Enhanced with Community Detection.](http://arxiv.org/abs/2201.03622) | 本文提出了一个基于图的推荐系统，利用数学和统计方法确定标签的相似性，包括词汇相似性和共现解决方案，并考虑了标签分配的时间，以提高推荐的准确性。 |
+| [^90] | [Fact Check: Analyzing Financial Events from Multilingual News Sources.](http://arxiv.org/abs/2106.15221) | FactCheck in finance是一个基于深度学习模型的网络新闻聚合器，能够从多语言新闻源中提取重要的金融事件，并通过无监督聚类方法对其进行聚类。通过使用Transformer-based事实核查器来检查新闻文章的可信度，该系统显示出优于几个强基准模型的性能。 |
+| [^91] | [Symbolic Relational Deep Reinforcement Learning based on Graph Neural Networks and Autoregressive Policy Decomposition.](http://arxiv.org/abs/2009.12462) | 这篇论文介绍了一种基于图神经网络和自回归策略分解的深度强化学习框架，能够处理符号关系问题的可变状态和动作空间，并在多个领域展现了广泛的适用性和令人印象深刻的零-shot泛化能力。 |
 
 # 详细
 
@@ -1187,7 +1188,21 @@
 
     This paper studies a model learning and online planning approach towards building flexible and general robots. Specifically, we investigate how to exploit the locality and sparsity structures in the underlying environmental transition model to improve model generalization, data-efficiency, and runtime-efficiency. We present a new domain definition language, named PDSketch. It allows users to flexibly define high-level structures in the transition models, such as object and feature dependencies, in a way similar to how programmers use TensorFlow or PyTorch to specify kernel sizes and hidden dimensions of a convolutional neural network. The details of the transition model will be filled in by trainable neural networks. Based on the defined structures and learned parameters, PDSketch automatically generates domain-independent planning heuristics without additional training. The derived heuristics accelerate the performance-time planning for novel goals.
     
-[^79]: 内部奖励的强化学习
+[^79]: 在仙境与仙境之间的启示工程中插入格林童话：中途旅程来说明童话故事
+
+    Grimm in Wonderland: Prompt Engineering with Midjourney to Illustrate Fairytales. (arXiv:2302.08961v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2302.08961](http://arxiv.org/abs/2302.08961)
+
+    通过插入格林童话和基于现有文本的启示工程，我们探讨了文本到图像生成和启示工程的可行性，提出了一个4阶段的启示工程过程，并讨论了生成模型在某些插图上的困难。
+
+    
+
+    文本到图像生成的质量不断提高，但其适用范围的界限仍不清楚。特别是，以改进文本输入以实现更好结果为目标的启示工程，似乎尚未针对与现有文本一起工作进行研究。我们研究了文本到图像生成和启示工程是否可以用于生成流行童话的基本插图。使用Midjourney v4，我们进行了行动研究，旨在尝试为5个流行童话中的每个童话生成5个令人信服的插图，并确定一个从现有文本到插图的启示工程过程。我们得出了一个初步的4阶段过程：i）初始提示，ii）构图调整，iii）风格细化，和iv）变异选择。我们还讨论了生成模型在某些插图上遇到困难的三个原因：计数困难，
+
+    The quality of text-to-image generation is continuously improving, yet the boundaries of its applicability are still unclear. In particular, refinement of the text input with the objective of achieving better results - commonly called prompt engineering - so far seems to have not been geared towards work with pre-existing texts. We investigate whether text-to-image generation and prompt engineering could be used to generate basic illustrations of popular fairytales. Using Midjourney v4, we engage in action research with a dual aim: to attempt to generate 5 believable illustrations for each of 5 popular fairytales, and to define a prompt engineering process that starts from a pre-existing text and arrives at an illustration of it. We arrive at a tentative 4-stage process: i) initial prompt, ii) composition adjustment, iii) style refinement, and iv) variation selection. We also discuss three reasons why the generation model struggles with certain illustrations: difficulties with counts, 
+    
+[^80]: 内部奖励的强化学习
 
     Internally Rewarded Reinforcement Learning. (arXiv:2302.00270v2 [cs.LG] UPDATED)
 
@@ -1201,7 +1216,7 @@
 
     We study a class of reinforcement learning problems where the reward signals for policy learning are generated by a discriminator that is dependent on and jointly optimized with the policy. This interdependence between the policy and the discriminator leads to an unstable learning process because reward signals from an immature discriminator are noisy and impede policy learning, and conversely, an under-optimized policy impedes discriminator learning. We call this learning setting \textit{Internally Rewarded Reinforcement Learning} (IRRL) as the reward is not provided directly by the environment but \textit{internally} by the discriminator. In this paper, we formally formulate IRRL and present a class of problems that belong to IRRL. We theoretically derive and empirically analyze the effect of the reward function in IRRL and based on these analyses propose the clipped linear reward function. Experimental results show that the proposed reward function can consistently stabilize the tra
     
-[^80]: SceneRF: 利用辐射场的自监督单目3D场景重建
+[^81]: SceneRF: 利用辐射场的自监督单目3D场景重建
 
     SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields. (arXiv:2212.02501v3 [cs.CV] UPDATED)
 
@@ -1215,7 +1230,7 @@
 
     3D reconstruction from 2D image was extensively studied, training with depth supervision. To relax the dependence to costly-acquired datasets, we propose SceneRF, a self-supervised monocular scene reconstruction method using only posed image sequences for training. Fueled by the recent progress in neural radiance fields (NeRF) we optimize a radiance field though with explicit depth optimization and a novel probabilistic sampling strategy to efficiently handle large scenes. At inference, a single input image suffices to hallucinate novel depth views which are fused together to obtain 3D scene reconstruction. Thorough experiments demonstrate that we outperform all recent baselines for novel depth views synthesis and scene reconstruction, on indoor BundleFusion and outdoor SemanticKITTI. Our code is available at https://astra-vision.github.io/SceneRF.
     
-[^81]: WSSL：加权自监督学习框架用于图像修复
+[^82]: WSSL：加权自监督学习框架用于图像修复
 
     WSSL: Weighted Self-supervised Learning Framework For Image-inpainting. (arXiv:2211.13856v2 [cs.CV] UPDATED)
 
@@ -1229,7 +1244,7 @@
 
     Image inpainting is the process of regenerating lost parts of the image. Supervised algorithm-based methods have shown excellent results but have two significant drawbacks. They do not perform well when tested with unseen data. They fail to capture the global context of the image, resulting in a visually unappealing result. We propose a novel self-supervised learning framework for image-inpainting: Weighted Self-Supervised Learning (WSSL) to tackle these problems. We designed WSSL to learn features from multiple weighted pretext tasks. These features are then utilized for the downstream task, image-inpainting. To improve the performance of our framework and produce more visually appealing images, we also present a novel loss function for image inpainting. The loss function takes advantage of both reconstruction loss and perceptual loss functions to regenerate the image. Our experimentation shows WSSL outperforms previous methods, and our loss function helps produce better results.
     
-[^82]: 独特的自相似物体检测
+[^83]: 独特的自相似物体检测
 
     Distinctive Self-Similar Object Detection. (arXiv:2211.10995v2 [cs.CV] UPDATED)
 
@@ -1243,7 +1258,7 @@
 
     Deep learning-based object detection has demonstrated a significant presence in the practical applications of artificial intelligence. However, objects such as fire and smoke, pose challenges to object detection because of their non-solid and various shapes, and consequently difficult to truly meet requirements in practical fire prevention and control. In this paper, we propose that the distinctive fractal feature of self-similar in fire and smoke can relieve us from struggling with their various shapes. To our best knowledge, we are the first to discuss this problem. In order to evaluate the self-similarity of the fire and smoke and improve the precision of object detection, we design a semi-supervised method that use Hausdorff distance to describe the resemblance between instances. Besides, based on the concept of self-similar, we have devised a novel methodology for evaluating this particular task in a more equitable manner. We have meticulously designed our network architecture bas
     
-[^83]: 分布式图神经网络训练：一项调查
+[^84]: 分布式图神经网络训练：一项调查
 
     Distributed Graph Neural Network Training: A Survey. (arXiv:2211.00216v2 [cs.LG] UPDATED)
 
@@ -1257,7 +1272,7 @@
 
     Graph neural networks (GNNs) are a type of deep learning models that are trained on graphs and have been successfully applied in various domains. Despite the effectiveness of GNNs, it is still challenging for GNNs to efficiently scale to large graphs. As a remedy, distributed computing becomes a promising solution of training large-scale GNNs, since it is able to provide abundant computing resources. However, the dependency of graph structure increases the difficulty of achieving high-efficiency distributed GNN training, which suffers from the massive communication and workload imbalance. In recent years, many efforts have been made on distributed GNN training, and an array of training algorithms and systems have been proposed. Yet, there is a lack of systematic review on the optimization techniques for the distributed execution of GNN training. In this survey, we analyze three major challenges in distributed GNN training that are massive feature communication, the loss of model accura
     
-[^84]: 使用基于Transformer的场景表示学习增强强化学习用于自动驾驶决策
+[^85]: 使用基于Transformer的场景表示学习增强强化学习用于自动驾驶决策
 
     Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving. (arXiv:2208.12263v2 [cs.LG] UPDATED)
 
@@ -1271,7 +1286,7 @@
 
     Decision-making for urban autonomous driving is challenging due to the stochastic nature of interactive traffic participants and the complexity of road structures. Although reinforcement learning (RL)-based decision-making scheme is promising to handle urban driving scenarios, it suffers from low sample efficiency and poor adaptability. In this paper, we propose Scene-Rep Transformer to improve the RL decision-making capabilities with better scene representation encoding and sequential predictive latent distillation. Specifically, a multi-stage Transformer (MST) encoder is constructed to model not only the interaction awareness between the ego vehicle and its neighbors but also intention awareness between the agents and their candidate routes. A sequential latent Transformer (SLT) with self-supervised learning objectives is employed to distill the future predictive information into the latent scene representation, in order to reduce the exploration space and speed up training. The fina
     
-[^85]: 一种感知优化且自校准的色调映射运算符
+[^86]: 一种感知优化且自校准的色调映射运算符
 
     A Perceptually Optimized and Self-Calibrated Tone Mapping Operator. (arXiv:2206.09146v2 [eess.IV] UPDATED)
 
@@ -1285,7 +1300,7 @@
 
     With the increasing popularity and accessibility of high dynamic range (HDR) photography, tone mapping operators (TMOs) for dynamic range compression are practically demanding. In this paper, we develop a two-stage neural network-based TMO that is self-calibrated and perceptually optimized. In Stage one, motivated by the physiology of the early stages of the human visual system, we first decompose an HDR image into a normalized Laplacian pyramid. We then use two lightweight deep neural networks (DNNs), taking the normalized representation as input and estimating the Laplacian pyramid of the corresponding LDR image. We optimize the tone mapping network by minimizing the normalized Laplacian pyramid distance (NLPD), a perceptual metric aligning with human judgments of tone-mapped image quality. In Stage two, the input HDR image is self-calibrated to compute the final LDR image. We feed the same HDR image but rescaled with different maximum luminances to the learned tone mapping network, 
     
-[^86]: 基于语法的基础词汇学习
+[^87]: 基于语法的基础词汇学习
 
     Grammar-Based Grounded Lexicon Learning. (arXiv:2202.08806v2 [cs.CL] UPDATED)
 
@@ -1299,7 +1314,7 @@
 
     We present Grammar-Based Grounded Lexicon Learning (G2L2), a lexicalist approach toward learning a compositional and grounded meaning representation of language from grounded data, such as paired images and texts. At the core of G2L2 is a collection of lexicon entries, which map each word to a tuple of a syntactic type and a neuro-symbolic semantic program. For example, the word shiny has a syntactic type of adjective; its neuro-symbolic semantic program has the symbolic form {\lambda}x. filter(x, SHINY), where the concept SHINY is associated with a neural network embedding, which will be used to classify shiny objects. Given an input sentence, G2L2 first looks up the lexicon entries associated with each token. It then derives the meaning of the sentence as an executable neuro-symbolic program by composing lexical meanings based on syntax. The recovered meaning programs can be executed on grounded inputs. To facilitate learning in an exponentially-growing compositional space, we introd
     
-[^87]: G\"odel的本体论证的简化变体
+[^88]: G\"odel的本体论证的简化变体
 
     A Simplified Variant of G\"odel's Ontological Argument. (arXiv:2202.06264v3 [cs.LO] UPDATED)
 
@@ -1313,7 +1328,7 @@
 
     A simplified variant of G\"odel's ontological argument is presented. The simplified argument is valid already in basic modal logics K or KT, it does not suffer from modal collapse, and it avoids the rather complex predicates of essence (Ess.) and necessary existence (NE) as used by G\"odel. The variant presented has been obtained as a side result of a series of theory simplification experiments conducted in interaction with a modern proof assistant system. The starting point for these experiments was the computer encoding of G\"odel's argument, and then automated reasoning techniques were systematically applied to arrive at the simplified variant presented. The presented work thus exemplifies a fruitful human-computer interaction in computational metaphysics. Whether the presented result increases or decreases the attractiveness and persuasiveness of the ontological argument is a question I would like to pass on to philosophy and theology.
     
-[^88]: 基于图的推荐系统在社区检测中的增强
+[^89]: 基于图的推荐系统在社区检测中的增强
 
     Graph-Based Recommendation System Enhanced with Community Detection. (arXiv:2201.03622v3 [cs.IR] UPDATED)
 
@@ -1327,7 +1342,7 @@
 
     Many researchers have used tag information to improve the performance of recommendation techniques in recommender systems. Examining the tags of users will help to get their interests and leads to more accuracy in the recommendations. Since user-defined tags are chosen freely and without any restrictions, problems arise in determining their exact meaning and the similarity of tags. However, using thesaurus and ontologies to find the meaning of tags is not very efficient due to their free definition by users and the use of different languages in many data sets. Therefore, this article uses mathematical and statistical methods to determine lexical similarity and co-occurrence tags solution to assign semantic similarity. On the other hand, due to the change of users' interests over time this article has considered the time of tag assignments in co-occurrence tags for determining similarity of tags. Then the graph is created based on similarity of tags. For modeling the interests of the us
     
-[^89]: 事实核查: 分析多语言新闻源中的金融事件
+[^90]: 事实核查: 分析多语言新闻源中的金融事件
 
     Fact Check: Analyzing Financial Events from Multilingual News Sources. (arXiv:2106.15221v3 [cs.AI] UPDATED)
 
@@ -1341,7 +1356,7 @@
 
     The explosion in the sheer magnitude and complexity of financial news data in recent years makes it increasingly challenging for investment analysts to extract valuable insights and perform analysis. We propose FactCheck in finance, a web-based news aggregator with deep learning models, to provide analysts with a holistic view of important financial events from multilingual news sources and extract events using an unsupervised clustering method. A web interface is provided to examine the credibility of news articles using a transformer-based fact-checker. The performance of the fact checker is evaluated using a dataset related to merger and acquisition (M\&A) events and is shown to outperform several strong baselines.
     
-[^90]: 基于图神经网络和自回归策略分解的符号关系深度强化学习
+[^91]: 基于图神经网络和自回归策略分解的符号关系深度强化学习
 
     Symbolic Relational Deep Reinforcement Learning based on Graph Neural Networks and Autoregressive Policy Decomposition. (arXiv:2009.12462v4 [cs.LG] UPDATED)
 

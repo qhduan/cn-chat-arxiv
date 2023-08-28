@@ -54,9 +54,10 @@
 | [^50] | [PMC-LLaMA: Further Finetuning LLaMA on Medical Papers.](http://arxiv.org/abs/2304.14454) | 本文介绍了一个针对医学领域进一步微调的开源语言模型PMC-LLaMA，其通过增加医学知识提高了在生物医学领域的性能表现，有望在生物医学问答领域有更好的应用表现。 |
 | [^51] | [Approximating Human Evaluation of Social Chatbots with Prompting.](http://arxiv.org/abs/2304.05253) | 该论文提出了一种利用提示来评估社交Chatbot的新方法，可以近似人类对Chatbot的主观评估，而不需要人类准备评估材料。 |
 | [^52] | [ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding with GPT and Prototype Guidance.](http://arxiv.org/abs/2303.16894) | 本文提出了ViewRefer，这是一个多视角的三维视觉定位框架，利用大规模语言模型和多视角原型，从文本和3D模态中获取视角知识并增强框架的表现。 |
-| [^53] | [Grammar-Based Grounded Lexicon Learning.](http://arxiv.org/abs/2202.08806) | 基于语法的基础词汇学习（G2L2）是一种从基础数据中学习语言含义表示的方法，通过将单词映射到语法类型和神经符号语义程序，利用基于语法的组合推导句子的含义，最终可以在基础输入上执行。 |
-| [^54] | [A Simplified Variant of G\"odel's Ontological Argument.](http://arxiv.org/abs/2202.06264) | 本论文提出了G\"odel的本体论证的简化变体，该变体在基本模态逻辑K或KT中已经是有效的，避免了复杂的谓词，并且展示了人机交互在计算形而上学中的应用。 |
-| [^55] | [Graph-Based Recommendation System Enhanced with Community Detection.](http://arxiv.org/abs/2201.03622) | 本文提出了一个基于图的推荐系统，利用数学和统计方法确定标签的相似性，包括词汇相似性和共现解决方案，并考虑了标签分配的时间，以提高推荐的准确性。 |
+| [^53] | [Grimm in Wonderland: Prompt Engineering with Midjourney to Illustrate Fairytales.](http://arxiv.org/abs/2302.08961) | 通过插入格林童话和基于现有文本的启示工程，我们探讨了文本到图像生成和启示工程的可行性，提出了一个4阶段的启示工程过程，并讨论了生成模型在某些插图上的困难。 |
+| [^54] | [Grammar-Based Grounded Lexicon Learning.](http://arxiv.org/abs/2202.08806) | 基于语法的基础词汇学习（G2L2）是一种从基础数据中学习语言含义表示的方法，通过将单词映射到语法类型和神经符号语义程序，利用基于语法的组合推导句子的含义，最终可以在基础输入上执行。 |
+| [^55] | [A Simplified Variant of G\"odel's Ontological Argument.](http://arxiv.org/abs/2202.06264) | 本论文提出了G\"odel的本体论证的简化变体，该变体在基本模态逻辑K或KT中已经是有效的，避免了复杂的谓词，并且展示了人机交互在计算形而上学中的应用。 |
+| [^56] | [Graph-Based Recommendation System Enhanced with Community Detection.](http://arxiv.org/abs/2201.03622) | 本文提出了一个基于图的推荐系统，利用数学和统计方法确定标签的相似性，包括词汇相似性和共现解决方案，并考虑了标签分配的时间，以提高推荐的准确性。 |
 
 # 详细
 
@@ -788,7 +789,21 @@
 
     Understanding 3D scenes from multi-view inputs has been proven to alleviate the view discrepancy issue in 3D visual grounding. However, existing methods normally neglect the view cues embedded in the text modality and fail to weigh the relative importance of different views. In this paper, we propose ViewRefer, a multi-view framework for 3D visual grounding exploring how to grasp the view knowledge from both text and 3D modalities. For the text branch, ViewRefer leverages the diverse linguistic knowledge of large-scale language models, e.g., GPT, to expand a single grounding text to multiple geometry-consistent descriptions. Meanwhile, in the 3D modality, a transformer fusion module with inter-view attention is introduced to boost the interaction of objects across views. On top of that, we further present a set of learnable multi-view prototypes, which memorize scene-agnostic knowledge for different views, and enhance the framework from two perspectives: a view-guided attention module 
     
-[^53]: 基于语法的基础词汇学习
+[^53]: 在仙境与仙境之间的启示工程中插入格林童话：中途旅程来说明童话故事
+
+    Grimm in Wonderland: Prompt Engineering with Midjourney to Illustrate Fairytales. (arXiv:2302.08961v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2302.08961](http://arxiv.org/abs/2302.08961)
+
+    通过插入格林童话和基于现有文本的启示工程，我们探讨了文本到图像生成和启示工程的可行性，提出了一个4阶段的启示工程过程，并讨论了生成模型在某些插图上的困难。
+
+    
+
+    文本到图像生成的质量不断提高，但其适用范围的界限仍不清楚。特别是，以改进文本输入以实现更好结果为目标的启示工程，似乎尚未针对与现有文本一起工作进行研究。我们研究了文本到图像生成和启示工程是否可以用于生成流行童话的基本插图。使用Midjourney v4，我们进行了行动研究，旨在尝试为5个流行童话中的每个童话生成5个令人信服的插图，并确定一个从现有文本到插图的启示工程过程。我们得出了一个初步的4阶段过程：i）初始提示，ii）构图调整，iii）风格细化，和iv）变异选择。我们还讨论了生成模型在某些插图上遇到困难的三个原因：计数困难，
+
+    The quality of text-to-image generation is continuously improving, yet the boundaries of its applicability are still unclear. In particular, refinement of the text input with the objective of achieving better results - commonly called prompt engineering - so far seems to have not been geared towards work with pre-existing texts. We investigate whether text-to-image generation and prompt engineering could be used to generate basic illustrations of popular fairytales. Using Midjourney v4, we engage in action research with a dual aim: to attempt to generate 5 believable illustrations for each of 5 popular fairytales, and to define a prompt engineering process that starts from a pre-existing text and arrives at an illustration of it. We arrive at a tentative 4-stage process: i) initial prompt, ii) composition adjustment, iii) style refinement, and iv) variation selection. We also discuss three reasons why the generation model struggles with certain illustrations: difficulties with counts, 
+    
+[^54]: 基于语法的基础词汇学习
 
     Grammar-Based Grounded Lexicon Learning. (arXiv:2202.08806v2 [cs.CL] UPDATED)
 
@@ -802,7 +817,7 @@
 
     We present Grammar-Based Grounded Lexicon Learning (G2L2), a lexicalist approach toward learning a compositional and grounded meaning representation of language from grounded data, such as paired images and texts. At the core of G2L2 is a collection of lexicon entries, which map each word to a tuple of a syntactic type and a neuro-symbolic semantic program. For example, the word shiny has a syntactic type of adjective; its neuro-symbolic semantic program has the symbolic form {\lambda}x. filter(x, SHINY), where the concept SHINY is associated with a neural network embedding, which will be used to classify shiny objects. Given an input sentence, G2L2 first looks up the lexicon entries associated with each token. It then derives the meaning of the sentence as an executable neuro-symbolic program by composing lexical meanings based on syntax. The recovered meaning programs can be executed on grounded inputs. To facilitate learning in an exponentially-growing compositional space, we introd
     
-[^54]: G\"odel的本体论证的简化变体
+[^55]: G\"odel的本体论证的简化变体
 
     A Simplified Variant of G\"odel's Ontological Argument. (arXiv:2202.06264v3 [cs.LO] UPDATED)
 
@@ -816,7 +831,7 @@
 
     A simplified variant of G\"odel's ontological argument is presented. The simplified argument is valid already in basic modal logics K or KT, it does not suffer from modal collapse, and it avoids the rather complex predicates of essence (Ess.) and necessary existence (NE) as used by G\"odel. The variant presented has been obtained as a side result of a series of theory simplification experiments conducted in interaction with a modern proof assistant system. The starting point for these experiments was the computer encoding of G\"odel's argument, and then automated reasoning techniques were systematically applied to arrive at the simplified variant presented. The presented work thus exemplifies a fruitful human-computer interaction in computational metaphysics. Whether the presented result increases or decreases the attractiveness and persuasiveness of the ontological argument is a question I would like to pass on to philosophy and theology.
     
-[^55]: 基于图的推荐系统在社区检测中的增强
+[^56]: 基于图的推荐系统在社区检测中的增强
 
     Graph-Based Recommendation System Enhanced with Community Detection. (arXiv:2201.03622v3 [cs.IR] UPDATED)
 
