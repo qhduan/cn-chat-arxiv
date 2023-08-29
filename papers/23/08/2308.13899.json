@@ -1,0 +1,12 @@
+{
+    "title": "Self-Enforced Job Matching. (arXiv:2308.13899v1 [econ.TH])",
+    "abstract": "The classic two-sided many-to-one job matching model assumes that firms treat workers as substitutes and workers ignore colleagues when choosing where to work. Relaxing these assumptions may lead to nonexistence of stable matchings. However, matching is often not a static allocation, but an ongoing process with long-lived firms and short-lived workers. We show that stability is always guaranteed dynamically when firms are patient, even with complementarities in firm technologies and peer effects in worker preferences. While no-poaching agreements are anti-competitive, they can maintain dynamic stability in markets that are otherwise unstable, which may contribute to their prevalence in labor markets.",
+    "link": "http://arxiv.org/abs/2308.13899",
+    "context": "Title: Self-Enforced Job Matching. (arXiv:2308.13899v1 [econ.TH])\nAbstract: The classic two-sided many-to-one job matching model assumes that firms treat workers as substitutes and workers ignore colleagues when choosing where to work. Relaxing these assumptions may lead to nonexistence of stable matchings. However, matching is often not a static allocation, but an ongoing process with long-lived firms and short-lived workers. We show that stability is always guaranteed dynamically when firms are patient, even with complementarities in firm technologies and peer effects in worker preferences. While no-poaching agreements are anti-competitive, they can maintain dynamic stability in markets that are otherwise unstable, which may contribute to their prevalence in labor markets.",
+    "path": "papers/23/08/2308.13899.json",
+    "total_tokens": 801,
+    "translated_title": "自我强制的岗位匹配",
+    "translated_abstract": "经典的双边多对一岗位匹配模型假设公司将工人视为替代品，工人在选择工作地点时忽视同事。放松这些假设可能导致匹配不存在稳定性。然而，匹配往往不是静态分配，而是一个持续的过程，涉及具有长寿命的公司和短命的工人。我们发现，当公司有耐心时，稳定性总是能够在动态情况下得到保证，即使存在公司技术互补性和工人偏好的同伴效应。虽然禁止挖人协议是反竞争的，但它们可以在其他情况下维持市场的动态稳定性，这可能是劳动力市场中它们普遍存在的原因。",
+    "tldr": "本研究发现，即使公司技术存在互补性和工人偏好存在同伴效应，当公司有耐心时，稳定性总是能够在动态情况下得到保证。此外，虽然禁止挖人协议是反竞争的，但它们可以在其他情况下维持劳动市场的动态稳定性。",
+    "en_tdlr": "This study finds that stability is always guaranteed dynamically when firms are patient, even with complementarities in firm technologies and peer effects in worker preferences. Moreover, although no-poaching agreements are anti-competitive, they can maintain dynamic stability in labor markets under certain circumstances."
+}

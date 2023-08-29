@@ -1,0 +1,12 @@
+{
+    "title": "A probabilistic Taylor expansion with Gaussian processes. (arXiv:2102.00877v2 [cs.LG] UPDATED)",
+    "abstract": "We study a class of Gaussian processes for which the posterior mean, for a particular choice of data, replicates a truncated Taylor expansion of any order. The data consist of derivative evaluations at the expansion point and the prior covariance kernel belongs to the class of Taylor kernels, which can be written in a certain power series form. We discuss and prove some results on maximum likelihood estimation of parameters of Taylor kernels. The proposed framework is a special case of Gaussian process regression based on data that is orthogonal in the reproducing kernel Hilbert space of the covariance kernel.",
+    "link": "http://arxiv.org/abs/2102.00877",
+    "context": "Title: A probabilistic Taylor expansion with Gaussian processes. (arXiv:2102.00877v2 [cs.LG] UPDATED)\nAbstract: We study a class of Gaussian processes for which the posterior mean, for a particular choice of data, replicates a truncated Taylor expansion of any order. The data consist of derivative evaluations at the expansion point and the prior covariance kernel belongs to the class of Taylor kernels, which can be written in a certain power series form. We discuss and prove some results on maximum likelihood estimation of parameters of Taylor kernels. The proposed framework is a special case of Gaussian process regression based on data that is orthogonal in the reproducing kernel Hilbert space of the covariance kernel.",
+    "path": "papers/21/02/2102.00877.json",
+    "total_tokens": 673,
+    "translated_title": "一种具有高斯过程的概率Taylor展开",
+    "translated_abstract": "我们研究了一类高斯过程，对于特定选择的数据，后验均值复制了截断的任意阶Taylor展开。数据由在展开点处的导数评估组成，先验协方差核属于Taylor核的类，可以用一定的幂级数形式表示。我们讨论并证明了关于Taylor核参数的最大似然估计的一些结果。所提出的框架是基于具有在协方差核的再生核希尔伯特空间中正交数据的高斯过程回归的特例。",
+    "tldr": "本文研究了一种特殊的高斯过程回归方法，通过导数评估数据和先验协方差核的选择，实现了对任意阶Taylor展开的截断复制，并讨论了相关参数的最大似然估计方法。",
+    "en_tdlr": "This paper examines a specific Gaussian process regression method that replicates a truncated Taylor expansion of any order by using derivative evaluation data and selecting the prior covariance kernel, and discusses the maximum likelihood estimation of related parameters."
+}

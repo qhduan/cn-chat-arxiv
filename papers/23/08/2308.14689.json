@@ -1,0 +1,11 @@
+{
+    "title": "Complementarities in childcare allocation under priorities. (arXiv:2308.14689v1 [econ.TH])",
+    "abstract": "We investigate the allocation of children to childcare facilities and propose solutions to overcome limitations in the current allocation mechanism. We introduce a natural preference domain and a priority structure that address these setbacks, aiming to enhance the allocation process. To achieve this, we present an adaptation of the Deferred Acceptance mechanism to our problem, which ensures strategy-proofness within our preference domain and yields the student-optimal stable matching. Finally, we provide a maximal domain for the existence of stable matchings using the properties that define our natural preference domain. Our results have practical implications for allocating indivisible bundles with complementarities.",
+    "link": "http://arxiv.org/abs/2308.14689",
+    "context": "Title: Complementarities in childcare allocation under priorities. (arXiv:2308.14689v1 [econ.TH])\nAbstract: We investigate the allocation of children to childcare facilities and propose solutions to overcome limitations in the current allocation mechanism. We introduce a natural preference domain and a priority structure that address these setbacks, aiming to enhance the allocation process. To achieve this, we present an adaptation of the Deferred Acceptance mechanism to our problem, which ensures strategy-proofness within our preference domain and yields the student-optimal stable matching. Finally, we provide a maximal domain for the existence of stable matchings using the properties that define our natural preference domain. Our results have practical implications for allocating indivisible bundles with complementarities.",
+    "path": "papers/23/08/2308.14689.json",
+    "total_tokens": 844,
+    "translated_title": "优先条件下的儿童托管分配中的互补性研究",
+    "translated_abstract": "我们研究了儿童托管设施的分配，并提出了解决当前分配机制限制的解决方案。我们引入了一个自然的优先领域和一个优先结构，以解决这些问题，旨在改善分配过程。为了实现这一目标，我们将延迟接受机制调整为我们的问题，确保在我们的优先领域内不受策略影响，并产生学生最优稳定匹配。最后，我们使用定义我们自然的优先领域的属性，提供了最大的稳定匹配存在域。我们的结果对于分配不可分的捆绑物具有实际意义，这些捆绑物具有互补性。",
+    "tldr": "本研究探讨了儿童托管设施的分配，并提出了解决当前分配机制限制的解决方案。我们引入了自然的优先领域和优先结构，通过修改延迟接受机制来实现学生最优稳定匹配，并提供了稳定匹配存在域的最大范围。这些结果对于分配具有互补性的不可分的捆绑物具有实际意义。"
+}

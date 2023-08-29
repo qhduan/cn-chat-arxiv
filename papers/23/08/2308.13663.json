@@ -1,0 +1,12 @@
+{
+    "title": "Network Embedding Using Sparse Approximations of Random Walks. (arXiv:2308.13663v1 [cs.LG])",
+    "abstract": "In this paper, we propose an efficient numerical implementation of Network Embedding based on commute times, using sparse approximation of a diffusion process on the network obtained by a modified version of the diffusion wavelet algorithm. The node embeddings are computed by optimizing the cross entropy loss via the stochastic gradient descent method with sampling of low-dimensional representations of green functions. We demonstrate the efficacy of this method for data clustering and multi-label classification through several examples, and compare its performance over existing methods in terms of efficiency and accuracy. Theoretical issues justifying the scheme are also discussed.",
+    "link": "http://arxiv.org/abs/2308.13663",
+    "context": "Title: Network Embedding Using Sparse Approximations of Random Walks. (arXiv:2308.13663v1 [cs.LG])\nAbstract: In this paper, we propose an efficient numerical implementation of Network Embedding based on commute times, using sparse approximation of a diffusion process on the network obtained by a modified version of the diffusion wavelet algorithm. The node embeddings are computed by optimizing the cross entropy loss via the stochastic gradient descent method with sampling of low-dimensional representations of green functions. We demonstrate the efficacy of this method for data clustering and multi-label classification through several examples, and compare its performance over existing methods in terms of efficiency and accuracy. Theoretical issues justifying the scheme are also discussed.",
+    "path": "papers/23/08/2308.13663.json",
+    "total_tokens": 641,
+    "translated_title": "使用稀疏逼近随机游走的网络嵌入",
+    "translated_abstract": "本文提出了一种基于通勤时间的网络嵌入的高效数值实现方法，该方法使用了通过改进的扩散小波算法在网络上获得的稀疏扩散过程的逼近。通过随机梯度下降法和低维表示的绿函数采样，计算节点的嵌入，通过多个示例展示了该方法在数据聚类和多标签分类方面的有效性，并在效率和准确性方面与现有方法进行比较。还讨论了证明该方法的理论问题。",
+    "tldr": "本文提出了一种使用稀疏逼近随机游走的网络嵌入方法，并通过数据聚类和多标签分类的实验验证了其有效性。",
+    "en_tdlr": "This paper proposes an efficient numerical implementation of network embedding using sparse approximations of random walks. The method is demonstrated to be effective for data clustering and multi-label classification through experiments."
+}

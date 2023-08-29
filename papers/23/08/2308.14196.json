@@ -1,0 +1,12 @@
+{
+    "title": "Identification and Estimation of Demand Models with Endogenous Product Entry and Exit. (arXiv:2308.14196v1 [econ.EM])",
+    "abstract": "This paper deals with the endogeneity of firms' entry and exit decisions in demand estimation. Product entry decisions lack a single crossing property in terms of demand unobservables, which causes the inconsistency of conventional methods dealing with selection. We present a novel and straightforward two-step approach to estimate demand while addressing endogenous product entry. In the first step, our method estimates a finite mixture model of product entry accommodating latent market types. In the second step, it estimates demand controlling for the propensity scores of all latent market types. We apply this approach to data from the airline industry.",
+    "link": "http://arxiv.org/abs/2308.14196",
+    "context": "Title: Identification and Estimation of Demand Models with Endogenous Product Entry and Exit. (arXiv:2308.14196v1 [econ.EM])\nAbstract: This paper deals with the endogeneity of firms' entry and exit decisions in demand estimation. Product entry decisions lack a single crossing property in terms of demand unobservables, which causes the inconsistency of conventional methods dealing with selection. We present a novel and straightforward two-step approach to estimate demand while addressing endogenous product entry. In the first step, our method estimates a finite mixture model of product entry accommodating latent market types. In the second step, it estimates demand controlling for the propensity scores of all latent market types. We apply this approach to data from the airline industry.",
+    "path": "papers/23/08/2308.14196.json",
+    "total_tokens": 661,
+    "translated_title": "通过确定性控制实现内生产品进入和退出条件的需求模型的识别和估计。",
+    "translated_abstract": "本文关注需求估计中企业进入和退出决策的内生性问题。由于产品进入决策在需求不可观测方面缺乏单一交叉属性，传统的处理选择问题的方法存在一致性问题。我们提出了一种新颖且直接的两步法来估计需求，同时解决了内生产品进入的问题。在第一步中，我们的方法估计适合潜在市场类型的有限混合模型。在第二步中，它根据所有潜在市场类型的倾向得分来估计需求。我们将这种方法应用于航空业的数据。",
+    "tldr": "本文提出了一种新颖且直接的两步法来估计需求，同时解决了内生产品进入的问题。",
+    "en_tdlr": "This paper proposes a novel and straightforward two-step approach to estimate demand while addressing endogenous product entry in the airline industry."
+}

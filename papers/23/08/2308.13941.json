@@ -1,0 +1,11 @@
+{
+    "title": "A small vocabulary database of ultrasound image sequences of vocal tract dynamics. (arXiv:2308.13941v1 [cs.SD])",
+    "abstract": "This paper presents a new database consisting of concurrent articulatory and acoustic speech data. The articulatory data correspond to ultrasound videos of the vocal tract dynamics, which allow the visualization of the tongue upper contour during the speech production process. Acoustic data is composed of 30 short sentences that were acquired by a directional cardioid microphone. This database includes data from 17 young subjects (8 male and 9 female) from the Santander region in Colombia, who reported not having any speech pathology.",
+    "link": "http://arxiv.org/abs/2308.13941",
+    "context": "Title: A small vocabulary database of ultrasound image sequences of vocal tract dynamics. (arXiv:2308.13941v1 [cs.SD])\nAbstract: This paper presents a new database consisting of concurrent articulatory and acoustic speech data. The articulatory data correspond to ultrasound videos of the vocal tract dynamics, which allow the visualization of the tongue upper contour during the speech production process. Acoustic data is composed of 30 short sentences that were acquired by a directional cardioid microphone. This database includes data from 17 young subjects (8 male and 9 female) from the Santander region in Colombia, who reported not having any speech pathology.",
+    "path": "papers/23/08/2308.13941.json",
+    "total_tokens": 684,
+    "translated_title": "一个包含声道动态超声图像序列的小型词汇数据库",
+    "translated_abstract": "本文介绍了一个包含连续的发声器官和声学语音数据的新数据库。发声器官数据对应于声道动态的超声视频，可以在言语生成过程中可视化舌头上轮廓。声学数据由定向心脏麦克风获取，包括30个短句子。该数据库包括来自哥伦比亚圣坦德区的17名年轻被试（男性8名，女性9名），他们报告没有任何言语病理问题。",
+    "tldr": "本文介绍了一个新的数据库，包含了连续的发声器官和声学语音数据，用超声图像和声音数据来研究言语生成过程中舌头上轮廓的可视化。这个数据库是由哥伦比亚圣坦德区的17名年轻被试完成的。"
+}

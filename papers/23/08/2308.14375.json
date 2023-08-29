@@ -1,0 +1,12 @@
+{
+    "title": "Bandwidth Selection for Treatment Choice with Binary Outcomes. (arXiv:2308.14375v1 [econ.EM])",
+    "abstract": "This study considers the treatment choice problem when outcome variables are binary. We focus on statistical treatment rules that plug in fitted values based on nonparametric kernel regression and show that optimizing two parameters enables the calculation of the maximum regret. Using this result, we propose a novel bandwidth selection method based on the minimax regret criterion. Finally, we perform a numerical analysis to compare the optimal bandwidth choices for the binary and normally distributed outcomes.",
+    "link": "http://arxiv.org/abs/2308.14375",
+    "context": "Title: Bandwidth Selection for Treatment Choice with Binary Outcomes. (arXiv:2308.14375v1 [econ.EM])\nAbstract: This study considers the treatment choice problem when outcome variables are binary. We focus on statistical treatment rules that plug in fitted values based on nonparametric kernel regression and show that optimizing two parameters enables the calculation of the maximum regret. Using this result, we propose a novel bandwidth selection method based on the minimax regret criterion. Finally, we perform a numerical analysis to compare the optimal bandwidth choices for the binary and normally distributed outcomes.",
+    "path": "papers/23/08/2308.14375.json",
+    "total_tokens": 601,
+    "translated_title": "二元结果的治疗选择中的带宽选择",
+    "translated_abstract": "本研究考虑了结果变量为二元时的治疗选择问题。我们专注于基于非参数核回归的统计治疗规则，证明了优化两个参数可以计算出最大遗憾。根据这个结果，我们提出了一种基于最小最大遗憾准则的新颖带宽选择方法。最后，我们进行了数值分析，比较了二元和正态分布结果的最优带宽选择。",
+    "tldr": "本研究提出了一种用于二元结果的治疗选择问题的带宽选择方法，通过优化两个参数，可以计算出最大遗憾，并进行了和正态分布结果的比较分析。",
+    "en_tdlr": "This study proposes a novel bandwidth selection method for treatment choice with binary outcomes, optimizing two parameters to calculate the maximum regret, and performs a comparative analysis with normally distributed outcomes."
+}

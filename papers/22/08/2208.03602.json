@@ -1,0 +1,11 @@
+{
+    "title": "Gacha Game: When Prospect Theory Meets Optimal Pricing. (arXiv:2208.03602v3 [econ.TH] UPDATED)",
+    "abstract": "I study the optimal pricing process for selling a unit good to a buyer with prospect theory preferences. In the presence of probability weighting, the buyer is dynamically inconsistent and can be either sophisticated or naive about her own inconsistency. If the buyer is naive, the uniquely optimal mechanism is to sell a ``loot box'' that delivers the good with some constant probability in each period. In contrast, if the buyer is sophisticated, the uniquely optimal mechanism introduces worst-case insurance: after successive failures in obtaining the good from all previous loot boxes, the buyer can purchase the good at full price.",
+    "link": "http://arxiv.org/abs/2208.03602",
+    "context": "Title: Gacha Game: When Prospect Theory Meets Optimal Pricing. (arXiv:2208.03602v3 [econ.TH] UPDATED)\nAbstract: I study the optimal pricing process for selling a unit good to a buyer with prospect theory preferences. In the presence of probability weighting, the buyer is dynamically inconsistent and can be either sophisticated or naive about her own inconsistency. If the buyer is naive, the uniquely optimal mechanism is to sell a ``loot box'' that delivers the good with some constant probability in each period. In contrast, if the buyer is sophisticated, the uniquely optimal mechanism introduces worst-case insurance: after successive failures in obtaining the good from all previous loot boxes, the buyer can purchase the good at full price.",
+    "path": "papers/22/08/2208.03602.json",
+    "total_tokens": 815,
+    "translated_title": "扭蛋游戏：当展望理论遇到最优定价",
+    "translated_abstract": "本研究探讨了以展望理论偏好的买方的最优定价过程。在存在概率加权的情况下，买方在动态一致性方面存在问题，可能对自身的不一致性持无知态度或精明态度。如果买方是无知的，唯一最优的机制是销售每个周期以一定概率提供商品的“扭蛋盒子”。相比之下，如果买方是精明的，唯一最优的机制是引入最坏情况保险：在所有先前的扭蛋盒子中连续未能获得商品后，买方可以以全价购买商品。",
+    "tldr": "这篇论文研究了以展望理论偏好的买方的最优定价过程，发现如果买方是无知的，以固定概率提供商品的“扭蛋盒子”是唯一最优的销售机制；而如果买方是精明的，唯一最优的机制是引入最坏情况保险，允许买方在多次失败后以全价购买商品。"
+}

@@ -2,202 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Choice Architecture, Privacy Valuations, and Selection Bias in Consumer Data.](http://arxiv.org/abs/2308.13496) | 本研究探讨了公司在数据收集过程中所采用的选择架构对消费者隐私估值的影响，发现选择退出的默认选择和低价格锚定会降低估值。同时发现，在一些消费者群体中，消费者对选择架构的影响敏感度与其隐私估值呈负相关。此外，研究还发现，传统的框架优化方法可能会对数据的代表性产生负面影响。 |
-| [^2] | [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading.](http://arxiv.org/abs/2308.13289) | JAX-LOB是第一个GPU加速的LOB模拟器，可以并行处理数千个订单簿，以较低的处理时间实现大规模强化学习交易，为金融交易研究提供了重要工具。 |
-| [^3] | [Parental Health Penalty on Adult Children's Employment: Gender Difference and Long-Term Consequence.](http://arxiv.org/abs/2308.13156) | 本文研究了父母健康冲击对中国成年子女就业的长期性别特定影响，发现女性就业率显著下降，而男性则基本上没有受到影响。 |
-| [^4] | [Occupational Retirement and Pension Reform: The Roles of Physical and Cognitive Health.](http://arxiv.org/abs/2308.13153) | 本文研究了职业退休和养老金改革中身体和认知健康的作用。结果表明，65岁后认知健康的影响呈指数增加，并且解释了认知要求高的职业就业下降的相当大一部分。在养老金改革下，身体限制主要阻碍了手工工人的延迟退休，而认知限制减缓了文职和专业工人的反应。 |
-| [^5] | [Grover Search for Portfolio Selection.](http://arxiv.org/abs/2308.13063) | 该论文通过使用Grover算法和明确的接口，实现了用于组合选择的搜索。接口能够根据投资者的偏好选择具有收益率和标准差超过和低于特定阈值的组合，其中一个用例是选择具有最佳夏普比率的组合。 |
-| [^6] | [Spatial and Spatiotemporal Volatility Models: A Review.](http://arxiv.org/abs/2308.13061) | 本综述回顾了最新关于空间和时空波动模型的文献，分析了不同模型的优缺点，并提出了实用推荐和未来研究方向。 |
-| [^7] | [Convexity adjustments \`a la Malliavin.](http://arxiv.org/abs/2304.13402) | 本文提出了一种基于Malliavin calculus的新方法，用于寻找各种传统利率产品的凸性调整近似值。在通用的一因子Cheyette模型族下，我们成功找到了期货、OIS期货、FRAs和CMS的近似值，并表现出了精确度极高的特点。 |
-| [^8] | [Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment.](http://arxiv.org/abs/2303.11956) | 本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。 |
-| [^9] | [Validation of machine learning based scenario generators.](http://arxiv.org/abs/2301.12719) | 本研究讨论了基于机器学习的场景生成器的验证，提出了两个额外的验证任务：检查风险因素之间的依赖关系和检测不希望出现的记忆效应。结论表明，在这个上下文中，这些措施能够产生合理的结果，并可以用于验证和优化模型。 |
-| [^10] | [E-commerce users' preferences for delivery options.](http://arxiv.org/abs/2301.00666) | 研究通过设计陈述选择调查，调查了电子商务用户对交付选择的偏好，发现交付方式的费用、时间和时间段大小是用户选择的重要决定因素，同时也发现用户的偏好与年龄、性别、远程办公频率和是否有快递柜等社会人口特征有关。 |
-| [^11] | [Scenario generation for market risk models using generative neural networks.](http://arxiv.org/abs/2109.10072) | 本研究展示了如何使用生成性神经网络作为经济场景生成器，将其应用于整个内部市场风险模型，具有与欧洲监管批准的内部模型相似的结果。 |
-| [^12] | [Why North Korean Refugees are Reluctant to Compete: The Roles of Cognitive Ability.](http://arxiv.org/abs/2108.08097) | 该研究通过实验室实验和分析发现，朝鲜难民相对于韩国人和韩国华人移民更不愿参加竞争比赛，这可能是由较低的认知能力导致的。 |
-| [^13] | [Weak Transport for Non-Convex Costs and Model-independence in a Fixed-Income Market.](http://arxiv.org/abs/2011.04274) | 在固定收益市场中，我们考虑一个无模型依赖的定价问题，并利用弱最优传输问题来确定短期利率期权的定价极端模型，建立了一个适用于固定收益市场的强鲁棒超复制结果。另外，我们还展示了如何将一般成本的弱最优传输问题转化为满足凸性假设的等价问题，从而扩展了弱传输理论的适用范围。 |
+| [^1] | [Crowdsourced data indicates broadband has a positive impact on local business creation.](http://arxiv.org/abs/2308.14734) | 本研究利用高分辨率面板数据分析了英国地区的宽带连接对新企业创立的影响。研究发现，NGA技术带来的更快的宽带速度对企业增长率有积极影响，每增加1个百分点的下载速度，企业机构的年增长率会增加0.0574个百分点。这一影响的主要机制是更快的宽带速度对于基于新的数字技术和服务的创新商业模式的推动作用。 |
+| [^2] | [Managing Congestion in Two-Sided Platforms: The Case of Online Rentals.](http://arxiv.org/abs/2308.14703) | 本研究利用一个房屋租赁平台的数据，展示了排序算法对于双边平台在减少拥塞方面可能引起的问题。特别是当排序对用户不变时，会导致用户浏览、点击和请求相同的房间，极大限制了匹配数。通过模拟不同排序算法的情景，我们发现增加个性化程度可以提高用户的匹配率。 |
+| [^3] | [Breaking the Bank with ChatGPT: Few-Shot Text Classification for Finance.](http://arxiv.org/abs/2308.14634) | 使用会话型GPT模型和对比学习技术，我们提出了一种在金融领域进行快速Few-Shot文本分类的方法。与微调的非生成模型相比，查询GPT-3.5和GPT-4能够在样本较少的情况下取得更好的结果。然而，这些解决方案的订阅费用可能对小型组织来说过高。同时，我们发现人类专家选择的代表性样本可以提高生成模型的性能。 |
+| [^4] | [Deep multi-step mixed algorithm for high dimensional non-linear PDEs and associated BSDEs.](http://arxiv.org/abs/2308.14487) | 提出了一种新的多步深度学习算法，用于解决高维非线性PDEs和相关的BSDEs问题，通过迭代时间离散化、深度神经网络和自动微分等技术，提高了准确性并降低了复杂度。 |
+| [^5] | [Joint Calibration of Local Volatility Models with Stochastic Interest Rates using Semimartingale Optimal Transport.](http://arxiv.org/abs/2308.14473) | 本文提出了一种使用半鞅最优输运的非参数方法，用于联合准确校准本地波动模型和相关随机短期利率模型。该方法通过迭代过程实现校准，并使用市场数据进行验证。 |
+| [^6] | [An Empirical Analysis on Financial Market: Insights from the Application of Statistical Physics.](http://arxiv.org/abs/2308.14235) | 本研究引入了受统计物理学启发的物理模型，利用三级订单簿数据预测金融市场的价格波动和预期回报，超越了传统方法和机器学习算法，提供了对市场微观结构的深入理解。 |
+| [^7] | [TimeTrail: Unveiling Financial Fraud Patterns through Temporal Correlation Analysis.](http://arxiv.org/abs/2308.14215) | “TimeTrail”是一种利用时间相关性分析揭示金融欺诈模式的新技术。它通过时间数据丰富、动态相关性分析和可解释的模式可视化三个阶段来提供透明和可解释的解释，增强问责和信任。 |
+| [^8] | [Transaction fee mechanism for Proof-of-Stake protocol.](http://arxiv.org/abs/2308.13881) | 本研究在Proof-of-Stake协议中探索了交易手续费机制的问题，并扩展了现有机制以纳入矿工的长期效用模型。通过推导出矿工的长期效用函数，我们发现效用函数存在关键的不连续性，导致现有机制无法满足关键的期望性质。为了解决这个问题，我们引入了一个新的参数，并提出了一个新的机制。 |
+| [^9] | [Solutions to Equilibrium HJB Equations for Time-Inconsistent Deterministic Linear Quadratic Control: Characterization and Uniqueness.](http://arxiv.org/abs/2308.13850) | 本文研究了不具时一致性的确定性线性二次控制中的平衡HJB方程，使用一类带有积分项的Riccati方程刻画了解的特征，并通过研究积分-微分Riccati方程解的唯一性，证明了解的唯一性。 |
+| [^10] | [Portfolios Generated by Contingent Claim Functions, with Applications to Option Pricing.](http://arxiv.org/abs/2308.13717) | 本文研究了由严格正的连续半-鞅表示的股票市场中生成的投资组合，该投资组合通过满足特定的抛物型微分方程来复制事后索赔函数的价值过程。这一理论对期权定价具有重要的应用价值。 |
+| [^11] | [The Potential of Quantum Techniques for Stock Price Prediction.](http://arxiv.org/abs/2308.13642) | 本研究探索了量子算法在股票价格预测中的潜力，使用了量子退火和主成分分析等技术进行特征选择和维度约简，并将股票价格预测转化为分类问题。我们训练了量子支持向量机进行预测，并与传统模型进行比较，在四家不同公司的股票价格预测和二元分类中获得了准确结果。 |
+| [^12] | [Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models.](http://arxiv.org/abs/2307.11137) | 本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。 |
+| [^13] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
+| [^14] | [Axioms for Automated Market Makers: A Mathematical Framework in FinTech and Decentralized Finance.](http://arxiv.org/abs/2210.01227) | 本文提出了一个自动市场制造商（AMMs）的公理框架，通过对底层效用函数施加合理的公理，描述了资产互换规模和结果定价预测的特性，并定义了一种新的价格影响度量方法。分析表明，大多数现有的AMMs满足这些公理。此外，还提出了一种新的费用结构，使得AMM对交易拆分不敏感，并提出了一种具有良好分析特性并提供较大范围内无发散损失的新型AMM。 |
+| [^15] | [Continuous-time stochastic gradient descent for optimizing over the stationary distribution of stochastic differential equations.](http://arxiv.org/abs/2202.06637) | 我们提出了一种连续时间随机梯度下降算法用于优化随机微分方程模型的平稳分布。算法通过估计平稳分布的梯度，并使用正向传播进行连续更新参数，实现收敛至最陡下降方向。我们严格证明了在线正向传播算法在线性模型上的收敛性，并在非线性示例上进行了数值验证。 |
+| [^16] | [Controlled Measure-Valued Martingales: a Viscosity Solution Approach.](http://arxiv.org/abs/2109.00064) | 这篇论文提出了一种粘滞性解法来解决控制测度值鞅问题，证明了其值函数可以被表征为Hamilton-Jacobi-Bellman方程的唯一解。此外，还研究了可控测度值鞅的适当版本的Itô引理，并且展示了这类问题在多个应用中的重要性。 |
+| [^17] | [What do Firms Gain from Patenting? The Case of the Global ICT Industry.](http://arxiv.org/abs/2108.00814) | 本研究调查了专利授予对信息通信技术行业中企业的影响，并发现专利授予对较小公司的市场份额和规模有显著而正向的影响，而对大公司没有明显的影响。 |
 
 # 详细
 
-[^1]: 选择架构、隐私估值和顾客数据选择偏差的研究
+[^1]: 众包数据表明宽带对当地企业创立有积极影响
 
-    Choice Architecture, Privacy Valuations, and Selection Bias in Consumer Data. (arXiv:2308.13496v1 [econ.GN])
+    Crowdsourced data indicates broadband has a positive impact on local business creation. (arXiv:2308.14734v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.13496](http://arxiv.org/abs/2308.13496)
+    [http://arxiv.org/abs/2308.14734](http://arxiv.org/abs/2308.14734)
 
-    本研究探讨了公司在数据收集过程中所采用的选择架构对消费者隐私估值的影响，发现选择退出的默认选择和低价格锚定会降低估值。同时发现，在一些消费者群体中，消费者对选择架构的影响敏感度与其隐私估值呈负相关。此外，研究还发现，传统的框架优化方法可能会对数据的代表性产生负面影响。
-
-    
-
-    本研究探讨了公司在数据收集过程中所采用的选择架构如何影响消费者对隐私的估值，并进一步探讨了这种影响如何影响所收集数据的质量，包括数据的数量和代表性。通过运行大规模的选择实验，我们确定了消费者对其Facebook数据的估值，并针对两种常见的选择框架进行了随机化的比较：默认选择和价格锚定。相比于选择加入的情况，选择退出的默认选择会使估值降低14-22%，而将价格锚定在0-50美元会使估值降低37-53%，与将价格锚定在50-100美元相比。此外，在某些消费者群体中，对框架影响的敏感性与消费者的平均估值呈负相关。我们发现，传统的框架优化实践可以最大化收集到的数据量，但对其代表性的影响恰恰相反。当消费者的隐私估值和框架效应呈负相关时，会产生偏差加剧的效应。
-
-    We study how choice architecture that companies deploy during data collection influences consumers' privacy valuations. Further, we explore how this influence affects the quality of data collected, including both volume and representativeness. To this end, we run a large-scale choice experiment to elicit consumers' valuation for their Facebook data while randomizing two common choice frames: default and price anchor. An opt-out default decreases valuations by 14-22% compared to opt-in, while a \$0-50 price anchor decreases valuations by 37-53% compared to a \$50-100 anchor. Moreover, in some consumer segments, the susceptibility to frame influence negatively correlates with consumers' average valuation. We find that conventional frame optimization practices that maximize the volume of data collected can have opposite effects on its representativeness. A bias-exacerbating effect emerges when consumers' privacy valuations and frame effects are negatively correlated. On the other hand, a 
-    
-[^2]: JAX-LOB：一种基于GPU加速的限价单簿模拟器，为大规模强化学习交易解锁
-
-    JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading. (arXiv:2308.13289v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2308.13289](http://arxiv.org/abs/2308.13289)
-
-    JAX-LOB是第一个GPU加速的LOB模拟器，可以并行处理数千个订单簿，以较低的处理时间实现大规模强化学习交易，为金融交易研究提供了重要工具。
+    本研究利用高分辨率面板数据分析了英国地区的宽带连接对新企业创立的影响。研究发现，NGA技术带来的更快的宽带速度对企业增长率有积极影响，每增加1个百分点的下载速度，企业机构的年增长率会增加0.0574个百分点。这一影响的主要机制是更快的宽带速度对于基于新的数字技术和服务的创新商业模式的推动作用。
 
     
 
-    全球金融交易所使用限价单簿（LOB）来处理订单和匹配交易。为了研究目的，需要具有大规模高效的LOB动态模拟器。以前曾在基于代理模型（ABMs），强化学习（RL）环境和生成模型的上下文中实现了LOB模拟器，处理来自历史数据集和手工代理的订单流。对于许多应用程序，需要处理多个订单簿，无论是用于ABM的校准还是RL代理的训练。我们展示了首个能够并行处理数千本订单簿且每个消息处理时间显著减少的GPU-enabled LOB模拟器-JAX-LOB的实现。我们的模拟器JAX-LOB的实现基于设计选择，旨在充分利用JAX的功能，同时不损害与LOB相关的机制的真实性。我们将JAX-LOB与其他JAX包集成，以提供如何适用的示例。
+    宽带连接被认为通常对宏观经济产生积极影响，但我们缺乏关于它如何影响关键的经济活动指标（如企业创立）在非常局部的证据。本研究使用高分辨率面板数据，在2011-2015年间对英国的当地层面上建模分析了Next Generation Access (NGA) 宽带对新企业创立的影响。在控制了一系列因素之后，我们发现NGA技术带来的更快的宽带速度对于企业增长率有积极影响。我们发现在2011-2015年期间，英国平均来说，下载速度每增加1个百分点，企业机构的年增长率会增加0.0574个百分点。估计出的关系的主要假设机制是更快的宽带速度对于基于新的数字技术和服务的创新商业模式的推动作用。
 
-    Financial exchanges across the world use limit order books (LOBs) to process orders and match trades. For research purposes it is important to have large scale efficient simulators of LOB dynamics. LOB simulators have previously been implemented in the context of agent-based models (ABMs), reinforcement learning (RL) environments, and generative models, processing order flows from historical data sets and hand-crafted agents alike. For many applications, there is a requirement for processing multiple books, either for the calibration of ABMs or for the training of RL agents. We showcase the first GPU-enabled LOB simulator designed to process thousands of books in parallel, with a notably reduced per-message processing time. The implementation of our simulator - JAX-LOB - is based on design choices that aim to best exploit the powers of JAX without compromising on the realism of LOB-related mechanisms. We integrate JAX-LOB with other JAX packages, to provide an example of how one may ad
+    Broadband connectivity is regarded as generally having a positive macroeconomic effect, but we lack evidence as to how it affects key economic activity metrics, such as firm creation, at a very local level. This analysis models the impact of broadband Next Generation Access (NGA) on new business creation at the local level over the 2011-2015 period in England, United Kingdom, using high-resolution panel data. After controlling for a range of factors, we find that faster broadband speeds brought by NGA technologies have a positive effect on the rate of business growth. We find that in England between 2011-2015, on average a one percentage increase in download speeds is associated with a 0.0574 percentage point increase in the annual growth rate of business establishments. The primary hypothesised mechanism behind the estimated relationship is the enabling effect that faster broadband speeds have on innovative business models based on new digital technologies and services. Entrepreneurs 
     
-[^3]: 父母健康问题对成年子女就业的影响：性别差异和长期后果
+[^2]: 在双边平台中管理拥塞：以在线租赁为例
 
-    Parental Health Penalty on Adult Children's Employment: Gender Difference and Long-Term Consequence. (arXiv:2308.13156v1 [econ.GN])
+    Managing Congestion in Two-Sided Platforms: The Case of Online Rentals. (arXiv:2308.14703v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.13156](http://arxiv.org/abs/2308.13156)
+    [http://arxiv.org/abs/2308.14703](http://arxiv.org/abs/2308.14703)
 
-    本文研究了父母健康冲击对中国成年子女就业的长期性别特定影响，发现女性就业率显著下降，而男性则基本上没有受到影响。
-
-    
-
-    本文研究了父母健康冲击对中国成年子女就业的长期性别特定影响。我们建立了一个跨时合作框架，分析了在父母健康恶化的情况下家庭工作决策。然后使用事件研究方法，我们建立了父母健康冲击与女性就业率显著下降之间的因果关系。然而，男性就业率基本上没有受到影响。这种负面影响在样本可观察到的八年内没有减少。这些发现表明了发展中国家“在变富之前老去”的后果。
-
-    This paper examines the long-term gender-specific impacts of parental health shocks on adult children's employment in China. We build up an inter-temporal cooperative framework to analyze household work decisions in response to parental health deterioration. Then employing an event-study approach, we establish a causal link between parental health shocks and a notable decline in female employment rates. Male employment, however, remains largely unaffected. This negative impact shows no abatement up to eight years that are observable by the sample. These findings indicate the consequence of "growing old before getting rich" for developing countries.
-    
-[^4]: 职业退休和养老金改革：身体和认知健康的作用
-
-    Occupational Retirement and Pension Reform: The Roles of Physical and Cognitive Health. (arXiv:2308.13153v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.13153](http://arxiv.org/abs/2308.13153)
-
-    本文研究了职业退休和养老金改革中身体和认知健康的作用。结果表明，65岁后认知健康的影响呈指数增加，并且解释了认知要求高的职业就业下降的相当大一部分。在养老金改革下，身体限制主要阻碍了手工工人的延迟退休，而认知限制减缓了文职和专业工人的反应。
+    本研究利用一个房屋租赁平台的数据，展示了排序算法对于双边平台在减少拥塞方面可能引起的问题。特别是当排序对用户不变时，会导致用户浏览、点击和请求相同的房间，极大限制了匹配数。通过模拟不同排序算法的情景，我们发现增加个性化程度可以提高用户的匹配率。
 
     
 
-    尽管工作对认知要求越来越高，但对健康在退休中的作用的了解主要集中在身体维度上。本文估计了一个动态规划模型，考虑了多个健康维度，在不同职业中对劳动力供应产生不同影响。结果显示，在65岁之后，认知健康的影响呈指数增加，并且它解释了认知要求高的职业就业下降的相当大一部分。在养老金改革下，身体限制主要阻碍了手工工人延迟退休，而认知限制减缓了文职和专业工人的反应。因此，多维健康在不同职业中不平等地加剧了福利损失。
+    厚的双边配对平台，如房屋租赁市场，面临着向用户展示相关物品以降低搜索成本的挑战。许多平台使用排序算法来确定向用户展示备选项的顺序。排序算法可能依赖于简单的标准，如列表在平台上存在的时间长短，或者包含更复杂的方面，如关于用户偏好的个性化推断。利用一个房屋租赁平台的丰富数据，我们展示了排序算法可以成为不必要拥塞的来源，尤其是在排序对用户不变的情况下。不变的排序导致用户在我们研究的平台上查看、点击和请求相同的房间，极大地限制了该平台所产生的匹配数。我们估计了用户偏好，并模拟了在不同排序算法下的反事实情景，改变了个性化程度和用户之间的差异。在我们的案例中，增加个性化推断既提高了用户的匹配率，
 
-    Despite increasing cognitive demands of jobs, knowledge about the role of health in retirement has centered on its physical dimensions. This paper estimates a dynamic programming model of retirement that incorporates multiple health dimensions, allowing differential effects on labor supply across occupations. Results show that the effect of cognitive health surges exponentially after age 65, and it explains a notable share of employment declines in cognitively demanding occupations. Under pension reforms, physical constraint mainly impedes manual workers from delaying retirement, whereas cognitive constraint dampens the response of clerical and professional workers. Multidimensional health thus unevenly exacerbate welfare losses across occupations.
+    Thick two-sided matching platforms, such as the room-rental market, face the challenge of showing relevant objects to users to reduce search costs. Many platforms use ranking algorithms to determine the order in which alternatives are shown to users. Ranking algorithms may depend on simple criteria, such as how long a listing has been on the platform, or incorporate more sophisticated aspects, such as personalized inferences about users' preferences. Using rich data on a room rental platform, we show how ranking algorithms can be a source of unnecessary congestion, especially when the ranking is invariant across users. Invariant rankings induce users to view, click, and request the same rooms in the platform we study, greatly limiting the number of matches it creates. We estimate preferences and simulate counterfactuals under different ranking algorithms varying the degree of user personalization and variation across users. In our case, increased personalization raises both user match 
     
-[^5]: 用于组合选择的Grover搜索
+[^3]: 用ChatGPT突破银行：针对金融领域的快速Few-Shot文本分类
 
-    Grover Search for Portfolio Selection. (arXiv:2308.13063v1 [q-fin.CP])
+    Breaking the Bank with ChatGPT: Few-Shot Text Classification for Finance. (arXiv:2308.14634v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.13063](http://arxiv.org/abs/2308.13063)
+    [http://arxiv.org/abs/2308.14634](http://arxiv.org/abs/2308.14634)
 
-    该论文通过使用Grover算法和明确的接口，实现了用于组合选择的搜索。接口能够根据投资者的偏好选择具有收益率和标准差超过和低于特定阈值的组合，其中一个用例是选择具有最佳夏普比率的组合。
-
-    
-
-    我们提出了明确的接口，用于在Grover算法中匹配投资者的偏好。具体而言，这些接口选择收益率和标准差超过和低于特定阈值的组合。接口的一个潜在用例是选择具有最佳夏普比率的组合。我们已经使用量子模拟器实现了这些算法。
-
-    We present explicit oracles designed to be used in Grover's algorithm to match investor preferences. Specifically, the oracles select portfolios with returns and standard deviations exceeding and falling below certain thresholds, respectively. One potential use case for the oracles is selecting portfolios with the best Sharpe ratios. We have implemented these algorithms using quantum simulators.
-    
-[^6]: 空间和时空波动模型：综述
-
-    Spatial and Spatiotemporal Volatility Models: A Review. (arXiv:2308.13061v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.13061](http://arxiv.org/abs/2308.13061)
-
-    本综述回顾了最新关于空间和时空波动模型的文献，分析了不同模型的优缺点，并提出了实用推荐和未来研究方向。
+    使用会话型GPT模型和对比学习技术，我们提出了一种在金融领域进行快速Few-Shot文本分类的方法。与微调的非生成模型相比，查询GPT-3.5和GPT-4能够在样本较少的情况下取得更好的结果。然而，这些解决方案的订阅费用可能对小型组织来说过高。同时，我们发现人类专家选择的代表性样本可以提高生成模型的性能。
 
     
 
-    空间和时空波动模型是一类旨在捕捉空间和时空数据波动性中的空间依赖关系的模型。波动性的空间依赖性可能是由于位置之间的空间溢出效应而引起的；也就是说，如果两个位置相邻，它们可能具有相似的波动性。本文旨在全面回顾关于空间和时空波动模型的最新文献。我们首先简要回顾时间序列波动模型及其多元扩展，以激发对空间和时空对应模型的兴趣。然后，我们回顾文献中提出的各种空间和时空波动模型规范及其潜在动机和估计策略。通过这个分析，我们有效地比较了所有模型，并为其适当的使用提供了实践建议。我们重点介绍了可能的扩展，并概述了未来研究的方向。
+    我们提出使用会话型GPT模型在金融领域使用Banking77数据集进行简单快速的Few-Shot文本分类。我们的方法涉及使用GPT-3.5和GPT-4进行上下文学习，减少了所需的技术专长，并消除了昂贵的GPU计算需求，同时能够快速且准确地得出结果。此外，我们使用最近的对比学习技术SetFit对其他预训练的掩码语言模型进行微调，以在完整数据和few-shot设置下实现最先进的结果。我们的研究结果表明，即使例子更少，查询GPT-3.5和GPT-4也可以胜过微调的非生成模型。然而，这些解决方案所涉及的订阅费用对于小型组织可能被认为昂贵。最后，我们发现，当展示人类专家选择的代表性样本时，生成模型在给定任务上表现更好，而不是展示随机样本。我们得出结论：a)我们提出的方法能够在金融领域实现快速的Few-Shot文本分类，b)使用GPT-3.5和GPT-4进行查询可以胜过微调的非生成模型，c)生成模型在展示代表性样本时表现更佳。
 
-    Spatial and spatiotemporal volatility models are a class of models designed to capture spatial dependence in the volatility of spatial and spatiotemporal data. Spatial dependence in the volatility may arise due to spatial spillovers among locations; that is, if two locations are in close proximity, they can exhibit similar volatilities. In this paper, we aim to provide a comprehensive review of the recent literature on spatial and spatiotemporal volatility models. We first briefly review time series volatility models and their multivariate extensions to motivate their spatial and spatiotemporal counterparts. We then review various spatial and spatiotemporal volatility specifications proposed in the literature along with their underlying motivations and estimation strategies. Through this analysis, we effectively compare all models and provide practical recommendations for their appropriate usage. We highlight possible extensions and conclude by outlining directions for future research.
+    We propose the use of conversational GPT models for easy and quick few-shot text classification in the financial domain using the Banking77 dataset. Our approach involves in-context learning with GPT-3.5 and GPT-4, which minimizes the technical expertise required and eliminates the need for expensive GPU computing while yielding quick and accurate results. Additionally, we fine-tune other pre-trained, masked language models with SetFit, a recent contrastive learning technique, to achieve state-of-the-art results both in full-data and few-shot settings. Our findings show that querying GPT-3.5 and GPT-4 can outperform fine-tuned, non-generative models even with fewer examples. However, subscription fees associated with these solutions may be considered costly for small organizations. Lastly, we find that generative models perform better on the given task when shown representative samples selected by a human expert rather than when shown random ones. We conclude that a) our proposed metho
     
-[^7]: Malliavin变换下的凸性调整方法
+[^4]: 高维非线性偏微分方程及相关BSDE的深度多步混合算法
 
-    Convexity adjustments \`a la Malliavin. (arXiv:2304.13402v1 [q-fin.MF])
+    Deep multi-step mixed algorithm for high dimensional non-linear PDEs and associated BSDEs. (arXiv:2308.14487v1 [math.NA])
 
-    [http://arxiv.org/abs/2304.13402](http://arxiv.org/abs/2304.13402)
+    [http://arxiv.org/abs/2308.14487](http://arxiv.org/abs/2308.14487)
 
-    本文提出了一种基于Malliavin calculus的新方法，用于寻找各种传统利率产品的凸性调整近似值。在通用的一因子Cheyette模型族下，我们成功找到了期货、OIS期货、FRAs和CMS的近似值，并表现出了精确度极高的特点。
-
-    
-
-    本文研究利用Malliavin演算法寻找各种传统利率产品的凸性调整近似值的新方法。Malliavin演算为得到凸性调整模板提供了简单的途径。我们在一个通用的一因子Cheyette模型族下找到了期货、OIS期货、FRAs和CMS的近似值，并且发现所获得的公式具有极高的数值精度。
-
-    In this paper, we develop a novel method based on Malliavin calculus to find an approximation for the convexity adjustment for various classical interest rate products. Malliavin calculus provides a simple way to get a template for the convexity adjustment. We find the approximation for Futures, OIS Futures, FRAs, and CMSs under a general family of the one-factor Cheyette model. We have also seen the excellent quality of the numerical accuracy of the formulas obtained.
-    
-[^8]: 基于一般均衡的大规模教育改革：印度回归不连续证据的评论
-
-    Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment. (arXiv:2303.11956v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.11956](http://arxiv.org/abs/2303.11956)
-
-    本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。
+    提出了一种新的多步深度学习算法，用于解决高维非线性PDEs和相关的BSDEs问题，通过迭代时间离散化、深度神经网络和自动微分等技术，提高了准确性并降低了复杂度。
 
     
 
-    本文重新分析了 Khanna (2023) 中通过回归不连续设计研究印度教育对劳动力市场的影响的内容。在图形初步分析中，反转绘图软件默认值的覆盖极大地减少了不连续性的出现。在数据中缺少离不连续点四个街区；修复后削减了对学校和对数工资的简化形式影响分别为62％和75％。使用一致的方差估计器，并将其聚类处理到地理治疗单元，进一步削弱了积极影响的推断。一般均衡效应和替代弹性的估计不是无偏的，且有效方差为无限大。
+    我们提出了一种新的多步深度学习算法，用于解决中度到高维非线性倒向随机微分方程（BSDE）及其对应的抛物型偏微分方程（PDE）。我们的算法基于BSDE的迭代时间离散化，并利用深度神经网络和自动微分在每个时间步求解其解和梯度的近似值。通过随机梯度下降，这些近似值通过在每个时间步上顺序最小化局部二次损失函数而得到。我们在网络结构具有权重约束的情况下对近似误差进行了分析，该约束仅对BSDE的生成器具有低正则性条件要求。相比于文献中类似模型，该算法提高了准确性并且降低了复杂度。
 
-    This paper reanalyzes Khanna (2023), which studies labor market effects of schooling in India through a regression discontinuity design. In graphical preliminaries, reversing overrides of the plotting software's defaults greatly reduces the appearance of discontinuities. Absent from the data are four districts close to the discontinuity; restoring them cuts the reduced-form impacts on schooling and log wages by 62% and 75%. Using a consistent variance estimator, and clustering it at the geographic unit of treatment, further weakens the inference of positive impact. The estimates of general equilibrium effects and elasticities of substitution are not unbiased and have effectively infinite variance.
+    We propose a new multistep deep learning-based algorithm for the resolution of moderate to high dimensional nonlinear backward stochastic differential equations (BSDEs) and their corresponding parabolic partial differential equations (PDE). Our algorithm relies on the iterated time discretisation of the BSDE and approximates its solution and gradient using deep neural networks and automatic differentiation at each time step. The approximations are obtained by sequential minimisation of local quadratic loss functions at each time step through stochastic gradient descent. We provide an analysis of approximation error in the case of a network architecture with weight constraints requiring only low regularity conditions on the generator of the BSDE. The algorithm increases accuracy from its single step parent model and has reduced complexity when compared to similar models in the literature.
     
-[^9]: 机器学习场景生成器的验证
+[^5]: 使用半鞅最优输运联合校准具有随机利率的本地波动模型
 
-    Validation of machine learning based scenario generators. (arXiv:2301.12719v2 [q-fin.RM] UPDATED)
+    Joint Calibration of Local Volatility Models with Stochastic Interest Rates using Semimartingale Optimal Transport. (arXiv:2308.14473v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2301.12719](http://arxiv.org/abs/2301.12719)
+    [http://arxiv.org/abs/2308.14473](http://arxiv.org/abs/2308.14473)
 
-    本研究讨论了基于机器学习的场景生成器的验证，提出了两个额外的验证任务：检查风险因素之间的依赖关系和检测不希望出现的记忆效应。结论表明，在这个上下文中，这些措施能够产生合理的结果，并可以用于验证和优化模型。
-
-    
-
-    机器学习方法在使用场景生成器开发内部模型方面变得越来越重要。在 Solvency 2 下，内部模型需要经过验证，一个重要问题是这些数据驱动模型的验证与传统理论模型的区别在哪些方面。以市场风险为例，我们讨论了两个额外的验证任务的必要性：一个是检查所使用风险因素之间的依赖关系，一个是检测不希望出现的记忆效应。第一个任务是必要的，因为在这种新方法中，依赖关系不是从金融数学理论中推导出来的。后一个任务出现在机器学习模型仅重复经验数据而不生成新场景的情况下。然后，这些措施被应用于基于机器学习的经济场景生成器。结果表明，在这个上下文中，这些措施导致了合理的结果，并且可以用于验证和模型优化。
-
-    Machine learning methods are getting more and more important in the development of internal models using scenario generation. As internal models under Solvency 2 have to be validated, an important question is in which aspects the validation of these data-driven models differs from a classical theory-based model. On the specific example of market risk, we discuss the necessity of two additional validation tasks: one to check the dependencies between the risk factors used and one to detect the unwanted memorizing effect. The first one is necessary because in this new method, the dependencies are not derived from a financial-mathematical theory. The latter one arises when the machine learning model only repeats empirical data instead of generating new scenarios. These measures are then applied for an machine learning based economic scenario generator. It is shown that those measures lead to reasonable results in this context and are able to be used for validation as well as for model opti
-    
-[^10]: 电子商务用户对交付选择的偏好
-
-    E-commerce users' preferences for delivery options. (arXiv:2301.00666v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2301.00666](http://arxiv.org/abs/2301.00666)
-
-    研究通过设计陈述选择调查，调查了电子商务用户对交付选择的偏好，发现交付方式的费用、时间和时间段大小是用户选择的重要决定因素，同时也发现用户的偏好与年龄、性别、远程办公频率和是否有快递柜等社会人口特征有关。
+    本文提出了一种使用半鞅最优输运的非参数方法，用于联合准确校准本地波动模型和相关随机短期利率模型。该方法通过迭代过程实现校准，并使用市场数据进行验证。
 
     
 
-    许多电子商务市场为了满足用户日益增长的需求，提供免费的快速交付选项，这给城市物流带来了过重的负担。因此，了解电子商务用户对交付选择的偏好是设计物流政策的关键。为此，本研究设计了一项陈述选择调查，受访者面临不同交付选择和时间段之间的选择任务，在日本三个主要都市地区的4062名用户完成了调查。为了分析数据，我们估计了捕捉品味异质性以及灵活替代模式的混合逻辑模型。模型估计结果表明，包括费用、时间和时间段大小在内的交付属性是交付选择的重要决定因素。还提出了用户偏好与年龄、性别、远程办公频率和是否有快递柜等社会人口特征之间的关联。
+    我们利用半鞅最优输运开发和实现了一种非参数方法，用于联合准确校准本地波动模型和相关随机短期利率模型。该方法依赖于Joseph、Loeper和Obloj在2023年建立的对偶结果，并联合校准整个股票-利率动态。它采用迭代方法，从参数模型开始，并努力保持接近，直到获得完美的校准。我们使用欧洲SPX期权和欧洲名义利率期权的市场数据来演示我们方法的性能。最后，我们将联合校准方法与顺序校准进行了比较，顺序校准先对短期利率模型进行校准并冻结。
 
-    Many e-commerce marketplaces offer their users fast delivery options for free to meet the increasing needs of users, imposing an excessive burden on city logistics. Therefore, understanding e-commerce users' preference for delivery options is a key to designing logistics policies. To this end, this study designs a stated choice survey in which respondents are faced with choice tasks among different delivery options and time slots, which was completed by 4,062 users from the three major metropolitan areas in Japan. To analyze the data, mixed logit models capturing taste heterogeneity as well as flexible substitution patterns have been estimated. The model estimation results indicate that delivery attributes including fee, time, and time slot size are significant determinants of the delivery option choices. Associations between users' preferences and socio-demographic characteristics, such as age, gender, teleworking frequency and the presence of a delivery box, were also suggested. More
+    We develop and implement a non-parametric method for joint exact calibration of a local volatility model and a correlated stochastic short rate model using semimartingale optimal transport. The method relies on the duality results established in Joseph, Loeper, and Obloj, 2023 and jointly calibrates the whole equity-rate dynamics. It uses an iterative approach which starts with a parametric model and tries to stay close to it, until a perfect calibration is obtained. We demonstrate the performance of our approach on market data using European SPX options and European cap interest rate options. Finally, we compare the joint calibration approach with the sequential calibration, in which the short rate model is calibrated first and frozen.
     
-[^11]: 使用生成性神经网络进行市场风险模型的场景生成
+[^6]: 对金融市场的实证分析：基于统计物理学应用的见解
 
-    Scenario generation for market risk models using generative neural networks. (arXiv:2109.10072v5 [cs.LG] UPDATED)
+    An Empirical Analysis on Financial Market: Insights from the Application of Statistical Physics. (arXiv:2308.14235v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2109.10072](http://arxiv.org/abs/2109.10072)
+    [http://arxiv.org/abs/2308.14235](http://arxiv.org/abs/2308.14235)
 
-    本研究展示了如何使用生成性神经网络作为经济场景生成器，将其应用于整个内部市场风险模型，具有与欧洲监管批准的内部模型相似的结果。
-
-    
-
-    本研究展示了如何扩展使用生成对抗网络（GAN）作为经济场景生成器（ESG）的现有方法，将其应用于整个内部市场风险模型，以模拟保险公司的全方位投资风险因素，并符合 Solvency 2 所要求的一年时间范围。我们证明了基于 GAN 的内部模型的结果与欧洲监管批准的内部模型类似。因此，可以将基于 GAN 的模型视为一种数据驱动的市场风险建模的替代方式。
-
-    In this research, we show how to expand existing approaches of using generative adversarial networks (GANs) as economic scenario generators (ESG) to a whole internal market risk model - with enough risk factors to model the full band-width of investments for an insurance company and for a one year time horizon as required in Solvency 2. We demonstrate that the results of a GAN-based internal model are similar to regulatory approved internal models in Europe. Therefore, GAN-based models can be seen as a data-driven alternative way of market risk modeling.
-    
-[^12]: 为什么朝鲜难民不愿参与竞争：认知能力的作用
-
-    Why North Korean Refugees are Reluctant to Compete: The Roles of Cognitive Ability. (arXiv:2108.08097v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2108.08097](http://arxiv.org/abs/2108.08097)
-
-    该研究通过实验室实验和分析发现，朝鲜难民相对于韩国人和韩国华人移民更不愿参加竞争比赛，这可能是由较低的认知能力导致的。
+    本研究引入了受统计物理学启发的物理模型，利用三级订单簿数据预测金融市场的价格波动和预期回报，超越了传统方法和机器学习算法，提供了对市场微观结构的深入理解。
 
     
 
-    该研究比较了在不同制度环境下长大的三个韩国群体（韩国、朝鲜和中国）的竞争力。实验室实验发现，朝鲜难民相对于韩国人和韩国华人移民更不愿参加竞争比赛。通过使用概率加权的选择模型进行分析，研究表明较低的认知能力可能导致较低的预期表现、更悲观的信念和对竞争的更大逆感。
+    在这项研究中，我们介绍了受统计物理学启发的物理模型，通过利用三级订单簿数据来预测价格波动和预期回报。通过将委托簿中的订单与物理系统中的粒子进行类比，我们建立了系统动能和动量的独特测量方式，以理解和评估委托簿的状态。我们的模型超越了仅仅检查订单簿的顶层，引入了“活跃深度”概念，一种计算高效的方法来识别对价格动态产生影响的订单簿层级。我们经验证明，我们的模型优于传统方法和机器学习算法的基准。我们的模型对市场微观结构有深入的理解，并能产生更准确的波动性和预期回报预测。通过将统计物理学的原理纳入研究，这项研究提供了有价值的市场理解。
 
-    The study compares the competitiveness of three Korean groups raised in different institutional environments: South Korea, North Korea, and China. Laboratory experiments reveal that North Korean refugees are less likely to participate in competitive tournaments than South Koreans and Korean-Chinese immigrants. Analysis using a choice model with probability weighting suggests that lower cognitive ability may lead to lower expected performance, more pessimistic beliefs, and greater aversion to competition.
+    In this study, we introduce a physical model inspired by statistical physics for predicting price volatility and expected returns by leveraging Level 3 order book data. By drawing parallels between orders in the limit order book and particles in a physical system, we establish unique measures for the system's kinetic energy and momentum as a way to comprehend and evaluate the state of limit order book. Our model goes beyond examining merely the top layers of the order book by introducing the concept of 'active depth', a computationally-efficient approach for identifying order book levels that have impact on price dynamics. We empirically demonstrate that our model outperforms the benchmarks of traditional approaches and machine learning algorithm. Our model provides a nuanced comprehension of market microstructure and produces more accurate forecasts on volatility and expected returns. By incorporating principles of statistical physics, this research offers valuable insights on underst
     
-[^13]: 弱运输在非凸成本和无模型依赖的固定收益市场中
+[^7]: TimeTrail：通过时间相关性分析揭示金融欺诈模式
 
-    Weak Transport for Non-Convex Costs and Model-independence in a Fixed-Income Market. (arXiv:2011.04274v2 [math.PR] UPDATED)
+    TimeTrail: Unveiling Financial Fraud Patterns through Temporal Correlation Analysis. (arXiv:2308.14215v1 [cs.LG])
 
-    [http://arxiv.org/abs/2011.04274](http://arxiv.org/abs/2011.04274)
+    [http://arxiv.org/abs/2308.14215](http://arxiv.org/abs/2308.14215)
 
-    在固定收益市场中，我们考虑一个无模型依赖的定价问题，并利用弱最优传输问题来确定短期利率期权的定价极端模型，建立了一个适用于固定收益市场的强鲁棒超复制结果。另外，我们还展示了如何将一般成本的弱最优传输问题转化为满足凸性假设的等价问题，从而扩展了弱传输理论的适用范围。
+    “TimeTrail”是一种利用时间相关性分析揭示金融欺诈模式的新技术。它通过时间数据丰富、动态相关性分析和可解释的模式可视化三个阶段来提供透明和可解释的解释，增强问责和信任。
 
     
 
-    我们在固定收益市场中考虑一个无模型依赖的定价问题，并展示它导致了一个由Gozlan等人引入的弱最优传输问题。我们利用这个问题来表征短期利率期权定价的极端模型，并建立了一个首个适用于固定收益市场的强鲁棒超复制结果。值得注意的是，弱最优传输问题展示了一个非凸成本函数，因此不符合理论的标准假设。在一个独立的部分中，我们证明了一般成本的弱最优传输问题可以转化为满足凸性假设的等价问题，扩展了弱传输理论的范围。这部分内容本身可能具有独立的兴趣，不需要读者熟悉数学金融符号。
+    在金融欺诈检测领域，理解潜在的模式和动态对于确保有效和可靠的系统至关重要。本研究引入了一种新技术“TimeTrail”，采用先进的时间相关性分析来解释复杂的金融欺诈模式。该技术利用与时间有关的见解，为欺诈检测决策提供透明和可解释的解释，增强问责和信任。 "TimeTrail"方法包括三个关键阶段：时间数据丰富、动态相关性分析和可解释的模式可视化。首先，原始的金融交易数据通过添加时间属性进行丰富。然后，使用创新的统计方法量化这些属性之间的动态相关性。最后，一个统一的可视化框架以可解释的方式呈现这些相关性。为了验证“TimeTrail”的有效性，对多样化的金融数据进行了一项研究。
 
-    We consider a model-independent pricing problem in a fixed-income market and show that it leads to a weak optimal transport problem as introduced by Gozlan et al. We use this to characterize the extremal models for the pricing of caplets on the spot rate and to establish a first robust super-replication result that is applicable to fixed-income markets.  Notably, the weak transport problem exhibits a cost function which is non-convex and thus not covered by the standard assumptions of the theory. In an independent section, we establish that weak transport problems for general costs can be reduced to equivalent problems that do satisfy the convexity assumption, extending the scope of weak transport theory. This part could be of its own interest independent of our financial application, and is accessible to readers who are not familiar with mathematical finance notations.
+    In the field of financial fraud detection, understanding the underlying patterns and dynamics is important to ensure effective and reliable systems. This research introduces a new technique, "TimeTrail," which employs advanced temporal correlation analysis to explain complex financial fraud patterns. The technique leverages time-related insights to provide transparent and interpretable explanations for fraud detection decisions, enhancing accountability and trust.  The "TimeTrail" methodology consists of three key phases: temporal data enrichment, dynamic correlation analysis, and interpretable pattern visualization. Initially, raw financial transaction data is enriched with temporal attributes. Dynamic correlations between these attributes are then quantified using innovative statistical measures. Finally, a unified visualization framework presents these correlations in an interpretable manner. To validate the effectiveness of "TimeTrail," a study is conducted on a diverse financial d
+    
+[^8]: Proof-of-Stake协议的交易手续费机制
+
+    Transaction fee mechanism for Proof-of-Stake protocol. (arXiv:2308.13881v1 [cs.GT])
+
+    [http://arxiv.org/abs/2308.13881](http://arxiv.org/abs/2308.13881)
+
+    本研究在Proof-of-Stake协议中探索了交易手续费机制的问题，并扩展了现有机制以纳入矿工的长期效用模型。通过推导出矿工的长期效用函数，我们发现效用函数存在关键的不连续性，导致现有机制无法满足关键的期望性质。为了解决这个问题，我们引入了一个新的参数，并提出了一个新的机制。
+
+    
+
+    本研究探讨了区块链Proof-of-Stake（PoS）协议中的机制设计问题。我们的主要目标是扩展最近在Chung和Shi（SODA，p.3856-3899，2023）中提出的交易手续费机制（TFM），以将矿工的长期效用模型纳入到Chung和Shi提出的燃烧二价拍卖机制BSP（γ）中（其中γ是严格γ-效用模型中应用于矿工和用户的关键参数）。首先，我们采用鞅方法推导出矿工长期效用的显式函数形式，并揭示了效用函数的关键不连续性，即微小的不真实行为将导致矿工效用的离散跳跃（向上或向下）。我们证明了由于这种不连续性，BSP（γ）机制将无法满足TFM中的一个关键期望性质，即c-侧合同证明性（c-SCP）。作为补救措施，我们引入了另一个参数θ，并提出了一个新的机制来解决这个问题。
+
+    We study a mechanism design problem in the blockchain proof-of-stake (PoS) protocol. Our main objective is to extend the transaction fee mechanism (TFM) recently proposed in Chung and Shi (SODA, p.3856-3899, 2023), so as to incorporate a long-run utility model for the miner into the burning second-price auction mechanism $\texttt{BSP}(\gamma)$ proposed in Chung and Shi (where $\gamma$ is a key parameter in the strict $\gamma$-utility model that is applied to both miners and users). First, we derive an explicit functional form for the long-run utility of the miner using a martingale approach, and reveal a critical discontinuity of the utility function, namely a small deviation from being truthful will yield a discrete jump (up or down) in the miner's utility. We show that because of this discontinuity the $\texttt{BSP}(\gamma)$ mechanism will fail a key desired property in TFM, $c$-side contract proofness ($c$-SCP). As a remedy, we introduce another parameter $\theta$, and propose a new
+    
+[^9]: 解决不具时一致性的确定性线性二次控制中的平衡HJB方程：特征和唯一性
+
+    Solutions to Equilibrium HJB Equations for Time-Inconsistent Deterministic Linear Quadratic Control: Characterization and Uniqueness. (arXiv:2308.13850v1 [math.OC])
+
+    [http://arxiv.org/abs/2308.13850](http://arxiv.org/abs/2308.13850)
+
+    本文研究了不具时一致性的确定性线性二次控制中的平衡HJB方程，使用一类带有积分项的Riccati方程刻画了解的特征，并通过研究积分-微分Riccati方程解的唯一性，证明了解的唯一性。
+
+    
+
+    本文研究了一个类别的HJB方程，在个人间博弈理论框架下求解具有非指数折扣函数引起的不具时一致性的确定性线性二次控制问题的均衡。我们通过使用一类带有积分项的Riccati方程来刻画HJB方程的解。通过研究积分-微分Riccati方程解的唯一性，我们证明了均衡HJB方程的解的唯一性。
+
+    In this paper we study a class of HJB equations which solve for equilibria for general time-inconsistent deterministic linear quadratic control problems within the intra-personal game theoretic framework, where the inconsistency arises from non-exponential discount functions. We characterize the solutions to the HJB equations using a class of Riccati equations with integral terms. By studying the uniqueness of solutions to the integro-differential Riccati equations, we prove the uniqueness of solutions to the equilibrium HJB equations.
+    
+[^10]: 由事后索赔函数生成的投资组合及其在期权定价中的应用
+
+    Portfolios Generated by Contingent Claim Functions, with Applications to Option Pricing. (arXiv:2308.13717v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2308.13717](http://arxiv.org/abs/2308.13717)
+
+    本文研究了由严格正的连续半-鞅表示的股票市场中生成的投资组合，该投资组合通过满足特定的抛物型微分方程来复制事后索赔函数的价值过程。这一理论对期权定价具有重要的应用价值。
+
+    
+
+    在由严格正的连续半-鞅表示的股票市场中，如果一个事后索赔函数满足一定的抛物型微分方程，则它将生成一个具有复制事后索赔函数价值过程的投资组合。该抛物型微分方程是Black-Scholes方程的一般形式。
+
+    In a market of stocks represented by strictly positive continuous semimartingales, a contingent claim function is a positive C^{2, 1} function of the stock prices and time with a given terminal value. If a contingent claim function satisfies a certain parabolic differential equation, it will generate a portfolio with value process that replicates the contingent claim function. This parabolic differential equation is a general form of the Black-Scholes equation.
+    
+[^11]: 量子技术在股票价格预测中的潜力
+
+    The Potential of Quantum Techniques for Stock Price Prediction. (arXiv:2308.13642v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2308.13642](http://arxiv.org/abs/2308.13642)
+
+    本研究探索了量子算法在股票价格预测中的潜力，使用了量子退火和主成分分析等技术进行特征选择和维度约简，并将股票价格预测转化为分类问题。我们训练了量子支持向量机进行预测，并与传统模型进行比较，在四家不同公司的股票价格预测和二元分类中获得了准确结果。
+
+    
+
+    本研究通过进行一系列实验模拟，探索了各种量子算法在股票价格预测中的潜在应用。首先，我们提取了各种股票价格指标，如移动平均线（MA）、平均真实波幅（ATR）和阿隆指标，以了解市场趋势和股票价格走势。接下来，我们采用量子退火（QA）进行特征选择，并采用主成分分析（PCA）进行维度约简。此外，我们将股票价格预测任务转化为分类问题。我们训练了量子支持向量机（QSVM）来预测价格变动（上涨还是下跌），并将其性能与经典模型进行对比，并分析了它们在使用量子退火和PCA单独建立的数据集上的准确性。我们重点关注了四家不同公司，即苹果、威士卡、约翰斯。
+
+    We explored the potential applications of various Quantum Algorithms for stock price prediction by conducting a series of experimental simulations using both Classical as well as Quantum Hardware. Firstly, we extracted various stock price indicators, such as Moving Averages (MA), Average True Range (ATR), and Aroon, to gain insights into market trends and stock price movements. Next, we employed Quantum Annealing (QA) for feature selection and Principal Component Analysis (PCA) for dimensionality reduction. Further, we transformed the stock price prediction task essentially into a classification problem. We trained the Quantum Support Vector Machine (QSVM) to predict price movements (whether up or down) contrasted their performance with classical models and analyzed their accuracy on a dataset formulated using Quantum Annealing and PCA individually. We focused on the stock price prediction and binary classification of stock prices for four different companies, namely Apple, Visa, Johns
+    
+[^12]: 模型与锡人之间——使用大语言模型研究AI对齐中的委托-代理问题的行为经济学研究
+
+    Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models. (arXiv:2307.11137v1 [cs.AI])
+
+    [http://arxiv.org/abs/2307.11137](http://arxiv.org/abs/2307.11137)
+
+    本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。
+
+    
+
+    AI对齐通常被描述为一个设计者与人工智能代理之间的相互作用，设计者试图确保代理的行为与其目的一致，并且风险仅仅是由于设计者意图中的效用函数与代理的内部效用函数之间的意外错位而导致的冲突。然而，随着使用大语言模型（LLM）实例化的代理的出现，这种描述不能捕捉到AI安全的核心方面，因为现实世界中设计者与代理之间并没有一对一的对应关系，而且许多代理，无论是人工智能还是人类，都具有多样的价值观。因此，AI安全具有经济方面的问题，委托-代理问题可能会出现。
+
+    AI Alignment is often presented as an interaction between a single designer and an artificial agent in which the designer attempts to ensure the agent's behavior is consistent with its purpose, and risks arise solely because of conflicts caused by inadvertent misalignment between the utility function intended by the designer and the resulting internal utility function of the agent. With the advent of agents instantiated with large-language models (LLMs), which are typically pre-trained, we argue this does not capture the essential aspects of AI safety because in the real world there is not a one-to-one correspondence between designer and agent, and the many agents, both artificial and human, have heterogeneous values. Therefore, there is an economic aspect to AI safety and the principal-agent problem is likely to arise. In a principal-agent problem conflict arises because of information asymmetry together with inherent misalignment between the utility of the agent and its principal, an
+    
+[^13]: 一项放贷法律：一个澄清
+
+    A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.08861](http://arxiv.org/abs/2307.08861)
+
+    本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。
+
+    
+
+    一些国家的国家法律禁止以高利息贷款。大多数国家限制有效利率（而不仅仅是名义利率），其中包括所有可能与贷款相关的佣金和费用。在这种情况下，对于现金流没有内部回报率的贷款，限制不明确。在本文中，我们展示了如何将此限制扩展到所有贷款。我们证明了存在一个独特的扩展，与一组自然公理一致。
+
+    The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.
+    
+[^14]: 自动市场制造商的公理：金融科技和去中心化金融领域的数学框架
+
+    Axioms for Automated Market Makers: A Mathematical Framework in FinTech and Decentralized Finance. (arXiv:2210.01227v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2210.01227](http://arxiv.org/abs/2210.01227)
+
+    本文提出了一个自动市场制造商（AMMs）的公理框架，通过对底层效用函数施加合理的公理，描述了资产互换规模和结果定价预测的特性，并定义了一种新的价格影响度量方法。分析表明，大多数现有的AMMs满足这些公理。此外，还提出了一种新的费用结构，使得AMM对交易拆分不敏感，并提出了一种具有良好分析特性并提供较大范围内无发散损失的新型AMM。
+
+    
+
+    在这项工作中，我们考虑了自动市场制造商（AMMs）的公理框架。通过对底层效用函数施加合理的公理，我们能够描述资产互换的规模和结果定价预测的特性。通过提供这些通用的AMM公理，我们定义了一种新的价格影响度量方法，可以用来量化不同构造之间的成本。我们分析了许多现有的AMMs，并证明了其中大多数满足我们的公理。我们还考虑了费用和发散损失的问题。在此过程中，我们提出了一种新的费用结构，使得AMM对交易拆分不敏感。最后，我们提出了一种具有良好分析特性并提供较大范围内无发散损失的新型AMM。
+
+    Within this work we consider an axiomatic framework for Automated Market Makers (AMMs). By imposing reasonable axioms on the underlying utility function, we are able to characterize the properties of the swap size of the assets and of the resulting pricing oracle. In providing these general AMM axioms, we define a novel measure of price impacts that can be used to quantify those costs between different constructions. We have analyzed many existing AMMs and shown that the vast majority of them satisfy our axioms. We have also considered the question of fees and divergence loss. In doing so, we have proposed a new fee structure so as to make the AMM indifferent to transaction splitting. Finally, we have proposed a novel AMM that has nice analytical properties and provides a large range over which there is no divergence loss.
+    
+[^15]: 连续时间随机梯度下降用于优化随机微分方程的平稳分布
+
+    Continuous-time stochastic gradient descent for optimizing over the stationary distribution of stochastic differential equations. (arXiv:2202.06637v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2202.06637](http://arxiv.org/abs/2202.06637)
+
+    我们提出了一种连续时间随机梯度下降算法用于优化随机微分方程模型的平稳分布。算法通过估计平稳分布的梯度，并使用正向传播进行连续更新参数，实现收敛至最陡下降方向。我们严格证明了在线正向传播算法在线性模型上的收敛性，并在非线性示例上进行了数值验证。
+
+    
+
+    我们开发了一种新的连续时间随机梯度下降方法，用于优化随机微分方程模型的平稳分布。算法使用平稳分布的梯度估计连续更新SDE模型的参数。梯度估计同时使用SDE状态导数的正向传播进行更新，渐近地收敛到最陡下降方向。我们严格证明了在线正向传播算法在线性SDE模型（如多维Ornstein-Uhlenbeck过程）上的收敛性，并呈现了非线性示例的数值结果。证明需要对参数演化在最陡下降方向附近的波动进行分析。由于算法的在线性质，获得波动的界限很具挑战性（例如，随着参数的变化，稳定分布将持续变化）。
+
+    We develop a new continuous-time stochastic gradient descent method for optimizing over the stationary distribution of stochastic differential equation (SDE) models. The algorithm continuously updates the SDE model's parameters using an estimate for the gradient of the stationary distribution. The gradient estimate is simultaneously updated using forward propagation of the SDE state derivatives, asymptotically converging to the direction of steepest descent. We rigorously prove convergence of the online forward propagation algorithm for linear SDE models (i.e., the multi-dimensional Ornstein-Uhlenbeck process) and present its numerical results for nonlinear examples. The proof requires analysis of the fluctuations of the parameter evolution around the direction of steepest descent. Bounds on the fluctuations are challenging to obtain due to the online nature of the algorithm (e.g., the stationary distribution will continuously change as the parameters change). We prove bounds for the s
+    
+[^16]: 可控测度值鞅：粘滞性解法途径
+
+    Controlled Measure-Valued Martingales: a Viscosity Solution Approach. (arXiv:2109.00064v3 [math.PR] UPDATED)
+
+    [http://arxiv.org/abs/2109.00064](http://arxiv.org/abs/2109.00064)
+
+    这篇论文提出了一种粘滞性解法来解决控制测度值鞅问题，证明了其值函数可以被表征为Hamilton-Jacobi-Bellman方程的唯一解。此外，还研究了可控测度值鞅的适当版本的Itô引理，并且展示了这类问题在多个应用中的重要性。
+
+    
+
+    我们考虑一类具有额外鞅条件的概率测度值过程的随机控制问题，称为测度值鞅。我们建立了对于这些问题的“经典”随机控制结果：具体地说，我们证明了问题的值函数可以被表征为粘滞性解意义下的Hamilton-Jacobi-Bellman方程的唯一解。为了证明这个结果，我们利用了测度值鞅过程的结构特性。我们的结果还包括了对于可控测度值鞅的适当版本的Itô引理。我们还展示了这类问题在许多应用中的出现，包括无模型衍生品定价、最优Skorokhod嵌入问题和具有非对称信息的两个玩家博弈。
+
+    We consider a class of stochastic control problems where the state process is a probability measure-valued process satisfying an additional martingale condition on its dynamics, called measure-valued martingales (MVMs). We establish the `classical' results of stochastic control for these problems: specifically, we prove that the value function for the problem can be characterised as the unique solution to the Hamilton-Jacobi-Bellman equation in the sense of viscosity solutions. In order to prove this result, we exploit structural properties of the MVM processes. Our results also include an appropriate version of It\^o's lemma for controlled MVMs. We also show how problems of this type arise in a number of applications, including model-independent derivatives pricing, the optimal Skorokhod embedding problem, and two player games with asymmetric information.
+    
+[^17]: 企业通过专利申请获得了什么？全球ICT行业的案例研究。
+
+    What do Firms Gain from Patenting? The Case of the Global ICT Industry. (arXiv:2108.00814v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2108.00814](http://arxiv.org/abs/2108.00814)
+
+    本研究调查了专利授予对信息通信技术行业中企业的影响，并发现专利授予对较小公司的市场份额和规模有显著而正向的影响，而对大公司没有明显的影响。
+
+    
+
+    本研究调查了专利授予与信息通信技术（ICT）行业企业动态之间的因果关系，因为后者是现代经济中一个特殊的部门，常常受到反垄断当局的关注。为了达到我们的目的，我们利用了在2009-2017年间由39个国家的179,660家公司提供的财务账户和专利活动的匹配信息。首先，我们展示了样本中大公司不到总数的2%，但他们在分析期间获得的授权占89%。因此，我们测试了ICT行业专利授予对较小公司的市场份额和规模有显著而巨大的影响（分别为31.5%和30.7%），而对大公司的影响我们没有证据。通过一个新颖的工具变量策略，利用专利局一级的信息，我们证实了对较小公司的影响大部分都是正向的。
+
+    This study investigates the causal relationship between patent grants and firms' dynamics in the Information and Communication Technology (ICT) industry, as the latter is a peculiar sector of modern economies, often under the lens of antitrust authorities. For our purpose, we exploit matched information about financial accounts and patenting activity in 2009-2017 by 179,660 companies operating in 39 countries. Preliminarily, we show how bigger companies are less than 2% of the sample, although they concentrate about 89% of the grants obtained in the period of analyses. Thus, we test that patent grants in the ICT industry have a significant and large impact on market shares and firm size of smaller companies (31.5% and 30.7%, respectively) in the first year after the grants, while we have no evidence of an impact for bigger companies. After a novel instrumental variable strategy that exploits information at the level of patent offices, we confirm that most of the effects on smaller comp
     
 

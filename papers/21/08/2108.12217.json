@@ -1,0 +1,11 @@
+{
+    "title": "A continuous space model of new economic geography with a quasi-linear log utility function. (arXiv:2108.12217v8 [econ.TH] UPDATED)",
+    "abstract": "We consider the extension of a tractable NEG model with a quasi-linear log utility to continuous space, and investigate the behavior of its solution mathematically. The model is a system of nonlinear integral and differential equations describing the market equilibrium and the time evolution of the spatial distribution of population density. A unique global solution is constructed and a homogeneous stationary solution with evenly distributed population is shown to be unstable. Furthermore, it is shown numerically that the destabilized homogeneous stationary solution eventually forms spiky spatial distributions. The number of the spikes decreases as the preference for variety increases or the transport cost decreases.",
+    "link": "http://arxiv.org/abs/2108.12217",
+    "context": "Title: A continuous space model of new economic geography with a quasi-linear log utility function. (arXiv:2108.12217v8 [econ.TH] UPDATED)\nAbstract: We consider the extension of a tractable NEG model with a quasi-linear log utility to continuous space, and investigate the behavior of its solution mathematically. The model is a system of nonlinear integral and differential equations describing the market equilibrium and the time evolution of the spatial distribution of population density. A unique global solution is constructed and a homogeneous stationary solution with evenly distributed population is shown to be unstable. Furthermore, it is shown numerically that the destabilized homogeneous stationary solution eventually forms spiky spatial distributions. The number of the spikes decreases as the preference for variety increases or the transport cost decreases.",
+    "path": "papers/21/08/2108.12217.json",
+    "total_tokens": 766,
+    "translated_title": "一个具有准线性对数效用函数的新经济地理连续空间模型",
+    "translated_abstract": "我们考虑了一个可处理的新经济地理模型在连续空间中的扩展，并对其解的行为进行了数学研究。该模型是描述市场均衡和人口密度空间分布的时间演化的非线性积分和微分方程系统。我们构造了一个唯一的全局解，并证明了均匀分布人口的均质稳定解是不稳定的。此外，数值结果显示，破坏均质稳定解后，出现了尖锐的空间分布。随着对多样性偏好的增加或运输成本的减少，尖峰的数量会减少。",
+    "tldr": "本研究扩展了一个可处理的新经济地理模型，在连续空间中考虑了准线性对数效用函数。我们构造了一个唯一的全局解，并发现均质稳定解是不稳定的，而破坏均质稳定解后会出现尖锐的空间分布。"
+}

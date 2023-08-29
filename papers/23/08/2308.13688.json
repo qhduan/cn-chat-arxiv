@@ -1,0 +1,11 @@
+{
+    "title": "Splash! Robustifying Donor Pools for Policy Studies. (arXiv:2308.13688v1 [econ.EM])",
+    "abstract": "Policy researchers using synthetic control methods typically choose a donor pool in part by using policy domain expertise so the untreated units are most like the treated unit in the pre intervention period. This potentially leaves estimation open to biases, especially when researchers have many potential donors. We compare how functional principal component analysis synthetic control, forward-selection, and the original synthetic control method select donors. To do this, we use Gaussian Process simulations as well as policy case studies from West German Reunification, a hotel moratorium in Barcelona, and a sugar-sweetened beverage tax in San Francisco. We then summarize the implications for policy research and provide avenues for future work.",
+    "link": "http://arxiv.org/abs/2308.13688",
+    "context": "Title: Splash! Robustifying Donor Pools for Policy Studies. (arXiv:2308.13688v1 [econ.EM])\nAbstract: Policy researchers using synthetic control methods typically choose a donor pool in part by using policy domain expertise so the untreated units are most like the treated unit in the pre intervention period. This potentially leaves estimation open to biases, especially when researchers have many potential donors. We compare how functional principal component analysis synthetic control, forward-selection, and the original synthetic control method select donors. To do this, we use Gaussian Process simulations as well as policy case studies from West German Reunification, a hotel moratorium in Barcelona, and a sugar-sweetened beverage tax in San Francisco. We then summarize the implications for policy research and provide avenues for future work.",
+    "path": "papers/23/08/2308.13688.json",
+    "total_tokens": 776,
+    "translated_title": "涌入！为政策研究加固捐献者池",
+    "translated_abstract": "使用合成对照方法进行政策研究的研究人员通常会通过利用政策领域的专业知识来选择捐助者池，以使未处理的实体在干预前期与处理实体最为相似。然而，当研究人员有许多潜在的捐助者时，这样选择可能导致估计存在偏倚。我们比较了功能主成分分析合成对照、前向选择和原始合成对照方法在选择捐助者方面的差异。为了达到这个目的，我们使用了高斯过程模拟以及来自西德统一、巴塞罗那旅馆暂停和旧金山含糖饮料税的政策案例研究。我们随后总结了对政策研究的影响，并提供了未来工作的方向。",
+    "tldr": "该论文研究了使用合成对照方法进行政策研究时选择捐助者池的方法，比较了不同方法的差异，并总结了对政策研究的影响。"
+}

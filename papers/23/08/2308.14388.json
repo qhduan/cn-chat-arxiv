@@ -1,0 +1,12 @@
+{
+    "title": "Biclustering Methods via Sparse Penalty. (arXiv:2308.14388v1 [stat.ML])",
+    "abstract": "In this paper, we first reviewed several biclustering methods that are used to identify the most significant clusters in gene expression data. Here we mainly focused on the SSVD(sparse SVD) method and tried a new sparse penalty named \"Prenet penalty\" which has been used only in factor analysis to gain sparsity. Then in the simulation study, we tried different types of generated datasets (with different sparsity and dimension) and tried 1-layer approximation then for k-layers which shows the mixed Prenet penalty is very effective for non-overlapped data. Finally, we used some real gene expression data to show the behavior of our methods.",
+    "link": "http://arxiv.org/abs/2308.14388",
+    "context": "Title: Biclustering Methods via Sparse Penalty. (arXiv:2308.14388v1 [stat.ML])\nAbstract: In this paper, we first reviewed several biclustering methods that are used to identify the most significant clusters in gene expression data. Here we mainly focused on the SSVD(sparse SVD) method and tried a new sparse penalty named \"Prenet penalty\" which has been used only in factor analysis to gain sparsity. Then in the simulation study, we tried different types of generated datasets (with different sparsity and dimension) and tried 1-layer approximation then for k-layers which shows the mixed Prenet penalty is very effective for non-overlapped data. Finally, we used some real gene expression data to show the behavior of our methods.",
+    "path": "papers/23/08/2308.14388.json",
+    "total_tokens": 756,
+    "translated_title": "通过稀疏惩罚进行的双聚类方法",
+    "translated_abstract": "本文首先回顾了几种用于识别基因表达数据中最显著聚类的双聚类方法。我们主要关注了SSVD（稀疏SVD）方法，并尝试了一种仅用于因子分析的新的稀疏惩罚方法，称为\"Prenet惩罚\"。然后在模拟研究中，我们尝试了不同类型的生成数据集（具有不同的稀疏性和维度），并尝试了一层逼近和k层逼近，结果表明混合的Prenet惩罚对于非重叠数据非常有效。最后，我们使用了一些真实的基因表达数据来展示我们方法的行为。",
+    "tldr": "本文提出了一种基于稀疏惩罚的双聚类方法，主要关注了SSVD方法，并尝试了一种新的稀疏惩罚方法。模拟研究结果表明混合的Prenet惩罚对于非重叠数据非常有效。",
+    "en_tdlr": "This paper proposes a biclustering method using sparse penalty, focusing on the SSVD method and introducing a new sparse penalty named \"Prenet penalty\". Simulation results show that the mixed Prenet penalty is highly effective for non-overlapping data."
+}

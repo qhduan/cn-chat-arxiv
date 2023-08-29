@@ -1,0 +1,12 @@
+{
+    "title": "Online GentleAdaBoost -- Technical Report. (arXiv:2308.14004v1 [stat.ML])",
+    "abstract": "We study the online variant of GentleAdaboost, where we combine a weak learner to a strong learner in an online fashion. We provide an approach to extend the batch approach to an online approach with theoretical justifications through application of line search. Finally we compare our online boosting approach with other online approaches across a variety of benchmark datasets.",
+    "link": "http://arxiv.org/abs/2308.14004",
+    "context": "Title: Online GentleAdaBoost -- Technical Report. (arXiv:2308.14004v1 [stat.ML])\nAbstract: We study the online variant of GentleAdaboost, where we combine a weak learner to a strong learner in an online fashion. We provide an approach to extend the batch approach to an online approach with theoretical justifications through application of line search. Finally we compare our online boosting approach with other online approaches across a variety of benchmark datasets.",
+    "path": "papers/23/08/2308.14004.json",
+    "total_tokens": 582,
+    "translated_title": "在线GentleAdaBoost -- 技术报告",
+    "translated_abstract": "我们研究了在线版的GentleAdaboost，其中我们以在线方式将一个弱分类器与一个强分类器结合起来。我们提供了一种通过线搜索应用的方法，将批处理方法扩展为在线方法，并通过理论证明了其正确性。最后，我们在各种基准数据集上比较了我们的在线boosting方法与其他在线方法。",
+    "tldr": "该论文研究了在线版的GentleAdaboost算法，通过在线方式将弱分类器与强分类器结合，提出了一种通过线搜索将批处理方法扩展为在线方法的方法，并与其他在线方法在各种基准数据集上进行了对比。",
+    "en_tdlr": "This paper investigates the online variant of GentleAdaboost algorithm, which combines a weak learner to a strong learner in an online manner. It provides an approach to extend the batch approach to an online approach using line search, and compares the online boosting approach with other online approaches on various benchmark datasets."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Break-Point Date Estimation for Nonstationary Autoregressive and Predictive Regression Models. (arXiv:2308.13915v1 [econ.EM])",
+    "abstract": "In this article, we study the statistical and asymptotic properties of break-point estimators in nonstationary autoregressive and predictive regression models for testing the presence of a single structural break at an unknown location in the full sample. Moreover, we investigate aspects such as how the persistence properties of covariates and the location of the break-point affects the limiting distribution of the proposed break-point estimators.",
+    "link": "http://arxiv.org/abs/2308.13915",
+    "context": "Title: Break-Point Date Estimation for Nonstationary Autoregressive and Predictive Regression Models. (arXiv:2308.13915v1 [econ.EM])\nAbstract: In this article, we study the statistical and asymptotic properties of break-point estimators in nonstationary autoregressive and predictive regression models for testing the presence of a single structural break at an unknown location in the full sample. Moreover, we investigate aspects such as how the persistence properties of covariates and the location of the break-point affects the limiting distribution of the proposed break-point estimators.",
+    "path": "papers/23/08/2308.13915.json",
+    "total_tokens": 606,
+    "translated_title": "非平稳自回归和预测回归模型的分断点日期估计",
+    "translated_abstract": "本文研究了非平稳自回归和预测回归模型中分断点估计器的统计性质和渐近性质，用于检验在整个样本中是否存在一个未知位置的单一结构性断点。此外，我们还研究了协变量的持续性特性和分断点位置对所提出的分断点估计器的极限分布的影响。",
+    "tldr": "本文研究了非平稳自回归和预测回归模型的分断点估计方法，探讨了协变量的持续性特性和分断点位置对估计器的影响。"
+}

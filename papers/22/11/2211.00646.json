@@ -1,0 +1,11 @@
+{
+    "title": "Learning Melanocytic Cell Masks from Adjacent Stained Tissue. (arXiv:2211.00646v2 [q-bio.QM] UPDATED)",
+    "abstract": "Melanoma is one of the most aggressive forms of skin cancer, causing a large proportion of skin cancer deaths. However, melanoma diagnoses by pathologists shows low interrater reliability. As melanoma is a cancer of the melanocyte, there is a clear need to develop a melanocytic cell segmentation tool that is agnostic to pathologist variability and automates pixel-level annotation. Gigapixel-level pathologist labeling, however, is impractical. Herein, we propose a means to train deep neural networks for melanocytic cell segmentation from hematoxylin and eosin (H&E) stained slides using paired immunohistochemical (IHC) slides of adjacent tissue sections, achieving a mean IOU of 0.64 despite imperfect ground-truth labels.",
+    "link": "http://arxiv.org/abs/2211.00646",
+    "context": "Title: Learning Melanocytic Cell Masks from Adjacent Stained Tissue. (arXiv:2211.00646v2 [q-bio.QM] UPDATED)\nAbstract: Melanoma is one of the most aggressive forms of skin cancer, causing a large proportion of skin cancer deaths. However, melanoma diagnoses by pathologists shows low interrater reliability. As melanoma is a cancer of the melanocyte, there is a clear need to develop a melanocytic cell segmentation tool that is agnostic to pathologist variability and automates pixel-level annotation. Gigapixel-level pathologist labeling, however, is impractical. Herein, we propose a means to train deep neural networks for melanocytic cell segmentation from hematoxylin and eosin (H&E) stained slides using paired immunohistochemical (IHC) slides of adjacent tissue sections, achieving a mean IOU of 0.64 despite imperfect ground-truth labels.",
+    "path": "papers/22/11/2211.00646.json",
+    "total_tokens": 813,
+    "translated_title": "从相邻的染色组织学片中学习黑色素细胞掩膜",
+    "translated_abstract": "黑色素瘤是最具侵袭性的皮肤癌之一，导致大部分皮肤癌死亡。然而，病理学家对黑色素瘤的诊断可靠性较低。由于黑色素瘤是黑色素细胞的肿瘤，需要开发一种与病理学家的差异无关并能自动进行像素级注释的黑色素细胞分割工具。然而，大规模病理学家标注是不现实的。在本文中，我们提出了一种方法，使用邻近组织切片上的偶联免疫组织化学（IHC）染色片，训练深度神经网络进行黑色素细胞分割，虽然很难有完美的标签，但达到了0.64的平均IOU。",
+    "tldr": "本文提出了一种从相邻染色组织学片中训练深度神经网络进行黑色素细胞分割的方法，实现了0.64的平均IOU，尽管存在不完美的标签。"
+}

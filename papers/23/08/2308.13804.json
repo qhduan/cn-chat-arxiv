@@ -1,0 +1,11 @@
+{
+    "title": "Multivariate Majorization in Principal-Agents Models. (arXiv:2308.13804v1 [econ.TH])",
+    "abstract": "We introduce a definition of multivariate majorization that is new to the economics literature. Our majorization technique allows us to generalize Mussa and Rosen's (1978) \"ironing\" to a broad class of multivariate principal-agents problems. Specifically, we consider adverse selection problems in which agents' types are one dimensional but informational externalities create a multidimensional ironing problem. Our majorization technique applies to discrete and continuous type spaces alike and we demonstrate its usefulness for contract theory and mechanism design. We further show that multivariate majorization yields a natural extension of second-order stochastic dominance to multiple dimensions and derive its implications for decision making under multivariate risk.",
+    "link": "http://arxiv.org/abs/2308.13804",
+    "context": "Title: Multivariate Majorization in Principal-Agents Models. (arXiv:2308.13804v1 [econ.TH])\nAbstract: We introduce a definition of multivariate majorization that is new to the economics literature. Our majorization technique allows us to generalize Mussa and Rosen's (1978) \"ironing\" to a broad class of multivariate principal-agents problems. Specifically, we consider adverse selection problems in which agents' types are one dimensional but informational externalities create a multidimensional ironing problem. Our majorization technique applies to discrete and continuous type spaces alike and we demonstrate its usefulness for contract theory and mechanism design. We further show that multivariate majorization yields a natural extension of second-order stochastic dominance to multiple dimensions and derive its implications for decision making under multivariate risk.",
+    "path": "papers/23/08/2308.13804.json",
+    "total_tokens": 776,
+    "translated_title": "多元主成分-代理模型中的多元主行化技术",
+    "translated_abstract": "我们引入了一种新的经济学文献中未见的多元主行化定义。我们的主行化技术使我们能够将Mussa和Rosen（1978）的“熨平”推广到广泛的多元主-代理问题类别。具体而言，我们考虑了逆向选择问题，其中代理人的类型是一维的，但信息外部性造成了多维熨平问题。我们的主行化技术适用于离散和连续类型空间，并展示了它在合同理论和机制设计中的实用性。我们进一步展示了多元主行化对多维风险下的决策制定的二阶随机优势的自然扩展，并推导出其对决策制定的影响。",
+    "tldr": "该论文介绍了一种新的多元主行化定义，将Mussa和Rosen的“熨平”推广到多元主-代理问题中，适用于离散和连续类型空间。研究还展示了多元主行化对决策制定的影响。"
+}

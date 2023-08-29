@@ -1,0 +1,11 @@
+{
+    "title": "Identifying topology of leaky photonic lattices with machine learning. (arXiv:2308.14407v1 [physics.optics])",
+    "abstract": "We show how machine learning techniques can be applied for the classification of topological phases in leaky photonic lattices using limited measurement data. We propose an approach based solely on bulk intensity measurements, thus exempt from the need for complicated phase retrieval procedures. In particular, we design a fully connected neural network that accurately determines topological properties from the output intensity distribution in dimerized waveguide arrays with leaky channels, after propagation of a spatially localized initial excitation at a finite distance, in a setting that closely emulates realistic experimental conditions.",
+    "link": "http://arxiv.org/abs/2308.14407",
+    "context": "Title: Identifying topology of leaky photonic lattices with machine learning. (arXiv:2308.14407v1 [physics.optics])\nAbstract: We show how machine learning techniques can be applied for the classification of topological phases in leaky photonic lattices using limited measurement data. We propose an approach based solely on bulk intensity measurements, thus exempt from the need for complicated phase retrieval procedures. In particular, we design a fully connected neural network that accurately determines topological properties from the output intensity distribution in dimerized waveguide arrays with leaky channels, after propagation of a spatially localized initial excitation at a finite distance, in a setting that closely emulates realistic experimental conditions.",
+    "path": "papers/23/08/2308.14407.json",
+    "total_tokens": 695,
+    "translated_title": "使用机器学习技术识别漏电光子晶格的拓扑结构",
+    "translated_abstract": "我们展示了如何利用有限的测量数据，通过机器学习技术对漏电光子晶格中的拓扑相进行分类。我们提出了一种仅基于体积强度测量的方法，因此不需要复杂的相位重构步骤。特别地，我们设计了一个全连接神经网络，能够从有漏电通道的二聚波导阵列的输出强度分布中准确确定拓扑特性，在一个紧密模拟实际实验条件的设置中，通过在有限距离上传播空间局部化的初始激发。",
+    "tldr": "本研究展示了利用机器学习技术，通过仅使用局部测量数据，可以在漏电光子晶格中准确识别拓扑相，避免了复杂的相位重构步骤。"
+}

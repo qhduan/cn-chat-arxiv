@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Agent Communication and Learning through Action and Language. (arXiv:2308.10842v2 [cs.AI] UPDATED)",
+    "abstract": "We introduce a novel category of GC-agents capable of functioning as both teachers and learners. Leveraging action-based demonstrations and language-based instructions, these agents enhance communication efficiency. We investigate the incorporation of pedagogy and pragmatism, essential elements in human communication and goal achievement, enhancing the agents' teaching and learning capabilities. Furthermore, we explore the impact of combining communication modes (action and language) on learning outcomes, highlighting the benefits of a multi-modal approach.",
+    "link": "http://arxiv.org/abs/2308.10842",
+    "context": "Title: Enhancing Agent Communication and Learning through Action and Language. (arXiv:2308.10842v2 [cs.AI] UPDATED)\nAbstract: We introduce a novel category of GC-agents capable of functioning as both teachers and learners. Leveraging action-based demonstrations and language-based instructions, these agents enhance communication efficiency. We investigate the incorporation of pedagogy and pragmatism, essential elements in human communication and goal achievement, enhancing the agents' teaching and learning capabilities. Furthermore, we explore the impact of combining communication modes (action and language) on learning outcomes, highlighting the benefits of a multi-modal approach.",
+    "path": "papers/23/08/2308.10842.json",
+    "total_tokens": 702,
+    "translated_title": "通过行动和语言提升智能体的沟通和学习能力",
+    "translated_abstract": "我们引入了一种新型的GC智能体类别，能够同时充当教师和学习者的角色。借助基于行动的演示和基于语言的指令，这些智能体增强了沟通效率。我们研究了在人类沟通和目标实现中的重要元素——教育学和实用主义的融入，提升了智能体的教学和学习能力。此外，我们探讨了结合行动和语言沟通模式对学习结果的影响，强调了多模式方法的优势。",
+    "tldr": "通过行动和语言相结合的方式，我们引入了一种新型智能体，其能够同时作为教师和学习者，通过行动演示和语言指令增强了沟通效率，并探索了结合行动和语言沟通模式对学习结果的积极影响。",
+    "en_tdlr": "We introduce a novel category of GC-agents capable of functioning as both teachers and learners, enhancing communication efficiency through action-based demonstrations and language-based instructions. We explore the positive impact of combining communication modes (action and language) on learning outcomes."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Some issues in robust clustering. (arXiv:2308.14478v1 [stat.ML])",
+    "abstract": "Some key issues in robust clustering are discussed with focus on Gaussian mixture model based clustering, namely the formal definition of outliers, ambiguity between groups of outliers and clusters, the interaction between robust clustering and the estimation of the number of clusters, the essential dependence of (not only) robust clustering on tuning decisions, and shortcomings of existing measurements of cluster stability when it comes to outliers.",
+    "link": "http://arxiv.org/abs/2308.14478",
+    "context": "Title: Some issues in robust clustering. (arXiv:2308.14478v1 [stat.ML])\nAbstract: Some key issues in robust clustering are discussed with focus on Gaussian mixture model based clustering, namely the formal definition of outliers, ambiguity between groups of outliers and clusters, the interaction between robust clustering and the estimation of the number of clusters, the essential dependence of (not only) robust clustering on tuning decisions, and shortcomings of existing measurements of cluster stability when it comes to outliers.",
+    "path": "papers/23/08/2308.14478.json",
+    "total_tokens": 631,
+    "translated_title": "关于鲁棒聚类中的一些问题",
+    "translated_abstract": "讨论了鲁棒聚类中的一些关键问题，主要集中在基于高斯混合模型的聚类上，包括异常值的形式定义、异常值与聚类之间的模糊性、鲁棒聚类与聚类数目估计之间的相互作用、(不仅仅是)鲁棒聚类对调试决策的必要依赖以及现有的聚类稳定性衡量在处理异常值时的不足。",
+    "tldr": "关于鲁棒聚类，讨论了高斯混合模型、异常值定义、异常值与聚类的模糊性、鲁棒聚类与聚类数目估计的相互作用以及聚类稳定性衡量的不足。"
+}

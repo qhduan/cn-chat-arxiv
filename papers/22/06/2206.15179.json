@@ -1,0 +1,12 @@
+{
+    "title": "A Medical Image Fusion Method based on MDLatLRRv2. (arXiv:2206.15179v3 [eess.IV] UPDATED)",
+    "abstract": "Since MDLatLRR only considers detailed parts (salient features) of input images extracted by latent low-rank representation (LatLRR), it doesn't use base parts (principal features) extracted by LatLRR effectively. Therefore, we proposed an improved multi-level decomposition method called MDLatLRRv2 which effectively analyzes and utilizes all the image features obtained by LatLRR. Then we apply MDLatLRRv2 to medical image fusion. The base parts are fused by average strategy and the detail parts are fused by nuclear-norm operation. The comparison with the existing methods demonstrates that the proposed method can achieve state-of-the-art fusion performance in objective and subjective assessment.",
+    "link": "http://arxiv.org/abs/2206.15179",
+    "context": "Title: A Medical Image Fusion Method based on MDLatLRRv2. (arXiv:2206.15179v3 [eess.IV] UPDATED)\nAbstract: Since MDLatLRR only considers detailed parts (salient features) of input images extracted by latent low-rank representation (LatLRR), it doesn't use base parts (principal features) extracted by LatLRR effectively. Therefore, we proposed an improved multi-level decomposition method called MDLatLRRv2 which effectively analyzes and utilizes all the image features obtained by LatLRR. Then we apply MDLatLRRv2 to medical image fusion. The base parts are fused by average strategy and the detail parts are fused by nuclear-norm operation. The comparison with the existing methods demonstrates that the proposed method can achieve state-of-the-art fusion performance in objective and subjective assessment.",
+    "path": "papers/22/06/2206.15179.json",
+    "total_tokens": 781,
+    "translated_title": "基于MDLatLRRv2的医学图像融合方法",
+    "translated_abstract": "由于MDLatLRR仅考虑了通过潜在低秩表示（LatLRR）提取的输入图像的详细部分（显著特征），没有有效地利用LatLRR提取的基础部分（主要特征）。因此，我们提出了一种改进的多级分解方法，称为MDLatLRRv2，该方法能有效分析和利用LatLRR获取的所有图像特征。然后，我们将MDLatLRRv2应用于医学图像融合。基础部分通过平均策略进行融合，详细部分通过核范数操作进行融合。与现有方法的比较表明，所提出的方法在客观和主观评估中可以实现最先进的融合性能。",
+    "tldr": "该论文提出了一种基于MDLatLRRv2的医学图像融合方法，通过改进多级分解方法并充分利用LatLRR提取的各种图像特征，实现了在客观和主观评估中的最先进融合性能。",
+    "en_tdlr": "This paper proposes a medical image fusion method based on MDLatLRRv2, which improves the multi-level decomposition method and effectively utilizes various image features extracted by LatLRR, achieving state-of-the-art fusion performance in both objective and subjective assessment."
+}
