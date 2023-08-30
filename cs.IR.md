@@ -2,262 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Video and Audio are Images: A Cross-Modal Mixer for Original Data on Video-Audio Retrieval.](http://arxiv.org/abs/2308.13820) | 本文提出了一个新的跨模态检索框架，通过跨模态混合器和掩模自编码器实现了原始数据的融合和分离，解决了跨模态检索中的语义关系建立和检索性能不佳的问题。 |
-| [^2] | [Central Similarity Multi-View Hashing for Multimedia Retrieval.](http://arxiv.org/abs/2308.13774) | 本文提出一种新的中心相似性多视图哈希方法（CSMVH），针对多媒体检索中的局部相似性和多视图特征融合问题，利用中心相似性学习全局相似性并运用门控融合方法，取得了优越的性能。 |
-| [^3] | [How Can Context Help? Exploring Joint Retrieval of Passage and Personalized Context.](http://arxiv.org/abs/2308.13760) | 本文探索了如何将个性化上下文信息与文档对话系统结合，提出了个性化上下文感知的段落检索任务，并引入了一种有效利用上下文信息的新颖方法PCAS。通过实验证明，PCAS不仅在检索最相关的段落方面优于基准系统，而且在确定相关上下文方面也表现出色。这将激发未来研究的兴趣。 |
-| [^4] | [ZC3: Zero-Shot Cross-Language Code Clone Detection.](http://arxiv.org/abs/2308.13754) | 本文提出了一种名为ZC3的跨语言零样本代码克隆检测方法。该方法设计了对比代码片段预测，形成不同编程语言之间的同构表示空间，并利用领域感知学习和循环一致性学习来进一步约束模型。 |
-| [^5] | [LSTM-based QoE Evaluation for Web Microservices' Reputation Scoring.](http://arxiv.org/abs/2308.13590) | 本研究提出了基于LSTM模型的情感分析和Net品牌声誉算法评估微服务的声誉分数的方法，并在一组与Amazon Web微服务相关的超过10,000条评论上进行了测试。 |
-| [^6] | [Large Language Models in Analyzing Crash Narratives -- A Comparative Study of ChatGPT, BARD and GPT-4.](http://arxiv.org/abs/2308.13563) | 三个大型语言模型接口(ChatGPT, BARD和GPT4)在分析事故叙述中的效果进行了比较研究。研究结果表明，它们在提取事故相关信息和回答相关问题方面都具有一定的有效性，但也存在一些限制。 |
-| [^7] | [Feature Extraction Using Deep Generative Models for Bangla Text Classification on a New Comprehensive Dataset.](http://arxiv.org/abs/2308.13545) | 本研究提出了使用深度生成模型在孟加拉文本分类中进行特征提取的方法，并收集、注释了一个全面的数据集。评估结果表明，对抗自编码器模型产生了最佳的特征空间。 |
-| [^8] | [Adversarial Collaborative Filtering for Free.](http://arxiv.org/abs/2308.13541) | 这篇论文介绍了一种面向免费的对抗性协同过滤方法，通过对抗性学习来规范用户/项目的表示，提高模型的泛化能力和鲁棒性，并提出了SharpCF方法来解决现有方法的缺点。 |
-| [^9] | [A Preliminary Study on a Conceptual Game Feature Generation and Recommendation System.](http://arxiv.org/abs/2308.13538) | 本研究介绍了一个用于生成游戏特征建议的系统，通过使用文本提示，提取主题相似的游戏特征并生成新特征。经过用户研究比较，该系统的生成模型在某些游戏中的表现超过了人工建议。该系统是一个与用户在概念层面上进行协作的游戏设计助手工具的一部分。 |
-| [^10] | [STEM: Unleashing the Power of Embeddings for Multi-task Recommendation.](http://arxiv.org/abs/2308.13537) | 本文提出了一种称为STEM的新范例，用于解决多任务推荐中的负传递问题。与现有方法不同，STEM通过根据样本中正反馈数量的相对比例进行细分，深入研究样本的复杂性，以提高推荐系统的性能。 |
-| [^11] | [Implicit ZCA Whitening Effects of Linear Autoencoders for Recommendation.](http://arxiv.org/abs/2308.13536) | 本文展示了线性自动编码器模型在推荐系统中隐式的ZCA白化作用，以及其对低维物品嵌入的有效性。 |
-| [^12] | [MUSE: Music Recommender System with Shuffle Play Recommendation Enhancement.](http://arxiv.org/abs/2308.09649) | MUSE是一种音乐推荐系统，通过增强随机播放推荐实现了对音乐领域独特挑战的解决。它采用自监督学习框架和创新的会话增强方法，以提高推荐系统的整体训练效果。 |
-| [^13] | [How Discriminative Are Your Qrels? How To Study the Statistical Significance of Document Adjudication Methods.](http://arxiv.org/abs/2308.09340) | 本论文提出了一种新方法，评估低成本裁决方法在保持完整集合中系统之间成对显著差异方面的能力。 |
-| [^14] | [SPM: Structured Pretraining and Matching Architectures for Relevance Modeling in Meituan Search.](http://arxiv.org/abs/2308.07711) | 本论文提出了一种用于在Meituan搜索中进行相关性建模的新颖两阶段预训练和匹配架构。 |
-| [^15] | [Leveraging Watch-time Feedback for Short-Video Recommendations: A Causal Labeling Framework.](http://arxiv.org/abs/2306.17426) | 该论文提出了一种因果标记框架，利用观看时间反馈进行短视频推荐。通过构建多个语义的标签，并使用分位数来提取观看时间的信息，使模型学习更加容易，同时减少偏见对推荐结果的影响。 |
-| [^16] | [Causal Decision Transformer for Recommender Systems via Offline Reinforcement Learning.](http://arxiv.org/abs/2304.07920) | 本论文提出了一种基于因果决策Transformer和离线强化学习的推荐系统，通过探索用户行为的因果关系，指导代理捕捉动态兴趣，并解决了大规模情境下数据效率低的问题。 |
-| [^17] | [Analyzing and visualizing polarization and balance with signed networks: the U.S. Congress case study.](http://arxiv.org/abs/2209.00676) | 该论文提出了一种在美国国会案例研究中分析和可视化符号网络极化和平衡的方法。该方法基于拉普拉斯矩阵的谱特性，具有计算成本低、对任意小的子图进行数量化和视觉评估等优点。 |
+| [^1] | [Robust Long-Tailed Learning via Label-Aware Bounded CVaR.](http://arxiv.org/abs/2308.15405) | 本文提出了两种基于CVaR的方法来改进长尾学习的性能，并具备坚实的理论基础。第一种方法是引入了一种标签感知有界CVaR（LAB-CVaR）损失函数，解决了原始CVaR的悲观结果，通过设计最优权重上下界进行改进；第二种方法是提出了一种带有logit调整的LAB-CVaR（LAB-CVaR-logit）损失函数，以稳定优化过程。 |
+| [^2] | [A Multi-Perspective Learning to Rank Approach to Support Children's Information Seeking in the Classroom.](http://arxiv.org/abs/2308.15265) | 这项研究提出了一种多角度学习排序方法，能够通过分析URL、片段和页面标题，优先考虑高教育一致性、适当性和可读性的Web资源，从而改进儿童信息搜索能力。 |
+| [^3] | [Knowledge-based Multiple Adaptive Spaces Fusion for Recommendation.](http://arxiv.org/abs/2308.15244) | 该论文提出了一种基于知识的多重自适应空间融合推荐方法，通过统一的空间来融合双曲、欧几里得和球面空间，并利用注意力机制提高了知识传播的嵌入质量。 |
+| [^4] | [Classification-Aware Neural Topic Model Combined With Interpretable Analysis -- For Conflict Classification.](http://arxiv.org/abs/2308.15232) | 本文提出了一种结合可解释性分析的分类感知神经主题模型，用于冲突分类和主题发现。该模型提供了可靠的分类结果和发现的主题的解释，并通过优化模型的复杂度来提高分类性能。 |
+| [^5] | [Providing Previously Unseen Users Fair Recommendations Using Variational Autoencoders.](http://arxiv.org/abs/2308.15230) | 本论文提出了一种使用变分自动编码器的新方法，通过限制人口统计信息的编码来减少推荐系统中的歧视，从而为以前未出现的用户提供公平推荐。 |
+| [^6] | [CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs.](http://arxiv.org/abs/2308.15136) | CAGRA是一种面向GPU的高度并行图构建和近似最近邻搜索方法，在近似最近邻搜索领域取得了显著的效率提升。 |
+| [^7] | [Killing two birds with one stone: Can an audio captioning system also be used for audio-text retrieval?.](http://arxiv.org/abs/2308.15090) | 这篇论文研究了音频字幕系统和音频文本检索系统之间的关系，通过探索未经修改的音频字幕系统对音频文本检索任务的性能。研究发现，即使未进行微调，音频字幕系统在音频文本检索任务上表现出了一定的能力。 |
+| [^8] | [STEC: See-Through Transformer-based Encoder for CTR Prediction.](http://arxiv.org/abs/2308.15033) | STEC是一种基于透明Transformer编码器的CTR预测模型，通过引入多种交互学习方法和残差连接，提升了模型性能。 |
+| [^9] | [Improving Neural Ranking Models with Traditional IR Methods.](http://arxiv.org/abs/2308.15027) | 本文研究了一种低成本的替代方法，通过将传统的TF-IDF和浅层嵌入模型结合使用，可以与基于大型Transformer模型的神经排名模型竞争，并可以提高这些模型在大规模任务上的性能。 |
+| [^10] | [CAPS: A Practical Partition Index for Filtered Similarity Search.](http://arxiv.org/abs/2308.15014) | CAPS是一种通过空间分区实现的用于带有过滤的相似性搜索的索引，它在召回-延迟权衡方面优于基于图的约束搜索技术，并且只需要较小的索引大小。 |
+| [^11] | [Continual Learning for Generative Retrieval over Dynamic Corpora.](http://arxiv.org/abs/2308.14968) | 这项研究解决了生成性检索在动态语料库中的持续学习问题，通过引入CLEVER模型，并提出了增量产品量化的方法来实现低计算成本的新文档编码。 |
+| [^12] | [Vector Search with OpenAI Embeddings: Lucene Is All You Need.](http://arxiv.org/abs/2308.14963) | 本论文提供了一个使用Lucene进行向量搜索的可复现演示，挑战了需要专用向量存储的观点，并展示了Lucene中的HNSW索引足以提供向量搜索功能。这表明在现代"AI堆栈"中进行搜索并不需要引入专用向量存储。 |
+| [^13] | [RecRec: Algorithmic Recourse for Recommender Systems.](http://arxiv.org/abs/2308.14916) | 本文提出了一个算法性补救框架，用于帮助理解推荐系统的模型并修改推荐结果。 |
+| [^14] | [Ad-Rec: Advanced Feature Interactions to Address Covariate-Shifts in Recommendation Networks.](http://arxiv.org/abs/2308.14902) | Ad-Rec是一个利用高级特征交互技术解决推荐网络中协变量漂移问题的模型，通过利用掩码转换器实现高阶交叉特征的学习，提高了模型质量、加速了收敛速度并减少了训练时间。 |
+| [^15] | [Extending Cross-Modal Retrieval with Interactive Learning to Improve Image Retrieval Performance in Forensics.](http://arxiv.org/abs/2308.14786) | 本研究通过提出名为Excalibur的零样本跨模态图像检索系统，探索了交互式学习在提高执法学中图像检索性能方面的有效性，并通过模拟和用户研究证明了其显著的改进效果。 |
+| [^16] | [Political Sentiment Analysis of Persian Tweets Using CNN-LSTM Model.](http://arxiv.org/abs/2307.07740) | 本论文使用CNN-LSTM模型对波斯推特的政治情感进行分析，使用ParsBERT进行词汇表示，并比较了机器学习和深度学习模型的效果。实验结果表明，深度学习模型表现更好，其中CNN-LSTM模型在两个数据集上分别达到了89%和71%的分类准确率。 |
+| [^17] | [Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models.](http://arxiv.org/abs/2306.08018) | Mol-Instructions是一个专门为生物分子领域设计的综合指令数据集，可以显著提高大语言模型在生物领域中的适应能力和认知敏锐度。 |
 
 # 详细
 
-[^1]: 视频和音频是图像：用于视频音频检索原始数据的跨模态混合器
+[^1]: 通过标签感知有界CVaR实现鲁棒的长尾学习
 
-    Video and Audio are Images: A Cross-Modal Mixer for Original Data on Video-Audio Retrieval. (arXiv:2308.13820v1 [cs.IR])
+    Robust Long-Tailed Learning via Label-Aware Bounded CVaR. (arXiv:2308.15405v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.13820](http://arxiv.org/abs/2308.13820)
+    [http://arxiv.org/abs/2308.15405](http://arxiv.org/abs/2308.15405)
 
-    本文提出了一个新的跨模态检索框架，通过跨模态混合器和掩模自编码器实现了原始数据的融合和分离，解决了跨模态检索中的语义关系建立和检索性能不佳的问题。
-
-    
-
-    跨模态检索在近年来变得流行，尤其是随着多媒体的兴起。通常，每个模态的信息展现出不同的表示和语义信息，这使得特征往往处于编码为双塔结构的分离潜空间中，并且难以建立模态之间的语义关系，导致检索性能差。为了解决这个问题，我们提出了一个新的跨模态检索框架，包括一个跨模态混合器、一个用于预训练的掩模自编码器和一个用于下游任务的跨模态检索器。具体来说，我们首先采用跨模态混合器和掩模建模来融合原始模态并消除冗余。然后，在预训练阶段应用编码器-解码器架构来实现融合后分离的任务。我们将掩模融合表示馈送到编码器中，并用解码器进行重构，最终分离出两个模态的原始数据。
-
-    Cross-modal retrieval has become popular in recent years, particularly with the rise of multimedia. Generally, the information from each modality exhibits distinct representations and semantic information, which makes feature tends to be in separate latent spaces encoded with dual-tower architecture and makes it difficult to establish semantic relationships between modalities, resulting in poor retrieval performance. To address this issue, we propose a novel framework for cross-modal retrieval which consists of a cross-modal mixer, a masked autoencoder for pre-training, and a cross-modal retriever for downstream tasks.In specific, we first adopt cross-modal mixer and mask modeling to fuse the original modality and eliminate redundancy. Then, an encoder-decoder architecture is applied to achieve a fuse-then-separate task in the pre-training phase.We feed masked fused representations into the encoder and reconstruct them with the decoder, ultimately separating the original data of two mo
-    
-[^2]: 多媒体检索的中心相似性多视图哈希方法
-
-    Central Similarity Multi-View Hashing for Multimedia Retrieval. (arXiv:2308.13774v1 [cs.CV])
-
-    [http://arxiv.org/abs/2308.13774](http://arxiv.org/abs/2308.13774)
-
-    本文提出一种新的中心相似性多视图哈希方法（CSMVH），针对多媒体检索中的局部相似性和多视图特征融合问题，利用中心相似性学习全局相似性并运用门控融合方法，取得了优越的性能。
+    本文提出了两种基于CVaR的方法来改进长尾学习的性能，并具备坚实的理论基础。第一种方法是引入了一种标签感知有界CVaR（LAB-CVaR）损失函数，解决了原始CVaR的悲观结果，通过设计最优权重上下界进行改进；第二种方法是提出了一种带有logit调整的LAB-CVaR（LAB-CVaR-logit）损失函数，以稳定优化过程。
 
     
 
-    多视图异构数据的哈希表示学习是提高多媒体检索准确性的关键。然而，现有方法仅利用局部相似性，未能深度融合多视图特征，导致检索准确性较低。现有方法只使用局部相似性来训练模型，忽视了全局相似性。此外，最近的工作大多通过加权和或串联来融合多视图特征。我们认为这些融合方法不足以捕捉各种视图之间的交互。我们提出了一种新颖的中心相似性多视图哈希方法（CSMVH）来解决上述问题。中心相似性学习用于解决局部相似性问题，可以利用哈希中心与样本之间的全局相似性。我们提供了丰富的实验证据，证明基于门控融合方法优于传统方法。在MS COCO和NUS-WIDE数据集上，我们的CSMVH方法取得了优越的性能。
+    在真实世界的分类问题中，数据往往是不平衡或长尾分布的，其中大多数类别拥有大部分样本，并主导模型训练。在这种情况下，普通模型往往在少数类上表现较差。之前，已经提出了各种损失函数修正方法来解决长尾学习问题，然而这些方法要么对同一类别的样本漠不关心，要么缺乏理论保证。本文提出了两种基于CVaR（条件价值-at-Risk）的新方法来提高长尾学习的性能并具备坚实的理论基础。具体而言，我们首先引入了一种标签感知有界CVaR（LAB-CVaR）损失函数来克服原始CVaR悲观的结果，并在理论上设计了LAB-CVaR的最优权重上下界。基于LAB-CVaR，我们进一步提出了一种带有logit调整的LAB-CVaR（LAB-CVaR-logit）损失函数，以稳定优化过程。
 
-    Hash representation learning of multi-view heterogeneous data is the key to improving the accuracy of multimedia retrieval. However, existing methods utilize local similarity and fall short of deeply fusing the multi-view features, resulting in poor retrieval accuracy. Current methods only use local similarity to train their model. These methods ignore global similarity. Furthermore, most recent works fuse the multi-view features via a weighted sum or concatenation. We contend that these fusion methods are insufficient for capturing the interaction between various views. We present a novel Central Similarity Multi-View Hashing (CSMVH) method to address the mentioned problems. Central similarity learning is used for solving the local similarity problem, which can utilize the global similarity between the hash center and samples. We present copious empirical data demonstrating the superiority of gate-based fusion over conventional approaches. On the MS COCO and NUS-WIDE, the proposed CSM
+    Data in the real-world classification problems are always imbalanced or long-tailed, wherein the majority classes have the most of the samples that dominate the model training. In such setting, the naive model tends to have poor performance on the minority classes. Previously, a variety of loss modifications have been proposed to address the long-tailed leaning problem, while these methods either treat the samples in the same class indiscriminatingly or lack a theoretical guarantee. In this paper, we propose two novel approaches based on CVaR (Conditional Value at Risk) to improve the performance of long-tailed learning with a solid theoretical ground. Specifically, we firstly introduce a Label-Aware Bounded CVaR (LAB-CVaR) loss to overcome the pessimistic result of the original CVaR, and further design the optimal weight bounds for LAB-CVaR theoretically. Based on LAB-CVaR, we additionally propose a LAB-CVaR with logit adjustment (LAB-CVaR-logit) loss to stabilize the optimization pro
     
-[^3]: 如何利用上下文帮助？探索段落和个性化上下文的联合检索
+[^2]: 一种多角度学习排序方法，支持教室中儿童的信息搜索
 
-    How Can Context Help? Exploring Joint Retrieval of Passage and Personalized Context. (arXiv:2308.13760v1 [cs.AI])
+    A Multi-Perspective Learning to Rank Approach to Support Children's Information Seeking in the Classroom. (arXiv:2308.15265v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.13760](http://arxiv.org/abs/2308.13760)
+    [http://arxiv.org/abs/2308.15265](http://arxiv.org/abs/2308.15265)
 
-    本文探索了如何将个性化上下文信息与文档对话系统结合，提出了个性化上下文感知的段落检索任务，并引入了一种有效利用上下文信息的新颖方法PCAS。通过实验证明，PCAS不仅在检索最相关的段落方面优于基准系统，而且在确定相关上下文方面也表现出色。这将激发未来研究的兴趣。
-
-    
-
-    将外部个性化上下文信息整合到以文档为基础的对话系统中具有重要的商业价值，但这方面的研究还不够深入。受个性化上下文感知文档对话系统的概念启发，我们引入了上下文感知的段落检索任务，并构建了一个专门为此目的策划的数据集。我们描述了多个基准系统来解决这个任务，并提出了一种新颖的方法，即个性化上下文感知搜索(Personalized Context-Aware Search，PCAS)，它在段落检索过程中有效地利用上下文信息。在多个流行的稠密检索系统上进行的实验评估表明，我们的方法不仅在检索最相关的段落方面优于基准系统，而且在确定所有可用上下文中的相关上下文方面也表现出色。我们预计我们的贡献将成为激励未来研究的催化剂。
-
-    The integration of external personalized context information into document-grounded conversational systems has significant potential business value, but has not been well-studied. Motivated by the concept of personalized context-aware document-grounded conversational systems, we introduce the task of context-aware passage retrieval. We also construct a dataset specifically curated for this purpose. We describe multiple baseline systems to address this task, and propose a novel approach, Personalized Context-Aware Search (PCAS), that effectively harnesses contextual information during passage retrieval. Experimental evaluations conducted on multiple popular dense retrieval systems demonstrate that our proposed approach not only outperforms the baselines in retrieving the most relevant passage but also excels at identifying the pertinent context among all the available contexts. We envision that our contributions will serve as a catalyst for inspiring future research endeavors in this pr
-    
-[^4]: ZC3: 跨语言零样本代码克隆检测
-
-    ZC3: Zero-Shot Cross-Language Code Clone Detection. (arXiv:2308.13754v1 [cs.SE])
-
-    [http://arxiv.org/abs/2308.13754](http://arxiv.org/abs/2308.13754)
-
-    本文提出了一种名为ZC3的跨语言零样本代码克隆检测方法。该方法设计了对比代码片段预测，形成不同编程语言之间的同构表示空间，并利用领域感知学习和循环一致性学习来进一步约束模型。
+    这项研究提出了一种多角度学习排序方法，能够通过分析URL、片段和页面标题，优先考虑高教育一致性、适当性和可读性的Web资源，从而改进儿童信息搜索能力。
 
     
 
-    开发人员引入代码克隆以提高编程效率。许多现有研究在单语言代码克隆检测方面取得了令人瞩目的成果。然而，在软件开发过程中，越来越多的开发人员使用不同的语言编写语义上等价的程序，以支持不同的平台，并帮助开发人员从一种语言翻译项目到另一种语言。考虑到收集跨语言并行数据（尤其是低资源语言）的成本高昂且耗时，设计一种不依赖任何并行数据的有效跨语言模型是一个重要问题。本文提出了一种名为ZC3的新方法，用于零样本跨语言代码克隆检测。ZC3通过设计对比代码片段预测来形成不同编程语言之间的同构表示空间。基于此，ZC3利用领域感知学习和循环一致性学习进一步约束模型以生成表达。
+    我们介绍了一种新颖的重新排序模型，旨在增强标准搜索引擎的功能，以支持6至11岁儿童的课堂搜索活动。该模型通过平衡风险和回报扩展了已知的整体排序学习框架。通过分析给定主流搜索引擎检索到的Web资源的URL、片段和页面标题，该模型能够优先考虑高教育一致性、适当性和可读性的Web资源。实验结果包括消融研究和与现有基线的比较，展示了所提出模型的正确性。这项工作的结果证明了在设计能够更好地支持儿童信息发现的算法时，考虑到教室环境中的多个视角的价值，例如教育一致性、可读性和反对性。
 
-    Developers introduce code clones to improve programming productivity. Many existing studies have achieved impressive performance in monolingual code clone detection. However, during software development, more and more developers write semantically equivalent programs with different languages to support different platforms and help developers translate projects from one language to another. Considering that collecting cross-language parallel data, especially for low-resource languages, is expensive and time-consuming, how designing an effective cross-language model that does not rely on any parallel data is a significant problem. In this paper, we propose a novel method named ZC3 for Zero-shot Cross-language Code Clone detection. ZC3 designs the contrastive snippet prediction to form an isomorphic representation space among different programming languages. Based on this, ZC3 exploits domain-aware learning and cycle consistency learning to further constrain the model to generate represen
+    We introduce a novel re-ranking model that aims to augment the functionality of standard search engines to support classroom search activities for children (ages 6 to 11). This model extends the known listwise learning-to-rank framework by balancing risk and reward. Doing so enables the model to prioritize Web resources of high educational alignment, appropriateness, and adequate readability by analyzing the URLs, snippets, and page titles of Web resources retrieved by a given mainstream search engine. Experimental results, including an ablation study and comparisons with existing baselines, showcase the correctness of the proposed model. The outcomes of this work demonstrate the value of considering multiple perspectives inherent to the classroom setting, e.g., educational alignment, readability, and objectionability, when applied to the design of algorithms that can better support children's information discovery.
     
-[^5]: 基于LSTM的Web微服务口碑评分的QoE评估
+[^3]: 基于知识的多重自适应空间融合推荐方法
 
-    LSTM-based QoE Evaluation for Web Microservices' Reputation Scoring. (arXiv:2308.13590v1 [cs.IR])
+    Knowledge-based Multiple Adaptive Spaces Fusion for Recommendation. (arXiv:2308.15244v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.13590](http://arxiv.org/abs/2308.13590)
+    [http://arxiv.org/abs/2308.15244](http://arxiv.org/abs/2308.15244)
 
-    本研究提出了基于LSTM模型的情感分析和Net品牌声誉算法评估微服务的声誉分数的方法，并在一组与Amazon Web微服务相关的超过10,000条评论上进行了测试。
-
-    
-
-    情感分析是挖掘作者对特定实体的意见的任务。它允许组织实时监控不同的服务并采取相应的行动。声誉是人们或事物通常说到或相信的东西。非正式地说，声誉综合了从用户那里得到的反馈、评论和评级所反映的可靠度度量，这些反映了他们的体验质量(QoE)，可能会增加或损害所提供服务的声誉。在这项研究中，我们提出对Web微服务评价指标的情感分析，以利用提供的信息来评估和评分微服务的声誉。我们提出的方法使用了长短期记忆(LSTM)模型进行情感分析，并使用网络品牌声誉(NBR)算法评估微服务的声誉分数。该方法在与15个Amazon Web微服务相关的10000多条评论的数据集上进行了测试，实验结果表明
-
-    Sentiment analysis is the task of mining the authors' opinions about specific entities. It allows organizations to monitor different services in real time and act accordingly. Reputation is what is generally said or believed about people or things. Informally, reputation combines the measure of reliability derived from feedback, reviews, and ratings gathered from users, which reflect their quality of experience (QoE) and can either increase or harm the reputation of the provided services. In this study, we propose to perform sentiment analysis on web microservices reviews to exploit the provided information to assess and score the microservices' reputation. Our proposed approach uses the Long Short-Term Memory (LSTM) model to perform sentiment analysis and the Net Brand Reputation (NBR) algorithm to assess reputation scores for microservices. This approach is tested on a set of more than 10,000 reviews related to 15 Amazon Web microservices, and the experimental results have shown that
-    
-[^6]: 大型语言模型在分析事故叙述中的应用——ChatGPT、BARD和GPT-4的比较研究
-
-    Large Language Models in Analyzing Crash Narratives -- A Comparative Study of ChatGPT, BARD and GPT-4. (arXiv:2308.13563v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.13563](http://arxiv.org/abs/2308.13563)
-
-    三个大型语言模型接口(ChatGPT, BARD和GPT4)在分析事故叙述中的效果进行了比较研究。研究结果表明，它们在提取事故相关信息和回答相关问题方面都具有一定的有效性，但也存在一些限制。
+    该论文提出了一种基于知识的多重自适应空间融合推荐方法，通过统一的空间来融合双曲、欧几里得和球面空间，并利用注意力机制提高了知识传播的嵌入质量。
 
     
 
-    在交通安全研究中，使用文本分析从事故叙述中提取信息是一种常见的做法。随着大型语言模型（LLM）的最新进展，了解流行的LLM接口在分类或从事故叙述中提取信息方面的表现将非常有用。为了探索这一问题，我们的研究使用了目前最流行的三个公开可用的LLM接口——ChatGPT、BARD和GPT4。本研究调查了它们在提取信息和回答与事故有关的查询方面的有效性和限制。研究从爱荷华州和堪萨斯州的100个事故叙述中提取信息，并对它们的能力和限制进行了评估，比较了它们对查询的响应。五个与叙述相关的问题被提出：1）谁是责任方？2）碰撞方式是什么？3）事故发生在工作区吗？4）事故涉及行人吗？5）事故中有害事件的顺序是什么？对于第1到第4个问题，三个LLM接口的回答都经过了比较。
+    鉴于知识图谱包含丰富的语义信息，近年来一些KG-enhanced推荐方法层出不穷。现有方法大多是基于欧几里得空间设计的，没有考虑曲率。然而，最近的研究表明，巨大的图结构数据表现出高度非欧几里得的特性。在这项工作中，我们受到这些观察的启发，提出了一种基于知识的多重自适应空间融合推荐方法，称为MCKG。与现有方法仅采用特定流形的方法不同，我们引入了与双曲、欧几里得和球面空间兼容的统一空间。此外，在注意力方式下，我们融合了多个统一空间，以获取更好的知识传播的高质量嵌入。此外，我们提出了一种几何感知优化策略，使得拉和推过程可以充分利用双曲和球面空间的优势。具体而言，在双曲空间中，
 
-    In traffic safety research, extracting information from crash narratives using text analysis is a common practice. With recent advancements of large language models (LLM), it would be useful to know how the popular LLM interfaces perform in classifying or extracting information from crash narratives. To explore this, our study has used the three most popular publicly available LLM interfaces- ChatGPT, BARD and GPT4. This study investigated their usefulness and boundaries in extracting information and answering queries related to accidents from 100 crash narratives from Iowa and Kansas. During the investigation, their capabilities and limitations were assessed and their responses to the queries were compared. Five questions were asked related to the narratives: 1) Who is at-fault? 2) What is the manner of collision? 3) Has the crash occurred in a work-zone? 4) Did the crash involve pedestrians? and 5) What are the sequence of harmful events in the crash? For questions 1 through 4, the o
+    Since Knowledge Graphs (KGs) contain rich semantic information, recently there has been an influx of KG-enhanced recommendation methods. Most of existing methods are entirely designed based on euclidean space without considering curvature. However, recent studies have revealed that a tremendous graph-structured data exhibits highly non-euclidean properties. Motivated by these observations, in this work, we propose a knowledge-based multiple adaptive spaces fusion method for recommendation, namely MCKG. Unlike existing methods that solely adopt a specific manifold, we introduce the unified space that is compatible with hyperbolic, euclidean and spherical spaces. Furthermore, we fuse the multiple unified spaces in an attention manner to obtain the high-quality embeddings for better knowledge propagation. In addition, we propose a geometry-aware optimization strategy which enables the pull and push processes benefited from both hyperbolic and spherical spaces. Specifically, in hyperbolic 
     
-[^7]: 使用深度生成模型进行孟加拉文本分类的特征提取（arXiv:2308.13545v1 [cs.IR]）
+[^4]: 结合可解释性分析的分类感知神经主题模型——用于冲突分类
 
-    Feature Extraction Using Deep Generative Models for Bangla Text Classification on a New Comprehensive Dataset. (arXiv:2308.13545v1 [cs.IR])
+    Classification-Aware Neural Topic Model Combined With Interpretable Analysis -- For Conflict Classification. (arXiv:2308.15232v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.13545](http://arxiv.org/abs/2308.13545)
+    [http://arxiv.org/abs/2308.15232](http://arxiv.org/abs/2308.15232)
 
-    本研究提出了使用深度生成模型在孟加拉文本分类中进行特征提取的方法，并收集、注释了一个全面的数据集。评估结果表明，对抗自编码器模型产生了最佳的特征空间。
-
-    
-
-    文本分类中的特征选择是文本挖掘和信息检索中的基础任务。尽管孟加拉语是世界上使用最广泛的第六大语言，但由于文本数据集的稀缺性，它一直受到较少关注。在本研究中，我们收集、注释和准备了一个包含212,184个孟加拉文档的全面数据集，涵盖了七个不同的类别，并将其公开。我们实现了三个深度学习生成模型：LSTM变分自编码器（LSTM VAE）、辅助分类器生成对抗网络（AC-GAN）和对抗自编码器（AAE）来提取文本特征，尽管它们的应用最初是在计算机视觉领域发现的。我们利用我们的数据集训练了这三个模型，并在文档分类任务中使用了得到的特征空间。我们评估了分类器的性能，并发现对抗自编码器模型产生了最佳的特征空间。
-
-    The selection of features for text classification is a fundamental task in text mining and information retrieval. Despite being the sixth most widely spoken language in the world, Bangla has received little attention due to the scarcity of text datasets. In this research, we collected, annotated, and prepared a comprehensive dataset of 212,184 Bangla documents in seven different categories and made it publicly accessible. We implemented three deep learning generative models: LSTM variational autoencoder (LSTM VAE), auxiliary classifier generative adversarial network (AC-GAN), and adversarial autoencoder (AAE) to extract text features, although their applications are initially found in the field of computer vision. We utilized our dataset to train these three models and used the feature space obtained in the document classification task. We evaluated the performance of the classifiers and found that the adversarial autoencoder model produced the best feature space.
-    
-[^8]: 面向免费的对抗性协同过滤
-
-    Adversarial Collaborative Filtering for Free. (arXiv:2308.13541v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.13541](http://arxiv.org/abs/2308.13541)
-
-    这篇论文介绍了一种面向免费的对抗性协同过滤方法，通过对抗性学习来规范用户/项目的表示，提高模型的泛化能力和鲁棒性，并提出了SharpCF方法来解决现有方法的缺点。
+    本文提出了一种结合可解释性分析的分类感知神经主题模型，用于冲突分类和主题发现。该模型提供了可靠的分类结果和发现的主题的解释，并通过优化模型的复杂度来提高分类性能。
 
     
 
-    协同过滤（CF）已成功用于帮助用户发现感兴趣的项目。然而，现有的CF方法存在噪声数据问题，这对推荐的质量产生负面影响。为了解决这个问题，许多先前的研究利用对抗性学习来规范用户/项目的表示，从而提高泛化能力和鲁棒性。这些方法通常在最小最大优化框架下学习对抗扰动和模型参数。然而，目前存在两个主要缺点：1）现有方法缺乏理论保证，无法解释为什么添加扰动可以提高模型的泛化能力和鲁棒性；2）解决最小最大优化问题需要耗时。除了更新模型参数，每次迭代还需要额外计算来更新扰动，使它们不适用于规模大的工业数据集。本文提出了一种新的Sharpness-aware Collaborative Filtering（SharpCF）方法，它简单而有效。
+    世界上有大量的冲突事件一直在影响着我们。为了有效分析这些冲突事件，本文提出了一种用于冲突信息分类和主题发现的分类感知神经主题模型（CANTM-IA）。该模型通过引入可解释性分析来提供可靠的分类结果和发现的主题的解释。同时，将解释性引入模型架构中，以提高模型的分类性能，并使解释进一步关注数据的细节。最后，对模型架构进行优化，以降低模型的复杂度。
 
-    Collaborative Filtering (CF) has been successfully used to help users discover the items of interest. Nevertheless, existing CF methods suffer from noisy data issue, which negatively impacts the quality of recommendation. To tackle this problem, many prior studies leverage adversarial learning to regularize the representations of users/items, which improves both generalizability and robustness. Those methods often learn adversarial perturbations and model parameters under min-max optimization framework. However, there still have two major drawbacks: 1) Existing methods lack theoretical guarantees of why adding perturbations improve the model generalizability and robustness; 2) Solving min-max optimization is time-consuming. In addition to updating the model parameters, each iteration requires additional computations to update the perturbations, making them not scalable for industry-scale datasets.  In this paper, we present Sharpness-aware Collaborative Filtering (SharpCF), a simple ye
+    A large number of conflict events are affecting the world all the time. In order to analyse such conflict events effectively, this paper presents a Classification-Aware Neural Topic Model (CANTM-IA) for Conflict Information Classification and Topic Discovery. The model provides a reliable interpretation of classification results and discovered topics by introducing interpretability analysis. At the same time, interpretation is introduced into the model architecture to improve the classification performance of the model and to allow interpretation to focus further on the details of the data. Finally, the model architecture is optimised to reduce the complexity of the model.
     
-[^9]: 一个概念游戏特征生成与推荐系统的初步研究
+[^5]: 使用变分自动编码器为以前未出现的用户提供公平推荐
 
-    A Preliminary Study on a Conceptual Game Feature Generation and Recommendation System. (arXiv:2308.13538v1 [cs.IR])
+    Providing Previously Unseen Users Fair Recommendations Using Variational Autoencoders. (arXiv:2308.15230v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.13538](http://arxiv.org/abs/2308.13538)
+    [http://arxiv.org/abs/2308.15230](http://arxiv.org/abs/2308.15230)
 
-    本研究介绍了一个用于生成游戏特征建议的系统，通过使用文本提示，提取主题相似的游戏特征并生成新特征。经过用户研究比较，该系统的生成模型在某些游戏中的表现超过了人工建议。该系统是一个与用户在概念层面上进行协作的游戏设计助手工具的一部分。
-
-    
-
-    本文介绍了一个基于文本提示生成游戏特征建议的系统。该系统通过使用一个小型的GLoVe模型的词嵌入来提取主题相似的游戏中的特征和实体，并将其通过一个生成模型传递，用于生成用户提示的新特征。我们进行了一项短期用户研究，比较了来自一个经过微调的GPT-2模型、使用ConceptNet的模型以及人工编写的游戏特征生成的特征。虽然人工建议获得了绝大多数的投票，但在某些游戏中，GPT-2模型的表现超过了人工建议。该系统是一个更大的游戏设计助手工具的一部分，能够在概念层面上与用户进行协作。
-
-    This paper introduces a system used to generate game feature suggestions based on a text prompt. Trained on the game descriptions of almost 60k games, it uses the word embeddings of a small GLoVe model to extract features and entities found in thematically similar games which are then passed through a generator model to generate new features for a user's prompt. We perform a short user study comparing the features generated from a fine-tuned GPT-2 model, a model using the ConceptNet, and human-authored game features. Although human suggestions won the overall majority of votes, the GPT-2 model outperformed the human suggestions in certain games. This system is part of a larger game design assistant tool that is able to collaborate with users at a conceptual level.
-    
-[^10]: STEM:释放Embedding在多任务推荐中的力量
-
-    STEM: Unleashing the Power of Embeddings for Multi-task Recommendation. (arXiv:2308.13537v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.13537](http://arxiv.org/abs/2308.13537)
-
-    本文提出了一种称为STEM的新范例，用于解决多任务推荐中的负传递问题。与现有方法不同，STEM通过根据样本中正反馈数量的相对比例进行细分，深入研究样本的复杂性，以提高推荐系统的性能。
+    本论文提出了一种使用变分自动编码器的新方法，通过限制人口统计信息的编码来减少推荐系统中的歧视，从而为以前未出现的用户提供公平推荐。
 
     
 
-    多任务学习（MTL）在推荐系统中变得越来越受欢迎，因为它能够同时优化多个目标。MTL的一个关键挑战是负传递的发生，即由于任务之间的冲突导致某些任务的性能下降。现有研究通过将所有样本视为一个整体来探索负传递，忽视了其中固有的复杂性。为此，我们根据任务之间正反馈的相对数量将样本进行细分，深入研究样本的复杂性。令人惊讶的是，现有MTL方法在收到各任务类似反馈的样本上仍然存在负传递。值得注意的是，现有方法通常采用共享嵌入的范例，并且我们假设它们的失败可以归因于使用这种通用嵌入来建模不同用户偏好的有限能力。
+    机器学习中关于公平性的新定义要求模型对用户的人口统计信息不可见，例如，用户的性别或年龄不应影响模型。个性化推荐系统特别容易通过其显式的用户关注和用户建模来违反这个定义。显式的用户建模也是许多推荐系统无法为以前未出现的用户提供推荐的原因。我们提出了一种限制人口统计信息编码的新方法来减少基于变分自动编码器的推荐系统中的歧视。这些方法能够在评估中为未在训练数据中出现的用户提供公平推荐。
 
-    Multi-task learning (MTL) has gained significant popularity in recommendation systems as it enables the simultaneous optimization of multiple objectives. A key challenge in MTL is the occurrence of negative transfer, where the performance of certain tasks deteriorates due to conflicts between tasks. Existing research has explored negative transfer by treating all samples as a whole, overlooking the inherent complexities within them. To this end, we delve into the intricacies of samples by splitting them based on the relative amount of positive feedback among tasks. Surprisingly, negative transfer still occurs in existing MTL methods on samples that receive comparable feedback across tasks. It is worth noting that existing methods commonly employ a shared-embedding paradigm, and we hypothesize that their failure can be attributed to the limited capacity of modeling diverse user preferences across tasks using such universal embeddings.  In this paper, we introduce a novel paradigm called
+    An emerging definition of fairness in machine learning requires that models are oblivious to demographic user information, e.g., a user's gender or age should not influence the model. Personalized recommender systems are particularly prone to violating this definition through their explicit user focus and user modelling. Explicit user modelling is also an aspect that makes many recommender systems incapable of providing hitherto unseen users with recommendations. We propose novel approaches for mitigating discrimination in Variational Autoencoder-based recommender systems by limiting the encoding of demographic information. The approaches are capable of, and evaluated on, providing users that are not represented in the training data with fair recommendations.
     
-[^11]: 线性自动编码器对推荐系统中的隐式ZCA白化的影响
+[^6]: CAGRA：面向GPU的高度并行图构建和近似最近邻搜索
 
-    Implicit ZCA Whitening Effects of Linear Autoencoders for Recommendation. (arXiv:2308.13536v1 [cs.IR])
+    CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs. (arXiv:2308.15136v1 [cs.DS])
 
-    [http://arxiv.org/abs/2308.13536](http://arxiv.org/abs/2308.13536)
+    [http://arxiv.org/abs/2308.15136](http://arxiv.org/abs/2308.15136)
 
-    本文展示了线性自动编码器模型在推荐系统中隐式的ZCA白化作用，以及其对低维物品嵌入的有效性。
-
-    
-
-    近年来，在推荐系统领域，线性回归（自动编码器）模型被研究作为学习物品相似性的一种方法。本文展示了线性自动编码器模型与推荐数据的ZCA白化之间的联系。特别地，我们展示了线性自动编码器模型的对偶形式解在物品的特征向量上实际上具有ZCA白化效果，而在自动编码器/回归模型的原始问题中，物品被视为输入特征。我们还展示了将线性自动编码器应用于使用Item2vec等嵌入方法获得的低维物品向量来估计物品之间相似性的正确性。我们的实验提供了初步结果，表明白化低维物品嵌入是有效的。
-
-    Recently, in the field of recommendation systems, linear regression (autoencoder) models have been investigated as a way to learn item similarity. In this paper, we show a connection between a linear autoencoder model and ZCA whitening for recommendation data. In particular, we show that the dual form solution of a linear autoencoder model actually has ZCA whitening effects on feature vectors of items, while items are considered as input features in the primal problem of the autoencoder/regression model. We also show the correctness of applying a linear autoencoder to low-dimensional item vectors obtained using embedding methods such as Item2vec to estimate item-item similarities. Our experiments provide preliminary results indicating the effectiveness of whitening low-dimensional item embeddings.
-    
-[^12]: MUSE: 在随机播放推荐增强方面的音乐推荐系统
-
-    MUSE: Music Recommender System with Shuffle Play Recommendation Enhancement. (arXiv:2308.09649v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2308.09649](http://arxiv.org/abs/2308.09649)
-
-    MUSE是一种音乐推荐系统，通过增强随机播放推荐实现了对音乐领域独特挑战的解决。它采用自监督学习框架和创新的会话增强方法，以提高推荐系统的整体训练效果。
+    CAGRA是一种面向GPU的高度并行图构建和近似最近邻搜索方法，在近似最近邻搜索领域取得了显著的效率提升。
 
     
 
-    推荐系统已成为音乐流媒体服务中不可或缺的部分，通过个性化播放列表和促进偶然发现新音乐来提升用户体验。然而，现有的推荐系统忽视了音乐领域固有的独特挑战，特别是随机播放会以随机序列提供连续的曲目。基于我们的观察，随机播放会话主要由于高独特转换率阻碍了音乐推荐系统的整体训练过程，我们提出了一种名为MUSE的音乐推荐系统，该系统增强了随机播放推荐。 MUSE采用自监督学习框架，通过增加曲目的转换来最大化原始播放会话与增强会话之间的一致性，这种增强通过我们的新颖会话增强方法（称为基于转换的增强）来实现。为了进一步促进两个视图之间的表示对齐，我们设计了两种细粒度机制。
+    近似最近邻搜索（ANNS）在数据挖掘和人工智能领域中起着关键作用，涵盖了信息检索、计算机视觉、自然语言处理和推荐系统等各个学科。近年来，数据量急剧增加，穷举精确最近邻搜索的计算成本往往是禁止性的，必须采用近似技术。尽管图形化方法的平衡性能和召回率在ANNS算法中最近引起了广泛关注，但只有少数研究探索了利用GPU和多核处理器的强大计算能力，尽管广泛使用了大规模并行和通用计算能力。为了弥补这一差距，我们引入了一种基于并行计算硬件的新颖接近图和搜索算法。通过利用现代硬件的高性能能力，我们的方法实现了显著的效率提升。具体而言，我们的方法实现了高效的图构建和近似最近邻搜索。
 
-    Recommender systems have become indispensable in music streaming services, enhancing user experiences by personalizing playlists and facilitating the serendipitous discovery of new music. However, the existing recommender systems overlook the unique challenges inherent in the music domain, specifically shuffle play, which provides subsequent tracks in a random sequence. Based on our observation that the shuffle play sessions hinder the overall training process of music recommender systems mainly due to the high unique transition rates of shuffle play sessions, we propose a Music Recommender System with Shuffle Play Recommendation Enhancement (MUSE). MUSE employs the self-supervised learning framework that maximizes the agreement between the original session and the augmented session, which is augmented by our novel session augmentation method, called transition-based augmentation. To further facilitate the alignment of the representations between the two views, we devise two fine-grain
+    Approximate Nearest Neighbor Search (ANNS) plays a critical role in various disciplines spanning data mining and artificial intelligence, from information retrieval and computer vision to natural language processing and recommender systems. Data volumes have soared in recent years and the computational cost of an exhaustive exact nearest neighbor search is often prohibitive, necessitating the adoption of approximate techniques. The balanced performance and recall of graph-based approaches have more recently garnered significant attention in ANNS algorithms, however, only a few studies have explored harnessing the power of GPUs and multi-core processors despite the widespread use of massively parallel and general-purpose computing. To bridge this gap, we introduce a novel parallel computing hardware-based proximity graph and search algorithm. By leveraging the high-performance capabilities of modern hardware, our approach achieves remarkable efficiency gains. In particular, our method s
     
-[^13]: 你的Qrels有多具有区分性？如何研究文档裁决方法的统计学显著性
+[^7]: 一石二鸟：音频字幕系统是否能用于音频文本检索？
 
-    How Discriminative Are Your Qrels? How To Study the Statistical Significance of Document Adjudication Methods. (arXiv:2308.09340v2 [cs.IR] UPDATED)
+    Killing two birds with one stone: Can an audio captioning system also be used for audio-text retrieval?. (arXiv:2308.15090v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.09340](http://arxiv.org/abs/2308.09340)
+    [http://arxiv.org/abs/2308.15090](http://arxiv.org/abs/2308.15090)
 
-    本论文提出了一种新方法，评估低成本裁决方法在保持完整集合中系统之间成对显著差异方面的能力。
-
-    
-
-    创建离线检索评估的测试集需要人工判断文档的相关性。在减少评估成本方面，裁决方法积极决定专家审查文档的顺序，以更好地利用评估预算或降低其成本。研究人员通过测量完整集合下已知系统的金标排名与低成本集合下系统的观察排名之间的相关性来评估这些方法的质量。这种传统分析忽略了低成本裁决对于完整集合中系统之间的统计显著差异是否以及如何影响。我们通过提出一种新方法来评估低成本裁决方法在保持完整集合中系统之间成对显著差异方面的能力来填补这一空白。
-
-    Creating test collections for offline retrieval evaluation requires human effort to judge documents' relevance. This expensive activity motivated much work in developing methods for constructing benchmarks with fewer assessment costs. In this respect, adjudication methods actively decide both which documents and the order in which experts review them, in order to better exploit the assessment budget or to lower it. Researchers evaluate the quality of those methods by measuring the correlation between the known gold ranking of systems under the full collection and the observed ranking of systems under the lower-cost one. This traditional analysis ignores whether and how the low-cost judgements impact on the statistically significant differences among systems with respect to the full collection. We fill this void by proposing a novel methodology to evaluate how the low-cost adjudication methods preserve the pairwise significant differences between systems as the full collection. In other
-    
-[^14]: SPM: Meituan搜索中用于相关性建模的结构化预训练和匹配架构
-
-    SPM: Structured Pretraining and Matching Architectures for Relevance Modeling in Meituan Search. (arXiv:2308.07711v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.07711](http://arxiv.org/abs/2308.07711)
-
-    本论文提出了一种用于在Meituan搜索中进行相关性建模的新颖两阶段预训练和匹配架构。
+    这篇论文研究了音频字幕系统和音频文本检索系统之间的关系，通过探索未经修改的音频字幕系统对音频文本检索任务的性能。研究发现，即使未进行微调，音频字幕系统在音频文本检索任务上表现出了一定的能力。
 
     
 
-    在电商搜索中，查询和文档之间的相关性是满足用户体验的基本要求。与传统的电商平台不同，用户在美团等生活服务平台上进行搜索主要是为了产品供应商，这些供应商通常拥有丰富的结构化信息，例如名称、地址、类别、成千上万的产品。使用这些丰富的结构化内容进行搜索相关性建模具有挑战性，主要存在以下问题：（1）不同字段的结构化文档存在语言分布差异，无法直接采用预训练的语言模型方法（如BERT）。（2）不同字段通常具有不同的重要性，且长度差异很大，很难提取对相关性匹配有帮助的文档信息。为了解决这些问题，本文提出了一种新的两阶段预训练和匹配架构，用于丰富结构的相关性匹配。
+    自动音频字幕系统旨在开发能够用文本句子描述音频录音的系统。与此相反，音频文本检索系统旨在为给定的文本查询（文本到音频）或反之（音频到文本）找到最佳匹配的音频录音。这些任务需要不同类型的系统：音频字幕系统采用序列到序列模型，而音频文本检索系统利用在共享投射子空间内比较音频和文本表示的排序模型。然而，本研究通过探索未经修改的音频字幕系统（无需针对新任务进行微调）的音频文本检索能力，研究了音频字幕系统与音频文本检索系统之间的关系。我们的音频字幕系统包括一个在音频标记上通过AudioSet进行训练的音频编码器（ConvNeXt-Tiny），以及一个负责生成句子的变压器解码器。对于音频字幕系统，它在Clotho上的SPIDEr-FL得分平均为0.298，在AudioCaps上的得分平均为0.472。对于音频文本检索系统，我们提出使用标准的交叉熵损失值。
 
-    In e-commerce search, relevance between query and documents is an essential requirement for satisfying user experience. Different from traditional e-commerce platforms that offer products, users search on life service platforms such as Meituan mainly for product providers, which usually have abundant structured information, e.g. name, address, category, thousands of products. Modeling search relevance with these rich structured contents is challenging due to the following issues: (1) there is language distribution discrepancy among different fields of structured document, making it difficult to directly adopt off-the-shelf pretrained language model based methods like BERT. (2) different fields usually have different importance and their length vary greatly, making it difficult to extract document information helpful for relevance matching.  To tackle these issues, in this paper we propose a novel two-stage pretraining and matching architecture for relevance matching with rich structure
+    Automated Audio Captioning (AAC) aims to develop systems capable of describing an audio recording using a textual sentence. In contrast, Audio-Text Retrieval (ATR) systems seek to find the best matching audio recording(s) for a given textual query (Text-to-Audio) or vice versa (Audio-to-Text). These tasks require different types of systems: AAC employs a sequence-to-sequence model, while ATR utilizes a ranking model that compares audio and text representations within a shared projection subspace. However, this work investigates the relationship between AAC and ATR by exploring the ATR capabilities of an unmodified AAC system, without fine-tuning for the new task. Our AAC system consists of an audio encoder (ConvNeXt-Tiny) trained on AudioSet for audio tagging, and a transformer decoder responsible for generating sentences. For AAC, it achieves a high SPIDEr-FL score of 0.298 on Clotho and 0.472 on AudioCaps on average. For ATR, we propose using the standard Cross-Entropy loss values ob
     
-[^15]: 利用观看时间反馈进行短视频推荐：一种因果标记框架
+[^8]: STEC: 基于透明Transformer编码器的CTR预测模型
 
-    Leveraging Watch-time Feedback for Short-Video Recommendations: A Causal Labeling Framework. (arXiv:2306.17426v1 [cs.IR])
+    STEC: See-Through Transformer-based Encoder for CTR Prediction. (arXiv:2308.15033v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.17426](http://arxiv.org/abs/2306.17426)
+    [http://arxiv.org/abs/2308.15033](http://arxiv.org/abs/2308.15033)
 
-    该论文提出了一种因果标记框架，利用观看时间反馈进行短视频推荐。通过构建多个语义的标签，并使用分位数来提取观看时间的信息，使模型学习更加容易，同时减少偏见对推荐结果的影响。
-
-    
-
-    随着短视频应用的普及，短视频推荐的重要性大大增加。与其他推荐场景不同，短视频推荐系统大量依赖于观看时间的反馈。现有方法简单地将观看时间视为直接标签，未能充分利用其广泛的语义并引入偏见，从而限制了基于观看时间建模用户兴趣的潜力。为了克服这一挑战，我们提出了一个名为去偏多语义提取标记（DML）的框架。DML利用观看时间分布得出的分位数构建包含各种语义的标签，优先考虑相对顺序而不是绝对标签值。这种方法便于模型学习，同时符合推荐的排序目标。此外，我们引入了受因果调整启发的方法来优化标签定义，从而减少偏见对推荐结果的影响。
-
-    With the proliferation of short video applications, the significance of short video recommendations has vastly increased. Unlike other recommendation scenarios, short video recommendation systems heavily rely on feedback from watch time. Existing approaches simply treat watch time as a direct label, failing to effectively harness its extensive semantics and introduce bias, thereby limiting the potential for modeling user interests based on watch time. To overcome this challenge, we propose a framework named Debiasied Multiple-semantics-extracting Labeling (DML). DML constructs labels that encompass various semantics by utilizing quantiles derived from the distribution of watch time, prioritizing relative order rather than absolute label values. This approach facilitates easier model learning while aligning with the ranking objective of recommendations. Furthermore, we introduce a method inspired by causal adjustment to refine label definitions, thereby reducing the impact of bias on th
-    
-[^16]: 通过离线强化学习实现因果决策Transformer的推荐系统
-
-    Causal Decision Transformer for Recommender Systems via Offline Reinforcement Learning. (arXiv:2304.07920v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2304.07920](http://arxiv.org/abs/2304.07920)
-
-    本论文提出了一种基于因果决策Transformer和离线强化学习的推荐系统，通过探索用户行为的因果关系，指导代理捕捉动态兴趣，并解决了大规模情境下数据效率低的问题。
+    STEC是一种基于透明Transformer编码器的CTR预测模型，通过引入多种交互学习方法和残差连接，提升了模型性能。
 
     
 
-    最近，基于强化学习的推荐系统已经变得越来越流行。然而，优化推荐策略的奖励函数的设计往往并不简单。探索用户行为背后的因果关系可以替代奖励函数，指导代理捕捉用户的动态兴趣。此外，由于仿真环境的典型限制（如数据效率），大部分研究无法广泛应用于大规模情境。尽管一些研究尝试将离线数据集转化为仿真器，但数据效率使学习过程变得更加缓慢。由于强化学习的本质是通过相互作用进行学习，它无法在单次交互过程中收集足够的数据进行训练。此外，传统的强化学习算法不像监督学习方法那样具备直接从离线数据集进行学习的牢固能力。
+    点击率（CTR）预测在在线广告和推荐系统中扮演着关键角色，因为CTR预测性能直接影响用户的整体满意度和公司的收入。然而，CTR预测仍然是一个活跃的研究领域，因为它涉及基于稀疏和高维特征准确建模用户的偏好，多个特征的高阶交互可能导致不同的结果。大多数CTR预测模型依赖于单一的融合和交互学习策略。少数CTR预测模型利用多个交互建模策略，但将每个交互视为独立的。在本文中，我们提出了一种名为STEC的新模型，它在单一统一的结构中充分利用了多种交互学习方法的优势。此外，我们的模型引入了来自不同交互阶的残差连接，从而提升了模型的性能。
 
-    Reinforcement learning-based recommender systems have recently gained popularity. However, the design of the reward function, on which the agent relies to optimize its recommendation policy, is often not straightforward. Exploring the causality underlying users' behavior can take the place of the reward function in guiding the agent to capture the dynamic interests of users. Moreover, due to the typical limitations of simulation environments (e.g., data inefficiency), most of the work cannot be broadly applied in large-scale situations. Although some works attempt to convert the offline dataset into a simulator, data inefficiency makes the learning process even slower. Because of the nature of reinforcement learning (i.e., learning by interaction), it cannot collect enough data to train during a single interaction. Furthermore, traditional reinforcement learning algorithms do not have a solid capability like supervised learning methods to learn from offline datasets directly. In this p
+    Click-Through Rate (CTR) prediction holds a pivotal place in online advertising and recommender systems since CTR prediction performance directly influences the overall satisfaction of the users and the revenue generated by companies. Even so, CTR prediction is still an active area of research since it involves accurately modelling the preferences of users based on sparse and high-dimensional features where the higher-order interactions of multiple features can lead to different outcomes. Most CTR prediction models have relied on a single fusion and interaction learning strategy. The few CTR prediction models that have utilized multiple interaction modelling strategies have treated each interaction to be self-contained. In this paper, we propose a novel model named STEC that reaps the benefits of multiple interaction learning approaches in a single unified architecture. Additionally, our model introduces residual connections from different orders of interactions which boosts the perfor
     
-[^17]: 分析和可视化具有符号网络的极化和平衡：美国国会案例研究
+[^9]: 用传统IR方法提高神经排名模型
 
-    Analyzing and visualizing polarization and balance with signed networks: the U.S. Congress case study. (arXiv:2209.00676v2 [cs.SI] UPDATED)
+    Improving Neural Ranking Models with Traditional IR Methods. (arXiv:2308.15027v1 [cs.IR])
 
-    [http://arxiv.org/abs/2209.00676](http://arxiv.org/abs/2209.00676)
+    [http://arxiv.org/abs/2308.15027](http://arxiv.org/abs/2308.15027)
 
-    该论文提出了一种在美国国会案例研究中分析和可视化符号网络极化和平衡的方法。该方法基于拉普拉斯矩阵的谱特性，具有计算成本低、对任意小的子图进行数量化和视觉评估等优点。
+    本文研究了一种低成本的替代方法，通过将传统的TF-IDF和浅层嵌入模型结合使用，可以与基于大型Transformer模型的神经排名模型竞争，并可以提高这些模型在大规模任务上的性能。
 
     
 
-    符号网络和平衡理论为展示极化动态、正负关系和政治党派之间提供了一个自然的环境。例如，它们已被证明有效地研究了美国国会两个议院投票的日益极化，从二战以来。为了对这个特定案例研究提供更深入的洞察，我们提出了一个流水线的应用，用于分析和可视化符号图的配置，基于对应的拉普拉斯矩阵的谱特性的利用。整体方法与基于挫败指数的其他方法相当，但至少有两个主要优点：首先，它需要更低的计算成本；其次，它允许对任意小的子图（甚至单个节点）对网络的整体平衡（或不平衡）产生数量化和视觉评估。所提出的流水线允许对极化进行探索。
+    基于大型Transformer模型的神经排名方法近年来在信息检索领域引起了极大关注，并被主要商业解决方案采用。然而，它们在创建过程中计算成本高昂，并需要大量标记数据来适应特定的语料库。在本文中，我们探索了低资源替代方案，即基于嵌入模型的文档检索方法，并发现它在信息检索任务上与细调的大型Transformer模型相竞争。我们的结果表明，将传统关键字匹配方法TF-IDF与浅层嵌入模型简单结合可以以低成本追赶到复杂神经排名模型在三个数据集上的性能。此外，在这些任务上添加TF-IDF度量可以提高大规模细调模型的性能。
 
-    Signed networks and balance theory provide a natural setting for real-world scenarios that show polarization dynamics, positive/negative relationships, and political partisanship. For example, they have been proven effective in studying the increasing polarization of the votes in the two chambers of the U.S. Congress from World War II on.  To provide further insights into this particular case study, we propose the application of a pipeline to analyze and visualize a signed graph's configuration based on the exploitation of the corresponding Laplacian matrix' spectral properties. The overall methodology is comparable with others based on the frustration index, but it has at least two main advantages: first, it requires a much lower computational cost; second, it allows for a quantitative and visual assessment of how arbitrarily small subgraphs (even single nodes) contribute to the overall balance (or unbalance) of the network.  The proposed pipeline allows the exploration of polarizatio
+    Neural ranking methods based on large transformer models have recently gained significant attention in the information retrieval community, and have been adopted by major commercial solutions. Nevertheless, they are computationally expensive to create, and require a great deal of labeled data for specialized corpora. In this paper, we explore a low resource alternative which is a bag-of-embedding model for document retrieval and find that it is competitive with large transformer models fine tuned on information retrieval tasks. Our results show that a simple combination of TF-IDF, a traditional keyword matching method, with a shallow embedding model provides a low cost path to compete well with the performance of complex neural ranking models on 3 datasets. Furthermore, adding TF-IDF measures improves the performance of large-scale fine tuned models on these tasks.
+    
+[^10]: CAPS：用于带有过滤的相似性搜索的实用分区索引
+
+    CAPS: A Practical Partition Index for Filtered Similarity Search. (arXiv:2308.15014v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.15014](http://arxiv.org/abs/2308.15014)
+
+    CAPS是一种通过空间分区实现的用于带有过滤的相似性搜索的索引，它在召回-延迟权衡方面优于基于图的约束搜索技术，并且只需要较小的索引大小。
+
+    
+
+    随着神经表示学习的进步，近似近邻搜索（ANNS）的流行度越来越高，同时也加强了对能够在查询中附带一组约束的能力的关注。尽管社区最近提出了几种用于约束ANNS的算法，但几乎所有这些方法都集中在与基于图的索引的集成上，这是一种能够在延迟-召回权衡中实现最先进性能的主要算法类别。在这项工作中，我们采用了不同的方法，专注于通过空间分区而不是图来开发约束ANNS算法。为此，我们引入了约束近似分区搜索（CAPS），这是一种通过空间分区进行带有过滤的ANNS索引，不仅保留了基于分区的算法的优势，而且在召回-延迟权衡方面胜过最先进的基于图的约束搜索技术，而且只需要10%的索引大小。
+
+    With the surging popularity of approximate near-neighbor search (ANNS), driven by advances in neural representation learning, the ability to serve queries accompanied by a set of constraints has become an area of intense interest. While the community has recently proposed several algorithms for constrained ANNS, almost all of these methods focus on integration with graph-based indexes, the predominant class of algorithms achieving state-of-the-art performance in latency-recall tradeoffs. In this work, we take a different approach and focus on developing a constrained ANNS algorithm via space partitioning as opposed to graphs. To that end, we introduce Constrained Approximate Partitioned Search (CAPS), an index for ANNS with filters via space partitions that not only retains the benefits of a partition-based algorithm but also outperforms state-of-the-art graph-based constrained search techniques in recall-latency tradeoffs, with only 10% of the index size.
+    
+[^11]: 动态语料库上的生成性检索的持续学习
+
+    Continual Learning for Generative Retrieval over Dynamic Corpora. (arXiv:2308.14968v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.14968](http://arxiv.org/abs/2308.14968)
+
+    这项研究解决了生成性检索在动态语料库中的持续学习问题，通过引入CLEVER模型，并提出了增量产品量化的方法来实现低计算成本的新文档编码。
+
+    
+
+    生成性检索（GR）基于参数模型直接预测相关文档的标识符（即docids），在许多应用检索任务上取得了良好的性能。然而，迄今为止，这些任务都假设了静态文档集合。然而，在许多实际场景中，文档集合是动态的，即持续不断地添加新文档。能够增量索引新文档同时保留以前和新索引的相关文档回答查询的能力，对应用GR模型非常重要。在本文中，我们解决了GR的实际持续学习问题。我们提出了一种新颖的持续学习模型CLEVER（Continual-LEarner for generatiVE Retrieval），在GR的持续学习方面做出了两个重大贡献：（i）为了以低计算成本将新文档编码为docids，我们提出了增量产品量化（Incremental Product Quantization），根据两个自适应阈值更新部分量化码本；和（ii）为了
+
+    Generative retrieval (GR) directly predicts the identifiers of relevant documents (i.e., docids) based on a parametric model. It has achieved solid performance on many ad-hoc retrieval tasks. So far, these tasks have assumed a static document collection. In many practical scenarios, however, document collections are dynamic, where new documents are continuously added to the corpus. The ability to incrementally index new documents while preserving the ability to answer queries with both previously and newly indexed relevant documents is vital to applying GR models. In this paper, we address this practical continual learning problem for GR. We put forward a novel Continual-LEarner for generatiVE Retrieval (CLEVER) model and make two major contributions to continual learning for GR: (i) To encode new documents into docids with low computational cost, we present Incremental Product Quantization, which updates a partial quantization codebook according to two adaptive thresholds; and (ii) To
+    
+[^12]: 使用OpenAI嵌入和Lucene的向量搜索：Lucene即为所需
+
+    Vector Search with OpenAI Embeddings: Lucene Is All You Need. (arXiv:2308.14963v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.14963](http://arxiv.org/abs/2308.14963)
+
+    本论文提供了一个使用Lucene进行向量搜索的可复现演示，挑战了需要专用向量存储的观点，并展示了Lucene中的HNSW索引足以提供向量搜索功能。这表明在现代"AI堆栈"中进行搜索并不需要引入专用向量存储。
+
+    
+
+    我们提供了一个可复现的、端到端的向量搜索演示，使用Lucene在流行的MS MARCO段落排名测试集上进行。我们的工作的主要目标是挑战一种普遍的观点，即利用最近在深度神经网络在搜索中的应用中取得的进展需要一个专用的向量存储。恰恰相反，我们展示了Lucene中的层次可导航小世界网络（HNSW）索引足以在标准的双编码器架构中提供向量搜索功能。这表明，从简单的成本效益分析来看，将一个专门的向量存储引入现代的“AI堆栈”中进行搜索似乎没有强有力的理由，因为这些应用已经在现有的广泛部署的基础设施中得到了大量的投资。
+
+    We provide a reproducible, end-to-end demonstration of vector search with OpenAI embeddings using Lucene on the popular MS MARCO passage ranking test collection. The main goal of our work is to challenge the prevailing narrative that a dedicated vector store is necessary to take advantage of recent advances in deep neural networks as applied to search. Quite the contrary, we show that hierarchical navigable small-world network (HNSW) indexes in Lucene are adequate to provide vector search capabilities in a standard bi-encoder architecture. This suggests that, from a simple cost-benefit analysis, there does not appear to be a compelling reason to introduce a dedicated vector store into a modern "AI stack" for search, since such applications have already received substantial investments in existing, widely deployed infrastructure.
+    
+[^13]: RecRec: 推荐系统的算法性补救措施
+
+    RecRec: Algorithmic Recourse for Recommender Systems. (arXiv:2308.14916v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.14916](http://arxiv.org/abs/2308.14916)
+
+    本文提出了一个算法性补救框架，用于帮助理解推荐系统的模型并修改推荐结果。
+
+    
+
+    推荐系统在娱乐、购物、食物、新闻、就业和教育等领域的决策中起着至关重要的作用。这些推荐系统背后的机器学习模型对于用户、内容提供者和系统开发者来说通常都是巨大且不透明的。对于所有利益相关者来说，理解模型在进行某些预测和推荐时的原理至关重要。对于那些生计依赖于推荐系统的内容提供者来说尤其如此。在本研究中，我们从从实际需求出发，提出了一个面向内容提供者的推荐系统补救框架。推荐设置中的算法性补救是一组操作，如果执行，将以期望的方式修改项目的推荐（或排序）。补救措施提供的操作形式为：“如果一个特征从X变为Y，那么该项目的排名也会相应变化。”
+
+    Recommender systems play an essential role in the choices people make in domains such as entertainment, shopping, food, news, employment, and education. The machine learning models underlying these recommender systems are often enormously large and black-box in nature for users, content providers, and system developers alike. It is often crucial for all stakeholders to understand the model's rationale behind making certain predictions and recommendations. This is especially true for the content providers whose livelihoods depend on the recommender system. Drawing motivation from the practitioners' need, in this work, we propose a recourse framework for recommender systems, targeted towards the content providers. Algorithmic recourse in the recommendation setting is a set of actions that, if executed, would modify the recommendations (or ranking) of an item in the desired manner. A recourse suggests actions of the form: "if a feature changes X to Y, then the ranking of that item for a s
+    
+[^14]: Ad-Rec: 高级特征交互来解决推荐网络中的协变量漂移问题
+
+    Ad-Rec: Advanced Feature Interactions to Address Covariate-Shifts in Recommendation Networks. (arXiv:2308.14902v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.14902](http://arxiv.org/abs/2308.14902)
+
+    Ad-Rec是一个利用高级特征交互技术解决推荐网络中协变量漂移问题的模型，通过利用掩码转换器实现高阶交叉特征的学习，提高了模型质量、加速了收敛速度并减少了训练时间。
+
+    
+
+    推荐模型通过利用多个输入特征之间的相关性，在提供个性化用户体验方面起到重要作用。然而，基于深度学习的推荐模型经常面临用户行为和物品特征不断变化导致的协变量漂移问题。在处理数据分布漂移和适应用户行为变化方面，有效的特征交互学习至关重要。传统的特征交互技术在这种情况下存在一些局限性。本文介绍了Ad-Rec，一个利用特征交互技术来解决协变量漂移问题的高级网络。这有助于消除推荐任务中的无关交互。Ad-Rec利用掩码转换器来实现高阶交叉特征的学习，同时减轻数据分布漂移的影响。我们的方法通过Area Under Curve（AUC）指标衡量，提高了模型质量，加快了收敛速度，减少了训练时间。
+
+    Recommendation models are vital in delivering personalized user experiences by leveraging the correlation between multiple input features. However, deep learning-based recommendation models often face challenges due to evolving user behaviour and item features, leading to covariate shifts. Effective cross-feature learning is crucial to handle data distribution drift and adapting to changing user behaviour. Traditional feature interaction techniques have limitations in achieving optimal performance in this context.  This work introduces Ad-Rec, an advanced network that leverages feature interaction techniques to address covariate shifts. This helps eliminate irrelevant interactions in recommendation tasks. Ad-Rec leverages masked transformers to enable the learning of higher-order cross-features while mitigating the impact of data distribution drift. Our approach improves model quality, accelerates convergence, and reduces training time, as measured by the Area Under Curve (AUC) metric.
+    
+[^15]: 在执法学中通过交互式学习扩展跨模态检索以提高图像检索性能
+
+    Extending Cross-Modal Retrieval with Interactive Learning to Improve Image Retrieval Performance in Forensics. (arXiv:2308.14786v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.14786](http://arxiv.org/abs/2308.14786)
+
+    本研究通过提出名为Excalibur的零样本跨模态图像检索系统，探索了交互式学习在提高执法学中图像检索性能方面的有效性，并通过模拟和用户研究证明了其显著的改进效果。
+
+    
+
+    如今，在执法学中面临的关键挑战之一是分析大量的非结构化数字证据，例如图像。往往，非结构化数字证据包含了执法调查中宝贵的信息。因此，一个能够有效识别与执法相关图像的检索系统至关重要。在这项工作中，我们通过提出名为Excalibur的零样本跨模态图像检索系统，探索了交互式学习在提高执法学中图像检索性能方面的有效性。Excalibur通过模拟和用户研究进行了评估。模拟结果表明，交互式学习在执法学中提高检索性能方面非常有效。此外，用户研究参与者能够有效地利用交互式学习的力量。最后，他们认为Excalibur易于使用且有效，并对将其应用于日常实践表达了兴趣。
+
+    Nowadays, one of the critical challenges in forensics is analyzing the enormous amounts of unstructured digital evidence, such as images. Often, unstructured digital evidence contains precious information for forensic investigations. Therefore, a retrieval system that can effectively identify forensically relevant images is paramount. In this work, we explored the effectiveness of interactive learning in improving image retrieval performance in the forensic domain by proposing Excalibur - a zero-shot cross-modal image retrieval system extended with interactive learning. Excalibur was evaluated using both simulations and a user study. The simulations reveal that interactive learning is highly effective in improving retrieval performance in the forensic domain. Furthermore, user study participants could effectively leverage the power of interactive learning. Finally, they considered Excalibur effective and straightforward to use and expressed interest in using it in their daily practice.
+    
+[^16]: 使用CNN-LSTM模型对波斯推特的政治情感进行分析
+
+    Political Sentiment Analysis of Persian Tweets Using CNN-LSTM Model. (arXiv:2307.07740v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.07740](http://arxiv.org/abs/2307.07740)
+
+    本论文使用CNN-LSTM模型对波斯推特的政治情感进行分析，使用ParsBERT进行词汇表示，并比较了机器学习和深度学习模型的效果。实验结果表明，深度学习模型表现更好，其中CNN-LSTM模型在两个数据集上分别达到了89%和71%的分类准确率。
+
+    
+
+    情感分析是识别和分类人们对各种话题的情感或观点的过程。近年来，对Twitter情感的分析成为一个越来越受欢迎的话题。在本文中，我们提出了几种机器学习和深度学习模型，用于分析波斯政治推特的情感。我们使用词袋模型和ParsBERT进行词汇表示的分析。我们应用了高斯朴素贝叶斯、梯度提升、逻辑回归、决策树、随机森林以及CNN和LSTM的组合来分类推特的极性。本研究的结果表明，使用ParsBERT嵌入的深度学习模型比机器学习表现更好。CNN-LSTM模型在第一个有三种类别的数据集上的分类准确率为89％，在第二个有七种类别的数据集上的分类准确率为71％。由于波斯语的复杂性，达到这一效率水平是一项困难的任务。
+
+    Sentiment analysis is the process of identifying and categorizing people's emotions or opinions regarding various topics. The analysis of Twitter sentiment has become an increasingly popular topic in recent years. In this paper, we present several machine learning and a deep learning model to analysis sentiment of Persian political tweets. Our analysis was conducted using Bag of Words and ParsBERT for word representation. We applied Gaussian Naive Bayes, Gradient Boosting, Logistic Regression, Decision Trees, Random Forests, as well as a combination of CNN and LSTM to classify the polarities of tweets. The results of this study indicate that deep learning with ParsBERT embedding performs better than machine learning. The CNN-LSTM model had the highest classification accuracy with 89 percent on the first dataset with three classes and 71 percent on the second dataset with seven classes. Due to the complexity of Persian, it was a difficult task to achieve this level of efficiency.
+    
+[^17]: Mol-Instructions: 一个大规模生物分子指令数据集，为大语言模型提供支持
+
+    Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models. (arXiv:2306.08018v1 [q-bio.QM])
+
+    [http://arxiv.org/abs/2306.08018](http://arxiv.org/abs/2306.08018)
+
+    Mol-Instructions是一个专门为生物分子领域设计的综合指令数据集，可以显著提高大语言模型在生物领域中的适应能力和认知敏锐度。
+
+    
+
+    大语言模型（LLM）以其卓越的任务处理能力和创新的输出，在许多领域推动了重大进展。然而，它们在生物分子研究等专业领域的熟练应用还受到限制。为了解决这个挑战，我们介绍了Mol-Instructions，这是一个经过精心策划、专门针对生物分子领域设计的综合指令数据集。Mol-Instructions由三个关键组成部分组成：分子导向指令、蛋白质导向指令和生物分子文本指令，每个部分都被策划用于增强LLM对生物分子特性和行为的理解和预测能力。通过对代表性LLM的广泛指令调整实验，我们强调了Mol-Instructions在增强大模型在生物分子研究复杂领域内的适应能力和认知敏锐度方面的潜力，从而促进生物分子领域的进一步发展。
+
+    Large Language Models (LLMs), with their remarkable task-handling capabilities and innovative outputs, have catalyzed significant advancements across a spectrum of fields. However, their proficiency within specialized domains such as biomolecular studies remains limited. To address this challenge, we introduce Mol-Instructions, a meticulously curated, comprehensive instruction dataset expressly designed for the biomolecular realm. Mol-Instructions is composed of three pivotal components: molecule-oriented instructions, protein-oriented instructions, and biomolecular text instructions, each curated to enhance the understanding and prediction capabilities of LLMs concerning biomolecular features and behaviors. Through extensive instruction tuning experiments on the representative LLM, we underscore the potency of Mol-Instructions to enhance the adaptability and cognitive acuity of large models within the complex sphere of biomolecular studies, thereby promoting advancements in the biomol
     
 

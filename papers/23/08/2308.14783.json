@@ -1,0 +1,11 @@
+{
+    "title": "Distributed Dual Coordinate Ascent with Imbalanced Data on a General Tree Network. (arXiv:2308.14783v1 [cs.LG])",
+    "abstract": "In this paper, we investigate the impact of imbalanced data on the convergence of distributed dual coordinate ascent in a tree network for solving an empirical loss minimization problem in distributed machine learning. To address this issue, we propose a method called delayed generalized distributed dual coordinate ascent that takes into account the information of the imbalanced data, and provide the analysis of the proposed algorithm. Numerical experiments confirm the effectiveness of our proposed method in improving the convergence speed of distributed dual coordinate ascent in a tree network.",
+    "link": "http://arxiv.org/abs/2308.14783",
+    "context": "Title: Distributed Dual Coordinate Ascent with Imbalanced Data on a General Tree Network. (arXiv:2308.14783v1 [cs.LG])\nAbstract: In this paper, we investigate the impact of imbalanced data on the convergence of distributed dual coordinate ascent in a tree network for solving an empirical loss minimization problem in distributed machine learning. To address this issue, we propose a method called delayed generalized distributed dual coordinate ascent that takes into account the information of the imbalanced data, and provide the analysis of the proposed algorithm. Numerical experiments confirm the effectiveness of our proposed method in improving the convergence speed of distributed dual coordinate ascent in a tree network.",
+    "path": "papers/23/08/2308.14783.json",
+    "total_tokens": 711,
+    "translated_title": "在一般树网络上处理不平衡数据的分布式双坐标上升方法",
+    "translated_abstract": "本论文研究了在分布式机器学习中，不平衡数据对于解决基于经验损失最小化问题的分布式双坐标上升算法在树网络中收敛性的影响。为了解决这个问题，我们提出了一种称为延迟广义分布式双坐标上升方法的方法，该方法考虑了不平衡数据的信息，并提供了所提算法的分析。数值实验证实了我们提出的方法在改善树网络中分布式双坐标上升算法的收敛速度方面的有效性。",
+    "tldr": "本论文研究了树网络中不平衡数据对分布式双坐标上升算法收敛性的影响，并提出了延迟广义分布式双坐标上升方法来解决这个问题。实验结果表明，该方法有效提高了算法的收敛速度。"
+}

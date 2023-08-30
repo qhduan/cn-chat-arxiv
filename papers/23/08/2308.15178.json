@@ -1,0 +1,12 @@
+{
+    "title": "Symbolic LTLf Best-Effort Synthesis. (arXiv:2308.15178v1 [cs.AI])",
+    "abstract": "We consider an agent acting to fulfil tasks in a nondeterministic environment. When a strategy that fulfills the task regardless of how the environment acts does not exist, the agent should at least avoid adopting strategies that prevent from fulfilling its task. Best-effort synthesis captures this intuition. In this paper, we devise and compare various symbolic approaches for best-effort synthesis in Linear Temporal Logic on finite traces (LTLf). These approaches are based on the same basic components, however they change in how these components are combined, and this has a significant impact on the performance of the approaches as confirmed by our empirical evaluations.",
+    "link": "http://arxiv.org/abs/2308.15178",
+    "context": "Title: Symbolic LTLf Best-Effort Synthesis. (arXiv:2308.15178v1 [cs.AI])\nAbstract: We consider an agent acting to fulfil tasks in a nondeterministic environment. When a strategy that fulfills the task regardless of how the environment acts does not exist, the agent should at least avoid adopting strategies that prevent from fulfilling its task. Best-effort synthesis captures this intuition. In this paper, we devise and compare various symbolic approaches for best-effort synthesis in Linear Temporal Logic on finite traces (LTLf). These approaches are based on the same basic components, however they change in how these components are combined, and this has a significant impact on the performance of the approaches as confirmed by our empirical evaluations.",
+    "path": "papers/23/08/2308.15178.json",
+    "total_tokens": 718,
+    "translated_title": "符号化的LTLf最大努力合成",
+    "translated_abstract": "我们考虑一个在不确定环境中完成任务的代理。当不存在一种无论环境如何行动都能完成任务的策略时，代理至少应该避免采用阻止完成任务的策略。最大努力合成捕捉了这种直觉。在本文中，我们设计并比较了不同的基于有限轨迹线性时态逻辑（LTLf）的最大努力合成的符号化方法。这些方法基于相同的基本组件，但它们在如何组合这些组件上有所不同，而这对方法的性能有着显著影响，这也得到了我们的经验评估所证实。",
+    "tldr": "本文提出并比较了用于有限轨迹线性时态逻辑（LTLf）的最大努力合成的不同符号化方法，这些方法在组件的组合方式上有所不同，对方法的性能有重要影响。",
+    "en_tdlr": "This paper presents and compares different symbolic approaches for best-effort synthesis in Linear Temporal Logic on finite traces (LTLf), which vary in how the components are combined and significantly affect the performance of the approaches."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Ensemble of Counterfactual Explainers. (arXiv:2308.15194v1 [cs.AI])",
+    "abstract": "In eXplainable Artificial Intelligence (XAI), several counterfactual explainers have been proposed, each focusing on some desirable properties of counterfactual instances: minimality, actionability, stability, diversity, plausibility, discriminative power. We propose an ensemble of counterfactual explainers that boosts weak explainers, which provide only a subset of such properties, to a powerful method covering all of them. The ensemble runs weak explainers on a sample of instances and of features, and it combines their results by exploiting a diversity-driven selection function. The method is model-agnostic and, through a wrapping approach based on autoencoders, it is also data-agnostic.",
+    "link": "http://arxiv.org/abs/2308.15194",
+    "context": "Title: Ensemble of Counterfactual Explainers. (arXiv:2308.15194v1 [cs.AI])\nAbstract: In eXplainable Artificial Intelligence (XAI), several counterfactual explainers have been proposed, each focusing on some desirable properties of counterfactual instances: minimality, actionability, stability, diversity, plausibility, discriminative power. We propose an ensemble of counterfactual explainers that boosts weak explainers, which provide only a subset of such properties, to a powerful method covering all of them. The ensemble runs weak explainers on a sample of instances and of features, and it combines their results by exploiting a diversity-driven selection function. The method is model-agnostic and, through a wrapping approach based on autoencoders, it is also data-agnostic.",
+    "path": "papers/23/08/2308.15194.json",
+    "total_tokens": 756,
+    "translated_title": "合奏反事实解释器",
+    "translated_abstract": "在可解释的人工智能（XAI）领域中，已经提出了几种反事实解释器，每种解释器都关注反事实实例的一些可取特性：最小化、可操作性、稳定性、多样性、合理性、辨别力。我们提出了一种合奏反事实解释器，它能够增强弱解释器的性能，这些弱解释器仅提供这些特性的一个子集，使其成为一种强大的方法涵盖所有特性。该合奏解释器在一些实例和特征的样本上运行弱解释器，并通过利用多样性驱动的选择函数来合并其结果。该方法是模型无关的，并且通过基于自动编码器的封装方法，也是数据无关的。",
+    "tldr": "该论文提出了一种合奏反事实解释器，可以提升弱解释器的性能，实现对反事实实例的最小化、可操作性、稳定性、多样性、合理性和辨别力的全覆盖。"
+}

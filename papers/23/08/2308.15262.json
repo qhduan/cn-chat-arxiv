@@ -1,0 +1,11 @@
+{
+    "title": "Enhancing OCR Performance through Post-OCR Models: Adopting Glyph Embedding for Improved Correction. (arXiv:2308.15262v1 [cs.CV])",
+    "abstract": "The study investigates the potential of post-OCR models to overcome limitations in OCR models and explores the impact of incorporating glyph embedding on post-OCR correction performance. In this study, we have developed our own post-OCR correction model. The novelty of our approach lies in embedding the OCR output using CharBERT and our unique embedding technique, capturing the visual characteristics of characters. Our findings show that post-OCR correction effectively addresses deficiencies in inferior OCR models, and glyph embedding enables the model to achieve superior results, including the ability to correct individual words.",
+    "link": "http://arxiv.org/abs/2308.15262",
+    "context": "Title: Enhancing OCR Performance through Post-OCR Models: Adopting Glyph Embedding for Improved Correction. (arXiv:2308.15262v1 [cs.CV])\nAbstract: The study investigates the potential of post-OCR models to overcome limitations in OCR models and explores the impact of incorporating glyph embedding on post-OCR correction performance. In this study, we have developed our own post-OCR correction model. The novelty of our approach lies in embedding the OCR output using CharBERT and our unique embedding technique, capturing the visual characteristics of characters. Our findings show that post-OCR correction effectively addresses deficiencies in inferior OCR models, and glyph embedding enables the model to achieve superior results, including the ability to correct individual words.",
+    "path": "papers/23/08/2308.15262.json",
+    "total_tokens": 741,
+    "translated_title": "通过后处理OCR模型提高OCR性能：采用字形嵌入来改进校正",
+    "translated_abstract": "本研究探讨了后处理OCR模型克服OCR模型限制的潜力，并研究了将字形嵌入结合到后处理OCR校正中的影响。在本研究中，我们开发了自己的后处理OCR校正模型。我们方法的创新之处在于使用CharBERT和我们独特的嵌入技术来嵌入OCR输出，并捕捉字符的视觉特征。我们的研究结果表明，后处理OCR校正能有效解决劣质OCR模型的缺陷，而字形嵌入使模型能够取得卓越的结果，包括纠正个别单词。",
+    "tldr": "本研究通过后处理OCR模型，采用字形嵌入的方法来改进OCR性能。研究结果表明后处理能够有效解决劣质OCR模型的问题，并且字形嵌入可以提高校正结果，包括纠正个别单词。"
+}

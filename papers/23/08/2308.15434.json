@@ -1,0 +1,11 @@
+{
+    "title": "Random feature approximation for general spectral methods. (arXiv:2308.15434v1 [cs.LG])",
+    "abstract": "Random feature approximation is arguably one of the most popular techniques to speed up kernel methods in large scale algorithms and provides a theoretical approach to the analysis of deep neural networks. We analyze generalization properties for a large class of spectral regularization methods combined with random features, containing kernel methods with implicit regularization such as gradient descent or explicit methods like Tikhonov regularization. For our estimators we obtain optimal learning rates over regularity classes (even for classes that are not included in the reproducing kernel Hilbert space), which are defined through appropriate source conditions. This improves or completes previous results obtained in related settings for specific kernel algorithms.",
+    "link": "http://arxiv.org/abs/2308.15434",
+    "context": "Title: Random feature approximation for general spectral methods. (arXiv:2308.15434v1 [cs.LG])\nAbstract: Random feature approximation is arguably one of the most popular techniques to speed up kernel methods in large scale algorithms and provides a theoretical approach to the analysis of deep neural networks. We analyze generalization properties for a large class of spectral regularization methods combined with random features, containing kernel methods with implicit regularization such as gradient descent or explicit methods like Tikhonov regularization. For our estimators we obtain optimal learning rates over regularity classes (even for classes that are not included in the reproducing kernel Hilbert space), which are defined through appropriate source conditions. This improves or completes previous results obtained in related settings for specific kernel algorithms.",
+    "path": "papers/23/08/2308.15434.json",
+    "total_tokens": 718,
+    "translated_title": "针对一般谱方法的随机特征逼近",
+    "translated_abstract": "随机特征逼近被认为是在大规模算法中加速核方法的最流行技术之一，并且为深度神经网络的分析提供了一种理论方法。我们分析了与随机特征相结合的一大类谱正则化方法的泛化性质，其中包括使用隐式正则化（如梯度下降）或显式方法（如Tikhonov正则化）的核方法。对于我们的估计器，我们在适当的源条件下定义了正则性类别，从而获得了最佳的学习速率。这改进或完善了以前在特定核算法相关设置中获得的结果。",
+    "tldr": "本论文研究了随机特征逼近在一般谱方法中的应用，分析了与随机特征相结合的谱正则化方法的泛化性质，并获得了在不同正则性类别中的最佳学习速率。"
+}

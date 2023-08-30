@@ -1,0 +1,11 @@
+{
+    "title": "Sequential annotations for naturally-occurring HRI: first insights. (arXiv:2308.15097v1 [cs.AI])",
+    "abstract": "We explain the methodology we developed for improving the interactions accomplished by an embedded conversational agent, drawing from Conversation Analytic sequential and multimodal analysis. The use case is a Pepper robot that is expected to inform and orient users in a library. In order to propose and learn better interactive schema, we are creating a corpus of naturally-occurring interactions that will be made available to the community. To do so, we propose an annotation practice based on some theoretical underpinnings about the use of language and multimodal resources in human-robot interaction. CCS CONCEPTS $\\bullet$ Computing methodologies $\\rightarrow$ Discourse, dialogue and pragmatics; $\\bullet$ Human-centered computing $\\rightarrow$ Text input; HCI theory, concepts and models; Field studies.",
+    "link": "http://arxiv.org/abs/2308.15097",
+    "context": "Title: Sequential annotations for naturally-occurring HRI: first insights. (arXiv:2308.15097v1 [cs.AI])\nAbstract: We explain the methodology we developed for improving the interactions accomplished by an embedded conversational agent, drawing from Conversation Analytic sequential and multimodal analysis. The use case is a Pepper robot that is expected to inform and orient users in a library. In order to propose and learn better interactive schema, we are creating a corpus of naturally-occurring interactions that will be made available to the community. To do so, we propose an annotation practice based on some theoretical underpinnings about the use of language and multimodal resources in human-robot interaction. CCS CONCEPTS $\\bullet$ Computing methodologies $\\rightarrow$ Discourse, dialogue and pragmatics; $\\bullet$ Human-centered computing $\\rightarrow$ Text input; HCI theory, concepts and models; Field studies.",
+    "path": "papers/23/08/2308.15097.json",
+    "total_tokens": 690,
+    "translated_title": "自然发生的人机交互的顺序注释:初步见解",
+    "translated_abstract": "我们解释了我们开发的方法论，通过对话分析的顺序和多模态分析来改善嵌入式交互式智能体的交互。使用案例是一个Pepper机器人，预期在图书馆中向用户提供信息和导航。为了提出和学习更好的交互模式，我们正在创建一个自然发生的交互语料库，并将其提供给社区。为此，我们提出了基于有关语言和多模态资源在人机交互中使用的一些理论基础的注释实践。",
+    "tldr": "这篇论文介绍了一种用于改善嵌入式对话智能体交互的方法论，并提出了一种基于语言和多模态资源使用理论基础的注释实践。"
+}

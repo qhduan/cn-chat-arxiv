@@ -1,0 +1,12 @@
+{
+    "title": "Proceedings 39th International Conference on Logic Programming. (arXiv:2308.14898v1 [cs.AI])",
+    "abstract": "This volume contains the Technical Communications presented at the 39th International Conference on Logic Programming (ICLP 2023), held at Imperial College London, UK from July 9 to July 15, 2023. Technical Communications included here concern the Main Track, the Doctoral Consortium, the Application and Systems/Demo track, the Recently Published Research Track, the Birds-of-a-Feather track, the Thematic Tracks on Logic Programming and Machine Learning, and Logic Programming and Explainability, Ethics, and Trustworthiness.",
+    "link": "http://arxiv.org/abs/2308.14898",
+    "context": "Title: Proceedings 39th International Conference on Logic Programming. (arXiv:2308.14898v1 [cs.AI])\nAbstract: This volume contains the Technical Communications presented at the 39th International Conference on Logic Programming (ICLP 2023), held at Imperial College London, UK from July 9 to July 15, 2023. Technical Communications included here concern the Main Track, the Doctoral Consortium, the Application and Systems/Demo track, the Recently Published Research Track, the Birds-of-a-Feather track, the Thematic Tracks on Logic Programming and Machine Learning, and Logic Programming and Explainability, Ethics, and Trustworthiness.",
+    "path": "papers/23/08/2308.14898.json",
+    "total_tokens": 678,
+    "translated_title": "第39届国际逻辑编程会议论文集",
+    "translated_abstract": "本卷包含了在2023年7月9日至15日在英国伦敦帝国理工学院举行的第39届国际逻辑编程会议（ICLP 2023）上发表的技术交流报告。这些技术交流报告涉及主题讲座、博士生论坛、应用与系统/演示专题、最新研究进展专题、兴趣小组交流、逻辑编程与机器学习专题以及逻辑编程与可解释性、伦理和可信度专题。",
+    "tldr": "第39届国际逻辑编程会议论文集包含了在伦敦帝国理工学院举行的技术交流报告，涉及多个专题，包括逻辑编程和机器学习、逻辑编程和可解释性、伦理和可信度等。",
+    "en_tdlr": "The Proceedings of the 39th International Conference on Logic Programming include technical communications presented at Imperial College London, covering various topics such as logic programming and machine learning, logic programming and explainability, ethics, and trustworthiness."
+}

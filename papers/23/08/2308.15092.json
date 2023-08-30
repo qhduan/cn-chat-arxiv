@@ -1,0 +1,12 @@
+{
+    "title": "Can We Rely on AI?. (arXiv:2308.15092v1 [math.NA])",
+    "abstract": "Over the last decade, adversarial attack algorithms have revealed instabilities in deep learning tools. These algorithms raise issues regarding safety, reliability and interpretability in artificial intelligence; especially in high risk settings. From a practical perspective, there has been a war of escalation between those developing attack and defence strategies. At a more theoretical level, researchers have also studied bigger picture questions concerning the existence and computability of attacks. Here we give a brief overview of the topic, focusing on aspects that are likely to be of interest to researchers in applied and computational mathematics.",
+    "link": "http://arxiv.org/abs/2308.15092",
+    "context": "Title: Can We Rely on AI?. (arXiv:2308.15092v1 [math.NA])\nAbstract: Over the last decade, adversarial attack algorithms have revealed instabilities in deep learning tools. These algorithms raise issues regarding safety, reliability and interpretability in artificial intelligence; especially in high risk settings. From a practical perspective, there has been a war of escalation between those developing attack and defence strategies. At a more theoretical level, researchers have also studied bigger picture questions concerning the existence and computability of attacks. Here we give a brief overview of the topic, focusing on aspects that are likely to be of interest to researchers in applied and computational mathematics.",
+    "path": "papers/23/08/2308.15092.json",
+    "total_tokens": 766,
+    "translated_title": "我们能依赖人工智能吗？",
+    "translated_abstract": "在过去的十年里，对抗性攻击算法揭示了深度学习工具的不稳定性。这些算法引发了人工智能在安全性、可靠性和可解释性方面的问题，特别是在高风险环境中。从实际角度来看，攻击和防御策略的发展之间存在着一种升级的战争。在更加理论的层面上，研究人员也研究了攻击的存在性和可计算性等更大的问题。在这里，我们简要概述了这个主题，并重点关注对应用和计算数学领域的研究人员可能感兴趣的方面。",
+    "tldr": "近年来，对抗性攻击算法揭示了人工智能工具的不稳定性，在高风险环境中引发了安全、可靠性和可解释性方面的问题。这篇论文提供了一个对该主题的概述，关注对应用和计算数学领域的研究人员可能感兴趣的方面。",
+    "en_tdlr": "Adversarial attack algorithms have revealed the instability of deep learning tools and raised issues of safety, reliability, and interpretability in artificial intelligence, especially in high-risk settings. This paper provides a brief overview of this topic, focusing on aspects that are likely to be of interest to researchers in applied and computational mathematics."
+}

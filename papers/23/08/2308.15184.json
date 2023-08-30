@@ -1,0 +1,12 @@
+{
+    "title": "LTLf Synthesis Under Environment Specifications for Reachability and Safety Properties. (arXiv:2308.15184v1 [cs.LO])",
+    "abstract": "In this paper, we study LTLf synthesis under environment specifications for arbitrary reachability and safety properties. We consider both kinds of properties for both agent tasks and environment specifications, providing a complete landscape of synthesis algorithms. For each case, we devise a specific algorithm (optimal wrt complexity of the problem) and prove its correctness. The algorithms combine common building blocks in different ways. While some cases are already studied in literature others are studied here for the first time.",
+    "link": "http://arxiv.org/abs/2308.15184",
+    "context": "Title: LTLf Synthesis Under Environment Specifications for Reachability and Safety Properties. (arXiv:2308.15184v1 [cs.LO])\nAbstract: In this paper, we study LTLf synthesis under environment specifications for arbitrary reachability and safety properties. We consider both kinds of properties for both agent tasks and environment specifications, providing a complete landscape of synthesis algorithms. For each case, we devise a specific algorithm (optimal wrt complexity of the problem) and prove its correctness. The algorithms combine common building blocks in different ways. While some cases are already studied in literature others are studied here for the first time.",
+    "path": "papers/23/08/2308.15184.json",
+    "total_tokens": 641,
+    "translated_title": "LTLf综合在环境规范下的可达性和安全性属性",
+    "translated_abstract": "在本文中，我们研究了LTLf综合在可达性和安全性属性的环境规范下的问题。我们考虑了代理任务和环境规范的两种属性类型，并提供了完整的综合算法。针对每种情况，我们设计了一个特定的算法（问题复杂度最优）并证明了其正确性。这些算法以不同的方式组合了常见的构件。虽然有些情况已经在文献中研究过，但其他情况在本文中首次研究。",
+    "tldr": "本文研究了LTLf综合在可达性和安全性属性的环境规范下的问题，并提供了完整的综合算法，其中一些情况是首次研究的。",
+    "en_tdlr": "This paper investigates LTLf synthesis under environment specifications for reachability and safety properties, and provides complete synthesis algorithms, some of which are studied for the first time."
+}

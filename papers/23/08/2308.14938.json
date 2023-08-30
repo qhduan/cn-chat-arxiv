@@ -1,0 +1,11 @@
+{
+    "title": "Entropy-based Guidance of Deep Neural Networks for Accelerated Convergence and Improved Performance. (arXiv:2308.14938v1 [cs.CV])",
+    "abstract": "Neural networks have dramatically increased our capacity to learn from large, high-dimensional datasets across innumerable disciplines. However, their decisions are not easily interpretable, their computational costs are high, and building and training them are uncertain processes. To add structure to these efforts, we derive new mathematical results to efficiently measure the changes in entropy as fully-connected and convolutional neural networks process data, and introduce entropy-based loss terms. Experiments in image compression and image classification on benchmark datasets demonstrate these losses guide neural networks to learn rich latent data representations in fewer dimensions, converge in fewer training epochs, and achieve better test metrics.",
+    "link": "http://arxiv.org/abs/2308.14938",
+    "context": "Title: Entropy-based Guidance of Deep Neural Networks for Accelerated Convergence and Improved Performance. (arXiv:2308.14938v1 [cs.CV])\nAbstract: Neural networks have dramatically increased our capacity to learn from large, high-dimensional datasets across innumerable disciplines. However, their decisions are not easily interpretable, their computational costs are high, and building and training them are uncertain processes. To add structure to these efforts, we derive new mathematical results to efficiently measure the changes in entropy as fully-connected and convolutional neural networks process data, and introduce entropy-based loss terms. Experiments in image compression and image classification on benchmark datasets demonstrate these losses guide neural networks to learn rich latent data representations in fewer dimensions, converge in fewer training epochs, and achieve better test metrics.",
+    "path": "papers/23/08/2308.14938.json",
+    "total_tokens": 748,
+    "translated_title": "基于熵的指导深度神经网络加速收敛和改善性能",
+    "translated_abstract": "神经网络极大地增加了我们从大规模、高维度数据集中学习的能力，跨越无数学科。然而，它们的决策不易解释，计算成本高，建立和训练它们是不确定的过程。为了给这些努力增加结构，我们推导出了新的数学结果，以高效地测量全连接和卷积神经网络处理数据时的熵变化，并引入了基于熵的损失项。在基准数据集上进行的图像压缩和图像分类实验表明，这些损失项指导神经网络以更少的维度学习丰富的潜在数据表示，收敛于更少的训练轮次，并取得更好的测试指标。",
+    "tldr": "本研究通过引入基于熵的损失项，通过测量神经网络处理数据时的熵变化，指导神经网络以更快速的收敛、更好的性能学习丰富的潜在数据表示。"
+}

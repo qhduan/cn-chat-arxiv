@@ -1,0 +1,11 @@
+{
+    "title": "KGConv, a Conversational Corpus grounded in Wikidata. (arXiv:2308.15298v1 [cs.CL])",
+    "abstract": "We present KGConv, a large, conversational corpus of 71k conversations where each question-answer pair is grounded in a Wikidata fact. Conversations contain on average 8.6 questions and for each Wikidata fact, we provide multiple variants (12 on average) of the corresponding question using templates, human annotations, hand-crafted rules and a question rewriting neural model. We provide baselines for the task of Knowledge-Based, Conversational Question Generation. KGConv can further be used for other generation and analysis tasks such as single-turn question generation from Wikidata triples, question rewriting, question answering from conversation or from knowledge graphs and quiz generation.",
+    "link": "http://arxiv.org/abs/2308.15298",
+    "context": "Title: KGConv, a Conversational Corpus grounded in Wikidata. (arXiv:2308.15298v1 [cs.CL])\nAbstract: We present KGConv, a large, conversational corpus of 71k conversations where each question-answer pair is grounded in a Wikidata fact. Conversations contain on average 8.6 questions and for each Wikidata fact, we provide multiple variants (12 on average) of the corresponding question using templates, human annotations, hand-crafted rules and a question rewriting neural model. We provide baselines for the task of Knowledge-Based, Conversational Question Generation. KGConv can further be used for other generation and analysis tasks such as single-turn question generation from Wikidata triples, question rewriting, question answering from conversation or from knowledge graphs and quiz generation.",
+    "path": "papers/23/08/2308.15298.json",
+    "total_tokens": 673,
+    "translated_title": "KGConv，基于Wikidata的对话语料库",
+    "translated_abstract": "我们提出了KGConv，一个包含71k个对话的大型对话语料库，每个问题-回答对都基于Wikidata中的一个事实。每个对话平均含有8.6个问题，并为每个Wikidata事实提供多个变体(平均12个)，这些变体使用模板、人工注释、手工规则和问题重写神经模型生成。我们为基于知识的对话问题生成任务提供了基线。KGConv还可用于其他生成和分析任务，例如从Wikidata三元组生成单轮问题、问题重写、从对话或知识图中回答问题以及生成测验题。",
+    "tldr": "KGConv是一个基于Wikidata的大型对话语料库，每个对话都基于一个事实，并提供了多个变体的问题。它可以用于知识对话问题生成和其他相关任务。"
+}

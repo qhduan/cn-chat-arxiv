@@ -1,0 +1,11 @@
+{
+    "title": "DR-HAI: Argumentation-based Dialectical Reconciliation in Human-AI Interactions. (arXiv:2306.14694v2 [cs.AI] UPDATED)",
+    "abstract": "We present DR-HAI -- a novel argumentation-based framework designed to extend model reconciliation approaches, commonly used in human-aware planning, for enhanced human-AI interaction. By adopting an argumentation-based dialogue paradigm, DR-HAI enables interactive reconciliation to address knowledge discrepancies between an explainer and an explainee. We formally describe the operational semantics of DR-HAI, provide theoretical guarantees, and empirically evaluate its efficacy. Our findings suggest that DR-HAI offers a promising direction for fostering effective human-AI interactions.",
+    "link": "http://arxiv.org/abs/2306.14694",
+    "context": "Title: DR-HAI: Argumentation-based Dialectical Reconciliation in Human-AI Interactions. (arXiv:2306.14694v2 [cs.AI] UPDATED)\nAbstract: We present DR-HAI -- a novel argumentation-based framework designed to extend model reconciliation approaches, commonly used in human-aware planning, for enhanced human-AI interaction. By adopting an argumentation-based dialogue paradigm, DR-HAI enables interactive reconciliation to address knowledge discrepancies between an explainer and an explainee. We formally describe the operational semantics of DR-HAI, provide theoretical guarantees, and empirically evaluate its efficacy. Our findings suggest that DR-HAI offers a promising direction for fostering effective human-AI interactions.",
+    "path": "papers/23/06/2306.14694.json",
+    "total_tokens": 711,
+    "translated_title": "DR-HAI: 人工智能与人类交互中基于论证的辩证调和",
+    "translated_abstract": "我们提出了DR-HAI，这是一个新颖的基于论证的框架，旨在扩展人类感知规划中常用的模型调和方法，以增强人工智能与人类的交互。通过采用基于论证的对话范式，DR-HAI能够进行互动调和，解决解释者和被解释者之间的知识差异。我们对DR-HAI的操作语义进行了形式化描述，提供了理论保证，并对其效果进行了经验评估。我们的研究结果表明，DR-HAI为促进有效的人工智能与人类交互提供了一个具有潜力的方向。",
+    "tldr": "DR-HAI是一个新颖的基于论证的框架，旨在通过互动调和解决人工智能与人类之间的知识差异，为促进有效的人工智能与人类交互提供了一个有希望的方向。"
+}

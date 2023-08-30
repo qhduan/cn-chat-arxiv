@@ -1,0 +1,11 @@
+{
+    "title": "LLM-Based Human-Robot Collaboration Framework for Manipulation Tasks. (arXiv:2308.14972v1 [cs.RO])",
+    "abstract": "This paper presents a novel approach to enhance autonomous robotic manipulation using the Large Language Model (LLM) for logical inference, converting high-level language commands into sequences of executable motion functions. The proposed system combines the advantage of LLM with YOLO-based environmental perception to enable robots to autonomously make reasonable decisions and task planning based on the given commands. Additionally, to address the potential inaccuracies or illogical actions arising from LLM, a combination of teleoperation and Dynamic Movement Primitives (DMP) is employed for action correction. This integration aims to improve the practicality and generalizability of the LLM-based human-robot collaboration system.",
+    "link": "http://arxiv.org/abs/2308.14972",
+    "context": "Title: LLM-Based Human-Robot Collaboration Framework for Manipulation Tasks. (arXiv:2308.14972v1 [cs.RO])\nAbstract: This paper presents a novel approach to enhance autonomous robotic manipulation using the Large Language Model (LLM) for logical inference, converting high-level language commands into sequences of executable motion functions. The proposed system combines the advantage of LLM with YOLO-based environmental perception to enable robots to autonomously make reasonable decisions and task planning based on the given commands. Additionally, to address the potential inaccuracies or illogical actions arising from LLM, a combination of teleoperation and Dynamic Movement Primitives (DMP) is employed for action correction. This integration aims to improve the practicality and generalizability of the LLM-based human-robot collaboration system.",
+    "path": "papers/23/08/2308.14972.json",
+    "total_tokens": 781,
+    "translated_title": "基于LLM的人机合作操作框架用于操纵任务",
+    "translated_abstract": "本文提出了一种新的方法来增强自主机器人的操纵能力，利用大型语言模型（LLM）进行逻辑推理，将高级语言命令转化为可执行的运动函数序列。所提出的系统将LLM的优势与基于YOLO的环境感知相结合，使机器人能够根据给定的命令自主进行合理的决策和任务规划。此外，为了解决LLM可能出现的不准确性或不合逻辑的行为，采用了远程操作和动态运动原理（DMP）相结合的方法进行动作矫正。这种集成旨在提高基于LLM的人机合作系统的实用性和普适性。",
+    "tldr": "本文介绍了一种基于LLM的人机合作操作框架，利用逻辑推理和环境感知，将高级语言命令转化为可执行的运动函数。采用远程操作和动态运动原理进行动作矫正，以提高系统的实用性和普适性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Mixed-Effects Methods for Search and Matching Research. (arXiv:2308.15445v1 [econ.EM])",
+    "abstract": "We study mixed-effects methods for estimating equations containing person and firm effects. In economics such models are usually estimated using fixed-effects methods. Recent enhancements to those fixed-effects methods include corrections to the bias in estimating the covariance matrix of the person and firm effects, which we also consider.",
+    "link": "http://arxiv.org/abs/2308.15445",
+    "context": "Title: Mixed-Effects Methods for Search and Matching Research. (arXiv:2308.15445v1 [econ.EM])\nAbstract: We study mixed-effects methods for estimating equations containing person and firm effects. In economics such models are usually estimated using fixed-effects methods. Recent enhancements to those fixed-effects methods include corrections to the bias in estimating the covariance matrix of the person and firm effects, which we also consider.",
+    "path": "papers/23/08/2308.15445.json",
+    "total_tokens": 573,
+    "translated_title": "搜索和匹配研究中的混合效应方法",
+    "translated_abstract": "我们研究了用于估计包含人员和公司效应的方程的混合效应方法。在经济学中，这种模型通常使用固定效应方法来估计。最近对这些固定效应方法的改进包括对估计人员和公司效应的协方差矩阵中偏差的修正，我们也进行了考虑。",
+    "tldr": "该论文研究了用于估计搜索和匹配研究中包含人员和公司效应的方程的混合效应方法，并对固定效应方法进行了改进，包括对协方差矩阵估计中偏差的修正。",
+    "en_tdlr": "This paper studies mixed-effects methods for estimating equations with person and firm effects in search and matching research, and considers enhancements to fixed-effects methods, including corrections to bias in estimating the covariance matrix of person and firm effects."
+}

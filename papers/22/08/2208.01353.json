@@ -1,0 +1,11 @@
+{
+    "title": "On the implied volatility of Asian options under stochastic volatility models. (arXiv:2208.01353v3 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper we study the short-time behavior of the at-the-money implied volatility for arithmetic Asian options with fixed strike price. The asset price is assumed to follow the Black-Scholes model with a general stochastic volatility process. Using techniques of the Malliavin calculus such as the anticipating Ito's formula we first compute the level of the implied volatility of the option when the maturity converges to zero. Then, we find and short maturity asymptotic formula for the skew of the implied volatility that depends on the roughness of the volatility model. We apply our general results to the SABR model and the rough Bergomi model, and provide some numerical simulations that confirm the accurateness of the asymptotic formula for the skew.",
+    "link": "http://arxiv.org/abs/2208.01353",
+    "context": "Title: On the implied volatility of Asian options under stochastic volatility models. (arXiv:2208.01353v3 [q-fin.MF] UPDATED)\nAbstract: In this paper we study the short-time behavior of the at-the-money implied volatility for arithmetic Asian options with fixed strike price. The asset price is assumed to follow the Black-Scholes model with a general stochastic volatility process. Using techniques of the Malliavin calculus such as the anticipating Ito's formula we first compute the level of the implied volatility of the option when the maturity converges to zero. Then, we find and short maturity asymptotic formula for the skew of the implied volatility that depends on the roughness of the volatility model. We apply our general results to the SABR model and the rough Bergomi model, and provide some numerical simulations that confirm the accurateness of the asymptotic formula for the skew.",
+    "path": "papers/22/08/2208.01353.json",
+    "total_tokens": 818,
+    "translated_title": "关于随机波动率模型下亚洲期权隐含波动率的研究",
+    "translated_abstract": "在本文中，我们研究了固定行权价算术亚洲期权的平值隐含波动率的短期行为。资产价格假设遵循具有一般随机波动率过程的Black-Scholes模型。使用Malliavin微积分的技术，例如预期的Ito公式，我们首先计算了期权在到期日无限接近零时的隐含波动率水平。然后，我们找到了关于隐含波动率偏斜的短期渐近公式，该公式取决于波动率模型的粗糙程度。我们将我们的一般结果应用于SABR模型和粗糙Bergomi模型，并提供了一些数值模拟，以验证该偏斜渐近公式的准确性。",
+    "tldr": "本文研究了随机波动率模型下固定行权价算术亚洲期权的平值隐含波动率的短期行为，并得出了短期渐近公式，该公式取决于波动率模型的粗糙程度。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Variational Inference for GARCH Models. (arXiv:2308.14952v1 [stat.CO])",
+    "abstract": "Stochastic variational inference algorithms are derived for fitting various heteroskedastic time series models. We examine Gaussian, t, and skew-t response GARCH models and fit these using Gaussian variational approximating densities. We implement efficient stochastic gradient ascent procedures based on the use of control variates or the reparameterization trick and demonstrate that the proposed implementations provide a fast and accurate alternative to Markov chain Monte Carlo sampling. Additionally, we present sequential updating versions of our variational algorithms, which are suitable for efficient portfolio construction and dynamic asset allocation.",
+    "link": "http://arxiv.org/abs/2308.14952",
+    "context": "Title: Stochastic Variational Inference for GARCH Models. (arXiv:2308.14952v1 [stat.CO])\nAbstract: Stochastic variational inference algorithms are derived for fitting various heteroskedastic time series models. We examine Gaussian, t, and skew-t response GARCH models and fit these using Gaussian variational approximating densities. We implement efficient stochastic gradient ascent procedures based on the use of control variates or the reparameterization trick and demonstrate that the proposed implementations provide a fast and accurate alternative to Markov chain Monte Carlo sampling. Additionally, we present sequential updating versions of our variational algorithms, which are suitable for efficient portfolio construction and dynamic asset allocation.",
+    "path": "papers/23/08/2308.14952.json",
+    "total_tokens": 656,
+    "translated_title": "GARCH模型的随机变分推断",
+    "translated_abstract": "我们推导了适用于不同异方差时间序列模型的随机变分推断算法。我们研究了高斯、t和偏t响应的GARCH模型，并使用高斯变分近似密度进行拟合。我们实现了基于控制变量或重新参数化技巧的高效随机梯度上升程序，并证明了所提出的实现方法是马尔可夫链蒙特卡洛采样的快速准确替代方法。此外，我们提出了顺序更新的变分算法版本，适用于高效的投资组合构建和动态资产配置。",
+    "tldr": "本论文提出了一种用于拟合异方差时间序列模型的随机变分推断算法，提供了快速准确的替代方法，并且适用于动态资产配置。",
+    "en_tdlr": "This paper proposes a stochastic variational inference algorithm for fitting heteroskedastic time series models, providing a fast and accurate alternative for dynamic asset allocation."
+}

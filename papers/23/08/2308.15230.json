@@ -1,0 +1,11 @@
+{
+    "title": "Providing Previously Unseen Users Fair Recommendations Using Variational Autoencoders. (arXiv:2308.15230v1 [cs.IR])",
+    "abstract": "An emerging definition of fairness in machine learning requires that models are oblivious to demographic user information, e.g., a user's gender or age should not influence the model. Personalized recommender systems are particularly prone to violating this definition through their explicit user focus and user modelling. Explicit user modelling is also an aspect that makes many recommender systems incapable of providing hitherto unseen users with recommendations. We propose novel approaches for mitigating discrimination in Variational Autoencoder-based recommender systems by limiting the encoding of demographic information. The approaches are capable of, and evaluated on, providing users that are not represented in the training data with fair recommendations.",
+    "link": "http://arxiv.org/abs/2308.15230",
+    "context": "Title: Providing Previously Unseen Users Fair Recommendations Using Variational Autoencoders. (arXiv:2308.15230v1 [cs.IR])\nAbstract: An emerging definition of fairness in machine learning requires that models are oblivious to demographic user information, e.g., a user's gender or age should not influence the model. Personalized recommender systems are particularly prone to violating this definition through their explicit user focus and user modelling. Explicit user modelling is also an aspect that makes many recommender systems incapable of providing hitherto unseen users with recommendations. We propose novel approaches for mitigating discrimination in Variational Autoencoder-based recommender systems by limiting the encoding of demographic information. The approaches are capable of, and evaluated on, providing users that are not represented in the training data with fair recommendations.",
+    "path": "papers/23/08/2308.15230.json",
+    "total_tokens": 662,
+    "translated_title": "使用变分自动编码器为以前未出现的用户提供公平推荐",
+    "translated_abstract": "机器学习中关于公平性的新定义要求模型对用户的人口统计信息不可见，例如，用户的性别或年龄不应影响模型。个性化推荐系统特别容易通过其显式的用户关注和用户建模来违反这个定义。显式的用户建模也是许多推荐系统无法为以前未出现的用户提供推荐的原因。我们提出了一种限制人口统计信息编码的新方法来减少基于变分自动编码器的推荐系统中的歧视。这些方法能够在评估中为未在训练数据中出现的用户提供公平推荐。",
+    "tldr": "本论文提出了一种使用变分自动编码器的新方法，通过限制人口统计信息的编码来减少推荐系统中的歧视，从而为以前未出现的用户提供公平推荐。"
+}

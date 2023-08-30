@@ -1,0 +1,12 @@
+{
+    "title": "NAS-X: Neural Adaptive Smoothing via Twisting. (arXiv:2308.14864v1 [cs.LG])",
+    "abstract": "We present Neural Adaptive Smoothing via Twisting (NAS-X), a method for learning and inference in sequential latent variable models based on reweighted wake-sleep (RWS). NAS-X works with both discrete and continuous latent variables, and leverages smoothing SMC to fit a broader range of models than traditional RWS methods. We test NAS-X on discrete and continuous tasks and find that it substantially outperforms previous variational and RWS-based methods in inference and parameter recovery.",
+    "link": "http://arxiv.org/abs/2308.14864",
+    "context": "Title: NAS-X: Neural Adaptive Smoothing via Twisting. (arXiv:2308.14864v1 [cs.LG])\nAbstract: We present Neural Adaptive Smoothing via Twisting (NAS-X), a method for learning and inference in sequential latent variable models based on reweighted wake-sleep (RWS). NAS-X works with both discrete and continuous latent variables, and leverages smoothing SMC to fit a broader range of models than traditional RWS methods. We test NAS-X on discrete and continuous tasks and find that it substantially outperforms previous variational and RWS-based methods in inference and parameter recovery.",
+    "path": "papers/23/08/2308.14864.json",
+    "total_tokens": 699,
+    "translated_title": "NAS-X: 基于扭曲的神经自适应平滑方法",
+    "translated_abstract": "本文提出了一种名为NAS-X的神经自适应平滑方法，该方法基于重新加权的唤醒-睡眠算法进行顺序潜变量模型的学习和推断。NAS-X适用于离散和连续潜变量，并利用平滑SMC方法来拟合比传统的重新加权唤醒-睡眠方法更广泛的模型。我们在离散和连续任务上测试了NAS-X，并发现在推断和参数恢复方面，它明显优于先前的变分和基于重新加权唤醒-睡眠方法。",
+    "tldr": "NAS-X是一种基于扭曲的神经自适应平滑方法，通过重新加权的唤醒-睡眠算法来学习和推断顺序潜变量模型，并在离散和连续任务中取得了优于先前方法的推断和参数恢复效果。",
+    "en_tdlr": "NAS-X is a neural adaptive smoothing method based on twisting, which utilizes reweighted wake-sleep algorithm for learning and inference in sequential latent variable models. It outperforms previous methods in inference and parameter recovery on both discrete and continuous tasks."
+}

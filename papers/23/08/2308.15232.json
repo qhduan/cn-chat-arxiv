@@ -1,0 +1,11 @@
+{
+    "title": "Classification-Aware Neural Topic Model Combined With Interpretable Analysis -- For Conflict Classification. (arXiv:2308.15232v1 [cs.LG])",
+    "abstract": "A large number of conflict events are affecting the world all the time. In order to analyse such conflict events effectively, this paper presents a Classification-Aware Neural Topic Model (CANTM-IA) for Conflict Information Classification and Topic Discovery. The model provides a reliable interpretation of classification results and discovered topics by introducing interpretability analysis. At the same time, interpretation is introduced into the model architecture to improve the classification performance of the model and to allow interpretation to focus further on the details of the data. Finally, the model architecture is optimised to reduce the complexity of the model.",
+    "link": "http://arxiv.org/abs/2308.15232",
+    "context": "Title: Classification-Aware Neural Topic Model Combined With Interpretable Analysis -- For Conflict Classification. (arXiv:2308.15232v1 [cs.LG])\nAbstract: A large number of conflict events are affecting the world all the time. In order to analyse such conflict events effectively, this paper presents a Classification-Aware Neural Topic Model (CANTM-IA) for Conflict Information Classification and Topic Discovery. The model provides a reliable interpretation of classification results and discovered topics by introducing interpretability analysis. At the same time, interpretation is introduced into the model architecture to improve the classification performance of the model and to allow interpretation to focus further on the details of the data. Finally, the model architecture is optimised to reduce the complexity of the model.",
+    "path": "papers/23/08/2308.15232.json",
+    "total_tokens": 655,
+    "translated_title": "结合可解释性分析的分类感知神经主题模型——用于冲突分类",
+    "translated_abstract": "世界上有大量的冲突事件一直在影响着我们。为了有效分析这些冲突事件，本文提出了一种用于冲突信息分类和主题发现的分类感知神经主题模型（CANTM-IA）。该模型通过引入可解释性分析来提供可靠的分类结果和发现的主题的解释。同时，将解释性引入模型架构中，以提高模型的分类性能，并使解释进一步关注数据的细节。最后，对模型架构进行优化，以降低模型的复杂度。",
+    "tldr": "本文提出了一种结合可解释性分析的分类感知神经主题模型，用于冲突分类和主题发现。该模型提供了可靠的分类结果和发现的主题的解释，并通过优化模型的复杂度来提高分类性能。"
+}

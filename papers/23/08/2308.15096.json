@@ -1,0 +1,11 @@
+{
+    "title": "How Faithful are Self-Explainable GNNs?. (arXiv:2308.15096v1 [cs.LG])",
+    "abstract": "Self-explainable deep neural networks are a recent class of models that can output ante-hoc local explanations that are faithful to the model's reasoning, and as such represent a step forward toward filling the gap between expressiveness and interpretability. Self-explainable graph neural networks (GNNs) aim at achieving the same in the context of graph data. This begs the question: do these models fulfill their implicit guarantees in terms of faithfulness? In this extended abstract, we analyze the faithfulness of several self-explainable GNNs using different measures of faithfulness, identify several limitations -- both in the models themselves and in the evaluation metrics -- and outline possible ways forward.",
+    "link": "http://arxiv.org/abs/2308.15096",
+    "context": "Title: How Faithful are Self-Explainable GNNs?. (arXiv:2308.15096v1 [cs.LG])\nAbstract: Self-explainable deep neural networks are a recent class of models that can output ante-hoc local explanations that are faithful to the model's reasoning, and as such represent a step forward toward filling the gap between expressiveness and interpretability. Self-explainable graph neural networks (GNNs) aim at achieving the same in the context of graph data. This begs the question: do these models fulfill their implicit guarantees in terms of faithfulness? In this extended abstract, we analyze the faithfulness of several self-explainable GNNs using different measures of faithfulness, identify several limitations -- both in the models themselves and in the evaluation metrics -- and outline possible ways forward.",
+    "path": "papers/23/08/2308.15096.json",
+    "total_tokens": 684,
+    "translated_title": "自解释GNN（图神经网络）的可信度有多高？",
+    "translated_abstract": "自解释的深度神经网络是一种能够输出模型推理的先验局部解释的最新模型，因此在表达能力和可解释性之间取得了进一步的进展。自解释的图神经网络旨在在图数据的背景下实现相同的功能。这引出了一个问题：这些模型是否在可信度方面实现了其隐式保证？在这个扩展摘要中，我们使用不同的可信度度量分析了几个自解释的GNN，并确定了几个限制-无论是在模型本身还是在评估指标上-并概述了可能的解决办法。",
+    "tldr": "自解释的GNN的可信度进行了分析，并发现了模型本身和评估指标的几个限制，提出了可能的解决办法。"
+}

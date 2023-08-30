@@ -1,0 +1,12 @@
+{
+    "title": "Vulgar Remarks Detection in Chittagonian Dialect of Bangla. (arXiv:2308.15448v1 [cs.CL])",
+    "abstract": "The negative effects of online bullying and harassment are increasing with Internet popularity, especially in social media. One solution is using natural language processing (NLP) and machine learning (ML) methods for the automatic detection of harmful remarks, but these methods are limited in low-resource languages like the Chittagonian dialect of Bangla.This study focuses on detecting vulgar remarks in social media using supervised ML and deep learning algorithms.Logistic Regression achieved promising accuracy (0.91) while simple RNN with Word2vec and fastTex had lower accuracy (0.84-0.90), highlighting the issue that NN algorithms require more data.",
+    "link": "http://arxiv.org/abs/2308.15448",
+    "context": "Title: Vulgar Remarks Detection in Chittagonian Dialect of Bangla. (arXiv:2308.15448v1 [cs.CL])\nAbstract: The negative effects of online bullying and harassment are increasing with Internet popularity, especially in social media. One solution is using natural language processing (NLP) and machine learning (ML) methods for the automatic detection of harmful remarks, but these methods are limited in low-resource languages like the Chittagonian dialect of Bangla.This study focuses on detecting vulgar remarks in social media using supervised ML and deep learning algorithms.Logistic Regression achieved promising accuracy (0.91) while simple RNN with Word2vec and fastTex had lower accuracy (0.84-0.90), highlighting the issue that NN algorithms require more data.",
+    "path": "papers/23/08/2308.15448.json",
+    "total_tokens": 820,
+    "translated_title": "《孟加拉的欺凌言论检测》论文中对恰塔根语言方言的翻译研究",
+    "translated_abstract": "随着互联网的普及，网络欺凌和骚扰的负面影响越来越大，尤其是在社交媒体上。解决方案之一是使用自然语言处理（NLP）和机器学习（ML）方法自动检测有害言论，但是在像孟加拉的恰塔根语言方言这样的低资源语言中，这些方法受限。本研究侧重于使用有监督的机器学习和深度学习算法在社交媒体上检测粗俗言论。逻辑回归取得了令人满意的准确度（0.91），而简单的循环神经网络与Word2vec和fastTex相比准确度较低（0.84-0.90），突显了神经网络算法需要更多数据的问题。",
+    "tldr": "这篇论文的研究重点是利用有监督的机器学习和深度学习算法在社交媒体中检测恰塔根语言方言中的粗俗言论，并发现逻辑回归取得了较高的准确率（0.91）。",
+    "en_tdlr": "This paper focuses on using supervised machine learning and deep learning algorithms to detect vulgar remarks in the Chittagonian dialect of Bangla in social media, and finds that logistic regression achieves a higher accuracy (0.91)."
+}
