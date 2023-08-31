@@ -1,0 +1,12 @@
+{
+    "title": "Beyond Traditional Neural Networks: Toward adding Reasoning and Learning Capabilities through Computational Logic Techniques. (arXiv:2308.15899v1 [cs.AI])",
+    "abstract": "Deep Learning (DL) models have become popular for solving complex problems, but they have limitations such as the need for high-quality training data, lack of transparency, and robustness issues. Neuro-Symbolic AI has emerged as a promising approach combining the strengths of neural networks and symbolic reasoning. Symbolic knowledge injection (SKI) techniques are a popular method to incorporate symbolic knowledge into sub-symbolic systems. This work proposes solutions to improve the knowledge injection process and integrate elements of ML and logic into multi-agent systems (MAS).",
+    "link": "http://arxiv.org/abs/2308.15899",
+    "context": "Title: Beyond Traditional Neural Networks: Toward adding Reasoning and Learning Capabilities through Computational Logic Techniques. (arXiv:2308.15899v1 [cs.AI])\nAbstract: Deep Learning (DL) models have become popular for solving complex problems, but they have limitations such as the need for high-quality training data, lack of transparency, and robustness issues. Neuro-Symbolic AI has emerged as a promising approach combining the strengths of neural networks and symbolic reasoning. Symbolic knowledge injection (SKI) techniques are a popular method to incorporate symbolic knowledge into sub-symbolic systems. This work proposes solutions to improve the knowledge injection process and integrate elements of ML and logic into multi-agent systems (MAS).",
+    "path": "papers/23/08/2308.15899.json",
+    "total_tokens": 779,
+    "translated_title": "超越传统神经网络：通过计算逻辑技术增加推理和学习能力",
+    "translated_abstract": "深度学习（DL）模型已经成为解决复杂问题的常用方法，但它们存在一些限制，如需要高质量的训练数据、缺乏透明性和鲁棒性问题。神经符号人工智能已经成为一种有希望的方法，将神经网络和符号推理的优势结合起来。符号知识注入（SKI）技术是一种将符号知识融入子符号系统的流行方法。本文提出了改进知识注入过程并将机器学习和逻辑元素融入多主体系统（MAS）的解决方案。",
+    "tldr": "通过计算逻辑技术，本研究提出了一种超越传统神经网络的方法，将神经网络和符号推理相结合，解决了深度学习模型在高质量训练数据、透明性和鲁棒性方面的限制。同时，通过改进知识注入过程，将机器学习和逻辑元素融入多主体系统。",
+    "en_tdlr": "This study proposes a method beyond traditional neural networks, combining neural networks and symbolic reasoning through computational logic techniques, to address the limitations of deep learning models in terms of high-quality training data, transparency, and robustness. Additionally, the study improves the knowledge injection process and integrates machine learning and logic elements into multi-agent systems."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Nemo: First Glimpse of a New Rule Engine. (arXiv:2308.15897v1 [cs.AI])",
+    "abstract": "This system demonstration presents Nemo, a new logic programming engine with a focus on reliability and performance. Nemo is built for data-centric analytic computations, modelled in a fully declarative Datalog dialect. Its scalability for these tasks matches or exceeds that of leading Datalog systems. We demonstrate uses in reasoning with knowledge graphs and ontologies with 10^5 to 10^8 input facts, all on a laptop. Nemo is written in Rust and available as a free and open source tool.",
+    "link": "http://arxiv.org/abs/2308.15897",
+    "context": "Title: Nemo: First Glimpse of a New Rule Engine. (arXiv:2308.15897v1 [cs.AI])\nAbstract: This system demonstration presents Nemo, a new logic programming engine with a focus on reliability and performance. Nemo is built for data-centric analytic computations, modelled in a fully declarative Datalog dialect. Its scalability for these tasks matches or exceeds that of leading Datalog systems. We demonstrate uses in reasoning with knowledge graphs and ontologies with 10^5 to 10^8 input facts, all on a laptop. Nemo is written in Rust and available as a free and open source tool.",
+    "path": "papers/23/08/2308.15897.json",
+    "total_tokens": 591,
+    "translated_title": "Nemo: 首个全新规则引擎的初次披露",
+    "translated_abstract": "这个系统演示介绍了Nemo，一个注重可靠性和性能的新型逻辑编程引擎。Nemo专注于数据中心的分析计算，在完全声明式的Datalog方言中建模。对于这些任务，Nemo的可扩展性与或超过领先的Datalog系统。我们演示了在笔记本上使用10^5到10^8个输入事实进行知识图谱和本体推理的应用。Nemo使用Rust编写，并作为一个免费开源工具提供。",
+    "tldr": "Nemo是一个全新的、注重可靠性和性能的逻辑编程引擎，通过数据中心的分析计算，使用了完全声明式的Datalog方言，具有出色的可扩展性。"
+}

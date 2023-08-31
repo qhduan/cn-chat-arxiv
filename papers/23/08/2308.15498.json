@@ -1,0 +1,12 @@
+{
+    "title": "Chunked Lists versus Extensible Arrays for Text Inversion. (arXiv:2308.15498v1 [cs.IR])",
+    "abstract": "In our 2017 work on in-memory list-based text inversion [Hawking and Billerbeck. Efficient In-Memory, List-Based Text Inversion. ADCS 2017] we compared memory use and indexing speed of a considerable number of variants of chunked linked lists. In the present work we compare the best performing of those variants (FBB - dynamic Fibonacci chunking) with the extensible SQ array technique (SQA) presented in [Moffat and Mackenzie. Immediate-Access Indexing Using Space-Efficient Extensible Arrays. ADCS 2023].",
+    "link": "http://arxiv.org/abs/2308.15498",
+    "context": "Title: Chunked Lists versus Extensible Arrays for Text Inversion. (arXiv:2308.15498v1 [cs.IR])\nAbstract: In our 2017 work on in-memory list-based text inversion [Hawking and Billerbeck. Efficient In-Memory, List-Based Text Inversion. ADCS 2017] we compared memory use and indexing speed of a considerable number of variants of chunked linked lists. In the present work we compare the best performing of those variants (FBB - dynamic Fibonacci chunking) with the extensible SQ array technique (SQA) presented in [Moffat and Mackenzie. Immediate-Access Indexing Using Space-Efficient Extensible Arrays. ADCS 2023].",
+    "path": "papers/23/08/2308.15498.json",
+    "total_tokens": 693,
+    "translated_title": "文中的翻译标题: 基于块链表与可扩展数组的文本反转比较",
+    "translated_abstract": "我们在2017年关于内存中基于列表的文本反转的研究中[Hawking和Billerbeck. Efficient In-Memory, List-Based Text Inversion. ADCS 2017]，对大量的块链接列表变体进行了内存使用和索引速度的比较。在本研究中，我们将这些变体中表现最佳的一种（FBB - 动态斐波那契块链表）与[Moffat和Mackenzie. Immediate-Access Indexing Using Space-Efficient Extensible Arrays. ADCS 2023]中提出的可扩展SQ数组技术(SQA)进行了比较。",
+    "tldr": "中文总结: 本研究对比了基于块链表和可扩展数组的文本反转技术，重点比较了动态斐波那契块链表和可扩展SQ数组技术的性能。",
+    "en_tdlr": "English Summary: This study compares text inversion techniques using chunked linked lists and extensible arrays, with a focus on the performance of dynamic Fibonacci chunking and extensible SQ array techniques."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Bitcoin Volatility and Intrinsic Time Using Double Subordinated Levy Processes. (arXiv:2109.15051v2 [q-fin.ST] UPDATED)",
+    "abstract": "We propose a doubly subordinated Levy process, NDIG, to model the time series properties of the cryptocurrency bitcoin. NDIG captures the skew and fat-tailed properties of bitcoin prices and gives rise to an arbitrage free, option pricing model. In this framework we derive two bitcoin volatility measures. The first combines NDIG option pricing with the Cboe VIX model to compute an implied volatility; the second uses the volatility of the unit time increment of the NDIG model. Both are compared to a volatility based upon historical standard deviation. With appropriate linear scaling, the NDIG process perfectly captures observed, in-sample, volatility.",
+    "link": "http://arxiv.org/abs/2109.15051",
+    "context": "Title: Bitcoin Volatility and Intrinsic Time Using Double Subordinated Levy Processes. (arXiv:2109.15051v2 [q-fin.ST] UPDATED)\nAbstract: We propose a doubly subordinated Levy process, NDIG, to model the time series properties of the cryptocurrency bitcoin. NDIG captures the skew and fat-tailed properties of bitcoin prices and gives rise to an arbitrage free, option pricing model. In this framework we derive two bitcoin volatility measures. The first combines NDIG option pricing with the Cboe VIX model to compute an implied volatility; the second uses the volatility of the unit time increment of the NDIG model. Both are compared to a volatility based upon historical standard deviation. With appropriate linear scaling, the NDIG process perfectly captures observed, in-sample, volatility.",
+    "path": "papers/21/09/2109.15051.json",
+    "total_tokens": 777,
+    "translated_title": "比特币波动性和内在时间的双下降利维过程",
+    "translated_abstract": "我们提出了一种双下降利维过程（NDIG），用于建模加密货币比特币的时间序列特性。NDIG捕捉到比特币价格的偏斜和厚尾特性，并提供了一个无套利的期权定价模型。在这个框架下，我们推导出了两个比特币波动率指标。第一个指标将NDIG期权定价与Cboe VIX模型结合起来计算隐含波动率；第二个指标使用了NDIG模型单位时间增量的波动率。将两个指标与基于历史标准差的波动率进行比较。通过适当的线性缩放，NDIG过程完美地捕捉到了观察到的样本内波动率。",
+    "tldr": "提出了一种双下降利维过程（NDIG），用于模拟比特币的时间序列特性，并建立了一个无套利的期权定价模型。用NDIG过程的隐含波动率和单位时间增量的波动率来衡量比特币的波动性，与基于历史标准差的波动率进行比较，发现NDIG过程完美地捕捉到了观察到的样本内波动率。"
+}

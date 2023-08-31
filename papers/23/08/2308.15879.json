@@ -1,0 +1,12 @@
+{
+    "title": "Explanations for Answer Set Programming. (arXiv:2308.15879v1 [cs.AI])",
+    "abstract": "The paper presents an enhancement of xASP, a system that generates explanation graphs for Answer Set Programming (ASP). Different from xASP, the new system, xASP2, supports different clingo constructs like the choice rules, the constraints, and the aggregates such as #sum, #min. This work formalizes and presents an explainable artificial intelligence system for a broad fragment of ASP, capable of shrinking as much as possible the set of assumptions and presenting explanations in terms of directed acyclic graphs.",
+    "link": "http://arxiv.org/abs/2308.15879",
+    "context": "Title: Explanations for Answer Set Programming. (arXiv:2308.15879v1 [cs.AI])\nAbstract: The paper presents an enhancement of xASP, a system that generates explanation graphs for Answer Set Programming (ASP). Different from xASP, the new system, xASP2, supports different clingo constructs like the choice rules, the constraints, and the aggregates such as #sum, #min. This work formalizes and presents an explainable artificial intelligence system for a broad fragment of ASP, capable of shrinking as much as possible the set of assumptions and presenting explanations in terms of directed acyclic graphs.",
+    "path": "papers/23/08/2308.15879.json",
+    "total_tokens": 599,
+    "translated_title": "Answer Set Programming的解释",
+    "translated_abstract": "本文介绍了对Answer Set Programming (ASP)进行解释的系统xASP的改进版本xASP2。与xASP不同，新系统xASP2支持不同的clingo构造，如选择规则、约束和聚合函数，如#sum、#min。该工作形式化并呈现了一个可解释的人工智能系统，适用于ASP的广泛片段，能够尽可能地缩小假设集，并以有向无环图的形式呈现解释。",
+    "tldr": "本文介绍了对Answer Set Programming (ASP)进行解释的系统xASP的改进版本xASP2，它支持了更多的clingo构造并能够以有向无环图的形式呈现解释。",
+    "en_tdlr": "This paper presents an enhanced version of the xASP system for explaining Answer Set Programming (ASP), called xASP2, which supports additional clingo constructs and provides explanations in the form of directed acyclic graphs."
+}

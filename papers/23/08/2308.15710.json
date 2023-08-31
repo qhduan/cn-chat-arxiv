@@ -1,0 +1,12 @@
+{
+    "title": "Speech Wikimedia: A 77 Language Multilingual Speech Dataset. (arXiv:2308.15710v1 [cs.AI])",
+    "abstract": "The Speech Wikimedia Dataset is a publicly available compilation of audio with transcriptions extracted from Wikimedia Commons. It includes 1780 hours (195 GB) of CC-BY-SA licensed transcribed speech from a diverse set of scenarios and speakers, in 77 different languages. Each audio file has one or more transcriptions in different languages, making this dataset suitable for training speech recognition, speech translation, and machine translation models.",
+    "link": "http://arxiv.org/abs/2308.15710",
+    "context": "Title: Speech Wikimedia: A 77 Language Multilingual Speech Dataset. (arXiv:2308.15710v1 [cs.AI])\nAbstract: The Speech Wikimedia Dataset is a publicly available compilation of audio with transcriptions extracted from Wikimedia Commons. It includes 1780 hours (195 GB) of CC-BY-SA licensed transcribed speech from a diverse set of scenarios and speakers, in 77 different languages. Each audio file has one or more transcriptions in different languages, making this dataset suitable for training speech recognition, speech translation, and machine translation models.",
+    "path": "papers/23/08/2308.15710.json",
+    "total_tokens": 595,
+    "translated_title": "Speech Wikimedia：一种包括77种语言的多语音数据集",
+    "translated_abstract": "Speech Wikimedia数据集是从维基媒体共享资源中提取的带有转录的音频的公开可用编译。它包括来自不同场景和说话者的1780小时（195GB）的CC-BY-SA许可的转录语音，涵盖了77种不同的语言。每个音频文件都有一个或多个不同语言的转录，使得这个数据集适用于训练语音识别、语音翻译和机器翻译模型。",
+    "tldr": "Speech Wikimedia是一个包含来自77种语言的大量音频和转录的数据集，适用于训练语音识别、语音翻译和机器翻译模型。",
+    "en_tdlr": "Speech Wikimedia is a dataset that includes a large amount of audio and transcriptions from 77 languages, suitable for training speech recognition, speech translation, and machine translation models."
+}

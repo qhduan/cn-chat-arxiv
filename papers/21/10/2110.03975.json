@@ -1,0 +1,11 @@
+{
+    "title": "Tensor train completion: local recovery guarantees via Riemannian optimization. (arXiv:2110.03975v3 [math.NA] UPDATED)",
+    "abstract": "In this work, we estimate the number of randomly selected elements of a tensor that with high probability guarantees local convergence of Riemannian gradient descent for tensor train completion. We derive a new bound for the orthogonal projections onto the tangent spaces based on the harmonic mean of the unfoldings' singular values and introduce a notion of core coherence for tensor trains. We also extend the results to tensor train completion with auxiliary subspace information and obtain the corresponding local convergence guarantees.",
+    "link": "http://arxiv.org/abs/2110.03975",
+    "context": "Title: Tensor train completion: local recovery guarantees via Riemannian optimization. (arXiv:2110.03975v3 [math.NA] UPDATED)\nAbstract: In this work, we estimate the number of randomly selected elements of a tensor that with high probability guarantees local convergence of Riemannian gradient descent for tensor train completion. We derive a new bound for the orthogonal projections onto the tangent spaces based on the harmonic mean of the unfoldings' singular values and introduce a notion of core coherence for tensor trains. We also extend the results to tensor train completion with auxiliary subspace information and obtain the corresponding local convergence guarantees.",
+    "path": "papers/21/10/2110.03975.json",
+    "total_tokens": 643,
+    "translated_title": "张量列补全：基于Riemannian优化的局部恢复保证",
+    "translated_abstract": "在这项工作中，我们估计了随机选择的元素数量，该数量保证了Riemannian梯度下降在张量列补全中具有局部收敛性的高概率。我们推导了一种新的正交投影上切空间的界限，该界限基于展开的奇异值的调和平均，并引入了张量列的核相干性概念。我们还将结果扩展到具有辅助子空间信息的张量列补全，并获得相应的局部收敛保证。",
+    "tldr": "本论文研究了基于Riemannian优化的张量列补全问题，推导了正交投影和核相干性的界限，并为具有辅助子空间信息的补全问题提供局部收敛保证。"
+}

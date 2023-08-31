@@ -1,0 +1,11 @@
+{
+    "title": "ABA Learning via ASP. (arXiv:2308.15877v1 [cs.AI])",
+    "abstract": "Recently, ABA Learning has been proposed as a form of symbolic machine learning for drawing Assumption-Based Argumentation frameworks from background knowledge and positive and negative examples. We propose a novel method for implementing ABA Learning using Answer Set Programming as a way to help guide Rote Learning and generalisation in ABA Learning.",
+    "link": "http://arxiv.org/abs/2308.15877",
+    "context": "Title: ABA Learning via ASP. (arXiv:2308.15877v1 [cs.AI])\nAbstract: Recently, ABA Learning has been proposed as a form of symbolic machine learning for drawing Assumption-Based Argumentation frameworks from background knowledge and positive and negative examples. We propose a novel method for implementing ABA Learning using Answer Set Programming as a way to help guide Rote Learning and generalisation in ABA Learning.",
+    "path": "papers/23/08/2308.15877.json",
+    "total_tokens": 529,
+    "translated_title": "通过ASP实现ABA学习",
+    "translated_abstract": "最近，ABA学习被提出作为一种符号机器学习方法，用于从背景知识和正负例中绘制基于假设的论证框架。我们提出了一种新颖的方法，使用Answer Set Programming来实现ABA学习，以帮助指导ABA学习中的记忆学习和泛化过程。",
+    "tldr": "该论文通过使用ASP实现ABA学习的方法提出了一种新颖的符号机器学习方法，用于从背景知识和正负例中绘制基于假设的论证框架。"
+}

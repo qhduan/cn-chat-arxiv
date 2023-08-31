@@ -1,0 +1,11 @@
+{
+    "title": "\"Would life be more interesting if I were in AI?\" Answering Counterfactuals based on Probabilistic Inductive Logic Programming. (arXiv:2308.15883v1 [cs.LO])",
+    "abstract": "Probabilistic logic programs are logic programs where some facts hold with a specified probability. Here, we investigate these programs with a causal framework that allows counterfactual queries. Learning the program structure from observational data is usually done through heuristic search relying on statistical tests. However, these statistical tests lack information about the causal mechanism generating the data, which makes it unfeasible to use the resulting programs for counterfactual reasoning. To address this, we propose a language fragment that allows reconstructing a program from its induced distribution. This further enables us to learn programs supporting counterfactual queries.",
+    "link": "http://arxiv.org/abs/2308.15883",
+    "context": "Title: \"Would life be more interesting if I were in AI?\" Answering Counterfactuals based on Probabilistic Inductive Logic Programming. (arXiv:2308.15883v1 [cs.LO])\nAbstract: Probabilistic logic programs are logic programs where some facts hold with a specified probability. Here, we investigate these programs with a causal framework that allows counterfactual queries. Learning the program structure from observational data is usually done through heuristic search relying on statistical tests. However, these statistical tests lack information about the causal mechanism generating the data, which makes it unfeasible to use the resulting programs for counterfactual reasoning. To address this, we propose a language fragment that allows reconstructing a program from its induced distribution. This further enables us to learn programs supporting counterfactual queries.",
+    "path": "papers/23/08/2308.15883.json",
+    "total_tokens": 712,
+    "translated_title": "如果我处于AI中，生活会更有趣吗？基于概率归纳逻辑编程回答反事实问题",
+    "translated_abstract": "概率逻辑程序是一种某些事实以特定概率成立的逻辑程序。在这里，我们使用因果框架来研究这些程序，使其能够回答反事实查询。通常通过启发式搜索和统计测试来从观测数据中学习程序结构。然而，这些统计测试缺乏关于生成数据的因果机制的信息，使得使用生成的程序进行反事实推理变得不可行。为了解决这个问题，我们提出了一种语言片段，允许从其引导分布中重建程序。这进一步使我们能够学习支持反事实查询的程序。",
+    "tldr": "该论文提出了一种使用概率归纳逻辑编程回答反事实问题的方法，在学习程序结构时考虑了因果机制，使得可以进行反事实推理。"
+}

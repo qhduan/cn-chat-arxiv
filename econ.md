@@ -2,217 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Metawisdom of the Crowd: How Choice Within Aided Decision Making Can Make Crowd Wisdom Robust.](http://arxiv.org/abs/2308.15451) | 本论文研究了群体智慧的元智慧，即群体对辅助决策的集体选择方式如何使群体的准确性提高。通过研究发现，个体以不同的方式选择关注不同的信息可以增强群体智慧的预测多样性。 |
-| [^2] | [Mixed-Effects Methods for Search and Matching Research.](http://arxiv.org/abs/2308.15445) | 该论文研究了用于估计搜索和匹配研究中包含人员和公司效应的方程的混合效应方法，并对固定效应方法进行了改进，包括对协方差矩阵估计中偏差的修正。 |
-| [^3] | [Combining predictive distributions of electricity prices: Does minimizing the CRPS lead to optimal decisions in day-ahead bidding?.](http://arxiv.org/abs/2308.15443) | 这篇论文研究了在电力交易中使用概率价格预测和结合预测分布的技术。通过实证研究发现，增加集合的多样性可以提高准确性，但使用最小化CRPS的权重技术并不能带来更高的利润。 |
-| [^4] | [Another Look at the Linear Probability Model and Nonlinear Index Models.](http://arxiv.org/abs/2308.15338) | 本文重新评估了使用线性模型来近似二元结果的响应概率的部分效应的利弊，并重点研究了平均部分效应而不是底层线性指数的参数。通过模拟实验，发现OLS近似或不近似APE的各种情况，并提出了一种实用的方法来减少OLS的有限样本偏差，结果表明该方法与非线性最小二乘（NLS）估计数值上相等。 |
-| [^5] | [Forecasting with Feedback.](http://arxiv.org/abs/2308.15062) | 本研究提出了一种解释系统性有偏差的预测的替代观点，即当预测对经济政策决策产生影响并且由此影响预测目标本身的实现时，即使在二次损失下，预测可能也是最优有偏差的。该研究发现政策反馈的存在对传统的预测理性测试构成了挑战。 |
-| [^6] | [Efficiency in Multiple-Type Housing Markets.](http://arxiv.org/abs/2308.14989) | 在多类型住房市场中，我们考虑了逐坐标效率和成对效率这两个较弱的效率属性，并展示了它们与个体合理性和策略无关性的兼容性。我们还提出了两种特定的机制：逐坐标顶级交易周期机制（cTTC）和捆绑顶级交易周期机制（bTTC）。 |
-| [^7] | [Cognitive Aging and Labor Share.](http://arxiv.org/abs/2308.14982) | 该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。 |
-| [^8] | [Stochastic Variational Inference for GARCH Models.](http://arxiv.org/abs/2308.14952) | 本论文提出了一种用于拟合异方差时间序列模型的随机变分推断算法，提供了快速准确的替代方法，并且适用于动态资产配置。 |
-| [^9] | [Trading and wealth evolution in the Proof of Stake protocol.](http://arxiv.org/abs/2308.01803) | 本文研究了Proof of Stake（PoS）协议中的交易和财富演化。通过分析 PoS 协议中没有交易的情况下的财富演化、考虑矿工的交易激励和策略，以及研究 PoS 交易环境中矿工的集体行为，总结了该协议的经济特征。 |
-| [^10] | [Impulse Response Analysis for Structural Nonlinear Time Series Models.](http://arxiv.org/abs/2305.19089) | 本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。 |
-| [^11] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^12] | [Grid tariff designs coping with the challenges of electrification and their socio-economic impacts.](http://arxiv.org/abs/2210.03514) | 本文研究了应对电气化挑战的电网电费设计。在一个156万家庭的案例研究中，比较了三种替代电网电费方案，并证明了提高电网费用的负担分担和降低低收入群体和小户籍家庭的支出等积极结果。 |
-| [^13] | [Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition.](http://arxiv.org/abs/2209.11840) | 本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议，发现有限证据支持丢弃对有助于恢复平均处理效应的观点，但它可能有助于恢复条件平均处理效应的凸加权平均。 |
-| [^14] | [Aggregative Efficiency of Bayesian Learning in Networks.](http://arxiv.org/abs/1911.10116) | 本论文研究了在社交网络中，个体通过私有信号和邻居的行为来学习未知状态时，网络结构对信号聚合效率的影响。研究发现，网络中的信息混淆会导致准确性降低，而增加观察和减少混淆可以提高聚合效率。 |
+| [^1] | [Target PCA: Transfer Learning Large Dimensional Panel Data.](http://arxiv.org/abs/2308.15627) | 本文提出了一种目标PCA方法来估计具有缺失观测值的大目标面板的潜在因子模型，并通过迁移学习从辅助面板数据中处理缺失观测和弱信号。该方法更高效，并可以一致估计弱因子。 |
+| [^2] | [Reputation Effects with Endogenous Records.](http://arxiv.org/abs/2308.13956) | 这项研究发现，即使一小部分机会主义者存在，公司建立声誉的收益也可能被抹去。即使诚实型公司可以承诺公开政策，机会主义型公司的收益也无法超过均衡收益。 |
+| [^3] | [Optimal tie-breaking rules.](http://arxiv.org/abs/2304.13866) | 本论文研究了不同平局判定规则对参赛者付出努力的影响，发现最优的平局判定规则将优先选择较弱的选手胜出以使参赛者付出最大努力，并提出了一些设计随机平局判定规则的充分条件，可以提高竞赛的预期参与度。 |
+| [^4] | [Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment.](http://arxiv.org/abs/2303.11956) | 本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。 |
+| [^5] | [Composite Sorting.](http://arxiv.org/abs/2303.06701) | 复合排序是一个新的排序框架，通过将不同类型的工作者分配到同一个职业中并同时进行正向和负向排序来实现。当固定投资减轻了不匹配的可变成本时，复合排序可以产生大量的工资分散程度。 |
+| [^6] | [Innovation through inter-regional interaction in a spatial economic model.](http://arxiv.org/abs/2212.14475) | 本文分析了一个基于空间经济模型的跨区域创新，在制造业的不断增长和知识的创造和传播中，研究人员之间的跨区域互动对于创新的成功十分关键，有助于经济活动在初期的聚集之后重新分散。 |
+| [^7] | [Optimal Decision Rules Under Partial Identification.](http://arxiv.org/abs/2111.04926) | 本文研究了在部分识别下的最优决策规则问题，提出了在已知方差的正态误差情况下的有限样本最小最大遗憾决策规则和渐近最小最大遗憾的可行决策规则，并应用于回归不连续设置中政策资格截断点的问题。 |
+| [^8] | [Gift Contagion in Online Groups: Evidence From Virtual Red Packets.](http://arxiv.org/abs/1906.09698) | 通过分析东亚大型社交网站上的红包礼物数据，我们研究了在线群组中的礼物传染现象，发现接收到额外的一美元会导致接收者在随后的24小时内向群组发送18美分。这种效应主要是由更多的接收者被触发发送红包所驱动。 |
+| [^9] | [Fixed Effects and the Generalized Mundlak Estimator.](http://arxiv.org/abs/1807.02099) | 我们提出了一种使用群体平均值来调整观察研究中未观测到的群体水平异质性的方法，并开发了广义Mundlak估计器（GMEs）来灵活且健壮地捕捉群体之间的差异。 |
 
 # 详细
 
-[^1]: 群体的元智慧：如何通过选择辅助决策来使群体智慧更加稳健。
+[^1]: 目标PCA：用于大维面板数据的迁移学习
 
-    Metawisdom of the Crowd: How Choice Within Aided Decision Making Can Make Crowd Wisdom Robust. (arXiv:2308.15451v1 [econ.GN])
+    Target PCA: Transfer Learning Large Dimensional Panel Data. (arXiv:2308.15627v1 [econ.EM])
 
-    [http://arxiv.org/abs/2308.15451](http://arxiv.org/abs/2308.15451)
+    [http://arxiv.org/abs/2308.15627](http://arxiv.org/abs/2308.15627)
 
-    本论文研究了群体智慧的元智慧，即群体对辅助决策的集体选择方式如何使群体的准确性提高。通过研究发现，个体以不同的方式选择关注不同的信息可以增强群体智慧的预测多样性。
-
-    
-
-    优质的信息可以提高个体判断，但却无法使群体决策更加准确；如果个体以相同的方式选择关注相同的信息，那么赋予群体智慧以预测多样性的机会可能会丧失。决策支持系统，从商业智能软件到公共搜索引擎，通过提供决策辅助来增强决策质量和速度，包括相关信息的离散展示、解释框架或启发式方法，但这些系统也有可能通过选择性展示信息和解释框架来引入判断偏见。我们重新描述群体智慧，将其描述为常常有两个决策，即决策辅助的选择和主要决策。然后，我们将"群体的元智慧"定义为群体对辅助决策的集体选择方式，使群体的准确性高于以同一辅助方式随机分配的比较结果，这种比较考虑了信息内容。
-
-    Quality information can improve individual judgments but nonetheless fail to make group decisions more accurate; if individuals choose to attend to the same information in the same way, the predictive diversity that enables crowd wisdom may be lost. Decision support systems, from business intelligence software to public search engines, present individuals with decision aids -- discrete presentations of relevant information, interpretative frames, or heuristics -to enhance the quality and speed of decision making, but have the potential to bias judgments through the selective presentation of information and interpretative frames. We redescribe the wisdom of the crowd as often having two decisions, the choice of decision aids and then the primary decision. We then define \emph{metawisdom of the crowd} as any pattern by which the collective choice of aids leads to higher crowd accuracy than randomized assignment to the same aids, a comparison that accounts for the information content of
-    
-[^2]: 搜索和匹配研究中的混合效应方法
-
-    Mixed-Effects Methods for Search and Matching Research. (arXiv:2308.15445v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.15445](http://arxiv.org/abs/2308.15445)
-
-    该论文研究了用于估计搜索和匹配研究中包含人员和公司效应的方程的混合效应方法，并对固定效应方法进行了改进，包括对协方差矩阵估计中偏差的修正。
+    本文提出了一种目标PCA方法来估计具有缺失观测值的大目标面板的潜在因子模型，并通过迁移学习从辅助面板数据中处理缺失观测和弱信号。该方法更高效，并可以一致估计弱因子。
 
     
 
-    我们研究了用于估计包含人员和公司效应的方程的混合效应方法。在经济学中，这种模型通常使用固定效应方法来估计。最近对这些固定效应方法的改进包括对估计人员和公司效应的协方差矩阵中偏差的修正，我们也进行了考虑。
+    本文提出了一种新颖的方法，通过最佳利用辅助面板数据的信息，为具有缺失观测值的大目标面板模型估计潜在因子。我们将我们的估计器称为目标-PCA。从辅助面板数据中的迁移学习使我们能够处理大部分缺失观测值和目标面板中的弱信号。我们展示了我们的估计器更高效，并可以一致估计不可用传统方法确定的弱因子。我们在近似因子模型和缺失模式的非常一般假设下，提供了目标-PCA的渐近推断理论。在一个混合频率宏观经济面板数据的数据插补的实证研究中，我们证明了目标PCA明显优于所有基准方法。
 
-    We study mixed-effects methods for estimating equations containing person and firm effects. In economics such models are usually estimated using fixed-effects methods. Recent enhancements to those fixed-effects methods include corrections to the bias in estimating the covariance matrix of the person and firm effects, which we also consider.
+    This paper develops a novel method to estimate a latent factor model for a large target panel with missing observations by optimally using the information from auxiliary panel data sets. We refer to our estimator as target-PCA. Transfer learning from auxiliary panel data allows us to deal with a large fraction of missing observations and weak signals in the target panel. We show that our estimator is more efficient and can consistently estimate weak factors, which are not identifiable with conventional methods. We provide the asymptotic inferential theory for target-PCA under very general assumptions on the approximate factor model and missing patterns. In an empirical study of imputing data in a mixed-frequency macroeconomic panel, we demonstrate that target-PCA significantly outperforms all benchmark methods.
     
-[^3]: 结合电价的预测分布：最小化CRPS是否在提前竞标中导致最佳决策？
+[^2]: 自身记录下的声誉效应
 
-    Combining predictive distributions of electricity prices: Does minimizing the CRPS lead to optimal decisions in day-ahead bidding?. (arXiv:2308.15443v1 [q-fin.ST])
+    Reputation Effects with Endogenous Records. (arXiv:2308.13956v1 [econ.TH])
 
-    [http://arxiv.org/abs/2308.15443](http://arxiv.org/abs/2308.15443)
+    [http://arxiv.org/abs/2308.13956](http://arxiv.org/abs/2308.13956)
 
-    这篇论文研究了在电力交易中使用概率价格预测和结合预测分布的技术。通过实证研究发现，增加集合的多样性可以提高准确性，但使用最小化CRPS的权重技术并不能带来更高的利润。
-
-    
-
-    近年来，基于概率的价格预测在电力交易中引起了关注，因为基于这种预测的决策可以比仅仅基于点预测获得显著更高的利润。与此同时，正在开发方法来结合预测分布，因为没有一个模型是完美的，平均通常可以改善预测性能。在本文中，我们探讨了使用CRPS学习的权重技术（最小化连续排名概率评分）是否在提前竞标中导致最佳决策。为此，我们进行了一项实证研究，使用了来自德国EPEX市场的小时级提前电力价格。我们发现，增加集合的多样性可以对准确性产生积极影响。与此同时，与等权重聚合分布相比，使用CRPS学习的较高计算成本不能通过更高的利润来抵消，尽管预测更准确。
-
-    Probabilistic price forecasting has recently gained attention in power trading because decisions based on such predictions can yield significantly higher profits than those made with point forecasts alone. At the same time, methods are being developed to combine predictive distributions, since no model is perfect and averaging generally improves forecasting performance. In this article we address the question of whether using CRPS learning, a novel weighting technique minimizing the continuous ranked probability score (CRPS), leads to optimal decisions in day-ahead bidding. To this end, we conduct an empirical study using hourly day-ahead electricity prices from the German EPEX market. We find that increasing the diversity of an ensemble can have a positive impact on accuracy. At the same time, the higher computational cost of using CRPS learning compared to an equal-weighted aggregation of distributions is not offset by higher profits, despite significantly more accurate predictions.
-    
-[^4]: 对线性概率模型和非线性指数模型的再思考
-
-    Another Look at the Linear Probability Model and Nonlinear Index Models. (arXiv:2308.15338v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.15338](http://arxiv.org/abs/2308.15338)
-
-    本文重新评估了使用线性模型来近似二元结果的响应概率的部分效应的利弊，并重点研究了平均部分效应而不是底层线性指数的参数。通过模拟实验，发现OLS近似或不近似APE的各种情况，并提出了一种实用的方法来减少OLS的有限样本偏差，结果表明该方法与非线性最小二乘（NLS）估计数值上相等。
+    这项研究发现，即使一小部分机会主义者存在，公司建立声誉的收益也可能被抹去。即使诚实型公司可以承诺公开政策，机会主义型公司的收益也无法超过均衡收益。
 
     
 
-    我们重新考虑了使用线性模型来近似二元结果的响应概率的部分效应的利弊。特别地，我们研究了Horrace和Oaxaca (2006)中的斜坡模型，但我们的重点是平均部分效应(APE)，而不是底层线性指数的参数。我们使用现有的理论结果来验证线性投影参数（这些参数总是被普通最小二乘法（OLS）一致估计）可能与指数参数不同，但在某些情况下仍然与APE相同。使用模拟，我们描述了OLS近似或不近似APE的其他情况，并发现在[0,1]范围内具有大比例的拟合值既不是必要的，也不是充分的。减少OLS有限样本偏差的实用方法是迭代修剪超出单位间隔的观测值，我们发现这产生的估计量在数值上等同于非线性最小二乘（NLS）估计。
+    一个患者公司与一系列消费者进行互动。该公司可以是一个供应高质量且从不删除记录的诚实类型，也可以是一个可以选择供应何种质量并可以以低成本删除记录的机会主义类型。我们表明，在每个均衡中，公司有动机建立起供应高质量的声誉，直到其延续价值超过承诺收益为止，但在其寿命足够长的情况下，其前期收益必须接近其最小最大值。因此，即使是一小部分机会主义类型也可以消除公司建立声誉所带来的收益。即使诚实类型可以致力于公开政策，当公司不透露任何信息时，机会主义类型的收益也不能超过其均衡收益，而不管诚实类型承诺采取的公开政策是什么。
 
-    We reconsider the pros and cons of using a linear model to approximate partial effects on a response probability for a binary outcome. In particular, we study the ramp model in Horrace and Oaxaca (2006), but focus on average partial effects (APE) rather than the parameters of the underlying linear index. We use existing theoretical results to verify that the linear projection parameters (which are always consistently estimated by ordinary least squares (OLS)) may differ from the index parameters, yet still be identical to the APEs in some cases. Using simulations, we describe other cases where OLS either does or does not approximate the APEs, and we find that having a large fraction of fitted values in [0,1] is neither necessary nor sufficient. A practical approach to reduce the finite sample bias of OLS is to iteratively trim the observations with fitted values outside the unit interval, which we find produces estimates numerically equivalent to nonlinear least squares (NLS) estimatio
+    A patient firm interacts with a sequence of consumers. The firm is either an honest type who supplies high quality and never erases its action, or an opportunistic type who can choose what quality to supply and may erase its action at a low cost. We show that in every equilibrium, the firm has an incentive to build a reputation for supplying high quality until its continuation value exceeds its commitment payoff, but its ex ante payoff must be close to its minmax value when it has a sufficiently long lifespan. Therefore, even a small fraction of opportunistic types can wipe out the firm's returns from building reputations. Even if the honest type can commit to disclosure policies, the opportunistic type's payoff cannot exceed its equilibrium payoff when the firm reveals no information, regardless of the disclosure policy the honest type commits to.
     
-[^5]: 带有反馈的预测
+[^3]: 最优的平局判定规则
 
-    Forecasting with Feedback. (arXiv:2308.15062v1 [econ.TH])
+    Optimal tie-breaking rules. (arXiv:2304.13866v1 [econ.TH])
 
-    [http://arxiv.org/abs/2308.15062](http://arxiv.org/abs/2308.15062)
+    [http://arxiv.org/abs/2304.13866](http://arxiv.org/abs/2304.13866)
 
-    本研究提出了一种解释系统性有偏差的预测的替代观点，即当预测对经济政策决策产生影响并且由此影响预测目标本身的实现时，即使在二次损失下，预测可能也是最优有偏差的。该研究发现政策反馈的存在对传统的预测理性测试构成了挑战。
-
-    
-
-    通常将系统性有偏差的预测解释为预测者的非理性和/或非对称损失的证据。在本文中，我们提出了一种替代解释：当预测影响经济政策决策，并且由此产生的行动影响预测目标本身的实现时，即使在二次损失下，预测可能也是最优有偏差的。该结果出现在预测者对决策者对预测的反应存在不确定性的环境中，这在大多数应用中可能是存在的。我们通过回顾一些Green Book通胀预测的特征，并将其与我们模型的预测进行关联，说明了我们理论的实证相关性。我们的结果指出，政策反馈的存在对传统的预测理性测试构成了挑战。
-
-    Systematically biased forecasts are typically interpreted as evidence of forecasters' irrationality and/or asymmetric loss. In this paper we propose an alternative explanation: when forecasts inform economic policy decisions, and the resulting actions affect the realization of the forecast target itself, forecasts may be optimally biased even under quadratic loss. The result arises in environments in which the forecaster is uncertain about the decision maker's reaction to the forecast, which is presumably the case in most applications. We illustrate the empirical relevance of our theory by reviewing some stylized properties of Green Book inflation forecasts and relating them to the predictions from our model. Our results point out that the presence of policy feedback poses a challenge to traditional tests of forecast rationality.
-    
-[^6]: 多类型住房市场的效率
-
-    Efficiency in Multiple-Type Housing Markets. (arXiv:2308.14989v1 [econ.TH])
-
-    [http://arxiv.org/abs/2308.14989](http://arxiv.org/abs/2308.14989)
-
-    在多类型住房市场中，我们考虑了逐坐标效率和成对效率这两个较弱的效率属性，并展示了它们与个体合理性和策略无关性的兼容性。我们还提出了两种特定的机制：逐坐标顶级交易周期机制（cTTC）和捆绑顶级交易周期机制（bTTC）。
+    本论文研究了不同平局判定规则对参赛者付出努力的影响，发现最优的平局判定规则将优先选择较弱的选手胜出以使参赛者付出最大努力，并提出了一些设计随机平局判定规则的充分条件，可以提高竞赛的预期参与度。
 
     
 
-    我们考虑多类型住房市场（Moulin, 1995），将Shapley-Scarf住房市场（Shapley and Scarf, 1974）从一维扩展到高维。在这个模型中，帕累托效率与个体合理性和策略无关性不兼容（Konishi et al., 2001）。因此，我们考虑两个较弱的效率属性：逐坐标效率和成对效率。我们证明了这两个属性都（i）与个体合理性和策略无关性相兼容，并且（ii）帮助我们识别出两种特定机制。更明确地说，在各种偏好配置的定义域上，与其他已广泛研究的属性（个体合理性，策略无关性和非霸权性）合作，逐坐标效率和成对效率分别刻画了两种顶级交易周期机制（TTC）的扩展：逐坐标顶级交易周期机制（cTTC）和捆绑顶级交易周期机制（bTTC）。此外，我们提出se
+    我们考虑了两个玩家之间可能出现平局的竞赛，并研究了不同平局判定规则对参赛者付出努力的影响。对于允许纯策略 Nash 均衡的比率型和差值型竞赛，我们发现同时参赛者的努力都是随着胜者获得平局优势的概率单调递减的。因此，使得参赛者付出最大努力的平局判定规则承诺在平局时优先选择较弱的选手胜出。针对对称的参赛者，我们发现均衡通常是对称的，并且与选用的平局判定规则无关。我们还研究了随机平局判定规则的设计，这些规则在 ex-ante上是无偏的，并确定了充分条件，使得在比赛前判定平局比比赛后判定平局可以带来更大的预期努力。
 
-    We consider multiple-type housing markets (Moulin, 1995), which extend Shapley-Scarf housing markets (Shapley and Scarf, 1974) from one dimension to higher dimensions. In this model, Pareto efficiency is incompatible with individual rationality and strategy-proofness (Konishi et al., 2001). Therefore, we consider two weaker efficiency properties: coordinatewise efficiency and pairwise efficiency. We show that these two properties both (i) are compatible with individual rationality and strategy-proofness, and (ii) help us to identify two specific mechanisms. To be more precise, on various domains of preference profiles, together with other well-studied properties (individual rationality, strategy-proofness, and non-bossiness), coordinatewise efficiency and pairwise efficiency respectively characterize two extensions of the top-trading-cycles mechanism (TTC): the coordinatewise top-trading-cycles mechanism (cTTC) and the bundle top-trading-cycles mechanism (bTTC). Moreover, we propose se
+    We consider two-player contests with the possibility of ties and study the effect of different tie-breaking rules on effort. For ratio-form and difference-form contests that admit pure-strategy Nash equilibrium, we find that the effort of both players is monotone decreasing in the probability that ties are broken in favor of the stronger player. Thus, the effort-maximizing tie-breaking rule commits to breaking ties in favor of the weaker agent. With symmetric agents, we find that the equilibrium is generally symmetric and independent of the tie-breaking rule. We also study the design of random tie-breaking rules that are unbiased ex-ante and identify sufficient conditions under which breaking ties before the contest actually leads to greater expected effort than the more commonly observed practice of breaking ties after the contest.
     
-[^7]: 认知衰老与劳动份额
+[^4]: 基于一般均衡的大规模教育改革：印度回归不连续证据的评论
 
-    Cognitive Aging and Labor Share. (arXiv:2308.14982v1 [econ.GN])
+    Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment. (arXiv:2303.11956v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.14982](http://arxiv.org/abs/2308.14982)
+    [http://arxiv.org/abs/2303.11956](http://arxiv.org/abs/2303.11956)
 
-    该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。
-
-    
-
-    劳动份额，即经济产出的工资比例，在工业化国家中不可理解地在下降。虽然许多之前的研究试图通过经济因素来解释这种下降，但我们的新颖方法将这种下降与生物因素联系起来。具体而言，我们提出了一个理论宏观经济模型，劳动份额反映了劳动力自动化现有产出和消费者需求新的依赖人力劳动的产出变体之间的动态平衡。工业化导致人口老龄化，虽然在工作年限内认知表现稳定，但之后急剧下降。因此，老龄消费者认知能力的下降减少了对新的产出变体的需求，导致劳动份额下降。我们的模型将劳动份额表达为中位数年龄的代数函数，并通过非线性随机回归在工业化经济体的历史数据上以惊人的准确性进行了验证。
-
-    Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.
-    
-[^8]: GARCH模型的随机变分推断
-
-    Stochastic Variational Inference for GARCH Models. (arXiv:2308.14952v1 [stat.CO])
-
-    [http://arxiv.org/abs/2308.14952](http://arxiv.org/abs/2308.14952)
-
-    本论文提出了一种用于拟合异方差时间序列模型的随机变分推断算法，提供了快速准确的替代方法，并且适用于动态资产配置。
+    本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。
 
     
 
-    我们推导了适用于不同异方差时间序列模型的随机变分推断算法。我们研究了高斯、t和偏t响应的GARCH模型，并使用高斯变分近似密度进行拟合。我们实现了基于控制变量或重新参数化技巧的高效随机梯度上升程序，并证明了所提出的实现方法是马尔可夫链蒙特卡洛采样的快速准确替代方法。此外，我们提出了顺序更新的变分算法版本，适用于高效的投资组合构建和动态资产配置。
+    本文重新分析了 Khanna (2023) 中通过回归不连续设计研究印度教育对劳动力市场的影响的内容。在图形初步分析中，反转绘图软件默认值的覆盖极大地减少了不连续性的出现。在数据中缺少离不连续点四个街区；修复后削减了对学校和对数工资的简化形式影响分别为62％和75％。使用一致的方差估计器，并将其聚类处理到地理治疗单元，进一步削弱了积极影响的推断。一般均衡效应和替代弹性的估计不是无偏的，且有效方差为无限大。
 
-    Stochastic variational inference algorithms are derived for fitting various heteroskedastic time series models. We examine Gaussian, t, and skew-t response GARCH models and fit these using Gaussian variational approximating densities. We implement efficient stochastic gradient ascent procedures based on the use of control variates or the reparameterization trick and demonstrate that the proposed implementations provide a fast and accurate alternative to Markov chain Monte Carlo sampling. Additionally, we present sequential updating versions of our variational algorithms, which are suitable for efficient portfolio construction and dynamic asset allocation.
+    This paper reanalyzes Khanna (2023), which studies labor market effects of schooling in India through a regression discontinuity design. In graphical preliminaries, reversing overrides of the plotting software's defaults greatly reduces the appearance of discontinuities. Absent from the data are four districts close to the discontinuity; restoring them cuts the reduced-form impacts on schooling and log wages by 62% and 75%. Using a consistent variance estimator, and clustering it at the geographic unit of treatment, further weakens the inference of positive impact. The estimates of general equilibrium effects and elasticities of substitution are not unbiased and have effectively infinite variance.
     
-[^9]: Proof of Stake协议中的交易和财富演化
+[^5]: 复合排序
 
-    Trading and wealth evolution in the Proof of Stake protocol. (arXiv:2308.01803v1 [econ.GN])
+    Composite Sorting. (arXiv:2303.06701v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2308.01803](http://arxiv.org/abs/2308.01803)
+    [http://arxiv.org/abs/2303.06701](http://arxiv.org/abs/2303.06701)
 
-    本文研究了Proof of Stake（PoS）协议中的交易和财富演化。通过分析 PoS 协议中没有交易的情况下的财富演化、考虑矿工的交易激励和策略，以及研究 PoS 交易环境中矿工的集体行为，总结了该协议的经济特征。
-
-    
-
-    随着Proof of Stake（PoS）区块链的越来越广泛采用，研究这种区块链创造的经济是及时的。在本章中，我们将调查依据PoS协议发行新币的加密货币中的交易和财富演化的最新进展。我们首先考虑在没有交易的情况下PoS协议的财富演化，并关注去中心化的问题。接下来，我们通过最优控制的视角考虑每个矿工的交易激励和策略，矿工需要权衡PoS挖矿和交易。最后，我们通过均场模型研究在PoS交易环境中矿工的集体行为。在我们的研究中使用了随机和分析工具。同时还提出了一系列未解决的问题。
-
-    With the increasing adoption of the Proof of Stake (PoS) blockchain, it is timely to study the economy created by such blockchain. In this chapter, we will survey recent progress on the trading and wealth evolution in a cryptocurrency where the new coins are issued according to the PoS protocol. We first consider the wealth evolution in the PoS protocol assuming no trading, and focus on the problem of decentralisation. Next we consider each miner's trading incentive and strategy through the lens of optimal control, where the miner needs to trade off PoS mining and trading. Finally, we study the collective behavior of the miners in a PoS trading environment by a mean field model. We use both stochastic and analytic tools in our study. A list of open problems are also presented.
-    
-[^10]: 结构非线性时间序列模型的脉冲响应分析
-
-    Impulse Response Analysis for Structural Nonlinear Time Series Models. (arXiv:2305.19089v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.19089](http://arxiv.org/abs/2305.19089)
-
-    本文研究非线性时间序列模型的脉冲响应分析，提出了一种新的更直接依赖于底层模型属性的方法，并讨论了相关的非参数估计和结构脉冲响应的推断。
+    复合排序是一个新的排序框架，通过将不同类型的工作者分配到同一个职业中并同时进行正向和负向排序来实现。当固定投资减轻了不匹配的可变成本时，复合排序可以产生大量的工资分散程度。
 
     
 
-    线性时间序列模型是结构宏观经济分析的重要工具，然而经济理论和实证数据都表明，非线性和不对称效应的研究也十分重要，以了解政策制定者的选择可能产生的影响。本文以动态系统视角，比较了已知的构建非线性时间序列模型脉冲响应的方法，并提出了一种更直接依赖于底层模型属性的新方法。讨论了在自然物理依赖假设下的自回归模型的非参数估计，以及结构脉冲响应的推断。
+    我们提出了一个新的排序框架：复合排序。复合排序包括（1）将不同的工作者类型分配到同一个职业中，以及（2）给定的工作者类型同时参与正向排序和负向排序。当固定投资减轻了不匹配的可变成本时，复合排序就会出现。我们完全描述了最优排序，并且还证明了当不匹配成本的凹度较小时，排序更为积极。然后我们对均衡工资进行了描述。工资具有区域层次结构，相对工资仅取决于技能群体内的排序。定量上，复合排序可以在美国的职业内产生相当大的工资分散程度。
 
-    Linear time series models are the workhorse of structural macroeconometric analysis. However, economic theory as well as data suggests that nonlinear and asymmetric effects might be important to study to understand the potential effects of policy makers' choices. Taking a dynamical system view, this paper compares known approaches to construct impulse responses in nonlinear time series models and proposes a new approach that more directly relies on the underlying model properties. Nonparametric estimation of autoregressive models is discussed under natural physical dependence assumptions as well as inference for structural impulse responses.
+    We propose a new sorting framework: composite sorting. Composite sorting comprises of (1) distinct worker types assigned to the same occupation, and (2) a given worker type simultaneously being part of both positive and negative sorting. Composite sorting arises when fixed investments mitigate variable costs of mismatch. We completely characterize optimal sorting and additionally show it is more positive when mismatch costs are less concave. We then characterize equilibrium wages. Wages have a regional hierarchical structure relative wages depend solely on sorting within skill groups. Quantitatively, composite sorting can generate a sizable portion of within-occupations wage dispersion in the US.
     
-[^11]: 期权的价格发现
+[^6]: 基于空间经济模型的跨区域互动创新
 
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+    Innovation through inter-regional interaction in a spatial economic model. (arXiv:2212.14475v3 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+    [http://arxiv.org/abs/2212.14475](http://arxiv.org/abs/2212.14475)
 
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
-
-    
-
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
-
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
-    
-[^12]: 应对电气化挑战的电网电费设计及其社会经济影响研究
-
-    Grid tariff designs coping with the challenges of electrification and their socio-economic impacts. (arXiv:2210.03514v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2210.03514](http://arxiv.org/abs/2210.03514)
-
-    本文研究了应对电气化挑战的电网电费设计。在一个156万家庭的案例研究中，比较了三种替代电网电费方案，并证明了提高电网费用的负担分担和降低低收入群体和小户籍家庭的支出等积极结果。
+    本文分析了一个基于空间经济模型的跨区域创新，在制造业的不断增长和知识的创造和传播中，研究人员之间的跨区域互动对于创新的成功十分关键，有助于经济活动在初期的聚集之后重新分散。
 
     
 
-    本文研究了考虑不同定价机制和跨社会技术经济消费者类别成本分配的电网电费设计。在对分为90个社会技术经济类别的156万丹麦家庭的案例研究中，比较了三种替代电网电费方案，并研究了其对年度电费的影响。我们的设计结果包括基于时间的阈值处罚个人高峰消耗和系统高峰电费，展示了(a)不同分配的范围，将额外的电网成本分配给技术和(b)强烈的积极结果，包括降低低收入群体和小户籍家庭的支出。
+    本文分析了一个具有垂直创新的两地区模型，该模型提高了每个地区生产的水平差异制造品种的质量。我们研究知识的创造和传播以及制造业的不断增长如何相互作用来塑造空间经济。创新发生的概率取决于研究人员（流动工人）之间的跨区域互动。我们发现，如果和外国科学家的互动关系对于创新的成功比较重要，随着运输成本从高水平降低，该模型可以解释经济活动在初期的渐进性聚集之后重新分散。
 
-    This paper investigates volumetric grid tariff designs under consideration of different pricing mechanisms and resulting cost allocation across socio-techno-economic consumer categories. In a case study of 1.56 million Danish households divided into 90 socio-techno-economic categories, we compare three alternative grid tariffs and investigate their impact on annual electricity bills. The results of our design consisting of a time-dependent threshold penalizing individual peak consumption and a system peak tariff show (a) a range of different allocations that distribute the burden of additional grid costs across both technologies and (b) strong positive outcomes, including reduced expenses for lower-income groups and smaller households.
+    This paper analyses a two-region model with vertical innovations that enhance the quality of varieties of the horizontally differentiated manufactures produced in each of the two regions. We look at how the creation and diffusion of knowledge and increasing returns in manufacturing interact to shape the spatial economy. Innovations occur with a probability that depends on the inter-regional interaction between researchers (mobile workers). We find that, if the weight of interaction with foreign scientists is relatively more important for the success of innovation, the model accounts for re-dispersion of economic activities after an initial stage of progressive agglomeration as transport costs decrease from a high level.
     
-[^13]: 在存在退场情况下重新审视匹配对实验和分层实验的分析
+[^7]: 在部分识别下的最优决策规则
 
-    Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition. (arXiv:2209.11840v5 [econ.EM] UPDATED)
+    Optimal Decision Rules Under Partial Identification. (arXiv:2111.04926v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2209.11840](http://arxiv.org/abs/2209.11840)
+    [http://arxiv.org/abs/2111.04926](http://arxiv.org/abs/2111.04926)
 
-    本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议，发现有限证据支持丢弃对有助于恢复平均处理效应的观点，但它可能有助于恢复条件平均处理效应的凸加权平均。
-
-    
-
-    本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议。我们的主要目标是澄清关于在分析匹配对设计时是否丢弃有丢失单位的对是否有益或有害的一些著名观点。文献中对于是否丢弃对有矛盾的建议存在，同时将分层为较大组已被推荐为解决该问题的方法。为了解决这些观点，我们推导了匹配对设计中差异-均值估计器得到的估计目标，无论是保留有丢失单位的对还是丢弃它们。我们发现有限的证据支持丢弃对有助于恢复平均处理效应的观点，但我们发现它可能有助于恢复条件平均处理效应的凸加权平均。我们报告了类似的发现来证实。
-
-    In this paper we revisit some common recommendations regarding the analysis of matched-pair and stratified experimental designs in the presence of attrition. Our main objective is to clarify a number of well-known claims about the practice of dropping pairs with an attrited unit when analyzing matched-pair designs. Contradictory advice appears in the literature about whether or not dropping pairs is beneficial or harmful, and stratifying into larger groups has been recommended as a resolution to the issue. To address these claims, we derive the estimands obtained from the difference-in-means estimator in a matched-pair design both when the observations from pairs with an attrited unit are retained and when they are dropped. We find limited evidence to support the claims that dropping pairs helps recover the average treatment effect, but we find that it may potentially help in recovering a convex weighted average of conditional average treatment effects. We report similar findings for s
-    
-[^14]: Bayesian学习在网络中的聚合效率
-
-    Aggregative Efficiency of Bayesian Learning in Networks. (arXiv:1911.10116v8 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/1911.10116](http://arxiv.org/abs/1911.10116)
-
-    本论文研究了在社交网络中，个体通过私有信号和邻居的行为来学习未知状态时，网络结构对信号聚合效率的影响。研究发现，网络中的信息混淆会导致准确性降低，而增加观察和减少混淆可以提高聚合效率。
+    本文研究了在部分识别下的最优决策规则问题，提出了在已知方差的正态误差情况下的有限样本最小最大遗憾决策规则和渐近最小最大遗憾的可行决策规则，并应用于回归不连续设置中政策资格截断点的问题。
 
     
 
-    在社交网络中，当个体通过私有信号和邻居的行为来学习未知状态时，网络结构常常导致信息损失。我们在经典的顺序社交学习问题中考虑理性代理和高斯信号，并询问网络如何改变信号聚合的效率。在我们的模型中，理性行为是观察的对数线性函数，并且具有准确性的信号计数解释。在代理人观察多个邻居但不观察它们的共同前代的网络中，信息被混淆，即使有少量的混淆也会导致较低的准确性。在代理人按照世代移动并观察前一个世代的一类网络中，我们使用聚合效率指数来量化信息损失。聚合效率是网络参数的简单函数：观察增加，混淆减少。即使在后续世代，额外的信息贡献也很少，即使有大量的观察。
+    本文考虑了一类统计决策问题，决策者必须在有限样本的基础上，在两种备选策略之间做出决策，以最大化社会福利。核心假设是潜在的、可能是无限维参数位于已知的凸集中，可能导致福利效应的部分识别。这些限制的一个例子是反事实结果函数的平滑性。作为主要理论结果，我在正态分布误差且方差已知的所有决策规则类中，推导出了一种有限样本的最小最大遗憾决策规则。当误差分布未知时，我得到了一种渐近最小最大遗憾的可行决策规则。我将我的结果应用于在回归不连续设置中是否改变政策资格截断点的问题，并在布基纳法索的学校建设项目的实证应用中进行了阐述。
 
-    When individuals in a social network learn about an unknown state from private signals and neighbors' actions, the network structure often causes information loss. We consider rational agents and Gaussian signals in the canonical sequential social-learning problem and ask how the network changes the efficiency of signal aggregation. Rational actions in our model are log-linear functions of observations and admit a signal-counting interpretation of accuracy. Networks where agents observe multiple neighbors but not their common predecessors confound information, and even a small amount of confounding can lead to much lower accuracy. In a class of networks where agents move in generations and observe the previous generation, we quantify the information loss with an aggregative efficiency index. Aggregative efficiency is a simple function of network parameters: increasing in observations and decreasing in confounding. Later generations contribute little additional information, even with ar
+    I consider a class of statistical decision problems in which the policy maker must decide between two alternative policies to maximize social welfare based on a finite sample. The central assumption is that the underlying, possibly infinite-dimensional parameter, lies in a known convex set, potentially leading to partial identification of the welfare effect. An example of such restrictions is the smoothness of counterfactual outcome functions. As the main theoretical result, I derive a finite-sample, exact minimax regret decision rule within the class of all decision rules under normal errors with known variance. When the error distribution is unknown, I obtain a feasible decision rule that is asymptotically minimax regret. I apply my results to the problem of whether to change a policy eligibility cutoff in a regression discontinuity setup, and illustrate them in an empirical application to a school construction program in Burkina Faso.
+    
+[^8]: 在线群组中的礼物传染：来自虚拟红包的证据
+
+    Gift Contagion in Online Groups: Evidence From Virtual Red Packets. (arXiv:1906.09698v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/1906.09698](http://arxiv.org/abs/1906.09698)
+
+    通过分析东亚大型社交网站上的红包礼物数据，我们研究了在线群组中的礼物传染现象，发现接收到额外的一美元会导致接收者在随后的24小时内向群组发送18美分。这种效应主要是由更多的接收者被触发发送红包所驱动。
+
+    
+
+    礼物在人际关系中形成纽带的重要工具。我们的研究分析了在线群组中的礼物传染现象。礼物传染通过促使进一步的礼物来鼓励社交纽带；它还可以促进群组互动和团结。我们利用东亚大型社交网站上3600万个在线红包礼物的数据，利用自然实验设计来识别在线群组中礼物赠送的社交传染现象。我们的自然实验得以实现的原因是平台上礼物金额分配算法的随机化，这解决了观察数据中因果识别的常见挑战。我们的研究提供了礼物传染的证据：平均而言，接收到额外的一美元会导致接收者在随后的24小时内向群组发送18美分。分解这个效应，我们发现主要是由广泛边际所驱动--更多的接收者被触发发送红包。此外，我们发现...
+
+    Gifts are important instruments for forming bonds in interpersonal relationships. Our study analyzes the phenomenon of gift contagion in online groups. Gift contagion encourages social bonds by prompting further gifts; it may also promote group interaction and solidarity. Using data on 36 million online red packet gifts on a large social site in East Asia, we leverage a natural experimental design to identify the social contagion of gift giving in online groups. Our natural experiment is enabled by the randomization of the gift amount allocation algorithm on the platform, which addresses the common challenge of causal identifications in observational data. Our study provides evidence of gift contagion: on average, receiving one additional dollar causes a recipient to send 18 cents back to the group within the subsequent 24 hours. Decomposing this effect, we find that it is mainly driven by the extensive margin -- more recipients are triggered to send red packets. Moreover, we find that
+    
+[^9]: 固定效应和广义Mundlak估计器
+
+    Fixed Effects and the Generalized Mundlak Estimator. (arXiv:1807.02099v9 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1807.02099](http://arxiv.org/abs/1807.02099)
+
+    我们提出了一种使用群体平均值来调整观察研究中未观测到的群体水平异质性的方法，并开发了广义Mundlak估计器（GMEs）来灵活且健壮地捕捉群体之间的差异。
+
+    
+
+    我们提出了一种在观察研究中估计平均治疗效果的新方法，该方法考虑了未观测到的群体水平异质性。我们考虑了一个具有群体水平无偏性的一般模型，并给出了一些条件，使得聚合平衡统计量——处理和协变量的群体平均值的函数——足以消除群体之间的差异。在这些结果的基础上，我们将常用的线性固定效应回归估计器重新解释为Mundlak形式，即线性回归估计器，而不包括固定效应，但包括群体平均值。我们利用这种表示形式开发了广义Mundlak估计器（GMEs），通过单位水平变量的群体平均值来捕捉群体差异，并以灵活且健壮的方式来调整这些群体差异，符合现代因果文献的精神。
+
+    We develop a new approach for estimating average treatment effects in observational studies with unobserved group-level heterogeneity. We consider a general model with group-level unconfoundedness and provide conditions under which aggregate balancing statistics -- group-level averages of functions of treatments and covariates -- are sufficient to eliminate differences between groups. Building on these results, we reinterpret commonly used linear fixed-effect regression estimators by writing them in the Mundlak form as linear regression estimators without fixed effects but including group averages. We use this representation to develop Generalized Mundlak Estimators (GMEs) that capture group differences through group averages of (functions of) the unit-level variables and adjust for these group differences in flexible and robust ways in the spirit of the modern causal literature.
     
 

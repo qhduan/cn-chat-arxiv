@@ -1,0 +1,11 @@
+{
+    "title": "Spatial Graph Coarsening: Weather and Weekday Prediction with London's Bike-Sharing Service using GNN. (arXiv:2308.16122v1 [cs.LG])",
+    "abstract": "This study introduced the use of Graph Neural Network (GNN) for predicting the weather and weekday of a day in London, from the dataset of Santander Cycles bike-sharing system as a graph classification task. The proposed GNN models newly introduced (i) a concatenation operator of graph features with trained node embeddings and (ii) a graph coarsening operator based on geographical contiguity, namely \"Spatial Graph Coarsening\". With the node features of land-use characteristics and number of households around the bike stations and graph features of temperatures in the city, our proposed models outperformed the baseline model in cross-entropy loss and accuracy of the validation dataset.",
+    "link": "http://arxiv.org/abs/2308.16122",
+    "context": "Title: Spatial Graph Coarsening: Weather and Weekday Prediction with London's Bike-Sharing Service using GNN. (arXiv:2308.16122v1 [cs.LG])\nAbstract: This study introduced the use of Graph Neural Network (GNN) for predicting the weather and weekday of a day in London, from the dataset of Santander Cycles bike-sharing system as a graph classification task. The proposed GNN models newly introduced (i) a concatenation operator of graph features with trained node embeddings and (ii) a graph coarsening operator based on geographical contiguity, namely \"Spatial Graph Coarsening\". With the node features of land-use characteristics and number of households around the bike stations and graph features of temperatures in the city, our proposed models outperformed the baseline model in cross-entropy loss and accuracy of the validation dataset.",
+    "path": "papers/23/08/2308.16122.json",
+    "total_tokens": 728,
+    "translated_title": "空间图粗化：使用GNN进行伦敦自行车共享服务的天气和工作日预测",
+    "translated_abstract": "本研究介绍了使用图神经网络（GNN）预测伦敦一天的天气和工作日的方法，通过将桑坦德自行车共享系统的数据集作为图分类任务。提出的GNN模型引入了（i）图特征与经过训练的节点嵌入的拼接操作和（ii）基于地理接近性的图粗化操作，即“空间图粗化”。利用土地利用特征和自行车站周围的家庭数量的节点特征以及城市温度的图特征，我们提出的模型在交叉熵损失和验证数据集的准确率上优于基线模型。",
+    "tldr": "本研究使用图神经网络预测伦敦的天气和工作日，通过引入图特征和地理接近性的图粗化操作，提高了预测的准确性。"
+}

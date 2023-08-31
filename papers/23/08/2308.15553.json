@@ -1,0 +1,12 @@
+{
+    "title": "Dimensionality Reduction Using pseudo-Boolean polynomials For Cluster Analysis. (arXiv:2308.15553v1 [cs.IR])",
+    "abstract": "We introduce usage of a reduction property of penalty-based formulation of pseudo-Boolean polynomials as a mechanism for invariant dimensionality reduction in cluster analysis processes. In our experiments, we show that multidimensional data, like 4-dimensional Iris Flower dataset can be reduced to 2-dimensional space while the 30-dimensional Wisconsin Diagnostic Breast Cancer (WDBC) dataset can be reduced to 3-dimensional space, and by searching lines or planes that lie between reduced samples we can extract clusters in a linear and unbiased manner with competitive accuracies, reproducibility and clear interpretation.",
+    "link": "http://arxiv.org/abs/2308.15553",
+    "context": "Title: Dimensionality Reduction Using pseudo-Boolean polynomials For Cluster Analysis. (arXiv:2308.15553v1 [cs.IR])\nAbstract: We introduce usage of a reduction property of penalty-based formulation of pseudo-Boolean polynomials as a mechanism for invariant dimensionality reduction in cluster analysis processes. In our experiments, we show that multidimensional data, like 4-dimensional Iris Flower dataset can be reduced to 2-dimensional space while the 30-dimensional Wisconsin Diagnostic Breast Cancer (WDBC) dataset can be reduced to 3-dimensional space, and by searching lines or planes that lie between reduced samples we can extract clusters in a linear and unbiased manner with competitive accuracies, reproducibility and clear interpretation.",
+    "path": "papers/23/08/2308.15553.json",
+    "total_tokens": 701,
+    "translated_title": "使用伪布尔多项式进行簇分析的降维方法",
+    "translated_abstract": "我们引入了一种使用伪布尔多项式的惩罚性表达式的降维方法，作为簇分析过程中不变降维的机制。在我们的实验中，我们展示了多维数据，如4维鸢尾花数据集可以降至2维空间，而30维威斯康星州乳腺癌（WDBC）数据集可以降至3维空间，通过搜索位于降维样本之间的直线或平面，我们可以以线性和无偏的方式提取簇，并且具有竞争性的准确度，可重复性和清晰的解释性。",
+    "tldr": "该论文介绍了使用伪布尔多项式的惩罚性表达式作为簇分析中的降维方法，能够以竞争性的准确度、可重复性和清晰解释性提取簇。",
+    "en_tdlr": "This paper introduces the usage of penalty-based formulation of pseudo-Boolean polynomials as a mechanism for invariant dimensionality reduction in cluster analysis, which can extract clusters with competitive accuracies, reproducibility, and clear interpretation."
+}

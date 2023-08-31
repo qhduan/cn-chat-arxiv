@@ -1,0 +1,11 @@
+{
+    "title": "Task-Based MoE for Multitask Multilingual Machine Translation. (arXiv:2308.15772v1 [cs.CL])",
+    "abstract": "Mixture-of-experts (MoE) architecture has been proven a powerful method for diverse tasks in training deep models in many applications. However, current MoE implementations are task agnostic, treating all tokens from different tasks in the same manner. In this work, we instead design a novel method that incorporates task information into MoE models at different granular levels with shared dynamic task-based adapters. Our experiments and analysis show the advantages of our approaches over the dense and canonical MoE models on multi-task multilingual machine translations. With task-specific adapters, our models can additionally generalize to new tasks efficiently.",
+    "link": "http://arxiv.org/abs/2308.15772",
+    "context": "Title: Task-Based MoE for Multitask Multilingual Machine Translation. (arXiv:2308.15772v1 [cs.CL])\nAbstract: Mixture-of-experts (MoE) architecture has been proven a powerful method for diverse tasks in training deep models in many applications. However, current MoE implementations are task agnostic, treating all tokens from different tasks in the same manner. In this work, we instead design a novel method that incorporates task information into MoE models at different granular levels with shared dynamic task-based adapters. Our experiments and analysis show the advantages of our approaches over the dense and canonical MoE models on multi-task multilingual machine translations. With task-specific adapters, our models can additionally generalize to new tasks efficiently.",
+    "path": "papers/23/08/2308.15772.json",
+    "total_tokens": 709,
+    "translated_title": "基于任务的混合专家模型用于多任务多语言机器翻译",
+    "translated_abstract": "在训练深度模型的多种应用中，混合专家（MoE）架构已被证明是一种强大的方法。然而，当前的MoE实现是任务无关的，将不同任务的所有标记以相同方式处理。在这项工作中，我们设计了一种新颖的方法，通过共享的动态基于任务的适配器，在MoE模型的不同粒度级别上将任务信息纳入其中。我们的实验证明了我们的方法在多任务多语言机器翻译上的优势。借助任务特定的适配器，我们的模型还可以高效地推广到新的任务。",
+    "tldr": "本论文介绍了一种基于任务的混合专家模型，将任务信息与MoE模型相结合，在多任务多语言机器翻译中取得了优越的结果，并且能够高效地应用于新的任务。"
+}

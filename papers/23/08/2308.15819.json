@@ -1,0 +1,12 @@
+{
+    "title": "SharpSAT-TD in Model Counting Competitions 2021-2023. (arXiv:2308.15819v1 [cs.AI])",
+    "abstract": "We describe SharpSAT-TD, our submission to the unweighted and weighted tracks of the Model Counting Competition in 2021-2023, which has won in total $6$ first places in different tracks of the competition. SharpSAT-TD is based on SharpSAT [Thurley, SAT 2006], with the primary novel modification being the use of tree decompositions in the variable selection heuristic as introduced by the authors in [CP 2021]. Unlike the version of SharpSAT-TD evaluated in [CP 2021], the current version that is available in https://github.com/Laakeri/sharpsat-td features also other significant modifications compared to the original SharpSAT, for example, a new preprocessor.",
+    "link": "http://arxiv.org/abs/2308.15819",
+    "context": "Title: SharpSAT-TD in Model Counting Competitions 2021-2023. (arXiv:2308.15819v1 [cs.AI])\nAbstract: We describe SharpSAT-TD, our submission to the unweighted and weighted tracks of the Model Counting Competition in 2021-2023, which has won in total $6$ first places in different tracks of the competition. SharpSAT-TD is based on SharpSAT [Thurley, SAT 2006], with the primary novel modification being the use of tree decompositions in the variable selection heuristic as introduced by the authors in [CP 2021]. Unlike the version of SharpSAT-TD evaluated in [CP 2021], the current version that is available in https://github.com/Laakeri/sharpsat-td features also other significant modifications compared to the original SharpSAT, for example, a new preprocessor.",
+    "path": "papers/23/08/2308.15819.json",
+    "total_tokens": 713,
+    "translated_title": "SharpSAT-TD在2021-2023模型计数竞赛中的应用",
+    "translated_abstract": "我们描述了SharpSAT-TD，我们提交到2021-2023模型计数竞赛的非加权和加权赛道的作品。它在比赛的不同赛道中共获得6次第一名。SharpSAT-TD基于SharpSAT [Thurley, SAT 2006]，其主要的创新修改是引入了作者在[CP 2021]中介绍的变量选择启发式算法中的树分解方法。与[CP 2021]中评估的SharpSAT-TD版本不同，目前在https://github.com/Laakeri/sharpsat-td上可用的版本与原始的SharpSAT相比也有其他重要的修改，例如添加了新的预处理器。",
+    "tldr": "SharpSAT-TD是基于SharpSAT的改进版本，在模型计数竞赛中获得了多个第一名，并引入了树分解的变量选择启发式算法。",
+    "en_tdlr": "SharpSAT-TD is an improved version based on SharpSAT, which won multiple first places in model counting competitions and introduced a variable selection heuristic algorithm using tree decompositions."
+}

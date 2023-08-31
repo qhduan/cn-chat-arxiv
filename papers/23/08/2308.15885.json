@@ -1,0 +1,12 @@
+{
+    "title": "Towards One-Shot Learning for Text Classification using Inductive Logic Programming. (arXiv:2308.15885v1 [cs.LG])",
+    "abstract": "With the ever-increasing potential of AI to perform personalised tasks, it is becoming essential to develop new machine learning techniques which are data-efficient and do not require hundreds or thousands of training data. In this paper, we explore an Inductive Logic Programming approach for one-shot text classification. In particular, we explore the framework of Meta-Interpretive Learning (MIL), along with using common-sense background knowledge extracted from ConceptNet. Results indicate that MIL can learn text classification rules from a small number of training examples. Moreover, the higher complexity of chosen examples, the higher accuracy of the outcome.",
+    "link": "http://arxiv.org/abs/2308.15885",
+    "context": "Title: Towards One-Shot Learning for Text Classification using Inductive Logic Programming. (arXiv:2308.15885v1 [cs.LG])\nAbstract: With the ever-increasing potential of AI to perform personalised tasks, it is becoming essential to develop new machine learning techniques which are data-efficient and do not require hundreds or thousands of training data. In this paper, we explore an Inductive Logic Programming approach for one-shot text classification. In particular, we explore the framework of Meta-Interpretive Learning (MIL), along with using common-sense background knowledge extracted from ConceptNet. Results indicate that MIL can learn text classification rules from a small number of training examples. Moreover, the higher complexity of chosen examples, the higher accuracy of the outcome.",
+    "path": "papers/23/08/2308.15885.json",
+    "total_tokens": 737,
+    "translated_title": "使用归纳逻辑编程实现文本分类的一次性学习",
+    "translated_abstract": "随着人工智能在执行个性化任务方面的潜力不断增长，开发数据高效且不需要大量训练数据的新的机器学习技术变得至关重要。本文探索了一种基于归纳逻辑编程的一次性文本分类方法。特别是，我们探索了元解释学习（MIL）框架，并利用从ConceptNet中提取的常识背景知识。结果表明，MIL可以从少量的训练样本中学习文本分类规则。此外，选择的样本的复杂度越高，结果的准确性也越高。",
+    "tldr": "本文使用归纳逻辑编程的方法实现了一次性的文本分类，并通过使用常识背景知识和元解释学习框架，可以从少量训练样本中学习分类规则，且复杂度更高的样本可以达到更高的准确性。",
+    "en_tdlr": "This paper proposes a one-shot learning approach for text classification using Inductive Logic Programming. By leveraging common-sense background knowledge and the Meta-Interpretive Learning framework, the method can learn classification rules from a small number of training examples, achieving higher accuracy with more complex examples."
+}

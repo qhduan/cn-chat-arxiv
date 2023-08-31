@@ -1,0 +1,12 @@
+{
+    "title": "Alien Coding. (arXiv:2301.11479v2 [cs.AI] UPDATED)",
+    "abstract": "We introduce a self-learning algorithm for synthesizing programs for OEIS sequences. The algorithm starts from scratch initially generating programs at random. Then it runs many iterations of a self-learning loop that interleaves (i) training neural machine translation to learn the correspondence between sequences and the programs discovered so far, and (ii) proposing many new programs for each OEIS sequence by the trained neural machine translator. The algorithm discovers on its own programs for more than 78000 OEIS sequences, sometimes developing unusual programming methods. We analyze its behavior and the invented programs in several experiments.",
+    "link": "http://arxiv.org/abs/2301.11479",
+    "context": "Title: Alien Coding. (arXiv:2301.11479v2 [cs.AI] UPDATED)\nAbstract: We introduce a self-learning algorithm for synthesizing programs for OEIS sequences. The algorithm starts from scratch initially generating programs at random. Then it runs many iterations of a self-learning loop that interleaves (i) training neural machine translation to learn the correspondence between sequences and the programs discovered so far, and (ii) proposing many new programs for each OEIS sequence by the trained neural machine translator. The algorithm discovers on its own programs for more than 78000 OEIS sequences, sometimes developing unusual programming methods. We analyze its behavior and the invented programs in several experiments.",
+    "path": "papers/23/01/2301.11479.json",
+    "total_tokens": 686,
+    "translated_title": "外星编码",
+    "translated_abstract": "我们介绍了一种自学习算法，用于合成OEIS序列的程序。该算法最初随机生成程序，然后通过训练神经机器翻译来学习序列和已发现程序之间的对应关系，并通过训练后的神经机器翻译器为每个OEIS序列提出许多新程序。该算法自己发现了超过78000个OEIS序列的程序，有时开发出非传统的编程方法。我们在几个实验中分析了算法的行为和发明的程序。",
+    "tldr": "这个论文介绍了一种自学习算法，用于合成OEIS序列的程序。该算法通过训练神经机器翻译器学习序列和已发现程序之间的对应关系，并自己发现了超过78000个OEIS序列的程序，有时还开发出非传统的编程方法。",
+    "en_tdlr": "This paper introduces a self-learning algorithm for synthesizing programs for OEIS sequences. The algorithm learns the correspondence between sequences and discovered programs through training neural machine translation, and discovers programs for over 78000 OEIS sequences on its own, sometimes developing unconventional programming methods."
+}

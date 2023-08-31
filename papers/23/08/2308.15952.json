@@ -1,0 +1,12 @@
+{
+    "title": "Benchmarking Multilabel Topic Classification in the Kyrgyz Language. (arXiv:2308.15952v1 [cs.CL])",
+    "abstract": "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classification in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classification in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions for future work.",
+    "link": "http://arxiv.org/abs/2308.15952",
+    "context": "Title: Benchmarking Multilabel Topic Classification in the Kyrgyz Language. (arXiv:2308.15952v1 [cs.CL])\nAbstract: Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classification in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classification in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions for future work.",
+    "path": "papers/23/08/2308.15952.json",
+    "total_tokens": 675,
+    "translated_title": "在吉尔吉斯语中进行多标签主题分类的基准测试",
+    "translated_abstract": "在本研究中，我们提出了一个新的公共基准测试，用于在吉尔吉斯语中进行主题分类，引入了一个基于新闻网站24.KG的收集和注释数据的数据集，并提供了多标签设置下新闻分类的几个基线模型。我们训练和评估了传统的统计模型和神经模型，并报告了得分，讨论了结果，并提出了未来工作的方向。",
+    "tldr": "本研究提出了一个新的公共基准测试，用于在吉尔吉斯语中进行主题分类。在多标签设置下，我们引入了一个基于收集和注释数据的数据集，并提供了几个基线模型。评估结果表明，我们的方法在该任务上取得了良好的性能，为未来的研究提供了方向。",
+    "en_tdlr": "This study presents a new public benchmark for topic classification in the Kyrgyz language. Introducing a dataset based on collected and annotated data, several baselines models are provided for news classification in the multilabel setting. The evaluation results show promising performance, offering directions for future research."
+}

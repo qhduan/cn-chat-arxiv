@@ -1,0 +1,12 @@
+{
+    "title": "Review of Parameter Tuning Methods for Nature-Inspired Algorithms. (arXiv:2308.15965v1 [cs.AI])",
+    "abstract": "Almost all optimization algorithms have algorithm-dependent parameters, and the setting of such parameter values can largely influence the behaviour of the algorithm under consideration. Thus, proper parameter tuning should be carried out to ensure the algorithm used for optimization may perform well and can be sufficiently robust for solving different types of optimization problems. This chapter reviews some of the main methods for parameter tuning and then highlights the important issues concerning the latest development in parameter tuning. A few open problems are also discussed with some recommendations for future research.",
+    "link": "http://arxiv.org/abs/2308.15965",
+    "context": "Title: Review of Parameter Tuning Methods for Nature-Inspired Algorithms. (arXiv:2308.15965v1 [cs.AI])\nAbstract: Almost all optimization algorithms have algorithm-dependent parameters, and the setting of such parameter values can largely influence the behaviour of the algorithm under consideration. Thus, proper parameter tuning should be carried out to ensure the algorithm used for optimization may perform well and can be sufficiently robust for solving different types of optimization problems. This chapter reviews some of the main methods for parameter tuning and then highlights the important issues concerning the latest development in parameter tuning. A few open problems are also discussed with some recommendations for future research.",
+    "path": "papers/23/08/2308.15965.json",
+    "total_tokens": 595,
+    "translated_title": "自然启发算法参数调整方法综述",
+    "translated_abstract": "几乎所有优化算法都有与算法相关的参数，而这些参数的设置可以极大地影响所考虑算法的行为。因此，应进行适当的参数调整，以确保用于优化的算法可以良好地执行，并能够足够稳健地解决不同类型的优化问题。本章综述了一些主要的参数调整方法，并重点介绍了参数调整的最新发展中的重要问题。还讨论了一些开放问题，并提出了对未来研究的一些建议。",
+    "tldr": "本文综述了自然启发算法参数调整的主要方法，并强调了参数调整最新发展中的重要问题。",
+    "en_tdlr": "This paper reviews the main methods for parameter tuning in nature-inspired algorithms and highlights the important issues in the latest development of parameter tuning."
+}

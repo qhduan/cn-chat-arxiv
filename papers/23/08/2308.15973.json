@@ -1,0 +1,12 @@
+{
+    "title": "Demo: A Digital Twin of the 5G Radio Access Network for Anomaly Detection Functionality. (arXiv:2308.15973v1 [cs.NI])",
+    "abstract": "Recently, the concept of digital twins (DTs) has received significant attention within the realm of 5G/6G. This demonstration shows an innovative DT design and implementation framework tailored toward integration within the 5G infrastructure. The proposed DT enables near real-time anomaly detection capability pertaining to user connectivity. It empowers the 5G system to proactively execute decisions for resource control and connection restoration.",
+    "link": "http://arxiv.org/abs/2308.15973",
+    "context": "Title: Demo: A Digital Twin of the 5G Radio Access Network for Anomaly Detection Functionality. (arXiv:2308.15973v1 [cs.NI])\nAbstract: Recently, the concept of digital twins (DTs) has received significant attention within the realm of 5G/6G. This demonstration shows an innovative DT design and implementation framework tailored toward integration within the 5G infrastructure. The proposed DT enables near real-time anomaly detection capability pertaining to user connectivity. It empowers the 5G system to proactively execute decisions for resource control and connection restoration.",
+    "path": "papers/23/08/2308.15973.json",
+    "total_tokens": 599,
+    "translated_title": "演示：基于数字孪生的5G无线接入网络异常检测功能",
+    "translated_abstract": "最近，在5G/6G领域中，数字孪生（DT）的概念引起了广泛关注。本演示展示了一种针对5G基础设施集成而设计和实现的创新的数字孪生框架。所提出的数字孪生能够实时检测用户连接异常，赋予5G系统主动执行资源控制和连接恢复的决策能力。",
+    "tldr": "该论文提出了一种基于数字孪生的5G无线接入网络异常检测功能，使得5G系统能够实时检测用户连接异常并主动进行资源控制和连接恢复的决策。",
+    "en_tdlr": "The paper introduces a digital twin-based anomaly detection functionality for the 5G radio access network, enabling real-time detection of user connectivity anomalies and proactive decision-making for resource control and connection restoration."
+}

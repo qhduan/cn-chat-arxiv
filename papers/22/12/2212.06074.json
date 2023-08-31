@@ -1,0 +1,12 @@
+{
+    "title": "Regression with Label Differential Privacy. (arXiv:2212.06074v2 [cs.LG] UPDATED)",
+    "abstract": "We study the task of training regression models with the guarantee of label differential privacy (DP). Based on a global prior distribution on label values, which could be obtained privately, we derive a label DP randomization mechanism that is optimal under a given regression loss function. We prove that the optimal mechanism takes the form of a \"randomized response on bins\", and propose an efficient algorithm for finding the optimal bin values. We carry out a thorough experimental evaluation on several datasets demonstrating the efficacy of our algorithm.",
+    "link": "http://arxiv.org/abs/2212.06074",
+    "context": "Title: Regression with Label Differential Privacy. (arXiv:2212.06074v2 [cs.LG] UPDATED)\nAbstract: We study the task of training regression models with the guarantee of label differential privacy (DP). Based on a global prior distribution on label values, which could be obtained privately, we derive a label DP randomization mechanism that is optimal under a given regression loss function. We prove that the optimal mechanism takes the form of a \"randomized response on bins\", and propose an efficient algorithm for finding the optimal bin values. We carry out a thorough experimental evaluation on several datasets demonstrating the efficacy of our algorithm.",
+    "path": "papers/22/12/2212.06074.json",
+    "total_tokens": 698,
+    "translated_title": "带有标签差分隐私的回归",
+    "translated_abstract": "我们研究了在保证标签差分隐私（DP）的情况下训练回归模型的任务。基于标签值的全局先验分布，该分布可以私密地获取，我们得到了一个在给定回归损失函数下最优的标签DP随机化机制。我们证明了最优机制采用“对箱进行随机响应”的形式，并提出了一种寻找最优箱值的高效算法。我们在几个数据集上进行了全面的实验评估，证明了我们算法的有效性。",
+    "tldr": "本论文研究了在保证标签差分隐私的情况下训练回归模型的任务，并提出了一种最优的标签差分隐私随机化机制，该机制采用了“对箱进行随机响应”的形式，并提供了一种高效算法来找到最优的箱值。",
+    "en_tdlr": "This paper studies the task of training regression models with the guarantee of label differential privacy (DP) and proposes an optimal label DP randomization mechanism that takes the form of \"randomized response on bins\". It also presents an efficient algorithm for finding the optimal bin values. Experimental evaluations demonstrate the efficacy of the proposed algorithm."
+}

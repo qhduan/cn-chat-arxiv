@@ -1,0 +1,11 @@
+{
+    "title": "On the Potential of CLIP for Compositional Logical Reasoning. (arXiv:2308.15887v1 [cs.AI])",
+    "abstract": "In this paper we explore the possibility of using OpenAI's CLIP to perform logically coherent grounded visual reasoning. To that end, we formalize our terms and give a geometric analysis of how embeddings in CLIP's latent space would need to be configured in order for the system to be logically coherent. Our main conclusion is that, as usually configured, CLIP cannot perform such reasoning.",
+    "link": "http://arxiv.org/abs/2308.15887",
+    "context": "Title: On the Potential of CLIP for Compositional Logical Reasoning. (arXiv:2308.15887v1 [cs.AI])\nAbstract: In this paper we explore the possibility of using OpenAI's CLIP to perform logically coherent grounded visual reasoning. To that end, we formalize our terms and give a geometric analysis of how embeddings in CLIP's latent space would need to be configured in order for the system to be logically coherent. Our main conclusion is that, as usually configured, CLIP cannot perform such reasoning.",
+    "path": "papers/23/08/2308.15887.json",
+    "total_tokens": 535,
+    "translated_title": "对于组合逻辑推理的 CLIP 潜力的研究",
+    "translated_abstract": "在本文中，我们探讨了使用OpenAI的CLIP进行逻辑连贯的视觉推理的可能性。为此，我们形式化了我们的术语，并对CLIP潜在空间中的嵌入进行了几何分析，以便系统在逻辑上连贯。我们的主要结论是，通常配置的CLIP不能进行这种推理。",
+    "tldr": "本文研究了使用CLIP进行组合逻辑推理的潜力，并发现通常配置的CLIP无法进行这种推理。"
+}
