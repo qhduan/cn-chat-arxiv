@@ -2,142 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Capital Structure Dynamics and Financial Performance in Indian Banks (An Analysis of Mergers and Acquisitions).](http://arxiv.org/abs/2308.16054) | 本研究调查了印度银行在并购活动中资本结构动态与财务绩效之间的关系，发现并购尝试对银行财务绩效和资本结构动态有微妙影响。 |
-| [^2] | [Vector Autoregression in Cryptocurrency Markets: Unraveling Complex Causal Networks.](http://arxiv.org/abs/2308.15769) | 通过多变量线性模型，我们证明可以建立反映经济直觉的加密货币网络，并展示高影响节点的重要性。 |
-| [^3] | [Asymptotics for Short Maturity Asian Options in a Jump-Diffusion model with Local Volatility.](http://arxiv.org/abs/2308.15672) | 本研究针对具有局部波动率分量的跳跃扩散模型，研究了亚洲期权的短期期权渐近性。作者给出了几种流行模型的亚洲期权价格的一阶渐近性结果，并提出了一种满足短期期权渐近性约束的解析近似方法。通过与蒙特卡洛模拟的对比测试，发现渐近结果与数值模拟结果具有良好的一致性。 |
-| [^4] | [The Financial Market of Environmental Indices.](http://arxiv.org/abs/2308.15661) | 本研究介绍了全球环境指数的金融市场，实施风险缓解措施，并将其货币化为特定国家的美元计价资产。鼓励机构投资者参与投资组合分析和交易，并提供金融工具来管理投资风险。 |
-| [^5] | [Signature Trading: A Path-Dependent Extension of the Mean-Variance Framework with Exogenous Signals.](http://arxiv.org/abs/2308.15135) | 本文提出了一种基于路径依赖性和外生信号的投资组合优化框架，通过利用粗路径签名将交易策略表示为路径的线性函数，将过去的时间序列观测的演化编码到优化问题中，并提出了动态均值-方差准则的简洁公式和显式解决方案，以及在有限时间范围内自然地引入了回撤控制的最优策略。 |
-| [^6] | [Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment.](http://arxiv.org/abs/2303.11956) | 本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。 |
-| [^7] | [Composite Sorting.](http://arxiv.org/abs/2303.06701) | 复合排序是一个新的排序框架，通过将不同类型的工作者分配到同一个职业中并同时进行正向和负向排序来实现。当固定投资减轻了不匹配的可变成本时，复合排序可以产生大量的工资分散程度。 |
-| [^8] | [Bitcoin Volatility and Intrinsic Time Using Double Subordinated Levy Processes.](http://arxiv.org/abs/2109.15051) | 提出了一种双下降利维过程（NDIG），用于模拟比特币的时间序列特性，并建立了一个无套利的期权定价模型。用NDIG过程的隐含波动率和单位时间增量的波动率来衡量比特币的波动性，与基于历史标准差的波动率进行比较，发现NDIG过程完美地捕捉到了观察到的样本内波动率。 |
-| [^9] | [Gift Contagion in Online Groups: Evidence From Virtual Red Packets.](http://arxiv.org/abs/1906.09698) | 通过分析东亚大型社交网站上的红包礼物数据，我们研究了在线群组中的礼物传染现象，发现接收到额外的一美元会导致接收者在随后的24小时内向群组发送18美分。这种效应主要是由更多的接收者被触发发送红包所驱动。 |
+| [^1] | [Linking microblogging sentiments to stock price movement: An application of GPT-4.](http://arxiv.org/abs/2308.16771) | 本文研究了GPT-4在通过微博情感分析预测股票价格运动方面的潜在改进，并开发了一种新的方法用于情境情感分析，结果显示GPT-4在准确性上超过了BERT和买入持有策略。 |
+| [^2] | [Improving Robustness and Accuracy of Ponzi Scheme Detection on Ethereum Using Time-Dependent Features.](http://arxiv.org/abs/2308.16391) | 这篇论文提出了一种基于交易的方法来提高以太坊上庞氏骗局的检测鲁棒性和准确性。现有的方法主要基于智能合约源代码或操作码进行检测，但缺乏鲁棒性。通过分析交易数据，可以更有效地识别庞氏骗局，因为交易更难伪装。 |
+| [^3] | [A new adaptive pricing framework for perpetual protocols using liquidity curves and on-chain oracles.](http://arxiv.org/abs/2308.16256) | 本文介绍了一种使用流动性曲线和链上预言机的新型自适应定价框架，可稳定和可预测地为永续合约定价，并根据当前市场条件对交易者报价费用。通过数学建模和与现有解决方案的比较，展示了该框架的操作和优势。同时，探讨了增强去中心化永续协议整体效率的其他功能。 |
+| [^4] | [Hedging Forecast Combinations With an Application to the Random Forest.](http://arxiv.org/abs/2308.15384) | 本文提出了一种使用对冲进行预测组合的通用方法，并应用于随机森林。研究表明，该方法在14个数据集中相对于标准方法在组合树预测形成加权随机森林方面具有改进的外样本表现。 |
+| [^5] | [Cognitive Aging and Labor Share.](http://arxiv.org/abs/2308.14982) | 该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。 |
+| [^6] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
+| [^7] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^8] | [Unbiased estimators for the Heston model with stochastic interest rates.](http://arxiv.org/abs/2301.12072) | 本研究结合了无偏估计器和具有随机利率的Heston模型，通过开发半精确的对数欧拉方案，证明了其收敛率为O(h)，适用于多种模型。 |
 
 # 详细
 
-[^1]: 印度银行资本结构动态与财务绩效（并购分析）
+[^1]: 将微博情绪与股票价格运动相关联：GPT-4的应用
 
-    Capital Structure Dynamics and Financial Performance in Indian Banks (An Analysis of Mergers and Acquisitions). (arXiv:2308.16054v1 [q-fin.GN])
+    Linking microblogging sentiments to stock price movement: An application of GPT-4. (arXiv:2308.16771v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2308.16054](http://arxiv.org/abs/2308.16054)
+    [http://arxiv.org/abs/2308.16771](http://arxiv.org/abs/2308.16771)
 
-    本研究调查了印度银行在并购活动中资本结构动态与财务绩效之间的关系，发现并购尝试对银行财务绩效和资本结构动态有微妙影响。
-
-    
-
-    本研究调查了印度银行在并购活动中资本结构动态与财务绩效之间的多方面关系。在面对日益激烈的竞争之际，银行有意识地采用并购策略来改善商业前景和维持金融稳定。本研究的主要目标是考察银行在并购交易前后的资本架构和财务结果的变化。通过对选定银行的年度报告进行了两年的回顾性研究，并采用配对t检验作为统计分析方法。配对t检验方法能够对相关数据集进行全面的统计分析，揭示了并购尝试对银行财务绩效和资本结构动态的微妙影响。本研究的发现有潜力为当前的研究领域增加新的认识。
-
-    This research investigates the multifaceted relationship underlying capital structure dynamics along with financial performance as a result of mergers and acquisitions, or M&As, in Indian banks. In the face of increasing competition, banks have deliberately embraced M&A as a strategy of improving commercial prospects and maintaining financial stability. The primary goal of this study is to examine the changes in the capital framework and financial results of banks before and after M&A transactions. The investigation, which employs a paired t-test as a method of statistical analysis, is based on a review of annual reports from selected banks over a two-year period before and after M&A transactions. The paired t-test approach allows for a thorough statistical analysis of interconnected datasets, revealing the subtle influence of M&A attempts on both bank financial performance as well as capital structure dynamics. The study's findings have the potential to add to the current body of know
-    
-[^2]: 加密货币市场中的向量自回归：揭示复杂因果网络
-
-    Vector Autoregression in Cryptocurrency Markets: Unraveling Complex Causal Networks. (arXiv:2308.15769v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2308.15769](http://arxiv.org/abs/2308.15769)
-
-    通过多变量线性模型，我们证明可以建立反映经济直觉的加密货币网络，并展示高影响节点的重要性。
+    本文研究了GPT-4在通过微博情感分析预测股票价格运动方面的潜在改进，并开发了一种新的方法用于情境情感分析，结果显示GPT-4在准确性上超过了BERT和买入持有策略。
 
     
 
-    从投机资产价格序列中推断金融网络的方法因其揭示时间序列数据中的因果和相关结构而有所不同，然而，它们通常涉及双变量或多变量预测建模。所需的模型复杂性密切相关于市场效率，即一个高度发达和高效的市场在价格数据中显示出很少的简单关系。这推动了对复杂非线性模型在发达市场的应用的研究。然而，目前尚不清楚简单模型是否能够提供有意义和有见地的描述迅速发展的加密货币市场的依赖性和相互关联性。在这里，我们展示了多变量线性模型可以创建反映经济直觉的信息性加密货币网络，并展示了高影响节点的重要性。所得网络证实了节点度数作为一个影响度量是显著的。
+    本文研究了GPT-4语言学习模型（LLM）在对比BERT模型中，通过对微博消息的情感分析来建模苹果和特斯拉2017年同日日常股价的潜在改进。我们记录了每日调整后的收盘价格，并将其转化为上涨或下跌的动态。利用两种LLM从Stocktwits平台上提取每日的情绪。我们开发了一种新颖的方法，通过综合提示来进行情境情感分析，以发掘现代LLM的真实能力。这使我们能够仔细提取情绪、感知优势或劣势，以及与分析公司相关性。采用逻辑回归评估提取的消息内容是否反映了股票价格的变动。结果表明，GPT-4在五个月中超过了BERT，显著提高了准确性，并且明显超过了天真的买入持有策略，达到了最高的准确性。
 
-    Methodologies to infer financial networks from the price series of speculative assets vary, however, they generally involve bivariate or multivariate predictive modelling to reveal causal and correlational structures within the time series data. The required model complexity intimately relates to the underlying market efficiency, where one expects a highly developed and efficient market to display very few simple relationships in price data. This has spurred research into the applications of complex nonlinear models for developed markets. However, it remains unclear if simple models can provide meaningful and insightful descriptions of the dependency and interconnectedness of the rapidly developed cryptocurrency market. Here we show that multivariate linear models can create informative cryptocurrency networks that reflect economic intuition, and demonstrate the importance of high-influence nodes. The resulting network confirms that node degree, a measure of influence, is significantly
+    This paper investigates the potential improvement of the GPT-4 Language Learning Model (LLM) in comparison to BERT for modeling same-day daily stock price movements of Apple and Tesla in 2017, based on sentiment analysis of microblogging messages. We recorded daily adjusted closing prices and translated them into up-down movements. Sentiment for each day was extracted from messages on the Stocktwits platform using both LLMs. We develop a novel method to engineer a comprehensive prompt for contextual sentiment analysis which unlocks the true capabilities of modern LLM. This enables us to carefully retrieve sentiments, perceived advantages or disadvantages, and the relevance towards the analyzed company. Logistic regression is used to evaluate whether the extracted message contents reflect stock price movements. As a result, GPT-4 exhibited substantial accuracy, outperforming BERT in five out of six months and substantially exceeding a naive buy-and-hold strategy, reaching a peak accurac
     
-[^3]: 在具有局部波动率的跳跃扩散模型中的短期期权的渐近性研究
+[^2]: 提高以太坊上庞氏骗局检测的鲁棒性和准确性的方法
 
-    Asymptotics for Short Maturity Asian Options in a Jump-Diffusion model with Local Volatility. (arXiv:2308.15672v1 [q-fin.PR])
+    Improving Robustness and Accuracy of Ponzi Scheme Detection on Ethereum Using Time-Dependent Features. (arXiv:2308.16391v1 [cs.CR])
 
-    [http://arxiv.org/abs/2308.15672](http://arxiv.org/abs/2308.15672)
+    [http://arxiv.org/abs/2308.16391](http://arxiv.org/abs/2308.16391)
 
-    本研究针对具有局部波动率分量的跳跃扩散模型，研究了亚洲期权的短期期权渐近性。作者给出了几种流行模型的亚洲期权价格的一阶渐近性结果，并提出了一种满足短期期权渐近性约束的解析近似方法。通过与蒙特卡洛模拟的对比测试，发现渐近结果与数值模拟结果具有良好的一致性。
-
-    
-
-    我们在一个具有局部波动率分量的跳跃扩散模型中，研究了亚洲期权的短期期权渐近性。跳动被建模为复合泊松过程，并扩展为包括指数Lévy模型的Lévy跳动。我们考虑了固定和浮动行权的亚洲期权。我们得到了文献中几个流行模型的亚洲期权价格一阶渐近性的显式结果：Merton跳跃扩散模型、双指数跳跃模型和方差伽玛模型。我们提出了一个满足短期期权渐近性约束的亚洲期权价格的解析近似，然后对其进行蒙特卡洛模拟。渐近结果与数值模拟在足够小的短期期限下具有良好的一致性。
-
-    We present a study of the short maturity asymptotics for Asian options in a jump-diffusion model with a local volatility component, where the jumps are modeled as a compound Poisson process which are later extended to L\'evy jumps, that includes the exponential L\'{e}vy model as a special case. Both fixed and floating strike Asian options are considered. Explicit results are obtained for the first-order asymptotics of the Asian options prices for a few popular models in the literature: the Merton jump-diffusion model, the double-exponential jump model, and the Variance Gamma model. We propose an analytical approximation for Asian option prices which satisfies the constraints from the short-maturity asymptotics, and test it against Monte Carlo simulations. The asymptotic results are in good agreement with numerical simulations for sufficiently small maturity.
-    
-[^4]: 环境指数的金融市场
-
-    The Financial Market of Environmental Indices. (arXiv:2308.15661v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2308.15661](http://arxiv.org/abs/2308.15661)
-
-    本研究介绍了全球环境指数的金融市场，实施风险缓解措施，并将其货币化为特定国家的美元计价资产。鼓励机构投资者参与投资组合分析和交易，并提供金融工具来管理投资风险。
+    这篇论文提出了一种基于交易的方法来提高以太坊上庞氏骗局的检测鲁棒性和准确性。现有的方法主要基于智能合约源代码或操作码进行检测，但缺乏鲁棒性。通过分析交易数据，可以更有效地识别庞氏骗局，因为交易更难伪装。
 
     
 
-    本文介绍了全球环境指数的金融市场的概念，解决可持续发展问题，旨在吸引机构投资者。我们实施了风险缓解措施，以管理与投资这个新的金融市场相关的固有风险。我们使用定量指标对环境指数进行货币化，并构建了特定国家的环境指数，使其成为以美元计价的资产。我们的主要目标是鼓励机构投资者在这个新兴金融市场中参与投资组合分析和交易。为了评估和管理投资风险，我们的方法结合了金融计量理论和动态资产定价工具。我们提供了一种计量经济分析方法，揭示了该市场中环境和经济指标之间的关系。此外，我们推导出金融看跌期权作为投资风险管理的保险工具。
+    区块链的快速发展导致越来越多的资金涌入加密货币市场，也吸引了近年来网络犯罪分子的兴趣。庞氏骗局作为一种老式的欺诈行为，现在也流行于区块链上，给许多加密货币投资者造成了巨大的财务损失。现有文献中已经提出了一些庞氏骗局检测方法，其中大多数是基于智能合约的源代码或操作码进行检测的。虽然基于合约代码的方法在准确性方面表现出色，但它缺乏鲁棒性：首先，大部分以太坊上的合约源代码并不公开可用；其次，庞氏骗局开发者可以通过混淆操作码或者创造新的分配逻辑来欺骗基于合约代码的检测模型（因为这些模型仅在现有的庞氏逻辑上进行训练）。基于交易的方法可以提高检测的鲁棒性，因为与智能合约不同，交易更加难以伪装。
 
-    This paper introduces the concept of a global financial market for environmental indices, addressing sustainability concerns and aiming to attract institutional investors. Risk mitigation measures are implemented to manage inherent risks associated with investments in this new financial market. We monetize the environmental indices using quantitative measures and construct country-specific environmental indices, enabling them to be viewed as dollar-denominated assets. Our primary goal is to encourage the active engagement of institutional investors in portfolio analysis and trading within this emerging financial market. To evaluate and manage investment risks, our approach incorporates financial econometric theory and dynamic asset pricing tools. We provide an econometric analysis that reveals the relationships between environmental and economic indicators in this market. Additionally, we derive financial put options as insurance instruments that can be employed to manage investment ri
+    The rapid development of blockchain has led to more and more funding pouring into the cryptocurrency market, which also attracted cybercriminals' interest in recent years. The Ponzi scheme, an old-fashioned fraud, is now popular on the blockchain, causing considerable financial losses to many crypto-investors. A few Ponzi detection methods have been proposed in the literature, most of which detect a Ponzi scheme based on its smart contract source code or opcode. The contract-code-based approach, while achieving very high accuracy, is not robust: first, the source codes of a majority of contracts on Ethereum are not available, and second, a Ponzi developer can fool a contract-code-based detection model by obfuscating the opcode or inventing a new profit distribution logic that cannot be detected (since these models were trained on existing Ponzi logics only). A transaction-based approach could improve the robustness of detection because transactions, unlike smart contracts, are harder t
     
-[^5]: 签名交易：一种具有外生信号的路径依赖性扩展的均值-方差框架
+[^3]: 一种使用流动性曲线和链上预言机的永续协议自适应定价框架
 
-    Signature Trading: A Path-Dependent Extension of the Mean-Variance Framework with Exogenous Signals. (arXiv:2308.15135v1 [q-fin.PM])
+    A new adaptive pricing framework for perpetual protocols using liquidity curves and on-chain oracles. (arXiv:2308.16256v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2308.15135](http://arxiv.org/abs/2308.15135)
+    [http://arxiv.org/abs/2308.16256](http://arxiv.org/abs/2308.16256)
 
-    本文提出了一种基于路径依赖性和外生信号的投资组合优化框架，通过利用粗路径签名将交易策略表示为路径的线性函数，将过去的时间序列观测的演化编码到优化问题中，并提出了动态均值-方差准则的简洁公式和显式解决方案，以及在有限时间范围内自然地引入了回撤控制的最优策略。
-
-    
-
-    本文介绍了一种投资组合优化框架，其中利用粗路径签名（Lyons, 1998）的使用提供了一种新颖的方法来在联合信号-资产动力学中纳入路径依赖性，从而自然地扩展了传统因子模型，同时保持了生成的公式轻量级且易于解释。
-
-    In this article we introduce a portfolio optimisation framework, in which the use of rough path signatures (Lyons, 1998) provides a novel method of incorporating path-dependencies in the joint signal-asset dynamics, naturally extending traditional factor models, while keeping the resulting formulas lightweight and easily interpretable. We achieve this by representing a trading strategy as a linear functional applied to the signature of a path (which we refer to as "Signature Trading" or "Sig-Trading"). This allows the modeller to efficiently encode the evolution of past time-series observations into the optimisation problem. In particular, we derive a concise formulation of the dynamic mean-variance criterion alongside an explicit solution in our setting, which naturally incorporates a drawdown control in the optimal strategy over a finite time horizon. Secondly, we draw parallels between classical portfolio stategies and Sig-Trading strategies and explain how the latter leads to a pat
-    
-[^6]: 基于一般均衡的大规模教育改革：印度回归不连续证据的评论
-
-    Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment. (arXiv:2303.11956v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.11956](http://arxiv.org/abs/2303.11956)
-
-    本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。
+    本文介绍了一种使用流动性曲线和链上预言机的新型自适应定价框架，可稳定和可预测地为永续合约定价，并根据当前市场条件对交易者报价费用。通过数学建模和与现有解决方案的比较，展示了该框架的操作和优势。同时，探讨了增强去中心化永续协议整体效率的其他功能。
 
     
 
-    本文重新分析了 Khanna (2023) 中通过回归不连续设计研究印度教育对劳动力市场的影响的内容。在图形初步分析中，反转绘图软件默认值的覆盖极大地减少了不连续性的出现。在数据中缺少离不连续点四个街区；修复后削减了对学校和对数工资的简化形式影响分别为62％和75％。使用一致的方差估计器，并将其聚类处理到地理治疗单元，进一步削弱了积极影响的推断。一般均衡效应和替代弹性的估计不是无偏的，且有效方差为无限大。
+    本文介绍了一种创新的机制，用于根据当前市场条件为永续合约定价和对交易者报价费用。该方法利用流动性曲线和链上预言机建立了一种新的自适应定价框架，考虑了各种因素，确保定价的稳定性和可预测性。该框架利用抛物线和S形函数报价价格和费用，考虑了流动性、活跃的多头和空头头寸以及利用率。本文通过数学建模详细解释了自适应定价框架与流动性曲线的操作，并将其与现有解决方案进行了比较。此外，我们探讨了增强去中心化永续协议整体效率的其他功能。
 
-    This paper reanalyzes Khanna (2023), which studies labor market effects of schooling in India through a regression discontinuity design. In graphical preliminaries, reversing overrides of the plotting software's defaults greatly reduces the appearance of discontinuities. Absent from the data are four districts close to the discontinuity; restoring them cuts the reduced-form impacts on schooling and log wages by 62% and 75%. Using a consistent variance estimator, and clustering it at the geographic unit of treatment, further weakens the inference of positive impact. The estimates of general equilibrium effects and elasticities of substitution are not unbiased and have effectively infinite variance.
+    This whitepaper introduces an innovative mechanism for pricing perpetual contracts and quoting fees to traders based on current market conditions. The approach employs liquidity curves and on-chain oracles to establish a new adaptive pricing framework that considers various factors, ensuring pricing stability and predictability. The framework utilizes parabolic and sigmoid functions to quote prices and fees, accounting for liquidity, active long and short positions, and utilization. This whitepaper provides a detailed explanation of how the adaptive pricing framework, in conjunction with liquidity curves, operates through mathematical modeling and compares it to existing solutions. Furthermore, we explore additional features that enhance the overall efficiency of the decentralized perpetual protocol.
     
-[^7]: 复合排序
+[^4]: 使用对冲进行预测组合，并应用于随机森林
 
-    Composite Sorting. (arXiv:2303.06701v2 [econ.GN] UPDATED)
+    Hedging Forecast Combinations With an Application to the Random Forest. (arXiv:2308.15384v1 [stat.ME])
 
-    [http://arxiv.org/abs/2303.06701](http://arxiv.org/abs/2303.06701)
+    [http://arxiv.org/abs/2308.15384](http://arxiv.org/abs/2308.15384)
 
-    复合排序是一个新的排序框架，通过将不同类型的工作者分配到同一个职业中并同时进行正向和负向排序来实现。当固定投资减轻了不匹配的可变成本时，复合排序可以产生大量的工资分散程度。
-
-    
-
-    我们提出了一个新的排序框架：复合排序。复合排序包括（1）将不同的工作者类型分配到同一个职业中，以及（2）给定的工作者类型同时参与正向排序和负向排序。当固定投资减轻了不匹配的可变成本时，复合排序就会出现。我们完全描述了最优排序，并且还证明了当不匹配成本的凹度较小时，排序更为积极。然后我们对均衡工资进行了描述。工资具有区域层次结构，相对工资仅取决于技能群体内的排序。定量上，复合排序可以在美国的职业内产生相当大的工资分散程度。
-
-    We propose a new sorting framework: composite sorting. Composite sorting comprises of (1) distinct worker types assigned to the same occupation, and (2) a given worker type simultaneously being part of both positive and negative sorting. Composite sorting arises when fixed investments mitigate variable costs of mismatch. We completely characterize optimal sorting and additionally show it is more positive when mismatch costs are less concave. We then characterize equilibrium wages. Wages have a regional hierarchical structure relative wages depend solely on sorting within skill groups. Quantitatively, composite sorting can generate a sizable portion of within-occupations wage dispersion in the US.
-    
-[^8]: 比特币波动性和内在时间的双下降利维过程
-
-    Bitcoin Volatility and Intrinsic Time Using Double Subordinated Levy Processes. (arXiv:2109.15051v2 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/2109.15051](http://arxiv.org/abs/2109.15051)
-
-    提出了一种双下降利维过程（NDIG），用于模拟比特币的时间序列特性，并建立了一个无套利的期权定价模型。用NDIG过程的隐含波动率和单位时间增量的波动率来衡量比特币的波动性，与基于历史标准差的波动率进行比较，发现NDIG过程完美地捕捉到了观察到的样本内波动率。
+    本文提出了一种使用对冲进行预测组合的通用方法，并应用于随机森林。研究表明，该方法在14个数据集中相对于标准方法在组合树预测形成加权随机森林方面具有改进的外样本表现。
 
     
 
-    我们提出了一种双下降利维过程（NDIG），用于建模加密货币比特币的时间序列特性。NDIG捕捉到比特币价格的偏斜和厚尾特性，并提供了一个无套利的期权定价模型。在这个框架下，我们推导出了两个比特币波动率指标。第一个指标将NDIG期权定价与Cboe VIX模型结合起来计算隐含波动率；第二个指标使用了NDIG模型单位时间增量的波动率。将两个指标与基于历史标准差的波动率进行比较。通过适当的线性缩放，NDIG过程完美地捕捉到了观察到的样本内波动率。
+    本文提出了一个通用的、高层次的方法来生成预测组合，如果能够获得两个总体量：个体预测误差向量的均值向量和协方差矩阵，该方法能够以均方预测误差为标准，得到最优线性组合的预测。我们指出，这个问题与一个均值-方差投资组合构建问题是相同的，其中投资组合权重对应于预测组合权重。我们允许负的预测权重，并将这样的权重解释为对估计量之间的过度估计风险和不足估计风险进行对冲。这种解释直接来自投资组合类比。我们在14个数据集中演示了我们的方法相对于标准方法在组合树预测形成加权随机森林方面的外样本表现改进。
 
-    We propose a doubly subordinated Levy process, NDIG, to model the time series properties of the cryptocurrency bitcoin. NDIG captures the skew and fat-tailed properties of bitcoin prices and gives rise to an arbitrage free, option pricing model. In this framework we derive two bitcoin volatility measures. The first combines NDIG option pricing with the Cboe VIX model to compute an implied volatility; the second uses the volatility of the unit time increment of the NDIG model. Both are compared to a volatility based upon historical standard deviation. With appropriate linear scaling, the NDIG process perfectly captures observed, in-sample, volatility.
+    This papers proposes a generic, high-level methodology for generating forecast combinations that would deliver the optimal linearly combined forecast in terms of the mean-squared forecast error if one had access to two population quantities: the mean vector and the covariance matrix of the vector of individual forecast errors. We point out that this problem is identical to a mean-variance portfolio construction problem, in which portfolio weights correspond to forecast combination weights. We allow negative forecast weights and interpret such weights as hedging over and under estimation risks across estimators. This interpretation follows directly as an implication of the portfolio analogy. We demonstrate our method's improved out-of-sample performance relative to standard methods in combining tree forecasts to form weighted random forests in 14 data sets.
     
-[^9]: 在线群组中的礼物传染：来自虚拟红包的证据
+[^5]: 认知衰老与劳动份额
 
-    Gift Contagion in Online Groups: Evidence From Virtual Red Packets. (arXiv:1906.09698v5 [econ.GN] UPDATED)
+    Cognitive Aging and Labor Share. (arXiv:2308.14982v1 [econ.GN])
 
-    [http://arxiv.org/abs/1906.09698](http://arxiv.org/abs/1906.09698)
+    [http://arxiv.org/abs/2308.14982](http://arxiv.org/abs/2308.14982)
 
-    通过分析东亚大型社交网站上的红包礼物数据，我们研究了在线群组中的礼物传染现象，发现接收到额外的一美元会导致接收者在随后的24小时内向群组发送18美分。这种效应主要是由更多的接收者被触发发送红包所驱动。
+    该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。
 
     
 
-    礼物在人际关系中形成纽带的重要工具。我们的研究分析了在线群组中的礼物传染现象。礼物传染通过促使进一步的礼物来鼓励社交纽带；它还可以促进群组互动和团结。我们利用东亚大型社交网站上3600万个在线红包礼物的数据，利用自然实验设计来识别在线群组中礼物赠送的社交传染现象。我们的自然实验得以实现的原因是平台上礼物金额分配算法的随机化，这解决了观察数据中因果识别的常见挑战。我们的研究提供了礼物传染的证据：平均而言，接收到额外的一美元会导致接收者在随后的24小时内向群组发送18美分。分解这个效应，我们发现主要是由广泛边际所驱动--更多的接收者被触发发送红包。此外，我们发现...
+    劳动份额，即经济产出的工资比例，在工业化国家中不可理解地在下降。虽然许多之前的研究试图通过经济因素来解释这种下降，但我们的新颖方法将这种下降与生物因素联系起来。具体而言，我们提出了一个理论宏观经济模型，劳动份额反映了劳动力自动化现有产出和消费者需求新的依赖人力劳动的产出变体之间的动态平衡。工业化导致人口老龄化，虽然在工作年限内认知表现稳定，但之后急剧下降。因此，老龄消费者认知能力的下降减少了对新的产出变体的需求，导致劳动份额下降。我们的模型将劳动份额表达为中位数年龄的代数函数，并通过非线性随机回归在工业化经济体的历史数据上以惊人的准确性进行了验证。
 
-    Gifts are important instruments for forming bonds in interpersonal relationships. Our study analyzes the phenomenon of gift contagion in online groups. Gift contagion encourages social bonds by prompting further gifts; it may also promote group interaction and solidarity. Using data on 36 million online red packet gifts on a large social site in East Asia, we leverage a natural experimental design to identify the social contagion of gift giving in online groups. Our natural experiment is enabled by the randomization of the gift amount allocation algorithm on the platform, which addresses the common challenge of causal identifications in observational data. Our study provides evidence of gift contagion: on average, receiving one additional dollar causes a recipient to send 18 cents back to the group within the subsequent 24 hours. Decomposing this effect, we find that it is mainly driven by the extensive margin -- more recipients are triggered to send red packets. Moreover, we find that
+    Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.
+    
+[^6]: 持不同意见：测量FOMC会议中的隐藏异议
+
+    Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.10131](http://arxiv.org/abs/2308.10131)
+
+    该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。
+
+    
+
+    基于1976年至2017年的FOMC投票异议记录和会议记录，我们开发了一个基于自我关注模块的深度学习模型，用于确定每个成员在每个会议中的异议程度。虽然异议很少见，但我们发现成员们经常对政策决策持保留意见。异议程度主要由当前或预测的宏观经济数据驱动，成员的个人特征几乎不起作用。我们还利用模型评估会议之间成员的演讲，并发现它们所揭示的异议程度与随后的会议异议程度之间存在弱相关性。最后，我们发现每当货币政策行动更加激进时，异议程度会增加。
+
+    Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
+    
+[^7]: 经济主体的动态运输
+
+    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+
+    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
+
+    
+
+    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
+
+    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
+    
+[^8]: 具有随机利率的Heston模型的无偏估计器
+
+    Unbiased estimators for the Heston model with stochastic interest rates. (arXiv:2301.12072v2 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2301.12072](http://arxiv.org/abs/2301.12072)
+
+    本研究结合了无偏估计器和具有随机利率的Heston模型，通过开发半精确的对数欧拉方案，证明了其收敛率为O(h)，适用于多种模型。
+
+    
+
+    我们结合了Rhee和Glynn（Operations Research: 63(5), 1026-1043，2015）中的无偏估计器和具有随机利率的Heston模型。具体地，我们首先为具有随机利率的Heston模型开发了一个半精确的对数欧拉方案。然后，在一些温和的假设下，我们证明收敛率在L^2范数中是O(h)，其中h是步长。该结果适用于许多模型，如Heston-Hull-While模型，Heston-CIR模型和Heston-Black-Karasinski模型。数值实验支持我们的理论收敛率。
+
+    We combine the unbiased estimators in Rhee and Glynn (Operations Research: 63(5), 1026-1043, 2015) and the Heston model with stochastic interest rates. Specifically, we first develop a semi-exact log-Euler scheme for the Heston model with stochastic interest rates. Then, under mild assumptions, we show that the convergence rate in the $L^2$ norm is $O(h)$, where $h$ is the step size. The result applies to a large class of models, such as the Heston-Hull-While model, the Heston-CIR model and the Heston-Black-Karasinski model. Numerical experiments support our theoretical convergence rate.
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "A numerical approach for the fractional Laplacian via deep neural networks. (arXiv:2308.16272v1 [math.AP])",
+    "abstract": "We consider the fractional elliptic problem with Dirichlet boundary conditions on a bounded and convex domain $D$ of $\\mathbb{R}^d$, with $d \\geq 2$. In this paper, we perform a stochastic gradient descent algorithm that approximates the solution of the fractional problem via Deep Neural Networks. Additionally, we provide four numerical examples to test the efficiency of the algorithm, and each example will be studied for many values of $\\alpha \\in (1,2)$ and $d \\geq 2$.",
+    "link": "http://arxiv.org/abs/2308.16272",
+    "context": "Title: A numerical approach for the fractional Laplacian via deep neural networks. (arXiv:2308.16272v1 [math.AP])\nAbstract: We consider the fractional elliptic problem with Dirichlet boundary conditions on a bounded and convex domain $D$ of $\\mathbb{R}^d$, with $d \\geq 2$. In this paper, we perform a stochastic gradient descent algorithm that approximates the solution of the fractional problem via Deep Neural Networks. Additionally, we provide four numerical examples to test the efficiency of the algorithm, and each example will be studied for many values of $\\alpha \\in (1,2)$ and $d \\geq 2$.",
+    "path": "papers/23/08/2308.16272.json",
+    "total_tokens": 619,
+    "translated_title": "通过深度神经网络的数值方法解决分数Laplacian问题",
+    "translated_abstract": "本文考虑在$\\mathbb{R}^d$的有界凸域$D$上具有Dirichlet边界条件的分数椭圆问题，其中$d \\geq 2$。我们采用随机梯度下降算法通过深度神经网络逼近分数问题的解。此外，我们提供了四个数值示例来测试算法的效率，并研究了每个示例中$\\alpha \\in (1,2)$和$d \\geq 2$的多个值。",
+    "tldr": "本文通过深度神经网络的数值方法解决了具有分数Laplacian的椭圆问题，并提供了四个数值示例来验证算法的效率。"
+}

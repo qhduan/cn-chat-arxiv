@@ -1,0 +1,11 @@
+{
+    "title": "Towards Multilingual Automatic Dialogue Evaluation. (arXiv:2308.16795v1 [cs.CL])",
+    "abstract": "The main limiting factor in the development of robust multilingual dialogue evaluation metrics is the lack of multilingual data and the limited availability of open sourced multilingual dialogue systems. In this work, we propose a workaround for this lack of data by leveraging a strong multilingual pretrained LLM and augmenting existing English dialogue data using Machine Translation. We empirically show that the naive approach of finetuning a pretrained multilingual encoder model with translated data is insufficient to outperform the strong baseline of finetuning a multilingual model with only source data. Instead, the best approach consists in the careful curation of translated data using MT Quality Estimation metrics, excluding low quality translations that hinder its performance.",
+    "link": "http://arxiv.org/abs/2308.16795",
+    "context": "Title: Towards Multilingual Automatic Dialogue Evaluation. (arXiv:2308.16795v1 [cs.CL])\nAbstract: The main limiting factor in the development of robust multilingual dialogue evaluation metrics is the lack of multilingual data and the limited availability of open sourced multilingual dialogue systems. In this work, we propose a workaround for this lack of data by leveraging a strong multilingual pretrained LLM and augmenting existing English dialogue data using Machine Translation. We empirically show that the naive approach of finetuning a pretrained multilingual encoder model with translated data is insufficient to outperform the strong baseline of finetuning a multilingual model with only source data. Instead, the best approach consists in the careful curation of translated data using MT Quality Estimation metrics, excluding low quality translations that hinder its performance.",
+    "path": "papers/23/08/2308.16795.json",
+    "total_tokens": 869,
+    "translated_title": "实现多语言自动对话评估的方法",
+    "translated_abstract": "多语言对话评估指标发展的主要限制因素是缺乏多语言数据和少量的开源多语言对话系统。本文提出了一种解决这种数据不足的方法，即利用强大的预训练多语言语言模型（LLM）并使用机器翻译来增强现有的英语对话数据。我们的实证研究表明，直接使用翻译数据来微调预训练的多语言编码模型的朴素方法无法超过只使用源数据微调多语言模型的强基准。相反，最佳方法是通过使用翻译质量估计指标来精心筛选翻译数据，排除低质量的翻译，以提高其性能。",
+    "tldr": "本文提出了一种通过使用机器翻译增强现有英语对话数据的方法来解决多语言对话评估的数据不足问题。实证研究表明，仅使用源数据进行微调的强基准方法优于直接使用翻译数据微调预训练多语言模型的朴素方法。最佳方法是利用翻译质量估计指标精心筛选翻译数据，排除低质量的翻译。"
+}

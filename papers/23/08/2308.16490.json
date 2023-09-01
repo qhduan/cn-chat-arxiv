@@ -1,0 +1,12 @@
+{
+    "title": "Latent Painter. (arXiv:2308.16490v1 [cs.CV])",
+    "abstract": "Latent diffusers revolutionized the generative AI and inspired creative art. When denoising the latent, the predicted original image at each step collectively animates the formation. However, the animation is limited by the denoising nature of the diffuser, and only renders a sharpening process. This work presents Latent Painter, which uses the latent as the canvas, and the diffuser predictions as the plan, to generate painting animation. Latent Painter also transits one generated image to another, which can happen between images from two different sets of checkpoints.",
+    "link": "http://arxiv.org/abs/2308.16490",
+    "context": "Title: Latent Painter. (arXiv:2308.16490v1 [cs.CV])\nAbstract: Latent diffusers revolutionized the generative AI and inspired creative art. When denoising the latent, the predicted original image at each step collectively animates the formation. However, the animation is limited by the denoising nature of the diffuser, and only renders a sharpening process. This work presents Latent Painter, which uses the latent as the canvas, and the diffuser predictions as the plan, to generate painting animation. Latent Painter also transits one generated image to another, which can happen between images from two different sets of checkpoints.",
+    "path": "papers/23/08/2308.16490.json",
+    "total_tokens": 685,
+    "translated_title": "潜在画家",
+    "translated_abstract": "潜在扩散器在生成AI领域引起了革命，并激发了创造性艺术。在去噪潜在时，每个步骤预测的原始图像共同形成了动画。然而，动画受到扩散器去噪特性的限制，只呈现了一个锐化过程。本文介绍了潜在画家，它以潜在作为画布，以扩散器的预测作为计划，生成绘画动画。潜在画家还可以将一个生成的图像转换为另一个图像，这可以发生在两个不同检查点集中的图像之间。",
+    "tldr": "这个论文介绍了一种名为潜在画家的技术，它利用潜在作为画布和扩散器的预测作为计划来生成绘画动画，同时还可以在不同的检查点集中转换图像。",
+    "en_tdlr": "This paper introduces a technique called Latent Painter, which uses the latent as the canvas and the diffuser predictions as the plan to generate painting animations. It can also transition between images from different sets of checkpoints."
+}

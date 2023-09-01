@@ -1,0 +1,12 @@
+{
+    "title": "High Dimensional Time Series Regression Models: Applications to Statistical Learning Methods. (arXiv:2308.16192v1 [econ.EM])",
+    "abstract": "These lecture notes provide an overview of existing methodologies and recent developments for estimation and inference with high dimensional time series regression models. First, we present main limit theory results for high dimensional dependent data which is relevant to covariance matrix structures as well as to dependent time series sequences. Second, we present main aspects of the asymptotic theory related to time series regression models with many covariates. Third, we discuss various applications of statistical learning methodologies for time series analysis purposes.",
+    "link": "http://arxiv.org/abs/2308.16192",
+    "context": "Title: High Dimensional Time Series Regression Models: Applications to Statistical Learning Methods. (arXiv:2308.16192v1 [econ.EM])\nAbstract: These lecture notes provide an overview of existing methodologies and recent developments for estimation and inference with high dimensional time series regression models. First, we present main limit theory results for high dimensional dependent data which is relevant to covariance matrix structures as well as to dependent time series sequences. Second, we present main aspects of the asymptotic theory related to time series regression models with many covariates. Third, we discuss various applications of statistical learning methodologies for time series analysis purposes.",
+    "path": "papers/23/08/2308.16192.json",
+    "total_tokens": 611,
+    "translated_title": "高维时间序列回归模型：应用于统计学习方法的研究",
+    "translated_abstract": "这些讲稿概述了高维时间序列回归模型的现有方法和最新发展，包括高维相关数据的主要极限理论结果、与许多协变量的时间序列回归模型相关的渐近理论主要方面以及统计学习方法在时间序列分析中的各种应用。",
+    "tldr": "这篇论文概述了高维时间序列回归模型的方法和最新发展，包括相关数据的极限理论结果、与许多协变量的时间序列回归模型相关的渐近理论和统计学习方法的多种应用。",
+    "en_tdlr": "This paper provides an overview of methodologies and recent developments for high dimensional time series regression models, including limit theory results for correlated data, asymptotic theory for models with many covariates, and various applications of statistical learning methods in time series analysis."
+}

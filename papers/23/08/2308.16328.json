@@ -1,0 +1,11 @@
+{
+    "title": "Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection. (arXiv:2308.16328v1 [cs.AI])",
+    "abstract": "The Internet and social media have altered how individuals access news in the age of instantaneous information distribution. While this development has increased access to information, it has also created a significant problem: the spread of fake news and information. Fake news is rapidly spreading on digital platforms, which has a negative impact on the media ecosystem, public opinion, decision-making, and social cohesion. Natural Language Processing(NLP), which offers a variety of approaches to identify content as authentic, has emerged as a potent weapon in the growing war against disinformation. This paper takes an in-depth look at how NLP technology can be used to detect fake news and reveals the challenges and opportunities it presents.",
+    "link": "http://arxiv.org/abs/2308.16328",
+    "context": "Title: Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection. (arXiv:2308.16328v1 [cs.AI])\nAbstract: The Internet and social media have altered how individuals access news in the age of instantaneous information distribution. While this development has increased access to information, it has also created a significant problem: the spread of fake news and information. Fake news is rapidly spreading on digital platforms, which has a negative impact on the media ecosystem, public opinion, decision-making, and social cohesion. Natural Language Processing(NLP), which offers a variety of approaches to identify content as authentic, has emerged as a potent weapon in the growing war against disinformation. This paper takes an in-depth look at how NLP technology can be used to detect fake news and reveals the challenges and opportunities it presents.",
+    "path": "papers/23/08/2308.16328.json",
+    "total_tokens": 740,
+    "translated_title": "揭秘假新闻：运用自然语言处理在打击假新闻中的革命性真相 (arXiv:2308.16328v1 [cs.AI])",
+    "translated_abstract": "互联网和社交媒体改变了人们在即时信息传播时代获取新闻的方式。虽然这一发展增加了信息获取的机会，但也带来了一个重大问题：假新闻和虚假信息的传播。假新闻正在快速传播于数字平台上，对媒体生态系统、舆论、决策和社会凝聚力产生了负面影响。自然语言处理(NLP)作为一种识别内容真实性的多种方法，已经成为与虚假信息作斗争中的有力武器。本文深入探讨了如何运用NLP技术来检测假新闻，并揭示了其中的挑战和机遇。",
+    "tldr": "这篇论文深入讨论了如何利用自然语言处理技术来检测假新闻，并揭示了其中的挑战和机遇。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic nsNet2: Efficient Deep Noise Suppression with Early Exiting. (arXiv:2308.16678v1 [cs.SD])",
+    "abstract": "Although deep learning has made strides in the field of deep noise suppression, leveraging deep architectures on resource-constrained devices still proved challenging. Therefore, we present an early-exiting model based on nsNet2 that provides several levels of accuracy and resource savings by halting computations at different stages. Moreover, we adapt the original architecture by splitting the information flow to take into account the injected dynamism. We show the trade-offs between performance and computational complexity based on established metrics.",
+    "link": "http://arxiv.org/abs/2308.16678",
+    "context": "Title: Dynamic nsNet2: Efficient Deep Noise Suppression with Early Exiting. (arXiv:2308.16678v1 [cs.SD])\nAbstract: Although deep learning has made strides in the field of deep noise suppression, leveraging deep architectures on resource-constrained devices still proved challenging. Therefore, we present an early-exiting model based on nsNet2 that provides several levels of accuracy and resource savings by halting computations at different stages. Moreover, we adapt the original architecture by splitting the information flow to take into account the injected dynamism. We show the trade-offs between performance and computational complexity based on established metrics.",
+    "path": "papers/23/08/2308.16678.json",
+    "total_tokens": 659,
+    "translated_title": "动态nsNet2: 高效的提前退出深度噪声抑制模型",
+    "translated_abstract": "尽管深度学习在深度噪声抑制领域取得了进展，但在资源受限的设备上利用深度架构仍然具有挑战性。因此，我们提出了一个基于nsNet2的提前退出模型，通过在不同阶段停止计算来提供多个精度级别和资源节省。此外，我们通过分割信息流来适应原始架构，以考虑注入的动态性。我们根据既定的指标展示性能和计算复杂性之间的权衡。",
+    "tldr": "本文提出了一个提前退出模型，通过适应原始架构和分割信息流，实现了在资源受限的设备上高效的深度噪声抑制，并展示了性能和计算复杂性之间的权衡。",
+    "en_tdlr": "This paper presents an early-exiting model for efficient deep noise suppression on resource-constrained devices by adapting the original architecture and splitting the information flow, demonstrating the trade-offs between performance and computational complexity."
+}

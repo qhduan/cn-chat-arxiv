@@ -1,0 +1,12 @@
+{
+    "title": "On the Equivalence between Implicit and Explicit Neural Networks: A High-dimensional Viewpoint. (arXiv:2308.16425v1 [cs.LG])",
+    "abstract": "Implicit neural networks have demonstrated remarkable success in various tasks. However, there is a lack of theoretical analysis of the connections and differences between implicit and explicit networks. In this paper, we study high-dimensional implicit neural networks and provide the high dimensional equivalents for the corresponding conjugate kernels and neural tangent kernels. Built upon this, we establish the equivalence between implicit and explicit networks in high dimensions.",
+    "link": "http://arxiv.org/abs/2308.16425",
+    "context": "Title: On the Equivalence between Implicit and Explicit Neural Networks: A High-dimensional Viewpoint. (arXiv:2308.16425v1 [cs.LG])\nAbstract: Implicit neural networks have demonstrated remarkable success in various tasks. However, there is a lack of theoretical analysis of the connections and differences between implicit and explicit networks. In this paper, we study high-dimensional implicit neural networks and provide the high dimensional equivalents for the corresponding conjugate kernels and neural tangent kernels. Built upon this, we establish the equivalence between implicit and explicit networks in high dimensions.",
+    "path": "papers/23/08/2308.16425.json",
+    "total_tokens": 601,
+    "translated_title": "隐式神经网络与显式神经网络的等价性：高维视角",
+    "translated_abstract": "隐式神经网络在各种任务中取得了显著的成功。然而，对于隐式网络和显式网络之间的连接和差异缺乏理论分析。本文研究了高维隐式神经网络，并为对应的共轭核和神经切向核提供了高维等价表达。基于此，我们在高维空间建立了隐式网络和显式网络的等价性。",
+    "tldr": "本文研究了高维隐式神经网络，提供了共轭核和神经切向核的高维等价表达，并在高维空间建立了隐式网络和显式网络的等价性。",
+    "en_tdlr": "This paper investigates high-dimensional implicit neural networks, provides high-dimensional equivalents for corresponding conjugate kernels and neural tangent kernels, and establishes the equivalence between implicit and explicit networks in high dimensions."
+}

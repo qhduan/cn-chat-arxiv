@@ -1,0 +1,11 @@
+{
+    "title": "Thesis Distillation: Investigating The Impact of Bias in NLP Models on Hate Speech Detection. (arXiv:2308.16549v1 [cs.CL])",
+    "abstract": "This paper is a summary of the work in my PhD thesis. In which, I investigate the impact of bias in NLP models on the task of hate speech detection from three perspectives: explainability, offensive stereotyping bias, and fairness. I discuss the main takeaways from my thesis and how they can benefit the broader NLP community. Finally, I discuss important future research directions. The findings of my thesis suggest that bias in NLP models impacts the task of hate speech detection from all three perspectives. And that unless we start incorporating social sciences in studying bias in NLP models, we will not effectively overcome the current limitations of measuring and mitigating bias in NLP models.",
+    "link": "http://arxiv.org/abs/2308.16549",
+    "context": "Title: Thesis Distillation: Investigating The Impact of Bias in NLP Models on Hate Speech Detection. (arXiv:2308.16549v1 [cs.CL])\nAbstract: This paper is a summary of the work in my PhD thesis. In which, I investigate the impact of bias in NLP models on the task of hate speech detection from three perspectives: explainability, offensive stereotyping bias, and fairness. I discuss the main takeaways from my thesis and how they can benefit the broader NLP community. Finally, I discuss important future research directions. The findings of my thesis suggest that bias in NLP models impacts the task of hate speech detection from all three perspectives. And that unless we start incorporating social sciences in studying bias in NLP models, we will not effectively overcome the current limitations of measuring and mitigating bias in NLP models.",
+    "path": "papers/23/08/2308.16549.json",
+    "total_tokens": 891,
+    "translated_title": "论文摘要——论述自然语言处理模型中的偏见对仇恨言论检测的影响",
+    "translated_abstract": "本文总结了我的博士论文工作。在这篇论文中，我从可解释性、冒犯性刻板印象和公平性三个方面探讨了自然语言处理模型中偏见对仇恨言论检测任务的影响。我讨论了论文的主要要点以及它们对更广泛的自然语言处理社区的益处。最后，我讨论了重要的未来研究方向。我的论文研究结果表明，自然语言处理模型中的偏见从这三个方面影响了仇恨言论检测任务。除非我们开始将社会科学纳入到研究自然语言处理模型中的偏见中，否则我们将无法有效地克服目前在测量和减轻自然语言处理模型偏见方面的局限性。",
+    "tldr": "本文总结了研究自然语言处理模型中偏见对仇恨言论检测的影响的博士论文。研究发现，偏见对检测任务的影响包括可解释性、冒犯性刻板印象和公平性三个方面。为了有效解决当前在测量和减轻偏见方面的限制，需要将社会科学纳入到研究中。"
+}
