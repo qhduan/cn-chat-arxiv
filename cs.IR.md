@@ -4,13 +4,14 @@
 | --- | --- | --- |
 | [^1] | [Co-evolving Vector Quantization for ID-based Recommendation.](http://arxiv.org/abs/2308.16761) | 这项工作提出了一种用于基于ID的推荐的共同演化向量量化框架（COVE），该框架能够自动学习和生成不同粒度级别下的实体分类信息，并在各种推荐任务中展现了有效性。 |
 | [^2] | [Context Aware Query Rewriting for Text Rankers using LLM.](http://arxiv.org/abs/2308.16753) | 这项工作研究了使用基于LLM的上下文感知查询重写方法来提高文本排名任务。通过通过上下文感知提示来重写模糊的训练查询，克服了概念漂移和推理开销的固有局限性。 |
-| [^3] | [Towards Long-Tailed Recognition for Graph Classification via Collaborative Experts.](http://arxiv.org/abs/2308.16609) | 本文提出了一种新颖的方法，通过合作专家实现了长尾图分类，解决了现有方法在处理图数据上的不足。 |
-| [^4] | [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations.](http://arxiv.org/abs/2308.16505) | 本论文的创新点是将推荐模型和大型语言模型（LLMs）融合，创建了一个多功能交互式推荐系统，解决了推荐模型在提供解释和参与对话任务方面的困难。 |
-| [^5] | [AntM$^{2}$C: A Large Scale Dataset For Multi-Scenario Multi-Modal CTR Prediction.](http://arxiv.org/abs/2308.16437) | 本研究提出了一个名为AntM$^{2}$C的大规模数据集，用于多场景多模态点击率预测。该数据集弥补了现有数据集的限制，包括多个场景中不同类型项目的建模以及多模态特征的缺乏。它将为模型的可靠评估提供更全面的性能差异。 |
-| [^6] | [Alleviating Video-Length Effect for Micro-video Recommendation.](http://arxiv.org/abs/2308.14276) | 本文提出了一种缓解微视频推荐中视频长度效应的方法-视频长度消除推荐（VLDRec），通过设计数据标注方法和样本生成模块，以更好地捕捉用户观看时间偏好，并且利用多任务学习技术来联合优化模型。 |
-| [^7] | [Framework to Automatically Determine the Quality of Open Data Catalogs.](http://arxiv.org/abs/2307.15464) | 本文提出了一个框架，用于自动确定开放数据目录的质量，该框架可以分析核心质量维度并提供评估机制，同时也考虑到了非核心质量维度，旨在帮助数据驱动型组织基于可信的数据资产做出明智的决策。 |
-| [^8] | [A First Look at LLM-Powered Generative News Recommendation.](http://arxiv.org/abs/2305.06566) | 本文介绍了一种LLM驱动的生成式新闻推荐框架GENRE，它利用预训练语义知识丰富新闻数据，通过从模型设计转移到提示设计提供灵活而统一的解决方案，实现了个性化新闻生成、用户画像和新闻摘要。 |
-| [^9] | [Unsupervised Hashing with Similarity Distribution Calibration.](http://arxiv.org/abs/2302.07669) | 本文介绍了一种无监督哈希方法，使用相似性分布校准来解决在离散哈希码空间中的相似性坍缩问题。 |
+| [^3] | [Concentrating on the Impact: Consequence-based Explanations in Recommender Systems.](http://arxiv.org/abs/2308.16708) | 本研究介绍了一种新概念，即基于后果的解释，以强调推荐项对用户个人消费行为的影响，从而提升推荐系统的用户体验和满意度。 |
+| [^4] | [Towards Long-Tailed Recognition for Graph Classification via Collaborative Experts.](http://arxiv.org/abs/2308.16609) | 本文提出了一种新颖的方法，通过合作专家实现了长尾图分类，解决了现有方法在处理图数据上的不足。 |
+| [^5] | [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations.](http://arxiv.org/abs/2308.16505) | 本论文的创新点是将推荐模型和大型语言模型（LLMs）融合，创建了一个多功能交互式推荐系统，解决了推荐模型在提供解释和参与对话任务方面的困难。 |
+| [^6] | [AntM$^{2}$C: A Large Scale Dataset For Multi-Scenario Multi-Modal CTR Prediction.](http://arxiv.org/abs/2308.16437) | 本研究提出了一个名为AntM$^{2}$C的大规模数据集，用于多场景多模态点击率预测。该数据集弥补了现有数据集的限制，包括多个场景中不同类型项目的建模以及多模态特征的缺乏。它将为模型的可靠评估提供更全面的性能差异。 |
+| [^7] | [Alleviating Video-Length Effect for Micro-video Recommendation.](http://arxiv.org/abs/2308.14276) | 本文提出了一种缓解微视频推荐中视频长度效应的方法-视频长度消除推荐（VLDRec），通过设计数据标注方法和样本生成模块，以更好地捕捉用户观看时间偏好，并且利用多任务学习技术来联合优化模型。 |
+| [^8] | [Framework to Automatically Determine the Quality of Open Data Catalogs.](http://arxiv.org/abs/2307.15464) | 本文提出了一个框架，用于自动确定开放数据目录的质量，该框架可以分析核心质量维度并提供评估机制，同时也考虑到了非核心质量维度，旨在帮助数据驱动型组织基于可信的数据资产做出明智的决策。 |
+| [^9] | [A First Look at LLM-Powered Generative News Recommendation.](http://arxiv.org/abs/2305.06566) | 本文介绍了一种LLM驱动的生成式新闻推荐框架GENRE，它利用预训练语义知识丰富新闻数据，通过从模型设计转移到提示设计提供灵活而统一的解决方案，实现了个性化新闻生成、用户画像和新闻摘要。 |
+| [^10] | [Unsupervised Hashing with Similarity Distribution Calibration.](http://arxiv.org/abs/2302.07669) | 本文介绍了一种无监督哈希方法，使用相似性分布校准来解决在离散哈希码空间中的相似性坍缩问题。 |
 
 # 详细
 
@@ -42,7 +43,21 @@
 
     Query rewriting refers to an established family of approaches that are applied to underspecified and ambiguous queries to overcome the vocabulary mismatch problem in document ranking. Queries are typically rewritten during query processing time for better query modelling for the downstream ranker. With the advent of large-language models (LLMs), there have been initial investigations into using generative approaches to generate pseudo documents to tackle this inherent vocabulary gap. In this work, we analyze the utility of LLMs for improved query rewriting for text ranking tasks. We find that there are two inherent limitations of using LLMs as query re-writers -- concept drift when using only queries as prompts and large inference costs during query processing. We adopt a simple, yet surprisingly effective, approach called context aware query rewriting (CAR) to leverage the benefits of LLMs for query understanding. Firstly, we rewrite ambiguous training queries by context-aware prompti
     
-[^3]: 通过合作专家实现长尾图分类的研究
+[^3]: 专注于影响：基于后果的推荐系统解释
+
+    Concentrating on the Impact: Consequence-based Explanations in Recommender Systems. (arXiv:2308.16708v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.16708](http://arxiv.org/abs/2308.16708)
+
+    本研究介绍了一种新概念，即基于后果的解释，以强调推荐项对用户个人消费行为的影响，从而提升推荐系统的用户体验和满意度。
+
+    
+
+    推荐系统在用户决策中起到辅助作用，推荐项的呈现方式和解释是提升用户体验的关键因素。尽管已经提出了各种生成解释的方法，但仍有改进的空间，特别是对于在特定领域缺乏专业知识的用户。在本研究中，我们引入了一种新概念，即基于后果的解释，这种解释强调推荐项对用户个人消费行为的影响，使得遵循推荐的效果更加清晰。我们进行了一项在线用户研究，以验证关于后果解释的欣赏度以及在推荐系统中的不同解释目标上的影响的假设。研究结果显示，后果解释的重要性得到了用户的认可，并且在推荐系统中有效地提高了用户满意度。
+
+    Recommender systems assist users in decision-making, where the presentation of recommended items and their explanations are critical factors for enhancing the overall user experience. Although various methods for generating explanations have been proposed, there is still room for improvement, particularly for users who lack expertise in a specific item domain. In this study, we introduce the novel concept of \textit{consequence-based explanations}, a type of explanation that emphasizes the individual impact of consuming a recommended item on the user, which makes the effect of following recommendations clearer. We conducted an online user study to examine our assumption about the appreciation of consequence-based explanations and their impacts on different explanation aims in recommender systems. Our findings highlight the importance of consequence-based explanations, which were well-received by users and effectively improved user satisfaction in recommender systems. These results prov
+    
+[^4]: 通过合作专家实现长尾图分类的研究
 
     Towards Long-Tailed Recognition for Graph Classification via Collaborative Experts. (arXiv:2308.16609v1 [cs.LG])
 
@@ -56,7 +71,7 @@
 
     Graph classification, aiming at learning the graph-level representations for effective class assignments, has received outstanding achievements, which heavily relies on high-quality datasets that have balanced class distribution. In fact, most real-world graph data naturally presents a long-tailed form, where the head classes occupy much more samples than the tail classes, it thus is essential to study the graph-level classification over long-tailed data while still remaining largely unexplored. However, most existing long-tailed learning methods in visions fail to jointly optimize the representation learning and classifier training, as well as neglect the mining of the hard-to-classify classes. Directly applying existing methods to graphs may lead to sub-optimal performance, since the model trained on graphs would be more sensitive to the long-tailed distribution due to the complex topological characteristics. Hence, in this paper, we propose a novel long-tailed graph-level classifica
     
-[^4]: 推荐AI代理：将大型语言模型整合到交互式推荐中
+[^5]: 推荐AI代理：将大型语言模型整合到交互式推荐中
 
     Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations. (arXiv:2308.16505v1 [cs.IR])
 
@@ -70,7 +85,7 @@
 
     Recommender models excel at providing domain-specific item recommendations by leveraging extensive user behavior data. Despite their ability to act as lightweight domain experts, they struggle to perform versatile tasks such as providing explanations and engaging in conversations. On the other hand, large language models (LLMs) represent a significant step towards artificial general intelligence, showcasing remarkable capabilities in instruction comprehension, commonsense reasoning, and human interaction. However, LLMs lack the knowledge of domain-specific item catalogs and behavioral patterns, particularly in areas that diverge from general world knowledge, such as online e-commerce. Finetuning LLMs for each domain is neither economic nor efficient.  In this paper, we bridge the gap between recommender models and LLMs, combining their respective strengths to create a versatile and interactive recommender system. We introduce an efficient framework called RecAgent, which employs LLMs a
     
-[^5]: AntM$^{2}$C：一个用于多场景多模态点击率预测的大规模数据集
+[^6]: AntM$^{2}$C：一个用于多场景多模态点击率预测的大规模数据集
 
     AntM$^{2}$C: A Large Scale Dataset For Multi-Scenario Multi-Modal CTR Prediction. (arXiv:2308.16437v1 [cs.IR])
 
@@ -84,7 +99,7 @@
 
     Click-through rate (CTR) prediction is a crucial issue in recommendation systems. There has been an emergence of various public CTR datasets. However, existing datasets primarily suffer from the following limitations. Firstly, users generally click different types of items from multiple scenarios, and modeling from multiple scenarios can provide a more comprehensive understanding of users. Existing datasets only include data for the same type of items from a single scenario. Secondly, multi-modal features are essential in multi-scenario prediction as they address the issue of inconsistent ID encoding between different scenarios. The existing datasets are based on ID features and lack multi-modal features. Third, a large-scale dataset can provide a more reliable evaluation of models, fully reflecting the performance differences between models. The scale of existing datasets is around 100 million, which is relatively small compared to the real-world CTR prediction. To address these limit
     
-[^6]: 缓解微视频推荐中的视频长度效应
+[^7]: 缓解微视频推荐中的视频长度效应
 
     Alleviating Video-Length Effect for Micro-video Recommendation. (arXiv:2308.14276v2 [cs.IR] UPDATED)
 
@@ -98,7 +113,7 @@
 
     Micro-videos platforms such as TikTok are extremely popular nowadays. One important feature is that users no longer select interested videos from a set, instead they either watch the recommended video or skip to the next one. As a result, the time length of users' watching behavior becomes the most important signal for identifying preferences. However, our empirical data analysis has shown a video-length effect that long videos are easier to receive a higher value of average view time, thus adopting such view-time labels for measuring user preferences can easily induce a biased model that favors the longer videos. In this paper, we propose a Video Length Debiasing Recommendation (VLDRec) method to alleviate such an effect for micro-video recommendation. VLDRec designs the data labeling approach and the sample generation module that better capture user preferences in a view-time oriented manner. It further leverages the multi-task learning technique to jointly optimize the above samples
     
-[^7]: 自动确定开放数据目录质量的框架
+[^8]: 自动确定开放数据目录质量的框架
 
     Framework to Automatically Determine the Quality of Open Data Catalogs. (arXiv:2307.15464v1 [cs.IR])
 
@@ -112,7 +127,7 @@
 
     Data catalogs play a crucial role in modern data-driven organizations by facilitating the discovery, understanding, and utilization of diverse data assets. However, ensuring their quality and reliability is complex, especially in open and large-scale data environments. This paper proposes a framework to automatically determine the quality of open data catalogs, addressing the need for efficient and reliable quality assessment mechanisms. Our framework can analyze various core quality dimensions, such as accuracy, completeness, consistency, scalability, and timeliness, offer several alternatives for the assessment of compatibility and similarity across such catalogs as well as the implementation of a set of non-core quality dimensions such as provenance, readability, and licensing. The goal is to empower data-driven organizations to make informed decisions based on trustworthy and well-curated data assets. The source code that illustrates our approach can be downloaded from https://www.
     
-[^8]: LLM驱动的生成式新闻推荐初探
+[^9]: LLM驱动的生成式新闻推荐初探
 
     A First Look at LLM-Powered Generative News Recommendation. (arXiv:2305.06566v1 [cs.IR])
 
@@ -126,7 +141,7 @@
 
     Personalized news recommendation systems have become essential tools for users to navigate the vast amount of online news content, yet existing news recommenders face significant challenges such as the cold-start problem, user profile modeling, and news content understanding. Previous works have typically followed an inflexible routine to address a particular challenge through model design, but are limited in their ability to understand news content and capture user interests. In this paper, we introduce GENRE, an LLM-powered generative news recommendation framework, which leverages pretrained semantic knowledge from large language models to enrich news data. Our aim is to provide a flexible and unified solution for news recommendation by moving from model design to prompt design. We showcase the use of GENRE for personalized news generation, user profiling, and news summarization. Extensive experiments with various popular recommendation models demonstrate the effectiveness of GENRE. 
     
-[^9]: 无监督哈希与相似性分布校准
+[^10]: 无监督哈希与相似性分布校准
 
     Unsupervised Hashing with Similarity Distribution Calibration. (arXiv:2302.07669v2 [cs.CV] UPDATED)
 
