@@ -17,11 +17,12 @@
 | [^13] | [Understanding the Diffusion Objective as a Weighted Integral of ELBOs.](http://arxiv.org/abs/2303.00848) | 本文深入理解了扩散目标，并揭示了加权损失和ELBO目标之间的直接关系。 |
 | [^14] | [SGD learning on neural networks: leap complexity and saddle-to-saddle dynamics.](http://arxiv.org/abs/2302.11055) | 该论文研究了随机梯度下降(SGD)算法在神经网络上的学习时间复杂度，提出了一种复杂度度量称为跃迁，证明了在高斯各向同性数据和二层神经网络上的研究结果，并展示了训练过程中函数支持的动态学习方法。 |
 | [^15] | [Scalable and adaptive variational Bayes methods for Hawkes processes.](http://arxiv.org/abs/2212.00293) | 这项研究提出了一种可扩展和自适应的变分贝叶斯方法，用于处理Hawkes过程的依赖关系和非参数推断。通过分析先验、变分类和非线性模型的条件，我们统一了现有的方法，并证明了其渐近性质。 |
-| [^16] | [Towards solving model bias in cosmic shear forward modeling.](http://arxiv.org/abs/2210.16243) | 这项研究通过混合物理和深度学习的分层贝叶斯模型，能够在真实星系上恢复出无偏估计的剪切，解决了余辉前向建模中的模型偏差问题。 |
-| [^17] | [Generalised Bayesian Inference for Discrete Intractable Likelihood.](http://arxiv.org/abs/2206.08420) | 该论文提出了一种适用于离散难处理似然的广义贝叶斯推断方法，通过使用离散Fisher散度更新参数信念来避免计算困难，并得到一个可以用标准计算工具进行采样的广义后验分布。 |
-| [^18] | [The Rich Get Richer: Disparate Impact of Semi-Supervised Learning.](http://arxiv.org/abs/2110.06282) | 本文研究了半监督学习的不平等影响，发现那些在不使用SSL时具有更高基准准确性的子族群更容易从SSL中获益，而那些基准准确性较低的子族群在添加SSL模块后可能会观察到性能下降。 |
-| [^19] | [Simulation comparisons between Bayesian and de-biased estimators in low-rank matrix completion.](http://arxiv.org/abs/2103.11749) | 本文通过模拟比较了贝叶斯方法和去偏估计器在低秩矩阵补全问题中的性能。结果表明去偏估计器与贝叶斯估计器一样好，在样本较小的情况下贝叶斯方法更稳定。 |
-| [^20] | [Adversarial Meta-Learning of Gamma-Minimax Estimators That Leverage Prior Knowledge.](http://arxiv.org/abs/2012.05465) | 本文提出对抗元学习方法，用于计算在一组与可用知识相容的先验分布中最小化最坏情况的 Bayes 风险的 Gamma-Minimax 估计器，文中还提出了一种神经网络类用于提供估计器类，以及两个实验环节用于说明该方法的应用。 |
+| [^16] | [The Projected Covariance Measure for assumption-lean variable significance testing.](http://arxiv.org/abs/2211.02039) | 该论文介绍了一种假设简约的变量重要性检验方法，利用非参数或机器学习方法实现稳健的误差控制和高功效。 |
+| [^17] | [Towards solving model bias in cosmic shear forward modeling.](http://arxiv.org/abs/2210.16243) | 这项研究通过混合物理和深度学习的分层贝叶斯模型，能够在真实星系上恢复出无偏估计的剪切，解决了余辉前向建模中的模型偏差问题。 |
+| [^18] | [Generalised Bayesian Inference for Discrete Intractable Likelihood.](http://arxiv.org/abs/2206.08420) | 该论文提出了一种适用于离散难处理似然的广义贝叶斯推断方法，通过使用离散Fisher散度更新参数信念来避免计算困难，并得到一个可以用标准计算工具进行采样的广义后验分布。 |
+| [^19] | [The Rich Get Richer: Disparate Impact of Semi-Supervised Learning.](http://arxiv.org/abs/2110.06282) | 本文研究了半监督学习的不平等影响，发现那些在不使用SSL时具有更高基准准确性的子族群更容易从SSL中获益，而那些基准准确性较低的子族群在添加SSL模块后可能会观察到性能下降。 |
+| [^20] | [Simulation comparisons between Bayesian and de-biased estimators in low-rank matrix completion.](http://arxiv.org/abs/2103.11749) | 本文通过模拟比较了贝叶斯方法和去偏估计器在低秩矩阵补全问题中的性能。结果表明去偏估计器与贝叶斯估计器一样好，在样本较小的情况下贝叶斯方法更稳定。 |
+| [^21] | [Adversarial Meta-Learning of Gamma-Minimax Estimators That Leverage Prior Knowledge.](http://arxiv.org/abs/2012.05465) | 本文提出对抗元学习方法，用于计算在一组与可用知识相容的先验分布中最小化最坏情况的 Bayes 风险的 Gamma-Minimax 估计器，文中还提出了一种神经网络类用于提供估计器类，以及两个实验环节用于说明该方法的应用。 |
 
 # 详细
 
@@ -235,7 +236,21 @@
 
     Hawkes processes are often applied to model dependence and interaction phenomena in multivariate event data sets, such as neuronal spike trains, social interactions, and financial transactions. In the nonparametric setting, learning the temporal dependence structure of Hawkes processes is generally a computationally expensive task, all the more with Bayesian estimation methods. In particular, for generalised nonlinear Hawkes processes, Monte-Carlo Markov Chain methods applied to compute the doubly intractable posterior distribution are not scalable to high-dimensional processes in practice. Recently, efficient algorithms targeting a mean-field variational approximation of the posterior distribution have been proposed. In this work, we first unify existing variational Bayes approaches under a general nonparametric inference framework, and analyse the asymptotic properties of these methods under easily verifiable conditions on the prior, the variational class, and the nonlinear model. Se
     
-[^16]: 解决余辉前向建模中的模型偏差问题
+[^16]: 假设简约的变量重要性检验的投影协方差测量
+
+    The Projected Covariance Measure for assumption-lean variable significance testing. (arXiv:2211.02039v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2211.02039](http://arxiv.org/abs/2211.02039)
+
+    该论文介绍了一种假设简约的变量重要性检验方法，利用非参数或机器学习方法实现稳健的误差控制和高功效。
+
+    
+
+    在统计学中，对于给定附加协变量Z，测试变量或变量组X对于预测响应Y的重要性是一项普遍任务。一种简单但常见的方法是指定一个线性模型，然后测试X的回归系数是否为非零。然而，当模型错误指定时，测试的功效可能很差，例如当X参与复杂的交互作用，或者导致许多错误拒绝。在这项工作中，我们研究了测试条件均值独立的无模型假设，即给定X和Z，Y的条件均值不依赖于X。我们提出了一个简单而通用的框架，可以利用灵活的非参数或机器学习方法，如加法模型或随机森林，实现稳健的误差控制和高功效。该过程包括使用这些方法进行回归，首先使用一半的数据估计以X和Z为基础的Y的一种投影形式。
+
+    Testing the significance of a variable or group of variables $X$ for predicting a response $Y$, given additional covariates $Z$, is a ubiquitous task in statistics. A simple but common approach is to specify a linear model, and then test whether the regression coefficient for $X$ is non-zero. However, when the model is misspecified, the test may have poor power, for example when $X$ is involved in complex interactions, or lead to many false rejections. In this work we study the problem of testing the model-free null of conditional mean independence, i.e. that the conditional mean of $Y$ given $X$ and $Z$ does not depend on $X$. We propose a simple and general framework that can leverage flexible nonparametric or machine learning methods, such as additive models or random forests, to yield both robust error control and high power. The procedure involves using these methods to perform regressions, first to estimate a form of projection of $Y$ on $X$ and $Z$ using one half of the data, an
+    
+[^17]: 解决余辉前向建模中的模型偏差问题
 
     Towards solving model bias in cosmic shear forward modeling. (arXiv:2210.16243v2 [astro-ph.CO] UPDATED)
 
@@ -249,7 +264,7 @@
 
     As the volume and quality of modern galaxy surveys increase, so does the difficulty of measuring the cosmological signal imprinted in galaxy shapes. Weak gravitational lensing sourced by the most massive structures in the Universe generates a slight shearing of galaxy morphologies called cosmic shear, key probe for cosmological models. Modern techniques of shear estimation based on statistics of ellipticity measurements suffer from the fact that the ellipticity is not a well-defined quantity for arbitrary galaxy light profiles, biasing the shear estimation. We show that a hybrid physical and deep learning Hierarchical Bayesian Model, where a generative model captures the galaxy morphology, enables us to recover an unbiased estimate of the shear on realistic galaxies, thus solving the model bias.
     
-[^17]: 适用于离散难处理似然的广义贝叶斯推断
+[^18]: 适用于离散难处理似然的广义贝叶斯推断
 
     Generalised Bayesian Inference for Discrete Intractable Likelihood. (arXiv:2206.08420v2 [stat.ME] UPDATED)
 
@@ -263,7 +278,7 @@
 
     Discrete state spaces represent a major computational challenge to statistical inference, since the computation of normalisation constants requires summation over large or possibly infinite sets, which can be impractical. This paper addresses this computational challenge through the development of a novel generalised Bayesian inference procedure suitable for discrete intractable likelihood. Inspired by recent methodological advances for continuous data, the main idea is to update beliefs about model parameters using a discrete Fisher divergence, in lieu of the problematic intractable likelihood. The result is a generalised posterior that can be sampled from using standard computational tools, such as Markov chain Monte Carlo, circumventing the intractable normalising constant. The statistical properties of the generalised posterior are analysed, with sufficient conditions for posterior consistency and asymptotic normality established. In addition, a novel and general approach to calibr
     
-[^18]: 富者愈富: 半监督学习的不平等影响
+[^19]: 富者愈富: 半监督学习的不平等影响
 
     The Rich Get Richer: Disparate Impact of Semi-Supervised Learning. (arXiv:2110.06282v4 [cs.LG] UPDATED)
 
@@ -277,7 +292,7 @@
 
     Semi-supervised learning (SSL) has demonstrated its potential to improve the model accuracy for a variety of learning tasks when the high-quality supervised data is severely limited. Although it is often established that the average accuracy for the entire population of data is improved, it is unclear how SSL fares with different sub-populations. Understanding the above question has substantial fairness implications when different sub-populations are defined by the demographic groups that we aim to treat fairly. In this paper, we reveal the disparate impacts of deploying SSL: the sub-population who has a higher baseline accuracy without using SSL (the "rich" one) tends to benefit more from SSL; while the sub-population who suffers from a low baseline accuracy (the "poor" one) might even observe a performance drop after adding the SSL module. We theoretically and empirically establish the above observation for a broad family of SSL algorithms, which either explicitly or implicitly use a
     
-[^19]: 贝叶斯估计器与去偏估计器在低秩矩阵补全中的模拟比较
+[^20]: 贝叶斯估计器与去偏估计器在低秩矩阵补全中的模拟比较
 
     Simulation comparisons between Bayesian and de-biased estimators in low-rank matrix completion. (arXiv:2103.11749v2 [stat.ML] UPDATED)
 
@@ -291,7 +306,7 @@
 
     In this paper, we study the low-rank matrix completion problem, a class of machine learning problems, that aims at the prediction of missing entries in a partially observed matrix. Such problems appear in several challenging applications such as collaborative filtering, image processing, and genotype imputation. We compare the Bayesian approaches and a recently introduced de-biased estimator which provides a useful way to build confidence intervals of interest. From a theoretical viewpoint, the de-biased estimator comes with a sharp minimax-optimal rate of estimation error whereas the Bayesian approach reaches this rate with an additional logarithmic factor. Our simulation studies show originally interesting results that the de-biased estimator is just as good as the Bayesian estimators. Moreover, Bayesian approaches are much more stable and can outperform the de-biased estimator in the case of small samples. In addition, we also find that the empirical coverage rate of the confidence 
     
-[^20]: 利用先验知识的 Gamma-Minimax 估计器的对抗元学习
+[^21]: 利用先验知识的 Gamma-Minimax 估计器的对抗元学习
 
     Adversarial Meta-Learning of Gamma-Minimax Estimators That Leverage Prior Knowledge. (arXiv:2012.05465v4 [stat.ME] UPDATED)
 
