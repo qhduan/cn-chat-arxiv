@@ -1,0 +1,11 @@
+{
+    "title": "Instabilities of Super-Time-Stepping Methods on the Heston Stochastic Volatility Model. (arXiv:2309.00540v1 [q-fin.CP])",
+    "abstract": "This note explores in more details instabilities of explicit super-time-stepping schemes, such as the Runge-Kutta-Chebyshev or Runge-Kutta-Legendre schemes, noticed in the litterature, when applied to the Heston stochastic volatility model. The stability remarks are relevant beyond the scope of super-time-stepping schemes.",
+    "link": "http://arxiv.org/abs/2309.00540",
+    "context": "Title: Instabilities of Super-Time-Stepping Methods on the Heston Stochastic Volatility Model. (arXiv:2309.00540v1 [q-fin.CP])\nAbstract: This note explores in more details instabilities of explicit super-time-stepping schemes, such as the Runge-Kutta-Chebyshev or Runge-Kutta-Legendre schemes, noticed in the litterature, when applied to the Heston stochastic volatility model. The stability remarks are relevant beyond the scope of super-time-stepping schemes.",
+    "path": "papers/23/09/2309.00540.json",
+    "total_tokens": 575,
+    "translated_title": "赫斯顿随机波动模型上超时步方法的不稳定性",
+    "translated_abstract": "本文在赫斯顿随机波动模型上，详细探讨了显式超时步方案（如Runge-Kutta-Chebyshev或Runge-Kutta-Legendre方案）的不稳定性问题，并指出这些稳定性问题超出了超时步方案的范围。",
+    "tldr": "本文研究了应用于赫斯顿随机波动模型的显式超时步方案的不稳定性问题，并指出这一问题具有普适性。"
+}

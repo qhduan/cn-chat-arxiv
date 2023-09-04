@@ -1,0 +1,12 @@
+{
+    "title": "Structure and Gradient Dynamics Near Global Minima of Two-layer Neural Networks. (arXiv:2309.00508v1 [cs.LG])",
+    "abstract": "Under mild assumptions, we investigate the structure of loss landscape of two-layer neural networks near global minima, determine the set of parameters which give perfect generalization, and fully characterize the gradient flows around it. With novel techniques, our work uncovers some simple aspects of the complicated loss landscape and reveals how model, target function, samples and initialization affect the training dynamics differently. Based on these results, we also explain why (overparametrized) neural networks could generalize well.",
+    "link": "http://arxiv.org/abs/2309.00508",
+    "context": "Title: Structure and Gradient Dynamics Near Global Minima of Two-layer Neural Networks. (arXiv:2309.00508v1 [cs.LG])\nAbstract: Under mild assumptions, we investigate the structure of loss landscape of two-layer neural networks near global minima, determine the set of parameters which give perfect generalization, and fully characterize the gradient flows around it. With novel techniques, our work uncovers some simple aspects of the complicated loss landscape and reveals how model, target function, samples and initialization affect the training dynamics differently. Based on these results, we also explain why (overparametrized) neural networks could generalize well.",
+    "path": "papers/23/09/2309.00508.json",
+    "total_tokens": 640,
+    "translated_title": "两层神经网络全局最小值附近的结构和梯度动力学",
+    "translated_abstract": "在温和的假设下，我们研究了两层神经网络在全局最小值附近的损失函数表面的结构，确定了能够实现完美泛化的参数集，并完整描述了其周围的梯度流动态。通过新颖的技术，我们揭示了复杂的损失函数表面的一些简单方面，并揭示了模型、目标函数、样本和初始化对训练动力学的不同影响。基于这些结果，我们还解释了为什么（过度参数化的）神经网络可以很好地泛化。",
+    "tldr": "本论文通过分析两层神经网络在全局最小值附近的结构和梯度动力学，揭示了其泛化能力较强的原因。",
+    "en_tdlr": "This paper investigates the structure and gradient dynamics near global minima of two-layer neural networks, revealing the reasons behind their strong generalization ability."
+}

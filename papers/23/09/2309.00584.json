@@ -1,0 +1,11 @@
+{
+    "title": "Laminar: A New Serverless Stream-based Framework with Semantic Code Search and Code Completion. (arXiv:2309.00584v1 [cs.DC])",
+    "abstract": "This paper introduces Laminar, a novel serverless framework based on dispel4py, a parallel stream-based dataflow library. Laminar efficiently manages streaming workflows and components through a dedicated registry, offering a seamless serverless experience. Leveraging large lenguage models, Laminar enhances the framework with semantic code search, code summarization, and code completion. This contribution enhances serverless computing by simplifying the execution of streaming computations, managing data streams more efficiently, and offering a valuable tool for both researchers and practitioners.",
+    "link": "http://arxiv.org/abs/2309.00584",
+    "context": "Title: Laminar: A New Serverless Stream-based Framework with Semantic Code Search and Code Completion. (arXiv:2309.00584v1 [cs.DC])\nAbstract: This paper introduces Laminar, a novel serverless framework based on dispel4py, a parallel stream-based dataflow library. Laminar efficiently manages streaming workflows and components through a dedicated registry, offering a seamless serverless experience. Leveraging large lenguage models, Laminar enhances the framework with semantic code search, code summarization, and code completion. This contribution enhances serverless computing by simplifying the execution of streaming computations, managing data streams more efficiently, and offering a valuable tool for both researchers and practitioners.",
+    "path": "papers/23/09/2309.00584.json",
+    "total_tokens": 703,
+    "translated_title": "Laminar:一种具有语义代码搜索和代码自动完成的新型无服务器流式框架",
+    "translated_abstract": "本文介绍了Laminar，这是一种基于dispel4py的新型无服务器框架，它是一个并行流式数据流库。Laminar通过专用的注册表高效地管理流程工作流和组件，提供了无缝的无服务器体验。利用大型语言模型，Laminar通过语义代码搜索、代码概述和代码自动完成提升了框架的功能。这项贡献通过简化流式计算的执行、更高效地管理数据流，并为研究人员和实践者提供了有价值的工具，增强了无服务器计算的能力。",
+    "tldr": "Laminar是一个新的无服务器流式框架，通过语义代码搜索和代码自动完成增强了框架的功能，简化了流式计算的执行，更高效地管理数据流，并为研究人员和实践者提供了有价值的工具。"
+}

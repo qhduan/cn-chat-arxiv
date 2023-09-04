@@ -1,0 +1,11 @@
+{
+    "title": "Randomized Optimal Stopping Problem in Continuous time and Reinforcement Learning Algorithm. (arXiv:2208.02409v3 [math.OC] UPDATED)",
+    "abstract": "In this paper, we study the optimal stopping problem in the so-called exploratory framework, in which the agent takes actions randomly conditioning on current state and an entropy-regularized term is added to the reward functional. Such a transformation reduces the optimal stopping problem to a standard optimal control problem. We derive the related HJB equation and prove its solvability. Furthermore, we give a convergence rate of policy iteration and the comparison to classical optimal stopping problem. Based on the theoretical analysis, a reinforcement learning algorithm is designed and numerical results are demonstrated for several models.",
+    "link": "http://arxiv.org/abs/2208.02409",
+    "context": "Title: Randomized Optimal Stopping Problem in Continuous time and Reinforcement Learning Algorithm. (arXiv:2208.02409v3 [math.OC] UPDATED)\nAbstract: In this paper, we study the optimal stopping problem in the so-called exploratory framework, in which the agent takes actions randomly conditioning on current state and an entropy-regularized term is added to the reward functional. Such a transformation reduces the optimal stopping problem to a standard optimal control problem. We derive the related HJB equation and prove its solvability. Furthermore, we give a convergence rate of policy iteration and the comparison to classical optimal stopping problem. Based on the theoretical analysis, a reinforcement learning algorithm is designed and numerical results are demonstrated for several models.",
+    "path": "papers/22/08/2208.02409.json",
+    "total_tokens": 740,
+    "translated_title": "连续时间中的随机最优停止问题和强化学习算法研究",
+    "translated_abstract": "本文研究了所谓的探索性框架下的最优停止问题，其中代理在当前状态的条件下随机采取行动，并在奖励函数中加入了一个经过熵正则化的项。这种转化将最优停止问题简化为标准的最优控制问题。我们推导了相关的HJB方程并证明了其可解性。此外，我们给出了策略迭代的收敛速度以及与经典最优停止问题的比较。基于理论分析，设计了一种强化学习算法，并对若干模型进行了数值结果的演示。",
+    "tldr": "本文研究了探索性框架下的最优停止问题，将其转化为标准的最优控制问题，并给出了相关的HJB方程和策略迭代的收敛速度。通过设计强化学习算法并进行数值结果演示，验证了理论分析的有效性。"
+}

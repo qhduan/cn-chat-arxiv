@@ -1,0 +1,12 @@
+{
+    "title": "Boosting AND/OR-Based Computational Protein Design: Dynamic Heuristics and Generalizable UFO. (arXiv:2309.00408v1 [q-bio.BM])",
+    "abstract": "Scientific computing has experienced a surge empowered by advancements in technologies such as neural networks. However, certain important tasks are less amenable to these technologies, benefiting from innovations to traditional inference schemes. One such task is protein re-design. Recently a new re-design algorithm, AOBB-K*, was introduced and was competitive with state-of-the-art BBK* on small protein re-design problems. However, AOBB-K* did not scale well. In this work we focus on scaling up AOBB-K* and introduce three new versions: AOBB-K*-b (boosted), AOBB-K*-DH (with dynamic heuristics), and AOBB-K*-UFO (with underflow optimization) that significantly enhance scalability.",
+    "link": "http://arxiv.org/abs/2309.00408",
+    "context": "Title: Boosting AND/OR-Based Computational Protein Design: Dynamic Heuristics and Generalizable UFO. (arXiv:2309.00408v1 [q-bio.BM])\nAbstract: Scientific computing has experienced a surge empowered by advancements in technologies such as neural networks. However, certain important tasks are less amenable to these technologies, benefiting from innovations to traditional inference schemes. One such task is protein re-design. Recently a new re-design algorithm, AOBB-K*, was introduced and was competitive with state-of-the-art BBK* on small protein re-design problems. However, AOBB-K* did not scale well. In this work we focus on scaling up AOBB-K* and introduce three new versions: AOBB-K*-b (boosted), AOBB-K*-DH (with dynamic heuristics), and AOBB-K*-UFO (with underflow optimization) that significantly enhance scalability.",
+    "path": "papers/23/09/2309.00408.json",
+    "total_tokens": 796,
+    "translated_title": "提升基于AND/OR的计算蛋白质设计：动态启发式和可泛化的UFO",
+    "translated_abstract": "科学计算在神经网络等技术的推动下取得了飞速发展。然而，某些重要任务对于这些技术来说并不适用，因此需要对传统推理方案进行创新。其中一个任务就是蛋白质重设计。最近引入了一种新的重设计算法AOBB-K*，在小规模蛋白质重设计问题上与最先进的BBK*算法具有竞争力。然而，AOBB-K*在扩展性上表现不佳。在本研究中，我们专注于扩展AOBB-K*算法，并引入了三个新版本：AOBB-K*-b（增强版）、AOBB-K*-DH（带有动态启发式）和AOBB-K*-UFO（带有下溢优化），显著提升了扩展性。",
+    "tldr": "该研究专注于提升蛋白质重设计算法AOBB-K*的扩展性，通过引入增强版、带有动态启发式和带有下溢优化的新版本，显著提升了其可扩展性。",
+    "en_tdlr": "This study focuses on improving the scalability of protein redesign algorithm AOBB-K* by introducing enhanced, dynamic heuristic, and underflow optimized versions, which significantly enhance scalability."
+}

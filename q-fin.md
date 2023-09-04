@@ -2,127 +2,232 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Linking microblogging sentiments to stock price movement: An application of GPT-4.](http://arxiv.org/abs/2308.16771) | 本文研究了GPT-4在通过微博情感分析预测股票价格运动方面的潜在改进，并开发了一种新的方法用于情境情感分析，结果显示GPT-4在准确性上超过了BERT和买入持有策略。 |
-| [^2] | [Improving Robustness and Accuracy of Ponzi Scheme Detection on Ethereum Using Time-Dependent Features.](http://arxiv.org/abs/2308.16391) | 这篇论文提出了一种基于交易的方法来提高以太坊上庞氏骗局的检测鲁棒性和准确性。现有的方法主要基于智能合约源代码或操作码进行检测，但缺乏鲁棒性。通过分析交易数据，可以更有效地识别庞氏骗局，因为交易更难伪装。 |
-| [^3] | [A new adaptive pricing framework for perpetual protocols using liquidity curves and on-chain oracles.](http://arxiv.org/abs/2308.16256) | 本文介绍了一种使用流动性曲线和链上预言机的新型自适应定价框架，可稳定和可预测地为永续合约定价，并根据当前市场条件对交易者报价费用。通过数学建模和与现有解决方案的比较，展示了该框架的操作和优势。同时，探讨了增强去中心化永续协议整体效率的其他功能。 |
-| [^4] | [Hedging Forecast Combinations With an Application to the Random Forest.](http://arxiv.org/abs/2308.15384) | 本文提出了一种使用对冲进行预测组合的通用方法，并应用于随机森林。研究表明，该方法在14个数据集中相对于标准方法在组合树预测形成加权随机森林方面具有改进的外样本表现。 |
-| [^5] | [Cognitive Aging and Labor Share.](http://arxiv.org/abs/2308.14982) | 该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。 |
-| [^6] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
-| [^7] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^8] | [Unbiased estimators for the Heston model with stochastic interest rates.](http://arxiv.org/abs/2301.12072) | 本研究结合了无偏估计器和具有随机利率的Heston模型，通过开发半精确的对数欧拉方案，证明了其收敛率为O(h)，适用于多种模型。 |
+| [^1] | [Instabilities of Super-Time-Stepping Methods on the Heston Stochastic Volatility Model.](http://arxiv.org/abs/2309.00540) | 本文研究了应用于赫斯顿随机波动模型的显式超时步方案的不稳定性问题，并指出这一问题具有普适性。 |
+| [^2] | [Preventing Others from Commercializing Your Innovation: Evidence from Creative Commons Licenses.](http://arxiv.org/abs/2309.00536) | 本文研究了在线创新社区中创新者对商业化的限制许可证现象，发现随着声誉的提高和对他人贡献的重复使用，创新者越倾向于限制商业化利用。 |
+| [^3] | [Chance or Chaos? Fractal geometry aimed to inspect the nature of Bitcoin.](http://arxiv.org/abs/2309.00390) | 本文使用分形几何分析比特币的性质和行为，发现其价格具有持续性，降低了效率但增加了可预测性。同时观察到底层技术对价格动态有影响，只有完全去中心化的加密货币具有自相似特征。 |
+| [^4] | [Predicting Financial Market Trends using Time Series Analysis and Natural Language Processing.](http://arxiv.org/abs/2309.00136) | 本研究通过分析推文中表达的情绪，使用时间序列分析和自然语言处理预测了特斯拉、苹果等主要公司股票价格的波动。结果表明，积极性、消极性和主观性是股票价格波动的主要决定因素。 |
+| [^5] | [Accurate Quality Elicitation in a Multi-attribute Choice Setting.](http://arxiv.org/abs/2309.00114) | 本文研究如何在多属性选择情境中准确评估质量，通过比较m-MPL和p-MPL的两种多价格列表的理论和实证研究结果，发现m-MPL相对于p-MPL的准确性更高，且质量测量对于elicitation方法敏感。 |
+| [^6] | [Deep Semi-Supervised Anomaly Detection for Finding Fraud in the Futures Market.](http://arxiv.org/abs/2309.00088) | 本研究评估了一种名为Deep SAD的深度半监督异常检测技术在高频金融数据中检测诈骗的效果。使用了来自TMX交易所的独家限价委托薄数据，并利用一小部分的标记数据。 |
+| [^7] | [Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction.](http://arxiv.org/abs/2309.00073) | 本论文提出了一种利用扩散变分自编码器来解决多步回归股票价格预测中的随机性问题的方法。 |
+| [^8] | [New general dependence measures: construction, estimation and application to high-frequency stock returns.](http://arxiv.org/abs/2309.00025) | 这篇论文提出了一种新的普遍依赖度量方法，可应用于高频股票回报数据，并在市场压力事件中显示出对尾部不对称性、非线性、缺乏多样化和风险内生性的累积的特性。通过使用这些新的度量方法，论文改进了现有的依赖度量，并表明其在资产定价和统计学领域具有实际效用。 |
+| [^9] | [An Empirical Analysis on Financial Market: Insights from the Application of Statistical Physics.](http://arxiv.org/abs/2308.14235) | 本研究引入了受统计物理学启发的物理模型，利用三级订单簿数据预测金融市场的价格波动和预期回报，超越了传统方法和机器学习算法，提供了对市场微观结构的深入理解。 |
+| [^10] | [Time-Inconsistency in Linear Quadratic Stochastic Differential Games.](http://arxiv.org/abs/2304.11577) | 本文研究了一个线性二次随机零和博弈，玩家由于折扣率的非常数性而存在时不一致性，旨在识别一种意识到自己时不一致性的一致规划均衡，分析了单个玩家和双玩家情况下的均衡行为，并对均衡进行了数值分析。 |
+| [^11] | [Convergence of the Euler--Maruyama particle scheme for a regularised McKean--Vlasov equation arising from the calibration of local-stochastic volatility models.](http://arxiv.org/abs/2302.00434) | 本文研究了欧拉-丸山方案作为一个粒子方法来逼近校准的局部随机波动性（LSV）模型的McKean-Vlasov动力学，并证明了其在输入条件假设下的良定义性和强收敛性，以及误差对正则化参数的依赖关系。 |
+| [^12] | [Neural Augmented Kalman Filtering with Bollinger Bands for Pairs Trading.](http://arxiv.org/abs/2210.15448) | 本研究提出了KalmenNet辅助的Bollinger带配对交易策略（KBPT），通过深度学习增强了KF-BB交易操作。KBPT通过建立一个扩展的空间状态模型来近似配对交易的关系，并利用基于卡尔曼滤波的神经网络提高了交易效果。 |
+| [^13] | [Randomized Optimal Stopping Problem in Continuous time and Reinforcement Learning Algorithm.](http://arxiv.org/abs/2208.02409) | 本文研究了探索性框架下的最优停止问题，将其转化为标准的最优控制问题，并给出了相关的HJB方程和策略迭代的收敛速度。通过设计强化学习算法并进行数值结果演示，验证了理论分析的有效性。 |
+| [^14] | [The insider problem in the trinomial model: a discrete-time jump process approach.](http://arxiv.org/abs/2106.15208) | 该论文提出了一种离散时间跳跃过程的方法来研究三项模型中的内部人问题。通过使用标记二项过程作为辅助模型，将三项模型转化为波动性模型，并利用随机分析和Malliavin微积分工具箱进行分析。论文解决了代理人和内部人在预期对数效用最大化方面的问题，并提供了可复制要求的套期保值公式。此外，论文还发现内部人预期的额外效用与额外信息的香农熵相关。 |
+| [^15] | [An Empirical Assessment of Characteristics and Optimal Portfolios.](http://arxiv.org/abs/2104.12975) | 通过离样本外效用函数的视角，本文分析特征的联合预测信息。在动量、大小和残差波动率的条件下，形成的投资组合对所有投资者来说都具有显著更高的确定等价值。特征的互补作用带来了这些好处，例如动量减轻了其他特征固有的过度拟合。最优组合的回报超出了传统因子的范围。 |
 
 # 详细
 
-[^1]: 将微博情绪与股票价格运动相关联：GPT-4的应用
+[^1]: 赫斯顿随机波动模型上超时步方法的不稳定性
 
-    Linking microblogging sentiments to stock price movement: An application of GPT-4. (arXiv:2308.16771v1 [q-fin.ST])
+    Instabilities of Super-Time-Stepping Methods on the Heston Stochastic Volatility Model. (arXiv:2309.00540v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2308.16771](http://arxiv.org/abs/2308.16771)
+    [http://arxiv.org/abs/2309.00540](http://arxiv.org/abs/2309.00540)
 
-    本文研究了GPT-4在通过微博情感分析预测股票价格运动方面的潜在改进，并开发了一种新的方法用于情境情感分析，结果显示GPT-4在准确性上超过了BERT和买入持有策略。
-
-    
-
-    本文研究了GPT-4语言学习模型（LLM）在对比BERT模型中，通过对微博消息的情感分析来建模苹果和特斯拉2017年同日日常股价的潜在改进。我们记录了每日调整后的收盘价格，并将其转化为上涨或下跌的动态。利用两种LLM从Stocktwits平台上提取每日的情绪。我们开发了一种新颖的方法，通过综合提示来进行情境情感分析，以发掘现代LLM的真实能力。这使我们能够仔细提取情绪、感知优势或劣势，以及与分析公司相关性。采用逻辑回归评估提取的消息内容是否反映了股票价格的变动。结果表明，GPT-4在五个月中超过了BERT，显著提高了准确性，并且明显超过了天真的买入持有策略，达到了最高的准确性。
-
-    This paper investigates the potential improvement of the GPT-4 Language Learning Model (LLM) in comparison to BERT for modeling same-day daily stock price movements of Apple and Tesla in 2017, based on sentiment analysis of microblogging messages. We recorded daily adjusted closing prices and translated them into up-down movements. Sentiment for each day was extracted from messages on the Stocktwits platform using both LLMs. We develop a novel method to engineer a comprehensive prompt for contextual sentiment analysis which unlocks the true capabilities of modern LLM. This enables us to carefully retrieve sentiments, perceived advantages or disadvantages, and the relevance towards the analyzed company. Logistic regression is used to evaluate whether the extracted message contents reflect stock price movements. As a result, GPT-4 exhibited substantial accuracy, outperforming BERT in five out of six months and substantially exceeding a naive buy-and-hold strategy, reaching a peak accurac
-    
-[^2]: 提高以太坊上庞氏骗局检测的鲁棒性和准确性的方法
-
-    Improving Robustness and Accuracy of Ponzi Scheme Detection on Ethereum Using Time-Dependent Features. (arXiv:2308.16391v1 [cs.CR])
-
-    [http://arxiv.org/abs/2308.16391](http://arxiv.org/abs/2308.16391)
-
-    这篇论文提出了一种基于交易的方法来提高以太坊上庞氏骗局的检测鲁棒性和准确性。现有的方法主要基于智能合约源代码或操作码进行检测，但缺乏鲁棒性。通过分析交易数据，可以更有效地识别庞氏骗局，因为交易更难伪装。
+    本文研究了应用于赫斯顿随机波动模型的显式超时步方案的不稳定性问题，并指出这一问题具有普适性。
 
     
 
-    区块链的快速发展导致越来越多的资金涌入加密货币市场，也吸引了近年来网络犯罪分子的兴趣。庞氏骗局作为一种老式的欺诈行为，现在也流行于区块链上，给许多加密货币投资者造成了巨大的财务损失。现有文献中已经提出了一些庞氏骗局检测方法，其中大多数是基于智能合约的源代码或操作码进行检测的。虽然基于合约代码的方法在准确性方面表现出色，但它缺乏鲁棒性：首先，大部分以太坊上的合约源代码并不公开可用；其次，庞氏骗局开发者可以通过混淆操作码或者创造新的分配逻辑来欺骗基于合约代码的检测模型（因为这些模型仅在现有的庞氏逻辑上进行训练）。基于交易的方法可以提高检测的鲁棒性，因为与智能合约不同，交易更加难以伪装。
+    本文在赫斯顿随机波动模型上，详细探讨了显式超时步方案（如Runge-Kutta-Chebyshev或Runge-Kutta-Legendre方案）的不稳定性问题，并指出这些稳定性问题超出了超时步方案的范围。
 
-    The rapid development of blockchain has led to more and more funding pouring into the cryptocurrency market, which also attracted cybercriminals' interest in recent years. The Ponzi scheme, an old-fashioned fraud, is now popular on the blockchain, causing considerable financial losses to many crypto-investors. A few Ponzi detection methods have been proposed in the literature, most of which detect a Ponzi scheme based on its smart contract source code or opcode. The contract-code-based approach, while achieving very high accuracy, is not robust: first, the source codes of a majority of contracts on Ethereum are not available, and second, a Ponzi developer can fool a contract-code-based detection model by obfuscating the opcode or inventing a new profit distribution logic that cannot be detected (since these models were trained on existing Ponzi logics only). A transaction-based approach could improve the robustness of detection because transactions, unlike smart contracts, are harder t
+    This note explores in more details instabilities of explicit super-time-stepping schemes, such as the Runge-Kutta-Chebyshev or Runge-Kutta-Legendre schemes, noticed in the litterature, when applied to the Heston stochastic volatility model. The stability remarks are relevant beyond the scope of super-time-stepping schemes.
     
-[^3]: 一种使用流动性曲线和链上预言机的永续协议自适应定价框架
+[^2]: 防止他人商业化你的创新：来自创意共享许可证的证据
 
-    A new adaptive pricing framework for perpetual protocols using liquidity curves and on-chain oracles. (arXiv:2308.16256v1 [q-fin.TR])
+    Preventing Others from Commercializing Your Innovation: Evidence from Creative Commons Licenses. (arXiv:2309.00536v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.16256](http://arxiv.org/abs/2308.16256)
+    [http://arxiv.org/abs/2309.00536](http://arxiv.org/abs/2309.00536)
 
-    本文介绍了一种使用流动性曲线和链上预言机的新型自适应定价框架，可稳定和可预测地为永续合约定价，并根据当前市场条件对交易者报价费用。通过数学建模和与现有解决方案的比较，展示了该框架的操作和优势。同时，探讨了增强去中心化永续协议整体效率的其他功能。
-
-    
-
-    本文介绍了一种创新的机制，用于根据当前市场条件为永续合约定价和对交易者报价费用。该方法利用流动性曲线和链上预言机建立了一种新的自适应定价框架，考虑了各种因素，确保定价的稳定性和可预测性。该框架利用抛物线和S形函数报价价格和费用，考虑了流动性、活跃的多头和空头头寸以及利用率。本文通过数学建模详细解释了自适应定价框架与流动性曲线的操作，并将其与现有解决方案进行了比较。此外，我们探讨了增强去中心化永续协议整体效率的其他功能。
-
-    This whitepaper introduces an innovative mechanism for pricing perpetual contracts and quoting fees to traders based on current market conditions. The approach employs liquidity curves and on-chain oracles to establish a new adaptive pricing framework that considers various factors, ensuring pricing stability and predictability. The framework utilizes parabolic and sigmoid functions to quote prices and fees, accounting for liquidity, active long and short positions, and utilization. This whitepaper provides a detailed explanation of how the adaptive pricing framework, in conjunction with liquidity curves, operates through mathematical modeling and compares it to existing solutions. Furthermore, we explore additional features that enhance the overall efficiency of the decentralized perpetual protocol.
-    
-[^4]: 使用对冲进行预测组合，并应用于随机森林
-
-    Hedging Forecast Combinations With an Application to the Random Forest. (arXiv:2308.15384v1 [stat.ME])
-
-    [http://arxiv.org/abs/2308.15384](http://arxiv.org/abs/2308.15384)
-
-    本文提出了一种使用对冲进行预测组合的通用方法，并应用于随机森林。研究表明，该方法在14个数据集中相对于标准方法在组合树预测形成加权随机森林方面具有改进的外样本表现。
+    本文研究了在线创新社区中创新者对商业化的限制许可证现象，发现随着声誉的提高和对他人贡献的重复使用，创新者越倾向于限制商业化利用。
 
     
 
-    本文提出了一个通用的、高层次的方法来生成预测组合，如果能够获得两个总体量：个体预测误差向量的均值向量和协方差矩阵，该方法能够以均方预测误差为标准，得到最优线性组合的预测。我们指出，这个问题与一个均值-方差投资组合构建问题是相同的，其中投资组合权重对应于预测组合权重。我们允许负的预测权重，并将这样的权重解释为对估计量之间的过度估计风险和不足估计风险进行对冲。这种解释直接来自投资组合类比。我们在14个数据集中演示了我们的方法相对于标准方法在组合树预测形成加权随机森林方面的外样本表现改进。
+    在线创新社区是许多组织的重要创新来源。虽然对这些社区的贡献通常是无偿的，但这些贡献通常受Creative Commons等许可证的约束，可能阻止他人对其进行改进和商业化利用。尽管这可能减少了贡献的实用性，但目前还没有充分研究分析为什么个体会限制他们作品的使用。本文研究了3D打印设计社区Thingiverse中的创新者们对商业化的限制许可证。我们的分析表明，随着声誉的提高和对他人贡献的重复使用，创新者更倾向于限制对其贡献的商业化利用。这些发现对创新社区和数字市场产权的研究做出了贡献。
 
-    This papers proposes a generic, high-level methodology for generating forecast combinations that would deliver the optimal linearly combined forecast in terms of the mean-squared forecast error if one had access to two population quantities: the mean vector and the covariance matrix of the vector of individual forecast errors. We point out that this problem is identical to a mean-variance portfolio construction problem, in which portfolio weights correspond to forecast combination weights. We allow negative forecast weights and interpret such weights as hedging over and under estimation risks across estimators. This interpretation follows directly as an implication of the portfolio analogy. We demonstrate our method's improved out-of-sample performance relative to standard methods in combining tree forecasts to form weighted random forests in 14 data sets.
+    Online innovation communities are an important source of innovation for many organizations. While contributions to such communities are typically made without financial compensation, these contributions are often governed by licenses such as Creative Commons that may prevent others from building upon and commercializing them. While this can diminish the usefulness of contributions, there is limited work analyzing what leads individuals to impose restrictions on the use of their work. In this paper, we examine innovators imposing restrictive licenses within the 3D-printable design community Thingiverse. Our analyses suggest that innovators are more likely to restrict commercialization of their contributions as their reputation increases and when reusing contributions created by others. These findings contribute to innovation communities and the growing literature on property rights in digital markets.
     
-[^5]: 认知衰老与劳动份额
+[^3]: 机遇还是混沌？分形几何用于研究比特币的本质
 
-    Cognitive Aging and Labor Share. (arXiv:2308.14982v1 [econ.GN])
+    Chance or Chaos? Fractal geometry aimed to inspect the nature of Bitcoin. (arXiv:2309.00390v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2308.14982](http://arxiv.org/abs/2308.14982)
+    [http://arxiv.org/abs/2309.00390](http://arxiv.org/abs/2309.00390)
 
-    该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。
-
-    
-
-    劳动份额，即经济产出的工资比例，在工业化国家中不可理解地在下降。虽然许多之前的研究试图通过经济因素来解释这种下降，但我们的新颖方法将这种下降与生物因素联系起来。具体而言，我们提出了一个理论宏观经济模型，劳动份额反映了劳动力自动化现有产出和消费者需求新的依赖人力劳动的产出变体之间的动态平衡。工业化导致人口老龄化，虽然在工作年限内认知表现稳定，但之后急剧下降。因此，老龄消费者认知能力的下降减少了对新的产出变体的需求，导致劳动份额下降。我们的模型将劳动份额表达为中位数年龄的代数函数，并通过非线性随机回归在工业化经济体的历史数据上以惊人的准确性进行了验证。
-
-    Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.
-    
-[^6]: 持不同意见：测量FOMC会议中的隐藏异议
-
-    Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.10131](http://arxiv.org/abs/2308.10131)
-
-    该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。
+    本文使用分形几何分析比特币的性质和行为，发现其价格具有持续性，降低了效率但增加了可预测性。同时观察到底层技术对价格动态有影响，只有完全去中心化的加密货币具有自相似特征。
 
     
 
-    基于1976年至2017年的FOMC投票异议记录和会议记录，我们开发了一个基于自我关注模块的深度学习模型，用于确定每个成员在每个会议中的异议程度。虽然异议很少见，但我们发现成员们经常对政策决策持保留意见。异议程度主要由当前或预测的宏观经济数据驱动，成员的个人特征几乎不起作用。我们还利用模型评估会议之间成员的演讲，并发现它们所揭示的异议程度与随后的会议异议程度之间存在弱相关性。最后，我们发现每当货币政策行动更加激进时，异议程度会增加。
+    本文旨在分析比特币，以揭示其本质和行为。我们选择了占总市值近75％的9种加密货币，并将它们与各种传统资产（商品、期货合约、国债、股票指数、增长股和价值股）的发展进行对比。我们将应用分形几何进行对比特币回报率的统计分析。作为主要结论，我们发现其价格存在较高的持续性，这降低了效率但增加了可预测性。此外，我们观察到底层技术影响价格动态，只有完全去中心化的加密货币在任何时间尺度上表现出自相似特征。
 
-    Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
+    The aim of this paper is to analyse the Bitcoin in order to shed some light on its nature and behaviour. We select 9 cryptocurrencies that account for almost 75\% of total market capitalisation and compare their evolution with that of a wide variety of traditional assets: commodities with spot and futures contracts, treasury bonds, stock indices, growth and value stocks. Fractal geometry will be applied to carry out a careful statistical analysis of the performance of the Bitcoin returns. As a main conclusion, we have detected a high degree of persistence in its prices, which decreases the efficiency but increases its predictability. Moreover, we observe that the underlying technology influences price dynamics, with fully decentralised cryptocurrencies being the only ones to exhibit self-similarity features at any time scale.
     
-[^7]: 经济主体的动态运输
+[^4]: 使用时间序列分析和自然语言处理预测金融市场趋势
 
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+    Predicting Financial Market Trends using Time Series Analysis and Natural Language Processing. (arXiv:2309.00136v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+    [http://arxiv.org/abs/2309.00136](http://arxiv.org/abs/2309.00136)
 
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
-
-    
-
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
-
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
-    
-[^8]: 具有随机利率的Heston模型的无偏估计器
-
-    Unbiased estimators for the Heston model with stochastic interest rates. (arXiv:2301.12072v2 [q-fin.CP] UPDATED)
-
-    [http://arxiv.org/abs/2301.12072](http://arxiv.org/abs/2301.12072)
-
-    本研究结合了无偏估计器和具有随机利率的Heston模型，通过开发半精确的对数欧拉方案，证明了其收敛率为O(h)，适用于多种模型。
+    本研究通过分析推文中表达的情绪，使用时间序列分析和自然语言处理预测了特斯拉、苹果等主要公司股票价格的波动。结果表明，积极性、消极性和主观性是股票价格波动的主要决定因素。
 
     
 
-    我们结合了Rhee和Glynn（Operations Research: 63(5), 1026-1043，2015）中的无偏估计器和具有随机利率的Heston模型。具体地，我们首先为具有随机利率的Heston模型开发了一个半精确的对数欧拉方案。然后，在一些温和的假设下，我们证明收敛率在L^2范数中是O(h)，其中h是步长。该结果适用于许多模型，如Heston-Hull-While模型，Heston-CIR模型和Heston-Black-Karasinski模型。数值实验支持我们的理论收敛率。
+    通过时间序列分析和自然语言处理预测金融市场趋势是一项复杂而具有挑战性的任务，因为许多变量可以影响股票价格。这些变量涵盖了一系列经济和政治事件，以及当前的公众态度。最近的研究表明，社交媒体平台上公众情绪的表达（如Twitter）可能对股票价格的确定产生重要影响。本研究旨在评估Twitter情绪作为预测特斯拉、苹果等主要公司股票价格的工具的可行性。我们的研究发现，推文中传达的情绪与股票价格的波动之间存在强有力的关联。我们的研究结果表明，积极性、消极性和主观性是股票价格波动的主要决定因素。数据使用了长短期记忆神经网络（LSTM）模型进行分析。
 
-    We combine the unbiased estimators in Rhee and Glynn (Operations Research: 63(5), 1026-1043, 2015) and the Heston model with stochastic interest rates. Specifically, we first develop a semi-exact log-Euler scheme for the Heston model with stochastic interest rates. Then, under mild assumptions, we show that the convergence rate in the $L^2$ norm is $O(h)$, where $h$ is the step size. The result applies to a large class of models, such as the Heston-Hull-While model, the Heston-CIR model and the Heston-Black-Karasinski model. Numerical experiments support our theoretical convergence rate.
+    Forecasting financial market trends through time series analysis and natural language processing poses a complex and demanding undertaking, owing to the numerous variables that can influence stock prices. These variables encompass a spectrum of economic and political occurrences, as well as prevailing public attitudes. Recent research has indicated that the expression of public sentiments on social media platforms such as Twitter may have a noteworthy impact on the determination of stock prices. The objective of this study was to assess the viability of Twitter sentiments as a tool for predicting stock prices of major corporations such as Tesla, Apple. Our study has revealed a robust association between the emotions conveyed in tweets and fluctuations in stock prices. Our findings indicate that positivity, negativity, and subjectivity are the primary determinants of fluctuations in stock prices. The data was analyzed utilizing the Long-Short Term Memory neural network (LSTM) model, whi
+    
+[^5]: 在多属性选择情境中准确评估质量
+
+    Accurate Quality Elicitation in a Multi-attribute Choice Setting. (arXiv:2309.00114v1 [econ.GN])
+
+    [http://arxiv.org/abs/2309.00114](http://arxiv.org/abs/2309.00114)
+
+    本文研究如何在多属性选择情境中准确评估质量，通过比较m-MPL和p-MPL的两种多价格列表的理论和实证研究结果，发现m-MPL相对于p-MPL的准确性更高，且质量测量对于elicitation方法敏感。
+
+    
+
+    本文研究如何准确评估具有多个属性的替代品的质量。研究考虑两种多价格列表（MPLs）：（i）m-MPL，要求被试将一种替代品与金钱进行比较；（ii）p-MPL，被试被赋予金钱，并被询问是否愿意购买一种替代品。理论结果表明，与p-MPL相比，m-MPL对于准确评估质量需要更少的假设。通过使用消费产品的受试者实验的实证证据表明，两种MPL之间的转换点不同，这表明质量测量对 elicitation 方法敏感。
+
+    This paper studies how to accurately elicit quality for alternatives with multiple attributes. Two multiple price lists (MPLs) are considered: (i) m-MPL which asks subjects to compare an alternative to money, and (ii) p-MPL where subjects are endowed with money and asked whether they would like to buy an alternative or not. Theoretical results show that m-MPL requires fewer assumptions for accurate quality elicitation compared to p-MPL. Experimental evidence from a within-subject experiment using consumer products shows that switch points between the two MPLs are different, which suggests that quality measures are sensitive to the elicitation method.
+    
+[^6]: 深度半监督异常检测在期货市场诈骗发现中的应用
+
+    Deep Semi-Supervised Anomaly Detection for Finding Fraud in the Futures Market. (arXiv:2309.00088v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.00088](http://arxiv.org/abs/2309.00088)
+
+    本研究评估了一种名为Deep SAD的深度半监督异常检测技术在高频金融数据中检测诈骗的效果。使用了来自TMX交易所的独家限价委托薄数据，并利用一小部分的标记数据。
+
+    
+
+    现代金融电子交易所是一个令人兴奋且快节奏的市场，每天交易额达数十亿美元。然而，市场上存在着操纵和诈骗活动。检测此类活动是一个重大任务，过去一直是由人类来完成。最近，更多的研究和资源集中在通过机器学习和人工智能来自动化这些过程上。欺诈检测主要与异常检测领域有关，通常通过无监督学习技术来进行，因为缺少有监督学习所需的标记数据。然而，通常还有少量可用的有标签数据。本研究旨在评估一种名为Deep SAD的深度半监督异常检测技术，在高频金融数据中检测诈骗的效果。我们使用了来自蒙特利尔TMX交易所的独家限价委托薄数据，配以少量的标记数据。
+
+    Modern financial electronic exchanges are an exciting and fast-paced marketplace where billions of dollars change hands every day. They are also rife with manipulation and fraud. Detecting such activity is a major undertaking, which has historically been a job reserved exclusively for humans. Recently, more research and resources have been focused on automating these processes via machine learning and artificial intelligence. Fraud detection is overwhelmingly associated with the greater field of anomaly detection, which is usually performed via unsupervised learning techniques because of the lack of labeled data needed for supervised learning. However, a small quantity of labeled data does often exist. This research article aims to evaluate the efficacy of a deep semi-supervised anomaly detection technique, called Deep SAD, for detecting fraud in high-frequency financial data. We use exclusive proprietary limit order book data from the TMX exchange in Montr\'eal, with a small set of tr
+    
+[^7]: 利用扩散变分自编码器解决多步回归股票价格预测中的随机性问题
+
+    Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction. (arXiv:2309.00073v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2309.00073](http://arxiv.org/abs/2309.00073)
+
+    本论文提出了一种利用扩散变分自编码器来解决多步回归股票价格预测中的随机性问题的方法。
+
+    
+
+    长期内的多步股票价格预测对于预测波动性至关重要，使得金融机构能够定价和对冲衍生品，并让银行量化其交易簿中的风险。此外，大多数金融监管机构还要求机构投资者有几天的流动性期限从其风险资产中退出，以避免对市场价格产生实质性影响。然而，由于股票数据具有高度随机性，多步股票价格预测的任务很具挑战性。目前解决这个问题的方法主要针对单步基于分类的预测，并且在表征表达力方面有限。随着目标价格序列的引入，这个问题在测试时变得越来越困难，因为目标价格序列中也包含随机噪声，降低了泛化能力。为了解决这些问题，我们结合了深层分层变分自编码器(VAE)和扩散概率技术。
+
+    Multi-step stock price prediction over a long-term horizon is crucial for forecasting its volatility, allowing financial institutions to price and hedge derivatives, and banks to quantify the risk in their trading books. Additionally, most financial regulators also require a liquidity horizon of several days for institutional investors to exit their risky assets, in order to not materially affect market prices. However, the task of multi-step stock price prediction is challenging, given the highly stochastic nature of stock data. Current solutions to tackle this problem are mostly designed for single-step, classification-based predictions, and are limited to low representation expressiveness. The problem also gets progressively harder with the introduction of the target price sequence, which also contains stochastic noise and reduces generalizability at test-time. To tackle these issues, we combine a deep hierarchical variational-autoencoder (VAE) and diffusion probabilistic techniques
+    
+[^8]: 新的普遍依赖度量方法：构造、估计和应用于高频股票回报
+
+    New general dependence measures: construction, estimation and application to high-frequency stock returns. (arXiv:2309.00025v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2309.00025](http://arxiv.org/abs/2309.00025)
+
+    这篇论文提出了一种新的普遍依赖度量方法，可应用于高频股票回报数据，并在市场压力事件中显示出对尾部不对称性、非线性、缺乏多样化和风险内生性的累积的特性。通过使用这些新的度量方法，论文改进了现有的依赖度量，并表明其在资产定价和统计学领域具有实际效用。
+
+    
+
+    我们提出了一组依赖度量方法，这些方法是非线性的、局部的，在边际值的广泛变换下具有不变性，可以显示尾部和风险的不对称性，总是有明确定义的，易于估计，并且可以应用于任何数据集。我们提出了一个非参数估计器，并证明了其一致性和渐近正态性。因此，我们在资产定价和统计学中使用的现有（极端的）依赖度量的基础上，显著改进了这些方法。为了展示其实际效用，我们在高频股票回报数据中使用了这些度量方法，包括2010年的Flash Crash和全球金融危机期间。与广泛使用的相关性相反，我们发现我们的度量方法清楚地显示出这些压力情况下的尾部不对称性、非线性、缺乏多样化以及风险内生性的累积。此外，我们的度量方法预测了Flash Crash期间的大规模（联合）损失，同时也预测了市场的反弹并标志了随后的市场脆弱性。
+
+    We propose a set of dependence measures that are non-linear, local, invariant to a wide range of transformations on the marginals, can show tail and risk asymmetries, are always well-defined, are easy to estimate and can be used on any dataset. We propose a nonparametric estimator and prove its consistency and asymptotic normality. Thereby we significantly improve on existing (extreme) dependence measures used in asset pricing and statistics. To show practical utility, we use these measures on high-frequency stock return data around market distress events such as the 2010 Flash Crash and during the GFC. Contrary to ubiquitously used correlations we find that our measures clearly show tail asymmetry, non-linearity, lack of diversification and endogenous buildup of risks present during these distress events. Additionally, our measures anticipate large (joint) losses during the Flash Crash while also anticipating the bounce back and flagging the subsequent market fragility. Our findings h
+    
+[^9]: 对金融市场的实证分析：基于统计物理学应用的见解
+
+    An Empirical Analysis on Financial Market: Insights from the Application of Statistical Physics. (arXiv:2308.14235v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2308.14235](http://arxiv.org/abs/2308.14235)
+
+    本研究引入了受统计物理学启发的物理模型，利用三级订单簿数据预测金融市场的价格波动和预期回报，超越了传统方法和机器学习算法，提供了对市场微观结构的深入理解。
+
+    
+
+    在这项研究中，我们介绍了受统计物理学启发的物理模型，通过利用三级订单簿数据来预测价格波动和预期回报。通过将委托簿中的订单与物理系统中的粒子进行类比，我们建立了系统动能和动量的独特测量方式，以理解和评估委托簿的状态。我们的模型超越了仅仅检查订单簿的顶层，引入了“活跃深度”概念，一种计算高效的方法来识别对价格动态产生影响的订单簿层级。我们经验证明，我们的模型优于传统方法和机器学习算法的基准。我们的模型对市场微观结构有深入的理解，并能产生更准确的波动性和预期回报预测。通过将统计物理学的原理纳入研究，这项研究提供了有价值的市场理解。
+
+    In this study, we introduce a physical model inspired by statistical physics for predicting price volatility and expected returns by leveraging Level 3 order book data. By drawing parallels between orders in the limit order book and particles in a physical system, we establish unique measures for the system's kinetic energy and momentum as a way to comprehend and evaluate the state of limit order book. Our model goes beyond examining merely the top layers of the order book by introducing the concept of 'active depth', a computationally-efficient approach for identifying order book levels that have impact on price dynamics. We empirically demonstrate that our model outperforms the benchmarks of traditional approaches and machine learning algorithm. Our model provides a nuanced comprehension of market microstructure and produces more accurate forecasts on volatility and expected returns. By incorporating principles of statistical physics, this research offers valuable insights on underst
+    
+[^10]: 线性二次随机微分博弈中的时不一致性
+
+    Time-Inconsistency in Linear Quadratic Stochastic Differential Games. (arXiv:2304.11577v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.11577](http://arxiv.org/abs/2304.11577)
+
+    本文研究了一个线性二次随机零和博弈，玩家由于折扣率的非常数性而存在时不一致性，旨在识别一种意识到自己时不一致性的一致规划均衡，分析了单个玩家和双玩家情况下的均衡行为，并对均衡进行了数值分析。
+
+    
+
+    本文研究了一个线性二次随机零和博弈，两个玩家游说政治代表投资于风力涡轮机场项目。玩家由于折扣率的非常数性而存在时不一致性。我们的目标是识别一种一致的规划均衡，使得玩家意识到自己的不一致性并且不能承诺一项游说策略。我们分析了单个玩家和双玩家情况下的均衡行为，并比较了在固定和非固定折扣率下的游戏行为。均衡行为以闭环形式提供，可以通过解析方法或数值逼近得到。我们对均衡的数值分析表明，策略行为导致更强烈的游说而不会导致越界现象。
+
+    We investigate a linear quadratic stochastic zero-sum game where two players lobby a political representative to invest in a wind turbine farm. Players are time-inconsistent because they discount performance with a non-constant rate. Our objective is to identify a consistent planning equilibrium in which the players are aware of their inconsistency and cannot commit to a lobbying policy. We analyze the equilibrium behavior in both single-player and two-player cases and compare the behavior of the game under constant and non-constant discount rates. The equilibrium behavior is provided in closed-loop form, either analytically or via numerical approximation. Our numerical analysis of the equilibrium reveals that strategic behavior leads to more intense lobbying without resulting in overshooting.
+    
+[^11]: 从局部随机波动性模型的校准衍生的正则化的McKean-Vlasov方程的欧拉-丸山粒子方案的收敛性
+
+    Convergence of the Euler--Maruyama particle scheme for a regularised McKean--Vlasov equation arising from the calibration of local-stochastic volatility models. (arXiv:2302.00434v2 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2302.00434](http://arxiv.org/abs/2302.00434)
+
+    本文研究了欧拉-丸山方案作为一个粒子方法来逼近校准的局部随机波动性（LSV）模型的McKean-Vlasov动力学，并证明了其在输入条件假设下的良定义性和强收敛性，以及误差对正则化参数的依赖关系。
+
+    
+
+    本文研究了欧拉-丸山方案作为一个粒子方法来逼近校准的局部随机波动性（LSV）模型的McKean-Vlasov动力学。鉴于原始问题的良定义性的未解问题，我们使用正则化系数，并证明在输入条件的某些假设下，正则化模型具有良定义性。利用这个结果，我们证明了欧拉-丸山方案相对于粒子系统的强收敛性，时间步长的收敛速率为1/2，并得到了误差对于正则化参数的明确依赖关系。最后，我们应用粒子方法对Heston类型的LSV模型进行校准，以说明在实践中的收敛性，并研究正则化参数选择对校准准确性的影响。
+
+    In this paper, we study the Euler--Maruyama scheme for a particle method to approximate the McKean--Vlasov dynamics of calibrated local-stochastic volatility (LSV) models. Given the open question of well-posedness of the original problem, we work with regularised coefficients and prove that under certain assumptions on the inputs, the regularised model is well-posed. Using this result, we prove the strong convergence of the Euler--Maruyama scheme to the particle system with rate 1/2 in the step-size and obtain an explicit dependence of the error on the regularisation parameters. Finally, we implement the particle method for the calibration of a Heston-type LSV model to illustrate the convergence in practice and to investigate how the choice of regularisation parameters affects the accuracy of the calibration.
+    
+[^12]: 使用Bollinger带增强的神经增强卡尔曼滤波进行配对交易
+
+    Neural Augmented Kalman Filtering with Bollinger Bands for Pairs Trading. (arXiv:2210.15448v2 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/2210.15448](http://arxiv.org/abs/2210.15448)
+
+    本研究提出了KalmenNet辅助的Bollinger带配对交易策略（KBPT），通过深度学习增强了KF-BB交易操作。KBPT通过建立一个扩展的空间状态模型来近似配对交易的关系，并利用基于卡尔曼滤波的神经网络提高了交易效果。
+
+    
+
+    配对交易是一类交易技术，其策略是基于监测资产对之间的关系。一种常见的配对交易方法是将资产对之间的关系描述为带有高斯噪声的线性空间状态模型。这种表示方法利用卡尔曼滤波器提取具有低复杂性和延迟的金融指标，然后使用经典策略（如Bollinger带）进行处理。然而，这种空间状态模型本质上是近似和不匹配的，经常会降低收益。在本文中，我们提出了KalmenNet辅助的Bollinger带配对交易（KBPT），这是一种借助深度学习的策略，用于增强KF-BB交易的操作。KBPT通过构建一个扩展的空间状态模型来近似配对交易的关系，将其视为持有部分协整。这个空间状态模型被应用于一个交易策略，该策略利用基于卡尔曼滤波的神经网络增强KF-BB交易。
+
+    Pairs trading is a family of trading techniques that determine their policies based on monitoring the relationships between pairs of assets. A common pairs trading approach relies on describing the pair-wise relationship as a linear Space State (SS) model with Gaussian noise. This representation facilitates extracting financial indicators with low complexity and latency using a Kalman Filter (KF), that are then processed using classic policies such as Bollinger Bands (BB). However, such SS models are inherently approximated and mismatched, often degrading the revenue. In this work, we propose KalmenNet-aided Bollinger bands Pairs Trading (KBPT), a deep learning aided policy that augments the operation of KF-aided BB trading. KBPT is designed by formulating an extended SS model for pairs trading that approximates their relationship as holding partial co-integration. This SS model is utilized by a trading policy that augments KF-BB trading with a dedicated neural network based on the Kal
+    
+[^13]: 连续时间中的随机最优停止问题和强化学习算法研究
+
+    Randomized Optimal Stopping Problem in Continuous time and Reinforcement Learning Algorithm. (arXiv:2208.02409v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2208.02409](http://arxiv.org/abs/2208.02409)
+
+    本文研究了探索性框架下的最优停止问题，将其转化为标准的最优控制问题，并给出了相关的HJB方程和策略迭代的收敛速度。通过设计强化学习算法并进行数值结果演示，验证了理论分析的有效性。
+
+    
+
+    本文研究了所谓的探索性框架下的最优停止问题，其中代理在当前状态的条件下随机采取行动，并在奖励函数中加入了一个经过熵正则化的项。这种转化将最优停止问题简化为标准的最优控制问题。我们推导了相关的HJB方程并证明了其可解性。此外，我们给出了策略迭代的收敛速度以及与经典最优停止问题的比较。基于理论分析，设计了一种强化学习算法，并对若干模型进行了数值结果的演示。
+
+    In this paper, we study the optimal stopping problem in the so-called exploratory framework, in which the agent takes actions randomly conditioning on current state and an entropy-regularized term is added to the reward functional. Such a transformation reduces the optimal stopping problem to a standard optimal control problem. We derive the related HJB equation and prove its solvability. Furthermore, we give a convergence rate of policy iteration and the comparison to classical optimal stopping problem. Based on the theoretical analysis, a reinforcement learning algorithm is designed and numerical results are demonstrated for several models.
+    
+[^14]: 三项模型中的内部人问题：一种离散时间跳跃过程的方法
+
+    The insider problem in the trinomial model: a discrete-time jump process approach. (arXiv:2106.15208v4 [math.PR] UPDATED)
+
+    [http://arxiv.org/abs/2106.15208](http://arxiv.org/abs/2106.15208)
+
+    该论文提出了一种离散时间跳跃过程的方法来研究三项模型中的内部人问题。通过使用标记二项过程作为辅助模型，将三项模型转化为波动性模型，并利用随机分析和Malliavin微积分工具箱进行分析。论文解决了代理人和内部人在预期对数效用最大化方面的问题，并提供了可复制要求的套期保值公式。此外，论文还发现内部人预期的额外效用与额外信息的香农熵相关。
+
+    
+
+    在以三项模型为基础的不完全市场中，我们考虑两种投资者：一个是受公共信息驱动的普通代理人，另一个是从一开始就拥有通过一个随机变量编码的额外信息的内部人。通过定义一个基于标记二项过程的辅助模型，我们将三项模型处理为波动性模型，并利用在该背景下可用的随机分析和Malliavin微积分工具箱。特别是，我们通过Malliavin导数的术语在初始扩展过滤中连接信息漂移和消除漂移以保持鞅性质。我们明确解决了代理人和内部人预期对数效用最大化问题，并为可复制要求提供了套期保值公式。我们将内部人预期的额外效用与额外信息的香农熵进行了对应，并进一步审视了外部市场对该内容的依赖程度。
+
+    In an incomplete market underpinned by the trinomial model, we consider two investors : an ordinary agent whose decisions are driven by public information and an insider who possesses from the beginning a surplus of information encoded through a random variable for which he or she knows the outcome. Through the definition of an auxiliary model based on a marked binomial process, we handle the trinomial model as a volatility one, and use the stochastic analysis and Malliavin calculus toolboxes available in that context. In particular, we connect the information drift, the drift to eliminate in order to preserve the martingale property within an initial enlargement of filtration in terms of the Malliavin derivative. We solve explicitly the agent and the insider expected logarithmic utility maximisation problems and provide a hedging formula for replicable claims. We identify the insider expected additional utility with the Shannon entropy of the extra information, and examine then the ex
+    
+[^15]: 一个对特征和最优组合的实证评估
+
+    An Empirical Assessment of Characteristics and Optimal Portfolios. (arXiv:2104.12975v3 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2104.12975](http://arxiv.org/abs/2104.12975)
+
+    通过离样本外效用函数的视角，本文分析特征的联合预测信息。在动量、大小和残差波动率的条件下，形成的投资组合对所有投资者来说都具有显著更高的确定等价值。特征的互补作用带来了这些好处，例如动量减轻了其他特征固有的过度拟合。最优组合的回报超出了传统因子的范围。
+
+    
+
+    本文通过离样本外效用函数的视角分析特征的联合预测信息。我们通过最大化样本内损失函数来减轻特征权重估计误差，该损失函数比效用函数更凹。尽管没有单一特征可以提高所有投资者的效用，但在动力、大小和残差波动率的条件下，形成的投资组合的确定等价值显著高于基准值。特征的互补作用带来了这些好处，例如动力减轻了其他特征固有的过度拟合。最优组合的回报在很大程度上超出了传统因子的范围。
+
+    We analyze characteristics' joint predictive information through the lens of out-of-sample power utility functions. Linking weights to characteristics to form optimal portfolios suffers from estimation error which we mitigate by maximizing an in-sample loss function that is more concave than the utility function. While no single characteristic can be used to enhance utility by all investors, conditioning on momentum, size, and residual volatility produces portfolios with significantly higher certainty equivalents than benchmarks for all investors. Characteristic complementarities produce the benefits, for example momentum mitigates overfitting inherent in other characteristics. Optimal portfolios' returns lie largely outside the span of traditional factors.
     
 

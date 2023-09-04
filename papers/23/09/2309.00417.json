@@ -1,0 +1,12 @@
+{
+    "title": "Area-norm COBRA on Conditional Survival Prediction. (arXiv:2309.00417v1 [cs.LG])",
+    "abstract": "The paper explores a different variation of combined regression strategy to calculate the conditional survival function. We use regression based weak learners to create the proposed ensemble technique. The proposed combined regression strategy uses proximity measure as area between two survival curves. The proposed model shows a construction which ensures that it performs better than the Random Survival Forest. The paper discusses a novel technique to select the most important variable in the combined regression setup. We perform a simulation study to show that our proposition for finding relevance of the variables works quite well. We also use three real-life datasets to illustrate the model.",
+    "link": "http://arxiv.org/abs/2309.00417",
+    "context": "Title: Area-norm COBRA on Conditional Survival Prediction. (arXiv:2309.00417v1 [cs.LG])\nAbstract: The paper explores a different variation of combined regression strategy to calculate the conditional survival function. We use regression based weak learners to create the proposed ensemble technique. The proposed combined regression strategy uses proximity measure as area between two survival curves. The proposed model shows a construction which ensures that it performs better than the Random Survival Forest. The paper discusses a novel technique to select the most important variable in the combined regression setup. We perform a simulation study to show that our proposition for finding relevance of the variables works quite well. We also use three real-life datasets to illustrate the model.",
+    "path": "papers/23/09/2309.00417.json",
+    "total_tokens": 690,
+    "translated_title": "条件生存预测中的面积规范COBRA",
+    "translated_abstract": "本文探讨了一种不同的组合回归策略来计算条件生存函数。我们使用基于回归的弱学习器来创建所提出的集成技术。所提出的组合回归策略使用相似度度量作为两个生存曲线之间的面积。所提出的模型表明其表现优于随机生存森林。本文讨论了一种在组合回归设置中选择最重要变量的新技术。我们进行了一项模拟研究，表明我们对变量相关性的提议效果很好。我们还使用了三个真实数据集来说明该模型。",
+    "tldr": "本文提出了一种基于组合回归的条件生存预测方法，其中使用面积作为相似度度量，通过选择最重要的变量来提高模型性能。",
+    "en_tdlr": "The paper proposes a variation of combined regression strategy to calculate conditional survival function, using proximity measure as the area between survival curves. It also presents a novel technique for selecting the most important variable in the regression setup, and demonstrates its improved performance through simulation and real-life datasets."
+}

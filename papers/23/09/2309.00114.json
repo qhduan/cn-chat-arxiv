@@ -1,0 +1,12 @@
+{
+    "title": "Accurate Quality Elicitation in a Multi-attribute Choice Setting. (arXiv:2309.00114v1 [econ.GN])",
+    "abstract": "This paper studies how to accurately elicit quality for alternatives with multiple attributes. Two multiple price lists (MPLs) are considered: (i) m-MPL which asks subjects to compare an alternative to money, and (ii) p-MPL where subjects are endowed with money and asked whether they would like to buy an alternative or not. Theoretical results show that m-MPL requires fewer assumptions for accurate quality elicitation compared to p-MPL. Experimental evidence from a within-subject experiment using consumer products shows that switch points between the two MPLs are different, which suggests that quality measures are sensitive to the elicitation method.",
+    "link": "http://arxiv.org/abs/2309.00114",
+    "context": "Title: Accurate Quality Elicitation in a Multi-attribute Choice Setting. (arXiv:2309.00114v1 [econ.GN])\nAbstract: This paper studies how to accurately elicit quality for alternatives with multiple attributes. Two multiple price lists (MPLs) are considered: (i) m-MPL which asks subjects to compare an alternative to money, and (ii) p-MPL where subjects are endowed with money and asked whether they would like to buy an alternative or not. Theoretical results show that m-MPL requires fewer assumptions for accurate quality elicitation compared to p-MPL. Experimental evidence from a within-subject experiment using consumer products shows that switch points between the two MPLs are different, which suggests that quality measures are sensitive to the elicitation method.",
+    "path": "papers/23/09/2309.00114.json",
+    "total_tokens": 752,
+    "translated_title": "在多属性选择情境中准确评估质量",
+    "translated_abstract": "本文研究如何准确评估具有多个属性的替代品的质量。研究考虑两种多价格列表（MPLs）：（i）m-MPL，要求被试将一种替代品与金钱进行比较；（ii）p-MPL，被试被赋予金钱，并被询问是否愿意购买一种替代品。理论结果表明，与p-MPL相比，m-MPL对于准确评估质量需要更少的假设。通过使用消费产品的受试者实验的实证证据表明，两种MPL之间的转换点不同，这表明质量测量对 elicitation 方法敏感。",
+    "tldr": "本文研究如何在多属性选择情境中准确评估质量，通过比较m-MPL和p-MPL的两种多价格列表的理论和实证研究结果，发现m-MPL相对于p-MPL的准确性更高，且质量测量对于elicitation方法敏感。",
+    "en_tdlr": "This paper explores how to accurately elicit quality for alternatives with multiple attributes. Theoretical and empirical findings suggest that the m-MPL method is more accurate than the p-MPL method, and that quality measures are sensitive to the elicitation method."
+}

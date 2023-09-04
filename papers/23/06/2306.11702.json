@@ -1,0 +1,11 @@
+{
+    "title": "Lingua Manga: A Generic Large Language Model Centric System for Data Curation. (arXiv:2306.11702v2 [cs.DB] UPDATED)",
+    "abstract": "Data curation is a wide-ranging area which contains many critical but time-consuming data processing tasks. However, the diversity of such tasks makes it challenging to develop a general-purpose data curation system. To address this issue, we present Lingua Manga, a user-friendly and versatile system that utilizes pre-trained large language models. Lingua Manga offers automatic optimization for achieving high performance and label efficiency while facilitating flexible and rapid development. Through three example applications with distinct objectives and users of varying levels of technical proficiency, we demonstrate that Lingua Manga can effectively assist both skilled programmers and low-code or even no-code users in addressing data curation challenges.",
+    "link": "http://arxiv.org/abs/2306.11702",
+    "context": "Title: Lingua Manga: A Generic Large Language Model Centric System for Data Curation. (arXiv:2306.11702v2 [cs.DB] UPDATED)\nAbstract: Data curation is a wide-ranging area which contains many critical but time-consuming data processing tasks. However, the diversity of such tasks makes it challenging to develop a general-purpose data curation system. To address this issue, we present Lingua Manga, a user-friendly and versatile system that utilizes pre-trained large language models. Lingua Manga offers automatic optimization for achieving high performance and label efficiency while facilitating flexible and rapid development. Through three example applications with distinct objectives and users of varying levels of technical proficiency, we demonstrate that Lingua Manga can effectively assist both skilled programmers and low-code or even no-code users in addressing data curation challenges.",
+    "path": "papers/23/06/2306.11702.json",
+    "total_tokens": 718,
+    "translated_title": "Lingua Manga: 一个以大型语言模型为中心的通用数据管理系统",
+    "translated_abstract": "数据管理是一个广泛的领域，包含许多关键但耗时的数据处理任务。然而，这些任务的多样性使得开发通用数据管理系统具有挑战性。为了解决这个问题，我们提出了Lingua Manga，一个用户友好且多功能的系统，利用预训练的大型语言模型。Lingua Manga通过三个具有不同目标和技术水平的用户的示例应用，展示了它可以有效地协助熟练的程序员和低代码甚至无代码用户解决数据管理挑战。",
+    "tldr": "Lingua Manga是一个以大型语言模型为中心的通用数据管理系统，通过自动优化实现高性能和标签效率，同时促进灵活和快速开发。它能够有效地协助熟练的程序员和低代码甚至无代码用户解决数据管理挑战。"
+}

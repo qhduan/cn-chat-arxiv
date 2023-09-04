@@ -1,0 +1,12 @@
+{
+    "title": "TurboGP: A flexible and advanced python based GP library. (arXiv:2309.00149v1 [cs.NE])",
+    "abstract": "We introduce TurboGP, a Genetic Programming (GP) library fully written in Python and specifically designed for machine learning tasks. TurboGP implements modern features not available in other GP implementations, such as island and cellular population schemes, different types of genetic operations (migration, protected crossovers), online learning, among other features. TurboGP's most distinctive characteristic is its native support for different types of GP nodes to allow different abstraction levels, this makes TurboGP particularly useful for processing a wide variety of data sources.",
+    "link": "http://arxiv.org/abs/2309.00149",
+    "context": "Title: TurboGP: A flexible and advanced python based GP library. (arXiv:2309.00149v1 [cs.NE])\nAbstract: We introduce TurboGP, a Genetic Programming (GP) library fully written in Python and specifically designed for machine learning tasks. TurboGP implements modern features not available in other GP implementations, such as island and cellular population schemes, different types of genetic operations (migration, protected crossovers), online learning, among other features. TurboGP's most distinctive characteristic is its native support for different types of GP nodes to allow different abstraction levels, this makes TurboGP particularly useful for processing a wide variety of data sources.",
+    "path": "papers/23/09/2309.00149.json",
+    "total_tokens": 657,
+    "translated_title": "TurboGP：一个灵活而先进的基于Python的GP库",
+    "translated_abstract": "我们介绍了TurboGP，一个完全用Python编写的遗传编程（GP）库，专门设计用于机器学习任务。TurboGP实现了其他GP实现中不存在的现代特性，如岛和细胞人群方案、不同类型的遗传操作（迁移、受保护的交叉等）、在线学习等特性。TurboGP最独特的特点是其对不同类型的GP节点的本地支持，以允许不同的抽象级别，这使得TurboGP在处理各种数据源时特别有用。",
+    "tldr": "TurboGP是一个基于Python的灵活和先进的GP库，具有岛和细胞人群方案、不同类型的遗传操作和对不同类型的GP节点的本地支持，适用于处理各种数据源。",
+    "en_tdlr": "TurboGP is a flexible and advanced GP library based on Python, featuring island and cellular population schemes, different types of genetic operations, and native support for different types of GP nodes, making it suitable for processing a wide variety of data sources."
+}

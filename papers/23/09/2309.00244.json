@@ -1,0 +1,12 @@
+{
+    "title": "NeuroSurgeon: A Toolkit for Subnetwork Analysis. (arXiv:2309.00244v1 [cs.LG])",
+    "abstract": "Despite recent advances in the field of explainability, much remains unknown about the algorithms that neural networks learn to represent. Recent work has attempted to understand trained models by decomposing them into functional circuits (Csord\\'as et al., 2020; Lepori et al., 2023). To advance this research, we developed NeuroSurgeon, a python library that can be used to discover and manipulate subnetworks within models in the Huggingface Transformers library (Wolf et al., 2019). NeuroSurgeon is freely available at https://github.com/mlepori1/NeuroSurgeon.",
+    "link": "http://arxiv.org/abs/2309.00244",
+    "context": "Title: NeuroSurgeon: A Toolkit for Subnetwork Analysis. (arXiv:2309.00244v1 [cs.LG])\nAbstract: Despite recent advances in the field of explainability, much remains unknown about the algorithms that neural networks learn to represent. Recent work has attempted to understand trained models by decomposing them into functional circuits (Csord\\'as et al., 2020; Lepori et al., 2023). To advance this research, we developed NeuroSurgeon, a python library that can be used to discover and manipulate subnetworks within models in the Huggingface Transformers library (Wolf et al., 2019). NeuroSurgeon is freely available at https://github.com/mlepori1/NeuroSurgeon.",
+    "path": "papers/23/09/2309.00244.json",
+    "total_tokens": 675,
+    "translated_title": "NeuroSurgeon: 一种用于子网络分析的工具包",
+    "translated_abstract": "尽管在可解释性领域取得了一些进展，但我们对神经网络学习表示的算法仍知之甚少。最近的研究尝试通过将已训练模型分解为功能电路来理解它们(参考Csord\\'as等人的研究，2020；Lepori等人，2023)。为了推进这项研究，我们开发了NeuroSurgeon，这是一个Python库，可以用于发现和操作Huggingface Transformers库中的模型中的子网络(Wolf等人，2019)。NeuroSurgeon可以在https://github.com/mlepori1/NeuroSurgeon 免费获取。",
+    "tldr": "NeuroSurgeon是一个用于在Huggingface Transformers库中发现和操作模型子网络的Python工具包，可以推进对神经网络学习算法的理解。",
+    "en_tdlr": "NeuroSurgeon is a python toolkit developed to discover and manipulate subnetworks within models in the Huggingface Transformers library, advancing the understanding of neural network learning algorithms."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Application of Deep Learning Methods in Monitoring and Optimization of Electric Power Systems. (arXiv:2309.00498v1 [cs.LG])",
+    "abstract": "This PhD thesis thoroughly examines the utilization of deep learning techniques as a means to advance the algorithms employed in the monitoring and optimization of electric power systems. The first major contribution of this thesis involves the application of graph neural networks to enhance power system state estimation. The second key aspect of this thesis focuses on utilizing reinforcement learning for dynamic distribution network reconfiguration. The effectiveness of the proposed methods is affirmed through extensive experimentation and simulations.",
+    "link": "http://arxiv.org/abs/2309.00498",
+    "context": "Title: Application of Deep Learning Methods in Monitoring and Optimization of Electric Power Systems. (arXiv:2309.00498v1 [cs.LG])\nAbstract: This PhD thesis thoroughly examines the utilization of deep learning techniques as a means to advance the algorithms employed in the monitoring and optimization of electric power systems. The first major contribution of this thesis involves the application of graph neural networks to enhance power system state estimation. The second key aspect of this thesis focuses on utilizing reinforcement learning for dynamic distribution network reconfiguration. The effectiveness of the proposed methods is affirmed through extensive experimentation and simulations.",
+    "path": "papers/23/09/2309.00498.json",
+    "total_tokens": 597,
+    "translated_title": "深度学习方法在电力系统监测与优化中的应用",
+    "translated_abstract": "本博士论文全面研究了利用深度学习技术来提高电力系统监测与优化算法的应用。该论文的第一个重要贡献是应用图神经网络来增强电力系统状态估计。该论文的第二个关键方面是利用强化学习进行动态配电网重构。通过大量的实验和仿真验证了所提出方法的有效性。",
+    "tldr": "该论文应用深度学习方法来提高电力系统监测与优化算法，具体包括使用图神经网络增强系统状态估计，以及利用强化学习进行动态配电网重构。",
+    "en_tdlr": "This thesis applies deep learning methods to enhance monitoring and optimization algorithms of electric power systems, including graph neural networks for system state estimation and reinforcement learning for dynamic distribution network reconfiguration."
+}

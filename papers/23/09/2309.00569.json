@@ -1,0 +1,12 @@
+{
+    "title": "Amyloid-Beta Axial Plane PET Synthesis from Structural MRI: An Image Translation Approach for Screening Alzheimer's Disease. (arXiv:2309.00569v1 [eess.IV])",
+    "abstract": "In this work, an image translation model is implemented to produce synthetic amyloid-beta PET images from structural MRI that are quantitatively accurate. Image pairs of amyloid-beta PET and structural MRI were used to train the model. We found that the synthetic PET images could be produced with a high degree of similarity to truth in terms of shape, contrast and overall high SSIM and PSNR. This work demonstrates that performing structural to quantitative image translation is feasible to enable the access amyloid-beta information from only MRI.",
+    "link": "http://arxiv.org/abs/2309.00569",
+    "context": "Title: Amyloid-Beta Axial Plane PET Synthesis from Structural MRI: An Image Translation Approach for Screening Alzheimer's Disease. (arXiv:2309.00569v1 [eess.IV])\nAbstract: In this work, an image translation model is implemented to produce synthetic amyloid-beta PET images from structural MRI that are quantitatively accurate. Image pairs of amyloid-beta PET and structural MRI were used to train the model. We found that the synthetic PET images could be produced with a high degree of similarity to truth in terms of shape, contrast and overall high SSIM and PSNR. This work demonstrates that performing structural to quantitative image translation is feasible to enable the access amyloid-beta information from only MRI.",
+    "path": "papers/23/09/2309.00569.json",
+    "total_tokens": 687,
+    "translated_title": "从结构 MRI 中合成 Amyloid-Beta 轴向平面 PET：用于筛查阿尔茨海默病的图像翻译方法",
+    "translated_abstract": "本研究采用图像翻译模型，从结构 MRI 中产生合成的定量准确的 amyloid-beta PET 图像。使用了 amyloid-beta PET 和结构 MRI 的图像对来训练模型。结果表明，合成的 PET 图像在形状、对比度和整体的 SSIM 和 PSNR 上与真实图像具有很高的相似度。该研究表明，通过结构到定量图像的翻译，可以从仅有的 MRI 中获得 amyloid-beta 信息。",
+    "tldr": "通过使用图像翻译模型，本研究证明了从结构 MRI 中合成具有准确定量能力的 amyloid-beta PET 图像的可行性，为仅依靠 MRI 获得 amyloid-beta 信息提供了一种新途径。",
+    "en_tdlr": "This study demonstrates the feasibility of synthesizing quantitatively accurate amyloid-beta PET images from structural MRI using an image translation model, providing a new approach to access amyloid-beta information solely from MRI."
+}

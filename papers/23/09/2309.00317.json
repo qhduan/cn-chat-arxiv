@@ -1,0 +1,12 @@
+{
+    "title": "A Text-based Approach For Link Prediction on Wikipedia Articles. (arXiv:2309.00317v1 [cs.AI])",
+    "abstract": "This paper present our work in the DSAA 2023 Challenge about Link Prediction for Wikipedia Articles. We use traditional machine learning models with POS tags (part-of-speech tags) features extracted from text to train the classification model for predicting whether two nodes has the link. Then, we use these tags to test on various machine learning models. We obtained the results by F1 score at 0.99999 and got 7th place in the competition. Our source code is publicly available at this link: https://github.com/Tam1032/DSAA2023-Challenge-Link-prediction-DS-UIT_SAT",
+    "link": "http://arxiv.org/abs/2309.00317",
+    "context": "Title: A Text-based Approach For Link Prediction on Wikipedia Articles. (arXiv:2309.00317v1 [cs.AI])\nAbstract: This paper present our work in the DSAA 2023 Challenge about Link Prediction for Wikipedia Articles. We use traditional machine learning models with POS tags (part-of-speech tags) features extracted from text to train the classification model for predicting whether two nodes has the link. Then, we use these tags to test on various machine learning models. We obtained the results by F1 score at 0.99999 and got 7th place in the competition. Our source code is publicly available at this link: https://github.com/Tam1032/DSAA2023-Challenge-Link-prediction-DS-UIT_SAT",
+    "path": "papers/23/09/2309.00317.json",
+    "total_tokens": 711,
+    "translated_title": "基于文本的维基百科文章链接预测方法",
+    "translated_abstract": "本文介绍了我们在DSAA 2023挑战中关于维基百科文章链接预测的工作。我们利用传统的机器学习模型以及从文本中提取的词性标注特征来训练分类模型，用于预测两个节点是否有链接。然后，我们使用这些特征在各种机器学习模型上进行测试。我们通过F1得分为0.99999获得了第7名。我们的源代码可以在以下链接中公开获取：https://github.com/Tam1032/DSAA2023-Challenge-Link-prediction-DS-UIT_SAT",
+    "tldr": "本研究提出了一种基于文本的维基百科文章链接预测方法，通过利用传统的机器学习模型和词性标注特征，实现了对两个节点是否有链接的分类预测，并在比赛中取得了较高的成绩。",
+    "en_tdlr": "This paper presents a text-based approach for link prediction on Wikipedia articles. By utilizing traditional machine learning models and part-of-speech tags features, the classification model is trained to predict whether two nodes have a link, achieving high performance in the competition."
+}

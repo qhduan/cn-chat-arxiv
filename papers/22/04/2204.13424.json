@@ -1,0 +1,11 @@
+{
+    "title": "From prediction markets to interpretable collective intelligence. (arXiv:2204.13424v3 [cs.GT] UPDATED)",
+    "abstract": "We outline how to create a mechanism that provides an optimal way to elicit, from an arbitrary group of experts, the probability of the truth of an arbitrary logical proposition together with collective information that has an explicit form and interprets this probability. Namely, we provide strong arguments for the possibility of the development of a self-resolving prediction market with play money that incentivizes direct information exchange between experts. Such a system could, in particular, motivate simultaneously many experts to collectively solve scientific or medical problems in a very efficient manner. We also note that in our considerations, experts are not assumed to be Bayesian.",
+    "link": "http://arxiv.org/abs/2204.13424",
+    "context": "Title: From prediction markets to interpretable collective intelligence. (arXiv:2204.13424v3 [cs.GT] UPDATED)\nAbstract: We outline how to create a mechanism that provides an optimal way to elicit, from an arbitrary group of experts, the probability of the truth of an arbitrary logical proposition together with collective information that has an explicit form and interprets this probability. Namely, we provide strong arguments for the possibility of the development of a self-resolving prediction market with play money that incentivizes direct information exchange between experts. Such a system could, in particular, motivate simultaneously many experts to collectively solve scientific or medical problems in a very efficient manner. We also note that in our considerations, experts are not assumed to be Bayesian.",
+    "path": "papers/22/04/2204.13424.json",
+    "total_tokens": 718,
+    "translated_title": "从预测市场到可解释的集体智能",
+    "translated_abstract": "我们概述了如何创建一种机制，能够以最优的方式从任意专家组中引出关于任意逻辑命题真实概率的信息，并提供具有明确形式的集体信息来解释这种概率。特别地，我们提供了强有力的论据，证明了开发一种使用虚拟货币激励专家之间直接信息交流的自解决预测市场的可能性。这样的系统可以同时激励许多专家以非常高效的方式共同解决科学或医学问题。我们还指出，在我们的考虑中，并不假设专家们是贝叶斯主义者。",
+    "tldr": "本文提出了一个机制，可以从任意专家组中收集到关于任意逻辑命题真实概率的信息，并提供具有明确形式的解释。该机制可以激励专家直接交流信息，解决科学或医学问题。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Selective Scene Text Removal. (arXiv:2309.00410v1 [cs.CV])",
+    "abstract": "Scene text removal (STR) is the image transformation task to remove text regions in scene images. The conventional STR methods remove all scene text. This means that the existing methods cannot select text to be removed. In this paper, we propose a novel task setting named selective scene text removal (SSTR) that removes only target words specified by the user. Although SSTR is a more complex task than STR, the proposed multi-module structure enables efficient training for SSTR. Experimental results show that the proposed method can remove target words as expected.",
+    "link": "http://arxiv.org/abs/2309.00410",
+    "context": "Title: Selective Scene Text Removal. (arXiv:2309.00410v1 [cs.CV])\nAbstract: Scene text removal (STR) is the image transformation task to remove text regions in scene images. The conventional STR methods remove all scene text. This means that the existing methods cannot select text to be removed. In this paper, we propose a novel task setting named selective scene text removal (SSTR) that removes only target words specified by the user. Although SSTR is a more complex task than STR, the proposed multi-module structure enables efficient training for SSTR. Experimental results show that the proposed method can remove target words as expected.",
+    "path": "papers/23/09/2309.00410.json",
+    "total_tokens": 668,
+    "translated_title": "选择性场景文本去除",
+    "translated_abstract": "场景文本去除（Scene text removal，STR）是一种图像转换任务，用于去除场景图像中的文本区域。传统的STR方法会删除所有的场景文本。这意味着现有的方法无法选择要删除的文本。本文提出了一种名为选择性场景文本去除（Selective scene text removal，SSTR）的新任务设置，只删除用户指定的目标词汇。虽然SSTR比STR更复杂，但是我们提出的多模块结构使得SSTR的训练更加高效。实验结果表明，所提出的方法可以如预期地去除目标词汇。",
+    "tldr": "本论文提出了一种选择性场景文本去除（SSTR）任务，该任务可以根据用户指定的目标词汇来去除场景图像中的文本，实验结果表明所提出的方法有效地实现了目标词汇的去除。",
+    "en_tdlr": "This paper proposes a selective scene text removal (SSTR) task that can remove text from scene images based on user-specified target words. Experimental results demonstrate the effectiveness of the proposed method in removing the target words."
+}

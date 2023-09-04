@@ -1,0 +1,12 @@
+{
+    "title": "LLM in the Shell: Generative Honeypots. (arXiv:2309.00155v1 [cs.CR])",
+    "abstract": "Honeypots are essential tools in cybersecurity. However, most of them (even the high-interaction ones) lack the required realism to engage and fool human attackers. This limitation makes them easily discernible, hindering their effectiveness. This work introduces a novel method to create dynamic and realistic software honeypots based on Large Language Models. Preliminary results indicate that LLMs can create credible and dynamic honeypots capable of addressing important limitations of previous honeypots, such as deterministic responses, lack of adaptability, etc. We evaluated the realism of each command by conducting an experiment with human attackers who needed to say if the answer from the honeypot was fake or not. Our proposed honeypot, called shelLM, reached an accuracy rate of 0.92.",
+    "link": "http://arxiv.org/abs/2309.00155",
+    "context": "Title: LLM in the Shell: Generative Honeypots. (arXiv:2309.00155v1 [cs.CR])\nAbstract: Honeypots are essential tools in cybersecurity. However, most of them (even the high-interaction ones) lack the required realism to engage and fool human attackers. This limitation makes them easily discernible, hindering their effectiveness. This work introduces a novel method to create dynamic and realistic software honeypots based on Large Language Models. Preliminary results indicate that LLMs can create credible and dynamic honeypots capable of addressing important limitations of previous honeypots, such as deterministic responses, lack of adaptability, etc. We evaluated the realism of each command by conducting an experiment with human attackers who needed to say if the answer from the honeypot was fake or not. Our proposed honeypot, called shelLM, reached an accuracy rate of 0.92.",
+    "path": "papers/23/09/2309.00155.json",
+    "total_tokens": 807,
+    "translated_title": "LLM在Shell中的应用：生成式蜜罐",
+    "translated_abstract": "蜜罐是网络安全中的重要工具。然而，大多数蜜罐（即使是高交互式的）缺乏足够的真实感来欺骗攻击者。这个限制使得它们很容易被识别，从而影响到它们的有效性。本研究引入了一种基于大型语言模型的新方法来创建动态和真实的软件蜜罐。初步结果表明，LLM能够创建可信且动态的蜜罐，能够解决以往蜜罐的重要局限性，如确定性响应、缺乏适应性等。我们通过与需要判断蜜罐回应是否虚假的攻击者进行实验来评估每个命令的真实性。我们提出的蜜罐，称为shelLM，达到了0.92的准确率。",
+    "tldr": "本研究引入了一种基于大型语言模型的新方法来创建动态和真实的软件蜜罐，解决了以往蜜罐的重要局限性，并通过实验验证了其高准确率。",
+    "en_tdlr": "This research introduces a novel method based on Large Language Models to create dynamic and realistic software honeypots, addressing important limitations of previous honeypots, and it achieves a high accuracy rate through experiments."
+}
