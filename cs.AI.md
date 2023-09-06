@@ -89,28 +89,29 @@
 | [^85] | ["An Adapt-or-Die Type of Situation": Perception, Adoption, and Use of Text-To-Image-Generation AI by Game Industry Professionals.](http://arxiv.org/abs/2302.12601) | TTIG模型是创造性人工智能的最新补充，可以根据文本描述生成图像。研究发现，专业人士对于TTIG应用和认知等方面存在12个主要问题。这项研究为支持TTIG的可持续采用提供了重要见解。 |
 | [^86] | [Adding Conditional Control to Text-to-Image Diffusion Models.](http://arxiv.org/abs/2302.05543) | ControlNet是一种神经网络架构，用于为大规模预训练的文本到图像扩散模型添加条件控制。它可以通过重复使用预先训练的编码层学习多样的条件控制，并通过逐渐增加参数进行微调，从而在控制图像扩散模型方面具有鲁棒性。 |
 | [^87] | [A novel framework for medium-term wind power prediction based on temporal attention mechanisms.](http://arxiv.org/abs/2302.01222) | 本文提出了一种基于树状Parzen估计器（TPE）和分解算法的新框架（TPE-VMD-TFT），用于24小时和48小时之前的风电功率预测。在法国电力公司Engie的风能数据集上，所提出的方法表现良好。 |
-| [^88] | [SPTS v2: Single-Point Scene Text Spotting.](http://arxiv.org/abs/2301.01635) | 本研究提出的SPTS v2框架，首次证明了可以使用极低成本的单点注释来训练场景文本定位模型，同时保留了自回归Transformer与实例分配解码器（IAD）的优势，并使用并行识别解码器（PRD）进行文本识别。 |
-| [^89] | [Backward Curriculum Reinforcement Learning.](http://arxiv.org/abs/2212.14214) | 这项工作提出了一种新颖的反向课程强化学习方法，通过使用回放轨迹而不是原始的前向轨迹来训练智能体。这种方法通过提供强有力的奖励信号实现了更高效的学习，而且只需要进行微小的算法改变。 |
-| [^90] | [Rethinking Vision Transformers for MobileNet Size and Speed.](http://arxiv.org/abs/2212.08059) | 本研究重新思考了Vision Transformers在移动设备上的部署效率，并提出了一种新的超网络设计和搜索策略，以实现与MobileNet类似大小和速度的Transformer模型。 |
-| [^91] | [Learning Combinatorial Structures via Markov Random Fields with Sampling through Lov\'asz Local Lemma.](http://arxiv.org/abs/2212.00296) | Nelson是一种基于神经网络和Lov\'asz Local Lemma的方法，使用约束的马尔可夫随机场模型生成满足组合约束条件的样本。 |
-| [^92] | [Social media mining for toxicovigilance of prescription medications: End-to-end pipeline, challenges and future work.](http://arxiv.org/abs/2211.10443) | 本文描述了一个为社交媒体挖掘非医学处方药物使用信息而开发的端到端管道，并讨论了挑战和未来工作。 |
-| [^93] | [Semantic Representations of Mathematical Expressions in a Continuous Vector Space.](http://arxiv.org/abs/2211.08142) | 该论文提出了一种在连续向量空间中表示数学表达式的方法，并使用序列到序列框架的编码器生成向量表示来捕捉数学语义，比自动编码器效果更好。 |
-| [^94] | [MemoNet: Memorizing All Cross Features' Representations Efficiently via Multi-Hash Codebook Network for CTR Prediction.](http://arxiv.org/abs/2211.01334) | 本文提出了一种名为MemoNet的CTR模型，通过引入多哈希码本网络（HCNet）作为记忆机制，高效地学习和记忆交叉特征的表示。实验结果表明MemoNet在性能上优于最先进的方法，并且展现出NLP中的大型语言模型的扩展规律。 |
-| [^95] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
-| [^96] | [JAX-DIPS: Neural bootstrapping of finite discretization methods and application to elliptic problems with discontinuities.](http://arxiv.org/abs/2210.14312) | JAX-DIPS是一种基于有限离散方法和神经网络的可伸缩策略，用于开发无网格混合神经符号偏微分方程求解器，并在具有间断的椭圆问题中得到应用。 |
-| [^97] | [Video based Object 6D Pose Estimation using Transformers.](http://arxiv.org/abs/2210.13540) | 本论文介绍了一种基于Transformer的视频中物体6D姿态估计框架，利用先前的帧信息进行姿态估计，实现了高效而准确的姿态估计，能够处理长时间序列依赖关系，并且相对于CNN方法表现更好，具有33fps的处理速度，适用于实时物体姿态估计应用。 |
-| [^98] | [Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations.](http://arxiv.org/abs/2210.11584) | 对模型解释的用户研究综述发现，可解释型人工智能（XAI）正在某些应用领域快速扩散，但用户评估仍然稀缺且几乎不涉及认知或社会科学的见解。 |
-| [^99] | [A Secure Federated Data-Driven Evolutionary Multi-objective Optimization Algorithm.](http://arxiv.org/abs/2210.08295) | 该论文提出了一个安全的联邦数据驱动多目标优化算法，旨在保护原始数据和通过服务器上的获得函数进行优化而获得的新增解决方案的隐私和安全性。通过在每次代理更新时，在随机选择的客户端上选择查询点，减少了泄漏解决方案信息的风险。 |
-| [^100] | [Taking a Respite from Representation Learning for Molecular Property Prediction.](http://arxiv.org/abs/2209.13492) | 本研究对一系列分子表征模型进行了系统评估，发现基于固定表征的模型在分子属性预测中具有一定优势，同时也揭示了活性断崖问题。 |
-| [^101] | [Digital Audio Forensics: Blind Human Voice Mimicry Detection.](http://arxiv.org/abs/2209.12573) | 本文介绍了一种利用深度学习方法，通过盲目检测输入音频的真实性，可以有效应对音频欺诈问题的分类器。而这种分类器不需要任何参考，能够在没有真实来源的情况下检测出模仿音频。 |
-| [^102] | [The alignment problem from a deep learning perspective.](http://arxiv.org/abs/2209.00626) | 人工通用智能（AGI）的出现可能会导致其追求与人类利益不对齐的目标，并采用欺骗性行为和权力追求策略。防止这种情况的发生是一个重要的研究方向。 |
-| [^103] | [Learning Efficient Abstract Planning Models that Choose What to Predict.](http://arxiv.org/abs/2208.07737) | 该论文提出了一种学习抽象规划模型的方法，通过选择预测来提高机器人在长期任务中的决策效率。 |
-| [^104] | [Hierarchical Distribution-Aware Testing of Deep Learning.](http://arxiv.org/abs/2205.08589) | 本文提出了一种新的深度学习鲁棒性测试方法，通过考虑特征和像素级别的分布，捕捉对抗扰动的感知质量，以改善模型可靠性。 |
-| [^105] | [Introspective Deep Metric Learning for Image Retrieval.](http://arxiv.org/abs/2205.04449) | 本文提出了一种内省式深度度量学习（IDML）框架，通过不确定性建模改进了深度度量学习的性能，并在多个数据集上取得了最先进的结果。 |
-| [^106] | [Engineering flexible machine learning systems by traversing functionally-invariant paths.](http://arxiv.org/abs/2205.00334) | 该论文介绍了一个名为功能不变路径（FIP）的差分几何框架，用于实现神经网络的灵活、连续适应，以应对各种机器学习目标和网络稀疏化目标。 |
-| [^107] | [Knowledge-informed Molecular Learning: A Survey on Paradigm Transfer.](http://arxiv.org/abs/2202.10587) | 本文调查了知识驱动的分子学习，从范式转移的视角出发，总结了其不同范式的分类和方法论，并分析了领域知识的贡献。 |
-| [^108] | [LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI.](http://arxiv.org/abs/2112.02333) | 本文提出了LoNLI框架，可用于集体测试NLI的不同逻辑推理能力。通过创建一个大型测试平台和相关框架，我们可以单独测试和分析多个推理维度的能力，并进行跨能力信息内容的实验研究。这项工作的贡献在于提供一个可扩展的测试框架，帮助深入了解NLI和NLU领域的逻辑推理。 |
-| [^109] | [Backdoor Attack on Hash-based Image Retrieval via Clean-label Data Poisoning.](http://arxiv.org/abs/2109.08868) | 本文提出了一种通过注入带有正确标签的毒化图像来实现后门攻击的方法，该攻击难以被检测到。通过优化哈希码学习和使用有针对性的对抗性贴片作为后门触发器，可以提高攻击性能。 |
+| [^88] | [Backpropagation of Unrolled Solvers with Folded Optimization.](http://arxiv.org/abs/2301.12047) | 本文提出了一种通过解析优化的方法来解决反向传播中的精度和效率问题，并提供了生成高效可解析的反向传播优化模型的系统。此外，本文还提出了通过优化映射统一展开和解析微分的视角。 |
+| [^89] | [SPTS v2: Single-Point Scene Text Spotting.](http://arxiv.org/abs/2301.01635) | 本研究提出的SPTS v2框架，首次证明了可以使用极低成本的单点注释来训练场景文本定位模型，同时保留了自回归Transformer与实例分配解码器（IAD）的优势，并使用并行识别解码器（PRD）进行文本识别。 |
+| [^90] | [Backward Curriculum Reinforcement Learning.](http://arxiv.org/abs/2212.14214) | 这项工作提出了一种新颖的反向课程强化学习方法，通过使用回放轨迹而不是原始的前向轨迹来训练智能体。这种方法通过提供强有力的奖励信号实现了更高效的学习，而且只需要进行微小的算法改变。 |
+| [^91] | [Rethinking Vision Transformers for MobileNet Size and Speed.](http://arxiv.org/abs/2212.08059) | 本研究重新思考了Vision Transformers在移动设备上的部署效率，并提出了一种新的超网络设计和搜索策略，以实现与MobileNet类似大小和速度的Transformer模型。 |
+| [^92] | [Learning Combinatorial Structures via Markov Random Fields with Sampling through Lov\'asz Local Lemma.](http://arxiv.org/abs/2212.00296) | Nelson是一种基于神经网络和Lov\'asz Local Lemma的方法，使用约束的马尔可夫随机场模型生成满足组合约束条件的样本。 |
+| [^93] | [Social media mining for toxicovigilance of prescription medications: End-to-end pipeline, challenges and future work.](http://arxiv.org/abs/2211.10443) | 本文描述了一个为社交媒体挖掘非医学处方药物使用信息而开发的端到端管道，并讨论了挑战和未来工作。 |
+| [^94] | [Semantic Representations of Mathematical Expressions in a Continuous Vector Space.](http://arxiv.org/abs/2211.08142) | 该论文提出了一种在连续向量空间中表示数学表达式的方法，并使用序列到序列框架的编码器生成向量表示来捕捉数学语义，比自动编码器效果更好。 |
+| [^95] | [MemoNet: Memorizing All Cross Features' Representations Efficiently via Multi-Hash Codebook Network for CTR Prediction.](http://arxiv.org/abs/2211.01334) | 本文提出了一种名为MemoNet的CTR模型，通过引入多哈希码本网络（HCNet）作为记忆机制，高效地学习和记忆交叉特征的表示。实验结果表明MemoNet在性能上优于最先进的方法，并且展现出NLP中的大型语言模型的扩展规律。 |
+| [^96] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
+| [^97] | [JAX-DIPS: Neural bootstrapping of finite discretization methods and application to elliptic problems with discontinuities.](http://arxiv.org/abs/2210.14312) | JAX-DIPS是一种基于有限离散方法和神经网络的可伸缩策略，用于开发无网格混合神经符号偏微分方程求解器，并在具有间断的椭圆问题中得到应用。 |
+| [^98] | [Video based Object 6D Pose Estimation using Transformers.](http://arxiv.org/abs/2210.13540) | 本论文介绍了一种基于Transformer的视频中物体6D姿态估计框架，利用先前的帧信息进行姿态估计，实现了高效而准确的姿态估计，能够处理长时间序列依赖关系，并且相对于CNN方法表现更好，具有33fps的处理速度，适用于实时物体姿态估计应用。 |
+| [^99] | [Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations.](http://arxiv.org/abs/2210.11584) | 对模型解释的用户研究综述发现，可解释型人工智能（XAI）正在某些应用领域快速扩散，但用户评估仍然稀缺且几乎不涉及认知或社会科学的见解。 |
+| [^100] | [A Secure Federated Data-Driven Evolutionary Multi-objective Optimization Algorithm.](http://arxiv.org/abs/2210.08295) | 该论文提出了一个安全的联邦数据驱动多目标优化算法，旨在保护原始数据和通过服务器上的获得函数进行优化而获得的新增解决方案的隐私和安全性。通过在每次代理更新时，在随机选择的客户端上选择查询点，减少了泄漏解决方案信息的风险。 |
+| [^101] | [Taking a Respite from Representation Learning for Molecular Property Prediction.](http://arxiv.org/abs/2209.13492) | 本研究对一系列分子表征模型进行了系统评估，发现基于固定表征的模型在分子属性预测中具有一定优势，同时也揭示了活性断崖问题。 |
+| [^102] | [Digital Audio Forensics: Blind Human Voice Mimicry Detection.](http://arxiv.org/abs/2209.12573) | 本文介绍了一种利用深度学习方法，通过盲目检测输入音频的真实性，可以有效应对音频欺诈问题的分类器。而这种分类器不需要任何参考，能够在没有真实来源的情况下检测出模仿音频。 |
+| [^103] | [The alignment problem from a deep learning perspective.](http://arxiv.org/abs/2209.00626) | 人工通用智能（AGI）的出现可能会导致其追求与人类利益不对齐的目标，并采用欺骗性行为和权力追求策略。防止这种情况的发生是一个重要的研究方向。 |
+| [^104] | [Learning Efficient Abstract Planning Models that Choose What to Predict.](http://arxiv.org/abs/2208.07737) | 该论文提出了一种学习抽象规划模型的方法，通过选择预测来提高机器人在长期任务中的决策效率。 |
+| [^105] | [Hierarchical Distribution-Aware Testing of Deep Learning.](http://arxiv.org/abs/2205.08589) | 本文提出了一种新的深度学习鲁棒性测试方法，通过考虑特征和像素级别的分布，捕捉对抗扰动的感知质量，以改善模型可靠性。 |
+| [^106] | [Introspective Deep Metric Learning for Image Retrieval.](http://arxiv.org/abs/2205.04449) | 本文提出了一种内省式深度度量学习（IDML）框架，通过不确定性建模改进了深度度量学习的性能，并在多个数据集上取得了最先进的结果。 |
+| [^107] | [Engineering flexible machine learning systems by traversing functionally-invariant paths.](http://arxiv.org/abs/2205.00334) | 该论文介绍了一个名为功能不变路径（FIP）的差分几何框架，用于实现神经网络的灵活、连续适应，以应对各种机器学习目标和网络稀疏化目标。 |
+| [^108] | [Knowledge-informed Molecular Learning: A Survey on Paradigm Transfer.](http://arxiv.org/abs/2202.10587) | 本文调查了知识驱动的分子学习，从范式转移的视角出发，总结了其不同范式的分类和方法论，并分析了领域知识的贡献。 |
+| [^109] | [LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI.](http://arxiv.org/abs/2112.02333) | 本文提出了LoNLI框架，可用于集体测试NLI的不同逻辑推理能力。通过创建一个大型测试平台和相关框架，我们可以单独测试和分析多个推理维度的能力，并进行跨能力信息内容的实验研究。这项工作的贡献在于提供一个可扩展的测试框架，帮助深入了解NLI和NLU领域的逻辑推理。 |
+| [^110] | [Backdoor Attack on Hash-based Image Retrieval via Clean-label Data Poisoning.](http://arxiv.org/abs/2109.08868) | 本文提出了一种通过注入带有正确标签的毒化图像来实现后门攻击的方法，该攻击难以被检测到。通过优化哈希码学习和使用有针对性的对抗性贴片作为后门触发器，可以提高攻击性能。 |
 
 # 详细
 
@@ -1332,7 +1333,21 @@
 
     Wind energy is a widely distributed, recyclable and environmentally friendly energy source that plays an important role in mitigating global warming and energy shortages. Wind energy's uncertainty and fluctuating nature makes grid integration of large-scale wind energy systems challenging. Medium-term wind power forecasts can provide an essential basis for energy dispatch, so accurate wind power forecasts are essential. Much research has yielded excellent results in recent years. However, many of them require additional experimentation and analysis when applied to other data. In this paper, we propose a novel short-term forecasting framework by tree-structured parzen estimator (TPE) and decomposition algorithms. This framework defines the TPE-VMD-TFT method for 24-h and 48-h ahead wind power forecasting based on variational mode decomposition (VMD) and time fusion transformer (TFT). In the Engie wind dataset from the electricity company in France, the results show that the proposed met
     
-[^88]: SPTS v2: 单点场景文本定位
+[^88]: 反向传播展开的折叠优化求解器
+
+    Backpropagation of Unrolled Solvers with Folded Optimization. (arXiv:2301.12047v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.12047](http://arxiv.org/abs/2301.12047)
+
+    本文提出了一种通过解析优化的方法来解决反向传播中的精度和效率问题，并提供了生成高效可解析的反向传播优化模型的系统。此外，本文还提出了通过优化映射统一展开和解析微分的视角。
+
+    
+
+    在深度网络中将约束优化模型作为组件集成，可以在许多专门的学习任务上取得有希望的进展。在这种情况下的一个核心挑战是通过优化问题的解来进行反向传播，而该解通常缺乏闭合的形式。一种典型的策略是算法展开，它依赖于迭代求解器的自动微分操作。虽然灵活且通用，但在实际中，展开可能遇到精度和效率问题。通过优化的解析微分可以避免这些问题，但当前的框架对于优化问题的形式施加了严格的要求。本文提供了关于展开优化后向传递的理论见解，从而提出了一个生成高效可解析的反向传播优化模型的系统。此外，本文还提出了通过优化映射统一展开和解析微分的视角。在实验上进行测试
+
+    The integration of constrained optimization models as components in deep networks has led to promising advances on many specialized learning tasks. A central challenge in this setting is backpropagation through the solution of an optimization problem, which typically lacks a closed form. One typical strategy is algorithm unrolling, which relies on automatic differentiation through the operations of an iterative solver. While flexible and general, unrolling can encounter accuracy and efficiency issues in practice. These issues can be avoided by analytical differentiation of the optimization, but current frameworks impose rigid requirements on the optimization problem's form. This paper provides theoretical insights into the backward pass of unrolled optimization, leading to a system for generating efficiently solvable analytical models of backpropagation. Additionally, it proposes a unifying view of unrolling and analytical differentiation through optimization mappings. Experiments over
+    
+[^89]: SPTS v2: 单点场景文本定位
 
     SPTS v2: Single-Point Scene Text Spotting. (arXiv:2301.01635v2 [cs.CV] UPDATED)
 
@@ -1346,7 +1361,7 @@
 
     End-to-end scene text spotting has made significant progress due to its intrinsic synergy between text detection and recognition. Previous methods commonly regard manual annotations such as horizontal rectangles, rotated rectangles, quadrangles, and polygons as a prerequisite, which are much more expensive than using single-point. For the first time, we demonstrate that training scene text spotting models can be achieved with an extremely low-cost single-point annotation by the proposed framework, termed SPTS v2. SPTS v2 reserves the advantage of the auto-regressive Transformer with an Instance Assignment Decoder (IAD) through sequentially predicting the center points of all text instances inside the same predicting sequence, while with a Parallel Recognition Decoder (PRD) for text recognition in parallel. These two decoders share the same parameters and are interactively connected with a simple but effective information transmission process to pass the gradient and information. Compre
     
-[^89]: 反向课程强化学习
+[^90]: 反向课程强化学习
 
     Backward Curriculum Reinforcement Learning. (arXiv:2212.14214v3 [cs.AI] UPDATED)
 
@@ -1360,7 +1375,7 @@
 
     Current reinforcement learning algorithms train an agent using forward-generated trajectories, which provide little guidance so that the agent can explore as much as possible. While realizing the value of reinforcement learning results from sufficient exploration, this approach leads to a trade-off in losing sample efficiency, an essential factor impacting algorithm performance. Previous tasks use reward-shaping techniques and network structure modification to increase sample efficiency. However, these methods require many steps to implement. In this work, we propose novel backward curriculum reinforcement learning that begins training the agent using the backward trajectory of the episode instead of the original forward trajectory. This approach provides the agent with a strong reward signal, enabling more sample-efficient learning. Moreover, our method only requires a minor change in the algorithm of reversing the order of the trajectory before agent training, allowing a straightforw
     
-[^90]: 重新思考适用于MobileNet速度和尺寸的Vision Transformers
+[^91]: 重新思考适用于MobileNet速度和尺寸的Vision Transformers
 
     Rethinking Vision Transformers for MobileNet Size and Speed. (arXiv:2212.08059v2 [cs.CV] UPDATED)
 
@@ -1374,7 +1389,7 @@
 
     With the success of Vision Transformers (ViTs) in computer vision tasks, recent arts try to optimize the performance and complexity of ViTs to enable efficient deployment on mobile devices. Multiple approaches are proposed to accelerate attention mechanism, improve inefficient designs, or incorporate mobile-friendly lightweight convolutions to form hybrid architectures. However, ViT and its variants still have higher latency or considerably more parameters than lightweight CNNs, even true for the years-old MobileNet. In practice, latency and size are both crucial for efficient deployment on resource-constraint hardware. In this work, we investigate a central question, can transformer models run as fast as MobileNet and maintain a similar size? We revisit the design choices of ViTs and propose a novel supernet with low latency and high parameter efficiency. We further introduce a novel fine-grained joint search strategy for transformer models that can find efficient architectures by opt
     
-[^91]: 通过 Lov\'asz Local Lemma 进行采样的马尔可夫随机场学习组合结构
+[^92]: 通过 Lov\'asz Local Lemma 进行采样的马尔可夫随机场学习组合结构
 
     Learning Combinatorial Structures via Markov Random Fields with Sampling through Lov\'asz Local Lemma. (arXiv:2212.00296v3 [cs.LG] UPDATED)
 
@@ -1388,7 +1403,7 @@
 
     Generative models for learning combinatorial structures have transformative impacts in many applications. However, existing approaches fail to offer efficient and accurate learning results. Because of the highly intractable nature of the gradient estimation of the learning objective subject to combinatorial constraints. Existing gradient estimation methods would easily run into exponential time/memory space, or incur huge estimation errors due to improper approximation. We develop NEural Lovasz Sampler (Nelson), a neural network based on Lov\'asz Local Lemma (LLL). We show it guarantees to generate samples satisfying combinatorial constraints from the distribution of the constrained Markov Random Fields model (MRF) under certain conditions. We further present a fully differentiable contrastive-divergence-based learning framework on constrained MRF (Nelson-CD). Meanwhile, Nelson-CD being fully differentiable allows us to take advantage of the parallel computing power of GPUs, resulting 
     
-[^92]: 社交媒体挖掘处方药物的毒性监测: 从头到尾的管道，挑战和未来工作。
+[^93]: 社交媒体挖掘处方药物的毒性监测: 从头到尾的管道，挑战和未来工作。
 
     Social media mining for toxicovigilance of prescription medications: End-to-end pipeline, challenges and future work. (arXiv:2211.10443v2 [cs.CL] UPDATED)
 
@@ -1402,7 +1417,7 @@
 
     Substance use, substance use disorder, and overdoses related to substance use are major public health problems globally and in the United States. A key aspect of addressing these problems from a public health standpoint is improved surveillance. Traditional surveillance systems are laggy, and social media are potentially useful sources of timely data. However, mining knowledge from social media is challenging, and requires the development of advanced artificial intelligence, specifically natural language processing (NLP) and machine learning methods. We developed a sophisticated end-to-end pipeline for mining information about nonmedical prescription medication use from social media, namely Twitter and Reddit. Our pipeline employs supervised machine learning and NLP for filtering out noise and characterizing the chatter. In this paper, we describe our end-to-end pipeline developed over four years. In addition to describing our data mining infrastructure, we discuss existing challenges 
     
-[^93]: 连续向量空间中的数学表达式语义表示
+[^94]: 连续向量空间中的数学表达式语义表示
 
     Semantic Representations of Mathematical Expressions in a Continuous Vector Space. (arXiv:2211.08142v2 [cs.CL] UPDATED)
 
@@ -1416,7 +1431,7 @@
 
     Mathematical notation makes up a large portion of STEM literature, yet, finding semantic representations for formulae remains a challenging problem. Because mathematical notation is precise, and its meaning changes significantly with small character shifts, the methods that work for natural text do not necessarily work well for mathematical expressions. In this work, we describe an approach for representing mathematical expressions in a continuous vector space. We use the encoder of a sequence-to-sequence architecture, trained on visually different but mathematically equivalent expressions, to generate vector representations (or embeddings). We compare this approach with an autoencoder and show that the former is better at capturing mathematical semantics. Finally, to expedite future research, we publish a corpus of equivalent transcendental and algebraic expression pairs.
     
-[^94]: MemoNet: 通过多哈希码本网络高效地记忆所有交叉特征表示以实现CTR预测
+[^95]: MemoNet: 通过多哈希码本网络高效地记忆所有交叉特征表示以实现CTR预测
 
     MemoNet: Memorizing All Cross Features' Representations Efficiently via Multi-Hash Codebook Network for CTR Prediction. (arXiv:2211.01334v3 [cs.IR] UPDATED)
 
@@ -1430,7 +1445,7 @@
 
     New findings in natural language processing (NLP) demonstrate that the strong memorization capability contributes a lot to the success of Large Language Models (LLM). This inspires us to explicitly bring an independent memory mechanism into CTR ranking model to learn and memorize cross features' representations. In this paper, we propose multi-Hash Codebook NETwork (HCNet) as the memory mechanism for efficiently learning and memorizing representations of cross features in CTR tasks. HCNet uses a multi-hash codebook as the main memory place and the whole memory procedure consists of three phases: multi-hash addressing, memory restoring, and feature shrinking. We also propose a new CTR model named MemoNet which combines HCNet with a DNN backbone. Extensive experimental results on three public datasets and online test show that MemoNet reaches superior performance over state-of-the-art approaches. Besides, MemoNet shows scaling law of large language model in NLP, which means we can enlarg
     
-[^95]: 可观测完美均衡 (Observable Perfect Equilibrium)
+[^96]: 可观测完美均衡 (Observable Perfect Equilibrium)
 
     Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
 
@@ -1444,7 +1459,7 @@
 
     While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
     
-[^96]: JAX-DIPS：有限离散方法的神经引导法及其在具有间断的椭圆问题中的应用
+[^97]: JAX-DIPS：有限离散方法的神经引导法及其在具有间断的椭圆问题中的应用
 
     JAX-DIPS: Neural bootstrapping of finite discretization methods and application to elliptic problems with discontinuities. (arXiv:2210.14312v2 [math.NA] UPDATED)
 
@@ -1458,7 +1473,7 @@
 
     We present a scalable strategy for development of mesh-free hybrid neuro-symbolic partial differential equation solvers based on existing mesh-based numerical discretization methods. Particularly, this strategy can be used to efficiently train neural network surrogate models of partial differential equations by (i) leveraging the accuracy and convergence properties of advanced numerical methods, solvers, and preconditioners, as well as (ii) better scalability to higher order PDEs by strictly limiting optimization to first order automatic differentiation. The presented neural bootstrapping method (hereby dubbed NBM) is based on evaluation of the finite discretization residuals of the PDE system obtained on implicit Cartesian cells centered on a set of random collocation points with respect to trainable parameters of the neural network. Importantly, the conservation laws and symmetries present in the bootstrapped finite discretization equations inform the neural network about solution re
     
-[^97]: 使用Transformer的基于视频的物体6D姿态估计
+[^98]: 使用Transformer的基于视频的物体6D姿态估计
 
     Video based Object 6D Pose Estimation using Transformers. (arXiv:2210.13540v2 [cs.CV] CROSS LISTED)
 
@@ -1472,7 +1487,7 @@
 
     We introduce a Transformer based 6D Object Pose Estimation framework VideoPose, comprising an end-to-end attention based modelling architecture, that attends to previous frames in order to estimate accurate 6D Object Poses in videos. Our approach leverages the temporal information from a video sequence for pose refinement, along with being computationally efficient and robust. Compared to existing methods, our architecture is able to capture and reason from long-range dependencies efficiently, thus iteratively refining over video sequences. Experimental evaluation on the YCB-Video dataset shows that our approach is on par with the state-of-the-art Transformer methods, and performs significantly better relative to CNN based approaches. Further, with a speed of 33 fps, it is also more efficient and therefore applicable to a variety of applications that require real-time object pose estimation. Training code and pretrained models are available at https://github.com/ApoorvaBeedu/VideoPose
     
-[^98]: 朝着以人为中心的可解释型人工智能：对模型解释的用户研究综述
+[^99]: 朝着以人为中心的可解释型人工智能：对模型解释的用户研究综述
 
     Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations. (arXiv:2210.11584v3 [cs.AI] UPDATED)
 
@@ -1486,7 +1501,7 @@
 
     Explainable AI (XAI) is widely viewed as a sine qua non for ever-expanding AI research. A better understanding of the needs of XAI users, as well as human-centered evaluations of explainable models are both a necessity and a challenge. In this paper, we explore how HCI and AI researchers conduct user studies in XAI applications based on a systematic literature review. After identifying and thoroughly analyzing 97core papers with human-based XAI evaluations over the past five years, we categorize them along the measured characteristics of explanatory methods, namely trust, understanding, usability, and human-AI collaboration performance. Our research shows that XAI is spreading more rapidly in certain application domains, such as recommender systems than in others, but that user evaluations are still rather sparse and incorporate hardly any insights from cognitive or social sciences. Based on a comprehensive discussion of best practices, i.e., common models, design choices, and measures
     
-[^99]: 一个安全的联邦数据驱动多目标优化算法
+[^100]: 一个安全的联邦数据驱动多目标优化算法
 
     A Secure Federated Data-Driven Evolutionary Multi-objective Optimization Algorithm. (arXiv:2210.08295v2 [cs.AI] UPDATED)
 
@@ -1500,7 +1515,7 @@
 
     Data-driven evolutionary algorithms usually aim to exploit the information behind a limited amount of data to perform optimization, which have proved to be successful in solving many complex real-world optimization problems. However, most data-driven evolutionary algorithms are centralized, causing privacy and security concerns. Existing federated Bayesian algorithms and data-driven evolutionary algorithms mainly protect the raw data on each client. To address this issue, this paper proposes a secure federated data-driven evolutionary multi-objective optimization algorithm to protect both the raw data and the newly infilled solutions obtained by optimizing the acquisition function conducted on the server. We select the query points on a randomly selected client at each round of surrogate update by calculating the acquisition function values of the unobserved points on this client, thereby reducing the risk of leaking the information about the solution to be sampled. In addition, since 
     
-[^100]: 暂停分子表征学习：用于分子属性预测的新方法
+[^101]: 暂停分子表征学习：用于分子属性预测的新方法
 
     Taking a Respite from Representation Learning for Molecular Property Prediction. (arXiv:2209.13492v3 [q-bio.QM] UPDATED)
 
@@ -1514,7 +1529,7 @@
 
     Artificial intelligence (AI) has been widely applied in drug discovery with a major task as molecular property prediction. Despite booming techniques in molecular representation learning, fundamentals underlying molecular property prediction haven't been carefully examined yet. In this study, we conducted a systematic evaluation on a collection of representative models using various molecular representations. In addition to the commonly used MoleculeNet benchmark datasets, we also assembled a suite of opioids-related datasets from ChEMBL and two additional activity datasets from literature. To interrogate the basic predictive power, we also assembled a series of descriptors datasets with varying sizes to evaluate the models' performance. In total, we trained 62,820 models, including 50,220 models on fixed representations, 4,200 models on SMILES sequences and 8,400 models on molecular graphs. We first conducted dataset profiling and highlighted the activity-cliffs issue in the opioids-r
     
-[^101]: 数字音频取证：盲目检测人类语音模仿
+[^102]: 数字音频取证：盲目检测人类语音模仿
 
     Digital Audio Forensics: Blind Human Voice Mimicry Detection. (arXiv:2209.12573v4 [cs.SD] UPDATED)
 
@@ -1528,7 +1543,7 @@
 
     Audio is one of the most used ways of human communication, but at the same time it can be easily misused to trick people. With the revolution of AI, the related technologies are now accessible to almost everyone thus making it simple for the criminals to commit crimes and forgeries. In this work, we introduce a deep learning method to develop a classifier that will blindly classify an input audio as real or mimicked; the word 'blindly' refers to the ability to detect mimicked audio without references or real sources. The proposed model was trained on a set of important features extracted from a large dataset of audios to get a classifier that was tested on the same set of features from different audios. The data was extracted from two raw datasets, especially composed for this work; an all English dataset and a mixed dataset (Arabic plus English). These datasets have been made available, in raw form, through GitHub for the use of the research community at https://github.com/SaSs7/Datas
     
-[^102]: 从深度学习的视角看待对齐问题
+[^103]: 从深度学习的视角看待对齐问题
 
     The alignment problem from a deep learning perspective. (arXiv:2209.00626v5 [cs.AI] UPDATED)
 
@@ -1542,7 +1557,7 @@
 
     In coming decades, artificial general intelligence (AGI) may surpass human capabilities at many critical tasks. We argue that, without substantial effort to prevent it, AGIs could learn to pursue goals that conflict (i.e., are misaligned) with human interests. If trained like today's most capable models, AGIs could learn to act deceptively to receive higher reward, learn internally-represented goals which generalize beyond their fine-tuning distributions, and pursue those goals using power-seeking strategies. We review emerging evidence for these properties. AGIs with these properties would be difficult to align and may appear aligned even when they are not. We outline how the deployment of misaligned AGIs might irreversibly undermine human control over the world, and briefly review research directions aimed at preventing this outcome.
     
-[^103]: 学习有效的选择预测的抽象规划模型
+[^104]: 学习有效的选择预测的抽象规划模型
 
     Learning Efficient Abstract Planning Models that Choose What to Predict. (arXiv:2208.07737v3 [cs.AI] UPDATED)
 
@@ -1556,7 +1571,7 @@
 
     An effective approach to solving long-horizon tasks in robotics domains with continuous state and action spaces is bilevel planning, wherein a high-level search over an abstraction of an environment is used to guide low-level decision-making. Recent work has shown how to enable such bilevel planning by learning abstract models in the form of symbolic operators and neural samplers. In this work, we show that existing symbolic operator learning approaches fall short in many robotics domains where a robot's actions tend to cause a large number of irrelevant changes in the abstract state. This is primarily because they attempt to learn operators that exactly predict all observed changes in the abstract state. To overcome this issue, we propose to learn operators that 'choose what to predict' by only modelling changes necessary for abstract planning to achieve specified goals. Experimentally, we show that our approach learns operators that lead to efficient planning across 10 different hybr
     
-[^104]: 深度学习的分层分布感知测试
+[^105]: 深度学习的分层分布感知测试
 
     Hierarchical Distribution-Aware Testing of Deep Learning. (arXiv:2205.08589v2 [cs.SE] UPDATED)
 
@@ -1570,7 +1585,7 @@
 
     Deep Learning (DL) is increasingly used in safety-critical applications, raising concerns about its reliability. DL suffers from a well-known problem of lacking robustness, especially when faced with adversarial perturbations known as Adversarial Examples (AEs). Despite recent efforts to detect AEs using advanced attack and testing methods, these approaches often overlook the input distribution and perceptual quality of the perturbations. As a result, the detected AEs may not be relevant in practical applications or may appear unrealistic to human observers. This can waste testing resources on rare AEs that seldom occur during real-world use, limiting improvements in DL model dependability.  In this paper, we propose a new robustness testing approach for detecting AEs that considers both the feature level distribution and the pixel level distribution, capturing the perceptual quality of adversarial perturbations. The two considerations are encoded by a novel hierarchical mechanism. Fir
     
-[^105]: 图像检索的内省式深度度量学习
+[^106]: 图像检索的内省式深度度量学习
 
     Introspective Deep Metric Learning for Image Retrieval. (arXiv:2205.04449v2 [cs.CV] UPDATED)
 
@@ -1584,7 +1599,7 @@
 
     This paper proposes an introspective deep metric learning (IDML) framework for uncertainty-aware comparisons of images. Conventional deep metric learning methods produce confident semantic distances between images regardless of the uncertainty level. However, we argue that a good similarity model should consider the semantic discrepancies with caution to better deal with ambiguous images for more robust training. To achieve this, we propose to represent an image using not only a semantic embedding but also an accompanying uncertainty embedding, which describes the semantic characteristics and ambiguity of an image, respectively. We further propose an introspective similarity metric to make similarity judgments between images considering both their semantic differences and ambiguities. The proposed IDML framework improves the performance of deep metric learning through uncertainty modeling and attains state-of-the-art results on the widely used CUB-200-2011, Cars196, and Stanford Online
     
-[^106]: 通过遍历功能不变路径，构建灵活的机器学习系统
+[^107]: 通过遍历功能不变路径，构建灵活的机器学习系统
 
     Engineering flexible machine learning systems by traversing functionally-invariant paths. (arXiv:2205.00334v4 [cs.LG] UPDATED)
 
@@ -1598,7 +1613,7 @@
 
     Transformers have emerged as the state of the art neural network architecture for natural language processing and computer vision. In the foundation model paradigm, large transformer models (BERT, GPT3/4, Bloom, ViT) are pre-trained on self-supervised tasks such as word or image masking, and then, adapted through fine-tuning for downstream user applications including instruction following and Question Answering. While many approaches have been developed for model fine-tuning including low-rank weight update strategies (eg. LoRA), underlying mathematical principles that enable network adaptation without knowledge loss remain poorly understood. Here, we introduce a differential geometry framework, functionally invariant paths (FIP), that provides flexible and continuous adaptation of neural networks for a range of machine learning goals and network sparsification objectives. We conceptualize the weight space of a neural network as a curved Riemannian manifold equipped with a metric tenso
     
-[^107]: 知识驱动的分子学习：范式转移的综述
+[^108]: 知识驱动的分子学习：范式转移的综述
 
     Knowledge-informed Molecular Learning: A Survey on Paradigm Transfer. (arXiv:2202.10587v2 [cs.LG] UPDATED)
 
@@ -1612,7 +1627,7 @@
 
     Machine learning, notably deep learning, has significantly propelled molecular investigations within the biochemical sphere. Traditionally, modeling for such research has centered around a handful of paradigms. For instance, the prediction paradigm is frequently deployed for tasks such as molecular property prediction. To enhance the generation and decipherability of purely data-driven models, scholars have integrated biochemical domain knowledge into these molecular study models. This integration has sparked a surge in paradigm transfer, which is solving one molecular learning task by reformulating it as another one. With the emergence of Large Language Models, these paradigms have demonstrated an escalating trend towards harmonized unification. In this work, we delineate a literature survey focused on knowledge-informed molecular learning from the perspective of paradigm transfer. We classify the paradigms, scrutinize their methodologies, and dissect the contribution of domain knowle
     
-[^108]: LoNLI：一个可扩展的框架，用于测试NLI的多样化逻辑推理能力
+[^109]: LoNLI：一个可扩展的框架，用于测试NLI的多样化逻辑推理能力
 
     LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI. (arXiv:2112.02333v2 [cs.AI] UPDATED)
 
@@ -1626,7 +1641,7 @@
 
     Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU). In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and, by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test bench (363 templates, 363k examples) and an associated framework that offers the following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning); 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enables us to control for artifacts and biases. We extend a publicly available framework of automated test case instantiation from free-form natural language templates (CheckList) and a well-defined taxonomy of capabilities to cover a wide range of increasingly harder test cases while varying 
     
-[^109]: 通过干净标签数据毒化对基于哈希的图像检索的后门攻击
+[^110]: 通过干净标签数据毒化对基于哈希的图像检索的后门攻击
 
     Backdoor Attack on Hash-based Image Retrieval via Clean-label Data Poisoning. (arXiv:2109.08868v3 [cs.CV] UPDATED)
 
