@@ -1,0 +1,11 @@
+{
+    "title": "Efficient computation of predictive probabilities in probit models via expectation propagation. (arXiv:2309.01630v1 [stat.CO])",
+    "abstract": "Binary regression models represent a popular model-based approach for binary classification. In the Bayesian framework, computational challenges in the form of the posterior distribution motivate still-ongoing fruitful research. Here, we focus on the computation of predictive probabilities in Bayesian probit models via expectation propagation (EP). Leveraging more general results in recent literature, we show that such predictive probabilities admit a closed-form expression. Improvements over state-of-the-art approaches are shown in a simulation study.",
+    "link": "http://arxiv.org/abs/2309.01630",
+    "context": "Title: Efficient computation of predictive probabilities in probit models via expectation propagation. (arXiv:2309.01630v1 [stat.CO])\nAbstract: Binary regression models represent a popular model-based approach for binary classification. In the Bayesian framework, computational challenges in the form of the posterior distribution motivate still-ongoing fruitful research. Here, we focus on the computation of predictive probabilities in Bayesian probit models via expectation propagation (EP). Leveraging more general results in recent literature, we show that such predictive probabilities admit a closed-form expression. Improvements over state-of-the-art approaches are shown in a simulation study.",
+    "path": "papers/23/09/2309.01630.json",
+    "total_tokens": 613,
+    "translated_title": "通过期望传播在probit模型中高效计算预测概率",
+    "translated_abstract": "二元回归模型是二分类的流行基于模型的方法。在贝叶斯框架中，后验分布的计算挑战促使了仍在进行的有益研究。在这里，我们关注通过期望传播（EP）在贝叶斯probit模型中计算预测概率。利用最近文献中的更一般结果，我们展示这种预测概率可以得到一个闭式表达式。在模拟研究中展示了与最先进方法相比的改进。",
+    "tldr": "该论文通过期望传播方法在贝叶斯probit模型中高效计算预测概率，并展示了与最先进方法相比的改进。"
+}

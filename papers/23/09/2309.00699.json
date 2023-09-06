@@ -1,0 +1,12 @@
+{
+    "title": "Geometric Deep Learning: a Temperature Based Analysis of Graph Neural Networks. (arXiv:2309.00699v1 [cs.LG])",
+    "abstract": "We examine a Geometric Deep Learning model as a thermodynamic system treating the weights as non-quantum and non-relativistic particles. We employ the notion of temperature previously defined in [7] and study it in the various layers for GCN and GAT models. Potential future applications of our findings are discussed.",
+    "link": "http://arxiv.org/abs/2309.00699",
+    "context": "Title: Geometric Deep Learning: a Temperature Based Analysis of Graph Neural Networks. (arXiv:2309.00699v1 [cs.LG])\nAbstract: We examine a Geometric Deep Learning model as a thermodynamic system treating the weights as non-quantum and non-relativistic particles. We employ the notion of temperature previously defined in [7] and study it in the various layers for GCN and GAT models. Potential future applications of our findings are discussed.",
+    "path": "papers/23/09/2309.00699.json",
+    "total_tokens": 587,
+    "translated_title": "几何深度学习: 对图神经网络的基于温度的分析",
+    "translated_abstract": "我们将几何深度学习模型视为热力学系统，将权重看作非量子和非相对论粒子。我们采用之前在[7]中定义的温度概念，并研究了GCN和GAT模型的各个层次中的温度。讨论了我们发现的潜在未来应用。",
+    "tldr": "本研究使用温度作为一个非量子和非相对论粒子的几何深度学习模型的分析方法，研究了GCN和GAT模型的各个层次中的温度，并讨论了可能的未来应用。",
+    "en_tdlr": "This study analyzes a geometric deep learning model as a thermodynamic system by treating the weights as non-quantum and non-relativistic particles, and investigates the temperature in the various layers of GCN and GAT models, with potential future applications discussed."
+}

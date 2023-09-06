@@ -1,0 +1,12 @@
+{
+    "title": "Moment-Based Estimation of Diffusion and Adoption Parameters in Networks. (arXiv:2309.01489v1 [econ.EM])",
+    "abstract": "According to standard econometric theory, Maximum Likelihood estimation (MLE) is the efficient estimation choice, however, it is not always a feasible one. In network diffusion models with unobserved signal propagation, MLE requires integrating out a large number of latent variables, which quickly becomes computationally infeasible even for moderate network sizes and time horizons. Limiting the model time horizon on the other hand entails loss of important information while approximation techniques entail a (small) error that. Searching for a viable alternative is thus potentially highly beneficial. This paper proposes two estimators specifically tailored to the network diffusion model of partially observed adoption and unobserved network diffusion.",
+    "link": "http://arxiv.org/abs/2309.01489",
+    "context": "Title: Moment-Based Estimation of Diffusion and Adoption Parameters in Networks. (arXiv:2309.01489v1 [econ.EM])\nAbstract: According to standard econometric theory, Maximum Likelihood estimation (MLE) is the efficient estimation choice, however, it is not always a feasible one. In network diffusion models with unobserved signal propagation, MLE requires integrating out a large number of latent variables, which quickly becomes computationally infeasible even for moderate network sizes and time horizons. Limiting the model time horizon on the other hand entails loss of important information while approximation techniques entail a (small) error that. Searching for a viable alternative is thus potentially highly beneficial. This paper proposes two estimators specifically tailored to the network diffusion model of partially observed adoption and unobserved network diffusion.",
+    "path": "papers/23/09/2309.01489.json",
+    "total_tokens": 761,
+    "translated_title": "基于矩估计网络中的扩散和采纳参数",
+    "translated_abstract": "根据标准计量经济学理论，最大似然估计（MLE）是一个高效的估计选择，但并非总是可行的。在具有未观察到的信号传播的网络扩散模型中，MLE需要积分大量的潜变量，即使对于中等规模的网络大小和时间跨度，这也很快变得计算不可行。然而，限制模型时间跨度会导致重要信息的丢失，而近似技术则会导致（小）误差。因此，寻找一个可行的替代方案可能具有极大的好处。本文针对部分观察到的采纳和未观察到的网络扩散的网络扩散模型，提出了两种特定的估计器。",
+    "tldr": "本文提出了两种具体针对网络扩散模型中部分观察采纳和未观察网络扩散的估计器，解决了最大似然估计在这种情况下计算困难的问题。",
+    "en_tdlr": "This paper proposes two specific estimators for network diffusion models with partially observed adoption and unobserved network diffusion, addressing the computational challenges of maximum likelihood estimation in this scenario."
+}

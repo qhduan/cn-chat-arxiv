@@ -1,0 +1,11 @@
+{
+    "title": "Misinformation Concierge: A Proof-of-Concept with Curated Twitter Dataset on COVID-19 Vaccination. (arXiv:2309.00639v1 [cs.CL])",
+    "abstract": "We demonstrate the Misinformation Concierge, a proof-of-concept that provides actionable intelligence on misinformation prevalent in social media. Specifically, it uses language processing and machine learning tools to identify subtopics of discourse and discern non/misleading posts; presents statistical reports for policy-makers to understand the big picture of prevalent misinformation in a timely manner; and recommends rebuttal messages for specific pieces of misinformation, identified from within the corpus of data - providing means to intervene and counter misinformation promptly. The Misinformation Concierge proof-of-concept using a curated dataset is accessible at: https://demo-frontend-uy34.onrender.com/",
+    "link": "http://arxiv.org/abs/2309.00639",
+    "context": "Title: Misinformation Concierge: A Proof-of-Concept with Curated Twitter Dataset on COVID-19 Vaccination. (arXiv:2309.00639v1 [cs.CL])\nAbstract: We demonstrate the Misinformation Concierge, a proof-of-concept that provides actionable intelligence on misinformation prevalent in social media. Specifically, it uses language processing and machine learning tools to identify subtopics of discourse and discern non/misleading posts; presents statistical reports for policy-makers to understand the big picture of prevalent misinformation in a timely manner; and recommends rebuttal messages for specific pieces of misinformation, identified from within the corpus of data - providing means to intervene and counter misinformation promptly. The Misinformation Concierge proof-of-concept using a curated dataset is accessible at: https://demo-frontend-uy34.onrender.com/",
+    "path": "papers/23/09/2309.00639.json",
+    "total_tokens": 767,
+    "translated_title": "《错误信息管家：以COVID-19疫苗为例的经过筛选的推特数据集的概念验证》",
+    "translated_abstract": "我们展示了错误信息管家，这是一个可行性概念，可提供关于社交媒体中流行的错误信息的可操作情报。具体而言，它使用语言处理和机器学习工具来识别话语的子主题和辨别不准确/误导性的帖子；为决策者提供统计报告，以及及时了解流行的错误信息的整体情况；并推荐对特定错误信息的反驳信息，从数据语料库中识别出来，以便及时干预和反击错误信息。错误信息管家的概念验证使用了经过筛选的数据集，并可以在以下网址访问：https://demo-frontend-uy34.onrender.com/",
+    "tldr": "错误信息管家是一个可行性概念，旨在提供关于社交媒体中流行的错误信息的可操作情报。它使用语言处理和机器学习工具来识别错误信息并推荐反驳信息，帮助干预和反击错误信息。"
+}

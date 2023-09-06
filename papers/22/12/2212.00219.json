@@ -1,0 +1,12 @@
+{
+    "title": "Are you using test log-likelihood correctly?. (arXiv:2212.00219v2 [stat.ML] UPDATED)",
+    "abstract": "Test log-likelihood is commonly used to compare different models of the same data or different approximate inference algorithms for fitting the same probabilistic model. We present simple examples demonstrating how comparisons based on test log-likelihood can contradict comparisons according to other objectives. Specifically, our examples show that (i) approximate Bayesian inference algorithms that attain higher test log-likelihoods need not also yield more accurate posterior approximations and (ii) conclusions about forecast accuracy based on test log-likelihood comparisons may not agree with conclusions based on root mean squared error.",
+    "link": "http://arxiv.org/abs/2212.00219",
+    "context": "Title: Are you using test log-likelihood correctly?. (arXiv:2212.00219v2 [stat.ML] UPDATED)\nAbstract: Test log-likelihood is commonly used to compare different models of the same data or different approximate inference algorithms for fitting the same probabilistic model. We present simple examples demonstrating how comparisons based on test log-likelihood can contradict comparisons according to other objectives. Specifically, our examples show that (i) approximate Bayesian inference algorithms that attain higher test log-likelihoods need not also yield more accurate posterior approximations and (ii) conclusions about forecast accuracy based on test log-likelihood comparisons may not agree with conclusions based on root mean squared error.",
+    "path": "papers/22/12/2212.00219.json",
+    "total_tokens": 650,
+    "translated_title": "你是否正确使用了测试对数似然？",
+    "translated_abstract": "测试对数似然常被用来比较不同模型的同一数据，或者比较拟合同一概率模型的不同近似推断算法。我们通过简单的例子展示了如何基于测试对数似然的比较可能与其他目标相矛盾。具体来说，我们的例子表明：（i）达到更高测试对数似然的近似贝叶斯推断算法不必意味着能够产生更准确的后验近似，（ii）基于测试对数似然比较的预测准确性结论可能与基于均方根误差的结论不一致。",
+    "tldr": "使用测试对数似然进行比较可能与其他指标相矛盾，并且高测试对数似然不意味着更准确的后验近似。",
+    "en_tdlr": "Comparisons based on test log-likelihood can contradict other objectives, and achieving higher test log-likelihood does not necessarily result in more accurate posterior approximations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Design-Based Multi-Way Clustering. (arXiv:2309.01658v1 [econ.EM])",
+    "abstract": "This paper extends the design-based framework to settings with multi-way cluster dependence, and shows how multi-way clustering can be justified when clustered assignment and clustered sampling occurs on different dimensions, or when either sampling or assignment is multi-way clustered. Unlike one-way clustering, the plug-in variance estimator in multi-way clustering is no longer conservative, so valid inference either requires an assumption on the correlation of treatment effects or a more conservative variance estimator. Simulations suggest that the plug-in variance estimator is usually robust, and the conservative variance estimator is often too conservative.",
+    "link": "http://arxiv.org/abs/2309.01658",
+    "context": "Title: Design-Based Multi-Way Clustering. (arXiv:2309.01658v1 [econ.EM])\nAbstract: This paper extends the design-based framework to settings with multi-way cluster dependence, and shows how multi-way clustering can be justified when clustered assignment and clustered sampling occurs on different dimensions, or when either sampling or assignment is multi-way clustered. Unlike one-way clustering, the plug-in variance estimator in multi-way clustering is no longer conservative, so valid inference either requires an assumption on the correlation of treatment effects or a more conservative variance estimator. Simulations suggest that the plug-in variance estimator is usually robust, and the conservative variance estimator is often too conservative.",
+    "path": "papers/23/09/2309.01658.json",
+    "total_tokens": 669,
+    "translated_title": "基于设计的多向聚类",
+    "translated_abstract": "本文将设计为基础的框架扩展到具有多向聚类依赖的情境，并展示了当集群分配和集群抽样发生在不同维度，或者抽样或分配是多向聚类时，如何合理地进行多向聚类。与单向聚类不同的是，在多向聚类中，插入式方差估计器不再保守，因此有效的推断要么需要对处理效应的相关性进行假设，要么使用更保守的方差估计器。模拟结果表明，插入式方差估计器通常具有鲁棒性，而保守的方差估计器往往过于保守。",
+    "tldr": "本文将设计为基础的框架扩展到具有多向聚类依赖的情境，并探讨了多向聚类的合理性和有效的推断方法。",
+    "en_tdlr": "This paper extends the design-based framework to settings with multi-way cluster dependence and discusses the validity and effective inference methods of multi-way clustering."
+}

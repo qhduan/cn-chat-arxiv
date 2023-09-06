@@ -1,0 +1,12 @@
+{
+    "title": "GPT has become financially literate: Insights from financial literacy tests of GPT and a preliminary test of how people use it as a source of advice. (arXiv:2309.00649v1 [cs.CL])",
+    "abstract": "We assess the ability of GPT -- a large language model -- to serve as a financial robo-advisor for the masses, by using a financial literacy test. Davinci and ChatGPT based on GPT-3.5 score 66% and 65% on the financial literacy test, respectively, compared to a baseline of 33%. However, ChatGPT based on GPT-4 achieves a near-perfect 99% score, pointing to financial literacy becoming an emergent ability of state-of-the-art models. We use the Judge-Advisor System and a savings dilemma to illustrate how researchers might assess advice-utilization from large language models. We also present a number of directions for future research.",
+    "link": "http://arxiv.org/abs/2309.00649",
+    "context": "Title: GPT has become financially literate: Insights from financial literacy tests of GPT and a preliminary test of how people use it as a source of advice. (arXiv:2309.00649v1 [cs.CL])\nAbstract: We assess the ability of GPT -- a large language model -- to serve as a financial robo-advisor for the masses, by using a financial literacy test. Davinci and ChatGPT based on GPT-3.5 score 66% and 65% on the financial literacy test, respectively, compared to a baseline of 33%. However, ChatGPT based on GPT-4 achieves a near-perfect 99% score, pointing to financial literacy becoming an emergent ability of state-of-the-art models. We use the Judge-Advisor System and a savings dilemma to illustrate how researchers might assess advice-utilization from large language models. We also present a number of directions for future research.",
+    "path": "papers/23/09/2309.00649.json",
+    "total_tokens": 813,
+    "translated_title": "GPT已经具备了金融素养：来自GPT金融素养测试的见解以及人们使用其作为咨询来源的初步测试",
+    "translated_abstract": "通过使用金融素养测试，我们评估了GPT（一种大型语言模型）作为大众金融机器顾问的能力。基于GPT-3.5的Davinci和ChatGPT分别在金融素养测试中得分为66%和65%，而基于GPT-4的ChatGPT几乎完美地得到了99%的分数，这表明金融素养正在成为最先进模型的新兴能力。我们使用Judge-Advisor系统和一个储蓄困境来说明研究人员如何评估大型语言模型提供的建议利用情况。我们还提出了一些未来研究的方向。",
+    "tldr": "GPT通过金融素养测试显示出具备成为大众金融机器顾问的能力，其中基于GPT-4的ChatGPT几乎完美地得分99%，揭示了金融素养正在成为最先进模型的新兴能力。",
+    "en_tdlr": "GPT has demonstrated the ability to serve as a financial robo-advisor for the masses, with ChatGPT based on GPT-4 achieving an almost perfect score of 99% on the financial literacy test, indicating that financial literacy is becoming an emergent ability of state-of-the-art models."
+}

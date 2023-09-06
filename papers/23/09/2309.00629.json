@@ -1,0 +1,11 @@
+{
+    "title": "Quantifying MEV On Layer 2 Networks. (arXiv:2309.00629v1 [q-fin.GN])",
+    "abstract": "This paper addresses the lack of research on quantifying Maximal Extractable Value (MEV) on Ethereum Layer 2 networks (L2s). Our findings reveal a substantial amount of MEV to be extracted on L2s, particularly on Polygon, with a lower bound of $213 million surpassing previous estimates. We observe that the majority of detected MEV on L2s consists of arbitrage opportunities, as liquidations are rare. These results emphasize the need for continuous monitoring and analysis of MEV on L2s, promoting informed decision-making for network selection and highlighting the associated risks.",
+    "link": "http://arxiv.org/abs/2309.00629",
+    "context": "Title: Quantifying MEV On Layer 2 Networks. (arXiv:2309.00629v1 [q-fin.GN])\nAbstract: This paper addresses the lack of research on quantifying Maximal Extractable Value (MEV) on Ethereum Layer 2 networks (L2s). Our findings reveal a substantial amount of MEV to be extracted on L2s, particularly on Polygon, with a lower bound of $213 million surpassing previous estimates. We observe that the majority of detected MEV on L2s consists of arbitrage opportunities, as liquidations are rare. These results emphasize the need for continuous monitoring and analysis of MEV on L2s, promoting informed decision-making for network selection and highlighting the associated risks.",
+    "path": "papers/23/09/2309.00629.json",
+    "total_tokens": 791,
+    "translated_title": "在 Layer 2 网络上量化 MEV",
+    "translated_abstract": "本文解决了对以太坊 Layer 2 网络上最大可提取价值（MEV）的量化研究不足的问题。我们的研究结果揭示了在 Layer 2 网络上存在大量的MEV，并且在 Polygon 网络上达到了至少 2.13 亿美元的下界，超过了之前的估计。我们观察到，在 Layer 2 网络上大部分的可检测到的 MEV 是套利机会，而清算很少发生。这些结果强调了对 Layer 2 网络上 MEV 的持续监测和分析的必要性，促进了基于信息的网络选择和相关风险的凸显。",
+    "tldr": "研究发现，以太坊 Layer 2 网络上存在大量可提取的最大价值（MEV），特别是在 Polygon 网络上。大部分的 MEV 是由套利机会组成，清算机会非常少。这些结果强调了对 Layer 2 网络上 MEV 的持续监测和分析的重要性，以促进网络选择和降低相关风险。"
+}

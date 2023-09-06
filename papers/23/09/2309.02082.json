@@ -1,0 +1,12 @@
+{
+    "title": "Backward error analysis and the qualitative behaviour of stochastic optimization algorithms: Application to stochastic coordinate descent. (arXiv:2309.02082v1 [math.OC])",
+    "abstract": "Stochastic optimization methods have been hugely successful in making large-scale optimization problems feasible when computing the full gradient is computationally prohibitive. Using the theory of modified equations for numerical integrators, we propose a class of stochastic differential equations that approximate the dynamics of general stochastic optimization methods more closely than the original gradient flow. Analyzing a modified stochastic differential equation can reveal qualitative insights about the associated optimization method. Here, we study mean-square stability of the modified equation in the case of stochastic coordinate descent.",
+    "link": "http://arxiv.org/abs/2309.02082",
+    "context": "Title: Backward error analysis and the qualitative behaviour of stochastic optimization algorithms: Application to stochastic coordinate descent. (arXiv:2309.02082v1 [math.OC])\nAbstract: Stochastic optimization methods have been hugely successful in making large-scale optimization problems feasible when computing the full gradient is computationally prohibitive. Using the theory of modified equations for numerical integrators, we propose a class of stochastic differential equations that approximate the dynamics of general stochastic optimization methods more closely than the original gradient flow. Analyzing a modified stochastic differential equation can reveal qualitative insights about the associated optimization method. Here, we study mean-square stability of the modified equation in the case of stochastic coordinate descent.",
+    "path": "papers/23/09/2309.02082.json",
+    "total_tokens": 683,
+    "translated_title": "通过误差分析探究随机优化算法的定性行为：以随机坐标下降为例",
+    "translated_abstract": "随机优化方法在解决大规模优化问题时，能够有效地避免计算全部梯度所带来的计算难题。使用数值积分器的改进方程理论，我们提出了一类随机微分方程，更准确地近似了一般随机优化方法的动力学特性，超过了原始的梯度流。分析修改过的随机微分方程可以揭示与优化方法相关的定性见解。在本文中，我们研究了随机坐标下降方法中修改后的微分方程的均方稳定性。",
+    "tldr": "该论文提出了一种通过误差分析来探究随机优化算法定性行为的方法，以随机坐标下降为例，研究了修改后微分方程的均方稳定性。",
+    "en_tdlr": "This paper proposes a method to explore the qualitative behavior of stochastic optimization algorithms through backward error analysis, focusing on stochastic coordinate descent and studying the mean-square stability of modified differential equations."
+}

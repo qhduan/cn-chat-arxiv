@@ -1,0 +1,11 @@
+{
+    "title": "Intergrated Segmentation and Detection Models for Dentex Challenge 2023. (arXiv:2308.14161v2 [cs.CV] UPDATED)",
+    "abstract": "Dental panoramic x-rays are commonly used in dental diagnosing. With the development of deep learning, auto detection of diseases from dental panoramic x-rays can help dentists to diagnose diseases more efficiently.The Dentex Challenge 2023 is a competition for automatic detection of abnormal teeth along with their enumeration ids from dental panoramic x-rays. In this paper, we propose a method integrating segmentation and detection models to detect abnormal teeth as well as obtain their enumeration ids.Our codes are available at https://github.com/xyzlancehe/DentexSegAndDet.",
+    "link": "http://arxiv.org/abs/2308.14161",
+    "context": "Title: Intergrated Segmentation and Detection Models for Dentex Challenge 2023. (arXiv:2308.14161v2 [cs.CV] UPDATED)\nAbstract: Dental panoramic x-rays are commonly used in dental diagnosing. With the development of deep learning, auto detection of diseases from dental panoramic x-rays can help dentists to diagnose diseases more efficiently.The Dentex Challenge 2023 is a competition for automatic detection of abnormal teeth along with their enumeration ids from dental panoramic x-rays. In this paper, we propose a method integrating segmentation and detection models to detect abnormal teeth as well as obtain their enumeration ids.Our codes are available at https://github.com/xyzlancehe/DentexSegAndDet.",
+    "path": "papers/23/08/2308.14161.json",
+    "total_tokens": 661,
+    "translated_title": "为Dentex Challenge 2023整合分割和检测模型",
+    "translated_abstract": "牙科全景X射线在牙科诊断中被广泛使用。随着深度学习的发展，从牙科全景X射线中自动检测疾病可以帮助牙医更高效地诊断疾病。Dentex Challenge 2023是一个自动检测牙科全景X射线中异常牙齿及其枚举号的比赛。本文提出了一种整合了分割和检测模型的方法，以检测异常牙齿并获取其枚举号。我们的代码可在https://github.com/xyzlancehe/DentexSegAndDet获取。",
+    "tldr": "本文提出了一种整合分割和检测模型的方法，用于从牙科全景 X 射线中自动检测异常牙齿及其枚举号。"
+}

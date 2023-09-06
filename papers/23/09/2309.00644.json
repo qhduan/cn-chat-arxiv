@@ -1,0 +1,12 @@
+{
+    "title": "Ten New Benchmarks for Optimization. (arXiv:2309.00644v1 [math.OC])",
+    "abstract": "Benchmarks are used for testing new optimization algorithms and their variants to evaluate their performance. Most existing benchmarks are smooth functions. This chapter introduces ten new benchmarks with different properties, including noise, discontinuity, parameter estimation and unknown paths.",
+    "link": "http://arxiv.org/abs/2309.00644",
+    "context": "Title: Ten New Benchmarks for Optimization. (arXiv:2309.00644v1 [math.OC])\nAbstract: Benchmarks are used for testing new optimization algorithms and their variants to evaluate their performance. Most existing benchmarks are smooth functions. This chapter introduces ten new benchmarks with different properties, including noise, discontinuity, parameter estimation and unknown paths.",
+    "path": "papers/23/09/2309.00644.json",
+    "total_tokens": 503,
+    "translated_title": "优化的十个新基准",
+    "translated_abstract": "基准用于测试新的优化算法及其变体，以评估其性能。大多数现有的基准是光滑函数。本章介绍了十个具有不同特性的新基准，包括噪声、不连续性、参数估计和未知路径。",
+    "tldr": "这篇论文介绍了十个新的基准，用于测试优化算法及其变体的性能。这些基准具有不同的特性，包括噪声、不连续性、参数估计和未知路径。",
+    "en_tdlr": "This paper introduces ten new benchmarks for testing the performance of optimization algorithms and their variants. These benchmarks have different properties, including noise, discontinuity, parameter estimation, and unknown paths."
+}

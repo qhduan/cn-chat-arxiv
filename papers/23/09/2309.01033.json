@@ -1,0 +1,12 @@
+{
+    "title": "From constant to rough: A survey of continuous volatility modeling. (arXiv:2309.01033v1 [q-fin.MF])",
+    "abstract": "In this paper, we present a comprehensive survey of continuous stochastic volatility models, discussing their historical development and the key stylized facts that have driven the field. Special attention is dedicated to fractional and rough methods: we outline the motivation behind them and characterize some landmark models. In addition, we briefly touch the problem of VIX modeling and recent advances in the SPX-VIX joint calibration puzzle.",
+    "link": "http://arxiv.org/abs/2309.01033",
+    "context": "Title: From constant to rough: A survey of continuous volatility modeling. (arXiv:2309.01033v1 [q-fin.MF])\nAbstract: In this paper, we present a comprehensive survey of continuous stochastic volatility models, discussing their historical development and the key stylized facts that have driven the field. Special attention is dedicated to fractional and rough methods: we outline the motivation behind them and characterize some landmark models. In addition, we briefly touch the problem of VIX modeling and recent advances in the SPX-VIX joint calibration puzzle.",
+    "path": "papers/23/09/2309.01033.json",
+    "total_tokens": 617,
+    "translated_title": "从恒定到粗糙：连续波动率建模的综述",
+    "translated_abstract": "本文全面调查了连续随机波动率模型，并讨论了它们的历史发展和驱动该领域的关键事实。我们特别关注分数和粗糙方法：我们概述了它们背后的动机，并对一些里程碑式模型进行了表征。此外，我们还简要讨论了VIX建模的问题以及SPX-VIX联合校准难题的最新进展。",
+    "tldr": "本文综述了连续波动率模型的发展和关键事实，重点介绍了分数和粗糙方法的模型，并讨论了VIX建模问题和SPX-VIX联合校准难题的最新进展。",
+    "en_tdlr": "This paper presents a comprehensive survey of continuous stochastic volatility models, emphasizing the development and key facts. It focuses on fractional and rough methods and discusses issues in VIX modeling and recent advances in the SPX-VIX joint calibration puzzle."
+}

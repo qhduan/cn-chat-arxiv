@@ -1,0 +1,12 @@
+{
+    "title": "Minimax Weight Learning for Absorbing MDPs. (arXiv:2301.03183v2 [cs.LG] UPDATED)",
+    "abstract": "Reinforcement learning policy evaluation problems are often modeled as finite or discounted/averaged infinite-horizon MDPs. In this paper, we study undiscounted off-policy policy evaluation for absorbing MDPs. Given the dataset consisting of the i.i.d episodes with a given truncation level, we propose a so-called MWLA algorithm to directly estimate the expected return via the importance ratio of the state-action occupancy measure. The Mean Square Error (MSE) bound for the MWLA method is investigated and the dependence of statistical errors on the data size and the truncation level are analyzed. With an episodic taxi environment, computational experiments illustrate the performance of the MWLA algorithm.",
+    "link": "http://arxiv.org/abs/2301.03183",
+    "context": "Title: Minimax Weight Learning for Absorbing MDPs. (arXiv:2301.03183v2 [cs.LG] UPDATED)\nAbstract: Reinforcement learning policy evaluation problems are often modeled as finite or discounted/averaged infinite-horizon MDPs. In this paper, we study undiscounted off-policy policy evaluation for absorbing MDPs. Given the dataset consisting of the i.i.d episodes with a given truncation level, we propose a so-called MWLA algorithm to directly estimate the expected return via the importance ratio of the state-action occupancy measure. The Mean Square Error (MSE) bound for the MWLA method is investigated and the dependence of statistical errors on the data size and the truncation level are analyzed. With an episodic taxi environment, computational experiments illustrate the performance of the MWLA algorithm.",
+    "path": "papers/23/01/2301.03183.json",
+    "total_tokens": 754,
+    "translated_title": "最小化极小化权重学习在吸收MDPs中的应用",
+    "translated_abstract": "强化学习策略评估问题常被建模为有限或折扣/平均无限时域的MDPs。本文研究了吸收MDPs中未折扣的离策略评估。给定包含特定截断级别的独立同分布数据集，我们提出了一种称为MWLA算法的方法，直接通过状态-行动占用度量的重要比率来估计期望回报。我们研究了MWLA方法的均方误差界限，并分析了统计误差与数据大小和截断级别的依赖关系。通过使用一种情景出租车环境进行计算实验，展示了MWLA算法的性能。",
+    "tldr": "本文研究了吸收MDPs中未折扣的离策略评估问题，提出了一种称为MWLA算法的方法来直接估计期望回报，并分析了该方法的误差界限和依赖关系。",
+    "en_tdlr": "This paper studies the problem of undiscounted off-policy policy evaluation for absorbing MDPs and proposes a MWLA algorithm to directly estimate the expected return. The error bounds and dependence on the data size and truncation level are analyzed."
+}

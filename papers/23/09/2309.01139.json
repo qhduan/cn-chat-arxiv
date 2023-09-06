@@ -1,0 +1,12 @@
+{
+    "title": "Logistic modelling of economic dynamics. (arXiv:2309.01139v1 [physics.soc-ph])",
+    "abstract": "We demonstrate the effectiveness of the logistic function to model the evolution of two economic systems. The first is the GDP and trade growth of the USA, and the second is the revenue and human resource growth of IBM. Our modelling is based on the World Bank data in the case of the USA, and on the company data in the case of IBM. The coupled dynamics of the two relevant variables in both systems - GDP and trade for the USA, and revenue and human resource for IBM - follows a power-law behaviour.",
+    "link": "http://arxiv.org/abs/2309.01139",
+    "context": "Title: Logistic modelling of economic dynamics. (arXiv:2309.01139v1 [physics.soc-ph])\nAbstract: We demonstrate the effectiveness of the logistic function to model the evolution of two economic systems. The first is the GDP and trade growth of the USA, and the second is the revenue and human resource growth of IBM. Our modelling is based on the World Bank data in the case of the USA, and on the company data in the case of IBM. The coupled dynamics of the two relevant variables in both systems - GDP and trade for the USA, and revenue and human resource for IBM - follows a power-law behaviour.",
+    "path": "papers/23/09/2309.01139.json",
+    "total_tokens": 619,
+    "translated_title": "经济动力学的物流建模",
+    "translated_abstract": "我们证明了物流函数在模拟两个经济系统的演变中的有效性。第一个是美国的GDP和贸易增长，第二个是IBM的收入和人力资源增长。我们的建模基于世界银行在美国的数据，以及IBM的公司数据。在这两个系统中，相关变量之间的耦合动力学 - 美国的GDP和贸易，IBM的收入和人力资源 - 遵循幂律行为。",
+    "tldr": "该论文研究了使用物流函数对美国的GDP和贸易增长，以及IBM的收入和人力资源增长进行建模，并发现这两个系统中相关变量之间存在幂律行为关系。",
+    "en_tdlr": "This paper explores the use of logistic function to model the growth of GDP and trade in the USA, as well as the revenue and human resource growth of IBM, revealing a power-law behavior in the dynamics of the relevant variables in both systems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Verifying And Interpreting Neural Networks using Finite Automata. (arXiv:2211.01022v2 [cs.FL] UPDATED)",
+    "abstract": "Verifying properties and interpreting the behaviour of deep neural networks (DNN) is an important task given their ubiquitous use in applications, including safety-critical ones, and their black-box nature. We propose an automata-theoric approach to tackling problems arising in DNN analysis. We show that the input-output behaviour of a DNN can be captured precisely by a (special) weak B\\\"uchi automaton and we show how these can be used to address common verification and interpretation tasks of DNN like adversarial robustness or minimum sufficient reasons.",
+    "link": "http://arxiv.org/abs/2211.01022",
+    "context": "Title: Verifying And Interpreting Neural Networks using Finite Automata. (arXiv:2211.01022v2 [cs.FL] UPDATED)\nAbstract: Verifying properties and interpreting the behaviour of deep neural networks (DNN) is an important task given their ubiquitous use in applications, including safety-critical ones, and their black-box nature. We propose an automata-theoric approach to tackling problems arising in DNN analysis. We show that the input-output behaviour of a DNN can be captured precisely by a (special) weak B\\\"uchi automaton and we show how these can be used to address common verification and interpretation tasks of DNN like adversarial robustness or minimum sufficient reasons.",
+    "path": "papers/22/11/2211.01022.json",
+    "total_tokens": 726,
+    "translated_title": "使用有限自动机验证和解释神经网络",
+    "translated_abstract": "鉴于深度神经网络（DNN）在包括安全关键应用在内的各个领域的普遍使用和其黑盒特性，验证属性和解释DNN的行为是一项重要任务。我们提出了一种基于自动机理论的方法来解决DNN分析中出现的问题。我们展示了DNN的输入输出行为可以被一个（特殊的）弱Büchi自动机精确地捕获，并且展示了如何利用这些来解决DNN的常见验证和解释任务，如对抗鲁棒性或最小充分原因。",
+    "tldr": "这项研究提出了一种使用有限自动机来验证和解释神经网络的方法。通过构建特殊的弱Büchi自动机，能够精确地捕捉神经网络的输入输出行为，并用于解决DNN的常见验证和解释任务，如对抗鲁棒性或最小充分原因。",
+    "en_tdlr": "This research proposes an approach to verify and interpret neural networks using finite automata. By constructing special weak Büchi automata, the input-output behavior of the neural network can be precisely captured and used to address common verification and interpretation tasks, such as adversarial robustness or minimum sufficient reasons."
+}

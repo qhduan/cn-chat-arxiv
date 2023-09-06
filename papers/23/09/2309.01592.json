@@ -1,0 +1,12 @@
+{
+    "title": "Les Houches Lectures on Deep Learning at Large & Infinite Width. (arXiv:2309.01592v1 [stat.ML])",
+    "abstract": "These lectures, presented at the 2022 Les Houches Summer School on Statistical Physics and Machine Learning, focus on the infinite-width limit and large-width regime of deep neural networks. Topics covered include various statistical and dynamical properties of these networks. In particular, the lecturers discuss properties of random deep neural networks; connections between trained deep neural networks, linear models, kernels, and Gaussian processes that arise in the infinite-width limit; and perturbative and non-perturbative treatments of large but finite-width networks, at initialization and after training.",
+    "link": "http://arxiv.org/abs/2309.01592",
+    "context": "Title: Les Houches Lectures on Deep Learning at Large & Infinite Width. (arXiv:2309.01592v1 [stat.ML])\nAbstract: These lectures, presented at the 2022 Les Houches Summer School on Statistical Physics and Machine Learning, focus on the infinite-width limit and large-width regime of deep neural networks. Topics covered include various statistical and dynamical properties of these networks. In particular, the lecturers discuss properties of random deep neural networks; connections between trained deep neural networks, linear models, kernels, and Gaussian processes that arise in the infinite-width limit; and perturbative and non-perturbative treatments of large but finite-width networks, at initialization and after training.",
+    "path": "papers/23/09/2309.01592.json",
+    "total_tokens": 813,
+    "translated_title": "大尺度和无穷宽度下的深度学习勒让演讲",
+    "translated_abstract": "这些演讲是在2022年勒让夏季学校统计物理和机器学习课程上展示的，着重探讨了深度神经网络在无限宽度和大宽度范围内的情况。涵盖的主题包括这些网络的各种统计和动力学特性。特别是，讲师们讨论了随机深度神经网络的特性；训练过的深度神经网络，线性模型，核函数和高斯过程之间的联系，这些联系在无穷宽度的极限下出现；以及在初始化和训练后对大但有限宽度网络的摄动和非摄动处理。",
+    "tldr": "本论文主要以无穷宽度和大宽度范围内的深度神经网络为研究对象，讨论了这些网络的各种统计和动力学特性，包括随机网络的性质、训练后的网络与线性模型、核函数和高斯过程之间的关系，以及对大但有限宽度网络在初始化和训练后的摄动和非摄动处理。",
+    "en_tdlr": "This paper focuses on the statistical and dynamical properties of deep neural networks in the infinite-width and large-width regime, including the properties of random networks, connections between trained networks and linear models, kernels, and Gaussian processes in the infinite-width limit, and perturbative and non-perturbative treatments of large but finite-width networks at initialization and after training."
+}

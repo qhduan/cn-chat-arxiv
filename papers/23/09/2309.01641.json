@@ -1,0 +1,12 @@
+{
+    "title": "Expectation propagation for the smoothing distribution in dynamic probit. (arXiv:2309.01641v1 [stat.CO])",
+    "abstract": "The smoothing distribution of dynamic probit models with Gaussian state dynamics was recently proved to belong to the unified skew-normal family. Although this is computationally tractable in small-to-moderate settings, it may become computationally impractical in higher dimensions. In this work, adapting a recent more general class of expectation propagation (EP) algorithms, we derive an efficient EP routine to perform inference for such a distribution. We show that the proposed approximation leads to accuracy gains over available approximate algorithms in a financial illustration.",
+    "link": "http://arxiv.org/abs/2309.01641",
+    "context": "Title: Expectation propagation for the smoothing distribution in dynamic probit. (arXiv:2309.01641v1 [stat.CO])\nAbstract: The smoothing distribution of dynamic probit models with Gaussian state dynamics was recently proved to belong to the unified skew-normal family. Although this is computationally tractable in small-to-moderate settings, it may become computationally impractical in higher dimensions. In this work, adapting a recent more general class of expectation propagation (EP) algorithms, we derive an efficient EP routine to perform inference for such a distribution. We show that the proposed approximation leads to accuracy gains over available approximate algorithms in a financial illustration.",
+    "path": "papers/23/09/2309.01641.json",
+    "total_tokens": 643,
+    "translated_title": "动态probit模型中平滑分布的期望传播",
+    "translated_abstract": "最近证明了具有高斯状态动力学的动态probit模型的平滑分布属于统一的偏正态家族。尽管在小到中等规模的设置中这是可计算的，但在更高维度上可能变得计算不可行。在这项工作中，我们采用了一种更通用的期望传播算法类别，推导出一种有效的期望传播例程来进行这种分布的推理。我们通过金融实例表明所提出的近似方法相对于现有的近似算法具有准确度的提升。",
+    "tldr": "本文提出了一种新的期望传播算法来推理动态probit模型中的平滑分布，通过金融实例表明了其相对于现有算法的准确度提升。",
+    "en_tdlr": "This paper proposes a new expectation propagation algorithm for inferring the smoothing distribution in dynamic probit models, and demonstrates its accuracy gains over existing algorithms with a financial illustration."
+}

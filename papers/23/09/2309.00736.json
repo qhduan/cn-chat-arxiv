@@ -1,0 +1,12 @@
+{
+    "title": "Prediction Error Estimation in Random Forests. (arXiv:2309.00736v1 [stat.ML])",
+    "abstract": "In this paper, error estimates of classification Random Forests are quantitatively assessed. Based on the initial theoretical framework built by Bates et al. (2023), the true error rate and expected error rate are theoretically and empirically investigated in the context of a variety of error estimation methods common to Random Forests. We show that in the classification case, Random Forests' estimates of prediction error is closer on average to the true error rate instead of the average prediction error. This is opposite the findings of Bates et al. (2023) which were given for logistic regression. We further show that this result holds across different error estimation strategies such as cross-validation, bagging, and data splitting.",
+    "link": "http://arxiv.org/abs/2309.00736",
+    "context": "Title: Prediction Error Estimation in Random Forests. (arXiv:2309.00736v1 [stat.ML])\nAbstract: In this paper, error estimates of classification Random Forests are quantitatively assessed. Based on the initial theoretical framework built by Bates et al. (2023), the true error rate and expected error rate are theoretically and empirically investigated in the context of a variety of error estimation methods common to Random Forests. We show that in the classification case, Random Forests' estimates of prediction error is closer on average to the true error rate instead of the average prediction error. This is opposite the findings of Bates et al. (2023) which were given for logistic regression. We further show that this result holds across different error estimation strategies such as cross-validation, bagging, and data splitting.",
+    "path": "papers/23/09/2309.00736.json",
+    "total_tokens": 777,
+    "translated_title": "随机森林中的预测误差估计",
+    "translated_abstract": "本文定量评估了分类随机森林的误差估计。在Bates等人（2023年）建立的初步理论框架的基础上，从理论和经验角度探讨了随机森林中常见的各种误差估计方法在真实误差率和期望误差率方面的情况。我们发现，在分类情况下，随机森林的预测误差估计平均更接近真实误差率，而不是平均预测误差。与Bates等人（2023年）对逻辑回归的研究结果相反。我们进一步证明，这个结果适用于交叉验证、自举和数据划分等不同的误差估计策略。",
+    "tldr": "本文通过量化评估分类随机森林的误差估计方法，发现随机森林的预测误差估计比平均预测误差更接近真实误差率，并且这一结果适用于不同的误差估计策略。",
+    "en_tdlr": "This paper quantitatively assesses error estimates in classification Random Forests, showing that the estimates are closer to the true error rate instead of the average prediction error. This result holds across different error estimation strategies."
+}

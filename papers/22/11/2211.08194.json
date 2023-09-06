@@ -1,0 +1,12 @@
+{
+    "title": "Machine learning for classifying and interpreting coherent X-ray speckle patterns. (arXiv:2211.08194v2 [cond-mat.mtrl-sci] UPDATED)",
+    "abstract": "Speckle patterns produced by coherent X-ray have a close relationship with the internal structure of materials but quantitative inversion of the relationship to determine structure from speckle patterns is challenging. Here, we investigate the link between coherent X-ray speckle patterns and sample structures using a model 2D disk system and explore the ability of machine learning to learn aspects of the relationship. Specifically, we train a deep neural network to classify the coherent X-ray speckle patterns according to the disk number density in the corresponding structure. It is demonstrated that the classification system is accurate for both non-disperse and disperse size distributions.",
+    "link": "http://arxiv.org/abs/2211.08194",
+    "context": "Title: Machine learning for classifying and interpreting coherent X-ray speckle patterns. (arXiv:2211.08194v2 [cond-mat.mtrl-sci] UPDATED)\nAbstract: Speckle patterns produced by coherent X-ray have a close relationship with the internal structure of materials but quantitative inversion of the relationship to determine structure from speckle patterns is challenging. Here, we investigate the link between coherent X-ray speckle patterns and sample structures using a model 2D disk system and explore the ability of machine learning to learn aspects of the relationship. Specifically, we train a deep neural network to classify the coherent X-ray speckle patterns according to the disk number density in the corresponding structure. It is demonstrated that the classification system is accurate for both non-disperse and disperse size distributions.",
+    "path": "papers/22/11/2211.08194.json",
+    "total_tokens": 747,
+    "translated_title": "用于分类和解释相干X射线散斑图的机器学习方法",
+    "translated_abstract": "相干X射线产生的散斑图与材料的内部结构有着密切的关系，但从散斑图中定量地推断结构是具有挑战性的。在这里，我们利用一个模型二维圆盘系统探索相干X射线散斑图和样品结构之间的联系，并研究机器学习在学习这种关系方面的能力。具体而言，我们训练了一个深度神经网络，根据相应结构中的圆盘数密度来对相干X射线散斑图进行分类。证明了该分类系统对于非分散和分散尺寸分布都具有准确性。",
+    "tldr": "通过使用模型系统和深度神经网络，本研究探索了相干X射线散斑图和样品结构之间的关系，并表明机器学习在确定散斑图中结构的能力上是准确的。",
+    "en_tdlr": "This study investigates the relationship between coherent X-ray speckle patterns and sample structures using a model system and deep neural network, demonstrating the accurate ability of machine learning in determining the structure from speckle patterns."
+}

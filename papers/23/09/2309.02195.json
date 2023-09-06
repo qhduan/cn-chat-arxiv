@@ -1,0 +1,12 @@
+{
+    "title": "Sparse Function-space Representation of Neural Networks. (arXiv:2309.02195v1 [stat.ML])",
+    "abstract": "Deep neural networks (NNs) are known to lack uncertainty estimates and struggle to incorporate new data. We present a method that mitigates these issues by converting NNs from weight space to function space, via a dual parameterization. Importantly, the dual parameterization enables us to formulate a sparse representation that captures information from the entire data set. This offers a compact and principled way of capturing uncertainty and enables us to incorporate new data without retraining whilst retaining predictive performance. We provide proof-of-concept demonstrations with the proposed approach for quantifying uncertainty in supervised learning on UCI benchmark tasks.",
+    "link": "http://arxiv.org/abs/2309.02195",
+    "context": "Title: Sparse Function-space Representation of Neural Networks. (arXiv:2309.02195v1 [stat.ML])\nAbstract: Deep neural networks (NNs) are known to lack uncertainty estimates and struggle to incorporate new data. We present a method that mitigates these issues by converting NNs from weight space to function space, via a dual parameterization. Importantly, the dual parameterization enables us to formulate a sparse representation that captures information from the entire data set. This offers a compact and principled way of capturing uncertainty and enables us to incorporate new data without retraining whilst retaining predictive performance. We provide proof-of-concept demonstrations with the proposed approach for quantifying uncertainty in supervised learning on UCI benchmark tasks.",
+    "path": "papers/23/09/2309.02195.json",
+    "total_tokens": 722,
+    "translated_title": "神经网络的稀疏函数空间表示方法",
+    "translated_abstract": "已知深度神经网络（NNs）缺乏不确定性估计，并且难以融入新数据。我们提出了一种方法，通过双重参数化将NNs从权重空间转换为函数空间，以减轻这些问题。重要的是，双重参数化使我们能够制定出捕捉整个数据集信息的稀疏表示。这提供了一种紧凑且原则性的方法来捕捉不确定性，并使我们能够在不重新训练的情况下融入新数据，并保持预测性能。我们通过在UCI基准任务上使用该方法进行证明性演示，来量化监督学习中的不确定性。",
+    "tldr": "本研究提出了一种将神经网络从权重空间转换为函数空间的方法，通过稀疏表示捕捉整个数据集的信息，从而解决了深度神经网络缺乏不确定性估计和融入新数据的问题。",
+    "en_tdlr": "This study proposes a method to convert neural networks from weight space to function space, capturing information from the entire dataset through sparse representation, addressing the issues of lacking uncertainty estimates and struggling to incorporate new data in deep neural networks."
+}
