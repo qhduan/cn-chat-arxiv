@@ -1,0 +1,11 @@
+{
+    "title": "Split-Boost Neural Networks. (arXiv:2309.03167v1 [cs.LG])",
+    "abstract": "The calibration and training of a neural network is a complex and time-consuming procedure that requires significant computational resources to achieve satisfactory results. Key obstacles are a large number of hyperparameters to select and the onset of overfitting in the face of a small amount of data. In this framework, we propose an innovative training strategy for feed-forward architectures - called split-boost - that improves performance and automatically includes a regularizing behaviour without modeling it explicitly. Such a novel approach ultimately allows us to avoid explicitly modeling the regularization term, decreasing the total number of hyperparameters and speeding up the tuning phase. The proposed strategy is tested on a real-world (anonymized) dataset within a benchmark medical insurance design problem.",
+    "link": "http://arxiv.org/abs/2309.03167",
+    "context": "Title: Split-Boost Neural Networks. (arXiv:2309.03167v1 [cs.LG])\nAbstract: The calibration and training of a neural network is a complex and time-consuming procedure that requires significant computational resources to achieve satisfactory results. Key obstacles are a large number of hyperparameters to select and the onset of overfitting in the face of a small amount of data. In this framework, we propose an innovative training strategy for feed-forward architectures - called split-boost - that improves performance and automatically includes a regularizing behaviour without modeling it explicitly. Such a novel approach ultimately allows us to avoid explicitly modeling the regularization term, decreasing the total number of hyperparameters and speeding up the tuning phase. The proposed strategy is tested on a real-world (anonymized) dataset within a benchmark medical insurance design problem.",
+    "path": "papers/23/09/2309.03167.json",
+    "total_tokens": 752,
+    "translated_title": "分割增强神经网络",
+    "translated_abstract": "神经网络的校准和训练是一个复杂且耗时的过程，需要大量的计算资源才能达到令人满意的结果。关键障碍是需要选择大量的超参数，并且在数据量较少的情况下容易出现过拟合。在这个框架中，我们提出了一种创新的前馈架构训练策略，称为分割增强（split-boost），它能够提高性能并自动包含一种正则化行为，而无需显式地建模。这种新颖的方法最终使我们能够避免显式建模正则化项，减少总的超参数数量并加速调优阶段。该策略在一个匿名的现实世界数据集上进行了测试，应用于基准医疗保险设计问题。",
+    "tldr": "这篇论文提出了一种称为分割增强的训练策略，通过自动包含正则化行为，降低了神经网络训练的复杂性和计算资源需求。"
+}

@@ -2,94 +2,118 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Co-evolving Vector Quantization for ID-based Recommendation.](http://arxiv.org/abs/2308.16761) | 这项工作提出了一种用于基于ID的推荐的共同演化向量量化框架（COVE），该框架能够自动学习和生成不同粒度级别下的实体分类信息，并在各种推荐任务中展现了有效性。 |
-| [^2] | [Towards Long-Tailed Recognition for Graph Classification via Collaborative Experts.](http://arxiv.org/abs/2308.16609) | 本文提出了一种新颖的方法，通过合作专家实现了长尾图分类，解决了现有方法在处理图数据上的不足。 |
-| [^3] | [How Expressive are Graph Neural Networks in Recommendation?.](http://arxiv.org/abs/2308.11127) | 本文对图神经网络在推荐中的表达能力进行了理论分析，发现现有的表达能力度量标准可能无法有效评估模型在推荐中的能力，提出了一个全面的理论分析方法。 |
-| [^4] | [AutoAlign: Fully Automatic and Effective Knowledge Graph Alignment enabled by Large Language Models.](http://arxiv.org/abs/2307.11772) | AutoAlign是一种全自动的知识图谱对齐方法，不需要手工制作的种子对齐。它利用大型语言模型自动捕捉谓词相似性，并使用TransE计算实体嵌入来实现实体对齐。 |
-| [^5] | [Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain.](http://arxiv.org/abs/2307.05074) | 本文提出了一种基于检索增强的GPT-3.5文本到SQL框架，采用了样本感知引导和动态修订链的方法，以应对现有方法在处理语义差距较大的检索示例时面临的挑战。 |
-| [^6] | [Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom.](http://arxiv.org/abs/2306.11963) | 本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。 |
-| [^7] | [STUDY: Socially Aware Temporally Casual Decoder Recommender Systems.](http://arxiv.org/abs/2306.07946) | 该论文提出了一种基于社交感知和时间因素的解码器推荐系统(STUDY)，使用transformer解码器网络实现对社交网络图中相邻的用户组的联合推断。该方法在教育内容领域中经过测试，能够取得优于社交和顺序方法的结果。 |
-| [^8] | [CTRL: Connect Tabular and Language Model for CTR Prediction.](http://arxiv.org/abs/2306.02841) | 提出了CTRL框架，将原始表格数据转换为文本数据，使用协作CTR模型分别对两种数据进行建模，提取关于CTR预测的语义信息，并在真实工业数据集上取得最新的SOTA性能水平。 |
-| [^9] | [AMR4NLI: Interpretable and robust NLI measures from semantic graphs.](http://arxiv.org/abs/2306.00936) | 该论文提出了一种从语义图中获取可解释和鲁棒的NLI度量方法，与使用上下文嵌入的方法相比具有补充性，可以在混合模型中结合使用。 |
-| [^10] | [Iteratively Learning Representations for Unseen Entities with Inter-Rule Correlations.](http://arxiv.org/abs/2305.10531) | 本文提出了一种虚拟邻居网络(VNC)，用于解决知识图谱完成中未知实体表示的问题。该方法通过规则挖掘、规则推理和嵌入三个阶段，实现对规则间相关性进行建模。 |
-| [^11] | [DELTA: Dynamic Embedding Learning with Truncated Conscious Attention for CTR Prediction.](http://arxiv.org/abs/2305.04891) | 该论文提出了一种名为DELTA的CTR模型，使用截断意识注意力进行动态嵌入学习，有效地解决了上下文中无效和冗余特征的问题。 |
-| [^12] | [MemoNet: Memorizing All Cross Features' Representations Efficiently via Multi-Hash Codebook Network for CTR Prediction.](http://arxiv.org/abs/2211.01334) | 本文提出了一种名为MemoNet的CTR模型，通过引入多哈希码本网络（HCNet）作为记忆机制，高效地学习和记忆交叉特征的表示。实验结果表明MemoNet在性能上优于最先进的方法，并且展现出NLP中的大型语言模型的扩展规律。 |
-| [^13] | [Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN).](http://arxiv.org/abs/2210.14309) | 本论文研究了长尾商品推荐中的偏差问题，并提出了一种交叉解耦网络（CDN）方法，能够在保持整体性能和减少训练和服务成本的条件下提高尾部商品的推荐效果。 |
-| [^14] | [Dual Correction Strategy for Ranking Distillation in Top-N Recommender System.](http://arxiv.org/abs/2109.03459) | 本文提出了一种双重修正策略（DCD），用于在推荐系统中更有效地将教师模型的排名信息转移到学生模型。这种方法不仅充分利用了学生模型的预测误差，还提供了更全面的视角，解决了松弛排名蒸馏方法的限制。 |
+| [^1] | [Impression-Informed Multi-Behavior Recommender System: A Hierarchical Graph Attention Approach.](http://arxiv.org/abs/2309.03169) | 这个论文提出了一种基于印象感知的多行为推荐系统，通过利用注意机制从行为间和行为内部获取信息，并采用多层级图注意力方法，来解决推荐系统在处理多个行为之间互动方面的挑战。 |
+| [^2] | [Helper Recommendation with seniority control in Online Health Community.](http://arxiv.org/abs/2309.02978) | 本研究提出了一个在在线健康社区中增强社会支持的推荐系统，以解决问题提出者找到适当问题解答者的问题。与传统的推荐系统不同的是，该系统考虑到了协助者-问题提出者链接的复杂性，并解决了历史行为和贡献对社会支持的影响的区分困难。 |
+| [^3] | [Prompt-based Effective Input Reformulation for Legal Case Retrieval.](http://arxiv.org/abs/2309.02962) | 通过有效的输入重构，提出了一种基于提示的法律案件检索方法，以解决法律特征对齐和法律上下文保留两个挑战。 |
+| [^4] | [Tidying Up the Conversational Recommender Systems' Biases.](http://arxiv.org/abs/2309.02550) | 该论文综述了会话型推荐系统中的偏见问题，并考虑了这些偏见在CRS中的影响以及与复杂的模型结合时的挑战。具体而言，研究调查了经典推荐系统中的偏见，并讨论了与对话系统和语言模型相关的偏见。 |
+| [^5] | [MvFS: Multi-view Feature Selection for Recommender System.](http://arxiv.org/abs/2309.02064) | MvFS提出了一种多视图特征选择方法，通过采用多个子网络测量具有不同特征模式的数据的特征重要性，从而更有效地选择每个实例的信息丰富的特征，并解决了当前方法对频繁出现特征的偏向问题。 |
+| [^6] | [DynED: Dynamic Ensemble Diversification in Data Stream Classification.](http://arxiv.org/abs/2308.10807) | DynED是一种动态集成多样化方法，基于MRR结合了组件的多样性和预测准确性，在数据流环境中实现了更高的准确率。 |
+| [^7] | [Ducho: A Unified Framework for the Extraction of Multimodal Features in Recommendation.](http://arxiv.org/abs/2306.17125) | Ducho是一个用于推荐系统中多模态特征提取的统一框架，通过集成三个广泛采用的深度学习库作为后端，提供了一个共享界面来提取和处理特征。 |
+| [^8] | [Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom.](http://arxiv.org/abs/2306.11963) | 本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。 |
+| [^9] | [A Diffusion model for POI recommendation.](http://arxiv.org/abs/2304.07041) | 本文提出了一种基于扩散算法采样用户空间偏好的POI推荐模型，解决了现有方法只基于用户先前访问位置聚合的缺点，适用于推荐新颖区域的POI。 |
+| [^10] | [A Unified Framework for Exploratory Learning-Aided Community Detection in Networks with Unknown Topology.](http://arxiv.org/abs/2304.04497) | META-CODE是一个统一的框架，通过探索学习和易于收集的节点元数据，在未知拓扑网络中检测重叠社区。实验结果证明了META-CODE的有效性和可扩展性。 |
 
 # 详细
 
-[^1]: 基于ID的推荐的共同演化向量量化
+[^1]: 基于印象感知的多行为推荐系统：一种层次图注意力方法
 
-    Co-evolving Vector Quantization for ID-based Recommendation. (arXiv:2308.16761v1 [cs.IR])
+    Impression-Informed Multi-Behavior Recommender System: A Hierarchical Graph Attention Approach. (arXiv:2309.03169v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.16761](http://arxiv.org/abs/2308.16761)
+    [http://arxiv.org/abs/2309.03169](http://arxiv.org/abs/2309.03169)
 
-    这项工作提出了一种用于基于ID的推荐的共同演化向量量化框架（COVE），该框架能够自动学习和生成不同粒度级别下的实体分类信息，并在各种推荐任务中展现了有效性。
-
-    
-
-    类别信息对于提高推荐的质量和个性化起着至关重要的作用。然而，在基于ID的推荐中，项目类别信息的可用性并不一致。在这项工作中，我们提出了一种替代方法，以自动学习和生成实体（即用户和项目）在不同粒度级别上的分类信息，特别适用于基于ID的推荐。具体而言，我们设计了一个共同演化向量量化框架，即COVE，它能够同时学习和改进代码表示和实体嵌入，并以从随机初始化状态开始的端到端方式进行。通过其高度适应性，COVE可以轻松集成到现有的推荐模型中。我们验证了COVE在各种推荐任务中的有效性，包括列表完成、协同过滤和点击率预测，涵盖不同的推荐场景。
-
-    Category information plays a crucial role in enhancing the quality and personalization of recommendations. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose an alternative approach to automatically learn and generate entity (i.e., user and item) categorical information at different levels of granularity, specifically for ID-based recommendation. Specifically, we devise a co-evolving vector quantization framework, namely COVE, which enables the simultaneous learning and refinement of code representation and entity embedding in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, COVE can be easily integrated into existing recommendation models. We validate the effectiveness of COVE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommend
-    
-[^2]: 通过合作专家实现长尾图分类的研究
-
-    Towards Long-Tailed Recognition for Graph Classification via Collaborative Experts. (arXiv:2308.16609v1 [cs.LG])
-
-    [http://arxiv.org/abs/2308.16609](http://arxiv.org/abs/2308.16609)
-
-    本文提出了一种新颖的方法，通过合作专家实现了长尾图分类，解决了现有方法在处理图数据上的不足。
+    这个论文提出了一种基于印象感知的多行为推荐系统，通过利用注意机制从行为间和行为内部获取信息，并采用多层级图注意力方法，来解决推荐系统在处理多个行为之间互动方面的挑战。
 
     
 
-    图分类旨在学习用于有效类别分配的图级表示，在平衡的类别分布的高质量数据集的支持下取得了杰出成果。事实上，大多数现实世界的图数据自然呈现长尾形式，其中头部类别的样本数量远超过尾部类别，因此在长尾数据上研究图级分类是至关重要的，但仍然较少探索。然而，现有的视觉中的长尾学习方法大多无法同时优化表示学习和分类器训练，并且忽略了难以分类的类别的挖掘。直接将现有方法应用于图可能导致次优性能，因为在图上训练的模型由于复杂的拓扑特征会更加敏感于长尾分布。因此，在本文中，我们提出了一种新颖的对长尾图级分类的方法
+    尽管推荐系统从隐式反馈中获益良多，但往往会忽略用户与物品之间的多行为互动的细微差别。历史上，这些系统要么将所有行为，如“印象”（以前称为“浏览”）、“添加到购物车”和“购买”，归并为一个统一的“互动”标签，要么仅优先考虑目标行为，通常是“购买”行为，并丢弃有价值的辅助信号。尽管最近的进展试图解决这种简化，但它们主要集中于优化目标行为，与数据稀缺作斗争。此外，它们往往绕过了与行为内在层次结构有关的微妙差异。为了弥合这些差距，我们引入了“H”ierarchical “M”ulti-behavior “G”raph Attention “N”etwork（HMGN）。这个开创性的框架利用注意机制从行为间和行为内部获取信息，同时采用多
 
-    Graph classification, aiming at learning the graph-level representations for effective class assignments, has received outstanding achievements, which heavily relies on high-quality datasets that have balanced class distribution. In fact, most real-world graph data naturally presents a long-tailed form, where the head classes occupy much more samples than the tail classes, it thus is essential to study the graph-level classification over long-tailed data while still remaining largely unexplored. However, most existing long-tailed learning methods in visions fail to jointly optimize the representation learning and classifier training, as well as neglect the mining of the hard-to-classify classes. Directly applying existing methods to graphs may lead to sub-optimal performance, since the model trained on graphs would be more sensitive to the long-tailed distribution due to the complex topological characteristics. Hence, in this paper, we propose a novel long-tailed graph-level classifica
+    While recommender systems have significantly benefited from implicit feedback, they have often missed the nuances of multi-behavior interactions between users and items. Historically, these systems either amalgamated all behaviors, such as \textit{impression} (formerly \textit{view}), \textit{add-to-cart}, and \textit{buy}, under a singular 'interaction' label, or prioritized only the target behavior, often the \textit{buy} action, discarding valuable auxiliary signals. Although recent advancements tried addressing this simplification, they primarily gravitated towards optimizing the target behavior alone, battling with data scarcity. Additionally, they tended to bypass the nuanced hierarchy intrinsic to behaviors. To bridge these gaps, we introduce the \textbf{H}ierarchical \textbf{M}ulti-behavior \textbf{G}raph Attention \textbf{N}etwork (HMGN). This pioneering framework leverages attention mechanisms to discern information from both inter and intra-behaviors while employing a multi-
     
-[^3]: 图神经网络在推荐中的表达能力有多强？
+[^2]: 在线健康社区中具有资历控制的协助者推荐
 
-    How Expressive are Graph Neural Networks in Recommendation?. (arXiv:2308.11127v1 [cs.IR])
+    Helper Recommendation with seniority control in Online Health Community. (arXiv:2309.02978v1 [cs.SI])
 
-    [http://arxiv.org/abs/2308.11127](http://arxiv.org/abs/2308.11127)
+    [http://arxiv.org/abs/2309.02978](http://arxiv.org/abs/2309.02978)
 
-    本文对图神经网络在推荐中的表达能力进行了理论分析，发现现有的表达能力度量标准可能无法有效评估模型在推荐中的能力，提出了一个全面的理论分析方法。
-
-    
-
-    图神经网络（GNNs）在各种图学习任务中展示了优越的性能，包括利用图中的用户-物品协作过滤信号进行推荐。然而，尽管它们在最先进的推荐模型中的经验有效性，但对于它们的能力的理论表述非常稀少。最近的研究探讨了GNNs的一般表达能力，证明了消息传递GNNs至多与Weisfeiler-Lehman测试一样强大，并且与随机节点初始化相结合的GNNs是通用的。然而，GNNs的“表达能力”概念仍然定义模糊。大多数现有的工作采用图同构测试作为表达能力的度量标准，但这种图级任务可能不能有效评估模型在推荐中区分不同接近程度节点的能力。在本文中，我们对GNNs在推荐中的表达能力进行了全面的理论分析。
-
-    Graph Neural Networks (GNNs) have demonstrated superior performance on various graph learning tasks, including recommendation, where they leverage user-item collaborative filtering signals in graphs. However, theoretical formulations of their capability are scarce, despite their empirical effectiveness in state-of-the-art recommender models. Recently, research has explored the expressiveness of GNNs in general, demonstrating that message passing GNNs are at most as powerful as the Weisfeiler-Lehman test, and that GNNs combined with random node initialization are universal. Nevertheless, the concept of "expressiveness" for GNNs remains vaguely defined. Most existing works adopt the graph isomorphism test as the metric of expressiveness, but this graph-level task may not effectively assess a model's ability in recommendation, where the objective is to distinguish nodes of different closeness. In this paper, we provide a comprehensive theoretical analysis of the expressiveness of GNNs in 
-    
-[^4]: AutoAlign：基于大型语言模型的全自动有效知识图谱对齐方法
-
-    AutoAlign: Fully Automatic and Effective Knowledge Graph Alignment enabled by Large Language Models. (arXiv:2307.11772v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.11772](http://arxiv.org/abs/2307.11772)
-
-    AutoAlign是一种全自动的知识图谱对齐方法，不需要手工制作的种子对齐。它利用大型语言模型自动捕捉谓词相似性，并使用TransE计算实体嵌入来实现实体对齐。
+    本研究提出了一个在在线健康社区中增强社会支持的推荐系统，以解决问题提出者找到适当问题解答者的问题。与传统的推荐系统不同的是，该系统考虑到了协助者-问题提出者链接的复杂性，并解决了历史行为和贡献对社会支持的影响的区分困难。
 
     
 
-    知识图谱间的实体对齐任务旨在识别出两个不同知识图谱中表示相同实体的每对实体。许多基于机器学习的方法已被提出用于这个任务。然而，据我们所知，现有的方法都需要手工制作的种子对齐，这是非常昂贵的。在本文中，我们提出了第一个名为AutoAlign的完全自动对齐方法，它不需要任何手工制作的种子对齐。具体而言，对于谓词嵌入，AutoAlign使用大型语言模型构建谓词近邻图，自动捕捉两个知识图谱中谓词的相似性。对于实体嵌入，AutoAlign首先使用TransE独立计算每个知识图谱的实体嵌入，然后通过计算基于实体属性的实体相似性，将两个知识图谱的实体嵌入移动到相同的向量空间中。因此，AutoAlign实现了谓词对齐和实体对齐。
+    在线健康社区是病人交流经验并提供心理支持的论坛。在在线健康社区中，社会支持对于帮助和康复病人起到至关重要的作用。然而，由于线上健康社区中的问题众多且病人访问具有随机性，很多病人的时效性问题往往没有得到回答。为了解决这个问题，我们迫切需要提出一个推荐系统，帮助问题提出者找到合适的问题解答者。然而，在线健康社区中开发一个增强社会支持的推荐算法仍是一个未被充分研究的领域。传统的推荐系统不能直接适用于这个问题，因为第一，与传统的推荐系统中的用户-物品链接不同，在线健康社区中的协助者-问题提出者链接很难建模，因为它们是基于各种异质的原因形成的。第二，很难区分历史行为和贡献对社会支持的影响。
 
-    The task of entity alignment between knowledge graphs (KGs) aims to identify every pair of entities from two different KGs that represent the same entity. Many machine learning-based methods have been proposed for this task. However, to our best knowledge, existing methods all require manually crafted seed alignments, which are expensive to obtain. In this paper, we propose the first fully automatic alignment method named AutoAlign, which does not require any manually crafted seed alignments. Specifically, for predicate embeddings, AutoAlign constructs a predicate-proximity-graph with the help of large language models to automatically capture the similarity between predicates across two KGs. For entity embeddings, AutoAlign first computes the entity embeddings of each KG independently using TransE, and then shifts the two KGs' entity embeddings into the same vector space by computing the similarity between entities based on their attributes. Thus, both predicate alignment and entity al
+    Online health communities (OHCs) are forums where patients with similar conditions communicate their experiences and provide moral support. Social support in OHCs plays a crucial role in easing and rehabilitating patients. However, many time-sensitive questions from patients often remain unanswered due to the multitude of threads and the random nature of patient visits in OHCs. To address this issue, it is imperative to propose a recommender system that assists solution seekers in finding appropriate problem helpers. Nevertheless, developing a recommendation algorithm to enhance social support in OHCs remains an under-explored area. Traditional recommender systems cannot be directly adapted due to the following obstacles. First, unlike user-item links in traditional recommender systems, it is hard to model the social support behind helper-seeker links in OHCs since they are formed based on various heterogeneous reasons. Second, it is difficult to distinguish the impact of historical ac
     
-[^5]: 采用样本感知引导和动态修订链的基于检索增强的GPT-3.5文本到SQL框架
+[^3]: 基于提示的法律案件检索的有效输入重构
 
-    Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain. (arXiv:2307.05074v1 [cs.IR])
+    Prompt-based Effective Input Reformulation for Legal Case Retrieval. (arXiv:2309.02962v1 [cs.IR])
 
-    [http://arxiv.org/abs/2307.05074](http://arxiv.org/abs/2307.05074)
+    [http://arxiv.org/abs/2309.02962](http://arxiv.org/abs/2309.02962)
 
-    本文提出了一种基于检索增强的GPT-3.5文本到SQL框架，采用了样本感知引导和动态修订链的方法，以应对现有方法在处理语义差距较大的检索示例时面临的挑战。
+    通过有效的输入重构，提出了一种基于提示的法律案件检索方法，以解决法律特征对齐和法律上下文保留两个挑战。
 
     
 
-    文本到SQL旨在为给定的自然语言问题生成SQL查询，从而帮助用户查询数据库。最近出现了一种基于大型语言模型（LLMs）的提示学习方法，该方法设计提示以引导LLMs理解输入问题并生成相应的SQL。然而，它面临着严格的SQL语法要求的挑战。现有工作使用一系列示例（即问题-SQL对）来提示LLMs生成SQL，但固定的提示几乎无法处理检索出的示例与输入问题之间的语义差距较大的情况。在本文中，我们提出了一种基于检索增强的提示方法，用于基于LLM的文本到SQL框架，包括样本感知提示和动态修订链。我们的方法包括样本感知示例，其中包括SQL运算符的组合和与给定问题相关的细粒度信息。
+    法律案例检索在法律从业者有效检索相关案例时起到重要作用。大多数现有的神经法律案例检索模型直接对案例的整个法律文本进行编码以生成案例表示，并利用该表示进行最近邻搜索以进行检索。尽管这些直接的方法在检索准确性方面比传统统计方法取得了改进，但本文指出了两个重要挑战：（1）法律特征对齐：使用整个案例文本作为输入通常会包含冗余和噪音信息，因为从法律的角度来看，相关案例的决定因素是关键法律特征的对齐，而不是整个文本匹配；（2）法律上下文保留：此外，由于现有的文本编码模型通常有比案例更短的输入长度限制，因此需要截断或分割整个案例文本。
 
-    Text-to-SQL aims at generating SQL queries for the given natural language questions and thus helping users to query databases. Prompt learning with large language models (LLMs) has emerged as a recent approach, which designs prompts to lead LLMs to understand the input question and generate the corresponding SQL. However, it faces challenges with strict SQL syntax requirements. Existing work prompts the LLMs with a list of demonstration examples (i.e. question-SQL pairs) to generate SQL, but the fixed prompts can hardly handle the scenario where the semantic gap between the retrieved demonstration and the input question is large. In this paper, we propose a retrieval-augmented prompting method for a LLM-based Text-to-SQL framework, involving sample-aware prompting and a dynamic revision chain. Our approach incorporates sample-aware demonstrations, which include the composition of SQL operators and fine-grained information related to the given question. To retrieve questions sharing sim
+    Legal case retrieval plays an important role for legal practitioners to effectively retrieve relevant cases given a query case. Most existing neural legal case retrieval models directly encode the whole legal text of a case to generate a case representation, which is then utilised to conduct a nearest neighbour search for retrieval. Although these straightforward methods have achieved improvement over conventional statistical methods in retrieval accuracy, two significant challenges are identified in this paper: (1) Legal feature alignment: the usage of the whole case text as the input will generally incorporate redundant and noisy information because, from the legal perspective, the determining factor of relevant cases is the alignment of key legal features instead of whole text matching; (2) Legal context preservation: furthermore, since the existing text encoding models usually have an input length limit shorter than the case, the whole case text needs to be truncated or divided int
     
-[^6]: 智慧医疗中的多模态融合:从数据、信息、知识到智慧之旅
+[^4]: 清理会话型推荐系统的偏见
+
+    Tidying Up the Conversational Recommender Systems' Biases. (arXiv:2309.02550v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.02550](http://arxiv.org/abs/2309.02550)
+
+    该论文综述了会话型推荐系统中的偏见问题，并考虑了这些偏见在CRS中的影响以及与复杂的模型结合时的挑战。具体而言，研究调查了经典推荐系统中的偏见，并讨论了与对话系统和语言模型相关的偏见。
+
+    
+
+    语言模型的日益流行引起了对会话型推荐系统（CRS）的兴趣，在工业界和研究界都备受关注。然而，这些系统中的偏见问题引起了人们的担忧。虽然CRS的个别组件已经接受了对偏见的研究，但目前在理解CRS中特定偏见以及当其集成到复杂的CRS模型中时这些偏见如何被放大或减弱方面存在文献空缺。在本文中，我们通过对最近的文献进行调查，提供了CRS中偏见的简明综述。我们研究了偏见在系统流程中的存在，并考虑了将多个模型结合在一起时产生的挑战。我们的研究调查了经典推荐系统中的偏见及其与CRS的相关性。此外，我们还讨论了CRS中的特定偏见，考虑了带有和不带有自然语言理解能力的变体，以及与对话系统和语言模型相关的偏见。通过我们的研究结果，我们突出了一些关键点。
+
+    The growing popularity of language models has sparked interest in conversational recommender systems (CRS) within both industry and research circles. However, concerns regarding biases in these systems have emerged. While individual components of CRS have been subject to bias studies, a literature gap remains in understanding specific biases unique to CRS and how these biases may be amplified or reduced when integrated into complex CRS models. In this paper, we provide a concise review of biases in CRS by surveying recent literature. We examine the presence of biases throughout the system's pipeline and consider the challenges that arise from combining multiple models. Our study investigates biases in classic recommender systems and their relevance to CRS. Moreover, we address specific biases in CRS, considering variations with and without natural language understanding capabilities, along with biases related to dialogue systems and language models. Through our findings, we highlight t
+    
+[^5]: MvFS: 多视图特征选择用于推荐系统
+
+    MvFS: Multi-view Feature Selection for Recommender System. (arXiv:2309.02064v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2309.02064](http://arxiv.org/abs/2309.02064)
+
+    MvFS提出了一种多视图特征选择方法，通过采用多个子网络测量具有不同特征模式的数据的特征重要性，从而更有效地选择每个实例的信息丰富的特征，并解决了当前方法对频繁出现特征的偏向问题。
+
+    
+
+    特征选择是推荐系统中选择关键特征的技术，近年来受到越来越多的研究关注。最近，自适应特征选择（AdaFS）通过针对每个数据实例自适应地选择特征，考虑到给定特征字段的重要性在数据中可以有显著差异，显示了显著的性能。然而，这种方法在选择过程中仍然存在容易偏向频繁出现的主要特征的限制。为了解决这些问题，我们提出了多视图特征选择（MvFS），它更有效地为每个实例选择信息丰富的特征。最重要的是，MvFS采用了一个多视图网络，由多个子网络组成，每个子网络学习如何测量具有不同特征模式的数据的特征重要性。通过这样做，MvFS缓解了朝向主导模式的偏见问题，并促进了更平衡的特征选择过程。此外，MvFS采用了一种有效的i
+
+    Feature selection, which is a technique to select key features in recommender systems, has received increasing research attention. Recently, Adaptive Feature Selection (AdaFS) has shown remarkable performance by adaptively selecting features for each data instance, considering that the importance of a given feature field can vary significantly across data. However, this method still has limitations in that its selection process could be easily biased to major features that frequently occur. To address these problems, we propose Multi-view Feature Selection (MvFS), which selects informative features for each instance more effectively. Most importantly, MvFS employs a multi-view network consisting of multiple sub-networks, each of which learns to measure the feature importance of a part of data with different feature patterns. By doing so, MvFS mitigates the bias problem towards dominant patterns and promotes a more balanced feature selection process. Moreover, MvFS adopts an effective i
+    
+[^6]: DynED: 数据流分类中的动态集成多样化
+
+    DynED: Dynamic Ensemble Diversification in Data Stream Classification. (arXiv:2308.10807v1 [cs.LG] CROSS LISTED)
+
+    [http://arxiv.org/abs/2308.10807](http://arxiv.org/abs/2308.10807)
+
+    DynED是一种动态集成多样化方法，基于MRR结合了组件的多样性和预测准确性，在数据流环境中实现了更高的准确率。
+
+    
+
+    鉴于数据分布的突变性变化，也称为概念漂移，在数据流环境中实现高准确度是一项具有挑战性的任务。在这种情况下，集合方法被广泛应用于分类，因为它们具有出色的性能。 在集合内部的更大多样性已被证明可以提高预测准确性。尽管集合内组件的多样性很高，但并不是所有组件都像预期的那样对整体性能有所贡献。这需要一种方法来选择展现出高性能和多样性的组件。我们提出了一种基于MMR（最大边际相关性）的新型集合构建和维护方法，在组合集合的过程中动态地结合了组件的多样性和预测准确性。在四个真实和11个合成数据集上的实验结果表明，所提出的方法（DynED）相比于五种最先进的基准方法提供了更高的平均准确率
+
+    Ensemble methods are commonly used in classification due to their remarkable performance. Achieving high accuracy in a data stream environment is a challenging task considering disruptive changes in the data distribution, also known as concept drift. A greater diversity of ensemble components is known to enhance prediction accuracy in such settings. Despite the diversity of components within an ensemble, not all contribute as expected to its overall performance. This necessitates a method for selecting components that exhibit high performance and diversity. We present a novel ensemble construction and maintenance approach based on MMR (Maximal Marginal Relevance) that dynamically combines the diversity and prediction accuracy of components during the process of structuring an ensemble. The experimental results on both four real and 11 synthetic datasets demonstrate that the proposed approach (DynED) provides a higher average mean accuracy compared to the five state-of-the-art baselines
+    
+[^7]: Ducho: 一种用于推荐系统中多模态特征提取的统一框架
+
+    Ducho: A Unified Framework for the Extraction of Multimodal Features in Recommendation. (arXiv:2306.17125v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.17125](http://arxiv.org/abs/2306.17125)
+
+    Ducho是一个用于推荐系统中多模态特征提取的统一框架，通过集成三个广泛采用的深度学习库作为后端，提供了一个共享界面来提取和处理特征。
+
+    
+
+    在多模态感知的推荐系统中，有意义的多模态特征的提取是实现高质量推荐的基础。通常，每个推荐框架都会使用特定的策略和工具来实现其多模态特征的提取过程。这种限制有两个原因：（一）不同的特征提取策略不利于多模态推荐框架之间的相互关联，因此无法进行有效和公平的比较；（二）由于不同的开源工具提供了大量经过预训练的深度学习模型，模型设计者无法访问共享界面来提取特征。在上述问题的基础上，我们提出了Ducho，一种用于推荐系统中多模态特征提取的统一框架。通过集成三个广泛采用的深度学习库作为后端，即TensorFlow、PyTorch和Transformers，我们提供了一个共享界面，用于提取和处理特征，每个后端都有自己的特定方法。
+
+    In multimodal-aware recommendation, the extraction of meaningful multimodal features is at the basis of high-quality recommendations. Generally, each recommendation framework implements its multimodal extraction procedures with specific strategies and tools. This is limiting for two reasons: (i) different extraction strategies do not ease the interdependence among multimodal recommendation frameworks; thus, they cannot be efficiently and fairly compared; (ii) given the large plethora of pre-trained deep learning models made available by different open source tools, model designers do not have access to shared interfaces to extract features. Motivated by the outlined aspects, we propose Ducho, a unified framework for the extraction of multimodal features in recommendation. By integrating three widely-adopted deep learning libraries as backends, namely, TensorFlow, PyTorch, and Transformers, we provide a shared interface to extract and process features where each backend's specific metho
+    
+[^8]: 智慧医疗中的多模态融合:从数据、信息、知识到智慧之旅
 
     Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom. (arXiv:2306.11963v1 [cs.IR])
 
@@ -103,116 +127,32 @@
 
     Multimodal medical data fusion has emerged as a transformative approach in smart healthcare, enabling a comprehensive understanding of patient health and personalized treatment plans. In this paper, a journey from data, information, and knowledge to wisdom (DIKW) is explored through multimodal fusion for smart healthcare. A comprehensive review of multimodal medical data fusion focuses on the integration of various data modalities are presented. It explores different approaches such as Feature selection, Rule-based systems, Machine learning, Deep learning, and Natural Language Processing for fusing and analyzing multimodal data. The paper also highlights the challenges associated with multimodal fusion in healthcare. By synthesizing the reviewed frameworks and insights, a generic framework for multimodal medical data fusion is proposed while aligning with the DIKW mechanism. Moreover, it discusses future directions aligned with the four pillars of healthcare: Predictive, Preventive, Pe
     
-[^7]: 研究：社交感知时间松散解码器推荐系统
+[^9]: 一种POI推荐的扩散模型
 
-    STUDY: Socially Aware Temporally Casual Decoder Recommender Systems. (arXiv:2306.07946v1 [cs.SI])
+    A Diffusion model for POI recommendation. (arXiv:2304.07041v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.07946](http://arxiv.org/abs/2306.07946)
+    [http://arxiv.org/abs/2304.07041](http://arxiv.org/abs/2304.07041)
 
-    该论文提出了一种基于社交感知和时间因素的解码器推荐系统(STUDY)，使用transformer解码器网络实现对社交网络图中相邻的用户组的联合推断。该方法在教育内容领域中经过测试，能够取得优于社交和顺序方法的结果。
-
-    
-
-    随着现在在线和离线可获取的数据数量过于庞大，推荐系统变得越来越必要，以帮助用户找到符合他们兴趣的物品。当社交网络信息存在时，有一些方法利用这些信息来做出更好的推荐，但这些方法通常有复杂的结构和训练过程。此外，许多现有的方法使用图神经网络，而这些网络训练起来非常困难。为了解决这个问题，我们提出了基于社交感知和时间因素的解码器推荐系统(STUDY)。STUDY采用一个经过修改的transformer解码器网络的单向前传，对社交网络图中相邻的用户组进行联合推断。我们在基于学校课堂结构定义社交网络的教育内容领域测试了我们的方法。我们的方法在保持单一均匀网络设计简单性的同时，优于社交和顺序方法。
-
-    With the overwhelming amount of data available both on and offline today, recommender systems have become much needed to help users find items tailored to their interests. When social network information exists there are methods that utilize this information to make better recommendations, however the methods are often clunky with complex architectures and training procedures. Furthermore many of the existing methods utilize graph neural networks which are notoriously difficult to train. To address this, we propose Socially-aware Temporally caUsal Decoder recommender sYstems (STUDY). STUDY does joint inference over groups of users who are adjacent in the social network graph using a single forward pass of a modified transformer decoder network. We test our method in a school-based educational content setting, using classroom structure to define social networks. Our method outperforms both social and sequential methods while maintaining the design simplicity of a single homogeneous netw
-    
-[^8]: CTRL: 连接表格和语言模型进行CTR预测
-
-    CTRL: Connect Tabular and Language Model for CTR Prediction. (arXiv:2306.02841v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2306.02841](http://arxiv.org/abs/2306.02841)
-
-    提出了CTRL框架，将原始表格数据转换为文本数据，使用协作CTR模型分别对两种数据进行建模，提取关于CTR预测的语义信息，并在真实工业数据集上取得最新的SOTA性能水平。
+    本文提出了一种基于扩散算法采样用户空间偏好的POI推荐模型，解决了现有方法只基于用户先前访问位置聚合的缺点，适用于推荐新颖区域的POI。
 
     
 
-    传统的CTR预测模型将表格数据转换为one-hot向量，并利用特征之间的协作关系来推断用户对项目的偏好。这种建模范式抛弃了基本的语义信息。尽管一些最近的工作（如P5和M6-Rec）已经探索了使用预训练语言模型（PLMs）提取CTR预测的语义信号的潜力，但它们计算成本高，效率低。此外，尚未考虑到有益的协作关系，从而阻碍了推荐的性能。为了解决这些问题，我们提出了一个新的框架CTRL，它是工业友好的和模型不可知的，具有高训练和推理效率。具体而言，原始的表格数据首先被转换为文本数据。两种不同的模态被分别视为两个模态，并分别输入协作CTR模型中以建模它们的交互作用。我们还提出了信息蒸馏机制，从PLMs中提取关于CTR预测的语义信息，进一步提高了模型的性能。在三个真实的工业数据集上，我们的模型在比较其他现有的模型时均达到了最新的SOTA性能水平。
+    下一个兴趣点（POI）的推荐是定位服务中的关键任务，旨在为用户的下一个目的地提供个性化建议。先前关于POI推荐的工作侧重于对用户空间偏好的建模。然而，现有的利用空间信息的方法仅基于用户先前访问位置的聚合，这会使模型不会推荐新颖区域的POI，从而损害其在许多情况下的性能。此外，将时间顺序信息融入用户的空间偏好仍是一个挑战。在本文中，我们提出了Diff-POI：一种基于扩散的模型，用于采样用户的空间偏好，以进行下一步POI推荐。在扩散算法在从分布中进行采样方面的广泛应用的启发下，Diff-POI使用两个量身定制的图编码模块对用户的访问序列和空间特性进行编码。
 
-    Traditional click-through rate (CTR) prediction models convert the tabular data into one-hot vectors and leverage the collaborative relations among features for inferring user's preference over items. This modeling paradigm discards the essential semantic information. Though some recent works like P5 and M6-Rec have explored the potential of using Pre-trained Language Models (PLMs) to extract semantic signals for CTR prediction, they are computationally expensive and suffer from low efficiency. Besides, the beneficial collaborative relations are not considered, hindering the recommendation performance. To solve these problems, in this paper, we propose a novel framework \textbf{CTRL}, which is industrial friendly and model-agnostic with high training and inference efficiency. Specifically, the original tabular data is first converted into textual data. Both tabular data and converted textual data are regarded as two different modalities and are separately fed into the collaborative CTR
+    Next Point-of-Interest (POI) recommendation is a critical task in location-based services that aim to provide personalized suggestions for the user's next destination. Previous works on POI recommendation have laid focused on modeling the user's spatial preference. However, existing works that leverage spatial information are only based on the aggregation of users' previous visited positions, which discourages the model from recommending POIs in novel areas. This trait of position-based methods will harm the model's performance in many situations. Additionally, incorporating sequential information into the user's spatial preference remains a challenge. In this paper, we propose Diff-POI: a Diffusion-based model that samples the user's spatial preference for the next POI recommendation. Inspired by the wide application of diffusion algorithm in sampling from distributions, Diff-POI encodes the user's visiting sequence and spatial character with two tailor-designed graph encoding modules
     
-[^9]: AMR4NLI: 从语义图中获得可解释和鲁棒的NLI度量
+[^10]: 未知拓扑网络中的探索学习辅助社区检测的统一框架
 
-    AMR4NLI: Interpretable and robust NLI measures from semantic graphs. (arXiv:2306.00936v2 [cs.CL] UPDATED)
+    A Unified Framework for Exploratory Learning-Aided Community Detection in Networks with Unknown Topology. (arXiv:2304.04497v2 [cs.SI] UPDATED)
 
-    [http://arxiv.org/abs/2306.00936](http://arxiv.org/abs/2306.00936)
+    [http://arxiv.org/abs/2304.04497](http://arxiv.org/abs/2304.04497)
 
-    该论文提出了一种从语义图中获取可解释和鲁棒的NLI度量方法，与使用上下文嵌入的方法相比具有补充性，可以在混合模型中结合使用。
-
-    
-
-    自然语言推理（NLI）任务要求判断给定的前提（用自然语言表达）是否蕴含给定的假设。NLI基准包含了蕴含性的人工评分，但是驱动这些评分的意义关系并未形式化。是否可以以一种可解释且鲁棒的方式更明确地表示句子对之间的关系？我们比较了表示前提和假设的语义结构，包括一组上下文化嵌入和语义图（抽象意义表示），并使用可解释的度量方法来衡量假设是否是前提的语义子结构。在三个英语基准测试中的评估发现，上下文化嵌入和语义图都有其价值；而且它们提供了互补的信号，并可以在混合模型中一起利用。
-
-    The task of natural language inference (NLI) asks whether a given premise (expressed in NL) entails a given NL hypothesis. NLI benchmarks contain human ratings of entailment, but the meaning relationships driving these ratings are not formalized. Can the underlying sentence pair relationships be made more explicit in an interpretable yet robust fashion? We compare semantic structures to represent premise and hypothesis, including sets of contextualized embeddings and semantic graphs (Abstract Meaning Representations), and measure whether the hypothesis is a semantic substructure of the premise, utilizing interpretable metrics. Our evaluation on three English benchmarks finds value in both contextualized embeddings and semantic graphs; moreover, they provide complementary signals, and can be leveraged together in a hybrid model.
-    
-[^10]: 迭代学习具有规则间相关性的未知实体表示
-
-    Iteratively Learning Representations for Unseen Entities with Inter-Rule Correlations. (arXiv:2305.10531v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.10531](http://arxiv.org/abs/2305.10531)
-
-    本文提出了一种虚拟邻居网络(VNC)，用于解决知识图谱完成中未知实体表示的问题。该方法通过规则挖掘、规则推理和嵌入三个阶段，实现对规则间相关性进行建模。
+    META-CODE是一个统一的框架，通过探索学习和易于收集的节点元数据，在未知拓扑网络中检测重叠社区。实验结果证明了META-CODE的有效性和可扩展性。
 
     
 
-    知识图谱完成(KGC)的最新研究侧重于学习知识图谱中实体和关系的嵌入。这些嵌入方法要求所有测试实体在训练时被观察到，导致对超出知识图谱（OOKG）实体的耗时重新训练过程。为解决此问题，当前归纳知识嵌入方法采用图神经网络(GNN)通过聚合已知邻居的信息来表示未知实体。他们面临三个重要挑战:i)数据稀疏性，ii)知识图谱中存在复杂模式(如规则间相关性)，iii)规则挖掘、规则推理和嵌入之间存在交互。在本文中，我们提出了一个包含三个阶段的具有规则间相关性的虚拟邻居网络(VNC):i)规则挖掘，ii)规则推理，和iii)嵌入。
+    在社交网络中，发现社区结构作为各种网络分析任务中的一个基本问题受到了广泛关注。然而，由于隐私问题或访问限制，网络结构通常是未知的，这使得现有的社区检测方法在没有昂贵的网络拓扑获取的情况下无效。为了解决这个挑战，我们提出了 META-CODE，这是一个统一的框架，通过探索学习辅助易于收集的节点元数据，在未知拓扑网络中检测重叠社区。具体而言，META-CODE 除了初始的网络推理步骤外，还包括三个迭代步骤：1) 基于图神经网络（GNNs）的节点级社区归属嵌入，通过我们的新重构损失进行训练，2) 基于社区归属的节点查询进行网络探索，3) 使用探索网络中的基于边连接的连体神经网络模型进行网络推理。通过实验结果证明了 META-CODE 的有效性和可扩展性。
 
-    Recent work on knowledge graph completion (KGC) focused on learning embeddings of entities and relations in knowledge graphs. These embedding methods require that all test entities are observed at training time, resulting in a time-consuming retraining process for out-of-knowledge-graph (OOKG) entities. To address this issue, current inductive knowledge embedding methods employ graph neural networks (GNNs) to represent unseen entities by aggregating information of known neighbors. They face three important challenges: (i) data sparsity, (ii) the presence of complex patterns in knowledge graphs (e.g., inter-rule correlations), and (iii) the presence of interactions among rule mining, rule inference, and embedding. In this paper, we propose a virtual neighbor network with inter-rule correlations (VNC) that consists of three stages: (i) rule mining, (ii) rule inference, and (iii) embedding. In the rule mining process, to identify complex patterns in knowledge graphs, both logic rules and 
-    
-[^11]: 带有截断意识注意力的动态嵌入学习模型用于CTR预测
-
-    DELTA: Dynamic Embedding Learning with Truncated Conscious Attention for CTR Prediction. (arXiv:2305.04891v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2305.04891](http://arxiv.org/abs/2305.04891)
-
-    该论文提出了一种名为DELTA的CTR模型，使用截断意识注意力进行动态嵌入学习，有效地解决了上下文中无效和冗余特征的问题。
-
-    
-
-    点击率（CTR）预测是产品和内容推荐中关键的任务，学习有效的特征嵌入具有重要意义。传统方法通常学习固定的特征表示，而缺乏根据上下文信息动态调整特征表示的机制，导致性能不佳。一些近期的方法尝试通过学习位权重或增强嵌入来解决这个问题，但是受到上下文中无信息或冗余特征的影响。为了解决这个问题，我们借鉴了意识加工中全局工作区理论，该理论认为只有特定的产品特征与点击行为相关，其余特征可能会噪音干扰，甚至有害，因此提出了一种带有截断意识注意力的动态嵌入学习模型DELTA进行CTR预测。
-
-    Click-Through Rate (CTR) prediction is a pivotal task in product and content recommendation, where learning effective feature embeddings is of great significance. However, traditional methods typically learn fixed feature representations without dynamically refining feature representations according to the context information, leading to suboptimal performance. Some recent approaches attempt to address this issue by learning bit-wise weights or augmented embeddings for feature representations, but suffer from uninformative or redundant features in the context. To tackle this problem, inspired by the Global Workspace Theory in conscious processing, which posits that only a specific subset of the product features are pertinent while the rest can be noisy and even detrimental to human-click behaviors, we propose a CTR model that enables Dynamic Embedding Learning with Truncated Conscious Attention for CTR prediction, termed DELTA. DELTA contains two key components: (I) conscious truncatio
-    
-[^12]: MemoNet: 通过多哈希码本网络高效地记忆所有交叉特征表示以实现CTR预测
-
-    MemoNet: Memorizing All Cross Features' Representations Efficiently via Multi-Hash Codebook Network for CTR Prediction. (arXiv:2211.01334v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2211.01334](http://arxiv.org/abs/2211.01334)
-
-    本文提出了一种名为MemoNet的CTR模型，通过引入多哈希码本网络（HCNet）作为记忆机制，高效地学习和记忆交叉特征的表示。实验结果表明MemoNet在性能上优于最先进的方法，并且展现出NLP中的大型语言模型的扩展规律。
-
-    
-
-    自然语言处理（NLP）中的新发现表明，强大的记忆能力对大型语言模型（LLM）的成功起到了很大作用。这启发我们将独立的记忆机制引入CTR排名模型，以学习和记忆交叉特征的表示。本文提出了多哈希码本网络（HCNet）作为CTR任务中高效学习和记忆交叉特征表示的记忆机制。HCNet使用多哈希码本作为主要的记忆位置，并由多哈希寻址、记忆恢复和特征缩减三个阶段组成。我们还提出了一种名为MemoNet的新型CTR模型，将HCNet与DNN骨干网络相结合。广泛的实验结果在三个公共数据集和在线测试中表明，MemoNet在性能上优于最先进的方法。此外，MemoNet展现出NLP中的大型语言模型的扩展规律，这意味着我们可以扩大模型规模来提高性能。
-
-    New findings in natural language processing (NLP) demonstrate that the strong memorization capability contributes a lot to the success of Large Language Models (LLM). This inspires us to explicitly bring an independent memory mechanism into CTR ranking model to learn and memorize cross features' representations. In this paper, we propose multi-Hash Codebook NETwork (HCNet) as the memory mechanism for efficiently learning and memorizing representations of cross features in CTR tasks. HCNet uses a multi-hash codebook as the main memory place and the whole memory procedure consists of three phases: multi-hash addressing, memory restoring, and feature shrinking. We also propose a new CTR model named MemoNet which combines HCNet with a DNN backbone. Extensive experimental results on three public datasets and online test show that MemoNet reaches superior performance over state-of-the-art approaches. Besides, MemoNet shows scaling law of large language model in NLP, which means we can enlarg
-    
-[^13]: 通过交叉解耦网络（CDN）增强长尾商品推荐
-
-    Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN). (arXiv:2210.14309v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2210.14309](http://arxiv.org/abs/2210.14309)
-
-    本论文研究了长尾商品推荐中的偏差问题，并提出了一种交叉解耦网络（CDN）方法，能够在保持整体性能和减少训练和服务成本的条件下提高尾部商品的推荐效果。
-
-    
-
-    工业推荐系统通常遭受高度倾斜的长尾商品分布，其中少数商品获得大部分用户反馈。这种偏差对没有太多用户反馈的商品影响推荐质量。虽然学术界已经取得了许多研究进展，但在生产中部署这些方法非常困难，工业领域中改进的方法很少。本文旨在提高尾部商品的推荐效果，同时减少培训和服务成本。我们首先发现长尾分布下用户偏好的预测具有偏差。该偏见来自于两个方面在训练和服务数据之间的差异：1）物品分布以及2）给定物品的用户偏好。大多数现有方法主要尝试减轻偏差，但鲜有同时保持整体性能和降低成本的工作。
-
-    Industry recommender systems usually suffer from highly-skewed long-tail item distributions where a small fraction of the items receives most of the user feedback. This skew hurts recommender quality especially for the item slices without much user feedback. While there have been many research advances made in academia, deploying these methods in production is very difficult and very few improvements have been made in industry. One challenge is that these methods often hurt overall performance; additionally, they could be complex and expensive to train and serve. In this work, we aim to improve tail item recommendations while maintaining the overall performance with less training and serving cost. We first find that the predictions of user preferences are biased under long-tail distributions. The bias comes from the differences between training and serving data in two perspectives: 1) the item distributions, and 2) user's preference given an item. Most existing methods mainly attempt t
-    
-[^14]: 推荐系统中用于排名蒸馏的双重修正策略
-
-    Dual Correction Strategy for Ranking Distillation in Top-N Recommender System. (arXiv:2109.03459v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2109.03459](http://arxiv.org/abs/2109.03459)
-
-    本文提出了一种双重修正策略（DCD），用于在推荐系统中更有效地将教师模型的排名信息转移到学生模型。这种方法不仅充分利用了学生模型的预测误差，还提供了更全面的视角，解决了松弛排名蒸馏方法的限制。
-
-    
-
-    知识蒸馏是将训练充分的大模型（教师）的知识转移到小模型（学生）的重要研究领域，对于推荐系统的实际部署而言，它已成为一个重要的研究方向。最近，松弛排名蒸馏（RRD）表明，在推荐列表中蒸馏排名信息能够显著提高性能。然而，该方法仍然存在以下限制：1）它未充分利用学生模型的预测误差，使得训练效率不高；2）它只蒸馏用户侧的排名信息，在稀疏的隐式反馈下提供的视角不足。本文提出了一种更高效的蒸馏方法，即双重修正策略（DCD），通过教师模型和学生模型预测之间的差异来决定要蒸馏的知识。
-
-    Knowledge Distillation (KD), which transfers the knowledge of a well-trained large model (teacher) to a small model (student), has become an important area of research for practical deployment of recommender systems. Recently, Relaxed Ranking Distillation (RRD) has shown that distilling the ranking information in the recommendation list significantly improves the performance. However, the method still has limitations in that 1) it does not fully utilize the prediction errors of the student model, which makes the training not fully efficient, and 2) it only distills the user-side ranking information, which provides an insufficient view under the sparse implicit feedback. This paper presents Dual Correction strategy for Distillation (DCD), which transfers the ranking information from the teacher model to the student model in a more efficient manner. Most importantly, DCD uses the discrepancy between the teacher model and the student model predictions to decide which knowledge to be disti
+    In social networks, the discovery of community structures has received considerable attention as a fundamental problem in various network analysis tasks. However, due to privacy concerns or access restrictions, the network structure is often unknown, thereby rendering established community detection approaches ineffective without costly network topology acquisition. To tackle this challenge, we present META-CODE, a unified framework for detecting overlapping communities in networks with unknown topology via exploratory learning aided by easy-to-collect node metadata. Specifically, META-CODE consists of three iterative steps in addition to the initial network inference step: 1) node-level community-affiliation embeddings based on graph neural networks (GNNs) trained by our new reconstruction loss, 2) network exploration via community-affiliation-based node queries, and 3) network inference using an edge connectivity-based Siamese neural network model from the explored network. Through e
     
 

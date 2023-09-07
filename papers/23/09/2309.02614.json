@@ -1,0 +1,12 @@
+{
+    "title": "Utilizing Generative Adversarial Networks for Stable Structure Generation in Angry Birds. (arXiv:2309.02614v1 [cs.LG])",
+    "abstract": "This paper investigates the suitability of using Generative Adversarial Networks (GANs) to generate stable structures for the physics-based puzzle game Angry Birds. While previous applications of GANs for level generation have been mostly limited to tile-based representations, this paper explores their suitability for creating stable structures made from multiple smaller blocks. This includes a detailed encoding/decoding process for converting between Angry Birds level descriptions and a suitable grid-based representation, as well as utilizing state-of-the-art GAN architectures and training methods to produce new structure designs. Our results show that GANs can be successfully applied to generate a varied range of complex and stable Angry Birds structures.",
+    "link": "http://arxiv.org/abs/2309.02614",
+    "context": "Title: Utilizing Generative Adversarial Networks for Stable Structure Generation in Angry Birds. (arXiv:2309.02614v1 [cs.LG])\nAbstract: This paper investigates the suitability of using Generative Adversarial Networks (GANs) to generate stable structures for the physics-based puzzle game Angry Birds. While previous applications of GANs for level generation have been mostly limited to tile-based representations, this paper explores their suitability for creating stable structures made from multiple smaller blocks. This includes a detailed encoding/decoding process for converting between Angry Birds level descriptions and a suitable grid-based representation, as well as utilizing state-of-the-art GAN architectures and training methods to produce new structure designs. Our results show that GANs can be successfully applied to generate a varied range of complex and stable Angry Birds structures.",
+    "path": "papers/23/09/2309.02614.json",
+    "total_tokens": 756,
+    "translated_title": "利用生成对抗网络为愤怒的小鸟生成稳定的结构",
+    "translated_abstract": "本文研究了使用生成对抗网络（GANs）生成物理基础拼图游戏愤怒的小鸟中稳定结构的适用性。尽管先前对于关卡生成的GANs应用主要局限于基于瓦片的表示，本文探讨了它们在创建由多个较小块组成的稳定结构方面的适用性。这包括了详细的编码/解码过程，将愤怒的小鸟关卡描述转换为适合的基于网格的表示，以及利用最先进的GAN架构和训练方法来生成新的结构设计。结果表明，GANs成功应用于生成各种复杂且稳定的愤怒的小鸟结构。",
+    "tldr": "本文研究了使用生成对抗网络（GANs）为愤怒的小鸟生成复杂且稳定的结构。实验结果表明GANs可以成功应用于生成多样化的愤怒的小鸟结构。",
+    "en_tdlr": "This paper investigates the use of Generative Adversarial Networks (GANs) for generating complex and stable structures in Angry Birds, and shows that GANs can successfully generate diverse Angry Birds structures."
+}

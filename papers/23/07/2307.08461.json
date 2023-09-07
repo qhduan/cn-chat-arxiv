@@ -1,0 +1,11 @@
+{
+    "title": "Towards eXplainable AI for Mobility Data Science. (arXiv:2307.08461v2 [cs.AI] UPDATED)",
+    "abstract": "This paper presents our ongoing work towards XAI for Mobility Data Science applications, focusing on explainable models that can learn from dense trajectory data, such as GPS tracks of vehicles and vessels using temporal graph neural networks (GNNs) and counterfactuals. We review the existing GeoXAI studies, argue the need for comprehensible explanations with human-centered approaches, and outline a research path toward XAI for Mobility Data Science.",
+    "link": "http://arxiv.org/abs/2307.08461",
+    "context": "Title: Towards eXplainable AI for Mobility Data Science. (arXiv:2307.08461v2 [cs.AI] UPDATED)\nAbstract: This paper presents our ongoing work towards XAI for Mobility Data Science applications, focusing on explainable models that can learn from dense trajectory data, such as GPS tracks of vehicles and vessels using temporal graph neural networks (GNNs) and counterfactuals. We review the existing GeoXAI studies, argue the need for comprehensible explanations with human-centered approaches, and outline a research path toward XAI for Mobility Data Science.",
+    "path": "papers/23/07/2307.08461.json",
+    "total_tokens": 631,
+    "translated_title": "朝着可解释的AI在移动数据科学中的应用",
+    "translated_abstract": "本文介绍了我们正在进行的关于可解释AI在移动数据科学应用中的工作，重点是能够从密集轨迹数据（如车辆和船只的GPS轨迹）中学习的可解释模型，使用时间图神经网络（GNN）和反事实。我们回顾了现有的GeoXAI研究，提出了以人为中心的可理解解释的需求，并勾画出了朝着可解释的AI在移动数据科学中的研究路径。",
+    "tldr": "本文介绍了朝着可解释的AI在移动数据科学中的应用的工作，包括可解释模型的设计和使用时间图神经网络和反事实来学习从密集轨迹数据中提取信息的方法。"
+}

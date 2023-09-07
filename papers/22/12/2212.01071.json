@@ -1,0 +1,12 @@
+{
+    "title": "Fake detection in imbalance dataset by Semi-supervised learning with GAN. (arXiv:2212.01071v2 [cs.LG] UPDATED)",
+    "abstract": "As social media grows faster, harassment becomes more prevalent which leads to considered fake detection a fascinating field among researchers. The graph nature of data with the large number of nodes caused different obstacles including a considerable amount of unrelated features in matrices as high dispersion and imbalance classes in the dataset. To deal with these issues Auto-encoders and a combination of semi-supervised learning and the GAN algorithm which is called SGAN were used. This paper is deploying a smaller number of labels and applying SGAN as a classifier. The result of this test showed that the accuracy had reached 91\\% in detecting fake accounts using only 100 labeled samples.",
+    "link": "http://arxiv.org/abs/2212.01071",
+    "context": "Title: Fake detection in imbalance dataset by Semi-supervised learning with GAN. (arXiv:2212.01071v2 [cs.LG] UPDATED)\nAbstract: As social media grows faster, harassment becomes more prevalent which leads to considered fake detection a fascinating field among researchers. The graph nature of data with the large number of nodes caused different obstacles including a considerable amount of unrelated features in matrices as high dispersion and imbalance classes in the dataset. To deal with these issues Auto-encoders and a combination of semi-supervised learning and the GAN algorithm which is called SGAN were used. This paper is deploying a smaller number of labels and applying SGAN as a classifier. The result of this test showed that the accuracy had reached 91\\% in detecting fake accounts using only 100 labeled samples.",
+    "path": "papers/22/12/2212.01071.json",
+    "total_tokens": 765,
+    "translated_title": "通过半监督学习和生成对抗网络在不平衡数据集中进行虚假检测",
+    "translated_abstract": "随着社交媒体的快速发展，骚扰行为变得更加普遍，这导致了虚假检测成为研究人员中引人注目的领域。数据的图形特性以及大量节点导致了许多障碍，包括矩阵中大量无关特征的高离散度和不平衡类别。为了解决这些问题，本文采用了自编码器和半监督学习与生成对抗网络算法的组合，即SGAN。本文将少量标签应用于SGAN作为分类器。实验结果表明，仅使用100个标记样本，该方法在检测虚假账户方面的准确率达到了91\\%。",
+    "tldr": "本文提出了一种在不平衡数据集中使用半监督学习和生成对抗网络进行虚假检测的方法，实验证明仅使用100个标记样本的情况下，准确率达到了91\\%。",
+    "en_tdlr": "This paper proposes a method for detecting fake accounts in an imbalanced dataset using semi-supervised learning and generative adversarial network. The experimental results show that the accuracy can reach 91\\% with only 100 labeled samples."
+}

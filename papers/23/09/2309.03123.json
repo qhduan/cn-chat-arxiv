@@ -1,0 +1,11 @@
+{
+    "title": "A Topological Proof of The Gibbard-Satterthwaite Theorem. (arXiv:2309.03123v1 [econ.TH])",
+    "abstract": "We give a new proof of the Gibbard-Satterthwaite Theorem. We construct two topological spaces: one for the space of preference profiles and another for the space of outcomes. We show that social choice functions induce continuous mappings between the two spaces. By studying the properties of this mapping, we prove the theorem.",
+    "link": "http://arxiv.org/abs/2309.03123",
+    "context": "Title: A Topological Proof of The Gibbard-Satterthwaite Theorem. (arXiv:2309.03123v1 [econ.TH])\nAbstract: We give a new proof of the Gibbard-Satterthwaite Theorem. We construct two topological spaces: one for the space of preference profiles and another for the space of outcomes. We show that social choice functions induce continuous mappings between the two spaces. By studying the properties of this mapping, we prove the theorem.",
+    "path": "papers/23/09/2309.03123.json",
+    "total_tokens": 531,
+    "translated_title": "Gibbard-Satterthwaite定理的拓扑证明",
+    "translated_abstract": "我们给出了Gibbard-Satterthwaite定理的一个新证明。我们构建了两个拓扑空间：一个用于偏好配置空间，另一个用于结果空间。我们证明了社会选择函数在这两个空间之间诱导出连续映射。通过研究这个映射的性质，我们证明了该定理。",
+    "tldr": "社会选择函数在偏好配置空间和结果空间之间诱导出连续映射，并基于此证明了Gibbard-Satterthwaite定理。"
+}

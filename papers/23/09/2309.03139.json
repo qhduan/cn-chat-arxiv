@@ -1,0 +1,12 @@
+{
+    "title": "Using Multiple Vector Channels Improves E(n)-Equivariant Graph Neural Networks. (arXiv:2309.03139v1 [cs.LG])",
+    "abstract": "We present a natural extension to E(n)-equivariant graph neural networks that uses multiple equivariant vectors per node. We formulate the extension and show that it improves performance across different physical systems benchmark tasks, with minimal differences in runtime or number of parameters. The proposed multichannel EGNN outperforms the standard singlechannel EGNN on N-body charged particle dynamics, molecular property predictions, and predicting the trajectories of solar system bodies. Given the additional benefits and minimal additional cost of multi-channel EGNN, we suggest that this extension may be of practical use to researchers working in machine learning for the physical sciences",
+    "link": "http://arxiv.org/abs/2309.03139",
+    "context": "Title: Using Multiple Vector Channels Improves E(n)-Equivariant Graph Neural Networks. (arXiv:2309.03139v1 [cs.LG])\nAbstract: We present a natural extension to E(n)-equivariant graph neural networks that uses multiple equivariant vectors per node. We formulate the extension and show that it improves performance across different physical systems benchmark tasks, with minimal differences in runtime or number of parameters. The proposed multichannel EGNN outperforms the standard singlechannel EGNN on N-body charged particle dynamics, molecular property predictions, and predicting the trajectories of solar system bodies. Given the additional benefits and minimal additional cost of multi-channel EGNN, we suggest that this extension may be of practical use to researchers working in machine learning for the physical sciences",
+    "path": "papers/23/09/2309.03139.json",
+    "total_tokens": 755,
+    "translated_title": "使用多个向量通道改善E(n)-等变图神经网络",
+    "translated_abstract": "我们提出了一种对E(n)-等变图神经网络的自然扩展，使用每个节点的多个等变向量。我们制定了这个扩展，并显示它在不同物理系统基准任务上提高了性能，同时在运行时间或参数数量方面几乎没有差异。提出的多通道EGNN在N体带电粒子动力学、分子性质预测和预测太阳系天体轨迹方面优于标准的单通道EGNN。鉴于多通道EGNN的额外优势和最小的附加成本，我们认为这个扩展可能对从事物理科学机器学习的研究人员有实际用途。",
+    "tldr": "本文提出了一种对E(n)-等变图神经网络的自然扩展，使用每个节点的多个等变向量。多通道EGNN在多个物理系统任务上的性能优于标准的单通道EGNN，而且几乎没有额外的运行时间或参数数量的差异。",
+    "en_tdlr": "This paper presents a natural extension to E(n)-equivariant graph neural networks by using multiple equivariant vectors per node. The proposed multichannel EGNN outperforms the standard singlechannel EGNN across different physical systems tasks, with minimal differences in runtime or number of parameters."
+}

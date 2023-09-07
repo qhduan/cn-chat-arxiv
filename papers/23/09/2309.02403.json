@@ -1,0 +1,11 @@
+{
+    "title": "Substitution-based Semantic Change Detection using Contextual Embeddings. (arXiv:2309.02403v2 [cs.CL] UPDATED)",
+    "abstract": "Measuring semantic change has thus far remained a task where methods using contextual embeddings have struggled to improve upon simpler techniques relying only on static word vectors. Moreover, many of the previously proposed approaches suffer from downsides related to scalability and ease of interpretation. We present a simplified approach to measuring semantic change using contextual embeddings, relying only on the most probable substitutes for masked terms. Not only is this approach directly interpretable, it is also far more efficient in terms of storage, achieves superior average performance across the most frequently cited datasets for this task, and allows for more nuanced investigation of change than is possible with static word vectors.",
+    "link": "http://arxiv.org/abs/2309.02403",
+    "context": "Title: Substitution-based Semantic Change Detection using Contextual Embeddings. (arXiv:2309.02403v2 [cs.CL] UPDATED)\nAbstract: Measuring semantic change has thus far remained a task where methods using contextual embeddings have struggled to improve upon simpler techniques relying only on static word vectors. Moreover, many of the previously proposed approaches suffer from downsides related to scalability and ease of interpretation. We present a simplified approach to measuring semantic change using contextual embeddings, relying only on the most probable substitutes for masked terms. Not only is this approach directly interpretable, it is also far more efficient in terms of storage, achieves superior average performance across the most frequently cited datasets for this task, and allows for more nuanced investigation of change than is possible with static word vectors.",
+    "path": "papers/23/09/2309.02403.json",
+    "total_tokens": 724,
+    "translated_title": "基于上下文嵌入的替代词语义变化检测",
+    "translated_abstract": "迄今为止，使用上下文嵌入的方法在测量语义变化方面一直难以改进比简单的仅依赖于静态词向量的技术。此外，之前提出的许多方法在可扩展性和解释性方面存在问题。我们提出了一种简化的方法，利用上下文嵌入测量语义变化，仅依赖于对掩码词最可能的替代词。这种方法不仅直接解释，而且在存储方面更为高效，在最常引用的数据集中表现优越，在变化解释方面比静态词向量更为细致。",
+    "tldr": "使用基于上下文嵌入的替代词来测量语义变化，不仅直观易懂，而且存储效率更高，在一些数据集中表现更好，并且能够进行更细致的变化分析。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning for Polycystic Kidney Disease: Utilizing Neural Networks for Accurate and Early Detection through Gene Expression Analysis. (arXiv:2309.03033v1 [cs.LG])",
+    "abstract": "With Polycystic Kidney Disease (PKD) potentially leading to fatal complications in patients due to the formation of cysts in the kidneys, early detection of PKD is crucial for effective management of the condition. However, the various patient-specific factors that play a role in the diagnosis make it an intricate puzzle for clinicians to solve. Therefore, in this study, we aim to utilize a deep learning-based approach for early disease detection. The devised neural network can achieve accurate and robust predictions for possible PKD in patients by analyzing patient gene expressions.",
+    "link": "http://arxiv.org/abs/2309.03033",
+    "context": "Title: Deep Learning for Polycystic Kidney Disease: Utilizing Neural Networks for Accurate and Early Detection through Gene Expression Analysis. (arXiv:2309.03033v1 [cs.LG])\nAbstract: With Polycystic Kidney Disease (PKD) potentially leading to fatal complications in patients due to the formation of cysts in the kidneys, early detection of PKD is crucial for effective management of the condition. However, the various patient-specific factors that play a role in the diagnosis make it an intricate puzzle for clinicians to solve. Therefore, in this study, we aim to utilize a deep learning-based approach for early disease detection. The devised neural network can achieve accurate and robust predictions for possible PKD in patients by analyzing patient gene expressions.",
+    "path": "papers/23/09/2309.03033.json",
+    "total_tokens": 721,
+    "translated_title": "深度学习在多囊肾病中的应用: 通过基因表达分析实现对患者的准确和早期检测",
+    "translated_abstract": "多囊肾病（PKD）可能导致患者肾脏中囊肿的形成，进而导致致命的并发症，因此早期检测PKD对于有效管理该病情至关重要。然而，诊断中涉及的各种患者特定因素使其对临床医生来说是一个复杂的难题。因此，在本研究中，我们旨在利用基于深度学习的方法来进行早期疾病检测。通过分析患者的基因表达，设计的神经网络可以对患者可能的PKD进行准确且可靠的预测。",
+    "tldr": "本研究利用深度学习方法通过基因表达分析实现对患者多囊肾病（PKD）的准确和早期检测。",
+    "en_tdlr": "This study utilizes a deep learning-based approach to achieve accurate and early detection of polycystic kidney disease (PKD) in patients through gene expression analysis."
+}

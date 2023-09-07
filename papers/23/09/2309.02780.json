@@ -1,0 +1,12 @@
+{
+    "title": "GRASS: Unified Generation Model for Speech Semantic Understanding. (arXiv:2309.02780v1 [cs.CL])",
+    "abstract": "This paper explores the instruction fine-tuning technique for speech semantic understanding by introducing a unified end-to-end (E2E) framework that generates semantic labels conditioned on a task-related prompt for audio data. We pre-train the model using large and diverse data, where instruction-speech pairs are constructed via a text-to-speech (TTS) system. Extensive experiments demonstrate that our proposed model significantly outperforms state-of-the-art (SOTA) models after fine-tuning downstream tasks. Furthermore, the proposed model achieves competitive performance in zero-shot and few-shot scenarios. To facilitate future work on instruction fine-tuning for speech-to-semantic tasks, we release our instruction dataset and code.",
+    "link": "http://arxiv.org/abs/2309.02780",
+    "context": "Title: GRASS: Unified Generation Model for Speech Semantic Understanding. (arXiv:2309.02780v1 [cs.CL])\nAbstract: This paper explores the instruction fine-tuning technique for speech semantic understanding by introducing a unified end-to-end (E2E) framework that generates semantic labels conditioned on a task-related prompt for audio data. We pre-train the model using large and diverse data, where instruction-speech pairs are constructed via a text-to-speech (TTS) system. Extensive experiments demonstrate that our proposed model significantly outperforms state-of-the-art (SOTA) models after fine-tuning downstream tasks. Furthermore, the proposed model achieves competitive performance in zero-shot and few-shot scenarios. To facilitate future work on instruction fine-tuning for speech-to-semantic tasks, we release our instruction dataset and code.",
+    "path": "papers/23/09/2309.02780.json",
+    "total_tokens": 749,
+    "translated_title": "GRASS: 语音语义理解统一生成模型",
+    "translated_abstract": "本文通过引入一个统一的端到端框架，探索了语音语义理解的指令微调技术，该框架根据与任务相关的提示为音频数据生成语义标签。我们使用大量多样的数据进行预训练，其中指令-语音对是通过文本转语音系统构建的。大量实验证明，我们提出的模型在微调下游任务后明显优于最先进的模型。此外，所提出的模型在零样本和少样本场景中实现了竞争性的性能。为了促进未来在语音到语义任务的指令微调方面的研究，我们发布了我们的指令数据集和代码。",
+    "tldr": "本文介绍了一个统一的端到端框架，通过指令微调技术实现了语音语义理解任务。实验证明该模型在微调下游任务后明显优于最先进的模型，并在零样本和少样本场景中取得了竞争性的性能。",
+    "en_tdlr": "This paper presents a unified end-to-end framework for speech semantic understanding, achieving better performance than state-of-the-art models in downstream tasks after fine-tuning. The proposed model also performs competitively in zero-shot and few-shot scenarios."
+}

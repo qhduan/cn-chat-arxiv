@@ -1,0 +1,12 @@
+{
+    "title": "jsdp: a Java Stochastic Dynamic Programming Library. (arXiv:2209.09979v2 [cs.AI] UPDATED)",
+    "abstract": "Stochastic Programming is a framework for modelling and solving problems of decision making under uncertainty. Stochastic Dynamic Programming is a branch of Stochastic Programming that takes a \"functional equation\" approach to the discovery of optimal policies. By leveraging constructs - lambda expressions, functional interfaces, collections and aggregate operators - implemented in Java to operationalise the MapReduce framework, jsdp provides a general purpose library for modelling and solving Stochastic Dynamic Programs.",
+    "link": "http://arxiv.org/abs/2209.09979",
+    "context": "Title: jsdp: a Java Stochastic Dynamic Programming Library. (arXiv:2209.09979v2 [cs.AI] UPDATED)\nAbstract: Stochastic Programming is a framework for modelling and solving problems of decision making under uncertainty. Stochastic Dynamic Programming is a branch of Stochastic Programming that takes a \"functional equation\" approach to the discovery of optimal policies. By leveraging constructs - lambda expressions, functional interfaces, collections and aggregate operators - implemented in Java to operationalise the MapReduce framework, jsdp provides a general purpose library for modelling and solving Stochastic Dynamic Programs.",
+    "path": "papers/22/09/2209.09979.json",
+    "total_tokens": 585,
+    "translated_title": "jsdp: 一个Java随机动态规划库。",
+    "translated_abstract": "随机规划是一种用于建模和解决不确定性决策问题的框架。随机动态规划是随机规划的一个分支，采用“函数方程”方法来发现最优策略。通过利用Java中实现的lambda表达式、函数接口、集合和聚合运算符来操作MapReduce框架，jsdp提供了一个通用的库，用于建模和解决随机动态规划问题。",
+    "tldr": "jsdp是一个Java库，通过利用Java中的lambda表达式、函数接口、集合和聚合运算符，实现了对随机动态规划问题的建模和求解。",
+    "en_tdlr": "jsdp is a Java library that provides a general purpose solution for modeling and solving Stochastic Dynamic Programming problems, leveraging lambda expressions, functional interfaces, collections, and aggregate operators in Java."
+}

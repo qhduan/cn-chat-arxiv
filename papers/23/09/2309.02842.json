@@ -1,0 +1,11 @@
+{
+    "title": "Random postprocessing for combinatorial Bayesian optimization. (arXiv:2309.02842v1 [cs.LG])",
+    "abstract": "Model-based sequential approaches to discrete \"black-box\" optimization, including Bayesian optimization techniques, often access the same points multiple times for a given objective function in interest, resulting in many steps to find the global optimum. Here, we numerically study the effect of a postprocessing method on Bayesian optimization that strictly prohibits duplicated samples in the dataset. We find the postprocessing method significantly reduces the number of sequential steps to find the global optimum, especially when the acquisition function is of maximum a posterior estimation. Our results provide a simple but general strategy to solve the slow convergence of Bayesian optimization for high-dimensional problems.",
+    "link": "http://arxiv.org/abs/2309.02842",
+    "context": "Title: Random postprocessing for combinatorial Bayesian optimization. (arXiv:2309.02842v1 [cs.LG])\nAbstract: Model-based sequential approaches to discrete \"black-box\" optimization, including Bayesian optimization techniques, often access the same points multiple times for a given objective function in interest, resulting in many steps to find the global optimum. Here, we numerically study the effect of a postprocessing method on Bayesian optimization that strictly prohibits duplicated samples in the dataset. We find the postprocessing method significantly reduces the number of sequential steps to find the global optimum, especially when the acquisition function is of maximum a posterior estimation. Our results provide a simple but general strategy to solve the slow convergence of Bayesian optimization for high-dimensional problems.",
+    "path": "papers/23/09/2309.02842.json",
+    "total_tokens": 824,
+    "translated_title": "针对组合贝叶斯优化的随机后处理方法",
+    "translated_abstract": "基于模型的顺序方法用于离散的“黑盒”优化问题，包括贝叶斯优化技术，通常会对给定的目标函数访问多次相同的点，导致需要很多步骤才能找到全局最优解。在这里，我们对贝叶斯优化中的一种后处理方法进行了数值研究，该方法严格禁止数据集中的重复样本。我们发现后处理方法显著减少了找到全局最优解所需的顺序步骤数，特别是当采样函数是最大后验估计时。我们的结果为解决高维问题中贝叶斯优化的收敛速度慢提供了一种简单但通用的策略。",
+    "tldr": "针对组合贝叶斯优化，我们研究了一种随机后处理方法，严格禁止数据集中的重复样本，结果表明此方法显著减少了顺序步骤数，特别是在最大后验估计的情况下，为解决高维问题中贝叶斯优化的收敛速度慢提供了一种简单但通用的策略。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Rubric-Specific Approach to Automated Essay Scoring with Augmentation Training. (arXiv:2309.02740v1 [cs.CL])",
+    "abstract": "Neural based approaches to automatic evaluation of subjective responses have shown superior performance and efficiency compared to traditional rule-based and feature engineering oriented solutions. However, it remains unclear whether the suggested neural solutions are sufficient replacements of human raters as we find recent works do not properly account for rubric items that are essential for automated essay scoring during model training and validation. In this paper, we propose a series of data augmentation operations that train and test an automated scoring model to learn features and functions overlooked by previous works while still achieving state-of-the-art performance in the Automated Student Assessment Prize dataset.",
+    "link": "http://arxiv.org/abs/2309.02740",
+    "context": "Title: Rubric-Specific Approach to Automated Essay Scoring with Augmentation Training. (arXiv:2309.02740v1 [cs.CL])\nAbstract: Neural based approaches to automatic evaluation of subjective responses have shown superior performance and efficiency compared to traditional rule-based and feature engineering oriented solutions. However, it remains unclear whether the suggested neural solutions are sufficient replacements of human raters as we find recent works do not properly account for rubric items that are essential for automated essay scoring during model training and validation. In this paper, we propose a series of data augmentation operations that train and test an automated scoring model to learn features and functions overlooked by previous works while still achieving state-of-the-art performance in the Automated Student Assessment Prize dataset.",
+    "path": "papers/23/09/2309.02740.json",
+    "total_tokens": 692,
+    "translated_title": "用细分标准特定方法进行增强培训的自动化作文评分",
+    "translated_abstract": "相比于传统的基于规则和特征工程的解决方案，基于神经网络的主观答案自动评估方法表现出更优异的性能和效率。然而，最近的研究并没有妥善考虑到在模型训练和验证过程中对于自动化作文评分至关重要的细分标准。在本文中，我们提出了一系列数据增强操作，通过训练和测试一个自动评分模型，学习了之前研究中忽视的特征和功能，同时在自动化学生评估奖数据集中取得了最新的性能。",
+    "tldr": "本文提出一种用于自动评分的细分标准特定方法，通过增强培训和测试数据来学习之前研究中忽视的特征和功能，达到了最新性能。",
+    "en_tdlr": "This paper presents a rubric-specific approach to automated essay scoring, utilizing data augmentation to learn features and functions overlooked by previous research, achieving state-of-the-art performance."
+}
