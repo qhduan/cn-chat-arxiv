@@ -1,0 +1,11 @@
+{
+    "title": "How to select an objective function using information theory. (arXiv:2212.06566v2 [cs.LG] UPDATED)",
+    "abstract": "In machine learning or scientific computing, model performance is measured with an objective function. But why choose one objective over another? Information theory gives one answer: To maximize the information in the model, select the most likely objective function or whichever represents the error in the fewest bits. To evaluate different objectives, transform them into likelihood functions. As likelihoods, their relative magnitudes represent how much we should prefer one objective versus another, and the log of their magnitude represents the expected uncertainty of the model.",
+    "link": "http://arxiv.org/abs/2212.06566",
+    "context": "Title: How to select an objective function using information theory. (arXiv:2212.06566v2 [cs.LG] UPDATED)\nAbstract: In machine learning or scientific computing, model performance is measured with an objective function. But why choose one objective over another? Information theory gives one answer: To maximize the information in the model, select the most likely objective function or whichever represents the error in the fewest bits. To evaluate different objectives, transform them into likelihood functions. As likelihoods, their relative magnitudes represent how much we should prefer one objective versus another, and the log of their magnitude represents the expected uncertainty of the model.",
+    "path": "papers/22/12/2212.06566.json",
+    "total_tokens": 695,
+    "translated_title": "如何使用信息论选择客观函数",
+    "translated_abstract": "在机器学习或科学计算中，模型性能是通过客观函数衡量的。但是为什么要选择某个客观函数而不是另一个？信息论给出了一个答案：为了最大化模型中的信息量，选择最有可能的客观函数或者代表误差的比特最少的函数。要评估不同的客观函数，将它们转换为似然函数。作为似然函数，它们的相对大小表示我们应该更喜欢哪个客观函数，而其大小的对数表示模型的预期不确定性。",
+    "tldr": "信息论告诉我们，为了最大化模型的信息量，选择可能性最高或表示误差比特最少的客观函数。将不同的客观函数转换为似然函数，它们的相对大小表示我们应该更喜欢哪个客观函数，而其大小的对数表示模型的预期不确定性。"
+}

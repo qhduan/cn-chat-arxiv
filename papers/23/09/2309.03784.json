@@ -1,0 +1,12 @@
+{
+    "title": "On the minimal simplex economy. (arXiv:2309.03784v1 [econ.TH])",
+    "abstract": "In our previous paper we proved that every affine economy has a competitive equilibrium. In order to find a situation in which it is possible to compute it, we define a simplex economy as a variation with repetition of the number of commodities taking the number of consumers (representing the preferences), and a transition matrix (defining the initial endowments). We show that a competitive equilibrium can be intrinsically determined in any minimal simplex economy.",
+    "link": "http://arxiv.org/abs/2309.03784",
+    "context": "Title: On the minimal simplex economy. (arXiv:2309.03784v1 [econ.TH])\nAbstract: In our previous paper we proved that every affine economy has a competitive equilibrium. In order to find a situation in which it is possible to compute it, we define a simplex economy as a variation with repetition of the number of commodities taking the number of consumers (representing the preferences), and a transition matrix (defining the initial endowments). We show that a competitive equilibrium can be intrinsically determined in any minimal simplex economy.",
+    "path": "papers/23/09/2309.03784.json",
+    "total_tokens": 607,
+    "translated_title": "关于最小单纯经济的研究",
+    "translated_abstract": "在我们之前的论文中，我们证明了每个仿射经济都存在竞争均衡。为了找到能够计算竞争均衡的情况，我们定义了一个简单型经济，即对商品数量进行重复变化的情况，其中消费者的数量代表了偏好，而转换矩阵则定义了初始禀赋。我们展示了竞争均衡可以在任何最小单纯经济中内在确定。",
+    "tldr": "本论文研究了最小单纯经济，证明了每个仿射经济都存在竞争均衡，并且发现竞争均衡可以在任何最小单纯经济中内在确定。",
+    "en_tdlr": "This paper investigates the minimal simplex economy and proves that every affine economy has a competitive equilibrium. Furthermore, it shows that a competitive equilibrium can be intrinsically determined in any minimal simplex economy."
+}

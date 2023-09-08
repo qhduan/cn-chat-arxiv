@@ -1,0 +1,12 @@
+{
+    "title": "Chat Failures and Troubles: Reasons and Solutions. (arXiv:2309.03708v1 [cs.RO])",
+    "abstract": "This paper examines some common problems in Human-Robot Interaction (HRI) causing failures and troubles in Chat. A given use case's design decisions start with the suitable robot, the suitable chatting model, identifying common problems that cause failures, identifying potential solutions, and planning continuous improvement. In conclusion, it is recommended to use a closed-loop control algorithm that guides the use of trained Artificial Intelligence (AI) pre-trained models and provides vocabulary filtering, re-train batched models on new datasets, learn online from data streams, and/or use reinforcement learning models to self-update the trained models and reduce errors.",
+    "link": "http://arxiv.org/abs/2309.03708",
+    "context": "Title: Chat Failures and Troubles: Reasons and Solutions. (arXiv:2309.03708v1 [cs.RO])\nAbstract: This paper examines some common problems in Human-Robot Interaction (HRI) causing failures and troubles in Chat. A given use case's design decisions start with the suitable robot, the suitable chatting model, identifying common problems that cause failures, identifying potential solutions, and planning continuous improvement. In conclusion, it is recommended to use a closed-loop control algorithm that guides the use of trained Artificial Intelligence (AI) pre-trained models and provides vocabulary filtering, re-train batched models on new datasets, learn online from data streams, and/or use reinforcement learning models to self-update the trained models and reduce errors.",
+    "path": "papers/23/09/2309.03708.json",
+    "total_tokens": 687,
+    "translated_title": "聊天失败和问题：原因和解决方案",
+    "translated_abstract": "本文研究了人机交互中聊天导致失败和问题的一些常见问题。一个给定的用例的设计决策始于选择合适的机器人、合适的聊天模型，识别导致失败的常见问题，找出潜在的解决方案，并计划持续改进。总结起来，建议使用闭环控制算法来引导训练好的人工智能预训练模型的使用，并提供词汇过滤、对新数据集重新训练批次模型、在线学习数据流以及/或使用强化学习模型来自我更新训练模型以降低错误。",
+    "tldr": "本文研究了人机交互中聊天失败和问题的原因，提出了闭环控制算法和强化学习模型等解决方案以降低错误。",
+    "en_tdlr": "This paper examines the reasons for chat failures and troubles in Human-Robot Interaction (HRI) and proposes solutions such as closed-loop control algorithms and reinforcement learning models to reduce errors."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "DiffDefense: Defending against Adversarial Attacks via Diffusion Models. (arXiv:2309.03702v1 [cs.LG])",
+    "abstract": "This paper presents a novel reconstruction method that leverages Diffusion Models to protect machine learning classifiers against adversarial attacks, all without requiring any modifications to the classifiers themselves. The susceptibility of machine learning models to minor input perturbations renders them vulnerable to adversarial attacks. While diffusion-based methods are typically disregarded for adversarial defense due to their slow reverse process, this paper demonstrates that our proposed method offers robustness against adversarial threats while preserving clean accuracy, speed, and plug-and-play compatibility. Code at: https://github.com/HondamunigePrasannaSilva/DiffDefence.",
+    "link": "http://arxiv.org/abs/2309.03702",
+    "context": "Title: DiffDefense: Defending against Adversarial Attacks via Diffusion Models. (arXiv:2309.03702v1 [cs.LG])\nAbstract: This paper presents a novel reconstruction method that leverages Diffusion Models to protect machine learning classifiers against adversarial attacks, all without requiring any modifications to the classifiers themselves. The susceptibility of machine learning models to minor input perturbations renders them vulnerable to adversarial attacks. While diffusion-based methods are typically disregarded for adversarial defense due to their slow reverse process, this paper demonstrates that our proposed method offers robustness against adversarial threats while preserving clean accuracy, speed, and plug-and-play compatibility. Code at: https://github.com/HondamunigePrasannaSilva/DiffDefence.",
+    "path": "papers/23/09/2309.03702.json",
+    "total_tokens": 717,
+    "translated_title": "DiffDefense：通过扩散模型防御对抗攻击",
+    "translated_abstract": "本文提出了一种新颖的重建方法，利用扩散模型保护机器学习分类器免受对抗攻击的影响，而无需对分类器进行任何修改。机器学习模型对微小的输入扰动的敏感性使它们容易受到对抗攻击的威胁。尽管基于扩散的方法通常因其缓慢的反向过程而被忽视，但本文证明了我们提出的方法在防御对抗威胁的同时保持了干净的准确性、速度和即插即用的兼容性。",
+    "tldr": "本文提出了一种新的重构方法，利用扩散模型保护机器学习分类器免受对抗攻击的影响。该方法在保持准确性、速度和兼容性的同时提供了对抗威胁的鲁棒性。"
+}

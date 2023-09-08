@@ -1,0 +1,12 @@
+{
+    "title": "Personalized Tucker Decomposition: Modeling Commonality and Peculiarity on Tensor Data. (arXiv:2309.03439v1 [cs.LG])",
+    "abstract": "We propose personalized Tucker decomposition (perTucker) to address the limitations of traditional tensor decomposition methods in capturing heterogeneity across different datasets. perTucker decomposes tensor data into shared global components and personalized local components. We introduce a mode orthogonality assumption and develop a proximal gradient regularized block coordinate descent algorithm that is guaranteed to converge to a stationary point. By learning unique and common representations across datasets, we demonstrate perTucker's effectiveness in anomaly detection, client classification, and clustering through a simulation study and two case studies on solar flare detection and tonnage signal classification.",
+    "link": "http://arxiv.org/abs/2309.03439",
+    "context": "Title: Personalized Tucker Decomposition: Modeling Commonality and Peculiarity on Tensor Data. (arXiv:2309.03439v1 [cs.LG])\nAbstract: We propose personalized Tucker decomposition (perTucker) to address the limitations of traditional tensor decomposition methods in capturing heterogeneity across different datasets. perTucker decomposes tensor data into shared global components and personalized local components. We introduce a mode orthogonality assumption and develop a proximal gradient regularized block coordinate descent algorithm that is guaranteed to converge to a stationary point. By learning unique and common representations across datasets, we demonstrate perTucker's effectiveness in anomaly detection, client classification, and clustering through a simulation study and two case studies on solar flare detection and tonnage signal classification.",
+    "path": "papers/23/09/2309.03439.json",
+    "total_tokens": 741,
+    "translated_title": "个性化的Tucker分解：对张量数据中的共性和独特性进行建模",
+    "translated_abstract": "我们提出了个性化的Tucker分解（perTucker）来解决传统张量分解方法在捕捉不同数据集之间的异质性方面的局限性。perTucker将张量数据分解为共享的全局分量和个性化的局部分量。我们引入了一种模式正交性假设，并开发了一种收敛于稳定点的近端梯度正则化块坐标下降算法。通过学习跨数据集的独特和共同表示，我们通过一个模拟研究和两个案例研究（太阳耀斑检测和吨位信号分类）展示了perTucker在异常检测、客户分类和聚类方面的有效性。",
+    "tldr": "本研究提出了个性化的Tucker分解（perTucker）方法来捕捉张量数据中的异质性，通过学习独特和共性表示，展示了perTucker在异常检测、客户分类和聚类方面的有效性。",
+    "en_tdlr": "This research proposes personalized Tucker decomposition (perTucker) to capture heterogeneity in tensor data. By learning unique and common representations, perTucker demonstrates effectiveness in anomaly detection, client classification, and clustering."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Beyond XAI:Obstacles Towards Responsible AI. (arXiv:2309.03638v1 [cs.AI])",
+    "abstract": "The rapidly advancing domain of Explainable Artificial Intelligence (XAI) has sparked significant interests in developing techniques to make AI systems more transparent and understandable. Nevertheless, in real-world contexts, the methods of explainability and their evaluation strategies present numerous limitations.Moreover, the scope of responsible AI extends beyond just explainability. In this paper, we explore these limitations and discuss their implications in a boarder context of responsible AI when considering other important aspects, including privacy, fairness and contestability.",
+    "link": "http://arxiv.org/abs/2309.03638",
+    "context": "Title: Beyond XAI:Obstacles Towards Responsible AI. (arXiv:2309.03638v1 [cs.AI])\nAbstract: The rapidly advancing domain of Explainable Artificial Intelligence (XAI) has sparked significant interests in developing techniques to make AI systems more transparent and understandable. Nevertheless, in real-world contexts, the methods of explainability and their evaluation strategies present numerous limitations.Moreover, the scope of responsible AI extends beyond just explainability. In this paper, we explore these limitations and discuss their implications in a boarder context of responsible AI when considering other important aspects, including privacy, fairness and contestability.",
+    "path": "papers/23/09/2309.03638.json",
+    "total_tokens": 631,
+    "translated_title": "超越可解释AI：负责人工智能的障碍",
+    "translated_abstract": "快速发展的可解释人工智能（XAI）领域引发了对开发技术以使AI系统更透明和可理解的兴趣。然而，在现实世界的背景下，解释性方法及其评估策略存在许多限制。此外，负责任的AI的范围不仅限于解释性。本文探讨了这些限制，并讨论了在考虑隐私、公平性和可争议性等其他重要方面时的责任AI的含义。",
+    "tldr": "这篇论文探讨了可解释AI领域中存在的限制，并在考虑隐私、公平性和可争议性等其他重要方面时讨论了负责任AI的意义。",
+    "en_tdlr": "This paper explores the limitations in the field of Explainable AI (XAI) and discusses the implications of responsible AI, considering other important aspects such as privacy, fairness, and contestability."
+}

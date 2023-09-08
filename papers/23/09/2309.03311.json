@@ -1,0 +1,11 @@
+{
+    "title": "Default Process Modeling and Credit Valuation Adjustment. (arXiv:2309.03311v1 [q-fin.PR])",
+    "abstract": "This paper presents a convenient framework for modeling default process and pricing derivative securities involving credit risk. The framework provides an integrated view of credit valuation adjustment by linking distance-to-default, default probability, survival probability, and default correlation together. We show that risky valuation is Martingale in our model. The framework reduces the technical issues of performing risky valuation to the same issues faced when performing the ordinary valuation. The numerical results show that the model prediction is consistent with the historical observations.",
+    "link": "http://arxiv.org/abs/2309.03311",
+    "context": "Title: Default Process Modeling and Credit Valuation Adjustment. (arXiv:2309.03311v1 [q-fin.PR])\nAbstract: This paper presents a convenient framework for modeling default process and pricing derivative securities involving credit risk. The framework provides an integrated view of credit valuation adjustment by linking distance-to-default, default probability, survival probability, and default correlation together. We show that risky valuation is Martingale in our model. The framework reduces the technical issues of performing risky valuation to the same issues faced when performing the ordinary valuation. The numerical results show that the model prediction is consistent with the historical observations.",
+    "path": "papers/23/09/2309.03311.json",
+    "total_tokens": 679,
+    "translated_title": "默认过程建模与信贷估值调整",
+    "translated_abstract": "本文提出了一个便利的框架来建模默认过程和定价涉及信贷风险的衍生证券。该框架通过将距离违约、违约概率、生存概率和违约相关性联系在一起，提供了一个整合的信贷估值调整视图。我们展示了在我们的模型中，风险估值是鞅。该框架将风险估值的技术问题简化为进行普通估值时面临的相同问题。数值结果表明，模型预测与历史观察一致。",
+    "tldr": "本文提出了一个便利的框架来建模默认过程和定价涉及信贷风险的衍生证券，通过整合的信贷估值调整视图，解决了进行风险估值的技术问题，并与历史观察结果一致。"
+}

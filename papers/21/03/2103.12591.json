@@ -1,0 +1,12 @@
+{
+    "title": "BoXHED2.0: Scalable boosting of dynamic survival analysis. (arXiv:2103.12591v5 [cs.LG] UPDATED)",
+    "abstract": "Modern applications of survival analysis increasingly involve time-dependent covariates. The Python package BoXHED2.0 is a tree-boosted hazard estimator that is fully nonparametric, and is applicable to survival settings far more general than right-censoring, including recurring events and competing risks. BoXHED2.0 is also scalable to the point of being on the same order of speed as parametric boosted survival models, in part because its core is written in C++ and it also supports the use of GPUs and multicore CPUs. BoXHED2.0 is available from PyPI and also from www.github.com/BoXHED.",
+    "link": "http://arxiv.org/abs/2103.12591",
+    "context": "Title: BoXHED2.0: Scalable boosting of dynamic survival analysis. (arXiv:2103.12591v5 [cs.LG] UPDATED)\nAbstract: Modern applications of survival analysis increasingly involve time-dependent covariates. The Python package BoXHED2.0 is a tree-boosted hazard estimator that is fully nonparametric, and is applicable to survival settings far more general than right-censoring, including recurring events and competing risks. BoXHED2.0 is also scalable to the point of being on the same order of speed as parametric boosted survival models, in part because its core is written in C++ and it also supports the use of GPUs and multicore CPUs. BoXHED2.0 is available from PyPI and also from www.github.com/BoXHED.",
+    "path": "papers/21/03/2103.12591.json",
+    "total_tokens": 721,
+    "translated_title": "BoXHED2.0：可扩展的动态生存分析提升方法",
+    "translated_abstract": "现代生存分析的应用越来越多地涉及到时间依赖的协变量。Python软件包BoXHED2.0是一个完全非参数的树提升生存风险估计器，适用于比右截尾更通用的生存环境，包括重复事件和竞争风险。由于其核心是用C++编写的，还支持使用GPU和多核CPU，因此BoXHED2.0的可伸缩性可与参数化提升生存模型相媲美。BoXHED2.0可从PyPI和www.github.com/BoXHED获取。",
+    "tldr": "BoXHED2.0是一个可扩展的动态生存分析提升方法，适用于包括重复事件和竞争风险在内的多种生存环境，具有与参数化提升生存模型相媲美的速度。",
+    "en_tdlr": "BoXHED2.0 is a scalable boosting method for dynamic survival analysis, applicable to various survival settings including recurring events and competing risks, with comparable speed to parametric boosted survival models."
+}

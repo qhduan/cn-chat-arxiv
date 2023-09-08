@@ -1,0 +1,12 @@
+{
+    "title": "Proper Learning of Linear Dynamical Systems as a Non-Commutative Polynomial Optimisation Problem. (arXiv:2002.01444v5 [math.OC] UPDATED)",
+    "abstract": "There has been much recent progress in forecasting the next observation of a linear dynamical system (LDS), which is known as the improper learning, as well as in the estimation of its system matrices, which is known as the proper learning of LDS. We present an approach to proper learning of LDS, which in spite of the non-convexity of the problem, guarantees global convergence of numerical solutions to a least-squares estimator. We present promising computational results.",
+    "link": "http://arxiv.org/abs/2002.01444",
+    "context": "Title: Proper Learning of Linear Dynamical Systems as a Non-Commutative Polynomial Optimisation Problem. (arXiv:2002.01444v5 [math.OC] UPDATED)\nAbstract: There has been much recent progress in forecasting the next observation of a linear dynamical system (LDS), which is known as the improper learning, as well as in the estimation of its system matrices, which is known as the proper learning of LDS. We present an approach to proper learning of LDS, which in spite of the non-convexity of the problem, guarantees global convergence of numerical solutions to a least-squares estimator. We present promising computational results.",
+    "path": "papers/20/02/2002.01444.json",
+    "total_tokens": 618,
+    "translated_title": "线性动态系统的适当学习作为非交换多项式优化问题",
+    "translated_abstract": "最近在预测线性动态系统（LDS）的下一个观测值（称为不适当学习）以及估计其系统矩阵（称为适当学习LDS）方面取得了很大进展。我们提出了一种适当学习LDS的方法，尽管问题非凸，但能够保证数值解的全局收敛性到最小二乘估计器。我们展示了有希望的计算结果。",
+    "tldr": "该论文提出了一种方法来解决适当学习线性动态系统的问题，通过非交换多项式优化，保证了数值解对最小二乘估计器的全局收敛性。",
+    "en_tdlr": "This paper presents an approach to properly learn linear dynamical systems through non-commutative polynomial optimization, ensuring global convergence of numerical solutions to a least-squares estimator."
+}

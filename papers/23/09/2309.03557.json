@@ -1,0 +1,12 @@
+{
+    "title": "On the dynamics of multi agent nonlinear filtering and learning. (arXiv:2309.03557v1 [stat.ML])",
+    "abstract": "Multiagent systems aim to accomplish highly complex learning tasks through decentralised consensus seeking dynamics and their use has garnered a great deal of attention in the signal processing and computational intelligence societies. This article examines the behaviour of multiagent networked systems with nonlinear filtering/learning dynamics. To this end, a general formulation for the actions of an agent in multiagent networked systems is presented and conditions for achieving a cohesive learning behaviour is given. Importantly, application of the so derived framework in distributed and federated learning scenarios are presented.",
+    "link": "http://arxiv.org/abs/2309.03557",
+    "context": "Title: On the dynamics of multi agent nonlinear filtering and learning. (arXiv:2309.03557v1 [stat.ML])\nAbstract: Multiagent systems aim to accomplish highly complex learning tasks through decentralised consensus seeking dynamics and their use has garnered a great deal of attention in the signal processing and computational intelligence societies. This article examines the behaviour of multiagent networked systems with nonlinear filtering/learning dynamics. To this end, a general formulation for the actions of an agent in multiagent networked systems is presented and conditions for achieving a cohesive learning behaviour is given. Importantly, application of the so derived framework in distributed and federated learning scenarios are presented.",
+    "path": "papers/23/09/2309.03557.json",
+    "total_tokens": 646,
+    "translated_title": "论多智能体非线性滤波和学习的动力学",
+    "translated_abstract": "多智能体系统通过分散一致性寻求动力学来完成高度复杂的学习任务，其在信号处理和计算智能社区引起了极大关注。本文研究了具有非线性滤波/学习动力学的多智能体网络系统的行为。为此，提出了多智能体网络系统中一个智能体的行动的一般表述，并给出了实现协同学习行为的条件。重要的是，还介绍了该推导框架在分布式和联邦学习场景中的应用。",
+    "tldr": "本文研究了具有非线性滤波/学习动力学的多智能体网络系统的行为，并介绍了在分布式和联邦学习场景中的应用。",
+    "en_tdlr": "This article examines the behavior of multiagent networked systems with nonlinear filtering/learning dynamics and presents its application in distributed and federated learning scenarios."
+}

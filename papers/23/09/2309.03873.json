@@ -1,0 +1,12 @@
+{
+    "title": "A Tutorial on the Non-Asymptotic Theory of System Identification. (arXiv:2309.03873v1 [eess.SY])",
+    "abstract": "This tutorial serves as an introduction to recently developed non-asymptotic methods in the theory of -- mainly linear -- system identification. We emphasize tools we deem particularly useful for a range of problems in this domain, such as the covering technique, the Hanson-Wright Inequality and the method of self-normalized martingales. We then employ these tools to give streamlined proofs of the performance of various least-squares based estimators for identifying the parameters in autoregressive models. We conclude by sketching out how the ideas presented herein can be extended to certain nonlinear identification problems.",
+    "link": "http://arxiv.org/abs/2309.03873",
+    "context": "Title: A Tutorial on the Non-Asymptotic Theory of System Identification. (arXiv:2309.03873v1 [eess.SY])\nAbstract: This tutorial serves as an introduction to recently developed non-asymptotic methods in the theory of -- mainly linear -- system identification. We emphasize tools we deem particularly useful for a range of problems in this domain, such as the covering technique, the Hanson-Wright Inequality and the method of self-normalized martingales. We then employ these tools to give streamlined proofs of the performance of various least-squares based estimators for identifying the parameters in autoregressive models. We conclude by sketching out how the ideas presented herein can be extended to certain nonlinear identification problems.",
+    "path": "papers/23/09/2309.03873.json",
+    "total_tokens": 779,
+    "translated_title": "系统识别的非渐近理论教程",
+    "translated_abstract": "这个教程介绍最近发展的非渐近方法在主要线性系统识别理论中的应用。我们强调一些在这个领域中特别有用的工具，如覆盖技术、Hanson-Wright不等式和自标准化马丁格尔法。然后我们利用这些工具来给出一些基于最小二乘估计器的性能的简化证明，用于识别自回归模型中的参数。最后，我们概述了如何将所呈现的思想扩展到某些非线性识别问题中。",
+    "tldr": "这个教程介绍了系统识别中最近发展的非渐近方法、强调了覆盖技术、Hanson-Wright不等式和自标准化马丁格尔法等工具的应用、并给出了利用这些工具简化证明的最小二乘估计器在自回归模型中参数识别中的性能、最后介绍了将这些思想扩展到某些非线性识别问题的方法。",
+    "en_tdlr": "This tutorial introduces recently developed non-asymptotic methods in system identification, emphasizing the applications of tools such as the covering technique, the Hanson-Wright inequality, and the method of self-normalized martingales. It provides streamlined proofs of the performance of least-squares estimators for identifying parameters in autoregressive models and discusses the extension of these ideas to certain nonlinear identification problems."
+}

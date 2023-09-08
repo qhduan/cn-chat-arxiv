@@ -1,0 +1,12 @@
+{
+    "title": "Filtration Surfaces for Dynamic Graph Classification. (arXiv:2309.03616v1 [cs.LG])",
+    "abstract": "Existing approaches for classifying dynamic graphs either lift graph kernels to the temporal domain, or use graph neural networks (GNNs). However, current baselines have scalability issues, cannot handle a changing node set, or do not take edge weight information into account. We propose filtration surfaces, a novel method that is scalable and flexible, to alleviate said restrictions. We experimentally validate the efficacy of our model and show that filtration surfaces outperform previous state-of-the-art baselines on datasets that rely on edge weight information. Our method does so while being either completely parameter-free or having at most one parameter, and yielding the lowest overall standard deviation.",
+    "link": "http://arxiv.org/abs/2309.03616",
+    "context": "Title: Filtration Surfaces for Dynamic Graph Classification. (arXiv:2309.03616v1 [cs.LG])\nAbstract: Existing approaches for classifying dynamic graphs either lift graph kernels to the temporal domain, or use graph neural networks (GNNs). However, current baselines have scalability issues, cannot handle a changing node set, or do not take edge weight information into account. We propose filtration surfaces, a novel method that is scalable and flexible, to alleviate said restrictions. We experimentally validate the efficacy of our model and show that filtration surfaces outperform previous state-of-the-art baselines on datasets that rely on edge weight information. Our method does so while being either completely parameter-free or having at most one parameter, and yielding the lowest overall standard deviation.",
+    "path": "papers/23/09/2309.03616.json",
+    "total_tokens": 745,
+    "translated_title": "动态图分类的过滤表面",
+    "translated_abstract": "现有的动态图分类方法要么将图内核扩展到时间域，要么使用图神经网络（GNNs）。然而，当前的基线方法存在可扩展性问题，无法处理不断变化的节点集，或者不能考虑边权重信息。我们提出了过滤表面，这是一种新颖的方法，具有可扩展性和灵活性，以减轻上述限制。我们通过实验证明了我们的模型的有效性，并表明过滤表面在依赖边权重信息的数据集上优于先前的基线方法。我们的方法在完全无参数或最多一个参数的情况下，产生了最低的总体标准差。",
+    "tldr": "过滤表面是一种可扩展和灵活的方法，可用于处理动态图的分类问题。通过实验证明，它在处理依赖于边权重信息的数据集时优于先前的基线方法。该方法具有较低的总体标准差，并且要么完全无参数，要么最多只有一个参数。",
+    "en_tdlr": "Filtration surfaces are a scalable and flexible method for dynamic graph classification. They outperform previous baselines on datasets that rely on edge weight information. The method has a lower overall standard deviation and is either completely parameter-free or has at most one parameter."
+}

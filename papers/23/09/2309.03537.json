@@ -1,0 +1,11 @@
+{
+    "title": "Subgraph-based Tight Frames on Graphs with Compact Supports and Vanishing Moments. (arXiv:2309.03537v1 [eess.SP])",
+    "abstract": "In this work, we proposed a novel and general method to construct tight frames on graphs with compact supports based on a series of hierarchical partitions. Starting from our abstract construction that generalizes previous methods based on partition trees, we are able to flexibly incorporate subgraph Laplacians into our design of graph frames. Consequently, our general methods permit adjusting the (subgraph) vanishing moments of the framelets and extra properties, such as directionality, for efficiently representing graph signals with path-like supports. Several variants are explicitly defined and tested. Experimental results show our proposed graph frames perform superiorly in non-linear approximation tasks.",
+    "link": "http://arxiv.org/abs/2309.03537",
+    "context": "Title: Subgraph-based Tight Frames on Graphs with Compact Supports and Vanishing Moments. (arXiv:2309.03537v1 [eess.SP])\nAbstract: In this work, we proposed a novel and general method to construct tight frames on graphs with compact supports based on a series of hierarchical partitions. Starting from our abstract construction that generalizes previous methods based on partition trees, we are able to flexibly incorporate subgraph Laplacians into our design of graph frames. Consequently, our general methods permit adjusting the (subgraph) vanishing moments of the framelets and extra properties, such as directionality, for efficiently representing graph signals with path-like supports. Several variants are explicitly defined and tested. Experimental results show our proposed graph frames perform superiorly in non-linear approximation tasks.",
+    "path": "papers/23/09/2309.03537.json",
+    "total_tokens": 741,
+    "translated_title": "基于子图的紧框架在具有紧致支持和渐消磨的图上",
+    "translated_abstract": "在这项工作中，我们提出了一种新颖且通用的方法，基于一系列分层分区构建具有紧致支持的图上的紧框架。从我们的抽象构造开始，我们能够灵活地将子图Laplacians纳入到我们的图框架设计中。因此，我们的通用方法允许调整框架的（子图）消失矩和其他属性，如方向性，以有效地表示具有路径支持的图信号。我们明确定义并测试了几个变体。实验结果表明，我们提出的图框架在非线性逼近任务中表现出优越性能。",
+    "tldr": "本研究提出了一种基于子图的紧框架构造方法，能够灵活地调整框架的消失矩和其他属性，实现对具有路径支持的图信号的高效表示，在非线性逼近任务中表现出优越性能。"
+}

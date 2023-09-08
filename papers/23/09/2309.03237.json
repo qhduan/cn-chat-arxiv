@@ -1,0 +1,12 @@
+{
+    "title": "Federated Learning Over Images: Vertical Decompositions and Pre-Trained Backbones Are Difficult to Beat. (arXiv:2309.03237v1 [cs.LG])",
+    "abstract": "We carefully evaluate a number of algorithms for learning in a federated environment, and test their utility for a variety of image classification tasks. We consider many issues that have not been adequately considered before: whether learning over data sets that do not have diverse sets of images affects the results; whether to use a pre-trained feature extraction \"backbone\"; how to evaluate learner performance (we argue that classification accuracy is not enough), among others. Overall, across a wide variety of settings, we find that vertically decomposing a neural network seems to give the best results, and outperforms more standard reconciliation-used methods.",
+    "link": "http://arxiv.org/abs/2309.03237",
+    "context": "Title: Federated Learning Over Images: Vertical Decompositions and Pre-Trained Backbones Are Difficult to Beat. (arXiv:2309.03237v1 [cs.LG])\nAbstract: We carefully evaluate a number of algorithms for learning in a federated environment, and test their utility for a variety of image classification tasks. We consider many issues that have not been adequately considered before: whether learning over data sets that do not have diverse sets of images affects the results; whether to use a pre-trained feature extraction \"backbone\"; how to evaluate learner performance (we argue that classification accuracy is not enough), among others. Overall, across a wide variety of settings, we find that vertically decomposing a neural network seems to give the best results, and outperforms more standard reconciliation-used methods.",
+    "path": "papers/23/09/2309.03237.json",
+    "total_tokens": 710,
+    "translated_title": "图像上的联邦学习：垂直分解和预训练骨干较难攻克",
+    "translated_abstract": "我们对一系列在联邦学习环境中进行学习的算法进行了认真评估，并测试它们在各种图像分类任务中的效用。我们考虑了许多以前没有充分考虑的问题：是否学习不具有多样图像集的数据集会影响结果；是否使用预训练的特征提取“骨干”；如何评估学习者的性能（我们认为仅仅分类准确性是不够的）等。总体而言，在各种设置下，我们发现对神经网络进行垂直分解似乎能够得到最佳结果，并且优于更常见的协调方法。",
+    "tldr": "本研究对联邦学习环境中的图像分类任务进行了评估，发现垂直分解神经网络在各种设置下表现最佳。",
+    "en_tdlr": "This study evaluates algorithms for learning in a federated environment for image classification tasks, and finds that vertically decomposing neural networks outperform other methods in various settings."
+}
