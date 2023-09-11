@@ -1,0 +1,12 @@
+{
+    "title": "An Element-wise RSAV Algorithm for Unconstrained Optimization Problems. (arXiv:2309.04013v1 [math.OC])",
+    "abstract": "We present a novel optimization algorithm, element-wise relaxed scalar auxiliary variable (E-RSAV), that satisfies an unconditional energy dissipation law and exhibits improved alignment between the modified and the original energy. Our algorithm features rigorous proofs of linear convergence in the convex setting. Furthermore, we present a simple accelerated algorithm that improves the linear convergence rate to super-linear in the univariate case. We also propose an adaptive version of E-RSAV with Steffensen step size. We validate the robustness and fast convergence of our algorithm through ample numerical experiments.",
+    "link": "http://arxiv.org/abs/2309.04013",
+    "context": "Title: An Element-wise RSAV Algorithm for Unconstrained Optimization Problems. (arXiv:2309.04013v1 [math.OC])\nAbstract: We present a novel optimization algorithm, element-wise relaxed scalar auxiliary variable (E-RSAV), that satisfies an unconditional energy dissipation law and exhibits improved alignment between the modified and the original energy. Our algorithm features rigorous proofs of linear convergence in the convex setting. Furthermore, we present a simple accelerated algorithm that improves the linear convergence rate to super-linear in the univariate case. We also propose an adaptive version of E-RSAV with Steffensen step size. We validate the robustness and fast convergence of our algorithm through ample numerical experiments.",
+    "path": "papers/23/09/2309.04013.json",
+    "total_tokens": 766,
+    "translated_title": "一种逐元平方和放松的辅助变量算法用于无约束优化问题",
+    "translated_abstract": "我们提出了一种新颖的优化算法，即逐元放松的辅助标量变量（E-RSAV），它满足无条件的能量耗散定律，并且改进了修改后与原能量的对齐。我们的算法在凸设置中证明了线性收敛的严格证明。此外，我们提出了一种简单的加速算法，可以改善单变量情况下的线性收敛速度为超线性。我们还提出了一种自适应版本的E-RSAV算法，采用Steffensen步长。通过大量的数值实验，我们验证了我们算法的鲁棒性和快速收敛性。",
+    "tldr": "本文提出了一种能满足无条件能量耗散定律、在凸设置中证明线性收敛的新型优化算法E-RSAV，并且在单变量情况下改进了线性收敛速度为超线性，还提出了自适应版本的E-RSAV算法加以实现验证。",
+    "en_tdlr": "This paper proposes a novel optimization algorithm called E-RSAV, which satisfies the unconditional energy dissipation law and achieves linear convergence in the convex setting. The algorithm also improves the linear convergence rate to super-linear in the univariate case, and an adaptive version of E-RSAV with Steffensen step size is proposed and validated through numerical experiments."
+}

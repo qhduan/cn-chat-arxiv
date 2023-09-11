@@ -1,0 +1,12 @@
+{
+    "title": "Viewing the process of generating counterfactuals as a source of knowledge -- Application to the Naive Bayes classifier. (arXiv:2309.04284v1 [cs.LG])",
+    "abstract": "There are now many comprehension algorithms for understanding the decisions of a machine learning algorithm. Among these are those based on the generation of counterfactual examples. This article proposes to view this generation process as a source of creating a certain amount of knowledge that can be stored to be used, later, in different ways. This process is illustrated in the additive model and, more specifically, in the case of the naive Bayes classifier, whose interesting properties for this purpose are shown.",
+    "link": "http://arxiv.org/abs/2309.04284",
+    "context": "Title: Viewing the process of generating counterfactuals as a source of knowledge -- Application to the Naive Bayes classifier. (arXiv:2309.04284v1 [cs.LG])\nAbstract: There are now many comprehension algorithms for understanding the decisions of a machine learning algorithm. Among these are those based on the generation of counterfactual examples. This article proposes to view this generation process as a source of creating a certain amount of knowledge that can be stored to be used, later, in different ways. This process is illustrated in the additive model and, more specifically, in the case of the naive Bayes classifier, whose interesting properties for this purpose are shown.",
+    "path": "papers/23/09/2309.04284.json",
+    "total_tokens": 613,
+    "translated_title": "将生成对立假设的过程视为知识来源 - 应用于朴素贝叶斯分类器",
+    "translated_abstract": "现在有许多理解算法可以理解机器学习算法的决策，其中包括基于生成对立假设示例的算法。本文提出将这个生成过程视为一种创造一定量知识的方法，这些知识可以存储并在以后以不同的方式使用。本文在加法模型中进行了说明，具体而言，是在朴素贝叶斯分类器的情况下，展示了其在此目的上的有趣属性。",
+    "tldr": "将生成对立假设的过程视为知识来源，并应用于朴素贝叶斯分类器，展示其有趣属性。",
+    "en_tdlr": "Viewing the process of generating counterfactuals as a source of knowledge and applying it to the naive Bayes classifier to showcase its interesting properties."
+}

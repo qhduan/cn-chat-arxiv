@@ -2,202 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On the minimal simplex economy.](http://arxiv.org/abs/2309.03784) | 本论文研究了最小单纯经济，证明了每个仿射经济都存在竞争均衡，并且发现竞争均衡可以在任何最小单纯经济中内在确定。 |
-| [^2] | [Identifying spatial interdependence in panel data with large N and small T.](http://arxiv.org/abs/2309.03740) | 该论文提出了一种用于估计大N和小T面板数据中空间互依关系的简单算法，实验结果表明该方法快速且准确，并发现了文献中尚未记录的一些重要国家间的空间链接。 |
-| [^3] | [A Causal Perspective on Loan Pricing: Investigating the Impacts of Selection Bias on Identifying Bid-Response Functions.](http://arxiv.org/abs/2309.03730) | 这项研究通过将定价问题视为因果推断问题，首次对选择偏差对贷款定价的影响进行了探讨。实验结果揭示了传统方法在处理选择偏差问题上的局限性，并提出了更全面的解决方案。 |
-| [^4] | [Digital Disruptions & Inequality.](http://arxiv.org/abs/2309.03532) | 数字颠覆是导致不平等的原因，现有解决方法如税收的效果有限。研究发现网络互联和集群之间的桥梁关系是关键因素。注入小批创业者团队可以加速技术的推广。 |
-| [^5] | [Perishable Goods versus Re-tradable Assets: A Theoretical Reappraisal of a Fundamental Dichotomy.](http://arxiv.org/abs/2309.03432) | 研究重新评估了耐用再交易资产市场与易腐商品市场的差异，并通过理论和定理的重新表述强调了资产可再交易性的重要性。 |
-| [^6] | [Motives for Delegating Financial Decisions.](http://arxiv.org/abs/2309.03419) | 为了解为什么投资者会委托金融决策给专家，作者进行了一项实验，结果发现，投资者委托的动机包括责任转嫁、决策成本和追求过去表现，而没有发现委托使风险更加可接受的动机。 |
-| [^7] | [Sources of capital growth.](http://arxiv.org/abs/2309.03403) | 资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。 |
-| [^8] | [Privately-Owned versus Shared Automated Vehicle: The Roles of Utilitarian and Hedonic Beliefs.](http://arxiv.org/abs/2309.03283) | 本研究提出了一个基于行为心理学理论的分析框架，通过解释性潜变量构建来解释人们更倾向于拥有自动驾驶车辆而不是使用共享自动驾驶车辆(SAV)，其中包括实用主义信念和享乐主义信念。 |
-| [^9] | [Empirical Evidence for the New Definitions in Financial Markets.](http://arxiv.org/abs/2305.03468) | 研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。 |
-| [^10] | [How a Brand's Social Activism Impacts Consumers' Brand Evaluations: The Role of Brand Relationship Norms.](http://arxiv.org/abs/2210.10832) | 本研究调查了消费者对品牌在社会行动中的回应策略的反应，发现品牌关系类型对消费者对品牌的评估有影响。共享型品牌在不回应或低共情回应时会被评估得较不利，而采用高共情回应时这种差异被减弱。 |
-| [^11] | [Robust Tests of Model Incompleteness in the Presence of Nuisance Parameters.](http://arxiv.org/abs/2208.11281) | 该研究开发了一种鲁棒性测试方法，可以测试经济模型在存在干扰参数时的不完整性，而不需要了解选择机制。这项研究通过构建一个基于最具挑战情景的参数模型的得分函数，提出了一种计算简便的鲁棒性测试方法。 |
-| [^12] | [Estimating the Gains (and Losses) of Revenue Management.](http://arxiv.org/abs/2206.04424) | 本论文研究了法国铁路运输中收益管理与统一定价或完全灵活的策略的盈利和损失，提出了一种原始的识别策略，研究结果显示实际收益管理表现相似或更好，但也存在高达16.7%的实质损失，并强调了收益管理在需求不确定时获取信息的关键作用。 |
-| [^13] | [Distributional Counterfactual Analysis in High-Dimensional Setup.](http://arxiv.org/abs/2202.11671) | 本文在高维设置下，提出了一种新的方法来恢复对立分布，能够在面板结构中同时建模整个条件分位函数，并通过非渐近界限来估计，可以为从业人员重新构建整个对立分布提供帮助。 |
+| [^1] | [Robust equilibria in cheap-talk games with fairly transparent motives.](http://arxiv.org/abs/2309.04193) | 具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的轻微状态依赖是稳健的。 |
+| [^2] | [Concave many-to-one matching.](http://arxiv.org/abs/2309.04181) | 凹多对一匹配的概念类似于合作博弈中的均衡条件，在凹市场中可以找到稳定的匹配，并且我们使用Scarf算法证明了存在性并找到了稳定的时间表匹配。 |
+| [^3] | [Agriculture Credit and Economic Growth in Bangladesh: A Time Series Analysis.](http://arxiv.org/abs/2309.04118) | 孟加拉国农业信贷对经济增长具有积极影响，总固定资本形成呈正相关，而通货膨胀呈负相关。政府和决策者应继续努力增加农业信贷规模，以实现可持续的经济增长。 |
+| [^4] | [Local Priority Mechanisms.](http://arxiv.org/abs/2309.04020) | 本文介绍了一种新颖的本地优先机制，通过为每个不可行的分配分配一组本地妥协者，机制贪婪地尝试将代理人与其首选项进行匹配。此外，本地优先机制可以用来构建任何约束分配问题的新设计，并且可以理解为多个经典机制的实例。 |
+| [^5] | [Cognitive Aging and Labor Share.](http://arxiv.org/abs/2308.14982) | 该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。 |
+| [^6] | [The Inflation Attention Threshold and Inflation Surges.](http://arxiv.org/abs/2308.09480) | 本论文研究了通胀关注度与通胀激增之间的关系，发现在通胀率低稳定时，人们关注度较低，但一旦通胀率超过4%，关注度会明显增加，高关注区域的关注度是低关注区域的两倍。这种关注阈值的存在导致了状态依赖效应，即在宽松货币政策时，成本推动冲击对通胀的影响更大。这些结论有助于理解最近美国的通胀激增现象。 |
+| [^7] | [Firm-worker hypergraphs.](http://arxiv.org/abs/2211.06887) | 该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。 |
+| [^8] | [Uniform Inference on High-dimensional Spatial Panel Networks.](http://arxiv.org/abs/2105.07424) | 本研究在大规模空间面板网络上提出了一种均匀推断理论，该理论能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。 |
 
 # 详细
 
-[^1]: 关于最小单纯经济的研究
+[^1]: 具有相对透明动机的廉价交流博弈中的稳健均衡
 
-    On the minimal simplex economy. (arXiv:2309.03784v1 [econ.TH])
+    Robust equilibria in cheap-talk games with fairly transparent motives. (arXiv:2309.04193v1 [econ.TH])
 
-    [http://arxiv.org/abs/2309.03784](http://arxiv.org/abs/2309.03784)
+    [http://arxiv.org/abs/2309.04193](http://arxiv.org/abs/2309.04193)
 
-    本论文研究了最小单纯经济，证明了每个仿射经济都存在竞争均衡，并且发现竞争均衡可以在任何最小单纯经济中内在确定。
-
-    
-
-    在我们之前的论文中，我们证明了每个仿射经济都存在竞争均衡。为了找到能够计算竞争均衡的情况，我们定义了一个简单型经济，即对商品数量进行重复变化的情况，其中消费者的数量代表了偏好，而转换矩阵则定义了初始禀赋。我们展示了竞争均衡可以在任何最小单纯经济中内在确定。
-
-    In our previous paper we proved that every affine economy has a competitive equilibrium. In order to find a situation in which it is possible to compute it, we define a simplex economy as a variation with repetition of the number of commodities taking the number of consumers (representing the preferences), and a transition matrix (defining the initial endowments). We show that a competitive equilibrium can be intrinsically determined in any minimal simplex economy.
-    
-[^2]: 识别大N和小T面板数据中的空间互依关系
-
-    Identifying spatial interdependence in panel data with large N and small T. (arXiv:2309.03740v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.03740](http://arxiv.org/abs/2309.03740)
-
-    该论文提出了一种用于估计大N和小T面板数据中空间互依关系的简单算法，实验结果表明该方法快速且准确，并发现了文献中尚未记录的一些重要国家间的空间链接。
+    具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的轻微状态依赖是稳健的。
 
     
 
-    本文提出了一个简单的两阶段变分贝叶斯算法，用于估计面板空间自回归模型。在不限制空间效应的情况下，N（横截面单位数）远大于T（时间期数），使用预定的加权矩阵。我们使用Dirichlet-Laplace先验进行变量选择和参数收缩。在空间变量之间的联系上没有任何先验结构的限制，让数据自己说话。广泛的蒙特卡洛实验表明，我们的方法非常快速，并且我们估计的空间权重矩阵与真实的空间权重矩阵非常相似。以欧盟区域生产总值增长率的空间相互依赖性为例进行说明。除了明显的国家集群模式外，我们发现了一些重要的国家间空间链接，这些链接在文献中尚未记录。这种新的估计方法可以用于解决大N和小T面板数据中的空间互依问题。
+    我们证明，在具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的扰动是稳健的，这些扰动允许轻微的状态依赖。其他均衡通常不具备稳健性。
 
-    This paper develops a simple two-stage variational Bayesian algorithm to estimate panel spatial autoregressive models, where N, the number of cross-sectional units, is much larger than T, the number of time periods without restricting the spatial effects using a predetermined weighting matrix. We use Dirichlet-Laplace priors for variable selection and parameter shrinkage. Without imposing any a priori structures on the spatial linkages between variables, we let the data speak for themselves. Extensive Monte Carlo studies show that our method is super-fast and our estimated spatial weights matrices strongly resemble the true spatial weights matrices. As an illustration, we investigate the spatial interdependence of European Union regional gross value added growth rates. In addition to a clear pattern of predominant country clusters, we have uncovered a number of important between-country spatial linkages which are yet to be documented in the literature. This new procedure for estimating
+    We show that sender-optimal equilibria in cheap-talk games with a binary state space and state-independent preferences are robust to perturbations of the sender's preferences that allow for slight state-dependence. Other equilibria generally fail to be robust.
     
-[^3]: 贷款定价的因果视角: 探讨选择偏差对辨识出价响应函数的影响
+[^2]: 凹多对一匹配
 
-    A Causal Perspective on Loan Pricing: Investigating the Impacts of Selection Bias on Identifying Bid-Response Functions. (arXiv:2309.03730v1 [cs.LG])
+    Concave many-to-one matching. (arXiv:2309.04181v1 [econ.TH])
 
-    [http://arxiv.org/abs/2309.03730](http://arxiv.org/abs/2309.03730)
+    [http://arxiv.org/abs/2309.04181](http://arxiv.org/abs/2309.04181)
 
-    这项研究通过将定价问题视为因果推断问题，首次对选择偏差对贷款定价的影响进行了探讨。实验结果揭示了传统方法在处理选择偏差问题上的局限性，并提出了更全面的解决方案。
-
-    
-
-    在贷款领域，价格既与客户有关又与产品有关，确保一个良好运作的个性化定价策略对业务决策至关重要。通常情况下，此类策略必须基于观测数据推导而来，这会引入一些挑战。虽然“内生性”问题在现有的定价文献中得到了广泛研究，但选择偏差问题（或者更准确地说是出价选择偏差问题）还未得到重视。我们从因果推断的角度探讨选择偏差的影响。具体而言，我们将定价问题视为一个因果推断问题，考虑客户对价格的反应作为一种治疗效应。在实验中，我们通过在比利时的抵押贷款申请半合成数据集上模拟不同程度的选择偏差，研究参数化和非参数化方法在识别个体出价响应函数方面的潜力。我们的结果展示了传统方法（如逻辑回归）在处理选择偏差问题上的局限性，并提出了更全面的解决方案。
-
-    In lending, where prices are specific to both customers and products, having a well-functioning personalized pricing policy in place is essential to effective business making. Typically, such a policy must be derived from observational data, which introduces several challenges. While the problem of ``endogeneity'' is prominently studied in the established pricing literature, the problem of selection bias (or, more precisely, bid selection bias) is not. We take a step towards understanding the effects of selection bias by posing pricing as a problem of causal inference. Specifically, we consider the reaction of a customer to price a treatment effect. In our experiments, we simulate varying levels of selection bias on a semi-synthetic dataset on mortgage loan applications in Belgium. We investigate the potential of parametric and nonparametric methods for the identification of individual bid-response functions. Our results illustrate how conventional methods such as logistic regression a
-    
-[^4]: 数字颠覆与不平等
-
-    Digital Disruptions & Inequality. (arXiv:2309.03532v1 [cs.SI])
-
-    [http://arxiv.org/abs/2309.03532](http://arxiv.org/abs/2309.03532)
-
-    数字颠覆是导致不平等的原因，现有解决方法如税收的效果有限。研究发现网络互联和集群之间的桥梁关系是关键因素。注入小批创业者团队可以加速技术的推广。
+    凹多对一匹配的概念类似于合作博弈中的均衡条件，在凹市场中可以找到稳定的匹配，并且我们使用Scarf算法证明了存在性并找到了稳定的时间表匹配。
 
     
 
-    过去几十年来，不平等问题已经成为全球范围内现代社会的一个重要关注点。然而，数字颠覆作为不平等的原因以及现有解决方法（例如税收）的有效性，目前尚未得到深入理解。本研究旨在揭示数字颠覆对不平等的影响以及全球化背景下的相关问题。我们的研究发现，网络互联和集群之间的广泛桥梁是关键因素。此外，我们还发现税收在对抗不平等方面的效用有限。有趣的是，研究表明，注入小批创业者团队可以加速技术的推广。
+    我们提出了一个在双边多对一匹配中的凹概念，这相当于合作博弈中的均衡条件。当市场是凹的时候，存在一个稳定的匹配。我们提供了一类凹市场。在存在性定理的证明中，我们使用Scarf算法来找到一个稳定的时间表匹配，这个算法本身也具有独立的兴趣。
 
-    Rising inequality is a critical concern for contemporary societies globally, to the extent that emerging high-growth economies such as China have identified common prosperity as a central goal. Yet, the role and mechanisms of digital disruptions as a cause of inequality and the effectiveness of existing remedies such as taxation, are poorly understood. Particularly the implications of the complex process of technological adoption that requires extensive social validation beyond weak ties. Similarly, the implications of globalization in the hyperconnected landscape of the 21st century remains unexplored.  This study aims to shed light in these multifaceted issues. Our findings indicate that network connectivity and the presence of wide bridges between clusters are pivotal factors. We also show the limited utility of taxation as a countermeasure against inequality. Interestingly, the research reveals that the strategic injection of small cohorts of entrepreneurs can expedite technology a
+    We propose a notion of concavity in two-sided many-to-one matching, which is an analogue to the balancedness condition in cooperative games. A stable matching exists when the market is concave. We provide a class of concave markets. In the proof of the existence theorem, we use Scarf's algorithm to find a stable schedule matching, which is of independent interest.
     
-[^5]: 与可再交易资产相比，易腐商品：对基本二分法的理论重新评估
+[^3]: 孟加拉国农业信贷对经济增长的影响：一项时间序列分析
 
-    Perishable Goods versus Re-tradable Assets: A Theoretical Reappraisal of a Fundamental Dichotomy. (arXiv:2309.03432v1 [q-fin.GN])
+    Agriculture Credit and Economic Growth in Bangladesh: A Time Series Analysis. (arXiv:2309.04118v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.03432](http://arxiv.org/abs/2309.03432)
+    [http://arxiv.org/abs/2309.04118](http://arxiv.org/abs/2309.04118)
 
-    研究重新评估了耐用再交易资产市场与易腐商品市场的差异，并通过理论和定理的重新表述强调了资产可再交易性的重要性。
-
-    
-
-    市场行为的实验结果表明，相对于耐用再交易资产市场，非耐用或易腐商品市场的稳定性和效率较低。在本章中，我们通过对竞争市场价格形成的理论进行重新审视，强调了在新古典金融中资产可再交易性的基本性质，并通过对著名的无交易和无套利定理的简单重新表述，阐述了这一二分法的重要性。
-
-    Experimental results on market behavior establish a lower stability and efficiency of markets for durable re-tradable assets compared to markets for non-durable, or perishable, goods. In this chapter, we revisit this known but underappreciated dichotomy of goods in the light of our theory of competitive market price formation, and we emphasize the fundamental nature of the concept of asset re-tradability in neoclassical finance through a simple reformulation of the famous no-trade and no-arbitrage theorems.
-    
-[^6]: 为什么投资者委托金融决策？实验研究四种可能动机
-
-    Motives for Delegating Financial Decisions. (arXiv:2309.03419v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.03419](http://arxiv.org/abs/2309.03419)
-
-    为了解为什么投资者会委托金融决策给专家，作者进行了一项实验，结果发现，投资者委托的动机包括责任转嫁、决策成本和追求过去表现，而没有发现委托使风险更加可接受的动机。
+    孟加拉国农业信贷对经济增长具有积极影响，总固定资本形成呈正相关，而通货膨胀呈负相关。政府和决策者应继续努力增加农业信贷规模，以实现可持续的经济增长。
 
     
 
-    为了解为什么投资者会委托金融决策给专家，我们进行了一项实验，并探究了四种可能的动机。实验结果显示，甚至在轻松的选择任务中，有相当大比例的投资者倾向于委托决策，这表明责任转嫁动机起了重要的作用。对于更复杂的任务，更多的投资者选择委托，这说明决策成本对某些投资者有影响。一些委托者选择了低质量的、收益较高的专家，这表明追求过去表现的动机也起到了一定作用。我们没有发现第四种可能动机：委托使风险更加可接受。
+    本文研究了农业信贷对孟加拉国经济增长的影响。采用孟加拉国银行的年度报告收集的农业信贷数据以及世界银行的世界发展指标（WDI）等其他数据。通过采用约翰森协整检验和向量误差修正模型(VECM)，研究发现变量之间存在长期关系。研究结果表明，农业信贷对孟加拉国的GDP增长产生了积极的影响。研究还发现，总固定资本形成与经济增长呈正相关，而通货膨胀与经济增长呈负相关。因此，政府和决策者应继续努力增加农业信贷规模，以实现可持续的经济增长。
 
-    Why do investors delegate financial decisions to supposed experts? We report a laboratory experiment designed to disentangle four possible motives. Almost 600 investors drawn from the Prolific subject pool choose whether or not to delegate a real-stakes choice among lotteries to a previous investor (an ``expert'') after seeing information on the performance of several available experts. We find that a surprisingly large fraction of investors delegate even trivial choice tasks, suggesting a major role for the blame shifting motive. A larger fraction of investors delegate our more complex tasks, suggesting that decision costs play a role for some investors. Some investors who delegate choose a low quality expert with high earnings, suggesting a role for chasing past performance. We find no evidence for a fourth possible motive, that delegation makes risk more acceptable.
+    The paper examined the impact of agricultural credit on economic growth in Bangladesh. The annual data of agriculture credit were collected from annual reports of the Bangladesh Bank and other data were collected from the world development indicator (WDI) of the World Bank. By employing Johansen cointegration test and vector error correction model (VECM), the study revealed that there exists a long run relationship between the variables. The results of the study showed that agriculture credit had a positive impact on GDP growth in Bangladesh. The study also found that gross capital formation had a positive, while inflation had a negative association with economic growth in Bangladesh. Therefore, the government and policymakers should continue their effort to increase the volume of agriculture credit to achieve sustainable economic growth.
     
-[^7]: 资本增长的来源
+[^4]: 本地优先机制
 
-    Sources of capital growth. (arXiv:2309.03403v1 [econ.GN])
+    Local Priority Mechanisms. (arXiv:2309.04020v1 [econ.TH])
 
-    [http://arxiv.org/abs/2309.03403](http://arxiv.org/abs/2309.03403)
+    [http://arxiv.org/abs/2309.04020](http://arxiv.org/abs/2309.04020)
 
-    资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。
-
-    
-
-    根据国民账户数据显示，净储蓄或消费的变化与市值资本增长率的变化（资本加速度）之间没有影响。因此，资本增长和加速似乎不依赖于净储蓄或消费的限制。我们探讨了这种可能性，并讨论了对经济教育和公共政策的影响。
-
-    Data from national accounts show no effect of change in net saving or consumption, in ratio to market-value capital, on change in growth rate of market-value capital (capital acceleration). Thus it appears that capital growth and acceleration arrive without help from net saving or consumption restraint. We explore ways in which this is possible, and discuss implications for economic teaching and public policy
-    
-[^8]: 私人拥有与共享自动驾驶车辆: 实用主义信念与享乐主义信念的角色
-
-    Privately-Owned versus Shared Automated Vehicle: The Roles of Utilitarian and Hedonic Beliefs. (arXiv:2309.03283v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.03283](http://arxiv.org/abs/2309.03283)
-
-    本研究提出了一个基于行为心理学理论的分析框架，通过解释性潜变量构建来解释人们更倾向于拥有自动驾驶车辆而不是使用共享自动驾驶车辆(SAV)，其中包括实用主义信念和享乐主义信念。
+    本文介绍了一种新颖的本地优先机制，通过为每个不可行的分配分配一组本地妥协者，机制贪婪地尝试将代理人与其首选项进行匹配。此外，本地优先机制可以用来构建任何约束分配问题的新设计，并且可以理解为多个经典机制的实例。
 
     
 
-    随着自动驾驶车辆（AV）的出现，交通系统有可能发生转变，为安全、便利和高效的出行提供可能，尤其是在共享系统中使用时（共享AV或SAV）。然而，人们更倾向于将AV作为私人资产拥有，而不是使用SAV。这需要研究比较个体对AV和SAV的态度，以认识到公众倾向于SAV的障碍。为此，本研究提出了一个基于行为心理学理论的建模框架，以解释个体对拥有AV而不是使用SAV的偏好，该框架建立了一个潜在（主观）心理测量构建，并包括三组解释变量构建，包括：(i) 对利益搜索的渴望，即外在动机体现在实用主义信念中；(ii) 寻求快乐和享受的倾向，即内在动机体现在享乐主义信念中；(iii) 对三个配置的态度。
+    我们引入了一种新颖的用于约束分配问题的机制家族，称之为本地优先机制。这些机制由一个函数参数化，该函数将一组代理人（即本地妥协者）指派给每个不可行的分配。然后，机制贪婪地尝试将代理人与其首选项进行匹配。每当它达到一个不可行的分配时，本地妥协者移动到他们下一个最喜欢的替代方案。本地优先机制对于任何约束问题都存在，因此这提供了一种构建任何约束分配问题的新设计的方法。我们给出了表征本地优先机制的公理。由于约束对象分配包括许多经典问题作为特殊约束，我们将这个特征应用于展示几个众所周知的机制，包括用于学校选择的后期接受机制，用于住房分配的顶级交易环和串行独裁可以理解为本地优先机制的实例。
 
-    Transportation systems will be likely transformed by the emergence of automated vehicles (AVs) promising for safe, convenient, and efficient mobility, especially if used in shared systems (shared AV or SAV). However, the potential tendency is observed towards owning AV as a private asset rather than using SAV. This calls for a research on investigating individuals' attitude towards AV in comparison with SAV to recognize the barriers to the public's tendency towards SAV. To do so, the present study proposes a modeling framework based on the theories in behavioral psychology to explain individuals' preference for owning AV over using SAV, built as a latent (subjective) psychometric construct, by three groups of explanatory latent constructs including: (i) desire for searching for benefits, i.e., extrinsic motive manifested in utilitarian beliefs; (ii) tendency towards seeking pleasure and joy, i.e., intrinsic motive reflected in hedonic beliefs; and (iii) attitude towards three configura
+    We introduce a novel family of mechanisms for constrained allocation problems which we call local priority mechanisms. These mechanisms are parameterized by a function which assigns a set of agents -- the local compromisers -- to every infeasible allocation. The mechanism then greedily attempts to match agents with their top choices. Whenever it reaches an infeasible allocation, the local compromisers move to their next favorite alternative. Local priority mechanisms exist for any constraint so this provides a method of constructing new designs for any constrained allocation problem. We give axioms which characterize local priority mechanisms. Since constrained object allocation includes many canonical problems as special constraints, we apply this characterization to show that several well-known mechanisms, including deferred acceptance for school choice, top trading cycles for house allocation, and serial dictatorship can be understood as instances of local priority mechanisms. Other
     
-[^9]: 金融市场新定义的经验证据
+[^5]: 认知衰老与劳动份额
 
-    Empirical Evidence for the New Definitions in Financial Markets. (arXiv:2305.03468v1 [q-fin.GN])
+    Cognitive Aging and Labor Share. (arXiv:2308.14982v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.03468](http://arxiv.org/abs/2305.03468)
+    [http://arxiv.org/abs/2308.14982](http://arxiv.org/abs/2308.14982)
 
-    研究证实了新的金融市场定义准确反映了投资者行为，并提供了投资策略方面的建议。
-
-    
-
-    本研究给出了支持金融市场新定义的经验证据。分析了1889-1978年美国金融市场投资者的风险态度，结果表明，1977年在投资综合S＆P 500指数的股票投资者是风险规避者。相反，投资美国国债的无风险资产投资者则表现出不足的风险偏爱，这可以被认为是一种风险规避行为。这些发现表明，金融市场新定义准确反映了投资者的行为，应考虑在投资策略中。
-
-    This study presents empirical evidence to support the validity of new definitions in financial markets. The risk attitudes of investors in US financial markets from 1889-1978 are analyzed and the results indicate that equity investors who invested in the composite S&P 500 index were risk-averse in 1977. Conversely, risk-free asset investors who invested in US Treasury bills were found to exhibit not enough risk-loving behavior, which can be considered a type of risk-averse behavior. These findings suggest that the new definitions in financial markets accurately reflect the behavior of investors and should be considered in investment strategies.
-    
-[^10]: 品牌社会行动对消费者品牌评估的影响:品牌关系规范的作用
-
-    How a Brand's Social Activism Impacts Consumers' Brand Evaluations: The Role of Brand Relationship Norms. (arXiv:2210.10832v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2210.10832](http://arxiv.org/abs/2210.10832)
-
-    本研究调查了消费者对品牌在社会行动中的回应策略的反应，发现品牌关系类型对消费者对品牌的评估有影响。共享型品牌在不回应或低共情回应时会被评估得较不利，而采用高共情回应时这种差异被减弱。
+    该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。
 
     
 
-    随着社会行动在网络上的盛行，品牌面临消费者对公开解决这些问题的压力。然而，在这些情境下，品牌应对策略（即是否以及如何回应）仍不清楚。本研究调查了消费者对品牌应对策略（如参与与否）在社会行动中的反应，并提供了品牌可以采取的可能有效的应对策略。通过分析从Twitter收集的现实数据并进行四个随机实验，本研究发现品牌关系类型（交换型、共享型）影响消费者在社会行动后对品牌的评估。当共享型（而非交换型）品牌不回应或采用低共情回应时，其被评估得较不利。当品牌采用高共情回应时，这种差异被减弱。这些发现归因于消费者对品牌回应策略是否符合品牌关系规范的感知。
+    劳动份额，即经济产出的工资比例，在工业化国家中不可理解地在下降。虽然许多之前的研究试图通过经济因素来解释这种下降，但我们的新颖方法将这种下降与生物因素联系起来。具体而言，我们提出了一个理论宏观经济模型，劳动份额反映了劳动力自动化现有产出和消费者需求新的依赖人力劳动的产出变体之间的动态平衡。工业化导致人口老龄化，虽然在工作年限内认知表现稳定，但之后急剧下降。因此，老龄消费者认知能力的下降减少了对新的产出变体的需求，导致劳动份额下降。我们的模型将劳动份额表达为中位数年龄的代数函数，并通过非线性随机回归在工业化经济体的历史数据上以惊人的准确性进行了验证。
 
-    With the proliferation of social activism online, brands face heightened pressure from consumers to publicly address these issues. Yet, the optimal brand response strategy (i.e., whether and how to respond) in these contexts remains unclear. This research investigates consumers' reactions to brand response strategies (e.g., engage vs. not) during social activism and offers potentially effective responses that brands can employ to engage in these issues. By analyzing real-world data collected from Twitter and conducting four randomized experiments, this research discovers that brand relationship type (exchange, communal) affects consumers' brand evaluations in the wake of social activism. Communal (vs. exchange) brands are evaluated less favorably when they do not respond or utilize a low-empathy response. This difference is attenuated when brands employ a high-empathy response. These findings are attributable to consumers' perceptions of whether the brand's response strategy complies w
+    Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.
     
-[^11]: 在存在干扰参数的情况下，有关模型不完整性的鲁棒性测试
+[^6]: 通胀关注阈值与通胀激增
 
-    Robust Tests of Model Incompleteness in the Presence of Nuisance Parameters. (arXiv:2208.11281v2 [econ.EM] UPDATED)
+    The Inflation Attention Threshold and Inflation Surges. (arXiv:2308.09480v1 [econ.GN])
 
-    [http://arxiv.org/abs/2208.11281](http://arxiv.org/abs/2208.11281)
+    [http://arxiv.org/abs/2308.09480](http://arxiv.org/abs/2308.09480)
 
-    该研究开发了一种鲁棒性测试方法，可以测试经济模型在存在干扰参数时的不完整性，而不需要了解选择机制。这项研究通过构建一个基于最具挑战情景的参数模型的得分函数，提出了一种计算简便的鲁棒性测试方法。
-
-    
-
-    经济模型可能会显示出不完整性，具体取决于它们是否具有某些与政策相关的特征，例如战略互动、自我选择或状态依赖性。我们开发了一种新的模型不完整性测试方法，并分析了其渐近性质。一个关键观察是，可以在不知道选择机制的情况下，确定表示最具挑战性情景以便检测局部替代品的最不利参数模型。我们构建了一个基于这样一个模型的得分函数的不完整性鲁棒性测试。所提出的程序即使在存在干扰参数的情况下仍然可以计算出来，因为它只需要在模型完整性的零假设下进行估计。我们通过将其应用于市场进入模型和具有集值控制函数的三角形模型来说明测试方法。
-
-    Economic models may exhibit incompleteness depending on whether or not they admit certain policy-relevant features such as strategic interaction, self-selection, or state dependence. We develop a novel test of model incompleteness and analyze its asymptotic properties. A key observation is that one can identify the least-favorable parametric model that represents the most challenging scenario for detecting local alternatives without knowledge of the selection mechanism. We build a robust test of incompleteness on a score function constructed from such a model. The proposed procedure remains computationally tractable even with nuisance parameters because it suffices to estimate them only under the null hypothesis of model completeness. We illustrate the test by applying it to a market entry model and a triangular model with a set-valued control function.
-    
-[^12]: 预估收益管理的盈利和损失
-
-    Estimating the Gains (and Losses) of Revenue Management. (arXiv:2206.04424v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2206.04424](http://arxiv.org/abs/2206.04424)
-
-    本论文研究了法国铁路运输中收益管理与统一定价或完全灵活的策略的盈利和损失，提出了一种原始的识别策略，研究结果显示实际收益管理表现相似或更好，但也存在高达16.7%的实质损失，并强调了收益管理在需求不确定时获取信息的关键作用。
+    本论文研究了通胀关注度与通胀激增之间的关系，发现在通胀率低稳定时，人们关注度较低，但一旦通胀率超过4%，关注度会明显增加，高关注区域的关注度是低关注区域的两倍。这种关注阈值的存在导致了状态依赖效应，即在宽松货币政策时，成本推动冲击对通胀的影响更大。这些结论有助于理解最近美国的通胀激增现象。
 
     
 
-    尽管收益管理在航空、铁路和酒店等许多行业得到了广泛应用，但与统一定价或完全灵活的策略相比，其收益或损失尚缺乏实证证据。我们在法国铁路运输的背景下量化了这种盈利和损失，并确定了其潜在来源。需求的识别由于审查和外生价格变化的缺失而变得复杂。我们开发了一种原始的识别策略，结合了相对价格的时间变化、消费者的理性和公司定价策略的弱最优性条件。我们的研究结果表明，实际收益管理的表现与最优统一定价相似或更好，但与最优定价策略相比，也存在高达16.7%的实质损失。我们还强调了收益管理在需求不确定时获取信息的关键作用。
+    在最近通胀激增爆发时，公众对通胀的关注度很低，但一旦通胀开始上升，关注度迅速增加。本文构建了一个一般均衡货币模型，该模型在通胀低而稳定时，最优化的策略是对通胀关注较少，但一旦通胀超过某个阈值，就会增加关注度。利用调查问卷中的通胀预期，我估计关注阈值在4%通胀率，高关注区域的关注度是低关注区域的两倍。当校准到这些发现时，该模型产生与美国最近通胀激增一致的通胀和通胀预期动态。关注阈值导致状态依赖性：成本推动冲击在货币宽松政策时更加通胀。这些状态依赖性效应在恒定关注或理性预期模型中是不存在的。
 
-    Despite the wide adoption of revenue management in many industries such as airline, railway, and hospitality, there is still scarce empirical evidence on the gains or losses of such strategies compared to uniform pricing or fully flexible strategies. We quantify such gains and losses and identify their underlying sources in the context of French railway transportation. The identification of demand is complicated by censoring and the absence of exogenous price variations. We develop an original identification strategy combining temporal variations in relative prices, consumers' rationality and weak optimality conditions on the firm's pricing strategy. Our results suggest similar or better performance of the actual revenue management compared to optimal uniform pricing, but also substantial losses of up to 16.7% compared to the optimal pricing strategy. We also highlight the key role of revenue management in acquiring information when demand is uncertain.
+    At the outbreak of the recent inflation surge, the public's attention to inflation was low but increased rapidly once inflation started to rise. In this paper, I develop a general equilibrium monetary model where it is optimal for agents to pay little attention to inflation when inflation is low and stable, but in which they increase their attention once inflation exceeds a certain threshold. Using survey inflation expectations, I estimate the attention threshold to be at an inflation rate of 4%, with attention in the high-attention regime being twice as high as in the low-attention regime. When calibrated to match these findings, the model generates inflation and inflation expectation dynamics consistent with the recent inflation surge in the US. The attention threshold induces a state dependency: cost-push shocks become more inflationary in times of loose monetary policy. These state-dependent effects are absent in the model with constant attention or under rational expectations. Fol
     
-[^13]: 在高维设置中的分布对立分析
+[^7]: 公司-员工超图
 
-    Distributional Counterfactual Analysis in High-Dimensional Setup. (arXiv:2202.11671v2 [econ.EM] UPDATED)
+    Firm-worker hypergraphs. (arXiv:2211.06887v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2202.11671](http://arxiv.org/abs/2202.11671)
+    [http://arxiv.org/abs/2211.06887](http://arxiv.org/abs/2211.06887)
 
-    本文在高维设置下，提出了一种新的方法来恢复对立分布，能够在面板结构中同时建模整个条件分位函数，并通过非渐近界限来估计，可以为从业人员重新构建整个对立分布提供帮助。
+    该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。
 
     
 
-    在治疗效应估计的背景下，本文提出了一种新的方法来恢复对立分布，当只有一个（或少数）受治疗单位和可能的高维潜在控制单位在面板结构中观察到时。该方法适用于单位数大于时间周期数（高维设置），但并不要求。与仅建模条件均值相反，我们提出了在干预之前建模整个条件分位函数（CQF）并使用l1惩罚回归在干预期间进行估计。我们导出了对估计的CQF的非渐近界限，在分位数上均匀有效。这些界限是明确的，能够通过时间周期数、控制单位数、弱依赖系数（beta混合）和随机变量的尾巴衰减来解释。这些结果使从业人员能够重新构建整个对立分布。
+    一个公司-员工超图由连接公司和可能雇员的边组成。我们表明，在可转让效用的多对一匹配和离散的多对一匹配中，当公司-员工超图没有非平凡奇数长度的循环时，存在稳定匹配。满足这个条件的公司偏好出现在将专门的公司与专业人士进行匹配的问题中。
 
-    In the context of treatment effect estimation, this paper proposes a new methodology to recover the counterfactual distribution when there is a single (or a few) treated unit and possibly a high-dimensional number of potential controls observed in a panel structure. The methodology accommodates, albeit does not require, the number of units to be larger than the number of time periods (high-dimensional setup). As opposed to modeling only the conditional mean, we propose to model the entire conditional quantile function (CQF) without intervention and estimate it using the pre-intervention period by a l1-penalized regression. We derive non-asymptotic bounds for the estimated CQF valid uniformly over the quantiles. The bounds are explicit in terms of the number of time periods, the number of control units, the weak dependence coefficient (beta-mixing), and the tail decay of the random variables. The results allow practitioners to re-construct the entire counterfactual distribution. Moreove
+    A firm-worker hypergraph consists of edges in which each edge joins a firm and its possible employees. We show that a stable matching exists in both many-to-one matching with transferable utilities and discrete many-to-one matching when the firm-worker hypergraph has no nontrivial odd-length cycle. Firms' preferences satisfying this condition arise in a problem of matching specialized firms with specialists.
+    
+[^8]: 高维空间面板网络上的均匀推断
+
+    Uniform Inference on High-dimensional Spatial Panel Networks. (arXiv:2105.07424v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2105.07424](http://arxiv.org/abs/2105.07424)
+
+    本研究在大规模空间面板网络上提出了一种均匀推断理论，该理论能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。
+
+    
+
+    我们提出了一种偏差-正则化的高维广义矩方法（GMM）框架，用于对大规模空间面板网络进行推断。特别是，利用偏差机器学习方法估计具有灵活稀疏偏差的网络结构，这可以被视为潜在的或者与预定的邻接矩阵不匹配。理论分析确立了我们提出的估计器的一致性和渐近正态性，考虑了数据生成过程中的一般时间和空间依赖性。讨论了依赖性存在时的维度允许性。我们研究的一个主要贡献是开发了一种均匀推断理论，能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。此外，对估计器的渐近性质进行了线性和非线性时刻的推导。模拟实验证明了所提方法的有效性。
+
+    We propose employing a debiased-regularized, high-dimensional generalized method of moments (GMM) framework to perform inference on large-scale spatial panel networks. In particular, network structure with a flexible sparse deviation, which can be regarded either as latent or as misspecified from a predetermined adjacency matrix, is estimated using debiased machine learning approach. The theoretical analysis establishes the consistency and asymptotic normality of our proposed estimator, taking into account general temporal and spatial dependency inherent in the data-generating processes. The dimensionality allowance in presence of dependency is discussed. A primary contribution of our study is the development of uniform inference theory that enables hypothesis testing on the parameters of interest, including zero or non-zero elements in the network structure. Additionally, the asymptotic properties for the estimator are derived for both linear and nonlinear moments. Simulations demonst
     
 

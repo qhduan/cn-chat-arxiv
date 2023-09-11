@@ -1,0 +1,11 @@
+{
+    "title": "Robust equilibria in cheap-talk games with fairly transparent motives. (arXiv:2309.04193v1 [econ.TH])",
+    "abstract": "We show that sender-optimal equilibria in cheap-talk games with a binary state space and state-independent preferences are robust to perturbations of the sender's preferences that allow for slight state-dependence. Other equilibria generally fail to be robust.",
+    "link": "http://arxiv.org/abs/2309.04193",
+    "context": "Title: Robust equilibria in cheap-talk games with fairly transparent motives. (arXiv:2309.04193v1 [econ.TH])\nAbstract: We show that sender-optimal equilibria in cheap-talk games with a binary state space and state-independent preferences are robust to perturbations of the sender's preferences that allow for slight state-dependence. Other equilibria generally fail to be robust.",
+    "path": "papers/23/09/2309.04193.json",
+    "total_tokens": 542,
+    "translated_title": "具有相对透明动机的廉价交流博弈中的稳健均衡",
+    "translated_abstract": "我们证明，在具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的扰动是稳健的，这些扰动允许轻微的状态依赖。其他均衡通常不具备稳健性。",
+    "tldr": "具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的轻微状态依赖是稳健的。"
+}

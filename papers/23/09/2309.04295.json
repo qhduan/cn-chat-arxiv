@@ -1,0 +1,12 @@
+{
+    "title": "FIMO: A Challenge Formal Dataset for Automated Theorem Proving. (arXiv:2309.04295v1 [cs.AI])",
+    "abstract": "We present FIMO, an innovative dataset comprising formal mathematical problem statements sourced from the International Mathematical Olympiad (IMO) Shortlisted Problems. Designed to facilitate advanced automated theorem proving at the IMO level, FIMO is currently tailored for the Lean formal language. It comprises 149 formal problem statements, accompanied by both informal problem descriptions and their corresponding LaTeX-based informal proofs. Through initial experiments involving GPT-4, our findings underscore the existing limitations in current methodologies, indicating a substantial journey ahead before achieving satisfactory IMO-level automated theorem proving outcomes.",
+    "link": "http://arxiv.org/abs/2309.04295",
+    "context": "Title: FIMO: A Challenge Formal Dataset for Automated Theorem Proving. (arXiv:2309.04295v1 [cs.AI])\nAbstract: We present FIMO, an innovative dataset comprising formal mathematical problem statements sourced from the International Mathematical Olympiad (IMO) Shortlisted Problems. Designed to facilitate advanced automated theorem proving at the IMO level, FIMO is currently tailored for the Lean formal language. It comprises 149 formal problem statements, accompanied by both informal problem descriptions and their corresponding LaTeX-based informal proofs. Through initial experiments involving GPT-4, our findings underscore the existing limitations in current methodologies, indicating a substantial journey ahead before achieving satisfactory IMO-level automated theorem proving outcomes.",
+    "path": "papers/23/09/2309.04295.json",
+    "total_tokens": 672,
+    "translated_title": "FIMO: 一个用于自动定理证明的挑战形式化数据集",
+    "translated_abstract": "我们提出了FIMO，一个创新的数据集，包括从国际数学奥林匹克竞赛（IMO）的入围问题中获得的形式化数学问题陈述。FIMO旨在促进IMO级别的高级自动定理证明，目前专为Lean形式语言设计。它包括149个形式化问题陈述，同时附带非正式的问题描述和相应的基于LaTeX的非正式证明。通过使用GPT-4进行初步实验，我们的研究结果强调了当前方法的局限性，表明在实现令人满意的IMO级别自动定理证明结果之前还有很长的路要走。",
+    "tldr": "FIMO是一个创新的数据集，用于IMO水平的自动定理证明，包含149个形式化数学问题陈述，目前仍存在挑战和限制。",
+    "en_tdlr": "FIMO is an innovative dataset for automated theorem proving at the IMO level, consisting of 149 formal mathematical problem statements, with existing challenges and limitations."
+}

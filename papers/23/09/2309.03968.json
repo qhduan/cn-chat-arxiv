@@ -1,0 +1,12 @@
+{
+    "title": "Common Firm-level Investor Fears: Evidence from Equity Options. (arXiv:2309.03968v1 [q-fin.GN])",
+    "abstract": "We identify a new type of risk, common firm-level investor fears, from commonalities within the cross-sectional distribution of individual stock options. We define firm-level fears that link with upward price movements as good fears, and those relating to downward price movements as bad fears. Such information is different to market fears that we extract from index options. Stocks with high sensitivities to common firm-level investor fears earn lower returns, with investors demanding a higher compensation for exposure to common bad fears relative to common good fears. Risk premium estimates for common bad fears range from -5.63% to -4.92% per annum.",
+    "link": "http://arxiv.org/abs/2309.03968",
+    "context": "Title: Common Firm-level Investor Fears: Evidence from Equity Options. (arXiv:2309.03968v1 [q-fin.GN])\nAbstract: We identify a new type of risk, common firm-level investor fears, from commonalities within the cross-sectional distribution of individual stock options. We define firm-level fears that link with upward price movements as good fears, and those relating to downward price movements as bad fears. Such information is different to market fears that we extract from index options. Stocks with high sensitivities to common firm-level investor fears earn lower returns, with investors demanding a higher compensation for exposure to common bad fears relative to common good fears. Risk premium estimates for common bad fears range from -5.63% to -4.92% per annum.",
+    "path": "papers/23/09/2309.03968.json",
+    "total_tokens": 831,
+    "translated_title": "共同的企业级投资者恐惧：来自股票期权的证据",
+    "translated_abstract": "我们从个股期权的横截面分布中识别出一种新型风险，即共同的企业级投资者恐惧。我们将与上涨价格相关的恐惧定义为好的恐惧，而与下跌价格相关的恐惧定义为坏的恐惧。这些信息不同于我们从指数期权中提取的市场恐惧。对于对共同的坏恐惧相对于共同的好恐惧暴露要求更高补偿的股票，其收益较低。共同的坏恐惧的风险溢价估计范围为每年-5.63%至-4.92%。",
+    "tldr": "该论文通过分析个股期权的横截面分布，发现了一种新型风险——共同的企业级投资者恐惧。股票对共同的坏恐惧较好恐惧具有较高的敏感度，投资者对于暴露于共同的坏恐惧要求较高的补偿。共同的坏恐惧的风险溢价估计范围为每年-5.63%至-4.92%。",
+    "en_tdlr": "This paper identifies a new type of risk, common firm-level investor fears, from individual stock options. Stocks with high sensitivities to common bad fears earn lower returns, indicating that investors demand a higher compensation for exposure to common bad fears. Risk premium estimates for common bad fears range from -5.63% to -4.92% per annum."
+}

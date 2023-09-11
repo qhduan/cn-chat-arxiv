@@ -1,0 +1,12 @@
+{
+    "title": "Aggregation of financial markets. (arXiv:2309.04116v1 [q-fin.MF])",
+    "abstract": "We present a formal framework for the aggregation of financial markets mediated by arbitrage. Our main tool is to characterize markets via utility functions and to employ a one-to-one correspondence to limit order book states. Inspired by the theory of thermodynamics we argue that the arbitrage-mediated aggregation mechanism gives rise to a market-dynamical entropy, which quantifies the loss of liquidity caused by aggregation. We also discuss future directions of research in this emerging theory of market dynamics.",
+    "link": "http://arxiv.org/abs/2309.04116",
+    "context": "Title: Aggregation of financial markets. (arXiv:2309.04116v1 [q-fin.MF])\nAbstract: We present a formal framework for the aggregation of financial markets mediated by arbitrage. Our main tool is to characterize markets via utility functions and to employ a one-to-one correspondence to limit order book states. Inspired by the theory of thermodynamics we argue that the arbitrage-mediated aggregation mechanism gives rise to a market-dynamical entropy, which quantifies the loss of liquidity caused by aggregation. We also discuss future directions of research in this emerging theory of market dynamics.",
+    "path": "papers/23/09/2309.04116.json",
+    "total_tokens": 602,
+    "translated_title": "金融市场的聚合",
+    "translated_abstract": "我们提出了一个通过套利介导的金融市场聚合的形式框架。我们的主要工具是通过效用函数来表征市场，并利用一对一的限价订单簿状态对应关系。受热力学理论的启发，我们认为套利介导的聚合机制引发了一个市场动力熵，该熵量化了聚合所导致的流动性损失。我们还讨论了这个新兴市场动态理论的未来研究方向。",
+    "tldr": "该论文提出了一个通过套利介导的金融市场聚合形式框架，并通过市场动力熵量化了聚合导致的流动性损失。",
+    "en_tdlr": "This paper presents a formal framework for the aggregation of financial markets mediated by arbitrage, and quantifies the loss of liquidity caused by aggregation through market-dynamical entropy."
+}

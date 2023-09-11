@@ -2,61 +2,89 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference.](http://arxiv.org/abs/2309.03773) | 本文提出了一种扩展传导知识图嵌入方法的模型，用于处理归纳推理任务。通过引入广义的谐波扩展，利用传导嵌入方法学习的表示来推断在推理时引入的新实体的表示。 |
-| [^2] | [VideolandGPT: A User Study on a Conversational Recommender System.](http://arxiv.org/abs/2309.03645) | 本研究通过使用大语言模型VideolandGPT改进了会话式推荐系统，实验表明个性化版本在准确性和用户满意度方面优于非个性化版本，但两个版本在公平性方面存在不一致行为。 |
-| [^3] | [Evaluating ChatGPT as a Recommender System: A Rigorous Approach.](http://arxiv.org/abs/2309.03613) | 这项研究评估了ChatGPT作为推荐系统的能力，通过探索其利用用户偏好进行推荐、重新排序推荐列表、利用相似用户信息以及处理冷启动情况的能力，并使用三个数据集进行了全面实验。 |
-| [^4] | [Learning Compact Compositional Embeddings via Regularized Pruning for Recommendation.](http://arxiv.org/abs/2309.03518) | 本研究提出了一种用于推荐系统的新型紧凑嵌入框架，该框架通过正则化修剪的方式在资源受限的环境中实现了更高的内存效率，从而提供了高准确度的推荐。 |
-| [^5] | [Behind Recommender Systems: the Geography of the ACM RecSys Community.](http://arxiv.org/abs/2309.03512) | 该研究通过分析参与ACM会议的作者所属国家，探讨了推荐系统研究社区的地理多样性。这强调了在推荐系统设计和开发的早期阶段，需要涉及来自不同背景的观点和团队的参与。 |
-| [^6] | [Impression-Informed Multi-Behavior Recommender System: A Hierarchical Graph Attention Approach.](http://arxiv.org/abs/2309.03169) | 这个论文提出了一种基于印象感知的多行为推荐系统，通过利用注意机制从行为间和行为内部获取信息，并采用多层级图注意力方法，来解决推荐系统在处理多个行为之间互动方面的挑战。 |
-| [^7] | [ZC3: Zero-Shot Cross-Language Code Clone Detection.](http://arxiv.org/abs/2308.13754) | 本文提出了一种名为ZC3的跨语言零样本代码克隆检测方法。该方法设计了对比代码片段预测，形成不同编程语言之间的同构表示空间，并利用领域感知学习和循环一致性学习来进一步约束模型。 |
-| [^8] | [RAHNet: Retrieval Augmented Hybrid Network for Long-tailed Graph Classification.](http://arxiv.org/abs/2308.02335) | 我们提出了一种检索增强型混合网络(RAHNet)用于长尾图分类任务，通过联合学习稳健的特征提取器和无偏的分类器，解决了图神经网络在长尾类别分布下的偏差和泛化能力有限的问题。 |
-| [^9] | [A Decade of Scholarly Research on Open Knowledge Graphs.](http://arxiv.org/abs/2306.13186) | 本文分析了过去十年开放知识图谱的学术研究趋势和主题，并确定了知识图谱构建和增强、评估和复用以及将知识图谱融入NLP系统的三个主要研究主题。 |
+| [^1] | [Provider Fairness and Beyond-Accuracy Trade-offs in Recommender Systems.](http://arxiv.org/abs/2309.04250) | 本文研究了推荐系统中的提供商公平性问题以及相应的超越准确性考虑。通过引入后处理重新排序模型，我们在维护用户相关性和推荐质量的同时，优先考虑了提供商公平性。针对多个数据集进行的评估显示该模型在推荐质量各个方面有积极影响。 |
+| [^2] | [Offline Recommender System Evaluation under Unobserved Confounding.](http://arxiv.org/abs/2309.04222) | 本论文讨论了在存在潜在混淆因素的情况下进行离线推荐系统评估的问题，并特别关注推荐系统用例。通过对基于策略的估计器进行研究，我们描述了由混淆因素引起的统计偏差。 |
+| [^3] | [Receiving an algorithmic recommendation based on documentary filmmaking techniques.](http://arxiv.org/abs/2309.04184) | 本研究分析了基于纪录片制作技术的算法推荐在T{\"e}nk平台上的接受情况，通过构建一组元数据来描述纪录片制作设备的多样性，探讨平台电影爱好者如何理解和接受类似纪录片制作设备的个性化推荐。讨论了这个概念验证的贡献和局限，并提出了提升纪录片仪器化媒介的思考方向。 |
+| [^4] | [A Long-Tail Friendly Representation Framework for Artist and Music Similarity.](http://arxiv.org/abs/2309.04182) | 本论文提出了一种长尾友好的表示框架，利用神经网络模型艺术家和音乐之间的相似关系，改善了传统方法在稀疏关系中的表示性能。 |
+| [^5] | [PRISTA-Net: Deep Iterative Shrinkage Thresholding Network for Coded Diffraction Patterns Phase Retrieval.](http://arxiv.org/abs/2309.04171) | PRISTA-Net是一个基于深度迭代缩减阈值算法的网络，通过学习非线性变换和注意机制来处理相位恢复问题，并使用快速傅里叶变换和基于对数的损失函数来提高性能。 |
+| [^6] | [Learning Compact Compositional Embeddings via Regularized Pruning for Recommendation.](http://arxiv.org/abs/2309.03518) | 本研究提出了一种用于推荐系统的新型紧凑嵌入框架，该框架通过正则化修剪的方式在资源受限的环境中实现了更高的内存效率，从而提供了高准确度的推荐。 |
+| [^7] | [TensorBank:Tensor Lakehouse for Foundation Model Training.](http://arxiv.org/abs/2309.02094) | TensorBank是一个基于Tensor的湖仓库，能够以高速从云对象存储流式传输张量到GPU内存，并通过使用分层统计指标进行查询加速。 |
+| [^8] | [RecFusion: A Binomial Diffusion Process for 1D Data for Recommendation.](http://arxiv.org/abs/2306.08947) | 本文提出了 RecFusion，一种特定针对1D和/或二进制设置的推荐模型方法，其利用了二项式扩散过程对二元用户-项目交互进行显式建模，并在核心推荐设置和最常见的数据集上接近复杂的VAE基线的表现。 |
+| [^9] | [STIXnet: A Novel and Modular Solution for Extracting All STIX Objects in CTI Reports.](http://arxiv.org/abs/2303.09999) | 提出了一种名为STIXnet的解决方案，可以自动提取CTI报告中所有的STIX实体和关系。 |
 
 # 详细
 
-[^1]: 扩展传导知识图嵌入模型用于归纳逻辑关系推理
+[^1]: 提供商公平性与推荐系统中超越准确性的权衡研究
 
-    Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference. (arXiv:2309.03773v1 [cs.AI])
+    Provider Fairness and Beyond-Accuracy Trade-offs in Recommender Systems. (arXiv:2309.04250v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.03773](http://arxiv.org/abs/2309.03773)
+    [http://arxiv.org/abs/2309.04250](http://arxiv.org/abs/2309.04250)
 
-    本文提出了一种扩展传导知识图嵌入方法的模型，用于处理归纳推理任务。通过引入广义的谐波扩展，利用传导嵌入方法学习的表示来推断在推理时引入的新实体的表示。
-
-    
-
-    许多知识图的下游推理任务，例如关系预测，在传导设置下已经成功处理了。为了处理归纳设置，也就是在推理时引入新实体到知识图中，较新的工作选择了通过网络子图结构的复杂函数学习知识图的隐式表示的模型，通常由图神经网络架构参数化。这些模型的成本是增加的参数化、降低的可解释性和对其他下游推理任务的有限泛化能力。在这项工作中，我们通过引入广义的谐波扩展来弥合传统传导知识图嵌入方法和较新的归纳关系预测模型之间的差距，通过利用通过传导嵌入方法学习的表示来推断在推理时引入的新实体的表示。
-
-    Many downstream inference tasks for knowledge graphs, such as relation prediction, have been handled successfully by knowledge graph embedding techniques in the transductive setting. To address the inductive setting wherein new entities are introduced into the knowledge graph at inference time, more recent work opts for models which learn implicit representations of the knowledge graph through a complex function of a network's subgraph structure, often parametrized by graph neural network architectures. These come at the cost of increased parametrization, reduced interpretability and limited generalization to other downstream inference tasks. In this work, we bridge the gap between traditional transductive knowledge graph embedding approaches and more recent inductive relation prediction models by introducing a generalized form of harmonic extension which leverages representations learned through transductive embedding methods to infer representations of new entities introduced at infe
-    
-[^2]: VideolandGPT：关于会话式推荐系统的用户研究
-
-    VideolandGPT: A User Study on a Conversational Recommender System. (arXiv:2309.03645v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.03645](http://arxiv.org/abs/2309.03645)
-
-    本研究通过使用大语言模型VideolandGPT改进了会话式推荐系统，实验表明个性化版本在准确性和用户满意度方面优于非个性化版本，但两个版本在公平性方面存在不一致行为。
+    本文研究了推荐系统中的提供商公平性问题以及相应的超越准确性考虑。通过引入后处理重新排序模型，我们在维护用户相关性和推荐质量的同时，优先考虑了提供商公平性。针对多个数据集进行的评估显示该模型在推荐质量各个方面有积极影响。
 
     
 
-    本文研究了如何通过大语言模型（LLMs）增强推荐系统，重点关注利用用户偏好和现有排名模型的个性化候选选择的会话式推荐系统。我们介绍了VideolandGPT，这是一个用于视频点播平台Videoland的推荐系统，它使用ChatGPT从预定内容集合中进行选择，考虑到用户与聊天界面的交互所示的额外上下文。我们通过一项用户研究，比较了个性化和非个性化版本的系统在排名指标、用户体验和推荐的公平性方面的表现。我们的结果表明，个性化版本在准确性和一般用户满意度方面优于非个性化版本，而两个版本都增加了排名推荐列表中非前列的项目的可见性。然而，在公平性方面，两个版本的行为都不一致。
+    推荐系统在改善用户在线体验的同时，也引发了对潜在的提供商公平性问题的关注。这些系统可能会不经意地偏爱热门物品，从而使较不流行的物品边缘化，并妥协了提供商的公平性。虽然以前的研究已经意识到提供商公平性问题，但对这些偏见如何影响推荐系统的超越准确性方面（如多样性、新颖性、覆盖率和偶然性）的调查却不够重视。在本文中，我们通过引入一个简单而有效的后处理重新排序模型，旨在优先考虑提供商公平性的同时，保持用户相关性和推荐质量，来填补这一空白。然后，我们对模型在多个数据集上对推荐质量的各个方面的影响进行深入评估。具体而言，我们将后处理算法应用于四个不同领域数据集上的四个独立的推荐模型，进行评估。
 
-    This paper investigates how large language models (LLMs) can enhance recommender systems, with a specific focus on Conversational Recommender Systems that leverage user preferences and personalised candidate selections from existing ranking models. We introduce VideolandGPT, a recommender system for a Video-on-Demand (VOD) platform, Videoland, which uses ChatGPT to select from a predetermined set of contents, considering the additional context indicated by users' interactions with a chat interface. We evaluate ranking metrics, user experience, and fairness of recommendations, comparing a personalised and a non-personalised version of the system, in a between-subject user study. Our results indicate that the personalised version outperforms the non-personalised in terms of accuracy and general user satisfaction, while both versions increase the visibility of items which are not in the top of the recommendation lists. However, both versions present inconsistent behavior in terms of fairn
+    Recommender systems, while transformative in online user experiences, have raised concerns over potential provider-side fairness issues. These systems may inadvertently favor popular items, thereby marginalizing less popular ones and compromising provider fairness. While previous research has recognized provider-side fairness issues, the investigation into how these biases affect beyond-accuracy aspects of recommendation systems - such as diversity, novelty, coverage, and serendipity - has been less emphasized. In this paper, we address this gap by introducing a simple yet effective post-processing re-ranking model that prioritizes provider fairness, while simultaneously maintaining user relevance and recommendation quality. We then conduct an in-depth evaluation of the model's impact on various aspects of recommendation quality across multiple datasets. Specifically, we apply the post-processing algorithm to four distinct recommendation models across four varied domain datasets, asses
     
-[^3]: 评估ChatGPT作为推荐系统的严谨方法
+[^2]: 未观察到潜在混淆因素下的离线推荐系统评估
 
-    Evaluating ChatGPT as a Recommender System: A Rigorous Approach. (arXiv:2309.03613v1 [cs.IR])
+    Offline Recommender System Evaluation under Unobserved Confounding. (arXiv:2309.04222v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.03613](http://arxiv.org/abs/2309.03613)
+    [http://arxiv.org/abs/2309.04222](http://arxiv.org/abs/2309.04222)
 
-    这项研究评估了ChatGPT作为推荐系统的能力，通过探索其利用用户偏好进行推荐、重新排序推荐列表、利用相似用户信息以及处理冷启动情况的能力，并使用三个数据集进行了全面实验。
+    本论文讨论了在存在潜在混淆因素的情况下进行离线推荐系统评估的问题，并特别关注推荐系统用例。通过对基于策略的估计器进行研究，我们描述了由混淆因素引起的统计偏差。
 
     
 
-    由于其卓越的自然语言处理能力，大型AI语言模型近年来备受关注。它们在语言相关任务中具有重要贡献，包括基于提示的学习，因此对于各种特定任务非常有价值。这种方法释放了它们的全部潜力，提高了准确性和泛化性。研究界正在积极探索它们的应用，ChatGPT也因此获得了认可。尽管大型语言模型已经有了广泛的研究，但其在推荐场景中的潜力仍待探索。本研究旨在填补这一空白，通过探究ChatGPT作为零-shot推荐系统的能力。我们的目标包括评估其利用用户偏好进行推荐、重新排序现有推荐列表、利用相似用户的信息以及处理冷启动情况的能力。我们通过对三个数据集（MovieLens Small、Last.FM和Facebook Bo）进行全面实验来评估ChatGPT的性能。
+    离线政策估计方法(OPE)允许我们从记录的数据中学习和评估决策策略，使它们成为离线评估推荐系统的吸引人选择。最近的一些作品报道了成功采用OPE方法的情况。这项工作的一个重要假设是不存在未观察到的混淆因素：在数据收集时影响行动和奖励的随机变量。由于数据收集策略通常在从业者的控制之下，因此很少明确地提及无混淆假设，并且现有文献中很少处理其违规问题。这项工作旨在强调在存在未观察到的混淆因素的情况下进行离线策略估计时出现的问题，特别关注推荐系统的用例。我们专注于基于策略的估计器，其中日志倾向是从记录数据中学习的。我们对由于混淆因素引起的统计偏差进行了描述。
 
-    Recent popularity surrounds large AI language models due to their impressive natural language capabilities. They contribute significantly to language-related tasks, including prompt-based learning, making them valuable for various specific tasks. This approach unlocks their full potential, enhancing precision and generalization. Research communities are actively exploring their applications, with ChatGPT receiving recognition. Despite extensive research on large language models, their potential in recommendation scenarios still needs to be explored. This study aims to fill this gap by investigating ChatGPT's capabilities as a zero-shot recommender system. Our goals include evaluating its ability to use user preferences for recommendations, reordering existing recommendation lists, leveraging information from similar users, and handling cold-start situations. We assess ChatGPT's performance through comprehensive experiments using three datasets (MovieLens Small, Last.FM, and Facebook Bo
+    Off-Policy Estimation (OPE) methods allow us to learn and evaluate decision-making policies from logged data. This makes them an attractive choice for the offline evaluation of recommender systems, and several recent works have reported successful adoption of OPE methods to this end. An important assumption that makes this work is the absence of unobserved confounders: random variables that influence both actions and rewards at data collection time. Because the data collection policy is typically under the practitioner's control, the unconfoundedness assumption is often left implicit, and its violations are rarely dealt with in the existing literature.  This work aims to highlight the problems that arise when performing off-policy estimation in the presence of unobserved confounders, specifically focusing on a recommendation use-case. We focus on policy-based estimators, where the logging propensities are learned from logged data. We characterise the statistical bias that arises due to
     
-[^4]: 通过正则化修剪来学习紧凑的组合嵌入以用于推荐
+[^3]: 基于纪录片制作技术的算法推荐的接受研究
+
+    Receiving an algorithmic recommendation based on documentary filmmaking techniques. (arXiv:2309.04184v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.04184](http://arxiv.org/abs/2309.04184)
+
+    本研究分析了基于纪录片制作技术的算法推荐在T{\"e}nk平台上的接受情况，通过构建一组元数据来描述纪录片制作设备的多样性，探讨平台电影爱好者如何理解和接受类似纪录片制作设备的个性化推荐。讨论了这个概念验证的贡献和局限，并提出了提升纪录片仪器化媒介的思考方向。
+
+    
+
+    本文分析了T{\"e}nk平台电影观众对纪录片的新颖算法推荐的接受情况。为了提出一种替代基于主题分类、导演或制作时期的推荐方法，在这个实验框架内，我们构建了一组元数据，以描述“纪录片制作设备”的丰富多样性。研究的目标是调查平台的电影爱好者在个性化推荐的情况下如何理解和接受有相似纪录片制作设备的4部纪录片。最后，讨论了这个概念验证的贡献和局限，以勾勒出提升纪录片仪器化媒介的思考方向。
+
+    This article analyzes the reception of a novel algorithmic recommendation of documentary films by a panel of moviegoers of the T{\"e}nk platform. In order to propose an alternative to recommendations based on a thematic classification, the director or the production period, a set of metadata has been elaborated within the framework of this experimentation in order to characterize the great variety of ``documentary filmmaking dispositifs'' . The goal is to investigate the different ways in which the platform's film lovers appropriate a personalized recommendation of 4 documentaries with similar or similar filmmaking dispositifs. To conclude, the contributions and limits of this proof of concept are discussed in order to sketch out avenues of reflection for improving the instrumented mediation of documentary films.
+    
+[^4]: 一种针对艺术家和音乐相似性的长尾友好表示框架
+
+    A Long-Tail Friendly Representation Framework for Artist and Music Similarity. (arXiv:2309.04182v1 [cs.SD])
+
+    [http://arxiv.org/abs/2309.04182](http://arxiv.org/abs/2309.04182)
+
+    本论文提出了一种长尾友好的表示框架，利用神经网络模型艺术家和音乐之间的相似关系，改善了传统方法在稀疏关系中的表示性能。
+
+    
+
+    在音乐检索和推荐中，研究艺术家和音乐之间的相似性是至关重要的，解决长尾现象的挑战日益重要。本文提出了一种利用神经网络建模相似关系的长尾友好表示框架(LTFRF)。我们的方法将音乐、用户、元数据和关系数据整合到一个统一的度量学习框架中，利用元一致性关系作为正则项，引入多关系损失。与图神经网络(GNN)相比，我们提出的框架改善了长尾场景中稀疏的艺术家和音乐之间的关系表示性能。我们在AllMusic数据集上进行了实验和分析，结果表明我们的框架提供了艺术家和音乐表示的有利泛化效果。具体而言，在类似艺术家/音乐推荐任务上，t
+
+    The investigation of the similarity between artists and music is crucial in music retrieval and recommendation, and addressing the challenge of the long-tail phenomenon is increasingly important. This paper proposes a Long-Tail Friendly Representation Framework (LTFRF) that utilizes neural networks to model the similarity relationship. Our approach integrates music, user, metadata, and relationship data into a unified metric learning framework, and employs a meta-consistency relationship as a regular term to introduce the Multi-Relationship Loss. Compared to the Graph Neural Network (GNN), our proposed framework improves the representation performance in long-tail scenarios, which are characterized by sparse relationships between artists and music. We conduct experiments and analysis on the AllMusic dataset, and the results demonstrate that our framework provides a favorable generalization of artist and music representation. Specifically, on similar artist/music recommendation tasks, t
+    
+[^5]: PRISTA-Net:用于编码衍射图模式相位恢复的深度迭代缩减阈值网络
+
+    PRISTA-Net: Deep Iterative Shrinkage Thresholding Network for Coded Diffraction Patterns Phase Retrieval. (arXiv:2309.04171v1 [cs.CV])
+
+    [http://arxiv.org/abs/2309.04171](http://arxiv.org/abs/2309.04171)
+
+    PRISTA-Net是一个基于深度迭代缩减阈值算法的网络，通过学习非线性变换和注意机制来处理相位恢复问题，并使用快速傅里叶变换和基于对数的损失函数来提高性能。
+
+    
+
+    相位恢复（PR）问题涉及从有限的幅度测量数据中恢复未知图像，是计算成像和图像处理中具有挑战性的非线性逆问题。然而，许多PR方法基于缺乏可解释性和计算复杂性般配和调参需求的黑盒网络模型。为了解决这个问题，我们开发了PRISTA-Net，这是一个基于一阶迭代缩减阈值算法（ISTA）的深度展开网络（DUN）。该网络利用可学习的非线性变换来处理稀疏先验中与近端点映射子问题有关的相位信息，还使用注意机制来聚焦包含图像边缘、纹理和结构的相位信息。此外，还使用快速傅里叶变换（FFT）来学习全局特征以增强局部信息，并通过设计的基于对数的损失函数实现了显著的改善。
+
+    The problem of phase retrieval (PR) involves recovering an unknown image from limited amplitude measurement data and is a challenge nonlinear inverse problem in computational imaging and image processing. However, many of the PR methods are based on black-box network models that lack interpretability and plug-and-play (PnP) frameworks that are computationally complex and require careful parameter tuning. To address this, we have developed PRISTA-Net, a deep unfolding network (DUN) based on the first-order iterative shrinkage thresholding algorithm (ISTA). This network utilizes a learnable nonlinear transformation to address the proximal-point mapping sub-problem associated with the sparse priors, and an attention mechanism to focus on phase information containing image edges, textures, and structures. Additionally, the fast Fourier transform (FFT) is used to learn global features to enhance local information, and the designed logarithmic-based loss function leads to significant improve
+    
+[^6]: 通过正则化修剪来学习紧凑的组合嵌入以用于推荐
 
     Learning Compact Compositional Embeddings via Regularized Pruning for Recommendation. (arXiv:2309.03518v1 [cs.IR])
 
@@ -70,74 +98,46 @@
 
     Latent factor models are the dominant backbones of contemporary recommender systems (RSs) given their performance advantages, where a unique vector embedding with a fixed dimensionality (e.g., 128) is required to represent each entity (commonly a user/item). Due to the large number of users and items on e-commerce sites, the embedding table is arguably the least memory-efficient component of RSs. For any lightweight recommender that aims to efficiently scale with the growing size of users/items or to remain applicable in resource-constrained settings, existing solutions either reduce the number of embeddings needed via hashing, or sparsify the full embedding table to switch off selected embedding dimensions. However, as hash collision arises or embeddings become overly sparse, especially when adapting to a tighter memory budget, those lightweight recommenders inevitably have to compromise their accuracy. To this end, we propose a novel compact embedding framework for RSs, namely Compos
     
-[^5]: 推荐系统研究中的地理因素：ACM RecSys社区的地理分布
+[^7]: TensorBank: 基于Tensor的湖仓库用于基础模型训练
 
-    Behind Recommender Systems: the Geography of the ACM RecSys Community. (arXiv:2309.03512v1 [cs.IR])
+    TensorBank:Tensor Lakehouse for Foundation Model Training. (arXiv:2309.02094v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2309.03512](http://arxiv.org/abs/2309.03512)
+    [http://arxiv.org/abs/2309.02094](http://arxiv.org/abs/2309.02094)
 
-    该研究通过分析参与ACM会议的作者所属国家，探讨了推荐系统研究社区的地理多样性。这强调了在推荐系统设计和开发的早期阶段，需要涉及来自不同背景的观点和团队的参与。
-
-    
-
-    现在在线可访问的媒体内容数量和传播速度是压倒性的。推荐系统可以将这些信息过滤成适应我们个人需求或偏好的可管理的流或动态。但是，很重要的一点是过滤信息的算法不能扭曲或削减我们对世界的观点中的重要元素。根据这一原则，最早期的设计和开发阶段必须涉及多元化的观点和团队的参与。例如，最近欧盟的相关法规（如数字服务法案和AI法案）强调了风险监测，包括歧视风险，并要求在AI系统的开发中吸引多背景的人参与。本研究着眼于推荐系统研究社区的地理多样性，具体通过分析在ACM会议上贡献论文的作者所属国家。
-
-    The amount and dissemination rate of media content accessible online is nowadays overwhelming. Recommender Systems filter this information into manageable streams or feeds, adapted to our personal needs or preferences. It is of utter importance that algorithms employed to filter information do not distort or cut out important elements from our perspectives of the world. Under this principle, it is essential to involve diverse views and teams from the earliest stages of their design and development. This has been highlighted, for instance, in recent European Union regulations such as the Digital Services Act, via the requirement of risk monitoring, including the risk of discrimination, and the AI Act, through the requirement to involve people with diverse backgrounds in the development of AI systems. We look into the geographic diversity of the recommender systems research community, specifically by analyzing the affiliation countries of the authors who contributed to the ACM Conference
-    
-[^6]: 基于印象感知的多行为推荐系统：一种层次图注意力方法
-
-    Impression-Informed Multi-Behavior Recommender System: A Hierarchical Graph Attention Approach. (arXiv:2309.03169v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.03169](http://arxiv.org/abs/2309.03169)
-
-    这个论文提出了一种基于印象感知的多行为推荐系统，通过利用注意机制从行为间和行为内部获取信息，并采用多层级图注意力方法，来解决推荐系统在处理多个行为之间互动方面的挑战。
+    TensorBank是一个基于Tensor的湖仓库，能够以高速从云对象存储流式传输张量到GPU内存，并通过使用分层统计指标进行查询加速。
 
     
 
-    尽管推荐系统从隐式反馈中获益良多，但往往会忽略用户与物品之间的多行为互动的细微差别。历史上，这些系统要么将所有行为，如“印象”（以前称为“浏览”）、“添加到购物车”和“购买”，归并为一个统一的“互动”标签，要么仅优先考虑目标行为，通常是“购买”行为，并丢弃有价值的辅助信号。尽管最近的进展试图解决这种简化，但它们主要集中于优化目标行为，与数据稀缺作斗争。此外，它们往往绕过了与行为内在层次结构有关的微妙差异。为了弥合这些差距，我们引入了“H”ierarchical “M”ulti-behavior “G”raph Attention “N”etwork（HMGN）。这个开创性的框架利用注意机制从行为间和行为内部获取信息，同时采用多
+    随着基础模型在自然语言之外的领域的兴起，存储和流式处理高维数据成为基础模型训练的关键需求。在本文中，我们介绍了TensorBank，一个能够基于复杂关系查询从云对象存储（COS）流式传输张量到GPU内存的百亿级张量湖仓库。我们使用分层统计指标（HSI）来加速查询。我们的架构允许使用HTTP范围读取来直接访问块级别的张量。一旦在GPU内存中，数据可以使用PyTorch转换进行转换。我们提供了一个通用的PyTorch数据集类型，配有相应的数据集工厂，用于将关系查询和请求的转换作为一个实例进行翻译。通过使用HSI，可以跳过不相关的块，而无需读取它们，因为这些索引包含不同层次分辨率级别上内容的统计信息。这是一个基于开放标准的有主观观点的架构。
 
-    While recommender systems have significantly benefited from implicit feedback, they have often missed the nuances of multi-behavior interactions between users and items. Historically, these systems either amalgamated all behaviors, such as \textit{impression} (formerly \textit{view}), \textit{add-to-cart}, and \textit{buy}, under a singular 'interaction' label, or prioritized only the target behavior, often the \textit{buy} action, discarding valuable auxiliary signals. Although recent advancements tried addressing this simplification, they primarily gravitated towards optimizing the target behavior alone, battling with data scarcity. Additionally, they tended to bypass the nuanced hierarchy intrinsic to behaviors. To bridge these gaps, we introduce the \textbf{H}ierarchical \textbf{M}ulti-behavior \textbf{G}raph Attention \textbf{N}etwork (HMGN). This pioneering framework leverages attention mechanisms to discern information from both inter and intra-behaviors while employing a multi-
+    Storing and streaming high dimensional data for foundation model training became a critical requirement with the rise of foundation models beyond natural language. In this paper we introduce TensorBank, a petabyte scale tensor lakehouse capable of streaming tensors from Cloud Object Store (COS) to GPU memory at wire speed based on complex relational queries. We use Hierarchical Statistical Indices (HSI) for query acceleration. Our architecture allows to directly address tensors on block level using HTTP range reads. Once in GPU memory, data can be transformed using PyTorch transforms. We provide a generic PyTorch dataset type with a corresponding dataset factory translating relational queries and requested transformations as an instance. By making use of the HSI, irrelevant blocks can be skipped without reading them as those indices contain statistics on their content at different hierarchical resolution levels. This is an opinionated architecture powered by open standards and making h
     
-[^7]: ZC3: 跨语言零样本代码克隆检测
+[^8]: RecFusion：基于二项式扩散过程的1D数据推荐模型
 
-    ZC3: Zero-Shot Cross-Language Code Clone Detection. (arXiv:2308.13754v1 [cs.SE])
+    RecFusion: A Binomial Diffusion Process for 1D Data for Recommendation. (arXiv:2306.08947v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2308.13754](http://arxiv.org/abs/2308.13754)
+    [http://arxiv.org/abs/2306.08947](http://arxiv.org/abs/2306.08947)
 
-    本文提出了一种名为ZC3的跨语言零样本代码克隆检测方法。该方法设计了对比代码片段预测，形成不同编程语言之间的同构表示空间，并利用领域感知学习和循环一致性学习来进一步约束模型。
-
-    
-
-    开发人员引入代码克隆以提高编程效率。许多现有研究在单语言代码克隆检测方面取得了令人瞩目的成果。然而，在软件开发过程中，越来越多的开发人员使用不同的语言编写语义上等价的程序，以支持不同的平台，并帮助开发人员从一种语言翻译项目到另一种语言。考虑到收集跨语言并行数据（尤其是低资源语言）的成本高昂且耗时，设计一种不依赖任何并行数据的有效跨语言模型是一个重要问题。本文提出了一种名为ZC3的新方法，用于零样本跨语言代码克隆检测。ZC3通过设计对比代码片段预测来形成不同编程语言之间的同构表示空间。基于此，ZC3利用领域感知学习和循环一致性学习进一步约束模型以生成表达。
-
-    Developers introduce code clones to improve programming productivity. Many existing studies have achieved impressive performance in monolingual code clone detection. However, during software development, more and more developers write semantically equivalent programs with different languages to support different platforms and help developers translate projects from one language to another. Considering that collecting cross-language parallel data, especially for low-resource languages, is expensive and time-consuming, how designing an effective cross-language model that does not rely on any parallel data is a significant problem. In this paper, we propose a novel method named ZC3 for Zero-shot Cross-language Code Clone detection. ZC3 designs the contrastive snippet prediction to form an isomorphic representation space among different programming languages. Based on this, ZC3 exploits domain-aware learning and cycle consistency learning to further constrain the model to generate represen
-    
-[^8]: RAHNet: 检索增强型混合网络用于长尾图分类
-
-    RAHNet: Retrieval Augmented Hybrid Network for Long-tailed Graph Classification. (arXiv:2308.02335v1 [cs.LG])
-
-    [http://arxiv.org/abs/2308.02335](http://arxiv.org/abs/2308.02335)
-
-    我们提出了一种检索增强型混合网络(RAHNet)用于长尾图分类任务，通过联合学习稳健的特征提取器和无偏的分类器，解决了图神经网络在长尾类别分布下的偏差和泛化能力有限的问题。
+    本文提出了 RecFusion，一种特定针对1D和/或二进制设置的推荐模型方法，其利用了二项式扩散过程对二元用户-项目交互进行显式建模，并在核心推荐设置和最常见的数据集上接近复杂的VAE基线的表现。
 
     
 
-    图分类是许多实际多媒体应用中的关键任务，图可以表示各种多媒体数据类型，如图像、视频和社交网络。以往的研究在平衡的情况下应用图神经网络(GNN)，其中类分布是平衡的。然而，实际数据通常呈现出长尾类别分布，导致在使用GNN时对头部类别存在偏差，且对尾部类别的泛化能力有限。最近的方法主要集中在模型训练过程中重新平衡不同的类别，但这种方法未能明确引入新知识，并牺牲了头部类别的性能。为了解决这些缺点，我们提出了一种新的框架，称为检索增强型混合网络(RAHNet)，以分离的方式联合学习稳健的特征提取器和无偏的分类器。在特征提取器训练阶段，我们开发了一个图检索模块来搜索相关图形。
+    本文提出了RecFusion，这是一组用于推荐的扩散模型。不同于包含空间相关性的图像数据，常用于推荐的用户-项目交互矩阵缺乏用户和项目之间的空间关系。我们在一个一维向量上制定了扩散方法，并提出了二项式扩散，这个方法利用了伯努利过程显式地对二元用户-项目交互进行建模。我们展示了RecFusion在核心推荐设置（针对二进制非顺序反馈的前n项推荐）和最常见的数据集（MovieLens和Netflix）上接近于复杂的VAE基线的表现。我们提出的专门针对1D和/或二进制设置的扩散模型的意义超出了推荐系统，例如在医学领域中使用MRI和CT扫描。
 
-    Graph classification is a crucial task in many real-world multimedia applications, where graphs can represent various multimedia data types such as images, videos, and social networks. Previous efforts have applied graph neural networks (GNNs) in balanced situations where the class distribution is balanced. However, real-world data typically exhibit long-tailed class distributions, resulting in a bias towards the head classes when using GNNs and limited generalization ability over the tail classes. Recent approaches mainly focus on re-balancing different classes during model training, which fails to explicitly introduce new knowledge and sacrifices the performance of the head classes. To address these drawbacks, we propose a novel framework called Retrieval Augmented Hybrid Network (RAHNet) to jointly learn a robust feature extractor and an unbiased classifier in a decoupled manner. In the feature extractor training stage, we develop a graph retrieval module to search for relevant grap
+    In this paper we propose RecFusion, which comprise a set of diffusion models for recommendation. Unlike image data which contain spatial correlations, a user-item interaction matrix, commonly utilized in recommendation, lacks spatial relationships between users and items. We formulate diffusion on a 1D vector and propose binomial diffusion, which explicitly models binary user-item interactions with a Bernoulli process. We show that RecFusion approaches the performance of complex VAE baselines on the core recommendation setting (top-n recommendation for binary non-sequential feedback) and the most common datasets (MovieLens and Netflix). Our proposed diffusion models that are specialized for 1D and/or binary setups have implications beyond recommendation systems, such as in the medical domain with MRI and CT scans.
     
-[^9]: 开放知识图谱的十年学术研究
+[^9]: STIXnet: 一种从CTI报告中提取所有STIX对象的新型模块化解决方案
 
-    A Decade of Scholarly Research on Open Knowledge Graphs. (arXiv:2306.13186v1 [cs.DL])
+    STIXnet: A Novel and Modular Solution for Extracting All STIX Objects in CTI Reports. (arXiv:2303.09999v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.13186](http://arxiv.org/abs/2306.13186)
+    [http://arxiv.org/abs/2303.09999](http://arxiv.org/abs/2303.09999)
 
-    本文分析了过去十年开放知识图谱的学术研究趋势和主题，并确定了知识图谱构建和增强、评估和复用以及将知识图谱融入NLP系统的三个主要研究主题。
+    提出了一种名为STIXnet的解决方案，可以自动提取CTI报告中所有的STIX实体和关系。
 
     
 
-    过去十年间，开放知识图谱的普及导致了对该话题的学术研究的激增。本文展示了针对2013年至2023年间出版的有关开放知识图谱的学术文献的文献计量分析。该研究旨在识别该领域中的趋势，模式和研究的影响，以及出现的关键主题和研究问题。该作品使用文献计量技术分析了从Scopus检索到的4445篇学术文章的样本。研究结果显示，每年关于开放知识图谱的出版物数量不断增加，特别是在发达国家(+50 per year)。这些成果发表在高度引用的学术期刊和会议上。该研究确定了三个主要研究主题：(1)知识图谱的构建和增强，(2)评估和复用，以及(3)将知识图谱融入NLP系统中。在这些主题中，研究确定了广泛研究的具体任务，例如实体链接，关系提取和本体学习。
+    从网络威胁情报(CTI)报告中自动提取信息对于风险管理至关重要。本文提出了一种名为STIXnet的解决方案，通过使用自然语言处理（NLP）技术和交互式实体知识库（KB），可以自动提取CTI报告中所有的STIX实体和关系。
 
-    The proliferation of open knowledge graphs has led to a surge in scholarly research on the topic over the past decade. This paper presents a bibliometric analysis of the scholarly literature on open knowledge graphs published between 2013 and 2023. The study aims to identify the trends, patterns, and impact of research in this field, as well as the key topics and research questions that have emerged. The work uses bibliometric techniques to analyze a sample of 4445 scholarly articles retrieved from Scopus. The findings reveal an ever-increasing number of publications on open knowledge graphs published every year, particularly in developed countries (+50 per year). These outputs are published in highly-referred scholarly journals and conferences. The study identifies three main research themes: (1) knowledge graph construction and enrichment, (2) evaluation and reuse, and (3) fusion of knowledge graphs into NLP systems. Within these themes, the study identifies specific tasks that have 
+    The automatic extraction of information from Cyber Threat Intelligence (CTI) reports is crucial in risk management. The increased frequency of the publications of these reports has led researchers to develop new systems for automatically recovering different types of entities and relations from textual data. Most state-of-the-art models leverage Natural Language Processing (NLP) techniques, which perform greatly in extracting a few types of entities at a time but cannot detect heterogeneous data or their relations. Furthermore, several paradigms, such as STIX, have become de facto standards in the CTI community and dictate a formal categorization of different entities and relations to enable organizations to share data consistently. This paper presents STIXnet, the first solution for the automated extraction of all STIX entities and relationships in CTI reports. Through the use of NLP techniques and an interactive Knowledge Base (KB) of entities, our approach obtains F1 scores comparab
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "Online Submodular Maximization via Online Convex Optimization. (arXiv:2309.04339v1 [cs.LG])",
+    "abstract": "We study monotone submodular maximization under general matroid constraints in the online setting. We prove that online optimization of a large class of submodular functions, namely, weighted threshold potential functions, reduces to online convex optimization (OCO). This is precisely because functions in this class admit a concave relaxation; as a result, OCO policies, coupled with an appropriate rounding scheme, can be used to achieve sublinear regret in the combinatorial setting. We show that our reduction extends to many different versions of the online learning problem, including the dynamic regret, bandit, and optimistic-learning settings.",
+    "link": "http://arxiv.org/abs/2309.04339",
+    "context": "Title: Online Submodular Maximization via Online Convex Optimization. (arXiv:2309.04339v1 [cs.LG])\nAbstract: We study monotone submodular maximization under general matroid constraints in the online setting. We prove that online optimization of a large class of submodular functions, namely, weighted threshold potential functions, reduces to online convex optimization (OCO). This is precisely because functions in this class admit a concave relaxation; as a result, OCO policies, coupled with an appropriate rounding scheme, can be used to achieve sublinear regret in the combinatorial setting. We show that our reduction extends to many different versions of the online learning problem, including the dynamic regret, bandit, and optimistic-learning settings.",
+    "path": "papers/23/09/2309.04339.json",
+    "total_tokens": 725,
+    "translated_title": "通过在线凸优化实现在线子模最大化",
+    "translated_abstract": "我们研究了在线设置下的一般性子模最大化问题在一般性模性约束下。我们证明了在线优化一类大型子模函数，即加权阈值势函数，可以归约到在线凸优化(OCO)问题。这是因为这个类别的函数可以进行凹松弛;因此，结合适当的舍入方案，OCO策略可以在组合设置中实现次线性遗憾。我们还展示了我们的简化方式可以应用在许多不同版本的在线学习问题中，包括动态遗憾、强盗和乐观学习等设置。",
+    "tldr": "本论文研究了在线设置下的一般性子模最大化问题，并将一类大型子模函数归约到在线凸优化问题中。这种归约方式可在组合优化中实现次线性遗憾，并且适用于许多不同版本的在线学习问题。"
+}

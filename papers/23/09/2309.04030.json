@@ -1,0 +1,12 @@
+{
+    "title": "Brief technical note on linearizing recurrent neural networks (RNNs) before vs after the pointwise nonlinearity. (arXiv:2309.04030v1 [cs.LG])",
+    "abstract": "Linearization of the dynamics of recurrent neural networks (RNNs) is often used to study their properties. The same RNN dynamics can be written in terms of the ``activations\" (the net inputs to each unit, before its pointwise nonlinearity) or in terms of the ``activities\" (the output of each unit, after its pointwise nonlinearity); the two corresponding linearizations are different from each other. This brief and informal technical note describes the relationship between the two linearizations, between the left and right eigenvectors of their dynamics matrices, and shows that some context-dependent effects are readily apparent under linearization of activity dynamics but not linearization of activation dynamics.",
+    "link": "http://arxiv.org/abs/2309.04030",
+    "context": "Title: Brief technical note on linearizing recurrent neural networks (RNNs) before vs after the pointwise nonlinearity. (arXiv:2309.04030v1 [cs.LG])\nAbstract: Linearization of the dynamics of recurrent neural networks (RNNs) is often used to study their properties. The same RNN dynamics can be written in terms of the ``activations\" (the net inputs to each unit, before its pointwise nonlinearity) or in terms of the ``activities\" (the output of each unit, after its pointwise nonlinearity); the two corresponding linearizations are different from each other. This brief and informal technical note describes the relationship between the two linearizations, between the left and right eigenvectors of their dynamics matrices, and shows that some context-dependent effects are readily apparent under linearization of activity dynamics but not linearization of activation dynamics.",
+    "path": "papers/23/09/2309.04030.json",
+    "total_tokens": 755,
+    "translated_title": "在逐点非线性之前与之后线性化循环神经网络 (RNNs) 的简要技术说明",
+    "translated_abstract": "经常使用线性化研究循环神经网络 (RNNs) 的动力学特性。相同的 RNN 动力学可以用“激活”（每个单元的净输入，在逐点非线性之前）或“活动”（每个单元的输出，在逐点非线性之后）来表示；两种对应的线性化方法彼此不同。这篇简短的非正式技术说明描述了两种线性化方法之间的关系，它们动力学矩阵的左右特征向量之间的关系，并表明一些上下文相关效应在活动动力学的线性化下显而易见，而在激活动力学的线性化下则不明显。",
+    "tldr": "这篇论文讨论了循环神经网络在激活与活动动力学线性化过程中的差异，以及线性化活动动力学下一些上下文相关效应的显现。",
+    "en_tdlr": "This paper discusses the differences in linearizing recurrent neural networks (RNNs) between activation and activity dynamics, and shows the emergence of context-dependent effects under linearization of activity dynamics."
+}

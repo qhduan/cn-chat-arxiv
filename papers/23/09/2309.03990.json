@@ -1,0 +1,12 @@
+{
+    "title": "Derivation of Coordinate Descent Algorithms from Optimal Control Theory. (arXiv:2309.03990v1 [math.OC])",
+    "abstract": "Recently, it was posited that disparate optimization algorithms may be coalesced in terms of a central source emanating from optimal control theory. Here we further this proposition by showing how coordinate descent algorithms may be derived from this emerging new principle. In particular, we show that basic coordinate descent algorithms can be derived using a maximum principle and a collection of max functions as \"control\" Lyapunov functions. The convergence of the resulting coordinate descent algorithms is thus connected to the controlled dissipation of their corresponding Lyapunov functions. The operational metric for the search vector in all cases is given by the Hessian of the convex objective function.",
+    "link": "http://arxiv.org/abs/2309.03990",
+    "context": "Title: Derivation of Coordinate Descent Algorithms from Optimal Control Theory. (arXiv:2309.03990v1 [math.OC])\nAbstract: Recently, it was posited that disparate optimization algorithms may be coalesced in terms of a central source emanating from optimal control theory. Here we further this proposition by showing how coordinate descent algorithms may be derived from this emerging new principle. In particular, we show that basic coordinate descent algorithms can be derived using a maximum principle and a collection of max functions as \"control\" Lyapunov functions. The convergence of the resulting coordinate descent algorithms is thus connected to the controlled dissipation of their corresponding Lyapunov functions. The operational metric for the search vector in all cases is given by the Hessian of the convex objective function.",
+    "path": "papers/23/09/2309.03990.json",
+    "total_tokens": 702,
+    "translated_title": "从最优控制理论导出坐标下降算法",
+    "translated_abstract": "最近有人提出，可以用最优控制理论的一个核心源来统一不同的优化算法。本文进一步证明了这一命题，展示了如何从这一新兴原理中导出坐标下降算法。具体而言，我们展示了基本的坐标下降算法可以通过最大原理和一系列最大函数作为“控制”李雅普诺夫函数来导出。因此，得到的坐标下降算法的收敛性与相应的李雅普诺夫函数的受控耗散有关。在所有情况下，搜索向量的操作度量由凸目标函数的Hessian矩阵给出。",
+    "tldr": "本文从最优控制理论中导出了坐标下降算法，并证明了坐标下降算法的收敛性与李雅普诺夫函数的受控耗散有关。",
+    "en_tdlr": "This paper derives coordinate descent algorithms from optimal control theory and demonstrates the convergence of these algorithms is connected to controlled dissipation of Lyapunov functions."
+}

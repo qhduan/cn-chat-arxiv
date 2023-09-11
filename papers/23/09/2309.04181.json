@@ -1,0 +1,12 @@
+{
+    "title": "Concave many-to-one matching. (arXiv:2309.04181v1 [econ.TH])",
+    "abstract": "We propose a notion of concavity in two-sided many-to-one matching, which is an analogue to the balancedness condition in cooperative games. A stable matching exists when the market is concave. We provide a class of concave markets. In the proof of the existence theorem, we use Scarf's algorithm to find a stable schedule matching, which is of independent interest.",
+    "link": "http://arxiv.org/abs/2309.04181",
+    "context": "Title: Concave many-to-one matching. (arXiv:2309.04181v1 [econ.TH])\nAbstract: We propose a notion of concavity in two-sided many-to-one matching, which is an analogue to the balancedness condition in cooperative games. A stable matching exists when the market is concave. We provide a class of concave markets. In the proof of the existence theorem, we use Scarf's algorithm to find a stable schedule matching, which is of independent interest.",
+    "path": "papers/23/09/2309.04181.json",
+    "total_tokens": 607,
+    "translated_title": "凹多对一匹配",
+    "translated_abstract": "我们提出了一个在双边多对一匹配中的凹概念，这相当于合作博弈中的均衡条件。当市场是凹的时候，存在一个稳定的匹配。我们提供了一类凹市场。在存在性定理的证明中，我们使用Scarf算法来找到一个稳定的时间表匹配，这个算法本身也具有独立的兴趣。",
+    "tldr": "凹多对一匹配的概念类似于合作博弈中的均衡条件，在凹市场中可以找到稳定的匹配，并且我们使用Scarf算法证明了存在性并找到了稳定的时间表匹配。",
+    "en_tdlr": "The notion of concavity in two-sided many-to-one matching is proposed, analogous to the balancedness condition in cooperative games. A stable matching exists in concave markets. We provide a class of concave markets and use Scarf's algorithm to find a stable schedule matching in the proof of the existence theorem, which is of independent interest."
+}

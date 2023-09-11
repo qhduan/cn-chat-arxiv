@@ -1,0 +1,12 @@
+{
+    "title": "Multiple Representation Transfer from Large Language Models to End-to-End ASR Systems. (arXiv:2309.04031v1 [cs.CL])",
+    "abstract": "Transferring the knowledge of large language models (LLMs) is a promising technique to incorporate linguistic knowledge into end-to-end automatic speech recognition (ASR) systems. However, existing works only transfer a single representation of LLM (e.g. the last layer of pretrained BERT), while the representation of a text is inherently non-unique and can be obtained variously from different layers, contexts and models. In this work, we explore a wide range of techniques to obtain and transfer multiple representations of LLMs into a transducer-based ASR system. While being conceptually simple, we show that transferring multiple representations of LLMs can be an effective alternative to transferring only a single representation.",
+    "link": "http://arxiv.org/abs/2309.04031",
+    "context": "Title: Multiple Representation Transfer from Large Language Models to End-to-End ASR Systems. (arXiv:2309.04031v1 [cs.CL])\nAbstract: Transferring the knowledge of large language models (LLMs) is a promising technique to incorporate linguistic knowledge into end-to-end automatic speech recognition (ASR) systems. However, existing works only transfer a single representation of LLM (e.g. the last layer of pretrained BERT), while the representation of a text is inherently non-unique and can be obtained variously from different layers, contexts and models. In this work, we explore a wide range of techniques to obtain and transfer multiple representations of LLMs into a transducer-based ASR system. While being conceptually simple, we show that transferring multiple representations of LLMs can be an effective alternative to transferring only a single representation.",
+    "path": "papers/23/09/2309.04031.json",
+    "total_tokens": 711,
+    "translated_title": "大型语言模型到端到端ASR系统的多重表示转移",
+    "translated_abstract": "将大型语言模型的知识转移是将语言知识整合到端到端自动语音识别系统的一种有前途的技术。然而，现有的工作只能转移LLM的单个表示（例如，预训练BERT的最后一层），而文本的表示在本质上是非唯一的，可以通过不同层、上下文和模型以各种方式获得。在这项工作中，我们探索了各种技术来获得和转移LLMs的多个表示到基于传导器的ASR系统中。尽管在概念上简单，但我们证明了将LLMs的多个表示转移可以是转移单个表示的有效替代方法。",
+    "tldr": "本研究探索了将大型语言模型的多个表示转移到端到端自动语音识别系统中的技术，并证明了此方法的有效性。",
+    "en_tdlr": "This paper explores the techniques of transferring multiple representations of large language models to end-to-end automatic speech recognition (ASR) systems and demonstrates the effectiveness of this approach."
+}

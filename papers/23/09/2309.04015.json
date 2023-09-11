@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Transport with Tempered Exponential Measures. (arXiv:2309.04015v1 [cs.LG])",
+    "abstract": "In the field of optimal transport, two prominent subfields face each other: (i) unregularized optimal transport, ``\\`a-la-Kantorovich'', which leads to extremely sparse plans but with algorithms that scale poorly, and (ii) entropic-regularized optimal transport, ``\\`a-la-Sinkhorn-Cuturi'', which gets near-linear approximation algorithms but leads to maximally un-sparse plans. In this paper, we show that a generalization of the latter to tempered exponential measures, a generalization of exponential families with indirect measure normalization, gets to a very convenient middle ground, with both very fast approximation algorithms and sparsity which is under control up to sparsity patterns. In addition, it fits naturally in the unbalanced optimal transport problem setting as well.",
+    "link": "http://arxiv.org/abs/2309.04015",
+    "context": "Title: Optimal Transport with Tempered Exponential Measures. (arXiv:2309.04015v1 [cs.LG])\nAbstract: In the field of optimal transport, two prominent subfields face each other: (i) unregularized optimal transport, ``\\`a-la-Kantorovich'', which leads to extremely sparse plans but with algorithms that scale poorly, and (ii) entropic-regularized optimal transport, ``\\`a-la-Sinkhorn-Cuturi'', which gets near-linear approximation algorithms but leads to maximally un-sparse plans. In this paper, we show that a generalization of the latter to tempered exponential measures, a generalization of exponential families with indirect measure normalization, gets to a very convenient middle ground, with both very fast approximation algorithms and sparsity which is under control up to sparsity patterns. In addition, it fits naturally in the unbalanced optimal transport problem setting as well.",
+    "path": "papers/23/09/2309.04015.json",
+    "total_tokens": 747,
+    "translated_title": "使用温度指数测度的最优输运",
+    "translated_abstract": "在最优输运领域中，两个重要的子领域相互对立：（i）非正则化最优输运，“卡托诺维奇方式”，导致了非常稀疏的规划，但算法效率较低；（ii）熵正则化最优输运，“辛克霍恩-库都里方式”，获得了近似线性算法，但最大程度上无法稀疏规划。本文中，我们将后一种方法推广到温度指数测度，即具有间接测度归一化的指数族泛化，取得了非常方便的折中效果，具有非常快的近似算法和可控的稀疏性，同时也适用于不平衡最优输运问题。",
+    "tldr": "本文推广了熵正则化最优输运方法，将其应用于温度指数测度中，实现了快速有效的算法和可控的稀疏性。",
+    "en_tdlr": "This paper generalizes the entropic-regularized optimal transport method to tempered exponential measures, achieving both fast and efficient algorithms and controllable sparsity."
+}

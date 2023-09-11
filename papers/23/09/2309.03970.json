@@ -1,0 +1,12 @@
+{
+    "title": "Automatic Concept Embedding Model (ACEM): No train-time concepts, No issue!. (arXiv:2309.03970v1 [cs.LG])",
+    "abstract": "Interpretability and explainability of neural networks is continuously increasing in importance, especially within safety-critical domains and to provide the social right to explanation. Concept based explanations align well with how humans reason, proving to be a good way to explain models. Concept Embedding Models (CEMs) are one such concept based explanation architectures. These have shown to overcome the trade-off between explainability and performance. However, they have a key limitation -- they require concept annotations for all their training data. For large datasets, this can be expensive and infeasible. Motivated by this, we propose Automatic Concept Embedding Models (ACEMs), which learn the concept annotations automatically.",
+    "link": "http://arxiv.org/abs/2309.03970",
+    "context": "Title: Automatic Concept Embedding Model (ACEM): No train-time concepts, No issue!. (arXiv:2309.03970v1 [cs.LG])\nAbstract: Interpretability and explainability of neural networks is continuously increasing in importance, especially within safety-critical domains and to provide the social right to explanation. Concept based explanations align well with how humans reason, proving to be a good way to explain models. Concept Embedding Models (CEMs) are one such concept based explanation architectures. These have shown to overcome the trade-off between explainability and performance. However, they have a key limitation -- they require concept annotations for all their training data. For large datasets, this can be expensive and infeasible. Motivated by this, we propose Automatic Concept Embedding Models (ACEMs), which learn the concept annotations automatically.",
+    "path": "papers/23/09/2309.03970.json",
+    "total_tokens": 750,
+    "translated_title": "自动概念嵌入模型（ACEM）：无需训练时的概念，无需担心!",
+    "translated_abstract": "神经网络的可解释性和可解释性在安全关键领域和提供社会解释权方面的重要性不断增加。基于概念的解释与人类推理相吻合，证明是一种很好的解释模型的方法。概念嵌入模型（CEM）是一种基于概念的解释架构。它们已经证明可以克服可解释性和性能之间的权衡。然而，它们存在一个关键限制 - 它们需要为所有训练数据提供概念注释。对于大型数据集，这可能是昂贵而不可行的。出于这个动机，我们提出了自动概念嵌入模型（ACEM），它可以自动学习概念注释。",
+    "tldr": "这篇论文介绍了一种自动概念嵌入模型（ACEM），它可以解决概念注释对大型数据集的昂贵和不可行性的问题。",
+    "en_tdlr": "This paper introduces an Automatic Concept Embedding Model (ACEM) that addresses the issue of expensive and infeasible concept annotations for large datasets."
+}

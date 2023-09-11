@@ -1,0 +1,12 @@
+{
+    "title": "Firm-worker hypergraphs. (arXiv:2211.06887v2 [econ.TH] UPDATED)",
+    "abstract": "A firm-worker hypergraph consists of edges in which each edge joins a firm and its possible employees. We show that a stable matching exists in both many-to-one matching with transferable utilities and discrete many-to-one matching when the firm-worker hypergraph has no nontrivial odd-length cycle. Firms' preferences satisfying this condition arise in a problem of matching specialized firms with specialists.",
+    "link": "http://arxiv.org/abs/2211.06887",
+    "context": "Title: Firm-worker hypergraphs. (arXiv:2211.06887v2 [econ.TH] UPDATED)\nAbstract: A firm-worker hypergraph consists of edges in which each edge joins a firm and its possible employees. We show that a stable matching exists in both many-to-one matching with transferable utilities and discrete many-to-one matching when the firm-worker hypergraph has no nontrivial odd-length cycle. Firms' preferences satisfying this condition arise in a problem of matching specialized firms with specialists.",
+    "path": "papers/22/11/2211.06887.json",
+    "total_tokens": 570,
+    "translated_title": "公司-员工超图",
+    "translated_abstract": "一个公司-员工超图由连接公司和可能雇员的边组成。我们表明，在可转让效用的多对一匹配和离散的多对一匹配中，当公司-员工超图没有非平凡奇数长度的循环时，存在稳定匹配。满足这个条件的公司偏好出现在将专门的公司与专业人士进行匹配的问题中。",
+    "tldr": "该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。",
+    "en_tdlr": "This paper introduces the concept of firm-worker hypergraphs and proves the existence of stable matching when there are no nontrivial odd-length cycles in the hypergraph. This result is applicable to matching specialized firms with specialists."
+}

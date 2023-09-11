@@ -1,0 +1,12 @@
+{
+    "title": "Computationally Efficient Data-Driven Discovery and Linear Representation of Nonlinear Systems For Control. (arXiv:2309.04074v1 [eess.SY])",
+    "abstract": "This work focuses on developing a data-driven framework using Koopman operator theory for system identification and linearization of nonlinear systems for control. Our proposed method presents a deep learning framework with recursive learning. The resulting linear system is controlled using a linear quadratic control. An illustrative example using a pendulum system is presented with simulations on noisy data. We show that our proposed method is trained more efficiently and is more accurate than an autoencoder baseline.",
+    "link": "http://arxiv.org/abs/2309.04074",
+    "context": "Title: Computationally Efficient Data-Driven Discovery and Linear Representation of Nonlinear Systems For Control. (arXiv:2309.04074v1 [eess.SY])\nAbstract: This work focuses on developing a data-driven framework using Koopman operator theory for system identification and linearization of nonlinear systems for control. Our proposed method presents a deep learning framework with recursive learning. The resulting linear system is controlled using a linear quadratic control. An illustrative example using a pendulum system is presented with simulations on noisy data. We show that our proposed method is trained more efficiently and is more accurate than an autoencoder baseline.",
+    "path": "papers/23/09/2309.04074.json",
+    "total_tokens": 670,
+    "translated_title": "计算高效的数据驱动非线性系统的发现和线性表示的控制方法",
+    "translated_abstract": "该研究着重于使用Koopman算子理论开发一种数据驱动框架，用于非线性系统的系统辨识和线性化以进行控制。我们提出的方法提供了一个具有递归学习的深度学习框架。通过线性二次控制来控制最终的线性系统。使用一个摆动系统的实例来进行演示，并通过对噪声数据的模拟来验证。我们展示了我们的方法比一个自编码器基准方法更高效和更准确。",
+    "tldr": "本论文提出了一种计算高效的数据驱动方法，使用Koopman算子理论来发现和线性表示非线性系统，并应用于控制。与自编码器基准方法相比，我们的方法在训练效率和准确性上都更优秀。",
+    "en_tdlr": "This paper proposes a computationally efficient data-driven method that utilizes Koopman operator theory for the discovery and linear representation of nonlinear systems, applied to control. Our method outperforms an autoencoder baseline in terms of training efficiency and accuracy."
+}
