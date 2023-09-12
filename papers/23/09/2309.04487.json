@@ -1,0 +1,12 @@
+{
+    "title": "Penalization Framework For Autonomous Agents Using Answer Set Programming. (arXiv:2309.04487v1 [cs.AI])",
+    "abstract": "This paper presents a framework for enforcing penalties on intelligent agents that do not comply with authorization or obligation policies in a changing environment. A framework is proposed to represent and reason about penalties in plans, and an algorithm is proposed to penalize an agent's actions based on their level of compliance with respect to authorization and obligation policies. Being aware of penalties an agent can choose a plan with a minimal total penalty, unless there is an emergency goal like saving a human's life. The paper concludes that this framework can reprimand insubordinate agents.",
+    "link": "http://arxiv.org/abs/2309.04487",
+    "context": "Title: Penalization Framework For Autonomous Agents Using Answer Set Programming. (arXiv:2309.04487v1 [cs.AI])\nAbstract: This paper presents a framework for enforcing penalties on intelligent agents that do not comply with authorization or obligation policies in a changing environment. A framework is proposed to represent and reason about penalties in plans, and an algorithm is proposed to penalize an agent's actions based on their level of compliance with respect to authorization and obligation policies. Being aware of penalties an agent can choose a plan with a minimal total penalty, unless there is an emergency goal like saving a human's life. The paper concludes that this framework can reprimand insubordinate agents.",
+    "path": "papers/23/09/2309.04487.json",
+    "total_tokens": 737,
+    "translated_title": "使用答案集编程对自主agents实施惩罚的框架",
+    "translated_abstract": "本文提出了一个框架，用于在变化环境中对不符合许可或义务政策的智能agents施加惩罚。提出了一种在计划中表示和推理惩罚的框架，并提出了一种算法来根据agents在授权和义务政策方面的遵从程度对其行为进行惩罚。通过意识到惩罚，agents可以选择一个具有最小总惩罚的计划，除非存在像救人一样的紧急目标。文章得出结论，该框架可以惩罚不服从命令的agents。",
+    "tldr": "本文提出了一个框架，用于对智能agents实施惩罚，以保证其符合许可或义务政策。框架可以根据agents的遵从程度对其行为进行惩罚，并提供一个算法来选择具有最小总惩罚的计划。这一框架可以有效地惩罚不服从命令的agents。",
+    "en_tdlr": "This paper presents a framework for penalizing intelligent agents to ensure their compliance with authorization or obligation policies. The framework penalizes agent's actions based on their level of compliance and provides an algorithm to select plans with minimal total penalty. This framework effectively reprimands insubordinate agents."
+}

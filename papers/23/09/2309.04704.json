@@ -1,0 +1,11 @@
+{
+    "title": "Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model. (arXiv:2309.04704v1 [cs.CL])",
+    "abstract": "The paper considers the possibility of fine-tuning Llama 2 large language model (LLM) for the disinformation analysis and fake news detection. For fine-tuning, the PEFT/LoRA based approach was used. In the study, the model was fine-tuned for the following tasks: analysing a text on revealing disinformation and propaganda narratives, fact checking, fake news detection, manipulation analytics, extracting named entities with their sentiments. The obtained results show that the fine-tuned Llama 2 model can perform a deep analysis of texts and reveal complex styles and narratives. Extracted sentiments for named entities can be considered as predictive features in supervised machine learning models.",
+    "link": "http://arxiv.org/abs/2309.04704",
+    "context": "Title: Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model. (arXiv:2309.04704v1 [cs.CL])\nAbstract: The paper considers the possibility of fine-tuning Llama 2 large language model (LLM) for the disinformation analysis and fake news detection. For fine-tuning, the PEFT/LoRA based approach was used. In the study, the model was fine-tuned for the following tasks: analysing a text on revealing disinformation and propaganda narratives, fact checking, fake news detection, manipulation analytics, extracting named entities with their sentiments. The obtained results show that the fine-tuned Llama 2 model can perform a deep analysis of texts and reveal complex styles and narratives. Extracted sentiments for named entities can be considered as predictive features in supervised machine learning models.",
+    "path": "papers/23/09/2309.04704.json",
+    "total_tokens": 781,
+    "translated_title": "通过优化大型语言模型进行虚假信息和假新闻的检测分析",
+    "translated_abstract": "本文考虑使用LLM（Llama 2大型语言模型）通过细调进行虚假信息分析和假新闻的检测。采用了基于PEFT/LoRA的细调方法。研究中，该模型对以下任务进行了细调：揭示虚假信息和宣传叙事的文本分析，事实核查，假新闻检测，操纵分析以及提取带有情感的命名实体。所得结果表明，经过细调的Llama 2模型能够对文本进行深入分析，并揭示复杂的风格和叙事。带有情感的命名实体可以作为监督机器学习模型中的预测性特征。",
+    "tldr": "本研究考虑使用LLM模型通过细调实现虚假信息和假新闻的深入分析，揭示复杂的风格和叙事，并提取命名实体的情感，以此作为监督机器学习模型中的预测性特征。"
+}

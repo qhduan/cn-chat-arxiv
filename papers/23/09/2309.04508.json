@@ -1,0 +1,12 @@
+{
+    "title": "Spatial-Temporal Graph Attention Fuser for Calibration in IoT Air Pollution Monitoring Systems. (arXiv:2309.04508v1 [cs.LG])",
+    "abstract": "The use of Internet of Things (IoT) sensors for air pollution monitoring has significantly increased, resulting in the deployment of low-cost sensors. Despite this advancement, accurately calibrating these sensors in uncontrolled environmental conditions remains a challenge. To address this, we propose a novel approach that leverages graph neural networks, specifically the graph attention network module, to enhance the calibration process by fusing data from sensor arrays. Through our experiments, we demonstrate the effectiveness of our approach in significantly improving the calibration accuracy of sensors in IoT air pollution monitoring platforms.",
+    "link": "http://arxiv.org/abs/2309.04508",
+    "context": "Title: Spatial-Temporal Graph Attention Fuser for Calibration in IoT Air Pollution Monitoring Systems. (arXiv:2309.04508v1 [cs.LG])\nAbstract: The use of Internet of Things (IoT) sensors for air pollution monitoring has significantly increased, resulting in the deployment of low-cost sensors. Despite this advancement, accurately calibrating these sensors in uncontrolled environmental conditions remains a challenge. To address this, we propose a novel approach that leverages graph neural networks, specifically the graph attention network module, to enhance the calibration process by fusing data from sensor arrays. Through our experiments, we demonstrate the effectiveness of our approach in significantly improving the calibration accuracy of sensors in IoT air pollution monitoring platforms.",
+    "path": "papers/23/09/2309.04508.json",
+    "total_tokens": 734,
+    "translated_title": "IoT空气污染监测系统中的时空图注意力融合器用于校准",
+    "translated_abstract": "随着物联网(IoT)传感器在空气污染监测中的广泛应用，低成本传感器的部署大幅增加。尽管这一进展，准确校准这些传感器在不受控制的环境条件下仍然是一个挑战。为了解决这个问题，我们提出了一种新颖的方法，利用图神经网络，特别是图注意力网络模块，通过融合传感器阵列的数据来增强校准过程。通过我们的实验，我们展示了我们的方法在显著提高IoT空气污染监测平台中传感器的校准精度方面的有效性。",
+    "tldr": "这项研究提出了一种新颖的方法，利用图神经网络中的图注意力网络模块，通过融合传感器阵列的数据来增强IoT空气污染监测平台中传感器的校准精度。",
+    "en_tdlr": "This research proposes a novel approach that uses the graph attention network module in graph neural networks to enhance the calibration accuracy of sensors in IoT air pollution monitoring platforms by fusing data from sensor arrays."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Fat-Shattering Dimension of $k$-fold Aggregations. (arXiv:2110.04763v2 [math.FA] UPDATED)",
+    "abstract": "We provide estimates on the fat-shattering dimension of aggregation rules of real-valued function classes. The latter consists of all ways of choosing $k$ functions, one from each of the $k$ classes, and computing a pointwise function of them, such as the median, mean, and maximum. The bound is stated in terms of the fat-shattering dimensions of the component classes. For linear and affine function classes, we provide a considerably sharper upper bound and a matching lower bound, achieving, in particular, an optimal dependence on $k$. Along the way, we improve several known results in addition to pointing out and correcting a number of erroneous claims in the literature.",
+    "link": "http://arxiv.org/abs/2110.04763",
+    "context": "Title: Fat-Shattering Dimension of $k$-fold Aggregations. (arXiv:2110.04763v2 [math.FA] UPDATED)\nAbstract: We provide estimates on the fat-shattering dimension of aggregation rules of real-valued function classes. The latter consists of all ways of choosing $k$ functions, one from each of the $k$ classes, and computing a pointwise function of them, such as the median, mean, and maximum. The bound is stated in terms of the fat-shattering dimensions of the component classes. For linear and affine function classes, we provide a considerably sharper upper bound and a matching lower bound, achieving, in particular, an optimal dependence on $k$. Along the way, we improve several known results in addition to pointing out and correcting a number of erroneous claims in the literature.",
+    "path": "papers/21/10/2110.04763.json",
+    "total_tokens": 746,
+    "translated_title": "$k$次聚合的破裂维数（arXiv:2110.04763v2 [math.FA]已更新）",
+    "translated_abstract": "我们对实值函数类聚合规则的破裂维数进行了估计。后者包括选择$k$个函数（每个类选择一个）并计算它们的点函数，如中值、平均值和最大值的所有方式。该界限是基于组成类的破裂维数表述的。对于线性和仿射函数类，我们提供了一个明显更尖锐的上界和一个相匹配的下界，实现了对$k$的最优依赖。在此过程中，我们改进了几个已知结果，同时指出和纠正了文献中的一些错误论断。",
+    "tldr": "该论文估计了实值函数类聚合规则的破裂维数，并给出了关于线性和仿射函数类的更尖锐上界和匹配的下界。同时改进了已知结果，并纠正了文献中的一些错误论断。",
+    "en_tdlr": "This paper estimates the fat-shattering dimension of aggregation rules for real-valued function classes and provides sharper upper bounds and matching lower bounds for linear and affine function classes. It also improves several known results and corrects erroneous claims in the literature."
+}

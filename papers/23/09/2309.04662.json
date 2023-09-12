@@ -1,0 +1,11 @@
+{
+    "title": "MADLAD-400: A Multilingual And Document-Level Large Audited Dataset. (arXiv:2309.04662v1 [cs.CL])",
+    "abstract": "We introduce MADLAD-400, a manually audited, general domain 3T token monolingual dataset based on CommonCrawl, spanning 419 languages. We discuss the limitations revealed by self-auditing MADLAD-400, and the role data auditing had in the dataset creation process. We then train and release a 10.7B-parameter multilingual machine translation model on 250 billion tokens covering over 450 languages using publicly available data, and find that it is competitive with models that are significantly larger, and report the results on different domains. In addition, we train a 8B-parameter language model, and assess the results on few-shot translation. We make the baseline models available to the research community.",
+    "link": "http://arxiv.org/abs/2309.04662",
+    "context": "Title: MADLAD-400: A Multilingual And Document-Level Large Audited Dataset. (arXiv:2309.04662v1 [cs.CL])\nAbstract: We introduce MADLAD-400, a manually audited, general domain 3T token monolingual dataset based on CommonCrawl, spanning 419 languages. We discuss the limitations revealed by self-auditing MADLAD-400, and the role data auditing had in the dataset creation process. We then train and release a 10.7B-parameter multilingual machine translation model on 250 billion tokens covering over 450 languages using publicly available data, and find that it is competitive with models that are significantly larger, and report the results on different domains. In addition, we train a 8B-parameter language model, and assess the results on few-shot translation. We make the baseline models available to the research community.",
+    "path": "papers/23/09/2309.04662.json",
+    "total_tokens": 804,
+    "translated_title": "MADLAD-400: 一种多语言和文档级的大规模审核数据集",
+    "translated_abstract": "我们介绍了MADLAD-400，这是一个基于CommonCrawl的手动审核的通用领域3T token单语数据集，涵盖了419种语言。我们讨论了通过自我审核MADLAD-400揭示出的局限性，以及数据审核在数据集创建过程中的作用。然后，我们使用公开可用的数据训练并发布了一个涵盖450多种语言、2500亿个标记的10.7B参数的多语言机器翻译模型，并发现它在不同领域上与规模更大的模型相比具有竞争力，并报告了结果。此外，我们还训练了一个8B参数的语言模型，并评估了少样本翻译的结果。我们将基准模型提供给研究界使用。",
+    "tldr": "MADLAD-400是一种覆盖419种语言的多语言文档级数据集，通过自我审核揭示了局限性，通过训练众多参数的机器翻译模型取得了竞争力，并提供了基准模型给研究界使用。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Weak-PDE-LEARN: A Weak Form Based Approach to Discovering PDEs From Noisy, Limited Data. (arXiv:2309.04699v1 [cs.LG])",
+    "abstract": "We introduce Weak-PDE-LEARN, a Partial Differential Equation (PDE) discovery algorithm that can identify non-linear PDEs from noisy, limited measurements of their solutions. Weak-PDE-LEARN uses an adaptive loss function based on weak forms to train a neural network, $U$, to approximate the PDE solution while simultaneously identifying the governing PDE. This approach yields an algorithm that is robust to noise and can discover a range of PDEs directly from noisy, limited measurements of their solutions. We demonstrate the efficacy of Weak-PDE-LEARN by learning several benchmark PDEs.",
+    "link": "http://arxiv.org/abs/2309.04699",
+    "context": "Title: Weak-PDE-LEARN: A Weak Form Based Approach to Discovering PDEs From Noisy, Limited Data. (arXiv:2309.04699v1 [cs.LG])\nAbstract: We introduce Weak-PDE-LEARN, a Partial Differential Equation (PDE) discovery algorithm that can identify non-linear PDEs from noisy, limited measurements of their solutions. Weak-PDE-LEARN uses an adaptive loss function based on weak forms to train a neural network, $U$, to approximate the PDE solution while simultaneously identifying the governing PDE. This approach yields an algorithm that is robust to noise and can discover a range of PDEs directly from noisy, limited measurements of their solutions. We demonstrate the efficacy of Weak-PDE-LEARN by learning several benchmark PDEs.",
+    "path": "papers/23/09/2309.04699.json",
+    "total_tokens": 662,
+    "translated_title": "弱-PDE-LEARN：一种基于弱形式的方法，从有噪声、有限数据中发现PDEs",
+    "translated_abstract": "我们介绍了一种弱-PDE-LEARN算法，它可以从具有噪声、有限测量解的情况下识别非线性PDEs。弱-PDE-LEARN使用基于弱形式的自适应损失函数来训练神经网络U，以近似PDE解，并同时识别控制PDE。这种方法能够从具有噪声、有限测量解的情况下发现多种PDEs。我们通过学习几个基准PDEs来证明弱-PDE-LEARN的有效性。",
+    "tldr": "弱-PDE-LEARN是一种基于弱形式的算法，可以从有噪声、有限数据中发现非线性PDEs。",
+    "en_tdlr": "Weak-PDE-LEARN is a weak form based algorithm that can discover non-linear PDEs from noisy, limited data."
+}

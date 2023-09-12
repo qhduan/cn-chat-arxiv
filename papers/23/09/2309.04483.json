@@ -1,0 +1,12 @@
+{
+    "title": "Ein neuer Ansatz zur Frequenzmodellierung im Versicherungswesen (A new Approach to frequency modeling in risk theory). (arXiv:2309.04483v1 [q-fin.RM])",
+    "abstract": "The collective risk model differentiates usually between claims frequencies (and their distribution) and claim sizes (and their distribution). For the claims frequencies typically classical discrete distributions are considered, such as Binomial-, Negative binomial- or Poisson distributions. Since these distributions sometimes do not really fit to the data we propose a different approach here for claim frequencies via random proportions of the number of insurance contracts. This approach also allows for a statistical goodness-of-fit test via quantile-quantile-plots and can likewise be applied to the modelling of claim size distributions.",
+    "link": "http://arxiv.org/abs/2309.04483",
+    "context": "Title: Ein neuer Ansatz zur Frequenzmodellierung im Versicherungswesen (A new Approach to frequency modeling in risk theory). (arXiv:2309.04483v1 [q-fin.RM])\nAbstract: The collective risk model differentiates usually between claims frequencies (and their distribution) and claim sizes (and their distribution). For the claims frequencies typically classical discrete distributions are considered, such as Binomial-, Negative binomial- or Poisson distributions. Since these distributions sometimes do not really fit to the data we propose a different approach here for claim frequencies via random proportions of the number of insurance contracts. This approach also allows for a statistical goodness-of-fit test via quantile-quantile-plots and can likewise be applied to the modelling of claim size distributions.",
+    "path": "papers/23/09/2309.04483.json",
+    "total_tokens": 673,
+    "translated_title": "保险业中频率建模的新方法",
+    "translated_abstract": "集体风险模型通常区分索赔频率（及其分布）和索赔金额（及其分布）。对于索赔频率，通常考虑传统的离散分布，如二项式分布、负二项式分布或泊松分布。由于这些分布有时不太适用于数据，我们在这里提出了一种通过随机比例的保险合同数量来建模索赔频率的不同方法。这种方法还可以通过分位数图进行统计适配性检验，并可以同样应用于索赔金额分布的建模。",
+    "tldr": "本文提出了一种新的方法，通过随机比例的保险合同数量来建模保险业中的索赔频率和索赔金额分布，并可以进行分布适配性检验。",
+    "en_tdlr": "This paper proposes a new approach to model claim frequencies and claim size distributions in the insurance industry using random proportions of the number of insurance contracts, which can also be tested for goodness-of-fit using quantile-quantile plots."
+}

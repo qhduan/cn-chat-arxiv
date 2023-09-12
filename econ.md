@@ -2,127 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robust equilibria in cheap-talk games with fairly transparent motives.](http://arxiv.org/abs/2309.04193) | 具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的轻微状态依赖是稳健的。 |
-| [^2] | [Concave many-to-one matching.](http://arxiv.org/abs/2309.04181) | 凹多对一匹配的概念类似于合作博弈中的均衡条件，在凹市场中可以找到稳定的匹配，并且我们使用Scarf算法证明了存在性并找到了稳定的时间表匹配。 |
-| [^3] | [Agriculture Credit and Economic Growth in Bangladesh: A Time Series Analysis.](http://arxiv.org/abs/2309.04118) | 孟加拉国农业信贷对经济增长具有积极影响，总固定资本形成呈正相关，而通货膨胀呈负相关。政府和决策者应继续努力增加农业信贷规模，以实现可持续的经济增长。 |
-| [^4] | [Local Priority Mechanisms.](http://arxiv.org/abs/2309.04020) | 本文介绍了一种新颖的本地优先机制，通过为每个不可行的分配分配一组本地妥协者，机制贪婪地尝试将代理人与其首选项进行匹配。此外，本地优先机制可以用来构建任何约束分配问题的新设计，并且可以理解为多个经典机制的实例。 |
-| [^5] | [Cognitive Aging and Labor Share.](http://arxiv.org/abs/2308.14982) | 该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。 |
-| [^6] | [The Inflation Attention Threshold and Inflation Surges.](http://arxiv.org/abs/2308.09480) | 本论文研究了通胀关注度与通胀激增之间的关系，发现在通胀率低稳定时，人们关注度较低，但一旦通胀率超过4%，关注度会明显增加，高关注区域的关注度是低关注区域的两倍。这种关注阈值的存在导致了状态依赖效应，即在宽松货币政策时，成本推动冲击对通胀的影响更大。这些结论有助于理解最近美国的通胀激增现象。 |
-| [^7] | [Firm-worker hypergraphs.](http://arxiv.org/abs/2211.06887) | 该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。 |
-| [^8] | [Uniform Inference on High-dimensional Spatial Panel Networks.](http://arxiv.org/abs/2105.07424) | 本研究在大规模空间面板网络上提出了一种均匀推断理论，该理论能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。 |
+| [^1] | [Forecasted Treatment Effects.](http://arxiv.org/abs/2309.05639) | 本文考虑了在没有对照组的情况下估计和推断政策效果的问题。我们利用短期治疗前数据，基于预测反事实情况得到了个体治疗效果的无偏估计和平均治疗效果的一致且渐近正态的估计。我们发现，关注预测的无偏性而不是准确性是很重要的，而预测模型的正确规范并不是必需的，简单的基础函数回归可以达到无偏估计。在一定条件下，我们的方法具有一致性和渐近正态性。 |
+| [^2] | [Testing for Stationary or Persistent Coefficient Randomness in Predictive Regressions.](http://arxiv.org/abs/2309.04926) | 本研究考虑了预测回归中系数随机性的检验，并发现在随机系数的持久性方面会影响各种检验的功效。我们建议在实际应用中根据潜在随机系数的持久性选择最合适的检验方法。 |
+| [^3] | [News-driven Expectations and Volatility Clustering.](http://arxiv.org/abs/2309.04876) | 本文通过简单解释交易者对新闻的态度，解释了金融市场中的两个规律：尾重分布和波动聚类。 |
+| [^4] | [Non-linear dimension reduction in factor-augmented vector autoregressions.](http://arxiv.org/abs/2309.04821) | 本文引入了非线性维度降低方法，在因子扩展向量自回归中分析经济冲击，证明了在经济周期动荡和高度波动数据下，该方法具有良好的预测性能，并能处理COVID-19疫情引起的离群值。 |
+| [^5] | [Interpreting IV Estimators in Information Provision Experiments.](http://arxiv.org/abs/2309.04793) | 在信息提供实验中，使用信息提供作为工具变量可能无法产生正加权的信念效应的平均值。我们提出了一种移动工具变量框架和估计器，通过利用先验判断信念更新的方向，可以获得正加权的信念效应的平均值。 |
+| [^6] | [Maintaining human wellbeing as socio-environmental systems undergo regime shifts.](http://arxiv.org/abs/2309.04578) | 本研究将能够闪烁的生态模型与人类适应模型相结合，从而探索闪烁对联合社会环境系统中人类福祉的影响，并重点研究了闪烁导致福祉下降的条件以及对转型变化的最佳时机的影响。 |
+| [^7] | [Non-transitivity of the Win Ratio and Area Under the Receiver Operating Characteristics Curve (AUC): a case for evaluating the strength of stochastic comparisons.](http://arxiv.org/abs/2309.01791) | 本文报告并研究了胜率和接收器操作特性曲线下面积的长期不可转移行为，验证了传统统计量和胜率的差异，并强调了研究随机比较的相关性的重要性。 |
+| [^8] | [Estimating the Value of Evidence-Based Decision Making.](http://arxiv.org/abs/2306.13681) | 本文提出了一个实证框架，用于估算证据决策的价值和统计精度投资回报。 |
+| [^9] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^10] | [Inside the West Wing: Lobbying as a contest.](http://arxiv.org/abs/2207.00800) | 这篇论文研究了当一个政府做出多个政策决策时，游说可以被看作是政府和特殊利益集团之间的竞争，并发现政府会通过给予特定利益集团特殊待遇来建立自己的政治资本，以在与其他利益集团的斗争中取得优势。 |
+| [^11] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
 
 # 详细
 
-[^1]: 具有相对透明动机的廉价交流博弈中的稳健均衡
+[^1]: 预测治疗效果
 
-    Robust equilibria in cheap-talk games with fairly transparent motives. (arXiv:2309.04193v1 [econ.TH])
+    Forecasted Treatment Effects. (arXiv:2309.05639v1 [econ.EM])
 
-    [http://arxiv.org/abs/2309.04193](http://arxiv.org/abs/2309.04193)
+    [http://arxiv.org/abs/2309.05639](http://arxiv.org/abs/2309.05639)
 
-    具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的轻微状态依赖是稳健的。
-
-    
-
-    我们证明，在具有二元状态空间和状态无关偏好的廉价交流博弈中，发送者最优均衡对发送者偏好的扰动是稳健的，这些扰动允许轻微的状态依赖。其他均衡通常不具备稳健性。
-
-    We show that sender-optimal equilibria in cheap-talk games with a binary state space and state-independent preferences are robust to perturbations of the sender's preferences that allow for slight state-dependence. Other equilibria generally fail to be robust.
-    
-[^2]: 凹多对一匹配
-
-    Concave many-to-one matching. (arXiv:2309.04181v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.04181](http://arxiv.org/abs/2309.04181)
-
-    凹多对一匹配的概念类似于合作博弈中的均衡条件，在凹市场中可以找到稳定的匹配，并且我们使用Scarf算法证明了存在性并找到了稳定的时间表匹配。
+    本文考虑了在没有对照组的情况下估计和推断政策效果的问题。我们利用短期治疗前数据，基于预测反事实情况得到了个体治疗效果的无偏估计和平均治疗效果的一致且渐近正态的估计。我们发现，关注预测的无偏性而不是准确性是很重要的，而预测模型的正确规范并不是必需的，简单的基础函数回归可以达到无偏估计。在一定条件下，我们的方法具有一致性和渐近正态性。
 
     
 
-    我们提出了一个在双边多对一匹配中的凹概念，这相当于合作博弈中的均衡条件。当市场是凹的时候，存在一个稳定的匹配。我们提供了一类凹市场。在存在性定理的证明中，我们使用Scarf算法来找到一个稳定的时间表匹配，这个算法本身也具有独立的兴趣。
+    我们考虑在没有对照组的情况下估计和推断政策效果。我们基于使用一段短期治疗前数据预测反事实情况，得到了个体（异质）治疗效果的无偏估计和一致且渐近正态的平均治疗效果估计。我们表明，应该关注预测无偏性而不是准确性。对预测模型的正确规范并不是获得个体治疗效果的无偏估计所必需的。相反，在广泛的数据生成过程下，简单的基础函数（如多项式时间趋势）回归可以提供无偏性来估计个体反事实情况。基于模型的预测可能引入规范错误偏差，并且即使在正确规范下也不一定能提高性能。我们的预测平均治疗效果（FAT）估计器的一致性和渐近正态性在一定条件下得到保证。
 
-    We propose a notion of concavity in two-sided many-to-one matching, which is an analogue to the balancedness condition in cooperative games. A stable matching exists when the market is concave. We provide a class of concave markets. In the proof of the existence theorem, we use Scarf's algorithm to find a stable schedule matching, which is of independent interest.
+    We consider estimation and inference of the effects of a policy in the absence of a control group. We obtain unbiased estimators of individual (heterogeneous) treatment effects and a consistent and asymptotically normal estimator of the average treatment effects, based on forecasting counterfactuals using a short time series of pre-treatment data. We show that the focus should be on forecast unbiasedness rather than accuracy. Correct specification of the forecasting model is not necessary to obtain unbiased estimates of individual treatment effects. Instead, simple basis function (e.g., polynomial time trends) regressions deliver unbiasedness under a broad class of data-generating processes for the individual counterfactuals. Basing the forecasts on a model can introduce misspecification bias and does not necessarily improve performance even under correct specification. Consistency and asymptotic normality of our Forecasted Average Treatment effects (FAT) estimator are attained under a
     
-[^3]: 孟加拉国农业信贷对经济增长的影响：一项时间序列分析
+[^2]: 预测回归中固定系数随机性的检验：稳态与持久性系数的影响
 
-    Agriculture Credit and Economic Growth in Bangladesh: A Time Series Analysis. (arXiv:2309.04118v1 [econ.GN])
+    Testing for Stationary or Persistent Coefficient Randomness in Predictive Regressions. (arXiv:2309.04926v1 [econ.EM])
 
-    [http://arxiv.org/abs/2309.04118](http://arxiv.org/abs/2309.04118)
+    [http://arxiv.org/abs/2309.04926](http://arxiv.org/abs/2309.04926)
 
-    孟加拉国农业信贷对经济增长具有积极影响，总固定资本形成呈正相关，而通货膨胀呈负相关。政府和决策者应继续努力增加农业信贷规模，以实现可持续的经济增长。
-
-    
-
-    本文研究了农业信贷对孟加拉国经济增长的影响。采用孟加拉国银行的年度报告收集的农业信贷数据以及世界银行的世界发展指标（WDI）等其他数据。通过采用约翰森协整检验和向量误差修正模型(VECM)，研究发现变量之间存在长期关系。研究结果表明，农业信贷对孟加拉国的GDP增长产生了积极的影响。研究还发现，总固定资本形成与经济增长呈正相关，而通货膨胀与经济增长呈负相关。因此，政府和决策者应继续努力增加农业信贷规模，以实现可持续的经济增长。
-
-    The paper examined the impact of agricultural credit on economic growth in Bangladesh. The annual data of agriculture credit were collected from annual reports of the Bangladesh Bank and other data were collected from the world development indicator (WDI) of the World Bank. By employing Johansen cointegration test and vector error correction model (VECM), the study revealed that there exists a long run relationship between the variables. The results of the study showed that agriculture credit had a positive impact on GDP growth in Bangladesh. The study also found that gross capital formation had a positive, while inflation had a negative association with economic growth in Bangladesh. Therefore, the government and policymakers should continue their effort to increase the volume of agriculture credit to achieve sustainable economic growth.
-    
-[^4]: 本地优先机制
-
-    Local Priority Mechanisms. (arXiv:2309.04020v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.04020](http://arxiv.org/abs/2309.04020)
-
-    本文介绍了一种新颖的本地优先机制，通过为每个不可行的分配分配一组本地妥协者，机制贪婪地尝试将代理人与其首选项进行匹配。此外，本地优先机制可以用来构建任何约束分配问题的新设计，并且可以理解为多个经典机制的实例。
+    本研究考虑了预测回归中系数随机性的检验，并发现在随机系数的持久性方面会影响各种检验的功效。我们建议在实际应用中根据潜在随机系数的持久性选择最合适的检验方法。
 
     
 
-    我们引入了一种新颖的用于约束分配问题的机制家族，称之为本地优先机制。这些机制由一个函数参数化，该函数将一组代理人（即本地妥协者）指派给每个不可行的分配。然后，机制贪婪地尝试将代理人与其首选项进行匹配。每当它达到一个不可行的分配时，本地妥协者移动到他们下一个最喜欢的替代方案。本地优先机制对于任何约束问题都存在，因此这提供了一种构建任何约束分配问题的新设计的方法。我们给出了表征本地优先机制的公理。由于约束对象分配包括许多经典问题作为特殊约束，我们将这个特征应用于展示几个众所周知的机制，包括用于学校选择的后期接受机制，用于住房分配的顶级交易环和串行独裁可以理解为本地优先机制的实例。
+    本研究考虑了预测回归中系数随机性的检验。我们关注系数随机性检验在随机系数的持久性方面的影响。我们发现，当随机系数是稳态的或I(0)时，Nyblom的LM检验在功效上不是最优的，这一点已经针对集成或I(1)随机系数的备择假设得到了证实。我们通过构建一些在随机系数为稳态时具有更高功效的检验来证明这一点，尽管在随机系数为集成时，这些检验在功效上被LM检验所支配。这意味着在不同的背景下，系数随机性的最佳检验是不同的，从而实证研究者应该考虑潜在随机系数的持久性，并相应地选择多个检验。特别是，我们通过理论和数值研究表明，LM检验与一种Wald型检验的乘积是一个较好的检验方法。
 
-    We introduce a novel family of mechanisms for constrained allocation problems which we call local priority mechanisms. These mechanisms are parameterized by a function which assigns a set of agents -- the local compromisers -- to every infeasible allocation. The mechanism then greedily attempts to match agents with their top choices. Whenever it reaches an infeasible allocation, the local compromisers move to their next favorite alternative. Local priority mechanisms exist for any constraint so this provides a method of constructing new designs for any constrained allocation problem. We give axioms which characterize local priority mechanisms. Since constrained object allocation includes many canonical problems as special constraints, we apply this characterization to show that several well-known mechanisms, including deferred acceptance for school choice, top trading cycles for house allocation, and serial dictatorship can be understood as instances of local priority mechanisms. Other
+    This study considers tests for coefficient randomness in predictive regressions. Our focus is on how tests for coefficient randomness are influenced by the persistence of random coefficient. We find that when the random coefficient is stationary, or I(0), Nyblom's (1989) LM test loses its optimality (in terms of power), which is established against the alternative of integrated, or I(1), random coefficient. We demonstrate this by constructing tests that are more powerful than the LM test when random coefficient is stationary, although these tests are dominated in terms of power by the LM test when random coefficient is integrated. This implies that the best test for coefficient randomness differs from context to context, and practitioners should take into account the persistence of potentially random coefficient and choose from several tests accordingly. In particular, we show through theoretical and numerical investigations that the product of the LM test and a Wald-type test proposed
     
-[^5]: 认知衰老与劳动份额
+[^3]: 新闻驱动的期望与波动聚类
 
-    Cognitive Aging and Labor Share. (arXiv:2308.14982v1 [econ.GN])
+    News-driven Expectations and Volatility Clustering. (arXiv:2309.04876v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2308.14982](http://arxiv.org/abs/2308.14982)
+    [http://arxiv.org/abs/2309.04876](http://arxiv.org/abs/2309.04876)
 
-    该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。
-
-    
-
-    劳动份额，即经济产出的工资比例，在工业化国家中不可理解地在下降。虽然许多之前的研究试图通过经济因素来解释这种下降，但我们的新颖方法将这种下降与生物因素联系起来。具体而言，我们提出了一个理论宏观经济模型，劳动份额反映了劳动力自动化现有产出和消费者需求新的依赖人力劳动的产出变体之间的动态平衡。工业化导致人口老龄化，虽然在工作年限内认知表现稳定，但之后急剧下降。因此，老龄消费者认知能力的下降减少了对新的产出变体的需求，导致劳动份额下降。我们的模型将劳动份额表达为中位数年龄的代数函数，并通过非线性随机回归在工业化经济体的历史数据上以惊人的准确性进行了验证。
-
-    Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.
-    
-[^6]: 通胀关注阈值与通胀激增
-
-    The Inflation Attention Threshold and Inflation Surges. (arXiv:2308.09480v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.09480](http://arxiv.org/abs/2308.09480)
-
-    本论文研究了通胀关注度与通胀激增之间的关系，发现在通胀率低稳定时，人们关注度较低，但一旦通胀率超过4%，关注度会明显增加，高关注区域的关注度是低关注区域的两倍。这种关注阈值的存在导致了状态依赖效应，即在宽松货币政策时，成本推动冲击对通胀的影响更大。这些结论有助于理解最近美国的通胀激增现象。
+    本文通过简单解释交易者对新闻的态度，解释了金融市场中的两个规律：尾重分布和波动聚类。
 
     
 
-    在最近通胀激增爆发时，公众对通胀的关注度很低，但一旦通胀开始上升，关注度迅速增加。本文构建了一个一般均衡货币模型，该模型在通胀低而稳定时，最优化的策略是对通胀关注较少，但一旦通胀超过某个阈值，就会增加关注度。利用调查问卷中的通胀预期，我估计关注阈值在4%通胀率，高关注区域的关注度是低关注区域的两倍。当校准到这些发现时，该模型产生与美国最近通胀激增一致的通胀和通胀预期动态。关注阈值导致状态依赖性：成本推动冲击在货币宽松政策时更加通胀。这些状态依赖性效应在恒定关注或理性预期模型中是不存在的。
+    金融波动遵循两个引人注目的经验规律，适用于各种资产、各个市场和各个时间尺度：它是尾重的（更准确地说是符合幂律分布），并且在时间上倾向于聚类。许多有趣的模型已被提出来解释这些规律，特别是基于代理人的模型，通过一种复杂的非线性机制来模拟这两个经验定律，例如交易者在高度非线性的方式下在交易策略之间的切换。本文简单地解释了这两个规律，只涉及交易者对新闻的态度，这种解释几乎是根据金融市场参与者的传统二分法来定义的，投资者与投机者，他们的行为被简化为最简单的形式。假设长期投资者对资产的估值遵循基于新闻的随机漫步，因此捕捉到了投资者对基本新闻的持久、长期的记忆。
 
-    At the outbreak of the recent inflation surge, the public's attention to inflation was low but increased rapidly once inflation started to rise. In this paper, I develop a general equilibrium monetary model where it is optimal for agents to pay little attention to inflation when inflation is low and stable, but in which they increase their attention once inflation exceeds a certain threshold. Using survey inflation expectations, I estimate the attention threshold to be at an inflation rate of 4%, with attention in the high-attention regime being twice as high as in the low-attention regime. When calibrated to match these findings, the model generates inflation and inflation expectation dynamics consistent with the recent inflation surge in the US. The attention threshold induces a state dependency: cost-push shocks become more inflationary in times of loose monetary policy. These state-dependent effects are absent in the model with constant attention or under rational expectations. Fol
+    Financial volatility obeys two fascinating empirical regularities that apply to various assets, on various markets, and on various time scales: it is fat-tailed (more precisely power-law distributed) and it tends to be clustered in time. Many interesting models have been proposed to account for these regularities, notably agent-based models, which mimic the two empirical laws through a complex mix of nonlinear mechanisms such as traders' switching between trading strategies in highly nonlinear way. This paper explains the two regularities simply in terms of traders' attitudes towards news, an explanation that follows almost by definition of the traditional dichotomy of financial market participants, investors versus speculators, whose behaviors are reduced to their simplest forms. Long-run investors' valuations of an asset are assumed to follow a news-driven random walk, thus capturing the investors' persistent, long memory of fundamental news. Short-term speculators' anticipated retur
     
-[^7]: 公司-员工超图
+[^4]: 非线性维度降低在因子扩展向量自回归中的应用
 
-    Firm-worker hypergraphs. (arXiv:2211.06887v2 [econ.TH] UPDATED)
+    Non-linear dimension reduction in factor-augmented vector autoregressions. (arXiv:2309.04821v1 [econ.EM])
 
-    [http://arxiv.org/abs/2211.06887](http://arxiv.org/abs/2211.06887)
+    [http://arxiv.org/abs/2309.04821](http://arxiv.org/abs/2309.04821)
 
-    该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。
-
-    
-
-    一个公司-员工超图由连接公司和可能雇员的边组成。我们表明，在可转让效用的多对一匹配和离散的多对一匹配中，当公司-员工超图没有非平凡奇数长度的循环时，存在稳定匹配。满足这个条件的公司偏好出现在将专门的公司与专业人士进行匹配的问题中。
-
-    A firm-worker hypergraph consists of edges in which each edge joins a firm and its possible employees. We show that a stable matching exists in both many-to-one matching with transferable utilities and discrete many-to-one matching when the firm-worker hypergraph has no nontrivial odd-length cycle. Firms' preferences satisfying this condition arise in a problem of matching specialized firms with specialists.
-    
-[^8]: 高维空间面板网络上的均匀推断
-
-    Uniform Inference on High-dimensional Spatial Panel Networks. (arXiv:2105.07424v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2105.07424](http://arxiv.org/abs/2105.07424)
-
-    本研究在大规模空间面板网络上提出了一种均匀推断理论，该理论能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。
+    本文引入了非线性维度降低方法，在因子扩展向量自回归中分析经济冲击，证明了在经济周期动荡和高度波动数据下，该方法具有良好的预测性能，并能处理COVID-19疫情引起的离群值。
 
     
 
-    我们提出了一种偏差-正则化的高维广义矩方法（GMM）框架，用于对大规模空间面板网络进行推断。特别是，利用偏差机器学习方法估计具有灵活稀疏偏差的网络结构，这可以被视为潜在的或者与预定的邻接矩阵不匹配。理论分析确立了我们提出的估计器的一致性和渐近正态性，考虑了数据生成过程中的一般时间和空间依赖性。讨论了依赖性存在时的维度允许性。我们研究的一个主要贡献是开发了一种均匀推断理论，能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。此外，对估计器的渐近性质进行了线性和非线性时刻的推导。模拟实验证明了所提方法的有效性。
+    本文将非线性维度降低方法引入因子扩展向量自回归模型，分析不同经济冲击的影响。作者认为在经济周期动荡时，控制大维度数据集与潜在因子之间的非线性关系尤为有用。通过模拟实验证明，非线性维度降低技术在数据高度波动时具有良好的预测性能。在实证应用中，本文排除和包含COVID-19疫情观测，确定了货币政策和不确定性冲击。这两个应用表明非线性FAVAR方法能够处理COVID-19疫情引起的极大离群值，并在两种情景下获得可靠结果。
 
-    We propose employing a debiased-regularized, high-dimensional generalized method of moments (GMM) framework to perform inference on large-scale spatial panel networks. In particular, network structure with a flexible sparse deviation, which can be regarded either as latent or as misspecified from a predetermined adjacency matrix, is estimated using debiased machine learning approach. The theoretical analysis establishes the consistency and asymptotic normality of our proposed estimator, taking into account general temporal and spatial dependency inherent in the data-generating processes. The dimensionality allowance in presence of dependency is discussed. A primary contribution of our study is the development of uniform inference theory that enables hypothesis testing on the parameters of interest, including zero or non-zero elements in the network structure. Additionally, the asymptotic properties for the estimator are derived for both linear and nonlinear moments. Simulations demonst
+    This paper introduces non-linear dimension reduction in factor-augmented vector autoregressions to analyze the effects of different economic shocks. I argue that controlling for non-linearities between a large-dimensional dataset and the latent factors is particularly useful during turbulent times of the business cycle. In simulations, I show that non-linear dimension reduction techniques yield good forecasting performance, especially when data is highly volatile. In an empirical application, I identify a monetary policy as well as an uncertainty shock excluding and including observations of the COVID-19 pandemic. Those two applications suggest that the non-linear FAVAR approaches are capable of dealing with the large outliers caused by the COVID-19 pandemic and yield reliable results in both scenarios.
+    
+[^5]: 在信息提供实验中解释IV估计器
+
+    Interpreting IV Estimators in Information Provision Experiments. (arXiv:2309.04793v1 [econ.EM])
+
+    [http://arxiv.org/abs/2309.04793](http://arxiv.org/abs/2309.04793)
+
+    在信息提供实验中，使用信息提供作为工具变量可能无法产生正加权的信念效应的平均值。我们提出了一种移动工具变量框架和估计器，通过利用先验判断信念更新的方向，可以获得正加权的信念效应的平均值。
+
+    
+
+    越来越多的文献使用信息提供实验来衡量“信念效应”——即信念变化对行为的影响——其中信息提供被用作信念的工具变量。我们展示了在具有异质信念效应的被动控制设计实验中，使用信息提供作为工具变量可能无法产生信念效应的正加权平均。我们提出了一种“移动工具变量”（MIV）框架和估计器，通过利用先验判断信念更新的方向，可以获得信念效应的正加权平均。与文献中常用的规范相比，我们的首选MIV可以过分加权具有较大先验误差的个体；此外，一些规范可能需要额外的假设才能产生正加权。
+
+    A growing literature measures "belief effects" -- that is, the effect of a change in beliefs on one's actions -- using information provision experiments, where the provision of information is used as an instrument for beliefs. We show that in passive control design experiments with heterogeneous belief effects, using information provision as an instrument may not produce a positive weighted average of belief effects. We propose a "mover instrumental variables" (MIV) framework and estimator that attains a positive weighted average of belief effects by inferring the direction of belief updating using the prior. Relative to our preferred MIV, commonly used specifications in the literature produce a form of MIV that overweights individuals with larger prior errors; additionally, some specifications may require additional assumptions to generate positive weights.
+    
+[^6]: 在社会环境系统发生破局转变时维系人类福祉
+
+    Maintaining human wellbeing as socio-environmental systems undergo regime shifts. (arXiv:2309.04578v1 [econ.TH])
+
+    [http://arxiv.org/abs/2309.04578](http://arxiv.org/abs/2309.04578)
+
+    本研究将能够闪烁的生态模型与人类适应模型相结合，从而探索闪烁对联合社会环境系统中人类福祉的影响，并重点研究了闪烁导致福祉下降的条件以及对转型变化的最佳时机的影响。
+
+    
+
+    全球环境变化正推动许多社会环境系统朝着临界阈值迈进，在这些阈值上，生态系统状态处于临界转折点, 需要干预来引导或避免即将发生的转变。闪烁是指系统在不同稳定状态之间摇摆的现象，被认为是对向不可取的生态制度进行无法逆转的转变的有用预警信号。然而，尽管闪烁可能预示一个生态转折点，这些动态也给人类的适应带来了独特的挑战。在这项工作中，我们将能够闪烁的生态模型与一个模拟人类对变化环境适应的模型联系起来。这使得我们能够探索闪烁对联合社会环境系统中自适应主体的效用的影响。我们重点研究了闪烁导致福祉不成比例下降的条件，并探讨了这些动态对转型变化的最佳时机的影响。
+
+    Global environmental change is pushing many socio-environmental systems towards critical thresholds, where ecological systems' states are on the precipice of tipping points and interventions are needed to navigate or avert impending transitions. Flickering, where a system vacillates between alternative stable states, is touted as a useful early warning signal of irreversible transitions to undesirable ecological regimes. However, while flickering may presage an ecological tipping point, these dynamics also pose unique challenges for human adaptation. In this work, we link an ecological model that can exhibit flickering to a model of human adaptation to a changing environment. This allows us to explore the impact of flickering on the utility of adaptive agents in a coupled socio-environmental system. We highlight the conditions under which flickering causes wellbeing to decline disproportionately, and explore how these dynamics impact the optimal timing of a transformational change that
+    
+[^7]: 不可转移的胜率和接收器操作特性曲线下面积 (AUC) ：评估随机比较的相关性 (arXiv:2309.01791v1 [stat.ME])
+
+    Non-transitivity of the Win Ratio and Area Under the Receiver Operating Characteristics Curve (AUC): a case for evaluating the strength of stochastic comparisons. (arXiv:2309.01791v1 [stat.ME])
+
+    [http://arxiv.org/abs/2309.01791](http://arxiv.org/abs/2309.01791)
+
+    本文报告并研究了胜率和接收器操作特性曲线下面积的长期不可转移行为，验证了传统统计量和胜率的差异，并强调了研究随机比较的相关性的重要性。
+
+    
+
+    胜率 (WR) 是随机对照试验中使用的一种新颖统计量，可以考虑事件结果内的层次关系。在本文中，我们报告并研究了胜率和紧密相关的接收器操作特性曲线下面积 (AUC) 的长期不可转移行为，并认为它们的可转移性不能被视为理所当然。关键是，传统的组内统计量（即平均值比较）始终是可转移的，而胜率可以检测到不可转移性。不可转移性提供了关于两个治疗组之间随机关系的有价值的信息，应该进行测试和报告。我们确定了可转移性的必要条件、不可转移性的充分条件，并在真实的大规模随机对照试验中展示了胜率对死亡时间的不可转移性。我们的结果可用于排除或评估不可转移性的可能性，并展示研究随机比较的相关性的重要性。
+
+    The win ratio (WR) is a novel statistic used in randomized controlled trials that can account for hierarchies within event outcomes. In this paper we report and study the long-run non-transitive behavior of the win ratio and the closely related Area Under the Receiver Operating Characteristics Curve (AUC) and argue that their transitivity cannot be taken for granted. Crucially, traditional within-group statistics (i.e., comparison of means) are always transitive, while the WR can detect non-transitivity. Non-transitivity provides valuable information on the stochastic relationship between two treatment groups, which should be tested and reported. We specify the necessary conditions for transitivity, the sufficient conditions for non-transitivity and demonstrate non-transitivity in a real-life large randomized controlled trial for the WR of time-to-death. Our results can be used to rule out or evaluate possibility of non-transitivity and show the importance of studying the strength of s
+    
+[^8]: 估算基于证据决策的价值
+
+    Estimating the Value of Evidence-Based Decision Making. (arXiv:2306.13681v1 [stat.ME])
+
+    [http://arxiv.org/abs/2306.13681](http://arxiv.org/abs/2306.13681)
+
+    本文提出了一个实证框架，用于估算证据决策的价值和统计精度投资回报。
+
+    
+
+    商业/政策决策通常基于随机实验和观察性研究的证据。本文提出了一个实证框架来估算基于证据的决策（EBDM）的价值和统计精度投资回报。
+
+    Business/policy decisions are often based on evidence from randomized experiments and observational studies. In this article we propose an empirical framework to estimate the value of evidence-based decision making (EBDM) and the return on the investment in statistical precision.
+    
+[^9]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^10]: 西翼内幕：游说作为一场竞赛
+
+    Inside the West Wing: Lobbying as a contest. (arXiv:2207.00800v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2207.00800](http://arxiv.org/abs/2207.00800)
+
+    这篇论文研究了当一个政府做出多个政策决策时，游说可以被看作是政府和特殊利益集团之间的竞争，并发现政府会通过给予特定利益集团特殊待遇来建立自己的政治资本，以在与其他利益集团的斗争中取得优势。
+
+    
+
+    当政府做出许多不同的政策决策时，游说可以被视为政府和许多特殊利益集团之间的竞赛。政府通过其自身的政治资本与利益集团进行斗争。在这个世界中，我们发现政府想要“出售保护”，即在交换捐款的同时给予特定利益集团有利待遇。它这样做是为了建立自己的“战争基金”，提高在与其他利益集团争斗中的地位。直到它能够确定地赢得所有剩余的竞争。这与现有模型的观点形成鲜明对比，后者通常将游说视为信息或代理问题驱动的。
+
+    When a government makes many different policy decisions, lobbying can be viewed as a contest between the government and many different special interest groups. The government fights lobbying by interest groups with its own political capital. In this world, we find that a government wants to `sell protection' -- give favourable treatment in exchange for contributions -- to certain interest groups. It does this in order to build its own `war chest' of political capital, which improves its position in fights with other interest groups. And it does so until it wins all remaining contests with certainty. This stands in contrast to existing models that often view lobbying as driven by information or agency problems.
+    
+[^11]: 追求股东价值的共同成本
+
+    The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2103.12138](http://arxiv.org/abs/2103.12138)
+
+    文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。
+
+    
+
+    本文采用准实验性的方法，根据公司股东大会（AGMs）的时间差异，提出了一个可移植的框架，推断股东的偏好和对公司利他决策的影响，并将其应用于covid相关捐赠、最近针对俄罗斯的私人制裁以及公司2012-19年的利他立场。AGMs的媒体曝光带来的形象收益，使得与公司同义的股东（如密切相关的个人）支持昂贵的利他变革，而其他股东（如金融公司）反对这些变革。支持这些变革的影响使收益下降了30％：追求（某些）股东的价值具有分配成本，大股东的监控可以避免由偏好异质性驱动的成本。
+
+    Using quasi-experimental variations from the timing of firms' Annual General Meetings (AGMs), we propose a portable framework to infer shareholders' preferences and influences on firms' prosocial decisions and apply it to covid-related donations, recent private sanctions on Russia, and firms' prosocial stances over 2012-19. Image gains from AGMs' media exposure drive shareholders synonymous with a firm, like closely-connected individuals, to support costly prosocial changes, while others, like financial corporations, oppose them. Influence supporting these changes lowers earnings by 30\%: pursuing the values of (some) shareholders has distributional costs, which the monitoring of large shareholders motivated by heterogeneous preferences could prevent.
     
 

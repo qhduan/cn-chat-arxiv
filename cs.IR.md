@@ -2,142 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Provider Fairness and Beyond-Accuracy Trade-offs in Recommender Systems.](http://arxiv.org/abs/2309.04250) | 本文研究了推荐系统中的提供商公平性问题以及相应的超越准确性考虑。通过引入后处理重新排序模型，我们在维护用户相关性和推荐质量的同时，优先考虑了提供商公平性。针对多个数据集进行的评估显示该模型在推荐质量各个方面有积极影响。 |
-| [^2] | [Offline Recommender System Evaluation under Unobserved Confounding.](http://arxiv.org/abs/2309.04222) | 本论文讨论了在存在潜在混淆因素的情况下进行离线推荐系统评估的问题，并特别关注推荐系统用例。通过对基于策略的估计器进行研究，我们描述了由混淆因素引起的统计偏差。 |
-| [^3] | [Receiving an algorithmic recommendation based on documentary filmmaking techniques.](http://arxiv.org/abs/2309.04184) | 本研究分析了基于纪录片制作技术的算法推荐在T{\"e}nk平台上的接受情况，通过构建一组元数据来描述纪录片制作设备的多样性，探讨平台电影爱好者如何理解和接受类似纪录片制作设备的个性化推荐。讨论了这个概念验证的贡献和局限，并提出了提升纪录片仪器化媒介的思考方向。 |
-| [^4] | [A Long-Tail Friendly Representation Framework for Artist and Music Similarity.](http://arxiv.org/abs/2309.04182) | 本论文提出了一种长尾友好的表示框架，利用神经网络模型艺术家和音乐之间的相似关系，改善了传统方法在稀疏关系中的表示性能。 |
-| [^5] | [PRISTA-Net: Deep Iterative Shrinkage Thresholding Network for Coded Diffraction Patterns Phase Retrieval.](http://arxiv.org/abs/2309.04171) | PRISTA-Net是一个基于深度迭代缩减阈值算法的网络，通过学习非线性变换和注意机制来处理相位恢复问题，并使用快速傅里叶变换和基于对数的损失函数来提高性能。 |
-| [^6] | [Learning Compact Compositional Embeddings via Regularized Pruning for Recommendation.](http://arxiv.org/abs/2309.03518) | 本研究提出了一种用于推荐系统的新型紧凑嵌入框架，该框架通过正则化修剪的方式在资源受限的环境中实现了更高的内存效率，从而提供了高准确度的推荐。 |
-| [^7] | [TensorBank:Tensor Lakehouse for Foundation Model Training.](http://arxiv.org/abs/2309.02094) | TensorBank是一个基于Tensor的湖仓库，能够以高速从云对象存储流式传输张量到GPU内存，并通过使用分层统计指标进行查询加速。 |
-| [^8] | [RecFusion: A Binomial Diffusion Process for 1D Data for Recommendation.](http://arxiv.org/abs/2306.08947) | 本文提出了 RecFusion，一种特定针对1D和/或二进制设置的推荐模型方法，其利用了二项式扩散过程对二元用户-项目交互进行显式建模，并在核心推荐设置和最常见的数据集上接近复杂的VAE基线的表现。 |
-| [^9] | [STIXnet: A Novel and Modular Solution for Extracting All STIX Objects in CTI Reports.](http://arxiv.org/abs/2303.09999) | 提出了一种名为STIXnet的解决方案，可以自动提取CTI报告中所有的STIX实体和关系。 |
+| [^1] | [Streamlined Data Fusion: Unleashing the Power of Linear Combination with Minimal Relevance Judgments.](http://arxiv.org/abs/2309.04981) | 本研究发现，仅使用20％-50％的相关文档，通过多元线性回归训练得到的权重与使用传统方法得到的权重非常接近，从而实现了更高效和可负担的数据融合方法。 |
+| [^2] | [Multi-modal Extreme Classification.](http://arxiv.org/abs/2309.04961) | 本文提出了一种名为MUFIN的技术，用于处理具有数百万个标签的多模态极端分类任务，该技术在产品推荐和竞标查询预测中具有应用前景。 |
+| [^3] | [A multiple k-means cluster ensemble framework for clustering citation trajectories.](http://arxiv.org/abs/2309.04949) | 本文提出了一种基于特征的多个k-means聚类集成框架，用于聚类引用轨迹。这有助于理解知识传播过程，并解决了现有方法依赖参数、定义模糊和只捕捉极端轨迹的问题。 |
+| [^4] | [RecAD: Towards A Unified Library for Recommender Attack and Defense.](http://arxiv.org/abs/2309.04884) | RecAD是一个旨在建立推荐攻击和防御的开放基准的统一库，通过整合数据集、源代码、参数设置、运行日志、攻击知识、攻击预算和评估结果，为研究人员提供一个可复现的研究流程。 |
+| [^5] | [Exploring Music Genre Classification: Algorithm Analysis and Deployment Architecture.](http://arxiv.org/abs/2309.04861) | 本文研究了音乐流派分类，使用了数字信号处理和深度学习技术，并提出了一种新颖的算法，可以从音频信号中提取特征并进行分类。该算法在GTZAN数据集上取得高精度，同时还提出了端到端的部署架构，可用于音乐应用程序的集成。 |
+| [^6] | [CPMR: Context-Aware Incremental Sequential Recommendation with Pseudo-Multi-Task Learning.](http://arxiv.org/abs/2309.04802) | CPMR是一个基于上下文感知的增量顺序推荐系统，通过创建静态嵌入、历史时间状态和上下文时间状态的三个表示，准确地建模了用户随时间变化的表示和兴趣动态的演化。 |
+| [^7] | [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining.](http://arxiv.org/abs/2309.04761) | 本调研综合审查了在教育数据挖掘中深度学习技术的最新研究进展，包括对知识跟踪、学生不良行为检测、性能预测和个性化推荐等典型教育场景的应用。同时提供了公共数据集和处理工具的综合概述，并指出了未来的研究方向。 |
+| [^8] | [Data Augmentation for Conversational AI.](http://arxiv.org/abs/2309.04739) | 本教程提供了对话式人工智能中数据增强的综述，包括对话增强、开放域和任务导向的对话生成以及评估模型。此外，还讨论了当前的挑战和未来的发展方向，以帮助推动该领域的发展。 |
+| [^9] | [Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model.](http://arxiv.org/abs/2309.04704) | 本研究考虑使用LLM模型通过细调实现虚假信息和假新闻的深入分析，揭示复杂的风格和叙事，并提取命名实体的情感，以此作为监督机器学习模型中的预测性特征。 |
+| [^10] | [Financial News Analytics Using Fine-Tuned Llama 2 GPT Model.](http://arxiv.org/abs/2308.13032) | 本研究通过精细调整的Llama 2模型实现了金融新闻的多任务分析，包括文本分析、摘要和情感提取等。实验结果显示，提取的命名实体情感可以作为有监督机器学习模型的预测特征。 |
+| [^11] | [EulerNet: Adaptive Feature Interaction Learning via Euler's Formula for CTR Prediction.](http://arxiv.org/abs/2304.10711) | 本文提出了一种自适应特征交互学习模型EulerNet，它采用欧拉公式将高阶特征交互映射到复杂向量空间中学习，从而在保持效率的同时提高模型能力。 |
 
 # 详细
 
-[^1]: 提供商公平性与推荐系统中超越准确性的权衡研究
+[^1]: 精简数据融合: 以最少的相关性判断释放线性组合的力量
 
-    Provider Fairness and Beyond-Accuracy Trade-offs in Recommender Systems. (arXiv:2309.04250v1 [cs.IR])
+    Streamlined Data Fusion: Unleashing the Power of Linear Combination with Minimal Relevance Judgments. (arXiv:2309.04981v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.04250](http://arxiv.org/abs/2309.04250)
+    [http://arxiv.org/abs/2309.04981](http://arxiv.org/abs/2309.04981)
 
-    本文研究了推荐系统中的提供商公平性问题以及相应的超越准确性考虑。通过引入后处理重新排序模型，我们在维护用户相关性和推荐质量的同时，优先考虑了提供商公平性。针对多个数据集进行的评估显示该模型在推荐质量各个方面有积极影响。
-
-    
-
-    推荐系统在改善用户在线体验的同时，也引发了对潜在的提供商公平性问题的关注。这些系统可能会不经意地偏爱热门物品，从而使较不流行的物品边缘化，并妥协了提供商的公平性。虽然以前的研究已经意识到提供商公平性问题，但对这些偏见如何影响推荐系统的超越准确性方面（如多样性、新颖性、覆盖率和偶然性）的调查却不够重视。在本文中，我们通过引入一个简单而有效的后处理重新排序模型，旨在优先考虑提供商公平性的同时，保持用户相关性和推荐质量，来填补这一空白。然后，我们对模型在多个数据集上对推荐质量的各个方面的影响进行深入评估。具体而言，我们将后处理算法应用于四个不同领域数据集上的四个独立的推荐模型，进行评估。
-
-    Recommender systems, while transformative in online user experiences, have raised concerns over potential provider-side fairness issues. These systems may inadvertently favor popular items, thereby marginalizing less popular ones and compromising provider fairness. While previous research has recognized provider-side fairness issues, the investigation into how these biases affect beyond-accuracy aspects of recommendation systems - such as diversity, novelty, coverage, and serendipity - has been less emphasized. In this paper, we address this gap by introducing a simple yet effective post-processing re-ranking model that prioritizes provider fairness, while simultaneously maintaining user relevance and recommendation quality. We then conduct an in-depth evaluation of the model's impact on various aspects of recommendation quality across multiple datasets. Specifically, we apply the post-processing algorithm to four distinct recommendation models across four varied domain datasets, asses
-    
-[^2]: 未观察到潜在混淆因素下的离线推荐系统评估
-
-    Offline Recommender System Evaluation under Unobserved Confounding. (arXiv:2309.04222v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.04222](http://arxiv.org/abs/2309.04222)
-
-    本论文讨论了在存在潜在混淆因素的情况下进行离线推荐系统评估的问题，并特别关注推荐系统用例。通过对基于策略的估计器进行研究，我们描述了由混淆因素引起的统计偏差。
+    本研究发现，仅使用20％-50％的相关文档，通过多元线性回归训练得到的权重与使用传统方法得到的权重非常接近，从而实现了更高效和可负担的数据融合方法。
 
     
 
-    离线政策估计方法(OPE)允许我们从记录的数据中学习和评估决策策略，使它们成为离线评估推荐系统的吸引人选择。最近的一些作品报道了成功采用OPE方法的情况。这项工作的一个重要假设是不存在未观察到的混淆因素：在数据收集时影响行动和奖励的随机变量。由于数据收集策略通常在从业者的控制之下，因此很少明确地提及无混淆假设，并且现有文献中很少处理其违规问题。这项工作旨在强调在存在未观察到的混淆因素的情况下进行离线策略估计时出现的问题，特别关注推荐系统的用例。我们专注于基于策略的估计器，其中日志倾向是从记录数据中学习的。我们对由于混淆因素引起的统计偏差进行了描述。
+    线性组合是信息检索任务中一种强大的数据融合方法，它能够根据不同的情境调整权重。然而，传统上实现最优权重训练通常需要对大部分文档进行人工相关性判断，这是一项费时费力的过程。在本研究中，我们探讨了仅使用20％-50％的相关文档获取接近最优权重的可行性。通过对四个TREC数据集进行实验，我们发现使用这种减少的数据集进行多元线性回归训练得到的权重与使用TREC官方"qrels"得到的权重非常接近。我们的研究结果揭示了更高效、更经济的数据融合潜力，使研究人员和从业者能够在更少的工作量下充分享受其所带来的好处。
 
-    Off-Policy Estimation (OPE) methods allow us to learn and evaluate decision-making policies from logged data. This makes them an attractive choice for the offline evaluation of recommender systems, and several recent works have reported successful adoption of OPE methods to this end. An important assumption that makes this work is the absence of unobserved confounders: random variables that influence both actions and rewards at data collection time. Because the data collection policy is typically under the practitioner's control, the unconfoundedness assumption is often left implicit, and its violations are rarely dealt with in the existing literature.  This work aims to highlight the problems that arise when performing off-policy estimation in the presence of unobserved confounders, specifically focusing on a recommendation use-case. We focus on policy-based estimators, where the logging propensities are learned from logged data. We characterise the statistical bias that arises due to
+    Linear combination is a potent data fusion method in information retrieval tasks, thanks to its ability to adjust weights for diverse scenarios. However, achieving optimal weight training has traditionally required manual relevance judgments on a large percentage of documents, a labor-intensive and expensive process. In this study, we investigate the feasibility of obtaining near-optimal weights using a mere 20\%-50\% of relevant documents. Through experiments on four TREC datasets, we find that weights trained with multiple linear regression using this reduced set closely rival those obtained with TREC's official "qrels." Our findings unlock the potential for more efficient and affordable data fusion, empowering researchers and practitioners to reap its full benefits with significantly less effort.
     
-[^3]: 基于纪录片制作技术的算法推荐的接受研究
+[^2]: 多模态极端分类
 
-    Receiving an algorithmic recommendation based on documentary filmmaking techniques. (arXiv:2309.04184v1 [cs.IR])
+    Multi-modal Extreme Classification. (arXiv:2309.04961v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.04184](http://arxiv.org/abs/2309.04184)
+    [http://arxiv.org/abs/2309.04961](http://arxiv.org/abs/2309.04961)
 
-    本研究分析了基于纪录片制作技术的算法推荐在T{\"e}nk平台上的接受情况，通过构建一组元数据来描述纪录片制作设备的多样性，探讨平台电影爱好者如何理解和接受类似纪录片制作设备的个性化推荐。讨论了这个概念验证的贡献和局限，并提出了提升纪录片仪器化媒介的思考方向。
-
-    
-
-    本文分析了T{\"e}nk平台电影观众对纪录片的新颖算法推荐的接受情况。为了提出一种替代基于主题分类、导演或制作时期的推荐方法，在这个实验框架内，我们构建了一组元数据，以描述“纪录片制作设备”的丰富多样性。研究的目标是调查平台的电影爱好者在个性化推荐的情况下如何理解和接受有相似纪录片制作设备的4部纪录片。最后，讨论了这个概念验证的贡献和局限，以勾勒出提升纪录片仪器化媒介的思考方向。
-
-    This article analyzes the reception of a novel algorithmic recommendation of documentary films by a panel of moviegoers of the T{\"e}nk platform. In order to propose an alternative to recommendations based on a thematic classification, the director or the production period, a set of metadata has been elaborated within the framework of this experimentation in order to characterize the great variety of ``documentary filmmaking dispositifs'' . The goal is to investigate the different ways in which the platform's film lovers appropriate a personalized recommendation of 4 documentaries with similar or similar filmmaking dispositifs. To conclude, the contributions and limits of this proof of concept are discussed in order to sketch out avenues of reflection for improving the instrumented mediation of documentary films.
-    
-[^4]: 一种针对艺术家和音乐相似性的长尾友好表示框架
-
-    A Long-Tail Friendly Representation Framework for Artist and Music Similarity. (arXiv:2309.04182v1 [cs.SD])
-
-    [http://arxiv.org/abs/2309.04182](http://arxiv.org/abs/2309.04182)
-
-    本论文提出了一种长尾友好的表示框架，利用神经网络模型艺术家和音乐之间的相似关系，改善了传统方法在稀疏关系中的表示性能。
+    本文提出了一种名为MUFIN的技术，用于处理具有数百万个标签的多模态极端分类任务，该技术在产品推荐和竞标查询预测中具有应用前景。
 
     
 
-    在音乐检索和推荐中，研究艺术家和音乐之间的相似性是至关重要的，解决长尾现象的挑战日益重要。本文提出了一种利用神经网络建模相似关系的长尾友好表示框架(LTFRF)。我们的方法将音乐、用户、元数据和关系数据整合到一个统一的度量学习框架中，利用元一致性关系作为正则项，引入多关系损失。与图神经网络(GNN)相比，我们提出的框架改善了长尾场景中稀疏的艺术家和音乐之间的关系表示性能。我们在AllMusic数据集上进行了实验和分析，结果表明我们的框架提供了艺术家和音乐表示的有利泛化效果。具体而言，在类似艺术家/音乐推荐任务上，t
+    本文针对具有数百万个标签的极端分类任务，发展了一种名为MUFIN的技术，其中数据点和标签具有视觉和文本描述符。将MUFIN应用于数百万个产品的产品推荐和竞标查询预测中。当代的多模态方法通常依赖于仅嵌入式方法。另一方面，XC方法利用分类器架构提供比仅嵌入式方法更高的准确性，但主要专注于基于文本的分类任务。MUFIN通过将多模态分类重新制定为具有数百万个标签的XC问题来弥合这一差距。这提出了两个挑战：开发能够提供足够表达力以实现对数百万个标签进行准确分类的多模态架构；以及在标签数量的对数尺度上扩展训练和推理例程。MUFIN基于交叉的方法开发了一种架构。
 
-    The investigation of the similarity between artists and music is crucial in music retrieval and recommendation, and addressing the challenge of the long-tail phenomenon is increasingly important. This paper proposes a Long-Tail Friendly Representation Framework (LTFRF) that utilizes neural networks to model the similarity relationship. Our approach integrates music, user, metadata, and relationship data into a unified metric learning framework, and employs a meta-consistency relationship as a regular term to introduce the Multi-Relationship Loss. Compared to the Graph Neural Network (GNN), our proposed framework improves the representation performance in long-tail scenarios, which are characterized by sparse relationships between artists and music. We conduct experiments and analysis on the AllMusic dataset, and the results demonstrate that our framework provides a favorable generalization of artist and music representation. Specifically, on similar artist/music recommendation tasks, t
+    This paper develops the MUFIN technique for extreme classification (XC) tasks with millions of labels where datapoints and labels are endowed with visual and textual descriptors. Applications of MUFIN to product-to-product recommendation and bid query prediction over several millions of products are presented. Contemporary multi-modal methods frequently rely on purely embedding-based methods. On the other hand, XC methods utilize classifier architectures to offer superior accuracies than embedding only methods but mostly focus on text-based categorization tasks. MUFIN bridges this gap by reformulating multi-modal categorization as an XC problem with several millions of labels. This presents the twin challenges of developing multi-modal architectures that can offer embeddings sufficiently expressive to allow accurate categorization over millions of labels; and training and inference routines that scale logarithmically in the number of labels. MUFIN develops an architecture based on cros
     
-[^5]: PRISTA-Net:用于编码衍射图模式相位恢复的深度迭代缩减阈值网络
+[^3]: 用于聚类引用轨迹的多个K-means聚类集成框架
 
-    PRISTA-Net: Deep Iterative Shrinkage Thresholding Network for Coded Diffraction Patterns Phase Retrieval. (arXiv:2309.04171v1 [cs.CV])
+    A multiple k-means cluster ensemble framework for clustering citation trajectories. (arXiv:2309.04949v1 [cs.SI])
 
-    [http://arxiv.org/abs/2309.04171](http://arxiv.org/abs/2309.04171)
+    [http://arxiv.org/abs/2309.04949](http://arxiv.org/abs/2309.04949)
 
-    PRISTA-Net是一个基于深度迭代缩减阈值算法的网络，通过学习非线性变换和注意机制来处理相位恢复问题，并使用快速傅里叶变换和基于对数的损失函数来提高性能。
-
-    
-
-    相位恢复（PR）问题涉及从有限的幅度测量数据中恢复未知图像，是计算成像和图像处理中具有挑战性的非线性逆问题。然而，许多PR方法基于缺乏可解释性和计算复杂性般配和调参需求的黑盒网络模型。为了解决这个问题，我们开发了PRISTA-Net，这是一个基于一阶迭代缩减阈值算法（ISTA）的深度展开网络（DUN）。该网络利用可学习的非线性变换来处理稀疏先验中与近端点映射子问题有关的相位信息，还使用注意机制来聚焦包含图像边缘、纹理和结构的相位信息。此外，还使用快速傅里叶变换（FFT）来学习全局特征以增强局部信息，并通过设计的基于对数的损失函数实现了显著的改善。
-
-    The problem of phase retrieval (PR) involves recovering an unknown image from limited amplitude measurement data and is a challenge nonlinear inverse problem in computational imaging and image processing. However, many of the PR methods are based on black-box network models that lack interpretability and plug-and-play (PnP) frameworks that are computationally complex and require careful parameter tuning. To address this, we have developed PRISTA-Net, a deep unfolding network (DUN) based on the first-order iterative shrinkage thresholding algorithm (ISTA). This network utilizes a learnable nonlinear transformation to address the proximal-point mapping sub-problem associated with the sparse priors, and an attention mechanism to focus on phase information containing image edges, textures, and structures. Additionally, the fast Fourier transform (FFT) is used to learn global features to enhance local information, and the designed logarithmic-based loss function leads to significant improve
-    
-[^6]: 通过正则化修剪来学习紧凑的组合嵌入以用于推荐
-
-    Learning Compact Compositional Embeddings via Regularized Pruning for Recommendation. (arXiv:2309.03518v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.03518](http://arxiv.org/abs/2309.03518)
-
-    本研究提出了一种用于推荐系统的新型紧凑嵌入框架，该框架通过正则化修剪的方式在资源受限的环境中实现了更高的内存效率，从而提供了高准确度的推荐。
+    本文提出了一种基于特征的多个k-means聚类集成框架，用于聚类引用轨迹。这有助于理解知识传播过程，并解决了现有方法依赖参数、定义模糊和只捕捉极端轨迹的问题。
 
     
 
-    潜在因素模型是当代推荐系统的主要支柱，由于它们的性能优势，在这些模型中，每个实体（通常是用户/物品）需要用一个固定维度（例如128）的唯一向量嵌入来表示。由于电子商务网站上用户和物品的数量巨大，嵌入表格可以说是推荐系统中最不节省内存的组件。对于任何希望能够有效地按比例扩展到不断增长的用户/物品数量或在资源受限环境中仍然适用的轻量级推荐系统，现有的解决方案要么通过哈希减少所需的嵌入数量，要么通过稀疏化完整的嵌入表格以关闭选定的嵌入维度。然而，由于哈希冲突或嵌入过于稀疏，尤其是在适应更紧凑的内存预算时，这些轻量级推荐器不可避免地会牺牲其准确性。因此，我们提出了一种新颖的紧凑嵌入框架用于推荐系统，称为Compos。
+    引用成熟时间因文章而异，然而所有文章的影响力都是在一个固定窗口内衡量的。对它们的引用轨迹进行聚类有助于理解知识扩散过程，并揭示并非所有文章在发表后都立即获得成功。此外，对轨迹进行聚类也对论文影响力推荐算法至关重要。由于引用时间序列具有非线性和非平稳特性，这是一个具有挑战性的问题。先前的工作提出了一组任意的阈值和基于规则的固定方法。所有的方法主要都依赖于参数，因此在定义相似的轨迹和关于特定数目的模糊性方面导致了不一致性。大多数研究只捕捉了极端的轨迹。因此，需要一个通用的聚类框架。本文提出了一个基于特征的多个k-means聚类集成框架。
 
-    Latent factor models are the dominant backbones of contemporary recommender systems (RSs) given their performance advantages, where a unique vector embedding with a fixed dimensionality (e.g., 128) is required to represent each entity (commonly a user/item). Due to the large number of users and items on e-commerce sites, the embedding table is arguably the least memory-efficient component of RSs. For any lightweight recommender that aims to efficiently scale with the growing size of users/items or to remain applicable in resource-constrained settings, existing solutions either reduce the number of embeddings needed via hashing, or sparsify the full embedding table to switch off selected embedding dimensions. However, as hash collision arises or embeddings become overly sparse, especially when adapting to a tighter memory budget, those lightweight recommenders inevitably have to compromise their accuracy. To this end, we propose a novel compact embedding framework for RSs, namely Compos
+    Citation maturity time varies for different articles. However, the impact of all articles is measured in a fixed window. Clustering their citation trajectories helps understand the knowledge diffusion process and reveals that not all articles gain immediate success after publication. Moreover, clustering trajectories is necessary for paper impact recommendation algorithms. It is a challenging problem because citation time series exhibit significant variability due to non linear and non stationary characteristics. Prior works propose a set of arbitrary thresholds and a fixed rule based approach. All methods are primarily parameter dependent. Consequently, it leads to inconsistencies while defining similar trajectories and ambiguities regarding their specific number. Most studies only capture extreme trajectories. Thus, a generalised clustering framework is required. This paper proposes a feature based multiple k means cluster ensemble framework. 1,95,783 and 41,732 well cited articles f
     
-[^7]: TensorBank: 基于Tensor的湖仓库用于基础模型训练
+[^4]: RecAD: 向统一的推荐攻击和防御库迈进
 
-    TensorBank:Tensor Lakehouse for Foundation Model Training. (arXiv:2309.02094v2 [cs.LG] UPDATED)
+    RecAD: Towards A Unified Library for Recommender Attack and Defense. (arXiv:2309.04884v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.02094](http://arxiv.org/abs/2309.02094)
+    [http://arxiv.org/abs/2309.04884](http://arxiv.org/abs/2309.04884)
 
-    TensorBank是一个基于Tensor的湖仓库，能够以高速从云对象存储流式传输张量到GPU内存，并通过使用分层统计指标进行查询加速。
-
-    
-
-    随着基础模型在自然语言之外的领域的兴起，存储和流式处理高维数据成为基础模型训练的关键需求。在本文中，我们介绍了TensorBank，一个能够基于复杂关系查询从云对象存储（COS）流式传输张量到GPU内存的百亿级张量湖仓库。我们使用分层统计指标（HSI）来加速查询。我们的架构允许使用HTTP范围读取来直接访问块级别的张量。一旦在GPU内存中，数据可以使用PyTorch转换进行转换。我们提供了一个通用的PyTorch数据集类型，配有相应的数据集工厂，用于将关系查询和请求的转换作为一个实例进行翻译。通过使用HSI，可以跳过不相关的块，而无需读取它们，因为这些索引包含不同层次分辨率级别上内容的统计信息。这是一个基于开放标准的有主观观点的架构。
-
-    Storing and streaming high dimensional data for foundation model training became a critical requirement with the rise of foundation models beyond natural language. In this paper we introduce TensorBank, a petabyte scale tensor lakehouse capable of streaming tensors from Cloud Object Store (COS) to GPU memory at wire speed based on complex relational queries. We use Hierarchical Statistical Indices (HSI) for query acceleration. Our architecture allows to directly address tensors on block level using HTTP range reads. Once in GPU memory, data can be transformed using PyTorch transforms. We provide a generic PyTorch dataset type with a corresponding dataset factory translating relational queries and requested transformations as an instance. By making use of the HSI, irrelevant blocks can be skipped without reading them as those indices contain statistics on their content at different hierarchical resolution levels. This is an opinionated architecture powered by open standards and making h
-    
-[^8]: RecFusion：基于二项式扩散过程的1D数据推荐模型
-
-    RecFusion: A Binomial Diffusion Process for 1D Data for Recommendation. (arXiv:2306.08947v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2306.08947](http://arxiv.org/abs/2306.08947)
-
-    本文提出了 RecFusion，一种特定针对1D和/或二进制设置的推荐模型方法，其利用了二项式扩散过程对二元用户-项目交互进行显式建模，并在核心推荐设置和最常见的数据集上接近复杂的VAE基线的表现。
+    RecAD是一个旨在建立推荐攻击和防御的开放基准的统一库，通过整合数据集、源代码、参数设置、运行日志、攻击知识、攻击预算和评估结果，为研究人员提供一个可复现的研究流程。
 
     
 
-    本文提出了RecFusion，这是一组用于推荐的扩散模型。不同于包含空间相关性的图像数据，常用于推荐的用户-项目交互矩阵缺乏用户和项目之间的空间关系。我们在一个一维向量上制定了扩散方法，并提出了二项式扩散，这个方法利用了伯努利过程显式地对二元用户-项目交互进行建模。我们展示了RecFusion在核心推荐设置（针对二进制非顺序反馈的前n项推荐）和最常见的数据集（MovieLens和Netflix）上接近于复杂的VAE基线的表现。我们提出的专门针对1D和/或二进制设置的扩散模型的意义超出了推荐系统，例如在医学领域中使用MRI和CT扫描。
+    近年来，推荐系统已经成为我们日常生活中无处不在的一部分，然而由于不断增长的商业和社会价值，它们面临着被攻击的高风险。尽管在推荐攻击和防御方面取得了重要的研究进展，但该领域缺乏广泛认可的基准标准，导致性能比较不公平且实验可信度有限。为了解决这个问题，我们提出了RecAD，一个旨在建立推荐攻击和防御的开放基准的统一库。RecAD通过整合不同的数据集、标准源代码、超参数设置、运行日志、攻击知识、攻击预算和评估结果，初步建立了一个统一的基准测试流程，以实现可复现的研究。该基准测试旨在全面且可持续，涵盖攻击、防御和评估任务，使更多的研究人员能够轻松地追随和贡献这个有前景的领域。
 
-    In this paper we propose RecFusion, which comprise a set of diffusion models for recommendation. Unlike image data which contain spatial correlations, a user-item interaction matrix, commonly utilized in recommendation, lacks spatial relationships between users and items. We formulate diffusion on a 1D vector and propose binomial diffusion, which explicitly models binary user-item interactions with a Bernoulli process. We show that RecFusion approaches the performance of complex VAE baselines on the core recommendation setting (top-n recommendation for binary non-sequential feedback) and the most common datasets (MovieLens and Netflix). Our proposed diffusion models that are specialized for 1D and/or binary setups have implications beyond recommendation systems, such as in the medical domain with MRI and CT scans.
+    In recent years, recommender systems have become a ubiquitous part of our daily lives, while they suffer from a high risk of being attacked due to the growing commercial and social values. Despite significant research progress in recommender attack and defense, there is a lack of a widely-recognized benchmarking standard in the field, leading to unfair performance comparison and limited credibility of experiments. To address this, we propose RecAD, a unified library aiming at establishing an open benchmark for recommender attack and defense. RecAD takes an initial step to set up a unified benchmarking pipeline for reproducible research by integrating diverse datasets, standard source codes, hyper-parameter settings, running logs, attack knowledge, attack budget, and evaluation results. The benchmark is designed to be comprehensive and sustainable, covering both attack, defense, and evaluation tasks, enabling more researchers to easily follow and contribute to this promising field. RecA
     
-[^9]: STIXnet: 一种从CTI报告中提取所有STIX对象的新型模块化解决方案
+[^5]: 探索音乐流派分类：算法分析与部署架构
 
-    STIXnet: A Novel and Modular Solution for Extracting All STIX Objects in CTI Reports. (arXiv:2303.09999v1 [cs.IR])
+    Exploring Music Genre Classification: Algorithm Analysis and Deployment Architecture. (arXiv:2309.04861v1 [cs.SD])
 
-    [http://arxiv.org/abs/2303.09999](http://arxiv.org/abs/2303.09999)
+    [http://arxiv.org/abs/2309.04861](http://arxiv.org/abs/2309.04861)
 
-    提出了一种名为STIXnet的解决方案，可以自动提取CTI报告中所有的STIX实体和关系。
+    本文研究了音乐流派分类，使用了数字信号处理和深度学习技术，并提出了一种新颖的算法，可以从音频信号中提取特征并进行分类。该算法在GTZAN数据集上取得高精度，同时还提出了端到端的部署架构，可用于音乐应用程序的集成。
 
     
 
-    从网络威胁情报(CTI)报告中自动提取信息对于风险管理至关重要。本文提出了一种名为STIXnet的解决方案，通过使用自然语言处理（NLP）技术和交互式实体知识库（KB），可以自动提取CTI报告中所有的STIX实体和关系。
+    随着各种流媒体应用的出现，音乐流派分类变得越来越重要。如今，在一个复杂的音乐应用程序中，我们无法想象仅通过艺术家的名字和歌曲标题来搜索音乐。正确分类音乐一直很困难，因为与音乐相关的信息，如地区、艺术家、专辑或非专辑，是如此多变。本文提出了一项关于音乐流派分类的研究，使用了数字信号处理（DSP）和深度学习（DL）技术的组合。提出了一种新颖的算法，利用DSP和DL方法从音频信号中提取相关特征，并将其分类到各种流派中。该算法在GTZAN数据集上进行了测试，并取得了高精度。还提出了一种端到端的部署架构，用于集成到与音乐相关的应用程序中。对算法的性能进行了分析，并讨论了改进的未来方向。
 
-    The automatic extraction of information from Cyber Threat Intelligence (CTI) reports is crucial in risk management. The increased frequency of the publications of these reports has led researchers to develop new systems for automatically recovering different types of entities and relations from textual data. Most state-of-the-art models leverage Natural Language Processing (NLP) techniques, which perform greatly in extracting a few types of entities at a time but cannot detect heterogeneous data or their relations. Furthermore, several paradigms, such as STIX, have become de facto standards in the CTI community and dictate a formal categorization of different entities and relations to enable organizations to share data consistently. This paper presents STIXnet, the first solution for the automated extraction of all STIX entities and relationships in CTI reports. Through the use of NLP techniques and an interactive Knowledge Base (KB) of entities, our approach obtains F1 scores comparab
+    Music genre classification has become increasingly critical with the advent of various streaming applications. Nowadays, we find it impossible to imagine using the artist's name and song title to search for music in a sophisticated music app. It is always difficult to classify music correctly because the information linked to music, such as region, artist, album, or non-album, is so variable. This paper presents a study on music genre classification using a combination of Digital Signal Processing (DSP) and Deep Learning (DL) techniques. A novel algorithm is proposed that utilizes both DSP and DL methods to extract relevant features from audio signals and classify them into various genres. The algorithm was tested on the GTZAN dataset and achieved high accuracy. An end-to-end deployment architecture is also proposed for integration into music-related applications. The performance of the algorithm is analyzed and future directions for improvement are discussed. The proposed DSP and DL-b
+    
+[^6]: CPMR: 基于上下文感知的增量顺序推荐与伪多任务学习
+
+    CPMR: Context-Aware Incremental Sequential Recommendation with Pseudo-Multi-Task Learning. (arXiv:2309.04802v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.04802](http://arxiv.org/abs/2309.04802)
+
+    CPMR是一个基于上下文感知的增量顺序推荐系统，通过创建静态嵌入、历史时间状态和上下文时间状态的三个表示，准确地建模了用户随时间变化的表示和兴趣动态的演化。
+
+    
+
+    用户进行互动的动机可以分为静态偏好和动态兴趣。为了准确地建模用户随时间变化的表示，最近的顺序推荐研究利用信息传播和演化从批量到达的互动中进行挖掘。然而，他们忽略了在上下文场景中人们很容易受到其他用户的最近行为的影响，并且在所有历史互动中应用演化会稀释最近互动的重要性，从而无法准确地建模兴趣动态的演化。为了解决这个问题，我们提出了一种基于上下文感知的伪多任务推荐系统（CPMR），通过为每个用户和项目创建三个表示（静态嵌入、历史时间状态和上下文时间状态），来建模历史和上下文情境中的演化。为了同时提高时间状态演化和增量推荐的性能。
+
+    The motivations of users to make interactions can be divided into static preference and dynamic interest. To accurately model user representations over time, recent studies in sequential recommendation utilize information propagation and evolution to mine from batches of arriving interactions. However, they ignore the fact that people are easily influenced by the recent actions of other users in the contextual scenario, and applying evolution across all historical interactions dilutes the importance of recent ones, thus failing to model the evolution of dynamic interest accurately. To address this issue, we propose a Context-Aware Pseudo-Multi-Task Recommender System (CPMR) to model the evolution in both historical and contextual scenarios by creating three representations for each user and item under different dynamics: static embedding, historical temporal states, and contextual temporal states. To dually improve the performance of temporal states evolution and incremental recommenda
+    
+[^7]: 在教育数据挖掘中深度学习技术的综合调研
+
+    A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining. (arXiv:2309.04761v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.04761](http://arxiv.org/abs/2309.04761)
+
+    本调研综合审查了在教育数据挖掘中深度学习技术的最新研究进展，包括对知识跟踪、学生不良行为检测、性能预测和个性化推荐等典型教育场景的应用。同时提供了公共数据集和处理工具的综合概述，并指出了未来的研究方向。
+
+    
+
+    教育数据挖掘(EDM)作为研究的重要领域，利用计算技术来分析教育数据。随着教育数据的复杂性和多样性增加，深度学习技术在解决分析和建模这些数据所面临的挑战方面表现出了显著的优势。本调研旨在系统地审查深度学习在EDM领域的最新研究进展。我们首先提供了关于EDM和深度学习的简要介绍，强调了它们在现代教育环境中的重要性。接下来，我们详细回顾了在四个典型教育场景中应用的深度学习技术，包括知识跟踪、学生不良行为检测、性能预测和个性化推荐。此外，我们还提供了EDM的公共数据集和处理工具的综合概述。最后，我们指出了该研究领域的新兴趋势和未来方向。
+
+    Educational Data Mining (EDM) has emerged as a vital field of research, which harnesses the power of computational techniques to analyze educational data. With the increasing complexity and diversity of educational data, Deep Learning techniques have shown significant advantages in addressing the challenges associated with analyzing and modeling this data. This survey aims to systematically review the state-of-the-art in EDM with Deep Learning. We begin by providing a brief introduction to EDM and Deep Learning, highlighting their relevance in the context of modern education. Next, we present a detailed review of Deep Learning techniques applied in four typical educational scenarios, including knowledge tracing, undesirable student detecting, performance prediction, and personalized recommendation. Furthermore, a comprehensive overview of public datasets and processing tools for EDM is provided. Finally, we point out emerging trends and future directions in this research area.
+    
+[^8]: 对话式人工智能的数据增强
+
+    Data Augmentation for Conversational AI. (arXiv:2309.04739v1 [cs.CL])
+
+    [http://arxiv.org/abs/2309.04739](http://arxiv.org/abs/2309.04739)
+
+    本教程提供了对话式人工智能中数据增强的综述，包括对话增强、开放域和任务导向的对话生成以及评估模型。此外，还讨论了当前的挑战和未来的发展方向，以帮助推动该领域的发展。
+
+    
+
+    对话系统的发展已经彻底改变了信息获取方式，超越了单一查询的限制。然而，开发对话系统需要大量的训练数据，在资源有限的领域和语言中具有挑战性。传统的数据收集方法，如众包，需要大量的人力和时间，因此在此情景下效率低下。数据增强（DA）是一种缓解对话系统中数据稀缺问题的有效方法。本教程全面且最新地概述了在对话系统中使用的DA方法，包括对话增强、开放域和任务导向的对话生成以及不同的评估模型的范式。我们还讨论了当前的挑战和未来的发展方向，以帮助研究人员和从业者进一步推动这一领域的发展。
+
+    Advancements in conversational systems have revolutionized information access, surpassing the limitations of single queries. However, developing dialogue systems requires a large amount of training data, which is a challenge in low-resource domains and languages. Traditional data collection methods like crowd-sourcing are labor-intensive and time-consuming, making them ineffective in this context. Data augmentation (DA) is an affective approach to alleviate the data scarcity problem in conversational systems. This tutorial provides a comprehensive and up-to-date overview of DA approaches in the context of conversational systems. It highlights recent advances in conversation augmentation, open domain and task-oriented conversation generation, and different paradigms of evaluating these models. We also discuss current challenges and future directions in order to help researchers and practitioners to further advance the field in this area.
+    
+[^9]: 通过优化大型语言模型进行虚假信息和假新闻的检测分析
+
+    Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model. (arXiv:2309.04704v1 [cs.CL])
+
+    [http://arxiv.org/abs/2309.04704](http://arxiv.org/abs/2309.04704)
+
+    本研究考虑使用LLM模型通过细调实现虚假信息和假新闻的深入分析，揭示复杂的风格和叙事，并提取命名实体的情感，以此作为监督机器学习模型中的预测性特征。
+
+    
+
+    本文考虑使用LLM（Llama 2大型语言模型）通过细调进行虚假信息分析和假新闻的检测。采用了基于PEFT/LoRA的细调方法。研究中，该模型对以下任务进行了细调：揭示虚假信息和宣传叙事的文本分析，事实核查，假新闻检测，操纵分析以及提取带有情感的命名实体。所得结果表明，经过细调的Llama 2模型能够对文本进行深入分析，并揭示复杂的风格和叙事。带有情感的命名实体可以作为监督机器学习模型中的预测性特征。
+
+    The paper considers the possibility of fine-tuning Llama 2 large language model (LLM) for the disinformation analysis and fake news detection. For fine-tuning, the PEFT/LoRA based approach was used. In the study, the model was fine-tuned for the following tasks: analysing a text on revealing disinformation and propaganda narratives, fact checking, fake news detection, manipulation analytics, extracting named entities with their sentiments. The obtained results show that the fine-tuned Llama 2 model can perform a deep analysis of texts and reveal complex styles and narratives. Extracted sentiments for named entities can be considered as predictive features in supervised machine learning models.
+    
+[^10]: 使用精细调整的Llama 2 GPT模型进行金融新闻分析
+
+    Financial News Analytics Using Fine-Tuned Llama 2 GPT Model. (arXiv:2308.13032v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.13032](http://arxiv.org/abs/2308.13032)
+
+    本研究通过精细调整的Llama 2模型实现了金融新闻的多任务分析，包括文本分析、摘要和情感提取等。实验结果显示，提取的命名实体情感可以作为有监督机器学习模型的预测特征。
+
+    
+
+    本文考虑了使用精细调整的Llama 2 Large Language Model (LLM) 对金融新闻进行多任务分析的可能性。通过PEFT/LoRA方法对模型进行精细调整，主要包括从金融市场角度分析文本、突出文本的主要观点、对文本进行摘要和提取具有适当情感的命名实体等任务。实验结果表明，经过精细调整的Llama 2模型能够进行多任务的金融新闻分析，其响应的结构可以部分为结构化文本，另一部分数据可以采用JSON格式进一步处理。提取的命名实体情感可以被视为具有定量目标变量的监督机器学习模型的预测特征。
+
+    The paper considers the possibility to fine-tune Llama 2 Large Language Model (LLM) for the multitask analysis of financial news. For fine-tuning, the PEFT/LoRA based approach was used. In the study, the model was fine-tuned for the following tasks: analysing a text from financial market perspectives, highlighting main points of a text, summarizing a text and extracting named entities with appropriate sentiments. The obtained results show that the fine-tuned Llama 2 model can perform a multitask financial news analysis with a specified structure of response, part of response can be a structured text and another part of data can have JSON format for further processing. Extracted sentiments for named entities can be considered as predictive features in supervised machine learning models with quantitative target variables.
+    
+[^11]: EulerNet: 基于欧拉公式的复杂向量空间特征交互学习以实现点击率预测
+
+    EulerNet: Adaptive Feature Interaction Learning via Euler's Formula for CTR Prediction. (arXiv:2304.10711v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.10711](http://arxiv.org/abs/2304.10711)
+
+    本文提出了一种自适应特征交互学习模型EulerNet，它采用欧拉公式将高阶特征交互映射到复杂向量空间中学习，从而在保持效率的同时提高模型能力。
+
+    
+
+    在点击率预测任务中，学习高阶特征交互是非常关键的。然而，在在线电子商务平台中，由于海量特征的存在，计算高阶特征交互非常耗时。大多数现有方法手动设计最大阶数，并从中过滤出无用的交互。尽管它们减少了高阶特征组合的指数级增长所引起的高计算成本，但由于受到受限的特征阶数的次优学习的影响，它们仍然会受到模型能力下降的影响。保持模型能力并同时保持其效率的解决方案是一个技术挑战，该问题尚未得到充分解决。为了解决这个问题，我们提出了一个自适应特征交互学习模型，名为EulerNet，在该模型中，通过根据欧拉公式进行空间映射在复杂向量空间中学习特征交互。
+
+    Learning effective high-order feature interactions is very crucial in the CTR prediction task. However, it is very time-consuming to calculate high-order feature interactions with massive features in online e-commerce platforms. Most existing methods manually design a maximal order and further filter out the useless interactions from them. Although they reduce the high computational costs caused by the exponential growth of high-order feature combinations, they still suffer from the degradation of model capability due to the suboptimal learning of the restricted feature orders. The solution to maintain the model capability and meanwhile keep it efficient is a technical challenge, which has not been adequately addressed. To address this issue, we propose an adaptive feature interaction learning model, named as EulerNet, in which the feature interactions are learned in a complex vector space by conducting space mapping according to Euler's formula. EulerNet converts the exponential power
     
 

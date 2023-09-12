@@ -1,0 +1,12 @@
+{
+    "title": "Credit Information in Earnings Calls. (arXiv:2209.11914v2 [q-fin.GN] UPDATED)",
+    "abstract": "We develop a novel technique to extract credit-relevant information from the text of quarterly earnings calls. This information is not spanned by fundamental or market variables and forecasts future credit spread changes. One reason for such forecastability is that our text-based measure predicts future credit spread risk and firm profitability. More firm- and call-level complexity increase the forecasting power of our measure for spread changes. Out-of-sample portfolio tests show the information in our measure is valuable for investors. Both results suggest that investors do not fully internalize the credit-relevant information contained in earnings calls.",
+    "link": "http://arxiv.org/abs/2209.11914",
+    "context": "Title: Credit Information in Earnings Calls. (arXiv:2209.11914v2 [q-fin.GN] UPDATED)\nAbstract: We develop a novel technique to extract credit-relevant information from the text of quarterly earnings calls. This information is not spanned by fundamental or market variables and forecasts future credit spread changes. One reason for such forecastability is that our text-based measure predicts future credit spread risk and firm profitability. More firm- and call-level complexity increase the forecasting power of our measure for spread changes. Out-of-sample portfolio tests show the information in our measure is valuable for investors. Both results suggest that investors do not fully internalize the credit-relevant information contained in earnings calls.",
+    "path": "papers/22/09/2209.11914.json",
+    "total_tokens": 680,
+    "translated_title": "电话会议中的信用信息",
+    "translated_abstract": "我们开发了一种从季度电话会议的文本中提取与信用相关信息的新技术。这些信息不受基本变量或市场变量的影响，并且可以预测未来的信用利差变化。我们的基于文本的指标能够预测未来的信用利差风险和公司盈利能力，从而增加了我们指标对利差变化的预测能力的复杂性。我们的样本外投资组合测试显示，我们的指标中的信息对投资者有价值。这两个结果表明，投资者并未充分内化包含在电话会议中的与信用相关的信息。",
+    "tldr": "本文开发了一种从季度电话会议文本中提取信用相关信息的新技术，该信息能够预测未来信用利差变化，并表明投资者没有充分利用电话会议中的信用相关信息。",
+    "en_tdlr": "This paper develops a novel technique to extract credit-relevant information from quarterly earnings calls texts, which predicts future credit spread changes and suggests that investors do not fully utilize the credit-relevant information contained in earnings calls."
+}

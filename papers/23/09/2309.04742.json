@@ -1,0 +1,12 @@
+{
+    "title": "Affine Invariant Ensemble Transform Methods to Improve Predictive Uncertainty in ReLU Networks. (arXiv:2309.04742v1 [stat.ML])",
+    "abstract": "We consider the problem of performing Bayesian inference for logistic regression using appropriate extensions of the ensemble Kalman filter. Two interacting particle systems are proposed that sample from an approximate posterior and prove quantitative convergence rates of these interacting particle systems to their mean-field limit as the number of particles tends to infinity. Furthermore, we apply these techniques and examine their effectiveness as methods of Bayesian approximation for quantifying predictive uncertainty in ReLU networks.",
+    "link": "http://arxiv.org/abs/2309.04742",
+    "context": "Title: Affine Invariant Ensemble Transform Methods to Improve Predictive Uncertainty in ReLU Networks. (arXiv:2309.04742v1 [stat.ML])\nAbstract: We consider the problem of performing Bayesian inference for logistic regression using appropriate extensions of the ensemble Kalman filter. Two interacting particle systems are proposed that sample from an approximate posterior and prove quantitative convergence rates of these interacting particle systems to their mean-field limit as the number of particles tends to infinity. Furthermore, we apply these techniques and examine their effectiveness as methods of Bayesian approximation for quantifying predictive uncertainty in ReLU networks.",
+    "path": "papers/23/09/2309.04742.json",
+    "total_tokens": 709,
+    "translated_title": "改进ReLU网络的预测不确定性的仿射不变集成变换方法",
+    "translated_abstract": "我们考虑使用合适的集合卡尔曼滤波的扩展进行逻辑回归的贝叶斯推断问题。我们提出了两个相互作用的粒子系统，从近似后验分布中采样，并证明当粒子数量趋于无穷时，这些相互作用粒子系统收敛到均场极限的量化收敛速率。此外，我们应用这些技术并考察它们作为贝叶斯近似方法在ReLU网络中量化预测不确定性的有效性。",
+    "tldr": "本文提出了一种仿射不变集成变换方法，可以改善在ReLU网络中的预测不确定性。通过基于集合卡尔曼滤波的贝叶斯推断，我们提出了两个相互作用的粒子系统，并证明了它们的收敛性。同时，我们还探讨了这些方法用于量化预测不确定性的有效性。",
+    "en_tdlr": "This paper proposes an affine invariant ensemble transform method to improve predictive uncertainty in ReLU networks. By using Bayesian inference based on ensemble Kalman filter, two interacting particle systems are introduced and their convergence properties are proven. The effectiveness of these methods for quantifying predictive uncertainty is also examined."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "New News is Bad News. (arXiv:2309.05560v1 [q-fin.GN])",
+    "abstract": "An increase in the novelty of news predicts negative stock market returns and negative macroeconomic outcomes over the next year. We quantify news novelty changes in the distribution of news text - through an entropy measure, calculated using a recurrent neural network applied to a large news corpus. Entropy is a better out-of-sample predictor of market returns than a collection of standard measures. Cross-sectional entropy exposure carries a negative risk premium, suggesting that assets that positively covary with entropy hedge the aggregate risk associated with shifting news language. Entropy risk cannot be explained by existing long-short factors.",
+    "link": "http://arxiv.org/abs/2309.05560",
+    "context": "Title: New News is Bad News. (arXiv:2309.05560v1 [q-fin.GN])\nAbstract: An increase in the novelty of news predicts negative stock market returns and negative macroeconomic outcomes over the next year. We quantify news novelty changes in the distribution of news text - through an entropy measure, calculated using a recurrent neural network applied to a large news corpus. Entropy is a better out-of-sample predictor of market returns than a collection of standard measures. Cross-sectional entropy exposure carries a negative risk premium, suggesting that assets that positively covary with entropy hedge the aggregate risk associated with shifting news language. Entropy risk cannot be explained by existing long-short factors.",
+    "path": "papers/23/09/2309.05560.json",
+    "total_tokens": 672,
+    "translated_title": "新闻的新颖性增加预测股市回报和宏观经济结果的下降",
+    "translated_abstract": "通过对大量新闻语料库运用循环神经网络计算熵测量，我们 quantified news novelty 的变化。我们发现，新闻的熵是市场回报的更好的外样本预测指标，其变化与股市回报和宏观经济结果呈负相关。此外，熵风险说明了与新闻语言转变相关的整体风险。已有的多空因子无法解释熵风险。",
+    "tldr": "研究发现，新闻的新颖性增加会预测股市回报和宏观经济结果的下降。通过计算新闻的熵，我们发现熵是比标准指标更好的市场回报预测指标。熵风险不能被现有的多空因子解释。",
+    "en_tdlr": "The increase in the novelty of news predicts negative stock market returns and negative macroeconomic outcomes. The entropy of news is found to be a better predictor of market returns than standard measures and cannot be explained by existing factors."
+}

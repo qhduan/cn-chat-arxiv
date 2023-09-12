@@ -1,0 +1,12 @@
+{
+    "title": "Intelligent GPS Spoofing Attack Detection in Power Grids. (arXiv:2005.04513v1 [eess.SY] CROSS LISTED)",
+    "abstract": "The GPS is vulnerable to GPS spoofing attack (GSA), which leads to disorder in time and position results of the GPS receiver. In power grids, phasor measurement units (PMUs) use GPS to build time-tagged measurements, so they are susceptible to this attack. As a result of this attack, sampling time and phase angle of the PMU measurements change. In this paper, a neural network GPS spoofing detection (NNGSD) with employing PMU data from the dynamic power system is presented to detect GSAs. Numerical results in different conditions show the real-time performance of the proposed detection method.",
+    "link": "http://arxiv.org/abs/2005.04513",
+    "context": "Title: Intelligent GPS Spoofing Attack Detection in Power Grids. (arXiv:2005.04513v1 [eess.SY] CROSS LISTED)\nAbstract: The GPS is vulnerable to GPS spoofing attack (GSA), which leads to disorder in time and position results of the GPS receiver. In power grids, phasor measurement units (PMUs) use GPS to build time-tagged measurements, so they are susceptible to this attack. As a result of this attack, sampling time and phase angle of the PMU measurements change. In this paper, a neural network GPS spoofing detection (NNGSD) with employing PMU data from the dynamic power system is presented to detect GSAs. Numerical results in different conditions show the real-time performance of the proposed detection method.",
+    "path": "papers/20/05/2005.04513.json",
+    "total_tokens": 683,
+    "translated_title": "电网中智能GPS欺骗攻击检测",
+    "translated_abstract": "GPS容易受到GPS欺骗攻击（GSA），从而导致GPS接收器的时间和位置结果出现混乱。在电网中，相量测量装置（PMUs）使用GPS构建时间标记的测量结果，因此它们容易受到这种攻击的影响。本文提出了一种利用动态电力系统中PMU数据的神经网络GPS欺骗检测（NNGSD）方法来检测GSA。不同条件下的数值结果显示了所提出的检测方法的实时性能。",
+    "tldr": "本文提出了一种使用动态电力系统中PMU数据的神经网络GPS欺骗检测（NNGSD）方法，用于检测电网中的GPS欺骗攻击，并展示了该检测方法的实时性能。",
+    "en_tdlr": "This paper proposes a neural network GPS spoofing detection (NNGSD) method using PMU data from the dynamic power system to detect GPS spoofing attacks in power grids, and demonstrates its real-time performance."
+}

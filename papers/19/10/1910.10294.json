@@ -1,0 +1,12 @@
+{
+    "title": "A Unifying Framework of Bilinear LSTMs. (arXiv:1910.10294v2 [cs.LG] UPDATED)",
+    "abstract": "This paper presents a novel unifying framework of bilinear LSTMs that can represent and utilize the nonlinear interaction of the input features present in sequence datasets for achieving superior performance over a linear LSTM and yet not incur more parameters to be learned. To realize this, our unifying framework allows the expressivity of the linear vs. bilinear terms to be balanced by correspondingly trading off between the hidden state vector size vs. approximation quality of the weight matrix in the bilinear term so as to optimize the performance of our bilinear LSTM, while not incurring more parameters to be learned. We empirically evaluate the performance of our bilinear LSTM in several language-based sequence learning tasks to demonstrate its general applicability.",
+    "link": "http://arxiv.org/abs/1910.10294",
+    "context": "Title: A Unifying Framework of Bilinear LSTMs. (arXiv:1910.10294v2 [cs.LG] UPDATED)\nAbstract: This paper presents a novel unifying framework of bilinear LSTMs that can represent and utilize the nonlinear interaction of the input features present in sequence datasets for achieving superior performance over a linear LSTM and yet not incur more parameters to be learned. To realize this, our unifying framework allows the expressivity of the linear vs. bilinear terms to be balanced by correspondingly trading off between the hidden state vector size vs. approximation quality of the weight matrix in the bilinear term so as to optimize the performance of our bilinear LSTM, while not incurring more parameters to be learned. We empirically evaluate the performance of our bilinear LSTM in several language-based sequence learning tasks to demonstrate its general applicability.",
+    "path": "papers/19/10/1910.10294.json",
+    "total_tokens": 759,
+    "translated_title": "一个统一的双线性LSTM框架",
+    "translated_abstract": "本文提出了一个新颖的统一双线性LSTM框架，可以表示和利用序列数据集中输入特征的非线性交互，以实现比线性LSTM更好的性能，同时不会增加更多需要学习的参数。为了实现这一点，我们的统一框架允许通过调整隐藏状态向量的大小与双线性项中权重矩阵的逼近质量之间的权衡来平衡线性和双线性项的表达能力，从而优化我们的双线性LSTM的性能，同时不会增加更多需要学习的参数。我们在几个基于语言的序列学习任务中对我们的双线性LSTM的性能进行了实证评估，以展示其普适性。",
+    "tldr": "本文提出了一个统一的双线性LSTM框架，通过平衡线性和双线性项的表达能力，实现了对序列数据集中输入特征的非线性交互的利用，以实现更好的性能，同时不增加更多的学习参数。",
+    "en_tdlr": "This paper introduces a unified framework of bilinear LSTMs that utilizes the nonlinear interaction of input features in sequence datasets, achieving superior performance without additional parameters."
+}

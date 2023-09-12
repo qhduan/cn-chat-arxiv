@@ -1,0 +1,12 @@
+{
+    "title": "Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System. (arXiv:2309.04858v1 [cs.LG])",
+    "abstract": "Neural language models are increasingly deployed into APIs and websites that allow a user to pass in a prompt and receive generated text. Many of these systems do not reveal generation parameters. In this paper, we present methods to reverse-engineer the decoding method used to generate text (i.e., top-$k$ or nucleus sampling). Our ability to discover which decoding strategy was used has implications for detecting generated text. Additionally, the process of discovering the decoding strategy can reveal biases caused by selecting decoding settings which severely truncate a model's predicted distributions. We perform our attack on several families of open-source language models, as well as on production systems (e.g., ChatGPT).",
+    "link": "http://arxiv.org/abs/2309.04858",
+    "context": "Title: Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System. (arXiv:2309.04858v1 [cs.LG])\nAbstract: Neural language models are increasingly deployed into APIs and websites that allow a user to pass in a prompt and receive generated text. Many of these systems do not reveal generation parameters. In this paper, we present methods to reverse-engineer the decoding method used to generate text (i.e., top-$k$ or nucleus sampling). Our ability to discover which decoding strategy was used has implications for detecting generated text. Additionally, the process of discovering the decoding strategy can reveal biases caused by selecting decoding settings which severely truncate a model's predicted distributions. We perform our attack on several families of open-source language models, as well as on production systems (e.g., ChatGPT).",
+    "path": "papers/23/09/2309.04858.json",
+    "total_tokens": 730,
+    "translated_title": "逆向工程解码策略：在对语言生成系统进行黑盒访问的情况下",
+    "translated_abstract": "神经语言模型越来越多地被部署在允许用户输入提示并接收生成文本的API和网站上。许多系统不会透露生成参数。在本文中，我们介绍了一种方法，可以逆向工程用于生成文本的解码方法（即，top-k或nucleus采样）。我们发现所使用的解码策略对于检测生成文本具有重要意义。此外，发现解码策略的过程可以揭示由于选择解码设置而导致的偏见，这严重截断了模型的预测分布。我们在几个开源语言模型家族以及生产系统上（例如，ChatGPT）上执行攻击。",
+    "tldr": "本文介绍了一种方法，可以逆向工程用于生成文本的解码方法，并发现了这些方法对于检测生成文本以及揭示由于解码设置导致的偏见的重要意义。",
+    "en_tdlr": "This paper presents a method to reverse-engineer the decoding strategy used for text generation, which has implications for detecting generated text and revealing biases caused by decoding settings."
+}
