@@ -1,0 +1,12 @@
+{
+    "title": "Circuit Breaking: Removing Model Behaviors with Targeted Ablation. (arXiv:2309.05973v1 [cs.CL])",
+    "abstract": "Language models often exhibit behaviors that improve performance on a pre-training objective but harm performance on downstream tasks. We propose a novel approach to removing undesirable behaviors by ablating a small number of causal pathways between model components, with the intention of disabling the computational circuit responsible for the bad behavior. Given a small dataset of inputs where the model behaves poorly, we learn to ablate a small number of important causal pathways. In the setting of reducing GPT-2 toxic language generation, we find ablating just 12 of the 11.6K causal edges mitigates toxic generation with minimal degradation of performance on other inputs.",
+    "link": "http://arxiv.org/abs/2309.05973",
+    "context": "Title: Circuit Breaking: Removing Model Behaviors with Targeted Ablation. (arXiv:2309.05973v1 [cs.CL])\nAbstract: Language models often exhibit behaviors that improve performance on a pre-training objective but harm performance on downstream tasks. We propose a novel approach to removing undesirable behaviors by ablating a small number of causal pathways between model components, with the intention of disabling the computational circuit responsible for the bad behavior. Given a small dataset of inputs where the model behaves poorly, we learn to ablate a small number of important causal pathways. In the setting of reducing GPT-2 toxic language generation, we find ablating just 12 of the 11.6K causal edges mitigates toxic generation with minimal degradation of performance on other inputs.",
+    "path": "papers/23/09/2309.05973.json",
+    "total_tokens": 786,
+    "translated_title": "切断电路: 通过有针对性的消融去除模型行为",
+    "translated_abstract": "语言模型通常会表现出在预训练目标上提高性能但在下游任务上降低性能的行为。我们提出了一种新颖的方法，通过消融模型组件之间的一小部分因果路径，以禁用与不良行为有关的计算电路，从而去除不良行为。在拥有模型表现差的小型输入数据集的情况下，我们学会了消融一小部分重要的因果路径。在减少GPT-2毒性语言生成方面，我们发现消融仅仅12条因果边中的11.6K，可以减轻毒性生成，同时在其他输入上的性能下降很小。",
+    "tldr": "本论文提出了一种通过有针对性的消融模型组件之间的因果路径来去除语言模型中不良行为的新方法。在减少GPT-2毒性语言生成方面，仅消融12条因果边中的11.6K可以有效减轻毒性生成，并在其他输入上的性能下降很小。",
+    "en_tdlr": "This paper proposes a novel approach to removing undesirable behaviors in language models by ablating causal pathways between model components. In the context of reducing toxic language generation in GPT-2, ablating just 12 out of the 11.6K causal edges mitigates toxic generation with minimal performance degradation on other inputs."
+}

@@ -2,307 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [New News is Bad News.](http://arxiv.org/abs/2309.05560) | 研究发现，新闻的新颖性增加会预测股市回报和宏观经济结果的下降。通过计算新闻的熵，我们发现熵是比标准指标更好的市场回报预测指标。熵风险不能被现有的多空因子解释。 |
-| [^2] | [Monte Carlo Simulation for Trading Under a L\'evy-Driven Mean-Reverting Framework.](http://arxiv.org/abs/2309.05512) | 本文提出了一种用于均值回归价差交易的基于Lévy驱动的蒙特卡洛模拟框架，通过使用方差伽马驱动过程和无穷活动的纯跳跃过程建立灵活的价格价差模型。通过蒙特卡洛方法，并开发一种方差减少技术，确定最佳交易水平和研究参数对最佳交易策略的影响。此外，还将方法扩展到了双变量价差，并探索了相关性对交易的影响。 |
-| [^3] | [Gamma Hedging and Rough Paths.](http://arxiv.org/abs/2309.05054) | 研究使用粗路径理论来处理离散时间的Gamma对冲策略，表明只要标的资产价格路径足够规则，该策略可以复制其他欧式期权，无需满足定价模型的二次变化条件。 |
-| [^4] | [Multidimensional indefinite stochastic Riccati equations and zero-sum linear-quadratic stochastic differential games with non-markovian regime switching.](http://arxiv.org/abs/2309.05003) | 本文研究了带非马尔科夫转换的两人零和线性二次随机微分博弈问题，通过引入新的多维度不定随机Riccati方程和多维线性反向随机微分方程，提出了两名玩家的最优反馈控制策略对，并证明了新型多维度不定SRE的存在性和唯一性。 |
-| [^5] | [Geometry of vectorial martingale optimal transport and robust option pricing.](http://arxiv.org/abs/2309.04947) | 本文研究了向量鞅最优传输问题和鲁棒期权定价问题，发现空间维度和成本函数超模性对问题解的几何学有复杂的影响，并证明了通过单调性引起的降维可以改进计算方法。 |
-| [^6] | [News-driven Expectations and Volatility Clustering.](http://arxiv.org/abs/2309.04876) | 本文通过简单解释交易者对新闻的态度，解释了金融市场中的两个规律：尾重分布和波动聚类。 |
-| [^7] | [Regret-Optimal Federated Transfer Learning for Kernel Regression with Applications in American Option Pricing.](http://arxiv.org/abs/2309.04557) | 本论文提出了一种遗憾最优算法的迭代方案，用于联邦迁移学习，在核回归模型中具体化，并提出了一个几乎遗憾最优的启发式算法，可以减小生成参数与专门参数之间的累积偏差。 |
-| [^8] | [Kelvin Waves, Klein-Kramers and Kolmogorov Equations, Path-Dependent Financial Instruments: Survey and New Results.](http://arxiv.org/abs/2309.04547) | 该论文发现了金融工程、流体力学和分子物理学之间的关联，并建立了一个数学框架来描述这些关联。这些关联包括了Kevin波、Klein-Kramers和Kolmogorov方程以及仿射微分方程等内容。 |
-| [^9] | [Generating drawdown-realistic financial price paths using path signatures.](http://arxiv.org/abs/2309.04507) | 本文提出了一种新颖的机器学习方法，使用路径签名来生成逼近实际数据的金融价格路径，并应用于定价回撤保险期权和投资组合回撤控制策略。 |
-| [^10] | [Ein neuer Ansatz zur Frequenzmodellierung im Versicherungswesen (A new Approach to frequency modeling in risk theory).](http://arxiv.org/abs/2309.04483) | 本文提出了一种新的方法，通过随机比例的保险合同数量来建模保险业中的索赔频率和索赔金额分布，并可以进行分布适配性检验。 |
-| [^11] | [Enhancing accuracy for solving American CEV model with high-order compact scheme and adaptive time stepping.](http://arxiv.org/abs/2309.03984) | 本研究提出了一种高阶时间自适应方案，用于定价CEV模型的耦合系统，并通过局部网格加密来提高方法的性能。 |
-| [^12] | [Three candidate election strategy.](http://arxiv.org/abs/2305.00693) | 本研究考虑了三个或更多候选人参加选举的情况下，获胜的概率如何随时间变化，发现对于控制信息的最佳策略可能是错综复杂的。 |
-| [^13] | [Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models.](http://arxiv.org/abs/2304.07619) | 本研究探究了使用ChatGPT及其他大型语言模型预测股市回报的潜力，发现ChatGPT的预测表现优于传统情感分析方法，而基础模型无法准确预测股票价格变化，表明复杂模型可预测能力的崛起。这表明在投资决策过程中引入先进的语言模型可以提高预测准确性并增强定量交易策略的表现。 |
-| [^14] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
-| [^15] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^16] | [Domain-adapted Learning and Imitation: DRL for Power Arbitrage.](http://arxiv.org/abs/2301.08360) | 本文提出了一种领域自适应学习和模仿的深度强化学习方法，用于电力套利交易。通过利用奖励工程和订单分段的方式，该方法能够提高训练的收敛性，增加竞标成功率，并显著提高利润和损失。 |
-| [^17] | [Domain-adapted Learning and Interpretability: DRL for Gas Trading.](http://arxiv.org/abs/2301.08359) | 本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用，提高了交易性能并降低了交易成本。同时，通过提出的集成学习方案，提高了模型稳定性和鲁棒性。 |
-| [^18] | [Credit Information in Earnings Calls.](http://arxiv.org/abs/2209.11914) | 本文开发了一种从季度电话会议文本中提取信用相关信息的新技术，该信息能够预测未来信用利差变化，并表明投资者没有充分利用电话会议中的信用相关信息。 |
-| [^19] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
-| [^20] | [Exchanging Goods Using Valuable Money.](http://arxiv.org/abs/1510.07888) | 该论文介绍了一种使用有价值的货币进行有效货物交换的机制，在系统中引入代币并采取购买税等措施来控制货币的流动，实现了货币的确定正值。 |
+| [^1] | [Real-time VaR Calculations for Crypto Derivatives in kdb+/q.](http://arxiv.org/abs/2309.06393) | 本论文构建了一个实时计算工作流，用于提供加密货币衍生品非线性投资组合的VaR估计。通过应用EMWA、GARCH和HAR模型捕捉和预测波动性动态，并结合Delta-Gamma-Theta方法和Cornish-Fisher扩展对加密货币衍生品进行估值，评估了计算效率和准确性。该工作流利用高频市场数据中的信息和简易计算方式。 |
+| [^2] | [The Conundrum of the Pension System in India: A Comprehensive study in the context of India's Growth Story.](http://arxiv.org/abs/2309.06353) | 本研究分析了印度养老金制度的难题，旨在通过引入全国养老金制度，促进有纪律的储蓄，减轻政府负担。 |
+| [^3] | [A monotone numerical integration method for mean-variance portfolio optimization under jump-diffusion models.](http://arxiv.org/abs/2309.05977) | 本论文提出了一种高效、易于实现和严格单调的数值积分方法，用于在跳跃扩散模型下的均值方差投资组合优化中近似计算卷积积分。 |
+| [^4] | [Dynamic relationship between XRP price and correlation tensor spectra of the transaction network.](http://arxiv.org/abs/2309.05935) | 本研究通过分析XRP交易网络的相关张量谱，发现XRP价格与相关张量的最大奇异值之间存在显著的反相关关系，特别是在2018年的泡沫期间。这一发现对于加密资产的定价与预测具有重要意义。 |
+| [^5] | [SCOP: Schrodinger Control Optimal Planning for Goal-Based Wealth Management.](http://arxiv.org/abs/2309.05926) | 本文提出了一个基于控制反向Kolmogorov方程和Schrodinger方程的半解析方法来优化财务规划师在目标导向财富管理中的贡献方案。 |
+| [^6] | [ESG-coherent risk measures for sustainable investing.](http://arxiv.org/abs/2309.05866) | 本研究提出了ESG一致的风险度量和ESG回报风险比的定义，为可持续投资提供了一种综合考虑环境、社会和治理因素的评估方法。 |
+| [^7] | [A New Framework to Estimate Return on Investment for Player Salaries in the National Basketball Association.](http://arxiv.org/abs/2309.05783) | 该论文提出了一个新的框架，用于估算国家篮球协会球员合同的投资回报率（ROI）。该框架包括确定测量时间段、计算新的比赛贡献率（GCP）度量、估计每场比赛的单场价值（SGV）和计算实现的每个球员单个赛季的财经产值。 |
+| [^8] | [A compendium of data sources for data science, machine learning, and artificial intelligence.](http://arxiv.org/abs/2309.05682) | 这篇论文提供了一个跨多个领域的数据源大全，包括金融、法律、生命科学、新闻社交等，以满足数据科学家和机器学习专家的需求。 |
+| [^9] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
+| [^10] | [Consumption Partial Insurance in the Presence of Tail Income Risk.](http://arxiv.org/abs/2306.13208) | 该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。 |
+| [^11] | [Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo.](http://arxiv.org/abs/2305.09166) | 本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。 |
+| [^12] | [An axiomatic approach to default risk and model uncertainty in rating systems.](http://arxiv.org/abs/2303.08217) | 本文提出了一种公理化方法处理评级系统中的违约风险和模型不确定性，引入了违约风险度量的概念来简化计算，该度量考虑了模型风险，并通过讨论保守水平对资产权重的影响，对资本要求条例提出了一些新的见解。 |
+| [^13] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
+| [^14] | [Time-varying Cost of Distancing: Distancing Fatigue and Lockdowns.](http://arxiv.org/abs/2206.03847) | 这项研究通过研究一个具有时间变化的社交距离成本的模型，探索了社交距离疲劳和封锁对流行病传播的影响。研究发现，社交距离成本的陡增是产生第二波流行病的必要条件，而社交距离疲劳无法足够快地增加成本。然而，突变的公共政策可以引发第二波流行病。研究还提供了关于成本变化的最大限度和严格封锁措施对流行病传播的副作用的数值分析。 |
+| [^15] | [The Long-Term Effects of Early-Life Pollution Exposure: Evidence from the London Smog.](http://arxiv.org/abs/2202.11785) | 本文研究了早期污染暴露对个体的长期影响，发现受雾霾影响的个体智力下降、呼吸健康状况较差，并可能导致受教育年限减少。 |
+| [^16] | [Dynamics of market states and risk assessment.](http://arxiv.org/abs/2011.05984) | 该论文研究了金融市场的动态和风险评估，并引入了一种新的市场状态选择标准，强调了状态转移矩阵的重要性。在应用于SP 500和日经225市场的实证研究中发现了有统计学意义的结果。这种方法对于理解市场状态和风险评估非常有价值。 |
+| [^17] | [Endogenous structural transformation in economic development.](http://arxiv.org/abs/2011.03695) | 本文扩展了Xing（2023abcd）的追赶型经济体最优增长模型，从生产函数转换到经济结构转换，并通过内生结构转型和有效资源分配来解释一个国家如何发展其经济。 |
 
 # 详细
 
-[^1]: 新闻的新颖性增加预测股市回报和宏观经济结果的下降
+[^1]: 在kdb+/q中进行加密衍生品的实时VaR计算
 
-    New News is Bad News. (arXiv:2309.05560v1 [q-fin.GN])
+    Real-time VaR Calculations for Crypto Derivatives in kdb+/q. (arXiv:2309.06393v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2309.05560](http://arxiv.org/abs/2309.05560)
+    [http://arxiv.org/abs/2309.06393](http://arxiv.org/abs/2309.06393)
 
-    研究发现，新闻的新颖性增加会预测股市回报和宏观经济结果的下降。通过计算新闻的熵，我们发现熵是比标准指标更好的市场回报预测指标。熵风险不能被现有的多空因子解释。
-
-    
-
-    通过对大量新闻语料库运用循环神经网络计算熵测量，我们 quantified news novelty 的变化。我们发现，新闻的熵是市场回报的更好的外样本预测指标，其变化与股市回报和宏观经济结果呈负相关。此外，熵风险说明了与新闻语言转变相关的整体风险。已有的多空因子无法解释熵风险。
-
-    An increase in the novelty of news predicts negative stock market returns and negative macroeconomic outcomes over the next year. We quantify news novelty changes in the distribution of news text - through an entropy measure, calculated using a recurrent neural network applied to a large news corpus. Entropy is a better out-of-sample predictor of market returns than a collection of standard measures. Cross-sectional entropy exposure carries a negative risk premium, suggesting that assets that positively covary with entropy hedge the aggregate risk associated with shifting news language. Entropy risk cannot be explained by existing long-short factors.
-    
-[^2]: 基于Lévy驱动的均值回归框架下的蒙特卡洛模拟交易
-
-    Monte Carlo Simulation for Trading Under a L\'evy-Driven Mean-Reverting Framework. (arXiv:2309.05512v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2309.05512](http://arxiv.org/abs/2309.05512)
-
-    本文提出了一种用于均值回归价差交易的基于Lévy驱动的蒙特卡洛模拟框架，通过使用方差伽马驱动过程和无穷活动的纯跳跃过程建立灵活的价格价差模型。通过蒙特卡洛方法，并开发一种方差减少技术，确定最佳交易水平和研究参数对最佳交易策略的影响。此外，还将方法扩展到了双变量价差，并探索了相关性对交易的影响。
+    本论文构建了一个实时计算工作流，用于提供加密货币衍生品非线性投资组合的VaR估计。通过应用EMWA、GARCH和HAR模型捕捉和预测波动性动态，并结合Delta-Gamma-Theta方法和Cornish-Fisher扩展对加密货币衍生品进行估值，评估了计算效率和准确性。该工作流利用高频市场数据中的信息和简易计算方式。
 
     
 
-    我们提出了一种蒙特卡洛模拟框架，用于基于Lévy驱动的Ornstein-Uhlenbeck过程建模的均值回归价差对交易。具体而言，我们着重使用方差伽马驱动过程，一种无穷活动的纯跳跃过程，以实现比经典模型中更灵活的价格价差模型。然而，这种泛化的代价是没有解析公式，所以我们应用蒙特卡洛方法来确定最佳交易水平，并开发一种使用控制变量的方差减少技术。在这个框架内，我们数值地研究了模型参数对最佳交易策略的影响。此外，我们将我们的方法扩展到了使用弱方差α-γ驱动过程建模的双变量价差，并探索了相关性对这些交易的影响。
+    加密货币市场以显著高于传统资产类别的波动性而闻名。在这种短时间内出现极端价格波动的市场环境中，高效且充分的风险计算对于管理风险暴露至关重要。本论文旨在构建一个实时计算工作流，为加密货币衍生品的非线性投资组合提供VaR估计。许多研究人员在加密货币的上下文中研究了时间序列模型的预测能力。在本研究中，我们应用了三种常用模型EMWA、GARCH和HAR来捕捉和预测波动性动态，结合了Delta-Gamma-Theta方法和Cornish-Fisher扩展对加密货币衍生品进行估值，从计算效率和准确性的角度对它们的表现进行了考察。我们提出了一个计算工作流，利用高频市场数据中Embedded的信息和计算的简易性。
 
-    We present a Monte Carlo framework for pairs trading on mean-reverting spreads modeled by L\'evy-driven Ornstein-Uhlenbeck processes. Specifically, we focus on using a variance gamma driving process, an infinite activity pure jump process to allow for more flexible models of the price spread than is available in the classical model. However, this generalization comes at the cost of not having analytic formulas, so we apply Monte Carlo methods to determine optimal trading levels, and develop a variance reduction technique using control variates. Within this framework, we numerically examine how the optimal trading strategies are affected by the parameters of the model. In addition, we extend our method to bivariate spreads modeled using a weak variance alpha-gamma driving process, and explore the effect of correlation on these trades.
+    Cryptocurrency market is known for exhibiting significantly higher volatility than traditional asset classes. Efficient and adequate risk calculation is vital for managing risk exposures in such market environments where extreme price fluctuations occur in short timeframes. The objective of this thesis is to build a real-time computation workflow that provides VaR estimates for non-linear portfolios of cryptocurrency derivatives. Many researchers have examined the predictive capabilities of time-series models within the context of cryptocurrencies. In this work, we applied three commonly used models EMWA, GARCH and HAR - to capture and forecast volatility dynamics, in conjunction with delta-gamma-theta approach and Cornish-Fisher expansion to crypto derivatives, examining their performance from the perspectives of calculation efficiency and accuracy. We present a calculation workflow which harnesses the information embedded in high-frequency market data and the computation simplicity
     
-[^3]: Gamma对冲和粗路径理论研究
+[^2]: 印度养老金制度的难题：与印度增长故事背景下的综合研究
 
-    Gamma Hedging and Rough Paths. (arXiv:2309.05054v1 [q-fin.MF])
+    The Conundrum of the Pension System in India: A Comprehensive study in the context of India's Growth Story. (arXiv:2309.06353v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2309.05054](http://arxiv.org/abs/2309.05054)
+    [http://arxiv.org/abs/2309.06353](http://arxiv.org/abs/2309.06353)
 
-    研究使用粗路径理论来处理离散时间的Gamma对冲策略，表明只要标的资产价格路径足够规则，该策略可以复制其他欧式期权，无需满足定价模型的二次变化条件。
-
-    
-
-    我们运用粗路径理论研究离散时间的Gamma对冲策略。我们展示了如果交易员知道一组欧式期权的市场价格将遵循扩散定价模型，那么离散时间的Gamma对冲策略将使其能够复制其他欧式期权，只要标的资产价格路径足够规则。这是一个确凿的结果，并且不需要标的资产价格路径有与定价模型相对应的二次变化量。我们展示了如何将这个结果推广到异otic衍生品，当Gamma被定义为通过导数得到的Gubinelli导数时，通过推导确保的粗路径版本的Clark-Ocone公式。
-
-    We apply rough path theory to study the discrete-time gamma-hedging strategy. We show that if a trader knows that the market price of a set of European options will be given by a diffusive pricing model, then the discrete-time gamma-hedging strategy will enable them to replicate other European options so long as the underlying price path is sufficiently regular. This is a sure result and does not require that the underlying price path has a quadratic variation corresponding to the pricing model. We show how to generalise this result to exotic derivatives when the gamma is defined to be the Gubinelli derivative of the delta by deriving rough-path versions of the Clark--Ocone formula which hold surely.
-    
-[^4]: 多维不定随机Riccati方程和带非马尔科夫转换的零和线性二次随机微分博弈
-
-    Multidimensional indefinite stochastic Riccati equations and zero-sum linear-quadratic stochastic differential games with non-markovian regime switching. (arXiv:2309.05003v1 [math.OC])
-
-    [http://arxiv.org/abs/2309.05003](http://arxiv.org/abs/2309.05003)
-
-    本文研究了带非马尔科夫转换的两人零和线性二次随机微分博弈问题，通过引入新的多维度不定随机Riccati方程和多维线性反向随机微分方程，提出了两名玩家的最优反馈控制策略对，并证明了新型多维度不定SRE的存在性和唯一性。
+    本研究分析了印度养老金制度的难题，旨在通过引入全国养老金制度，促进有纪律的储蓄，减轻政府负担。
 
     
 
-    本文研究了一个带有转换模型的两人零和线性二次随机微分博弈。所控制的非齐次系统系数依赖于底层噪声，因此属于非马尔科夫转换模型。基于一种新型的多维度不定随机Riccati方程（SRE）和具有无界系数的多维线性反向随机微分方程（BSDE），我们可以以闭环形式为两名玩家提供最优反馈控制策略对。本文的主要贡献，在BSDE理论的角度来看，是证明了新型多维度不定SRE的存在性和唯一性。有趣的是，解的各个分量同时可以取正、零和负值。我们还在封闭凸锥控制约束下获得了对应的齐次系统的最优反馈控制策略对。
+    印度是世界上最大的民主国家，最近超过中国成为人口最多的国家，估计拥有14.25亿人口（约占世界人口的18%）。此外，印度的老年人口预计到2035年将增加到1.38亿。印度经济已经在政府现有养老金负债的压力下苦苦挣扎。因此，印度引入了全国养老金制度（NPS），这是一项为在2004年1月1日或之后加入政府服务的雇员设立的定义贡献计划，告别了自英国统治以来在印度流行的旧养老金制度（OPS），后者是一种直接福利制度。政府的这一举措是具有划时代意义的，旨在在人们中倡导有纪律的储蓄，同时通过减少中央和邦政府的养老金负债，显著减轻政府负担。本文旨在分析不同的特点。
 
-    This paper is concerned with two-player zero-sum linear-quadratic stochastic differential games in a regime switching model. The controlled inhomogeneous system coefficients depend on the underlying noises, so it is a non-Markovian regime switching model. Based on a new kind of multidimensional indefinite stochastic Riccati equation (SRE) and a multidimensional linear backward stochastic differential equation (BSDE) with unbounded coefficients, we can provide optimal feedback control-strategy pairs for the two players in a closed-loop form. The main contribution of this paper, which is important in its own right from the BSDE theory point of view, is to prove the existence and uniqueness of the new kind of multidimensional indefinite SRE. Interestingly, the components of the solution can take positive, zero and negative values simultaneously. We also obtain the corresponding optimal feedback control-strategy pairs for homogeneous systems under closed convex cone control constraints. Fi
+    India is the largest democracy in the world and has recently surpassed China to be the highest-populated country, with an estimated 1.425 billion (approximately 18% of the world population). Moreover, India's elderly population is projected to increase to 138 million by 2035. Indian economy is already reeling under the pressure of exorbitant pension liabilities of the government for existing pensioners. As such, India has introduced a National Pension System (NPS), which is a Defined Contribution Scheme for employees joining government service on or after 1st January 2004, bidding adieu to the age-old, tried and tested Old Pension System (OPS) which is a Direct Benefit Scheme, in vogue in India since the British Raj. This is an epoch-making move by the government as it seeks to inculcate Disciplined Saving among the people while significantly reducing the government burden by reducing the Pension Liabilities of the Central and State Governments. This paper aims to analyse various featu
     
-[^5]: 向量鞅最优传输和鲁棒期权定价的几何学
+[^3]: 一种针对跳跃扩散模型下均值方差投资组合优化的单调数值积分方法
 
-    Geometry of vectorial martingale optimal transport and robust option pricing. (arXiv:2309.04947v1 [q-fin.MF])
+    A monotone numerical integration method for mean-variance portfolio optimization under jump-diffusion models. (arXiv:2309.05977v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2309.04947](http://arxiv.org/abs/2309.04947)
+    [http://arxiv.org/abs/2309.05977](http://arxiv.org/abs/2309.05977)
 
-    本文研究了向量鞅最优传输问题和鲁棒期权定价问题，发现空间维度和成本函数超模性对问题解的几何学有复杂的影响，并证明了通过单调性引起的降维可以改进计算方法。
-
-    
-
-    本文探讨了鲁棒金融问题，即考虑市场的不确定性的模型和方法的发展。具体地，我们研究了向量鞅最优传输（VMOT）问题的几何学及其在金融中鲁棒期权定价问题中的应用。为此，我们考虑了两期市场模型，并证明当空间维度$d$（基础资产的数量）为2时，帽式期权的极值模型可以化简为第一期的单因子模型，但是当$d>2$时并不一定成立。这个结果展示了空间维度、成本函数超模性以及它们对VMOT问题解的几何学的影响之间的复杂关系。我们还研究了模型在金融问题中的应用，并演示了通过单调性引起的降维如何用于改进现有的计算方法。
-
-    This paper addresses robust finance, which is concerned with the development of models and approaches that account for market uncertainties. Specifically, we investigate the Vectorial Martingale Optimal Transport (VMOT) problem, the geometry of its solutions, and its application with robust option pricing problems in finance. To this end, we consider two-period market models and show that when the spatial dimension $d$ (the number of underlying assets) is 2, the extremal model for the cap option with a sub- or super-modular payout reduces to a single factor model in the first period, but not in general when $d > 2$. The result demonstrates a subtle relationship between spatial dimension, cost function supermodularity, and their effect on the geometry of solutions to the VMOT problem. We investigate applications of the model to financial problems and demonstrate how the dimensional reduction caused by monotonicity can be used to improve existing computational methods.
-    
-[^6]: 新闻驱动的期望与波动聚类
-
-    News-driven Expectations and Volatility Clustering. (arXiv:2309.04876v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2309.04876](http://arxiv.org/abs/2309.04876)
-
-    本文通过简单解释交易者对新闻的态度，解释了金融市场中的两个规律：尾重分布和波动聚类。
+    本论文提出了一种高效、易于实现和严格单调的数值积分方法，用于在跳跃扩散模型下的均值方差投资组合优化中近似计算卷积积分。
 
     
 
-    金融波动遵循两个引人注目的经验规律，适用于各种资产、各个市场和各个时间尺度：它是尾重的（更准确地说是符合幂律分布），并且在时间上倾向于聚类。许多有趣的模型已被提出来解释这些规律，特别是基于代理人的模型，通过一种复杂的非线性机制来模拟这两个经验定律，例如交易者在高度非线性的方式下在交易策略之间的切换。本文简单地解释了这两个规律，只涉及交易者对新闻的态度，这种解释几乎是根据金融市场参与者的传统二分法来定义的，投资者与投机者，他们的行为被简化为最简单的形式。假设长期投资者对资产的估值遵循基于新闻的随机漫步，因此捕捉到了投资者对基本新闻的持久、长期的记忆。
+    我们开发了一种高效、易于实现和严格单调的数值积分方法，用于在实际情境中进行均值方差（MV）投资组合优化，该方法涉及基础控制过程的跳跃扩散动力学，离散再平衡以及投资约束的应用，即无破产和杠杆。在每个再平衡间隔上，MV投资组合优化公式的关键要素是一个卷积积分，其中包含了在风险资产上投资金额的对数的条件密度。利用已知的该密度的傅里叶变换的闭式表达式，我们得到了一个无穷级数表示的条件密度，其中每一项都严格为正且可以明确计算。因此，卷积积分可以通过单调积分方案进行近似，例如在大多数编程语言中通常可用的复合数值积分规则。计算复杂度
 
-    Financial volatility obeys two fascinating empirical regularities that apply to various assets, on various markets, and on various time scales: it is fat-tailed (more precisely power-law distributed) and it tends to be clustered in time. Many interesting models have been proposed to account for these regularities, notably agent-based models, which mimic the two empirical laws through a complex mix of nonlinear mechanisms such as traders' switching between trading strategies in highly nonlinear way. This paper explains the two regularities simply in terms of traders' attitudes towards news, an explanation that follows almost by definition of the traditional dichotomy of financial market participants, investors versus speculators, whose behaviors are reduced to their simplest forms. Long-run investors' valuations of an asset are assumed to follow a news-driven random walk, thus capturing the investors' persistent, long memory of fundamental news. Short-term speculators' anticipated retur
+    We develop a efficient, easy-to-implement, and strictly monotone numerical integration method for Mean-Variance (MV) portfolio optimization in realistic contexts, which involve jump-diffusion dynamics of the underlying controlled processes, discrete rebalancing, and the application of investment constraints, namely no-bankruptcy and leverage. A crucial element of the MV portfolio optimization formulation over each rebalancing interval is a convolution integral, which involves a conditional density of the logarithm of the amount invested in the risky asset. Using a known closed-form expression for the Fourier transform of this density, we derive an infinite series representation for the conditional density where each term is strictly positive and explicitly computable. As a result, the convolution integral can be readily approximated through a monotone integration scheme, such as a composite quadrature rule typically available in most programming languages. The computational complexity 
     
-[^7]: 用于核回归的遗憾最优联邦迁移学习及其在美式期权定价中的应用
+[^4]: XRP价格与交易网络的相关张量谱之间的动态关系
 
-    Regret-Optimal Federated Transfer Learning for Kernel Regression with Applications in American Option Pricing. (arXiv:2309.04557v1 [cs.LG])
+    Dynamic relationship between XRP price and correlation tensor spectra of the transaction network. (arXiv:2309.05935v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2309.04557](http://arxiv.org/abs/2309.04557)
+    [http://arxiv.org/abs/2309.05935](http://arxiv.org/abs/2309.05935)
 
-    本论文提出了一种遗憾最优算法的迭代方案，用于联邦迁移学习，在核回归模型中具体化，并提出了一个几乎遗憾最优的启发式算法，可以减小生成参数与专门参数之间的累积偏差。
-
-    
-
-    我们提出了一种最优的迭代方案，用于联邦迁移学习，其中中心计划者可以访问同一学习模型 $f_{\theta}$ 的数据集 ${\cal D}_1,\dots,{\cal D}_N$。我们的目标是在尊重模型 $f_{\theta(T)}$ 的损失函数的情况下，尽量减小生成参数 $\{\theta_i(t)\}_{t=0}^T$ 在所有 $T$ 次迭代中与每个数据集得到的专门参数$\theta^\star_{1},\ldots,\theta^\star_N$ 的累积偏差。我们仅允许每个专门模型（节点/代理）和中心计划者（服务器）在每次迭代（轮）之间进行持续通信。对于模型 $f_{\theta}$ 是有限秩核回归的情况，我们得出了遗憾最优算法的显式更新公式。通过利用遗憾最优算法中的对称性，我们进一步开发了一种几乎遗憾最优的启发式算法，其运行需要较少的 $\mathcal{O}(Np^2)$ 个基本运算。
-
-    We propose an optimal iterative scheme for federated transfer learning, where a central planner has access to datasets ${\cal D}_1,\dots,{\cal D}_N$ for the same learning model $f_{\theta}$. Our objective is to minimize the cumulative deviation of the generated parameters $\{\theta_i(t)\}_{t=0}^T$ across all $T$ iterations from the specialized parameters $\theta^\star_{1},\ldots,\theta^\star_N$ obtained for each dataset, while respecting the loss function for the model $f_{\theta(T)}$ produced by the algorithm upon halting. We only allow for continual communication between each of the specialized models (nodes/agents) and the central planner (server), at each iteration (round). For the case where the model $f_{\theta}$ is a finite-rank kernel regression, we derive explicit updates for the regret-optimal algorithm. By leveraging symmetries within the regret-optimal algorithm, we further develop a nearly regret-optimal heuristic that runs with $\mathcal{O}(Np^2)$ fewer elementary operati
-    
-[^8]: Kelvin波、Klein-Kramers和Kolmogorov方程，路径依赖金融工具：调查和新结果的综述
-
-    Kelvin Waves, Klein-Kramers and Kolmogorov Equations, Path-Dependent Financial Instruments: Survey and New Results. (arXiv:2309.04547v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2309.04547](http://arxiv.org/abs/2309.04547)
-
-    该论文发现了金融工程、流体力学和分子物理学之间的关联，并建立了一个数学框架来描述这些关联。这些关联包括了Kevin波、Klein-Kramers和Kolmogorov方程以及仿射微分方程等内容。
+    本研究通过分析XRP交易网络的相关张量谱，发现XRP价格与相关张量的最大奇异值之间存在显著的反相关关系，特别是在2018年的泡沫期间。这一发现对于加密资产的定价与预测具有重要意义。
 
     
 
-    我们发现金融工程中看似无关的基础问题和流体力学以及分子物理学中的基本问题之间存在着一些令人惊讶的关系。在所有这些领域中，解决方案都可以归结为解决关于模拟动态系统常用的仿射微分方程。我们发现了这些看起来不相关的领域之间的联系，将在流体力学中描述的Kevin波中的线性流的小波状扰动与在分子物理学中描述的自由粒子和谐约束粒子的运动以及金融工程中产生的高斯和非高斯仿射过程（如Ornstein-Uhlenbeck和Feller过程）联系起来。为了进一步强调这些领域之间的类似之处，我们使用Kevin波构建了一个一致的数学框架来构建转移概率密度函数
+    加密资产的出现引发了金融和投资领域的范式转变，开启了数字资产的新时代，对货币和资产管理的未来产生了深远影响。最近的一项研究表明，在2018年左右的泡沫期间，加密资产XRP的价格与从每周XRP交易网络中获取的相关张量的最大奇异值具有较强的反相关。在本研究中，我们对XRP交易网络的相关张量谱的方法进行了详细分析。我们利用随机矩阵理论计算并比较了相关张量的最大奇异值的分布与实证相关张量的最大奇异值。我们研究了涵盖两年的时期中XRP价格与最大奇异值之间的相关关系。我们还发现了XRP价格与奇异值在泡沫期和非泡沫期之间的明显依赖关系。
 
-    We discover several surprising relationships between large classes of seemingly unrelated foundational problems of financial engineering and fundamental problems of hydrodynamics and molecular physics. Solutions in all these domains can be reduced to solving affine differential equations commonly used in various mathematical and scientific disciplines to model dynamic systems. We have identified connections in these seemingly disparate areas as we link together small wave-like perturbations of linear flows in ideal and viscous fluids described in hydrodynamics by Kevin waves to motions of free and harmonically bound particles described in molecular physics by Klein-Kramers and Kolmogorov equations to Gaussian and non-Gaussian affine processes, e.g., Ornstein-Uhlenbeck and Feller, arising in financial engineering. To further emphasize the parallels between these diverse fields, we build a coherent mathematical framework using Kevin waves to construct transition probability density funct
+    The emergence of cryptoassets has sparked a paradigm shift in the world of finance and investment, ushering in a new era of digital assets with profound implications for the future of currency and asset management. A recent study showed that during the bubble period around the year, 2018, the price of cryptoasset, XRP has a strong anti correlation with the largest singular values of the correlation tensors obtained from the weekly XRP transaction networks. In this study, we provide a detailed analysis of the method of correlation tensor spectra for XRP transaction networks. We calculate and compare the distribution of the largest singular values of the correlation tensor using the random matrix theory with the largest singular values of the empirical correlation tensor. We investigate the correlation between the XRP price and the largest singular values for a period spanning two years. We also uncover the distinct dependence between XRP price and the singular values for bubble and non-
     
-[^9]: 使用路径签名生成逼近实际数据的金融价格路径
+[^5]: SCOP：基于施维林格控制最优规划的目标导向财富管理
 
-    Generating drawdown-realistic financial price paths using path signatures. (arXiv:2309.04507v1 [q-fin.CP])
+    SCOP: Schrodinger Control Optimal Planning for Goal-Based Wealth Management. (arXiv:2309.05926v1 [math.OC])
 
-    [http://arxiv.org/abs/2309.04507](http://arxiv.org/abs/2309.04507)
+    [http://arxiv.org/abs/2309.05926](http://arxiv.org/abs/2309.05926)
 
-    本文提出了一种新颖的机器学习方法，使用路径签名来生成逼近实际数据的金融价格路径，并应用于定价回撤保险期权和投资组合回撤控制策略。
-
-    
-
-    本文提出了一种新颖的生成式机器学习方法，用于模拟具有接近实际数据的回撤的金融价格序列。应用场景如定价回撤保险期权或开发投资组合回撤控制策略需要使用接近真实的回撤路径。历史情景可能不足以有效训练和回测策略，而标准的参数化蒙特卡罗方法无法充分保留回撤。我们提倡一种非参数化蒙特卡罗方法，将变分自编码生成模型与回撤重建损失函数相结合。为了克服数值复杂性和非可微性问题，我们将回撤近似为路径的矩函数，即路径签名。我们证明了回撤函数的所需正则性和近似的一致性。此外，我们使用线性回归获得了接近的数值近似解。
-
-    A novel generative machine learning approach for the simulation of sequences of financial price data with drawdowns quantifiably close to empirical data is introduced. Applications such as pricing drawdown insurance options or developing portfolio drawdown control strategies call for a host of drawdown-realistic paths. Historical scenarios may be insufficient to effectively train and backtest the strategy, while standard parametric Monte Carlo does not adequately preserve drawdowns. We advocate a non-parametric Monte Carlo approach combining a variational autoencoder generative model with a drawdown reconstruction loss function. To overcome issues of numerical complexity and non-differentiability, we approximate drawdown as a linear function of the moments of the path, known in the literature as path signatures. We prove the required regularity of drawdown function and consistency of the approximation. Furthermore, we obtain close numerical approximations using linear regression for fr
-    
-[^10]: 保险业中频率建模的新方法
-
-    Ein neuer Ansatz zur Frequenzmodellierung im Versicherungswesen (A new Approach to frequency modeling in risk theory). (arXiv:2309.04483v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2309.04483](http://arxiv.org/abs/2309.04483)
-
-    本文提出了一种新的方法，通过随机比例的保险合同数量来建模保险业中的索赔频率和索赔金额分布，并可以进行分布适配性检验。
+    本文提出了一个基于控制反向Kolmogorov方程和Schrodinger方程的半解析方法来优化财务规划师在目标导向财富管理中的贡献方案。
 
     
 
-    集体风险模型通常区分索赔频率（及其分布）和索赔金额（及其分布）。对于索赔频率，通常考虑传统的离散分布，如二项式分布、负二项式分布或泊松分布。由于这些分布有时不太适用于数据，我们在这里提出了一种通过随机比例的保险合同数量来建模索赔频率的不同方法。这种方法还可以通过分位数图进行统计适配性检验，并可以同样应用于索赔金额分布的建模。
+    本文研究了针对财务目标（如退休）的金融规划师（如工作个体）的贡献优化问题。规划师的目标是找到一个最优且可行的定期分期付款计划，以便建立一个朝着目标的投资组合。由于投资组合的回报是随机的，因此问题的实际版本相当于找到一个最优的贡献方案，以便在给定的置信水平下满足目标。本文提出了一种基于控制反向Kolmogorov方程（BKE）的连续时间版本的半解析方法，该方程描述了在给定贡献策略的情况下的终端财富的尾部概率。通过将控制BKE半解析地归约为控制Schrodinger方程并利用代数方法求解后者，我们得到了数值上的解析解，同时适用于所有控制参数的值。
 
-    The collective risk model differentiates usually between claims frequencies (and their distribution) and claim sizes (and their distribution). For the claims frequencies typically classical discrete distributions are considered, such as Binomial-, Negative binomial- or Poisson distributions. Since these distributions sometimes do not really fit to the data we propose a different approach here for claim frequencies via random proportions of the number of insurance contracts. This approach also allows for a statistical goodness-of-fit test via quantile-quantile-plots and can likewise be applied to the modelling of claim size distributions.
+    We consider the problem of optimization of contributions of a financial planner such as a working individual towards a financial goal such as retirement. The objective of the planner is to find an optimal and feasible schedule of periodic installments to an investment portfolio set up towards the goal. Because portfolio returns are random, the practical version of the problem amounts to finding an optimal contribution scheme such that the goal is satisfied at a given confidence level. This paper suggests a semi-analytical approach to a continuous-time version of this problem based on a controlled backward Kolmogorov equation (BKE) which describes the tail probability of the terminal wealth given a contribution policy. The controlled BKE is solved semi-analytically by reducing it to a controlled Schrodinger equation and solving the latter using an algebraic method. Numerically, our approach amounts to finding semi-analytical solutions simultaneously for all values of control parameters 
     
-[^11]: 使用高阶紧致方案和自适应时间步长提高解决美国CEV模型的准确性
+[^6]: ESG一致的风险度量用于可持续投资
 
-    Enhancing accuracy for solving American CEV model with high-order compact scheme and adaptive time stepping. (arXiv:2309.03984v1 [q-fin.CP])
+    ESG-coherent risk measures for sustainable investing. (arXiv:2309.05866v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2309.03984](http://arxiv.org/abs/2309.03984)
+    [http://arxiv.org/abs/2309.05866](http://arxiv.org/abs/2309.05866)
 
-    本研究提出了一种高阶时间自适应方案，用于定价CEV模型的耦合系统，并通过局部网格加密来提高方法的性能。
-
-    
-
-    在这项研究工作中，我们提出了一种高阶时间自适应方案，用于定价固定-自由边界恒定弹性变差(CEV)模型的耦合系统，包括等距和局部细化的空间网格。我们的方法大幅提高了模型中固有的和诱导的非规则性。此外，耦合的偏微分方程组是强非线性的，涉及几个时变系数，包括提前行权边界的一阶导数。这些系数是从一个四阶解析逼近中得到的，该逼近使用了一个正则化的平方根函数。期权价值和delta敏感性的半离散方程来自于非均匀四阶紧致有限差分方案。使用五阶5(4) Dormand-Prince时间积分方法来解决离散方程的耦合系统。通过局部网格加密来提高我们提出的方法的性能。
-
-    In this research work, we propose a high-order time adapted scheme for pricing a coupled system of fixed-free boundary constant elasticity of variance (CEV) model on both equidistant and locally refined space-grid. The performance of our method is substantially enhanced to improve irregularities in the model which are both inherent and induced. Furthermore, the system of coupled PDEs is strongly nonlinear and involves several time-dependent coefficients that include the first-order derivative of the early exercise boundary. These coefficients are approximated from a fourth-order analytical approximation which is derived using a regularized square-root function. The semi-discrete equation for the option value and delta sensitivity is obtained from a non-uniform fourth-order compact finite difference scheme. Fifth-order 5(4) Dormand-Prince time integration method is used to solve the coupled system of discrete equations. Enhancing the performance of our proposed method with local mesh re
-    
-[^12]: 三个候选人选举策略
-
-    Three candidate election strategy. (arXiv:2305.00693v1 [math.PR])
-
-    [http://arxiv.org/abs/2305.00693](http://arxiv.org/abs/2305.00693)
-
-    本研究考虑了三个或更多候选人参加选举的情况下，获胜的概率如何随时间变化，发现对于控制信息的最佳策略可能是错综复杂的。
+    本研究提出了ESG一致的风险度量和ESG回报风险比的定义，为可持续投资提供了一种综合考虑环境、社会和治理因素的评估方法。
 
     
 
-    本研究考虑了三个或更多候选人参加选举的情况下，候选人获胜的概率如何随时间变化。该概率的变化与当前每个候选人的支持率、候选人在政治光谱中的相对位置、距离选举日剩余的时间以及直到选举日公众获得有噪声的信息的速率有关。特别是，本研究发现对于控制信息的最佳策略可能是错综复杂的，并非两个候选人场景下的简单直觉。有趣的是，在存在两个极端的选民的选举竞争中，如果候选人处于中间位置，某些策略将使得该候选人的获胜概率完全消失。
+    对可持续投资越来越感兴趣，需要一种基于公理的风险和回报度量方法，不仅关注财务回报，还关注环境和社会可持续性的度量，即环境、社会和治理(ESG)得分。我们提出了ESG一致的风险度量和ESG回报风险比的定义，基于双变量随机变量的函数，应用于财务回报和ESG得分上，将传统的单变量度量扩展到ESG场景中。我们提供了示例并进行了实证分析，其中使用ESG一致的风险度量和ESG回报风险比对股票进行排名。
 
-    The probability of a given candidate winning a future election is worked out in closed form as a function of (i) the current support rates for each candidate, (ii) the relative positioning of the candidates within the political spectrum, (iii) the time left to the election, and (iv) the rate at which noisy information is revealed to the electorate from now to the election day, when there are three or more candidates. It is shown, in particular, that the optimal strategy for controlling information can be intricate and nontrivial, in contrast to a two-candidate race. A surprising finding is that for a candidate taking the centre ground in an electoral competition among a polarised electorate, certain strategies are fatal in that the resulting winning probability for that candidate vanishes identically.
+    The growing interest in sustainable investing calls for an axiomatic approach to measures of risk and reward that focus not only on financial returns, but also on measures of environmental and social sustainability, i.e. environmental, social, and governance (ESG) scores. We propose definitions for ESG-coherent risk measures and ESG reward-risk ratios based on functions of bivariate random variables that are applied to financial returns and ESG scores, extending the traditional univariate measures to the ESG case. We provide examples and present an empirical analysis in which the ESG-coherent risk measures and ESG reward-risk ratios are used to rank stocks.
     
-[^13]: ChatGPT是否能够预测股票价格波动？回报可预测性与大语言模型。
+[^7]: 《国家篮球协会球员薪资投资回报估算的新框架》
 
-    Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models. (arXiv:2304.07619v1 [q-fin.ST])
+    A New Framework to Estimate Return on Investment for Player Salaries in the National Basketball Association. (arXiv:2309.05783v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2304.07619](http://arxiv.org/abs/2304.07619)
+    [http://arxiv.org/abs/2309.05783](http://arxiv.org/abs/2309.05783)
 
-    本研究探究了使用ChatGPT及其他大型语言模型预测股市回报的潜力，发现ChatGPT的预测表现优于传统情感分析方法，而基础模型无法准确预测股票价格变化，表明复杂模型可预测能力的崛起。这表明在投资决策过程中引入先进的语言模型可以提高预测准确性并增强定量交易策略的表现。
-
-    
-
-    本文研究了使用情感分析预测股市回报的潜力，探讨了使用ChatGPT以及其他大语言模型在预测股市回报方面的表现。我们使用ChatGPT判断新闻标题对公司股票价格是好消息、坏消息或无关消息。通过计算数字分数，我们发现这些"ChatGPT分数"和随后的日常股票市场回报之间存在正相关性。而且，ChatGPT的表现优于传统的情感分析方法。同时，我们发现GPT-1、GPT-2和BERT等基础模型无法准确预测回报，这表明回报可预测性是复杂模型的一种新兴能力。我们的研究结果表明，将先进的语言模型纳入投资决策过程可以产生更准确的预测，并提高定量交易策略的表现。
-
-    We examine the potential of ChatGPT, and other large language models, in predicting stock market returns using sentiment analysis of news headlines. We use ChatGPT to indicate whether a given headline is good, bad, or irrelevant news for firms' stock prices. We then compute a numerical score and document a positive correlation between these ``ChatGPT scores'' and subsequent daily stock market returns. Further, ChatGPT outperforms traditional sentiment analysis methods. We find that more basic models such as GPT-1, GPT-2, and BERT cannot accurately forecast returns, indicating return predictability is an emerging capacity of complex models. Our results suggest that incorporating advanced language models into the investment decision-making process can yield more accurate predictions and enhance the performance of quantitative trading strategies.
-    
-[^14]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
-
-    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
-
-    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
+    该论文提出了一个新的框架，用于估算国家篮球协会球员合同的投资回报率（ROI）。该框架包括确定测量时间段、计算新的比赛贡献率（GCP）度量、估计每场比赛的单场价值（SGV）和计算实现的每个球员单个赛季的财经产值。
 
     
 
-    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
+    国家篮球协会（NBA）规定了球员薪资上限。因此，开发工具以衡量球员在场上表现下的薪资回报相对实现是很有用的。然而，很少有这样的研究存在。因此，我们提出了首个已知的用于估算NBA球员合同回报率（ROI）的框架。该框架由五个部分组成：（1）确定一个测量时间段，如标准的82场NBA常规赛季；（2）计算我们提出的新的比赛贡献率（GCP）度量，它是一个用于每个竞争队的单场比赛总结统计，由传统、打法、奋斗、盒子收球、防守、追踪和篮板等NBA比赛统计数据组成，总和为1；（3）使用标准的货币换算计算估计每场常规赛NBA比赛的单场价值（SGV）；（4）将SGV与实现的GCP向量相乘，得到一系列实现的每个球员单个赛季的财经产值。
 
-    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
+    The National Basketball Association (NBA) imposes a player salary cap. It is therefore useful to develop tools to measure the relative realized return of a player's salary given their on court performance. Very few such studies exist, however. We thus present the first known framework to estimate a return on investment (ROI) for NBA player contracts. The framework operates in five parts: (1) decide on a measurement time horizon, such as the standard 82-game NBA regular season; (2) calculate the novel game contribution percentage (GCP) measure we propose, which is a single game summary statistic that sums to unity for each competing team and is comprised of traditional, playtype, hustle, box outs, defensive, tracking, and rebounding per game NBA statistics; (3) estimate the single game value (SGV) of each regular season NBA game using a standard currency conversion calculation; (4) multiply the SGV by the vector of realized GCPs to obtain a series of realized per-player single season ca
     
-[^15]: 期权的价格发现
+[^8]: 数据科学、机器学习和人工智能数据源大全
 
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+    A compendium of data sources for data science, machine learning, and artificial intelligence. (arXiv:2309.05682v1 [cs.LG])
 
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+    [http://arxiv.org/abs/2309.05682](http://arxiv.org/abs/2309.05682)
 
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
-
-    
-
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
-
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
-    
-[^16]: 领域自适应学习和模仿：用于电力套利的深度强化学习
-
-    Domain-adapted Learning and Imitation: DRL for Power Arbitrage. (arXiv:2301.08360v2 [q-fin.TR] UPDATED)
-
-    [http://arxiv.org/abs/2301.08360](http://arxiv.org/abs/2301.08360)
-
-    本文提出了一种领域自适应学习和模仿的深度强化学习方法，用于电力套利交易。通过利用奖励工程和订单分段的方式，该方法能够提高训练的收敛性，增加竞标成功率，并显著提高利润和损失。
+    这篇论文提供了一个跨多个领域的数据源大全，包括金融、法律、生命科学、新闻社交等，以满足数据科学家和机器学习专家的需求。
 
     
 
-    本文讨论荷兰电力市场，由日前市场和即时平衡市场组成，并且运作方式类似拍卖。由于供需波动，通常存在不平衡导致两个市场价格不同，从而提供套利机会。为了解决这个问题，我们对问题进行了重构，并提出了一种协作式双代理深度强化学习方法，用于欧洲电力套利交易的双层仿真与优化。我们还引入了两种新的实现方式，通过模仿电力交易员的交易行为来融入领域特定知识。通过利用奖励工程来模仿领域专业知识，我们能够重新设计强化学习代理的奖励系统，改善训练中的收敛性并提高整体性能。此外，订单分段增加了竞标成功率，显著提高了利润和损失。我们的研究演示了通过领域自适应学习和模仿的深度强化学习方法在电力套利中的应用。
+    数据科学、机器学习和人工智能的最新进展，如大型语言模型的出现，导致对可供这些模型处理的数据的需求不断增加。虽然数据源是应用特定的，无法列出详尽无遗的数据源列表，但一个全面而不完整的列表仍然有利于各级别的数据科学家和机器学习专家。本文的目标是提供这样一个（必然不完整的）列表，即跨多个应用领域的数据源大全或概览，包括金融和经济、法律（法律和法规）、生命科学（医学和药物发现）、新闻情绪和社交媒体、零售和电子商务、卫星图像以及航运和物流，以满足各种需求。
 
-    In this paper, we discuss the Dutch power market, which is comprised of a day-ahead market and an intraday balancing market that operates like an auction. Due to fluctuations in power supply and demand, there is often an imbalance that leads to different prices in the two markets, providing an opportunity for arbitrage. To address this issue, we restructure the problem and propose a collaborative dual-agent reinforcement learning approach for this bi-level simulation and optimization of European power arbitrage trading. We also introduce two new implementations designed to incorporate domain-specific knowledge by imitating the trading behaviours of power traders. By utilizing reward engineering to imitate domain expertise, we are able to reform the reward system for the RL agent, which improves convergence during training and enhances overall performance. Additionally, the tranching of orders increases bidding success rates and significantly boosts profit and loss (P&L). Our study demo
+    Recent advances in data science, machine learning, and artificial intelligence, such as the emergence of large language models, are leading to an increasing demand for data that can be processed by such models. While data sources are application-specific, and it is impossible to produce an exhaustive list of such data sources, it seems that a comprehensive, rather than complete, list would still benefit data scientists and machine learning experts of all levels of seniority. The goal of this publication is to provide just such an (inevitably incomplete) list -- or compendium -- of data sources across multiple areas of applications, including finance and economics, legal (laws and regulations), life sciences (medicine and drug discovery), news sentiment and social media, retail and ecommerce, satellite imagery, and shipping and logistics, and sports.
     
-[^17]: 领域自适应学习与可解释性：天然气交易的深度强化学习
+[^9]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
 
-    Domain-adapted Learning and Interpretability: DRL for Gas Trading. (arXiv:2301.08359v2 [q-fin.TR] UPDATED)
+    The Disagreement Dividend. (arXiv:2308.06607v1 [econ.GN])
 
-    [http://arxiv.org/abs/2301.08359](http://arxiv.org/abs/2301.08359)
+    [http://arxiv.org/abs/2308.06607](http://arxiv.org/abs/2308.06607)
 
-    本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用，提高了交易性能并降低了交易成本。同时，通过提出的集成学习方案，提高了模型稳定性和鲁棒性。
-
-    
-
-    深度强化学习（Deep RL）已经在金融和股票交易等很多应用中得到了探索。本文提出了一个实际的深度强化学习在天然气期货合约交易中的应用。所得到的夏普比率超过了趋势跟踪和均值回归策略提供的基准及文献中的结果。此外，我们提出了一个简单而有效的集成学习方案，通过提高模型的稳定性和鲁棒性以及降低换手率和交易成本来显著提高性能。我们讨论了 resulting Deep RL 策略的模型可解释性、交易频率和风险度量。
-
-    Deep Reinforcement Learning (Deep RL) has been explored for a number of applications in finance and stock trading. In this paper, we present a practical implementation of Deep RL for trading natural gas futures contracts. The Sharpe Ratio obtained exceeds benchmarks given by trend following and mean reversion strategies as well as results reported in literature. Moreover, we propose a simple but effective ensemble learning scheme for trading, which significantly improves performance through enhanced model stability and robustness as well as lower turnover and hence lower transaction cost. We discuss the resulting Deep RL strategy in terms of model explainability, trading frequency and risk measures.
-    
-[^18]: 电话会议中的信用信息
-
-    Credit Information in Earnings Calls. (arXiv:2209.11914v2 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2209.11914](http://arxiv.org/abs/2209.11914)
-
-    本文开发了一种从季度电话会议文本中提取信用相关信息的新技术，该信息能够预测未来信用利差变化，并表明投资者没有充分利用电话会议中的信用相关信息。
+    通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。
 
     
 
-    我们开发了一种从季度电话会议的文本中提取与信用相关信息的新技术。这些信息不受基本变量或市场变量的影响，并且可以预测未来的信用利差变化。我们的基于文本的指标能够预测未来的信用利差风险和公司盈利能力，从而增加了我们指标对利差变化的预测能力的复杂性。我们的样本外投资组合测试显示，我们的指标中的信息对投资者有价值。这两个结果表明，投资者并未充分内化包含在电话会议中的与信用相关的信息。
+    我们研究了在一个带有替代生产技术和正外部性的简单重复博弈中，观点不同如何影响群体的生产绩效。参与者可以持有不同的观点，即对技术的特性和质量持有不同的看法。这种分歧有两个主要特点。首先，不同的观点会导致不同的技术和努力选择--“乐观”的观点会导致比“怀疑”的观点更高的努力程度。其次，观点是有韧性的--只有在出乎意料的证据证明其为错误时才会发生变化。当只有一种生产技术可用时，对其生产力的分歧(i)激励乐观主义者比与有类似观点的玩家匹配时更努力地工作；(ii)可以降低怀疑主义者的努力。第一个力量构成了我们所谓的“分歧红利”的核心。我们展示了如果外部性足够强，一个有类似观点的乐观主义者团队在预期产出方面会被一个具有分歧观点的团队在表现上超过。
 
-    We develop a novel technique to extract credit-relevant information from the text of quarterly earnings calls. This information is not spanned by fundamental or market variables and forecasts future credit spread changes. One reason for such forecastability is that our text-based measure predicts future credit spread risk and firm profitability. More firm- and call-level complexity increase the forecasting power of our measure for spread changes. Out-of-sample portfolio tests show the information in our measure is valuable for investors. Both results suggest that investors do not fully internalize the credit-relevant information contained in earnings calls.
+    We study how disagreement influences the productive performance of a group in a simple repeated game with alternative production technologies and positive externalities. Players can disagree, i.e. hold different views about the characteristics and quality of the technologies. This disagreement has two main characteristics. First, different views lead to different technology and effort choices -- "optimistic" views justify higher effort than "skeptical" views. Second, views are resilient -- changed only if falsified by surprising evidence. When only one production technology is available, disagreement over its productivity (i) incentivizes the optimistic agent to work harder than when matched with a like-minded player; (ii) can reduce the effort of the skeptic agent. The first force lies at the core of what we call the "disagreement dividend." We show that if externalities are sufficiently strong, a team of like-minded optimists is outperformed -- in terms of expected output -- by a dis
     
-[^19]: 追求股东价值的共同成本
+[^10]: 在尾部收入风险的存在下，消费部分保险
 
-    The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
+    Consumption Partial Insurance in the Presence of Tail Income Risk. (arXiv:2306.13208v1 [econ.GN])
 
-    [http://arxiv.org/abs/2103.12138](http://arxiv.org/abs/2103.12138)
+    [http://arxiv.org/abs/2306.13208](http://arxiv.org/abs/2306.13208)
 
-    文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。
-
-    
-
-    本文采用准实验性的方法，根据公司股东大会（AGMs）的时间差异，提出了一个可移植的框架，推断股东的偏好和对公司利他决策的影响，并将其应用于covid相关捐赠、最近针对俄罗斯的私人制裁以及公司2012-19年的利他立场。AGMs的媒体曝光带来的形象收益，使得与公司同义的股东（如密切相关的个人）支持昂贵的利他变革，而其他股东（如金融公司）反对这些变革。支持这些变革的影响使收益下降了30％：追求（某些）股东的价值具有分配成本，大股东的监控可以避免由偏好异质性驱动的成本。
-
-    Using quasi-experimental variations from the timing of firms' Annual General Meetings (AGMs), we propose a portable framework to infer shareholders' preferences and influences on firms' prosocial decisions and apply it to covid-related donations, recent private sanctions on Russia, and firms' prosocial stances over 2012-19. Image gains from AGMs' media exposure drive shareholders synonymous with a firm, like closely-connected individuals, to support costly prosocial changes, while others, like financial corporations, oppose them. Influence supporting these changes lowers earnings by 30\%: pursuing the values of (some) shareholders has distributional costs, which the monitoring of large shareholders motivated by heterogeneous preferences could prevent.
-    
-[^20]: 使用有价值的货币进行货物交换
-
-    Exchanging Goods Using Valuable Money. (arXiv:1510.07888v3 [q-fin.EC] UPDATED)
-
-    [http://arxiv.org/abs/1510.07888](http://arxiv.org/abs/1510.07888)
-
-    该论文介绍了一种使用有价值的货币进行有效货物交换的机制，在系统中引入代币并采取购买税等措施来控制货币的流动，实现了货币的确定正值。
+    该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。
 
     
 
-    一群人希望在多个时间段内使用货币高效地进行货物交换。然而，使用任何货物作为货币都有缺点，而且以纸币或硬币形式发行的法定货币在最后一个时间段将变得毫无价值，因此在所有较早的时间段也将如此。此外，瓦尔拉斯市场价格仅由任意重新缩放确定。尽管如此，我们证明了可以设计一种系统，该系统使用货币来交换货物，货币具有确定的正值。在这个系统中，中央机构最初向所有交易商提供代币，并通过购买税来回收。所有交易必须使用代币或代币的支付承诺进行。这种机制控制的是货币的流动而不是存量：它引入了一些交易摩擦、一些财富再分配和一些价格扭曲，但这些影响都可以很小。
+    我们通过考虑收入分布高阶矩的影响，衡量了收入冲击对消费保险的影响程度。我们导出了一个非线性消费函数，其中保险程度随着收入冲击的符号和大小而变化。利用PSID数据，我们估计了坏的相对于好的永久性冲击的非对称传导率-- 3 sigma负冲击的的17%传导到消费，而相同大小的正冲击只有9%传导到消费-- 随着冲击恶化，传导率增加。我们的结果与对假想事件消费反应的调查一致，并表明尾部收入风险对消费具有重要影响。
 
-    A group of people wishes to use money to exchange goods efficiently over several time periods. However, there are disadvantages to using any of the goods as money, and in addition fiat money issued in the form of notes or coins will be valueless in the final time period, and hence in all earlier periods. Also, Walrasian market prices are determined only up to an arbitrary rescaling. Nevertheless we show that it is possible to devise a system which uses money to exchange goods and in which money has a determinate positive value. In this system, tokens are initially supplied to all traders by a central authority and recovered by a purchase tax. All trades must be made using tokens or promissory notes for tokens. This mechanism controls the flow rather than the stock of money: it introduces some trading frictions, some redistribution of wealth, and some distortion of prices, but these effects can all be made small.
+    We measure the extent of consumption insurance to income shocks accounting for high-order moments of the income distribution. We derive a nonlinear consumption function, in which the extent of insurance varies with the sign and magnitude of income shocks. Using PSID data, we estimate an asymmetric pass-through of bad versus good permanent shocks -- 17% of a 3 sigma negative shock transmits to consumption compared to 9% of an equal-sized positive shock -- and the pass-through increases as the shock worsens. Our results are consistent with surveys of consumption responses to hypothetical events and suggest that tail income risk matters substantially for consumption.
+    
+[^11]: 最小二乘蒙特卡罗中的有限差分解法
+
+    Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo. (arXiv:2305.09166v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2305.09166](http://arxiv.org/abs/2305.09166)
+
+    本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。
+
+    
+
+    本文提出了一种简单而有效的方法，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。关键思想是使用低维有限差分法的精确解来构建条件期望继续支付的假设，用于线性回归。该方法在解决向后偏微分方程和蒙特卡罗模拟方面建立了桥梁，旨在实现两者的最佳结合。我们通过实际示例说明该技术，包括百慕大期权和最差发行人可赎回票据。该方法可被视为跨越各种资产类别的通用数值方案，特别是在任意维度下，作为定价美式衍生产品的准确方法。
+
+    This article presents a simple but effective approach to improve the accuracy of Least-Squares Monte Carlo for American-style options. The key idea is to construct the ansatz of conditional expected continuation payoff using the exact solution from low dimensional finite difference methods, to be used in linear regression. This approach builds a bridge between solving backward partial differential equations and a Monte Carlo simulation, aiming at achieving the best of both worlds. We illustrate the technique with realistic examples including Bermuda options and worst of issuer callable notes. The method can be considered as a generic numerical scheme across various asset classes, in particular, as an accurate method for pricing American-style derivatives under arbitrary dimensions.
+    
+[^12]: 一种公理化方法处理评级系统中的违约风险和模型不确定性
+
+    An axiomatic approach to default risk and model uncertainty in rating systems. (arXiv:2303.08217v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2303.08217](http://arxiv.org/abs/2303.08217)
+
+    本文提出了一种公理化方法处理评级系统中的违约风险和模型不确定性，引入了违约风险度量的概念来简化计算，该度量考虑了模型风险，并通过讨论保守水平对资产权重的影响，对资本要求条例提出了一些新的见解。
+
+    
+
+    本文处理了违约风险的公理化方法，引入了违约风险度量的概念，该概念推广了经典的违约概率，并允许以各种形式融入模型风险。我们通过货币风险度量、相关尾风险度量系列和 Choquet 容量来讨论不同的违约风险度量的属性和表示。接着，我们把重点转向被给定为最坏情况违约概率和扭曲违约概率的违约风险度量。后者经常用于通过风险加权资产（RWA）计算资本要求时考虑模型风险，符合资本要求条例（CRR）的要求。在这种情况下，我们讨论不同违约风险度量和保守水平对风险加权资产金额的影响。
+
+    In this paper, we deal with an axiomatic approach to default risk. We introduce the notion of a default risk measure, which generalizes the classical probability of default (PD), and allows to incorporate model risk in various forms. We discuss different properties and representations of default risk measures via monetary risk measures, families of related tail risk measures, and Choquet capacities. In a second step, we turn our focus on default risk measures, which are given as worst-case PDs and distorted PDs. The latter are frequently used in order to take into account model risk for the computation of capital requirements through risk-weighted assets (RWAs), as demanded by the Capital Requirement Regulation (CRR). In this context, we discuss the impact of different default risk measures and margins of conservatism on the amount of risk-weighted assets.
+    
+[^13]: 实现基于分层深度学习的多层次拍卖数据模拟方法
+
+    Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data. (arXiv:2207.12255v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2207.12255](http://arxiv.org/abs/2207.12255)
+
+    我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。
+
+    
+
+    我们提出了一种深度学习解决方案，以应对模拟现实合理的合同拍卖数据所遇到的挑战。这种类型的拍卖数据所遇到的复杂性包括高基数离散特征空间和由与单个拍卖实例相关联的多个出价引起的多层级结构。我们的方法将深度生成建模（DGM）与预测基于拍卖特征的条件出价分布的人工学习器相结合，为模拟性研究的进展做出贡献。这种方法为创建适用于代理学习和建模应用的真实拍卖环境奠定了基础。我们的贡献有两个方面：我们引入了一种综合的方法来模拟多层次离散拍卖数据，我们强调了DGM作为优化模拟技术和促进基于生成型人工智能的经济模型发展的有力工具的潜力。
+
+    We present a deep learning solution to address the challenges of simulating realistic synthetic first-price sealed-bid auction data. The complexities encountered in this type of auction data include high-cardinality discrete feature spaces and a multilevel structure arising from multiple bids associated with a single auction instance. Our methodology combines deep generative modeling (DGM) with an artificial learner that predicts the conditional bid distribution based on auction characteristics, contributing to advancements in simulation-based research. This approach lays the groundwork for creating realistic auction environments suitable for agent-based learning and modeling applications. Our contribution is twofold: we introduce a comprehensive methodology for simulating multilevel discrete auction data, and we underscore the potential of DGM as a powerful instrument for refining simulation techniques and fostering the development of economic models grounded in generative AI.
+    
+[^14]: 时间变化的社交距离成本：社交距离疲劳和封锁
+
+    Time-varying Cost of Distancing: Distancing Fatigue and Lockdowns. (arXiv:2206.03847v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2206.03847](http://arxiv.org/abs/2206.03847)
+
+    这项研究通过研究一个具有时间变化的社交距离成本的模型，探索了社交距离疲劳和封锁对流行病传播的影响。研究发现，社交距离成本的陡增是产生第二波流行病的必要条件，而社交距离疲劳无法足够快地增加成本。然而，突变的公共政策可以引发第二波流行病。研究还提供了关于成本变化的最大限度和严格封锁措施对流行病传播的副作用的数值分析。
+
+    
+
+    我们研究了一个具有时间变化的社交距离成本的行为SIR模型。我们探讨了影响社交距离成本变化的两个主要原因：社交距离疲劳和公共政策（封锁）。我们表明，要出现第二波流行病，社交距离成本必须大幅增加。社交距离疲劳无法以足够快的速度增加社交距离成本，从而产生第二波流行病。然而，突变影响社交距离成本的公共政策可以产生第二波流行病。基于这一点，我们确定了社交距离成本的最大变化（例如，解除公共政策），不会引起第二波流行病。最后，我们对社交距离疲劳下的公共政策进行了数值分析，并表明在流行病刚开始时实施严格封锁措施（例如，最近在中国）可能会产生意想不到的负面后果。当政策解除时，由于累积的社交距离疲劳，疾病会迅速传播。
+
+    We study a behavioral SIR model with time-varying costs of distancing. The two main causes of the variation in the cost of distancing we explore are distancing fatigue and public policies (lockdowns). We show that for a second wave of an epidemic to arise, a steep increase in distancing cost is necessary. Distancing fatigue cannot increase the distancing cost sufficiently fast to create a second wave. However, public policies that discontinuously affect the distancing cost can create a second wave. With that in mind, we characterize the largest change in the distancing cost (due to, for example, lifting a public policy) that will not cause a second wave. Finally, we provide a numerical analysis of public policies under distancing fatigue and show that a strict lockdown at the beginning of an epidemic (as, for example, recently in China) can lead to unintended adverse consequences. When the policy is lifted the disease spreads very fast due to the accumulated distancing fatigue of the i
+    
+[^15]: 早期污染暴露的长期影响：来自伦敦雾霾的证据
+
+    The Long-Term Effects of Early-Life Pollution Exposure: Evidence from the London Smog. (arXiv:2202.11785v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2202.11785](http://arxiv.org/abs/2202.11785)
+
+    本文研究了早期污染暴露对个体的长期影响，发现受雾霾影响的个体智力下降、呼吸健康状况较差，并可能导致受教育年限减少。
+
+    
+
+    本文利用大规模英国队列研究了早期污染暴露对个体的人力资本和老年健康结果的影响。我们比较了在1952年12月在胎儿期或婴儿期暴露于伦敦雾霾的个体与雾霾之后出生以及同一时间但未受影响地区出生的个体。我们发现那些暴露于雾霾的个体智力下降并且呼吸健康状况较差，同时还有一些证据表明受教育年限减少。
+
+    This paper uses a large UK cohort to investigate the impact of early-life pollution exposure on individuals' human capital and health outcomes in older age. We compare individuals who were exposed to the London smog in December 1952 whilst in utero or in infancy to those born after the smog and those born at the same time but in unaffected areas. We find that those exposed to the smog have substantially lower fluid intelligence and worse respiratory health, with some evidence of a reduction in years of schooling.
+    
+[^16]: 市场状态动态和风险评估
+
+    Dynamics of market states and risk assessment. (arXiv:2011.05984v2 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2011.05984](http://arxiv.org/abs/2011.05984)
+
+    该论文研究了金融市场的动态和风险评估，并引入了一种新的市场状态选择标准，强调了状态转移矩阵的重要性。在应用于SP 500和日经225市场的实证研究中发现了有统计学意义的结果。这种方法对于理解市场状态和风险评估非常有价值。
+
+    
+
+    以相关性结构的相似性为基础，以往的研究探索了金融市场的各种条件，并将其分类为市场状态。我们对这些市场状态的选择标准进行了修改，主要是因为对状态转移矩阵的关注增加了。通过优化两个参数（聚类数和噪声抑制），固定聚类和市场状态，但在相似条件下，我们更倾向于避免状态转移矩阵中的大跳跃的聚类。在对SP 500和日经225市场在COVID-19大流行前的时期进行模型应用时，我们发现了具有统计学意义的结果（2006-2019）。保留20个交易日的时期长度，但将时期的移动减少到单个交易日，我们得到了在相关矩阵空间中的市场轨迹的概念。我们可以将这些状态可视化为二维或三维形式经过尺度变换后的数据。这种方法，对于理解市场状态和风险评估具有重要意义。
+
+    Previous research explored various conditions of financial markets based on the similarity of correlation structures and classified as market states. We introduce modifications to previous selection criteria for these market states, mainly due to increased attention to the transition matrix between the states. Clustering and thus market states are fixed by the optimization of two parameters -- number of clusters and noise suppression, but in similar conditions, we give preference to the clustering which avoids large jumps in the transition matrix. We found statistically significant results applying this model to the SP 500 and Nikkei 225 markets for the pre-COVID-19 pandemic era (2006-2019). Retaining the epoch length of 20 trading days but reducing the shift of the epoch to a single trading day we are led to the concept of a trajectory of the market in the space of correlation matrices. We may visualize these states after dimensional scaling to two or three dimensions. This approach, 
+    
+[^17]: 经济发展中的内生结构转型
+
+    Endogenous structural transformation in economic development. (arXiv:2011.03695v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2011.03695](http://arxiv.org/abs/2011.03695)
+
+    本文扩展了Xing（2023abcd）的追赶型经济体最优增长模型，从生产函数转换到经济结构转换，并通过内生结构转型和有效资源分配来解释一个国家如何发展其经济。
+
+    
+
+    本文将Xing（2023abcd）关于追赶型经济体最优增长模型从生产函数转换到经济结构转换，并讨论了一个国家如何通过内生结构转型和市场机制中的有效资源分配来发展经济。为了实现这一目标，本文首先从文献中总结了经济结构的三个属性，即结构性、持续性和转换性，并讨论了它们对经济建模方法的影响。然后，在普遍知识假设的基础上，本文扩展了Xing（2023a）基于生产函数转换的最优增长模型，考虑到内生结构转型的扩展拉姆齐模型，其中社会规划者选择最优产业结构、资源分配以及消费，以最大化代表性家庭的总效用，同时满足资源约束。
+
+    This paper extends Xing's (2023abcd) optimal growth models of catching-up economies from the case of production function switching to that of economic structure switching and argues how a country develops its economy by endogenous structural transformation and efficient resource allocation in a market mechanism. To achieve this goal, the paper first summarizes three attributes of economic structures from the literature, namely, structurality, durationality, and transformality, and discuss their implications for methods of economic modeling. Then, with the common knowledge assumption, the paper extends Xing's (2023a) optimal growth model that is based on production function switching and considers an extended Ramsey model with endogenous structural transformation in which the social planner chooses the optimal industrial structure, recource allocation with the chosen structure, and consumption to maximize the representative household's total utility subject to the resource constraint. T
     
 

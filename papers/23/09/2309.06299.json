@@ -1,0 +1,12 @@
+{
+    "title": "Modeling Supply and Demand in Public Transportation Systems. (arXiv:2309.06299v1 [cs.LG])",
+    "abstract": "The Harrisonburg Department of Public Transportation (HDPT) aims to leverage their data to improve the efficiency and effectiveness of their operations. We construct two supply and demand models that help the department identify gaps in their service. The models take many variables into account, including the way that the HDPT reports to the federal government and the areas with the most vulnerable populations in Harrisonburg City. We employ data analysis and machine learning techniques to make our predictions.",
+    "link": "http://arxiv.org/abs/2309.06299",
+    "context": "Title: Modeling Supply and Demand in Public Transportation Systems. (arXiv:2309.06299v1 [cs.LG])\nAbstract: The Harrisonburg Department of Public Transportation (HDPT) aims to leverage their data to improve the efficiency and effectiveness of their operations. We construct two supply and demand models that help the department identify gaps in their service. The models take many variables into account, including the way that the HDPT reports to the federal government and the areas with the most vulnerable populations in Harrisonburg City. We employ data analysis and machine learning techniques to make our predictions.",
+    "path": "papers/23/09/2309.06299.json",
+    "total_tokens": 559,
+    "translated_title": "在公共交通系统中建模供需",
+    "translated_abstract": "哈里森堡公共交通部门旨在利用其数据提高运营效率和效果。我们构建了两个供需模型，帮助部门识别服务中的空缺。模型考虑了许多变量，包括哈里森堡市向联邦政府报告的方式以及最脆弱人口聚集的区域。我们采用数据分析和机器学习技术进行预测。",
+    "tldr": "该论文在公共交通系统中建立了供需模型，利用数据分析和机器学习技术揭示了运营服务中的空缺。",
+    "en_tdlr": "This paper models supply and demand in public transportation systems and identifies gaps in service using data analysis and machine learning techniques."
+}

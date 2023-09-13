@@ -1,0 +1,11 @@
+{
+    "title": "Overview of GUA-SPA at IberLEF 2023: Guarani-Spanish Code Switching Analysis. (arXiv:2309.06163v1 [cs.CL])",
+    "abstract": "We present the first shared task for detecting and analyzing code-switching in Guarani and Spanish, GUA-SPA at IberLEF 2023. The challenge consisted of three tasks: identifying the language of a token, NER, and a novel task of classifying the way a Spanish span is used in the code-switched context. We annotated a corpus of 1500 texts extracted from news articles and tweets, around 25 thousand tokens, with the information for the tasks. Three teams took part in the evaluation phase, obtaining in general good results for Task 1, and more mixed results for Tasks 2 and 3.",
+    "link": "http://arxiv.org/abs/2309.06163",
+    "context": "Title: Overview of GUA-SPA at IberLEF 2023: Guarani-Spanish Code Switching Analysis. (arXiv:2309.06163v1 [cs.CL])\nAbstract: We present the first shared task for detecting and analyzing code-switching in Guarani and Spanish, GUA-SPA at IberLEF 2023. The challenge consisted of three tasks: identifying the language of a token, NER, and a novel task of classifying the way a Spanish span is used in the code-switched context. We annotated a corpus of 1500 texts extracted from news articles and tweets, around 25 thousand tokens, with the information for the tasks. Three teams took part in the evaluation phase, obtaining in general good results for Task 1, and more mixed results for Tasks 2 and 3.",
+    "path": "papers/23/09/2309.06163.json",
+    "total_tokens": 742,
+    "translated_title": "IberLEF 2023中关于瓜拉尼语和西班牙语代码交替分析的GUA-SPA综述",
+    "translated_abstract": "我们在IberLEF 2023中提出了第一个用于检测和分析瓜拉尼语和西班牙语代码交替的共享任务GUA-SPA。该挑战包括三个任务：识别一个标记的语言、NER和对西班牙语片段在代码交替语境中使用方式的新任务。我们标注了一个包含1500个来自新闻文章和推特的文本的语料库，大约有2.5万个标记，并对任务的信息进行了标记。三个团队参加了评估阶段，Task 1取得了较好的结果，Task 2和3的结果则参差不齐。",
+    "tldr": "在IberLEF 2023中，我们提出了瓜拉尼语和西班牙语代码交替分析的GUA-SPA任务。该任务包括识别语言、NER和新颖的西班牙语片段在代码交替语境中使用方式的分类。在评估阶段，Task 1取得了较好的结果，而Task 2和Task 3的结果则不稳定。"
+}

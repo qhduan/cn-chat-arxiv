@@ -1,0 +1,12 @@
+{
+    "title": "Machine Learning for maximizing the memristivity of single and coupled quantum memristors. (arXiv:2309.05062v1 [quant-ph] CROSS LISTED)",
+    "abstract": "We propose machine learning (ML) methods to characterize the memristive properties of single and coupled quantum memristors. We show that maximizing the memristivity leads to large values in the degree of entanglement of two quantum memristors, unveiling the close relationship between quantum correlations and memory. Our results strengthen the possibility of using quantum memristors as key components of neuromorphic quantum computing.",
+    "link": "http://arxiv.org/abs/2309.05062",
+    "context": "Title: Machine Learning for maximizing the memristivity of single and coupled quantum memristors. (arXiv:2309.05062v1 [quant-ph] CROSS LISTED)\nAbstract: We propose machine learning (ML) methods to characterize the memristive properties of single and coupled quantum memristors. We show that maximizing the memristivity leads to large values in the degree of entanglement of two quantum memristors, unveiling the close relationship between quantum correlations and memory. Our results strengthen the possibility of using quantum memristors as key components of neuromorphic quantum computing.",
+    "path": "papers/23/09/2309.05062.json",
+    "total_tokens": 693,
+    "translated_title": "机器学习用于最大化单个和耦合量子忆阻器的记忆阻性",
+    "translated_abstract": "我们提出了机器学习方法来表征单个和耦合量子忆阻器的记忆阻性。我们展示了最大化记忆阻性会导致两个量子忆阻器的纠缠程度较大，揭示了量子相关性与记忆之间的密切关系。我们的结果增强了将量子忆阻器作为神经形态的量子计算的关键组件的可能性。",
+    "tldr": "本文使用机器学习方法来研究单个和耦合量子忆阻器的记忆阻性，并发现最大化记忆阻性可以提高两个量子忆阻器的纠缠程度，揭示了量子相关性与记忆之间的关系。这一发现增强了将量子忆阻器应用于神经形态的量子计算的潜力。",
+    "en_tdlr": "This paper utilizes machine learning methods to investigate the memristive properties of single and coupled quantum memristors, revealing the close relationship between maximizing memristivity and the degree of entanglement. Our findings enhance the potential of utilizing quantum memristors as key components in neuromorphic quantum computing."
+}

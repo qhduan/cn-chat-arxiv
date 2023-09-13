@@ -1,0 +1,12 @@
+{
+    "title": "CleanUNet 2: A Hybrid Speech Denoising Model on Waveform and Spectrogram. (arXiv:2309.05975v1 [cs.LG])",
+    "abstract": "In this work, we present CleanUNet 2, a speech denoising model that combines the advantages of waveform denoiser and spectrogram denoiser and achieves the best of both worlds. CleanUNet 2 uses a two-stage framework inspired by popular speech synthesis methods that consist of a waveform model and a spectrogram model. Specifically, CleanUNet 2 builds upon CleanUNet, the state-of-the-art waveform denoiser, and further boosts its performance by taking predicted spectrograms from a spectrogram denoiser as the input. We demonstrate that CleanUNet 2 outperforms previous methods in terms of various objective and subjective evaluations.",
+    "link": "http://arxiv.org/abs/2309.05975",
+    "context": "Title: CleanUNet 2: A Hybrid Speech Denoising Model on Waveform and Spectrogram. (arXiv:2309.05975v1 [cs.LG])\nAbstract: In this work, we present CleanUNet 2, a speech denoising model that combines the advantages of waveform denoiser and spectrogram denoiser and achieves the best of both worlds. CleanUNet 2 uses a two-stage framework inspired by popular speech synthesis methods that consist of a waveform model and a spectrogram model. Specifically, CleanUNet 2 builds upon CleanUNet, the state-of-the-art waveform denoiser, and further boosts its performance by taking predicted spectrograms from a spectrogram denoiser as the input. We demonstrate that CleanUNet 2 outperforms previous methods in terms of various objective and subjective evaluations.",
+    "path": "papers/23/09/2309.05975.json",
+    "total_tokens": 794,
+    "translated_title": "CleanUNet 2：一种基于波形和频谱图的混合语音降噪模型",
+    "translated_abstract": "在这项工作中，我们提出了CleanUNet 2，一种结合了波形降噪器和频谱图降噪器优点并且取得了最佳效果的语音降噪模型。CleanUNet 2采用了一个受流行的语音合成方法启发的两阶段框架，包括一个波形模型和一个频谱图模型。具体而言，CleanUNet 2在当前最先进的波形降噪器CleanUNet的基础上，通过使用从频谱图降噪器预测的频谱图作为输入来进一步提升性能。我们证明了CleanUNet 2在各种客观和主观评估方面优于先前的方法。",
+    "tldr": "CleanUNet 2是一种结合了波形和频谱图的混合语音降噪模型，通过两个阶段的框架，它构建在当前最先进的波形降噪器CleanUNet的基础上，并通过使用预测的频谱图作为输入来进一步提升性能。",
+    "en_tdlr": "CleanUNet 2 is a hybrid speech denoising model that combines waveform and spectrogram, building upon the state-of-the-art waveform denoiser CleanUNet and further improving its performance by using predicted spectrograms as input."
+}

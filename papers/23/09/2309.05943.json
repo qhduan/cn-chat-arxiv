@@ -1,0 +1,11 @@
+{
+    "title": "Knowledge-Guided Short-Context Action Anticipation in Human-Centric Videos. (arXiv:2309.05943v1 [cs.CV])",
+    "abstract": "This work focuses on anticipating long-term human actions, particularly using short video segments, which can speed up editing workflows through improved suggestions while fostering creativity by suggesting narratives. To this end, we imbue a transformer network with a symbolic knowledge graph for action anticipation in video segments by boosting certain aspects of the transformer's attention mechanism at run-time. Demonstrated on two benchmark datasets, Breakfast and 50Salads, our approach outperforms current state-of-the-art methods for long-term action anticipation using short video context by up to 9%.",
+    "link": "http://arxiv.org/abs/2309.05943",
+    "context": "Title: Knowledge-Guided Short-Context Action Anticipation in Human-Centric Videos. (arXiv:2309.05943v1 [cs.CV])\nAbstract: This work focuses on anticipating long-term human actions, particularly using short video segments, which can speed up editing workflows through improved suggestions while fostering creativity by suggesting narratives. To this end, we imbue a transformer network with a symbolic knowledge graph for action anticipation in video segments by boosting certain aspects of the transformer's attention mechanism at run-time. Demonstrated on two benchmark datasets, Breakfast and 50Salads, our approach outperforms current state-of-the-art methods for long-term action anticipation using short video context by up to 9%.",
+    "path": "papers/23/09/2309.05943.json",
+    "total_tokens": 685,
+    "translated_title": "在人类中心的视频中，基于知识引导的短上下文行动预测",
+    "translated_abstract": "本研究旨在通过使用短视频片段来预测长期的人类行动，从而通过提供更好的建议来加快编辑工作流程，同时通过提供叙事来培养创造力。为此，我们运用符号化知识图谱来增强变换器网络在视频片段中的行动预测能力，通过在运行时提升变换器的注意机制的某些方面。在两个基准数据集Breakfast和50Salads上的演示中，我们的方法通过使用短视频上下文进行长期行动预测，超过了当前最先进的方法9%。",
+    "tldr": "该论文提出了一种基于知识引导的短上下文行动预测方法，在人类中心的视频中，通过使用短视频片段来预测长期的人类行动，提高了编辑工作流程的速度和创作性，通过增强变换器网络的注意机制，在行动预测方面取得了优于当前最先进方法9%的性能。"
+}

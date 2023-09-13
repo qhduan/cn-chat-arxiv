@@ -1,0 +1,11 @@
+{
+    "title": "Dynamic Arrangements in Economic Theory: Level-Agnostic Representations. (arXiv:2309.06383v1 [econ.TH])",
+    "abstract": "If Economics is understood as the study of the interactions among intentional agents, being rationality the main source of intentional behavior, the mathematical tools that it requires must be extended to capture systemic effects. Here we choose an alternative toolbox based on Category Theory. We examine potential {\\em level-agnostic} formalisms, presenting three categories, $\\mathcal{PR}$, $\\mathcal{G}$ and an encompassing one, $\\mathcal{PR-G}$. The latter allows for representing dynamic rearrangements of the interactions among different agents.",
+    "link": "http://arxiv.org/abs/2309.06383",
+    "context": "Title: Dynamic Arrangements in Economic Theory: Level-Agnostic Representations. (arXiv:2309.06383v1 [econ.TH])\nAbstract: If Economics is understood as the study of the interactions among intentional agents, being rationality the main source of intentional behavior, the mathematical tools that it requires must be extended to capture systemic effects. Here we choose an alternative toolbox based on Category Theory. We examine potential {\\em level-agnostic} formalisms, presenting three categories, $\\mathcal{PR}$, $\\mathcal{G}$ and an encompassing one, $\\mathcal{PR-G}$. The latter allows for representing dynamic rearrangements of the interactions among different agents.",
+    "path": "papers/23/09/2309.06383.json",
+    "total_tokens": 665,
+    "translated_title": "经济理论中的动态安排：级别不敏感的表示",
+    "translated_abstract": "如果经济学被理解为对有意识代理之间相互作用的研究，而理性是有意识行为的主要来源，那么所需的数学工具必须扩展以捕捉系统效应。在这里我们选择基于范畴论的替代工具箱。我们考察潜在的\"级别不敏感\"形式化工具，提出了三个范畴：$ \\mathcal{PR} $，$ \\mathcal{G} $和一个包含两者的范畴，$ \\mathcal{PR-G} $。后者可以表示不同代理之间的动态重新安排。",
+    "tldr": "本文选择基于范畴论的工具箱来扩展经济学的数学工具，提出了级别不敏感的形式化工具，可以表示不同代理间的动态重新安排。"
+}

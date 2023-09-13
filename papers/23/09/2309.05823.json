@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble-based modeling abstractions for modern self-optimizing systems. (arXiv:2309.05823v1 [cs.LG])",
+    "abstract": "In this paper, we extend our ensemble-based component model DEECo with the capability to use machine-learning and optimization heuristics in establishing and reconfiguration of autonomic component ensembles. We show how to capture these concepts on the model level and give an example of how such a model can be beneficially used for modeling access-control related problem in the Industry 4.0 settings. We argue that incorporating machine-learning and optimization heuristics is a key feature for modern smart systems which are to learn over the time and optimize their behavior at runtime to deal with uncertainty in their environment.",
+    "link": "http://arxiv.org/abs/2309.05823",
+    "context": "Title: Ensemble-based modeling abstractions for modern self-optimizing systems. (arXiv:2309.05823v1 [cs.LG])\nAbstract: In this paper, we extend our ensemble-based component model DEECo with the capability to use machine-learning and optimization heuristics in establishing and reconfiguration of autonomic component ensembles. We show how to capture these concepts on the model level and give an example of how such a model can be beneficially used for modeling access-control related problem in the Industry 4.0 settings. We argue that incorporating machine-learning and optimization heuristics is a key feature for modern smart systems which are to learn over the time and optimize their behavior at runtime to deal with uncertainty in their environment.",
+    "path": "papers/23/09/2309.05823.json",
+    "total_tokens": 743,
+    "translated_title": "基于集成模型的抽象化方法用于现代自我优化系统",
+    "translated_abstract": "在本文中，我们扩展了基于集成的组件模型DEECo，使其具有使用机器学习和优化启发式方法建立和重新配置自主组件集的能力。我们展示了如何在模型层次上捕捉这些概念，并举例说明了在工业4.0环境中，这样的模型如何有益地用于建模访问控制相关问题。我们认为，将机器学习和优化启发式方法纳入现代智能系统是一个关键特性，这些系统需要在学习过程中并在运行时优化其行为，以应对环境中的不确定性。",
+    "tldr": "本文在基于集成的组件模型DEECo的基础上，扩展了机器学习和优化启发式方法以建立和重新配置自主组件集。这种方法对于现代智能系统来说是一个关键特性，能够在学习过程中优化行为，并在运行时处理环境中的不确定性。",
+    "en_tdlr": "This paper extends the ensemble-based component model DEECo with the capability to use machine learning and optimization heuristics for establishing and reconfiguring autonomous component ensembles. Incorporating these methods is a key feature for modern smart systems to optimize behavior and handle uncertainty in the environment."
+}

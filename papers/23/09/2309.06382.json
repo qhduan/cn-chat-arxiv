@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble Mask Networks. (arXiv:2309.06382v1 [cs.LG])",
+    "abstract": "Can an $\\mathbb{R}^n\\rightarrow \\mathbb{R}^n$ feedforward network learn matrix-vector multiplication? This study introduces two mechanisms - flexible masking to take matrix inputs, and a unique network pruning to respect the mask's dependency structure. Networks can approximate fixed operations such as matrix-vector multiplication $\\phi(A,x) \\rightarrow Ax$, motivating the mechanisms introduced with applications towards litmus-testing dependencies or interaction order in graph-based models.",
+    "link": "http://arxiv.org/abs/2309.06382",
+    "context": "Title: Ensemble Mask Networks. (arXiv:2309.06382v1 [cs.LG])\nAbstract: Can an $\\mathbb{R}^n\\rightarrow \\mathbb{R}^n$ feedforward network learn matrix-vector multiplication? This study introduces two mechanisms - flexible masking to take matrix inputs, and a unique network pruning to respect the mask's dependency structure. Networks can approximate fixed operations such as matrix-vector multiplication $\\phi(A,x) \\rightarrow Ax$, motivating the mechanisms introduced with applications towards litmus-testing dependencies or interaction order in graph-based models.",
+    "path": "papers/23/09/2309.06382.json",
+    "total_tokens": 652,
+    "translated_title": "集成掩模网络",
+    "translated_abstract": "一个$\\mathbb{R}^n\\rightarrow \\mathbb{R}^n$的前馈网络能够学习矩阵向量乘法吗？本研究引入了两种机制：灵活的掩模用于接收矩阵输入，以及一种独特的网络剪枝方法以尊重掩模的依赖结构。网络可以近似固定操作，如矩阵向量乘法$\\phi(A,x) \\rightarrow Ax$，这激发了引入的机制在基于图的模型中测试依赖关系或交互顺序的应用。",
+    "tldr": "本研究引入了两种机制，灵活的掩模和独特的网络剪枝，使得一个前馈网络能够学习矩阵向量乘法，并且在图形模型中可以用来测试依赖关系或交互顺序。",
+    "en_tdlr": "This study introduces two mechanisms, flexible masking and unique network pruning, enabling a feedforward network to learn matrix-vector multiplication, and can be used in graph-based models to test dependencies or interaction order."
+}

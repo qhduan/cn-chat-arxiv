@@ -1,0 +1,11 @@
+{
+    "title": "A Survey of Hallucination in Large Foundation Models. (arXiv:2309.05922v1 [cs.AI])",
+    "abstract": "Hallucination in a foundation model (FM) refers to the generation of content that strays from factual reality or includes fabricated information. This survey paper provides an extensive overview of recent efforts that aim to identify, elucidate, and tackle the problem of hallucination, with a particular focus on ``Large'' Foundation Models (LFMs). The paper classifies various types of hallucination phenomena that are specific to LFMs and establishes evaluation criteria for assessing the extent of hallucination. It also examines existing strategies for mitigating hallucination in LFMs and discusses potential directions for future research in this area. Essentially, the paper offers a comprehensive examination of the challenges and solutions related to hallucination in LFMs.",
+    "link": "http://arxiv.org/abs/2309.05922",
+    "context": "Title: A Survey of Hallucination in Large Foundation Models. (arXiv:2309.05922v1 [cs.AI])\nAbstract: Hallucination in a foundation model (FM) refers to the generation of content that strays from factual reality or includes fabricated information. This survey paper provides an extensive overview of recent efforts that aim to identify, elucidate, and tackle the problem of hallucination, with a particular focus on ``Large'' Foundation Models (LFMs). The paper classifies various types of hallucination phenomena that are specific to LFMs and establishes evaluation criteria for assessing the extent of hallucination. It also examines existing strategies for mitigating hallucination in LFMs and discusses potential directions for future research in this area. Essentially, the paper offers a comprehensive examination of the challenges and solutions related to hallucination in LFMs.",
+    "path": "papers/23/09/2309.05922.json",
+    "total_tokens": 733,
+    "translated_title": "对大型基础模型中幻觉的调查",
+    "translated_abstract": "基础模型中的幻觉指的是生成偏离事实的内容或包含虚构信息。本研究概述了近期努力的广泛概述，这些努力旨在识别、阐明和解决幻觉问题，特别关注“大”基础模型（LFMs）。本文对特定于LFMs的各种类型的幻觉现象进行了分类，并建立了评估幻觉程度的评估标准。它还检查了减轻LFM中幻觉的现有策略，并讨论了未来研究的潜在方向。本文全面探讨了与LFMs中幻觉相关的挑战和解决方案。",
+    "tldr": "本文调查了大型基础模型中的幻觉问题，包括幻觉现象的分类、评估标准和减轻幻觉的策略，并讨论了未来研究方向。"
+}

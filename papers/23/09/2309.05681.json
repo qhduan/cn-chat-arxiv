@@ -1,0 +1,12 @@
+{
+    "title": "Knowledge-based Refinement of Scientific Publication Knowledge Graphs. (arXiv:2309.05681v1 [cs.LG])",
+    "abstract": "We consider the problem of identifying authorship by posing it as a knowledge graph construction and refinement. To this effect, we model this problem as learning a probabilistic logic model in the presence of human guidance (knowledge-based learning). Specifically, we learn relational regression trees using functional gradient boosting that outputs explainable rules. To incorporate human knowledge, advice in the form of first-order clauses is injected to refine the trees. We demonstrate the usefulness of human knowledge both quantitatively and qualitatively in seven authorship domains.",
+    "link": "http://arxiv.org/abs/2309.05681",
+    "context": "Title: Knowledge-based Refinement of Scientific Publication Knowledge Graphs. (arXiv:2309.05681v1 [cs.LG])\nAbstract: We consider the problem of identifying authorship by posing it as a knowledge graph construction and refinement. To this effect, we model this problem as learning a probabilistic logic model in the presence of human guidance (knowledge-based learning). Specifically, we learn relational regression trees using functional gradient boosting that outputs explainable rules. To incorporate human knowledge, advice in the form of first-order clauses is injected to refine the trees. We demonstrate the usefulness of human knowledge both quantitatively and qualitatively in seven authorship domains.",
+    "path": "papers/23/09/2309.05681.json",
+    "total_tokens": 709,
+    "translated_title": "基于知识的科学出版物知识图谱的细化",
+    "translated_abstract": "我们将识别作者身份的问题作为一个知识图构建和细化的问题来考虑。为此，我们将这个问题建模为在人类指导（基于知识的学习）的情况下学习概率逻辑模型。具体而言，我们使用功能梯度提升学习关系回归树，并输出可解释的规则。为了引入人类知识，我们将一阶子句的形式的建议注入到树中进行细化。我们在七个作者身份领域定量和定性地展示了人类知识的有用性。",
+    "tldr": "本论文提出了一种基于知识的方法来细化科学出版物知识图谱，通过学习概率逻辑模型并使用功能梯度提升和人类知识引导来识别作者身份。实验证明了人类知识在作者身份领域的定量和定性作用。",
+    "en_tdlr": "This paper proposes a knowledge-based approach to refine the scientific publication knowledge graphs by learning a probabilistic logic model and using functional gradient boosting and human knowledge guidance to identify authorship. Experimental results demonstrate the quantitative and qualitative role of human knowledge in authorship domains."
+}

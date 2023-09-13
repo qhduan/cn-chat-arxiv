@@ -1,0 +1,12 @@
+{
+    "title": "On the Injunction of XAIxArt. (arXiv:2309.06227v1 [cs.HC])",
+    "abstract": "The position paper highlights the range of concerns that are engulfed in the injunction of explainable artificial intelligence in art (XAIxArt). Through a series of quick sub-questions, it points towards the ambiguities concerning 'explanation' and the postpositivist tradition of 'relevant explanation'. Rejecting both 'explanation' and 'relevant explanation', the paper takes a stance that XAIxArt is a symptom of insecurity of the anthropocentric notion of art and a nostalgic desire to return to outmoded notions of authorship and human agency. To justify this stance, the paper makes a distinction between an ornamentation model of explanation to a model of explanation as sense-making.",
+    "link": "http://arxiv.org/abs/2309.06227",
+    "context": "Title: On the Injunction of XAIxArt. (arXiv:2309.06227v1 [cs.HC])\nAbstract: The position paper highlights the range of concerns that are engulfed in the injunction of explainable artificial intelligence in art (XAIxArt). Through a series of quick sub-questions, it points towards the ambiguities concerning 'explanation' and the postpositivist tradition of 'relevant explanation'. Rejecting both 'explanation' and 'relevant explanation', the paper takes a stance that XAIxArt is a symptom of insecurity of the anthropocentric notion of art and a nostalgic desire to return to outmoded notions of authorship and human agency. To justify this stance, the paper makes a distinction between an ornamentation model of explanation to a model of explanation as sense-making.",
+    "path": "papers/23/09/2309.06227.json",
+    "total_tokens": 762,
+    "translated_title": "关于XAIxArt的被禁令（arXiv:2309.06227v1 [cs.HC]）",
+    "translated_abstract": "这篇论文强调了在解释性人工智能在艺术中的禁令（XAIxArt）中涉及的一系列问题。通过一系列简短的子问题，它指出了与“解释”和“相关解释”的含糊之处。本文拒绝了“解释”和“相关解释”，认为XAIxArt是对以人为中心的艺术观念的不安和对过时的作者概念和人类行为的怀旧愿望的症状。为了证明这个立场，本文将解释模型从装饰模型转变为意义生成模型。",
+    "tldr": "这篇论文讨论了解释性人工智能在艺术中的禁令（XAIxArt）引发的一系列问题，并指出XAIxArt旨在解决人类中心的艺术观念的不安和对过时的作者概念的怀旧愿望。",
+    "en_tdlr": "This paper discusses the range of concerns and ambiguities associated with the injunction of explainable artificial intelligence in art (XAIxArt), and argues that XAIxArt is a response to the insecurity of anthropocentric notions of art and a nostalgic desire for outdated notions of authorship."
+}

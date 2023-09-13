@@ -1,0 +1,11 @@
+{
+    "title": "MultiCaM-Vis: Visual Exploration of Multi-Classification Model with High Number of Classes. (arXiv:2309.05676v1 [cs.HC])",
+    "abstract": "Visual exploration of multi-classification models with large number of classes would help machine learning experts in identifying the root cause of a problem that occurs during learning phase such as miss-classification of instances. Most of the previous visual analytics solutions targeted only a few classes. In this paper, we present our interactive visual analytics tool, called MultiCaM-Vis, that provides \\Emph{overview+detail} style parallel coordinate views and a Chord diagram for exploration and inspection of class-level miss-classification of instances. We also present results of a preliminary user study with 12 participants.",
+    "link": "http://arxiv.org/abs/2309.05676",
+    "context": "Title: MultiCaM-Vis: Visual Exploration of Multi-Classification Model with High Number of Classes. (arXiv:2309.05676v1 [cs.HC])\nAbstract: Visual exploration of multi-classification models with large number of classes would help machine learning experts in identifying the root cause of a problem that occurs during learning phase such as miss-classification of instances. Most of the previous visual analytics solutions targeted only a few classes. In this paper, we present our interactive visual analytics tool, called MultiCaM-Vis, that provides \\Emph{overview+detail} style parallel coordinate views and a Chord diagram for exploration and inspection of class-level miss-classification of instances. We also present results of a preliminary user study with 12 participants.",
+    "path": "papers/23/09/2309.05676.json",
+    "total_tokens": 697,
+    "translated_title": "MultiCaM-Vis: 具有大量类别的多分类模型的可视化探索",
+    "translated_abstract": "针对大量类别的多分类模型的可视化探索有助于机器学习专家在学习阶段识别出问题的根本原因，如实例的错误分类。以往的大多数可视化分析解决方案只针对少数类别。本文介绍了我们的交互式可视化分析工具MultiCaM-Vis，它提供了总览+详细信息的平行坐标视图和弦图，用于探索和检查类别级别的实例错误分类。我们还介绍了一项初步用户研究的结果，共有12名参与者。",
+    "tldr": "MultiCaM-Vis是一种可视化工具，能够帮助机器学习专家在大量类别的多分类模型中识别出问题的根本原因，并探索和检查类别级别的实例错误分类。"
+}

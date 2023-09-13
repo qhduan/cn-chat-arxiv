@@ -1,0 +1,11 @@
+{
+    "title": "A duality between utility transforms and probability distortions. (arXiv:2309.05816v1 [econ.TH])",
+    "abstract": "In this paper, we establish a mathematical duality between utility transforms and probability distortions. These transforms play a central role in decision under risk by forming the foundation for the classic theories of expected utility, dual utility, and rank-dependent utility. Our main results establish that probability distortions are characterized by commutation with utility transforms, and utility transforms are characterized by commutation with probability distortions. These results require no additional conditions, and hence each class can be axiomatized with only one property. Moreover, under monotonicity, rank-dependent utility transforms can be characterized by set commutation with either utility transforms or probability distortions.",
+    "link": "http://arxiv.org/abs/2309.05816",
+    "context": "Title: A duality between utility transforms and probability distortions. (arXiv:2309.05816v1 [econ.TH])\nAbstract: In this paper, we establish a mathematical duality between utility transforms and probability distortions. These transforms play a central role in decision under risk by forming the foundation for the classic theories of expected utility, dual utility, and rank-dependent utility. Our main results establish that probability distortions are characterized by commutation with utility transforms, and utility transforms are characterized by commutation with probability distortions. These results require no additional conditions, and hence each class can be axiomatized with only one property. Moreover, under monotonicity, rank-dependent utility transforms can be characterized by set commutation with either utility transforms or probability distortions.",
+    "path": "papers/23/09/2309.05816.json",
+    "total_tokens": 692,
+    "translated_title": "一种效用变换与概率失真之间的对偶关系",
+    "translated_abstract": "本文建立了一种数学上的效用变换与概率失真之间的对偶关系。这些变换在决策风险下起着核心作用，为期望效用、双重效用和依赖等级效用的经典理论提供了基础。我们的主要结果表明，概率失真可以通过与效用变换的交换特征来进行描述，而效用变换则可以通过与概率失真的交换特征来进行描述。这些结果不需要额外的条件，因此每个类别都可以通过一个属性进行公理化。此外，在单调性下，依赖等级效用变换可以通过与效用变换或概率失真的集合交换特征进行描述。",
+    "tldr": "本文建立了一种效用变换与概率失真之间的对偶关系，这对决策风险下的经典理论有重要的意义。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Down the Toxicity Rabbit Hole: Investigating PaLM 2 Guardrails. (arXiv:2309.06415v1 [cs.CL])",
+    "abstract": "This paper conducts a robustness audit of the safety feedback of PaLM 2 through a novel toxicity rabbit hole framework introduced here. Starting with a stereotype, the framework instructs PaLM 2 to generate more toxic content than the stereotype. Every subsequent iteration it continues instructing PaLM 2 to generate more toxic content than the previous iteration until PaLM 2 safety guardrails throw a safety violation. Our experiments uncover highly disturbing antisemitic, Islamophobic, racist, homophobic, and misogynistic (to list a few) generated content that PaLM 2 safety guardrails do not evaluate as highly unsafe.",
+    "link": "http://arxiv.org/abs/2309.06415",
+    "context": "Title: Down the Toxicity Rabbit Hole: Investigating PaLM 2 Guardrails. (arXiv:2309.06415v1 [cs.CL])\nAbstract: This paper conducts a robustness audit of the safety feedback of PaLM 2 through a novel toxicity rabbit hole framework introduced here. Starting with a stereotype, the framework instructs PaLM 2 to generate more toxic content than the stereotype. Every subsequent iteration it continues instructing PaLM 2 to generate more toxic content than the previous iteration until PaLM 2 safety guardrails throw a safety violation. Our experiments uncover highly disturbing antisemitic, Islamophobic, racist, homophobic, and misogynistic (to list a few) generated content that PaLM 2 safety guardrails do not evaluate as highly unsafe.",
+    "path": "papers/23/09/2309.06415.json",
+    "total_tokens": 803,
+    "translated_title": "深入毒性兔子洞：通过PaLM 2的守护栏调查",
+    "translated_abstract": "本文通过引入一种名为“毒性兔子洞”的新型框架，对PaLM 2的安全反馈进行了强化稳健性审计。从一个刻板印象开始，该框架指示PaLM 2生成比刻板印象更具有毒性的内容。每一次迭代，它都要求PaLM 2生成比上一次迭代更具有毒性的内容，直到PaLM 2的安全守护栏发出安全违规警报。我们的实验揭示了极其令人不安的反犹太主义、伊斯兰恐惧症、种族主义、恐同和厌女情绪（仅列举几种）的生成内容，并且这些内容在PaLM 2的安全守护栏评估中并未被视为高度不安全。",
+    "tldr": "这项研究通过一个新颖的毒性兔子洞框架对PaLM 2的安全反馈进行了稳健性审计，揭示了PaLM 2生成的高度令人不安的毒性内容未被安全守护栏评估为高度不安全。"
+}

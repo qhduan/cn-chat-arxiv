@@ -1,0 +1,12 @@
+{
+    "title": "Studying Accuracy of Machine Learning Models Trained on Lab Lifting Data in Solving Real-World Problems Using Wearable Sensors for Workplace Safety. (arXiv:2309.05831v1 [cs.LG])",
+    "abstract": "Porting ML models trained on lab data to real-world situations has long been a challenge. This paper discusses porting a lab-trained lifting identification model to the real-world. With performance much lower than on training data, we explored causes of the failure and proposed four potential solutions to increase model performance",
+    "link": "http://arxiv.org/abs/2309.05831",
+    "context": "Title: Studying Accuracy of Machine Learning Models Trained on Lab Lifting Data in Solving Real-World Problems Using Wearable Sensors for Workplace Safety. (arXiv:2309.05831v1 [cs.LG])\nAbstract: Porting ML models trained on lab data to real-world situations has long been a challenge. This paper discusses porting a lab-trained lifting identification model to the real-world. With performance much lower than on training data, we explored causes of the failure and proposed four potential solutions to increase model performance",
+    "path": "papers/23/09/2309.05831.json",
+    "total_tokens": 603,
+    "translated_title": "研究使用可穿戴传感器解决工作场所安全问题中，基于实验室承载数据训练的机器学习模型的准确性",
+    "translated_abstract": "将实验室数据训练的机器学习模型应用于现实世界一直以来都是一个挑战。本文讨论了将实验室训练的举重识别模型移植到现实世界的问题。与训练数据相比，模型的性能要低得多，我们探讨了失败的原因，并提出了四种潜在解决方案来提高模型性能。",
+    "tldr": "本文研究了将实验室训练的机器学习模型应用于真实世界时的准确性问题，并提出了四种潜在解决方案。",
+    "en_tdlr": "This paper discusses the challenge of applying machine learning models trained on lab data to real-world situations and proposes four potential solutions to improve model performance."
+}

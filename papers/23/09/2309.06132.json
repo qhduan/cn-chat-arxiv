@@ -1,0 +1,11 @@
+{
+    "title": "Measuring vagueness and subjectivity in texts: from symbolic to neural VAGO. (arXiv:2309.06132v1 [cs.CL])",
+    "abstract": "We present a hybrid approach to the automated measurement of vagueness and subjectivity in texts. We first introduce the expert system VAGO, we illustrate it on a small benchmark of fact vs. opinion sentences, and then test it on the larger French press corpus FreSaDa to confirm the higher prevalence of subjective markers in satirical vs. regular texts. We then build a neural clone of VAGO, based on a BERT-like architecture, trained on the symbolic VAGO scores obtained on FreSaDa. Using explainability tools (LIME), we show the interest of this neural version for the enrichment of the lexicons of the symbolic version, and for the production of versions in other languages.",
+    "link": "http://arxiv.org/abs/2309.06132",
+    "context": "Title: Measuring vagueness and subjectivity in texts: from symbolic to neural VAGO. (arXiv:2309.06132v1 [cs.CL])\nAbstract: We present a hybrid approach to the automated measurement of vagueness and subjectivity in texts. We first introduce the expert system VAGO, we illustrate it on a small benchmark of fact vs. opinion sentences, and then test it on the larger French press corpus FreSaDa to confirm the higher prevalence of subjective markers in satirical vs. regular texts. We then build a neural clone of VAGO, based on a BERT-like architecture, trained on the symbolic VAGO scores obtained on FreSaDa. Using explainability tools (LIME), we show the interest of this neural version for the enrichment of the lexicons of the symbolic version, and for the production of versions in other languages.",
+    "path": "papers/23/09/2309.06132.json",
+    "total_tokens": 730,
+    "translated_title": "在文本中测量模糊性和主观性：从符号到神经网络的VAGO",
+    "translated_abstract": "我们提出了一种混合方法来自动测量文本中的模糊性和主观性。首先，我们介绍了专家系统VAGO，并在一小组事实与观点句子的基准上对其进行了说明，并在更大的法语新闻语料库FreSaDa上进行了测试，以确认讽刺性文本中主观标记的更高流行率。然后，我们构建了一个基于BERT-like架构的VAGO神经克隆，该架构基于在FreSaDa上获得的符号VAGO分数进行训练。使用可解释性工具（LIME），我们展示了这个神经版本在丰富符号版本的词典和生成其他语言版本方面的兴趣。",
+    "tldr": "本文提出了一种混合方法来自动测量文本中的模糊性和主观性。通过引入专家系统VAGO，以及基于BERT-like架构的神经克隆，该方法在固定语料库和多语言生成方面表现出良好的性能。"
+}

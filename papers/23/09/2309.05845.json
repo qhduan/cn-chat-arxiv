@@ -1,0 +1,11 @@
+{
+    "title": "Effective Abnormal Activity Detection on Multivariate Time Series Healthcare Data. (arXiv:2309.05845v1 [cs.LG])",
+    "abstract": "Multivariate time series (MTS) data collected from multiple sensors provide the potential for accurate abnormal activity detection in smart healthcare scenarios. However, anomalies exhibit diverse patterns and become unnoticeable in MTS data. Consequently, achieving accurate anomaly detection is challenging since we have to capture both temporal dependencies of time series and inter-relationships among variables. To address this problem, we propose a Residual-based Anomaly Detection approach, Rs-AD, for effective representation learning and abnormal activity detection. We evaluate our scheme on a real-world gait dataset and the experimental results demonstrate an F1 score of 0.839.",
+    "link": "http://arxiv.org/abs/2309.05845",
+    "context": "Title: Effective Abnormal Activity Detection on Multivariate Time Series Healthcare Data. (arXiv:2309.05845v1 [cs.LG])\nAbstract: Multivariate time series (MTS) data collected from multiple sensors provide the potential for accurate abnormal activity detection in smart healthcare scenarios. However, anomalies exhibit diverse patterns and become unnoticeable in MTS data. Consequently, achieving accurate anomaly detection is challenging since we have to capture both temporal dependencies of time series and inter-relationships among variables. To address this problem, we propose a Residual-based Anomaly Detection approach, Rs-AD, for effective representation learning and abnormal activity detection. We evaluate our scheme on a real-world gait dataset and the experimental results demonstrate an F1 score of 0.839.",
+    "path": "papers/23/09/2309.05845.json",
+    "total_tokens": 718,
+    "translated_title": "在多元时间序列医疗数据上进行有效的异常活动检测",
+    "translated_abstract": "多元时间序列（MTS）数据通过多个传感器收集，为智能医疗场景中准确的异常活动检测提供了潜力。然而，异常表现出多样的模式，并且在MTS数据中变得不容易察觉。因此，实现准确的异常检测是具有挑战性的，我们需要捕捉时间序列的时间依赖性和变量之间的相互关系。为了解决这个问题，我们提出了一种基于残差的异常检测方法Rs-AD，用于有效的表示学习和异常活动检测。我们在一个真实的步态数据集上评估了我们的方案，实验结果显示F1分数为0.839。",
+    "tldr": "在多元时间序列医疗数据上，我们提出了一种基于残差的异常检测方法，用于有效的表示学习和异常活动检测。实验结果显示F1分数为0.839。"
+}
