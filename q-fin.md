@@ -14,11 +14,12 @@
 | [^10] | [Consumption Partial Insurance in the Presence of Tail Income Risk.](http://arxiv.org/abs/2306.13208) | 该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。 |
 | [^11] | [Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo.](http://arxiv.org/abs/2305.09166) | 本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。 |
 | [^12] | [An axiomatic approach to default risk and model uncertainty in rating systems.](http://arxiv.org/abs/2303.08217) | 本文提出了一种公理化方法处理评级系统中的违约风险和模型不确定性，引入了违约风险度量的概念来简化计算，该度量考虑了模型风险，并通过讨论保守水平对资产权重的影响，对资本要求条例提出了一些新的见解。 |
-| [^13] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
-| [^14] | [Time-varying Cost of Distancing: Distancing Fatigue and Lockdowns.](http://arxiv.org/abs/2206.03847) | 这项研究通过研究一个具有时间变化的社交距离成本的模型，探索了社交距离疲劳和封锁对流行病传播的影响。研究发现，社交距离成本的陡增是产生第二波流行病的必要条件，而社交距离疲劳无法足够快地增加成本。然而，突变的公共政策可以引发第二波流行病。研究还提供了关于成本变化的最大限度和严格封锁措施对流行病传播的副作用的数值分析。 |
-| [^15] | [The Long-Term Effects of Early-Life Pollution Exposure: Evidence from the London Smog.](http://arxiv.org/abs/2202.11785) | 本文研究了早期污染暴露对个体的长期影响，发现受雾霾影响的个体智力下降、呼吸健康状况较差，并可能导致受教育年限减少。 |
-| [^16] | [Dynamics of market states and risk assessment.](http://arxiv.org/abs/2011.05984) | 该论文研究了金融市场的动态和风险评估，并引入了一种新的市场状态选择标准，强调了状态转移矩阵的重要性。在应用于SP 500和日经225市场的实证研究中发现了有统计学意义的结果。这种方法对于理解市场状态和风险评估非常有价值。 |
-| [^17] | [Endogenous structural transformation in economic development.](http://arxiv.org/abs/2011.03695) | 本文扩展了Xing（2023abcd）的追赶型经济体最优增长模型，从生产函数转换到经济结构转换，并通过内生结构转型和有效资源分配来解释一个国家如何发展其经济。 |
+| [^13] | [An Intraday GARCH Model for Discrete Price Changes and Irregularly Spaced Observations.](http://arxiv.org/abs/2211.12376) | 这篇论文提出了一种新的适用于高频价格的日内GARCH模型，该模型考虑了不规则时间间隔观测、同时交易、价格离散性和市场微观结构噪声。通过使用平滑样条捕捉交易持续时间与价格波动性之间的关系，并且使用零膨胀Skellam分布的得分驱动框架，该模型可以很好地拟合数据，并且可以用于测量每日实现波动性。 |
+| [^14] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
+| [^15] | [Time-varying Cost of Distancing: Distancing Fatigue and Lockdowns.](http://arxiv.org/abs/2206.03847) | 这项研究通过研究一个具有时间变化的社交距离成本的模型，探索了社交距离疲劳和封锁对流行病传播的影响。研究发现，社交距离成本的陡增是产生第二波流行病的必要条件，而社交距离疲劳无法足够快地增加成本。然而，突变的公共政策可以引发第二波流行病。研究还提供了关于成本变化的最大限度和严格封锁措施对流行病传播的副作用的数值分析。 |
+| [^16] | [The Long-Term Effects of Early-Life Pollution Exposure: Evidence from the London Smog.](http://arxiv.org/abs/2202.11785) | 本文研究了早期污染暴露对个体的长期影响，发现受雾霾影响的个体智力下降、呼吸健康状况较差，并可能导致受教育年限减少。 |
+| [^17] | [Dynamics of market states and risk assessment.](http://arxiv.org/abs/2011.05984) | 该论文研究了金融市场的动态和风险评估，并引入了一种新的市场状态选择标准，强调了状态转移矩阵的重要性。在应用于SP 500和日经225市场的实证研究中发现了有统计学意义的结果。这种方法对于理解市场状态和风险评估非常有价值。 |
+| [^18] | [Endogenous structural transformation in economic development.](http://arxiv.org/abs/2011.03695) | 本文扩展了Xing（2023abcd）的追赶型经济体最优增长模型，从生产函数转换到经济结构转换，并通过内生结构转型和有效资源分配来解释一个国家如何发展其经济。 |
 
 # 详细
 
@@ -190,7 +191,21 @@
 
     In this paper, we deal with an axiomatic approach to default risk. We introduce the notion of a default risk measure, which generalizes the classical probability of default (PD), and allows to incorporate model risk in various forms. We discuss different properties and representations of default risk measures via monetary risk measures, families of related tail risk measures, and Choquet capacities. In a second step, we turn our focus on default risk measures, which are given as worst-case PDs and distorted PDs. The latter are frequently used in order to take into account model risk for the computation of capital requirements through risk-weighted assets (RWAs), as demanded by the Capital Requirement Regulation (CRR). In this context, we discuss the impact of different default risk measures and margins of conservatism on the amount of risk-weighted assets.
     
-[^13]: 实现基于分层深度学习的多层次拍卖数据模拟方法
+[^13]: 一种适用于离散价格变动和不规则时间间隔观测的日内GARCH模型
+
+    An Intraday GARCH Model for Discrete Price Changes and Irregularly Spaced Observations. (arXiv:2211.12376v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2211.12376](http://arxiv.org/abs/2211.12376)
+
+    这篇论文提出了一种新的适用于高频价格的日内GARCH模型，该模型考虑了不规则时间间隔观测、同时交易、价格离散性和市场微观结构噪声。通过使用平滑样条捕捉交易持续时间与价格波动性之间的关系，并且使用零膨胀Skellam分布的得分驱动框架，该模型可以很好地拟合数据，并且可以用于测量每日实现波动性。
+
+    
+
+    我们提出了一种新颖的基于观测的高频价格模型。我们考虑了不规则时间间隔观测、同时交易、价格离散性和市场微观结构噪声。使用平滑样条捕捉交易持续时间与价格波动性之间的关系，以及交易持续时间和价格波动性的日内模式。动态模型基于具有时间变化波动性的零膨胀Skellam分布的得分驱动框架。通过包括移动平均分量来滤除市场微观结构噪声。该模型采用最大似然方法进行估计。在对IBM股票的实证研究中，我们证明了该模型对数据拟合较好。除了对日内波动性建模外，它还可以用于测量每日实现波动性。
+
+    We develop a novel observation-driven model for high-frequency prices. We account for irregularly spaced observations, simultaneous transactions, discreteness of prices, and market microstructure noise. The relation between trade durations and price volatility, as well as intraday patterns of trade durations and price volatility, is captured using smoothing splines. The dynamic model is based on the zero-inflated Skellam distribution with time-varying volatility in a score-driven framework. Market microstructure noise is filtered by including a moving average component. The model is estimated by the maximum likelihood method. In an empirical study of the IBM stock, we demonstrate that the model provides a good fit to the data. Besides modeling intraday volatility, it can also be used to measure daily realized volatility.
+    
+[^14]: 实现基于分层深度学习的多层次拍卖数据模拟方法
 
     Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data. (arXiv:2207.12255v2 [econ.GN] UPDATED)
 
@@ -204,7 +219,7 @@
 
     We present a deep learning solution to address the challenges of simulating realistic synthetic first-price sealed-bid auction data. The complexities encountered in this type of auction data include high-cardinality discrete feature spaces and a multilevel structure arising from multiple bids associated with a single auction instance. Our methodology combines deep generative modeling (DGM) with an artificial learner that predicts the conditional bid distribution based on auction characteristics, contributing to advancements in simulation-based research. This approach lays the groundwork for creating realistic auction environments suitable for agent-based learning and modeling applications. Our contribution is twofold: we introduce a comprehensive methodology for simulating multilevel discrete auction data, and we underscore the potential of DGM as a powerful instrument for refining simulation techniques and fostering the development of economic models grounded in generative AI.
     
-[^14]: 时间变化的社交距离成本：社交距离疲劳和封锁
+[^15]: 时间变化的社交距离成本：社交距离疲劳和封锁
 
     Time-varying Cost of Distancing: Distancing Fatigue and Lockdowns. (arXiv:2206.03847v2 [econ.GN] UPDATED)
 
@@ -218,7 +233,7 @@
 
     We study a behavioral SIR model with time-varying costs of distancing. The two main causes of the variation in the cost of distancing we explore are distancing fatigue and public policies (lockdowns). We show that for a second wave of an epidemic to arise, a steep increase in distancing cost is necessary. Distancing fatigue cannot increase the distancing cost sufficiently fast to create a second wave. However, public policies that discontinuously affect the distancing cost can create a second wave. With that in mind, we characterize the largest change in the distancing cost (due to, for example, lifting a public policy) that will not cause a second wave. Finally, we provide a numerical analysis of public policies under distancing fatigue and show that a strict lockdown at the beginning of an epidemic (as, for example, recently in China) can lead to unintended adverse consequences. When the policy is lifted the disease spreads very fast due to the accumulated distancing fatigue of the i
     
-[^15]: 早期污染暴露的长期影响：来自伦敦雾霾的证据
+[^16]: 早期污染暴露的长期影响：来自伦敦雾霾的证据
 
     The Long-Term Effects of Early-Life Pollution Exposure: Evidence from the London Smog. (arXiv:2202.11785v2 [econ.GN] UPDATED)
 
@@ -232,7 +247,7 @@
 
     This paper uses a large UK cohort to investigate the impact of early-life pollution exposure on individuals' human capital and health outcomes in older age. We compare individuals who were exposed to the London smog in December 1952 whilst in utero or in infancy to those born after the smog and those born at the same time but in unaffected areas. We find that those exposed to the smog have substantially lower fluid intelligence and worse respiratory health, with some evidence of a reduction in years of schooling.
     
-[^16]: 市场状态动态和风险评估
+[^17]: 市场状态动态和风险评估
 
     Dynamics of market states and risk assessment. (arXiv:2011.05984v2 [q-fin.ST] UPDATED)
 
@@ -246,7 +261,7 @@
 
     Previous research explored various conditions of financial markets based on the similarity of correlation structures and classified as market states. We introduce modifications to previous selection criteria for these market states, mainly due to increased attention to the transition matrix between the states. Clustering and thus market states are fixed by the optimization of two parameters -- number of clusters and noise suppression, but in similar conditions, we give preference to the clustering which avoids large jumps in the transition matrix. We found statistically significant results applying this model to the SP 500 and Nikkei 225 markets for the pre-COVID-19 pandemic era (2006-2019). Retaining the epoch length of 20 trading days but reducing the shift of the epoch to a single trading day we are led to the concept of a trajectory of the market in the space of correlation matrices. We may visualize these states after dimensional scaling to two or three dimensions. This approach, 
     
-[^17]: 经济发展中的内生结构转型
+[^18]: 经济发展中的内生结构转型
 
     Endogenous structural transformation in economic development. (arXiv:2011.03695v3 [econ.TH] UPDATED)
 
