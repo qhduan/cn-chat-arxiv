@@ -1,0 +1,12 @@
+{
+    "title": "Epps Effect and the Signature of Short-Term Momentum Traders. (arXiv:2309.06711v1 [q-fin.MF])",
+    "abstract": "It is a well-documented fact that the correlation function of the returns on two \"related\" assets is generally increasing as a function of the horizon $h$ of these returns. This phenomenon, termed the Epps Effect, holds true in a wide variety of markets, and there is a large body of literature devoted to its theoretical justification. Our focus here is to describe and understand a deviation to the Epps effect, observed in the context of the foreign exchange and cryptocurrency markets. Specifically, we document a sharp local maximum of the cross-correlation function of returns on the Euro EUR/USD and Bitcoin BTC/USD pairs as a function of $h$. Our claim is that this anomaly reveals the activity of short-term momentum traders.",
+    "link": "http://arxiv.org/abs/2309.06711",
+    "context": "Title: Epps Effect and the Signature of Short-Term Momentum Traders. (arXiv:2309.06711v1 [q-fin.MF])\nAbstract: It is a well-documented fact that the correlation function of the returns on two \"related\" assets is generally increasing as a function of the horizon $h$ of these returns. This phenomenon, termed the Epps Effect, holds true in a wide variety of markets, and there is a large body of literature devoted to its theoretical justification. Our focus here is to describe and understand a deviation to the Epps effect, observed in the context of the foreign exchange and cryptocurrency markets. Specifically, we document a sharp local maximum of the cross-correlation function of returns on the Euro EUR/USD and Bitcoin BTC/USD pairs as a function of $h$. Our claim is that this anomaly reveals the activity of short-term momentum traders.",
+    "path": "papers/23/09/2309.06711.json",
+    "total_tokens": 786,
+    "translated_title": "Epps效应和短期动量交易者的特征",
+    "translated_abstract": "众所周知，关于两个“相关”资产的收益率相关函数通常随着这些收益率的时间跨度$h$的增加而增加。这种现象被称为Epps效应，在各种市场中都存在，并且有大量的文献致力于理论上的解释。本文的重点是描述和理解Epps效应的偏离，该偏离在外汇和加密货币市场的背景下观察到。具体而言，我们记录了欧元EUR/USD和比特币BTC/USD的收益率交叉相关函数在$h$的函数中出现尖锐的局部最大值。我们的观点是，这种异常揭示了短期动量交易者的活动。",
+    "tldr": "本文描述了Epps效应的偏离现象，在外汇和加密货币市场观察到了欧元和比特币收益率交叉相关函数在一定时间跨度上出现尖锐的局部最大值，揭示了短期动量交易者的活动。",
+    "en_tdlr": "This paper describes a deviation from the Epps Effect, where a sharp local maximum of the cross-correlation function of returns on Euro and Bitcoin pairs is observed in certain time periods, revealing the activity of short-term momentum traders in foreign exchange and cryptocurrency markets."
+}

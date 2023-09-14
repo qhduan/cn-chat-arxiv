@@ -1,0 +1,11 @@
+{
+    "title": "Do Generative Large Language Models need billions of parameters?. (arXiv:2309.06589v1 [cs.CL])",
+    "abstract": "This paper presents novel systems and methodologies for the development of efficient large language models (LLMs). It explores the trade-offs between model size, performance, and computational resources, with the aim of maximizing the efficiency of these AI systems. The research explores novel methods that allow different parts of the model to share parameters, reducing the total number of unique parameters required. This approach ensures that the model remains compact without sacrificing its ability to learn and represent complex language structures. This study provides valuable insights and tools for creating more efficient and effective LLMs, contributing to a more sustainable and accessible future for AI language modeling.",
+    "link": "http://arxiv.org/abs/2309.06589",
+    "context": "Title: Do Generative Large Language Models need billions of parameters?. (arXiv:2309.06589v1 [cs.CL])\nAbstract: This paper presents novel systems and methodologies for the development of efficient large language models (LLMs). It explores the trade-offs between model size, performance, and computational resources, with the aim of maximizing the efficiency of these AI systems. The research explores novel methods that allow different parts of the model to share parameters, reducing the total number of unique parameters required. This approach ensures that the model remains compact without sacrificing its ability to learn and represent complex language structures. This study provides valuable insights and tools for creating more efficient and effective LLMs, contributing to a more sustainable and accessible future for AI language modeling.",
+    "path": "papers/23/09/2309.06589.json",
+    "total_tokens": 741,
+    "translated_title": "生成大语言模型是否需要数十亿个参数？",
+    "translated_abstract": "本文提出了用于开发高效大语言模型(LLMs)的新系统和方法。它探讨了模型大小、性能和计算资源之间的权衡，旨在最大化这些人工智能系统的效率。研究探索了允许模型的不同部分共享参数的新方法，从而减少所需的独立参数总数。这种方法确保了模型既紧凑又不损失学习和表示复杂语言结构的能力。本研究为创建更高效、更有效的LLMs提供了宝贵的见解和工具，为AI语言建模的可持续和可访问的未来做出了贡献。",
+    "tldr": "本文研究了生成大语言模型的规模、性能和计算资源之间的权衡，并提出了新方法来减少参数数量，从而创建更高效、紧凑的模型，为AI语言建模的可持续和可访问的未来做出了贡献。"
+}

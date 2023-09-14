@@ -1,0 +1,11 @@
+{
+    "title": "Unsupervised Learning of Nanoindentation Data to Infer Microstructural Details of Complex Materials. (arXiv:2309.06613v1 [cs.LG])",
+    "abstract": "In this study, Cu-Cr composites were studied by nanoindentation. Arrays of indents were placed over large areas of the samples resulting in datasets consisting of several hundred measurements of Young's modulus and hardness at varying indentation depths. The unsupervised learning technique, Gaussian mixture model, was employed to analyze the data, which helped to determine the number of \"mechanical phases\" and the respective mechanical properties. Additionally, a cross-validation approach was introduced to infer whether the data quantity was adequate and to suggest the amount of data required for reliable predictions -- one of the often encountered but difficult to resolve issues in machine learning of materials science problems.",
+    "link": "http://arxiv.org/abs/2309.06613",
+    "context": "Title: Unsupervised Learning of Nanoindentation Data to Infer Microstructural Details of Complex Materials. (arXiv:2309.06613v1 [cs.LG])\nAbstract: In this study, Cu-Cr composites were studied by nanoindentation. Arrays of indents were placed over large areas of the samples resulting in datasets consisting of several hundred measurements of Young's modulus and hardness at varying indentation depths. The unsupervised learning technique, Gaussian mixture model, was employed to analyze the data, which helped to determine the number of \"mechanical phases\" and the respective mechanical properties. Additionally, a cross-validation approach was introduced to infer whether the data quantity was adequate and to suggest the amount of data required for reliable predictions -- one of the often encountered but difficult to resolve issues in machine learning of materials science problems.",
+    "path": "papers/23/09/2309.06613.json",
+    "total_tokens": 769,
+    "translated_title": "通过无监督学习推断复杂材料的微观结构细节的纳米压痕数据",
+    "translated_abstract": "本研究使用纳米压痕研究了Cu-Cr复合材料。样品上放置了大面积的压痕数组，产生了包含数百个在压痕深度变化时Young模量和硬度的测量值的数据集。采用无监督学习技术，高斯混合模型进行数据分析，帮助确定了“力学相”的数量及其相应的力学性质。此外，引入了交叉验证方法，推断数据数量是否足够，并建议可靠预测所需的数据量 - 这是材料科学机器学习中经常遇到但难以解决的问题之一。",
+    "tldr": "本研究使用无监督学习分析了Cu-Cr复合材料的纳米压痕数据，推断了材料的微观结构细节和力学性质，并引入了交叉验证方法解决了数据数量和可靠预测的问题。"
+}

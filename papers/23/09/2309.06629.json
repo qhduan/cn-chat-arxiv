@@ -1,0 +1,12 @@
+{
+    "title": "The Relational Bottleneck as an Inductive Bias for Efficient Abstraction. (arXiv:2309.06629v1 [cs.AI])",
+    "abstract": "A central challenge for cognitive science is to explain how abstract concepts are acquired from limited experience. This effort has often been framed in terms of a dichotomy between empiricist and nativist approaches, most recently embodied by debates concerning deep neural networks and symbolic cognitive models. Here, we highlight a recently emerging line of work that suggests a novel reconciliation of these approaches, by exploiting an inductive bias that we term the relational bottleneck. We review a family of models that employ this approach to induce abstractions in a data-efficient manner, emphasizing their potential as candidate models for the acquisition of abstract concepts in the human mind and brain.",
+    "link": "http://arxiv.org/abs/2309.06629",
+    "context": "Title: The Relational Bottleneck as an Inductive Bias for Efficient Abstraction. (arXiv:2309.06629v1 [cs.AI])\nAbstract: A central challenge for cognitive science is to explain how abstract concepts are acquired from limited experience. This effort has often been framed in terms of a dichotomy between empiricist and nativist approaches, most recently embodied by debates concerning deep neural networks and symbolic cognitive models. Here, we highlight a recently emerging line of work that suggests a novel reconciliation of these approaches, by exploiting an inductive bias that we term the relational bottleneck. We review a family of models that employ this approach to induce abstractions in a data-efficient manner, emphasizing their potential as candidate models for the acquisition of abstract concepts in the human mind and brain.",
+    "path": "papers/23/09/2309.06629.json",
+    "total_tokens": 759,
+    "translated_title": "作为有效抽象的归纳偏好的关系瓶颈",
+    "translated_abstract": "认知科学的一个核心挑战是解释如何从有限经验中获取抽象概念。这一努力常常被描述为经验主义和天赋主义方法之间的二分法，最近主要体现在有关深度神经网络和符号认知模型的争论中。在这里，我们强调了一种最近兴起的工作线路，该线路通过利用我们称之为关系瓶颈的归纳偏好，提出了这些方法的一种新的调和方式。我们回顾了一系列采用这种方法在数据有效的方式下诱导出抽象的模型，强调了它们作为人类思维和大脑中抽象概念习得的候选模型的潜力。",
+    "tldr": "本文介绍了一种新的归纳偏好方法——关系瓶颈，用于有效地诱导抽象概念的模型，强调了其在人类思维和大脑中抽象概念习得中的潜力。",
+    "en_tdlr": "This paper introduces a novel inductive bias called the relational bottleneck for inducing abstractions in a data-efficient manner, highlighting its potential as a candidate model for the acquisition of abstract concepts in the human mind and brain."
+}

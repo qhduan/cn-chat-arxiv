@@ -1,0 +1,12 @@
+{
+    "title": "Narrative as a Dynamical System. (arXiv:2309.06600v1 [cs.CL])",
+    "abstract": "There is increasing evidence that human activity in general, and narrative in particular, can be treated as a dynamical system in the physics sense; a system whose evolution is described by an action integral, such that the average of all possible paths from point A to point B is given by the extremum of the action. We create by construction three such paths by averaging about 500 different narratives, and we show that the average path is consistent with an action principle.",
+    "link": "http://arxiv.org/abs/2309.06600",
+    "context": "Title: Narrative as a Dynamical System. (arXiv:2309.06600v1 [cs.CL])\nAbstract: There is increasing evidence that human activity in general, and narrative in particular, can be treated as a dynamical system in the physics sense; a system whose evolution is described by an action integral, such that the average of all possible paths from point A to point B is given by the extremum of the action. We create by construction three such paths by averaging about 500 different narratives, and we show that the average path is consistent with an action principle.",
+    "path": "papers/23/09/2309.06600.json",
+    "total_tokens": 556,
+    "translated_title": "叙事作为一个动力系统",
+    "translated_abstract": "越来越多的证据表明，人类活动的全过程以及叙事可以被视为物理意义上的动力系统；一个由行动积分描述其演化的系统，使得从A点到B点的所有可能路径的平均值由行动的极大值给出。我们通过平均约500个不同的叙事构建了三条这样的路径，并且我们展示了平均路径与行动原理一致。",
+    "tldr": "叙事可以被视为一个动力系统，其演化可以用一个行动积分来描述，并且平均路径与行动原理一致。",
+    "en_tdlr": "Narrative can be treated as a dynamical system where its evolution is described by an action integral, and the average path is consistent with an action principle."
+}

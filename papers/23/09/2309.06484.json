@@ -1,0 +1,12 @@
+{
+    "title": "Learning topological operations on meshes with application to block decomposition of polygons. (arXiv:2309.06484v1 [cs.CG])",
+    "abstract": "We present a learning based framework for mesh quality improvement on unstructured triangular and quadrilateral meshes. Our model learns to improve mesh quality according to a prescribed objective function purely via self-play reinforcement learning with no prior heuristics. The actions performed on the mesh are standard local and global element operations. The goal is to minimize the deviation of the node degrees from their ideal values, which in the case of interior vertices leads to a minimization of irregular nodes.",
+    "link": "http://arxiv.org/abs/2309.06484",
+    "context": "Title: Learning topological operations on meshes with application to block decomposition of polygons. (arXiv:2309.06484v1 [cs.CG])\nAbstract: We present a learning based framework for mesh quality improvement on unstructured triangular and quadrilateral meshes. Our model learns to improve mesh quality according to a prescribed objective function purely via self-play reinforcement learning with no prior heuristics. The actions performed on the mesh are standard local and global element operations. The goal is to minimize the deviation of the node degrees from their ideal values, which in the case of interior vertices leads to a minimization of irregular nodes.",
+    "path": "papers/23/09/2309.06484.json",
+    "total_tokens": 647,
+    "translated_title": "学习在网格上的拓扑操作及其在多边形区块分解中的应用",
+    "translated_abstract": "我们提出了一个基于学习的框架，用于改善非结构化三角形和四边形网格的质量。我们的模型通过自主对弈强化学习来学习改善网格质量，没有先验的启发函数。网格上进行的操作是标准的局部和全局元素操作。目标是最小化节点度数与理想值之间的偏差，在内部节点的情况下，可以最小化不规则节点。",
+    "tldr": "本文介绍了一种学习基于框架，用于改善非结构化网格的质量，通过自主对弈强化学习来学习减小节点度数与理想值之间的差异，从而达到减少不规则节点的目标。",
+    "en_tdlr": "This paper presents a learning-based framework for improving the quality of unstructured meshes by using self-play reinforcement learning to minimize the deviation of node degrees from their ideal values, resulting in a reduction of irregular nodes."
+}

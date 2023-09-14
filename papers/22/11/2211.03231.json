@@ -1,0 +1,12 @@
+{
+    "title": "A Spectral Analysis of Graph Neural Networks on Dense and Sparse Graphs. (arXiv:2211.03231v3 [cs.SI] UPDATED)",
+    "abstract": "In this work we propose a random graph model that can produce graphs at different levels of sparsity. We analyze how sparsity affects the graph spectra, and thus the performance of graph neural networks (GNNs) in node classification on dense and sparse graphs. We compare GNNs with spectral methods known to provide consistent estimators for community detection on dense graphs, a closely related task. We show that GNNs can outperform spectral methods on sparse graphs, and illustrate these results with numerical examples on both synthetic and real graphs.",
+    "link": "http://arxiv.org/abs/2211.03231",
+    "context": "Title: A Spectral Analysis of Graph Neural Networks on Dense and Sparse Graphs. (arXiv:2211.03231v3 [cs.SI] UPDATED)\nAbstract: In this work we propose a random graph model that can produce graphs at different levels of sparsity. We analyze how sparsity affects the graph spectra, and thus the performance of graph neural networks (GNNs) in node classification on dense and sparse graphs. We compare GNNs with spectral methods known to provide consistent estimators for community detection on dense graphs, a closely related task. We show that GNNs can outperform spectral methods on sparse graphs, and illustrate these results with numerical examples on both synthetic and real graphs.",
+    "path": "papers/22/11/2211.03231.json",
+    "total_tokens": 644,
+    "translated_title": "图神经网络在稠密和稀疏图上的谱分析",
+    "translated_abstract": "本研究提出了一个可以产生不同稀疏程度的随机图模型。我们分析了稀疏性对图谱的影响，以及这对于节点分类任务中图神经网络（GNN）的性能影响在稠密和稀疏图上的表现。我们将GNN与已知在稠密图上提供一致估计的谱方法进行比较，这也是一个相关的任务。我们表明，GNN在稀疏图上可以超越谱方法的性能，并通过合成和真实图的数值示例来说明这些结果。",
+    "tldr": "本研究通过分析稀疏性对图谱的影响，发现图神经网络在稀疏图上能够优于谱方法的性能。",
+    "en_tdlr": "This study analyzes the impact of sparsity on graph spectra and demonstrates that graph neural networks can outperform spectral methods on sparse graphs."
+}

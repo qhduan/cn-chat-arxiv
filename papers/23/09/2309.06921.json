@@ -1,0 +1,11 @@
+{
+    "title": "Investigating the Impact of Action Representations in Policy Gradient Algorithms. (arXiv:2309.06921v1 [cs.LG])",
+    "abstract": "Reinforcement learning~(RL) is a versatile framework for learning to solve complex real-world tasks. However, influences on the learning performance of RL algorithms are often poorly understood in practice. We discuss different analysis techniques and assess their effectiveness for investigating the impact of action representations in RL. Our experiments demonstrate that the action representation can significantly influence the learning performance on popular RL benchmark tasks. The analysis results indicate that some of the performance differences can be attributed to changes in the complexity of the optimization landscape. Finally, we discuss open challenges of analysis techniques for RL algorithms.",
+    "link": "http://arxiv.org/abs/2309.06921",
+    "context": "Title: Investigating the Impact of Action Representations in Policy Gradient Algorithms. (arXiv:2309.06921v1 [cs.LG])\nAbstract: Reinforcement learning~(RL) is a versatile framework for learning to solve complex real-world tasks. However, influences on the learning performance of RL algorithms are often poorly understood in practice. We discuss different analysis techniques and assess their effectiveness for investigating the impact of action representations in RL. Our experiments demonstrate that the action representation can significantly influence the learning performance on popular RL benchmark tasks. The analysis results indicate that some of the performance differences can be attributed to changes in the complexity of the optimization landscape. Finally, we discuss open challenges of analysis techniques for RL algorithms.",
+    "path": "papers/23/09/2309.06921.json",
+    "total_tokens": 724,
+    "translated_title": "探究行动表示在策略梯度算法中的影响",
+    "translated_abstract": "强化学习（RL）是一个适用于学习解决复杂实际任务的多功能框架。然而，在实践中，对RL算法学习性能的影响往往不太清楚。我们讨论了不同的分析技术，并评估它们在调查RL中行动表示的影响方面的有效性。我们的实验证明，行动表示可以显著影响流行的RL基准任务的学习性能。分析结果表明，一些性能差异可以归因于优化问题空间的复杂性的改变。最后，我们讨论了RL算法分析技术的开放挑战。",
+    "tldr": "本论文讨论了强化学习中行动表示的影响，并通过实验发现行动表示对流行的强化学习基准任务的学习性能有着显著影响，其中性能差异可归因于优化问题空间的复杂性的变化。"
+}

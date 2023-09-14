@@ -1,0 +1,11 @@
+{
+    "title": "Quantum Data Center: Perspectives. (arXiv:2309.06641v1 [quant-ph])",
+    "abstract": "A quantum version of data centers might be significant in the quantum era. In this paper, we introduce Quantum Data Center (QDC), a quantum version of existing classical data centers, with a specific emphasis on combining Quantum Random Access Memory (QRAM) and quantum networks. We argue that QDC will provide significant benefits to customers in terms of efficiency, security, and precision, and will be helpful for quantum computing, communication, and sensing. We investigate potential scientific and business opportunities along this novel research direction through hardware realization and possible specific applications. We show the possible impacts of QDCs in business and science, especially the machine learning and big data industries.",
+    "link": "http://arxiv.org/abs/2309.06641",
+    "context": "Title: Quantum Data Center: Perspectives. (arXiv:2309.06641v1 [quant-ph])\nAbstract: A quantum version of data centers might be significant in the quantum era. In this paper, we introduce Quantum Data Center (QDC), a quantum version of existing classical data centers, with a specific emphasis on combining Quantum Random Access Memory (QRAM) and quantum networks. We argue that QDC will provide significant benefits to customers in terms of efficiency, security, and precision, and will be helpful for quantum computing, communication, and sensing. We investigate potential scientific and business opportunities along this novel research direction through hardware realization and possible specific applications. We show the possible impacts of QDCs in business and science, especially the machine learning and big data industries.",
+    "path": "papers/23/09/2309.06641.json",
+    "total_tokens": 892,
+    "translated_title": "量子数据中心: 展望",
+    "translated_abstract": "量子版本的数据中心可能在量子时代具有重要意义。本文介绍了量子数据中心(QDC)，这是现有经典数据中心的量子版本，特别强调了量子随机访问存储器(QRAM)和量子网络的结合。我们认为QDC将为客户提供在效率、安全性和精度方面的显著好处，并对量子计算、通信和传感方面具有帮助。通过硬件实现和可能的特定应用，我们研究了这一新颖研究方向的潜在科学和商业机会。我们展示了QDC在商业和科学领域的潜在影响，尤其是机器学习和大数据行业。",
+    "tldr": "本文提出了量子数据中心(QDC)的概念，它是现有经典数据中心的量子版本，通过结合量子随机访问存储器(QRAM)和量子网络，QDC可以提供客户在效率、安全性和精度方面的显著优势，对于量子计算、通信和传感领域具有重要意义。该研究探讨了硬件实现和特定应用方面的潜在科学和商业机会，并展示了QDC在机器学习和大数据行业等领域的潜在影响。"
+}

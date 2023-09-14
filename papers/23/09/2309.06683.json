@@ -1,0 +1,12 @@
+{
+    "title": "Federated PAC-Bayesian Learning on Non-IID data. (arXiv:2309.06683v1 [cs.LG])",
+    "abstract": "Existing research has either adapted the Probably Approximately Correct (PAC) Bayesian framework for federated learning (FL) or used information-theoretic PAC-Bayesian bounds while introducing their theorems, but few considering the non-IID challenges in FL. Our work presents the first non-vacuous federated PAC-Bayesian bound tailored for non-IID local data. This bound assumes unique prior knowledge for each client and variable aggregation weights. We also introduce an objective function and an innovative Gibbs-based algorithm for the optimization of the derived bound. The results are validated on real-world datasets.",
+    "link": "http://arxiv.org/abs/2309.06683",
+    "context": "Title: Federated PAC-Bayesian Learning on Non-IID data. (arXiv:2309.06683v1 [cs.LG])\nAbstract: Existing research has either adapted the Probably Approximately Correct (PAC) Bayesian framework for federated learning (FL) or used information-theoretic PAC-Bayesian bounds while introducing their theorems, but few considering the non-IID challenges in FL. Our work presents the first non-vacuous federated PAC-Bayesian bound tailored for non-IID local data. This bound assumes unique prior knowledge for each client and variable aggregation weights. We also introduce an objective function and an innovative Gibbs-based algorithm for the optimization of the derived bound. The results are validated on real-world datasets.",
+    "path": "papers/23/09/2309.06683.json",
+    "total_tokens": 756,
+    "translated_title": "基于非独立同分布数据的联邦PAC-Bayesian学习",
+    "translated_abstract": "现有的研究要么将Probably Approximately Correct（PAC）贝叶斯框架应用于联邦学习（FL），要么在引入定理时使用信息论的PAC-Bayesian界限，但很少考虑FL中的非独立同分布挑战。我们的工作提出了第一个适用于非独立同分布本地数据的真实联邦PAC-Bayesian界限。该界限假设每个客户端具有唯一的先验知识和可变聚合权重。我们还引入了一种目标函数和一种创新的基于Gibbs的算法来优化得到的界限。结果在真实世界数据集上进行了验证。",
+    "tldr": "本文提出了一种非独立同分布的联邦PAC-Bayesian界限，通过考虑每个客户端的唯一先验知识和可变聚合权重，以及引入目标函数和创新的基于Gibbs的算法，解决了联邦学习中的非独立同分布挑战。",
+    "en_tdlr": "This paper introduces a non-IID federated PAC-Bayesian bound by considering unique prior knowledge for each client and variable aggregation weights, and introduces an objective function and innovative Gibbs-based algorithm to address non-IID challenges in federated learning."
+}

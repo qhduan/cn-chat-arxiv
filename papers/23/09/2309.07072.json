@@ -1,0 +1,11 @@
+{
+    "title": "The Boundaries of Verifiable Accuracy, Robustness, and Generalisation in Deep Learning. (arXiv:2309.07072v1 [cs.LG])",
+    "abstract": "In this work, we assess the theoretical limitations of determining guaranteed stability and accuracy of neural networks in classification tasks. We consider classical distribution-agnostic framework and algorithms minimising empirical risks and potentially subjected to some weights regularisation. We show that there is a large family of tasks for which computing and verifying ideal stable and accurate neural networks in the above settings is extremely challenging, if at all possible, even when such ideal solutions exist within the given class of neural architectures.",
+    "link": "http://arxiv.org/abs/2309.07072",
+    "context": "Title: The Boundaries of Verifiable Accuracy, Robustness, and Generalisation in Deep Learning. (arXiv:2309.07072v1 [cs.LG])\nAbstract: In this work, we assess the theoretical limitations of determining guaranteed stability and accuracy of neural networks in classification tasks. We consider classical distribution-agnostic framework and algorithms minimising empirical risks and potentially subjected to some weights regularisation. We show that there is a large family of tasks for which computing and verifying ideal stable and accurate neural networks in the above settings is extremely challenging, if at all possible, even when such ideal solutions exist within the given class of neural architectures.",
+    "path": "papers/23/09/2309.07072.json",
+    "total_tokens": 689,
+    "translated_title": "在深度学习中的可验证准确性、鲁棒性和泛化的边界",
+    "translated_abstract": "在这项工作中，我们评估了在分类任务中确定神经网络稳定性和准确性的理论限制。我们考虑了经典的分布无关框架和最小化经验风险的算法，可能还受到一些权重正则化的影响。我们证明，对于很多任务来说，在上述设置下计算和验证理想的稳定和准确的神经网络是极具挑战性的，甚至可能是不可能的，即使在给定的神经架构类别中存在这样的理想解决方案。",
+    "tldr": "本文评估了在分类任务中确定神经网络稳定性和准确性的理论限制，发现在一定的神经架构类别中，计算和验证理想的稳定和准确的神经网络是极具挑战性的甚至可能是不可能的。"
+}

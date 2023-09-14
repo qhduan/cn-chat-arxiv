@@ -1,0 +1,11 @@
+{
+    "title": "Synthetic Text Generation using Hypergraph Representations. (arXiv:2309.06550v1 [cs.CL])",
+    "abstract": "Generating synthetic variants of a document is often posed as text-to-text transformation. We propose an alternate LLM based method that first decomposes a document into semantic frames and then generates text using this interim sparse format. The frames are modeled using a hypergraph, which allows perturbing the frame contents in a principled manner. Specifically, new hyperedges are mined through topological analysis and complex polyadic relationships including hierarchy and temporal dynamics are accommodated. We show that our solution generates documents that are diverse, coherent and vary in style, sentiment, format, composition and facts.",
+    "link": "http://arxiv.org/abs/2309.06550",
+    "context": "Title: Synthetic Text Generation using Hypergraph Representations. (arXiv:2309.06550v1 [cs.CL])\nAbstract: Generating synthetic variants of a document is often posed as text-to-text transformation. We propose an alternate LLM based method that first decomposes a document into semantic frames and then generates text using this interim sparse format. The frames are modeled using a hypergraph, which allows perturbing the frame contents in a principled manner. Specifically, new hyperedges are mined through topological analysis and complex polyadic relationships including hierarchy and temporal dynamics are accommodated. We show that our solution generates documents that are diverse, coherent and vary in style, sentiment, format, composition and facts.",
+    "path": "papers/23/09/2309.06550.json",
+    "total_tokens": 799,
+    "translated_title": "使用超图表示生成合成文本",
+    "translated_abstract": "生成文档的合成变体通常被视为文本到文本的转换。我们提出了一种基于LLM的替代方法，该方法首先将文档分解为语义框架，然后使用此中间稀疏格式生成文本。这些框架使用超图进行建模，可以以恰当的方式扰动框架内容。具体而言，通过拓扑分析挖掘新的超边，包括层次结构和时间动态的复杂多元关系。我们展示了我们的解决方案生成的文档在样式、情感、格式、构成和事实上是多样的、连贯的和变化的。",
+    "tldr": "本论文提出了一种使用超图表示生成合成文本的方法，首先将文档分解为语义框架，然后使用此中间稀疏格式生成文本。通过扰动框架内容，包括拓扑分析挖掘新的超边以及包含层次结构和时间动态的复杂多元关系，我们的解决方案生成的文档在样式、情感、格式、构成和事实上是多样的、连贯的和变化的。"
+}

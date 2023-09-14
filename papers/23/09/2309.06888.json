@@ -1,0 +1,11 @@
+{
+    "title": "OWL Reasoners still useable in 2023. (arXiv:2309.06888v1 [cs.AI])",
+    "abstract": "In a systematic literature and software review over 100 OWL reasoners/systems were analyzed to see if they would still be usable in 2023. This has never been done in this capacity. OWL reasoners still play an important role in knowledge organisation and management, but the last comprehensive surveys/studies are more than 8 years old. The result of this work is a comprehensive list of 95 standalone OWL reasoners and systems using an OWL reasoner. For each item, information on project pages, source code repositories and related documentation was gathered. The raw research data is provided in a Github repository for anyone to use.",
+    "link": "http://arxiv.org/abs/2309.06888",
+    "context": "Title: OWL Reasoners still useable in 2023. (arXiv:2309.06888v1 [cs.AI])\nAbstract: In a systematic literature and software review over 100 OWL reasoners/systems were analyzed to see if they would still be usable in 2023. This has never been done in this capacity. OWL reasoners still play an important role in knowledge organisation and management, but the last comprehensive surveys/studies are more than 8 years old. The result of this work is a comprehensive list of 95 standalone OWL reasoners and systems using an OWL reasoner. For each item, information on project pages, source code repositories and related documentation was gathered. The raw research data is provided in a Github repository for anyone to use.",
+    "path": "papers/23/09/2309.06888.json",
+    "total_tokens": 664,
+    "translated_title": "2023年仍可使用的OWL推理器",
+    "translated_abstract": "在一项系统文献和软件综述中，分析了超过100个OWL推理器/系统，以确定它们是否在2023年仍然可用。这在这个范围内是首次完成的。OWL推理器在知识组织和管理中仍发挥着重要作用，但最近的综合调查/研究已有超过8年的时间。该研究的结果是一个包含95个独立的OWL推理器和使用OWL推理器的系统的全面列表。针对每个项目，收集了项目页面、源代码库和相关文档的信息。原始研究数据在Github仓库中提供，供任何人使用。",
+    "tldr": "该研究系统综述了100多个OWL推理器/系统，并分析了它们在2023年是否仍可用。研究结果提供了一个包含95个独立OWL推理器和使用OWL推理器的系统的全面列表。"
+}

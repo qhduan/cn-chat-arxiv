@@ -1,0 +1,12 @@
+{
+    "title": "A Q-learning Approach for Adherence-Aware Recommendations. (arXiv:2309.06519v1 [cs.LG])",
+    "abstract": "In many real-world scenarios involving high-stakes and safety implications, a human decision-maker (HDM) may receive recommendations from an artificial intelligence while holding the ultimate responsibility of making decisions. In this letter, we develop an \"adherence-aware Q-learning\" algorithm to address this problem. The algorithm learns the \"adherence level\" that captures the frequency with which an HDM follows the recommended actions and derives the best recommendation policy in real time. We prove the convergence of the proposed Q-learning algorithm to the optimal value and evaluate its performance across various scenarios.",
+    "link": "http://arxiv.org/abs/2309.06519",
+    "context": "Title: A Q-learning Approach for Adherence-Aware Recommendations. (arXiv:2309.06519v1 [cs.LG])\nAbstract: In many real-world scenarios involving high-stakes and safety implications, a human decision-maker (HDM) may receive recommendations from an artificial intelligence while holding the ultimate responsibility of making decisions. In this letter, we develop an \"adherence-aware Q-learning\" algorithm to address this problem. The algorithm learns the \"adherence level\" that captures the frequency with which an HDM follows the recommended actions and derives the best recommendation policy in real time. We prove the convergence of the proposed Q-learning algorithm to the optimal value and evaluate its performance across various scenarios.",
+    "path": "papers/23/09/2309.06519.json",
+    "total_tokens": 799,
+    "translated_title": "一种针对依从性感知推荐的Q学习方法",
+    "translated_abstract": "在许多涉及高风险和安全问题的实际场景中，人类决策者（HDM）可能会在担负最终决策责任的同时接收到来自人工智能的推荐。在这封信中，我们开发了一种“依从性感知的Q学习”算法来解决这个问题。该算法学习了“依从水平”，即捕捉HDM遵循推荐行动的频率，并实时推导出最佳推荐策略。我们证明了所提出的Q学习算法收敛到最优值，并评估了它在各种场景中的性能。",
+    "tldr": "本文提出了一种针对依从性推荐的Q学习算法，以解决在高风险场景中人类决策者接受人工智能推荐的问题。算法通过学习“依从水平”来捕捉决策者遵循推荐的频率，并实时生成最佳推荐策略。研究证明该算法可以收敛到最优值，在不同场景下表现良好。",
+    "en_tdlr": "This paper proposes a Q-learning algorithm for adherence-aware recommendations to address the problem of human decision-makers receiving recommendations from artificial intelligence in high-risk scenarios. The algorithm captures the \"adherence level\" by learning the frequency of following recommended actions and generates the best recommendation policy in real time. The research proves the convergence of the algorithm to the optimal value and evaluates its performance across different scenarios."
+}

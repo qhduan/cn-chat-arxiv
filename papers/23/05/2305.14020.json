@@ -1,0 +1,12 @@
+{
+    "title": "Does ChatGPT have Theory of Mind?. (arXiv:2305.14020v2 [cs.CL] UPDATED)",
+    "abstract": "Theory of Mind (ToM) is the ability to understand human thinking and decision-making, an ability that plays a crucial role in social interaction between people, including linguistic communication. This paper investigates to what extent recent Large Language Models in the ChatGPT tradition possess ToM. We posed six well-known problems that address biases in human reasoning and decision making to two versions of ChatGPT and we compared the results under a range of prompting strategies. While the results concerning ChatGPT-3 were somewhat inconclusive, ChatGPT-4 was shown to arrive at the correct answers more often than would be expected based on chance, although correct answers were often arrived at on the basis of false assumptions or invalid reasoning.",
+    "link": "http://arxiv.org/abs/2305.14020",
+    "context": "Title: Does ChatGPT have Theory of Mind?. (arXiv:2305.14020v2 [cs.CL] UPDATED)\nAbstract: Theory of Mind (ToM) is the ability to understand human thinking and decision-making, an ability that plays a crucial role in social interaction between people, including linguistic communication. This paper investigates to what extent recent Large Language Models in the ChatGPT tradition possess ToM. We posed six well-known problems that address biases in human reasoning and decision making to two versions of ChatGPT and we compared the results under a range of prompting strategies. While the results concerning ChatGPT-3 were somewhat inconclusive, ChatGPT-4 was shown to arrive at the correct answers more often than would be expected based on chance, although correct answers were often arrived at on the basis of false assumptions or invalid reasoning.",
+    "path": "papers/23/05/2305.14020.json",
+    "total_tokens": 786,
+    "translated_title": "ChatGPT是否具有心智理论？",
+    "translated_abstract": "心智理论（ToM）是理解人类思维和决策的能力，这种能力在人与人之间的社交互动中起着至关重要的作用，包括语言交流。本文探讨了最近ChatGPT系列中的大型语言模型在多大程度上具备ToM。我们对两个版本的ChatGPT提出了六个经典问题，这些问题涉及人类推理和决策中的偏见，并在多种提示策略下对结果进行了比较。虽然关于ChatGPT-3的结果有些不确定，但ChatGPT-4被证明比预期更经常给出正确答案，尽管正确答案往往是基于错误的假设或无效的推理得出的。",
+    "tldr": "本文研究了ChatGPT在心智理论方面的能力。通过对比不同版本的ChatGPT在几个经典问题上的表现，发现ChatGPT-4比随机答案给出了更多正确答案，尽管这些答案往往基于错误的假设或无效的推理。",
+    "en_tdlr": "This paper investigates the extent to which ChatGPT models possess Theory of Mind (ToM). The results show that ChatGPT-4 is more likely to provide correct answers than expected by chance, although these answers are often based on false assumptions or invalid reasoning."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Simple Analytics of the Government Investment Multiplier. (arXiv:2302.11212v2 [econ.GN] UPDATED)",
+    "abstract": "What are the effects of investing in public infrastructure? We answer this question with a New Keynesian model. We recast the model as a Markov chain and develop a general solution method that nests existing ones inside/outside the zero lower bound as special cases. Our framework delivers a simple expression for the contribution of public infrastructure. We show that it provides a unified framework to study the effects of public investment in three scenarios: $(i)$ normal times $(ii)$ short-lived liquidity trap $(iii)$ long-lived liquidity trap. We find that calibrations commonly used lead to multipliers that diverge with the duration of the trap.",
+    "link": "http://arxiv.org/abs/2302.11212",
+    "context": "Title: Simple Analytics of the Government Investment Multiplier. (arXiv:2302.11212v2 [econ.GN] UPDATED)\nAbstract: What are the effects of investing in public infrastructure? We answer this question with a New Keynesian model. We recast the model as a Markov chain and develop a general solution method that nests existing ones inside/outside the zero lower bound as special cases. Our framework delivers a simple expression for the contribution of public infrastructure. We show that it provides a unified framework to study the effects of public investment in three scenarios: $(i)$ normal times $(ii)$ short-lived liquidity trap $(iii)$ long-lived liquidity trap. We find that calibrations commonly used lead to multipliers that diverge with the duration of the trap.",
+    "path": "papers/23/02/2302.11212.json",
+    "total_tokens": 795,
+    "translated_title": "政府投资乘数的简单分析",
+    "translated_abstract": "投资公共基础设施有什么影响？我们用新凯恩斯模型回答了这个问题。我们将模型重构为一个马尔可夫链，并开发了一个通用解决方法，它将现有方法嵌套在零界下限内/外作为特例。我们的框架提供了一个简单的公共基础设施贡献表达式。我们展示了它提供了一个统一的框架来研究公共投资在三种情况下的影响：$(i)$ 正常时期 $(ii)$ 短期流动性陷阱 $(iii)$ 长期流动性陷阱。我们发现常用的标定方法会导致随着陷阱持续时间的增加而发散的乘数。",
+    "tldr": "这篇论文使用新凯恩斯模型，通过将模型重构为马尔可夫链并开发一个通用解决方法，分析了在投资公共基础设施的情况下的影响，并找出了常用标定方法会导致乘数随着陷阱持续时间的增加而发散的结论。"
+}

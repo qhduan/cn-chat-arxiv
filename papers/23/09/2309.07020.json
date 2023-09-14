@@ -1,0 +1,11 @@
+{
+    "title": "Beyond original Research Articles Categorization via NLP. (arXiv:2309.07020v1 [cs.CL])",
+    "abstract": "This work proposes a novel approach to text categorization -- for unknown categories -- in the context of scientific literature, using Natural Language Processing techniques. The study leverages the power of pre-trained language models, specifically SciBERT, to extract meaningful representations of abstracts from the ArXiv dataset. Text categorization is performed using the K-Means algorithm, and the optimal number of clusters is determined based on the Silhouette score. The results demonstrate that the proposed approach captures subject information more effectively than the traditional arXiv labeling system, leading to improved text categorization. The approach offers potential for better navigation and recommendation systems in the rapidly growing landscape of scientific research literature.",
+    "link": "http://arxiv.org/abs/2309.07020",
+    "context": "Title: Beyond original Research Articles Categorization via NLP. (arXiv:2309.07020v1 [cs.CL])\nAbstract: This work proposes a novel approach to text categorization -- for unknown categories -- in the context of scientific literature, using Natural Language Processing techniques. The study leverages the power of pre-trained language models, specifically SciBERT, to extract meaningful representations of abstracts from the ArXiv dataset. Text categorization is performed using the K-Means algorithm, and the optimal number of clusters is determined based on the Silhouette score. The results demonstrate that the proposed approach captures subject information more effectively than the traditional arXiv labeling system, leading to improved text categorization. The approach offers potential for better navigation and recommendation systems in the rapidly growing landscape of scientific research literature.",
+    "path": "papers/23/09/2309.07020.json",
+    "total_tokens": 718,
+    "translated_title": "通过自然语言处理超越原始研究文章分类",
+    "translated_abstract": "本研究提出了一种新的文本分类方法，用于科学文献中未知类别的分类，利用自然语言处理技术。该研究利用预训练的语言模型SciBERT，从ArXiv数据集中提取摘要的有意义的表示。文本分类使用K-Means算法完成，并根据轮廓系数评分确定最佳聚类数。结果表明，所提出的方法比传统的arXiv标签系统更有效地捕捉到主题信息，从而实现了改进的文本分类。这种方法在科学研究文献的快速增长环境中，有望提供更好的导航和推荐系统。",
+    "tldr": "本研究利用预训练的语言模型提出了一种新的文本分类方法，通过自然语言处理技术，能够更有效地捕捉科学文献中的主题信息，以改进文本分类。"
+}

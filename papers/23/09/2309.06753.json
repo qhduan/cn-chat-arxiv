@@ -1,0 +1,12 @@
+{
+    "title": "A Reexamination of Proof Approaches for the Impossibility Theorem. (arXiv:2309.06753v1 [econ.TH])",
+    "abstract": "The decisive-set and pivotal-voter approaches have been used for proving Arrow's impossibility theorem. Proofs by these approaches consider only subsets of all possible social welfare functions and examine parts of the domain of these functions. Hence, both ideas are not effective to prove the theorem. This study presents a proof using a proof calculus in logic. A valid deductive inference between the premises, the axioms and conditions of the theorem, and the conclusion, dictatorship, guarantees that every profile of all possible social welfare functions is examined, thereby the theorem is established.",
+    "link": "http://arxiv.org/abs/2309.06753",
+    "context": "Title: A Reexamination of Proof Approaches for the Impossibility Theorem. (arXiv:2309.06753v1 [econ.TH])\nAbstract: The decisive-set and pivotal-voter approaches have been used for proving Arrow's impossibility theorem. Proofs by these approaches consider only subsets of all possible social welfare functions and examine parts of the domain of these functions. Hence, both ideas are not effective to prove the theorem. This study presents a proof using a proof calculus in logic. A valid deductive inference between the premises, the axioms and conditions of the theorem, and the conclusion, dictatorship, guarantees that every profile of all possible social welfare functions is examined, thereby the theorem is established.",
+    "path": "papers/23/09/2309.06753.json",
+    "total_tokens": 653,
+    "translated_title": "重新审视不可能性定理的证明方法",
+    "translated_abstract": "决定性集合和关键选民方法已被用于证明阿罗不可能性定理。这些方法的证明仅考虑了所有可能社会福利函数的子集，并审查了这些函数域的部分。因此，这两个思路都不能有效证明该定理。本研究提出了一种基于逻辑的证明演算。在前提、公理和定理的条件之间进行有效的演绎推理，并得出独裁的结论，保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。",
+    "tldr": "本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。",
+    "en_tdlr": "This study presents a proof approach for the impossibility theorem using proof calculus in logic, guaranteeing that every possible profile of social welfare functions is examined and the theorem is established."
+}

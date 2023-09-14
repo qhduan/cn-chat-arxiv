@@ -1,0 +1,12 @@
+{
+    "title": "Data centers with quantum random access memory and quantum networks. (arXiv:2207.14336v3 [quant-ph] UPDATED)",
+    "abstract": "In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.",
+    "link": "http://arxiv.org/abs/2207.14336",
+    "context": "Title: Data centers with quantum random access memory and quantum networks. (arXiv:2207.14336v3 [quant-ph] UPDATED)\nAbstract: In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.",
+    "path": "papers/22/07/2207.14336.json",
+    "total_tokens": 736,
+    "translated_title": "具有量子随机访问存储器和量子网络的数据中心",
+    "translated_abstract": "本文提出了量子数据中心（QDC）的架构，将量子随机访问存储器（QRAM）和量子网络结合起来。我们给出了QDC的精确定义，并讨论了它的可能实现和扩展。我们讨论了QDC在量子计算、量子通信和量子感知中的应用，重点关注了用于$T$门资源的QDC、用于多方私密量子通信的QDC以及通过数据压缩进行分布式感知的QDC。我们展示了QDC将作为数据中心的未来版本，提供高效、私密和快速的服务。",
+    "tldr": "本文提出了将量子随机访问存储器（QRAM）和量子网络结合起来的量子数据中心（QDC）架构，并讨论了其在量子计算、量子通信和量子感知方面的应用。这将为未来的数据中心提供高效、私密和快速的服务。",
+    "en_tdlr": "This paper proposes a Quantum Data Center (QDC) architecture that combines Quantum Random Access Memory (QRAM) and quantum networks. It discusses the applications of QDC in quantum computation, quantum communication, and quantum sensing, emphasizing its efficiency, privacy, and speed as a future version of data centers."
+}
