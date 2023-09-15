@@ -1,0 +1,12 @@
+{
+    "title": "Learning from Auxiliary Sources in Argumentative Revision Classification. (arXiv:2309.07334v1 [cs.CL])",
+    "abstract": "We develop models to classify desirable reasoning revisions in argumentative writing. We explore two approaches -- multi-task learning and transfer learning -- to take advantage of auxiliary sources of revision data for similar tasks. Results of intrinsic and extrinsic evaluations show that both approaches can indeed improve classifier performance over baselines. While multi-task learning shows that training on different sources of data at the same time may improve performance, transfer-learning better represents the relationship between the data.",
+    "link": "http://arxiv.org/abs/2309.07334",
+    "context": "Title: Learning from Auxiliary Sources in Argumentative Revision Classification. (arXiv:2309.07334v1 [cs.CL])\nAbstract: We develop models to classify desirable reasoning revisions in argumentative writing. We explore two approaches -- multi-task learning and transfer learning -- to take advantage of auxiliary sources of revision data for similar tasks. Results of intrinsic and extrinsic evaluations show that both approaches can indeed improve classifier performance over baselines. While multi-task learning shows that training on different sources of data at the same time may improve performance, transfer-learning better represents the relationship between the data.",
+    "path": "papers/23/09/2309.07334.json",
+    "total_tokens": 683,
+    "translated_title": "从辅助来源中学习在辩论修订分类中的应用",
+    "translated_abstract": "我们开发了模型来分类辩论写作中希望改进的推理修订。我们探索了两种方法 - 多任务学习和迁移学习 - 利用类似任务的修订数据的辅助来源。内在和外在评估结果表明，这两种方法确实可以提高分类器性能，超过基线。尽管多任务学习显示同时在不同的数据来源上进行训练可能会提高性能，迁移学习更好地表示数据之间的关系。",
+    "tldr": "该论文主要研究了在辩论写作中分类理想的推理修改的模型，并提出了多任务学习和迁移学习两种方法来利用辅助修订数据的来源。研究结果表明，这两种方法可以显著改善分类器的性能，并且迁移学习可以更好地表示数据之间的关系。",
+    "en_tdlr": "This paper investigates models for classifying desirable reasoning revisions in argumentative writing and proposes two approaches, multi-task learning and transfer learning, to leverage auxiliary sources of revision data. The results show that both approaches can significantly improve classifier performance, with transfer learning better capturing relationships between data."
+}

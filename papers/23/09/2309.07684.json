@@ -1,0 +1,12 @@
+{
+    "title": "deepFDEnet: A Novel Neural Network Architecture for Solving Fractional Differential Equations. (arXiv:2309.07684v1 [cs.LG])",
+    "abstract": "The primary goal of this research is to propose a novel architecture for a deep neural network that can solve fractional differential equations accurately. A Gaussian integration rule and a $L_1$ discretization technique are used in the proposed design. In each equation, a deep neural network is used to approximate the unknown function. Three forms of fractional differential equations have been examined to highlight the method's versatility: a fractional ordinary differential equation, a fractional order integrodifferential equation, and a fractional order partial differential equation. The results show that the proposed architecture solves different forms of fractional differential equations with excellent precision.",
+    "link": "http://arxiv.org/abs/2309.07684",
+    "context": "Title: deepFDEnet: A Novel Neural Network Architecture for Solving Fractional Differential Equations. (arXiv:2309.07684v1 [cs.LG])\nAbstract: The primary goal of this research is to propose a novel architecture for a deep neural network that can solve fractional differential equations accurately. A Gaussian integration rule and a $L_1$ discretization technique are used in the proposed design. In each equation, a deep neural network is used to approximate the unknown function. Three forms of fractional differential equations have been examined to highlight the method's versatility: a fractional ordinary differential equation, a fractional order integrodifferential equation, and a fractional order partial differential equation. The results show that the proposed architecture solves different forms of fractional differential equations with excellent precision.",
+    "path": "papers/23/09/2309.07684.json",
+    "total_tokens": 681,
+    "translated_title": "deepFDEnet: 一个用于求解分数阶微分方程的新型神经网络架构",
+    "translated_abstract": "本研究的主要目标是提出一种新颖的深度神经网络架构，能够准确地求解分数阶微分方程。该设计使用了高斯积分规则和$L_1$离散化技术。在每个方程中，使用深度神经网络近似未知函数。研究还对三个形式的分数阶微分方程进行了检验，以突出该方法的多样性：分数阶常微分方程、分数阶积分微分方程和分数阶偏微分方程。结果表明，所提出的架构能够以极高的精度解决不同形式的分数阶微分方程。",
+    "tldr": "deepFDEnet是一种新型神经网络架构，能够准确求解各种形式的分数阶微分方程。",
+    "en_tdlr": "deepFDEnet is a novel neural network architecture that accurately solves various forms of fractional differential equations."
+}

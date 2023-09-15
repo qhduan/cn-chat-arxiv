@@ -1,0 +1,12 @@
+{
+    "title": "Rank-Preserving Multidimensional Mechanisms. (arXiv:2209.10137v3 [econ.TH] UPDATED)",
+    "abstract": "We show that the mechanism-design problem for a monopolist selling multiple, heterogeneous objects to a buyer with ex ante symmetric and additive values is equivalent to the mechanism-design problem for a monopolist selling identical objects to a buyer with decreasing marginal values. Symmetric and incentive-compatible mechanisms for heterogeneous objects are rank preserving, i.e., higher-valued objects are assigned with a higher probability. In the identical-objects model, every mechanism is rank preserving. This facilitates the equivalence, which we use in three applications.",
+    "link": "http://arxiv.org/abs/2209.10137",
+    "context": "Title: Rank-Preserving Multidimensional Mechanisms. (arXiv:2209.10137v3 [econ.TH] UPDATED)\nAbstract: We show that the mechanism-design problem for a monopolist selling multiple, heterogeneous objects to a buyer with ex ante symmetric and additive values is equivalent to the mechanism-design problem for a monopolist selling identical objects to a buyer with decreasing marginal values. Symmetric and incentive-compatible mechanisms for heterogeneous objects are rank preserving, i.e., higher-valued objects are assigned with a higher probability. In the identical-objects model, every mechanism is rank preserving. This facilitates the equivalence, which we use in three applications.",
+    "path": "papers/22/09/2209.10137.json",
+    "total_tokens": 655,
+    "translated_title": "保持排名的多维度机制",
+    "translated_abstract": "我们展示了对于一个垄断者向一个具有前期对称和可加值的买家出售多个异构物品的机制设计问题与对于一个向一个具有递减边际值的买家出售相同物品的垄断者的机制设计问题是等价的。对于异构物品，对称和激励相容的机制是保持排名的，即高价值物品具有更高的分配概率。在相同物品模型中，每个机制都是保持排名的。这促进了我们在三个应用中的等价性的使用。",
+    "tldr": "这篇论文展示了在多个异构物品的机制设计问题与在相同物品的机制设计问题之间的等价性，同时提出了保持排名的对称和激励相容机制，并在三个应用中进行了使用。",
+    "en_tdlr": "This paper shows the equivalence between the mechanism-design problem for selling multiple heterogeneous objects and the problem for selling identical objects, and introduces rank-preserving symmetric and incentive-compatible mechanisms. Three applications are presented."
+}

@@ -2,187 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Weak Markovian Approximations of Rough Heston.](http://arxiv.org/abs/2309.07023) | 本论文研究了解决粗糙Heston模型中缺乏Markov性和半鞅特性的挑战的方法，通过使用Markov逼近并对逼近误差进行界定，得到了具有收敛速度超多项式的特定Markov逼近，这在欧式期权的支付函数中表现出良好的数值性能。 |
-| [^2] | [Government Investments and Entrepreneurship.](http://arxiv.org/abs/2309.06949) | 本研究通过构建模型表明，吸引高技能移民、降低非正规部门企业的财产价格、税收和罚款等因素对新业务的创造具有正面影响，而不仅仅依赖于政府投资。此外，研究发现政府投资与新业务创造之间的关系是内生确定的，需要进行相应的调整以避免估计结果偏倚和不一致性。 |
-| [^3] | [The Price of Empire: Unrest Location and Sovereign Risk in Tsarist Russia.](http://arxiv.org/abs/2309.06885) | 该论文研究了政治动荡和主权风险对于地理辽阔的国家的影响，并发现在帝国边疆地区发生的动荡更容易增加风险。研究结果对于我们理解当前事件有启示，也提醒着我们在维护国家稳定与吸引外国投资方面所面临的挑战。 |
-| [^4] | [How to foster innovation in the social sciences? Qualitative evidence from focus group workshops at Oxford University.](http://arxiv.org/abs/2309.06875) | 该论文探讨了牛津大学社会科学中的创新挑战和机遇，并提出了促进社会科学创新的潜在解决方案和前进方向。 |
-| [^5] | [Epps Effect and the Signature of Short-Term Momentum Traders.](http://arxiv.org/abs/2309.06711) | 本文描述了Epps效应的偏离现象，在外汇和加密货币市场观察到了欧元和比特币收益率交叉相关函数在一定时间跨度上出现尖锐的局部最大值，揭示了短期动量交易者的活动。 |
-| [^6] | [Media Moments and Corporate Connections: A Deep Learning Approach to Stock Movement Classification.](http://arxiv.org/abs/2309.06559) | 本研究提出了一种深度学习方法，通过结合金融数据、社交媒体和相关股票关系，将社交媒体中的“媒体时刻”纳入股票市场走势预测中。 |
-| [^7] | [Desenvolvimento de modelo para predi\c{c}\~ao de cota\c{c}\~oes de a\c{c}\~ao baseada em an\'alise de sentimentos de tweets.](http://arxiv.org/abs/2309.06538) | 本研究开发了一个基于推特情感分析的股票报价预测模型，通过从Twitter上的帖子中提取情感特征，使用这些特征训练模型，并在实际交易中取得了88.82雷亚尔的净收益。 |
-| [^8] | [Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models.](http://arxiv.org/abs/2307.11137) | 本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。 |
-| [^9] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
-| [^10] | [A Bayesian derivation of the square root law of market impact.](http://arxiv.org/abs/2303.08867) | 本文提出了一个贝叶斯市场预期的简单模型，可以解释金融资产价格对一系列交易的影响，包括交易量与价格波动平方根成正比、小交易量时成线性关系、交易结束后影响衰减回到均衡。平方根影响定律可能来自于对元订单订单流的高估。 |
-| [^11] | [Simple Analytics of the Government Investment Multiplier.](http://arxiv.org/abs/2302.11212) | 这篇论文使用新凯恩斯模型，通过将模型重构为马尔可夫链并开发一个通用解决方法，分析了在投资公共基础设施的情况下的影响，并找出了常用标定方法会导致乘数随着陷阱持续时间的增加而发散的结论。 |
-| [^12] | [Lying Aversion and Vague Communication: An Experimental Study.](http://arxiv.org/abs/2301.00372) | 该研究探讨了避免说谎和模糊沟通的问题，通过实验发现，参与者在关注社会身份的情况下更倾向于使用模糊信息，同时利用不确定性来获益。 |
+| [^1] | [Applying Deep Learning to Calibrate Stochastic Volatility Models.](http://arxiv.org/abs/2309.07843) | 本研究将深度学习技术应用于校准随机波动性模型，通过训练神经网络对基于Heston模型的标的资产进行定价，并且在校准方面取得了快速和准确的结果。 |
+| [^2] | [Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context.](http://arxiv.org/abs/2309.07708) | 本研究通过提出具有市场动态、股票代码和历史状态作为上下文的上下文市场数据集以及使用条件生成对抗网络（GAN）来实现对金融数据生成的控制。 |
+| [^3] | [An empirical study of profit and loss allocations.](http://arxiv.org/abs/2309.07667) | 本研究通过实证研究了利润和损失分配中的三种分解原则，发现一次一个分解会产生无法解释的损失，而顺序更新和平均顺序更新可以完全解释利润和损失，且顺序更新与更新顺序有关。此外，分解原则的结果也受子区间大小的影响。 |
+| [^4] | [Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach.](http://arxiv.org/abs/2309.07664) | 本研究使用审计方法探索了ChatGPT在求职者筛选中的系统偏见，研究发现语言提示和申请者姓名中的种族身份线索会影响ChatGPT的评估。 |
+| [^5] | [Long-Term Mean-Variance Optimization Under Mean-Reverting Equity Returns.](http://arxiv.org/abs/2309.07488) | 本文研究了长期均方差优化在均值回归股票收益下的应用，结果发现如果股票风险溢价缓慢回归，承诺长期确定性投资策略的投资者将实现更好的风险收益平衡。为求解该问题，应用了变分法原理，推导出了描述最优投资策略的欧拉-拉格朗日方程，问题等价于谱问题，可以得到最优策略的显式解。 |
+| [^6] | [Measuring Higher-Order Rationality with Belief Control.](http://arxiv.org/abs/2309.07427) | 本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。 |
+| [^7] | [The Fiscal Cost of Public Debt and Government Spending Shocks.](http://arxiv.org/abs/2309.07371) | 本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。 |
+| [^8] | [The effect of housewife labor on gdp calculations.](http://arxiv.org/abs/2309.07160) | 本研究通过理论分析和经验建模，探讨了家庭主妇劳动对GDP计算的影响。研究发现，人类特征的变化导致了有限理性个体特征的形成，女性更倾向于成为家庭主妇的选择。实证分析揭示了家庭主妇劳动的经济价值。 |
+| [^9] | [Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo.](http://arxiv.org/abs/2305.09166) | 本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。 |
 
 # 详细
 
-[^1]: 弱Markov逼近的粗糙Heston模型
+[^1]: 将深度学习应用于校准随机波动性模型
 
-    Weak Markovian Approximations of Rough Heston. (arXiv:2309.07023v1 [q-fin.CP])
+    Applying Deep Learning to Calibrate Stochastic Volatility Models. (arXiv:2309.07843v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2309.07023](http://arxiv.org/abs/2309.07023)
+    [http://arxiv.org/abs/2309.07843](http://arxiv.org/abs/2309.07843)
 
-    本论文研究了解决粗糙Heston模型中缺乏Markov性和半鞅特性的挑战的方法，通过使用Markov逼近并对逼近误差进行界定，得到了具有收敛速度超多项式的特定Markov逼近，这在欧式期权的支付函数中表现出良好的数值性能。
-
-    
-
-    粗糙Heston模型是近年来在数学金融领域非常流行的模型；然而，其缺乏Markov性和半鞅特性在理论和实践中都带来了重大挑战。解决这个问题的一种方法是使用该模型的Markov逼近。几项先前研究表明，即使附加因素的数量非常低，这些逼近方法也能非常精确。现有的误差分析主要基于强误差，对应于核函数之间的$L^2$距离。在[Abi Jaber和El Euch, SIAM Journal on Financial Mathematics 10(2):309--349, 2019]的早期结果的基础上，我们展示了对于欧式期权的一般类别的支付函数，Markov逼近的弱误差可以通过核逼近的$L^1$误差进行界定。此外，我们给出了收敛速度超多项式的特定Markov逼近，并展示了它们在运算上的数值优势。
-
-    The rough Heston model is a very popular recent model in mathematical finance; however, the lack of Markov and semimartingale properties poses significant challenges in both theory and practice. A way to resolve this problem is to use Markovian approximations of the model. Several previous works have shown that these approximations can be very accurate even when the number of additional factors is very low. Existing error analysis is largely based on the strong error, corresponding to the $L^2$ distance between the kernels. Extending earlier results by [Abi Jaber and El Euch, SIAM Journal on Financial Mathematics 10(2):309--349, 2019], we show that the weak error of the Markovian approximations can be bounded using the $L^1$-error in the kernel approximation for general classes of payoff functions for European style options. Moreover, we give specific Markovian approximations which converge super-polynomially in the number of dimensions, and illustrate their numerical superiority in op
-    
-[^2]: 政府投资与创业
-
-    Government Investments and Entrepreneurship. (arXiv:2309.06949v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.06949](http://arxiv.org/abs/2309.06949)
-
-    本研究通过构建模型表明，吸引高技能移民、降低非正规部门企业的财产价格、税收和罚款等因素对新业务的创造具有正面影响，而不仅仅依赖于政府投资。此外，研究发现政府投资与新业务创造之间的关系是内生确定的，需要进行相应的调整以避免估计结果偏倚和不一致性。
+    本研究将深度学习技术应用于校准随机波动性模型，通过训练神经网络对基于Heston模型的标的资产进行定价，并且在校准方面取得了快速和准确的结果。
 
     
 
-    政府如何吸引企业家及其企业？认为随着政府投资的最佳水平，新业务的创造将增长的观点对决策者有吸引力。与这种积极的方法相反，我们构建了一个模型，其中政府可能采取被动的方法来刺激业务创造。从这个模型的洞察可以得出，新业务的创造取决于除政府投资之外的因素——吸引高技能移民到该地区和降低非正规部门企业的财产价格、税收和罚款等。这些发现表明，企业家是否在该地区产生业务创造不仅取决于政府投资，还取决于地理位置和技能迁移。我们的模型还提供了方法论的含义——政府投资与新业务创造之间的关系是内生确定的，除非进行调整，否则计量估计将存在偏倚和不一致性。
+    随机波动性模型是一种波动率是随机过程的模型，可以捕捉到隐含波动率曲面的大部分基本特征，并提供更真实的波动率笑曲线或偏斜动态。然而，它们存在一个重要问题，即校准时间过长。最近，基于深度学习（DL）技术的替代校准方法已被用于构建快速且准确的校准解决方案。Huge和Savine开发了一种差分深度学习（DDL）方法，该方法在样本中训练了机器学习模型，其中样本不仅包括特征和标签，还包括标签对特征的微分。本研究旨在将DDL技术应用于定价基本欧洲期权（即校准工具），具体而言，是在基于Heston模型的标的资产上定价看涨期权，并使用训练好的网络对模型进行校准。DDL可以实现快速训练和准确定价。训练好的神经网络戏剧性地
 
-    How can governments attract entrepreneurs and their businesses? The view that new business creation grows with the optimal level of government investments remains appealing to policymakers. In contrast with this active approach, we build a model where governments may adopt a passive approach to stimulating business creation. The insights from this model suggest new business creation depends positively on factors beyond government investments--attracting high-skilled migrants to the region and lower property prices, taxes, and fines on firms in the informal sector. These findings suggest whether entrepreneurs generate business creation in the region does not only depend on government investments. It also depends on location and skilled migration. Our model also provides methodological implications--the relationship between government investments and new business creation is endogenously determined, so unless adjustments are made, econometric estimates will be biased and inconsistent. We
+    Stochastic volatility models, where the volatility is a stochastic process, can capture most of the essential stylized facts of implied volatility surfaces and give more realistic dynamics of the volatility smile or skew. However, they come with the significant issue that they take too long to calibrate.  Alternative calibration methods based on Deep Learning (DL) techniques have been recently used to build fast and accurate solutions to the calibration problem. Huge and Savine developed a Differential Deep Learning (DDL) approach, where Machine Learning models are trained on samples of not only features and labels but also differentials of labels to features. The present work aims to apply the DDL technique to price vanilla European options (i.e. the calibration instruments), more specifically, puts when the underlying asset follows a Heston model and then calibrate the model on the trained network. DDL allows for fast training and accurate pricing. The trained neural network dramatic
     
-[^3]: 帝国的代价：沙俄动荡地点与主权风险
+[^2]: 添加语义上下文的控制力量，为金融市场数据生成引入Market-GAN
 
-    The Price of Empire: Unrest Location and Sovereign Risk in Tsarist Russia. (arXiv:2309.06885v1 [econ.GN])
+    Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context. (arXiv:2309.07708v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.06885](http://arxiv.org/abs/2309.06885)
+    [http://arxiv.org/abs/2309.07708](http://arxiv.org/abs/2309.07708)
 
-    该论文研究了政治动荡和主权风险对于地理辽阔的国家的影响，并发现在帝国边疆地区发生的动荡更容易增加风险。研究结果对于我们理解当前事件有启示，也提醒着我们在维护国家稳定与吸引外国投资方面所面临的挑战。
-
-    
-
-    关于政治动荡和主权风险的研究忽视了动荡地点对于地理辽阔的国家主权风险的影响及其机制。在直观上，首都或附近的政治暴力似乎直接威胁到国家偿还债务的能力。然而，远离暴力地点可能会更加严重地影响政府，与抑制叛乱所带来的长期成本有关。我们利用沙俄的案例来评估俄罗斯国土内发生动荡与帝国边疆地区发生动荡时风险效应的差异。我们分析了1820年至1914年间沙俄帝国各地的动荡事件，发现动荡对帝国边疆地区的风险影响更大。与当前事件相呼应，我们发现乌克兰的动荡使风险增加最多。帝国的代价包括了向镇压动荡和获得外国投资者信任的同时维持力量投射的高额成本。
-
-    Research on politically motivated unrest and sovereign risk overlooks whether and how unrest location matters for sovereign risk in geographically extensive states. Intuitively, political violence in the capital or nearby would seem to directly threaten the state's ability to pay its debts. However, it is possible that the effect on a government could be more pronounced the farther away the violence is, connected to the longer-term costs of suppressing rebellion. We use Tsarist Russia to assess these differences in risk effects when unrest occurs in Russian homeland territories versus more remote imperial territories. Our analysis of unrest events across the Russian imperium from 1820 to 1914 suggests that unrest increases risk more in imperial territories. Echoing current events, we find that unrest in Ukraine increases risk most. The price of empire included higher costs in projecting force to repress unrest and retain the confidence of the foreign investors financing those costs.
-    
-[^4]: 如何促进社会科学的创新？牛津大学焦点小组研讨会的定性证据
-
-    How to foster innovation in the social sciences? Qualitative evidence from focus group workshops at Oxford University. (arXiv:2309.06875v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.06875](http://arxiv.org/abs/2309.06875)
-
-    该论文探讨了牛津大学社会科学中的创新挑战和机遇，并提出了促进社会科学创新的潜在解决方案和前进方向。
+    本研究通过提出具有市场动态、股票代码和历史状态作为上下文的上下文市场数据集以及使用条件生成对抗网络（GAN）来实现对金融数据生成的控制。
 
     
 
-    本报告探讨了牛津大学社会科学中创新的挑战和机遇。它总结了与来自大学生态系统的创新专家进行的两次焦点小组研讨会的发现。专家包括成功的社会科学企业家和来自大学的专业服务人员。研讨会关注了与创新活动和商品化有关的四个不同维度。研究结果显示了机构和个人层面上的多个挑战，以及阻碍社会科学创新的社会科学学科特点。在确定这些挑战的基础上，我们提出了在焦点小组讨论中确定的促进社会科学创新的潜在解决方案和前进方向。该报告旨在说明社会科学研究的创新和商业化对研究人员和大学的潜力。
+    金融模拟器在提升预测准确性、管理风险和促进战略金融决策方面发挥着重要作用。尽管已经开发了金融市场模拟方法，但现有的框架常常难以适应专门的模拟上下文。我们将挑战归结为：i）当前的金融数据集不包含上下文标签；ii）当前的技术没有设计用于生成具有上下文控制的金融数据，与其他模态相比，这要求更高的精度；iii）由于金融数据的非平稳、噪声性质，生成与上下文对齐、高保真度的数据存在困难。为了解决这些挑战，我们的贡献是：i）提出了具有市场动态、股票代码和历史状态作为上下文的上下文市场数据集，利用线性回归和动态时间扭曲聚类结合的市场动态建模方法提取市场动态；ii）我们预先准备了Market-GAN模型，该模型通过使用条件生成对抗网络（GAN）的方法以及编码上下文向量的方式来实现对金融数据生成的控制。
 
-    This report addresses challenges and opportunities for innovation in the social sciences at the University of Oxford. It summarises findings from two focus group workshops with innovation experts from the University ecosystem. Experts included successful social science entrepreneurs and professional service staff from the University. The workshops focused on four different dimensions related to innovative activities and commercialisation. The findings show several challenges at the institutional and individual level, together with features of the social scientific discipline that impede more innovation in the social sciences. Based on identifying these challenges, we present potential solutions and ways forward identified in the focus group discussions to foster social science innovation. The report aims to illustrate the potential of innovation and commercialisation of social scientific research for both researchers and the university.
+    Financial simulators play an important role in enhancing forecasting accuracy, managing risks, and fostering strategic financial decision-making. Despite the development of financial market simulation methodologies, existing frameworks often struggle with adapting to specialized simulation context. We pinpoint the challenges as i) current financial datasets do not contain context labels; ii) current techniques are not designed to generate financial data with context as control, which demands greater precision compared to other modalities; iii) the inherent difficulties in generating context-aligned, high-fidelity data given the non-stationary, noisy nature of financial data. To address these challenges, our contributions are: i) we proposed the Contextual Market Dataset with market dynamics, stock ticker, and history state as context, leveraging a market dynamics modeling method that combines linear regression and Dynamic Time Warping clustering to extract market dynamics; ii) we prese
     
-[^5]: Epps效应和短期动量交易者的特征
+[^3]: 利润和损失分配的实证研究
 
-    Epps Effect and the Signature of Short-Term Momentum Traders. (arXiv:2309.06711v1 [q-fin.MF])
+    An empirical study of profit and loss allocations. (arXiv:2309.07667v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2309.06711](http://arxiv.org/abs/2309.06711)
+    [http://arxiv.org/abs/2309.07667](http://arxiv.org/abs/2309.07667)
 
-    本文描述了Epps效应的偏离现象，在外汇和加密货币市场观察到了欧元和比特币收益率交叉相关函数在一定时间跨度上出现尖锐的局部最大值，揭示了短期动量交易者的活动。
-
-    
-
-    众所周知，关于两个“相关”资产的收益率相关函数通常随着这些收益率的时间跨度$h$的增加而增加。这种现象被称为Epps效应，在各种市场中都存在，并且有大量的文献致力于理论上的解释。本文的重点是描述和理解Epps效应的偏离，该偏离在外汇和加密货币市场的背景下观察到。具体而言，我们记录了欧元EUR/USD和比特币BTC/USD的收益率交叉相关函数在$h$的函数中出现尖锐的局部最大值。我们的观点是，这种异常揭示了短期动量交易者的活动。
-
-    It is a well-documented fact that the correlation function of the returns on two "related" assets is generally increasing as a function of the horizon $h$ of these returns. This phenomenon, termed the Epps Effect, holds true in a wide variety of markets, and there is a large body of literature devoted to its theoretical justification. Our focus here is to describe and understand a deviation to the Epps effect, observed in the context of the foreign exchange and cryptocurrency markets. Specifically, we document a sharp local maximum of the cross-correlation function of returns on the Euro EUR/USD and Bitcoin BTC/USD pairs as a function of $h$. Our claim is that this anomaly reveals the activity of short-term momentum traders.
-    
-[^6]: 媒体时刻和公司联系：一种用于股票走势分类的深度学习方法
-
-    Media Moments and Corporate Connections: A Deep Learning Approach to Stock Movement Classification. (arXiv:2309.06559v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2309.06559](http://arxiv.org/abs/2309.06559)
-
-    本研究提出了一种深度学习方法，通过结合金融数据、社交媒体和相关股票关系，将社交媒体中的“媒体时刻”纳入股票市场走势预测中。
+    本研究通过实证研究了利润和损失分配中的三种分解原则，发现一次一个分解会产生无法解释的损失，而顺序更新和平均顺序更新可以完全解释利润和损失，且顺序更新与更新顺序有关。此外，分解原则的结果也受子区间大小的影响。
 
     
 
-    金融行业在风险建模和利润生成方面面临巨大挑战。这些实体与股票走势的复杂预测密切相关。股票走势受到诸多因素的影响，包括公司历史、业绩和经济行业联系。然而，还有其他传统上没有包括的因素，例如社交媒体和股票之间的相关性。Reddit、Facebook和X（Twitter）等社交平台为利基社区在金融资产上分享情绪创造了机会。通过整合来自社交媒体的这些意见，包括帖子、采访和新闻更新，我们提出了一种更全面的方法，将这些“媒体时刻”纳入股票市场走势预测中。我们介绍了一种结合金融数据、社交媒体和相关股票关系的方法。
+    每个业务年度的投资利润和损失（p＆l）被分解为不同的风险因素（如利率、信用利差、外汇汇率等）是一项监管要求的任务，例如 Solvency 2。目前有三种常见的分解原则：一次一个（OAT）、顺序更新（SU）和平均顺序更新（ASU）分解。SU和ASU分解完全解释了p＆l。然而，OAT分解会产生一些无法解释的p＆l。SU分解取决于风险因素的顺序或标签。这三种分解可以使用年度、季度、月度或日常数据在不同的子区间定义。在本研究中，我们经验性地量化了OAT分解的无法解释的p＆l，SU分解对更新顺序的依赖以及三种分解原则在子区间大小上的依赖程度。
 
-    The financial industry poses great challenges with risk modeling and profit generation. These entities are intricately tied to the sophisticated prediction of stock movements. A stock forecaster must untangle the randomness and ever-changing behaviors of the stock market. Stock movements are influenced by a myriad of factors, including company history, performance, and economic-industry connections. However, there are other factors that aren't traditionally included, such as social media and correlations between stocks. Social platforms such as Reddit, Facebook, and X (Twitter) create opportunities for niche communities to share their sentiment on financial assets. By aggregating these opinions from social media in various mediums such as posts, interviews, and news updates, we propose a more holistic approach to include these "media moments" within stock market movement prediction. We introduce a method that combines financial data, social media, and correlated stock relationships via
+    The decomposition of the investment profit and loss (p&l) for each business year into different risk factors (e.g., interest rates, credit spreads, foreign exchange rate etc.) is a task that is regulatory required, e.g., by Solvency 2. Three different decomposition principles are prevalent: one-at-a-time (OAT), sequential updating (SU) and average sequential updating (ASU) decompositions. The SU and the ASU decompositions explain the p&l fully. However, the OAT decomposition generates some unexplained p&l. The SU decomposition depends on the order or labeling of the risk factors. The three decompositions can be defined on different sub-intervals using annually, quarterly, monthly or daily data. In this research, we empirically quantify: the unexplained p\&l of the OAT decomposition; the dependence of the SU decomposition on the update order; and how much the three decomposition principles depend on the size of the sub-intervals.
     
-[^7]: 基于推特情感分析的股票报价预测模型的开发
+[^4]: 计算机说“不行”: 使用审计方法探索ChatGPT中的系统招聘偏见
 
-    Desenvolvimento de modelo para predi\c{c}\~ao de cota\c{c}\~oes de a\c{c}\~ao baseada em an\'alise de sentimentos de tweets. (arXiv:2309.06538v1 [q-fin.ST])
+    Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach. (arXiv:2309.07664v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.06538](http://arxiv.org/abs/2309.06538)
+    [http://arxiv.org/abs/2309.07664](http://arxiv.org/abs/2309.07664)
 
-    本研究开发了一个基于推特情感分析的股票报价预测模型，通过从Twitter上的帖子中提取情感特征，使用这些特征训练模型，并在实际交易中取得了88.82雷亚尔的净收益。
-
-    
-
-    自动化交易这样的研究领域中，训练机器学习模型来预测股票市场的股价是一个活跃的研究领域。虽然大部分的研究工作是基于过去的股票价格训练神经网络，但在本研究中，我们使用iFeel 2.0平台从微博平台Twitter上获得的提及巴西石油公司的帖子中提取了19个情感特征。然后，我们使用这些特征来训练XBoot模型，以预测该公司未来的股票价格。随后，我们基于模型的输出模拟了巴西石油公司股票的交易，并与100个随机模型的平均表现相比，在250天的时间段内获得了88.82雷亚尔（净）的收益。
-
-    Training machine learning models for predicting stock market share prices is an active area of research since the automatization of trading such papers was available in real time. While most of the work in this field of research is done by training Neural networks based on past prices of stock shares, in this work, we use iFeel 2.0 platform to extract 19 sentiment features from posts obtained from microblog platform Twitter that mention the company Petrobras. Then, we used those features to train XBoot models to predict future stock prices for the referred company. Later, we simulated the trading of Petrobras' shares based on the model's outputs and determined the gain of R$88,82 (net) in a 250-day period when compared to a 100 random models' average performance.
-    
-[^8]: 模型与锡人之间——使用大语言模型研究AI对齐中的委托-代理问题的行为经济学研究
-
-    Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models. (arXiv:2307.11137v1 [cs.AI])
-
-    [http://arxiv.org/abs/2307.11137](http://arxiv.org/abs/2307.11137)
-
-    本研究基于行为经济学角度，对使用大语言模型进行AI对齐中的委托-代理问题进行研究，发现现实世界中的AI安全问题不仅涉及设计者与代理之间的冲突，还涉及到多个代理之间的信息不对称与效用函数之间的错位。
+    本研究使用审计方法探索了ChatGPT在求职者筛选中的系统偏见，研究发现语言提示和申请者姓名中的种族身份线索会影响ChatGPT的评估。
 
     
 
-    AI对齐通常被描述为一个设计者与人工智能代理之间的相互作用，设计者试图确保代理的行为与其目的一致，并且风险仅仅是由于设计者意图中的效用函数与代理的内部效用函数之间的意外错位而导致的冲突。然而，随着使用大语言模型（LLM）实例化的代理的出现，这种描述不能捕捉到AI安全的核心方面，因为现实世界中设计者与代理之间并没有一对一的对应关系，而且许多代理，无论是人工智能还是人类，都具有多样的价值观。因此，AI安全具有经济方面的问题，委托-代理问题可能会出现。
+    大型语言模型在优化职业活动方面具有重要潜力，如简化人员选拔程序。然而，人们担心这些模型会延续预训练数据中嵌入的系统偏见。这项研究探讨了ChatGPT在求职者筛选方面是否表现出种族或性别偏见，ChatGPT是一个能够生成类似人类回应的聊天机器人。通过使用一种通信审计方法，我模拟了一个简历筛选任务，指示聊天机器人评价虚构的申请者简历，这些简历只有名字不同，以暗示种族和性别身份。通过比较阿拉伯、亚洲、美国黑人、中非、荷兰、东欧、西班牙裔、土耳其和美国白人男性和女性申请者的评分，我发现种族和性别身份会影响ChatGPT的评估。种族偏见似乎部分源于提示语言，部分源于申请者姓名中的种族身份线索。
 
-    AI Alignment is often presented as an interaction between a single designer and an artificial agent in which the designer attempts to ensure the agent's behavior is consistent with its purpose, and risks arise solely because of conflicts caused by inadvertent misalignment between the utility function intended by the designer and the resulting internal utility function of the agent. With the advent of agents instantiated with large-language models (LLMs), which are typically pre-trained, we argue this does not capture the essential aspects of AI safety because in the real world there is not a one-to-one correspondence between designer and agent, and the many agents, both artificial and human, have heterogeneous values. Therefore, there is an economic aspect to AI safety and the principal-agent problem is likely to arise. In a principal-agent problem conflict arises because of information asymmetry together with inherent misalignment between the utility of the agent and its principal, an
+    Large language models offer significant potential for optimising professional activities, such as streamlining personnel selection procedures. However, concerns exist about these models perpetuating systemic biases embedded into their pre-training data. This study explores whether ChatGPT, a chatbot producing human-like responses to language tasks, displays ethnic or gender bias in job applicant screening. Using a correspondence audit approach, I simulated a CV screening task in which I instructed the chatbot to rate fictitious applicant profiles only differing in names, signalling ethnic and gender identity. Comparing ratings of Arab, Asian, Black American, Central African, Dutch, Eastern European, Hispanic, Turkish, and White American male and female applicants, I show that ethnic and gender identity influence ChatGPT's evaluations. The ethnic bias appears to arise partly from the prompts' language and partly from ethnic identity cues in applicants' names. Although ChatGPT produces n
     
-[^9]: 互动一致性纠缠理论
+[^5]: 长期均方差优化在均值回归股票收益下的应用
 
-    A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
+    Long-Term Mean-Variance Optimization Under Mean-Reverting Equity Returns. (arXiv:2309.07488v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2306.15554](http://arxiv.org/abs/2306.15554)
+    [http://arxiv.org/abs/2309.07488](http://arxiv.org/abs/2309.07488)
 
-    本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。
-
-    
-
-    复杂适应性学习是智能的，并在生命和非生命复杂系统中发挥作用。一个复杂系统由许多相互作用的个体或单元组成，它们在相互作用中显示出隐藏的模式，并广泛出现在几乎所有学科中，从自然科学到社会科学。这激发了科学家们探索复杂系统形成机制的兴趣。然而，这是非常具有挑战性的。本文从交易量-价格概率波动方程中提取了复杂系统中的互动一致性的普遍规律或法则，并将其应用于复杂量子系统。它假设粒子可以在加强坐标中具有复杂适应性学习或智能样性质，并将金融市场交易者的复杂适应性学习延伸到量子物理中的非生命粒子。在这些假设的基础上，作者提出了一种互动一致性纠缠理论，用于解释智能样粒子的行为。
-
-    Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
-    
-[^10]: 市场影响的平方根定律的贝叶斯推导
-
-    A Bayesian derivation of the square root law of market impact. (arXiv:2303.08867v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2303.08867](http://arxiv.org/abs/2303.08867)
-
-    本文提出了一个贝叶斯市场预期的简单模型，可以解释金融资产价格对一系列交易的影响，包括交易量与价格波动平方根成正比、小交易量时成线性关系、交易结束后影响衰减回到均衡。平方根影响定律可能来自于对元订单订单流的高估。
+    本文研究了长期均方差优化在均值回归股票收益下的应用，结果发现如果股票风险溢价缓慢回归，承诺长期确定性投资策略的投资者将实现更好的风险收益平衡。为求解该问题，应用了变分法原理，推导出了描述最优投资策略的欧拉-拉格朗日方程，问题等价于谱问题，可以得到最优策略的显式解。
 
     
 
-    我们展示了一个令人惊讶的简单模型的完全贝叶斯市场预期，可以恢复对金融资产价格的一系列交易影响的主要经验发现，其中包括（i）预期价格变动随总交易量呈现出平方根行为，（ii）对于小交易量，它交叉到线性区域，以及（iii）在交易序列结束后回到均衡的影响衰减。这种推导的简单性进一步支持了它的鲁棒性和普适性，并揭示了它的起源。特别地，它表明平方根影响定律源于对来自元订单的订单流的高估。
+    成为长期投资者已经成为支持投资更大风险资产的一个论据，但是尽管直观上具有吸引力，很少有人确切说明为什么资本市场会为长期投资者提供比其他投资者更好的机会。本文显示，如果实际上股票风险溢价是缓慢回归的，那么承诺长期确定性投资策略的投资者在均值方差优化中将实现更好的风险收益平衡比短期投资期限的投资者。众所周知，均值方差优化问题不能通过动态规划来求解。相反，应用变分法原理推导出了描述最优投资策略的欧拉-拉格朗日方程。主要结果是优化问题等价于谱问题，通过它可以得到最优投资策略的显式解。
 
-    We show that the main empirical findings on the impact of a sequence of transactions on prices of financial assets can be recovered within a surprisingly simple model with fully Bayesian market expectations. This includes {\em i)} the square-root behavior of the expected price variation with the total volume traded, {\em ii)} it's crossover to a linear regime for small volumes, and {\em iii)} the impact decay back to equilibrium, after the sequence of trades is over. The simplicity of this derivation lends further support to its robustness and universality, and it sheds light on its origin. In particular, it suggests that the square-root impact law originates from the over-estimation of order flows originating from meta-orders.
+    Being a long-term investor has become an argument by itself to sustain larger allocations to risky assets, but - although intuitively appealing - it is rarely stated exactly why capital markets would provide a better opportunity set to investors with long investment horizons than to other investors. In this paper, it is shown that if in fact the equity risk-premium is slowly mean-reverting then an investor committing to a long-term deterministic investment strategy would realize a better risk-return trade-off in a mean-variance optimization than investors with shorter investment horizons. It is well known that the problem of mean-variance optimization cannot be solved by dynamic programming. Instead, the principle of Calculus of Variations is applied to derive an Euler-Lagrange equation characterizing the optimal investment strategy. It is a main result that the optimization problem is equivalent to a spectral problem by which explicit solutions to the optimal investment strategy can b
     
-[^11]: 政府投资乘数的简单分析
+[^6]: 用信念控制来衡量高阶理性
 
-    Simple Analytics of the Government Investment Multiplier. (arXiv:2302.11212v2 [econ.GN] UPDATED)
+    Measuring Higher-Order Rationality with Belief Control. (arXiv:2309.07427v1 [econ.GN])
 
-    [http://arxiv.org/abs/2302.11212](http://arxiv.org/abs/2302.11212)
+    [http://arxiv.org/abs/2309.07427](http://arxiv.org/abs/2309.07427)
 
-    这篇论文使用新凯恩斯模型，通过将模型重构为马尔可夫链并开发一个通用解决方法，分析了在投资公共基础设施的情况下的影响，并找出了常用标定方法会导致乘数随着陷阱持续时间的增加而发散的结论。
-
-    
-
-    投资公共基础设施有什么影响？我们用新凯恩斯模型回答了这个问题。我们将模型重构为一个马尔可夫链，并开发了一个通用解决方法，它将现有方法嵌套在零界下限内/外作为特例。我们的框架提供了一个简单的公共基础设施贡献表达式。我们展示了它提供了一个统一的框架来研究公共投资在三种情况下的影响：$(i)$ 正常时期 $(ii)$ 短期流动性陷阱 $(iii)$ 长期流动性陷阱。我们发现常用的标定方法会导致随着陷阱持续时间的增加而发散的乘数。
-
-    What are the effects of investing in public infrastructure? We answer this question with a New Keynesian model. We recast the model as a Markov chain and develop a general solution method that nests existing ones inside/outside the zero lower bound as special cases. Our framework delivers a simple expression for the contribution of public infrastructure. We show that it provides a unified framework to study the effects of public investment in three scenarios: $(i)$ normal times $(ii)$ short-lived liquidity trap $(iii)$ long-lived liquidity trap. We find that calibrations commonly used lead to multipliers that diverge with the duration of the trap.
-    
-[^12]: 避免说谎和模糊沟通：一项实验研究
-
-    Lying Aversion and Vague Communication: An Experimental Study. (arXiv:2301.00372v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2301.00372](http://arxiv.org/abs/2301.00372)
-
-    该研究探讨了避免说谎和模糊沟通的问题，通过实验发现，参与者在关注社会身份的情况下更倾向于使用模糊信息，同时利用不确定性来获益。
+    本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。
 
     
 
-    一个代理人可以有意使用含糊的信息来误导受众对世界状态的信念，但这可能导致代理人有罪感或对受众的看法产生负面影响。通过使用一种新颖的实验设计，使参与者可以模糊表达，同时将说谎的内部成本与出现不诚实的社会身份成本予以分离，我们探讨了这两类说谎成本对沟通的影响程度。我们发现参与者利用模糊性与真相保持一致，同时利用不确定性来获益。更多的参与者在关注社会身份的情况下使用模糊信息。此外，我们发现社会身份关注对不同处理中使用的模糊信息的长度和模式产生了显著影响。
+    仅基于选择数据确定个体的战略推理能力是一项复杂的任务。这种复杂性源于复杂的玩家可能对其他人有非均衡的信念，导致非均衡的行为。在我们的研究中，我们将人类参与者与已知完全理性的计算机玩家配对。通过使用机器人玩家，我们能够将有限的推理能力与信念形成和社会偏差相区分开来。我们的研究结果表明，当与机器人配对时，被试表现出始终较高的理性水平，并在不同游戏中保持稳定的理性水平，相比之下与人类配对时则不然。这表明战略推理可能的确是个体的一种一贯特征。此外，确定的理性限制可以作为评估个体对他人信念适当控制时的战略能力的指标。
 
-    An agent may strategically employ a vague message to mislead an audience's belief about the state of the world, but this may cause the agent to feel guilt or negatively impact how the audience perceives the agent. Using a novel experimental design that allows participants to be vague while at the same time isolating the internal cost of lying from the social identity cost of appearing dishonest, we explore the extent to which these two types of lying costs affect communication. We find that participants exploit vagueness to be consistent with the truth, while at the same time leveraging the imprecision to their own benefit. More participants use vague messages in treatments where concern with social identity is relevant. In addition, we find that social identity concerns substantially affect the length and patterns of vague messages used across the treatments.
+    Determining an individual's strategic reasoning capability based solely on choice data is a complex task. This complexity arises because sophisticated players might have non-equilibrium beliefs about others, leading to non-equilibrium actions. In our study, we pair human participants with computer players known to be fully rational. This use of robot players allows us to disentangle limited reasoning capacity from belief formation and social biases. Our results show that, when paired with robots, subjects consistently demonstrate higher levels of rationality and maintain stable rationality levels across different games compared to when paired with humans. This suggests that strategic reasoning might indeed be a consistent trait in individuals. Furthermore, the identified rationality limits could serve as a measure for evaluating an individual's strategic capacity when their beliefs about others are adequately controlled.
+    
+[^7]: 公共债务的财政成本和政府支出冲击
+
+    The Fiscal Cost of Public Debt and Government Spending Shocks. (arXiv:2309.07371v1 [econ.GN])
+
+    [http://arxiv.org/abs/2309.07371](http://arxiv.org/abs/2309.07371)
+
+    本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。
+
+    
+
+    本文研究了公共债务成本如何塑造财政政策及其对经济的影响。利用美国的历史数据，我表明当债务服务成为财政负担时，政府通过限制债务发行来应对支出冲击。因此，初始冲击只在短期内引发对公共支出的有限增加，并且甚至导致长期内的支出逆转。在这种情况下，财政政策失去了刺激经济活动的能力。这一结果是由于财政当局限制自身借款能力以确保公共债务可持续性。这些发现在多个识别和估计策略下都具有鲁棒性。
+
+    This paper investigates how the cost of public debt shapes fiscal policy and its effect on the economy. Using U.S. historical data, I show that when servicing the debt creates a fiscal burden, the government responds to spending shocks by limiting debt issuance. As a result, the initial shock triggers only a limited increase in public spending in the short run, and even leads to spending reversal in the long run. Under these conditions, fiscal policy loses its ability to stimulate economic activity. This outcome arises as the fiscal authority limits its own ability to borrow to ensure public debt sustainability. These findings are robust to several identification and estimation strategies.
+    
+[^8]: 主妇劳动对GDP计算的影响
+
+    The effect of housewife labor on gdp calculations. (arXiv:2309.07160v1 [econ.GN])
+
+    [http://arxiv.org/abs/2309.07160](http://arxiv.org/abs/2309.07160)
+
+    本研究通过理论分析和经验建模，探讨了家庭主妇劳动对GDP计算的影响。研究发现，人类特征的变化导致了有限理性个体特征的形成，女性更倾向于成为家庭主妇的选择。实证分析揭示了家庭主妇劳动的经济价值。
+
+    
+
+    本研究试图通过理论分析揭示劳动力的演化发展。以衡量社会福利的GDP为例，试图通过经验建模来衡量家庭主妇劳动的经济价值。为此，首先质疑了正统（主流）经济理论中劳动的概念；然后，摒弃劳动就业关系，考察了在资本主义体制下失业的无偿家庭主妇劳动对GDP的影响。在理论分析中，确定了人类特征的变化使其远离理性，形成了有限理性和异质个体特征的限制理性个体特征。将女性定义为异质个体的新例子，因为她们更适合有限理性个体的定义，即更倾向于成为家庭主妇。在本研究的实证分析中，对家庭主妇劳动进行了研究。
+
+    In this study, the evolutionary development of labor has been tried to be revealed based on theoretical analysis. Using the example of gdp, which is an indicator of social welfare, the economic value of the labor of housewives was tried to be measured with an empirical modeling. To this end; first of all, the concept of labor was questioned in orthodox (mainstream) economic theories; then, by abstracting from the labor-employment relationship, it was examined what effect the labor of unpaid housewives who are unemployed in the capitalist system could have on gdp. In theoretical analysis; It has been determined that the changing human profile moves away from rationality and creates limited rationality and, accordingly, a heterogeneous individual profile. Women were defined as the new example of heterogeneous individuals, as those who best fit the definition of limited rational individuals because they prefer to be housewives. In the empirical analysis of the study, housewife labor was t
+    
+[^9]: 最小二乘蒙特卡罗中的有限差分解法
+
+    Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo. (arXiv:2305.09166v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2305.09166](http://arxiv.org/abs/2305.09166)
+
+    本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。
+
+    
+
+    本文提出了一种简单而有效的方法，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。关键思想是使用低维有限差分法的精确解来构建条件期望继续支付的假设，用于线性回归。该方法在解决向后偏微分方程和蒙特卡罗模拟方面建立了桥梁，旨在实现两者的最佳结合。我们通过实际示例说明该技术，包括百慕大期权和最差发行人可赎回票据。该方法可被视为跨越各种资产类别的通用数值方案，特别是在任意维度下，作为定价美式衍生产品的准确方法。
+
+    This article presents a simple but effective approach to improve the accuracy of Least-Squares Monte Carlo for American-style options. The key idea is to construct the ansatz of conditional expected continuation payoff using the exact solution from low dimensional finite difference methods, to be used in linear regression. This approach builds a bridge between solving backward partial differential equations and a Monte Carlo simulation, aiming at achieving the best of both worlds. We illustrate the technique with realistic examples including Bermuda options and worst of issuer callable notes. The method can be considered as a generic numerical scheme across various asset classes, in particular, as an accurate method for pricing American-style derivatives under arbitrary dimensions.
     
 

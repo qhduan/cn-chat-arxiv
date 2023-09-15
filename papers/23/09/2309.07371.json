@@ -1,0 +1,12 @@
+{
+    "title": "The Fiscal Cost of Public Debt and Government Spending Shocks. (arXiv:2309.07371v1 [econ.GN])",
+    "abstract": "This paper investigates how the cost of public debt shapes fiscal policy and its effect on the economy. Using U.S. historical data, I show that when servicing the debt creates a fiscal burden, the government responds to spending shocks by limiting debt issuance. As a result, the initial shock triggers only a limited increase in public spending in the short run, and even leads to spending reversal in the long run. Under these conditions, fiscal policy loses its ability to stimulate economic activity. This outcome arises as the fiscal authority limits its own ability to borrow to ensure public debt sustainability. These findings are robust to several identification and estimation strategies.",
+    "link": "http://arxiv.org/abs/2309.07371",
+    "context": "Title: The Fiscal Cost of Public Debt and Government Spending Shocks. (arXiv:2309.07371v1 [econ.GN])\nAbstract: This paper investigates how the cost of public debt shapes fiscal policy and its effect on the economy. Using U.S. historical data, I show that when servicing the debt creates a fiscal burden, the government responds to spending shocks by limiting debt issuance. As a result, the initial shock triggers only a limited increase in public spending in the short run, and even leads to spending reversal in the long run. Under these conditions, fiscal policy loses its ability to stimulate economic activity. This outcome arises as the fiscal authority limits its own ability to borrow to ensure public debt sustainability. These findings are robust to several identification and estimation strategies.",
+    "path": "papers/23/09/2309.07371.json",
+    "total_tokens": 750,
+    "translated_title": "公共债务的财政成本和政府支出冲击",
+    "translated_abstract": "本文研究了公共债务成本如何塑造财政政策及其对经济的影响。利用美国的历史数据，我表明当债务服务成为财政负担时，政府通过限制债务发行来应对支出冲击。因此，初始冲击只在短期内引发对公共支出的有限增加，并且甚至导致长期内的支出逆转。在这种情况下，财政政策失去了刺激经济活动的能力。这一结果是由于财政当局限制自身借款能力以确保公共债务可持续性。这些发现在多个识别和估计策略下都具有鲁棒性。",
+    "tldr": "本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。",
+    "en_tdlr": "This study finds that when public debt becomes a fiscal burden, the government responds to spending shocks by limiting debt issuance, resulting in the loss of fiscal policy's ability to stimulate economic activity."
+}

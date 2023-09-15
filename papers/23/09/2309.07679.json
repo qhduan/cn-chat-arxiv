@@ -1,0 +1,12 @@
+{
+    "title": "Benchmarking machine learning models for quantum state classification. (arXiv:2309.07679v1 [quant-ph])",
+    "abstract": "Quantum computing is a growing field where the information is processed by two-levels quantum states known as qubits. Current physical realizations of qubits require a careful calibration, composed by different experiments, due to noise and decoherence phenomena. Among the different characterization experiments, a crucial step is to develop a model to classify the measured state by discriminating the ground state from the excited state. In this proceedings we benchmark multiple classification techniques applied to real quantum devices.",
+    "link": "http://arxiv.org/abs/2309.07679",
+    "context": "Title: Benchmarking machine learning models for quantum state classification. (arXiv:2309.07679v1 [quant-ph])\nAbstract: Quantum computing is a growing field where the information is processed by two-levels quantum states known as qubits. Current physical realizations of qubits require a careful calibration, composed by different experiments, due to noise and decoherence phenomena. Among the different characterization experiments, a crucial step is to develop a model to classify the measured state by discriminating the ground state from the excited state. In this proceedings we benchmark multiple classification techniques applied to real quantum devices.",
+    "path": "papers/23/09/2309.07679.json",
+    "total_tokens": 593,
+    "translated_title": "用于量子态分类的机器学习模型基准测试",
+    "translated_abstract": "量子计算是一个快速发展的领域，其中信息通过称为量子比特的二级量子态进行处理。由于噪声和退相干现象，当前的量子比特物理实现需要经过精细的校准，包括不同的实验。在不同的表征实验中，关键步骤之一是开发一个模型，通过区分基态和激发态来对测量的态进行分类。在本文中，我们对应用于真实量子设备的多种分类技术进行基准测试。",
+    "tldr": "本文对应用于真实量子设备的多种分类技术进行基准测试，以开发一个模型来区分基态和激发态。",
+    "en_tdlr": "This paper benchmarks multiple classification techniques applied to real quantum devices to develop a model for distinguishing ground state from excited state."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "The Dynamical Principles of Storytelling. (arXiv:2309.07797v1 [cs.CL])",
+    "abstract": "When considering the opening part of 1800 short stories, we find that the first dozen paragraphs of the average narrative follow an action principle as defined in arXiv:2309.06600. When the order of the paragraphs is shuffled, the average no longer exhibits this property. The findings show that there is a preferential direction we take in semantic space when starting a story, possibly related to a common Western storytelling tradition as implied by Aristotle in Poetics.",
+    "link": "http://arxiv.org/abs/2309.07797",
+    "context": "Title: The Dynamical Principles of Storytelling. (arXiv:2309.07797v1 [cs.CL])\nAbstract: When considering the opening part of 1800 short stories, we find that the first dozen paragraphs of the average narrative follow an action principle as defined in arXiv:2309.06600. When the order of the paragraphs is shuffled, the average no longer exhibits this property. The findings show that there is a preferential direction we take in semantic space when starting a story, possibly related to a common Western storytelling tradition as implied by Aristotle in Poetics.",
+    "path": "papers/23/09/2309.07797.json",
+    "total_tokens": 596,
+    "translated_title": "讲故事的动态原则",
+    "translated_abstract": "在考虑了1800个短篇小说的开头部分之后，我们发现平均故事的前十几个段落遵循了arXiv:2309.06600中定义的动作原则。当段落的顺序被打乱时，平均值不再具备这一特性。研究结果表明，在开始一个故事时，我们在语义空间中有一个优先方向，可能与亚里士多德在《诗学》中所暗示的西方传统讲故事有关。",
+    "tldr": "这项研究揭示了讲故事的开头部分通常会遵循动作原则，并且这种顺序可能与西方传统讲故事的有关。"
+}

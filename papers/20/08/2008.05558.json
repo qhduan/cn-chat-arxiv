@@ -1,0 +1,11 @@
+{
+    "title": "On the complexity of finding a local minimizer of a quadratic function over a polytope. (arXiv:2008.05558v5 [math.OC] UPDATED)",
+    "abstract": "We show that unless P=NP, there cannot be a polynomial-time algorithm that finds a point within Euclidean distance $c^n$ (for any constant $c \\ge 0$) of a local minimizer of an $n$-variate quadratic function over a polytope. This result (even with $c=0$) answers a question of Pardalos and Vavasis that appeared in 1992 on a list of seven open problems in complexity theory for numerical optimization. Our proof technique also implies that the problem of deciding whether a quadratic function has a local minimizer over an (unbounded) polyhedron, and that of deciding if a quartic polynomial has a local minimizer are NP-hard.",
+    "link": "http://arxiv.org/abs/2008.05558",
+    "context": "Title: On the complexity of finding a local minimizer of a quadratic function over a polytope. (arXiv:2008.05558v5 [math.OC] UPDATED)\nAbstract: We show that unless P=NP, there cannot be a polynomial-time algorithm that finds a point within Euclidean distance $c^n$ (for any constant $c \\ge 0$) of a local minimizer of an $n$-variate quadratic function over a polytope. This result (even with $c=0$) answers a question of Pardalos and Vavasis that appeared in 1992 on a list of seven open problems in complexity theory for numerical optimization. Our proof technique also implies that the problem of deciding whether a quadratic function has a local minimizer over an (unbounded) polyhedron, and that of deciding if a quartic polynomial has a local minimizer are NP-hard.",
+    "path": "papers/20/08/2008.05558.json",
+    "total_tokens": 775,
+    "translated_title": "在多面体上寻找二次函数的局部最小化问题的复杂性研究",
+    "translated_abstract": "我们证明，除非P=NP，否则不存在一个多项式时间算法，能够找到一个在欧几里得距离$c^n$（对于任意常数$c \\ge 0$）内的二次函数在多面体上的局部最小化点。这个结果（即使在$c=0$的情况下）回答了Pardalos和Vavasis在1992年关于数值优化复杂性理论中提出的一个由七个开放问题组成的列表中的一个问题。我们的证明技巧还意味着判断一个二次函数是否在（无界）多面体上有局部最小化点的问题，以及判断一个四次多项式是否有局部最小化点的问题都是NP难问题。",
+    "tldr": "除非P=NP，否则不存在一个多项式时间算法，能够找到一个在欧几里得距离$c^n$（对于任意常数$c \\ge 0$）内的二次函数在多面体上的局部最小化点。"
+}

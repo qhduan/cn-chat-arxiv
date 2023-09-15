@@ -1,0 +1,12 @@
+{
+    "title": "Joint Community Detection and Rotational Synchronization via Semidefinite Programming. (arXiv:2105.06031v2 [stat.ML] UPDATED)",
+    "abstract": "In the presence of heterogeneous data, where randomly rotated objects fall into multiple underlying categories, it is challenging to simultaneously classify them into clusters and synchronize them based on pairwise relations. This gives rise to the joint problem of community detection and synchronization. We propose a series of semidefinite relaxations, and prove their exact recovery when extending the celebrated stochastic block model to this new setting where both rotations and cluster identities are to be determined. Numerical experiments demonstrate the efficacy of our proposed algorithms and confirm our theoretical result which indicates a sharp phase transition for exact recovery.",
+    "link": "http://arxiv.org/abs/2105.06031",
+    "context": "Title: Joint Community Detection and Rotational Synchronization via Semidefinite Programming. (arXiv:2105.06031v2 [stat.ML] UPDATED)\nAbstract: In the presence of heterogeneous data, where randomly rotated objects fall into multiple underlying categories, it is challenging to simultaneously classify them into clusters and synchronize them based on pairwise relations. This gives rise to the joint problem of community detection and synchronization. We propose a series of semidefinite relaxations, and prove their exact recovery when extending the celebrated stochastic block model to this new setting where both rotations and cluster identities are to be determined. Numerical experiments demonstrate the efficacy of our proposed algorithms and confirm our theoretical result which indicates a sharp phase transition for exact recovery.",
+    "path": "papers/21/05/2105.06031.json",
+    "total_tokens": 720,
+    "translated_title": "通过半定规划，联合社区检测和旋转同步",
+    "translated_abstract": "在存在异构数据的情况下，随机旋转的对象落入多个潜在类别中，同时对它们进行聚类和基于两两关系进行同步是具有挑战性的。这导致了社区检测和同步的联合问题。我们提出了一系列半定松弛，并证明了它们在将著名的随机块模型扩展到旋转和聚类身份都需要确定的新情况时的精确恢复性。数值实验证明了我们提出的算法的有效性，并证实了我们的理论结果，表明了准确恢复性的明显相变。",
+    "tldr": "本文提出了一种通过半定规划来联合社区检测和旋转同步的方法，在存在异构数据的情况下，能够准确恢复出旋转和聚类身份，并通过数值实验证明了其有效性和准确恢复性的相变现象。",
+    "en_tdlr": "This paper proposes a method to jointly detect communities and synchronize rotations using semidefinite programming. It demonstrates the exact recovery of rotations and cluster identities in the presence of heterogeneous data, and confirms the effectiveness and phase transition of the proposed method through numerical experiments."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Exploring Large Language Models for Ontology Alignment. (arXiv:2309.07172v1 [cs.AI])",
+    "abstract": "This work investigates the applicability of recent generative Large Language Models (LLMs), such as the GPT series and Flan-T5, to ontology alignment for identifying concept equivalence mappings across ontologies. To test the zero-shot performance of Flan-T5-XXL and GPT-3.5-turbo, we leverage challenging subsets from two equivalence matching datasets of the OAEI Bio-ML track, taking into account concept labels and structural contexts. Preliminary findings suggest that LLMs have the potential to outperform existing ontology alignment systems like BERTMap, given careful framework and prompt design.",
+    "link": "http://arxiv.org/abs/2309.07172",
+    "context": "Title: Exploring Large Language Models for Ontology Alignment. (arXiv:2309.07172v1 [cs.AI])\nAbstract: This work investigates the applicability of recent generative Large Language Models (LLMs), such as the GPT series and Flan-T5, to ontology alignment for identifying concept equivalence mappings across ontologies. To test the zero-shot performance of Flan-T5-XXL and GPT-3.5-turbo, we leverage challenging subsets from two equivalence matching datasets of the OAEI Bio-ML track, taking into account concept labels and structural contexts. Preliminary findings suggest that LLMs have the potential to outperform existing ontology alignment systems like BERTMap, given careful framework and prompt design.",
+    "path": "papers/23/09/2309.07172.json",
+    "total_tokens": 696,
+    "translated_title": "探索大型语言模型在本体对齐中的应用",
+    "translated_abstract": "本文研究了最近的生成式大型语言模型（LLMs）（如GPT系列和Flan-T5）在本体对齐中的适用性，用于识别本体之间的概念等价映射。为了测试Flan-T5-XXL和GPT-3.5-turbo的零样本性能，我们利用了OAEI Bio-ML track的两个等价匹配数据集中具有挑战性的子集，并考虑到概念标签和结构上下文。初步结果表明，LLMs有可能在谨慎的框架和提示设计的情况下，胜过现有的本体对齐系统如BERTMap。",
+    "tldr": "本文研究了大型语言模型在本体对齐中的应用，并发现它们有潜力在谨慎的框架和提示设计下超越现有的本体对齐系统。"
+}

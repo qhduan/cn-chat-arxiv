@@ -1,0 +1,11 @@
+{
+    "title": "Structure-Preserving Transformers for Sequences of SPD Matrices. (arXiv:2309.07579v1 [cs.LG])",
+    "abstract": "In recent years, Transformer-based auto-attention mechanisms have been successfully applied to the analysis of a variety of context-reliant data types, from texts to images and beyond, including data from non-Euclidean geometries. In this paper, we present such a mechanism, designed to classify sequences of Symmetric Positive Definite matrices while preserving their Riemannian geometry throughout the analysis. We apply our method to automatic sleep staging on timeseries of EEG-derived covariance matrices from a standard dataset, obtaining high levels of stage-wise performance.",
+    "link": "http://arxiv.org/abs/2309.07579",
+    "context": "Title: Structure-Preserving Transformers for Sequences of SPD Matrices. (arXiv:2309.07579v1 [cs.LG])\nAbstract: In recent years, Transformer-based auto-attention mechanisms have been successfully applied to the analysis of a variety of context-reliant data types, from texts to images and beyond, including data from non-Euclidean geometries. In this paper, we present such a mechanism, designed to classify sequences of Symmetric Positive Definite matrices while preserving their Riemannian geometry throughout the analysis. We apply our method to automatic sleep staging on timeseries of EEG-derived covariance matrices from a standard dataset, obtaining high levels of stage-wise performance.",
+    "path": "papers/23/09/2309.07579.json",
+    "total_tokens": 681,
+    "translated_title": "保持结构的变压器用于序列的SPD矩阵",
+    "translated_abstract": "近年来，基于变压器的自注意力机制已成功应用于各种上下文相关的数据类型的分析，从文本到图像等，包括非欧几里得几何的数据。本文提出了一种这样的机制，用于分类序列的对称正定矩阵，并在整个分析过程中保持它们的黎曼几何特性。我们将我们的方法应用于来自标准数据集中的脑电图协方差矩阵序列的自动睡眠分期，取得了高水平的阶段性能。",
+    "tldr": "本文介绍了一种保持序列的对称正定矩阵的黎曼几何特性的结构保持变压器机制，并将其应用于自动睡眠分期，取得了高水平的阶段性能。"
+}

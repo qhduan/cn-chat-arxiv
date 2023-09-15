@@ -1,0 +1,12 @@
+{
+    "title": "Some notes concerning a generalized KMM-type optimization method for density ratio estimation. (arXiv:2309.07887v1 [cs.LG])",
+    "abstract": "In the present paper we introduce new optimization algorithms for the task of density ratio estimation. More precisely, we consider extending the well-known KMM method using the construction of a suitable loss function, in order to encompass more general situations involving the estimation of density ratio with respect to subsets of the training data and test data, respectively. The associated codes can be found at https://github.com/CDAlecsa/Generalized-KMM.",
+    "link": "http://arxiv.org/abs/2309.07887",
+    "context": "Title: Some notes concerning a generalized KMM-type optimization method for density ratio estimation. (arXiv:2309.07887v1 [cs.LG])\nAbstract: In the present paper we introduce new optimization algorithms for the task of density ratio estimation. More precisely, we consider extending the well-known KMM method using the construction of a suitable loss function, in order to encompass more general situations involving the estimation of density ratio with respect to subsets of the training data and test data, respectively. The associated codes can be found at https://github.com/CDAlecsa/Generalized-KMM.",
+    "path": "papers/23/09/2309.07887.json",
+    "total_tokens": 625,
+    "translated_title": "关于一种广义KMM类型密度比估计方法的一些注记",
+    "translated_abstract": "在本文中，我们引入了用于密度比估计任务的新优化算法。更具体地说，我们考虑使用构建合适的损失函数来扩展著名的KMM方法，以涵盖更一般的情况，包括对训练数据和测试数据子集相对于密度比进行估计。相关代码可以在https://github.com/CDAlecsa/Generalized-KMM找到。",
+    "tldr": "本文介绍了一种用于密度比估计的广义KMM类型优化算法，通过构建适当的损失函数，扩展了现有方法以适应更一般的情况，并包括对训练数据和测试数据子集相对于密度比的估计。",
+    "en_tdlr": "This paper presents a generalized KMM-type optimization algorithm for density ratio estimation, which extends the existing method to handle more general situations by constructing a suitable loss function and includes estimation of density ratio with respect to subsets of the training data and test data."
+}

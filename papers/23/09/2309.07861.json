@@ -1,0 +1,11 @@
+{
+    "title": "CiwaGAN: Articulatory information exchange. (arXiv:2309.07861v1 [cs.SD])",
+    "abstract": "Humans encode information into sounds by controlling articulators and decode information from sounds using the auditory apparatus. This paper introduces CiwaGAN, a model of human spoken language acquisition that combines unsupervised articulatory modeling with an unsupervised model of information exchange through the auditory modality. While prior research includes unsupervised articulatory modeling and information exchange separately, our model is the first to combine the two components. The paper also proposes an improved articulatory model with more interpretable internal representations. The proposed CiwaGAN model is the most realistic approximation of human spoken language acquisition using deep learning. As such, it is useful for cognitively plausible simulations of the human speech act.",
+    "link": "http://arxiv.org/abs/2309.07861",
+    "context": "Title: CiwaGAN: Articulatory information exchange. (arXiv:2309.07861v1 [cs.SD])\nAbstract: Humans encode information into sounds by controlling articulators and decode information from sounds using the auditory apparatus. This paper introduces CiwaGAN, a model of human spoken language acquisition that combines unsupervised articulatory modeling with an unsupervised model of information exchange through the auditory modality. While prior research includes unsupervised articulatory modeling and information exchange separately, our model is the first to combine the two components. The paper also proposes an improved articulatory model with more interpretable internal representations. The proposed CiwaGAN model is the most realistic approximation of human spoken language acquisition using deep learning. As such, it is useful for cognitively plausible simulations of the human speech act.",
+    "path": "papers/23/09/2309.07861.json",
+    "total_tokens": 694,
+    "translated_title": "CiwaGAN: 声韵学信息交流",
+    "translated_abstract": "人类通过控制发音器官将信息编码成声音，并通过听觉装置解码声音的信息。本文介绍了CiwaGAN，这是一个结合了无监督声韵学建模和无监督听觉模态信息交流的人类口语习得模型。尽管之前的研究分别包括了无监督声韵学建模和信息交流，但我们的模型是第一个将这两个组成部分结合在一起的。本文还提出了一个改进的声韵学模型，具有更可解释的内部表示。提出的CiwaGAN模型是使用深度学习对人类口语习得进行最现实的近似。因此，它对于认知上可行的人类言语行为模拟是有用的。",
+    "tldr": "本文介绍了CiwaGAN模型，该模型结合了无监督声韵学建模和无监督听觉模态信息交流，是对人类口语习得最现实的近似。"
+}

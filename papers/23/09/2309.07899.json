@@ -1,0 +1,11 @@
+{
+    "title": "Improving physics-informed DeepONets with hard constraints. (arXiv:2309.07899v1 [cs.LG])",
+    "abstract": "Current physics-informed (standard or operator) neural networks still rely on accurately learning the initial conditions of the system they are solving. In contrast, standard numerical methods evolve such initial conditions without needing to learn these. In this study, we propose to improve current physics-informed deep learning strategies such that initial conditions do not need to be learned and are represented exactly in the predicted solution. Moreover, this method guarantees that when a DeepONet is applied multiple times to time step a solution, the resulting function is continuous.",
+    "link": "http://arxiv.org/abs/2309.07899",
+    "context": "Title: Improving physics-informed DeepONets with hard constraints. (arXiv:2309.07899v1 [cs.LG])\nAbstract: Current physics-informed (standard or operator) neural networks still rely on accurately learning the initial conditions of the system they are solving. In contrast, standard numerical methods evolve such initial conditions without needing to learn these. In this study, we propose to improve current physics-informed deep learning strategies such that initial conditions do not need to be learned and are represented exactly in the predicted solution. Moreover, this method guarantees that when a DeepONet is applied multiple times to time step a solution, the resulting function is continuous.",
+    "path": "papers/23/09/2309.07899.json",
+    "total_tokens": 642,
+    "translated_title": "改进具有硬约束的物理信息DeepONets",
+    "translated_abstract": "当前的物理信息神经网络（标准或操作符）仍然依赖于准确地学习所解决系统的初始条件。相比之下，标准的数值方法在不需要学习这些条件的情况下演化这些初始条件。在这项研究中，我们提出改进当前的物理信息深度学习策略，使得不需要学习初始条件，并且将其准确地表示在预测的解中。此外，该方法保证当将DeepONet多次应用于时间步长解上时，得到的函数是连续的。",
+    "tldr": "本研究提出了一种改进的物理信息深度学习策略，消除了对初始条件的学习需求，并确保在多次应用时得到的函数是连续的。"
+}

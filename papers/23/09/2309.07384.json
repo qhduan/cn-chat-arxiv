@@ -1,0 +1,11 @@
+{
+    "title": "An Interactive Framework for Profiling News Media Sources. (arXiv:2309.07384v1 [cs.CL])",
+    "abstract": "The recent rise of social media has led to the spread of large amounts of fake and biased news, content published with the intent to sway beliefs. While detecting and profiling the sources that spread this news is important to maintain a healthy society, it is challenging for automated systems.  In this paper, we propose an interactive framework for news media profiling. It combines the strengths of graph based news media profiling models, Pre-trained Large Language Models, and human insight to characterize the social context on social media. Experimental results show that with as little as 5 human interactions, our framework can rapidly detect fake and biased news media, even in the most challenging settings of emerging news events, where test data is unseen.",
+    "link": "http://arxiv.org/abs/2309.07384",
+    "context": "Title: An Interactive Framework for Profiling News Media Sources. (arXiv:2309.07384v1 [cs.CL])\nAbstract: The recent rise of social media has led to the spread of large amounts of fake and biased news, content published with the intent to sway beliefs. While detecting and profiling the sources that spread this news is important to maintain a healthy society, it is challenging for automated systems.  In this paper, we propose an interactive framework for news media profiling. It combines the strengths of graph based news media profiling models, Pre-trained Large Language Models, and human insight to characterize the social context on social media. Experimental results show that with as little as 5 human interactions, our framework can rapidly detect fake and biased news media, even in the most challenging settings of emerging news events, where test data is unseen.",
+    "path": "papers/23/09/2309.07384.json",
+    "total_tokens": 824,
+    "translated_title": "一个交互式框架用于对新闻媒体来源进行特征分析",
+    "translated_abstract": "社交媒体的兴起导致了大量虚假和有偏见的新闻传播，即以影响信仰为目的的内容发布。虽然检测和对传播这些新闻的来源进行特征分析对于维护一个健康的社会很重要，但对于自动化系统来说是具有挑战性的。本文提出了一个交互式框架用于新闻媒体的特征分析，将基于图的新闻媒体特征分析模型、预训练大型语言模型和人类洞察力相结合，以表征社交媒体上的社会环境。实验结果显示，通过仅需五次人类交互，我们的框架可以快速检测出虚假和有偏见的新闻媒体，甚至在最具挑战性的新闻事件出现时，其中的测试数据是未知的。",
+    "tldr": "本文提出了一个交互式框架用于对新闻媒体来源进行特征分析，通过结合图形分析模型、预训练语言模型和人类洞察力，可以快速检测虚假和有偏见的新闻媒体。"
+}

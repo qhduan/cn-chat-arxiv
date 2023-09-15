@@ -1,0 +1,12 @@
+{
+    "title": "DBLPLink: An Entity Linker for the DBLP Scholarly Knowledge Graph. (arXiv:2309.07545v1 [cs.CL])",
+    "abstract": "In this work, we present a web application named DBLPLink, which performs entity linking over the DBLP scholarly knowledge graph. DBLPLink uses text-to-text pre-trained language models, such as T5, to produce entity label spans from an input text question. Entity candidates are fetched from a database based on the labels, and an entity re-ranker sorts them based on entity embeddings, such as TransE, DistMult and ComplEx. The results are displayed so that users may compare and contrast the results between T5-small, T5-base and the different KG embeddings used. The demo can be accessed at https://ltdemos.informatik.uni-hamburg.de/dblplink/.",
+    "link": "http://arxiv.org/abs/2309.07545",
+    "context": "Title: DBLPLink: An Entity Linker for the DBLP Scholarly Knowledge Graph. (arXiv:2309.07545v1 [cs.CL])\nAbstract: In this work, we present a web application named DBLPLink, which performs entity linking over the DBLP scholarly knowledge graph. DBLPLink uses text-to-text pre-trained language models, such as T5, to produce entity label spans from an input text question. Entity candidates are fetched from a database based on the labels, and an entity re-ranker sorts them based on entity embeddings, such as TransE, DistMult and ComplEx. The results are displayed so that users may compare and contrast the results between T5-small, T5-base and the different KG embeddings used. The demo can be accessed at https://ltdemos.informatik.uni-hamburg.de/dblplink/.",
+    "path": "papers/23/09/2309.07545.json",
+    "total_tokens": 713,
+    "translated_title": "DBLPLink: 一个用于DBLP学术知识图的实体链接器",
+    "translated_abstract": "在这项工作中，我们介绍了一个名为DBLPLink的网络应用程序，它在DBLP学术知识图上执行实体链接。DBLPLink使用文本到文本的预训练语言模型（如T5）从输入的文本问题中生成实体标签跨度。基于这些标签，从数据库中获取实体候选项，并使用实体嵌入（如TransE、DistMult和ComplEx）对它们进行排序。结果以用户可以比较和对比T5-small、T5-base和不同的知识图嵌入之间的结果。演示可以在https://ltdemos.informatik.uni-hamburg.de/dblplink/访问。",
+    "tldr": "DBLPLink是一个用于DBLP学术知识图的实体链接器，它使用文本到文本的预训练语言模型和实体嵌入来进行实体标签生成和排序。",
+    "en_tdlr": "DBLPLink is an entity linker for the DBLP scholarly knowledge graph, which utilizes text-to-text pre-trained language models and entity embeddings for entity labeling and ranking."
+}
