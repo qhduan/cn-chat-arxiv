@@ -1,0 +1,11 @@
+{
+    "title": "Replacing softmax with ReLU in Vision Transformers. (arXiv:2309.08586v1 [cs.CV])",
+    "abstract": "Previous research observed accuracy degradation when replacing the attention softmax with a point-wise activation such as ReLU. In the context of vision transformers, we find that this degradation is mitigated when dividing by sequence length. Our experiments training small to large vision transformers on ImageNet-21k indicate that ReLU-attention can approach or match the performance of softmax-attention in terms of scaling behavior as a function of compute.",
+    "link": "http://arxiv.org/abs/2309.08586",
+    "context": "Title: Replacing softmax with ReLU in Vision Transformers. (arXiv:2309.08586v1 [cs.CV])\nAbstract: Previous research observed accuracy degradation when replacing the attention softmax with a point-wise activation such as ReLU. In the context of vision transformers, we find that this degradation is mitigated when dividing by sequence length. Our experiments training small to large vision transformers on ImageNet-21k indicate that ReLU-attention can approach or match the performance of softmax-attention in terms of scaling behavior as a function of compute.",
+    "path": "papers/23/09/2309.08586.json",
+    "total_tokens": 571,
+    "translated_title": "在视觉变换器中用ReLU替换softmax",
+    "translated_abstract": "先前的研究观察到当将注意力softmax替换为ReLU这样的逐点激活时，精度会下降。在视觉变换器的背景下，我们发现当通过序列长度除以注意力下降被缓解。我们在ImageNet-21k数据集上训练小型到大型视觉变换器的实验表明，在计算方面，ReLU注意力可以达到或匹配softmax注意力的性能。",
+    "tldr": "在视觉变换器中，用ReLU替换softmax的注意力机制可以在计算性能上接近或匹配softmax注意力，并且通过序列长度进行除法可以缓解精度下降的问题。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "DiaCorrect: Error Correction Back-end For Speaker Diarization. (arXiv:2309.08377v1 [eess.AS])",
+    "abstract": "In this work, we propose an error correction framework, named DiaCorrect, to refine the output of a diarization system in a simple yet effective way. This method is inspired by error correction techniques in automatic speech recognition. Our model consists of two parallel convolutional encoders and a transform-based decoder. By exploiting the interactions between the input recording and the initial system's outputs, DiaCorrect can automatically correct the initial speaker activities to minimize the diarization errors. Experiments on 2-speaker telephony data show that the proposed DiaCorrect can effectively improve the initial model's results. Our source code is publicly available at https://github.com/BUTSpeechFIT/diacorrect.",
+    "link": "http://arxiv.org/abs/2309.08377",
+    "context": "Title: DiaCorrect: Error Correction Back-end For Speaker Diarization. (arXiv:2309.08377v1 [eess.AS])\nAbstract: In this work, we propose an error correction framework, named DiaCorrect, to refine the output of a diarization system in a simple yet effective way. This method is inspired by error correction techniques in automatic speech recognition. Our model consists of two parallel convolutional encoders and a transform-based decoder. By exploiting the interactions between the input recording and the initial system's outputs, DiaCorrect can automatically correct the initial speaker activities to minimize the diarization errors. Experiments on 2-speaker telephony data show that the proposed DiaCorrect can effectively improve the initial model's results. Our source code is publicly available at https://github.com/BUTSpeechFIT/diacorrect.",
+    "path": "papers/23/09/2309.08377.json",
+    "total_tokens": 737,
+    "translated_title": "DiaCorrect：扬声器分析的错误校正后端",
+    "translated_abstract": "在这项工作中，我们提出了一种名为DiaCorrect的错误校正框架，以一种简单而有效的方式改进扬声器分析系统的输出。这种方法受到自动语音识别中的错误校正技术的启发。我们的模型由两个并行的卷积编码器和一个基于转换的解码器组成。通过利用输入录音和初始系统输出之间的相互作用，DiaCorrect可以自动纠正初始的说话者活动，以最小化分析错误。在2个扬声器电话数据上的实验证明，所提出的DiaCorrect可以有效地改进初始模型的结果。我们的源代码公开可用于 https://github.com/BUTSpeechFIT/diacorrect.",
+    "tldr": "DiaCorrect是一个错误校正后端框架，用于改进扬声器分析系统的输出。该模型利用输入录音和初始系统输出之间的相互作用，自动纠正初始的说话者活动，以减少分析错误。"
+}

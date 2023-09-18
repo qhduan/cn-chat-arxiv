@@ -1,0 +1,12 @@
+{
+    "title": "Unveiling Invariances via Neural Network Pruning. (arXiv:2309.08171v1 [cs.LG])",
+    "abstract": "Invariance describes transformations that do not alter data's underlying semantics. Neural networks that preserve natural invariance capture good inductive biases and achieve superior performance. Hence, modern networks are handcrafted to handle well-known invariances (ex. translations). We propose a framework to learn novel network architectures that capture data-dependent invariances via pruning. Our learned architectures consistently outperform dense neural networks on both vision and tabular datasets in both efficiency and effectiveness. We demonstrate our framework on multiple deep learning models across 3 vision and 40 tabular datasets.",
+    "link": "http://arxiv.org/abs/2309.08171",
+    "context": "Title: Unveiling Invariances via Neural Network Pruning. (arXiv:2309.08171v1 [cs.LG])\nAbstract: Invariance describes transformations that do not alter data's underlying semantics. Neural networks that preserve natural invariance capture good inductive biases and achieve superior performance. Hence, modern networks are handcrafted to handle well-known invariances (ex. translations). We propose a framework to learn novel network architectures that capture data-dependent invariances via pruning. Our learned architectures consistently outperform dense neural networks on both vision and tabular datasets in both efficiency and effectiveness. We demonstrate our framework on multiple deep learning models across 3 vision and 40 tabular datasets.",
+    "path": "papers/23/09/2309.08171.json",
+    "total_tokens": 716,
+    "translated_title": "通过神经网络剪枝揭示不变性",
+    "translated_abstract": "不变性描述了对数据底层语义没有影响的转换。保持自然不变性的神经网络具有良好的归纳偏差和出色的性能。因此，现代网络被手工设计用来处理众所周知的不变性（例如平移）。我们提出了一个框架，通过剪枝来学习捕捉数据相关的不变性的新型网络架构。我们学到的网络架构在视觉和表格数据集上都比密集神经网络在效率和效果上都表现出色。我们在3个视觉和40个表格数据集上展示了我们的框架。",
+    "tldr": "该论文提出了一种通过神经网络剪枝来学习捕捉数据相关的不变性的新型网络架构的框架。实验证明，这种学习的网络架构在视觉和表格数据集上都比密集神经网络表现出色，不仅效率高，而且效果好。",
+    "en_tdlr": "This paper proposes a framework for learning novel network architectures that capture data-dependent invariances through neural network pruning. Experimental results demonstrate that the learned architectures outperform dense neural networks on both vision and tabular datasets, showing superior efficiency and effectiveness."
+}

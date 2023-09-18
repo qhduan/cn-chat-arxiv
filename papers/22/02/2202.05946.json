@@ -1,0 +1,11 @@
+{
+    "title": "Artificial Intelligence and Statistical Collusion. (arXiv:2202.05946v4 [econ.TH] UPDATED)",
+    "abstract": "We develop a tractable model for studying strategic interactions between learning algorithms. We uncover a mechanism responsible for the emergence of algorithmic collusion. We observe that algorithms periodically coordinate on actions that are more profitable than static Nash equilibria. This novel collusive channel relies on an endogenous statistical linkage in the algorithms' estimates which we call spontaneous coupling. The model's parameters predict whether the statistical linkage will appear, and what market structures facilitate algorithmic collusion. We show that spontaneous coupling can sustain collusion in prices and market shares, complementing experimental findings in the literature. Finally, we apply our results to design algorithmic markets.",
+    "link": "http://arxiv.org/abs/2202.05946",
+    "context": "Title: Artificial Intelligence and Statistical Collusion. (arXiv:2202.05946v4 [econ.TH] UPDATED)\nAbstract: We develop a tractable model for studying strategic interactions between learning algorithms. We uncover a mechanism responsible for the emergence of algorithmic collusion. We observe that algorithms periodically coordinate on actions that are more profitable than static Nash equilibria. This novel collusive channel relies on an endogenous statistical linkage in the algorithms' estimates which we call spontaneous coupling. The model's parameters predict whether the statistical linkage will appear, and what market structures facilitate algorithmic collusion. We show that spontaneous coupling can sustain collusion in prices and market shares, complementing experimental findings in the literature. Finally, we apply our results to design algorithmic markets.",
+    "path": "papers/22/02/2202.05946.json",
+    "total_tokens": 853,
+    "translated_title": "人工智能与统计勾结",
+    "translated_abstract": "我们开发了一个可处理的模型来研究学习算法之间的战略互动。我们发现了一种导致算法勾结出现的机制。我们观察到算法周期性地协调行动，这些行动比静态纳什均衡更具利润性。这种新的勾结渠道依赖于算法估计中的内生统计关联，我们称之为自发耦合。模型的参数预测了统计关联是否会出现，以及什么市场结构有助于算法勾结。我们展示了自发耦合如何维持价格和市场份额上的勾结，这与文献中的实验证据相补充。最后，我们将结果应用于设计算法市场。",
+    "tldr": "本研究提出了一个可处理的模型来研究学习算法之间的战略互动，揭示了一种导致算法勾结出现的机制。通过自发耦合，算法周期性地协调行动，达到更高利润。该模型的参数可预测统计关联的出现和有利于算法勾结的市场结构，进一步展示了自发耦合如何在价格和市场份额上维持勾结，并应用于设计算法市场。"
+}

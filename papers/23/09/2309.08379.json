@@ -1,0 +1,12 @@
+{
+    "title": "PatFig: Generating Short and Long Captions for Patent Figures. (arXiv:2309.08379v1 [cs.CV])",
+    "abstract": "This paper introduces Qatent PatFig, a novel large-scale patent figure dataset comprising 30,000+ patent figures from over 11,000 European patent applications. For each figure, this dataset provides short and long captions, reference numerals, their corresponding terms, and the minimal claim set that describes the interactions between the components of the image. To assess the usability of the dataset, we finetune an LVLM model on Qatent PatFig to generate short and long descriptions, and we investigate the effects of incorporating various text-based cues at the prediction stage of the patent figure captioning process.",
+    "link": "http://arxiv.org/abs/2309.08379",
+    "context": "Title: PatFig: Generating Short and Long Captions for Patent Figures. (arXiv:2309.08379v1 [cs.CV])\nAbstract: This paper introduces Qatent PatFig, a novel large-scale patent figure dataset comprising 30,000+ patent figures from over 11,000 European patent applications. For each figure, this dataset provides short and long captions, reference numerals, their corresponding terms, and the minimal claim set that describes the interactions between the components of the image. To assess the usability of the dataset, we finetune an LVLM model on Qatent PatFig to generate short and long descriptions, and we investigate the effects of incorporating various text-based cues at the prediction stage of the patent figure captioning process.",
+    "path": "papers/23/09/2309.08379.json",
+    "total_tokens": 752,
+    "translated_title": "PatFig：为专利图生成短文和长文标题",
+    "translated_abstract": "本文介绍了Qatent PatFig，一个新颖的大规模专利图数据集，包括来自超过11,000个欧洲专利申请的30,000多个专利图。对于每个图，该数据集提供了短文和长文标题、参考编号及其相应术语，以及描述图像组件之间互动的最小索赔集。为了评估数据集的可用性，我们在Qatent PatFig上对LVLM模型进行了微调，以生成短文和长文描述，并研究了在专利图标题生成过程的预测阶段引入不同基于文本的线索的效果。",
+    "tldr": "本文介绍了Qatent PatFig数据集，该数据集提供了30,000多个专利图的短文和长文标题、参考编号、术语和描述图像组件之间互动的最小索赔集。在数据集上对LVLM模型进行微调后，发现引入不同基于文本的线索可以改善专利图标题生成的效果。",
+    "en_tdlr": "This paper introduces the Qatent PatFig dataset, which provides short and long captions, reference numerals, terms, and minimal claim sets for over 30,000 patent figures. Fine-tuning an LVLM model on this dataset shows that incorporating various text-based cues improves the generation of patent figure captions."
+}

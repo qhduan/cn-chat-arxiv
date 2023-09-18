@@ -1,0 +1,12 @@
+{
+    "title": "Supervised Stochastic Neighbor Embedding Using Contrastive Learning. (arXiv:2309.08077v1 [cs.LG])",
+    "abstract": "Stochastic neighbor embedding (SNE) methods $t$-SNE, UMAP are two most popular dimensionality reduction methods for data visualization. Contrastive learning, especially self-supervised contrastive learning (SSCL), has showed great success in embedding features from unlabeled data. The conceptual connection between SNE and SSCL has been exploited. In this work, within the scope of preserving neighboring information of a dataset, we extend the self-supervised contrastive approach to the fully-supervised setting, allowing us to effectively leverage label information. Clusters of samples belonging to the same class are pulled together in low-dimensional embedding space, while simultaneously pushing apart clusters of samples from different classes.",
+    "link": "http://arxiv.org/abs/2309.08077",
+    "context": "Title: Supervised Stochastic Neighbor Embedding Using Contrastive Learning. (arXiv:2309.08077v1 [cs.LG])\nAbstract: Stochastic neighbor embedding (SNE) methods $t$-SNE, UMAP are two most popular dimensionality reduction methods for data visualization. Contrastive learning, especially self-supervised contrastive learning (SSCL), has showed great success in embedding features from unlabeled data. The conceptual connection between SNE and SSCL has been exploited. In this work, within the scope of preserving neighboring information of a dataset, we extend the self-supervised contrastive approach to the fully-supervised setting, allowing us to effectively leverage label information. Clusters of samples belonging to the same class are pulled together in low-dimensional embedding space, while simultaneously pushing apart clusters of samples from different classes.",
+    "path": "papers/23/09/2309.08077.json",
+    "total_tokens": 736,
+    "translated_title": "使用对比学习的监督型随机邻域嵌入",
+    "translated_abstract": "随机邻域嵌入（SNE）方法t-SNE和UMAP是两种常用的数据可视化降维方法。对比学习，尤其是自监督对比学习（SSCL），在从无标签数据中嵌入特征方面取得了巨大成功。本研究在保留数据集邻域信息的范围内，将自监督对比学习方法扩展到全监督设置中，使我们能够有效利用标签信息。在低维嵌入空间中，将同一类别的样本聚集在一起，同时将不同类别的样本聚集分开。",
+    "tldr": "该论文将自监督对比学习方法扩展到全监督设置中，允许有效利用标签信息，并在保留数据集邻域信息的同时，将同一类别的样本聚集在一起，将不同类别的样本聚集分开。",
+    "en_tdlr": "This paper extends the self-supervised contrastive learning method to the fully-supervised setting, allowing effective utilization of label information, while preserving neighboring information of the dataset by clustering samples from the same class together and pushing apart samples from different classes."
+}

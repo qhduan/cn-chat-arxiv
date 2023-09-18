@@ -1,0 +1,11 @@
+{
+    "title": "How many Neurons do we need? A refined Analysis for Shallow Networks trained with Gradient Descent. (arXiv:2309.08044v1 [stat.ML])",
+    "abstract": "We analyze the generalization properties of two-layer neural networks in the neural tangent kernel (NTK) regime, trained with gradient descent (GD). For early stopped GD we derive fast rates of convergence that are known to be minimax optimal in the framework of non-parametric regression in reproducing kernel Hilbert spaces. On our way, we precisely keep track of the number of hidden neurons required for generalization and improve over existing results. We further show that the weights during training remain in a vicinity around initialization, the radius being dependent on structural assumptions such as degree of smoothness of the regression function and eigenvalue decay of the integral operator associated to the NTK.",
+    "link": "http://arxiv.org/abs/2309.08044",
+    "context": "Title: How many Neurons do we need? A refined Analysis for Shallow Networks trained with Gradient Descent. (arXiv:2309.08044v1 [stat.ML])\nAbstract: We analyze the generalization properties of two-layer neural networks in the neural tangent kernel (NTK) regime, trained with gradient descent (GD). For early stopped GD we derive fast rates of convergence that are known to be minimax optimal in the framework of non-parametric regression in reproducing kernel Hilbert spaces. On our way, we precisely keep track of the number of hidden neurons required for generalization and improve over existing results. We further show that the weights during training remain in a vicinity around initialization, the radius being dependent on structural assumptions such as degree of smoothness of the regression function and eigenvalue decay of the integral operator associated to the NTK.",
+    "path": "papers/23/09/2309.08044.json",
+    "total_tokens": 874,
+    "translated_title": "我们需要多少个神经元？用梯度下降训练的浅层网络的精细分析",
+    "translated_abstract": "我们在神经切向核（NTK）范式下，分析了用梯度下降（GD）训练的两层神经网络的泛化性质。对于早停的GD，我们导出了快速收敛的速度，这在非参数回归和再生核希尔伯特空间的框架中已知是最小值的最优解。在这过程中，我们精确地追踪了泛化所需的隐藏层神经元数量，并改进了现有结果。我们进一步展示了训练过程中权重保持在初始位置附近的情况，其半径取决于回归函数的平滑度和与NTK相关联的积分算子的特征值衰减程度。",
+    "tldr": "本论文在神经切向核（NTK）范式下，通过分析用梯度下降训练的两层神经网络的泛化性质，改进了现有结果，并得出了快速收敛的速度。此外，我们证明了训练过程中权重保持在初始位置附近，半径与回归函数的平滑度和NTK的积分算子的特征值衰减程度有关。"
+}

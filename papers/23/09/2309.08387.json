@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Graphics Representation with Differentiable Indirection. (arXiv:2309.08387v1 [cs.GR])",
+    "abstract": "We introduce differentiable indirection -- a novel learned primitive that employs differentiable multi-scale lookup tables as an effective substitute for traditional compute and data operations across the graphics pipeline. We demonstrate its flexibility on a number of graphics tasks, i.e., geometric and image representation, texture mapping, shading, and radiance field representation. In all cases, differentiable indirection seamlessly integrates into existing architectures, trains rapidly, and yields both versatile and efficient results.",
+    "link": "http://arxiv.org/abs/2309.08387",
+    "context": "Title: Efficient Graphics Representation with Differentiable Indirection. (arXiv:2309.08387v1 [cs.GR])\nAbstract: We introduce differentiable indirection -- a novel learned primitive that employs differentiable multi-scale lookup tables as an effective substitute for traditional compute and data operations across the graphics pipeline. We demonstrate its flexibility on a number of graphics tasks, i.e., geometric and image representation, texture mapping, shading, and radiance field representation. In all cases, differentiable indirection seamlessly integrates into existing architectures, trains rapidly, and yields both versatile and efficient results.",
+    "path": "papers/23/09/2309.08387.json",
+    "total_tokens": 626,
+    "translated_title": "使用可微间接引用的高效图形表示",
+    "translated_abstract": "我们引入了可微间接引用——一种新颖的学习原语，它使用可微分的多尺度查找表作为图形管线中传统计算和数据操作的有效替代方法。我们在几个图形任务中展示了其灵活性，包括几何和图像表示、纹理映射、着色和辐射场表示。在所有情况下，可微间接引用可以无缝集成到现有架构中，快速训练，并产生多样且高效的结果。",
+    "tldr": "本论文介绍了一种新的学习原语，使用可微分的多尺度查找表作为图形管线中传统计算和数据操作的有效替代方法。它在多个图形任务中展现了灵活性和高效性。",
+    "en_tdlr": "This paper introduces a novel learned primitive that uses differentiable multi-scale lookup tables as an efficient substitute for traditional compute and data operations across the graphics pipeline. It demonstrates versatility and efficiency in various graphics tasks."
+}

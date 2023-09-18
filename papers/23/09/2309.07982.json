@@ -1,0 +1,12 @@
+{
+    "title": "Uncertainty quantification for learned ISTA. (arXiv:2309.07982v1 [stat.ML])",
+    "abstract": "Model-based deep learning solutions to inverse problems have attracted increasing attention in recent years as they bridge state-of-the-art numerical performance with interpretability. In addition, the incorporated prior domain knowledge can make the training more efficient as the smaller number of parameters allows the training step to be executed with smaller datasets. Algorithm unrolling schemes stand out among these model-based learning techniques. Despite their rapid advancement and their close connection to traditional high-dimensional statistical methods, they lack certainty estimates and a theory for uncertainty quantification is still elusive. This work provides a step towards closing this gap proposing a rigorous way to obtain confidence intervals for the LISTA estimator.",
+    "link": "http://arxiv.org/abs/2309.07982",
+    "context": "Title: Uncertainty quantification for learned ISTA. (arXiv:2309.07982v1 [stat.ML])\nAbstract: Model-based deep learning solutions to inverse problems have attracted increasing attention in recent years as they bridge state-of-the-art numerical performance with interpretability. In addition, the incorporated prior domain knowledge can make the training more efficient as the smaller number of parameters allows the training step to be executed with smaller datasets. Algorithm unrolling schemes stand out among these model-based learning techniques. Despite their rapid advancement and their close connection to traditional high-dimensional statistical methods, they lack certainty estimates and a theory for uncertainty quantification is still elusive. This work provides a step towards closing this gap proposing a rigorous way to obtain confidence intervals for the LISTA estimator.",
+    "path": "papers/23/09/2309.07982.json",
+    "total_tokens": 732,
+    "translated_title": "为学习的ISTA进行不确定性量化",
+    "translated_abstract": "近年来，基于模型的深度学习方法在逆问题中已经引起越来越多的关注，因为它们在数值性能和解释性方面都处于最前沿。此外，结合先验领域知识可以使训练更加高效，因为较少的参数数量允许使用较小的数据集进行训练。在这些基于模型的学习技术中，算法展开方案脱颖而出。尽管它们的快速发展与传统的高维统计方法密切相关，但它们缺乏确定性估计，对于不确定性量化的理论仍然存在困难。本文提出了一种严谨的方法来获得LISTA估计量的置信区间，从而为填补这一空白迈出了一步。",
+    "tldr": "本文提出了一种严谨的方法来获得LISTA估计量的置信区间，为模型-based深度学习解决方案中的不确定性提供了理论支持。",
+    "en_tdlr": "This work proposes a rigorous method to obtain confidence intervals for the LISTA estimator, providing a theoretical support for uncertainty quantification in model-based deep learning solutions."
+}

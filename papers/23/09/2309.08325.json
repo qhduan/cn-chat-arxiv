@@ -1,0 +1,11 @@
+{
+    "title": "Distributional Inclusion Hypothesis and Quantifications: Probing Hypernymy in Functional Distributional Semantics. (arXiv:2309.08325v1 [cs.CL])",
+    "abstract": "Functional Distributional Semantics (FDS) models the meaning of words by truth-conditional functions. This provides a natural representation for hypernymy, but no guarantee that it is learnt when FDS models are trained on a corpus. We demonstrate that FDS models learn hypernymy when a corpus strictly follows the Distributional Inclusion Hypothesis. We further introduce a training objective that allows FDS to handle simple universal quantifications, thus enabling hypernymy learning under the reverse of DIH. Experimental results on both synthetic and real data sets confirm our hypotheses and the effectiveness of our proposed objective.",
+    "link": "http://arxiv.org/abs/2309.08325",
+    "context": "Title: Distributional Inclusion Hypothesis and Quantifications: Probing Hypernymy in Functional Distributional Semantics. (arXiv:2309.08325v1 [cs.CL])\nAbstract: Functional Distributional Semantics (FDS) models the meaning of words by truth-conditional functions. This provides a natural representation for hypernymy, but no guarantee that it is learnt when FDS models are trained on a corpus. We demonstrate that FDS models learn hypernymy when a corpus strictly follows the Distributional Inclusion Hypothesis. We further introduce a training objective that allows FDS to handle simple universal quantifications, thus enabling hypernymy learning under the reverse of DIH. Experimental results on both synthetic and real data sets confirm our hypotheses and the effectiveness of our proposed objective.",
+    "path": "papers/23/09/2309.08325.json",
+    "total_tokens": 770,
+    "translated_title": "分布包含假设与量化：在功能分布语义中探究上位词关系",
+    "translated_abstract": "功能分布语义（FDS）通过真条件函数对单词的含义进行建模。当语料库严格遵循分布包含假设时，FDS模型可以学习到上位词关系。我们进一步引入了一种训练目标，使得FDS模型可以处理简单的普遍量化，从而在分布包含假设的反向下实现上位词关系的学习。对合成数据集和真实数据集的实验结果验证了我们的假设以及我们提出的目标的有效性。",
+    "tldr": "本文研究了在功能分布语义中，当语料库严格遵循分布包含假设时，功能分布语义模型可以学习到上位词关系。同时，引入一种训练目标使得模型可以处理普遍量化，从而在分布包含假设的反向下实现上位词关系的学习。实验结果验证了这些假设和目标的有效性。"
+}

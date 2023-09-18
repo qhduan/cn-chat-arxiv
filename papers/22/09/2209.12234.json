@@ -1,0 +1,12 @@
+{
+    "title": "Diachronic Data Analysis Supports and Refines Conceptual Metaphor Theory. (arXiv:2209.12234v2 [cs.CL] UPDATED)",
+    "abstract": "As a contribution to metaphor analysis, we introduce a statistical, data-based investigation with empirical analysis of long-standing conjectures and a first-ever empirical exploration of the systematic features of metaphors. Conversely, this also makes metaphor theory available as a basis of meaning emergence that can be quantitatively explored and integrated into the framework of NLP.",
+    "link": "http://arxiv.org/abs/2209.12234",
+    "context": "Title: Diachronic Data Analysis Supports and Refines Conceptual Metaphor Theory. (arXiv:2209.12234v2 [cs.CL] UPDATED)\nAbstract: As a contribution to metaphor analysis, we introduce a statistical, data-based investigation with empirical analysis of long-standing conjectures and a first-ever empirical exploration of the systematic features of metaphors. Conversely, this also makes metaphor theory available as a basis of meaning emergence that can be quantitatively explored and integrated into the framework of NLP.",
+    "path": "papers/22/09/2209.12234.json",
+    "total_tokens": 607,
+    "translated_title": "跨时态数据分析支持和完善概念隐喻理论",
+    "translated_abstract": "作为对隐喻分析的贡献，我们引入了一种基于统计数据的研究方法，通过经验分析来探索长期以来的猜想，并首次对隐喻的系统特征进行了实证探索。反过来，这也使得隐喻理论可以作为意义出现的基础，可以通过定量的方法进行探索，并整合到自然语言处理的框架中。",
+    "tldr": "该论文通过统计数据分析和实证研究支持和完善概念隐喻理论，同时也将隐喻理论作为意义出现的基础，可以定量地探索并整合到自然语言处理的框架中。",
+    "en_tdlr": "This paper provides statistical and empirical analysis to support and refine conceptual metaphor theory, while also using metaphor theory as a basis for the emergence of meaning that can be quantitatively explored and integrated into the framework of natural language processing."
+}

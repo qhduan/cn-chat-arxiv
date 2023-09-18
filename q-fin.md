@@ -2,142 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Applying Deep Learning to Calibrate Stochastic Volatility Models.](http://arxiv.org/abs/2309.07843) | 本研究将深度学习技术应用于校准随机波动性模型，通过训练神经网络对基于Heston模型的标的资产进行定价，并且在校准方面取得了快速和准确的结果。 |
-| [^2] | [Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context.](http://arxiv.org/abs/2309.07708) | 本研究通过提出具有市场动态、股票代码和历史状态作为上下文的上下文市场数据集以及使用条件生成对抗网络（GAN）来实现对金融数据生成的控制。 |
-| [^3] | [An empirical study of profit and loss allocations.](http://arxiv.org/abs/2309.07667) | 本研究通过实证研究了利润和损失分配中的三种分解原则，发现一次一个分解会产生无法解释的损失，而顺序更新和平均顺序更新可以完全解释利润和损失，且顺序更新与更新顺序有关。此外，分解原则的结果也受子区间大小的影响。 |
-| [^4] | [Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach.](http://arxiv.org/abs/2309.07664) | 本研究使用审计方法探索了ChatGPT在求职者筛选中的系统偏见，研究发现语言提示和申请者姓名中的种族身份线索会影响ChatGPT的评估。 |
-| [^5] | [Long-Term Mean-Variance Optimization Under Mean-Reverting Equity Returns.](http://arxiv.org/abs/2309.07488) | 本文研究了长期均方差优化在均值回归股票收益下的应用，结果发现如果股票风险溢价缓慢回归，承诺长期确定性投资策略的投资者将实现更好的风险收益平衡。为求解该问题，应用了变分法原理，推导出了描述最优投资策略的欧拉-拉格朗日方程，问题等价于谱问题，可以得到最优策略的显式解。 |
-| [^6] | [Measuring Higher-Order Rationality with Belief Control.](http://arxiv.org/abs/2309.07427) | 本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。 |
-| [^7] | [The Fiscal Cost of Public Debt and Government Spending Shocks.](http://arxiv.org/abs/2309.07371) | 本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。 |
-| [^8] | [The effect of housewife labor on gdp calculations.](http://arxiv.org/abs/2309.07160) | 本研究通过理论分析和经验建模，探讨了家庭主妇劳动对GDP计算的影响。研究发现，人类特征的变化导致了有限理性个体特征的形成，女性更倾向于成为家庭主妇的选择。实证分析揭示了家庭主妇劳动的经济价值。 |
-| [^9] | [Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo.](http://arxiv.org/abs/2305.09166) | 本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。 |
+| [^1] | [Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision.](http://arxiv.org/abs/2309.08431) | 本文研究了集中流动性的常量产品市场，对动态调整流动性的战略性流动性提供者的财富动态进行了描述。通过推导出自融资和封闭形式的最优流动性提供策略，结合盈利能力、预测损失和集中风险，可以通过调整流动性范围来增加费用收入并从边际率的预期变化中获利。 |
+| [^2] | [On Sparse Grid Interpolation for American Option Pricing with Multiple Underlying Assets.](http://arxiv.org/abs/2309.08287) | 本文提出了一种基于稀疏网格插值的方法，用于定价包含多种标的资产的美式期权。通过动态规划和静态稀疏网格插值技术，我们能够高效地计算美式期权的继续价值函数，并通过减少插值点的数量实现计算效率的提高。数值实验结果表明该方法在定价美式算术和几何篮子看跌期权方面表现出色。 |
+| [^3] | [A Markovian empirical model for the VIX index and the pricing of the corresponding derivatives.](http://arxiv.org/abs/2309.08175) | 本文提出了一种VIX指数的经验模型，发现VIX具有长期经验分布，利用马尔可夫过程和适当函数$h$进行动态建模，并使用分离变量法解决了VIX期货和认购期权的定价问题。 |
+| [^4] | [Sources of capital growth.](http://arxiv.org/abs/2309.03403) | 资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。 |
+| [^5] | [Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations.](http://arxiv.org/abs/2309.02338) | 本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。 |
+| [^6] | [Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment.](http://arxiv.org/abs/2303.11956) | 本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。 |
+| [^7] | [The Impact of the #MeToo Movement on Language at Court -- A text-based causal inference approach.](http://arxiv.org/abs/2209.00409) | 本研究通过一种基于文本的因果推断方法，评估了#MeToo运动对美国法庭语言的影响，结果发现该运动对司法意见中关于性暴力案件的语言产生了显著影响。 |
+| [^8] | [On the skew and curvature of implied and local volatilities.](http://arxiv.org/abs/2205.11185) | 本文研究了本地波动率和隐含波动率的短期关系，并提出了关于斜率和曲率之间的规则。 |
 
 # 详细
 
-[^1]: 将深度学习应用于校准随机波动性模型
+[^1]: 去中心化金融与自动化市场做市：可预测的损失和最优流动性提供
 
-    Applying Deep Learning to Calibrate Stochastic Volatility Models. (arXiv:2309.07843v1 [q-fin.CP])
+    Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision. (arXiv:2309.08431v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2309.07843](http://arxiv.org/abs/2309.07843)
+    [http://arxiv.org/abs/2309.08431](http://arxiv.org/abs/2309.08431)
 
-    本研究将深度学习技术应用于校准随机波动性模型，通过训练神经网络对基于Heston模型的标的资产进行定价，并且在校准方面取得了快速和准确的结果。
-
-    
-
-    随机波动性模型是一种波动率是随机过程的模型，可以捕捉到隐含波动率曲面的大部分基本特征，并提供更真实的波动率笑曲线或偏斜动态。然而，它们存在一个重要问题，即校准时间过长。最近，基于深度学习（DL）技术的替代校准方法已被用于构建快速且准确的校准解决方案。Huge和Savine开发了一种差分深度学习（DDL）方法，该方法在样本中训练了机器学习模型，其中样本不仅包括特征和标签，还包括标签对特征的微分。本研究旨在将DDL技术应用于定价基本欧洲期权（即校准工具），具体而言，是在基于Heston模型的标的资产上定价看涨期权，并使用训练好的网络对模型进行校准。DDL可以实现快速训练和准确定价。训练好的神经网络戏剧性地
-
-    Stochastic volatility models, where the volatility is a stochastic process, can capture most of the essential stylized facts of implied volatility surfaces and give more realistic dynamics of the volatility smile or skew. However, they come with the significant issue that they take too long to calibrate.  Alternative calibration methods based on Deep Learning (DL) techniques have been recently used to build fast and accurate solutions to the calibration problem. Huge and Savine developed a Differential Deep Learning (DDL) approach, where Machine Learning models are trained on samples of not only features and labels but also differentials of labels to features. The present work aims to apply the DDL technique to price vanilla European options (i.e. the calibration instruments), more specifically, puts when the underlying asset follows a Heston model and then calibrate the model on the trained network. DDL allows for fast training and accurate pricing. The trained neural network dramatic
-    
-[^2]: 添加语义上下文的控制力量，为金融市场数据生成引入Market-GAN
-
-    Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context. (arXiv:2309.07708v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.07708](http://arxiv.org/abs/2309.07708)
-
-    本研究通过提出具有市场动态、股票代码和历史状态作为上下文的上下文市场数据集以及使用条件生成对抗网络（GAN）来实现对金融数据生成的控制。
+    本文研究了集中流动性的常量产品市场，对动态调整流动性的战略性流动性提供者的财富动态进行了描述。通过推导出自融资和封闭形式的最优流动性提供策略，结合盈利能力、预测损失和集中风险，可以通过调整流动性范围来增加费用收入并从边际率的预期变化中获利。
 
     
 
-    金融模拟器在提升预测准确性、管理风险和促进战略金融决策方面发挥着重要作用。尽管已经开发了金融市场模拟方法，但现有的框架常常难以适应专门的模拟上下文。我们将挑战归结为：i）当前的金融数据集不包含上下文标签；ii）当前的技术没有设计用于生成具有上下文控制的金融数据，与其他模态相比，这要求更高的精度；iii）由于金融数据的非平稳、噪声性质，生成与上下文对齐、高保真度的数据存在困难。为了解决这些挑战，我们的贡献是：i）提出了具有市场动态、股票代码和历史状态作为上下文的上下文市场数据集，利用线性回归和动态时间扭曲聚类结合的市场动态建模方法提取市场动态；ii）我们预先准备了Market-GAN模型，该模型通过使用条件生成对抗网络（GAN）的方法以及编码上下文向量的方式来实现对金融数据生成的控制。
+    在这篇论文中，我们对动态调整其在集中流动性池中提供流动性范围的战略性流动性提供者的连续时间财富动态进行了表征。他们的财富来自手续费收入和他们在池中持有的资产的价值。接下来，我们推导出了一种自融资和封闭形式的最优流动性提供策略，其中流动性提供者的范围宽度由池的盈利能力（提供费用减去燃气费用）、可预测损失（持仓的损失）和集中风险决定。集中风险是指如果池中的边际兑换率（类似于限价订单簿中的中间价）超出流动性提供者的范围，费用收入会下降。当边际兑换率由随机漂移驱动时，我们展示了如何通过最优调整流动性范围来增加费用收入并从边际率的预期变化中获利。
 
-    Financial simulators play an important role in enhancing forecasting accuracy, managing risks, and fostering strategic financial decision-making. Despite the development of financial market simulation methodologies, existing frameworks often struggle with adapting to specialized simulation context. We pinpoint the challenges as i) current financial datasets do not contain context labels; ii) current techniques are not designed to generate financial data with context as control, which demands greater precision compared to other modalities; iii) the inherent difficulties in generating context-aligned, high-fidelity data given the non-stationary, noisy nature of financial data. To address these challenges, our contributions are: i) we proposed the Contextual Market Dataset with market dynamics, stock ticker, and history state as context, leveraging a market dynamics modeling method that combines linear regression and Dynamic Time Warping clustering to extract market dynamics; ii) we prese
+    Constant product markets with concentrated liquidity (CL) are the most popular type of automated market makers. In this paper, we characterise the continuous-time wealth dynamics of strategic LPs who dynamically adjust their range of liquidity provision in CL pools. Their wealth results from fee income and the value of their holdings in the pool. Next, we derive a self-financing and closed-form optimal liquidity provision strategy where the width of the LP's liquidity range is determined by the profitability of the pool (provision fees minus gas fees), the predictable losses (PL) of the LP's position, and concentration risk. Concentration risk refers to the decrease in fee revenue if the marginal exchange rate (akin to the midprice in a limit order book) in the pool exits the LP's range of liquidity. When the marginal rate is driven by a stochastic drift, we show how to optimally skew the range of liquidity to increase fee revenue and profit from the expected changes in the marginal ra
     
-[^3]: 利润和损失分配的实证研究
+[^2]: 关于稀疏网格插值在多标的资产美式期权定价中的应用
 
-    An empirical study of profit and loss allocations. (arXiv:2309.07667v1 [q-fin.PM])
+    On Sparse Grid Interpolation for American Option Pricing with Multiple Underlying Assets. (arXiv:2309.08287v1 [math.NA])
 
-    [http://arxiv.org/abs/2309.07667](http://arxiv.org/abs/2309.07667)
+    [http://arxiv.org/abs/2309.08287](http://arxiv.org/abs/2309.08287)
 
-    本研究通过实证研究了利润和损失分配中的三种分解原则，发现一次一个分解会产生无法解释的损失，而顺序更新和平均顺序更新可以完全解释利润和损失，且顺序更新与更新顺序有关。此外，分解原则的结果也受子区间大小的影响。
-
-    
-
-    每个业务年度的投资利润和损失（p＆l）被分解为不同的风险因素（如利率、信用利差、外汇汇率等）是一项监管要求的任务，例如 Solvency 2。目前有三种常见的分解原则：一次一个（OAT）、顺序更新（SU）和平均顺序更新（ASU）分解。SU和ASU分解完全解释了p＆l。然而，OAT分解会产生一些无法解释的p＆l。SU分解取决于风险因素的顺序或标签。这三种分解可以使用年度、季度、月度或日常数据在不同的子区间定义。在本研究中，我们经验性地量化了OAT分解的无法解释的p＆l，SU分解对更新顺序的依赖以及三种分解原则在子区间大小上的依赖程度。
-
-    The decomposition of the investment profit and loss (p&l) for each business year into different risk factors (e.g., interest rates, credit spreads, foreign exchange rate etc.) is a task that is regulatory required, e.g., by Solvency 2. Three different decomposition principles are prevalent: one-at-a-time (OAT), sequential updating (SU) and average sequential updating (ASU) decompositions. The SU and the ASU decompositions explain the p&l fully. However, the OAT decomposition generates some unexplained p&l. The SU decomposition depends on the order or labeling of the risk factors. The three decompositions can be defined on different sub-intervals using annually, quarterly, monthly or daily data. In this research, we empirically quantify: the unexplained p\&l of the OAT decomposition; the dependence of the SU decomposition on the update order; and how much the three decomposition principles depend on the size of the sub-intervals.
-    
-[^4]: 计算机说“不行”: 使用审计方法探索ChatGPT中的系统招聘偏见
-
-    Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach. (arXiv:2309.07664v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.07664](http://arxiv.org/abs/2309.07664)
-
-    本研究使用审计方法探索了ChatGPT在求职者筛选中的系统偏见，研究发现语言提示和申请者姓名中的种族身份线索会影响ChatGPT的评估。
+    本文提出了一种基于稀疏网格插值的方法，用于定价包含多种标的资产的美式期权。通过动态规划和静态稀疏网格插值技术，我们能够高效地计算美式期权的继续价值函数，并通过减少插值点的数量实现计算效率的提高。数值实验结果表明该方法在定价美式算术和几何篮子看跌期权方面表现出色。
 
     
 
-    大型语言模型在优化职业活动方面具有重要潜力，如简化人员选拔程序。然而，人们担心这些模型会延续预训练数据中嵌入的系统偏见。这项研究探讨了ChatGPT在求职者筛选方面是否表现出种族或性别偏见，ChatGPT是一个能够生成类似人类回应的聊天机器人。通过使用一种通信审计方法，我模拟了一个简历筛选任务，指示聊天机器人评价虚构的申请者简历，这些简历只有名字不同，以暗示种族和性别身份。通过比较阿拉伯、亚洲、美国黑人、中非、荷兰、东欧、西班牙裔、土耳其和美国白人男性和女性申请者的评分，我发现种族和性别身份会影响ChatGPT的评估。种族偏见似乎部分源于提示语言，部分源于申请者姓名中的种族身份线索。
+    本文提出了一种基于高效积分和稀疏网格的多项式插值方法，用于定价包含多种标的资产的美式期权。该方法首先利用动态规划的思想对美式期权进行定价，然后使用静态稀疏网格对每个时间步长的继续价值函数进行插值。为了提高效率，我们首先通过缩放tanh映射将定义域从$\mathbb{R}^d$转换到$(-1,1)^d$，然后通过一个气泡函数消除在$(-1,1)^d$上的边界奇异性，并同时显著减少插值点的数量。我们严格证明了通过适当选择气泡函数，所得到的函数在一定阶数的混合导数上具有有界性，从而为使用稀疏网格提供了理论基础。数值实验结果表明，该方法在美式算术和几何篮子看跌期权定价中效果显著。
 
-    Large language models offer significant potential for optimising professional activities, such as streamlining personnel selection procedures. However, concerns exist about these models perpetuating systemic biases embedded into their pre-training data. This study explores whether ChatGPT, a chatbot producing human-like responses to language tasks, displays ethnic or gender bias in job applicant screening. Using a correspondence audit approach, I simulated a CV screening task in which I instructed the chatbot to rate fictitious applicant profiles only differing in names, signalling ethnic and gender identity. Comparing ratings of Arab, Asian, Black American, Central African, Dutch, Eastern European, Hispanic, Turkish, and White American male and female applicants, I show that ethnic and gender identity influence ChatGPT's evaluations. The ethnic bias appears to arise partly from the prompts' language and partly from ethnic identity cues in applicants' names. Although ChatGPT produces n
+    In this work, we develop a novel efficient quadrature and sparse grid based polynomial interpolation method to price American options with multiple underlying assets. The approach is based on first formulating the pricing of American options using dynamic programming, and then employing static sparse grids to interpolate the continuation value function at each time step. To achieve high efficiency, we first transform the domain from $\mathbb{R}^d$ to $(-1,1)^d$ via a scaled tanh map, and then remove the boundary singularity of the resulting multivariate function over $(-1,1)^d$ by a bubble function and simultaneously, to significantly reduce the number of interpolation points. We rigorously establish that with a proper choice of the bubble function, the resulting function has bounded mixed derivatives up to a certain order, which provides theoretical underpinnings for the use of sparse grids. Numerical experiments for American arithmetic and geometric basket put options with the number
     
-[^5]: 长期均方差优化在均值回归股票收益下的应用
+[^3]: 《VIX指数的马尔可夫经验模型及相应衍生品的定价》
 
-    Long-Term Mean-Variance Optimization Under Mean-Reverting Equity Returns. (arXiv:2309.07488v1 [q-fin.MF])
+    A Markovian empirical model for the VIX index and the pricing of the corresponding derivatives. (arXiv:2309.08175v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2309.07488](http://arxiv.org/abs/2309.07488)
+    [http://arxiv.org/abs/2309.08175](http://arxiv.org/abs/2309.08175)
 
-    本文研究了长期均方差优化在均值回归股票收益下的应用，结果发现如果股票风险溢价缓慢回归，承诺长期确定性投资策略的投资者将实现更好的风险收益平衡。为求解该问题，应用了变分法原理，推导出了描述最优投资策略的欧拉-拉格朗日方程，问题等价于谱问题，可以得到最优策略的显式解。
-
-    
-
-    成为长期投资者已经成为支持投资更大风险资产的一个论据，但是尽管直观上具有吸引力，很少有人确切说明为什么资本市场会为长期投资者提供比其他投资者更好的机会。本文显示，如果实际上股票风险溢价是缓慢回归的，那么承诺长期确定性投资策略的投资者在均值方差优化中将实现更好的风险收益平衡比短期投资期限的投资者。众所周知，均值方差优化问题不能通过动态规划来求解。相反，应用变分法原理推导出了描述最优投资策略的欧拉-拉格朗日方程。主要结果是优化问题等价于谱问题，通过它可以得到最优投资策略的显式解。
-
-    Being a long-term investor has become an argument by itself to sustain larger allocations to risky assets, but - although intuitively appealing - it is rarely stated exactly why capital markets would provide a better opportunity set to investors with long investment horizons than to other investors. In this paper, it is shown that if in fact the equity risk-premium is slowly mean-reverting then an investor committing to a long-term deterministic investment strategy would realize a better risk-return trade-off in a mean-variance optimization than investors with shorter investment horizons. It is well known that the problem of mean-variance optimization cannot be solved by dynamic programming. Instead, the principle of Calculus of Variations is applied to derive an Euler-Lagrange equation characterizing the optimal investment strategy. It is a main result that the optimization problem is equivalent to a spectral problem by which explicit solutions to the optimal investment strategy can b
-    
-[^6]: 用信念控制来衡量高阶理性
-
-    Measuring Higher-Order Rationality with Belief Control. (arXiv:2309.07427v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.07427](http://arxiv.org/abs/2309.07427)
-
-    本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。
+    本文提出了一种VIX指数的经验模型，发现VIX具有长期经验分布，利用马尔可夫过程和适当函数$h$进行动态建模，并使用分离变量法解决了VIX期货和认购期权的定价问题。
 
     
 
-    仅基于选择数据确定个体的战略推理能力是一项复杂的任务。这种复杂性源于复杂的玩家可能对其他人有非均衡的信念，导致非均衡的行为。在我们的研究中，我们将人类参与者与已知完全理性的计算机玩家配对。通过使用机器人玩家，我们能够将有限的推理能力与信念形成和社会偏差相区分开来。我们的研究结果表明，当与机器人配对时，被试表现出始终较高的理性水平，并在不同游戏中保持稳定的理性水平，相比之下与人类配对时则不然。这表明战略推理可能的确是个体的一种一贯特征。此外，确定的理性限制可以作为评估个体对他人信念适当控制时的战略能力的指标。
+    本文提出了一种VIX指数的经验模型。我们的研究结果表明VIX指数具有长期的经验分布。为了描述其动态变化，我们采用了一个具有均匀分布作为不变分布且包含适当函数$h$的连续时间马尔可夫过程。我们发现$h$是VIX数据经验分布的反函数。此外，我们利用分离变量法得到了对VIX期货和认购期权定价问题的精确解。
 
-    Determining an individual's strategic reasoning capability based solely on choice data is a complex task. This complexity arises because sophisticated players might have non-equilibrium beliefs about others, leading to non-equilibrium actions. In our study, we pair human participants with computer players known to be fully rational. This use of robot players allows us to disentangle limited reasoning capacity from belief formation and social biases. Our results show that, when paired with robots, subjects consistently demonstrate higher levels of rationality and maintain stable rationality levels across different games compared to when paired with humans. This suggests that strategic reasoning might indeed be a consistent trait in individuals. Furthermore, the identified rationality limits could serve as a measure for evaluating an individual's strategic capacity when their beliefs about others are adequately controlled.
+    In this paper, we propose an empirical model for the VIX index. Our findings indicate that the VIX has a long-term empirical distribution. To model its dynamics, we utilize a continuous-time Markov process with a uniform distribution as its invariant distribution and a suitable function $h$. We determined that $h$ is the inverse function of the VIX data's empirical distribution. Additionally, we use the method of variables of separation to get the exact solution to the pricing problem for VIX futures and call options.
     
-[^7]: 公共债务的财政成本和政府支出冲击
+[^4]: 资本增长的来源
 
-    The Fiscal Cost of Public Debt and Government Spending Shocks. (arXiv:2309.07371v1 [econ.GN])
+    Sources of capital growth. (arXiv:2309.03403v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.07371](http://arxiv.org/abs/2309.07371)
+    [http://arxiv.org/abs/2309.03403](http://arxiv.org/abs/2309.03403)
 
-    本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。
-
-    
-
-    本文研究了公共债务成本如何塑造财政政策及其对经济的影响。利用美国的历史数据，我表明当债务服务成为财政负担时，政府通过限制债务发行来应对支出冲击。因此，初始冲击只在短期内引发对公共支出的有限增加，并且甚至导致长期内的支出逆转。在这种情况下，财政政策失去了刺激经济活动的能力。这一结果是由于财政当局限制自身借款能力以确保公共债务可持续性。这些发现在多个识别和估计策略下都具有鲁棒性。
-
-    This paper investigates how the cost of public debt shapes fiscal policy and its effect on the economy. Using U.S. historical data, I show that when servicing the debt creates a fiscal burden, the government responds to spending shocks by limiting debt issuance. As a result, the initial shock triggers only a limited increase in public spending in the short run, and even leads to spending reversal in the long run. Under these conditions, fiscal policy loses its ability to stimulate economic activity. This outcome arises as the fiscal authority limits its own ability to borrow to ensure public debt sustainability. These findings are robust to several identification and estimation strategies.
-    
-[^8]: 主妇劳动对GDP计算的影响
-
-    The effect of housewife labor on gdp calculations. (arXiv:2309.07160v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.07160](http://arxiv.org/abs/2309.07160)
-
-    本研究通过理论分析和经验建模，探讨了家庭主妇劳动对GDP计算的影响。研究发现，人类特征的变化导致了有限理性个体特征的形成，女性更倾向于成为家庭主妇的选择。实证分析揭示了家庭主妇劳动的经济价值。
+    资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。
 
     
 
-    本研究试图通过理论分析揭示劳动力的演化发展。以衡量社会福利的GDP为例，试图通过经验建模来衡量家庭主妇劳动的经济价值。为此，首先质疑了正统（主流）经济理论中劳动的概念；然后，摒弃劳动就业关系，考察了在资本主义体制下失业的无偿家庭主妇劳动对GDP的影响。在理论分析中，确定了人类特征的变化使其远离理性，形成了有限理性和异质个体特征的限制理性个体特征。将女性定义为异质个体的新例子，因为她们更适合有限理性个体的定义，即更倾向于成为家庭主妇。在本研究的实证分析中，对家庭主妇劳动进行了研究。
+    根据国民账户数据显示，净储蓄或消费的变化与市值资本增长率的变化（资本加速度）之间没有影响。因此，资本增长和加速似乎不依赖于净储蓄或消费的限制。我们探讨了这种可能性，并讨论了对经济教育和公共政策的影响。
 
-    In this study, the evolutionary development of labor has been tried to be revealed based on theoretical analysis. Using the example of gdp, which is an indicator of social welfare, the economic value of the labor of housewives was tried to be measured with an empirical modeling. To this end; first of all, the concept of labor was questioned in orthodox (mainstream) economic theories; then, by abstracting from the labor-employment relationship, it was examined what effect the labor of unpaid housewives who are unemployed in the capitalist system could have on gdp. In theoretical analysis; It has been determined that the changing human profile moves away from rationality and creates limited rationality and, accordingly, a heterogeneous individual profile. Women were defined as the new example of heterogeneous individuals, as those who best fit the definition of limited rational individuals because they prefer to be housewives. In the empirical analysis of the study, housewife labor was t
+    Data from national accounts show no effect of change in net saving or consumption, in ratio to market-value capital, on change in growth rate of market-value capital (capital acceleration). Thus it appears that capital growth and acceleration arrive without help from net saving or consumption restraint. We explore ways in which this is possible, and discuss implications for economic teaching and public policy
     
-[^9]: 最小二乘蒙特卡罗中的有限差分解法
+[^5]: 低地球轨道（LEO）卫星宽带星座的可持续性评估
 
-    Finite Difference Solution Ansatz approach in Least-Squares Monte Carlo. (arXiv:2305.09166v1 [q-fin.GN])
+    Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations. (arXiv:2309.02338v1 [astro-ph.EP])
 
-    [http://arxiv.org/abs/2305.09166](http://arxiv.org/abs/2305.09166)
+    [http://arxiv.org/abs/2309.02338](http://arxiv.org/abs/2309.02338)
 
-    本文提出了一种通用的数值方案，使用低维有限差分法的精确解来构建条件期望继续支付的假设，并将其用于线性回归，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。
+    本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。
 
     
 
-    本文提出了一种简单而有效的方法，以提高在美式期权定价中最小二乘蒙特卡罗方法的精确性。关键思想是使用低维有限差分法的精确解来构建条件期望继续支付的假设，用于线性回归。该方法在解决向后偏微分方程和蒙特卡罗模拟方面建立了桥梁，旨在实现两者的最佳结合。我们通过实际示例说明该技术，包括百慕大期权和最差发行人可赎回票据。该方法可被视为跨越各种资产类别的通用数值方案，特别是在任意维度下，作为定价美式衍生产品的准确方法。
+    超大型星座的增长迅速增加了将新卫星送入空间所需的火箭发射次数。虽然低地球轨道（LEO）宽带卫星有助于连接未连通的社区并实现可持续发展目标，但也存在一系列负面环境外部性，包括火箭燃料燃烧和由此产生的环境排放。我们对三个主要LEO星座的第一阶段进行可持续性分析，包括Amazon Kuiper（3,236颗卫星）、OneWeb（648颗卫星）和SpaceX Starlink（4,425颗卫星）。在基准方案下，经过五年，我们发现Kuiper的每位用户二氧化碳当量（CO$_2$eq）为0.70±0.34吨，OneWeb为1.41±0.71吨，Starlink为0.47±0.15吨CO$_2$eq/用户。然而，在最坏情况下的排放情景中，这些值增加到Kuiper的3.02±1.48吨，OneWeb的1.7±0.71吨和Starlink的1.04±0.33吨CO$_2$eq/用户。
 
-    This article presents a simple but effective approach to improve the accuracy of Least-Squares Monte Carlo for American-style options. The key idea is to construct the ansatz of conditional expected continuation payoff using the exact solution from low dimensional finite difference methods, to be used in linear regression. This approach builds a bridge between solving backward partial differential equations and a Monte Carlo simulation, aiming at achieving the best of both worlds. We illustrate the technique with realistic examples including Bermuda options and worst of issuer callable notes. The method can be considered as a generic numerical scheme across various asset classes, in particular, as an accurate method for pricing American-style derivatives under arbitrary dimensions.
+    The growth of mega-constellations is rapidly increasing the number of rocket launches required to place new satellites in space. While Low Earth Orbit (LEO) broadband satellites help to connect unconnected communities and achieve the Sustainable Development Goals, there are also a range of negative environmental externalities, from the burning of rocket fuels and resulting environmental emissions. We present sustainability analytics for phase 1 of the three main LEO constellations including Amazon Kuiper (3,236 satellites), OneWeb (648 satellites), and SpaceX Starlink (4,425 satellites). In baseline scenarios over five years, we find a per subscriber carbon dioxide equivalent (CO$_2$eq) of 0.70$\pm$0.34 tonnes for Kuiper, 1.41$\pm$0.71 tonnes for OneWeb and 0.47$\pm$0.15 tonnes CO$_2$eq/subscriber for Starlink. However, in the worst-case emissions scenario these values increase to 3.02$\pm$1.48 tonnes for Kuiper, 1.7$\pm$0.71 tonnes for OneWeb and 1.04$\pm$0.33 tonnes CO$_2$eq/subscrib
+    
+[^6]: 基于一般均衡的大规模教育改革：印度回归不连续证据的评论
+
+    Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment. (arXiv:2303.11956v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.11956](http://arxiv.org/abs/2303.11956)
+
+    本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。
+
+    
+
+    本文重新分析了 Khanna (2023) 中通过回归不连续设计研究印度教育对劳动力市场的影响的内容。在图形初步分析中，反转绘图软件默认值的覆盖极大地减少了不连续性的出现。在数据中缺少离不连续点四个街区；修复后削减了对学校和对数工资的简化形式影响分别为62％和75％。使用一致的方差估计器，并将其聚类处理到地理治疗单元，进一步削弱了积极影响的推断。一般均衡效应和替代弹性的估计不是无偏的，且有效方差为无限大。
+
+    This paper reanalyzes Khanna (2023), which studies labor market effects of schooling in India through a regression discontinuity design. In graphical preliminaries, reversing overrides of the plotting software's defaults greatly reduces the appearance of discontinuities. Absent from the data are four districts close to the discontinuity; restoring them cuts the reduced-form impacts on schooling and log wages by 62% and 75%. Using a consistent variance estimator, and clustering it at the geographic unit of treatment, further weakens the inference of positive impact. The estimates of general equilibrium effects and elasticities of substitution are not unbiased and have effectively infinite variance.
+    
+[^7]: #MeToo运动对法庭语言的影响--一种基于文本因果推断方法的研究
+
+    The Impact of the #MeToo Movement on Language at Court -- A text-based causal inference approach. (arXiv:2209.00409v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.00409](http://arxiv.org/abs/2209.00409)
+
+    本研究通过一种基于文本的因果推断方法，评估了#MeToo运动对美国法庭语言的影响，结果发现该运动对司法意见中关于性暴力案件的语言产生了显著影响。
+
+    
+
+    本研究评估了#MeToo运动对51个美国州和联邦上诉法院关于性暴力相关案件的司法意见中使用的语言的影响。该研究引入了各种指标来量化法庭中的参与者使用的语言，这种语言暗示性地将责任转嫁给受害者。其中一个指标衡量了作为语法主语提及受害者的频率，因为心理学领域的研究表明，受害者被作为语法主语提及的次数越多，受到的责怪就越多。另外两个衡量受害者指责程度的指数捕捉了句子中涉及受害者和/或施害者的情感和上下文。此外，司法意见被转化为词袋和tf-idf向量，以便研究语言随时间的演变。通过D因果效应估算了#MeToo运动的因果影响。
+
+    This study assesses the effect of the #MeToo movement on the language used in judicial opinions on sexual violence related cases from 51 U.S. state and federal appellate courts. The study introduces various indicators to quantify the extent to which actors in courtrooms employ language that implicitly shifts responsibility away from the perpetrator and onto the victim. One indicator measures how frequently the victim is mentioned as the grammatical subject, as research in the field of psychology suggests that victims are assigned more blame the more often they are referred to as the grammatical subject. The other two indices designed to gauge the level of victim-blaming capture the sentiment of and the context in sentences referencing the victim and/or perpetrator. Additionally, judicial opinions are transformed into bag-of-words and tf-idf vectors to facilitate the examination of the evolution of language over time. The causal effect of the #MeToo movement is estimated by means of a D
+    
+[^8]: 关于暗含波动率和本地波动率的偏斜和曲率
+
+    On the skew and curvature of implied and local volatilities. (arXiv:2205.11185v3 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2205.11185](http://arxiv.org/abs/2205.11185)
+
+    本文研究了本地波动率和隐含波动率的短期关系，并提出了关于斜率和曲率之间的规则。
+
+    
+
+    本文研究了本地波动率曲面和隐含波动率曲面的短期关系。基于Malliavin微积分技术，我们的结果得到了最近关于粗糙波动率的$\frac{1}{H+3/2}$规则（其中$H$表示波动率过程的Hurst参数），该规则表明无风险价格的隐含波动率的短期斜率是相应本地波动率斜率的$\frac{1}{H+3/2}$。此外，我们发现隐含波动率的无风险价格的短端曲率可以用本地波动率的短端偏斜和曲率表示，反之亦然，并且这种关系取决于$H$。
+
+    In this paper, we study the relationship between the short-end of the local and the implied volatility surfaces. Our results, based on Malliavin calculus techniques, recover the recent $\frac{1}{H+3/2}$ rule (where $H$ denotes the Hurst parameter of the volatility process) for rough volatilitites (see Bourgey, De Marco, Friz, and Pigato (2022)), that states that the short-time skew slope of the at-the-money implied volatility is $\frac{1}{H+3/2}$ the corresponding slope for local volatilities. Moreover, we see that the at-the-money short-end curvature of the implied volatility can be written in terms of the short-end skew and curvature of the local volatility and viceversa, and that this relationship depends on $H$.
     
 

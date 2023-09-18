@@ -2,127 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach.](http://arxiv.org/abs/2309.07664) | 本研究使用审计方法探索了ChatGPT在求职者筛选中的系统偏见，研究发现语言提示和申请者姓名中的种族身份线索会影响ChatGPT的评估。 |
-| [^2] | [Causal inference in network experiments: regression-based analysis and design-based properties.](http://arxiv.org/abs/2309.07476) | 本文研究了网络实验中的因果推断。研究发现远离焦点个体的处理对焦点个体的效应会减弱但仍有可能不为零。提出了一种基于回归分析的方法，该方法不仅能够提供标准误估计器，还能够整合协变量。 |
-| [^3] | [Measuring Higher-Order Rationality with Belief Control.](http://arxiv.org/abs/2309.07427) | 本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。 |
-| [^4] | [The Fiscal Cost of Public Debt and Government Spending Shocks.](http://arxiv.org/abs/2309.07371) | 本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。 |
-| [^5] | [Linking Mechanisms: Limits and Robustness.](http://arxiv.org/abs/2309.07363) | 本文研究了配额机制在代理人面临多个决策且货币转移不可行时的应用。研究发现，随着决策数量的增加，配额机制可以实现与使用转移的独立机制相同的社会选择函数集合，并且对于代理对彼此的信念是鲁棒的。研究还发现，为了设置正确的配额，设计者必须对环境有精确的了解，否则只能实施平凡的社会选择规则。同时，配额使得报告的分布成为共知。 |
-| [^6] | [The effect of housewife labor on gdp calculations.](http://arxiv.org/abs/2309.07160) | 本研究通过理论分析和经验建模，探讨了家庭主妇劳动对GDP计算的影响。研究发现，人类特征的变化导致了有限理性个体特征的形成，女性更倾向于成为家庭主妇的选择。实证分析揭示了家庭主妇劳动的经济价值。 |
-| [^7] | [Rank-Preserving Multidimensional Mechanisms.](http://arxiv.org/abs/2209.10137) | 这篇论文展示了在多个异构物品的机制设计问题与在相同物品的机制设计问题之间的等价性，同时提出了保持排名的对称和激励相容机制，并在三个应用中进行了使用。 |
-| [^8] | [Estimating Continuous Treatment Effects in Panel Data using Machine Learning with a Climate Application.](http://arxiv.org/abs/2207.08789) | 这篇论文介绍了一种在面板数据中估计连续处理效应的新的半参数估计器，并利用机器学习方法和双去偏机器学习技术提高了估计的准确性。研究使用这一方法衡量了极端高温对美国玉米产量的影响，发现其效应比传统线性回归方法估计的效应大50%。 |
+| [^1] | [Sources of capital growth.](http://arxiv.org/abs/2309.03403) | 资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。 |
+| [^2] | [Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations.](http://arxiv.org/abs/2309.02338) | 本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。 |
+| [^3] | [Group knowledge and individual introspection.](http://arxiv.org/abs/2305.08729) | 本文研究了分布式知识，对不同种类的代理人进行分类，并通过模型表述交流和推理过程，给出了分布式知识的两种特征描述，即知识运算符和可能关系，并揭示了两种显着不同的分布式知识模型。 |
+| [^4] | [Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment.](http://arxiv.org/abs/2303.11956) | 本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。 |
+| [^5] | [Inference in Non-stationary High-Dimensional VARs.](http://arxiv.org/abs/2302.01434) | 本文构建了一个用于高维非平稳VAR模型中Granger因果关系推断的方法，方法不需要知道时间序列的积分阶数，通过将VAR模型扩展到与猜测积分阶数相同的滞后，并将滞后扩展与后双重选择程序相结合，选择相关变量后建立统一渐近正态性的第二阶段回归。 |
+| [^6] | [The Impact of the #MeToo Movement on Language at Court -- A text-based causal inference approach.](http://arxiv.org/abs/2209.00409) | 本研究通过一种基于文本的因果推断方法，评估了#MeToo运动对美国法庭语言的影响，结果发现该运动对司法意见中关于性暴力案件的语言产生了显著影响。 |
+| [^7] | [Artificial Intelligence and Statistical Collusion.](http://arxiv.org/abs/2202.05946) | 本研究提出了一个可处理的模型来研究学习算法之间的战略互动，揭示了一种导致算法勾结出现的机制。通过自发耦合，算法周期性地协调行动，达到更高利润。该模型的参数可预测统计关联的出现和有利于算法勾结的市场结构，进一步展示了自发耦合如何在价格和市场份额上维持勾结，并应用于设计算法市场。 |
 
 # 详细
 
-[^1]: 计算机说“不行”: 使用审计方法探索ChatGPT中的系统招聘偏见
+[^1]: 资本增长的来源
 
-    Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach. (arXiv:2309.07664v1 [econ.GN])
+    Sources of capital growth. (arXiv:2309.03403v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.07664](http://arxiv.org/abs/2309.07664)
+    [http://arxiv.org/abs/2309.03403](http://arxiv.org/abs/2309.03403)
 
-    本研究使用审计方法探索了ChatGPT在求职者筛选中的系统偏见，研究发现语言提示和申请者姓名中的种族身份线索会影响ChatGPT的评估。
-
-    
-
-    大型语言模型在优化职业活动方面具有重要潜力，如简化人员选拔程序。然而，人们担心这些模型会延续预训练数据中嵌入的系统偏见。这项研究探讨了ChatGPT在求职者筛选方面是否表现出种族或性别偏见，ChatGPT是一个能够生成类似人类回应的聊天机器人。通过使用一种通信审计方法，我模拟了一个简历筛选任务，指示聊天机器人评价虚构的申请者简历，这些简历只有名字不同，以暗示种族和性别身份。通过比较阿拉伯、亚洲、美国黑人、中非、荷兰、东欧、西班牙裔、土耳其和美国白人男性和女性申请者的评分，我发现种族和性别身份会影响ChatGPT的评估。种族偏见似乎部分源于提示语言，部分源于申请者姓名中的种族身份线索。
-
-    Large language models offer significant potential for optimising professional activities, such as streamlining personnel selection procedures. However, concerns exist about these models perpetuating systemic biases embedded into their pre-training data. This study explores whether ChatGPT, a chatbot producing human-like responses to language tasks, displays ethnic or gender bias in job applicant screening. Using a correspondence audit approach, I simulated a CV screening task in which I instructed the chatbot to rate fictitious applicant profiles only differing in names, signalling ethnic and gender identity. Comparing ratings of Arab, Asian, Black American, Central African, Dutch, Eastern European, Hispanic, Turkish, and White American male and female applicants, I show that ethnic and gender identity influence ChatGPT's evaluations. The ethnic bias appears to arise partly from the prompts' language and partly from ethnic identity cues in applicants' names. Although ChatGPT produces n
-    
-[^2]: 网络实验中的因果推断：基于回归分析和基于设计的性质
-
-    Causal inference in network experiments: regression-based analysis and design-based properties. (arXiv:2309.07476v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.07476](http://arxiv.org/abs/2309.07476)
-
-    本文研究了网络实验中的因果推断。研究发现远离焦点个体的处理对焦点个体的效应会减弱但仍有可能不为零。提出了一种基于回归分析的方法，该方法不仅能够提供标准误估计器，还能够整合协变量。
+    资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。
 
     
 
-    网络实验广泛用于研究单位之间的干扰。在Leung等人引入的“近似邻居干扰”框架下，对于远离焦点个体的个体分配的处理结果会对焦点个体的响应产生减弱效应，但效应仍然可能不为零。Leung等人在干扰存在下，建立了逆概率加权估计器的一致性和渐进正态性，用于估计因果效应。我们将这些渐进结果扩展到Hajek估计器，该估计器与基于曝光概率的加权最小二乘拟合的系数在数值上是相同的。数值等效的基于回归的方法具有两个显著的优势：它可以通过相同的加权最小二乘拟合提供标准误估计器，并且它允许将协变量集成到分析中。
+    根据国民账户数据显示，净储蓄或消费的变化与市值资本增长率的变化（资本加速度）之间没有影响。因此，资本增长和加速似乎不依赖于净储蓄或消费的限制。我们探讨了这种可能性，并讨论了对经济教育和公共政策的影响。
 
-    Network experiments have been widely used in investigating interference among units. Under the ``approximate neighborhood interference" framework introduced by \cite{Leung2022}, treatments assigned to individuals farther from the focal individual result in a diminished effect on the focal individual's response, while the effect remains potentially nonzero. \cite{Leung2022} establishes the consistency and asymptotic normality of the inverse-probability weighting estimator for estimating causal effects in the presence of interference. We extend these asymptotic results to the Hajek estimator which is numerically identical to the coefficient from the weighted-least-squares fit based on the inverse probability of the exposure mapping. The numerically equivalent regression-based approach offers two notable advantages: it can provide standard error estimators through the same weighted-least-squares fit, and it allows for the integration of covariates into the analysis. Furthermore, we introd
+    Data from national accounts show no effect of change in net saving or consumption, in ratio to market-value capital, on change in growth rate of market-value capital (capital acceleration). Thus it appears that capital growth and acceleration arrive without help from net saving or consumption restraint. We explore ways in which this is possible, and discuss implications for economic teaching and public policy
     
-[^3]: 用信念控制来衡量高阶理性
+[^2]: 低地球轨道（LEO）卫星宽带星座的可持续性评估
 
-    Measuring Higher-Order Rationality with Belief Control. (arXiv:2309.07427v1 [econ.GN])
+    Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations. (arXiv:2309.02338v1 [astro-ph.EP])
 
-    [http://arxiv.org/abs/2309.07427](http://arxiv.org/abs/2309.07427)
+    [http://arxiv.org/abs/2309.02338](http://arxiv.org/abs/2309.02338)
 
-    本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。
-
-    
-
-    仅基于选择数据确定个体的战略推理能力是一项复杂的任务。这种复杂性源于复杂的玩家可能对其他人有非均衡的信念，导致非均衡的行为。在我们的研究中，我们将人类参与者与已知完全理性的计算机玩家配对。通过使用机器人玩家，我们能够将有限的推理能力与信念形成和社会偏差相区分开来。我们的研究结果表明，当与机器人配对时，被试表现出始终较高的理性水平，并在不同游戏中保持稳定的理性水平，相比之下与人类配对时则不然。这表明战略推理可能的确是个体的一种一贯特征。此外，确定的理性限制可以作为评估个体对他人信念适当控制时的战略能力的指标。
-
-    Determining an individual's strategic reasoning capability based solely on choice data is a complex task. This complexity arises because sophisticated players might have non-equilibrium beliefs about others, leading to non-equilibrium actions. In our study, we pair human participants with computer players known to be fully rational. This use of robot players allows us to disentangle limited reasoning capacity from belief formation and social biases. Our results show that, when paired with robots, subjects consistently demonstrate higher levels of rationality and maintain stable rationality levels across different games compared to when paired with humans. This suggests that strategic reasoning might indeed be a consistent trait in individuals. Furthermore, the identified rationality limits could serve as a measure for evaluating an individual's strategic capacity when their beliefs about others are adequately controlled.
-    
-[^4]: 公共债务的财政成本和政府支出冲击
-
-    The Fiscal Cost of Public Debt and Government Spending Shocks. (arXiv:2309.07371v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.07371](http://arxiv.org/abs/2309.07371)
-
-    本研究通过使用美国历史数据，发现当债务成为财政负担时，政府通过限制债务发行来应对支出冲击，导致财政政策失去了刺激经济活动的能力。
+    本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。
 
     
 
-    本文研究了公共债务成本如何塑造财政政策及其对经济的影响。利用美国的历史数据，我表明当债务服务成为财政负担时，政府通过限制债务发行来应对支出冲击。因此，初始冲击只在短期内引发对公共支出的有限增加，并且甚至导致长期内的支出逆转。在这种情况下，财政政策失去了刺激经济活动的能力。这一结果是由于财政当局限制自身借款能力以确保公共债务可持续性。这些发现在多个识别和估计策略下都具有鲁棒性。
+    超大型星座的增长迅速增加了将新卫星送入空间所需的火箭发射次数。虽然低地球轨道（LEO）宽带卫星有助于连接未连通的社区并实现可持续发展目标，但也存在一系列负面环境外部性，包括火箭燃料燃烧和由此产生的环境排放。我们对三个主要LEO星座的第一阶段进行可持续性分析，包括Amazon Kuiper（3,236颗卫星）、OneWeb（648颗卫星）和SpaceX Starlink（4,425颗卫星）。在基准方案下，经过五年，我们发现Kuiper的每位用户二氧化碳当量（CO$_2$eq）为0.70±0.34吨，OneWeb为1.41±0.71吨，Starlink为0.47±0.15吨CO$_2$eq/用户。然而，在最坏情况下的排放情景中，这些值增加到Kuiper的3.02±1.48吨，OneWeb的1.7±0.71吨和Starlink的1.04±0.33吨CO$_2$eq/用户。
 
-    This paper investigates how the cost of public debt shapes fiscal policy and its effect on the economy. Using U.S. historical data, I show that when servicing the debt creates a fiscal burden, the government responds to spending shocks by limiting debt issuance. As a result, the initial shock triggers only a limited increase in public spending in the short run, and even leads to spending reversal in the long run. Under these conditions, fiscal policy loses its ability to stimulate economic activity. This outcome arises as the fiscal authority limits its own ability to borrow to ensure public debt sustainability. These findings are robust to several identification and estimation strategies.
+    The growth of mega-constellations is rapidly increasing the number of rocket launches required to place new satellites in space. While Low Earth Orbit (LEO) broadband satellites help to connect unconnected communities and achieve the Sustainable Development Goals, there are also a range of negative environmental externalities, from the burning of rocket fuels and resulting environmental emissions. We present sustainability analytics for phase 1 of the three main LEO constellations including Amazon Kuiper (3,236 satellites), OneWeb (648 satellites), and SpaceX Starlink (4,425 satellites). In baseline scenarios over five years, we find a per subscriber carbon dioxide equivalent (CO$_2$eq) of 0.70$\pm$0.34 tonnes for Kuiper, 1.41$\pm$0.71 tonnes for OneWeb and 0.47$\pm$0.15 tonnes CO$_2$eq/subscriber for Starlink. However, in the worst-case emissions scenario these values increase to 3.02$\pm$1.48 tonnes for Kuiper, 1.7$\pm$0.71 tonnes for OneWeb and 1.04$\pm$0.33 tonnes CO$_2$eq/subscrib
     
-[^5]: 链接机制：限制和鲁棒性
+[^3]: 群体知识和个体内省
 
-    Linking Mechanisms: Limits and Robustness. (arXiv:2309.07363v1 [econ.TH])
+    Group knowledge and individual introspection. (arXiv:2305.08729v1 [econ.TH])
 
-    [http://arxiv.org/abs/2309.07363](http://arxiv.org/abs/2309.07363)
+    [http://arxiv.org/abs/2305.08729](http://arxiv.org/abs/2305.08729)
 
-    本文研究了配额机制在代理人面临多个决策且货币转移不可行时的应用。研究发现，随着决策数量的增加，配额机制可以实现与使用转移的独立机制相同的社会选择函数集合，并且对于代理对彼此的信念是鲁棒的。研究还发现，为了设置正确的配额，设计者必须对环境有精确的了解，否则只能实施平凡的社会选择规则。同时，配额使得报告的分布成为共知。
-
-    
-
-    配额机制在代理面对多个决策且货币转移不可行时常被用于引出私人信息。当决策数量增加时，配额机制渐近地实施与使用转移的独立机制相同的社会选择函数集合。我们分析了配额机制的鲁棒性。为了设置正确的配额，设计者必须对环境有精确的了解。我们证明，没有转移的情况下，只有平凡的社会选择规则可以以先验独立的方式实施。当配额不匹配真实的类型分布时，我们得到了决策误差的紧密界限。最后，我们证明在多代理的环境中，配额对于代理对彼此的信念是鲁棒的。关键是，配额使得报告的分布成为共知。
-
-    Quota mechanisms are commonly used to elicit private information when agents face multiple decisions and monetary transfers are infeasible. As the number of decisions grows large, quotas asymptotically implement the same set of social choice functions as do separate mechanisms with transfers. We analyze the robustness of quota mechanisms. To set the correct quota, the designer must have precise knowledge of the environment. We show that, without transfers, only trivial social choice rules can be implemented in a prior-independent way. We obtain a tight bound on the decision error that results when the quota does not match the true type distribution. Finally, we show that in a multi-agent setting, quotas are robust to agents' beliefs about each other. Crucially, quotas make the distribution of reports common knowledge.
-    
-[^6]: 主妇劳动对GDP计算的影响
-
-    The effect of housewife labor on gdp calculations. (arXiv:2309.07160v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.07160](http://arxiv.org/abs/2309.07160)
-
-    本研究通过理论分析和经验建模，探讨了家庭主妇劳动对GDP计算的影响。研究发现，人类特征的变化导致了有限理性个体特征的形成，女性更倾向于成为家庭主妇的选择。实证分析揭示了家庭主妇劳动的经济价值。
+    本文研究了分布式知识，对不同种类的代理人进行分类，并通过模型表述交流和推理过程，给出了分布式知识的两种特征描述，即知识运算符和可能关系，并揭示了两种显着不同的分布式知识模型。
 
     
 
-    本研究试图通过理论分析揭示劳动力的演化发展。以衡量社会福利的GDP为例，试图通过经验建模来衡量家庭主妇劳动的经济价值。为此，首先质疑了正统（主流）经济理论中劳动的概念；然后，摒弃劳动就业关系，考察了在资本主义体制下失业的无偿家庭主妇劳动对GDP的影响。在理论分析中，确定了人类特征的变化使其远离理性，形成了有限理性和异质个体特征的限制理性个体特征。将女性定义为异质个体的新例子，因为她们更适合有限理性个体的定义，即更倾向于成为家庭主妇。在本研究的实证分析中，对家庭主妇劳动进行了研究。
+    本文研究分布式知识，即私人信息的一组代理人在自由交流时可能知道的内容。与现有文献不同，本文研究了不同内省代理人。考虑三类代理人：非内省、积极内省和完全内省。当非内省代理人知道某些事情时，她可能不知道自己知道它。相反，当完全内省代理人知道某些事情时，她总是知道自己知道它。完全内省代理人是积极内省的，当她不知道某些事情时，她也知道自己不知道它。本文通过明确表述知识运算符和可能关系来给出分布式知识的两种等价特征描述。本文通过建模明确表述知识运算符和可能关系的交流和推理过程来研究分布式知识。本文表明，存在两种显着不同的分布式知识模型：未能内省和完全内省。
 
-    In this study, the evolutionary development of labor has been tried to be revealed based on theoretical analysis. Using the example of gdp, which is an indicator of social welfare, the economic value of the labor of housewives was tried to be measured with an empirical modeling. To this end; first of all, the concept of labor was questioned in orthodox (mainstream) economic theories; then, by abstracting from the labor-employment relationship, it was examined what effect the labor of unpaid housewives who are unemployed in the capitalist system could have on gdp. In theoretical analysis; It has been determined that the changing human profile moves away from rationality and creates limited rationality and, accordingly, a heterogeneous individual profile. Women were defined as the new example of heterogeneous individuals, as those who best fit the definition of limited rational individuals because they prefer to be housewives. In the empirical analysis of the study, housewife labor was t
+    I study distributed knowledge, which is what a group of privately informed agents can possibly know if they communicate freely with one another. Contrary to the extant literature, I study differently introspective agents. Three categories of agents are considered: non-introspective, positively introspective, and fully introspective. When a non-introspective agent knows something, she may fail to know that she knows it. On the contrary, when a fully introspective agent knows something, she always knows that she knows it. A fully introspective agent is positively introspective and, when she does not know something, she also knows that she does not know it. I give two equivalent characterizations of distributed knowledge: one in terms of knowledge operators and the other in terms of possibility relations, i.e., binary relations. I study distributed knowledge by modelling explicitly the communication and inference making process behind it. I show that there are two significantly different 
     
-[^7]: 保持排名的多维度机制
+[^4]: 基于一般均衡的大规模教育改革：印度回归不连续证据的评论
 
-    Rank-Preserving Multidimensional Mechanisms. (arXiv:2209.10137v3 [econ.TH] UPDATED)
+    Large-Scale Education Reform in General Equilibrium: Regression Discontinuity Evidence from India: Comment. (arXiv:2303.11956v1 [econ.GN])
 
-    [http://arxiv.org/abs/2209.10137](http://arxiv.org/abs/2209.10137)
+    [http://arxiv.org/abs/2303.11956](http://arxiv.org/abs/2303.11956)
 
-    这篇论文展示了在多个异构物品的机制设计问题与在相同物品的机制设计问题之间的等价性，同时提出了保持排名的对称和激励相容机制，并在三个应用中进行了使用。
-
-    
-
-    我们展示了对于一个垄断者向一个具有前期对称和可加值的买家出售多个异构物品的机制设计问题与对于一个向一个具有递减边际值的买家出售相同物品的垄断者的机制设计问题是等价的。对于异构物品，对称和激励相容的机制是保持排名的，即高价值物品具有更高的分配概率。在相同物品模型中，每个机制都是保持排名的。这促进了我们在三个应用中的等价性的使用。
-
-    We show that the mechanism-design problem for a monopolist selling multiple, heterogeneous objects to a buyer with ex ante symmetric and additive values is equivalent to the mechanism-design problem for a monopolist selling identical objects to a buyer with decreasing marginal values. Symmetric and incentive-compatible mechanisms for heterogeneous objects are rank preserving, i.e., higher-valued objects are assigned with a higher probability. In the identical-objects model, every mechanism is rank preserving. This facilitates the equivalence, which we use in three applications.
-    
-[^8]: 在面板数据中使用机器学习估计连续处理效应及其在气候研究中的应用
-
-    Estimating Continuous Treatment Effects in Panel Data using Machine Learning with a Climate Application. (arXiv:2207.08789v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2207.08789](http://arxiv.org/abs/2207.08789)
-
-    这篇论文介绍了一种在面板数据中估计连续处理效应的新的半参数估计器，并利用机器学习方法和双去偏机器学习技术提高了估计的准确性。研究使用这一方法衡量了极端高温对美国玉米产量的影响，发现其效应比传统线性回归方法估计的效应大50%。
+    本文重新分析了Khanna (2023)的研究，指出缺失数据及绘图软件等因素对结果造成了干扰，表明他们之前的结论不能被有效支持。
 
     
 
-    本文介绍并证明了一种新的半参数估计器在面板数据中对连续处理效应具有渐近正态性。具体而言，我们估计平均导数。我们的估计器利用面板数据的结构来考虑不可观察的时间不变异质性，并使用机器学习方法来保持统计功效，同时建模高维关系。我们使用双去偏机器学习（DML）文献中的工具构建我们的估计器。在非线性面板设置的蒙特卡罗模拟中，我们的方法相对于其他方法具有低偏差和方差的特点来估计平均导数。最后，我们使用我们的估计器来衡量极端高温对美国玉米产量的影响，在灵活控制降水和其他气象要素之后。我们的方法估计的极端高温效应比线性回归估计的效应大50%。这种估计差异对应于...（此处省略）
+    本文重新分析了 Khanna (2023) 中通过回归不连续设计研究印度教育对劳动力市场的影响的内容。在图形初步分析中，反转绘图软件默认值的覆盖极大地减少了不连续性的出现。在数据中缺少离不连续点四个街区；修复后削减了对学校和对数工资的简化形式影响分别为62％和75％。使用一致的方差估计器，并将其聚类处理到地理治疗单元，进一步削弱了积极影响的推断。一般均衡效应和替代弹性的估计不是无偏的，且有效方差为无限大。
 
-    This paper introduces and proves asymptotic normality for a new semi-parametric estimator of continuous treatment effects in panel data. Specifically, we estimate the average derivative. Our estimator uses the panel structure of data to account for unobservable time-invariant heterogeneity and machine learning (ML) methods to preserve statistical power while modeling high-dimensional relationships. We construct our estimator using tools from double de-biased machine learning (DML) literature. Monte Carlo simulations in a nonlinear panel setting show that our method estimates the average derivative with low bias and variance relative to other approaches. Lastly, we use our estimator to measure the impact of extreme heat on United States (U.S.) corn production, after flexibly controlling for precipitation and other weather features. Our approach yields extreme heat effect estimates that are 50% larger than estimates using linear regression. This difference in estimates corresponds to an 
+    This paper reanalyzes Khanna (2023), which studies labor market effects of schooling in India through a regression discontinuity design. In graphical preliminaries, reversing overrides of the plotting software's defaults greatly reduces the appearance of discontinuities. Absent from the data are four districts close to the discontinuity; restoring them cuts the reduced-form impacts on schooling and log wages by 62% and 75%. Using a consistent variance estimator, and clustering it at the geographic unit of treatment, further weakens the inference of positive impact. The estimates of general equilibrium effects and elasticities of substitution are not unbiased and have effectively infinite variance.
+    
+[^5]: 非平稳高维VAR模型的推断
+
+    Inference in Non-stationary High-Dimensional VARs. (arXiv:2302.01434v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2302.01434](http://arxiv.org/abs/2302.01434)
+
+    本文构建了一个用于高维非平稳VAR模型中Granger因果关系推断的方法，方法不需要知道时间序列的积分阶数，通过将VAR模型扩展到与猜测积分阶数相同的滞后，并将滞后扩展与后双重选择程序相结合，选择相关变量后建立统一渐近正态性的第二阶段回归。
+
+    
+
+    本文构建了一个推断程序，用于高维非平稳向量自回归(VAR)模型中的Granger因果关系。我们的方法不需要对考虑的时间序列的积分阶数有所了解。我们将VAR模型扩展到至少与猜测的最大积分阶数一样多的滞后，并证明了这种方法对于低维情况下存在单位根的情况是稳健的。我们证明，我们可以将扩展限制为仅涉及测试中感兴趣的变量，从而使该方法适用于高维数据。我们将这种滞后扩展与后双重选择程序相结合，该程序通过进行一组初始惩罚回归来选择Granger导致和被导致变量的相关变量。然后，我们建立了仅涉及所选变量的第二阶段回归的统一渐近正态性。有限样本模拟表明了良好的性能，应用到...
+
+    In this paper we construct an inferential procedure for Granger causality in high-dimensional non-stationary vector autoregressive (VAR) models. Our method does not require knowledge of the order of integration of the time series under consideration. We augment the VAR with at least as many lags as the suspected maximum order of integration, an approach which has been proven to be robust against the presence of unit roots in low dimensions. We prove that we can restrict the augmentation to only the variables of interest for the testing, thereby making the approach suitable for high dimensions. We combine this lag augmentation with a post-double-selection procedure in which a set of initial penalized regressions is performed to select the relevant variables for both the Granger causing and caused variables. We then establish uniform asymptotic normality of a second-stage regression involving only the selected variables. Finite sample simulations show good performance, an application to 
+    
+[^6]: #MeToo运动对法庭语言的影响--一种基于文本因果推断方法的研究
+
+    The Impact of the #MeToo Movement on Language at Court -- A text-based causal inference approach. (arXiv:2209.00409v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.00409](http://arxiv.org/abs/2209.00409)
+
+    本研究通过一种基于文本的因果推断方法，评估了#MeToo运动对美国法庭语言的影响，结果发现该运动对司法意见中关于性暴力案件的语言产生了显著影响。
+
+    
+
+    本研究评估了#MeToo运动对51个美国州和联邦上诉法院关于性暴力相关案件的司法意见中使用的语言的影响。该研究引入了各种指标来量化法庭中的参与者使用的语言，这种语言暗示性地将责任转嫁给受害者。其中一个指标衡量了作为语法主语提及受害者的频率，因为心理学领域的研究表明，受害者被作为语法主语提及的次数越多，受到的责怪就越多。另外两个衡量受害者指责程度的指数捕捉了句子中涉及受害者和/或施害者的情感和上下文。此外，司法意见被转化为词袋和tf-idf向量，以便研究语言随时间的演变。通过D因果效应估算了#MeToo运动的因果影响。
+
+    This study assesses the effect of the #MeToo movement on the language used in judicial opinions on sexual violence related cases from 51 U.S. state and federal appellate courts. The study introduces various indicators to quantify the extent to which actors in courtrooms employ language that implicitly shifts responsibility away from the perpetrator and onto the victim. One indicator measures how frequently the victim is mentioned as the grammatical subject, as research in the field of psychology suggests that victims are assigned more blame the more often they are referred to as the grammatical subject. The other two indices designed to gauge the level of victim-blaming capture the sentiment of and the context in sentences referencing the victim and/or perpetrator. Additionally, judicial opinions are transformed into bag-of-words and tf-idf vectors to facilitate the examination of the evolution of language over time. The causal effect of the #MeToo movement is estimated by means of a D
+    
+[^7]: 人工智能与统计勾结
+
+    Artificial Intelligence and Statistical Collusion. (arXiv:2202.05946v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2202.05946](http://arxiv.org/abs/2202.05946)
+
+    本研究提出了一个可处理的模型来研究学习算法之间的战略互动，揭示了一种导致算法勾结出现的机制。通过自发耦合，算法周期性地协调行动，达到更高利润。该模型的参数可预测统计关联的出现和有利于算法勾结的市场结构，进一步展示了自发耦合如何在价格和市场份额上维持勾结，并应用于设计算法市场。
+
+    
+
+    我们开发了一个可处理的模型来研究学习算法之间的战略互动。我们发现了一种导致算法勾结出现的机制。我们观察到算法周期性地协调行动，这些行动比静态纳什均衡更具利润性。这种新的勾结渠道依赖于算法估计中的内生统计关联，我们称之为自发耦合。模型的参数预测了统计关联是否会出现，以及什么市场结构有助于算法勾结。我们展示了自发耦合如何维持价格和市场份额上的勾结，这与文献中的实验证据相补充。最后，我们将结果应用于设计算法市场。
+
+    We develop a tractable model for studying strategic interactions between learning algorithms. We uncover a mechanism responsible for the emergence of algorithmic collusion. We observe that algorithms periodically coordinate on actions that are more profitable than static Nash equilibria. This novel collusive channel relies on an endogenous statistical linkage in the algorithms' estimates which we call spontaneous coupling. The model's parameters predict whether the statistical linkage will appear, and what market structures facilitate algorithmic collusion. We show that spontaneous coupling can sustain collusion in prices and market shares, complementing experimental findings in the literature. Finally, we apply our results to design algorithmic markets.
     
 

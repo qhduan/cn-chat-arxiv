@@ -1,0 +1,11 @@
+{
+    "title": "Sampling-Free Probabilistic Deep State-Space Models. (arXiv:2309.08256v1 [cs.LG])",
+    "abstract": "Many real-world dynamical systems can be described as State-Space Models (SSMs). In this formulation, each observation is emitted by a latent state, which follows first-order Markovian dynamics. A Probabilistic Deep SSM (ProDSSM) generalizes this framework to dynamical systems of unknown parametric form, where the transition and emission models are described by neural networks with uncertain weights. In this work, we propose the first deterministic inference algorithm for models of this type. Our framework allows efficient approximations for training and testing. We demonstrate in our experiments that our new method can be employed for a variety of tasks and enjoys a superior balance between predictive performance and computational budget.",
+    "link": "http://arxiv.org/abs/2309.08256",
+    "context": "Title: Sampling-Free Probabilistic Deep State-Space Models. (arXiv:2309.08256v1 [cs.LG])\nAbstract: Many real-world dynamical systems can be described as State-Space Models (SSMs). In this formulation, each observation is emitted by a latent state, which follows first-order Markovian dynamics. A Probabilistic Deep SSM (ProDSSM) generalizes this framework to dynamical systems of unknown parametric form, where the transition and emission models are described by neural networks with uncertain weights. In this work, we propose the first deterministic inference algorithm for models of this type. Our framework allows efficient approximations for training and testing. We demonstrate in our experiments that our new method can be employed for a variety of tasks and enjoys a superior balance between predictive performance and computational budget.",
+    "path": "papers/23/09/2309.08256.json",
+    "total_tokens": 689,
+    "translated_title": "无需采样的概率深度状态空间模型",
+    "translated_abstract": "很多现实世界中的动态系统可以用状态空间模型（SSM）来描述。在这种表述中，每个观察值都由一个潜在状态发射，该状态遵循一阶马尔可夫动力学。概率深度状态空间模型（ProDSSM）将这一框架推广到未知参数形式的动态系统中，其中过渡模型和发射模型由具有不确定权重的神经网络描述。本文提出了针对这类模型的第一个确定性推断算法。我们的框架可以进行高效的训练和测试近似。在实验中，我们证明我们的新方法可以用于各种任务，并在预测性能和计算预算之间取得了卓越的平衡。",
+    "tldr": "本文提出了一种无需采样的概率深度状态空间模型，通过使用第一个确定性推断算法，实现了高效的训练和测试近似。"
+}

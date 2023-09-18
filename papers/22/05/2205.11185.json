@@ -1,0 +1,11 @@
+{
+    "title": "On the skew and curvature of implied and local volatilities. (arXiv:2205.11185v3 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper, we study the relationship between the short-end of the local and the implied volatility surfaces. Our results, based on Malliavin calculus techniques, recover the recent $\\frac{1}{H+3/2}$ rule (where $H$ denotes the Hurst parameter of the volatility process) for rough volatilitites (see Bourgey, De Marco, Friz, and Pigato (2022)), that states that the short-time skew slope of the at-the-money implied volatility is $\\frac{1}{H+3/2}$ the corresponding slope for local volatilities. Moreover, we see that the at-the-money short-end curvature of the implied volatility can be written in terms of the short-end skew and curvature of the local volatility and viceversa, and that this relationship depends on $H$.",
+    "link": "http://arxiv.org/abs/2205.11185",
+    "context": "Title: On the skew and curvature of implied and local volatilities. (arXiv:2205.11185v3 [q-fin.MF] UPDATED)\nAbstract: In this paper, we study the relationship between the short-end of the local and the implied volatility surfaces. Our results, based on Malliavin calculus techniques, recover the recent $\\frac{1}{H+3/2}$ rule (where $H$ denotes the Hurst parameter of the volatility process) for rough volatilitites (see Bourgey, De Marco, Friz, and Pigato (2022)), that states that the short-time skew slope of the at-the-money implied volatility is $\\frac{1}{H+3/2}$ the corresponding slope for local volatilities. Moreover, we see that the at-the-money short-end curvature of the implied volatility can be written in terms of the short-end skew and curvature of the local volatility and viceversa, and that this relationship depends on $H$.",
+    "path": "papers/22/05/2205.11185.json",
+    "total_tokens": 726,
+    "translated_title": "关于暗含波动率和本地波动率的偏斜和曲率",
+    "translated_abstract": "本文研究了本地波动率曲面和隐含波动率曲面的短期关系。基于Malliavin微积分技术，我们的结果得到了最近关于粗糙波动率的$\\frac{1}{H+3/2}$规则（其中$H$表示波动率过程的Hurst参数），该规则表明无风险价格的隐含波动率的短期斜率是相应本地波动率斜率的$\\frac{1}{H+3/2}$。此外，我们发现隐含波动率的无风险价格的短端曲率可以用本地波动率的短端偏斜和曲率表示，反之亦然，并且这种关系取决于$H$。",
+    "tldr": "本文研究了本地波动率和隐含波动率的短期关系，并提出了关于斜率和曲率之间的规则。"
+}
