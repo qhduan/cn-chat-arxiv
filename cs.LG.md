@@ -137,21 +137,23 @@
 | [^133] | [3D-Spatiotemporal Forecasting the Expansion of Supernova Shells Using Deep Learning toward High-Resolution Galaxy Simulations.](http://arxiv.org/abs/2302.00026) | 本文开发了一个深度学习模型，3D-MIM，用于预测超新星爆炸后的壳层扩张，通过在平滑粒子流体动力学模拟中检测并预测超新星影响粒子所在的壳层形状，解决了高分辨率星系模拟中超新星积分时间步长问题。 |
 | [^134] | [Emerging Synergies in Causality and Deep Generative Models: A Survey.](http://arxiv.org/abs/2301.12351) | 这项综述探讨了因果性和深度生成模型之间的新兴协同作用，阐明了将因果性原则融入DGM中的方法，以及在大规模生成模型中应用因果性的研究前沿。 |
 | [^135] | [SPEC5G: A Dataset for 5G Cellular Network Protocol Analysis.](http://arxiv.org/abs/2301.09201) | SPEC5G是首个公共5G数据集，用于5G蜂窝网络协议的安全性分析和文本摘要。 |
-| [^136] | [Temporal Saliency Detection Towards Explainable Transformer-based Timeseries Forecasting.](http://arxiv.org/abs/2212.07771) | 这项研究提出了一种名为Temporal Saliency Detection (TSD)的方法，利用基于注意力机制的架构实现了多步时间序列预测，并通过压缩多头注意力进行显著性模式的多分辨率分析。 |
-| [^137] | [TIDE: Time Derivative Diffusion for Deep Learning on Graphs.](http://arxiv.org/abs/2212.02483) | 本文提出了一种新方法 TIDE，通过时间导数图扩散克服了图神经网络中消息传递框架的结构限制，实现了高效地中长距离通信，并在图神经网络任务中达到了 state-of-the-art 的性能表现。 |
-| [^138] | [On counterfactual inference with unobserved confounding.](http://arxiv.org/abs/2211.08209) | 本研究提出了一种在观测研究中应对未观察到混淆因素进行反事实推断的方法，通过建模条件分布，学习了各单位的反事实分布，并提供了一个均方误差的界限。 |
-| [^139] | [BAFFLE: Backdoor Attack in Offline Reinforcement Learning.](http://arxiv.org/abs/2210.04688) | 本文研究离线增强学习中的后门攻击，通过向数据中添加扰动，使得智能体在注入触发器的观测值上采取低奖励动作，从而提出了BAFFLE方法。 |
-| [^140] | [Critical Learning Periods for Multisensory Integration in Deep Networks.](http://arxiv.org/abs/2210.04643) | 对于多感官集成，神经网络在早期训练阶段接受适当相关信号至关重要，而干扰学习过程可能会永久损害技能的发展。早期瞬态动力学对最终的系统性能和学习表示具有决定性影响。 |
-| [^141] | [DPA-1: Pretraining of Attention-based Deep Potential Model for Molecular Simulation.](http://arxiv.org/abs/2208.08236) | DPA-1是一种具有新颖注意力机制的深度势能模型，能够高效表示原子系统的构象和化学空间，并且在分子模拟中能够通过预训练和微调取得卓越的性能。 |
-| [^142] | [Optimal scheduling of entropy regulariser for continuous-time linear-quadratic reinforcement learning.](http://arxiv.org/abs/2208.04466) | 本研究利用熵正则化的松弛随机控制视角设计了连续时间线性二次强化学习算法，并通过探索性控制方法和近端策略更新方法实现了探索和利用的权衡，以解决有限时间线性二次强化学习问题。 |
-| [^143] | [Tac2Pose: Tactile Object Pose Estimation from the First Touch.](http://arxiv.org/abs/2204.11701) | Tac2Pose是一种从第一次触觉中估计物体姿态的方法，通过在仿真中学习物体的感知模型，根据触觉观测估计可能的物体姿态，并通过对比学习进行匹配。这种方法只需要一次真实触觉观测即可定位物体。 |
-| [^144] | [GP-BART: a novel Bayesian additive regression trees approach using Gaussian processes.](http://arxiv.org/abs/2204.02112) | GP-BART是一种使用高斯过程的新型贝叶斯加法回归树方法，相比标准BART模型，它具有更好的平滑性和明确的协方差结构假设，在多种情境下显示出超越传统建模方法的性能。 |
-| [^145] | [Application of Quantum Density Matrix in Classical Question Answering and Classical Image Classification.](http://arxiv.org/abs/2203.11155) | 该论文将量子密度矩阵应用于经典问答和图像分类中，证明了其可以提高任务的效率，尤其在图像分类中取得了优秀的性能表现。 |
-| [^146] | [Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series.](http://arxiv.org/abs/2203.07861) | 该论文提出了一个针对时间序列分类和分割任务的框架，通过六个度量来评估基于梯度、传播或干扰的事后可视化解释方法。实验结果表明，这些方法对于时间序列的解释具有较高的可信度和有效性。 |
-| [^147] | [HAKE: A Knowledge Engine Foundation for Human Activity Understanding.](http://arxiv.org/abs/2202.06851) | 本论文提出了一个名为HAKE的知识引擎，用于人类活动理解。该引擎通过将像素映射到中间空间，并使用逻辑规则推断语义，展现出了优越的泛化能力和性能。 |
-| [^148] | [Physics-enhanced deep surrogates for PDEs.](http://arxiv.org/abs/2111.05841) | 这种物理增强的深度代理方法通过结合低保真度的物理模拟器和神经网络生成器来开发复杂物理系统的快速代理模型，能够在精确性和成本之间取得更好的平衡。 |
-| [^149] | [MixStyle Neural Networks for Domain Generalization and Adaptation.](http://arxiv.org/abs/2107.02053) | MixStyle是一个简单的模块，用于提高神经网络对于领域转移的泛化性能。它通过在训练过程中混合两个随机实例的特征统计来合成新领域，从而实现数据增强。MixStyle易于实现，适用于各类学习范式。 |
-| [^150] | [Constraint-Based Causal Discovery using Partial Ancestral Graphs in the presence of Cycles.](http://arxiv.org/abs/2005.00610) | 本研究证明了在涉及反馈的系统生成的观察数据中，应用Fast Causal Inference (FCI)算法可以得到正确的结果，该算法可以被用于一致地估计因果关系的存在和缺失、直接因果关系的存在和缺失、混淆因素的缺失以及因果图中特定循环的缺失。 |
+| [^136] | [Deep learning for bias-correcting CMIP6-class Earth system models.](http://arxiv.org/abs/2301.01253) | 本研究展示了一种基于物理约束生成对抗网络的后处理方法，可以同时校正CMIP6级地球系统模型的局部频率分布和空间模式中的偏差。 |
+| [^137] | [Temporal Saliency Detection Towards Explainable Transformer-based Timeseries Forecasting.](http://arxiv.org/abs/2212.07771) | 这项研究提出了一种名为Temporal Saliency Detection (TSD)的方法，利用基于注意力机制的架构实现了多步时间序列预测，并通过压缩多头注意力进行显著性模式的多分辨率分析。 |
+| [^138] | [TIDE: Time Derivative Diffusion for Deep Learning on Graphs.](http://arxiv.org/abs/2212.02483) | 本文提出了一种新方法 TIDE，通过时间导数图扩散克服了图神经网络中消息传递框架的结构限制，实现了高效地中长距离通信，并在图神经网络任务中达到了 state-of-the-art 的性能表现。 |
+| [^139] | [On counterfactual inference with unobserved confounding.](http://arxiv.org/abs/2211.08209) | 本研究提出了一种在观测研究中应对未观察到混淆因素进行反事实推断的方法，通过建模条件分布，学习了各单位的反事实分布，并提供了一个均方误差的界限。 |
+| [^140] | [BAFFLE: Backdoor Attack in Offline Reinforcement Learning.](http://arxiv.org/abs/2210.04688) | 本文研究离线增强学习中的后门攻击，通过向数据中添加扰动，使得智能体在注入触发器的观测值上采取低奖励动作，从而提出了BAFFLE方法。 |
+| [^141] | [Critical Learning Periods for Multisensory Integration in Deep Networks.](http://arxiv.org/abs/2210.04643) | 对于多感官集成，神经网络在早期训练阶段接受适当相关信号至关重要，而干扰学习过程可能会永久损害技能的发展。早期瞬态动力学对最终的系统性能和学习表示具有决定性影响。 |
+| [^142] | [Blind Image Deblurring with Unknown Kernel Size and Substantial Noise.](http://arxiv.org/abs/2208.09483) | 本文提出了解决未知核大小和大量噪声下的盲图像去模糊问题的方法，并证明了一些最先进的单实例方法在这些情况下不稳定。 |
+| [^143] | [DPA-1: Pretraining of Attention-based Deep Potential Model for Molecular Simulation.](http://arxiv.org/abs/2208.08236) | DPA-1是一种具有新颖注意力机制的深度势能模型，能够高效表示原子系统的构象和化学空间，并且在分子模拟中能够通过预训练和微调取得卓越的性能。 |
+| [^144] | [Optimal scheduling of entropy regulariser for continuous-time linear-quadratic reinforcement learning.](http://arxiv.org/abs/2208.04466) | 本研究利用熵正则化的松弛随机控制视角设计了连续时间线性二次强化学习算法，并通过探索性控制方法和近端策略更新方法实现了探索和利用的权衡，以解决有限时间线性二次强化学习问题。 |
+| [^145] | [Tac2Pose: Tactile Object Pose Estimation from the First Touch.](http://arxiv.org/abs/2204.11701) | Tac2Pose是一种从第一次触觉中估计物体姿态的方法，通过在仿真中学习物体的感知模型，根据触觉观测估计可能的物体姿态，并通过对比学习进行匹配。这种方法只需要一次真实触觉观测即可定位物体。 |
+| [^146] | [GP-BART: a novel Bayesian additive regression trees approach using Gaussian processes.](http://arxiv.org/abs/2204.02112) | GP-BART是一种使用高斯过程的新型贝叶斯加法回归树方法，相比标准BART模型，它具有更好的平滑性和明确的协方差结构假设，在多种情境下显示出超越传统建模方法的性能。 |
+| [^147] | [Application of Quantum Density Matrix in Classical Question Answering and Classical Image Classification.](http://arxiv.org/abs/2203.11155) | 该论文将量子密度矩阵应用于经典问答和图像分类中，证明了其可以提高任务的效率，尤其在图像分类中取得了优秀的性能表现。 |
+| [^148] | [Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series.](http://arxiv.org/abs/2203.07861) | 该论文提出了一个针对时间序列分类和分割任务的框架，通过六个度量来评估基于梯度、传播或干扰的事后可视化解释方法。实验结果表明，这些方法对于时间序列的解释具有较高的可信度和有效性。 |
+| [^149] | [HAKE: A Knowledge Engine Foundation for Human Activity Understanding.](http://arxiv.org/abs/2202.06851) | 本论文提出了一个名为HAKE的知识引擎，用于人类活动理解。该引擎通过将像素映射到中间空间，并使用逻辑规则推断语义，展现出了优越的泛化能力和性能。 |
+| [^150] | [Physics-enhanced deep surrogates for PDEs.](http://arxiv.org/abs/2111.05841) | 这种物理增强的深度代理方法通过结合低保真度的物理模拟器和神经网络生成器来开发复杂物理系统的快速代理模型，能够在精确性和成本之间取得更好的平衡。 |
+| [^151] | [MixStyle Neural Networks for Domain Generalization and Adaptation.](http://arxiv.org/abs/2107.02053) | MixStyle是一个简单的模块，用于提高神经网络对于领域转移的泛化性能。它通过在训练过程中混合两个随机实例的特征统计来合成新领域，从而实现数据增强。MixStyle易于实现，适用于各类学习范式。 |
+| [^152] | [Constraint-Based Causal Discovery using Partial Ancestral Graphs in the presence of Cycles.](http://arxiv.org/abs/2005.00610) | 本研究证明了在涉及反馈的系统生成的观察数据中，应用Fast Causal Inference (FCI)算法可以得到正确的结果，该算法可以被用于一致地估计因果关系的存在和缺失、直接因果关系的存在和缺失、混淆因素的缺失以及因果图中特定循环的缺失。 |
 
 # 详细
 
@@ -2045,7 +2047,21 @@
 
     5G is the 5th generation cellular network protocol. It is the state-of-the-art global wireless standard that enables an advanced kind of network designed to connect virtually everyone and everything with increased speed and reduced latency. Therefore, its development, analysis, and security are critical. However, all approaches to the 5G protocol development and security analysis, e.g., property extraction, protocol summarization, and semantic analysis of the protocol specifications and implementations are completely manual. To reduce such manual effort, in this paper, we curate SPEC5G the first-ever public 5G dataset for NLP research. The dataset contains 3,547,586 sentences with 134M words, from 13094 cellular network specifications and 13 online websites. By leveraging large-scale pre-trained language models that have achieved state-of-the-art results on NLP tasks, we use this dataset for security-related text classification and summarization. Security-related text classification ca
     
-[^136]: 面向可解释的基于Transformer的时间序列预测的时间显著性检测
+[^136]: 深度学习用于纠正CMIP6级地球系统模型中的偏差
+
+    Deep learning for bias-correcting CMIP6-class Earth system models. (arXiv:2301.01253v2 [physics.ao-ph] UPDATED)
+
+    [http://arxiv.org/abs/2301.01253](http://arxiv.org/abs/2301.01253)
+
+    本研究展示了一种基于物理约束生成对抗网络的后处理方法，可以同时校正CMIP6级地球系统模型的局部频率分布和空间模式中的偏差。
+
+    
+
+    精确地模拟降水对于可靠预测人为全球变暖对生态和社会经济影响的关键。然而，产生降水的复杂跨尺度过程相互作用很难模拟，导致地球系统模型（ESMs）的字段可能存在强烈的偏差，特别是在极端情况下。目前最先进的偏差校正方法仅在每个单独的格点局部地纠正模拟频率分布的误差。到目前为止，改善ESM输出的不真实空间模式，即需要空间上下文的问题一直无法解决。本文中，我们展示了一种基于物理约束生成对抗网络（cGANs）的后处理方法，可以同时校正最先进的CMIP6级ESM的局部频率分布和空间模式中的偏差。虽然我们的方法在改善局部频率分布方面与金标准的偏差校正方法一样出色。
+
+    The accurate representation of precipitation in Earth system models (ESMs) is crucial for reliable projections of the ecological and socioeconomic impacts in response to anthropogenic global warming. The complex cross-scale interactions of processes that produce precipitation are challenging to model, however, inducing potentially strong biases in ESM fields, especially regarding extremes. State-of-the-art bias correction methods only address errors in the simulated frequency distributions locally at every individual grid cell. Improving unrealistic spatial patterns of the ESM output, which would require spatial context, has not been possible so far. Here, we show that a post-processing method based on physically constrained generative adversarial networks (cGANs) can correct biases of a state-of-the-art, CMIP6-class ESM both in local frequency distributions and in the spatial patterns at once. While our method improves local frequency distributions equally well as gold-standard bias-a
+    
+[^137]: 面向可解释的基于Transformer的时间序列预测的时间显著性检测
 
     Temporal Saliency Detection Towards Explainable Transformer-based Timeseries Forecasting. (arXiv:2212.07771v2 [cs.LG] UPDATED)
 
@@ -2059,7 +2075,7 @@
 
     Despite the notable advancements in numerous Transformer-based models, the task of long multi-horizon time series forecasting remains a persistent challenge, especially towards explainability. Focusing on commonly used saliency maps in explaining DNN in general, our quest is to build attention-based architecture that can automatically encode saliency-related temporal patterns by establishing connections with appropriate attention heads. Hence, this paper introduces Temporal Saliency Detection (TSD), an effective approach that builds upon the attention mechanism and applies it to multi-horizon time series prediction. While our proposed architecture adheres to the general encoder-decoder structure, it undergoes a significant renovation in the encoder component, wherein we incorporate a series of information contracting and expanding blocks inspired by the U-Net style architecture. The TSD approach facilitates the multiresolution analysis of saliency patterns by condensing multi-heads, th
     
-[^137]: TIDE：用于图上深度学习的时间导数扩散
+[^138]: TIDE：用于图上深度学习的时间导数扩散
 
     TIDE: Time Derivative Diffusion for Deep Learning on Graphs. (arXiv:2212.02483v2 [cs.LG] UPDATED)
 
@@ -2073,7 +2089,7 @@
 
     A prominent paradigm for graph neural networks is based on the message-passing framework. In this framework, information communication is realized only between neighboring nodes. The challenge of approaches that use this paradigm is to ensure efficient and accurate long-distance communication between nodes, as deep convolutional networks are prone to oversmoothing. In this paper, we present a novel method based on time derivative graph diffusion (TIDE) to overcome these structural limitations of the message-passing framework. Our approach allows for optimizing the spatial extent of diffusion across various tasks and network channels, thus enabling medium and long-distance communication efficiently. Furthermore, we show that our architecture design also enables local message-passing and thus inherits from the capabilities of local message-passing approaches. We show that on both widely used graph benchmarks and synthetic mesh and graph datasets, the proposed framework outperforms state-
     
-[^138]: 关于未观察到的混淆因素下的反事实推断
+[^139]: 关于未观察到的混淆因素下的反事实推断
 
     On counterfactual inference with unobserved confounding. (arXiv:2211.08209v3 [cs.LG] UPDATED)
 
@@ -2087,7 +2103,7 @@
 
     Given an observational study with $n$ independent but heterogeneous units, our goal is to learn the counterfactual distribution for each unit using only one $p$-dimensional sample per unit containing covariates, interventions, and outcomes. Specifically, we allow for unobserved confounding that introduces statistical biases between interventions and outcomes as well as exacerbates the heterogeneity across units. Modeling the conditional distribution of the outcomes as an exponential family, we reduce learning the unit-level counterfactual distributions to learning $n$ exponential family distributions with heterogeneous parameters and only one sample per distribution. We introduce a convex objective that pools all $n$ samples to jointly learn all $n$ parameter vectors, and provide a unit-wise mean squared error bound that scales linearly with the metric entropy of the parameter space. For example, when the parameters are $s$-sparse linear combination of $k$ known vectors, the error is $
     
-[^139]: BAFFLE: 离线增强学习中的后门攻击
+[^140]: BAFFLE: 离线增强学习中的后门攻击
 
     BAFFLE: Backdoor Attack in Offline Reinforcement Learning. (arXiv:2210.04688v2 [cs.LG] UPDATED)
 
@@ -2101,7 +2117,7 @@
 
     A growing body of research has focused on the Reinforcement Learning (RL) methods which allow the agent to learn from trial-and-error experiences gathered during the interaction with the environment. Recently, offline RL becomes a popular RL paradigm because it saves the interactions with environments. In offline RL, data providers share large pre-collected datasets, and others can train high-quality agents without interacting with the environments. This paradigm has demonstrated effectiveness in critical tasks like robot control, autonomous driving, etc. However, less attention is paid to investigating the security threats to the offline RL system. This paper focuses on backdoor attacks, where some perturbations are added to the data (observations) such that given normal observations, the agent takes high-rewards actions, and low-reward actions on observations injected with triggers. In this paper, we propose Baffle (Backdoor Attack for Offline Reinforcement Learning), an approach tha
     
-[^140]: 多感官集成在深度网络中的关键学习期
+[^141]: 多感官集成在深度网络中的关键学习期
 
     Critical Learning Periods for Multisensory Integration in Deep Networks. (arXiv:2210.04643v2 [cs.LG] UPDATED)
 
@@ -2115,7 +2131,21 @@
 
     We show that the ability of a neural network to integrate information from diverse sources hinges critically on being exposed to properly correlated signals during the early phases of training. Interfering with the learning process during this initial stage can permanently impair the development of a skill, both in artificial and biological systems where the phenomenon is known as a critical learning period. We show that critical periods arise from the complex and unstable early transient dynamics, which are decisive of final performance of the trained system and their learned representations. This evidence challenges the view, engendered by analysis of wide and shallow networks, that early learning dynamics of neural networks are simple, akin to those of a linear model. Indeed, we show that even deep linear networks exhibit critical learning periods for multi-source integration, while shallow networks do not. To better understand how the internal representations change according to di
     
-[^141]: DPA-1: 运用注意力机制的深度势能模型在分子模拟中的预训练
+[^142]: 未知核大小和大量噪声下的盲图像去模糊
+
+    Blind Image Deblurring with Unknown Kernel Size and Substantial Noise. (arXiv:2208.09483v2 [eess.IV] UPDATED)
+
+    [http://arxiv.org/abs/2208.09483](http://arxiv.org/abs/2208.09483)
+
+    本文提出了解决未知核大小和大量噪声下的盲图像去模糊问题的方法，并证明了一些最先进的单实例方法在这些情况下不稳定。
+
+    
+
+    盲图像去模糊（BID）已在计算机视觉和相关领域中得到广泛研究。现代BID方法可以分为两类：单实例方法和数据驱动方法。本文聚焦于单实例方法，但大多数方法并未解决如何处理未知核大小和大量噪声的问题，限制了实际应用。我们展示了一些最先进的单实例方法在核大小过度规定和/或噪声过多时不稳定。
+
+    Blind image deblurring (BID) has been extensively studied in computer vision and adjacent fields. Modern methods for BID can be grouped into two categories: single-instance methods that deal with individual instances using statistical inference and numerical optimization, and data-driven methods that train deep-learning models to deblur future instances directly. Data-driven methods can be free from the difficulty in deriving accurate blur models, but are fundamentally limited by the diversity and quality of the training data -collecting sufficiently expressive and realistic training data is a standing challenge. In this paper, we focus on single-instance methods that remain competitive and indispensable. However, most such methods do not prescribe how to deal with unknown kernel size and substantial noise, precluding practical deployment. Indeed, we show that several state-of-the-art (SOTA) single-instance methods are unstable when the kernel size is overspecified, and/or the noise 
+    
+[^143]: DPA-1: 运用注意力机制的深度势能模型在分子模拟中的预训练
 
     DPA-1: Pretraining of Attention-based Deep Potential Model for Molecular Simulation. (arXiv:2208.08236v4 [physics.chem-ph] UPDATED)
 
@@ -2129,7 +2159,7 @@
 
     Machine learning assisted modeling of the inter-atomic potential energy surface (PES) is revolutionizing the field of molecular simulation. With the accumulation of high-quality electronic structure data, a model that can be pretrained on all available data and finetuned on downstream tasks with a small additional effort would bring the field to a new stage. Here we propose DPA-1, a Deep Potential model with a novel attention mechanism, which is highly effective for representing the conformation and chemical spaces of atomic systems and learning the PES. We tested DPA-1 on a number of systems and observed superior performance compared with existing benchmarks. When pretrained on large-scale datasets containing 56 elements, DPA-1 can be successfully applied to various downstream tasks with a great improvement of sample efficiency. Surprisingly, for different elements, the learned type embedding parameters form a $spiral$ in the latent space and have a natural correspondence with their p
     
-[^142]: 连续时间线性二次强化学习中熵正则化的最优调度
+[^144]: 连续时间线性二次强化学习中熵正则化的最优调度
 
     Optimal scheduling of entropy regulariser for continuous-time linear-quadratic reinforcement learning. (arXiv:2208.04466v3 [cs.LG] UPDATED)
 
@@ -2143,7 +2173,7 @@
 
     This work uses the entropy-regularised relaxed stochastic control perspective as a principled framework for designing reinforcement learning (RL) algorithms. Herein agent interacts with the environment by generating noisy controls distributed according to the optimal relaxed policy. The noisy policies on the one hand, explore the space and hence facilitate learning but, on the other hand, introduce bias by assigning a positive probability to non-optimal actions. This exploration-exploitation trade-off is determined by the strength of entropy regularisation. We study algorithms resulting from two entropy regularisation formulations: the exploratory control approach, where entropy is added to the cost objective, and the proximal policy update approach, where entropy penalises policy divergence between consecutive episodes. We focus on the finite horizon continuous-time linear-quadratic (LQ) RL problem, where a linear dynamics with unknown drift coefficients is controlled subject to quadr
     
-[^143]: Tac2Pose：从第一次接触中的触觉对象姿态估计
+[^145]: Tac2Pose：从第一次接触中的触觉对象姿态估计
 
     Tac2Pose: Tactile Object Pose Estimation from the First Touch. (arXiv:2204.11701v3 [cs.CV] UPDATED)
 
@@ -2157,7 +2187,7 @@
 
     In this paper, we present Tac2Pose, an object-specific approach to tactile pose estimation from the first touch for known objects. Given the object geometry, we learn a tailored perception model in simulation that estimates a probability distribution over possible object poses given a tactile observation. To do so, we simulate the contact shapes that a dense set of object poses would produce on the sensor. Then, given a new contact shape obtained from the sensor, we match it against the pre-computed set using an object-specific embedding learned using contrastive learning. We obtain contact shapes from the sensor with an object-agnostic calibration step that maps RGB tactile observations to binary contact shapes. This mapping, which can be reused across object and sensor instances, is the only step trained with real sensor data. This results in a perception model that localizes objects from the first real tactile observation. Importantly, it produces pose distributions and can incorpor
     
-[^144]: GP-BART: 一种使用高斯过程的新型贝叶斯加法回归树方法
+[^146]: GP-BART: 一种使用高斯过程的新型贝叶斯加法回归树方法
 
     GP-BART: a novel Bayesian additive regression trees approach using Gaussian processes. (arXiv:2204.02112v4 [stat.ME] UPDATED)
 
@@ -2171,7 +2201,7 @@
 
     The Bayesian additive regression trees (BART) model is an ensemble method extensively and successfully used in regression tasks due to its consistently strong predictive performance and its ability to quantify uncertainty. BART combines "weak" tree models through a set of shrinkage priors, whereby each tree explains a small portion of the variability in the data. However, the lack of smoothness and the absence of an explicit covariance structure over the observations in standard BART can yield poor performance in cases where such assumptions would be necessary. The Gaussian processes Bayesian additive regression trees (GP-BART) model is an extension of BART which addresses this limitation by assuming Gaussian process (GP) priors for the predictions of each terminal node among all trees. The model's effectiveness is demonstrated through applications to simulated and real-world data, surpassing the performance of traditional modeling approaches in various scenarios.
     
-[^145]: 量子密度矩阵在经典问答和图像分类中的应用
+[^147]: 量子密度矩阵在经典问答和图像分类中的应用
 
     Application of Quantum Density Matrix in Classical Question Answering and Classical Image Classification. (arXiv:2203.11155v2 [cs.CL] UPDATED)
 
@@ -2185,7 +2215,7 @@
 
     Quantum density matrix represents all the information of the entire quantum system, and novel models of meaning employing density matrices naturally model linguistic phenomena such as hyponymy and linguistic ambiguity, among others in quantum question answering tasks. Naturally, we argue that applying the quantum density matrix into classical Question Answering (QA) tasks can show more effective performance. Specifically, we (i) design a new mechanism based on Long Short-Term Memory (LSTM) to accommodate the case when the inputs are matrixes; (ii) apply the new mechanism to QA problems with Convolutional Neural Network (CNN) and gain the LSTM-based QA model with the quantum density matrix. Experiments of our new model on TREC-QA and WIKI-QA data sets show encouraging results. Similarly, we argue that the quantum density matrix can also enhance the image feature information and the relationship between the features for the classical image classification. Thus, we (i) combine density mat
     
-[^146]: 不要误会我：如何将深度视觉解释应用于时间序列
+[^148]: 不要误会我：如何将深度视觉解释应用于时间序列
 
     Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series. (arXiv:2203.07861v2 [cs.CV] UPDATED)
 
@@ -2199,7 +2229,7 @@
 
     The correct interpretation and understanding of deep learning models are essential in many applications. Explanatory visual interpretation approaches for image, and natural language processing allow domain experts to validate and understand almost any deep learning model. However, they fall short when generalizing to arbitrary time series, which is inherently less intuitive and more diverse. Whether a visualization explains valid reasoning or captures the actual features is difficult to judge. Hence, instead of blind trust, we need an objective evaluation to obtain trustworthy quality metrics. We propose a framework of six orthogonal metrics for gradient-, propagation- or perturbation-based post-hoc visual interpretation methods for time series classification and segmentation tasks. An experimental study includes popular neural network architectures for time series and nine visual interpretation methods. We evaluate the visual interpretation methods with diverse datasets from the UCR r
     
-[^147]: HAKE:人类活动理解的知识引擎基础
+[^149]: HAKE:人类活动理解的知识引擎基础
 
     HAKE: A Knowledge Engine Foundation for Human Activity Understanding. (arXiv:2202.06851v2 [cs.CV] UPDATED)
 
@@ -2213,7 +2243,7 @@
 
     Human activity understanding is of widespread interest in artificial intelligence and spans diverse applications like health care and behavior analysis. Although there have been advances in deep learning, it remains challenging. The object recognition-like solutions usually try to map pixels to semantics directly, but activity patterns are much different from object patterns, thus hindering success. In this work, we propose a novel paradigm to reformulate this task in two stages: first mapping pixels to an intermediate space spanned by atomic activity primitives, then programming detected primitives with interpretable logic rules to infer semantics. To afford a representative primitive space, we build a knowledge base including 26+ M primitive labels and logic rules from human priors or automatic discovering. Our framework, the Human Activity Knowledge Engine (HAKE), exhibits superior generalization ability and performance upon canonical methods on challenging benchmarks. Code and data
     
-[^148]: 物理增强的深度代理用于偏微分方程
+[^150]: 物理增强的深度代理用于偏微分方程
 
     Physics-enhanced deep surrogates for PDEs. (arXiv:2111.05841v3 [cs.LG] UPDATED)
 
@@ -2227,7 +2257,7 @@
 
     Many physics and engineering applications demand Partial Differential Equations (PDE) property evaluations that are traditionally computed with resource-intensive high-fidelity numerical solvers. Data-driven surrogate models provide an efficient alternative but come with a significant cost of training. Emerging applications would benefit from surrogates with an improved accuracy-cost tradeoff, while studied at scale. Here we present a "physics-enhanced deep-surrogate" ("PEDS") approach towards developing fast surrogate models for complex physical systems, which is described by PDEs. Specifically, a combination of a low-fidelity, explainable physics simulator and a neural network generator is proposed, which is trained end-to-end to globally match the output of an expensive high-fidelity numerical solver. Experiments on three exemplar testcases, diffusion, reaction-diffusion, and electromagnetic scattering models, show that a PEDS surrogate can be up to 3$\times$ more accurate than an e
     
-[^149]: MixStyle神经网络用于领域泛化和适应性的翻译和摘要机器人。
+[^151]: MixStyle神经网络用于领域泛化和适应性的翻译和摘要机器人。
 
     MixStyle Neural Networks for Domain Generalization and Adaptation. (arXiv:2107.02053v2 [cs.CV] UPDATED)
 
@@ -2241,7 +2271,7 @@
 
     Neural networks do not generalize well to unseen data with domain shifts -- a longstanding problem in machine learning and AI. To overcome the problem, we propose MixStyle, a simple plug-and-play, parameter-free module that can improve domain generalization performance without the need to collect more data or increase model capacity. The design of MixStyle is simple: it mixes the feature statistics of two random instances in a single forward pass during training. The idea is grounded by the finding from recent style transfer research that feature statistics capture image style information, which essentially defines visual domains. Therefore, mixing feature statistics can be seen as an efficient way to synthesize new domains in the feature space, thus achieving data augmentation. MixStyle is easy to implement with a few lines of code, does not require modification to training objectives, and can fit a variety of learning paradigms including supervised domain generalization, semi-supervi
     
-[^150]: 在循环存在的情况下，基于约束的因果推断利用部分祖先图
+[^152]: 在循环存在的情况下，基于约束的因果推断利用部分祖先图
 
     Constraint-Based Causal Discovery using Partial Ancestral Graphs in the presence of Cycles. (arXiv:2005.00610v3 [math.ST] UPDATED)
 
