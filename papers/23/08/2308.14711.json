@@ -1,0 +1,11 @@
+{
+    "title": "Fast Feedforward Networks. (arXiv:2308.14711v2 [cs.LG] UPDATED)",
+    "abstract": "We break the linear link between the layer size and its inference cost by introducing the fast feedforward (FFF) architecture, a log-time alternative to feedforward networks. We demonstrate that FFFs are up to 220x faster than feedforward networks, up to 6x faster than mixture-of-experts networks, and exhibit better training properties than mixtures of experts thanks to noiseless conditional execution. Pushing FFFs to the limit, we show that they can use as little as 1% of layer neurons for inference in vision transformers while preserving 94.2% of predictive performance.",
+    "link": "http://arxiv.org/abs/2308.14711",
+    "context": "Title: Fast Feedforward Networks. (arXiv:2308.14711v2 [cs.LG] UPDATED)\nAbstract: We break the linear link between the layer size and its inference cost by introducing the fast feedforward (FFF) architecture, a log-time alternative to feedforward networks. We demonstrate that FFFs are up to 220x faster than feedforward networks, up to 6x faster than mixture-of-experts networks, and exhibit better training properties than mixtures of experts thanks to noiseless conditional execution. Pushing FFFs to the limit, we show that they can use as little as 1% of layer neurons for inference in vision transformers while preserving 94.2% of predictive performance.",
+    "path": "papers/23/08/2308.14711.json",
+    "total_tokens": 714,
+    "translated_title": "快速前馈网络",
+    "translated_abstract": "我们通过引入快速前馈(FFF)架构，打破了层大小与推理成本之间的线性关系，这是一种对于前馈网络的对数时间替代方法。我们证明FFF比前馈网络快高达220倍，比专家混合网络快高达6倍，并且由于无噪声条件执行而表现出比专家混合模型更好的训练性能。将FFF推到极限，我们展示了在视觉转换器中，它们可仅使用1%的层神经元进行推理，同时保持94.2%的预测性能。",
+    "tldr": "快速前馈网络是一种对于前馈网络的改进架构，能够以更快的速度进行推理，并具有比专家混合模型更好的训练性能。在视觉转换器中，它们可以仅使用1%的层神经元进行推理，同时保持94.2%的预测性能。"
+}

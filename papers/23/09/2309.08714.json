@@ -1,0 +1,12 @@
+{
+    "title": "Generating Semantic Graph Corpora with Graph Expansion Grammar. (arXiv:2309.08714v1 [cs.FL])",
+    "abstract": "We introduce Lovelace, a tool for creating corpora of semantic graphs. The system uses graph expansion grammar as a representational language, thus allowing users to craft a grammar that describes a corpus with desired properties. When given such grammar as input, the system generates a set of output graphs that are well-formed according to the grammar, i.e., a graph bank. The generation process can be controlled via a number of configurable parameters that allow the user to, for example, specify a range of desired output graph sizes. Central use cases are the creation of synthetic data to augment existing corpora, and as a pedagogical tool for teaching formal language theory.",
+    "link": "http://arxiv.org/abs/2309.08714",
+    "context": "Title: Generating Semantic Graph Corpora with Graph Expansion Grammar. (arXiv:2309.08714v1 [cs.FL])\nAbstract: We introduce Lovelace, a tool for creating corpora of semantic graphs. The system uses graph expansion grammar as a representational language, thus allowing users to craft a grammar that describes a corpus with desired properties. When given such grammar as input, the system generates a set of output graphs that are well-formed according to the grammar, i.e., a graph bank. The generation process can be controlled via a number of configurable parameters that allow the user to, for example, specify a range of desired output graph sizes. Central use cases are the creation of synthetic data to augment existing corpora, and as a pedagogical tool for teaching formal language theory.",
+    "path": "papers/23/09/2309.08714.json",
+    "total_tokens": 725,
+    "translated_title": "使用图扩展文法生成语义图语料库",
+    "translated_abstract": "我们介绍了一个名为Lovelace的工具，用于创建语义图的语料库。该系统使用图扩展文法作为表达语言，允许用户制定描述所需属性的文法来描述语料库。当将这样的文法作为输入时，系统将生成一组根据文法构造良好的输出图，即图库。生成过程可以通过多个可配置参数进行控制，例如，用户可以指定所需的输出图大小范围。核心用例是创建合成数据以扩充现有语料库，并作为教授形式语言理论的教学工具。",
+    "tldr": "该论文介绍了一个名为Lovelace的工具，可以使用图扩展文法生成语义图的语料库。这项工具可以通过用户自定义的文法生成符合要求的良好形式的输出图，可以应用于合成数据增强语料库和教学形式语言理论的用途。",
+    "en_tdlr": "This paper presents a tool called Lovelace for generating a corpus of semantic graphs using graph expansion grammar. The tool allows users to create well-formed output graphs based on user-defined grammar, which can be used for synthesizing data to enhance existing corpora and as a teaching tool for formal language theory."
+}

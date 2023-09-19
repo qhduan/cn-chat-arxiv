@@ -1,0 +1,12 @@
+{
+    "title": "A necessary and sufficient condition for the existence of chaotic price dynamics in an exchange economy. (arXiv:2309.09176v1 [econ.GN])",
+    "abstract": "In this note, we study a standard exchange economy model with Cobb-Douglas type consumers and give a necessary and sufficient condition for the existence of a topological chaos in the Walras-Samuelson (tatonnement) price adjustment process. This is a new application of a recent result characterising the existence of a topological chaos for a unimodal interval map by Deng, Khan, Mitra (2022).",
+    "link": "http://arxiv.org/abs/2309.09176",
+    "context": "Title: A necessary and sufficient condition for the existence of chaotic price dynamics in an exchange economy. (arXiv:2309.09176v1 [econ.GN])\nAbstract: In this note, we study a standard exchange economy model with Cobb-Douglas type consumers and give a necessary and sufficient condition for the existence of a topological chaos in the Walras-Samuelson (tatonnement) price adjustment process. This is a new application of a recent result characterising the existence of a topological chaos for a unimodal interval map by Deng, Khan, Mitra (2022).",
+    "path": "papers/23/09/2309.09176.json",
+    "total_tokens": 660,
+    "translated_title": "一个交换经济中混沌价格动态存在的必要和充分条件",
+    "translated_abstract": "在这个研究中，我们研究了一个标准的交换经济模型，其中包括Cobb-Douglas类型的消费者，并给出了Walras-Samuelson（tatonnement）价格调整过程中存在拓扑混沌的必要和充分条件。这是对Deng、Khan、Mitra（2022）最近的研究结果在一个单峰区间映射的拓扑混沌存在性进行的新应用。",
+    "tldr": "该论文研究了一个标准的交换经济模型，给出了在Walras-Samuelson价格调整过程中存在混沌价格动态的必要和充分条件，并应用了最近的研究结果进行了拓扑混沌存在性的分析。",
+    "en_tdlr": "This paper investigates a standard exchange economy model and provides a necessary and sufficient condition for the existence of chaotic price dynamics in the Walras-Samuelson price adjustment process. It applies a recent result on the existence of chaotic dynamics in a unimodal interval map by Deng, Khan, Mitra (2022)."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sizing Strategies for Algorithmic Trading in Volatile Markets: A Study of Backtesting and Risk Mitigation Analysis. (arXiv:2309.09094v1 [q-fin.CP])",
+    "abstract": "Backtest is a way of financial risk evaluation which helps to analyze how our trading algorithm would work in markets with past time frame. The high volatility situation has always been a critical situation which creates challenges for algorithmic traders. The paper investigates different models of sizing in financial trading and backtest to high volatility situations to understand how sizing models can lower the models of VaR during crisis events. Hence it tries to show that how crisis events with high volatility can be controlled using short and long positional size. The paper also investigates stocks with AR, ARIMA, LSTM, GARCH with ETF data.",
+    "link": "http://arxiv.org/abs/2309.09094",
+    "context": "Title: Sizing Strategies for Algorithmic Trading in Volatile Markets: A Study of Backtesting and Risk Mitigation Analysis. (arXiv:2309.09094v1 [q-fin.CP])\nAbstract: Backtest is a way of financial risk evaluation which helps to analyze how our trading algorithm would work in markets with past time frame. The high volatility situation has always been a critical situation which creates challenges for algorithmic traders. The paper investigates different models of sizing in financial trading and backtest to high volatility situations to understand how sizing models can lower the models of VaR during crisis events. Hence it tries to show that how crisis events with high volatility can be controlled using short and long positional size. The paper also investigates stocks with AR, ARIMA, LSTM, GARCH with ETF data.",
+    "path": "papers/23/09/2309.09094.json",
+    "total_tokens": 778,
+    "translated_title": "在波动市场中的算法交易的规模策略：一项基于回测和风险缓解分析的研究",
+    "translated_abstract": "回测是一种金融风险评估方法，帮助分析我们的交易算法在过去的市场中的表现。高波动性情况一直是算法交易员面临的挑战。本文研究了金融交易中的不同规模模型，并回测了在高波动性情况下如何使用规模模型降低VaR模型。因此，本文试图展示如何通过短期和长期头寸规模控制高波动性的危机事件。本文还研究了股票与AR、ARIMA、LSTM、GARCH以及ETF数据。",
+    "tldr": "本文研究了金融交易中不同的规模模型，并回测了这些模型在高波动性市场中的效果。研究发现通过合理控制头寸规模，可以降低危机事件中的VaR模型。研究还使用了多种数据和模型进行了验证。",
+    "en_tdlr": "This paper investigates different sizing models in financial trading and backtests their effectiveness in high volatility markets. The study reveals that controlling position size can lower VaR models during crisis events. Multiple data and models, including AR, ARIMA, LSTM, GARCH, and ETF, are used for validation."
+}

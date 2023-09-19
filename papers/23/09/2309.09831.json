@@ -1,0 +1,12 @@
+{
+    "title": "Pivotal Estimation of Linear Discriminant Analysis in High Dimensions. (arXiv:2309.09831v1 [math.ST])",
+    "abstract": "We consider the linear discriminant analysis problem in the high-dimensional settings. In this work, we propose PANDA(PivotAl liNear Discriminant Analysis), a tuning-insensitive method in the sense that it requires very little effort to tune the parameters. Moreover, we prove that PANDA achieves the optimal convergence rate in terms of both the estimation error and misclassification rate. Our theoretical results are backed up by thorough numerical studies using both simulated and real datasets. In comparison with the existing methods, we observe that our proposed PANDA yields equal or better performance, and requires substantially less effort in parameter tuning.",
+    "link": "http://arxiv.org/abs/2309.09831",
+    "context": "Title: Pivotal Estimation of Linear Discriminant Analysis in High Dimensions. (arXiv:2309.09831v1 [math.ST])\nAbstract: We consider the linear discriminant analysis problem in the high-dimensional settings. In this work, we propose PANDA(PivotAl liNear Discriminant Analysis), a tuning-insensitive method in the sense that it requires very little effort to tune the parameters. Moreover, we prove that PANDA achieves the optimal convergence rate in terms of both the estimation error and misclassification rate. Our theoretical results are backed up by thorough numerical studies using both simulated and real datasets. In comparison with the existing methods, we observe that our proposed PANDA yields equal or better performance, and requires substantially less effort in parameter tuning.",
+    "path": "papers/23/09/2309.09831.json",
+    "total_tokens": 688,
+    "translated_title": "高维条件下线性判别分析的关键估计",
+    "translated_abstract": "我们考虑在高维背景下的线性判别分析问题。在这项工作中，我们提出了PANDA（PivotAl liNear Discriminant Analysis），这是一种对调参数需求非常小的方法。此外，我们证明了PANDA在估计误差和错误分类率方面实现了最优的收敛速率。我们的理论结果得到了使用模拟数据和真实数据集的全面数值研究的支持。与现有方法相比，我们观察到我们提出的PANDA在性能上相等或更好，并且需要较少的参数调整工作。",
+    "tldr": "PANDA是一种高维线性判别分析方法，对调参数需求小且达到最优收敛速率，与现有方法相比，其性能相当或更好，并且需要较少的参数调整工作。",
+    "en_tdlr": "PANDA is a high-dimensional linear discriminant analysis method that requires minimal parameter tuning and achieves optimal convergence rate. In comparison with existing methods, it performs equally or better in terms of performance and requires less effort in parameter tuning."
+}

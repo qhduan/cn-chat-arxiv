@@ -1,0 +1,11 @@
+{
+    "title": "Settling the Reward Hypothesis. (arXiv:2212.10420v2 [cs.AI] UPDATED)",
+    "abstract": "The reward hypothesis posits that, \"all of what we mean by goals and purposes can be well thought of as maximization of the expected value of the cumulative sum of a received scalar signal (reward).\" We aim to fully settle this hypothesis. This will not conclude with a simple affirmation or refutation, but rather specify completely the implicit requirements on goals and purposes under which the hypothesis holds.",
+    "link": "http://arxiv.org/abs/2212.10420",
+    "context": "Title: Settling the Reward Hypothesis. (arXiv:2212.10420v2 [cs.AI] UPDATED)\nAbstract: The reward hypothesis posits that, \"all of what we mean by goals and purposes can be well thought of as maximization of the expected value of the cumulative sum of a received scalar signal (reward).\" We aim to fully settle this hypothesis. This will not conclude with a simple affirmation or refutation, but rather specify completely the implicit requirements on goals and purposes under which the hypothesis holds.",
+    "path": "papers/22/12/2212.10420.json",
+    "total_tokens": 515,
+    "translated_title": "解决奖励假设",
+    "translated_abstract": "奖励假设认为，“我们所说的目标和目的都可以想象为最大化接收到的标量信号（奖励）的累积总和的预期值。”我们的目标是完全解决这个假设。这将不仅仅是一个简单的肯定或否定，而是完全指明假设成立的目标和目的的隐含要求。",
+    "tldr": "解决奖励假设，明确指明假设成立的目标和目的的隐含要求。"
+}

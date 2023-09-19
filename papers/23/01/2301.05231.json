@@ -1,0 +1,11 @@
+{
+    "title": "Equivariant Representation Learning in the Presence of Stabilizers. (arXiv:2301.05231v2 [cs.LG] UPDATED)",
+    "abstract": "We introduce Equivariant Isomorphic Networks (EquIN) -- a method for learning representations that are equivariant with respect to general group actions over data. Differently from existing equivariant representation learners, EquIN is suitable for group actions that are not free, i.e., that stabilize data via nontrivial symmetries. EquIN is theoretically grounded in the orbit-stabilizer theorem from group theory. This guarantees that an ideal learner infers isomorphic representations while trained on equivariance alone and thus fully extracts the geometric structure of data. We provide an empirical investigation on image datasets with rotational symmetries and show that taking stabilizers into account improves the quality of the representations.",
+    "link": "http://arxiv.org/abs/2301.05231",
+    "context": "Title: Equivariant Representation Learning in the Presence of Stabilizers. (arXiv:2301.05231v2 [cs.LG] UPDATED)\nAbstract: We introduce Equivariant Isomorphic Networks (EquIN) -- a method for learning representations that are equivariant with respect to general group actions over data. Differently from existing equivariant representation learners, EquIN is suitable for group actions that are not free, i.e., that stabilize data via nontrivial symmetries. EquIN is theoretically grounded in the orbit-stabilizer theorem from group theory. This guarantees that an ideal learner infers isomorphic representations while trained on equivariance alone and thus fully extracts the geometric structure of data. We provide an empirical investigation on image datasets with rotational symmetries and show that taking stabilizers into account improves the quality of the representations.",
+    "path": "papers/23/01/2301.05231.json",
+    "total_tokens": 709,
+    "translated_title": "在稳定子存在的情况下的等变表示学习",
+    "translated_abstract": "我们引入了等变同构网络（EquIN）-一种用于学习与数据上的一般群作用等变的表示的方法。与现有的等变表示学习方式不同，EquIN适用于非自由群作用，即通过非平凡对称性稳定数据的情况。EquIN在群论中的轨道稳定子定理的理论基础上进行。这保证了理想的学习器仅通过等变性训练时推断出同构表示，并完全提取了数据的几何结构。我们对具有旋转对称性的图像数据集进行了实证研究，并证明考虑稳定子可以提高表示的质量。",
+    "tldr": "引入了一种称为EquIN的方法，用于学习在数据上具有一般群作用等变的表示。通过考虑稳定子，该方法可以提取数据的几何结构。"
+}

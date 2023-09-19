@@ -1,0 +1,12 @@
+{
+    "title": "AlbNER: A Corpus for Named Entity Recognition in Albanian. (arXiv:2309.08741v1 [cs.CL])",
+    "abstract": "Scarcity of resources such as annotated text corpora for under-resourced languages like Albanian is a serious impediment in computational linguistics and natural language processing research. This paper presents AlbNER, a corpus of 900 sentences with labeled named entities, collected from Albanian Wikipedia articles. Preliminary results with BERT and RoBERTa variants fine-tuned and tested with AlbNER data indicate that model size has slight impact on NER performance, whereas language transfer has a significant one. AlbNER corpus and these obtained results should serve as baselines for future experiments.",
+    "link": "http://arxiv.org/abs/2309.08741",
+    "context": "Title: AlbNER: A Corpus for Named Entity Recognition in Albanian. (arXiv:2309.08741v1 [cs.CL])\nAbstract: Scarcity of resources such as annotated text corpora for under-resourced languages like Albanian is a serious impediment in computational linguistics and natural language processing research. This paper presents AlbNER, a corpus of 900 sentences with labeled named entities, collected from Albanian Wikipedia articles. Preliminary results with BERT and RoBERTa variants fine-tuned and tested with AlbNER data indicate that model size has slight impact on NER performance, whereas language transfer has a significant one. AlbNER corpus and these obtained results should serve as baselines for future experiments.",
+    "path": "papers/23/09/2309.08741.json",
+    "total_tokens": 786,
+    "translated_title": "AlbNER：一个用于阿尔巴尼亚命名实体识别的语料库",
+    "translated_abstract": "针对阿尔巴尼亚等资源匮乏的语言，如计算语言学和自然语言处理研究中存在着标注文本语料库的严重障碍。本文介绍了AlbNER，这是一个由阿尔巴尼亚维基百科文章中收集的900个带有标记命名实体的句子的语料库。用使用AlbNER数据进行细调和测试的BERT和RoBERTa变体的初步结果表明，模型大小对NER性能的影响很小，而语言迁移的影响很大。AlbNER语料库和这些结果应作为未来实验的基线。",
+    "tldr": "本文介绍了一个用于阿尔巴尼亚命名实体识别的语料库AlbNER，该语料库由阿尔巴尼亚维基百科文章中收集的900个带有标记命名实体的句子组成。初步结果表明，模型大小对NER性能影响小，而语言迁移有着显著的影响。这些资源和结果为未来实验提供了基线。",
+    "en_tdlr": "This paper presents AlbNER, a corpus of 900 sentences with labeled named entities, collected from Albanian Wikipedia articles, which serves as a baseline for future experiments in under-resourced languages like Albanian. Preliminary results indicate that model size has slight impact on NER performance, whereas language transfer has a significant one."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Statistical Turing Test for Generative Models. (arXiv:2309.08913v1 [cs.AI])",
+    "abstract": "The emergence of human-like abilities of AI systems for content generation in domains such as text, audio, and vision has prompted the development of classifiers to determine whether content originated from a human or a machine. Implicit in these efforts is an assumption that the generation properties of a human are different from that of the machine. In this work, we provide a framework in the language of statistical pattern recognition that quantifies the difference between the distributions of human and machine-generated content conditioned on an evaluation context. We describe current methods in the context of the framework and demonstrate how to use the framework to evaluate the progression of generative models towards human-like capabilities, among many axes of analysis.",
+    "link": "http://arxiv.org/abs/2309.08913",
+    "context": "Title: A Statistical Turing Test for Generative Models. (arXiv:2309.08913v1 [cs.AI])\nAbstract: The emergence of human-like abilities of AI systems for content generation in domains such as text, audio, and vision has prompted the development of classifiers to determine whether content originated from a human or a machine. Implicit in these efforts is an assumption that the generation properties of a human are different from that of the machine. In this work, we provide a framework in the language of statistical pattern recognition that quantifies the difference between the distributions of human and machine-generated content conditioned on an evaluation context. We describe current methods in the context of the framework and demonstrate how to use the framework to evaluate the progression of generative models towards human-like capabilities, among many axes of analysis.",
+    "path": "papers/23/09/2309.08913.json",
+    "total_tokens": 696,
+    "translated_title": "一个统计图灵测试用于生成模型",
+    "translated_abstract": "人工智能系统在文本、音频和视觉等领域的内容生成能力的出现催生了用于区分内容来源于人还是机器的分类器的发展。这些工作的隐含假设是人类的生成能力与机器的生成能力存在差异。本文提供了一个在统计模式识别语言中量化人类和机器生成内容分布差异的框架，并描述了如何在框架中评估生成模型在向人类水平能力方面的进展，涵盖了多个分析维度。",
+    "tldr": "本研究提出了一个统计图灵测试的框架，用于量化人类和机器在给定评估环境下生成内容分布的差异，并演示了如何使用该框架评估生成模型在实现人类水平能力方面的进展。",
+    "en_tdlr": "This study presents a statistical Turing test framework to quantify the difference between the distributions of human and machine-generated content in a given evaluation context, and demonstrates how to evaluate the progression of generative models towards human-like capabilities using this framework."
+}

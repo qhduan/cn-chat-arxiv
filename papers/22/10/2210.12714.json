@@ -1,0 +1,11 @@
+{
+    "title": "Generative Knowledge Graph Construction: A Review. (arXiv:2210.12714v3 [cs.CL] UPDATED)",
+    "abstract": "Generative Knowledge Graph Construction (KGC) refers to those methods that leverage the sequence-to-sequence framework for building knowledge graphs, which is flexible and can be adapted to widespread tasks. In this study, we summarize the recent compelling progress in generative knowledge graph construction. We present the advantages and weaknesses of each paradigm in terms of different generation targets and provide theoretical insight and empirical analysis. Based on the review, we suggest promising research directions for the future. Our contributions are threefold: (1) We present a detailed, complete taxonomy for the generative KGC methods; (2) We provide a theoretical and empirical analysis of the generative KGC methods; (3) We propose several research directions that can be developed in the future.",
+    "link": "http://arxiv.org/abs/2210.12714",
+    "context": "Title: Generative Knowledge Graph Construction: A Review. (arXiv:2210.12714v3 [cs.CL] UPDATED)\nAbstract: Generative Knowledge Graph Construction (KGC) refers to those methods that leverage the sequence-to-sequence framework for building knowledge graphs, which is flexible and can be adapted to widespread tasks. In this study, we summarize the recent compelling progress in generative knowledge graph construction. We present the advantages and weaknesses of each paradigm in terms of different generation targets and provide theoretical insight and empirical analysis. Based on the review, we suggest promising research directions for the future. Our contributions are threefold: (1) We present a detailed, complete taxonomy for the generative KGC methods; (2) We provide a theoretical and empirical analysis of the generative KGC methods; (3) We propose several research directions that can be developed in the future.",
+    "path": "papers/22/10/2210.12714.json",
+    "total_tokens": 723,
+    "translated_title": "生成式知识图谱构建综述",
+    "translated_abstract": "生成式知识图谱构建（KGC）是指利用序列到序列框架构建灵活且可适用于广泛任务的知识图谱。本研究总结了生成式知识图谱构建领域中近期的重要进展，对不同的生成目标从理论和实证分析角度分别讨论了各种方法的优势和不足，并提出了未来有潜力的研究方向。我们的贡献有三个方面：（1）我们提供了生成式KGC方法的详细、完整的分类体系；（2）我们对生成式KGC方法进行了理论和实证分析；（3）我们提出了几个未来可以发展的研究方向。",
+    "tldr": "本文综述了生成式知识图谱构建领域的最新进展，包括方法分类和优劣分析，并提出了未来的研究方向。"
+}

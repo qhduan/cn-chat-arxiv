@@ -1,0 +1,12 @@
+{
+    "title": "On the Connection Between Riemann Hypothesis and a Special Class of Neural Networks. (arXiv:2309.09171v1 [stat.ML])",
+    "abstract": "The Riemann hypothesis (RH) is a long-standing open problem in mathematics. It conjectures that non-trivial zeros of the zeta function all have real part equal to 1/2. The extent of the consequences of RH is far-reaching and touches a wide spectrum of topics including the distribution of prime numbers, the growth of arithmetic functions, the growth of Euler totient, etc. In this note, we revisit and extend an old analytic criterion of the RH known as the Nyman-Beurling criterion which connects the RH to a minimization problem that involves a special class of neural networks. This note is intended for an audience unfamiliar with RH. A gentle introduction to RH is provided.",
+    "link": "http://arxiv.org/abs/2309.09171",
+    "context": "Title: On the Connection Between Riemann Hypothesis and a Special Class of Neural Networks. (arXiv:2309.09171v1 [stat.ML])\nAbstract: The Riemann hypothesis (RH) is a long-standing open problem in mathematics. It conjectures that non-trivial zeros of the zeta function all have real part equal to 1/2. The extent of the consequences of RH is far-reaching and touches a wide spectrum of topics including the distribution of prime numbers, the growth of arithmetic functions, the growth of Euler totient, etc. In this note, we revisit and extend an old analytic criterion of the RH known as the Nyman-Beurling criterion which connects the RH to a minimization problem that involves a special class of neural networks. This note is intended for an audience unfamiliar with RH. A gentle introduction to RH is provided.",
+    "path": "papers/23/09/2309.09171.json",
+    "total_tokens": 831,
+    "translated_title": "关于黎曼猜想和一类特殊神经网络之间的关联",
+    "translated_abstract": "黎曼猜想（RH）是数学中一个历史悠久的未解问题，它假设黎曼函数的非平凡零点的实部均等于1/2。RH的后果影响广泛，涉及到诸如素数分布、算术函数增长、欧拉函数增长等领域。在本文中，我们重新审视和扩展了一种称为Nyman-Beurling准则的RH旧分析准则，该准则将RH与涉及特殊类别神经网络的最小化问题联系起来。本文旨在面向那些对RH不熟悉的读者，提供了一个温和的RH介绍。",
+    "tldr": "黎曼猜想是数学领域中一个历史悠久的未解问题，它假设黎曼函数的非平凡零点的实部均等于1/2。本文重新审视和扩展了一种旧分析准则，将黎曼猜想与涉及特殊类别神经网络的最小化问题联系起来。",
+    "en_tdlr": "The Riemann hypothesis is a long-standing unsolved problem in mathematics, conjecturing that the real part of the non-trivial zeros of the Riemann function is always equal to 1/2. This paper revisits and extends an old analytic criterion called the Nyman-Beurling criterion, which connects the Riemann hypothesis to a minimization problem involving a special class of neural networks."
+}

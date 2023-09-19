@@ -1,0 +1,11 @@
+{
+    "title": "An Empirical Study on Instance Selection Strategies in Self-training for Sentiment Analysis. (arXiv:2309.08777v1 [cs.CL])",
+    "abstract": "Sentiment analysis is a crucial task in natural language processing that involves identifying and extracting subjective sentiment from text. Self-training has recently emerged as an economical and efficient technique for developing sentiment analysis models by leveraging a small amount of labeled data and a larger amount of unlabeled data. However, the performance of a self-training procedure heavily relies on the choice of the instance selection strategy, which has not been studied thoroughly. This paper presents an empirical study on various instance selection strategies for self-training on two public sentiment datasets, and investigates the influence of the strategy and hyper-parameters on the performance of self-training in various few-shot settings.",
+    "link": "http://arxiv.org/abs/2309.08777",
+    "context": "Title: An Empirical Study on Instance Selection Strategies in Self-training for Sentiment Analysis. (arXiv:2309.08777v1 [cs.CL])\nAbstract: Sentiment analysis is a crucial task in natural language processing that involves identifying and extracting subjective sentiment from text. Self-training has recently emerged as an economical and efficient technique for developing sentiment analysis models by leveraging a small amount of labeled data and a larger amount of unlabeled data. However, the performance of a self-training procedure heavily relies on the choice of the instance selection strategy, which has not been studied thoroughly. This paper presents an empirical study on various instance selection strategies for self-training on two public sentiment datasets, and investigates the influence of the strategy and hyper-parameters on the performance of self-training in various few-shot settings.",
+    "path": "papers/23/09/2309.08777.json",
+    "total_tokens": 716,
+    "translated_title": "自训练在情感分析中的实例选择策略的实证研究",
+    "translated_abstract": "情感分析是自然语言处理中的一个关键任务，涉及从文本中识别和提取主观情感。最近，通过利用少量标记数据和大量未标记数据，自训练已经成为一种经济高效的技术，用于开发情感分析模型。然而，自训练过程的性能严重依赖于实例选择策略的选择，而这方面的研究还不够充分。本文对自训练的各种实例选择策略在两个公开情感数据集上进行了实证研究，并研究了策略和超参数在各种少样本设置下对自训练性能的影响。",
+    "tldr": "本文对自训练在情感分析中的实例选择策略进行了实证研究，研究了策略和超参数对自训练性能的影响。"
+}

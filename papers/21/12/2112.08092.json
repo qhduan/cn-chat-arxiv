@@ -1,0 +1,12 @@
+{
+    "title": "Testing Instrument Validity with Covariates. (arXiv:2112.08092v2 [econ.EM] UPDATED)",
+    "abstract": "We develop a novel test of the instrumental variable identifying assumptions for heterogeneous treatment effect models with conditioning covariates. We assume semiparametric dependence between potential outcomes and conditioning covariates. This allows us to obtain testable equality and inequality restrictions among the subdensities of estimable partial residuals. We propose jointly testing these restrictions. To improve power, we introduce distillation, where a trimmed sample is used to test the inequality restrictions. In Monte Carlo exercises we find gains in finite sample power from testing restrictions jointly and distillation. We apply our test procedure to three instruments and reject the null for one.",
+    "link": "http://arxiv.org/abs/2112.08092",
+    "context": "Title: Testing Instrument Validity with Covariates. (arXiv:2112.08092v2 [econ.EM] UPDATED)\nAbstract: We develop a novel test of the instrumental variable identifying assumptions for heterogeneous treatment effect models with conditioning covariates. We assume semiparametric dependence between potential outcomes and conditioning covariates. This allows us to obtain testable equality and inequality restrictions among the subdensities of estimable partial residuals. We propose jointly testing these restrictions. To improve power, we introduce distillation, where a trimmed sample is used to test the inequality restrictions. In Monte Carlo exercises we find gains in finite sample power from testing restrictions jointly and distillation. We apply our test procedure to three instruments and reject the null for one.",
+    "path": "papers/21/12/2112.08092.json",
+    "total_tokens": 764,
+    "translated_title": "使用协变量测试仪器有效性",
+    "translated_abstract": "我们开发了一种新颖的测试方法，用于具有条件协变量的异质处理效应模型的仪器变量识别假设。我们假设潜在结果与条件协变量之间存在半参数依赖关系。这使得我们能够获得可估计部分残差的子密度之间的可测试的等式和不等式约束。我们建议联合测试这些约束。为了提高功效，我们引入了“提取法”，即使用修剪样本来测试不等式约束。在蒙特卡罗实验中，我们发现联合测试约束和提取法能够提高有限样本功效。我们将我们的测试程序应用于三个仪器，并拒绝了一个假设的零假设。",
+    "tldr": "我们提出了一种使用协变量测试仪器有效性的新方法，并应用于异质处理效应模型。通过联合测试约束和使用修剪样本来提高功效，我们发现了可行的部分残差子密度之间的等式和不等式约束，并对一个假设的仪器进行了拒绝。",
+    "en_tdlr": "We propose a novel method to test instrument validity with covariates in heterogeneous treatment effect models. By jointly testing equality and inequality restrictions among estimable partial residuals and using a trimmed sample, we improve power and reject the null hypothesis for one instrument."
+}

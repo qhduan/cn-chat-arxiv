@@ -1,0 +1,12 @@
+{
+    "title": "A General Framework for the Practical Disintegration of PAC-Bayesian Bounds. (arXiv:2102.08649v3 [stat.ML] UPDATED)",
+    "abstract": "PAC-Bayesian bounds are known to be tight and informative when studying the generalization ability of randomized classifiers. However, they require a loose and costly derandomization step when applied to some families of deterministic models such as neural networks. As an alternative to this step, we introduce new PAC-Bayesian generalization bounds that have the originality to provide disintegrated bounds, i.e., they give guarantees over one single hypothesis instead of the usual averaged analysis. Our bounds are easily optimizable and can be used to design learning algorithms. We illustrate this behavior on neural networks, and we show a significant practical improvement over the state-of-the-art framework.",
+    "link": "http://arxiv.org/abs/2102.08649",
+    "context": "Title: A General Framework for the Practical Disintegration of PAC-Bayesian Bounds. (arXiv:2102.08649v3 [stat.ML] UPDATED)\nAbstract: PAC-Bayesian bounds are known to be tight and informative when studying the generalization ability of randomized classifiers. However, they require a loose and costly derandomization step when applied to some families of deterministic models such as neural networks. As an alternative to this step, we introduce new PAC-Bayesian generalization bounds that have the originality to provide disintegrated bounds, i.e., they give guarantees over one single hypothesis instead of the usual averaged analysis. Our bounds are easily optimizable and can be used to design learning algorithms. We illustrate this behavior on neural networks, and we show a significant practical improvement over the state-of-the-art framework.",
+    "path": "papers/21/02/2102.08649.json",
+    "total_tokens": 743,
+    "translated_title": "一个通用框架用于PAC-Bayesian界的实用解读",
+    "translated_abstract": "PAC-Bayesian界在研究随机分类器的泛化能力时已被证明紧凑而且有信息量。然而，当应用于一些确定性模型家族（如神经网络）时，它们需要松弛且昂贵的去随机化步骤。作为替代步骤，我们引入了新的PAC-Bayesian泛化界，这些界独具创新性，能够提供解离界，即它们能够对一个单一假设提供保证，而不是通常的平均分析。我们的界易于优化，并可用于设计学习算法。我们在神经网络上展示了这种行为，并展示了与现有框架相比的显著实用改进。",
+    "tldr": "该论文提出了一种新的PAC-Bayesian泛化界的框架，该框架能够提供解离界，相比现有框架在神经网络上有显著的实用改进。",
+    "en_tdlr": "This paper presents a new framework for PAC-Bayesian generalization bounds that provides disintegrated bounds, resulting in significant practical improvement over existing frameworks when applied to neural networks."
+}

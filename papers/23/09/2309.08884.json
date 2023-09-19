@@ -1,0 +1,12 @@
+{
+    "title": "Robust Online Covariance and Sparse Precision Estimation Under Arbitrary Data Corruption. (arXiv:2309.08884v1 [cs.LG])",
+    "abstract": "Gaussian graphical models are widely used to represent correlations among entities but remain vulnerable to data corruption. In this work, we introduce a modified trimmed-inner-product algorithm to robustly estimate the covariance in an online scenario even in the presence of arbitrary and adversarial data attacks. At each time step, data points, drawn nominally independently and identically from a multivariate Gaussian distribution, arrive. However, a certain fraction of these points may have been arbitrarily corrupted. We propose an online algorithm to estimate the sparse inverse covariance (i.e., precision) matrix despite this corruption. We provide the error-bound and convergence properties of the estimates to the true precision matrix under our algorithms.",
+    "link": "http://arxiv.org/abs/2309.08884",
+    "context": "Title: Robust Online Covariance and Sparse Precision Estimation Under Arbitrary Data Corruption. (arXiv:2309.08884v1 [cs.LG])\nAbstract: Gaussian graphical models are widely used to represent correlations among entities but remain vulnerable to data corruption. In this work, we introduce a modified trimmed-inner-product algorithm to robustly estimate the covariance in an online scenario even in the presence of arbitrary and adversarial data attacks. At each time step, data points, drawn nominally independently and identically from a multivariate Gaussian distribution, arrive. However, a certain fraction of these points may have been arbitrarily corrupted. We propose an online algorithm to estimate the sparse inverse covariance (i.e., precision) matrix despite this corruption. We provide the error-bound and convergence properties of the estimates to the true precision matrix under our algorithms.",
+    "path": "papers/23/09/2309.08884.json",
+    "total_tokens": 734,
+    "translated_title": "在任意数据损坏下的鲁棒在线协方差和稀疏精度估计",
+    "translated_abstract": "高斯图模型被广泛用于表示实体间的相关性，但仍然容易受到数据损坏的影响。在这项工作中，我们引入了一种修改后的修剪内积算法，在任意和对抗性数据攻击存在的情况下，在在线场景中鲁棒地估计协方差。在每个时间步骤中，正常地独立同分布于多元高斯分布的数据点到来。然而，其中一定比例的数据点可能已被任意破坏。我们提出了一种在线算法，尽管存在数据损坏，可以估计稀疏逆协方差（即精度）矩阵。我们提供了我们算法下估计精度矩阵的误差界和收敛性质。",
+    "tldr": "该论文提出了一种在任意数据损坏下鲁棒地在线估计协方差和稀疏精度的算法。",
+    "en_tdlr": "This paper proposes an algorithm for robust online estimation of covariance and sparse precision under arbitrary data corruption."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Representation Learning in Low-rank Slate-based Recommender Systems. (arXiv:2309.08622v1 [cs.IR])",
+    "abstract": "Reinforcement learning (RL) in recommendation systems offers the potential to optimize recommendations for long-term user engagement. However, the environment often involves large state and action spaces, which makes it hard to efficiently learn and explore. In this work, we propose a sample-efficient representation learning algorithm, using the standard slate recommendation setup, to treat this as an online RL problem with low-rank Markov decision processes (MDPs). We also construct the recommender simulation environment with the proposed setup and sampling method.",
+    "link": "http://arxiv.org/abs/2309.08622",
+    "context": "Title: Representation Learning in Low-rank Slate-based Recommender Systems. (arXiv:2309.08622v1 [cs.IR])\nAbstract: Reinforcement learning (RL) in recommendation systems offers the potential to optimize recommendations for long-term user engagement. However, the environment often involves large state and action spaces, which makes it hard to efficiently learn and explore. In this work, we propose a sample-efficient representation learning algorithm, using the standard slate recommendation setup, to treat this as an online RL problem with low-rank Markov decision processes (MDPs). We also construct the recommender simulation environment with the proposed setup and sampling method.",
+    "path": "papers/23/09/2309.08622.json",
+    "total_tokens": 621,
+    "translated_title": "基于低秩Slate的推荐系统中的表示学习",
+    "translated_abstract": "在推荐系统中应用强化学习（RL）可以优化长期用户参与度的推荐。然而，该环境通常包含大量的状态和动作空间，这使得学习和探索变得困难。在这项工作中，我们提出了一种样本高效的表示学习算法，使用标准的slate推荐设置，将其视为低秩马尔可夫决策过程（MDP）的在线RL问题。我们还通过提出的设置和采样方法构建了推荐模拟环境。",
+    "tldr": "该论文提出了在推荐系统中使用低秩MDP将推荐问题视为在线RL问题，并通过提出的算法实现了高效的表示学习。"
+}
