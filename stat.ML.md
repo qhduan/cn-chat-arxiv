@@ -9,52 +9,53 @@
 | [^5] | [Error Reduction from Stacked Regressions.](http://arxiv.org/abs/2309.09880) | 本文提出了一种新的堆叠回归方法，通过最小化总体风险并受非负性约束，成功降低了误差。实验证明，堆叠估计器相比其中最佳的单个估计器具有更小的总体风险。 |
 | [^6] | [Pivotal Estimation of Linear Discriminant Analysis in High Dimensions.](http://arxiv.org/abs/2309.09831) | PANDA是一种高维线性判别分析方法，对调参数需求小且达到最优收敛速率，与现有方法相比，其性能相当或更好，并且需要较少的参数调整工作。 |
 | [^7] | [Convolutional Deep Kernel Machines.](http://arxiv.org/abs/2309.09814) | 这项研究介绍了一种称为卷积深度核机器的新型核方法，该方法纯粹使用核而不使用特征，通过高效的跨域诱导点近似方案和多种模型变体的设计，达到了在MNIST、CIFAR-10和CIFAR-100上接近甚至超过其他方法的测试准确率。 |
-| [^8] | [New Bounds on the Accuracy of Majority Voting for Multi-Class Classification.](http://arxiv.org/abs/2309.09564) | 本论文研究了多数投票在多类别分类问题中的准确性，并推导出了新的准确性上界。研究发现，在满足一定条件的情况下，随着独立投票人数量的增加，多数投票函数的错误率将以指数方式趋向于零，否则将以指数方式增长。 |
-| [^9] | [Multi-dimensional domain generalization with low-rank structures.](http://arxiv.org/abs/2309.09555) | 这项工作提出了一种新颖的方法来应对在健康相关研究中少数族群在训练数据中被忽视而导致的统计推断问题。通过将模型参数组织成张量，并研究结构化张量补全问题，我们实现了对具有有限或无可用数据的亚群体的鲁棒领域泛化，该方法利用了组标签的结构，可以产生更可靠和可解释的泛化结果。 |
-| [^10] | [Exploring and Learning in Sparse Linear MDPs without Computationally Intractable Oracles.](http://arxiv.org/abs/2309.09457) | 本文研究了在稀疏线性MDP中探索和学习的问题，通过特征选择提出了一个多项式时间算法，以在与环境的交互中学习出近似最优策略。 |
-| [^11] | [On the Use of the Kantorovich-Rubinstein Distance for Dimensionality Reduction.](http://arxiv.org/abs/2309.09442) | 这项研究研究了使用康托罗维奇-鲁宾斯坦距离来构建样本复杂性描述子，在分类问题中能够得出存在一个1-立切分类器的结论，并讨论了该距离的局限性。 |
-| [^12] | [Mitigating Over-Smoothing and Over-Squashing using Augmentations of Forman-Ricci Curvature.](http://arxiv.org/abs/2309.09384) | 本文提出了一种使用Forman-Ricci曲率扩展的方法来减轻图神经网络中的过度平滑和过度压缩问题。通过观察离散曲率，可以添加或删除边以减轻这两种效应。 |
-| [^13] | [Global Convergence of SGD For Logistic Loss on Two Layer Neural Nets.](http://arxiv.org/abs/2309.09258) | 本文首次证明了在深度为2的神经网络上，适当正则化的逻辑回归代价函数通过随机梯度下降（SGD）能够收敛到全局极小值，这适用于任意数据和具有充分平滑且有界激活函数。同时，我们还证明了连续时间SGD的指数级快速收敛速度，该结果也适用于光滑无界的激活函数。 |
-| [^14] | [Globally Convergent Accelerated Algorithms for Multilinear Sparse Logistic Regression with $\ell_0$-constraints.](http://arxiv.org/abs/2309.09239) | 本文提出了一种解决具有$\ell_0$约束的多线性稀疏逻辑回归模型的全局收敛加速算法。通过利用低秩张量分解的结构信息减少参数数量，该算法能够有效地进行特征选择和分析多维数据。该算法使用加速次梯度交替线性化最小化与自适应动量的方法来解决非凸和非光滑问题，并提供了收敛保证。 |
-| [^15] | [Double Normalizing Flows: Flexible Bayesian Gaussian Process ODEs Learning.](http://arxiv.org/abs/2309.09222) | 这项研究将标准化流引入高斯过程常微分方程(ODE)模型，使其具备更灵活和表达性强的先验分布和非高斯的后验推断，从而提高了贝叶斯高斯过程ODE的准确性和不确定性估计。 |
-| [^16] | [MFRL-BI: Design of a Model-free Reinforcement Learning Process Control Scheme by Using Bayesian Inference.](http://arxiv.org/abs/2309.09205) | 本论文提出了一种无模型强化学习（MFRL）方法来进行实时数据驱动的制造过程控制优化，通过使用贝叶斯推理来减少制造过程中扰动的大幅度变化。实验证明在未知过程模型的情况下，提出的MFRL控制器在非线性化学机械抛光（CMP）过程中表现良好。 |
-| [^17] | [On the Connection Between Riemann Hypothesis and a Special Class of Neural Networks.](http://arxiv.org/abs/2309.09171) | 黎曼猜想是数学领域中一个历史悠久的未解问题，它假设黎曼函数的非平凡零点的实部均等于1/2。本文重新审视和扩展了一种旧分析准则，将黎曼猜想与涉及特殊类别神经网络的最小化问题联系起来。 |
-| [^18] | [$L^1$ Estimation: On the Optimality of Linear Estimators.](http://arxiv.org/abs/2309.09129) | 该论文研究了在$L^1$保真度条件下，从噪声观测中估计随机变量$X$的问题。结果表明，唯一能够引入线性条件中位数的先验分布是高斯分布。此外，还研究了其他$L^p$损失，并观察到对于$p \in [1,2]$，高斯分布是唯一引入线性最优贝叶斯估计器的先验分布。扩展还涵盖了特定指数族条件分布的噪声模型。 |
-| [^19] | [Reducing sequential change detection to sequential estimation.](http://arxiv.org/abs/2309.09111) | 这个论文将顺序变化检测简化为顺序估计，通过使用置信序列来检测数据流中的变化，并证明了该方法具有强大的保证。 |
-| [^20] | [Solving Quadratic Systems with Full-Rank Matrices Using Sparse or Generative Priors.](http://arxiv.org/abs/2309.09032) | 本论文提出了一个方法，通过使用稀疏或生成的先验知识，解决了从全秩矩阵的二次系统中恢复信号的问题。其中，通过引入阈值Wirtinger流算法（TWF）来处理稀疏信号，并使用谱初始化和阈值梯度下降方法，在高维情况下实现了较小的测量数量。 |
-| [^21] | [Data-driven Reachability using Christoffel Functions and Conformal Prediction.](http://arxiv.org/abs/2309.08976) | 这篇论文介绍了一种使用克里斯托费尔函数和共形预测进行数据驱动的可达性分析方法，能够有效估计复杂系统的可达集合，而不依赖于已知的数学模型。 |
-| [^22] | [Fast Approximation of the Shapley Values Based on Order-of-Addition Experimental Designs.](http://arxiv.org/abs/2309.08923) | 该论文提出了一种基于加法顺序实验设计的方法，可以快速近似计算Shapley值。这解决了在计算Shapley值时的高计算负担问题。 |
-| [^23] | [Efficient Methods for Non-stationary Online Learning.](http://arxiv.org/abs/2309.08911) | 这项工作提出了一种针对非平稳在线学习的高效方法，通过降低每轮投影的数量来优化动态遗憾和自适应遗憾的计算复杂性。 |
-| [^24] | [Learning Linearized Models from Nonlinear Systems with Finite Data.](http://arxiv.org/abs/2309.08805) | 本论文提出了一种从有限数据的非线性系统中学习线性化模型的方法，并提供了有限样本误差界。误差界展示了非线性误差和噪声误差之间的权衡，表明在有足够多的样本时，可以学习到具有任意小误差的线性化动力学。 |
-| [^25] | [Heteroscedastic sparse high-dimensional linear regression with a partitioned empirical Bayes ECM algorithm.](http://arxiv.org/abs/2309.08783) | 本文提出了一种解决高维度稀疏线性回归中异方差问题的方法，通过基于分区经验贝叶斯ECM算法的异方差高维度线性回归模型来实现。这个模型可以处理残差方差不恒定的情况，并且可以使用插值的经验贝叶斯估计超参数来灵活地调整方差模型。 |
-| [^26] | [Clustered Multi-Agent Linear Bandits.](http://arxiv.org/abs/2309.08710) | 本文研究了集群化的多智能体线性赌博机问题，提出了一种新颖的算法，通过智能体之间的协作来加速优化问题。通过理论分析和实证评估，证明了算法在遗憾最小化和聚类质量上的有效性。 |
-| [^27] | [Price of Safety in Linear Best Arm Identification.](http://arxiv.org/abs/2309.08709) | 该论文提出了一种具有线性反馈的安全最优臂识别框架，该框架通过利用线性结构来保证在每一轮中不违反阶段性安全约束，提出了一种基于间隙的算法来实现有意义的样本复杂性，并通过实验证明了算法的有效性。 |
-| [^28] | [Doubly High-Dimensional Contextual Bandits: An Interpretable Model for Joint Assortment-Pricing.](http://arxiv.org/abs/2309.08634) | 本论文提出了一种双高维上下文强化学习算法，用于解决联合组合-定价问题，通过简单而灵活的模型捕捉协变量和行为之间的相互作用，同时保持可解释性。该方法兼容多种结构化的线性强化学习和定价模型，提供了一种计算可行的流程。 |
-| [^29] | [The Curse of Memory in Stochastic Approximation: Extended Version.](http://arxiv.org/abs/2309.02944) | 本文研究了随机逼近中的记忆诅咒问题，并探讨了在不同情况下的结果。在具有几何遍历马尔可夫扰动的情况下，目标偏差一般非零。此外，当参数估计使用平均法时，估计值收敛到渐近无偏，且具有近似最优的渐近协方差。 |
-| [^30] | [Tropical Geometric Tools for Machine Learning: the TML package.](http://arxiv.org/abs/2309.01082) | TML软件包是第一个包含一套全面工具和方法的R软件包，用于处理与热带凸性相关的基本计算和可视化，以及使用热带度量进行监督和无监督学习模型的统计推断。 |
-| [^31] | [Exploration of Rashomon Set Assists Explanations for Medical Data.](http://arxiv.org/abs/2308.11446) | 本文提出了一种新的过程来探索和分析医疗数据中的拉舒蒙集合模型，从而超越传统单一模型选择的方法，并通过引入"拉舒蒙检测"算法识别出集合中最不同的模型。 |
-| [^32] | [Dyadic Reinforcement Learning.](http://arxiv.org/abs/2308.07843) | 该论文介绍了一个称为二元强化学习的在线算法，用于根据上下文因素和目标人与其照顾伴侣的过去反馈，个性化地提供干预措施。该算法是贝叶斯和层次的，并通过模拟展示了良好的实证效果。 |
-| [^33] | [Nonlinear Permuted Granger Causality.](http://arxiv.org/abs/2308.06220) | 这项研究提出了一种处理非线性数据的格兰杰因果性方法，通过在特征提取过程中使用人工神经网络，利用置换来度量功能连接性，并实现了每个置换的方差的一致估计。在与其他技术的比较中，该方法表现出良好的性能。 |
-| [^34] | [Change Point Detection With Conceptors.](http://arxiv.org/abs/2308.06213) | 我们提出了一种使用概念器矩阵进行变点检测的方法，通过学习时间序列中的特征动态，并利用单变量量化来识别变点。该方法在条件和无条件的变点检测问题上进行了测试，可以提供潜在的需要进一步研究的感兴趣位置。 |
-| [^35] | [RED CoMETS: An ensemble classifier for symbolically represented multivariate time series.](http://arxiv.org/abs/2307.13679) | 本文介绍了一种名为RED CoMETS的集成分类器，用于处理符号化表示的多变量时间序列数据。它在多变量设置中展现出竞争力的准确性，并在'HandMovementDirection'数据集上实现了最高的报告准确性。 |
-| [^36] | [Categorical Foundations of Explainable AI: A Unifying Formalism of Structures and Semantics.](http://arxiv.org/abs/2304.14094) | 本文采用范畴理论的框架，提出了可解释AI的统一理论体系，为领域中所有重要术语提供了清晰的形式定义，并提供了遵循所提出结构的领域分类法。 |
-| [^37] | [counterfactuals: An R Package for Counterfactual Explanation Methods.](http://arxiv.org/abs/2304.06569) | 该论文介绍了一个统一且模块化的 R6 接口，用于具体实现反事实解释方法。通过实现三种方法并推广到不同的情境中，结合真实用例，此方法能够快速准确地得出有关如何更改单个观测值的特征值以获得所需预测的信息。 |
-| [^38] | [Combinatorial Causal Bandits without Graph Skeleton.](http://arxiv.org/abs/2301.13392) | 本文研究了在二值一般因果模型和BGLMs上不考虑图骨架的组合因果赌博机问题，提出了可在BGLMs上实现的无需图骨架的遗憾最小化算法，达到了与依赖于图结构的最先进算法相同的渐进遗憾率$O(\sqrt{T}\ln T)$。 |
-| [^39] | [The Projected Covariance Measure for assumption-lean variable significance testing.](http://arxiv.org/abs/2211.02039) | 该论文介绍了一种假设简约的变量重要性检验方法，利用非参数或机器学习方法实现稳健的误差控制和高功效。 |
-| [^40] | [Differential Privacy has Bounded Impact on Fairness in Classification.](http://arxiv.org/abs/2210.16242) | 本文理论上研究了差分隐私对分类公平性的影响。证明了在给定模型类的情况下，流行的群体公平度量是关于模型参数点值利普希茨连续的。非渐近界限表明，随着样本数量的增加，私有模型的公平度越来越接近于非私有模型的公平度，也突显了模型的置信边界对差分隐私的不对等影响的重要性。 |
-| [^41] | [Mean-field neural networks: learning mappings on Wasserstein space.](http://arxiv.org/abs/2210.15179) | 本文研究了均场神经网络在学习概率测度的Wasserstein空间和函数空间之间的映射中的应用。提出了两类神经网络，通过通用逼近定理理论支持，并通过数值实验展示了其准确性和效率。此外，还提出了依赖于均场神经网络的算法来解决时间相关的均场问题。 |
-| [^42] | [TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second.](http://arxiv.org/abs/2207.01848) | TabPFN是一种可以在不到一秒钟内完成小型表格数据集的监督分类的Transformer，无需超参数调整，并且具有竞争力。它使用先验适应网络（PFN）逼近基于先验的贝叶斯推断，先验融合了因果推理的思想。 |
-| [^43] | [Sum-of-Squares Relaxations for Information Theory and Variational Inference.](http://arxiv.org/abs/2206.13285) | 本论文研究了基于平方和松弛方法在信息论和变分推断中的应用。通过使用这种方法，我们提出了计算$f$-divergences的凸松弛算法，其中涉及到从非局部协方差矩阵计算这些divergences的问题。这些结果对于数据科学中的多个应用具有重要意义。 |
-| [^44] | [Multiple Testing Framework for Out-of-Distribution Detection.](http://arxiv.org/abs/2206.09522) | 本研究提出了一个多重检验框架用于离群分布检测的问题，包括了定义OOD概念和提供强有力保证的方法，与之前的基于阈值的测试相比，在不同类型的OOD实例中表现更一致。 |
-| [^45] | [Addressing Strategic Manipulation Disparities in Fair Classification.](http://arxiv.org/abs/2205.10842) | 该论文研究了公平分类中存在的战略操纵差异问题，提出了一个受约束的优化框架来解决这个问题。 |
-| [^46] | [Optimal Learning Rates for Regularized Least-Squares with a Fourier Capacity Condition.](http://arxiv.org/abs/2204.07856) | 本论文研究了具有傅立叶容量条件的正则化最小二乘问题的最优学习率，通过插值理论和新的傅立叶等容性条件，我们推导出了广泛类别的Tikhonov正则化学习问题的最小化自适应率，不需要回归函数包含在假设集中。 |
-| [^47] | [When AUC meets DRO: Optimizing Partial AUC for Deep Learning with Non-Convex Convergence Guarantee.](http://arxiv.org/abs/2203.00176) | 本文提出了一种基于梯度的方法，通过分布鲁棒优化（DRO）来最大化深度学习中的局部AUC（pAUC），并提出了准确和平滑的pAUC估计量。实验证明了该方法在各种数据集上的有效性。 |
-| [^48] | [Adaptive and Robust Multi-Task Learning.](http://arxiv.org/abs/2202.05250) | 本文提出一系列自适应方法，能够同时处理多任务学习的相似性和差异性，并具有统计保证和鲁棒性。 |
-| [^49] | [A Class of Dimension-free Metrics for the Convergence of Empirical Measures.](http://arxiv.org/abs/2104.12036) | 本文提出了一类无维度度量，用于高维情况下经验测度的收敛性，解决了维度灾难问题，具有重要的实际应用。 |
-| [^50] | [A General Framework for the Practical Disintegration of PAC-Bayesian Bounds.](http://arxiv.org/abs/2102.08649) | 该论文提出了一种新的PAC-Bayesian泛化界的框架，该框架能够提供解离界，相比现有框架在神经网络上有显著的实用改进。 |
-| [^51] | [Lazy OCO: Online Convex Optimization on a Switching Budget.](http://arxiv.org/abs/2102.03803) | 本研究提出了一种懒惰型在线凸优化的算法，其在切换次数有限的情况下达到了近似最优的遗憾上界，并且在连续设置中呈现出高效的计算性能。 |
-| [^52] | [Risk-Sensitive Deep RL: Variance-Constrained Actor-Critic Provably Finds Globally Optimal Policy.](http://arxiv.org/abs/2012.14098) | 本文首次尝试在平均奖励设置下，通过方差风险准则研究风险敏感的深度强化学习。我们提出了一个方差约束的策略优化问题，并设计了一种演员-评论家算法来解决该问题。 |
-| [^53] | [Advanced Capsule Networks via Context Awareness.](http://arxiv.org/abs/1903.07497) | 本研究通过增加池化层和重建层来改进胶囊网络（CN）的设计，以适应具有不同上下文的图像数据集，并与深度学习（DL）模型进行了性能对比。结果显示，CN在大大减少训练时间的同时表现出了与DL模型相当的性能。 |
+| [^8] | [Neural Collapse for Unconstrained Feature Model under Cross-entropy Loss with Imbalanced Data.](http://arxiv.org/abs/2309.09725) | 在无约束特征模型的背景下，我们研究了交叉熵损失函数下不均衡数据的神经塌缩现象。 |
+| [^9] | [New Bounds on the Accuracy of Majority Voting for Multi-Class Classification.](http://arxiv.org/abs/2309.09564) | 本论文研究了多数投票在多类别分类问题中的准确性，并推导出了新的准确性上界。研究发现，在满足一定条件的情况下，随着独立投票人数量的增加，多数投票函数的错误率将以指数方式趋向于零，否则将以指数方式增长。 |
+| [^10] | [Multi-dimensional domain generalization with low-rank structures.](http://arxiv.org/abs/2309.09555) | 这项工作提出了一种新颖的方法来应对在健康相关研究中少数族群在训练数据中被忽视而导致的统计推断问题。通过将模型参数组织成张量，并研究结构化张量补全问题，我们实现了对具有有限或无可用数据的亚群体的鲁棒领域泛化，该方法利用了组标签的结构，可以产生更可靠和可解释的泛化结果。 |
+| [^11] | [Exploring and Learning in Sparse Linear MDPs without Computationally Intractable Oracles.](http://arxiv.org/abs/2309.09457) | 本文研究了在稀疏线性MDP中探索和学习的问题，通过特征选择提出了一个多项式时间算法，以在与环境的交互中学习出近似最优策略。 |
+| [^12] | [On the Use of the Kantorovich-Rubinstein Distance for Dimensionality Reduction.](http://arxiv.org/abs/2309.09442) | 这项研究研究了使用康托罗维奇-鲁宾斯坦距离来构建样本复杂性描述子，在分类问题中能够得出存在一个1-立切分类器的结论，并讨论了该距离的局限性。 |
+| [^13] | [Mitigating Over-Smoothing and Over-Squashing using Augmentations of Forman-Ricci Curvature.](http://arxiv.org/abs/2309.09384) | 本文提出了一种使用Forman-Ricci曲率扩展的方法来减轻图神经网络中的过度平滑和过度压缩问题。通过观察离散曲率，可以添加或删除边以减轻这两种效应。 |
+| [^14] | [Global Convergence of SGD For Logistic Loss on Two Layer Neural Nets.](http://arxiv.org/abs/2309.09258) | 本文首次证明了在深度为2的神经网络上，适当正则化的逻辑回归代价函数通过随机梯度下降（SGD）能够收敛到全局极小值，这适用于任意数据和具有充分平滑且有界激活函数。同时，我们还证明了连续时间SGD的指数级快速收敛速度，该结果也适用于光滑无界的激活函数。 |
+| [^15] | [Globally Convergent Accelerated Algorithms for Multilinear Sparse Logistic Regression with $\ell_0$-constraints.](http://arxiv.org/abs/2309.09239) | 本文提出了一种解决具有$\ell_0$约束的多线性稀疏逻辑回归模型的全局收敛加速算法。通过利用低秩张量分解的结构信息减少参数数量，该算法能够有效地进行特征选择和分析多维数据。该算法使用加速次梯度交替线性化最小化与自适应动量的方法来解决非凸和非光滑问题，并提供了收敛保证。 |
+| [^16] | [Double Normalizing Flows: Flexible Bayesian Gaussian Process ODEs Learning.](http://arxiv.org/abs/2309.09222) | 这项研究将标准化流引入高斯过程常微分方程(ODE)模型，使其具备更灵活和表达性强的先验分布和非高斯的后验推断，从而提高了贝叶斯高斯过程ODE的准确性和不确定性估计。 |
+| [^17] | [MFRL-BI: Design of a Model-free Reinforcement Learning Process Control Scheme by Using Bayesian Inference.](http://arxiv.org/abs/2309.09205) | 本论文提出了一种无模型强化学习（MFRL）方法来进行实时数据驱动的制造过程控制优化，通过使用贝叶斯推理来减少制造过程中扰动的大幅度变化。实验证明在未知过程模型的情况下，提出的MFRL控制器在非线性化学机械抛光（CMP）过程中表现良好。 |
+| [^18] | [On the Connection Between Riemann Hypothesis and a Special Class of Neural Networks.](http://arxiv.org/abs/2309.09171) | 黎曼猜想是数学领域中一个历史悠久的未解问题，它假设黎曼函数的非平凡零点的实部均等于1/2。本文重新审视和扩展了一种旧分析准则，将黎曼猜想与涉及特殊类别神经网络的最小化问题联系起来。 |
+| [^19] | [$L^1$ Estimation: On the Optimality of Linear Estimators.](http://arxiv.org/abs/2309.09129) | 该论文研究了在$L^1$保真度条件下，从噪声观测中估计随机变量$X$的问题。结果表明，唯一能够引入线性条件中位数的先验分布是高斯分布。此外，还研究了其他$L^p$损失，并观察到对于$p \in [1,2]$，高斯分布是唯一引入线性最优贝叶斯估计器的先验分布。扩展还涵盖了特定指数族条件分布的噪声模型。 |
+| [^20] | [Reducing sequential change detection to sequential estimation.](http://arxiv.org/abs/2309.09111) | 这个论文将顺序变化检测简化为顺序估计，通过使用置信序列来检测数据流中的变化，并证明了该方法具有强大的保证。 |
+| [^21] | [Solving Quadratic Systems with Full-Rank Matrices Using Sparse or Generative Priors.](http://arxiv.org/abs/2309.09032) | 本论文提出了一个方法，通过使用稀疏或生成的先验知识，解决了从全秩矩阵的二次系统中恢复信号的问题。其中，通过引入阈值Wirtinger流算法（TWF）来处理稀疏信号，并使用谱初始化和阈值梯度下降方法，在高维情况下实现了较小的测量数量。 |
+| [^22] | [Data-driven Reachability using Christoffel Functions and Conformal Prediction.](http://arxiv.org/abs/2309.08976) | 这篇论文介绍了一种使用克里斯托费尔函数和共形预测进行数据驱动的可达性分析方法，能够有效估计复杂系统的可达集合，而不依赖于已知的数学模型。 |
+| [^23] | [Fast Approximation of the Shapley Values Based on Order-of-Addition Experimental Designs.](http://arxiv.org/abs/2309.08923) | 该论文提出了一种基于加法顺序实验设计的方法，可以快速近似计算Shapley值。这解决了在计算Shapley值时的高计算负担问题。 |
+| [^24] | [Efficient Methods for Non-stationary Online Learning.](http://arxiv.org/abs/2309.08911) | 这项工作提出了一种针对非平稳在线学习的高效方法，通过降低每轮投影的数量来优化动态遗憾和自适应遗憾的计算复杂性。 |
+| [^25] | [Learning Linearized Models from Nonlinear Systems with Finite Data.](http://arxiv.org/abs/2309.08805) | 本论文提出了一种从有限数据的非线性系统中学习线性化模型的方法，并提供了有限样本误差界。误差界展示了非线性误差和噪声误差之间的权衡，表明在有足够多的样本时，可以学习到具有任意小误差的线性化动力学。 |
+| [^26] | [Heteroscedastic sparse high-dimensional linear regression with a partitioned empirical Bayes ECM algorithm.](http://arxiv.org/abs/2309.08783) | 本文提出了一种解决高维度稀疏线性回归中异方差问题的方法，通过基于分区经验贝叶斯ECM算法的异方差高维度线性回归模型来实现。这个模型可以处理残差方差不恒定的情况，并且可以使用插值的经验贝叶斯估计超参数来灵活地调整方差模型。 |
+| [^27] | [Clustered Multi-Agent Linear Bandits.](http://arxiv.org/abs/2309.08710) | 本文研究了集群化的多智能体线性赌博机问题，提出了一种新颖的算法，通过智能体之间的协作来加速优化问题。通过理论分析和实证评估，证明了算法在遗憾最小化和聚类质量上的有效性。 |
+| [^28] | [Price of Safety in Linear Best Arm Identification.](http://arxiv.org/abs/2309.08709) | 该论文提出了一种具有线性反馈的安全最优臂识别框架，该框架通过利用线性结构来保证在每一轮中不违反阶段性安全约束，提出了一种基于间隙的算法来实现有意义的样本复杂性，并通过实验证明了算法的有效性。 |
+| [^29] | [Doubly High-Dimensional Contextual Bandits: An Interpretable Model for Joint Assortment-Pricing.](http://arxiv.org/abs/2309.08634) | 本论文提出了一种双高维上下文强化学习算法，用于解决联合组合-定价问题，通过简单而灵活的模型捕捉协变量和行为之间的相互作用，同时保持可解释性。该方法兼容多种结构化的线性强化学习和定价模型，提供了一种计算可行的流程。 |
+| [^30] | [The Curse of Memory in Stochastic Approximation: Extended Version.](http://arxiv.org/abs/2309.02944) | 本文研究了随机逼近中的记忆诅咒问题，并探讨了在不同情况下的结果。在具有几何遍历马尔可夫扰动的情况下，目标偏差一般非零。此外，当参数估计使用平均法时，估计值收敛到渐近无偏，且具有近似最优的渐近协方差。 |
+| [^31] | [Tropical Geometric Tools for Machine Learning: the TML package.](http://arxiv.org/abs/2309.01082) | TML软件包是第一个包含一套全面工具和方法的R软件包，用于处理与热带凸性相关的基本计算和可视化，以及使用热带度量进行监督和无监督学习模型的统计推断。 |
+| [^32] | [Exploration of Rashomon Set Assists Explanations for Medical Data.](http://arxiv.org/abs/2308.11446) | 本文提出了一种新的过程来探索和分析医疗数据中的拉舒蒙集合模型，从而超越传统单一模型选择的方法，并通过引入"拉舒蒙检测"算法识别出集合中最不同的模型。 |
+| [^33] | [Dyadic Reinforcement Learning.](http://arxiv.org/abs/2308.07843) | 该论文介绍了一个称为二元强化学习的在线算法，用于根据上下文因素和目标人与其照顾伴侣的过去反馈，个性化地提供干预措施。该算法是贝叶斯和层次的，并通过模拟展示了良好的实证效果。 |
+| [^34] | [Nonlinear Permuted Granger Causality.](http://arxiv.org/abs/2308.06220) | 这项研究提出了一种处理非线性数据的格兰杰因果性方法，通过在特征提取过程中使用人工神经网络，利用置换来度量功能连接性，并实现了每个置换的方差的一致估计。在与其他技术的比较中，该方法表现出良好的性能。 |
+| [^35] | [Change Point Detection With Conceptors.](http://arxiv.org/abs/2308.06213) | 我们提出了一种使用概念器矩阵进行变点检测的方法，通过学习时间序列中的特征动态，并利用单变量量化来识别变点。该方法在条件和无条件的变点检测问题上进行了测试，可以提供潜在的需要进一步研究的感兴趣位置。 |
+| [^36] | [RED CoMETS: An ensemble classifier for symbolically represented multivariate time series.](http://arxiv.org/abs/2307.13679) | 本文介绍了一种名为RED CoMETS的集成分类器，用于处理符号化表示的多变量时间序列数据。它在多变量设置中展现出竞争力的准确性，并在'HandMovementDirection'数据集上实现了最高的报告准确性。 |
+| [^37] | [Categorical Foundations of Explainable AI: A Unifying Formalism of Structures and Semantics.](http://arxiv.org/abs/2304.14094) | 本文采用范畴理论的框架，提出了可解释AI的统一理论体系，为领域中所有重要术语提供了清晰的形式定义，并提供了遵循所提出结构的领域分类法。 |
+| [^38] | [counterfactuals: An R Package for Counterfactual Explanation Methods.](http://arxiv.org/abs/2304.06569) | 该论文介绍了一个统一且模块化的 R6 接口，用于具体实现反事实解释方法。通过实现三种方法并推广到不同的情境中，结合真实用例，此方法能够快速准确地得出有关如何更改单个观测值的特征值以获得所需预测的信息。 |
+| [^39] | [Combinatorial Causal Bandits without Graph Skeleton.](http://arxiv.org/abs/2301.13392) | 本文研究了在二值一般因果模型和BGLMs上不考虑图骨架的组合因果赌博机问题，提出了可在BGLMs上实现的无需图骨架的遗憾最小化算法，达到了与依赖于图结构的最先进算法相同的渐进遗憾率$O(\sqrt{T}\ln T)$。 |
+| [^40] | [The Projected Covariance Measure for assumption-lean variable significance testing.](http://arxiv.org/abs/2211.02039) | 该论文介绍了一种假设简约的变量重要性检验方法，利用非参数或机器学习方法实现稳健的误差控制和高功效。 |
+| [^41] | [Differential Privacy has Bounded Impact on Fairness in Classification.](http://arxiv.org/abs/2210.16242) | 本文理论上研究了差分隐私对分类公平性的影响。证明了在给定模型类的情况下，流行的群体公平度量是关于模型参数点值利普希茨连续的。非渐近界限表明，随着样本数量的增加，私有模型的公平度越来越接近于非私有模型的公平度，也突显了模型的置信边界对差分隐私的不对等影响的重要性。 |
+| [^42] | [Mean-field neural networks: learning mappings on Wasserstein space.](http://arxiv.org/abs/2210.15179) | 本文研究了均场神经网络在学习概率测度的Wasserstein空间和函数空间之间的映射中的应用。提出了两类神经网络，通过通用逼近定理理论支持，并通过数值实验展示了其准确性和效率。此外，还提出了依赖于均场神经网络的算法来解决时间相关的均场问题。 |
+| [^43] | [TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second.](http://arxiv.org/abs/2207.01848) | TabPFN是一种可以在不到一秒钟内完成小型表格数据集的监督分类的Transformer，无需超参数调整，并且具有竞争力。它使用先验适应网络（PFN）逼近基于先验的贝叶斯推断，先验融合了因果推理的思想。 |
+| [^44] | [Sum-of-Squares Relaxations for Information Theory and Variational Inference.](http://arxiv.org/abs/2206.13285) | 本论文研究了基于平方和松弛方法在信息论和变分推断中的应用。通过使用这种方法，我们提出了计算$f$-divergences的凸松弛算法，其中涉及到从非局部协方差矩阵计算这些divergences的问题。这些结果对于数据科学中的多个应用具有重要意义。 |
+| [^45] | [Multiple Testing Framework for Out-of-Distribution Detection.](http://arxiv.org/abs/2206.09522) | 本研究提出了一个多重检验框架用于离群分布检测的问题，包括了定义OOD概念和提供强有力保证的方法，与之前的基于阈值的测试相比，在不同类型的OOD实例中表现更一致。 |
+| [^46] | [Addressing Strategic Manipulation Disparities in Fair Classification.](http://arxiv.org/abs/2205.10842) | 该论文研究了公平分类中存在的战略操纵差异问题，提出了一个受约束的优化框架来解决这个问题。 |
+| [^47] | [Optimal Learning Rates for Regularized Least-Squares with a Fourier Capacity Condition.](http://arxiv.org/abs/2204.07856) | 本论文研究了具有傅立叶容量条件的正则化最小二乘问题的最优学习率，通过插值理论和新的傅立叶等容性条件，我们推导出了广泛类别的Tikhonov正则化学习问题的最小化自适应率，不需要回归函数包含在假设集中。 |
+| [^48] | [When AUC meets DRO: Optimizing Partial AUC for Deep Learning with Non-Convex Convergence Guarantee.](http://arxiv.org/abs/2203.00176) | 本文提出了一种基于梯度的方法，通过分布鲁棒优化（DRO）来最大化深度学习中的局部AUC（pAUC），并提出了准确和平滑的pAUC估计量。实验证明了该方法在各种数据集上的有效性。 |
+| [^49] | [Adaptive and Robust Multi-Task Learning.](http://arxiv.org/abs/2202.05250) | 本文提出一系列自适应方法，能够同时处理多任务学习的相似性和差异性，并具有统计保证和鲁棒性。 |
+| [^50] | [A Class of Dimension-free Metrics for the Convergence of Empirical Measures.](http://arxiv.org/abs/2104.12036) | 本文提出了一类无维度度量，用于高维情况下经验测度的收敛性，解决了维度灾难问题，具有重要的实际应用。 |
+| [^51] | [A General Framework for the Practical Disintegration of PAC-Bayesian Bounds.](http://arxiv.org/abs/2102.08649) | 该论文提出了一种新的PAC-Bayesian泛化界的框架，该框架能够提供解离界，相比现有框架在神经网络上有显著的实用改进。 |
+| [^52] | [Lazy OCO: Online Convex Optimization on a Switching Budget.](http://arxiv.org/abs/2102.03803) | 本研究提出了一种懒惰型在线凸优化的算法，其在切换次数有限的情况下达到了近似最优的遗憾上界，并且在连续设置中呈现出高效的计算性能。 |
+| [^53] | [Risk-Sensitive Deep RL: Variance-Constrained Actor-Critic Provably Finds Globally Optimal Policy.](http://arxiv.org/abs/2012.14098) | 本文首次尝试在平均奖励设置下，通过方差风险准则研究风险敏感的深度强化学习。我们提出了一个方差约束的策略优化问题，并设计了一种演员-评论家算法来解决该问题。 |
+| [^54] | [Advanced Capsule Networks via Context Awareness.](http://arxiv.org/abs/1903.07497) | 本研究通过增加池化层和重建层来改进胶囊网络（CN）的设计，以适应具有不同上下文的图像数据集，并与深度学习（DL）模型进行了性能对比。结果显示，CN在大大减少训练时间的同时表现出了与DL模型相当的性能。 |
 
 # 详细
 
@@ -156,7 +157,21 @@
 
     Deep kernel machines (DKMs) are a recently introduced kernel method with the flexibility of other deep models including deep NNs and deep Gaussian processes. DKMs work purely with kernels, never with features, and are therefore different from other methods ranging from NNs to deep kernel learning and even deep Gaussian processes, which all use features as a fundamental component. Here, we introduce convolutional DKMs, along with an efficient inter-domain inducing point approximation scheme. Further, we develop and experimentally assess a number of model variants, including 9 different types of normalisation designed for the convolutional DKMs, two likelihoods, and two different types of top-layer. The resulting models achieve around 99% test accuracy on MNIST, 92% on CIFAR-10 and 71% on CIFAR-100, despite training in only around 28 GPU hours, 1-2 orders of magnitude faster than full NNGP / NTK / Myrtle kernels, whilst achieving comparable performance.
     
-[^8]: 多类别分类的多数投票准确性的新界限
+[^8]: 无约束特征模型中的交叉熵损失下不受限的神经塌缩机制
+
+    Neural Collapse for Unconstrained Feature Model under Cross-entropy Loss with Imbalanced Data. (arXiv:2309.09725v1 [stat.ML])
+
+    [http://arxiv.org/abs/2309.09725](http://arxiv.org/abs/2309.09725)
+
+    在无约束特征模型的背景下，我们研究了交叉熵损失函数下不均衡数据的神经塌缩现象。
+
+    
+
+    近年来，深度神经网络（DNNs）在计算机视觉和文本处理的各种任务中取得了巨大的成功。有趣的是，这些具有大量参数的DNNs在训练的末期阶段（TPT）的特征表示和末层分类器具有相似的结构特性。具体而言，如果训练数据是平衡的（每个类别具有相同数量的样本），观察到来自同一类别的样本的特征向量收敛到相应的类内均值特征，并且它们的成对角度相同。这一迷人的现象被称为神经塌缩（NC），由Papyan，Han和Donoho在2019年首次提出。最近的许多工作通过采用所谓的无约束特征模型（UFM）在理论上解释了这一现象。在本文中，我们研究了在无约束特征模型的上下文中，弥补了NC现象对不均衡数据在交叉熵损失函数下的拓展。我们的贡献是
+
+    Recent years have witnessed the huge success of deep neural networks (DNNs) in various tasks of computer vision and text processing. Interestingly, these DNNs with massive number of parameters share similar structural properties on their feature representation and last-layer classifier at terminal phase of training (TPT). Specifically, if the training data are balanced (each class shares the same number of samples), it is observed that the feature vectors of samples from the same class converge to their corresponding in-class mean features and their pairwise angles are the same. This fascinating phenomenon is known as Neural Collapse (N C), first termed by Papyan, Han, and Donoho in 2019. Many recent works manage to theoretically explain this phenomenon by adopting so-called unconstrained feature model (UFM). In this paper, we study the extension of N C phenomenon to the imbalanced data under cross-entropy loss function in the context of unconstrained feature model. Our contribution is
+    
+[^9]: 多类别分类的多数投票准确性的新界限
 
     New Bounds on the Accuracy of Majority Voting for Multi-Class Classification. (arXiv:2309.09564v1 [stat.ML])
 
@@ -170,7 +185,7 @@
 
     Majority voting is a simple mathematical function that returns the value that appears most often in a set. As a popular decision fusion technique, the majority voting function (MVF) finds applications in resolving conflicts, where a number of independent voters report their opinions on a classification problem. Despite its importance and its various applications in ensemble learning, data crowd-sourcing, remote sensing, and data oracles for blockchains, the accuracy of the MVF for the general multi-class classification problem has remained unknown. In this paper, we derive a new upper bound on the accuracy of the MVF for the multi-class classification problem. More specifically, we show that under certain conditions, the error rate of the MVF exponentially decays toward zero as the number of independent voters increases. Conversely, the error rate of the MVF exponentially grows with the number of independent voters if these conditions are not met.  We first explore the problem for inde
     
-[^9]: 具有低秩结构的多维度领域泛化
+[^10]: 具有低秩结构的多维度领域泛化
 
     Multi-dimensional domain generalization with low-rank structures. (arXiv:2309.09555v1 [stat.ME])
 
@@ -184,7 +199,7 @@
 
     In conventional statistical and machine learning methods, it is typically assumed that the test data are identically distributed with the training data. However, this assumption does not always hold, especially in applications where the target population are not well-represented in the training data. This is a notable issue in health-related studies, where specific ethnic populations may be underrepresented, posing a significant challenge for researchers aiming to make statistical inferences about these minority groups. In this work, we present a novel approach to addressing this challenge in linear regression models. We organize the model parameters for all the sub-populations into a tensor. By studying a structured tensor completion problem, we can achieve robust domain generalization, i.e., learning about sub-populations with limited or no available data. Our method novelly leverages the structure of group labels and it can produce more reliable and interpretable generalization resu
     
-[^10]: 不需要计算复杂性无法解决的预言机，在稀疏线性MDP中探索和学习。
+[^11]: 不需要计算复杂性无法解决的预言机，在稀疏线性MDP中探索和学习。
 
     Exploring and Learning in Sparse Linear MDPs without Computationally Intractable Oracles. (arXiv:2309.09457v1 [cs.LG])
 
@@ -198,7 +213,7 @@
 
     The key assumption underlying linear Markov Decision Processes (MDPs) is that the learner has access to a known feature map $\phi(x, a)$ that maps state-action pairs to $d$-dimensional vectors, and that the rewards and transitions are linear functions in this representation. But where do these features come from? In the absence of expert domain knowledge, a tempting strategy is to use the ``kitchen sink" approach and hope that the true features are included in a much larger set of potential features. In this paper we revisit linear MDPs from the perspective of feature selection. In a $k$-sparse linear MDP, there is an unknown subset $S \subset [d]$ of size $k$ containing all the relevant features, and the goal is to learn a near-optimal policy in only poly$(k,\log d)$ interactions with the environment. Our main result is the first polynomial-time algorithm for this problem. In contrast, earlier works either made prohibitively strong assumptions that obviated the need for exploration, o
     
-[^11]: 关于使用康托罗维奇-鲁宾斯坦距离进行降维的研究
+[^12]: 关于使用康托罗维奇-鲁宾斯坦距离进行降维的研究
 
     On the Use of the Kantorovich-Rubinstein Distance for Dimensionality Reduction. (arXiv:2309.09442v1 [math.PR])
 
@@ -212,7 +227,7 @@
 
     The goal of this thesis is to study the use of the Kantorovich-Rubinstein distance as to build a descriptor of sample complexity in classification problems. The idea is to use the fact that the Kantorovich-Rubinstein distance is a metric in the space of measures that also takes into account the geometry and topology of the underlying metric space. We associate to each class of points a measure and thus study the geometrical information that we can obtain from the Kantorovich-Rubinstein distance between those measures. We show that a large Kantorovich-Rubinstein distance between those measures allows to conclude that there exists a 1-Lipschitz classifier that classifies well the classes of points. We also discuss the limitation of the Kantorovich-Rubinstein distance as a descriptor.
     
-[^12]: 使用Forman-Ricci曲率的扩展来减轻过度平滑和过度压缩问题
+[^13]: 使用Forman-Ricci曲率的扩展来减轻过度平滑和过度压缩问题
 
     Mitigating Over-Smoothing and Over-Squashing using Augmentations of Forman-Ricci Curvature. (arXiv:2309.09384v1 [cs.LG])
 
@@ -226,7 +241,7 @@
 
     While Graph Neural Networks (GNNs) have been successfully leveraged for learning on graph-structured data across domains, several potential pitfalls have been described recently. Those include the inability to accurately leverage information encoded in long-range connections (over-squashing), as well as difficulties distinguishing the learned representations of nearby nodes with growing network depth (over-smoothing). An effective way to characterize both effects is discrete curvature: Long-range connections that underlie over-squashing effects have low curvature, whereas edges that contribute to over-smoothing have high curvature. This observation has given rise to rewiring techniques, which add or remove edges to mitigate over-smoothing and over-squashing. Several rewiring approaches utilizing graph characteristics, such as curvature or the spectrum of the graph Laplacian, have been proposed. However, existing methods, especially those based on curvature, often require expensive subr
     
-[^13]: 两层神经网络上逻辑回归代价函数的全局收敛性
+[^14]: 两层神经网络上逻辑回归代价函数的全局收敛性
 
     Global Convergence of SGD For Logistic Loss on Two Layer Neural Nets. (arXiv:2309.09258v1 [cs.LG])
 
@@ -240,7 +255,7 @@
 
     In this note, we demonstrate a first-of-its-kind provable convergence of SGD to the global minima of appropriately regularized logistic empirical risk of depth $2$ nets -- for arbitrary data and with any number of gates with adequately smooth and bounded activations like sigmoid and tanh. We also prove an exponentially fast convergence rate for continuous time SGD that also applies to smooth unbounded activations like SoftPlus. Our key idea is to show the existence of Frobenius norm regularized logistic loss functions on constant-sized neural nets which are "Villani functions" and thus be able to build on recent progress with analyzing SGD on such objectives.
     
-[^14]: 具有$\ell_0$约束的多线性稀疏逻辑回归的全局收敛加速算法。
+[^15]: 具有$\ell_0$约束的多线性稀疏逻辑回归的全局收敛加速算法。
 
     Globally Convergent Accelerated Algorithms for Multilinear Sparse Logistic Regression with $\ell_0$-constraints. (arXiv:2309.09239v1 [cs.LG])
 
@@ -254,7 +269,7 @@
 
     Tensor data represents a multidimensional array. Regression methods based on low-rank tensor decomposition leverage structural information to reduce the parameter count. Multilinear logistic regression serves as a powerful tool for the analysis of multidimensional data. To improve its efficacy and interpretability, we present a Multilinear Sparse Logistic Regression model with $\ell_0$-constraints ($\ell_0$-MLSR). In contrast to the $\ell_1$-norm and $\ell_2$-norm, the $\ell_0$-norm constraint is better suited for feature selection. However, due to its nonconvex and nonsmooth properties, solving it is challenging and convergence guarantees are lacking. Additionally, the multilinear operation in $\ell_0$-MLSR also brings non-convexity. To tackle these challenges, we propose an Accelerated Proximal Alternating Linearized Minimization with Adaptive Momentum (APALM$^+$) method to solve the $\ell_0$-MLSR model. We provide a proof that APALM$^+$ can ensure the convergence of the objective fu
     
-[^15]: 双重标准化流：灵活的贝叶斯高斯过程ODE学习
+[^16]: 双重标准化流：灵活的贝叶斯高斯过程ODE学习
 
     Double Normalizing Flows: Flexible Bayesian Gaussian Process ODEs Learning. (arXiv:2309.09222v1 [cs.LG])
 
@@ -268,7 +283,7 @@
 
     Recently, Gaussian processes have been utilized to model the vector field of continuous dynamical systems. Bayesian inference for such models \cite{hegde2022variational} has been extensively studied and has been applied in tasks such as time series prediction, providing uncertain estimates. However, previous Gaussian Process Ordinary Differential Equation (ODE) models may underperform on datasets with non-Gaussian process priors, as their constrained priors and mean-field posteriors may lack flexibility. To address this limitation, we incorporate normalizing flows to reparameterize the vector field of ODEs, resulting in a more flexible and expressive prior distribution. Additionally, due to the analytically tractable probability density functions of normalizing flows, we apply them to the posterior inference of GP ODEs, generating a non-Gaussian posterior. Through these dual applications of normalizing flows, our model improves accuracy and uncertainty estimates for Bayesian Gaussian P
     
-[^16]: MFRL-BI: 使用贝叶斯推理设计无模型强化学习过程控制方案
+[^17]: MFRL-BI: 使用贝叶斯推理设计无模型强化学习过程控制方案
 
     MFRL-BI: Design of a Model-free Reinforcement Learning Process Control Scheme by Using Bayesian Inference. (arXiv:2309.09205v1 [cs.LG])
 
@@ -282,7 +297,7 @@
 
     Design of process control scheme is critical for quality assurance to reduce variations in manufacturing systems. Taking semiconductor manufacturing as an example, extensive literature focuses on control optimization based on certain process models (usually linear models), which are obtained by experiments before a manufacturing process starts. However, in real applications, pre-defined models may not be accurate, especially for a complex manufacturing system. To tackle model inaccuracy, we propose a model-free reinforcement learning (MFRL) approach to conduct experiments and optimize control simultaneously according to real-time data. Specifically, we design a novel MFRL control scheme by updating the distribution of disturbances using Bayesian inference to reduce their large variations during manufacturing processes. As a result, the proposed MFRL controller is demonstrated to perform well in a nonlinear chemical mechanical planarization (CMP) process when the process model is unknow
     
-[^17]: 关于黎曼猜想和一类特殊神经网络之间的关联
+[^18]: 关于黎曼猜想和一类特殊神经网络之间的关联
 
     On the Connection Between Riemann Hypothesis and a Special Class of Neural Networks. (arXiv:2309.09171v1 [stat.ML])
 
@@ -296,7 +311,7 @@
 
     The Riemann hypothesis (RH) is a long-standing open problem in mathematics. It conjectures that non-trivial zeros of the zeta function all have real part equal to 1/2. The extent of the consequences of RH is far-reaching and touches a wide spectrum of topics including the distribution of prime numbers, the growth of arithmetic functions, the growth of Euler totient, etc. In this note, we revisit and extend an old analytic criterion of the RH known as the Nyman-Beurling criterion which connects the RH to a minimization problem that involves a special class of neural networks. This note is intended for an audience unfamiliar with RH. A gentle introduction to RH is provided.
     
-[^18]: $L^1$估计：线性估计器的最优性
+[^19]: $L^1$估计：线性估计器的最优性
 
     $L^1$ Estimation: On the Optimality of Linear Estimators. (arXiv:2309.09129v1 [math.ST])
 
@@ -310,7 +325,7 @@
 
     Consider the problem of estimating a random variable $X$ from noisy observations $Y = X+ Z$, where $Z$ is standard normal, under the $L^1$ fidelity criterion. It is well known that the optimal Bayesian estimator in this setting is the conditional median. This work shows that the only prior distribution on $X$ that induces linearity in the conditional median is Gaussian.  Along the way, several other results are presented. In particular, it is demonstrated that if the conditional distribution $P_{X|Y=y}$ is symmetric for all $y$, then $X$ must follow a Gaussian distribution. Additionally, we consider other $L^p$ losses and observe the following phenomenon: for $p \in [1,2]$, Gaussian is the only prior distribution that induces a linear optimal Bayesian estimator, and for $p \in (2,\infty)$, infinitely many prior distributions on $X$ can induce linearity. Finally, extensions are provided to encompass noise models leading to conditional distributions from certain exponential families.
     
-[^19]: 将顺序变化检测简化为顺序估计
+[^20]: 将顺序变化检测简化为顺序估计
 
     Reducing sequential change detection to sequential estimation. (arXiv:2309.09111v1 [math.ST])
 
@@ -324,7 +339,7 @@
 
     We consider the problem of sequential change detection, where the goal is to design a scheme for detecting any changes in a parameter or functional $\theta$ of the data stream distribution that has small detection delay, but guarantees control on the frequency of false alarms in the absence of changes. In this paper, we describe a simple reduction from sequential change detection to sequential estimation using confidence sequences: we begin a new $(1-\alpha)$-confidence sequence at each time step, and proclaim a change when the intersection of all active confidence sequences becomes empty. We prove that the average run length is at least $1/\alpha$, resulting in a change detection scheme with minimal structural assumptions~(thus allowing for possibly dependent observations, and nonparametric distribution classes), but strong guarantees. Our approach bears an interesting parallel with the reduction from change detection to sequential testing of Lorden (1971) and the e-detector of Shin e
     
-[^20]: 使用稀疏或生成的先验解决全秩矩阵的二次系统
+[^21]: 使用稀疏或生成的先验解决全秩矩阵的二次系统
 
     Solving Quadratic Systems with Full-Rank Matrices Using Sparse or Generative Priors. (arXiv:2309.09032v1 [cs.IT])
 
@@ -338,7 +353,7 @@
 
     The problem of recovering a signal $\boldsymbol{x} \in \mathbb{R}^n$ from a quadratic system $\{y_i=\boldsymbol{x}^\top\boldsymbol{A}_i\boldsymbol{x},\ i=1,\ldots,m\}$ with full-rank matrices $\boldsymbol{A}_i$ frequently arises in applications such as unassigned distance geometry and sub-wavelength imaging. With i.i.d. standard Gaussian matrices $\boldsymbol{A}_i$, this paper addresses the high-dimensional case where $m\ll n$ by incorporating prior knowledge of $\boldsymbol{x}$. First, we consider a $k$-sparse $\boldsymbol{x}$ and introduce the thresholded Wirtinger flow (TWF) algorithm that does not require the sparsity level $k$. TWF comprises two steps: the spectral initialization that identifies a point sufficiently close to $\boldsymbol{x}$ (up to a sign flip) when $m=O(k^2\log n)$, and the thresholded gradient descent (with a good initialization) that produces a sequence linearly converging to $\boldsymbol{x}$ with $m=O(k\log n)$ measurements. Second, we explore the generative p
     
-[^21]: 基于克里斯托费尔函数和共形预测的数据驱动可达性分析
+[^22]: 基于克里斯托费尔函数和共形预测的数据驱动可达性分析
 
     Data-driven Reachability using Christoffel Functions and Conformal Prediction. (arXiv:2309.08976v1 [cs.LG])
 
@@ -352,7 +367,7 @@
 
     An important mathematical tool in the analysis of dynamical systems is the approximation of the reach set, i.e., the set of states reachable after a given time from a given initial state. This set is difficult to compute for complex systems even if the system dynamics are known and given by a system of ordinary differential equations with known coefficients. In practice, parameters are often unknown and mathematical models difficult to obtain. Data-based approaches are promised to avoid these difficulties by estimating the reach set based on a sample of states. If a model is available, this training set can be obtained through numerical simulation. In the absence of a model, real-life observations can be used instead. A recently proposed approach for data-based reach set approximation uses Christoffel functions to approximate the reach set. Under certain assumptions, the approximation is guaranteed to converge to the true solution. In this paper, we improve upon these results by notabl
     
-[^22]: 基于加法顺序实验设计的Shapley值快速近似计算方法
+[^23]: 基于加法顺序实验设计的Shapley值快速近似计算方法
 
     Fast Approximation of the Shapley Values Based on Order-of-Addition Experimental Designs. (arXiv:2309.08923v1 [stat.ML])
 
@@ -366,7 +381,7 @@
 
     Shapley value is originally a concept in econometrics to fairly distribute both gains and costs to players in a coalition game. In the recent decades, its application has been extended to other areas such as marketing, engineering and machine learning. For example, it produces reasonable solutions for problems in sensitivity analysis, local model explanation towards the interpretable machine learning, node importance in social network, attribution models, etc. However, its heavy computational burden has been long recognized but rarely investigated. Specifically, in a $d$-player coalition game, calculating a Shapley value requires the evaluation of $d!$ or $2^d$ marginal contribution values, depending on whether we are taking the permutation or combination formulation of the Shapley value. Hence it becomes infeasible to calculate the Shapley value when $d$ is reasonably large. A common remedy is to take a random sample of the permutations to surrogate for the complete list of permutatio
     
-[^23]: 非平稳在线学习的高效方法
+[^24]: 非平稳在线学习的高效方法
 
     Efficient Methods for Non-stationary Online Learning. (arXiv:2309.08911v1 [cs.LG])
 
@@ -380,7 +395,7 @@
 
     Non-stationary online learning has drawn much attention in recent years. In particular, dynamic regret and adaptive regret are proposed as two principled performance measures for online convex optimization in non-stationary environments. To optimize them, a two-layer online ensemble is usually deployed due to the inherent uncertainty of the non-stationarity, in which a group of base-learners are maintained and a meta-algorithm is employed to track the best one on the fly. However, the two-layer structure raises the concern about the computational complexity -- those methods typically maintain $\mathcal{O}(\log T)$ base-learners simultaneously for a $T$-round online game and thus perform multiple projections onto the feasible domain per round, which becomes the computational bottleneck when the domain is complicated. In this paper, we present efficient methods for optimizing dynamic regret and adaptive regret, which reduce the number of projections per round from $\mathcal{O}(\log T)$ t
     
-[^24]: 从有限数据的非线性系统中学习线性化模型
+[^25]: 从有限数据的非线性系统中学习线性化模型
 
     Learning Linearized Models from Nonlinear Systems with Finite Data. (arXiv:2309.08805v1 [eess.SY])
 
@@ -394,7 +409,7 @@
 
     Identifying a linear system model from data has wide applications in control theory. The existing work on finite sample analysis for linear system identification typically uses data from a single system trajectory under i.i.d random inputs, and assumes that the underlying dynamics is truly linear. In contrast, we consider the problem of identifying a linearized model when the true underlying dynamics is nonlinear. We provide a multiple trajectories-based deterministic data acquisition algorithm followed by a regularized least squares algorithm, and provide a finite sample error bound on the learned linearized dynamics. Our error bound demonstrates a trade-off between the error due to nonlinearity and the error due to noise, and shows that one can learn the linearized dynamics with arbitrarily small error given sufficiently many samples. We validate our results through experiments, where we also show the potential insufficiency of linear system identification using a single trajectory w
     
-[^25]: 高维度稀疏线性回归中的异方差问题及基于分区经验贝叶斯ECM算法的解决方法
+[^26]: 高维度稀疏线性回归中的异方差问题及基于分区经验贝叶斯ECM算法的解决方法
 
     Heteroscedastic sparse high-dimensional linear regression with a partitioned empirical Bayes ECM algorithm. (arXiv:2309.08783v1 [stat.ME])
 
@@ -408,7 +423,7 @@
 
     Sparse linear regression methods for high-dimensional data often assume that residuals have constant variance. When this assumption is violated, it can lead to bias in estimated coefficients, prediction intervals with improper length, and increased type I errors. This paper proposes a heteroscedastic (H) high-dimensional linear regression model through a partitioned empirical Bayes Expectation Conditional Maximization (H-PROBE) algorithm. H-PROBE is a computationally efficient maximum a posteriori (MAP) estimation approach based on a Parameter-Expanded Expectation-Conditional-Maximization (PX-ECM) algorithm. It requires minimal prior assumptions on the regression parameters through plug-in empirical Bayes estimates of hyperparameters. The variance model uses recent advances in multivariate log-Gamma distribution theory and can include covariates hypothesized to impact heterogeneity. The motivation of our approach is a study relating Aphasia Quotient (AQ) to high-resolution T2 neuroimag
     
-[^26]: 集群化的多智能体线性赌博机
+[^27]: 集群化的多智能体线性赌博机
 
     Clustered Multi-Agent Linear Bandits. (arXiv:2309.08710v1 [cs.LG])
 
@@ -422,7 +437,7 @@
 
     We address in this paper a particular instance of the multi-agent linear stochastic bandit problem, called clustered multi-agent linear bandits. In this setting, we propose a novel algorithm leveraging an efficient collaboration between the agents in order to accelerate the overall optimization problem. In this contribution, a network controller is responsible for estimating the underlying cluster structure of the network and optimizing the experiences sharing among agents within the same groups. We provide a theoretical analysis for both the regret minimization problem and the clustering quality. Through empirical evaluation against state-of-the-art algorithms on both synthetic and real data, we demonstrate the effectiveness of our approach: our algorithm significantly improves regret minimization while managing to recover the true underlying cluster partitioning.
     
-[^27]: 线性最优臂识别中的安全代价
+[^28]: 线性最优臂识别中的安全代价
 
     Price of Safety in Linear Best Arm Identification. (arXiv:2309.08709v1 [stat.ML])
 
@@ -436,7 +451,7 @@
 
     We introduce the safe best-arm identification framework with linear feedback, where the agent is subject to some stage-wise safety constraint that linearly depends on an unknown parameter vector. The agent must take actions in a conservative way so as to ensure that the safety constraint is not violated with high probability at each round. Ways of leveraging the linear structure for ensuring safety has been studied for regret minimization, but not for best-arm identification to the best our knowledge. We propose a gap-based algorithm that achieves meaningful sample complexity while ensuring the stage-wise safety. We show that we pay an extra term in the sample complexity due to the forced exploration phase incurred by the additional safety constraint. Experimental illustrations are provided to justify the design of our algorithm.
     
-[^28]: 双高维上下文强化学习算法：用于联合组合-定价的可解释模型
+[^29]: 双高维上下文强化学习算法：用于联合组合-定价的可解释模型
 
     Doubly High-Dimensional Contextual Bandits: An Interpretable Model for Joint Assortment-Pricing. (arXiv:2309.08634v1 [stat.ML])
 
@@ -450,7 +465,7 @@
 
     Key challenges in running a retail business include how to select products to present to consumers (the assortment problem), and how to price products (the pricing problem) to maximize revenue or profit. Instead of considering these problems in isolation, we propose a joint approach to assortment-pricing based on contextual bandits. Our model is doubly high-dimensional, in that both context vectors and actions are allowed to take values in high-dimensional spaces. In order to circumvent the curse of dimensionality, we propose a simple yet flexible model that captures the interactions between covariates and actions via a (near) low-rank representation matrix. The resulting class of models is reasonably expressive while remaining interpretable through latent factors, and includes various structured linear bandit and pricing models as particular cases. We propose a computationally tractable procedure that combines an exploration/exploitation protocol with an efficient low-rank matrix esti
     
-[^29]: 随机逼近中的记忆诅咒：扩展版本
+[^30]: 随机逼近中的记忆诅咒：扩展版本
 
     The Curse of Memory in Stochastic Approximation: Extended Version. (arXiv:2309.02944v1 [math.ST])
 
@@ -464,7 +479,7 @@
 
     Theory and application of stochastic approximation (SA) has grown within the control systems community since the earliest days of adaptive control. This paper takes a new look at the topic, motivated by recent results establishing remarkable performance of SA with (sufficiently small) constant step-size $\alpha>0$. If averaging is implemented to obtain the final parameter estimate, then the estimates are asymptotically unbiased with nearly optimal asymptotic covariance. These results have been obtained for random linear SA recursions with i.i.d.\ coefficients. This paper obtains very different conclusions in the more common case of geometrically ergodic Markovian disturbance: (i) The \textit{target bias} is identified, even in the case of non-linear SA, and is in general non-zero. The remaining results are established for linear SA recursions: (ii) the bivariate parameter-disturbance process is geometrically ergodic in a topological sense; (iii) the representation for bias has a simple
     
-[^30]: 用于机器学习的热带几何工具：TML软件包
+[^31]: 用于机器学习的热带几何工具：TML软件包
 
     Tropical Geometric Tools for Machine Learning: the TML package. (arXiv:2309.01082v1 [stat.ML])
 
@@ -478,7 +493,7 @@
 
     In the last decade, developments in tropical geometry have provided a number of uses directly applicable to problems in statistical learning. The TML package is the first R package which contains a comprehensive set of tools and methods used for basic computations related to tropical convexity, visualization of tropically convex sets, as well as supervised and unsupervised learning models using the tropical metric under the max-plus algebra over the tropical projective torus. Primarily, the TML package employs a Hit and Run Markov chain Monte Carlo sampler in conjunction with the tropical metric as its main tool for statistical inference. In addition to basic computation and various applications of the tropical HAR sampler, we also focus on several supervised and unsupervised methods incorporated in the TML package including tropical principal component analysis, tropical logistic regression and tropical kernel density estimation.
     
-[^31]: 探索拉舒蒙集合有助于医疗数据的解释
+[^32]: 探索拉舒蒙集合有助于医疗数据的解释
 
     Exploration of Rashomon Set Assists Explanations for Medical Data. (arXiv:2308.11446v1 [cs.LG])
 
@@ -492,7 +507,7 @@
 
     The machine learning modeling process conventionally culminates in selecting a single model that maximizes a selected performance metric. However, this approach leads to abandoning a more profound analysis of slightly inferior models. Particularly in medical and healthcare studies, where the objective extends beyond predictions to valuable insight generation, relying solely on performance metrics can result in misleading or incomplete conclusions. This problem is particularly pertinent when dealing with a set of models with performance close to maximum one, known as $\textit{Rashomon set}$. Such a set can be numerous and may contain models describing the data in a different way, which calls for comprehensive analysis. This paper introduces a novel process to explore Rashomon set models, extending the conventional modeling approach. The cornerstone is the identification of the most different models within the Rashomon set, facilitated by the introduced $\texttt{Rashomon_DETECT}$ algorit
     
-[^32]: Dyadic Reinforcement Learning. (arXiv:2308.07843v1 [cs.LG]) 该论文标题已翻译：二元强化学习。
+[^33]: Dyadic Reinforcement Learning. (arXiv:2308.07843v1 [cs.LG]) 该论文标题已翻译：二元强化学习。
 
     Dyadic Reinforcement Learning. (arXiv:2308.07843v1 [cs.LG])
 
@@ -506,7 +521,7 @@
 
     Mobile health aims to enhance health outcomes by delivering interventions to individuals as they go about their daily life. The involvement of care partners and social support networks often proves crucial in helping individuals managing burdensome medical conditions. This presents opportunities in mobile health to design interventions that target the dyadic relationship -- the relationship between a target person and their care partner -- with the aim of enhancing social support. In this paper, we develop dyadic RL, an online reinforcement learning algorithm designed to personalize intervention delivery based on contextual factors and past responses of a target person and their care partner. Here, multiple sets of interventions impact the dyad across multiple time intervals. The developed dyadic RL is Bayesian and hierarchical. We formally introduce the problem setup, develop dyadic RL and establish a regret bound. We demonstrate dyadic RL's empirical performance through simulation st
     
-[^33]: 非线性置换格兰杰因果性
+[^34]: 非线性置换格兰杰因果性
 
     Nonlinear Permuted Granger Causality. (arXiv:2308.06220v1 [stat.ME])
 
@@ -520,7 +535,7 @@
 
     Granger causal inference is a contentious but widespread method used in fields ranging from economics to neuroscience. The original definition addresses the notion of causality in time series by establishing functional dependence conditional on a specified model. Adaptation of Granger causality to nonlinear data remains challenging, and many methods apply in-sample tests that do not incorporate out-of-sample predictability leading to concerns of model overfitting. To allow for out-of-sample comparison, we explicitly define a measure of functional connectivity using permutations of the covariate set. Artificial neural networks serve as featurizers of the data to approximate any arbitrary, nonlinear relationship, and under certain conditions on the featurization process and the model residuals, we prove consistent estimation of the variance for each permutation. Performance of the permutation method is compared to penalized objective, naive replacement, and omission techniques via simula
     
-[^34]: 使用概念器进行变点检测
+[^35]: 使用概念器进行变点检测
 
     Change Point Detection With Conceptors. (arXiv:2308.06213v1 [stat.ML])
 
@@ -534,7 +549,7 @@
 
     Offline change point detection seeks to identify points in a time series where the data generating process changes. This problem is well studied for univariate i.i.d. data, but becomes challenging with increasing dimension and temporal dependence. For the at most one change point problem, we propose the use of a conceptor matrix to learn the characteristic dynamics of a specified training window in a time series. The associated random recurrent neural network acts as a featurizer of the data, and change points are identified from a univariate quantification of the distance between the featurization and the space spanned by a representative conceptor matrix. This model agnostic method can suggest potential locations of interest that warrant further study. We prove that, under mild assumptions, the method provides a consistent estimate of the true change point, and quantile estimates for statistics are produced via a moving block bootstrap of the original data. The method is tested on si
     
-[^35]: RED CoMETS: 一种用于符号化表示的多变量时间序列的集成分类器
+[^36]: RED CoMETS: 一种用于符号化表示的多变量时间序列的集成分类器
 
     RED CoMETS: An ensemble classifier for symbolically represented multivariate time series. (arXiv:2307.13679v1 [cs.LG])
 
@@ -548,7 +563,7 @@
 
     Multivariate time series classification is a rapidly growing research field with practical applications in finance, healthcare, engineering, and more. The complexity of classifying multivariate time series data arises from its high dimensionality, temporal dependencies, and varying lengths. This paper introduces a novel ensemble classifier called RED CoMETS (Random Enhanced Co-eye for Multivariate Time Series), which addresses these challenges. RED CoMETS builds upon the success of Co-eye, an ensemble classifier specifically designed for symbolically represented univariate time series, and extends its capabilities to handle multivariate data. The performance of RED CoMETS is evaluated on benchmark datasets from the UCR archive, where it demonstrates competitive accuracy when compared to state-of-the-art techniques in multivariate settings. Notably, it achieves the highest reported accuracy in the literature for the 'HandMovementDirection' dataset. Moreover, the proposed method signific
     
-[^36]: 可解释人工智能的范畴基础：一种统一的结构和语义形式体系。
+[^37]: 可解释人工智能的范畴基础：一种统一的结构和语义形式体系。
 
     Categorical Foundations of Explainable AI: A Unifying Formalism of Structures and Semantics. (arXiv:2304.14094v1 [cs.AI])
 
@@ -562,7 +577,7 @@
 
     Explainable AI (XAI) aims to answer ethical and legal questions associated with the deployment of AI models. However, a considerable number of domain-specific reviews highlight the need of a mathematical foundation for the key notions in the field, considering that even the term "explanation" still lacks a precise definition. These reviews also advocate for a sound and unifying formalism for explainable AI, to avoid the emergence of ill-posed questions, and to help researchers navigate a rapidly growing body of knowledge. To the authors knowledge, this paper is the first attempt to fill this gap by formalizing a unifying theory of XAI. Employing the framework of category theory, and feedback monoidal categories in particular, we first provide formal definitions for all essential terms in explainable AI. Then we propose a taxonomy of the field following the proposed structure, showing how the introduced theory can be used to categorize all the main classes of XAI systems currently studi
     
-[^37]: counterfactuals: 用于反事实解释方法的 R 包
+[^38]: counterfactuals: 用于反事实解释方法的 R 包
 
     counterfactuals: An R Package for Counterfactual Explanation Methods. (arXiv:2304.06569v1 [stat.ML])
 
@@ -576,7 +591,7 @@
 
     Counterfactual explanation methods provide information on how feature values of individual observations must be changed to obtain a desired prediction. Despite the increasing amount of proposed methods in research, only a few implementations exist whose interfaces and requirements vary widely. In this work, we introduce the counterfactuals R package, which provides a modular and unified R6-based interface for counterfactual explanation methods. We implemented three existing counterfactual explanation methods and propose some optional methodological extensions to generalize these methods to different scenarios and to make them more comparable. We explain the structure and workflow of the package using real use cases and show how to integrate additional counterfactual explanation methods into the package. In addition, we compared the implemented methods for a variety of models and datasets with regard to the quality of their counterfactual explanations and their runtime behavior.
     
-[^38]: 不考虑图骨架的组合因果赌博机
+[^39]: 不考虑图骨架的组合因果赌博机
 
     Combinatorial Causal Bandits without Graph Skeleton. (arXiv:2301.13392v2 [cs.LG] UPDATED)
 
@@ -590,7 +605,7 @@
 
     In combinatorial causal bandits (CCB), the learning agent chooses a subset of variables in each round to intervene and collects feedback from the observed variables to minimize expected regret or sample complexity. Previous works study this problem in both general causal models and binary generalized linear models (BGLMs). However, all of them require prior knowledge of causal graph structure. This paper studies the CCB problem without the graph structure on binary general causal models and BGLMs. We first provide an exponential lower bound of cumulative regrets for the CCB problem on general causal models. To overcome the exponentially large space of parameters, we then consider the CCB problem on BGLMs. We design a regret minimization algorithm for BGLMs even without the graph skeleton and show that it still achieves $O(\sqrt{T}\ln T)$ expected regret. This asymptotic regret is the same as the state-of-art algorithms relying on the graph structure. Moreover, we sacrifice the regret t
     
-[^39]: 假设简约的变量重要性检验的投影协方差测量
+[^40]: 假设简约的变量重要性检验的投影协方差测量
 
     The Projected Covariance Measure for assumption-lean variable significance testing. (arXiv:2211.02039v2 [math.ST] UPDATED)
 
@@ -604,7 +619,7 @@
 
     Testing the significance of a variable or group of variables $X$ for predicting a response $Y$, given additional covariates $Z$, is a ubiquitous task in statistics. A simple but common approach is to specify a linear model, and then test whether the regression coefficient for $X$ is non-zero. However, when the model is misspecified, the test may have poor power, for example when $X$ is involved in complex interactions, or lead to many false rejections. In this work we study the problem of testing the model-free null of conditional mean independence, i.e. that the conditional mean of $Y$ given $X$ and $Z$ does not depend on $X$. We propose a simple and general framework that can leverage flexible nonparametric or machine learning methods, such as additive models or random forests, to yield both robust error control and high power. The procedure involves using these methods to perform regressions, first to estimate a form of projection of $Y$ on $X$ and $Z$ using one half of the data, an
     
-[^40]: 差分隐私对分类公平性的影响有限
+[^41]: 差分隐私对分类公平性的影响有限
 
     Differential Privacy has Bounded Impact on Fairness in Classification. (arXiv:2210.16242v3 [cs.LG] UPDATED)
 
@@ -618,7 +633,7 @@
 
     We theoretically study the impact of differential privacy on fairness in classification. We prove that, given a class of models, popular group fairness measures are pointwise Lipschitz-continuous with respect to the parameters of the model. This result is a consequence of a more general statement on accuracy conditioned on an arbitrary event (such as membership to a sensitive group), which may be of independent interest. We use this Lipschitz property to prove a non-asymptotic bound showing that, as the number of samples increases, the fairness level of private models gets closer to the one of their non-private counterparts. This bound also highlights the importance of the confidence margin of a model on the disparate impact of differential privacy.
     
-[^41]: 均场神经网络：学习Wasserstein空间上的映射
+[^42]: 均场神经网络：学习Wasserstein空间上的映射
 
     Mean-field neural networks: learning mappings on Wasserstein space. (arXiv:2210.15179v2 [math.OC] UPDATED)
 
@@ -632,7 +647,7 @@
 
     We study the machine learning task for models with operators mapping between the Wasserstein space of probability measures and a space of functions, like e.g. in mean-field games/control problems. Two classes of neural networks, based on bin density and on cylindrical approximation, are proposed to learn these so-called mean-field functions, and are theoretically supported by universal approximation theorems. We perform several numerical experiments for training these two mean-field neural networks, and show their accuracy and efficiency in the generalization error with various test distributions. Finally, we present different algorithms relying on mean-field neural networks for solving time-dependent mean-field problems, and illustrate our results with numerical tests for the example of a semi-linear partial differential equation in the Wasserstein space of probability measures.
     
-[^42]: TabPFN：在一秒内解决小型表格分类问题的Transformer
+[^43]: TabPFN：在一秒内解决小型表格分类问题的Transformer
 
     TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second. (arXiv:2207.01848v5 [cs.LG] UPDATED)
 
@@ -646,7 +661,7 @@
 
     We present TabPFN, a trained Transformer that can do supervised classification for small tabular datasets in less than a second, needs no hyperparameter tuning and is competitive with state-of-the-art classification methods. TabPFN is fully entailed in the weights of our network, which accepts training and test samples as a set-valued input and yields predictions for the entire test set in a single forward pass. TabPFN is a Prior-Data Fitted Network (PFN) and is trained offline once, to approximate Bayesian inference on synthetic datasets drawn from our prior. This prior incorporates ideas from causal reasoning: It entails a large space of structural causal models with a preference for simple structures. On the 18 datasets in the OpenML-CC18 suite that contain up to 1 000 training data points, up to 100 purely numerical features without missing values, and up to 10 classes, we show that our method clearly outperforms boosted trees and performs on par with complex state-of-the-art AutoM
     
-[^43]: 信息论和变分推断中的基于平方和松弛的方法
+[^44]: 信息论和变分推断中的基于平方和松弛的方法
 
     Sum-of-Squares Relaxations for Information Theory and Variational Inference. (arXiv:2206.13285v3 [cs.IT] UPDATED)
 
@@ -660,7 +675,7 @@
 
     We consider extensions of the Shannon relative entropy, referred to as $f$-divergences.Three classical related computational problems are typically associated with these divergences: (a) estimation from moments, (b) computing normalizing integrals, and (c) variational inference in probabilistic models. These problems are related to one another through convex duality, and for all them, there are many applications throughout data science, and we aim for computationally tractable approximation algorithms that preserve properties of the original problem such as potential convexity or monotonicity. In order to achieve this, we derive a sequence of convex relaxations for computing these divergences from non-centered covariance matrices associated with a given feature vector: starting from the typically non-tractable optimal lower-bound, we consider an additional relaxation based on ``sums-of-squares'', which is is now computable in polynomial time as a semidefinite program. We also provide c
     
-[^44]: 多重检验框架用于离群分布检测
+[^45]: 多重检验框架用于离群分布检测
 
     Multiple Testing Framework for Out-of-Distribution Detection. (arXiv:2206.09522v4 [stat.ML] UPDATED)
 
@@ -674,7 +689,7 @@
 
     We study the problem of Out-of-Distribution (OOD) detection, that is, detecting whether a learning algorithm's output can be trusted at inference time. While a number of tests for OOD detection have been proposed in prior work, a formal framework for studying this problem is lacking. We propose a definition for the notion of OOD that includes both the input distribution and the learning algorithm, which provides insights for the construction of powerful tests for OOD detection. We propose a multiple hypothesis testing inspired procedure to systematically combine any number of different statistics from the learning algorithm using conformal p-values. We further provide strong guarantees on the probability of incorrectly classifying an in-distribution sample as OOD. In our experiments, we find that threshold-based tests proposed in prior work perform well in specific settings, but not uniformly well across different types of OOD instances. In contrast, our proposed method that combines m
     
-[^45]: 解决公平分类中战略操纵的差异
+[^46]: 解决公平分类中战略操纵的差异
 
     Addressing Strategic Manipulation Disparities in Fair Classification. (arXiv:2205.10842v2 [cs.CY] UPDATED)
 
@@ -688,7 +703,7 @@
 
     In real-world classification settings, such as loan application evaluation or content moderation on online platforms, individuals respond to classifier predictions by strategically updating their features to increase their likelihood of receiving a particular (positive) decision (at a certain cost). Yet, when different demographic groups have different feature distributions or pay different update costs, prior work has shown that individuals from minority groups often pay a higher cost to update their features. Fair classification aims to address such classifier performance disparities by constraining the classifiers to satisfy statistical fairness properties. However, we show that standard fairness constraints do not guarantee that the constrained classifier reduces the disparity in strategic manipulation cost. To address such biases in strategic settings and provide equal opportunities for strategic manipulation, we propose a constrained optimization framework that constructs classif
     
-[^46]: 带有傅立叶容量条件的正则化最小二乘问题的最优学习率
+[^47]: 带有傅立叶容量条件的正则化最小二乘问题的最优学习率
 
     Optimal Learning Rates for Regularized Least-Squares with a Fourier Capacity Condition. (arXiv:2204.07856v4 [math.ST] UPDATED)
 
@@ -702,7 +717,7 @@
 
     We derive minimax adaptive rates for a new, broad class of Tikhonov-regularized learning problems in Hilbert scales under general source conditions. Our analysis does not require the regression function to be contained in the hypothesis class, and most notably does not employ the conventional \textit{a priori} assumptions on kernel eigendecay. Using the theory of interpolation, we demonstrate that the spectrum of the Mercer operator can be inferred in the presence of ``tight'' $L^{\infty}(\mathcal{X})$ embeddings of suitable Hilbert scales. Our analysis utilizes a new Fourier isocapacitary condition, which captures the interplay of the kernel Dirichlet capacities and small ball probabilities via the optimal Hilbert scale function.
     
-[^47]: 当AUC遇上DRO：基于非凸收敛保证的深度学习局部AUC优化
+[^48]: 当AUC遇上DRO：基于非凸收敛保证的深度学习局部AUC优化
 
     When AUC meets DRO: Optimizing Partial AUC for Deep Learning with Non-Convex Convergence Guarantee. (arXiv:2203.00176v5 [cs.LG] UPDATED)
 
@@ -716,7 +731,7 @@
 
     In this paper, we propose systematic and efficient gradient-based methods for both one-way and two-way partial AUC (pAUC) maximization that are applicable to deep learning. We propose new formulations of pAUC surrogate objectives by using the distributionally robust optimization (DRO) to define the loss for each individual positive data. We consider two formulations of DRO, one of which is based on conditional-value-at-risk (CVaR) that yields a non-smooth but exact estimator for pAUC, and another one is based on a KL divergence regularized DRO that yields an inexact but smooth (soft) estimator for pAUC. For both one-way and two-way pAUC maximization, we propose two algorithms and prove their convergence for optimizing their two formulations, respectively. Experiments demonstrate the effectiveness of the proposed algorithms for pAUC maximization for deep learning on various datasets.
     
-[^48]: 自适应鲁棒的多任务学习
+[^49]: 自适应鲁棒的多任务学习
 
     Adaptive and Robust Multi-Task Learning. (arXiv:2202.05250v3 [stat.ML] UPDATED)
 
@@ -730,7 +745,7 @@
 
     We study the multi-task learning problem that aims to simultaneously analyze multiple datasets collected from different sources and learn one model for each of them. We propose a family of adaptive methods that automatically utilize possible similarities among those tasks while carefully handling their differences. We derive sharp statistical guarantees for the methods and prove their robustness against outlier tasks. Numerical experiments on synthetic and real datasets demonstrate the efficacy of our new methods.
     
-[^49]: 一类无维度度量用于经验测度的收敛性
+[^50]: 一类无维度度量用于经验测度的收敛性
 
     A Class of Dimension-free Metrics for the Convergence of Empirical Measures. (arXiv:2104.12036v4 [math.PR] UPDATED)
 
@@ -744,7 +759,7 @@
 
     This paper concerns the convergence of empirical measures in high dimensions. We propose a new class of probability metrics and show that under such metrics, the convergence is free of the curse of dimensionality (CoD). Such a feature is critical for high-dimensional analysis and stands in contrast to classical metrics ({\it e.g.}, the Wasserstein metric). The proposed metrics fall into the category of integral probability metrics, for which we specify criteria of test function spaces to guarantee the property of being free of CoD. Examples of the selected test function spaces include the reproducing kernel Hilbert spaces, Barron space, and flow-induced function spaces. Three applications of the proposed metrics are presented: 1. The convergence of empirical measure in the case of random variables; 2. The convergence of $n$-particle system to the solution to McKean-Vlasov stochastic differential equation; 3. The construction of an $\varepsilon$-Nash equilibrium for a homogeneous $n$-pl
     
-[^50]: 一个通用框架用于PAC-Bayesian界的实用解读
+[^51]: 一个通用框架用于PAC-Bayesian界的实用解读
 
     A General Framework for the Practical Disintegration of PAC-Bayesian Bounds. (arXiv:2102.08649v3 [stat.ML] UPDATED)
 
@@ -758,7 +773,7 @@
 
     PAC-Bayesian bounds are known to be tight and informative when studying the generalization ability of randomized classifiers. However, they require a loose and costly derandomization step when applied to some families of deterministic models such as neural networks. As an alternative to this step, we introduce new PAC-Bayesian generalization bounds that have the originality to provide disintegrated bounds, i.e., they give guarantees over one single hypothesis instead of the usual averaged analysis. Our bounds are easily optimizable and can be used to design learning algorithms. We illustrate this behavior on neural networks, and we show a significant practical improvement over the state-of-the-art framework.
     
-[^51]: 懒惰型在线凸优化: 切换预算下的研究
+[^52]: 懒惰型在线凸优化: 切换预算下的研究
 
     Lazy OCO: Online Convex Optimization on a Switching Budget. (arXiv:2102.03803v6 [cs.LG] UPDATED)
 
@@ -772,7 +787,7 @@
 
     We study a variant of online convex optimization where the player is permitted to switch decisions at most $S$ times in expectation throughout $T$ rounds. Similar problems have been addressed in prior work for the discrete decision set setting, and more recently in the continuous setting but only with an adaptive adversary. In this work, we aim to fill the gap and present computationally efficient algorithms in the more prevalent oblivious setting, establishing a regret bound of $O(T/S)$ for general convex losses and $\widetilde O(T/S^2)$ for strongly convex losses. In addition, for stochastic i.i.d.~losses, we present a simple algorithm that performs $\log T$ switches with only a multiplicative $\log T$ factor overhead in its regret in both the general and strongly convex settings. Finally, we complement our algorithms with lower bounds that match our upper bounds in some of the cases we consider.
     
-[^52]: 风险敏感的深度强化学习：方差约束的演员-评论家算法能够找到全局最优策略
+[^53]: 风险敏感的深度强化学习：方差约束的演员-评论家算法能够找到全局最优策略
 
     Risk-Sensitive Deep RL: Variance-Constrained Actor-Critic Provably Finds Globally Optimal Policy. (arXiv:2012.14098v2 [cs.LG] UPDATED)
 
@@ -786,7 +801,7 @@
 
     While deep reinforcement learning has achieved tremendous successes in various applications, most existing works only focus on maximizing the expected value of total return and thus ignore its inherent stochasticity. Such stochasticity is also known as the aleatoric uncertainty and is closely related to the notion of risk. In this work, we make the first attempt to study risk-sensitive deep reinforcement learning under the average reward setting with the variance risk criteria. In particular, we focus on a variance-constrained policy optimization problem where the goal is to find a policy that maximizes the expected value of the long-run average reward, subject to a constraint that the long-run variance of the average reward is upper bounded by a threshold. Utilizing Lagrangian and Fenchel dualities, we transform the original problem into an unconstrained saddle-point policy optimization problem, and propose an actor-critic algorithm that iteratively and efficiently updates the policy,
     
-[^53]: 基于上下文感知的先进胶囊网络
+[^54]: 基于上下文感知的先进胶囊网络
 
     Advanced Capsule Networks via Context Awareness. (arXiv:1903.07497v3 [cs.LG] UPDATED)
 
