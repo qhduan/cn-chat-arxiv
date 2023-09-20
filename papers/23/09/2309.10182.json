@@ -1,0 +1,11 @@
+{
+    "title": "Positive and Risky Message Assessment for Music Products. (arXiv:2309.10182v1 [cs.CL])",
+    "abstract": "In this work, we propose a novel research problem: assessing positive and risky messages from music products. We first establish a benchmark for multi-angle multi-level music content assessment and then present an effective multi-task prediction model with ordinality-enforcement to solve this problem. Our result shows the proposed method not only significantly outperforms strong task-specific counterparts but can concurrently evaluate multiple aspects.",
+    "link": "http://arxiv.org/abs/2309.10182",
+    "context": "Title: Positive and Risky Message Assessment for Music Products. (arXiv:2309.10182v1 [cs.CL])\nAbstract: In this work, we propose a novel research problem: assessing positive and risky messages from music products. We first establish a benchmark for multi-angle multi-level music content assessment and then present an effective multi-task prediction model with ordinality-enforcement to solve this problem. Our result shows the proposed method not only significantly outperforms strong task-specific counterparts but can concurrently evaluate multiple aspects.",
+    "path": "papers/23/09/2309.10182.json",
+    "total_tokens": 618,
+    "translated_title": "音乐产品的正面和风险信息评估",
+    "translated_abstract": "在这项工作中，我们提出了一个新颖的研究问题：评估音乐产品中的正面和风险信息。我们首先建立了一个多角度多级音乐内容评估的基准，然后提出了一种有效的多任务预测模型，并通过序数约束来解决这个问题。我们的结果显示，所提出的方法不仅明显优于强大的针对特定任务的对应方法，而且可以同时评估多个方面。",
+    "tldr": "这项研究提出了一个新的问题：如何评估音乐产品中的正面和风险信息。研究者提出了一个多任务预测模型，通过序数约束解决这个问题，并且取得了显著优于其他方法的结果。"
+}

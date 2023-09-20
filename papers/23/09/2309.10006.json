@@ -1,0 +1,12 @@
+{
+    "title": "The Optimized path for the public transportation of Incheon in South Korea. (arXiv:2309.10006v1 [physics.soc-ph])",
+    "abstract": "Path-finding is one of the most popular subjects in the field of computer science. Pathfinding strategies determine a path from a given coordinate to another. The focus of this paper is on finding the optimal path for the bus transportation system based on passenger demand. This study is based on bus stations in Incheon, South Korea, and we show that our modified A* algorithm performs better than other basic pathfinding algorithms such as the Genetic and Dijkstra. Our proposed approach can find the shortest path in real-time even for large amounts of data(points).",
+    "link": "http://arxiv.org/abs/2309.10006",
+    "context": "Title: The Optimized path for the public transportation of Incheon in South Korea. (arXiv:2309.10006v1 [physics.soc-ph])\nAbstract: Path-finding is one of the most popular subjects in the field of computer science. Pathfinding strategies determine a path from a given coordinate to another. The focus of this paper is on finding the optimal path for the bus transportation system based on passenger demand. This study is based on bus stations in Incheon, South Korea, and we show that our modified A* algorithm performs better than other basic pathfinding algorithms such as the Genetic and Dijkstra. Our proposed approach can find the shortest path in real-time even for large amounts of data(points).",
+    "path": "papers/23/09/2309.10006.json",
+    "total_tokens": 695,
+    "translated_title": "韩国仁川市公共交通的优化路径",
+    "translated_abstract": "路径规划是计算机科学领域中最受欢迎的研究课题之一。路径规划策略确定了从给定坐标到另一点的路径。本文的重点是基于乘客需求寻找公交系统的最优路径。该研究是基于韩国仁川市的公交站点进行的，我们展示了我们修改后的A*算法在性能上优于其他基本路径规划算法，如遗传算法和Dijkstra算法。我们提出的方法可以实时找到最短路径，即使对于大量的数据点。",
+    "tldr": "本论文研究了基于乘客需求寻找韩国仁川市公交系统的最优路径，通过修改A*算法，在性能上优于其他常用路径规划算法，能够实时找到最短路径。",
+    "en_tdlr": "This paper explores the optimal path for the bus transportation system in Incheon, South Korea, based on passenger demand. The proposed modified A* algorithm outperforms other common pathfinding algorithms, such as Genetic and Dijkstra, and can find the shortest path in real-time."
+}

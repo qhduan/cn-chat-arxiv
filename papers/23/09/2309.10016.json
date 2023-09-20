@@ -1,0 +1,12 @@
+{
+    "title": "Evaluation of GPT-3 for Anti-Cancer Drug Sensitivity Prediction. (arXiv:2309.10016v1 [cs.LG])",
+    "abstract": "In this study, we investigated the potential of GPT-3 for the anti-cancer drug sensitivity prediction task using structured pharmacogenomics data across five tissue types and evaluated its performance with zero-shot prompting and fine-tuning paradigms. The drug's smile representation and cell line's genomic mutation features were predictive of the drug response. The results from this study have the potential to pave the way for designing more efficient treatment protocols in precision oncology.",
+    "link": "http://arxiv.org/abs/2309.10016",
+    "context": "Title: Evaluation of GPT-3 for Anti-Cancer Drug Sensitivity Prediction. (arXiv:2309.10016v1 [cs.LG])\nAbstract: In this study, we investigated the potential of GPT-3 for the anti-cancer drug sensitivity prediction task using structured pharmacogenomics data across five tissue types and evaluated its performance with zero-shot prompting and fine-tuning paradigms. The drug's smile representation and cell line's genomic mutation features were predictive of the drug response. The results from this study have the potential to pave the way for designing more efficient treatment protocols in precision oncology.",
+    "path": "papers/23/09/2309.10016.json",
+    "total_tokens": 701,
+    "translated_title": "GPT-3用于抗癌药物敏感性预测的评估",
+    "translated_abstract": "本研究使用结构化的药物基因组数据，在五种组织类型中探究了GPT-3在抗癌药物敏感性预测任务中的潜力，并分别采用零样本提示和微调范式对其性能进行了评估。药物的SMILES表示和细胞系的基因组突变特征对药物反应具有预测能力。本研究的结果有望为精准肿瘤学中设计更有效的治疗方案铺平道路。",
+    "tldr": "本研究评估了GPT-3在抗癌药物敏感性预测任务中的潜力，并发现药物的SMILES表示和细胞系的基因组突变特征对药物反应具有预测能力。这些结果有助于在精准肿瘤学中设计更有效的治疗方案。",
+    "en_tdlr": "This study evaluated the potential of GPT-3 for predicting anti-cancer drug sensitivity and found that the drug's SMILES representation and cell line's genomic mutation features are predictive of drug response. These findings contribute to the design of more effective treatment protocols in precision oncology."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Bridging the Gap between Spatial and Spectral Domains: A Unified Framework for Graph Neural Networks. (arXiv:2107.10234v5 [cs.LG] UPDATED)",
+    "abstract": "Deep learning's performance has been extensively recognized recently. Graph neural networks (GNNs) are designed to deal with graph-structural data that classical deep learning does not easily manage. Since most GNNs were created using distinct theories, direct comparisons are impossible. Prior research has primarily concentrated on categorizing existing models, with little attention paid to their intrinsic connections. The purpose of this study is to establish a unified framework that integrates GNNs based on spectral graph and approximation theory. The framework incorporates a strong integration between spatial- and spectral-based GNNs while tightly associating approaches that exist within each respective domain.",
+    "link": "http://arxiv.org/abs/2107.10234",
+    "context": "Title: Bridging the Gap between Spatial and Spectral Domains: A Unified Framework for Graph Neural Networks. (arXiv:2107.10234v5 [cs.LG] UPDATED)\nAbstract: Deep learning's performance has been extensively recognized recently. Graph neural networks (GNNs) are designed to deal with graph-structural data that classical deep learning does not easily manage. Since most GNNs were created using distinct theories, direct comparisons are impossible. Prior research has primarily concentrated on categorizing existing models, with little attention paid to their intrinsic connections. The purpose of this study is to establish a unified framework that integrates GNNs based on spectral graph and approximation theory. The framework incorporates a strong integration between spatial- and spectral-based GNNs while tightly associating approaches that exist within each respective domain.",
+    "path": "papers/21/07/2107.10234.json",
+    "total_tokens": 689,
+    "translated_title": "跨越空间和光谱域的鸿沟：一种用于图神经网络的统一框架。",
+    "translated_abstract": "近年来，深度学习的性能得到了广泛的认可。图神经网络（GNN）旨在处理经典深度学习难以处理的图结构数据。由于大多数GNN是使用不同的理论创建的，因此无法直接进行比较。先前的研究主要集中在对现有模型进行分类，对它们的内在连接关系关注甚少。本研究的目的是建立一个基于谱图和近似论的统一框架，集成基于空间和谱域的GNN，并紧密关联各自域内的方法。",
+    "tldr": "该论文提出了一种统一框架，用于将基于空间和谱域的图神经网络进行整合，并紧密关联各自域内的方法。"
+}

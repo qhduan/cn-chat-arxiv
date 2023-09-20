@@ -1,0 +1,12 @@
+{
+    "title": "Applying Automated Machine Translation to Educational Video Courses. (arXiv:2301.03141v2 [cs.CL] UPDATED)",
+    "abstract": "We studied the capability of automated machine translation in the online video education space by automatically translating Khan Academy videos with state-of-the-art translation models and applying text-to-speech synthesis and audio/video synchronization to build engaging videos in target languages. We also analyzed and established two reliable translation confidence estimators based on round-trip translations in order to efficiently manage translation quality and reduce human translation effort. Finally, we developed a deployable system to deliver translated videos to end users and collect user corrections for iterative improvement.",
+    "link": "http://arxiv.org/abs/2301.03141",
+    "context": "Title: Applying Automated Machine Translation to Educational Video Courses. (arXiv:2301.03141v2 [cs.CL] UPDATED)\nAbstract: We studied the capability of automated machine translation in the online video education space by automatically translating Khan Academy videos with state-of-the-art translation models and applying text-to-speech synthesis and audio/video synchronization to build engaging videos in target languages. We also analyzed and established two reliable translation confidence estimators based on round-trip translations in order to efficiently manage translation quality and reduce human translation effort. Finally, we developed a deployable system to deliver translated videos to end users and collect user corrections for iterative improvement.",
+    "path": "papers/23/01/2301.03141.json",
+    "total_tokens": 763,
+    "translated_title": "应用自动机器翻译技术于教育视频课程",
+    "translated_abstract": "通过使用最先进的翻译模型，将可汗学院的视频自动翻译成目标语言，并应用文本转语音合成和音视频同步技术来构建引人入胜的视频。我们还分析和建立了两种可靠的翻译置信度估计器，通过往返翻译的方式高效管理翻译质量并减少人工翻译工作量。最后，我们开发了一个可部署的系统，用于向最终用户提供翻译视频并收集用户纠正以进行迭代改进。",
+    "tldr": "本研究通过自动翻译可汗学院的视频，并利用文本转语音合成和音视频同步技术构建引人入胜的教育视频。我们还提出了两种可靠的翻译置信度估计器，用于高效质量管理和减少人工翻译工作量。最后，我们开发了一个可部署的系统，用于提供翻译视频给用户并收集用户纠正以改进。",
+    "en_tdlr": "This study applies automated machine translation to translate Khan Academy videos and builds engaging educational videos using text-to-speech synthesis and audio/video synchronization. It also proposes reliable translation confidence estimators for translation quality management and reducing human translation effort. Furthermore, a deployable system is developed for delivering translated videos to end users and collecting user corrections for iterative improvement."
+}

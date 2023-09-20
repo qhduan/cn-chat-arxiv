@@ -1,0 +1,12 @@
+{
+    "title": "KoBigBird-large: Transformation of Transformer for Korean Language Understanding. (arXiv:2309.10339v1 [cs.CL])",
+    "abstract": "This work presents KoBigBird-large, a large size of Korean BigBird that achieves state-of-the-art performance and allows long sequence processing for Korean language understanding. Without further pretraining, we only transform the architecture and extend the positional encoding with our proposed Tapered Absolute Positional Encoding Representations (TAPER). In experiments, KoBigBird-large shows state-of-the-art overall performance on Korean language understanding benchmarks and the best performance on document classification and question answering tasks for longer sequences against the competitive baseline models. We publicly release our model here.",
+    "link": "http://arxiv.org/abs/2309.10339",
+    "context": "Title: KoBigBird-large: Transformation of Transformer for Korean Language Understanding. (arXiv:2309.10339v1 [cs.CL])\nAbstract: This work presents KoBigBird-large, a large size of Korean BigBird that achieves state-of-the-art performance and allows long sequence processing for Korean language understanding. Without further pretraining, we only transform the architecture and extend the positional encoding with our proposed Tapered Absolute Positional Encoding Representations (TAPER). In experiments, KoBigBird-large shows state-of-the-art overall performance on Korean language understanding benchmarks and the best performance on document classification and question answering tasks for longer sequences against the competitive baseline models. We publicly release our model here.",
+    "path": "papers/23/09/2309.10339.json",
+    "total_tokens": 695,
+    "translated_title": "KoBigBird-large: Transformer模型在韩语理解中的应用",
+    "translated_abstract": "本研究介绍了KoBigBird-large，这是一种适用于韩语理解的大型Transformer模型，它在性能和处理长序列方面达到了最先进水平。我们通过对架构进行改进并引入了我们提出的锥形绝对位置编码表示（TAPER），在没有进行进一步的预训练的情况下，实现了这一成果。实验证明，KoBigBird-large 在韩语理解基准任务上取得了最先进的全部性能，并且在长序列的文档分类和问题回答任务中表现优于竞争基线模型。我们在此公开发布了我们的模型。",
+    "tldr": "KoBigBird-large是一种适用于韩语理解的大型Transformer模型，通过改进架构和引入新的位置编码表示（TAPER）实现了最先进性能，尤其适用于处理长序列的文档分类和问题回答任务。",
+    "en_tdlr": "KoBigBird-large is a large-scale Transformer model for Korean language understanding that achieves state-of-the-art performance and excels in processing long sequences, particularly in tasks such as document classification and question answering."
+}

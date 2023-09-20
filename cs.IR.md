@@ -2,88 +2,185 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Beyond Labels: Leveraging Deep Learning and LLMs for Content Metadata.](http://arxiv.org/abs/2309.08787) | 本研究讨论了在电影推荐系统中利用类型标签进行内容元数据分析的挑战，并提出了一种名为“类型频谱”的新方法来捕捉标题中的微妙类型。实验证实了该方法的有效性。此外，该研究还讨论了LLMs在增强内容元数据分析中的应用。 |
-| [^2] | [Reproducible Domain-Specific Knowledge Graphs in the Life Sciences: a Systematic Literature Review.](http://arxiv.org/abs/2309.08754) | 在生命科学领域，可复制的领域特定知识图对于确保知识的可信性和可持续性至关重要。然而，创建和维护KG面临着重大挑战。尽管有越来越多的领域特定的KG，关于其可复制性的综合分析仍然缺乏。 |
-| [^3] | [FedFNN: Faster Training Convergence Through Update Predictions in Federated Recommender Systems.](http://arxiv.org/abs/2309.08635) | FedFNN是一种在联邦推荐系统中加速训练的算法。通过预测未抽样用户的权重更新，使用已抽样集的更新，FedFNN实现了比其他方法快5倍的训练速度，同时保持或提高了准确性。 |
-| [^4] | [Evaluating Dynamic Topic Models.](http://arxiv.org/abs/2309.08627) | 提出了一种评估动态主题模型的新方法，该方法分析了每个主题随时间变化的质量变化，并结合了模型的时间一致性。该方法在合成数据和已有DTMs数据上展示了实用性，并与人类判断具有良好的相关性。这些研究结果对于识别变化的主题、评估DTMs和指导未来研究具有重要意义。 |
-| [^5] | [Representation Learning in Low-rank Slate-based Recommender Systems.](http://arxiv.org/abs/2309.08622) | 该论文提出了在推荐系统中使用低秩MDP将推荐问题视为在线RL问题，并通过提出的算法实现了高效的表示学习。 |
-| [^6] | [Exploring Social Choice Mechanisms for Recommendation Fairness in SCRUF.](http://arxiv.org/abs/2309.08621) | 本文通过使用社会选择机制，探索了多个多方面公平应用中的选择机制选项，结果显示不同的选择和分配机制会产生不同但一致的公平性/准确性权衡结果，并且多智能体的构成使得系统能够适应用户人口的动态变化。 |
-| [^7] | [Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems.](http://arxiv.org/abs/2309.08617) | Drifter是一个高效的在线特征监控系统，通过敏捷、响应和适应性的数据质量监控，实时分析、检测和解决推荐系统中的数据问题，使得实时推荐系统的可靠性和性能得到显著提升。 |
-| [^8] | [Multimodal Recommender Systems in the Prediction of Disease Comorbidity.](http://arxiv.org/abs/2309.08613) | 该研究探讨了在医疗领域中利用基于深度学习的推荐系统进行疾病并发症预测的方法。研究使用了NCF和DHF两种新颖的推荐系统，并利用了不同的数据集进行预测。研究结果显示NCF模型在准确率和命中率方面表现较差。 |
-| [^9] | [An Image Dataset for Benchmarking Recommender Systems with Raw Pixels.](http://arxiv.org/abs/2309.06789) | 这个研究提出了PixelRec，一个大规模图像推荐数据集，包括2亿个用户-图像交互、30万个用户和40万个高质量封面图像。通过提供原始图像像素的直接访问，PixelRec使得推荐模型能够直接从图像学习项目表示。 |
-| [^10] | [Improving and Evaluating the Detection of Fragmentation in News Recommendations with the Clustering of News Story Chains.](http://arxiv.org/abs/2309.06192) | 通过对新闻故事链的聚类，改进和评估了新闻推荐中信息碎片化的检测。研究结果对于衡量信息流的完整性和影响民主和公共讨论具有重要意义。 |
-| [^11] | [CPMR: Context-Aware Incremental Sequential Recommendation with Pseudo-Multi-Task Learning.](http://arxiv.org/abs/2309.04802) | CPMR是一个基于上下文感知的增量顺序推荐系统，通过创建静态嵌入、历史时间状态和上下文时间状态的三个表示，准确地建模了用户随时间变化的表示和兴趣动态的演化。 |
-| [^12] | [How Expressive are Graph Neural Networks in Recommendation?.](http://arxiv.org/abs/2308.11127) | 本文对图神经网络在推荐中的表达能力进行了理论分析，发现现有的表达能力度量标准可能无法有效评估模型在推荐中的能力，提出了一个全面的理论分析方法。 |
-| [^13] | [When Large Language Model based Agent Meets User Behavior Analysis: A Novel User Simulation Paradigm.](http://arxiv.org/abs/2306.02552) | 从事用户行为分析的学术界一直面临着收集足够高质量用户行为数据的难题，一种解决方案是自动模拟用户行为，近期研究表明，利用大语言模型进行可靠的用户模拟有了重要的突破，将这种模型应用到用户行为分析研究中有着巨大潜力，可能对传统研究范式产生革命性影响。 |
-| [^14] | [Continually Updating Generative Retrieval on Dynamic Corpora.](http://arxiv.org/abs/2305.18952) | 本文研究了动态语料库上的生成检索。实验结果表明，在静态设置下，生成检索效果优于双编码器，但在动态设置下情况相反。通过使用参数高效的预训练方法，我们的模型DynamicGR在新的语料库上展现出了意外的性能。 |
-| [^15] | [One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER.](http://arxiv.org/abs/2301.10410) | 本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。 |
-| [^16] | [Reasoning with Language Model Prompting: A Survey.](http://arxiv.org/abs/2212.09597) | 本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。 |
-| [^17] | [Generative Knowledge Graph Construction: A Review.](http://arxiv.org/abs/2210.12714) | 本文综述了生成式知识图谱构建领域的最新进展，包括方法分类和优劣分析，并提出了未来的研究方向。 |
-| [^18] | [Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction.](http://arxiv.org/abs/2210.10709) | 提出了一种以检索增强的架构感知参考作为提示的方法，可动态利用人类注释和弱监督数据所继承的架构和知识，指导生成具有更好语义连贯性和一致性的结构化知识，从而在数据效率和知识质量方面具有优越性。 |
-| [^19] | [Towards Realistic Low-resource Relation Extraction: A Benchmark with Empirical Baseline Study.](http://arxiv.org/abs/2210.10678) | 本文针对低资源环境中的关系抽取进行了实证研究，并提出了三种方案来提高性能，包括使用提示方法、平衡方法和数据增强技术。通过对8个关系抽取数据集的广泛比较，实验结果表明，虽然基于提示的调整有益于低资源关系抽取，但仍有改进空间，尤其是跨句子上下文中的多个关系三元组的抽取。 |
-| [^20] | [Dual Contrastive Network for Sequential Recommendation with User and Item-Centric Perspectives.](http://arxiv.org/abs/2209.08446) | 本文提出了一种新颖的双重对比网络（DCN），通过两个组件充分利用了用户和物品两个视角，以生成地面真实的自监督信号，解决了随机屏蔽历史物品带来的序列稀疏性和不可靠信号的问题。实验结果表明，在三个真实数据集上，我们的方法优于当前最先进的纵向推荐方法。 |
-| [^21] | [DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge Base Population.](http://arxiv.org/abs/2201.03335) | DeepKE是一个基于深度学习的知识提取工具包，支持复杂的低资源、文档级和多模态场景，可用于自定义数据集和模型来从非结构化数据中提取信息。 |
-| [^22] | [KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction.](http://arxiv.org/abs/2104.07650) | 本文提出了一种名为KnowPrompt的知识感知提示调整方法，通过将关系标签中的潜在知识融入到提示构建中，并通过协同优化的方式，提高了关系抽取任务的性能。 |
+| [^1] | [Large language models can accurately predict searcher preferences.](http://arxiv.org/abs/2309.10621) | 大型语言模型可以通过从真实用户那里获取高质量的第一方数据来准确预测搜索者的偏好。 |
+| [^2] | [A Hierarchical Neural Framework for Classification and its Explanation in Large Unstructured Legal Documents.](http://arxiv.org/abs/2309.10563) | 本论文提出了一个名为MESc的分层神经框架，用于分类和解释大型非结构化法律文件。通过将文件分成多个部分并使用大型语言模型的嵌入和无监督聚类，该框架能够实现从长文档中预测判决并提取解释。 |
+| [^3] | [Proposal for an Organic Web, The missing link between the Web and the Semantic Web, Part 1.](http://arxiv.org/abs/2309.10531) | 本文提出了一个关于有机网络的提案，旨在连接Web和语义Web之间的缺失链，以实现各种信息资源的精细互联，并提供协作和专业知识的支持。 |
+| [^4] | [A Digital Forensics Case Study of the DJI Mini 3 Pro and DJI RC.](http://arxiv.org/abs/2309.10487) | 该论文通过对DJI Mini 3 Pro和DJI RC的数字取证案例研究，发现了这两种无人机设备上的数字痕迹，为取证调查员提供了追踪无人机使用情况的重要信息。 |
+| [^5] | [RUEL: Retrieval-Augmented User Representation with Edge Browser Logs for Sequential Recommendation.](http://arxiv.org/abs/2309.10469) | RUEL是一种新颖的基于检索的序列推荐系统，它可以利用来自Edge浏览器日志的外部匿名用户行为数据来提升推荐效果，并解决了数据稀疏性和跨平台用户ID一致性的问题。 |
+| [^6] | [Reformulating Sequential Recommendation: Learning Dynamic User Interest with Content-enriched Language Modeling.](http://arxiv.org/abs/2309.10435) | 本研究提出了一个新的顺序推荐范式 LANCER，利用预训练语言模型的语义理解能力生成更加人性化的个性化推荐。在多个基准数据集上的实验结果表明，该方法有效且有希望，并为了解顺序推荐的影响提供了有价值的见解。 |
+| [^7] | [Deep Mutual Learning across Task Towers for Effective Multi-Task Recommender Learning.](http://arxiv.org/abs/2309.10357) | 本文介绍了一个跨任务塔的深度互相学习框架，用于提高多任务推荐系统的学习效果。通过在较高层次上进行知识共享，可以优化预测结果。通过离线实验和在线AB测试验证了该方法的有效性。 |
+| [^8] | [Computational Approaches for App-to-App Retrieval and Design Consistency Check.](http://arxiv.org/abs/2309.10328) | 通过使用大规模网络图片训练的视觉模型，零-shot提取UI表示，并使用数学方法实现应用到应用的检索和设计一致性分析，我们提出了一种计算方法以解决现有方法的局限性。 |
+| [^9] | [Decoupled Training: Return of Frustratingly Easy Multi-Domain Learning.](http://arxiv.org/abs/2309.10302) | 这篇论文提出了一种称为解耦训练（D-Train）的令人沮丧的、无超参数的多领域学习方法。该方法采用了一种三阶段的训练策略，首先进行预训练，然后在每个领域上进行后训练，最后进行头部微调，实现解耦训练以获得更好的性能。 |
+| [^10] | [Towards Measuring Fairness in Grid Layout in Recommender Systems.](http://arxiv.org/abs/2309.10271) | 本文扩展了现有的公平排名概念和指标，研究了网格布局中提供者方面的群体公平性，并分析了这些指标在不同设备上的行为变化。 |
+| [^11] | [Multi-modality Meets Re-learning: Mitigating Negative Transfer in Sequential Recommendation.](http://arxiv.org/abs/2309.10195) | 该论文提出了一种名为ANT的方法来解决顺序推荐中的负迁移问题，通过结合多模态项目信息，inc。 |
+| [^12] | [Representation Learning in Low-rank Slate-based Recommender Systems.](http://arxiv.org/abs/2309.08622) | 该论文提出了在推荐系统中使用低秩MDP将推荐问题视为在线RL问题，并通过提出的算法实现了高效的表示学习。 |
+| [^13] | [Digital Health Discussion Through Articles Published Until the Year 2021: A Digital Topic Modeling Approach.](http://arxiv.org/abs/2307.07130) | 这里是中文总结出的一句话要点 |
+| [^14] | [Towards Populating Generalizable Engineering Design Knowledge.](http://arxiv.org/abs/2307.06985) | 这项研究提出了一种从专利文件中提取工程设计知识的方法，通过构建知识图来填充通用设计知识，并与现有方法进行了比较。 |
+| [^15] | [Probe: Learning Users' Personalized Projection Bias in Intertemporal Bundle Choices.](http://arxiv.org/abs/2303.06016) | 本文提出了一种新的偏差嵌入式偏好模型——Probe，旨在解决用户在时间跨度的购物选择中的投影偏差和参照点效应，提高决策的有效性和个性化。 |
+| [^16] | [Convolutive Block-Matching Segmentation Algorithm with Application to Music Structure Analysis.](http://arxiv.org/abs/2210.15356) | 本文介绍了一种新的卷积块匹配算法，用于音乐结构分析，通过计算自相似矩阵来达到与有监督方法相当的性能。 |
+| [^17] | [Decoupling Knowledge from Memorization: Retrieval-augmented Prompt Learning.](http://arxiv.org/abs/2205.14704) | 本论文提出了一种检索增强的提示学习方法，通过将知识从记忆中解耦，帮助模型在泛化和记忆之间取得平衡。 |
+| [^18] | [Relation Extraction as Open-book Examination: Retrieval-enhanced Prompt Tuning.](http://arxiv.org/abs/2205.02355) | 提出了一种新的半参数学习范式，即检索增强的提示调优，用于关系抽取。通过构建开放式存储库，并使用线性插值的方式，模型能够在推断过程中根据存储库中的记忆信息推断关系。 |
+| [^19] | [Contrastive Demonstration Tuning for Pre-trained Language Models.](http://arxiv.org/abs/2204.04392) | 本论文提出了一种名为对比演示调优的方法，可以在低数据场景下有效激发预训练语言模型的能力。实验结果表明，该方法与先前的提示调优方法相结合可以取得更好的性能。 |
+| [^20] | [D-HAN: Dynamic News Recommendation with Hierarchical Attention Network.](http://arxiv.org/abs/2112.10085) | D-HAN是一种动态新闻推荐模型，采用分层注意力网络将连续时间信息无缝整合，有效表示新闻信息，并引入动态负采样方法优化用户的隐式反馈。 |
+| [^21] | [Analysis of ResearchGate, A Community Detection Approach.](http://arxiv.org/abs/2003.05591) | 这项研究利用网络科学方法分析了ResearchGate社区，并发现了地理位置和民族属性对学术协作网络的建立和科研产出流程具有重要影响。这有助于促进学术研究的发展。 |
 
 # 详细
 
-[^1]: 超越标签: 利用深度学习和LLMs进行内容元数据分析
+[^1]: 大型语言模型能够准确预测搜索者的偏好
 
-    Beyond Labels: Leveraging Deep Learning and LLMs for Content Metadata. (arXiv:2309.08787v1 [cs.IR])
+    Large language models can accurately predict searcher preferences. (arXiv:2309.10621v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.08787](http://arxiv.org/abs/2309.08787)
+    [http://arxiv.org/abs/2309.10621](http://arxiv.org/abs/2309.10621)
 
-    本研究讨论了在电影推荐系统中利用类型标签进行内容元数据分析的挑战，并提出了一种名为“类型频谱”的新方法来捕捉标题中的微妙类型。实验证实了该方法的有效性。此外，该研究还讨论了LLMs在增强内容元数据分析中的应用。
-
-    
-
-    内容元数据在电影推荐系统中扮演着非常重要的角色，它提供了有关电影的各个方面（如类型、演员、剧情概要、票房摘要等）的有价值信息。分析元数据可以帮助理解用户偏好，生成个性化推荐和解决项目冷启动问题。本文将重点关注一种特定类型的元数据——“类型”标签。电影或电视剧的类型标签有助于将一系列标题分类为不同主题，并相应地设置观众期望。我们提出了使用类型标签信息所涉及的一些挑战，并提出了一种称为“类型频谱”的新方法来研究类型信息。类型频谱有助于捕捉标题中的各种微妙类型，我们的离线和在线实验证实了该方法的有效性。此外，我们还讨论了LLMs在增强内容元数据分析方面的应用。
-
-    Content metadata plays a very important role in movie recommender systems as it provides valuable information about various aspects of a movie such as genre, cast, plot synopsis, box office summary, etc. Analyzing the metadata can help understand the user preferences to generate personalized recommendations and item cold starting. In this talk, we will focus on one particular type of metadata - \textit{genre} labels. Genre labels associated with a movie or a TV series help categorize a collection of titles into different themes and correspondingly setting up the audience expectation. We present some of the challenges associated with using genre label information and propose a new way of examining the genre information that we call as the \textit{Genre Spectrum}. The Genre Spectrum helps capture the various nuanced genres in a title and our offline and online experiments corroborate the effectiveness of the approach. Furthermore, we also talk about applications of LLMs in augmenting con
-    
-[^2]: 在生命科学中的可复制领域特定知识图的系统文献综述
-
-    Reproducible Domain-Specific Knowledge Graphs in the Life Sciences: a Systematic Literature Review. (arXiv:2309.08754v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.08754](http://arxiv.org/abs/2309.08754)
-
-    在生命科学领域，可复制的领域特定知识图对于确保知识的可信性和可持续性至关重要。然而，创建和维护KG面临着重大挑战。尽管有越来越多的领域特定的KG，关于其可复制性的综合分析仍然缺乏。
+    大型语言模型可以通过从真实用户那里获取高质量的第一方数据来准确预测搜索者的偏好。
 
     
 
-    知识图（KG）被广泛用于在不同领域中表示和组织结构化知识。然而，创建和维护KG面临着重大挑战。开发KG需要对数据建模、本体设计和数据整理具有广泛的专业知识。此外，KG是动态的，需要持续更新和质量控制以确保准确性和相关性。这些复杂性导致了对其开发和维护的相当大的努力。值得关注的一项关键维度是可复制性。能够复制和验证KG对于确保所表示的知识的可信性和可持续性至关重要。可复制的KG不仅通过允许他人在现有知识的基础上进行建设来支持开放科学，而且还增强了信息传播的透明度和可靠性。尽管有越来越多的领域特定的KG，关于其可复制性的综合分析仍然缺乏。
+    相关性标签是评估和优化搜索系统的关键。获取大量相关性标签通常需要第三方标注人员，但存在低质量数据的风险。本论文介绍了一种改进标签质量的替代方法，通过从真实用户那里获得仔细反馈来获取高质量的第一方数据。
 
-    Knowledge graphs (KGs) are widely used for representing and organizing structured knowledge in diverse domains. However, the creation and upkeep of KGs pose substantial challenges. Developing a KG demands extensive expertise in data modeling, ontology design, and data curation. Furthermore, KGs are dynamic, requiring continuous updates and quality control to ensure accuracy and relevance. These intricacies contribute to the considerable effort required for their development and maintenance. One critical dimension of KGs that warrants attention is reproducibility. The ability to replicate and validate KGs is fundamental for ensuring the trustworthiness and sustainability of the knowledge they represent. Reproducible KGs not only support open science by allowing others to build upon existing knowledge but also enhance transparency and reliability in disseminating information. Despite the growing number of domain-specific KGs, a comprehensive analysis concerning their reproducibility has 
+    Relevance labels, which indicate whether a search result is valuable to a searcher, are key to evaluating and optimising search systems. The best way to capture the true preferences of users is to ask them for their careful feedback on which results would be useful, but this approach does not scale to produce a large number of labels. Getting relevance labels at scale is usually done with third-party labellers, who judge on behalf of the user, but there is a risk of low-quality data if the labeller doesn't understand user needs. To improve quality, one standard approach is to study real users through interviews, user studies and direct feedback, find areas where labels are systematically disagreeing with users, then educate labellers about user needs through judging guidelines, training and monitoring. This paper introduces an alternate approach for improving label quality. It takes careful feedback from real users, which by definition is the highest-quality first-party gold data that 
     
-[^3]: FedFNN: 在联邦推荐系统中通过更新预测实现更快的训练收敛
+[^2]: 一个用于分类和解释大型非结构化法律文件的分层神经框架
 
-    FedFNN: Faster Training Convergence Through Update Predictions in Federated Recommender Systems. (arXiv:2309.08635v1 [cs.IR])
+    A Hierarchical Neural Framework for Classification and its Explanation in Large Unstructured Legal Documents. (arXiv:2309.10563v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.08635](http://arxiv.org/abs/2309.08635)
+    [http://arxiv.org/abs/2309.10563](http://arxiv.org/abs/2309.10563)
 
-    FedFNN是一种在联邦推荐系统中加速训练的算法。通过预测未抽样用户的权重更新，使用已抽样集的更新，FedFNN实现了比其他方法快5倍的训练速度，同时保持或提高了准确性。
-
-    
-
-    联邦学习（FL）已成为分布式机器学习的关键方法，增强了在线个性化的同时确保用户数据的隐私。与传统方法将私有数据发送到中央服务器不同，FL将计算分散：设备在本地训练并与全局服务器共享更新。在这种情况下，主要挑战是实现快速和准确的模型训练，这对于推荐系统来说至关重要，因为延迟可能会损害用户参与度。本文介绍了FedFNN，一种加速分散式模型训练的算法。在FL中，每个训练周期仅涉及用户子集。FedFNN利用监督学习从未抽样的用户中预测权重更新，使用来自抽样集的更新。我们使用真实和合成数据进行了评估，结果显示：1. FedFNN的训练速度比领先方法快5倍，保持或提高准确性；2. 该算法的性能与客户端集群的变化无关。
-
-    Federated Learning (FL) has emerged as a key approach for distributed machine learning, enhancing online personalization while ensuring user data privacy. Instead of sending private data to a central server as in traditional approaches, FL decentralizes computations: devices train locally and share updates with a global server. A primary challenge in this setting is achieving fast and accurate model training - vital for recommendation systems where delays can compromise user engagement. This paper introduces FedFNN, an algorithm that accelerates decentralized model training. In FL, only a subset of users are involved in each training epoch. FedFNN employs supervised learning to predict weight updates from unsampled users, using updates from the sampled set. Our evaluations, using real and synthetic data, show: 1. FedFNN achieves training speeds 5x faster than leading methods, maintaining or improving accuracy; 2. the algorithm's performance is consistent regardless of client cluster va
-    
-[^4]: 评估动态主题模型
-
-    Evaluating Dynamic Topic Models. (arXiv:2309.08627v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.08627](http://arxiv.org/abs/2309.08627)
-
-    提出了一种评估动态主题模型的新方法，该方法分析了每个主题随时间变化的质量变化，并结合了模型的时间一致性。该方法在合成数据和已有DTMs数据上展示了实用性，并与人类判断具有良好的相关性。这些研究结果对于识别变化的主题、评估DTMs和指导未来研究具有重要意义。
+    本论文提出了一个名为MESc的分层神经框架，用于分类和解释大型非结构化法律文件。通过将文件分成多个部分并使用大型语言模型的嵌入和无监督聚类，该框架能够实现从长文档中预测判决并提取解释。
 
     
 
-    动态主题模型(DTMs)在评估主题随时间变化的进展方面缺乏定量指标。为了填补这一空白，我们提出了一种新颖的DTMs评估方法，该方法分析了每个主题随时间变化的质量变化。此外，我们还提出了结合主题质量和模型时间一致性的扩展方法。我们通过将该方法应用于合成数据和已有DTMs的数据来证明其实用性。我们还进行了人工评估，结果表明该方法与人类判断具有良好的相关性。我们的研究结果有助于识别变化的主题、评估不同的DTMs以及指导未来的研究领域。
+    自动法律判决预测及其解释常常面临长达数万字的案例文件和非统一结构的问题。在没有结构标注的文件上预测判决并提取解释变得更具挑战性。本论文将这一问题定义为“稀缺标注法律文件”，并通过一种称为MESc（基于多阶段编码器的带聚类的监督）的深度学习分类框架来探索缺乏结构信息和长文档的特点。具体来说，我们将文档分成多个部分，从自定义微调的大型语言模型的最后四个层中提取它们的嵌入，并试图通过无监督聚类来近似它们的结构。然后，我们利用另一组Transformer编码器层学习部分之间的表示。我们探索了多十亿参数的大型语言模型在这种情况下的适应性。
 
-    There is a lack of quantitative measures to evaluate the progression of topics through time in dynamic topic models (DTMs). Filling this gap, we propose a novel evaluation measure for DTMs that analyzes the changes in the quality of each topic over time. Additionally, we propose an extension combining topic quality with the model's temporal consistency. We demonstrate the utility of the proposed measure by applying it to synthetic data and data from existing DTMs. We also conducted a human evaluation, which indicates that the proposed measure correlates well with human judgment. Our findings may help in identifying changing topics, evaluating different DTMs, and guiding future research in this area.
+    Automatic legal judgment prediction and its explanation suffer from the problem of long case documents exceeding tens of thousands of words, in general, and having a non-uniform structure. Predicting judgments from such documents and extracting their explanation becomes a challenging task, more so on documents with no structural annotation. We define this problem as "scarce annotated legal documents" and explore their lack of structural information and their long lengths with a deep learning-based classification framework which we call MESc; "Multi-stage Encoder-based Supervised with-clustering"; for judgment prediction. Specifically, we divide a document into parts to extract their embeddings from the last four layers of a custom fine-tuned Large Language Model, and try to approximate their structure through unsupervised clustering. Which we use in another set of transformer encoder layers to learn the inter-chunk representations. We explore the adaptability of LLMs with multi-billion
     
-[^5]: 基于低秩Slate的推荐系统中的表示学习
+[^3]: 为有机网络提出的议案，连接Web和语义Web的缺失链，第一部分。
+
+    Proposal for an Organic Web, The missing link between the Web and the Semantic Web, Part 1. (arXiv:2309.10531v1 [cs.DL])
+
+    [http://arxiv.org/abs/2309.10531](http://arxiv.org/abs/2309.10531)
+
+    本文提出了一个关于有机网络的提案，旨在连接Web和语义Web之间的缺失链，以实现各种信息资源的精细互联，并提供协作和专业知识的支持。
+
+    
+
+    数量庞大的信息以数字形式产生。语义Web的出现是因为我们意识到，要有效处理这些信息的产生，需要更好地将数字信息资源相互连接。它的重点是连接数据。但仅仅连接数据是不够的。我们需要为连接各种信息资源提供基础设施支持，包括那些理解和精细连接需要特定领域人类专业知识的资源。在很多问题规模达到全球水平的时候，提升信息处理和信息产生的协作能力至关重要，但同时也不能放弃专业知识和深度分析，也不能把只适用于某些智能形式的语言和形式主义强加给思考者、决策者和创新者。本文提出了一个与语义Web推崇的相互连接的思想一致的方向上的提案。
+
+    A huge amount of information is produced in digital form. The Semantic Web stems from the realisation that dealing efficiently with this production requires getting better at interlinking digital informational resources together. Its focus is on linking data. Linking data isn't enough. We need to provide infrastructural support for linking all sorts of informational resources including resources whose understanding and fine interlinking requires domain-specific human expertise. At times when many problems scale to planetary dimensions, it is essential to scale coordination of information processing and information production, without giving up on expertise and depth of analysis, nor forcing languages and formalisms onto thinkers, decision-makers and innovators that are only suitable to some forms of intelligence. This article makes a proposal in this direction and in line with the idea of interlinking championed by the Semantic Web.
+    
+[^4]: DJI Mini 3 Pro和DJI RC的数字取证案例研究
+
+    A Digital Forensics Case Study of the DJI Mini 3 Pro and DJI RC. (arXiv:2309.10487v1 [cs.ET])
+
+    [http://arxiv.org/abs/2309.10487](http://arxiv.org/abs/2309.10487)
+
+    该论文通过对DJI Mini 3 Pro和DJI RC的数字取证案例研究，发现了这两种无人机设备上的数字痕迹，为取证调查员提供了追踪无人机使用情况的重要信息。
+
+    
+
+    随着新型无人机模型推出，消费级无人机市场迅速扩大，这些无人机模型具有独特的硬件和软件变化。无人机技术的快速发展和无人机系统的多样性会给数字取证调查员和工具带来困难，难以跟上步伐并有效地提取和分析无人机的数字证据。此外，由于无人机在非法和有害活动中的使用越来越普及，如走私、间谍活动甚至恐怖主义活动，导致了执法部门处理无人机取证案例的增加。为了帮助取证调查员，对大疆创新（DJI）最近发布的两款无人机设备进行了静态数字取证案例研究，分别是Mini 3 Pro无人机和其遥控器DJI RC。研究发现了这两种设备上存在着几个数字痕迹，包括记录的媒体、飞行日志和其他信息，这些信息可以帮助调查员追踪无人机的使用情况。
+
+    The consumer drone market is rapidly expanding with new drone models featuring unique variations of hardware and software. The rapid development of drone technology and variability in drone systems can make it difficult for digital forensic investigators and tools to keep pace and effectively extract and analyse digital evidence from drones. Furthermore, the growing popularity of drones and their increased use in illegal and harmful activities, such as smuggling, espionage, and even terrorism, has led to an increase in the number of drone forensic cases for authorities to manage. To assist forensic investigators, a static digital forensic case study was conducted on two drone devices recently released by Da-Jiang Innovations (DJI): the Mini 3 Pro drone, and its remote controller, the DJI RC. The study discovered the presence of several digital artefacts on both devices, including recorded media, flight logs, and other information that could help investigators trace the drone's usage an
+    
+[^5]: RUEL: 使用边缘浏览器日志提升检索增强的用户表示的序列推荐系统
+
+    RUEL: Retrieval-Augmented User Representation with Edge Browser Logs for Sequential Recommendation. (arXiv:2309.10469v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.10469](http://arxiv.org/abs/2309.10469)
+
+    RUEL是一种新颖的基于检索的序列推荐系统，它可以利用来自Edge浏览器日志的外部匿名用户行为数据来提升推荐效果，并解决了数据稀疏性和跨平台用户ID一致性的问题。
+
+    
+
+    在线推荐系统旨在将用户需求与各种平台上的大量资源匹配。一个关键挑战是在数据稀疏的条件下准确建模用户偏好。为了解决这个挑战，一些方法利用来自多个平台的外部用户行为数据来丰富用户表示。然而，所有这些方法都需要一个跨平台的一致用户ID，并且忽略了类似用户的信息。本研究提出了RUEL，一种新颖的基于检索的序列推荐系统，可以有效地将来自Edge浏览器日志的外部匿名用户行为数据融入推荐。我们首先收集和预处理了一年的大量Edge浏览器日志，并将它们与推荐数据集中的候选项相对应的目标实体进行关联。然后，我们设计了一个对比学习框架，其中包括一个动量编码器和一个记忆库，用于检索最相关和最多样化的浏览器日志。
+
+    Online recommender systems (RS) aim to match user needs with the vast amount of resources available on various platforms. A key challenge is to model user preferences accurately under the condition of data sparsity. To address this challenge, some methods have leveraged external user behavior data from multiple platforms to enrich user representation. However, all of these methods require a consistent user ID across platforms and ignore the information from similar users. In this study, we propose RUEL, a novel retrieval-based sequential recommender that can effectively incorporate external anonymous user behavior data from Edge browser logs to enhance recommendation. We first collect and preprocess a large volume of Edge browser logs over a one-year period and link them to target entities that correspond to candidate items in recommendation datasets. We then design a contrastive learning framework with a momentum encoder and a memory bank to retrieve the most relevant and diverse brow
+    
+[^6]: 重塑顺序推荐系统：利用内容增强语言建模学习动态用户兴趣
+
+    Reformulating Sequential Recommendation: Learning Dynamic User Interest with Content-enriched Language Modeling. (arXiv:2309.10435v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.10435](http://arxiv.org/abs/2309.10435)
+
+    本研究提出了一个新的顺序推荐范式 LANCER，利用预训练语言模型的语义理解能力生成更加人性化的个性化推荐。在多个基准数据集上的实验结果表明，该方法有效且有希望，并为了解顺序推荐的影响提供了有价值的见解。
+
+    
+
+    推荐系统对在线应用至关重要，而顺序推荐由于其表达能力强大，能够捕捉到动态用户兴趣而广泛使用。然而，先前的顺序建模方法在捕捉上下文信息方面仍存在局限性。主要的原因是语言模型常常缺乏对领域特定知识和物品相关文本内容的理解。为了解决这个问题，我们采用了一种新的顺序推荐范式，并提出了LANCER，它利用预训练语言模型的语义理解能力生成个性化推荐。我们的方法弥合了语言模型与推荐系统之间的差距，产生了更加人性化的推荐。通过对多个基准数据集上的实验，我们验证了我们的方法的有效性，展示了有希望的结果，并提供了对我们模型对顺序推荐的影响的有价值的见解。
+
+    Recommender systems are essential for online applications, and sequential recommendation has enjoyed significant prevalence due to its expressive ability to capture dynamic user interests. However, previous sequential modeling methods still have limitations in capturing contextual information. The primary reason for this issue is that language models often lack an understanding of domain-specific knowledge and item-related textual content. To address this issue, we adopt a new sequential recommendation paradigm and propose LANCER, which leverages the semantic understanding capabilities of pre-trained language models to generate personalized recommendations. Our approach bridges the gap between language models and recommender systems, resulting in more human-like recommendations. We demonstrate the effectiveness of our approach through experiments on several benchmark datasets, showing promising results and providing valuable insights into the influence of our model on sequential recomm
+    
+[^7]: 跨任务塔的深度互相学习对于有效的多任务推荐系统学习的影响
+
+    Deep Mutual Learning across Task Towers for Effective Multi-Task Recommender Learning. (arXiv:2309.10357v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.10357](http://arxiv.org/abs/2309.10357)
+
+    本文介绍了一个跨任务塔的深度互相学习框架，用于提高多任务推荐系统的学习效果。通过在较高层次上进行知识共享，可以优化预测结果。通过离线实验和在线AB测试验证了该方法的有效性。
+
+    
+
+    推荐系统通常利用多任务学习方法来同时优化多个目标，因为用户行为数据是多方面的。典型的多任务学习方法是在较低层次上建立适当的参数共享，而在较高层次上为每个任务保留独立的任务塔。由于任务塔对预测结果产生直接影响，我们认为独立的任务塔结构对于促进正面知识共享是次优的。因此，我们提出了跨任务塔的深度互相学习框架，该框架与各种主干多任务网络兼容。通过大量的离线实验和在线AB测试来评估和验证所提出方法的有效性。
+
+    Recommender systems usually leverage multi-task learning methods to simultaneously optimize several objectives because of the multi-faceted user behavior data. The typical way of conducting multi-task learning is to establish appropriate parameter sharing across multiple tasks at lower layers while reserving a separate task tower for each task at upper layers. Since the task towers exert direct impact on the prediction results, we argue that the architecture of standalone task towers is sub-optimal for promoting positive knowledge sharing. Accordingly, we propose the framework of Deep Mutual Learning across task towers, which is compatible with various backbone multi-task networks. Extensive offline experiments and online AB tests are conducted to evaluate and verify the proposed approach's effectiveness.
+    
+[^8]: 应用于应用检索和设计一致性检查的计算方法
+
+    Computational Approaches for App-to-App Retrieval and Design Consistency Check. (arXiv:2309.10328v1 [cs.HC])
+
+    [http://arxiv.org/abs/2309.10328](http://arxiv.org/abs/2309.10328)
+
+    通过使用大规模网络图片训练的视觉模型，零-shot提取UI表示，并使用数学方法实现应用到应用的检索和设计一致性分析，我们提出了一种计算方法以解决现有方法的局限性。
+
+    
+
+    从移动用户界面（UI）中提取语义表示，并将这些表示用于设计师的决策过程，已经显示出作为有效的计算设计支持工具的潜力。目前的方法依赖于在小规模移动UI数据集上训练的机器学习模型来提取语义向量，并使用屏幕截图进行对比来检索给定查询截图的相似UI。然而，这些方法的可用性有限，因为它们通常不是开源的，并且对从业人员来说，训练流程复杂，并且无法进行应用程序到应用程序的检索。为此，我们（1）使用大规模网络图片训练的视觉模型，并测试它们是否能够以零-shot方式提取UI表示，并超越现有的专用模型，以及（2）使用数学方法实现应用到应用的检索和设计一致性分析。我们的实验表明...
+
+    Extracting semantic representations from mobile user interfaces (UI) and using the representations for designers' decision-making processes have shown the potential to be effective computational design support tools. Current approaches rely on machine learning models trained on small-sized mobile UI datasets to extract semantic vectors and use screenshot-to-screenshot comparison to retrieve similar-looking UIs given query screenshots. However, the usability of these methods is limited because they are often not open-sourced and have complex training pipelines for practitioners to follow, and are unable to perform screenshot set-to-set (i.e., app-to-app) retrieval. To this end, we (1) employ visual models trained with large web-scale images and test whether they could extract a UI representation in a zero-shot way and outperform existing specialized models, and (2) use mathematically founded methods to enable app-to-app retrieval and design consistency analysis. Our experiments show tha
+    
+[^9]: 解耦训练：令人沮丧的简单多领域学习的回归
+
+    Decoupled Training: Return of Frustratingly Easy Multi-Domain Learning. (arXiv:2309.10302v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.10302](http://arxiv.org/abs/2309.10302)
+
+    这篇论文提出了一种称为解耦训练（D-Train）的令人沮丧的、无超参数的多领域学习方法。该方法采用了一种三阶段的训练策略，首先进行预训练，然后在每个领域上进行后训练，最后进行头部微调，实现解耦训练以获得更好的性能。
+
+    
+
+    多领域学习（MDL）旨在训练一个模型，在多个重叠但非相同的领域中具有最小的平均风险。为了解决数据集偏差和领域优势的挑战，从对齐分布减少领域差距的角度或通过实施领域特定的塔、门甚至专家来保留差异，已经提出了许多MDL方法。MDL模型变得越来越复杂，具有复杂的网络架构或损失函数，引入额外的参数并增加计算成本。在本文中，我们提出了一种令人沮丧的、无超参数的多领域学习方法，命名为解耦训练（D-Train）。D-Train是一种三阶段的从一般到特殊的训练策略，首先在所有领域上进行预训练以热身一个根模型，然后通过将其拆分为多个头部在每个领域上进行后训练，最后通过固定骨干进行头部微调，实现解耦训练以获得更好的性能。
+
+    Multi-domain learning (MDL) aims to train a model with minimal average risk across multiple overlapping but non-identical domains. To tackle the challenges of dataset bias and domain domination, numerous MDL approaches have been proposed from the perspectives of seeking commonalities by aligning distributions to reduce domain gap or reserving differences by implementing domain-specific towers, gates, and even experts. MDL models are becoming more and more complex with sophisticated network architectures or loss functions, introducing extra parameters and enlarging computation costs. In this paper, we propose a frustratingly easy and hyperparameter-free multi-domain learning method named Decoupled Training(D-Train). D-Train is a tri-phase general-to-specific training strategy that first pre-trains on all domains to warm up a root model, then post-trains on each domain by splitting into multi heads, and finally fine-tunes the heads by fixing the backbone, enabling decouple training to ac
+    
+[^10]: 在推荐系统中测量网格布局的公平性
+
+    Towards Measuring Fairness in Grid Layout in Recommender Systems. (arXiv:2309.10271v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.10271](http://arxiv.org/abs/2309.10271)
+
+    本文扩展了现有的公平排名概念和指标，研究了网格布局中提供者方面的群体公平性，并分析了这些指标在不同设备上的行为变化。
+
+    
+
+    在过去五年中，对于确保推荐系统中的内容提供者能够公平对待，特别是通过其结果对其作品进行展示方面，进行了大量研究。然而，迄今为止开发的指标都是针对线性排名列表设计和测试的。目前尚不清楚现有的用于线性布局的公平排名指标是否可以应用于基于网格的显示。此外，根据用户使用的设备（手机、平板或笔记本电脑），使用列减少方法调整列大小以在网格视图中显示。在网格布局中，推荐项的可见性或曝光度根据列大小和列减少方法而变化。在本文中，我们将现有的公平排名概念和指标扩展到研究网格布局中提供者方面的群体公平性，提出了对这些网格调整公平排名指标行为的分析，并研究它们在不同设备上的行为变化。
+
+    There has been significant research in the last five years on ensuring the providers of items in a recommender system are treated fairly, particularly in terms of the exposure the system provides to their work through its results. However, the metrics developed to date have all been designed and tested for linear ranked lists. It is unknown whether and how existing fair ranking metrics for linear layouts can be applied to grid-based displays. Moreover, depending on the device (phone, tab, or laptop) users use to interact with systems, column size is adjusted using column reduction approaches in a grid-view. The visibility or exposure of recommended items in grid layouts varies based on column sizes and column reduction approaches as well. In this paper, we extend existing fair ranking concepts and metrics to study provider-side group fairness in grid layouts, present an analysis of the behavior of these grid adaptations of fair ranking metrics, and study how their behavior changes acro
+    
+[^11]: 多模态相遇再学习：减轻顺序推荐中的负迁移问题
+
+    Multi-modality Meets Re-learning: Mitigating Negative Transfer in Sequential Recommendation. (arXiv:2309.10195v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.10195](http://arxiv.org/abs/2309.10195)
+
+    该论文提出了一种名为ANT的方法来解决顺序推荐中的负迁移问题，通过结合多模态项目信息，inc。
+
+    
+
+    从稀疏用户交互中学习有效的推荐模型是发展现代顺序推荐方法中的一个基本挑战。最近，基于预训练的方法已被开发出来来解决这个问题。这些方法的关键思想是通过预训练从相关任务（即辅助任务）中学习可迁移的知识，并将该知识调整到目标任务（即目标任务）中以减轻数据稀疏性问题，从而实现更准确的推荐。然而，尽管有所潜力，本文中我们展示了现有方法存在的恶名昭著的负迁移问题，即通过预训练模型调整的模型在目标任务中表现比从头开始学习的模型更差。为了解决这个问题，我们开发了一种被称为ANT的可迁移顺序推荐方法。与现有方法相比，ANT通过以下方式减轻了负迁移问题：1）结合多模态项目信息，inc
+
+    Learning effective recommendation models from sparse user interactions represents a fundamental challenge in developing modern sequential recommendation methods. Recently, pre-training-based methods have been developed to tackle this challenge. The key idea behind these methods is to learn transferable knowledge from related tasks (i.e., auxiliary tasks) via pre-training and adapt the knowledge to the task of interest (i.e., target task) to mitigate its data sparsity, thereby enabling more accurate recommendations. Though promising, in this paper, we show that existing methods suffer from the notorious negative transfer issue, where the model adapted from the pre-trained model results in worse performance compared to the model learned from scratch in the target task. To address this issue, we develop a method, denoted as ANT, for transferable sequential recommendation. Compared to existing methods, ANT mitigates negative transfer by 1) incorporating multi-modality item information, inc
+    
+[^12]: 基于低秩Slate的推荐系统中的表示学习
 
     Representation Learning in Low-rank Slate-based Recommender Systems. (arXiv:2309.08622v1 [cs.IR])
 
@@ -97,242 +194,130 @@
 
     Reinforcement learning (RL) in recommendation systems offers the potential to optimize recommendations for long-term user engagement. However, the environment often involves large state and action spaces, which makes it hard to efficiently learn and explore. In this work, we propose a sample-efficient representation learning algorithm, using the standard slate recommendation setup, to treat this as an online RL problem with low-rank Markov decision processes (MDPs). We also construct the recommender simulation environment with the proposed setup and sampling method.
     
-[^6]: 在SCRUF中探索推荐公平性的社会选择机制
+[^13]: 这里是翻译过的论文标题
 
-    Exploring Social Choice Mechanisms for Recommendation Fairness in SCRUF. (arXiv:2309.08621v1 [cs.IR])
+    Digital Health Discussion Through Articles Published Until the Year 2021: A Digital Topic Modeling Approach. (arXiv:2307.07130v1 [stat.AP])
 
-    [http://arxiv.org/abs/2309.08621](http://arxiv.org/abs/2309.08621)
+    [http://arxiv.org/abs/2307.07130](http://arxiv.org/abs/2307.07130)
 
-    本文通过使用社会选择机制，探索了多个多方面公平应用中的选择机制选项，结果显示不同的选择和分配机制会产生不同但一致的公平性/准确性权衡结果，并且多智能体的构成使得系统能够适应用户人口的动态变化。
-
-    
-
-    推荐系统中的公平性问题往往在实践中具有复杂性，而这一点在简化的研究公式中并没有得到充分的体现。在对公平性问题进行社会选择的框架中，可以在多智能体的公平性关注基础上提供一种灵活且多方面的公平性感知推荐方法。利用社会选择可以增加通用性，并有可能利用经过研究的社会选择算法解决多个竞争的公平性关注之间的紧张关系。本文探讨了在多方面公平应用中选择机制的一系列选项，使用真实数据和合成数据，结果显示不同类别的选择和分配机制在公平性/准确性权衡方面产生了不同但一致的结果。我们还表明，多智能体的构成提供了适应用户人口动态的灵活性。
-
-    Fairness problems in recommender systems often have a complexity in practice that is not adequately captured in simplified research formulations. A social choice formulation of the fairness problem, operating within a multi-agent architecture of fairness concerns, offers a flexible and multi-aspect alternative to fairness-aware recommendation approaches. Leveraging social choice allows for increased generality and the possibility of tapping into well-studied social choice algorithms for resolving the tension between multiple, competing fairness concerns. This paper explores a range of options for choice mechanisms in multi-aspect fairness applications using both real and synthetic data and shows that different classes of choice and allocation mechanisms yield different but consistent fairness / accuracy tradeoffs. We also show that a multi-agent formulation offers flexibility in adapting to user population dynamics.
-    
-[^7]: Drifter: 大规模推荐系统中高效的在线特征监控以提高数据完整性
-
-    Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems. (arXiv:2309.08617v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.08617](http://arxiv.org/abs/2309.08617)
-
-    Drifter是一个高效的在线特征监控系统，通过敏捷、响应和适应性的数据质量监控，实时分析、检测和解决推荐系统中的数据问题，使得实时推荐系统的可靠性和性能得到显著提升。
+    这里是中文总结出的一句话要点
 
     
 
-    实际生产系统通常面临在大规模、动态流中维护数据质量的问题。我们介绍了Drifter，这是一个用于推荐系统中在线特征监控和验证的高效且轻量级的系统。Drifter通过提供敏捷、响应和适应性的数据质量监控，能够实时进行根本原因分析、漂移检测以及对有问题的生产事件的洞察。Drifter集成了最先进的稀疏数据在线特征排名和异常检测方法，具有高度可扩展性和资源效率性，每分钟处理数百万个实例仅需要两个线程和少于一GB的RAM。在真实数据集上的评估证明了Drifter在警报和缓解数据质量问题方面的有效性，大大提高了实时实况推荐系统的可靠性和性能。
+    这里是翻译过的论文摘要
 
-    Real-world production systems often grapple with maintaining data quality in large-scale, dynamic streams. We introduce Drifter, an efficient and lightweight system for online feature monitoring and verification in recommendation use cases. Drifter addresses limitations of existing methods by delivering agile, responsive, and adaptable data quality monitoring, enabling real-time root cause analysis, drift detection and insights into problematic production events. Integrating state-of-the-art online feature ranking for sparse data and anomaly detection ideas, Drifter is highly scalable and resource-efficient, requiring only two threads and less than a gigabyte of RAM per production deployments that handle millions of instances per minute. Evaluation on real-world data sets demonstrates Drifter's effectiveness in alerting and mitigating data quality issues, substantially improving reliability and performance of real-time live recommender systems.
+    The digital health industry has grown in popularity since the 2010s, but there has been limited analysis of the topics discussed in the field across academic disciplines. This study aims to analyze the research trends of digital health-related articles published on the Web of Science until 2021, in order to understand the concentration, scope, and characteristics of the research. 15,950 digital health-related papers from the top 10 academic fields were analyzed using the Web of Science. The papers were grouped into three domains: public health, medicine, and electrical engineering and computer science (EECS). Two time periods (2012-2016 and 2017-2021) were compared using Latent Dirichlet Allocation (LDA) for topic modeling. The number of topics was determined based on coherence score, and topic compositions were compared using a homogeneity test. The number of optimal topics varied across domains and time periods. For public health, the first and second halves had 13 and 19 topics, res
     
-[^8]: 预测疾病并发症中的多模态推荐系统
+[^14]: 迈向填充通用工程设计知识的方法
 
-    Multimodal Recommender Systems in the Prediction of Disease Comorbidity. (arXiv:2309.08613v1 [cs.IR])
+    Towards Populating Generalizable Engineering Design Knowledge. (arXiv:2307.06985v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.08613](http://arxiv.org/abs/2309.08613)
+    [http://arxiv.org/abs/2307.06985](http://arxiv.org/abs/2307.06985)
 
-    该研究探讨了在医疗领域中利用基于深度学习的推荐系统进行疾病并发症预测的方法。研究使用了NCF和DHF两种新颖的推荐系统，并利用了不同的数据集进行预测。研究结果显示NCF模型在准确率和命中率方面表现较差。
-
-    
-
-    尽管基于深度学习的协同过滤推荐系统已经在其他领域的推荐中得到普遍应用，但在医疗领域的应用还很有限。除了建模用户-项目交互之外，我们还展示了基于深度学习的推荐系统可以用于建模主题-疾病码交互。我们利用神经协同过滤(NCF)和深度混合过滤(DHF)这两种基于深度学习的推荐系统在疾病诊断中进行了两种新颖的应用，基于已知的过去患者并发症来进行预测。我们使用了两个数据集，一个包含MIMIC-III数据库中的所有主题-疾病码对，另一个包含发生最常见的50种疾病。准确率和Hit Ratio@10被用作评估模型性能的指标。发现利用减少的“top 50” ICD-9码数据集的NCF模型的性能较低(准确率约为80%和Hit Ratio@10为...
-
-    While deep-learning based recommender systems utilizing collaborative filtering have been commonly used for recommendation in other domains, their application in the medical domain have been limited. In addition to modeling user-item interactions, we show that deep-learning based recommender systems can be used to model subject-disease code interactions. Two novel applications of deep learning-based recommender systems using Neural Collaborative Filtering (NCF) and Deep Hybrid Filtering (DHF) were utilized for disease diagnosis based on known past patient comorbidities. Two datasets, one incorporating all subject-disease code pairs present in the MIMIC-III database, and the other incorporating the top 50 most commonly occurring diseases, were used for prediction. Accuracy and Hit Ratio@10 were utilized as metrics to estimate model performance. The performance of the NCF model making use of the reduced "top 50" ICD-9 code dataset was found to be lower (accuracy of ~80% and hit ratio@10 
-    
-[^9]: 使用原始像素为基准的推荐系统图像数据集
-
-    An Image Dataset for Benchmarking Recommender Systems with Raw Pixels. (arXiv:2309.06789v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.06789](http://arxiv.org/abs/2309.06789)
-
-    这个研究提出了PixelRec，一个大规模图像推荐数据集，包括2亿个用户-图像交互、30万个用户和40万个高质量封面图像。通过提供原始图像像素的直接访问，PixelRec使得推荐模型能够直接从图像学习项目表示。
+    这项研究提出了一种从专利文件中提取工程设计知识的方法，通过构建知识图来填充通用设计知识，并与现有方法进行了比较。
 
     
 
-    推荐系统（RS）通过利用明确的识别（ID）特征取得了显著的成功。但是，内容特征，尤其是纯图像像素特征的全部潜力仍然相对未被开发。大规模、多样化、以内容为驱动的图像推荐数据集的有限可用性阻碍了使用原始图像作为项目表示的能力。在这方面，我们提出了PixelRec，一个大规模的以图像为中心的推荐数据集，包括约2亿个用户-图像交互、3000万个用户和40万个高质量封面图像。通过直接访问原始图像像素，PixelRec使得推荐模型能够直接从中学习项目表示。为了证明其效用，我们首先呈现了在PixelRec上训练的几个经典纯ID基线模型（称为IDNet）的结果。然后，为了展示数据集的图像特征的有效性，我们将项目ID嵌入（来自IDNet）与一个...
+    为了填充通用工程设计知识，我们提出了一种从专利文件中提取head entity :: relationship :: tail entity形式事实的方法。这些事实可以在专利文件内部和跨文件之间组合形成知识图，用作表示和存储设计知识的方案。现有的工程设计文献中的方法通常利用一组预定义的关系来填充统计近似而非事实的三元组。在我们的方法中，我们训练一个标记器来识别句子中的实体和关系。在确定了一对实体后，我们训练另一个标记器来识别特定表示这对实体之间关系的关系标记。为了训练这些标记器，我们手动构建了一个包含44,227个句子和相应事实的数据集。我们还将该方法的性能与通常推荐的方法进行了比较，其中我们预.
 
-    Recommender systems (RS) have achieved significant success by leveraging explicit identification (ID) features. However, the full potential of content features, especially the pure image pixel features, remains relatively unexplored. The limited availability of large, diverse, and content-driven image recommendation datasets has hindered the use of raw images as item representations. In this regard, we present PixelRec, a massive image-centric recommendation dataset that includes approximately 200 million user-image interactions, 30 million users, and 400,000 high-quality cover images. By providing direct access to raw image pixels, PixelRec enables recommendation models to learn item representation directly from them. To demonstrate its utility, we begin by presenting the results of several classical pure ID-based baseline models, termed IDNet, trained on PixelRec. Then, to show the effectiveness of the dataset's image features, we substitute the itemID embeddings (from IDNet) with a 
+    Aiming to populate generalizable engineering design knowledge, we propose a method to extract facts of the form head entity :: relationship :: tail entity from sentences found in patent documents. These facts could be combined within and across patent documents to form knowledge graphs that serve as schemes for representing as well as storing design knowledge. Existing methods in engineering design literature often utilise a set of predefined relationships to populate triples that are statistical approximations rather than facts. In our method, we train a tagger to identify both entities and relationships from a sentence. Given a pair of entities thus identified, we train another tagger to identify the relationship tokens that specifically denote the relationship between the pair. For training these taggers, we manually construct a dataset of 44,227 sentences and corresponding facts. We also compare the performance of the method against typically recommended approaches, wherein, we pre
     
-[^10]: 提高和评估新闻推荐中的信息碎片检测与新闻故事链聚类
+[^15]: Probe：学习用户在时间跨度的捆绑选择中的个性化投影偏差
 
-    Improving and Evaluating the Detection of Fragmentation in News Recommendations with the Clustering of News Story Chains. (arXiv:2309.06192v1 [cs.CL])
+    Probe: Learning Users' Personalized Projection Bias in Intertemporal Bundle Choices. (arXiv:2303.06016v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2309.06192](http://arxiv.org/abs/2309.06192)
+    [http://arxiv.org/abs/2303.06016](http://arxiv.org/abs/2303.06016)
 
-    通过对新闻故事链的聚类，改进和评估了新闻推荐中信息碎片化的检测。研究结果对于衡量信息流的完整性和影响民主和公共讨论具有重要意义。
-
-    
-
-    新闻推荐系统在塑造民主社会中的信息获取方面扮演着越来越重要的角色。然而，将推荐针对用户的具体兴趣可能导致信息流的分歧。信息接触的碎片化对公共领域的完整性构成挑战，进而影响民主和公共讨论。碎片化指标量化了新闻推荐中信息流的碎片化程度。准确衡量该指标需要将自然语言处理（NLP）应用于识别不同的新闻事件、故事或时间线。本文对在新闻推荐中量化信息碎片化的各种方法进行了广泛调查。这些方法在新闻故事聚类的性能度量和不同模拟的新闻推荐场景下的碎片化评分评估中进行了评估。我们的研究发现。
-
-    News recommender systems play an increasingly influential role in shaping information access within democratic societies. However, tailoring recommendations to users' specific interests can result in the divergence of information streams. Fragmented access to information poses challenges to the integrity of the public sphere, thereby influencing democracy and public discourse. The Fragmentation metric quantifies the degree of fragmentation of information streams in news recommendations. Accurate measurement of this metric requires the application of Natural Language Processing (NLP) to identify distinct news events, stories, or timelines. This paper presents an extensive investigation of various approaches for quantifying Fragmentation in news recommendations. These approaches are evaluated both intrinsically, by measuring performance on news story clustering, and extrinsically, by assessing the Fragmentation scores of different simulated news recommender scenarios. Our findings demons
-    
-[^11]: CPMR: 基于上下文感知的增量顺序推荐与伪多任务学习
-
-    CPMR: Context-Aware Incremental Sequential Recommendation with Pseudo-Multi-Task Learning. (arXiv:2309.04802v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.04802](http://arxiv.org/abs/2309.04802)
-
-    CPMR是一个基于上下文感知的增量顺序推荐系统，通过创建静态嵌入、历史时间状态和上下文时间状态的三个表示，准确地建模了用户随时间变化的表示和兴趣动态的演化。
+    本文提出了一种新的偏差嵌入式偏好模型——Probe，旨在解决用户在时间跨度的购物选择中的投影偏差和参照点效应，提高决策的有效性和个性化。
 
     
 
-    用户进行互动的动机可以分为静态偏好和动态兴趣。为了准确地建模用户随时间变化的表示，最近的顺序推荐研究利用信息传播和演化从批量到达的互动中进行挖掘。然而，他们忽略了在上下文场景中人们很容易受到其他用户的最近行为的影响，并且在所有历史互动中应用演化会稀释最近互动的重要性，从而无法准确地建模兴趣动态的演化。为了解决这个问题，我们提出了一种基于上下文感知的伪多任务推荐系统（CPMR），通过为每个用户和项目创建三个表示（静态嵌入、历史时间状态和上下文时间状态），来建模历史和上下文情境中的演化。为了同时提高时间状态演化和增量推荐的性能。
+    时间跨度的选择需要权衡现在的成本和未来的收益。其中一种具体的选择是决定购买单个物品还是选择包含该物品的捆绑销售方式。以往的研究假设个人对这些选择中涉及的因素有准确的期望。然而，在现实中，用户对这些因素的感知往往存在偏差，导致了非理性和次优的决策。本文重点关注两种常见的偏差：投影偏差和参照点效应，并为此提出了一种新颖的偏差嵌入式偏好模型——Probe。该模型利用加权函数来捕捉用户的投影偏差，利用价值函数来考虑参照点效应，并引入行为经济学中的前景理论来组合加权和价值函数。这使得我们能够确定用户购买捆绑销售的概率，从而提高决策的有效性和个性化。
 
-    The motivations of users to make interactions can be divided into static preference and dynamic interest. To accurately model user representations over time, recent studies in sequential recommendation utilize information propagation and evolution to mine from batches of arriving interactions. However, they ignore the fact that people are easily influenced by the recent actions of other users in the contextual scenario, and applying evolution across all historical interactions dilutes the importance of recent ones, thus failing to model the evolution of dynamic interest accurately. To address this issue, we propose a Context-Aware Pseudo-Multi-Task Recommender System (CPMR) to model the evolution in both historical and contextual scenarios by creating three representations for each user and item under different dynamics: static embedding, historical temporal states, and contextual temporal states. To dually improve the performance of temporal states evolution and incremental recommenda
+    Intertemporal choices involve making decisions that require weighing the costs in the present against the benefits in the future. One specific type of intertemporal choice is the decision between purchasing an individual item or opting for a bundle that includes that item. Previous research assumes that individuals have accurate expectations of the factors involved in these choices. However, in reality, users' perceptions of these factors are often biased, leading to irrational and suboptimal decision-making. In this work, we specifically focus on two commonly observed biases: projection bias and the reference-point effect. To address these biases, we propose a novel bias-embedded preference model called Probe. The Probe incorporates a weight function to capture users' projection bias and a value function to account for the reference-point effect, and introduce prospect theory from behavioral economics to combine the weight and value functions. This allows us to determine the probabili
     
-[^12]: 图神经网络在推荐中的表达能力有多强？
+[^16]: 使用卷积块匹配分割算法进行音乐结构分析的应用
 
-    How Expressive are Graph Neural Networks in Recommendation?. (arXiv:2308.11127v1 [cs.IR])
+    Convolutive Block-Matching Segmentation Algorithm with Application to Music Structure Analysis. (arXiv:2210.15356v2 [cs.SD] UPDATED)
 
-    [http://arxiv.org/abs/2308.11127](http://arxiv.org/abs/2308.11127)
+    [http://arxiv.org/abs/2210.15356](http://arxiv.org/abs/2210.15356)
 
-    本文对图神经网络在推荐中的表达能力进行了理论分析，发现现有的表达能力度量标准可能无法有效评估模型在推荐中的能力，提出了一个全面的理论分析方法。
-
-    
-
-    图神经网络（GNNs）在各种图学习任务中展示了优越的性能，包括利用图中的用户-物品协作过滤信号进行推荐。然而，尽管它们在最先进的推荐模型中的经验有效性，但对于它们的能力的理论表述非常稀少。最近的研究探讨了GNNs的一般表达能力，证明了消息传递GNNs至多与Weisfeiler-Lehman测试一样强大，并且与随机节点初始化相结合的GNNs是通用的。然而，GNNs的“表达能力”概念仍然定义模糊。大多数现有的工作采用图同构测试作为表达能力的度量标准，但这种图级任务可能不能有效评估模型在推荐中区分不同接近程度节点的能力。在本文中，我们对GNNs在推荐中的表达能力进行了全面的理论分析。
-
-    Graph Neural Networks (GNNs) have demonstrated superior performance on various graph learning tasks, including recommendation, where they leverage user-item collaborative filtering signals in graphs. However, theoretical formulations of their capability are scarce, despite their empirical effectiveness in state-of-the-art recommender models. Recently, research has explored the expressiveness of GNNs in general, demonstrating that message passing GNNs are at most as powerful as the Weisfeiler-Lehman test, and that GNNs combined with random node initialization are universal. Nevertheless, the concept of "expressiveness" for GNNs remains vaguely defined. Most existing works adopt the graph isomorphism test as the metric of expressiveness, but this graph-level task may not effectively assess a model's ability in recommendation, where the objective is to distinguish nodes of different closeness. In this paper, we provide a comprehensive theoretical analysis of the expressiveness of GNNs in 
-    
-[^13]: 当基于大语言模型的智能体遇到用户行为分析：一种新颖的用户模拟范式
-
-    When Large Language Model based Agent Meets User Behavior Analysis: A Novel User Simulation Paradigm. (arXiv:2306.02552v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2306.02552](http://arxiv.org/abs/2306.02552)
-
-    从事用户行为分析的学术界一直面临着收集足够高质量用户行为数据的难题，一种解决方案是自动模拟用户行为，近期研究表明，利用大语言模型进行可靠的用户模拟有了重要的突破，将这种模型应用到用户行为分析研究中有着巨大潜力，可能对传统研究范式产生革命性影响。
+    本文介绍了一种新的卷积块匹配算法，用于音乐结构分析，通过计算自相似矩阵来达到与有监督方法相当的性能。
 
     
 
-    用户行为分析在以人为中心的AI应用中至关重要。然而，收集足够和高质量的用户行为数据一直是一个基本但具有挑战性的问题。为了解决这个问题，自动模拟用户行为是一个直观的想法。然而，由于人类认知过程的主观和复杂性质，可靠地模拟用户行为是困难的。最近，大语言模型（LLM）取得了显著的成功，展示了实现类似人类智能的巨大潜力。我们认为这些模型为可靠的用户模拟提供了重要机会，并有可能改变传统的用户行为分析研究范式。在本文中，我们以推荐系统为例，探索使用LLM进行用户模拟的潜力。具体而言，我们将每个用户视为基于LLM的自治智能体，并让不同智能体在虚拟环境中自由交流、行为和发展。
+    音乐结构分析（MSA）包括将一首歌曲划分为不同的部分（如“副歌”，“诗歌”，“独奏”等），可以看作是寻找歌曲的简化组织。本文提出了一种新的算法，称为卷积块匹配（CBM）算法，专门用于MSA。具体而言，CBM算法是一种动态规划算法，应用于自相似矩阵，这是MSA中的一种标准工具。在这项工作中，自相似矩阵是从音频信号的特征表示中计算出来的，时间根据小节刻度进行采样。我们研究了三种不同的相似度函数来计算自相似矩阵。我们报告了所提出的算法在4个指标中有3个指标上的性能与有监督的最先进方法相当，同时它是无监督的。
 
-    User behavior analysis is crucial in human-centered AI applications. In this field, the collection of sufficient and high-quality user behavior data has always been a fundamental yet challenging problem. An intuitive idea to address this problem is automatically simulating the user behaviors. However, due to the subjective and complex nature of human cognitive processes, reliably simulating the user behavior is difficult. Recently, large language models (LLM) have obtained remarkable successes, showing great potential to achieve human-like intelligence. We argue that these models present significant opportunities for reliable user simulation, and have the potential to revolutionize traditional study paradigms in user behavior analysis. In this paper, we take recommender system as an example to explore the potential of using LLM for user simulation. Specifically, we regard each user as an LLM-based autonomous agent, and let different agents freely communicate, behave and evolve in a vir
+    Music Structure Analysis (MSA) consists of representing a song in sections (such as ``chorus'', ``verse'', ``solo'' etc), and can be seen as the retrieval of a simplified organization of the song. This work presents a new algorithm, called Convolutive Block-Matching (CBM) algorithm, devoted to MSA. In particular, the CBM algorithm is a dynamic programming algorithm, applying on autosimilarity matrices, a standard tool in MSA. In this work, autosimilarity matrices are computed from the feature representation of an audio signal, and time is sampled on the barscale. We study three different similarity functions for the computation of autosimilarity matrices. We report that the proposed algorithm achieves a level of performance competitive to that of supervised State-of-the-Art methods on 3 among 4 metrics, while being unsupervised.
     
-[^14]: 在动态语料库上持续更新生成检索
+[^17]: 将知识从记忆中解耦：检索增强的提示学习
 
-    Continually Updating Generative Retrieval on Dynamic Corpora. (arXiv:2305.18952v2 [cs.IR] UPDATED)
+    Decoupling Knowledge from Memorization: Retrieval-augmented Prompt Learning. (arXiv:2205.14704v4 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.18952](http://arxiv.org/abs/2305.18952)
+    [http://arxiv.org/abs/2205.14704](http://arxiv.org/abs/2205.14704)
 
-    本文研究了动态语料库上的生成检索。实验结果表明，在静态设置下，生成检索效果优于双编码器，但在动态设置下情况相反。通过使用参数高效的预训练方法，我们的模型DynamicGR在新的语料库上展现出了意外的性能。
-
-    
-
-    先前关于信息检索(IR)的大多数研究假设语料库是静态的，而实际世界中的文档是不断更新的。本文将知识的动态性引入检索系统中，将检索视为动态的知识库，更符合真实环境。我们对双编码器和生成检索进行全面评估，利用StreamingQA基准测试用于时态知识更新。我们的初步结果显示，在静态设置下，生成检索优于双编码器，但在动态设置下情况相反。然而，令人惊讶的是，当我们利用参数高效的预训练方法增强生成检索对新语料库的适应性时，我们的模型Dynamic Generative Retrieval (DynamicGR)展现出意外的发现。它能够在其内部索引中高效压缩新的知识，
-
-    The majority of prior work on information retrieval (IR) assumes that the corpus is static, whereas in the real world, the documents are continually updated. In this paper, we incorporate often overlooked dynamic nature of knowledge into the retrieval systems. Our work treats retrieval not as static archives but as dynamic knowledge bases better aligned with real-world environments. We conduct a comprehensive evaluation of dual encoders and generative retrieval, utilizing the StreamingQA benchmark designed for the temporal knowledge updates. Our initial results show that while generative retrieval outperforms dual encoders in static settings, the opposite is true in dynamic settings. Surprisingly, however, when we utilize a parameter-efficient pre-training method to enhance adaptability of generative retrieval to new corpora, our resulting model, Dynamic Generative Retrieval (DynamicGR), exhibits unexpected findings. It (1) efficiently compresses new knowledge in their internal index, 
-    
-[^15]: 适用于所有领域的一个模型：基于协作域前缀调整的跨领域实体识别
-
-    One Model for All Domains: Collaborative Domain-Prefix Tuning for Cross-Domain NER. (arXiv:2301.10410v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2301.10410](http://arxiv.org/abs/2301.10410)
-
-    本论文提出了基于协作域前缀调整的跨领域实体识别，使用文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务，避免了先前的为每个领域结束一个全新的NER模型的问题。
+    本论文提出了一种检索增强的提示学习方法，通过将知识从记忆中解耦，帮助模型在泛化和记忆之间取得平衡。
 
     
 
-    解决实际场景中低资源问题是跨领域实体识别的一个挑战性任务。先前典型的解决方案主要通过使用来自丰富资源领域的数据进行预训练语言模型(PLMs)获得NER模型并将其适应于目标领域。由于不同领域实体类型之间的不匹配问题，先前的方法通常调整所有PLMs的参数，从而为每个领域结束一个全新的NER模型。此外，当前的模型只关注于利用一个普通来源领域中的知识，而未能成功地将来自多个来源领域的知识转移到目标上。为了解决这些问题，我们基于文本到文本生成的PLM引入了协作域前缀调整跨领域NER(CP-NER)。具体来说，我们呈现了用于文本到文本生成的支撑领域相关指导来将知识转移至新域NER任务而无需结构修改。我们利用冻结的PLMs并进行协作域前缀调整。
+    提示学习方法在自然语言处理领域取得了显著的突破，提高了少样本学习的性能，但仍然遵循参数化学习范式；在学习过程中，遗忘和机械记忆问题可能导致不稳定的泛化问题。为了缓解这些限制，我们开发了RetroPrompt，旨在从记忆中将知识解耦，帮助模型在泛化和记忆之间取得平衡。与传统的提示学习方法相比，RetroPrompt从训练实例构建了一个开放式知识库，并在输入、训练和推断过程中实施检索机制，使模型具备了从训练语料库中检索相关上下文用于增强的能力。大量实验证明了RetroPrompt的效果。
 
-    Cross-domain NER is a challenging task to address the low-resource problem in practical scenarios. Previous typical solutions mainly obtain a NER model by pre-trained language models (PLMs) with data from a rich-resource domain and adapt it to the target domain. Owing to the mismatch issue among entity types in different domains, previous approaches normally tune all parameters of PLMs, ending up with an entirely new NER model for each domain. Moreover, current models only focus on leveraging knowledge in one general source domain while failing to successfully transfer knowledge from multiple sources to the target. To address these issues, we introduce Collaborative Domain-Prefix Tuning for cross-domain NER (CP-NER) based on text-to-text generative PLMs. Specifically, we present text-to-text generation grounding domain-related instructors to transfer knowledge to new domain NER tasks without structural modifications. We utilize frozen PLMs and conduct collaborative domain-prefix tuning
+    Prompt learning approaches have made waves in natural language processing by inducing better few-shot performance while they still follow a parametric-based learning paradigm; the oblivion and rote memorization problems in learning may encounter unstable generalization issues. Specifically, vanilla prompt learning may struggle to utilize atypical instances by rote during fully-supervised training or overfit shallow patterns with low-shot data. To alleviate such limitations, we develop RetroPrompt with the motivation of decoupling knowledge from memorization to help the model strike a balance between generalization and memorization. In contrast with vanilla prompt learning, RetroPrompt constructs an open-book knowledge-store from training instances and implements a retrieval mechanism during the process of input, training and inference, thus equipping the model with the ability to retrieve related contexts from the training corpus as cues for enhancement. Extensive experiments demonstra
     
-[^16]: 使用语言模型提示进行推理：一项调查
+[^18]: 关系抽取作为开书考试：检索增强的提示调优
 
-    Reasoning with Language Model Prompting: A Survey. (arXiv:2212.09597v2 [cs.CL] UPDATED)
+    Relation Extraction as Open-book Examination: Retrieval-enhanced Prompt Tuning. (arXiv:2205.02355v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2212.09597](http://arxiv.org/abs/2212.09597)
+    [http://arxiv.org/abs/2205.02355](http://arxiv.org/abs/2205.02355)
 
-    本文提供了使用语言模型提示进行推理的前沿研究综合调查。讨论了新兴推理能力出现的潜在原因，并提供系统资源帮助初学者。
-
-    
-
-    推理作为复杂问题解决的重要能力，可以为医疗诊断、谈判等各种实际应用提供后端支持。本文对使用语言模型提示进行推理的前沿研究进行了综合调查。我们介绍了研究成果的比较和总结，并提供了系统资源以帮助初学者。我们还讨论了新兴推理能力出现的潜在原因，并突出了未来的研究方向。资源可在 https://github.com/zjunlp/Prompt4ReasoningPapers 上获取（定期更新）。
-
-    Reasoning, as an essential ability for complex problem-solving, can provide back-end support for various real-world applications, such as medical diagnosis, negotiation, etc. This paper provides a comprehensive survey of cutting-edge research on reasoning with language model prompting. We introduce research works with comparisons and summaries and provide systematic resources to help beginners. We also discuss the potential reasons for emerging such reasoning abilities and highlight future research directions. Resources are available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated periodically).
-    
-[^17]: 生成式知识图谱构建综述
-
-    Generative Knowledge Graph Construction: A Review. (arXiv:2210.12714v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2210.12714](http://arxiv.org/abs/2210.12714)
-
-    本文综述了生成式知识图谱构建领域的最新进展，包括方法分类和优劣分析，并提出了未来的研究方向。
+    提出了一种新的半参数学习范式，即检索增强的提示调优，用于关系抽取。通过构建开放式存储库，并使用线性插值的方式，模型能够在推断过程中根据存储库中的记忆信息推断关系。
 
     
 
-    生成式知识图谱构建（KGC）是指利用序列到序列框架构建灵活且可适用于广泛任务的知识图谱。本研究总结了生成式知识图谱构建领域中近期的重要进展，对不同的生成目标从理论和实证分析角度分别讨论了各种方法的优势和不足，并提出了未来有潜力的研究方向。我们的贡献有三个方面：（1）我们提供了生成式KGC方法的详细、完整的分类体系；（2）我们对生成式KGC方法进行了理论和实证分析；（3）我们提出了几个未来可以发展的研究方向。
+    预训练语言模型通过展示出卓越的少样本学习能力，在关系抽取方面做出了重要贡献。然而，关系抽取的提示调优方法可能仍然无法推广到那些罕见或困难的模式中。我们将关系抽取视为一种开放式考试，并提出了一种新的检索增强的提示调优的半参数学习范式。我们构建了一个开放式存储库，用于检索基于提示的实例表示和相应的关系标签作为记忆的键值对。在推断过程中，模型可以通过线性插值基于PLM的基本输出与存储库上的非参数最近邻分布来推断关系。
 
-    Generative Knowledge Graph Construction (KGC) refers to those methods that leverage the sequence-to-sequence framework for building knowledge graphs, which is flexible and can be adapted to widespread tasks. In this study, we summarize the recent compelling progress in generative knowledge graph construction. We present the advantages and weaknesses of each paradigm in terms of different generation targets and provide theoretical insight and empirical analysis. Based on the review, we suggest promising research directions for the future. Our contributions are threefold: (1) We present a detailed, complete taxonomy for the generative KGC methods; (2) We provide a theoretical and empirical analysis of the generative KGC methods; (3) We propose several research directions that can be developed in the future.
+    Pre-trained language models have contributed significantly to relation extraction by demonstrating remarkable few-shot learning abilities. However, prompt tuning methods for relation extraction may still fail to generalize to those rare or hard patterns. Note that the previous parametric learning paradigm can be viewed as memorization regarding training data as a book and inference as the close-book test. Those long-tailed or hard patterns can hardly be memorized in parameters given few-shot instances. To this end, we regard RE as an open-book examination and propose a new semiparametric paradigm of retrieval-enhanced prompt tuning for relation extraction. We construct an open-book datastore for retrieval regarding prompt-based instance representations and corresponding relation labels as memorized key-value pairs. During inference, the model can infer relations by linearly interpolating the base output of PLM with the non-parametric nearest neighbor distribution over the datastore. In
     
-[^18]: 以架构感知参考作为提示提高了数据有效的知识图谱构建
+[^19]: 面向预训练语言模型的对比演示调优
 
-    Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction. (arXiv:2210.10709v4 [cs.CL] UPDATED)
+    Contrastive Demonstration Tuning for Pre-trained Language Models. (arXiv:2204.04392v4 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2210.10709](http://arxiv.org/abs/2210.10709)
+    [http://arxiv.org/abs/2204.04392](http://arxiv.org/abs/2204.04392)
 
-    提出了一种以检索增强的架构感知参考作为提示的方法，可动态利用人类注释和弱监督数据所继承的架构和知识，指导生成具有更好语义连贯性和一致性的结构化知识，从而在数据效率和知识质量方面具有优越性。
-
-    
-
-    随着预训练语言模型的发展，许多基于提示的方法被提出并在数据有效的知识图谱构建中取得了令人瞩目的表现。然而，现有的基于提示的学习方法仍存在几个潜在的限制：（i）自然语言和预定义模式的输出结构化知识之间的语义差距，这意味着模型无法充分利用受限模板的语义知识；（ii）基于局部个体实例的表示学习限制了性能，给定了不充足的特征，这些特征不能释放预先训练语言模型的潜在类比能力。受这些观察的启发，我们提出了一种检索增强的方法，使用检索得到的架构感知参考作为提示，提高了数据有效的知识图谱构建的语义连贯性和一致性。在两个标准数据集上的实验结果表明，相比现有的基于提示和非提示的方法，我们提出的方法在数据效率和知识质量方面具有优越性。
-
-    With the development of pre-trained language models, many prompt-based approaches to data-efficient knowledge graph construction have been proposed and achieved impressive performance. However, existing prompt-based learning methods for knowledge graph construction are still susceptible to several potential limitations: (i) semantic gap between natural language and output structured knowledge with pre-defined schema, which means model cannot fully exploit semantic knowledge with the constrained templates; (ii) representation learning with locally individual instances limits the performance given the insufficient features, which are unable to unleash the potential analogical capability of pre-trained language models. Motivated by these observations, we propose a retrieval-augmented approach, which retrieves schema-aware Reference As Prompt (RAP), for data-efficient knowledge graph construction. It can dynamically leverage schema and knowledge inherited from human-annotated and weak-supe
-    
-[^19]: 实现真实低资源关系抽取: 针对具有实证基准研究的论文
-
-    Towards Realistic Low-resource Relation Extraction: A Benchmark with Empirical Baseline Study. (arXiv:2210.10678v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2210.10678](http://arxiv.org/abs/2210.10678)
-
-    本文针对低资源环境中的关系抽取进行了实证研究，并提出了三种方案来提高性能，包括使用提示方法、平衡方法和数据增强技术。通过对8个关系抽取数据集的广泛比较，实验结果表明，虽然基于提示的调整有益于低资源关系抽取，但仍有改进空间，尤其是跨句子上下文中的多个关系三元组的抽取。
+    本论文提出了一种名为对比演示调优的方法，可以在低数据场景下有效激发预训练语言模型的能力。实验结果表明，该方法与先前的提示调优方法相结合可以取得更好的性能。
 
     
 
-    本文提出了一项针对低资源环境中构建关系抽取系统的实证研究。基于最近的预训练语言模型，我们全面调查了三种方案来评估低资源环境下的性能：(i) 使用少量标记数据的不同类型的提示方法； (ii) 多样化的平衡方法来解决长尾分布问题； (iii) 数据增强技术和自训练来生成更多领域内标记数据。我们创建了一个包含8个关系抽取(RE) 数据集的基准，涵盖了不同的语言、领域和上下文，并对所提出的方案进行了广泛的比较。我们的实验证明：(i) 虽然基于提示的调整在低资源关系抽取中是有益的，但仍有很大的改进潜力，特别是在提取跨句子上下文中的多个关系三元组方面； (ii) 平衡方法并不总是有助于长尾分布的关系抽取。
+    在低数据场景中，使用文本提示或演示可以有效地激发预训练语言模型的能力。最近的研究主要集中在自动搜索离散或连续提示或优化语言表达者，但对于演示的研究仍然有限。具体来说，演示示例对于最终的提示调优性能至关重要。本文提出了一种新颖的可插拔、可扩展和高效的方法，称为对比演示调优，它不需要进行演示采样。此外，该方法能够：（i）嵌入到任何先前的提示调优方法中；（ii）扩展到具有大量类别的广泛分类任务中。在16个数据集上的实验结果表明，我们的方法与先前的LM-BFF和P-tuning方法相结合可以得到更好的性能。代码可在https://github.com/zjunlp/PromptKG/tree/main/research/Demo-Tuning中获得。
 
-    This paper presents an empirical study to build relation extraction systems in low-resource settings. Based upon recent pre-trained language models, we comprehensively investigate three schemes to evaluate the performance in low-resource settings: (i) different types of prompt-based methods with few-shot labeled data; (ii) diverse balancing methods to address the long-tailed distribution issue; (iii) data augmentation technologies and self-training to generate more labeled in-domain data. We create a benchmark with 8 relation extraction (RE) datasets covering different languages, domains and contexts and perform extensive comparisons over the proposed schemes with combinations. Our experiments illustrate: (i) Though prompt-based tuning is beneficial in low-resource RE, there is still much potential for improvement, especially in extracting relations from cross-sentence contexts with multiple relational triples; (ii) Balancing methods are not always helpful for RE with long-tailed distr
+    Pretrained language models can be effectively stimulated by textual prompts or demonstrations, especially in low-data scenarios. Recent works have focused on automatically searching discrete or continuous prompts or optimized verbalizers, yet studies for the demonstration are still limited. Concretely, the demonstration examples are crucial for an excellent final performance of prompt-tuning. In this paper, we propose a novel pluggable, extensible, and efficient approach named contrastive demonstration tuning, which is free of demonstration sampling. Furthermore, the proposed approach can be: (i) Plugged into any previous prompt-tuning approaches; (ii) Extended to widespread classification tasks with a large number of categories. Experimental results on 16 datasets illustrate that our method integrated with previous approaches LM-BFF and P-tuning can yield better performance. Code is available in https://github.com/zjunlp/PromptKG/tree/main/research/Demo-Tuning.
     
-[^20]: 纵向推荐中用户和物品视角的双重对比网络
+[^20]: D-HAN: 动态新闻推荐模型与分层注意力网络
 
-    Dual Contrastive Network for Sequential Recommendation with User and Item-Centric Perspectives. (arXiv:2209.08446v3 [cs.IR] UPDATED)
+    D-HAN: Dynamic News Recommendation with Hierarchical Attention Network. (arXiv:2112.10085v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2209.08446](http://arxiv.org/abs/2209.08446)
+    [http://arxiv.org/abs/2112.10085](http://arxiv.org/abs/2112.10085)
 
-    本文提出了一种新颖的双重对比网络（DCN），通过两个组件充分利用了用户和物品两个视角，以生成地面真实的自监督信号，解决了随机屏蔽历史物品带来的序列稀疏性和不可靠信号的问题。实验结果表明，在三个真实数据集上，我们的方法优于当前最先进的纵向推荐方法。
-
-    
-
-    随着流媒体数据的爆发，纵向推荐成为实现时间感知个性化建模的一种有前途的解决方案。本文提出了一种新颖的双重对比网络（DCN），通过两个组件——基于用户的对比学习和基于物品的对比学习，充分利用了用户和物品两个视角，以生成地面真实的自监督信号，解决了随机屏蔽历史物品带来的序列稀疏性和不可靠信号的问题。实验结果表明，在三个真实数据集上，我们的方法优于当前最先进的纵向推荐方法。
-
-    With the outbreak of today's streaming data, the sequential recommendation is a promising solution to achieve time-aware personalized modeling. It aims to infer the next interacted item of a given user based on the history item sequence. Some recent works tend to improve the sequential recommendation via random masking on the history item so as to generate self-supervised signals. But such approaches will indeed result in sparser item sequence and unreliable signals. Besides, the existing sequential recommendation models are only user-centric, i.e., based on the historical items by chronological order to predict the probability of candidate items, which ignores whether the items from a provider can be successfully recommended. Such user-centric recommendation will make it impossible for the provider to expose their new items and result in popular bias.  In this paper, we propose a novel Dual Contrastive Network (DCN) to generate ground-truth self-supervised signals for sequential recom
-    
-[^21]: DeepKE: 一种基于深度学习的知识提取工具包用于知识库构建
-
-    DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge Base Population. (arXiv:2201.03335v6 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2201.03335](http://arxiv.org/abs/2201.03335)
-
-    DeepKE是一个基于深度学习的知识提取工具包，支持复杂的低资源、文档级和多模态场景，可用于自定义数据集和模型来从非结构化数据中提取信息。
+    D-HAN是一种动态新闻推荐模型，采用分层注意力网络将连续时间信息无缝整合，有效表示新闻信息，并引入动态负采样方法优化用户的隐式反馈。
 
     
 
-    我们提出了一个开放源代码和可扩展的知识提取工具包DeepKE，支持知识库构建中的复杂低资源、文档级和多模态场景。DeepKE实现了各种信息提取任务，包括命名实体识别、关系提取和属性提取。通过统一的框架，DeepKE允许开发人员和研究人员根据自己的需求定制数据集和模型，从非结构化数据中提取信息。具体而言，DeepKE不仅为不同任务和场景提供各种功能模块和模型实现，还通过一致的框架组织所有组件，以保持足够的模块化和可扩展性。我们在https://github.com/zjunlp/DeepKE发布了源代码，并提供了适用于初学者的Google Colab教程和全面的文档。此外，我们还在http URL上提供了一个在线系统，用于实时提取各种任务，并提供了演示视频。
+    由于静态的用户新闻交互方式，新闻推荐模型往往难以准确捕捉用户的偏好。为了解决这个问题，我们提出了一种新颖的动态新闻推荐模型，它能够无缝地将连续时间信息整合到分层注意力网络中，有效地表示句子、元素和序列级别的新闻信息。此外，我们引入了一种动态负采样方法来优化用户的隐式反馈。为了验证我们模型的有效性，我们在三个实际数据集上进行了大量实验，结果证明了我们提出的方法的有效性。
 
-    We present an open-source and extensible knowledge extraction toolkit DeepKE, supporting complicated low-resource, document-level and multimodal scenarios in the knowledge base population. DeepKE implements various information extraction tasks, including named entity recognition, relation extraction and attribute extraction. With a unified framework, DeepKE allows developers and researchers to customize datasets and models to extract information from unstructured data according to their requirements. Specifically, DeepKE not only provides various functional modules and model implementation for different tasks and scenarios but also organizes all components by consistent frameworks to maintain sufficient modularity and extensibility. We release the source code at GitHub in https://github.com/zjunlp/DeepKE with Google Colab tutorials and comprehensive documents for beginners. Besides, we present an online system in this http URL for real-time extraction of various tasks, and a demo video
+    News recommendation models often fall short in capturing users' preferences due to their static approach to user-news interactions. To address this limitation, we present a novel dynamic news recommender model that seamlessly integrates continuous time information to a hierarchical attention network that effectively represents news information at the sentence, element, and sequence levels. Moreover, we introduce a dynamic negative sampling method to optimize users' implicit feedback. To validate our model's effectiveness, we conduct extensive experiments on three real-world datasets. The results demonstrate the effectiveness of our proposed approach.
     
-[^22]: KnowPrompt：具有协同优化的知识感知提示调整在关系抽取中的应用
+[^21]: 研究ResearchGate的社区检测方法分析
 
-    KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction. (arXiv:2104.07650v7 [cs.CL] UPDATED)
+    Analysis of ResearchGate, A Community Detection Approach. (arXiv:2003.05591v3 [cs.SI] UPDATED)
 
-    [http://arxiv.org/abs/2104.07650](http://arxiv.org/abs/2104.07650)
+    [http://arxiv.org/abs/2003.05591](http://arxiv.org/abs/2003.05591)
 
-    本文提出了一种名为KnowPrompt的知识感知提示调整方法，通过将关系标签中的潜在知识融入到提示构建中，并通过协同优化的方式，提高了关系抽取任务的性能。
+    这项研究利用网络科学方法分析了ResearchGate社区，并发现了地理位置和民族属性对学术协作网络的建立和科研产出流程具有重要影响。这有助于促进学术研究的发展。
 
     
 
-    最近，对于特定的少样本分类任务，使用提示调整方法取得了有希望的结果。提示调整的核心思想是将文本片段（即模板）插入输入，并将分类任务转化为掩码语言建模问题。然而，对于关系抽取，确定一个合适的提示模板需要领域专业知识，获取合适的标签词是繁琐且耗时的。此外，关系标签之间存在丰富的语义和先验知识，不容忽视。因此，我们的研究着眼于将关系标签之间的知识融入到关系抽取的提示调整中，并提出了一种具有协同优化的知识感知提示调整方法（KnowPrompt）。具体而言，我们利用可学习的虚拟类型词和答案词将关系标签中的潜在知识融入到提示构建中。然后，我们通过结构化约束协同优化它们的表示。
+    我们正处于数据时代。在科学网络中的交流为希望在这些巨大的知识库中发现隐藏模式的研究人员创造了新的机会。本研究利用网络科学方法创建了伊朗科学机构的协作网络，并应用基于模块性的方法来发现网络社区。分析协作网络对于理解科研产出流程至关重要。我们的研究结果表明，地理位置的亲近性和民族属性在学术协作网络的建立中起着重要作用。此外，研究还显示伊朗首都德黑兰的著名科研中心对科研活动的产出流程具有强大影响力。这些学术论文主要被美国、中国、印度和伊朗浏览和下载。本研究的动机在于通过发现网络中的隐藏社区并找到机构间的结构，从而促进学术研究的发展。
 
-    Recently, prompt-tuning has achieved promising results for specific few-shot classification tasks. The core idea of prompt-tuning is to insert text pieces (i.e., templates) into the input and transform a classification task into a masked language modeling problem. However, for relation extraction, determining an appropriate prompt template requires domain expertise, and it is cumbersome and time-consuming to obtain a suitable label word. Furthermore, there exists abundant semantic and prior knowledge among the relation labels that cannot be ignored. To this end, we focus on incorporating knowledge among relation labels into prompt-tuning for relation extraction and propose a Knowledge-aware Prompt-tuning approach with synergistic optimization (KnowPrompt). Specifically, we inject latent knowledge contained in relation labels into prompt construction with learnable virtual type words and answer words. Then, we synergistically optimize their representation with structured constraints. Ex
+    We are living in the data age. Communications over scientific networks creates new opportunities for researchers who aim to discover the hidden pattern in these huge repositories. This study utilizes network science to create collaboration network of Iranian Scientific Institutions. A modularity-based approach applied to find network communities. To reach a big picture of science production flow, analysis of the collaboration network is crucial. Our results demonstrated that geographic location closeness and ethnic attributes has important roles in academic collaboration network establishment. Besides, it shows that famous scientific centers in the capital city of Iran, Tehran has strong influence on the production flow of scientific activities. These academic papers are mostly viewed and downloaded from the United State of America, China, India, and Iran. The motivation of this research is that by discovering hidden communities in the network and finding the structure of intuitions co
     
 

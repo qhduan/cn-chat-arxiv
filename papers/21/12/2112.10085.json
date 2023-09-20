@@ -1,0 +1,12 @@
+{
+    "title": "D-HAN: Dynamic News Recommendation with Hierarchical Attention Network. (arXiv:2112.10085v2 [cs.IR] UPDATED)",
+    "abstract": "News recommendation models often fall short in capturing users' preferences due to their static approach to user-news interactions. To address this limitation, we present a novel dynamic news recommender model that seamlessly integrates continuous time information to a hierarchical attention network that effectively represents news information at the sentence, element, and sequence levels. Moreover, we introduce a dynamic negative sampling method to optimize users' implicit feedback. To validate our model's effectiveness, we conduct extensive experiments on three real-world datasets. The results demonstrate the effectiveness of our proposed approach.",
+    "link": "http://arxiv.org/abs/2112.10085",
+    "context": "Title: D-HAN: Dynamic News Recommendation with Hierarchical Attention Network. (arXiv:2112.10085v2 [cs.IR] UPDATED)\nAbstract: News recommendation models often fall short in capturing users' preferences due to their static approach to user-news interactions. To address this limitation, we present a novel dynamic news recommender model that seamlessly integrates continuous time information to a hierarchical attention network that effectively represents news information at the sentence, element, and sequence levels. Moreover, we introduce a dynamic negative sampling method to optimize users' implicit feedback. To validate our model's effectiveness, we conduct extensive experiments on three real-world datasets. The results demonstrate the effectiveness of our proposed approach.",
+    "path": "papers/21/12/2112.10085.json",
+    "total_tokens": 683,
+    "translated_title": "D-HAN: 动态新闻推荐模型与分层注意力网络",
+    "translated_abstract": "由于静态的用户新闻交互方式，新闻推荐模型往往难以准确捕捉用户的偏好。为了解决这个问题，我们提出了一种新颖的动态新闻推荐模型，它能够无缝地将连续时间信息整合到分层注意力网络中，有效地表示句子、元素和序列级别的新闻信息。此外，我们引入了一种动态负采样方法来优化用户的隐式反馈。为了验证我们模型的有效性，我们在三个实际数据集上进行了大量实验，结果证明了我们提出的方法的有效性。",
+    "tldr": "D-HAN是一种动态新闻推荐模型，采用分层注意力网络将连续时间信息无缝整合，有效表示新闻信息，并引入动态负采样方法优化用户的隐式反馈。",
+    "en_tdlr": "D-HAN is a dynamic news recommender model that integrates continuous time information using a hierarchical attention network, effectively representing news information and optimizing users' implicit feedback with a dynamic negative sampling method."
+}

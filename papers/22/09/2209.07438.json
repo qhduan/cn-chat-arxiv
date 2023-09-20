@@ -1,0 +1,12 @@
+{
+    "title": "On the Dissipation of Ideal Hamiltonian Monte Carlo Sampler. (arXiv:2209.07438v3 [stat.CO] UPDATED)",
+    "abstract": "We report on what seems to be an intriguing connection between variable integration time and partial velocity refreshment of Ideal Hamiltonian Monte Carlo samplers, both of which can be used for reducing the dissipative behavior of the dynamics. More concretely, we show that on quadratic potentials, efficiency can be improved through these means by a $\\sqrt{\\kappa}$ factor in Wasserstein-2 distance, compared to classical constant integration time, fully refreshed HMC. We additionally explore the benefit of randomized integrators for simulating the Hamiltonian dynamics under higher order regularity conditions.",
+    "link": "http://arxiv.org/abs/2209.07438",
+    "context": "Title: On the Dissipation of Ideal Hamiltonian Monte Carlo Sampler. (arXiv:2209.07438v3 [stat.CO] UPDATED)\nAbstract: We report on what seems to be an intriguing connection between variable integration time and partial velocity refreshment of Ideal Hamiltonian Monte Carlo samplers, both of which can be used for reducing the dissipative behavior of the dynamics. More concretely, we show that on quadratic potentials, efficiency can be improved through these means by a $\\sqrt{\\kappa}$ factor in Wasserstein-2 distance, compared to classical constant integration time, fully refreshed HMC. We additionally explore the benefit of randomized integrators for simulating the Hamiltonian dynamics under higher order regularity conditions.",
+    "path": "papers/22/09/2209.07438.json",
+    "total_tokens": 723,
+    "translated_title": "关于理想哈密顿蒙特卡罗采样器耗散性的研究",
+    "translated_abstract": "我们报告了变量积分时间和理想哈密顿蒙特卡罗采样器的部分速度刷新之间似乎存在着有趣的联系，这两者都可以用于减少动力学的耗散行为。更具体地说，我们表明在二次势函数上，通过这些手段，与经典的常量积分时间、完全刷新的HMC相比，效率可以提高一个$\\sqrt{\\kappa}$的Wasserstein-2距离因子。我们还探索了在更高阶正则性条件下模拟哈密顿动力学的随机积分器的优势。",
+    "tldr": "通过变量积分时间和部分速度刷新，理想哈密顿蒙特卡罗采样器在二次势函数上的效率得到了提高，并且随机积分器在模拟哈密顿动力学上也具有优势。",
+    "en_tdlr": "The dissipation of Ideal Hamiltonian Monte Carlo samplers can be reduced by using variable integration time and partial velocity refreshment, leading to improved efficiency on quadratic potentials. Additionally, randomized integrators show benefits in simulating Hamiltonian dynamics under higher regularity conditions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "How to Data in Datathons. (arXiv:2309.09770v2 [cs.AI] UPDATED)",
+    "abstract": "The rise of datathons, also known as data or data science hackathons, has provided a platform to collaborate, learn, and innovate in a short timeframe. Despite their significant potential benefits, organizations often struggle to effectively work with data due to a lack of clear guidelines and best practices for potential issues that might arise. Drawing on our own experiences and insights from organizing >80 datathon challenges with >60 partnership organizations since 2016, we provide guidelines and recommendations that serve as a resource for organizers to navigate the data-related complexities of datathons. We apply our proposed framework to 10 case studies.",
+    "link": "http://arxiv.org/abs/2309.09770",
+    "context": "Title: How to Data in Datathons. (arXiv:2309.09770v2 [cs.AI] UPDATED)\nAbstract: The rise of datathons, also known as data or data science hackathons, has provided a platform to collaborate, learn, and innovate in a short timeframe. Despite their significant potential benefits, organizations often struggle to effectively work with data due to a lack of clear guidelines and best practices for potential issues that might arise. Drawing on our own experiences and insights from organizing >80 datathon challenges with >60 partnership organizations since 2016, we provide guidelines and recommendations that serve as a resource for organizers to navigate the data-related complexities of datathons. We apply our proposed framework to 10 case studies.",
+    "path": "papers/23/09/2309.09770.json",
+    "total_tokens": 667,
+    "translated_title": "如何在数据马拉松中处理数据",
+    "translated_abstract": "数据马拉松的兴起提供了一个在短时间内合作、学习和创新的平台。尽管它们具有重要的潜在好处，但组织往往因缺乏明确的指导方针和最佳实践而难以有效处理数据。根据我们自己的经验以及自2016年以来组织了超过80个数据马拉松挑战赛与60个合作伙伴组织的见解，我们提供了指导方针和建议，作为组织者在处理数据相关复杂性时的资源。我们将我们提出的框架应用于10个案例研究。",
+    "tldr": "本文提供了关于如何处理数据马拉松中的数据的指导方针和建议，通过10个案例研究验证了提出的框架的有效性。",
+    "en_tdlr": "This paper provides guidelines and recommendations for handling data in datathons, with a proposed framework validated through 10 case studies."
+}

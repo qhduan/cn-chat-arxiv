@@ -1,0 +1,11 @@
+{
+    "title": "An Evaluation of GPT-4 on the ETHICS Dataset. (arXiv:2309.10492v1 [cs.CL])",
+    "abstract": "This report summarizes a short study of the performance of GPT-4 on the ETHICS dataset. The ETHICS dataset consists of five sub-datasets covering different fields of ethics: Justice, Deontology, Virtue Ethics, Utilitarianism, and Commonsense Ethics. The moral judgments were curated so as to have a high degree of agreement with the aim of representing shared human values rather than moral dilemmas. GPT-4's performance is much better than that of previous models and suggests that learning to work with common human values is not the hard problem for AI ethics.",
+    "link": "http://arxiv.org/abs/2309.10492",
+    "context": "Title: An Evaluation of GPT-4 on the ETHICS Dataset. (arXiv:2309.10492v1 [cs.CL])\nAbstract: This report summarizes a short study of the performance of GPT-4 on the ETHICS dataset. The ETHICS dataset consists of five sub-datasets covering different fields of ethics: Justice, Deontology, Virtue Ethics, Utilitarianism, and Commonsense Ethics. The moral judgments were curated so as to have a high degree of agreement with the aim of representing shared human values rather than moral dilemmas. GPT-4's performance is much better than that of previous models and suggests that learning to work with common human values is not the hard problem for AI ethics.",
+    "path": "papers/23/09/2309.10492.json",
+    "total_tokens": 694,
+    "translated_title": "对GPT-4在ETHICS数据集上的评估",
+    "translated_abstract": "本报告总结了对GPT-4在ETHICS数据集上性能的短期研究。ETHICS数据集包含五个分数据集，涵盖了伦理学的不同领域：正义、道德、德性伦理学、功利主义和常识伦理学。这些道德判断被精选，以尽可能高的一致性来代表共享的人类价值观，而不是道德困境。GPT-4的表现比之前的模型好得多，表明AI伦理中与共同人类价值观的合作学习并不是一个难题。",
+    "tldr": "本研究评估了GPT-4在ETHICS数据集上的性能，结果表明GPT-4的表现优于之前的模型，表明AI伦理中与共同人类价值观的合作学习并不是一个难题。"
+}

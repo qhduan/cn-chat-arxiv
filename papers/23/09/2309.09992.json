@@ -1,0 +1,12 @@
+{
+    "title": "OpenAI Cribbed Our Tax Example, But Can GPT-4 Really Do Tax?. (arXiv:2309.09992v1 [cs.AI])",
+    "abstract": "The authors explain where OpenAI got the tax law example in its livestream demonstration of GPT-4, why GPT-4 got the wrong answer, and how it fails to reliably calculate taxes.",
+    "link": "http://arxiv.org/abs/2309.09992",
+    "context": "Title: OpenAI Cribbed Our Tax Example, But Can GPT-4 Really Do Tax?. (arXiv:2309.09992v1 [cs.AI])\nAbstract: The authors explain where OpenAI got the tax law example in its livestream demonstration of GPT-4, why GPT-4 got the wrong answer, and how it fails to reliably calculate taxes.",
+    "path": "papers/23/09/2309.09992.json",
+    "total_tokens": 439,
+    "translated_title": "OpenAI抄袭了我们的税务案例，但GPT-4真的能够处理税务吗？",
+    "translated_abstract": "作者解释了OpenAI在GPT-4的直播演示中使用税法案例的来源，以及为什么GPT-4得到了错误的答案，以及它如何无法可靠地计算税务。",
+    "tldr": "GPT-4在处理税务方面存在问题，无法可靠地计算税务。",
+    "en_tdlr": "GPT-4 has issues in handling taxes and cannot reliably calculate them."
+}

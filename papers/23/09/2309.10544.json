@@ -1,0 +1,12 @@
+{
+    "title": "Model Leeching: An Extraction Attack Targeting LLMs. (arXiv:2309.10544v1 [cs.LG])",
+    "abstract": "Model Leeching is a novel extraction attack targeting Large Language Models (LLMs), capable of distilling task-specific knowledge from a target LLM into a reduced parameter model. We demonstrate the effectiveness of our attack by extracting task capability from ChatGPT-3.5-Turbo, achieving 73% Exact Match (EM) similarity, and SQuAD EM and F1 accuracy scores of 75% and 87%, respectively for only $50 in API cost. We further demonstrate the feasibility of adversarial attack transferability from an extracted model extracted via Model Leeching to perform ML attack staging against a target LLM, resulting in an 11% increase to attack success rate when applied to ChatGPT-3.5-Turbo.",
+    "link": "http://arxiv.org/abs/2309.10544",
+    "context": "Title: Model Leeching: An Extraction Attack Targeting LLMs. (arXiv:2309.10544v1 [cs.LG])\nAbstract: Model Leeching is a novel extraction attack targeting Large Language Models (LLMs), capable of distilling task-specific knowledge from a target LLM into a reduced parameter model. We demonstrate the effectiveness of our attack by extracting task capability from ChatGPT-3.5-Turbo, achieving 73% Exact Match (EM) similarity, and SQuAD EM and F1 accuracy scores of 75% and 87%, respectively for only $50 in API cost. We further demonstrate the feasibility of adversarial attack transferability from an extracted model extracted via Model Leeching to perform ML attack staging against a target LLM, resulting in an 11% increase to attack success rate when applied to ChatGPT-3.5-Turbo.",
+    "path": "papers/23/09/2309.10544.json",
+    "total_tokens": 752,
+    "translated_title": "模型吸取: 针对LLMs的一种提取攻击",
+    "translated_abstract": "模型吸取是一种针对大型语言模型(LLMs)的新型提取攻击，能够将目标LLM的任务特定知识提炼到一个参数较少的模型中。我们通过从ChatGPT-3.5-Turbo中提取任务能力来演示我们攻击的有效性，实现了73%的准确匹配(EM)相似性以及75%的SQuAD EM准确率和87%的F1得分，仅需50美元的API费用。我们进一步展示了通过模型吸取提取的模型在对目标LLM进行机器学习攻击时的可行性，当应用于ChatGPT-3.5-Turbo时，攻击成功率提高了11%。",
+    "tldr": "模型吸取是一种针对大型语言模型的提取攻击，能够将目标模型的任务特定知识提取到一个参数较少的模型中，并且具有较高的准确率和攻击成功率。",
+    "en_tdlr": "Model Leeching is an extraction attack that targets large language models, allowing the distillation of task-specific knowledge into smaller models, achieving high accuracy and attack success rate."
+}

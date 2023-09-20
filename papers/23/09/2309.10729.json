@@ -1,0 +1,12 @@
+{
+    "title": "PAMS: Platform for Artificial Market Simulations. (arXiv:2309.10729v1 [q-fin.CP])",
+    "abstract": "This paper presents a new artificial market simulation platform, PAMS: Platform for Artificial Market Simulations. PAMS is developed as a Python-based simulator that is easily integrated with deep learning and enabling various simulation that requires easy users' modification. In this paper, we demonstrate PAMS effectiveness through a study using agents predicting future prices by deep learning.",
+    "link": "http://arxiv.org/abs/2309.10729",
+    "context": "Title: PAMS: Platform for Artificial Market Simulations. (arXiv:2309.10729v1 [q-fin.CP])\nAbstract: This paper presents a new artificial market simulation platform, PAMS: Platform for Artificial Market Simulations. PAMS is developed as a Python-based simulator that is easily integrated with deep learning and enabling various simulation that requires easy users' modification. In this paper, we demonstrate PAMS effectiveness through a study using agents predicting future prices by deep learning.",
+    "path": "papers/23/09/2309.10729.json",
+    "total_tokens": 539,
+    "translated_title": "PAMS: 人工市场模拟平台",
+    "translated_abstract": "本文介绍了一种新的人工市场模拟平台，PAMS: Platform for Artificial Market Simulations。PAMS是基于Python开发的模拟器，可以轻松与深度学习集成，实现各种需要用户简单修改的模拟。在本文中，我们通过使用通过深度学习预测未来价格的代理人来展示PAMS的有效性。",
+    "tldr": "PAMS是一种Python-based模拟器，可与深度学习集成，用于模拟人工市场。它通过一个代理人的研究展示了它的有效性。",
+    "en_tdlr": "PAMS is a Python-based simulator that integrates with deep learning for simulating artificial markets. Its effectiveness is demonstrated through a study using agents predicting future prices by deep learning."
+}

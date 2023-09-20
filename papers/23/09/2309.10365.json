@@ -1,0 +1,12 @@
+{
+    "title": "Testable Likelihoods for Beyond-the-Standard Model Fits. (arXiv:2309.10365v1 [hep-ph])",
+    "abstract": "Studying potential BSM effects at the precision frontier requires accurate transfer of information from low-energy measurements to high-energy BSM models. We propose to use normalising flows to construct likelihood functions that achieve this transfer. Likelihood functions constructed in this way provide the means to generate additional samples and admit a ``trivial'' goodness-of-fit test in form of a $\\chi^2$ test statistic. Here, we study a particular form of normalising flow, apply it to a multi-modal and non-Gaussian example, and quantify the accuracy of the likelihood function and its test statistic.",
+    "link": "http://arxiv.org/abs/2309.10365",
+    "context": "Title: Testable Likelihoods for Beyond-the-Standard Model Fits. (arXiv:2309.10365v1 [hep-ph])\nAbstract: Studying potential BSM effects at the precision frontier requires accurate transfer of information from low-energy measurements to high-energy BSM models. We propose to use normalising flows to construct likelihood functions that achieve this transfer. Likelihood functions constructed in this way provide the means to generate additional samples and admit a ``trivial'' goodness-of-fit test in form of a $\\chi^2$ test statistic. Here, we study a particular form of normalising flow, apply it to a multi-modal and non-Gaussian example, and quantify the accuracy of the likelihood function and its test statistic.",
+    "path": "papers/23/09/2309.10365.json",
+    "total_tokens": 765,
+    "translated_title": "超出标准模型拟合的可测似然函数",
+    "translated_abstract": "在精确测量边界上研究潜在的超出标准模型效应，需要将低能量测量的信息准确传递给高能量的超出标准模型。我们提出使用归一化流构建实现这种传递的似然函数。以这种方式构建的似然函数能够生成额外的样本，并允许使用\"平凡\"的拟合优度检验，即卡方检验统计量。在这里，我们研究了一种特定形式的归一化流，将其应用于多模态和非高斯的例子，并量化了似然函数及其拟合优度检验统计量的准确性。",
+    "tldr": "使用归一化流构建似然函数，实现从低能量测量到高能量超出标准模型的准确信息传递，并提供额外样本生成和卡方检验统计量，以研究超出标准模型效应。",
+    "en_tdlr": "The paper proposes the use of normalising flows to construct likelihood functions that accurately transfer information from low-energy measurements to high-energy beyond-the-standard-model (BSM) models. These likelihood functions facilitate additional sample generation and provide a \"trivial\" goodness-of-fit test in the form of a chi-square test statistic. The paper applies this approach to a multi-modal and non-Gaussian example and quantifies the accuracy of the likelihood function and its test statistic."
+}
