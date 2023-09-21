@@ -1,0 +1,11 @@
+{
+    "title": "Believable Minecraft Settlements by Means of Decentralised Iterative Planning. (arXiv:2309.10871v1 [cs.AI])",
+    "abstract": "Procedural city generation that focuses on believability and adaptability to random terrain is a difficult challenge in the field of Procedural Content Generation (PCG). Dozens of researchers compete for a realistic approach in challenges such as the Generative Settlement Design in Minecraft (GDMC), in which our method has won the 2022 competition. This was achieved through a decentralised, iterative planning process that is transferable to similar generation processes that aims to produce \"organic\" content procedurally.",
+    "link": "http://arxiv.org/abs/2309.10871",
+    "context": "Title: Believable Minecraft Settlements by Means of Decentralised Iterative Planning. (arXiv:2309.10871v1 [cs.AI])\nAbstract: Procedural city generation that focuses on believability and adaptability to random terrain is a difficult challenge in the field of Procedural Content Generation (PCG). Dozens of researchers compete for a realistic approach in challenges such as the Generative Settlement Design in Minecraft (GDMC), in which our method has won the 2022 competition. This was achieved through a decentralised, iterative planning process that is transferable to similar generation processes that aims to produce \"organic\" content procedurally.",
+    "path": "papers/23/09/2309.10871.json",
+    "total_tokens": 648,
+    "translated_title": "基于分散迭代规划的可信赖Minecraft定居点",
+    "translated_abstract": "在过程内容生成（PCG）领域中，以可信度和适应性为重点的程序化城市生成是一个具有挑战性的任务。在像Minecraft中的生成定居设计（GDMC）这样的挑战中，数十位研究人员竞争提出现实的方法，而我们的方法在2022年的比赛中获胜。这通过一种分散的、迭代的规划过程实现，该过程可在类似的生成过程中转移，以产生程序化的“有机”内容。",
+    "tldr": "通过分散的、迭代的规划过程，我们的方法在Minecraft定居点生成竞赛中获胜，该方法可用于产生逼真且可信赖的程序化城市内容。"
+}

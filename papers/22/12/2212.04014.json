@@ -1,0 +1,11 @@
+{
+    "title": "Statistical and Computational Guarantees for Influence Diagnostics. (arXiv:2212.04014v2 [stat.ML] UPDATED)",
+    "abstract": "Influence diagnostics such as influence functions and approximate maximum influence perturbations are popular in machine learning and in AI domain applications. Influence diagnostics are powerful statistical tools to identify influential datapoints or subsets of datapoints. We establish finite-sample statistical bounds, as well as computational complexity bounds, for influence functions and approximate maximum influence perturbations using efficient inverse-Hessian-vector product implementations. We illustrate our results with generalized linear models and large attention based models on synthetic and real data.",
+    "link": "http://arxiv.org/abs/2212.04014",
+    "context": "Title: Statistical and Computational Guarantees for Influence Diagnostics. (arXiv:2212.04014v2 [stat.ML] UPDATED)\nAbstract: Influence diagnostics such as influence functions and approximate maximum influence perturbations are popular in machine learning and in AI domain applications. Influence diagnostics are powerful statistical tools to identify influential datapoints or subsets of datapoints. We establish finite-sample statistical bounds, as well as computational complexity bounds, for influence functions and approximate maximum influence perturbations using efficient inverse-Hessian-vector product implementations. We illustrate our results with generalized linear models and large attention based models on synthetic and real data.",
+    "path": "papers/22/12/2212.04014.json",
+    "total_tokens": 679,
+    "translated_title": "统计和计算保证了影响诊断的有效性",
+    "translated_abstract": "影响诊断，如影响函数和近似最大影响扰动，在机器学习和人工智能领域的应用中很受欢迎。影响诊断是用于识别有影响力的数据点或数据子集的强大统计工具。我们使用高效的逆-Hessian-向量乘积实现建立了影响函数和近似最大影响扰动的有限样本统计界限和计算复杂度界限。我们使用广义线性模型和基于大规模注意力机制的模型在合成和真实数据上进行了实验验证。",
+    "tldr": "本论文提出了统计和计算边界来保证影响诊断的有效性，通过使用高效的逆-Hessian-向量乘积实现的方法，我们可以在机器学习和人工智能领域的应用中准确识别有影响力的数据点或子集。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Bravo MaRDI: A Wikibase Powered Knowledge Graph on Mathematics. (arXiv:2309.11484v1 [cs.DL])",
+    "abstract": "Mathematical world knowledge is a fundamental component of Wikidata. However, to date, no expertly curated knowledge graph has focused specifically on contemporary mathematics. Addressing this gap, the Mathematical Research Data Initiative (MaRDI) has developed a comprehensive knowledge graph that links multimodal research data in mathematics. This encompasses traditional research data items like datasets, software, and publications and includes semantically advanced objects such as mathematical formulas and hypotheses. This paper details the abilities of the MaRDI knowledge graph, which is based on Wikibase, leading up to its inaugural public release, codenamed Bravo, available on https://portal.mardi4nfdi.de.",
+    "link": "http://arxiv.org/abs/2309.11484",
+    "context": "Title: Bravo MaRDI: A Wikibase Powered Knowledge Graph on Mathematics. (arXiv:2309.11484v1 [cs.DL])\nAbstract: Mathematical world knowledge is a fundamental component of Wikidata. However, to date, no expertly curated knowledge graph has focused specifically on contemporary mathematics. Addressing this gap, the Mathematical Research Data Initiative (MaRDI) has developed a comprehensive knowledge graph that links multimodal research data in mathematics. This encompasses traditional research data items like datasets, software, and publications and includes semantically advanced objects such as mathematical formulas and hypotheses. This paper details the abilities of the MaRDI knowledge graph, which is based on Wikibase, leading up to its inaugural public release, codenamed Bravo, available on https://portal.mardi4nfdi.de.",
+    "path": "papers/23/09/2309.11484.json",
+    "total_tokens": 732,
+    "translated_title": "Bravo MaRDI: 一个以Wikibase为支持的数学知识图谱",
+    "translated_abstract": "数学世界知识是Wikidata的一个基本组成部分。然而，迄今为止，还没有专门关注当代数学的专家策划的知识图谱。为填补这一空白，数学研究数据倡议（MaRDI）开发了一个综合性的知识图谱，将数学中的多模式研究数据相互链接。这包括传统的研究数据项，如数据集、软件和出版物，以及包含数学公式和假设等语义高级对象。本文详细介绍了基于Wikibase的MaRDI知识图谱，它将在其首次公开发布之前进行。发布代号为Bravo，可在https://portal.mardi4nfdi.de访问。",
+    "tldr": "Bravo MaRDI是一个基于Wikibase的数学知识图谱，旨在填补当代数学领域中专家策划知识图谱的空白。该知识图谱链接了各种形式的数学研究数据，包括数据集、软件、出版物以及数学公式和假设等。"
+}

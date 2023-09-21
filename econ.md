@@ -2,202 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Substitutability in Favor Exchange.](http://arxiv.org/abs/2309.10749) | 这篇论文提出了一个新的互惠交换模型，其中关系的价值取决于网络的其他部分。研究发现，当互惠是可替代的时，中间程度的合作会出现。研究也对后苏联国家社交网络的分层和中世纪商人群体采用不同的执行机制进行了解释。 |
-| [^2] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
-| [^3] | [Regressing on distributions: The nonlinear effect of temperature on regional economic growth.](http://arxiv.org/abs/2309.10481) | 提出了一种基于分布的非线性回归框架，应用于时间序列和面板数据。以欧洲260个地区的日温度对这些地区的年增长增加的影响为例，通过使用经验分布的矩构建合适的回归器来评估区域经济影响。 |
-| [^4] | [Human-AI Interactions and Societal Pitfalls.](http://arxiv.org/abs/2309.10448) | 本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。 |
-| [^5] | [OPUS: An Integrated Assessment Model for Satellites and Orbital Debris.](http://arxiv.org/abs/2309.10252) | OPUS是一个综合评估模型，结合了轨道人口的天体力学和空间活动者的经济行为，帮助决策者评估卫星和轨道残骸管理政策的有效性和可能的结果。 |
-| [^6] | [Can political gridlock undermine checks and balances? A lab experiment.](http://arxiv.org/abs/2309.10080) | 本研究通过实验研究发现，当政治僵局存在时，人们更倾向于削弱制衡机制，但并不仅仅是在改革有益时削弱，也包括在改革有害时削弱。 |
-| [^7] | [The Emergence of Economic Rationality of GPT.](http://arxiv.org/abs/2305.12763) | 本文研究了GPT在经济理性方面的能力，通过指示其在4个领域中做出预算决策，发现GPT决策基本上是合理的，并且比人类更具有理性。 |
-| [^8] | [Utilitarian Theorems and Equivalence of Utility Theories.](http://arxiv.org/abs/2304.09973) | 本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。 |
-| [^9] | [On Graphical Methods in Stochastic Choice.](http://arxiv.org/abs/2303.14249) | 该论文提供了基于图论工具的随机选择概率特征描述，并在不完整领域中提供了随机理性的新刻画。 |
-| [^10] | [Covariate Adjustment in Stratified Experiments.](http://arxiv.org/abs/2302.03687) | 本文研究了样本分层实验中的协变量调整方法，并发现对于分层设计，传统回归估计量通常是低效的。根据这一结果，我们推导了针对给定分层的渐近最优线性协变量调整方法，并构建了几个可行的大样本估计器。 |
-| [^11] | [Haves and Have-Nots: A Theory of Economic Sufficientarianism.](http://arxiv.org/abs/2301.08666) | 这篇论文介绍了一种对涉及多种消费品的分配进行排名的充足主义概念推广，研究了充足主义判断与leximin原则的关系。 |
-| [^12] | [Artificial Intelligence and Statistical Collusion.](http://arxiv.org/abs/2202.05946) | 本研究提出了一个可处理的模型来研究学习算法之间的战略互动，揭示了一种导致算法勾结出现的机制。通过自发耦合，算法周期性地协调行动，达到更高利润。该模型的参数可预测统计关联的出现和有利于算法勾结的市场结构，进一步展示了自发耦合如何在价格和市场份额上维持勾结，并应用于设计算法市场。 |
-| [^13] | [The Limits of Citation Counts.](http://arxiv.org/abs/1711.02695) | 引用次数作为衡量科学家影响力的指标存在局限性，不能用于跨领域比较科学家，也不能考虑间接影响力。通过使用更丰富的文献信息可以克服这些限制。 |
+| [^1] | [Existence of a Competitive Equilibrium with Substitutes, with Applications to Matching and Discrete Choice Models.](http://arxiv.org/abs/2309.11416) | 该论文研究了存在替代品的竞争均衡问题，并提出了对于一般竞争系统的存在性和唯一性的新结果。在匹配和离散选择模型中，这些结果被证明是适用的，并提供了计算唯一竞争均衡的算法。 |
+| [^2] | [Transformers versus LSTMs for electronic trading.](http://arxiv.org/abs/2309.11400) | 本研究比较了基于LSTM和基于Transformer的模型在金融时间序列预测任务上的表现，并介绍了一种新的LSTM-based模型DLSTM。 |
+| [^3] | [Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$.](http://arxiv.org/abs/2309.11394) | 本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。 |
+| [^4] | [Identifying Causal Effects in Information Provision Experiments.](http://arxiv.org/abs/2309.11387) | 信息提供实验用于确定信念如何因果地影响决策和行为。通过应用贝叶斯估计器，可以准确识别出（非加权的）平均部分效应。 |
+| [^5] | [Increasing Ticketing Allocative Efficiency Using Marginal Price Auction Theory.](http://arxiv.org/abs/2309.11189) | 使用边际价格拍卖系统的售票协议能够更公平高效地分配票，并帮助活动组织者提取更多经济租金。 |
+| [^6] | [require: Package dependencies for reproducible research.](http://arxiv.org/abs/2309.11058) | require 命令是一个用于确保 Stata 软件包依赖兼容的工具，它可以验证、检查和安装软件包，以实现可复现的研究。 |
+| [^7] | [Research on the Impact of Executive Shareholding on New Investment in Enterprises Based on Multivariable Linear Regression Model.](http://arxiv.org/abs/2309.10986) | 该研究使用多变量线性回归模型, 基于委托代理理论和最优合同理论, 分析了高管股权对企业新投资的影响。根据研究结果，发现高管持股会通过改变高管股权激励的边际效用，导致管理层、股东和债权人的利益不平衡。 |
+| [^8] | [Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations.](http://arxiv.org/abs/2309.02338) | 本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。 |
+| [^9] | [Reparametrization and the Semiparametric Bernstein-von-Mises Theorem.](http://arxiv.org/abs/2306.03816) | 本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。 |
+| [^10] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
+| [^11] | [Matching Function Equilibria with Partial Assignment: Existence, Uniqueness and Estimation.](http://arxiv.org/abs/2102.02071) | 该论文研究了匹配函数平衡中的部分分配问题，证明了平衡的存在和唯一性，并提出了一种高效的计算方法。对于某些匹配模型，还提出了一种无需参数估计的构造对照匹配均衡的方法。这些方法在分析社会政策对婚姻市场影响方面具有重要应用价值。 |
 
 # 详细
 
-[^1]: 有关互惠交换中的替代性
+[^1]: 存在替代品的竞争均衡的存在性，以及在匹配和离散选择模型中的应用
 
-    Substitutability in Favor Exchange. (arXiv:2309.10749v1 [econ.TH])
+    Existence of a Competitive Equilibrium with Substitutes, with Applications to Matching and Discrete Choice Models. (arXiv:2309.11416v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.10749](http://arxiv.org/abs/2309.10749)
+    [http://arxiv.org/abs/2309.11416](http://arxiv.org/abs/2309.11416)
 
-    这篇论文提出了一个新的互惠交换模型，其中关系的价值取决于网络的其他部分。研究发现，当互惠是可替代的时，中间程度的合作会出现。研究也对后苏联国家社交网络的分层和中世纪商人群体采用不同的执行机制进行了解释。
-
-    
-
-    我提出了一个互惠交换模型，其中互惠是可以替代的，并研究了双边合作的互助执行。在没有替代性的情况下，关系的价值不依赖于网络的其他部分，并且在平衡状态下要么没有合作要么普遍合作。当互惠是可替代的时，每增加一个关系的价值都比之前的关系要低，从而观察到中间程度的合作。我扩展了这个模型以允许转移、异质玩家和多边互助执行。我的结果可以解释后苏联国家社交网络的分层和中世纪商人群体采用不同的执行机制。
-
-    I introduce a favor exchange model where favors are substitutable and study bilateral enforcement of cooperation. Without substitutability, the value of a relationship does not depend on the rest of the network, and in equilibrium there is either no cooperation or universal cooperation. When favors are substitutable, each additional relationship is less valuable than the previous, and intermediate levels of cooperation are observed. I extend the model to allow for transfers, heterogeneous players, and multilateral enforcement. My results can explain the stratification of social networks in post-Soviet states and the adoption of different enforcement mechanisms by different groups of medieval traders.
-    
-[^2]: 游戏连通性与自适应动态
-
-    Game Connectivity and Adaptive Dynamics. (arXiv:2309.10609v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.10609](http://arxiv.org/abs/2309.10609)
-
-    通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。
+    该论文研究了存在替代品的竞争均衡问题，并提出了对于一般竞争系统的存在性和唯一性的新结果。在匹配和离散选择模型中，这些结果被证明是适用的，并提供了计算唯一竞争均衡的算法。
 
     
 
-    我们通过分析最佳响应图的连通特性，分析了游戏的典型结构。特别是，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的，这意味着每个非均衡的行动配置都可以通过最佳响应路径到达每个纯纳什均衡。这对于游戏中的动态过程有着重要意义：许多自适应动态，例如带有惯性的最佳响应动态，在连通的游戏中会导致均衡。因此，存在简单的、不耦合的自适应动态，按周期游戏将几乎确定地收敛到具有纯纳什均衡的“大型”通用游戏的情况下。
+    我们提出了关于存在性和唯一性的新结果，针对具有替代品的一般非参数和非可分竞争均衡。这些结果确保了一般竞争系统的可逆性。现有文献主要关注竞争均衡的唯一性，假设存在性成立。我们引入了三个供给系统必须满足的属性：弱替代品、关键替代品和响应性。这些属性足以确保均衡的存在，从而提供了Berry、Gandhi和Haile（2013年）唯一性结果的存在性对应结果。对于两个重要的模型类别，具有完整分配的二部匹配模型和离散选择模型，我们展示了这两个模型都可以重构为一个竞争系统，从而可以方便地应用我们的存在性和唯一性结果。我们还提供了一个计算唯一竞争均衡的算法。此外，我们认为我们的结果是重要的。
 
-    We analyse the typical structure of games in terms of the connectivity properties of their best-response graphs. In particular, we show that almost every 'large' generic game that has a pure Nash equilibrium is connected, meaning that every non-equilibrium action profile can reach every pure Nash equilibrium via best-response paths. This has implications for dynamics in games: many adaptive dynamics, such as the best-response dynamic with inertia, lead to equilibrium in connected games. It follows that there are simple, uncoupled, adaptive dynamics for which period-by-period play converges almost surely to a pure Nash equilibrium in almost every 'large' generic game that has one. We build on recent results in probabilistic combinatorics for our characterisation of game connectivity.
+    We propose new results for the existence and uniqueness of a general nonparametric and nonseparable competitive equilibrium with substitutes. These results ensure the invertibility of a general competitive system. The existing literature has focused on the uniqueness of a competitive equilibrium assuming that existence holds. We introduce three properties that our supply system must satisfy: weak substitutes, pivotal substitutes, and responsiveness. These properties are sufficient to ensure the existence of an equilibrium, thus providing the existence counterpart to Berry, Gandhi, and Haile (2013)'s uniqueness results. For two important classes of models, bipartite matching models with full assignment and discrete choice models, we show that both models can be reformulated as a competitive system such that our existence and uniqueness results can be readily applied. We also provide an algorithm to compute the unique competitive equilibrium. Furthermore, we argue that our results are pa
     
-[^3]: 基于分布的回归：温度对区域经济增长的非线性影响
+[^2]: Transformers对电子交易的比较测试
 
-    Regressing on distributions: The nonlinear effect of temperature on regional economic growth. (arXiv:2309.10481v1 [stat.ME])
+    Transformers versus LSTMs for electronic trading. (arXiv:2309.11400v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2309.10481](http://arxiv.org/abs/2309.10481)
+    [http://arxiv.org/abs/2309.11400](http://arxiv.org/abs/2309.11400)
 
-    提出了一种基于分布的非线性回归框架，应用于时间序列和面板数据。以欧洲260个地区的日温度对这些地区的年增长增加的影响为例，通过使用经验分布的矩构建合适的回归器来评估区域经济影响。
-
-    
-
-    提出了一种非线性回归框架，适用于时间序列和面板数据，其中某些解释变量的时间分辨率高于因变量。主要思想是利用这些变量的经验分布的矩来构建具有正确分辨率的回归器。由于矩可能显示非线性的边际和交互作用效应，因此提出了人工神经网络回归函数。相应的模型在传统的随机非线性最小二乘框架内运行。特别地，使用数值海森矩阵来计算置信区间。通过分析2000年至2021年期间260个欧洲NUTS2地区的日温度对这些地区的年增长增加的影响，证明了其实际的实用性。
-
-    A nonlinear regression framework is proposed for time series and panel data for the situation where certain explanatory variables are available at a higher temporal resolution than the dependent variable. The main idea is to use the moments of the empirical distribution of these variables to construct regressors with the correct resolution. As the moments are likely to display nonlinear marginal and interaction effects, an artificial neural network regression function is proposed. The corresponding model operates within the traditional stochastic nonlinear least squares framework. In particular, a numerical Hessian is employed to calculate confidence intervals. The practical usefulness is demonstrated by analyzing the influence of daily temperatures in 260 European NUTS2 regions on the yearly growth of gross value added in these regions in the time period 2000 to 2021. In the particular example, the model allows for an appropriate assessment of regional economic impacts resulting from 
-    
-[^4]: 人工智能与人类互动以及社会陷阱
-
-    Human-AI Interactions and Societal Pitfalls. (arXiv:2309.10448v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.10448](http://arxiv.org/abs/2309.10448)
-
-    本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。
+    本研究比较了基于LSTM和基于Transformer的模型在金融时间序列预测任务上的表现，并介绍了一种新的LSTM-based模型DLSTM。
 
     
 
-    当与生成式人工智能（AI）合作时，用户可能会看到生产力的提升，但AI生成的内容可能不完全符合他们的偏好。为了研究这种影响，我们引入了一个贝叶斯框架，其中异质用户选择与AI共享多少信息，面临输出保真度和通信成本之间的权衡。我们展示了这些个体决策与AI训练之间的相互作用可能导致社会挑战。输出可能变得更加同质化，特别是当AI在AI生成的内容上进行训练时。而任何AI的偏见可能成为社会偏见。解决同质化和偏见问题的办法是改进人工智能与人类的互动，实现个性化输出而不牺牲生产力。
+    随着人工智能的快速发展，长短期记忆(LSTM)作为一种循环神经网络(RNN)被广泛应用于时间序列预测。与RNN相似，Transformer被设计用来处理序列数据。由于Transformer在自然语言处理(NLP)领域取得了巨大成功，研究者开始关注Transformer在时间序列预测中的表现，并最近提出了许多基于Transformer的长时间序列预测解决方案。然而，当涉及金融时间序列预测时，LSTM仍然是主流的架构。因此，本研究想要回答的问题是：Transformer基于模型是否可以应用在金融时间序列预测中，并击败LSTM。为了回答这个问题，本研究在基于高频限价委托簿数据的多个金融预测任务上比较了多种基于LSTM和Transformer的模型。创建了一个名为DLSTM的新型LSTM-based模型，并提出了新的架构。
 
-    When working with generative artificial intelligence (AI), users may see productivity gains, but the AI-generated content may not match their preferences exactly. To study this effect, we introduce a Bayesian framework in which heterogeneous users choose how much information to share with the AI, facing a trade-off between output fidelity and communication cost. We show that the interplay between these individual-level decisions and AI training may lead to societal challenges. Outputs may become more homogenized, especially when the AI is trained on AI-generated content. And any AI bias may become societal bias. A solution to the homogenization and bias issues is to improve human-AI interactions, enabling personalized outputs without sacrificing productivity.
+    With the rapid development of artificial intelligence, long short term memory (LSTM), one kind of recurrent neural network (RNN), has been widely applied in time series prediction.  Like RNN, Transformer is designed to handle the sequential data. As Transformer achieved great success in Natural Language Processing (NLP), researchers got interested in Transformer's performance on time series prediction, and plenty of Transformer-based solutions on long time series forecasting have come out recently. However, when it comes to financial time series prediction, LSTM is still a dominant architecture. Therefore, the question this study wants to answer is: whether the Transformer-based model can be applied in financial time series prediction and beat LSTM.  To answer this question, various LSTM-based and Transformer-based models are compared on multiple financial prediction tasks based on high-frequency limit order book data. A new LSTM-based model called DLSTM is built and new architecture f
     
-[^5]: OPUS：用于卫星和轨道残骸的综合评估模型
+[^3]: 以智能合约平台竞争视角考虑，以太坊的权益证明机制是否可持续？
 
-    OPUS: An Integrated Assessment Model for Satellites and Orbital Debris. (arXiv:2309.10252v1 [physics.space-ph])
+    Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$. (arXiv:2309.11394v1 [cs.CY])
 
-    [http://arxiv.org/abs/2309.10252](http://arxiv.org/abs/2309.10252)
+    [http://arxiv.org/abs/2309.11394](http://arxiv.org/abs/2309.11394)
 
-    OPUS是一个综合评估模型，结合了轨道人口的天体力学和空间活动者的经济行为，帮助决策者评估卫星和轨道残骸管理政策的有效性和可能的结果。
-
-    
-
-    如何管理越来越多的卫星在轨道上成为了一个日益引人瞩目的公共政策挑战，包括大型星座。虽然提出了许多政策倡议试图从不同角度解决这个问题，但是缺乏分析工具来帮助决策者评估这些不同提议的有效性和可能的适得其反的结果。为了解决这个问题，本文总结了开发一个实验性综合评估模型-Orbital Debris Propagators Unified with Economic Systems (OPUS)的工作，该模型将轨道人口的天体力学和空间活动者的经济行为结合起来。对于给定的参数集，模型首先利用给定的天体动力学传播器评估轨道中物体的状态。然后利用一组用户定义的经济和政策参数（例如，发射价格，处置规定）模拟参与者对经济激励的反应。
-
-    An increasingly salient public policy challenge is how to manage the growing number of satellites in orbit, including large constellations. Many policy initiatives have been proposed that attempt to address the problem from different angles, but there is a paucity of analytical tools to help policymakers evaluate the efficacy of these different proposals and any potential counterproductive outcomes. To help address this problem, this paper summarizes work done to develop an experimental integrated assessment model -Orbital Debris Propagators Unified with Economic Systems (OPUS) -- that combines both astrodynamics of the orbital population and economic behavior of space actors. For a given set of parameters, the model first utilizes a given astrodynamic propagator to assess the state of objects in orbit. It then uses a set of user-defined economic and policy parameters -- e.g. launch prices, disposal regulations -- to model how actors will respond to the economic incentives created by
-    
-[^6]: 政治僵局会削弱制衡吗？实验研究。
-
-    Can political gridlock undermine checks and balances? A lab experiment. (arXiv:2309.10080v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.10080](http://arxiv.org/abs/2309.10080)
-
-    本研究通过实验研究发现，当政治僵局存在时，人们更倾向于削弱制衡机制，但并不仅仅是在改革有益时削弱，也包括在改革有害时削弱。
+    本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。
 
     
 
-    如果制衡旨在保护公民免受政府滥用权力的侵害，为什么有时它们会削弱制衡机制呢？本实验通过实验室实验来探讨这个问题，实验对象需要在两种不同的决策规则之间选择：具有和没有制衡机制。如果不受制衡的行政部门能够推动由立法机构阻挠的改革，选民可能更倾向于支持无制衡的行政部门。与我们的预测相一致，当政治僵局存在时，我们发现实验对象更倾向于削弱制衡机制。然而，实验对象不仅在改革有益时削弱制衡机制，也在改革有害时削弱它们。
+    自从以太坊过渡到权益证明机制后，声称其结果是降低能源消耗和增加安全性。然而，即使是这种情况，这种状态能持续下去吗？本文关注其他智能合约平台对以太坊本地货币Ether（ETH）价格可能带来的潜在影响，进而对权益证明设计所宣称的安全性和可持续性提出了疑问。
 
-    If checks and balances are aimed at protecting citizens from the government's abuse of power, why do they sometimes weaken them? We address this question in a laboratory experiment in which subjects choose between two decision rules: with and without checks and balances. Voters may prefer an unchecked executive if that enables a reform that, otherwise, is blocked by the legislature. Consistent with our predictions, we find that subjects are more likely to weaken checks and balances when there is political gridlock. However, subjects weaken the controls not only when the reform is beneficial but also when it is harmful.
+    Since the Merge update upon which Ethereum transitioned to Proof of Stake, it has been touted that it resulted in lower power consumption and increased security. However, even if that is the case, can this state be sustained?  In this paper, we focus on the potential impact of competition with other smart contract platforms on the price of Ethereum's native currency, Ether (ETH), thereby raising questions about the safety and sustainability purportedly brought about by the design of Proof of Stake.
     
-[^7]: GPT的经济理性出现
+[^4]: 信息提供实验中的因果效应识别
 
-    The Emergence of Economic Rationality of GPT. (arXiv:2305.12763v1 [econ.GN])
+    Identifying Causal Effects in Information Provision Experiments. (arXiv:2309.11387v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.12763](http://arxiv.org/abs/2305.12763)
+    [http://arxiv.org/abs/2309.11387](http://arxiv.org/abs/2309.11387)
 
-    本文研究了GPT在经济理性方面的能力，通过指示其在4个领域中做出预算决策，发现GPT决策基本上是合理的，并且比人类更具有理性。
-
-    
-
-    随着像GPT这样的大型语言模型越来越普遍，评估它们在语言处理之外的能力至关重要。本文通过指示GPT在风险、时间、社交和食品偏好的四个领域中进行预算决策来研究GPT的经济理性。我们通过评估GPT决策与古典揭示偏好理论中的效用最大化一致性来衡量经济理性。我们发现GPT在每个领域的决策基本上是合理的，并且表现出比文献报道的人类更高的理性得分。我们还发现，理性得分对于随机程度和人口统计学设置（如年龄和性别）是稳健的，但对基于选择情境的语言框架的上下文敏感。这些结果表明了LLM作出良好决策的潜力，以及需要进一步了解它们的能力、局限性和基本机制。
-
-    As large language models (LLMs) like GPT become increasingly prevalent, it is essential that we assess their capabilities beyond language processing. This paper examines the economic rationality of GPT by instructing it to make budgetary decisions in four domains: risk, time, social, and food preferences. We measure economic rationality by assessing the consistency of GPT decisions with utility maximization in classic revealed preference theory. We find that GPT decisions are largely rational in each domain and demonstrate higher rationality scores than those of humans reported in the literature. We also find that the rationality scores are robust to the degree of randomness and demographic settings such as age and gender, but are sensitive to contexts based on the language frames of the choice situations. These results suggest the potential of LLMs to make good decisions and the need to further understand their capabilities, limitations, and underlying mechanisms.
-    
-[^8]: 实用主义定理与效用理论的等价性
-
-    Utilitarian Theorems and Equivalence of Utility Theories. (arXiv:2304.09973v1 [econ.TH])
-
-    [http://arxiv.org/abs/2304.09973](http://arxiv.org/abs/2304.09973)
-
-    本文研究了NM效用函数的实用主义定理和Alt效用函数的实用主义定理，发现二者同时成立时，NM效用函数与Alt效用函数重合，这一结果表明其中至少一个实用主义定理包含了一个强假设。
+    信息提供实验用于确定信念如何因果地影响决策和行为。通过应用贝叶斯估计器，可以准确识别出（非加权的）平均部分效应。
 
     
 
-    本文研究了一个环境，在该环境下，Harsanyi提出的NM效用函数的实用主义定理与Harvey提出的Alt效用函数的实用主义定理同时成立，并证明了在这种情况下，NM效用函数与Alt效用函数重合。这一结果具有悖论性，我们必须假定至少一个实用主义定理包含了一个强假设。我们逐一检查各个假设，并得出结论：Harsanyi的公理之一是强假设。
+    信息提供实验是一种越来越流行的工具，用于确定信念如何因果地影响决策和行为。在基于负担信息获取的简单贝叶斯信念形成模型中，当这些信念对他们的决策至关重要时，人们形成精确的信念。先前信念的精确度控制着当他们接受新信息时他们的信念变化程度（即第一阶段的强度）。由于两阶段最小二乘法（TSLS）以权重与第一阶段的强度成比例的加权平均为目标，TSLS会过度加权具有较小因果效应的个体，并低估具有较大效应的个体，从而低估了信念对行为的平均部分效应。在所有参与者都接受新信息的实验设计中，贝叶斯更新意味着可以使用控制函数来确定（非加权的）平均部分效应。我将这个估计器应用于最近一项关于效应的研究。
 
-    In this paper, we consider an environment in which the utilitarian theorem for the NM utility function derived by Harsanyi and the utilitarian theorem for Alt's utility function derived by Harvey hold simultaneously, and prove that the NM utility function coincides with Alt's utility function under this setup. This result is so paradoxical that we must presume that at least one of the utilitarian theorems contains a strong assumption. We examine the assumptions one by one and conclude that one of Harsanyi's axioms is strong.
+    Information provision experiments are an increasingly popular tool to identify how beliefs causally affect decision-making and behavior. In a simple Bayesian model of belief formation via costly information acquisition, people form precise beliefs when these beliefs are important for their decision-making. The precision of prior beliefs controls how much their beliefs shift when they are shown new information (i.e., the strength of the first stage). Since two-stage least squares (TSLS) targets a weighted average with weights proportional to the strength of the first stage, TSLS will overweight individuals with smaller causal effects and underweight those with larger effects, thus understating the average partial effect of beliefs on behavior. In experimental designs where all participants are exposed to new information, Bayesian updating implies that a control function can be used to identify the (unweighted) average partial effect. I apply this estimator to a recent study of the effec
     
-[^9]: 关于随机选择中的图形方法
+[^5]: 使用边际价格拍卖理论提高售票分配效率
 
-    On Graphical Methods in Stochastic Choice. (arXiv:2303.14249v1 [econ.TH])
+    Increasing Ticketing Allocative Efficiency Using Marginal Price Auction Theory. (arXiv:2309.11189v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.14249](http://arxiv.org/abs/2303.14249)
+    [http://arxiv.org/abs/2309.11189](http://arxiv.org/abs/2309.11189)
 
-    该论文提供了基于图论工具的随机选择概率特征描述，并在不完整领域中提供了随机理性的新刻画。
-
-    
-
-    近年来，有大量论文使用图论工具研究随机选择。Fiornini (2004)的研究成果为该领域提供了基础，通过提供选择概率的图形表示，并显示该图的每个内部节点必须满足流入等于流出。我们发现，这种流入等于流出特性几乎是选择概率的特征。通过这种方式，我们使用图论工具对选择概率进行特征描述。作为该结果的一个应用，我们提供了不完整领域中随机理性的新刻画。
-
-    In recent years there has been an influx of papers which use graph theoretic tools to study stochastic choice. Fiorini (2004) serves as a base for this literature by providing a graphical representation of choice probabilities and showing that every interior node of this graph must satisfy inflow equals outflow. We show that this inflow equals outflow property is almost characteristic of choice probabilities. In doing so, we characterize choice probabilities through graph theoretic tools. As an application of this result, we provide a novel characterization of stochastic rationality on an incomplete domain.
-    
-[^10]: 样本分层实验中的协变量调整
-
-    Covariate Adjustment in Stratified Experiments. (arXiv:2302.03687v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.03687](http://arxiv.org/abs/2302.03687)
-
-    本文研究了样本分层实验中的协变量调整方法，并发现对于分层设计，传统回归估计量通常是低效的。根据这一结果，我们推导了针对给定分层的渐近最优线性协变量调整方法，并构建了几个可行的大样本估计器。
+    使用边际价格拍卖系统的售票协议能够更公平高效地分配票，并帮助活动组织者提取更多经济租金。
 
     
 
-    本文研究了在样本分层实验中对平均处理效应进行协变量调整的方法。我们在一个通用的框架中工作，包括匹配元组设计、粗分层设计和完全随机化设计作为特例。已知对于完全随机化设计，协变量调整与处理-协变量交互项可以弱化效率。然而，我们发现，对于分层设计，这种回归估计量通常是低效的，甚至可能相对于未调整的基准估计量增加估计方差。在此结果的基础上，我们推导出针对给定分层的渐近最优线性协变量调整。我们构建了几个可行的估计器，以使大样本中实现这种高效调整。例如，在匹配对的特例中，包括处理、协变量和对固定效应的回归在渐近上是最优的。我们还提供了新颖的渐近精确推断方法。
+    大多数现代售票系统依赖于先到先得或随机分配系统来确定票的分配。由于其不公平的分配和分配效率低下，这种系统近年来受到了相当大的批评。我们分析了一种基于边际价格拍卖系统变体的售票协议。用户根据自己的效用向协议提交投标。协议将票分配给出价最高的人，并使用最低的中标出价确定所有投标人支付的最终票价。我们提供了博弈理论证明，以确保该协议更有效地将票分配给效用最高的投标人。我们还证明了协议对活动组织者提取了更多的经济租金，以及在时间不变的投标人效用下，票务炒卖的非最优性。
 
-    This paper studies covariate adjusted estimation of the average treatment effect in stratified experiments. We work in a general framework that includes matched tuples designs, coarse stratification, and complete randomization as special cases. Regression adjustment with treatment-covariate interactions is known to weakly improve efficiency for completely randomized designs. By contrast, we show that for stratified designs such regression estimators are generically inefficient, potentially even increasing estimator variance relative to the unadjusted benchmark. Motivated by this result, we derive the asymptotically optimal linear covariate adjustment for a given stratification. We construct several feasible estimators that implement this efficient adjustment in large samples. In the special case of matched pairs, for example, the regression including treatment, covariates, and pair fixed effects is asymptotically optimal. We also provide novel asymptotically exact inference methods tha
+    Most modern ticketing systems rely on a first-come-first-serve or randomized allocation system to determine the allocation of tickets. Such systems has received considerable backlash in recent years due to its inequitable allotment and allocative inefficiency. We analyze a ticketing protocol based on a variation of the marginal price auction system. Users submit bids to the protocol based on their own utilities. The protocol awards tickets to the highest bidders and determines the final ticket price paid by all bidders using the lowest winning submitted bid. Game theoretic proof is provided to ensure the protocol more efficiently allocates the tickets to the bidders with the highest utilities. We also prove that the protocol extracts more economic rents for the event organizers and the non-optimality of ticket scalping under time-invariant bidder utilities.
     
-[^11]: 有与无：经济充足主义理论
+[^6]: 需求：可复现研究的软件包依赖 (arXiv:2309.11058v1 [econ.EM])
 
-    Haves and Have-Nots: A Theory of Economic Sufficientarianism. (arXiv:2301.08666v2 [econ.TH] UPDATED)
+    require: Package dependencies for reproducible research. (arXiv:2309.11058v1 [econ.EM])
 
-    [http://arxiv.org/abs/2301.08666](http://arxiv.org/abs/2301.08666)
+    [http://arxiv.org/abs/2309.11058](http://arxiv.org/abs/2309.11058)
 
-    这篇论文介绍了一种对涉及多种消费品的分配进行排名的充足主义概念推广，研究了充足主义判断与leximin原则的关系。
-
-    
-
-    我们介绍了充足主义概念的一种推广，旨在对涉及多种消费品的分配进行排名。在为固定的代理人社会比较物品分配时，充足主义假设根据被认为足够的消费的个体数量进行比较。我们的分析基于一个新的伦理概念，我们称之为充足主义判断。充足主义判断指出，如果从一个所有代理人消费相同的分配出发，一个代理人的消费变化会对社会造成伤害，那么其他代理人的消费变化不可能对社会造成利益。充足主义被证明等价于充足主义判断、对称性和可分离性。我们在抽象环境和具体经济环境中研究了我们的公理。最后，我们正式论证充足主义判断与leximin原则密切相关。
-
-    We introduce a generalization of the concept of sufficientarianism, intended to rank allocations involving multiple consumption goods. In ranking allocations of goods for a fixed society of agents, sufficientarianism posits that allocations are compared according to the number of individuals whose consumption is deemed sufficient. We base our analysis on a novel ethical concept, which we term sufficientarian judgment. Sufficientarian judgment asserts that if in starting from an allocation in which all agents have identical consumption, a change in one agent's consumption hurts society, then there is no change in any other agent's consumption which could subsequently benefit society. Sufficientarianism is shown to be equivalent to sufficientarian judgment, symmetry, and separability. We investigate our axioms in an abstract environment, and in specific economic environments. Finally, we argue formally that sufficientarian judgment is closely related to the leximin principle.
-    
-[^12]: 人工智能与统计勾结
-
-    Artificial Intelligence and Statistical Collusion. (arXiv:2202.05946v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2202.05946](http://arxiv.org/abs/2202.05946)
-
-    本研究提出了一个可处理的模型来研究学习算法之间的战略互动，揭示了一种导致算法勾结出现的机制。通过自发耦合，算法周期性地协调行动，达到更高利润。该模型的参数可预测统计关联的出现和有利于算法勾结的市场结构，进一步展示了自发耦合如何在价格和市场份额上维持勾结，并应用于设计算法市场。
+    require 命令是一个用于确保 Stata 软件包依赖兼容的工具，它可以验证、检查和安装软件包，以实现可复现的研究。
 
     
 
-    我们开发了一个可处理的模型来研究学习算法之间的战略互动。我们发现了一种导致算法勾结出现的机制。我们观察到算法周期性地协调行动，这些行动比静态纳什均衡更具利润性。这种新的勾结渠道依赖于算法估计中的内生统计关联，我们称之为自发耦合。模型的参数预测了统计关联是否会出现，以及什么市场结构有助于算法勾结。我们展示了自发耦合如何维持价格和市场份额上的勾结，这与文献中的实验证据相补充。最后，我们将结果应用于设计算法市场。
+    在 Stata 中进行可复现研究的能力常常受到用户提交的软件包缺乏版本控制的限制。本文章介绍了 require 命令，这是一个旨在确保 Stata 软件包依赖在不同用户和计算机系统上兼容的工具。给定一个 Stata 软件包列表，require 验证每个包是否安装，检查最低或准确版本或软件包发布日期，并在研究人员提示时可选择安装该软件包。
 
-    We develop a tractable model for studying strategic interactions between learning algorithms. We uncover a mechanism responsible for the emergence of algorithmic collusion. We observe that algorithms periodically coordinate on actions that are more profitable than static Nash equilibria. This novel collusive channel relies on an endogenous statistical linkage in the algorithms' estimates which we call spontaneous coupling. The model's parameters predict whether the statistical linkage will appear, and what market structures facilitate algorithmic collusion. We show that spontaneous coupling can sustain collusion in prices and market shares, complementing experimental findings in the literature. Finally, we apply our results to design algorithmic markets.
+    The ability to conduct reproducible research in Stata is often limited by the lack of version control for user-submitted packages. This article introduces the require command, a tool designed to ensure Stata package dependencies are compatible across users and computer systems. Given a list of Stata packages, require verifies that each package is installed, checks for a minimum or exact version or package release date, and optionally installs the package if prompted by the researcher.
     
-[^13]: 引用次数的局限性
+[^7]: 基于多变量线性回归模型的高管股权对企业新投资的影响研究
 
-    The Limits of Citation Counts. (arXiv:1711.02695v2 [cs.DL] CROSS LISTED)
+    Research on the Impact of Executive Shareholding on New Investment in Enterprises Based on Multivariable Linear Regression Model. (arXiv:2309.10986v1 [math.NA])
 
-    [http://arxiv.org/abs/1711.02695](http://arxiv.org/abs/1711.02695)
+    [http://arxiv.org/abs/2309.10986](http://arxiv.org/abs/2309.10986)
 
-    引用次数作为衡量科学家影响力的指标存在局限性，不能用于跨领域比较科学家，也不能考虑间接影响力。通过使用更丰富的文献信息可以克服这些限制。
+    该研究使用多变量线性回归模型, 基于委托代理理论和最优合同理论, 分析了高管股权对企业新投资的影响。根据研究结果，发现高管持股会通过改变高管股权激励的边际效用，导致管理层、股东和债权人的利益不平衡。
 
     
 
-    我研究基于文献数据来衡量科学家影响力的方法。主要结果是对引用计数指数家族进行了公理特征化，这是一类广泛的影响力衡量方法，包括了广为流行的h指数。结果强调了这些指数的几个限制：它们不能用于跨领域比较科学家，也不能考虑间接影响力。我讨论了如何通过使用更丰富的文献信息来克服这些限制。
+    基于委托代理理论和最优合同理论，企业利用增加高管股权的方式来激励协同创新。然而，从管理层与股东之间的代理成本（即第一类）和大股东与小股东之间的代理成本（即第二类）的角度来看，随着高管股权激励的边际效用变化，管理层、股东和债权人的利益将不平衡。为了建立高管持股比例与企业创新投资之间的关联性，我们选择了中国A股市场上一系列上市公司作为研究焦点。我们使用多变量线性回归模型对这种关系进行全面分析。我们开发了以下模型：（1）高管持股对企业创新投资的影响模型；（2）高管持股对...
 
-    I study the measurement of the influence of scientists based on bibliographic data. The main result is an axiomatic characterization of the family of citation-counting indices, a wide class of influence measures which includes the popular h-index. The result highlights several limits of these indices: they cannot be used to compare scientists across fields, nor can they account for indirect influence. I discuss how these limits can be overcome by using richer bibliographic information.
+    Based on principal-agent theory and optimal contract theory, companies use the method of increasing executives' shareholding to stimulate collaborative innovation. However, from the aspect of agency costs between management and shareholders (i.e. the first type) and between major shareholders and minority shareholders (i.e. the second type), the interests of management, shareholders and creditors will be unbalanced with the change of the marginal utility of executive equity incentives.In order to establish the correlation between the proportion of shares held by executives and investments in corporate innovation, we have chosen a range of publicly listed companies within China's A-share market as the focus of our study. Employing a multi-variable linear regression model, we aim to analyze this relationship thoroughly.The following models were developed: (1) the impact model of executive shareholding on corporate innovation investment; (2) the impact model of executive shareholding on t
+    
+[^8]: 低地球轨道（LEO）卫星宽带星座的可持续性评估
+
+    Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations. (arXiv:2309.02338v1 [astro-ph.EP])
+
+    [http://arxiv.org/abs/2309.02338](http://arxiv.org/abs/2309.02338)
+
+    本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。
+
+    
+
+    超大型星座的增长迅速增加了将新卫星送入空间所需的火箭发射次数。虽然低地球轨道（LEO）宽带卫星有助于连接未连通的社区并实现可持续发展目标，但也存在一系列负面环境外部性，包括火箭燃料燃烧和由此产生的环境排放。我们对三个主要LEO星座的第一阶段进行可持续性分析，包括Amazon Kuiper（3,236颗卫星）、OneWeb（648颗卫星）和SpaceX Starlink（4,425颗卫星）。在基准方案下，经过五年，我们发现Kuiper的每位用户二氧化碳当量（CO$_2$eq）为0.70±0.34吨，OneWeb为1.41±0.71吨，Starlink为0.47±0.15吨CO$_2$eq/用户。然而，在最坏情况下的排放情景中，这些值增加到Kuiper的3.02±1.48吨，OneWeb的1.7±0.71吨和Starlink的1.04±0.33吨CO$_2$eq/用户。
+
+    The growth of mega-constellations is rapidly increasing the number of rocket launches required to place new satellites in space. While Low Earth Orbit (LEO) broadband satellites help to connect unconnected communities and achieve the Sustainable Development Goals, there are also a range of negative environmental externalities, from the burning of rocket fuels and resulting environmental emissions. We present sustainability analytics for phase 1 of the three main LEO constellations including Amazon Kuiper (3,236 satellites), OneWeb (648 satellites), and SpaceX Starlink (4,425 satellites). In baseline scenarios over five years, we find a per subscriber carbon dioxide equivalent (CO$_2$eq) of 0.70$\pm$0.34 tonnes for Kuiper, 1.41$\pm$0.71 tonnes for OneWeb and 0.47$\pm$0.15 tonnes CO$_2$eq/subscriber for Starlink. However, in the worst-case emissions scenario these values increase to 3.02$\pm$1.48 tonnes for Kuiper, 1.7$\pm$0.71 tonnes for OneWeb and 1.04$\pm$0.33 tonnes CO$_2$eq/subscrib
+    
+[^9]: 重参数化与半参数Bernstein-von-Mises定理
+
+    Reparametrization and the Semiparametric Bernstein-von-Mises Theorem. (arXiv:2306.03816v1 [math.ST])
+
+    [http://arxiv.org/abs/2306.03816](http://arxiv.org/abs/2306.03816)
+
+    本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。
+
+    
+
+    本文考虑了部分线性模型的贝叶斯推断。我们的方法利用了回归函数的一个参数化形式，该形式专门用于估计所关心的低维参数。参数化的关键特性是生成了一个Neyman正交矩条件，这意味着对干扰参数的估计低维参数不太敏感。我们的大样本分析支持了这种说法。特别地，我们推导出充分的条件，使得低维参数的后验在参数速率下对真实值收缩，并且在半参数效率界的方差下渐近地正态分布。这些条件相对于回归模型的原始参数化允许更大类的干扰参数。总的来说，我们得出结论，一个嵌入了Neyman正交性的参数化方法可以成为半参数推断中的一个有用工具，以去偏后验分布。
+
+    This paper considers Bayesian inference for the partially linear model. Our approach exploits a parametrization of the regression function that is tailored toward estimating a low-dimensional parameter of interest. The key property of the parametrization is that it generates a Neyman orthogonal moment condition meaning that the low-dimensional parameter is less sensitive to the estimation of nuisance parameters. Our large sample analysis supports this claim. In particular, we derive sufficient conditions under which the posterior for the low-dimensional parameter contracts around the truth at the parametric rate and is asymptotically normal with a variance that coincides with the semiparametric efficiency bound. These conditions allow for a larger class of nuisance parameters relative to the original parametrization of the regression model. Overall, we conclude that a parametrization that embeds Neyman orthogonality can be a useful device for debiasing posterior distributions in semipa
+    
+[^10]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
+
+    More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2103.06437](http://arxiv.org/abs/2103.06437)
+
+    本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+
+    
+
+    我们证明，面板Bartik回归可以确定位置和时间特定的治疗效应的非凸组合。因此，在存在异质效应的情况下，这些回归可能存在偏差。我们提出了一种替代的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应。我们重新审视了Autor等人（2013）的研究，他们使用面板Bartik回归估计中美进口对美国制造业就业的影响。他们的回归估计了高度非凸的效应组合，我们的IV-CRC估计器很小且不显著：在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+
+    We show that panel Bartik regressions identify non-convex combinations of location-and-period-specific treatment effects. Thus, those regressions could be biased in the presence of heterogeneous effects. We propose an alternative instrumental-variable correlated-random-coefficient (IV-CRC) estimator, that is more robust to heterogeneous effects. We revisit Autor et al. (2013), who use a panel Bartik regression to estimate the effect of imports from China on US manufacturing employment. Their regression estimates a highly non-convex combination of effects, and our IV-CRC estimator is small and insignificant: without assuming constant effects, one cannot conclude that imports from China negatively affected US manufacturing employment.
+    
+[^11]: 匹配函数平衡中的部分分配:存在性、唯一性和估计
+
+    Matching Function Equilibria with Partial Assignment: Existence, Uniqueness and Estimation. (arXiv:2102.02071v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2102.02071](http://arxiv.org/abs/2102.02071)
+
+    该论文研究了匹配函数平衡中的部分分配问题，证明了平衡的存在和唯一性，并提出了一种高效的计算方法。对于某些匹配模型，还提出了一种无需参数估计的构造对照匹配均衡的方法。这些方法在分析社会政策对婚姻市场影响方面具有重要应用价值。
+
+    
+
+    我们认为来自不同领域的模型，如匹配模型和离散选择模型等，共享一个我们称之为带有部分分配的匹配函数平衡的共同结构。这个结构包括一个总体匹配函数和一个非线性方程系统。我们证明了平衡存在和唯一性，并提出了一个高效的算法来计算它。对于一类匹配模型，我们还开发了一种新的无参数方法来构建反事实匹配均衡。它的优势是在计算反事实时不需要参数估计。我们使用我们的程序来分析1982年社会保障学生福利计划的取消对美国婚姻市场的影响。我们从我们的一般匹配函数类中估计了几个候选模型，并使用基于信息的准则选择最佳拟合模型。
+
+    We argue that models coming from a variety of fields, such as matching models and discrete choice models among others, share a common structure that we call matching function equilibria with partial assignment. This structure includes an aggregate matching function and a system of nonlinear equations. We provide a proof of existence and uniqueness of an equilibrium and propose an efficient algorithm to compute it. For a subclass of matching models, we also develop a new parameter-free approach for constructing the counterfactual matching equilibrium. It has the advantage of not requiring parametric estimation when computing counterfactuals. We use our procedure to analyze the impact of the elimination of the Social Security Student Benefit Program in 1982 on the marriage market in the United States. We estimate several candidate models from our general class of matching functions and select the best fitting model using information based criterion.
     
 

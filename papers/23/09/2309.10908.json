@@ -1,0 +1,12 @@
+{
+    "title": "Multicopy Reinforcement Learning Agents. (arXiv:2309.10908v1 [cs.MA])",
+    "abstract": "This paper examines a novel type of multi-agent problem, in which an agent makes multiple identical copies of itself in order to achieve a single agent task better or more efficiently. This strategy improves performance if the environment is noisy and the task is sometimes unachievable by a single agent copy. We propose a learning algorithm for this multicopy problem which takes advantage of the structure of the value function to efficiently learn how to balance the advantages and costs of adding additional copies.",
+    "link": "http://arxiv.org/abs/2309.10908",
+    "context": "Title: Multicopy Reinforcement Learning Agents. (arXiv:2309.10908v1 [cs.MA])\nAbstract: This paper examines a novel type of multi-agent problem, in which an agent makes multiple identical copies of itself in order to achieve a single agent task better or more efficiently. This strategy improves performance if the environment is noisy and the task is sometimes unachievable by a single agent copy. We propose a learning algorithm for this multicopy problem which takes advantage of the structure of the value function to efficiently learn how to balance the advantages and costs of adding additional copies.",
+    "path": "papers/23/09/2309.10908.json",
+    "total_tokens": 653,
+    "translated_title": "多副本强化学习智能体",
+    "translated_abstract": "本文研究了一种新型的多智能体问题，其中一个智能体通过制作多个相同副本来更好或更高效地完成单个智能体任务。如果环境嘈杂，并且单个智能体副本有时无法完成任务，则这种策略可以提高性能。我们提出了一种用于解决多副本问题的学习算法，该算法利用价值函数的结构，有效地学习如何平衡添加额外副本的优势和成本。",
+    "tldr": "本文研究了一种新型的多智能体问题，在这个问题中，智能体制作多个相同副本来更好地完成任务。通过利用价值函数的结构，提出了一种学习算法来平衡添加额外副本的优势和成本。",
+    "en_tdlr": "This paper examines a novel type of multi-agent problem where an agent creates multiple identical copies of itself to better accomplish a single-agent task. By leveraging the structure of the value function, a learning algorithm is proposed to balance the advantages and costs of adding additional copies."
+}

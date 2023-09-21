@@ -1,0 +1,11 @@
+{
+    "title": "When to Trust AI: Advances and Challenges for Certification of Neural Networks. (arXiv:2309.11196v1 [cs.LG])",
+    "abstract": "Artificial intelligence (AI) has been advancing at a fast pace and it is now poised for deployment in a wide range of applications, such as autonomous systems, medical diagnosis and natural language processing. Early adoption of AI technology for real-world applications has not been without problems, particularly for neural networks, which may be unstable and susceptible to adversarial examples. In the longer term, appropriate safety assurance techniques need to be developed to reduce potential harm due to avoidable system failures and ensure trustworthiness. Focusing on certification and explainability, this paper provides an overview of techniques that have been developed to ensure safety of AI decisions and discusses future challenges.",
+    "link": "http://arxiv.org/abs/2309.11196",
+    "context": "Title: When to Trust AI: Advances and Challenges for Certification of Neural Networks. (arXiv:2309.11196v1 [cs.LG])\nAbstract: Artificial intelligence (AI) has been advancing at a fast pace and it is now poised for deployment in a wide range of applications, such as autonomous systems, medical diagnosis and natural language processing. Early adoption of AI technology for real-world applications has not been without problems, particularly for neural networks, which may be unstable and susceptible to adversarial examples. In the longer term, appropriate safety assurance techniques need to be developed to reduce potential harm due to avoidable system failures and ensure trustworthiness. Focusing on certification and explainability, this paper provides an overview of techniques that have been developed to ensure safety of AI decisions and discusses future challenges.",
+    "path": "papers/23/09/2309.11196.json",
+    "total_tokens": 736,
+    "translated_title": "何时信任人工智能：神经网络认证的进展与挑战",
+    "translated_abstract": "人工智能（AI）正在快速发展，并且正准备在自主系统、医学诊断和自然语言处理等各种应用中进行部署。对于真实世界应用来说，早期采用AI技术并不是没有问题的，特别是对于神经网络来说，其可能是不稳定的，并容易受到对抗性示例的影响。从长远来看，需要开发适当的安全保证技术，以减少可避免的系统故障带来的潜在危害，并确保其可信性。本文以认证和可解释性为重点，综述了已经开发的用于确保AI决策安全的技术，并讨论了未来的挑战。",
+    "tldr": "本文主要关注人工智能（AI）的认证和可解释性，综述了已经开发的用于确保AI决策安全的技术，并探讨了未来的挑战。"
+}

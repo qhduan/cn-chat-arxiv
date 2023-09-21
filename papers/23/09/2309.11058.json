@@ -1,0 +1,12 @@
+{
+    "title": "require: Package dependencies for reproducible research. (arXiv:2309.11058v1 [econ.EM])",
+    "abstract": "The ability to conduct reproducible research in Stata is often limited by the lack of version control for user-submitted packages. This article introduces the require command, a tool designed to ensure Stata package dependencies are compatible across users and computer systems. Given a list of Stata packages, require verifies that each package is installed, checks for a minimum or exact version or package release date, and optionally installs the package if prompted by the researcher.",
+    "link": "http://arxiv.org/abs/2309.11058",
+    "context": "Title: require: Package dependencies for reproducible research. (arXiv:2309.11058v1 [econ.EM])\nAbstract: The ability to conduct reproducible research in Stata is often limited by the lack of version control for user-submitted packages. This article introduces the require command, a tool designed to ensure Stata package dependencies are compatible across users and computer systems. Given a list of Stata packages, require verifies that each package is installed, checks for a minimum or exact version or package release date, and optionally installs the package if prompted by the researcher.",
+    "path": "papers/23/09/2309.11058.json",
+    "total_tokens": 618,
+    "translated_title": "需求：可复现研究的软件包依赖 (arXiv:2309.11058v1 [econ.EM])",
+    "translated_abstract": "在 Stata 中进行可复现研究的能力常常受到用户提交的软件包缺乏版本控制的限制。本文章介绍了 require 命令，这是一个旨在确保 Stata 软件包依赖在不同用户和计算机系统上兼容的工具。给定一个 Stata 软件包列表，require 验证每个包是否安装，检查最低或准确版本或软件包发布日期，并在研究人员提示时可选择安装该软件包。",
+    "tldr": "require 命令是一个用于确保 Stata 软件包依赖兼容的工具，它可以验证、检查和安装软件包，以实现可复现的研究。",
+    "en_tdlr": "The require command is a tool to ensure compatibility of Stata package dependencies, it can verify, check, and install packages for reproducible research."
+}

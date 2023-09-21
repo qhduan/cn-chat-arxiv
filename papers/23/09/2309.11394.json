@@ -1,0 +1,12 @@
+{
+    "title": "Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$. (arXiv:2309.11394v1 [cs.CY])",
+    "abstract": "Since the Merge update upon which Ethereum transitioned to Proof of Stake, it has been touted that it resulted in lower power consumption and increased security. However, even if that is the case, can this state be sustained?  In this paper, we focus on the potential impact of competition with other smart contract platforms on the price of Ethereum's native currency, Ether (ETH), thereby raising questions about the safety and sustainability purportedly brought about by the design of Proof of Stake.",
+    "link": "http://arxiv.org/abs/2309.11394",
+    "context": "Title: Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$. (arXiv:2309.11394v1 [cs.CY])\nAbstract: Since the Merge update upon which Ethereum transitioned to Proof of Stake, it has been touted that it resulted in lower power consumption and increased security. However, even if that is the case, can this state be sustained?  In this paper, we focus on the potential impact of competition with other smart contract platforms on the price of Ethereum's native currency, Ether (ETH), thereby raising questions about the safety and sustainability purportedly brought about by the design of Proof of Stake.",
+    "path": "papers/23/09/2309.11394.json",
+    "total_tokens": 655,
+    "translated_title": "以智能合约平台竞争视角考虑，以太坊的权益证明机制是否可持续？",
+    "translated_abstract": "自从以太坊过渡到权益证明机制后，声称其结果是降低能源消耗和增加安全性。然而，即使是这种情况，这种状态能持续下去吗？本文关注其他智能合约平台对以太坊本地货币Ether（ETH）价格可能带来的潜在影响，进而对权益证明设计所宣称的安全性和可持续性提出了疑问。",
+    "tldr": "本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。",
+    "en_tdlr": "This paper raises questions about the safety and sustainability of Ethereum's Proof of Stake design by focusing on the potential impact of competition with other smart contract platforms on the price of Ether (ETH), its native currency."
+}

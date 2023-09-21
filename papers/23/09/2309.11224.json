@@ -1,0 +1,12 @@
+{
+    "title": "Leveraging Diversity in Online Interactions. (arXiv:2309.11224v1 [cs.AI])",
+    "abstract": "This paper addresses the issue of connecting people online to help them find support with their day-to-day problems. We make use of declarative norms for mediating online interactions, and we specifically focus on the issue of leveraging diversity when connecting people. We run pilots at different university sites, and the results show relative success in the diversity of the selected profiles, backed by high user satisfaction.",
+    "link": "http://arxiv.org/abs/2309.11224",
+    "context": "Title: Leveraging Diversity in Online Interactions. (arXiv:2309.11224v1 [cs.AI])\nAbstract: This paper addresses the issue of connecting people online to help them find support with their day-to-day problems. We make use of declarative norms for mediating online interactions, and we specifically focus on the issue of leveraging diversity when connecting people. We run pilots at different university sites, and the results show relative success in the diversity of the selected profiles, backed by high user satisfaction.",
+    "path": "papers/23/09/2309.11224.json",
+    "total_tokens": 573,
+    "translated_title": "在线互动中利用多样性",
+    "translated_abstract": "本文解决了在线连接人们来帮助他们解决日常问题的问题。我们利用声明性规范来调节在线互动，并特别关注在连接人们时利用多样性的问题。我们在不同的大学网站上进行了试点，结果显示所选择的个人资料的多样性相对成功，并得到了高用户满意度的支持。",
+    "tldr": "本文研究了在在线互动中如何利用多样性，通过利用声明性规范来连接人们以帮助他们解决日常问题。试点结果表明，所选择的个人资料的多样性取得了相对成功，并得到了用户的高度满意。",
+    "en_tdlr": "This paper explores leveraging diversity in online interactions by using declarative norms to connect people and help them with their day-to-day problems. Pilot results demonstrate relative success in diversity of selected profiles and high user satisfaction."
+}

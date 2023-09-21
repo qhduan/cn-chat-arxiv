@@ -1,0 +1,12 @@
+{
+    "title": "The Wizard of Curiosities: Enriching Dialogues with Fun Facts. (arXiv:2309.11283v1 [cs.CL])",
+    "abstract": "Introducing curiosities in a conversation is a way to teach something new to the person in a pleasant and enjoyable way. Enriching dialogues with contextualized curiosities can improve the users' perception of a dialog system and their overall user experience. In this paper, we introduce a set of curated curiosities, targeting dialogues in the cooking and DIY domains. In particular, we use real human-agent conversations collected in the context of the Amazon Alexa TaskBot challenge, a multimodal and multi-turn conversational setting. According to an A/B test with over 1000 conversations, curiosities not only increase user engagement, but provide an average relative rating improvement of 9.7%.",
+    "link": "http://arxiv.org/abs/2309.11283",
+    "context": "Title: The Wizard of Curiosities: Enriching Dialogues with Fun Facts. (arXiv:2309.11283v1 [cs.CL])\nAbstract: Introducing curiosities in a conversation is a way to teach something new to the person in a pleasant and enjoyable way. Enriching dialogues with contextualized curiosities can improve the users' perception of a dialog system and their overall user experience. In this paper, we introduce a set of curated curiosities, targeting dialogues in the cooking and DIY domains. In particular, we use real human-agent conversations collected in the context of the Amazon Alexa TaskBot challenge, a multimodal and multi-turn conversational setting. According to an A/B test with over 1000 conversations, curiosities not only increase user engagement, but provide an average relative rating improvement of 9.7%.",
+    "path": "papers/23/09/2309.11283.json",
+    "total_tokens": 764,
+    "translated_title": "趣味事实世界的巫师：用趣闻娱乐方式丰富对话",
+    "translated_abstract": "在对话中引入趣味事实是以一种愉快和有趣的方式向对方传授新知识。通过将上下文相关的趣味事实融入对话中，可以提升用户对对话系统的感知和整体用户体验。本文介绍了一组定制的趣味事实，针对烹饪和DIY领域的对话进行丰富。具体而言，我们使用在亚马逊Alexa TaskBot挑战的多模态和多轮对话环境中收集到的真实人与机器人对话。根据超过1000个对话的A/B测试结果，趣味事实不仅增加了用户的参与度，还提供了平均相对评分提高了9.7%。",
+    "tldr": "该论文介绍了在对话中引入趣味事实的方法，提高了用户对对话系统的参与度和整体体验，通过A/B测试显示该方法相对评分提高了9.7%。",
+    "en_tdlr": "This paper presents a method of introducing fun facts in conversations, enhancing user engagement and overall experience with the dialogue system. A/B testing shows an average relative rating improvement of 9.7% for this approach."
+}

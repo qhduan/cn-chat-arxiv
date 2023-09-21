@@ -1,0 +1,11 @@
+{
+    "title": "Open-endedness induced through a predator-prey scenario using modular robots. (arXiv:2309.11275v1 [cs.RO])",
+    "abstract": "This work investigates how a predator-prey scenario can induce the emergence of Open-Ended Evolution (OEE). We utilize modular robots of fixed morphologies whose controllers are subject to evolution. In both species, robots can send and receive signals and perceive the relative positions of other robots in the environment. Specifically, we introduce a feature we call a tagging system: it modifies how individuals can perceive each other and is expected to increase behavioral complexity. Our results show the emergence of adaptive strategies, demonstrating the viability of inducing OEE through predator-prey dynamics using modular robots. Such emergence, nevertheless, seemed to depend on conditioning reproduction to an explicit behavioral criterion.",
+    "link": "http://arxiv.org/abs/2309.11275",
+    "context": "Title: Open-endedness induced through a predator-prey scenario using modular robots. (arXiv:2309.11275v1 [cs.RO])\nAbstract: This work investigates how a predator-prey scenario can induce the emergence of Open-Ended Evolution (OEE). We utilize modular robots of fixed morphologies whose controllers are subject to evolution. In both species, robots can send and receive signals and perceive the relative positions of other robots in the environment. Specifically, we introduce a feature we call a tagging system: it modifies how individuals can perceive each other and is expected to increase behavioral complexity. Our results show the emergence of adaptive strategies, demonstrating the viability of inducing OEE through predator-prey dynamics using modular robots. Such emergence, nevertheless, seemed to depend on conditioning reproduction to an explicit behavioral criterion.",
+    "path": "papers/23/09/2309.11275.json",
+    "total_tokens": 868,
+    "translated_title": "使用模块化机器人通过捕食-被捕食者场景诱导开放式进化研究",
+    "translated_abstract": "本研究探讨了如何通过捕食-被捕食者场景诱发开放式进化（OEE）的出现。我们利用具有固定形态的模块化机器人，并对其控制器进行进化。在两个物种中，机器人可以发送和接收信号，并感知环境中其他机器人的相对位置。具体来说，我们引入了一个称为标记系统的特征：它修改了个体之间的感知方式，预计可以增加行为复杂性。我们的结果显示了适应性策略的出现，证明了通过捕食-被捕食者动态使用模块化机器人诱导开放式进化方法的可行性。然而，这种出现似乎依赖于将繁殖条件化为明确的行为准则。",
+    "tldr": "本研究通过使用具有固定形态的模块化机器人，在捕食-被捕食者场景中诱发了开放式进化的出现。通过引入标记系统，增加了机器人的行为复杂性，并展示了适应性策略的出现。这一研究证明了利用模块化机器人进行捕食-被捕食者动态时诱导开放式进化的可行性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Signature Activation: A Sparse Signal View for Holistic Saliency. (arXiv:2309.11443v1 [cs.CV])",
+    "abstract": "The adoption of machine learning in healthcare calls for model transparency and explainability. In this work, we introduce Signature Activation, a saliency method that generates holistic and class-agnostic explanations for Convolutional Neural Network (CNN) outputs. Our method exploits the fact that certain kinds of medical images, such as angiograms, have clear foreground and background objects. We give theoretical explanation to justify our methods. We show the potential use of our method in clinical settings through evaluating its efficacy for aiding the detection of lesions in coronary angiograms.",
+    "link": "http://arxiv.org/abs/2309.11443",
+    "context": "Title: Signature Activation: A Sparse Signal View for Holistic Saliency. (arXiv:2309.11443v1 [cs.CV])\nAbstract: The adoption of machine learning in healthcare calls for model transparency and explainability. In this work, we introduce Signature Activation, a saliency method that generates holistic and class-agnostic explanations for Convolutional Neural Network (CNN) outputs. Our method exploits the fact that certain kinds of medical images, such as angiograms, have clear foreground and background objects. We give theoretical explanation to justify our methods. We show the potential use of our method in clinical settings through evaluating its efficacy for aiding the detection of lesions in coronary angiograms.",
+    "path": "papers/23/09/2309.11443.json",
+    "total_tokens": 764,
+    "translated_title": "签名激活: 一种用于整体显著性的稀疏信号观点",
+    "translated_abstract": "在医疗领域中，机器学习的应用需要模型的透明度和可解释性。在本研究中，我们引入了一种称为签名激活的显著性方法，用于生成对卷积神经网络（CNN）输出的整体和类别不可知的解释。我们的方法利用了某些类型的医学图像（如血管造影图像）具有清晰的前景和背景对象的事实。我们给出了理论解释来证明我们的方法的有效性。通过评估我们的方法在冠状动脉造影图像中辅助病变检测的效果，我们展示了我们方法在临床设置中的潜在应用。",
+    "tldr": "该研究介绍了一种称为签名激活的显著性方法，利用稀疏信号观点生成对卷积神经网络输出的整体和类别不可知的解释。该方法在医学图像分析和临床病变检测中具有潜在应用价值。",
+    "en_tdlr": "This research introduces Signature Activation, a saliency method that generates holistic and class-agnostic explanations for Convolutional Neural Network (CNN) outputs using a sparse signal view. The method shows potential applications in medical image analysis and clinical lesion detection."
+}

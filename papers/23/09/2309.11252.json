@@ -1,0 +1,11 @@
+{
+    "title": "The Scenario Refiner: Grounding subjects in images at the morphological level. (arXiv:2309.11252v1 [cs.CL])",
+    "abstract": "Derivationally related words, such as \"runner\" and \"running\", exhibit semantic differences which also elicit different visual scenarios. In this paper, we ask whether Vision and Language (V\\&L) models capture such distinctions at the morphological level, using a a new methodology and dataset. We compare the results from V\\&L models to human judgements and find that models' predictions differ from those of human participants, in particular displaying a grammatical bias. We further investigate whether the human-model misalignment is related to model architecture. Our methodology, developed on one specific morphological contrast, can be further extended for testing models on capturing other nuanced language features.",
+    "link": "http://arxiv.org/abs/2309.11252",
+    "context": "Title: The Scenario Refiner: Grounding subjects in images at the morphological level. (arXiv:2309.11252v1 [cs.CL])\nAbstract: Derivationally related words, such as \"runner\" and \"running\", exhibit semantic differences which also elicit different visual scenarios. In this paper, we ask whether Vision and Language (V\\&L) models capture such distinctions at the morphological level, using a a new methodology and dataset. We compare the results from V\\&L models to human judgements and find that models' predictions differ from those of human participants, in particular displaying a grammatical bias. We further investigate whether the human-model misalignment is related to model architecture. Our methodology, developed on one specific morphological contrast, can be further extended for testing models on capturing other nuanced language features.",
+    "path": "papers/23/09/2309.11252.json",
+    "total_tokens": 826,
+    "translated_title": "场景细化器：在形态学层面上将主题与图像相联系",
+    "translated_abstract": "衍生的相关词，如\"runner\"和\"running\"，展示了语义上的差异，也引发了不同的视觉场景。本文探讨了视觉和语言（V＆L）模型在形态学层面上是否捕捉到这些区别，使用了一种新的方法和数据集。我们将V＆L模型的结果与人类判断结果进行比较，发现模型的预测与人类参与者的不同，尤其表现出一种语法偏见。我们进一步研究了人类模型不对齐与模型架构之间的关系。我们的方法可以进一步推广用于测试模型在捕捉其他微妙语言特征方面的能力。",
+    "tldr": "本文研究了视觉和语言（V＆L）模型在形态学层面上是否捕捉到衍生相关词的语义差异，并发现了模型与人类参与者之间的不一致性，尤其表现出一种语法偏见。该研究可为测试V＆L模型在捕捉其他微妙语言特征方面的能力提供方法。"
+}
