@@ -2,142 +2,307 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bravo MaRDI: A Wikibase Powered Knowledge Graph on Mathematics.](http://arxiv.org/abs/2309.11484) | Bravo MaRDI是一个基于Wikibase的数学知识图谱，旨在填补当代数学领域中专家策划知识图谱的空白。该知识图谱链接了各种形式的数学研究数据，包括数据集、软件、出版物以及数学公式和假设等。 |
-| [^2] | [Retrieving Supporting Evidence for Generative Question Answering.](http://arxiv.org/abs/2309.11392) | 本文报道了两个实验，用于自动验证开放域问答生成的答案在语料库中的正确性。使用稀疏检索、密集检索和神经重排器的检索流程，通过对问题+生成答案+检索答案的组合进行验证。 |
-| [^3] | [Long-tail Augmented Graph Contrastive Learning for Recommendation.](http://arxiv.org/abs/2309.11177) | 提出了一种新颖的长尾增强图对比学习（LAGCL）方法用于推荐系统，通过引入可学习的长尾增强方法和生成对比视图来解决头尾节点之间的显著度差异问题，并采用度均衡机制来平衡数据增强程度。 |
-| [^4] | [Artificial Intelligence-Enabled Intelligent Assistant for Personalized and Adaptive Learning in Higher Education.](http://arxiv.org/abs/2309.10892) | 该论文介绍了一个名为人工智能助力的智能助手（AIIA）的框架，用于高等教育中的个性化和自适应学习。该系统利用先进的AI和自然语言处理技术，提供交互和引人入胜的学习平台，通过简化信息获取、促进知识评估和个性化学习支持来降低学习者的认知负荷。其功能包括理解和回答学生问题、生成测验和闪卡，并提供个性化学习路径。该研究结果可对高等教育中人工智能虚拟助教（VTA）的设计、实施和评估产生重要影响，从而提高学生的学习成果、参与度和满意度。 |
-| [^5] | [Classifying Organizations for Food System Ontologies using Natural Language Processing.](http://arxiv.org/abs/2309.10880) | 本研究使用自然语言处理方法自动对食物系统本体中的组织进行分类，研究结果表明NLP模型可以在这两个分类任务中取得良好性能。 |
-| [^6] | [MelodyGLM: Multi-task Pre-training for Symbolic Melody Generation.](http://arxiv.org/abs/2309.10738) | 提出了一种名为MelodyGLM的多任务预训练框架，用于生成具有长期结构的旋律。该框架通过设计音乐n-gram和长跨度抽样策略来捕捉旋律的局部和全局结构，并使用大规模符号旋律数据集进行预训练改进。 |
-| [^7] | [Multi-modality Meets Re-learning: Mitigating Negative Transfer in Sequential Recommendation.](http://arxiv.org/abs/2309.10195) | 该论文提出了一种名为ANT的方法来解决顺序推荐中的负迁移问题，通过结合多模态项目信息，inc。 |
-| [^8] | [NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation.](http://arxiv.org/abs/2309.07705) | NineRec是一个用于评估可迁移推荐的数据集套件，包括一个大规模的源域推荐数据集和九个多样的目标域推荐数据集。每个物品由文本描述和高分辨率封面图像表示。 |
-| [^9] | [Interactive Explanation with Varying Level of Details in an Explainable Scientific Literature Recommender System.](http://arxiv.org/abs/2306.05809) | 本文旨在采用以用户为中心的交互式解释模型，在推荐系统中为用户提供不同细节级别的解释，赋予用户个性化解释的能力。 |
+| [^1] | [Improving VTE Identification through Adaptive NLP Model Selection and Clinical Expert Rule-based Classifier from Radiology Reports.](http://arxiv.org/abs/2309.12273) | 通过自适应的NLP模型选择和临床专家规则的分类器，该研究提出一种改进VTE识别的新方法，在放射学报告中准确识别VTE事件的准确性得到提高。 |
+| [^2] | [SR-PredictAO: Session-based Recommendation with High-Capability Predictor Add-On.](http://arxiv.org/abs/2309.12218) | SR-PredictAO是一种基于会话的推荐系统，通过引入高能力预测器模块，解决了现有模型中低能力预测器模块的问题，可以在存在随机用户行为的情况下预测用户的下一个动作。 |
+| [^3] | [Towards Robust and Truly Large-Scale Audio-Sheet Music Retrieval.](http://arxiv.org/abs/2309.12158) | 本文研究了音频-乐谱检索的当前发展情况，通过深度学习方法解决了鲁棒性和大规模应用的挑战。 |
+| [^4] | [Passage Summarization with Recurrent Models for Audio-Sheet Music Retrieval.](http://arxiv.org/abs/2309.12111) | 本文提出了一个使用循环模型的音频-乐谱检索方法，通过学习跨模态循环网络生成可以摘要对应音频和乐谱的更长段落的联合嵌入。相比于传统方法，该方法只需要弱对齐的音频-乐谱对，并且能够处理音频和乐谱之间的节奏变化导致的非线性。 |
+| [^5] | [Unveiling Optimal SDG Pathways: An Innovative Approach Leveraging Graph Pruning and Intent Graph for Effective Recommendations.](http://arxiv.org/abs/2309.11741) | 该论文提出了一种名为UGPIG的方法，通过应用剪枝用户图和意图图解决空间异质性和稀疏性数据的问题，以实现推荐适用的可持续发展模式。 |
+| [^6] | [Candidate Set Sampling for Evaluating Top-N Recommendation.](http://arxiv.org/abs/2309.11723) | 本论文研究了在离线推荐系统中，候选集的选择策略与流行度偏差的交互作用，通过模拟评估发现抽样的候选集可以减少度量估计的偏差。 |
+| [^7] | [SE-PEF: a Resource for Personalized Expert Finding.](http://arxiv.org/abs/2309.11686) | 该论文介绍了SE-PEF，一个用于个性化专家查找的资源。该资源包括超过25万个查询和56.5万个答案，并使用一套丰富的特征来建模用户之间的社交互动。初步实验结果表明SE-PEF适用于评估和训练有效的专家查找模型。 |
+| [^8] | [Popularity Degradation Bias in Local Music Recommendation.](http://arxiv.org/abs/2309.11671) | 本文研究了流行度衰减偏差对本地音乐推荐的影响，发现在推荐流行艺术家方面，权重相关矩阵分解和多项式变分自动编码器表现较好，但对于不太流行的艺术家来说，多项式变分自动编码器的相对性能更好。 |
+| [^9] | [Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation.](http://arxiv.org/abs/2309.11623) | 本研究利用自我注意力机制和负面反馈，提出了用于顺序音乐推荐的Transformer模型，并采用对比学习任务来提高推荐准确性。 |
+| [^10] | [TrueLearn: A Python Library for Personalised Informational Recommendations with (Implicit) Feedback.](http://arxiv.org/abs/2309.11527) | TrueLearn是一个Python库，用于构建个性化的信息推荐系统，并提供了丰富的文档和编码示例，可帮助开发人员和从业者使用。它采用了开放学习者的概念和人性化的用户表达方式，同时支持用户可视化和模型性能评估。 |
+| [^11] | [Ad-load Balancing via Off-policy Learning in a Content Marketplace.](http://arxiv.org/abs/2309.11518) | 本文介绍了一个使用离线学习和强化学习反馈的方法来解决在线广告系统中的广告负载平衡问题，该方法能够适应用户偏好和上下文因素的变化，并最大化用户参与度和收入。 |
+| [^12] | [Private Matrix Factorization with Public Item Features.](http://arxiv.org/abs/2309.11516) | 这项研究提出了一种使用公共项目特征进行私有矩阵分解的方法，以缓解差分隐私训练对推荐质量的影响，并展示了这种方法的简单性、易调整性和可扩展性。 |
+| [^13] | [Towards Differential Privacy in Sequential Recommendation: A Noisy Graph Neural Network Approach.](http://arxiv.org/abs/2309.11515) | 这项工作提出了一种新颖的差分隐私顺序推荐框架，采用了噪声图神经网络方法，解决了现有差分隐私推荐系统在动态和依赖关系方面的局限性，同时也关注了敏感用户特征的隐私风险。 |
+| [^14] | [When is a Foundation Model a Foundation Model.](http://arxiv.org/abs/2309.11510) | 这项研究发现，通过对基础模型进行微调，使用在线数据源的图片进行图像-文本建模在医学领域具有潜力。然而，这些基础模型在数字病理学的检索任务中表现不如传统的深度网络。 |
+| [^15] | [AdBooster: Personalized Ad Creative Generation using Stable Diffusion Outpainting.](http://arxiv.org/abs/2309.11507) | AdBooster通过使用稳定扩散外景架构和生成模型，实现了个性化广告创作的创意优化，其有效性得到了实验证明。 |
+| [^16] | [Matching Table Metadata with Business Glossaries Using Large Language Models.](http://arxiv.org/abs/2309.11506) | 本研究探讨了将表元数据与业务词汇进行匹配的问题，通过匹配可以在不请求访问数据内容之前或之后，有效利用可用的业务词汇进行检索和分析。 |
+| [^17] | [Fairness Vs. Personalization: Towards Equity in Epistemic Utility.](http://arxiv.org/abs/2309.11503) | 该论文研究了个性化推荐系统中公平性与个性化之间的困境，并提出了在认知效用背景下实现公正的公平的解决方案。 |
+| [^18] | [Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems.](http://arxiv.org/abs/2309.08617) | Drifter是一个高效的在线特征监控系统，通过敏捷、响应和适应性的数据质量监控，实时分析、检测和解决推荐系统中的数据问题，使得实时推荐系统的可靠性和性能得到显著提升。 |
+| [^19] | [PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search.](http://arxiv.org/abs/2307.09683) | 本论文总结了生物医学文献检索领域的最新进展和最佳实践，介绍了针对不同生物医学信息需求的文献检索工具，并旨在帮助读者高效满足其信息需求。 |
+| [^20] | [Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom.](http://arxiv.org/abs/2306.11963) | 本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。 |
 
 # 详细
 
-[^1]: Bravo MaRDI: 一个以Wikibase为支持的数学知识图谱
+[^1]: 通过自适应的NLP模型选择和基于临床专家规则的分类器改进VTE的识别
 
-    Bravo MaRDI: A Wikibase Powered Knowledge Graph on Mathematics. (arXiv:2309.11484v1 [cs.DL])
+    Improving VTE Identification through Adaptive NLP Model Selection and Clinical Expert Rule-based Classifier from Radiology Reports. (arXiv:2309.12273v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.11484](http://arxiv.org/abs/2309.11484)
+    [http://arxiv.org/abs/2309.12273](http://arxiv.org/abs/2309.12273)
 
-    Bravo MaRDI是一个基于Wikibase的数学知识图谱，旨在填补当代数学领域中专家策划知识图谱的空白。该知识图谱链接了各种形式的数学研究数据，包括数据集、软件、出版物以及数学公式和假设等。
-
-    
-
-    数学世界知识是Wikidata的一个基本组成部分。然而，迄今为止，还没有专门关注当代数学的专家策划的知识图谱。为填补这一空白，数学研究数据倡议（MaRDI）开发了一个综合性的知识图谱，将数学中的多模式研究数据相互链接。这包括传统的研究数据项，如数据集、软件和出版物，以及包含数学公式和假设等语义高级对象。本文详细介绍了基于Wikibase的MaRDI知识图谱，它将在其首次公开发布之前进行。发布代号为Bravo，可在https://portal.mardi4nfdi.de访问。
-
-    Mathematical world knowledge is a fundamental component of Wikidata. However, to date, no expertly curated knowledge graph has focused specifically on contemporary mathematics. Addressing this gap, the Mathematical Research Data Initiative (MaRDI) has developed a comprehensive knowledge graph that links multimodal research data in mathematics. This encompasses traditional research data items like datasets, software, and publications and includes semantically advanced objects such as mathematical formulas and hypotheses. This paper details the abilities of the MaRDI knowledge graph, which is based on Wikibase, leading up to its inaugural public release, codenamed Bravo, available on https://portal.mardi4nfdi.de.
-    
-[^2]: 生成式问答中的支持证据获取
-
-    Retrieving Supporting Evidence for Generative Question Answering. (arXiv:2309.11392v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.11392](http://arxiv.org/abs/2309.11392)
-
-    本文报道了两个实验，用于自动验证开放域问答生成的答案在语料库中的正确性。使用稀疏检索、密集检索和神经重排器的检索流程，通过对问题+生成答案+检索答案的组合进行验证。
+    通过自适应的NLP模型选择和临床专家规则的分类器，该研究提出一种改进VTE识别的新方法，在放射学报告中准确识别VTE事件的准确性得到提高。
 
     
 
-    当前的大型语言模型（LLM）在许多自然语言任务（包括开放域问答）上表现出接近人类水平的性能。然而，它们也会生动地产生错误答案，因此在接受问题答案之前必须对其进行验证。本文报道了两个简单的实验来自动验证生成的答案与语料库的一致性。我们的实验基于MS MARCO（V1）测试集中的问题和段落，以及由稀疏检索、密集检索和神经重排器组成的检索流程。在第一个实验中，我们对整个生成的答案进行验证。将问题提供给LLM，并接收生成的答案后，我们使用问题+生成答案的组合在语料库中进行查询。然后，我们将问题+生成答案+检索答案的组合再次提供给LLM，促使其指明答案是否正确。
+    快速准确地识别静脉血栓栓塞（VTE），包括深静脉血栓（DVT）和肺栓塞（PE），对于有效治疗非常重要。利用自然语言处理（NLP）在放射学报告中，自动化方法已经在从回顾性数据集中识别VTE事件或帮助临床专家识别放射学报告中的VTE事件方面展示了有希望的进展。然而，由于标记有限的医学文本数据、放射学报告的复杂性和异质性以及数据不平衡，有效训练深度学习（DL）和NLP模型存在挑战。本研究提出了DL方法的新的组合方法，结合数据增强、自适应预训练的NLP模型选择和临床专家NLP基于规则的分类器，以提高非结构化（自由文本）放射学报告中VTE识别的准确性。我们的实验结果证明了该模型的有效性。
 
-    Current large language models (LLMs) can exhibit near-human levels of performance on many natural language-based tasks, including open-domain question answering. Unfortunately, at this time, they also convincingly hallucinate incorrect answers, so that responses to questions must be verified against external sources before they can be accepted at face value. In this paper, we report two simple experiments to automatically validate generated answers against a corpus. We base our experiments on questions and passages from the MS MARCO (V1) test collection, and a retrieval pipeline consisting of sparse retrieval, dense retrieval and neural rerankers. In the first experiment, we validate the generated answer in its entirety. After presenting a question to an LLM and receiving a generated answer, we query the corpus with the combination of the question + generated answer. We then present the LLM with the combination of the question + generated answer + retrieved answer, prompting it to indi
+    Rapid and accurate identification of Venous thromboembolism (VTE), a severe cardiovascular condition including deep vein thrombosis (DVT) and pulmonary embolism (PE), is important for effective treatment. Leveraging Natural Language Processing (NLP) on radiology reports, automated methods have shown promising advancements in identifying VTE events from retrospective data cohorts or aiding clinical experts in identifying VTE events from radiology reports. However, effectively training Deep Learning (DL) and the NLP models is challenging due to limited labeled medical text data, the complexity and heterogeneity of radiology reports, and data imbalance. This study proposes novel method combinations of DL methods, along with data augmentation, adaptive pre-trained NLP model selection, and a clinical expert NLP rule-based classifier, to improve the accuracy of VTE identification in unstructured (free-text) radiology reports. Our experimental results demonstrate the model's efficacy, achievi
     
-[^3]: 长尾增强图对比学习用于推荐
+[^2]: SR-PredictAO: 具有高能力预测器附加件的基于会话的推荐系统
 
-    Long-tail Augmented Graph Contrastive Learning for Recommendation. (arXiv:2309.11177v1 [cs.IR])
+    SR-PredictAO: Session-based Recommendation with High-Capability Predictor Add-On. (arXiv:2309.12218v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.11177](http://arxiv.org/abs/2309.11177)
+    [http://arxiv.org/abs/2309.12218](http://arxiv.org/abs/2309.12218)
 
-    提出了一种新颖的长尾增强图对比学习（LAGCL）方法用于推荐系统，通过引入可学习的长尾增强方法和生成对比视图来解决头尾节点之间的显著度差异问题，并采用度均衡机制来平衡数据增强程度。
-
-    
-
-    图卷积网络（GCNs）已经在推荐系统中展示了有希望的结果，因为它们可以有效地利用高阶关系。然而，这些方法在真实场景中通常遇到数据稀疏问题。为了解决这个问题，基于GCN的推荐方法采用对比学习来引入自监督的信号。尽管这些方法有效，但它们缺乏对头和尾节点之间显著度差异的考虑。这可能导致非均匀的表示分布，这对于对比学习方法的性能是一个关键因素。为了解决上述问题，我们提出了一种新颖的用于推荐的长尾增强图对比学习（LAGCL）方法。具体而言，我们引入了一种可学习的长尾增强方法，通过补充预测的邻居信息来增强尾节点，并基于生成的增强图生成对比视图。为了使数据增强的程度平衡，我们还引入了一个度均衡机制。在实验中，我们在两个真实世界的推荐数据集上评估了LAGCL的性能，并与现有的对比学习方法进行了比较。
-
-    Graph Convolutional Networks (GCNs) has demonstrated promising results for recommender systems, as they can effectively leverage high-order relationship. However, these methods usually encounter data sparsity issue in real-world scenarios. To address this issue, GCN-based recommendation methods employ contrastive learning to introduce self-supervised signals. Despite their effectiveness, these methods lack consideration of the significant degree disparity between head and tail nodes. This can lead to non-uniform representation distribution, which is a crucial factor for the performance of contrastive learning methods. To tackle the above issue, we propose a novel Long-tail Augmented Graph Contrastive Learning (LAGCL) method for recommendation. Specifically, we introduce a learnable long-tail augmentation approach to enhance tail nodes by supplementing predicted neighbor information, and generate contrastive views based on the resulting augmented graph. To make the data augmentation sch
-    
-[^4]: 人工智能助力个性化和自适应学习的智能助手在高等教育中的应用
-
-    Artificial Intelligence-Enabled Intelligent Assistant for Personalized and Adaptive Learning in Higher Education. (arXiv:2309.10892v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.10892](http://arxiv.org/abs/2309.10892)
-
-    该论文介绍了一个名为人工智能助力的智能助手（AIIA）的框架，用于高等教育中的个性化和自适应学习。该系统利用先进的AI和自然语言处理技术，提供交互和引人入胜的学习平台，通过简化信息获取、促进知识评估和个性化学习支持来降低学习者的认知负荷。其功能包括理解和回答学生问题、生成测验和闪卡，并提供个性化学习路径。该研究结果可对高等教育中人工智能虚拟助教（VTA）的设计、实施和评估产生重要影响，从而提高学生的学习成果、参与度和满意度。
+    SR-PredictAO是一种基于会话的推荐系统，通过引入高能力预测器模块，解决了现有模型中低能力预测器模块的问题，可以在存在随机用户行为的情况下预测用户的下一个动作。
 
     
 
-    本文提出了一个新颖的框架，即人工智能助力的智能助手(AIIA)，用于在高等教育中进行个性化和自适应学习。 AIIA系统利用先进的人工智能和自然语言处理技术创建了一个交互性和引人入胜的学习平台。该平台旨在通过提供信息的简单获取、促进知识评估和提供个性化学习支持来减少学习者的认知负荷，以适应个体需求和学习风格。 AIIA的功能包括理解和回答学生的问题、生成测验和闪卡，以及提供个性化的学习路径。该研究结果有可能对高等教育中基于人工智能的虚拟教学助手(VTA)的设计、实施和评估产生重大影响，为开发创新的教育工具提供指导，以增强学生的学习成果、参与度和满意度。
+    基于会话的推荐系统旨在通过仅基于单个会话中的信息来预测用户的下一个项目点击，即使在存在某些随机用户行为的情况下，这是一个复杂的问题。这个复杂的问题需要一个高能力的预测用户下一个动作的模型。大多数（如果不是全部）现有模型遵循编码器-预测器范式，在这个范式中所有的研究都集中在如何广泛优化编码器模块，但它们忽视了如何优化预测器模块。在本文中，我们发现了现有模型中低能力预测器模块存在的关键问题。受此启发，我们提出了一种新颖的框架称为\emph{\underline{S}ession-based \underline{R}ecommendation with \underline{Pred}ictor \underline{A}dd-\underline{O}n} (SR-PredictAO)。在这个框架中，我们提出了一个高能力的预测器模块，可以减轻随机用户行为对预测的影响。值得一提的是，
 
-    This paper presents a novel framework, Artificial Intelligence-Enabled Intelligent Assistant (AIIA), for personalized and adaptive learning in higher education. The AIIA system leverages advanced AI and Natural Language Processing (NLP) techniques to create an interactive and engaging learning platform. This platform is engineered to reduce cognitive load on learners by providing easy access to information, facilitating knowledge assessment, and delivering personalized learning support tailored to individual needs and learning styles. The AIIA's capabilities include understanding and responding to student inquiries, generating quizzes and flashcards, and offering personalized learning pathways. The research findings have the potential to significantly impact the design, implementation, and evaluation of AI-enabled Virtual Teaching Assistants (VTAs) in higher education, informing the development of innovative educational tools that can enhance student learning outcomes, engagement, and 
+    Session-based recommendation, aiming at making the prediction of the user's next item click based on the information in a single session only even in the presence of some random user's behavior, is a complex problem. This complex problem requires a high-capability model of predicting the user's next action. Most (if not all) existing models follow the encoder-predictor paradigm where all studies focus on how to optimize the encoder module extensively in the paradigm but they ignore how to optimize the predictor module. In this paper, we discover the existing critical issue of the low-capability predictor module among existing models. Motivated by this, we propose a novel framework called \emph{\underline{S}ession-based \underline{R}ecommendation with \underline{Pred}ictor \underline{A}dd-\underline{O}n} (SR-PredictAO). In this framework, we propose a high-capability predictor module which could alleviate the effect of random user's behavior for prediction. It is worth mentioning that t
     
-[^5]: 使用自然语言处理对食物系统本体进行组织分类
+[^3]: 迈向鲁棒和真正大规模的音频-乐谱检索
 
-    Classifying Organizations for Food System Ontologies using Natural Language Processing. (arXiv:2309.10880v1 [cs.CL])
+    Towards Robust and Truly Large-Scale Audio-Sheet Music Retrieval. (arXiv:2309.12158v1 [cs.SD])
 
-    [http://arxiv.org/abs/2309.10880](http://arxiv.org/abs/2309.10880)
+    [http://arxiv.org/abs/2309.12158](http://arxiv.org/abs/2309.12158)
 
-    本研究使用自然语言处理方法自动对食物系统本体中的组织进行分类，研究结果表明NLP模型可以在这两个分类任务中取得良好性能。
-
-    
-
-    我们的研究探索了使用自然语言处理（NLP）方法自动对实体进行分类，以达到知识图谱的构建和与食物系统本体的集成的目的。我们创建了能够自动将组织根据与环境问题相关的类别以及美国政府用于描述商业活动的标准产业分类（SIC）代码进行分类的NLP模型。NLP模型的输入为每个组织通过Google搜索引擎检索到的文本片段，该文本片段用作用于学习的组织的文本描述。我们的实验结果显示，NLP模型可以在这两个分类任务中实现相当好的性能，并且它们依赖于一个通用框架，该框架也可以应用于许多其他分类问题。我们相信，NLP模型代表了一种有前景的方法，可以自动收集信息。
-
-    Our research explores the use of natural language processing (NLP) methods to automatically classify entities for the purpose of knowledge graph population and integration with food system ontologies. We have created NLP models that can automatically classify organizations with respect to categories associated with environmental issues as well as Standard Industrial Classification (SIC) codes, which are used by the U.S. government to characterize business activities. As input, the NLP models are provided with text snippets retrieved by the Google search engine for each organization, which serves as a textual description of the organization that is used for learning. Our experimental results show that NLP models can achieve reasonably good performance for these two classification tasks, and they rely on a general framework that could be applied to many other classification problems as well. We believe that NLP models represent a promising approach for automatically harvesting informatio
-    
-[^6]: MelodyGLM: 音乐符号旋律生成的多任务预训练
-
-    MelodyGLM: Multi-task Pre-training for Symbolic Melody Generation. (arXiv:2309.10738v2 [cs.SD] UPDATED)
-
-    [http://arxiv.org/abs/2309.10738](http://arxiv.org/abs/2309.10738)
-
-    提出了一种名为MelodyGLM的多任务预训练框架，用于生成具有长期结构的旋律。该框架通过设计音乐n-gram和长跨度抽样策略来捕捉旋律的局部和全局结构，并使用大规模符号旋律数据集进行预训练改进。
+    本文研究了音频-乐谱检索的当前发展情况，通过深度学习方法解决了鲁棒性和大规模应用的挑战。
 
     
 
-    预训练语言模型在各种音乐理解和生成任务中取得了令人印象深刻的结果。然而，现有的用于符号旋律生成的预训练方法在捕捉音符序列中的多尺度、多维结构信息方面存在困难，这是由于文本和音乐之间领域知识差异的缘故。此外，可用大规模符号旋律数据集的缺乏限制了预训练的改进。在本文中，我们提出了MelodyGLM，这是一个用于生成具有长期结构旋律的多任务预训练框架。我们设计了音乐n-gram和长跨度抽样策略，为旋律的局部和全局结构建立了局部和全局空白填充任务，以进行建模。具体而言，我们将音高n-gram、节奏n-gram及其组合的n-gram纳入音乐n-gram空白填充任务中，以建模旋律的多维结构。为此，我们构建了一个大规模符号旋律数据集。
+    多模态音乐信息检索的一系列应用集中在解决将大量乐谱图像与相应的音频记录连接起来的问题，即识别引用相同音乐内容的音频和乐谱摘录。最近的一种典型方法是使用跨模态深度学习架构来学习将两种不同模态（音频和乐谱图像）连接起来的联合嵌入空间。尽管在过去几年中在这一领域取得了稳定的进展，但仍有一些开放问题阻碍了这种方法的大规模应用。在本文中，我们试图通过深度学习方法对当前在音频-乐谱检索方面的发展进行深入研究。我们首先确定了在实际场景中实现鲁棒和大规模跨模态音乐检索的一系列主要挑战。然后，我们强调了迄今为止我们已经采取的一些步骤来解决其中一些挑战。
 
-    Pre-trained language models have achieved impressive results in various music understanding and generation tasks. However, existing pre-training methods for symbolic melody generation struggle to capture multi-scale, multi-dimensional structural information in note sequences, due to the domain knowledge discrepancy between text and music. Moreover, the lack of available large-scale symbolic melody datasets limits the pre-training improvement. In this paper, we propose MelodyGLM, a multi-task pre-training framework for generating melodies with long-term structure. We design the melodic n-gram and long span sampling strategies to create local and global blank infilling tasks for modeling the local and global structures in melodies. Specifically, we incorporate pitch n-grams, rhythm n-grams, and their combined n-grams into the melodic n-gram blank infilling tasks for modeling the multi-dimensional structures in melodies. To this end, we have constructed a large-scale symbolic melody datas
+    A range of applications of multi-modal music information retrieval is centred around the problem of connecting large collections of sheet music (images) to corresponding audio recordings, that is, identifying pairs of audio and score excerpts that refer to the same musical content. One of the typical and most recent approaches to this task employs cross-modal deep learning architectures to learn joint embedding spaces that link the two distinct modalities - audio and sheet music images. While there has been steady improvement on this front over the past years, a number of open problems still prevent large-scale employment of this methodology. In this article we attempt to provide an insightful examination of the current developments on audio-sheet music retrieval via deep learning methods. We first identify a set of main challenges on the road towards robust and large-scale cross-modal music retrieval in real scenarios. We then highlight the steps we have taken so far to address some o
     
-[^7]: 多模态相遇再学习：减轻顺序推荐中的负迁移问题
+[^4]: 使用循环模型的音频-乐谱检索的段落摘要
 
-    Multi-modality Meets Re-learning: Mitigating Negative Transfer in Sequential Recommendation. (arXiv:2309.10195v1 [cs.IR])
+    Passage Summarization with Recurrent Models for Audio-Sheet Music Retrieval. (arXiv:2309.12111v1 [cs.SD])
 
-    [http://arxiv.org/abs/2309.10195](http://arxiv.org/abs/2309.10195)
+    [http://arxiv.org/abs/2309.12111](http://arxiv.org/abs/2309.12111)
 
-    该论文提出了一种名为ANT的方法来解决顺序推荐中的负迁移问题，通过结合多模态项目信息，inc。
-
-    
-
-    从稀疏用户交互中学习有效的推荐模型是发展现代顺序推荐方法中的一个基本挑战。最近，基于预训练的方法已被开发出来来解决这个问题。这些方法的关键思想是通过预训练从相关任务（即辅助任务）中学习可迁移的知识，并将该知识调整到目标任务（即目标任务）中以减轻数据稀疏性问题，从而实现更准确的推荐。然而，尽管有所潜力，本文中我们展示了现有方法存在的恶名昭著的负迁移问题，即通过预训练模型调整的模型在目标任务中表现比从头开始学习的模型更差。为了解决这个问题，我们开发了一种被称为ANT的可迁移顺序推荐方法。与现有方法相比，ANT通过以下方式减轻了负迁移问题：1）结合多模态项目信息，inc
-
-    Learning effective recommendation models from sparse user interactions represents a fundamental challenge in developing modern sequential recommendation methods. Recently, pre-training-based methods have been developed to tackle this challenge. The key idea behind these methods is to learn transferable knowledge from related tasks (i.e., auxiliary tasks) via pre-training and adapt the knowledge to the task of interest (i.e., target task) to mitigate its data sparsity, thereby enabling more accurate recommendations. Though promising, in this paper, we show that existing methods suffer from the notorious negative transfer issue, where the model adapted from the pre-trained model results in worse performance compared to the model learned from scratch in the target task. To address this issue, we develop a method, denoted as ANT, for transferable sequential recommendation. Compared to existing methods, ANT mitigates negative transfer by 1) incorporating multi-modality item information, inc
-    
-[^8]: NineRec: 用于评估可迁移推荐的基准数据集套件
-
-    NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation. (arXiv:2309.07705v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.07705](http://arxiv.org/abs/2309.07705)
-
-    NineRec是一个用于评估可迁移推荐的数据集套件，包括一个大规模的源域推荐数据集和九个多样的目标域推荐数据集。每个物品由文本描述和高分辨率封面图像表示。
+    本文提出了一个使用循环模型的音频-乐谱检索方法，通过学习跨模态循环网络生成可以摘要对应音频和乐谱的更长段落的联合嵌入。相比于传统方法，该方法只需要弱对齐的音频-乐谱对，并且能够处理音频和乐谱之间的节奏变化导致的非线性。
 
     
 
-    近年来，从物品的原始特征（如图像、文本、音频等）学习推荐系统模型，称为MoRec，引起了越来越多的兴趣。 MoRec的一个关键优势是它可以轻松受益于其他领域的进展，如自然语言处理（NLP）和计算机视觉（CV）。此外，它通过特征自然支持不同系统之间的迁移学习，称为可迁移推荐系统或TransRec。然而，迄今为止，与NLP和CV领域的开创性基础模型相比，TransRec取得了很小的进展。缺乏大规模、高质量的推荐数据集是一个重大障碍。为此，我们介绍了NineRec，这是一个TransRec数据集套件，包括一个大规模的源域推荐数据集和九个多样的目标域推荐数据集。NineRec中的每个物品都由一个文本描述和一个高分辨率的封面图像表示。通过NineRec，我们可以实现Tran
+    跨模态音乐检索的许多应用与将乐谱图像与音频录音连接在一起有关。目前的典型方法是通过深度神经网络学习一个关联短固定大小的音频和乐谱片段的联合嵌入空间，通过适当的相似性结构。然而，这种策略带来的两个挑战是训练网络需要强对齐的数据，并且由于局部和全局速度差异而造成的音频和乐谱片段之间的音乐内容差异。在本文中，我们通过设计一个跨模态循环网络来解决这两个缺点，该网络学习可以摘要对应音频和乐谱的更长段落的联合嵌入。我们方法的好处是它只需要弱对齐的音频-乐谱对，以及循环网络能够处理音频和乐谱之间的节奏变化导致的非线性。
 
-    Learning a recommender system model from an item's raw modality features (such as image, text, audio, etc.), called MoRec, has attracted growing interest recently. One key advantage of MoRec is that it can easily benefit from advances in other fields, such as natural language processing (NLP) and computer vision (CV). Moreover, it naturally supports transfer learning across different systems through modality features, known as transferable recommender systems, or TransRec.  However, so far, TransRec has made little progress, compared to groundbreaking foundation models in the fields of NLP and CV. The lack of large-scale, high-quality recommendation datasets poses a major obstacle. To this end, we introduce NineRec, a TransRec dataset suite that includes a large-scale source domain recommendation dataset and nine diverse target domain recommendation datasets. Each item in NineRec is represented by a text description and a high-resolution cover image. With NineRec, we can implement Tran
+    Many applications of cross-modal music retrieval are related to connecting sheet music images to audio recordings. A typical and recent approach to this is to learn, via deep neural networks, a joint embedding space that correlates short fixed-size snippets of audio and sheet music by means of an appropriate similarity structure. However, two challenges that arise out of this strategy are the requirement of strongly aligned data to train the networks, and the inherent discrepancies of musical content between audio and sheet music snippets caused by local and global tempo differences. In this paper, we address these two shortcomings by designing a cross-modal recurrent network that learns joint embeddings that can summarize longer passages of corresponding audio and sheet music. The benefits of our method are that it only requires weakly aligned audio-sheet music pairs, as well as that the recurrent network handles the non-linearities caused by tempo variations between audio and sheet m
     
-[^9]: 在可解释的科学文献推荐系统中采用不同细节级别的交互式解释
+[^5]: 揭示最佳可持续发展目标路径：利用图剪枝和意图图进行有效推荐的创新方法
 
-    Interactive Explanation with Varying Level of Details in an Explainable Scientific Literature Recommender System. (arXiv:2306.05809v1 [cs.IR])
+    Unveiling Optimal SDG Pathways: An Innovative Approach Leveraging Graph Pruning and Intent Graph for Effective Recommendations. (arXiv:2309.11741v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.05809](http://arxiv.org/abs/2306.05809)
+    [http://arxiv.org/abs/2309.11741](http://arxiv.org/abs/2309.11741)
 
-    本文旨在采用以用户为中心的交互式解释模型，在推荐系统中为用户提供不同细节级别的解释，赋予用户个性化解释的能力。
+    该论文提出了一种名为UGPIG的方法，通过应用剪枝用户图和意图图解决空间异质性和稀疏性数据的问题，以实现推荐适用的可持续发展模式。
 
     
 
-    传统上，可解释的推荐系统采用一种“一刀切”的方法，向每个用户提供相同程度的解释，而不考虑他们的个体需求和目标。此外，推荐系统中的解释大多以静态和非交互方式呈现。为填补这些研究空白，本文旨在采用以用户为中心的交互式解释模型，为用户提供不同细节级别的解释，并赋予用户基于其需求和偏好进行交互、控制和个性化解释的能力。我们采用以用户为中心的方法，设计了三个细节级别的交互式解释（基本、中级和高级），并在透明的推荐和兴趣建模应用（RIMA）中实现了它们。我们进行了一个定性用户研究（N=14），以调查提供不同细节级别的交互式解释对用户对系统可解释性的感知的影响。
+    在特定地区促进生态、经济、社会和资源可持续性的重要手段是推荐适当的发展路径，也称为生态文明模式（即可持续发展模式）。然而，当前计算机科学领域的推荐算法在充分解决与环境相关的空间异质性和区域历史互动数据的稀疏性方面存在不足，限制了它们在推荐可持续发展模式方面的有效性。为了克服这些挑战，本文提出了一种名为“剪枝用户图和意图图（UGPIG）”的方法。
 
-    Explainable recommender systems (RS) have traditionally followed a one-size-fits-all approach, delivering the same explanation level of detail to each user, without considering their individual needs and goals. Further, explanations in RS have so far been presented mostly in a static and non-interactive manner. To fill these research gaps, we aim in this paper to adopt a user-centered, interactive explanation model that provides explanations with different levels of detail and empowers users to interact with, control, and personalize the explanations based on their needs and preferences. We followed a user-centered approach to design interactive explanations with three levels of detail (basic, intermediate, and advanced) and implemented them in the transparent Recommendation and Interest Modeling Application (RIMA). We conducted a qualitative user study (N=14) to investigate the impact of providing interactive explanations with varying level of details on the users' perception of the e
+    The recommendation of appropriate development pathways, also known as ecological civilization patterns for achieving Sustainable Development Goals (namely, sustainable development patterns), are of utmost importance for promoting ecological, economic, social, and resource sustainability in a specific region. To achieve this, the recommendation process must carefully consider the region's natural, environmental, resource, and economic characteristics. However, current recommendation algorithms in the field of computer science fall short in adequately addressing the spatial heterogeneity related to environment and sparsity of regional historical interaction data, which limits their effectiveness in recommending sustainable development patterns. To overcome these challenges, this paper proposes a method called User Graph after Pruning and Intent Graph (UGPIG). Firstly, we utilize the high-density linking capability of the pruned User Graph to address the issue of spatial heterogeneity neg
+    
+[^6]: 用于评估Top-N推荐的候选集抽样方法
+
+    Candidate Set Sampling for Evaluating Top-N Recommendation. (arXiv:2309.11723v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11723](http://arxiv.org/abs/2309.11723)
+
+    本论文研究了在离线推荐系统中，候选集的选择策略与流行度偏差的交互作用，通过模拟评估发现抽样的候选集可以减少度量估计的偏差。
+
+    
+
+    在离线的Top-N推荐系统评估中，选择候选集的策略是一个重要决策。候选集是由用户的测试物品和一定数量的非相关物品（我们称之为诱饵物品）的并集组成。先前的研究旨在理解不同候选集大小和选择策略对评估的影响。在本文中，我们通过研究候选集选择策略与流行度偏差的特定交互，并使用模拟评估抽样的候选集是否导致度量估计对于通常在实验中不可用的完整数据更少地存在偏差。
+
+    The strategy for selecting candidate sets -- the set of items that the recommendation system is expected to rank for each user -- is an important decision in carrying out an offline top-$N$ recommender system evaluation. The set of candidates is composed of the union of the user's test items and an arbitrary number of non-relevant items that we refer to as decoys. Previous studies have aimed to understand the effect of different candidate set sizes and selection strategies on evaluation. In this paper, we extend this knowledge by studying the specific interaction of candidate set selection strategies with popularity bias, and use simulation to assess whether sampled candidate sets result in metric estimates that are less biased with respect to the true metric values under complete data that is typically unavailable in ordinary experiments.
+    
+[^7]: SE-PEF:一个用于个性化专家查找的资源
+
+    SE-PEF: a Resource for Personalized Expert Finding. (arXiv:2309.11686v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11686](http://arxiv.org/abs/2309.11686)
+
+    该论文介绍了SE-PEF，一个用于个性化专家查找的资源。该资源包括超过25万个查询和56.5万个答案，并使用一套丰富的特征来建模用户之间的社交互动。初步实验结果表明SE-PEF适用于评估和训练有效的专家查找模型。
+
+    
+
+    个性化信息检索的问题已经被研究了很长时间。与这项任务相关的一个众所周知的问题是缺乏公开可用的数据集，这些数据集可以支持个性化搜索系统的比较评估。为了在这方面做出贡献，本文介绍了SE-PEF（StackExchange-个性化专家查找），这是一个用于设计和评估与专家查找（EF）任务相关的个性化模型的资源。所贡献的数据集包括来自3306个专家的超过25万个查询和56.5万个答案，这些数据集使用了一套丰富的特征来建模热门cQA平台上用户之间的社交互动。初步实验的结果表明，SE-PEF适用于评估和训练有效的EF模型。
+
+    The problem of personalization in Information Retrieval has been under study for a long time. A well-known issue related to this task is the lack of publicly available datasets that can support a comparative evaluation of personalized search systems. To contribute in this respect, this paper introduces SE-PEF (StackExchange - Personalized Expert Finding), a resource useful for designing and evaluating personalized models related to the task of Expert Finding (EF). The contributed dataset includes more than 250k queries and 565k answers from 3 306 experts, which are annotated with a rich set of features modeling the social interactions among the users of a popular cQA platform. The results of the preliminary experiments conducted show the appropriateness of SE-PEF to evaluate and to train effective EF models.
+    
+[^8]: 本文研究了本地音乐推荐中的流行度衰减偏差问题
+
+    Popularity Degradation Bias in Local Music Recommendation. (arXiv:2309.11671v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11671](http://arxiv.org/abs/2309.11671)
+
+    本文研究了流行度衰减偏差对本地音乐推荐的影响，发现在推荐流行艺术家方面，权重相关矩阵分解和多项式变分自动编码器表现较好，但对于不太流行的艺术家来说，多项式变分自动编码器的相对性能更好。
+
+    
+
+    本文研究了流行度衰减偏差对本地音乐推荐的影响。具体来说，我们检验了两种最佳推荐算法，即权重相关矩阵分解（WRMF）和多项式变分自动编码器（Mult-VAE）在推荐艺术家时的准确性与艺术家流行度的关系。我们发现，这两个算法在推荐流行艺术家方面具有更好的性能，因此表现出流行度衰减偏差。虽然这两个算法在推荐流行艺术家方面的表现水平相似，但对于不太流行的艺术家来说，Mult-VAE相对表现更好。这表明在本地（长尾）音乐艺术家推荐中，应该优先选择这个算法。
+
+    In this paper, we study the effect of popularity degradation bias in the context of local music recommendations. Specifically, we examine how accurate two top-performing recommendation algorithms, Weight Relevance Matrix Factorization (WRMF) and Multinomial Variational Autoencoder (Mult-VAE), are at recommending artists as a function of artist popularity. We find that both algorithms improve recommendation performance for more popular artists and, as such, exhibit popularity degradation bias. While both algorithms produce a similar level of performance for more popular artists, Mult-VAE shows better relative performance for less popular artists. This suggests that this algorithm should be preferred for local (long-tail) music artist recommendation.
+    
+[^9]: 利用自注意力机制对连续音乐推荐进行负面信号的利用
+
+    Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation. (arXiv:2309.11623v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11623](http://arxiv.org/abs/2309.11623)
+
+    本研究利用自我注意力机制和负面反馈，提出了用于顺序音乐推荐的Transformer模型，并采用对比学习任务来提高推荐准确性。
+
+    
+
+    音乐流媒体服务仰赖其推荐引擎连续向用户提供内容。因此，顺序推荐已经引起了当前文献的相当关注，而当今最先进的方法主要集中在利用上下文信息（如长期和短期用户历史和项目特征）的自我关注模型上；然而，大多数研究集中在长格式内容领域（零售、电影等）而不是短格式，例如音乐。此外，许多研究未探索在训练过程中如何融入负面会话级反馈。在本研究中，我们研究了基于Transformer的自我关注体系结构，以学习用于顺序音乐推荐的隐式会话级信息。此外，我们还提出了一种对比学习任务，以融入负面反馈（例如跳过的曲目）以促进正面命中并惩罚负面命中。这个任务被形式化为一个简单的损失项，可以加入到训练中。
+
+    Music streaming services heavily rely on their recommendation engines to continuously provide content to their consumers. Sequential recommendation consequently has seen considerable attention in current literature, where state of the art approaches focus on self-attentive models leveraging contextual information such as long and short-term user history and item features; however, most of these studies focus on long-form content domains (retail, movie, etc.) rather than short-form, such as music. Additionally, many do not explore incorporating negative session-level feedback during training. In this study, we investigate the use of transformer-based self-attentive architectures to learn implicit session-level information for sequential music recommendation. We additionally propose a contrastive learning task to incorporate negative feedback (e.g skipped tracks) to promote positive hits and penalize negative hits. This task is formulated as a simple loss term that can be incorporated in
+    
+[^10]: TrueLearn: 一种用于个性化信息推荐的Python库（带有（隐式）反馈）
+
+    TrueLearn: A Python Library for Personalised Informational Recommendations with (Implicit) Feedback. (arXiv:2309.11527v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11527](http://arxiv.org/abs/2309.11527)
+
+    TrueLearn是一个Python库，用于构建个性化的信息推荐系统，并提供了丰富的文档和编码示例，可帮助开发人员和从业者使用。它采用了开放学习者的概念和人性化的用户表达方式，同时支持用户可视化和模型性能评估。
+
+    
+
+    本文介绍了TrueLearn Python库，其中包含一组在线学习贝叶斯模型，用于构建教育（或更一般地说，信息）推荐系统。这组模型是根据“开放学习者”的概念设计的，使用直观的用户表达。为了可解释性和让用户有控制感，TrueLearn库还包含不同的表示形式，以帮助最终用户可视化学习者模型，这可能有助于将来用户与自己的模型进行交互。与该库一起，我们还提供了一个先前公开发布的隐式反馈教育数据集和评估指标，以衡量模型的性能。丰富的文档和编码示例使该库对机器学习开发人员和教育数据挖掘和学习分析从业者都非常易于使用。该库和带有示例的支持文档可在https：//获得。
+
+    This work describes the TrueLearn Python library, which contains a family of online learning Bayesian models for building educational (or more generally, informational) recommendation systems. This family of models was designed following the "open learner" concept, using humanly-intuitive user representations. For the sake of interpretability and putting the user in control, the TrueLearn library also contains different representations to help end-users visualise the learner models, which may in the future facilitate user interaction with their own models. Together with the library, we include a previously publicly released implicit feedback educational dataset with evaluation metrics to measure the performance of the models. The extensive documentation and coding examples make the library highly accessible to both machine learning developers and educational data mining and learning analytic practitioners. The library and the support documentation with examples are available at https:/
+    
+[^11]: 在内容市场中的离线学习下的广告负载平衡
+
+    Ad-load Balancing via Off-policy Learning in a Content Marketplace. (arXiv:2309.11518v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11518](http://arxiv.org/abs/2309.11518)
+
+    本文介绍了一个使用离线学习和强化学习反馈的方法来解决在线广告系统中的广告负载平衡问题，该方法能够适应用户偏好和上下文因素的变化，并最大化用户参与度和收入。
+
+    
+
+    广告负载平衡是在线广告系统中的一个关键挑战，尤其在社交媒体平台的背景下，目标是在保持用户体验的同时最大化用户参与度和收入。传统的广告负载平衡方法依赖于静态分配策略，无法适应用户偏好和上下文因素的变化。本文提出了一种利用离线学习和依据记录的强化学习反馈的方法。我们首先进行了广告负载平衡问题的分析，强调了用户满意度和广告收入之间的冲突目标。我们强调了由于用户异质性和用户在会话中的位置的依赖性而引起的细微差别。基于这个分析，我们定义了在特定的内容获取中确定最优广告负载的问题。
+
+    Ad-load balancing is a critical challenge in online advertising systems, particularly in the context of social media platforms, where the goal is to maximize user engagement and revenue while maintaining a satisfactory user experience. This requires the optimization of conflicting objectives, such as user satisfaction and ads revenue. Traditional approaches to ad-load balancing rely on static allocation policies, which fail to adapt to changing user preferences and contextual factors. In this paper, we present an approach that leverages off-policy learning and evaluation from logged bandit feedback. We start by presenting a motivating analysis of the ad-load balancing problem, highlighting the conflicting objectives between user satisfaction and ads revenue. We emphasize the nuances that arise due to user heterogeneity and the dependence on the user's position within a session. Based on this analysis, we define the problem as determining the optimal ad-load for a particular feed fetch.
+    
+[^12]: 具有公共项目特征的私有矩阵分解
+
+    Private Matrix Factorization with Public Item Features. (arXiv:2309.11516v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11516](http://arxiv.org/abs/2309.11516)
+
+    这项研究提出了一种使用公共项目特征进行私有矩阵分解的方法，以缓解差分隐私训练对推荐质量的影响，并展示了这种方法的简单性、易调整性和可扩展性。
+
+    
+
+    我们考虑在具有公共项目特征的情况下训练私有推荐模型的问题。使用差分隐私（DP）训练可以提供强大的隐私保障，但会导致推荐质量下降。我们展示出在训练过程中加入公共项目特征可以帮助缓解推荐质量下降的问题。我们提出了一种基于集体矩阵分解（CMF）的通用方法，通过同时对两个矩阵进行分解：用户反馈矩阵（代表敏感数据）和一个编码公开可用（非敏感）项目信息的项目特征矩阵。这种方法在概念上简单，易于调整，而且具有高度的可扩展性。它可以应用于不同类型的公共项目数据，包括：（1）分类项目特征；（2）从公共来源学习的项目间相似性；以及（3）公开可用的用户反馈。此外，这些数据模态可以共同利用，以充分利用公共数据。
+
+    We consider the problem of training private recommendation models with access to public item features. Training with Differential Privacy (DP) offers strong privacy guarantees, at the expense of loss in recommendation quality. We show that incorporating public item features during training can help mitigate this loss in quality. We propose a general approach based on collective matrix factorization (CMF), that works by simultaneously factorizing two matrices: the user feedback matrix (representing sensitive data) and an item feature matrix that encodes publicly available (non-sensitive) item information.  The method is conceptually simple, easy to tune, and highly scalable. It can be applied to different types of public item data, including: (1) categorical item features; (2) item-item similarities learned from public sources; and (3) publicly available user feedback. Furthermore, these data modalities can be collectively utilized to fully leverage public data.  Evaluating our method o
+    
+[^13]: 运用噪声图神经网络方法实现差分隐私的顺序推荐研究
+
+    Towards Differential Privacy in Sequential Recommendation: A Noisy Graph Neural Network Approach. (arXiv:2309.11515v1 [cs.CR])
+
+    [http://arxiv.org/abs/2309.11515](http://arxiv.org/abs/2309.11515)
+
+    这项工作提出了一种新颖的差分隐私顺序推荐框架，采用了噪声图神经网络方法，解决了现有差分隐私推荐系统在动态和依赖关系方面的局限性，同时也关注了敏感用户特征的隐私风险。
+
+    
+
+    随着各种在线平台中高调的隐私泄露事件频繁发生，用户对隐私越来越关注。推荐系统作为在线平台提供个性化服务的核心组件，其隐私保护引起了极大的关注。作为隐私保护的黄金标准，差分隐私已被广泛应用于推荐系统中的隐私保护。然而，现有的差分隐私推荐系统只考虑静态和独立的用户交互，因此无法应用于具有动态和依赖关系的顺序推荐。同时，对于敏感用户特征的隐私风险关注较少，大多数只保护用户的反馈数据。在这项工作中，我们提出了一个新颖的差分隐私顺序推荐框架，采用了噪声图神经网络方法（称为DIPSGNN）来解决这些局限性。
+
+    With increasing frequency of high-profile privacy breaches in various online platforms, users are becoming more concerned about their privacy. And recommender system is the core component of online platforms for providing personalized service, consequently, its privacy preservation has attracted great attention. As the gold standard of privacy protection, differential privacy has been widely adopted to preserve privacy in recommender systems. However, existing differentially private recommender systems only consider static and independent interactions, so they cannot apply to sequential recommendation where behaviors are dynamic and dependent. Meanwhile, little attention has been paid on the privacy risk of sensitive user features, most of them only protect user feedbacks. In this work, we propose a novel DIfferentially Private Sequential recommendation framework with a noisy Graph Neural Network approach (denoted as DIPSGNN) to address these limitations. To the best of our knowledge, 
+    
+[^14]: 何时算是基础模型？（arXiv:2309.11510v1 [cs.IR]）
+
+    When is a Foundation Model a Foundation Model. (arXiv:2309.11510v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11510](http://arxiv.org/abs/2309.11510)
+
+    这项研究发现，通过对基础模型进行微调，使用在线数据源的图片进行图像-文本建模在医学领域具有潜力。然而，这些基础模型在数字病理学的检索任务中表现不如传统的深度网络。
+
+    
+
+    最近，有几项研究报道了在医学领域利用来自Twitter和PubMed等在线数据源的图片进行基金会模型的微调，用于图像-文本建模。基金会模型是大型、深度的人工神经网络，能够通过在异常广泛的数据集上进行训练来学习特定领域的上下文。通过验证，我们发现这些模型生成的表示在数字病理学的检索任务中的性能较差，与较小的传统深度网络相比。
+
+    Recently, several studies have reported on the fine-tuning of foundation models for image-text modeling in the field of medicine, utilizing images from online data sources such as Twitter and PubMed. Foundation models are large, deep artificial neural networks capable of learning the context of a specific domain through training on exceptionally extensive datasets. Through validation, we have observed that the representations generated by such models exhibit inferior performance in retrieval tasks within digital pathology when compared to those generated by significantly smaller, conventional deep networks.
+    
+[^15]: AdBooster：使用稳定扩散外景生成的个性化广告创意生成
+
+    AdBooster: Personalized Ad Creative Generation using Stable Diffusion Outpainting. (arXiv:2309.11507v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11507](http://arxiv.org/abs/2309.11507)
+
+    AdBooster通过使用稳定扩散外景架构和生成模型，实现了个性化广告创作的创意优化，其有效性得到了实验证明。
+
+    
+
+    在数字广告中，最佳推荐项目（推荐项）的选择和最佳创意展示（创意优化）传统上被认为是不同的学科。然而，两者对用户满意度都有显著贡献，这是基于我们的假设，即它们依赖于项目的相关性和展示方式，尤其是在视觉创意的情况下。为此，我们引入了“生成创意优化（GCO）”的任务，该任务提出使用生成模型进行创意生成，这些模型可以结合用户的兴趣，以及基于稳定扩散外景架构的“AdBooster”，这是一个用于个性化广告创意的模型。该模型在微调和生成时都可以独特地结合用户的兴趣。为了进一步提高AdBooster的性能，我们还引入了一个自动数据增强流程。通过在模拟数据上进行实验，我们验证了AdBooster在生成更多精彩创意方面的有效性。
+
+    In digital advertising, the selection of the optimal item (recommendation) and its best creative presentation (creative optimization) have traditionally been considered separate disciplines. However, both contribute significantly to user satisfaction, underpinning our assumption that it relies on both an item's relevance and its presentation, particularly in the case of visual creatives. In response, we introduce the task of {\itshape Generative Creative Optimization (GCO)}, which proposes the use of generative models for creative generation that incorporate user interests, and {\itshape AdBooster}, a model for personalized ad creatives based on the Stable Diffusion outpainting architecture. This model uniquely incorporates user interests both during fine-tuning and at generation time. To further improve AdBooster's performance, we also introduce an automated data augmentation pipeline. Through our experiments on simulated data, we validate AdBooster's effectiveness in generating more 
+    
+[^16]: 使用大型语言模型将表元数据与业务词汇匹配
+
+    Matching Table Metadata with Business Glossaries Using Large Language Models. (arXiv:2309.11506v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11506](http://arxiv.org/abs/2309.11506)
+
+    本研究探讨了将表元数据与业务词汇进行匹配的问题，通过匹配可以在不请求访问数据内容之前或之后，有效利用可用的业务词汇进行检索和分析。
+
+    
+
+    企业通常拥有大量的结构化数据，以大型数据库或企业数据湖的形式存在。这些数据集往往具有有限的元数据和严格的访问策略，这可能限制对数据内容的访问，并因此限制了经典的检索和分析解决方案的应用。因此，需要能够有效利用可用元数据的解决方案。本文研究了将表元数据与包含数据标签和描述的业务词汇匹配的问题。通过匹配，可以在不请求访问数据内容之前或之后，利用可用或策划的业务词汇进行检索和分析。解决这个问题的一种方法是使用手动定义的规则或相似度度量在列名和词汇描述（或它们的向量嵌入）之间找到最匹配的项。然而，这种方法需要通过手动标注进行调整，并且不能处理许多业务词汇。
+
+    Enterprises often own large collections of structured data in the form of large databases or an enterprise data lake. Such data collections come with limited metadata and strict access policies that could limit access to the data contents and, therefore, limit the application of classic retrieval and analysis solutions. As a result, there is a need for solutions that can effectively utilize the available metadata. In this paper, we study the problem of matching table metadata to a business glossary containing data labels and descriptions. The resulting matching enables the use of an available or curated business glossary for retrieval and analysis without or before requesting access to the data contents. One solution to this problem is to use manually-defined rules or similarity measures on column names and glossary descriptions (or their vector embeddings) to find the closest match. However, such approaches need to be tuned through manual labeling and cannot handle many business gloss
+    
+[^17]: 公平性与个性化：迈向认知效用的公正
+
+    Fairness Vs. Personalization: Towards Equity in Epistemic Utility. (arXiv:2309.11503v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11503](http://arxiv.org/abs/2309.11503)
+
+    该论文研究了个性化推荐系统中公平性与个性化之间的困境，并提出了在认知效用背景下实现公正的公平的解决方案。
+
+    
+
+    个性化推荐系统的应用范围正在迅速扩展，涵盖社交媒体、在线购物、搜索引擎结果等领域。这些系统提供了一种更高效的方式来浏览大量可用的物品。然而，随着发展，人们对算法系统可能存在并延续偏见的潜力有了更多认识，存在个性化领域中的不公平风险。在本研究中，我们阐明了个性化与传统公平实现之间固有的紧张关系。作为一种替代方案，我们提出了在认知效用背景下实现公正的公平。我们提供了目标和实际实现之间的映射，并详细介绍了关键利益相关者的政策建议，以在个性化系统中实现公平。
+
+    The applications of personalized recommender systems are rapidly expanding: encompassing social media, online shopping, search engine results, and more. These systems offer a more efficient way to navigate the vast array of items available. However, alongside this growth, there has been increased recognition of the potential for algorithmic systems to exhibit and perpetuate biases, risking unfairness in personalized domains. In this work, we explicate the inherent tension between personalization and conventional implementations of fairness. As an alternative, we propose equity to achieve fairness in the context of epistemic utility. We provide a mapping between goals and practical implementations and detail policy recommendations across key stakeholders to forge a path towards achieving fairness in personalized systems.
+    
+[^18]: Drifter: 大规模推荐系统中高效的在线特征监控以提高数据完整性
+
+    Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems. (arXiv:2309.08617v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.08617](http://arxiv.org/abs/2309.08617)
+
+    Drifter是一个高效的在线特征监控系统，通过敏捷、响应和适应性的数据质量监控，实时分析、检测和解决推荐系统中的数据问题，使得实时推荐系统的可靠性和性能得到显著提升。
+
+    
+
+    实际生产系统通常面临在大规模、动态流中维护数据质量的问题。我们介绍了Drifter，这是一个用于推荐系统中在线特征监控和验证的高效且轻量级的系统。Drifter通过提供敏捷、响应和适应性的数据质量监控，能够实时进行根本原因分析、漂移检测以及对有问题的生产事件的洞察。Drifter集成了最先进的稀疏数据在线特征排名和异常检测方法，具有高度可扩展性和资源效率性，每分钟处理数百万个实例仅需要两个线程和少于一GB的RAM。在真实数据集上的评估证明了Drifter在警报和缓解数据质量问题方面的有效性，大大提高了实时实况推荐系统的可靠性和性能。
+
+    Real-world production systems often grapple with maintaining data quality in large-scale, dynamic streams. We introduce Drifter, an efficient and lightweight system for online feature monitoring and verification in recommendation use cases. Drifter addresses limitations of existing methods by delivering agile, responsive, and adaptable data quality monitoring, enabling real-time root cause analysis, drift detection and insights into problematic production events. Integrating state-of-the-art online feature ranking for sparse data and anomaly detection ideas, Drifter is highly scalable and resource-efficient, requiring only two threads and less than a gigabyte of RAM per production deployments that handle millions of instances per minute. Evaluation on real-world data sets demonstrates Drifter's effectiveness in alerting and mitigating data quality issues, substantially improving reliability and performance of real-time live recommender systems.
+    
+[^19]: PubMed及其他：生物医学文献检索的最新进展和最佳实践
+
+    PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search. (arXiv:2307.09683v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.09683](http://arxiv.org/abs/2307.09683)
+
+    本论文总结了生物医学文献检索领域的最新进展和最佳实践，介绍了针对不同生物医学信息需求的文献检索工具，并旨在帮助读者高效满足其信息需求。
+
+    
+
+    生物医学研究产生了丰富的信息，其中很多只能通过文献获取。因此，文献检索是临床和生物医学研究中建立在先前知识基础上的重要工具。尽管人工智能的最新进展已经将功能扩展到了超越基于关键字的搜索，但这些进展可能对临床医生和研究人员来说还比较陌生。为了解决这个问题，本文介绍了一些特定于生物医学领域信息需求的文献检索工具，旨在帮助读者高效地满足他们的信息需求。我们首先对广泛使用的PubMed搜索引擎进行了讨论，包括最新的改进和仍然存在的挑战。然后，我们描述了五种特定信息需求的文献检索工具：1.为循证医学寻找高质量临床研究。2.为精准医学和基因组学检索基因相关信息。3.根据意义搜索。
+
+    Biomedical research yields a wealth of information, much of which is only accessible through the literature. Consequently, literature search is an essential tool for building on prior knowledge in clinical and biomedical research. Although recent improvements in artificial intelligence have expanded functionality beyond keyword-based search, these advances may be unfamiliar to clinicians and researchers. In response, we present a survey of literature search tools tailored to both general and specific information needs in biomedicine, with the objective of helping readers efficiently fulfill their information needs. We first examine the widely used PubMed search engine, discussing recent improvements and continued challenges. We then describe literature search tools catering to five specific information needs: 1. Identifying high-quality clinical research for evidence-based medicine. 2. Retrieving gene-related information for precision medicine and genomics. 3. Searching by meaning, inc
+    
+[^20]: 智慧医疗中的多模态融合:从数据、信息、知识到智慧之旅
+
+    Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom. (arXiv:2306.11963v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.11963](http://arxiv.org/abs/2306.11963)
+
+    本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。
+
+    
+
+    多模态医学数据融合已成为智慧医疗中的一种革新性方法，能够全面了解患者健康状况和个性化治疗方案。本文探讨了多模态融合为智慧医疗带来的从数据、信息和知识到智慧（DIKW）之旅。全面回顾了多模态医学数据融合的研究现状，重点关注了不同数据模态的集成方式。文章探讨了特征选择、基于规则的系统、机器学习、深度学习和自然语言处理等不同方法，用于多模态数据的融合和分析。同时，文章也着重讨论了多模态融合在医疗保健中面临的挑战。通过综合评述的框架和见解，提出了一个符合DIKW机制的通用多模态医疗数据融合框架。此外，文章还探讨了未来与预测、预防、个性化和治疗有关的医疗方向。
+
+    Multimodal medical data fusion has emerged as a transformative approach in smart healthcare, enabling a comprehensive understanding of patient health and personalized treatment plans. In this paper, a journey from data, information, and knowledge to wisdom (DIKW) is explored through multimodal fusion for smart healthcare. A comprehensive review of multimodal medical data fusion focuses on the integration of various data modalities are presented. It explores different approaches such as Feature selection, Rule-based systems, Machine learning, Deep learning, and Natural Language Processing for fusing and analyzing multimodal data. The paper also highlights the challenges associated with multimodal fusion in healthcare. By synthesizing the reviewed frameworks and insights, a generic framework for multimodal medical data fusion is proposed while aligning with the DIKW mechanism. Moreover, it discusses future directions aligned with the four pillars of healthcare: Predictive, Preventive, Pe
     
 

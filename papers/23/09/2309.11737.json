@@ -1,0 +1,11 @@
+{
+    "title": "Choice-75: A Dataset on Decision Branching in Script Learning. (arXiv:2309.11737v1 [cs.AI])",
+    "abstract": "Script learning studies how daily events unfold. Previous works tend to consider a script as a linear sequence of events while ignoring the potential branches that arise due to people's circumstantial choices. We hence propose Choice-75, the first benchmark that challenges intelligent systems to predict decisions given descriptive scenarios, containing 75 scripts and more than 600 scenarios. While large language models demonstrate overall decent performances, there is still notable room for improvement in many hard scenarios.",
+    "link": "http://arxiv.org/abs/2309.11737",
+    "context": "Title: Choice-75: A Dataset on Decision Branching in Script Learning. (arXiv:2309.11737v1 [cs.AI])\nAbstract: Script learning studies how daily events unfold. Previous works tend to consider a script as a linear sequence of events while ignoring the potential branches that arise due to people's circumstantial choices. We hence propose Choice-75, the first benchmark that challenges intelligent systems to predict decisions given descriptive scenarios, containing 75 scripts and more than 600 scenarios. While large language models demonstrate overall decent performances, there is still notable room for improvement in many hard scenarios.",
+    "path": "papers/23/09/2309.11737.json",
+    "total_tokens": 648,
+    "translated_title": "Choice-75：一个关于脚本学习中决策分支的数据集",
+    "translated_abstract": "脚本学习研究日常事件的展开方式。以往的研究往往将脚本视为线性的事件序列，忽略了人们在特定情境中所做出的选择可能带来的分支。因此，我们提出了Choice-75，这是第一个挑战智能系统根据描述场景预测决策的基准，包含75个脚本和600多个场景。尽管大型语言模型在整体上表现不错，但在许多困难的场景中仍有明显的改进空间。",
+    "tldr": "Choice-75是一个关于脚本学习中决策分支的数据集，主要挑战智能系统在描述场景下预测决策。在许多难题中仍有改进的空间。"
+}

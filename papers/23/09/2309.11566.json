@@ -1,0 +1,12 @@
+{
+    "title": "SignBank+: Multilingual Sign Language Translation Dataset. (arXiv:2309.11566v1 [cs.CL])",
+    "abstract": "This work advances the field of sign language machine translation by focusing on dataset quality and simplification of the translation system. We introduce SignBank+, a clean version of the SignBank dataset, optimized for machine translation. Contrary to previous works that employ complex factorization techniques for translation, we advocate for a simplified text-to-text translation approach. Our evaluation shows that models trained on SignBank+ surpass those on the original dataset, establishing a new benchmark and providing an open resource for future research.",
+    "link": "http://arxiv.org/abs/2309.11566",
+    "context": "Title: SignBank+: Multilingual Sign Language Translation Dataset. (arXiv:2309.11566v1 [cs.CL])\nAbstract: This work advances the field of sign language machine translation by focusing on dataset quality and simplification of the translation system. We introduce SignBank+, a clean version of the SignBank dataset, optimized for machine translation. Contrary to previous works that employ complex factorization techniques for translation, we advocate for a simplified text-to-text translation approach. Our evaluation shows that models trained on SignBank+ surpass those on the original dataset, establishing a new benchmark and providing an open resource for future research.",
+    "path": "papers/23/09/2309.11566.json",
+    "total_tokens": 681,
+    "translated_title": "SignBank +：多语种手语翻译数据集",
+    "translated_abstract": "该研究通过关注数据集的质量和简化翻译系统，推进手语机器翻译领域。我们引入了SignBank+，这是SignBank数据集的优化版本，经过清理以适用于机器翻译。与以往采用复杂的分解技术进行翻译的方法不同，我们主张采用简化的文本对文本翻译方法。我们的评估表明，在SignBank+数据集上训练的模型超过了原始数据集上的模型，建立了一个新的基准，并为未来的研究提供了一个开放的资源。",
+    "tldr": "该论文介绍了SignBank+，这是一个经过优化的手语翻译数据集，通过简化文本对文本翻译方法，提升了手语机器翻译模型的性能，并为未来的研究提供了一个开放的资源。",
+    "en_tdlr": "This paper introduces SignBank+, an optimized sign language translation dataset, and improves the performance of sign language machine translation models by simplifying the text-to-text translation approach, providing an open resource for future research."
+}

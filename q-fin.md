@@ -2,187 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Existence of a Competitive Equilibrium with Substitutes, with Applications to Matching and Discrete Choice Models.](http://arxiv.org/abs/2309.11416) | 该论文研究了存在替代品的竞争均衡问题，并提出了对于一般竞争系统的存在性和唯一性的新结果。在匹配和离散选择模型中，这些结果被证明是适用的，并提供了计算唯一竞争均衡的算法。 |
-| [^2] | [Transformers versus LSTMs for electronic trading.](http://arxiv.org/abs/2309.11400) | 本研究比较了基于LSTM和基于Transformer的模型在金融时间序列预测任务上的表现，并介绍了一种新的LSTM-based模型DLSTM。 |
-| [^3] | [Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$.](http://arxiv.org/abs/2309.11394) | 本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。 |
-| [^4] | [Increasing Ticketing Allocative Efficiency Using Marginal Price Auction Theory.](http://arxiv.org/abs/2309.11189) | 使用边际价格拍卖系统的售票协议能够更公平高效地分配票，并帮助活动组织者提取更多经济租金。 |
-| [^5] | [Research on the Impact of Executive Shareholding on New Investment in Enterprises Based on Multivariable Linear Regression Model.](http://arxiv.org/abs/2309.10986) | 该研究使用多变量线性回归模型, 基于委托代理理论和最优合同理论, 分析了高管股权对企业新投资的影响。根据研究结果，发现高管持股会通过改变高管股权激励的边际效用，导致管理层、股东和债权人的利益不平衡。 |
-| [^6] | [Primal-Dual $\ell_0$-Constrained Sparse Index Tracking.](http://arxiv.org/abs/2309.10152) | 本文提出了一种新的稀疏指数跟踪问题的形式化，使用了$\ell_0$-范数约束，可以轻松控制投资组合中资产数量的上限。 |
-| [^7] | [Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations.](http://arxiv.org/abs/2309.02338) | 本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。 |
-| [^8] | [Uncertainty Propagation and Dynamic Robust Risk Measures.](http://arxiv.org/abs/2308.12856) | 这篇论文提出了一种用于量化动态环境中不确定性传播的框架。它定义了专门针对有限时间段内的离散随机过程而设计的动态不确定性集合，以捕捉围绕随机过程和模型的不确定性。论文还探讨了导致动态稳健风险度量的一些已知性质的不确定性集合的条件，并发现由$f$-divergences引起的不确定性集合导致较强的时间一致性。 |
-| [^9] | [LOB-Based Deep Learning Models for Stock Price Trend Prediction: A Benchmark Study.](http://arxiv.org/abs/2308.01915) | 本研究通过基准研究探讨了基于LOB数据的股票价格趋势预测的15种最新DL模型的鲁棒性和泛化能力。实验证明这些模型在面对新数据时性能明显下降，对其在实际市场中的应用性提出了问题。 |
-| [^10] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
-| [^11] | [An axiomatic approach to default risk and model uncertainty in rating systems.](http://arxiv.org/abs/2303.08217) | 本文提出了一种公理化方法处理评级系统中的违约风险和模型不确定性，引入了违约风险度量的概念来简化计算，该度量考虑了模型风险，并通过讨论保守水平对资产权重的影响，对资本要求条例提出了一些新的见解。 |
-| [^12] | [Matching Function Equilibria with Partial Assignment: Existence, Uniqueness and Estimation.](http://arxiv.org/abs/2102.02071) | 该论文研究了匹配函数平衡中的部分分配问题，证明了平衡的存在和唯一性，并提出了一种高效的计算方法。对于某些匹配模型，还提出了一种无需参数估计的构造对照匹配均衡的方法。这些方法在分析社会政策对婚姻市场影响方面具有重要应用价值。 |
+| [^1] | [Techno-Economic Analysis of Synthetic Fuel Production from Existing Nuclear Power Plants across the United States.](http://arxiv.org/abs/2309.12085) | 该论文研究了利用现有核电站生产合成燃料的技术经济潜力，结果显示将合成燃料生产与核电站耦合可以提高核电站的盈利能力，为投资者带来可观的回报。 |
+| [^2] | [Estimating Stable Fixed Points and Langevin Potentials for Financial Dynamics.](http://arxiv.org/abs/2309.12082) | 本文将几何布朗运动模型推广为具有多项式漂移的随机微分方程，并通过模型选择确定最优模型为阶数为2的模型。势函数集合表明存在明显的势能井，表明稳定价格的存在。 |
+| [^3] | [Singular Control in a Cash Management Model with Ambiguity.](http://arxiv.org/abs/2309.12014) | 本研究提出了一个受不确定性驱动的现金管理奇异控制模型，研究发现不确定性增加会导致最坏情况下的预期成本增加以及不活跃区域变窄。 |
+| [^4] | [Stock Market Sentiment Classification and Backtesting via Fine-tuned BERT.](http://arxiv.org/abs/2309.11979) | 本论文通过构建自然语言处理模型BERT并对其进行fine-tune，实现了股市情绪的分类和基于该模型的回测分析。实验结果显示，fine-tuned模型相比原始模型和基准模型有不同程度的性能改进。 |
+| [^5] | [A Comprehensive Review on Financial Explainable AI.](http://arxiv.org/abs/2309.11960) | 本文回顾了在金融领域中改善深度学习模型可解释性的各种方法，并讨论了相关的挑战和未来发展方向。 |
+| [^6] | [Doubly Robust Mean-CVaR Portfolio.](http://arxiv.org/abs/2309.11693) | 本研究提出了一种双重稳健均值-CVaR投资组合方法，以解决投资组合优化中的不稳定性问题，并实现多个CVaR水平的同时优化，并为均值参数定义了不确定性集合，从而进行稳健优化。 |
+| [^7] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
+| [^8] | [Global universal approximation of functional input maps on weighted spaces.](http://arxiv.org/abs/2306.03303) | 本文提出了功能性输入神经网络，可以在带权重空间上完成全局函数逼近。这一方法适用于连续函数的推广，还可用于路径空间函数的逼近，同时也可以逼近线性函数签名。 |
+| [^9] | [Online Self-Concordant and Relatively Smooth Minimization, With Applications to Online Portfolio Selection and Learning Quantum States.](http://arxiv.org/abs/2210.00997) | 本文提出了一种在线自协调且相对平滑的最小化算法，通过分析在线镜像下降算法在凸函数上的遗憾，改进了在线投资组合选择算法的性能，并在在线学习量子态问题中达到了与Soft-Bayes算法相当的效果。 |
+| [^10] | [Publication Bias in Asset Pricing Research.](http://arxiv.org/abs/2209.13623) | 发布偏倚是资产定价研究中的一个自然关注点。大规模元研究提供了实证证据，表明发布偏倚并不是影响研究结果的主要因素。通过经验贝叶斯统计方法对发布偏倚进行校正后，发现其对样本内平均收益只有10%至15%的影响。 |
 
 # 详细
 
-[^1]: 存在替代品的竞争均衡的存在性，以及在匹配和离散选择模型中的应用
+[^1]: 美国现有核电站合成燃料生产的技术经济分析
 
-    Existence of a Competitive Equilibrium with Substitutes, with Applications to Matching and Discrete Choice Models. (arXiv:2309.11416v1 [econ.GN])
+    Techno-Economic Analysis of Synthetic Fuel Production from Existing Nuclear Power Plants across the United States. (arXiv:2309.12085v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.11416](http://arxiv.org/abs/2309.11416)
+    [http://arxiv.org/abs/2309.12085](http://arxiv.org/abs/2309.12085)
 
-    该论文研究了存在替代品的竞争均衡问题，并提出了对于一般竞争系统的存在性和唯一性的新结果。在匹配和离散选择模型中，这些结果被证明是适用的，并提供了计算唯一竞争均衡的算法。
-
-    
-
-    我们提出了关于存在性和唯一性的新结果，针对具有替代品的一般非参数和非可分竞争均衡。这些结果确保了一般竞争系统的可逆性。现有文献主要关注竞争均衡的唯一性，假设存在性成立。我们引入了三个供给系统必须满足的属性：弱替代品、关键替代品和响应性。这些属性足以确保均衡的存在，从而提供了Berry、Gandhi和Haile（2013年）唯一性结果的存在性对应结果。对于两个重要的模型类别，具有完整分配的二部匹配模型和离散选择模型，我们展示了这两个模型都可以重构为一个竞争系统，从而可以方便地应用我们的存在性和唯一性结果。我们还提供了一个计算唯一竞争均衡的算法。此外，我们认为我们的结果是重要的。
-
-    We propose new results for the existence and uniqueness of a general nonparametric and nonseparable competitive equilibrium with substitutes. These results ensure the invertibility of a general competitive system. The existing literature has focused on the uniqueness of a competitive equilibrium assuming that existence holds. We introduce three properties that our supply system must satisfy: weak substitutes, pivotal substitutes, and responsiveness. These properties are sufficient to ensure the existence of an equilibrium, thus providing the existence counterpart to Berry, Gandhi, and Haile (2013)'s uniqueness results. For two important classes of models, bipartite matching models with full assignment and discrete choice models, we show that both models can be reformulated as a competitive system such that our existence and uniqueness results can be readily applied. We also provide an algorithm to compute the unique competitive equilibrium. Furthermore, we argue that our results are pa
-    
-[^2]: Transformers对电子交易的比较测试
-
-    Transformers versus LSTMs for electronic trading. (arXiv:2309.11400v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2309.11400](http://arxiv.org/abs/2309.11400)
-
-    本研究比较了基于LSTM和基于Transformer的模型在金融时间序列预测任务上的表现，并介绍了一种新的LSTM-based模型DLSTM。
+    该论文研究了利用现有核电站生产合成燃料的技术经济潜力，结果显示将合成燃料生产与核电站耦合可以提高核电站的盈利能力，为投资者带来可观的回报。
 
     
 
-    随着人工智能的快速发展，长短期记忆(LSTM)作为一种循环神经网络(RNN)被广泛应用于时间序列预测。与RNN相似，Transformer被设计用来处理序列数据。由于Transformer在自然语言处理(NLP)领域取得了巨大成功，研究者开始关注Transformer在时间序列预测中的表现，并最近提出了许多基于Transformer的长时间序列预测解决方案。然而，当涉及金融时间序列预测时，LSTM仍然是主流的架构。因此，本研究想要回答的问题是：Transformer基于模型是否可以应用在金融时间序列预测中，并击败LSTM。为了回答这个问题，本研究在基于高频限价委托簿数据的多个金融预测任务上比较了多种基于LSTM和Transformer的模型。创建了一个名为DLSTM的新型LSTM-based模型，并提出了新的架构。
+    低碳合成燃料可以取代柴油和喷气燃料等传统燃料，有助于全球范围内实现交通领域的脱碳，但需要大规模的成本效益高的生产设施。与此同时，由于经济困难，核电站正在关闭：电力价格过低且不稳定，无法覆盖运营成本。利用现有核电站生产合成燃料可能阻止这些低碳资产的损失，同时大规模生产合成燃料，但目前尚无关于这种整合能源系统的技术经济分析。我们量化了在美国五个示例核电站与合成燃料生产过程耦合的技术经济潜力，以探究不同电力市场、二氧化碳资源的获取以及燃料市场的影响。将合成燃料生产与核电站耦合可以使核电站的盈利能力增加多达7.92亿美元（2020年），同时获得10％的投资回报率。
 
-    With the rapid development of artificial intelligence, long short term memory (LSTM), one kind of recurrent neural network (RNN), has been widely applied in time series prediction.  Like RNN, Transformer is designed to handle the sequential data. As Transformer achieved great success in Natural Language Processing (NLP), researchers got interested in Transformer's performance on time series prediction, and plenty of Transformer-based solutions on long time series forecasting have come out recently. However, when it comes to financial time series prediction, LSTM is still a dominant architecture. Therefore, the question this study wants to answer is: whether the Transformer-based model can be applied in financial time series prediction and beat LSTM.  To answer this question, various LSTM-based and Transformer-based models are compared on multiple financial prediction tasks based on high-frequency limit order book data. A new LSTM-based model called DLSTM is built and new architecture f
+    Low carbon synfuel can displace transport fossil fuels such as diesel and jet fuel and help achieve the decarbonization of the transportation sector at a global scale, but large-scale cost-effective production facilities are needed. Meanwhile, nuclear power plants are closing due to economic difficulties: electricity prices are too low and variable to cover their operational costs. Using existing nuclear power plants to produce synfuels might prevent loss of these low-carbon assets while producing synfuels at scale, but no technoeconomic analysis of this Integrated Energy System exist. We quantify the technoeconomic potential of coupling a synthetic fuel production process with five example nuclear power plants across the U.S. to explore the influence of different electricity markets, access to carbon dioxide sources, and fuel markets. Coupling synfuel production increases nuclear plant profitability by up to 792 million USD(2020) in addition to a 10 percent rate of return on investmen
     
-[^3]: 以智能合约平台竞争视角考虑，以太坊的权益证明机制是否可持续？
+[^2]: 估计金融动力学的稳定不动点和朗之万势能
 
-    Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$. (arXiv:2309.11394v1 [cs.CY])
+    Estimating Stable Fixed Points and Langevin Potentials for Financial Dynamics. (arXiv:2309.12082v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2309.11394](http://arxiv.org/abs/2309.11394)
+    [http://arxiv.org/abs/2309.12082](http://arxiv.org/abs/2309.12082)
 
-    本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。
-
-    
-
-    自从以太坊过渡到权益证明机制后，声称其结果是降低能源消耗和增加安全性。然而，即使是这种情况，这种状态能持续下去吗？本文关注其他智能合约平台对以太坊本地货币Ether（ETH）价格可能带来的潜在影响，进而对权益证明设计所宣称的安全性和可持续性提出了疑问。
-
-    Since the Merge update upon which Ethereum transitioned to Proof of Stake, it has been touted that it resulted in lower power consumption and increased security. However, even if that is the case, can this state be sustained?  In this paper, we focus on the potential impact of competition with other smart contract platforms on the price of Ethereum's native currency, Ether (ETH), thereby raising questions about the safety and sustainability purportedly brought about by the design of Proof of Stake.
-    
-[^4]: 使用边际价格拍卖理论提高售票分配效率
-
-    Increasing Ticketing Allocative Efficiency Using Marginal Price Auction Theory. (arXiv:2309.11189v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.11189](http://arxiv.org/abs/2309.11189)
-
-    使用边际价格拍卖系统的售票协议能够更公平高效地分配票，并帮助活动组织者提取更多经济租金。
+    本文将几何布朗运动模型推广为具有多项式漂移的随机微分方程，并通过模型选择确定最优模型为阶数为2的模型。势函数集合表明存在明显的势能井，表明稳定价格的存在。
 
     
 
-    大多数现代售票系统依赖于先到先得或随机分配系统来确定票的分配。由于其不公平的分配和分配效率低下，这种系统近年来受到了相当大的批评。我们分析了一种基于边际价格拍卖系统变体的售票协议。用户根据自己的效用向协议提交投标。协议将票分配给出价最高的人，并使用最低的中标出价确定所有投标人支付的最终票价。我们提供了博弈理论证明，以确保该协议更有效地将票分配给效用最高的投标人。我们还证明了协议对活动组织者提取了更多的经济租金，以及在时间不变的投标人效用下，票务炒卖的非最优性。
+    几何布朗运动是量化金融中的标准模型，但其随机微分方程的势函数不能包含稳定的非零价格。本文将几何布朗运动推广为阶数为q的多项式漂移的随机微分方程，并通过模型选择表明q=2最常被认为是描述数据的最优模型。此外，通过马尔科夫链蒙特卡洛的势函数集合表明存在明显的势能井，表明稳定价格的存在。
 
-    Most modern ticketing systems rely on a first-come-first-serve or randomized allocation system to determine the allocation of tickets. Such systems has received considerable backlash in recent years due to its inequitable allotment and allocative inefficiency. We analyze a ticketing protocol based on a variation of the marginal price auction system. Users submit bids to the protocol based on their own utilities. The protocol awards tickets to the highest bidders and determines the final ticket price paid by all bidders using the lowest winning submitted bid. Game theoretic proof is provided to ensure the protocol more efficiently allocates the tickets to the bidders with the highest utilities. We also prove that the protocol extracts more economic rents for the event organizers and the non-optimality of ticket scalping under time-invariant bidder utilities.
+    The Geometric Brownian Motion (GBM) is a standard model in quantitative finance, but the potential function of its stochastic differential equation (SDE) cannot include stable nonzero prices. This article generalises the GBM to an SDE with polynomial drift of order q and shows via model selection that q=2 is most frequently the optimal model to describe the data. Moreover, Markov chain Monte Carlo ensembles of the accompanying potential functions show a clear and pronounced potential well, indicating the existence of a stable price.
     
-[^5]: 基于多变量线性回归模型的高管股权对企业新投资的影响研究
+[^3]: 具有不确定性的现金管理模型中的奇异控制
 
-    Research on the Impact of Executive Shareholding on New Investment in Enterprises Based on Multivariable Linear Regression Model. (arXiv:2309.10986v1 [math.NA])
+    Singular Control in a Cash Management Model with Ambiguity. (arXiv:2309.12014v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2309.10986](http://arxiv.org/abs/2309.10986)
+    [http://arxiv.org/abs/2309.12014](http://arxiv.org/abs/2309.12014)
 
-    该研究使用多变量线性回归模型, 基于委托代理理论和最优合同理论, 分析了高管股权对企业新投资的影响。根据研究结果，发现高管持股会通过改变高管股权激励的边际效用，导致管理层、股东和债权人的利益不平衡。
-
-    
-
-    基于委托代理理论和最优合同理论，企业利用增加高管股权的方式来激励协同创新。然而，从管理层与股东之间的代理成本（即第一类）和大股东与小股东之间的代理成本（即第二类）的角度来看，随着高管股权激励的边际效用变化，管理层、股东和债权人的利益将不平衡。为了建立高管持股比例与企业创新投资之间的关联性，我们选择了中国A股市场上一系列上市公司作为研究焦点。我们使用多变量线性回归模型对这种关系进行全面分析。我们开发了以下模型：（1）高管持股对企业创新投资的影响模型；（2）高管持股对...
-
-    Based on principal-agent theory and optimal contract theory, companies use the method of increasing executives' shareholding to stimulate collaborative innovation. However, from the aspect of agency costs between management and shareholders (i.e. the first type) and between major shareholders and minority shareholders (i.e. the second type), the interests of management, shareholders and creditors will be unbalanced with the change of the marginal utility of executive equity incentives.In order to establish the correlation between the proportion of shares held by executives and investments in corporate innovation, we have chosen a range of publicly listed companies within China's A-share market as the focus of our study. Employing a multi-variable linear regression model, we aim to analyze this relationship thoroughly.The following models were developed: (1) the impact model of executive shareholding on corporate innovation investment; (2) the impact model of executive shareholding on t
-    
-[^6]: Primal-Dual $\ell_0$-约束稀疏指数跟踪
-
-    Primal-Dual $\ell_0$-Constrained Sparse Index Tracking. (arXiv:2309.10152v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2309.10152](http://arxiv.org/abs/2309.10152)
-
-    本文提出了一种新的稀疏指数跟踪问题的形式化，使用了$\ell_0$-范数约束，可以轻松控制投资组合中资产数量的上限。
+    本研究提出了一个受不确定性驱动的现金管理奇异控制模型，研究发现不确定性增加会导致最坏情况下的预期成本增加以及不活跃区域变窄。
 
     
 
-    稀疏指数跟踪是一种重要的被动投资组合管理策略，它通过构建稀疏投资组合来跟踪金融指数。相比于全仓投资组合，稀疏投资组合在降低交易成本和避免不流动资产方面更具优势。为了强制投资组合的稀疏性，传统研究提出了基于$\ell_p$-范数正则化的公式，作为$\ell_0$-范数正则化的连续替代。尽管这样的公式可以用来构建稀疏投资组合，但在实际投资中却不易使用，因为细致的参数调整来指定投资组合中资产数量的上限是艰难且耗时的。本文提出了一种新的稀疏指数跟踪问题的形式化，使用了$\ell_0$-范数约束，从而可以轻松控制投资组合中资产数量的上限。此外，我们的形式化允许在投资组合稀疏性和换手率之间进行选择。
+    本研究考虑了一个受到不确定性驱动的现金储备管理的奇异控制模型。假设经理在一组由κ-无知特征化的先验分布上具有最小最大偏好。建立了一个验证定理来确定公司的成本函数和最优现金策略；后者采用控制屏障策略的形式。在由算术布朗运动驱动的模型中，我们通过数值方法证明了不确定性增加会导致最坏情况下的预期成本增加以及不活跃区域变窄。后一效应可以用来解释观察到的现金管理行为的不确定性驱动因素。
 
-    Sparse index tracking is one of the prominent passive portfolio management strategies that construct a sparse portfolio to track a financial index. A sparse portfolio is desirable over a full portfolio in terms of transaction cost reduction and avoiding illiquid assets. To enforce the sparsity of the portfolio, conventional studies have proposed formulations based on $\ell_p$-norm regularizations as a continuous surrogate of the $\ell_0$-norm regularization. Although such formulations can be used to construct sparse portfolios, they are not easy to use in actual investments because parameter tuning to specify the exact upper bound on the number of assets in the portfolio is delicate and time-consuming. In this paper, we propose a new problem formulation of sparse index tracking using an $\ell_0$-norm constraint that enables easy control of the upper bound on the number of assets in the portfolio. In addition, our formulation allows the choice between portfolio sparsity and turnover spa
+    We consider a singular control model of cash reserve management, driven by a diffusion under ambiguity. The manager is assumed to have maxmin preferences over a set of priors characterized by $\kappa$-ignorance. A verification theorem is established to determine the firm's cost function and the optimal cash policy; the latter taking the form of a control barrier policy. In a model driven by arithmetic Brownian motion, we numerically show that an increase in ambiguity leads to higher expected costs under the worst-case prior and a narrower inaction region. The latter effect can be used to provide an ambiguity-driven explanation for observed cash management behavior.
     
-[^7]: 低地球轨道（LEO）卫星宽带星座的可持续性评估
+[^4]: 股市情绪分类与基于Fine-tuned BERT的回测
 
-    Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations. (arXiv:2309.02338v1 [astro-ph.EP])
+    Stock Market Sentiment Classification and Backtesting via Fine-tuned BERT. (arXiv:2309.11979v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2309.02338](http://arxiv.org/abs/2309.02338)
+    [http://arxiv.org/abs/2309.11979](http://arxiv.org/abs/2309.11979)
 
-    本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。
-
-    
-
-    超大型星座的增长迅速增加了将新卫星送入空间所需的火箭发射次数。虽然低地球轨道（LEO）宽带卫星有助于连接未连通的社区并实现可持续发展目标，但也存在一系列负面环境外部性，包括火箭燃料燃烧和由此产生的环境排放。我们对三个主要LEO星座的第一阶段进行可持续性分析，包括Amazon Kuiper（3,236颗卫星）、OneWeb（648颗卫星）和SpaceX Starlink（4,425颗卫星）。在基准方案下，经过五年，我们发现Kuiper的每位用户二氧化碳当量（CO$_2$eq）为0.70±0.34吨，OneWeb为1.41±0.71吨，Starlink为0.47±0.15吨CO$_2$eq/用户。然而，在最坏情况下的排放情景中，这些值增加到Kuiper的3.02±1.48吨，OneWeb的1.7±0.71吨和Starlink的1.04±0.33吨CO$_2$eq/用户。
-
-    The growth of mega-constellations is rapidly increasing the number of rocket launches required to place new satellites in space. While Low Earth Orbit (LEO) broadband satellites help to connect unconnected communities and achieve the Sustainable Development Goals, there are also a range of negative environmental externalities, from the burning of rocket fuels and resulting environmental emissions. We present sustainability analytics for phase 1 of the three main LEO constellations including Amazon Kuiper (3,236 satellites), OneWeb (648 satellites), and SpaceX Starlink (4,425 satellites). In baseline scenarios over five years, we find a per subscriber carbon dioxide equivalent (CO$_2$eq) of 0.70$\pm$0.34 tonnes for Kuiper, 1.41$\pm$0.71 tonnes for OneWeb and 0.47$\pm$0.15 tonnes CO$_2$eq/subscriber for Starlink. However, in the worst-case emissions scenario these values increase to 3.02$\pm$1.48 tonnes for Kuiper, 1.7$\pm$0.71 tonnes for OneWeb and 1.04$\pm$0.33 tonnes CO$_2$eq/subscrib
-    
-[^8]: 不确定性传播和动态稳健风险度量
-
-    Uncertainty Propagation and Dynamic Robust Risk Measures. (arXiv:2308.12856v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2308.12856](http://arxiv.org/abs/2308.12856)
-
-    这篇论文提出了一种用于量化动态环境中不确定性传播的框架。它定义了专门针对有限时间段内的离散随机过程而设计的动态不确定性集合，以捕捉围绕随机过程和模型的不确定性。论文还探讨了导致动态稳健风险度量的一些已知性质的不确定性集合的条件，并发现由$f$-divergences引起的不确定性集合导致较强的时间一致性。
+    本论文通过构建自然语言处理模型BERT并对其进行fine-tune，实现了股市情绪的分类和基于该模型的回测分析。实验结果显示，fine-tuned模型相比原始模型和基准模型有不同程度的性能改进。
 
     
 
-    我们引入了一个用于量化动态环境中不确定性传播的框架。具体地，我们定义了专门针对有限时间段内的离散随机过程而设计的动态不确定性集合。这些动态不确定性集合捕捉了围绕随机过程和模型的不确定性，包括分布模糊等因素。不确定性集合的例子包括由Wasserstein距离和$f$-divergences引起的不确定性集合。我们进一步将动态稳健风险度量定义为不确定性集合内所有候选风险的上确界。我们以公理化的方式讨论了导致动态稳健风险度量的一些已知性质（如凸性和一致性）的不确定性集合的条件。此外，我们还讨论了导致稳健动态风险度量时间一致性的动态不确定性集合的必要和充分特性。我们发现，由$f$-divergences引起的不确定性集合导致较强的时间一致性。
+    随着大数据和计算设备的快速发展，基于实时信息获取的低延迟自动交易平台成为股票交易市场的主要组成部分，因此量化交易的主题得到了广泛关注。对于非强有效的交易市场来说，人类情绪和期望总是主导市场趋势和交易决策。因此，本文从情绪理论出发，以东方财富为例，从其对应的股吧爬取用户评论标题数据并进行数据清洗。随后，构建了自然语言处理模型BERT，并使用现有的带有标注数据集对BERT模型进行fine-tune。实验结果表明，与原始模型和基准模型相比，fine-tuned模型有不同程度的性能改进。随后，在以上模型的基础上，对爬取的用户评论数据进行了情绪极性标注。
 
-    We introduce a framework for quantifying propagation of uncertainty arising in a dynamic setting. Specifically, we define dynamic uncertainty sets designed explicitly for discrete stochastic processes over a finite time horizon. These dynamic uncertainty sets capture the uncertainty surrounding stochastic processes and models, accounting for factors such as distributional ambiguity. Examples of uncertainty sets include those induced by the Wasserstein distance and $f$-divergences.  We further define dynamic robust risk measures as the supremum of all candidates' risks within the uncertainty set. In an axiomatic way, we discuss conditions on the uncertainty sets that lead to well-known properties of dynamic robust risk measures, such as convexity and coherence. Furthermore, we discuss the necessary and sufficient properties of dynamic uncertainty sets that lead to time-consistencies of robust dynamic risk measures. We find that uncertainty sets stemming from $f$-divergences lead to stro
+    With the rapid development of big data and computing devices, low-latency automatic trading platforms based on real-time information acquisition have become the main components of the stock trading market, so the topic of quantitative trading has received widespread attention. And for non-strongly efficient trading markets, human emotions and expectations always dominate market trends and trading decisions. Therefore, this paper starts from the theory of emotion, taking East Money as an example, crawling user comment titles data from its corresponding stock bar and performing data cleaning. Subsequently, a natural language processing model BERT was constructed, and the BERT model was fine-tuned using existing annotated data sets. The experimental results show that the fine-tuned model has different degrees of performance improvement compared to the original model and the baseline model. Subsequently, based on the above model, the user comment data crawled is labeled with emotional pola
     
-[^9]: 基于LOB的深度学习模型用于股票价格趋势预测：一项基准研究
+[^5]: 对可解释性人工智能在金融领域的综合回顾
 
-    LOB-Based Deep Learning Models for Stock Price Trend Prediction: A Benchmark Study. (arXiv:2308.01915v1 [q-fin.TR])
+    A Comprehensive Review on Financial Explainable AI. (arXiv:2309.11960v1 [cs.AI])
 
-    [http://arxiv.org/abs/2308.01915](http://arxiv.org/abs/2308.01915)
+    [http://arxiv.org/abs/2309.11960](http://arxiv.org/abs/2309.11960)
 
-    本研究通过基准研究探讨了基于LOB数据的股票价格趋势预测的15种最新DL模型的鲁棒性和泛化能力。实验证明这些模型在面对新数据时性能明显下降，对其在实际市场中的应用性提出了问题。
-
-    
-
-    深度学习（DL）研究在金融行业中产生了显著影响。我们研究了基于限价订单簿（LOB）数据的股票价格趋势预测（SPTP）的十五种最新 DL模型的鲁棒性和泛化能力。为了进行这项研究，我们开发了LOBCAST，一个开源框架，包括数据预处理、DL 模型训练、评估和利润分析。我们的大量实验表明，所有模型在面对新数据时性能显著下降，从而对它们在实际市场中的适用性提出了疑问。我们的工作作为一个基准，揭示了当前方法的潜力和局限性，并为创新解决方案提供了见解。
-
-    The recent advancements in Deep Learning (DL) research have notably influenced the finance sector. We examine the robustness and generalizability of fifteen state-of-the-art DL models focusing on Stock Price Trend Prediction (SPTP) based on Limit Order Book (LOB) data. To carry out this study, we developed LOBCAST, an open-source framework that incorporates data preprocessing, DL model training, evaluation and profit analysis. Our extensive experiments reveal that all models exhibit a significant performance drop when exposed to new data, thereby raising questions about their real-world market applicability. Our work serves as a benchmark, illuminating the potential and the limitations of current approaches and providing insight for innovative solutions.
-    
-[^10]: 互动一致性纠缠理论
-
-    A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2306.15554](http://arxiv.org/abs/2306.15554)
-
-    本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。
+    本文回顾了在金融领域中改善深度学习模型可解释性的各种方法，并讨论了相关的挑战和未来发展方向。
 
     
 
-    复杂适应性学习是智能的，并在生命和非生命复杂系统中发挥作用。一个复杂系统由许多相互作用的个体或单元组成，它们在相互作用中显示出隐藏的模式，并广泛出现在几乎所有学科中，从自然科学到社会科学。这激发了科学家们探索复杂系统形成机制的兴趣。然而，这是非常具有挑战性的。本文从交易量-价格概率波动方程中提取了复杂系统中的互动一致性的普遍规律或法则，并将其应用于复杂量子系统。它假设粒子可以在加强坐标中具有复杂适应性学习或智能样性质，并将金融市场交易者的复杂适应性学习延伸到量子物理中的非生命粒子。在这些假设的基础上，作者提出了一种互动一致性纠缠理论，用于解释智能样粒子的行为。
+    人工智能（AI）的成功，特别是深度学习模型的成功，使其在各个行业得到了广泛应用，因为它们能够处理大量数据和学习复杂模式。然而，由于缺乏可解释性，人们对于在金融和医疗等重要行业中使用这些模型存在重大担忧，因为决策透明性至关重要。在本文中，我们对在金融背景下改善深度学习模型可解释性的方法进行了对比调查。我们根据各种可解释性人工智能方法的特点对其进行分类，并回顾了采用可解释性人工智能方法的关切和挑战，以及我们认为适当和重要的未来方向。
 
-    Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
+    The success of artificial intelligence (AI), and deep learning models in particular, has led to their widespread adoption across various industries due to their ability to process huge amounts of data and learn complex patterns. However, due to their lack of explainability, there are significant concerns regarding their use in critical sectors, such as finance and healthcare, where decision-making transparency is of paramount importance. In this paper, we provide a comparative survey of methods that aim to improve the explainability of deep learning models within the context of finance. We categorize the collection of explainable AI methods according to their corresponding characteristics, and we review the concerns and challenges of adopting explainable AI methods, together with future directions we deemed appropriate and important.
     
-[^11]: 一种公理化方法处理评级系统中的违约风险和模型不确定性
+[^6]: 双重稳健均值-CVaR组合投资组合
 
-    An axiomatic approach to default risk and model uncertainty in rating systems. (arXiv:2303.08217v1 [q-fin.MF])
+    Doubly Robust Mean-CVaR Portfolio. (arXiv:2309.11693v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2303.08217](http://arxiv.org/abs/2303.08217)
+    [http://arxiv.org/abs/2309.11693](http://arxiv.org/abs/2309.11693)
 
-    本文提出了一种公理化方法处理评级系统中的违约风险和模型不确定性，引入了违约风险度量的概念来简化计算，该度量考虑了模型风险，并通过讨论保守水平对资产权重的影响，对资本要求条例提出了一些新的见解。
-
-    
-
-    本文处理了违约风险的公理化方法，引入了违约风险度量的概念，该概念推广了经典的违约概率，并允许以各种形式融入模型风险。我们通过货币风险度量、相关尾风险度量系列和 Choquet 容量来讨论不同的违约风险度量的属性和表示。接着，我们把重点转向被给定为最坏情况违约概率和扭曲违约概率的违约风险度量。后者经常用于通过风险加权资产（RWA）计算资本要求时考虑模型风险，符合资本要求条例（CRR）的要求。在这种情况下，我们讨论不同违约风险度量和保守水平对风险加权资产金额的影响。
-
-    In this paper, we deal with an axiomatic approach to default risk. We introduce the notion of a default risk measure, which generalizes the classical probability of default (PD), and allows to incorporate model risk in various forms. We discuss different properties and representations of default risk measures via monetary risk measures, families of related tail risk measures, and Choquet capacities. In a second step, we turn our focus on default risk measures, which are given as worst-case PDs and distorted PDs. The latter are frequently used in order to take into account model risk for the computation of capital requirements through risk-weighted assets (RWAs), as demanded by the Capital Requirement Regulation (CRR). In this context, we discuss the impact of different default risk measures and margins of conservatism on the amount of risk-weighted assets.
-    
-[^12]: 匹配函数平衡中的部分分配:存在性、唯一性和估计
-
-    Matching Function Equilibria with Partial Assignment: Existence, Uniqueness and Estimation. (arXiv:2102.02071v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2102.02071](http://arxiv.org/abs/2102.02071)
-
-    该论文研究了匹配函数平衡中的部分分配问题，证明了平衡的存在和唯一性，并提出了一种高效的计算方法。对于某些匹配模型，还提出了一种无需参数估计的构造对照匹配均衡的方法。这些方法在分析社会政策对婚姻市场影响方面具有重要应用价值。
+    本研究提出了一种双重稳健均值-CVaR投资组合方法，以解决投资组合优化中的不稳定性问题，并实现多个CVaR水平的同时优化，并为均值参数定义了不确定性集合，从而进行稳健优化。
 
     
 
-    我们认为来自不同领域的模型，如匹配模型和离散选择模型等，共享一个我们称之为带有部分分配的匹配函数平衡的共同结构。这个结构包括一个总体匹配函数和一个非线性方程系统。我们证明了平衡存在和唯一性，并提出了一个高效的算法来计算它。对于一类匹配模型，我们还开发了一种新的无参数方法来构建反事实匹配均衡。它的优势是在计算反事实时不需要参数估计。我们使用我们的程序来分析1982年社会保障学生福利计划的取消对美国婚姻市场的影响。我们从我们的一般匹配函数类中估计了几个候选模型，并使用基于信息的准则选择最佳拟合模型。
+    在本研究中，我们解决了投资组合优化的挑战，这是管理投资风险和最大化回报的关键方面。由于像COVID-19大流行这样当今不稳定的金融市场危机，均值-CVaR投资组合被认为是一种有前景的方法。它将预期收益纳入CVaR中，CVaR考虑的是超过特定概率水平的损失的期望值。然而，与输入参数变化和估计误差相关的不稳定性可能会损害投资组合的表现。因此，在本研究中，我们提出了一种改进的双重稳健均值-CVaR投资组合方法来优化均值-CVaR投资组合。我们的方法可以解决不稳定性问题，同时优化多个CVaR水平，并为均值参数定义不确定性集合以进行稳健优化。从理论上讲，所提出的方法可以被形式化为一个二阶锥规划问题，这与传统的均值-方差组合优化具有相同的形式化。
 
-    We argue that models coming from a variety of fields, such as matching models and discrete choice models among others, share a common structure that we call matching function equilibria with partial assignment. This structure includes an aggregate matching function and a system of nonlinear equations. We provide a proof of existence and uniqueness of an equilibrium and propose an efficient algorithm to compute it. For a subclass of matching models, we also develop a new parameter-free approach for constructing the counterfactual matching equilibrium. It has the advantage of not requiring parametric estimation when computing counterfactuals. We use our procedure to analyze the impact of the elimination of the Social Security Student Benefit Program in 1982 on the marriage market in the United States. We estimate several candidate models from our general class of matching functions and select the best fitting model using information based criterion.
+    In this study, we address the challenge of portfolio optimization, a critical aspect of managing investment risks and maximizing returns. The mean-CVaR portfolio is considered a promising method due to today's unstable financial market crises like the COVID-19 pandemic. It incorporates expected returns into the CVaR, which considers the expected value of losses exceeding a specified probability level. However, the instability associated with the input parameter changes and estimation errors can deteriorate portfolio performance. Therefore in this study, we propose a Doubly Robust mean-CVaR Portfolio refined approach to the mean-CVaR portfolio optimization. Our method can solve the instability problem to simultaneously optimize the multiple levels of CVaRs and define uncertainty sets for the mean parameter to perform robust optimization. Theoretically, the proposed method can be formulated as a second-order cone programming problem which is the same formulation as traditional mean-varia
+    
+[^7]: AI自动化的爆炸性增长: 论证综述
+
+    Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
+
+    [http://arxiv.org/abs/2309.11690](http://arxiv.org/abs/2309.11690)
+
+    AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。
+
+    
+
+    我们研究了大规模AI自动化是否能够使全球经济增长加速达到约一个数量级，类似于工业革命所带来的经济增长效应。我们确定了这种增长的三个主要驱动因素：1）AI“劳动力”的可扩展性使得规模递增再现，2）AI劳动力的快速扩张，以及3）在短时间内进行的快速自动化带来的产出大幅增加。在这个背景下，我们评估了九个反对论点，包括监管障碍、产能瓶颈、匹配问题和自动化的速度。我们暂时评估了这些论点，发现大多数都不太可能成为决定因素。我们得出结论认为，如果AI能够广泛替代人力劳动，爆炸性增长似乎是有可能的，但目前对这一说法的高度自信似乎是不合理的。关于AI监管响应的强度、生产中的物理瓶颈和AI的经济价值，仍然存在关键问题。
+
+    We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
+    
+[^8]: 带权重空间上功能性输入映射的全局普适逼近
+
+    Global universal approximation of functional input maps on weighted spaces. (arXiv:2306.03303v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.03303](http://arxiv.org/abs/2306.03303)
+
+    本文提出了功能性输入神经网络，可以在带权重空间上完成全局函数逼近。这一方法适用于连续函数的推广，还可用于路径空间函数的逼近，同时也可以逼近线性函数签名。
+
+    
+
+    我们引入了所谓的功能性输入神经网络，定义在可能是无限维带权重空间上，其值也在可能是无限维的输出空间中。为此，我们使用一个加性族作为隐藏层映射，以及一个非线性激活函数应用于每个隐藏层。依靠带权重空间上的Stone-Weierstrass定理，我们可以证明连续函数的推广的全局普适逼近结果，超越了常规紧集逼近。这特别适用于通过功能性输入神经网络逼近（非先见之明的）路径空间函数。作为带权Stone-Weierstrass定理的进一步应用，我们证明了线性函数签名的全局普适逼近结果。我们还在这个设置中引入了高斯过程回归的观点，并展示了签名内核的再生核希尔伯特空间是某些高斯过程的Cameron-Martin空间。
+
+    We introduce so-called functional input neural networks defined on a possibly infinite dimensional weighted space with values also in a possibly infinite dimensional output space. To this end, we use an additive family as hidden layer maps and a non-linear activation function applied to each hidden layer. Relying on Stone-Weierstrass theorems on weighted spaces, we can prove a global universal approximation result for generalizations of continuous functions going beyond the usual approximation on compact sets. This then applies in particular to approximation of (non-anticipative) path space functionals via functional input neural networks. As a further application of the weighted Stone-Weierstrass theorem we prove a global universal approximation result for linear functions of the signature. We also introduce the viewpoint of Gaussian process regression in this setting and show that the reproducing kernel Hilbert space of the signature kernels are Cameron-Martin spaces of certain Gauss
+    
+[^9]: 在线自协调且相对平滑的最小化问题及其在在线投资组合选择和学习量子态中的应用
+
+    Online Self-Concordant and Relatively Smooth Minimization, With Applications to Online Portfolio Selection and Learning Quantum States. (arXiv:2210.00997v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2210.00997](http://arxiv.org/abs/2210.00997)
+
+    本文提出了一种在线自协调且相对平滑的最小化算法，通过分析在线镜像下降算法在凸函数上的遗憾，改进了在线投资组合选择算法的性能，并在在线学习量子态问题中达到了与Soft-Bayes算法相当的效果。
+
+    
+
+    本文考虑一类在线凸优化问题，其中损失函数是自协调障碍函数，在某个凸函数h的相对平滑，可能不是Lipschitz的。我们分析了在线镜像下降算法在h上的遗憾，并基于结果以统一的方式证明了以下结论。对于在线投资组合选择问题，当T>4d/logd时，改进了Helmbold等人提出的指数化梯度算法的遗憾界为O(T^{2/3} d^{1/3})，原有界是O(T^{3/4} d^{1/2})。对于在线投资组合选择问题，使用对数障碍的在线镜像下降算法的遗憾界为O(sqrt(Td))，与Orseau等人的Soft-Bayes算法具有相同的遗憾界，除去对数因子。对于使用对数损失的在线学习量子态问题，使用对数障碍的在线镜像下降算法的遗憾界是...
+
+    Consider an online convex optimization problem where the loss functions are self-concordant barriers, smooth relative to a convex function $h$, and possibly non-Lipschitz. We analyze the regret of online mirror descent with $h$. Then, based on the result, we prove the following in a unified manner. Denote by $T$ the time horizon and $d$ the parameter dimension. 1. For online portfolio selection, the regret of $\widetilde{\text{EG}}$, a variant of exponentiated gradient due to Helmbold et al., is $\tilde{O} ( T^{2/3} d^{1/3} )$ when $T > 4 d / \log d$. This improves on the original $\tilde{O} ( T^{3/4} d^{1/2} )$ regret bound for $\widetilde{\text{EG}}$. 2. For online portfolio selection, the regret of online mirror descent with the logarithmic barrier is $\tilde{O}(\sqrt{T d})$. The regret bound is the same as that of Soft-Bayes due to Orseau et al. up to logarithmic terms. 3. For online learning quantum states with the logarithmic loss, the regret of online mirror descent with the log
+    
+[^10]: 资产定价研究中的发布偏倚
+
+    Publication Bias in Asset Pricing Research. (arXiv:2209.13623v3 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.13623](http://arxiv.org/abs/2209.13623)
+
+    发布偏倚是资产定价研究中的一个自然关注点。大规模元研究提供了实证证据，表明发布偏倚并不是影响研究结果的主要因素。通过经验贝叶斯统计方法对发布偏倚进行校正后，发现其对样本内平均收益只有10%至15%的影响。
+
+    
+
+    研究人员更有可能分享显著的研究结果。因此，发表的结果往往夸大了真实世界现象的幅度。这种偏倚是资产定价研究的一个自然关注点，该领域发现了数百个收益预测因子，但对其起源没有共识。大规模元研究提供了关于发布偏倚的实证证据。横截面收益可预测性的元研究已经确定了四个表征发布偏倚不是主要因素的特征：（1）几乎所有的研究结果都能复制，（2）预测能力在样本外仍然存在，（3）经验t统计量远大于2.0，（4）预测因子弱相关。这些特征在至少三个元研究中都被证明。经验贝叶斯统计将这些特征转化为发布偏倚的校正。三个元研究的估计发现，平均校正（收缩）仅占样本内平均收益的10%至15%，而该校正值只考虑了发布偏倚的一小部分。
+
+    Researchers are more likely to share notable findings. As a result, published findings tend to overstate the magnitude of real-world phenomena. This bias is a natural concern for asset pricing research, which has found hundreds of return predictors and little consensus on their origins.  Empirical evidence on publication bias comes from large scale meta-studies. Meta-studies of cross-sectional return predictability have settled on four stylized facts that demonstrate publication bias is not a dominant factor: (1) almost all findings can be replicated, (2) predictability persists out-of-sample, (3) empirical $t$-statistics are much larger than 2.0, and (4) predictors are weakly correlated. Each of these facts has been demonstrated in at least three meta-studies.  Empirical Bayes statistics turn these facts into publication bias corrections. Estimates from three meta-studies find that the average correction (shrinkage) accounts for only 10 to 15 percent of in-sample mean returns and that
     
 

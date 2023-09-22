@@ -1,0 +1,12 @@
+{
+    "title": "Estimating Stable Fixed Points and Langevin Potentials for Financial Dynamics. (arXiv:2309.12082v1 [q-fin.ST])",
+    "abstract": "The Geometric Brownian Motion (GBM) is a standard model in quantitative finance, but the potential function of its stochastic differential equation (SDE) cannot include stable nonzero prices. This article generalises the GBM to an SDE with polynomial drift of order q and shows via model selection that q=2 is most frequently the optimal model to describe the data. Moreover, Markov chain Monte Carlo ensembles of the accompanying potential functions show a clear and pronounced potential well, indicating the existence of a stable price.",
+    "link": "http://arxiv.org/abs/2309.12082",
+    "context": "Title: Estimating Stable Fixed Points and Langevin Potentials for Financial Dynamics. (arXiv:2309.12082v1 [q-fin.ST])\nAbstract: The Geometric Brownian Motion (GBM) is a standard model in quantitative finance, but the potential function of its stochastic differential equation (SDE) cannot include stable nonzero prices. This article generalises the GBM to an SDE with polynomial drift of order q and shows via model selection that q=2 is most frequently the optimal model to describe the data. Moreover, Markov chain Monte Carlo ensembles of the accompanying potential functions show a clear and pronounced potential well, indicating the existence of a stable price.",
+    "path": "papers/23/09/2309.12082.json",
+    "total_tokens": 681,
+    "translated_title": "估计金融动力学的稳定不动点和朗之万势能",
+    "translated_abstract": "几何布朗运动是量化金融中的标准模型，但其随机微分方程的势函数不能包含稳定的非零价格。本文将几何布朗运动推广为阶数为q的多项式漂移的随机微分方程，并通过模型选择表明q=2最常被认为是描述数据的最优模型。此外，通过马尔科夫链蒙特卡洛的势函数集合表明存在明显的势能井，表明稳定价格的存在。",
+    "tldr": "本文将几何布朗运动模型推广为具有多项式漂移的随机微分方程，并通过模型选择确定最优模型为阶数为2的模型。势函数集合表明存在明显的势能井，表明稳定价格的存在。",
+    "en_tdlr": "This article generalizes the Geometric Brownian Motion model to a stochastic differential equation with polynomial drift and determines that the optimal model is one with a polynomial of degree 2. The ensemble of potential functions exhibits a clear potential well, indicating the presence of a stable price."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Safe Hierarchical Reinforcement Learning for CubeSat Task Scheduling Based on Energy Consumption. (arXiv:2309.12004v1 [cs.LG])",
+    "abstract": "This paper presents a Hierarchical Reinforcement Learning methodology tailored for optimizing CubeSat task scheduling in Low Earth Orbits (LEO). Incorporating a high-level policy for global task distribution and a low-level policy for real-time adaptations as a safety mechanism, our approach integrates the Similarity Attention-based Encoder (SABE) for task prioritization and an MLP estimator for energy consumption forecasting. Integrating this mechanism creates a safe and fault-tolerant system for CubeSat task scheduling. Simulation results validate the Hierarchical Reinforcement Learning superior convergence and task success rate, outperforming both the MADDPG model and traditional random scheduling across multiple CubeSat configurations.",
+    "link": "http://arxiv.org/abs/2309.12004",
+    "context": "Title: Safe Hierarchical Reinforcement Learning for CubeSat Task Scheduling Based on Energy Consumption. (arXiv:2309.12004v1 [cs.LG])\nAbstract: This paper presents a Hierarchical Reinforcement Learning methodology tailored for optimizing CubeSat task scheduling in Low Earth Orbits (LEO). Incorporating a high-level policy for global task distribution and a low-level policy for real-time adaptations as a safety mechanism, our approach integrates the Similarity Attention-based Encoder (SABE) for task prioritization and an MLP estimator for energy consumption forecasting. Integrating this mechanism creates a safe and fault-tolerant system for CubeSat task scheduling. Simulation results validate the Hierarchical Reinforcement Learning superior convergence and task success rate, outperforming both the MADDPG model and traditional random scheduling across multiple CubeSat configurations.",
+    "path": "papers/23/09/2309.12004.json",
+    "total_tokens": 793,
+    "translated_title": "基于能耗的立方卫星任务调度的安全层次化强化学习",
+    "translated_abstract": "本文提出了一种针对低地球轨道（LEO）中立方卫星任务调度进行优化的层次化强化学习方法。该方法包括用于全局任务分配的高级策略和用于实时调整的低级策略作为安全机制，整合了基于相似度注意力编码器（SABE）进行任务优先级排序以及用于能耗预测的多层感知器（MLP）估计器。该机制的整合为立方卫星任务调度创建了一个安全且容错的系统。仿真结果证明了层次化强化学习具有更好的收敛性和任务成功率，优于MADDPG模型和传统随机调度在多个立方卫星配置下的表现。",
+    "tldr": "本文提出了一种针对立方卫星任务调度的层次化强化学习方法，通过整合任务优先级排序和能耗预测，实现了一个安全且容错的系统，并在多个立方卫星配置下优于MADDPG模型和传统随机调度。"
+}

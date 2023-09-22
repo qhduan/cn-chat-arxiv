@@ -1,0 +1,11 @@
+{
+    "title": "A Computational Analysis of Vagueness in Revisions of Instructional Texts. (arXiv:2309.12107v1 [cs.CL])",
+    "abstract": "WikiHow is an open-domain repository of instructional articles for a variety of tasks, which can be revised by users. In this paper, we extract pairwise versions of an instruction before and after a revision was made. Starting from a noisy dataset of revision histories, we specifically extract and analyze edits that involve cases of vagueness in instructions. We further investigate the ability of a neural model to distinguish between two versions of an instruction in our data by adopting a pairwise ranking task from previous work and showing improvements over existing baselines.",
+    "link": "http://arxiv.org/abs/2309.12107",
+    "context": "Title: A Computational Analysis of Vagueness in Revisions of Instructional Texts. (arXiv:2309.12107v1 [cs.CL])\nAbstract: WikiHow is an open-domain repository of instructional articles for a variety of tasks, which can be revised by users. In this paper, we extract pairwise versions of an instruction before and after a revision was made. Starting from a noisy dataset of revision histories, we specifically extract and analyze edits that involve cases of vagueness in instructions. We further investigate the ability of a neural model to distinguish between two versions of an instruction in our data by adopting a pairwise ranking task from previous work and showing improvements over existing baselines.",
+    "path": "papers/23/09/2309.12107.json",
+    "total_tokens": 659,
+    "translated_title": "论文标题：一项关于教学文本修订中模糊性的计算分析",
+    "translated_abstract": "WikiHow是一个开放领域的教学文章库，用于各种任务，用户可以对其进行修订。本文从修订历史的噪声数据集中提取了一对一的版本，即修订之前和修订之后的指令。我们特别提取并分析涉及指令模糊性的编辑。通过采用之前工作中的一种成对排名任务，并展示对现有基线的改进，进一步研究了神经模型在我们的数据中区分两个版本的指令的能力。",
+    "tldr": "本文通过研究修订历史来分析教学文本修订中的模糊性。通过采用成对排名任务，神经模型在区分指令的不同版本上表现出了改进。"
+}

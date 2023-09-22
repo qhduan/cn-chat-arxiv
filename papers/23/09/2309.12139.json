@@ -1,0 +1,12 @@
+{
+    "title": "On the relationship between Benchmarking, Standards and Certification in Robotics and AI. (arXiv:2309.12139v1 [cs.RO])",
+    "abstract": "Benchmarking, standards and certification are closely related processes. Standards can provide normative requirements that robotics and AI systems may or may not conform to. Certification generally relies upon conformance with one or more standards as the key determinant of granting a certificate to operate. And benchmarks are sets of standardised tests against which robots and AI systems can be measured. Benchmarks therefore can be thought of as informal standards. In this paper we will develop these themes with examples from benchmarking, standards and certification, and argue that these three linked processes are not only useful but vital to the broader practice of Responsible Innovation.",
+    "link": "http://arxiv.org/abs/2309.12139",
+    "context": "Title: On the relationship between Benchmarking, Standards and Certification in Robotics and AI. (arXiv:2309.12139v1 [cs.RO])\nAbstract: Benchmarking, standards and certification are closely related processes. Standards can provide normative requirements that robotics and AI systems may or may not conform to. Certification generally relies upon conformance with one or more standards as the key determinant of granting a certificate to operate. And benchmarks are sets of standardised tests against which robots and AI systems can be measured. Benchmarks therefore can be thought of as informal standards. In this paper we will develop these themes with examples from benchmarking, standards and certification, and argue that these three linked processes are not only useful but vital to the broader practice of Responsible Innovation.",
+    "path": "papers/23/09/2309.12139.json",
+    "total_tokens": 732,
+    "translated_title": "关于机器人和人工智能中基准测试、标准和认证之间关系的研究",
+    "translated_abstract": "基准测试、标准和认证是密切相关的过程。标准提供了机器人和人工智能系统可能（或可能不）符合的规范要求。认证通常依赖于符合一个或多个标准的程度来决定是否授予运营证书。而基准测试是对机器人和人工智能系统进行衡量的一套标准化测试。因此，可以将基准测试视为非正式的标准。本文将通过基准测试、标准和认证的实例，发展这些主题，并认为这三个相互关联的过程不仅有用，而且对于更广泛的负责任创新实践至关重要。",
+    "tldr": "本文研究了机器人和人工智能中基准测试、标准和认证之间的关系，并认为它们不仅有用，而且对于更广泛的负责任创新实践至关重要。",
+    "en_tdlr": "This paper investigates the relationship between benchmarking, standards, and certification in robotics and AI, arguing that they are not only useful but vital to the broader practice of responsible innovation."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Knowledge Sanitization of Large Language Models. (arXiv:2309.11852v1 [cs.CL])",
+    "abstract": "We explore a knowledge sanitization approach to mitigate the privacy concerns associated with large language models (LLMs). LLMs trained on a large corpus of Web data can memorize and potentially reveal sensitive or confidential information, raising critical security concerns. Our technique fine-tunes these models, prompting them to generate harmless responses such as ``I don't know'' when queried about specific information. Experimental results in a closed-book question-answering task show that our straightforward method not only minimizes particular knowledge leakage but also preserves the overall performance of LLM. These two advantages strengthen the defense against extraction attacks and reduces the emission of harmful content such as hallucinations.",
+    "link": "http://arxiv.org/abs/2309.11852",
+    "context": "Title: Knowledge Sanitization of Large Language Models. (arXiv:2309.11852v1 [cs.CL])\nAbstract: We explore a knowledge sanitization approach to mitigate the privacy concerns associated with large language models (LLMs). LLMs trained on a large corpus of Web data can memorize and potentially reveal sensitive or confidential information, raising critical security concerns. Our technique fine-tunes these models, prompting them to generate harmless responses such as ``I don't know'' when queried about specific information. Experimental results in a closed-book question-answering task show that our straightforward method not only minimizes particular knowledge leakage but also preserves the overall performance of LLM. These two advantages strengthen the defense against extraction attacks and reduces the emission of harmful content such as hallucinations.",
+    "path": "papers/23/09/2309.11852.json",
+    "total_tokens": 766,
+    "translated_title": "大型语言模型的知识净化",
+    "translated_abstract": "我们探索了一种知识净化方法，以减轻与大型语言模型（LLM）相关的隐私问题。在大规模Web数据语料库上训练的LLMs可以记住并潜在地透露敏感或机密信息，引发关键的安全问题。我们的技术通过微调这些模型，促使它们在被询问特定信息时生成无害的回答，例如“我不知道”。在封闭式问答任务的实验结果中，我们简单的方法不仅最大程度地减少了特定知识泄漏，还保留了LLM的整体性能。这两个优点加强了对提取攻击的防御，并减少了产生幻觉等有害内容的发送。",
+    "tldr": "这项研究探索了一种用于减轻大型语言模型（LLM）隐私问题的知识净化方法。通过微调模型，使其在被询问敏感信息时生成无害回答，从而有效地减少知识泄漏并保持整体性能。"
+}

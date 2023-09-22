@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data. (arXiv:2210.05115v3 [econ.EM] UPDATED)",
+    "abstract": "This study proposes a reversible jump Markov chain Monte Carlo method for estimating parameters of lognormal distribution mixtures for income. Using simulated data examples, we examined the proposed algorithm's performance and the accuracy of posterior distributions of the Gini coefficients. Results suggest that the parameters were estimated accurately. Therefore, the posterior distributions are close to the true distributions even when the different data generating process is accounted for. Moreover, promising results for Gini coefficients encouraged us to apply our method to real data from Japan. The empirical examples indicate two subgroups in Japan (2020) and the Gini coefficients' integrity.",
+    "link": "http://arxiv.org/abs/2210.05115",
+    "context": "Title: Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data. (arXiv:2210.05115v3 [econ.EM] UPDATED)\nAbstract: This study proposes a reversible jump Markov chain Monte Carlo method for estimating parameters of lognormal distribution mixtures for income. Using simulated data examples, we examined the proposed algorithm's performance and the accuracy of posterior distributions of the Gini coefficients. Results suggest that the parameters were estimated accurately. Therefore, the posterior distributions are close to the true distributions even when the different data generating process is accounted for. Moreover, promising results for Gini coefficients encouraged us to apply our method to real data from Japan. The empirical examples indicate two subgroups in Japan (2020) and the Gini coefficients' integrity.",
+    "path": "papers/22/10/2210.05115.json",
+    "total_tokens": 745,
+    "translated_title": "未知组件数的对数正态分布混合模型的贝叶斯分析和组合数据的马尔可夫链蒙特卡洛方法",
+    "translated_abstract": "本研究提出了一种可逆跳跃马尔可夫链蒙特卡洛方法，用于估计收入的对数正态分布混合模型的参数。通过使用模拟数据示例，我们检验了所提算法的性能以及基尼系数的后验分布的准确性。结果表明参数估计准确，即使考虑了不同的数据生成过程，后验分布仍接近真实分布。此外，基于更具吸引力的基尼系数的结果，我们还将该方法应用于来自日本的实际数据。实证案例表明日本在2020年存在两个子群，并且基尼系数的完整性得到了验证。",
+    "tldr": "本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。",
+    "en_tdlr": "This study proposes a Bayesian analysis method for estimating parameters of lognormal distribution mixture model for income, and verifies its accuracy and applicability through simulation and empirical data."
+}

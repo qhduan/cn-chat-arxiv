@@ -1,0 +1,12 @@
+{
+    "title": "Word Embedding with Neural Probabilistic Prior. (arXiv:2309.11824v1 [cs.CL])",
+    "abstract": "To improve word representation learning, we propose a probabilistic prior which can be seamlessly integrated with word embedding models. Different from previous methods, word embedding is taken as a probabilistic generative model, and it enables us to impose a prior regularizing word representation learning. The proposed prior not only enhances the representation of embedding vectors but also improves the model's robustness and stability. The structure of the proposed prior is simple and effective, and it can be easily implemented and flexibly plugged in most existing word embedding models. Extensive experiments show the proposed method improves word representation on various tasks.",
+    "link": "http://arxiv.org/abs/2309.11824",
+    "context": "Title: Word Embedding with Neural Probabilistic Prior. (arXiv:2309.11824v1 [cs.CL])\nAbstract: To improve word representation learning, we propose a probabilistic prior which can be seamlessly integrated with word embedding models. Different from previous methods, word embedding is taken as a probabilistic generative model, and it enables us to impose a prior regularizing word representation learning. The proposed prior not only enhances the representation of embedding vectors but also improves the model's robustness and stability. The structure of the proposed prior is simple and effective, and it can be easily implemented and flexibly plugged in most existing word embedding models. Extensive experiments show the proposed method improves word representation on various tasks.",
+    "path": "papers/23/09/2309.11824.json",
+    "total_tokens": 708,
+    "translated_title": "使用神经概率先验的词嵌入",
+    "translated_abstract": "为了改进词表示学习，我们提出了一种可以与词嵌入模型无缝集成的概率先验。不同于以往的方法，词嵌入被视为一个概率生成模型，这使得我们能够对词表示学习进行先验正则化。所提出的先验不仅增强了嵌入向量的表示，还提高了模型的鲁棒性和稳定性。所提出的先验结构简单有效，可以轻松实现并灵活地插入到大多数现有的词嵌入模型中。大量实验证明了所提出的方法在各种任务上提高了词表示。",
+    "tldr": "提出了一种可以与词嵌入模型无缝集成的神经概率先验，能够增强嵌入向量的表示，提高模型的鲁棒性和稳定性，实验证明了该方法在各种任务上提高了词表示。",
+    "en_tdlr": "Proposed a neural probabilistic prior that can be seamlessly integrated with word embedding models, enhancing representation of embedding vectors and improving model's robustness and stability, with extensive experiments showing improvement on various tasks."
+}

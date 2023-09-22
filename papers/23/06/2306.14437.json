@@ -1,0 +1,11 @@
+{
+    "title": "A Self-supervised Contrastive Learning Method for Grasp Outcomes Prediction. (arXiv:2306.14437v2 [cs.RO] UPDATED)",
+    "abstract": "In this paper, we investigate the effectiveness of contrastive learning methods for predicting grasp outcomes in an unsupervised manner. By utilizing a publicly available dataset, we demonstrate that contrastive learning methods perform well on the task of grasp outcomes prediction. Specifically, the dynamic-dictionary-based method with the momentum updating technique achieves a satisfactory accuracy of 81.83% using data from one single tactile sensor, outperforming other unsupervised methods. Our results reveal the potential of contrastive learning methods for applications in the field of robot grasping and highlight the importance of accurate grasp prediction for achieving stable grasps.",
+    "link": "http://arxiv.org/abs/2306.14437",
+    "context": "Title: A Self-supervised Contrastive Learning Method for Grasp Outcomes Prediction. (arXiv:2306.14437v2 [cs.RO] UPDATED)\nAbstract: In this paper, we investigate the effectiveness of contrastive learning methods for predicting grasp outcomes in an unsupervised manner. By utilizing a publicly available dataset, we demonstrate that contrastive learning methods perform well on the task of grasp outcomes prediction. Specifically, the dynamic-dictionary-based method with the momentum updating technique achieves a satisfactory accuracy of 81.83% using data from one single tactile sensor, outperforming other unsupervised methods. Our results reveal the potential of contrastive learning methods for applications in the field of robot grasping and highlight the importance of accurate grasp prediction for achieving stable grasps.",
+    "path": "papers/23/06/2306.14437.json",
+    "total_tokens": 801,
+    "translated_title": "一种自监督对比学习方法用于抓取结果预测",
+    "translated_abstract": "本文研究了对比学习方法在无监督情况下预测抓取结果的有效性。通过利用一份公开可用的数据集，我们展示了对比学习方法在抓取结果预测任务上的表现良好。具体来说，基于动态字典和动量更新技术的方法使用来自单个触觉传感器的数据，达到了81.83%的满意准确率，超越了其他无监督方法。我们的结果揭示了对比学习方法在机器人抓取领域的应用潜力，并突出了准确的抓取预测对于实现稳定抓取的重要性。",
+    "tldr": "本文研究了一种自监督对比学习方法，能够有效预测抓取结果，通过公开可用的数据集的验证，证明该方法在抓取结果预测任务上表现良好，超过其他无监督方法，揭示了对比学习方法在机器人抓取领域的潜力和准确的抓取预测对于实现稳定抓取的重要性。"
+}

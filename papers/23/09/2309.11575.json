@@ -1,0 +1,12 @@
+{
+    "title": "Distilling Adversarial Prompts from Safety Benchmarks: Report for the Adversarial Nibbler Challenge. (arXiv:2309.11575v1 [cs.CV])",
+    "abstract": "Text-conditioned image generation models have recently achieved astonishing image quality and alignment results. Consequently, they are employed in a fast-growing number of applications. Since they are highly data-driven, relying on billion-sized datasets randomly scraped from the web, they also produce unsafe content. As a contribution to the Adversarial Nibbler challenge, we distill a large set of over 1,000 potential adversarial inputs from existing safety benchmarks. Our analysis of the gathered prompts and corresponding images demonstrates the fragility of input filters and provides further insights into systematic safety issues in current generative image models.",
+    "link": "http://arxiv.org/abs/2309.11575",
+    "context": "Title: Distilling Adversarial Prompts from Safety Benchmarks: Report for the Adversarial Nibbler Challenge. (arXiv:2309.11575v1 [cs.CV])\nAbstract: Text-conditioned image generation models have recently achieved astonishing image quality and alignment results. Consequently, they are employed in a fast-growing number of applications. Since they are highly data-driven, relying on billion-sized datasets randomly scraped from the web, they also produce unsafe content. As a contribution to the Adversarial Nibbler challenge, we distill a large set of over 1,000 potential adversarial inputs from existing safety benchmarks. Our analysis of the gathered prompts and corresponding images demonstrates the fragility of input filters and provides further insights into systematic safety issues in current generative image models.",
+    "path": "papers/23/09/2309.11575.json",
+    "total_tokens": 737,
+    "translated_title": "从安全基准中提炼对抗性提示：对对抗性Nibbler挑战报告",
+    "translated_abstract": "最近，基于文本的图像生成模型取得了惊人的图像质量和对齐结果。因此，它们被应用于越来越多的应用程序中。由于这些模型高度依赖于从网络随机爬取的数十亿个数据集，它们也会产生不安全的内容。作为对Adversarial Nibbler挑战的贡献，我们从现有的安全基准中提炼了一组超过1000个潜在的对抗输入。我们对收集到的提示和相应的图像进行分析，展示了输入过滤器的脆弱性，并进一步揭示了当前生成图像模型中的系统性安全问题。",
+    "tldr": "本研究为Adversarial Nibbler挑战提供了一个大型的潜在对抗输入集合，并通过对提示和图像的分析揭示了当前生成图像模型中的系统性安全问题。",
+    "en_tdlr": "This study contributes to the Adversarial Nibbler challenge by distilling a large set of potential adversarial inputs from existing safety benchmarks, and provides insights into systematic safety issues in current generative image models through analysis of the prompts and corresponding images."
+}

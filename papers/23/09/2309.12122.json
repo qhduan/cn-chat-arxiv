@@ -1,0 +1,12 @@
+{
+    "title": "Buyer-Optimal Algorithmic Consumption. (arXiv:2309.12122v1 [econ.TH])",
+    "abstract": "We analyze a bilateral trade model in which the buyer's value for the product and the seller's costs are uncertain, the seller chooses the product price, and the product is recommended by an algorithm based on its value and price. We characterize an algorithm that maximizes the buyer's expected payoff and show that the optimal algorithm underrecommends the product at high prices and overrecommends at low prices. Higher algorithm precision increases the maximal equilibrium price and may increase prices across all of the seller's costs, whereas informing the seller about the buyer's value results in a mean-preserving spread of equilibrium prices and a mean-preserving contraction of the buyer's payoff.",
+    "link": "http://arxiv.org/abs/2309.12122",
+    "context": "Title: Buyer-Optimal Algorithmic Consumption. (arXiv:2309.12122v1 [econ.TH])\nAbstract: We analyze a bilateral trade model in which the buyer's value for the product and the seller's costs are uncertain, the seller chooses the product price, and the product is recommended by an algorithm based on its value and price. We characterize an algorithm that maximizes the buyer's expected payoff and show that the optimal algorithm underrecommends the product at high prices and overrecommends at low prices. Higher algorithm precision increases the maximal equilibrium price and may increase prices across all of the seller's costs, whereas informing the seller about the buyer's value results in a mean-preserving spread of equilibrium prices and a mean-preserving contraction of the buyer's payoff.",
+    "path": "papers/23/09/2309.12122.json",
+    "total_tokens": 786,
+    "translated_title": "买方最优的算法消费模型分析",
+    "translated_abstract": "我们分析了一个双边交易模型，其中买方对产品的价值和卖方的成本是不确定的，卖方选择产品价格，并且基于其价值和价格通过算法推荐产品。我们描述了一个最大化买方预期收益的算法，并且表明在高价位下的最优算法过少推荐产品，在低价位下过多推荐。算法的精确性提高了最大均衡价格，可能提高卖方成本的所有价格，而告知卖方买方的价值则会导致均衡价格的均值保持扩散和买方收益的均值保持收缩。",
+    "tldr": "该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。",
+    "en_tdlr": "This paper analyzes a bilateral trade model and proposes a buyer-optimal algorithmic consumption model that achieves the strategy of recommending fewer products at high prices and more products at low prices. Increasing the algorithm precision can increase the maximum equilibrium price, while informing the seller about the buyer's value results in a spread of price distribution and a contraction of the buyer's payoff."
+}

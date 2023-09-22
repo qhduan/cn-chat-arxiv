@@ -1,0 +1,12 @@
+{
+    "title": "Is It Really Useful to Jointly Parse Constituency and Dependency Trees? A Revisit. (arXiv:2309.11888v1 [cs.CL])",
+    "abstract": "This work visits the topic of jointly parsing constituency and dependency trees, i.e., to produce compatible constituency and dependency trees simultaneously for input sentences, which is attractive considering that the two types of trees are complementary in representing syntax. Compared with previous works, we make progress in four aspects: (1) adopting a much more efficient decoding algorithm, (2) exploring joint modeling at the training phase, instead of only at the inference phase, (3) proposing high-order scoring components for constituent-dependency interaction, (4) gaining more insights via in-depth experiments and analysis.",
+    "link": "http://arxiv.org/abs/2309.11888",
+    "context": "Title: Is It Really Useful to Jointly Parse Constituency and Dependency Trees? A Revisit. (arXiv:2309.11888v1 [cs.CL])\nAbstract: This work visits the topic of jointly parsing constituency and dependency trees, i.e., to produce compatible constituency and dependency trees simultaneously for input sentences, which is attractive considering that the two types of trees are complementary in representing syntax. Compared with previous works, we make progress in four aspects: (1) adopting a much more efficient decoding algorithm, (2) exploring joint modeling at the training phase, instead of only at the inference phase, (3) proposing high-order scoring components for constituent-dependency interaction, (4) gaining more insights via in-depth experiments and analysis.",
+    "path": "papers/23/09/2309.11888.json",
+    "total_tokens": 770,
+    "translated_title": "同时解析短语结构树和依存树真的有用吗？重新审视",
+    "translated_abstract": "本文重新审视了同时解析短语结构树和依存树这一话题，即为输入句子同时生成兼容的短语结构树和依存树，考虑到这两种类型的树在表示语法方面是互补的，这是一种有吸引力的方法。与之前的工作相比，我们在四个方面取得了进展：（1）采用更高效的解码算法，（2）在训练阶段进行联合建模，而不仅仅是在推理阶段，（3）为短语结构和依存之间的交互提出了高阶评分组件，（4）通过深入实验和分析获得了更多见解。",
+    "tldr": "本文重新审视了同时解析短语结构树和依存树的方法，通过采用更高效的解码算法、在训练阶段进行联合建模、提出高阶评分组件以及进行深入实验和分析等四个方面的进展，展示了该方法的潜力和价值。",
+    "en_tdlr": "This work revisits the method of jointly parsing constituency and dependency trees, showing its potential and value through progress in using a more efficient decoding algorithm, joint modeling during training, proposing high-order scoring components for constituent-dependency interaction, and conducting in-depth experiments and analysis."
+}

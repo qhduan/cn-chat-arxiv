@@ -2,172 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Existence of a Competitive Equilibrium with Substitutes, with Applications to Matching and Discrete Choice Models.](http://arxiv.org/abs/2309.11416) | 该论文研究了存在替代品的竞争均衡问题，并提出了对于一般竞争系统的存在性和唯一性的新结果。在匹配和离散选择模型中，这些结果被证明是适用的，并提供了计算唯一竞争均衡的算法。 |
-| [^2] | [Transformers versus LSTMs for electronic trading.](http://arxiv.org/abs/2309.11400) | 本研究比较了基于LSTM和基于Transformer的模型在金融时间序列预测任务上的表现，并介绍了一种新的LSTM-based模型DLSTM。 |
-| [^3] | [Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$.](http://arxiv.org/abs/2309.11394) | 本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。 |
-| [^4] | [Identifying Causal Effects in Information Provision Experiments.](http://arxiv.org/abs/2309.11387) | 信息提供实验用于确定信念如何因果地影响决策和行为。通过应用贝叶斯估计器，可以准确识别出（非加权的）平均部分效应。 |
-| [^5] | [Increasing Ticketing Allocative Efficiency Using Marginal Price Auction Theory.](http://arxiv.org/abs/2309.11189) | 使用边际价格拍卖系统的售票协议能够更公平高效地分配票，并帮助活动组织者提取更多经济租金。 |
-| [^6] | [require: Package dependencies for reproducible research.](http://arxiv.org/abs/2309.11058) | require 命令是一个用于确保 Stata 软件包依赖兼容的工具，它可以验证、检查和安装软件包，以实现可复现的研究。 |
-| [^7] | [Research on the Impact of Executive Shareholding on New Investment in Enterprises Based on Multivariable Linear Regression Model.](http://arxiv.org/abs/2309.10986) | 该研究使用多变量线性回归模型, 基于委托代理理论和最优合同理论, 分析了高管股权对企业新投资的影响。根据研究结果，发现高管持股会通过改变高管股权激励的边际效用，导致管理层、股东和债权人的利益不平衡。 |
-| [^8] | [Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations.](http://arxiv.org/abs/2309.02338) | 本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。 |
-| [^9] | [Reparametrization and the Semiparametric Bernstein-von-Mises Theorem.](http://arxiv.org/abs/2306.03816) | 本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。 |
-| [^10] | [More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment.](http://arxiv.org/abs/2103.06437) | 本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。 |
-| [^11] | [Matching Function Equilibria with Partial Assignment: Existence, Uniqueness and Estimation.](http://arxiv.org/abs/2102.02071) | 该论文研究了匹配函数平衡中的部分分配问题，证明了平衡的存在和唯一性，并提出了一种高效的计算方法。对于某些匹配模型，还提出了一种无需参数估计的构造对照匹配均衡的方法。这些方法在分析社会政策对婚姻市场影响方面具有重要应用价值。 |
+| [^1] | [Optimal Conditional Inference in Adaptive Experiments.](http://arxiv.org/abs/2309.12162) | 我们研究了在自适应实验中进行条件推断的问题，证明了在没有进一步限制的情况下，仅使用最后一批结果进行推断是最优的；当实验的自适应方面是位置不变的时，我们还发现了额外的信息；在停止时间、分配概率和目标参数仅依赖于数据的多面体事件集合的情况下，我们推导出了计算可行且最优的条件推断程序。 |
+| [^2] | [Buyer-Optimal Algorithmic Consumption.](http://arxiv.org/abs/2309.12122) | 该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。 |
+| [^3] | [Techno-Economic Analysis of Synthetic Fuel Production from Existing Nuclear Power Plants across the United States.](http://arxiv.org/abs/2309.12085) | 该论文研究了利用现有核电站生产合成燃料的技术经济潜力，结果显示将合成燃料生产与核电站耦合可以提高核电站的盈利能力，为投资者带来可观的回报。 |
+| [^4] | [A detection analysis for temporal memory patterns at different time-scales.](http://arxiv.org/abs/2309.12034) | 本论文介绍了一种新颖的方法，通过分析事件序列的事件间隔分布，以揭示时间序列的依赖模式。该方法可以发现跨多个时间尺度的记忆模式，并提供了有价值的应用于经济学中的时间序列分析。 |
+| [^5] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
+| [^6] | [Common Agency with Non-Delegation or Imperfect Commitment.](http://arxiv.org/abs/2309.11595) | 在共同代理模型中，非委派契约或不完全承诺扩展了均衡结果的集合，并重新确立了广义菜单定理。 |
+| [^7] | [Generalised Covariances and Correlations.](http://arxiv.org/abs/2307.03594) | 该论文广义化了协方差的概念，并用其他统计函数替代了均值，构造了广义相关性来衡量随机变量之间的依赖关系。这些新的依赖度量具有有利的特性，可以用于显示整个依赖结构，并且可以取代传统的尾部依赖系数。 |
+| [^8] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
+| [^9] | [Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data.](http://arxiv.org/abs/2210.05115) | 本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。 |
+| [^10] | [Bias-Aware Inference in Fuzzy Regression Discontinuity Designs.](http://arxiv.org/abs/1906.04631) | 本文提出了一种新的置信区间方法，针对模糊设计中的回归不连续参数，该方法基于局部线性回归，并且明确考虑了可能的偏差。与常用的模糊回归不连续分析推断方法不同，该方法避免了"delta method"逼近问题，并在多种实际相关条件下都是有效的。 |
 
 # 详细
 
-[^1]: 存在替代品的竞争均衡的存在性，以及在匹配和离散选择模型中的应用
+[^1]: 自适应实验中的最优条件推断
 
-    Existence of a Competitive Equilibrium with Substitutes, with Applications to Matching and Discrete Choice Models. (arXiv:2309.11416v1 [econ.GN])
+    Optimal Conditional Inference in Adaptive Experiments. (arXiv:2309.12162v1 [stat.ME])
 
-    [http://arxiv.org/abs/2309.11416](http://arxiv.org/abs/2309.11416)
+    [http://arxiv.org/abs/2309.12162](http://arxiv.org/abs/2309.12162)
 
-    该论文研究了存在替代品的竞争均衡问题，并提出了对于一般竞争系统的存在性和唯一性的新结果。在匹配和离散选择模型中，这些结果被证明是适用的，并提供了计算唯一竞争均衡的算法。
-
-    
-
-    我们提出了关于存在性和唯一性的新结果，针对具有替代品的一般非参数和非可分竞争均衡。这些结果确保了一般竞争系统的可逆性。现有文献主要关注竞争均衡的唯一性，假设存在性成立。我们引入了三个供给系统必须满足的属性：弱替代品、关键替代品和响应性。这些属性足以确保均衡的存在，从而提供了Berry、Gandhi和Haile（2013年）唯一性结果的存在性对应结果。对于两个重要的模型类别，具有完整分配的二部匹配模型和离散选择模型，我们展示了这两个模型都可以重构为一个竞争系统，从而可以方便地应用我们的存在性和唯一性结果。我们还提供了一个计算唯一竞争均衡的算法。此外，我们认为我们的结果是重要的。
-
-    We propose new results for the existence and uniqueness of a general nonparametric and nonseparable competitive equilibrium with substitutes. These results ensure the invertibility of a general competitive system. The existing literature has focused on the uniqueness of a competitive equilibrium assuming that existence holds. We introduce three properties that our supply system must satisfy: weak substitutes, pivotal substitutes, and responsiveness. These properties are sufficient to ensure the existence of an equilibrium, thus providing the existence counterpart to Berry, Gandhi, and Haile (2013)'s uniqueness results. For two important classes of models, bipartite matching models with full assignment and discrete choice models, we show that both models can be reformulated as a competitive system such that our existence and uniqueness results can be readily applied. We also provide an algorithm to compute the unique competitive equilibrium. Furthermore, we argue that our results are pa
-    
-[^2]: Transformers对电子交易的比较测试
-
-    Transformers versus LSTMs for electronic trading. (arXiv:2309.11400v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2309.11400](http://arxiv.org/abs/2309.11400)
-
-    本研究比较了基于LSTM和基于Transformer的模型在金融时间序列预测任务上的表现，并介绍了一种新的LSTM-based模型DLSTM。
+    我们研究了在自适应实验中进行条件推断的问题，证明了在没有进一步限制的情况下，仅使用最后一批结果进行推断是最优的；当实验的自适应方面是位置不变的时，我们还发现了额外的信息；在停止时间、分配概率和目标参数仅依赖于数据的多面体事件集合的情况下，我们推导出了计算可行且最优的条件推断程序。
 
     
 
-    随着人工智能的快速发展，长短期记忆(LSTM)作为一种循环神经网络(RNN)被广泛应用于时间序列预测。与RNN相似，Transformer被设计用来处理序列数据。由于Transformer在自然语言处理(NLP)领域取得了巨大成功，研究者开始关注Transformer在时间序列预测中的表现，并最近提出了许多基于Transformer的长时间序列预测解决方案。然而，当涉及金融时间序列预测时，LSTM仍然是主流的架构。因此，本研究想要回答的问题是：Transformer基于模型是否可以应用在金融时间序列预测中，并击败LSTM。为了回答这个问题，本研究在基于高频限价委托簿数据的多个金融预测任务上比较了多种基于LSTM和Transformer的模型。创建了一个名为DLSTM的新型LSTM-based模型，并提出了新的架构。
+    我们研究了批量赌徒实验，并考虑了在实现停止时间、分配概率和目标参数的条件下进行推断的问题，其中所有这些可能都是根据实验的最后一批信息进行自适应选择的。在没有对实验进行进一步限制的情况下，我们证明仅使用最后一批结果进行推断是最优的。当实验的自适应方面被认为是位置不变的，即当我们将所有批次-臂的平均值都向一个常数移动时，我们证明数据中还存在额外的信息，可以通过一个额外的批次-臂均值的线性函数来捕捉。在更严格的情况下，停止时间、分配概率和目标参数被认为仅依赖于数据通过一个多面体事件的集合，我们推导出了计算可行且最优的条件推断程序。
 
-    With the rapid development of artificial intelligence, long short term memory (LSTM), one kind of recurrent neural network (RNN), has been widely applied in time series prediction.  Like RNN, Transformer is designed to handle the sequential data. As Transformer achieved great success in Natural Language Processing (NLP), researchers got interested in Transformer's performance on time series prediction, and plenty of Transformer-based solutions on long time series forecasting have come out recently. However, when it comes to financial time series prediction, LSTM is still a dominant architecture. Therefore, the question this study wants to answer is: whether the Transformer-based model can be applied in financial time series prediction and beat LSTM.  To answer this question, various LSTM-based and Transformer-based models are compared on multiple financial prediction tasks based on high-frequency limit order book data. A new LSTM-based model called DLSTM is built and new architecture f
+    We study batched bandit experiments and consider the problem of inference conditional on the realized stopping time, assignment probabilities, and target parameter, where all of these may be chosen adaptively using information up to the last batch of the experiment. Absent further restrictions on the experiment, we show that inference using only the results of the last batch is optimal. When the adaptive aspects of the experiment are known to be location-invariant, in the sense that they are unchanged when we shift all batch-arm means by a constant, we show that there is additional information in the data, captured by one additional linear function of the batch-arm means. In the more restrictive case where the stopping time, assignment probabilities, and target parameter are known to depend on the data only through a collection of polyhedral events, we derive computationally tractable and optimal conditional inference procedures.
     
-[^3]: 以智能合约平台竞争视角考虑，以太坊的权益证明机制是否可持续？
+[^2]: 买方最优的算法消费模型分析
 
-    Is Ethereum Proof of Stake Sustainable? $-$ Considering from the Perspective of Competition Among Smart Contract Platforms $-$. (arXiv:2309.11394v1 [cs.CY])
+    Buyer-Optimal Algorithmic Consumption. (arXiv:2309.12122v1 [econ.TH])
 
-    [http://arxiv.org/abs/2309.11394](http://arxiv.org/abs/2309.11394)
+    [http://arxiv.org/abs/2309.12122](http://arxiv.org/abs/2309.12122)
 
-    本文以其他智能合约平台竞争对以太坊的本地货币Ether（ETH）价格的潜在影响为重点，对权益证明设计所宣称的安全性和可持续性提出了疑问。
-
-    
-
-    自从以太坊过渡到权益证明机制后，声称其结果是降低能源消耗和增加安全性。然而，即使是这种情况，这种状态能持续下去吗？本文关注其他智能合约平台对以太坊本地货币Ether（ETH）价格可能带来的潜在影响，进而对权益证明设计所宣称的安全性和可持续性提出了疑问。
-
-    Since the Merge update upon which Ethereum transitioned to Proof of Stake, it has been touted that it resulted in lower power consumption and increased security. However, even if that is the case, can this state be sustained?  In this paper, we focus on the potential impact of competition with other smart contract platforms on the price of Ethereum's native currency, Ether (ETH), thereby raising questions about the safety and sustainability purportedly brought about by the design of Proof of Stake.
-    
-[^4]: 信息提供实验中的因果效应识别
-
-    Identifying Causal Effects in Information Provision Experiments. (arXiv:2309.11387v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.11387](http://arxiv.org/abs/2309.11387)
-
-    信息提供实验用于确定信念如何因果地影响决策和行为。通过应用贝叶斯估计器，可以准确识别出（非加权的）平均部分效应。
+    该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。
 
     
 
-    信息提供实验是一种越来越流行的工具，用于确定信念如何因果地影响决策和行为。在基于负担信息获取的简单贝叶斯信念形成模型中，当这些信念对他们的决策至关重要时，人们形成精确的信念。先前信念的精确度控制着当他们接受新信息时他们的信念变化程度（即第一阶段的强度）。由于两阶段最小二乘法（TSLS）以权重与第一阶段的强度成比例的加权平均为目标，TSLS会过度加权具有较小因果效应的个体，并低估具有较大效应的个体，从而低估了信念对行为的平均部分效应。在所有参与者都接受新信息的实验设计中，贝叶斯更新意味着可以使用控制函数来确定（非加权的）平均部分效应。我将这个估计器应用于最近一项关于效应的研究。
+    我们分析了一个双边交易模型，其中买方对产品的价值和卖方的成本是不确定的，卖方选择产品价格，并且基于其价值和价格通过算法推荐产品。我们描述了一个最大化买方预期收益的算法，并且表明在高价位下的最优算法过少推荐产品，在低价位下过多推荐。算法的精确性提高了最大均衡价格，可能提高卖方成本的所有价格，而告知卖方买方的价值则会导致均衡价格的均值保持扩散和买方收益的均值保持收缩。
 
-    Information provision experiments are an increasingly popular tool to identify how beliefs causally affect decision-making and behavior. In a simple Bayesian model of belief formation via costly information acquisition, people form precise beliefs when these beliefs are important for their decision-making. The precision of prior beliefs controls how much their beliefs shift when they are shown new information (i.e., the strength of the first stage). Since two-stage least squares (TSLS) targets a weighted average with weights proportional to the strength of the first stage, TSLS will overweight individuals with smaller causal effects and underweight those with larger effects, thus understating the average partial effect of beliefs on behavior. In experimental designs where all participants are exposed to new information, Bayesian updating implies that a control function can be used to identify the (unweighted) average partial effect. I apply this estimator to a recent study of the effec
+    We analyze a bilateral trade model in which the buyer's value for the product and the seller's costs are uncertain, the seller chooses the product price, and the product is recommended by an algorithm based on its value and price. We characterize an algorithm that maximizes the buyer's expected payoff and show that the optimal algorithm underrecommends the product at high prices and overrecommends at low prices. Higher algorithm precision increases the maximal equilibrium price and may increase prices across all of the seller's costs, whereas informing the seller about the buyer's value results in a mean-preserving spread of equilibrium prices and a mean-preserving contraction of the buyer's payoff.
     
-[^5]: 使用边际价格拍卖理论提高售票分配效率
+[^3]: 美国现有核电站合成燃料生产的技术经济分析
 
-    Increasing Ticketing Allocative Efficiency Using Marginal Price Auction Theory. (arXiv:2309.11189v1 [econ.GN])
+    Techno-Economic Analysis of Synthetic Fuel Production from Existing Nuclear Power Plants across the United States. (arXiv:2309.12085v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.11189](http://arxiv.org/abs/2309.11189)
+    [http://arxiv.org/abs/2309.12085](http://arxiv.org/abs/2309.12085)
 
-    使用边际价格拍卖系统的售票协议能够更公平高效地分配票，并帮助活动组织者提取更多经济租金。
-
-    
-
-    大多数现代售票系统依赖于先到先得或随机分配系统来确定票的分配。由于其不公平的分配和分配效率低下，这种系统近年来受到了相当大的批评。我们分析了一种基于边际价格拍卖系统变体的售票协议。用户根据自己的效用向协议提交投标。协议将票分配给出价最高的人，并使用最低的中标出价确定所有投标人支付的最终票价。我们提供了博弈理论证明，以确保该协议更有效地将票分配给效用最高的投标人。我们还证明了协议对活动组织者提取了更多的经济租金，以及在时间不变的投标人效用下，票务炒卖的非最优性。
-
-    Most modern ticketing systems rely on a first-come-first-serve or randomized allocation system to determine the allocation of tickets. Such systems has received considerable backlash in recent years due to its inequitable allotment and allocative inefficiency. We analyze a ticketing protocol based on a variation of the marginal price auction system. Users submit bids to the protocol based on their own utilities. The protocol awards tickets to the highest bidders and determines the final ticket price paid by all bidders using the lowest winning submitted bid. Game theoretic proof is provided to ensure the protocol more efficiently allocates the tickets to the bidders with the highest utilities. We also prove that the protocol extracts more economic rents for the event organizers and the non-optimality of ticket scalping under time-invariant bidder utilities.
-    
-[^6]: 需求：可复现研究的软件包依赖 (arXiv:2309.11058v1 [econ.EM])
-
-    require: Package dependencies for reproducible research. (arXiv:2309.11058v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.11058](http://arxiv.org/abs/2309.11058)
-
-    require 命令是一个用于确保 Stata 软件包依赖兼容的工具，它可以验证、检查和安装软件包，以实现可复现的研究。
+    该论文研究了利用现有核电站生产合成燃料的技术经济潜力，结果显示将合成燃料生产与核电站耦合可以提高核电站的盈利能力，为投资者带来可观的回报。
 
     
 
-    在 Stata 中进行可复现研究的能力常常受到用户提交的软件包缺乏版本控制的限制。本文章介绍了 require 命令，这是一个旨在确保 Stata 软件包依赖在不同用户和计算机系统上兼容的工具。给定一个 Stata 软件包列表，require 验证每个包是否安装，检查最低或准确版本或软件包发布日期，并在研究人员提示时可选择安装该软件包。
+    低碳合成燃料可以取代柴油和喷气燃料等传统燃料，有助于全球范围内实现交通领域的脱碳，但需要大规模的成本效益高的生产设施。与此同时，由于经济困难，核电站正在关闭：电力价格过低且不稳定，无法覆盖运营成本。利用现有核电站生产合成燃料可能阻止这些低碳资产的损失，同时大规模生产合成燃料，但目前尚无关于这种整合能源系统的技术经济分析。我们量化了在美国五个示例核电站与合成燃料生产过程耦合的技术经济潜力，以探究不同电力市场、二氧化碳资源的获取以及燃料市场的影响。将合成燃料生产与核电站耦合可以使核电站的盈利能力增加多达7.92亿美元（2020年），同时获得10％的投资回报率。
 
-    The ability to conduct reproducible research in Stata is often limited by the lack of version control for user-submitted packages. This article introduces the require command, a tool designed to ensure Stata package dependencies are compatible across users and computer systems. Given a list of Stata packages, require verifies that each package is installed, checks for a minimum or exact version or package release date, and optionally installs the package if prompted by the researcher.
+    Low carbon synfuel can displace transport fossil fuels such as diesel and jet fuel and help achieve the decarbonization of the transportation sector at a global scale, but large-scale cost-effective production facilities are needed. Meanwhile, nuclear power plants are closing due to economic difficulties: electricity prices are too low and variable to cover their operational costs. Using existing nuclear power plants to produce synfuels might prevent loss of these low-carbon assets while producing synfuels at scale, but no technoeconomic analysis of this Integrated Energy System exist. We quantify the technoeconomic potential of coupling a synthetic fuel production process with five example nuclear power plants across the U.S. to explore the influence of different electricity markets, access to carbon dioxide sources, and fuel markets. Coupling synfuel production increases nuclear plant profitability by up to 792 million USD(2020) in addition to a 10 percent rate of return on investmen
     
-[^7]: 基于多变量线性回归模型的高管股权对企业新投资的影响研究
+[^4]: 在不同时间尺度上检测时间记忆模式的检测分析
 
-    Research on the Impact of Executive Shareholding on New Investment in Enterprises Based on Multivariable Linear Regression Model. (arXiv:2309.10986v1 [math.NA])
+    A detection analysis for temporal memory patterns at different time-scales. (arXiv:2309.12034v1 [econ.EM])
 
-    [http://arxiv.org/abs/2309.10986](http://arxiv.org/abs/2309.10986)
+    [http://arxiv.org/abs/2309.12034](http://arxiv.org/abs/2309.12034)
 
-    该研究使用多变量线性回归模型, 基于委托代理理论和最优合同理论, 分析了高管股权对企业新投资的影响。根据研究结果，发现高管持股会通过改变高管股权激励的边际效用，导致管理层、股东和债权人的利益不平衡。
-
-    
-
-    基于委托代理理论和最优合同理论，企业利用增加高管股权的方式来激励协同创新。然而，从管理层与股东之间的代理成本（即第一类）和大股东与小股东之间的代理成本（即第二类）的角度来看，随着高管股权激励的边际效用变化，管理层、股东和债权人的利益将不平衡。为了建立高管持股比例与企业创新投资之间的关联性，我们选择了中国A股市场上一系列上市公司作为研究焦点。我们使用多变量线性回归模型对这种关系进行全面分析。我们开发了以下模型：（1）高管持股对企业创新投资的影响模型；（2）高管持股对...
-
-    Based on principal-agent theory and optimal contract theory, companies use the method of increasing executives' shareholding to stimulate collaborative innovation. However, from the aspect of agency costs between management and shareholders (i.e. the first type) and between major shareholders and minority shareholders (i.e. the second type), the interests of management, shareholders and creditors will be unbalanced with the change of the marginal utility of executive equity incentives.In order to establish the correlation between the proportion of shares held by executives and investments in corporate innovation, we have chosen a range of publicly listed companies within China's A-share market as the focus of our study. Employing a multi-variable linear regression model, we aim to analyze this relationship thoroughly.The following models were developed: (1) the impact model of executive shareholding on corporate innovation investment; (2) the impact model of executive shareholding on t
-    
-[^8]: 低地球轨道（LEO）卫星宽带星座的可持续性评估
-
-    Sustainability assessment of Low Earth Orbit (LEO) satellite broadband mega-constellations. (arXiv:2309.02338v1 [astro-ph.EP])
-
-    [http://arxiv.org/abs/2309.02338](http://arxiv.org/abs/2309.02338)
-
-    本研究对低地球轨道（LEO）卫星宽带星座进行了可持续性评估，发现卫星发射增加带来了环境排放和碳足迹的问题，需要对其进行有效管理。
+    本论文介绍了一种新颖的方法，通过分析事件序列的事件间隔分布，以揭示时间序列的依赖模式。该方法可以发现跨多个时间尺度的记忆模式，并提供了有价值的应用于经济学中的时间序列分析。
 
     
 
-    超大型星座的增长迅速增加了将新卫星送入空间所需的火箭发射次数。虽然低地球轨道（LEO）宽带卫星有助于连接未连通的社区并实现可持续发展目标，但也存在一系列负面环境外部性，包括火箭燃料燃烧和由此产生的环境排放。我们对三个主要LEO星座的第一阶段进行可持续性分析，包括Amazon Kuiper（3,236颗卫星）、OneWeb（648颗卫星）和SpaceX Starlink（4,425颗卫星）。在基准方案下，经过五年，我们发现Kuiper的每位用户二氧化碳当量（CO$_2$eq）为0.70±0.34吨，OneWeb为1.41±0.71吨，Starlink为0.47±0.15吨CO$_2$eq/用户。然而，在最坏情况下的排放情景中，这些值增加到Kuiper的3.02±1.48吨，OneWeb的1.7±0.71吨和Starlink的1.04±0.33吨CO$_2$eq/用户。
+    本论文介绍了一种新颖的方法，利用延迟来揭示时间序列的依赖模式。通过分析事件序列的事件间隔分布，定制的统计检验可以检测到事件序列之间的记忆依赖关系。基于更新-老化性质的合成实验评估了观察者延迟对更新性质的影响。我们的检测方法可以发现跨多个时间尺度的记忆模式，强调了事件序列的概率结构超出了相关性。时间序列分析生成了统计检验和图形绘制，有助于检测不同时间尺度上事件之间的依赖模式。此外，该检验通过老化实验评估了更新假设，为经济学中的时间序列分析提供了有价值的应用。
 
-    The growth of mega-constellations is rapidly increasing the number of rocket launches required to place new satellites in space. While Low Earth Orbit (LEO) broadband satellites help to connect unconnected communities and achieve the Sustainable Development Goals, there are also a range of negative environmental externalities, from the burning of rocket fuels and resulting environmental emissions. We present sustainability analytics for phase 1 of the three main LEO constellations including Amazon Kuiper (3,236 satellites), OneWeb (648 satellites), and SpaceX Starlink (4,425 satellites). In baseline scenarios over five years, we find a per subscriber carbon dioxide equivalent (CO$_2$eq) of 0.70$\pm$0.34 tonnes for Kuiper, 1.41$\pm$0.71 tonnes for OneWeb and 0.47$\pm$0.15 tonnes CO$_2$eq/subscriber for Starlink. However, in the worst-case emissions scenario these values increase to 3.02$\pm$1.48 tonnes for Kuiper, 1.7$\pm$0.71 tonnes for OneWeb and 1.04$\pm$0.33 tonnes CO$_2$eq/subscrib
+    This paper introduces a novel methodology that utilizes latency to unveil time-series dependence patterns. A customized statistical test detects memory dependence in event sequences by analyzing their inter-event time distributions. Synthetic experiments based on the renewal-aging property assess the impact of observer latency on the renewal property. Our test uncovers memory patterns across diverse time scales, emphasizing the event sequence's probability structure beyond correlations. The time series analysis produces a statistical test and graphical plots which helps to detect dependence patterns among events at different time-scales if any. Furthermore, the test evaluates the renewal assumption through aging experiments, offering valuable applications in time-series analysis within economics.
     
-[^9]: 重参数化与半参数Bernstein-von-Mises定理
+[^5]: AI自动化的爆炸性增长: 论证综述
 
-    Reparametrization and the Semiparametric Bernstein-von-Mises Theorem. (arXiv:2306.03816v1 [math.ST])
+    Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
 
-    [http://arxiv.org/abs/2306.03816](http://arxiv.org/abs/2306.03816)
+    [http://arxiv.org/abs/2309.11690](http://arxiv.org/abs/2309.11690)
 
-    本文提出了一种参数化形式，该形式可以通过生成Neyman正交矩条件来降低对干扰参数的敏感度，从而可以用于去偏贝叶斯推断中的后验分布，同时在参数速率下对低维参数进行真实值的收缩，并在半参数效率界的方差下进行渐近正态分布。
-
-    
-
-    本文考虑了部分线性模型的贝叶斯推断。我们的方法利用了回归函数的一个参数化形式，该形式专门用于估计所关心的低维参数。参数化的关键特性是生成了一个Neyman正交矩条件，这意味着对干扰参数的估计低维参数不太敏感。我们的大样本分析支持了这种说法。特别地，我们推导出充分的条件，使得低维参数的后验在参数速率下对真实值收缩，并且在半参数效率界的方差下渐近地正态分布。这些条件相对于回归模型的原始参数化允许更大类的干扰参数。总的来说，我们得出结论，一个嵌入了Neyman正交性的参数化方法可以成为半参数推断中的一个有用工具，以去偏后验分布。
-
-    This paper considers Bayesian inference for the partially linear model. Our approach exploits a parametrization of the regression function that is tailored toward estimating a low-dimensional parameter of interest. The key property of the parametrization is that it generates a Neyman orthogonal moment condition meaning that the low-dimensional parameter is less sensitive to the estimation of nuisance parameters. Our large sample analysis supports this claim. In particular, we derive sufficient conditions under which the posterior for the low-dimensional parameter contracts around the truth at the parametric rate and is asymptotically normal with a variance that coincides with the semiparametric efficiency bound. These conditions allow for a larger class of nuisance parameters relative to the original parametrization of the regression model. Overall, we conclude that a parametrization that embeds Neyman orthogonality can be a useful device for debiasing posterior distributions in semipa
-    
-[^10]: 面板Bartik设计的更稳健的估计方法，及其在中美进口贸易对美国就业影响中的应用
-
-    More Robust Estimators for Panel Bartik Designs, With An Application to the Effect of Imports from China on US Employment. (arXiv:2103.06437v6 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2103.06437](http://arxiv.org/abs/2103.06437)
-
-    本研究提出了一种更稳健的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应，重新审视了中美进口对美国制造业就业影响的研究，结果表明，在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+    AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。
 
     
 
-    我们证明，面板Bartik回归可以确定位置和时间特定的治疗效应的非凸组合。因此，在存在异质效应的情况下，这些回归可能存在偏差。我们提出了一种替代的工具变量相关随机系数（IV-CRC）估计器，可更好地应对异质效应。我们重新审视了Autor等人（2013）的研究，他们使用面板Bartik回归估计中美进口对美国制造业就业的影响。他们的回归估计了高度非凸的效应组合，我们的IV-CRC估计器很小且不显著：在不假设效应恒定的情况下，无法得出中国进口对美国制造业就业负面影响的结论。
+    我们研究了大规模AI自动化是否能够使全球经济增长加速达到约一个数量级，类似于工业革命所带来的经济增长效应。我们确定了这种增长的三个主要驱动因素：1）AI“劳动力”的可扩展性使得规模递增再现，2）AI劳动力的快速扩张，以及3）在短时间内进行的快速自动化带来的产出大幅增加。在这个背景下，我们评估了九个反对论点，包括监管障碍、产能瓶颈、匹配问题和自动化的速度。我们暂时评估了这些论点，发现大多数都不太可能成为决定因素。我们得出结论认为，如果AI能够广泛替代人力劳动，爆炸性增长似乎是有可能的，但目前对这一说法的高度自信似乎是不合理的。关于AI监管响应的强度、生产中的物理瓶颈和AI的经济价值，仍然存在关键问题。
 
-    We show that panel Bartik regressions identify non-convex combinations of location-and-period-specific treatment effects. Thus, those regressions could be biased in the presence of heterogeneous effects. We propose an alternative instrumental-variable correlated-random-coefficient (IV-CRC) estimator, that is more robust to heterogeneous effects. We revisit Autor et al. (2013), who use a panel Bartik regression to estimate the effect of imports from China on US manufacturing employment. Their regression estimates a highly non-convex combination of effects, and our IV-CRC estimator is small and insignificant: without assuming constant effects, one cannot conclude that imports from China negatively affected US manufacturing employment.
+    We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
     
-[^11]: 匹配函数平衡中的部分分配:存在性、唯一性和估计
+[^6]: 具有非委派或不完全承诺的共同代理
 
-    Matching Function Equilibria with Partial Assignment: Existence, Uniqueness and Estimation. (arXiv:2102.02071v2 [econ.GN] UPDATED)
+    Common Agency with Non-Delegation or Imperfect Commitment. (arXiv:2309.11595v1 [econ.TH])
 
-    [http://arxiv.org/abs/2102.02071](http://arxiv.org/abs/2102.02071)
+    [http://arxiv.org/abs/2309.11595](http://arxiv.org/abs/2309.11595)
 
-    该论文研究了匹配函数平衡中的部分分配问题，证明了平衡的存在和唯一性，并提出了一种高效的计算方法。对于某些匹配模型，还提出了一种无需参数估计的构造对照匹配均衡的方法。这些方法在分析社会政策对婚姻市场影响方面具有重要应用价值。
+    在共同代理模型中，非委派契约或不完全承诺扩展了均衡结果的集合，并重新确立了广义菜单定理。
 
     
 
-    我们认为来自不同领域的模型，如匹配模型和离散选择模型等，共享一个我们称之为带有部分分配的匹配函数平衡的共同结构。这个结构包括一个总体匹配函数和一个非线性方程系统。我们证明了平衡存在和唯一性，并提出了一个高效的算法来计算它。对于一类匹配模型，我们还开发了一种新的无参数方法来构建反事实匹配均衡。它的优势是在计算反事实时不需要参数估计。我们使用我们的程序来分析1982年社会保障学生福利计划的取消对美国婚姻市场的影响。我们从我们的一般匹配函数类中估计了几个候选模型，并使用基于信息的准则选择最佳拟合模型。
+    在传统契约理论中，我们通常假设两个条件：委派契约和完全承诺。虽然第二个假设要求较高，但第一个假设并不会减少广义性。遵循这一传统，当前的共同代理模型强加了委派契约和完全承诺。首先，我们证明非委派契约扩大了共同代理下的均衡结果。此外，共同代理的强大菜单定理（Peters（2001）和Martimort和Stole（2002））对于非委派契约或不完全承诺是不适用的。我们在这样的环境中确定了典型契约，并重新确立了广义菜单定理。在不完全承诺的情况下，我们对共同代理模型的结果与经典契约理论中Bester和Strausz（2001）以及Doval和Skreta（2012）的结果类似，重新确立了启示原理。
 
-    We argue that models coming from a variety of fields, such as matching models and discrete choice models among others, share a common structure that we call matching function equilibria with partial assignment. This structure includes an aggregate matching function and a system of nonlinear equations. We provide a proof of existence and uniqueness of an equilibrium and propose an efficient algorithm to compute it. For a subclass of matching models, we also develop a new parameter-free approach for constructing the counterfactual matching equilibrium. It has the advantage of not requiring parametric estimation when computing counterfactuals. We use our procedure to analyze the impact of the elimination of the Social Security Student Benefit Program in 1982 on the marriage market in the United States. We estimate several candidate models from our general class of matching functions and select the best fitting model using information based criterion.
+    In classical contract theory, we usually impose two assumptions: delegated contracts and perfect commitment. While the second assumption is demanding, the first one suffers no loss of generality. Following this tradition, current common-agency models impose delegated contracts and perfect commitment. We first show that non-delegated contracts expand the set of equilibrium outcomes under common agency. Furthermore, the powerful menu theorem for common agency (Peters (2001) and Martimort and Stole (2002)}) fails for either non-delegated contracts or imperfect commitment. We identify canonical contracts in such environments, and re-establish generalized menu theorems. Given imperfect commitment, our results for common-agency models are analogous to those in Bester and Strausz (2001) and Doval and Skreta (2012) for the classical contract theory, which re-establish the revelation principle.
+    
+[^7]: 广义协方差和相关性
+
+    Generalised Covariances and Correlations. (arXiv:2307.03594v1 [stat.ME] CROSS LISTED)
+
+    [http://arxiv.org/abs/2307.03594](http://arxiv.org/abs/2307.03594)
+
+    该论文广义化了协方差的概念，并用其他统计函数替代了均值，构造了广义相关性来衡量随机变量之间的依赖关系。这些新的依赖度量具有有利的特性，可以用于显示整个依赖结构，并且可以取代传统的尾部依赖系数。
+
+    
+
+    两个随机变量的协方差衡量它们相对于各自均值的联合偏差的平均值。我们通过用其他统计函数（如分位数、期望量、或阈值）替代均值来推广这个众所周知的度量。这些函数的偏差通过广义误差定义，通常由识别或矩函数引发。作为一种归一化的依赖度量，我们构造了广义相关性。通过用一种新颖的Fr\'echet-Hoeffding归一化替代常见的Cauchy-Schwarz归一化，我们获得了对于任何给定边缘分布，整个区间$[-1, 1]$的可达性。我们发现了这些新的依赖度量的有利特性。分位数和阈值相关性的家族产生了函数值分布相关性，显示了整个依赖结构。它们导致了尾部相关性，这可能应该取代尾部依赖系数。最后，我们构造了摘要协方差（corre）
+
+    The covariance of two random variables measures the average joint deviations from their respective means. We generalise this well-known measure by replacing the means with other statistical functionals such as quantiles, expectiles, or thresholds. Deviations from these functionals are defined via generalised errors, often induced by identification or moment functions. As a normalised measure of dependence, a generalised correlation is constructed. Replacing the common Cauchy-Schwarz normalisation by a novel Fr\'echet-Hoeffding normalisation, we obtain attainability of the entire interval $[-1, 1]$ for any given marginals. We uncover favourable properties of these new dependence measures. The families of quantile and threshold correlations give rise to function-valued distributional correlations, exhibiting the entire dependence structure. They lead to tail correlations, which should arguably supersede the coefficients of tail dependence. Finally, we construct summary covariances (corre
+    
+[^8]: 自我渐进选择理论的基础
+
+    Foundations of self-progressive choice theories. (arXiv:2212.13449v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.13449](http://arxiv.org/abs/2212.13449)
+
+    该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。
+
+    
+
+    考虑一个由许多代理人组成的群体，他们的选择行为可以根据给定的原始排序部分进行比较。在该群体中可接受的选择函数集合确定了一个选择理论。如果与理论一致的任何集体选择行为都可以表示为可比较的可接受选择函数上的概率分布，则该选择理论是自我渐进的。 我们证明了自我渐进选择理论和（i）称为格的众所周知的代数结构；（ii）特定领域内的超模函数的最大化者之间的等价性。我们将分析扩展到普遍自我渐进的选择理论，这些选择理论独立于原始排序给出了唯一的有序代表。
+
+    Consider a population of agents whose choice behaviors are partially comparable according to given primitive orderings. The set of choice functions admissible in the population specifies a choice theory. A choice theory is self-progressive if any aggregate choice behavior consistent with the theory is uniquely representable as a probability distribution over admissible choice functions that are comparable. We establish an equivalence between self-progressive choice theories and (i) well-known algebraic structures called lattices; (ii) the maximizers of supermodular functions over a specific domain of choice functions. We extend our analysis to universally self-progressive choice theories which render unique orderly representations independent of primitive orderings.
+    
+[^9]: 未知组件数的对数正态分布混合模型的贝叶斯分析和组合数据的马尔可夫链蒙特卡洛方法
+
+    Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data. (arXiv:2210.05115v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.05115](http://arxiv.org/abs/2210.05115)
+
+    本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。
+
+    
+
+    本研究提出了一种可逆跳跃马尔可夫链蒙特卡洛方法，用于估计收入的对数正态分布混合模型的参数。通过使用模拟数据示例，我们检验了所提算法的性能以及基尼系数的后验分布的准确性。结果表明参数估计准确，即使考虑了不同的数据生成过程，后验分布仍接近真实分布。此外，基于更具吸引力的基尼系数的结果，我们还将该方法应用于来自日本的实际数据。实证案例表明日本在2020年存在两个子群，并且基尼系数的完整性得到了验证。
+
+    This study proposes a reversible jump Markov chain Monte Carlo method for estimating parameters of lognormal distribution mixtures for income. Using simulated data examples, we examined the proposed algorithm's performance and the accuracy of posterior distributions of the Gini coefficients. Results suggest that the parameters were estimated accurately. Therefore, the posterior distributions are close to the true distributions even when the different data generating process is accounted for. Moreover, promising results for Gini coefficients encouraged us to apply our method to real data from Japan. The empirical examples indicate two subgroups in Japan (2020) and the Gini coefficients' integrity.
+    
+[^10]: 在模糊回归不连续设计中的偏差感知推断
+
+    Bias-Aware Inference in Fuzzy Regression Discontinuity Designs. (arXiv:1906.04631v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1906.04631](http://arxiv.org/abs/1906.04631)
+
+    本文提出了一种新的置信区间方法，针对模糊设计中的回归不连续参数，该方法基于局部线性回归，并且明确考虑了可能的偏差。与常用的模糊回归不连续分析推断方法不同，该方法避免了"delta method"逼近问题，并在多种实际相关条件下都是有效的。
+
+    
+
+    我们针对模糊设计中的回归不连续参数提出了新的置信区间（CS），这些CS基于局部线性回归，并且在可能的偏差方面是感知的，即它们明确地考虑了可能的偏差。它们的构造与完全确定的工具变量模型中的Anderson-Rubin CS相似，从而避免了大多数常用的模糊回归不连续分析现有推断方法中依赖于"delta method"逼近的问题。我们的CS在具有强识别和连续运行变量的经典设置中与现有程序渐进等价。然而，由于其特殊构造，它们在许多实际相关条件下也是有效的，而现有方法可能会失败，例如离散运行变量、环形设计和弱识别设置。
+
+    We propose new confidence sets (CSs) for the regression discontinuity parameter in fuzzy designs. Our CSs are based on local linear regression, and are bias-aware, in the sense that they take possible bias explicitly into account. Their construction shares similarities with that of Anderson-Rubin CSs in exactly identified instrumental variable models, and thereby avoids issues with "delta method" approximations that underlie most commonly used existing inference methods for fuzzy regression discontinuity analysis. Our CSs are asymptotically equivalent to existing procedures in canonical settings with strong identification and a continuous running variable. However, due to their particular construction they are also valid under a wide range of empirically relevant conditions in which existing methods can fail, such as setups with discrete running variables, donut designs, and weak identification.
     
 

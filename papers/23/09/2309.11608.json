@@ -1,0 +1,12 @@
+{
+    "title": "Dataset Factory: A Toolchain For Generative Computer Vision Datasets. (arXiv:2309.11608v1 [cs.AI])",
+    "abstract": "Generative AI workflows heavily rely on data-centric tasks - such as filtering samples by annotation fields, vector distances, or scores produced by custom classifiers. At the same time, computer vision datasets are quickly approaching petabyte volumes, rendering data wrangling difficult. In addition, the iterative nature of data preparation necessitates robust dataset sharing and versioning mechanisms, both of which are hard to implement ad-hoc. To solve these challenges, we propose a \"dataset factory\" approach that separates the storage and processing of samples from metadata and enables data-centric operations at scale for machine learning teams and individual researchers.",
+    "link": "http://arxiv.org/abs/2309.11608",
+    "context": "Title: Dataset Factory: A Toolchain For Generative Computer Vision Datasets. (arXiv:2309.11608v1 [cs.AI])\nAbstract: Generative AI workflows heavily rely on data-centric tasks - such as filtering samples by annotation fields, vector distances, or scores produced by custom classifiers. At the same time, computer vision datasets are quickly approaching petabyte volumes, rendering data wrangling difficult. In addition, the iterative nature of data preparation necessitates robust dataset sharing and versioning mechanisms, both of which are hard to implement ad-hoc. To solve these challenges, we propose a \"dataset factory\" approach that separates the storage and processing of samples from metadata and enables data-centric operations at scale for machine learning teams and individual researchers.",
+    "path": "papers/23/09/2309.11608.json",
+    "total_tokens": 715,
+    "translated_title": "数据集工厂：一个生成计算机视觉数据集的工具链",
+    "translated_abstract": "生成式人工智能工作流程在很大程度上依赖于以数据为中心的任务，如通过注释字段、向量距离或自定义分类器产生的分数来过滤样本。同时，计算机视觉数据集的容量迅速接近PB级，使得数据整理变得困难。此外，数据准备的迭代特性需要实现强大的数据集共享和版本控制机制，这两者都难以自适应实现。为了解决这些挑战，我们提出了一种\"数据集工厂\"的方法，将样本的存储和处理与元数据分开，并为机器学习团队和个人研究人员提供了规模化的数据中心操作。",
+    "tldr": "提出了一个\"数据集工厂\"的方法，将计算机视觉数据集的存储和处理与元数据分开，并为机器学习团队和个人研究人员提供了规模化的数据中心操作。",
+    "en_tdlr": "A \"dataset factory\" approach is proposed to separate the storage and processing of computer vision datasets from metadata, enabling data-centric operations at scale for machine learning teams and individual researchers."
+}
