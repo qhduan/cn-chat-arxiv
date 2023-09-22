@@ -5,23 +5,24 @@
 | [^1] | [Improving VTE Identification through Adaptive NLP Model Selection and Clinical Expert Rule-based Classifier from Radiology Reports.](http://arxiv.org/abs/2309.12273) | 通过自适应的NLP模型选择和临床专家规则的分类器，该研究提出一种改进VTE识别的新方法，在放射学报告中准确识别VTE事件的准确性得到提高。 |
 | [^2] | [SR-PredictAO: Session-based Recommendation with High-Capability Predictor Add-On.](http://arxiv.org/abs/2309.12218) | SR-PredictAO是一种基于会话的推荐系统，通过引入高能力预测器模块，解决了现有模型中低能力预测器模块的问题，可以在存在随机用户行为的情况下预测用户的下一个动作。 |
 | [^3] | [Towards Robust and Truly Large-Scale Audio-Sheet Music Retrieval.](http://arxiv.org/abs/2309.12158) | 本文研究了音频-乐谱检索的当前发展情况，通过深度学习方法解决了鲁棒性和大规模应用的挑战。 |
-| [^4] | [Passage Summarization with Recurrent Models for Audio-Sheet Music Retrieval.](http://arxiv.org/abs/2309.12111) | 本文提出了一个使用循环模型的音频-乐谱检索方法，通过学习跨模态循环网络生成可以摘要对应音频和乐谱的更长段落的联合嵌入。相比于传统方法，该方法只需要弱对齐的音频-乐谱对，并且能够处理音频和乐谱之间的节奏变化导致的非线性。 |
-| [^5] | [Unveiling Optimal SDG Pathways: An Innovative Approach Leveraging Graph Pruning and Intent Graph for Effective Recommendations.](http://arxiv.org/abs/2309.11741) | 该论文提出了一种名为UGPIG的方法，通过应用剪枝用户图和意图图解决空间异质性和稀疏性数据的问题，以实现推荐适用的可持续发展模式。 |
-| [^6] | [Candidate Set Sampling for Evaluating Top-N Recommendation.](http://arxiv.org/abs/2309.11723) | 本论文研究了在离线推荐系统中，候选集的选择策略与流行度偏差的交互作用，通过模拟评估发现抽样的候选集可以减少度量估计的偏差。 |
-| [^7] | [SE-PEF: a Resource for Personalized Expert Finding.](http://arxiv.org/abs/2309.11686) | 该论文介绍了SE-PEF，一个用于个性化专家查找的资源。该资源包括超过25万个查询和56.5万个答案，并使用一套丰富的特征来建模用户之间的社交互动。初步实验结果表明SE-PEF适用于评估和训练有效的专家查找模型。 |
-| [^8] | [Popularity Degradation Bias in Local Music Recommendation.](http://arxiv.org/abs/2309.11671) | 本文研究了流行度衰减偏差对本地音乐推荐的影响，发现在推荐流行艺术家方面，权重相关矩阵分解和多项式变分自动编码器表现较好，但对于不太流行的艺术家来说，多项式变分自动编码器的相对性能更好。 |
-| [^9] | [Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation.](http://arxiv.org/abs/2309.11623) | 本研究利用自我注意力机制和负面反馈，提出了用于顺序音乐推荐的Transformer模型，并采用对比学习任务来提高推荐准确性。 |
-| [^10] | [TrueLearn: A Python Library for Personalised Informational Recommendations with (Implicit) Feedback.](http://arxiv.org/abs/2309.11527) | TrueLearn是一个Python库，用于构建个性化的信息推荐系统，并提供了丰富的文档和编码示例，可帮助开发人员和从业者使用。它采用了开放学习者的概念和人性化的用户表达方式，同时支持用户可视化和模型性能评估。 |
-| [^11] | [Ad-load Balancing via Off-policy Learning in a Content Marketplace.](http://arxiv.org/abs/2309.11518) | 本文介绍了一个使用离线学习和强化学习反馈的方法来解决在线广告系统中的广告负载平衡问题，该方法能够适应用户偏好和上下文因素的变化，并最大化用户参与度和收入。 |
-| [^12] | [Private Matrix Factorization with Public Item Features.](http://arxiv.org/abs/2309.11516) | 这项研究提出了一种使用公共项目特征进行私有矩阵分解的方法，以缓解差分隐私训练对推荐质量的影响，并展示了这种方法的简单性、易调整性和可扩展性。 |
-| [^13] | [Towards Differential Privacy in Sequential Recommendation: A Noisy Graph Neural Network Approach.](http://arxiv.org/abs/2309.11515) | 这项工作提出了一种新颖的差分隐私顺序推荐框架，采用了噪声图神经网络方法，解决了现有差分隐私推荐系统在动态和依赖关系方面的局限性，同时也关注了敏感用户特征的隐私风险。 |
-| [^14] | [When is a Foundation Model a Foundation Model.](http://arxiv.org/abs/2309.11510) | 这项研究发现，通过对基础模型进行微调，使用在线数据源的图片进行图像-文本建模在医学领域具有潜力。然而，这些基础模型在数字病理学的检索任务中表现不如传统的深度网络。 |
-| [^15] | [AdBooster: Personalized Ad Creative Generation using Stable Diffusion Outpainting.](http://arxiv.org/abs/2309.11507) | AdBooster通过使用稳定扩散外景架构和生成模型，实现了个性化广告创作的创意优化，其有效性得到了实验证明。 |
-| [^16] | [Matching Table Metadata with Business Glossaries Using Large Language Models.](http://arxiv.org/abs/2309.11506) | 本研究探讨了将表元数据与业务词汇进行匹配的问题，通过匹配可以在不请求访问数据内容之前或之后，有效利用可用的业务词汇进行检索和分析。 |
-| [^17] | [Fairness Vs. Personalization: Towards Equity in Epistemic Utility.](http://arxiv.org/abs/2309.11503) | 该论文研究了个性化推荐系统中公平性与个性化之间的困境，并提出了在认知效用背景下实现公正的公平的解决方案。 |
-| [^18] | [Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems.](http://arxiv.org/abs/2309.08617) | Drifter是一个高效的在线特征监控系统，通过敏捷、响应和适应性的数据质量监控，实时分析、检测和解决推荐系统中的数据问题，使得实时推荐系统的可靠性和性能得到显著提升。 |
-| [^19] | [PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search.](http://arxiv.org/abs/2307.09683) | 本论文总结了生物医学文献检索领域的最新进展和最佳实践，介绍了针对不同生物医学信息需求的文献检索工具，并旨在帮助读者高效满足其信息需求。 |
-| [^20] | [Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom.](http://arxiv.org/abs/2306.11963) | 本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。 |
+| [^4] | [Self-Supervised Contrastive Learning for Robust Audio-Sheet Music Retrieval Systems.](http://arxiv.org/abs/2309.12134) | 本文研究了自监督对比学习在稳健音频-乐谱检索系统中的应用，通过对比两种模态的随机增强视图，预训练模型能够在所有场景中更精确地检索片段。 |
+| [^5] | [Passage Summarization with Recurrent Models for Audio-Sheet Music Retrieval.](http://arxiv.org/abs/2309.12111) | 本文提出了一个使用循环模型的音频-乐谱检索方法，通过学习跨模态循环网络生成可以摘要对应音频和乐谱的更长段落的联合嵌入。相比于传统方法，该方法只需要弱对齐的音频-乐谱对，并且能够处理音频和乐谱之间的节奏变化导致的非线性。 |
+| [^6] | [Unveiling Optimal SDG Pathways: An Innovative Approach Leveraging Graph Pruning and Intent Graph for Effective Recommendations.](http://arxiv.org/abs/2309.11741) | 该论文提出了一种名为UGPIG的方法，通过应用剪枝用户图和意图图解决空间异质性和稀疏性数据的问题，以实现推荐适用的可持续发展模式。 |
+| [^7] | [Candidate Set Sampling for Evaluating Top-N Recommendation.](http://arxiv.org/abs/2309.11723) | 本论文研究了在离线推荐系统中，候选集的选择策略与流行度偏差的交互作用，通过模拟评估发现抽样的候选集可以减少度量估计的偏差。 |
+| [^8] | [SE-PEF: a Resource for Personalized Expert Finding.](http://arxiv.org/abs/2309.11686) | 该论文介绍了SE-PEF，一个用于个性化专家查找的资源。该资源包括超过25万个查询和56.5万个答案，并使用一套丰富的特征来建模用户之间的社交互动。初步实验结果表明SE-PEF适用于评估和训练有效的专家查找模型。 |
+| [^9] | [Popularity Degradation Bias in Local Music Recommendation.](http://arxiv.org/abs/2309.11671) | 本文研究了流行度衰减偏差对本地音乐推荐的影响，发现在推荐流行艺术家方面，权重相关矩阵分解和多项式变分自动编码器表现较好，但对于不太流行的艺术家来说，多项式变分自动编码器的相对性能更好。 |
+| [^10] | [Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation.](http://arxiv.org/abs/2309.11623) | 本研究利用自我注意力机制和负面反馈，提出了用于顺序音乐推荐的Transformer模型，并采用对比学习任务来提高推荐准确性。 |
+| [^11] | [TrueLearn: A Python Library for Personalised Informational Recommendations with (Implicit) Feedback.](http://arxiv.org/abs/2309.11527) | TrueLearn是一个Python库，用于构建个性化的信息推荐系统，并提供了丰富的文档和编码示例，可帮助开发人员和从业者使用。它采用了开放学习者的概念和人性化的用户表达方式，同时支持用户可视化和模型性能评估。 |
+| [^12] | [Ad-load Balancing via Off-policy Learning in a Content Marketplace.](http://arxiv.org/abs/2309.11518) | 本文介绍了一个使用离线学习和强化学习反馈的方法来解决在线广告系统中的广告负载平衡问题，该方法能够适应用户偏好和上下文因素的变化，并最大化用户参与度和收入。 |
+| [^13] | [Private Matrix Factorization with Public Item Features.](http://arxiv.org/abs/2309.11516) | 这项研究提出了一种使用公共项目特征进行私有矩阵分解的方法，以缓解差分隐私训练对推荐质量的影响，并展示了这种方法的简单性、易调整性和可扩展性。 |
+| [^14] | [Towards Differential Privacy in Sequential Recommendation: A Noisy Graph Neural Network Approach.](http://arxiv.org/abs/2309.11515) | 这项工作提出了一种新颖的差分隐私顺序推荐框架，采用了噪声图神经网络方法，解决了现有差分隐私推荐系统在动态和依赖关系方面的局限性，同时也关注了敏感用户特征的隐私风险。 |
+| [^15] | [When is a Foundation Model a Foundation Model.](http://arxiv.org/abs/2309.11510) | 这项研究发现，通过对基础模型进行微调，使用在线数据源的图片进行图像-文本建模在医学领域具有潜力。然而，这些基础模型在数字病理学的检索任务中表现不如传统的深度网络。 |
+| [^16] | [AdBooster: Personalized Ad Creative Generation using Stable Diffusion Outpainting.](http://arxiv.org/abs/2309.11507) | AdBooster通过使用稳定扩散外景架构和生成模型，实现了个性化广告创作的创意优化，其有效性得到了实验证明。 |
+| [^17] | [Matching Table Metadata with Business Glossaries Using Large Language Models.](http://arxiv.org/abs/2309.11506) | 本研究探讨了将表元数据与业务词汇进行匹配的问题，通过匹配可以在不请求访问数据内容之前或之后，有效利用可用的业务词汇进行检索和分析。 |
+| [^18] | [Fairness Vs. Personalization: Towards Equity in Epistemic Utility.](http://arxiv.org/abs/2309.11503) | 该论文研究了个性化推荐系统中公平性与个性化之间的困境，并提出了在认知效用背景下实现公正的公平的解决方案。 |
+| [^19] | [Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems.](http://arxiv.org/abs/2309.08617) | Drifter是一个高效的在线特征监控系统，通过敏捷、响应和适应性的数据质量监控，实时分析、检测和解决推荐系统中的数据问题，使得实时推荐系统的可靠性和性能得到显著提升。 |
+| [^20] | [PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search.](http://arxiv.org/abs/2307.09683) | 本论文总结了生物医学文献检索领域的最新进展和最佳实践，介绍了针对不同生物医学信息需求的文献检索工具，并旨在帮助读者高效满足其信息需求。 |
+| [^21] | [Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom.](http://arxiv.org/abs/2306.11963) | 本文综述了多模态医学数据融合在智慧医疗中的应用，提出了符合DIKW机制的通用融合框架，探讨了面临的挑战和未来的发展方向。 |
 
 # 详细
 
@@ -67,7 +68,21 @@
 
     A range of applications of multi-modal music information retrieval is centred around the problem of connecting large collections of sheet music (images) to corresponding audio recordings, that is, identifying pairs of audio and score excerpts that refer to the same musical content. One of the typical and most recent approaches to this task employs cross-modal deep learning architectures to learn joint embedding spaces that link the two distinct modalities - audio and sheet music images. While there has been steady improvement on this front over the past years, a number of open problems still prevent large-scale employment of this methodology. In this article we attempt to provide an insightful examination of the current developments on audio-sheet music retrieval via deep learning methods. We first identify a set of main challenges on the road towards robust and large-scale cross-modal music retrieval in real scenarios. We then highlight the steps we have taken so far to address some o
     
-[^4]: 使用循环模型的音频-乐谱检索的段落摘要
+[^4]: 自监督对比学习用于稳健的音频-乐谱检索系统
+
+    Self-Supervised Contrastive Learning for Robust Audio-Sheet Music Retrieval Systems. (arXiv:2309.12134v1 [cs.SD])
+
+    [http://arxiv.org/abs/2309.12134](http://arxiv.org/abs/2309.12134)
+
+    本文研究了自监督对比学习在稳健音频-乐谱检索系统中的应用，通过对比两种模态的随机增强视图，预训练模型能够在所有场景中更精确地检索片段。
+
+    
+
+    将乐谱图像与音频录音进行链接仍然是开发高效的跨模态音乐检索系统的一个关键问题。一种基本的方法是通过深度神经网络学习一个能够连接短音频片段和乐谱的跨模态嵌入空间。然而，真实音乐内容的带注释数据的稀缺性影响了这些方法在真实检索场景中的泛化能力。在这项工作中，我们通过自监督对比学习来缓解这个限制，通过将网络暴露在大量真实音乐数据中作为预训练步骤，对比随机增强的音频和乐谱图像片段的视图。通过对合成和真实钢琴数据进行一系列实验，我们表明预训练模型能够在所有场景和预训练配置中更精确地检索片段。在这些结果的鼓舞下，我们...
+
+    Linking sheet music images to audio recordings remains a key problem for the development of efficient cross-modal music retrieval systems. One of the fundamental approaches toward this task is to learn a cross-modal embedding space via deep neural networks that is able to connect short snippets of audio and sheet music. However, the scarcity of annotated data from real musical content affects the capability of such methods to generalize to real retrieval scenarios. In this work, we investigate whether we can mitigate this limitation with self-supervised contrastive learning, by exposing a network to a large amount of real music data as a pre-training step, by contrasting randomly augmented views of snippets of both modalities, namely audio and sheet images. Through a number of experiments on synthetic and real piano data, we show that pre-trained models are able to retrieve snippets with better precision in all scenarios and pre-training configurations. Encouraged by these results, we 
+    
+[^5]: 使用循环模型的音频-乐谱检索的段落摘要
 
     Passage Summarization with Recurrent Models for Audio-Sheet Music Retrieval. (arXiv:2309.12111v1 [cs.SD])
 
@@ -81,7 +96,7 @@
 
     Many applications of cross-modal music retrieval are related to connecting sheet music images to audio recordings. A typical and recent approach to this is to learn, via deep neural networks, a joint embedding space that correlates short fixed-size snippets of audio and sheet music by means of an appropriate similarity structure. However, two challenges that arise out of this strategy are the requirement of strongly aligned data to train the networks, and the inherent discrepancies of musical content between audio and sheet music snippets caused by local and global tempo differences. In this paper, we address these two shortcomings by designing a cross-modal recurrent network that learns joint embeddings that can summarize longer passages of corresponding audio and sheet music. The benefits of our method are that it only requires weakly aligned audio-sheet music pairs, as well as that the recurrent network handles the non-linearities caused by tempo variations between audio and sheet m
     
-[^5]: 揭示最佳可持续发展目标路径：利用图剪枝和意图图进行有效推荐的创新方法
+[^6]: 揭示最佳可持续发展目标路径：利用图剪枝和意图图进行有效推荐的创新方法
 
     Unveiling Optimal SDG Pathways: An Innovative Approach Leveraging Graph Pruning and Intent Graph for Effective Recommendations. (arXiv:2309.11741v1 [cs.IR])
 
@@ -95,7 +110,7 @@
 
     The recommendation of appropriate development pathways, also known as ecological civilization patterns for achieving Sustainable Development Goals (namely, sustainable development patterns), are of utmost importance for promoting ecological, economic, social, and resource sustainability in a specific region. To achieve this, the recommendation process must carefully consider the region's natural, environmental, resource, and economic characteristics. However, current recommendation algorithms in the field of computer science fall short in adequately addressing the spatial heterogeneity related to environment and sparsity of regional historical interaction data, which limits their effectiveness in recommending sustainable development patterns. To overcome these challenges, this paper proposes a method called User Graph after Pruning and Intent Graph (UGPIG). Firstly, we utilize the high-density linking capability of the pruned User Graph to address the issue of spatial heterogeneity neg
     
-[^6]: 用于评估Top-N推荐的候选集抽样方法
+[^7]: 用于评估Top-N推荐的候选集抽样方法
 
     Candidate Set Sampling for Evaluating Top-N Recommendation. (arXiv:2309.11723v1 [cs.IR])
 
@@ -109,7 +124,7 @@
 
     The strategy for selecting candidate sets -- the set of items that the recommendation system is expected to rank for each user -- is an important decision in carrying out an offline top-$N$ recommender system evaluation. The set of candidates is composed of the union of the user's test items and an arbitrary number of non-relevant items that we refer to as decoys. Previous studies have aimed to understand the effect of different candidate set sizes and selection strategies on evaluation. In this paper, we extend this knowledge by studying the specific interaction of candidate set selection strategies with popularity bias, and use simulation to assess whether sampled candidate sets result in metric estimates that are less biased with respect to the true metric values under complete data that is typically unavailable in ordinary experiments.
     
-[^7]: SE-PEF:一个用于个性化专家查找的资源
+[^8]: SE-PEF:一个用于个性化专家查找的资源
 
     SE-PEF: a Resource for Personalized Expert Finding. (arXiv:2309.11686v1 [cs.IR])
 
@@ -123,7 +138,7 @@
 
     The problem of personalization in Information Retrieval has been under study for a long time. A well-known issue related to this task is the lack of publicly available datasets that can support a comparative evaluation of personalized search systems. To contribute in this respect, this paper introduces SE-PEF (StackExchange - Personalized Expert Finding), a resource useful for designing and evaluating personalized models related to the task of Expert Finding (EF). The contributed dataset includes more than 250k queries and 565k answers from 3 306 experts, which are annotated with a rich set of features modeling the social interactions among the users of a popular cQA platform. The results of the preliminary experiments conducted show the appropriateness of SE-PEF to evaluate and to train effective EF models.
     
-[^8]: 本文研究了本地音乐推荐中的流行度衰减偏差问题
+[^9]: 本文研究了本地音乐推荐中的流行度衰减偏差问题
 
     Popularity Degradation Bias in Local Music Recommendation. (arXiv:2309.11671v1 [cs.IR])
 
@@ -137,7 +152,7 @@
 
     In this paper, we study the effect of popularity degradation bias in the context of local music recommendations. Specifically, we examine how accurate two top-performing recommendation algorithms, Weight Relevance Matrix Factorization (WRMF) and Multinomial Variational Autoencoder (Mult-VAE), are at recommending artists as a function of artist popularity. We find that both algorithms improve recommendation performance for more popular artists and, as such, exhibit popularity degradation bias. While both algorithms produce a similar level of performance for more popular artists, Mult-VAE shows better relative performance for less popular artists. This suggests that this algorithm should be preferred for local (long-tail) music artist recommendation.
     
-[^9]: 利用自注意力机制对连续音乐推荐进行负面信号的利用
+[^10]: 利用自注意力机制对连续音乐推荐进行负面信号的利用
 
     Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation. (arXiv:2309.11623v1 [cs.IR])
 
@@ -151,7 +166,7 @@
 
     Music streaming services heavily rely on their recommendation engines to continuously provide content to their consumers. Sequential recommendation consequently has seen considerable attention in current literature, where state of the art approaches focus on self-attentive models leveraging contextual information such as long and short-term user history and item features; however, most of these studies focus on long-form content domains (retail, movie, etc.) rather than short-form, such as music. Additionally, many do not explore incorporating negative session-level feedback during training. In this study, we investigate the use of transformer-based self-attentive architectures to learn implicit session-level information for sequential music recommendation. We additionally propose a contrastive learning task to incorporate negative feedback (e.g skipped tracks) to promote positive hits and penalize negative hits. This task is formulated as a simple loss term that can be incorporated in
     
-[^10]: TrueLearn: 一种用于个性化信息推荐的Python库（带有（隐式）反馈）
+[^11]: TrueLearn: 一种用于个性化信息推荐的Python库（带有（隐式）反馈）
 
     TrueLearn: A Python Library for Personalised Informational Recommendations with (Implicit) Feedback. (arXiv:2309.11527v1 [cs.IR])
 
@@ -165,7 +180,7 @@
 
     This work describes the TrueLearn Python library, which contains a family of online learning Bayesian models for building educational (or more generally, informational) recommendation systems. This family of models was designed following the "open learner" concept, using humanly-intuitive user representations. For the sake of interpretability and putting the user in control, the TrueLearn library also contains different representations to help end-users visualise the learner models, which may in the future facilitate user interaction with their own models. Together with the library, we include a previously publicly released implicit feedback educational dataset with evaluation metrics to measure the performance of the models. The extensive documentation and coding examples make the library highly accessible to both machine learning developers and educational data mining and learning analytic practitioners. The library and the support documentation with examples are available at https:/
     
-[^11]: 在内容市场中的离线学习下的广告负载平衡
+[^12]: 在内容市场中的离线学习下的广告负载平衡
 
     Ad-load Balancing via Off-policy Learning in a Content Marketplace. (arXiv:2309.11518v1 [cs.IR])
 
@@ -179,7 +194,7 @@
 
     Ad-load balancing is a critical challenge in online advertising systems, particularly in the context of social media platforms, where the goal is to maximize user engagement and revenue while maintaining a satisfactory user experience. This requires the optimization of conflicting objectives, such as user satisfaction and ads revenue. Traditional approaches to ad-load balancing rely on static allocation policies, which fail to adapt to changing user preferences and contextual factors. In this paper, we present an approach that leverages off-policy learning and evaluation from logged bandit feedback. We start by presenting a motivating analysis of the ad-load balancing problem, highlighting the conflicting objectives between user satisfaction and ads revenue. We emphasize the nuances that arise due to user heterogeneity and the dependence on the user's position within a session. Based on this analysis, we define the problem as determining the optimal ad-load for a particular feed fetch.
     
-[^12]: 具有公共项目特征的私有矩阵分解
+[^13]: 具有公共项目特征的私有矩阵分解
 
     Private Matrix Factorization with Public Item Features. (arXiv:2309.11516v1 [cs.IR])
 
@@ -193,7 +208,7 @@
 
     We consider the problem of training private recommendation models with access to public item features. Training with Differential Privacy (DP) offers strong privacy guarantees, at the expense of loss in recommendation quality. We show that incorporating public item features during training can help mitigate this loss in quality. We propose a general approach based on collective matrix factorization (CMF), that works by simultaneously factorizing two matrices: the user feedback matrix (representing sensitive data) and an item feature matrix that encodes publicly available (non-sensitive) item information.  The method is conceptually simple, easy to tune, and highly scalable. It can be applied to different types of public item data, including: (1) categorical item features; (2) item-item similarities learned from public sources; and (3) publicly available user feedback. Furthermore, these data modalities can be collectively utilized to fully leverage public data.  Evaluating our method o
     
-[^13]: 运用噪声图神经网络方法实现差分隐私的顺序推荐研究
+[^14]: 运用噪声图神经网络方法实现差分隐私的顺序推荐研究
 
     Towards Differential Privacy in Sequential Recommendation: A Noisy Graph Neural Network Approach. (arXiv:2309.11515v1 [cs.CR])
 
@@ -207,7 +222,7 @@
 
     With increasing frequency of high-profile privacy breaches in various online platforms, users are becoming more concerned about their privacy. And recommender system is the core component of online platforms for providing personalized service, consequently, its privacy preservation has attracted great attention. As the gold standard of privacy protection, differential privacy has been widely adopted to preserve privacy in recommender systems. However, existing differentially private recommender systems only consider static and independent interactions, so they cannot apply to sequential recommendation where behaviors are dynamic and dependent. Meanwhile, little attention has been paid on the privacy risk of sensitive user features, most of them only protect user feedbacks. In this work, we propose a novel DIfferentially Private Sequential recommendation framework with a noisy Graph Neural Network approach (denoted as DIPSGNN) to address these limitations. To the best of our knowledge, 
     
-[^14]: 何时算是基础模型？（arXiv:2309.11510v1 [cs.IR]）
+[^15]: 何时算是基础模型？（arXiv:2309.11510v1 [cs.IR]）
 
     When is a Foundation Model a Foundation Model. (arXiv:2309.11510v1 [cs.IR])
 
@@ -221,7 +236,7 @@
 
     Recently, several studies have reported on the fine-tuning of foundation models for image-text modeling in the field of medicine, utilizing images from online data sources such as Twitter and PubMed. Foundation models are large, deep artificial neural networks capable of learning the context of a specific domain through training on exceptionally extensive datasets. Through validation, we have observed that the representations generated by such models exhibit inferior performance in retrieval tasks within digital pathology when compared to those generated by significantly smaller, conventional deep networks.
     
-[^15]: AdBooster：使用稳定扩散外景生成的个性化广告创意生成
+[^16]: AdBooster：使用稳定扩散外景生成的个性化广告创意生成
 
     AdBooster: Personalized Ad Creative Generation using Stable Diffusion Outpainting. (arXiv:2309.11507v1 [cs.IR])
 
@@ -235,7 +250,7 @@
 
     In digital advertising, the selection of the optimal item (recommendation) and its best creative presentation (creative optimization) have traditionally been considered separate disciplines. However, both contribute significantly to user satisfaction, underpinning our assumption that it relies on both an item's relevance and its presentation, particularly in the case of visual creatives. In response, we introduce the task of {\itshape Generative Creative Optimization (GCO)}, which proposes the use of generative models for creative generation that incorporate user interests, and {\itshape AdBooster}, a model for personalized ad creatives based on the Stable Diffusion outpainting architecture. This model uniquely incorporates user interests both during fine-tuning and at generation time. To further improve AdBooster's performance, we also introduce an automated data augmentation pipeline. Through our experiments on simulated data, we validate AdBooster's effectiveness in generating more 
     
-[^16]: 使用大型语言模型将表元数据与业务词汇匹配
+[^17]: 使用大型语言模型将表元数据与业务词汇匹配
 
     Matching Table Metadata with Business Glossaries Using Large Language Models. (arXiv:2309.11506v1 [cs.IR])
 
@@ -249,7 +264,7 @@
 
     Enterprises often own large collections of structured data in the form of large databases or an enterprise data lake. Such data collections come with limited metadata and strict access policies that could limit access to the data contents and, therefore, limit the application of classic retrieval and analysis solutions. As a result, there is a need for solutions that can effectively utilize the available metadata. In this paper, we study the problem of matching table metadata to a business glossary containing data labels and descriptions. The resulting matching enables the use of an available or curated business glossary for retrieval and analysis without or before requesting access to the data contents. One solution to this problem is to use manually-defined rules or similarity measures on column names and glossary descriptions (or their vector embeddings) to find the closest match. However, such approaches need to be tuned through manual labeling and cannot handle many business gloss
     
-[^17]: 公平性与个性化：迈向认知效用的公正
+[^18]: 公平性与个性化：迈向认知效用的公正
 
     Fairness Vs. Personalization: Towards Equity in Epistemic Utility. (arXiv:2309.11503v1 [cs.IR])
 
@@ -263,7 +278,7 @@
 
     The applications of personalized recommender systems are rapidly expanding: encompassing social media, online shopping, search engine results, and more. These systems offer a more efficient way to navigate the vast array of items available. However, alongside this growth, there has been increased recognition of the potential for algorithmic systems to exhibit and perpetuate biases, risking unfairness in personalized domains. In this work, we explicate the inherent tension between personalization and conventional implementations of fairness. As an alternative, we propose equity to achieve fairness in the context of epistemic utility. We provide a mapping between goals and practical implementations and detail policy recommendations across key stakeholders to forge a path towards achieving fairness in personalized systems.
     
-[^18]: Drifter: 大规模推荐系统中高效的在线特征监控以提高数据完整性
+[^19]: Drifter: 大规模推荐系统中高效的在线特征监控以提高数据完整性
 
     Drifter: Efficient Online Feature Monitoring for Improved Data Integrity in Large-Scale Recommendation Systems. (arXiv:2309.08617v1 [cs.IR])
 
@@ -277,7 +292,7 @@
 
     Real-world production systems often grapple with maintaining data quality in large-scale, dynamic streams. We introduce Drifter, an efficient and lightweight system for online feature monitoring and verification in recommendation use cases. Drifter addresses limitations of existing methods by delivering agile, responsive, and adaptable data quality monitoring, enabling real-time root cause analysis, drift detection and insights into problematic production events. Integrating state-of-the-art online feature ranking for sparse data and anomaly detection ideas, Drifter is highly scalable and resource-efficient, requiring only two threads and less than a gigabyte of RAM per production deployments that handle millions of instances per minute. Evaluation on real-world data sets demonstrates Drifter's effectiveness in alerting and mitigating data quality issues, substantially improving reliability and performance of real-time live recommender systems.
     
-[^19]: PubMed及其他：生物医学文献检索的最新进展和最佳实践
+[^20]: PubMed及其他：生物医学文献检索的最新进展和最佳实践
 
     PubMed and Beyond: Recent Advances and Best Practices in Biomedical Literature Search. (arXiv:2307.09683v1 [cs.IR])
 
@@ -291,7 +306,7 @@
 
     Biomedical research yields a wealth of information, much of which is only accessible through the literature. Consequently, literature search is an essential tool for building on prior knowledge in clinical and biomedical research. Although recent improvements in artificial intelligence have expanded functionality beyond keyword-based search, these advances may be unfamiliar to clinicians and researchers. In response, we present a survey of literature search tools tailored to both general and specific information needs in biomedicine, with the objective of helping readers efficiently fulfill their information needs. We first examine the widely used PubMed search engine, discussing recent improvements and continued challenges. We then describe literature search tools catering to five specific information needs: 1. Identifying high-quality clinical research for evidence-based medicine. 2. Retrieving gene-related information for precision medicine and genomics. 3. Searching by meaning, inc
     
-[^20]: 智慧医疗中的多模态融合:从数据、信息、知识到智慧之旅
+[^21]: 智慧医疗中的多模态融合:从数据、信息、知识到智慧之旅
 
     Multimodality Fusion for Smart Healthcare: a Journey from Data, Information, Knowledge to Wisdom. (arXiv:2306.11963v1 [cs.IR])
 
