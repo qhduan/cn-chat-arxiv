@@ -3,16 +3,17 @@
 | Ref | Title | Summary |
 | --- | --- | --- |
 | [^1] | [The Micro-Aggregated Profit Share.](http://arxiv.org/abs/2309.12945) | 自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。 |
-| [^2] | [How Automated Market Makers Approach the Thin Market Problem in Cryptoeocnomic Systems.](http://arxiv.org/abs/2309.12818) | 本研究旨在通过合适的自动市场制造商设计来解决加密经济系统中薄弱市场问题，提供了一个展示自动市场制造商设计特性的分类法，并设计了实施解决薄弱市场问题的典型。 |
-| [^3] | [Searching for Smurfs: Testing if Money Launderers Know Alert Thresholds.](http://arxiv.org/abs/2309.12704) | 本文提出了一种数据驱动的方法来检测洗钱者通过将大额交易分割成低于机密阈值的金额来规避检测，该方法在实际数据应用中未发现洗钱行为，为银行提供了一个免费且易于使用的工具。 |
-| [^4] | [A Problem of Finite-Horizon Optimal Switching and Stochastic Control for Utility Maximization.](http://arxiv.org/abs/2309.12588) | 本文研究了在有限时间内，经济主体面临退休日存在的情景下的效用最大化问题。主要创新是采用双鞅方法推导出双重问题，并通过研究抛物型变分不等式系统的解析性质，建立了对偶定理并特征化了最优切换工作。 |
-| [^5] | [Probability of Default modelling with L\'evy-driven Ornstein-Uhlenbeck processes and applications in credit risk under the IFRS 9.](http://arxiv.org/abs/2309.12384) | 本文通过使用L\'evy驱动的Ornstein-Uhlenbeck过程，建立了一个估计违约概率的框架，在该框架中，考虑了多个潜变量对过程演化的影响，从而满足了国际金融报告准则（IFRS）9的要求。 |
-| [^6] | [Decentralized Token Economy Theory (DeTEcT).](http://arxiv.org/abs/2309.12330) | 本文提出一种用于代币经济定价的开创性方法，通过模拟经济参与者之间的交互，实现经济内财富的分配。该方法为实现最佳代币分布的定价提供了机制，并确保经济动态的稳定性。该研究的动机是代币化的增加使用，特别是在金融基础设施中，设计代币经济正处于前沿。 |
-| [^7] | [The Rise and Fall of Cryptocurrencies: Defining the Economic and Social Values of Blockchain Technologies, assessing the Opportunities, and defining the Financial and Cybersecurity Risks of the Metaverse.](http://arxiv.org/abs/2309.12322) | 该论文研究了加密货币的基本工作原理和创建流程，探讨了区块链技术在元宇宙中的关键作用，以及投资、挖矿和交易加密货币的策略。研究还分析了机器学习在金融领域的潜力和风险评估方法，并评估了发达国家和发展中国家在这些技术中的潜在利益。 |
-| [^8] | [Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks.](http://arxiv.org/abs/2308.10568) | 我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。 |
-| [^9] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
-| [^10] | [Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems.](http://arxiv.org/abs/2201.10115) | 本研究主要探讨了保护差分隐私所引入的噪声对福利和公投制度的影响。我们发现福利和隐私、影响和隐私之间存在反比例关系。 |
-| [^11] | [Optimising Rolling Stock Planning including Maintenance with Constraint Programming and Quantum Annealing.](http://arxiv.org/abs/2109.07212) | 本文比较了约束编程和量子退火方法在优化机车编组分配与维护任务中的应用，并发现两种方法在当前发展阶段的量子退火机器上产生相当的结果。 |
+| [^2] | [EarnHFT: Efficient Hierarchical Reinforcement Learning for High Frequency Trading.](http://arxiv.org/abs/2309.12891) | EarnHFT是一个高效的层次化强化学习方法，应用于高频交易。它解决了HFT中长轨迹优化和评估困难以及加密货币价格波动的挑战。 |
+| [^3] | [How Automated Market Makers Approach the Thin Market Problem in Cryptoeocnomic Systems.](http://arxiv.org/abs/2309.12818) | 本研究旨在通过合适的自动市场制造商设计来解决加密经济系统中薄弱市场问题，提供了一个展示自动市场制造商设计特性的分类法，并设计了实施解决薄弱市场问题的典型。 |
+| [^4] | [Searching for Smurfs: Testing if Money Launderers Know Alert Thresholds.](http://arxiv.org/abs/2309.12704) | 本文提出了一种数据驱动的方法来检测洗钱者通过将大额交易分割成低于机密阈值的金额来规避检测，该方法在实际数据应用中未发现洗钱行为，为银行提供了一个免费且易于使用的工具。 |
+| [^5] | [A Problem of Finite-Horizon Optimal Switching and Stochastic Control for Utility Maximization.](http://arxiv.org/abs/2309.12588) | 本文研究了在有限时间内，经济主体面临退休日存在的情景下的效用最大化问题。主要创新是采用双鞅方法推导出双重问题，并通过研究抛物型变分不等式系统的解析性质，建立了对偶定理并特征化了最优切换工作。 |
+| [^6] | [Probability of Default modelling with L\'evy-driven Ornstein-Uhlenbeck processes and applications in credit risk under the IFRS 9.](http://arxiv.org/abs/2309.12384) | 本文通过使用L\'evy驱动的Ornstein-Uhlenbeck过程，建立了一个估计违约概率的框架，在该框架中，考虑了多个潜变量对过程演化的影响，从而满足了国际金融报告准则（IFRS）9的要求。 |
+| [^7] | [Decentralized Token Economy Theory (DeTEcT).](http://arxiv.org/abs/2309.12330) | 本文提出一种用于代币经济定价的开创性方法，通过模拟经济参与者之间的交互，实现经济内财富的分配。该方法为实现最佳代币分布的定价提供了机制，并确保经济动态的稳定性。该研究的动机是代币化的增加使用，特别是在金融基础设施中，设计代币经济正处于前沿。 |
+| [^8] | [The Rise and Fall of Cryptocurrencies: Defining the Economic and Social Values of Blockchain Technologies, assessing the Opportunities, and defining the Financial and Cybersecurity Risks of the Metaverse.](http://arxiv.org/abs/2309.12322) | 该论文研究了加密货币的基本工作原理和创建流程，探讨了区块链技术在元宇宙中的关键作用，以及投资、挖矿和交易加密货币的策略。研究还分析了机器学习在金融领域的潜力和风险评估方法，并评估了发达国家和发展中国家在这些技术中的潜在利益。 |
+| [^9] | [Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks.](http://arxiv.org/abs/2308.10568) | 我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。 |
+| [^10] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
+| [^11] | [Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems.](http://arxiv.org/abs/2201.10115) | 本研究主要探讨了保护差分隐私所引入的噪声对福利和公投制度的影响。我们发现福利和隐私、影响和隐私之间存在反比例关系。 |
+| [^12] | [Optimising Rolling Stock Planning including Maintenance with Constraint Programming and Quantum Annealing.](http://arxiv.org/abs/2109.07212) | 本文比较了约束编程和量子退火方法在优化机车编组分配与维护任务中的应用，并发现两种方法在当前发展阶段的量子退火机器上产生相当的结果。 |
 
 # 详细
 
@@ -30,7 +31,21 @@
 
     How much has market power increased in the United States in the last fifty years? Using micro-level data from U.S. Compustat, we find that several indicators of market power have steadily increased since 1970. The aggregate markup has gone up from 10% of price over marginal cost in 1970 to 23% in 2020, and aggregate returns to scale have risen from 1.00 to 1.13. We connect these market-power indicators to profitability by showing that the aggregate profit share can be expressed in terms of the aggregate markup, aggregate returns to scale, and a sufficient statistic for production networks that captures double marginalization in the economy. We find that despite the rise in market power, the profit share has been constant at 18% of GDP because the increase in monopoly rents has been completely offset by rising fixed costs. Our empirical results have subtle implications for policymakers: overly aggressive enforcement of antitrust law could decrease firm dynamism and paradoxically lead to
     
-[^2]: 自动市场制造商在加密经济系统中解决薄弱市场问题的方法
+[^2]: EarnHFT: 高效的层次化强化学习应用于高频交易
+
+    EarnHFT: Efficient Hierarchical Reinforcement Learning for High Frequency Trading. (arXiv:2309.12891v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2309.12891](http://arxiv.org/abs/2309.12891)
+
+    EarnHFT是一个高效的层次化强化学习方法，应用于高频交易。它解决了HFT中长轨迹优化和评估困难以及加密货币价格波动的挑战。
+
+    
+
+    高频交易（HFT）使用计算机算法在短时间内（例如以秒为单位）进行交易决策，在加密货币市场（例如比特币）中被广泛应用。金融研究中的强化学习（RL）在许多量化交易任务上表现出色。然而，大多数方法集中在低频交易，例如日级别，不能直接应用于HFT，因为面临两个挑战。首先，HFT的RL涉及处理极长的轨迹（例如每月240万个步骤），难以优化和评估。其次，加密货币的剧烈价格波动和市场趋势变化使得现有算法无法保持令人满意的性能。为了解决这些挑战，我们提出了一种用于HFT的高效层次化强化学习方法EarnHFT，这是一个创新的三阶段层次化RL框架。
+
+    High-frequency trading (HFT) uses computer algorithms to make trading decisions in short time scales (e.g., second-level), which is widely used in the Cryptocurrency (Crypto) market (e.g., Bitcoin). Reinforcement learning (RL) in financial research has shown stellar performance on many quantitative trading tasks. However, most methods focus on low-frequency trading, e.g., day-level, which cannot be directly applied to HFT because of two challenges. First, RL for HFT involves dealing with extremely long trajectories (e.g., 2.4 million steps per month), which is hard to optimize and evaluate. Second, the dramatic price fluctuations and market trend changes of Crypto make existing algorithms fail to maintain satisfactory performance. To tackle these challenges, we propose an Efficient hieArchical Reinforcement learNing method for High Frequency Trading (EarnHFT), a novel three-stage hierarchical RL framework for HFT. In stage I, we compute a Q-teacher, i.e., the optimal action value based
+    
+[^3]: 自动市场制造商在加密经济系统中解决薄弱市场问题的方法
 
     How Automated Market Makers Approach the Thin Market Problem in Cryptoeocnomic Systems. (arXiv:2309.12818v1 [q-fin.TR])
 
@@ -44,7 +59,7 @@
 
     The proper design of automated market makers (AMMs) is crucial to enable the continuous trading of assets represented as digital tokens on markets of cryptoeconomic systems. Improperly designed AMMs can make such markets suffer from the thin market problem (TMP), which can cause cryptoeconomic systems to fail their purposes. We developed an AMM taxonomy that showcases AMM design characteristics. Based on the AMM taxonomy, we devised AMM archetypes implementing principal solution approaches for the TMP. The main purpose of this article is to support practitioners and researchers in tackling the TMP through proper AMM designs.
     
-[^3]: 寻找蓝精灵：测试洗钱者是否知道警报阈值
+[^4]: 寻找蓝精灵：测试洗钱者是否知道警报阈值
 
     Searching for Smurfs: Testing if Money Launderers Know Alert Thresholds. (arXiv:2309.12704v1 [econ.GN])
 
@@ -58,7 +73,7 @@
 
     To combat money laundering, banks raise and review alerts on transactions that exceed confidential thresholds. This paper presents a data-driven approach to detect smurfing, i.e., money launderers seeking to evade detection by breaking up large transactions into amounts under the secret thresholds. The approach utilizes the notion of a counterfactual distribution and relies on two assumptions: (i) smurfing is unfeasible for the very largest financial transactions and (ii) money launderers have incentives to make smurfed transactions close to the thresholds. Simulations suggest that the approach can detect smurfing when as little as 0.1-0.5\% of all bank transactions are subject to smurfing. An application to real data from a systemically important Danish bank finds no evidence of smurfing and, thus, no evidence of leaked confidential thresholds. An implementation of our approach will be available online, providing a free and easy-to-use tool for banks.
     
-[^4]: 有限时间内的最优切换和随机控制问题与效用最大化的研究
+[^5]: 有限时间内的最优切换和随机控制问题与效用最大化的研究
 
     A Problem of Finite-Horizon Optimal Switching and Stochastic Control for Utility Maximization. (arXiv:2309.12588v1 [math.OC])
 
@@ -72,7 +87,7 @@
 
     In this paper, we undertake an investigation into the utility maximization problem faced by an economic agent who possesses the option to switch jobs, within a scenario featuring the presence of a mandatory retirement date. The agent needs to consider not only optimal consumption and investment but also the decision regarding optimal job-switching. Therefore, the utility maximization encompasses features of both optimal switching and stochastic control within a finite horizon. To address this challenge, we employ a dual-martingale approach to derive the dual problem defined as a finite-horizon pure optimal switching problem. By applying a theory of the double obstacle problem with non-standard arguments, we examine the analytical properties of the system of parabolic variational inequalities arising from the optimal switching problem, including those of its two free boundaries. Based on these analytical properties, we establish a duality theorem and characterize the optimal job-switchi
     
-[^5]: 使用L\'evy驱动的Ornstein-Uhlenbeck过程进行违约概率建模及其在IFRS 9下的信用风险应用
+[^6]: 使用L\'evy驱动的Ornstein-Uhlenbeck过程进行违约概率建模及其在IFRS 9下的信用风险应用
 
     Probability of Default modelling with L\'evy-driven Ornstein-Uhlenbeck processes and applications in credit risk under the IFRS 9. (arXiv:2309.12384v1 [q-fin.RM])
 
@@ -86,7 +101,7 @@
 
     In this paper we develop a framework for estimating Probability of Default (PD) based on stochastic models governing an appropriate asset value processes. In particular, we build upon a L\'evy-driven Ornstein-Uhlenbeck process and consider a generalized model that incorporates multiple latent variables affecting the evolution of the process. We obtain an Integral Equation (IE) formulation for the corresponding PD as a function of the initial position of the asset value process and the time until maturity, from which we then prove that the PD function satisfies an appropriate Partial Integro-Differential Equation (PIDE). These representations allow us to show that appropriate weak (viscosity) as well as strong solutions exist, and develop subsequent numerical schemes for the estimation of the PD function. Such a framework is necessary under the newly introduced International Financial Reporting Standards (IFRS) 9 regulation, which has imposed further requirements on the sophistication a
     
-[^6]: 去中心化代币经济理论（DeTEcT）
+[^7]: 去中心化代币经济理论（DeTEcT）
 
     Decentralized Token Economy Theory (DeTEcT). (arXiv:2309.12330v1 [q-fin.GN])
 
@@ -100,7 +115,7 @@
 
     This paper presents a pioneering approach for token pricing in token economies for risk mitigation and economic stability. The paper proposes a framework for simulating interactions between economic participants that leads to the distribution of wealth within the economy. Using this framework, we define a mechanism for identifying prices that achieve optimal token distribution according to some metric and stability of economic dynamics. The motivation to study tokenomics theory is the increasing use of tokenization, specifically in financial infrastructures, where designing token economies is in the forefront. Tokenomics theory establishes a quantitative framework for token allocation amongst economic participants and implements the algorithmic regulatory controls mechanism that reacts to changes in economic conditions, much like a command economy. In our framework, we introduce a concept of tokenomic taxonomy where agents in the economy are categorized into agent types and interaction
     
-[^7]: 加密货币的兴衰：定义区块链技术的经济和社会价值，评估元宇宙的机遇，并确定金融和网络安全风险
+[^8]: 加密货币的兴衰：定义区块链技术的经济和社会价值，评估元宇宙的机遇，并确定金融和网络安全风险
 
     The Rise and Fall of Cryptocurrencies: Defining the Economic and Social Values of Blockchain Technologies, assessing the Opportunities, and defining the Financial and Cybersecurity Risks of the Metaverse. (arXiv:2309.12322v1 [cs.CY])
 
@@ -114,7 +129,7 @@
 
     This paper contextualises the common queries of "why is crypto crashing?" and "why is crypto down?", the research transcends beyond the frequent market fluctuations to unravel how cryptocurrencies fundamentally work and the step-by-step process on how to create a cryptocurrency.  The study examines blockchain technologies and their pivotal role in the evolving Metaverse, shedding light on topics such as how to invest in cryptocurrency, the mechanics behind crypto mining, and strategies to effectively buy and trade cryptocurrencies. Through an interdisciplinary approach, the research transitions from the fundamental principles of fintech investment strategies to the overarching implications of blockchain within the Metaverse. Alongside exploring machine learning potentials in financial sectors and risk assessment methodologies, the study critically assesses whether developed or developing nations are poised to reap greater benefits from these technologies. Moreover, it probes into both 
     
-[^8]: 对于存在信用、资金和反向风险的具有双边现金流的易损衍生品合约的分析估值
+[^9]: 对于存在信用、资金和反向风险的具有双边现金流的易损衍生品合约的分析估值
 
     Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks. (arXiv:2308.10568v1 [q-fin.PR])
 
@@ -128,7 +143,7 @@
 
     We study the problem of valuing a vulnerable derivative with bilateral cash flows between two counterparties in the presence of funding, credit and wrong-way risks, and derive a closed-form valuation formula for an at-the-money (ATM) forward contract as well as a second order approximation for the general case. We posit a model with heterogeneous interest rates and default occurrence and infer a Cauchy problem for the pre-default valuation function of the contract, which includes ab initio any counterparty risk - as opposed to calculating valuation adjustments collectively known as XVA. Under a specific funding policy which linearises the Cauchy problem, we obtain a generic probabilistic representation for the pre-default valuation (Theorem 1). We apply this general framework to the valuation of an equity forward and establish the contract can be expressed as a continuous portfolio of European options with suitably chosen strikes and expiries under a particular probability measure (The
     
-[^9]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
+[^10]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
 
     The Disagreement Dividend. (arXiv:2308.06607v1 [econ.GN])
 
@@ -142,7 +157,7 @@
 
     We study how disagreement influences the productive performance of a group in a simple repeated game with alternative production technologies and positive externalities. Players can disagree, i.e. hold different views about the characteristics and quality of the technologies. This disagreement has two main characteristics. First, different views lead to different technology and effort choices -- "optimistic" views justify higher effort than "skeptical" views. Second, views are resilient -- changed only if falsified by surprising evidence. When only one production technology is available, disagreement over its productivity (i) incentivizes the optimistic agent to work harder than when matched with a like-minded player; (ii) can reduce the effort of the skeptic agent. The first force lies at the core of what we call the "disagreement dividend." We show that if externalities are sufficiently strong, a team of like-minded optimists is outperformed -- in terms of expected output -- by a dis
     
-[^10]: 隐私诱导噪声对福利和公投制度影响的研究
+[^11]: 隐私诱导噪声对福利和公投制度影响的研究
 
     Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems. (arXiv:2201.10115v2 [cs.GT] UPDATED)
 
@@ -156,7 +171,7 @@
 
     Social choice functions help aggregate individual preferences while differentially private mechanisms provide formal privacy guarantees to release answers of queries operating on sensitive data. However, preserving differential privacy requires introducing noise to the system, and therefore may lead to undesired byproducts. Does an increase in the level of differential privacy for releasing the outputs of social choice functions increase or decrease the level of influence and welfare, and at what rate? In this paper, we mainly address this question in more precise terms in a referendum setting with two candidates when the celebrated randomized response mechanism is used. We show that there is an inversely-proportional relation between welfare and privacy, and also influence and privacy.
     
-[^11]: 优化包括维护在内的机车编组计划的约束编程与量子退火方法
+[^12]: 优化包括维护在内的机车编组计划的约束编程与量子退火方法
 
     Optimising Rolling Stock Planning including Maintenance with Constraint Programming and Quantum Annealing. (arXiv:2109.07212v2 [cs.AI] UPDATED)
 

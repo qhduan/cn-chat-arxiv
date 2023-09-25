@@ -1,0 +1,12 @@
+{
+    "title": "Education in the age of Generative AI: Context and Recent Developments. (arXiv:2309.12332v1 [cs.CY])",
+    "abstract": "With the emergence of generative artificial intelligence, an increasing number of individuals and organizations have begun exploring its potential to enhance productivity and improve product quality across various sectors. The field of education is no exception. However, it is vital to notice that artificial intelligence adoption in education dates back to the 1960s. In light of this historical context, this white paper serves as the inaugural piece in a four-part series that elucidates the role of AI in education. The series delves into topics such as its potential, successful applications, limitations, ethical considerations, and future trends. This initial article provides a comprehensive overview of the field, highlighting the recent developments within the generative artificial intelligence sphere.",
+    "link": "http://arxiv.org/abs/2309.12332",
+    "context": "Title: Education in the age of Generative AI: Context and Recent Developments. (arXiv:2309.12332v1 [cs.CY])\nAbstract: With the emergence of generative artificial intelligence, an increasing number of individuals and organizations have begun exploring its potential to enhance productivity and improve product quality across various sectors. The field of education is no exception. However, it is vital to notice that artificial intelligence adoption in education dates back to the 1960s. In light of this historical context, this white paper serves as the inaugural piece in a four-part series that elucidates the role of AI in education. The series delves into topics such as its potential, successful applications, limitations, ethical considerations, and future trends. This initial article provides a comprehensive overview of the field, highlighting the recent developments within the generative artificial intelligence sphere.",
+    "path": "papers/23/09/2309.12332.json",
+    "total_tokens": 747,
+    "translated_title": "在生成式人工智能时代的教育：背景与最新发展",
+    "translated_abstract": "随着生成式人工智能的出现，越来越多的个人和组织开始探索其在各个行业提升生产力和改善产品质量的潜力。教育领域也不例外。然而，值得注意的是，人工智能在教育领域的应用可以追溯到20世纪60年代。鉴于这个历史背景，本白皮书作为系列的首篇，阐明了人工智能在教育中的作用。该系列深入探讨了潜力、成功应用、局限性、伦理考虑和未来趋势等主题。该初始文章提供了该领域的全面概述，并突出了生成式人工智能领域的最新发展。",
+    "tldr": "本文总结了生成式人工智能在教育领域的发展，并讨论了其潜力、应用、限制、伦理等方面的问题。",
+    "en_tdlr": "This paper summarizes the developments of generative artificial intelligence in the field of education and discusses its potential, applications, limitations, and ethical aspects."
+}
