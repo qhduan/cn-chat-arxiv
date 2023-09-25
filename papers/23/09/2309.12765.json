@@ -1,0 +1,11 @@
+{
+    "title": "An Intelligent Approach to Detecting Novel Fault Classes for Centrifugal Pumps Based on Deep CNNs and Unsupervised Methods. (arXiv:2309.12765v1 [cs.LG])",
+    "abstract": "Despite the recent success in data-driven fault diagnosis of rotating machines, there are still remaining challenges in this field. Among the issues to be addressed, is the lack of information about variety of faults the system may encounter in the field. In this paper, we assume a partial knowledge of the system faults and use the corresponding data to train a convolutional neural network. A combination of t-SNE method and clustering techniques is then employed to detect novel faults. Upon detection, the network is augmented using the new data. Finally, a test setup is used to validate this two-stage methodology on a centrifugal pump and experimental results show high accuracy in detecting novel faults.",
+    "link": "http://arxiv.org/abs/2309.12765",
+    "context": "Title: An Intelligent Approach to Detecting Novel Fault Classes for Centrifugal Pumps Based on Deep CNNs and Unsupervised Methods. (arXiv:2309.12765v1 [cs.LG])\nAbstract: Despite the recent success in data-driven fault diagnosis of rotating machines, there are still remaining challenges in this field. Among the issues to be addressed, is the lack of information about variety of faults the system may encounter in the field. In this paper, we assume a partial knowledge of the system faults and use the corresponding data to train a convolutional neural network. A combination of t-SNE method and clustering techniques is then employed to detect novel faults. Upon detection, the network is augmented using the new data. Finally, a test setup is used to validate this two-stage methodology on a centrifugal pump and experimental results show high accuracy in detecting novel faults.",
+    "path": "papers/23/09/2309.12765.json",
+    "total_tokens": 850,
+    "translated_title": "基于深度卷积神经网络和无监督方法的离心泵新型故障类别智能检测方法",
+    "translated_abstract": "尽管近年来在基于数据驱动的旋转机器故障诊断方面取得了一定的成功，这一领域仍然存在一些挑战。其中一个问题是系统可能在现场遇到的各种故障缺乏信息。本文假设对系统故障具有部分知识，并利用相应数据训练了一个卷积神经网络。然后使用t-SNE方法和聚类技术的组合来检测新的故障。在检测到故障后，利用新数据增强网络。最后，利用一个离心泵的测试设置来验证这个两阶段的方法论，实验结果显示在检测新故障方面具有高准确性。",
+    "tldr": "本文提出了一种基于深度卷积神经网络和无监督方法的智能检测离心泵新型故障类别的方法，通过部分知识训练神经网络并使用t-SNE方法和聚类技术检测新故障，并通过新数据增强网络，实验证明该方法能够高准确性地检测新故障。"
+}

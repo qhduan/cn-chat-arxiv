@@ -1,0 +1,12 @@
+{
+    "title": "Rational Aversion to Information. (arXiv:2309.12374v1 [stat.OT])",
+    "abstract": "Is more information always better? Or are there some situations in which more information can make us worse off? Good (1966) argues that expected utility maximizers should always accept more information if the information is cost-free and relevant. But Good's argument presupposes that you are certain you will update by conditionalization. If we relax this assumption and allow agents to be uncertain about updating, these agents can be rationally required to reject free and relevant information. Since there are good reasons to be uncertain about updating, rationality can require you to prefer ignorance.",
+    "link": "http://arxiv.org/abs/2309.12374",
+    "context": "Title: Rational Aversion to Information. (arXiv:2309.12374v1 [stat.OT])\nAbstract: Is more information always better? Or are there some situations in which more information can make us worse off? Good (1966) argues that expected utility maximizers should always accept more information if the information is cost-free and relevant. But Good's argument presupposes that you are certain you will update by conditionalization. If we relax this assumption and allow agents to be uncertain about updating, these agents can be rationally required to reject free and relevant information. Since there are good reasons to be uncertain about updating, rationality can require you to prefer ignorance.",
+    "path": "papers/23/09/2309.12374.json",
+    "total_tokens": 619,
+    "translated_title": "对信息的理性厌恶",
+    "translated_abstract": "更多信息总是更好吗？还是有一些情况下，更多的信息可能会让我们变得更糟？Good（1966）认为，如果信息是免费和相关的，预期效用最大化者应该始终接受更多的信息。但Good的论点预设了您确定会通过条件化来更新。如果我们放宽这个假设，允许代理人对更新的不确定性，这些代理人可以理性地要求拒绝免费且相关的信息。由于有充分的理由对更新感到不确定，理性可能要求您更喜欢无知。",
+    "tldr": "有时候，更多信息并不一定更有利，当存在对更新的不确定性时，理性可能要求我们拒绝免费和相关的信息。",
+    "en_tdlr": "Sometimes, more information is not necessarily better, and rationality may require us to reject free and relevant information when there is uncertainty about updating."
+}

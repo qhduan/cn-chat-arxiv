@@ -1,0 +1,11 @@
+{
+    "title": "The Mathematical Game. (arXiv:2309.12711v1 [cs.AI])",
+    "abstract": "Monte Carlo Tree Search can be used for automated theorem proving. Holophrasm is a neural theorem prover using MCTS combined with neural networks for the policy and the evaluation. In this paper we propose to improve the performance of the Holophrasm theorem prover using other game tree search algorithms.",
+    "link": "http://arxiv.org/abs/2309.12711",
+    "context": "Title: The Mathematical Game. (arXiv:2309.12711v1 [cs.AI])\nAbstract: Monte Carlo Tree Search can be used for automated theorem proving. Holophrasm is a neural theorem prover using MCTS combined with neural networks for the policy and the evaluation. In this paper we propose to improve the performance of the Holophrasm theorem prover using other game tree search algorithms.",
+    "path": "papers/23/09/2309.12711.json",
+    "total_tokens": 455,
+    "translated_title": "数学游戏",
+    "translated_abstract": "蒙特卡洛树搜索可用于自动定理证明。Holophrasm是一个使用MCTS结合神经网络来进行策略和评估的神经定理证明器。本文提出使用其他游戏树搜索算法来改进Holophrasm定理证明器的性能。",
+    "tldr": "提出使用其他游戏树搜索算法来改进Holophrasm定理证明器的性能。"
+}

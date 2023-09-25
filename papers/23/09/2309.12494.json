@@ -1,0 +1,12 @@
+{
+    "title": "Evidential uncertainties on rich labels for active learning. (arXiv:2309.12494v1 [cs.LG])",
+    "abstract": "Recent research in active learning, and more precisely in uncertainty sampling, has focused on the decomposition of model uncertainty into reducible and irreducible uncertainties. In this paper, we propose to simplify the computational phase and remove the dependence on observations, but more importantly to take into account the uncertainty already present in the labels, \\emph{i.e.} the uncertainty of the oracles. Two strategies are proposed, sampling by Klir uncertainty, which addresses the exploration-exploitation problem, and sampling by evidential epistemic uncertainty, which extends the reducible uncertainty to the evidential framework, both using the theory of belief functions.",
+    "link": "http://arxiv.org/abs/2309.12494",
+    "context": "Title: Evidential uncertainties on rich labels for active learning. (arXiv:2309.12494v1 [cs.LG])\nAbstract: Recent research in active learning, and more precisely in uncertainty sampling, has focused on the decomposition of model uncertainty into reducible and irreducible uncertainties. In this paper, we propose to simplify the computational phase and remove the dependence on observations, but more importantly to take into account the uncertainty already present in the labels, \\emph{i.e.} the uncertainty of the oracles. Two strategies are proposed, sampling by Klir uncertainty, which addresses the exploration-exploitation problem, and sampling by evidential epistemic uncertainty, which extends the reducible uncertainty to the evidential framework, both using the theory of belief functions.",
+    "path": "papers/23/09/2309.12494.json",
+    "total_tokens": 719,
+    "translated_title": "有关富标签在主动学习中的证据不确定性",
+    "translated_abstract": "最近关于主动学习的研究，尤其是关于不确定采样的研究，主要集中在将模型不确定性分解为可降低和不可降低的不确定性上。在本文中，我们提出简化计算阶段，并消除对观察结果的依赖，更重要的是考虑标签中已经存在的不确定性，即答题者的不确定性。我们提出了两种策略，Klir不确定性采样和证据学派不确定性采样，这两种方法都使用了信任函数理论来解决探索-利用问题。",
+    "tldr": "本文提出了两种策略来应对主动学习中的不确定性问题，即采用Klir不确定性采样和证据学派不确定性采样，在考虑到标签中已存在的不确定性的基础上，对模型的不确定性进行分解和处理。",
+    "en_tdlr": "This paper introduces two strategies, Klir uncertainty sampling and evidential epistemic uncertainty sampling, to address uncertainties in active learning by decomposing and handling model uncertainties while taking into account the uncertainties already present in the labels."
+}

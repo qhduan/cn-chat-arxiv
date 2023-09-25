@@ -1,0 +1,12 @@
+{
+    "title": "A Case for AI Safety via Law. (arXiv:2309.12321v1 [cs.CY])",
+    "abstract": "How to make artificial intelligence (AI) systems safe and aligned with human values is an open research question. Proposed solutions tend toward relying on human intervention in uncertain situations, learning human values and intentions through training or observation, providing off-switches, implementing isolation or simulation environments, or extrapolating what people would want if they had more knowledge and more time to think. Law-based approaches--such as inspired by Isaac Asimov--have not been well regarded. This paper makes a case that effective legal systems are the best way to address AI safety. Law is defined as any rules that codify prohibitions and prescriptions applicable to particular agents in specified domains/contexts and includes processes for enacting, managing, enforcing, and litigating such rules.",
+    "link": "http://arxiv.org/abs/2309.12321",
+    "context": "Title: A Case for AI Safety via Law. (arXiv:2309.12321v1 [cs.CY])\nAbstract: How to make artificial intelligence (AI) systems safe and aligned with human values is an open research question. Proposed solutions tend toward relying on human intervention in uncertain situations, learning human values and intentions through training or observation, providing off-switches, implementing isolation or simulation environments, or extrapolating what people would want if they had more knowledge and more time to think. Law-based approaches--such as inspired by Isaac Asimov--have not been well regarded. This paper makes a case that effective legal systems are the best way to address AI safety. Law is defined as any rules that codify prohibitions and prescriptions applicable to particular agents in specified domains/contexts and includes processes for enacting, managing, enforcing, and litigating such rules.",
+    "path": "papers/23/09/2309.12321.json",
+    "total_tokens": 788,
+    "translated_title": "通过法律实现人工智能安全的理论支持",
+    "translated_abstract": "如何使人工智能（AI）系统安全并与人类价值观保持一致是一个开放的研究问题。提出的解决方案倾向于依靠人类在不确定情况下的干预，通过训练或观察来学习人类的价值观和意图，提供关闭开关，实施隔离或模拟环境，或推断如果人们有更多知识和时间来思考，他们会想要什么。以法律为基础的方法 - 如以艾萨克·阿西莫夫为灵感 - 并不被广泛看好。本文提出了一个观点，即有效的法律制度是解决人工智能安全问题的最佳途径。法律被定义为对适用于特定代理人在特定领域/情境中的禁止和规定进行编码的任何规则，并包括制定、管理、执行和诉讼此类规则的过程。",
+    "tldr": "本文主张通过法律制度来解决人工智能安全问题，认为法律是解决该问题的最佳途径。",
+    "en_tdlr": "This paper argues that effective legal systems are the best way to address AI safety, making a case for law-based approaches in solving this problem."
+}

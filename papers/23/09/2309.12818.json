@@ -1,0 +1,12 @@
+{
+    "title": "How Automated Market Makers Approach the Thin Market Problem in Cryptoeocnomic Systems. (arXiv:2309.12818v1 [q-fin.TR])",
+    "abstract": "The proper design of automated market makers (AMMs) is crucial to enable the continuous trading of assets represented as digital tokens on markets of cryptoeconomic systems. Improperly designed AMMs can make such markets suffer from the thin market problem (TMP), which can cause cryptoeconomic systems to fail their purposes. We developed an AMM taxonomy that showcases AMM design characteristics. Based on the AMM taxonomy, we devised AMM archetypes implementing principal solution approaches for the TMP. The main purpose of this article is to support practitioners and researchers in tackling the TMP through proper AMM designs.",
+    "link": "http://arxiv.org/abs/2309.12818",
+    "context": "Title: How Automated Market Makers Approach the Thin Market Problem in Cryptoeocnomic Systems. (arXiv:2309.12818v1 [q-fin.TR])\nAbstract: The proper design of automated market makers (AMMs) is crucial to enable the continuous trading of assets represented as digital tokens on markets of cryptoeconomic systems. Improperly designed AMMs can make such markets suffer from the thin market problem (TMP), which can cause cryptoeconomic systems to fail their purposes. We developed an AMM taxonomy that showcases AMM design characteristics. Based on the AMM taxonomy, we devised AMM archetypes implementing principal solution approaches for the TMP. The main purpose of this article is to support practitioners and researchers in tackling the TMP through proper AMM designs.",
+    "path": "papers/23/09/2309.12818.json",
+    "total_tokens": 727,
+    "translated_title": "自动市场制造商在加密经济系统中解决薄弱市场问题的方法",
+    "translated_abstract": "自动市场制造商（AMMs）的适当设计对于在加密经济系统的市场上使数字代币得以持续交易至关重要。设计不当的AMMs可能导致这些市场遭受薄弱市场问题（TMP），从而导致加密经济系统无法实现其目标。我们开发了一个AMM分类法展示AMM设计特性。基于该分类法，我们设计出了实施解决TMP的主要解决方案的AMM典型。本文的主要目的是通过合适的AMM设计来帮助从业人员和研究人员解决TMP问题。",
+    "tldr": "本研究旨在通过合适的自动市场制造商设计来解决加密经济系统中薄弱市场问题，提供了一个展示自动市场制造商设计特性的分类法，并设计了实施解决薄弱市场问题的典型。",
+    "en_tdlr": "This research aims to address the thin market problem in cryptoeconomic systems through proper design of automated market makers (AMMs). It provides an AMM taxonomy showcasing design characteristics and devises archetypes implementing solutions for the thin market problem."
+}

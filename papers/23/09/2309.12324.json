@@ -1,0 +1,11 @@
+{
+    "title": "Aviation Safety Risk Analysis and Flight Technology Assessment Issues. (arXiv:2309.12324v1 [cs.CY])",
+    "abstract": "This text highlights the significance of flight safety in China's civil aviation industry and emphasizes the need for comprehensive research. It focuses on two main areas: analyzing exceedance events and statistically evaluating non-exceedance data. The challenges of current approaches lie in insufficient cause analysis for exceedances. The proposed solutions involve data preprocessing, reliability assessment, quantifying flight control using neural networks, exploratory data analysis, flight personnel skill evaluation with machine learning, and establishing real-time automated warnings. These endeavors aim to enhance flight safety, personnel assessment, and warning mechanisms, contributing to a safer and more efficient civil aviation sector.",
+    "link": "http://arxiv.org/abs/2309.12324",
+    "context": "Title: Aviation Safety Risk Analysis and Flight Technology Assessment Issues. (arXiv:2309.12324v1 [cs.CY])\nAbstract: This text highlights the significance of flight safety in China's civil aviation industry and emphasizes the need for comprehensive research. It focuses on two main areas: analyzing exceedance events and statistically evaluating non-exceedance data. The challenges of current approaches lie in insufficient cause analysis for exceedances. The proposed solutions involve data preprocessing, reliability assessment, quantifying flight control using neural networks, exploratory data analysis, flight personnel skill evaluation with machine learning, and establishing real-time automated warnings. These endeavors aim to enhance flight safety, personnel assessment, and warning mechanisms, contributing to a safer and more efficient civil aviation sector.",
+    "path": "papers/23/09/2309.12324.json",
+    "total_tokens": 804,
+    "translated_title": "航空安全风险分析和飞行技术评估问题",
+    "translated_abstract": "本文重点强调了中国民航业中飞行安全的重要性，并强调了全面研究的必要性。它主要关注两个方面：分析超额事件和统计评估非超额数据。当前方法的挑战在于对超额事件不充分的原因分析。提出的解决方案包括数据预处理、可靠性评估、利用神经网络量化飞行控制、探索性数据分析、利用机器学习评估飞行人员技能和建立实时自动警报。这些努力旨在增强飞行安全、人员评估和警报机制，为更安全、更高效的民航业做出贡献。",
+    "tldr": "该论文研究了中国民航业中飞行安全的重要性，并提出了解决超额事件分析不充分原因的方法。通过数据处理、可靠性评估、神经网络飞行控制、数据分析、机器学习飞行人员评估和实时警报等手段，旨在提升航空安全、人员评估和警报机制。"
+}

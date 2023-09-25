@@ -1,0 +1,12 @@
+{
+    "title": "Vision Transformers for Computer Go. (arXiv:2309.12675v1 [cs.AI])",
+    "abstract": "Motivated by the success of transformers in various fields, such as language understanding and image analysis, this investigation explores their application in the context of the game of Go. In particular, our study focuses on the analysis of the Transformer in Vision. Through a detailed analysis of numerous points such as prediction accuracy, win rates, memory, speed, size, or even learning rate, we have been able to highlight the substantial role that transformers can play in the game of Go. This study was carried out by comparing them to the usual Residual Networks.",
+    "link": "http://arxiv.org/abs/2309.12675",
+    "context": "Title: Vision Transformers for Computer Go. (arXiv:2309.12675v1 [cs.AI])\nAbstract: Motivated by the success of transformers in various fields, such as language understanding and image analysis, this investigation explores their application in the context of the game of Go. In particular, our study focuses on the analysis of the Transformer in Vision. Through a detailed analysis of numerous points such as prediction accuracy, win rates, memory, speed, size, or even learning rate, we have been able to highlight the substantial role that transformers can play in the game of Go. This study was carried out by comparing them to the usual Residual Networks.",
+    "path": "papers/23/09/2309.12675.json",
+    "total_tokens": 654,
+    "translated_title": "计算机围棋的视觉Transformer",
+    "translated_abstract": "鉴于Transformer在语言理解和图像分析等领域的成功，本研究探讨了它们在围棋中的应用。特别是，我们的研究聚焦于Transformer在视觉中的分析。通过对预测准确性、胜率、内存、速度、大小甚至学习率等多个方面进行详细分析，我们成功地突出了Transformer在围棋中可以发挥的重要作用。本研究通过与传统的残差网络进行比较进行实施。",
+    "tldr": "本研究探索了视觉Transformer在围棋中的应用，并通过与传统的残差网络进行比较，从预测准确性、胜率、内存、速度等多个方面展示了其在围棋中的重要作用。",
+    "en_tdlr": "This study investigates the application of vision transformers in the game of Go, highlighting their significant role through comparison with traditional residual networks in terms of prediction accuracy, win rates, memory, and speed."
+}

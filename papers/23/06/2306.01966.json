@@ -1,0 +1,11 @@
+{
+    "title": "GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation. (arXiv:2306.01966v2 [cs.CL] UPDATED)",
+    "abstract": "We present GENTLE, a new mixed-genre English challenge corpus totaling 17K tokens and consisting of 8 unusual text types for out-of domain evaluation: dictionary entries, esports commentaries, legal documents, medical notes, poetry, mathematical proofs, syllabuses, and threat letters. GENTLE is manually annotated for a variety of popular NLP tasks, including syntactic dependency parsing, entity recognition, coreference resolution, and discourse parsing. We evaluate state-of-the-art NLP systems on GENTLE and find severe degradation for at least some genres in their performance on all tasks, which indicates GENTLE's utility as an evaluation dataset for NLP systems.",
+    "link": "http://arxiv.org/abs/2306.01966",
+    "context": "Title: GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation. (arXiv:2306.01966v2 [cs.CL] UPDATED)\nAbstract: We present GENTLE, a new mixed-genre English challenge corpus totaling 17K tokens and consisting of 8 unusual text types for out-of domain evaluation: dictionary entries, esports commentaries, legal documents, medical notes, poetry, mathematical proofs, syllabuses, and threat letters. GENTLE is manually annotated for a variety of popular NLP tasks, including syntactic dependency parsing, entity recognition, coreference resolution, and discourse parsing. We evaluate state-of-the-art NLP systems on GENTLE and find severe degradation for at least some genres in their performance on all tasks, which indicates GENTLE's utility as an evaluation dataset for NLP systems.",
+    "path": "papers/23/06/2306.01966.json",
+    "total_tokens": 835,
+    "translated_title": "GENTLE: 一个包含不同文体的多层次英文NLP和语言评估挑战数据集",
+    "translated_abstract": "我们介绍了GENTLE，一个新的混合文体的英文挑战语料库，共有17K个单词，包括8种非常规的文本类型，用于跨领域评估：字典条目、电子竞技评论、法律文件、医学笔记、诗歌、数学证明、教学大纲和威胁信函。GENTLE手动注释了多种流行的NLP任务，包括句法依赖分析、实体识别、指代消解和篇章分析。我们在GENTLE上评价了最先进的NLP系统，并发现其在所有任务中对某些文体的性能出现严重降低，这表明GENTLE作为NLP系统评估数据集的实用性。",
+    "tldr": "GENTLE是一个包含不同文体的英文NLP挑战数据集，对于各种NLP任务，包括句法依赖分析、实体识别、指代消解和篇章分析，最先进的NLP系统在某些文体上性能严重降低，这表明GENTLE在NLP系统评估中的实用性。"
+}

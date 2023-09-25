@@ -1,0 +1,12 @@
+{
+    "title": "Semantic similarity prediction is better than other semantic similarity measures. (arXiv:2309.12697v1 [cs.CL])",
+    "abstract": "Semantic similarity between natural language texts is typically measured either by looking at the overlap between subsequences (e.g., BLEU) or by using embeddings (e.g., BERTScore, S-BERT). Within this paper, we argue that when we are only interested in measuring the semantic similarity, it is better to directly predict the similarity using a fine-tuned model for such a task. Using a fine-tuned model for the STS-B from the GLUE benchmark, we define the STSScore approach and show that the resulting similarity is better aligned with our expectations on a robust semantic similarity measure than other approaches.",
+    "link": "http://arxiv.org/abs/2309.12697",
+    "context": "Title: Semantic similarity prediction is better than other semantic similarity measures. (arXiv:2309.12697v1 [cs.CL])\nAbstract: Semantic similarity between natural language texts is typically measured either by looking at the overlap between subsequences (e.g., BLEU) or by using embeddings (e.g., BERTScore, S-BERT). Within this paper, we argue that when we are only interested in measuring the semantic similarity, it is better to directly predict the similarity using a fine-tuned model for such a task. Using a fine-tuned model for the STS-B from the GLUE benchmark, we define the STSScore approach and show that the resulting similarity is better aligned with our expectations on a robust semantic similarity measure than other approaches.",
+    "path": "papers/23/09/2309.12697.json",
+    "total_tokens": 689,
+    "translated_title": "语义相似性预测优于其他语义相似性度量方法",
+    "translated_abstract": "自然语言文本之间的语义相似性通常通过检查子序列的重叠（例如BLEU）或使用嵌入（例如BERTScore，S-BERT）来衡量。在本文中，我们认为当我们仅对衡量语义相似性感兴趣时，直接使用经过微调的模型来预测相似性比其他方法更好。我们使用从GLUE基准测试中微调的STS-B模型，定义了STSScore方法，并且显示出所得到的相似性与我们对鲁棒的语义相似性度量的预期更加一致。",
+    "tldr": "本文提出了一种使用经过微调的模型直接预测语义相似性的方法，并将其与其他方法进行比较，结果表明所得到的相似性更加符合我们对鲁棒的语义相似性度量的预期。",
+    "en_tdlr": "This paper proposes a method of directly predicting semantic similarity using a fine-tuned model, and compares it with other approaches, showing that the resulting similarity is more aligned with our expectations for robust semantic similarity measurement."
+}

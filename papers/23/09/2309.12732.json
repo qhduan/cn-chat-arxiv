@@ -1,0 +1,12 @@
+{
+    "title": "OpenAi's GPT4 as coding assistant. (arXiv:2309.12732v1 [cs.AI])",
+    "abstract": "Lately, Large Language Models have been widely used in code generation. GPT4 is considered the most potent Large Language Model from Openai. In this paper, we examine GPT3.5 and GPT4 as coding assistants. More specifically, we have constructed appropriate tests to check whether the two systems can a) answer typical questions that can arise during the code development, b) produce reliable code, and c) contribute to code debugging. The test results are impressive. The performance of GPT4 is outstanding and signals an increase in the productivity of programmers and the reorganization of software development procedures based on these new tools.",
+    "link": "http://arxiv.org/abs/2309.12732",
+    "context": "Title: OpenAi's GPT4 as coding assistant. (arXiv:2309.12732v1 [cs.AI])\nAbstract: Lately, Large Language Models have been widely used in code generation. GPT4 is considered the most potent Large Language Model from Openai. In this paper, we examine GPT3.5 and GPT4 as coding assistants. More specifically, we have constructed appropriate tests to check whether the two systems can a) answer typical questions that can arise during the code development, b) produce reliable code, and c) contribute to code debugging. The test results are impressive. The performance of GPT4 is outstanding and signals an increase in the productivity of programmers and the reorganization of software development procedures based on these new tools.",
+    "path": "papers/23/09/2309.12732.json",
+    "total_tokens": 738,
+    "translated_title": "OpenAi的GPT4作为编码助手",
+    "translated_abstract": "最近，大型语言模型在代码生成方面被广泛使用。GPT4被认为是Openai最强大的大型语言模型。本文研究了GPT3.5和GPT4作为编码助手的能力。具体而言，我们构建了适当的测试来检查这两个系统是否能够a)回答在代码开发过程中可能出现的典型问题，b)生成可靠的代码，以及c)对代码调试做出贡献。测试结果令人印象深刻。GPT4的性能出色，预示着程序员的生产力提高以及基于这些新工具的软件开发程序的重新组织。",
+    "tldr": "本论文研究了OpenAi的GPT4作为编码助手的能力，通过测试发现其在回答问题、生成可靠代码和贡献代码调试方面表现出色。这表明GPT4能够提高程序员的生产力并重塑软件开发过程。",
+    "en_tdlr": "This paper examines the ability of OpenAi's GPT4 as a coding assistant and finds that it performs well in answering questions, generating reliable code, and contributing to code debugging. This suggests that GPT4 can enhance the productivity of programmers and reshape the software development process."
+}

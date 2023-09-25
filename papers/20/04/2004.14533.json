@@ -1,0 +1,12 @@
+{
+    "title": "Virus Dynamics with Behavioral Responses. (arXiv:2004.14533v5 [q-bio.PE] UPDATED)",
+    "abstract": "Motivated by epidemics such as COVID-19, we study the spread of a contagious disease when behavior responds to the disease's prevalence. We extend the SIR epidemiological model to include endogenous meeting rates. Individuals benefit from economic activity, but activity involves interactions with potentially infected individuals. The main focus is a theoretical analysis of contagion dynamics and behavioral responses to changes in risk. We obtain a simple condition for when public-health interventions or variants of a disease will have paradoxical effects on infection rates due to risk compensation. Behavioral responses are most likely to undermine public-health interventions near the peak of severe diseases.",
+    "link": "http://arxiv.org/abs/2004.14533",
+    "context": "Title: Virus Dynamics with Behavioral Responses. (arXiv:2004.14533v5 [q-bio.PE] UPDATED)\nAbstract: Motivated by epidemics such as COVID-19, we study the spread of a contagious disease when behavior responds to the disease's prevalence. We extend the SIR epidemiological model to include endogenous meeting rates. Individuals benefit from economic activity, but activity involves interactions with potentially infected individuals. The main focus is a theoretical analysis of contagion dynamics and behavioral responses to changes in risk. We obtain a simple condition for when public-health interventions or variants of a disease will have paradoxical effects on infection rates due to risk compensation. Behavioral responses are most likely to undermine public-health interventions near the peak of severe diseases.",
+    "path": "papers/20/04/2004.14533.json",
+    "total_tokens": 770,
+    "translated_title": "病毒动力学与行为响应",
+    "translated_abstract": "受COVID-19等流行病的启发，我们研究了当行为对疾病的普遍性作出响应时，传染病的传播。我们将SIR流行病学模型扩展为包括内生交会率。个体从经济活动中获益，但活动涉及与潜在感染者的互动。主要关注传染动力学和行为对风险变化的反应的理论分析。我们得出一个简单的条件，当公共卫生干预或疾病的变体因风险补偿而对感染率产生悖论效应时。在严重疾病高峰期附近，行为响应最有可能破坏公共卫生干预。",
+    "tldr": "该论文研究了当人们对传染病的普遍性作出行为响应时，病毒的传播动力学。研究发现，在严重疾病高峰期附近，行为响应最有可能破坏公共卫生干预措施。",
+    "en_tdlr": "This paper investigates virus dynamics when individuals respond behaviorally to the prevalence of a contagious disease. The study finds that behavioral responses are most likely to undermine public-health interventions near the peak of severe diseases."
+}

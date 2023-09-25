@@ -1,0 +1,11 @@
+{
+    "title": "Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems. (arXiv:2201.10115v2 [cs.GT] UPDATED)",
+    "abstract": "Social choice functions help aggregate individual preferences while differentially private mechanisms provide formal privacy guarantees to release answers of queries operating on sensitive data. However, preserving differential privacy requires introducing noise to the system, and therefore may lead to undesired byproducts. Does an increase in the level of differential privacy for releasing the outputs of social choice functions increase or decrease the level of influence and welfare, and at what rate? In this paper, we mainly address this question in more precise terms in a referendum setting with two candidates when the celebrated randomized response mechanism is used. We show that there is an inversely-proportional relation between welfare and privacy, and also influence and privacy.",
+    "link": "http://arxiv.org/abs/2201.10115",
+    "context": "Title: Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems. (arXiv:2201.10115v2 [cs.GT] UPDATED)\nAbstract: Social choice functions help aggregate individual preferences while differentially private mechanisms provide formal privacy guarantees to release answers of queries operating on sensitive data. However, preserving differential privacy requires introducing noise to the system, and therefore may lead to undesired byproducts. Does an increase in the level of differential privacy for releasing the outputs of social choice functions increase or decrease the level of influence and welfare, and at what rate? In this paper, we mainly address this question in more precise terms in a referendum setting with two candidates when the celebrated randomized response mechanism is used. We show that there is an inversely-proportional relation between welfare and privacy, and also influence and privacy.",
+    "path": "papers/22/01/2201.10115.json",
+    "total_tokens": 746,
+    "translated_title": "隐私诱导噪声对福利和公投制度影响的研究",
+    "translated_abstract": "社会选择函数帮助聚合个体偏好，而差分隐私机制在发布对敏感数据进行查询的答案时提供了正式的隐私保障。然而，保护差分隐私需要向系统引入噪声，因此可能会产生不希望的副作用。增加差分隐私级别是否会增加或减少发布社会选择函数输出的影响和福利水平？在本文中，我们主要在一个有两个候选人的公投设置中，以更精确的术语回答这个问题，使用著名的随机响应机制。我们展示了福利与隐私以及影响与隐私之间存在着反比例关系。",
+    "tldr": "本研究主要探讨了保护差分隐私所引入的噪声对福利和公投制度的影响。我们发现福利和隐私、影响和隐私之间存在反比例关系。"
+}

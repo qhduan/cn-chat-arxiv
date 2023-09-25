@@ -2,157 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal Conditional Inference in Adaptive Experiments.](http://arxiv.org/abs/2309.12162) | 我们研究了在自适应实验中进行条件推断的问题，证明了在没有进一步限制的情况下，仅使用最后一批结果进行推断是最优的；当实验的自适应方面是位置不变的时，我们还发现了额外的信息；在停止时间、分配概率和目标参数仅依赖于数据的多面体事件集合的情况下，我们推导出了计算可行且最优的条件推断程序。 |
-| [^2] | [Buyer-Optimal Algorithmic Consumption.](http://arxiv.org/abs/2309.12122) | 该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。 |
-| [^3] | [Techno-Economic Analysis of Synthetic Fuel Production from Existing Nuclear Power Plants across the United States.](http://arxiv.org/abs/2309.12085) | 该论文研究了利用现有核电站生产合成燃料的技术经济潜力，结果显示将合成燃料生产与核电站耦合可以提高核电站的盈利能力，为投资者带来可观的回报。 |
-| [^4] | [A detection analysis for temporal memory patterns at different time-scales.](http://arxiv.org/abs/2309.12034) | 本论文介绍了一种新颖的方法，通过分析事件序列的事件间隔分布，以揭示时间序列的依赖模式。该方法可以发现跨多个时间尺度的记忆模式，并提供了有价值的应用于经济学中的时间序列分析。 |
-| [^5] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
-| [^6] | [Common Agency with Non-Delegation or Imperfect Commitment.](http://arxiv.org/abs/2309.11595) | 在共同代理模型中，非委派契约或不完全承诺扩展了均衡结果的集合，并重新确立了广义菜单定理。 |
-| [^7] | [Generalised Covariances and Correlations.](http://arxiv.org/abs/2307.03594) | 该论文广义化了协方差的概念，并用其他统计函数替代了均值，构造了广义相关性来衡量随机变量之间的依赖关系。这些新的依赖度量具有有利的特性，可以用于显示整个依赖结构，并且可以取代传统的尾部依赖系数。 |
-| [^8] | [Foundations of self-progressive choice theories.](http://arxiv.org/abs/2212.13449) | 该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。 |
-| [^9] | [Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data.](http://arxiv.org/abs/2210.05115) | 本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。 |
-| [^10] | [Bias-Aware Inference in Fuzzy Regression Discontinuity Designs.](http://arxiv.org/abs/1906.04631) | 本文提出了一种新的置信区间方法，针对模糊设计中的回归不连续参数，该方法基于局部线性回归，并且明确考虑了可能的偏差。与常用的模糊回归不连续分析推断方法不同，该方法避免了"delta method"逼近问题，并在多种实际相关条件下都是有效的。 |
+| [^1] | [The Micro-Aggregated Profit Share.](http://arxiv.org/abs/2309.12945) | 自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。 |
+| [^2] | [Reduced-rank Envelope Vector Autoregressive Models.](http://arxiv.org/abs/2309.12902) | 本研究结合了包络模型和减秩VAR模型的思想，提出了一种新的简化版VAR模型，用于解决高维时间序列数据中的过度参数化问题和秩亏问题。 |
+| [^3] | [Searching for Smurfs: Testing if Money Launderers Know Alert Thresholds.](http://arxiv.org/abs/2309.12704) | 本文提出了一种数据驱动的方法来检测洗钱者通过将大额交易分割成低于机密阈值的金额来规避检测，该方法在实际数据应用中未发现洗钱行为，为银行提供了一个免费且易于使用的工具。 |
+| [^4] | [Rational Aversion to Information.](http://arxiv.org/abs/2309.12374) | 有时候，更多信息并不一定更有利，当存在对更新的不确定性时，理性可能要求我们拒绝免费和相关的信息。 |
+| [^5] | [Adaptive Neyman Allocation.](http://arxiv.org/abs/2309.08808) | 该论文介绍了一种自适应的Neyman分配方法，该方法能够根据不同阶段的观测来估计标准差，从而指导后续阶段的分组决策。 |
+| [^6] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
+| [^7] | [Nonlinearities in Macroeconomic Tail Risk through the Lens of Big Data Quantile Regressions.](http://arxiv.org/abs/2301.13604) | 本文使用大数据集和分位数回归模型来预测宏观经济尾部风险，发现非线性特征对于准确的预测至关重要，尤其在尾部。使用高斯过程来近似模型的非线性部分进一步提高了预测性能。 |
+| [^8] | [Observable Perfect Equilibrium.](http://arxiv.org/abs/2210.16506) | 本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。 |
+| [^9] | [Chi-Square Goodness-of-Fit Tests for Conditional Distributions.](http://arxiv.org/abs/2210.00624) | 本文提出了一种用于检查条件分布模型规范的 $\chi^2$ 拟合优度检验方法。通过对样本进行交叉分类，得到一个列联表，并使用分组数据的似然来计算检验统计量，从而检验期望频率是否符合模型限制。本文的创新点在于提出了可以控制每个单元格的观测次数的算法，实验表明该方法有效且准确。 |
+| [^10] | [Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems.](http://arxiv.org/abs/2201.10115) | 本研究主要探讨了保护差分隐私所引入的噪声对福利和公投制度的影响。我们发现福利和隐私、影响和隐私之间存在反比例关系。 |
+| [^11] | [Virus Dynamics with Behavioral Responses.](http://arxiv.org/abs/2004.14533) | 该论文研究了当人们对传染病的普遍性作出行为响应时，病毒的传播动力学。研究发现，在严重疾病高峰期附近，行为响应最有可能破坏公共卫生干预措施。 |
 
 # 详细
 
-[^1]: 自适应实验中的最优条件推断
+[^1]: 微观聚集的利润份额
 
-    Optimal Conditional Inference in Adaptive Experiments. (arXiv:2309.12162v1 [stat.ME])
+    The Micro-Aggregated Profit Share. (arXiv:2309.12945v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.12162](http://arxiv.org/abs/2309.12162)
+    [http://arxiv.org/abs/2309.12945](http://arxiv.org/abs/2309.12945)
 
-    我们研究了在自适应实验中进行条件推断的问题，证明了在没有进一步限制的情况下，仅使用最后一批结果进行推断是最优的；当实验的自适应方面是位置不变的时，我们还发现了额外的信息；在停止时间、分配概率和目标参数仅依赖于数据的多面体事件集合的情况下，我们推导出了计算可行且最优的条件推断程序。
-
-    
-
-    我们研究了批量赌徒实验，并考虑了在实现停止时间、分配概率和目标参数的条件下进行推断的问题，其中所有这些可能都是根据实验的最后一批信息进行自适应选择的。在没有对实验进行进一步限制的情况下，我们证明仅使用最后一批结果进行推断是最优的。当实验的自适应方面被认为是位置不变的，即当我们将所有批次-臂的平均值都向一个常数移动时，我们证明数据中还存在额外的信息，可以通过一个额外的批次-臂均值的线性函数来捕捉。在更严格的情况下，停止时间、分配概率和目标参数被认为仅依赖于数据通过一个多面体事件的集合，我们推导出了计算可行且最优的条件推断程序。
-
-    We study batched bandit experiments and consider the problem of inference conditional on the realized stopping time, assignment probabilities, and target parameter, where all of these may be chosen adaptively using information up to the last batch of the experiment. Absent further restrictions on the experiment, we show that inference using only the results of the last batch is optimal. When the adaptive aspects of the experiment are known to be location-invariant, in the sense that they are unchanged when we shift all batch-arm means by a constant, we show that there is additional information in the data, captured by one additional linear function of the batch-arm means. In the more restrictive case where the stopping time, assignment probabilities, and target parameter are known to depend on the data only through a collection of polyhedral events, we derive computationally tractable and optimal conditional inference procedures.
-    
-[^2]: 买方最优的算法消费模型分析
-
-    Buyer-Optimal Algorithmic Consumption. (arXiv:2309.12122v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.12122](http://arxiv.org/abs/2309.12122)
-
-    该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。
+    自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。
 
     
 
-    我们分析了一个双边交易模型，其中买方对产品的价值和卖方的成本是不确定的，卖方选择产品价格，并且基于其价值和价格通过算法推荐产品。我们描述了一个最大化买方预期收益的算法，并且表明在高价位下的最优算法过少推荐产品，在低价位下过多推荐。算法的精确性提高了最大均衡价格，可能提高卖方成本的所有价格，而告知卖方买方的价值则会导致均衡价格的均值保持扩散和买方收益的均值保持收缩。
+    在过去的五十年里，美国的市场权力增加了多少？利用美国Compustat的微观层面数据，我们发现自1970年以来，市场权力的几个指标逐渐增加。从1970年的价格与边际成本的10％增加到2020年的23％，并且规模回报率从1.00增加到1.13。我们将这些市场权力指标与盈利能力相联系，通过展示利润份额可以用总体加价、总体规模回报率和一个捕捉到经济中双重边际效益的生产网络的充分统计量来表示。尽管市场权力上升，但利润份额在GDP中保持18％不变，因为垄断租金的增加完全被不断上升的固定成本抵消了。我们的实证结果对政策制定者有微妙的影响：过于激进的反垄断执法可能会降低公司活力，反而导致
 
-    We analyze a bilateral trade model in which the buyer's value for the product and the seller's costs are uncertain, the seller chooses the product price, and the product is recommended by an algorithm based on its value and price. We characterize an algorithm that maximizes the buyer's expected payoff and show that the optimal algorithm underrecommends the product at high prices and overrecommends at low prices. Higher algorithm precision increases the maximal equilibrium price and may increase prices across all of the seller's costs, whereas informing the seller about the buyer's value results in a mean-preserving spread of equilibrium prices and a mean-preserving contraction of the buyer's payoff.
+    How much has market power increased in the United States in the last fifty years? Using micro-level data from U.S. Compustat, we find that several indicators of market power have steadily increased since 1970. The aggregate markup has gone up from 10% of price over marginal cost in 1970 to 23% in 2020, and aggregate returns to scale have risen from 1.00 to 1.13. We connect these market-power indicators to profitability by showing that the aggregate profit share can be expressed in terms of the aggregate markup, aggregate returns to scale, and a sufficient statistic for production networks that captures double marginalization in the economy. We find that despite the rise in market power, the profit share has been constant at 18% of GDP because the increase in monopoly rents has been completely offset by rising fixed costs. Our empirical results have subtle implications for policymakers: overly aggressive enforcement of antitrust law could decrease firm dynamism and paradoxically lead to
     
-[^3]: 美国现有核电站合成燃料生产的技术经济分析
+[^2]: 减秩包络向量自回归模型
 
-    Techno-Economic Analysis of Synthetic Fuel Production from Existing Nuclear Power Plants across the United States. (arXiv:2309.12085v1 [econ.GN])
+    Reduced-rank Envelope Vector Autoregressive Models. (arXiv:2309.12902v1 [stat.ME])
 
-    [http://arxiv.org/abs/2309.12085](http://arxiv.org/abs/2309.12085)
+    [http://arxiv.org/abs/2309.12902](http://arxiv.org/abs/2309.12902)
 
-    该论文研究了利用现有核电站生产合成燃料的技术经济潜力，结果显示将合成燃料生产与核电站耦合可以提高核电站的盈利能力，为投资者带来可观的回报。
-
-    
-
-    低碳合成燃料可以取代柴油和喷气燃料等传统燃料，有助于全球范围内实现交通领域的脱碳，但需要大规模的成本效益高的生产设施。与此同时，由于经济困难，核电站正在关闭：电力价格过低且不稳定，无法覆盖运营成本。利用现有核电站生产合成燃料可能阻止这些低碳资产的损失，同时大规模生产合成燃料，但目前尚无关于这种整合能源系统的技术经济分析。我们量化了在美国五个示例核电站与合成燃料生产过程耦合的技术经济潜力，以探究不同电力市场、二氧化碳资源的获取以及燃料市场的影响。将合成燃料生产与核电站耦合可以使核电站的盈利能力增加多达7.92亿美元（2020年），同时获得10％的投资回报率。
-
-    Low carbon synfuel can displace transport fossil fuels such as diesel and jet fuel and help achieve the decarbonization of the transportation sector at a global scale, but large-scale cost-effective production facilities are needed. Meanwhile, nuclear power plants are closing due to economic difficulties: electricity prices are too low and variable to cover their operational costs. Using existing nuclear power plants to produce synfuels might prevent loss of these low-carbon assets while producing synfuels at scale, but no technoeconomic analysis of this Integrated Energy System exist. We quantify the technoeconomic potential of coupling a synthetic fuel production process with five example nuclear power plants across the U.S. to explore the influence of different electricity markets, access to carbon dioxide sources, and fuel markets. Coupling synfuel production increases nuclear plant profitability by up to 792 million USD(2020) in addition to a 10 percent rate of return on investmen
-    
-[^4]: 在不同时间尺度上检测时间记忆模式的检测分析
-
-    A detection analysis for temporal memory patterns at different time-scales. (arXiv:2309.12034v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.12034](http://arxiv.org/abs/2309.12034)
-
-    本论文介绍了一种新颖的方法，通过分析事件序列的事件间隔分布，以揭示时间序列的依赖模式。该方法可以发现跨多个时间尺度的记忆模式，并提供了有价值的应用于经济学中的时间序列分析。
+    本研究结合了包络模型和减秩VAR模型的思想，提出了一种新的简化版VAR模型，用于解决高维时间序列数据中的过度参数化问题和秩亏问题。
 
     
 
-    本论文介绍了一种新颖的方法，利用延迟来揭示时间序列的依赖模式。通过分析事件序列的事件间隔分布，定制的统计检验可以检测到事件序列之间的记忆依赖关系。基于更新-老化性质的合成实验评估了观察者延迟对更新性质的影响。我们的检测方法可以发现跨多个时间尺度的记忆模式，强调了事件序列的概率结构超出了相关性。时间序列分析生成了统计检验和图形绘制，有助于检测不同时间尺度上事件之间的依赖模式。此外，该检验通过老化实验评估了更新假设，为经济学中的时间序列分析提供了有价值的应用。
+    标准的向量自回归(VAR)模型在高维时间序列数据中存在过度参数化问题，限制了可以纳入模型的变量和滞后阶数的数量。多元(多个)时间序列的减秩模型和包络VAR模型提供了解决VAR模型参数空间降维的方法。然而，这些方法在从复杂数据中提取相关信息时效率低下，因为它们无法区分相关和无关信息，或者在解决秩亏问题上效率低下。我们将包络模型的思想应用于减秩VAR模型中，以同时应对这些挑战，并提出了经典VAR模型的一种新的简化版本，称为减秩包络VAR模型。
 
-    This paper introduces a novel methodology that utilizes latency to unveil time-series dependence patterns. A customized statistical test detects memory dependence in event sequences by analyzing their inter-event time distributions. Synthetic experiments based on the renewal-aging property assess the impact of observer latency on the renewal property. Our test uncovers memory patterns across diverse time scales, emphasizing the event sequence's probability structure beyond correlations. The time series analysis produces a statistical test and graphical plots which helps to detect dependence patterns among events at different time-scales if any. Furthermore, the test evaluates the renewal assumption through aging experiments, offering valuable applications in time-series analysis within economics.
+    The standard vector autoregressive (VAR) models suffer from overparameterization which is a serious issue for high-dimensional time series data as it restricts the number of variables and lags that can be incorporated into the model. Several statistical methods, such as the reduced-rank model for multivariate (multiple) time series (Velu et al., 1986; Reinsel and Velu, 1998; Reinsel et al., 2022) and the Envelope VAR model (Wang and Ding, 2018), provide solutions for achieving dimension reduction of the parameter space of the VAR model. However, these methods can be inefficient in extracting relevant information from complex data, as they fail to distinguish between relevant and irrelevant information, or they are inefficient in addressing the rank deficiency problem. We put together the idea of envelope models into the reduced-rank VAR model to simultaneously tackle these challenges, and propose a new parsimonious version of the classical VAR model called the reduced-rank envelope VAR
     
-[^5]: AI自动化的爆炸性增长: 论证综述
+[^3]: 寻找蓝精灵：测试洗钱者是否知道警报阈值
 
-    Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
+    Searching for Smurfs: Testing if Money Launderers Know Alert Thresholds. (arXiv:2309.12704v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.11690](http://arxiv.org/abs/2309.11690)
+    [http://arxiv.org/abs/2309.12704](http://arxiv.org/abs/2309.12704)
 
-    AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。
-
-    
-
-    我们研究了大规模AI自动化是否能够使全球经济增长加速达到约一个数量级，类似于工业革命所带来的经济增长效应。我们确定了这种增长的三个主要驱动因素：1）AI“劳动力”的可扩展性使得规模递增再现，2）AI劳动力的快速扩张，以及3）在短时间内进行的快速自动化带来的产出大幅增加。在这个背景下，我们评估了九个反对论点，包括监管障碍、产能瓶颈、匹配问题和自动化的速度。我们暂时评估了这些论点，发现大多数都不太可能成为决定因素。我们得出结论认为，如果AI能够广泛替代人力劳动，爆炸性增长似乎是有可能的，但目前对这一说法的高度自信似乎是不合理的。关于AI监管响应的强度、生产中的物理瓶颈和AI的经济价值，仍然存在关键问题。
-
-    We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
-    
-[^6]: 具有非委派或不完全承诺的共同代理
-
-    Common Agency with Non-Delegation or Imperfect Commitment. (arXiv:2309.11595v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.11595](http://arxiv.org/abs/2309.11595)
-
-    在共同代理模型中，非委派契约或不完全承诺扩展了均衡结果的集合，并重新确立了广义菜单定理。
+    本文提出了一种数据驱动的方法来检测洗钱者通过将大额交易分割成低于机密阈值的金额来规避检测，该方法在实际数据应用中未发现洗钱行为，为银行提供了一个免费且易于使用的工具。
 
     
 
-    在传统契约理论中，我们通常假设两个条件：委派契约和完全承诺。虽然第二个假设要求较高，但第一个假设并不会减少广义性。遵循这一传统，当前的共同代理模型强加了委派契约和完全承诺。首先，我们证明非委派契约扩大了共同代理下的均衡结果。此外，共同代理的强大菜单定理（Peters（2001）和Martimort和Stole（2002））对于非委派契约或不完全承诺是不适用的。我们在这样的环境中确定了典型契约，并重新确立了广义菜单定理。在不完全承诺的情况下，我们对共同代理模型的结果与经典契约理论中Bester和Strausz（2001）以及Doval和Skreta（2012）的结果类似，重新确立了启示原理。
+    为了打击洗钱行为，银行会对超过机密阈值的交易发出警报并进行审核。本文提出了一种基于数据驱动的方法来检测smurfing，即洗钱者通过将大额交易分割成低于阈值的金额来规避检测。该方法利用反事实分布的概念，并依赖于两个假设：（一）对于最大的财务交易来说，smurfing是不可行的；（二）洗钱者有动机使smurfed交易接近阈值。模拟结果表明，该方法可以在仅有0.1-0.5%的银行交易涉及smurfing的情况下检测到smurfing。对于来自丹麦一家具有系统性重要性的银行的真实数据的应用没有发现smurfing的证据，因此没有发现机密阈值泄露的证据。本方法的实现将可在线上提供，为银行提供一个免费且易于使用的工具。
 
-    In classical contract theory, we usually impose two assumptions: delegated contracts and perfect commitment. While the second assumption is demanding, the first one suffers no loss of generality. Following this tradition, current common-agency models impose delegated contracts and perfect commitment. We first show that non-delegated contracts expand the set of equilibrium outcomes under common agency. Furthermore, the powerful menu theorem for common agency (Peters (2001) and Martimort and Stole (2002)}) fails for either non-delegated contracts or imperfect commitment. We identify canonical contracts in such environments, and re-establish generalized menu theorems. Given imperfect commitment, our results for common-agency models are analogous to those in Bester and Strausz (2001) and Doval and Skreta (2012) for the classical contract theory, which re-establish the revelation principle.
+    To combat money laundering, banks raise and review alerts on transactions that exceed confidential thresholds. This paper presents a data-driven approach to detect smurfing, i.e., money launderers seeking to evade detection by breaking up large transactions into amounts under the secret thresholds. The approach utilizes the notion of a counterfactual distribution and relies on two assumptions: (i) smurfing is unfeasible for the very largest financial transactions and (ii) money launderers have incentives to make smurfed transactions close to the thresholds. Simulations suggest that the approach can detect smurfing when as little as 0.1-0.5\% of all bank transactions are subject to smurfing. An application to real data from a systemically important Danish bank finds no evidence of smurfing and, thus, no evidence of leaked confidential thresholds. An implementation of our approach will be available online, providing a free and easy-to-use tool for banks.
     
-[^7]: 广义协方差和相关性
+[^4]: 对信息的理性厌恶
 
-    Generalised Covariances and Correlations. (arXiv:2307.03594v1 [stat.ME] CROSS LISTED)
+    Rational Aversion to Information. (arXiv:2309.12374v1 [stat.OT])
 
-    [http://arxiv.org/abs/2307.03594](http://arxiv.org/abs/2307.03594)
+    [http://arxiv.org/abs/2309.12374](http://arxiv.org/abs/2309.12374)
 
-    该论文广义化了协方差的概念，并用其他统计函数替代了均值，构造了广义相关性来衡量随机变量之间的依赖关系。这些新的依赖度量具有有利的特性，可以用于显示整个依赖结构，并且可以取代传统的尾部依赖系数。
-
-    
-
-    两个随机变量的协方差衡量它们相对于各自均值的联合偏差的平均值。我们通过用其他统计函数（如分位数、期望量、或阈值）替代均值来推广这个众所周知的度量。这些函数的偏差通过广义误差定义，通常由识别或矩函数引发。作为一种归一化的依赖度量，我们构造了广义相关性。通过用一种新颖的Fr\'echet-Hoeffding归一化替代常见的Cauchy-Schwarz归一化，我们获得了对于任何给定边缘分布，整个区间$[-1, 1]$的可达性。我们发现了这些新的依赖度量的有利特性。分位数和阈值相关性的家族产生了函数值分布相关性，显示了整个依赖结构。它们导致了尾部相关性，这可能应该取代尾部依赖系数。最后，我们构造了摘要协方差（corre）
-
-    The covariance of two random variables measures the average joint deviations from their respective means. We generalise this well-known measure by replacing the means with other statistical functionals such as quantiles, expectiles, or thresholds. Deviations from these functionals are defined via generalised errors, often induced by identification or moment functions. As a normalised measure of dependence, a generalised correlation is constructed. Replacing the common Cauchy-Schwarz normalisation by a novel Fr\'echet-Hoeffding normalisation, we obtain attainability of the entire interval $[-1, 1]$ for any given marginals. We uncover favourable properties of these new dependence measures. The families of quantile and threshold correlations give rise to function-valued distributional correlations, exhibiting the entire dependence structure. They lead to tail correlations, which should arguably supersede the coefficients of tail dependence. Finally, we construct summary covariances (corre
-    
-[^8]: 自我渐进选择理论的基础
-
-    Foundations of self-progressive choice theories. (arXiv:2212.13449v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2212.13449](http://arxiv.org/abs/2212.13449)
-
-    该论文讨论了自我渐进选择理论及其与代数结构和超模函数的等价性，并将分析扩展到普遍自我渐进的选择理论。
+    有时候，更多信息并不一定更有利，当存在对更新的不确定性时，理性可能要求我们拒绝免费和相关的信息。
 
     
 
-    考虑一个由许多代理人组成的群体，他们的选择行为可以根据给定的原始排序部分进行比较。在该群体中可接受的选择函数集合确定了一个选择理论。如果与理论一致的任何集体选择行为都可以表示为可比较的可接受选择函数上的概率分布，则该选择理论是自我渐进的。 我们证明了自我渐进选择理论和（i）称为格的众所周知的代数结构；（ii）特定领域内的超模函数的最大化者之间的等价性。我们将分析扩展到普遍自我渐进的选择理论，这些选择理论独立于原始排序给出了唯一的有序代表。
+    更多信息总是更好吗？还是有一些情况下，更多的信息可能会让我们变得更糟？Good（1966）认为，如果信息是免费和相关的，预期效用最大化者应该始终接受更多的信息。但Good的论点预设了您确定会通过条件化来更新。如果我们放宽这个假设，允许代理人对更新的不确定性，这些代理人可以理性地要求拒绝免费且相关的信息。由于有充分的理由对更新感到不确定，理性可能要求您更喜欢无知。
 
-    Consider a population of agents whose choice behaviors are partially comparable according to given primitive orderings. The set of choice functions admissible in the population specifies a choice theory. A choice theory is self-progressive if any aggregate choice behavior consistent with the theory is uniquely representable as a probability distribution over admissible choice functions that are comparable. We establish an equivalence between self-progressive choice theories and (i) well-known algebraic structures called lattices; (ii) the maximizers of supermodular functions over a specific domain of choice functions. We extend our analysis to universally self-progressive choice theories which render unique orderly representations independent of primitive orderings.
+    Is more information always better? Or are there some situations in which more information can make us worse off? Good (1966) argues that expected utility maximizers should always accept more information if the information is cost-free and relevant. But Good's argument presupposes that you are certain you will update by conditionalization. If we relax this assumption and allow agents to be uncertain about updating, these agents can be rationally required to reject free and relevant information. Since there are good reasons to be uncertain about updating, rationality can require you to prefer ignorance.
     
-[^9]: 未知组件数的对数正态分布混合模型的贝叶斯分析和组合数据的马尔可夫链蒙特卡洛方法
+[^5]: 自适应的Neyman分配
 
-    Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data. (arXiv:2210.05115v3 [econ.EM] UPDATED)
+    Adaptive Neyman Allocation. (arXiv:2309.08808v1 [stat.ME])
 
-    [http://arxiv.org/abs/2210.05115](http://arxiv.org/abs/2210.05115)
+    [http://arxiv.org/abs/2309.08808](http://arxiv.org/abs/2309.08808)
 
-    本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。
-
-    
-
-    本研究提出了一种可逆跳跃马尔可夫链蒙特卡洛方法，用于估计收入的对数正态分布混合模型的参数。通过使用模拟数据示例，我们检验了所提算法的性能以及基尼系数的后验分布的准确性。结果表明参数估计准确，即使考虑了不同的数据生成过程，后验分布仍接近真实分布。此外，基于更具吸引力的基尼系数的结果，我们还将该方法应用于来自日本的实际数据。实证案例表明日本在2020年存在两个子群，并且基尼系数的完整性得到了验证。
-
-    This study proposes a reversible jump Markov chain Monte Carlo method for estimating parameters of lognormal distribution mixtures for income. Using simulated data examples, we examined the proposed algorithm's performance and the accuracy of posterior distributions of the Gini coefficients. Results suggest that the parameters were estimated accurately. Therefore, the posterior distributions are close to the true distributions even when the different data generating process is accounted for. Moreover, promising results for Gini coefficients encouraged us to apply our method to real data from Japan. The empirical examples indicate two subgroups in Japan (2020) and the Gini coefficients' integrity.
-    
-[^10]: 在模糊回归不连续设计中的偏差感知推断
-
-    Bias-Aware Inference in Fuzzy Regression Discontinuity Designs. (arXiv:1906.04631v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/1906.04631](http://arxiv.org/abs/1906.04631)
-
-    本文提出了一种新的置信区间方法，针对模糊设计中的回归不连续参数，该方法基于局部线性回归，并且明确考虑了可能的偏差。与常用的模糊回归不连续分析推断方法不同，该方法避免了"delta method"逼近问题，并在多种实际相关条件下都是有效的。
+    该论文介绍了一种自适应的Neyman分配方法，该方法能够根据不同阶段的观测来估计标准差，从而指导后续阶段的分组决策。
 
     
 
-    我们针对模糊设计中的回归不连续参数提出了新的置信区间（CS），这些CS基于局部线性回归，并且在可能的偏差方面是感知的，即它们明确地考虑了可能的偏差。它们的构造与完全确定的工具变量模型中的Anderson-Rubin CS相似，从而避免了大多数常用的模糊回归不连续分析现有推断方法中依赖于"delta method"逼近的问题。我们的CS在具有强识别和连续运行变量的经典设置中与现有程序渐进等价。然而，由于其特殊构造，它们在许多实际相关条件下也是有效的，而现有方法可能会失败，例如离散运行变量、环形设计和弱识别设置。
+    在实验设计中，Neyman分配是指将受试者分配到处理组和对照组的做法，可能按照它们各自的标准差成比例地分配，其目标是最小化治疗效应估计器的方差。这种广泛认可的方法在处理组和对照组具有不同标准差的情况下增加了统计效力，这在社会实验、临床试验、市场研究和在线A/B测试中经常发生。然而，除非提前知道标准差，否则无法实施Neyman分配。幸运的是，上述应用的多阶段性质使得可以使用较早阶段的观测来估计标准差，进一步指导后续阶段的分配决策。在本文中，我们引入了一个竞争分析框架来研究这个多阶段实验设计问题。我们提出了一种简单的自适应Neyman分配方法。
 
-    We propose new confidence sets (CSs) for the regression discontinuity parameter in fuzzy designs. Our CSs are based on local linear regression, and are bias-aware, in the sense that they take possible bias explicitly into account. Their construction shares similarities with that of Anderson-Rubin CSs in exactly identified instrumental variable models, and thereby avoids issues with "delta method" approximations that underlie most commonly used existing inference methods for fuzzy regression discontinuity analysis. Our CSs are asymptotically equivalent to existing procedures in canonical settings with strong identification and a continuous running variable. However, due to their particular construction they are also valid under a wide range of empirically relevant conditions in which existing methods can fail, such as setups with discrete running variables, donut designs, and weak identification.
+    In experimental design, Neyman allocation refers to the practice of allocating subjects into treated and control groups, potentially in unequal numbers proportional to their respective standard deviations, with the objective of minimizing the variance of the treatment effect estimator. This widely recognized approach increases statistical power in scenarios where the treated and control groups have different standard deviations, as is often the case in social experiments, clinical trials, marketing research, and online A/B testing. However, Neyman allocation cannot be implemented unless the standard deviations are known in advance. Fortunately, the multi-stage nature of the aforementioned applications allows the use of earlier stage observations to estimate the standard deviations, which further guide allocation decisions in later stages. In this paper, we introduce a competitive analysis framework to study this multi-stage experimental design problem. We propose a simple adaptive Neym
+    
+[^6]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
+
+    The Disagreement Dividend. (arXiv:2308.06607v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.06607](http://arxiv.org/abs/2308.06607)
+
+    通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。
+
+    
+
+    我们研究了在一个带有替代生产技术和正外部性的简单重复博弈中，观点不同如何影响群体的生产绩效。参与者可以持有不同的观点，即对技术的特性和质量持有不同的看法。这种分歧有两个主要特点。首先，不同的观点会导致不同的技术和努力选择--“乐观”的观点会导致比“怀疑”的观点更高的努力程度。其次，观点是有韧性的--只有在出乎意料的证据证明其为错误时才会发生变化。当只有一种生产技术可用时，对其生产力的分歧(i)激励乐观主义者比与有类似观点的玩家匹配时更努力地工作；(ii)可以降低怀疑主义者的努力。第一个力量构成了我们所谓的“分歧红利”的核心。我们展示了如果外部性足够强，一个有类似观点的乐观主义者团队在预期产出方面会被一个具有分歧观点的团队在表现上超过。
+
+    We study how disagreement influences the productive performance of a group in a simple repeated game with alternative production technologies and positive externalities. Players can disagree, i.e. hold different views about the characteristics and quality of the technologies. This disagreement has two main characteristics. First, different views lead to different technology and effort choices -- "optimistic" views justify higher effort than "skeptical" views. Second, views are resilient -- changed only if falsified by surprising evidence. When only one production technology is available, disagreement over its productivity (i) incentivizes the optimistic agent to work harder than when matched with a like-minded player; (ii) can reduce the effort of the skeptic agent. The first force lies at the core of what we call the "disagreement dividend." We show that if externalities are sufficiently strong, a team of like-minded optimists is outperformed -- in terms of expected output -- by a dis
+    
+[^7]: 通过大数据分位数回归研究宏观经济尾部风险的非线性特征
+
+    Nonlinearities in Macroeconomic Tail Risk through the Lens of Big Data Quantile Regressions. (arXiv:2301.13604v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2301.13604](http://arxiv.org/abs/2301.13604)
+
+    本文使用大数据集和分位数回归模型来预测宏观经济尾部风险，发现非线性特征对于准确的预测至关重要，尤其在尾部。使用高斯过程来近似模型的非线性部分进一步提高了预测性能。
+
+    
+
+    建模和预测GDP的极端波动通常很困难，适当的协变量选择和/或非线性形式对于获得准确的预测至关重要。本文的重点是使用大数据集在分位数回归模型中预测美国GDP增长的条件分布。为了捕捉可能的非线性特征，我们包括了几种非线性规范。由此产生的模型将具有很高的维度，因此我们依赖于一组收缩先验。由于在此维度下Markov Chain Monte Carlo估计变慢，我们依赖于快速变分贝叶斯近似来估计系数和潜在状态的后验分布。我们发现我们提出的模型组合产生了准确的预测。这些改进在尾部特别明显。使用高斯过程来近似模型的非线性部分进一步改进了性能，尤其是在右尾部。
+
+    Modeling and predicting extreme movements in GDP is notoriously difficult and the selection of appropriate covariates and/or possible forms of nonlinearities are key in obtaining precise forecasts. In this paper, our focus is on using large datasets in quantile regression models to forecast the conditional distribution of US GDP growth. To capture possible non-linearities, we include several nonlinear specifications. The resulting models will be huge dimensional and we thus rely on a set of shrinkage priors. Since Markov Chain Monte Carlo estimation becomes slow in these dimensions, we rely on fast variational Bayes approximations to the posterior distribution of the coefficients and the latent states. We find that our proposed set of models produces precise forecasts. These gains are especially pronounced in the tails. Using Gaussian processes to approximate the nonlinear component of the model further improves the good performance, in particular in the right tail.
+    
+[^8]: 可观测完美均衡 (Observable Perfect Equilibrium)
+
+    Observable Perfect Equilibrium. (arXiv:2210.16506v5 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2210.16506](http://arxiv.org/abs/2210.16506)
+
+    本文提出一种新的博弈均衡概念——可观测完美均衡，在顺序不完全信息博弈中可以帮助创建真正的策略代理。这种均衡概念在公开观察的行动概率方面具有鲁棒性。
+
+    
+
+    尽管纳什均衡成为了博弈论的核心解决方案概念，许多重要的博弈包含多个纳什均衡，我们必须确定如何在其中选择，以创建真正的策略代理。为顺序不完全信息博弈提出了几个纳什均衡细化概念，其中最突出的是颤抖手完美均衡、拟完美均衡和最近提出的单侧拟完美均衡。这些概念对某些任意小的错误具有鲁棒性，并保证始终存在。但我们认为，对于发展顺序不完全信息博弈中强大的代理人，这些概念都不正确。我们为游戏树中提出了一种新的均衡概念——可观测完美均衡，在其中，解决方案在公开观察的行动概率方面具有鲁棒性（并不一定针对所有可能不可观察的行动概率具有鲁棒性）。
+
+    While Nash equilibrium has emerged as the central game-theoretic solution concept, many important games contain several Nash equilibria and we must determine how to select between them in order to create real strategic agents. Several Nash equilibrium refinement concepts have been proposed and studied for sequential imperfect-information games, the most prominent being trembling-hand perfect equilibrium, quasi-perfect equilibrium, and recently one-sided quasi-perfect equilibrium. These concepts are robust to certain arbitrarily small mistakes, and are guaranteed to always exist; however, we argue that neither of these is the correct concept for developing strong agents in sequential games of imperfect information. We define a new equilibrium refinement concept for extensive-form games called observable perfect equilibrium in which the solution is robust over trembles in publicly-observable action probabilities (not necessarily over all action probabilities that may not be observable by
+    
+[^9]: 条件分布的卡方拟合检验
+
+    Chi-Square Goodness-of-Fit Tests for Conditional Distributions. (arXiv:2210.00624v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.00624](http://arxiv.org/abs/2210.00624)
+
+    本文提出了一种用于检查条件分布模型规范的 $\chi^2$ 拟合优度检验方法。通过对样本进行交叉分类，得到一个列联表，并使用分组数据的似然来计算检验统计量，从而检验期望频率是否符合模型限制。本文的创新点在于提出了可以控制每个单元格的观测次数的算法，实验表明该方法有效且准确。
+
+    
+
+    本文提出了一种用于检查条件分布模型规范的 $\chi^2$ 拟合优度检验方法。该方法涉及将样本基于因变量和自变量的交叉分类划分为不同类别，得到一个列联表。该表的期望频率独立于模型中的参数，并且等于边际的乘积。使用分组数据的似然来计算检验统计量，以检验期望频率是否符合模型限制。还介绍了一个 Chernoff-Lehman 结果，使我们能够使用高效原始数据估计器导出 Wald 统计量的渐近分布。即使分区依赖于样本，检验统计量的渐近分布仍然保持不变。还开发了一个算法来控制每个单元格的观测次数。蒙特卡罗实验证明了该方法的优良性能。
+
+    This paper proposes $\chi^2$ goodness-of-fit tests for checking conditional distribution model's specifications. The method involves partitioning the sample into classes based on a cross-classification of the dependent and explanatory variables, resulting in a contingency table with expected frequencies that are independent of the parameters in the model and equal to the product of the marginals. Test statistics are computed using the trinity of tests, based on the likelihood of grouped data, to test whether the expected frequencies satisfy the model's restrictions. We also present a Chernoff-Lehman result that enables us to derive the asymptotic distribution of a Wald statistic using the efficient raw data estimator. The asymptotic distribution of the test statistics remains the same even when partitions are sample-dependent. An algorithm is developed to control the number of observations per cell. Monte Carlo experiments demonstrate the proposed tests' excellent size accuracy and goo
+    
+[^10]: 隐私诱导噪声对福利和公投制度影响的研究
+
+    Effects of Privacy-Inducing Noise on Welfare and Influence of Referendum Systems. (arXiv:2201.10115v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2201.10115](http://arxiv.org/abs/2201.10115)
+
+    本研究主要探讨了保护差分隐私所引入的噪声对福利和公投制度的影响。我们发现福利和隐私、影响和隐私之间存在反比例关系。
+
+    
+
+    社会选择函数帮助聚合个体偏好，而差分隐私机制在发布对敏感数据进行查询的答案时提供了正式的隐私保障。然而，保护差分隐私需要向系统引入噪声，因此可能会产生不希望的副作用。增加差分隐私级别是否会增加或减少发布社会选择函数输出的影响和福利水平？在本文中，我们主要在一个有两个候选人的公投设置中，以更精确的术语回答这个问题，使用著名的随机响应机制。我们展示了福利与隐私以及影响与隐私之间存在着反比例关系。
+
+    Social choice functions help aggregate individual preferences while differentially private mechanisms provide formal privacy guarantees to release answers of queries operating on sensitive data. However, preserving differential privacy requires introducing noise to the system, and therefore may lead to undesired byproducts. Does an increase in the level of differential privacy for releasing the outputs of social choice functions increase or decrease the level of influence and welfare, and at what rate? In this paper, we mainly address this question in more precise terms in a referendum setting with two candidates when the celebrated randomized response mechanism is used. We show that there is an inversely-proportional relation between welfare and privacy, and also influence and privacy.
+    
+[^11]: 病毒动力学与行为响应
+
+    Virus Dynamics with Behavioral Responses. (arXiv:2004.14533v5 [q-bio.PE] UPDATED)
+
+    [http://arxiv.org/abs/2004.14533](http://arxiv.org/abs/2004.14533)
+
+    该论文研究了当人们对传染病的普遍性作出行为响应时，病毒的传播动力学。研究发现，在严重疾病高峰期附近，行为响应最有可能破坏公共卫生干预措施。
+
+    
+
+    受COVID-19等流行病的启发，我们研究了当行为对疾病的普遍性作出响应时，传染病的传播。我们将SIR流行病学模型扩展为包括内生交会率。个体从经济活动中获益，但活动涉及与潜在感染者的互动。主要关注传染动力学和行为对风险变化的反应的理论分析。我们得出一个简单的条件，当公共卫生干预或疾病的变体因风险补偿而对感染率产生悖论效应时。在严重疾病高峰期附近，行为响应最有可能破坏公共卫生干预。
+
+    Motivated by epidemics such as COVID-19, we study the spread of a contagious disease when behavior responds to the disease's prevalence. We extend the SIR epidemiological model to include endogenous meeting rates. Individuals benefit from economic activity, but activity involves interactions with potentially infected individuals. The main focus is a theoretical analysis of contagion dynamics and behavioral responses to changes in risk. We obtain a simple condition for when public-health interventions or variants of a disease will have paradoxical effects on infection rates due to risk compensation. Behavioral responses are most likely to undermine public-health interventions near the peak of severe diseases.
     
 

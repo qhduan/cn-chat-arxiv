@@ -1,0 +1,12 @@
+{
+    "title": "Active Learning for Multilingual Fingerspelling Corpora. (arXiv:2309.12443v1 [cs.CL])",
+    "abstract": "We apply active learning to help with data scarcity problems in sign languages. In particular, we perform a novel analysis of the effect of pre-training. Since many sign languages are linguistic descendants of French sign language, they share hand configurations, which pre-training can hopefully exploit. We test this hypothesis on American, Chinese, German, and Irish fingerspelling corpora. We do observe a benefit from pre-training, but this may be due to visual rather than linguistic similarities",
+    "link": "http://arxiv.org/abs/2309.12443",
+    "context": "Title: Active Learning for Multilingual Fingerspelling Corpora. (arXiv:2309.12443v1 [cs.CL])\nAbstract: We apply active learning to help with data scarcity problems in sign languages. In particular, we perform a novel analysis of the effect of pre-training. Since many sign languages are linguistic descendants of French sign language, they share hand configurations, which pre-training can hopefully exploit. We test this hypothesis on American, Chinese, German, and Irish fingerspelling corpora. We do observe a benefit from pre-training, but this may be due to visual rather than linguistic similarities",
+    "path": "papers/23/09/2309.12443.json",
+    "total_tokens": 657,
+    "translated_title": "多语种手指拼写语料库的主动学习",
+    "translated_abstract": "我们应用主动学习来解决手语中的数据稀缺问题。具体而言，我们对预训练的效果进行了新颖的分析。由于许多手语是法国手语的语言后裔，它们共享手势配置，预训练有望利用这一点。我们在美国、中国、德国和爱尔兰的手指拼写语料库上测试了这一假设。我们确实观察到了预训练的好处，但这可能是由于视觉上的相似性而非语言上的相似性。",
+    "tldr": "本文应用主动学习来解决手语数据稀缺问题，并对预训练的效果进行了分析，发现预训练在多语种手指拼写语料库上有益处，可能是由于视觉上的相似性。",
+    "en_tdlr": "This paper applies active learning to address data scarcity in sign language and analyzes the effect of pre-training. The study finds that pre-training benefits multilingual fingerspelling corpora, possibly due to visual similarities."
+}

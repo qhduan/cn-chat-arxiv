@@ -1,0 +1,11 @@
+{
+    "title": "Defeasible Reasoning with Knowledge Graphs. (arXiv:2309.12731v1 [cs.AI])",
+    "abstract": "Human knowledge is subject to uncertainties, imprecision, incompleteness and inconsistencies. Moreover, the meaning of many everyday terms is dependent on the context. That poses a huge challenge for the Semantic Web. This paper introduces work on an intuitive notation and model for defeasible reasoning with imperfect knowledge, and relates it to previous work on argumentation theory. PKN is to N3 as defeasible reasoning is to deductive logic. Further work is needed on an intuitive syntax for describing reasoning strategies and tactics in declarative terms, drawing upon the AIF ontology for inspiration. The paper closes with observations on symbolic approaches in the era of large language models.",
+    "link": "http://arxiv.org/abs/2309.12731",
+    "context": "Title: Defeasible Reasoning with Knowledge Graphs. (arXiv:2309.12731v1 [cs.AI])\nAbstract: Human knowledge is subject to uncertainties, imprecision, incompleteness and inconsistencies. Moreover, the meaning of many everyday terms is dependent on the context. That poses a huge challenge for the Semantic Web. This paper introduces work on an intuitive notation and model for defeasible reasoning with imperfect knowledge, and relates it to previous work on argumentation theory. PKN is to N3 as defeasible reasoning is to deductive logic. Further work is needed on an intuitive syntax for describing reasoning strategies and tactics in declarative terms, drawing upon the AIF ontology for inspiration. The paper closes with observations on symbolic approaches in the era of large language models.",
+    "path": "papers/23/09/2309.12731.json",
+    "total_tokens": 740,
+    "translated_title": "知识图谱的可废弃推理",
+    "translated_abstract": "人类的知识存在不确定性、不精确性、不完整性和不一致性。此外，许多日常术语的含义取决于上下文。这对语义网构成了巨大挑战。本文介绍了一种直观的符号和模型，用于处理不完美知识的可废弃推理，并将其与先前关于论证理论的工作联系起来。PKN与N3的关系类似于可废弃推理与演绎逻辑的关系。还需要进一步研究以直观的语法描述陈述性术语中的推理策略和战术，借鉴AIF本体论的启示。论文最后观察了大型语言模型时代的符号方法。",
+    "tldr": "本文介绍了一种可废弃推理的直观符号和模型，用于处理不完美知识，并将其与先前的论证理论工作相关联。进一步工作需要在陈述性术语中描述推理策略和战术，并结合AIF本体论的启示。论文还观察了大型语言模型时代符号方法的应用。"
+}

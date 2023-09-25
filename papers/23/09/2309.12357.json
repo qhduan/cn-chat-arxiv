@@ -1,0 +1,12 @@
+{
+    "title": "Mapping AI Arguments in Journalism Studies. (arXiv:2309.12357v1 [cs.CY])",
+    "abstract": "This study investigates and suggests typologies for examining Artificial Intelligence (AI) within the domains of journalism and mass communication research. We aim to elucidate the seven distinct subfields of AI, which encompass machine learning, natural language processing (NLP), speech recognition, expert systems, planning, scheduling, optimization, robotics, and computer vision, through the provision of concrete examples and practical applications. The primary objective is to devise a structured framework that can help AI researchers in the field of journalism. By comprehending the operational principles of each subfield, scholars can enhance their ability to focus on a specific facet when analyzing a particular research topic.",
+    "link": "http://arxiv.org/abs/2309.12357",
+    "context": "Title: Mapping AI Arguments in Journalism Studies. (arXiv:2309.12357v1 [cs.CY])\nAbstract: This study investigates and suggests typologies for examining Artificial Intelligence (AI) within the domains of journalism and mass communication research. We aim to elucidate the seven distinct subfields of AI, which encompass machine learning, natural language processing (NLP), speech recognition, expert systems, planning, scheduling, optimization, robotics, and computer vision, through the provision of concrete examples and practical applications. The primary objective is to devise a structured framework that can help AI researchers in the field of journalism. By comprehending the operational principles of each subfield, scholars can enhance their ability to focus on a specific facet when analyzing a particular research topic.",
+    "path": "papers/23/09/2309.12357.json",
+    "total_tokens": 756,
+    "translated_title": "在新闻学研究中绘制人工智能论点",
+    "translated_abstract": "本研究探讨和建议用于研究新闻学和大众传播的人工智能（AI）的分类方法。我们旨在通过提供具体示例和实际应用，阐明AI的七个不同子领域，包括机器学习、自然语言处理（NLP）、语音识别、专家系统、计划、调度、优化、机器人和计算机视觉。主要目标是设计一个结构化框架，可以帮助新闻领域的AI研究人员。通过理解每个子领域的操作原理，学者们可以在分析特定研究课题时增强他们关注特定方面的能力。",
+    "tldr": "本研究探索和提供了一种分类方法，可以用于研究新闻学和大众传播中的人工智能（AI）。通过理解每个子领域的操作原理，学者们可以在分析特定研究课题时增强他们关注特定方面的能力。",
+    "en_tdlr": "This study investigates and provides a classification method for studying Artificial Intelligence (AI) in journalism and mass communication. By understanding the operational principles of each subfield, scholars can enhance their ability to focus on specific aspects when analyzing research topics."
+}

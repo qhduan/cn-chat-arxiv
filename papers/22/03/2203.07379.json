@@ -1,0 +1,11 @@
+{
+    "title": "Quantitative Gaussian Approximation of Randomly Initialized Deep Neural Networks. (arXiv:2203.07379v2 [cs.LG] UPDATED)",
+    "abstract": "Given any deep fully connected neural network, initialized with random Gaussian parameters, we bound from above the quadratic Wasserstein distance between its output distribution and a suitable Gaussian process. Our explicit inequalities indicate how the hidden and output layers sizes affect the Gaussian behaviour of the network and quantitatively recover the distributional convergence results in the wide limit, i.e., if all the hidden layers sizes become large.",
+    "link": "http://arxiv.org/abs/2203.07379",
+    "context": "Title: Quantitative Gaussian Approximation of Randomly Initialized Deep Neural Networks. (arXiv:2203.07379v2 [cs.LG] UPDATED)\nAbstract: Given any deep fully connected neural network, initialized with random Gaussian parameters, we bound from above the quadratic Wasserstein distance between its output distribution and a suitable Gaussian process. Our explicit inequalities indicate how the hidden and output layers sizes affect the Gaussian behaviour of the network and quantitatively recover the distributional convergence results in the wide limit, i.e., if all the hidden layers sizes become large.",
+    "path": "papers/22/03/2203.07379.json",
+    "total_tokens": 652,
+    "translated_title": "随机初始化的深度神经网络的量化高斯逼近",
+    "translated_abstract": "对于任意一个使用随机高斯参数初始化的深度全连接神经网络，我们对其输出分布与适当的高斯过程之间的二次Wasserstein距离进行了上界限制。我们的明确不等式表明隐藏层和输出层的大小如何影响网络的高斯行为，并且定量地恢复了宽限制下的分布收敛结果，即如果所有隐藏层的大小变得很大。",
+    "tldr": "本论文通过量化高斯逼近的方法，研究了随机初始化的深度神经网络的输出分布与高斯过程的二次Wasserstein距离的上界，揭示了隐藏层和输出层大小对网络高斯行为的影响，并定量地恢复了在宽限制下的分布收敛结果。"
+}
