@@ -1,0 +1,12 @@
+{
+    "title": "TomOpt: Differential optimisation for task- and constraint-aware design of particle detectors in the context of muon tomography. (arXiv:2309.14027v1 [physics.ins-det])",
+    "abstract": "We describe a software package, TomOpt, developed to optimise the geometrical layout and specifications of detectors designed for tomography by scattering of cosmic-ray muons. The software exploits differentiable programming for the modeling of muon interactions with detectors and scanned volumes, the inference of volume properties, and the optimisation cycle performing the loss minimisation. In doing so, we provide the first demonstration of end-to-end-differentiable and inference-aware optimisation of particle physics instruments. We study the performance of the software on a relevant benchmark scenarios and discuss its potential applications.",
+    "link": "http://arxiv.org/abs/2309.14027",
+    "context": "Title: TomOpt: Differential optimisation for task- and constraint-aware design of particle detectors in the context of muon tomography. (arXiv:2309.14027v1 [physics.ins-det])\nAbstract: We describe a software package, TomOpt, developed to optimise the geometrical layout and specifications of detectors designed for tomography by scattering of cosmic-ray muons. The software exploits differentiable programming for the modeling of muon interactions with detectors and scanned volumes, the inference of volume properties, and the optimisation cycle performing the loss minimisation. In doing so, we provide the first demonstration of end-to-end-differentiable and inference-aware optimisation of particle physics instruments. We study the performance of the software on a relevant benchmark scenarios and discuss its potential applications.",
+    "path": "papers/23/09/2309.14027.json",
+    "total_tokens": 770,
+    "translated_title": "TomOpt：在宇宙射线μ子断层扫描中面向任务和约束感知设计的微粒探测器的差分优化",
+    "translated_abstract": "我们描述了一个名为TomOpt的软件包，用于优化几何布局和探测器规格，以进行宇宙射线μ子的散射断层扫描设计。该软件利用可微分编程来模拟μ子与探测器和扫描体积的相互作用，推断体积属性，并进行损失最小化的优化循环。通过这样做，我们首次演示了粒子物理仪器的端到端可微分和推断感知优化。我们研究了该软件在相关基准场景上的性能，并讨论了其潜在应用。",
+    "tldr": "TomOpt是一个软件包，用于优化宇宙射线μ子断层扫描设计中的微粒探测器的几何布局和规格。它利用可微分编程模拟μ子与探测器和扫描体积的相互作用，并通过损失最小化的优化循环进行推断感知优化。",
+    "en_tdlr": "TomOpt is a software package for optimizing the geometric layout and specifications of particle detectors in muon tomography. It utilizes differentiable programming to simulate the interactions between muons and detectors, and performs inference-aware optimization through loss minimization."
+}

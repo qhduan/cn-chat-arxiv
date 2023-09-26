@@ -1,0 +1,11 @@
+{
+    "title": "Statistical Hypothesis Testing for Information Value (IV). (arXiv:2309.13183v1 [math.ST])",
+    "abstract": "Information value (IV) is a quite popular technique for feature selection prior to the modeling phase. There are practical criteria, but at the same time mysterious and lacking theoretical arguments, based on the IV, to decide if a predictor has sufficient predictive power to be considered in the modeling phase. However, the mathematical development and statistical inference methods for this technique is almost non-existent in the literature. In this work we present a theoretical framework for the IV and propose a non-parametric hypothesis test to test the predictive power. We show how to efficiently calculate the test statistic and study its performance on simulated data. Additionally, we apply our test on bank fraud data and provide a Python library where we implement our results.",
+    "link": "http://arxiv.org/abs/2309.13183",
+    "context": "Title: Statistical Hypothesis Testing for Information Value (IV). (arXiv:2309.13183v1 [math.ST])\nAbstract: Information value (IV) is a quite popular technique for feature selection prior to the modeling phase. There are practical criteria, but at the same time mysterious and lacking theoretical arguments, based on the IV, to decide if a predictor has sufficient predictive power to be considered in the modeling phase. However, the mathematical development and statistical inference methods for this technique is almost non-existent in the literature. In this work we present a theoretical framework for the IV and propose a non-parametric hypothesis test to test the predictive power. We show how to efficiently calculate the test statistic and study its performance on simulated data. Additionally, we apply our test on bank fraud data and provide a Python library where we implement our results.",
+    "path": "papers/23/09/2309.13183.json",
+    "total_tokens": 692,
+    "translated_title": "信息价值（IV）的统计假设检验",
+    "translated_abstract": "信息价值（IV）是模型建立前进行特征选择的一种常用技术。目前存在一些实际标准，但基于IV的判断是否一个预测因子具有足够的预测能力的理论依据依然神秘且缺乏。然而，关于该技术的数学发展和统计推断方法在文献中几乎没有提及。在本研究中，我们提出了一个关于IV的理论框架，并提出了一种非参数假设检验方法来测试预测能力。我们展示了如何高效计算检验统计量，并在模拟数据上研究其表现。此外，我们将这一方法应用于银行欺诈数据，并提供了一个实现我们结果的Python库。",
+    "tldr": "该论文提出了信息价值（IV）的统计假设检验方法，为模型建立前的特征选择提供了理论框架，并通过实验证明了该方法的有效性。"
+}

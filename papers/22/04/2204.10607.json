@@ -1,0 +1,11 @@
+{
+    "title": "Federated Learning via Inexact ADMM. (arXiv:2204.10607v4 [math.OC] UPDATED)",
+    "abstract": "One of the crucial issues in federated learning is how to develop efficient optimization algorithms. Most of the current ones require full device participation and/or impose strong assumptions for convergence. Different from the widely-used gradient descent-based algorithms, in this paper, we develop an inexact alternating direction method of multipliers (ADMM), which is both computation- and communication-efficient, capable of combating the stragglers' effect, and convergent under mild conditions. Furthermore, it has a high numerical performance compared with several state-of-the-art algorithms for federated learning.",
+    "link": "http://arxiv.org/abs/2204.10607",
+    "context": "Title: Federated Learning via Inexact ADMM. (arXiv:2204.10607v4 [math.OC] UPDATED)\nAbstract: One of the crucial issues in federated learning is how to develop efficient optimization algorithms. Most of the current ones require full device participation and/or impose strong assumptions for convergence. Different from the widely-used gradient descent-based algorithms, in this paper, we develop an inexact alternating direction method of multipliers (ADMM), which is both computation- and communication-efficient, capable of combating the stragglers' effect, and convergent under mild conditions. Furthermore, it has a high numerical performance compared with several state-of-the-art algorithms for federated learning.",
+    "path": "papers/22/04/2204.10607.json",
+    "total_tokens": 718,
+    "translated_title": "通过非精确ADMM进行联邦学习",
+    "translated_abstract": "联邦学习中的一个关键问题是如何开发高效的优化算法。目前大部分算法要求设备全员参与或者对收敛性做出强大假设。与常用的基于梯度下降的算法不同，本文提出了一种非精确交替方向乘子法(ADMM)，该方法在计算和通信效率上均有优势，能够应对滞后效应，并在较弱的条件下收敛。此外，与几种最先进的联邦学习算法相比，该方法具有更高的数值性能。",
+    "tldr": "本文提出了一种非精确ADMM算法，用于解决联邦学习中的高效优化问题。该算法既具有计算和通信效率，能够应对滞后效应，又在较弱条件下收敛，并且在数值性能方面表现出色。"
+}

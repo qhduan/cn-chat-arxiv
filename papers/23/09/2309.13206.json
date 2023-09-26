@@ -1,0 +1,12 @@
+{
+    "title": "Intent-Aware Autonomous Driving: A Case Study on Highway Merging Scenarios. (arXiv:2309.13206v1 [cs.RO])",
+    "abstract": "In this work, we use the communication of intent as a means to facilitate cooperation between autonomous vehicle agents. Generally speaking, intents can be any reliable information about its future behavior that a vehicle communicates with another vehicle. We implement this as an intent-sharing task atop the merging environment in the simulator of highway-env, which provides a collection of environments for learning decision-making strategies for autonomous vehicles. Under a simple setting between two agents, we carefully investigate how intent-sharing can aid the receiving vehicle in adjusting its behavior in highway merging scenarios.",
+    "link": "http://arxiv.org/abs/2309.13206",
+    "context": "Title: Intent-Aware Autonomous Driving: A Case Study on Highway Merging Scenarios. (arXiv:2309.13206v1 [cs.RO])\nAbstract: In this work, we use the communication of intent as a means to facilitate cooperation between autonomous vehicle agents. Generally speaking, intents can be any reliable information about its future behavior that a vehicle communicates with another vehicle. We implement this as an intent-sharing task atop the merging environment in the simulator of highway-env, which provides a collection of environments for learning decision-making strategies for autonomous vehicles. Under a simple setting between two agents, we carefully investigate how intent-sharing can aid the receiving vehicle in adjusting its behavior in highway merging scenarios.",
+    "path": "papers/23/09/2309.13206.json",
+    "total_tokens": 702,
+    "translated_title": "意图感知自动驾驶：高速合并情景案例研究",
+    "translated_abstract": "在这项研究中，我们使用意图的沟通作为促进自动驾驶车辆之间合作的手段。通常情况下，意图可以是车辆与另一辆车沟通的关于其未来行为的可靠信息。我们在highway-env模拟器的合并环境中实现了一个意图共享任务，该模拟器提供了一系列用于学习自动驾驶车辆决策策略的环境。在两个代理之间的简单设置下，我们仔细研究了意图共享如何帮助接收车辆调整其在高速合并情景中的行为。",
+    "tldr": "本文研究了使用意图沟通作为促进自动驾驶车辆合作的方法，并在高速合并情景中研究了意图共享如何帮助接收车辆调整其行为策略。",
+    "en_tdlr": "This paper investigates the use of intent communication as a means to facilitate cooperation between autonomous vehicle agents, and explores how intent-sharing can help the receiving vehicle adjust its behavior strategy in highway merging scenarios."
+}

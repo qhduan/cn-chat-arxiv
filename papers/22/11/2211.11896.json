@@ -1,0 +1,11 @@
+{
+    "title": "Private Ad Modeling with DP-SGD. (arXiv:2211.11896v2 [cs.LG] UPDATED)",
+    "abstract": "A well-known algorithm in privacy-preserving ML is differentially private stochastic gradient descent (DP-SGD). While this algorithm has been evaluated on text and image data, it has not been previously applied to ads data, which are notorious for their high class imbalance and sparse gradient updates. In this work we apply DP-SGD to several ad modeling tasks including predicting click-through rates, conversion rates, and number of conversion events, and evaluate their privacy-utility trade-off on real-world datasets. Our work is the first to empirically demonstrate that DP-SGD can provide both privacy and utility for ad modeling tasks.",
+    "link": "http://arxiv.org/abs/2211.11896",
+    "context": "Title: Private Ad Modeling with DP-SGD. (arXiv:2211.11896v2 [cs.LG] UPDATED)\nAbstract: A well-known algorithm in privacy-preserving ML is differentially private stochastic gradient descent (DP-SGD). While this algorithm has been evaluated on text and image data, it has not been previously applied to ads data, which are notorious for their high class imbalance and sparse gradient updates. In this work we apply DP-SGD to several ad modeling tasks including predicting click-through rates, conversion rates, and number of conversion events, and evaluate their privacy-utility trade-off on real-world datasets. Our work is the first to empirically demonstrate that DP-SGD can provide both privacy and utility for ad modeling tasks.",
+    "path": "papers/22/11/2211.11896.json",
+    "total_tokens": 724,
+    "translated_title": "使用DP-SGD的私有广告建模",
+    "translated_abstract": "在隐私保护机器学习中，一种众所周知的算法是差分隐私随机梯度下降（DP-SGD）。尽管该算法在文本和图像数据上已经进行了评估，但在以往的研究中尚未将其应用于广告数据，而广告数据因其高类别不平衡和稀疏的梯度更新而臭名昭著。本研究我们将DP-SGD应用于多个广告建模任务，包括预测点击率、转化率和转化事件数量，并在真实数据集上评估其隐私和效用的权衡。我们的工作首次实证了DP-SGD可以为广告建模任务提供隐私和效用。",
+    "tldr": "本研究将差分隐私随机梯度下降（DP-SGD）应用于广告建模任务，证明了该方法可以在处理高类别不平衡和稀疏梯度更新的广告数据中提供隐私和效用。"
+}

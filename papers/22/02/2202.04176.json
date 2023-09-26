@@ -1,0 +1,12 @@
+{
+    "title": "Crime Hot-Spot Modeling via Topic Modeling and Relative Density Estimation. (arXiv:2202.04176v3 [cs.LG] UPDATED)",
+    "abstract": "We present a method to capture groupings of similar calls and determine their relative spatial distribution from a collection of crime record narratives. We first obtain a topic distribution for each narrative, and then propose a nearest neighbors relative density estimation (kNN-RDE) approach to obtain spatial relative densities per topic. Experiments over a large corpus ($n=475,019$) of narrative documents from the Atlanta Police Department demonstrate the viability of our method in capturing geographic hot-spot trends which call dispatchers do not initially pick up on and which go unnoticed due to conflation with elevated event density in general.",
+    "link": "http://arxiv.org/abs/2202.04176",
+    "context": "Title: Crime Hot-Spot Modeling via Topic Modeling and Relative Density Estimation. (arXiv:2202.04176v3 [cs.LG] UPDATED)\nAbstract: We present a method to capture groupings of similar calls and determine their relative spatial distribution from a collection of crime record narratives. We first obtain a topic distribution for each narrative, and then propose a nearest neighbors relative density estimation (kNN-RDE) approach to obtain spatial relative densities per topic. Experiments over a large corpus ($n=475,019$) of narrative documents from the Atlanta Police Department demonstrate the viability of our method in capturing geographic hot-spot trends which call dispatchers do not initially pick up on and which go unnoticed due to conflation with elevated event density in general.",
+    "path": "papers/22/02/2202.04176.json",
+    "total_tokens": 778,
+    "translated_title": "通过主题建模和相对密度估计的犯罪热点建模",
+    "translated_abstract": "我们提出了一种方法，通过对犯罪记录叙述的集合进行主题分布的计算，确定相似呼叫的分组以及它们的相对空间分布。我们首先为每个叙述获取一个主题分布，然后提出了一种最近邻相对密度估计（kNN-RDE）方法来获得每个主题的空间相对密度。在亚特兰大警察局的大量叙述文档（$n=475,019$）上进行的实验表明，我们的方法能够捕捉到通常被呼叫调度员一开始没有察觉到的地理热点趋势，这些趋势由于与一般事件密度的混淆而被忽视。",
+    "tldr": "本研究提出了一种通过主题建模和相对密度估计来进行犯罪热点建模的方法。实验证明该方法可以捕捉到被调度员忽视的地理热点趋势，这些热点趋势往往与整体事件密度的增加相混淆。",
+    "en_tdlr": "This study presents a method for crime hot-spot modeling using topic modeling and relative density estimation. The experiments demonstrate that the method can capture geographic hot-spot trends that are often overlooked by dispatchers and conflated with elevated event density in general."
+}

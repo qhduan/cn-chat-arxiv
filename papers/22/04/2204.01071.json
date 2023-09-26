@@ -1,0 +1,12 @@
+{
+    "title": "Improved Robust Price Bounds for Multi-Asset Derivatives under Market-Implied Dependence Information. (arXiv:2204.01071v2 [q-fin.MF] UPDATED)",
+    "abstract": "We show how inter-asset dependence information derived from market prices of options can lead to improved model-free price bounds for multi-asset derivatives. Depending on the type of the traded option, we either extract correlation information or we derive restrictions on the set of admissible copulas that capture the inter-asset dependencies. To compute the resultant price bounds for some multi-asset options of interest, we apply a modified martingale optimal transport approach. Several examples based on simulated and real market data illustrate the improvement of the obtained price bounds and thus provide evidence for the relevance and tractability of our approach.",
+    "link": "http://arxiv.org/abs/2204.01071",
+    "context": "Title: Improved Robust Price Bounds for Multi-Asset Derivatives under Market-Implied Dependence Information. (arXiv:2204.01071v2 [q-fin.MF] UPDATED)\nAbstract: We show how inter-asset dependence information derived from market prices of options can lead to improved model-free price bounds for multi-asset derivatives. Depending on the type of the traded option, we either extract correlation information or we derive restrictions on the set of admissible copulas that capture the inter-asset dependencies. To compute the resultant price bounds for some multi-asset options of interest, we apply a modified martingale optimal transport approach. Several examples based on simulated and real market data illustrate the improvement of the obtained price bounds and thus provide evidence for the relevance and tractability of our approach.",
+    "path": "papers/22/04/2204.01071.json",
+    "total_tokens": 721,
+    "translated_title": "提高了基于市场隐含依赖信息的多资产衍生品的鲁棒价格上下界",
+    "translated_abstract": "我们展示了从期权市场价格中推导出的资产间依赖信息如何导致改进的无模型价格上下界对于多资产衍生品。根据交易期权的类型，我们要么提取相关信息，要么导出限制条件，这些条件可捕捉资产间的依赖关系。为了计算感兴趣的一些多资产期权的价格上下界，我们采用了修改的鞍点最优运输方法。基于模拟和真实市场数据的几个示例说明所获得的价格上下界的改进，从而为我们的方法的相关性和可行性提供了证据。",
+    "tldr": "从市场隐含依赖信息中导出的多资产衍生品的鲁棒价格上下界提供了改进的模型无关估计方法，并通过模拟和实际市场数据的例子证实了该方法的相关性和可行性。",
+    "en_tdlr": "Improved model-free price bounds for multi-asset derivatives, derived from market-implied dependence information, provide a robust estimation method and are validated through examples using simulated and real market data."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Unified Inference for Dynamic Quantile Predictive Regression. (arXiv:2309.14160v1 [econ.EM])",
+    "abstract": "This paper develops unified asymptotic distribution theory for dynamic quantile predictive regressions which is useful when examining quantile predictability in stock returns under possible presence of nonstationarity.",
+    "link": "http://arxiv.org/abs/2309.14160",
+    "context": "Title: Unified Inference for Dynamic Quantile Predictive Regression. (arXiv:2309.14160v1 [econ.EM])\nAbstract: This paper develops unified asymptotic distribution theory for dynamic quantile predictive regressions which is useful when examining quantile predictability in stock returns under possible presence of nonstationarity.",
+    "path": "papers/23/09/2309.14160.json",
+    "total_tokens": 460,
+    "translated_title": "动态分位数预测回归的统一推断",
+    "translated_abstract": "本文针对动态分位数预测回归开发了统一的渐近分布理论，适用于在可能存在非平稳性的情况下研究股票收益的分位数可预测性。",
+    "tldr": "本文开发了一种统一的渐近分布理论，用于分析可能存在非平稳性情况下股票收益的分位数可预测性。",
+    "en_tdlr": "This paper develops a unified asymptotic distribution theory for analyzing the quantile predictability of stock returns under the possible presence of nonstationarity."
+}

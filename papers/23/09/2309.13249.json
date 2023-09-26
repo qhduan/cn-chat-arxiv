@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Document-Level Information Extraction. (arXiv:2309.13249v1 [cs.CL])",
+    "abstract": "Document-level information extraction (IE) is a crucial task in natural language processing (NLP). This paper conducts a systematic review of recent document-level IE literature. In addition, we conduct a thorough error analysis with current state-of-the-art algorithms and identify their limitations as well as the remaining challenges for the task of document-level IE. According to our findings, labeling noises, entity coreference resolution, and lack of reasoning, severely affect the performance of document-level IE. The objective of this survey paper is to provide more insights and help NLP researchers to further enhance document-level IE performance.",
+    "link": "http://arxiv.org/abs/2309.13249",
+    "context": "Title: A Survey of Document-Level Information Extraction. (arXiv:2309.13249v1 [cs.CL])\nAbstract: Document-level information extraction (IE) is a crucial task in natural language processing (NLP). This paper conducts a systematic review of recent document-level IE literature. In addition, we conduct a thorough error analysis with current state-of-the-art algorithms and identify their limitations as well as the remaining challenges for the task of document-level IE. According to our findings, labeling noises, entity coreference resolution, and lack of reasoning, severely affect the performance of document-level IE. The objective of this survey paper is to provide more insights and help NLP researchers to further enhance document-level IE performance.",
+    "path": "papers/23/09/2309.13249.json",
+    "total_tokens": 698,
+    "translated_title": "文档级信息抽取综述",
+    "translated_abstract": "文档级信息抽取（IE）是自然语言处理（NLP）中的一个关键任务。本文对近期文档级IE文献进行了系统回顾。此外，我们还通过当前最先进的算法进行了彻底的错误分析，并确定了它们在文档级IE任务中的限制以及剩余挑战。根据我们的发现，标注误差、实体共指解析和推理的缺乏严重影响了文档级IE的性能。本综述的目标是提供更多的见解，帮助NLP研究人员进一步提高文档级IE的性能。",
+    "tldr": "本文综述了近期文档级信息抽取的研究进展，发现标注误差、实体共指解析和推理的缺乏是限制文档级IE性能的主要因素，为进一步增强文档级IE性能提供了启示。",
+    "en_tdlr": "This paper surveys recent advances in document-level information extraction (IE), identifies key factors limiting performance, including labeling noises, entity coreference resolution, and lack of reasoning, and provides insights to enhance document-level IE performance."
+}

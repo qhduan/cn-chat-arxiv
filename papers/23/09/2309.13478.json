@@ -1,0 +1,12 @@
+{
+    "title": "CA-PCA: Manifold Dimension Estimation, Adapted for Curvature. (arXiv:2309.13478v1 [stat.ML])",
+    "abstract": "The success of algorithms in the analysis of high-dimensional data is often attributed to the manifold hypothesis, which supposes that this data lie on or near a manifold of much lower dimension. It is often useful to determine or estimate the dimension of this manifold before performing dimension reduction, for instance. Existing methods for dimension estimation are calibrated using a flat unit ball. In this paper, we develop CA-PCA, a version of local PCA based instead on a calibration of a quadratic embedding, acknowledging the curvature of the underlying manifold. Numerous careful experiments show that this adaptation improves the estimator in a wide range of settings.",
+    "link": "http://arxiv.org/abs/2309.13478",
+    "context": "Title: CA-PCA: Manifold Dimension Estimation, Adapted for Curvature. (arXiv:2309.13478v1 [stat.ML])\nAbstract: The success of algorithms in the analysis of high-dimensional data is often attributed to the manifold hypothesis, which supposes that this data lie on or near a manifold of much lower dimension. It is often useful to determine or estimate the dimension of this manifold before performing dimension reduction, for instance. Existing methods for dimension estimation are calibrated using a flat unit ball. In this paper, we develop CA-PCA, a version of local PCA based instead on a calibration of a quadratic embedding, acknowledging the curvature of the underlying manifold. Numerous careful experiments show that this adaptation improves the estimator in a wide range of settings.",
+    "path": "papers/23/09/2309.13478.json",
+    "total_tokens": 666,
+    "translated_title": "CA-PCA: 测量曲率的流形维度估计",
+    "translated_abstract": "高维数据分析算法的成功常归因于流形假设，即假设数据分布在或接近低维流形上。在进行维度约简之前，确定或估计该流形的维度通常是有用的。现有的维度估计方法使用平坦单位球进行校准。本文提出了CA-PCA，一种基于二次嵌入校准的局部PCA版本，以考虑底层流形的曲率。大量的精心实验表明，这种适应性改进了估计器在各种设置下的性能。",
+    "tldr": "本文提出了CA-PCA算法，它基于曲率校准的局部PCA版本，通过考虑底层流形的曲率，改进了维度估计器的性能。",
+    "en_tdlr": "This paper proposes CA-PCA algorithm, a version of local PCA based on curvature calibration, which improves the performance of the estimator by considering the curvature of the underlying manifold."
+}

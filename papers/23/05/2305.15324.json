@@ -1,0 +1,12 @@
+{
+    "title": "Model evaluation for extreme risks. (arXiv:2305.15324v2 [cs.AI] UPDATED)",
+    "abstract": "Current approaches to building general-purpose AI systems tend to produce systems with both beneficial and harmful capabilities. Further progress in AI development could lead to capabilities that pose extreme risks, such as offensive cyber capabilities or strong manipulation skills. We explain why model evaluation is critical for addressing extreme risks. Developers must be able to identify dangerous capabilities (through \"dangerous capability evaluations\") and the propensity of models to apply their capabilities for harm (through \"alignment evaluations\"). These evaluations will become critical for keeping policymakers and other stakeholders informed, and for making responsible decisions about model training, deployment, and security.",
+    "link": "http://arxiv.org/abs/2305.15324",
+    "context": "Title: Model evaluation for extreme risks. (arXiv:2305.15324v2 [cs.AI] UPDATED)\nAbstract: Current approaches to building general-purpose AI systems tend to produce systems with both beneficial and harmful capabilities. Further progress in AI development could lead to capabilities that pose extreme risks, such as offensive cyber capabilities or strong manipulation skills. We explain why model evaluation is critical for addressing extreme risks. Developers must be able to identify dangerous capabilities (through \"dangerous capability evaluations\") and the propensity of models to apply their capabilities for harm (through \"alignment evaluations\"). These evaluations will become critical for keeping policymakers and other stakeholders informed, and for making responsible decisions about model training, deployment, and security.",
+    "path": "papers/23/05/2305.15324.json",
+    "total_tokens": 728,
+    "translated_title": "极端风险的模型评估",
+    "translated_abstract": "目前建立通用人工智能系统的方法往往会产生既有益处又有害处的系统。人工智能的进一步发展可能会导致具有极端风险的能力，例如攻击性的网络能力或强大的操纵技能。我们解释了为什么模型评估对于解决极端风险至关重要。开发者必须能够识别危险的能力（通过“危险能力评估”）以及模型应用能力对造成危害的倾向（通过“对齐评估”）。这些评估将对保持决策者和其他利益相关者的信息，并对模型训练、部署和安全性的负责任决策至关重要。",
+    "tldr": "当前建立通用人工智能系统的方法可能会产生既有益处又有害处的系统，而进一步发展人工智能可能导致极端风险，需要通过模型评估来解决这个问题。",
+    "en_tdlr": "Current approaches to building general-purpose AI systems may result in systems with both beneficial and harmful capabilities. Further development of AI could lead to extreme risks, and model evaluation is critical to address these risks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A Neural Network Approach. (arXiv:2309.14073v1 [stat.ML])",
+    "abstract": "We propose a graphical structure for structural equation models that is stable under marginalization under linearity and Gaussianity assumptions. We show that computing the maximum likelihood estimation of this model is equivalent to training a neural network. We implement a GPU-based algorithm that computes the maximum likelihood estimation of these models.",
+    "link": "http://arxiv.org/abs/2309.14073",
+    "context": "Title: Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A Neural Network Approach. (arXiv:2309.14073v1 [stat.ML])\nAbstract: We propose a graphical structure for structural equation models that is stable under marginalization under linearity and Gaussianity assumptions. We show that computing the maximum likelihood estimation of this model is equivalent to training a neural network. We implement a GPU-based algorithm that computes the maximum likelihood estimation of these models.",
+    "path": "papers/23/09/2309.14073.json",
+    "total_tokens": 596,
+    "translated_title": "潜变量结构方程模型的最大似然估计：一种神经网络方法",
+    "translated_abstract": "我们提出了一种在线性和高斯性假设下稳定的结构方程模型的图形结构。我们展示了计算这个模型的最大似然估计等价于训练一个神经网络。我们实现了一个基于GPU的算法来计算这些模型的最大似然估计。",
+    "tldr": "本研究提出了一种新的图形结构，用于在线性和高斯性假设下稳定的潜变量结构方程模型。我们证明了计算该模型的最大似然估计等价于训练一个神经网络，并实现了一个基于GPU的算法来进行计算。",
+    "en_tdlr": "This study proposes a novel graphical structure for latent variable structural equation models that is stable under linearity and Gaussianity assumptions. The researchers demonstrate that computing the maximum likelihood estimation of this model is equivalent to training a neural network and present a GPU-based algorithm for computation."
+}

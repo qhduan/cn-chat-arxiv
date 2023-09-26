@@ -1,0 +1,12 @@
+{
+    "title": "Laplacian-based Semi-Supervised Learning in Multilayer Hypergraphs by Coordinate Descent. (arXiv:2301.12184v2 [cs.LG] UPDATED)",
+    "abstract": "Graph Semi-Supervised learning is an important data analysis tool, where given a graph and a set of labeled nodes, the aim is to infer the labels to the remaining unlabeled nodes. In this paper, we start by considering an optimization-based formulation of the problem for an undirected graph, and then we extend this formulation to multilayer hypergraphs. We solve the problem using different coordinate descent approaches and compare the results with the ones obtained by the classic gradient descent method. Experiments on synthetic and real-world datasets show the potential of using coordinate descent methods with suitable selection rules.",
+    "link": "http://arxiv.org/abs/2301.12184",
+    "context": "Title: Laplacian-based Semi-Supervised Learning in Multilayer Hypergraphs by Coordinate Descent. (arXiv:2301.12184v2 [cs.LG] UPDATED)\nAbstract: Graph Semi-Supervised learning is an important data analysis tool, where given a graph and a set of labeled nodes, the aim is to infer the labels to the remaining unlabeled nodes. In this paper, we start by considering an optimization-based formulation of the problem for an undirected graph, and then we extend this formulation to multilayer hypergraphs. We solve the problem using different coordinate descent approaches and compare the results with the ones obtained by the classic gradient descent method. Experiments on synthetic and real-world datasets show the potential of using coordinate descent methods with suitable selection rules.",
+    "path": "papers/23/01/2301.12184.json",
+    "total_tokens": 709,
+    "translated_title": "基于坐标下降的多层超图中的拉普拉斯半监督学习",
+    "translated_abstract": "图半监督学习是一种重要的数据分析工具，给定一个图和一组标有标签的节点，目标是为剩余的未标记节点推断标签。本文首先考虑了无向图问题的基于优化的表述，然后将这个表述扩展到多层超图上。我们使用不同的坐标下降方法解决了这个问题，并将结果与经典的梯度下降方法进行了比较。在合成和真实世界的数据集上的实验证明了使用具有适当选择规则的坐标下降方法的潜力。",
+    "tldr": "本文研究了多层超图中的拉普拉斯半监督学习问题，并采用坐标下降方法解决该问题。实验证明了使用适当选择规则的坐标下降方法的潜力。",
+    "en_tdlr": "This paper investigates the problem of Laplacian-based semi-supervised learning in multilayer hypergraphs and solves it using coordinate descent methods. Experiments demonstrate the potential of using coordinate descent methods with suitable selection rules."
+}

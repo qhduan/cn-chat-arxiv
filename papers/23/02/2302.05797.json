@@ -1,0 +1,12 @@
+{
+    "title": "Global Convergence Rate of Deep Equilibrium Models with General Activations. (arXiv:2302.05797v2 [stat.ML] UPDATED)",
+    "abstract": "In a recent paper, Ling et al. investigated the over-parametrized Deep Equilibrium Model (DEQ) with ReLU activation. They proved that the gradient descent converges to a globally optimal solution at a linear convergence rate for the quadratic loss function. This paper shows that this fact still holds for DEQs with any general activation that has bounded first and second derivatives. Since the new activation function is generally non-linear, bounding the least eigenvalue of the Gram matrix of the equilibrium point is particularly challenging. To accomplish this task, we need to create a novel population Gram matrix and develop a new form of dual activation with Hermite polynomial expansion.",
+    "link": "http://arxiv.org/abs/2302.05797",
+    "context": "Title: Global Convergence Rate of Deep Equilibrium Models with General Activations. (arXiv:2302.05797v2 [stat.ML] UPDATED)\nAbstract: In a recent paper, Ling et al. investigated the over-parametrized Deep Equilibrium Model (DEQ) with ReLU activation. They proved that the gradient descent converges to a globally optimal solution at a linear convergence rate for the quadratic loss function. This paper shows that this fact still holds for DEQs with any general activation that has bounded first and second derivatives. Since the new activation function is generally non-linear, bounding the least eigenvalue of the Gram matrix of the equilibrium point is particularly challenging. To accomplish this task, we need to create a novel population Gram matrix and develop a new form of dual activation with Hermite polynomial expansion.",
+    "path": "papers/23/02/2302.05797.json",
+    "total_tokens": 803,
+    "translated_title": "具有一般激活函数的深度平衡模型的全局收敛速度",
+    "translated_abstract": "在最近的一篇论文中，Ling等人研究了具有ReLU激活函数的过参数化深度平衡模型（DEQ）。他们证明了对于二次损失函数，梯度下降方法以线性收敛速度收敛到全局最优解。本文表明，对于具有任何具有有界一阶和二阶导数的激活函数的DEQ，该事实仍然成立。由于新的激活函数通常是非线性的，限制平衡点的Gram矩阵的最小特征值尤其具有挑战性。为了完成这个任务，我们需要创建一个新的总体Gram矩阵，并开发一种具有Hermite多项式展开的新形式的双重激活函数。",
+    "tldr": "该论文研究了具有一般激活函数的深度平衡模型（DEQ）的全局收敛速度，证明了梯度下降以线性收敛速度收敛到全局最优解，并解决了限制平衡点Gram矩阵最小特征值的挑战。",
+    "en_tdlr": "This paper investigates the global convergence rate of deep equilibrium models with general activations (DEQs), proving that gradient descent converges at a linear rate to the globally optimal solution. It also addresses the challenge of bounding the least eigenvalue of the Gram matrix at the equilibrium point."
+}
