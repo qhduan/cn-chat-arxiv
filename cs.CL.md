@@ -51,18 +51,19 @@
 | [^47] | [COCO-Counterfactuals: Automatically Constructed Counterfactual Examples for Image-Text Pairs.](http://arxiv.org/abs/2309.14356) | COCO-Counterfactuals是一个自动构建图像-文本对的反事实例的框架，通过使用文本到图像扩散模型来自动生成多模态反事实例。通过人工评估，我们验证了COCO-Counterfactuals的质量，并展示了其对于改善域外泛化能力的实用性。 |
 | [^48] | [PopBERT. Detecting populism and its host ideologies in the German Bundestag.](http://arxiv.org/abs/2309.14355) | 本文提出了一种可靠、有效且可扩展的方法来衡量民粹主义立场，通过在德国联邦议院的演讲中进行语言标记，训练了一个基于Transformer的模型（PopBERT）来检测和量化民粹主义的核心维度，并确定民粹主义陈述与左翼或右翼主导意识形态的关联。 |
 | [^49] | [Defending Against Alignment-Breaking Attacks via Robustly Aligned LLM.](http://arxiv.org/abs/2309.14348) | 本文提出了一种稳健对齐的LLM（RA-LLM），用于防御可能发生的对齐破坏攻击。RA-LLM可以直接在现有的对齐LLM上构建，并通过稳健的对齐检查函数来确保其有效性。 |
-| [^50] | [MiChao-HuaFen 1.0: A Specialized Pre-trained Corpus Dataset for Domain-specific Large Models.](http://arxiv.org/abs/2309.13079) | MiChao-HuaFen 1.0是一个专为新闻和政府部门定制的面向领域特定大模型的预训练语料数据集，它不仅能够满足特定领域的高质量需求，还有助于推动相关领域的深度学习研究和应用。 |
-| [^51] | [InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning.](http://arxiv.org/abs/2309.13064) | InvestLM是一个通过对金融领域指导数据集进行调优的大型语言模型，具有强大的理解金融文本的能力，并在投资相关问题上提供有帮助的回答。金融专家评价其与最先进的商业模型可媲美，并在金融NLP基准问题上展现了强大的泛化能力。 |
-| [^52] | [Multimodal Deep Learning for Scientific Imaging Interpretation.](http://arxiv.org/abs/2309.12460) | 本研究提出了一种多模态深度学习框架，通过模拟人类与扫描电子显微镜图像的交互，利用文本和视觉数据进行精细数据合成和评估。该模型（GlassLLaVA）能够准确解释、识别关键特征和检测以前未见的SEM图像中的缺陷，同时引入了适用于多种科学成像应用的灵活评估指标。 |
-| [^53] | [MBR and QE Finetuning: Training-time Distillation of the Best and Most Expensive Decoding Methods.](http://arxiv.org/abs/2309.10966) | 本文提出了MBR微调和QE微调方法，将训练时的质量提升蒸馏到基准模型中，从而在推断时使用高效的解码算法。实验证明，这些微调方法能显著提升模型性能，甚至超过基准模型。 |
-| [^54] | [Investigating the Catastrophic Forgetting in Multimodal Large Language Models.](http://arxiv.org/abs/2309.10313) | 本论文针对多模态大规模语言模型中的灾难性遗忘问题进行研究，引入了EMT方法来评估灾难性遗忘，并发现在标准图像分类任务上，几乎所有评估的模型都无法保持与视觉编码器相同的性能水平。研究结果表明，早期微调阶段对性能至关重要。 |
-| [^55] | [Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations.](http://arxiv.org/abs/2307.06576) | 本文介绍了一种名为GLORY的模型，通过全局图与本地表示相结合，增强了个性化推荐系统。该模型通过构建全局感知历史新闻编码器来融合历史新闻表示，并考虑了用户隐藏的动机和行为。 |
-| [^56] | [MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation.](http://arxiv.org/abs/2306.10322) | MO-VLN是一个用于评估通用机器人在多任务环境中的视觉和语言导航的基准，通过使用虚幻引擎5开发逼真的场景和包含多种不常见物体来测试其效果和泛化能力。 |
-| [^57] | [Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias.](http://arxiv.org/abs/2305.19894) | Med-UniC是一个新的框架，旨在通过整合英语和西班牙语的跨语言医学数据，实现跨语言医学图像-语言预训练的统一。他们提出了跨语言文本对齐规则(CTR)，以明确统一来自不同语言社区的医学报告的跨语言语义表示。 |
-| [^58] | [Weakly-Supervised Visual-Textual Grounding with Semantic Prior Refinement.](http://arxiv.org/abs/2305.10913) | 本文提出了一种利用语义先验细化的弱监督视觉-文本对齐方法，仅使用图像-句子对进行学习，其目标是实现实体表示中的区域-短语对应关系，通过联合两个主要模块的输出进行预测。 |
-| [^59] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
-| [^60] | [Disentangling Prosody Representations with Unsupervised Speech Reconstruction.](http://arxiv.org/abs/2212.06972) | 本文提出了一种利用无监督语音重构来解决从语音中分离情绪韵律的任务的方法。通过设计和集成多个关键组件，我们能够在没有标签的情况下有效地提取出韵律信息。这对于自动语音识别和说话人验证等应用具有重要意义。 |
-| [^61] | [Permutation invariant matrix statistics and computational language tasks.](http://arxiv.org/abs/2202.06829) | 本文提出了一种排列不变矩阵统计的方法，用于处理生成的矩阵统计，并描述了该方法在计算语言学中处理同义词、反义词、上义词和下义词等任务中的成功应用。 |
+| [^50] | [Connecting Speech Encoder and Large Language Model for ASR.](http://arxiv.org/abs/2309.13963) | 本文通过比较研究了三种连接结构，即全连接层、多头交叉注意力和Q-Former，将语音编码器与大型语言模型相结合，实现了在自动语音识别中显著降低词错误率的效果。其中，基于Q-Former的大型语言模型在Out-of-Domain数据集上展现出了良好的泛化能力，并且相比基准模型实现了12%的相对词错误率降低。 (arXiv:2309.13963v2 [eess.AS] UPDATED) |
+| [^51] | [MiChao-HuaFen 1.0: A Specialized Pre-trained Corpus Dataset for Domain-specific Large Models.](http://arxiv.org/abs/2309.13079) | MiChao-HuaFen 1.0是一个专为新闻和政府部门定制的面向领域特定大模型的预训练语料数据集，它不仅能够满足特定领域的高质量需求，还有助于推动相关领域的深度学习研究和应用。 |
+| [^52] | [InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning.](http://arxiv.org/abs/2309.13064) | InvestLM是一个通过对金融领域指导数据集进行调优的大型语言模型，具有强大的理解金融文本的能力，并在投资相关问题上提供有帮助的回答。金融专家评价其与最先进的商业模型可媲美，并在金融NLP基准问题上展现了强大的泛化能力。 |
+| [^53] | [Multimodal Deep Learning for Scientific Imaging Interpretation.](http://arxiv.org/abs/2309.12460) | 本研究提出了一种多模态深度学习框架，通过模拟人类与扫描电子显微镜图像的交互，利用文本和视觉数据进行精细数据合成和评估。该模型（GlassLLaVA）能够准确解释、识别关键特征和检测以前未见的SEM图像中的缺陷，同时引入了适用于多种科学成像应用的灵活评估指标。 |
+| [^54] | [MBR and QE Finetuning: Training-time Distillation of the Best and Most Expensive Decoding Methods.](http://arxiv.org/abs/2309.10966) | 本文提出了MBR微调和QE微调方法，将训练时的质量提升蒸馏到基准模型中，从而在推断时使用高效的解码算法。实验证明，这些微调方法能显著提升模型性能，甚至超过基准模型。 |
+| [^55] | [Investigating the Catastrophic Forgetting in Multimodal Large Language Models.](http://arxiv.org/abs/2309.10313) | 本论文针对多模态大规模语言模型中的灾难性遗忘问题进行研究，引入了EMT方法来评估灾难性遗忘，并发现在标准图像分类任务上，几乎所有评估的模型都无法保持与视觉编码器相同的性能水平。研究结果表明，早期微调阶段对性能至关重要。 |
+| [^56] | [Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations.](http://arxiv.org/abs/2307.06576) | 本文介绍了一种名为GLORY的模型，通过全局图与本地表示相结合，增强了个性化推荐系统。该模型通过构建全局感知历史新闻编码器来融合历史新闻表示，并考虑了用户隐藏的动机和行为。 |
+| [^57] | [MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation.](http://arxiv.org/abs/2306.10322) | MO-VLN是一个用于评估通用机器人在多任务环境中的视觉和语言导航的基准，通过使用虚幻引擎5开发逼真的场景和包含多种不常见物体来测试其效果和泛化能力。 |
+| [^58] | [Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias.](http://arxiv.org/abs/2305.19894) | Med-UniC是一个新的框架，旨在通过整合英语和西班牙语的跨语言医学数据，实现跨语言医学图像-语言预训练的统一。他们提出了跨语言文本对齐规则(CTR)，以明确统一来自不同语言社区的医学报告的跨语言语义表示。 |
+| [^59] | [Weakly-Supervised Visual-Textual Grounding with Semantic Prior Refinement.](http://arxiv.org/abs/2305.10913) | 本文提出了一种利用语义先验细化的弱监督视觉-文本对齐方法，仅使用图像-句子对进行学习，其目标是实现实体表示中的区域-短语对应关系，通过联合两个主要模块的输出进行预测。 |
+| [^60] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
+| [^61] | [Disentangling Prosody Representations with Unsupervised Speech Reconstruction.](http://arxiv.org/abs/2212.06972) | 本文提出了一种利用无监督语音重构来解决从语音中分离情绪韵律的任务的方法。通过设计和集成多个关键组件，我们能够在没有标签的情况下有效地提取出韵律信息。这对于自动语音识别和说话人验证等应用具有重要意义。 |
+| [^62] | [Permutation invariant matrix statistics and computational language tasks.](http://arxiv.org/abs/2202.06829) | 本文提出了一种排列不变矩阵统计的方法，用于处理生成的矩阵统计，并描述了该方法在计算语言学中处理同义词、反义词、上义词和下义词等任务中的成功应用。 |
 
 # 详细
 
@@ -752,7 +753,21 @@
 
     Recently, Large Language Models (LLMs) have made significant advancements and are now widely used across various domains. Unfortunately, there has been a rising concern that LLMs can be misused to generate harmful or malicious content. Though a line of research has focused on aligning LLMs with human values and preventing them from producing inappropriate content, such alignments are usually vulnerable and can be bypassed by alignment-breaking attacks via adversarially optimized or handcrafted jailbreaking prompts. In this work, we introduce a Robustly Aligned LLM (RA-LLM) to defend against potential alignment-breaking attacks. RA-LLM can be directly constructed upon an existing aligned LLM with a robust alignment checking function, without requiring any expensive retraining or fine-tuning process of the original LLM. Furthermore, we also provide a theoretical analysis for RA-LLM to verify its effectiveness in defending against alignment-breaking attacks. Through real-world experiments
     
-[^50]: MiChao-HuaFen 1.0：面向领域特定大模型的专用预训练语料数据集
+[^50]: 连接语音编码器和大型语言模型用于ASR
+
+    Connecting Speech Encoder and Large Language Model for ASR. (arXiv:2309.13963v2 [eess.AS] UPDATED)
+
+    [http://arxiv.org/abs/2309.13963](http://arxiv.org/abs/2309.13963)
+
+    本文通过比较研究了三种连接结构，即全连接层、多头交叉注意力和Q-Former，将语音编码器与大型语言模型相结合，实现了在自动语音识别中显著降低词错误率的效果。其中，基于Q-Former的大型语言模型在Out-of-Domain数据集上展现出了良好的泛化能力，并且相比基准模型实现了12%的相对词错误率降低。 (arXiv:2309.13963v2 [eess.AS] UPDATED)
+
+    
+
+    大型语言模型(LLMs)的出色能力和多功能性引起了自动语音识别(ASR)领域的越来越多关注，几项开创性研究尝试通过连接语音编码器和LLMs构建一体化ASR模型。本文对三种常用的连接结构进行了比较研究，包括全连接层、多头交叉注意力和Q-Former。研究了Whisper模型系列的语音编码器以及Vicuna模型系列的LLMs，包括不同的模型大小。在常用的LibriSpeech、Common Voice和GigaSpeech数据集上进行了实验，在LLMs与其他连接结构相比，基于Q-Former的LLMs在词错误率(WER)上表现出一致且显著的降低。基于Q-Former的LLMs在领域外数据集上表现良好，在Eval2000测试集上相比Whisper基准ASR模型实现了12%的相对WER降低，而无需使用额外的领域适应数据。
+
+    The impressive capability and versatility of large language models (LLMs) have aroused increasing attention in automatic speech recognition (ASR), with several pioneering studies attempting to build integrated ASR models by connecting a speech encoder with an LLM. This paper presents a comparative study of three commonly used structures as connectors, including fully connected layers, multi-head cross-attention, and Q-Former. Speech encoders from the Whisper model series as well as LLMs from the Vicuna model series with different model sizes were studied. Experiments were performed on the commonly used LibriSpeech, Common Voice, and GigaSpeech datasets, where the LLMs with Q-Formers demonstrated consistent and considerable word error rate (WER) reductions over LLMs with other connector structures. Q-Former-based LLMs can generalise well to out-of-domain datasets, where 12% relative WER reductions over the Whisper baseline ASR model were achieved on the Eval2000 test set without using a
+    
+[^51]: MiChao-HuaFen 1.0：面向领域特定大模型的专用预训练语料数据集
 
     MiChao-HuaFen 1.0: A Specialized Pre-trained Corpus Dataset for Domain-specific Large Models. (arXiv:2309.13079v1 [cs.CL])
 
@@ -766,7 +781,7 @@
 
     With the advancement of deep learning technologies, general-purpose large models such as GPT-4 have demonstrated exceptional capabilities across various domains. Nevertheless, there remains a demand for high-quality, domain-specific outputs in areas like healthcare, law, and finance. This paper first evaluates the existing large models for specialized domains and discusses their limitations. To cater to the specific needs of certain domains, we introduce the ``MiChao-HuaFen 1.0'' pre-trained corpus dataset, tailored for the news and governmental sectors. The dataset, sourced from publicly available internet data from 2022, underwent multiple rounds of cleansing and processing to ensure high quality and reliable origins, with provisions for consistent and stable updates. This dataset not only supports the pre-training of large models for Chinese vertical domains but also aids in propelling deep learning research and applications in related fields.
     
-[^51]: InvestLM：使用金融领域指导调优的大型语言模型
+[^52]: InvestLM：使用金融领域指导调优的大型语言模型
 
     InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning. (arXiv:2309.13064v1 [q-fin.GN])
 
@@ -780,7 +795,7 @@
 
     We present a new financial domain large language model, InvestLM, tuned on LLaMA-65B (Touvron et al., 2023), using a carefully curated instruction dataset related to financial investment. Inspired by less-is-more-for-alignment (Zhou et al., 2023), we manually curate a small yet diverse instruction dataset, covering a wide range of financial related topics, from Chartered Financial Analyst (CFA) exam questions to SEC filings to Stackexchange quantitative finance discussions. InvestLM shows strong capabilities in understanding financial text and provides helpful responses to investment related questions. Financial experts, including hedge fund managers and research analysts, rate InvestLM's response as comparable to those of state-of-the-art commercial models (GPT-3.5, GPT-4 and Claude-2). Zero-shot evaluation on a set of financial NLP benchmarks demonstrates strong generalizability. From a research perspective, this work suggests that a high-quality domain specific LLM can be tuned usin
     
-[^52]: 多模态深度学习用于科学成像解释
+[^53]: 多模态深度学习用于科学成像解释
 
     Multimodal Deep Learning for Scientific Imaging Interpretation. (arXiv:2309.12460v1 [cs.LG])
 
@@ -794,7 +809,7 @@
 
     In the domain of scientific imaging, interpreting visual data often demands an intricate combination of human expertise and deep comprehension of the subject materials. This study presents a novel methodology to linguistically emulate and subsequently evaluate human-like interactions with Scanning Electron Microscopy (SEM) images, specifically of glass materials. Leveraging a multimodal deep learning framework, our approach distills insights from both textual and visual data harvested from peer-reviewed articles, further augmented by the capabilities of GPT-4 for refined data synthesis and evaluation. Despite inherent challenges--such as nuanced interpretations and the limited availability of specialized datasets--our model (GlassLLaVA) excels in crafting accurate interpretations, identifying key features, and detecting defects in previously unseen SEM images. Moreover, we introduce versatile evaluation metrics, suitable for an array of scientific imaging applications, which allows for
     
-[^53]: MBR和QE微调：对最佳和最昂贵的解码方法进行训练时蒸馏
+[^54]: MBR和QE微调：对最佳和最昂贵的解码方法进行训练时蒸馏
 
     MBR and QE Finetuning: Training-time Distillation of the Best and Most Expensive Decoding Methods. (arXiv:2309.10966v1 [cs.CL])
 
@@ -808,7 +823,7 @@
 
     Recent research in decoding methods for Natural Language Generation (NLG) tasks has shown that the traditional beam search and greedy decoding algorithms are not optimal, because model probabilities do not always align with human preferences. Stronger decoding methods, including Quality Estimation (QE) reranking and Minimum Bayes' Risk (MBR) decoding, have since been proposed to mitigate the model-perplexity-vs-quality mismatch. While these decoding methods achieve state-of-the-art performance, they are prohibitively expensive to compute. In this work, we propose MBR finetuning and QE finetuning which distill the quality gains from these decoding methods at training time, while using an efficient decoding algorithm at inference time. Using the canonical NLG task of Neural Machine Translation (NMT), we show that even with self-training, these finetuning methods significantly outperform the base model. Moreover, when using an external LLM as a teacher model, these finetuning methods outp
     
-[^54]: 对多模态大规模语言模型中的灾难性遗忘进行的研究
+[^55]: 对多模态大规模语言模型中的灾难性遗忘进行的研究
 
     Investigating the Catastrophic Forgetting in Multimodal Large Language Models. (arXiv:2309.10313v1 [cs.CL])
 
@@ -822,7 +837,7 @@
 
     Following the success of GPT4, there has been a surge in interest in multimodal large language model (MLLM) research. This line of research focuses on developing general-purpose LLMs through fine-tuning pre-trained LLMs and vision models. However, catastrophic forgetting, a notorious phenomenon where the fine-tuned model fails to retain similar performance compared to the pre-trained model, still remains an inherent problem in multimodal LLMs (MLLM). In this paper, we introduce EMT: Evaluating MulTimodality for evaluating the catastrophic forgetting in MLLMs, by treating each MLLM as an image classifier. We first apply EMT to evaluate several open-source fine-tuned MLLMs and we discover that almost all evaluated MLLMs fail to retain the same performance levels as their vision encoders on standard image classification tasks. Moreover, we continue fine-tuning LLaVA, an MLLM and utilize EMT to assess performance throughout the fine-tuning. Interestingly, our results suggest that early-sta
     
-[^55]: 超越本地范围：全球图增强个性化新闻推荐
+[^56]: 超越本地范围：全球图增强个性化新闻推荐
 
     Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations. (arXiv:2307.06576v1 [cs.IR])
 
@@ -836,7 +851,7 @@
 
     Precisely recommending candidate news articles to users has always been a core challenge for personalized news recommendation systems. Most recent works primarily focus on using advanced natural language processing techniques to extract semantic information from rich textual data, employing content-based methods derived from local historical news. However, this approach lacks a global perspective, failing to account for users' hidden motivations and behaviors beyond semantic information. To address this challenge, we propose a novel model called GLORY (Global-LOcal news Recommendation sYstem), which combines global representations learned from other users with local representations to enhance personalized recommendation systems. We accomplish this by constructing a Global-aware Historical News Encoder, which includes a global news graph and employs gated graph neural networks to enrich news representations, thereby fusing historical news representations by a historical news aggregator.
     
-[^56]: MO-VLN:一个用于开放集合零样本视觉和语言导航的多任务基准 (arXiv:2306.10322v2 [cs.CV] 更新)
+[^57]: MO-VLN:一个用于开放集合零样本视觉和语言导航的多任务基准 (arXiv:2306.10322v2 [cs.CV] 更新)
 
     MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation. (arXiv:2306.10322v2 [cs.CV] UPDATED)
 
@@ -850,7 +865,7 @@
 
     Given a natural language, a general robot has to comprehend the instruction and find the target object or location based on visual observations even in unexplored environments. Most agents rely on massive diverse training data to achieve better generalization, which requires expensive labor. These agents often focus on common objects and fewer tasks, thus are not intelligent enough to handle different types of instructions. To facilitate research in open-set vision-and-language navigation, we propose a benchmark named MO-VLN, aiming at testing the effectiveness and generalization of the agent in the multi-task setting. First, we develop a 3D simulator rendered by realistic scenarios using Unreal Engine 5, containing more realistic lights and details. The simulator contains three scenes, i.e., cafe, restaurant, and nursing house, of high value in the industry. Besides, our simulator involves multiple uncommon objects, such as takeaway cup and medical adhesive tape, which are more compli
     
-[^57]: Med-UniC：通过减少偏见实现跨语言医学图像-语言预训练的统一
+[^58]: Med-UniC：通过减少偏见实现跨语言医学图像-语言预训练的统一
 
     Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias. (arXiv:2305.19894v2 [cs.CL] UPDATED)
 
@@ -864,7 +879,7 @@
 
     The scarcity of data presents a critical obstacle to the efficacy of medical visionlanguage pre-training (VLP). A potential solution lies in the combination of datasets from various language communities. Nevertheless, the main challenge stems from the complexity of integrating diverse syntax and semantics, language-specific medical terminology, and culture-specific implicit knowledge. Therefore, one crucial aspect to consider is the presence of community bias caused by different languages. This paper presents a novel framework named Unifying Cross-Lingual Medical Vision-Language Pre-Training (Med-UniC), designed to integrate multimodal medical data from the two most prevalent languages, English and Spanish. Specifically, we propose Cross-lingual Text Alignment Regularization (CTR) to explicitly unify cross-lingual semantic representations of medical reports originating from diverse language communities. CTR is optimized through latent language disentanglement, rendering our optimizatio
     
-[^58]: 利用语义先验细化的弱监督视觉-文本对齐
+[^59]: 利用语义先验细化的弱监督视觉-文本对齐
 
     Weakly-Supervised Visual-Textual Grounding with Semantic Prior Refinement. (arXiv:2305.10913v1 [cs.CV])
 
@@ -878,7 +893,7 @@
 
     Using only image-sentence pairs, weakly-supervised visual-textual grounding aims to learn region-phrase correspondences of the respective entity mentions. Compared to the supervised approach, learning is more difficult since bounding boxes and textual phrases correspondences are unavailable. In light of this, we propose the Semantic Prior Refinement Model (SPRM), whose predictions are obtained by combining the output of two main modules. The first untrained module aims to return a rough alignment between textual phrases and bounding boxes. The second trained module is composed of two sub-components that refine the rough alignment to improve the accuracy of the final phrase-bounding box alignments. The model is trained to maximize the multimodal similarity between an image and a sentence, while minimizing the multimodal similarity of the same sentence and a new unrelated image, carefully selected to help the most during training. Our approach shows state-of-the-art results on two popula
     
-[^59]: 如何为推荐基础模型索引项目ID
+[^60]: 如何为推荐基础模型索引项目ID
 
     How to Index Item IDs for Recommendation Foundation Models. (arXiv:2305.06569v1 [cs.IR])
 
@@ -892,7 +907,7 @@
 
     Recommendation foundation model utilizes large language models (LLM) for recommendation by converting recommendation tasks into natural language tasks. It enables generative recommendation which directly generates the item(s) to recommend rather than calculating a ranking score for each and every candidate item in traditional recommendation models, simplifying the recommendation pipeline from multi-stage filtering to single-stage filtering. To avoid generating excessively long text when deciding which item(s) to recommend, creating LLM-compatible item IDs is essential for recommendation foundation models. In this study, we systematically examine the item indexing problem for recommendation foundation models, using P5 as the representative backbone model and replicating its results with various indexing methods. To emphasize the importance of item indexing, we first discuss the issues of several trivial item indexing methods, such as independent indexing, title indexing, and random inde
     
-[^60]: 用无监督语音重构解开韵律表示的纠缠
+[^61]: 用无监督语音重构解开韵律表示的纠缠
 
     Disentangling Prosody Representations with Unsupervised Speech Reconstruction. (arXiv:2212.06972v2 [cs.SD] UPDATED)
 
@@ -906,7 +921,7 @@
 
     Human speech can be characterized by different components, including semantic content, speaker identity and prosodic information. Significant progress has been made in disentangling representations for semantic content and speaker identity in Automatic Speech Recognition (ASR) and speaker verification tasks respectively. However, it is still an open challenging research question to extract prosodic information because of the intrinsic association of different attributes, such as timbre and rhythm, and because of the need for supervised training schemes to achieve robust large-scale and speaker-independent ASR. The aim of this paper is to address the disentanglement of emotional prosody from speech based on unsupervised reconstruction. Specifically, we identify, design, implement and integrate three crucial components in our proposed speech reconstruction model Prosody2Vec: (1) a unit encoder that transforms speech signals into discrete units for semantic content, (2) a pretrained speak
     
-[^61]: 排列不变矩阵统计和计算语言任务
+[^62]: 排列不变矩阵统计和计算语言任务
 
     Permutation invariant matrix statistics and computational language tasks. (arXiv:2202.06829v2 [cs.CL] UPDATED)
 

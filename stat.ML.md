@@ -5,25 +5,26 @@
 | [^1] | [SGD Finds then Tunes Features in Two-Layer Neural Networks with near-Optimal Sample Complexity: A Case Study in the XOR problem.](http://arxiv.org/abs/2309.15111) | 本研究通过在两层神经网络上使用小批量SGD算法，在具有二次真实函数分隔数据的情况下，通过训练数量级为$d \:\text{polylog}(d)$的样本，将网络训练到了人口误差为$o(1)$的程度。这是首次在标准神经网络上以及标准训练下，展示了在各向同性数据上高效学习XOR函数的样本复杂度为$\tilde{O}(d)$。 |
 | [^2] | [Fixing the NTK: From Neural Network Linearizations to Exact Convex Programs.](http://arxiv.org/abs/2309.15096) | 本文从两个方向对深度神经网络进行理论分析，提供了通过神经切线核（NTK）和通过凸重塑ReLU网络的全局优化训练目标的方法。此外，我们还提出了一种与NTK相连的多核学习模型，称为门控ReLU网络，通过加权数据屏蔽特征映射来实现全局优化。 |
 | [^3] | [On Excess Risk Convergence Rates of Neural Network Classifiers.](http://arxiv.org/abs/2309.15075) | 本文研究了基于神经网络的插值分类器在二分类问题中的性能，通过超额风险来衡量。研究考虑了更一般的场景，使得神经网络可以轻松应用数值优化方法。虽然函数类很大，但无维度速率是可能的。 |
-| [^4] | [Reparameterized Variational Rejection Sampling.](http://arxiv.org/abs/2309.14612) | 本文提出了一种重参数化变分拒绝采样（VRS）方法，通过将参数化的提议分布与拒绝采样结合，定义了一个丰富的非参数分布族，明确利用已知的目标分布，为具有连续潜变量的模型提供了一种吸引人的推断策略。 |
-| [^5] | [Decoding trust: A reinforcement learning perspective.](http://arxiv.org/abs/2309.14598) | 这项研究通过使用强化学习算法揭示了在成对场景中高水平的信任和可信度是通过同时重视历史经验和未来回报来形成的。 |
-| [^6] | [Towards a statistical theory of data selection under weak supervision.](http://arxiv.org/abs/2309.14563) | 本研究针对弱监督下的数据选择进行了统计理论研究，通过实验证明数据选择可以非常有效，有时甚至可以战胜对整个样本的训练。并分析了在不同情况下的数据选择选择方法的有效性。 |
-| [^7] | [Cluster-based Method for Eavesdropping Identification and Localization in Optical Links.](http://arxiv.org/abs/2309.14541) | 本文提出了一种基于聚类的方法，用于在光线系统中检测和定位小功率损失的窃听事件。研究结果表明，通过光性能监测数据可以检测这种微小的窃听损失，同时通过在线数据可以有效地定位这类事件。 |
-| [^8] | [Byzantine-Resilient Federated PCA and Low Rank Matrix Recovery.](http://arxiv.org/abs/2309.14512) | 这项工作提出了一个拜占庭鲁棒、通信高效和私密的算法(Subspace-Median)来解决在联邦环境中估计对称矩阵主子空间的问题，同时还研究了联邦主成分分析（PCA）和水平联邦低秩列感知（LRCCS）的特殊情况，并展示了Subspace-Median算法的优势。 |
-| [^9] | [On the expressivity of embedding quantum kernels.](http://arxiv.org/abs/2309.14419) | 量子核方法是量子和经典机器学习之间最自然的联系之一。本文探讨了嵌入式量子核的表达能力，并得出结论：通过引入计算普适性，任何核函数都可以表示为量子特征映射和嵌入式量子核。 |
-| [^10] | [Pseudo Label Selection is a Decision Problem.](http://arxiv.org/abs/2309.13926) | 伪标签选择是半监督学习中的一种方法，通过嵌入决策理论，提出了BPLS框架来解决伪标签选择中的确认偏差问题。 |
-| [^11] | [Resilient Constrained Learning.](http://arxiv.org/abs/2306.02426) | 本论文提出了一个名为“抗干扰约束学习”的方法来解决在部署机器学习解决方案时需要满足除了准确性以外的多个要求，并以平衡从放宽中获得的性能增益与用户定义的放宽成本之间的关系的方式放松学习约束。 |
-| [^12] | [Borda Regret Minimization for Generalized Linear Dueling Bandits.](http://arxiv.org/abs/2303.08816) | 本文解决了通用广义线性对抗性排名问题中的博尔达后悔最小化问题，提出了高度表达力的模型，并使用一种新的“先探索再执行”算法避免了困难的后悔下限。 |
-| [^13] | [Understanding the Diffusion Objective as a Weighted Integral of ELBOs.](http://arxiv.org/abs/2303.00848) | 本文深入理解了扩散目标，并揭示了加权损失和ELBO目标之间的直接关系。 |
-| [^14] | [ddml: Double/debiased machine learning in Stata.](http://arxiv.org/abs/2301.09397) | ddml是Stata中的双重/无偏机器学习包，支持五种不同计量模型的因果参数估计，可以灵活估计内生变量的因果效应，在许多现有监督机器学习程序中兼容。推荐与堆叠估计结合使用，提供了蒙特卡洛证据支持。 |
-| [^15] | [Online Kernel CUSUM for Change-Point Detection.](http://arxiv.org/abs/2211.15070) | 本研究提出了一种在线变点检测的核CUSUM方法，相比于现有方法更敏感，提供了准确的关键性能指标分析，并建立了最优窗口长度，引入了递归计算程序来确保计算和内存复杂度恒定。 |
-| [^16] | [Finite-time analysis of single-timescale actor-critic.](http://arxiv.org/abs/2210.09921) | 这项研究提出了一种在线单时间尺度演员-评论家方法，通过线性函数逼近和马尔可夫样本更新，在连续状态空间中找到了一个$\epsilon$-近似的稳定点，并且在样本复杂度为$\widetilde{\mathcal{O}}(\epsilon^{-2})$的情况下证明了其收敛性。 |
-| [^17] | [Testing predictions of representation cost theory with CNNs.](http://arxiv.org/abs/2210.01257) | 通过理论和实验证明，训练的卷积神经网络（CNNs）对低频信号具有敏感性，这是因为自然图像的频率分布使大部分能量集中在低到中频。 |
-| [^18] | [Combinatorial and algebraic perspectives on the marginal independence structure of Bayesian networks.](http://arxiv.org/abs/2210.00822) | 本研究通过组合和代数视角探讨了贝叶斯网络的边际独立结构问题，并提出了一个基于 Gröbner 基础的 MCMC 方法 GrUES，该方法在恢复真实结构和估计后验上具有优势。 |
-| [^19] | [NN2Poly: A polynomial representation for deep feed-forward artificial neural networks.](http://arxiv.org/abs/2112.11397) | 本文提出了一种名为NN2Poly的方法，用于生成已经训练好的全连接前馈人工神经网络的精确多项式表示。该方法适用于任意深度的多层感知器（MLP）且计算成本相对较低，能够在回归和分类任务中提供非常准确的逼近结果。 |
-| [^20] | [Path Regularization: A Convexity and Sparsity Inducing Regularization for Parallel ReLU Networks.](http://arxiv.org/abs/2110.09548) | 路径正则化为并行ReLU网络提供了一种简化的凸优化问题，通过群稀疏性引导实现了凸模型，并提出了一个近似算法，在所有数据维度上具备完全多项式时间复杂度。 |
-| [^21] | [Continuous Treatment Recommendation with Deep Survival Dose Response Function.](http://arxiv.org/abs/2108.10453) | 本论文提出了一个通用公式，称为深度生存剂量反应函数（DeepSDRF），用于解决临床生存数据中的连续治疗推荐问题。通过校正选择偏差，DeepSDRF估计的治疗效果可以用于开发推荐算法。在模拟研究和实际医学数据库上的测试中，DeepSDRF表现出良好的性能。 |
-| [^22] | [Optimal Experimental Design for Staggered Rollouts.](http://arxiv.org/abs/1911.03764) | 本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。 |
+| [^4] | [SOFARI: High-Dimensional Manifold-Based Inference.](http://arxiv.org/abs/2309.15032) | 本研究提出了一种基于高维流形的SOFAR推断（SOFARI）方法，通过结合Neyman近正交推断和SVD约束的Stiefel流形结构，实现了对多任务学习中潜在因子矩阵的准确推断。 |
+| [^5] | [Reparameterized Variational Rejection Sampling.](http://arxiv.org/abs/2309.14612) | 本文提出了一种重参数化变分拒绝采样（VRS）方法，通过将参数化的提议分布与拒绝采样结合，定义了一个丰富的非参数分布族，明确利用已知的目标分布，为具有连续潜变量的模型提供了一种吸引人的推断策略。 |
+| [^6] | [Decoding trust: A reinforcement learning perspective.](http://arxiv.org/abs/2309.14598) | 这项研究通过使用强化学习算法揭示了在成对场景中高水平的信任和可信度是通过同时重视历史经验和未来回报来形成的。 |
+| [^7] | [Towards a statistical theory of data selection under weak supervision.](http://arxiv.org/abs/2309.14563) | 本研究针对弱监督下的数据选择进行了统计理论研究，通过实验证明数据选择可以非常有效，有时甚至可以战胜对整个样本的训练。并分析了在不同情况下的数据选择选择方法的有效性。 |
+| [^8] | [Cluster-based Method for Eavesdropping Identification and Localization in Optical Links.](http://arxiv.org/abs/2309.14541) | 本文提出了一种基于聚类的方法，用于在光线系统中检测和定位小功率损失的窃听事件。研究结果表明，通过光性能监测数据可以检测这种微小的窃听损失，同时通过在线数据可以有效地定位这类事件。 |
+| [^9] | [Byzantine-Resilient Federated PCA and Low Rank Matrix Recovery.](http://arxiv.org/abs/2309.14512) | 这项工作提出了一个拜占庭鲁棒、通信高效和私密的算法(Subspace-Median)来解决在联邦环境中估计对称矩阵主子空间的问题，同时还研究了联邦主成分分析（PCA）和水平联邦低秩列感知（LRCCS）的特殊情况，并展示了Subspace-Median算法的优势。 |
+| [^10] | [On the expressivity of embedding quantum kernels.](http://arxiv.org/abs/2309.14419) | 量子核方法是量子和经典机器学习之间最自然的联系之一。本文探讨了嵌入式量子核的表达能力，并得出结论：通过引入计算普适性，任何核函数都可以表示为量子特征映射和嵌入式量子核。 |
+| [^11] | [Pseudo Label Selection is a Decision Problem.](http://arxiv.org/abs/2309.13926) | 伪标签选择是半监督学习中的一种方法，通过嵌入决策理论，提出了BPLS框架来解决伪标签选择中的确认偏差问题。 |
+| [^12] | [Resilient Constrained Learning.](http://arxiv.org/abs/2306.02426) | 本论文提出了一个名为“抗干扰约束学习”的方法来解决在部署机器学习解决方案时需要满足除了准确性以外的多个要求，并以平衡从放宽中获得的性能增益与用户定义的放宽成本之间的关系的方式放松学习约束。 |
+| [^13] | [Borda Regret Minimization for Generalized Linear Dueling Bandits.](http://arxiv.org/abs/2303.08816) | 本文解决了通用广义线性对抗性排名问题中的博尔达后悔最小化问题，提出了高度表达力的模型，并使用一种新的“先探索再执行”算法避免了困难的后悔下限。 |
+| [^14] | [Understanding the Diffusion Objective as a Weighted Integral of ELBOs.](http://arxiv.org/abs/2303.00848) | 本文深入理解了扩散目标，并揭示了加权损失和ELBO目标之间的直接关系。 |
+| [^15] | [ddml: Double/debiased machine learning in Stata.](http://arxiv.org/abs/2301.09397) | ddml是Stata中的双重/无偏机器学习包，支持五种不同计量模型的因果参数估计，可以灵活估计内生变量的因果效应，在许多现有监督机器学习程序中兼容。推荐与堆叠估计结合使用，提供了蒙特卡洛证据支持。 |
+| [^16] | [Online Kernel CUSUM for Change-Point Detection.](http://arxiv.org/abs/2211.15070) | 本研究提出了一种在线变点检测的核CUSUM方法，相比于现有方法更敏感，提供了准确的关键性能指标分析，并建立了最优窗口长度，引入了递归计算程序来确保计算和内存复杂度恒定。 |
+| [^17] | [Finite-time analysis of single-timescale actor-critic.](http://arxiv.org/abs/2210.09921) | 这项研究提出了一种在线单时间尺度演员-评论家方法，通过线性函数逼近和马尔可夫样本更新，在连续状态空间中找到了一个$\epsilon$-近似的稳定点，并且在样本复杂度为$\widetilde{\mathcal{O}}(\epsilon^{-2})$的情况下证明了其收敛性。 |
+| [^18] | [Testing predictions of representation cost theory with CNNs.](http://arxiv.org/abs/2210.01257) | 通过理论和实验证明，训练的卷积神经网络（CNNs）对低频信号具有敏感性，这是因为自然图像的频率分布使大部分能量集中在低到中频。 |
+| [^19] | [Combinatorial and algebraic perspectives on the marginal independence structure of Bayesian networks.](http://arxiv.org/abs/2210.00822) | 本研究通过组合和代数视角探讨了贝叶斯网络的边际独立结构问题，并提出了一个基于 Gröbner 基础的 MCMC 方法 GrUES，该方法在恢复真实结构和估计后验上具有优势。 |
+| [^20] | [NN2Poly: A polynomial representation for deep feed-forward artificial neural networks.](http://arxiv.org/abs/2112.11397) | 本文提出了一种名为NN2Poly的方法，用于生成已经训练好的全连接前馈人工神经网络的精确多项式表示。该方法适用于任意深度的多层感知器（MLP）且计算成本相对较低，能够在回归和分类任务中提供非常准确的逼近结果。 |
+| [^21] | [Path Regularization: A Convexity and Sparsity Inducing Regularization for Parallel ReLU Networks.](http://arxiv.org/abs/2110.09548) | 路径正则化为并行ReLU网络提供了一种简化的凸优化问题，通过群稀疏性引导实现了凸模型，并提出了一个近似算法，在所有数据维度上具备完全多项式时间复杂度。 |
+| [^22] | [Continuous Treatment Recommendation with Deep Survival Dose Response Function.](http://arxiv.org/abs/2108.10453) | 本论文提出了一个通用公式，称为深度生存剂量反应函数（DeepSDRF），用于解决临床生存数据中的连续治疗推荐问题。通过校正选择偏差，DeepSDRF估计的治疗效果可以用于开发推荐算法。在模拟研究和实际医学数据库上的测试中，DeepSDRF表现出良好的性能。 |
+| [^23] | [Optimal Experimental Design for Staggered Rollouts.](http://arxiv.org/abs/1911.03764) | 本文研究了隔开式试验的最优设计问题。对于非自适应实验，提出了一个近似最优解；对于自适应实验，提出了一种新算法——精度导向的自适应实验（PGAE）算法，它使用贝叶斯决策理论来最大化估计治疗效果的预期精度。 |
 
 # 详细
 
@@ -69,7 +70,21 @@
 
     The recent success of neural networks in pattern recognition and classification problems suggests that neural networks possess qualities distinct from other more classical classifiers such as SVMs or boosting classifiers. This paper studies the performance of plug-in classifiers based on neural networks in a binary classification setting as measured by their excess risks. Compared to the typical settings imposed in the literature, we consider a more general scenario that resembles actual practice in two respects: first, the function class to be approximated includes the Barron functions as a proper subset, and second, the neural network classifier constructed is the minimizer of a surrogate loss instead of the $0$-$1$ loss so that gradient descent-based numerical optimizations can be easily applied. While the class of functions we consider is quite large that optimal rates cannot be faster than $n^{-\frac{1}{3}}$, it is a regime in which dimension-free rates are possible and approximat
     
-[^4]: 重参数化变分拒绝采样
+[^4]: SOFARI:基于高维流形的推断
+
+    SOFARI: High-Dimensional Manifold-Based Inference. (arXiv:2309.15032v1 [stat.ME])
+
+    [http://arxiv.org/abs/2309.15032](http://arxiv.org/abs/2309.15032)
+
+    本研究提出了一种基于高维流形的SOFAR推断（SOFARI）方法，通过结合Neyman近正交推断和SVD约束的Stiefel流形结构，实现了对多任务学习中潜在因子矩阵的准确推断。
+
+    
+
+    多任务学习是一种广泛使用的技术，用于从各种任务中提取信息。最近，基于系数矩阵中的稀疏奇异值分解（SVD）的稀疏正交因子回归（SOFAR）框架被引入到可解释的多任务学习中，可以发现不同层次之间有意义的潜在特征-响应关联网络。然而，由于稀疏SVD约束的正交性约束，对潜在因子矩阵进行精确推断仍然具有挑战性。在本文中，我们提出了一种新颖的方法，称为基于高维流形的SOFAR推断（SOFARI），借鉴了Neyman近正交推断，并结合了SVD约束所施加的Stiefel流形结构。通过利用潜在的Stiefel流形结构，SOFARI为潜在左因子向量和奇异值提供了偏差校正的估计量。
+
+    Multi-task learning is a widely used technique for harnessing information from various tasks. Recently, the sparse orthogonal factor regression (SOFAR) framework, based on the sparse singular value decomposition (SVD) within the coefficient matrix, was introduced for interpretable multi-task learning, enabling the discovery of meaningful latent feature-response association networks across different layers. However, conducting precise inference on the latent factor matrices has remained challenging due to orthogonality constraints inherited from the sparse SVD constraint. In this paper, we suggest a novel approach called high-dimensional manifold-based SOFAR inference (SOFARI), drawing on the Neyman near-orthogonality inference while incorporating the Stiefel manifold structure imposed by the SVD constraints. By leveraging the underlying Stiefel manifold structure, SOFARI provides bias-corrected estimators for both latent left factor vectors and singular values, for which we show to enj
+    
+[^5]: 重参数化变分拒绝采样
 
     Reparameterized Variational Rejection Sampling. (arXiv:2309.14612v1 [stat.ML])
 
@@ -83,7 +98,7 @@
 
     Traditional approaches to variational inference rely on parametric families of variational distributions, with the choice of family playing a critical role in determining the accuracy of the resulting posterior approximation. Simple mean-field families often lead to poor approximations, while rich families of distributions like normalizing flows can be difficult to optimize and usually do not incorporate the known structure of the target distribution due to their black-box nature. To expand the space of flexible variational families, we revisit Variational Rejection Sampling (VRS) [Grover et al., 2018], which combines a parametric proposal distribution with rejection sampling to define a rich non-parametric family of distributions that explicitly utilizes the known target distribution. By introducing a low-variance reparameterized gradient estimator for the parameters of the proposal distribution, we make VRS an attractive inference strategy for models with continuous latent variables.
     
-[^5]: 解读信任:强化学习视角
+[^6]: 解读信任:强化学习视角
 
     Decoding trust: A reinforcement learning perspective. (arXiv:2309.14598v1 [q-bio.PE])
 
@@ -97,7 +112,7 @@
 
     Behavioral experiments on the trust game have shown that trust and trustworthiness are universal among human beings, contradicting the prediction by assuming \emph{Homo economicus} in orthodox Economics. This means some mechanism must be at work that favors their emergence. Most previous explanations however need to resort to some factors based upon imitative learning, a simple version of social learning. Here, we turn to the paradigm of reinforcement learning, where individuals update their strategies by evaluating the long-term return through accumulated experience. Specifically, we investigate the trust game with the Q-learning algorithm, where each participant is associated with two evolving Q-tables that guide one's decision making as trustor and trustee respectively. In the pairwise scenario, we reveal that high levels of trust and trustworthiness emerge when individuals appreciate both their historical experience and returns in the future. Mechanistically, the evolution of the Q
     
-[^6]: 面向弱监督下的数据选择统计理论
+[^7]: 面向弱监督下的数据选择统计理论
 
     Towards a statistical theory of data selection under weak supervision. (arXiv:2309.14563v1 [stat.ML])
 
@@ -111,7 +126,7 @@
 
     Given a sample of size $N$, it is often useful to select a subsample of smaller size $n<N$ to be used for statistical estimation or learning. Such a data selection step is useful to reduce the requirements of data labeling and the computational complexity of learning. We assume to be given $N$ unlabeled samples $\{{\boldsymbol x}_i\}_{i\le N}$, and to be given access to a `surrogate model' that can predict labels $y_i$ better than random guessing. Our goal is to select a subset of the samples, to be denoted by $\{{\boldsymbol x}_i\}_{i\in G}$, of size $|G|=n<N$. We then acquire labels for this set and we use them to train a model via regularized empirical risk minimization.  By using a mixture of numerical experiments on real and synthetic data, and mathematical derivations under low- and high- dimensional asymptotics, we show that: $(i)$~Data selection can be very effective, in particular beating training on the full sample in some cases; $(ii)$~Certain popular choices in data selecti
     
-[^7]: 光链路中的窃听识别和定位的基于聚类的方法
+[^8]: 光链路中的窃听识别和定位的基于聚类的方法
 
     Cluster-based Method for Eavesdropping Identification and Localization in Optical Links. (arXiv:2309.14541v1 [stat.ML])
 
@@ -125,7 +140,7 @@
 
     We propose a cluster-based method to detect and locate eavesdropping events in optical line systems characterized by small power losses. Our findings indicate that detecting such subtle losses from eavesdropping can be accomplished solely through optical performance monitoring (OPM) data collected at the receiver. On the other hand, the localization of such events can be effectively achieved by leveraging in-line OPM data.
     
-[^8]: 拜占庭鲁棒的联邦PCA和低秩矩阵恢复
+[^9]: 拜占庭鲁棒的联邦PCA和低秩矩阵恢复
 
     Byzantine-Resilient Federated PCA and Low Rank Matrix Recovery. (arXiv:2309.14512v1 [cs.IT])
 
@@ -139,7 +154,7 @@
 
     In this work we consider the problem of estimating the principal subspace (span of the top r singular vectors) of a symmetric matrix in a federated setting, when each node has access to estimates of this matrix. We study how to make this problem Byzantine resilient. We introduce a novel provably Byzantine-resilient, communication-efficient, and private algorithm, called Subspace-Median, to solve it. We also study the most natural solution for this problem, a geometric median based modification of the federated power method, and explain why it is not useful. We consider two special cases of the resilient subspace estimation meta-problem - federated principal components analysis (PCA) and the spectral initialization step of horizontally federated low rank column-wise sensing (LRCCS) in this work. For both these problems we show how Subspace Median provides a resilient solution that is also communication-efficient. Median of Means extensions are developed for both problems. Extensive simu
     
-[^9]: 关于嵌入式量子核的表达能力
+[^10]: 关于嵌入式量子核的表达能力
 
     On the expressivity of embedding quantum kernels. (arXiv:2309.14419v1 [quant-ph])
 
@@ -153,7 +168,7 @@
 
     One of the most natural connections between quantum and classical machine learning has been established in the context of kernel methods. Kernel methods rely on kernels, which are inner products of feature vectors living in large feature spaces. Quantum kernels are typically evaluated by explicitly constructing quantum feature states and then taking their inner product, here called embedding quantum kernels. Since classical kernels are usually evaluated without using the feature vectors explicitly, we wonder how expressive embedding quantum kernels are. In this work, we raise the fundamental question: can all quantum kernels be expressed as the inner product of quantum feature states? Our first result is positive: Invoking computational universality, we find that for any kernel function there always exists a corresponding quantum feature map and an embedding quantum kernel. The more operational reading of the question is concerned with efficient constructions, however. In a second part
     
-[^10]: 伪标签选择是一个决策问题
+[^11]: 伪标签选择是一个决策问题
 
     Pseudo Label Selection is a Decision Problem. (arXiv:2309.13926v1 [cs.LG])
 
@@ -167,7 +182,7 @@
 
     Pseudo-Labeling is a simple and effective approach to semi-supervised learning. It requires criteria that guide the selection of pseudo-labeled data. The latter have been shown to crucially affect pseudo-labeling's generalization performance. Several such criteria exist and were proven to work reasonably well in practice. However, their performance often depends on the initial model fit on labeled data. Early overfitting can be propagated to the final model by choosing instances with overconfident but wrong predictions, often called confirmation bias. In two recent works, we demonstrate that pseudo-label selection (PLS) can be naturally embedded into decision theory. This paves the way for BPLS, a Bayesian framework for PLS that mitigates the issue of confirmation bias. At its heart is a novel selection criterion: an analytical approximation of the posterior predictive of pseudo-samples and labeled data. We derive this selection criterion by proving Bayes-optimality of this "pseudo pos
     
-[^11]: 抗干扰约束学习
+[^12]: 抗干扰约束学习
 
     Resilient Constrained Learning. (arXiv:2306.02426v1 [cs.LG])
 
@@ -181,7 +196,7 @@
 
     When deploying machine learning solutions, they must satisfy multiple requirements beyond accuracy, such as fairness, robustness, or safety. These requirements are imposed during training either implicitly, using penalties, or explicitly, using constrained optimization methods based on Lagrangian duality. Either way, specifying requirements is hindered by the presence of compromises and limited prior knowledge about the data. Furthermore, their impact on performance can often only be evaluated by actually solving the learning problem. This paper presents a constrained learning approach that adapts the requirements while simultaneously solving the learning task. To do so, it relaxes the learning constraints in a way that contemplates how much they affect the task at hand by balancing the performance gains obtained from the relaxation against a user-defined cost of that relaxation. We call this approach resilient constrained learning after the term used to describe ecological systems tha
     
-[^12]: Borda Regret Minimization for Generalized Linear Dueling Bandits (通用广义线性对抗性排名问题的博尔达后悔最小化算法)
+[^13]: Borda Regret Minimization for Generalized Linear Dueling Bandits (通用广义线性对抗性排名问题的博尔达后悔最小化算法)
 
     Borda Regret Minimization for Generalized Linear Dueling Bandits. (arXiv:2303.08816v1 [cs.LG])
 
@@ -195,7 +210,7 @@
 
     Dueling bandits are widely used to model preferential feedback that is prevalent in machine learning applications such as recommendation systems and ranking. In this paper, we study the Borda regret minimization problem for dueling bandits, which aims to identify the item with the highest Borda score while minimizing the cumulative regret. We propose a new and highly expressive generalized linear dueling bandits model, which covers many existing models. Surprisingly, the Borda regret minimization problem turns out to be difficult, as we prove a regret lower bound of order $\Omega(d^{2/3} T^{2/3})$, where $d$ is the dimension of contextual vectors and $T$ is the time horizon. To attain the lower bound, we propose an explore-then-commit type algorithm, which has a nearly matching regret upper bound $\tilde{O}(d^{2/3} T^{2/3})$. When the number of items/arms $K$ is small, our algorithm can achieve a smaller regret $\tilde{O}( (d \log K)^{1/3} T^{2/3})$ with proper choices of hyperparamete
     
-[^13]: 以ELBOs的加权积分理解扩散目标
+[^14]: 以ELBOs的加权积分理解扩散目标
 
     Understanding the Diffusion Objective as a Weighted Integral of ELBOs. (arXiv:2303.00848v2 [cs.LG] UPDATED)
 
@@ -209,7 +224,7 @@
 
     Diffusion models in the literature are optimized with various objectives that are special cases of a weighted loss, where the weighting function specifies the weight per noise level. Uniform weighting corresponds to maximizing the ELBO, a principled approximation of maximum likelihood. In current practice diffusion models are optimized with non-uniform weighting due to better results in terms of sample quality. In this work we expose a direct relationship between the weighted loss (with any weighting) and the ELBO objective.  We show that the weighted loss can be written as a weighted integral of ELBOs, with one ELBO per noise level. If the weighting function is monotonic, then the weighted loss is a likelihood-based objective: it maximizes the ELBO under simple data augmentation, namely Gaussian noise perturbation. Our main contribution is a deeper theoretical understanding of the diffusion objective, but we also performed some experiments comparing monotonic with non-monotonic weight
     
-[^14]: ddml: Stata中的双重/无偏机器学习
+[^15]: ddml: Stata中的双重/无偏机器学习
 
     ddml: Double/debiased machine learning in Stata. (arXiv:2301.09397v2 [econ.EM] UPDATED)
 
@@ -223,7 +238,7 @@
 
     We introduce the package ddml for Double/Debiased Machine Learning (DDML) in Stata. Estimators of causal parameters for five different econometric models are supported, allowing for flexible estimation of causal effects of endogenous variables in settings with unknown functional forms and/or many exogenous variables. ddml is compatible with many existing supervised machine learning programs in Stata. We recommend using DDML in combination with stacking estimation which combines multiple machine learners into a final predictor. We provide Monte Carlo evidence to support our recommendation.
     
-[^15]: 在线核CUSUM方法进行变点检测
+[^16]: 在线核CUSUM方法进行变点检测
 
     Online Kernel CUSUM for Change-Point Detection. (arXiv:2211.15070v3 [stat.ME] UPDATED)
 
@@ -237,7 +252,7 @@
 
     We propose an efficient online kernel Cumulative Sum (CUSUM) method for change-point detection that utilizes the maximum over a set of kernel statistics to account for the unknown change-point location. Our approach exhibits increased sensitivity to small changes compared to existing methods, such as the Scan-B statistic, which corresponds to a non-parametric Shewhart chart-type procedure. We provide accurate analytic approximations for two key performance metrics: the Average Run Length (ARL) and Expected Detection Delay (EDD), which enable us to establish an optimal window length on the order of the logarithm of ARL to ensure minimal power loss relative to an oracle procedure with infinite memory. Such a finding parallels the classic result for window-limited Generalized Likelihood Ratio (GLR) procedure in parametric change-point detection literature. Moreover, we introduce a recursive calculation procedure for detection statistics to ensure constant computational and memory complexi
     
-[^16]: 单时间尺度演员-评论家法的有限时间分析
+[^17]: 单时间尺度演员-评论家法的有限时间分析
 
     Finite-time analysis of single-timescale actor-critic. (arXiv:2210.09921v3 [cs.LG] UPDATED)
 
@@ -251,7 +266,7 @@
 
     Actor-critic methods have achieved significant success in many challenging applications. However, its finite-time convergence is still poorly understood in the most practical single-timescale form. Existing works on analyzing single-timescale actor-critic have been limited to i.i.d. sampling or tabular setting for simplicity. We investigate the more practical online single-timescale actor-critic algorithm on continuous state space, where the critic assumes linear function approximation and updates with a single Markovian sample per actor step. Previous analysis has been unable to establish the convergence for such a challenging scenario. We demonstrate that the online single-timescale actor-critic method provably finds an $\epsilon$-approximate stationary point with $\widetilde{\mathcal{O}}(\epsilon^{-2})$ sample complexity under standard assumptions, which can be further improved to $\mathcal{O}(\epsilon^{-2})$ under the i.i.d. sampling. Our novel framework systematically evaluates an
     
-[^17]: 使用CNN来测试表示成本理论的预测
+[^18]: 使用CNN来测试表示成本理论的预测
 
     Testing predictions of representation cost theory with CNNs. (arXiv:2210.01257v3 [cs.LG] UPDATED)
 
@@ -265,7 +280,7 @@
 
     It is widely acknowledged that trained convolutional neural networks (CNNs) have different levels of sensitivity to signals of different frequency. In particular, a number of empirical studies have documented CNNs sensitivity to low-frequency signals. In this work we show with theory and experiments that this observed sensitivity is a consequence of the frequency distribution of natural images, which is known to have most of its power concentrated in low-to-mid frequencies. Our theoretical analysis relies on representations of the layers of a CNN in frequency space, an idea that has previously been used to accelerate computations and study implicit bias of network training algorithms, but to the best of our knowledge has not been applied in the domain of model robustness.
     
-[^18]: 关于贝叶斯网络边际独立结构的组合和代数视角
+[^19]: 关于贝叶斯网络边际独立结构的组合和代数视角
 
     Combinatorial and algebraic perspectives on the marginal independence structure of Bayesian networks. (arXiv:2210.00822v2 [stat.ME] UPDATED)
 
@@ -279,7 +294,7 @@
 
     We consider the problem of estimating the marginal independence structure of a Bayesian network from observational data in the form of an undirected graph called the unconditional dependence graph. We show that unconditional dependence graphs of Bayesian networks correspond to the graphs having equal independence and intersection numbers. Using this observation, a Gr\"obner basis for a toric ideal associated to unconditional dependence graphs of Bayesian networks is given and then extended by additional binomial relations to connect the space of all such graphs. An MCMC method, called GrUES (Gr\"obner-based Unconditional Equivalence Search), is implemented based on the resulting moves and applied to synthetic Gaussian data. GrUES recovers the true marginal independence structure via a penalized maximum likelihood or MAP estimate at a higher rate than simple independence tests while also yielding an estimate of the posterior, for which the $20\%$ HPD credible sets include the true struc
     
-[^19]: NN2Poly：用于深度前馈人工神经网络的多项式表示方法
+[^20]: NN2Poly：用于深度前馈人工神经网络的多项式表示方法
 
     NN2Poly: A polynomial representation for deep feed-forward artificial neural networks. (arXiv:2112.11397v3 [stat.ML] UPDATED)
 
@@ -293,7 +308,7 @@
 
     Interpretability of neural networks and their underlying theoretical behavior remain an open field of study even after the great success of their practical applications, particularly with the emergence of deep learning. In this work, NN2Poly is proposed: a theoretical approach to obtain an explicit polynomial model that provides an accurate representation of an already trained fully-connected feed-forward artificial neural network (a multilayer perceptron or MLP). This approach extends a previous idea proposed in the literature, which was limited to single hidden layer networks, to work with arbitrarily deep MLPs in both regression and classification tasks. The objective of this paper is to achieve this by using a Taylor expansion on the activation function, at each layer, and then using several combinatorial properties to calculate the coefficients of the desired polynomials. Discussion is presented on the main computational challenges of this method, and the way to overcome them by i
     
-[^20]: 路径正则化：一种对并行ReLU网络进行凸性和稀疏性引导的正则化方法
+[^21]: 路径正则化：一种对并行ReLU网络进行凸性和稀疏性引导的正则化方法
 
     Path Regularization: A Convexity and Sparsity Inducing Regularization for Parallel ReLU Networks. (arXiv:2110.09548v4 [cs.LG] UPDATED)
 
@@ -307,7 +322,7 @@
 
     Understanding the fundamental principles behind the success of deep neural networks is one of the most important open questions in the current literature. To this end, we study the training problem of deep neural networks and introduce an analytic approach to unveil hidden convexity in the optimization landscape. We consider a deep parallel ReLU network architecture, which also includes standard deep networks and ResNets as its special cases. We then show that pathwise regularized training problems can be represented as an exact convex optimization problem. We further prove that the equivalent convex problem is regularized via a group sparsity inducing norm. Thus, a path regularized parallel ReLU network can be viewed as a parsimonious convex model in high dimensions. More importantly, since the original training problem may not be trainable in polynomial-time, we propose an approximate algorithm with a fully polynomial-time complexity in all data dimensions. Then, we prove strong glob
     
-[^21]: 深度生存剂量反应函数的连续治疗推荐
+[^22]: 深度生存剂量反应函数的连续治疗推荐
 
     Continuous Treatment Recommendation with Deep Survival Dose Response Function. (arXiv:2108.10453v5 [stat.ML] UPDATED)
 
@@ -321,7 +336,7 @@
 
     We propose a general formulation for continuous treatment recommendation problems in settings with clinical survival data, which we call the Deep Survival Dose Response Function (DeepSDRF). That is, we consider the problem of learning the conditional average dose response (CADR) function solely from historical data in which observed factors (confounders) affect both observed treatment and time-to-event outcomes. The estimated treatment effect from DeepSDRF enables us to develop recommender algorithms with the correction for selection bias. We compared two recommender approaches based on random search and reinforcement learning and found similar performance in terms of patient outcome. We tested the DeepSDRF and the corresponding recommender on extensive simulation studies and the eICU Research Institute (eRI) database. To the best of our knowledge, this is the first time that causal models are used to address the continuous treatment effect with observational data in a medical context.
     
-[^22]: 隔开式试验的最优设计
+[^23]: 隔开式试验的最优设计
 
     Optimal Experimental Design for Staggered Rollouts. (arXiv:1911.03764v5 [econ.EM] UPDATED)
 
