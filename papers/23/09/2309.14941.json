@@ -1,0 +1,12 @@
+{
+    "title": "Learning Generative Models for Climbing Aircraft from Radar Data. (arXiv:2309.14941v1 [eess.SY])",
+    "abstract": "Accurate trajectory prediction (TP) for climbing aircraft is hampered by the presence of epistemic uncertainties concerning aircraft operation, which can lead to significant misspecification between predicted and observed trajectories. This paper proposes a generative model for climbing aircraft in which the standard Base of Aircraft Data (BADA) model is enriched by a functional correction to the thrust that is learned from data. The method offers three features: predictions of the arrival time with 66.3% less error when compared to BADA; generated trajectories that are realistic when compared to test data; and a means of computing confidence bounds for minimal computational cost.",
+    "link": "http://arxiv.org/abs/2309.14941",
+    "context": "Title: Learning Generative Models for Climbing Aircraft from Radar Data. (arXiv:2309.14941v1 [eess.SY])\nAbstract: Accurate trajectory prediction (TP) for climbing aircraft is hampered by the presence of epistemic uncertainties concerning aircraft operation, which can lead to significant misspecification between predicted and observed trajectories. This paper proposes a generative model for climbing aircraft in which the standard Base of Aircraft Data (BADA) model is enriched by a functional correction to the thrust that is learned from data. The method offers three features: predictions of the arrival time with 66.3% less error when compared to BADA; generated trajectories that are realistic when compared to test data; and a means of computing confidence bounds for minimal computational cost.",
+    "path": "papers/23/09/2309.14941.json",
+    "total_tokens": 780,
+    "translated_title": "从雷达数据学习攀升飞机的生成模型",
+    "translated_abstract": "攀升飞机的准确轨迹预测受到机载设备操作的不确定性的影响，可能导致预测轨迹与观测轨迹之间存在显著的差异。本文提出了一种生成模型，通过从数据中学习修正推力的函数来丰富标准的飞机基础数据（BADA）模型。该方法具有三个特点：与BADA相比，到达时间的预测误差减少了66.3%；生成的轨迹与测试数据相比更加真实；并且能够以最小的计算成本计算置信区间。",
+    "tldr": "本文提出了一种利用雷达数据学习的生成模型，能够准确预测攀升飞机的轨迹，并通过学习修正推力的函数来提高预测准确性。该方法的优势包括：与标准模型相比，到达时间的预测误差减少了66.3%；生成的轨迹与测试数据相比更加真实；并且能够以最小的计算成本计算置信区间。",
+    "en_tdlr": "This paper proposes a generative model for climbing aircraft based on radar data, which accurately predicts trajectory by learning a functional correction to the thrust. The method offers improved accuracy in arrival time prediction, realistic generated trajectories, and efficient computation of confidence bounds."
+}

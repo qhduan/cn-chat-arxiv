@@ -1,0 +1,12 @@
+{
+    "title": "Cluster-based Method for Eavesdropping Identification and Localization in Optical Links. (arXiv:2309.14541v1 [stat.ML])",
+    "abstract": "We propose a cluster-based method to detect and locate eavesdropping events in optical line systems characterized by small power losses. Our findings indicate that detecting such subtle losses from eavesdropping can be accomplished solely through optical performance monitoring (OPM) data collected at the receiver. On the other hand, the localization of such events can be effectively achieved by leveraging in-line OPM data.",
+    "link": "http://arxiv.org/abs/2309.14541",
+    "context": "Title: Cluster-based Method for Eavesdropping Identification and Localization in Optical Links. (arXiv:2309.14541v1 [stat.ML])\nAbstract: We propose a cluster-based method to detect and locate eavesdropping events in optical line systems characterized by small power losses. Our findings indicate that detecting such subtle losses from eavesdropping can be accomplished solely through optical performance monitoring (OPM) data collected at the receiver. On the other hand, the localization of such events can be effectively achieved by leveraging in-line OPM data.",
+    "path": "papers/23/09/2309.14541.json",
+    "total_tokens": 623,
+    "translated_title": "光链路中的窃听识别和定位的基于聚类的方法",
+    "translated_abstract": "我们提出了一种基于聚类的方法，用于检测和定位光线系统中小功率损失的窃听事件。我们的研究结果表明，光性能监测（OPM）数据仅通过接收器收集就可以检测到这种微小的窃听损失。另一方面，通过利用在线OPM数据可以有效地实现对这类事件的定位。",
+    "tldr": "本文提出了一种基于聚类的方法，用于在光线系统中检测和定位小功率损失的窃听事件。研究结果表明，通过光性能监测数据可以检测这种微小的窃听损失，同时通过在线数据可以有效地定位这类事件。",
+    "en_tdlr": "This paper proposes a cluster-based method for detecting and locating eavesdropping events with small power losses in optical line systems. The findings suggest that such subtle losses can be detected through optical performance monitoring data collected at the receiver and effectively located using in-line monitoring data."
+}

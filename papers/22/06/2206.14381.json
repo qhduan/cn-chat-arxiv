@@ -1,0 +1,11 @@
+{
+    "title": "Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022. (arXiv:2206.14381v2 [cs.CV] UPDATED)",
+    "abstract": "In this report, we present our approach for EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022. We first parse sentences into semantic roles corresponding to verbs and nouns; then utilize self-attentions to exploit semantic role contextualized video features along with textual features via triplet losses in multiple embedding spaces. Our method overpasses the strong baseline in normalized Discounted Cumulative Gain (nDCG), which is more valuable for semantic similarity. Our submission is ranked 3rd for nDCG and ranked 4th for mAP.",
+    "link": "http://arxiv.org/abs/2206.14381",
+    "context": "Title: Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022. (arXiv:2206.14381v2 [cs.CV] UPDATED)\nAbstract: In this report, we present our approach for EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022. We first parse sentences into semantic roles corresponding to verbs and nouns; then utilize self-attentions to exploit semantic role contextualized video features along with textual features via triplet losses in multiple embedding spaces. Our method overpasses the strong baseline in normalized Discounted Cumulative Gain (nDCG), which is more valuable for semantic similarity. Our submission is ranked 3rd for nDCG and ranked 4th for mAP.",
+    "path": "papers/22/06/2206.14381.json",
+    "total_tokens": 791,
+    "translated_title": "利用语义角色上下文化的视频特征在EPIC-KITCHENS-100多实例文本-视频检索挑战2022中的应用",
+    "translated_abstract": "在这篇报告中，我们介绍了我们在EPIC-KITCHENS-100多实例检索挑战2022中的方法。我们首先将句子解析为与动词和名词相对应的语义角色；然后利用自注意力机制在多个嵌入空间中通过三元损失函数利用语义角色上下文化的视频特征和文本特征。我们的方法在标准化折扣累计增益（nDCG）方面超过了强基线，这对于语义相似度更有价值。我们的提交在nDCG排名第三，在mAP排名第四。",
+    "tldr": "本论文提出了一种在EPIC-KITCHENS-100多实例检索挑战2022中利用语义角色上下文化的视频特征进行文本-视频检索的方法，通过三元损失函数在多个嵌入空间中融合视频和文本特征，超过了强基线，在nDCG和mAP方面获得了较好的排名。"
+}

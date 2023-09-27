@@ -1,0 +1,12 @@
+{
+    "title": "Agree To Disagree. (arXiv:2309.14382v1 [cs.CL])",
+    "abstract": "How frequently do individuals thoroughly review terms and conditions before proceeding to register for a service, install software, or access a website? The majority of internet users do not engage in this practice. This trend is not surprising, given that terms and conditions typically consist of lengthy documents replete with intricate legal terminology and convoluted sentences. In this paper, we introduce a Machine Learning-powered approach designed to automatically parse and summarize critical information in a user-friendly manner. This technology focuses on distilling the pertinent details that users should contemplate before committing to an agreement.",
+    "link": "http://arxiv.org/abs/2309.14382",
+    "context": "Title: Agree To Disagree. (arXiv:2309.14382v1 [cs.CL])\nAbstract: How frequently do individuals thoroughly review terms and conditions before proceeding to register for a service, install software, or access a website? The majority of internet users do not engage in this practice. This trend is not surprising, given that terms and conditions typically consist of lengthy documents replete with intricate legal terminology and convoluted sentences. In this paper, we introduce a Machine Learning-powered approach designed to automatically parse and summarize critical information in a user-friendly manner. This technology focuses on distilling the pertinent details that users should contemplate before committing to an agreement.",
+    "path": "papers/23/09/2309.14382.json",
+    "total_tokens": 655,
+    "translated_title": "同意不同意",
+    "translated_abstract": "在注册服务、安装软件或访问网站之前，个人有多频繁地仔细审查条款和条件？大多数互联网用户并不参与这种做法。鉴于条款和条件通常包含大量复杂的法律术语和晦涩难懂的句子，这种趋势并不令人意外。本文介绍了一种基于机器学习的方法，旨在以用户友好的方式自动解析和总结关键信息。这项技术专注于提取用户在承诺协议之前应考虑的相关细节。",
+    "tldr": "\"同意不同意\"论文提出了一种基于机器学习的方法，旨在自动解析和总结使用户便于理解的关键信息，以帮助用户在承诺协议之前考虑重要细节。",
+    "en_tdlr": "The \"Agree To Disagree\" paper introduces a machine learning-powered approach to automatically parse and summarize critical information in a user-friendly manner, helping users consider important details before committing to an agreement."
+}

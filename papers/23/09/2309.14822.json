@@ -1,0 +1,11 @@
+{
+    "title": "OS-net: Orbitally Stable Neural Networks. (arXiv:2309.14822v1 [math.DS])",
+    "abstract": "We introduce OS-net (Orbitally Stable neural NETworks), a new family of neural network architectures specifically designed for periodic dynamical data. OS-net is a special case of Neural Ordinary Differential Equations (NODEs) and takes full advantage of the adjoint method based backpropagation method. Utilizing ODE theory, we derive conditions on the network weights to ensure stability of the resulting dynamics. We demonstrate the efficacy of our approach by applying OS-net to discover the dynamics underlying the R\\\"{o}ssler and Sprott's systems, two dynamical systems known for their period doubling attractors and chaotic behavior.",
+    "link": "http://arxiv.org/abs/2309.14822",
+    "context": "Title: OS-net: Orbitally Stable Neural Networks. (arXiv:2309.14822v1 [math.DS])\nAbstract: We introduce OS-net (Orbitally Stable neural NETworks), a new family of neural network architectures specifically designed for periodic dynamical data. OS-net is a special case of Neural Ordinary Differential Equations (NODEs) and takes full advantage of the adjoint method based backpropagation method. Utilizing ODE theory, we derive conditions on the network weights to ensure stability of the resulting dynamics. We demonstrate the efficacy of our approach by applying OS-net to discover the dynamics underlying the R\\\"{o}ssler and Sprott's systems, two dynamical systems known for their period doubling attractors and chaotic behavior.",
+    "path": "papers/23/09/2309.14822.json",
+    "total_tokens": 710,
+    "translated_title": "OS-net: 轨道稳定神经网络",
+    "translated_abstract": "我们引入了OS-net（轨道稳定神经网络），一种专门设计用于周期动力数据的神经网络架构。OS-net是神经常微分方程（NODEs）的特例，并充分利用基于伴随方法的反向传播方法。利用常微分方程理论，我们推导了网络权重的条件，以确保所得动力学的稳定性。通过将OS-net应用于发现R\\\"{o}ssler和Sprott系统的动力学，我们证明了我们方法的有效性，这两个动力系统因其倍频吸引子和混沌行为而闻名。",
+    "tldr": "OS-net是一种专门用于周期动力数据的神经网络架构，通过利用常微分方程理论和伴随方法的反向传播方法，确保网络权重的稳定性，成功应用于发现R\\\"{o}ssler和Sprott系统的动力学。"
+}

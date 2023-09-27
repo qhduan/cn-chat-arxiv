@@ -1,0 +1,11 @@
+{
+    "title": "QUILT: Effective Multi-Class Classification on Quantum Computers Using an Ensemble of Diverse Quantum Classifiers. (arXiv:2309.15056v1 [quant-ph])",
+    "abstract": "Quantum computers can theoretically have significant acceleration over classical computers; but, the near-future era of quantum computing is limited due to small number of qubits that are also error prone. Quilt is a framework for performing multi-class classification task designed to work effectively on current error-prone quantum computers. Quilt is evaluated with real quantum machines as well as with projected noise levels as quantum machines become more noise-free. Quilt demonstrates up to 85% multi-class classification accuracy with the MNIST dataset on a five-qubit system.",
+    "link": "http://arxiv.org/abs/2309.15056",
+    "context": "Title: QUILT: Effective Multi-Class Classification on Quantum Computers Using an Ensemble of Diverse Quantum Classifiers. (arXiv:2309.15056v1 [quant-ph])\nAbstract: Quantum computers can theoretically have significant acceleration over classical computers; but, the near-future era of quantum computing is limited due to small number of qubits that are also error prone. Quilt is a framework for performing multi-class classification task designed to work effectively on current error-prone quantum computers. Quilt is evaluated with real quantum machines as well as with projected noise levels as quantum machines become more noise-free. Quilt demonstrates up to 85% multi-class classification accuracy with the MNIST dataset on a five-qubit system.",
+    "path": "papers/23/09/2309.15056.json",
+    "total_tokens": 668,
+    "translated_title": "QUILT：使用多样化的量子分类器集合在量子计算机上进行有效的多类分类",
+    "translated_abstract": "量子计算机在理论上可以比经典计算机有显著的加速，但由于量子比特数量有限且容易出错，量子计算机的近期发展受到限制。Quilt是一个框架，用于在当前容易出错的量子计算机上有效执行多类分类任务。Quilt使用真实的量子机器以及未来噪音水平的评估，随着量子机器变得更加噪音少。在五比特系统上，Quilt在MNIST数据集上展示了高达85%的多类分类准确率。",
+    "tldr": "QUILT是一个针对当前容易出错的量子计算机设计的框架，其通过使用多样化的量子分类器集合，在MNIST数据集中表现出高达85%的多类分类准确率。"
+}

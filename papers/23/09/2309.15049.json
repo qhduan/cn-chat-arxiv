@@ -1,0 +1,12 @@
+{
+    "title": "When Prolog meets generative models: a new approach for managing knowledge and planning in robotic applications. (arXiv:2309.15049v1 [cs.RO])",
+    "abstract": "In this paper, we propose a robot oriented knowledge management system based on the use of the Prolog language. Our framework hinges on a special organisation of knowledge base that enables: 1. its efficient population from natural language texts using semi-automated procedures based on Large Language Models, 2. the bumpless generation of temporal parallel plans for multi-robot systems through a sequence of transformations, 3. the automated translation of the plan into an executable formalism (the behaviour trees). The framework is supported by a set of open source tools and is shown on a realistic application.",
+    "link": "http://arxiv.org/abs/2309.15049",
+    "context": "Title: When Prolog meets generative models: a new approach for managing knowledge and planning in robotic applications. (arXiv:2309.15049v1 [cs.RO])\nAbstract: In this paper, we propose a robot oriented knowledge management system based on the use of the Prolog language. Our framework hinges on a special organisation of knowledge base that enables: 1. its efficient population from natural language texts using semi-automated procedures based on Large Language Models, 2. the bumpless generation of temporal parallel plans for multi-robot systems through a sequence of transformations, 3. the automated translation of the plan into an executable formalism (the behaviour trees). The framework is supported by a set of open source tools and is shown on a realistic application.",
+    "path": "papers/23/09/2309.15049.json",
+    "total_tokens": 697,
+    "translated_title": "当Prolog遇见生成模型：机器人应用中管理知识和规划的新方法",
+    "translated_abstract": "本文提出了一种基于Prolog语言的面向机器人的知识管理系统。我们的框架依赖于一种特殊的知识库组织形式，实现了以下功能：1.利用大型语言模型进行自动化的自然语言文本知识库填充；2.通过一系列转换生成多机器人系统的连续并行计划；3.将计划自动转化为可执行形式（行为树）。该框架支持一系列开源工具，并在一个现实应用中进行了验证。",
+    "tldr": "本文提出了一种基于Prolog语言的机器人知识管理系统，通过利用大型语言模型自动填充知识库，实现了多机器人系统的连续并行计划生成以及计划到可执行形式的自动转化。",
+    "en_tdlr": "This paper proposes a robot-oriented knowledge management system based on the Prolog language, enabling automatic population of the knowledge base using large language models, generating continuous parallel plans for multi-robot systems, and automatically translating the plans into executable form."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Joint Audio and Speech Understanding. (arXiv:2309.14405v1 [cs.SD])",
+    "abstract": "Humans are surrounded by audio signals that include both speech and non-speech sounds. The recognition and understanding of speech and non-speech audio events, along with a profound comprehension of the relationship between them, constitute fundamental cognitive capabilities. For the first time, we build a machine learning model, called LTU-AS, that has a conceptually similar universal audio perception and advanced reasoning ability. Specifically, by integrating Whisper as a perception module and LLaMA as a reasoning module, LTU-AS can simultaneously recognize and jointly understand spoken text, speech paralinguistics, and non-speech audio events - almost everything perceivable from audio signals.",
+    "link": "http://arxiv.org/abs/2309.14405",
+    "context": "Title: Joint Audio and Speech Understanding. (arXiv:2309.14405v1 [cs.SD])\nAbstract: Humans are surrounded by audio signals that include both speech and non-speech sounds. The recognition and understanding of speech and non-speech audio events, along with a profound comprehension of the relationship between them, constitute fundamental cognitive capabilities. For the first time, we build a machine learning model, called LTU-AS, that has a conceptually similar universal audio perception and advanced reasoning ability. Specifically, by integrating Whisper as a perception module and LLaMA as a reasoning module, LTU-AS can simultaneously recognize and jointly understand spoken text, speech paralinguistics, and non-speech audio events - almost everything perceivable from audio signals.",
+    "path": "papers/23/09/2309.14405.json",
+    "total_tokens": 706,
+    "translated_title": "联合音频和语音理解",
+    "translated_abstract": "人类周围充斥着包括语音和非语音声音在内的音频信号。对语音和非语音音频事件的识别和理解，以及对它们之间关系的深刻理解，构成了基本的认知能力。我们首次构建了一个名为LTU-AS的机器学习模型，它具有类似于人类的普遍音频感知和高级推理能力。具体而言，通过将Whisper作为感知模块和LLaMA作为推理模块进行集成，LTU-AS可以同时识别和联合理解口语文本、语音声音学以及非语音音频事件 - 几乎可以从音频信号中感知到的一切。",
+    "tldr": "LTU-AS是一个具有普适音频感知和高级推理能力的机器学习模型，可以同时识别和联合理解口语文本、语音声音学和非语音音频事件。",
+    "en_tdlr": "LTU-AS is a machine learning model with universal audio perception and advanced reasoning capabilities, capable of simultaneously recognizing and jointly understanding spoken text, speech paralinguistics, and non-speech audio events."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "ddml: Double/debiased machine learning in Stata. (arXiv:2301.09397v2 [econ.EM] UPDATED)",
+    "abstract": "We introduce the package ddml for Double/Debiased Machine Learning (DDML) in Stata. Estimators of causal parameters for five different econometric models are supported, allowing for flexible estimation of causal effects of endogenous variables in settings with unknown functional forms and/or many exogenous variables. ddml is compatible with many existing supervised machine learning programs in Stata. We recommend using DDML in combination with stacking estimation which combines multiple machine learners into a final predictor. We provide Monte Carlo evidence to support our recommendation.",
+    "link": "http://arxiv.org/abs/2301.09397",
+    "context": "Title: ddml: Double/debiased machine learning in Stata. (arXiv:2301.09397v2 [econ.EM] UPDATED)\nAbstract: We introduce the package ddml for Double/Debiased Machine Learning (DDML) in Stata. Estimators of causal parameters for five different econometric models are supported, allowing for flexible estimation of causal effects of endogenous variables in settings with unknown functional forms and/or many exogenous variables. ddml is compatible with many existing supervised machine learning programs in Stata. We recommend using DDML in combination with stacking estimation which combines multiple machine learners into a final predictor. We provide Monte Carlo evidence to support our recommendation.",
+    "path": "papers/23/01/2301.09397.json",
+    "total_tokens": 768,
+    "translated_title": "ddml: Stata中的双重/无偏机器学习",
+    "translated_abstract": "我们在Stata中引入了一个名为ddml的包，用于双重/无偏机器学习（DDML）。支持五种不同计量模型的因果参数估计，允许在未知函数形式和/或许多外生变量的设置中灵活估计内生变量的因果效应。ddml与Stata中的许多现有监督机器学习程序兼容。我们推荐将DDML与堆叠估计结合使用，将多个机器学习器组合成最终预测器。我们提供了蒙特卡洛证据来支持我们的建议。",
+    "tldr": "ddml是Stata中的双重/无偏机器学习包，支持五种不同计量模型的因果参数估计，可以灵活估计内生变量的因果效应，在许多现有监督机器学习程序中兼容。推荐与堆叠估计结合使用，提供了蒙特卡洛证据支持。"
+}

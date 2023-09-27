@@ -1,0 +1,11 @@
+{
+    "title": "Explainable Sustainability for AI in the Arts. (arXiv:2309.14877v1 [cs.HC])",
+    "abstract": "AI is becoming increasingly popular in artistic practices, but the tools for informing practitioners about the environmental impact (and other sustainability implications) of AI are adapted for other contexts than creative practices -- making the tools and sustainability implications of AI not accessible for artists and creative practitioners. In this position paper, I describe two empirical studies that aim to develop environmental sustainability reflection systems for AI Arts, and discuss and introduce Explainable Sustainability in for AI Arts.",
+    "link": "http://arxiv.org/abs/2309.14877",
+    "context": "Title: Explainable Sustainability for AI in the Arts. (arXiv:2309.14877v1 [cs.HC])\nAbstract: AI is becoming increasingly popular in artistic practices, but the tools for informing practitioners about the environmental impact (and other sustainability implications) of AI are adapted for other contexts than creative practices -- making the tools and sustainability implications of AI not accessible for artists and creative practitioners. In this position paper, I describe two empirical studies that aim to develop environmental sustainability reflection systems for AI Arts, and discuss and introduce Explainable Sustainability in for AI Arts.",
+    "path": "papers/23/09/2309.14877.json",
+    "total_tokens": 633,
+    "translated_title": "可解释的AI艺术中的可持续性",
+    "translated_abstract": "AI在艺术实践中越来越受欢迎，但是用于通知从业者有关AI的环境影响（以及其他可持续性问题）的工具适用于其他背景环境，而非创意实践背景，这使得艺术家和创意从业者无法获取AI工具和可持续性问题的相关信息。在这篇立场论文中，我描述了两个旨在为AI艺术开发环境可持续性反思系统的经验研究，并讨论和介绍了可解释的AI艺术中的可持续性。",
+    "tldr": "这篇论文介绍了为AI艺术开发环境可持续性反思系统的两个实证研究，并引入了可解释的AI艺术中的可持续性。"
+}

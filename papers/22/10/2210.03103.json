@@ -1,0 +1,12 @@
+{
+    "title": "Env-Aware Anomaly Detection: Ignore Style Changes, Stay True to Content!. (arXiv:2210.03103v2 [cs.CV] CROSS LISTED)",
+    "abstract": "We introduce a formalization and benchmark for the unsupervised anomaly detection task in the distribution-shift scenario. Our work builds upon the iWildCam dataset, and, to the best of our knowledge, we are the first to propose such an approach for visual data. We empirically validate that environment-aware methods perform better in such cases when compared with the basic Empirical Risk Minimization (ERM). We next propose an extension for generating positive samples for contrastive methods that considers the environment labels when training, improving the ERM baseline score by 8.7%.",
+    "link": "http://arxiv.org/abs/2210.03103",
+    "context": "Title: Env-Aware Anomaly Detection: Ignore Style Changes, Stay True to Content!. (arXiv:2210.03103v2 [cs.CV] CROSS LISTED)\nAbstract: We introduce a formalization and benchmark for the unsupervised anomaly detection task in the distribution-shift scenario. Our work builds upon the iWildCam dataset, and, to the best of our knowledge, we are the first to propose such an approach for visual data. We empirically validate that environment-aware methods perform better in such cases when compared with the basic Empirical Risk Minimization (ERM). We next propose an extension for generating positive samples for contrastive methods that considers the environment labels when training, improving the ERM baseline score by 8.7%.",
+    "path": "papers/22/10/2210.03103.json",
+    "total_tokens": 701,
+    "translated_title": "环境感知异常检测：忽略风格变化，专注于内容！",
+    "translated_abstract": "我们引入了一个正式的无监督异常检测任务的规范和基准，应用于分布转移情景中。我们的工作建立在iWildCam数据集的基础上，据我们所知，我们是首次为视觉数据提出这样的方法。我们经验证明，在这种情况下，环境感知的方法比基本的经验风险最小化（ERM）效果更好。我们接下来提出了一种扩展方法，用于生成对比方法的正样本，该方法在训练时考虑了环境标签，将ERM基线得分提高了8.7%。",
+    "tldr": "本研究提出了一种环境感知的异常检测方法，通过忽略风格变化，专注于内容，在无监督场景下达到了较好的性能，并通过考虑环境标签提高了对比方法的准确性。",
+    "en_tdlr": "This study proposes an environment-aware anomaly detection method that achieves good performance in an unsupervised scenario by overlooking style changes and focusing on content, and improves the accuracy of contrastive methods by considering environment labels."
+}

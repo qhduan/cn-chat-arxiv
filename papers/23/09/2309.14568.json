@@ -1,0 +1,11 @@
+{
+    "title": "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew. (arXiv:2309.14568v1 [cs.CL])",
+    "abstract": "We present DictaLM, a large-scale language model tailored for Modern Hebrew. Boasting 7B parameters, this model is predominantly trained on Hebrew-centric data. As a commitment to promoting research and development in the Hebrew language, we release both the foundation model and the instruct-tuned model under a Creative Commons license. Concurrently, we introduce DictaLM-Rab, another foundation model geared towards Rabbinic/Historical Hebrew. These foundation models serve as ideal starting points for fine-tuning various Hebrew-specific tasks, such as instruction, Q&A, sentiment analysis, and more. This release represents a preliminary step, offering an initial Hebrew LLM model for the Hebrew NLP community to experiment with.",
+    "link": "http://arxiv.org/abs/2309.14568",
+    "context": "Title: Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew. (arXiv:2309.14568v1 [cs.CL])\nAbstract: We present DictaLM, a large-scale language model tailored for Modern Hebrew. Boasting 7B parameters, this model is predominantly trained on Hebrew-centric data. As a commitment to promoting research and development in the Hebrew language, we release both the foundation model and the instruct-tuned model under a Creative Commons license. Concurrently, we introduce DictaLM-Rab, another foundation model geared towards Rabbinic/Historical Hebrew. These foundation models serve as ideal starting points for fine-tuning various Hebrew-specific tasks, such as instruction, Q&A, sentiment analysis, and more. This release represents a preliminary step, offering an initial Hebrew LLM model for the Hebrew NLP community to experiment with.",
+    "path": "papers/23/09/2309.14568.json",
+    "total_tokens": 807,
+    "translated_title": "引入DictaLM - 一种用于现代希伯来语的大规模生成语言模型",
+    "translated_abstract": "我们介绍了DictaLM，这是一个专为现代希伯来语量身定制的大规模语言模型。该模型拥有70亿个参数，主要训练于希伯来语相关数据。为了促进希伯来语的研究和发展，我们以Creative Commons许可证发布了基础模型和训练模型。同时，我们还引入了DictaLM-Rab，另一个针对拉比/历史希伯来语的基础模型。这些基础模型可作为各种希伯来语特定任务（如说明、问答、情感分析等）的理想起点进行微调。此发布代表了一个初步步骤，为希伯来语NLP社区提供了一个初始的希伯来语LLM模型用于实验。",
+    "tldr": "引入了一种用于现代希伯来语的大规模生成语言模型DictaLM，通过发布基础模型和训练模型，促进了希伯来语的研究和发展，并提供了一个初始的希伯来语LLM模型用于实验。"
+}

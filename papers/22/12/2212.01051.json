@@ -1,0 +1,12 @@
+{
+    "title": "VeriX: Towards Verified Explainability of Deep Neural Networks. (arXiv:2212.01051v5 [cs.LG] UPDATED)",
+    "abstract": "We present VeriX (Verified eXplainability), a system for producing optimal robust explanations and generating counterfactuals along decision boundaries of machine learning models. We build such explanations and counterfactuals iteratively using constraint solving techniques and a heuristic based on feature-level sensitivity ranking. We evaluate our method on image recognition benchmarks and a real-world scenario of autonomous aircraft taxiing.",
+    "link": "http://arxiv.org/abs/2212.01051",
+    "context": "Title: VeriX: Towards Verified Explainability of Deep Neural Networks. (arXiv:2212.01051v5 [cs.LG] UPDATED)\nAbstract: We present VeriX (Verified eXplainability), a system for producing optimal robust explanations and generating counterfactuals along decision boundaries of machine learning models. We build such explanations and counterfactuals iteratively using constraint solving techniques and a heuristic based on feature-level sensitivity ranking. We evaluate our method on image recognition benchmarks and a real-world scenario of autonomous aircraft taxiing.",
+    "path": "papers/22/12/2212.01051.json",
+    "total_tokens": 623,
+    "translated_title": "VeriX: 面向深度神经网络的可验证解释性研究",
+    "translated_abstract": "我们提出了VeriX（Verified eXplainability），一个用于生成机器学习模型决策边界上的最优健壮解释和生成反事实的系统。我们使用约束求解技术和基于特征级敏感性排名的启发式方法迭代地构建这样的解释和反事实。我们在图像识别基准测试和自主飞机滑行的实际场景上评估了我们的方法。",
+    "tldr": "VeriX是一个可以产生最优健壮解释和生成反事实的系统，通过使用约束求解技术和基于特征级敏感性排名的启发式方法，我们在图像识别和自主飞机滑行场景中验证了该方法的有效性。",
+    "en_tdlr": "VeriX is a system that generates optimal robust explanations and generates counterfactuals by using constraint solving techniques and a heuristic based on feature-level sensitivity ranking. Its effectiveness has been validated in image recognition and autonomous aircraft taxiing scenarios."
+}
