@@ -1,0 +1,12 @@
+{
+    "title": "An Evaluation of ChatGPT-4's Qualitative Spatial Reasoning Capabilities in RCC-8. (arXiv:2309.15577v1 [cs.AI])",
+    "abstract": "Qualitative Spatial Reasoning (QSR) is well explored area of Commonsense Reasoning and has multiple applications ranging from Geographical Information Systems to Robotics and Computer Vision. Recently many claims have been made for the capabilities of Large Language Models (LLMs). In this paper we investigate the extent to which one particular LLM can perform classical qualitative spatial reasoning tasks on the mereotopological calculus, RCC-8.",
+    "link": "http://arxiv.org/abs/2309.15577",
+    "context": "Title: An Evaluation of ChatGPT-4's Qualitative Spatial Reasoning Capabilities in RCC-8. (arXiv:2309.15577v1 [cs.AI])\nAbstract: Qualitative Spatial Reasoning (QSR) is well explored area of Commonsense Reasoning and has multiple applications ranging from Geographical Information Systems to Robotics and Computer Vision. Recently many claims have been made for the capabilities of Large Language Models (LLMs). In this paper we investigate the extent to which one particular LLM can perform classical qualitative spatial reasoning tasks on the mereotopological calculus, RCC-8.",
+    "path": "papers/23/09/2309.15577.json",
+    "total_tokens": 586,
+    "translated_title": "对ChatGPT-4在RCC-8中的定性空间推理能力的评估",
+    "translated_abstract": "定性空间推理（QSR）是常识推理的一个广泛研究领域，并且具有从地理信息系统到机器人和计算机视觉等多种应用。最近，对于大型语言模型（LLMs）的能力提出了许多声称。本文研究了一个特定LLM在RCC-8的经典定性空间推理任务中的表现程度。",
+    "tldr": "本文评估了ChatGPT-4在RCC-8中的定性空间推理能力，并探讨了大型语言模型在经典定性空间推理任务中的表现。",
+    "en_tdlr": "This paper evaluates the qualitative spatial reasoning capabilities of ChatGPT-4 in RCC-8 and investigates the performance of large language models in classical qualitative spatial reasoning tasks."
+}

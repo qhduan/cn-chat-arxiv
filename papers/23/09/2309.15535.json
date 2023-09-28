@@ -1,0 +1,12 @@
+{
+    "title": "From LAION-5B to LAION-EO: Filtering Billions of Images Using Anchor Datasets for Satellite Image Extraction. (arXiv:2309.15535v1 [cs.CV])",
+    "abstract": "Large datasets, such as LAION-5B, contain a diverse distribution of images shared online. However, extraction of domain-specific subsets of large image corpora is challenging. The extraction approach based on an anchor dataset, combined with further filtering, is proposed here and demonstrated for the domain of satellite imagery. This results in the release of LAION-EO, a dataset sourced from the web containing pairs of text and satellite images in high (pixel-wise) resolution. The paper outlines the acquisition procedure as well as some of the features of the dataset.",
+    "link": "http://arxiv.org/abs/2309.15535",
+    "context": "Title: From LAION-5B to LAION-EO: Filtering Billions of Images Using Anchor Datasets for Satellite Image Extraction. (arXiv:2309.15535v1 [cs.CV])\nAbstract: Large datasets, such as LAION-5B, contain a diverse distribution of images shared online. However, extraction of domain-specific subsets of large image corpora is challenging. The extraction approach based on an anchor dataset, combined with further filtering, is proposed here and demonstrated for the domain of satellite imagery. This results in the release of LAION-EO, a dataset sourced from the web containing pairs of text and satellite images in high (pixel-wise) resolution. The paper outlines the acquisition procedure as well as some of the features of the dataset.",
+    "path": "papers/23/09/2309.15535.json",
+    "total_tokens": 700,
+    "translated_title": "从LAION-5B到LAION-EO：使用锚定数据集过滤数十亿张图片进行卫星图像提取",
+    "translated_abstract": "大型数据集，如LAION-5B，包含在线共享的各种图像。然而，提取大型图像库的领域特定子集是具有挑战性的。本文提出了一种基于锚定数据集的提取方法，结合进一步的过滤，用于卫星图像领域。这导致了LAION-EO的发布，该数据集是从网络中获取的高（逐像素）分辨率的文本和卫星图像对。本文概述了采集过程以及数据集的一些特点。",
+    "tldr": "本文提出了一种基于锚定数据集和进一步过滤的提取方法，用于从大型图像库中提取卫星图像。这导致了发布了一个高分辨率的文本和卫星图像对应的数据集LAION-EO。",
+    "en_tdlr": "This paper presents an extraction approach based on anchor datasets and further filtering for extracting satellite images from large image corpora. This leads to the release of LAION-EO, a dataset containing high-resolution pairs of text and satellite images."
+}

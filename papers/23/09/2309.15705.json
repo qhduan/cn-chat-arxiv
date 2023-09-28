@@ -1,0 +1,12 @@
+{
+    "title": "Sluggish news reactions: A combinatorial approach for synchronizing stock jumps. (arXiv:2309.15705v1 [econ.EM])",
+    "abstract": "Stock prices often react sluggishly to news, producing gradual jumps and jump delays. Econometricians typically treat these sluggish reactions as microstructure effects and settle for a coarse sampling grid to guard against them. Synchronizing mistimed stock returns on a fine sampling grid allows us to automatically detect noisy jumps and better approximate the true common jumps in related stock prices.",
+    "link": "http://arxiv.org/abs/2309.15705",
+    "context": "Title: Sluggish news reactions: A combinatorial approach for synchronizing stock jumps. (arXiv:2309.15705v1 [econ.EM])\nAbstract: Stock prices often react sluggishly to news, producing gradual jumps and jump delays. Econometricians typically treat these sluggish reactions as microstructure effects and settle for a coarse sampling grid to guard against them. Synchronizing mistimed stock returns on a fine sampling grid allows us to automatically detect noisy jumps and better approximate the true common jumps in related stock prices.",
+    "path": "papers/23/09/2309.15705.json",
+    "total_tokens": 619,
+    "translated_title": "缓慢的新闻反应：一种用于同步股票跳动的组合方法",
+    "translated_abstract": "股价对新闻的反应往往缓慢，产生渐进的跳动和延迟跳动。经济计量学家通常将这些缓慢的反应视为市场微观结构的影响，并采用粗糙的采样网格来规避这些影响。在一个精细的采样网格上同步误时的股票收益，可以自动探测到噪声跳动，并更好地逼近相关股票价格中真实的共同跳动。",
+    "tldr": "这篇论文提出了一种通过组合方法同步股票跳动，从而自动检测噪声跳动并更好地逼近相关股票价格中真实的共同跳动。",
+    "en_tdlr": "This paper proposes a combinatorial approach to synchronize stock jumps, allowing for automatic detection of noisy jumps and better approximations of the true common jumps in related stock prices."
+}

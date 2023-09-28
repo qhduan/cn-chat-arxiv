@@ -1,0 +1,12 @@
+{
+    "title": "FedSS: Federated Learning with Smart Selection of clients. (arXiv:2207.04569v2 [cs.DC] UPDATED)",
+    "abstract": "Federated learning provides the ability to learn over heterogeneous user data in a distributed manner while preserving user privacy. However, its current client selection technique is a source of bias as it discriminates against slow clients. For starters, it selects clients that satisfy certain network and system-specific criteria, thus not selecting slow clients. Even when such clients are included in the training process, they either struggle with the training or are dropped altogether for being too slow. Our proposed idea looks to find a sweet spot between fast convergence and heterogeneity by looking at smart client selection and scheduling techniques.",
+    "link": "http://arxiv.org/abs/2207.04569",
+    "context": "Title: FedSS: Federated Learning with Smart Selection of clients. (arXiv:2207.04569v2 [cs.DC] UPDATED)\nAbstract: Federated learning provides the ability to learn over heterogeneous user data in a distributed manner while preserving user privacy. However, its current client selection technique is a source of bias as it discriminates against slow clients. For starters, it selects clients that satisfy certain network and system-specific criteria, thus not selecting slow clients. Even when such clients are included in the training process, they either struggle with the training or are dropped altogether for being too slow. Our proposed idea looks to find a sweet spot between fast convergence and heterogeneity by looking at smart client selection and scheduling techniques.",
+    "path": "papers/22/07/2207.04569.json",
+    "total_tokens": 695,
+    "translated_title": "FedSS: 智能选择客户端的联邦学习",
+    "translated_abstract": "联邦学习提供了在保护用户隐私的同时以分布式方式学习异构用户数据的能力。然而，其当前的客户端选择技术存在偏见，因为它歧视慢速客户端。首先，它选择满足某些网络和系统特定条件的客户端，因此没有选择慢速客户端。即使这些客户端被包括在训练过程中，它们要么难以训练，要么因为太慢而被放弃。我们提出的想法是通过智能客户端选择和调度技术找到快速收敛和异质性之间的平衡点。",
+    "tldr": "本论文提出了一种名为FedSS的智能选择客户端的联邦学习方法，通过智能客户端选择和调度技术，平衡了快速收敛和异质性之间的关系。",
+    "en_tdlr": "This paper proposes a method called FedSS for federated learning with smart client selection, which balances the trade-off between fast convergence and heterogeneity through intelligent client selection and scheduling techniques."
+}

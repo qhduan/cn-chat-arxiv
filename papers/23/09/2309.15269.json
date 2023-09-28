@@ -1,0 +1,12 @@
+{
+    "title": "Theoretical Foundations of Community Rating by a Private Monopolist Insurer: Framework, Regulation, and Numerical Analysis. (arXiv:2309.15269v1 [econ.TH])",
+    "abstract": "Community rating is a policy that mandates uniform premium regardless of the risk factors. In this paper, our focus narrows to the single contract interpretation wherein we establish a theoretical framework for community rating using Stiglitz's (1977) monopoly model in which there is a continuum of agents. We exhibit profitability conditions and show that, under mild regularity conditions, the optimal premium is unique and satisfies the inverse elasticity rule. Our numerical analysis, using realistic parameter values, reveals that under regulation, a 10% increase in indemnity is possible with minimal impact on other variables.",
+    "link": "http://arxiv.org/abs/2309.15269",
+    "context": "Title: Theoretical Foundations of Community Rating by a Private Monopolist Insurer: Framework, Regulation, and Numerical Analysis. (arXiv:2309.15269v1 [econ.TH])\nAbstract: Community rating is a policy that mandates uniform premium regardless of the risk factors. In this paper, our focus narrows to the single contract interpretation wherein we establish a theoretical framework for community rating using Stiglitz's (1977) monopoly model in which there is a continuum of agents. We exhibit profitability conditions and show that, under mild regularity conditions, the optimal premium is unique and satisfies the inverse elasticity rule. Our numerical analysis, using realistic parameter values, reveals that under regulation, a 10% increase in indemnity is possible with minimal impact on other variables.",
+    "path": "papers/23/09/2309.15269.json",
+    "total_tokens": 741,
+    "translated_title": "一个私营垄断保险公司的社群评级的理论基础：框架、监管和数值分析。",
+    "translated_abstract": "社群评级是一种政策，无论风险因素如何，都要求统一保费。本文将重点放在单合同解释上，我们使用斯蒂格利茨（1977）的垄断模型建立了社群评级的理论框架，其中存在着一个连续的代理人群体。我们展示了盈利条件，并证明，在温和的正则条件下，最优保费是唯一的，并满足逆弹性规则。我们的数值分析使用现实参数值，显示在监管下，赔偿的10%增加对其他变量的影响很小。",
+    "tldr": "本文通过斯蒂格利茨模型建立了社群评级的理论框架，证明了最优保费满足逆弹性规则，并通过数值分析显示在监管下，赔偿的10%增加对其他变量的影响很小。",
+    "en_tdlr": "This paper establishes a theoretical framework for community rating using Stiglitz's model and shows that the optimal premium satisfies the inverse elasticity rule. The numerical analysis reveals that under regulation, a 10% increase in indemnity has minimal impact on other variables."
+}

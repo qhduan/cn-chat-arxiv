@@ -2,172 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The ATM implied skew in the ADO-Heston model.](http://arxiv.org/abs/2309.15044) | 本文构建了ADO-Heston模型，通过合适选择的市场风险价格和闭式表达式，能够近似再现香草期权的已知行为。 |
-| [^2] | [A dynamic systems approach to harness the potential of social tipping.](http://arxiv.org/abs/2309.14964) | 这篇论文提出了一个动态系统方法来利用社会转折的潜力，以实现净零温室气体排放目标。该方法包括系统观、定向数据收集和全球综合模型等多层面考虑。 |
-| [^3] | [Nuclear Energy Acceptance in Poland: From Societal Attitudes to Effective Policy Strategies -- Network Modeling Approach.](http://arxiv.org/abs/2309.14869) | 本研究通过网络建模方法调查了波兰社会对能源的态度，发现政治意识形态、环境态度、风险感知、安全顾虑和经济变量等因素对能源接受度起重要作用。研究结果为改善波兰能源政策提供了基础，强调了与波兰人口的多样化价值观、信仰和偏好相 resonating 的政策的重要性。 |
-| [^4] | [Approximation Rates for Deep Calibration of (Rough) Stochastic Volatility Models.](http://arxiv.org/abs/2309.14784) | 本论文提出了利用深度神经网络逼近随机波动性模型的定量误差界限，证明了在适当假设下，可以通过较小的网络规模学习得到期权价格，而不会受到维度灾难的影响。 |
-| [^5] | [Gray-box Adversarial Attack of Deep Reinforcement Learning-based Trading Agents.](http://arxiv.org/abs/2309.14615) | 本研究展示了一种通过在同一股票市场进行交易的方式，利用灰盒方法对基于深度强化学习的交易代理进行攻击的可能性。这种方法可以应对交易代理受到对手操纵的问题。 |
-| [^6] | [Algorithmic Collusion or Competition: the Role of Platforms' Recommender Systems.](http://arxiv.org/abs/2309.14548) | 这项研究填补了关于电子商务平台推荐算法在算法勾结研究中被忽视的空白，并发现推荐算法可以决定基于AI的定价算法的竞争或勾结动态。 |
-| [^7] | [Designing Effective Music Excerpts.](http://arxiv.org/abs/2309.14475) | 本研究通过分析iTunes音乐商店中歌曲摘录的准实验变化，发现延长摘录时间可以显著增加歌曲的独立每月听众，特别是对于陌生歌曲和陌生艺术家的效果更为显著。此外，摘录的重复性和可预测性对需求的增强效果有一定的压制作用。因此，该研究支持平台采用更长的摘录时间来改善内容发现。 |
-| [^8] | [Common Subcontracting and Airline Prices.](http://arxiv.org/abs/2301.05999) | 地区航空公司的共同子承包一方面会导致更低的价格，另一方面会导致更高的价格，这表明地区航空公司的增长可能对航空业产生反竞争影响。 |
-| [^9] | [What is the Price of a Skill? The Value of Complementarity.](http://arxiv.org/abs/2210.01535) | 本研究表明，技能的价值很大程度上由互补性决定，大多数技能在与不同类型的技能组合使用时价值最高。人工智能技能由于其强大的互补性和近年来不断增长的需求，其价值尤为突出，平均提高工人工资21％。 |
-| [^10] | [A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies.](http://arxiv.org/abs/2207.00446) | 本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。 |
-| [^11] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
+| [^1] | [Implementing portfolio risk management and hedging in practice.](http://arxiv.org/abs/2309.15767) | 本文介绍了一种实践中的跨资产投资组合风险管理和对冲方法，利用（近似）二次规划的凸优化设置，解决了连续时间随机控制框架的不可取之处，并特别关注了经济概念和数学表示之间的对应关系。 |
+| [^2] | [Hedging Properties of Algorithmic Investment Strategies using Long Short-Term Memory and Time Series models for Equity Indices.](http://arxiv.org/abs/2309.15640) | 本文提出了一种使用长短期记忆和时间序列模型构建算法投资策略的对冲方法，并通过利用不同类型的投资策略来对冲风险资产组合。实证结果显示，该方法在金融市场的动荡时期具有多样化的潜力。 |
+| [^3] | [To better understand realized ecosystem services: An integrated analysis framework of supply, demand, flow and use.](http://arxiv.org/abs/2309.15574) | 该研究提出了一个供给-需求-流动-利用（SDFU）框架来理解实现生态系统服务（ES）。研究应用该框架分析了城市绿地公园中的野生浆果供给，传粉和娱乐等ES，揭示了ES的实际利用情况，以及供给受限、需求受限和供需平衡类型的ES。研究还讨论了ES的尺度特征、时间动态和空间特征，以及未来研究的关键问题。 |
+| [^4] | [Startup success prediction and VC portfolio simulation using CrunchBase data.](http://arxiv.org/abs/2309.15552) | 本研究提出了一个使用CrunchBase数据来预测创业成功和模拟VC投资组合的新颖深度学习模型，并通过全面回溯算法对模型在历史数据上的表现进行了评估。 |
+| [^5] | [Systemic risk in financial networks: the effects of asymptotic independence.](http://arxiv.org/abs/2309.15511) | 该论文研究了金融网络中的系统性风险，特别关注了渐近尾部独立性的影响。通过建立一般维度的互相渐近尾部独立性概念，并与传统的成对渐近独立性进行比较，提供了金融风险建模的新视角。此外，通过构建银行和资产的双分图展示了资产组合的多样渐近尾部独立性行为，并提供了条件尾部风险的精确渐近表达式。 |
+| [^6] | [Enumerating the climate impact of disequilibrium in critical mineral supply.](http://arxiv.org/abs/2309.15368) | 根据研究，符合提议的尾气排放标准需要在2027年至2032年间用至少1021万辆新的内燃机汽车替换为EV。根据现有可利用的矿产储量，制造足够的EVs在大多数电池化学品中是可行的，并且可以减少高达4573万吨的CO2e。 |
+| [^7] | [The importance of quality in austere times: University competitiveness and grant income.](http://arxiv.org/abs/2309.15309) | 这项研究利用英国科学资助紧缩政策的自然实验，发现传统的大学竞争力测量指标无法准确反映竞争力。通过使用一种基于复杂性科学的替代指标，研究人员揭示了大学在科学领域的高度动态参与方式，并发现研究竞争力对资助收入具有影响。紧缩政策放宽后，英国大学的地位和资助收入发生了变化。 |
+| [^8] | [Quantum Analysis of Continuous Time Stochastic Process.](http://arxiv.org/abs/2208.02364) | 本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。 |
 
 # 详细
 
-[^1]: ADO-Heston模型中的ATM隐含波动率倾斜
+[^1]: 实践中的投资组合风险管理和对冲实施
 
-    The ATM implied skew in the ADO-Heston model. (arXiv:2309.15044v1 [q-fin.CP])
+    Implementing portfolio risk management and hedging in practice. (arXiv:2309.15767v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2309.15044](http://arxiv.org/abs/2309.15044)
+    [http://arxiv.org/abs/2309.15767](http://arxiv.org/abs/2309.15767)
 
-    本文构建了ADO-Heston模型，通过合适选择的市场风险价格和闭式表达式，能够近似再现香草期权的已知行为。
-
-    
-
-    本文构建了ADO-Heston模型，该模型是粗糙Heston-like波动率模型的一个马尔可夫近似。通过风险中性和实际度量推导了该模型的特征函数（CF），这是一个不稳定的三维偏微分方程，其系数是时间$t$和Hurst指数$H$的函数。通过合理选择市场风险价格并找到对数价格和ATM隐含波动率的闭式表达式，我们能够复制市场隐含波动率倾斜的已知行为。通过提供的示例，我们声称ADO-Heston模型（纯扩散模型，但具有方差过程的随机均值回归速度，或者是粗糙Heston模型的马尔可夫近似）能够（近似地）再现小$T$时期香草期权的已知行为。我们得出结论认为我们的隐含波动率倾斜曲线${\cal S}(T) \prop$
-
-    In this paper similar to [P. Carr, A. Itkin, 2019] we construct another Markovian approximation of the rough Heston-like volatility model - the ADO-Heston model. The characteristic function (CF) of the model is derived under both risk-neutral and real measures which is an unsteady three-dimensional PDE with some coefficients being functions of the time $t$ and the Hurst exponent $H$. To replicate known behavior of the market implied skew we proceed with a wise choice of the market price of risk, and then find a closed form expression for the CF of the log-price and the ATM implied skew. Based on the provided example, we claim that the ADO-Heston model (which is a pure diffusion model but with a stochastic mean-reversion speed of the variance process, or a Markovian approximation of the rough Heston model) is able (approximately) to reproduce the known behavior of the vanilla implied skew at small $T$. We conclude that the behavior of our implied volatility skew curve ${\cal S}(T) \prop
-    
-[^2]: 动态系统方法来利用社会转折的潜力
-
-    A dynamic systems approach to harness the potential of social tipping. (arXiv:2309.14964v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.14964](http://arxiv.org/abs/2309.14964)
-
-    这篇论文提出了一个动态系统方法来利用社会转折的潜力，以实现净零温室气体排放目标。该方法包括系统观、定向数据收集和全球综合模型等多层面考虑。
+    本文介绍了一种实践中的跨资产投资组合风险管理和对冲方法，利用（近似）二次规划的凸优化设置，解决了连续时间随机控制框架的不可取之处，并特别关注了经济概念和数学表示之间的对应关系。
 
     
 
-    社会转折点是实现净零温室气体排放目标的有希望的手段。如果触发级联的正反馈机制，它们描述了社会、政治、经济或技术系统如何迅速转入新状态。分析社会转折对快速脱碳的潜力需要考虑社会系统固有的复杂性。在这里，我们指出现有的科学文献倾向于基于叙事的社会转折记述，缺乏广泛的实证框架和多系统视角。随后，我们概述了一个动态系统方法，包括（i）涉及相互关联的反馈机制的系统观；
+    在学术文献中，投资组合风险管理和对冲通常通过连续时间的随机控制和Hamilton--Jacobi--Bellman~(HJB)方程的语言来阐述。然而，在实践中，连续时间框架的随机控制可能由于各种商业原因而不可取。在本文中，我们提出了一种简单的方法来思考跨资产投资组合风险管理和对冲，提供了一些实施细节，同时很少涉足（近似）二次规划~(QP)的凸优化设置之外。我们特别关注经济概念与数学表示之间的对应关系；使我们能够同时处理多个资产类别和风险模型的抽象；产生方程的尺寸分析；以及我们推导中的假设。我们展示了如何使用CVXOPT求解所得到的QP问题。
 
-    Social tipping points are promising levers to achieve net-zero greenhouse gas emission targets. They describe how social, political, economic or technological systems can move rapidly into a new state if cascading positive feedback mechanisms are triggered. Analysing the potential of social tipping for rapid decarbonization requires considering the inherent complexity of social systems. Here, we identify that existing scientific literature is inclined to a narrative-based account of social tipping, lacks a broad empirical framework and a multi-systems view. We subsequently outline a dynamic systems approach that entails (i) a systems outlook involving interconnected feedback mechanisms alongside cross-system and cross-scale interactions, and including a socioeconomic and environmental injustice perspective (ii) directed data collection efforts to provide empirical evidence for and monitor social tipping dynamics, (iii) global, integrated, descriptive modelling to project future dynamic
+    In academic literature portfolio risk management and hedging are often versed in the language of stochastic control and Hamilton--Jacobi--Bellman~(HJB) equations in continuous time. In practice the continuous-time framework of stochastic control may be undesirable for various business reasons. In this work we present a straightforward approach for thinking of cross-asset portfolio risk management and hedging, providing some implementation details, while rarely venturing outside the convex optimisation setting of (approximate) quadratic programming~(QP). We pay particular attention to the correspondence between the economic concepts and their mathematical representations; the abstractions enabling us to handle multiple asset classes and risk models at once; the dimensional analysis of the resulting equations; and the assumptions inherent in our derivations. We demonstrate how to solve the resulting QPs with CVXOPT.
     
-[^3]: 波兰的核能接受度：从社会态度到有效政策策略--网络建模方法
+[^2]: 用长短期记忆和时间序列模型进行算法投资策略对冲的对冲特性
 
-    Nuclear Energy Acceptance in Poland: From Societal Attitudes to Effective Policy Strategies -- Network Modeling Approach. (arXiv:2309.14869v1 [econ.GN])
+    Hedging Properties of Algorithmic Investment Strategies using Long Short-Term Memory and Time Series models for Equity Indices. (arXiv:2309.15640v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2309.14869](http://arxiv.org/abs/2309.14869)
+    [http://arxiv.org/abs/2309.15640](http://arxiv.org/abs/2309.15640)
 
-    本研究通过网络建模方法调查了波兰社会对能源的态度，发现政治意识形态、环境态度、风险感知、安全顾虑和经济变量等因素对能源接受度起重要作用。研究结果为改善波兰能源政策提供了基础，强调了与波兰人口的多样化价值观、信仰和偏好相 resonating 的政策的重要性。
-
-    
-
-    波兰能源部门目前正经历重大转型，赢得公众支持对其能源政策的成功至关重要。我们通过与338名波兰参与者进行研究，调查了社会对各种能源来源的态度，包括核能和可再生能源。应用了一种新颖的网络方法，我们确定了影响能源接受度的多种因素。政治意识形态是塑造公众接受度的核心因素，然而我们还发现环境态度、风险感知、安全顾虑和经济变量也起着重要作用。鉴于核能的长期承诺和其在波兰能源转型中的角色，我们的研究为改善波兰的能源政策提供了基础。我们的研究强调了与人口的多样化价值观、信仰和偏好相 resonating 的政策的重要性。
-
-    Poland is currently undergoing substantial transformation in its energy sector, and gaining public support is pivotal for the success of its energy policies. We conducted a study with 338 Polish participants to investigate societal attitudes towards various energy sources, including nuclear energy and renewables. Applying a novel network approach, we identified a multitude of factors influencing energy acceptance. Political ideology is the central factor in shaping public acceptance, however we also found that environmental attitudes, risk perception, safety concerns, and economic variables play substantial roles. Considering the long-term commitment associated with nuclear energy and its role in Poland's energy transformation, our findings provide a foundation for improving energy policy in Poland. Our research underscores the importance of policies that resonate with the diverse values, beliefs, and preferences of the population. While the risk-risk trade-off and technology-focused s
-    
-[^4]: 对（粗糙）随机波动性模型进行深度校准的逼近速率
-
-    Approximation Rates for Deep Calibration of (Rough) Stochastic Volatility Models. (arXiv:2309.14784v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2309.14784](http://arxiv.org/abs/2309.14784)
-
-    本论文提出了利用深度神经网络逼近随机波动性模型的定量误差界限，证明了在适当假设下，可以通过较小的网络规模学习得到期权价格，而不会受到维度灾难的影响。
+    本文提出了一种使用长短期记忆和时间序列模型构建算法投资策略的对冲方法，并通过利用不同类型的投资策略来对冲风险资产组合。实证结果显示，该方法在金融市场的动荡时期具有多样化的潜力。
 
     
 
-    我们推导了深度神经网络(DNN)逼近$d$维风险资产期权价格的定量误差界限，这些界限与基础模型参数、支付参数和初始条件相关。我们涵盖了马尔可夫性质的广义随机波动性模型以及粗糙Bergomi模型。特别地，在适当假设下，我们证明了在DNN的网络规模仅次于资产向量维度$d$和精度的倒数$\varepsilon^{-1}$时，期权价格可以被学习得到的误差可以任意小于一个小于1/2的误差$\varepsilon$。因此，这种逼近不会受到维度灾难的影响。由于在我们的设置中，适用于DNN的定量逼近结果是基于紧致定义域上的函数，因此我们首先考虑了资产价格限制在紧致集合上的情况，然后再通过对期权价格的收敛性论证将这些结果推广到一般情况下。
+    本文提出了一种在金融市场受金融动荡影响时对冲风险资产组合的新方法。我们引入了一种全新的多元算法投资策略（AIS）的分散化方法，该方法不是在单个资产的级别上进行，而是在基于这些资产的价格的级别上进行。我们采用四种不同的理论模型（LSTM - 长短期记忆、ARIMA-GARCH - 自回归移动平均 - 广义自回归条件异方差、动量和反向交易）来生成价格预测，然后利用这些预测产生单个和复合的AIS的投资信号。通过这种方式，我们能够验证由各种资产（能源商品、贵金属、加密货币或软商品）组成的不同类型的投资策略在对冲用于股票指数（S&P 500指数）的组合AIS中的多样化潜力。
 
-    We derive quantitative error bounds for deep neural networks (DNNs) approximating option prices on a $d$-dimensional risky asset as functions of the underlying model parameters, payoff parameters and initial conditions. We cover a general class of stochastic volatility models of Markovian nature as well as the rough Bergomi model. In particular, under suitable assumptions we show that option prices can be learned by DNNs up to an arbitrary small error $\varepsilon \in (0,1/2)$ while the network size grows only sub-polynomially in the asset vector dimension $d$ and the reciprocal $\varepsilon^{-1}$ of the accuracy. Hence, the approximation does not suffer from the curse of dimensionality. As quantitative approximation results for DNNs applicable in our setting are formulated for functions on compact domains, we first consider the case of the asset price restricted to a compact set, then we extend these results to the general case by using convergence arguments for the option prices.
+    This paper proposes a novel approach to hedging portfolios of risky assets when financial markets are affected by financial turmoils. We introduce a completely novel approach to diversification activity not on the level of single assets but on the level of ensemble algorithmic investment strategies (AIS) built based on the prices of these assets. We employ four types of diverse theoretical models (LSTM - Long Short-Term Memory, ARIMA-GARCH Autoregressive Integrated Moving Average - Generalized Autoregressive Conditional Heteroskedasticity, momentum, and contrarian) to generate price forecasts, which are then used to produce investment signals in single and complex AIS. In such a way, we are able to verify the diversification potential of different types of investment strategies consisting of various assets (energy commodities, precious metals, cryptocurrencies, or soft commodities) in hedging ensemble AIS built for equity indices (S&P 500 index). Empirical data used in this study cov
     
-[^5]: 深度强化学习交易代理的灰盒对抗攻击
+[^3]: 更好地理解实现生态系统服务: 供给、需求、流动和利用的集成分析框架
 
-    Gray-box Adversarial Attack of Deep Reinforcement Learning-based Trading Agents. (arXiv:2309.14615v1 [cs.LG])
+    To better understand realized ecosystem services: An integrated analysis framework of supply, demand, flow and use. (arXiv:2309.15574v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.14615](http://arxiv.org/abs/2309.14615)
+    [http://arxiv.org/abs/2309.15574](http://arxiv.org/abs/2309.15574)
 
-    本研究展示了一种通过在同一股票市场进行交易的方式，利用灰盒方法对基于深度强化学习的交易代理进行攻击的可能性。这种方法可以应对交易代理受到对手操纵的问题。
-
-    
-
-    近年来，深度强化学习（Deep RL）已成功应用于诸如复杂游戏、自动驾驶汽车和聊天机器人等许多系统中，其中一个有趣的应用案例是将其作为自动化股票交易代理。一般来说，任何自动化交易代理都容易受到交易环境中的对手的操纵，因此研究其鲁棒性对于其实践成功至关重要。然而，用于研究RL鲁棒性的典型机制，即基于白盒梯度基础的对抗样本生成技术（如FGSM），对于这种用例来说已经过时，因为模型受到安全的国际交易所API的保护，如纳斯达克。在这项研究中，我们证明了一种“灰盒”方法可以攻击基于Deep RL的交易代理，仅通过在同一股票市场进行交易，而无需额外接触交易代理。在我们提出的方法中，对手代理使用了一个混合的深度神经网络
-
-    In recent years, deep reinforcement learning (Deep RL) has been successfully implemented as a smart agent in many systems such as complex games, self-driving cars, and chat-bots. One of the interesting use cases of Deep RL is its application as an automated stock trading agent. In general, any automated trading agent is prone to manipulations by adversaries in the trading environment. Thus studying their robustness is vital for their success in practice. However, typical mechanism to study RL robustness, which is based on white-box gradient-based adversarial sample generation techniques (like FGSM), is obsolete for this use case, since the models are protected behind secure international exchange APIs, such as NASDAQ. In this research, we demonstrate that a "gray-box" approach for attacking a Deep RL-based trading agent is possible by trading in the same stock market, with no extra access to the trading agent. In our proposed approach, an adversary agent uses a hybrid Deep Neural Netwo
-    
-[^6]: 算法勾结还是竞争：平台推荐系统的角色
-
-    Algorithmic Collusion or Competition: the Role of Platforms' Recommender Systems. (arXiv:2309.14548v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.14548](http://arxiv.org/abs/2309.14548)
-
-    这项研究填补了关于电子商务平台推荐算法在算法勾结研究中被忽视的空白，并发现推荐算法可以决定基于AI的定价算法的竞争或勾结动态。
+    该研究提出了一个供给-需求-流动-利用（SDFU）框架来理解实现生态系统服务（ES）。研究应用该框架分析了城市绿地公园中的野生浆果供给，传粉和娱乐等ES，揭示了ES的实际利用情况，以及供给受限、需求受限和供需平衡类型的ES。研究还讨论了ES的尺度特征、时间动态和空间特征，以及未来研究的关键问题。
 
     
 
-    最近的学术研究广泛探讨了基于人工智能(AI)的动态定价算法导致的算法勾结。然而，电子商务平台使用推荐算法来分配不同产品的曝光，而这一重要方面在先前的算法勾结研究中被大部分忽视。我们的研究填补了文献中这一重要的空白，并检验了推荐算法如何决定基于AI的定价算法的竞争或勾结动态。具体而言，我们研究了两种常用的推荐算法：(i)以最大化卖家总利润为目标的推荐系统和(ii)以最大化平台上产品需求为目标的推荐系统。我们构建了一个重复博弈框架，将卖家的定价算法和平台的推荐算法进行了整合。
+    实现生态系统服务（ES）是社会实际利用ES的情况，与潜在ES相比，更直接关联到人类福祉。然而，目前缺乏一个通用的分析框架来理解实现了多少ES。在本研究中，我们首先提出了一个供给-需求-流动-利用（SDFU）的框架，将ES的供给、需求、流动和利用进行整合，并将这些概念区分为不同的方面（例如，潜在和实际的ES需求，供给的出口和进口流动等）。然后，我们将该框架应用于典型城市绿地公园中的三个ES的例子（即野生浆果供给，传粉和娱乐）。我们展示了该框架如何评估ES的实际利用情况，并识别出供给受限、需求受限和供需平衡类型的ES。我们还讨论了实现ES的尺度特征、时间动态和空间特征，以及未来研究中的一些关键问题。
 
-    Recent academic research has extensively examined algorithmic collusion resulting from the utilization of artificial intelligence (AI)-based dynamic pricing algorithms. Nevertheless, e-commerce platforms employ recommendation algorithms to allocate exposure to various products, and this important aspect has been largely overlooked in previous studies on algorithmic collusion. Our study bridges this important gap in the literature and examines how recommendation algorithms can determine the competitive or collusive dynamics of AI-based pricing algorithms. Specifically, two commonly deployed recommendation algorithms are examined: (i) a recommender system that aims to maximize the sellers' total profit (profit-based recommender system) and (ii) a recommender system that aims to maximize the demand for products sold on the platform (demand-based recommender system). We construct a repeated game framework that incorporates both pricing algorithms adopted by sellers and the platform's recom
+    Realized ecosystem services (ES) are the actual use of ES by societies, which is more directly linked to human well-being than potential ES. However, there is a lack of a general analysis framework to understand how much ES was realized. In this study, we first proposed a Supply-Demand-Flow-Use (SDFU) framework that integrates the supply, demand, flow, and use of ES and differentiates these concepts into different aspects (e.g., potential vs. actual ES demand, export and import flows of supply, etc.). Then, we applied the framework to three examples of ES that can be found in typical urban green parks (i.e., wild berry supply, pollination, and recreation). We showed how the framework could assess the actual use of ES and identify the supply-limited, demand-limited, and supply-demand-balanced types of realized ES. We also discussed the scaling features, temporal dynamics, and spatial characteristics of realized ES, as well as some critical questions for future studies. Although facing c
     
-[^7]: 设计有效的音乐摘录
+[^4]: 使用CrunchBase数据预测创业公司成功和风险投资组合模拟
 
-    Designing Effective Music Excerpts. (arXiv:2309.14475v1 [econ.GN])
+    Startup success prediction and VC portfolio simulation using CrunchBase data. (arXiv:2309.15552v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.14475](http://arxiv.org/abs/2309.14475)
+    [http://arxiv.org/abs/2309.15552](http://arxiv.org/abs/2309.15552)
 
-    本研究通过分析iTunes音乐商店中歌曲摘录的准实验变化，发现延长摘录时间可以显著增加歌曲的独立每月听众，特别是对于陌生歌曲和陌生艺术家的效果更为显著。此外，摘录的重复性和可预测性对需求的增强效果有一定的压制作用。因此，该研究支持平台采用更长的摘录时间来改善内容发现。
-
-    
-
-    音乐摘录被广泛用于预览和推广音乐作品。有效的摘录可以促使源音乐作品的消费，从而产生收入。然而，什么使得摘录有效仍然未被探索。我们利用苹果的一项政策变化，通过iTunes音乐商店中歌曲摘录的准实验变化，估计摘录时间延长60秒可以平均增加歌曲的独立每月听众5.4％，陌生歌曲增加9.7％，陌生艺术家增加11.1％。这相当于被收录在Spotify全球Top 50播放列表中的影响。我们开发了音乐重复性和不可预测性的衡量指标，以考察信息提供作为一种机制，并发现当摘录过于重复、过于可预测或过于不可预测时，延长摘录时间对需求的增强效果会被压制。我们的发现支持平台采用更长的摘录来改善内容发现，而我们的衡量指标可以帮助提供摘录选择的信息。
-
-    Excerpts are widely used to preview and promote musical works. Effective excerpts induce consumption of the source musical work and thus generate revenue. Yet, what makes an excerpt effective remains unexplored. We leverage a policy change by Apple that generates quasi-exogenous variation in the excerpts of songs in the iTunes Music Store to estimate that having a 60 second longer excerpt increases songs' unique monthly listeners by 5.4% on average, by 9.7% for lesser known songs, and by 11.1% for lesser known artists. This is comparable to the impact of being featured on the Spotify Global Top 50 playlist. We develop measures of musical repetition and unpredictability to examine information provision as a mechanism, and find that the demand-enhancing effect of longer excerpts is suppressed when they are repetitive, too predictable, or too unpredictable. Our findings support platforms' adoption of longer excerpts to improve content discovery and our measures can help inform excerpt sel
-    
-[^8]: 共同子承包和航空价格
-
-    Common Subcontracting and Airline Prices. (arXiv:2301.05999v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2301.05999](http://arxiv.org/abs/2301.05999)
-
-    地区航空公司的共同子承包一方面会导致更低的价格，另一方面会导致更高的价格，这表明地区航空公司的增长可能对航空业产生反竞争影响。
+    本研究提出了一个使用CrunchBase数据来预测创业成功和模拟VC投资组合的新颖深度学习模型，并通过全面回溯算法对模型在历史数据上的表现进行了评估。
 
     
 
-    在美国航空业中，独立的地区航空公司代表几家全国航空公司在不同的市场上为乘客飞行，这产生了“共同子承包”的情况。一方面，我们发现子承包与较低的价格有关，这符合地区航空公司比主要航空公司更低成本运输乘客的想法。另一方面，我们发现“共同”子承包与更高的价格有关。这两种相互冲突的效应表明，地区航空公司的增长可能对该行业产生反竞争影响。
+    预测创业公司的成功对于创业生态系统的不稳定性而言是一项巨大的挑战。借助CrunchBase等广泛数据库的出现，结合可用的开放数据，可以应用机器学习和人工智能进行更准确的预测分析。本文聚焦于创业公司在B轮和C轮投资阶段，旨在预测关键的成功里程碑，如实现首次公开募股（IPO），达到独角兽地位，或成功实施并购。我们提出了一种新颖的深度学习模型来预测创业公司的成功，整合了各种因素，如资金指标、创始人特征和行业类别。我们研究的一个独特特点是使用了一种全面的回溯算法来模拟风险投资的投资过程。这种模拟允许对我们模型的性能进行针对历史数据的强大评估。
 
-    In the US airline industry, independent regional airlines fly passengers on behalf of several national airlines across different markets, giving rise to $\textit{common subcontracting}$. On the one hand, we find that subcontracting is associated with lower prices, consistent with the notion that regional airlines tend to fly passengers at lower costs than major airlines. On the other hand, we find that $\textit{common}$ subcontracting is associated with higher prices. These two countervailing effects suggest that the growth of regional airlines can have anticompetitive implications for the industry.
+    Predicting startup success presents a formidable challenge due to the inherently volatile landscape of the entrepreneurial ecosystem. The advent of extensive databases like Crunchbase jointly with available open data enables the application of machine learning and artificial intelligence for more accurate predictive analytics. This paper focuses on startups at their Series B and Series C investment stages, aiming to predict key success milestones such as achieving an Initial Public Offering (IPO), attaining unicorn status, or executing a successful Merger and Acquisition (M\&A). We introduce novel deep learning model for predicting startup success, integrating a variety of factors such as funding metrics, founder features, industry category. A distinctive feature of our research is the use of a comprehensive backtesting algorithm designed to simulate the venture capital investment process. This simulation allows for a robust evaluation of our model's performance against historical data
     
-[^9]: 技能的价格是多少？互补性的价值
+[^5]: 金融网络中的系统性风险: 渐近独立的影响
 
-    What is the Price of a Skill? The Value of Complementarity. (arXiv:2210.01535v3 [econ.GN] UPDATED)
+    Systemic risk in financial networks: the effects of asymptotic independence. (arXiv:2309.15511v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2210.01535](http://arxiv.org/abs/2210.01535)
+    [http://arxiv.org/abs/2309.15511](http://arxiv.org/abs/2309.15511)
 
-    本研究表明，技能的价值很大程度上由互补性决定，大多数技能在与不同类型的技能组合使用时价值最高。人工智能技能由于其强大的互补性和近年来不断增长的需求，其价值尤为突出，平均提高工人工资21％。
-
-    
-
-    全球劳动力被敦促不断提升自己的技能，因为技术变革偏好某些新技能，同时使其他技能变得多余。但是对于工人和公司来说，哪些技能是一个好的投资呢？由于技能很少是孤立应用的，我们提出互补性强烈决定了技能的经济价值。我们对962种技能进行了研究，证明了它们的价值在很大程度上由互补性决定-即一个能力可以与多少不同的技能理想情况下结合，这些技能具有很高的价值。我们显示，技能的价值是相对的，因为它取决于工人的技能背景。对于大多数技能来说，当与不同类型的技能组合使用时，它们的价值最高。我们用与人工智能（AI）相关的技能集对我们的模型进行了测试。我们发现，人工智能技能尤其有价值-平均提高工人工资21％-这是因为它们的互补性强大，并且近年来需求不断增加。模型和指标
-
-    The global workforce is urged to constantly reskill, as technological change favours particular new skills while making others redundant. But which skills are a good investment for workers and firms? As skills are seldomly applied in isolation, we propose that complementarity strongly determines a skill's economic value. For 962 skills, we demonstrate that their value is strongly determined by complementarity - that is, how many different skills, ideally of high value, a competency can be combined with. We show that the value of a skill is relative, as it depends on the skill background of the worker. For most skills, their value is highest when used in combination with skills of a different type. We put our model to the test with a set of skills related to Artificial Intelligence (AI). We find that AI skills are particularly valuable - increasing worker wages by 21% on average - because of their strong complementarities and their rising demand in recent years. The model and metrics of
-    
-[^10]: 具有半鞅策略的最优组合清算均值场控制问题
-
-    A Mean-Field Control Problem of Optimal Portfolio Liquidation with Semimartingale Strategies. (arXiv:2207.00446v2 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2207.00446](http://arxiv.org/abs/2207.00446)
-
-    本文研究了具有半鞅策略的最优组合清算问题，证明了价值函数采用线性-二次形式，且最优策略仅在交易期的开始和结束时进行跳跃。
+    该论文研究了金融网络中的系统性风险，特别关注了渐近尾部独立性的影响。通过建立一般维度的互相渐近尾部独立性概念，并与传统的成对渐近独立性进行比较，提供了金融风险建模的新视角。此外，通过构建银行和资产的双分图展示了资产组合的多样渐近尾部独立性行为，并提供了条件尾部风险的精确渐近表达式。
 
     
 
-    我们考虑了一个具有瞬态市场影响和自激励订单流的组合清算模型，其中涉及到 c\`adl\`ag 半鞅策略的均值场控制问题。我们证明了价值函数仅通过其分布依赖于状态过程，并且它采用线性-二次形式，其系数满足非标准 Riccati 类型方程的耦合系统。通过由离散时间模型转换到连续时间极限来启发式地获得 Riccati 方程。通过复杂的变换，我们可以将系统带入标准 Riccati 形式，从而推断出全局解的存在性。我们的分析表明，最优策略仅在交易期的开始和结束时进行跳跃。
+    系统性风险度量对于评估复杂金融系统的稳定性至关重要。经验证据表明，各种金融资产的回报呈重尾行为；此外，这些回报经常表现出渐近尾部独立性，即极端值不太可能同时发生。令人惊讶的是，大于两个维度的渐近尾部独立性在理论上和金融风险建模上都受到了有限的关注。在本文中，我们建立了一般 $d$ 维度的互相渐近尾部独立性概念，并将其与传统的成对渐近独立性概念进行比较。此外，我们使用银行和资产的双分图构建了一个金融网络模型，其中资产组合可能存在重尾风险资产的重叠，展示了不同的渐近尾部独立性行为。对于此类模型，我们提供了各种条件尾部风险的精确渐近表达式。
 
-    We consider a mean-field control problem with c\`adl\`ag semimartingale strategies arising in portfolio liquidation models with transient market impact and self-exciting order flow. We show that the value function depends on the state process only through its law, and that it is of linear-quadratic form and that its coefficients satisfy a coupled system of non-standard Riccati-type equations. The Riccati equations are obtained heuristically by passing to the continuous-time limit from a sequence of discrete-time models. A sophisticated transformation shows that the system can be brought into standard Riccati form from which we deduce the existence of a global solution. Our analysis shows that the optimal strategy jumps only at the beginning and the end of the trading period.
+    Systemic risk measurements are important for the assessment of stability of complex financial systems. Empirical evidence indicates that returns from various financial assets have a heavy-tailed behavior; moreover, such returns often exhibit asymptotic tail independence, i.e., extreme values are less likely to occur simultaneously. Surprisingly, asymptotic tail independence in dimensions larger than two has received limited attention both theoretically, and as well for financial risk modeling. In this paper, we establish the notion of mutual asymptotic tail independence for general $d$-dimensions and compare it with the traditional notion of pairwise asymptotic independence. Furthermore, we consider a financial network model using a bipartite graph of banks and assets with portfolios of possibly overlapping heavy-tailed risky assets exhibiting various asymptotic tail (in)dependence behavior. For such models we provide precise asymptotic expressions for a variety of conditional tail ris
     
-[^11]: 追求股东价值的共同成本
+[^6]: 枚举关键矿物供应失衡对气候影响的论文
 
-    The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
+    Enumerating the climate impact of disequilibrium in critical mineral supply. (arXiv:2309.15368v1 [econ.GN])
 
-    [http://arxiv.org/abs/2103.12138](http://arxiv.org/abs/2103.12138)
+    [http://arxiv.org/abs/2309.15368](http://arxiv.org/abs/2309.15368)
 
-    文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。
+    根据研究，符合提议的尾气排放标准需要在2027年至2032年间用至少1021万辆新的内燃机汽车替换为EV。根据现有可利用的矿产储量，制造足够的EVs在大多数电池化学品中是可行的，并且可以减少高达4573万吨的CO2e。
 
     
 
-    本文采用准实验性的方法，根据公司股东大会（AGMs）的时间差异，提出了一个可移植的框架，推断股东的偏好和对公司利他决策的影响，并将其应用于covid相关捐赠、最近针对俄罗斯的私人制裁以及公司2012-19年的利他立场。AGMs的媒体曝光带来的形象收益，使得与公司同义的股东（如密切相关的个人）支持昂贵的利他变革，而其他股东（如金融公司）反对这些变革。支持这些变革的影响使收益下降了30％：追求（某些）股东的价值具有分配成本，大股东的监控可以避免由偏好异质性驱动的成本。
+    最近提出的尾气排放标准旨在在美国显著增加电动汽车（EV）的销量。我们的研究考察了在EV矿物供应链存在潜在限制的情况下，是否能够实现这一增长。我们估计了一个模型，反映了国际采购规则、主要电池化学品的矿物质强度的异质性，以及长期的电网脱碳努力。我们的努力得出了五个关键发现。首先，要符合提议的标准，需要在2027年至2032年之间将至少1021万辆新的内燃机汽车替换为EV。其次，基于经济上可行和地质上可利用的矿产储量，制造足够的EVs在大多数电池化学品中是可行的，并且可以根据所采用的化学品减少高达4573万吨的CO2e。第三，美国及其盟友的矿产生产能力限制了在2027年至2032年之间总共生产509万个EV电池。
 
-    Using quasi-experimental variations from the timing of firms' Annual General Meetings (AGMs), we propose a portable framework to infer shareholders' preferences and influences on firms' prosocial decisions and apply it to covid-related donations, recent private sanctions on Russia, and firms' prosocial stances over 2012-19. Image gains from AGMs' media exposure drive shareholders synonymous with a firm, like closely-connected individuals, to support costly prosocial changes, while others, like financial corporations, oppose them. Influence supporting these changes lowers earnings by 30\%: pursuing the values of (some) shareholders has distributional costs, which the monitoring of large shareholders motivated by heterogeneous preferences could prevent.
+    Recently proposed tailpipe emissions standards aim to significant increases in electric vehicle (EV) sales in the United States. Our work examines whether this increase is achievable given potential constraints in EV mineral supply chains. We estimate a model that reflects international sourcing rules, heterogeneity in the mineral intensity of predominant battery chemistries, and long-run grid decarbonization efforts. Our efforts yield five key findings. First, compliance with the proposed standard necessitates replacing at least 10.21 million new ICEVs with EVs between 2027 and 2032. Second, based on economically viable and geologically available mineral reserves, manufacturing sufficient EVs is plausible across most battery chemistries and could, subject to the chemistry leveraged, reduce up to 457.3 million total tons of CO2e. Third, mineral production capacities of the US and its allies constrain battery production to a total of 5.09 million EV batteries between 2027 and 2032, well
+    
+[^7]: 紧缩时期质量的重要性：大学竞争力和资助收入
+
+    The importance of quality in austere times: University competitiveness and grant income. (arXiv:2309.15309v1 [econ.GN])
+
+    [http://arxiv.org/abs/2309.15309](http://arxiv.org/abs/2309.15309)
+
+    这项研究利用英国科学资助紧缩政策的自然实验，发现传统的大学竞争力测量指标无法准确反映竞争力。通过使用一种基于复杂性科学的替代指标，研究人员揭示了大学在科学领域的高度动态参与方式，并发现研究竞争力对资助收入具有影响。紧缩政策放宽后，英国大学的地位和资助收入发生了变化。
+
+    
+
+    在2009年之后，许多政府实施了紧缩措施，常常限制科学资助。这些限制是否进一步使资助收入向精英科学家和大学倾斜？增加的资金竞争是否削弱了参与度？英国科学资助机构在紧缩期响应中显著减少了资助数目和总资金，但令人惊讶的是在2015年大选之后，科学资助限制得到了放宽。利用这个自然实验，我们显示常规的大学竞争力衡量指标是竞争力的不良代理。从复杂性科学中得出的大学竞争力替代指标捕捉了大学在科学领域中的高度动态参与方式。基于2006年至2020年间的43,430项英国资助项目数据集，我们分析了英国大学的排名，并研究了研究竞争力对资助收入的影响。当紧缩政策于2015年放宽时，英国大学的地位和资助收入发生了变化。
+
+    After 2009 many governments implemented austerity measures, often restricting science funding. Did such restrictions further skew grant income towards elite scientists and universities? And did increased competition for funding undermine participation? UK science funding agencies significantly reduced numbers of grants and total grant funding in response to austerity, but surprisingly restrictions of science funding were relaxed after the 2015 general election. Exploiting this natural experiment, we show that conventional measures of university competitiveness are poor proxies for competitiveness. An alternative measure of university competitiveness, drawn from complexity science, captures the highly dynamical way in which universities engage in scientific subjects. Building on a data set of 43,430 UK funded grants between 2006 and 2020, we analyse rankings of UK universities and investigate the effect of research competitiveness on grant income. When austerity was relaxed in 2015 the 
+    
+[^8]: 连续时间随机过程的量子分析
+
+    Quantum Analysis of Continuous Time Stochastic Process. (arXiv:2208.02364v3 [quant-ph] UPDATED)
+
+    [http://arxiv.org/abs/2208.02364](http://arxiv.org/abs/2208.02364)
+
+    本文提出了一种通用框架，用于在量子计算机上高效地准备连续时间随机过程路径。基于压缩状态准备方法，可以高效地提取重要的路径相关和历史敏感信息，并实现二次加速。
+
+    
+
+    连续时间随机过程是一种主流的数学工具，用于模拟具有广泛应用的金融、统计、物理和时间序列分析中的随机世界，然而，连续时间随机过程的模拟和分析对于经典计算机来说是一个具有挑战性的问题。本文建立了一个通用框架，可以在量子计算机上高效地准备连续时间随机过程的路径。通过我们的压缩状态准备方法，关键参数存留时间的量子比特数和电路深度都得到了优化，存储和计算资源指数级降低。所需的信息，包括对金融问题至关重要的路径相关和历史敏感信息，可以从压缩取样路径中高效地提取，并且进一步实现了二次加速。此外，这种提取方法对于那些不连续的跳跃更加敏感。
+
+    The continuous time stochastic process is a mainstream mathematical instrument modeling the random world with a wide range of applications involving finance, statistics, physics, and time series analysis, while the simulation and analysis of the continuous time stochastic process is a challenging problem for classical computers. In this work, a general framework is established to prepare the path of a continuous time stochastic process in a quantum computer efficiently. The storage and computation resource is exponentially reduced on the key parameter of holding time, as the qubit number and the circuit depth are both optimized via our compressed state preparation method. The desired information, including the path-dependent and history-sensitive information that is essential for financial problems, can be extracted efficiently from the compressed sampling path, and admits a further quadratic speed-up. Moreover, this extraction method is more sensitive to those discontinuous jumps capt
     
 

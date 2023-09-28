@@ -1,0 +1,12 @@
+{
+    "title": "Learning the Efficient Frontier. (arXiv:2309.15775v1 [cs.LG])",
+    "abstract": "The efficient frontier (EF) is a fundamental resource allocation problem where one has to find an optimal portfolio maximizing a reward at a given level of risk. This optimal solution is traditionally found by solving a convex optimization problem. In this paper, we introduce NeuralEF: a fast neural approximation framework that robustly forecasts the result of the EF convex optimization problem with respect to heterogeneous linear constraints and variable number of optimization inputs. By reformulating an optimization problem as a sequence to sequence problem, we show that NeuralEF is a viable solution to accelerate large-scale simulation while handling discontinuous behavior.",
+    "link": "http://arxiv.org/abs/2309.15775",
+    "context": "Title: Learning the Efficient Frontier. (arXiv:2309.15775v1 [cs.LG])\nAbstract: The efficient frontier (EF) is a fundamental resource allocation problem where one has to find an optimal portfolio maximizing a reward at a given level of risk. This optimal solution is traditionally found by solving a convex optimization problem. In this paper, we introduce NeuralEF: a fast neural approximation framework that robustly forecasts the result of the EF convex optimization problem with respect to heterogeneous linear constraints and variable number of optimization inputs. By reformulating an optimization problem as a sequence to sequence problem, we show that NeuralEF is a viable solution to accelerate large-scale simulation while handling discontinuous behavior.",
+    "path": "papers/23/09/2309.15775.json",
+    "total_tokens": 647,
+    "translated_title": "学习高效前沿",
+    "translated_abstract": "高效前沿（EF）是一个基本的资源配置问题，在给定风险水平下寻找最优投资组合以最大化收益。传统上，通过解一个凸优化问题来找到最优解。本文引入了NeuralEF：一个快速的神经逼近框架，可以鲁棒地预测相对异构线性约束和可变数量的优化输入的EF凸优化问题的结果。通过将优化问题重新定义为序列到序列问题，我们展示了NeuralEF是加速大规模模拟并处理不连续行为的可行解决方案。",
+    "tldr": "本文引入了NeuralEF，一个快速的神经逼近框架，能够鲁棒地预测高效前沿问题的解，同时处理异构线性约束和可变数量的优化输入。",
+    "en_tdlr": "This paper introduces NeuralEF, a fast neural approximation framework that robustly predicts solutions to the efficient frontier problem while handling heterogeneous linear constraints and variable number of optimization inputs."
+}

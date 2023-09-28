@@ -1,0 +1,12 @@
+{
+    "title": "PINF: Continuous Normalizing Flows for Physics-Constrained Deep Learning. (arXiv:2309.15139v1 [cs.LG])",
+    "abstract": "The normalization constraint on probability density poses a significant challenge for solving the Fokker-Planck equation. Normalizing Flow, an invertible generative model leverages the change of variables formula to ensure probability density conservation and enable the learning of complex data distributions. In this paper, we introduce Physics-Informed Normalizing Flows (PINF), a novel extension of continuous normalizing flows, incorporating diffusion through the method of characteristics. Our method, which is mesh-free and causality-free, can efficiently solve high dimensional time-dependent and steady-state Fokker-Planck equations.",
+    "link": "http://arxiv.org/abs/2309.15139",
+    "context": "Title: PINF: Continuous Normalizing Flows for Physics-Constrained Deep Learning. (arXiv:2309.15139v1 [cs.LG])\nAbstract: The normalization constraint on probability density poses a significant challenge for solving the Fokker-Planck equation. Normalizing Flow, an invertible generative model leverages the change of variables formula to ensure probability density conservation and enable the learning of complex data distributions. In this paper, we introduce Physics-Informed Normalizing Flows (PINF), a novel extension of continuous normalizing flows, incorporating diffusion through the method of characteristics. Our method, which is mesh-free and causality-free, can efficiently solve high dimensional time-dependent and steady-state Fokker-Planck equations.",
+    "path": "papers/23/09/2309.15139.json",
+    "total_tokens": 702,
+    "translated_title": "PINF：物理约束深度学习的连续标准化流",
+    "translated_abstract": "概率密度的标准化约束对于解决福克-普朗克方程构成了重大挑战。标准化流是一种可逆生成模型，利用变量变换公式确保概率密度守恒，并能够学习复杂数据分布。本文介绍了连续标准化流的新颖扩展——物理约束标准化流（PINF），通过特征值法则结合扩散，实现了无网格和无因果性的高效解决高维时变和稳态福克-普朗克方程。",
+    "tldr": "本文提出了PINF，这是物理约束深度学习的连续标准化流的一种扩展。该方法通过特征值法则和扩散来解决高维时变和稳态福克-普朗克方程。",
+    "en_tdlr": "This paper introduces PINF, an extension of continuous normalizing flows for physics-constrained deep learning, which efficiently solves high dimensional time-dependent and steady-state Fokker-Planck equations using the method of characteristics and diffusion."
+}

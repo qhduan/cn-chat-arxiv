@@ -1,0 +1,12 @@
+{
+    "title": "Private independence testing across two parties. (arXiv:2207.03652v2 [math.ST] UPDATED)",
+    "abstract": "We introduce $\\pi$-test, a privacy-preserving algorithm for testing statistical independence between data distributed across multiple parties. Our algorithm relies on privately estimating the distance correlation between datasets, a quantitative measure of independence introduced in Sz\\'ekely et al. [2007]. We establish both additive and multiplicative error bounds on the utility of our differentially private test, which we believe will find applications in a variety of distributed hypothesis testing settings involving sensitive data.",
+    "link": "http://arxiv.org/abs/2207.03652",
+    "context": "Title: Private independence testing across two parties. (arXiv:2207.03652v2 [math.ST] UPDATED)\nAbstract: We introduce $\\pi$-test, a privacy-preserving algorithm for testing statistical independence between data distributed across multiple parties. Our algorithm relies on privately estimating the distance correlation between datasets, a quantitative measure of independence introduced in Sz\\'ekely et al. [2007]. We establish both additive and multiplicative error bounds on the utility of our differentially private test, which we believe will find applications in a variety of distributed hypothesis testing settings involving sensitive data.",
+    "path": "papers/22/07/2207.03652.json",
+    "total_tokens": 676,
+    "translated_title": "两方私密独立性检测",
+    "translated_abstract": "我们介绍了一种名为 $\\pi$-test 的保护隐私算法，用于在多个方之间测试统计独立性。我们的算法依赖于对数据集之间的距离相关性进行私密估计，这是一种在 Sz\\'ekely 等人 [2007] 中引入的独立性的定量度量。我们对我们的差分隐私测试的效用建立了加法和乘法误差界限，我们相信它将在涉及敏感数据的各种分布式假设检验场景中找到应用。",
+    "tldr": "我们提出了一种私密独立性检测算法，通过私密估计数据集之间的距离相关性进行统计独立性测试。我们建立了差分隐私测试的加法和乘法误差界限，相信该算法在涉及敏感数据的分布式假设检验中会有应用。",
+    "en_tdlr": "We propose a private independence testing algorithm that tests statistical independence by privately estimating the distance correlation between datasets. We establish additive and multiplicative error bounds for our differentially private test, which we believe will be useful in distributed hypothesis testing involving sensitive data."
+}

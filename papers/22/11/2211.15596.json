@@ -1,0 +1,12 @@
+{
+    "title": "A survey of deep learning optimizers -- first and second order methods. (arXiv:2211.15596v2 [cs.LG] UPDATED)",
+    "abstract": "Deep Learning optimization involves minimizing a high-dimensional loss function in the weight space which is often perceived as difficult due to its inherent difficulties such as saddle points, local minima, ill-conditioning of the Hessian and limited compute resources. In this paper, we provide a comprehensive review of $14$ standard optimization methods successfully used in deep learning research and a theoretical assessment of the difficulties in numerical optimization from the optimization literature.",
+    "link": "http://arxiv.org/abs/2211.15596",
+    "context": "Title: A survey of deep learning optimizers -- first and second order methods. (arXiv:2211.15596v2 [cs.LG] UPDATED)\nAbstract: Deep Learning optimization involves minimizing a high-dimensional loss function in the weight space which is often perceived as difficult due to its inherent difficulties such as saddle points, local minima, ill-conditioning of the Hessian and limited compute resources. In this paper, we provide a comprehensive review of $14$ standard optimization methods successfully used in deep learning research and a theoretical assessment of the difficulties in numerical optimization from the optimization literature.",
+    "path": "papers/22/11/2211.15596.json",
+    "total_tokens": 615,
+    "translated_title": "深度学习优化器综述 - 一阶和二阶方法",
+    "translated_abstract": "深度学习优化涉及在权重空间中最小化高维损失函数，由于其固有的困难，如鞍点、局部最小值、Hessian矩阵的病态和有限的计算资源，通常被认为是困难的。在本文中，我们综合评述了深度学习研究中成功使用的14种标准优化方法，并从优化文献的角度对数值优化的困难进行了理论评估。",
+    "tldr": "该论文综述了在深度学习研究中成功使用的14种标准优化方法，并从优化文献的角度对数值优化中的困难进行了理论评估。",
+    "en_tdlr": "This paper provides a comprehensive review of 14 standard optimization methods successfully used in deep learning research and theoretical assessment of the difficulties in numerical optimization from the optimization literature."
+}

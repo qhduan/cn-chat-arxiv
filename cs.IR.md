@@ -2,187 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models.](http://arxiv.org/abs/2309.15088) | RankVicuna是第一个能够在零样本设置中执行高质量列表排序的完全开源的大型语言模型，通过使用比GPT-3.5小得多的参数模型，实现了与零样本重新排序相当的效果，并为将来研究提供了基础。 |
-| [^2] | [The Role of Document Embedding in Research Paper Recommender Systems: To Breakdown or to Bolster Disciplinary Borders?.](http://arxiv.org/abs/2309.14984) | 本论文探讨了文献嵌入在研究论文推荐系统中的作用，并提出了一种新的评估框架，该框架通过网络分析和自然语言处理来评估推荐的新颖性和多样性。研究表明在推荐系统中选择不同的代表性方法会对推荐结果的性质产生影响，我们引入了一种新的论文嵌入方法，该方法提供了更多的创新性。 |
-| [^3] | [Modeling Multi-aspect Preferences and Intents for Multi-behavioral Sequential Recommendation.](http://arxiv.org/abs/2309.14938) | 本文提出了MAINT模型，通过多重投影和多方面注意力机制捕捉多方面的偏好和意图，解决了现有方法在多行为序列推荐中无法捕捉多方面特性和处理噪声的问题。 |
-| [^4] | [REFORM: Removing False Correlation in Multi-level Interaction for CTR Prediction.](http://arxiv.org/abs/2309.14891) | REFORM是一个CTR预测框架，通过两个流式叠加的循环结构利用了多级高阶特征表示，并消除了误关联。 |
-| [^5] | [ALEX: Towards Effective Graph Transfer Learning with Noisy Labels.](http://arxiv.org/abs/2309.14673) | ALEX是一种用于解决存在标签噪声的图传输学习问题的新技术，通过使用图对比学习和平衡标签分布的子图构建方法来提供稳健的节点表示。 |
-| [^6] | [Tranformer-based classification of user queries for medical consultancy with respect to expert specialisation.](http://arxiv.org/abs/2309.14662) | 本研究利用RuBERT模型和Transformer技术，提出了一种用于医学咨询的用户查询分类方法，重点关注专家特长，表现出超过92%的性能，具有良好的泛化性能和实际应用价值。 |
-| [^7] | [Algorithmic Collusion or Competition: the Role of Platforms' Recommender Systems.](http://arxiv.org/abs/2309.14548) | 这项研究填补了关于电子商务平台推荐算法在算法勾结研究中被忽视的空白，并发现推荐算法可以决定基于AI的定价算法的竞争或勾结动态。 |
-| [^8] | [Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations.](http://arxiv.org/abs/2307.06576) | 本文介绍了一种名为GLORY的模型，通过全局图与本地表示相结合，增强了个性化推荐系统。该模型通过构建全局感知历史新闻编码器来融合历史新闻表示，并考虑了用户隐藏的动机和行为。 |
-| [^9] | [How to Index Item IDs for Recommendation Foundation Models.](http://arxiv.org/abs/2305.06569) | 本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。 |
-| [^10] | [Data Distillation: A Survey.](http://arxiv.org/abs/2301.04272) | 这篇综述介绍了数据精炼的概念和方法，以及针对不同数据类型的应用。数据精炼方法可以用于模型训练、推理和架构搜索等场景，以解决使用大型数据集训练模型所带来的问题。 |
-| [^11] | [Convolutive Block-Matching Segmentation Algorithm with Application to Music Structure Analysis.](http://arxiv.org/abs/2210.15356) | 本文介绍了一种新的卷积块匹配算法，用于音乐结构分析，通过计算自相似矩阵来达到与有监督方法相当的性能。 |
-| [^12] | [Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022.](http://arxiv.org/abs/2206.14381) | 本论文提出了一种在EPIC-KITCHENS-100多实例检索挑战2022中利用语义角色上下文化的视频特征进行文本-视频检索的方法，通过三元损失函数在多个嵌入空间中融合视频和文本特征，超过了强基线，在nDCG和mAP方面获得了较好的排名。 |
+| [^1] | [Temporal graph models fail to capture global temporal dynamics.](http://arxiv.org/abs/2309.15730) | 时间图模型无法捕捉全局时间动态，我们提出了一种"最近流行节点"的基线方法，在时间图基准的中等和大规模数据集上胜过其他方法。我们提出了两个基于Wasserstein距离的度量来量化全局动态。我们展示了标准的负采样评估方法在具有强烈时间动态的数据集上可能不适用，我们还展示了简单的负采样方法可能导致模型退化。我们提出了改进的负采样方案，并证明了它们的有效性。我们还将其与无负采样的非对比训练模型进行了比较。 |
+| [^2] | [Cold & Warm Net: Addressing Cold-Start Users in Recommender Systems.](http://arxiv.org/abs/2309.15646) | 本文提出了一种名为冷启动和热启动网络的方法(Cold & Warm Net)，用于解决推荐系统中的冷启动用户问题。该方法利用专家模型分别建模冷启动和热启动用户，并引入门控网络和动态知识蒸馏来提高用户表示的学习效果。通过选择与用户行为高度相关的特征，并建立偏差网络来显式建模用户行为偏差。实验证实了该方法的有效性。 |
+| [^3] | [Identifiability Matters: Revealing the Hidden Recoverable Condition in Unbiased Learning to Rank.](http://arxiv.org/abs/2309.15560) | 研究揭示在无偏学习排名中，当点击数据不能完全拟合时，无法恢复真实相关性，导致排名性能显著降低，提出了可识别性图模型作为解决方案。 |
+| [^4] | [Automatic Feature Fairness in Recommendation via Adversaries.](http://arxiv.org/abs/2309.15418) | 通过对手训练实现推荐系统中的特征公平性，提高整体准确性和泛化能力 |
+| [^5] | [Frequency and cardinality recovery from sketched data: a novel approach bridging Bayesian and frequentist views.](http://arxiv.org/abs/2309.15408) | 该论文研究了如何仅使用压缩表示来恢复大规模数据集中符号的频率，并引入了新的估计方法，将贝叶斯和频率论观点结合起来，提供了更好的解决方案。此外，还扩展了该方法以解决基数恢复问题。 |
+| [^6] | [A Content-Driven Micro-Video Recommendation Dataset at Scale.](http://arxiv.org/abs/2309.15379) | 该论文介绍了一个名为"MicroLens"的大规模微视频推荐数据集，包括十亿个用户-项目交互行为和各种原始模态信息，为研究人员开发内容驱动的微视频推荐系统提供了基准。 |
+| [^7] | [LD4MRec: Simplifying and Powering Diffusion Model for Multimedia Recommendation.](http://arxiv.org/abs/2309.15363) | LD4MRec是一种简化和加强多媒体推荐的扩散模型，解决了行为数据噪声对推荐性能的负面影响、经典扩散模型计算量过大以及现有反向过程不适用于离散行为数据的挑战。 |
 
 # 详细
 
-[^1]: RankVicuna: 使用开源大型语言模型进行零样本列表排序的研究
+[^1]: 时间图模型无法捕捉全局时间动态
 
-    RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models. (arXiv:2309.15088v1 [cs.IR])
+    Temporal graph models fail to capture global temporal dynamics. (arXiv:2309.15730v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.15088](http://arxiv.org/abs/2309.15088)
+    [http://arxiv.org/abs/2309.15730](http://arxiv.org/abs/2309.15730)
 
-    RankVicuna是第一个能够在零样本设置中执行高质量列表排序的完全开源的大型语言模型，通过使用比GPT-3.5小得多的参数模型，实现了与零样本重新排序相当的效果，并为将来研究提供了基础。
-
-    
-
-    研究人员成功地将ChatGPT等大型语言模型应用于信息检索中的重新排序，但迄今为止，这样的工作大多建立在不透明的API后面的专有模型上。这种方法产生的实验结果不可复现且非确定性，威胁到建立在这种不稳定基础上的结果的真实性。为了解决这个重大缺陷，我们提出了RankVicuna，这是第一个能够在零样本设置中执行高质量列表排序的完全开源的大型语言模型。在TREC 2019和2020深度学习跟踪实验中，我们的实验结果显示，我们可以使用比GPT-3.5小得多的7B参数模型实现与零样本重新排序相当的效果，尽管我们的效果仍略逊于GPT-4重新排序。我们希望我们的工作为将来使用现代大型语言模型进行重新排序的研究提供基础。复现我们结果所需的所有代码都可以在h链接处获得。
-
-    Researchers have successfully applied large language models (LLMs) such as ChatGPT to reranking in an information retrieval context, but to date, such work has mostly been built on proprietary models hidden behind opaque API endpoints. This approach yields experimental results that are not reproducible and non-deterministic, threatening the veracity of outcomes that build on such shaky foundations. To address this significant shortcoming, we present RankVicuna, the first fully open-source LLM capable of performing high-quality listwise reranking in a zero-shot setting. Experimental results on the TREC 2019 and 2020 Deep Learning Tracks show that we can achieve effectiveness comparable to zero-shot reranking with GPT-3.5 with a much smaller 7B parameter model, although our effectiveness remains slightly behind reranking with GPT-4. We hope our work provides the foundation for future research on reranking with modern LLMs. All the code necessary to reproduce our results is available at h
-    
-[^2]: 文献嵌入在研究论文推荐系统中的作用: 是破坏学科边界还是加强它？
-
-    The Role of Document Embedding in Research Paper Recommender Systems: To Breakdown or to Bolster Disciplinary Borders?. (arXiv:2309.14984v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.14984](http://arxiv.org/abs/2309.14984)
-
-    本论文探讨了文献嵌入在研究论文推荐系统中的作用，并提出了一种新的评估框架，该框架通过网络分析和自然语言处理来评估推荐的新颖性和多样性。研究表明在推荐系统中选择不同的代表性方法会对推荐结果的性质产生影响，我们引入了一种新的论文嵌入方法，该方法提供了更多的创新性。
+    时间图模型无法捕捉全局时间动态，我们提出了一种"最近流行节点"的基线方法，在时间图基准的中等和大规模数据集上胜过其他方法。我们提出了两个基于Wasserstein距离的度量来量化全局动态。我们展示了标准的负采样评估方法在具有强烈时间动态的数据集上可能不适用，我们还展示了简单的负采样方法可能导致模型退化。我们提出了改进的负采样方案，并证明了它们的有效性。我们还将其与无负采样的非对比训练模型进行了比较。
 
     
 
-    在广泛的推荐系统文献中，新颖性和多样性被认为是有用推荐的关键属性。然而，在研究论文推荐系统的具体子领域中，这些属性得到了有限的关注。在这项工作中，我们提出了为科学家提供新颖和多样的研究论文推荐的重要性。这种方法旨在减少隔离阅读，打破过滤泡和促进跨学科研究。我们提出了一种评估研究论文推荐的新颖性和多样性的新框架，该框架利用了网络分析和自然语言处理的方法。使用这个框架，我们展示了在更大的研究论文推荐系统中选择代表性方法可以对下游推荐的性质，特别是它们的新颖性和多样性产生可衡量的影响。我们介绍了一种新型的论文嵌入方法，我们证明它提供了更多的创新性。
+    在动态链接属性预测的背景下，我们分析了最近发布的时间图基准，并提出了一种"最近流行节点"的基线方法，在时间图基准的中等和大规模数据集上胜过其他方法。我们提出了基于Wasserstein距离的两个度量，可以量化数据集的短期和长期全局动态的强度。通过分析我们出乎意料的强大基线，我们展示了标准的负采样评估方法在具有强烈时间动态的数据集上可能不适用。我们还展示了简单的负采样方法在训练过程中可能导致模型退化，导致无法对时间图网络进行排序的预测完全饱和。我们提出了改进的负采样方案用于训练和评估，并证明了它们的有效性。我们还将其与无负采样的非对比训练模型进行了比较。我们的结果表明...
 
-    In the extensive recommender systems literature, novelty and diversity have been identified as key properties of useful recommendations. However, these properties have received limited attention in the specific sub-field of research paper recommender systems. In this work, we argue for the importance of offering novel and diverse research paper recommendations to scientists. This approach aims to reduce siloed reading, break down filter bubbles, and promote interdisciplinary research. We propose a novel framework for evaluating the novelty and diversity of research paper recommendations that leverages methods from network analysis and natural language processing. Using this framework, we show that the choice of representational method within a larger research paper recommendation system can have a measurable impact on the nature of downstream recommendations, specifically on their novelty and diversity. We introduce a novel paper embedding method, which we demonstrate offers more innov
+    A recently released Temporal Graph Benchmark is analyzed in the context of Dynamic Link Property Prediction. We outline our observations and propose a trivial optimization-free baseline of "recently popular nodes" outperforming other methods on all medium and large-size datasets in the Temporal Graph Benchmark. We propose two measures based on Wasserstein distance which can quantify the strength of short-term and long-term global dynamics of datasets. By analyzing our unexpectedly strong baseline, we show how standard negative sampling evaluation can be unsuitable for datasets with strong temporal dynamics. We also show how simple negative-sampling can lead to model degeneration during training, resulting in impossible to rank, fully saturated predictions of temporal graph networks. We propose improved negative sampling schemes for both training and evaluation and prove their usefulness. We conduct a comparison with a model trained non-contrastively without negative sampling. Our resul
     
-[^3]: 对于多行为序列推荐，建模多方面的偏好和意图
+[^2]: 冷启动和热启动网络：解决推荐系统中的冷启动用户问题
 
-    Modeling Multi-aspect Preferences and Intents for Multi-behavioral Sequential Recommendation. (arXiv:2309.14938v1 [cs.IR])
+    Cold & Warm Net: Addressing Cold-Start Users in Recommender Systems. (arXiv:2309.15646v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.14938](http://arxiv.org/abs/2309.14938)
+    [http://arxiv.org/abs/2309.15646](http://arxiv.org/abs/2309.15646)
 
-    本文提出了MAINT模型，通过多重投影和多方面注意力机制捕捉多方面的偏好和意图，解决了现有方法在多行为序列推荐中无法捕捉多方面特性和处理噪声的问题。
-
-    
-
-    多行为序列推荐近年来受到越来越多的关注。然而，现有方法存在两个主要限制。首先，用户的偏好和意图可以从多个角度进行精细描述；然而，这些方法无法捕捉其多方面的特性。其次，用户行为可能包含噪声，而大多数现有方法不能有效处理噪声。本文提出了一种具有多个投影的注意力循环模型，用于捕捉多方面的偏好和意图（简称MAINT）。为了从目标行为中提取多方面的偏好，我们提出了一个多方面投影机制，用于从多个方面生成多个偏好表示。为了从多类型行为中提取多方面意图，我们提出了一个增强型LSTM和多方面精化注意力机制。注意力机制可以滤除噪声并从多个方面生成多个意图表示。
-
-    Multi-behavioral sequential recommendation has recently attracted increasing attention. However, existing methods suffer from two major limitations. Firstly, user preferences and intents can be described in fine-grained detail from multiple perspectives; yet, these methods fail to capture their multi-aspect nature. Secondly, user behaviors may contain noises, and most existing methods could not effectively deal with noises. In this paper, we present an attentive recurrent model with multiple projections to capture Multi-Aspect preferences and INTents (MAINT in short). To extract multi-aspect preferences from target behaviors, we propose a multi-aspect projection mechanism for generating multiple preference representations from multiple aspects. To extract multi-aspect intents from multi-typed behaviors, we propose a behavior-enhanced LSTM and a multi-aspect refinement attention mechanism. The attention mechanism can filter out noises and generate multiple intent representations from di
-    
-[^4]: REFORM: 移除CTR预测中的误关联的多级交互
-
-    REFORM: Removing False Correlation in Multi-level Interaction for CTR Prediction. (arXiv:2309.14891v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.14891](http://arxiv.org/abs/2309.14891)
-
-    REFORM是一个CTR预测框架，通过两个流式叠加的循环结构利用了多级高阶特征表示，并消除了误关联。
+    本文提出了一种名为冷启动和热启动网络的方法(Cold & Warm Net)，用于解决推荐系统中的冷启动用户问题。该方法利用专家模型分别建模冷启动和热启动用户，并引入门控网络和动态知识蒸馏来提高用户表示的学习效果。通过选择与用户行为高度相关的特征，并建立偏差网络来显式建模用户行为偏差。实验证实了该方法的有效性。
 
     
 
-    点击率（CTR）预测是在线广告和推荐系统中的关键任务，准确的预测对于用户定位和个性化推荐至关重要。最近的一些前沿方法主要关注复杂的隐式和显式特征交互。然而，这些方法忽视了由混淆因子或选择偏差引起的误关联问题。这个问题在这些交互的复杂性和冗余性下变得更加严重。我们提出了一种CTR预测框架，称为REFORM，在多级特征交互中移除了误关联。所提出的REFORM框架通过两个流式叠加的循环结构利用了大量的多级高阶特征表示，并消除了误关联。该框架有两个关键组成部分：I. 多级叠加循环（MSR）结构使模型能够高效地捕捉到来自特征空间的多样非线性交互。
+    冷启动推荐是推荐系统面临的重大挑战之一。本文主要关注用户冷启动问题。最近，使用侧信息或元学习的方法被用来建模冷启动用户。然而，将这些方法应用于工业级推荐系统仍然存在困难。目前对于匹配阶段中的用户冷启动问题的研究还不多。本文提出了基于专家模型的冷启动和热启动用户建模方法：Cold & Warm Net。通过引入门控网络来结合两个专家的结果。此外，还引入了动态知识蒸馏作为一个教师选择器，帮助专家更好地学习用户表示。通过全面的互信息选择与用户行为高度相关的特征，用于显式建模用户行为偏差的偏差网络。最后，在公共数据集上对Cold & Warm Net进行评估。
 
-    Click-through rate (CTR) prediction is a critical task in online advertising and recommendation systems, as accurate predictions are essential for user targeting and personalized recommendations. Most recent cutting-edge methods primarily focus on investigating complex implicit and explicit feature interactions. However, these methods neglect the issue of false correlations caused by confounding factors or selection bias. This problem is further magnified by the complexity and redundancy of these interactions. We propose a CTR prediction framework that removes false correlation in multi-level feature interaction, termed REFORM. The proposed REFORM framework exploits a wide range of multi-level high-order feature representations via a two-stream stacked recurrent structure while eliminating false correlations. The framework has two key components: I. The multi-level stacked recurrent (MSR) structure enables the model to efficiently capture diverse nonlinear interactions from feature spa
+    Cold-start recommendation is one of the major challenges faced by recommender systems (RS). Herein, we focus on the user cold-start problem. Recently, methods utilizing side information or meta-learning have been used to model cold-start users. However, it is difficult to deploy these methods to industrial RS. There has not been much research that pays attention to the user cold-start problem in the matching stage. In this paper, we propose Cold & Warm Net based on expert models who are responsible for modeling cold-start and warm-up users respectively. A gate network is applied to incorporate the results from two experts. Furthermore, dynamic knowledge distillation acting as a teacher selector is introduced to assist experts in better learning user representation. With comprehensive mutual information, features highly relevant to user behavior are selected for the bias net which explicitly models user behavior bias. Finally, we evaluate our Cold & Warm Net on public datasets in compar
     
-[^5]: ALEX: 朝向带有噪声标签的有效图传输学习
+[^3]: 识别性很重要：揭示无偏学习排名中隐藏的可恢复条件
 
-    ALEX: Towards Effective Graph Transfer Learning with Noisy Labels. (arXiv:2309.14673v1 [cs.LG])
+    Identifiability Matters: Revealing the Hidden Recoverable Condition in Unbiased Learning to Rank. (arXiv:2309.15560v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.14673](http://arxiv.org/abs/2309.14673)
+    [http://arxiv.org/abs/2309.15560](http://arxiv.org/abs/2309.15560)
 
-    ALEX是一种用于解决存在标签噪声的图传输学习问题的新技术，通过使用图对比学习和平衡标签分布的子图构建方法来提供稳健的节点表示。
-
-    
-
-    图神经网络(GNNs)因在各种图机器学习任务中的出色表现而引起了人们的广泛关注。然而，大部分基于GNN的方法都是使用完全注释的基准数据集进行研究，导致在真实世界的图学习场景中表现不佳。为了弥补这一差距，本论文研究了在存在标签噪声的情况下的图传输学习问题，该问题将知识从带有噪声的源图传输到未标记的目标图。我们引入了一种名为Balance Alignment and Information-aware Examination (ALEX)的新技术来解决这个挑战。ALEX首先使用奇异值分解生成具有关键结构语义的不同视图，利用图对比学习来提供稳健的节点表示。为了减轻标签偏移和领域偏移，我们估计一个先验分布来构建具有平衡标签分布的子图。
-
-    Graph Neural Networks (GNNs) have garnered considerable interest due to their exceptional performance in a wide range of graph machine learning tasks. Nevertheless, the majority of GNN-based approaches have been examined using well-annotated benchmark datasets, leading to suboptimal performance in real-world graph learning scenarios. To bridge this gap, the present paper investigates the problem of graph transfer learning in the presence of label noise, which transfers knowledge from a noisy source graph to an unlabeled target graph. We introduce a novel technique termed Balance Alignment and Information-aware Examination (ALEX) to address this challenge. ALEX first employs singular value decomposition to generate different views with crucial structural semantics, which help provide robust node representations using graph contrastive learning. To mitigate both label shift and domain shift, we estimate a prior distribution to build subgraphs with balanced label distributions. Building o
-    
-[^6]: 基于Transformer的医学咨询用户查询分类与专家特长相关的研究
-
-    Tranformer-based classification of user queries for medical consultancy with respect to expert specialisation. (arXiv:2309.14662v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.14662](http://arxiv.org/abs/2309.14662)
-
-    本研究利用RuBERT模型和Transformer技术，提出了一种用于医学咨询的用户查询分类方法，重点关注专家特长，表现出超过92%的性能，具有良好的泛化性能和实际应用价值。
+    研究揭示在无偏学习排名中，当点击数据不能完全拟合时，无法恢复真实相关性，导致排名性能显著降低，提出了可识别性图模型作为解决方案。
 
     
 
-    在数字医疗时代，对于熟练的医疗支持的需求正在增长。本研究提出了一种创新策略，利用RuBERT模型，将医学咨询领域的用户查询进行分类，并着重关注专家的特长。通过利用Transformer模型的能力，我们在多样化的数据集上对预训练的RuBERT模型进行微调，实现了查询与特定医学专长之间的精确对应。通过使用全面的数据集，我们证明了我们的方法在交叉验证和传统的测试和训练集划分下均具有优秀的性能，F1得分超过92%。我们的方法在心脏病学、神经病学和皮肤科等医学领域的泛化性能也非常出色。这种方法提供了实际益处，可以将用户引导至适当的专家以获得及时而有针对性的医疗建议。它还提高了医疗系统的效率，减少了从业者的负担。
+    无偏学习排名(Unbiased Learning to Rank, ULTR)在从有偏点击日志训练无偏排名模型的现代系统中被广泛应用。关键在于明确地建模用户行为的生成过程，并基于检验假设对点击数据进行拟合。先前的研究经验性地发现只要点击完全拟合，大多数情况下可以恢复出真实潜在相关性。然而，我们证明并非总是能够实现这一点，从而导致排名性能显著降低。在本工作中，我们旨在回答真实相关性是否能够从点击数据恢复出来的问题，这是ULTR领域的一个基本问题。我们首先将一个排名模型定义为可识别的，如果它可以恢复出真实相关性，最多只有一个缩放变换，这对于成对排名目标来说已足够。然后，我们探讨了一个等价的可识别条件，可以新颖地表达为一个图连通性测试问题：当且仅当一个图（即可识别性图）连通时，该排名模型是可识别的。
 
-    The need for skilled medical support is growing in the era of digital healthcare. This research presents an innovative strategy, utilising the RuBERT model, for categorising user inquiries in the field of medical consultation with a focus on expert specialisation. By harnessing the capabilities of transformers, we fine-tuned the pre-trained RuBERT model on a varied dataset, which facilitates precise correspondence between queries and particular medical specialisms. Using a comprehensive dataset, we have demonstrated our approach's superior performance with an F1-score of over 92%, calculated through both cross-validation and the traditional split of test and train datasets. Our approach has shown excellent generalisation across medical domains such as cardiology, neurology and dermatology. This methodology provides practical benefits by directing users to appropriate specialists for prompt and targeted medical advice. It also enhances healthcare system efficiency, reduces practitioner 
+    The application of Unbiased Learning to Rank (ULTR) is widespread in modern systems for training unbiased ranking models from biased click logs. The key is to explicitly model a generation process for user behavior and fit click data based on examination hypothesis. Previous research found empirically that the true latent relevance can be recovered in most cases as long as the clicks are perfectly fitted. However, we demonstrate that this is not always achievable, resulting in a significant reduction in ranking performance. In this work, we aim to answer if or when the true relevance can be recovered from click data, which is a foundation issue for ULTR field. We first define a ranking model as identifiable if it can recover the true relevance up to a scaling transformation, which is enough for pairwise ranking objective. Then we explore an equivalent condition for identifiability that can be novely expressed as a graph connectivity test problem: if and only if a graph (namely identifi
     
-[^7]: 算法勾结还是竞争：平台推荐系统的角色
+[^4]: 通过对手对推荐系统中的特征公平性的自动处理
 
-    Algorithmic Collusion or Competition: the Role of Platforms' Recommender Systems. (arXiv:2309.14548v1 [cs.AI])
+    Automatic Feature Fairness in Recommendation via Adversaries. (arXiv:2309.15418v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.14548](http://arxiv.org/abs/2309.14548)
+    [http://arxiv.org/abs/2309.15418](http://arxiv.org/abs/2309.15418)
 
-    这项研究填补了关于电子商务平台推荐算法在算法勾结研究中被忽视的空白，并发现推荐算法可以决定基于AI的定价算法的竞争或勾结动态。
-
-    
-
-    最近的学术研究广泛探讨了基于人工智能(AI)的动态定价算法导致的算法勾结。然而，电子商务平台使用推荐算法来分配不同产品的曝光，而这一重要方面在先前的算法勾结研究中被大部分忽视。我们的研究填补了文献中这一重要的空白，并检验了推荐算法如何决定基于AI的定价算法的竞争或勾结动态。具体而言，我们研究了两种常用的推荐算法：(i)以最大化卖家总利润为目标的推荐系统和(ii)以最大化平台上产品需求为目标的推荐系统。我们构建了一个重复博弈框架，将卖家的定价算法和平台的推荐算法进行了整合。
-
-    Recent academic research has extensively examined algorithmic collusion resulting from the utilization of artificial intelligence (AI)-based dynamic pricing algorithms. Nevertheless, e-commerce platforms employ recommendation algorithms to allocate exposure to various products, and this important aspect has been largely overlooked in previous studies on algorithmic collusion. Our study bridges this important gap in the literature and examines how recommendation algorithms can determine the competitive or collusive dynamics of AI-based pricing algorithms. Specifically, two commonly deployed recommendation algorithms are examined: (i) a recommender system that aims to maximize the sellers' total profit (profit-based recommender system) and (ii) a recommender system that aims to maximize the demand for products sold on the platform (demand-based recommender system). We construct a repeated game framework that incorporates both pricing algorithms adopted by sellers and the platform's recom
-    
-[^8]: 超越本地范围：全球图增强个性化新闻推荐
-
-    Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations. (arXiv:2307.06576v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.06576](http://arxiv.org/abs/2307.06576)
-
-    本文介绍了一种名为GLORY的模型，通过全局图与本地表示相结合，增强了个性化推荐系统。该模型通过构建全局感知历史新闻编码器来融合历史新闻表示，并考虑了用户隐藏的动机和行为。
+    通过对手训练实现推荐系统中的特征公平性，提高整体准确性和泛化能力
 
     
 
-    精确地向用户推荐候选新闻文章一直是个性化新闻推荐系统的核心挑战。大多数近期的研究主要集中在使用先进的自然语言处理技术从丰富的文本数据中提取语义信息，使用从本地历史新闻派生的基于内容的方法。然而，这种方法缺乏全局视角，未能考虑用户隐藏的动机和行为，超越语义信息。为了解决这个问题，我们提出了一种新颖的模型 GLORY（Global-LOcal news Recommendation sYstem），它结合了从其他用户学到的全局表示和本地表示，来增强个性化推荐系统。我们通过构建一个全局感知历史新闻编码器来实现这一目标，其中包括一个全局新闻图，并使用门控图神经网络来丰富新闻表示，从而通过历史新闻聚合器融合历史新闻表示。
+    公平性是推荐系统中广泛讨论的一个主题，但其实践实现在定义敏感特征的同时保持推荐准确性方面面临挑战。我们提出将特征公平性作为实现各个由不同特征组合定义的多样群体之间的公平待遇的基础。通过平衡特征的泛化能力，可以提高整体准确性。我们通过对手训练引入了无偏特征学习，使用对手扰动增强特征表示。对手改进了模型对少数特征的泛化能力。我们根据特征偏差的两种形式自动适应对手：特征值的频率和组合多样性。这使我们能够动态调整扰动强度和对手训练权重。更强的扰动适用于组合变化少的特征值，以改善泛化能力，而对于低频特征，较高的权重可以解决...
 
-    Precisely recommending candidate news articles to users has always been a core challenge for personalized news recommendation systems. Most recent works primarily focus on using advanced natural language processing techniques to extract semantic information from rich textual data, employing content-based methods derived from local historical news. However, this approach lacks a global perspective, failing to account for users' hidden motivations and behaviors beyond semantic information. To address this challenge, we propose a novel model called GLORY (Global-LOcal news Recommendation sYstem), which combines global representations learned from other users with local representations to enhance personalized recommendation systems. We accomplish this by constructing a Global-aware Historical News Encoder, which includes a global news graph and employs gated graph neural networks to enrich news representations, thereby fusing historical news representations by a historical news aggregator.
+    Fairness is a widely discussed topic in recommender systems, but its practical implementation faces challenges in defining sensitive features while maintaining recommendation accuracy. We propose feature fairness as the foundation to achieve equitable treatment across diverse groups defined by various feature combinations. This improves overall accuracy through balanced feature generalizability. We introduce unbiased feature learning through adversarial training, using adversarial perturbation to enhance feature representation. The adversaries improve model generalization for under-represented features. We adapt adversaries automatically based on two forms of feature biases: frequency and combination variety of feature values. This allows us to dynamically adjust perturbation strengths and adversarial training weights. Stronger perturbations are applied to feature values with fewer combination varieties to improve generalization, while higher weights for low-frequency features address 
     
-[^9]: 如何为推荐基础模型索引项目ID
+[^5]: 从压缩数据中恢复频率和基数：一种将贝叶斯和频率论观点连接起来的新方法
 
-    How to Index Item IDs for Recommendation Foundation Models. (arXiv:2305.06569v1 [cs.IR])
+    Frequency and cardinality recovery from sketched data: a novel approach bridging Bayesian and frequentist views. (arXiv:2309.15408v1 [stat.ME])
 
-    [http://arxiv.org/abs/2305.06569](http://arxiv.org/abs/2305.06569)
+    [http://arxiv.org/abs/2309.15408](http://arxiv.org/abs/2309.15408)
 
-    本研究对推荐基础模型的项目索引问题进行了系统检查，提出了一种新的上下文感知索引方法，该方法在项目推荐准确性和文本生成质量方面具有优势。
-
-    
-
-    推荐基础模型将推荐任务转换为自然语言任务，利用大型语言模型（LLM）进行推荐。它通过直接生成建议的项目而不是计算传统推荐模型中每个候选项目的排名得分，简化了推荐管道，避免了多段过滤的问题。为了避免在决定要推荐哪些项目时生成过长的文本，为推荐基础模型创建LLM兼容的项目ID是必要的。本研究系统地研究了推荐基础模型的项目索引问题，以P5为代表的主干模型，并使用各种索引方法复制其结果。我们首先讨论了几种微不足道的项目索引方法（如独立索引、标题索引和随机索引）的问题，并表明它们不适用于推荐基础模型，然后提出了一种新的索引方法，称为上下文感知索引。我们表明，这种索引方法在项目推荐准确性和文本生成质量方面优于其他索引方法。
-
-    Recommendation foundation model utilizes large language models (LLM) for recommendation by converting recommendation tasks into natural language tasks. It enables generative recommendation which directly generates the item(s) to recommend rather than calculating a ranking score for each and every candidate item in traditional recommendation models, simplifying the recommendation pipeline from multi-stage filtering to single-stage filtering. To avoid generating excessively long text when deciding which item(s) to recommend, creating LLM-compatible item IDs is essential for recommendation foundation models. In this study, we systematically examine the item indexing problem for recommendation foundation models, using P5 as the representative backbone model and replicating its results with various indexing methods. To emphasize the importance of item indexing, we first discuss the issues of several trivial item indexing methods, such as independent indexing, title indexing, and random inde
-    
-[^10]: 数据精炼综述
-
-    Data Distillation: A Survey. (arXiv:2301.04272v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2301.04272](http://arxiv.org/abs/2301.04272)
-
-    这篇综述介绍了数据精炼的概念和方法，以及针对不同数据类型的应用。数据精炼方法可以用于模型训练、推理和架构搜索等场景，以解决使用大型数据集训练模型所带来的问题。
+    该论文研究了如何仅使用压缩表示来恢复大规模数据集中符号的频率，并引入了新的估计方法，将贝叶斯和频率论观点结合起来，提供了更好的解决方案。此外，还扩展了该方法以解决基数恢复问题。
 
     
 
-    深度学习的流行导致了大量各种各样的数据集的整理。尽管在个别任务上表现接近人类水平，但在大型数据集上训练参数庞大的模型面临多方面的问题，如（a）高模型训练时间；（b）慢的研究迭代；和（c）差的生态可持续性。作为替代方案，数据精炼方法旨在合成简洁的数据摘要，这些摘要可以作为原始数据集的有效替代品，用于模型训练、推理、架构搜索等场景。在本综述中，我们提出了数据精炼的一个形式框架，并提供了现有方法的详细分类。此外，我们还涵盖了针对不同数据类型的数据精炼方法，包括图像、图形和用户-项目交互（推荐系统），同时确定了当前的挑战和未来的研究方向。
+    我们研究如何仅使用通过随机哈希获得的对数据进行压缩表示或草图来恢复大规模离散数据集中符号的频率。这是一个在计算机科学中的经典问题，有各种算法可用，如计数最小草图。然而，这些算法通常假设数据是固定的，处理随机采样数据时估计过于保守且可能不准确。在本文中，我们将草图数据视为未知分布的随机样本，然后引入改进现有方法的新估计器。我们的方法结合了贝叶斯非参数和经典（频率论）观点，解决了它们独特的限制，提供了一个有原则且实用的解决方案。此外，我们扩展了我们的方法以解决相关但不同的基数恢复问题，该问题涉及估计数据集中不同对象的总数。
 
-    The popularity of deep learning has led to the curation of a vast number of massive and multifarious datasets. Despite having close-to-human performance on individual tasks, training parameter-hungry models on large datasets poses multi-faceted problems such as (a) high model-training time; (b) slow research iteration; and (c) poor eco-sustainability. As an alternative, data distillation approaches aim to synthesize terse data summaries, which can serve as effective drop-in replacements of the original dataset for scenarios like model training, inference, architecture search, etc. In this survey, we present a formal framework for data distillation, along with providing a detailed taxonomy of existing approaches. Additionally, we cover data distillation approaches for different data modalities, namely images, graphs, and user-item interactions (recommender systems), while also identifying current challenges and future research directions.
+    We study how to recover the frequency of a symbol in a large discrete data set, using only a compressed representation, or sketch, of those data obtained via random hashing. This is a classical problem in computer science, with various algorithms available, such as the count-min sketch. However, these algorithms often assume that the data are fixed, leading to overly conservative and potentially inaccurate estimates when dealing with randomly sampled data. In this paper, we consider the sketched data as a random sample from an unknown distribution, and then we introduce novel estimators that improve upon existing approaches. Our method combines Bayesian nonparametric and classical (frequentist) perspectives, addressing their unique limitations to provide a principled and practical solution. Additionally, we extend our method to address the related but distinct problem of cardinality recovery, which consists of estimating the total number of distinct objects in the data set. We validate
     
-[^11]: 使用卷积块匹配分割算法进行音乐结构分析的应用
+[^6]: 一个规模庞大的内容驱动的微视频推荐数据集
 
-    Convolutive Block-Matching Segmentation Algorithm with Application to Music Structure Analysis. (arXiv:2210.15356v2 [cs.SD] UPDATED)
+    A Content-Driven Micro-Video Recommendation Dataset at Scale. (arXiv:2309.15379v1 [cs.IR])
 
-    [http://arxiv.org/abs/2210.15356](http://arxiv.org/abs/2210.15356)
+    [http://arxiv.org/abs/2309.15379](http://arxiv.org/abs/2309.15379)
 
-    本文介绍了一种新的卷积块匹配算法，用于音乐结构分析，通过计算自相似矩阵来达到与有监督方法相当的性能。
-
-    
-
-    音乐结构分析（MSA）包括将一首歌曲划分为不同的部分（如“副歌”，“诗歌”，“独奏”等），可以看作是寻找歌曲的简化组织。本文提出了一种新的算法，称为卷积块匹配（CBM）算法，专门用于MSA。具体而言，CBM算法是一种动态规划算法，应用于自相似矩阵，这是MSA中的一种标准工具。在这项工作中，自相似矩阵是从音频信号的特征表示中计算出来的，时间根据小节刻度进行采样。我们研究了三种不同的相似度函数来计算自相似矩阵。我们报告了所提出的算法在4个指标中有3个指标上的性能与有监督的最先进方法相当，同时它是无监督的。
-
-    Music Structure Analysis (MSA) consists of representing a song in sections (such as ``chorus'', ``verse'', ``solo'' etc), and can be seen as the retrieval of a simplified organization of the song. This work presents a new algorithm, called Convolutive Block-Matching (CBM) algorithm, devoted to MSA. In particular, the CBM algorithm is a dynamic programming algorithm, applying on autosimilarity matrices, a standard tool in MSA. In this work, autosimilarity matrices are computed from the feature representation of an audio signal, and time is sampled on the barscale. We study three different similarity functions for the computation of autosimilarity matrices. We report that the proposed algorithm achieves a level of performance competitive to that of supervised State-of-the-Art methods on 3 among 4 metrics, while being unsupervised.
-    
-[^12]: 利用语义角色上下文化的视频特征在EPIC-KITCHENS-100多实例文本-视频检索挑战2022中的应用
-
-    Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022. (arXiv:2206.14381v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2206.14381](http://arxiv.org/abs/2206.14381)
-
-    本论文提出了一种在EPIC-KITCHENS-100多实例检索挑战2022中利用语义角色上下文化的视频特征进行文本-视频检索的方法，通过三元损失函数在多个嵌入空间中融合视频和文本特征，超过了强基线，在nDCG和mAP方面获得了较好的排名。
+    该论文介绍了一个名为"MicroLens"的大规模微视频推荐数据集，包括十亿个用户-项目交互行为和各种原始模态信息，为研究人员开发内容驱动的微视频推荐系统提供了基准。
 
     
 
-    在这篇报告中，我们介绍了我们在EPIC-KITCHENS-100多实例检索挑战2022中的方法。我们首先将句子解析为与动词和名词相对应的语义角色；然后利用自注意力机制在多个嵌入空间中通过三元损失函数利用语义角色上下文化的视频特征和文本特征。我们的方法在标准化折扣累计增益（nDCG）方面超过了强基线，这对于语义相似度更有价值。我们的提交在nDCG排名第三，在mAP排名第四。
+    微视频最近变得非常受欢迎，引发了对微视频推荐的重要研究，对娱乐、广告和电子商务行业具有重要影响。然而，缺乏大规模的公共微视频数据集为开发有效的推荐系统提供了挑战。为了解决这个问题，我们介绍了一个非常庞大的微视频推荐数据集，名为"MicroLens"，包括十亿个用户-项目交互行为，3400万个用户和100万个微视频。该数据集还包含有关视频的各种原始模态信息，包括标题、封面图像、音频和完整视频。MicroLens作为内容驱动的微视频推荐的基准，使研究人员能够利用各种视频信息的模态进行推荐，而不仅仅依赖于项目ID或从预训练网络中提取的现成视频特征。
 
-    In this report, we present our approach for EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge 2022. We first parse sentences into semantic roles corresponding to verbs and nouns; then utilize self-attentions to exploit semantic role contextualized video features along with textual features via triplet losses in multiple embedding spaces. Our method overpasses the strong baseline in normalized Discounted Cumulative Gain (nDCG), which is more valuable for semantic similarity. Our submission is ranked 3rd for nDCG and ranked 4th for mAP.
+    Micro-videos have recently gained immense popularity, sparking critical research in micro-video recommendation with significant implications for the entertainment, advertising, and e-commerce industries. However, the lack of large-scale public micro-video datasets poses a major challenge for developing effective recommender systems. To address this challenge, we introduce a very large micro-video recommendation dataset, named "MicroLens", consisting of one billion user-item interaction behaviors, 34 million users, and one million micro-videos. This dataset also contains various raw modality information about videos, including titles, cover images, audio, and full-length videos. MicroLens serves as a benchmark for content-driven micro-video recommendation, enabling researchers to utilize various modalities of video information for recommendation, rather than relying solely on item IDs or off-the-shelf video features extracted from a pre-trained network. Our benchmarking of multiple reco
+    
+[^7]: LD4MRec:简化和加强多媒体推荐的扩散模型
+
+    LD4MRec: Simplifying and Powering Diffusion Model for Multimedia Recommendation. (arXiv:2309.15363v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.15363](http://arxiv.org/abs/2309.15363)
+
+    LD4MRec是一种简化和加强多媒体推荐的扩散模型，解决了行为数据噪声对推荐性能的负面影响、经典扩散模型计算量过大以及现有反向过程不适用于离散行为数据的挑战。
+
+    
+
+    多媒体推荐旨在根据历史行为数据和项目的多模态信息预测用户的未来行为。然而，行为数据中的噪声，产生于与不感兴趣的项目的非预期用户交互，对推荐性能产生不利影响。最近，扩散模型实现了高质量的信息生成，其中反向过程根据受损状态迭代地推断未来信息。它满足了在嘈杂条件下的预测任务需求，并激发了对其在预测用户行为方面的应用的探索。然而，还需要解决几个挑战：1）经典扩散模型需要过多的计算，这不符合推荐系统的效率要求。2）现有的反向过程主要设计用于连续型数据，而行为信息是离散型的。因此，需要有效的方法来生成离散行为。
+
+    Multimedia recommendation aims to predict users' future behaviors based on historical behavioral data and item's multimodal information. However, noise inherent in behavioral data, arising from unintended user interactions with uninteresting items, detrimentally impacts recommendation performance. Recently, diffusion models have achieved high-quality information generation, in which the reverse process iteratively infers future information based on the corrupted state. It meets the need of predictive tasks under noisy conditions, and inspires exploring their application to predicting user behaviors. Nonetheless, several challenges must be addressed: 1) Classical diffusion models require excessive computation, which does not meet the efficiency requirements of recommendation systems. 2) Existing reverse processes are mainly designed for continuous data, whereas behavioral information is discrete in nature. Therefore, an effective method is needed for the generation of discrete behaviora
     
 

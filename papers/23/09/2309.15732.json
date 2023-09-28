@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning-based Analysis of Basins of Attraction. (arXiv:2309.15732v1 [cs.LG])",
+    "abstract": "This study showcases the effectiveness of convolutional neural networks (CNNs) in characterizing the complexity and unpredictability of basins of attraction for diverse dynamical systems. This novel method is optimal for exploring different parameters of dynamical systems since the conventional methods are computationally expensive for characterizing multiple basins of attraction. Additionally, our research includes a comparison of different CNN architectures for this task showing the superiority of our proposed characterization method over the conventional methods, even with obsolete architectures.",
+    "link": "http://arxiv.org/abs/2309.15732",
+    "context": "Title: Deep Learning-based Analysis of Basins of Attraction. (arXiv:2309.15732v1 [cs.LG])\nAbstract: This study showcases the effectiveness of convolutional neural networks (CNNs) in characterizing the complexity and unpredictability of basins of attraction for diverse dynamical systems. This novel method is optimal for exploring different parameters of dynamical systems since the conventional methods are computationally expensive for characterizing multiple basins of attraction. Additionally, our research includes a comparison of different CNN architectures for this task showing the superiority of our proposed characterization method over the conventional methods, even with obsolete architectures.",
+    "path": "papers/23/09/2309.15732.json",
+    "total_tokens": 694,
+    "translated_title": "基于深度学习的吸引盆分析",
+    "translated_abstract": "本研究展示了卷积神经网络（CNN）在表征不同动力系统吸引盆的复杂性和不可预测性方面的有效性。这种新颖的方法在探索动力系统的不同参数方面是最优的，因为传统方法在表征多个吸引盆时计算成本很高。此外，我们的研究还比较了不同CNN体系结构在这个任务中的表现，表明我们提出的特征提取方法相比传统方法具有优势，即使使用过时的体系结构也是如此。",
+    "tldr": "本研究展示了基于深度学习的卷积神经网络方法在表征各种动力系统的吸引盆的复杂性和不可预测性方面的有效性，相比传统方法，该方法具有更低的计算成本且表现更好。",
+    "en_tdlr": "This study showcases the effectiveness of deep learning-based convolutional neural networks in characterizing the complexity and unpredictability of basins of attraction for diverse dynamical systems. The proposed method is optimal for exploring different parameters of dynamical systems, with lower computational cost compared to conventional methods and superior performance even with outdated architectures."
+}

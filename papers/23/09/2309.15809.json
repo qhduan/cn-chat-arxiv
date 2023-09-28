@@ -1,0 +1,12 @@
+{
+    "title": "Fair Canonical Correlation Analysis. (arXiv:2309.15809v1 [cs.LG])",
+    "abstract": "This paper investigates fairness and bias in Canonical Correlation Analysis (CCA), a widely used statistical technique for examining the relationship between two sets of variables. We present a framework that alleviates unfairness by minimizing the correlation disparity error associated with protected attributes. Our approach enables CCA to learn global projection matrices from all data points while ensuring that these matrices yield comparable correlation levels to group-specific projection matrices. Experimental evaluation on both synthetic and real-world datasets demonstrates the efficacy of our method in reducing correlation disparity error without compromising CCA accuracy.",
+    "link": "http://arxiv.org/abs/2309.15809",
+    "context": "Title: Fair Canonical Correlation Analysis. (arXiv:2309.15809v1 [cs.LG])\nAbstract: This paper investigates fairness and bias in Canonical Correlation Analysis (CCA), a widely used statistical technique for examining the relationship between two sets of variables. We present a framework that alleviates unfairness by minimizing the correlation disparity error associated with protected attributes. Our approach enables CCA to learn global projection matrices from all data points while ensuring that these matrices yield comparable correlation levels to group-specific projection matrices. Experimental evaluation on both synthetic and real-world datasets demonstrates the efficacy of our method in reducing correlation disparity error without compromising CCA accuracy.",
+    "path": "papers/23/09/2309.15809.json",
+    "total_tokens": 705,
+    "translated_title": "公平的典范相关分析",
+    "translated_abstract": "本文研究了典范相关分析（CCA）中的公平性和偏见问题，CCA是一种广泛应用的统计技术，用于研究两组变量之间的关系。我们提出了一个框架，通过最小化与受保护属性相关的相关性差异误差，来减轻不公平现象。我们的方法使得CCA能够从所有数据点中学习到全局投影矩阵，同时确保这些矩阵产生与组特定投影矩阵相当的相关性水平。对合成和真实数据集的实验评估表明，我们的方法在减少相关性差异误差的同时不会影响CCA的准确性。",
+    "tldr": "本文研究了典范相关分析中的公平性和偏见问题，并提出了一种通过最小化相关性差异误差来减轻不公平现象的方法。该方法在保持CCA准确性的同时，减少了相关性差异误差。",
+    "en_tdlr": "This paper investigates fairness and bias in Canonical Correlation Analysis (CCA) and proposes a method that alleviates unfairness by minimizing correlation disparity error. The method reduces correlation disparity error while maintaining CCA accuracy."
+}

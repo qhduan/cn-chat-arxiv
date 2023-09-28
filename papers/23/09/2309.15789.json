@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Model Routing with Benchmark Datasets. (arXiv:2309.15789v1 [cs.CL])",
+    "abstract": "There is a rapidly growing number of open-source Large Language Models (LLMs) and benchmark datasets to compare them. While some models dominate these benchmarks, no single model typically achieves the best accuracy in all tasks and use cases. In this work, we address the challenge of selecting the best LLM out of a collection of models for new tasks. We propose a new formulation for the problem, in which benchmark datasets are repurposed to learn a \"router\" model for this LLM selection, and we show that this problem can be reduced to a collection of binary classification tasks. We demonstrate the utility and limitations of learning model routers from various benchmark datasets, where we consistently improve performance upon using any single model for all tasks.",
+    "link": "http://arxiv.org/abs/2309.15789",
+    "context": "Title: Large Language Model Routing with Benchmark Datasets. (arXiv:2309.15789v1 [cs.CL])\nAbstract: There is a rapidly growing number of open-source Large Language Models (LLMs) and benchmark datasets to compare them. While some models dominate these benchmarks, no single model typically achieves the best accuracy in all tasks and use cases. In this work, we address the challenge of selecting the best LLM out of a collection of models for new tasks. We propose a new formulation for the problem, in which benchmark datasets are repurposed to learn a \"router\" model for this LLM selection, and we show that this problem can be reduced to a collection of binary classification tasks. We demonstrate the utility and limitations of learning model routers from various benchmark datasets, where we consistently improve performance upon using any single model for all tasks.",
+    "path": "papers/23/09/2309.15789.json",
+    "total_tokens": 759,
+    "translated_title": "大型语言模型选择与基准数据集",
+    "translated_abstract": "开源的大型语言模型（LLM）和基准数据集数量迅速增长，用于比较它们。虽然一些模型在这些基准测试中占优势，但通常没有单一模型在所有任务和用例中都能达到最佳准确性。在这项工作中，我们解决了从一系列模型中为新任务选择最佳LLM的挑战。我们提出了一个新的问题表述，在这个问题中，基准数据集被重新用于学习一个\"路由器\"模型来选择LLM，并且我们表明这个问题可以转化为一系列二元分类任务的集合。我们展示了从各种基准数据集学习模型路由器的效用和限制，我们在所有任务中始终比使用任何单一模型都提高了性能。",
+    "tldr": "本论文解决了从一系列模型中为新任务选择最佳大型语言模型的挑战，通过提出了一个基于基准数据集的学习模型来选择模型，并在各种任务中提高了性能。",
+    "en_tdlr": "This paper addresses the challenge of selecting the best large language model from a collection of models for new tasks, by proposing a learning model based on benchmark datasets for model selection, and improves performance in various tasks."
+}

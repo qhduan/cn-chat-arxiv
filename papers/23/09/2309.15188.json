@@ -1,0 +1,12 @@
+{
+    "title": "ICML 2023 Topological Deep Learning Challenge : Design and Results. (arXiv:2309.15188v1 [cs.LG])",
+    "abstract": "This paper presents the computational challenge on topological deep learning that was hosted within the ICML 2023 Workshop on Topology and Geometry in Machine Learning. The competition asked participants to provide open-source implementations of topological neural networks from the literature by contributing to the python packages TopoNetX (data processing) and TopoModelX (deep learning). The challenge attracted twenty-eight qualifying submissions in its two-month duration. This paper describes the design of the challenge and summarizes its main findings.",
+    "link": "http://arxiv.org/abs/2309.15188",
+    "context": "Title: ICML 2023 Topological Deep Learning Challenge : Design and Results. (arXiv:2309.15188v1 [cs.LG])\nAbstract: This paper presents the computational challenge on topological deep learning that was hosted within the ICML 2023 Workshop on Topology and Geometry in Machine Learning. The competition asked participants to provide open-source implementations of topological neural networks from the literature by contributing to the python packages TopoNetX (data processing) and TopoModelX (deep learning). The challenge attracted twenty-eight qualifying submissions in its two-month duration. This paper describes the design of the challenge and summarizes its main findings.",
+    "path": "papers/23/09/2309.15188.json",
+    "total_tokens": 651,
+    "translated_title": "ICML 2023拓扑深度学习挑战：设计与结果",
+    "translated_abstract": "本文介绍了ICML 2023拓扑与几何机器学习研讨会中举办的拓扑深度学习计算挑战。该比赛要求参与者通过贡献于python包TopoNetX（数据处理）和TopoModelX（深度学习）的开源实现来提供文献中的拓扑神经网络。该挑战在两个月的时间内吸引了28个合格的提交。本文描述了挑战的设计并总结了其主要发现。",
+    "tldr": "本文介绍了ICML 2023拓扑深度学习挑战，该挑战要求参与者在两个月内提供开源实现的拓扑神经网络，吸引了28个合格的提交。",
+    "en_tdlr": "This paper presents the ICML 2023 Topological Deep Learning Challenge, which attracted 28 qualifying submissions in two months, requiring participants to provide open-source implementations of topological neural networks."
+}
