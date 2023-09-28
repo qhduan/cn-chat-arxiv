@@ -199,15 +199,16 @@
 | [^195] | [Group-invariant tensor train networks for supervised learning.](http://arxiv.org/abs/2206.15051) | 本论文介绍了一种用于监督学习的群不变张量网络方法，通过构建群的不变张量基并结合群不变张量分解网络，可以获得与最先进的深度学习方法相通的预测准确性。 |
 | [^196] | [Pragmatically Learning from Pedagogical Demonstrations in Multi-Goal Environments.](http://arxiv.org/abs/2206.04546) | 该论文介绍了一种在多目标环境中从教学示范中实用地学习的方法。通过结合实用主义机制和教学机制，利用贝叶斯模型进行目标推断，可以加快学习速度并减少目标的歧义。 |
 | [^197] | [DIRA: A Framework for Dynamic Domain Incremental Regularised Adaptation.](http://arxiv.org/abs/2205.00147) | DIRA是一个用于DNN分类器的动态领域自适应的框架，使用正则化技术来解决灾难性遗忘问题，并通过少量样本实现重新训练和适应性。 |
-| [^198] | [Pedagogical Demonstrations and Pragmatic Learning in Artificial Tutor-Learner Interactions.](http://arxiv.org/abs/2203.00111) | 本文研究了人工智能导师-学习者互动中的教学演示和实用学习机制，并在一个多目标环境中实现。通过使用导师的教学和学习者的实用推理，相比传统的从演示中学习方法，我们实现了显著的改进。 |
-| [^199] | [Efficient Direct-Connect Topologies for Collective Communications.](http://arxiv.org/abs/2202.03356) | 本论文提出了一种算法框架，可以构建高效的直连网络拓扑结构，以优化节点延迟和带宽权衡，适用于集体通信负载。 |
-| [^200] | [Discovering and Exploiting Sparse Rewards in a Learned Behavior Space.](http://arxiv.org/abs/2111.01919) | 这项研究介绍了一种名为STAX的算法，能够在学习行为空间时实时探索，并且能够有效优化任何发现的奖励。 |
-| [^201] | [Unsupervised Movement Detection in Indoor Positioning Systems of Production Halls.](http://arxiv.org/abs/2109.10757) | 本文提出了一个无监督的统计过程来解决生产车间室内定位系统中数据分析中的挑战，通过结合可视分析和运动检测，不仅区分停留与移动，还考虑了不期望的唤醒，从而提供了详细的解释方案，并在实际案例研究中验证了该方法的可行性。 |
-| [^202] | [Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions.](http://arxiv.org/abs/2105.13913) | 本论文介绍了一种简单的Frank-Wolfe算法变体，利用广义自协调函数的特性，在不需要使用二阶信息或估计局部平滑度参数的情况下，以$\mathcal{O}(1/t)$的收敛速度达到了优化目标。 |
-| [^203] | [MimicNorm: Weight Mean and Last BN Layer Mimic the Dynamic of Batch Normalization.](http://arxiv.org/abs/2010.09278) | 本文提出了一种名为MimicNorm的归一化方法，通过简化批归一化（BN）的正则化方法并保持其核心影响，即数据去相关性和自适应学习率，来提高网络训练的收敛性和效率。MimicNorm仅包含两个轻量级操作，可与BN相媲美。 |
-| [^204] | [Novel and flexible parameter estimation methods for data-consistent inversion in mechanistic modeling.](http://arxiv.org/abs/2009.08267) | 本论文提出了一种新颖灵活的参数估计方法，用于机械建模中的数据一致反演。该方法解决了贝叶斯分析中无信息先验引入的偏差问题，并在随机逆问题框架下推断参数。使用拒绝采样、马尔科夫链蒙特卡洛和生成对抗网络等新方法解决了数据一致反演的限制，并通过约束优化和先验逆问题分析进一步优化了结果。 |
-| [^205] | [Improving the convergence of SGD through adaptive batch sizes.](http://arxiv.org/abs/1910.08222) | 通过自适应批大小，本研究提出了一种改善SGD收敛性的方法，既减少了高方差梯度估计的问题，又保持了较高精度的梯度估计。 |
-| [^206] | [Optimal Sparse Decision Trees.](http://arxiv.org/abs/1904.12847) | 这篇论文介绍了第一个针对二进制变量的最优决策树的实用算法，通过分析界限和现代系统技术的结合来解决决策树优化的困难，实验证明了其在可扩展性、速度和最优性证明方面的优势。 |
+| [^198] | [A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability.](http://arxiv.org/abs/2204.08570) | 这篇论文综合调查了可信图神经网络的隐私、鲁棒性、公平性和可解释性问题。它指出了GNNs可能泄露个人信息、容易受到对抗性攻击以及可能放大社会偏见的风险。为了避免这些伤害，一些可信赖的GNNs方法正在发展中。 |
+| [^199] | [Pedagogical Demonstrations and Pragmatic Learning in Artificial Tutor-Learner Interactions.](http://arxiv.org/abs/2203.00111) | 本文研究了人工智能导师-学习者互动中的教学演示和实用学习机制，并在一个多目标环境中实现。通过使用导师的教学和学习者的实用推理，相比传统的从演示中学习方法，我们实现了显著的改进。 |
+| [^200] | [Efficient Direct-Connect Topologies for Collective Communications.](http://arxiv.org/abs/2202.03356) | 本论文提出了一种算法框架，可以构建高效的直连网络拓扑结构，以优化节点延迟和带宽权衡，适用于集体通信负载。 |
+| [^201] | [Discovering and Exploiting Sparse Rewards in a Learned Behavior Space.](http://arxiv.org/abs/2111.01919) | 这项研究介绍了一种名为STAX的算法，能够在学习行为空间时实时探索，并且能够有效优化任何发现的奖励。 |
+| [^202] | [Unsupervised Movement Detection in Indoor Positioning Systems of Production Halls.](http://arxiv.org/abs/2109.10757) | 本文提出了一个无监督的统计过程来解决生产车间室内定位系统中数据分析中的挑战，通过结合可视分析和运动检测，不仅区分停留与移动，还考虑了不期望的唤醒，从而提供了详细的解释方案，并在实际案例研究中验证了该方法的可行性。 |
+| [^203] | [Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions.](http://arxiv.org/abs/2105.13913) | 本论文介绍了一种简单的Frank-Wolfe算法变体，利用广义自协调函数的特性，在不需要使用二阶信息或估计局部平滑度参数的情况下，以$\mathcal{O}(1/t)$的收敛速度达到了优化目标。 |
+| [^204] | [MimicNorm: Weight Mean and Last BN Layer Mimic the Dynamic of Batch Normalization.](http://arxiv.org/abs/2010.09278) | 本文提出了一种名为MimicNorm的归一化方法，通过简化批归一化（BN）的正则化方法并保持其核心影响，即数据去相关性和自适应学习率，来提高网络训练的收敛性和效率。MimicNorm仅包含两个轻量级操作，可与BN相媲美。 |
+| [^205] | [Novel and flexible parameter estimation methods for data-consistent inversion in mechanistic modeling.](http://arxiv.org/abs/2009.08267) | 本论文提出了一种新颖灵活的参数估计方法，用于机械建模中的数据一致反演。该方法解决了贝叶斯分析中无信息先验引入的偏差问题，并在随机逆问题框架下推断参数。使用拒绝采样、马尔科夫链蒙特卡洛和生成对抗网络等新方法解决了数据一致反演的限制，并通过约束优化和先验逆问题分析进一步优化了结果。 |
+| [^206] | [Improving the convergence of SGD through adaptive batch sizes.](http://arxiv.org/abs/1910.08222) | 通过自适应批大小，本研究提出了一种改善SGD收敛性的方法，既减少了高方差梯度估计的问题，又保持了较高精度的梯度估计。 |
+| [^207] | [Optimal Sparse Decision Trees.](http://arxiv.org/abs/1904.12847) | 这篇论文介绍了第一个针对二进制变量的最优决策树的实用算法，通过分析界限和现代系统技术的结合来解决决策树优化的困难，实验证明了其在可扩展性、速度和最优性证明方面的优势。 |
 
 # 详细
 
@@ -2969,7 +2970,21 @@
 
     Autonomous systems (AS) often use Deep Neural Network (DNN) classifiers to allow them to operate in complex, high dimensional, non-linear, and dynamically changing environments. Due to the complexity of these environments, DNN classifiers may output misclassifications during operation when they face domains not identified during development. Removing a system from operation for retraining becomes impractical as the number of such AS increase. To increase AS reliability and overcome this limitation, DNN classifiers need to have the ability to adapt during operation when faced with different operational domains using a few samples (e.g. 100 samples). However, retraining DNNs on a few samples is known to cause catastrophic forgetting. In this paper, we introduce Dynamic Incremental Regularised Adaptation (DIRA), a framework for operational domain adaption of DNN classifiers using regularisation techniques to overcome catastrophic forgetting and achieve adaptation when retraining using few
     
-[^198]: 人工导师-学习者互动中的教学演示和实用学习
+[^198]: 关于可信图神经网络的综合调查：隐私、鲁棒性、公平性和可解释性
+
+    A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability. (arXiv:2204.08570v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2204.08570](http://arxiv.org/abs/2204.08570)
+
+    这篇论文综合调查了可信图神经网络的隐私、鲁棒性、公平性和可解释性问题。它指出了GNNs可能泄露个人信息、容易受到对抗性攻击以及可能放大社会偏见的风险。为了避免这些伤害，一些可信赖的GNNs方法正在发展中。
+
+    
+
+    近年来，图神经网络（GNNs）取得了快速的发展。由于它们在建模图结构数据方面的强大能力，GNNs被广泛应用于各种应用中，包括高风险场景，如金融分析、交通预测和药物发现。尽管GNNs在真实世界中对人类有巨大潜力带来好处，但最近的研究表明，GNNs可能会泄露个人信息，容易受到对抗性攻击，可能从训练数据中继承和放大社会偏见，并且缺乏可解释性，这可能会给用户和社会带来无意中的伤害风险。例如，现有的研究表明，攻击者可以通过对训练图进行不可察觉的扰动来欺骗GNNs以给出他们想要的结果。在社交网络上训练的GNNs可能在其决策过程中嵌入歧视，加强不可取的社会偏见。因此，可信赖的GNNs在各个方面正在出现以防止GNN模型造成的伤害。
+
+    Graph Neural Networks (GNNs) have made rapid developments in the recent years. Due to their great ability in modeling graph-structured data, GNNs are vastly used in various applications, including high-stakes scenarios such as financial analysis, traffic predictions, and drug discovery. Despite their great potential in benefiting humans in the real world, recent study shows that GNNs can leak private information, are vulnerable to adversarial attacks, can inherit and magnify societal bias from training data and lack interpretability, which have risk of causing unintentional harm to the users and society. For example, existing works demonstrate that attackers can fool the GNNs to give the outcome they desire with unnoticeable perturbation on training graph. GNNs trained on social networks may embed the discrimination in their decision process, strengthening the undesirable societal bias. Consequently, trustworthy GNNs in various aspects are emerging to prevent the harm from GNN models a
+    
+[^199]: 人工导师-学习者互动中的教学演示和实用学习
 
     Pedagogical Demonstrations and Pragmatic Learning in Artificial Tutor-Learner Interactions. (arXiv:2203.00111v2 [cs.LG] UPDATED)
 
@@ -2983,7 +2998,7 @@
 
     When demonstrating a task, human tutors pedagogically modify their behavior by either "showing" the task rather than just "doing" it (exaggerating on relevant parts of the demonstration) or by giving demonstrations that best disambiguate the communicated goal. Analogously, human learners pragmatically infer the communicative intent of the tutor: they interpret what the tutor is trying to teach them and deduce relevant information for learning. Without such mechanisms, traditional Learning from Demonstration (LfD) algorithms will consider such demonstrations as sub-optimal. In this paper, we investigate the implementation of such mechanisms in a tutor-learner setup where both participants are artificial agents in an environment with multiple goals. Using pedagogy from the tutor and pragmatism from the learner, we show substantial improvements over standard learning from demonstrations.
     
-[^199]: 高效直连拓扑结构用于集体通信
+[^200]: 高效直连拓扑结构用于集体通信
 
     Efficient Direct-Connect Topologies for Collective Communications. (arXiv:2202.03356v2 [cs.NI] UPDATED)
 
@@ -2997,7 +3012,7 @@
 
     We consider the problem of distilling efficient network topologies for collective communications. We provide an algorithmic framework for constructing direct-connect topologies optimized for the node latency vs bandwidth trade-off given a collective communication workload. Our algorithmic framework allows us to start from small base topologies and associated communication schedules and use a set of techniques that can be iteratively applied to derive much larger topologies. The schedules for these derived topologies are either synthesized along with the expansions or computed using an optimization formulation. Our approach allows us to synthesize many different topologies and schedules for a given cluster size and degree, and then identify the appropriate topology and schedule for a given workload. We evaluate our approach on a 12-node optical testbed that uses patch panels for configuring the desired topology and augment it with an analytical-model-based evaluation for larger deployme
     
-[^200]: 在学习行为空间中发现和利用稀疏奖励
+[^201]: 在学习行为空间中发现和利用稀疏奖励
 
     Discovering and Exploiting Sparse Rewards in a Learned Behavior Space. (arXiv:2111.01919v2 [cs.LG] UPDATED)
 
@@ -3011,7 +3026,7 @@
 
     Learning optimal policies in sparse rewards settings is difficult as the learning agent has little to no feedback on the quality of its actions. In these situations, a good strategy is to focus on exploration, hopefully leading to the discovery of a reward signal to improve on. A learning algorithm capable of dealing with this kind of settings has to be able to (1) explore possible agent behaviors and (2) exploit any possible discovered reward. Efficient exploration algorithms have been proposed that require to define a behavior space, that associates to an agent its resulting behavior in a space that is known to be worth exploring. The need to define this space is a limitation of these algorithms. In this work, we introduce STAX, an algorithm designed to learn a behavior space on-the-fly and to explore it while efficiently optimizing any reward discovered. It does so by separating the exploration and learning of the behavior space from the exploitation of the reward through an alterna
     
-[^201]: 无监督的生产车间室内定位系统中的运动检测
+[^202]: 无监督的生产车间室内定位系统中的运动检测
 
     Unsupervised Movement Detection in Indoor Positioning Systems of Production Halls. (arXiv:2109.10757v2 [cs.LG] UPDATED)
 
@@ -3025,7 +3040,7 @@
 
     Consider indoor positioning systems (IPS) in production halls where objects equipped with sensors send their current position. Beside its large volume, the analyzation of the resulting raw data is challenging due to the susceptibility towards noise. Reasons are accuracy issues and undesired awakenings of sensors that occur due to the dynamics of logistic processes (e.g.~vibrations of passing forklifts). We propose a tailor-made statistical procedure for these challenges and combine visual analytics with movement detection. Contrary to common stay-point algorithms, we do not only distinguish between stops and moves, but also consider undesired awakenings. This leads to a more detailed interpretation scheme offering usages for online (e.g.~monitoring of orders) and offline applications (e.g.~detection of problematic areas). The approach does not require other information than the raw IPS output and enables an ad-hoc analysis. We underline our findings in an extensive case study with real
     
-[^202]: 只需简单步骤：Frank-Wolfe算法和广义自协调函数
+[^203]: 只需简单步骤：Frank-Wolfe算法和广义自协调函数
 
     Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions. (arXiv:2105.13913v6 [math.OC] UPDATED)
 
@@ -3039,7 +3054,7 @@
 
     Generalized self-concordance is a key property present in the objective function of many important learning problems. We establish the convergence rate of a simple Frank-Wolfe variant that uses the open-loop step size strategy $\gamma_t = 2/(t+2)$, obtaining a $\mathcal{O}(1/t)$ convergence rate for this class of functions in terms of primal gap and Frank-Wolfe gap, where $t$ is the iteration count. This avoids the use of second-order information or the need to estimate local smoothness parameters of previous work. We also show improved convergence rates for various common cases, e.g., when the feasible region under consideration is uniformly convex or polyhedral.
     
-[^203]: MimicNorm: 权重均值和最后一层批归一化层模仿批归一化的动态
+[^204]: MimicNorm: 权重均值和最后一层批归一化层模仿批归一化的动态
 
     MimicNorm: Weight Mean and Last BN Layer Mimic the Dynamic of Batch Normalization. (arXiv:2010.09278v3 [cs.LG] UPDATED)
 
@@ -3053,7 +3068,7 @@
 
     Substantial experiments have validated the success of Batch Normalization (BN) Layer in benefiting convergence and generalization. However, BN requires extra memory and float-point calculation. Moreover, BN would be inaccurate on micro-batch, as it depends on batch statistics. In this paper, we address these problems by simplifying BN regularization while keeping two fundamental impacts of BN layers, i.e., data decorrelation and adaptive learning rate. We propose a novel normalization method, named MimicNorm, to improve the convergence and efficiency in network training. MimicNorm consists of only two light operations, including modified weight mean operations (subtract mean values from weight parameter tensor) and one BN layer before loss function (last BN layer). We leverage the neural tangent kernel (NTK) theory to prove that our weight mean operation whitens activations and transits network into the chaotic regime like BN layer, and consequently, leads to an enhanced convergence. T
     
-[^204]: 机械建模中数据一致反演的新颖灵活参数估计方法
+[^205]: 机械建模中数据一致反演的新颖灵活参数估计方法
 
     Novel and flexible parameter estimation methods for data-consistent inversion in mechanistic modeling. (arXiv:2009.08267v3 [stat.ML] UPDATED)
 
@@ -3067,7 +3082,7 @@
 
     Predictions for physical systems often rely upon knowledge acquired from ensembles of entities, e.g., ensembles of cells in biological sciences. For qualitative and quantitative analysis, these ensembles are simulated with parametric families of mechanistic models (MM). Two classes of methodologies, based on Bayesian inference and Population of Models, currently prevail in parameter estimation for physical systems. However, in Bayesian analysis, uninformative priors for MM parameters introduce undesirable bias. Here, we propose how to infer parameters within the framework of stochastic inverse problems (SIP), also termed data-consistent inversion, wherein the prior targets only uncertainties that arise due to MM non-invertibility. To demonstrate, we introduce new methods to solve SIP based on rejection sampling, Markov chain Monte Carlo, and generative adversarial networks (GANs). In addition, to overcome limitations of SIP, we reformulate SIP based on constrained optimization and pres
     
-[^205]: 通过自适应批大小改善SGD的收敛性
+[^206]: 通过自适应批大小改善SGD的收敛性
 
     Improving the convergence of SGD through adaptive batch sizes. (arXiv:1910.08222v4 [cs.LG] UPDATED)
 
@@ -3081,7 +3096,7 @@
 
     Mini-batch stochastic gradient descent (SGD) and variants thereof approximate the objective function's gradient with a small number of training examples, aka the batch size. Small batch sizes require little computation for each model update but can yield high-variance gradient estimates, which poses some challenges for optimization. Conversely, large batches require more computation but can yield higher precision gradient estimates. This work presents a method to adapt the batch size to the model's training loss. For various function classes, we show that our method requires the same order of model updates as gradient descent while requiring the same order of gradient computations as SGD. This method requires evaluating the model's loss on the entire dataset every model update. However, the required computation is greatly reduced by approximating the training loss. We provide experiments that illustrate our methods require fewer model updates without increasing the total amount of comp
     
-[^206]: 最优稀疏决策树
+[^207]: 最优稀疏决策树
 
     Optimal Sparse Decision Trees. (arXiv:1904.12847v6 [cs.LG] UPDATED)
 

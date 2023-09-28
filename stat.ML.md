@@ -28,10 +28,11 @@
 | [^24] | [One-Step Estimation of Differentiable Hilbert-Valued Parameters.](http://arxiv.org/abs/2303.16711) | 本文介绍了一种针对Hilbert-Valued参数进行一步估计的方法，并提供一种适用于缺乏重现核的Hilbert空间的解决方案。 |
 | [^25] | [An Asymptotically Optimal Algorithm for the Convex Hull Membership Problem.](http://arxiv.org/abs/2302.02033) | 本研究提出了一个名为Thompson-CHM的渐近最优算法，用于解决凸包成员问题，且将算法扩展到了一维和多维环境中。该算法基于模块化设计，包括停止规则和采样规则，并通过数值实验验证了理论结果的准确性。 |
 | [^26] | [GeONet: a neural operator for learning the Wasserstein geodesic.](http://arxiv.org/abs/2209.14440) | GeONet是一个不受网格影响的深度神经算子网络，学习了从初始和终端分布到连接两个端点分布的Wasserstein测地的非线性映射。通过学习鞍点优化条件，GeONet可以快速进行实时预测，并在仿真示例和测试数据上取得了与标准OT求解器相当的准确性。 |
-| [^27] | [Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions.](http://arxiv.org/abs/2105.13913) | 本论文介绍了一种简单的Frank-Wolfe算法变体，利用广义自协调函数的特性，在不需要使用二阶信息或估计局部平滑度参数的情况下，以$\mathcal{O}(1/t)$的收敛速度达到了优化目标。 |
-| [^28] | [Novel and flexible parameter estimation methods for data-consistent inversion in mechanistic modeling.](http://arxiv.org/abs/2009.08267) | 本论文提出了一种新颖灵活的参数估计方法，用于机械建模中的数据一致反演。该方法解决了贝叶斯分析中无信息先验引入的偏差问题，并在随机逆问题框架下推断参数。使用拒绝采样、马尔科夫链蒙特卡洛和生成对抗网络等新方法解决了数据一致反演的限制，并通过约束优化和先验逆问题分析进一步优化了结果。 |
-| [^29] | [Improving the convergence of SGD through adaptive batch sizes.](http://arxiv.org/abs/1910.08222) | 通过自适应批大小，本研究提出了一种改善SGD收敛性的方法，既减少了高方差梯度估计的问题，又保持了较高精度的梯度估计。 |
-| [^30] | [Optimal Sparse Decision Trees.](http://arxiv.org/abs/1904.12847) | 这篇论文介绍了第一个针对二进制变量的最优决策树的实用算法，通过分析界限和现代系统技术的结合来解决决策树优化的困难，实验证明了其在可扩展性、速度和最优性证明方面的优势。 |
+| [^27] | [Robust leave-one-out cross-validation for high-dimensional Bayesian models.](http://arxiv.org/abs/2209.09190) | 提出了一个计算贝叶斯LOO-CV准则的新的混合估计量，保持了经典方法的简便性和计算方便性，并确保了结果估计量的渐近方差有限。在高维问题中尤为显著，可以应用于更广泛的模型和具有高度影响的观测数据集。 |
+| [^28] | [Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions.](http://arxiv.org/abs/2105.13913) | 本论文介绍了一种简单的Frank-Wolfe算法变体，利用广义自协调函数的特性，在不需要使用二阶信息或估计局部平滑度参数的情况下，以$\mathcal{O}(1/t)$的收敛速度达到了优化目标。 |
+| [^29] | [Novel and flexible parameter estimation methods for data-consistent inversion in mechanistic modeling.](http://arxiv.org/abs/2009.08267) | 本论文提出了一种新颖灵活的参数估计方法，用于机械建模中的数据一致反演。该方法解决了贝叶斯分析中无信息先验引入的偏差问题，并在随机逆问题框架下推断参数。使用拒绝采样、马尔科夫链蒙特卡洛和生成对抗网络等新方法解决了数据一致反演的限制，并通过约束优化和先验逆问题分析进一步优化了结果。 |
+| [^30] | [Improving the convergence of SGD through adaptive batch sizes.](http://arxiv.org/abs/1910.08222) | 通过自适应批大小，本研究提出了一种改善SGD收敛性的方法，既减少了高方差梯度估计的问题，又保持了较高精度的梯度估计。 |
+| [^31] | [Optimal Sparse Decision Trees.](http://arxiv.org/abs/1904.12847) | 这篇论文介绍了第一个针对二进制变量的最优决策树的实用算法，通过分析界限和现代系统技术的结合来解决决策树优化的困难，实验证明了其在可扩展性、速度和最优性证明方面的优势。 |
 
 # 详细
 
@@ -399,7 +400,21 @@
 
     Optimal transport (OT) offers a versatile framework to compare complex data distributions in a geometrically meaningful way. Traditional methods for computing the Wasserstein distance and geodesic between probability measures require mesh-dependent domain discretization and suffer from the curse-of-dimensionality. We present GeONet, a mesh-invariant deep neural operator network that learns the non-linear mapping from the input pair of initial and terminal distributions to the Wasserstein geodesic connecting the two endpoint distributions. In the offline training stage, GeONet learns the saddle point optimality conditions for the dynamic formulation of the OT problem in the primal and dual spaces that are characterized by a coupled PDE system. The subsequent inference stage is instantaneous and can be deployed for real-time predictions in the online learning setting. We demonstrate that GeONet achieves comparable testing accuracy to the standard OT solvers on simulation examples and the
     
-[^27]: 只需简单步骤：Frank-Wolfe算法和广义自协调函数
+[^27]: 高维贝叶斯模型的鲁棒离群值交叉验证
+
+    Robust leave-one-out cross-validation for high-dimensional Bayesian models. (arXiv:2209.09190v2 [stat.CO] UPDATED)
+
+    [http://arxiv.org/abs/2209.09190](http://arxiv.org/abs/2209.09190)
+
+    提出了一个计算贝叶斯LOO-CV准则的新的混合估计量，保持了经典方法的简便性和计算方便性，并确保了结果估计量的渐近方差有限。在高维问题中尤为显著，可以应用于更广泛的模型和具有高度影响的观测数据集。
+
+    
+
+    离群值交叉验证（LOO-CV）是估计样本外预测准确性的一种常用方法。然而，由于需要多次拟合模型，计算LOO-CV准则可能非常耗时。在贝叶斯背景下，重要性抽样提供了一种可能的解决方案，但经典方法很容易产生渐近方差为无穷大的估计量，使其潜在地不可靠。在这里，我们提出并分析了一种新的混合估计量来计算贝叶斯LOO-CV准则。我们的方法保持了经典方法的简单性和计算方便性，同时保证了所得估计量的渐近方差有限。我们提供了理论和数值结果来说明改进的鲁棒性和效率。在高维问题中，这种计算优势尤为显著，可以在更广泛的模型和具有高度影响性的观测数据集上进行贝叶斯LOO-CV。
+
+    Leave-one-out cross-validation (LOO-CV) is a popular method for estimating out-of-sample predictive accuracy. However, computing LOO-CV criteria can be computationally expensive due to the need to fit the model multiple times. In the Bayesian context, importance sampling provides a possible solution but classical approaches can easily produce estimators whose asymptotic variance is infinite, making them potentially unreliable. Here we propose and analyze a novel mixture estimator to compute Bayesian LOO-CV criteria. Our method retains the simplicity and computational convenience of classical approaches, while guaranteeing finite asymptotic variance of the resulting estimators. Both theoretical and numerical results are provided to illustrate the improved robustness and efficiency. The computational benefits are particularly significant in high-dimensional problems, allowing to perform Bayesian LOO-CV for a broader range of models, and datasets with highly influential observations. The 
+    
+[^28]: 只需简单步骤：Frank-Wolfe算法和广义自协调函数
 
     Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions. (arXiv:2105.13913v6 [math.OC] UPDATED)
 
@@ -413,7 +428,7 @@
 
     Generalized self-concordance is a key property present in the objective function of many important learning problems. We establish the convergence rate of a simple Frank-Wolfe variant that uses the open-loop step size strategy $\gamma_t = 2/(t+2)$, obtaining a $\mathcal{O}(1/t)$ convergence rate for this class of functions in terms of primal gap and Frank-Wolfe gap, where $t$ is the iteration count. This avoids the use of second-order information or the need to estimate local smoothness parameters of previous work. We also show improved convergence rates for various common cases, e.g., when the feasible region under consideration is uniformly convex or polyhedral.
     
-[^28]: 机械建模中数据一致反演的新颖灵活参数估计方法
+[^29]: 机械建模中数据一致反演的新颖灵活参数估计方法
 
     Novel and flexible parameter estimation methods for data-consistent inversion in mechanistic modeling. (arXiv:2009.08267v3 [stat.ML] UPDATED)
 
@@ -427,7 +442,7 @@
 
     Predictions for physical systems often rely upon knowledge acquired from ensembles of entities, e.g., ensembles of cells in biological sciences. For qualitative and quantitative analysis, these ensembles are simulated with parametric families of mechanistic models (MM). Two classes of methodologies, based on Bayesian inference and Population of Models, currently prevail in parameter estimation for physical systems. However, in Bayesian analysis, uninformative priors for MM parameters introduce undesirable bias. Here, we propose how to infer parameters within the framework of stochastic inverse problems (SIP), also termed data-consistent inversion, wherein the prior targets only uncertainties that arise due to MM non-invertibility. To demonstrate, we introduce new methods to solve SIP based on rejection sampling, Markov chain Monte Carlo, and generative adversarial networks (GANs). In addition, to overcome limitations of SIP, we reformulate SIP based on constrained optimization and pres
     
-[^29]: 通过自适应批大小改善SGD的收敛性
+[^30]: 通过自适应批大小改善SGD的收敛性
 
     Improving the convergence of SGD through adaptive batch sizes. (arXiv:1910.08222v4 [cs.LG] UPDATED)
 
@@ -441,7 +456,7 @@
 
     Mini-batch stochastic gradient descent (SGD) and variants thereof approximate the objective function's gradient with a small number of training examples, aka the batch size. Small batch sizes require little computation for each model update but can yield high-variance gradient estimates, which poses some challenges for optimization. Conversely, large batches require more computation but can yield higher precision gradient estimates. This work presents a method to adapt the batch size to the model's training loss. For various function classes, we show that our method requires the same order of model updates as gradient descent while requiring the same order of gradient computations as SGD. This method requires evaluating the model's loss on the entire dataset every model update. However, the required computation is greatly reduced by approximating the training loss. We provide experiments that illustrate our methods require fewer model updates without increasing the total amount of comp
     
-[^30]: 最优稀疏决策树
+[^31]: 最优稀疏决策树
 
     Optimal Sparse Decision Trees. (arXiv:1904.12847v6 [cs.LG] UPDATED)
 
