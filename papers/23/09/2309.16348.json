@@ -1,0 +1,11 @@
+{
+    "title": "Smoothing the Nonsmoothness. (arXiv:2309.16348v1 [econ.EM])",
+    "abstract": "To tackle difficulties for theoretical studies in situations involving nonsmooth functions, we propose a sequence of infinitely differentiable functions to approximate the nonsmooth function under consideration. A rate of approximation is established and an illustration of its application is then provided.",
+    "link": "http://arxiv.org/abs/2309.16348",
+    "context": "Title: Smoothing the Nonsmoothness. (arXiv:2309.16348v1 [econ.EM])\nAbstract: To tackle difficulties for theoretical studies in situations involving nonsmooth functions, we propose a sequence of infinitely differentiable functions to approximate the nonsmooth function under consideration. A rate of approximation is established and an illustration of its application is then provided.",
+    "path": "papers/23/09/2309.16348.json",
+    "total_tokens": 465,
+    "translated_title": "平滑非光滑性",
+    "translated_abstract": "为了解决涉及非光滑函数的理论研究中的困难，我们提出了一系列无穷可微函数来逼近所考虑的非光滑函数。我们建立了一个逼近速率，并提供了其应用的示例。",
+    "tldr": "提出了一系列无穷可微函数来逼近非光滑函数，并建立了逼近速率，提供了应用示例。"
+}

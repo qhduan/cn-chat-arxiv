@@ -1,0 +1,12 @@
+{
+    "title": "Open Source Infrastructure for Differentiable Density Functional Theory. (arXiv:2309.15985v1 [cs.LG])",
+    "abstract": "Learning exchange correlation functionals, used in quantum chemistry calculations, from data has become increasingly important in recent years, but training such a functional requires sophisticated software infrastructure. For this reason, we build open source infrastructure to train neural exchange correlation functionals. We aim to standardize the processing pipeline by adapting state-of-the-art techniques from work done by multiple groups. We have open sourced the model in the DeepChem library to provide a platform for additional research on differentiable quantum chemistry methods.",
+    "link": "http://arxiv.org/abs/2309.15985",
+    "context": "Title: Open Source Infrastructure for Differentiable Density Functional Theory. (arXiv:2309.15985v1 [cs.LG])\nAbstract: Learning exchange correlation functionals, used in quantum chemistry calculations, from data has become increasingly important in recent years, but training such a functional requires sophisticated software infrastructure. For this reason, we build open source infrastructure to train neural exchange correlation functionals. We aim to standardize the processing pipeline by adapting state-of-the-art techniques from work done by multiple groups. We have open sourced the model in the DeepChem library to provide a platform for additional research on differentiable quantum chemistry methods.",
+    "path": "papers/23/09/2309.15985.json",
+    "total_tokens": 706,
+    "translated_title": "可微分密度泛函理论的开源基础设施",
+    "translated_abstract": "近年来，从数据中学习量子化学计算中使用的交换相关泛函变得越来越重要，但训练这样的泛函需要复杂的软件基础设施。因此，我们构建了开源基础设施来训练神经网络交换相关泛函。我们旨在通过借鉴多个团队的前沿技术，规范化处理流程。我们已经在DeepChem库中开源了模型，为可微分量子化学方法的其他研究提供了一个平台。",
+    "tldr": "本研究构建了一个开源基础设施，用于训练可微分的交换相关泛函。通过借鉴多个团队的前沿技术，旨在规范化处理流程。已经在DeepChem库中开源了模型，为可微分量子化学方法的进一步研究提供了平台。",
+    "en_tdlr": "This study develops an open source infrastructure for training differentiable exchange correlation functionals. By adapting state-of-the-art techniques from multiple groups, the study aims to standardize the processing pipeline. The model has been open sourced in the DeepChem library, providing a platform for further research on differentiable quantum chemistry methods."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Task-Oriented Koopman-Based Control with Contrastive Encoder. (arXiv:2309.16077v1 [cs.RO])",
+    "abstract": "We present task-oriented Koopman-based control that utilizes end-to-end reinforcement learning and contrastive encoder to simultaneously learn the Koopman latent embedding, operator and associated linear controller within an iterative loop. By prioritizing the task cost as main objective for controller learning, we reduce the reliance of controller design on a well-identified model, which extends Koopman control beyond low-dimensional systems to high-dimensional, complex nonlinear systems, including pixel-based scenarios.",
+    "link": "http://arxiv.org/abs/2309.16077",
+    "context": "Title: Task-Oriented Koopman-Based Control with Contrastive Encoder. (arXiv:2309.16077v1 [cs.RO])\nAbstract: We present task-oriented Koopman-based control that utilizes end-to-end reinforcement learning and contrastive encoder to simultaneously learn the Koopman latent embedding, operator and associated linear controller within an iterative loop. By prioritizing the task cost as main objective for controller learning, we reduce the reliance of controller design on a well-identified model, which extends Koopman control beyond low-dimensional systems to high-dimensional, complex nonlinear systems, including pixel-based scenarios.",
+    "path": "papers/23/09/2309.16077.json",
+    "total_tokens": 745,
+    "translated_title": "基于任务导向的Koopman控制和对比编码器",
+    "translated_abstract": "我们提出了一种利用端到端强化学习和对比编码器同时学习Koopman潜在嵌入，算子和相关线性控制器的任务导向Koopman控制方法。通过将任务成本作为主要目标进行控制器学习，我们减少了对于一个明确定义的模型的控制器设计的依赖，将Koopman控制扩展到包括基于像素的场景在内的高维、复杂非线性系统中。",
+    "tldr": "该论文介绍了一种基于任务导向的Koopman控制方法，利用对比编码器和端到端强化学习来同时学习Koopman潜在嵌入、算子和相关线性控制器。通过优先考虑任务成本作为主要目标，减少了对于明确定义模型的控制器设计的依赖，将Koopman控制扩展到高维、复杂非线性系统，包括基于像素的场景。"
+}

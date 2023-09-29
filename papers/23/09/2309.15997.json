@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Priority Mechanisms. (arXiv:2309.15997v1 [econ.TH])",
+    "abstract": "How should authorities that care about match quality and diversity allocate resources when they are uncertain about the market? We introduce adaptive priority mechanisms (APM) that prioritize agents based on both their scores and characteristics. We derive an APM that is optimal and show that the ubiquitous priority and quota mechanisms are optimal if and only if the authority is risk-neutral or extremely risk-averse over diversity, respectively. With many authorities, each authority using the optimal APM is dominant and implements the unique stable matching. Using Chicago Public Schools data, we find that the gains from adopting APM may be considerable.",
+    "link": "http://arxiv.org/abs/2309.15997",
+    "context": "Title: Adaptive Priority Mechanisms. (arXiv:2309.15997v1 [econ.TH])\nAbstract: How should authorities that care about match quality and diversity allocate resources when they are uncertain about the market? We introduce adaptive priority mechanisms (APM) that prioritize agents based on both their scores and characteristics. We derive an APM that is optimal and show that the ubiquitous priority and quota mechanisms are optimal if and only if the authority is risk-neutral or extremely risk-averse over diversity, respectively. With many authorities, each authority using the optimal APM is dominant and implements the unique stable matching. Using Chicago Public Schools data, we find that the gains from adopting APM may be considerable.",
+    "path": "papers/23/09/2309.15997.json",
+    "total_tokens": 763,
+    "translated_title": "自适应优先机制",
+    "translated_abstract": "当市场不确定时，关心匹配质量和多样性的机构如何分配资源？我们引入自适应优先机制（APM），根据代理人的分数和特征对其进行优先排序。我们推导出一个最优的APM，并且证明万能的优先机制和配额机制仅在机构对多样性的风险中性或极度厌恶时才是最优的。当有多个机构时，每个机构使用最优的APM都是主导的，并实现唯一的稳定匹配。使用芝加哥公立学校的数据，我们发现采用APM可能获得可观的收益。",
+    "tldr": "本论文引入了自适应优先机制（APM），通过考虑代理人的得分和特征来优先排序，当市场不确定时，APM能够有效地分配资源。研究表明，在机构对多样性的风险中性或极度厌恶时，APM的效果最佳，同时使用最优的APM可以实现稳定匹配并获得可观的收益。",
+    "en_tdlr": "This paper introduces adaptive priority mechanisms (APM) that prioritize agents based on both their scores and characteristics. The study shows that APM is effective in resource allocation when the market is uncertain. The optimal APM is dominant and achieves stable matching with considerable gains, especially when the authority is risk-neutral or extremely risk-averse towards diversity."
+}

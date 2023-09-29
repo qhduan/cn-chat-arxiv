@@ -1,0 +1,11 @@
+{
+    "title": "On the Challenges of Fully Incremental Neural Dependency Parsing. (arXiv:2309.16254v1 [cs.CL])",
+    "abstract": "Since the popularization of BiLSTMs and Transformer-based bidirectional encoders, state-of-the-art syntactic parsers have lacked incrementality, requiring access to the whole sentence and deviating from human language processing. This paper explores whether fully incremental dependency parsing with modern architectures can be competitive. We build parsers combining strictly left-to-right neural encoders with fully incremental sequence-labeling and transition-based decoders. The results show that fully incremental parsing with modern architectures considerably lags behind bidirectional parsing, noting the challenges of psycholinguistically plausible parsing.",
+    "link": "http://arxiv.org/abs/2309.16254",
+    "context": "Title: On the Challenges of Fully Incremental Neural Dependency Parsing. (arXiv:2309.16254v1 [cs.CL])\nAbstract: Since the popularization of BiLSTMs and Transformer-based bidirectional encoders, state-of-the-art syntactic parsers have lacked incrementality, requiring access to the whole sentence and deviating from human language processing. This paper explores whether fully incremental dependency parsing with modern architectures can be competitive. We build parsers combining strictly left-to-right neural encoders with fully incremental sequence-labeling and transition-based decoders. The results show that fully incremental parsing with modern architectures considerably lags behind bidirectional parsing, noting the challenges of psycholinguistically plausible parsing.",
+    "path": "papers/23/09/2309.16254.json",
+    "total_tokens": 666,
+    "translated_title": "关于完全增量神经依存句法分析的挑战",
+    "translated_abstract": "自从BiLSTMs和基于Transformer的双向编码器的普及以来，最先进的句法分析器缺乏增量性，需要访问整个句子，并且偏离了人类语言处理。本文探讨了使用现代架构进行完全增量依存句法分析是否具有竞争力。我们构建了将严格的从左到右神经编码器与完全增量序列标记和转换为基础的解码器相结合的分析器。结果表明，使用现代架构的完全增量分析在效果上远远落后于双向分析，同时指出了心理语言学合理解析的挑战。",
+    "tldr": "使用现代架构的完全增量依存句法分析较双向分析效果落后，展示了心理语言学合理解析的挑战。"
+}

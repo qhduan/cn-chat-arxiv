@@ -1,0 +1,11 @@
+{
+    "title": "Transformer-VQ: Linear-Time Transformers via Vector Quantization. (arXiv:2309.16354v1 [cs.LG])",
+    "abstract": "We introduce Transformer-VQ, a decoder-only transformer computing softmax-based dense self-attention in linear time. Transformer-VQ's efficient attention is enabled by vector-quantized keys and a novel caching mechanism. In large-scale experiments, Transformer-VQ is shown highly competitive in quality, with strong results on Enwik8 (0.99 bpb), PG-19 (26.6 ppl), and ImageNet64 (3.16 bpb). Code: https://github.com/transformer-vq/transformer_vq",
+    "link": "http://arxiv.org/abs/2309.16354",
+    "context": "Title: Transformer-VQ: Linear-Time Transformers via Vector Quantization. (arXiv:2309.16354v1 [cs.LG])\nAbstract: We introduce Transformer-VQ, a decoder-only transformer computing softmax-based dense self-attention in linear time. Transformer-VQ's efficient attention is enabled by vector-quantized keys and a novel caching mechanism. In large-scale experiments, Transformer-VQ is shown highly competitive in quality, with strong results on Enwik8 (0.99 bpb), PG-19 (26.6 ppl), and ImageNet64 (3.16 bpb). Code: https://github.com/transformer-vq/transformer_vq",
+    "path": "papers/23/09/2309.16354.json",
+    "total_tokens": 635,
+    "translated_title": "Transformer-VQ: 基于向量量化实现线性时间的Transformer",
+    "translated_abstract": "我们引入了Transformer-VQ，一种仅编码器的Transformer，能够在线性时间内计算基于softmax的密集自注意力。Transformer-VQ的高效注意力是通过向量量化键和一种新颖的缓存机制实现的。在大规模实验中，Transformer-VQ在质量上表现出色，Enwik8(0.99 bpb)，PG-19(26.6 ppl)和ImageNet64(3.16 bpb)都取得了很好的结果。",
+    "tldr": "Transformer-VQ是一种基于向量量化实现线性时间的Transformer模型，能够高效计算自注意力，在大规模实验中表现出色。"
+}

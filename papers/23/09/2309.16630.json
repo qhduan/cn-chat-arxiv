@@ -1,0 +1,11 @@
+{
+    "title": "On Learning with LAD. (arXiv:2309.16630v1 [cs.LG])",
+    "abstract": "The logical analysis of data, LAD, is a technique that yields two-class classifiers based on Boolean functions having disjunctive normal form (DNF) representation. Although LAD algorithms employ optimization techniques, the resulting binary classifiers or binary rules do not lead to overfitting. We propose a theoretical justification for the absence of overfitting by estimating the Vapnik-Chervonenkis dimension (VC dimension) for LAD models where hypothesis sets consist of DNFs with a small number of cubic monomials. We illustrate and confirm our observations empirically.",
+    "link": "http://arxiv.org/abs/2309.16630",
+    "context": "Title: On Learning with LAD. (arXiv:2309.16630v1 [cs.LG])\nAbstract: The logical analysis of data, LAD, is a technique that yields two-class classifiers based on Boolean functions having disjunctive normal form (DNF) representation. Although LAD algorithms employ optimization techniques, the resulting binary classifiers or binary rules do not lead to overfitting. We propose a theoretical justification for the absence of overfitting by estimating the Vapnik-Chervonenkis dimension (VC dimension) for LAD models where hypothesis sets consist of DNFs with a small number of cubic monomials. We illustrate and confirm our observations empirically.",
+    "path": "papers/23/09/2309.16630.json",
+    "total_tokens": 640,
+    "translated_title": "关于使用LAD进行学习",
+    "translated_abstract": "数据的逻辑分析（LAD）是一种基于具有析取范式（DNF）表示的布尔函数的技术，它产生的两类分类器。虽然LAD算法采用了优化技术，但得到的二进制分类器或二进制规则不会导致过拟合。我们提出了一个理论上的证明，解释了为什么LAD模型不存在过拟合，我们估计了由少量立方数单项式组成的DNF假设集的Vapnik-Chervonenkis维度（VC维度）。我们通过实验证实了我们的观察结果。",
+    "tldr": "该研究提出了关于LAD模型不存在过拟合的理论解释，并估计了LAD模型的VC维度。实验证实了这些观察结果。"
+}

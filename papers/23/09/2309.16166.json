@@ -1,0 +1,12 @@
+{
+    "title": "CoinRun: Solving Goal Misgeneralisation. (arXiv:2309.16166v1 [cs.AI])",
+    "abstract": "Goal misgeneralisation is a key challenge in AI alignment -- the task of getting powerful Artificial Intelligences to align their goals with human intentions and human morality. In this paper, we show how the ACE (Algorithm for Concept Extrapolation) agent can solve one of the key standard challenges in goal misgeneralisation: the CoinRun challenge. It uses no new reward information in the new environment. This points to how autonomous agents could be trusted to act in human interests, even in novel and critical situations.",
+    "link": "http://arxiv.org/abs/2309.16166",
+    "context": "Title: CoinRun: Solving Goal Misgeneralisation. (arXiv:2309.16166v1 [cs.AI])\nAbstract: Goal misgeneralisation is a key challenge in AI alignment -- the task of getting powerful Artificial Intelligences to align their goals with human intentions and human morality. In this paper, we show how the ACE (Algorithm for Concept Extrapolation) agent can solve one of the key standard challenges in goal misgeneralisation: the CoinRun challenge. It uses no new reward information in the new environment. This points to how autonomous agents could be trusted to act in human interests, even in novel and critical situations.",
+    "path": "papers/23/09/2309.16166.json",
+    "total_tokens": 651,
+    "translated_title": "CoinRun: 解决目标错误泛化问题",
+    "translated_abstract": "目标错误泛化是人工智能对齐的一个重要挑战，即使强大的人工智能能够将其目标与人类意图和道德对齐。在本文中，我们展示了ACE（概念扩展算法）代理如何解决目标错误泛化的一项关键标准挑战：CoinRun挑战。该代理在新环境中不使用任何新的奖励信息。这表明自主代理可以在新颖和关键的情况下受人信任地行动。",
+    "tldr": "本文介绍了通过使用ACE代理解决目标错误泛化中的CoinRun挑战，并展示了自主代理在新环境下可以在不使用新奖励信息的情况下，在关键情况下受人信任地行动。",
+    "en_tdlr": "This paper presents the use of ACE agent to solve the CoinRun challenge in goal misgeneralisation, demonstrating how autonomous agents can be trusted to act in critical situations without using new reward information in a new environment."
+}

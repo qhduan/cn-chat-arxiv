@@ -1,0 +1,12 @@
+{
+    "title": "MHG-GNN: Combination of Molecular Hypergraph Grammar with Graph Neural Network. (arXiv:2309.16374v1 [cs.LG])",
+    "abstract": "Property prediction plays an important role in material discovery. As an initial step to eventually develop a foundation model for material science, we introduce a new autoencoder called the MHG-GNN, which combines graph neural network (GNN) with Molecular Hypergraph Grammar (MHG). Results on a variety of property prediction tasks with diverse materials show that MHG-GNN is promising.",
+    "link": "http://arxiv.org/abs/2309.16374",
+    "context": "Title: MHG-GNN: Combination of Molecular Hypergraph Grammar with Graph Neural Network. (arXiv:2309.16374v1 [cs.LG])\nAbstract: Property prediction plays an important role in material discovery. As an initial step to eventually develop a foundation model for material science, we introduce a new autoencoder called the MHG-GNN, which combines graph neural network (GNN) with Molecular Hypergraph Grammar (MHG). Results on a variety of property prediction tasks with diverse materials show that MHG-GNN is promising.",
+    "path": "papers/23/09/2309.16374.json",
+    "total_tokens": 585,
+    "translated_title": "MHG-GNN: 分子超图语法与图神经网络的结合",
+    "translated_abstract": "物性预测在材料发现中扮演重要角色。作为最终为材料科学开发基础模型的第一步，我们引入了一种新的自编码器，称为MHG-GNN，它将图神经网络（GNN）与分子超图语法（MHG）结合起来。在多样材料的各种物性预测任务中的结果表明，MHG-GNN具有巨大的潜力。",
+    "tldr": "MHG-GNN是一种将分子超图语法与图神经网络相结合的新型自编码器，在多样材料的物性预测任务中表现出巨大的潜力。",
+    "en_tdlr": "MHG-GNN is a novel autoencoder that combines Molecular Hypergraph Grammar (MHG) with graph neural network (GNN), showing great potential in property prediction tasks with diverse materials."
+}

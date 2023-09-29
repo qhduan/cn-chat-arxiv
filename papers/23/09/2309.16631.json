@@ -1,0 +1,11 @@
+{
+    "title": "Robust Offline Reinforcement Learning -- Certify the Confidence Interval. (arXiv:2309.16631v1 [cs.LG])",
+    "abstract": "Currently, reinforcement learning (RL), especially deep RL, has received more and more attention in the research area. However, the security of RL has been an obvious problem due to the attack manners becoming mature. In order to defend against such adversarial attacks, several practical approaches are developed, such as adversarial training, data filtering, etc. However, these methods are mostly based on empirical algorithms and experiments, without rigorous theoretical analysis of the robustness of the algorithms. In this paper, we develop an algorithm to certify the robustness of a given policy offline with random smoothing, which could be proven and conducted as efficiently as ones without random smoothing. Experiments on different environments confirm the correctness of our algorithm.",
+    "link": "http://arxiv.org/abs/2309.16631",
+    "context": "Title: Robust Offline Reinforcement Learning -- Certify the Confidence Interval. (arXiv:2309.16631v1 [cs.LG])\nAbstract: Currently, reinforcement learning (RL), especially deep RL, has received more and more attention in the research area. However, the security of RL has been an obvious problem due to the attack manners becoming mature. In order to defend against such adversarial attacks, several practical approaches are developed, such as adversarial training, data filtering, etc. However, these methods are mostly based on empirical algorithms and experiments, without rigorous theoretical analysis of the robustness of the algorithms. In this paper, we develop an algorithm to certify the robustness of a given policy offline with random smoothing, which could be proven and conducted as efficiently as ones without random smoothing. Experiments on different environments confirm the correctness of our algorithm.",
+    "path": "papers/23/09/2309.16631.json",
+    "total_tokens": 753,
+    "translated_title": "鲁棒的离线强化学习 - 认证置信区间",
+    "translated_abstract": "目前，强化学习（RL），特别是深度RL，在研究领域中得到了越来越多的关注。然而，由于攻击方式变得成熟，RL的安全性成为一个明显的问题。为了抵御此类对抗性攻击，已经开发了几种实用的方法，如对抗性训练、数据过滤等。然而，这些方法大多基于经验算法和实验，缺乏对算法鲁棒性的严格理论分析。本文提出了一种利用随机平滑认证给定策略的鲁棒性的算法，该算法的效率可以证明和进行，与没有随机平滑的算法一样高效。不同环境的实验证实了我们算法的正确性。",
+    "tldr": "本文提出了一种使用随机平滑算法认证给定策略在离线环境中的鲁棒性的方法，证明了该算法的高效性，并得到实验证实。"
+}

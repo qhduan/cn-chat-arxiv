@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Selection in Algorithmic Decision-making. (arXiv:2108.12547v3 [econ.EM] UPDATED)",
+    "abstract": "This paper identifies and addresses dynamic selection problems in online learning algorithms with endogenous data. In a contextual multi-armed bandit model, a novel bias (self-fulfilling bias) arises because the endogeneity of the data influences the choices of decisions, affecting the distribution of future data to be collected and analyzed. We propose an instrumental-variable-based algorithm to correct for the bias. It obtains true parameter values and attains low (logarithmic-like) regret levels. We also prove a central limit theorem for statistical inference. To establish the theoretical properties, we develop a general technique that untangles the interdependence between data and actions.",
+    "link": "http://arxiv.org/abs/2108.12547",
+    "context": "Title: Dynamic Selection in Algorithmic Decision-making. (arXiv:2108.12547v3 [econ.EM] UPDATED)\nAbstract: This paper identifies and addresses dynamic selection problems in online learning algorithms with endogenous data. In a contextual multi-armed bandit model, a novel bias (self-fulfilling bias) arises because the endogeneity of the data influences the choices of decisions, affecting the distribution of future data to be collected and analyzed. We propose an instrumental-variable-based algorithm to correct for the bias. It obtains true parameter values and attains low (logarithmic-like) regret levels. We also prove a central limit theorem for statistical inference. To establish the theoretical properties, we develop a general technique that untangles the interdependence between data and actions.",
+    "path": "papers/21/08/2108.12547.json",
+    "total_tokens": 798,
+    "translated_title": "算法决策中的动态选择问题研究",
+    "translated_abstract": "本文识别和解决了在线学习算法中的动态选择问题，这些问题与内生数据有关。在上下文多臂赌博模型中，由于数据的内生性影响决策的选择，会产生一种新的偏差（自我实现偏差），从而影响到未来待收集和分析的数据的分布。我们提出了一种基于工具变量的算法，以纠正这种偏差。该算法可以获得真实参数值，并获得较低（类似对数的）遗憾水平。我们还证明了统计推断的中心极限定理。为了建立理论性质，我们开发了一个通用技术，以解开数据和行动之间的相互依赖关系。",
+    "tldr": "本文研究了算法决策中的动态选择问题，针对在线学习算法中数据的内生性导致的偏差提出了一种基于工具变量的纠正算法，并证明了该算法可以获得真实参数值和较低遗憾水平。研究还提供了统计推断的中心极限定理。",
+    "en_tdlr": "This paper addresses dynamic selection problems in algorithmic decision-making and proposes an instrumental-variable-based algorithm to correct for biases caused by endogenous data. The algorithm achieves true parameter values and low regret levels, and a central limit theorem for statistical inference is also proved."
+}

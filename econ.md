@@ -2,157 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Linearity of Aggregate Production Functions.](http://arxiv.org/abs/2309.15760) | 该论文证明了当个体企业采用规模不变的生产函数时，由总输入给定的最大可实现总产出所定义的聚合生产函数是线性的。 |
-| [^2] | [Sluggish news reactions: A combinatorial approach for synchronizing stock jumps.](http://arxiv.org/abs/2309.15705) | 这篇论文提出了一种通过组合方法同步股票跳动，从而自动检测噪声跳动并更好地逼近相关股票价格中真实的共同跳动。 |
-| [^3] | [To better understand realized ecosystem services: An integrated analysis framework of supply, demand, flow and use.](http://arxiv.org/abs/2309.15574) | 该研究提出了一个供给-需求-流动-利用（SDFU）框架来理解实现生态系统服务（ES）。研究应用该框架分析了城市绿地公园中的野生浆果供给，传粉和娱乐等ES，揭示了ES的实际利用情况，以及供给受限、需求受限和供需平衡类型的ES。研究还讨论了ES的尺度特征、时间动态和空间特征，以及未来研究的关键问题。 |
-| [^4] | [Enumerating the climate impact of disequilibrium in critical mineral supply.](http://arxiv.org/abs/2309.15368) | 根据研究，符合提议的尾气排放标准需要在2027年至2032年间用至少1021万辆新的内燃机汽车替换为EV。根据现有可利用的矿产储量，制造足够的EVs在大多数电池化学品中是可行的，并且可以减少高达4573万吨的CO2e。 |
-| [^5] | [The importance of quality in austere times: University competitiveness and grant income.](http://arxiv.org/abs/2309.15309) | 这项研究利用英国科学资助紧缩政策的自然实验，发现传统的大学竞争力测量指标无法准确反映竞争力。通过使用一种基于复杂性科学的替代指标，研究人员揭示了大学在科学领域的高度动态参与方式，并发现研究竞争力对资助收入具有影响。紧缩政策放宽后，英国大学的地位和资助收入发生了变化。 |
-| [^6] | [Double machine learning and design in batch adaptive experiments.](http://arxiv.org/abs/2309.15297) | 本文提出了一种双机器学习和批自适应实验设计方法。通过汇总批次间的信息，我们提出了一个半参数治疗效应估计器，优于汇总单个批次估计的方法。我们还解决了在实验后期批次中学习倾向得分的设计问题，并证明了该方法能够以一定的收敛速率达到目标精度。 |
-| [^7] | [Theoretical Foundations of Community Rating by a Private Monopolist Insurer: Framework, Regulation, and Numerical Analysis.](http://arxiv.org/abs/2309.15269) | 本文通过斯蒂格利茨模型建立了社群评级的理论框架，证明了最优保费满足逆弹性规则，并通过数值分析显示在监管下，赔偿的10%增加对其他变量的影响很小。 |
-| [^8] | [Optimal Stopping with Multi-Dimensional Comparative Loss Aversion.](http://arxiv.org/abs/2309.14555) | 多维模型中的最优停止问题与一维模型有明显区别，包括竞争比的相变现象和随机顺序与最坏情况问题上的改进 |
-| [^9] | [Measuring the strengths of the teams in the UEFA Champions League.](http://arxiv.org/abs/2304.09078) | 本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。 |
-| [^10] | [Combining Forecasts under Structural Breaks Using Graphical LASSO.](http://arxiv.org/abs/2209.01697) | 本文提出了一种使用图形LASSO方法，在结构性断点下结合多种预测的新方法。该方法通过可视化预测误差网络并推广网络推断方法，实现了对共同因子结构和结构性断点的处理。通过因子图形LASSO方法将共同预测误差和个体误差区分开，并利用特异误差的精度矩阵稀疏性。同时，引入了基于制度的因子图形LASSO方法，允许在不同制度下修改因子载荷和特异精度矩阵。 |
+| [^1] | [The effect of COVID restriction levels on shared micromobility travel patterns: A comparison between dockless bike sharing and e-scooter services.](http://arxiv.org/abs/2309.16440) | 本研究调查了COVID-19限制级别对共享微型交通的使用模式的影响，并分析了在不同限制级别下的无桩自行车共享和电动滑板车服务的使用数据。 |
+| [^2] | [Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications.](http://arxiv.org/abs/2309.16437) | 本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。 |
+| [^3] | [Smoothing the Nonsmoothness.](http://arxiv.org/abs/2309.16348) | 提出了一系列无穷可微函数来逼近非光滑函数，并建立了逼近速率，提供了应用示例。 |
+| [^4] | [Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity.](http://arxiv.org/abs/2309.16186) | 本论文通过引入随机利率模型和非线性融资成本来探讨气候变化减缓模型中的代际公平问题。研究结果表明，最优的随机减排路径可能会增加成本和风险相关的代际不平等，但通过融资成本的引入可以改善这种情况。 |
+| [^5] | [Adaptive Priority Mechanisms.](http://arxiv.org/abs/2309.15997) | 本论文引入了自适应优先机制（APM），通过考虑代理人的得分和特征来优先排序，当市场不确定时，APM能够有效地分配资源。研究表明，在机构对多样性的风险中性或极度厌恶时，APM的效果最佳，同时使用最优的APM可以实现稳定匹配并获得可观的收益。 |
+| [^6] | [What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study.](http://arxiv.org/abs/2309.15983) | 通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。 |
+| [^7] | [An Introduction to Complex Networks in Climate Finance.](http://arxiv.org/abs/2309.15890) | 本研究介绍了气候金融中复杂投资者网络的结构和功能，以太阳能、风能和水能技术为例，使用网络方法研究低碳金融市场的复杂性，并探讨了复杂投资者动态的产生和影响。 |
+| [^8] | [Discretionary Extensions to Unemployment-Insurance Compensation and Some Potential Costs for a McCall Worker.](http://arxiv.org/abs/2308.09783) | 研究了失业保险补偿的自由发放问题对于麦考尔工人的影响，发现政策制定者可以自行决定是否延长补贴，并发现延长补贴会使工人变得更加挑剔，在失业期间更加谨慎接受工作机会。研究还发现错误估计延长发放的成本较小。 |
+| [^9] | [Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com.](http://arxiv.org/abs/2305.02587) | 本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。 |
+| [^10] | [Weighted Fair Division with Matroid-Rank Valuations: Monotonicity and Strategyproofness.](http://arxiv.org/abs/2303.14454) | 本文研究在代理人权益具有 matroid-rank 估值的情况下公平分配不可分配物品的问题，通过推广先前的研究结果，提出了一类具有群组策略稳定性的加权加性福利规则。 |
+| [^11] | [Policy Learning with New Treatments.](http://arxiv.org/abs/2210.04703) | 本文研究了使用新的处理方式进行政策学习的问题，通过对处理反应的形状限制进行部分识别，提出了一种基于最小后悔准则比较不同政策的方法，并应用于肯尼亚农村电网连接的有针对性的补贴设计。 |
+| [^12] | [The comparative statics of persuasion.](http://arxiv.org/abs/2204.07474) | 本论文主要研究了辩说模型中的比较静态问题，通过界定发信方中期回报变化的条件，确定了发信方在选择信号时会更倾向于选择具有更多信息量的信号。此外，论文还研究了发信方和接收方兴趣一致程度增加对比较静态的影响，并探讨了相关应用。 |
+| [^13] | [Dynamic Selection in Algorithmic Decision-making.](http://arxiv.org/abs/2108.12547) | 本文研究了算法决策中的动态选择问题，针对在线学习算法中数据的内生性导致的偏差提出了一种基于工具变量的纠正算法，并证明了该算法可以获得真实参数值和较低遗憾水平。研究还提供了统计推断的中心极限定理。 |
+| [^14] | [Manipulation-Robust Regression Discontinuity Designs.](http://arxiv.org/abs/2009.07551) | 本研究提出了一种新的回归不连续设计的识别条件，解决了操纵变量可能导致的偏差问题，并提供了一种辅助假设来检测操纵。通过案例研究，我们展示了如何利用该方法解决实际问题。 |
 
 # 详细
 
-[^1]: 聚合生产函数的线性性
+[^1]: COVID限制级别对共享微型交通出行模式的影响：基于无桩自行车共享和电动滑板车服务的比较
 
-    Linearity of Aggregate Production Functions. (arXiv:2309.15760v1 [econ.TH])
+    The effect of COVID restriction levels on shared micromobility travel patterns: A comparison between dockless bike sharing and e-scooter services. (arXiv:2309.16440v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.15760](http://arxiv.org/abs/2309.15760)
+    [http://arxiv.org/abs/2309.16440](http://arxiv.org/abs/2309.16440)
 
-    该论文证明了当个体企业采用规模不变的生产函数时，由总输入给定的最大可实现总产出所定义的聚合生产函数是线性的。
-
-    
-
-    我们证明，当个体企业采用规模不变的生产函数时，由总输入给定的最大可实现总产出所定义的聚合生产函数在某个域上总是线性的。我们的结果为线性生产函数提供了微观基础。
-
-    We prove that when individual firms employ constant-returns-to-scale production functions, the aggregate production function defined by the maximum achievable total output given total inputs is always linear on some part of the domain. Our result provides a microfoundation for the linear production function.
-    
-[^2]: 缓慢的新闻反应：一种用于同步股票跳动的组合方法
-
-    Sluggish news reactions: A combinatorial approach for synchronizing stock jumps. (arXiv:2309.15705v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.15705](http://arxiv.org/abs/2309.15705)
-
-    这篇论文提出了一种通过组合方法同步股票跳动，从而自动检测噪声跳动并更好地逼近相关股票价格中真实的共同跳动。
+    本研究调查了COVID-19限制级别对共享微型交通的使用模式的影响，并分析了在不同限制级别下的无桩自行车共享和电动滑板车服务的使用数据。
 
     
 
-    股价对新闻的反应往往缓慢，产生渐进的跳动和延迟跳动。经济计量学家通常将这些缓慢的反应视为市场微观结构的影响，并采用粗糙的采样网格来规避这些影响。在一个精细的采样网格上同步误时的股票收益，可以自动探测到噪声跳动，并更好地逼近相关股票价格中真实的共同跳动。
+    新冠疫情的传播对几乎所有国家的大多数交通系统产生了负面影响。封锁期过后，根据疫情传播趋势的观察，旅行限制政策现在几乎实时地经常调整，导致交通市场形势迅速变化。依赖顾客的共享微型交通运营商需要理解需求如何受到影响以调整运营。在这个背景下，本文研究了不同的COVID-19限制级别如何影响共享微型交通的使用模式。分析了2020年10月至2021年3月在意大利都灵运营的两种无桩微型交通服务（自行车和电动滑板车）的使用数据，这一时期有不同的旅行限制级别。对两种服务的平均每日出行次数、出行距离和出行时长进行了获取，并进行了比较。
 
-    Stock prices often react sluggishly to news, producing gradual jumps and jump delays. Econometricians typically treat these sluggish reactions as microstructure effects and settle for a coarse sampling grid to guard against them. Synchronizing mistimed stock returns on a fine sampling grid allows us to automatically detect noisy jumps and better approximate the true common jumps in related stock prices.
+    The spread of the coronavirus pandemic had negative repercussions on the majority of transport systems in virtually all countries. After the lockdown period, travel restriction policies are now frequently adapted almost real-time according to observed trends in the spread of the disease, resulting in a rapidly changing transport market situation. Shared micromobility operators, whose revenues entirely come from their customers, need to understand how the demand is affected to adapt their operations. Within this framework, the present paper investigates how different COVID-19 restriction levels have affected the usage patterns of shared micromobility.  Usage data of two dockless micromobility services (bike and e-scooters) operating in Turin (Italy) are analyzed between October 2020 and March 2021, a period characterized by different travel restriction levels. The average number of daily trips, trip distances and trip duration are retrieved for both services, and then compared to identi
     
-[^3]: 更好地理解实现生态系统服务: 供给、需求、流动和利用的集成分析框架
+[^2]: 超越引用：用于评估科学出版物中的新颖性及其影响力的基于文本的指标
 
-    To better understand realized ecosystem services: An integrated analysis framework of supply, demand, flow and use. (arXiv:2309.15574v1 [econ.GN])
+    Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications. (arXiv:2309.16437v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.15574](http://arxiv.org/abs/2309.15574)
+    [http://arxiv.org/abs/2309.16437](http://arxiv.org/abs/2309.16437)
 
-    该研究提出了一个供给-需求-流动-利用（SDFU）框架来理解实现生态系统服务（ES）。研究应用该框架分析了城市绿地公园中的野生浆果供给，传粉和娱乐等ES，揭示了ES的实际利用情况，以及供给受限、需求受限和供需平衡类型的ES。研究还讨论了ES的尺度特征、时间动态和空间特征，以及未来研究的关键问题。
-
-    
-
-    实现生态系统服务（ES）是社会实际利用ES的情况，与潜在ES相比，更直接关联到人类福祉。然而，目前缺乏一个通用的分析框架来理解实现了多少ES。在本研究中，我们首先提出了一个供给-需求-流动-利用（SDFU）的框架，将ES的供给、需求、流动和利用进行整合，并将这些概念区分为不同的方面（例如，潜在和实际的ES需求，供给的出口和进口流动等）。然后，我们将该框架应用于典型城市绿地公园中的三个ES的例子（即野生浆果供给，传粉和娱乐）。我们展示了该框架如何评估ES的实际利用情况，并识别出供给受限、需求受限和供需平衡类型的ES。我们还讨论了实现ES的尺度特征、时间动态和空间特征，以及未来研究中的一些关键问题。
-
-    Realized ecosystem services (ES) are the actual use of ES by societies, which is more directly linked to human well-being than potential ES. However, there is a lack of a general analysis framework to understand how much ES was realized. In this study, we first proposed a Supply-Demand-Flow-Use (SDFU) framework that integrates the supply, demand, flow, and use of ES and differentiates these concepts into different aspects (e.g., potential vs. actual ES demand, export and import flows of supply, etc.). Then, we applied the framework to three examples of ES that can be found in typical urban green parks (i.e., wild berry supply, pollination, and recreation). We showed how the framework could assess the actual use of ES and identify the supply-limited, demand-limited, and supply-demand-balanced types of realized ES. We also discussed the scaling features, temporal dynamics, and spatial characteristics of realized ES, as well as some critical questions for future studies. Although facing c
-    
-[^4]: 枚举关键矿物供应失衡对气候影响的论文
-
-    Enumerating the climate impact of disequilibrium in critical mineral supply. (arXiv:2309.15368v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.15368](http://arxiv.org/abs/2309.15368)
-
-    根据研究，符合提议的尾气排放标准需要在2027年至2032年间用至少1021万辆新的内燃机汽车替换为EV。根据现有可利用的矿产储量，制造足够的EVs在大多数电池化学品中是可行的，并且可以减少高达4573万吨的CO2e。
+    本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。
 
     
 
-    最近提出的尾气排放标准旨在在美国显著增加电动汽车（EV）的销量。我们的研究考察了在EV矿物供应链存在潜在限制的情况下，是否能够实现这一增长。我们估计了一个模型，反映了国际采购规则、主要电池化学品的矿物质强度的异质性，以及长期的电网脱碳努力。我们的努力得出了五个关键发现。首先，要符合提议的标准，需要在2027年至2032年之间将至少1021万辆新的内燃机汽车替换为EV。其次，基于经济上可行和地质上可利用的矿产储量，制造足够的EVs在大多数电池化学品中是可行的，并且可以根据所采用的化学品减少高达4573万吨的CO2e。第三，美国及其盟友的矿产生产能力限制了在2027年至2032年之间总共生产509万个EV电池。
+    我们使用文本挖掘来确定来自Microsoft Academic Graph (MAG)科学论文群体中新科学思想的来源和影响。我们验证了新技术及其相对于基于引用的传统度量指标的改进。首先，我们收集与诺贝尔奖联系的科学论文。这些论文可以说引入了对科学进展具有重大影响的全新科学思想。其次，我们确定文献综述论文，这些论文通常总结之前的科学发现而不是引领新的科学见解。最后，我们证明引领新的科学思想的论文更有可能被高度引用。我们的研究结果支持使用文本挖掘来测量发表时的新颖科学思想以及这些新思想对后续科学工作的影响。此外，研究结果还表明，相比基于论文引用的传统指标，新的文本指标有显著的改进。
 
-    Recently proposed tailpipe emissions standards aim to significant increases in electric vehicle (EV) sales in the United States. Our work examines whether this increase is achievable given potential constraints in EV mineral supply chains. We estimate a model that reflects international sourcing rules, heterogeneity in the mineral intensity of predominant battery chemistries, and long-run grid decarbonization efforts. Our efforts yield five key findings. First, compliance with the proposed standard necessitates replacing at least 10.21 million new ICEVs with EVs between 2027 and 2032. Second, based on economically viable and geologically available mineral reserves, manufacturing sufficient EVs is plausible across most battery chemistries and could, subject to the chemistry leveraged, reduce up to 457.3 million total tons of CO2e. Third, mineral production capacities of the US and its allies constrain battery production to a total of 5.09 million EV batteries between 2027 and 2032, well
+    We use text mining to identify the origin and impact of new scientific ideas in the population of scientific papers from Microsoft Academic Graph (MAG). We validate the new techniques and their improvement over the traditional metrics based on citations. First, we collect scientific papers linked to Nobel prizes. These papers arguably introduced fundamentally new scientific ideas with a major impact on scientific progress. Second, we identify literature review papers which typically summarize prior scientific findings rather than pioneer new scientific insights. Finally, we illustrate that papers pioneering new scientific ideas are more likely to become highly cited. Our findings support the use of text mining both to measure novel scientific ideas at the time of publication and to measure the impact of these new ideas on later scientific work. Moreover, the results illustrate the significant improvement of the new text metrics over the traditional metrics based on paper citations. We 
     
-[^5]: 紧缩时期质量的重要性：大学竞争力和资助收入
+[^3]: 平滑非光滑性
 
-    The importance of quality in austere times: University competitiveness and grant income. (arXiv:2309.15309v1 [econ.GN])
+    Smoothing the Nonsmoothness. (arXiv:2309.16348v1 [econ.EM])
 
-    [http://arxiv.org/abs/2309.15309](http://arxiv.org/abs/2309.15309)
+    [http://arxiv.org/abs/2309.16348](http://arxiv.org/abs/2309.16348)
 
-    这项研究利用英国科学资助紧缩政策的自然实验，发现传统的大学竞争力测量指标无法准确反映竞争力。通过使用一种基于复杂性科学的替代指标，研究人员揭示了大学在科学领域的高度动态参与方式，并发现研究竞争力对资助收入具有影响。紧缩政策放宽后，英国大学的地位和资助收入发生了变化。
-
-    
-
-    在2009年之后，许多政府实施了紧缩措施，常常限制科学资助。这些限制是否进一步使资助收入向精英科学家和大学倾斜？增加的资金竞争是否削弱了参与度？英国科学资助机构在紧缩期响应中显著减少了资助数目和总资金，但令人惊讶的是在2015年大选之后，科学资助限制得到了放宽。利用这个自然实验，我们显示常规的大学竞争力衡量指标是竞争力的不良代理。从复杂性科学中得出的大学竞争力替代指标捕捉了大学在科学领域中的高度动态参与方式。基于2006年至2020年间的43,430项英国资助项目数据集，我们分析了英国大学的排名，并研究了研究竞争力对资助收入的影响。当紧缩政策于2015年放宽时，英国大学的地位和资助收入发生了变化。
-
-    After 2009 many governments implemented austerity measures, often restricting science funding. Did such restrictions further skew grant income towards elite scientists and universities? And did increased competition for funding undermine participation? UK science funding agencies significantly reduced numbers of grants and total grant funding in response to austerity, but surprisingly restrictions of science funding were relaxed after the 2015 general election. Exploiting this natural experiment, we show that conventional measures of university competitiveness are poor proxies for competitiveness. An alternative measure of university competitiveness, drawn from complexity science, captures the highly dynamical way in which universities engage in scientific subjects. Building on a data set of 43,430 UK funded grants between 2006 and 2020, we analyse rankings of UK universities and investigate the effect of research competitiveness on grant income. When austerity was relaxed in 2015 the 
-    
-[^6]: 双机器学习和批自适应实验设计
-
-    Double machine learning and design in batch adaptive experiments. (arXiv:2309.15297v1 [stat.ME])
-
-    [http://arxiv.org/abs/2309.15297](http://arxiv.org/abs/2309.15297)
-
-    本文提出了一种双机器学习和批自适应实验设计方法。通过汇总批次间的信息，我们提出了一个半参数治疗效应估计器，优于汇总单个批次估计的方法。我们还解决了在实验后期批次中学习倾向得分的设计问题，并证明了该方法能够以一定的收敛速率达到目标精度。
+    提出了一系列无穷可微函数来逼近非光滑函数，并建立了逼近速率，提供了应用示例。
 
     
 
-    我们考虑了一个至少有两个阶段或批次，每个批次有$O(N)$个受试对象的实验。首先，我们提出了一种半参数治疗效应估计器，能够在批次间高效地汇总信息，并且在渐近情况下优于汇总单个批次估计的替代方法。然后，我们考虑了设计问题，即学习在实验后期批次中为了最大化该估计器的渐近精度而分配治疗的倾向得分。对于两个常见的因果估计量，我们使用之前批次的观测来估计这个精度，然后解决一个有限维的凹最大化问题，以自适应地学习灵活的倾向得分，在每个批次中以$O_p(N^{-1/4})$的速率收敛到适当定义的极值点。通过扩展双机器学习框架，我们证明了只要干扰函数的估计以$o_p(N^
+    为了解决涉及非光滑函数的理论研究中的困难，我们提出了一系列无穷可微函数来逼近所考虑的非光滑函数。我们建立了一个逼近速率，并提供了其应用的示例。
 
-    We consider an experiment with at least two stages or batches and $O(N)$ subjects per batch. First, we propose a semiparametric treatment effect estimator that efficiently pools information across the batches, and show it asymptotically dominates alternatives that aggregate single batch estimates. Then, we consider the design problem of learning propensity scores for assigning treatment in the later batches of the experiment to maximize the asymptotic precision of this estimator. For two common causal estimands, we estimate this precision using observations from previous batches, and then solve a finite-dimensional concave maximization problem to adaptively learn flexible propensity scores that converge to suitably defined optima in each batch at rate $O_p(N^{-1/4})$. By extending the framework of double machine learning, we show this rate suffices for our pooled estimator to attain the targeted precision after each batch, as long as nuisance function estimates converge at rate $o_p(N^
+    To tackle difficulties for theoretical studies in situations involving nonsmooth functions, we propose a sequence of infinitely differentiable functions to approximate the nonsmooth function under consideration. A rate of approximation is established and an illustration of its application is then provided.
     
-[^7]: 一个私营垄断保险公司的社群评级的理论基础：框架、监管和数值分析。
+[^4]: 气候变化减缓模型中的代际公平：随机利率引入不利影响，但（非线性）融资成本可以改善代际公平。
 
-    Theoretical Foundations of Community Rating by a Private Monopolist Insurer: Framework, Regulation, and Numerical Analysis. (arXiv:2309.15269v1 [econ.TH])
+    Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity. (arXiv:2309.16186v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2309.15269](http://arxiv.org/abs/2309.15269)
+    [http://arxiv.org/abs/2309.16186](http://arxiv.org/abs/2309.16186)
 
-    本文通过斯蒂格利茨模型建立了社群评级的理论框架，证明了最优保费满足逆弹性规则，并通过数值分析显示在监管下，赔偿的10%增加对其他变量的影响很小。
-
-    
-
-    社群评级是一种政策，无论风险因素如何，都要求统一保费。本文将重点放在单合同解释上，我们使用斯蒂格利茨（1977）的垄断模型建立了社群评级的理论框架，其中存在着一个连续的代理人群体。我们展示了盈利条件，并证明，在温和的正则条件下，最优保费是唯一的，并满足逆弹性规则。我们的数值分析使用现实参数值，显示在监管下，赔偿的10%增加对其他变量的影响很小。
-
-    Community rating is a policy that mandates uniform premium regardless of the risk factors. In this paper, our focus narrows to the single contract interpretation wherein we establish a theoretical framework for community rating using Stiglitz's (1977) monopoly model in which there is a continuum of agents. We exhibit profitability conditions and show that, under mild regularity conditions, the optimal premium is unique and satisfies the inverse elasticity rule. Our numerical analysis, using realistic parameter values, reveals that under regulation, a 10% increase in indemnity is possible with minimal impact on other variables.
-    
-[^8]: 具有多维比较损失厌恶的最优停止
-
-    Optimal Stopping with Multi-Dimensional Comparative Loss Aversion. (arXiv:2309.14555v1 [cs.GT])
-
-    [http://arxiv.org/abs/2309.14555](http://arxiv.org/abs/2309.14555)
-
-    多维模型中的最优停止问题与一维模型有明显区别，包括竞争比的相变现象和随机顺序与最坏情况问题上的改进
+    本论文通过引入随机利率模型和非线性融资成本来探讨气候变化减缓模型中的代际公平问题。研究结果表明，最优的随机减排路径可能会增加成本和风险相关的代际不平等，但通过融资成本的引入可以改善这种情况。
 
     
 
-    尽管具有相同基本预言家不等式设置和损失厌恶模型，我们的多维模型的结论与Kleinberg等人的一维模型有很大区别。例如，Kleinberg等人给出了在线决策者可以达到的竞争比的紧密闭合形式，作为$\lambda$的函数，对于任何$\lambda\geq 0$。在我们的多维模型中，存在一个明显的相变：如果$k$表示维度的数量，则当$\lambda\cdot (k-1)\geq 1$时，不可能有非平凡的竞争比。另一方面，当$\lambda\cdot (k-1) < 1$时，我们给出了可达到的竞争比的紧密界限（类似于Kleinberg等人）。作为另一个例子，Kleinberg等人揭示了随机顺序与最坏情况预言家不等式问题的竞争比的指数改进。在我们的$k\geq 2$维模型中，差距最多为一个常数因子。我们揭示了几个其他关键的差异。
+    评估气候变化成本对于寻求向净零排放经济转型的有效路径至关重要，这对于稳定全球温度至任何水平都是必要的。考虑未来利率的不确定性，我们使用随机利率模型修正了DICE模型，来评估气候变化减缓的效益和成本。我们展示了最优的随机减排路径可能会增加与成本和风险相关的代际不平等。如果我们考虑到减排成本可能通过贷款来融资，那么更早实现净零是最优的选择。在这里，我们证明了引入减排成本融资可以降低未来现金流的变异性，这些现金流在不同的...
 
-    Despite having the same basic prophet inequality setup and model of loss aversion, conclusions in our multi-dimensional model differs considerably from the one-dimensional model of Kleinberg et al. For example, Kleinberg et al. gives a tight closed-form on the competitive ratio that an online decision-maker can achieve as a function of $\lambda$, for any $\lambda \geq 0$. In our multi-dimensional model, there is a sharp phase transition: if $k$ denotes the number of dimensions, then when $\lambda \cdot (k-1) \geq 1$, no non-trivial competitive ratio is possible. On the other hand, when $\lambda \cdot (k-1) < 1$, we give a tight bound on the achievable competitive ratio (similar to Kleinberg et al.). As another example, Kleinberg et al. uncovers an exponential improvement in their competitive ratio for the random-order vs. worst-case prophet inequality problem. In our model with $k\geq 2$ dimensions, the gap is at most a constant-factor. We uncover several additional key differences in 
+    Assessing the costs of climate change is essential to find efficient pathways for the transition to a net-zero emissions economy, which is necessary to stabilise global temperatures at any level. Evaluating benefits and costs of climate change mitigation the discount rate converting future damages and costs into net-present values influences timing of mitigation.  Here, we amend the DICE model with a stochastic interest rate model to consider uncertainty of discount rates in the future. Since the optimal abatement paths depends on interest rates, we assume a stochastic abatement model.  We show that the optimal stochastic abatement path can increase the intergenerational inequality with respect to cost and risk.  If we consider additionally that abatement costs may be funded via loans for which interest has to be paid, it is optimal to achieve net-zero earlier.  Here we show, that introducing funding of abatement cost reduces the variation of future cash-flows, which occur at different
     
-[^9]: 测量欧洲冠军联赛球队实力的方法
+[^5]: 自适应优先机制
 
-    Measuring the strengths of the teams in the UEFA Champions League. (arXiv:2304.09078v1 [stat.AP])
+    Adaptive Priority Mechanisms. (arXiv:2309.15997v1 [econ.TH])
 
-    [http://arxiv.org/abs/2304.09078](http://arxiv.org/abs/2304.09078)
+    [http://arxiv.org/abs/2309.15997](http://arxiv.org/abs/2309.15997)
 
-    本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。
-
-    
-
-    从2024/25赛季开始，《欧洲冠军联赛》将进行一个重大改革：传统的小组赛阶段将被一个联赛阶段所取代，其中的36个球队中每个队将参加8场比赛。由于排名仍然基于这些比赛的结果，公平需要确保每个俱乐部的对手实力相同。本文研究了当前使用的球队排名方法——UEFA俱乐部系数能否通过考虑国内联赛的比赛结果进行改进。根据我们的逻辑回归模型，Elo方法的一种变体在预测欧洲冠军联赛比赛方面具有更高的准确性。因此，我们建议欧洲足球协会（UEFA）仿效国际足球联合会世界排名的做法，改革系数的计算方式，以避免欧洲冠军联赛的新赛制中出现不平衡的赛程安排。
-
-    One of the most popular club football tournaments, the UEFA Champions League, will see a fundamental reform from the 2024/25 season: the traditional group stage will be replaced by one league where each of the 36 teams plays eight matches. Since the ranking is still based on the results of these matches, fairness requires guaranteeing that the opponents of the clubs are of the same strength. This paper investigates whether the currently used rating of the teams, the UEFA club coefficient, can be improved by taking the games played in the national leagues into account. According to our logistic regression models, a variant of the Elo method provides a higher accuracy in forecasting Champions League matches. Therefore, the Union of European Football Associations (UEFA) is encouraged to follow the example of the FIFA World Ranking and reform the calculation of the coefficients in order to avoid unbalanced schedules in the novel tournament format of the Champions League.
-    
-[^10]: 使用图形LASSO方法结合结构性断点下的预测
-
-    Combining Forecasts under Structural Breaks Using Graphical LASSO. (arXiv:2209.01697v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2209.01697](http://arxiv.org/abs/2209.01697)
-
-    本文提出了一种使用图形LASSO方法，在结构性断点下结合多种预测的新方法。该方法通过可视化预测误差网络并推广网络推断方法，实现了对共同因子结构和结构性断点的处理。通过因子图形LASSO方法将共同预测误差和个体误差区分开，并利用特异误差的精度矩阵稀疏性。同时，引入了基于制度的因子图形LASSO方法，允许在不同制度下修改因子载荷和特异精度矩阵。
+    本论文引入了自适应优先机制（APM），通过考虑代理人的得分和特征来优先排序，当市场不确定时，APM能够有效地分配资源。研究表明，在机构对多样性的风险中性或极度厌恶时，APM的效果最佳，同时使用最优的APM可以实现稳定匹配并获得可观的收益。
 
     
 
-    本文提出了一种基于机器学习算法图形LASSO(GL)的结合多种预测的新方法。我们将不同预测者的预测误差可视化成相互作用实体的网络，并在存在共同因子结构和结构性断点时，推广了网络推断方法。首先，我们注意到预测者通常使用共同信息，因此会出现共同的错误，使得预测误差具有共同因子结构。我们使用因子图形LASSO(FGL)方法来区分常见预测误差和特异误差，并利用后者的精度矩阵的稀疏性。其次，由于专家网络会随着时间的变化而变化，作为对不稳定环境（如经济衰退）的响应，假设预测组合权重是恒定的是不合理的。因此，我们提出了基于制度的因子图形LASSO(RD-FGL)方法，允许因子载荷和特异精度矩阵在不同制度下改变。
+    当市场不确定时，关心匹配质量和多样性的机构如何分配资源？我们引入自适应优先机制（APM），根据代理人的分数和特征对其进行优先排序。我们推导出一个最优的APM，并且证明万能的优先机制和配额机制仅在机构对多样性的风险中性或极度厌恶时才是最优的。当有多个机构时，每个机构使用最优的APM都是主导的，并实现唯一的稳定匹配。使用芝加哥公立学校的数据，我们发现采用APM可能获得可观的收益。
 
-    In this paper we develop a novel method of combining many forecasts based on a machine learning algorithm called Graphical LASSO (GL). We visualize forecast errors from different forecasters as a network of interacting entities and generalize network inference in the presence of common factor structure and structural breaks. First, we note that forecasters often use common information and hence make common mistakes, which makes the forecast errors exhibit common factor structures. We use the Factor Graphical LASSO (FGL, Lee and Seregina (2023)) to separate common forecast errors from the idiosyncratic errors and exploit sparsity of the precision matrix of the latter. Second, since the network of experts changes over time as a response to unstable environments such as recessions, it is unreasonable to assume constant forecast combination weights. Hence, we propose Regime-Dependent Factor Graphical LASSO (RD-FGL) that allows factor loadings and idiosyncratic precision matrix to be regime
+    How should authorities that care about match quality and diversity allocate resources when they are uncertain about the market? We introduce adaptive priority mechanisms (APM) that prioritize agents based on both their scores and characteristics. We derive an APM that is optimal and show that the ubiquitous priority and quota mechanisms are optimal if and only if the authority is risk-neutral or extremely risk-averse over diversity, respectively. With many authorities, each authority using the optimal APM is dominant and implements the unique stable matching. Using Chicago Public Schools data, we find that the gains from adopting APM may be considerable.
+    
+[^6]: 如何在平行趋势下进行因果面板分析：一项大规模再分析研究的教训
+
+    What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study. (arXiv:2309.15983v1 [stat.ME])
+
+    [http://arxiv.org/abs/2309.15983](http://arxiv.org/abs/2309.15983)
+
+    通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。
+
+    
+
+    双向固定效应模型在政治科学中的因果面板分析中普遍应用。然而，最近的方法论讨论挑战了其在存在异质治疗效应和平行趋势假设违反情况下的有效性。这一新兴的文献引入了多个估计器和诊断方法，导致实证研究人员在两个方面产生了困惑：基于双向固定效应模型的现有结果的可靠性和目前的最佳实践。为了解决这些问题，我们考察、复制和重新分析了三个领先政治科学期刊上共37篇运用观察面板数据和二元治疗的文章。使用六种新引入的异质治疗效应鲁棒估计器，我们发现尽管精确性可能受到影响，但基于双向固定效应估计的核心结论在很大程度上保持不变。然而，平行趋势假设的违反和统计力量不足仍然是可信推论的重要障碍。
+
+    Two-way fixed effects (TWFE) models are ubiquitous in causal panel analysis in political science. However, recent methodological discussions challenge their validity in the presence of heterogeneous treatment effects (HTE) and violations of the parallel trends assumption (PTA). This burgeoning literature has introduced multiple estimators and diagnostics, leading to confusion among empirical researchers on two fronts: the reliability of existing results based on TWFE models and the current best practices. To address these concerns, we examined, replicated, and reanalyzed 37 articles from three leading political science journals that employed observational panel data with binary treatments. Using six newly introduced HTE-robust estimators, we find that although precision may be affected, the core conclusions derived from TWFE estimates largely remain unchanged. PTA violations and insufficient statistical power, however, continue to be significant obstacles to credible inferences. Based 
+    
+[^7]: 气候金融中复杂网络的介绍
+
+    An Introduction to Complex Networks in Climate Finance. (arXiv:2309.15890v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2309.15890](http://arxiv.org/abs/2309.15890)
+
+    本研究介绍了气候金融中复杂投资者网络的结构和功能，以太阳能、风能和水能技术为例，使用网络方法研究低碳金融市场的复杂性，并探讨了复杂投资者动态的产生和影响。
+
+    
+
+    在这篇观点中，我们介绍了最近关于支持可持续发展努力的复杂投资者网络的结构和功能的研究。通过以太阳能、风能和水能技术为例，这篇观点探讨了低碳金融市场的复杂性，即将资金流向低碳技术的市场，使用网络方法研究其结构和动态。投资者被建模为节点，形成一个网络或更高级别的网络，通过边界连接，表示提供联合资金或与安全相关的保险或其他与投资相关的交互的项目。我们回顾了关于投资者网络的文献，尤其是在复杂网络的情况下，并解决了这一新兴领域中应用这些思想的领域。目前对现有资金场景中产生的复杂投资者动态尚不了解。这些动态有可能产生有趣的非线性现象。
+
+    In this perspective, we introduce recent research into the structure and function of complex investor networks supporting sustainability efforts. Using the case of solar, wind and hydro energy technologies, this perspective explores the complexity in low-carbon finance markets, defined as markets that direct capital flows towards low-carbon technologies, using network approaches to study their structure and dynamics. Investors are modeled as nodes which form a network or higher-order network connected by edges representing projects in which joint funding or security-related insurance was provided or other investment-related interaction occurred. We review the literature on investor networks generally, particularly in the case of complex networks, and address areas where these ideas were applied in this emerging field. The complex investor dynamics which emerge from the extant funding scenarios are not well understood. These dynamics have the potential to result in interesting non-linea
+    
+[^8]: 对于麦考尔工人来说，失业保险补偿自由发放给予及其可能的成本
+
+    Discretionary Extensions to Unemployment-Insurance Compensation and Some Potential Costs for a McCall Worker. (arXiv:2308.09783v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.09783](http://arxiv.org/abs/2308.09783)
+
+    研究了失业保险补偿的自由发放问题对于麦考尔工人的影响，发现政策制定者可以自行决定是否延长补贴，并发现延长补贴会使工人变得更加挑剔，在失业期间更加谨慎接受工作机会。研究还发现错误估计延长发放的成本较小。
+
+    
+
+    失业保险为符合条件的失业工人提供暂时的现金补贴。在经济衰退期间，补贴有时会被自行决定性地延长。在考虑暂时的补贴和连续的工作机会的模型中，研究了政策制定者可以自行决定是否延长补贴时，工人的保留工资。工人的最优劳动供给选择是由一系列随着剩余补贴周数递增的保留工资组成的。延长发放的可能性会提高整个保留工资序列，这意味着工人在失业期间接受工作机会时更加挑剔。研究了错误估计延长发放的概率和时间长度的福利后果。在数值例子中，错误估计的成本较小，这对于考虑经济衰退、病毒大流行、极端高温和自然灾害的政策制定者有影响。
+
+    Unemployment insurance provides temporary cash benefits to eligible unemployed workers. Benefits are sometimes extended by discretion during economic slumps. In a model that features temporary benefits and sequential job opportunities, a worker's reservation wages are studied when policymakers can make discretionary extensions to benefits. A worker's optimal labor-supply choice is characterized by a sequence of reservation wages that increases with weeks of remaining benefits. The possibility of an extension raises the entire sequence of reservation wages, meaning a worker is more selective when accepting job offers throughout their spell of unemployment. The welfare consequences of misperceiving the probability and length of an extension are investigated. In a numerical example, the costs of misperception are small, which has implications for policymakers considering economic slumps, virus pandemics, extreme heat, and natural disasters.
+    
+[^9]: 《雇主声誉与劳动市场:来自Glassdoor.com和Dice.com的证据》
+
+    Employer Reputation and the Labor Market: Evidence from Glassdoor.com and Dice.com. (arXiv:2305.02587v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.02587](http://arxiv.org/abs/2305.02587)
+
+    本研究使用Glassdoor.com和Dice.com的数据研究了雇主声誉对劳动市场的影响，发现雇主声誉的提高将影响其吸引工人的能力，尤其是当显示评分为“持续”时，这种影响对于私人、较小和不那么知名的企业最为突出。
+
+    
+
+    雇主声誉对劳动市场有何影响？我们使用从Glassdoor.com中收集的评论和Dice.com中的求职数据来研究这个问题。Glassdoor.com等劳动市场的机构通过众包来收集雇主信息，以解决工人在选择雇主时面临的信息问题。为了避免过多偏差，原始的众包雇主评级是在显示给求职者时进行了精加工后的。通过利用精加工的阈值，我们使用回归不连续性框架确定了Glassdoor评级的因果影响。我们记录了这种评级对劳动力市场需求和供给方面的影响。我们发现，雇主声誉对于雇主吸引工人的能力有影响，特别是当显示评分为“持续”时。雇主对评分超过精加工阈值的回应是发布更多的新职位和重新激活更多的工作职位。这种影响对私人、较小和不那么知名的企业最为突出。
+
+    How does employer reputation affect the labor market? We investigate this question using a novel dataset combining reviews from Glassdoor.com and job applications data from Dice.com. Labor market institutions such as Glassdoor.com crowd-sources information about employers to alleviate information problems faced by workers when choosing an employer. Raw crowd-sourced employer ratings are rounded when displayed to job seekers. By exploiting the rounding threshold, we identify the causal impact of Glassdoor ratings using a regression discontinuity framework. We document the effects of such ratings on both the demand and supply sides of the labor market. We find that displayed employer reputation affects an employer's ability to attract workers, especially when the displayed rating is "sticky." Employers respond to having a rating above the rounding threshold by posting more new positions and re-activating more job postings. The effects are the strongest for private, smaller, and less esta
+    
+[^10]: 带有 matroid-rank 估值的加权公平分配：单调性与策略稳定性。
+
+    Weighted Fair Division with Matroid-Rank Valuations: Monotonicity and Strategyproofness. (arXiv:2303.14454v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.14454](http://arxiv.org/abs/2303.14454)
+
+    本文研究在代理人权益具有 matroid-rank 估值的情况下公平分配不可分配物品的问题，通过推广先前的研究结果，提出了一类具有群组策略稳定性的加权加性福利规则。
+
+    
+
+    本文研究如何针对权益进行公平的不可分配物品分配问题。先前的研究表明，当普通代理人具有二元加性估值时，最大化的加权纳什福利规则符合资源、人口和权重单调性，满足群组策略稳定性，并且可以在多项式时间内实现。我们将这些结果推广到具有凸函数和 matroid-rank（也称为二元子模）估值的代理人组的加权加性福利规则类中。
+
+    We study the problem of fairly allocating indivisible goods to agents with weights corresponding to their entitlements. Previous work has shown that, when agents have binary additive valuations, the maximum weighted Nash welfare rule is resource-, population-, and weight-monotone, satisfies group-strategyproofness, and can be implemented in polynomial time. We generalize these results to the class of weighted additive welfarist rules with concave functions and agents with matroid-rank (also known as binary submodular) valuations.
+    
+[^11]: 使用新的处理方式进行政策学习
+
+    Policy Learning with New Treatments. (arXiv:2210.04703v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.04703](http://arxiv.org/abs/2210.04703)
+
+    本文研究了使用新的处理方式进行政策学习的问题，通过对处理反应的形状限制进行部分识别，提出了一种基于最小后悔准则比较不同政策的方法，并应用于肯尼亚农村电网连接的有针对性的补贴设计。
+
+    
+
+    我研究了决策者根据实验数据选择政策以在异质人群中分配处理方式的问题，该实验数据仅包括可能处理方式的子集。新的处理方式的效果是通过对处理反应的形状限制进行部分识别的。根据最小后悔准则比较不同的政策，并且我证明了人口决策问题的经验类比具有可行的线性和整数规划形式。我证明了估计政策的最大后悔收敛于最低的最大后悔，其速度是N^-1/2和实验数据中条件平均处理效应估计的速度的最大值。我应用我的结果设计了肯尼亚农村电网连接的有针对性的补贴，估计有97%的人口应该得到未在实验中实施的处理方式。
+
+    I study the problem of a decision maker choosing a policy which allocates treatment to a heterogeneous population on the basis of experimental data that includes only a subset of possible treatment values. The effects of new treatments are partially identified by shape restrictions on treatment response. Policies are compared according to the minimax regret criterion, and I show that the empirical analog of the population decision problem has a tractable linear- and integer-programming formulation. I prove the maximum regret of the estimated policy converges to the lowest possible maximum regret at a rate which is the maximum of N^-1/2 and the rate at which conditional average treatment effects are estimated in the experimental data. I apply my results to design targeted subsidies for electrical grid connections in rural Kenya, and estimate that 97% of the population should be given a treatment not implemented in the experiment.
+    
+[^12]: 辩说的比较静态
+
+    The comparative statics of persuasion. (arXiv:2204.07474v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2204.07474](http://arxiv.org/abs/2204.07474)
+
+    本论文主要研究了辩说模型中的比较静态问题，通过界定发信方中期回报变化的条件，确定了发信方在选择信号时会更倾向于选择具有更多信息量的信号。此外，论文还研究了发信方和接收方兴趣一致程度增加对比较静态的影响，并探讨了相关应用。
+
+    
+
+    在经典的辩说模型中，比较静态一直是一个未解决的问题。我们回答了这个问题，界定了哪些条件下发信方的中期回报变化会使其最优选择更具信息量的信号。我们的第一个定理确定了一个粗略概念的“增加凸性”，我们证明这个定理刻画了发信方中期回报变化使其最优选择更加信息量不减的情况。为了加强这个结论为“更具信息量”需要进一步的假设：我们的第二个定理明确了发信方中期回报的必要和充分条件，这个条件严格推广了文献中常见的“S”形状。我们确定了发信方和接收方兴趣一致程度增加会导致比较静态的条件，并研究了应用场景。
+
+    In the canonical persuasion model, comparative statics has been an open question. We answer it, delineating which shifts of the sender's interim payoff lead her optimally to choose a more informative signal. Our first theorem identifies a coarse notion of 'increased convexity' that we show characterises those shifts of the sender's interim payoff that lead her optimally to choose no less informative signals. To strengthen this conclusion to 'more informative' requires further assumptions: our second theorem identifies the necessary and sufficient condition on the sender's interim payoff, which strictly generalises the 'S' shape commonly imposed in the literature. We identify conditions under which increased alignment of interests between sender and receiver lead to comparative statics, and study applications.
+    
+[^13]: 算法决策中的动态选择问题研究
+
+    Dynamic Selection in Algorithmic Decision-making. (arXiv:2108.12547v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2108.12547](http://arxiv.org/abs/2108.12547)
+
+    本文研究了算法决策中的动态选择问题，针对在线学习算法中数据的内生性导致的偏差提出了一种基于工具变量的纠正算法，并证明了该算法可以获得真实参数值和较低遗憾水平。研究还提供了统计推断的中心极限定理。
+
+    
+
+    本文识别和解决了在线学习算法中的动态选择问题，这些问题与内生数据有关。在上下文多臂赌博模型中，由于数据的内生性影响决策的选择，会产生一种新的偏差（自我实现偏差），从而影响到未来待收集和分析的数据的分布。我们提出了一种基于工具变量的算法，以纠正这种偏差。该算法可以获得真实参数值，并获得较低（类似对数的）遗憾水平。我们还证明了统计推断的中心极限定理。为了建立理论性质，我们开发了一个通用技术，以解开数据和行动之间的相互依赖关系。
+
+    This paper identifies and addresses dynamic selection problems in online learning algorithms with endogenous data. In a contextual multi-armed bandit model, a novel bias (self-fulfilling bias) arises because the endogeneity of the data influences the choices of decisions, affecting the distribution of future data to be collected and analyzed. We propose an instrumental-variable-based algorithm to correct for the bias. It obtains true parameter values and attains low (logarithmic-like) regret levels. We also prove a central limit theorem for statistical inference. To establish the theoretical properties, we develop a general technique that untangles the interdependence between data and actions.
+    
+[^14]: 鲁棒性回归不连续设计中的操纵问题
+
+    Manipulation-Robust Regression Discontinuity Designs. (arXiv:2009.07551v5 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2009.07551](http://arxiv.org/abs/2009.07551)
+
+    本研究提出了一种新的回归不连续设计的识别条件，解决了操纵变量可能导致的偏差问题，并提供了一种辅助假设来检测操纵。通过案例研究，我们展示了如何利用该方法解决实际问题。
+
+    
+
+    我们提出了一种回归不连续设计的新的识别条件。我们将Lee（2008）的局部随机化替换为其威胁的两个限制，即，操纵运行变量。此外，我们提供了McCrary（2008）诊断测试的第一个辅助假设来检测操纵。根据我们的辅助假设，我们推导出一种新颖的矩阵表达式，立即得出了Gerard、Rokkanen和Rothe（2020）的最坏情况界限，并增强了对目标参数的解释。我们强调了两个问题：一个被忽视的识别失败的来源，以及一个缺失的检测操纵的辅助假设。在案例研究中，我们利用制度细节和经济理论来说明我们解决这些问题的方法。
+
+    We present a new identification condition for regression discontinuity designs. We replace the local randomization of Lee (2008) with two restrictions on its threat, namely, the manipulation of the running variable. Furthermore, we provide the first auxiliary assumption of McCrary's (2008) diagnostic test to detect manipulation. Based on our auxiliary assumption, we derive a novel expression of moments that immediately implies the worst-case bounds of Gerard, Rokkanen, and Rothe (2020) and an enhanced interpretation of their target parameters. We highlight two issues: an overlooked source of identification failure, and a missing auxiliary assumption to detect manipulation. In the case studies, we illustrate our solution to these issues using institutional details and economic theories.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "General In-Hand Object Rotation with Vision and Touch. (arXiv:2309.09979v2 [cs.RO] UPDATED)",
+    "abstract": "We introduce RotateIt, a system that enables fingertip-based object rotation along multiple axes by leveraging multimodal sensory inputs. Our system is trained in simulation, where it has access to ground-truth object shapes and physical properties. Then we distill it to operate on realistic yet noisy simulated visuotactile and proprioceptive sensory inputs. These multimodal inputs are fused via a visuotactile transformer, enabling online inference of object shapes and physical properties during deployment. We show significant performance improvements over prior methods and the importance of visual and tactile sensing.",
+    "link": "http://arxiv.org/abs/2309.09979",
+    "context": "Title: General In-Hand Object Rotation with Vision and Touch. (arXiv:2309.09979v2 [cs.RO] UPDATED)\nAbstract: We introduce RotateIt, a system that enables fingertip-based object rotation along multiple axes by leveraging multimodal sensory inputs. Our system is trained in simulation, where it has access to ground-truth object shapes and physical properties. Then we distill it to operate on realistic yet noisy simulated visuotactile and proprioceptive sensory inputs. These multimodal inputs are fused via a visuotactile transformer, enabling online inference of object shapes and physical properties during deployment. We show significant performance improvements over prior methods and the importance of visual and tactile sensing.",
+    "path": "papers/23/09/2309.09979.json",
+    "total_tokens": 723,
+    "translated_title": "具备视觉和触觉的手中物体通用旋转",
+    "translated_abstract": "我们介绍了一个名为RotateIt的系统，通过利用多模态感知输入，使指尖能够在多个轴上进行物体旋转。我们的系统在仿真环境中进行训练，其中可以获取物体的真实形状和物理属性。然后我们将其简化为在真实但噪声干扰下的模拟触觉和本体感知输入。这些多模态输入通过视觉触觉变换器进行融合，使得在部署过程中可以进行物体形状和物理属性的在线推断。我们展示了相比以前的方法的显著性能改进，并且证明了视觉和触觉感知的重要性。",
+    "tldr": "本研究介绍了一个能够通过视觉和触觉感知实现手中物体通用旋转的系统，通过训练和模拟推断物体的形状和物理属性，并在实际部署中展示了显著的性能提升。",
+    "en_tdlr": "This research introduces a system that enables general in-hand object rotation using visual and tactile sensing, training and simulating to infer object shape and physical properties, and demonstrating significant performance improvement in real-world deployment."
+}

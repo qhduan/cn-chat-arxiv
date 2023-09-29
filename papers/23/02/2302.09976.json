@@ -1,0 +1,11 @@
+{
+    "title": "Discouraging posterior collapse in hierarchical Variational Autoencoders using context. (arXiv:2302.09976v2 [cs.LG] UPDATED)",
+    "abstract": "Hierarchical Variational Autoencoders (VAEs) are among the most popular likelihood-based generative models. There is a consensus that the top-down hierarchical VAEs allow effective learning of deep latent structures and avoid problems like posterior collapse. Here, we show that this is not necessarily the case, and the problem of collapsing posteriors remains. To discourage this issue, we propose a deep hierarchical VAE with a context on top. Specifically, we use a Discrete Cosine Transform to obtain the last latent variable. In a series of experiments, we observe that the proposed modification allows us to achieve better utilization of the latent space and does not harm the model's generative abilities.",
+    "link": "http://arxiv.org/abs/2302.09976",
+    "context": "Title: Discouraging posterior collapse in hierarchical Variational Autoencoders using context. (arXiv:2302.09976v2 [cs.LG] UPDATED)\nAbstract: Hierarchical Variational Autoencoders (VAEs) are among the most popular likelihood-based generative models. There is a consensus that the top-down hierarchical VAEs allow effective learning of deep latent structures and avoid problems like posterior collapse. Here, we show that this is not necessarily the case, and the problem of collapsing posteriors remains. To discourage this issue, we propose a deep hierarchical VAE with a context on top. Specifically, we use a Discrete Cosine Transform to obtain the last latent variable. In a series of experiments, we observe that the proposed modification allows us to achieve better utilization of the latent space and does not harm the model's generative abilities.",
+    "path": "papers/23/02/2302.09976.json",
+    "total_tokens": 753,
+    "translated_title": "使用上下文抑制层级变分自编码器中的后验坍塌问题",
+    "translated_abstract": "层级变分自编码器(VAEs)是最为流行的基于似然的生成模型之一。人们普遍认为自顶向下的层级VAEs可以有效地学习深层潜在结构并避免后验坍塌等问题。然而，我们发现这并不一定成立，后验坍塌问题仍然存在。为了避免这个问题，我们提出了一种具有上下文的深层级VAE。具体而言，我们使用离散余弦变换来获取最后一个潜在变量。在一系列实验中，我们观察到所提出的修改可以更好地利用潜在空间，并且不会损害模型的生成能力。",
+    "tldr": "本研究提出了一种具有上下文的深层级变分自编码器，用于抑制后验坍塌问题。实验证明，该修改可以更好地利用潜在空间并且不会影响模型的生成能力。"
+}

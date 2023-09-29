@@ -1,0 +1,11 @@
+{
+    "title": "Deep Learning the Efficient Frontier of Convex Vector Optimization Problems. (arXiv:2205.07077v3 [math.OC] UPDATED)",
+    "abstract": "In this paper, we design a neural network architecture to approximate the weakly efficient frontier of convex vector optimization problems (CVOP) satisfying Slater's condition. The proposed machine learning methodology provides both an inner and outer approximation of the weakly efficient frontier, as well as an upper bound to the error at each approximated efficient point. In numerical case studies we demonstrate that the proposed algorithm is effectively able to approximate the true weakly efficient frontier of CVOPs. This remains true even for large problems (i.e., many objectives, variables, and constraints) and thus overcoming the curse of dimensionality.",
+    "link": "http://arxiv.org/abs/2205.07077",
+    "context": "Title: Deep Learning the Efficient Frontier of Convex Vector Optimization Problems. (arXiv:2205.07077v3 [math.OC] UPDATED)\nAbstract: In this paper, we design a neural network architecture to approximate the weakly efficient frontier of convex vector optimization problems (CVOP) satisfying Slater's condition. The proposed machine learning methodology provides both an inner and outer approximation of the weakly efficient frontier, as well as an upper bound to the error at each approximated efficient point. In numerical case studies we demonstrate that the proposed algorithm is effectively able to approximate the true weakly efficient frontier of CVOPs. This remains true even for large problems (i.e., many objectives, variables, and constraints) and thus overcoming the curse of dimensionality.",
+    "path": "papers/22/05/2205.07077.json",
+    "total_tokens": 663,
+    "translated_title": "深度学习凸向量优化问题的高效前沿",
+    "translated_abstract": "本文设计了一种神经网络架构，用于逼近满足Slater条件的凸向量优化问题（CVOP）的弱效前沿。所提出的机器学习方法既提供了弱效前沿的内部和外部逼近，又给出了每个逼近的有效点上误差的上界。在数值案例研究中，我们证明了该算法能够有效地逼近CVOP的真实弱效前沿，即使是对于大规模问题（即多目标、变量和约束），克服了维度灾难。",
+    "tldr": "本文设计了一种神经网络架构，用于逼近满足Slater条件的凸向量优化问题的弱效前沿，并成功克服了维度灾难。"
+}

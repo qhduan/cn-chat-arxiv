@@ -1,0 +1,12 @@
+{
+    "title": "Nonparametric plug-in classifier for multiclass classification of S.D.E. paths. (arXiv:2212.10259v2 [math.ST] UPDATED)",
+    "abstract": "We study the multiclass classification problem where the features come from the mixture of time-homogeneous diffusions. Specifically, the classes are discriminated by their drift functions while the diffusion coefficient is common to all classes and unknown. In this framework, we build a plug-in classifier which relies on nonparametric estimators of the drift and diffusion functions. We first establish the consistency of our classification procedure under mild assumptions and then provide rates of cnvergence under different set of assumptions. Finally, a numerical study supports our theoretical findings.",
+    "link": "http://arxiv.org/abs/2212.10259",
+    "context": "Title: Nonparametric plug-in classifier for multiclass classification of S.D.E. paths. (arXiv:2212.10259v2 [math.ST] UPDATED)\nAbstract: We study the multiclass classification problem where the features come from the mixture of time-homogeneous diffusions. Specifically, the classes are discriminated by their drift functions while the diffusion coefficient is common to all classes and unknown. In this framework, we build a plug-in classifier which relies on nonparametric estimators of the drift and diffusion functions. We first establish the consistency of our classification procedure under mild assumptions and then provide rates of cnvergence under different set of assumptions. Finally, a numerical study supports our theoretical findings.",
+    "path": "papers/22/12/2212.10259.json",
+    "total_tokens": 713,
+    "translated_title": "针对随机微分方程路径的多类别分类的非参数插件分类器研究",
+    "translated_abstract": "我们研究了多类别分类问题，其中特征来自于时间齐次扩散的混合。具体来说，通过它们的漂移函数来区分不同的类别，而扩散系数对于所有类别都是相同且未知的。在这个框架下，我们构建了一个基于漂移函数和扩散函数的非参数估计的插件分类器。我们首先在温和假设下证明了我们的分类过程的一致性，然后在不同的假设集下给出了收敛速度。最后，一个数值研究支持我们的理论发现。",
+    "tldr": "这篇论文研究了针对随机微分方程路径的多类别分类问题，提出了一种非参数插件分类器，并在理论上证明了分类过程的一致性和收敛速度，并通过数值研究验证了理论发现。",
+    "en_tdlr": "This paper investigates the multiclass classification problem for S.D.E. paths, proposes a nonparametric plug-in classifier, and provides theoretical proofs for the consistency and convergence rate of the classification process, which are supported by numerical studies."
+}

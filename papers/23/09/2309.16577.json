@@ -1,0 +1,11 @@
+{
+    "title": "Compilation as a Defense: Enhancing DL Model Attack Robustness via Tensor Optimization. (arXiv:2309.16577v1 [cs.LG])",
+    "abstract": "Adversarial Machine Learning (AML) is a rapidly growing field of security research, with an often overlooked area being model attacks through side-channels. Previous works show such attacks to be serious threats, though little progress has been made on efficient remediation strategies that avoid costly model re-engineering. This work demonstrates a new defense against AML side-channel attacks using model compilation techniques, namely tensor optimization. We show relative model attack effectiveness decreases of up to 43% using tensor optimization, discuss the implications, and direction of future work.",
+    "link": "http://arxiv.org/abs/2309.16577",
+    "context": "Title: Compilation as a Defense: Enhancing DL Model Attack Robustness via Tensor Optimization. (arXiv:2309.16577v1 [cs.LG])\nAbstract: Adversarial Machine Learning (AML) is a rapidly growing field of security research, with an often overlooked area being model attacks through side-channels. Previous works show such attacks to be serious threats, though little progress has been made on efficient remediation strategies that avoid costly model re-engineering. This work demonstrates a new defense against AML side-channel attacks using model compilation techniques, namely tensor optimization. We show relative model attack effectiveness decreases of up to 43% using tensor optimization, discuss the implications, and direction of future work.",
+    "path": "papers/23/09/2309.16577.json",
+    "total_tokens": 709,
+    "translated_title": "以编译为防御：通过张量优化增强深度学习模型的攻击鲁棒性",
+    "translated_abstract": "对抗机器学习(AML)是一个快速发展的安全研究领域，其中常被忽视的领域是通过侧信道进行模型攻击。此前的工作表明这种攻击是严重威胁，但在避免昂贵的模型重新设计的高效补救策略方面进展甚微。本文展示了一种新的对抗AML侧信道攻击的防御策略，利用模型编译技术，即张量优化。我们通过张量优化展示了攻击效果的相对降低达43％，讨论了其含义和未来研究方向。",
+    "tldr": "本文通过使用张量优化的模型编译技术，提出了一种新的防御对抗机器学习侧信道攻击的方法，相对效果降低了43％。"
+}

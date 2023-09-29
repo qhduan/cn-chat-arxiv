@@ -1,0 +1,11 @@
+{
+    "title": "Physics-Preserving AI-Accelerated Simulations of Plasma Turbulence. (arXiv:2309.16400v1 [physics.comp-ph])",
+    "abstract": "Turbulence in fluids, gases, and plasmas remains an open problem of both practical and fundamental importance. Its irreducible complexity usually cannot be tackled computationally in a brute-force style. Here, we combine Large Eddy Simulation (LES) techniques with Machine Learning (ML) to retain only the largest dynamics explicitly, while small-scale dynamics are described by an ML-based sub-grid-scale model. Applying this novel approach to self-driven plasma turbulence allows us to remove large parts of the inertial range, reducing the computational effort by about three orders of magnitude, while retaining the statistical physical properties of the turbulent system.",
+    "link": "http://arxiv.org/abs/2309.16400",
+    "context": "Title: Physics-Preserving AI-Accelerated Simulations of Plasma Turbulence. (arXiv:2309.16400v1 [physics.comp-ph])\nAbstract: Turbulence in fluids, gases, and plasmas remains an open problem of both practical and fundamental importance. Its irreducible complexity usually cannot be tackled computationally in a brute-force style. Here, we combine Large Eddy Simulation (LES) techniques with Machine Learning (ML) to retain only the largest dynamics explicitly, while small-scale dynamics are described by an ML-based sub-grid-scale model. Applying this novel approach to self-driven plasma turbulence allows us to remove large parts of the inertial range, reducing the computational effort by about three orders of magnitude, while retaining the statistical physical properties of the turbulent system.",
+    "path": "papers/23/09/2309.16400.json",
+    "total_tokens": 791,
+    "translated_title": "等离子体湍流的物理保持的AI加速模拟",
+    "translated_abstract": "流体、气体和等离子体中的湍流问题一直是一个既重要又没有解答的问题。由于其无法简单地通过计算处理其不可简化的复杂性。本文结合了大涡模拟 (LES) 技术和机器学习 (ML) 技术，仅保留最大的动力学显式地展示，而小尺度动力学则通过基于ML的子网格模型来描述。将这种新颖的方法应用于自驱动的等离子体湍流，能够去除大部分惯性范围，将计算量降低了大约三个数量级，同时保留了湍流系统的统计物理性质。",
+    "tldr": "该论文提出了一种将大涡模拟技术与机器学习相结合的方法，用于模拟等离子体湍流。通过这种方法可以显式地保留湍流系统的大尺度动力学，并利用机器学习模型描述小尺度动力学，从而大幅度减少计算量并保持湍流系统的统计物理性质。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Improving Robustness of Deep Convolutional Neural Networks via Multiresolution Learning. (arXiv:2309.13752v2 [cs.LG] UPDATED)",
+    "abstract": "The current learning process of deep learning, regardless of any deep neural network (DNN) architecture and/or learning algorithm used, is essentially a single resolution training. We explore multiresolution learning and show that multiresolution learning can significantly improve robustness of DNN models for both 1D signal and 2D signal (image) prediction problems. We demonstrate this improvement in terms of both noise and adversarial robustness as well as with small training dataset size. Our results also suggest that it may not be necessary to trade standard accuracy for robustness with multiresolution learning, which is, interestingly, contrary to the observation obtained from the traditional single resolution learning setting.",
+    "link": "http://arxiv.org/abs/2309.13752",
+    "context": "Title: Improving Robustness of Deep Convolutional Neural Networks via Multiresolution Learning. (arXiv:2309.13752v2 [cs.LG] UPDATED)\nAbstract: The current learning process of deep learning, regardless of any deep neural network (DNN) architecture and/or learning algorithm used, is essentially a single resolution training. We explore multiresolution learning and show that multiresolution learning can significantly improve robustness of DNN models for both 1D signal and 2D signal (image) prediction problems. We demonstrate this improvement in terms of both noise and adversarial robustness as well as with small training dataset size. Our results also suggest that it may not be necessary to trade standard accuracy for robustness with multiresolution learning, which is, interestingly, contrary to the observation obtained from the traditional single resolution learning setting.",
+    "path": "papers/23/09/2309.13752.json",
+    "total_tokens": 800,
+    "translated_title": "通过多分辨率学习提高深度卷积神经网络的鲁棒性",
+    "translated_abstract": "当前的深度学习过程，无论使用哪种深度神经网络（DNN）架构和/或学习算法，本质上都是单分辨率训练。我们探索了多分辨率学习，并表明多分辨率学习可以显著提高1D信号和2D信号（图像）预测问题的DNN模型的鲁棒性。我们通过噪声和对抗鲁棒性以及小训练数据集大小来展示这种改进。我们的结果还表明，通过多分辨率学习，不需要牺牲标准准确性来获得鲁棒性，这与传统的单分辨率学习设置的观察结果恰恰相反。",
+    "tldr": "本研究通过多分辨率学习方式，显著提高了深度卷积神经网络对于1D信号和2D信号（图像）预测问题的鲁棒性，并发现在这种学习方式下，并不需要牺牲准确性来获得鲁棒性。",
+    "en_tdlr": "This research improves the robustness of deep convolutional neural networks for 1D and 2D signal prediction problems by using multiresolution learning, and finds that it is not necessary to sacrifice accuracy for robustness in this learning paradigm."
+}

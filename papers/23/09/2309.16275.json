@@ -1,0 +1,12 @@
+{
+    "title": "UPB @ ACTI: Detecting Conspiracies using fine tuned Sentence Transformers. (arXiv:2309.16275v1 [cs.CL])",
+    "abstract": "Conspiracy theories have become a prominent and concerning aspect of online discourse, posing challenges to information integrity and societal trust. As such, we address conspiracy theory detection as proposed by the ACTI @ EVALITA 2023 shared task. The combination of pre-trained sentence Transformer models and data augmentation techniques enabled us to secure first place in the final leaderboard of both sub-tasks. Our methodology attained F1 scores of 85.71% in the binary classification and 91.23% for the fine-grained conspiracy topic classification, surpassing other competing systems.",
+    "link": "http://arxiv.org/abs/2309.16275",
+    "context": "Title: UPB @ ACTI: Detecting Conspiracies using fine tuned Sentence Transformers. (arXiv:2309.16275v1 [cs.CL])\nAbstract: Conspiracy theories have become a prominent and concerning aspect of online discourse, posing challenges to information integrity and societal trust. As such, we address conspiracy theory detection as proposed by the ACTI @ EVALITA 2023 shared task. The combination of pre-trained sentence Transformer models and data augmentation techniques enabled us to secure first place in the final leaderboard of both sub-tasks. Our methodology attained F1 scores of 85.71% in the binary classification and 91.23% for the fine-grained conspiracy topic classification, surpassing other competing systems.",
+    "path": "papers/23/09/2309.16275.json",
+    "total_tokens": 667,
+    "translated_title": "UPB @ ACTI: 使用经过微调的句子Transformer来检测阴谋论",
+    "translated_abstract": "阴谋论已成为在线讨论的重要和令人担忧的方面，对信息完整性和社会信任构成挑战。因此，我们将阴谋论检测作为ACTI @ EVALITA 2023共享任务的提议。使用预训练的句子Transformer模型和数据增强技术的组合使我们在两个子任务的最终排行榜中获得第一名。我们的方法在二元分类中获得了85.71%的F1分数，在精细阴谋主题分类中获得了91.23%的F1分数，超过其他竞争系统。",
+    "tldr": "使用经过微调的句子Transformer模型和数据增强技术，本研究在阴谋论检测任务中取得了很好的成绩，超过了其他竞争系统。",
+    "en_tdlr": "This study achieved good performance in conspiracy theory detection by utilizing fine-tuned sentence Transformer models and data augmentation techniques, surpassing other competing systems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Recent Advances of Differential Privacy in Centralized Deep Learning: A Systematic Survey. (arXiv:2309.16398v1 [cs.LG])",
+    "abstract": "Differential Privacy has become a widely popular method for data protection in machine learning, especially since it allows formulating strict mathematical privacy guarantees. This survey provides an overview of the state-of-the-art of differentially private centralized deep learning, thorough analyses of recent advances and open problems, as well as a discussion of potential future developments in the field. Based on a systematic literature review, the following topics are addressed: auditing and evaluation methods for private models, improvements of privacy-utility trade-offs, protection against a broad range of threats and attacks, differentially private generative models, and emerging application domains.",
+    "link": "http://arxiv.org/abs/2309.16398",
+    "context": "Title: Recent Advances of Differential Privacy in Centralized Deep Learning: A Systematic Survey. (arXiv:2309.16398v1 [cs.LG])\nAbstract: Differential Privacy has become a widely popular method for data protection in machine learning, especially since it allows formulating strict mathematical privacy guarantees. This survey provides an overview of the state-of-the-art of differentially private centralized deep learning, thorough analyses of recent advances and open problems, as well as a discussion of potential future developments in the field. Based on a systematic literature review, the following topics are addressed: auditing and evaluation methods for private models, improvements of privacy-utility trade-offs, protection against a broad range of threats and attacks, differentially private generative models, and emerging application domains.",
+    "path": "papers/23/09/2309.16398.json",
+    "total_tokens": 757,
+    "translated_title": "集中式深度学习中差分隐私的最新进展：系统性概述",
+    "translated_abstract": "差分隐私已成为机器学习中广受欢迎的数据保护方法，特别是因为它允许制定严格的数学隐私保证。本调查概述了差分隐私集中式深度学习的现状，对最新进展和开放问题进行了全面分析，并讨论了领域潜在的未来发展。根据系统性文献综述所示，讨论了以下主题：私有模型的审计和评估方法，隐私效用权衡的改进，对广泛威胁和攻击的保护，差分隐私生成模型以及新兴应用领域。",
+    "tldr": "本调查概述了差分隐私在集中式深度学习中的最新进展，包括审计和评估方法、隐私效用权衡的改进、对各种威胁和攻击的保护、差分隐私生成模型以及新兴应用领域。",
+    "en_tdlr": "This survey provides an overview of the recent advances of differential privacy in centralized deep learning, including auditing and evaluation methods, improvements of privacy-utility trade-offs, protection against various threats and attacks, differentially private generative models, and emerging application domains."
+}

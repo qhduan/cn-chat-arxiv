@@ -1,0 +1,12 @@
+{
+    "title": "TraCE: Trajectory Counterfactual Explanation Scores. (arXiv:2309.15965v1 [cs.LG])",
+    "abstract": "Counterfactual explanations, and their associated algorithmic recourse, are typically leveraged to understand, explain, and potentially alter a prediction coming from a black-box classifier. In this paper, we propose to extend the use of counterfactuals to evaluate progress in sequential decision making tasks. To this end, we introduce a model-agnostic modular framework, TraCE (Trajectory Counterfactual Explanation) scores, which is able to distill and condense progress in highly complex scenarios into a single value. We demonstrate TraCE's utility across domains by showcasing its main properties in two case studies spanning healthcare and climate change.",
+    "link": "http://arxiv.org/abs/2309.15965",
+    "context": "Title: TraCE: Trajectory Counterfactual Explanation Scores. (arXiv:2309.15965v1 [cs.LG])\nAbstract: Counterfactual explanations, and their associated algorithmic recourse, are typically leveraged to understand, explain, and potentially alter a prediction coming from a black-box classifier. In this paper, we propose to extend the use of counterfactuals to evaluate progress in sequential decision making tasks. To this end, we introduce a model-agnostic modular framework, TraCE (Trajectory Counterfactual Explanation) scores, which is able to distill and condense progress in highly complex scenarios into a single value. We demonstrate TraCE's utility across domains by showcasing its main properties in two case studies spanning healthcare and climate change.",
+    "path": "papers/23/09/2309.15965.json",
+    "total_tokens": 719,
+    "translated_title": "TraCE: 轨迹反事实解释分数",
+    "translated_abstract": "反事实解释和相关算法补救通常被用于理解、解释和可能改变来自黑盒分类器的预测。在本文中，我们提出将反事实扩展应用于评估顺序决策任务中的进展。为此，我们引入了一个模型无关的模块化框架TraCE（轨迹反事实解释）分数，能够将高度复杂场景中的进展凝练为一个单一值。我们通过展示在涵盖医疗保健和气候变化两个案例研究中TraCE的实用性来证明其主要特点。",
+    "tldr": "TraCE是一个模型无关的模块化框架，用于评估顺序决策任务中的进展。它能够将高度复杂场景中的进展凝练为一个单一值，并在医疗保健和气候变化领域展示了其实用性。",
+    "en_tdlr": "TraCE is a model-agnostic modular framework for evaluating progress in sequential decision making tasks. It condenses progress in highly complex scenarios into a single value and showcases its utility in the domains of healthcare and climate change."
+}
