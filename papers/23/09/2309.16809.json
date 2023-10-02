@@ -1,0 +1,11 @@
+{
+    "title": "GraB-sampler: Optimal Permutation-based SGD Data Sampler for PyTorch. (arXiv:2309.16809v1 [cs.LG])",
+    "abstract": "The online Gradient Balancing (GraB) algorithm greedily choosing the examples ordering by solving the herding problem using per-sample gradients is proved to be the theoretically optimal solution that guarantees to outperform Random Reshuffling. However, there is currently no efficient implementation of GraB for the community to easily use it.  This work presents an efficient Python library, $\\textit{GraB-sampler}$, that allows the community to easily use GraB algorithms and proposes 5 variants of the GraB algorithm. The best performance result of the GraB-sampler reproduces the training loss and test accuracy results while only in the cost of 8.7% training time overhead and 0.85% peak GPU memory usage overhead.",
+    "link": "http://arxiv.org/abs/2309.16809",
+    "context": "Title: GraB-sampler: Optimal Permutation-based SGD Data Sampler for PyTorch. (arXiv:2309.16809v1 [cs.LG])\nAbstract: The online Gradient Balancing (GraB) algorithm greedily choosing the examples ordering by solving the herding problem using per-sample gradients is proved to be the theoretically optimal solution that guarantees to outperform Random Reshuffling. However, there is currently no efficient implementation of GraB for the community to easily use it.  This work presents an efficient Python library, $\\textit{GraB-sampler}$, that allows the community to easily use GraB algorithms and proposes 5 variants of the GraB algorithm. The best performance result of the GraB-sampler reproduces the training loss and test accuracy results while only in the cost of 8.7% training time overhead and 0.85% peak GPU memory usage overhead.",
+    "path": "papers/23/09/2309.16809.json",
+    "total_tokens": 739,
+    "translated_title": "GraB-sampler: 用于PyTorch的基于排列的最优随机梯度下降数据采样器",
+    "translated_abstract": "通过使用逐个样本梯度解决聚集问题，在线梯度平衡（GraB）算法通过贪心地选择示例排序被证明是理论上的最优解决方案，保证优于随机重排。然而，目前还没有有效的GraB实现供社区轻松使用。这项工作提出了一个高效的Python库“GraB-sampler”，使得社区可以轻松使用GraB算法，并提出了5个变体的GraB算法。GraB-sampler的最佳性能结果在只增加8.7%的训练时间开销和0.85%的峰值显存使用开销的情况下，再现了训练损失和测试准确率结果。",
+    "tldr": "该论文介绍了一个名为GraB-sampler的Python库，为社区提供了使用GraB算法的便利，并提出了5个不同的变体。最佳性能结果证明了GraB-sampler在训练时间和显存使用上的开销非常小。"
+}

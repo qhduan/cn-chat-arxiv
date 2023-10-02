@@ -1,0 +1,11 @@
+{
+    "title": "Applications of Federated Learning in IoT for Hyper Personalisation. (arXiv:2309.16854v1 [cs.LG])",
+    "abstract": "Billions of IoT devices are being deployed, taking advantage of faster internet, and the opportunity to access more endpoints. Vast quantities of data are being generated constantly by these devices but are not effectively being utilised. Using FL training machine learning models over these multiple clients without having to bring it to a central server. We explore how to use such a model to implement ultra levels of personalization unlike before",
+    "link": "http://arxiv.org/abs/2309.16854",
+    "context": "Title: Applications of Federated Learning in IoT for Hyper Personalisation. (arXiv:2309.16854v1 [cs.LG])\nAbstract: Billions of IoT devices are being deployed, taking advantage of faster internet, and the opportunity to access more endpoints. Vast quantities of data are being generated constantly by these devices but are not effectively being utilised. Using FL training machine learning models over these multiple clients without having to bring it to a central server. We explore how to use such a model to implement ultra levels of personalization unlike before",
+    "path": "papers/23/09/2309.16854.json",
+    "total_tokens": 563,
+    "translated_title": "在物联网中应用联合学习实现超个性化",
+    "translated_abstract": "数十亿个物联网设备正在部署，利用更快的互联网和访问更多节点的机会。这些设备不断产生大量数据，但并没有得到有效利用。使用联合学习在多个客户端上训练机器学习模型，而无需将其传输到中央服务器。我们探讨如何利用这样的模型来实现超个性化水平，从而实现前所未有的个性化体验。",
+    "tldr": "在物联网中应用联合学习，解决了大规模数据利用问题，并实现了超个性化的个性化体验。"
+}

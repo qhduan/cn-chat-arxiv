@@ -1,0 +1,11 @@
+{
+    "title": "Harnessing Diverse Data for Global Disaster Prediction: A Multimodal Framework. (arXiv:2309.16747v1 [cs.LG])",
+    "abstract": "As climate change intensifies, the urgency for accurate global-scale disaster predictions grows. This research presents a novel multimodal disaster prediction framework, combining weather statistics, satellite imagery, and textual insights. We particularly focus on \"flood\" and \"landslide\" predictions, given their ties to meteorological and topographical factors. The model is meticulously crafted based on the available data and we also implement strategies to address class imbalance. While our findings suggest that integrating multiple data sources can bolster model performance, the extent of enhancement differs based on the specific nature of each disaster and their unique underlying causes.",
+    "link": "http://arxiv.org/abs/2309.16747",
+    "context": "Title: Harnessing Diverse Data for Global Disaster Prediction: A Multimodal Framework. (arXiv:2309.16747v1 [cs.LG])\nAbstract: As climate change intensifies, the urgency for accurate global-scale disaster predictions grows. This research presents a novel multimodal disaster prediction framework, combining weather statistics, satellite imagery, and textual insights. We particularly focus on \"flood\" and \"landslide\" predictions, given their ties to meteorological and topographical factors. The model is meticulously crafted based on the available data and we also implement strategies to address class imbalance. While our findings suggest that integrating multiple data sources can bolster model performance, the extent of enhancement differs based on the specific nature of each disaster and their unique underlying causes.",
+    "path": "papers/23/09/2309.16747.json",
+    "total_tokens": 762,
+    "translated_title": "利用多样数据进行全球灾害预测的多模式框架",
+    "translated_abstract": "随着气候变化的加剧，准确的全球规模灾害预测变得越来越紧迫。本研究提出了一种新颖的多模式灾害预测框架，结合了天气统计数据、卫星图像和文本信息。我们特别关注\"洪水\"和\"滑坡\"的预测，因为它们与气象和地形因素有关。该模型根据可用数据进行精细设计，并采用策略来解决类别不平衡问题。尽管我们的研究结果表明整合多个数据源可以增强模型性能，但增强的程度取决于每种灾害的具体性质和其独特的潜在原因。",
+    "tldr": "本研究提出了一种新颖的多模式灾害预测框架，结合了天气统计数据、卫星图像和文本信息。通过整合多个数据源，对于不同类型的灾害预测，模型的性能得到了增强。"
+}

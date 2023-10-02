@@ -1,0 +1,11 @@
+{
+    "title": "Graph-based Neural Weather Prediction for Limited Area Modeling. (arXiv:2309.17370v1 [cs.LG])",
+    "abstract": "The rise of accurate machine learning methods for weather forecasting is creating radical new possibilities for modeling the atmosphere. In the time of climate change, having access to high-resolution forecasts from models like these is also becoming increasingly vital. While most existing Neural Weather Prediction (NeurWP) methods focus on global forecasting, an important question is how these techniques can be applied to limited area modeling. In this work we adapt the graph-based NeurWP approach to the limited area setting and propose a multi-scale hierarchical model extension. Our approach is validated by experiments with a local model for the Nordic region.",
+    "link": "http://arxiv.org/abs/2309.17370",
+    "context": "Title: Graph-based Neural Weather Prediction for Limited Area Modeling. (arXiv:2309.17370v1 [cs.LG])\nAbstract: The rise of accurate machine learning methods for weather forecasting is creating radical new possibilities for modeling the atmosphere. In the time of climate change, having access to high-resolution forecasts from models like these is also becoming increasingly vital. While most existing Neural Weather Prediction (NeurWP) methods focus on global forecasting, an important question is how these techniques can be applied to limited area modeling. In this work we adapt the graph-based NeurWP approach to the limited area setting and propose a multi-scale hierarchical model extension. Our approach is validated by experiments with a local model for the Nordic region.",
+    "path": "papers/23/09/2309.17370.json",
+    "total_tokens": 676,
+    "translated_title": "基于图像神经网络的有限区域天气预测",
+    "translated_abstract": "高精度的机器学习方法在天气预报领域的应用为模拟大气的可能性带来了新的变革。在气候变化时代，获取像这样的高分辨率预报模型的能力变得越来越重要。虽然大多数现有的神经网络天气预报方法都是针对全球预测，但如何将这些技术应用于有限区域建模是一个重要问题。本文将基于图像的神经网络天气预测方法应用于有限区域，并提出了多尺度分层模型扩展。通过使用北欧地区的本地模型进行实验证实了我们的方法的有效性。",
+    "tldr": "该论文提出了一种基于图像神经网络的有限区域天气预测方法，并通过使用北欧地区的本地模型进行了验证。"
+}

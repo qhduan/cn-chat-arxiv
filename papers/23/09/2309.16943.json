@@ -1,0 +1,12 @@
+{
+    "title": "Physics-Informed Induction Machine Modelling. (arXiv:2309.16943v1 [cs.LG])",
+    "abstract": "This rapid communication devises a Neural Induction Machine (NeuIM) model, which pilots the use of physics-informed machine learning to enable AI-based electromagnetic transient simulations. The contributions are threefold: (1) a formation of NeuIM to represent the induction machine in phase domain; (2) a physics-informed neural network capable of capturing fast and slow IM dynamics even in the absence of data; and (3) a data-physics-integrated hybrid NeuIM approach which is adaptive to various levels of data availability. Extensive case studies validate the efficacy of NeuIM and in particular, its advantage over purely data-driven approaches.",
+    "link": "http://arxiv.org/abs/2309.16943",
+    "context": "Title: Physics-Informed Induction Machine Modelling. (arXiv:2309.16943v1 [cs.LG])\nAbstract: This rapid communication devises a Neural Induction Machine (NeuIM) model, which pilots the use of physics-informed machine learning to enable AI-based electromagnetic transient simulations. The contributions are threefold: (1) a formation of NeuIM to represent the induction machine in phase domain; (2) a physics-informed neural network capable of capturing fast and slow IM dynamics even in the absence of data; and (3) a data-physics-integrated hybrid NeuIM approach which is adaptive to various levels of data availability. Extensive case studies validate the efficacy of NeuIM and in particular, its advantage over purely data-driven approaches.",
+    "path": "papers/23/09/2309.16943.json",
+    "total_tokens": 770,
+    "translated_title": "物理可感知感测机模型",
+    "translated_abstract": "本研究提出了一种神经感应机（NeuIM）模型，通过使用物理可感知的机器学习来实现基于人工智能的电磁瞬态模拟。其贡献有三个方面：（1）形成了能够在相域中表示感应机的NeuIM；（2）一种能够捕捉快速和缓慢感应机动力学的物理可感知神经网络；和（3）一种数据-物理结合的混合NeuIM方法，能够适应不同数据可用性的情况。大量案例研究验证了NeuIM的效能，尤其是在纯数据驱动方法之上的优势。",
+    "tldr": "本研究提出了一种物理可感知感测机（NeuIM）模型，通过结合物理知识和机器学习技术实现了基于人工智能的电磁瞬态模拟，实现了快速和缓慢感应机动力学的捕捉，并且能够适应不同数据可用性的情况。",
+    "en_tdlr": "This study proposes a physics-informed induction machine (NeuIM) model that combines physics knowledge and machine learning techniques to enable AI-based electromagnetic transient simulations. It captures fast and slow induction machine dynamics, and can adapt to different levels of data availability."
+}

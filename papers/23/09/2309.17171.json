@@ -1,0 +1,11 @@
+{
+    "title": "Comparative Analysis of Named Entity Recognition in the Dungeons and Dragons Domain. (arXiv:2309.17171v1 [cs.CL])",
+    "abstract": "Many NLP tasks, although well-resolved for general English, face challenges in specific domains like fantasy literature. This is evident in Named Entity Recognition (NER), which detects and categorizes entities in text. We analyzed 10 NER models on 7 Dungeons and Dragons (D&D) adventure books to assess domain-specific performance. Using open-source Large Language Models, we annotated named entities in these books and evaluated each model's precision. Our findings indicate that, without modifications, Flair, Trankit, and Spacy outperform others in identifying named entities in the D&D context.",
+    "link": "http://arxiv.org/abs/2309.17171",
+    "context": "Title: Comparative Analysis of Named Entity Recognition in the Dungeons and Dragons Domain. (arXiv:2309.17171v1 [cs.CL])\nAbstract: Many NLP tasks, although well-resolved for general English, face challenges in specific domains like fantasy literature. This is evident in Named Entity Recognition (NER), which detects and categorizes entities in text. We analyzed 10 NER models on 7 Dungeons and Dragons (D&D) adventure books to assess domain-specific performance. Using open-source Large Language Models, we annotated named entities in these books and evaluated each model's precision. Our findings indicate that, without modifications, Flair, Trankit, and Spacy outperform others in identifying named entities in the D&D context.",
+    "path": "papers/23/09/2309.17171.json",
+    "total_tokens": 764,
+    "translated_title": "龙与地下城领域中命名实体识别的比较分析",
+    "translated_abstract": "许多自然语言处理任务，在通用英语中表现良好，但在奇幻文学等特定领域面临挑战。这在命名实体识别(NER)中尤为明显，NER可以检测和分类文本中的实体。我们分析了10个NER模型在7本龙与地下城(D&D)冒险书上的表现，以评估特定领域的性能。使用开源的大型语言模型，我们对这些书籍中的命名实体进行了标注，并评估了每个模型的准确率。我们的研究结果表明，在不做修改的情况下，Flair、Trankit和Spacy在识别龙与地下城背景中的命名实体方面优于其他模型。",
+    "tldr": "我们比较分析了领域特定的命名实体识别在龙与地下城领域的表现，发现在没有进行任何修改的情况下，Flair、Trankit和Spacy在龙与地下城背景中的命名实体识别方面表现最好。"
+}

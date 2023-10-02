@@ -1,0 +1,11 @@
+{
+    "title": "Dynamic Interpretability for Model Comparison via Decision Rules. (arXiv:2309.17095v1 [cs.LG])",
+    "abstract": "Explainable AI (XAI) methods have mostly been built to investigate and shed light on single machine learning models and are not designed to capture and explain differences between multiple models effectively. This paper addresses the challenge of understanding and explaining differences between machine learning models, which is crucial for model selection, monitoring and lifecycle management in real-world applications. We propose DeltaXplainer, a model-agnostic method for generating rule-based explanations describing the differences between two binary classifiers. To assess the effectiveness of DeltaXplainer, we conduct experiments on synthetic and real-world datasets, covering various model comparison scenarios involving different types of concept drift.",
+    "link": "http://arxiv.org/abs/2309.17095",
+    "context": "Title: Dynamic Interpretability for Model Comparison via Decision Rules. (arXiv:2309.17095v1 [cs.LG])\nAbstract: Explainable AI (XAI) methods have mostly been built to investigate and shed light on single machine learning models and are not designed to capture and explain differences between multiple models effectively. This paper addresses the challenge of understanding and explaining differences between machine learning models, which is crucial for model selection, monitoring and lifecycle management in real-world applications. We propose DeltaXplainer, a model-agnostic method for generating rule-based explanations describing the differences between two binary classifiers. To assess the effectiveness of DeltaXplainer, we conduct experiments on synthetic and real-world datasets, covering various model comparison scenarios involving different types of concept drift.",
+    "path": "papers/23/09/2309.17095.json",
+    "total_tokens": 751,
+    "translated_title": "通过决策规则进行模型比较的动态可解释性",
+    "translated_abstract": "可解释的人工智能（XAI）方法大多被用来研究和阐明单个机器学习模型，并没有被设计成能够有效捕捉和解释多个模型之间的差异。这篇论文解决了理解和解释机器学习模型之间差异的挑战，对于模型选择、监控和生命周期管理在现实世界应用中至关重要。我们提出了DeltaXplainer，一种模型无关的方法，用于生成基于规则的解释，描述两个二元分类器之间的差异。为了评估DeltaXplainer的有效性，我们在合成和实际数据集上进行了实验，涵盖了涉及不同类型概念漂移的各种模型比较场景。",
+    "tldr": "本文提出了DeltaXplainer，一种模型无关的方法，用于描述两个二元分类器之间的差异。通过实验验证了DeltaXplainer在涉及不同类型概念漂移的各种模型比较场景中的有效性。"
+}

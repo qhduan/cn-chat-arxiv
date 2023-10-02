@@ -1,0 +1,12 @@
+{
+    "title": "Relations Between Adjacency and Modularity Graph Partitioning. (arXiv:1505.03481v3 [stat.ML] UPDATED)",
+    "abstract": "This paper develops the exact linear relationship between the leading eigenvector of the unnormalized modularity matrix and the eigenvectors of the adjacency matrix. We propose a method for approximating the leading eigenvector of the modularity matrix, and we derive the error of the approximation. There is also a complete proof of the equivalence between normalized adjacency clustering and normalized modularity clustering. Numerical experiments show that normalized adjacency clustering can be as twice efficient as normalized modularity clustering.",
+    "link": "http://arxiv.org/abs/1505.03481",
+    "context": "Title: Relations Between Adjacency and Modularity Graph Partitioning. (arXiv:1505.03481v3 [stat.ML] UPDATED)\nAbstract: This paper develops the exact linear relationship between the leading eigenvector of the unnormalized modularity matrix and the eigenvectors of the adjacency matrix. We propose a method for approximating the leading eigenvector of the modularity matrix, and we derive the error of the approximation. There is also a complete proof of the equivalence between normalized adjacency clustering and normalized modularity clustering. Numerical experiments show that normalized adjacency clustering can be as twice efficient as normalized modularity clustering.",
+    "path": "papers/15/05/1505.03481.json",
+    "total_tokens": 764,
+    "translated_title": "邻接性和模块化图分割之间的关系",
+    "translated_abstract": "本文研究了不规范模块化矩阵的主特征向量与邻接矩阵的特征向量之间的精确线性关系。我们提出了一种逼近模块化矩阵主特征向量的方法，并推导了逼近误差。我们还给出了归一化邻接聚类与归一化模块化聚类之间的等价性证明。数字实验表明，归一化邻接聚类的效率可以是归一化模块化聚类的两倍。",
+    "tldr": "本文发现了邻接矩阵的特征向量与模块化矩阵的主特征向量之间的精确线性关系，并提出了一种逼近模块化矩阵主特征向量的方法。此外，还证明了归一化邻接聚类与归一化模块化聚类的等价性。实验结果显示，归一化邻接聚类的效率可以是归一化模块化聚类的两倍。",
+    "en_tdlr": "This paper establishes the precise linear relationship between the leading eigenvector of the unnormalized modularity matrix and the eigenvectors of the adjacency matrix. It also proposes a method for approximating the leading eigenvector of the modularity matrix and proves the equivalence between normalized adjacency clustering and normalized modularity clustering. Numerical experiments show that normalized adjacency clustering can be twice as efficient as normalized modularity clustering."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Multiple Different Explanations for Image Classifiers. (arXiv:2309.14309v2 [cs.CV] UPDATED)",
+    "abstract": "Existing explanation tools for image classifiers usually give only one single explanation for an image. For many images, however, both humans and image classifiers accept more than one explanation for the image label. Thus, restricting the number of explanations to just one severely limits the insight into the behavior of the classifier. In this paper, we describe an algorithm and a tool, REX, for computing multiple explanations of the output of a black-box image classifier for a given image. Our algorithm uses a principled approach based on causal theory. We analyse its theoretical complexity and provide experimental results showing that REX finds multiple explanations on 7 times more images than the previous work on the ImageNet-mini benchmark.",
+    "link": "http://arxiv.org/abs/2309.14309",
+    "context": "Title: Multiple Different Explanations for Image Classifiers. (arXiv:2309.14309v2 [cs.CV] UPDATED)\nAbstract: Existing explanation tools for image classifiers usually give only one single explanation for an image. For many images, however, both humans and image classifiers accept more than one explanation for the image label. Thus, restricting the number of explanations to just one severely limits the insight into the behavior of the classifier. In this paper, we describe an algorithm and a tool, REX, for computing multiple explanations of the output of a black-box image classifier for a given image. Our algorithm uses a principled approach based on causal theory. We analyse its theoretical complexity and provide experimental results showing that REX finds multiple explanations on 7 times more images than the previous work on the ImageNet-mini benchmark.",
+    "path": "papers/23/09/2309.14309.json",
+    "total_tokens": 688,
+    "translated_title": "图像分类器的多个不同解释",
+    "translated_abstract": "现有的图像分类器解释工具通常只会给出一种对于图像的解释。然而，对于许多图像来说，无论是人类还是图像分类器都接受多个解释来解释图像标签。因此，限制解释的数量只有一个严重限制了对分类器行为的洞察力。在本文中，我们描述了一种算法和工具REX，用于计算黑盒图像分类器对给定图像的输出的多个解释。我们的算法基于因果理论的可靠方法。我们分析了其理论复杂性，并提供了实验结果，显示REX在ImageNet-mini基准测试中找到的多个解释比之前的工作多7倍。",
+    "tldr": "这篇论文介绍了一种算法和工具，可以为图像分类器的输出计算多个解释，从而提高对分类器行为的洞察力。",
+    "en_tdlr": "This paper presents an algorithm and tool for computing multiple explanations for the output of an image classifier, enhancing insight into the classifier's behavior."
+}

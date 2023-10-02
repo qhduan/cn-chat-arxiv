@@ -1,0 +1,12 @@
+{
+    "title": "On Generating Explanations for Reinforcement Learning Policies: An Empirical Study. (arXiv:2309.16960v1 [cs.AI])",
+    "abstract": "In this paper, we introduce a set of \\textit{Linear Temporal Logic} (LTL) formulae designed to provide explanations for policies. Our focus is on crafting explanations that elucidate both the ultimate objectives accomplished by the policy and the prerequisites it upholds throughout its execution. These LTL-based explanations feature a structured representation, which is particularly well-suited for local-search techniques. The effectiveness of our proposed approach is illustrated through a simulated capture the flag environment. The paper concludes with suggested directions for future research.",
+    "link": "http://arxiv.org/abs/2309.16960",
+    "context": "Title: On Generating Explanations for Reinforcement Learning Policies: An Empirical Study. (arXiv:2309.16960v1 [cs.AI])\nAbstract: In this paper, we introduce a set of \\textit{Linear Temporal Logic} (LTL) formulae designed to provide explanations for policies. Our focus is on crafting explanations that elucidate both the ultimate objectives accomplished by the policy and the prerequisites it upholds throughout its execution. These LTL-based explanations feature a structured representation, which is particularly well-suited for local-search techniques. The effectiveness of our proposed approach is illustrated through a simulated capture the flag environment. The paper concludes with suggested directions for future research.",
+    "path": "papers/23/09/2309.16960.json",
+    "total_tokens": 648,
+    "translated_title": "生成强化学习策略解释的实证研究",
+    "translated_abstract": "本文引入了一组设计用于提供策略解释的线性时态逻辑（LTL）公式。我们的重点是构建既阐明策略所实现的最终目标又阐明其执行过程中所维持的前提条件的解释。这些基于LTL的解释具有结构化表示，特别适用于局部搜索技术。通过模拟的夺旗环境，证明了我们提出的方法的有效性。论文最后提出了未来研究的建议方向。",
+    "tldr": "本文通过引入一组线性时态逻辑（LTL）公式，介绍了一种生成强化学习策略解释的方法，并展示了其在模拟夺旗环境中的有效性。",
+    "en_tdlr": "This paper introduces an approach for generating explanations for reinforcement learning policies using a set of Linear Temporal Logic (LTL) formulae and demonstrates its effectiveness in a simulated capture the flag environment."
+}

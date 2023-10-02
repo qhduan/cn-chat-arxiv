@@ -1,0 +1,12 @@
+{
+    "title": "Statistical physics, Bayesian inference and neural information processing. (arXiv:2309.17006v1 [cond-mat.dis-nn])",
+    "abstract": "Lecture notes from the course given by Professor Sara A. Solla at the Les Houches summer school on \"Statistical physics of Machine Learning\". The notes discuss neural information processing through the lens of Statistical Physics. Contents include Bayesian inference and its connection to a Gibbs description of learning and generalization, Generalized Linear Models as a controlled alternative to backpropagation through time, and linear and non-linear techniques for dimensionality reduction.",
+    "link": "http://arxiv.org/abs/2309.17006",
+    "context": "Title: Statistical physics, Bayesian inference and neural information processing. (arXiv:2309.17006v1 [cond-mat.dis-nn])\nAbstract: Lecture notes from the course given by Professor Sara A. Solla at the Les Houches summer school on \"Statistical physics of Machine Learning\". The notes discuss neural information processing through the lens of Statistical Physics. Contents include Bayesian inference and its connection to a Gibbs description of learning and generalization, Generalized Linear Models as a controlled alternative to backpropagation through time, and linear and non-linear techniques for dimensionality reduction.",
+    "path": "papers/23/09/2309.17006.json",
+    "total_tokens": 661,
+    "translated_title": "统计物理、贝叶斯推断与神经信息处理",
+    "translated_abstract": "《统计物理机器学习》课程中Sara A. Solla教授讲座的讲义。讲义通过统计物理的视角探讨神经信息处理。内容包括贝叶斯推断及其与学习和泛化的Gibbs描述的关系，广义线性模型作为背景剔除法的可控替代方法，以及线性和非线性降维技术。",
+    "tldr": "该论文讨论了通过统计物理的视角来探索神经信息处理的课程讲义。主要内容包括贝叶斯推断与学习泛化的Gibbs描述的联系，广义线性模型作为背景剔除法的可控替代方法，以及线性和非线性降维技术。",
+    "en_tdlr": "This paper discusses lecture notes from a course that explores neural information processing through the lens of Statistical Physics. The main topics include the connection between Bayesian inference and a Gibbs description of learning and generalization, Generalized Linear Models as a controlled alternative to backpropagation through time, and linear and non-linear dimensionality reduction techniques."
+}

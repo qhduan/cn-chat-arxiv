@@ -1,0 +1,12 @@
+{
+    "title": "Control-Data Separation and Logical Condition Propagation for Efficient Inference on Probabilistic Programs. (arXiv:2101.01502v3 [cs.LG] UPDATED)",
+    "abstract": "We present a novel sampling framework for probabilistic programs. The framework combines two recent ideas -- \\emph{control-data separation} and \\emph{logical condition propagation} -- in a nontrivial manner so that the two ideas boost the benefits of each other. We implemented our algorithm on top of Anglican. The experimental results demonstrate our algorithm's efficiency, especially for programs with while loops and rare observations.",
+    "link": "http://arxiv.org/abs/2101.01502",
+    "context": "Title: Control-Data Separation and Logical Condition Propagation for Efficient Inference on Probabilistic Programs. (arXiv:2101.01502v3 [cs.LG] UPDATED)\nAbstract: We present a novel sampling framework for probabilistic programs. The framework combines two recent ideas -- \\emph{control-data separation} and \\emph{logical condition propagation} -- in a nontrivial manner so that the two ideas boost the benefits of each other. We implemented our algorithm on top of Anglican. The experimental results demonstrate our algorithm's efficiency, especially for programs with while loops and rare observations.",
+    "path": "papers/21/01/2101.01502.json",
+    "total_tokens": 624,
+    "translated_title": "控制-数据分离和逻辑条件传播用于概率程序的高效推理",
+    "translated_abstract": "我们提出了一种新颖的概率程序采样框架。该框架以一种非常复杂的方式将两个最新的思想——控制-数据分离和逻辑条件传播相结合，使得两个思想相互增强优势。我们在Anglican上实现了算法。实验结果表明，我们的算法在while循环和稀有观测的程序中尤其高效。",
+    "tldr": "本论文提出了一种新的概率程序采样框架，通过将控制-数据分离和逻辑条件传播相结合，实现了高效推理，并在使用while循环和稀有观测的程序中表现出了优势。",
+    "en_tdlr": "This paper proposes a novel sampling framework for probabilistic programs, which achieves efficient inference by combining control-data separation and logical condition propagation, and demonstrates advantages especially for programs with while loops and rare observations."
+}

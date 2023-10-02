@@ -1,0 +1,12 @@
+{
+    "title": "Framework and Model Analysis on Bengali Document Layout Analysis Dataset: BaDLAD. (arXiv:2309.16700v1 [cs.CV])",
+    "abstract": "This study focuses on understanding Bengali Document Layouts using advanced computer programs: Detectron2, YOLOv8, and SAM. We looked at lots of different Bengali documents in our study. Detectron2 is great at finding and separating different parts of documents, like text boxes and paragraphs. YOLOv8 is good at figuring out different tables and pictures. We also tried SAM, which helps us understand tricky layouts. We tested these programs to see how well they work. By comparing their accuracy and speed, we learned which one is good for different types of documents. Our research helps make sense of complex layouts in Bengali documents and can be useful for other languages too.",
+    "link": "http://arxiv.org/abs/2309.16700",
+    "context": "Title: Framework and Model Analysis on Bengali Document Layout Analysis Dataset: BaDLAD. (arXiv:2309.16700v1 [cs.CV])\nAbstract: This study focuses on understanding Bengali Document Layouts using advanced computer programs: Detectron2, YOLOv8, and SAM. We looked at lots of different Bengali documents in our study. Detectron2 is great at finding and separating different parts of documents, like text boxes and paragraphs. YOLOv8 is good at figuring out different tables and pictures. We also tried SAM, which helps us understand tricky layouts. We tested these programs to see how well they work. By comparing their accuracy and speed, we learned which one is good for different types of documents. Our research helps make sense of complex layouts in Bengali documents and can be useful for other languages too.",
+    "path": "papers/23/09/2309.16700.json",
+    "total_tokens": 826,
+    "translated_title": "基于孟加拉文档布局分析数据集的框架和模型分析",
+    "translated_abstract": "本研究聚焦于使用先进计算机程序（Detectron2、YOLOv8和SAM）了解孟加拉文档布局。我们在研究中考察了多种不同的孟加拉文档。Detectron2在查找和分离文档的不同部分（如文本框和段落）方面表现出色。YOLOv8在识别不同的表格和图片方面表现良好。我们还尝试了SAM，它帮助我们理解棘手的布局。通过比较它们的准确性和速度，我们了解了哪个适用于不同类型的文档。我们的研究有助于解析孟加拉文档中复杂的布局，并且对其他语言也有用处。",
+    "tldr": "本研究使用先进计算机程序（Detectron2、YOLOv8和SAM）对孟加拉文档布局进行分析，通过比较它们的准确性和速度，找出适用于不同类型文档的最佳方法。研究有助于理解孟加拉文档中复杂的布局，并在其他语言中具有实用价值。",
+    "en_tdlr": "This study analyzes the Bengali document layout using advanced computer programs (Detectron2, YOLOv8, and SAM), identifying the best method for different document types based on accuracy and speed. The research contributes to understanding complex layouts in Bengali documents and has practical implications for other languages."
+}

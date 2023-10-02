@@ -1,0 +1,12 @@
+{
+    "title": "STRONG -- Structure Controllable Legal Opinion Summary Generation. (arXiv:2309.17280v1 [cs.CL])",
+    "abstract": "We propose an approach for the structure controllable summarization of long legal opinions that considers the argument structure of the document. Our approach involves using predicted argument role information to guide the model in generating coherent summaries that follow a provided structure pattern. We demonstrate the effectiveness of our approach on a dataset of legal opinions and show that it outperforms several strong baselines with respect to ROUGE, BERTScore, and structure similarity.",
+    "link": "http://arxiv.org/abs/2309.17280",
+    "context": "Title: STRONG -- Structure Controllable Legal Opinion Summary Generation. (arXiv:2309.17280v1 [cs.CL])\nAbstract: We propose an approach for the structure controllable summarization of long legal opinions that considers the argument structure of the document. Our approach involves using predicted argument role information to guide the model in generating coherent summaries that follow a provided structure pattern. We demonstrate the effectiveness of our approach on a dataset of legal opinions and show that it outperforms several strong baselines with respect to ROUGE, BERTScore, and structure similarity.",
+    "path": "papers/23/09/2309.17280.json",
+    "total_tokens": 614,
+    "translated_title": "STRONG - 结构可控的法律意见摘要生成",
+    "translated_abstract": "我们提出了一种适用于长篇法律意见结构可控的摘要生成方法，考虑了文档的论证结构。我们的方法利用预测的论证角色信息来指导模型生成具有一定结构模式的连贯摘要。我们在法律意见数据集上展示了我们方法的有效性，并证明其在ROUGE、BERTScore和结构相似性方面优于几个强基准模型。",
+    "tldr": "本研究提出了一种结构可控的法律意见摘要生成方法，该方法利用预测的论证角色信息来指导模型生成连贯摘要，具有优于强基准模型的性能。",
+    "en_tdlr": "This paper presents an approach for structure controllable summarization of long legal opinions, which utilizes predicted argument role information to guide the model in generating coherent summaries, outperforming strong baselines in terms of ROUGE, BERTScore, and structure similarity."
+}
