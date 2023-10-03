@@ -1,0 +1,12 @@
+{
+    "title": "A Theoretical Analysis of the Test Error of Finite-Rank Kernel Ridge Regression. (arXiv:2310.00987v1 [cs.LG])",
+    "abstract": "Existing statistical learning guarantees for general kernel regressors often yield loose bounds when used with finite-rank kernels. Yet, finite-rank kernels naturally appear in several machine learning problems, e.g.\\ when fine-tuning a pre-trained deep neural network's last layer to adapt it to a novel task when performing transfer learning. We address this gap for finite-rank kernel ridge regression (KRR) by deriving sharp non-asymptotic upper and lower bounds for the KRR test error of any finite-rank KRR. Our bounds are tighter than previously derived bounds on finite-rank KRR, and unlike comparable results, they also remain valid for any regularization parameters.",
+    "link": "http://arxiv.org/abs/2310.00987",
+    "context": "Title: A Theoretical Analysis of the Test Error of Finite-Rank Kernel Ridge Regression. (arXiv:2310.00987v1 [cs.LG])\nAbstract: Existing statistical learning guarantees for general kernel regressors often yield loose bounds when used with finite-rank kernels. Yet, finite-rank kernels naturally appear in several machine learning problems, e.g.\\ when fine-tuning a pre-trained deep neural network's last layer to adapt it to a novel task when performing transfer learning. We address this gap for finite-rank kernel ridge regression (KRR) by deriving sharp non-asymptotic upper and lower bounds for the KRR test error of any finite-rank KRR. Our bounds are tighter than previously derived bounds on finite-rank KRR, and unlike comparable results, they also remain valid for any regularization parameters.",
+    "path": "papers/23/10/2310.00987.json",
+    "total_tokens": 752,
+    "translated_title": "有限秩核岭回归的测试误差的理论分析",
+    "translated_abstract": "现有的对于一般核回归模型的统计学学习保证在使用有限秩核时往往会得到宽松的边界。然而，在几个机器学习问题中，如在执行迁移学习时，将预训练的深度神经网络的最后一层微调以适应新任务时，有限秩核会自然地出现。本文通过推导任意有限秩核岭回归模型的尖锐的非渐近性上界和下界，填补了有限秩核岭回归保证的空白。我们的边界比之前针对有限秩核岭回归模型推导的边界更紧，并且与类似结果不同的是，它们也适用于任何正则化参数。",
+    "tldr": "本研究通过推导任意有限秩核岭回归模型的尖锐的非渐近性上界和下界，填补了有限秩核岭回归保证的空白。",
+    "en_tdlr": "This study fills the gap in the statistical learning guarantees for finite-rank kernel ridge regression by deriving sharp non-asymptotic upper and lower bounds for any finite-rank KRR model."
+}

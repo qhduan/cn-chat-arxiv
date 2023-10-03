@@ -1,0 +1,11 @@
+{
+    "title": "Semidiscrete optimal transport with unknown costs. (arXiv:2310.00786v1 [econ.EM])",
+    "abstract": "Semidiscrete optimal transport is a challenging generalization of the classical transportation problem in linear programming. The goal is to design a joint distribution for two random variables (one continuous, one discrete) with fixed marginals, in a way that minimizes expected cost. We formulate a novel variant of this problem in which the cost functions are unknown, but can be learned through noisy observations; however, only one function can be sampled at a time. We develop a semi-myopic algorithm that couples online learning with stochastic approximation, and prove that it achieves optimal convergence rates, despite the non-smoothness of the stochastic gradient and the lack of strong concavity in the objective function.",
+    "link": "http://arxiv.org/abs/2310.00786",
+    "context": "Title: Semidiscrete optimal transport with unknown costs. (arXiv:2310.00786v1 [econ.EM])\nAbstract: Semidiscrete optimal transport is a challenging generalization of the classical transportation problem in linear programming. The goal is to design a joint distribution for two random variables (one continuous, one discrete) with fixed marginals, in a way that minimizes expected cost. We formulate a novel variant of this problem in which the cost functions are unknown, but can be learned through noisy observations; however, only one function can be sampled at a time. We develop a semi-myopic algorithm that couples online learning with stochastic approximation, and prove that it achieves optimal convergence rates, despite the non-smoothness of the stochastic gradient and the lack of strong concavity in the objective function.",
+    "path": "papers/23/10/2310.00786.json",
+    "total_tokens": 732,
+    "translated_title": "具有未知成本的半离散最优输运",
+    "translated_abstract": "半离散最优输运是线性规划中经典输运问题的一种有挑战性的推广。其目标是以固定边际分布的方式设计两个随机变量（一个连续，一个离散）的联合分布，以最小化期望成本。我们提出了这个问题的一个新型变体，其中成本函数是未知的，但可以通过噪声观测学习；然而，每次只能采样一个函数。我们开发了一种半局部算法，将在线学习与随机逼近相结合，并证明其实现了最优的收敛速度，尽管随机梯度的非光滑性和目标函数的缺乏强凹性。",
+    "tldr": "本文研究了具有未知成本的半离散最优输运问题，提出了一种采用在线学习和随机逼近相结合的半局部算法，并证明其具有最优的收敛速度。"
+}

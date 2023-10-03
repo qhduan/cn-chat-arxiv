@@ -1,0 +1,12 @@
+{
+    "title": "Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data. (arXiv:2208.03815v2 [econ.GN] UPDATED)",
+    "abstract": "Selection on moral hazard represents the tendency to select a specific health insurance coverage depending on the heterogeneity in utilisation ''slopes''. I use data from the Swiss Household Panel and from publicly available regulatory data to explore the extent of selection on slopes in the Swiss managed competition system. I estimate responses in terms of (log) doctor visits to lowest and highest deductible levels using Roy-type models, identifying marginal treatment effects with local instrumental variables. The response to high coverage plans (i.e. plans with the lowest deductible level) among high moral hazard types is 25-35 percent higher than average.",
+    "link": "http://arxiv.org/abs/2208.03815",
+    "context": "Title: Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data. (arXiv:2208.03815v2 [econ.GN] UPDATED)\nAbstract: Selection on moral hazard represents the tendency to select a specific health insurance coverage depending on the heterogeneity in utilisation ''slopes''. I use data from the Swiss Household Panel and from publicly available regulatory data to explore the extent of selection on slopes in the Swiss managed competition system. I estimate responses in terms of (log) doctor visits to lowest and highest deductible levels using Roy-type models, identifying marginal treatment effects with local instrumental variables. The response to high coverage plans (i.e. plans with the lowest deductible level) among high moral hazard types is 25-35 percent higher than average.",
+    "path": "papers/22/08/2208.03815.json",
+    "total_tokens": 778,
+    "translated_title": "瑞士强制医疗保险市场上的道德风险选择：来自瑞士家庭面板数据的经验证据。",
+    "translated_abstract": "道德风险选择表示根据利用率“斜率”的异质性选择特定的医疗保险覆盖。本研究利用瑞士家庭面板数据和公开可得的监管数据，探讨了在瑞士的竞争管理系统中道德风险选择的程度。使用罗伊类型模型估计最低和最高免赔额的(对数)就医次数的响应，通过局部工具变量确定边际治疗效应。高道德风险类型在高保障计划(即最低免赔额计划)上的响应比平均水平高25-35%。",
+    "tldr": "本研究通过分析瑞士家庭面板数据和监管数据，发现在瑞士强制医疗保险市场上存在选择性道德风险，高道德风险类型对高保障计划的响应比平均水平高25-35%。",
+    "en_tdlr": "This study examines selection on moral hazard in the Swiss market for mandatory health insurance, finding that high moral hazard types have 25-35% higher response to high coverage plans compared to the average level."
+}

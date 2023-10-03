@@ -1,0 +1,12 @@
+{
+    "title": "If there is no underfitting, there is no Cold Posterior Effect. (arXiv:2310.01189v1 [stat.ML])",
+    "abstract": "The cold posterior effect (CPE) (Wenzel et al., 2020) in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that misspecification leads to CPE only when the resulting Bayesian posterior underfits. In fact, we theoretically show that if there is no underfitting, there is no CPE.",
+    "link": "http://arxiv.org/abs/2310.01189",
+    "context": "Title: If there is no underfitting, there is no Cold Posterior Effect. (arXiv:2310.01189v1 [stat.ML])\nAbstract: The cold posterior effect (CPE) (Wenzel et al., 2020) in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that misspecification leads to CPE only when the resulting Bayesian posterior underfits. In fact, we theoretically show that if there is no underfitting, there is no CPE.",
+    "path": "papers/23/10/2310.01189.json",
+    "total_tokens": 743,
+    "translated_title": "如果没有欠拟合，就没有冷后验效应",
+    "translated_abstract": "贝叶斯深度学习中的冷后验效应(CPE)表明，对于温度$T<1$的后验，得到的后验预测性能可能优于贝叶斯后验($T=1$)。由于贝叶斯后验在完美模型规范下被认为是最优的，许多最近的研究将CPE的存在视为模型规范错误的问题，来自先验或似然函数。在这项工作中，我们提供了对CPE更细致的理解，我们证明了当得到的贝叶斯后验欠拟合时，模型失配才会导致CPE。事实上，我们理论上证明没有欠拟合则没有CPE。",
+    "tldr": "研究发现，当贝叶斯后验欠拟合时，模型失配会导致冷后验效应(CPE)在贝叶斯深度学习中出现。",
+    "en_tdlr": "The study shows that model misspecification leads to the emergence of the Cold Posterior Effect (CPE) in Bayesian deep learning, but only when the resulting Bayesian posterior underfits."
+}

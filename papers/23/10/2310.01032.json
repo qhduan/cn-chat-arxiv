@@ -1,0 +1,11 @@
+{
+    "title": "The Fisher-Rao geometry of CES distributions. (arXiv:2310.01032v1 [stat.ML])",
+    "abstract": "When dealing with a parametric statistical model, a Riemannian manifold can naturally appear by endowing the parameter space with the Fisher information metric. The geometry induced on the parameters by this metric is then referred to as the Fisher-Rao information geometry. Interestingly, this yields a point of view that allows for leveragingmany tools from differential geometry. After a brief introduction about these concepts, we will present some practical uses of these geometric tools in the framework of elliptical distributions. This second part of the exposition is divided into three main axes: Riemannian optimization for covariance matrix estimation, Intrinsic Cram\\'er-Rao bounds, and classification using Riemannian distances.",
+    "link": "http://arxiv.org/abs/2310.01032",
+    "context": "Title: The Fisher-Rao geometry of CES distributions. (arXiv:2310.01032v1 [stat.ML])\nAbstract: When dealing with a parametric statistical model, a Riemannian manifold can naturally appear by endowing the parameter space with the Fisher information metric. The geometry induced on the parameters by this metric is then referred to as the Fisher-Rao information geometry. Interestingly, this yields a point of view that allows for leveragingmany tools from differential geometry. After a brief introduction about these concepts, we will present some practical uses of these geometric tools in the framework of elliptical distributions. This second part of the exposition is divided into three main axes: Riemannian optimization for covariance matrix estimation, Intrinsic Cram\\'er-Rao bounds, and classification using Riemannian distances.",
+    "path": "papers/23/10/2310.01032.json",
+    "total_tokens": 739,
+    "translated_title": "CES分布的费舍尔-拉奥（Fisher-Rao）几何",
+    "translated_abstract": "在处理参数统计模型时，自然会在参数空间上赋予费舍尔信息度量，从而产生一个黎曼流形。这个度量诱导在参数上的几何称为费舍尔-拉奥信息几何。有趣的是，这种观点可以利用微分几何中的许多工具。在简要介绍这些概念后，我们将介绍这些几何工具在椭圆分布框架中的一些实际应用。这个阐述的第二部分分为三个主要方面：协方差矩阵估计的黎曼优化、内蕴Cram\\'er-Rao界限和使用黎曼距离进行分类。",
+    "tldr": "这篇论文介绍了费舍尔-拉奥信息几何在椭圆分布中的应用，包括协方差矩阵估计、内蕴Cram\\'er-Rao界限和使用黎曼距离进行分类。"
+}

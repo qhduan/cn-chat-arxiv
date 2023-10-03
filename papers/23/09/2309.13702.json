@@ -1,0 +1,12 @@
+{
+    "title": "Skill Check: Some Considerations on the Evaluation of Gamemastering Models for Role-playing Games. (arXiv:2309.13702v2 [cs.CL] UPDATED)",
+    "abstract": "In role-playing games a Game Master (GM) is the player in charge of the game, who must design the challenges the players face and narrate the outcomes of their actions. In this work we discuss some challenges to model GMs from an Interactive Storytelling and Natural Language Processing perspective. Following those challenges we propose three test categories to evaluate such dialogue systems, and we use them to test ChatGPT, Bard and OpenAssistant as out-of-the-box GMs.",
+    "link": "http://arxiv.org/abs/2309.13702",
+    "context": "Title: Skill Check: Some Considerations on the Evaluation of Gamemastering Models for Role-playing Games. (arXiv:2309.13702v2 [cs.CL] UPDATED)\nAbstract: In role-playing games a Game Master (GM) is the player in charge of the game, who must design the challenges the players face and narrate the outcomes of their actions. In this work we discuss some challenges to model GMs from an Interactive Storytelling and Natural Language Processing perspective. Following those challenges we propose three test categories to evaluate such dialogue systems, and we use them to test ChatGPT, Bard and OpenAssistant as out-of-the-box GMs.",
+    "path": "papers/23/09/2309.13702.json",
+    "total_tokens": 661,
+    "translated_title": "技能检测：评估角色扮演游戏中游戏主持模型的一些考虑",
+    "translated_abstract": "在角色扮演游戏中，游戏主持（GM）是负责游戏的玩家，必须设计玩家面临的挑战并讲述他们行动的结果。本文从交互式叙事和自然语言处理的角度讨论了对GM进行建模的挑战。在讨论这些挑战后，我们提出了三个测试类别来评估这些对话系统，并使用ChatGPT、Bard和OpenAssistant作为开箱即用的GM进行测试。",
+    "tldr": "本文讨论了从交互式叙事和自然语言处理的角度对角色扮演游戏中游戏主持进行建模的挑战，并提出了三个测试类别来评估对话系统。",
+    "en_tdlr": "This paper discusses the challenges of modeling Game Masters in role-playing games from the perspective of Interactive Storytelling and Natural Language Processing, proposes three test categories to evaluate dialogue systems, and tests ChatGPT, Bard, and OpenAssistant as out-of-the-box Game Masters."
+}

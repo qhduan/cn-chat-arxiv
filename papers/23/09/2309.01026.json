@@ -1,0 +1,12 @@
+{
+    "title": "Zero-Shot Recommendations with Pre-Trained Large Language Models for Multimodal Nudging. (arXiv:2309.01026v2 [cs.AI] UPDATED)",
+    "abstract": "We present a method for zero-shot recommendation of multimodal non-stationary content that leverages recent advancements in the field of generative AI. We propose rendering inputs of different modalities as textual descriptions and to utilize pre-trained LLMs to obtain their numerical representations by computing semantic embeddings. Once unified representations of all content items are obtained, the recommendation can be performed by computing an appropriate similarity metric between them without any additional learning. We demonstrate our approach on a synthetic multimodal nudging environment, where the inputs consist of tabular, textual, and visual data.",
+    "link": "http://arxiv.org/abs/2309.01026",
+    "context": "Title: Zero-Shot Recommendations with Pre-Trained Large Language Models for Multimodal Nudging. (arXiv:2309.01026v2 [cs.AI] UPDATED)\nAbstract: We present a method for zero-shot recommendation of multimodal non-stationary content that leverages recent advancements in the field of generative AI. We propose rendering inputs of different modalities as textual descriptions and to utilize pre-trained LLMs to obtain their numerical representations by computing semantic embeddings. Once unified representations of all content items are obtained, the recommendation can be performed by computing an appropriate similarity metric between them without any additional learning. We demonstrate our approach on a synthetic multimodal nudging environment, where the inputs consist of tabular, textual, and visual data.",
+    "path": "papers/23/09/2309.01026.json",
+    "total_tokens": 753,
+    "translated_title": "使用预训练的大型语言模型进行多模态暗示的零样本推荐",
+    "translated_abstract": "我们提出了一种利用生成型人工智能领域最新进展的方法，用于零样本推荐多模态非平稳内容。我们建议将不同模态的输入渲染为文本描述，并利用预训练的LLM计算语义嵌入获取它们的数值表示。一旦获得所有内容项的统一表示，可以通过计算适当的相似度度量来进行推荐，而无需进行额外的学习。我们在一个合成的多模态暗示环境中演示了我们的方法，其中输入包括表格、文本和视觉数据。",
+    "tldr": "该论文提出了一种利用生成型AI领域的新技术进行零样本推荐的方法，通过将多模态输入转化为文本描述，并利用预训练的语言模型计算语义嵌入，实现了对非平稳内容的推荐。在合成的多模态暗示环境中进行实验证明了该方法的有效性。",
+    "en_tdlr": "This paper presents a method for zero-shot recommendation of multimodal non-stationary content using recent advancements in generative AI. By rendering inputs as textual descriptions and utilizing pre-trained language models, the method achieves recommendation without additional learning. Experimental results in a synthetic multimodal nudging environment demonstrate its effectiveness."
+}

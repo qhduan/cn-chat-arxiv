@@ -1,0 +1,12 @@
+{
+    "title": "Robust Nonparametric Hypothesis Testing to Understand Variability in Training Neural Networks. (arXiv:2310.00541v1 [stat.ML])",
+    "abstract": "Training a deep neural network (DNN) often involves stochastic optimization, which means each run will produce a different model. Several works suggest this variability is negligible when models have the same performance, which in the case of classification is test accuracy. However, models with similar test accuracy may not be computing the same function. We propose a new measure of closeness between classification models based on the output of the network before thresholding. Our measure is based on a robust hypothesis-testing framework and can be adapted to other quantities derived from trained models.",
+    "link": "http://arxiv.org/abs/2310.00541",
+    "context": "Title: Robust Nonparametric Hypothesis Testing to Understand Variability in Training Neural Networks. (arXiv:2310.00541v1 [stat.ML])\nAbstract: Training a deep neural network (DNN) often involves stochastic optimization, which means each run will produce a different model. Several works suggest this variability is negligible when models have the same performance, which in the case of classification is test accuracy. However, models with similar test accuracy may not be computing the same function. We propose a new measure of closeness between classification models based on the output of the network before thresholding. Our measure is based on a robust hypothesis-testing framework and can be adapted to other quantities derived from trained models.",
+    "path": "papers/23/10/2310.00541.json",
+    "total_tokens": 700,
+    "translated_title": "训练神经网络中的可变性的鲁棒非参数假设检验",
+    "translated_abstract": "训练深度神经网络（DNN）通常涉及随机优化，这意味着每次运行将产生不同的模型。几项研究表明，当模型具有相同的性能时，这种可变性是可以忽略的，在分类问题中即测试准确度。然而，具有类似测试准确度的模型可能没有计算相同的函数。我们提出了一种基于网络输出在阈值化之前的分类模型之间相似度的新指标。我们的指标基于一个鲁棒的假设检验框架，并可适用于从训练模型中派生的其他量。",
+    "tldr": "该论文提出了一种基于鲁棒非参数假设检验框架的新指标，用于衡量分类模型之间的相似度，该指标能够适用于从训练模型中派生的其他量。",
+    "en_tdlr": "This paper proposes a new measure based on a robust nonparametric hypothesis testing framework to quantify the similarity between classification models, which can be adapted to other quantities derived from trained models."
+}

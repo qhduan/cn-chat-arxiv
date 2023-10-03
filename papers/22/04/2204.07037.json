@@ -1,0 +1,11 @@
+{
+    "title": "LDPC codes: tracking non-stationary channel noise using sequential variational Bayesian estimates. (arXiv:2204.07037v2 [eess.SP] UPDATED)",
+    "abstract": "We present a sequential Bayesian learning method for tracking non-stationary signal-to-noise ratios in LDPC codes using probabilistic graphical models. We represent the LDPC code as a cluster graph using a general purpose cluster graph construction algorithm called the layered trees running intersection property (LTRIP) algorithm. The channel noise estimator is a global Gamma cluster, which we extend to allow for Bayesian tracking of non-stationary noise variation. We evaluate our proposed model on real-world 5G drive test data. Our results show that our model is capable of tracking non-stationary channel noise, which outperforms an LDPC code with a fixed knowledge of the actual average channel noise.",
+    "link": "http://arxiv.org/abs/2204.07037",
+    "context": "Title: LDPC codes: tracking non-stationary channel noise using sequential variational Bayesian estimates. (arXiv:2204.07037v2 [eess.SP] UPDATED)\nAbstract: We present a sequential Bayesian learning method for tracking non-stationary signal-to-noise ratios in LDPC codes using probabilistic graphical models. We represent the LDPC code as a cluster graph using a general purpose cluster graph construction algorithm called the layered trees running intersection property (LTRIP) algorithm. The channel noise estimator is a global Gamma cluster, which we extend to allow for Bayesian tracking of non-stationary noise variation. We evaluate our proposed model on real-world 5G drive test data. Our results show that our model is capable of tracking non-stationary channel noise, which outperforms an LDPC code with a fixed knowledge of the actual average channel noise.",
+    "path": "papers/22/04/2204.07037.json",
+    "total_tokens": 805,
+    "translated_title": "LDPC码：使用顺序变分贝叶斯估计跟踪非平稳信道噪声",
+    "translated_abstract": "我们提出了一种顺序贝叶斯学习方法，用于使用概率图模型跟踪LDPC码中非平稳信噪比。我们使用一种通用的聚簇图构造算法——分层树运行交集属性（LTRIP）算法将LDPC码表示为聚簇图。信道噪声估计器是一个全局Gamma聚团，我们将其扩展以允许贝叶斯跟踪非平稳噪声变化。我们在真实的5G行驶测试数据上评估了我们提出的模型。我们的结果表明，我们的模型能够跟踪非平稳信道噪声，优于具有固定实际平均信道噪声知识的LDPC码。",
+    "tldr": "该论文介绍了使用顺序贝叶斯学习方法跟踪非平稳信道噪声的LDPC码模型，并通过在5G行驶测试数据上的实验表明，该模型能够优于具有固定信道噪声知识的LDPC码。"
+}

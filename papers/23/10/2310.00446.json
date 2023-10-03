@@ -1,0 +1,11 @@
+{
+    "title": "Reconstructing supply networks. (arXiv:2310.00446v1 [econ.GN])",
+    "abstract": "Network reconstruction is a well-developed sub-field of network science, but it has only recently been applied to production networks, where nodes are firms and edges represent customer-supplier relationships. We review the literature that has flourished to infer the topology of these networks by partial, aggregate, or indirect observation of the data. We discuss why this is an important endeavour, what needs to be reconstructed, what makes it different from other network reconstruction problems, and how different researchers have approached the problem. We conclude with a research agenda.",
+    "link": "http://arxiv.org/abs/2310.00446",
+    "context": "Title: Reconstructing supply networks. (arXiv:2310.00446v1 [econ.GN])\nAbstract: Network reconstruction is a well-developed sub-field of network science, but it has only recently been applied to production networks, where nodes are firms and edges represent customer-supplier relationships. We review the literature that has flourished to infer the topology of these networks by partial, aggregate, or indirect observation of the data. We discuss why this is an important endeavour, what needs to be reconstructed, what makes it different from other network reconstruction problems, and how different researchers have approached the problem. We conclude with a research agenda.",
+    "path": "papers/23/10/2310.00446.json",
+    "total_tokens": 643,
+    "translated_title": "重构供应网络",
+    "translated_abstract": "网络重构是网络科学的一个非常发达的子领域，但直到最近才开始应用于生产网络，其中节点是企业，边代表客户供应商关系。我们回顾了已经繁荣的文献，通过数据的部分、汇总或间接观察来推断这些网络的拓扑结构。我们讨论了为什么这是一个重要的任务，需要重构什么，以及它与其他网络重构问题的不同之处，以及不同的研究者如何解决这个问题。我们最后给出了一个研究议程。",
+    "tldr": "该论文回顾了关于重构生产网络的文献，介绍了如何通过观察数据来推断供应网络的拓扑结构，并讨论了这一任务的重要性和独特性。"
+}

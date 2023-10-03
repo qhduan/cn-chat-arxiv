@@ -1,0 +1,12 @@
+{
+    "title": "Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Map. (arXiv:2302.00456v2 [cs.CL] UPDATED)",
+    "abstract": "Given that Transformers are ubiquitous in wide tasks, interpreting their internals is a pivotal issue. Still, their particular components, feed-forward (FF) blocks, have typically been less analyzed despite their substantial parameter amounts. We analyze the input contextualization effects of FF blocks by rendering them in the attention maps as a human-friendly visualization scheme. Our experiments with both masked- and causal-language models reveal that FF networks modify the input contextualization to emphasize specific types of linguistic compositions. In addition, FF and its surrounding components tend to cancel out each other's effects, suggesting potential redundancy in the processing of the Transformer layer.",
+    "link": "http://arxiv.org/abs/2302.00456",
+    "context": "Title: Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Map. (arXiv:2302.00456v2 [cs.CL] UPDATED)\nAbstract: Given that Transformers are ubiquitous in wide tasks, interpreting their internals is a pivotal issue. Still, their particular components, feed-forward (FF) blocks, have typically been less analyzed despite their substantial parameter amounts. We analyze the input contextualization effects of FF blocks by rendering them in the attention maps as a human-friendly visualization scheme. Our experiments with both masked- and causal-language models reveal that FF networks modify the input contextualization to emphasize specific types of linguistic compositions. In addition, FF and its surrounding components tend to cancel out each other's effects, suggesting potential redundancy in the processing of the Transformer layer.",
+    "path": "papers/23/02/2302.00456.json",
+    "total_tokens": 722,
+    "translated_title": "通过关注图解析Transformer中的前馈模块",
+    "translated_abstract": "鉴于Transformer在广泛的任务中无处不在，解释它们的内部机制是一个关键问题。然而，它们的特定组件，前馈(FF)模块，尽管它们有大量的参数，但通常被分析得较少。我们通过将FF模块在关注图中渲染出来作为一种易于理解的可视化方案，来分析FF模块的输入语境效果。我们对有屏蔽和因果语言模型进行的实验表明，FF网络修改了输入的语境化以强调特定类型的语言组合。此外，FF模块及其周围的组件往往会互相抵消效果，表明Transformer层的处理中可能存在潜在的冗余。",
+    "tldr": "通过关注图解析Transformer中的前馈模块，揭示了其修改输入语境化以强调特定类型语言组合的作用，并暗示了Transformer层处理中的潜在冗余。",
+    "en_tdlr": "Analyzing feed-forward blocks in Transformers through the lens of attention map reveals their role in modifying input contextualization to emphasize specific types of linguistic compositions, suggesting potential redundancy in the processing of the Transformer layer."
+}

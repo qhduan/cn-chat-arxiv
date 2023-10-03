@@ -1,0 +1,12 @@
+{
+    "title": "Study of Stylized Facts in Stock Market Data. (arXiv:2310.00753v1 [q-fin.ST])",
+    "abstract": "A property of data which is common across a wide range of instruments, markets and time periods is known as stylized empirical fact in the financial statistics literature. This paper first presents a wide range of stylized facts studied in literature which include some univariate distributional properties, multivariate properties and time series related properties of the financial time series data. In the next part of the paper, price data from several stocks listed on 10 stock exchanges spread across different continents has been analysed and data analysis has been presented.",
+    "link": "http://arxiv.org/abs/2310.00753",
+    "context": "Title: Study of Stylized Facts in Stock Market Data. (arXiv:2310.00753v1 [q-fin.ST])\nAbstract: A property of data which is common across a wide range of instruments, markets and time periods is known as stylized empirical fact in the financial statistics literature. This paper first presents a wide range of stylized facts studied in literature which include some univariate distributional properties, multivariate properties and time series related properties of the financial time series data. In the next part of the paper, price data from several stocks listed on 10 stock exchanges spread across different continents has been analysed and data analysis has been presented.",
+    "path": "papers/23/10/2310.00753.json",
+    "total_tokens": 591,
+    "translated_title": "股票市场数据中的风格化事实研究",
+    "translated_abstract": "在金融统计文献中，数据的一个共同特征是被称为金融市场风格化经验规律的属性。本文首先介绍了文献中研究的一系列风格化事实，包括金融时间序列数据的一些单变量分布特性、多元特性和时间序列相关特性。接下来的部分对多个股票交易所上市的股票价格数据进行了分析和数据分析的展示。",
+    "tldr": "本研究对股票市场数据进行了分析和数据分析，总结了金融时间序列数据的风格化规律。",
+    "en_tdlr": "This study analyzes and presents data analysis of stock market data, summarizing the stylized facts of financial time series data."
+}

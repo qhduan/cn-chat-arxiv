@@ -1,0 +1,11 @@
+{
+    "title": "Robust Asset-Liability Management. (arXiv:2310.00553v1 [q-fin.RM])",
+    "abstract": "How should financial institutions hedge their balance sheets against interest rate risk when they have long-term assets and liabilities? Using the perspective of functional and numerical analysis, we propose a model-free bond portfolio selection method that generalizes classical immunization and accommodates arbitrary liability structure, portfolio constraints, and perturbations in interest rates. We prove the generic existence of an immunizing portfolio that maximizes the worst-case equity with a tight error estimate and provide a solution algorithm. Numerical evaluations using empirical and simulated yield curves from a no-arbitrage term structure model support the feasibility and accuracy of our approach relative to existing methods.",
+    "link": "http://arxiv.org/abs/2310.00553",
+    "context": "Title: Robust Asset-Liability Management. (arXiv:2310.00553v1 [q-fin.RM])\nAbstract: How should financial institutions hedge their balance sheets against interest rate risk when they have long-term assets and liabilities? Using the perspective of functional and numerical analysis, we propose a model-free bond portfolio selection method that generalizes classical immunization and accommodates arbitrary liability structure, portfolio constraints, and perturbations in interest rates. We prove the generic existence of an immunizing portfolio that maximizes the worst-case equity with a tight error estimate and provide a solution algorithm. Numerical evaluations using empirical and simulated yield curves from a no-arbitrage term structure model support the feasibility and accuracy of our approach relative to existing methods.",
+    "path": "papers/23/10/2310.00553.json",
+    "total_tokens": 761,
+    "translated_title": "鲁棒的资产负债管理",
+    "translated_abstract": "当金融机构拥有长期资产和负债时，他们应该如何对冲利率风险？我们从泛函和数值分析的角度出发，提出了一种无模型的债券组合选择方法，该方法推广了经典的免疫化，并适应了任意的负债结构、组合约束和利率波动。我们证明了存在一个最大化最坏情况下股权价值的免疫化组合，并提供了一个解决算法。使用来自无套利期限结构模型的经验和模拟收益曲线进行数值评估，支持我们的方法相对于现有方法的可行性和准确性。",
+    "tldr": "本研究提出了一种鲁棒的资产负债管理方法，通过无模型的债券组合选择方法来对冲利率风险，同时兼顾任意的负债结构、组合约束和利率波动。数值评估结果表明，该方法相对于现有方法具有可行性和准确性。"
+}

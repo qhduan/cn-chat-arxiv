@@ -1,0 +1,12 @@
+{
+    "title": "Textbooks Are All You Need. (arXiv:2306.11644v2 [cs.CL] UPDATED)",
+    "abstract": "We introduce phi-1, a new large language model for code, with significantly smaller size than competing models: phi-1 is a Transformer-based model with 1.3B parameters, trained for 4 days on 8 A100s, using a selection of ``textbook quality\" data from the web (6B tokens) and synthetically generated textbooks and exercises with GPT-3.5 (1B tokens). Despite this small scale, phi-1 attains pass@1 accuracy 50.6% on HumanEval and 55.5% on MBPP. It also displays surprising emergent properties compared to phi-1-base, our model before our finetuning stage on a dataset of coding exercises, and phi-1-small, a smaller model with 350M parameters trained with the same pipeline as phi-1 that still achieves 45% on HumanEval.",
+    "link": "http://arxiv.org/abs/2306.11644",
+    "context": "Title: Textbooks Are All You Need. (arXiv:2306.11644v2 [cs.CL] UPDATED)\nAbstract: We introduce phi-1, a new large language model for code, with significantly smaller size than competing models: phi-1 is a Transformer-based model with 1.3B parameters, trained for 4 days on 8 A100s, using a selection of ``textbook quality\" data from the web (6B tokens) and synthetically generated textbooks and exercises with GPT-3.5 (1B tokens). Despite this small scale, phi-1 attains pass@1 accuracy 50.6% on HumanEval and 55.5% on MBPP. It also displays surprising emergent properties compared to phi-1-base, our model before our finetuning stage on a dataset of coding exercises, and phi-1-small, a smaller model with 350M parameters trained with the same pipeline as phi-1 that still achieves 45% on HumanEval.",
+    "path": "papers/23/06/2306.11644.json",
+    "total_tokens": 814,
+    "translated_title": "教科书是你需要的全部。 (arXiv:2306.11644v2 [cs.CL] UPDATED)",
+    "translated_abstract": "我们介绍了一个新的大型代码语言模型phi-1，其体积明显小于竞争模型：phi-1是一个基于Transformer的模型，拥有13亿个参数，在8个A100上进行了4天的训练，使用了来自网络的“教科书质量”数据（60亿个标记）和使用GPT-3.5合成生成的教科书和练习（10亿个标记）。尽管规模小，phi-1在HumanEval上的pass@1准确率为50.6％，在MBPP上为55.5％。与我们在编码练习数据集上进行微调之前的模型 phi-1-base 和具有相同流程的350M参数的较小模型 phi-1-small 相比，它还展现了令人惊讶的新的性质，phi-1-small 在 HumanEval 上仍达到45％的准确率。",
+    "tldr": "phi-1是一个新的大型代码语言模型，通过精心训练和优化，尽管规模相对较小，但在准确率和新的性质方面表现出了令人惊讶的结果。",
+    "en_tdlr": "phi-1 is a new large language model for code that achieves surprising results in terms of accuracy and emergent properties, despite its relatively small size."
+}

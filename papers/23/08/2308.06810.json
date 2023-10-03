@@ -1,0 +1,12 @@
+{
+    "title": "Ground Manipulator Primitive Tasks to Executable Actions using Large Language Models. (arXiv:2308.06810v2 [cs.RO] UPDATED)",
+    "abstract": "Layered architectures have been widely used in robot systems. The majority of them implement planning and execution functions in separate layers. However, there still lacks a straightforward way to transit high-level tasks in the planning layer to the low-level motor commands in the execution layer. In order to tackle this challenge, we propose a novel approach to ground the manipulator primitive tasks to robot low-level actions using large language models (LLMs). We designed a program-function-like prompt based on the task frame formalism. In this way, we enable LLMs to generate position/force set-points for hybrid control. Evaluations over several state-of-the-art LLMs are provided.",
+    "link": "http://arxiv.org/abs/2308.06810",
+    "context": "Title: Ground Manipulator Primitive Tasks to Executable Actions using Large Language Models. (arXiv:2308.06810v2 [cs.RO] UPDATED)\nAbstract: Layered architectures have been widely used in robot systems. The majority of them implement planning and execution functions in separate layers. However, there still lacks a straightforward way to transit high-level tasks in the planning layer to the low-level motor commands in the execution layer. In order to tackle this challenge, we propose a novel approach to ground the manipulator primitive tasks to robot low-level actions using large language models (LLMs). We designed a program-function-like prompt based on the task frame formalism. In this way, we enable LLMs to generate position/force set-points for hybrid control. Evaluations over several state-of-the-art LLMs are provided.",
+    "path": "papers/23/08/2308.06810.json",
+    "total_tokens": 719,
+    "translated_title": "使用大型语言模型将地面操纵器的原始任务转换为可执行动作",
+    "translated_abstract": "分层结构在机器人系统中被广泛使用，但是大多数机器人系统在规划和执行功能之间缺乏直接的方式。为了解决这个挑战，我们提出了一种新颖的方法，利用大型语言模型（LLMs）将操纵器的原始任务转换为机器人的低层动作。我们设计了一个类似于程序函数的提示，基于任务框架形式主义。通过这种方式，我们使得LLMs能够生成位置/力的设定点进行混合控制。我们还对几种最先进的LLMs进行了评估。",
+    "tldr": "本文提出了一种利用大型语言模型将操纵器的原始任务转换为机器人的低层动作的方法，通过设计类似程序函数的提示，实现了对位置/力的设定点的生成，从而实现了混合控制",
+    "en_tdlr": "This paper proposes a novel approach to ground the manipulator primitive tasks to robot low-level actions using large language models (LLMs), allowing for the generation of position/force set-points for hybrid control."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Detecting Unseen Multiword Expressions in American Sign Language. (arXiv:2310.00207v1 [cs.CL])",
+    "abstract": "Multiword expressions present unique challenges in many translation tasks. In an attempt to ultimately apply a multiword expression detection system to the translation of American Sign Language, we built and tested two systems that apply word embeddings from GloVe to determine whether or not the word embeddings of lexemes can be used to predict whether or not those lexemes compose a multiword expression. It became apparent that word embeddings carry data that can detect non-compositionality with decent accuracy.",
+    "link": "http://arxiv.org/abs/2310.00207",
+    "context": "Title: Detecting Unseen Multiword Expressions in American Sign Language. (arXiv:2310.00207v1 [cs.CL])\nAbstract: Multiword expressions present unique challenges in many translation tasks. In an attempt to ultimately apply a multiword expression detection system to the translation of American Sign Language, we built and tested two systems that apply word embeddings from GloVe to determine whether or not the word embeddings of lexemes can be used to predict whether or not those lexemes compose a multiword expression. It became apparent that word embeddings carry data that can detect non-compositionality with decent accuracy.",
+    "path": "papers/23/10/2310.00207.json",
+    "total_tokens": 694,
+    "translated_title": "在美国手语中检测未知的多词表达",
+    "translated_abstract": "多词表达在许多翻译任务中带来了独特的挑战。为了最终将多词表达检测系统应用于美国手语的翻译，我们构建并测试了两个系统，将来自GloVe的词嵌入应用于确定词汇的词嵌入是否可以用来预测这些词汇是否组成多词表达。结果表明，词嵌入携带的数据可以以相当高的准确率检测非组合性。",
+    "tldr": "该论文主要研究在美国手语中检测未知的多词表达。通过利用GloVe中的词嵌入，作者构建了两个系统来判断词汇的词嵌入是否可以预测词汇是否组成多词表达。结果表明，词嵌入能够准确地检测非组合性。",
+    "en_tdlr": "This paper investigates the detection of unseen multiword expressions in American Sign Language. By utilizing word embeddings from GloVe, the authors built two systems to determine whether or not the word embeddings of lexemes can predict the composition of multiword expressions. The results show that word embeddings can accurately detect non-compositionality."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "A PAC-Bayes oracle inequality for sparse neural networks. (arXiv:2204.12392v2 [math.ST] UPDATED)",
+    "abstract": "We study the Gibbs posterior distribution for sparse deep neural nets in a nonparametric regression setting. The posterior can be accessed via Metropolis-adjusted Langevin algorithms. Using a mixture over uniform priors on sparse sets of network weights, we prove an oracle inequality which shows that the method adapts to the unknown regularity and hierarchical structure of the regression function. The estimator achieves the minimax-optimal rate of convergence (up to a logarithmic factor).",
+    "link": "http://arxiv.org/abs/2204.12392",
+    "context": "Title: A PAC-Bayes oracle inequality for sparse neural networks. (arXiv:2204.12392v2 [math.ST] UPDATED)\nAbstract: We study the Gibbs posterior distribution for sparse deep neural nets in a nonparametric regression setting. The posterior can be accessed via Metropolis-adjusted Langevin algorithms. Using a mixture over uniform priors on sparse sets of network weights, we prove an oracle inequality which shows that the method adapts to the unknown regularity and hierarchical structure of the regression function. The estimator achieves the minimax-optimal rate of convergence (up to a logarithmic factor).",
+    "path": "papers/22/04/2204.12392.json",
+    "total_tokens": 740,
+    "translated_title": "稀疏神经网络的PAC-Bayes预测界",
+    "translated_abstract": "我们研究了非参数回归设置中稀疏深度神经网络的Gibbs后验分布。通过Metropolis-adjusted Langevin算法可以访问后验分布。通过对网络权重的稀疏集合进行统一先验的混合，我们证明了一个预测界，该界表明该方法能够适应未知的正则性和层次结构的回归函数。该估计器达到了极小化最优收敛速率（除了对数因子）。",
+    "tldr": "这篇论文研究了在非参数回归设置中利用稀疏深度神经网络的Gibbs后验分布，通过Metropolis-adjusted Langevin算法可以访问后验分布。通过对网络权重的稀疏集合进行统一先验的混合，证明了该方法能够适应未知的正则性和层次结构的回归函数，并达到了极小化最优收敛速率（除了对数因子）。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "LDPC codes: comparing cluster graphs to factor graphs. (arXiv:2204.06350v2 [cs.IT] UPDATED)",
+    "abstract": "We present a comparison study between a cluster and factor graph representation of LDPC codes. In probabilistic graphical models, cluster graphs retain useful dependence between random variables during inference, which are advantageous in terms of computational cost, convergence speed, and accuracy of marginal probabilities. This study investigates these benefits in the context of LDPC codes and shows that a cluster graph representation outperforms the traditional factor graph representation.",
+    "link": "http://arxiv.org/abs/2204.06350",
+    "context": "Title: LDPC codes: comparing cluster graphs to factor graphs. (arXiv:2204.06350v2 [cs.IT] UPDATED)\nAbstract: We present a comparison study between a cluster and factor graph representation of LDPC codes. In probabilistic graphical models, cluster graphs retain useful dependence between random variables during inference, which are advantageous in terms of computational cost, convergence speed, and accuracy of marginal probabilities. This study investigates these benefits in the context of LDPC codes and shows that a cluster graph representation outperforms the traditional factor graph representation.",
+    "path": "papers/22/04/2204.06350.json",
+    "total_tokens": 573,
+    "translated_title": "LDPC码：比较聚类图和因子图",
+    "translated_abstract": "我们对LDPC码的聚类图和因子图表示进行了比较研究。在概率图模型中，聚类图保留了推理过程中随机变量之间的有用依赖关系，这在计算成本、收敛速度和边际概率准确性方面具有优势。这项研究探讨了这些优势在LDPC码的背景下的应用，并表明聚类图表示优于传统的因子图表示。",
+    "tldr": "本研究比较了LDPC码的聚类图和因子图表示，结果显示聚类图表示优于传统的因子图表示。"
+}

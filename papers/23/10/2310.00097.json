@@ -1,0 +1,11 @@
+{
+    "title": "Pointwise uncertainty quantification for sparse variational Gaussian process regression with a Brownian motion prior. (arXiv:2310.00097v1 [math.ST])",
+    "abstract": "We study pointwise estimation and uncertainty quantification for a sparse variational Gaussian process method with eigenvector inducing variables. For a rescaled Brownian motion prior, we derive theoretical guarantees and limitations for the frequentist size and coverage of pointwise credible sets. For sufficiently many inducing variables, we precisely characterize the asymptotic frequentist coverage, deducing when credible sets from this variational method are conservative and when overconfident/misleading. We numerically illustrate the applicability of our results and discuss connections with other common Gaussian process priors.",
+    "link": "http://arxiv.org/abs/2310.00097",
+    "context": "Title: Pointwise uncertainty quantification for sparse variational Gaussian process regression with a Brownian motion prior. (arXiv:2310.00097v1 [math.ST])\nAbstract: We study pointwise estimation and uncertainty quantification for a sparse variational Gaussian process method with eigenvector inducing variables. For a rescaled Brownian motion prior, we derive theoretical guarantees and limitations for the frequentist size and coverage of pointwise credible sets. For sufficiently many inducing variables, we precisely characterize the asymptotic frequentist coverage, deducing when credible sets from this variational method are conservative and when overconfident/misleading. We numerically illustrate the applicability of our results and discuss connections with other common Gaussian process priors.",
+    "path": "papers/23/10/2310.00097.json",
+    "total_tokens": 883,
+    "translated_title": "稀疏变分高斯过程回归的点估计和不确定性量化与布朗运动先验的研究",
+    "translated_abstract": "本文研究了使用特征向量引导变量的稀疏变分高斯过程方法的点估计和不确定性量化。对于具有重标定布朗运动先验的情况，我们推导了点化可信区间的频率派大小和覆盖的理论保证和限制。通过充分的引导变量，我们精确地描述了渐近频率派覆盖，推断了这个变分方法的可信区间何时保守，何时过于自信/误导。我们通过数值实验说明了我们的结果的适用性，并讨论了与其他常见高斯过程先验的联系。",
+    "tldr": "本文研究了稀疏变分高斯过程回归中点估计和不确定性量化的方法，通过使用布朗运动先验和特征向量引导变量，推导了频率派可信区间的理论保证和限制，并在足够多的引导变量的情况下精确定义了渐近频率派覆盖，从而推断出这个变分方法的可信区间何时保守，何时过于自信/误导。数值实验证明了这些结果的适用性，并讨论了与其他常见高斯过程先验的相关性。"
+}
