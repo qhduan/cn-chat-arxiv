@@ -7,22 +7,24 @@
 | [^3] | [Multi-period static hedging of European options.](http://arxiv.org/abs/2310.01104) | 本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。 |
 | [^4] | [Semidiscrete optimal transport with unknown costs.](http://arxiv.org/abs/2310.00786) | 本文研究了具有未知成本的半离散最优输运问题，提出了一种采用在线学习和随机逼近相结合的半局部算法，并证明其具有最优的收敛速度。 |
 | [^5] | [Review on Decarbonizing the Transportation Sector in China: Overview, Analysis, and Perspectives.](http://arxiv.org/abs/2310.00613) | 这篇综述总结了中国交通部门脱碳面临的挑战和有效策略，并提出了通过使用“避免、转移、改进”框架以及“机构能力与技术发展”的新战略矢量，推动中国向可持续交通未来过渡的综合分析。 |
-| [^6] | [Separately Convex and Separately Continuous Preferences: On Results of Schmeidler, Shafer, and Bergstrom-Parks-Rader.](http://arxiv.org/abs/2310.00531) | 本研究提出了一种对于在有限维欧氏空间中取值的对应关系成为开关系的充分必要条件，并通过引入分别凸性的概念，将其与经典的连续性概念联系起来，从而提供了一种凸性-连续性假设的合并，并对选择理论中的相关概念进行了讨论。 |
-| [^7] | [Reconstructing supply networks.](http://arxiv.org/abs/2310.00446) | 该论文回顾了关于重构生产网络的文献，介绍了如何通过观察数据来推断供应网络的拓扑结构，并讨论了这一任务的重要性和独特性。 |
-| [^8] | [On Sinkhorn's Algorithm and Choice Modeling.](http://arxiv.org/abs/2310.00260) | 该论文研究了使用Luce的选择公理为基础的一类选择和排名模型，证明了与最大似然估计问题等效的经典矩阵平衡问题。通过Sinkhorn算法，将选择建模算法统一为矩阵平衡算法的特例。论文还解决了Sinkhorn算法研究中的重要问题，包括对于非负矩阵的全局线性收敛和尖锐渐近速度的描述。 |
-| [^9] | [Identification, Impacts, and Opportunities of Three Common Measurement Considerations when using Digital Trace Data.](http://arxiv.org/abs/2310.00197) | 通过使用数字痕迹数据，我们发现了三个测量挑战：纠缠、平坦化和捆绑。这些挑战会引入额外的不确定性和错误，但也提供了深入了解媒体使用和内容消费的机会。 |
-| [^10] | [Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity.](http://arxiv.org/abs/2309.16186) | 本论文通过引入随机利率模型和非线性融资成本来探讨气候变化减缓模型中的代际公平问题。研究结果表明，最优的随机减排路径可能会增加成本和风险相关的代际不平等，但通过融资成本的引入可以改善这种情况。 |
-| [^11] | [Reserve Matching with Thresholds.](http://arxiv.org/abs/2309.13766) | 本文提出了一个新的智能保留系统，使用阈值模型允许独立的优先级排序和任意的受益人和资格阈值，以实现优化分配单元数的分配。 |
-| [^12] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
-| [^13] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
-| [^14] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
-| [^15] | [Bridging TSLS and JIVE.](http://arxiv.org/abs/2305.17615) | 本文提出了一种桥接TSLS和JIVE的新方法TSJI来处理内生性，具有用户定义参数λ，可以近似无偏，且在许多工具变量渐进情况下是一致且渐进正常的。 |
-| [^16] | [Nash implementation in a many-to-one matching market.](http://arxiv.org/abs/2305.13956) | 在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。 |
-| [^17] | [The Isotonic Mechanism for Exponential Family Estimation.](http://arxiv.org/abs/2304.11160) | 本文利用扩展的保序机制，将其应用于指数族分布以提高同行评审的质量，并发现作者的同行评分可以较准确地在不需要知道具体分布情况下进行调整。 |
-| [^18] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^19] | [Party On: The Labor Market Returns to Social Networks in Adolescence.](http://arxiv.org/abs/2210.09426) | 本研究调查了青少年时期与成年期收入之间的友谊回报。通过采用一种新的方法，文中发现青少年时期多交一个朋友可以使收入增加7%到14%。这个结果远大于传统方法的估计值，传统方法会因为测量误差和遗漏变量导致显著的向下偏误。 |
-| [^20] | [Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data.](http://arxiv.org/abs/2208.03815) | 本研究通过分析瑞士家庭面板数据和监管数据，发现在瑞士强制医疗保险市场上存在选择性道德风险，高道德风险类型对高保障计划的响应比平均水平高25-35%。 |
-| [^21] | [Predicting Inflation with Recurrent Neural Networks.](http://arxiv.org/abs/2104.03757) | 本文应用LSTM循环神经网络模型，研究了预测通货膨胀的能力，并发现在长期预测和宏观经济不确定性加剧期间表现良好。有趣的是，LSTM所涉及的因素与商业周期指标高度相关，这说明这些信号作为通胀预测因子的实用性。 |
+| [^6] | [CausalGPS: An R Package for Causal Inference With Continuous Exposures.](http://arxiv.org/abs/2310.00561) | CausalGPS是一个R包，用于实现连续曝光的因果推断，并提供了灵活的估计和调整混淆的方法。 |
+| [^7] | [Separately Convex and Separately Continuous Preferences: On Results of Schmeidler, Shafer, and Bergstrom-Parks-Rader.](http://arxiv.org/abs/2310.00531) | 本研究提出了一种对于在有限维欧氏空间中取值的对应关系成为开关系的充分必要条件，并通过引入分别凸性的概念，将其与经典的连续性概念联系起来，从而提供了一种凸性-连续性假设的合并，并对选择理论中的相关概念进行了讨论。 |
+| [^8] | [Reconstructing supply networks.](http://arxiv.org/abs/2310.00446) | 该论文回顾了关于重构生产网络的文献，介绍了如何通过观察数据来推断供应网络的拓扑结构，并讨论了这一任务的重要性和独特性。 |
+| [^9] | [On Sinkhorn's Algorithm and Choice Modeling.](http://arxiv.org/abs/2310.00260) | 该论文研究了使用Luce的选择公理为基础的一类选择和排名模型，证明了与最大似然估计问题等效的经典矩阵平衡问题。通过Sinkhorn算法，将选择建模算法统一为矩阵平衡算法的特例。论文还解决了Sinkhorn算法研究中的重要问题，包括对于非负矩阵的全局线性收敛和尖锐渐近速度的描述。 |
+| [^10] | [The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES.](http://arxiv.org/abs/2310.00231) | 本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。 |
+| [^11] | [Identification, Impacts, and Opportunities of Three Common Measurement Considerations when using Digital Trace Data.](http://arxiv.org/abs/2310.00197) | 通过使用数字痕迹数据，我们发现了三个测量挑战：纠缠、平坦化和捆绑。这些挑战会引入额外的不确定性和错误，但也提供了深入了解媒体使用和内容消费的机会。 |
+| [^12] | [Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity.](http://arxiv.org/abs/2309.16186) | 本论文通过引入随机利率模型和非线性融资成本来探讨气候变化减缓模型中的代际公平问题。研究结果表明，最优的随机减排路径可能会增加成本和风险相关的代际不平等，但通过融资成本的引入可以改善这种情况。 |
+| [^13] | [Reserve Matching with Thresholds.](http://arxiv.org/abs/2309.13766) | 本文提出了一个新的智能保留系统，使用阈值模型允许独立的优先级排序和任意的受益人和资格阈值，以实现优化分配单元数的分配。 |
+| [^14] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
+| [^15] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
+| [^16] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
+| [^17] | [Bridging TSLS and JIVE.](http://arxiv.org/abs/2305.17615) | 本文提出了一种桥接TSLS和JIVE的新方法TSJI来处理内生性，具有用户定义参数λ，可以近似无偏，且在许多工具变量渐进情况下是一致且渐进正常的。 |
+| [^18] | [Nash implementation in a many-to-one matching market.](http://arxiv.org/abs/2305.13956) | 在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。 |
+| [^19] | [The Isotonic Mechanism for Exponential Family Estimation.](http://arxiv.org/abs/2304.11160) | 本文利用扩展的保序机制，将其应用于指数族分布以提高同行评审的质量，并发现作者的同行评分可以较准确地在不需要知道具体分布情况下进行调整。 |
+| [^20] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^21] | [Party On: The Labor Market Returns to Social Networks in Adolescence.](http://arxiv.org/abs/2210.09426) | 本研究调查了青少年时期与成年期收入之间的友谊回报。通过采用一种新的方法，文中发现青少年时期多交一个朋友可以使收入增加7%到14%。这个结果远大于传统方法的估计值，传统方法会因为测量误差和遗漏变量导致显著的向下偏误。 |
+| [^22] | [Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data.](http://arxiv.org/abs/2208.03815) | 本研究通过分析瑞士家庭面板数据和监管数据，发现在瑞士强制医疗保险市场上存在选择性道德风险，高道德风险类型对高保障计划的响应比平均水平高25-35%。 |
+| [^23] | [Predicting Inflation with Recurrent Neural Networks.](http://arxiv.org/abs/2104.03757) | 本文应用LSTM循环神经网络模型，研究了预测通货膨胀的能力，并发现在长期预测和宏观经济不确定性加剧期间表现良好。有趣的是，LSTM所涉及的因素与商业周期指标高度相关，这说明这些信号作为通胀预测因子的实用性。 |
 
 # 详细
 
@@ -96,7 +98,21 @@
 
     This review identifies challenges and effective strategies to decarbonize China's rapidly growing transportation sector, currently the third largest carbon emitter, considering China's commitment to peak carbon emissions by 2030 and achieve carbon neutrality by 2060. Key challenges include rising travel demand, unreached peak car ownership, declining bus ridership, gaps between energy technology research and practical application, and limited institutional capacity for decarbonization. This review categorizes current decarbonization measures, strategies, and policies in China's transportation sector using the "Avoid, Shift, Improve" framework, complemented by a novel strategic vector of "Institutional Capacity & Technology Development" to capture broader development perspectives. This comprehensive analysis aims to facilitate informed decision-making and promote collaborative strategies for China's transition to a sustainable transportation future.
     
-[^6]: 分别凸性和分别连续性偏好：关于Schmeidler、Shafer和Bergstrom-Parks-Rader结果的研究
+[^6]: CausalGPS: 一个用于连续曝光的因果推断的 R 包
+
+    CausalGPS: An R Package for Causal Inference With Continuous Exposures. (arXiv:2310.00561v1 [stat.CO])
+
+    [http://arxiv.org/abs/2310.00561](http://arxiv.org/abs/2310.00561)
+
+    CausalGPS是一个R包，用于实现连续曝光的因果推断，并提供了灵活的估计和调整混淆的方法。
+
+    
+
+    对于社会、经济、健康和医学研究来说，量化连续曝光对感兴趣结果的因果效应至关重要。然而，目前大多数现有的软件包都集中在二进制曝光上。我们开发了 CausalGPS R 包，该包实现了一系列算法，为连续曝光的因果推断提供算法解决方案。CausalGPS 实现了一个因果推断工作流程，其核心是基于广义倾向得分（GPS）的算法，将倾向得分（在 pre-exposure 协变量给定情况下单位被曝光的概率）从二进制曝光扩展到连续曝光。作为第一步，该包实现了高效灵活的 GPS 估计，允许多个用户指定的建模选项。作为第二步，该包提供了两种消除混淆的方法：加权和匹配，分别生成加权和匹配的数据集。最后，该包提供了内置函
+
+    Quantifying the causal effects of continuous exposures on outcomes of interest is critical for social, economic, health, and medical research. However, most existing software packages focus on binary exposures. We develop the CausalGPS R package that implements a collection of algorithms to provide algorithmic solutions for causal inference with continuous exposures. CausalGPS implements a causal inference workflow, with algorithms based on generalized propensity scores (GPS) as the core, extending propensity scores (the probability of a unit being exposed given pre-exposure covariates) from binary to continuous exposures. As the first step, the package implements efficient and flexible estimations of the GPS, allowing multiple user-specified modeling options. As the second step, the package provides two ways to adjust for confounding: weighting and matching, generating weighted and matched data sets, respectively. Lastly, the package provides built-in functions to fit flexible paramet
+    
+[^7]: 分别凸性和分别连续性偏好：关于Schmeidler、Shafer和Bergstrom-Parks-Rader结果的研究
 
     Separately Convex and Separately Continuous Preferences: On Results of Schmeidler, Shafer, and Bergstrom-Parks-Rader. (arXiv:2310.00531v1 [econ.TH])
 
@@ -110,7 +126,7 @@
 
     We provide necessary and sufficient conditions for a correspondence taking values in a finite-dimensional Euclidean space to be open so as to revisit the pioneering work of Schmeidler (1969), Shafer (1974), Shafer-Sonnenschein (1975) and Bergstrom-Rader-Parks (1976) to answer several questions they and their followers left open. We introduce the notion of separate convexity for a correspondence and use it to relate to classical notions of continuity while giving salience to the notion of separateness as in the interplay of separate continuity and separate convexity of binary relations. As such, we provide a consolidation of the convexity-continuity postulates from a broad inter-disciplinary perspective and comment on how the qualified notions proposed here have implications of substantive interest for choice theory.
     
-[^7]: 重构供应网络
+[^8]: 重构供应网络
 
     Reconstructing supply networks. (arXiv:2310.00446v1 [econ.GN])
 
@@ -124,7 +140,7 @@
 
     Network reconstruction is a well-developed sub-field of network science, but it has only recently been applied to production networks, where nodes are firms and edges represent customer-supplier relationships. We review the literature that has flourished to infer the topology of these networks by partial, aggregate, or indirect observation of the data. We discuss why this is an important endeavour, what needs to be reconstructed, what makes it different from other network reconstruction problems, and how different researchers have approached the problem. We conclude with a research agenda.
     
-[^8]: 关于Sinkhorn算法和选择建模的论文
+[^9]: 关于Sinkhorn算法和选择建模的论文
 
     On Sinkhorn's Algorithm and Choice Modeling. (arXiv:2310.00260v1 [math.OC])
 
@@ -138,7 +154,21 @@
 
     For a broad class of choice and ranking models based on Luce's choice axiom, including the Bradley--Terry--Luce and Plackett--Luce models, we show that the associated maximum likelihood estimation problems are equivalent to a classic matrix balancing problem with target row and column sums. This perspective opens doors between two seemingly unrelated research areas, and allows us to unify existing algorithms in the choice modeling literature as special instances or analogs of Sinkhorn's celebrated algorithm for matrix balancing. We draw inspirations from these connections and resolve important open problems on the study of Sinkhorn's algorithm. We first prove the global linear convergence of Sinkhorn's algorithm for non-negative matrices whenever finite solutions to the matrix balancing problem exist. We characterize this global rate of convergence in terms of the algebraic connectivity of the bipartite graph constructed from data. Next, we also derive the sharp asymptotic rate of line
     
-[^9]: 三个常见的数字痕迹数据测量考虑的识别、影响和机会
+[^10]: 巴基斯坦价格通货膨胀的分布影响：新的价格为重点的微模拟框架PRICES的案例研究
+
+    The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES. (arXiv:2310.00231v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.00231](http://arxiv.org/abs/2310.00231)
+
+    本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。
+
+    
+
+    本文利用家庭预算调查数据、收入调查数据和输入产出模型开发了一个微模拟模型，模拟了价格变动的分布影响。我们利用该模型评估了巴基斯坦近期价格变动的分配和福利影响，特别关注能源和食品价格的变动。首先，我们评估了支出的分布模式，国内能源燃料集中在分布的底部，汽油燃料在顶部。电力和汽油燃料的预算份额特别高，而国内燃料相对较低。虽然国内燃料和电力消费的分布模式与其他国家相似，但汽油燃料有特别高的预算弹性。分析表明，尽管能源价格大幅增加，但能源价格对通货膨胀带来的福利损失的重要性有限。近期价格变动的总体分布影响较小。
+
+    This paper developed a microsimulation model to simulate the distributional impact of price changes using Household Budget Survey data, Income Survey data and an Input-Output Model. We use the model to assess the distributional and welfare impact of recent price changes in Pakistan. Particular attention is paid to price changes in energy goods and food. We firstly assessed the distributional pattern of expenditures, with domestic energy fuels concentrated at the bottom of the distribution and motor fuels at the top. The budget share of electricity and motor fuels is particularly high, while domestic fuels is relatively low. While the distributional pattern of domestic fuel and electricity consumption is similar to other countries, there is a particularly high budget elasticity for motor fuels. The analysis shows that despite large increases in energy prices, the importance of energy prices for the welfare losses due to inflation is limited. The overall distributional impact of recent p
+    
+[^11]: 三个常见的数字痕迹数据测量考虑的识别、影响和机会
 
     Identification, Impacts, and Opportunities of Three Common Measurement Considerations when using Digital Trace Data. (arXiv:2310.00197v1 [cs.HC])
 
@@ -152,7 +182,7 @@
 
     Cataloguing specific URLs, posts, and applications with digital traces is the new best practice for measuring media use and content consumption. Despite the apparent accuracy that comes with greater granularity, however, digital traces may introduce additional ambiguity and new errors into the measurement of media use. In this note, we identify three new measurement challenges when using Digital Trace Data that were recently uncovered using a new measurement framework - Screenomics - that records media use at the granularity of individual screenshots obtained every few seconds as people interact with mobile devices. We label the considerations as follows: (1) entangling - the common measurement error introduced by proxying exposure to content by exposure to format; (2) flattening - aggregating unique segments of media interaction without incorporating temporal information, most commonly intraindividually and (3) bundling - summation of the durations of segments of media interaction, in
     
-[^10]: 气候变化减缓模型中的代际公平：随机利率引入不利影响，但（非线性）融资成本可以改善代际公平。
+[^12]: 气候变化减缓模型中的代际公平：随机利率引入不利影响，但（非线性）融资成本可以改善代际公平。
 
     Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity. (arXiv:2309.16186v1 [q-fin.MF])
 
@@ -166,7 +196,7 @@
 
     Assessing the costs of climate change is essential to find efficient pathways for the transition to a net-zero emissions economy, which is necessary to stabilise global temperatures at any level. Evaluating benefits and costs of climate change mitigation the discount rate converting future damages and costs into net-present values influences timing of mitigation.  Here, we amend the DICE model with a stochastic interest rate model to consider uncertainty of discount rates in the future. Since the optimal abatement paths depends on interest rates, we assume a stochastic abatement model.  We show that the optimal stochastic abatement path can increase the intergenerational inequality with respect to cost and risk.  If we consider additionally that abatement costs may be funded via loans for which interest has to be paid, it is optimal to achieve net-zero earlier.  Here we show, that introducing funding of abatement cost reduces the variation of future cash-flows, which occur at different
     
-[^11]: 阈值保留匹配
+[^13]: 阈值保留匹配
 
     Reserve Matching with Thresholds. (arXiv:2309.13766v1 [econ.TH])
 
@@ -180,7 +210,7 @@
 
     Reserve systems are used to accommodate multiple essential or underrepresented groups in allocating indivisible scarce resources by creating categories that prioritize their respective beneficiaries. Some applications include the optimal allocation of vaccines, or assignment of minority students to elite colleges in India. An allocation is called smart if it optimizes the number of units distributed. Previous literature mostly assumed baseline priorities, which impose significant interdependencies between the priority ordering of different categories. It also assumes either everybody is eligible for receiving a unit from any category, or only the beneficiaries are eligible. The comprehensive Threshold Model we propose allows independent priority orderings among categories and arbitrary beneficiary and eligibility thresholds, enabling policymakers to avoid comparing incomparables in affirmative action systems. We present a new smart reserve system that optimizes two objectives simultane
     
-[^12]: AI自动化的爆炸性增长: 论证综述
+[^14]: AI自动化的爆炸性增长: 论证综述
 
     Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
 
@@ -194,7 +224,7 @@
 
     We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
     
-[^13]: 游戏连通性与自适应动态
+[^15]: 游戏连通性与自适应动态
 
     Game Connectivity and Adaptive Dynamics. (arXiv:2309.10609v1 [econ.TH])
 
@@ -208,7 +238,7 @@
 
     We analyse the typical structure of games in terms of the connectivity properties of their best-response graphs. In particular, we show that almost every 'large' generic game that has a pure Nash equilibrium is connected, meaning that every non-equilibrium action profile can reach every pure Nash equilibrium via best-response paths. This has implications for dynamics in games: many adaptive dynamics, such as the best-response dynamic with inertia, lead to equilibrium in connected games. It follows that there are simple, uncoupled, adaptive dynamics for which period-by-period play converges almost surely to a pure Nash equilibrium in almost every 'large' generic game that has one. We build on recent results in probabilistic combinatorics for our characterisation of game connectivity.
     
-[^14]: 持不同意见：测量FOMC会议中的隐藏异议
+[^16]: 持不同意见：测量FOMC会议中的隐藏异议
 
     Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
 
@@ -222,7 +252,7 @@
 
     Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
     
-[^15]: TSLS与JIVE的桥接
+[^17]: TSLS与JIVE的桥接
 
     Bridging TSLS and JIVE. (arXiv:2305.17615v1 [econ.EM])
 
@@ -236,7 +266,7 @@
 
     Economists often implement TSLS to handle endogeneity. The bias of TSLS is severe when the number of instruments is large. Hence, JIVE has been proposed to reduce bias of over-identified TSLS. However, both methods have critical drawbacks. While over-identified TSLS has a large bias with a large degree of overidentification, JIVE is unstable. In this paper, I bridge the optimization problems of TSLS and JIVE, solve the connected problem and propose a new estimator TSJI. TSJI has a user-defined parameter $\lambda$. By approximating the bias of the TSJI up to op(1/N), I find a $\lambda$ value that produces approximately unbiased TSJI. TSJI with the selected $\lambda$ value not only has the same first order distribution as TSLS when the number of first-stage and second-stage regressors are fixed, but also is consistent and asymptotically normal under many-instrument asymptotics. Under three different simulation settings, I test TSJI against TSLS and JIVE with instruments of different stre
     
-[^16]: 多对一匹配市场中的纳什实现
+[^18]: 多对一匹配市场中的纳什实现
 
     Nash implementation in a many-to-one matching market. (arXiv:2305.13956v1 [econ.TH])
 
@@ -250,7 +280,7 @@
 
     In a many-to-one matching market with substitutable preferences, we analyze the game induced by a stable rule. When both sides of the market play strategically, we show that any stable rule implements, in Nash equilibrium, the individually rational matchings. Also, when only workers play strategically and firms' preferences satisfy the law of aggregated demand, we show that any stable rule implements, in Nash equilibrium, the stable matchings.
     
-[^17]: 利用保序机制提高机器学习和人工智能会议的同行评审
+[^19]: 利用保序机制提高机器学习和人工智能会议的同行评审
 
     The Isotonic Mechanism for Exponential Family Estimation. (arXiv:2304.11160v1 [math.ST])
 
@@ -264,7 +294,7 @@
 
     In 2023, the International Conference on Machine Learning (ICML) required authors with multiple submissions to rank their submissions based on perceived quality. In this paper, we aim to employ these author-specified rankings to enhance peer review in machine learning and artificial intelligence conferences by extending the Isotonic Mechanism (Su, 2021, 2022) to exponential family distributions. This mechanism generates adjusted scores closely align with the original scores while adhering to author-specified rankings. Despite its applicability to a broad spectrum of exponential family distributions, this mechanism's implementation does not necessitate knowledge of the specific distribution form. We demonstrate that an author is incentivized to provide accurate rankings when her utility takes the form of a convex additive function of the adjusted review scores. For a certain subclass of exponential family distributions, we prove that the author reports truthfully only if the question in
     
-[^18]: 期权的价格发现
+[^20]: 期权的价格发现
 
     Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
@@ -278,7 +308,7 @@
 
     We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^19]: 开派对：青少年社交网络对劳动力市场的回报
+[^21]: 开派对：青少年社交网络对劳动力市场的回报
 
     Party On: The Labor Market Returns to Social Networks in Adolescence. (arXiv:2210.09426v3 [econ.EM] UPDATED)
 
@@ -292,7 +322,7 @@
 
     We investigate the returns to adolescent friendships on earnings in adulthood. Using data from the National Longitudinal Study of Adolescent to Adult Health, we document that individuals make investments to accumulate friends in addition to educational investments. Because both education and friendships are jointly determined in adolescence, OLS estimates of their returns are biased. To estimate the causal returns to friendships, we implement a novel procedure that assumes the returns to schooling range from 5 to 15% (as the literature has documented), and instrument for friendships using homophily (similarity) measures among peers to obtain bounds on the returns to friendships. We find that having one more friend in adolescence increases earnings between 7 and 14%, which is substantially larger than the OLS estimates: measurement error and omitted variables lead to significant downward bias.
     
-[^20]: 瑞士强制医疗保险市场上的道德风险选择：来自瑞士家庭面板数据的经验证据。
+[^22]: 瑞士强制医疗保险市场上的道德风险选择：来自瑞士家庭面板数据的经验证据。
 
     Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data. (arXiv:2208.03815v2 [econ.GN] UPDATED)
 
@@ -306,7 +336,7 @@
 
     Selection on moral hazard represents the tendency to select a specific health insurance coverage depending on the heterogeneity in utilisation ''slopes''. I use data from the Swiss Household Panel and from publicly available regulatory data to explore the extent of selection on slopes in the Swiss managed competition system. I estimate responses in terms of (log) doctor visits to lowest and highest deductible levels using Roy-type models, identifying marginal treatment effects with local instrumental variables. The response to high coverage plans (i.e. plans with the lowest deductible level) among high moral hazard types is 25-35 percent higher than average.
     
-[^21]: 用循环神经网络预测通货膨胀
+[^23]: 用循环神经网络预测通货膨胀
 
     Predicting Inflation with Recurrent Neural Networks. (arXiv:2104.03757v2 [econ.EM] UPDATED)
 
