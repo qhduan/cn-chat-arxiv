@@ -1,0 +1,11 @@
+{
+    "title": "On Training Derivative-Constrained Neural Networks. (arXiv:2310.01649v1 [cs.LG])",
+    "abstract": "We refer to the setting where the (partial) derivatives of a neural network's (NN's) predictions with respect to its inputs are used as additional training signal as a derivative-constrained (DC) NN. This situation is common in physics-informed settings in the natural sciences. We propose an integrated RELU (IReLU) activation function to improve training of DC NNs. We also investigate denormalization and label rescaling to help stabilize DC training. We evaluate our methods on physics-informed settings including quantum chemistry and Scientific Machine Learning (SciML) tasks. We demonstrate that existing architectures with IReLU activations combined with denormalization and label rescaling better incorporate training signal provided by derivative constraints.",
+    "link": "http://arxiv.org/abs/2310.01649",
+    "context": "Title: On Training Derivative-Constrained Neural Networks. (arXiv:2310.01649v1 [cs.LG])\nAbstract: We refer to the setting where the (partial) derivatives of a neural network's (NN's) predictions with respect to its inputs are used as additional training signal as a derivative-constrained (DC) NN. This situation is common in physics-informed settings in the natural sciences. We propose an integrated RELU (IReLU) activation function to improve training of DC NNs. We also investigate denormalization and label rescaling to help stabilize DC training. We evaluate our methods on physics-informed settings including quantum chemistry and Scientific Machine Learning (SciML) tasks. We demonstrate that existing architectures with IReLU activations combined with denormalization and label rescaling better incorporate training signal provided by derivative constraints.",
+    "path": "papers/23/10/2310.01649.json",
+    "total_tokens": 884,
+    "translated_title": "关于训练导数约束神经网络",
+    "translated_abstract": "我们将神经网络对输入的预测相对于输入的（部分）导数作为额外的训练信号的情况称之为导数约束神经网络（DC NN）。这种情况在自然科学中的物理相关设置中很常见。我们提出了一种整合RELU (IReLU)激活函数，以改进DC NN的训练。我们还研究了去归一化和标签缩放以帮助稳定DC训练。我们在包括量子化学和科学机器学习（SciML）任务在内的物理相关设置上评估了我们的方法。我们证明了使用IReLU激活函数结合去归一化和标签缩放的现有架构更好地融入了导数约束提供的训练信号。",
+    "tldr": "该论文研究了导数约束神经网络（DC NN），提出了一种整合RELU激活函数（IReLU）来改进DC NN的训练，并探究了去归一化和标签缩放对于稳定DC训练的作用。研究还评估了这些方法在物理相关设置中的效果，证明了使用IReLU激活函数、去归一化和标签缩放的现有架构更好地融入了导数约束提供的训练信号。"
+}

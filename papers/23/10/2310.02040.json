@@ -1,0 +1,12 @@
+{
+    "title": "Jury: A Comprehensive Evaluation Toolkit. (arXiv:2310.02040v1 [cs.CL])",
+    "abstract": "Evaluation plays a critical role in deep learning as a fundamental block of any prediction-based system. However, the vast number of Natural Language Processing (NLP) tasks and the development of various metrics have led to challenges in evaluating different systems with different metrics. To address these challenges, we introduce jury, a toolkit that provides a unified evaluation framework with standardized structures for performing evaluation across different tasks and metrics. The objective of jury is to standardize and improve metric evaluation for all systems and aid the community in overcoming the challenges in evaluation. Since its open-source release, jury has reached a wide audience and is available at https://github.com/obss/jury.",
+    "link": "http://arxiv.org/abs/2310.02040",
+    "context": "Title: Jury: A Comprehensive Evaluation Toolkit. (arXiv:2310.02040v1 [cs.CL])\nAbstract: Evaluation plays a critical role in deep learning as a fundamental block of any prediction-based system. However, the vast number of Natural Language Processing (NLP) tasks and the development of various metrics have led to challenges in evaluating different systems with different metrics. To address these challenges, we introduce jury, a toolkit that provides a unified evaluation framework with standardized structures for performing evaluation across different tasks and metrics. The objective of jury is to standardize and improve metric evaluation for all systems and aid the community in overcoming the challenges in evaluation. Since its open-source release, jury has reached a wide audience and is available at https://github.com/obss/jury.",
+    "path": "papers/23/10/2310.02040.json",
+    "total_tokens": 716,
+    "translated_title": "评委：一个综合评估工具包",
+    "translated_abstract": "评估在深度学习中扮演着一个至关重要的角色，作为任何基于预测的系统的基本模块。然而，大量的自然语言处理（NLP）任务和各种指标的发展导致了使用不同指标评估不同系统的挑战。为了解决这些问题，我们推出了一个名为评委的工具包，提供了一个统一的评估框架和标准化结构，以跨不同任务和指标进行评估。评委的目标是标准化和改进所有系统的度量评估，并帮助社区克服评估中的挑战。自评委的开源发布以来，已经吸引了广大用户，可在https://github.com/obss/jury 上获得。",
+    "tldr": "评委是一个统一的评估框架和工具包，旨在解决深度学习中不同系统和指标的评估挑战，并改进度量评估。",
+    "en_tdlr": "Jury is a unified evaluation framework and toolkit aimed at addressing the evaluation challenges of different systems and metrics in deep learning, and improving metric evaluation."
+}

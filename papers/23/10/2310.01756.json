@@ -1,0 +1,11 @@
+{
+    "title": "Improved Algorithms for Adversarial Bandits with Unbounded Losses. (arXiv:2310.01756v1 [stat.ML])",
+    "abstract": "We consider the Adversarial Multi-Armed Bandits (MAB) problem with unbounded losses, where the algorithms have no prior knowledge on the sizes of the losses. We present UMAB-NN and UMAB-G, two algorithms for non-negative and general unbounded loss respectively. For non-negative unbounded loss, UMAB-NN achieves the first adaptive and scale free regret bound without uniform exploration. Built up on that, we further develop UMAB-G that can learn from arbitrary unbounded loss. Our analysis reveals the asymmetry between positive and negative losses in the MAB problem and provide additional insights. We also accompany our theoretical findings with extensive empirical evaluations, showing that our algorithms consistently out-performs all existing algorithms that handles unbounded losses.",
+    "link": "http://arxiv.org/abs/2310.01756",
+    "context": "Title: Improved Algorithms for Adversarial Bandits with Unbounded Losses. (arXiv:2310.01756v1 [stat.ML])\nAbstract: We consider the Adversarial Multi-Armed Bandits (MAB) problem with unbounded losses, where the algorithms have no prior knowledge on the sizes of the losses. We present UMAB-NN and UMAB-G, two algorithms for non-negative and general unbounded loss respectively. For non-negative unbounded loss, UMAB-NN achieves the first adaptive and scale free regret bound without uniform exploration. Built up on that, we further develop UMAB-G that can learn from arbitrary unbounded loss. Our analysis reveals the asymmetry between positive and negative losses in the MAB problem and provide additional insights. We also accompany our theoretical findings with extensive empirical evaluations, showing that our algorithms consistently out-performs all existing algorithms that handles unbounded losses.",
+    "path": "papers/23/10/2310.01756.json",
+    "total_tokens": 806,
+    "translated_title": "改进的算法用于具有无界损失的对抗性多臂老虎机问题",
+    "translated_abstract": "我们考虑具有无界损失的对抗性多臂老虎机问题，其中算法对损失的大小没有先验知识。我们提出了UMAB-NN和UMAB-G两种算法，分别用于非负和一般的无界损失。对于非负无界损失，UMAB-NN实现了第一个自适应且无需统一探索的遗憾界限。在此基础上，我们进一步发展了UMAB-G，可以学习任意无界损失。我们的分析揭示了MAB问题中正负损失之间的不对称性，并提供了额外的见解。我们还通过大量实证评估来配合我们的理论发现，显示出我们的算法始终优于所有处理无界损失的现有算法。",
+    "tldr": "改进的算法用于解决对抗性多臂老虎机问题，无需先验知识，实现自适应且无需统一探索的遗憾界限，能够处理任意无界损失，并通过实验证明优于现有算法。"
+}

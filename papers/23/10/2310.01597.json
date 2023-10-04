@@ -1,0 +1,12 @@
+{
+    "title": "Pool-Based Active Learning with Proper Topological Regions. (arXiv:2310.01597v1 [cs.LG])",
+    "abstract": "Machine learning methods usually rely on large sample size to have good performance, while it is difficult to provide labeled set in many applications. Pool-based active learning methods are there to detect, among a set of unlabeled data, the ones that are the most relevant for the training. We propose in this paper a meta-approach for pool-based active learning strategies in the context of multi-class classification tasks based on Proper Topological Regions. PTR, based on topological data analysis (TDA), are relevant regions used to sample cold-start points or within the active learning scheme. The proposed method is illustrated empirically on various benchmark datasets, being competitive to the classical methods from the literature.",
+    "link": "http://arxiv.org/abs/2310.01597",
+    "context": "Title: Pool-Based Active Learning with Proper Topological Regions. (arXiv:2310.01597v1 [cs.LG])\nAbstract: Machine learning methods usually rely on large sample size to have good performance, while it is difficult to provide labeled set in many applications. Pool-based active learning methods are there to detect, among a set of unlabeled data, the ones that are the most relevant for the training. We propose in this paper a meta-approach for pool-based active learning strategies in the context of multi-class classification tasks based on Proper Topological Regions. PTR, based on topological data analysis (TDA), are relevant regions used to sample cold-start points or within the active learning scheme. The proposed method is illustrated empirically on various benchmark datasets, being competitive to the classical methods from the literature.",
+    "path": "papers/23/10/2310.01597.json",
+    "total_tokens": 761,
+    "translated_title": "基于正确拓扑区域的池式主动学习",
+    "translated_abstract": "机器学习方法通常依赖于大样本量以获得良好的性能，但在许多应用中很难提供标记集。池式主动学习方法可以从一组未标记的数据中检测出对训练最相关的数据。本文提出了一种基于正确拓扑区域的池式主动学习策略的元方法，用于多类别分类任务。PTR是基于拓扑数据分析(TDA)的相关区域，用于采样冷启动点或在主动学习方案中使用。所提出的方法在各种基准数据集上进行了实证研究，与文献中的经典方法具有竞争力。",
+    "tldr": "本文提出了一种基于正确拓扑区域的池式主动学习策略的元方法，可用于多类别分类任务。该方法在各种基准数据集上进行了实证研究，并与文献中的经典方法具有竞争力。",
+    "en_tdlr": "This paper proposes a meta-approach for pool-based active learning strategies based on Proper Topological Regions (PTR) for multi-class classification tasks. The proposed method is empirically validated on various benchmark datasets and shows competitive performance compared to classical methods in the literature."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A new proof for the existence of Nash equilibrium. (arXiv:2310.01528v1 [econ.TH])",
+    "abstract": "We present a new proof for the existence of a Nash equilibrium, which involves no fixed point theorem. The self-contained proof consists of two parts. The first part introduces the notions of root function and pre-equilibrium. The second part shows the existence of pre-equilibria and Nash equilibria.",
+    "link": "http://arxiv.org/abs/2310.01528",
+    "context": "Title: A new proof for the existence of Nash equilibrium. (arXiv:2310.01528v1 [econ.TH])\nAbstract: We present a new proof for the existence of a Nash equilibrium, which involves no fixed point theorem. The self-contained proof consists of two parts. The first part introduces the notions of root function and pre-equilibrium. The second part shows the existence of pre-equilibria and Nash equilibria.",
+    "path": "papers/23/10/2310.01528.json",
+    "total_tokens": 500,
+    "translated_title": "对纳什均衡存在性的新证明",
+    "translated_abstract": "我们提出了一种对纳什均衡存在性的新证明方法，该方法不涉及不动点定理。这个自包含的证明由两部分组成。第一部分介绍了根函数和预均衡的概念。第二部分证明了预均衡和纳什均衡的存在性。",
+    "tldr": "本论文提出了一种新的证明方法，证明了纳什均衡的存在性，并且不依赖于任何不动点定理。",
+    "en_tdlr": "This paper presents a new proof for the existence of Nash equilibrium without relying on any fixed point theorem."
+}

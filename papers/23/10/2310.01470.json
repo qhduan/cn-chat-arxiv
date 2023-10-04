@@ -1,0 +1,11 @@
+{
+    "title": "Challenges in Modelling and Solving Plotting with PDDL. (arXiv:2310.01470v1 [cs.AI])",
+    "abstract": "We study a planning problem based on Plotting, a tile-matching puzzle video game published by Taito in 1989. The objective of this game is to remove a target number of coloured blocks from a grid by sequentially shooting blocks into the grid. Plotting features complex transitions after every shot: various blocks are affected directly, while others can be indirectly affected by gravity. We highlight the challenges of modelling Plotting with PDDL and of solving it with a grounding-based state-of-the-art planner.",
+    "link": "http://arxiv.org/abs/2310.01470",
+    "context": "Title: Challenges in Modelling and Solving Plotting with PDDL. (arXiv:2310.01470v1 [cs.AI])\nAbstract: We study a planning problem based on Plotting, a tile-matching puzzle video game published by Taito in 1989. The objective of this game is to remove a target number of coloured blocks from a grid by sequentially shooting blocks into the grid. Plotting features complex transitions after every shot: various blocks are affected directly, while others can be indirectly affected by gravity. We highlight the challenges of modelling Plotting with PDDL and of solving it with a grounding-based state-of-the-art planner.",
+    "path": "papers/23/10/2310.01470.json",
+    "total_tokens": 587,
+    "translated_title": "PDDL建模和求解Plotting的挑战",
+    "translated_abstract": "我们研究了基于1989年Taito公司发布的拼图游戏Plotting的计划问题。该游戏的目标是通过顺序射击块进入网格来移除指定数量的彩色块。Plotting在每次射击后都会出现复杂的转变：一些块会直接受影响，而其他块可能会间接受到重力的影响。我们重点讨论了使用PDDL进行Plotting建模和使用基于基础的现有规划器求解的挑战。",
+    "tldr": "研究了基于拼图游戏Plotting的计划问题的PDDL建模和求解挑战。"
+}

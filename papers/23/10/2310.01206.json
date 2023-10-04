@@ -1,0 +1,12 @@
+{
+    "title": "appjsonify: An Academic Paper PDF-to-JSON Conversion Toolkit. (arXiv:2310.01206v2 [cs.CL] UPDATED)",
+    "abstract": "We present appjsonify, a Python-based PDF-to-JSON conversion toolkit for academic papers. It parses a PDF file using several visual-based document layout analysis models and rule-based text processing approaches. appjsonify is a flexible tool that allows users to easily configure the processing pipeline to handle a specific format of a paper they wish to process. We are publicly releasing appjsonify as an easy-to-install toolkit available via PyPI and GitHub.",
+    "link": "http://arxiv.org/abs/2310.01206",
+    "context": "Title: appjsonify: An Academic Paper PDF-to-JSON Conversion Toolkit. (arXiv:2310.01206v2 [cs.CL] UPDATED)\nAbstract: We present appjsonify, a Python-based PDF-to-JSON conversion toolkit for academic papers. It parses a PDF file using several visual-based document layout analysis models and rule-based text processing approaches. appjsonify is a flexible tool that allows users to easily configure the processing pipeline to handle a specific format of a paper they wish to process. We are publicly releasing appjsonify as an easy-to-install toolkit available via PyPI and GitHub.",
+    "path": "papers/23/10/2310.01206.json",
+    "total_tokens": 586,
+    "translated_title": "appjsonify：一种学术论文PDF到JSON转换工具包",
+    "translated_abstract": "我们提出了appjsonify，一种基于Python的学术论文PDF到JSON转换工具包。它使用多种基于视觉的文档布局分析模型和基于规则的文本处理方法来解析PDF文件。appjsonify是一个灵活的工具，允许用户轻松配置处理流程，以处理特定格式的论文。我们公开发布appjsonify作为一个易于安装的工具包，可以通过PyPI和GitHub获得。",
+    "tldr": "appjsonify是一种学术论文PDF到JSON转换工具包，它使用多种模型和方法解析PDF文件，并且允许用户灵活配置处理流程。",
+    "en_tdlr": "appjsonify is a toolkit for converting academic paper PDFs to JSON, using various models and methods for parsing the PDF files, and allowing users to easily configure the processing pipeline."
+}

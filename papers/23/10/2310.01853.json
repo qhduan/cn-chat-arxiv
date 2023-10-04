@@ -1,0 +1,12 @@
+{
+    "title": "Score-based Data Assimilation for a Two-Layer Quasi-Geostrophic Model. (arXiv:2310.01853v1 [stat.ML])",
+    "abstract": "Data assimilation addresses the problem of identifying plausible state trajectories of dynamical systems given noisy or incomplete observations. In geosciences, it presents challenges due to the high-dimensionality of geophysical dynamical systems, often exceeding millions of dimensions. This work assesses the scalability of score-based data assimilation (SDA), a novel data assimilation method, in the context of such systems. We propose modifications to the score network architecture aimed at significantly reducing memory consumption and execution time. We demonstrate promising results for a two-layer quasi-geostrophic model.",
+    "link": "http://arxiv.org/abs/2310.01853",
+    "context": "Title: Score-based Data Assimilation for a Two-Layer Quasi-Geostrophic Model. (arXiv:2310.01853v1 [stat.ML])\nAbstract: Data assimilation addresses the problem of identifying plausible state trajectories of dynamical systems given noisy or incomplete observations. In geosciences, it presents challenges due to the high-dimensionality of geophysical dynamical systems, often exceeding millions of dimensions. This work assesses the scalability of score-based data assimilation (SDA), a novel data assimilation method, in the context of such systems. We propose modifications to the score network architecture aimed at significantly reducing memory consumption and execution time. We demonstrate promising results for a two-layer quasi-geostrophic model.",
+    "path": "papers/23/10/2310.01853.json",
+    "total_tokens": 700,
+    "translated_title": "基于评分的数据同化在双层拟地转动模型中的应用",
+    "translated_abstract": "数据同化解决了在给定嘈杂或不完整观测情况下，确定动力系统可行状态轨迹的问题。在地球科学中，由于地球物理动力系统的高维度性，往往超过了数百万维度，因此存在挑战。本文评估了基于评分的数据同化（SDA）这一新颖的数据同化方法在此类系统中的可扩展性。我们提出了针对评分网络架构的修改，旨在显著减少内存消耗和执行时间。我们在一个双层拟地转动模型中展示了有希望的结果。",
+    "tldr": "本论文评估了基于评分的数据同化方法在高维度的地球物理动力系统中的可扩展性，并通过在双层拟地转动模型上的实验证明了该方法的良好性能。",
+    "en_tdlr": "This paper evaluates the scalability of score-based data assimilation method in high-dimensional geophysical dynamical systems and demonstrates its promising performance through experiments on a two-layer quasi-geostrophic model."
+}

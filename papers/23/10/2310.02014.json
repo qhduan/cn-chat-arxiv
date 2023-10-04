@@ -1,0 +1,12 @@
+{
+    "title": "Utility-based acceptability indices. (arXiv:2310.02014v1 [q-fin.RM])",
+    "abstract": "In this short paper we introduce a new class of performance measures based on certainty equivalents defined via scaled utility functions. We analyse their properties, show that the corresponding portfolio optimization problem is well-posed under generic conditions, and analyse the link between portfolio dynamics, benchmark process, and utility function choice in the long-run setting.",
+    "link": "http://arxiv.org/abs/2310.02014",
+    "context": "Title: Utility-based acceptability indices. (arXiv:2310.02014v1 [q-fin.RM])\nAbstract: In this short paper we introduce a new class of performance measures based on certainty equivalents defined via scaled utility functions. We analyse their properties, show that the corresponding portfolio optimization problem is well-posed under generic conditions, and analyse the link between portfolio dynamics, benchmark process, and utility function choice in the long-run setting.",
+    "path": "papers/23/10/2310.02014.json",
+    "total_tokens": 590,
+    "translated_title": "基于效用的可接受指数",
+    "translated_abstract": "在本短文中，我们介绍了一种基于通过缩放效用函数定义的确定等价物的新型绩效测量方法。我们分析了其性质，展示了在一般条件下相应的投资组合优化问题是良态的，并分析了投资组合动态、基准过程和效用函数选择在长期环境中的关联。",
+    "tldr": "本文介绍了一种基于缩放效用函数定义的确定等价物的新型绩效测量方法，并分析了其性质和投资组合优化问题的良态性。我们还研究了投资组合动态、基准过程和效用函数选择在长期环境中的关联。",
+    "en_tdlr": "This paper introduces a new class of performance measures based on certainty equivalents defined via scaled utility functions. It analyzes their properties and shows that the corresponding portfolio optimization problem is well-posed under generic conditions. The link between portfolio dynamics, benchmark process, and utility function choice in the long-run setting is also analyzed."
+}

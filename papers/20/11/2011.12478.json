@@ -1,0 +1,12 @@
+{
+    "title": "Minimax Estimation of Distances on a Surface and Minimax Manifold Learning in the Isometric-to-Convex Setting. (arXiv:2011.12478v2 [stat.ML] UPDATED)",
+    "abstract": "We start by considering the problem of estimating intrinsic distances on a smooth submanifold. We show that minimax optimality can be obtained via a reconstruction of the surface, and discuss the use of a particular mesh construction -- the tangential Delaunay complex -- for that purpose. We then turn to manifold learning and argue that a variant of Isomap where the distances are instead computed on a reconstructed surface is minimax optimal for the isometric variant of the problem.",
+    "link": "http://arxiv.org/abs/2011.12478",
+    "context": "Title: Minimax Estimation of Distances on a Surface and Minimax Manifold Learning in the Isometric-to-Convex Setting. (arXiv:2011.12478v2 [stat.ML] UPDATED)\nAbstract: We start by considering the problem of estimating intrinsic distances on a smooth submanifold. We show that minimax optimality can be obtained via a reconstruction of the surface, and discuss the use of a particular mesh construction -- the tangential Delaunay complex -- for that purpose. We then turn to manifold learning and argue that a variant of Isomap where the distances are instead computed on a reconstructed surface is minimax optimal for the isometric variant of the problem.",
+    "path": "papers/20/11/2011.12478.json",
+    "total_tokens": 649,
+    "translated_title": "表面上的极小估计距离和等距到凸处理中的极小流形学习",
+    "translated_abstract": "我们首先考虑了在光滑次流形上估计内禀距离的问题。我们展示了通过对表面进行重建可以获得极小最优性，并讨论了用于此目的的特定网格构造——切点Delaunay复合体的使用。然后我们转向流形学习，并认为在重建的表面上计算距离的Isomap变体对于等距问题的极小最优性是合适的。",
+    "tldr": "研究通过表面重建来获得在光滑次流形上估计内在距离的极小最优性以及在等距问题中使用重建表面计算距离的Isomap变体的极小最优性。",
+    "en_tdlr": "This paper discusses the minimax estimation of intrinsic distances on a smooth submanifold using surface reconstruction and argues that Isomap variant with distances computed on a reconstructed surface is minimax optimal for isometric problems."
+}

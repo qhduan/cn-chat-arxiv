@@ -2,47 +2,110 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [EIP-4844 Economics and Rollup Strategies.](http://arxiv.org/abs/2310.01155) | EIP-4844提案研究了对Rollup策略的经济学影响，发现低交易到达率的Rollup倾向于使用常规区块空间市场，同时共享的blob发布并不总是对参与的Rollup有益。 |
-| [^2] | [Impact of Economic Uncertainty, Geopolitical Risk, Pandemic, Financial & Macroeconomic Factors on Crude Oil Returns -- An Empirical Investigation.](http://arxiv.org/abs/2310.01123) | 本研究使用同时分位数回归方法，研究了宏观经济和金融不确定性对原油期货回报的影响。研究发现，这些因素对原油回报的影响在不同时期和市场条件下存在差异。这些结果可用于指导投资决策和构建风险与收益平衡的投资组合。 |
-| [^3] | [Multi-period static hedging of European options.](http://arxiv.org/abs/2310.01104) | 本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。 |
-| [^4] | [Semidiscrete optimal transport with unknown costs.](http://arxiv.org/abs/2310.00786) | 本文研究了具有未知成本的半离散最优输运问题，提出了一种采用在线学习和随机逼近相结合的半局部算法，并证明其具有最优的收敛速度。 |
-| [^5] | [Review on Decarbonizing the Transportation Sector in China: Overview, Analysis, and Perspectives.](http://arxiv.org/abs/2310.00613) | 这篇综述总结了中国交通部门脱碳面临的挑战和有效策略，并提出了通过使用“避免、转移、改进”框架以及“机构能力与技术发展”的新战略矢量，推动中国向可持续交通未来过渡的综合分析。 |
-| [^6] | [CausalGPS: An R Package for Causal Inference With Continuous Exposures.](http://arxiv.org/abs/2310.00561) | CausalGPS是一个R包，用于实现连续曝光的因果推断，并提供了灵活的估计和调整混淆的方法。 |
-| [^7] | [Separately Convex and Separately Continuous Preferences: On Results of Schmeidler, Shafer, and Bergstrom-Parks-Rader.](http://arxiv.org/abs/2310.00531) | 本研究提出了一种对于在有限维欧氏空间中取值的对应关系成为开关系的充分必要条件，并通过引入分别凸性的概念，将其与经典的连续性概念联系起来，从而提供了一种凸性-连续性假设的合并，并对选择理论中的相关概念进行了讨论。 |
-| [^8] | [Reconstructing supply networks.](http://arxiv.org/abs/2310.00446) | 该论文回顾了关于重构生产网络的文献，介绍了如何通过观察数据来推断供应网络的拓扑结构，并讨论了这一任务的重要性和独特性。 |
-| [^9] | [On Sinkhorn's Algorithm and Choice Modeling.](http://arxiv.org/abs/2310.00260) | 该论文研究了使用Luce的选择公理为基础的一类选择和排名模型，证明了与最大似然估计问题等效的经典矩阵平衡问题。通过Sinkhorn算法，将选择建模算法统一为矩阵平衡算法的特例。论文还解决了Sinkhorn算法研究中的重要问题，包括对于非负矩阵的全局线性收敛和尖锐渐近速度的描述。 |
-| [^10] | [The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES.](http://arxiv.org/abs/2310.00231) | 本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。 |
-| [^11] | [Identification, Impacts, and Opportunities of Three Common Measurement Considerations when using Digital Trace Data.](http://arxiv.org/abs/2310.00197) | 通过使用数字痕迹数据，我们发现了三个测量挑战：纠缠、平坦化和捆绑。这些挑战会引入额外的不确定性和错误，但也提供了深入了解媒体使用和内容消费的机会。 |
-| [^12] | [Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity.](http://arxiv.org/abs/2309.16186) | 本论文通过引入随机利率模型和非线性融资成本来探讨气候变化减缓模型中的代际公平问题。研究结果表明，最优的随机减排路径可能会增加成本和风险相关的代际不平等，但通过融资成本的引入可以改善这种情况。 |
-| [^13] | [Reserve Matching with Thresholds.](http://arxiv.org/abs/2309.13766) | 本文提出了一个新的智能保留系统，使用阈值模型允许独立的优先级排序和任意的受益人和资格阈值，以实现优化分配单元数的分配。 |
-| [^14] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
-| [^15] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
-| [^16] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
-| [^17] | [Bridging TSLS and JIVE.](http://arxiv.org/abs/2305.17615) | 本文提出了一种桥接TSLS和JIVE的新方法TSJI来处理内生性，具有用户定义参数λ，可以近似无偏，且在许多工具变量渐进情况下是一致且渐进正常的。 |
-| [^18] | [Nash implementation in a many-to-one matching market.](http://arxiv.org/abs/2305.13956) | 在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。 |
-| [^19] | [The Isotonic Mechanism for Exponential Family Estimation.](http://arxiv.org/abs/2304.11160) | 本文利用扩展的保序机制，将其应用于指数族分布以提高同行评审的质量，并发现作者的同行评分可以较准确地在不需要知道具体分布情况下进行调整。 |
-| [^20] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^21] | [Party On: The Labor Market Returns to Social Networks in Adolescence.](http://arxiv.org/abs/2210.09426) | 本研究调查了青少年时期与成年期收入之间的友谊回报。通过采用一种新的方法，文中发现青少年时期多交一个朋友可以使收入增加7%到14%。这个结果远大于传统方法的估计值，传统方法会因为测量误差和遗漏变量导致显著的向下偏误。 |
-| [^22] | [Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data.](http://arxiv.org/abs/2208.03815) | 本研究通过分析瑞士家庭面板数据和监管数据，发现在瑞士强制医疗保险市场上存在选择性道德风险，高道德风险类型对高保障计划的响应比平均水平高25-35%。 |
-| [^23] | [Predicting Inflation with Recurrent Neural Networks.](http://arxiv.org/abs/2104.03757) | 本文应用LSTM循环神经网络模型，研究了预测通货膨胀的能力，并发现在长期预测和宏观经济不确定性加剧期间表现良好。有趣的是，LSTM所涉及的因素与商业周期指标高度相关，这说明这些信号作为通胀预测因子的实用性。 |
+| [^1] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
+| [^2] | [Student debt and behavioral bias: a trillion dollar problem.](http://arxiv.org/abs/2310.02081) | 本文综述了行为偏差对学生债务选择的影响以及社交媒体在债务管理中的潜在作用。 |
+| [^3] | [fmeffects: An R Package for Forward Marginal Effects.](http://arxiv.org/abs/2310.02008) | fmeffects是第一个实现前向边际效应（FMEs）的R软件包。 |
+| [^4] | [Specification testing with grouped fixed effects.](http://arxiv.org/abs/2310.01950) | 本研究提出了一种用于固定效应面板数据模型中未观察到的异质性正确规范测试的bootstrap广义Hausman测试。测试结合了新开发的双向分组固定效应估计器，并使用参数百分位bootstrap计算临界值，具有正确的大小和良好的功效特性。 |
+| [^5] | [The Dictator Equation: The Distortion of Information Flow in Autocratic Regimes and Its Consequences.](http://arxiv.org/abs/2310.01666) | 专制政权中的信息流扭曲及其后果的模型表明，在短期可以带来改善，但随后会导致国家逐渐恶化。顾问的欺骗程度与困难程度成正比。 |
+| [^6] | [A new proof for the existence of Nash equilibrium.](http://arxiv.org/abs/2310.01528) | 本论文提出了一种新的证明方法，证明了纳什均衡的存在性，并且不依赖于任何不动点定理。 |
+| [^7] | [Impact of Economic Uncertainty, Geopolitical Risk, Pandemic, Financial & Macroeconomic Factors on Crude Oil Returns -- An Empirical Investigation.](http://arxiv.org/abs/2310.01123) | 本研究使用同时分位数回归方法，研究了宏观经济和金融不确定性对原油期货回报的影响。研究发现，这些因素对原油回报的影响在不同时期和市场条件下存在差异。这些结果可用于指导投资决策和构建风险与收益平衡的投资组合。 |
+| [^8] | [Fixed-b Asymptotics for Panel Models with Two-Way Clustering.](http://arxiv.org/abs/2309.08707) | 本文研究了一个对双向聚类依赖具有相关共同时间效应的面板模型的方差估计方法，并提出了两个偏差校正的方差估计器。研究结果表明，该方差估计方法的固定b渐近理论与文献中的渐近正态结果相吻合。 |
+| [^9] | [Another Look at the Linear Probability Model and Nonlinear Index Models.](http://arxiv.org/abs/2308.15338) | 本文重新评估了使用线性模型来近似二元结果的响应概率的部分效应的利弊，并重点研究了平均部分效应而不是底层线性指数的参数。通过模拟实验，发现OLS近似或不近似APE的各种情况，并提出了一种实用的方法来减少OLS的有限样本偏差，结果表明该方法与非线性最小二乘（NLS）估计数值上相等。 |
+| [^10] | [Contagion Effects of the Silicon Valley Bank Run.](http://arxiv.org/abs/2308.06642) | 本文分析了硅谷银行失败的传染效应及其对其他银行的负面影响。无保险存款、未实现损失、银行规模和现金持有对溢出产生显著影响，而高质量资产或流动性证券对溢出没有帮助。在硅谷银行失败后，中型银行立即受到压力，随着时间的推移，负面溢出变得普遍。 |
+| [^11] | [Transaction Fee Mechanism Design with Active Block Producers.](http://arxiv.org/abs/2307.01686) | 通过引入活跃的区块生产者，本文研究了区块链交易费机制的激励兼容性。研究结果表明，在存在主动区块生产者的情况下，既能激励用户又能激励区块生产者的非平凡交易费机制设计是根本困难的。 |
+| [^12] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
+| [^13] | [Policy Learning with Rare Outcomes.](http://arxiv.org/abs/2302.05260) | 在政策学习中，使用估计的条件平均处理效应（CATE）的政策树优于使用双重鲁棒得分学习的树，因果森林和标准化双重鲁棒学习器在各种设置下的表现较好。 |
+| [^14] | [Geometry of Set Functions in Game Theory: Combinatorial and Computational Aspects.](http://arxiv.org/abs/2301.02950) | 本论文通过研究合作博弈论中集合函数的几何性质，提出了一种新的多面体，通过应用广义的Bondareva-Shapley定理进行验证。同时，还提出了一系列算法过程来检验性质或生成特定的联盟集合。 |
+| [^15] | [Limited-Trust in Diffusion of Competing Alternatives over Social Networks.](http://arxiv.org/abs/2206.06318) | 我们研究了在社交网络中扩散竞争选项的过程中有限信任的影响。通过使用有限信任均衡，我们分析了扩散的收敛性和均衡状态，并发现其与线性阈值模型的关联。 |
+| [^16] | [Detecting Identification Failure in Moment Condition Models.](http://arxiv.org/abs/1907.13093) | 本文提出了一种在矩条件模型中检测识别失败的方法，通过引入准雅可比矩阵并进行简单的检验，可以在不需要先验知识的情况下进行子向量推断，这在经济学中具有重要的应用价值。 |
 
 # 详细
 
-[^1]: EIP-4844经济学与Rollup策略
+[^1]: 数字产品的增长、地理和贸易影响
 
-    EIP-4844 Economics and Rollup Strategies. (arXiv:2310.01155v1 [cs.GT])
+    The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.01155](http://arxiv.org/abs/2310.01155)
+    [http://arxiv.org/abs/2310.02253](http://arxiv.org/abs/2310.02253)
 
-    EIP-4844提案研究了对Rollup策略的经济学影响，发现低交易到达率的Rollup倾向于使用常规区块空间市场，同时共享的blob发布并不总是对参与的Rollup有益。
+    本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。
 
     
 
-    我们研究了Ethereum改进提案4844的经济学以及对Rollup数据发布策略的影响。Rollup的成本包括两部分：数据发布成本和延迟成本。在新的提案中，数据发布成本与blob发布成本相对应，并在每个区块中固定，无论Rollup利用了多少blob。这个权衡是清晰的：Rollup更倾向于发布一个完整的blob，但是如果其交易到达率较低，填充blob空间会导致较大的延迟成本。论文的第一个结果显示，如果一个Rollup的交易到达率太低，它更倾向于使用常规的区块空间市场进行数据发布，因为它提供了更灵活的成本结构。其次，我们表明共享的blob发布并不总是对参与的Rollup有益的，均衡中的聚合blob发布成本的变化取决于参与的Rollup的类型。最后，我们从公理角度讨论blob成本分摊规则。
+    尽管全球努力协调国际贸易统计数据，我们对数字产品的贸易及其影响的理解仍然不清楚。在这里，我们通过引入一个新的数字产品出口和进口数据集，研究数字产品贸易的五个关键方面。首先，我们表明与实物商品贸易相比，数字产品出口的起源更加空间集中。其次，我们表明在2016年至2021年之间，数字产品贸易增长速度快于实物贸易，年均增长率为20%，而实物贸易为6%。第三，我们表明数字产品贸易规模足够大，可以在一定程度上抵消一些重要的贸易平衡估计，如美国的实物贸易逆差。第四，我们表明那些将经济增长与温室气体排放分离的国家，在数字产品领域拥有较大且增长更快的出口。最后，我们将数字产品纳入经济复杂性的衡量指标中。
 
-    We study the economics of the Ethereum improvement proposal 4844 and its effect on rollups' data posting strategies. Rollups' cost consists of two parts: data posting and delay. In the new proposal, the data posting cost corresponds to a blob posting cost and is fixed in each block, no matter how much of the blob is utilized by the rollup. The tradeoff is clear: the rollup prefers to post a full blob, but if its transaction arrival rate is low, filling up a blob space causes too large delay cost. The first result of the paper shows that if a rollup transaction arrival rate is too low, it prefers to use the regular blockspace market for data posting, as it offers a more flexible cost structure. Second, we show that shared blob posting is not always beneficial for participating rollups and change in the aggregate blob posting cost in the equilibrium depends on the types of participating rollups. In the end, we discuss blob cost-sharing rules from an axiomatic angle.
+    Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
     
-[^2]: 经济不确定性、地缘政治风险、疫情、金融和宏观经济因素对原油回报的影响——实证研究
+[^2]: 学生债务和行为偏差：一个万亿美元的问题
+
+    Student debt and behavioral bias: a trillion dollar problem. (arXiv:2310.02081v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.02081](http://arxiv.org/abs/2310.02081)
+
+    本文综述了行为偏差对学生债务选择的影响以及社交媒体在债务管理中的潜在作用。
+
+    
+
+    本文综述了行为偏差对学生在借贷需求偏好方面做出的跨期选择所产生的影响，特别是那些源自于过度自信和框架的偏差。次要目标是了解社交媒体在帮助学生和年轻借款人进行债务偿还和贷款期限管理方面的潜在作用。对文献的仔细研究揭示了这些行为和认知原则对学生在债务偿还方面的跨期选择产生了重要影响。这不仅影响了他们获取的贷款规模，还影响了与偿还相关的贷款条件的锚定。此外，我证明利用社交媒体有潜力培养金融素养，增强对贷款条件的理解，加速债务清偿过程。此综述可作为学生和年轻借款人的有价值的知识库。
+
+    This literature review elucidates the implications of behavioral biases, particularly those stemming from overconfidence and framing, on the intertemporal choices made by students on their underline demand preferences for student loans. A secondary objective is to understand the potential utility of social media to assist students and young borrowers with the debt repayment process and management of their loan tenures. A close examination of the literature reveals a substantial influence of these behavioral and cognitive principles on the intertemporal choices made by students towards debt repayments. This affects not only the magnitude of loans they acquire but also the anchoring of the terms of loan conditions associated with repayment. Furthermore, I establish that harnessing social media as the potential to cultivate financial literacy and enhanced understanding of loan terms to expedite the process of debt redemption. This review could serve as a valuable repository for students, 
+    
+[^3]: fmeffects: 一个用于前向边际效应的R软件包
+
+    fmeffects: An R Package for Forward Marginal Effects. (arXiv:2310.02008v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.02008](http://arxiv.org/abs/2310.02008)
+
+    fmeffects是第一个实现前向边际效应（FMEs）的R软件包。
+
+    
+
+    前向边际效应（FMEs）作为一种通用有效的模型不可知解释方法最近被引入。它们以“如果我们将$x$改变$h$，那么预测结果$\widehat{y}$会发生什么变化？”的形式提供易于理解和可操作的模型解释。本文介绍了fmeffects软件包，这是FMEs的第一个软件实现。讨论了相关的理论背景、软件包功能和处理方式，以及软件设计和未来扩展的选项。
+
+    Forward marginal effects (FMEs) have recently been introduced as a versatile and effective model-agnostic interpretation method. They provide comprehensible and actionable model explanations in the form of: If we change $x$ by an amount $h$, what is the change in predicted outcome $\widehat{y}$? We present the R package fmeffects, the first software implementation of FMEs. The relevant theoretical background, package functionality and handling, as well as the software design and options for future extensions are discussed in this paper.
+    
+[^4]: 带有分组固定效应的规范测试
+
+    Specification testing with grouped fixed effects. (arXiv:2310.01950v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.01950](http://arxiv.org/abs/2310.01950)
+
+    本研究提出了一种用于固定效应面板数据模型中未观察到的异质性正确规范测试的bootstrap广义Hausman测试。测试结合了新开发的双向分组固定效应估计器，并使用参数百分位bootstrap计算临界值，具有正确的大小和良好的功效特性。
+
+    
+
+    我们提出了一种用于线性和非线性固定效应面板数据模型中未观察到的异质性正确规范测试的bootstrap广义Hausman测试。我们考虑两种零假设情况，即未观察到的异质性要么是时间不变的，要么是被指定为加性个体和时间效应。我们将标准的固定效应估计器与最近开发的双向分组固定效应估计器进行对比，该估计器在最小规范和分布假设下在存在时变异性时一致，并对未观察到的效应进行了近似。Hausman测试利用了对对比向量方差的一般公式，通过参数百分位bootstrap计算临界值，以考虑由于偶然参数和近似偏差引起的渐近卡方分布的非中心性。蒙特卡洛证据显示该测试具有正确的大小和良好的功效特性。
+
+    We propose a bootstrap generalized Hausman test for the correct specification of unobserved heterogeneity in both linear and nonlinear fixed-effects panel data models. We consider as null hypotheses two scenarios in which the unobserved heterogeneity is either time-invariant or specified as additive individual and time effects. We contrast the standard fixed-effects estimators with the recently developed two-way grouped fixed-effects estimator, that is consistent in the presence of time-varying heterogeneity under minimal specification and distributional assumptions for the unobserved effects. The Hausman test exploits the general formulation for the variance of the vector of contrasts and critical values are computed via parametric percentile bootstrap, so as to account for the non-centrality of the asymptotic chi-square distribution arising from the incidental parameters and approximation biases. Monte Carlo evidence shows that the test has correct size and good power properties. We 
+    
+[^5]: 独裁者方程：专制政权中信息流的扭曲及其后果
+
+    The Dictator Equation: The Distortion of Information Flow in Autocratic Regimes and Its Consequences. (arXiv:2310.01666v1 [nlin.AO])
+
+    [http://arxiv.org/abs/2310.01666](http://arxiv.org/abs/2310.01666)
+
+    专制政权中的信息流扭曲及其后果的模型表明，在短期可以带来改善，但随后会导致国家逐渐恶化。顾问的欺骗程度与困难程度成正比。
+
+    
+
+    人们对专制与民主政权的利弊争论已有数千年之久。例如，《理想国》中的柏拉图更青睐于精英专制政权，认为这是启蒙的政权形式，而非民主体制。现代独裁者通常在上台时承诺快速解决社会问题和长期稳定。我提出了一个以国家最佳利益为出发点的独裁模型。该模型基于以下前提：a) 独裁者只依赖顾问的信息来决定国家发展的方向；b) 顾问的欺骗不会随时间减少；c) 顾问的欺骗程度会随国家所遇到的困难而增加。该模型展示了短期改善（几个月到一年），随后出现不稳定情况，导致国家逐渐恶化多年。我推导出了一些适用于所有独裁者的普遍参数，并证明了顾问的欺骗程度与困难程度成正比。
+
+    Humans have been arguing about the benefits of dictatorial versus democratic regimes for millennia. For example, Plato, in The Republic, favored Aristocracy,, the enlightened autocratic regime, to democracy. Modern dictators typically come to power promising quick solutions to societal problems and long-term stability}. I present a model of a dictatorship with the country's best interests in mind. The model is based on the following premises: a) the dictator forces the country to follow the desired trajectory of development only from the information from the advisors; b) the deception from the advisors cannot decrease in time; and c) the deception increases based on the difficulties the country encounters. The model shows an improvement in the short term (a few months to a year), followed by instability leading to the country's gradual deterioration over many years. I derive some universal parameters applicable to all dictators and show that advisors' deception increases in parallel wi
+    
+[^6]: 对纳什均衡存在性的新证明
+
+    A new proof for the existence of Nash equilibrium. (arXiv:2310.01528v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.01528](http://arxiv.org/abs/2310.01528)
+
+    本论文提出了一种新的证明方法，证明了纳什均衡的存在性，并且不依赖于任何不动点定理。
+
+    
+
+    我们提出了一种对纳什均衡存在性的新证明方法，该方法不涉及不动点定理。这个自包含的证明由两部分组成。第一部分介绍了根函数和预均衡的概念。第二部分证明了预均衡和纳什均衡的存在性。
+
+    We present a new proof for the existence of a Nash equilibrium, which involves no fixed point theorem. The self-contained proof consists of two parts. The first part introduces the notions of root function and pre-equilibrium. The second part shows the existence of pre-equilibria and Nash equilibria.
+    
+[^7]: 经济不确定性、地缘政治风险、疫情、金融和宏观经济因素对原油回报的影响——实证研究
 
     Impact of Economic Uncertainty, Geopolitical Risk, Pandemic, Financial & Macroeconomic Factors on Crude Oil Returns -- An Empirical Investigation. (arXiv:2310.01123v1 [econ.EM])
 
@@ -56,298 +119,130 @@
 
     This study aims to use simultaneous quantile regression (SQR) to examine the impact of macroeconomic and financial uncertainty including global pandemic, geopolitical risk on the futures returns of crude oil (ROC). The data for this study is sourced from the FRED (Federal Reserve Economic Database) economic dataset; the importance of the factors have been validated by using variation inflation factor (VIF) and principal component analysis (PCA). To fully understand the combined effect of these factors on WTI, study includes interaction terms in the multi-factor model. Empirical results suggest that changes in ROC can have varying impacts depending on the specific period and market conditions. The results can be used for informed investment decisions and to construct portfolios that are well-balanced in terms of risk and return. Structural breaks, such as changes in global economic conditions or shifts in demand for crude oil, can cause return on crude oil to be sensitive to changes in 
     
-[^3]: 多期欧式期权的静态对冲
+[^8]: 带有双向聚类的面板模型的固定b渐近理论
 
-    Multi-period static hedging of European options. (arXiv:2310.01104v1 [q-fin.MF])
+    Fixed-b Asymptotics for Panel Models with Two-Way Clustering. (arXiv:2309.08707v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.01104](http://arxiv.org/abs/2310.01104)
+    [http://arxiv.org/abs/2309.08707](http://arxiv.org/abs/2309.08707)
 
-    本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。
-
-    
-
-    本文考虑了在基础资产价格遵循单因素马尔可夫框架的情况下对欧式期权进行对冲。Carr和Wu [1]在这样的设置下，导出了给定期权与在同一资产上写的一系列较短期限期权之间的跨度关系。在本文中，我们将他们的方法扩展到同时包括多个短期到期的期权。然后，我们使用高斯求积方法通过有限的一组短期期权确定对冲误差的实际实现。我们对\textit{Black-Scholes}和\textit{Merton Jump Diffusion}模型进行了广泛的实验，展示了这两种方法的比较性能。
-
-    We consider the hedging of European options when the price of the underlying asset follows a single-factor Markovian framework. By working in such a setting, Carr and Wu \cite{carr2014static} derived a spanning relation between a given option and a continuum of shorter-term options written on the same asset. In this paper, we have extended their approach to simultaneously include options over multiple short maturities. We then show a practical implementation of this with a finite set of shorter-term options to determine the hedging error using a Gaussian Quadrature method. We perform a wide range of experiments for both the \textit{Black-Scholes} and \textit{Merton Jump Diffusion} models, illustrating the comparative performance of the two methods.
-    
-[^4]: 具有未知成本的半离散最优输运
-
-    Semidiscrete optimal transport with unknown costs. (arXiv:2310.00786v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.00786](http://arxiv.org/abs/2310.00786)
-
-    本文研究了具有未知成本的半离散最优输运问题，提出了一种采用在线学习和随机逼近相结合的半局部算法，并证明其具有最优的收敛速度。
+    本文研究了一个对双向聚类依赖具有相关共同时间效应的面板模型的方差估计方法，并提出了两个偏差校正的方差估计器。研究结果表明，该方差估计方法的固定b渐近理论与文献中的渐近正态结果相吻合。
 
     
 
-    半离散最优输运是线性规划中经典输运问题的一种有挑战性的推广。其目标是以固定边际分布的方式设计两个随机变量（一个连续，一个离散）的联合分布，以最小化期望成本。我们提出了这个问题的一个新型变体，其中成本函数是未知的，但可以通过噪声观测学习；然而，每次只能采样一个函数。我们开发了一种半局部算法，将在线学习与随机逼近相结合，并证明其实现了最优的收敛速度，尽管随机梯度的非光滑性和目标函数的缺乏强凹性。
+    本文研究了由Chiang, Hansen和Sasaki (2022)提出的一种对面板数据中具有相关共同时间效应的双向聚类依赖的方差估计方法。首先，我们通过代数方法证明了该方差估计方法（以下简称CHS估计器）是三种常见方差估计方法的线性组合：Arellano (1987)的聚类估计器、Driscoll和Kraay (1998)的“平均的HAC”估计器，以及Newey和West (1987)、Vogelsang (2012)的“HAC的平均”估计器。基于这一发现，我们得到了CHS估计器及其对应的检验统计量的固定b渐近结果，即在横截面和时间样本容量共同趋向无穷大时的结果。当带宽与时间样本容量之比趋向于零时，固定b渐近结果与Chiang等人(2022)的渐近正态结果相吻合。此外，我们提出了两种替代性的偏差校正方差估计器，并推导出相应的固定b渐近限制。
 
-    Semidiscrete optimal transport is a challenging generalization of the classical transportation problem in linear programming. The goal is to design a joint distribution for two random variables (one continuous, one discrete) with fixed marginals, in a way that minimizes expected cost. We formulate a novel variant of this problem in which the cost functions are unknown, but can be learned through noisy observations; however, only one function can be sampled at a time. We develop a semi-myopic algorithm that couples online learning with stochastic approximation, and prove that it achieves optimal convergence rates, despite the non-smoothness of the stochastic gradient and the lack of strong concavity in the objective function.
+    This paper studies a variance estimator proposed by Chiang, Hansen and Sasaki (2022) that is robust to two-way clustering dependence with correlated common time effects in panels. First, we show algebraically that this variance estimator (CHS estimator, hereafter) is a linear combination of three common variance estimators: the cluster estimator by Arellano (1987), the "HAC of averages" estimator by Driscoll and Kraay (1998), and the "average of HACs" estimator (Newey and West (1987) and Vogelsang (2012)). Based on this finding, we obtain a fixed-b asymptotic result for the CHS estimator and corresponding test statistics as the cross-section and time sample sizes jointly go to infinity. As the ratio of the bandwidth to the time sample size goes to zero, the fixed-b asymptotic results match the asymptotic normality result in Chiang et al. (2022). Furthermore, we propose two alternative bias-corrected variance estimators and derive fixed-b asymptotics limits. While the test statistics ar
     
-[^5]: 《中国交通部门脱碳的回顾：概述、分析与展望》的综述
+[^9]: 对线性概率模型和非线性指数模型的再思考
 
-    Review on Decarbonizing the Transportation Sector in China: Overview, Analysis, and Perspectives. (arXiv:2310.00613v1 [econ.GN])
+    Another Look at the Linear Probability Model and Nonlinear Index Models. (arXiv:2308.15338v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.00613](http://arxiv.org/abs/2310.00613)
+    [http://arxiv.org/abs/2308.15338](http://arxiv.org/abs/2308.15338)
 
-    这篇综述总结了中国交通部门脱碳面临的挑战和有效策略，并提出了通过使用“避免、转移、改进”框架以及“机构能力与技术发展”的新战略矢量，推动中国向可持续交通未来过渡的综合分析。
-
-    
-
-    这篇综述识别出了脱碳中国快速增长的交通部门所面临的挑战和有效策略，该部门是目前第三大碳排放源，考虑到中国承诺在2030年前达到碳排放峰值并在2060年实现碳中和。主要挑战包括不断增长的出行需求、未达到汽车拥有高峰、公交乘客量下降、能源技术研究与实际应用之间的差距，以及脱碳的有限机构能力。这篇综述使用“避免、转移、改进”框架对中国交通部门目前的脱碳措施、策略和政策进行分类，辅以“机构能力与技术发展”的新战略矢量以获取更广泛的发展视角。这种综合分析旨在促进明智的决策和促进中国向可持续交通未来的过渡。
-
-    This review identifies challenges and effective strategies to decarbonize China's rapidly growing transportation sector, currently the third largest carbon emitter, considering China's commitment to peak carbon emissions by 2030 and achieve carbon neutrality by 2060. Key challenges include rising travel demand, unreached peak car ownership, declining bus ridership, gaps between energy technology research and practical application, and limited institutional capacity for decarbonization. This review categorizes current decarbonization measures, strategies, and policies in China's transportation sector using the "Avoid, Shift, Improve" framework, complemented by a novel strategic vector of "Institutional Capacity & Technology Development" to capture broader development perspectives. This comprehensive analysis aims to facilitate informed decision-making and promote collaborative strategies for China's transition to a sustainable transportation future.
-    
-[^6]: CausalGPS: 一个用于连续曝光的因果推断的 R 包
-
-    CausalGPS: An R Package for Causal Inference With Continuous Exposures. (arXiv:2310.00561v1 [stat.CO])
-
-    [http://arxiv.org/abs/2310.00561](http://arxiv.org/abs/2310.00561)
-
-    CausalGPS是一个R包，用于实现连续曝光的因果推断，并提供了灵活的估计和调整混淆的方法。
+    本文重新评估了使用线性模型来近似二元结果的响应概率的部分效应的利弊，并重点研究了平均部分效应而不是底层线性指数的参数。通过模拟实验，发现OLS近似或不近似APE的各种情况，并提出了一种实用的方法来减少OLS的有限样本偏差，结果表明该方法与非线性最小二乘（NLS）估计数值上相等。
 
     
 
-    对于社会、经济、健康和医学研究来说，量化连续曝光对感兴趣结果的因果效应至关重要。然而，目前大多数现有的软件包都集中在二进制曝光上。我们开发了 CausalGPS R 包，该包实现了一系列算法，为连续曝光的因果推断提供算法解决方案。CausalGPS 实现了一个因果推断工作流程，其核心是基于广义倾向得分（GPS）的算法，将倾向得分（在 pre-exposure 协变量给定情况下单位被曝光的概率）从二进制曝光扩展到连续曝光。作为第一步，该包实现了高效灵活的 GPS 估计，允许多个用户指定的建模选项。作为第二步，该包提供了两种消除混淆的方法：加权和匹配，分别生成加权和匹配的数据集。最后，该包提供了内置函
+    我们重新考虑了使用线性模型来近似二元结果的响应概率的部分效应的利弊。特别地，我们研究了Horrace和Oaxaca (2006)中的斜坡模型，但我们的重点是平均部分效应(APE)，而不是底层线性指数的参数。我们使用现有的理论结果来验证线性投影参数（这些参数总是被普通最小二乘法（OLS）一致估计）可能与指数参数不同，但在某些情况下仍然与APE相同。使用模拟，我们描述了OLS近似或不近似APE的其他情况，并发现在[0,1]范围内具有大比例的拟合值既不是必要的，也不是充分的。减少OLS有限样本偏差的实用方法是迭代修剪超出单位间隔的观测值，我们发现这产生的估计量在数值上等同于非线性最小二乘（NLS）估计。
 
-    Quantifying the causal effects of continuous exposures on outcomes of interest is critical for social, economic, health, and medical research. However, most existing software packages focus on binary exposures. We develop the CausalGPS R package that implements a collection of algorithms to provide algorithmic solutions for causal inference with continuous exposures. CausalGPS implements a causal inference workflow, with algorithms based on generalized propensity scores (GPS) as the core, extending propensity scores (the probability of a unit being exposed given pre-exposure covariates) from binary to continuous exposures. As the first step, the package implements efficient and flexible estimations of the GPS, allowing multiple user-specified modeling options. As the second step, the package provides two ways to adjust for confounding: weighting and matching, generating weighted and matched data sets, respectively. Lastly, the package provides built-in functions to fit flexible paramet
+    We reconsider the pros and cons of using a linear model to approximate partial effects on a response probability for a binary outcome. In particular, we study the ramp model in Horrace and Oaxaca (2006), but focus on average partial effects (APE) rather than the parameters of the underlying linear index. We use existing theoretical results to verify that the linear projection parameters (which are always consistently estimated by ordinary least squares (OLS)) may differ from the index parameters, yet still be identical to the APEs in some cases. Using simulations, we describe other cases where OLS either does or does not approximate the APEs, and we find that having a large fraction of fitted values in [0,1] is neither necessary nor sufficient. A practical approach to reduce the finite sample bias of OLS is to iteratively trim the observations with fitted values outside the unit interval, which we find produces estimates numerically equivalent to nonlinear least squares (NLS) estimatio
     
-[^7]: 分别凸性和分别连续性偏好：关于Schmeidler、Shafer和Bergstrom-Parks-Rader结果的研究
+[^10]: 硅谷银行挤兑的传染效应分析
 
-    Separately Convex and Separately Continuous Preferences: On Results of Schmeidler, Shafer, and Bergstrom-Parks-Rader. (arXiv:2310.00531v1 [econ.TH])
+    Contagion Effects of the Silicon Valley Bank Run. (arXiv:2308.06642v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.00531](http://arxiv.org/abs/2310.00531)
+    [http://arxiv.org/abs/2308.06642](http://arxiv.org/abs/2308.06642)
 
-    本研究提出了一种对于在有限维欧氏空间中取值的对应关系成为开关系的充分必要条件，并通过引入分别凸性的概念，将其与经典的连续性概念联系起来，从而提供了一种凸性-连续性假设的合并，并对选择理论中的相关概念进行了讨论。
-
-    
-
-    我们提供了一个对于在有限维欧氏空间中取值的对应关系成为开关系的充分必要条件，以重新审视Schmeidler（1969）、Shafer（1974）、Shafer-Sonnenschein（1975）和Bergstrom-Rader-Parks（1976）的开创性工作，以回答他们和他们的追随者留下的一些未解之谜。我们引入了分别凸性的概念，并将其与经典的连续性概念联系起来，同时强调二元关系的分离连续性和分离凸性的相互作用。因此，我们从广泛的跨学科视角提供了一种凸性-连续性假设的合并，并讨论了在选择理论中有实质性兴趣的合格概念的影响。
-
-    We provide necessary and sufficient conditions for a correspondence taking values in a finite-dimensional Euclidean space to be open so as to revisit the pioneering work of Schmeidler (1969), Shafer (1974), Shafer-Sonnenschein (1975) and Bergstrom-Rader-Parks (1976) to answer several questions they and their followers left open. We introduce the notion of separate convexity for a correspondence and use it to relate to classical notions of continuity while giving salience to the notion of separateness as in the interplay of separate continuity and separate convexity of binary relations. As such, we provide a consolidation of the convexity-continuity postulates from a broad inter-disciplinary perspective and comment on how the qualified notions proposed here have implications of substantive interest for choice theory.
-    
-[^8]: 重构供应网络
-
-    Reconstructing supply networks. (arXiv:2310.00446v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.00446](http://arxiv.org/abs/2310.00446)
-
-    该论文回顾了关于重构生产网络的文献，介绍了如何通过观察数据来推断供应网络的拓扑结构，并讨论了这一任务的重要性和独特性。
+    本文分析了硅谷银行失败的传染效应及其对其他银行的负面影响。无保险存款、未实现损失、银行规模和现金持有对溢出产生显著影响，而高质量资产或流动性证券对溢出没有帮助。在硅谷银行失败后，中型银行立即受到压力，随着时间的推移，负面溢出变得普遍。
 
     
 
-    网络重构是网络科学的一个非常发达的子领域，但直到最近才开始应用于生产网络，其中节点是企业，边代表客户供应商关系。我们回顾了已经繁荣的文献，通过数据的部分、汇总或间接观察来推断这些网络的拓扑结构。我们讨论了为什么这是一个重要的任务，需要重构什么，以及它与其他网络重构问题的不同之处，以及不同的研究者如何解决这个问题。我们最后给出了一个研究议程。
+    本文分析了与硅谷银行（SVB）失败相关的传染效应，并确定了导致银行股票回报下降的特定脆弱性。我们发现，无保险存款、持有到期计提证券的未实现损失、银行规模和现金持有对后续负面溢出产生了显著影响，而高质量资产或持有流动性证券并未帮助减轻负面溢出。有趣的是，股票在硅谷银行发生后表现较差的银行在前一年联邦储备利率上调后也有较低的回报率。股市部分预期了与无保险存款的依赖相关的风险，但未计价由于利率上调而产生的未实现损失或与银行规模相关的风险。在硅谷银行失败后，中型银行立即遭受了特定压力，随着时间的推移，负面溢出变得普遍，除最大规模的银行外。
 
-    Network reconstruction is a well-developed sub-field of network science, but it has only recently been applied to production networks, where nodes are firms and edges represent customer-supplier relationships. We review the literature that has flourished to infer the topology of these networks by partial, aggregate, or indirect observation of the data. We discuss why this is an important endeavour, what needs to be reconstructed, what makes it different from other network reconstruction problems, and how different researchers have approached the problem. We conclude with a research agenda.
+    This paper analyzes the contagion effects associated with the failure of Silicon Valley Bank (SVB) and identifies bank-specific vulnerabilities contributing to the subsequent declines in banks' stock returns. We find that uninsured deposits, unrealized losses in held-to-maturity securities, bank size, and cash holdings had a significant impact, while better-quality assets or holdings of liquid securities did not help mitigate the negative spillovers. Interestingly, banks whose stocks performed worse post SVB also had lower returns in the previous year following Federal Reserve interest rate hikes. The stock market partially anticipated risks associated with uninsured deposit reliance, but did not price in unrealized losses due to interest rate hikes nor risks linked to bank size. While mid-sized banks experienced particular stress immediately after the SVB failure, over time negative spillovers became widespread except for the largest banks.
     
-[^9]: 关于Sinkhorn算法和选择建模的论文
+[^11]: 通过主动的区块生产者设计交易费机制
 
-    On Sinkhorn's Algorithm and Choice Modeling. (arXiv:2310.00260v1 [math.OC])
+    Transaction Fee Mechanism Design with Active Block Producers. (arXiv:2307.01686v1 [cs.GT])
 
-    [http://arxiv.org/abs/2310.00260](http://arxiv.org/abs/2310.00260)
+    [http://arxiv.org/abs/2307.01686](http://arxiv.org/abs/2307.01686)
 
-    该论文研究了使用Luce的选择公理为基础的一类选择和排名模型，证明了与最大似然估计问题等效的经典矩阵平衡问题。通过Sinkhorn算法，将选择建模算法统一为矩阵平衡算法的特例。论文还解决了Sinkhorn算法研究中的重要问题，包括对于非负矩阵的全局线性收敛和尖锐渐近速度的描述。
-
-    
-
-    对于基于Luce选择公理的广泛选择和排名模型，包括Bradley-Terry-Luce和Plackett-Luce模型，我们证明了相关的最大似然估计问题等价于具有目标行和列和的经典矩阵平衡问题。这个观点打开了两个看似不相关的研究领域之间的交流之门，并使我们能够将选择建模文献中的现有算法统一为Sinkhorn矩阵平衡算法的特殊实例或类似物。我们从这些联系中获得启发，并解决了Sinkhorn算法研究中的重要开放性问题。我们首先证明了当矩阵平衡问题存在有限解时，Sinkhorn算法对于非负矩阵的全局线性收敛。我们通过数据构建的二分图的代数连通性来描述这种全局收敛速度。接下来，我们还得出了线性收敛的尖锐渐近速度。
-
-    For a broad class of choice and ranking models based on Luce's choice axiom, including the Bradley--Terry--Luce and Plackett--Luce models, we show that the associated maximum likelihood estimation problems are equivalent to a classic matrix balancing problem with target row and column sums. This perspective opens doors between two seemingly unrelated research areas, and allows us to unify existing algorithms in the choice modeling literature as special instances or analogs of Sinkhorn's celebrated algorithm for matrix balancing. We draw inspirations from these connections and resolve important open problems on the study of Sinkhorn's algorithm. We first prove the global linear convergence of Sinkhorn's algorithm for non-negative matrices whenever finite solutions to the matrix balancing problem exist. We characterize this global rate of convergence in terms of the algebraic connectivity of the bipartite graph constructed from data. Next, we also derive the sharp asymptotic rate of line
-    
-[^10]: 巴基斯坦价格通货膨胀的分布影响：新的价格为重点的微模拟框架PRICES的案例研究
-
-    The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES. (arXiv:2310.00231v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.00231](http://arxiv.org/abs/2310.00231)
-
-    本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。
+    通过引入活跃的区块生产者，本文研究了区块链交易费机制的激励兼容性。研究结果表明，在存在主动区块生产者的情况下，既能激励用户又能激励区块生产者的非平凡交易费机制设计是根本困难的。
 
     
 
-    本文利用家庭预算调查数据、收入调查数据和输入产出模型开发了一个微模拟模型，模拟了价格变动的分布影响。我们利用该模型评估了巴基斯坦近期价格变动的分配和福利影响，特别关注能源和食品价格的变动。首先，我们评估了支出的分布模式，国内能源燃料集中在分布的底部，汽油燃料在顶部。电力和汽油燃料的预算份额特别高，而国内燃料相对较低。虽然国内燃料和电力消费的分布模式与其他国家相似，但汽油燃料有特别高的预算弹性。分析表明，尽管能源价格大幅增加，但能源价格对通货膨胀带来的福利损失的重要性有限。近期价格变动的总体分布影响较小。
+    以前的研究主要关注于由纯粹对共识层净奖励感兴趣的“被动”区块生产者的区块链交易费机制的激励兼容性。本文引入了一个模型，其中有其自己对区块有私人估值的“主动”区块生产者（例如，应用层产生的附加价值）。我们的模型中的区块生产者剩余可以被解释为“MEV”一词的一种更常见的口头意义之一。本文的主要结果表明，与被动区块生产者相比，带有主动区块生产者的交易费机制设计从根本上更困难：对于用户和区块生产者而言，没有非平凡的或近似最大化福利的交易费机制可以激励兼容。这些结果可以被解释为在当前增加附加机制的数学正当性。
 
-    This paper developed a microsimulation model to simulate the distributional impact of price changes using Household Budget Survey data, Income Survey data and an Input-Output Model. We use the model to assess the distributional and welfare impact of recent price changes in Pakistan. Particular attention is paid to price changes in energy goods and food. We firstly assessed the distributional pattern of expenditures, with domestic energy fuels concentrated at the bottom of the distribution and motor fuels at the top. The budget share of electricity and motor fuels is particularly high, while domestic fuels is relatively low. While the distributional pattern of domestic fuel and electricity consumption is similar to other countries, there is a particularly high budget elasticity for motor fuels. The analysis shows that despite large increases in energy prices, the importance of energy prices for the welfare losses due to inflation is limited. The overall distributional impact of recent p
+    The incentive-compatibility properties of blockchain transaction fee mechanisms have been investigated with *passive* block producers that are motivated purely by the net rewards earned at the consensus layer. This paper introduces a model of *active* block producers that have their own private valuations for blocks (representing, for example, additional value derived from the application layer). The block producer surplus in our model can be interpreted as one of the more common colloquial meanings of the term ``MEV.''  The main results of this paper show that transaction fee mechanism design is fundamentally more difficult with active block producers than with passive ones: with active block producers, no non-trivial or approximately welfare-maximizing transaction fee mechanism can be incentive-compatible for both users and block producers. These results can be interpreted as a mathematical justification for the current interest in augmenting transaction fee mechanisms with additiona
     
-[^11]: 三个常见的数字痕迹数据测量考虑的识别、影响和机会
+[^12]: 经济主体的动态运输
 
-    Identification, Impacts, and Opportunities of Three Common Measurement Considerations when using Digital Trace Data. (arXiv:2310.00197v1 [cs.HC])
+    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.00197](http://arxiv.org/abs/2310.00197)
+    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
 
-    通过使用数字痕迹数据，我们发现了三个测量挑战：纠缠、平坦化和捆绑。这些挑战会引入额外的不确定性和错误，但也提供了深入了解媒体使用和内容消费的机会。
-
-    
-
-    编目数字痕迹中的特定URL、帖子和应用程序是测量媒体使用和内容消费的最佳实践。然而，尽管更精确，数字痕迹可能会引入额外的不确定性和新的测量错误。在本研究中，我们使用一种新的测量框架—Screenomics，记录个体与移动设备交互时每隔几秒钟的屏幕截图来挖掘使用数字痕迹数据时的三个新的测量挑战。我们将这些考虑标记为：（1）纠缠-通过替代内容曝光来测量格式曝光的常见错误；（2）平坦化-聚合媒体互动的独特片段而不包含时间信息，最常见的是在个体内部；（3）捆绑-对媒体互动片段的持续时间进行求和。
-
-    Cataloguing specific URLs, posts, and applications with digital traces is the new best practice for measuring media use and content consumption. Despite the apparent accuracy that comes with greater granularity, however, digital traces may introduce additional ambiguity and new errors into the measurement of media use. In this note, we identify three new measurement challenges when using Digital Trace Data that were recently uncovered using a new measurement framework - Screenomics - that records media use at the granularity of individual screenshots obtained every few seconds as people interact with mobile devices. We label the considerations as follows: (1) entangling - the common measurement error introduced by proxying exposure to content by exposure to format; (2) flattening - aggregating unique segments of media interaction without incorporating temporal information, most commonly intraindividually and (3) bundling - summation of the durations of segments of media interaction, in
-    
-[^12]: 气候变化减缓模型中的代际公平：随机利率引入不利影响，但（非线性）融资成本可以改善代际公平。
-
-    Intergenerational Equity in Models of Climate Change Mitigation: Stochastic Interest Rates introduce Adverse Effects, but (Non-linear) Funding Costs can Improve Intergenerational Equity. (arXiv:2309.16186v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2309.16186](http://arxiv.org/abs/2309.16186)
-
-    本论文通过引入随机利率模型和非线性融资成本来探讨气候变化减缓模型中的代际公平问题。研究结果表明，最优的随机减排路径可能会增加成本和风险相关的代际不平等，但通过融资成本的引入可以改善这种情况。
+    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
 
     
 
-    评估气候变化成本对于寻求向净零排放经济转型的有效路径至关重要，这对于稳定全球温度至任何水平都是必要的。考虑未来利率的不确定性，我们使用随机利率模型修正了DICE模型，来评估气候变化减缓的效益和成本。我们展示了最优的随机减排路径可能会增加与成本和风险相关的代际不平等。如果我们考虑到减排成本可能通过贷款来融资，那么更早实现净零是最优的选择。在这里，我们证明了引入减排成本融资可以降低未来现金流的变异性，这些现金流在不同的...
+    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
 
-    Assessing the costs of climate change is essential to find efficient pathways for the transition to a net-zero emissions economy, which is necessary to stabilise global temperatures at any level. Evaluating benefits and costs of climate change mitigation the discount rate converting future damages and costs into net-present values influences timing of mitigation.  Here, we amend the DICE model with a stochastic interest rate model to consider uncertainty of discount rates in the future. Since the optimal abatement paths depends on interest rates, we assume a stochastic abatement model.  We show that the optimal stochastic abatement path can increase the intergenerational inequality with respect to cost and risk.  If we consider additionally that abatement costs may be funded via loans for which interest has to be paid, it is optimal to achieve net-zero earlier.  Here we show, that introducing funding of abatement cost reduces the variation of future cash-flows, which occur at different
+    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
     
-[^13]: 阈值保留匹配
+[^13]: 稀有结果的政策学习
 
-    Reserve Matching with Thresholds. (arXiv:2309.13766v1 [econ.TH])
+    Policy Learning with Rare Outcomes. (arXiv:2302.05260v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2309.13766](http://arxiv.org/abs/2309.13766)
+    [http://arxiv.org/abs/2302.05260](http://arxiv.org/abs/2302.05260)
 
-    本文提出了一个新的智能保留系统，使用阈值模型允许独立的优先级排序和任意的受益人和资格阈值，以实现优化分配单元数的分配。
-
-    
-
-    保留系统通过创建优先考虑各自受益人的类别，以适应多个重要或代表性不足的群体来分配不可分割的稀缺资源。一些应用包括疫苗的最优分配，或将少数人分配到印度的精英学院。智能分配是指优化分配单元数的分配。先前的文献大多假定了基准优先级，这在不同类别的优先级排序之间会产生重要的相互依赖。它还假定要么每个人都有资格从任何类别接收单元，要么只有受益人有资格。我们提出的全面阈值模型允许在类别之间进行独立的优先级排序，并设置任意的受益人和资格阈值，使决策者能够避免在平权行动系统中进行无法比较的比较。我们提出了一个新的智能保留系统，可以同时优化两个目标。
-
-    Reserve systems are used to accommodate multiple essential or underrepresented groups in allocating indivisible scarce resources by creating categories that prioritize their respective beneficiaries. Some applications include the optimal allocation of vaccines, or assignment of minority students to elite colleges in India. An allocation is called smart if it optimizes the number of units distributed. Previous literature mostly assumed baseline priorities, which impose significant interdependencies between the priority ordering of different categories. It also assumes either everybody is eligible for receiving a unit from any category, or only the beneficiaries are eligible. The comprehensive Threshold Model we propose allows independent priority orderings among categories and arbitrary beneficiary and eligibility thresholds, enabling policymakers to avoid comparing incomparables in affirmative action systems. We present a new smart reserve system that optimizes two objectives simultane
-    
-[^14]: AI自动化的爆炸性增长: 论证综述
-
-    Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.11690](http://arxiv.org/abs/2309.11690)
-
-    AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。
+    在政策学习中，使用估计的条件平均处理效应（CATE）的政策树优于使用双重鲁棒得分学习的树，因果森林和标准化双重鲁棒学习器在各种设置下的表现较好。
 
     
 
-    我们研究了大规模AI自动化是否能够使全球经济增长加速达到约一个数量级，类似于工业革命所带来的经济增长效应。我们确定了这种增长的三个主要驱动因素：1）AI“劳动力”的可扩展性使得规模递增再现，2）AI劳动力的快速扩张，以及3）在短时间内进行的快速自动化带来的产出大幅增加。在这个背景下，我们评估了九个反对论点，包括监管障碍、产能瓶颈、匹配问题和自动化的速度。我们暂时评估了这些论点，发现大多数都不太可能成为决定因素。我们得出结论认为，如果AI能够广泛替代人力劳动，爆炸性增长似乎是有可能的，但目前对这一说法的高度自信似乎是不合理的。关于AI监管响应的强度、生产中的物理瓶颈和AI的经济价值，仍然存在关键问题。
+    机器学习（ML）对条件平均处理效应（CATE）的估计可以指导政策决策，可以通过允许将有益的CATE估计应用于个体，或者作为决策树的输入，优化总体结果。关于这些算法在实际政策评估场景中的表现如何的信息有限。使用合成数据，我们比较了不同政策学习算法的有限样本性能，以及在学习阶段中使用的机器学习技术和展示估计政策价值的方法。对于每个算法，我们通过衡量与理想（“神谕”）政策的偏差来评估得到的处理分配。我们的主要发现是基于估计CATE的政策树优于从双重鲁棒得分学习的树。在各种设置中，因果森林和标准化双重鲁棒学习器的表现一直很好，而贝叶斯加性回归树的表现较差。
 
-    We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
+    Machine learning (ML) estimates of conditional average treatment effects (CATE) can guide policy decisions, either by allowing targeting of individuals with beneficial CATE estimates, or as inputs to decision trees that optimise overall outcomes. There is limited information available regarding how well these algorithms perform in real-world policy evaluation scenarios. Using synthetic data, we compare the finite sample performance of different policy learning algorithms, machine learning techniques employed during their learning phases, and methods for presenting estimated policy values. For each algorithm, we assess the resulting treatment allocation by measuring deviation from the ideal ("oracle") policy. Our main finding is that policy trees based on estimated CATEs outperform trees learned from doubly-robust scores. Across settings, Causal Forests and the Normalised Double-Robust Learner perform consistently well, while Bayesian Additive Regression Trees perform poorly. These meth
     
-[^15]: 游戏连通性与自适应动态
+[^14]: 博弈论中集合函数的几何：组合和计算方面的研究
 
-    Game Connectivity and Adaptive Dynamics. (arXiv:2309.10609v1 [econ.TH])
+    Geometry of Set Functions in Game Theory: Combinatorial and Computational Aspects. (arXiv:2301.02950v2 [cs.GT] UPDATED)
 
-    [http://arxiv.org/abs/2309.10609](http://arxiv.org/abs/2309.10609)
+    [http://arxiv.org/abs/2301.02950](http://arxiv.org/abs/2301.02950)
 
-    通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。
-
-    
-
-    我们通过分析最佳响应图的连通特性，分析了游戏的典型结构。特别是，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的，这意味着每个非均衡的行动配置都可以通过最佳响应路径到达每个纯纳什均衡。这对于游戏中的动态过程有着重要意义：许多自适应动态，例如带有惯性的最佳响应动态，在连通的游戏中会导致均衡。因此，存在简单的、不耦合的自适应动态，按周期游戏将几乎确定地收敛到具有纯纳什均衡的“大型”通用游戏的情况下。
-
-    We analyse the typical structure of games in terms of the connectivity properties of their best-response graphs. In particular, we show that almost every 'large' generic game that has a pure Nash equilibrium is connected, meaning that every non-equilibrium action profile can reach every pure Nash equilibrium via best-response paths. This has implications for dynamics in games: many adaptive dynamics, such as the best-response dynamic with inertia, lead to equilibrium in connected games. It follows that there are simple, uncoupled, adaptive dynamics for which period-by-period play converges almost surely to a pure Nash equilibrium in almost every 'large' generic game that has one. We build on recent results in probabilistic combinatorics for our characterisation of game connectivity.
-    
-[^16]: 持不同意见：测量FOMC会议中的隐藏异议
-
-    Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.10131](http://arxiv.org/abs/2308.10131)
-
-    该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。
+    本论文通过研究合作博弈论中集合函数的几何性质，提出了一种新的多面体，通过应用广义的Bondareva-Shapley定理进行验证。同时，还提出了一系列算法过程来检验性质或生成特定的联盟集合。
 
     
 
-    基于1976年至2017年的FOMC投票异议记录和会议记录，我们开发了一个基于自我关注模块的深度学习模型，用于确定每个成员在每个会议中的异议程度。虽然异议很少见，但我们发现成员们经常对政策决策持保留意见。异议程度主要由当前或预测的宏观经济数据驱动，成员的个人特征几乎不起作用。我们还利用模型评估会议之间成员的演讲，并发现它们所揭示的异议程度与随后的会议异议程度之间存在弱相关性。最后，我们发现每当货币政策行动更加激进时，异议程度会增加。
+    本论文的主要目标是为合作博弈论在组合学、算法和离散几何方面的发展做出贡献。因此，本文的第一章致力于突出可转移效用博弈的联盟函数的几何性质，并关注其与子模集函数和多面几何的现有联系。为了加深与多面几何的联系，我们定义了一类新的多面体，称为基本多面体，并应用广义的Bondareva-Shapley定理来检验它们的非空性。为了允许这些计算工具的实际使用，我们提出了基于Peleg方法的生成最小平衡集合的算法过程。随后，我们应用广义的Bondareva-Shapley定理来设计一系列算法过程，能够检验性质或生成特定的联盟集合。
 
-    Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
+    The main ambition of this thesis is to contribute to the development of cooperative game theory towards combinatorics, algorithmics and discrete geometry. Therefore, the first chapter of this manuscript is devoted to highlighting the geometric nature of the coalition functions of transferable utility games and spotlights the existing connections with the theory of submodular set functions and polyhedral geometry.  To deepen the links with polyhedral geometry, we define a new family of polyhedra, called the basic polyhedra, on which we can apply a generalized version of the Bondareva-Shapley Theorem to check their nonemptiness. To allow a practical use of these computational tools, we present an algorithmic procedure generating the minimal balanced collections, based on Peleg's method. Subsequently, we apply the generalization of the Bondareva-Shapley Theorem to design a collection of algorithmic procedures able to check properties or generate specific sets of coalitions.  In the next c
     
-[^17]: TSLS与JIVE的桥接
+[^15]: 社交网络中竞争选项扩散中的有限信任问题
 
-    Bridging TSLS and JIVE. (arXiv:2305.17615v1 [econ.EM])
+    Limited-Trust in Diffusion of Competing Alternatives over Social Networks. (arXiv:2206.06318v3 [cs.SI] UPDATED)
 
-    [http://arxiv.org/abs/2305.17615](http://arxiv.org/abs/2305.17615)
+    [http://arxiv.org/abs/2206.06318](http://arxiv.org/abs/2206.06318)
 
-    本文提出了一种桥接TSLS和JIVE的新方法TSJI来处理内生性，具有用户定义参数λ，可以近似无偏，且在许多工具变量渐进情况下是一致且渐进正常的。
-
-    
-
-    在处理内生性时，经济学家经常实施TSLS。当工具变量数量众多时，TSLS偏倚很严重。因此，JIVE被提出来减少超识别的TSLS偏差。但是，这两种方法都有重大缺陷。当超识别度较高时，超定TSLS偏差很大，而JIVE不稳定。在本文中，我将TSLS和JIVE的优化问题桥接起来，解决了连接问题，并提出了一种新的估计器TSJI。TSJI具有用户定义的参数λ。通过将TSJI偏差近似到op（1/N）的方式，我找到了一个产生近似无偏TSJI的λ值。选择了具有所选λ值的TSJI不仅具有在第一阶段和第二阶段回归器数量固定时与TSLS相同的一阶分布，而且在许多工具变量渐进情况下是一致且渐进正常的。在三种不同的模拟设置下，我使用不同力度的工具测试了TSJI与TSLS和JIVE。
-
-    Economists often implement TSLS to handle endogeneity. The bias of TSLS is severe when the number of instruments is large. Hence, JIVE has been proposed to reduce bias of over-identified TSLS. However, both methods have critical drawbacks. While over-identified TSLS has a large bias with a large degree of overidentification, JIVE is unstable. In this paper, I bridge the optimization problems of TSLS and JIVE, solve the connected problem and propose a new estimator TSJI. TSJI has a user-defined parameter $\lambda$. By approximating the bias of the TSJI up to op(1/N), I find a $\lambda$ value that produces approximately unbiased TSJI. TSJI with the selected $\lambda$ value not only has the same first order distribution as TSLS when the number of first-stage and second-stage regressors are fixed, but also is consistent and asymptotically normal under many-instrument asymptotics. Under three different simulation settings, I test TSJI against TSLS and JIVE with instruments of different stre
-    
-[^18]: 多对一匹配市场中的纳什实现
-
-    Nash implementation in a many-to-one matching market. (arXiv:2305.13956v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.13956](http://arxiv.org/abs/2305.13956)
-
-    在可替代偏好的多对一匹配市场中，任何稳定规则都可以在纳什均衡中实现个体理性或稳定匹配。
+    我们研究了在社交网络中扩散竞争选项的过程中有限信任的影响。通过使用有限信任均衡，我们分析了扩散的收敛性和均衡状态，并发现其与线性阈值模型的关联。
 
     
 
-    在具有可替代偏好的多对一匹配市场中，我们分析了稳定规则引起的博弈。当市场的双方都进行战略博弈时，我们表明任何稳定规则都可以在纳什均衡中实现个体理性匹配。此外，当只有工人进行战略博弈，并且企业的偏好满足需求汇总定律时，我们表明任何稳定规则都可以在纳什均衡中实现稳定匹配。
+    我们通过博弈论的方法研究了社交网络中两个选项的扩散。每个个体与邻居进行协调游戏，并决定采纳哪个选项。由于产品与其他产品同时使用，并通过反复的互动，个体更关心他们的长期利益，倾向于对他人表现出信任，通过选择相对于瞬时回报而言次优的选项来最大化他们的长期效用。为了捕捉这种信任行为，我们在扩散过程中采用了有限信任均衡(LTE)。我们使用平均场近似分析了新动态收敛到均衡点的情况，使用吸收概率和期望吸收时间研究了扩散的均衡状态和收敛速度，并展示了在最优反应策略下LTE上的扩散模型可以转化为众所周知的线性阈值模型。模拟结果表明，
 
-    In a many-to-one matching market with substitutable preferences, we analyze the game induced by a stable rule. When both sides of the market play strategically, we show that any stable rule implements, in Nash equilibrium, the individually rational matchings. Also, when only workers play strategically and firms' preferences satisfy the law of aggregated demand, we show that any stable rule implements, in Nash equilibrium, the stable matchings.
+    We consider the diffusion of two alternatives in social networks using a game-theoretic approach. Each individual plays a coordination game with its neighbors repeatedly and decides which to adopt. As products are used in conjunction with others and through repeated interactions, individuals are more interested in their long-term benefits and tend to show trust to others to maximize their long-term utility by choosing a suboptimal option with respect to instantaneous payoff. To capture such trust behavior, we deploy limited-trust equilibrium (LTE) in diffusion process. We analyze the convergence of emerging dynamics to equilibrium points using mean-field approximation and study the equilibrium state and the convergence rate of diffusion using absorption probability and expected absorption time of a reduced-size absorbing Markov chain. We also show that the diffusion model on LTE under the best-response strategy can be converted to the well-known linear threshold model. Simulation resul
     
-[^19]: 利用保序机制提高机器学习和人工智能会议的同行评审
+[^16]: 在矩条件模型中检测识别失败的方法
 
-    The Isotonic Mechanism for Exponential Family Estimation. (arXiv:2304.11160v1 [math.ST])
+    Detecting Identification Failure in Moment Condition Models. (arXiv:1907.13093v5 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2304.11160](http://arxiv.org/abs/2304.11160)
+    [http://arxiv.org/abs/1907.13093](http://arxiv.org/abs/1907.13093)
 
-    本文利用扩展的保序机制，将其应用于指数族分布以提高同行评审的质量，并发现作者的同行评分可以较准确地在不需要知道具体分布情况下进行调整。
-
-    
-
-    本文致力于扩展保序机制，将其应用于指数族分布以提高同行评审的质量。该机制可生成与原始评分接近的调整分数，并符合作者指定的排名要求，得到广泛的指数族分布应用，而且不需要知道具体的分布形式。研究表明，在一定的指数族分布下，如果作者的效用函数采用简单的凸可加函数，则激励作者提供准确的排名建议。
-
-    In 2023, the International Conference on Machine Learning (ICML) required authors with multiple submissions to rank their submissions based on perceived quality. In this paper, we aim to employ these author-specified rankings to enhance peer review in machine learning and artificial intelligence conferences by extending the Isotonic Mechanism (Su, 2021, 2022) to exponential family distributions. This mechanism generates adjusted scores closely align with the original scores while adhering to author-specified rankings. Despite its applicability to a broad spectrum of exponential family distributions, this mechanism's implementation does not necessitate knowledge of the specific distribution form. We demonstrate that an author is incentivized to provide accurate rankings when her utility takes the form of a convex additive function of the adjusted review scores. For a certain subclass of exponential family distributions, we prove that the author reports truthfully only if the question in
-    
-[^20]: 期权的价格发现
-
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
-
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+    本文提出了一种在矩条件模型中检测识别失败的方法，通过引入准雅可比矩阵并进行简单的检验，可以在不需要先验知识的情况下进行子向量推断，这在经济学中具有重要的应用价值。
 
     
 
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+    本文提出了一种在矩条件模型中检测识别失败的方法。该方法通过引入一个准雅可比矩阵，该矩阵计算为将矩条件在识别集估计上的线性近似斜率。当局部和/或全局识别失败时，准雅可比矩阵是渐进奇异的，并且在模型是点和局部可识别时等价于通常的雅可比矩阵，该矩阵具有满秩性质。基于这个特性，引入了一个简单的检验方法，使用卡方临界值进行子向量推断，不需要对潜在的识别结构有先验的知识。通过蒙特卡洛模拟和对长期风险模型的实证应用，证明了该方法的有效性。
 
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
-    
-[^21]: 开派对：青少年社交网络对劳动力市场的回报
-
-    Party On: The Labor Market Returns to Social Networks in Adolescence. (arXiv:2210.09426v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2210.09426](http://arxiv.org/abs/2210.09426)
-
-    本研究调查了青少年时期与成年期收入之间的友谊回报。通过采用一种新的方法，文中发现青少年时期多交一个朋友可以使收入增加7%到14%。这个结果远大于传统方法的估计值，传统方法会因为测量误差和遗漏变量导致显著的向下偏误。
-
-    
-
-    我们调查了青少年友谊对成年期收入的回报。利用美国国家青少年到成人健康的长期研究数据，我们发现个体在青少年时期不仅进行教育投资，还进行友谊积累的投资。由于教育和友谊在青少年时期是同时形成的，因此使用OLS方法估计它们的回报会有偏差。为了估计友谊的因果回报，我们采用了一种新方法，假设教育回报率在5%到15%之间（如已有文献所述），并使用同伴之间的相似度测量作为友谊的工具来获得回报的下界。我们发现，在青少年时期多交一个朋友可以使收入增长7%到14%，这远大于OLS估计值：测量误差和遗漏变量导致了显著的向下偏误。
-
-    We investigate the returns to adolescent friendships on earnings in adulthood. Using data from the National Longitudinal Study of Adolescent to Adult Health, we document that individuals make investments to accumulate friends in addition to educational investments. Because both education and friendships are jointly determined in adolescence, OLS estimates of their returns are biased. To estimate the causal returns to friendships, we implement a novel procedure that assumes the returns to schooling range from 5 to 15% (as the literature has documented), and instrument for friendships using homophily (similarity) measures among peers to obtain bounds on the returns to friendships. We find that having one more friend in adolescence increases earnings between 7 and 14%, which is substantially larger than the OLS estimates: measurement error and omitted variables lead to significant downward bias.
-    
-[^22]: 瑞士强制医疗保险市场上的道德风险选择：来自瑞士家庭面板数据的经验证据。
-
-    Selection on moral hazard in the Swiss market for mandatory health insurance: Empirical evidence from Swiss Household Panel data. (arXiv:2208.03815v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2208.03815](http://arxiv.org/abs/2208.03815)
-
-    本研究通过分析瑞士家庭面板数据和监管数据，发现在瑞士强制医疗保险市场上存在选择性道德风险，高道德风险类型对高保障计划的响应比平均水平高25-35%。
-
-    
-
-    道德风险选择表示根据利用率“斜率”的异质性选择特定的医疗保险覆盖。本研究利用瑞士家庭面板数据和公开可得的监管数据，探讨了在瑞士的竞争管理系统中道德风险选择的程度。使用罗伊类型模型估计最低和最高免赔额的(对数)就医次数的响应，通过局部工具变量确定边际治疗效应。高道德风险类型在高保障计划(即最低免赔额计划)上的响应比平均水平高25-35%。
-
-    Selection on moral hazard represents the tendency to select a specific health insurance coverage depending on the heterogeneity in utilisation ''slopes''. I use data from the Swiss Household Panel and from publicly available regulatory data to explore the extent of selection on slopes in the Swiss managed competition system. I estimate responses in terms of (log) doctor visits to lowest and highest deductible levels using Roy-type models, identifying marginal treatment effects with local instrumental variables. The response to high coverage plans (i.e. plans with the lowest deductible level) among high moral hazard types is 25-35 percent higher than average.
-    
-[^23]: 用循环神经网络预测通货膨胀
-
-    Predicting Inflation with Recurrent Neural Networks. (arXiv:2104.03757v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2104.03757](http://arxiv.org/abs/2104.03757)
-
-    本文应用LSTM循环神经网络模型，研究了预测通货膨胀的能力，并发现在长期预测和宏观经济不确定性加剧期间表现良好。有趣的是，LSTM所涉及的因素与商业周期指标高度相关，这说明这些信号作为通胀预测因子的实用性。
-
-    
-
-    本文应用了循环神经网络（LSTM）来预测通货膨胀。作为时间序列的一种吸引人的模型，LSTM按照时间步骤顺序处理数据，并明确学习动态依赖关系。本文还探讨了该模型的降维能力，以揭示可以解释通货膨胀过程的经济意义因素。对美国数据进行的实证结果表明，估计的神经网络在常见基准模型（包括其他机器学习模型）中表现具有竞争力但并不突出。特别是LSTM在长期预测和宏观经济不确定性加剧期间表现良好。有趣的是，LSTM所涉及的因素与商业周期指标高度相关，这说明这些信号作为通胀预测因子的实用性。本文还揭示了网络初始化和架构对预测性能的影响。
-
-    This paper applies a recurrent neural network, the LSTM, to forecast inflation. This is an appealing model for time series as it processes each time step sequentially and explicitly learns dynamic dependencies. The paper also explores the dimension reduction capability of the model to uncover economically-meaningful factors that can explain the inflation process. Results from an exercise with US data indicate that the estimated neural nets present competitive, but not outstanding, performance against common benchmarks (including other machine learning models). The LSTM in particular is found to perform well at long horizons and during periods of heightened macroeconomic uncertainty. Interestingly, LSTM-implied factors present high correlation with business cycle indicators, informing on the usefulness of such signals as inflation predictors. The paper also sheds light on the impact of network initialization and architecture on forecast performance.
+    This paper develops an approach to detect identification failure in moment condition models. This is achieved by introducing a quasi-Jacobian matrix computed as the slope of a linear approximation of the moments on an estimate of the identified set. It is asymptotically singular when local and/or global identification fails, and equivalent to the usual Jacobian matrix which has full rank when the model is point and locally identified. Building on this property, a simple test with chi-squared critical values is introduced to conduct subvector inferences allowing for strong, semi-strong, and weak identification without \textit{a priori} knowledge about the underlying identification structure. Monte-Carlo simulations and an empirical application to the Long-Run Risks model illustrate the results.
     
 

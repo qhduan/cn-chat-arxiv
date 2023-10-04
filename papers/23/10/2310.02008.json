@@ -1,0 +1,12 @@
+{
+    "title": "fmeffects: An R Package for Forward Marginal Effects. (arXiv:2310.02008v1 [cs.LG])",
+    "abstract": "Forward marginal effects (FMEs) have recently been introduced as a versatile and effective model-agnostic interpretation method. They provide comprehensible and actionable model explanations in the form of: If we change $x$ by an amount $h$, what is the change in predicted outcome $\\widehat{y}$? We present the R package fmeffects, the first software implementation of FMEs. The relevant theoretical background, package functionality and handling, as well as the software design and options for future extensions are discussed in this paper.",
+    "link": "http://arxiv.org/abs/2310.02008",
+    "context": "Title: fmeffects: An R Package for Forward Marginal Effects. (arXiv:2310.02008v1 [cs.LG])\nAbstract: Forward marginal effects (FMEs) have recently been introduced as a versatile and effective model-agnostic interpretation method. They provide comprehensible and actionable model explanations in the form of: If we change $x$ by an amount $h$, what is the change in predicted outcome $\\widehat{y}$? We present the R package fmeffects, the first software implementation of FMEs. The relevant theoretical background, package functionality and handling, as well as the software design and options for future extensions are discussed in this paper.",
+    "path": "papers/23/10/2310.02008.json",
+    "total_tokens": 590,
+    "translated_title": "fmeffects: 一个用于前向边际效应的R软件包",
+    "translated_abstract": "前向边际效应（FMEs）作为一种通用有效的模型不可知解释方法最近被引入。它们以“如果我们将$x$改变$h$，那么预测结果$\\widehat{y}$会发生什么变化？”的形式提供易于理解和可操作的模型解释。本文介绍了fmeffects软件包，这是FMEs的第一个软件实现。讨论了相关的理论背景、软件包功能和处理方式，以及软件设计和未来扩展的选项。",
+    "tldr": "fmeffects是第一个实现前向边际效应（FMEs）的R软件包。",
+    "en_tdlr": "fmeffects is the first R package that implements Forward Marginal Effects (FMEs)."
+}

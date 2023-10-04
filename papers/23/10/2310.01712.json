@@ -1,0 +1,11 @@
+{
+    "title": "Generative Autoencoding of Dropout Patterns. (arXiv:2310.01712v1 [cs.LG])",
+    "abstract": "We propose a generative model termed Deciphering Autoencoders. In this model, we assign a unique random dropout pattern to each data point in the training dataset and then train an autoencoder to reconstruct the corresponding data point using this pattern as information to be encoded. Since the training of Deciphering Autoencoders relies solely on reconstruction error, it offers more stable training than other generative models. Despite its simplicity, Deciphering Autoencoders show comparable sampling quality to DCGAN on the CIFAR-10 dataset.",
+    "link": "http://arxiv.org/abs/2310.01712",
+    "context": "Title: Generative Autoencoding of Dropout Patterns. (arXiv:2310.01712v1 [cs.LG])\nAbstract: We propose a generative model termed Deciphering Autoencoders. In this model, we assign a unique random dropout pattern to each data point in the training dataset and then train an autoencoder to reconstruct the corresponding data point using this pattern as information to be encoded. Since the training of Deciphering Autoencoders relies solely on reconstruction error, it offers more stable training than other generative models. Despite its simplicity, Deciphering Autoencoders show comparable sampling quality to DCGAN on the CIFAR-10 dataset.",
+    "path": "papers/23/10/2310.01712.json",
+    "total_tokens": 736,
+    "translated_title": "丢弃模式的生成自编码器",
+    "translated_abstract": "我们提出了一种称为解读自编码器的生成模型。在这个模型中，我们为训练数据集中的每个数据点分配一个唯一的随机丢弃模式，然后使用这个模式作为被编码的信息来训练自编码器来重构相应的数据点。由于解读自编码器的训练仅依赖于重构误差，所以相比其他生成模型，它具有更稳定的训练性能。尽管它很简单，但解读自编码器在CIFAR-10数据集上展现出了与DCGAN相媲美的采样质量。",
+    "tldr": "本论文提出了一种称为解读自编码器的生成模型，通过为训练数据集中的每个数据点分配独特的随机丢弃模式来进行训练，只依靠重构误差来提供更稳定的训练性能，并在CIFAR-10数据集上展示了与DCGAN相媲美的采样质量。"
+}

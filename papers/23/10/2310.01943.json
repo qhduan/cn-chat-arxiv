@@ -1,0 +1,12 @@
+{
+    "title": "Ravestate: Distributed Composition of a Causal-Specificity-Guided Interaction Policy. (arXiv:2310.01943v1 [cs.RO])",
+    "abstract": "In human-robot interaction policy design, a rule-based method is efficient, explainable, expressive and intuitive. In this paper, we present the Signal-Rule-Slot framework, which refines prior work on rule-based symbol system design and introduces a new, Bayesian notion of interaction rule utility called Causal Pathway Self-information. We offer a rigorous theoretical foundation as well as a rich open-source reference implementation Ravestate, with which we conduct user studies in text-, speech-, and vision-based scenarios. The experiments show robust contextual behaviour of our probabilistically informed rule-based system, paving the way for more effective human-machine interaction.",
+    "link": "http://arxiv.org/abs/2310.01943",
+    "context": "Title: Ravestate: Distributed Composition of a Causal-Specificity-Guided Interaction Policy. (arXiv:2310.01943v1 [cs.RO])\nAbstract: In human-robot interaction policy design, a rule-based method is efficient, explainable, expressive and intuitive. In this paper, we present the Signal-Rule-Slot framework, which refines prior work on rule-based symbol system design and introduces a new, Bayesian notion of interaction rule utility called Causal Pathway Self-information. We offer a rigorous theoretical foundation as well as a rich open-source reference implementation Ravestate, with which we conduct user studies in text-, speech-, and vision-based scenarios. The experiments show robust contextual behaviour of our probabilistically informed rule-based system, paving the way for more effective human-machine interaction.",
+    "path": "papers/23/10/2310.01943.json",
+    "total_tokens": 725,
+    "translated_title": "Ravestate: 一种基于因果特定性的交互策略的分布式组合",
+    "translated_abstract": "在人机交互策略设计中，基于规则的方法具有高效、可解释、表达力强和直观的特点。本文提出了Signal-Rule-Slot框架，对基于规则的符号系统设计的先前工作进行了改进，并引入了一种新的贝叶斯概念——因果路径自信息。我们提供了严谨的理论基础和一个丰富的开源参考实现Ravestate，通过在基于文本、语音和视觉的场景中进行用户研究，展示了我们的概率规则系统的强大上下文行为。这为更有效的人机交互铺平了道路。",
+    "tldr": "本文介绍了一种基于因果特定性的交互策略的分布式组合方法，通过引入新的贝叶斯概念和开源实现，展示了该方法在人机交互中的强大表现。",
+    "en_tdlr": "This paper presents a distributed composition method for a causal-specificity-guided interaction policy, and showcases its strong performance in human-machine interaction through the introduction of a new Bayesian concept and an open-source implementation."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "On CNF formulas irredundant with respect to unit clause propagation. (arXiv:2309.01750v2 [math.CO] UPDATED)",
+    "abstract": "Two CNF formulas are called ucp-equivalent, if they behave in the same way with respect to the unit clause propagation (UCP). A formula is called ucp-irredundant, if removing any clause leads to a formula which is not ucp-equivalent to the original one. As a consequence of known results, the ratio of the size of a ucp-irredundant formula and the size of a smallest ucp-equivalent formula is at most $n^2$, where $n$ is the number of the variables. We demonstrate an example of a ucp-irredundant formula for a symmetric definite Horn function which is larger than a smallest ucp-equivalent formula by a factor $\\Omega(n/\\ln n)$ and, hence, a general upper bound on the above ratio cannot be smaller than this.",
+    "link": "http://arxiv.org/abs/2309.01750",
+    "context": "Title: On CNF formulas irredundant with respect to unit clause propagation. (arXiv:2309.01750v2 [math.CO] UPDATED)\nAbstract: Two CNF formulas are called ucp-equivalent, if they behave in the same way with respect to the unit clause propagation (UCP). A formula is called ucp-irredundant, if removing any clause leads to a formula which is not ucp-equivalent to the original one. As a consequence of known results, the ratio of the size of a ucp-irredundant formula and the size of a smallest ucp-equivalent formula is at most $n^2$, where $n$ is the number of the variables. We demonstrate an example of a ucp-irredundant formula for a symmetric definite Horn function which is larger than a smallest ucp-equivalent formula by a factor $\\Omega(n/\\ln n)$ and, hence, a general upper bound on the above ratio cannot be smaller than this.",
+    "path": "papers/23/09/2309.01750.json",
+    "total_tokens": 824,
+    "translated_title": "关于相对于单子句传播不可简化的CNF公式",
+    "translated_abstract": "如果两个CNF公式在单子句传播（UCP）方面的行为相同，则它们被称为ucp等价。如果移除任意一个子句会导致一个与原始公式在ucp方面不等价的公式，则称该公式为ucp不可简化。根据已知结果，ucp不可简化公式的大小与最小ucp等价公式的大小的比值最大为n^2，其中n是变量的数量。我们展示了对称确定Horn函数的一个ucp不可简化公式的例子，其大小比最小的ucp等价公式大n/ln n倍，因此，上述比值的一般上界不能小于这个值。",
+    "tldr": "对于单子句传播而言，在CNF公式中不可简化的公式，其大小与最小可等价的公式大小的比值最大为n^2，其中n是变量数量。一般上界不会小于n/ln n倍。"
+}

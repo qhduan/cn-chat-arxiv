@@ -1,0 +1,11 @@
+{
+    "title": "Towards a Model of Puzznic. (arXiv:2310.01503v1 [cs.AI])",
+    "abstract": "We report on progress in modelling and solving Puzznic, a video game requiring the player to plan sequences of moves to clear a grid by matching blocks. We focus here on levels with no moving blocks. We compare a planning approach and three constraint programming approaches on a small set of benchmark instances. The planning approach is at present superior to the constraint programming approaches, but we outline proposals for improving the constraint models.",
+    "link": "http://arxiv.org/abs/2310.01503",
+    "context": "Title: Towards a Model of Puzznic. (arXiv:2310.01503v1 [cs.AI])\nAbstract: We report on progress in modelling and solving Puzznic, a video game requiring the player to plan sequences of moves to clear a grid by matching blocks. We focus here on levels with no moving blocks. We compare a planning approach and three constraint programming approaches on a small set of benchmark instances. The planning approach is at present superior to the constraint programming approaches, but we outline proposals for improving the constraint models.",
+    "path": "papers/23/10/2310.01503.json",
+    "total_tokens": 607,
+    "translated_title": "《关于Puzznic模型的研究》",
+    "translated_abstract": "我们报告了对Puzznic进行建模和解决的进展。Puzznic是一款需要玩家计划移动来消除方块在网格上的视频游戏。我们这里主要关注没有移动方块的关卡。我们比较了一种规划方法和三种约束编程方法在一小组基准实例上的表现。目前，规划方法优于约束编程方法，但我们概述了改进约束模型的提案。",
+    "tldr": "本论文研究了Puzznic游戏的建模和解决方法，在无移动方块的关卡上进行了比较实验。目前，规划方法优于约束编程方法，但提出了改进约束模型的方案。"
+}
