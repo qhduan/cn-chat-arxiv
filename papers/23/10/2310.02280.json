@@ -1,0 +1,11 @@
+{
+    "title": "Expert enhanced dynamic time warping based anomaly detection. (arXiv:2310.02280v1 [cs.LG])",
+    "abstract": "Dynamic time warping (DTW) is a well-known algorithm for time series elastic dissimilarity measure. Its ability to deal with non-linear time distortions makes it helpful in variety of data mining tasks. Such a task is also anomaly detection which attempts to reveal unexpected behaviour without false detection alarms. In this paper, we propose a novel anomaly detection method named Expert enhanced dynamic time warping anomaly detection (E-DTWA). It is based on DTW with additional enhancements involving human-in-the-loop concept. The main benefits of our approach comprise efficient detection, flexible retraining based on strong consideration of the expert's detection feedback while retaining low computational and space complexity.",
+    "link": "http://arxiv.org/abs/2310.02280",
+    "context": "Title: Expert enhanced dynamic time warping based anomaly detection. (arXiv:2310.02280v1 [cs.LG])\nAbstract: Dynamic time warping (DTW) is a well-known algorithm for time series elastic dissimilarity measure. Its ability to deal with non-linear time distortions makes it helpful in variety of data mining tasks. Such a task is also anomaly detection which attempts to reveal unexpected behaviour without false detection alarms. In this paper, we propose a novel anomaly detection method named Expert enhanced dynamic time warping anomaly detection (E-DTWA). It is based on DTW with additional enhancements involving human-in-the-loop concept. The main benefits of our approach comprise efficient detection, flexible retraining based on strong consideration of the expert's detection feedback while retaining low computational and space complexity.",
+    "path": "papers/23/10/2310.02280.json",
+    "total_tokens": 766,
+    "translated_title": "专家增强的基于动态时间规整的异常检测",
+    "translated_abstract": "动态时间规整（DTW）是一个用于时间序列弹性相似性度量的著名算法。其处理非线性时间扭曲的能力使其在各种数据挖掘任务中很有帮助。其中一个任务是异常检测，它试图揭示出意外的行为而没有错误的检测警报。在本文中，我们提出了一种名为专家增强的动态时间规整异常检测（E-DTWA）的新型异常检测方法。它基于DTW，并在其中加入了与人机交互概念相关的额外改进。我们方法的主要优势包括高效的检测，在强烈考虑到专家的检测反馈的基础上灵活地进行重新训练，同时保持低计算和空间复杂度。",
+    "tldr": "本文提出了一种名为E-DTWA的新型异常检测方法，基于动态时间规整（DTW）并加入了人机交互概念相关的额外改进。该方法具有高效的检测能力，能够在强烈考虑到专家的检测反馈的基础上灵活地进行重新训练，同时保持低计算和空间复杂度。"
+}

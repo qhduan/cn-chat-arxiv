@@ -1,0 +1,11 @@
+{
+    "title": "Improving Drumming Robot Via Attention Transformer Network. (arXiv:2310.02565v1 [cs.RO])",
+    "abstract": "Robotic technology has been widely used in nowadays society, which has made great progress in various fields such as agriculture, manufacturing and entertainment. In this paper, we focus on the topic of drumming robots in entertainment. To this end, we introduce an improving drumming robot that can automatically complete music transcription based on the popular vision transformer network based on the attention mechanism. Equipped with the attention transformer network, our method can efficiently handle the sequential audio embedding input and model their global long-range dependencies. Massive experimental results demonstrate that the improving algorithm can help the drumming robot promote drum classification performance, which can also help the robot to enjoy a variety of smart applications and services.",
+    "link": "http://arxiv.org/abs/2310.02565",
+    "context": "Title: Improving Drumming Robot Via Attention Transformer Network. (arXiv:2310.02565v1 [cs.RO])\nAbstract: Robotic technology has been widely used in nowadays society, which has made great progress in various fields such as agriculture, manufacturing and entertainment. In this paper, we focus on the topic of drumming robots in entertainment. To this end, we introduce an improving drumming robot that can automatically complete music transcription based on the popular vision transformer network based on the attention mechanism. Equipped with the attention transformer network, our method can efficiently handle the sequential audio embedding input and model their global long-range dependencies. Massive experimental results demonstrate that the improving algorithm can help the drumming robot promote drum classification performance, which can also help the robot to enjoy a variety of smart applications and services.",
+    "path": "papers/23/10/2310.02565.json",
+    "total_tokens": 709,
+    "translated_title": "通过注意力转换网络改进鼓机器人",
+    "translated_abstract": "机器人技术在现今社会得到广泛应用，在农业、制造业和娱乐等各个领域取得了巨大进展。本文着重研究娱乐领域中的鼓机器人。为此，我们引入了一种改进的鼓机器人，基于注意力机制的热门视觉转换网络，可以自动完成音乐转录。通过配备注意力转换网络，我们的方法可以有效处理顺序音频嵌入输入，并建模其全局长程依赖关系。大量实验结果表明，改进的算法可以帮助鼓机器人提升鼓分类性能，也可以帮助机器人享受各种智能应用和服务。",
+    "tldr": "本文提出了一种使用注意力转换网络的改进鼓机器人，可以自动完成音乐转录，并帮助机器人提升鼓分类性能。"
+}

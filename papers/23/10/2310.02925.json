@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Transport with Adaptive Regularisation. (arXiv:2310.02925v1 [cs.LG])",
+    "abstract": "Regularising the primal formulation of optimal transport (OT) with a strictly convex term leads to enhanced numerical complexity and a denser transport plan. Many formulations impose a global constraint on the transport plan, for instance by relying on entropic regularisation. As it is more expensive to diffuse mass for outlier points compared to central ones, this typically results in a significant imbalance in the way mass is spread across the points. This can be detrimental for some applications where a minimum of smoothing is required per point. To remedy this, we introduce OT with Adaptive RegularIsation (OTARI), a new formulation of OT that imposes constraints on the mass going in or/and out of each point. We then showcase the benefits of this approach for domain adaptation.",
+    "link": "http://arxiv.org/abs/2310.02925",
+    "context": "Title: Optimal Transport with Adaptive Regularisation. (arXiv:2310.02925v1 [cs.LG])\nAbstract: Regularising the primal formulation of optimal transport (OT) with a strictly convex term leads to enhanced numerical complexity and a denser transport plan. Many formulations impose a global constraint on the transport plan, for instance by relying on entropic regularisation. As it is more expensive to diffuse mass for outlier points compared to central ones, this typically results in a significant imbalance in the way mass is spread across the points. This can be detrimental for some applications where a minimum of smoothing is required per point. To remedy this, we introduce OT with Adaptive RegularIsation (OTARI), a new formulation of OT that imposes constraints on the mass going in or/and out of each point. We then showcase the benefits of this approach for domain adaptation.",
+    "path": "papers/23/10/2310.02925.json",
+    "total_tokens": 754,
+    "translated_title": "自适应正则化的最优传输",
+    "translated_abstract": "使用严格凸约束来正则化最优传输（OT）的原始形式会增加数值复杂度并使传输计划更密集。许多公式对传输计划施加全局约束，例如依赖熵正则化。由于对于离群点而言扩散质量比中心点更昂贵，这通常导致质量在点之间的分布方式存在显著的不平衡。对于一些需要每个点最低平滑性的应用而言，这可能是有害的。为了解决这个问题，我们引入了自适应正则化最优传输（OTARI），一种对进出每个点的质量施加约束的新形式。然后我们展示了这种方法在领域适应中的好处。",
+    "tldr": "OTARI是一种新的最优传输形式，它通过对每个点的质量施加约束来解决全局约束造成的不平衡问题，在领域适应中具有重要作用。"
+}

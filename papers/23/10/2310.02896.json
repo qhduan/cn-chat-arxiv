@@ -1,0 +1,12 @@
+{
+    "title": "Notes on a Path to AI Assistance in Mathematical Reasoning. (arXiv:2310.02896v1 [math.HO])",
+    "abstract": "These informal notes are based on the author's lecture at the National Academies of Science, Engineering, and Mathematics workshop on \"AI to Assist Mathematical Reasoning\" in June 2023. The goal is to think through a path by which we might arrive at AI that is useful for the research mathematician.",
+    "link": "http://arxiv.org/abs/2310.02896",
+    "context": "Title: Notes on a Path to AI Assistance in Mathematical Reasoning. (arXiv:2310.02896v1 [math.HO])\nAbstract: These informal notes are based on the author's lecture at the National Academies of Science, Engineering, and Mathematics workshop on \"AI to Assist Mathematical Reasoning\" in June 2023. The goal is to think through a path by which we might arrive at AI that is useful for the research mathematician.",
+    "path": "papers/23/10/2310.02896.json",
+    "total_tokens": 508,
+    "translated_title": "关于实现数学推理的人工智能助手的途径的注释",
+    "translated_abstract": "这些非正式注释是基于作者在2023年6月的美国国家科学院、工程院和数学院举办的“人工智能辅助数学推理”研讨会上的演讲而撰写的。其目标是思考一种可能实现对研究数学家有用的人工智能的途径。",
+    "tldr": "这篇论文探讨了实现对研究数学家有用的人工智能助手的可能途径。",
+    "en_tdlr": "This paper explores possible paths towards achieving AI assistants that are useful for research mathematicians."
+}

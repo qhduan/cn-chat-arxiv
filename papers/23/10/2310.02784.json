@@ -1,0 +1,12 @@
+{
+    "title": "MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems. (arXiv:2310.02784v1 [cs.DC])",
+    "abstract": "Training and deploying large machine learning (ML) models is time-consuming and requires significant distributed computing infrastructures. Based on real-world large model training on datacenter-scale infrastructures, we show 14~32% of all GPU hours are spent on communication with no overlapping computation. To minimize the outstanding communication latency, in this work, we develop an agile performance modeling framework to guide parallelization and hardware-software co-design strategies. Using the suite of real-world large ML models on state-of-the-art GPU training hardware, we demonstrate 2.24x and 5.27x throughput improvement potential for pre-training and inference scenarios, respectively.",
+    "link": "http://arxiv.org/abs/2310.02784",
+    "context": "Title: MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems. (arXiv:2310.02784v1 [cs.DC])\nAbstract: Training and deploying large machine learning (ML) models is time-consuming and requires significant distributed computing infrastructures. Based on real-world large model training on datacenter-scale infrastructures, we show 14~32% of all GPU hours are spent on communication with no overlapping computation. To minimize the outstanding communication latency, in this work, we develop an agile performance modeling framework to guide parallelization and hardware-software co-design strategies. Using the suite of real-world large ML models on state-of-the-art GPU training hardware, we demonstrate 2.24x and 5.27x throughput improvement potential for pre-training and inference scenarios, respectively.",
+    "path": "papers/23/10/2310.02784.json",
+    "total_tokens": 757,
+    "translated_title": "超越单节点：在分布式系统上实现大规模机器学习模型加速",
+    "translated_abstract": "训练和部署大规模机器学习（ML）模型是耗时且需要大量分布式计算基础设施。根据实际情况在数据中心规模基础设施上进行大模型训练，我们发现14~32%的GPU小时用于通信，没有重叠计算。为了尽量减少等待通信延迟，本研究开发了一个灵活的性能建模框架，指导并行化和硬件软件共同设计策略。利用最先进的GPU训练硬件上的一套实际大规模ML模型，我们展示了预训练和推断场景分别可以提高2.24倍和5.27倍的吞吐量。",
+    "tldr": "该研究提出了一个性能建模框架，在分布式系统上实现了大规模机器学习模型的加速，获得了2.24倍和5.27倍的吞吐量提升潜力。",
+    "en_tdlr": "This study proposes a performance modeling framework that enables the acceleration of large-scale machine learning models on distributed systems, achieving potential throughput improvements of 2.24x and 5.27x for pre-training and inference scenarios, respectively."
+}

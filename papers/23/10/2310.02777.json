@@ -1,0 +1,11 @@
+{
+    "title": "The Role of Linguistic Priors in Measuring Compositional Generalization of Vision-Language Models. (arXiv:2310.02777v1 [cs.CL])",
+    "abstract": "Compositionality is a common property in many modalities including natural languages and images, but the compositional generalization of multi-modal models is not well-understood. In this paper, we identify two sources of visual-linguistic compositionality: linguistic priors and the interplay between images and texts. We show that current attempts to improve compositional generalization rely on linguistic priors rather than on information in the image. We also propose a new metric for compositionality without such linguistic priors.",
+    "link": "http://arxiv.org/abs/2310.02777",
+    "context": "Title: The Role of Linguistic Priors in Measuring Compositional Generalization of Vision-Language Models. (arXiv:2310.02777v1 [cs.CL])\nAbstract: Compositionality is a common property in many modalities including natural languages and images, but the compositional generalization of multi-modal models is not well-understood. In this paper, we identify two sources of visual-linguistic compositionality: linguistic priors and the interplay between images and texts. We show that current attempts to improve compositional generalization rely on linguistic priors rather than on information in the image. We also propose a new metric for compositionality without such linguistic priors.",
+    "path": "papers/23/10/2310.02777.json",
+    "total_tokens": 703,
+    "translated_title": "语言先验在测量视觉语言模型组合泛化中的作用",
+    "translated_abstract": "组合性是许多模态中常见的属性，包括自然语言和图像，但多模式模型的组合泛化尚不太清楚。在本文中，我们确定了视觉-语言组合性的两个来源：语言先验和图像和文本之间的相互作用。我们显示当前改进组合性泛化的尝试依赖于语言先验而不是图像中的信息。我们还提出了一种没有这种语言先验的组合性度量标准。",
+    "tldr": "本文研究了视觉语言模型组合泛化的一种重要属性：语言先验。研究发现当前的改进方法主要依赖于语言先验而忽视了图像中的信息。研究还提出了一种新的不依赖于语言先验的组合性度量方法。"
+}

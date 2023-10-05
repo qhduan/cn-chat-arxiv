@@ -1,0 +1,12 @@
+{
+    "title": "Learning Probability Distributions of Intraday Electricity Prices. (arXiv:2310.02867v1 [econ.GN])",
+    "abstract": "We propose a novel machine learning approach to probabilistic forecasting of hourly intraday electricity prices. In contrast to recent advances in data-rich probabilistic forecasting that approximate the distributions with some features such as moments, our method is non-parametric and selects the best distribution from all possible empirical distributions learned from the data. The model we propose is a multiple output neural network with a monotonicity adjusting penalty. Such a distributional neural network can learn complex patterns in electricity prices from data-rich environments and it outperforms state-of-the-art benchmarks.",
+    "link": "http://arxiv.org/abs/2310.02867",
+    "context": "Title: Learning Probability Distributions of Intraday Electricity Prices. (arXiv:2310.02867v1 [econ.GN])\nAbstract: We propose a novel machine learning approach to probabilistic forecasting of hourly intraday electricity prices. In contrast to recent advances in data-rich probabilistic forecasting that approximate the distributions with some features such as moments, our method is non-parametric and selects the best distribution from all possible empirical distributions learned from the data. The model we propose is a multiple output neural network with a monotonicity adjusting penalty. Such a distributional neural network can learn complex patterns in electricity prices from data-rich environments and it outperforms state-of-the-art benchmarks.",
+    "path": "papers/23/10/2310.02867.json",
+    "total_tokens": 683,
+    "translated_title": "学习电力日内价格概率分布",
+    "translated_abstract": "我们提出了一种新颖的机器学习方法，用于对小时级电力日内价格进行概率预测。与最近在数据丰富的概率预测方面的进展不同，该方法是非参数的，并从数据中学习到所有可能的经验分布中选择最佳分布。我们提出的模型是一种具有单调调整惩罚的多输出神经网络。这样的分布神经网络可以从数据丰富的环境中学习到电力价格的复杂模式，并且优于最先进的基准模型。",
+    "tldr": "该论文提出了一种利用机器学习方法对电力日内价格概率进行预测的新方法，该方法通过学习数据中的经验分布选择最佳分布，并利用分布神经网络学习复杂模式，优于现有的基准模型。",
+    "en_tdlr": "This paper proposes a novel machine learning approach for probabilistic forecasting of intraday electricity prices, selecting the best distribution from all possible empirical distributions learned from the data, and utilizing a distributional neural network to learn complex patterns, outperforming state-of-the-art benchmarks."
+}

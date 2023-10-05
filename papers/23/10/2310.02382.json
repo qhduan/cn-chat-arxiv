@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Speech Recognition with N-Skipgram and Positional Unigram Matching. (arXiv:2310.02382v1 [cs.CL])",
+    "abstract": "Training unsupervised speech recognition systems presents challenges due to GAN-associated instability, misalignment between speech and text, and significant memory demands. To tackle these challenges, we introduce a novel ASR system, ESPUM. This system harnesses the power of lower-order N-skipgrams (up to N=3) combined with positional unigram statistics gathered from a small batch of samples. Evaluated on the TIMIT benchmark, our model showcases competitive performance in ASR and phoneme segmentation tasks. Access our publicly available code at https://github.com/lwang114/GraphUnsupASR.",
+    "link": "http://arxiv.org/abs/2310.02382",
+    "context": "Title: Unsupervised Speech Recognition with N-Skipgram and Positional Unigram Matching. (arXiv:2310.02382v1 [cs.CL])\nAbstract: Training unsupervised speech recognition systems presents challenges due to GAN-associated instability, misalignment between speech and text, and significant memory demands. To tackle these challenges, we introduce a novel ASR system, ESPUM. This system harnesses the power of lower-order N-skipgrams (up to N=3) combined with positional unigram statistics gathered from a small batch of samples. Evaluated on the TIMIT benchmark, our model showcases competitive performance in ASR and phoneme segmentation tasks. Access our publicly available code at https://github.com/lwang114/GraphUnsupASR.",
+    "path": "papers/23/10/2310.02382.json",
+    "total_tokens": 697,
+    "translated_title": "无监督语音识别与N-Skipgram和位置序列匹配",
+    "translated_abstract": "训练无监督语音识别系统由于GAN相关的不稳定性、语音和文本之间的不对齐以及巨大的内存需求而面临挑战。为了解决这些问题，我们引入了一种新颖的ASR系统ESPUM。该系统利用了低阶N-skipgrams（最多N=3）和从一小批样本中收集到的位置序列统计信息。在TIMIT基准测试上，我们的模型在ASR和音素分割任务中展示出了竞争性的性能。访问我们公开的代码：https://github.com/lwang114/GraphUnsupASR。",
+    "tldr": "引入了一种新颖的无监督语音识别系统ESPUM，利用低阶N-skipgrams和位置序列统计信息，在ASR和音素分割任务中展示出竞争性性能。",
+    "en_tdlr": "A novel unsupervised speech recognition system, ESPUM, is introduced, which harnesses the power of lower-order N-skipgrams and positional unigram statistics to achieve competitive performance in ASR and phoneme segmentation tasks."
+}

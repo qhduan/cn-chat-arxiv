@@ -1,0 +1,12 @@
+{
+    "title": "Solving Multi-Configuration Problems: A Performance Analysis with Choco Solver. (arXiv:2310.02658v1 [cs.AI])",
+    "abstract": "In many scenarios, configurators support the configuration of a solution that satisfies the preferences of a single user. The concept of \\emph{multi-configuration} is based on the idea of configuring a set of configurations. Such a functionality is relevant in scenarios such as the configuration of personalized exams, the configuration of project teams, and the configuration of different trips for individual members of a tourist group (e.g., when visiting a specific city). In this paper, we exemplify the application of multi-configuration for generating individualized exams. We also provide a constraint solver performance analysis which helps to gain some insights into corresponding performance issues.",
+    "link": "http://arxiv.org/abs/2310.02658",
+    "context": "Title: Solving Multi-Configuration Problems: A Performance Analysis with Choco Solver. (arXiv:2310.02658v1 [cs.AI])\nAbstract: In many scenarios, configurators support the configuration of a solution that satisfies the preferences of a single user. The concept of \\emph{multi-configuration} is based on the idea of configuring a set of configurations. Such a functionality is relevant in scenarios such as the configuration of personalized exams, the configuration of project teams, and the configuration of different trips for individual members of a tourist group (e.g., when visiting a specific city). In this paper, we exemplify the application of multi-configuration for generating individualized exams. We also provide a constraint solver performance analysis which helps to gain some insights into corresponding performance issues.",
+    "path": "papers/23/10/2310.02658.json",
+    "total_tokens": 664,
+    "translated_title": "解决多配置问题：使用Choco Solver的性能分析",
+    "translated_abstract": "在许多场景中，配置器支持配置满足单个用户偏好的解决方案。多配置的概念基于配置一组配置的想法。这种功能在配置个性化考试，配置项目团队和为旅游团队的每个成员配置不同的旅行（例如，在访问特定城市时）等场景中非常重要。在本文中，我们示例了多配置应用于生成个性化考试。我们还提供了一个约束求解器的性能分析，帮助我们对相应的性能问题有一些了解。",
+    "tldr": "本文介绍了使用Choco Solver进行多配置问题求解的应用案例，以及对约束求解器性能分析的研究，从而揭示了相关性能问题。",
+    "en_tdlr": "This paper presents an application of using Choco Solver for solving multi-configuration problems, exemplified by the generation of individualized exams. It also provides a performance analysis of constraint solvers, offering insights into corresponding performance issues."
+}

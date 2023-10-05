@@ -1,0 +1,12 @@
+{
+    "title": "Reasoning about Intuitionistic Computation Tree Logic. (arXiv:2310.02355v1 [cs.LO])",
+    "abstract": "In this paper, we define an intuitionistic version of Computation Tree Logic. After explaining the semantic features of intuitionistic logic, we examine how these characteristics can be interesting for formal verification purposes. Subsequently, we define the syntax and semantics of our intuitionistic version of CTL and study some simple properties of the so obtained logic. We conclude by demonstrating that some fixed-point axioms of CTL are not valid in the intuitionistic version of CTL we have defined.",
+    "link": "http://arxiv.org/abs/2310.02355",
+    "context": "Title: Reasoning about Intuitionistic Computation Tree Logic. (arXiv:2310.02355v1 [cs.LO])\nAbstract: In this paper, we define an intuitionistic version of Computation Tree Logic. After explaining the semantic features of intuitionistic logic, we examine how these characteristics can be interesting for formal verification purposes. Subsequently, we define the syntax and semantics of our intuitionistic version of CTL and study some simple properties of the so obtained logic. We conclude by demonstrating that some fixed-point axioms of CTL are not valid in the intuitionistic version of CTL we have defined.",
+    "path": "papers/23/10/2310.02355.json",
+    "total_tokens": 621,
+    "translated_title": "探究直觉型计算树逻辑的推理（arXiv:2310.02355v1 [cs.LO]）",
+    "translated_abstract": "本文定义了一个直觉型计算树逻辑的版本。在解释直觉逻辑的语义特点后，我们研究了它在形式验证方面的应用潜力。随后，我们定义了直觉型CTL的语法和语义，并研究了所得逻辑的一些简单属性。最后，我们证明了一些CTL的不动点公理在我们定义的直觉型CTL中并不成立。",
+    "tldr": "本文定义了直觉型计算树逻辑的版本，并研究了其在形式验证方面的应用潜力。结果表明，一些CTL的不动点公理在该直觉型版本中并不成立。",
+    "en_tdlr": "This paper defines an intuitionistic version of Computation Tree Logic and examines its potential applications in formal verification. The results show that some fixed-point axioms of CTL are not valid in the intuitionistic version."
+}

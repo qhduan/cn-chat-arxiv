@@ -1,0 +1,11 @@
+{
+    "title": "Extracting Rules from Event Data for Study Planning. (arXiv:2310.02735v1 [cs.LG])",
+    "abstract": "In this study, we examine how event data from campus management systems can be used to analyze the study paths of higher education students. The main goal is to offer valuable guidance for their study planning. We employ process and data mining techniques to explore the impact of sequences of taken courses on academic success. Through the use of decision tree models, we generate data-driven recommendations in the form of rules for study planning and compare them to the recommended study plan. The evaluation focuses on RWTH Aachen University computer science bachelor program students and demonstrates that the proposed course sequence features effectively explain academic performance measures. Furthermore, the findings suggest avenues for developing more adaptable study plans.",
+    "link": "http://arxiv.org/abs/2310.02735",
+    "context": "Title: Extracting Rules from Event Data for Study Planning. (arXiv:2310.02735v1 [cs.LG])\nAbstract: In this study, we examine how event data from campus management systems can be used to analyze the study paths of higher education students. The main goal is to offer valuable guidance for their study planning. We employ process and data mining techniques to explore the impact of sequences of taken courses on academic success. Through the use of decision tree models, we generate data-driven recommendations in the form of rules for study planning and compare them to the recommended study plan. The evaluation focuses on RWTH Aachen University computer science bachelor program students and demonstrates that the proposed course sequence features effectively explain academic performance measures. Furthermore, the findings suggest avenues for developing more adaptable study plans.",
+    "path": "papers/23/10/2310.02735.json",
+    "total_tokens": 813,
+    "translated_title": "从事件数据中提取规则用于学习规划研究",
+    "translated_abstract": "在这项研究中，我们探讨了如何利用校园管理系统的事件数据来分析高等教育学生的学习路径。主要目标是为他们的学习规划提供有价值的指导。我们使用过程和数据挖掘技术来探索所选课程序列对学业成绩的影响。通过使用决策树模型，我们生成以规则形式的数据驱动的学习规划建议，并将其与推荐的学习计划进行比较。评估重点关注RWTH Aachen大学计算机科学学士学位计划的学生，并证明了所提出的课程序列特征有效地解释了学业表现指标。此外，研究结果还建议了开发更具适应性学习计划的途径。",
+    "tldr": "本研究利用事件数据分析高等教育学生的学习路径，通过决策树模型生成数据驱动的规则建议，并用于学习规划。研究发现所选课程序列特征对学业表现有较好解释，为制定更适应性的学习计划提供了思路。"
+}

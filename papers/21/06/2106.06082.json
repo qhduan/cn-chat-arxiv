@@ -1,0 +1,11 @@
+{
+    "title": "One Sense per Translation. (arXiv:2106.06082v2 [cs.CL] UPDATED)",
+    "abstract": "Word sense disambiguation (WSD) is the task of determining the sense of a word in context. Translations have been used in WSD as a source of knowledge, and even as a means of delimiting word senses. In this paper, we define three theoretical properties of the relationship between senses and translations, and argue that they constitute necessary conditions for using translations as sense inventories. The key property of One Sense per Translation (OSPT) provides a foundation for a translation-based WSD method. The results of an intrinsic evaluation experiment indicate that our method achieves a precision of approximately 93% compared to manual corpus annotations. Our extrinsic evaluation experiments demonstrate WSD improvements of up to 4.6% F1-score on difficult WSD datasets.",
+    "link": "http://arxiv.org/abs/2106.06082",
+    "context": "Title: One Sense per Translation. (arXiv:2106.06082v2 [cs.CL] UPDATED)\nAbstract: Word sense disambiguation (WSD) is the task of determining the sense of a word in context. Translations have been used in WSD as a source of knowledge, and even as a means of delimiting word senses. In this paper, we define three theoretical properties of the relationship between senses and translations, and argue that they constitute necessary conditions for using translations as sense inventories. The key property of One Sense per Translation (OSPT) provides a foundation for a translation-based WSD method. The results of an intrinsic evaluation experiment indicate that our method achieves a precision of approximately 93% compared to manual corpus annotations. Our extrinsic evaluation experiments demonstrate WSD improvements of up to 4.6% F1-score on difficult WSD datasets.",
+    "path": "papers/21/06/2106.06082.json",
+    "total_tokens": 756,
+    "translated_title": "一对一翻译",
+    "translated_abstract": "词义消歧（WSD）是确定上下文中词义的任务。翻译被用作WSD的知识源，甚至用作限定词义的手段。本文定义了词义和翻译之间关系的三个理论属性，并论证了它们是使用翻译作为词义库的必要条件。一对一翻译（OSPT）的关键属性为基于翻译的WSD方法提供了基础。内在评估实验的结果表明，与手动语料库注释相比，我们的方法达到了约93％的精确度。外在评估实验显示，在困难的WSD数据集上，WSD的F1分数提高了最高达4.6％。",
+    "tldr": "本文提出了一种基于翻译的词义消歧方法，通过定义一对一翻译（OSPT）的关键属性，实现了高达93％的精确度以及最高4.6％的WSD改进。"
+}

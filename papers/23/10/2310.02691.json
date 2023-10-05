@@ -1,0 +1,12 @@
+{
+    "title": "Robust Ocean Subgrid-Scale Parameterizations Using Fourier Neural Operators. (arXiv:2310.02691v1 [cs.LG])",
+    "abstract": "In climate simulations, small-scale processes shape ocean dynamics but remain computationally expensive to resolve directly. For this reason, their contributions are commonly approximated using empirical parameterizations, which lead to significant errors in long-term projections. In this work, we develop parameterizations based on Fourier Neural Operators, showcasing their accuracy and generalizability in comparison to other approaches. Finally, we discuss the potential and limitations of neural networks operating in the frequency domain, paving the way for future investigation.",
+    "link": "http://arxiv.org/abs/2310.02691",
+    "context": "Title: Robust Ocean Subgrid-Scale Parameterizations Using Fourier Neural Operators. (arXiv:2310.02691v1 [cs.LG])\nAbstract: In climate simulations, small-scale processes shape ocean dynamics but remain computationally expensive to resolve directly. For this reason, their contributions are commonly approximated using empirical parameterizations, which lead to significant errors in long-term projections. In this work, we develop parameterizations based on Fourier Neural Operators, showcasing their accuracy and generalizability in comparison to other approaches. Finally, we discuss the potential and limitations of neural networks operating in the frequency domain, paving the way for future investigation.",
+    "path": "papers/23/10/2310.02691.json",
+    "total_tokens": 688,
+    "translated_title": "使用傅里叶神经算子的海洋子区尺度稳健参数化",
+    "translated_abstract": "在气候模拟中，小尺度过程塑造了海洋动力学，但直接解决这些过程在计算上代价昂贵。因此，常常使用经验参数化方法来近似它们的贡献，在长期预测中会产生显著的误差。本文基于傅里叶神经算子开发了参数化方法，并展示了与其他方法相比的准确性和普适性。最后，我们讨论了在频域中运行神经网络的潜力和局限性，为未来的研究铺平了道路。",
+    "tldr": "本文使用傅里叶神经算子开发了海洋子区尺度稳健参数化方法，展示了其准确性和普适性，为解决气候模拟中长期预测误差的问题提供了潜在解决方案。",
+    "en_tdlr": "This paper develops robust ocean subgrid-scale parameterizations using Fourier Neural Operators, showcasing their accuracy and generalizability. It provides a potential solution to address the errors in long-term projections in climate simulations."
+}

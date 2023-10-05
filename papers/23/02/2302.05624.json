@@ -1,0 +1,12 @@
+{
+    "title": "A novel approach to generate datasets with XAI ground truth to evaluate image models. (arXiv:2302.05624v2 [cs.CV] UPDATED)",
+    "abstract": "With the increased usage of artificial intelligence (AI), it is imperative to understand how these models work internally. These needs have led to the development of a new field called eXplainable artificial intelligence (XAI). This field consists of on a set of techniques that allows us to theoretically determine the cause of the AI decisions. One main issue of XAI is how to verify the works on this field, taking into consideration the lack of ground truth (GT). In this study, we propose a new method to generate datasets with GT. We conducted a set of experiments that compared our GT with real model explanations and obtained excellent results confirming that our proposed method is correct.",
+    "link": "http://arxiv.org/abs/2302.05624",
+    "context": "Title: A novel approach to generate datasets with XAI ground truth to evaluate image models. (arXiv:2302.05624v2 [cs.CV] UPDATED)\nAbstract: With the increased usage of artificial intelligence (AI), it is imperative to understand how these models work internally. These needs have led to the development of a new field called eXplainable artificial intelligence (XAI). This field consists of on a set of techniques that allows us to theoretically determine the cause of the AI decisions. One main issue of XAI is how to verify the works on this field, taking into consideration the lack of ground truth (GT). In this study, we propose a new method to generate datasets with GT. We conducted a set of experiments that compared our GT with real model explanations and obtained excellent results confirming that our proposed method is correct.",
+    "path": "papers/23/02/2302.05624.json",
+    "total_tokens": 743,
+    "translated_title": "用于评估图像模型的具有XAI基准的数据集生成新方法",
+    "translated_abstract": "随着人工智能（AI）的广泛使用，了解这些模型的内部工作机制变得至关重要。这些需求推动了一种名为可解释人工智能（XAI）的新领域的发展。该领域涵盖了一系列技术，使我们能够理论上确定AI决策的原因。XAI的一个主要问题是如何验证该领域的工作，考虑到缺乏基准（GT）。在本研究中，我们提出了一种新的方法来生成带有GT的数据集。我们进行了一系列实验，将我们的GT与真实模型解释进行比较，并获得了卓越的结果，证实我们提出的方法是正确的。",
+    "tldr": "该论文介绍了一种新方法来生成具有XAI基准的数据集，用于评估图像模型。通过与真实模型解释进行比较，实验证实了该方法的可靠性。",
+    "en_tdlr": "This paper presents a novel method for generating datasets with eXplainable Artificial Intelligence (XAI) ground truth to evaluate image models. The proposed method was validated through experiments comparing the generated ground truth with real model explanations."
+}

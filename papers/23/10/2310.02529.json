@@ -1,0 +1,12 @@
+{
+    "title": "MIDDAG: Where Does Our News Go? Investigating Information Diffusion via Community-Level Information Pathways. (arXiv:2310.02529v1 [cs.SI])",
+    "abstract": "We present MIDDAG, an intuitive, interactive system that visualizes the information propagation paths on social media triggered by COVID-19-related news articles accompanied by comprehensive insights including user/community susceptibility level, as well as events and popular opinions raised by the crowd while propagating the information. Besides discovering information flow patterns among users, we construct communities among users and develop the propagation forecasting capability, enabling tracing and understanding of how information is disseminated at a higher level.",
+    "link": "http://arxiv.org/abs/2310.02529",
+    "context": "Title: MIDDAG: Where Does Our News Go? Investigating Information Diffusion via Community-Level Information Pathways. (arXiv:2310.02529v1 [cs.SI])\nAbstract: We present MIDDAG, an intuitive, interactive system that visualizes the information propagation paths on social media triggered by COVID-19-related news articles accompanied by comprehensive insights including user/community susceptibility level, as well as events and popular opinions raised by the crowd while propagating the information. Besides discovering information flow patterns among users, we construct communities among users and develop the propagation forecasting capability, enabling tracing and understanding of how information is disseminated at a higher level.",
+    "path": "papers/23/10/2310.02529.json",
+    "total_tokens": 673,
+    "translated_title": "MIDDAG：新闻走向何方？通过社区级信息路径研究信息传播",
+    "translated_abstract": "我们提出了MIDDAG，一个直观、交互式的系统，可以可视化由COVID-19相关新闻文章触发的社交媒体信息传播路径，并提供包括用户/社区易感性水平、以及信息传播过程中引发的事件和广大群众的热门观点的全面洞察。除了发现用户之间的信息流模式，我们还构建了用户之间的社区，并开发了传播预测能力，从而实现对高层次信息传播方式的追踪和理解。",
+    "tldr": "MIDDAG是一个交互式系统，通过可视化社交媒体上由COVID-19相关新闻触发的信息传播路径，提供全面的洞察力，并能构建用户社区和预测信息传播，从而追踪和理解信息的传播方式。",
+    "en_tdlr": "MIDDAG is an interactive system that visualizes the information propagation paths on social media triggered by COVID-19-related news articles, providing comprehensive insights and enabling community construction and propagation forecasting to understand and track the dissemination of information."
+}

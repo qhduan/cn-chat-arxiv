@@ -1,0 +1,11 @@
+{
+    "title": "Investigating Speed Deviation Patterns During Glucose Episodes: A Quantile Regression Approach. (arXiv:2310.02351v1 [stat.AP])",
+    "abstract": "Given the growing prevalence of diabetes, there has been significant interest in determining how diabetes affects instrumental daily functions, like driving. Complication of glucose control in diabetes includes hypoglycemic and hyperglycemic episodes, which may impair cognitive and psychomotor functions needed for safe driving. The goal of this paper was to determine patterns of diabetes speed behavior during acute glucose to drivers with diabetes who were euglycemic or control drivers without diabetes in a naturalistic driving environment. By employing distribution-based analytic methods which capture distribution patterns, our study advances prior literature that has focused on conventional approach of average speed to explore speed deviation patterns.",
+    "link": "http://arxiv.org/abs/2310.02351",
+    "context": "Title: Investigating Speed Deviation Patterns During Glucose Episodes: A Quantile Regression Approach. (arXiv:2310.02351v1 [stat.AP])\nAbstract: Given the growing prevalence of diabetes, there has been significant interest in determining how diabetes affects instrumental daily functions, like driving. Complication of glucose control in diabetes includes hypoglycemic and hyperglycemic episodes, which may impair cognitive and psychomotor functions needed for safe driving. The goal of this paper was to determine patterns of diabetes speed behavior during acute glucose to drivers with diabetes who were euglycemic or control drivers without diabetes in a naturalistic driving environment. By employing distribution-based analytic methods which capture distribution patterns, our study advances prior literature that has focused on conventional approach of average speed to explore speed deviation patterns.",
+    "path": "papers/23/10/2310.02351.json",
+    "total_tokens": 831,
+    "translated_title": "探究葡萄糖突发期间的速度偏差模式：一个分位数回归的方法",
+    "translated_abstract": "鉴于糖尿病的日益普遍，人们对糖尿病对驾驶等日常功能的影响产生了重要兴趣。糖尿病控制的并发症包括低血糖和高血糖突发，这可能会影响驾驶所需的认知和精神运动功能。本文的目标是通过使用捕获分布模式的分布分析方法，确定糖尿病驾驶者在急性血糖情况下的速度行为模式，和正常血糖的糖尿病驾驶者或无糖尿病的对照驾驶者相比，以自然驾驶环境为背景。这项研究推动了以往的论文，前者主要关注的是通过平均速度来探索速度偏差模式的传统方法。",
+    "tldr": "本研究利用分位数回归方法探究了糖尿病驾驶者在急性血糖情况下的速度行为模式，相较于以往的研究，该方法能够更好地捕捉到分布模式。"
+}

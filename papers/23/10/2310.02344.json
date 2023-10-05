@@ -1,0 +1,12 @@
+{
+    "title": "Autonomous Systems' Safety Cases for use in UK Nuclear Environments. (arXiv:2310.02344v1 [cs.RO])",
+    "abstract": "An overview of the process to develop a safety case for an autonomous robot deployment on a nuclear site in the UK is described and a safety case for a hypothetical robot incorporating AI is presented. This forms a first step towards a deployment, showing what is possible now and what may be possible with development of tools. It forms the basis for further discussion between nuclear site licensees, the Office for Nuclear Regulation (ONR), industry and academia.",
+    "link": "http://arxiv.org/abs/2310.02344",
+    "context": "Title: Autonomous Systems' Safety Cases for use in UK Nuclear Environments. (arXiv:2310.02344v1 [cs.RO])\nAbstract: An overview of the process to develop a safety case for an autonomous robot deployment on a nuclear site in the UK is described and a safety case for a hypothetical robot incorporating AI is presented. This forms a first step towards a deployment, showing what is possible now and what may be possible with development of tools. It forms the basis for further discussion between nuclear site licensees, the Office for Nuclear Regulation (ONR), industry and academia.",
+    "path": "papers/23/10/2310.02344.json",
+    "total_tokens": 659,
+    "translated_title": "用于英国核环境中的自主系统安全案例",
+    "translated_abstract": "描述了在英国核站点部署自主机器人的安全案例开发过程，并提出了一个包含人工智能的假设机器人的安全案例。这是向部署迈出的第一步，展示了目前可能的情况以及通过工具开发可能实现的情况。它为核站点许可持有人、核安全办公室（ONR）、工业界和学术界之间进一步讨论奠定了基础。",
+    "tldr": "本研究描述了在英国核环境中开发自主机器人部署的安全案例过程，并提出了一个假设机器人的安全案例。这为进一步讨论核站点许可持有人、核安全办公室、工业界和学术界之间的合作奠定了基础。",
+    "en_tdlr": "This research describes the process of developing safety cases for autonomous robot deployment in UK nuclear environments and presents a safety case for a hypothetical robot. It forms the basis for further discussions between nuclear site licensees, the Office for Nuclear Regulation (ONR), industry, and academia."
+}

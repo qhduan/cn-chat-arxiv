@@ -1,0 +1,12 @@
+{
+    "title": "Graph Neural Networks and Time Series as Directed Graphs for Quality Recognition. (arXiv:2310.02774v1 [cs.LG])",
+    "abstract": "Graph Neural Networks (GNNs) are becoming central in the study of time series, coupled with existing algorithms as Temporal Convolutional Networks and Recurrent Neural Networks. In this paper, we see time series themselves as directed graphs, so that their topology encodes time dependencies and we start to explore the effectiveness of GNNs architectures on them. We develop two distinct Geometric Deep Learning models, a supervised classifier and an autoencoder-like model for signal reconstruction. We apply these models on a quality recognition problem.",
+    "link": "http://arxiv.org/abs/2310.02774",
+    "context": "Title: Graph Neural Networks and Time Series as Directed Graphs for Quality Recognition. (arXiv:2310.02774v1 [cs.LG])\nAbstract: Graph Neural Networks (GNNs) are becoming central in the study of time series, coupled with existing algorithms as Temporal Convolutional Networks and Recurrent Neural Networks. In this paper, we see time series themselves as directed graphs, so that their topology encodes time dependencies and we start to explore the effectiveness of GNNs architectures on them. We develop two distinct Geometric Deep Learning models, a supervised classifier and an autoencoder-like model for signal reconstruction. We apply these models on a quality recognition problem.",
+    "path": "papers/23/10/2310.02774.json",
+    "total_tokens": 703,
+    "translated_title": "图神经网络和时间序列作为有向图进行质量识别",
+    "translated_abstract": "图神经网络（GNNs）正成为研究时间序列的核心，与现有的算法，如时间卷积网络和循环神经网络结合使用。在本文中，我们将时间序列视为有向图，以使其拓扑结构编码时间依赖性，并开始探索在其中应用GNN架构的有效性。我们开发了两种不同的几何深度学习模型，一个是监督分类器，一个是类似于自编码模型的信号重构模型。我们将这些模型应用于质量识别问题。",
+    "tldr": "这篇论文研究了图神经网络在时间序列上的应用，将时间序列视为有向图来编码时间依赖性，并开发了两个几何深度学习模型，分别用于监督分类和信号重构，在质量识别问题上取得了良好效果。",
+    "en_tdlr": "This paper explores the application of Graph Neural Networks on time series by modeling them as directed graphs to encode time dependencies. Two geometric deep learning models, a supervised classifier and an autoencoder-like model for signal reconstruction, are developed and applied to quality recognition problem, demonstrating promising results."
+}
