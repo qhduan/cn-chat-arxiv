@@ -6,19 +6,20 @@
 | [^2] | [Substitutes markets with budget constraints: solving for competitive and optimal prices.](http://arxiv.org/abs/2310.03692) | 本文研究了一个有预算限制的市场，买家具有准线性效用和线性替代估值，卖家需要找到最大化收入或福利的价格和无嫉妒的分配。研究发现竞争均衡价格也是无嫉妒收入最大化的，并提供了对“可行”价格集的新颖描述。 |
 | [^3] | [Initiatives Based on the Psychology of Scarcity Can Increase Covid-19 Vaccinations.](http://arxiv.org/abs/2310.03689) | 研究发现在意大利采取限量、限时发布COVID-19疫苗的举措能够推动疫苗接种活动，这利用了心理学和消费者营销的洞察力。 |
 | [^4] | [General Equilibrium Theory for Climate Change.](http://arxiv.org/abs/2310.03650) | 本文提出了两个一般均衡模型，配额均衡和排放税均衡，并讨论了它们的性质和特点。通过设置适当的配额或税率，可以实现 Pareto 最优性。 |
-| [^5] | [Cutting Feedback in Misspecified Copula Models.](http://arxiv.org/abs/2310.03521) | 该论文介绍了一种在错配的Copula模型中限制反馈的剪切方法，并证明了在只有一个模块错配的情况下，适当的剪切后验提供了准确的不确定性量化。该方法在贝叶斯推断中具有重要的应用。 |
-| [^6] | [Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Digital Participatory Budgeting.](http://arxiv.org/abs/2310.03501) | 本研究调查了数字参与式预算中投票和聚合方法的权衡，并通过行为实验确定了有利的投票设计组合。研究发现，设计选择对集体决策、市民感知和结果公平性有深远影响，为开发更公平和更透明的数字PB系统和市民的多胜者集体决策过程提供了可行的见解。 |
-| [^7] | [Variational Inference for GARCH-family Models.](http://arxiv.org/abs/2310.03435) | 变分推断在GARCH家族模型的贝叶斯推断中是一种可靠和可行的方法。 |
-| [^8] | [A Formal Transaction Cost-Based Analysis of the Economic Feasibility of Data Spaces and Service Ecosystems.](http://arxiv.org/abs/2310.03157) | 本文通过扩展交易成本经济学和服务主导逻辑，发展了一个正式的理论框架来分析数据空间和服务生态的经济可行性。其贡献包括对生态系统交易经济可行性的必要条件、生态系统稳定性的规模要求和任意数据或服务提供者-消费者生态系统的一般可行性条件的推导，并提出了业务生态系统的代数定义。 |
-| [^9] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
-| [^10] | [Using Large Language Models for Qualitative Analysis can Introduce Serious Bias.](http://arxiv.org/abs/2309.17147) | 使用大型语言模型（LLMs）对定性分析进行注释可能引入偏见和测量误差，相比之下，使用高质量的人工注释和灵活编码对简单监督模型进行训练可以更好地减少偏见和误差。 |
-| [^11] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
-| [^12] | [Solidarity to achieve stability.](http://arxiv.org/abs/2302.07618) | 团结成为实现稳定的充分条件。 |
-| [^13] | [On the Non-Identification of Revenue Production Functions.](http://arxiv.org/abs/2212.04620) | 当将收入作为产出的代理变量时，不能识别生产函数和Hicks-中性生产力。只有对基础需求系统进行假设的方法可能识别生产函数。 |
-| [^14] | [Prolonged Learning and Hasty Stopping: the Wald Problem with Ambiguity.](http://arxiv.org/abs/2208.14121) | 本文研究了风险厌恶的决策者的信息收集行为，发现与贝叶斯决策者不同，会在面对适度的不确定性时过度实验，并在面对高度不确定性时过早停止实验 |
-| [^15] | [An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange.](http://arxiv.org/abs/2208.08471) | 本文研究发现，加权平均iid极重尾Pareto损失在第一顺序随机优势意义下大于单一损失。通过均衡分析证明，多样化将增加组合风险，拥有极重尾Pareto损失的参与者在市场均衡中将不会分享风险。 |
-| [^16] | [Joint diagnostic test of regression discontinuity designs: multiple testing problem.](http://arxiv.org/abs/2205.04345) | 该论文提出一种联合检验程序来解决目前回归不连续设计的诊断检验存在的多重检验问题，该程序胜过Bonferroni校正。 |
-| [^17] | [Willingness to Pay to Prevent Water and Sanitation-Related Diseases Suffered by Slum Dwellers and Beneficiary Households: Evidence from Chittagong, Bangladesh.](http://arxiv.org/abs/2109.05421) | 孟加拉乍得岗市的研究发现，74%的受访者愿意经济上为贫民窟水和卫生设施的改善做出贡献。 |
+| [^5] | [Best-Response Dynamics in Tullock Contests with Convex Costs.](http://arxiv.org/abs/2310.03528) | 本研究研究了Tullock竞赛中具有凸成本函数的最佳响应动态的收敛性。对于同质代理人，动态迅速收敛到均衡；对于两个同质代理人，收敛到$\epsilon$-近似均衡需要$\Theta(\log\log(1/\epsilon))$步；对于$n \ge 3$个代理人，动态不唯一，随机选择进行移动的代理人的模型在$O(\beta \log(n/(\epsilon\delta)))$步内以概率$1-\delta$收敛到$\epsilon$-近似均衡。 |
+| [^6] | [Cutting Feedback in Misspecified Copula Models.](http://arxiv.org/abs/2310.03521) | 该论文介绍了一种在错配的Copula模型中限制反馈的剪切方法，并证明了在只有一个模块错配的情况下，适当的剪切后验提供了准确的不确定性量化。该方法在贝叶斯推断中具有重要的应用。 |
+| [^7] | [Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Digital Participatory Budgeting.](http://arxiv.org/abs/2310.03501) | 本研究调查了数字参与式预算中投票和聚合方法的权衡，并通过行为实验确定了有利的投票设计组合。研究发现，设计选择对集体决策、市民感知和结果公平性有深远影响，为开发更公平和更透明的数字PB系统和市民的多胜者集体决策过程提供了可行的见解。 |
+| [^8] | [Variational Inference for GARCH-family Models.](http://arxiv.org/abs/2310.03435) | 变分推断在GARCH家族模型的贝叶斯推断中是一种可靠和可行的方法。 |
+| [^9] | [A Formal Transaction Cost-Based Analysis of the Economic Feasibility of Data Spaces and Service Ecosystems.](http://arxiv.org/abs/2310.03157) | 本文通过扩展交易成本经济学和服务主导逻辑，发展了一个正式的理论框架来分析数据空间和服务生态的经济可行性。其贡献包括对生态系统交易经济可行性的必要条件、生态系统稳定性的规模要求和任意数据或服务提供者-消费者生态系统的一般可行性条件的推导，并提出了业务生态系统的代数定义。 |
+| [^10] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
+| [^11] | [Using Large Language Models for Qualitative Analysis can Introduce Serious Bias.](http://arxiv.org/abs/2309.17147) | 使用大型语言模型（LLMs）对定性分析进行注释可能引入偏见和测量误差，相比之下，使用高质量的人工注释和灵活编码对简单监督模型进行训练可以更好地减少偏见和误差。 |
+| [^12] | [Tuning-free testing of factor regression against factor-augmented sparse alternatives.](http://arxiv.org/abs/2307.13364) | 该研究提出了一种不需要调参、不需要估计协方差矩阵的自助法测试方法，用于评估因子回归模型在高维因子增强稀疏回归模型中的适用性。通过模拟实验证明了该方法的良好性能，并在应用于实际数据集时拒绝了经典因子回归模型的拟合性。 |
+| [^13] | [Solidarity to achieve stability.](http://arxiv.org/abs/2302.07618) | 团结成为实现稳定的充分条件。 |
+| [^14] | [On the Non-Identification of Revenue Production Functions.](http://arxiv.org/abs/2212.04620) | 当将收入作为产出的代理变量时，不能识别生产函数和Hicks-中性生产力。只有对基础需求系统进行假设的方法可能识别生产函数。 |
+| [^15] | [Prolonged Learning and Hasty Stopping: the Wald Problem with Ambiguity.](http://arxiv.org/abs/2208.14121) | 本文研究了风险厌恶的决策者的信息收集行为，发现与贝叶斯决策者不同，会在面对适度的不确定性时过度实验，并在面对高度不确定性时过早停止实验 |
+| [^16] | [An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange.](http://arxiv.org/abs/2208.08471) | 本文研究发现，加权平均iid极重尾Pareto损失在第一顺序随机优势意义下大于单一损失。通过均衡分析证明，多样化将增加组合风险，拥有极重尾Pareto损失的参与者在市场均衡中将不会分享风险。 |
+| [^17] | [Joint diagnostic test of regression discontinuity designs: multiple testing problem.](http://arxiv.org/abs/2205.04345) | 该论文提出一种联合检验程序来解决目前回归不连续设计的诊断检验存在的多重检验问题，该程序胜过Bonferroni校正。 |
+| [^18] | [Willingness to Pay to Prevent Water and Sanitation-Related Diseases Suffered by Slum Dwellers and Beneficiary Households: Evidence from Chittagong, Bangladesh.](http://arxiv.org/abs/2109.05421) | 孟加拉乍得岗市的研究发现，74%的受访者愿意经济上为贫民窟水和卫生设施的改善做出贡献。 |
 
 # 详细
 
@@ -78,7 +79,21 @@
 
     We propose two general equilibrium models, quota equilibrium and emission tax equilibrium. The government specifies quotas or taxes on emissions, then refrains from further action. Quota equilibrium exists; the allocation of emission property rights strongly impacts the distribution of welfare. If the only externality arises from total net emissions, quota equilibrium is constrained Pareto Optimal. Every quota equilibrium can be realized as an emission tax equilibrium and vice versa. However, for certain tax rates, emission tax equilibrium may not exist, or may exhibit high multiplicity. Full Pareto Optimality of quota equilibrium can often be achieved by setting the right quota.
     
-[^5]: 在错配的Copula模型中限制反馈的剪切方法
+[^5]: Tullock竞赛中的最佳响应动态与凸成本
+
+    Best-Response Dynamics in Tullock Contests with Convex Costs. (arXiv:2310.03528v1 [cs.GT])
+
+    [http://arxiv.org/abs/2310.03528](http://arxiv.org/abs/2310.03528)
+
+    本研究研究了Tullock竞赛中具有凸成本函数的最佳响应动态的收敛性。对于同质代理人，动态迅速收敛到均衡；对于两个同质代理人，收敛到$\epsilon$-近似均衡需要$\Theta(\log\log(1/\epsilon))$步；对于$n \ge 3$个代理人，动态不唯一，随机选择进行移动的代理人的模型在$O(\beta \log(n/(\epsilon\delta)))$步内以概率$1-\delta$收敛到$\epsilon$-近似均衡。
+
+    
+
+    我们研究了具有凸成本函数的Tullock竞赛中最佳响应动态的收敛性（这些游戏总是有唯一的纯策略Nash均衡）。我们证明了对于同质代理人，最佳响应动态迅速收敛到均衡。对于两个同质代理人，我们证明在$\Theta(\log\log(1/\epsilon))$步内收敛到$\epsilon$-近似均衡。对于$n \ge 3$个代理人，动态是不唯一的，因为在每一步中$n-1 \ge 2$个代理人可以做非平凡的移动。我们考虑\cite{ghosh2023best}提出的模型，在每个时间步骤中随机选择进行移动的代理人。我们证明了在$O(\beta \log(n/(\epsilon\delta)))$步内以概率$1-\delta$收敛到$\epsilon$-近似均衡，其中$\beta$是代理人选择过程的参数，例如，如果在每个时间步骤中均匀随机选择代理人，则$\beta = n^2 \log(n)$。我们用$\Omega(n + \log(1/\epsilon)/$补充了这个结果
+
+    We study the convergence of best-response dynamics in Tullock contests with convex cost functions (these games always have a unique pure-strategy Nash equilibrium). We show that best-response dynamics rapidly converges to the equilibrium for homogeneous agents. For two homogeneous agents, we show convergence to an $\epsilon$-approximate equilibrium in $\Theta(\log\log(1/\epsilon))$ steps. For $n \ge 3$ agents, the dynamics is not unique because at each step $n-1 \ge 2$ agents can make non-trivial moves. We consider the model proposed by \cite{ghosh2023best}, where the agent making the move is randomly selected at each time step. We show convergence to an $\epsilon$-approximate equilibrium in $O(\beta \log(n/(\epsilon\delta)))$ steps with probability $1-\delta$, where $\beta$ is a parameter of the agent selection process, e.g., $\beta = n^2 \log(n)$ if agents are selected uniformly at random at each time step. We complement this result with a lower bound of $\Omega(n + \log(1/\epsilon)/
+    
+[^6]: 在错配的Copula模型中限制反馈的剪切方法
 
     Cutting Feedback in Misspecified Copula Models. (arXiv:2310.03521v1 [stat.ME])
 
@@ -92,7 +107,7 @@
 
     In copula models the marginal distributions and copula function are specified separately. We treat these as two modules in a modular Bayesian inference framework, and propose conducting modified Bayesian inference by ``cutting feedback''. Cutting feedback limits the influence of potentially misspecified modules in posterior inference. We consider two types of cuts. The first limits the influence of a misspecified copula on inference for the marginals, which is a Bayesian analogue of the popular Inference for Margins (IFM) estimator. The second limits the influence of misspecified marginals on inference for the copula parameters by using a rank likelihood to define the cut model. We establish that if only one of the modules is misspecified, then the appropriate cut posterior gives accurate uncertainty quantification asymptotically for the parameters in the other module. Computation of the cut posteriors is difficult, and new variational inference methods to do so are proposed. The effic
     
-[^6]: 为市民设计数字投票系统：在数字参与式预算中实现公平和合法性
+[^7]: 为市民设计数字投票系统：在数字参与式预算中实现公平和合法性
 
     Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Digital Participatory Budgeting. (arXiv:2310.03501v1 [cs.HC])
 
@@ -106,7 +121,7 @@
 
     Digital Participatory Budgeting (PB) has become a key democratic tool for resource allocation in cities. Enabled by digital platforms, new voting input formats and aggregation have been utilised. Yet, challenges in achieving fairness and legitimacy persist. This study investigates the trade-offs in various voting and aggregation methods within digital PB. Through behavioural experiments, we identified favourable voting design combinations in terms of cognitive load, proportionality, and perceived legitimacy. The research reveals how design choices profoundly influence collective decision-making, citizen perceptions, and outcome fairness. Our findings offer actionable insights for human-computer interaction, mechanism design, and computational social choice, contributing to the development of fairer and more transparent digital PB systems and multi-winner collective decision-making process for citizens.
     
-[^7]: GARCH家族模型的变分推断
+[^8]: GARCH家族模型的变分推断
 
     Variational Inference for GARCH-family Models. (arXiv:2310.03435v1 [stat.ML])
 
@@ -120,7 +135,7 @@
 
     The Bayesian estimation of GARCH-family models has been typically addressed through Monte Carlo sampling. Variational Inference is gaining popularity and attention as a robust approach for Bayesian inference in complex machine learning models; however, its adoption in econometrics and finance is limited. This paper discusses the extent to which Variational Inference constitutes a reliable and feasible alternative to Monte Carlo sampling for Bayesian inference in GARCH-like models. Through a large-scale experiment involving the constituents of the S&P 500 index, several Variational Inference optimizers, a variety of volatility models, and a case study, we show that Variational Inference is an attractive, remarkably well-calibrated, and competitive method for Bayesian learning.
     
-[^8]: 数据空间和服务生态的经济可行性的正式交易成本分析
+[^9]: 数据空间和服务生态的经济可行性的正式交易成本分析
 
     A Formal Transaction Cost-Based Analysis of the Economic Feasibility of Data Spaces and Service Ecosystems. (arXiv:2310.03157v1 [econ.TH])
 
@@ -134,7 +149,7 @@
 
     Data spaces and service ecosystems such as Gaia-X are expected to fuel the emerging data economy. It is well known, however, that this type of network-based economic governance structures occupies a potentially unstable position between the two stable (governance) endpoints, namely the firm (i.e., hierarchical governance) and the (open) market (i.e., coordination through the monetary system).  This paper develops a formal (mathematical) theory of the economic value for (data or service) ecosystem participants by extending transaction costs economics using certain elements from service-dominant logic. Within this theory, we derive several theorems on (i) necessary conditions for the economic feasibility of ecosystem-based transactions, (ii) scaling requirements for ecosystem stability, and (iii) a generic feasibility condition for arbitrary data or service provider-consumer ecosystems. Finally, we present an algebraic definition of business ecosystems and relate it to existing informal 
     
-[^9]: 数字产品的增长、地理和贸易影响
+[^10]: 数字产品的增长、地理和贸易影响
 
     The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
 
@@ -148,7 +163,7 @@
 
     Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
     
-[^10]: 使用大型语言模型进行定性分析可能引入严重偏见
+[^11]: 使用大型语言模型进行定性分析可能引入严重偏见
 
     Using Large Language Models for Qualitative Analysis can Introduce Serious Bias. (arXiv:2309.17147v1 [cs.CL])
 
@@ -162,7 +177,7 @@
 
     Large Language Models (LLMs) are quickly becoming ubiquitous, but the implications for social science research are not yet well understood. This paper asks whether LLMs can help us analyse large-N qualitative data from open-ended interviews, with an application to transcripts of interviews with Rohingya refugees in Cox's Bazaar, Bangladesh. We find that a great deal of caution is needed in using LLMs to annotate text as there is a risk of introducing biases that can lead to misleading inferences. We here mean bias in the technical sense, that the errors that LLMs make in annotating interview transcripts are not random with respect to the characteristics of the interview subjects. Training simpler supervised models on high-quality human annotations with flexible coding leads to less measurement error and bias than LLM annotations. Therefore, given that some high quality annotations are necessary in order to asses whether an LLM introduces bias, we argue that it is probably preferable to
     
-[^11]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
+[^12]: 不需要调参的因子回归测试与因子增强稀疏的对立. (arXiv:2307.13364v1 [econ.EM])
 
     Tuning-free testing of factor regression against factor-augmented sparse alternatives. (arXiv:2307.13364v1 [econ.EM])
 
@@ -176,7 +191,7 @@
 
     This study introduces a bootstrap test of the validity of factor regression within a high-dimensional factor-augmented sparse regression model that integrates factor and sparse regression techniques. The test provides a means to assess the suitability of the classical (dense) factor regression model compared to alternative (sparse plus dense) factor-augmented sparse regression models. Our proposed test does not require tuning parameters, eliminates the need to estimate covariance matrices, and offers simplicity in implementation. The validity of the test is theoretically established under time-series dependence. Through simulation experiments, we demonstrate the favorable finite sample performance of our procedure. Moreover, using the FRED-MD dataset, we apply the test and reject the adequacy of the classical factor regression model when the dependent variable is inflation but not when it is industrial production. These findings offer insights into selecting appropriate models for high
     
-[^12]: 实现稳定的团结
+[^13]: 实现稳定的团结
 
     Solidarity to achieve stability. (arXiv:2302.07618v2 [econ.TH] UPDATED)
 
@@ -190,7 +205,7 @@
 
     Agents may form coalitions. Each coalition shares its endowment among its agents by applying a sharing rule. The sharing rule induces a coalition formation problem by assuming that agents rank coalitions according to the allocation they obtain in the corresponding sharing problem. We characterize the sharing rules that induce a class of stable coalition formation problems as those that satisfy a natural axiom that formalizes the principle of solidarity. Thus, solidarity becomes a sufficient condition to achieve stability.
     
-[^13]: 关于收入生产函数的非识别问题
+[^14]: 关于收入生产函数的非识别问题
 
     On the Non-Identification of Revenue Production Functions. (arXiv:2212.04620v2 [econ.EM] UPDATED)
 
@@ -204,7 +219,7 @@
 
     Production functions are potentially misspecified when revenue is used as a proxy for output. I formalize and strengthen this common knowledge by showing that neither the production function nor Hicks-neutral productivity can be identified with such a revenue proxy. This result holds under the standard assumptions used in the literature for a large class of production functions, including all commonly used parametric forms. Among the prevalent approaches to address this issue, only those that impose assumptions on the underlying demand system can possibly identify the production function.
     
-[^14]: 风险厌恶的决策者的信息收集行为研究
+[^15]: 风险厌恶的决策者的信息收集行为研究
 
     Prolonged Learning and Hasty Stopping: the Wald Problem with Ambiguity. (arXiv:2208.14121v2 [econ.TH] UPDATED)
 
@@ -218,7 +233,7 @@
 
     This paper studies sequential information acquisition by an ambiguity-averse decision maker (DM), who decides how long to collect information before taking an irreversible action. The agent optimizes against the worst-case belief and updates prior by prior. We show that the consideration of ambiguity gives rise to rich dynamics: compared to the Bayesian DM, the DM here tends to experiment excessively when facing modest uncertainty and, to counteract it, may stop experimenting prematurely when facing high uncertainty. In the latter case, the DM's stopping rule is non-monotonic in beliefs and features randomized stopping.
     
-[^15]: 一个出乎意料的随机优势：帕累托分布、灾难和风险交换
+[^16]: 一个出乎意料的随机优势：帕累托分布、灾难和风险交换
 
     An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange. (arXiv:2208.08471v2 [q-fin.RM] UPDATED)
 
@@ -232,7 +247,7 @@
 
     We show the perhaps surprising inequality that the weighted average of iid extremely heavy-tailed (i.e., infinite mean) Pareto losses is larger than a standalone loss in the sense of first-order stochastic dominance. This result is further generalized to Pareto risks in the context of negative dependence, convex transformations, random summation and weights, and losses triggered by catastrophic events. We discuss several implications of these results via an equilibrium analysis in a risk exchange market. First, diversification of extremely heavy-tailed Pareto losses increases portfolio risk, and thus a diversification penalty exists. Second, agents with extremely heavy-tailed Pareto losses will not share risks in a market equilibrium. Third, transferring losses from agents bearing Pareto losses to external parties without any losses may arrive at an equilibrium which benefits every party involved. The empirical studies show that our new inequality can be observed empirically for real d
     
-[^16]: 回归不连续设计的联合诊断检验：多重检验问题
+[^17]: 回归不连续设计的联合诊断检验：多重检验问题
 
     Joint diagnostic test of regression discontinuity designs: multiple testing problem. (arXiv:2205.04345v2 [econ.EM] UPDATED)
 
@@ -246,7 +261,7 @@
 
     Current diagnostic tests for regression discontinuity (RD) design face a multiple testing problem. We find a massive over-rejection of the identifying restriction among empirical RD studies published in top-five economics journals. Each test achieves a nominal size of 5%; however, the median number of tests per study is 12. Consequently, more than one-third of studies reject at least one of these tests and their diagnostic procedures are invalid for justifying the identifying assumption. We offer a joint testing procedure to resolve the multiple testing problem. Our procedure is based on a new joint asymptotic normality of local linear estimates and local polynomial density estimates. In simulation studies, our joint testing procedures outperform the Bonferroni correction.
     
-[^17]: 慈善贡献中穷人的愿意支付对垃圾住所居民和受益家庭所遭受的水和卫生相关疾病的抗疫费用：孟加拉乍得岗的证据
+[^18]: 慈善贡献中穷人的愿意支付对垃圾住所居民和受益家庭所遭受的水和卫生相关疾病的抗疫费用：孟加拉乍得岗的证据
 
     Willingness to Pay to Prevent Water and Sanitation-Related Diseases Suffered by Slum Dwellers and Beneficiary Households: Evidence from Chittagong, Bangladesh. (arXiv:2109.05421v3 [econ.GN] UPDATED)
 
