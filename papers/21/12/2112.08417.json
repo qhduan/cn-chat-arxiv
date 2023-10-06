@@ -1,0 +1,11 @@
+{
+    "title": "Characterization of causal ancestral graphs for time series with latent confounders. (arXiv:2112.08417v2 [stat.ME] UPDATED)",
+    "abstract": "In this paper, we introduce a novel class of graphical models for representing time lag specific causal relationships and independencies of multivariate time series with unobserved confounders. We completely characterize these graphs and show that they constitute proper subsets of the currently employed model classes. As we show, from the novel graphs one can thus draw stronger causal inferences -- without additional assumptions. We further introduce a graphical representation of Markov equivalence classes of the novel graphs. This graphical representation contains more causal knowledge than what current state-of-the-art causal discovery algorithms learn.",
+    "link": "http://arxiv.org/abs/2112.08417",
+    "context": "Title: Characterization of causal ancestral graphs for time series with latent confounders. (arXiv:2112.08417v2 [stat.ME] UPDATED)\nAbstract: In this paper, we introduce a novel class of graphical models for representing time lag specific causal relationships and independencies of multivariate time series with unobserved confounders. We completely characterize these graphs and show that they constitute proper subsets of the currently employed model classes. As we show, from the novel graphs one can thus draw stronger causal inferences -- without additional assumptions. We further introduce a graphical representation of Markov equivalence classes of the novel graphs. This graphical representation contains more causal knowledge than what current state-of-the-art causal discovery algorithms learn.",
+    "path": "papers/21/12/2112.08417.json",
+    "total_tokens": 726,
+    "translated_title": "对具有潜在混淆因素的时间序列进行因果祖先图特征化",
+    "translated_abstract": "本文介绍了一种新的图模型类别，用于表示具有未观测到的混淆因素的多变量时间序列的时间滞后特定的因果关系和独立性。我们完全特征化了这些图，并证明它们是当前使用的模型类别的适当子集。正如我们所展示的，通过使用这些新的图可以得出更强的因果推断，而无需额外的假设。此外，我们还介绍了一种用于表示这些新图的马尔可夫等价类的图形表示。与当前最先进的因果发现算法所学到的内容相比，这种图形表示包含更多的因果知识。",
+    "tldr": "本文介绍了一种新的图模型类别，用于表示具有未观测到的混淆因素的时间序列的因果关系和独立性。通过使用这些新的图模型，可以得出更强的因果推断，而无需额外的假设。"
+}

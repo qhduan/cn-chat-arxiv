@@ -1,0 +1,12 @@
+{
+    "title": "Variational Inference for GARCH-family Models. (arXiv:2310.03435v1 [stat.ML])",
+    "abstract": "The Bayesian estimation of GARCH-family models has been typically addressed through Monte Carlo sampling. Variational Inference is gaining popularity and attention as a robust approach for Bayesian inference in complex machine learning models; however, its adoption in econometrics and finance is limited. This paper discusses the extent to which Variational Inference constitutes a reliable and feasible alternative to Monte Carlo sampling for Bayesian inference in GARCH-like models. Through a large-scale experiment involving the constituents of the S&P 500 index, several Variational Inference optimizers, a variety of volatility models, and a case study, we show that Variational Inference is an attractive, remarkably well-calibrated, and competitive method for Bayesian learning.",
+    "link": "http://arxiv.org/abs/2310.03435",
+    "context": "Title: Variational Inference for GARCH-family Models. (arXiv:2310.03435v1 [stat.ML])\nAbstract: The Bayesian estimation of GARCH-family models has been typically addressed through Monte Carlo sampling. Variational Inference is gaining popularity and attention as a robust approach for Bayesian inference in complex machine learning models; however, its adoption in econometrics and finance is limited. This paper discusses the extent to which Variational Inference constitutes a reliable and feasible alternative to Monte Carlo sampling for Bayesian inference in GARCH-like models. Through a large-scale experiment involving the constituents of the S&P 500 index, several Variational Inference optimizers, a variety of volatility models, and a case study, we show that Variational Inference is an attractive, remarkably well-calibrated, and competitive method for Bayesian learning.",
+    "path": "papers/23/10/2310.03435.json",
+    "total_tokens": 718,
+    "translated_title": "GARCH家族模型的变分推断",
+    "translated_abstract": "贝叶斯估计GARCH家族模型通常采用蒙特卡罗抽样方法。变分推断作为一种可靠的贝叶斯推断方法在复杂的机器学习模型中越来越受欢迎，但在计量经济学和金融领域的应用还有限。本文讨论了变分推断在GARCH类模型贝叶斯推断中是否是一种可靠和可行的替代蒙特卡罗抽样的方法。通过涉及标准普尔500指数成分股的大规模实验，采用多种变分推断优化算法和波动性模型，并进行了案例研究，我们证明了变分推断是一种有吸引力、非常良好校准和有竞争力的贝叶斯学习方法。",
+    "tldr": "变分推断在GARCH家族模型的贝叶斯推断中是一种可靠和可行的方法。",
+    "en_tdlr": "Variational inference is a reliable and feasible method for Bayesian inference in GARCH-family models."
+}

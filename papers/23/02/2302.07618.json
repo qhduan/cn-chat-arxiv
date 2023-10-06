@@ -1,0 +1,12 @@
+{
+    "title": "Solidarity to achieve stability. (arXiv:2302.07618v2 [econ.TH] UPDATED)",
+    "abstract": "Agents may form coalitions. Each coalition shares its endowment among its agents by applying a sharing rule. The sharing rule induces a coalition formation problem by assuming that agents rank coalitions according to the allocation they obtain in the corresponding sharing problem. We characterize the sharing rules that induce a class of stable coalition formation problems as those that satisfy a natural axiom that formalizes the principle of solidarity. Thus, solidarity becomes a sufficient condition to achieve stability.",
+    "link": "http://arxiv.org/abs/2302.07618",
+    "context": "Title: Solidarity to achieve stability. (arXiv:2302.07618v2 [econ.TH] UPDATED)\nAbstract: Agents may form coalitions. Each coalition shares its endowment among its agents by applying a sharing rule. The sharing rule induces a coalition formation problem by assuming that agents rank coalitions according to the allocation they obtain in the corresponding sharing problem. We characterize the sharing rules that induce a class of stable coalition formation problems as those that satisfy a natural axiom that formalizes the principle of solidarity. Thus, solidarity becomes a sufficient condition to achieve stability.",
+    "path": "papers/23/02/2302.07618.json",
+    "total_tokens": 530,
+    "translated_title": "实现稳定的团结",
+    "translated_abstract": "代理人可以形成联盟。每个联盟通过应用分配规则在其代理人之间分享其基金。分配规则假设代理人根据他们在相应分配问题中获得的分配对联盟进行排序，从而引出了联盟形成问题。我们将引起一类稳定联盟形成问题的分配规则特征化为满足一个公理的规则，该公理形式化了团结原则。因此，团结成为实现稳定的充分条件。",
+    "tldr": "团结成为实现稳定的充分条件。",
+    "en_tdlr": "Solidarity becomes a sufficient condition to achieve stability."
+}

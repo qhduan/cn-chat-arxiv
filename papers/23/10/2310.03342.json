@@ -1,0 +1,11 @@
+{
+    "title": "LESSON: Learning to Integrate Exploration Strategies for Reinforcement Learning via an Option Framework. (arXiv:2310.03342v1 [cs.LG])",
+    "abstract": "In this paper, a unified framework for exploration in reinforcement learning (RL) is proposed based on an option-critic model. The proposed framework learns to integrate a set of diverse exploration strategies so that the agent can adaptively select the most effective exploration strategy over time to realize a relevant exploration-exploitation trade-off for each given task. The effectiveness of the proposed exploration framework is demonstrated by various experiments in the MiniGrid and Atari environments.",
+    "link": "http://arxiv.org/abs/2310.03342",
+    "context": "Title: LESSON: Learning to Integrate Exploration Strategies for Reinforcement Learning via an Option Framework. (arXiv:2310.03342v1 [cs.LG])\nAbstract: In this paper, a unified framework for exploration in reinforcement learning (RL) is proposed based on an option-critic model. The proposed framework learns to integrate a set of diverse exploration strategies so that the agent can adaptively select the most effective exploration strategy over time to realize a relevant exploration-exploitation trade-off for each given task. The effectiveness of the proposed exploration framework is demonstrated by various experiments in the MiniGrid and Atari environments.",
+    "path": "papers/23/10/2310.03342.json",
+    "total_tokens": 644,
+    "translated_title": "LESSON: 通过选项框架学习集成强化学习中的探索策略",
+    "translated_abstract": "本文提出了一种基于选项批判模型的强化学习探索统一框架。该框架学习集成一组多样化的探索策略，使得智能体可以适应性地选择最有效的探索策略，以实现给定任务下的相关探索-开发权衡。通过在MiniGrid和Atari环境中进行各种实验，证明了所提出探索框架的有效性。",
+    "tldr": "本文提出了一种通过选项框架学习集成探索策略的强化学习统一框架。在MiniGrid和Atari环境中的实验表明该框架的有效性。"
+}

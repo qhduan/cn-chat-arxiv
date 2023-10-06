@@ -1,0 +1,12 @@
+{
+    "title": "Modular Speech-to-Text Translation for Zero-Shot Cross-Modal Transfer. (arXiv:2310.03724v1 [cs.CL])",
+    "abstract": "Recent research has shown that independently trained encoders and decoders, combined through a shared fixed-size representation, can achieve competitive performance in speech-to-text translation. In this work, we show that this type of approach can be further improved with multilingual training. We observe significant improvements in zero-shot cross-modal speech translation, even outperforming a supervised approach based on XLSR for several languages.",
+    "link": "http://arxiv.org/abs/2310.03724",
+    "context": "Title: Modular Speech-to-Text Translation for Zero-Shot Cross-Modal Transfer. (arXiv:2310.03724v1 [cs.CL])\nAbstract: Recent research has shown that independently trained encoders and decoders, combined through a shared fixed-size representation, can achieve competitive performance in speech-to-text translation. In this work, we show that this type of approach can be further improved with multilingual training. We observe significant improvements in zero-shot cross-modal speech translation, even outperforming a supervised approach based on XLSR for several languages.",
+    "path": "papers/23/10/2310.03724.json",
+    "total_tokens": 637,
+    "translated_title": "模块化零样本跨模态语音到文字翻译",
+    "translated_abstract": "最近的研究表明，通过共享固定大小的表示形式，独立训练的编码器和解码器结合起来可以在语音到文字翻译中实现竞争性的性能。在这项工作中，我们展示了这种方法可以通过多语言训练进一步改进。我们观察到在零样本跨模态语音翻译中有显著的改进，甚至在多种语言上胜过基于XLSR的监督方法。",
+    "tldr": "本论文提出了一种模块化的零样本跨模态语音到文字翻译方法，在多语言训练的基础上进一步改进了性能，并在零样本跨模态语音翻译中表现出色。",
+    "en_tdlr": "This paper presents a modular speech-to-text translation approach for zero-shot cross-modal transfer. With multilingual training, the performance is further improved, outperforming a supervised approach and achieving impressive results in zero-shot cross-modal speech translation."
+}

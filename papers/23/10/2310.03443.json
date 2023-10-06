@@ -1,0 +1,12 @@
+{
+    "title": "The North System for Formosa Speech Recognition Challenge 2023. (arXiv:2310.03443v1 [cs.CL])",
+    "abstract": "This report provides a concise overview of the proposed North system, which aims to achieve automatic word/syllable recognition for Taiwanese Hakka (Sixian). The report outlines three key components of the system: the acquisition, composition, and utilization of the training data; the architecture of the model; and the hardware specifications and operational statistics. The demonstration of the system can be found at https://asrvm.iis.sinica.edu.tw/hakka_sixian.",
+    "link": "http://arxiv.org/abs/2310.03443",
+    "context": "Title: The North System for Formosa Speech Recognition Challenge 2023. (arXiv:2310.03443v1 [cs.CL])\nAbstract: This report provides a concise overview of the proposed North system, which aims to achieve automatic word/syllable recognition for Taiwanese Hakka (Sixian). The report outlines three key components of the system: the acquisition, composition, and utilization of the training data; the architecture of the model; and the hardware specifications and operational statistics. The demonstration of the system can be found at https://asrvm.iis.sinica.edu.tw/hakka_sixian.",
+    "path": "papers/23/10/2310.03443.json",
+    "total_tokens": 725,
+    "translated_title": "2023年福爾摩沙口音辨識挑戰中的北系統",
+    "translated_abstract": "本報告提供了北系統的簡要概述，旨在實現對台灣客家語（四縣腔）的自動詞/音節識別。該報告概述了系統的三個關鍵部分：訓練數據的獲取、組成和利用；模型的架構；以及硬件規格和運行統計。系統的演示可以在https://asrvm.iis.sinica.edu.tw/hakka_sixian找到。",
+    "tldr": "本報告提供了北系統的簡要概述，該系統旨在實現對台灣客家語（四縣腔）的自動詞/音節識別。關鍵部分包括訓練數據的獲取、組成和利用，模型的架構，以及硬件規格和運行統計。",
+    "en_tdlr": "This report provides a concise overview of the proposed \"North\" system, which aims to achieve automatic word/syllable recognition for Taiwanese Hakka (Sixian). The key components include the acquisition, composition, and utilization of the training data; the architecture of the model; and the hardware specifications and operational statistics."
+}

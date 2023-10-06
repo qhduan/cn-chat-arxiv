@@ -1,0 +1,12 @@
+{
+    "title": "On the Non-Identification of Revenue Production Functions. (arXiv:2212.04620v2 [econ.EM] UPDATED)",
+    "abstract": "Production functions are potentially misspecified when revenue is used as a proxy for output. I formalize and strengthen this common knowledge by showing that neither the production function nor Hicks-neutral productivity can be identified with such a revenue proxy. This result holds under the standard assumptions used in the literature for a large class of production functions, including all commonly used parametric forms. Among the prevalent approaches to address this issue, only those that impose assumptions on the underlying demand system can possibly identify the production function.",
+    "link": "http://arxiv.org/abs/2212.04620",
+    "context": "Title: On the Non-Identification of Revenue Production Functions. (arXiv:2212.04620v2 [econ.EM] UPDATED)\nAbstract: Production functions are potentially misspecified when revenue is used as a proxy for output. I formalize and strengthen this common knowledge by showing that neither the production function nor Hicks-neutral productivity can be identified with such a revenue proxy. This result holds under the standard assumptions used in the literature for a large class of production functions, including all commonly used parametric forms. Among the prevalent approaches to address this issue, only those that impose assumptions on the underlying demand system can possibly identify the production function.",
+    "path": "papers/22/12/2212.04620.json",
+    "total_tokens": 611,
+    "translated_title": "关于收入生产函数的非识别问题",
+    "translated_abstract": "当将收入作为产出的代理变量时，生产函数可能会出现误设。我通过将这个常识形式化和加强，展示出既不能用生产函数，也不能用Hicks-中性生产力来识别这种收入代理。这个结果适用于文献中常用的大类生产函数，包括所有常用的参数形式。在解决这个问题的各种方法中，只有对基础需求系统进行假设的方法，才能可能识别生产函数。",
+    "tldr": "当将收入作为产出的代理变量时，不能识别生产函数和Hicks-中性生产力。只有对基础需求系统进行假设的方法可能识别生产函数。",
+    "en_tdlr": "The production function and Hicks-neutral productivity cannot be identified when revenue is used as a proxy for output. Only methods that impose assumptions on the underlying demand system can possibly identify the production function."
+}

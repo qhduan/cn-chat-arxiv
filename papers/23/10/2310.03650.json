@@ -1,0 +1,11 @@
+{
+    "title": "General Equilibrium Theory for Climate Change. (arXiv:2310.03650v1 [econ.TH])",
+    "abstract": "We propose two general equilibrium models, quota equilibrium and emission tax equilibrium. The government specifies quotas or taxes on emissions, then refrains from further action. Quota equilibrium exists; the allocation of emission property rights strongly impacts the distribution of welfare. If the only externality arises from total net emissions, quota equilibrium is constrained Pareto Optimal. Every quota equilibrium can be realized as an emission tax equilibrium and vice versa. However, for certain tax rates, emission tax equilibrium may not exist, or may exhibit high multiplicity. Full Pareto Optimality of quota equilibrium can often be achieved by setting the right quota.",
+    "link": "http://arxiv.org/abs/2310.03650",
+    "context": "Title: General Equilibrium Theory for Climate Change. (arXiv:2310.03650v1 [econ.TH])\nAbstract: We propose two general equilibrium models, quota equilibrium and emission tax equilibrium. The government specifies quotas or taxes on emissions, then refrains from further action. Quota equilibrium exists; the allocation of emission property rights strongly impacts the distribution of welfare. If the only externality arises from total net emissions, quota equilibrium is constrained Pareto Optimal. Every quota equilibrium can be realized as an emission tax equilibrium and vice versa. However, for certain tax rates, emission tax equilibrium may not exist, or may exhibit high multiplicity. Full Pareto Optimality of quota equilibrium can often be achieved by setting the right quota.",
+    "path": "papers/23/10/2310.03650.json",
+    "total_tokens": 710,
+    "translated_title": "气候变化的一般均衡理论",
+    "translated_abstract": "我们提出了两个一般均衡模型，配额均衡和排放税均衡。政府规定排放配额或税收，并停止进一步行动。配额均衡存在；分配排放产权对福利分配有强烈影响。如果唯一的外部性来自净排放总量，配额均衡是受到约束的 Pareto 最优的。每个配额均衡可以实现为排放税均衡，反之亦然。然而，对于某些税率，排放税均衡可能不存在，或者可能存在多个均衡解。通过设置适当的配额，通常可以实现配额均衡的完全 Pareto 最优性。",
+    "tldr": "本文提出了两个一般均衡模型，配额均衡和排放税均衡，并讨论了它们的性质和特点。通过设置适当的配额或税率，可以实现 Pareto 最优性。"
+}

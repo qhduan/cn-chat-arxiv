@@ -1,0 +1,11 @@
+{
+    "title": "TimeGPT-1. (arXiv:2310.03589v1 [cs.LG])",
+    "abstract": "In this paper, we introduce TimeGPT, the first foundation model for time series, capable of generating accurate predictions for diverse datasets not seen during training. We evaluate our pre-trained model against established statistical, machine learning, and deep learning methods, demonstrating that TimeGPT zero-shot inference excels in performance, efficiency, and simplicity. Our study provides compelling evidence that insights from other domains of artificial intelligence can be effectively applied to time series analysis. We conclude that large-scale time series models offer an exciting opportunity to democratize access to precise predictions and reduce uncertainty by leveraging the capabilities of contemporary advancements in deep learning.",
+    "link": "http://arxiv.org/abs/2310.03589",
+    "context": "Title: TimeGPT-1. (arXiv:2310.03589v1 [cs.LG])\nAbstract: In this paper, we introduce TimeGPT, the first foundation model for time series, capable of generating accurate predictions for diverse datasets not seen during training. We evaluate our pre-trained model against established statistical, machine learning, and deep learning methods, demonstrating that TimeGPT zero-shot inference excels in performance, efficiency, and simplicity. Our study provides compelling evidence that insights from other domains of artificial intelligence can be effectively applied to time series analysis. We conclude that large-scale time series models offer an exciting opportunity to democratize access to precise predictions and reduce uncertainty by leveraging the capabilities of contemporary advancements in deep learning.",
+    "path": "papers/23/10/2310.03589.json",
+    "total_tokens": 885,
+    "translated_title": "TimeGPT-1. (arXiv:2310.03589v1 [cs.LG]) - 时间序列的基础模型",
+    "translated_abstract": "在本文中，我们介绍了TimeGPT，这是第一个面向时间序列的基础模型，能够对训练过程中未见过的各种数据集生成准确的预测。我们将预训练的模型与已建立的统计学、机器学习和深度学习方法进行了评估，结果表明TimeGPT的零-shot推理在性能、效率和简洁性方面表现出色。我们的研究提供了有力的证据，表明人工智能的其他领域的见解可以有效地应用于时间序列分析。我们得出结论，大规模时间序列模型为人们提供了一个令人兴奋的机会，通过利用当代深度学习的能力，民主化访问精确的预测并减少不确定性。",
+    "tldr": "TimeGPT是第一个面向时间序列的基础模型，能够生成准确的预测。它在性能、效率和简洁性方面优于现有的统计学、机器学习和深度学习方法。我们的研究提供了有力的证据，表明借鉴其他人工智能领域的见解可以有效应用于时间序列分析。大规模时间序列模型有望民主化访问精确的预测并减少不确定性。"
+}

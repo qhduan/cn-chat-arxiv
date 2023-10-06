@@ -1,0 +1,11 @@
+{
+    "title": "Deep Ridgelet Transform: Voice with Koopman Operator Proves Universality of Formal Deep Networks. (arXiv:2310.03529v1 [cs.LG])",
+    "abstract": "We identify hidden layers inside a DNN with group actions on the data space, and formulate the DNN as a dual voice transform with respect to Koopman operator, a linear representation of the group action. Based on the group theoretic arguments, particularly by using Schur's lemma, we show a simple proof of the universality of those DNNs.",
+    "link": "http://arxiv.org/abs/2310.03529",
+    "context": "Title: Deep Ridgelet Transform: Voice with Koopman Operator Proves Universality of Formal Deep Networks. (arXiv:2310.03529v1 [cs.LG])\nAbstract: We identify hidden layers inside a DNN with group actions on the data space, and formulate the DNN as a dual voice transform with respect to Koopman operator, a linear representation of the group action. Based on the group theoretic arguments, particularly by using Schur's lemma, we show a simple proof of the universality of those DNNs.",
+    "path": "papers/23/10/2310.03529.json",
+    "total_tokens": 613,
+    "translated_title": "深度脊波变换：使用Koopman算子证明了形式深度网络的普适性",
+    "translated_abstract": "我们通过对数据空间上的群作用来识别DNN内部的隐藏层，并将DNN构建为相对于Koopman算子的双声变换，Koopman算子是群作用的线性表示。基于群论论证，特别是利用Schur引理，我们给出了这些DNN普适性的简单证明。",
+    "tldr": "通过对数据空间上的群作用来识别DNN内部的隐藏层，并将DNN构建为相对于Koopman算子的双声变换，我们利用群论论证证明了这些DNN的普适性。"
+}

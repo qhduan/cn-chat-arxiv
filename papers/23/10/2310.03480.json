@@ -1,0 +1,12 @@
+{
+    "title": "The Cadenza ICASSP 2024 Grand Challenge. (arXiv:2310.03480v1 [eess.AS])",
+    "abstract": "The Cadenza project aims to enhance the audio quality of music for individuals with hearing loss. As part of this, the project is organizing the ICASSP SP Cadenza Challenge: Music Demixing/Remixing for Hearing Aids. The challenge can be tackled by decomposing the music at the hearing aid microphones into vocals, bass, drums, and other components. These can then be intelligently remixed in a personalized manner to improve audio quality. Alternatively, an end-to-end approach could be used. Processes need to consider the music itself, the gain applied to each component, and the listener's hearing loss. The submitted entries will be evaluated using the intrusive objective metric, the Hearing Aid Audio Quality Index (HAAQI). This paper outlines the challenge.",
+    "link": "http://arxiv.org/abs/2310.03480",
+    "context": "Title: The Cadenza ICASSP 2024 Grand Challenge. (arXiv:2310.03480v1 [eess.AS])\nAbstract: The Cadenza project aims to enhance the audio quality of music for individuals with hearing loss. As part of this, the project is organizing the ICASSP SP Cadenza Challenge: Music Demixing/Remixing for Hearing Aids. The challenge can be tackled by decomposing the music at the hearing aid microphones into vocals, bass, drums, and other components. These can then be intelligently remixed in a personalized manner to improve audio quality. Alternatively, an end-to-end approach could be used. Processes need to consider the music itself, the gain applied to each component, and the listener's hearing loss. The submitted entries will be evaluated using the intrusive objective metric, the Hearing Aid Audio Quality Index (HAAQI). This paper outlines the challenge.",
+    "path": "papers/23/10/2310.03480.json",
+    "total_tokens": 767,
+    "translated_title": "Cadenza ICASSP 2024大挑战",
+    "translated_abstract": "Cadenza项目旨在提高听力受损人群的音乐音质。作为该项目的一部分，该项目组织了ICASSP SP Cadenza Challenge：面向助听器的音乐分解/混音。该挑战可以通过将音乐分解成人声、贝斯、鼓和其他组成部分来解决。然后可以以个性化的方式智能地进行混音，以提高音频质量。另外，还可以使用端到端的方法。处理过程需要考虑音乐本身、每个组成部分的增益以及听众的听力损失。提交的作品将使用Hearing Aid Audio Quality Index（HAAQI）这一入侵式客观指标进行评估。本文概述了该挑战。",
+    "tldr": "Cadenza项目组织了ICASSP SP Cadenza Challenge，旨在通过音乐分解/混音来提升助听器音质，处理过程考虑音乐、增益和听力损失。",
+    "en_tdlr": "The Cadenza project is organizing the ICASSP SP Cadenza Challenge to improve the audio quality of music for hearing aids, by decomposing and remixing music while considering the music, gain, and hearing loss."
+}

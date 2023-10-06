@@ -2,131 +2,206 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Potential Factors Leading to Popularity Unfairness in Recommender Systems: A User-Centered Analysis.](http://arxiv.org/abs/2310.02961) | 该论文研究了导致推荐系统中用户端流行度偏见不公平的因素。 |
-| [^2] | [Auto-FP: An Experimental Study of Automated Feature Preprocessing for Tabular Data.](http://arxiv.org/abs/2310.02540) | 本文研究了如何自动化表格数据的特征预处理（Auto-FP），将其建模为超参数优化或神经网络架构搜索问题，并扩展了各种算法来解决Auto-FP问题。 |
-| [^3] | [Shaping the Epochal Individuality and Generality: The Temporal Dynamics of Uncertainty and Prediction Error in Musical Improvisation.](http://arxiv.org/abs/2310.02518) | 这项研究探索了音乐即兴创作中不确定性和预测误差的时序动态，发现了音高和音高-节奏序列中的特定时间模式和时代特征，以及节奏序列的一致不确定度。这些发现突显了节奏在音乐创作中的重要性。 |
-| [^4] | [Linear Recurrent Units for Sequential Recommendation.](http://arxiv.org/abs/2310.02367) | 本研究提出了一种用于顺序推荐的线性循环单元（LRURec）。与当前的自注意模型相比，LRURec具有快速的推断速度、能够进行增量推断、更小的模型大小和可并行训练。通过优化架构并引入非线性，LRURec在顺序推荐任务中取得了有效的结果。 |
-| [^5] | [Beyond-Accuracy: A Review on Diversity, Serendipity and Fairness in Recommender Systems Based on Graph Neural Networks.](http://arxiv.org/abs/2310.02294) | 本综述论文关注于基于图神经网络的推荐系统中的多样性、意外性和公平性问题，超越传统的准确性评估，并讨论了模型开发的不同阶段。 |
-| [^6] | [MedCPT: Contrastive Pre-trained Transformers with Large-scale PubMed Search Logs for Zero-shot Biomedical Information Retrieval.](http://arxiv.org/abs/2307.00589) | MedCPT是一种用于生物医学领域零样本语义信息检索的对比预训练转换器模型。通过使用大规模PubMed搜索日志进行训练，MedCPT在六个生物医学信息检索任务中创造了新的最佳性能，超过了其他基线模型，同时还能生成更好的生物医学文章和句子。 |
-| [^7] | [CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion.](http://arxiv.org/abs/2303.11916) | CompoDiff 是一种多功能的组合图像检索模型，通过接受各种条件，具有潜在扩散的能力，并在 FashionIQ 上实现了新的零样本最新技术水平。其特征位于完整的 CLIP 嵌入空间中，可以直接用于所有利用 CLIP 空间的模型。 |
-| [^8] | [Reconsidering Learning Objectives in Unbiased Recommendation: A Distribution Shift Perspective.](http://arxiv.org/abs/2206.03851) | 本文从分布转移视角出发，研究了从偏向反馈中学习无偏算法进行推荐的问题。通过建立无偏推荐与分布转移的关系，对现有无偏学习方法进行了理论解释并提出了两个泛化界限。 |
-| [^9] | [SR-HetGNN:Session-based Recommendation with Heterogeneous Graph Neural Network.](http://arxiv.org/abs/2108.05641) | 本文提出了一种基于异构图神经网络的会话推荐方法SR-HetGNN，通过学习会话嵌入并捕捉匿名用户的特定偏好，以改进会话推荐系统的效果和准确性。 |
+| [^1] | [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines.](http://arxiv.org/abs/2310.03714) | DSPy是一个编程模型，将LM流水线抽象为文本转换图，通过声明性模块调用LM实现优化，能够解决复杂的推理问题和数学问题等任务。 |
+| [^2] | [FASER: Binary Code Similarity Search through the use of Intermediate Representations.](http://arxiv.org/abs/2310.03605) | 本论文提出了一种名为FASER的方法，通过使用中间表示进行二进制代码相似性搜索。该方法可以跨架构地识别函数，并明确编码函数的语义，以支持各种应用场景。 |
+| [^3] | [TPDR: A Novel Two-Step Transformer-based Product and Class Description Match and Retrieval Method.](http://arxiv.org/abs/2310.03491) | TPDR是一种基于Transformer的产品和类描述匹配与检索方法，通过注意机制和对比学习来实现语义对应关系的探索。 |
+| [^4] | [Personalized Transformer-based Ranking for e-Commerce at Yandex.](http://arxiv.org/abs/2310.03481) | 本文提出了一个基于个性化Transformer的电子商务排名系统，通过优化排名阶段的特征生成，提高了推荐质量。同时，还引入了一种新颖的技术用于解决偏置上下文的问题。 |
+| [^5] | [Amazon Books Rating prediction & Recommendation Model.](http://arxiv.org/abs/2310.03200) | 本文利用亚马逊的数据集构建了一个预测图书评分和推荐图书的模型，提供了处理大数据文件、数据工程和构建模型的流程，并使用了各种PySpark机器学习API、超参数调优和交叉验证进行准确性的分析。 |
+| [^6] | [Impedance Leakage Vulnerability and its Utilization in Reverse-engineering Embedded Software.](http://arxiv.org/abs/2310.03175) | 这项研究发现了一种新的安全漏洞——阻抗泄漏，通过利用该漏洞可以从嵌入式设备中提取受保护内存中的软件指令。 |
+| [^7] | [Multi-Task Learning For Reduced Popularity Bias In Multi-Territory Video Recommendations.](http://arxiv.org/abs/2310.03148) | 本文提出了一种多任务学习技术和自适应上采样方法，用于减少多领域推荐系统中的流行度偏差。通过实验证明，该框架在多个领域中相对增益高达65.27%。 |
+| [^8] | [Context-Based Tweet Engagement Prediction.](http://arxiv.org/abs/2310.03147) | 该论文研究了基于上下文的推文参与度预测问题，使用了Twitter的数据集和评估流程，探讨了仅凭上下文是否可以很好地预测推文的参与度可能性。 |
+| [^9] | [A Deep Reinforcement Learning Approach for Interactive Search with Sentence-level Feedback.](http://arxiv.org/abs/2310.03043) | 本研究提出了一种利用深度强化学习的交互式搜索方法，该方法通过整合句级反馈信息来提高搜索准确性。通过适应最新的BERT-based模型进行关键句子选择和项目排序，可以获得更满意的搜索结果。 |
+| [^10] | [Graph-enhanced Optimizers for Structure-aware Recommendation Embedding Evolution.](http://arxiv.org/abs/2310.03032) | 本文提出了一种新颖的结构感知嵌入演化(SEvo)机制，能够以较低的计算开销将图结构信息注入到嵌入中，从而在现代推荐系统中实现更高效的性能。 |
+| [^11] | [SE-PEF: a Resource for Personalized Expert Finding.](http://arxiv.org/abs/2309.11686) | 该论文介绍了SE-PEF，一个用于个性化专家查找的资源。该资源包括超过25万个查询和56.5万个答案，并使用一套丰富的特征来建模用户之间的社交互动。初步实验结果表明SE-PEF适用于评估和训练有效的专家查找模型。 |
+| [^12] | [Exploring Social Choice Mechanisms for Recommendation Fairness in SCRUF.](http://arxiv.org/abs/2309.08621) | 本文通过使用社会选择机制，探索了多个多方面公平应用中的选择机制选项，结果显示不同的选择和分配机制会产生不同但一致的公平性/准确性权衡结果，并且多智能体的构成使得系统能够适应用户人口的动态变化。 |
+| [^13] | [SpaDE: Improving Sparse Representations using a Dual Document Encoder for First-stage Retrieval.](http://arxiv.org/abs/2209.05917) | SpaDE 是一种利用双重编码器学习文档表示的第一阶段检索模型，可以同时改善词汇匹配和扩展额外术语来支持语义匹配，且在实验中表现优异。 |
+| [^14] | [SR-HetGNN:Session-based Recommendation with Heterogeneous Graph Neural Network.](http://arxiv.org/abs/2108.05641) | 本文提出了一种基于异构图神经网络的会话推荐方法SR-HetGNN，通过学习会话嵌入并捕捉匿名用户的特定偏好，以改进会话推荐系统的效果和准确性。 |
 
 # 详细
 
-[^1]: 推荐系统中导致流行度不公平的潜在因素：基于用户的分析
+[^1]: DSPy: 将声明性语言模型调用编译成自我改进的流水线
 
-    Potential Factors Leading to Popularity Unfairness in Recommender Systems: A User-Centered Analysis. (arXiv:2310.02961v1 [cs.IR])
+    DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines. (arXiv:2310.03714v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.02961](http://arxiv.org/abs/2310.02961)
+    [http://arxiv.org/abs/2310.03714](http://arxiv.org/abs/2310.03714)
 
-    该论文研究了导致推荐系统中用户端流行度偏见不公平的因素。
-
-    
-
-    流行度偏差是推荐系统中众所周知的问题，其中少数流行物品在输入数据中被过度代表，而其他大部分不那么流行的物品则被低估。这种不平等的代表往往导致推荐结果中物品的暴露存在偏见。已有大量研究从物品的角度研究了这种偏差，并试图通过增强对不那么流行物品的推荐来缓解。然而，最近的研究揭示了这种偏差对用户的影响。对于对流行物品有着不同容忍度的用户而言，推荐系统并不能公平地为他们提供服务：对于对不那么流行物品感兴趣的用户，在他们的推荐中会得到更多的流行物品，而对于对流行物品感兴趣的用户，则被推荐了他们想要的物品。主要原因是流行度偏差使得流行物品被过度推荐。本文旨在探究导致推荐系统中用户端流行度偏见不公平的因素。
-
-    Popularity bias is a well-known issue in recommender systems where few popular items are over-represented in the input data, while majority of other less popular items are under-represented. This disparate representation often leads to bias in exposure given to the items in the recommendation results. Extensive research examined this bias from item perspective and attempted to mitigate it by enhancing the recommendation of less popular items. However, a recent research has revealed the impact of this bias on users. Users with different degree of tolerance toward popular items are not fairly served by the recommendation system: users interested in less popular items receive more popular items in their recommendations, while users interested in popular items are recommended what they want. This is mainly due to the popularity bias that popular items are over-recommended. In this paper, we aim at investigating the factors leading to this user-side unfairness of popularity bias in recommen
-    
-[^2]: Auto-FP:自动化特征预处理在表格数据上的实验研究
-
-    Auto-FP: An Experimental Study of Automated Feature Preprocessing for Tabular Data. (arXiv:2310.02540v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.02540](http://arxiv.org/abs/2310.02540)
-
-    本文研究了如何自动化表格数据的特征预处理（Auto-FP），将其建模为超参数优化或神经网络架构搜索问题，并扩展了各种算法来解决Auto-FP问题。
+    DSPy是一个编程模型，将LM流水线抽象为文本转换图，通过声明性模块调用LM实现优化，能够解决复杂的推理问题和数学问题等任务。
 
     
 
-    传统的机器学习模型，如线性模型和基于树的模型，在工业中被广泛使用。这些模型对数据分布敏感，因此特征预处理是确保模型质量良好的关键步骤。手动构建特征预处理流程很具挑战性，因为数据科学家需要在选择哪些预处理器以及以什么顺序组合它们方面作出困难的决策。在本文中，我们研究了如何自动化表格数据的特征预处理（Auto-FP）。由于搜索空间较大，暴力解决方案代价太高。为了解决这个挑战，我们有趣地观察到Auto-FP可以被建模为超参数优化（HPO）或神经网络架构搜索（NAS）问题。这个观察使我们能够扩展各种HPO和NAS算法来解决Auto-FP问题。我们进行了全面的评估和分析，共进行了15个...
+    ML社区正在快速探索用于提示语言模型(LMs)和将它们堆叠成解决复杂任务的流水线的技术。不幸的是，现有的LM流水线通常使用硬编码的"提示模板"来实现，即通过试错发现的冗长字符串。为了更系统地开发和优化LM流水线，我们引入了DSPy，这是一个以文本转换图的形式抽象LM流水线的编程模型，即通过声明性模块调用LM的命令式计算图。DSPy模块是参数化的，这意味着它们可以通过创建和收集示例来学习如何应用提示、微调、增强和推理技术的组合。我们设计了一个编译器，可以优化任何DSPy流水线以最大化给定的度量标准。我们进行了两个案例研究，显示出简洁的DSPy程序可以表达和优化复杂的推理数学问题、登录日志问题等流水线。
 
-    Classical machine learning models, such as linear models and tree-based models, are widely used in industry. These models are sensitive to data distribution, thus feature preprocessing, which transforms features from one distribution to another, is a crucial step to ensure good model quality. Manually constructing a feature preprocessing pipeline is challenging because data scientists need to make difficult decisions about which preprocessors to select and in which order to compose them. In this paper, we study how to automate feature preprocessing (Auto-FP) for tabular data. Due to the large search space, a brute-force solution is prohibitively expensive. To address this challenge, we interestingly observe that Auto-FP can be modelled as either a hyperparameter optimization (HPO) or a neural architecture search (NAS) problem. This observation enables us to extend a variety of HPO and NAS algorithms to solve the Auto-FP problem. We conduct a comprehensive evaluation and analysis of 15 
+    The ML community is rapidly exploring techniques for prompting language models (LMs) and for stacking them into pipelines that solve complex tasks. Unfortunately, existing LM pipelines are typically implemented using hard-coded "prompt templates", i.e. lengthy strings discovered via trial and error. Toward a more systematic approach for developing and optimizing LM pipelines, we introduce DSPy, a programming model that abstracts LM pipelines as text transformation graphs, i.e. imperative computational graphs where LMs are invoked through declarative modules. DSPy modules are parameterized, meaning they can learn (by creating and collecting demonstrations) how to apply compositions of prompting, finetuning, augmentation, and reasoning techniques. We design a compiler that will optimize any DSPy pipeline to maximize a given metric. We conduct two case studies, showing that succinct DSPy programs can express and optimize sophisticated LM pipelines that reason about math word problems, tac
     
-[^3]: 塑造时代的个性与共性：音乐即兴创作中的不确定性和预测误差的时序动态
+[^2]: FASER: 通过中间表示进行二进制代码相似性搜索
 
-    Shaping the Epochal Individuality and Generality: The Temporal Dynamics of Uncertainty and Prediction Error in Musical Improvisation. (arXiv:2310.02518v1 [cs.SD])
+    FASER: Binary Code Similarity Search through the use of Intermediate Representations. (arXiv:2310.03605v1 [cs.CR])
 
-    [http://arxiv.org/abs/2310.02518](http://arxiv.org/abs/2310.02518)
+    [http://arxiv.org/abs/2310.03605](http://arxiv.org/abs/2310.03605)
 
-    这项研究探索了音乐即兴创作中不确定性和预测误差的时序动态，发现了音高和音高-节奏序列中的特定时间模式和时代特征，以及节奏序列的一致不确定度。这些发现突显了节奏在音乐创作中的重要性。
-
-    
-
-    音乐即兴创作，就像即兴演讲一样，展现了即兴者的思维状态和情感特质的精妙方面。然而，揭示这种个性的具体音乐组成部分仍未被广泛探索。在大脑的统计学习和预测处理框架内，本研究考察了音乐即兴创作中不确定性和惊讶（预测误差）的时序动态。本研究采用HBSL模型分析了一个包含456段爵士即兴创作的语料库，跨越1905年至2009年，涵盖了78位不同的爵士音乐家。结果表明，尤其是在音高和音高-节奏序列中，惊讶和不确定性呈现出独特的时间模式，揭示了从20世纪初到21世纪的时代特征。相反，节奏序列在不同时代表现出一致的不确定度。此外，声学特性在不同时期保持不变。这些发现突显了节奏在音乐创作中的重要性。
-
-    Musical improvisation, much like spontaneous speech, reveals intricate facets of the improviser's state of mind and emotional character. However, the specific musical components that reveal such individuality remain largely unexplored. Within the framework of brain's statistical learning and predictive processing, this study examined the temporal dynamics of uncertainty and surprise (prediction error) in a piece of musical improvisation. This study employed the HBSL model to analyze a corpus of 456 Jazz improvisations, spanning 1905 to 2009, from 78 distinct Jazz musicians. The results indicated distinctive temporal patterns of surprise and uncertainty, especially in pitch and pitch-rhythm sequences, revealing era-specific features from the early 20th to the 21st centuries. Conversely, rhythm sequences exhibited a consistent degree of uncertainty across eras. Further, the acoustic properties remain unchanged across different periods. These findings highlight the importance of how tempo
-    
-[^4]: 用于顺序推荐的线性循环单元
-
-    Linear Recurrent Units for Sequential Recommendation. (arXiv:2310.02367v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.02367](http://arxiv.org/abs/2310.02367)
-
-    本研究提出了一种用于顺序推荐的线性循环单元（LRURec）。与当前的自注意模型相比，LRURec具有快速的推断速度、能够进行增量推断、更小的模型大小和可并行训练。通过优化架构并引入非线性，LRURec在顺序推荐任务中取得了有效的结果。
+    本论文提出了一种名为FASER的方法，通过使用中间表示进行二进制代码相似性搜索。该方法可以跨架构地识别函数，并明确编码函数的语义，以支持各种应用场景。
 
     
 
-    当前的顺序推荐依赖于基于自注意的推荐模型。然而，这些模型计算代价高，往往对实时推荐来说过于缓慢。此外，自注意操作是在序列层级上进行的，因此对于低成本的增量推断来说具有挑战性。受到高效语言建模的最新进展的启发，我们提出了用于顺序推荐的线性循环单元（LRURec）。类似于循环神经网络，LRURec具有快速的推断速度，并且能够对顺序输入进行增量推断。通过分解线性循环操作并在我们的框架中设计递归并行化，LRURec提供了减小模型大小和可并行训练的额外优势。此外，我们通过实施一系列修改来优化LRURec的架构，以解决缺乏非线性和改善训练动态的问题。为了验证我们提出的LRURec的有效性
+    能够识别跨架构软件中感兴趣的函数对于分析恶意软件、保护软件供应链或进行漏洞研究都是有用的。跨架构二进制代码相似性搜索已在许多研究中探索，并使用了各种不同的数据来源来实现其目标。通常使用的数据来源包括从二进制文件中提取的常见结构，如函数控制流图或二进制级调用图，反汇编过程的输出或动态分析方法的输出。其中一种受到较少关注的数据来源是二进制中间表示。二进制中间表示具有两个有趣的属性：它们的跨架构性质以及明确编码函数的语义以支持下游使用。在本文中，我们提出了一种名为FASER的函数字符串编码表示方法，它结合了长文档转换技术。
 
-    State-of-the-art sequential recommendation relies heavily on self-attention-based recommender models. Yet such models are computationally expensive and often too slow for real-time recommendation. Furthermore, the self-attention operation is performed at a sequence-level, thereby making low-cost incremental inference challenging. Inspired by recent advances in efficient language modeling, we propose linear recurrent units for sequential recommendation (LRURec). Similar to recurrent neural networks, LRURec offers rapid inference and can achieve incremental inference on sequential inputs. By decomposing the linear recurrence operation and designing recursive parallelization in our framework, LRURec provides the additional benefits of reduced model size and parallelizable training. Moreover, we optimize the architecture of LRURec by implementing a series of modifications to address the lack of non-linearity and improve training dynamics. To validate the effectiveness of our proposed LRURe
+    Being able to identify functions of interest in cross-architecture software is useful whether you are analysing for malware, securing the software supply chain or conducting vulnerability research. Cross-Architecture Binary Code Similarity Search has been explored in numerous studies and has used a wide range of different data sources to achieve its goals. The data sources typically used draw on common structures derived from binaries such as function control flow graphs or binary level call graphs, the output of the disassembly process or the outputs of a dynamic analysis approach. One data source which has received less attention is binary intermediate representations. Binary Intermediate representations possess two interesting properties: they are cross architecture by their very nature and encode the semantics of a function explicitly to support downstream usage. Within this paper we propose Function as a String Encoded Representation (FASER) which combines long document transforme
     
-[^5]: 超越准确性: 基于图神经网络的推荐系统中的多样性、意外性和公平性综述
+[^3]: TPDR：一种新颖的基于双步骤Transformer的产品和类描述匹配与检索方法
 
-    Beyond-Accuracy: A Review on Diversity, Serendipity and Fairness in Recommender Systems Based on Graph Neural Networks. (arXiv:2310.02294v1 [cs.IR])
+    TPDR: A Novel Two-Step Transformer-based Product and Class Description Match and Retrieval Method. (arXiv:2310.03491v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.02294](http://arxiv.org/abs/2310.02294)
+    [http://arxiv.org/abs/2310.03491](http://arxiv.org/abs/2310.03491)
 
-    本综述论文关注于基于图神经网络的推荐系统中的多样性、意外性和公平性问题，超越传统的准确性评估，并讨论了模型开发的不同阶段。
-
-    
-
-    通过向用户提供个性化建议，推荐系统已经成为许多在线平台的重要组成部分。协同过滤，特别是使用图神经网络（GNN）的基于图的方法，在推荐准确性方面取得了很好的结果。然而，准确性并不总是评估推荐系统性能最重要的标准，因为除了准确性之外，推荐多样性、意外性和公平性等方面也会对用户参与和满意度产生强烈影响。本综述论文关注于解决基于GNN的推荐系统中的这些维度，超越传统以准确性为中心的视角。我们首先回顾了最近在改善准确性-多样性权衡、促进意外性和公平性方面的方法方面的发展。我们讨论了模型开发的不同阶段，包括数据预处理、图构建、嵌入初始化。
-
-    By providing personalized suggestions to users, recommender systems have become essential to numerous online platforms. Collaborative filtering, particularly graph-based approaches using Graph Neural Networks (GNNs), have demonstrated great results in terms of recommendation accuracy. However, accuracy may not always be the most important criterion for evaluating recommender systems' performance, since beyond-accuracy aspects such as recommendation diversity, serendipity, and fairness can strongly influence user engagement and satisfaction. This review paper focuses on addressing these dimensions in GNN-based recommender systems, going beyond the conventional accuracy-centric perspective. We begin by reviewing recent developments in approaches that improve not only the accuracy-diversity trade-off but also promote serendipity and fairness in GNN-based recommender systems. We discuss different stages of model development including data preprocessing, graph construction, embedding initia
-    
-[^6]: MedCPT: 使用大规模PubMed搜索日志的对比预训练转换器进行零样本生物医学信息检索
-
-    MedCPT: Contrastive Pre-trained Transformers with Large-scale PubMed Search Logs for Zero-shot Biomedical Information Retrieval. (arXiv:2307.00589v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2307.00589](http://arxiv.org/abs/2307.00589)
-
-    MedCPT是一种用于生物医学领域零样本语义信息检索的对比预训练转换器模型。通过使用大规模PubMed搜索日志进行训练，MedCPT在六个生物医学信息检索任务中创造了新的最佳性能，超过了其他基线模型，同时还能生成更好的生物医学文章和句子。
+    TPDR是一种基于Transformer的产品和类描述匹配与检索方法，通过注意机制和对比学习来实现语义对应关系的探索。
 
     
 
-    信息检索在生物医学知识获取和临床决策支持中至关重要。尽管最近的进展表明语言模型编码器在语义检索方面表现更好，但训练这些模型需要大量的查询-文章注释，在生物医学领域很难获得。因此，大多数生物医学信息检索系统只进行词汇匹配。为此，我们引入了MedCPT，这是一种首创的用于生物医学领域零样本语义信息检索的对比预训练转换器模型。为了训练MedCPT，我们从PubMed收集了255 million个用户点击日志，这是前所未有的规模。利用这些数据，我们使用对比学习来训练一对密切集成的检索器和重排器。实验结果显示，MedCPT在六个生物医学信息检索任务中取得了新的最佳性能，优于包括更大模型（如GPT-3大小的cpt-text-XL）在内的各种基线模型。此外，MedCPT还能够生成更好的生物医学文章和句子。
+    有一类公司负责为其他公司中介采购大批量的各种产品，其主要挑战是进行产品描述的标准化，即将客户描述的商品与目录中描述的产品进行匹配。这个问题非常复杂，因为客户的产品描述可能存在以下情况：（1）潜在的噪声；（2）短小且不具备信息（例如，缺少有关型号和尺寸的信息）；（3）跨语言。本文将这个问题形式化为一个排序任务：给定一个初始的客户产品规格（查询），返回最合适的标准化描述（响应）。本文提出了TPDR，一种基于双步骤Transformer的产品和类描述检索方法，该方法能够利用注意机制和对比学习来探索IS和SD之间的语义对应关系。首先，TPDR使用两个编码器的transformers共享嵌入向量空间：
 
-    Information retrieval (IR) is essential in biomedical knowledge acquisition and clinical decision support. While recent progress has shown that language model encoders perform better semantic retrieval, training such models requires abundant query-article annotations that are difficult to obtain in biomedicine. As a result, most biomedical IR systems only conduct lexical matching. In response, we introduce MedCPT, a first-of-its-kind Contrastively Pre-trained Transformer model for zero-shot semantic IR in biomedicine. To train MedCPT, we collected an unprecedented scale of 255 million user click logs from PubMed. With such data, we use contrastive learning to train a pair of closely-integrated retriever and re-ranker. Experimental results show that MedCPT sets new state-of-the-art performance on six biomedical IR tasks, outperforming various baselines including much larger models such as GPT-3-sized cpt-text-XL. In addition, MedCPT also generates better biomedical article and sentence 
+    There is a niche of companies responsible for intermediating the purchase of large batches of varied products for other companies, for which the main challenge is to perform product description standardization, i.e., matching an item described by a client with a product described in a catalog. The problem is complex since the client's product description may be: (1) potentially noisy; (2) short and uninformative (e.g., missing information about model and size); and (3) cross-language. In this paper, we formalize this problem as a ranking task: given an initial client product specification (query), return the most appropriate standardized descriptions (response). In this paper, we propose TPDR, a two-step Transformer-based Product and Class Description Retrieval method that is able to explore the semantic correspondence between IS and SD, by exploiting attention mechanisms and contrastive learning. First, TPDR employs the transformers as two encoders sharing the embedding vector space: 
     
-[^7]: CompoDiff: 基于潜在扩散的多功能组合图像检索
+[^4]: 基于个性化Transformer的Yandex电子商务排名系统
 
-    CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion. (arXiv:2303.11916v1 [cs.CV])
+    Personalized Transformer-based Ranking for e-Commerce at Yandex. (arXiv:2310.03481v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.11916](http://arxiv.org/abs/2303.11916)
+    [http://arxiv.org/abs/2310.03481](http://arxiv.org/abs/2310.03481)
 
-    CompoDiff 是一种多功能的组合图像检索模型，通过接受各种条件，具有潜在扩散的能力，并在 FashionIQ 上实现了新的零样本最新技术水平。其特征位于完整的 CLIP 嵌入空间中，可以直接用于所有利用 CLIP 空间的模型。
-
-    
-
-    本文提出了一种新颖的基于扩散的模型 CompoDiff，用于解决具有潜在扩散的组合图像检索（CIR）问题，并提供了一个由 1800 万个参考图像、条件和相应的目标图像三元组组成的新数据集，用于训练模型。CompoDiff 不仅在像 FashionIQ 这样的 CIR 基准测试上实现了新的零样本最新技术水平，而且还通过接收各种条件（如负文本和图像遮罩条件），使得 CIR 更加多功能，这是现有 CIR 方法所不具备的。此外，CompoDiff 特征位于完整的 CLIP 嵌入空间中，因此它们可以直接用于利用 CLIP 空间的所有现有模型。训练所使用的代码和数据集，以及预训练权重可在 https://github.com/navervision/CompoDiff 上获得。
-
-    This paper proposes a novel diffusion-based model, CompoDiff, for solving Composed Image Retrieval (CIR) with latent diffusion and presents a newly created dataset of 18 million reference images, conditions, and corresponding target image triplets to train the model. CompoDiff not only achieves a new zero-shot state-of-the-art on a CIR benchmark such as FashionIQ but also enables a more versatile CIR by accepting various conditions, such as negative text and image mask conditions, which are unavailable with existing CIR methods. In addition, the CompoDiff features are on the intact CLIP embedding space so that they can be directly used for all existing models exploiting the CLIP space. The code and dataset used for the training, and the pre-trained weights are available at https://github.com/navervision/CompoDiff
-    
-[^8]: 在无偏推荐中重新考虑学习目标：分布转移视角下的研究
-
-    Reconsidering Learning Objectives in Unbiased Recommendation: A Distribution Shift Perspective. (arXiv:2206.03851v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2206.03851](http://arxiv.org/abs/2206.03851)
-
-    本文从分布转移视角出发，研究了从偏向反馈中学习无偏算法进行推荐的问题。通过建立无偏推荐与分布转移的关系，对现有无偏学习方法进行了理论解释并提出了两个泛化界限。
+    本文提出了一个基于个性化Transformer的电子商务排名系统，通过优化排名阶段的特征生成，提高了推荐质量。同时，还引入了一种新颖的技术用于解决偏置上下文的问题。
 
     
 
-    本文研究了从偏向反馈中学习无偏算法进行推荐的问题，我们从一个新颖的分布转移视角来解决这个问题。最近在无偏推荐领域的研究中，通过各种技术如重新加权、多任务学习和元学习，取得了最新的成果。尽管它们在实证上取得了成功，但大部分缺乏理论保证，导致了理论和最新算法之间的显著差距。本文提出了对现有无偏学习目标为何适用于无偏推荐的理论理解。我们建立了无偏推荐与分布转移之间的密切关系，显示了现有的无偏学习目标隐含地将有偏的训练分布与无偏的测试分布对齐。基于这个关系，我们针对现有的无偏学习方法发展了两个泛化界限并分析了它们的学习行为。
+    以用户活动为基础，个性化地提供高质量的推荐对于电子商务平台至关重要，特别是在用户意图不明确的情况下，如主页上。最近，基于嵌入式的个性化系统在电子商务领域的推荐和搜索结果质量方面有了显著的提升。然而，这些工作大多集中在增强检索阶段。在本文中，我们证明了针对电子商务推荐中的排名阶段，检索聚焦的深度学习模型产生的特征是次优的。为了解决这个问题，我们提出了一个两阶段训练过程，通过微调两塔模型来实现最佳的排名性能。我们详细描述了我们专门为电子商务个性化设计的基于Transformer的两塔模型架构。此外，我们还引入了一种新颖的离线模型中去偏置上下文的技术。
 
-    This work studies the problem of learning unbiased algorithms from biased feedback for recommendation. We address this problem from a novel distribution shift perspective. Recent works in unbiased recommendation have advanced the state-of-the-art with various techniques such as re-weighting, multi-task learning, and meta-learning. Despite their empirical successes, most of them lack theoretical guarantees, forming non-negligible gaps between theories and recent algorithms. In this paper, we propose a theoretical understanding of why existing unbiased learning objectives work for unbiased recommendation. We establish a close connection between unbiased recommendation and distribution shift, which shows that existing unbiased learning objectives implicitly align biased training and unbiased test distributions. Built upon this connection, we develop two generalization bounds for existing unbiased learning methods and analyze their learning behavior. Besides, as a result of the distributio
+    Personalizing the user experience with high-quality recommendations based on user activities is vital for e-commerce platforms. This is particularly important in scenarios where the user's intent is not explicit, such as on the homepage. Recently, personalized embedding-based systems have significantly improved the quality of recommendations and search results in the e-commerce domain. However, most of these works focus on enhancing the retrieval stage.  In this paper, we demonstrate that features produced by retrieval-focused deep learning models are sub-optimal for ranking stage in e-commerce recommendations. To address this issue, we propose a two-stage training process that fine-tunes two-tower models to achieve optimal ranking performance. We provide a detailed description of our transformer-based two-tower model architecture, which is specifically designed for personalization in e-commerce.  Additionally, we introduce a novel technique for debiasing context in offline models and 
     
-[^9]: SR-HetGNN:基于异构图神经网络的会话推荐系统
+[^5]: 亚马逊图书评分预测与推荐模型
+
+    Amazon Books Rating prediction & Recommendation Model. (arXiv:2310.03200v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.03200](http://arxiv.org/abs/2310.03200)
+
+    本文利用亚马逊的数据集构建了一个预测图书评分和推荐图书的模型，提供了处理大数据文件、数据工程和构建模型的流程，并使用了各种PySpark机器学习API、超参数调优和交叉验证进行准确性的分析。
+
+    
+
+    本文利用亚马逊的数据集来预测亚马逊网站上列出的图书评分。作为这个项目的一部分，我们预测了图书的评分，并构建了一个推荐集群。这个推荐集群基于数据集中的列值，比如类别、描述、作者、价格、评论等提供推荐图书。本文提供了处理大数据文件、数据工程、构建模型和提供预测的流程。模型使用了各种PySpark机器学习API来预测图书评分列。此外，我们使用超参数和参数调优。另外，我们还使用了交叉验证和TrainValidationSplit进行泛化。最后，我们比较了二分类和多分类在准确性上的差异。我们将标签从多分类转换为二分类以查看两种分类之间是否有差异。结果表明，我们在二分类中获得了更高的准确性。
+
+    This paper uses the dataset of Amazon to predict the books ratings listed on Amazon website. As part of this project, we predicted the ratings of the books, and also built a recommendation cluster. This recommendation cluster provides the recommended books based on the column's values from dataset, for instance, category, description, author, price, reviews etc. This paper provides a flow of handling big data files, data engineering, building models and providing predictions. The models predict book ratings column using various PySpark Machine Learning APIs. Additionally, we used hyper-parameters and parameters tuning. Also, Cross Validation and TrainValidationSplit were used for generalization. Finally, we performed a comparison between Binary Classification and Multiclass Classification in their accuracies. We converted our label from multiclass to binary to see if we could find any difference between the two classifications. As a result, we found out that we get higher accuracy in b
+    
+[^6]: 阻抗泄漏脆弱性及其在逆向工程嵌入式软件中的利用
+
+    Impedance Leakage Vulnerability and its Utilization in Reverse-engineering Embedded Software. (arXiv:2310.03175v1 [cs.CR])
+
+    [http://arxiv.org/abs/2310.03175](http://arxiv.org/abs/2310.03175)
+
+    这项研究发现了一种新的安全漏洞——阻抗泄漏，通过利用该漏洞可以从嵌入式设备中提取受保护内存中的软件指令。
+
+    
+
+    发现新的漏洞和实施安全和隐私措施对于保护系统和数据免受物理攻击至关重要。其中一种漏洞是阻抗，一种设备的固有属性，可以通过意外的侧信道泄露信息，从而带来严重的安全和隐私风险。与传统的漏洞不同，阻抗通常被忽视或仅在研究和设计中以特定频率的固定值来处理。此外，阻抗从未被探索过作为信息泄漏的源头。本文证明了嵌入式设备的阻抗并非恒定，并直接与设备上执行的程序相关。我们将此现象定义为阻抗泄漏，并将其作为一种侧信道从受保护的内存中提取软件指令。我们在ATmega328P微控制器和Artix 7 FPGA上的实验表明，阻抗侧信道
+
+    Discovering new vulnerabilities and implementing security and privacy measures are important to protect systems and data against physical attacks. One such vulnerability is impedance, an inherent property of a device that can be exploited to leak information through an unintended side channel, thereby posing significant security and privacy risks. Unlike traditional vulnerabilities, impedance is often overlooked or narrowly explored, as it is typically treated as a fixed value at a specific frequency in research and design endeavors. Moreover, impedance has never been explored as a source of information leakage. This paper demonstrates that the impedance of an embedded device is not constant and directly relates to the programs executed on the device. We define this phenomenon as impedance leakage and use this as a side channel to extract software instructions from protected memory. Our experiment on the ATmega328P microcontroller and the Artix 7 FPGA indicates that the impedance side 
+    
+[^7]: 多任务学习用于减少多领域视频推荐中的流行度偏差
+
+    Multi-Task Learning For Reduced Popularity Bias In Multi-Territory Video Recommendations. (arXiv:2310.03148v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.03148](http://arxiv.org/abs/2310.03148)
+
+    本文提出了一种多任务学习技术和自适应上采样方法，用于减少多领域推荐系统中的流行度偏差。通过实验证明，该框架在多个领域中相对增益高达65.27%。
+
+    
+
+    多领域个性化推荐系统中自然产生的各种数据不平衡可能导致全球流行物品的显著项目偏见。局部流行项目可能会被全球流行项目所掩盖。此外，用户的观看模式/统计数据在不同地理位置之间可能发生剧变，这可能表明需要学习特定的用户嵌入。本文提出了一种多任务学习（MTL）技术，以及一种自适应上采样方法，用于减少多领域推荐中的流行偏见。我们的框架通过上采样来丰富含有活跃用户表示的训练样本，并借助MTL来学习基于地理位置的用户嵌入。通过实验证明，与不采用我们提出的技术的基准相比，我们的框架在多个领域的效果显著。值得注意的是，我们在PR-AUC指标上显示出了高达65.27%的相对增益。
+
+    Various data imbalances that naturally arise in a multi-territory personalized recommender system can lead to a significant item bias for globally prevalent items. A locally popular item can be overshadowed by a globally prevalent item. Moreover, users' viewership patterns/statistics can drastically change from one geographic location to another which may suggest to learn specific user embeddings. In this paper, we propose a multi-task learning (MTL) technique, along with an adaptive upsampling method to reduce popularity bias in multi-territory recommendations. Our proposed framework is designed to enrich training examples with active users representation through upsampling, and capable of learning geographic-based user embeddings by leveraging MTL. Through experiments, we demonstrate the effectiveness of our framework in multiple territories compared to a baseline not incorporating our proposed techniques.~Noticeably, we show improved relative gain of up to $65.27\%$ in PR-AUC metric
+    
+[^8]: 基于上下文的推文参与度预测
+
+    Context-Based Tweet Engagement Prediction. (arXiv:2310.03147v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.03147](http://arxiv.org/abs/2310.03147)
+
+    该论文研究了基于上下文的推文参与度预测问题，使用了Twitter的数据集和评估流程，探讨了仅凭上下文是否可以很好地预测推文的参与度可能性。
+
+    
+
+    Twitter目前是最大的社交媒体平台之一。其用户可以分享、阅读和参与短推文。在2020年ACM推荐系统会议上，Twitter发布了一个大小约为70GB的数据集，供年度RecSys挑战赛使用。2020年的RecSys挑战赛邀请参与团队创建模型，预测给定用户-推文组合的参与度可能性。提交的模型预测点赞、回复、转发和引用的参与度，并基于两个指标进行评估：精确率-召回率曲线下的面积（PRAUC）和相对交叉熵（RCE）。在这篇学位论文中，我们使用了RecSys 2020挑战赛的数据集和评估流程，研究仅凭上下文能否预测推文参与度的可行性。为此，我们在TU Wien的Little Big Data Cluster上采用Spark引擎创建可扩展的数据预处理、特征工程、特征选择和机器学习流程。我们手动创建。
+
+    Twitter is currently one of the biggest social media platforms. Its users may share, read, and engage with short posts called tweets. For the ACM Recommender Systems Conference 2020, Twitter published a dataset around 70 GB in size for the annual RecSys Challenge. In 2020, the RecSys Challenge invited participating teams to create models that would predict engagement likelihoods for given user-tweet combinations. The submitted models predicting like, reply, retweet, and quote engagements were evaluated based on two metrics: area under the precision-recall curve (PRAUC) and relative cross-entropy (RCE).  In this diploma thesis, we used the RecSys 2020 Challenge dataset and evaluation procedure to investigate how well context alone may be used to predict tweet engagement likelihood. In doing so, we employed the Spark engine on TU Wien's Little Big Data Cluster to create scalable data preprocessing, feature engineering, feature selection, and machine learning pipelines. We manually create
+    
+[^9]: 一种基于深度强化学习的交互式搜索方法与句级反馈
+
+    A Deep Reinforcement Learning Approach for Interactive Search with Sentence-level Feedback. (arXiv:2310.03043v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.03043](http://arxiv.org/abs/2310.03043)
+
+    本研究提出了一种利用深度强化学习的交互式搜索方法，该方法通过整合句级反馈信息来提高搜索准确性。通过适应最新的BERT-based模型进行关键句子选择和项目排序，可以获得更满意的搜索结果。
+
+    
+
+    交互式搜索可以通过整合用户的交互反馈来提供更好的搜索体验。这可以显著提高搜索准确性，因为它有助于避免无关信息并捕捉用户的搜索意图。现有的最新系统使用强化学习（RL）模型来整合这些交互，但是忽略了句级反馈中的细粒度信息。然而，这种反馈需要进行广泛的RL行动空间探索和大量的标注数据。本研究通过提出一种新的深度Q学习（DQ）方法DQrank来解决这些挑战。DQrank使用自然语言处理中最新技术BERT-based模型来选择关键句子，并基于用户的参与度对项目进行排序，以获得更满意的回应。我们还提出了两种机制来更好地探索最优行动。DQrank还利用DQ中的经验重现机制来存储反馈句子以增强模型性能。
+
+    Interactive search can provide a better experience by incorporating interaction feedback from the users. This can significantly improve search accuracy as it helps avoid irrelevant information and captures the users' search intents. Existing state-of-the-art (SOTA) systems use reinforcement learning (RL) models to incorporate the interactions but focus on item-level feedback, ignoring the fine-grained information found in sentence-level feedback. Yet such feedback requires extensive RL action space exploration and large amounts of annotated data. This work addresses these challenges by proposing a new deep Q-learning (DQ) approach, DQrank. DQrank adapts BERT-based models, the SOTA in natural language processing, to select crucial sentences based on users' engagement and rank the items to obtain more satisfactory responses. We also propose two mechanisms to better explore optimal actions. DQrank further utilizes the experience replay mechanism in DQ to store the feedback sentences to ob
+    
+[^10]: 图增强优化器用于结构感知推荐嵌入演化
+
+    Graph-enhanced Optimizers for Structure-aware Recommendation Embedding Evolution. (arXiv:2310.03032v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.03032](http://arxiv.org/abs/2310.03032)
+
+    本文提出了一种新颖的结构感知嵌入演化(SEvo)机制，能够以较低的计算开销将图结构信息注入到嵌入中，从而在现代推荐系统中实现更高效的性能。
+
+    
+
+    嵌入在现代推荐系统中起着关键作用，因为它们是真实世界实体的虚拟表示，并且是后续决策模型的基础。本文提出了一种新颖的嵌入更新机制，称为结构感知嵌入演化(SEvo)，以鼓励相关节点在每一步中以类似的方式演化。与通常作为中间部分的GNN（图神经网络）不同，SEvo能够直接将图结构信息注入到嵌入中，且在训练过程中计算开销可忽略。本文通过理论分析验证了SEvo的收敛性质及其可能的改进版本，以证明设计的有效性。此外，SEvo可以无缝集成到现有的优化器中，以实现最先进性能。特别是，在矩估计校正的SEvo增强AdamW中，证明了一致的改进效果在多种模型和数据集上，为有效推荐了一种新的技术路线。
+
+    Embedding plays a critical role in modern recommender systems because they are virtual representations of real-world entities and the foundation for subsequent decision models. In this paper, we propose a novel embedding update mechanism, Structure-aware Embedding Evolution (SEvo for short), to encourage related nodes to evolve similarly at each step. Unlike GNN (Graph Neural Network) that typically serves as an intermediate part, SEvo is able to directly inject the graph structure information into embedding with negligible computational overhead in training. The convergence properties of SEvo as well as its possible variants are theoretically analyzed to justify the validity of the designs. Moreover, SEvo can be seamlessly integrated into existing optimizers for state-of-the-art performance. In particular, SEvo-enhanced AdamW with moment estimate correction demonstrates consistent improvements across a spectrum of models and datasets, suggesting a novel technical route to effectively 
+    
+[^11]: SE-PEF:一个用于个性化专家查找的资源
+
+    SE-PEF: a Resource for Personalized Expert Finding. (arXiv:2309.11686v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.11686](http://arxiv.org/abs/2309.11686)
+
+    该论文介绍了SE-PEF，一个用于个性化专家查找的资源。该资源包括超过25万个查询和56.5万个答案，并使用一套丰富的特征来建模用户之间的社交互动。初步实验结果表明SE-PEF适用于评估和训练有效的专家查找模型。
+
+    
+
+    个性化信息检索的问题已经被研究了很长时间。与这项任务相关的一个众所周知的问题是缺乏公开可用的数据集，这些数据集可以支持个性化搜索系统的比较评估。为了在这方面做出贡献，本文介绍了SE-PEF（StackExchange-个性化专家查找），这是一个用于设计和评估与专家查找（EF）任务相关的个性化模型的资源。所贡献的数据集包括来自3306个专家的超过25万个查询和56.5万个答案，这些数据集使用了一套丰富的特征来建模热门cQA平台上用户之间的社交互动。初步实验的结果表明，SE-PEF适用于评估和训练有效的EF模型。
+
+    The problem of personalization in Information Retrieval has been under study for a long time. A well-known issue related to this task is the lack of publicly available datasets that can support a comparative evaluation of personalized search systems. To contribute in this respect, this paper introduces SE-PEF (StackExchange - Personalized Expert Finding), a resource useful for designing and evaluating personalized models related to the task of Expert Finding (EF). The contributed dataset includes more than 250k queries and 565k answers from 3 306 experts, which are annotated with a rich set of features modeling the social interactions among the users of a popular cQA platform. The results of the preliminary experiments conducted show the appropriateness of SE-PEF to evaluate and to train effective EF models.
+    
+[^12]: 在SCRUF中探索推荐公平性的社会选择机制
+
+    Exploring Social Choice Mechanisms for Recommendation Fairness in SCRUF. (arXiv:2309.08621v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.08621](http://arxiv.org/abs/2309.08621)
+
+    本文通过使用社会选择机制，探索了多个多方面公平应用中的选择机制选项，结果显示不同的选择和分配机制会产生不同但一致的公平性/准确性权衡结果，并且多智能体的构成使得系统能够适应用户人口的动态变化。
+
+    
+
+    推荐系统中的公平性问题往往在实践中具有复杂性，而这一点在简化的研究公式中并没有得到充分的体现。在对公平性问题进行社会选择的框架中，可以在多智能体的公平性关注基础上提供一种灵活且多方面的公平性感知推荐方法。利用社会选择可以增加通用性，并有可能利用经过研究的社会选择算法解决多个竞争的公平性关注之间的紧张关系。本文探讨了在多方面公平应用中选择机制的一系列选项，使用真实数据和合成数据，结果显示不同类别的选择和分配机制在公平性/准确性权衡方面产生了不同但一致的结果。我们还表明，多智能体的构成提供了适应用户人口动态的灵活性。
+
+    Fairness problems in recommender systems often have a complexity in practice that is not adequately captured in simplified research formulations. A social choice formulation of the fairness problem, operating within a multi-agent architecture of fairness concerns, offers a flexible and multi-aspect alternative to fairness-aware recommendation approaches. Leveraging social choice allows for increased generality and the possibility of tapping into well-studied social choice algorithms for resolving the tension between multiple, competing fairness concerns. This paper explores a range of options for choice mechanisms in multi-aspect fairness applications using both real and synthetic data and shows that different classes of choice and allocation mechanisms yield different but consistent fairness / accuracy tradeoffs. We also show that a multi-agent formulation offers flexibility in adapting to user population dynamics.
+    
+[^13]: SpaDE: 一种利用双重文档编码器改善稀疏表示的第一阶段检索方法
+
+    SpaDE: Improving Sparse Representations using a Dual Document Encoder for First-stage Retrieval. (arXiv:2209.05917v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2209.05917](http://arxiv.org/abs/2209.05917)
+
+    SpaDE 是一种利用双重编码器学习文档表示的第一阶段检索模型，可以同时改善词汇匹配和扩展额外术语来支持语义匹配，且在实验中表现优异。
+
+    
+
+    稀疏的文档表示经常被用来通过精确的词汇匹配来检索相关文档。然而，由于预先计算的倒排索引，会引发词汇不匹配的问题。虽然最近使用预训练语言模型的神经排序模型可以解决这个问题，但它们通常需要昂贵的查询推理成本，这意味着效率和效果之间存在权衡。为了解决这个问题，我们提出了一种新的单编码器排名模型，利用双重编码器学习文档表示，称为 Sparse retriever using a Dual document Encoder (SpaDE)。每个编码器在改善词汇匹配和扩展额外术语来支持语义匹配方面发挥着核心作用。此外，我们的协同训练策略可以有效地训练双重编码器，并避免不必要的干预彼此的训练过程。在几个基准测试中的实验结果表明，SpaDE 超越了现有的检索方法。
+
+    Sparse document representations have been widely used to retrieve relevant documents via exact lexical matching. Owing to the pre-computed inverted index, it supports fast ad-hoc search but incurs the vocabulary mismatch problem. Although recent neural ranking models using pre-trained language models can address this problem, they usually require expensive query inference costs, implying the trade-off between effectiveness and efficiency. Tackling the trade-off, we propose a novel uni-encoder ranking model, Sparse retriever using a Dual document Encoder (SpaDE), learning document representation via the dual encoder. Each encoder plays a central role in (i) adjusting the importance of terms to improve lexical matching and (ii) expanding additional terms to support semantic matching. Furthermore, our co-training strategy trains the dual encoder effectively and avoids unnecessary intervention in training each other. Experimental results on several benchmarks show that SpaDE outperforms ex
+    
+[^14]: SR-HetGNN:基于异构图神经网络的会话推荐系统
 
     SR-HetGNN:Session-based Recommendation with Heterogeneous Graph Neural Network. (arXiv:2108.05641v2 [cs.IR] UPDATED)
 
