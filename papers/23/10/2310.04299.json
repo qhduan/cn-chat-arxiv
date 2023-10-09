@@ -1,0 +1,11 @@
+{
+    "title": "Convergent ADMM Plug and Play PET Image Reconstruction. (arXiv:2310.04299v1 [eess.IV])",
+    "abstract": "In this work, we investigate hybrid PET reconstruction algorithms based on coupling a model-based variational reconstruction and the application of a separately learnt Deep Neural Network operator (DNN) in an ADMM Plug and Play framework. Following recent results in optimization, fixed point convergence of the scheme can be achieved by enforcing an additional constraint on network parameters during learning. We propose such an ADMM algorithm and show in a realistic [18F]-FDG synthetic brain exam that the proposed scheme indeed lead experimentally to convergence to a meaningful fixed point. When the proposed constraint is not enforced during learning of the DNN, the proposed ADMM algorithm was observed experimentally not to converge.",
+    "link": "http://arxiv.org/abs/2310.04299",
+    "context": "Title: Convergent ADMM Plug and Play PET Image Reconstruction. (arXiv:2310.04299v1 [eess.IV])\nAbstract: In this work, we investigate hybrid PET reconstruction algorithms based on coupling a model-based variational reconstruction and the application of a separately learnt Deep Neural Network operator (DNN) in an ADMM Plug and Play framework. Following recent results in optimization, fixed point convergence of the scheme can be achieved by enforcing an additional constraint on network parameters during learning. We propose such an ADMM algorithm and show in a realistic [18F]-FDG synthetic brain exam that the proposed scheme indeed lead experimentally to convergence to a meaningful fixed point. When the proposed constraint is not enforced during learning of the DNN, the proposed ADMM algorithm was observed experimentally not to converge.",
+    "path": "papers/23/10/2310.04299.json",
+    "total_tokens": 750,
+    "translated_title": "收敛的ADMM插入法PET图像重建",
+    "translated_abstract": "在这项工作中，我们研究了基于模型驱动变分重建和应用独立学习的深度神经网络操作符（DNN）的混合PET重建算法，采用ADMM插入法框架。根据最近在优化方面的结果，在学习过程中对网络参数施加额外的约束可以实现算法的固定点收敛。我们提出了这样一个ADMM算法，并通过在逼真的[18F]-FDG合成脑部检查中展示了所提出的方案确实实验上收敛到一个有意义的固定点。当在DNN的学习过程中未施加所提出的约束时，实验观察到所提出的ADMM算法无法收敛。",
+    "tldr": "本研究通过将模型驱动的变分重建与独立学习的深度神经网络操作符结合，提出了一种基于ADMM插入法的混合PET重建算法，并在实验中验证了其收敛性。"
+}

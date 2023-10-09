@@ -1,0 +1,12 @@
+{
+    "title": "A Simple Illustration of Interleaved Learning using Kalman Filter for Linear Least Squares. (arXiv:2310.03751v1 [eess.SP])",
+    "abstract": "Interleaved learning in machine learning algorithms is a biologically inspired training method with promising results. In this short note, we illustrate the interleaving mechanism via a simple statistical and optimization framework based on Kalman Filter for Linear Least Squares.",
+    "link": "http://arxiv.org/abs/2310.03751",
+    "context": "Title: A Simple Illustration of Interleaved Learning using Kalman Filter for Linear Least Squares. (arXiv:2310.03751v1 [eess.SP])\nAbstract: Interleaved learning in machine learning algorithms is a biologically inspired training method with promising results. In this short note, we illustrate the interleaving mechanism via a simple statistical and optimization framework based on Kalman Filter for Linear Least Squares.",
+    "path": "papers/23/10/2310.03751.json",
+    "total_tokens": 521,
+    "translated_title": "线性最小二乘问题中使用卡尔曼滤波器进行交叉学习的简单示例",
+    "translated_abstract": "交叉学习是一种受生物启发的训练方法，在机器学习算法中有着很好的结果。在这个简短的说明中，我们通过基于卡尔曼滤波器和线性最小二乘法的简单统计和优化框架，来演示交叉学习的机制。",
+    "tldr": "本论文通过使用卡尔曼滤波器和线性最小二乘法的简单框架，演示了交叉学习的机制。",
+    "en_tdlr": "This paper illustrates the mechanism of interleaved learning using a simple framework based on Kalman Filter and linear least squares."
+}

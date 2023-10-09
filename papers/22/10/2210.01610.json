@@ -1,0 +1,11 @@
+{
+    "title": "Exit game with private information. (arXiv:2210.01610v2 [math.OC] UPDATED)",
+    "abstract": "The timing of strategic exit is one of the most important but difficult business decisions, especially under competition and uncertainty. Motivated by this problem, we examine a stochastic game of exit in which players are uncertain about their competitor's exit value. We construct an equilibrium for a large class of payoff flows driven by a general one-dimensional diffusion. In the equilibrium, the players employ sophisticated exit strategies involving both the state variable and the posterior belief process. These strategies are specified explicitly in terms of the problem data and a solution to an auxiliary optimal stopping problem. The equilibrium we obtain is further shown to be unique within a wide subclass of symmetric Bayesian equilibria.",
+    "link": "http://arxiv.org/abs/2210.01610",
+    "context": "Title: Exit game with private information. (arXiv:2210.01610v2 [math.OC] UPDATED)\nAbstract: The timing of strategic exit is one of the most important but difficult business decisions, especially under competition and uncertainty. Motivated by this problem, we examine a stochastic game of exit in which players are uncertain about their competitor's exit value. We construct an equilibrium for a large class of payoff flows driven by a general one-dimensional diffusion. In the equilibrium, the players employ sophisticated exit strategies involving both the state variable and the posterior belief process. These strategies are specified explicitly in terms of the problem data and a solution to an auxiliary optimal stopping problem. The equilibrium we obtain is further shown to be unique within a wide subclass of symmetric Bayesian equilibria.",
+    "path": "papers/22/10/2210.01610.json",
+    "total_tokens": 779,
+    "translated_title": "具有私人信息的退出游戏",
+    "translated_abstract": "确定退出时机是一项重要但困难的商业决策，尤其是在竞争与不确定性之下。受到这个问题的启发，我们研究了一种退出的随机游戏，其中玩家对竞争对手的退出价值存在不确定性。我们构建了一种均衡解，适用于受一维扩散驱动的大类支付流。在均衡中，玩家采用复杂的退出策略，涉及状态变量和后验信念过程。这些策略可以明确地用问题数据和辅助最优停止问题的解来表示。我们得到的均衡被进一步证明在一类对称贝叶斯均衡中是唯一的。",
+    "tldr": "这篇论文研究了一个具有竞争和不确定性的退出随机游戏，在其中玩家通过使用状态变量和后验信念过程的复杂退出策略来确定退出时机，并构建了一种均衡解。这种均衡解在一类对称贝叶斯均衡中是唯一的。"
+}

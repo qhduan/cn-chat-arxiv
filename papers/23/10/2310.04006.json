@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating optimization over the space of probability measures. (arXiv:2310.04006v1 [math.OC])",
+    "abstract": "Acceleration of gradient-based optimization methods is an issue of significant practical and theoretical interest, particularly in machine learning applications. Most research has focused on optimization over Euclidean spaces, but given the need to optimize over spaces of probability measures in many machine learning problems, it is of interest to investigate accelerated gradient methods in this context too. To this end, we introduce a Hamiltonian-flow approach that is analogous to moment-based approaches in Euclidean space. We demonstrate that algorithms based on this approach can achieve convergence rates of arbitrarily high order. Numerical examples illustrate our claim.",
+    "link": "http://arxiv.org/abs/2310.04006",
+    "context": "Title: Accelerating optimization over the space of probability measures. (arXiv:2310.04006v1 [math.OC])\nAbstract: Acceleration of gradient-based optimization methods is an issue of significant practical and theoretical interest, particularly in machine learning applications. Most research has focused on optimization over Euclidean spaces, but given the need to optimize over spaces of probability measures in many machine learning problems, it is of interest to investigate accelerated gradient methods in this context too. To this end, we introduce a Hamiltonian-flow approach that is analogous to moment-based approaches in Euclidean space. We demonstrate that algorithms based on this approach can achieve convergence rates of arbitrarily high order. Numerical examples illustrate our claim.",
+    "path": "papers/23/10/2310.04006.json",
+    "total_tokens": 710,
+    "translated_title": "在概率测度空间中加速优化",
+    "translated_abstract": "梯度优化方法的加速是一个非常实用和理论上有意义的问题，特别是在机器学习应用中。大多数研究都集中在欧几里得空间的优化上，但考虑到在许多机器学习问题中需要在概率测度空间上进行优化，研究这种情况下的加速梯度方法是很有意义的。为此，我们引入了一种类似于欧几里得空间中基于矩方法的哈密顿流方法。我们证明了基于这种方法的算法可以达到任意高阶的收敛速度。数值实例证明了我们的论断。",
+    "tldr": "本研究研究了在概率测度空间中加速优化的问题，提出了一种类似于欧几里得空间中基于矩方法的哈密顿流方法，并证明了其可以达到任意高阶的收敛速度。",
+    "en_tdlr": "This research investigates the acceleration of optimization over the space of probability measures, proposes a Hamiltonian-flow approach analogous to moment-based approaches in Euclidean space, and demonstrates that algorithms based on this approach can achieve convergence rates of arbitrarily high order."
+}

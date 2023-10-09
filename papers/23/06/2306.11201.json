@@ -1,0 +1,11 @@
+{
+    "title": "Adaptive Federated Learning with Auto-Tuned Clients. (arXiv:2306.11201v2 [cs.LG] UPDATED)",
+    "abstract": "Federated learning (FL) is a distributed machine learning framework where the global model of a central server is trained via multiple collaborative steps by participating clients without sharing their data. While being a flexible framework, where the distribution of local data, participation rate, and computing power of each client can greatly vary, such flexibility gives rise to many new challenges, especially in the hyperparameter tuning on the client side. We propose $\\Delta$-SGD, a simple step size rule for SGD that enables each client to use its own step size by adapting to the local smoothness of the function each client is optimizing. We provide theoretical and empirical results where the benefit of the client adaptivity is shown in various FL scenarios.",
+    "link": "http://arxiv.org/abs/2306.11201",
+    "context": "Title: Adaptive Federated Learning with Auto-Tuned Clients. (arXiv:2306.11201v2 [cs.LG] UPDATED)\nAbstract: Federated learning (FL) is a distributed machine learning framework where the global model of a central server is trained via multiple collaborative steps by participating clients without sharing their data. While being a flexible framework, where the distribution of local data, participation rate, and computing power of each client can greatly vary, such flexibility gives rise to many new challenges, especially in the hyperparameter tuning on the client side. We propose $\\Delta$-SGD, a simple step size rule for SGD that enables each client to use its own step size by adapting to the local smoothness of the function each client is optimizing. We provide theoretical and empirical results where the benefit of the client adaptivity is shown in various FL scenarios.",
+    "path": "papers/23/06/2306.11201.json",
+    "total_tokens": 795,
+    "translated_title": "自适应带有自动调整客户端的联邦学习",
+    "translated_abstract": "联邦学习（FL）是一种分布式机器学习框架，通过参与的客户端在不共享数据的情况下，通过多次协作步骤训练中央服务器的全局模型。虽然FL是一个灵活的框架，其中本地数据的分布、参与率和每个客户端的计算能力可能大大变化，但这种灵活性也带来了许多新的挑战，特别是在客户端的超参数调整方面。我们提出了$\\Delta$-SGD，这是一种简单的SGD步长规则，使每个客户端能够通过适应该客户端正在优化的函数的局部平滑性来使用自己的步长。我们提供了理论和实证结果，展示了客户端适应性在各种FL场景中的好处。",
+    "tldr": "本研究提出了一种自适应的联邦学习方法，其中包括了自动调整客户端的步长规则。实证结果表明，这种方法在各种联邦学习场景中具有显著的优势。"
+}

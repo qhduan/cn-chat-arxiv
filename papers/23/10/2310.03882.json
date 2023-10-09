@@ -1,0 +1,12 @@
+{
+    "title": "Small batch deep reinforcement learning. (arXiv:2310.03882v1 [cs.LG])",
+    "abstract": "In value-based deep reinforcement learning with replay memories, the batch size parameter specifies how many transitions to sample for each gradient update. Although critical to the learning process, this value is typically not adjusted when proposing new algorithms. In this work we present a broad empirical study that suggests {\\em reducing} the batch size can result in a number of significant performance gains; this is surprising, as the general tendency when training neural networks is towards larger batch sizes for improved performance. We complement our experimental findings with a set of empirical analyses towards better understanding this phenomenon.",
+    "link": "http://arxiv.org/abs/2310.03882",
+    "context": "Title: Small batch deep reinforcement learning. (arXiv:2310.03882v1 [cs.LG])\nAbstract: In value-based deep reinforcement learning with replay memories, the batch size parameter specifies how many transitions to sample for each gradient update. Although critical to the learning process, this value is typically not adjusted when proposing new algorithms. In this work we present a broad empirical study that suggests {\\em reducing} the batch size can result in a number of significant performance gains; this is surprising, as the general tendency when training neural networks is towards larger batch sizes for improved performance. We complement our experimental findings with a set of empirical analyses towards better understanding this phenomenon.",
+    "path": "papers/23/10/2310.03882.json",
+    "total_tokens": 671,
+    "translated_title": "小批量深度强化学习",
+    "translated_abstract": "在基于价值的深度强化学习中，批量大小参数指定每次梯度更新要采样的转换数量。虽然这个值对学习过程至关重要，但通常在提出新算法时不会进行调整。本研究通过广泛的实证研究表明，将批量大小减小可以产生多个显著性能提升；这一点令人惊讶，因为在训练神经网络时，通常倾向于使用较大的批量大小以改善性能。我们还通过一系列实证分析来更好地理解这一现象。",
+    "tldr": "小批量深度强化学习中，研究发现将批量大小减小可以产生显著性能提升，并进行了实证分析以更好地理解这一现象。",
+    "en_tdlr": "In small batch deep reinforcement learning, reducing the batch size can lead to significant performance improvements, contrary to the general tendency of using larger batch sizes in training neural networks. This empirical study provides insights and analysis to better understand this phenomenon."
+}
