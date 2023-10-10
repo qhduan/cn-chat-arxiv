@@ -101,12 +101,13 @@
 | [^97] | [PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue.](http://arxiv.org/abs/2302.06674) | PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。 |
 | [^98] | [Towards Inferential Reproducibility of Machine Learning Research.](http://arxiv.org/abs/2302.04054) | 本研究提出利用线性混合效应模型（LMEM）来分析机器学习性能评估分数，并考虑多个方差来源及其与数据特性相互作用，从而评估可靠性和可复制性，促进对机器学习算法行为的更全面理解。 |
 | [^99] | [On the Inconsistencies of Conditionals Learned by Masked Language Models.](http://arxiv.org/abs/2301.00068) | 本论文研究发现，遮蔽语言模型学习的条件句往往存在着不一致性，无法从一个连贯的联合分布中推导出来。我们通过实证发现这种不一致性普遍存在于不同尺寸和配置的遮蔽语言模型中。为了解决这个问题，我们提出了条件句集合方法来在推断阶段处理不一致性。 |
-| [^100] | [Semantic Similarity Models for Depression Severity Estimation.](http://arxiv.org/abs/2211.07624) | 本研究提出了一种基于社交媒体文本的语义流程，并使用不同的聚合方法对抑郁症严重程度进行估计。在Reddit上的两个基准测试中，我们的方法达到了30％的准确率。 |
-| [^101] | [Large Language Models Meet Harry Potter: A Bilingual Dataset for Aligning Dialogue Agents with Characters.](http://arxiv.org/abs/2211.06869) | 这个论文介绍了一个名为哈利·波特对话（HPD）的数据集，用于研究对话代理和角色对齐。该数据集包含了哈利·波特系列的对话场景，并注释了对话背景信息、说话者、角色关系和属性。通过在HPD上对大型语言模型进行评估，可以推动对话代理的发展，并提供一个通用基准来评估大型语言模型与特定角色对齐的能力。 |
-| [^102] | [Small-Text: Active Learning for Text Classification in Python.](http://arxiv.org/abs/2107.10314) | Small-Text是一个Python中的易于使用的主动学习库，用于文本分类，它集成了多种先进的查询策略和著名的机器学习库，支持单标签和多标签分类。研究者使用该库调研了最新的SetFit训练范式的性能，并与传统方法进行了比较。 |
-| [^103] | [Defending Against Backdoor Attacks in Natural Language Generation.](http://arxiv.org/abs/2106.01810) | 本研究通过形式化的定义，研究了后门攻击对自然语言生成模型的影响，并设计了针对这些攻击的防御策略。测试生成目标给定源的反向概率可以有效防御各种攻击类型，并解决了在对话生成等自然语言生成任务中的“一对多”问题。 |
-| [^104] | [GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph.](http://arxiv.org/abs/2105.02605) | GraphFormers是一种将GNN嵌套到Transformer中的方法，通过迭代式的工作流程，准确理解文本图中每个节点的语义，同时引入渐进式学习加速训练。 |
-| [^105] | [On migration to Perpetual Enterprise System.](http://arxiv.org/abs/2104.04844) | 本研究提出了一种实际的方法，用于将组织的计算系统迁移到一个可以永久演进且整合整个组织的新系统，强调治理和技术两个方面的重要性。 |
+| [^100] | [Model Extraction Attack against Self-supervised Speech Models.](http://arxiv.org/abs/2211.16044) | 本研究针对自监督语音模型提出了一种模型提取攻击方法，通过仅使用少量查询访问，可以窃取目标模型的功能。通过两个阶段的框架，我们可以在大规模未标注语料库上进行自监督预训练，然后使用主动抽样和查询的方式提取目标模型，而无需了解其模型架构。 |
+| [^101] | [Semantic Similarity Models for Depression Severity Estimation.](http://arxiv.org/abs/2211.07624) | 本研究提出了一种基于社交媒体文本的语义流程，并使用不同的聚合方法对抑郁症严重程度进行估计。在Reddit上的两个基准测试中，我们的方法达到了30％的准确率。 |
+| [^102] | [Large Language Models Meet Harry Potter: A Bilingual Dataset for Aligning Dialogue Agents with Characters.](http://arxiv.org/abs/2211.06869) | 这个论文介绍了一个名为哈利·波特对话（HPD）的数据集，用于研究对话代理和角色对齐。该数据集包含了哈利·波特系列的对话场景，并注释了对话背景信息、说话者、角色关系和属性。通过在HPD上对大型语言模型进行评估，可以推动对话代理的发展，并提供一个通用基准来评估大型语言模型与特定角色对齐的能力。 |
+| [^103] | [Small-Text: Active Learning for Text Classification in Python.](http://arxiv.org/abs/2107.10314) | Small-Text是一个Python中的易于使用的主动学习库，用于文本分类，它集成了多种先进的查询策略和著名的机器学习库，支持单标签和多标签分类。研究者使用该库调研了最新的SetFit训练范式的性能，并与传统方法进行了比较。 |
+| [^104] | [Defending Against Backdoor Attacks in Natural Language Generation.](http://arxiv.org/abs/2106.01810) | 本研究通过形式化的定义，研究了后门攻击对自然语言生成模型的影响，并设计了针对这些攻击的防御策略。测试生成目标给定源的反向概率可以有效防御各种攻击类型，并解决了在对话生成等自然语言生成任务中的“一对多”问题。 |
+| [^105] | [GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph.](http://arxiv.org/abs/2105.02605) | GraphFormers是一种将GNN嵌套到Transformer中的方法，通过迭代式的工作流程，准确理解文本图中每个节点的语义，同时引入渐进式学习加速训练。 |
+| [^106] | [On migration to Perpetual Enterprise System.](http://arxiv.org/abs/2104.04844) | 本研究提出了一种实际的方法，用于将组织的计算系统迁移到一个可以永久演进且整合整个组织的新系统，强调治理和技术两个方面的重要性。 |
 
 # 详细
 
@@ -1496,7 +1497,21 @@
 
     Learning to predict masked tokens in a sequence has been shown to be a powerful pretraining objective for large language models. After training, such masked language models can provide distributions of tokens conditioned on bidirectional context.  In this paper, we show that contrary to popular assumptions, such bidirectional conditionals often demonstrate considerable inconsistencies, i.e., they cannot be derived from a coherent joint distribution when considered together. We empirically quantify such inconsistencies in the simple scenario of bigram comparison for two common styles of masked language models: T5-style and BERT-style. For example, we show that T5 models often confuse their own preference regarding two similar bigrams. We show that inconsistencies exist ubiquitously in masked language models of diverse sizes and configurations, from RoBERTa-base to GLM-130B.  As an initial attempt to address this issue during the inference phase, we propose Ensemble of Conditionals, a se
     
-[^100]: 用于抑郁症严重程度估计的语义相似性模型
+[^100]: 针对自监督语音模型的模型提取攻击
+
+    Model Extraction Attack against Self-supervised Speech Models. (arXiv:2211.16044v2 [cs.SD] UPDATED)
+
+    [http://arxiv.org/abs/2211.16044](http://arxiv.org/abs/2211.16044)
+
+    本研究针对自监督语音模型提出了一种模型提取攻击方法，通过仅使用少量查询访问，可以窃取目标模型的功能。通过两个阶段的框架，我们可以在大规模未标注语料库上进行自监督预训练，然后使用主动抽样和查询的方式提取目标模型，而无需了解其模型架构。
+
+    
+
+    自监督学习（SSL）语音模型能够生成给定片段的有意义表示，并在各种下游任务中取得令人难以置信的性能。模型提取攻击（MEA）通常指的是攻击者仅通过查询访问就能窃取受害模型的功能。在本研究中，我们研究了在仅有少量查询的情况下针对SSL语音模型的MEA问题。我们提出了一个两阶段的框架来提取模型。在第一阶段，我们对大规模未标注语料库进行SSL预训练，得到一个小的语音模型。然后，我们主动从未标注语料库中抽样一小部分片段，并用这些片段向目标模型进行查询，以获得它们的表示作为小模型第二阶段训练的标签。实验结果表明，我们的抽样方法可以有效提取目标模型，而无需知道其任何有关模型架构的信息。
+
+    Self-supervised learning (SSL) speech models generate meaningful representations of given clips and achieve incredible performance across various downstream tasks. Model extraction attack (MEA) often refers to an adversary stealing the functionality of the victim model with only query access. In this work, we study the MEA problem against SSL speech model with a small number of queries. We propose a two-stage framework to extract the model. In the first stage, SSL is conducted on the large-scale unlabeled corpus to pre-train a small speech model. Secondly, we actively sample a small portion of clips from the unlabeled corpus and query the target model with these clips to acquire their representations as labels for the small model's second-stage training. Experiment results show that our sampling methods can effectively extract the target model without knowing any information about its model architecture.
+    
+[^101]: 用于抑郁症严重程度估计的语义相似性模型
 
     Semantic Similarity Models for Depression Severity Estimation. (arXiv:2211.07624v2 [cs.CL] UPDATED)
 
@@ -1510,7 +1525,7 @@
 
     Depressive disorders constitute a severe public health issue worldwide. However, public health systems have limited capacity for case detection and diagnosis. In this regard, the widespread use of social media has opened up a way to access public information on a large scale. Computational methods can serve as support tools for rapid screening by exploiting this user-generated social media content. This paper presents an efficient semantic pipeline to study depression severity in individuals based on their social media writings. We select test user sentences for producing semantic rankings over an index of representative training sentences corresponding to depressive symptoms and severity levels. Then, we use the sentences from those results as evidence for predicting users' symptom severity. For that, we explore different aggregation methods to answer one of four Beck Depression Inventory (BDI) options per symptom. We evaluate our methods on two Reddit-based benchmarks, achieving 30\%
     
-[^101]: 大型语言模型与哈利·波特相遇：用于与角色对齐的双语数据集
+[^102]: 大型语言模型与哈利·波特相遇：用于与角色对齐的双语数据集
 
     Large Language Models Meet Harry Potter: A Bilingual Dataset for Aligning Dialogue Agents with Characters. (arXiv:2211.06869v4 [cs.CL] UPDATED)
 
@@ -1524,7 +1539,7 @@
 
     In recent years, Dialogue-style Large Language Models (LLMs) such as ChatGPT and GPT4 have demonstrated immense potential in constructing open-domain dialogue agents. However, aligning these agents with specific characters or individuals remains a considerable challenge due to the complexities of character representation and the lack of comprehensive annotations. In this paper, we introduce the Harry Potter Dialogue (HPD) dataset, designed to advance the study of dialogue agents and character alignment. The dataset encompasses all dialogue sessions (in both English and Chinese) from the Harry Potter series and is annotated with vital background information, including dialogue scenes, speakers, character relationships, and attributes. These extensive annotations may empower LLMs to unlock character-driven dialogue capabilities. Furthermore, it can serve as a universal benchmark for evaluating how well can a LLM aligning with a specific character. We benchmark LLMs on HPD using both fine
     
-[^102]: Small-Text: Python中的文本分类主动学习
+[^103]: Small-Text: Python中的文本分类主动学习
 
     Small-Text: Active Learning for Text Classification in Python. (arXiv:2107.10314v7 [cs.LG] UPDATED)
 
@@ -1538,7 +1553,7 @@
 
     We introduce small-text, an easy-to-use active learning library, which offers pool-based active learning for single- and multi-label text classification in Python. It features numerous pre-implemented state-of-the-art query strategies, including some that leverage the GPU. Standardized interfaces allow the combination of a variety of classifiers, query strategies, and stopping criteria, facilitating a quick mix and match, and enabling a rapid and convenient development of both active learning experiments and applications. With the objective of making various classifiers and query strategies accessible for active learning, small-text integrates several well-known machine learning libraries, namely scikit-learn, PyTorch, and Hugging Face transformers. The latter integrations are optionally installable extensions, so GPUs can be used but are not required. Using this new library, we investigate the performance of the recently published SetFit training paradigm, which we compare to vanilla 
     
-[^103]: 防御自然语言生成中的后门攻击
+[^104]: 防御自然语言生成中的后门攻击
 
     Defending Against Backdoor Attacks in Natural Language Generation. (arXiv:2106.01810v3 [cs.CL] UPDATED)
 
@@ -1552,7 +1567,7 @@
 
     The frustratingly fragile nature of neural network models make current natural language generation (NLG) systems prone to backdoor attacks and generate malicious sequences that could be sexist or offensive. Unfortunately, little effort has been invested to how backdoor attacks can affect current NLG models and how to defend against these attacks. In this work, by giving a formal definition of backdoor attack and defense, we investigate this problem on two important NLG tasks, machine translation and dialog generation. Tailored to the inherent nature of NLG models (e.g., producing a sequence of coherent words given contexts), we design defending strategies against attacks. We find that testing the backward probability of generating sources given targets yields effective defense performance against all different types of attacks, and is able to handle the {\it one-to-many} issue in many NLG tasks such as dialog generation. We hope that this work can raise the awareness of backdoor risks 
     
-[^104]: GraphFormers: GNN嵌套Transformer用于文本图的表示学习
+[^105]: GraphFormers: GNN嵌套Transformer用于文本图的表示学习
 
     GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph. (arXiv:2105.02605v3 [cs.CL] UPDATED)
 
@@ -1566,7 +1581,7 @@
 
     The representation learning on textual graph is to generate low-dimensional embeddings for the nodes based on the individual textual features and the neighbourhood information. Recent breakthroughs on pretrained language models and graph neural networks push forward the development of corresponding techniques. The existing works mainly rely on the cascaded model architecture: the textual features of nodes are independently encoded by language models at first; the textual embeddings are aggregated by graph neural networks afterwards. However, the above architecture is limited due to the independent modeling of textual features. In this work, we propose GraphFormers, where layerwise GNN components are nested alongside the transformer blocks of language models. With the proposed architecture, the text encoding and the graph aggregation are fused into an iterative workflow, {making} each node's semantic accurately comprehended from the global perspective. In addition, a {progressive} learn
     
-[^105]: 关于迁移到永续企业系统的研究
+[^106]: 关于迁移到永续企业系统的研究
 
     On migration to Perpetual Enterprise System. (arXiv:2104.04844v4 [cs.SE] UPDATED)
 

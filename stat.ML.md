@@ -69,18 +69,19 @@
 | [^65] | [Towards Inferential Reproducibility of Machine Learning Research.](http://arxiv.org/abs/2302.04054) | 本研究提出利用线性混合效应模型（LMEM）来分析机器学习性能评估分数，并考虑多个方差来源及其与数据特性相互作用，从而评估可靠性和可复制性，促进对机器学习算法行为的更全面理解。 |
 | [^66] | [Simplex Random Features.](http://arxiv.org/abs/2301.13856) | Simplex随机特征（SimRFs）是一种新的随机特征机制，通过几何相关性来无偏估计softmax和高斯核。在权重无关的几何相关正随机特征机制类中，SimRFs提供了最小可能的均方误差，并且在没有额外成本的情况下明显优于先前最准确的正交随机特征。在实证研究中，SimRFs在多个领域中表现出一致的收益。 |
 | [^67] | [Robust convex biclustering with a tuning-free method.](http://arxiv.org/abs/2212.03122) | 本文提出了一个鲁棒的凸二聚类算法，使用了无需调参的方法，该算法在面对重尾数据时表现出更好的性能。 |
-| [^68] | [FaiREE: Fair Classification with Finite-Sample and Distribution-Free Guarantee.](http://arxiv.org/abs/2211.15072) | 本研究提出了FaiREE算法，它是一种可满足群体公平性约束的公平分类算法，并且具有有限样本和无分布理论保证。在实验中表现优异。 |
-| [^69] | [Probability-Dependent Gradient Decay in Large Margin Softmax.](http://arxiv.org/abs/2210.17145) | 本文研究了在神经网络中的Softmax组件中引入梯度衰减超参数的作用，并发现泛化性能与梯度衰减率显著相关。此外，采用较小的梯度衰减的优化方法类似于课程学习序列，使得困难样本在易样本确信之后得到关注。大边际Softmax会影响局部Lipschitz约束。 |
-| [^70] | [Self-supervised debiasing using low rank regularization.](http://arxiv.org/abs/2210.05248) | 本研究通过对潜在表示的谱分析发现，虚假相关属性会导致深度神经网络偏向编码较低有效秩的表示。在此基础上，提出了一种自监督的去偏框架，通过秩正则化预训练有偏编码器来学习虚假相关属性。 |
-| [^71] | [Design of the topology for contrastive visual-textual alignment.](http://arxiv.org/abs/2209.02127) | 对比视觉-文本对齐学习中，我们讨论了softmax温度参数的作用，并提出了一种新的嵌入对齐拓扑设计。采用这种设计可以显著提高零-shot学习的性能。 |
-| [^72] | [On Transfer of Adversarial Robustness from Pretraining to Downstream Tasks.](http://arxiv.org/abs/2208.03835) | 本研究证明了无论预训练采用何种协议，线性预测器在下游任务中的鲁棒性受其基础表示鲁棒性的限制。我们提出了损失上界和鲁棒分类准则，并在实际应用中验证了这些理论结果。 |
-| [^73] | [A general framework for multi-step ahead adaptive conformal heteroscedastic time series forecasting.](http://arxiv.org/abs/2207.14219) | 本文介绍了一种名为AEnbMIMOCQR的新颖算法，通过自适应集成的方式，在不需要数据拆分的情况下，以分布无关的方式生成多步鲍型预测区间。该方法考虑了异方差性，并对分布转变具有鲁棒性，在实验中表现优于其他竞争方法。 |
-| [^74] | [Randomly Initialized One-Layer Neural Networks Make Data Linearly Separable.](http://arxiv.org/abs/2205.11716) | 随机初始化的单层神经网络可以将两个集合转化为线性可分的集合，而无需训练，具有计算效率高的优点。 |
-| [^75] | [Finding Safe Zones of policies Markov Decision Processes.](http://arxiv.org/abs/2202.11593) | 这篇论文研究了寻找策略的马尔可夫决策过程的安全区域的复杂性，提出了一个双准则逼近学习算法，可以近似计算出逃逸概率和安全区域大小。 |
-| [^76] | [Confidence intervals for the Cox model test error from cross-validation.](http://arxiv.org/abs/2201.10770) | 本文研究了交叉验证中Cox模型测试误差的置信区间问题，发现传统方法可能低估置信区间，并提出使用嵌套交叉验证方法解决这个问题，实现更准确的置信区间估计。 |
-| [^77] | [Modern Non-Linear Function-on-Function Regression.](http://arxiv.org/abs/2107.14151) | 本研究提出一种利用神经网络分析功能数据的新型非线性函数回归模型，通过连续隐藏层实现对功能响应建模，并提供了两种模型拟合策略（FDNN和FBNN），并通过正则化技术得到更加简明的结果。 |
-| [^78] | [Unlabeled Principal Component Analysis and Matrix Completion.](http://arxiv.org/abs/2101.09446) | 本文引入了一种称为未标记主成分分析（UPCA）的方法，通过代数几何证明了其是一个良定义的代数问题，并提出了一个两阶段算法流程来应对被置换的数据，同时解决了无标记矩阵补全问题。 |
-| [^79] | [CrossQ: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity.](http://arxiv.org/abs/1902.05605) | CrossQ是一种轻量级算法，通过巧妙运用批归一化和删除目标网络的方式，提高了深度强化学习的样本效率，减少了计算成本，并且实施简单。 |
+| [^68] | [Estimating the minimizer and the minimum value of a regression function under passive design.](http://arxiv.org/abs/2211.16457) | 本论文提出了一种方法，可以在带有随机噪声的观测中估计回归函数的极小值点和最小值。方法基于投影梯度下降和非参数过程，通过推导上界和建立最小化下界证明了方法的渐进最优性。 |
+| [^69] | [FaiREE: Fair Classification with Finite-Sample and Distribution-Free Guarantee.](http://arxiv.org/abs/2211.15072) | 本研究提出了FaiREE算法，它是一种可满足群体公平性约束的公平分类算法，并且具有有限样本和无分布理论保证。在实验中表现优异。 |
+| [^70] | [Probability-Dependent Gradient Decay in Large Margin Softmax.](http://arxiv.org/abs/2210.17145) | 本文研究了在神经网络中的Softmax组件中引入梯度衰减超参数的作用，并发现泛化性能与梯度衰减率显著相关。此外，采用较小的梯度衰减的优化方法类似于课程学习序列，使得困难样本在易样本确信之后得到关注。大边际Softmax会影响局部Lipschitz约束。 |
+| [^71] | [Self-supervised debiasing using low rank regularization.](http://arxiv.org/abs/2210.05248) | 本研究通过对潜在表示的谱分析发现，虚假相关属性会导致深度神经网络偏向编码较低有效秩的表示。在此基础上，提出了一种自监督的去偏框架，通过秩正则化预训练有偏编码器来学习虚假相关属性。 |
+| [^72] | [Design of the topology for contrastive visual-textual alignment.](http://arxiv.org/abs/2209.02127) | 对比视觉-文本对齐学习中，我们讨论了softmax温度参数的作用，并提出了一种新的嵌入对齐拓扑设计。采用这种设计可以显著提高零-shot学习的性能。 |
+| [^73] | [On Transfer of Adversarial Robustness from Pretraining to Downstream Tasks.](http://arxiv.org/abs/2208.03835) | 本研究证明了无论预训练采用何种协议，线性预测器在下游任务中的鲁棒性受其基础表示鲁棒性的限制。我们提出了损失上界和鲁棒分类准则，并在实际应用中验证了这些理论结果。 |
+| [^74] | [A general framework for multi-step ahead adaptive conformal heteroscedastic time series forecasting.](http://arxiv.org/abs/2207.14219) | 本文介绍了一种名为AEnbMIMOCQR的新颖算法，通过自适应集成的方式，在不需要数据拆分的情况下，以分布无关的方式生成多步鲍型预测区间。该方法考虑了异方差性，并对分布转变具有鲁棒性，在实验中表现优于其他竞争方法。 |
+| [^75] | [Randomly Initialized One-Layer Neural Networks Make Data Linearly Separable.](http://arxiv.org/abs/2205.11716) | 随机初始化的单层神经网络可以将两个集合转化为线性可分的集合，而无需训练，具有计算效率高的优点。 |
+| [^76] | [Finding Safe Zones of policies Markov Decision Processes.](http://arxiv.org/abs/2202.11593) | 这篇论文研究了寻找策略的马尔可夫决策过程的安全区域的复杂性，提出了一个双准则逼近学习算法，可以近似计算出逃逸概率和安全区域大小。 |
+| [^77] | [Confidence intervals for the Cox model test error from cross-validation.](http://arxiv.org/abs/2201.10770) | 本文研究了交叉验证中Cox模型测试误差的置信区间问题，发现传统方法可能低估置信区间，并提出使用嵌套交叉验证方法解决这个问题，实现更准确的置信区间估计。 |
+| [^78] | [Modern Non-Linear Function-on-Function Regression.](http://arxiv.org/abs/2107.14151) | 本研究提出一种利用神经网络分析功能数据的新型非线性函数回归模型，通过连续隐藏层实现对功能响应建模，并提供了两种模型拟合策略（FDNN和FBNN），并通过正则化技术得到更加简明的结果。 |
+| [^79] | [Unlabeled Principal Component Analysis and Matrix Completion.](http://arxiv.org/abs/2101.09446) | 本文引入了一种称为未标记主成分分析（UPCA）的方法，通过代数几何证明了其是一个良定义的代数问题，并提出了一个两阶段算法流程来应对被置换的数据，同时解决了无标记矩阵补全问题。 |
+| [^80] | [CrossQ: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity.](http://arxiv.org/abs/1902.05605) | CrossQ是一种轻量级算法，通过巧妙运用批归一化和删除目标网络的方式，提高了深度强化学习的样本效率，减少了计算成本，并且实施简单。 |
 
 # 详细
 
@@ -1022,7 +1023,21 @@
 
     Biclustering is widely used in different kinds of fields including gene information analysis, text mining, and recommendation system by effectively discovering the local correlation between samples and features. However, many biclustering algorithms will collapse when facing heavy-tailed data. In this paper, we propose a robust version of convex biclustering algorithm with Huber loss. Yet, the newly introduced robustification parameter brings an extra burden to selecting the optimal parameters. Therefore, we propose a tuning-free method for automatically selecting the optimal robustification parameter with high efficiency. The simulation study demonstrates the more fabulous performance of our proposed method than traditional biclustering methods when encountering heavy-tailed noise. A real-life biomedical application is also presented. The R package RcvxBiclustr is available at https://github.com/YifanChen3/RcvxBiclustr.
     
-[^68]: FaiREE：具有有限样本和无分布保证的公平分类算法
+[^68]: 估计在被动设计下回归函数的极小值点和最小值
+
+    Estimating the minimizer and the minimum value of a regression function under passive design. (arXiv:2211.16457v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2211.16457](http://arxiv.org/abs/2211.16457)
+
+    本论文提出了一种方法，可以在带有随机噪声的观测中估计回归函数的极小值点和最小值。方法基于投影梯度下降和非参数过程，通过推导上界和建立最小化下界证明了方法的渐进最优性。
+
+    
+
+    我们提出了一种新的方法，用于从带有随机噪声的观测中估计一个平滑且强凸的回归函数$f$的极小值点$x^*$和最小值$f^*$。我们的估计器$z_n$基于一个投影梯度下降的版本，并使用通过正则化局部多项式算法估计的梯度。接下来，我们提出了一个两阶段的估计过程，用于估计回归函数$f$的最小值$f^*$。在第一阶段，我们构建了一个足够准确的$x^*$的估计器，可以是$z_n$。在第二阶段，我们使用一个速率最优的非参数过程来估计在第一阶段得到的点的函数值。我们推导了$z_n$的二次风险和优化误差的非渐进上界，以及估计$f^*$的风险的非渐进上界。我们建立了最小化下界，证明在某些选择下，这些上界是渐进最优的。
+
+    We propose a new method for estimating the minimizer $\boldsymbol{x}^*$ and the minimum value $f^*$ of a smooth and strongly convex regression function $f$ from the observations contaminated by random noise. Our estimator $\boldsymbol{z}_n$ of the minimizer $\boldsymbol{x}^*$ is based on a version of the projected gradient descent with the gradient estimated by a regularized local polynomial algorithm. Next, we propose a two-stage procedure for estimation of the minimum value $f^*$ of regression function $f$. At the first stage, we construct an accurate enough estimator of $\boldsymbol{x}^*$, which can be, for example, $\boldsymbol{z}_n$. At the second stage, we estimate the function value at the point obtained in the first stage using a rate optimal nonparametric procedure. We derive non-asymptotic upper bounds for the quadratic risk and optimization error of $\boldsymbol{z}_n$, and for the risk of estimating $f^*$. We establish minimax lower bounds showing that, under certain choice 
+    
+[^69]: FaiREE：具有有限样本和无分布保证的公平分类算法
 
     FaiREE: Fair Classification with Finite-Sample and Distribution-Free Guarantee. (arXiv:2211.15072v2 [stat.ML] UPDATED)
 
@@ -1036,7 +1051,7 @@
 
     Algorithmic fairness plays an increasingly critical role in machine learning research. Several group fairness notions and algorithms have been proposed. However, the fairness guarantee of existing fair classification methods mainly depends on specific data distributional assumptions, often requiring large sample sizes, and fairness could be violated when there is a modest number of samples, which is often the case in practice. In this paper, we propose FaiREE, a fair classification algorithm that can satisfy group fairness constraints with finite-sample and distribution-free theoretical guarantees. FaiREE can be adapted to satisfy various group fairness notions (e.g., Equality of Opportunity, Equalized Odds, Demographic Parity, etc.) and achieve the optimal accuracy. These theoretical guarantees are further supported by experiments on both synthetic and real data. FaiREE is shown to have favorable performance over state-of-the-art algorithms.
     
-[^69]: 大边际Softmax中的概率相关梯度衰减
+[^70]: 大边际Softmax中的概率相关梯度衰减
 
     Probability-Dependent Gradient Decay in Large Margin Softmax. (arXiv:2210.17145v2 [stat.ML] UPDATED)
 
@@ -1050,7 +1065,7 @@
 
     In the past few years, Softmax has become a common component in neural network frameworks. In this paper, a gradient decay hyperparameter is introduced in Softmax to control the probability-dependent gradient decay rate during training. By following the theoretical analysis and empirical results of a variety of model architectures trained on MNIST, CIFAR-10/100 and SVHN, we find that the generalization performance depends significantly on the gradient decay rate as the confidence probability rises, i.e., the gradient decreases convexly or concavely as the sample probability increases. Moreover, optimization with the small gradient decay shows a similar curriculum learning sequence where hard samples are in the spotlight only after easy samples are convinced sufficiently, and well-separated samples gain a higher gradient to reduce intra-class distance. Based on the analysis results, we can provide evidence that the large margin Softmax will affect the local Lipschitz constraint of the l
     
-[^70]: 自监督的低秩正则化去偏方法
+[^71]: 自监督的低秩正则化去偏方法
 
     Self-supervised debiasing using low rank regularization. (arXiv:2210.05248v2 [cs.LG] UPDATED)
 
@@ -1064,7 +1079,7 @@
 
     Spurious correlations can cause strong biases in deep neural networks, impairing generalization ability. While most existing debiasing methods require full supervision on either spurious attributes or target labels, training a debiased model from a limited amount of both annotations is still an open question. To address this issue, we investigate an interesting phenomenon using the spectral analysis of latent representations: spuriously correlated attributes make neural networks inductively biased towards encoding lower effective rank representations. We also show that a rank regularization can amplify this bias in a way that encourages highly correlated features. Leveraging these findings, we propose a self-supervised debiasing framework potentially compatible with unlabeled samples. Specifically, we first pretrain a biased encoder in a self-supervised manner with the rank regularization, serving as a semantic bottleneck to enforce the encoder to learn the spuriously correlated attrib
     
-[^71]: 对比视觉-文本对齐拓扑设计
+[^72]: 对比视觉-文本对齐拓扑设计
 
     Design of the topology for contrastive visual-textual alignment. (arXiv:2209.02127v2 [cs.CV] UPDATED)
 
@@ -1078,7 +1093,7 @@
 
     Cosine similarity is the common choice for measuring the distance between the feature representations in contrastive visual-textual alignment learning. However, empirically a learnable softmax temperature parameter is required when learning on large-scale noisy training data. In this work, we first discuss the role of softmax temperature from the embedding space's topological properties. We argue that the softmax temperature is the key mechanism for contrastive learning on noisy training data. It acts as a scaling factor of the distance range (e.g. [-1, 1] for the cosine similarity), and its learned value indicates the level of noise in the training data. Then, we propose an alternative design of the topology for the embedding alignment. We make use of multiple class tokens in the transformer architecture; then map the feature representations onto an oblique manifold endowed with the negative inner product as the distance function. With this configuration, we largely improve the zero-s
     
-[^72]: 关于从预训练到下游任务的对抗鲁棒性转移
+[^73]: 关于从预训练到下游任务的对抗鲁棒性转移
 
     On Transfer of Adversarial Robustness from Pretraining to Downstream Tasks. (arXiv:2208.03835v2 [cs.LG] UPDATED)
 
@@ -1092,7 +1107,7 @@
 
     As large-scale training regimes have gained popularity, the use of pretrained models for downstream tasks has become common practice in machine learning. While pretraining has been shown to enhance the performance of models in practice, the transfer of robustness properties from pretraining to downstream tasks remains poorly understood. In this study, we demonstrate that the robustness of a linear predictor on downstream tasks can be constrained by the robustness of its underlying representation, regardless of the protocol used for pretraining. We prove (i) a bound on the loss that holds independent of any downstream task, as well as (ii) a criterion for robust classification in particular. We validate our theoretical results in practical applications, show how our results can be used for calibrating expectations of downstream robustness, and when our results are useful for optimal transfer learning. Taken together, our results offer an initial step towards characterizing the requireme
     
-[^73]: 一种用于多步鲍型自适应异方差时间序列预测的通用框架
+[^74]: 一种用于多步鲍型自适应异方差时间序列预测的通用框架
 
     A general framework for multi-step ahead adaptive conformal heteroscedastic time series forecasting. (arXiv:2207.14219v7 [stat.ML] UPDATED)
 
@@ -1106,7 +1121,7 @@
 
     This paper introduces a novel model-agnostic algorithm called adaptive ensemble batch multi-input multi-output conformalized quantile regression (AEnbMIMOCQR} that enables forecasters to generate multi-step ahead prediction intervals for a fixed pre-specified miscoverage rate in a distribution-free manner. Our method is grounded on conformal prediction principles, however, it does not require data splitting and provides close to exact coverage even when the data is not exchangeable. Moreover, the resulting prediction intervals, besides being empirically valid along the forecast horizon, do not neglect heteroscedasticity. AEnbMIMOCQR is designed to be robust to distribution shifts, which means that its prediction intervals remain reliable over an unlimited period of time, without entailing retraining or imposing unrealistic strict assumptions on the data-generating process. Through methodically experimentation, we demonstrate that our approach outperforms other competitive methods on bo
     
-[^74]: 随机初始化的单层神经网络能够使数据线性可分
+[^75]: 随机初始化的单层神经网络能够使数据线性可分
 
     Randomly Initialized One-Layer Neural Networks Make Data Linearly Separable. (arXiv:2205.11716v2 [cs.LG] UPDATED)
 
@@ -1120,7 +1135,7 @@
 
     Recently, neural networks have demonstrated remarkable capabilities in mapping two arbitrary sets to two linearly separable sets. The prospect of achieving this with randomly initialized neural networks is particularly appealing due to the computational efficiency compared to fully trained networks. This paper contributes by establishing that, given sufficient width, a randomly initialized one-layer neural network can, with high probability, transform two sets into two linearly separable sets without any training. Moreover, we furnish precise bounds on the necessary width of the neural network for this phenomenon to occur. Our initial bound exhibits exponential dependence on the input dimension while maintaining polynomial dependence on all other parameters. In contrast, our second bound is independent of input dimension, effectively surmounting the curse of dimensionality. The main tools used in our proof heavily relies on a fusion of geometric principles and concentration of random m
     
-[^75]: 寻找策略的马尔可夫决策过程的安全区域
+[^76]: 寻找策略的马尔可夫决策过程的安全区域
 
     Finding Safe Zones of policies Markov Decision Processes. (arXiv:2202.11593v2 [cs.LG] UPDATED)
 
@@ -1134,7 +1149,7 @@
 
     Given a policy of a Markov Decision Process, we define a SafeZone as a subset of states, such that most of the policy's trajectories are confined to this subset. The quality of a SafeZone is parameterized by the number of states and the escape probability, i.e., the probability that a random trajectory will leave the subset. SafeZones are especially interesting when they have a small number of states and low escape probability. We study the complexity of finding optimal SafeZones, and show that in general, the problem is computationally hard. Our main result is a bi-criteria approximation learning algorithm with a factor of almost $2$ approximation for both the escape probability and SafeZone size, using a polynomial size sample complexity.
     
-[^76]: 交叉验证中Cox模型测试误差的置信区间
+[^77]: 交叉验证中Cox模型测试误差的置信区间
 
     Confidence intervals for the Cox model test error from cross-validation. (arXiv:2201.10770v2 [stat.ME] UPDATED)
 
@@ -1148,7 +1163,7 @@
 
     Cross-validation (CV) is one of the most widely used techniques in statistical learning for estimating the test error of a model, but its behavior is not yet fully understood. It has been shown that standard confidence intervals for test error using estimates from CV may have coverage below nominal levels. This phenomenon occurs because each sample is used in both the training and testing procedures during CV and as a result, the CV estimates of the errors become correlated. Without accounting for this correlation, the estimate of the variance is smaller than it should be. One way to mitigate this issue is by estimating the mean squared error of the prediction error instead using nested CV. This approach has been shown to achieve superior coverage compared to intervals derived from standard CV. In this work, we generalize the nested CV idea to the Cox proportional hazards model and explore various choices of test error for this setting.
     
-[^77]: 现代非线性函数回归模型：使用神经网络分析功能数据
+[^78]: 现代非线性函数回归模型：使用神经网络分析功能数据
 
     Modern Non-Linear Function-on-Function Regression. (arXiv:2107.14151v1 [stat.ME] CROSS LISTED)
 
@@ -1162,7 +1177,7 @@
 
     We introduce a new class of non-linear function-on-function regression models for functional data using neural networks. We propose a framework using a hidden layer consisting of continuous neurons, called a continuous hidden layer, for functional response modeling and give two model fitting strategies, Functional Direct Neural Network (FDNN) and Functional Basis Neural Network (FBNN). Both are designed explicitly to exploit the structure inherent in functional data and capture the complex relations existing between the functional predictors and the functional response. We fit these models by deriving functional gradients and implement regularization techniques for more parsimonious results. We demonstrate the power and flexibility of our proposed method in handling complex functional models through extensive simulation studies as well as real data examples.
     
-[^78]: 未标记的主成分分析和矩阵补全
+[^79]: 未标记的主成分分析和矩阵补全
 
     Unlabeled Principal Component Analysis and Matrix Completion. (arXiv:2101.09446v2 [cs.LG] UPDATED)
 
@@ -1176,7 +1191,7 @@
 
     We introduce robust principal component analysis from a data matrix in which the entries of its columns have been corrupted by permutations, termed Unlabeled Principal Component Analysis (UPCA). Using algebraic geometry, we establish that UPCA is a well-defined algebraic problem in the sense that the only matrices of minimal rank that agree with the given data are row-permutations of the ground-truth matrix, arising as the unique solutions of a polynomial system of equations. Further, we propose an efficient two-stage algorithmic pipeline for UPCA suitable for the practically relevant case where only a fraction of the data have been permuted. Stage-I employs outlier-robust PCA methods to estimate the ground-truth column-space. Equipped with the column-space, Stage-II applies recent methods for unlabeled sensing to restore the permuted data. Allowing for missing entries on top of permutations in UPCA leads to the problem of unlabeled matrix completion, for which we derive theory and alg
     
-[^79]: CrossQ: 用于提高深度强化学习样本效率和简洁性的批归一化方法
+[^80]: CrossQ: 用于提高深度强化学习样本效率和简洁性的批归一化方法
 
     CrossQ: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity. (arXiv:1902.05605v3 [cs.LG] UPDATED)
 
