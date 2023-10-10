@@ -1,0 +1,12 @@
+{
+    "title": "Risk factor aggregation and stress testing. (arXiv:2310.04511v1 [q-fin.RM])",
+    "abstract": "Stress testing refers to the application of adverse financial or macroeconomic scenarios to a portfolio. For this purpose, financial or macroeconomic risk factors are linked with asset returns, typically via a factor model. We expand the range of risk factors by adapting dimension-reduction techniques from unsupervised learning, namely PCA and autoencoders. This results in aggregated risk factors, encompassing a global factor, factors representing broad geographical regions, and factors specific to cyclical and defensive industries. As the adapted PCA and autoencoders provide an interpretation of the latent factors, this methodology is also valuable in other areas where dimension-reduction and explainability are crucial.",
+    "link": "http://arxiv.org/abs/2310.04511",
+    "context": "Title: Risk factor aggregation and stress testing. (arXiv:2310.04511v1 [q-fin.RM])\nAbstract: Stress testing refers to the application of adverse financial or macroeconomic scenarios to a portfolio. For this purpose, financial or macroeconomic risk factors are linked with asset returns, typically via a factor model. We expand the range of risk factors by adapting dimension-reduction techniques from unsupervised learning, namely PCA and autoencoders. This results in aggregated risk factors, encompassing a global factor, factors representing broad geographical regions, and factors specific to cyclical and defensive industries. As the adapted PCA and autoencoders provide an interpretation of the latent factors, this methodology is also valuable in other areas where dimension-reduction and explainability are crucial.",
+    "path": "papers/23/10/2310.04511.json",
+    "total_tokens": 790,
+    "translated_title": "风险因素聚合和压力测试",
+    "translated_abstract": "压力测试是将不利的金融或宏观经济情景应用于投资组合。为此，通过因子模型通常将金融或宏观经济风险因素与资产收益相关联。我们通过从无监督学习中采用降维技术，即主成分分析和自编码器，扩展了风险因素的范围。这导致了聚合的风险因素，包括全球因子、代表广泛地理区域的因子以及代表周期性和防御性行业的因子。由于适应的主成分分析和自编码器对潜在因子进行了解释，因此该方法在其他需要降维和可解释性的领域也具有价值。",
+    "tldr": "本论文介绍了一种在压力测试中应用无监督学习的降维技术的方法，通过主成分分析和自编码器扩展了风险因素的范围，并提供了潜在因子的解释。这种方法对于其他需要降维和可解释性的领域也有用处。",
+    "en_tdlr": "This paper presents a method that applies unsupervised learning dimension-reduction techniques, namely PCA and autoencoders, in stress testing to expand the range of risk factors and provide interpretations for latent factors. This approach is also valuable in other areas where dimension-reduction and explainability are crucial."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Finite Sample Performance of a Conduct Parameter Test in Homogenous Goods Markets. (arXiv:2310.04576v1 [econ.EM])",
+    "abstract": "We assess the finite sample performance of the conduct parameter test in homogeneous goods markets. Statistical power rises with an increase in the number of markets, a larger conduct parameter, and a stronger demand rotation instrument. However, even with a moderate number of markets and five firms, regardless of instrument strength and the utilization of optimal instruments, rejecting the null hypothesis of perfect competition remains challenging. Our findings indicate that empirical results that fail to reject perfect competition are a consequence of the limited number of markets rather than methodological deficiencies.",
+    "link": "http://arxiv.org/abs/2310.04576",
+    "context": "Title: Finite Sample Performance of a Conduct Parameter Test in Homogenous Goods Markets. (arXiv:2310.04576v1 [econ.EM])\nAbstract: We assess the finite sample performance of the conduct parameter test in homogeneous goods markets. Statistical power rises with an increase in the number of markets, a larger conduct parameter, and a stronger demand rotation instrument. However, even with a moderate number of markets and five firms, regardless of instrument strength and the utilization of optimal instruments, rejecting the null hypothesis of perfect competition remains challenging. Our findings indicate that empirical results that fail to reject perfect competition are a consequence of the limited number of markets rather than methodological deficiencies.",
+    "path": "papers/23/10/2310.04576.json",
+    "total_tokens": 758,
+    "translated_title": "均质商品市场中行为参数检验的有限样本性能",
+    "translated_abstract": "我们评估了在均质商品市场中行为参数检验的有限样本性能。统计功效随市场数量增加、行为参数增大和需求旋转工具强度增强而提高。然而，即使在中等数量的市场和五家公司的情况下，无论工具强度和使用最佳工具的情况下，拒绝完全竞争的零假设仍然具有挑战性。我们的研究结果表明，未能拒绝完全竞争的经验结果是市场数量有限造成的，而不是方法上的缺陷。",
+    "tldr": "该研究评估了均质商品市场中行为参数检验的有限样本性能，发现即使在中等数量的市场和五家公司的情况下，拒绝完全竞争的零假设仍然具有挑战性。研究结果表明，未能拒绝完全竞争的经验结果是市场数量有限造成的，而不是方法上的缺陷。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Finding Safe Zones of policies Markov Decision Processes. (arXiv:2202.11593v2 [cs.LG] UPDATED)",
+    "abstract": "Given a policy of a Markov Decision Process, we define a SafeZone as a subset of states, such that most of the policy's trajectories are confined to this subset. The quality of a SafeZone is parameterized by the number of states and the escape probability, i.e., the probability that a random trajectory will leave the subset. SafeZones are especially interesting when they have a small number of states and low escape probability. We study the complexity of finding optimal SafeZones, and show that in general, the problem is computationally hard. Our main result is a bi-criteria approximation learning algorithm with a factor of almost $2$ approximation for both the escape probability and SafeZone size, using a polynomial size sample complexity.",
+    "link": "http://arxiv.org/abs/2202.11593",
+    "context": "Title: Finding Safe Zones of policies Markov Decision Processes. (arXiv:2202.11593v2 [cs.LG] UPDATED)\nAbstract: Given a policy of a Markov Decision Process, we define a SafeZone as a subset of states, such that most of the policy's trajectories are confined to this subset. The quality of a SafeZone is parameterized by the number of states and the escape probability, i.e., the probability that a random trajectory will leave the subset. SafeZones are especially interesting when they have a small number of states and low escape probability. We study the complexity of finding optimal SafeZones, and show that in general, the problem is computationally hard. Our main result is a bi-criteria approximation learning algorithm with a factor of almost $2$ approximation for both the escape probability and SafeZone size, using a polynomial size sample complexity.",
+    "path": "papers/22/02/2202.11593.json",
+    "total_tokens": 806,
+    "translated_title": "寻找策略的马尔可夫决策过程的安全区域",
+    "translated_abstract": "针对马尔可夫决策过程的策略，我们定义了安全区域，即状态的一个子集，大多数策略的轨迹都被限制在该子集内。安全区域的质量由状态数和逃逸概率参数化，即随机轨迹离开子集的概率。当安全区域具有少量的状态和较低的逃逸概率时，尤其有趣。我们研究了寻找最优安全区域的复杂性，并证明了一般情况下该问题计算上是困难的。我们的主要结果是一个双准则逼近学习算法，准确度近似为$2$倍，同时考虑到逃逸概率和安全区域大小，并且使用多项式大小的样本复杂度。",
+    "tldr": "这篇论文研究了寻找策略的马尔可夫决策过程的安全区域的复杂性，提出了一个双准则逼近学习算法，可以近似计算出逃逸概率和安全区域大小。",
+    "en_tdlr": "This paper studies the complexity of finding safe zones of policies in Markov Decision Processes and proposes a bi-criteria approximation learning algorithm that can approximately calculate the escape probability and safe zone size."
+}

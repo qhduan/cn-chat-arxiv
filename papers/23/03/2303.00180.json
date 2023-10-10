@@ -1,0 +1,12 @@
+{
+    "title": "FaceRNET: a Facial Expression Intensity Estimation Network. (arXiv:2303.00180v3 [cs.CV] UPDATED)",
+    "abstract": "This paper presents our approach for Facial Expression Intensity Estimation from videos. It includes two components: i) a representation extractor network that extracts various emotion descriptors (valence-arousal, action units and basic expressions) from each videoframe; ii) a RNN that captures temporal information in the data, followed by a mask layer which enables handling varying input video lengths through dynamic routing. This approach has been tested on the Hume-Reaction dataset yielding excellent results.",
+    "link": "http://arxiv.org/abs/2303.00180",
+    "context": "Title: FaceRNET: a Facial Expression Intensity Estimation Network. (arXiv:2303.00180v3 [cs.CV] UPDATED)\nAbstract: This paper presents our approach for Facial Expression Intensity Estimation from videos. It includes two components: i) a representation extractor network that extracts various emotion descriptors (valence-arousal, action units and basic expressions) from each videoframe; ii) a RNN that captures temporal information in the data, followed by a mask layer which enables handling varying input video lengths through dynamic routing. This approach has been tested on the Hume-Reaction dataset yielding excellent results.",
+    "path": "papers/23/03/2303.00180.json",
+    "total_tokens": 690,
+    "translated_title": "FaceRNET: 一种面部表情强度估计网络",
+    "translated_abstract": "本文介绍了我们在视频中进行面部表情强度估计的方法。它包括两个组件：i) 一个表示提取器网络，从每个视频帧中提取各种情感描述符（价值-唤醒、动作单元和基本表情）；ii) 一个循环神经网络（RNN），捕捉数据中的时间信息，然后是一个掩码层，通过动态路由实现对不同输入视频长度的处理能力。该方法在Hume-Reaction数据集上进行了测试，并取得了出色的结果。",
+    "tldr": "本文介绍了一种名为FaceRNET的面部表情强度估计网络，该网络采用了表示提取器和循环神经网络的组合，能够从视频中提取各种情感描述符，并通过动态路由处理不同长度的输入视频。在Hume-Reaction数据集上进行的测试表明，该方法取得了优秀的结果。",
+    "en_tdlr": "This paper introduces a facial expression intensity estimation network called FaceRNET, which combines a representation extractor and a recurrent neural network to extract various emotion descriptors from videos and handle varying input video lengths through dynamic routing. The method achieves excellent results on the Hume-Reaction dataset."
+}

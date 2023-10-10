@@ -2,53 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Policy-Gradient Training of Language Models for Ranking.](http://arxiv.org/abs/2310.04407) | 该论文提出了一种用于排序的语言模型的策略梯度训练算法Neural PG-RANK，通过将大规模语言模型实例化为Plackett-Luce排名策略，实现了对检索模型的原则性、端到端训练。 |
-| [^2] | [On the Embedding Collapse when Scaling up Recommendation Models.](http://arxiv.org/abs/2310.04400) | 研究了可缩放推荐模型中嵌入层的崩溃现象，发现特征交互模块在一定程度上限制了嵌入学习，但也是提高可扩展性的关键因素。 |
-| [^3] | [Workload-aware and Learned Z-Indexes.](http://arxiv.org/abs/2310.04268) | 本文提出了一种基于工作负载和学习的Z-索引变体，通过优化存储布局和搜索结构，改善了范围查询性能，并通过引入页面跳跃机制进一步提升查询性能。实验证明，该索引在范围查询时间、点查询性能和构建时间与索引大小之间保持了良好的平衡。 |
-| [^4] | [Lending Interaction Wings to Recommender Systems with Conversational Agents.](http://arxiv.org/abs/2310.04230) | 本文提出了一种将对话代理与推荐系统结合的新范例CORE，通过统一的不确定性最小化框架，以离线训练和在线检验的形式实现了对话和推荐部分的交互。核心思想是将推荐系统作为离线相关性评分估计器，将对话代理作为在线相关性评分检查器，通过最小化不确定性来提高推荐系统的准确性和用户满意度。 |
-| [^5] | [Keyword Augmented Retrieval: Novel framework for Information Retrieval integrated with speech interface.](http://arxiv.org/abs/2310.04205) | 这项研究工作介绍了一种关键词增强检索框架，该框架通过使用关键词来优化语言模型的上下文发现和答案生成，从而实现了快速、低成本的信息检索和语音接口集成。 |
-| [^6] | [Searching COVID-19 clinical research using graphical abstracts.](http://arxiv.org/abs/2310.04094) | 该论文介绍了一种使用图形摘要来搜索COVID-19临床研究的方法。通过将摘要和图形摘要表示为本体术语图并在网络中匹配，可以更有效地对现有文献进行搜索。 |
-| [^7] | [AdaRec: Adaptive Sequential Recommendation for Reinforcing Long-term User Engagement.](http://arxiv.org/abs/2310.03984) | AdaRec是一种自适应顺序推荐算法，通过引入基于距离的表示损失来提取潜在信息，以适应大规模在线推荐系统中用户行为模式的变化。 |
-| [^8] | [An Efficient Content-based Time Series Retrieval System.](http://arxiv.org/abs/2310.03919) | 本论文提出了一种高效的基于内容的时间序列检索系统，可以在用户与系统实时交互的情况下，有效地度量和计算不同时间序列之间的相似度，满足用户从多个领域获取时间序列信息的需求。 |
-| [^9] | [Living Lab Evaluation for Life and Social Sciences Search Platforms -- LiLAS at CLEF 2021.](http://arxiv.org/abs/2310.03859) | 本研究介绍了通过LiLAS实验室对生命科学和社会科学领域的真实学术搜索系统进行用户中心评估的方法，为参与者提供了系统内容的元数据和候选列表，并允许他们轻松集成自己的方法到实际系统中。 |
-| [^10] | [Accurate Cold-start Bundle Recommendation via Popularity-based Coalescence and Curriculum Heating.](http://arxiv.org/abs/2310.03813) | 本文提出了CoHeat算法，一种准确的冷启动捆绑推荐方法。该算法通过结合历史和关联信息，应对捆绑互动分布的倾斜，并有效地学习潜在表示。 |
-| [^11] | [Literature Based Discovery (LBD): Towards Hypothesis Generation and Knowledge Discovery in Biomedical Text Mining.](http://arxiv.org/abs/2310.03766) | LBD是在生物医学文本挖掘中通过自动发现医学术语之间的新关联来缩短发现潜在关联的时间的方法。 |
-| [^12] | [FASER: Binary Code Similarity Search through the use of Intermediate Representations.](http://arxiv.org/abs/2310.03605) | 本论文提出了一种名为FASER的方法，通过使用中间表示进行二进制代码相似性搜索。该方法可以跨架构地识别函数，并明确编码函数的语义，以支持各种应用场景。 |
-| [^13] | [Deep Neural Aggregation for Recommending Items to Group of Users.](http://arxiv.org/abs/2307.09447) | 本文针对群体用户推荐商品的问题，提出了两种新的深度学习模型，并通过实验证明了这些模型相比现有模型的改进效果。 |
-| [^14] | [Topic-Centric Explanations for News Recommendation.](http://arxiv.org/abs/2306.07506) | 提出了一种基于主题的解释性新闻推荐模型，可以准确地识别相关文章并解释为什么推荐这些文章，同时提高了解释的可解释性度量。 |
-| [^15] | [Making Large Language Models Interactive: A Pioneer Study on Supporting Complex Information-Seeking Tasks with Implicit Constraints.](http://arxiv.org/abs/2205.00584) | 本研究设计并部署了一个平台，用于收集复杂交互系统的数据，以解决当前交互系统无法理解一次性提出的复杂信息检索请求的问题。同时，研究发现当前的生成语言模型在提供准确的事实知识方面存在问题。 |
+| [^1] | [Workload-aware and Learned Z-Indexes.](http://arxiv.org/abs/2310.04268) | 本文提出了一种基于工作负载和学习的Z-索引变体，通过优化存储布局和搜索结构，改善了范围查询性能，并通过引入页面跳跃机制进一步提升查询性能。实验证明，该索引在范围查询时间、点查询性能和构建时间与索引大小之间保持了良好的平衡。 |
+| [^2] | [Accurate Cold-start Bundle Recommendation via Popularity-based Coalescence and Curriculum Heating.](http://arxiv.org/abs/2310.03813) | 本文提出了CoHeat算法，一种准确的冷启动捆绑推荐方法。该算法通过结合历史和关联信息，应对捆绑互动分布的倾斜，并有效地学习潜在表示。 |
+| [^3] | [Personalized Transformer-based Ranking for e-Commerce at Yandex.](http://arxiv.org/abs/2310.03481) | 本文提出了一个基于个性化Transformer的电子商务排名系统，通过优化排名阶段的特征生成，提高了推荐质量。同时，还引入了一种新颖的技术用于解决偏置上下文的问题。 |
+| [^4] | [Interactive Content Diversity and User Exploration in Online Movie Recommenders: A Field Experiment.](http://arxiv.org/abs/2309.13296) | 这项研究通过访谈、调查和在线实验，在理解用户对于电影推荐系统广度的情感方面取得了一些发现，狭窄的推荐被认为是有用的，但也有一部分用户希望获得更广泛的推荐。 |
+| [^5] | [Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation.](http://arxiv.org/abs/2309.05238) | 本论文研究了为了更有效地筛选系统性审查生成自然语言查询的方法。通过探索使用不同的查询来源，如用于检索文档和基于指令的大规模语言模型生成的查询，我们提出了一种新的方法，可以在筛选过程中更准确地排名重要文档，并取得了很好的效果。 |
+| [^6] | [ConvFormer: Revisiting Transformer for Sequential User Modeling.](http://arxiv.org/abs/2308.02925) | ConvFormer是一种对Transformer架构进行改进的方法，旨在提高顺序用户建模的性能。通过重新审视Transformer的核心构建模块和分析项目对项目机制，在进行实验分析后确定了三个基本标准，并引入了ConvFormer来满足这些标准。 |
+| [^7] | [Probabilistic Deep Supervision Network: A Noise-Resilient Approach for QoS Prediction.](http://arxiv.org/abs/2308.02580) | PDS-Net is a novel framework for QoS prediction that effectively reduces errors resulting from noise data by utilizing a probabilistic space and a condition-based multitasking loss function. |
+| [^8] | [COPR: Consistency-Oriented Pre-Ranking for Online Advertising.](http://arxiv.org/abs/2306.03516) | 该论文提出了一种面向一致性的在线广告预排名框架，利用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。他们采用了基于Delta NDCG的加权机制，以更好地区分重要性。 |
+| [^9] | [Sequential Condition Evolved Interaction Knowledge Graph for Traditional Chinese Medicine Recommendation.](http://arxiv.org/abs/2305.17866) | 本文提出了一种新颖的顺序演化条件互动知识图谱 (SCEIKG) 框架，用于中医药推荐。这个框架通过考虑患者在多次就诊中的病情动态和草药的相互作用，提供准确的推荐。 |
+| [^10] | [Knowledge Rumination for Pre-trained Language Models.](http://arxiv.org/abs/2305.08732) | 本文提出了一种名为知识反思的新范式，旨在帮助预训练语言模型利用已经编码在其预训练参数中的相关潜在知识，而不需要从外部语料库中检索。这种方法通过在模型中添加提示，并将相关知识注入模型进行整合，取得了在常识推理任务和GLUE基准上的实验结果。 |
+| [^11] | [PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue.](http://arxiv.org/abs/2302.06674) | PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。 |
+| [^12] | [GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph.](http://arxiv.org/abs/2105.02605) | GraphFormers是一种将GNN嵌套到Transformer中的方法，通过迭代式的工作流程，准确理解文本图中每个节点的语义，同时引入渐进式学习加速训练。 |
 
 # 详细
 
-[^1]: 用于排序的语言模型的策略梯度训练
-
-    Policy-Gradient Training of Language Models for Ranking. (arXiv:2310.04407v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.04407](http://arxiv.org/abs/2310.04407)
-
-    该论文提出了一种用于排序的语言模型的策略梯度训练算法Neural PG-RANK，通过将大规模语言模型实例化为Plackett-Luce排名策略，实现了对检索模型的原则性、端到端训练。
-
-    
-
-    文本检索在将事实知识纳入到语言处理流程中的决策过程中起着关键作用，从聊天式网页搜索到问答系统。当前最先进的文本检索模型利用预训练的大规模语言模型（LLM）以达到有竞争力的性能，但通过典型的对比损失训练基于LLM的检索器需要复杂的启发式算法，包括选择困难的负样本和使用额外的监督作为学习信号。这种依赖于启发式算法的原因是对比损失本身是启发式的，不能直接优化处理流程末端决策质量的下游指标。为了解决这个问题，我们引入了神经PG-RANK，一种新的训练算法，通过将LLM实例化为Plackett-Luce排名策略，学习排序。神经PG-RANK为检索模型的端到端训练提供了一种原则性方法，作为更大的决策系统的一部分进行训练。
-
-    Text retrieval plays a crucial role in incorporating factual knowledge for decision making into language processing pipelines, ranging from chat-based web search to question answering systems. Current state-of-the-art text retrieval models leverage pre-trained large language models (LLMs) to achieve competitive performance, but training LLM-based retrievers via typical contrastive losses requires intricate heuristics, including selecting hard negatives and using additional supervision as learning signals. This reliance on heuristics stems from the fact that the contrastive loss itself is heuristic and does not directly optimize the downstream metrics of decision quality at the end of the processing pipeline. To address this issue, we introduce Neural PG-RANK, a novel training algorithm that learns to rank by instantiating a LLM as a Plackett-Luce ranking policy. Neural PG-RANK provides a principled method for end-to-end training of retrieval models as part of larger decision systems vi
-    
-[^2]: 论可扩展推荐模型中嵌入坍缩现象的研究
-
-    On the Embedding Collapse when Scaling up Recommendation Models. (arXiv:2310.04400v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.04400](http://arxiv.org/abs/2310.04400)
-
-    研究了可缩放推荐模型中嵌入层的崩溃现象，发现特征交互模块在一定程度上限制了嵌入学习，但也是提高可扩展性的关键因素。
-
-    
-
-    深度基础模型的最新进展引发了开发大型推荐模型以利用大量可用数据的有前景趋势。然而，我们试验放大现有的推荐模型时发现，扩大的模型并没有令人满意的改进。在这种情况下，我们研究了扩大模型的嵌入层，并发现了一种嵌入坍缩现象，这最终阻碍了可扩展性，在这种现象中，嵌入矩阵倾向于存在于低维子空间中。通过实证和理论分析，我们证明了推荐模型特定的特征交互模块具有双重作用。一方面，当与坍缩的嵌入交互时，该交互限制了嵌入学习，加剧了崩溃问题。另一方面，特征交互对于缓解假特征的拟合至关重要，从而提高可扩展性。基于这一分析，我们提出了一个简单而有效的方法
-
-    Recent advances in deep foundation models have led to a promising trend of developing large recommendation models to leverage vast amounts of available data. However, we experiment to scale up existing recommendation models and observe that the enlarged models do not improve satisfactorily. In this context, we investigate the embedding layers of enlarged models and identify a phenomenon of embedding collapse, which ultimately hinders scalability, wherein the embedding matrix tends to reside in a low-dimensional subspace. Through empirical and theoretical analysis, we demonstrate that the feature interaction module specific to recommendation models has a two-sided effect. On the one hand, the interaction restricts embedding learning when interacting with collapsed embeddings, exacerbating the collapse issue. On the other hand, feature interaction is crucial in mitigating the fitting of spurious features, thereby improving scalability. Based on this analysis, we propose a simple yet effe
-    
-[^3]: 基于工作负载和学习的Z-索引
+[^1]: 基于工作负载和学习的Z-索引
 
     Workload-aware and Learned Z-Indexes. (arXiv:2310.04268v1 [cs.DB])
 
@@ -62,91 +31,7 @@
 
     In this paper, a learned and workload-aware variant of a Z-index, which jointly optimizes storage layout and search structures, as a viable solution for the above challenges of spatial indexing. Specifically, we first formulate a cost function to measure the performance of a Z-index on a dataset for a range-query workload. Then, we optimize the Z-index structure by minimizing the cost function through adaptive partitioning and ordering for index construction. Moreover, we design a novel page-skipping mechanism to improve its query performance by reducing access to irrelevant data pages. Our extensive experiments show that our index improves range query time by 40% on average over the baselines, while always performing better or comparably to state-of-the-art spatial indexes. Additionally, our index maintains good point query performance while providing favourable construction time and index size tradeoffs.
     
-[^4]: 将对话代理引入推荐系统中的互动
-
-    Lending Interaction Wings to Recommender Systems with Conversational Agents. (arXiv:2310.04230v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.04230](http://arxiv.org/abs/2310.04230)
-
-    本文提出了一种将对话代理与推荐系统结合的新范例CORE，通过统一的不确定性最小化框架，以离线训练和在线检验的形式实现了对话和推荐部分的交互。核心思想是将推荐系统作为离线相关性评分估计器，将对话代理作为在线相关性评分检查器，通过最小化不确定性来提高推荐系统的准确性和用户满意度。
-
-    
-
-    在离线历史用户行为训练的推荐系统中，我们采用对话技术进行在线查询用户偏好。与以往系统地通过强化学习框架将对话和推荐部分结合的对话推荐方法不同，我们提出了CORE，一种基于离线训练和在线检验的新范例，通过统一的不确定性最小化框架，将对话代理和推荐系统连接起来。它可以以即插即用的方式为任何推荐平台带来好处。在这里，CORE将推荐系统视为离线相关性评分估计器，为每个项目产生一个估计的相关性评分；而对话代理被视为在线相关性评分检查器，在每个会话中检查这些估计分数。我们将不确定性定义为未经检查的相关性评分的总和。在这方面，对话代理通过查询属性或项目来最小化不确定性。
-
-    Recommender systems trained on offline historical user behaviors are embracing conversational techniques to online query user preference. Unlike prior conversational recommendation approaches that systemically combine conversational and recommender parts through a reinforcement learning framework, we propose CORE, a new offline-training and online-checking paradigm that bridges a COnversational agent and REcommender systems via a unified uncertainty minimization framework. It can benefit any recommendation platform in a plug-and-play style. Here, CORE treats a recommender system as an offline relevance score estimator to produce an estimated relevance score for each item; while a conversational agent is regarded as an online relevance score checker to check these estimated scores in each session. We define uncertainty as the summation of unchecked relevance scores. In this regard, the conversational agent acts to minimize uncertainty via querying either attributes or items. Based on th
-    
-[^5]: 关键词增强检索: 集成语音接口的信息检索新框架
-
-    Keyword Augmented Retrieval: Novel framework for Information Retrieval integrated with speech interface. (arXiv:2310.04205v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.04205](http://arxiv.org/abs/2310.04205)
-
-    这项研究工作介绍了一种关键词增强检索框架，该框架通过使用关键词来优化语言模型的上下文发现和答案生成，从而实现了快速、低成本的信息检索和语音接口集成。
-
-    
-
-    使用语言模型从结构化和非结构化数据的组合中快速、低成本地检索答案，而不产生幻觉，是阻止语言模型在知识检索自动化中应用的一大障碍。当想要集成语音接口时，这一问题变得更加突出。此外，对于商业搜索和聊天机器人应用来说，完全依赖商业大型语言模型（如GPT 3.5等）可能非常昂贵。本文作者通过首先开发基于关键词的搜索框架来解决这个问题，该框架增强了对要提供给大型语言模型的上下文的发现。关键词反过来是由语言模型生成并缓存，以便与查询生成的关键词进行比较。这显著减少了在文档中查找上下文所需的时间和成本。一旦上下文设置好了，语言模型就可以根据为问答定制的提示提供答案。这项研究工作表明，
-
-    Retrieving answers in a quick and low cost manner without hallucinations from a combination of structured and unstructured data using Language models is a major hurdle which prevents employment of Language models in knowledge retrieval automation. This becomes accentuated when one wants to integrate a speech interface. Besides, for commercial search and chatbot applications, complete reliance on commercial large language models (LLMs) like GPT 3.5 etc. can be very costly. In this work, authors have addressed this problem by first developing a keyword based search framework which augments discovery of the context to be provided to the large language model. The keywords in turn are generated by LLM and cached for comparison with keywords generated by LLM against the query raised. This significantly reduces time and cost to find the context within documents. Once the context is set, LLM uses that to provide answers based on a prompt tailored for Q&A. This research work demonstrates that u
-    
-[^6]: 使用图形摘要搜索COVID-19临床研究
-
-    Searching COVID-19 clinical research using graphical abstracts. (arXiv:2310.04094v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.04094](http://arxiv.org/abs/2310.04094)
-
-    该论文介绍了一种使用图形摘要来搜索COVID-19临床研究的方法。通过将摘要和图形摘要表示为本体术语图并在网络中匹配，可以更有效地对现有文献进行搜索。
-
-    
-
-    目标：图形摘要是对科学文章主要发现进行视觉总结的概念图。虽然图形摘要通常用于科学出版物中预测和总结主要结果，但我们将其作为表达对现有文献进行图形搜索的手段。材料和方法：我们考虑COVID-19开放研究数据集（CORD-19），这是一个包含超过一百万个摘要的语料库；每个摘要被描述为共现本体术语图，这些术语从统一医学语言系统（UMLS）和冠状病毒传染病本体（CIDO）中选择。图形摘要也被表示为本体术语图，可能还包括描述其相互作用的实用术语（例如，“相关”，“增加”，“引发”）。我们构建了一个包含语料库中提及的概念的共现网络；然后我们在网络上识别出图形摘要的最佳匹配项。我们利用图形数据库...
-
-    Objective. Graphical abstracts are small graphs of concepts that visually summarize the main findings of scientific articles. While graphical abstracts are customarily used in scientific publications to anticipate and summarize their main results, we propose them as a means for expressing graph searches over existing literature. Materials and methods. We consider the COVID-19 Open Research Dataset (CORD-19), a corpus of more than one million abstracts; each of them is described as a graph of co-occurring ontological terms, selected from the Unified Medical Language System (UMLS) and the Ontology of Coronavirus Infectious Disease (CIDO). Graphical abstracts are also expressed as graphs of ontological terms, possibly augmented by utility terms describing their interactions (e.g., "associated with", "increases", "induces"). We build a co-occurrence network of concepts mentioned in the corpus; we then identify the best matches of graphical abstracts on the network. We exploit graph databas
-    
-[^7]: AdaRec：用于增强用户长期参与度的自适应顺序推荐算法
-
-    AdaRec: Adaptive Sequential Recommendation for Reinforcing Long-term User Engagement. (arXiv:2310.03984v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.03984](http://arxiv.org/abs/2310.03984)
-
-    AdaRec是一种自适应顺序推荐算法，通过引入基于距离的表示损失来提取潜在信息，以适应大规模在线推荐系统中用户行为模式的变化。
-
-    
-
-    在顺序推荐任务中，人们越来越关注使用强化学习算法来优化用户的长期参与度。大规模在线推荐系统面临的一个挑战是用户行为模式（如互动频率和保留倾向）的不断复杂变化。当将问题建模为马尔科夫决策过程时，推荐系统的动态和奖励函数会不断受到这些变化的影响。现有的推荐系统强化学习算法会受到分布偏移问题的困扰，并难以适应这种马尔科夫决策过程。本文介绍了一种新的范式，称为自适应顺序推荐（AdaRec），来解决这个问题。AdaRec提出了一种基于距离的表示损失，从用户的互动轨迹中提取潜在信息。这些信息反映了强化学习策略与当前用户行为模式的匹配程度，并帮助策略识别推荐系统中的细微变化。
-
-    Growing attention has been paid to Reinforcement Learning (RL) algorithms when optimizing long-term user engagement in sequential recommendation tasks. One challenge in large-scale online recommendation systems is the constant and complicated changes in users' behavior patterns, such as interaction rates and retention tendencies. When formulated as a Markov Decision Process (MDP), the dynamics and reward functions of the recommendation system are continuously affected by these changes. Existing RL algorithms for recommendation systems will suffer from distribution shift and struggle to adapt in such an MDP. In this paper, we introduce a novel paradigm called Adaptive Sequential Recommendation (AdaRec) to address this issue. AdaRec proposes a new distance-based representation loss to extract latent information from users' interaction trajectories. Such information reflects how RL policy fits to current user behavior patterns, and helps the policy to identify subtle changes in the recomm
-    
-[^8]: 一种高效的基于内容的时间序列检索系统
-
-    An Efficient Content-based Time Series Retrieval System. (arXiv:2310.03919v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.03919](http://arxiv.org/abs/2310.03919)
-
-    本论文提出了一种高效的基于内容的时间序列检索系统，可以在用户与系统实时交互的情况下，有效地度量和计算不同时间序列之间的相似度，满足用户从多个领域获取时间序列信息的需求。
-
-    
-
-    基于内容的时间序列检索(CTSR)系统是一个信息检索系统，用户可以与来自多个领域(如金融、医疗和制造业)的时间序列进行交互。例如，用户想要了解时间序列的来源，可以将时间序列作为查询提交给CTSR系统，并检索与之相关的时间序列列表及相关元数据。通过分析检索到的元数据，用户可以获得有关时间序列来源的更多信息。由于CTSR系统需要处理来自不同领域的时间序列数据，因此需要一个高容量模型来有效地度量不同时间序列之间的相似度。此外，CTSR系统内的模型还需要以高效的方式计算相似度得分，以满足用户在实时交互中的需求。本文提出了一种有效且高效的CTSR模型，其性能优于其他替代模型，同时仍然提供合理的准确性。
-
-    A Content-based Time Series Retrieval (CTSR) system is an information retrieval system for users to interact with time series emerged from multiple domains, such as finance, healthcare, and manufacturing. For example, users seeking to learn more about the source of a time series can submit the time series as a query to the CTSR system and retrieve a list of relevant time series with associated metadata. By analyzing the retrieved metadata, users can gather more information about the source of the time series. Because the CTSR system is required to work with time series data from diverse domains, it needs a high-capacity model to effectively measure the similarity between different time series. On top of that, the model within the CTSR system has to compute the similarity scores in an efficient manner as the users interact with the system in real-time. In this paper, we propose an effective and efficient CTSR model that outperforms alternative models, while still providing reasonable in
-    
-[^9]: 生活与社会科学搜索平台的Living Lab评估- LiLAS在CLEF 2021中
-
-    Living Lab Evaluation for Life and Social Sciences Search Platforms -- LiLAS at CLEF 2021. (arXiv:2310.03859v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.03859](http://arxiv.org/abs/2310.03859)
-
-    本研究介绍了通过LiLAS实验室对生命科学和社会科学领域的真实学术搜索系统进行用户中心评估的方法，为参与者提供了系统内容的元数据和候选列表，并允许他们轻松集成自己的方法到实际系统中。
-
-    
-
-    在控制的离线评估活动（如TREC和CLEF）的元评估研究中，系统性能评估方面存在创新的需求，学术搜索领域也不例外。这可能与学术搜索中的相关性是多层次的事实有关，因此用户中心评估的方面变得越来越重要。学术搜索的Living Labs（LiLAS）实验室旨在通过允许参与者在生命科学和社会科学领域的两个真实学术搜索系统中评估其检索方法，加强用户中心生活实验室的概念。为此，我们为参与者提供了系统内容的元数据以及候选列表，要求将最相关的候选排在前面。利用STELLA基础设施，我们允许参与者将自己的方法轻松集成到真实系统中，并提供将方案部署到在线实验系统中的可能性。
-
-    Meta-evaluation studies of system performances in controlled offline evaluation campaigns, like TREC and CLEF, show a need for innovation in evaluating IR-systems. The field of academic search is no exception to this. This might be related to the fact that relevance in academic search is multilayered and therefore the aspect of user-centric evaluation is becoming more and more important. The Living Labs for Academic Search (LiLAS) lab aims to strengthen the concept of user-centric living labs for the domain of academic search by allowing participants to evaluate their retrieval approaches in two real-world academic search systems from the life sciences and the social sciences. To this end, we provide participants with metadata on the systems' content as well as candidate lists with the task to rank the most relevant candidate to the top. Using the STELLA-infrastructure, we allow participants to easily integrate their approaches into the real-world systems and provide the possibility to
-    
-[^10]: 准确的冷启动捆绑推荐：基于流行度的聚合和课程加热
+[^2]: 准确的冷启动捆绑推荐：基于流行度的聚合和课程加热
 
     Accurate Cold-start Bundle Recommendation via Popularity-based Coalescence and Curriculum Heating. (arXiv:2310.03813v1 [cs.IR])
 
@@ -160,74 +45,144 @@
 
     How can we accurately recommend cold-start bundles to users? The cold-start problem in bundle recommendation is critical in practical scenarios since new bundles are continuously created for various marketing purposes. Despite its importance, no previous studies have addressed cold-start bundle recommendation. Moreover, existing methods for cold-start item recommendation overly rely on historical information, even for unpopular bundles, failing to tackle the primary challenge of the highly skewed distribution of bundle interactions. In this work, we propose CoHeat (Popularity-based Coalescence and Curriculum Heating), an accurate approach for the cold-start bundle recommendation. CoHeat tackles the highly skewed distribution of bundle interactions by incorporating both historical and affiliation information based on the bundle's popularity when estimating the user-bundle relationship. Furthermore, CoHeat effectively learns latent representations by exploiting curriculum learning and co
     
-[^11]: 基于文献的发现（LBD）：在生物医学文本挖掘中实现假设生成和知识发现
+[^3]: 基于个性化Transformer的Yandex电子商务排名系统
 
-    Literature Based Discovery (LBD): Towards Hypothesis Generation and Knowledge Discovery in Biomedical Text Mining. (arXiv:2310.03766v1 [cs.IR])
+    Personalized Transformer-based Ranking for e-Commerce at Yandex. (arXiv:2310.03481v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.03766](http://arxiv.org/abs/2310.03766)
+    [http://arxiv.org/abs/2310.03481](http://arxiv.org/abs/2310.03481)
 
-    LBD是在生物医学文本挖掘中通过自动发现医学术语之间的新关联来缩短发现潜在关联的时间的方法。
-
-    
-
-    生物医学知识以科学出版物的形式以惊人的速度增长。文本挖掘工具和方法代表了从这些半结构化和非结构化数据中提取隐藏模式和趋势的自动化方法。在生物医学文本挖掘中，基于文献的发现（LBD）是自动发现不同文献集中提到的医学术语之间的新关联的过程。LBD方法已被证明可以成功缩短在大量科学文献中隐藏的潜在关联的发现时间。该过程侧重于为疾病或症状等医学术语创建概念档案，并根据共享档案的统计显著性将其与药物和治疗联系起来。这种知识发现方法在1989年引入后仍然是文本挖掘的核心任务。
-
-    Biomedical knowledge is growing in an astounding pace with a majority of this knowledge is represented as scientific publications. Text mining tools and methods represents automatic approaches for extracting hidden patterns and trends from this semi structured and unstructured data. In Biomedical Text mining, Literature Based Discovery (LBD) is the process of automatically discovering novel associations between medical terms otherwise mentioned in disjoint literature sets. LBD approaches proven to be successfully reducing the discovery time of potential associations that are hidden in the vast amount of scientific literature. The process focuses on creating concept profiles for medical terms such as a disease or symptom and connecting it with a drug and treatment based on the statistical significance of the shared profiles. This knowledge discovery approach introduced in 1989 still remains as a core task in text mining. Currently the ABC principle based two approaches namely open disco
-    
-[^12]: FASER: 通过中间表示进行二进制代码相似性搜索
-
-    FASER: Binary Code Similarity Search through the use of Intermediate Representations. (arXiv:2310.03605v1 [cs.CR])
-
-    [http://arxiv.org/abs/2310.03605](http://arxiv.org/abs/2310.03605)
-
-    本论文提出了一种名为FASER的方法，通过使用中间表示进行二进制代码相似性搜索。该方法可以跨架构地识别函数，并明确编码函数的语义，以支持各种应用场景。
+    本文提出了一个基于个性化Transformer的电子商务排名系统，通过优化排名阶段的特征生成，提高了推荐质量。同时，还引入了一种新颖的技术用于解决偏置上下文的问题。
 
     
 
-    能够识别跨架构软件中感兴趣的函数对于分析恶意软件、保护软件供应链或进行漏洞研究都是有用的。跨架构二进制代码相似性搜索已在许多研究中探索，并使用了各种不同的数据来源来实现其目标。通常使用的数据来源包括从二进制文件中提取的常见结构，如函数控制流图或二进制级调用图，反汇编过程的输出或动态分析方法的输出。其中一种受到较少关注的数据来源是二进制中间表示。二进制中间表示具有两个有趣的属性：它们的跨架构性质以及明确编码函数的语义以支持下游使用。在本文中，我们提出了一种名为FASER的函数字符串编码表示方法，它结合了长文档转换技术。
+    以用户活动为基础，个性化地提供高质量的推荐对于电子商务平台至关重要，特别是在用户意图不明确的情况下，如主页上。最近，基于嵌入式的个性化系统在电子商务领域的推荐和搜索结果质量方面有了显著的提升。然而，这些工作大多集中在增强检索阶段。在本文中，我们证明了针对电子商务推荐中的排名阶段，检索聚焦的深度学习模型产生的特征是次优的。为了解决这个问题，我们提出了一个两阶段训练过程，通过微调两塔模型来实现最佳的排名性能。我们详细描述了我们专门为电子商务个性化设计的基于Transformer的两塔模型架构。此外，我们还引入了一种新颖的离线模型中去偏置上下文的技术。
 
-    Being able to identify functions of interest in cross-architecture software is useful whether you are analysing for malware, securing the software supply chain or conducting vulnerability research. Cross-Architecture Binary Code Similarity Search has been explored in numerous studies and has used a wide range of different data sources to achieve its goals. The data sources typically used draw on common structures derived from binaries such as function control flow graphs or binary level call graphs, the output of the disassembly process or the outputs of a dynamic analysis approach. One data source which has received less attention is binary intermediate representations. Binary Intermediate representations possess two interesting properties: they are cross architecture by their very nature and encode the semantics of a function explicitly to support downstream usage. Within this paper we propose Function as a String Encoded Representation (FASER) which combines long document transforme
+    Personalizing the user experience with high-quality recommendations based on user activities is vital for e-commerce platforms. This is particularly important in scenarios where the user's intent is not explicit, such as on the homepage. Recently, personalized embedding-based systems have significantly improved the quality of recommendations and search results in the e-commerce domain. However, most of these works focus on enhancing the retrieval stage.  In this paper, we demonstrate that features produced by retrieval-focused deep learning models are sub-optimal for ranking stage in e-commerce recommendations. To address this issue, we propose a two-stage training process that fine-tunes two-tower models to achieve optimal ranking performance. We provide a detailed description of our transformer-based two-tower model architecture, which is specifically designed for personalization in e-commerce.  Additionally, we introduce a novel technique for debiasing context in offline models and 
     
-[^13]: 为群体用户推荐商品的深度神经聚合
+[^4]: 在在线电影推荐系统中的互动内容多样性和用户探索：现场实验
 
-    Deep Neural Aggregation for Recommending Items to Group of Users. (arXiv:2307.09447v1 [cs.IR])
+    Interactive Content Diversity and User Exploration in Online Movie Recommenders: A Field Experiment. (arXiv:2309.13296v1 [cs.HC] CROSS LISTED)
 
-    [http://arxiv.org/abs/2307.09447](http://arxiv.org/abs/2307.09447)
+    [http://arxiv.org/abs/2309.13296](http://arxiv.org/abs/2309.13296)
 
-    本文针对群体用户推荐商品的问题，提出了两种新的深度学习模型，并通过实验证明了这些模型相比现有模型的改进效果。
-
-    
-
-    现代社会花费了大量时间在数字交互上，我们的日常行为很多都通过数字手段完成。这导致了许多人工智能工具的出现，帮助我们在生活的各个方面进行辅助。对于数字社会来说，一个关键的工具是推荐系统，它是智能的系统，通过学习我们的过去行为，提出与我们兴趣相符的新行为建议。其中一些系统专门从用户群体的行为中学习，向希望共同完成某个任务的个体群体提出建议。在本文中，我们分析了群体推荐系统的现状，并提出了两种使用新兴的深度学习架构的模型。实验结果表明，与使用四个不同数据集的最新模型相比，采用我们提出的模型可以取得改进。该模型及所有实验的源代码都可供获取。
-
-    Modern society devotes a significant amount of time to digital interaction. Many of our daily actions are carried out through digital means. This has led to the emergence of numerous Artificial Intelligence tools that assist us in various aspects of our lives. One key tool for the digital society is Recommender Systems, intelligent systems that learn from our past actions to propose new ones that align with our interests. Some of these systems have specialized in learning from the behavior of user groups to make recommendations to a group of individuals who want to perform a joint task. In this article, we analyze the current state of Group Recommender Systems and propose two new models that use emerging Deep Learning architectures. Experimental results demonstrate the improvement achieved by employing the proposed models compared to the state-of-the-art models using four different datasets. The source code of the models, as well as that of all the experiments conducted, is available i
-    
-[^14]: 基于主题的新闻推荐的解释性方法
-
-    Topic-Centric Explanations for News Recommendation. (arXiv:2306.07506v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.07506](http://arxiv.org/abs/2306.07506)
-
-    提出了一种基于主题的解释性新闻推荐模型，可以准确地识别相关文章并解释为什么推荐这些文章，同时提高了解释的可解释性度量。
+    这项研究通过访谈、调查和在线实验，在理解用户对于电影推荐系统广度的情感方面取得了一些发现，狭窄的推荐被认为是有用的，但也有一部分用户希望获得更广泛的推荐。
 
     
 
-    新闻推荐系统被广泛应用于在线新闻网站，以帮助用户根据他们的兴趣找到相关文章。然而，推荐缺乏解释会导致用户的不信任和推荐的缺乏接受度。为了解决这个问题，我们提出了一种新的可解释的新闻模型，构建了一个基于主题的解释性推荐方法，可以准确地识别相关文章并解释为什么推荐这些文章，利用相关主题的信息。此外，我们的模型结合了两种用于评估主题质量的一致性度量，提供了这些解释的可解释性的度量。我们在MIND数据集上的实验结果表明，所提出的可解释性NRS优于其他几个基线系统，同时还能够产生可解释的主题。
+    推荐系统常常难以在满足用户口味和提供意外推荐之间取得平衡。当推荐过于狭窄，无法涵盖用户偏好的完整范围时，系统被认为无用。相反，当系统建议太多用户不喜欢的物品时，被认为是冷漠或无效的。为了更好地了解用户对电影推荐系统广度的情感，我们进行了访谈和调查，并发现许多用户认为狭窄的推荐是有用的，而少数用户明确希望获得更广泛的推荐。此外，我们设计并进行了一项在线现场实验，评估了两种新接口，旨在向用户提供更广泛的推荐。我们观察了两组用户的偏好和行为：具有较高初始电影多样性和具有较低多样性的用户。在我们的发现中，
 
-    News recommender systems (NRS) have been widely applied for online news websites to help users find relevant articles based on their interests. Recent methods have demonstrated considerable success in terms of recommendation performance. However, the lack of explanation for these recommendations can lead to mistrust among users and lack of acceptance of recommendations. To address this issue, we propose a new explainable news model to construct a topic-aware explainable recommendation approach that can both accurately identify relevant articles and explain why they have been recommended, using information from associated topics. Additionally, our model incorporates two coherence metrics applied to assess topic quality, providing measure of the interpretability of these explanations. The results of our experiments on the MIND dataset indicate that the proposed explainable NRS outperforms several other baseline systems, while it is also capable of producing interpretable topics compared 
+    Recommender systems often struggle to strike a balance between matching users' tastes and providing unexpected recommendations. When recommendations are too narrow and fail to cover the full range of users' preferences, the system is perceived as useless. Conversely, when the system suggests too many items that users don't like, it is considered impersonal or ineffective. To better understand user sentiment about the breadth of recommendations given by a movie recommender, we conducted interviews and surveys and found out that many users considered narrow recommendations to be useful, while a smaller number explicitly wanted greater breadth. Additionally, we designed and ran an online field experiment with a larger user group, evaluating two new interfaces designed to provide users with greater access to broader recommendations. We looked at user preferences and behavior for two groups of users: those with higher initial movie diversity and those with lower diversity. Among our finding
     
-[^15]: 使大型语言模型具有交互功能：关于支持带有隐含约束的复杂信息检索任务的先驱研究
+[^5]: 为更有效的系统性审查筛选生成自然语言查询
 
-    Making Large Language Models Interactive: A Pioneer Study on Supporting Complex Information-Seeking Tasks with Implicit Constraints. (arXiv:2205.00584v2 [cs.IR] UPDATED)
+    Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation. (arXiv:2309.05238v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2205.00584](http://arxiv.org/abs/2205.00584)
+    [http://arxiv.org/abs/2309.05238](http://arxiv.org/abs/2309.05238)
 
-    本研究设计并部署了一个平台，用于收集复杂交互系统的数据，以解决当前交互系统无法理解一次性提出的复杂信息检索请求的问题。同时，研究发现当前的生成语言模型在提供准确的事实知识方面存在问题。
+    本论文研究了为了更有效地筛选系统性审查生成自然语言查询的方法。通过探索使用不同的查询来源，如用于检索文档和基于指令的大规模语言模型生成的查询，我们提出了一种新的方法，可以在筛选过程中更准确地排名重要文档，并取得了很好的效果。
 
     
 
-    目前具有自然语言接口的交互系统缺乏理解同时表达多个隐含约束的复杂信息检索请求的能力，并且没有关于用户偏好的先前信息。在这种情况下，用户请求可以一次性以复杂和长的查询形式提出，与对话和探索式搜索模型不同，这些模型通常需要将短表达或查询逐步呈现给系统。我们设计并部署了一个平台来收集这种复杂交互系统的数据。此外，尽管当前的生成语言模型取得了进展，但这些模型在提供准确的事实知识方面存在幻觉。所有语言模型大多是在
+    医学系统性审查中的筛选优先级目标是通过复杂的布尔查询对检索到的文档集进行排名。优先处理最重要的文档可以确保后续审查步骤能够更高效、更有效地进行。目前的最新技术使用审查的最终标题作为查询，利用基于BERT的神经排序器对文档进行排名。然而，最终标题只在审查过程结束时形成，这使得该方法不切实际，因为它依赖于ex post facto的信息。在筛选的时候，只有一个粗略的工作标题可用，使用BERT-based排序器时效果明显不如最终标题。在本文中，我们探索了用于筛选优先级的查询的替代来源，例如用于检索待筛选文档的布尔查询，以及由基于指令的大规模语言模型（如ChatGPT和Alpaca）生成的查询。我们的最佳方法不仅仅是
 
-    Current interactive systems with natural language interfaces lack the ability to understand a complex information-seeking request which expresses several implicit constraints at once, and there is no prior information about user preferences e.g.,"find hiking trails around San Francisco which are accessible with toddlers and have beautiful scenery in summer", where output is a list of possible suggestions for users to start their exploration. In such scenarios, user requests can be issued in one shot in the form of a complex and long query, unlike conversational and exploratory search models, where require short utterances or queries are often presented to the system step by step. We have designed and deployed a platform to collect the data from approaching such complex interactive systems. Moreover, despite with the current advancement of generative language models these models suffer from hallucination in providing accurate factual knowledge. All language models are mostly trained in 
+    Screening prioritisation in medical systematic reviews aims to rank the set of documents retrieved by complex Boolean queries. Prioritising the most important documents ensures that subsequent review steps can be carried out more efficiently and effectively. The current state of the art uses the final title of the review as a query to rank the documents using BERT-based neural rankers. However, the final title is only formulated at the end of the review process, which makes this approach impractical as it relies on ex post facto information. At the time of screening, only a rough working title is available, with which the BERT-based ranker performs significantly worse than with the final title. In this paper, we explore alternative sources of queries for prioritising screening, such as the Boolean query used to retrieve the documents to be screened and queries generated by instruction-based generative large-scale language models such as ChatGPT and Alpaca. Our best approach is not only
+    
+[^6]: ConvFormer：重新审视Transformer用于顺序用户建模
+
+    ConvFormer: Revisiting Transformer for Sequential User Modeling. (arXiv:2308.02925v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2308.02925](http://arxiv.org/abs/2308.02925)
+
+    ConvFormer是一种对Transformer架构进行改进的方法，旨在提高顺序用户建模的性能。通过重新审视Transformer的核心构建模块和分析项目对项目机制，在进行实验分析后确定了三个基本标准，并引入了ConvFormer来满足这些标准。
+
+    
+
+    顺序用户建模是个性化推荐系统中的关键任务，其着重于预测用户最喜欢的下一个项目，需要深入理解用户的行为序列。尽管Transformer模型在各个领域取得了显着成功，但在理解用户行为方面尚未充分发挥其潜力。本文重新审视了Transformer类似的架构，旨在推进最先进的性能。我们首先重新审视Transformer方法的核心构建模块，在顺序用户建模的背景下分析项目对项目机制的有效性。在进行彻底的实验分析后，我们确定了三个设计高效顺序用户模型的基本标准，希望这些标准能作为实用指南，激发和塑造未来的设计。在此基础上，我们介绍了ConvFormer，一种对Transformer架构进行简单但强大修改的方法，满足了这些标准，从而提高了模型的性能。
+
+    Sequential user modeling, a critical task in personalized recommender systems, focuses on predicting the next item a user would prefer, requiring a deep understanding of user behavior sequences. Despite the remarkable success of Transformer-based models across various domains, their full potential in comprehending user behavior remains untapped. In this paper, we re-examine Transformer-like architectures aiming to advance state-of-the-art performance. We start by revisiting the core building blocks of Transformer-based methods, analyzing the effectiveness of the item-to-item mechanism within the context of sequential user modeling. After conducting a thorough experimental analysis, we identify three essential criteria for devising efficient sequential user models, which we hope will serve as practical guidelines to inspire and shape future designs. Following this, we introduce ConvFormer, a simple but powerful modification to the Transformer architecture that meets these criteria, yiel
+    
+[^7]: Probabilistic Deep Supervision Network: 一种抗噪声的QoS预测方法
+
+    Probabilistic Deep Supervision Network: A Noise-Resilient Approach for QoS Prediction. (arXiv:2308.02580v1 [cs.SE])
+
+    [http://arxiv.org/abs/2308.02580](http://arxiv.org/abs/2308.02580)
+
+    PDS-Net is a novel framework for QoS prediction that effectively reduces errors resulting from noise data by utilizing a probabilistic space and a condition-based multitasking loss function.
+
+    
+
+    在推荐系统中，QoS（服务质量）的预测是一项重要任务，准确预测未知的QoS值可以提高用户满意度。然而，现有的QoS预测技术在存在噪声数据（如虚假位置信息或虚拟网关）时可能表现不佳。在本文中，我们提出了一种新颖的QoS预测框架——概率深度监督网络（PDS-Net），以解决这个问题。PDS-Net利用基于高斯的概率空间监督中间层，并学习已知特征和真实标签的概率空间。此外，PDS-Net采用基于条件的多任务损失函数来识别具有噪声数据的对象，并通过优化这些对象的概率空间与真实标签概率空间之间的Kullback-Leibler距离，直接对从概率空间中采样的深度特征进行监督。因此，PDS-Net有效减少了因传播引起的错误。
+
+    Quality of Service (QoS) prediction is an essential task in recommendation systems, where accurately predicting unknown QoS values can improve user satisfaction. However, existing QoS prediction techniques may perform poorly in the presence of noise data, such as fake location information or virtual gateways. In this paper, we propose the Probabilistic Deep Supervision Network (PDS-Net), a novel framework for QoS prediction that addresses this issue. PDS-Net utilizes a Gaussian-based probabilistic space to supervise intermediate layers and learns probability spaces for both known features and true labels. Moreover, PDS-Net employs a condition-based multitasking loss function to identify objects with noise data and applies supervision directly to deep features sampled from the probability space by optimizing the Kullback-Leibler distance between the probability space of these objects and the real-label probability space. Thus, PDS-Net effectively reduces errors resulting from the propag
+    
+[^8]: COPR：面向一致性的在线广告预排名
+
+    COPR: Consistency-Oriented Pre-Ranking for Online Advertising. (arXiv:2306.03516v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.03516](http://arxiv.org/abs/2306.03516)
+
+    该论文提出了一种面向一致性的在线广告预排名框架，利用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。他们采用了基于Delta NDCG的加权机制，以更好地区分重要性。
+
+    
+
+    级联架构被广泛应用于大规模广告系统中以平衡效率和效果。在这种架构中，预排名模型被期望成为一个轻量级的排名模型近似，以处理更多具有严格延迟要求的候选者。由于模型容量的差距，预排名和排名模型通常会生成不一致的排名结果，从而损害整个系统的效果。提出了得分对齐的范式以规范它们的原始分数，使它们保持一致。然而，在在线广告中应用时，由于必然的对齐误差和竞标的误差放大，它会遭受困扰。为此，我们引入了一个面向一致性的在线广告预排名框架，该框架采用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。采用了基于$\Delta NDCG$的加权机制，以更好地区分重要性。
+
+    Cascading architecture has been widely adopted in large-scale advertising systems to balance efficiency and effectiveness. In this architecture, the pre-ranking model is expected to be a lightweight approximation of the ranking model, which handles more candidates with strict latency requirements. Due to the gap in model capacity, the pre-ranking and ranking models usually generate inconsistent ranked results, thus hurting the overall system effectiveness. The paradigm of score alignment is proposed to regularize their raw scores to be consistent. However, it suffers from inevitable alignment errors and error amplification by bids when applied in online advertising. To this end, we introduce a consistency-oriented pre-ranking framework for online advertising, which employs a chunk-based sampling module and a plug-and-play rank alignment module to explicitly optimize consistency of ECPM-ranked results. A $\Delta NDCG$-based weighting mechanism is adopted to better distinguish the import
+    
+[^9]: 《顺序演化条件互动知识图谱在中医药推荐中的应用》
+
+    Sequential Condition Evolved Interaction Knowledge Graph for Traditional Chinese Medicine Recommendation. (arXiv:2305.17866v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2305.17866](http://arxiv.org/abs/2305.17866)
+
+    本文提出了一种新颖的顺序演化条件互动知识图谱 (SCEIKG) 框架，用于中医药推荐。这个框架通过考虑患者在多次就诊中的病情动态和草药的相互作用，提供准确的推荐。
+
+    
+
+    传统中医药 (TCM) 在治疗各种疾病时有着丰富的历史，利用天然草药。在实践中，TCM的诊断和治疗高度个性化，有机综合，需要全面考虑患者的状况和症状变化。然而，现有的TCM推荐方法忽略了患者状态的变化，只探索症状和处方之间的潜在模式。本文提出了一种新颖的顺序演化条件互动知识图谱 (SCEIKG) 框架，将模型视为一个顺序处方制定问题，考虑了患者在多次就诊中的病情动态。此外，我们还将互动知识图谱纳入到推荐中，通过考虑不同草药之间的相互作用和患者的状况来提高推荐的准确性。实验结果在真实数据集上表明，我们的方法优于现有的TCM推荐方法。
+
+    Traditional Chinese Medicine (TCM) has a rich history of utilizing natural herbs to treat a diversity of illnesses. In practice, TCM diagnosis and treatment are highly personalized and organically holistic, requiring comprehensive consideration of the patient's state and symptoms over time. However, existing TCM recommendation approaches overlook the changes in patient status and only explore potential patterns between symptoms and prescriptions. In this paper, we propose a novel Sequential Condition Evolved Interaction Knowledge Graph (SCEIKG), a framework that treats the model as a sequential prescription-making problem by considering the dynamics of the patient's condition across multiple visits. In addition, we incorporate an interaction knowledge graph to enhance the accuracy of recommendations by considering the interactions between different herbs and the patient's condition. Experimental results on a real-world dataset demonstrate that our approach outperforms existing TCM reco
+    
+[^10]: 预训练语言模型的知识反思
+
+    Knowledge Rumination for Pre-trained Language Models. (arXiv:2305.08732v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2305.08732](http://arxiv.org/abs/2305.08732)
+
+    本文提出了一种名为知识反思的新范式，旨在帮助预训练语言模型利用已经编码在其预训练参数中的相关潜在知识，而不需要从外部语料库中检索。这种方法通过在模型中添加提示，并将相关知识注入模型进行整合，取得了在常识推理任务和GLUE基准上的实验结果。
+
+    
+
+    先前的研究揭示了普通的预训练语言模型（PLMs）单独处理知识密集型NLP任务的能力不足，因此，一些工作尝试将外部知识集成到PLMs中。然而，尽管有着有前途的结果，但我们经验性地观察到，PLM可能已经在其预训练参数中编码了丰富的知识，但在应用到知识密集型任务时未能充分利用它们。在本文中，我们提出了一种名为知识反思的新范式，以帮助预训练语言模型利用相关的潜在知识，而不需要从外部语料库中检索它们。通过简单地在PLMs中添加一个如“据我所知”的提示，我们试图回顾相关的潜在知识，并将其注入模型以进行知识整合。我们将提出的知识反思应用于各种语言模型，包括RoBERTa、DeBERTa和GPT-3。在六个常识推理任务和GLUE基准上的实验结果显示.....
+
+    Previous studies have revealed that vanilla pre-trained language models (PLMs) lack the capacity to handle knowledge-intensive NLP tasks alone; thus, several works have attempted to integrate external knowledge into PLMs. However, despite the promising outcome, we empirically observe that PLMs may have already encoded rich knowledge in their pre-trained parameters but fail to fully utilize them when applying them to knowledge-intensive tasks. In this paper, we propose a new paradigm dubbed Knowledge Rumination to help the pre-trained language model utilize that related latent knowledge without retrieving it from the external corpus. By simply adding a prompt like "As far as I know" to the PLMs, we try to review related latent knowledge and inject them back into the model for knowledge consolidation. We apply the proposed knowledge rumination to various language models, including RoBERTa, DeBERTa, and GPT-3. Experimental results on six commonsense reasoning tasks and GLUE benchmarks dem
+    
+[^11]: PK-ICR: 基于角色和知识的互动上下文检索进行基于场景对话
+
+    PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue. (arXiv:2302.06674v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2302.06674](http://arxiv.org/abs/2302.06674)
+
+    PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。
+
+    
+
+    鉴别与对话系统相关的角色和知识对于基于场景的对话应答生成至关重要。然而，目前每个对话基本上都是孤立研究的，而最近的工作中引入了更实际的多场景对话任务。我们将角色和知识双上下文识别定义为为给定的对话同时识别角色和知识的任务，在复杂的多场景对话设置中可能具有提升重要性。我们开发了一种新的基于检索的检索方法，可以同时利用对话的所有上下文信息。我们的方法通过使用神经问答检索模型，需要较少的计算资源。我们进一步介绍了一种新的空-正向排名测试方法，用于衡量与数据增强相关的语义差异样本（即困难负样本）的排名性能。
+
+    Identifying relevant persona or knowledge for conversational systems is critical to grounded dialogue response generation. However, each grounding has been mostly researched in isolation with more practical multi-context dialogue tasks introduced in recent works. We define Persona and Knowledge Dual Context Identification as the task to identify persona and knowledge jointly for a given dialogue, which could be of elevated importance in complex multi-context dialogue settings. We develop a novel grounding retrieval method that utilizes all contexts of dialogue simultaneously. Our method requires less computational power via utilizing neural QA retrieval models. We further introduce our novel null-positive rank test which measures ranking performance on semantically dissimilar samples (i.e. hard negatives) in relation to data augmentation.
+    
+[^12]: GraphFormers: GNN嵌套Transformer用于文本图的表示学习
+
+    GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph. (arXiv:2105.02605v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2105.02605](http://arxiv.org/abs/2105.02605)
+
+    GraphFormers是一种将GNN嵌套到Transformer中的方法，通过迭代式的工作流程，准确理解文本图中每个节点的语义，同时引入渐进式学习加速训练。
+
+    
+
+    文本图的表示学习是基于个体文本特征和邻域信息生成节点低维嵌入的过程。最近预训练语言模型和图神经网络的突破推动了相应技术的发展。现有的工作主要依赖级联模型架构：首先，节点的文本特征由语言模型独立编码；然后，文本嵌入由图神经网络聚合。然而，上述架构由于对文本特征的独立建模而受到限制。在这项工作中，我们提出了GraphFormers，其中GNN的分层组件嵌套在语言模型的Transformer块旁边。通过提出的架构，文本编码和图聚合融合为一个迭代式的工作流程，从全局视角准确理解每个节点的语义。此外，一种渐进式学习方法被引入以加速训练过程。
+
+    The representation learning on textual graph is to generate low-dimensional embeddings for the nodes based on the individual textual features and the neighbourhood information. Recent breakthroughs on pretrained language models and graph neural networks push forward the development of corresponding techniques. The existing works mainly rely on the cascaded model architecture: the textual features of nodes are independently encoded by language models at first; the textual embeddings are aggregated by graph neural networks afterwards. However, the above architecture is limited due to the independent modeling of textual features. In this work, we propose GraphFormers, where layerwise GNN components are nested alongside the transformer blocks of language models. With the proposed architecture, the text encoding and the graph aggregation are fused into an iterative workflow, {making} each node's semantic accurately comprehended from the global perspective. In addition, a {progressive} learn
     
 

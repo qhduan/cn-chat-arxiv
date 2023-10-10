@@ -1,0 +1,12 @@
+{
+    "title": "Provably Convergent Data-Driven Convex-Nonconvex Regularization. (arXiv:2310.05812v1 [cs.LG])",
+    "abstract": "An emerging new paradigm for solving inverse problems is via the use of deep learning to learn a regularizer from data. This leads to high-quality results, but often at the cost of provable guarantees. In this work, we show how well-posedness and convergent regularization arises within the convex-nonconvex (CNC) framework for inverse problems. We introduce a novel input weakly convex neural network (IWCNN) construction to adapt the method of learned adversarial regularization to the CNC framework. Empirically we show that our method overcomes numerical issues of previous adversarial methods.",
+    "link": "http://arxiv.org/abs/2310.05812",
+    "context": "Title: Provably Convergent Data-Driven Convex-Nonconvex Regularization. (arXiv:2310.05812v1 [cs.LG])\nAbstract: An emerging new paradigm for solving inverse problems is via the use of deep learning to learn a regularizer from data. This leads to high-quality results, but often at the cost of provable guarantees. In this work, we show how well-posedness and convergent regularization arises within the convex-nonconvex (CNC) framework for inverse problems. We introduce a novel input weakly convex neural network (IWCNN) construction to adapt the method of learned adversarial regularization to the CNC framework. Empirically we show that our method overcomes numerical issues of previous adversarial methods.",
+    "path": "papers/23/10/2310.05812.json",
+    "total_tokens": 708,
+    "translated_title": "可证收敛的数据驱动凸非凸正则化",
+    "translated_abstract": "通过使用深度学习从数据中学习正则化器是解决逆问题的新兴范式。这导致了高质量的结果，但往往无法提供可证明的保证。在这项工作中，我们展示了在凸非凸（CNC）框架中出现了良定义性和收敛性正则化的原因。我们引入了一种新颖的弱凸输入神经网络（IWCNN）构建，将学习对抗性正则化方法适应到CNC框架中。从实验证明，我们的方法克服了之前对抗性方法的数值问题。",
+    "tldr": "本研究展示了在凸非凸框架中，通过从数据中学习正则化器，可以实现收敛正则化；引入了一种新颖的弱凸输入神经网络构建，解决了之前对抗性方法的数值问题。",
+    "en_tdlr": "This study demonstrates convergent regularization within the convex-nonconvex framework by learning regularizers from data; introduces a novel input weakly convex neural network construction that overcomes numerical issues of previous adversarial methods."
+}

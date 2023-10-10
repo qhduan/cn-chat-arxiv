@@ -1,0 +1,12 @@
+{
+    "title": "A Generalization Bound of Deep Neural Networks for Dependent Data. (arXiv:2310.05892v1 [stat.ML])",
+    "abstract": "Existing generalization bounds for deep neural networks require data to be independent and identically distributed (iid). This assumption may not hold in real-life applications such as evolutionary biology, infectious disease epidemiology, and stock price prediction. This work establishes a generalization bound of feed-forward neural networks for non-stationary $\\phi$-mixing data.",
+    "link": "http://arxiv.org/abs/2310.05892",
+    "context": "Title: A Generalization Bound of Deep Neural Networks for Dependent Data. (arXiv:2310.05892v1 [stat.ML])\nAbstract: Existing generalization bounds for deep neural networks require data to be independent and identically distributed (iid). This assumption may not hold in real-life applications such as evolutionary biology, infectious disease epidemiology, and stock price prediction. This work establishes a generalization bound of feed-forward neural networks for non-stationary $\\phi$-mixing data.",
+    "path": "papers/23/10/2310.05892.json",
+    "total_tokens": 513,
+    "translated_title": "深度神经网络对相关数据的泛化界限",
+    "translated_abstract": "现有的深度神经网络泛化界限要求数据是独立同分布的，而在现实应用中，如进化生物学、传染病流行病学和股价预测中，这个假设可能不成立。本研究建立了前馈神经网络在非平稳 $\\phi$-混合数据上的泛化界限。",
+    "tldr": "该研究在非平稳相关数据上建立了前馈神经网络的泛化界限。",
+    "en_tdlr": "This study establishes the generalization bound of feed-forward neural networks on non-stationary dependent data."
+}

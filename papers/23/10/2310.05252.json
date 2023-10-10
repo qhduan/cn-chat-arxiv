@@ -1,0 +1,11 @@
+{
+    "title": "Equivalence between individual and group strategy-proofness under stability. (arXiv:2310.05252v1 [econ.TH])",
+    "abstract": "This paper studies the (group) strategy-proofness aspect of two-sided matching markets under stability. For a one-to-one matching market, we show an equivalence between individual and group strategy-proofness under stability. We obtain this equivalence assuming the domain satisfies a richness condition. However, the result cannot be extended to the many-to-one matching markets. We further consider a setting with single-peaked preferences and characterize all domains compatible for stability and (group) strategy-proofness.",
+    "link": "http://arxiv.org/abs/2310.05252",
+    "context": "Title: Equivalence between individual and group strategy-proofness under stability. (arXiv:2310.05252v1 [econ.TH])\nAbstract: This paper studies the (group) strategy-proofness aspect of two-sided matching markets under stability. For a one-to-one matching market, we show an equivalence between individual and group strategy-proofness under stability. We obtain this equivalence assuming the domain satisfies a richness condition. However, the result cannot be extended to the many-to-one matching markets. We further consider a setting with single-peaked preferences and characterize all domains compatible for stability and (group) strategy-proofness.",
+    "path": "papers/23/10/2310.05252.json",
+    "total_tokens": 728,
+    "translated_title": "个体与群体在稳定性下策略无虞的等价性",
+    "translated_abstract": "本文研究了稳定性下双边匹配市场中（群体）策略无虞的方面。对于一对一匹配市场，我们在稳定性下证明了个体和群体策略无虞之间的等价性。我们在满足一定丰富性条件的情况下得出了这个等价性。然而，这个结论不能推广到多对一匹配市场。我们进一步考虑了具有单峰偏好的情景，并刻画了所有满足稳定性和（群体）策略无虞的域。",
+    "tldr": "本文研究了稳定性下双边匹配市场中个体和群体策略无虞的等价性，对于一对一匹配市场成立，但不能推广到多对一匹配市场，并进一步考虑了单峰偏好情景下的稳定性和策略无虞条件。"
+}

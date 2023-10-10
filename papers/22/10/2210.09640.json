@@ -1,0 +1,12 @@
+{
+    "title": "Clustering Categorical Data: Soft Rounding k-modes. (arXiv:2210.09640v3 [cs.LG] UPDATED)",
+    "abstract": "Over the last three decades, researchers have intensively explored various clustering tools for categorical data analysis. Despite the proposal of various clustering algorithms, the classical k-modes algorithm remains a popular choice for unsupervised learning of categorical data. Surprisingly, our first insight is that in a natural generative block model, the k-modes algorithm performs poorly for a large range of parameters. We remedy this issue by proposing a soft rounding variant of the k-modes algorithm (SoftModes) and theoretically prove that our variant addresses the drawbacks of the k-modes algorithm in the generative model. Finally, we empirically verify that SoftModes performs well on both synthetic and real-world datasets.",
+    "link": "http://arxiv.org/abs/2210.09640",
+    "context": "Title: Clustering Categorical Data: Soft Rounding k-modes. (arXiv:2210.09640v3 [cs.LG] UPDATED)\nAbstract: Over the last three decades, researchers have intensively explored various clustering tools for categorical data analysis. Despite the proposal of various clustering algorithms, the classical k-modes algorithm remains a popular choice for unsupervised learning of categorical data. Surprisingly, our first insight is that in a natural generative block model, the k-modes algorithm performs poorly for a large range of parameters. We remedy this issue by proposing a soft rounding variant of the k-modes algorithm (SoftModes) and theoretically prove that our variant addresses the drawbacks of the k-modes algorithm in the generative model. Finally, we empirically verify that SoftModes performs well on both synthetic and real-world datasets.",
+    "path": "papers/22/10/2210.09640.json",
+    "total_tokens": 754,
+    "translated_title": "分类数据聚类：基于软舍入的k-modes算法",
+    "translated_abstract": "在过去的三十年中，研究人员对于分类数据分析提出了各种聚类工具。尽管提出了许多聚类算法，经典的k-modes算法仍然是无监督学习分类数据的热门选择。令人惊讶的是，我们的第一个发现是，在一个自然生成的块模型中，对于大范围的参数，k-modes算法表现不佳。我们通过提出k-modes算法的软舍入变种（SoftModes）来解决这个问题，并在理论上证明了我们的变种解决了k-modes算法在生成模型中的缺点。最后，我们通过实验证明SoftModes在合成数据集和真实世界数据集上表现良好。",
+    "tldr": "本研究提出了基于软舍入的k-modes算法（SoftModes），解决了经典k-modes算法在生成模型中的缺点，并在合成数据集和真实世界数据集上表现良好。",
+    "en_tdlr": "This paper proposes a soft rounding variant of the k-modes algorithm (SoftModes) to address the drawbacks of the classical k-modes algorithm in a generative model. Empirical results show that SoftModes performs well on both synthetic and real-world datasets."
+}

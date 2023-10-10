@@ -1,0 +1,11 @@
+{
+    "title": "Unbounded Markov Dynamic Programming with Weighted Supremum Norm Perov Contractions. (arXiv:2310.04593v1 [math.OC])",
+    "abstract": "This paper shows the usefulness of the Perov contraction theorem, which is a generalization of the classical Banach contraction theorem, for solving Markov dynamic programming problems. When the reward function is unbounded, combining an appropriate weighted supremum norm with the Perov contraction theorem yields a unique fixed point of the Bellman operator under weaker conditions than existing approaches. An application to the optimal savings problem shows that the average growth rate condition derived from the spectral radius of a certain nonnegative matrix is sufficient and almost necessary for obtaining a solution.",
+    "link": "http://arxiv.org/abs/2310.04593",
+    "context": "Title: Unbounded Markov Dynamic Programming with Weighted Supremum Norm Perov Contractions. (arXiv:2310.04593v1 [math.OC])\nAbstract: This paper shows the usefulness of the Perov contraction theorem, which is a generalization of the classical Banach contraction theorem, for solving Markov dynamic programming problems. When the reward function is unbounded, combining an appropriate weighted supremum norm with the Perov contraction theorem yields a unique fixed point of the Bellman operator under weaker conditions than existing approaches. An application to the optimal savings problem shows that the average growth rate condition derived from the spectral radius of a certain nonnegative matrix is sufficient and almost necessary for obtaining a solution.",
+    "path": "papers/23/10/2310.04593.json",
+    "total_tokens": 739,
+    "translated_title": "具有加权极大范数Perov收缩的无界马尔可夫动态规划",
+    "translated_abstract": "本文展示了Perov收缩定理在求解马尔可夫动态规划问题中的有效性，Perov收缩定理是经典Banach收缩定理的推广。当奖励函数是无界的时候，将合适的加权极大范数与Perov收缩定理相结合，可以在比现有方法更弱的条件下得到Bellman算子的唯一不动点。将其应用于最优储蓄问题表明，通过特定非负矩阵的谱半径导出的平均增长率条件足够且几乎是必要的。",
+    "tldr": "本文证明了Perov收缩定理在解决马尔可夫动态规划问题中的实用性，特别是在奖励函数无界的情况下。通过将加权极大范数与Perov收缩定理结合使用，可以在比现有方法更弱的条件下得到Bellman算子的唯一不动点。在最优储蓄问题中的应用表明，通过特定非负矩阵的谱半径导出的平均增长率条件是解决问题的充分且几乎必要的条件。"
+}

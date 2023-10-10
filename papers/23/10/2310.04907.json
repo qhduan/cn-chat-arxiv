@@ -1,0 +1,12 @@
+{
+    "title": "An Information Theory Approach to the Stock and Cryptocurrency Market: A Statistical Equilibrium Perspective. (arXiv:2310.04907v1 [econ.TH])",
+    "abstract": "We study the stochastic structure of cryptocurrency rates of returns as compared to stock returns by focusing on the associated cross-sectional distributions. We build two datasets. The first comprises forty-six major cryptocurrencies, and the second includes all the companies listed in the S&P 500. We collect individual data from January 2017 until December 2022. We then apply the Quantal Response Statistical Equilibrium (QRSE) model to recover the cross-sectional frequency distribution of the daily returns of cryptocurrencies and S&P 500 companies. We study the stochastic structure of these two markets and the properties of investors' behavior over bear and bull trends. Finally, we compare the degree of informational efficiency of these two markets.",
+    "link": "http://arxiv.org/abs/2310.04907",
+    "context": "Title: An Information Theory Approach to the Stock and Cryptocurrency Market: A Statistical Equilibrium Perspective. (arXiv:2310.04907v1 [econ.TH])\nAbstract: We study the stochastic structure of cryptocurrency rates of returns as compared to stock returns by focusing on the associated cross-sectional distributions. We build two datasets. The first comprises forty-six major cryptocurrencies, and the second includes all the companies listed in the S&P 500. We collect individual data from January 2017 until December 2022. We then apply the Quantal Response Statistical Equilibrium (QRSE) model to recover the cross-sectional frequency distribution of the daily returns of cryptocurrencies and S&P 500 companies. We study the stochastic structure of these two markets and the properties of investors' behavior over bear and bull trends. Finally, we compare the degree of informational efficiency of these two markets.",
+    "path": "papers/23/10/2310.04907.json",
+    "total_tokens": 752,
+    "translated_title": "信息论视角下的股票与加密货币市场研究：统计均衡的观点",
+    "translated_abstract": "本文研究了加密货币回报率与股票回报率之间的随机结构，重点关注相关横截面分布。我们构建了两个数据集，第一个包括四十六个主要加密货币，第二个包括标普500指数中所有上市公司。我们收集了从2017年1月到2022年12月的个体数据。然后，我们应用量化响应统计均衡（QRSE）模型来恢复加密货币和标普500公司的每日回报的横截面频率分布。我们研究了这两个市场的随机结构以及在熊市和牛市趋势下投资者行为的特性。最后，我们比较了这两个市场的信息效率程度。",
+    "tldr": "本文通过研究加密货币和股票市场的随机结构、投资者行为特性和信息效率程度，提供了一个统计均衡的观点。",
+    "en_tdlr": "This paper provides a statistical equilibrium perspective by studying the stochastic structure, investor behavior, and informational efficiency of the cryptocurrency and stock markets."
+}

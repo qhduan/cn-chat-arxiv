@@ -1,0 +1,12 @@
+{
+    "title": "On migration to Perpetual Enterprise System. (arXiv:2104.04844v4 [cs.SE] UPDATED)",
+    "abstract": "This document describes a pragmatic approach on how to migrate an organisation computer system towards a new system that could evolve forever, addresses the whole organisation and it is integrated.  Governance aspects are as important, if not more, than purely technical IT aspects: human resources, call for tenders, and similar. Migration implies that one is not starting from a green field.",
+    "link": "http://arxiv.org/abs/2104.04844",
+    "context": "Title: On migration to Perpetual Enterprise System. (arXiv:2104.04844v4 [cs.SE] UPDATED)\nAbstract: This document describes a pragmatic approach on how to migrate an organisation computer system towards a new system that could evolve forever, addresses the whole organisation and it is integrated.  Governance aspects are as important, if not more, than purely technical IT aspects: human resources, call for tenders, and similar. Migration implies that one is not starting from a green field.",
+    "path": "papers/21/04/2104.04844.json",
+    "total_tokens": 555,
+    "translated_title": "关于迁移到永续企业系统的研究",
+    "translated_abstract": "本文介绍了一种实际的方法，用于将组织的计算系统迁移到一个可以永久演进且整合整个组织的新系统。治理方面和纯技术IT方面一样重要，甚至更重要：人力资源、招标等。迁移意味着不是从零开始。",
+    "tldr": "本研究提出了一种实际的方法，用于将组织的计算系统迁移到一个可以永久演进且整合整个组织的新系统，强调治理和技术两个方面的重要性。",
+    "en_tdlr": "This study presents a pragmatic approach for migrating an organization's computer system to a new system that can evolve indefinitely and integrate the entire organization, emphasizing the importance of governance and technical aspects."
+}
