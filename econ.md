@@ -8,14 +8,15 @@
 | [^4] | [Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity.](http://arxiv.org/abs/2310.05985) | 该研究利用英国国家统计办公室的微观数据，研究了人工智能技术对英国企业的劳动生产力影响，并得出结论：人工智能的采用对劳动生产力没有统计上显著的影响。 |
 | [^5] | [Economic Theory as Successive Approximations of Statistical Moments.](http://arxiv.org/abs/2310.05971) | 本文研究了宏观经济变量与市场交易、价格和回报的统计矩之间的关系，并介绍了一个二次平均过程来确定宏观经济变量的统计矩。 |
 | [^6] | [The Mediating Effect of Blockchain Technology on the Cryptocurrency Purchase Intention.](http://arxiv.org/abs/2310.05970) | 本研究通过考虑客户服务、成本降低、效率和可靠性等因素，解释了区块链技术在加密货币购买中的易于使用和有用性的中介效应。 |
-| [^7] | [A Reexamination of Proof Approaches for the Impossibility Theorem.](http://arxiv.org/abs/2309.06753) | 本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。 |
-| [^8] | [Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think.](http://arxiv.org/abs/2302.13455) | 本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。 |
-| [^9] | [Decomposition and Interpretation of Treatment Effects in Settings with Delayed Outcomes.](http://arxiv.org/abs/2302.11505) | 本文对处理对结果的平均因果效应进行了研究，考虑了结果实现不及时的情况，研究了经常用于估计平均处理效应的几种标准，并探讨了不同标准的解释方式。研究结果表明，三种最受欢迎的估计量通常不满足强符号保留。 |
-| [^10] | [Optimal Pre-Analysis Plans: Statistical Decisions Subject to Implementability.](http://arxiv.org/abs/2208.09638) | 本研究提出了一个委托-代理模型来解决先分析计划的设计问题，通过实施具有可行性的统计决策规则，发现先分析计划在实施中起着重要作用，特别是对于假设检验来说，最优拒绝规则需要预先注册有效的检验并对未报告的数据做最坏情况假设。 |
-| [^11] | [Sample Complexity of Forecast Aggregation.](http://arxiv.org/abs/2207.13126) | 本文研究了一种预测聚合模型，考虑了贝叶斯方法应用于专家命中后的信号汇聚。论文中提供了对于该问题的样本复杂度，表明该复杂度至少为 $\tilde \Omega(m^{n-2} / \varepsilon)$，其中 m 是每个专家信号空间的大小。 |
-| [^12] | [Reducing Marketplace Interference Bias Via Shadow Prices.](http://arxiv.org/abs/2205.02274) | 这项工作提出了在市场干扰存在的情况下运行标准实验并获得无偏估计的技术。通过优化估计全局治疗和全局对照的价值，并比较治疗组和影子价格的平均值，实现了降低市场干扰偏差。 |
-| [^13] | [Manipulation-Robust Regression Discontinuity Designs.](http://arxiv.org/abs/2009.07551) | 本研究提出了一种新的回归不连续设计的识别条件，解决了操纵变量可能导致的偏差问题，并提供了一种辅助假设来检测操纵。通过案例研究，我们展示了如何利用该方法解决实际问题。 |
-| [^14] | [Instrument Validity for Heterogeneous Causal Effects.](http://arxiv.org/abs/2009.01995) | 本论文提出了一个通用框架和非参数检验方法来检验异质因果效应模型中工具的有效性，可以应用于治疗多值有序或无序的情况，并且可以帮助检测无效工具以避免因果效应不合理的结果。 |
+| [^7] | [Network Ecology of Marriage.](http://arxiv.org/abs/2310.05928) | 婚姻被视为一种社交技术，通过增加家庭社交网络图的相互联系，减少合作群体内的搭便车现象。 |
+| [^8] | [A Reexamination of Proof Approaches for the Impossibility Theorem.](http://arxiv.org/abs/2309.06753) | 本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。 |
+| [^9] | [Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think.](http://arxiv.org/abs/2302.13455) | 本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。 |
+| [^10] | [Decomposition and Interpretation of Treatment Effects in Settings with Delayed Outcomes.](http://arxiv.org/abs/2302.11505) | 本文对处理对结果的平均因果效应进行了研究，考虑了结果实现不及时的情况，研究了经常用于估计平均处理效应的几种标准，并探讨了不同标准的解释方式。研究结果表明，三种最受欢迎的估计量通常不满足强符号保留。 |
+| [^11] | [Optimal Pre-Analysis Plans: Statistical Decisions Subject to Implementability.](http://arxiv.org/abs/2208.09638) | 本研究提出了一个委托-代理模型来解决先分析计划的设计问题，通过实施具有可行性的统计决策规则，发现先分析计划在实施中起着重要作用，特别是对于假设检验来说，最优拒绝规则需要预先注册有效的检验并对未报告的数据做最坏情况假设。 |
+| [^12] | [Sample Complexity of Forecast Aggregation.](http://arxiv.org/abs/2207.13126) | 本文研究了一种预测聚合模型，考虑了贝叶斯方法应用于专家命中后的信号汇聚。论文中提供了对于该问题的样本复杂度，表明该复杂度至少为 $\tilde \Omega(m^{n-2} / \varepsilon)$，其中 m 是每个专家信号空间的大小。 |
+| [^13] | [Reducing Marketplace Interference Bias Via Shadow Prices.](http://arxiv.org/abs/2205.02274) | 这项工作提出了在市场干扰存在的情况下运行标准实验并获得无偏估计的技术。通过优化估计全局治疗和全局对照的价值，并比较治疗组和影子价格的平均值，实现了降低市场干扰偏差。 |
+| [^14] | [Manipulation-Robust Regression Discontinuity Designs.](http://arxiv.org/abs/2009.07551) | 本研究提出了一种新的回归不连续设计的识别条件，解决了操纵变量可能导致的偏差问题，并提供了一种辅助假设来检测操纵。通过案例研究，我们展示了如何利用该方法解决实际问题。 |
+| [^15] | [Instrument Validity for Heterogeneous Causal Effects.](http://arxiv.org/abs/2009.01995) | 本论文提出了一个通用框架和非参数检验方法来检验异质因果效应模型中工具的有效性，可以应用于治疗多值有序或无序的情况，并且可以帮助检测无效工具以避免因果效应不合理的结果。 |
 
 # 详细
 
@@ -103,7 +104,21 @@
 
     Cryptocurrencies, enabling secure digital asset transfers without a central authority, are experiencing increasing interest. With the increasing number of global and Turkish investors, it is evident that interest in digital assets will continue to rise sustainably, even in the face of financial fluctuations. However, it remains uncertain whether consumers perceive blockchain technology's ease of use and usefulness when purchasing cryptocurrencies. This study aims to explain blockchain technology's perceived ease of use and usefulness in cryptocurrency purchases by considering factors such as quality customer service, reduced costs, efficiency, and reliability. To achieve this goal, data were obtained from 463 participants interested in cryptocurrencies in different regions of Turkey. The data were analyzed using SPSS Process Macro programs. The analysis results indicate that perceived ease of use and usefulness mediate the effects of customer service and reduced costs, efficiency, and 
     
-[^7]: 重新审视不可能性定理的证明方法
+[^7]: 婚姻的网络生态学
+
+    Network Ecology of Marriage. (arXiv:2310.05928v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2310.05928](http://arxiv.org/abs/2310.05928)
+
+    婚姻被视为一种社交技术，通过增加家庭社交网络图的相互联系，减少合作群体内的搭便车现象。
+
+    
+
+    尽管婚姻在人类文化中普遍存在，但它在行为科学中仍然是一个研究不足的现象。本建模论文表明，将远亲变成亲家增加了家庭社交网络图的相互联系，从而使得更多的合作和更大的群体成为可能。从这个角度来看，婚姻可以被视为一种减少合作群体内部搭便车现象的社交技术。这种方法提供了一个解决之 puzzle 的解释，即为什么我们的物种在调节交配行为方面有着这种特殊形式，这在配对结合的动物中是独特的。
+
+    The practice of marriage is an understudied phenomenon in behavioural sciences despite being ubiquitous across human cultures. This modelling paper shows that replacing distant direct kin with in-laws increases the interconnectedness of the family social network graph, which allows more cooperative and larger groups. In this framing, marriage can be seen as a social technology that reduces free-riding within collaborative group. This approach offers a solution to the puzzle of why our species has this particular form of regulating mating behaviour, uniquely among pair-bonded animals.
+    
+[^8]: 重新审视不可能性定理的证明方法
 
     A Reexamination of Proof Approaches for the Impossibility Theorem. (arXiv:2309.06753v1 [econ.TH])
 
@@ -117,7 +132,7 @@
 
     The decisive-set and pivotal-voter approaches have been used for proving Arrow's impossibility theorem. Proofs by these approaches consider only subsets of all possible social welfare functions and examine parts of the domain of these functions. Hence, both ideas are not effective to prove the theorem. This study presents a proof using a proof calculus in logic. A valid deductive inference between the premises, the axioms and conditions of the theorem, and the conclusion, dictatorship, guarantees that every profile of all possible social welfare functions is examined, thereby the theorem is established.
     
-[^8]: 面板局部投影中的隐式尼克尔偏误：金融危机比你想象的更糟。
+[^9]: 面板局部投影中的隐式尼克尔偏误：金融危机比你想象的更糟。
 
     Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think. (arXiv:2302.13455v2 [econ.EM] UPDATED)
 
@@ -131,7 +146,7 @@
 
     Local projection (LP) is a popular approach in empirical macroeconomics to estimate the impulse responses, and the conventional fixed effect (FE) estimator is the default estimation method when LP is carried over into panel data. This paper discovers an implicit Nickell bias for the FE estimator in the panel LP due to its inherent dynamic structure, invalidating the standard hypothesis testing based on the $t$-statistic. We propose using the half-panel jackknife estimator to eliminate the bias and restore the standard statistical inference, and show that the theoretical results are supported by Monte Carlo simulations. By revisiting three seminal macro-finance studies on the linkage between financial crises and economic contraction, we find that the FE estimator substantially underestimates the economic losses following financial crises.
     
-[^9]: 延迟结果情形下的处理效果分解和解释
+[^10]: 延迟结果情形下的处理效果分解和解释
 
     Decomposition and Interpretation of Treatment Effects in Settings with Delayed Outcomes. (arXiv:2302.11505v2 [econ.EM] UPDATED)
 
@@ -145,7 +160,7 @@
 
     This paper studies settings where the analyst is interested in identifying and estimating the average causal effect of a binary treatment on an outcome. We consider a setup in which the outcome realization does not get immediately realized after the treatment assignment, a feature that is ubiquitous in empirical settings. The period between the treatment and the realization of the outcome allows other observed actions to occur and affect the outcome. In this context, we study several regression-based estimands routinely used in empirical work to capture the average treatment effect and shed light on interpreting them in terms of ceteris paribus effects, indirect causal effects, and selection terms. We obtain three main and related takeaways. First, the three most popular estimands do not generally satisfy what we call strong sign preservation, in the sense that these estimands may be negative even when the treatment positively affects the outcome conditional on any possible combination
     
-[^10]: 最优先分析计划：受限于可实施性的统计决策
+[^11]: 最优先分析计划：受限于可实施性的统计决策
 
     Optimal Pre-Analysis Plans: Statistical Decisions Subject to Implementability. (arXiv:2208.09638v2 [econ.EM] UPDATED)
 
@@ -159,7 +174,7 @@
 
     What is the purpose of pre-analysis plans, and how should they be designed? We propose a principal-agent model where a decision-maker relies on selective but truthful reports by an analyst. The analyst has data access, and non-aligned objectives. In this model, the implementation of statistical decision rules (tests, estimators) requires an incentive-compatible mechanism. We first characterize which decision rules can be implemented. We then characterize optimal statistical decision rules subject to implementability. We show that implementation requires pre-analysis plans. Focussing specifically on hypothesis tests, we show that optimal rejection rules pre-register a valid test for the case when all data is reported, and make worst-case assumptions about unreported data. Optimal tests can be found as a solution to a linear-programming problem.
     
-[^11]: 预测聚合的样本复杂度
+[^12]: 预测聚合的样本复杂度
 
     Sample Complexity of Forecast Aggregation. (arXiv:2207.13126v3 [cs.LG] UPDATED)
 
@@ -173,7 +188,7 @@
 
     We consider a Bayesian forecast aggregation model where $n$ experts, after observing private signals about an unknown binary event, report their posterior beliefs about the event to a principal, who then aggregates the reports into a single prediction for the event. The signals of the experts and the outcome of the event follow a joint distribution that is unknown to the principal, but the principal has access to i.i.d. "samples" from the distribution, where each sample is a tuple of the experts' reports (not signals) and the realization of the event. Using these samples, the principal aims to find an $\varepsilon$-approximately optimal aggregator, where optimality is measured in terms of the expected squared distance between the aggregated prediction and the realization of the event. We show that the sample complexity of this problem is at least $\tilde \Omega(m^{n-2} / \varepsilon)$ for arbitrary discrete distributions, where $m$ is the size of each expert's signal space. This sample
     
-[^12]: 通过影子价格降低市场干扰偏差
+[^13]: 通过影子价格降低市场干扰偏差
 
     Reducing Marketplace Interference Bias Via Shadow Prices. (arXiv:2205.02274v3 [math.OC] UPDATED)
 
@@ -187,7 +202,7 @@
 
     Marketplace companies rely heavily on experimentation when making changes to the design or operation of their platforms. The workhorse of experimentation is the randomized controlled trial (RCT), or A/B test, in which users are randomly assigned to treatment or control groups. However, marketplace interference causes the Stable Unit Treatment Value Assumption (SUTVA) to be violated, leading to bias in the standard RCT metric. In this work, we propose techniques for platforms to run standard RCTs and still obtain meaningful estimates despite the presence of marketplace interference. We specifically consider a generalized matching setting, in which the platform explicitly matches supply with demand via a linear programming algorithm. Our first proposal is for the platform to estimate the value of global treatment and global control via optimization. We prove that this approach is unbiased in the fluid limit. Our second proposal is to compare the average shadow price of the treatment and 
     
-[^13]: 鲁棒性回归不连续设计中的操纵问题
+[^14]: 鲁棒性回归不连续设计中的操纵问题
 
     Manipulation-Robust Regression Discontinuity Designs. (arXiv:2009.07551v5 [econ.EM] UPDATED)
 
@@ -201,7 +216,7 @@
 
     We present a new identification condition for regression discontinuity designs. We replace the local randomization of Lee (2008) with two restrictions on its threat, namely, the manipulation of the running variable. Furthermore, we provide the first auxiliary assumption of McCrary's (2008) diagnostic test to detect manipulation. Based on our auxiliary assumption, we derive a novel expression of moments that immediately implies the worst-case bounds of Gerard, Rokkanen, and Rothe (2020) and an enhanced interpretation of their target parameters. We highlight two issues: an overlooked source of identification failure, and a missing auxiliary assumption to detect manipulation. In the case studies, we illustrate our solution to these issues using institutional details and economic theories.
     
-[^14]: 异质因果效应的工具有效性检验
+[^15]: 异质因果效应的工具有效性检验
 
     Instrument Validity for Heterogeneous Causal Effects. (arXiv:2009.01995v5 [econ.EM] UPDATED)
 

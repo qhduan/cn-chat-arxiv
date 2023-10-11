@@ -1,0 +1,12 @@
+{
+    "title": "Network Ecology of Marriage. (arXiv:2310.05928v1 [physics.soc-ph])",
+    "abstract": "The practice of marriage is an understudied phenomenon in behavioural sciences despite being ubiquitous across human cultures. This modelling paper shows that replacing distant direct kin with in-laws increases the interconnectedness of the family social network graph, which allows more cooperative and larger groups. In this framing, marriage can be seen as a social technology that reduces free-riding within collaborative group. This approach offers a solution to the puzzle of why our species has this particular form of regulating mating behaviour, uniquely among pair-bonded animals.",
+    "link": "http://arxiv.org/abs/2310.05928",
+    "context": "Title: Network Ecology of Marriage. (arXiv:2310.05928v1 [physics.soc-ph])\nAbstract: The practice of marriage is an understudied phenomenon in behavioural sciences despite being ubiquitous across human cultures. This modelling paper shows that replacing distant direct kin with in-laws increases the interconnectedness of the family social network graph, which allows more cooperative and larger groups. In this framing, marriage can be seen as a social technology that reduces free-riding within collaborative group. This approach offers a solution to the puzzle of why our species has this particular form of regulating mating behaviour, uniquely among pair-bonded animals.",
+    "path": "papers/23/10/2310.05928.json",
+    "total_tokens": 653,
+    "translated_title": "婚姻的网络生态学",
+    "translated_abstract": "尽管婚姻在人类文化中普遍存在，但它在行为科学中仍然是一个研究不足的现象。本建模论文表明，将远亲变成亲家增加了家庭社交网络图的相互联系，从而使得更多的合作和更大的群体成为可能。从这个角度来看，婚姻可以被视为一种减少合作群体内部搭便车现象的社交技术。这种方法提供了一个解决之 puzzle 的解释，即为什么我们的物种在调节交配行为方面有着这种特殊形式，这在配对结合的动物中是独特的。",
+    "tldr": "婚姻被视为一种社交技术，通过增加家庭社交网络图的相互联系，减少合作群体内的搭便车现象。",
+    "en_tdlr": "Marriage is seen as a social technology that reduces free-riding within cooperative groups by increasing the interconnectedness of the family social network graph."
+}
