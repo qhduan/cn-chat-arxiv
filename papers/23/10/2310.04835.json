@@ -1,0 +1,11 @@
+{
+    "title": "On the Evolution of Knowledge Graphs: A Survey and Perspective. (arXiv:2310.04835v2 [cs.AI] UPDATED)",
+    "abstract": "Knowledge graphs (KGs) are structured representations of diversified knowledge. They are widely used in various intelligent applications. In this article, we provide a comprehensive survey on the evolution of various types of knowledge graphs (i.e., static KGs, dynamic KGs, temporal KGs, and event KGs) and techniques for knowledge extraction and reasoning. Furthermore, we introduce the practical applications of different types of KGs, including a case study in financial analysis. Finally, we propose our perspective on the future directions of knowledge engineering, including the potential of combining the power of knowledge graphs and large language models (LLMs), and the evolution of knowledge extraction, reasoning, and representation.",
+    "link": "http://arxiv.org/abs/2310.04835",
+    "context": "Title: On the Evolution of Knowledge Graphs: A Survey and Perspective. (arXiv:2310.04835v2 [cs.AI] UPDATED)\nAbstract: Knowledge graphs (KGs) are structured representations of diversified knowledge. They are widely used in various intelligent applications. In this article, we provide a comprehensive survey on the evolution of various types of knowledge graphs (i.e., static KGs, dynamic KGs, temporal KGs, and event KGs) and techniques for knowledge extraction and reasoning. Furthermore, we introduce the practical applications of different types of KGs, including a case study in financial analysis. Finally, we propose our perspective on the future directions of knowledge engineering, including the potential of combining the power of knowledge graphs and large language models (LLMs), and the evolution of knowledge extraction, reasoning, and representation.",
+    "path": "papers/23/10/2310.04835.json",
+    "total_tokens": 737,
+    "translated_title": "关于知识图谱的演化：一项调研和展望",
+    "translated_abstract": "知识图谱（KGs）是多样化知识的结构化表示，广泛应用于各种智能应用。本文对各种类型的知识图谱的演化（静态KGs，动态KGs，时态KGs和事件KGs）和知识提取和推理技术进行了全面调查。此外，我们介绍了不同类型的KGs的实际应用，包括财务分析的案例研究。最后，我们提出了关于知识工程未来方向的展望，包括结合知识图谱和大语言模型（LLMs）的力量以及知识提取、推理和表示的演化。",
+    "tldr": "本文对各种类型的知识图谱进行了全面调研，介绍了知识提取和推理技术，并展望了结合知识图谱和大语言模型的力量以及知识工程的未来方向。"
+}

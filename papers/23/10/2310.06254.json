@@ -1,0 +1,12 @@
+{
+    "title": "Get the gist? Using large language models for few-shot decontextualization. (arXiv:2310.06254v1 [cs.CL])",
+    "abstract": "In many NLP applications that involve interpreting sentences within a rich context -- for instance, information retrieval systems or dialogue systems -it is desirable to be able to preserve the sentence in a form that can be readily understood without context, for later reuse -- a process known as ``decontextualization''. While previous work demonstrated that generative Seq2Seq models could effectively perform decontextualization after being fine-tuned on a specific dataset, this approach requires expensive human annotations and may not transfer to other domains. We propose a few-shot method of decontextualization using a large language model, and present preliminary results showing that this method achieves viable performance on multiple domains using only a small set of examples.",
+    "link": "http://arxiv.org/abs/2310.06254",
+    "context": "Title: Get the gist? Using large language models for few-shot decontextualization. (arXiv:2310.06254v1 [cs.CL])\nAbstract: In many NLP applications that involve interpreting sentences within a rich context -- for instance, information retrieval systems or dialogue systems -it is desirable to be able to preserve the sentence in a form that can be readily understood without context, for later reuse -- a process known as ``decontextualization''. While previous work demonstrated that generative Seq2Seq models could effectively perform decontextualization after being fine-tuned on a specific dataset, this approach requires expensive human annotations and may not transfer to other domains. We propose a few-shot method of decontextualization using a large language model, and present preliminary results showing that this method achieves viable performance on multiple domains using only a small set of examples.",
+    "path": "papers/23/10/2310.06254.json",
+    "total_tokens": 747,
+    "translated_title": "看梗？使用大型语言模型进行少样本去背景化",
+    "translated_abstract": "在涉及解释富有上下文的句子的许多自然语言处理应用中，例如信息检索系统或对话系统，很有必要能够将句子保留在一个可以在没有上下文的情况下轻松理解的形式中，以便以后重新使用，这个过程被称为“去背景化”。虽然以前的工作证明了经过细调的生成型Seq2Seq模型可以有效地进行特定数据集上的去背景化，但这种方法需要昂贵的人工注释，而且可能无法迁移到其他领域。我们提出了一种使用大型语言模型的少样本去背景化方法，并展示了初步结果，表明该方法在多个领域上仅使用少量样本即可达到可行的性能。",
+    "tldr": "本文提出了一种使用大型语言模型的少样本去背景化方法，该方法能够在多个领域上仅使用少量样本即可达到可行的性能。",
+    "en_tdlr": "This paper proposes a few-shot method of decontextualization using a large language model, which achieves viable performance on multiple domains using only a small set of examples."
+}

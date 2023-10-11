@@ -1,0 +1,11 @@
+{
+    "title": "Predictable Artificial Intelligence. (arXiv:2310.06167v1 [cs.AI])",
+    "abstract": "We introduce the fundamental ideas and challenges of Predictable AI, a nascent research area that explores the ways in which we can anticipate key indicators of present and future AI ecosystems. We argue that achieving predictability is crucial for fostering trust, liability, control, alignment and safety of AI ecosystems, and thus should be prioritised over performance. While distinctive from other areas of technical and non-technical AI research, the questions, hypotheses and challenges relevant to Predictable AI were yet to be clearly described. This paper aims to elucidate them, calls for identifying paths towards AI predictability and outlines the potential impact of this emergent field.",
+    "link": "http://arxiv.org/abs/2310.06167",
+    "context": "Title: Predictable Artificial Intelligence. (arXiv:2310.06167v1 [cs.AI])\nAbstract: We introduce the fundamental ideas and challenges of Predictable AI, a nascent research area that explores the ways in which we can anticipate key indicators of present and future AI ecosystems. We argue that achieving predictability is crucial for fostering trust, liability, control, alignment and safety of AI ecosystems, and thus should be prioritised over performance. While distinctive from other areas of technical and non-technical AI research, the questions, hypotheses and challenges relevant to Predictable AI were yet to be clearly described. This paper aims to elucidate them, calls for identifying paths towards AI predictability and outlines the potential impact of this emergent field.",
+    "path": "papers/23/10/2310.06167.json",
+    "total_tokens": 753,
+    "translated_title": "可预测人工智能",
+    "translated_abstract": "我们介绍了可预测人工智能的基本思想和挑战，这是一个探索如何预测现有和未来人工智能生态系统关键指标的新兴研究领域。我们认为，实现可预测性对于促进人工智能生态系统的信任、责任、控制、协调和安全至关重要，因此应优先考虑而非性能。尽管与其他技术和非技术的人工智能研究领域有所不同，但与可预测人工智能相关的问题、假设和挑战尚未被清楚描述。本文旨在阐明这些问题，呼吁找到通向人工智能可预测性的路径，并概述这一新兴领域的潜在影响。",
+    "tldr": "可预测人工智能是一个新兴研究领域，旨在预测人工智能生态系统的关键指标，并强调可预测性对于提高信任、责任、控制、协调和安全的重要性。"
+}

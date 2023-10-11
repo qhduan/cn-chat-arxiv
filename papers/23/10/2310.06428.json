@@ -1,0 +1,12 @@
+{
+    "title": "Proceedings of The first international workshop on eXplainable AI for the Arts (XAIxArts). (arXiv:2310.06428v1 [cs.AI])",
+    "abstract": "This first international workshop on explainable AI for the Arts (XAIxArts) brought together a community of researchers in HCI, Interaction Design, AI, explainable AI (XAI), and digital arts to explore the role of XAI for the Arts.  Workshop held at the 15th ACM Conference on Creativity and Cognition (C&C 2023).",
+    "link": "http://arxiv.org/abs/2310.06428",
+    "context": "Title: Proceedings of The first international workshop on eXplainable AI for the Arts (XAIxArts). (arXiv:2310.06428v1 [cs.AI])\nAbstract: This first international workshop on explainable AI for the Arts (XAIxArts) brought together a community of researchers in HCI, Interaction Design, AI, explainable AI (XAI), and digital arts to explore the role of XAI for the Arts.  Workshop held at the 15th ACM Conference on Creativity and Cognition (C&C 2023).",
+    "path": "papers/23/10/2310.06428.json",
+    "total_tokens": 632,
+    "translated_title": "第一届可解释人工智能艺术国际研讨会(XAIxArts)论文集",
+    "translated_abstract": "这个第一届可解释人工智能艺术国际研讨会（XAIxArts）汇集了人机交互、交互设计、人工智能和可解释人工智能（XAI），以及数字艺术等领域的研究者，探讨了可解释人工智能在艺术领域的作用。此研讨会在第15届ACM创新与认知大会（C&C 2023）上举行。",
+    "tldr": "这个论文集汇集了来自人机交互、交互设计、人工智能和数字艺术等领域的研究者，讨论了可解释人工智能在艺术领域的作用。",
+    "en_tdlr": "This workshop proceedings bring together researchers from the fields of HCI, Interaction Design, AI, and digital arts to discuss the role of explainable AI in the arts."
+}

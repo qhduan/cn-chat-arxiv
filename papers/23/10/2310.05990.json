@@ -1,0 +1,11 @@
+{
+    "title": "Data Augmentation through Pseudolabels in Automatic Region Based Coronary Artery Segmentation for Disease Diagnosis. (arXiv:2310.05990v1 [eess.IV])",
+    "abstract": "Coronary Artery Diseases(CADs) though preventable are one of the leading causes of death and disability. Diagnosis of these diseases is often difficult and resource intensive. Segmentation of arteries in angiographic images has evolved as a tool for assistance, helping clinicians in making accurate diagnosis. However, due to the limited amount of data and the difficulty in curating a dataset, the task of segmentation has proven challenging. In this study, we introduce the idea of using pseudolabels as a data augmentation technique to improve the performance of the baseline Yolo model. This method increases the F1 score of the baseline by 9% in the validation dataset and by 3% in the test dataset.",
+    "link": "http://arxiv.org/abs/2310.05990",
+    "context": "Title: Data Augmentation through Pseudolabels in Automatic Region Based Coronary Artery Segmentation for Disease Diagnosis. (arXiv:2310.05990v1 [eess.IV])\nAbstract: Coronary Artery Diseases(CADs) though preventable are one of the leading causes of death and disability. Diagnosis of these diseases is often difficult and resource intensive. Segmentation of arteries in angiographic images has evolved as a tool for assistance, helping clinicians in making accurate diagnosis. However, due to the limited amount of data and the difficulty in curating a dataset, the task of segmentation has proven challenging. In this study, we introduce the idea of using pseudolabels as a data augmentation technique to improve the performance of the baseline Yolo model. This method increases the F1 score of the baseline by 9% in the validation dataset and by 3% in the test dataset.",
+    "path": "papers/23/10/2310.05990.json",
+    "total_tokens": 779,
+    "translated_title": "数据增强在自动区域性冠状动脉分割中的应用：伪标签法用于疾病诊断",
+    "translated_abstract": "冠状动脉疾病（CAD）是可预防的主要死亡和残疾原因之一。这些疾病的诊断通常困难且资源密集。血管造影图像中的动脉分割已经演变成为一种辅助工具，可以帮助临床医生进行准确的诊断。然而，由于数据量有限且构建数据集的困难，分割任务一直很具挑战性。在本研究中，我们引入了使用伪标签作为数据增强技术来改善基准Yolo模型性能的思想。该方法在验证数据集中将基线的F1分数提高了9％，在测试数据集中提高了3％。",
+    "tldr": "这项研究引入了伪标签作为数据增强技术，通过改善基准Yolo模型的性能，提高了冠状动脉分割的效果。"
+}

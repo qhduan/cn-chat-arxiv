@@ -1,0 +1,11 @@
+{
+    "title": "MemSum-DQA: Adapting An Efficient Long Document Extractive Summarizer for Document Question Answering. (arXiv:2310.06436v1 [cs.CL])",
+    "abstract": "We introduce MemSum-DQA, an efficient system for document question answering (DQA) that leverages MemSum, a long document extractive summarizer. By prefixing each text block in the parsed document with the provided question and question type, MemSum-DQA selectively extracts text blocks as answers from documents. On full-document answering tasks, this approach yields a 9% improvement in exact match accuracy over prior state-of-the-art baselines. Notably, MemSum-DQA excels in addressing questions related to child-relationship understanding, underscoring the potential of extractive summarization techniques for DQA tasks.",
+    "link": "http://arxiv.org/abs/2310.06436",
+    "context": "Title: MemSum-DQA: Adapting An Efficient Long Document Extractive Summarizer for Document Question Answering. (arXiv:2310.06436v1 [cs.CL])\nAbstract: We introduce MemSum-DQA, an efficient system for document question answering (DQA) that leverages MemSum, a long document extractive summarizer. By prefixing each text block in the parsed document with the provided question and question type, MemSum-DQA selectively extracts text blocks as answers from documents. On full-document answering tasks, this approach yields a 9% improvement in exact match accuracy over prior state-of-the-art baselines. Notably, MemSum-DQA excels in addressing questions related to child-relationship understanding, underscoring the potential of extractive summarization techniques for DQA tasks.",
+    "path": "papers/23/10/2310.06436.json",
+    "total_tokens": 760,
+    "translated_title": "MemSum-DQA: 将高效的长文档提取式摘要器应用于文档问答中的适应性",
+    "translated_abstract": "我们介绍了MemSum-DQA，这是一个用于文档问答（DQA）的高效系统，它利用了MemSum，一种长文档提取式摘要器。通过在解析文档中的每个文本块前加上提供的问题和问题类型，MemSum-DQA可以有选择地从文档中提取文本块作为答案。在全文回答任务中，这种方法相比之前的最先进基线模型提高了9%的精确匹配准确性。值得注意的是，MemSum-DQA在处理与子关系理解有关的问题上表现出色，凸显了提取式摘要技术在DQA任务中的潜力。",
+    "tldr": "MemSum-DQA是一个用于文档问答的高效系统，它利用了MemSum的提取式摘要技术，通过选择性提取文本块作为答案，准确性提高了9%并在子关系理解方面表现出色。"
+}

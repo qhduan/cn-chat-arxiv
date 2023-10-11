@@ -1,0 +1,12 @@
+{
+    "title": "Toward Trustworthy Neural Program Synthesis. (arXiv:2210.00848v2 [cs.SE] UPDATED)",
+    "abstract": "We develop an approach to estimate the probability that a program sampled from a large language model is correct. Given a natural language description of a programming problem, our method samples both candidate programs as well as candidate predicates specifying how the program should behave. This allows learning a model that forms a well-calibrated probabilistic prediction of program correctness. Our system also infers which predicates are useful to explain the behavior of the generated code, and humans preferred these in a human study over raw language model outputs. Our method is simple, easy to implement, and maintains state of the art generation accuracy results.",
+    "link": "http://arxiv.org/abs/2210.00848",
+    "context": "Title: Toward Trustworthy Neural Program Synthesis. (arXiv:2210.00848v2 [cs.SE] UPDATED)\nAbstract: We develop an approach to estimate the probability that a program sampled from a large language model is correct. Given a natural language description of a programming problem, our method samples both candidate programs as well as candidate predicates specifying how the program should behave. This allows learning a model that forms a well-calibrated probabilistic prediction of program correctness. Our system also infers which predicates are useful to explain the behavior of the generated code, and humans preferred these in a human study over raw language model outputs. Our method is simple, easy to implement, and maintains state of the art generation accuracy results.",
+    "path": "papers/22/10/2210.00848.json",
+    "total_tokens": 707,
+    "translated_title": "朝着可信的神经程序合成之路",
+    "translated_abstract": "我们提出了一种估计从大型语言模型中采样的程序正确性概率的方法。给定一个自然语言描述的编程问题，我们的方法既采样候选程序，又采样候选谓词来指定程序的行为。这样可以学习一个能够生成良好校准程序正确性概率预测的模型。我们的系统还推断出生成代码行为解释中有用的谓词，并且在人类实验中，人们更偏好这些谓词而不是原始语言模型的输出。我们的方法简单、易于实现，并且保持了最先进的生成准确性结果。",
+    "tldr": "我们提出了一种能够估计大型语言模型中采样程序正确性概率的简单方法，通过采样候选程序和候选谓词来预测程序的正确性，并推断出关于生成代码行为解释的有用谓词。",
+    "en_tdlr": "We propose a simple method to estimate the probability of program correctness from a large language model. By sampling candidate programs and predicates, we predict the correctness of the program and infer useful predicates for explaining the behavior of the generated code."
+}

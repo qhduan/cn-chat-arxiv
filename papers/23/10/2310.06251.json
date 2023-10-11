@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning: A Tutorial. (arXiv:2310.06251v1 [stat.ML])",
+    "abstract": "Our goal is to provide a review of deep learning methods which provide insight into structured high-dimensional data. Rather than using shallow additive architectures common to most statistical models, deep learning uses layers of semi-affine input transformations to provide a predictive rule. Applying these layers of transformations leads to a set of attributes (or, features) to which probabilistic statistical methods can be applied. Thus, the best of both worlds can be achieved: scalable prediction rules fortified with uncertainty quantification, where sparse regularization finds the features.",
+    "link": "http://arxiv.org/abs/2310.06251",
+    "context": "Title: Deep Learning: A Tutorial. (arXiv:2310.06251v1 [stat.ML])\nAbstract: Our goal is to provide a review of deep learning methods which provide insight into structured high-dimensional data. Rather than using shallow additive architectures common to most statistical models, deep learning uses layers of semi-affine input transformations to provide a predictive rule. Applying these layers of transformations leads to a set of attributes (or, features) to which probabilistic statistical methods can be applied. Thus, the best of both worlds can be achieved: scalable prediction rules fortified with uncertainty quantification, where sparse regularization finds the features.",
+    "path": "papers/23/10/2310.06251.json",
+    "total_tokens": 628,
+    "translated_title": "深度学习：一篇教程",
+    "translated_abstract": "我们的目标是提供对深度学习方法的回顾，以揭示对结构化高维数据的洞察。与大多数统计模型常用的浅层加性结构不同，深度学习使用多层半仿射输入转换来提供预测规则。应用这些转换层导致一组属性（或特征），可以应用概率统计方法。因此，我们可以同时达到可扩展的预测规则和不确定性量化，其中稀疏正则化找到了特征。",
+    "tldr": "该论文讲述了深度学习方法对结构化高维数据的洞察和预测规则，通过使用多层半仿射输入转换来提供预测规则并找到特征。",
+    "en_tdlr": "This paper provides an overview of deep learning methods for insight into structured high-dimensional data and predictive rules, using multiple layers of semi-affine input transformations to find features."
+}

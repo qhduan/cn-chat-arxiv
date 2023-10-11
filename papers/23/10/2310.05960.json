@@ -1,0 +1,11 @@
+{
+    "title": "Fingerprint Attack: Client De-Anonymization in Federated Learning. (arXiv:2310.05960v1 [cs.CR])",
+    "abstract": "Federated Learning allows collaborative training without data sharing in settings where participants do not trust the central server and one another. Privacy can be further improved by ensuring that communication between the participants and the server is anonymized through a shuffle; decoupling the participant identity from their data. This paper seeks to examine whether such a defense is adequate to guarantee anonymity, by proposing a novel fingerprinting attack over gradients sent by the participants to the server. We show that clustering of gradients can easily break the anonymization in an empirical study of learning federated language models on two language corpora. We then show that training with differential privacy can provide a practical defense against our fingerprint attack.",
+    "link": "http://arxiv.org/abs/2310.05960",
+    "context": "Title: Fingerprint Attack: Client De-Anonymization in Federated Learning. (arXiv:2310.05960v1 [cs.CR])\nAbstract: Federated Learning allows collaborative training without data sharing in settings where participants do not trust the central server and one another. Privacy can be further improved by ensuring that communication between the participants and the server is anonymized through a shuffle; decoupling the participant identity from their data. This paper seeks to examine whether such a defense is adequate to guarantee anonymity, by proposing a novel fingerprinting attack over gradients sent by the participants to the server. We show that clustering of gradients can easily break the anonymization in an empirical study of learning federated language models on two language corpora. We then show that training with differential privacy can provide a practical defense against our fingerprint attack.",
+    "path": "papers/23/10/2310.05960.json",
+    "total_tokens": 773,
+    "translated_title": "指纹攻击：联邦学习中的客户端去匿名化",
+    "translated_abstract": "联邦学习允许在参与者不相信中央服务器和彼此的情况下进行协作训练，而无需共享数据。通过确保参与者与服务器之间的通信经过混洗，将参与者身份与其数据分离，还可以进一步提高隐私。本文旨在通过提出一种新颖的梯度指纹攻击来检验这种防御是否足以保证匿名性。我们在两个语言语料库上的联邦语言模型的实证研究中展示了梯度聚类可以轻松地打破匿名化。然后，我们展示了使用差分隐私进行训练可以提供对我们的指纹攻击的实际防御。",
+    "tldr": "本文研究了在联邦学习中，通过梯度指纹攻击可以轻松打破参与者匿名化，并展示了使用差分隐私进行训练可以提供实际防御。"
+}

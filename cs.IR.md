@@ -2,187 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Workload-aware and Learned Z-Indexes.](http://arxiv.org/abs/2310.04268) | 本文提出了一种基于工作负载和学习的Z-索引变体，通过优化存储布局和搜索结构，改善了范围查询性能，并通过引入页面跳跃机制进一步提升查询性能。实验证明，该索引在范围查询时间、点查询性能和构建时间与索引大小之间保持了良好的平衡。 |
-| [^2] | [Accurate Cold-start Bundle Recommendation via Popularity-based Coalescence and Curriculum Heating.](http://arxiv.org/abs/2310.03813) | 本文提出了CoHeat算法，一种准确的冷启动捆绑推荐方法。该算法通过结合历史和关联信息，应对捆绑互动分布的倾斜，并有效地学习潜在表示。 |
-| [^3] | [Personalized Transformer-based Ranking for e-Commerce at Yandex.](http://arxiv.org/abs/2310.03481) | 本文提出了一个基于个性化Transformer的电子商务排名系统，通过优化排名阶段的特征生成，提高了推荐质量。同时，还引入了一种新颖的技术用于解决偏置上下文的问题。 |
-| [^4] | [Interactive Content Diversity and User Exploration in Online Movie Recommenders: A Field Experiment.](http://arxiv.org/abs/2309.13296) | 这项研究通过访谈、调查和在线实验，在理解用户对于电影推荐系统广度的情感方面取得了一些发现，狭窄的推荐被认为是有用的，但也有一部分用户希望获得更广泛的推荐。 |
-| [^5] | [Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation.](http://arxiv.org/abs/2309.05238) | 本论文研究了为了更有效地筛选系统性审查生成自然语言查询的方法。通过探索使用不同的查询来源，如用于检索文档和基于指令的大规模语言模型生成的查询，我们提出了一种新的方法，可以在筛选过程中更准确地排名重要文档，并取得了很好的效果。 |
-| [^6] | [ConvFormer: Revisiting Transformer for Sequential User Modeling.](http://arxiv.org/abs/2308.02925) | ConvFormer是一种对Transformer架构进行改进的方法，旨在提高顺序用户建模的性能。通过重新审视Transformer的核心构建模块和分析项目对项目机制，在进行实验分析后确定了三个基本标准，并引入了ConvFormer来满足这些标准。 |
-| [^7] | [Probabilistic Deep Supervision Network: A Noise-Resilient Approach for QoS Prediction.](http://arxiv.org/abs/2308.02580) | PDS-Net is a novel framework for QoS prediction that effectively reduces errors resulting from noise data by utilizing a probabilistic space and a condition-based multitasking loss function. |
-| [^8] | [COPR: Consistency-Oriented Pre-Ranking for Online Advertising.](http://arxiv.org/abs/2306.03516) | 该论文提出了一种面向一致性的在线广告预排名框架，利用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。他们采用了基于Delta NDCG的加权机制，以更好地区分重要性。 |
-| [^9] | [Sequential Condition Evolved Interaction Knowledge Graph for Traditional Chinese Medicine Recommendation.](http://arxiv.org/abs/2305.17866) | 本文提出了一种新颖的顺序演化条件互动知识图谱 (SCEIKG) 框架，用于中医药推荐。这个框架通过考虑患者在多次就诊中的病情动态和草药的相互作用，提供准确的推荐。 |
-| [^10] | [Knowledge Rumination for Pre-trained Language Models.](http://arxiv.org/abs/2305.08732) | 本文提出了一种名为知识反思的新范式，旨在帮助预训练语言模型利用已经编码在其预训练参数中的相关潜在知识，而不需要从外部语料库中检索。这种方法通过在模型中添加提示，并将相关知识注入模型进行整合，取得了在常识推理任务和GLUE基准上的实验结果。 |
-| [^11] | [PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue.](http://arxiv.org/abs/2302.06674) | PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。 |
-| [^12] | [GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph.](http://arxiv.org/abs/2105.02605) | GraphFormers是一种将GNN嵌套到Transformer中的方法，通过迭代式的工作流程，准确理解文本图中每个节点的语义，同时引入渐进式学习加速训练。 |
+| [^1] | [Query-dominant User Interest Network for Large-Scale Search Ranking.](http://arxiv.org/abs/2310.06444) | 本文提出了一种名为查询主导用户兴趣网络（QIN）的模型，通过过滤和重新权重用户行为子序列来充分利用用户的长期兴趣，以提高个性化搜索排名的效果。 |
+| [^2] | [Harnessing Administrative Data Inventories to Create a Reliable Transnational Reference Database for Crop Type Monitoring.](http://arxiv.org/abs/2310.06393) | 通过利用行政数据清单，本研究创建了一个跨国参考作物类型监测数据库，解决了大规模获取可靠高质量参考数据的问题。 |
+| [^3] | [P5: Plug-and-Play Persona Prompting for Personalized Response Selection.](http://arxiv.org/abs/2310.06390) | 提出了一种即插即用的个人角色提示方法，用于个性化回答选择的检索对话机器人。这种方法在零样本设置下表现良好，减少了对基于个人角色的训练数据的依赖，并且使得系统更容易扩展到其他语言。 |
+| [^4] | [MuseChat: A Conversational Music Recommendation System for Videos.](http://arxiv.org/abs/2310.06282) | MuseChat是一种创新的对话式音乐推荐系统，通过模拟用户和推荐系统之间的对话交互，利用预训练的音乐标签和艺术家信息，为用户提供定制的音乐推荐，使用户可以个性化选择他们喜欢的音乐。 |
+| [^5] | [DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries.](http://arxiv.org/abs/2310.04678) | DORIS-MAE是一个用于科学文档检索的新任务，旨在处理复杂的多方面查询。研究团队构建了一个基准数据集，并提出了一个基于大型语言模型的验证框架。 |
+| [^6] | [Unbiased and Robust: External Attention-enhanced Graph Contrastive Learning for Cross-domain Sequential Recommendation.](http://arxiv.org/abs/2310.04633) | 提出了一个增强外部注意力的图对比学习框架，能够消除跨领域密度偏差并稳定地捕捉用户的行为模式。 |
+| [^7] | [LEEC: A Legal Element Extraction Dataset with an Extensive Domain-Specific Label System.](http://arxiv.org/abs/2310.01271) | 本文提出了一个具有广泛领域特定标签系统的大规模刑事要素提取数据集，通过借助法律专家团队和法律知识的注释，可以增强法律案例的解释和分析能力。 |
+| [^8] | [Pure Message Passing Can Estimate Common Neighbor for Link Prediction.](http://arxiv.org/abs/2309.00976) | 这篇论文提出了一种纯粹的消息传递方法，用于估计共同邻居进行链路预测。该方法通过利用输入向量的正交性来捕捉联合结构特征，提出了一种新的链路预测模型MPLP，该模型利用准正交向量估计链路级结构特征，同时保留了节点级复杂性。 |
+| [^9] | [DocumentNet: Bridging the Data Gap in Document Pre-Training.](http://arxiv.org/abs/2306.08937) | 这项研究提出了DocumentNet方法，通过从Web上收集大规模和弱标注的数据，弥合了文档预训练中的数据差距，并在各类VDER任务中展现了显著的性能提升。 |
 
 # 详细
 
-[^1]: 基于工作负载和学习的Z-索引
+[^1]: 大规模搜索排名的查询主导用户兴趣网络
 
-    Workload-aware and Learned Z-Indexes. (arXiv:2310.04268v1 [cs.DB])
+    Query-dominant User Interest Network for Large-Scale Search Ranking. (arXiv:2310.06444v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.04268](http://arxiv.org/abs/2310.04268)
+    [http://arxiv.org/abs/2310.06444](http://arxiv.org/abs/2310.06444)
 
-    本文提出了一种基于工作负载和学习的Z-索引变体，通过优化存储布局和搜索结构，改善了范围查询性能，并通过引入页面跳跃机制进一步提升查询性能。实验证明，该索引在范围查询时间、点查询性能和构建时间与索引大小之间保持了良好的平衡。
-
-    
-
-    本文提出了一种基于工作负载和学习的Z-索引的变体，该索引同时优化存储布局和搜索结构，作为解决空间索引的挑战的可行解决方案。具体来说，我们首先制定了一个成本函数，用于衡量Z-索引在数据集上的范围查询工作负载下的性能。然后，通过自适应分区和排序优化Z-索引结构，最小化成本函数。此外，我们设计了一种新颖的页面跳跃机制，通过减少对无关数据页面的访问来改善查询性能。我们广泛的实验证明，相比基线，我们的索引平均改善了40%的范围查询时间，同时始终表现得更好或与最先进的空间索引相当。此外，我们的索引在提供有利的构建时间和索引大小权衡的同时，保持良好的点查询性能。
-
-    In this paper, a learned and workload-aware variant of a Z-index, which jointly optimizes storage layout and search structures, as a viable solution for the above challenges of spatial indexing. Specifically, we first formulate a cost function to measure the performance of a Z-index on a dataset for a range-query workload. Then, we optimize the Z-index structure by minimizing the cost function through adaptive partitioning and ordering for index construction. Moreover, we design a novel page-skipping mechanism to improve its query performance by reducing access to irrelevant data pages. Our extensive experiments show that our index improves range query time by 40% on average over the baselines, while always performing better or comparably to state-of-the-art spatial indexes. Additionally, our index maintains good point query performance while providing favourable construction time and index size tradeoffs.
-    
-[^2]: 准确的冷启动捆绑推荐：基于流行度的聚合和课程加热
-
-    Accurate Cold-start Bundle Recommendation via Popularity-based Coalescence and Curriculum Heating. (arXiv:2310.03813v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.03813](http://arxiv.org/abs/2310.03813)
-
-    本文提出了CoHeat算法，一种准确的冷启动捆绑推荐方法。该算法通过结合历史和关联信息，应对捆绑互动分布的倾斜，并有效地学习潜在表示。
+    本文提出了一种名为查询主导用户兴趣网络（QIN）的模型，通过过滤和重新权重用户行为子序列来充分利用用户的长期兴趣，以提高个性化搜索排名的效果。
 
     
 
-    如何准确地向用户推荐冷启动捆绑？捆绑推荐中的冷启动问题在实际场景中至关重要，因为新建捆绑不断出现以满足各种营销目的。尽管其重要性，之前没有研究涉及冷启动捆绑推荐。此外，现有的冷启动物品推荐方法过于依赖历史信息，即使对于不受欢迎的捆绑也是如此，无法应对捆绑互动分布高度倾斜的主要挑战。在这项工作中，我们提出了CoHeat（基于流行度的聚合和课程加热），这是一种准确的冷启动捆绑推荐方法。CoHeat通过结合历史信息和关联信息来估计用户与捆绑之间的关系，以应对捆绑互动分布的高度倾斜问题。此外，CoHeat还通过利用课程学习和聚合特征学习效果地学习潜在表示。
+    历史行为在推荐和信息检索等各种预测任务中展示了巨大的效果和潜力。整体历史行为多样但噪声很大，而搜索行为经常很稀疏。个性化搜索排名中大多数现有方法采用稀疏的搜索行为来学习表示，但不充分利用关键的长期兴趣。事实上，对于即时搜索来说，用户的长期兴趣是多样但噪声很大的，如何充分利用它仍然是一个未解决的问题。为了解决这个问题，我们在这项工作中提出了一个名为查询主导用户兴趣网络（QIN）的新模型，包括两个级联单元来过滤原始用户行为并重新权重行为子序列。具体而言，我们提出了一个相关搜索单元（RSU），其目标是首先搜索与查询相关的子序列，然后搜索与目标项相关的子子序列。
 
-    How can we accurately recommend cold-start bundles to users? The cold-start problem in bundle recommendation is critical in practical scenarios since new bundles are continuously created for various marketing purposes. Despite its importance, no previous studies have addressed cold-start bundle recommendation. Moreover, existing methods for cold-start item recommendation overly rely on historical information, even for unpopular bundles, failing to tackle the primary challenge of the highly skewed distribution of bundle interactions. In this work, we propose CoHeat (Popularity-based Coalescence and Curriculum Heating), an accurate approach for the cold-start bundle recommendation. CoHeat tackles the highly skewed distribution of bundle interactions by incorporating both historical and affiliation information based on the bundle's popularity when estimating the user-bundle relationship. Furthermore, CoHeat effectively learns latent representations by exploiting curriculum learning and co
+    Historical behaviors have shown great effect and potential in various prediction tasks, including recommendation and information retrieval. The overall historical behaviors are various but noisy while search behaviors are always sparse. Most existing approaches in personalized search ranking adopt the sparse search behaviors to learn representation with bottleneck, which do not sufficiently exploit the crucial long-term interest. In fact, there is no doubt that user long-term interest is various but noisy for instant search, and how to exploit it well still remains an open problem.  To tackle this problem, in this work, we propose a novel model named Query-dominant user Interest Network (QIN), including two cascade units to filter the raw user behaviors and reweigh the behavior subsequences. Specifically, we propose a relevance search unit (RSU), which aims to search a subsequence relevant to the query first and then search the sub-subsequences relevant to the target item. These items 
     
-[^3]: 基于个性化Transformer的Yandex电子商务排名系统
+[^2]: 利用行政数据清单创建可靠的跨国参考作物类型监测数据库
 
-    Personalized Transformer-based Ranking for e-Commerce at Yandex. (arXiv:2310.03481v1 [cs.IR])
+    Harnessing Administrative Data Inventories to Create a Reliable Transnational Reference Database for Crop Type Monitoring. (arXiv:2310.06393v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.03481](http://arxiv.org/abs/2310.03481)
+    [http://arxiv.org/abs/2310.06393](http://arxiv.org/abs/2310.06393)
 
-    本文提出了一个基于个性化Transformer的电子商务排名系统，通过优化排名阶段的特征生成，提高了推荐质量。同时，还引入了一种新颖的技术用于解决偏置上下文的问题。
-
-    
-
-    以用户活动为基础，个性化地提供高质量的推荐对于电子商务平台至关重要，特别是在用户意图不明确的情况下，如主页上。最近，基于嵌入式的个性化系统在电子商务领域的推荐和搜索结果质量方面有了显著的提升。然而，这些工作大多集中在增强检索阶段。在本文中，我们证明了针对电子商务推荐中的排名阶段，检索聚焦的深度学习模型产生的特征是次优的。为了解决这个问题，我们提出了一个两阶段训练过程，通过微调两塔模型来实现最佳的排名性能。我们详细描述了我们专门为电子商务个性化设计的基于Transformer的两塔模型架构。此外，我们还引入了一种新颖的离线模型中去偏置上下文的技术。
-
-    Personalizing the user experience with high-quality recommendations based on user activities is vital for e-commerce platforms. This is particularly important in scenarios where the user's intent is not explicit, such as on the homepage. Recently, personalized embedding-based systems have significantly improved the quality of recommendations and search results in the e-commerce domain. However, most of these works focus on enhancing the retrieval stage.  In this paper, we demonstrate that features produced by retrieval-focused deep learning models are sub-optimal for ranking stage in e-commerce recommendations. To address this issue, we propose a two-stage training process that fine-tunes two-tower models to achieve optimal ranking performance. We provide a detailed description of our transformer-based two-tower model architecture, which is specifically designed for personalization in e-commerce.  Additionally, we introduce a novel technique for debiasing context in offline models and 
-    
-[^4]: 在在线电影推荐系统中的互动内容多样性和用户探索：现场实验
-
-    Interactive Content Diversity and User Exploration in Online Movie Recommenders: A Field Experiment. (arXiv:2309.13296v1 [cs.HC] CROSS LISTED)
-
-    [http://arxiv.org/abs/2309.13296](http://arxiv.org/abs/2309.13296)
-
-    这项研究通过访谈、调查和在线实验，在理解用户对于电影推荐系统广度的情感方面取得了一些发现，狭窄的推荐被认为是有用的，但也有一部分用户希望获得更广泛的推荐。
+    通过利用行政数据清单，本研究创建了一个跨国参考作物类型监测数据库，解决了大规模获取可靠高质量参考数据的问题。
 
     
 
-    推荐系统常常难以在满足用户口味和提供意外推荐之间取得平衡。当推荐过于狭窄，无法涵盖用户偏好的完整范围时，系统被认为无用。相反，当系统建议太多用户不喜欢的物品时，被认为是冷漠或无效的。为了更好地了解用户对电影推荐系统广度的情感，我们进行了访谈和调查，并发现许多用户认为狭窄的推荐是有用的，而少数用户明确希望获得更广泛的推荐。此外，我们设计并进行了一项在线现场实验，评估了两种新接口，旨在向用户提供更广泛的推荐。我们观察了两组用户的偏好和行为：具有较高初始电影多样性和具有较低多样性的用户。在我们的发现中，
+    随着机器学习技术的飞速发展及其在地球观测挑战中的应用，该领域的性能得到了前所未有的提升。虽然这些方法的进一步发展以前受到传感器数据和计算资源的可用性和数量的限制，但缺乏足够的参考数据现在构成了新的瓶颈。由于创建这种地面真实信息是一项昂贵且容易出错的任务，必须想出新的方法在大规模上获取可靠高质量的参考数据。作为示例，我们展示了“E URO C ROPS”，这是一个作物类型分类的参考数据集，它聚合并协调了不同国家调查的行政数据，目的是实现跨国互操作性。
 
-    Recommender systems often struggle to strike a balance between matching users' tastes and providing unexpected recommendations. When recommendations are too narrow and fail to cover the full range of users' preferences, the system is perceived as useless. Conversely, when the system suggests too many items that users don't like, it is considered impersonal or ineffective. To better understand user sentiment about the breadth of recommendations given by a movie recommender, we conducted interviews and surveys and found out that many users considered narrow recommendations to be useful, while a smaller number explicitly wanted greater breadth. Additionally, we designed and ran an online field experiment with a larger user group, evaluating two new interfaces designed to provide users with greater access to broader recommendations. We looked at user preferences and behavior for two groups of users: those with higher initial movie diversity and those with lower diversity. Among our finding
+    With leaps in machine learning techniques and their applicationon Earth observation challenges has unlocked unprecedented performance across the domain. While the further development of these methods was previously limited by the availability and volume of sensor data and computing resources, the lack of adequate reference data is now constituting new bottlenecks. Since creating such ground-truth information is an expensive and error-prone task, new ways must be devised to source reliable, high-quality reference data on large scales. As an example, we showcase E URO C ROPS, a reference dataset for crop type classification that aggregates and harmonizes administrative data surveyed in different countries with the goal of transnational interoperability.
     
-[^5]: 为更有效的系统性审查筛选生成自然语言查询
+[^3]: P5: 用于个性化回答选择的即插即用个人角色提示
 
-    Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation. (arXiv:2309.05238v2 [cs.IR] UPDATED)
+    P5: Plug-and-Play Persona Prompting for Personalized Response Selection. (arXiv:2310.06390v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.05238](http://arxiv.org/abs/2309.05238)
+    [http://arxiv.org/abs/2310.06390](http://arxiv.org/abs/2310.06390)
 
-    本论文研究了为了更有效地筛选系统性审查生成自然语言查询的方法。通过探索使用不同的查询来源，如用于检索文档和基于指令的大规模语言模型生成的查询，我们提出了一种新的方法，可以在筛选过程中更准确地排名重要文档，并取得了很好的效果。
-
-    
-
-    医学系统性审查中的筛选优先级目标是通过复杂的布尔查询对检索到的文档集进行排名。优先处理最重要的文档可以确保后续审查步骤能够更高效、更有效地进行。目前的最新技术使用审查的最终标题作为查询，利用基于BERT的神经排序器对文档进行排名。然而，最终标题只在审查过程结束时形成，这使得该方法不切实际，因为它依赖于ex post facto的信息。在筛选的时候，只有一个粗略的工作标题可用，使用BERT-based排序器时效果明显不如最终标题。在本文中，我们探索了用于筛选优先级的查询的替代来源，例如用于检索待筛选文档的布尔查询，以及由基于指令的大规模语言模型（如ChatGPT和Alpaca）生成的查询。我们的最佳方法不仅仅是
-
-    Screening prioritisation in medical systematic reviews aims to rank the set of documents retrieved by complex Boolean queries. Prioritising the most important documents ensures that subsequent review steps can be carried out more efficiently and effectively. The current state of the art uses the final title of the review as a query to rank the documents using BERT-based neural rankers. However, the final title is only formulated at the end of the review process, which makes this approach impractical as it relies on ex post facto information. At the time of screening, only a rough working title is available, with which the BERT-based ranker performs significantly worse than with the final title. In this paper, we explore alternative sources of queries for prioritising screening, such as the Boolean query used to retrieve the documents to be screened and queries generated by instruction-based generative large-scale language models such as ChatGPT and Alpaca. Our best approach is not only
-    
-[^6]: ConvFormer：重新审视Transformer用于顺序用户建模
-
-    ConvFormer: Revisiting Transformer for Sequential User Modeling. (arXiv:2308.02925v2 [cs.AI] UPDATED)
-
-    [http://arxiv.org/abs/2308.02925](http://arxiv.org/abs/2308.02925)
-
-    ConvFormer是一种对Transformer架构进行改进的方法，旨在提高顺序用户建模的性能。通过重新审视Transformer的核心构建模块和分析项目对项目机制，在进行实验分析后确定了三个基本标准，并引入了ConvFormer来满足这些标准。
+    提出了一种即插即用的个人角色提示方法，用于个性化回答选择的检索对话机器人。这种方法在零样本设置下表现良好，减少了对基于个人角色的训练数据的依赖，并且使得系统更容易扩展到其他语言。
 
     
 
-    顺序用户建模是个性化推荐系统中的关键任务，其着重于预测用户最喜欢的下一个项目，需要深入理解用户的行为序列。尽管Transformer模型在各个领域取得了显着成功，但在理解用户行为方面尚未充分发挥其潜力。本文重新审视了Transformer类似的架构，旨在推进最先进的性能。我们首先重新审视Transformer方法的核心构建模块，在顺序用户建模的背景下分析项目对项目机制的有效性。在进行彻底的实验分析后，我们确定了三个设计高效顺序用户模型的基本标准，希望这些标准能作为实用指南，激发和塑造未来的设计。在此基础上，我们介绍了ConvFormer，一种对Transformer架构进行简单但强大修改的方法，满足了这些标准，从而提高了模型的性能。
+    使用基于个人角色的检索对话机器人对于个性化对话至关重要，但也面临一些挑战。1）通常情况下，收集基于个人角色的语料库非常昂贵。2）在实际应用中，对话机器人系统并不总是根据个人角色做出回应。为了解决这些挑战，我们提出了一种即插即用的个人角色提示方法。如果个人角色信息不可用，我们的系统可以作为标准的开放域对话机器人运行。我们证明了这种方法在零样本设置下表现良好，从而减少了对基于个人角色的训练数据的依赖。这使得在无需构建基于个人角色的语料库的情况下，更容易将该系统扩展到其他语言。此外，我们的模型可以进行微调以获得更好的性能。在实验中，零样本模型在原始个人角色和修订个人角色方面分别提高了7.71和1.04个点。
 
-    Sequential user modeling, a critical task in personalized recommender systems, focuses on predicting the next item a user would prefer, requiring a deep understanding of user behavior sequences. Despite the remarkable success of Transformer-based models across various domains, their full potential in comprehending user behavior remains untapped. In this paper, we re-examine Transformer-like architectures aiming to advance state-of-the-art performance. We start by revisiting the core building blocks of Transformer-based methods, analyzing the effectiveness of the item-to-item mechanism within the context of sequential user modeling. After conducting a thorough experimental analysis, we identify three essential criteria for devising efficient sequential user models, which we hope will serve as practical guidelines to inspire and shape future designs. Following this, we introduce ConvFormer, a simple but powerful modification to the Transformer architecture that meets these criteria, yiel
+    The use of persona-grounded retrieval-based chatbots is crucial for personalized conversations, but there are several challenges that need to be addressed. 1) In general, collecting persona-grounded corpus is very expensive. 2) The chatbot system does not always respond in consideration of persona at real applications. To address these challenges, we propose a plug-and-play persona prompting method. Our system can function as a standard open-domain chatbot if persona information is not available. We demonstrate that this approach performs well in the zero-shot setting, which reduces the dependence on persona-ground training data. This makes it easier to expand the system to other languages without the need to build a persona-grounded corpus. Additionally, our model can be fine-tuned for even better performance. In our experiments, the zero-shot model improved the standard model by 7.71 and 1.04 points in the original persona and revised persona, respectively. The fine-tuned model impro
     
-[^7]: Probabilistic Deep Supervision Network: 一种抗噪声的QoS预测方法
+[^4]: MuseChat:一种视频对话音乐推荐系统
 
-    Probabilistic Deep Supervision Network: A Noise-Resilient Approach for QoS Prediction. (arXiv:2308.02580v1 [cs.SE])
+    MuseChat: A Conversational Music Recommendation System for Videos. (arXiv:2310.06282v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.02580](http://arxiv.org/abs/2308.02580)
+    [http://arxiv.org/abs/2310.06282](http://arxiv.org/abs/2310.06282)
 
-    PDS-Net is a novel framework for QoS prediction that effectively reduces errors resulting from noise data by utilizing a probabilistic space and a condition-based multitasking loss function.
-
-    
-
-    在推荐系统中，QoS（服务质量）的预测是一项重要任务，准确预测未知的QoS值可以提高用户满意度。然而，现有的QoS预测技术在存在噪声数据（如虚假位置信息或虚拟网关）时可能表现不佳。在本文中，我们提出了一种新颖的QoS预测框架——概率深度监督网络（PDS-Net），以解决这个问题。PDS-Net利用基于高斯的概率空间监督中间层，并学习已知特征和真实标签的概率空间。此外，PDS-Net采用基于条件的多任务损失函数来识别具有噪声数据的对象，并通过优化这些对象的概率空间与真实标签概率空间之间的Kullback-Leibler距离，直接对从概率空间中采样的深度特征进行监督。因此，PDS-Net有效减少了因传播引起的错误。
-
-    Quality of Service (QoS) prediction is an essential task in recommendation systems, where accurately predicting unknown QoS values can improve user satisfaction. However, existing QoS prediction techniques may perform poorly in the presence of noise data, such as fake location information or virtual gateways. In this paper, we propose the Probabilistic Deep Supervision Network (PDS-Net), a novel framework for QoS prediction that addresses this issue. PDS-Net utilizes a Gaussian-based probabilistic space to supervise intermediate layers and learns probability spaces for both known features and true labels. Moreover, PDS-Net employs a condition-based multitasking loss function to identify objects with noise data and applies supervision directly to deep features sampled from the probability space by optimizing the Kullback-Leibler distance between the probability space of these objects and the real-label probability space. Thus, PDS-Net effectively reduces errors resulting from the propag
-    
-[^8]: COPR：面向一致性的在线广告预排名
-
-    COPR: Consistency-Oriented Pre-Ranking for Online Advertising. (arXiv:2306.03516v1 [cs.IR])
-
-    [http://arxiv.org/abs/2306.03516](http://arxiv.org/abs/2306.03516)
-
-    该论文提出了一种面向一致性的在线广告预排名框架，利用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。他们采用了基于Delta NDCG的加权机制，以更好地区分重要性。
+    MuseChat是一种创新的对话式音乐推荐系统，通过模拟用户和推荐系统之间的对话交互，利用预训练的音乐标签和艺术家信息，为用户提供定制的音乐推荐，使用户可以个性化选择他们喜欢的音乐。
 
     
 
-    级联架构被广泛应用于大规模广告系统中以平衡效率和效果。在这种架构中，预排名模型被期望成为一个轻量级的排名模型近似，以处理更多具有严格延迟要求的候选者。由于模型容量的差距，预排名和排名模型通常会生成不一致的排名结果，从而损害整个系统的效果。提出了得分对齐的范式以规范它们的原始分数，使它们保持一致。然而，在在线广告中应用时，由于必然的对齐误差和竞标的误差放大，它会遭受困扰。为此，我们引入了一个面向一致性的在线广告预排名框架，该框架采用了一个基于块的采样模块和一个即插即用的排名对齐模块，来显式优化ECPM排名结果的一致性。采用了基于$\Delta NDCG$的加权机制，以更好地区分重要性。
+    我们引入了MuseChat，一种创新的基于对话的音乐推荐系统。这个独特的平台不仅提供互动用户参与，还为输入的视频提供了定制的音乐推荐，使用户可以改进和个性化他们的音乐选择。与之相反，以前的系统主要强调内容的兼容性，往往忽视了用户个体偏好的细微差别。例如，所有的数据集都只提供基本的音乐-视频配对，或者带有音乐描述的配对。为了填补这一空白，我们的研究提供了三个贡献。首先，我们设计了一种对话合成方法，模拟了用户和推荐系统之间的两轮交互，利用预训练的音乐标签和艺术家信息。在这个交互中，用户提交一个视频给系统，系统会提供一个合适的音乐片段，并附带解释。之后，用户会表达他们对音乐的偏好，系统会呈现一个改进后的音乐推荐
 
-    Cascading architecture has been widely adopted in large-scale advertising systems to balance efficiency and effectiveness. In this architecture, the pre-ranking model is expected to be a lightweight approximation of the ranking model, which handles more candidates with strict latency requirements. Due to the gap in model capacity, the pre-ranking and ranking models usually generate inconsistent ranked results, thus hurting the overall system effectiveness. The paradigm of score alignment is proposed to regularize their raw scores to be consistent. However, it suffers from inevitable alignment errors and error amplification by bids when applied in online advertising. To this end, we introduce a consistency-oriented pre-ranking framework for online advertising, which employs a chunk-based sampling module and a plug-and-play rank alignment module to explicitly optimize consistency of ECPM-ranked results. A $\Delta NDCG$-based weighting mechanism is adopted to better distinguish the import
+    We introduce MuseChat, an innovative dialog-based music recommendation system. This unique platform not only offers interactive user engagement but also suggests music tailored for input videos, so that users can refine and personalize their music selections. In contrast, previous systems predominantly emphasized content compatibility, often overlooking the nuances of users' individual preferences. For example, all the datasets only provide basic music-video pairings or such pairings with textual music descriptions. To address this gap, our research offers three contributions. First, we devise a conversation-synthesis method that simulates a two-turn interaction between a user and a recommendation system, which leverages pre-trained music tags and artist information. In this interaction, users submit a video to the system, which then suggests a suitable music piece with a rationale. Afterwards, users communicate their musical preferences, and the system presents a refined music recomme
     
-[^9]: 《顺序演化条件互动知识图谱在中医药推荐中的应用》
+[^5]: DORIS-MAE: 使用多层级基于方面的查询进行科学文档检索
 
-    Sequential Condition Evolved Interaction Knowledge Graph for Traditional Chinese Medicine Recommendation. (arXiv:2305.17866v2 [cs.AI] UPDATED)
+    DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries. (arXiv:2310.04678v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2305.17866](http://arxiv.org/abs/2305.17866)
+    [http://arxiv.org/abs/2310.04678](http://arxiv.org/abs/2310.04678)
 
-    本文提出了一种新颖的顺序演化条件互动知识图谱 (SCEIKG) 框架，用于中医药推荐。这个框架通过考虑患者在多次就诊中的病情动态和草药的相互作用，提供准确的推荐。
-
-    
-
-    传统中医药 (TCM) 在治疗各种疾病时有着丰富的历史，利用天然草药。在实践中，TCM的诊断和治疗高度个性化，有机综合，需要全面考虑患者的状况和症状变化。然而，现有的TCM推荐方法忽略了患者状态的变化，只探索症状和处方之间的潜在模式。本文提出了一种新颖的顺序演化条件互动知识图谱 (SCEIKG) 框架，将模型视为一个顺序处方制定问题，考虑了患者在多次就诊中的病情动态。此外，我们还将互动知识图谱纳入到推荐中，通过考虑不同草药之间的相互作用和患者的状况来提高推荐的准确性。实验结果在真实数据集上表明，我们的方法优于现有的TCM推荐方法。
-
-    Traditional Chinese Medicine (TCM) has a rich history of utilizing natural herbs to treat a diversity of illnesses. In practice, TCM diagnosis and treatment are highly personalized and organically holistic, requiring comprehensive consideration of the patient's state and symptoms over time. However, existing TCM recommendation approaches overlook the changes in patient status and only explore potential patterns between symptoms and prescriptions. In this paper, we propose a novel Sequential Condition Evolved Interaction Knowledge Graph (SCEIKG), a framework that treats the model as a sequential prescription-making problem by considering the dynamics of the patient's condition across multiple visits. In addition, we incorporate an interaction knowledge graph to enhance the accuracy of recommendations by considering the interactions between different herbs and the patient's condition. Experimental results on a real-world dataset demonstrate that our approach outperforms existing TCM reco
-    
-[^10]: 预训练语言模型的知识反思
-
-    Knowledge Rumination for Pre-trained Language Models. (arXiv:2305.08732v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2305.08732](http://arxiv.org/abs/2305.08732)
-
-    本文提出了一种名为知识反思的新范式，旨在帮助预训练语言模型利用已经编码在其预训练参数中的相关潜在知识，而不需要从外部语料库中检索。这种方法通过在模型中添加提示，并将相关知识注入模型进行整合，取得了在常识推理任务和GLUE基准上的实验结果。
+    DORIS-MAE是一个用于科学文档检索的新任务，旨在处理复杂的多方面查询。研究团队构建了一个基准数据集，并提出了一个基于大型语言模型的验证框架。
 
     
 
-    先前的研究揭示了普通的预训练语言模型（PLMs）单独处理知识密集型NLP任务的能力不足，因此，一些工作尝试将外部知识集成到PLMs中。然而，尽管有着有前途的结果，但我们经验性地观察到，PLM可能已经在其预训练参数中编码了丰富的知识，但在应用到知识密集型任务时未能充分利用它们。在本文中，我们提出了一种名为知识反思的新范式，以帮助预训练语言模型利用相关的潜在知识，而不需要从外部语料库中检索它们。通过简单地在PLMs中添加一个如“据我所知”的提示，我们试图回顾相关的潜在知识，并将其注入模型以进行知识整合。我们将提出的知识反思应用于各种语言模型，包括RoBERTa、DeBERTa和GPT-3。在六个常识推理任务和GLUE基准上的实验结果显示.....
+    在科学研究中，根据复杂的多方面查询有效检索相关文档的能力至关重要。现有的评估数据集受限于注释复杂查询所需的高成本和努力。为了解决这个问题，我们提出了一种新颖的任务，科学文档检索中使用多层级基于方面的查询(DORIS-MAE)，旨在处理科学研究中用户查询的复杂性。我们在计算机科学领域内建立了一个基准数据集，包含100个人工编写的复杂查询案例。对于每个复杂查询，我们组织了100个相关文档集合，并为其排名产生了注释的相关性分数。鉴于专家注释的巨大工作量，我们还引入了Anno-GPT，这是一个可扩展的框架，用于验证大型语言模型（LLMs）在专家级数据集注释任务上的性能。
 
-    Previous studies have revealed that vanilla pre-trained language models (PLMs) lack the capacity to handle knowledge-intensive NLP tasks alone; thus, several works have attempted to integrate external knowledge into PLMs. However, despite the promising outcome, we empirically observe that PLMs may have already encoded rich knowledge in their pre-trained parameters but fail to fully utilize them when applying them to knowledge-intensive tasks. In this paper, we propose a new paradigm dubbed Knowledge Rumination to help the pre-trained language model utilize that related latent knowledge without retrieving it from the external corpus. By simply adding a prompt like "As far as I know" to the PLMs, we try to review related latent knowledge and inject them back into the model for knowledge consolidation. We apply the proposed knowledge rumination to various language models, including RoBERTa, DeBERTa, and GPT-3. Experimental results on six commonsense reasoning tasks and GLUE benchmarks dem
+    In scientific research, the ability to effectively retrieve relevant documents based on complex, multifaceted queries is critical. Existing evaluation datasets for this task are limited, primarily due to the high cost and effort required to annotate resources that effectively represent complex queries. To address this, we propose a novel task, Scientific DOcument Retrieval using Multi-level Aspect-based quEries (DORIS-MAE), which is designed to handle the complex nature of user queries in scientific research. We developed a benchmark dataset within the field of computer science, consisting of 100 human-authored complex query cases. For each complex query, we assembled a collection of 100 relevant documents and produced annotated relevance scores for ranking them. Recognizing the significant labor of expert annotation, we also introduce Anno-GPT, a scalable framework for validating the performance of Large Language Models (LLMs) on expert-level dataset annotation tasks. LLM annotation o
     
-[^11]: PK-ICR: 基于角色和知识的互动上下文检索进行基于场景对话
+[^6]: 无偏和鲁棒性：增强外部注意力的跨领域序列推荐中的图对比学习
 
-    PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue. (arXiv:2302.06674v2 [cs.CL] UPDATED)
+    Unbiased and Robust: External Attention-enhanced Graph Contrastive Learning for Cross-domain Sequential Recommendation. (arXiv:2310.04633v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2302.06674](http://arxiv.org/abs/2302.06674)
+    [http://arxiv.org/abs/2310.04633](http://arxiv.org/abs/2310.04633)
 
-    PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。
-
-    
-
-    鉴别与对话系统相关的角色和知识对于基于场景的对话应答生成至关重要。然而，目前每个对话基本上都是孤立研究的，而最近的工作中引入了更实际的多场景对话任务。我们将角色和知识双上下文识别定义为为给定的对话同时识别角色和知识的任务，在复杂的多场景对话设置中可能具有提升重要性。我们开发了一种新的基于检索的检索方法，可以同时利用对话的所有上下文信息。我们的方法通过使用神经问答检索模型，需要较少的计算资源。我们进一步介绍了一种新的空-正向排名测试方法，用于衡量与数据增强相关的语义差异样本（即困难负样本）的排名性能。
-
-    Identifying relevant persona or knowledge for conversational systems is critical to grounded dialogue response generation. However, each grounding has been mostly researched in isolation with more practical multi-context dialogue tasks introduced in recent works. We define Persona and Knowledge Dual Context Identification as the task to identify persona and knowledge jointly for a given dialogue, which could be of elevated importance in complex multi-context dialogue settings. We develop a novel grounding retrieval method that utilizes all contexts of dialogue simultaneously. Our method requires less computational power via utilizing neural QA retrieval models. We further introduce our novel null-positive rank test which measures ranking performance on semantically dissimilar samples (i.e. hard negatives) in relation to data augmentation.
-    
-[^12]: GraphFormers: GNN嵌套Transformer用于文本图的表示学习
-
-    GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph. (arXiv:2105.02605v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2105.02605](http://arxiv.org/abs/2105.02605)
-
-    GraphFormers是一种将GNN嵌套到Transformer中的方法，通过迭代式的工作流程，准确理解文本图中每个节点的语义，同时引入渐进式学习加速训练。
+    提出了一个增强外部注意力的图对比学习框架，能够消除跨领域密度偏差并稳定地捕捉用户的行为模式。
 
     
 
-    文本图的表示学习是基于个体文本特征和邻域信息生成节点低维嵌入的过程。最近预训练语言模型和图神经网络的突破推动了相应技术的发展。现有的工作主要依赖级联模型架构：首先，节点的文本特征由语言模型独立编码；然后，文本嵌入由图神经网络聚合。然而，上述架构由于对文本特征的独立建模而受到限制。在这项工作中，我们提出了GraphFormers，其中GNN的分层组件嵌套在语言模型的Transformer块旁边。通过提出的架构，文本编码和图聚合融合为一个迭代式的工作流程，从全局视角准确理解每个节点的语义。此外，一种渐进式学习方法被引入以加速训练过程。
+    跨领域序列推荐器（CSRs）因能够利用多个领域的辅助信息捕捉用户的序列偏好而引起了相当大的研究关注。然而，这些研究通常遵循一个理想的设置，即不同的领域遵守相似的数据分布，忽视了由不对称交互密度带来的偏差（即跨领域密度偏差）。此外，序列编码器中经常采用的机制（如自注意网络）只关注局部视图内的交互，忽视了不同训练批次之间的全局相关性。为此，我们提出了一种增强外部注意力的图对比学习框架，即EA-GCL。具体而言，为了消除跨领域密度偏差的影响，在传统图编码器下附加了一个辅助自监督学习（SSL）任务，采用多任务学习方式。为了稳定地捕捉用户的行为模式，我们开发了一个...
 
-    The representation learning on textual graph is to generate low-dimensional embeddings for the nodes based on the individual textual features and the neighbourhood information. Recent breakthroughs on pretrained language models and graph neural networks push forward the development of corresponding techniques. The existing works mainly rely on the cascaded model architecture: the textual features of nodes are independently encoded by language models at first; the textual embeddings are aggregated by graph neural networks afterwards. However, the above architecture is limited due to the independent modeling of textual features. In this work, we propose GraphFormers, where layerwise GNN components are nested alongside the transformer blocks of language models. With the proposed architecture, the text encoding and the graph aggregation are fused into an iterative workflow, {making} each node's semantic accurately comprehended from the global perspective. In addition, a {progressive} learn
+    Cross-domain sequential recommenders (CSRs) are gaining considerable research attention as they can capture user sequential preference by leveraging side information from multiple domains. However, these works typically follow an ideal setup, i.e., different domains obey similar data distribution, which ignores the bias brought by asymmetric interaction densities (a.k.a. the inter-domain density bias). Besides, the frequently adopted mechanism (e.g., the self-attention network) in sequence encoder only focuses on the interactions within a local view, which overlooks the global correlations between different training batches. To this end, we propose an External Attention-enhanced Graph Contrastive Learning framework, namely EA-GCL. Specifically, to remove the impact of the inter-domain density bias, an auxiliary Self-Supervised Learning (SSL) task is attached to the traditional graph encoder under a multi-task learning manner. To robustly capture users' behavioral patterns, we develop a
+    
+[^7]: LEEC: 一种具有广泛领域特定标签系统的法律要素提取数据集
+
+    LEEC: A Legal Element Extraction Dataset with an Extensive Domain-Specific Label System. (arXiv:2310.01271v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2310.01271](http://arxiv.org/abs/2310.01271)
+
+    本文提出了一个具有广泛领域特定标签系统的大规模刑事要素提取数据集，通过借助法律专家团队和法律知识的注释，可以增强法律案例的解释和分析能力。
+
+    
+
+    作为自然语言处理中的重要任务，要素提取在法律领域中具有重要意义。从司法文件中提取法律要素有助于增强法律案例的解释和分析能力，从而促进法律领域各个领域的下游应用。然而，现有的要素提取数据集存在对法律知识的受限访问和标签覆盖不足的问题。为了解决这个问题，我们引入了一个更全面、大规模的刑事要素提取数据集，包括15,831个司法文件和159个标签。该数据集通过两个主要步骤构建：首先，由我们的法律专家团队根据先前的法律研究设计了标签系统，该研究确定了刑事案件中影响判决结果的关键因素和生成过程；其次，利用法律知识根据标签系统和注释准则对司法文件进行注释。
+
+    As a pivotal task in natural language processing, element extraction has gained significance in the legal domain. Extracting legal elements from judicial documents helps enhance interpretative and analytical capacities of legal cases, and thereby facilitating a wide array of downstream applications in various domains of law. Yet existing element extraction datasets are limited by their restricted access to legal knowledge and insufficient coverage of labels. To address this shortfall, we introduce a more comprehensive, large-scale criminal element extraction dataset, comprising 15,831 judicial documents and 159 labels. This dataset was constructed through two main steps: first, designing the label system by our team of legal experts based on prior legal research which identified critical factors driving and processes generating sentencing outcomes in criminal cases; second, employing the legal knowledge to annotate judicial documents according to the label system and annotation guideli
+    
+[^8]: 纯粹的消息传递可以估计共同邻居进行链路预测
+
+    Pure Message Passing Can Estimate Common Neighbor for Link Prediction. (arXiv:2309.00976v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2309.00976](http://arxiv.org/abs/2309.00976)
+
+    这篇论文提出了一种纯粹的消息传递方法，用于估计共同邻居进行链路预测。该方法通过利用输入向量的正交性来捕捉联合结构特征，提出了一种新的链路预测模型MPLP，该模型利用准正交向量估计链路级结构特征，同时保留了节点级复杂性。
+
+    
+
+    消息传递神经网络（MPNN）已成为图表示学习中的事实标准。然而，在链路预测方面，它们往往表现不佳，被简单的启发式算法如共同邻居（CN）所超越。这种差异源于一个根本限制：尽管MPNN在节点级表示方面表现出色，但在编码链路预测中至关重要的联合结构特征（如CN）方面则遇到困难。为了弥合这一差距，我们认为通过利用输入向量的正交性，纯粹的消息传递确实可以捕捉到联合结构特征。具体而言，我们研究了MPNN在近似CN启发式算法方面的能力。基于我们的发现，我们引入了一种新的链路预测模型——消息传递链路预测器（MPLP）。MPLP利用准正交向量估计链路级结构特征，同时保留节点级复杂性。此外，我们的方法表明利用消息传递捕捉结构特征能够改善链路预测性能。
+
+    Message Passing Neural Networks (MPNNs) have emerged as the {\em de facto} standard in graph representation learning. However, when it comes to link prediction, they often struggle, surpassed by simple heuristics such as Common Neighbor (CN). This discrepancy stems from a fundamental limitation: while MPNNs excel in node-level representation, they stumble with encoding the joint structural features essential to link prediction, like CN. To bridge this gap, we posit that, by harnessing the orthogonality of input vectors, pure message-passing can indeed capture joint structural features. Specifically, we study the proficiency of MPNNs in approximating CN heuristics. Based on our findings, we introduce the Message Passing Link Predictor (MPLP), a novel link prediction model. MPLP taps into quasi-orthogonal vectors to estimate link-level structural features, all while preserving the node-level complexities. Moreover, our approach demonstrates that leveraging message-passing to capture stru
+    
+[^9]: DocumentNet: 在文档预训练中弥合数据差距
+
+    DocumentNet: Bridging the Data Gap in Document Pre-Training. (arXiv:2306.08937v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2306.08937](http://arxiv.org/abs/2306.08937)
+
+    这项研究提出了DocumentNet方法，通过从Web上收集大规模和弱标注的数据，弥合了文档预训练中的数据差距，并在各类VDER任务中展现了显著的性能提升。
+
+    
+
+    近年来，文档理解任务，特别是富有视觉元素的文档实体检索（VDER），由于在企业人工智能领域的广泛应用，受到了极大关注。然而，由于严格的隐私约束和高昂的标注成本，这些任务的公开可用数据非常有限。更糟糕的是，来自不同数据集的不重叠实体空间妨碍了文档类型之间的知识转移。在本文中，我们提出了一种从Web收集大规模和弱标注的数据的方法，以利于VDER模型的训练。所收集的数据集名为DocumentNet，不依赖于特定的文档类型或实体集，使其适用于所有的VDER任务。目前的DocumentNet包含了30M个文档，涵盖了近400个文档类型，组织成了一个四级本体结构。在一系列广泛采用的VDER任务上进行的实验表明，当将DocumentNet纳入预训练过程时，取得了显著的改进。
+
+    Document understanding tasks, in particular, Visually-rich Document Entity Retrieval (VDER), have gained significant attention in recent years thanks to their broad applications in enterprise AI. However, publicly available data have been scarce for these tasks due to strict privacy constraints and high annotation costs. To make things worse, the non-overlapping entity spaces from different datasets hinder the knowledge transfer between document types. In this paper, we propose a method to collect massive-scale and weakly labeled data from the web to benefit the training of VDER models. The collected dataset, named DocumentNet, does not depend on specific document types or entity sets, making it universally applicable to all VDER tasks. The current DocumentNet consists of 30M documents spanning nearly 400 document types organized in a four-level ontology. Experiments on a set of broadly adopted VDER tasks show significant improvements when DocumentNet is incorporated into the pre-train
     
 

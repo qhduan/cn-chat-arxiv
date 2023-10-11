@@ -1,0 +1,12 @@
+{
+    "title": "NEFTune: Noisy Embeddings Improve Instruction Finetuning. (arXiv:2310.05914v2 [cs.CL] UPDATED)",
+    "abstract": "We show that language model finetuning can be improved, sometimes dramatically, with a simple augmentation. NEFTune adds noise to the embedding vectors during training. Standard finetuning of LLaMA-2-7B using Alpaca achieves 29.79% on AlpacaEval, which rises to 64.69% using noisy embeddings. NEFTune also improves over strong baselines on modern instruction datasets. Models trained with Evol-Instruct see a 10% improvement, with ShareGPT an 8% improvement, and with OpenPlatypus an 8% improvement. Even powerful models further refined with RLHF such as LLaMA-2-Chat benefit from additional training with NEFTune.",
+    "link": "http://arxiv.org/abs/2310.05914",
+    "context": "Title: NEFTune: Noisy Embeddings Improve Instruction Finetuning. (arXiv:2310.05914v2 [cs.CL] UPDATED)\nAbstract: We show that language model finetuning can be improved, sometimes dramatically, with a simple augmentation. NEFTune adds noise to the embedding vectors during training. Standard finetuning of LLaMA-2-7B using Alpaca achieves 29.79% on AlpacaEval, which rises to 64.69% using noisy embeddings. NEFTune also improves over strong baselines on modern instruction datasets. Models trained with Evol-Instruct see a 10% improvement, with ShareGPT an 8% improvement, and with OpenPlatypus an 8% improvement. Even powerful models further refined with RLHF such as LLaMA-2-Chat benefit from additional training with NEFTune.",
+    "path": "papers/23/10/2310.05914.json",
+    "total_tokens": 774,
+    "translated_title": "NEFTune: 噪声嵌入改进指令微调",
+    "translated_abstract": "我们展示了一个简单的增强方法可以显著提高语言模型微调的效果。NEFTune 在训练过程中给嵌入向量添加噪声。在使用 Alpaca 进行标准微调的基础上，LLaMA-2-7B 在 AlpacaEval 上的准确率从 29.79% 提升到了 64.69%。NEFTune 在现代指令数据集上也超过了强基线模型。使用 Evol-Instruct 训练的模型性能提升了10%，ShareGPT 提升了8%，OpenPlatypus 提升了8%。即使是经过 RLHF 进一步微调的强大模型，如 LLaMA-2-Chat，也可以通过 NEFTune 的附加训练获益。",
+    "tldr": "NEFTune 是一种改进语言模型微调效果的方法，通过在训练过程中给嵌入向量添加噪声，可以在多个指令数据集上显著提高准确率，并对不同类型的模型都有益处。",
+    "en_tdlr": "NEFTune is a method that improves the effectiveness of language model finetuning. By adding noise to the embedding vectors during training, it significantly improves accuracy on various instruction datasets and benefits different types of models."
+}

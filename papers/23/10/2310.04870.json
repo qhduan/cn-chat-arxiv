@@ -1,0 +1,11 @@
+{
+    "title": "Lemur: Integrating Large Language Models in Automated Program Verification. (arXiv:2310.04870v2 [cs.FL] UPDATED)",
+    "abstract": "The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that often demands high-level abstract reasoning about program properties, which is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.",
+    "link": "http://arxiv.org/abs/2310.04870",
+    "context": "Title: Lemur: Integrating Large Language Models in Automated Program Verification. (arXiv:2310.04870v2 [cs.FL] UPDATED)\nAbstract: The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that often demands high-level abstract reasoning about program properties, which is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.",
+    "path": "papers/23/10/2310.04870.json",
+    "total_tokens": 664,
+    "translated_title": "Lemur：在自动程序验证中集成大型语言模型",
+    "translated_abstract": "LLMs在代码理解能力上的展示引发了一个问题：它们是否可以用于自动程序验证，这是一个通常需要高级抽象推理的任务，对于验证工具来说是具有挑战性的。我们提出了一种将LLMs的能力和自动推理器结合起来进行自动程序验证的通用方法。我们正式描述了这种方法论，将其作为推导规则的集合进行论证其完备性。我们将计算机推理形成为一个完备的自动验证过程，这在一组合成和竞争基准上带来了实际的改进。",
+    "tldr": "本论文提出了一种将LLMs和自动推理器结合起来进行自动程序验证的通用方法，并证明了其完备性。这个方法在一些合成和竞争基准上取得了实际的改进。"
+}

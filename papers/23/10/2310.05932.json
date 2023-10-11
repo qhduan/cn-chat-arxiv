@@ -1,0 +1,12 @@
+{
+    "title": "A Multi-Agent Systems Approach for Peer-to-Peer Energy Trading in Dairy Farming. (arXiv:2310.05932v1 [cs.MA])",
+    "abstract": "To achieve desired carbon emission reductions, integrating renewable generation and accelerating the adoption of peer-to-peer energy trading is crucial. This is especially important for energy-intensive farming, like dairy farming. However, integrating renewables and peer-to-peer trading presents challenges. To address this, we propose the Multi-Agent Peer-to-Peer Dairy Farm Energy Simulator (MAPDES), enabling dairy farms to participate in peer-to-peer markets. Our strategy reduces electricity costs and peak demand by approximately 30% and 24% respectively, while increasing energy sales by 37% compared to the baseline scenario without P2P trading. This demonstrates the effectiveness of our approach.",
+    "link": "http://arxiv.org/abs/2310.05932",
+    "context": "Title: A Multi-Agent Systems Approach for Peer-to-Peer Energy Trading in Dairy Farming. (arXiv:2310.05932v1 [cs.MA])\nAbstract: To achieve desired carbon emission reductions, integrating renewable generation and accelerating the adoption of peer-to-peer energy trading is crucial. This is especially important for energy-intensive farming, like dairy farming. However, integrating renewables and peer-to-peer trading presents challenges. To address this, we propose the Multi-Agent Peer-to-Peer Dairy Farm Energy Simulator (MAPDES), enabling dairy farms to participate in peer-to-peer markets. Our strategy reduces electricity costs and peak demand by approximately 30% and 24% respectively, while increasing energy sales by 37% compared to the baseline scenario without P2P trading. This demonstrates the effectiveness of our approach.",
+    "path": "papers/23/10/2310.05932.json",
+    "total_tokens": 739,
+    "translated_title": "基于多智能体系统的奶牛养殖领域点对点能源交易方法",
+    "translated_abstract": "为了实现所需的碳排放减少目标，整合可再生能源和加快点对点能源交易的采用至关重要。这对于能源密集型的奶牛养殖业尤为重要。然而，整合可再生能源和点对点交易面临一些挑战。为了解决这个问题，我们提出了基于多智能体的点对点奶牛养殖场能源模拟器(MAPDES)，使奶牛场能够参与点对点市场。与没有点对点交易的基准情景相比，我们的策略将电力成本和峰值需求分别降低了约30%和24%，同时能源销售增加了37%。这证明了我们方法的有效性。",
+    "tldr": "提出了基于多智能体系统的奶牛养殖领域点对点能源交易方法，通过该方法可以降低电力成本和峰值需求，同时增加能源销售。",
+    "en_tdlr": "A multi-agent systems approach for peer-to-peer energy trading in dairy farming is proposed, which can reduce electricity costs and peak demand while increasing energy sales."
+}

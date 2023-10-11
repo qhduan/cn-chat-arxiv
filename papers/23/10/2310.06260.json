@@ -1,0 +1,12 @@
+{
+    "title": "An experiment on an automated literature survey of data-driven speech enhancement methods. (arXiv:2310.06260v1 [cs.SD])",
+    "abstract": "The increasing number of scientific publications in acoustics, in general, presents difficulties in conducting traditional literature surveys. This work explores the use of a generative pre-trained transformer (GPT) model to automate a literature survey of 116 articles on data-driven speech enhancement methods. The main objective is to evaluate the capabilities and limitations of the model in providing accurate responses to specific queries about the papers selected from a reference human-based survey. While we see great potential to automate literature surveys in acoustics, improvements are needed to address technical questions more clearly and accurately.",
+    "link": "http://arxiv.org/abs/2310.06260",
+    "context": "Title: An experiment on an automated literature survey of data-driven speech enhancement methods. (arXiv:2310.06260v1 [cs.SD])\nAbstract: The increasing number of scientific publications in acoustics, in general, presents difficulties in conducting traditional literature surveys. This work explores the use of a generative pre-trained transformer (GPT) model to automate a literature survey of 116 articles on data-driven speech enhancement methods. The main objective is to evaluate the capabilities and limitations of the model in providing accurate responses to specific queries about the papers selected from a reference human-based survey. While we see great potential to automate literature surveys in acoustics, improvements are needed to address technical questions more clearly and accurately.",
+    "path": "papers/23/10/2310.06260.json",
+    "total_tokens": 790,
+    "translated_title": "数据驱动语音增强方法自动文献调研的实验",
+    "translated_abstract": "随着声学领域科学出版物数量的增加，传统的文献调研变得困难。本研究探讨了使用生成式预训练变压器（GPT）模型自动调查116篇数据驱动语音增强方法的文献调研。主要目标是评估该模型在提供关于从基于人工调研中选定的论文的具体问题的准确回答方面的能力和局限性。虽然我们看到在声学文献调研自动化方面有很大潜力，但仍需改进以更清晰准确地回答技术问题。",
+    "tldr": "本研究使用生成式预训练变压器模型对116篇数据驱动语音增强方法的论文进行了自动文献调研，评估了模型在回答具体问题方面的准确性和局限性。尽管在声学文献调研自动化方面有潜力，但仍需改进以更清晰准确地回答技术问题。",
+    "en_tdlr": "This study conducted an automated literature survey of 116 articles on data-driven speech enhancement methods using a generative pre-trained transformer model, evaluating the model's accuracy and limitations in providing specific answers to questions. While there is potential for automating literature surveys in acoustics, improvements are needed for clearer and more accurate responses to technical queries."
+}

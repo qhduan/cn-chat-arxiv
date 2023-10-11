@@ -1,0 +1,11 @@
+{
+    "title": "Knowledge Distillation for Anomaly Detection. (arXiv:2310.06047v1 [cs.LG])",
+    "abstract": "Unsupervised deep learning techniques are widely used to identify anomalous behaviour. The performance of such methods is a product of the amount of training data and the model size. However, the size is often a limiting factor for the deployment on resource-constrained devices. We present a novel procedure based on knowledge distillation for compressing an unsupervised anomaly detection model into a supervised deployable one and we suggest a set of techniques to improve the detection sensitivity. Compressed models perform comparably to their larger counterparts while significantly reducing the size and memory footprint.",
+    "link": "http://arxiv.org/abs/2310.06047",
+    "context": "Title: Knowledge Distillation for Anomaly Detection. (arXiv:2310.06047v1 [cs.LG])\nAbstract: Unsupervised deep learning techniques are widely used to identify anomalous behaviour. The performance of such methods is a product of the amount of training data and the model size. However, the size is often a limiting factor for the deployment on resource-constrained devices. We present a novel procedure based on knowledge distillation for compressing an unsupervised anomaly detection model into a supervised deployable one and we suggest a set of techniques to improve the detection sensitivity. Compressed models perform comparably to their larger counterparts while significantly reducing the size and memory footprint.",
+    "path": "papers/23/10/2310.06047.json",
+    "total_tokens": 732,
+    "translated_title": "知识蒸馏用于异常检测",
+    "translated_abstract": "无监督深度学习技术广泛用于识别异常行为。这些方法的性能受到训练数据量和模型大小的影响。然而，模型大小常常限制了在资源受限设备上的部署。我们提出了一种基于知识蒸馏的新型过程，将无监督异常检测模型压缩成一种可部署的有监督模型，并提出了一系列技术来改善检测灵敏度。压缩后的模型在显著减少大小和内存占用的同时，表现与较大模型相当。",
+    "tldr": "本文介绍了一种基于知识蒸馏的方法，用于将无监督异常检测模型压缩成可部署的有监督模型，并提出了一些技术来改善检测灵敏度。压缩后的模型在减小大小和内存占用的同时，仍然具有与较大模型相当的性能。"
+}

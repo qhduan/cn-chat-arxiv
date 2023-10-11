@@ -1,0 +1,11 @@
+{
+    "title": "Learning bounded-degree polytrees with known skeleton. (arXiv:2310.06333v1 [cs.LG])",
+    "abstract": "We establish finite-sample guarantees for efficient proper learning of bounded-degree polytrees, a rich class of high-dimensional probability distributions and a subclass of Bayesian networks, a widely-studied type of graphical model. Recently, Bhattacharyya et al. (2021) obtained finite-sample guarantees for recovering tree-structured Bayesian networks, i.e., 1-polytrees. We extend their results by providing an efficient algorithm which learns $d$-polytrees in polynomial time and sample complexity for any bounded $d$ when the underlying undirected graph (skeleton) is known. We complement our algorithm with an information-theoretic sample complexity lower bound, showing that the dependence on the dimension and target accuracy parameters are nearly tight.",
+    "link": "http://arxiv.org/abs/2310.06333",
+    "context": "Title: Learning bounded-degree polytrees with known skeleton. (arXiv:2310.06333v1 [cs.LG])\nAbstract: We establish finite-sample guarantees for efficient proper learning of bounded-degree polytrees, a rich class of high-dimensional probability distributions and a subclass of Bayesian networks, a widely-studied type of graphical model. Recently, Bhattacharyya et al. (2021) obtained finite-sample guarantees for recovering tree-structured Bayesian networks, i.e., 1-polytrees. We extend their results by providing an efficient algorithm which learns $d$-polytrees in polynomial time and sample complexity for any bounded $d$ when the underlying undirected graph (skeleton) is known. We complement our algorithm with an information-theoretic sample complexity lower bound, showing that the dependence on the dimension and target accuracy parameters are nearly tight.",
+    "path": "papers/23/10/2310.06333.json",
+    "total_tokens": 795,
+    "translated_title": "学习具有已知骨架的有界度多树",
+    "translated_abstract": "我们为高维概率分布的一类丰富的多树（polytrees）——有界度多树，建立了高效适当学习的有限样本保证。有界度多树是贝叶斯网络的子类，贝叶斯网络是一种广泛研究的图模型类型。最近，Bhattacharyya等人（2021）通过提供一种高效算法，在已知无向图（骨架）的情况下，为1-多树恢复了有限样本保证。我们通过扩展他们的结果，提供了一种高效算法，可以在多项式时间和样本复杂度内学习任何有界度的$d$-多树。我们将算法与信息论样本复杂度的下界结合起来，表明对维度和目标精度参数的依赖几乎是紧致的。",
+    "tldr": "本论文提出了一种高效学习已知骨架的有界度多树的算法，并给出了在多项式时间和样本复杂度内的有限样本保证。这对于复杂概率分布的学习具有重要意义。"
+}

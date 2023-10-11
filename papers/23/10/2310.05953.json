@@ -1,0 +1,11 @@
+{
+    "title": "Classification of Spam URLs Using Machine Learning Approaches. (arXiv:2310.05953v1 [cs.CR])",
+    "abstract": "The Internet is used by billions of users daily because it offers fast and free communication tools and platforms. Nevertheless, with this significant increase in usage, huge amounts of spam are generated every second, which wastes internet resources and, more importantly, users time. This study investigates using machine learning models to classify URLs as spam or non-spam. We first extract the features from the URL as it has only one feature, and then we compare the performance of several models, including k-nearest neighbors, bagging, random forest, logistic regression, and others. We find that bagging achieves the best accuracy, with an accuracy of 96.5%. This suggests that bagging is a promising approach for classifying URLs as spam or nonspam.",
+    "link": "http://arxiv.org/abs/2310.05953",
+    "context": "Title: Classification of Spam URLs Using Machine Learning Approaches. (arXiv:2310.05953v1 [cs.CR])\nAbstract: The Internet is used by billions of users daily because it offers fast and free communication tools and platforms. Nevertheless, with this significant increase in usage, huge amounts of spam are generated every second, which wastes internet resources and, more importantly, users time. This study investigates using machine learning models to classify URLs as spam or non-spam. We first extract the features from the URL as it has only one feature, and then we compare the performance of several models, including k-nearest neighbors, bagging, random forest, logistic regression, and others. We find that bagging achieves the best accuracy, with an accuracy of 96.5%. This suggests that bagging is a promising approach for classifying URLs as spam or nonspam.",
+    "path": "papers/23/10/2310.05953.json",
+    "total_tokens": 752,
+    "translated_title": "使用机器学习方法进行垃圾URL的分类",
+    "translated_abstract": "由于提供了快速和免费的通信工具和平台，互联网每天被数十亿用户使用。然而，随着使用量的显著增加，每秒钟产生了大量的垃圾邮件，这不仅浪费了互联网资源，更重要的是浪费了用户的时间。本研究通过使用机器学习模型将URL分类为垃圾或非垃圾。我们首先从URL中提取特征，然后比较了几个模型的性能，包括k最近邻、bagging、随机森林、逻辑回归等。我们发现，bagging模型的准确率最高，达到了96.5%。这表明，bagging是一种有前景的用于将URL分类为垃圾或非垃圾的方法。",
+    "tldr": "该研究使用机器学习模型对URL进行垃圾和非垃圾的分类，发现bagging模型具有最高的准确率，为96.5%。"
+}

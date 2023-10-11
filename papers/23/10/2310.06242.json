@@ -1,0 +1,11 @@
+{
+    "title": "Treatment Choice, Mean Square Regret and Partial Identification. (arXiv:2310.06242v1 [econ.EM])",
+    "abstract": "We consider a decision maker who faces a binary treatment choice when their welfare is only partially identified from data. We contribute to the literature by anchoring our finite-sample analysis on mean square regret, a decision criterion advocated by Kitagawa, Lee, and Qiu (2022). We find that optimal rules are always fractional, irrespective of the width of the identified set and precision of its estimate. The optimal treatment fraction is a simple logistic transformation of the commonly used t-statistic multiplied by a factor calculated by a simple constrained optimization. This treatment fraction gets closer to 0.5 as the width of the identified set becomes wider, implying the decision maker becomes more cautious against the adversarial Nature.",
+    "link": "http://arxiv.org/abs/2310.06242",
+    "context": "Title: Treatment Choice, Mean Square Regret and Partial Identification. (arXiv:2310.06242v1 [econ.EM])\nAbstract: We consider a decision maker who faces a binary treatment choice when their welfare is only partially identified from data. We contribute to the literature by anchoring our finite-sample analysis on mean square regret, a decision criterion advocated by Kitagawa, Lee, and Qiu (2022). We find that optimal rules are always fractional, irrespective of the width of the identified set and precision of its estimate. The optimal treatment fraction is a simple logistic transformation of the commonly used t-statistic multiplied by a factor calculated by a simple constrained optimization. This treatment fraction gets closer to 0.5 as the width of the identified set becomes wider, implying the decision maker becomes more cautious against the adversarial Nature.",
+    "path": "papers/23/10/2310.06242.json",
+    "total_tokens": 930,
+    "translated_title": "治疗选择、均方遗憾和部分识别",
+    "translated_abstract": "我们考虑一个决策者面临二元治疗选择的情况，当他们的福利只能从数据中部分识别出来。我们通过基于均方遗憾的有限样本分析，为文献做出了贡献，这是Kitagawa、Lee和Qiu（2022）提倡的一种决策标准。我们发现，无论识别集合的宽度和其估计精度如何，最优规则总是分数形式的。最优治疗分数是常用的t统计量乘以一个通过简单约束优化计算的因子乘以简单的逻辑变换。当识别集合的宽度变大时，这个治疗分数越接近0.5，意味着决策者对抗对手“Nature”的谨慎程度增加。",
+    "tldr": "这篇论文研究了在福利只能部分识别的情况下，决策者面临二元治疗选择的问题。通过基于均方遗憾的分析，发现最优规则总是分数形式的，治疗分数是常用的t统计量乘以一个经过简单约束优化计算的因子乘以逻辑变换得到的。随着识别集合的宽度增加，治疗分数越接近0.5，决策者对抗对手“Nature”的谨慎程度增加。"
+}
