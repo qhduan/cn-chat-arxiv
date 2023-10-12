@@ -1,0 +1,11 @@
+{
+    "title": "Stabilizing Estimates of Shapley Values with Control Variates. (arXiv:2310.07672v1 [stat.ML])",
+    "abstract": "Shapley values are among the most popular tools for explaining predictions of blackbox machine learning models. However, their high computational cost motivates the use of sampling approximations, inducing a considerable degree of uncertainty. To stabilize these model explanations, we propose ControlSHAP, an approach based on the Monte Carlo technique of control variates. Our methodology is applicable to any machine learning model and requires virtually no extra computation or modeling effort. On several high-dimensional datasets, we find it can produce dramatic reductions in the Monte Carlo variability of Shapley estimates.",
+    "link": "http://arxiv.org/abs/2310.07672",
+    "context": "Title: Stabilizing Estimates of Shapley Values with Control Variates. (arXiv:2310.07672v1 [stat.ML])\nAbstract: Shapley values are among the most popular tools for explaining predictions of blackbox machine learning models. However, their high computational cost motivates the use of sampling approximations, inducing a considerable degree of uncertainty. To stabilize these model explanations, we propose ControlSHAP, an approach based on the Monte Carlo technique of control variates. Our methodology is applicable to any machine learning model and requires virtually no extra computation or modeling effort. On several high-dimensional datasets, we find it can produce dramatic reductions in the Monte Carlo variability of Shapley estimates.",
+    "path": "papers/23/10/2310.07672.json",
+    "total_tokens": 674,
+    "translated_title": "用控制变量稳定Shapley值的估计",
+    "translated_abstract": "Shapley值是解释黑盒机器学习模型预测最流行的工具之一。然而，它们的计算成本很高，因此采用抽样近似来减少不确定性。为了稳定这些模型解释，我们提出了一种基于控制变量的蒙特卡洛技术的方法，称为ControlSHAP。我们的方法适用于任何机器学习模型，并且几乎不需要额外的计算或建模工作。在多个高维数据集上，我们发现它可以显著减少Shapley估计的蒙特卡洛变异性。",
+    "tldr": "使用控制变量的方法稳定Shapley值的估计，减少了模型解释的不确定性，适用于任何机器学习模型。"
+}

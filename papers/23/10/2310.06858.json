@@ -1,0 +1,11 @@
+{
+    "title": "Design of JiuTian Intelligent Network Simulation Platform. (arXiv:2310.06858v1 [cs.NI])",
+    "abstract": "This paper introduced the JiuTian Intelligent Network Simulation Platform, which can provide wireless communication simulation data services for the Open Innovation Platform. The platform contains a series of scalable simulator functionalities, offering open services that enable users to use reinforcement learning algorithms for model training and inference based on simulation environments and data. Additionally, it allows users to address optimization tasks in different scenarios by uploading and updating parameter configurations. The platform and its open services were primarily introduced from the perspectives of background, overall architecture, simulator, business scenarios, and future directions.",
+    "link": "http://arxiv.org/abs/2310.06858",
+    "context": "Title: Design of JiuTian Intelligent Network Simulation Platform. (arXiv:2310.06858v1 [cs.NI])\nAbstract: This paper introduced the JiuTian Intelligent Network Simulation Platform, which can provide wireless communication simulation data services for the Open Innovation Platform. The platform contains a series of scalable simulator functionalities, offering open services that enable users to use reinforcement learning algorithms for model training and inference based on simulation environments and data. Additionally, it allows users to address optimization tasks in different scenarios by uploading and updating parameter configurations. The platform and its open services were primarily introduced from the perspectives of background, overall architecture, simulator, business scenarios, and future directions.",
+    "path": "papers/23/10/2310.06858.json",
+    "total_tokens": 722,
+    "translated_title": "九天智能网络仿真平台设计",
+    "translated_abstract": "本文介绍了九天智能网络仿真平台，该平台可以为开放创新平台提供无线通信仿真数据服务。该平台包含一系列可扩展的仿真器功能，提供开放服务，使用户能够基于仿真环境和数据使用强化学习算法进行模型训练和推理。此外，它允许用户通过上传和更新参数配置来解决不同场景下的优化任务。本文主要从背景、整体架构、仿真器、业务场景和未来方向等方面介绍了该平台及其开放服务。",
+    "tldr": "本文介绍了九天智能网络仿真平台，提供了无线通信仿真数据服务，包含可扩展的仿真器功能，支持开放服务和强化学习算法训练，并允许用户上传和更新参数配置。未来研究方向包括更深入地探索业务场景和优化任务。"
+}

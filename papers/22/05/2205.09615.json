@@ -1,0 +1,12 @@
+{
+    "title": "EXACT: How to Train Your Accuracy. (arXiv:2205.09615v4 [cs.LG] UPDATED)",
+    "abstract": "Classification tasks are usually evaluated in terms of accuracy. However, accuracy is discontinuous and cannot be directly optimized using gradient ascent. Popular methods minimize cross-entropy, hinge loss, or other surrogate losses, which can lead to suboptimal results. In this paper, we propose a new optimization framework by introducing stochasticity to a model's output and optimizing expected accuracy, i.e. accuracy of the stochastic model. Extensive experiments on linear models and deep image classification show that the proposed optimization method is a powerful alternative to widely used classification losses.",
+    "link": "http://arxiv.org/abs/2205.09615",
+    "context": "Title: EXACT: How to Train Your Accuracy. (arXiv:2205.09615v4 [cs.LG] UPDATED)\nAbstract: Classification tasks are usually evaluated in terms of accuracy. However, accuracy is discontinuous and cannot be directly optimized using gradient ascent. Popular methods minimize cross-entropy, hinge loss, or other surrogate losses, which can lead to suboptimal results. In this paper, we propose a new optimization framework by introducing stochasticity to a model's output and optimizing expected accuracy, i.e. accuracy of the stochastic model. Extensive experiments on linear models and deep image classification show that the proposed optimization method is a powerful alternative to widely used classification losses.",
+    "path": "papers/22/05/2205.09615.json",
+    "total_tokens": 665,
+    "translated_title": "EXACT: 如何提高准确率的训练方法。",
+    "translated_abstract": "分类任务通常会以准确率作为评估标准。然而，准确率是不连续的，无法直接使用梯度上升进行优化。流行的方法是通过最小化交叉熵、铰链损失或其他替代损失来优化，但这可能导致次优结果。本文提出了一种新的优化框架，通过向模型的输出引入随机性并优化期望准确率，即随机模型的准确率。对线性模型和深度图像分类进行了广泛的实验，结果表明所提出的优化方法是广泛使用的分类损失的强有力替代方案。",
+    "tldr": "本文提出了一种新的分类任务优化框架，通过引入随机性，优化期望准确率，取得了强有力的替代分类损失的结果。",
+    "en_tdlr": "This paper proposes a new optimization framework for classification tasks by introducing stochasticity and optimizing expected accuracy, achieving powerful alternative results to commonly used classification losses."
+}

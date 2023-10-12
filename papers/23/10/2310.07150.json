@@ -1,0 +1,12 @@
+{
+    "title": "Determining Winners in Elections with Absent Votes. (arXiv:2310.07150v1 [cs.GT])",
+    "abstract": "An important question in elections is the determine whether a candidate can be a winner when some votes are absent. We study this determining winner with the absent votes (WAV) problem when the votes are top-truncated. We show that the WAV problem is NP-complete for the single transferable vote, Maximin, and Copeland, and propose a special case of positional scoring rule such that the problem can be computed in polynomial time. Our results in top-truncated rankings differ from the results in full rankings as their hardness results still hold when the number of candidates or the number of missing votes are bounded, while we show that the problem can be solved in polynomial time in either case.",
+    "link": "http://arxiv.org/abs/2310.07150",
+    "context": "Title: Determining Winners in Elections with Absent Votes. (arXiv:2310.07150v1 [cs.GT])\nAbstract: An important question in elections is the determine whether a candidate can be a winner when some votes are absent. We study this determining winner with the absent votes (WAV) problem when the votes are top-truncated. We show that the WAV problem is NP-complete for the single transferable vote, Maximin, and Copeland, and propose a special case of positional scoring rule such that the problem can be computed in polynomial time. Our results in top-truncated rankings differ from the results in full rankings as their hardness results still hold when the number of candidates or the number of missing votes are bounded, while we show that the problem can be solved in polynomial time in either case.",
+    "path": "papers/23/10/2310.07150.json",
+    "total_tokens": 793,
+    "translated_title": "在缺席投票的选举中确定获胜者",
+    "translated_abstract": "选举中一个重要的问题是确定在某些选票缺席时候候选人是否可以获胜。我们研究了当选票是顶部截断时，通过缺席投票确定获胜者（WAV）问题。我们证明了对于单一可转换选票、最小值和Copeland，WAV问题都是NP-complete的，并提出了一种特殊情况下的位置评分规则，这样问题可以在多项式时间内计算出来。我们的结果在顶部截断排序中与完整排序的结果不同，因为当候选人数或缺席选票数有限时，它们的难度结果仍然成立，而我们证明这个问题可以在这两种情况下在多项式时间内解决。",
+    "tldr": "本研究讨论了在选举中一些选票缺席情况下确定候选人是否可以获胜的问题，通过研究顶部截断时不同的选票规则，我们发现了这个问题的复杂度，并提出了在特殊情况下可以在多项式时间内计算出结果的方法。",
+    "en_tdlr": "This study investigates the problem of determining whether a candidate can be a winner in elections when some votes are absent. By analyzing the WAV problem with top-truncated votes, we find that it is NP-complete for certain voting methods but can be solved in polynomial time for a special case of positional scoring rule."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sequential composition of propositional logic programs. (arXiv:2009.05774v7 [cs.LO] UPDATED)",
+    "abstract": "This paper introduces and studies the sequential composition and decomposition of propositional logic programs. We show that acyclic programs can be decomposed into single-rule programs and provide a general decomposition result for arbitrary programs. We show that the immediate consequence operator of a program can be represented via composition which allows us to compute its least model without any explicit reference to operators. This bridges the conceptual gap between the syntax and semantics of a propositional logic program in a mathematically satisfactory way.",
+    "link": "http://arxiv.org/abs/2009.05774",
+    "context": "Title: Sequential composition of propositional logic programs. (arXiv:2009.05774v7 [cs.LO] UPDATED)\nAbstract: This paper introduces and studies the sequential composition and decomposition of propositional logic programs. We show that acyclic programs can be decomposed into single-rule programs and provide a general decomposition result for arbitrary programs. We show that the immediate consequence operator of a program can be represented via composition which allows us to compute its least model without any explicit reference to operators. This bridges the conceptual gap between the syntax and semantics of a propositional logic program in a mathematically satisfactory way.",
+    "path": "papers/20/09/2009.05774.json",
+    "total_tokens": 586,
+    "translated_title": "命题逻辑程序的顺序组合",
+    "translated_abstract": "本文介绍和研究了命题逻辑程序的顺序组合和分解。我们展示了无环程序可以被分解为单规则程序，并给出了任意程序的一般分解结果。我们展示了一个程序的直接推论算子可以通过组合来表示，从而可以计算其最小模型，而无需显式引用算子。这在数学上满意地填补了命题逻辑程序的语法与语义之间的概念差距。",
+    "tldr": "本文介绍了命题逻辑程序的顺序组合和分解方法，并提出了一种桥接命题逻辑程序的语法与语义的数学方法。",
+    "en_tdlr": "This paper introduces and studies the sequential composition and decomposition of propositional logic programs, bridging the conceptual gap between the syntax and semantics mathematically."
+}

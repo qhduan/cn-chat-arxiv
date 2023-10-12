@@ -1,0 +1,12 @@
+{
+    "title": "Distributed Transfer Learning with 4th Gen Intel Xeon Processors. (arXiv:2310.06916v1 [cs.DC])",
+    "abstract": "In this paper, we explore how transfer learning, coupled with Intel Xeon, specifically 4th Gen Intel Xeon scalable processor, defies the conventional belief that training is primarily GPU-dependent. We present a case study where we achieved near state-of-the-art accuracy for image classification on a publicly available Image Classification TensorFlow dataset using Intel Advanced Matrix Extensions(AMX) and distributed training with Horovod.",
+    "link": "http://arxiv.org/abs/2310.06916",
+    "context": "Title: Distributed Transfer Learning with 4th Gen Intel Xeon Processors. (arXiv:2310.06916v1 [cs.DC])\nAbstract: In this paper, we explore how transfer learning, coupled with Intel Xeon, specifically 4th Gen Intel Xeon scalable processor, defies the conventional belief that training is primarily GPU-dependent. We present a case study where we achieved near state-of-the-art accuracy for image classification on a publicly available Image Classification TensorFlow dataset using Intel Advanced Matrix Extensions(AMX) and distributed training with Horovod.",
+    "path": "papers/23/10/2310.06916.json",
+    "total_tokens": 645,
+    "translated_title": "利用第四代英特尔韧性处理器进行分布式迁移学习",
+    "translated_abstract": "本文探讨了如何利用迁移学习和英特尔韧性处理器，特别是第四代英特尔韧性可扩展处理器，打破了传统观念，即训练主要依赖于GPU。我们通过使用英特尔高级矩阵扩展（AMX）和Horovod进行分布式训练，在公开可用的Image Classification TensorFlow数据集上实现了接近最先进的图像分类准确性的案例研究。",
+    "tldr": "本文研究了如何利用第四代英特尔韧性处理器进行分布式迁移学习，通过使用英特尔高级矩阵扩展（AMX）和Horovod在Image Classification TensorFlow数据集上实现了接近最先进的图像分类准确性。",
+    "en_tdlr": "This paper examines the utilization of 4th Gen Intel Xeon processors for distributed transfer learning and achieves near state-of-the-art accuracy for image classification using Intel Advanced Matrix Extensions (AMX) and Horovod on the Image Classification TensorFlow dataset."
+}

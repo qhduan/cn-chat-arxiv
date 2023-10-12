@@ -2,77 +2,152 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Life cycle insurance, bequest motives and annuity loads.](http://arxiv.org/abs/2310.06274) | 在考虑了年龄变化的遗赠动机和有费用的寿险与生活年金的情况下，研究发现持续购买生命保险是最优选择，尽管存在费用。同时存在必需遗赠和奢侈遗赠的情况下，在中年和最大年龄相邻处可能出现不参与的阶段。 |
-| [^2] | [Differential Sensitivity in Discontinuous Models.](http://arxiv.org/abs/2310.06151) | 本论文提出了一个通用框架，用于解决模型函数具有不连续性和/或输入变量是离散的情况下的差分敏感性计算问题。作者应用该框架进行了复合风险模型的敏感性分析和再保险信用风险的数值研究。 |
-| [^3] | [Anomalous diffusion and price impact in the fluid-limit of an order book.](http://arxiv.org/abs/2310.06079) | 本文扩展了一个数值模拟方法，用于研究订单簿中金融市场订单的异常扩散和价格影响。我们通过模拟连续到达、取消和扩散的订单以及信息冲击，研究了不同情况下的冲击响应和风格特点。结果表明，数值方法能生成波纹效应，并提出了在扩散动力学存在的情况下使用非均匀采样作为首选的模拟方法。 |
-| [^4] | [Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data.](http://arxiv.org/abs/2310.06000) | 该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。 |
-| [^5] | [Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity.](http://arxiv.org/abs/2310.05985) | 该研究利用英国国家统计办公室的微观数据，研究了人工智能技术对英国企业的劳动生产力影响，并得出结论：人工智能的采用对劳动生产力没有统计上显著的影响。 |
-| [^6] | [Economic Theory as Successive Approximations of Statistical Moments.](http://arxiv.org/abs/2310.05971) | 本文研究了宏观经济变量与市场交易、价格和回报的统计矩之间的关系，并介绍了一个二次平均过程来确定宏观经济变量的统计矩。 |
-| [^7] | [The Mediating Effect of Blockchain Technology on the Cryptocurrency Purchase Intention.](http://arxiv.org/abs/2310.05970) | 本研究通过考虑客户服务、成本降低、效率和可靠性等因素，解释了区块链技术在加密货币购买中的易于使用和有用性的中介效应。 |
-| [^8] | [Optimal Entry and Exit with Signature in Statistical Arbitrage.](http://arxiv.org/abs/2309.16008) | 本文提出了一种新的统计套利交易策略，通过解决顺序最优停止问题，揭示了最优入场和退出时机，从而最大化收益。数值结果表明该策略在各种情景下的表现优于传统均值回复交易规则。 |
-| [^9] | [Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament.](http://arxiv.org/abs/2303.07925) | 本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。 |
-| [^10] | [The impact of big winners on passive and active equity investment strategies.](http://arxiv.org/abs/2210.09302) | 本研究通过分析历史股价数据发现，大赢家股票对主动管理者的表现构成了重要风险，而被动投资策略更可能实现长期财务目标。 |
-| [^11] | [A Unified Formula of the Optimal Portfolio for Piecewise Hyperbolic Absolute Risk Aversion Utilities.](http://arxiv.org/abs/2107.06460) | 本论文提出了一种分段双曲线绝对风险厌恶效用函数家族，并推导出了统一最优组合的闭式公式。该公式反映了风险厌恶、风险寻求、损失厌恶和一阶风险厌恶的行为，并可作为金融分析的工具使用。研究发现，非凸性增加了风险承担行为，而非可微性降低了对该效用函数的风险承担行为。 |
+| [^1] | [Risk valuation of quanto derivatives on temperature and electricity.](http://arxiv.org/abs/2310.07692) | 本文开发了一个耦合模型，用于建模量化天气和能源衍生品的电力日前价格和日平均温度。通过应用条件最小二乘法估计模型参数，并利用蒙特卡洛模拟比较了不同的衍生品定价方法。最终，我们提出了用电力期权和温度期权对单向和双向量化期权进行静态对冲的明确公式。 |
+| [^2] | [Quantum-Enhanced Forecasting: Leveraging Quantum Gramian Angular Field and CNNs for Stock Return Predictions.](http://arxiv.org/abs/2310.07427) | 该论文提出了一种名为Quantum Gramian Angular Field (QGAF)的新方法，通过将量子计算技术与深度学习相结合，成功将股票回报时间序列数据转化为适合卷积神经网络（CNN）训练的二维图像，从而提高了预测的精度。实验证明，相比传统方法，QGAF方法具有显著的性能优势。 |
+| [^3] | [Empirical Analysis of the Impact of Legal Tender Digital Currency on Monetary Policy -Based on China's Data.](http://arxiv.org/abs/2310.07326) | 本文研究了中国央行数字货币对货币政策的影响，发现它对货币政策的有效性和货币乘数产生影响，并对狭义货币乘数和广义货币乘数有一定的正向影响。建议中国在稳步推进央行数字货币发展的前提下，探索更加有效的货币政策。 |
+| [^4] | [The birth of (a robust) Arbitrage Theory in de Finetti's early contributions.](http://arxiv.org/abs/2310.07291) | B. de Finetti的《概率的主观意义》（1931年）被一致认为是“主观主义”的崛起，并为现代套利理论奠定了基础。 |
+| [^5] | [Risk Assessment and Statistical Significance in the Age of Foundation Models.](http://arxiv.org/abs/2310.07132) | 本论文提出了一个分布框架，用于评估具有统计显著性的基础模型的风险。通过一种新的统计相对测试方法，该框架结合了一阶和二阶随机优势，并借鉴了计量经济学和数学金融中常用的平均风险模型。在给定指定度量量化的防护栏的情况下，我们还开发了一种基于风险意识的基础模型选择方法。受数学金融中的投资组合优化和选择理论的启发，我们为每个模型定义了一个"度量组合"，并根据这些组合的随机优势进行模型选择。 |
+| [^6] | [Valuation Duration of the Stock Market.](http://arxiv.org/abs/2310.07110) | 该论文的研究发现市场参与者关于股票市场现金流的信息有限，估值期限的增加是由于折现率的降低而非长期增长的好消息。估值期限能够负向预测年度市场回报，胜过其他预测因子。通过估值期限可以捕捉到估值期限结构的变化。 |
+| [^7] | [Uses of Sub-sample Estimates to Reduce Errors in Stochastic Optimization Models.](http://arxiv.org/abs/2310.07052) | 本文研究了使用子样本估计来减少大规模随机优化模型中的误差，通过对比全样本解估计的结果，证明了子样本优化可能获得更好的结果。 |
+| [^8] | [Lung Cancer in Argentina: A Modelling Study of Disease and Economic Burden.](http://arxiv.org/abs/2310.06999) | 本研究通过建立数学模型评估了阿根廷肺癌的疾病和经济负担。在2023年，阿根廷肺癌的经济负担估计为5.562亿美元。 |
+| [^9] | [Exploiting Unfair Advantages: Investigating Opportunistic Trading in the NFT Market.](http://arxiv.org/abs/2310.06844) | 本论文调查了NFT市场中的机会主义交易，并揭示了利用不公平优势从中获利的问题。该研究对于进一步理解NFT交易的经济特性具有重要意义。 |
+| [^10] | [Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity.](http://arxiv.org/abs/2310.05985) | 该研究利用英国国家统计办公室的微观数据，研究了人工智能技术对英国企业的劳动生产力影响，并得出结论：人工智能的采用对劳动生产力没有统计上显著的影响。 |
+| [^11] | [Transportation-cost inequalities for non-linear Gaussian functionals.](http://arxiv.org/abs/2310.05750) | 我们研究了度量空间上非线性高斯泛函的浓度性质，并且证明了适用于正则结构理论以及粗波动性和二维抛物型安德森模型等情况下产生的泛函的广义TCIs。同时，我们还扩展了关于由高斯过程驱动的扩散的TCIs的现有结果。 |
+| [^12] | [Econometric Model Using Arbitrage Pricing Theory and Quantile Regression to Estimate the Risk Factors Driving Crude Oil Returns.](http://arxiv.org/abs/2309.13096) | 本研究采用套利定价理论和分位数回归模型研究了驱动原油收益的风险因素，并发现了市场条件和波动水平对原油收益的不同影响。研究还强调了全球经济和原油需求变化引起的结构性不连续性对收益的影响。 |
+| [^13] | [The Micro-Aggregated Profit Share.](http://arxiv.org/abs/2309.12945) | 自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。 |
+| [^14] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^15] | [Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions.](http://arxiv.org/abs/2201.02958) | 本文提出了一种嵌套模拟的新方法，它能够在保持条件期望足够平滑的情况下，有效地缓解高维度中的维度灾难，以桥接标准嵌套模拟的立方根收敛率和标准蒙特卡洛模拟的平方根收敛率之间的差距。 |
+| [^16] | [Latent Causal Socioeconomic Health Index.](http://arxiv.org/abs/2009.12217) | 该研究发展了一个基于模型的潜在因果社会经济健康（LACSH）指数，通过将潜在健康因子指数与空间建模和统计因果建模相结合，以促进对观察连续变量对具有空间相关性的潜在特征产生因果影响的理解。研究还介绍了一种用于评估连续政策变量的协变量平衡的新型可视化技术。 |
 
 # 详细
 
-[^1]: 寿险、遗赠动机和年金费用的生命周期研究
+[^1]: 针对温度和电力的量化衍生品的风险估值
 
-    Life cycle insurance, bequest motives and annuity loads. (arXiv:2310.06274v1 [econ.GN])
+    Risk valuation of quanto derivatives on temperature and electricity. (arXiv:2310.07692v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2310.06274](http://arxiv.org/abs/2310.06274)
+    [http://arxiv.org/abs/2310.07692](http://arxiv.org/abs/2310.07692)
 
-    在考虑了年龄变化的遗赠动机和有费用的寿险与生活年金的情况下，研究发现持续购买生命保险是最优选择，尽管存在费用。同时存在必需遗赠和奢侈遗赠的情况下，在中年和最大年龄相邻处可能出现不参与的阶段。
-
-    
-
-    本文研究了在遗赠动机随年龄变化的情况下购买保险，以及寿险和生活年金都需要支付费用的情况。现有的生命周期文献假设遗赠是正常的商品，既不是必需品也不是奢侈品。很多文献还隐含地假设寿险费用为负值。文献的一个重要发现是，对寿险的需求和对生活年金的需求是对称的。在有费用的情况下，在整个人生阶段购买寿险是最优的选择。生活年金的阶段直接接在寿险的阶段之后。我们发现，在同时对这两种产品收取正费用的现实情况下，中年和最大年龄相邻处可能会出现最多两个不参与的阶段。我们强调了在抚养孩子年纪的必需遗赠和之后的奢侈遗赠的例子。这些假设的集合解释了为什么在抚养孩子年纪存在大量对寿险的需求。
-
-    We investigate insurance purchases when bequest motives are age-varying and life insurance and life annuities both carry loads. The existing life cycle literature assumes bequests are normal goods without being either necessities or luxuries. Much of the literature also assumes implicitly that life annuity loads are negative. A key finding of the literature is that the demand for life insurance and the demand for life annuities are symmetrical. It is optimal to buy life-contingent insurance throughout life, even under loads. A life annuity phase backs directly onto a life insurance phase. We find that realistic examples with positive loads on both products reveal up to two distinct periods of non-participation, one in midlife and the other adjoining the maximum age. We highlight examples with necessity bequests during child-rearing years and luxury bequests thereafter. This set of assumptions explains why a substantial demand for life insurance during child-rearing years can co-exist w
-    
-[^2]: 不连续模型中的差分敏感性
-
-    Differential Sensitivity in Discontinuous Models. (arXiv:2310.06151v1 [stat.CO])
-
-    [http://arxiv.org/abs/2310.06151](http://arxiv.org/abs/2310.06151)
-
-    本论文提出了一个通用框架，用于解决模型函数具有不连续性和/或输入变量是离散的情况下的差分敏感性计算问题。作者应用该框架进行了复合风险模型的敏感性分析和再保险信用风险的数值研究。
+    本文开发了一个耦合模型，用于建模量化天气和能源衍生品的电力日前价格和日平均温度。通过应用条件最小二乘法估计模型参数，并利用蒙特卡洛模拟比较了不同的衍生品定价方法。最终，我们提出了用电力期权和温度期权对单向和双向量化期权进行静态对冲的明确公式。
 
     
 
-    差分敏感性测度为解释从仿真到算法预测等各种应用中使用的复杂计算模型提供了有价值的工具。对模型输出在模型参数方向上的导数可以揭示输入-输出关系以及模型参数和输入变量的相对重要性。然而，当模型函数具有不连续性和/或输入变量是离散的时，如何进行这样的导数计算尚不清楚。我们提出了一个通用的框架来解决这些问题，考虑到与通过阶跃函数影响模型输出的随机输入变量（风险因子）相关的失真的量化输出风险测度的导数。我们证明，在满足弱技术条件的情况下，这些导数是有定义的，并推导出相应的公式。我们将我们的结果应用于复合风险模型的敏感性分析，并对再保险信用风险进行了数值研究。
+    本文开发了一个耦合模型，用于建模量化天气和能源衍生品的电力日前价格和日平均温度。这些产品以其能对抗体量和价格风险而受到欢迎。通过由布朗运动和正倒Gaussian L\'evy过程驱动的非齐次Ornstein-Uhlenbeck过程对电力日前价格和日平均温度进行建模，从而允许在它们之间包含关联。开发了条件最小二乘法来估计模型的不同参数，并在实际数据上进行应用。随后，得到了包括量化期权在内的衍生品的明确和半明确公式，并与蒙特卡洛模拟进行了比较。最后，我们开发了明确的公式以通过电力期权和温度期权（CDD或HDD）的组合来对单向和双向量化期权进行静态对冲。
 
-    Differential sensitivity measures provide valuable tools for interpreting complex computational models used in applications ranging from simulation to algorithmic prediction. Taking the derivative of the model output in direction of a model parameter can reveal input-output relations and the relative importance of model parameters and input variables. Nonetheless, it is unclear how such derivatives should be taken when the model function has discontinuities and/or input variables are discrete. We present a general framework for addressing such problems, considering derivatives of quantile-based output risk measures, with respect to distortions to random input variables (risk factors), which impact the model output through step-functions. We prove that, subject to weak technical conditions, the derivatives are well-defined and derive the corresponding formulas. We apply our results to the sensitivity analysis of compound risk models and to a numerical study of reinsurance credit risk in
+    This paper develops a coupled model for day-ahead electricity prices and average daily temperature which allows to model quanto weather and energy derivatives. These products have gained on popularity as they enable to hedge against both volumetric and price risks. Electricity day-ahead prices and average daily temperatures are modelled through non homogeneous Ornstein-Uhlenbeck processes driven by a Brownian motion and a Normal Inverse Gaussian L\'evy process, which allows to include dependence between them. A Conditional Least Square method is developed to estimate the different parameters of the model and used on real data. Then, explicit and semi-explicit formulas are obtained for derivatives including quanto options and compared with Monte Carlo simulations. Last, we develop explicit formulas to hedge statically single and double sided quanto options by a portfolio of electricity options and temperature options (CDD or HDD).
     
-[^3]: 订单簿流限根据非均匀采样和非线性扩散条件下的异常扩散和价格影响
+[^2]: 增强量子预测能力：利用量子Gramian角度场和CNN进行股票回报预测
 
-    Anomalous diffusion and price impact in the fluid-limit of an order book. (arXiv:2310.06079v1 [q-fin.CP])
+    Quantum-Enhanced Forecasting: Leveraging Quantum Gramian Angular Field and CNNs for Stock Return Predictions. (arXiv:2310.07427v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.06079](http://arxiv.org/abs/2310.06079)
+    [http://arxiv.org/abs/2310.07427](http://arxiv.org/abs/2310.07427)
 
-    本文扩展了一个数值模拟方法，用于研究订单簿中金融市场订单的异常扩散和价格影响。我们通过模拟连续到达、取消和扩散的订单以及信息冲击，研究了不同情况下的冲击响应和风格特点。结果表明，数值方法能生成波纹效应，并提出了在扩散动力学存在的情况下使用非均匀采样作为首选的模拟方法。
-
-    
-
-    我们扩展了一个离散时间随机游走（DTRW）的数值模拟方法，用于模拟模拟订单簿中金融市场订单的异常扩散。在这里，我们使用Sibuya等待时间的随机游走来包括一个时间相关的随机强迫函数，该函数具有非均匀采样的订单簿事件之间的时间。这个模型模拟了订单簿的流限，模拟了订单的连续到达、取消和扩散，以及信息冲击的影响。我们研究了不同强迫函数和模型参数下经历异常扩散的订单的冲击响应和风格特点。具体地说，我们展示了闪电限价单和市价单的价格影响，并展示了数值方法如何生成价格影响中的波纹。我们使用三次样条插值生成平滑的价格影响曲线。这项工作推广了在扩散动力学存在的情况下使用非均匀采样作为首选的模拟方法。
-
-    We extend a Discrete Time Random Walk (DTRW) numerical scheme to simulate the anomalous diffusion of financial market orders in a simulated order book. Here using random walks with Sibuya waiting times to include a time-dependent stochastic forcing function with non-uniformly sampled times between order book events in the setting of fractional diffusion. This models the fluid limit of an order book by modelling the continuous arrival, cancellation and diffusion of orders in the presence of information shocks. We study the impulse response and stylised facts of orders undergoing anomalous diffusion for different forcing functions and model parameters. Concretely, we demonstrate the price impact for flash limit-orders and market orders and show how the numerical method generate kinks in the price impact. We use cubic spline interpolation to generate smoothed price impact curves. The work promotes the use of non-uniform sampling in the presence of diffusive dynamics as the preferred simul
-    
-[^4]: 鼓励数据共享以进行能源预测：具有相关数据的分析市场
-
-    Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data. (arXiv:2310.06000v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.06000](http://arxiv.org/abs/2310.06000)
-
-    该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。
+    该论文提出了一种名为Quantum Gramian Angular Field (QGAF)的新方法，通过将量子计算技术与深度学习相结合，成功将股票回报时间序列数据转化为适合卷积神经网络（CNN）训练的二维图像，从而提高了预测的精度。实验证明，相比传统方法，QGAF方法具有显著的性能优势。
 
     
 
-    准确地预测不确定的电力产量对于电力市场的社会福利具有益处，可以减少平衡资源的需求。将这种预测描述为一项分析任务，当前文献提出了以分析市场作为激励手段来改善精度的数据共享方法，例如利用时空相关性。挑战在于，当相关数据用作预测的输入特征时，重叠信息的价值在于收入分配方面使市场设计复杂化，因为这种价值在本质上是组合的。我们为风力预测应用开发了一个考虑相关性的分析市场。为了分配收入，我们采用了基于Shapley值的归因策略，将代理人的特征视为玩家，将他们的相互作用视为一个特征函数博弈。我们说明了描述这种博弈的多种选项，每个选项都有因果细微差别，影响着特征相关时的市场行为。
+    我们提出了一种名为Quantum Gramian Angular Field (QGAF)的时间序列预测方法。该方法将量子计算技术与深度学习相结合，旨在提高时间序列分类和预测的精度。通过设计特定的量子电路，我们成功地将股票回报时间序列数据转化为适合卷积神经网络（CNN）训练的二维图像。与经典的Gramian Angular Field (GAF)方法不同，QGAF的独特之处在于消除了数据归一化和反余弦计算的需求，简化了从时间序列数据到二维图像的转换过程。为了验证该方法的有效性，我们在中国A股市场、香港股市和美国股市的数据集上进行了实验。实验结果表明，与经典的GAF方法相比，QGAF方法显著改善了预测性能。
 
-    Reliably forecasting uncertain power production is beneficial for the social welfare of electricity markets by reducing the need for balancing resources. Describing such forecasting as an analytics task, the current literature proposes analytics markets as an incentive for data sharing to improve accuracy, for instance by leveraging spatio-temporal correlations. The challenge is that, when used as input features for forecasting, correlated data complicates the market design with respect to the revenue allocation, as the value of overlapping information is inherently combinatorial. We develop a correlation-aware analytics market for a wind power forecasting application. To allocate revenue, we adopt a Shapley value-based attribution policy, framing the features of agents as players and their interactions as a characteristic function game. We illustrate that there are multiple options to describe such a game, each having causal nuances that influence market behavior when features are cor
+    We propose a time series forecasting method named Quantum Gramian Angular Field (QGAF). This approach merges the advantages of quantum computing technology with deep learning, aiming to enhance the precision of time series classification and forecasting. We successfully transformed stock return time series data into two-dimensional images suitable for Convolutional Neural Network (CNN) training by designing specific quantum circuits. Distinct from the classical Gramian Angular Field (GAF) approach, QGAF's uniqueness lies in eliminating the need for data normalization and inverse cosine calculations, simplifying the transformation process from time series data to two-dimensional images. To validate the effectiveness of this method, we conducted experiments on datasets from three major stock markets: the China A-share market, the Hong Kong stock market, and the US stock market. Experimental results revealed that compared to the classical GAF method, the QGAF approach significantly improv
     
-[^5]: 人工智能对英国企业有益吗？关于人工智能对生产力影响的实证研究
+[^3]: 法定数字货币对货币政策的影响的实证分析 -基于中国数据的角度
+
+    Empirical Analysis of the Impact of Legal Tender Digital Currency on Monetary Policy -Based on China's Data. (arXiv:2310.07326v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.07326](http://arxiv.org/abs/2310.07326)
+
+    本文研究了中国央行数字货币对货币政策的影响，发现它对货币政策的有效性和货币乘数产生影响，并对狭义货币乘数和广义货币乘数有一定的正向影响。建议中国在稳步推进央行数字货币发展的前提下，探索更加有效的货币政策。
+
+    
+
+    本文以中国央行数字货币的发展为视角，从理论上分析了央行数字货币的发行与流通对中国货币政策和货币乘数各个变量的影响机制；同时，选择2010年至2022年的季度数据，通过建立VECM模型，检验了央行数字货币对货币供应乘数的影响。研究结果表明：中国央行数字货币的发行将会对货币政策的有效性和中间指标产生影响；并对狭义货币乘数和广义货币乘数产生一定的正向影响。基于理论分析和实证检验，本文提出，中国在稳步推进央行数字货币发展的前提下，应在央行数字货币的背景下探索更加有效的货币政策。
+
+    This paper takes the development of China's Central bank digital currencies as a perspective, theoretically analyses the impact mechanism of the issuance and circulation of Central bank digital currencies on China's monetary policy and various variables of the money multiplier; at the same time, it selects the quarterly data from 2010 to 2022, and examines the impact of the Central bank digital currencies on the money supply multiplier through the establishment of the VECM model. The research results show that: the issuance of China's Central bank digital currencies will have an impact on the effectiveness of monetary policy and intermediary indicators; and have a certain positive impact on the narrow money multiplier and broad money multiplier. Based on theoretical analyses and empirical tests, this paper proposes that China should explore a more effective monetary policy in the context of Central bank digital currencies in the future on the premise of steadily promoting the developme
+    
+[^4]: de Finetti早期作品中诞生了（一个稳健的）套利理论
+
+    The birth of (a robust) Arbitrage Theory in de Finetti's early contributions. (arXiv:2310.07291v1 [math.PR])
+
+    [http://arxiv.org/abs/2310.07291](http://arxiv.org/abs/2310.07291)
+
+    B. de Finetti的《概率的主观意义》（1931年）被一致认为是“主观主义”的崛起，并为现代套利理论奠定了基础。
+
+    
+
+    1931年的B. de Finetti的《概率的主观意义》被一致认为是“主观主义”的崛起，这个概念强烈影响了概率论和决策理论。鲜为人知的是，de Finetti提出了现代套利理论的基础。本文旨在研究de Finetti的贡献如何被视为资产定价理论的先驱，并展示他的发现与稳健金融的最新发展的关系。
+
+    \textit{Il significato soggettivo della probabilit\`a} (1931) by B. de Finetti \cite{deF} is unanimously considered the rise of `subjectivism', a notion which strongly influenced both Probability and Decision Theory. What is less acknowledge is that \cite{deF} posed the foundations of modern arbitrage theory. In this paper we aim at examining how de Finetti's contribution should be considered as the precursor of Asset Pricing Theory and we show how his findings relate to recent developments in Robust Finance.
+    
+[^5]: 在基础模型时代的风险评估和统计显著性
+
+    Risk Assessment and Statistical Significance in the Age of Foundation Models. (arXiv:2310.07132v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.07132](http://arxiv.org/abs/2310.07132)
+
+    本论文提出了一个分布框架，用于评估具有统计显著性的基础模型的风险。通过一种新的统计相对测试方法，该框架结合了一阶和二阶随机优势，并借鉴了计量经济学和数学金融中常用的平均风险模型。在给定指定度量量化的防护栏的情况下，我们还开发了一种基于风险意识的基础模型选择方法。受数学金融中的投资组合优化和选择理论的启发，我们为每个模型定义了一个"度量组合"，并根据这些组合的随机优势进行模型选择。
+
+    
+
+    我们提出了一个分布框架，用于评估具有统计显著性的基础模型的社会技术风险。我们的方法依赖于一种基于实际随机变量的一阶和二阶随机优势的新的统计相对测试。我们表明，这个测试中的二阶统计与在计量经济学和数学金融中常用的平均风险模型相联系，用于在选择方案时平衡风险和效用。利用这个框架，我们正式开发了一种基于风险意识的基础模型选择方法，给定由指定度量量化的防护栏。受数学金融中的投资组合优化和选择理论的启发，我们为每个模型定义了一个"度量组合"，作为聚合一系列度量的手段，并根据这些组合的随机优势进行模型选择。我们的测试的统计显著性在理论上由通过中心极限的渐近分析支持。
+
+    We propose a distributional framework for assessing socio-technical risks of foundation models with quantified statistical significance. Our approach hinges on a new statistical relative testing based on first and second order stochastic dominance of real random variables. We show that the second order statistics in this test are linked to mean-risk models commonly used in econometrics and mathematical finance to balance risk and utility when choosing between alternatives. Using this framework, we formally develop a risk-aware approach for foundation model selection given guardrails quantified by specified metrics. Inspired by portfolio optimization and selection theory in mathematical finance, we define a \emph{metrics portfolio} for each model as a means to aggregate a collection of metrics, and perform model selection based on the stochastic dominance of these portfolios. The statistical significance of our tests is backed theoretically by an asymptotic analysis via central limit th
+    
+[^6]: 股票市场估值期限的研究
+
+    Valuation Duration of the Stock Market. (arXiv:2310.07110v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2310.07110](http://arxiv.org/abs/2310.07110)
+
+    该论文的研究发现市场参与者关于股票市场现金流的信息有限，估值期限的增加是由于折现率的降低而非长期增长的好消息。估值期限能够负向预测年度市场回报，胜过其他预测因子。通过估值期限可以捕捉到估值期限结构的变化。
+
+    
+
+    在科技泡沫的顶峰，仅有0.57%的市场估值来自下一年的股息。通过总市值与一年股息价值的比值，我们得到了一个基于估值的期限为175年。相比之下，在全球金融危机的高峰期，超过2.2%的市值来自下一年的股息，意味着一个期限为46年。是什么驱动了估值期限的变化？我们发现市场参与者对于一年之后的现金流信息有限。因此，估值期限的增加是由于折现率的降低，而不是关于长期增长的好消息。相应地，估值期限能够负向预测年度市场回报，其在样本外R2达到15%，在文献中鲁棒性地胜过其他预测因子。尽管股价股息比反映了整体估值水平，我们基于估值的期限测量捕捉了估值期限结构的斜率。我们展示了估值期限的重要性。
+
+    At the peak of the tech bubble, only 0.57% of market valuation comes from dividends in the next year. Taking the ratio of total market value to the value of one-year dividends, we obtain a valuation-based duration of 175 years. In contrast, at the height of the global financial crisis, more than 2.2% of market value is from dividends in the next year, implying a duration of 46 years. What drives valuation duration? We find that market participants have limited information about cash flow beyond one year. Therefore, an increase in valuation duration is due to a decrease in the discount rate rather than good news about long-term growth. Accordingly, valuation duration negatively predicts annual market return with an out-of-sample R2 of 15%, robustly outperforming other predictors in the literature. While the price-dividend ratio reflects the overall valuation level, our valuation-based measure of duration captures the slope of the valuation term structure. We show that valuation duration
+    
+[^7]: 使用子样本估计减少随机优化模型中的误差
+
+    Uses of Sub-sample Estimates to Reduce Errors in Stochastic Optimization Models. (arXiv:2310.07052v1 [math.OC])
+
+    [http://arxiv.org/abs/2310.07052](http://arxiv.org/abs/2310.07052)
+
+    本文研究了使用子样本估计来减少大规模随机优化模型中的误差，通过对比全样本解估计的结果，证明了子样本优化可能获得更好的结果。
+
+    
+
+    优化软件能够解决具有数百万个变量和相关参数的问题。然而，这些参数往往是不确定的，并用参数分布的解析描述或某种形式的样本表示。在具有大量此类参数的情况下，由于规范错误或极端样本特征驱动的模型优化通常导致离真正最优解很远的解。本文描述了渐近收敛结果在大规模问题中可能无用的情况，以及基于子样本估计的问题优化可能实现比使用全样本解估计更好的结果。一个激励性示例和一个投资组合优化问题的数值结果展示了潜在的改进。理论分析还揭示了子样本优化在哪些问题结构中可能最有益的一些见解。
+
+    Optimization software enables the solution of problems with millions of variables and associated parameters. These parameters are, however, often uncertain and represented with an analytical description of the parameter's distribution or with some form of sample. With large numbers of such parameters, optimization of the resulting model is often driven by mis-specifications or extreme sample characteristics, resulting in solutions that are far from a true optimum. This paper describes how asymptotic convergence results may not be useful in large-scale problems and how the optimization of problems based on sub-sample estimates may achieve improved results over models using full-sample solution estimates. A motivating example and numerical results from a portfolio optimization problem demonstrate the potential improvement. A theoretical analysis also provides insight into the structure of problems where sub-sample optimization may be most beneficial.
+    
+[^8]: 阿根廷的肺癌：一项关于疾病和经济负担的建模研究
+
+    Lung Cancer in Argentina: A Modelling Study of Disease and Economic Burden. (arXiv:2310.06999v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.06999](http://arxiv.org/abs/2310.06999)
+
+    本研究通过建立数学模型评估了阿根廷肺癌的疾病和经济负担。在2023年，阿根廷肺癌的经济负担估计为5.562亿美元。
+
+    
+
+    目标：肺癌仍然是全球重要的公共卫生挑战，也是阿根廷肿瘤相关死亡的主要原因之一。本研究旨在评估该国肺癌的疾病和经济负担。研究设计：疾病负担研究方法：开发了一个数学模型，以估计与肺癌相关的疾病负担和直接医疗成本。流行病学参数从当地统计数据、全球癌症观察台、全球疾病负担数据库和文献综述中获得。通过微成本法评估直接医疗成本。成本以2023年4月的美元（1美元=216.38阿根廷比索）计算。进行二阶蒙特卡洛模拟以估计不确定性。结果：考虑到大约10,000例死亡、12,000例新发病例和14,000例5年患病病例，预计2023年阿根廷肺癌的经济负担将达到5.562亿美元
+
+    Objectives: Lung cancer remains a significant global public health challenge and is still one of the leading cause of cancer-related death in Argentina. This study aims to assess the disease and economic burden of lung cancer in the country.  Study design: Burden of disease study  Methods. A mathematical model was developed to estimate the disease burden and direct medical cost attributable to lung cancer. Epidemiological parameters were obtained from local statistics, the Global Cancer Observatory, the Global Burden of Disease databases, and a literature review. Direct medical costs were estimated through micro-costing. Costs were expressed in US dollars (US$), April 2023 (1 US$ =216.38 argentine pesos). A second-order Monte Carlo simulation was performed to estimate the uncertainty.  Results: Considering approximately 10,000 deaths, 12,000 incident cases, and 14,000 5-year prevalent cases, the economic burden of lung cancer in Argentina in 2023 was estimated to be US$ 556.20 million 
+    
+[^9]: 利用不公平优势: 对NFT市场中的机会主义交易进行调查
+
+    Exploiting Unfair Advantages: Investigating Opportunistic Trading in the NFT Market. (arXiv:2310.06844v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2310.06844](http://arxiv.org/abs/2310.06844)
+
+    本论文调查了NFT市场中的机会主义交易，并揭示了利用不公平优势从中获利的问题。该研究对于进一步理解NFT交易的经济特性具有重要意义。
+
+    
+
+    随着加密货币的发展，出现了新的金融工具，如借贷协议、货币交易所、可互换和不可互换的代币（NFT）、质押和挖矿协议。建立在区块链上的金融生态系统应该对每个参与者公平和透明。然而，有些复杂的参与者利用自己的领域知识和市场的低效性，从中抽取其他人无法获取的交易价值。这种情况进一步加剧了基于区块链的市场和去中心化金融（DeFi）工具的无监管性。尽管已经有大量研究关于DeFi和加密货币交易不公平性的论文，但对于非互换代币（NFT）交易的经济复杂性需要进一步分析和学术审视。近年来，NFT的交易量飞速增长。一次单个NFT的交易价值超过百万美元。
+
+    As cryptocurrency evolved, new financial instruments, such as lending and borrowing protocols, currency exchanges, fungible and non-fungible tokens (NFT), staking and mining protocols have emerged. A financial ecosystem built on top of a blockchain is supposed to be fair and transparent for each participating actor. Yet, there are sophisticated actors who turn their domain knowledge and market inefficiencies to their strategic advantage; thus extracting value from trades not accessible to others. This situation is further exacerbated by the fact that blockchain-based markets and decentralized finance (DeFi) instruments are mostly unregulated. Though a large body of work has already studied the unfairness of different aspects of DeFi and cryptocurrency trading, the economic intricacies of non-fungible token (NFT) trades necessitate further analysis and academic scrutiny.  The trading volume of NFTs has skyrocketed in recent years. A single NFT trade worth over a million US dollars, or m
+    
+[^10]: 人工智能对英国企业有益吗？关于人工智能对生产力影响的实证研究
 
     Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity. (arXiv:2310.05985v1 [econ.GN])
 
@@ -86,88 +161,88 @@
 
     Media hype and technological breakthroughs are fuelling the race to adopt Artificial Intelligence amongst the business community, but is there evidence to suggest this will increase productivity? This paper uses 2015-2019 microdata from the UK Office for National Statistics to identify if the adoption of Artificial Intelligence techniques increases labour productivity in UK businesses. Using fixed effects estimation (Within Group) with a log-linear regression specification the paper concludes that there is no statistically significant impact of AI adoption on labour productivity.
     
-[^6]: 经济理论作为统计矩的逐步逼近
+[^11]: 非线性高斯泛函的运输成本不等式
 
-    Economic Theory as Successive Approximations of Statistical Moments. (arXiv:2310.05971v1 [econ.GN])
+    Transportation-cost inequalities for non-linear Gaussian functionals. (arXiv:2310.05750v1 [math.PR] CROSS LISTED)
 
-    [http://arxiv.org/abs/2310.05971](http://arxiv.org/abs/2310.05971)
+    [http://arxiv.org/abs/2310.05750](http://arxiv.org/abs/2310.05750)
 
-    本文研究了宏观经济变量与市场交易、价格和回报的统计矩之间的关系，并介绍了一个二次平均过程来确定宏观经济变量的统计矩。
-
-    
-
-    本文强调了宏观经济变量描述与市场交易、价格和回报的统计矩之间的关系。我们将在时间间隔Δ内的经济交易视为唯一决定任何经济变量变化的因素。我们将Δ期间市场交易价值和交易量的随机性视为价格和回报的随机性的根源。我们描述了Δ期间价格和回报的基于市场的第n个统计矩如何依赖于交易价值和交易量的n个统计矩，或者等价地，如何依赖于Δ期间市场交易价值和交易量的n次方之和。我们引入了二次平均过程，确定了在较大的平均间隔Δ2>>Δ内的交易、价格和回报的统计矩。同样地，Δ2>>Δ期间的二次平均过程引入了宏观经济变量的统计矩，这些统计矩是由交易、价格和回报的n次方和之和来确定的。
-
-    This paper highlights the links between the descriptions of macroeconomic variables and statistical moments of market trade, price, and return. We consider economic transactions during the averaging time interval {\Delta} as the exclusive matter that determines the change of any economic variables. We regard the stochasticity of market trade values and volumes during {\Delta} as the only root of the random properties of price and return. We describe how the market-based n-th statistical moments of price and return during {\Delta} depend on the n-th statistical moments of trade values and volumes or equally on sums during {\Delta} of the n-th power of market trade values and volumes. We introduce the secondary averaging procedure that defines statistical moments of trade, price, and return during the averaging interval {\Delta}2>>{\Delta}. As well, the secondary averaging during {\Delta}2>>{\Delta} introduces statistical moments of macroeconomic variables, which were determined as sums 
-    
-[^7]: 区块链技术对加密货币购买意向的中介效应
-
-    The Mediating Effect of Blockchain Technology on the Cryptocurrency Purchase Intention. (arXiv:2310.05970v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.05970](http://arxiv.org/abs/2310.05970)
-
-    本研究通过考虑客户服务、成本降低、效率和可靠性等因素，解释了区块链技术在加密货币购买中的易于使用和有用性的中介效应。
+    我们研究了度量空间上非线性高斯泛函的浓度性质，并且证明了适用于正则结构理论以及粗波动性和二维抛物型安德森模型等情况下产生的泛函的广义TCIs。同时，我们还扩展了关于由高斯过程驱动的扩散的TCIs的现有结果。
 
     
 
-    加密货币能够在没有中央机构的情况下实现安全的数字资产转移，因此引起了越来越多的关注。随着全球和土耳其投资者数量的增加，可以明显看出在金融波动面前，对数字资产的兴趣将持续增长。然而，消费者在购买加密货币时是否认为区块链技术易于使用和有用性仍存在不确定性。本研究旨在通过考虑客户服务质量、降低成本、效率和可靠性等因素，来解释区块链技术在加密货币购买中的易于使用和有用性。为了实现这个目标，我们从土耳其不同地区对加密货币感兴趣的463个参与者那里获取了数据，并使用SPSS Process Macro程序进行分析。分析结果表明，感知易于使用和有用性介导了客户服务、降低成本、效率和可靠性的影响。
+    我们研究了度量空间上非线性高斯泛函的浓度性质。我们关注的是具有非高斯尾行为的测度，这是Talagrand的经典运输成本不等式无法覆盖的范围。受粗微分方程解的启发，并依赖于适当的收缩原理，我们证明了适用于正则结构理论以及粗波动性和二维抛物型安德森模型等情况下产生的泛函的广义TCIs。在此过程中，我们还扩展了关于由高斯过程驱动的扩散的TCIs的现有结果。
 
-    Cryptocurrencies, enabling secure digital asset transfers without a central authority, are experiencing increasing interest. With the increasing number of global and Turkish investors, it is evident that interest in digital assets will continue to rise sustainably, even in the face of financial fluctuations. However, it remains uncertain whether consumers perceive blockchain technology's ease of use and usefulness when purchasing cryptocurrencies. This study aims to explain blockchain technology's perceived ease of use and usefulness in cryptocurrency purchases by considering factors such as quality customer service, reduced costs, efficiency, and reliability. To achieve this goal, data were obtained from 463 participants interested in cryptocurrencies in different regions of Turkey. The data were analyzed using SPSS Process Macro programs. The analysis results indicate that perceived ease of use and usefulness mediate the effects of customer service and reduced costs, efficiency, and 
+    We study concentration properties for laws of non-linear Gaussian functionals on metric spaces. Our focus lies on measures with non-Gaussian tail behaviour which are beyond the reach of Talagrand's classical Transportation-Cost Inequalities (TCIs). Motivated by solutions of Rough Differential Equations and relying on a suitable contraction principle, we prove generalised TCIs for functionals that arise in the theory of regularity structures and, in particular, in the cases of rough volatility and the two-dimensional Parabolic Anderson Model. In doing so, we also extend existing results on TCIs for diffusions driven by Gaussian processes.
     
-[^8]: 带有签名的统计套利中的最优入场和退出策略
+[^12]: 使用套利定价理论和分位数回归的计量经济模型估计驱动原油收益的风险因素
 
-    Optimal Entry and Exit with Signature in Statistical Arbitrage. (arXiv:2309.16008v1 [q-fin.CP])
+    Econometric Model Using Arbitrage Pricing Theory and Quantile Regression to Estimate the Risk Factors Driving Crude Oil Returns. (arXiv:2309.13096v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2309.16008](http://arxiv.org/abs/2309.16008)
+    [http://arxiv.org/abs/2309.13096](http://arxiv.org/abs/2309.13096)
 
-    本文提出了一种新的统计套利交易策略，通过解决顺序最优停止问题，揭示了最优入场和退出时机，从而最大化收益。数值结果表明该策略在各种情景下的表现优于传统均值回复交易规则。
-
-    
-
-    本文探讨了一种适用于展现均值回复特性的价格差的交易的最优时机策略。我们制定了一个顺序最优停止问题，分析了在考虑交易成本影响的情况下，进入和随后清算仓位的最优时机。我们的方法利用了签名最优停止方法来解决这个顺序最优停止问题，从而揭示了最大化收益的确切入场和退出时机。我们的框架适应了广泛的均值回复动力学，适用于各种情景。我们提供了数值结果来证明与传统均值回复交易规则相比其卓越的表现。
-
-    In this paper, we explore an optimal timing strategy for the trading of price spreads exhibiting mean-reverting characteristics. A sequential optimal stopping problem is formulated to analyze the optimal timings for both entering and subsequently liquidating positions, all while considering the impact of transaction costs. Our approach leverages the signature optimal stopping method to resolve this sequential optimal stopping problem, thereby unveiling the precise entry and exit timings that maximize gains. Our framework accommodates a wide range of mean reversion dynamics, offering adaptability to diverse scenarios. Numerical results are provided to demonstrate its superior performance when comparing with conventional mean reversion trading rules.
-    
-[^9]: 通过 Numerai 数据科学竞赛案例，理解时间表格和多变量时间序列的模型复杂度
-
-    Understanding Model Complexity for temporal tabular and multi-variate time series, case study with Numerai data science tournament. (arXiv:2303.07925v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.07925](http://arxiv.org/abs/2303.07925)
-
-    本文采用 Numerai 数据科学竞赛的数据，探究了多变量时间序列建模中不同特征工程和降维方法的应用；提出了一种新的集成方法，用于高维时间序列建模，该方法在通用性、鲁棒性和效率上优于一些深度学习模型。
+    本研究采用套利定价理论和分位数回归模型研究了驱动原油收益的风险因素，并发现了市场条件和波动水平对原油收益的不同影响。研究还强调了全球经济和原油需求变化引起的结构性不连续性对收益的影响。
 
     
 
-    本文探究了在多变量时间序列建模中使用不同特征工程和降维方法的应用。利用从 Numerai 数据竞赛创建的特征目标交叉相关时间序列数据集，我们证明在过度参数化的情况下，不同特征工程方法的性能与预测会收敛到可由再生核希尔伯特空间刻画的相同平衡态。我们提出了一种新的集成方法，该方法结合了不同的随机非线性变换，随后采用岭回归模型进行高维时间序列建模。与一些常用的用于序列建模的深度学习模型（如 LSTM 和 transformer）相比，我们的方法更加鲁棒（在不同的随机种子下具有较低的模型方差，且对架构的选择不太敏感），并且更有效率。我们方法的另一个优势在于模型的简单性，因为没有必要使用复杂的深度学习框架。
+    本研究采用了一种新颖的方法，通过运用套利定价理论（APT）和分位数回归（QR）来确定原油股票的风险和回报。APT识别了可能影响原油收益的潜在风险因素。随后，QR估计了因素与收益之间在分布不同分位数上的关系。本研究使用西德克萨斯中质原油（WTI）价格作为原油价格的基准。WTI价格波动对原油股票的表现和全球经济可能产生重要影响。为了确定所提出模型的稳定性，本研究使用了多种统计指标。结果表明，WTI收益的变化在不同市场情况和波动水平下具有不同的影响。本研究强调了结构性不连续性对收益的影响，这可能是由全球经济和对原油需求变化引起的。
 
-    In this paper, we explore the use of different feature engineering and dimensionality reduction methods in multi-variate time-series modelling. Using a feature-target cross correlation time series dataset created from Numerai tournament, we demonstrate under over-parameterised regime, both the performance and predictions from different feature engineering methods converge to the same equilibrium, which can be characterised by the reproducing kernel Hilbert space. We suggest a new Ensemble method, which combines different random non-linear transforms followed by ridge regression for modelling high dimensional time-series. Compared to some commonly used deep learning models for sequence modelling, such as LSTM and transformers, our method is more robust (lower model variance over different random seeds and less sensitive to the choice of architecture) and more efficient. An additional advantage of our method is model simplicity as there is no need to use sophisticated deep learning frame
+    This work adopts a novel approach to determine the risk and return of crude oil stocks by employing Arbitrage Pricing Theory (APT) and Quantile Regression (QR).The APT identifies the underlying risk factors likely to impact crude oil returns.Subsequently, QR estimates the relationship between the factors and the returns across different quantiles of the distribution. The West Texas Intermediate (WTI) crude oil price is used in this study as a benchmark for crude oil prices. WTI price fluctuations can have a significant impact on the performance of crude oil stocks and, subsequently, the global economy.To determine the proposed models stability, various statistical measures are used in this study.The results show that changes in WTI returns can have varying effects depending on market conditions and levels of volatility. The study highlights the impact of structural discontinuities on returns, which can be caused by changes in the global economy and the demand for crude oil.The inclusio
     
-[^10]: 大赢家对被动和主动股权投资策略的影响
+[^13]: 微观聚集的利润份额
 
-    The impact of big winners on passive and active equity investment strategies. (arXiv:2210.09302v5 [q-fin.PM] UPDATED)
+    The Micro-Aggregated Profit Share. (arXiv:2309.12945v1 [econ.GN])
 
-    [http://arxiv.org/abs/2210.09302](http://arxiv.org/abs/2210.09302)
+    [http://arxiv.org/abs/2309.12945](http://arxiv.org/abs/2309.12945)
 
-    本研究通过分析历史股价数据发现，大赢家股票对主动管理者的表现构成了重要风险，而被动投资策略更可能实现长期财务目标。
-
-    
-
-    我们利用数值和分析技术研究了大赢家股票对主动和被动投资策略表现的影响。我们的分析基于2006年至2021年间来自全球各种指数的历史股价数据。我们发现对于大部分世界股票指数，对数正态分布提供了合理的总回报拟合，但同时也强调了这个模型的局限性。利用对有限个对数正态随机变量的一个解析表达式，我们展示了集中投资组合的典型回报小于等权指数的回报。这一发现表明，由于错失了大赢家股票所带来的巨大回报，主动管理者面临着严重的低于市场表现的风险。我们的结果表明，不需要选择个股的被动投资策略更有可能实现长期的财务目标。
-
-    We investigate the impact of big winner stocks on the performance of active and passive investment strategies using a combination of numerical and analytical techniques. Our analysis is based on historical stock price data from 2006 to 2021 for a large variety of global indexes. We show that the log-normal distribution provides a reasonable fit for total returns for the majority of world stock indexes but highlight the limitations of this model. Using an analytical expression for a finite sum of log-normal random variables, we show that the typical return of a concentrated portfolio is less than that of an equally weighted index. This finding indicates that active managers face a significant risk of underperforming due to the potential for missing out on the substantial returns generated by big winner stocks. Our results suggest that passive investing strategies, that do not involve the selection of individual stocks, are likely to be more effective in achieving long-term financial goa
-    
-[^11]: 分段双曲线绝对风险厌恶效用的统一最优组合公式
-
-    A Unified Formula of the Optimal Portfolio for Piecewise Hyperbolic Absolute Risk Aversion Utilities. (arXiv:2107.06460v4 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2107.06460](http://arxiv.org/abs/2107.06460)
-
-    本论文提出了一种分段双曲线绝对风险厌恶效用函数家族，并推导出了统一最优组合的闭式公式。该公式反映了风险厌恶、风险寻求、损失厌恶和一阶风险厌恶的行为，并可作为金融分析的工具使用。研究发现，非凸性增加了风险承担行为，而非可微性降低了对该效用函数的风险承担行为。
+    自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。
 
     
 
-    我们提出了一种通用的分段双曲线绝对风险厌恶（PHARA）效用函数家族，包括许多经典和非标准的效用函数作为例子。一个典型的应用是在资产配置中组合HARA偏好和分段线性支付。我们推导出了最优组合的统一闭式公式，该公式是一个四项分式。该公式具有明确的经济意义，反映了风险厌恶、风险寻求、损失厌恶和一阶风险厌恶的行为。我们对最优组合进行了一般性的渐近分析，直接作为金融分析的分析工具。我们在理论上和数值上将这个PHARA组合与其他效用函数家族进行了比较。其中一个主要发现是，非凸性显著增加了风险承担行为，而非可微性则减少了对PHARA效用的风险承担行为。最后，我们使用金融数据来测试PHARA组合在市场中的表现。
+    在过去的五十年里，美国的市场权力增加了多少？利用美国Compustat的微观层面数据，我们发现自1970年以来，市场权力的几个指标逐渐增加。从1970年的价格与边际成本的10％增加到2020年的23％，并且规模回报率从1.00增加到1.13。我们将这些市场权力指标与盈利能力相联系，通过展示利润份额可以用总体加价、总体规模回报率和一个捕捉到经济中双重边际效益的生产网络的充分统计量来表示。尽管市场权力上升，但利润份额在GDP中保持18％不变，因为垄断租金的增加完全被不断上升的固定成本抵消了。我们的实证结果对政策制定者有微妙的影响：过于激进的反垄断执法可能会降低公司活力，反而导致
 
-    We propose a general family of piecewise hyperbolic absolute risk aversion (PHARA) utilities, including many classic and non-standard utilities as examples. A typical application is the composition of a HARA preference and a piecewise linear payoff in asset allocation. We derive a unified closed-form formula of the optimal portfolio, which is a four-term division. The formula has clear economic meanings, reflecting the behavior of risk aversion, risk seeking, loss aversion and first-order risk aversion. We conduct a general asymptotic analysis to the optimal portfolio, which directly serves as an analytical tool for financial analysis. We compare this PHARA portfolio with those of other utility families both analytically and numerically. One main finding is that risk-taking behaviors are greatly increased by non-concavity and reduced by non-differentiability of the PHARA utility. Finally, we use financial data to test the performance of the PHARA portfolio in the market.
+    How much has market power increased in the United States in the last fifty years? Using micro-level data from U.S. Compustat, we find that several indicators of market power have steadily increased since 1970. The aggregate markup has gone up from 10% of price over marginal cost in 1970 to 23% in 2020, and aggregate returns to scale have risen from 1.00 to 1.13. We connect these market-power indicators to profitability by showing that the aggregate profit share can be expressed in terms of the aggregate markup, aggregate returns to scale, and a sufficient statistic for production networks that captures double marginalization in the economy. We find that despite the rise in market power, the profit share has been constant at 18% of GDP because the increase in monopoly rents has been completely offset by rising fixed costs. Our empirical results have subtle implications for policymakers: overly aggressive enforcement of antitrust law could decrease firm dynamism and paradoxically lead to
+    
+[^14]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^15]: 平滑的嵌套模拟方法：在高维度中桥接立方和平方根收敛率
+
+    Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions. (arXiv:2201.02958v4 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2201.02958](http://arxiv.org/abs/2201.02958)
+
+    本文提出了一种嵌套模拟的新方法，它能够在保持条件期望足够平滑的情况下，有效地缓解高维度中的维度灾难，以桥接标准嵌套模拟的立方根收敛率和标准蒙特卡洛模拟的平方根收敛率之间的差距。
+
+    
+
+    嵌套模拟是通过模拟来估计条件期望的功能。本文提出了一种基于核岭回归的新方法，以利用条件期望作为多维调节变量的平滑函数。渐近分析表明，只要条件期望足够平滑，所提出的方法能够在模拟次数增加时有效地减少维度灾难的影响。平滑性桥接了立方根收敛率（即标准嵌套模拟的最优收敛率）和平方根收敛率（即标准蒙特卡洛模拟的规范收敛率）之间的差距。我们通过组合风险管理和输入不确定性量化的数值示例，展示了所提出方法的性能。
+
+    Nested simulation concerns estimating functionals of a conditional expectation via simulation. In this paper, we propose a new method based on kernel ridge regression to exploit the smoothness of the conditional expectation as a function of the multidimensional conditioning variable. Asymptotic analysis shows that the proposed method can effectively alleviate the curse of dimensionality on the convergence rate as the simulation budget increases, provided that the conditional expectation is sufficiently smooth. The smoothness bridges the gap between the cubic root convergence rate (that is, the optimal rate for the standard nested simulation) and the square root convergence rate (that is, the canonical rate for the standard Monte Carlo simulation). We demonstrate the performance of the proposed method via numerical examples from portfolio risk management and input uncertainty quantification.
+    
+[^16]: 潜在因果社会经济健康指数
+
+    Latent Causal Socioeconomic Health Index. (arXiv:2009.12217v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2009.12217](http://arxiv.org/abs/2009.12217)
+
+    该研究发展了一个基于模型的潜在因果社会经济健康（LACSH）指数，通过将潜在健康因子指数与空间建模和统计因果建模相结合，以促进对观察连续变量对具有空间相关性的潜在特征产生因果影响的理解。研究还介绍了一种用于评估连续政策变量的协变量平衡的新型可视化技术。
+
+    
+
+    该研究在国家层面上发展了一个基于模型的潜在因果社会经济健康（LACSH）指数。受到对全面国家幸福指数的需求的驱使，我们建立在已被用于评估不可观察的生态/生态系统健康的潜在健康因子指数（LHFI）方法的基础上。LHFI综合性地建模了指标、潜在健康和驱动健康概念的协变量之间的关系。在本文中，LHFI结构与空间建模和统计因果建模相结合。我们的工作重点是开发集成框架，以便更好地理解观察连续变量如何可能对具有空间相关性的潜在特征产生因果影响。还介绍了一种用于连续政策（治疗）变量的协变量平衡评估的新型可视化技术。我们的LACSH框架和可视化工具通过两个全球案例研究进行了说明。
+
+    This research develops a model-based LAtent Causal Socioeconomic Health (LACSH) index at the national level. Motivated by the need for a holistic national well-being index, we build upon the latent health factor index (LHFI) approach that has been used to assess the unobservable ecological/ecosystem health. LHFI integratively models the relationship between metrics, latent health, and covariates that drive the notion of health. In this paper, the LHFI structure is integrated with spatial modeling and statistical causal modeling. Our efforts are focused on developing the integrated framework to facilitate the understanding of how an observational continuous variable might have causally affected a latent trait that exhibits spatial correlation. A novel visualization technique to evaluate covariate balance is also introduced for the case of a continuous policy (treatment) variable. Our resulting LACSH framework and visualization tool are illustrated through two global case studies on nati
     
 

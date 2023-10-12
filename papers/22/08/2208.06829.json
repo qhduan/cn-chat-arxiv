@@ -1,0 +1,12 @@
+{
+    "title": "Analogical proportions in monounary algebras. (arXiv:2208.06829v3 [cs.AI] UPDATED)",
+    "abstract": "This paper studies analogical proportions in monounary algebras consisting only of a universe and a single unary function. We show that the analogical proportion relation is characterized in the infinite monounary algebra formed by the natural numbers together with the successor function via difference proportions.",
+    "link": "http://arxiv.org/abs/2208.06829",
+    "context": "Title: Analogical proportions in monounary algebras. (arXiv:2208.06829v3 [cs.AI] UPDATED)\nAbstract: This paper studies analogical proportions in monounary algebras consisting only of a universe and a single unary function. We show that the analogical proportion relation is characterized in the infinite monounary algebra formed by the natural numbers together with the successor function via difference proportions.",
+    "path": "papers/22/08/2208.06829.json",
+    "total_tokens": 513,
+    "translated_title": "单一一元代数中的类比比例",
+    "translated_abstract": "本文研究了由一个宇宙和一个单一一元函数组成的单一一元代数中的类比比例。我们通过差别比例表明，类比比例关系可以在由自然数和后继函数组成的无限单一一元代数中进行描述。",
+    "tldr": "本文研究了单一一元代数中的类比比例，在由自然数和后继函数组成的无限单一一元代数中，类比比例关系可以通过差别比例进行描述。",
+    "en_tdlr": "This paper studies analogical proportions in monounary algebras and shows that the analogical proportion relation can be characterized through difference proportions in the infinite monounary algebra formed by the natural numbers and the successor function."
+}

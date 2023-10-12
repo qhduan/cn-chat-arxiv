@@ -1,0 +1,12 @@
+{
+    "title": "Improving Contrastive Learning of Sentence Embeddings with Focal-InfoNCE. (arXiv:2310.06918v1 [cs.CL])",
+    "abstract": "The recent success of SimCSE has greatly advanced state-of-the-art sentence representations. However, the original formulation of SimCSE does not fully exploit the potential of hard negative samples in contrastive learning. This study introduces an unsupervised contrastive learning framework that combines SimCSE with hard negative mining, aiming to enhance the quality of sentence embeddings. The proposed focal-InfoNCE function introduces self-paced modulation terms in the contrastive objective, downweighting the loss associated with easy negatives and encouraging the model focusing on hard negatives. Experimentation on various STS benchmarks shows that our method improves sentence embeddings in terms of Spearman's correlation and representation alignment and uniformity.",
+    "link": "http://arxiv.org/abs/2310.06918",
+    "context": "Title: Improving Contrastive Learning of Sentence Embeddings with Focal-InfoNCE. (arXiv:2310.06918v1 [cs.CL])\nAbstract: The recent success of SimCSE has greatly advanced state-of-the-art sentence representations. However, the original formulation of SimCSE does not fully exploit the potential of hard negative samples in contrastive learning. This study introduces an unsupervised contrastive learning framework that combines SimCSE with hard negative mining, aiming to enhance the quality of sentence embeddings. The proposed focal-InfoNCE function introduces self-paced modulation terms in the contrastive objective, downweighting the loss associated with easy negatives and encouraging the model focusing on hard negatives. Experimentation on various STS benchmarks shows that our method improves sentence embeddings in terms of Spearman's correlation and representation alignment and uniformity.",
+    "path": "papers/23/10/2310.06918.json",
+    "total_tokens": 769,
+    "translated_title": "用聚焦-信息熵改进对比学习句子嵌入",
+    "translated_abstract": "SimCSE的最新成功极大地推进了句子表示的最新技术。然而，SimCSE的原始表达没有充分利用对比学习中硬负样本的潜力。本研究引入了一种无监督对比学习框架，将SimCSE与硬负样本挖掘相结合，旨在提高句子嵌入的质量。所提出的聚焦-信息熵函数在对比目标中引入了自适应调节项，降低与易负样本相关的损失，并鼓励模型关注于困难负样本。在各种STS基准测试上的实验结果表明，我们的方法在斯皮尔曼相关系数、表示对齐性和一致性方面改进了句子嵌入。",
+    "tldr": "本研究提出了一种聚焦-信息熵函数，利用硬负样本挖掘改进了对比学习句子嵌入的方法，并在各种基准测试中验证了其性能提升。",
+    "en_tdlr": "This study introduces a focal-InfoNCE function that combines hard negative mining with contrastive learning to improve sentence embeddings, leading to enhanced performance in various benchmarks."
+}

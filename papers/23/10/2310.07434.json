@@ -1,0 +1,12 @@
+{
+    "title": "HealthWalk: Promoting Health and Mobility through Sensor-Based Rollator Walker Assistance. (arXiv:2310.07434v1 [cs.RO])",
+    "abstract": "Rollator walkers allow people with physical limitations to increase their mobility and give them the confidence and independence to participate in society for longer. However, rollator walker users often have poor posture, leading to further health problems and, in the worst case, falls. Integrating sensors into rollator walker designs can help to address this problem and results in a platform that allows several other interesting use cases. This paper briefly overviews existing systems and the current research directions and challenges in this field. We also present our early HealthWalk rollator walker prototype for data collection with older people, rheumatism, multiple sclerosis and Parkinson patients, and individuals with visual impairments.",
+    "link": "http://arxiv.org/abs/2310.07434",
+    "context": "Title: HealthWalk: Promoting Health and Mobility through Sensor-Based Rollator Walker Assistance. (arXiv:2310.07434v1 [cs.RO])\nAbstract: Rollator walkers allow people with physical limitations to increase their mobility and give them the confidence and independence to participate in society for longer. However, rollator walker users often have poor posture, leading to further health problems and, in the worst case, falls. Integrating sensors into rollator walker designs can help to address this problem and results in a platform that allows several other interesting use cases. This paper briefly overviews existing systems and the current research directions and challenges in this field. We also present our early HealthWalk rollator walker prototype for data collection with older people, rheumatism, multiple sclerosis and Parkinson patients, and individuals with visual impairments.",
+    "path": "papers/23/10/2310.07434.json",
+    "total_tokens": 771,
+    "translated_title": "HealthWalk：通过基于传感器的滚轮行走者辅助促进健康与移动性",
+    "translated_abstract": "滚轮行走者能够帮助身体受限制的人提高移动能力，并给他们信心和独立性，使他们能更长时间地参与社会。然而，滚轮行走者用户往往姿势不好，导致进一步的健康问题，最坏的情况是摔倒。将传感器集成到滚轮行走者设计中可以解决这个问题，并且可以实现其他一些有趣的用例。本文简要介绍了现有系统以及该领域的当前研究方向和挑战。我们还介绍了我们早期的HealthWalk滚轮行走者原型，用于与老年人、风湿病、多发性硬化症和帕金森病患者以及视力障碍者进行数据收集。",
+    "tldr": "HealthWalk通过集成传感器到滚轮行走者设计中，可以解决滚轮行走者用户姿势不好导致的健康问题，并实现其他有趣的用例。",
+    "en_tdlr": "HealthWalk addresses the health problems caused by poor posture in rollator walker users by integrating sensors into the walker design, and enables other interesting use cases."
+}

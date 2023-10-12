@@ -1,0 +1,11 @@
+{
+    "title": "How Do Large Language Models Capture the Ever-changing World Knowledge? A Review of Recent Advances. (arXiv:2310.07343v1 [cs.CL])",
+    "abstract": "Although large language models (LLMs) are impressive in solving various tasks, they can quickly be outdated after deployment. Maintaining their up-to-date status is a pressing concern in the current era. This paper provides a comprehensive review of recent advances in aligning LLMs with the ever-changing world knowledge without re-training from scratch. We categorize research works systemically and provide in-depth comparisons and discussion. We also discuss existing challenges and highlight future directions to facilitate research in this field. We release the paper list at https://github.com/hyintell/awesome-refreshing-llms",
+    "link": "http://arxiv.org/abs/2310.07343",
+    "context": "Title: How Do Large Language Models Capture the Ever-changing World Knowledge? A Review of Recent Advances. (arXiv:2310.07343v1 [cs.CL])\nAbstract: Although large language models (LLMs) are impressive in solving various tasks, they can quickly be outdated after deployment. Maintaining their up-to-date status is a pressing concern in the current era. This paper provides a comprehensive review of recent advances in aligning LLMs with the ever-changing world knowledge without re-training from scratch. We categorize research works systemically and provide in-depth comparisons and discussion. We also discuss existing challenges and highlight future directions to facilitate research in this field. We release the paper list at https://github.com/hyintell/awesome-refreshing-llms",
+    "path": "papers/23/10/2310.07343.json",
+    "total_tokens": 737,
+    "translated_title": "大型语言模型如何捕捉不断变化的世界知识？对近期进展的综述。",
+    "translated_abstract": "尽管大型语言模型（LLMs）在解决各种任务方面令人印象深刻，但它们在部署后很快就会过时。如何保持其最新状态是当前时代的一个紧迫问题。本文全面评述了将LLMs与不断变化的世界知识对齐而无需重新训练的最新进展。我们系统地对研究工作进行分类，并提供深入的比较和讨论。我们还讨论了现有的挑战，并重点介绍了未来的研究方向，以促进这一领域的研究。我们将论文列表发布在https://github.com/hyintell/awesome-refreshing-llms上。",
+    "tldr": "本文综述了如何在不重新训练的情况下使大型语言模型与不断变化的世界知识对齐的最新进展，并讨论了相关挑战和未来方向。"
+}

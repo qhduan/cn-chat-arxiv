@@ -1,0 +1,12 @@
+{
+    "title": "Orthogonal Random Features: Explicit Forms and Sharp Inequalities. (arXiv:2310.07370v1 [cs.LG])",
+    "abstract": "Random features have been introduced to scale up kernel methods via randomization techniques. In particular, random Fourier features and orthogonal random features were used to approximate the popular Gaussian kernel. The former is performed by a random Gaussian matrix and leads exactly to the Gaussian kernel after averaging. In this work, we analyze the bias and the variance of the kernel approximation based on orthogonal random features which makes use of Haar orthogonal matrices. We provide explicit expressions for these quantities using normalized Bessel functions and derive sharp exponential bounds supporting the view that orthogonal random features are more informative than random Fourier features.",
+    "link": "http://arxiv.org/abs/2310.07370",
+    "context": "Title: Orthogonal Random Features: Explicit Forms and Sharp Inequalities. (arXiv:2310.07370v1 [cs.LG])\nAbstract: Random features have been introduced to scale up kernel methods via randomization techniques. In particular, random Fourier features and orthogonal random features were used to approximate the popular Gaussian kernel. The former is performed by a random Gaussian matrix and leads exactly to the Gaussian kernel after averaging. In this work, we analyze the bias and the variance of the kernel approximation based on orthogonal random features which makes use of Haar orthogonal matrices. We provide explicit expressions for these quantities using normalized Bessel functions and derive sharp exponential bounds supporting the view that orthogonal random features are more informative than random Fourier features.",
+    "path": "papers/23/10/2310.07370.json",
+    "total_tokens": 732,
+    "translated_title": "正交随机特征: 明确形式和尖锐不等式",
+    "translated_abstract": "随机特征通过随机化技术被引入以扩展核方法。特别地，随机傅里叶特征和正交随机特征被用来近似流行的高斯核。前者通过随机高斯矩阵执行，并在平均后得到了完全符合高斯核的结果。在这项工作中，我们分析了基于用到Haar正交矩阵的正交随机特征的核近似的偏差和方差。我们使用归一化贝塞尔函数提供了这些量的明确表达式，并推导了支持正交随机特征比随机傅里叶特征更具信息性的尖锐指数界限。",
+    "tldr": "该论文通过分析正交随机特征的核近似的偏差和方差，提供了明确的表达式，并得出了尖锐指数界限，支持正交随机特征比随机傅里叶特征更具信息性。",
+    "en_tdlr": "This paper provides explicit expressions and sharp exponential bounds for the bias and variance of the kernel approximation based on orthogonal random features, supporting the view that orthogonal random features are more informative than random Fourier features."
+}

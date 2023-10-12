@@ -1,0 +1,12 @@
+{
+    "title": "Scoring Strategic Agents. (arXiv:1909.01888v5 [econ.TH] UPDATED)",
+    "abstract": "I introduce a model of predictive scoring. A receiver wants to predict a sender's quality. An intermediary observes multiple features of the sender and aggregates them into a score. Based on the score, the receiver makes a decision. The sender wants the most favorable decision, and she can distort each feature at a privately known cost. I characterize the most accurate scoring rule. This rule underweights some features to deter sender distortion, and overweights other features so that the score is correct on average. The receiver prefers this scoring rule to full disclosure because information aggregation mitigates his commitment problem.",
+    "link": "http://arxiv.org/abs/1909.01888",
+    "context": "Title: Scoring Strategic Agents. (arXiv:1909.01888v5 [econ.TH] UPDATED)\nAbstract: I introduce a model of predictive scoring. A receiver wants to predict a sender's quality. An intermediary observes multiple features of the sender and aggregates them into a score. Based on the score, the receiver makes a decision. The sender wants the most favorable decision, and she can distort each feature at a privately known cost. I characterize the most accurate scoring rule. This rule underweights some features to deter sender distortion, and overweights other features so that the score is correct on average. The receiver prefers this scoring rule to full disclosure because information aggregation mitigates his commitment problem.",
+    "path": "papers/19/09/1909.01888.json",
+    "total_tokens": 779,
+    "translated_title": "评分战略代理商",
+    "translated_abstract": "我引入了一个预测评分的模型。接收者想要预测发送者的质量。一个中间人观察发送者的多个特征，并将它们综合成一个评分。基于这个评分，接收者做出决策。发送者希望获得最有利的决策，她可以以已知的成本扭曲每个特征。我刻画了最准确的评分规则。这个规则通过低估一些特征来阻止发送者扭曲，并通过高估其他特征使得评分平均上是正确的。接收者比全面披露更喜欢这个评分规则，因为信息聚合有助于缓解他的承诺问题。",
+    "tldr": "本文介绍了一个评分战略代理商的模型，通过综合观察者的特征并估计评分来预测发送者的质量，评分规则通过低估一些特征以防止发送者扭曲和高估其他特征以保持平均正确。信息聚合有助于缓解接收者的承诺问题。",
+    "en_tdlr": "This paper introduces a model for scoring strategic agents, where an intermediary aggregates multiple features of the sender into a score to predict their quality. The scoring rule underweights some features to prevent distortion by the sender and overweights others to maintain average accuracy, and the receiver prefers this rule over full disclosure due to information aggregation mitigating their commitment problem."
+}

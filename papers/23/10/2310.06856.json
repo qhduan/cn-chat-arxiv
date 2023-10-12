@@ -1,0 +1,11 @@
+{
+    "title": "Brave new world: Artificial Intelligence in teaching and learning. (arXiv:2310.06856v1 [cs.CY])",
+    "abstract": "We exemplify how Large Language Models are used in both teaching and learning. We also discuss the AI incidents that have already occurred in the education domain, and we argue for the urgent need to introduce AI policies in universities and for the ongoing strategies to regulate AI. Regarding policy for AI, our view is that each institution should have a policy for AI in teaching and learning. This is important from at least twofolds: (i) to raise awareness on the numerous educational tools that can both positively and negatively affect education; (ii) to minimise the risk of AI incidents in education.",
+    "link": "http://arxiv.org/abs/2310.06856",
+    "context": "Title: Brave new world: Artificial Intelligence in teaching and learning. (arXiv:2310.06856v1 [cs.CY])\nAbstract: We exemplify how Large Language Models are used in both teaching and learning. We also discuss the AI incidents that have already occurred in the education domain, and we argue for the urgent need to introduce AI policies in universities and for the ongoing strategies to regulate AI. Regarding policy for AI, our view is that each institution should have a policy for AI in teaching and learning. This is important from at least twofolds: (i) to raise awareness on the numerous educational tools that can both positively and negatively affect education; (ii) to minimise the risk of AI incidents in education.",
+    "path": "papers/23/10/2310.06856.json",
+    "total_tokens": 787,
+    "translated_title": "勇敢的新世界：人工智能在教学与学习中的应用",
+    "translated_abstract": "我们举例说明了大型语言模型在教学和学习中的应用。我们还讨论了教育领域已经发生的人工智能事件，并提出迫切需要在大学引入人工智能政策以及进行规范人工智能的持续策略。关于人工智能政策，我们认为每个机构都应该制定一项关于人工智能在教学和学习中的政策。这一点至关重要，至少有两个原因：（一）提高对各种教育工具的意识，这些工具既可以积极地，也可能对教育产生负面影响；（二）最小化教育中的人工智能事件风险。",
+    "tldr": "本文展示了在教学和学习中如何使用大型语言模型，并讨论了教育领域中已经发生的人工智能事件。我们主张引入人工智能政策和规范，以提高教育工具的意识，并减少教育中的人工智能事件风险。"
+}

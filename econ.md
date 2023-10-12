@@ -2,67 +2,110 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Life cycle insurance, bequest motives and annuity loads.](http://arxiv.org/abs/2310.06274) | 在考虑了年龄变化的遗赠动机和有费用的寿险与生活年金的情况下，研究发现持续购买生命保险是最优选择，尽管存在费用。同时存在必需遗赠和奢侈遗赠的情况下，在中年和最大年龄相邻处可能出现不参与的阶段。 |
-| [^2] | [Treatment Choice, Mean Square Regret and Partial Identification.](http://arxiv.org/abs/2310.06242) | 这篇论文研究了在福利只能部分识别的情况下，决策者面临二元治疗选择的问题。通过基于均方遗憾的分析，发现最优规则总是分数形式的，治疗分数是常用的t统计量乘以一个经过简单约束优化计算的因子乘以逻辑变换得到的。随着识别集合的宽度增加，治疗分数越接近0.5，决策者对抗对手“Nature”的谨慎程度增加。 |
-| [^3] | [Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data.](http://arxiv.org/abs/2310.06000) | 该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。 |
-| [^4] | [Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity.](http://arxiv.org/abs/2310.05985) | 该研究利用英国国家统计办公室的微观数据，研究了人工智能技术对英国企业的劳动生产力影响，并得出结论：人工智能的采用对劳动生产力没有统计上显著的影响。 |
-| [^5] | [Economic Theory as Successive Approximations of Statistical Moments.](http://arxiv.org/abs/2310.05971) | 本文研究了宏观经济变量与市场交易、价格和回报的统计矩之间的关系，并介绍了一个二次平均过程来确定宏观经济变量的统计矩。 |
-| [^6] | [The Mediating Effect of Blockchain Technology on the Cryptocurrency Purchase Intention.](http://arxiv.org/abs/2310.05970) | 本研究通过考虑客户服务、成本降低、效率和可靠性等因素，解释了区块链技术在加密货币购买中的易于使用和有用性的中介效应。 |
-| [^7] | [Network Ecology of Marriage.](http://arxiv.org/abs/2310.05928) | 婚姻被视为一种社交技术，通过增加家庭社交网络图的相互联系，减少合作群体内的搭便车现象。 |
-| [^8] | [A Reexamination of Proof Approaches for the Impossibility Theorem.](http://arxiv.org/abs/2309.06753) | 本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。 |
-| [^9] | [Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think.](http://arxiv.org/abs/2302.13455) | 本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。 |
-| [^10] | [Decomposition and Interpretation of Treatment Effects in Settings with Delayed Outcomes.](http://arxiv.org/abs/2302.11505) | 本文对处理对结果的平均因果效应进行了研究，考虑了结果实现不及时的情况，研究了经常用于估计平均处理效应的几种标准，并探讨了不同标准的解释方式。研究结果表明，三种最受欢迎的估计量通常不满足强符号保留。 |
-| [^11] | [Optimal Pre-Analysis Plans: Statistical Decisions Subject to Implementability.](http://arxiv.org/abs/2208.09638) | 本研究提出了一个委托-代理模型来解决先分析计划的设计问题，通过实施具有可行性的统计决策规则，发现先分析计划在实施中起着重要作用，特别是对于假设检验来说，最优拒绝规则需要预先注册有效的检验并对未报告的数据做最坏情况假设。 |
-| [^12] | [Sample Complexity of Forecast Aggregation.](http://arxiv.org/abs/2207.13126) | 本文研究了一种预测聚合模型，考虑了贝叶斯方法应用于专家命中后的信号汇聚。论文中提供了对于该问题的样本复杂度，表明该复杂度至少为 $\tilde \Omega(m^{n-2} / \varepsilon)$，其中 m 是每个专家信号空间的大小。 |
-| [^13] | [Reducing Marketplace Interference Bias Via Shadow Prices.](http://arxiv.org/abs/2205.02274) | 这项工作提出了在市场干扰存在的情况下运行标准实验并获得无偏估计的技术。通过优化估计全局治疗和全局对照的价值，并比较治疗组和影子价格的平均值，实现了降低市场干扰偏差。 |
-| [^14] | [Manipulation-Robust Regression Discontinuity Designs.](http://arxiv.org/abs/2009.07551) | 本研究提出了一种新的回归不连续设计的识别条件，解决了操纵变量可能导致的偏差问题，并提供了一种辅助假设来检测操纵。通过案例研究，我们展示了如何利用该方法解决实际问题。 |
-| [^15] | [Instrument Validity for Heterogeneous Causal Effects.](http://arxiv.org/abs/2009.01995) | 本论文提出了一个通用框架和非参数检验方法来检验异质因果效应模型中工具的有效性，可以应用于治疗多值有序或无序的情况，并且可以帮助检测无效工具以避免因果效应不合理的结果。 |
+| [^1] | [Impact of resource availability and conformity effect on sustainability of common-pool resources.](http://arxiv.org/abs/2310.07577) | 本文提出了一个新颖的框架，用于研究共有资源的采集和人类-环境系统中的合作。通过考虑资源可用性和共识效应等因素，我们确定了在不同情景下确保资源可持续性的关键值。 |
+| [^2] | [Smootheness-Adaptive Dynamic Pricing with Nonparametric Demand Learning.](http://arxiv.org/abs/2310.07558) | 这项研究提出了一种具有非参数需求学习和平滑自适应的动态定价算法，通过使用自相似条件实现了最小化极限遗憾。 |
+| [^3] | [Empirical Analysis of the Impact of Legal Tender Digital Currency on Monetary Policy -Based on China's Data.](http://arxiv.org/abs/2310.07326) | 本文研究了中国央行数字货币对货币政策的影响，发现它对货币政策的有效性和货币乘数产生影响，并对狭义货币乘数和广义货币乘数有一定的正向影响。建议中国在稳步推进央行数字货币发展的前提下，探索更加有效的货币政策。 |
+| [^4] | [Operating-Envelopes-Aware Decentralized Welfare Maximization for Energy Communities.](http://arxiv.org/abs/2310.07157) | 基于工作区间的算法在能源社区中应用，以达到福利最大化和稳定性。通过分散优化社区成员的利益，整个社区的福利也得到了优化。 |
+| [^5] | [Identification and Estimation of a Semiparametric Logit Model using Network Data.](http://arxiv.org/abs/2310.07151) | 本文研究了半参数二元网络模型的识别和估计，提出了基于配对统计的估计方法，并通过蒙特卡洛模拟评估了该方法的性能。 |
+| [^6] | [Lung Cancer in Argentina: A Modelling Study of Disease and Economic Burden.](http://arxiv.org/abs/2310.06999) | 本研究通过建立数学模型评估了阿根廷肺癌的疾病和经济负担。在2023年，阿根廷肺癌的经济负担估计为5.562亿美元。 |
+| [^7] | [Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity.](http://arxiv.org/abs/2310.05985) | 该研究利用英国国家统计办公室的微观数据，研究了人工智能技术对英国企业的劳动生产力影响，并得出结论：人工智能的采用对劳动生产力没有统计上显著的影响。 |
+| [^8] | [The Micro-Aggregated Profit Share.](http://arxiv.org/abs/2309.12945) | 自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。 |
+| [^9] | [Buyer-Optimal Algorithmic Consumption.](http://arxiv.org/abs/2309.12122) | 该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。 |
+| [^10] | [The Bayesian Context Trees State Space Model for time series modelling and forecasting.](http://arxiv.org/abs/2308.00913) | 该论文介绍了基于贝叶斯上下文树状态空间模型的时间序列建模和预测方法，通过层级贝叶斯框架将离散状态和实值时间序列模型组合，构建出灵活且可解释的混合模型，并提出了有效的算法来进行贝叶斯推断和预测。 |
+| [^11] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^12] | [Designing binary social decisions.](http://arxiv.org/abs/2302.09548) | 设计了一种机制"带有随机检查的多数票机制"，可实现二元社会决策的多数原则，且适用于完整和不完整信息。同时还可通过修改实现任何超级多数规则，或基于网络形成概念进行实现。 |
+| [^13] | [Random Utility, Repeated Choice, and Consumption Dependence.](http://arxiv.org/abs/2302.05806) | 本文研究了随机效用模型和重复选择模型中的消费依赖性，提出了两种符合随机效用的马尔科夫消费依赖性特征，并对两期随机选择模型中的消费依赖性进行了行为内容的特征化。 |
+| [^14] | [Latent Causal Socioeconomic Health Index.](http://arxiv.org/abs/2009.12217) | 该研究发展了一个基于模型的潜在因果社会经济健康（LACSH）指数，通过将潜在健康因子指数与空间建模和统计因果建模相结合，以促进对观察连续变量对具有空间相关性的潜在特征产生因果影响的理解。研究还介绍了一种用于评估连续政策变量的协变量平衡的新型可视化技术。 |
+| [^15] | [Identifying Network Ties from Panel Data: Theory and an Application to Tax Competition.](http://arxiv.org/abs/1910.07452) | 这项研究介绍了如何从没有关于个体之间社交联系信息的观察面板数据中识别社交网络，并应用于研究美国各州之间的税收竞争。研究发现，税收竞争与地理上相邻州之间的竞争的常见假设存在显著差异。 |
+| [^16] | [Scoring Strategic Agents.](http://arxiv.org/abs/1909.01888) | 本文介绍了一个评分战略代理商的模型，通过综合观察者的特征并估计评分来预测发送者的质量，评分规则通过低估一些特征以防止发送者扭曲和高估其他特征以保持平均正确。信息聚合有助于缓解接收者的承诺问题。 |
 
 # 详细
 
-[^1]: 寿险、遗赠动机和年金费用的生命周期研究
+[^1]: 资源可用性和共识效应对共有资源的可持续性的影响
 
-    Life cycle insurance, bequest motives and annuity loads. (arXiv:2310.06274v1 [econ.GN])
+    Impact of resource availability and conformity effect on sustainability of common-pool resources. (arXiv:2310.07577v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.06274](http://arxiv.org/abs/2310.06274)
+    [http://arxiv.org/abs/2310.07577](http://arxiv.org/abs/2310.07577)
 
-    在考虑了年龄变化的遗赠动机和有费用的寿险与生活年金的情况下，研究发现持续购买生命保险是最优选择，尽管存在费用。同时存在必需遗赠和奢侈遗赠的情况下，在中年和最大年龄相邻处可能出现不参与的阶段。
-
-    
-
-    本文研究了在遗赠动机随年龄变化的情况下购买保险，以及寿险和生活年金都需要支付费用的情况。现有的生命周期文献假设遗赠是正常的商品，既不是必需品也不是奢侈品。很多文献还隐含地假设寿险费用为负值。文献的一个重要发现是，对寿险的需求和对生活年金的需求是对称的。在有费用的情况下，在整个人生阶段购买寿险是最优的选择。生活年金的阶段直接接在寿险的阶段之后。我们发现，在同时对这两种产品收取正费用的现实情况下，中年和最大年龄相邻处可能会出现最多两个不参与的阶段。我们强调了在抚养孩子年纪的必需遗赠和之后的奢侈遗赠的例子。这些假设的集合解释了为什么在抚养孩子年纪存在大量对寿险的需求。
-
-    We investigate insurance purchases when bequest motives are age-varying and life insurance and life annuities both carry loads. The existing life cycle literature assumes bequests are normal goods without being either necessities or luxuries. Much of the literature also assumes implicitly that life annuity loads are negative. A key finding of the literature is that the demand for life insurance and the demand for life annuities are symmetrical. It is optimal to buy life-contingent insurance throughout life, even under loads. A life annuity phase backs directly onto a life insurance phase. We find that realistic examples with positive loads on both products reveal up to two distinct periods of non-participation, one in midlife and the other adjoining the maximum age. We highlight examples with necessity bequests during child-rearing years and luxury bequests thereafter. This set of assumptions explains why a substantial demand for life insurance during child-rearing years can co-exist w
-    
-[^2]: 治疗选择、均方遗憾和部分识别
-
-    Treatment Choice, Mean Square Regret and Partial Identification. (arXiv:2310.06242v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.06242](http://arxiv.org/abs/2310.06242)
-
-    这篇论文研究了在福利只能部分识别的情况下，决策者面临二元治疗选择的问题。通过基于均方遗憾的分析，发现最优规则总是分数形式的，治疗分数是常用的t统计量乘以一个经过简单约束优化计算的因子乘以逻辑变换得到的。随着识别集合的宽度增加，治疗分数越接近0.5，决策者对抗对手“Nature”的谨慎程度增加。
+    本文提出了一个新颖的框架，用于研究共有资源的采集和人类-环境系统中的合作。通过考虑资源可用性和共识效应等因素，我们确定了在不同情景下确保资源可持续性的关键值。
 
     
 
-    我们考虑一个决策者面临二元治疗选择的情况，当他们的福利只能从数据中部分识别出来。我们通过基于均方遗憾的有限样本分析，为文献做出了贡献，这是Kitagawa、Lee和Qiu（2022）提倡的一种决策标准。我们发现，无论识别集合的宽度和其估计精度如何，最优规则总是分数形式的。最优治疗分数是常用的t统计量乘以一个通过简单约束优化计算的因子乘以简单的逻辑变换。当识别集合的宽度变大时，这个治疗分数越接近0.5，意味着决策者对抗对手“Nature”的谨慎程度增加。
+    共有资源的可持续性取决于人类和环境系统之间的相互作用。然而，目前还缺乏一个新颖和全面的框架来建模共有资源的采集和人类代理人的合作，能够考虑到塑造系统行为和结果的不同因素。特别是，我们仍然缺乏在不同情景下确保资源可持续性的关键值。在本文中，我们提出了一个新颖的框架，用于研究共有资源的资源采集和人类-环境系统中的合作。我们探讨了不同因素，如资源可用性和共识效应，对参与者决策和资源结果的影响。我们确定了在不同情景下确保资源可持续性的关键值。我们证明了观察到的现象对模型的复杂性和假设的稳健性，并讨论了研究对政策和实践的影响。
 
-    We consider a decision maker who faces a binary treatment choice when their welfare is only partially identified from data. We contribute to the literature by anchoring our finite-sample analysis on mean square regret, a decision criterion advocated by Kitagawa, Lee, and Qiu (2022). We find that optimal rules are always fractional, irrespective of the width of the identified set and precision of its estimate. The optimal treatment fraction is a simple logistic transformation of the commonly used t-statistic multiplied by a factor calculated by a simple constrained optimization. This treatment fraction gets closer to 0.5 as the width of the identified set becomes wider, implying the decision maker becomes more cautious against the adversarial Nature.
+    Sustainability of common-pool resources hinges on the interplay between human and environmental systems. However, there is still a lack of a novel and comprehensive framework for modelling extraction of common-pool resources and cooperation of human agents that can account for different factors that shape the system behavior and outcomes. In particular, we still lack a critical value for ensuring resource sustainability under different scenarios. In this paper, we present a novel framework for studying resource extraction and cooperation in human-environmental systems for common-pool resources. We explore how different factors, such as resource availability and conformity effect, influence the players' decisions and the resource outcomes. We identify critical values for ensuring resource sustainability under various scenarios. We demonstrate the observed phenomena are robust to the complexity and assumptions of the models and discuss implications of our study for policy and practice, a
     
-[^3]: 鼓励数据共享以进行能源预测：具有相关数据的分析市场
+[^2]: 具有非参数需求学习的平滑自适应动态定价
 
-    Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data. (arXiv:2310.06000v1 [econ.GN])
+    Smootheness-Adaptive Dynamic Pricing with Nonparametric Demand Learning. (arXiv:2310.07558v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.06000](http://arxiv.org/abs/2310.06000)
+    [http://arxiv.org/abs/2310.07558](http://arxiv.org/abs/2310.07558)
 
-    该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。
+    这项研究提出了一种具有非参数需求学习和平滑自适应的动态定价算法，通过使用自相似条件实现了最小化极限遗憾。
 
     
 
-    准确地预测不确定的电力产量对于电力市场的社会福利具有益处，可以减少平衡资源的需求。将这种预测描述为一项分析任务，当前文献提出了以分析市场作为激励手段来改善精度的数据共享方法，例如利用时空相关性。挑战在于，当相关数据用作预测的输入特征时，重叠信息的价值在于收入分配方面使市场设计复杂化，因为这种价值在本质上是组合的。我们为风力预测应用开发了一个考虑相关性的分析市场。为了分配收入，我们采用了基于Shapley值的归因策略，将代理人的特征视为玩家，将他们的相互作用视为一个特征函数博弈。我们说明了描述这种博弈的多种选项，每个选项都有因果细微差别，影响着特征相关时的市场行为。
+    我们研究了需求函数为非参数和Holder平滑的动态定价问题，并且我们专注于适应未知的Holder平滑参数β的能力。传统上，最优的动态定价算法严重依赖于对β的了解，以达到一个最小化极限遗憾的效果，即O(T^((β+1)/(2β+1)))。然而，我们通过证明没有定价策略能够在不知道β的情况下自适应地达到这个最小化极限遗憾，突显了这个动态定价问题的适应性挑战。受到不可能性结果的启发，我们提出了一种自相似条件来实现适应性。重要的是，我们证明了自相似条件不会损害问题本身的复杂性，因为它保持了渐近遗憾下界Ω(T^((β+1)/(2β+1)))。此外，我们开发了一种平滑自适应的动态定价算法，并理论上证明了该算法的有效性。
 
-    Reliably forecasting uncertain power production is beneficial for the social welfare of electricity markets by reducing the need for balancing resources. Describing such forecasting as an analytics task, the current literature proposes analytics markets as an incentive for data sharing to improve accuracy, for instance by leveraging spatio-temporal correlations. The challenge is that, when used as input features for forecasting, correlated data complicates the market design with respect to the revenue allocation, as the value of overlapping information is inherently combinatorial. We develop a correlation-aware analytics market for a wind power forecasting application. To allocate revenue, we adopt a Shapley value-based attribution policy, framing the features of agents as players and their interactions as a characteristic function game. We illustrate that there are multiple options to describe such a game, each having causal nuances that influence market behavior when features are cor
+    We study the dynamic pricing problem where the demand function is nonparametric and H\"older smooth, and we focus on adaptivity to the unknown H\"older smoothness parameter $\beta$ of the demand function. Traditionally the optimal dynamic pricing algorithm heavily relies on the knowledge of $\beta$ to achieve a minimax optimal regret of $\widetilde{O}(T^{\frac{\beta+1}{2\beta+1}})$. However, we highlight the challenge of adaptivity in this dynamic pricing problem by proving that no pricing policy can adaptively achieve this minimax optimal regret without knowledge of $\beta$. Motivated by the impossibility result, we propose a self-similarity condition to enable adaptivity. Importantly, we show that the self-similarity condition does not compromise the problem's inherent complexity since it preserves the regret lower bound $\Omega(T^{\frac{\beta+1}{2\beta+1}})$. Furthermore, we develop a smoothness-adaptive dynamic pricing algorithm and theoretically prove that the algorithm achieves t
     
-[^4]: 人工智能对英国企业有益吗？关于人工智能对生产力影响的实证研究
+[^3]: 法定数字货币对货币政策的影响的实证分析 -基于中国数据的角度
+
+    Empirical Analysis of the Impact of Legal Tender Digital Currency on Monetary Policy -Based on China's Data. (arXiv:2310.07326v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.07326](http://arxiv.org/abs/2310.07326)
+
+    本文研究了中国央行数字货币对货币政策的影响，发现它对货币政策的有效性和货币乘数产生影响，并对狭义货币乘数和广义货币乘数有一定的正向影响。建议中国在稳步推进央行数字货币发展的前提下，探索更加有效的货币政策。
+
+    
+
+    本文以中国央行数字货币的发展为视角，从理论上分析了央行数字货币的发行与流通对中国货币政策和货币乘数各个变量的影响机制；同时，选择2010年至2022年的季度数据，通过建立VECM模型，检验了央行数字货币对货币供应乘数的影响。研究结果表明：中国央行数字货币的发行将会对货币政策的有效性和中间指标产生影响；并对狭义货币乘数和广义货币乘数产生一定的正向影响。基于理论分析和实证检验，本文提出，中国在稳步推进央行数字货币发展的前提下，应在央行数字货币的背景下探索更加有效的货币政策。
+
+    This paper takes the development of China's Central bank digital currencies as a perspective, theoretically analyses the impact mechanism of the issuance and circulation of Central bank digital currencies on China's monetary policy and various variables of the money multiplier; at the same time, it selects the quarterly data from 2010 to 2022, and examines the impact of the Central bank digital currencies on the money supply multiplier through the establishment of the VECM model. The research results show that: the issuance of China's Central bank digital currencies will have an impact on the effectiveness of monetary policy and intermediary indicators; and have a certain positive impact on the narrow money multiplier and broad money multiplier. Based on theoretical analyses and empirical tests, this paper proposes that China should explore a more effective monetary policy in the context of Central bank digital currencies in the future on the premise of steadily promoting the developme
+    
+[^4]: 基于工作区间的、以用户为中心的去中心化福利最大化算法在能源社区中的应用
+
+    Operating-Envelopes-Aware Decentralized Welfare Maximization for Energy Communities. (arXiv:2310.07157v1 [eess.SY])
+
+    [http://arxiv.org/abs/2310.07157](http://arxiv.org/abs/2310.07157)
+
+    基于工作区间的算法在能源社区中应用，以达到福利最大化和稳定性。通过分散优化社区成员的利益，整个社区的福利也得到了优化。
+
+    
+
+    我们提出了一个基于工作区间的、以消费者为中心的、高效的能源社区，该社区汇集了个人和共享的社区分布式能源资源，并在一个广义的净能量计费设计下与监管的配电系统运营商（DSO）进行交易。为了确保安全的网络运行，DSO对终端用户的收入计量器施加了动态的出口和进口限制，称为动态工作区间。在给定工作区间的情况下，我们提出了一种激励对齐的社区定价机制，其中社区成员的分散优化导致整个社区福利的优化。所提出的定价机制满足成本因果关系原则，并保证了能源社区在联盟博弈环境中的稳定性。数值实例提供了关于所提出的定价机制特性的见解和其性能的定量度量。
+
+    We propose an operating-envelope-aware, prosumer-centric, and efficient energy community that aggregates individual and shared community distributed energy resources and transacts with a regulated distribution system operator (DSO) under a generalized net energy metering tariff design. To ensure safe network operation, the DSO imposes dynamic export and import limits, known as dynamic operating envelopes, on end-users' revenue meters. Given the operating envelopes, we propose an incentive-aligned community pricing mechanism under which the decentralized optimization of community members' benefit implies the optimization of overall community welfare. The proposed pricing mechanism satisfies the cost-causation principle and ensures the stability of the energy community in a coalition game setting. Numerical examples provide insights into the characteristics of the proposed pricing mechanism and quantitative measures of its performance.
+    
+[^5]: 使用网络数据进行半参数逻辑模型的识别和估计
+
+    Identification and Estimation of a Semiparametric Logit Model using Network Data. (arXiv:2310.07151v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.07151](http://arxiv.org/abs/2310.07151)
+
+    本文研究了半参数二元网络模型的识别和估计，提出了基于配对统计的估计方法，并通过蒙特卡洛模拟评估了该方法的性能。
+
+    
+
+    本文研究了半参数二元网络模型的识别和估计，其中未观测到的社会特征是内生的，即未观测到的个体特征影响了感兴趣的二元结果以及在网络内部形成联系的方式。潜在社会特征的确切函数形式是未知的。所提出的估计量是基于网络形成分布相同的匹配对之间的配对。提出了估计量的一致性和渐近分布。通过蒙特卡洛模拟评估了所提出的估计量的有限样本特性。最后，对该研究进行了实证应用。
+
+    This paper studies the identification and estimation of a semiparametric binary network model in which the unobserved social characteristic is endogenous, that is, the unobserved individual characteristic influences both the binary outcome of interest and how links are formed within the network. The exact functional form of the latent social characteristic is not known. The proposed estimators are obtained based on matching pairs of agents whose network formation distributions are the same. The consistency and the asymptotic distribution of the estimators are proposed. The finite sample properties of the proposed estimators in a Monte-Carlo simulation are assessed. We conclude this study with an empirical application.
+    
+[^6]: 阿根廷的肺癌：一项关于疾病和经济负担的建模研究
+
+    Lung Cancer in Argentina: A Modelling Study of Disease and Economic Burden. (arXiv:2310.06999v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.06999](http://arxiv.org/abs/2310.06999)
+
+    本研究通过建立数学模型评估了阿根廷肺癌的疾病和经济负担。在2023年，阿根廷肺癌的经济负担估计为5.562亿美元。
+
+    
+
+    目标：肺癌仍然是全球重要的公共卫生挑战，也是阿根廷肿瘤相关死亡的主要原因之一。本研究旨在评估该国肺癌的疾病和经济负担。研究设计：疾病负担研究方法：开发了一个数学模型，以估计与肺癌相关的疾病负担和直接医疗成本。流行病学参数从当地统计数据、全球癌症观察台、全球疾病负担数据库和文献综述中获得。通过微成本法评估直接医疗成本。成本以2023年4月的美元（1美元=216.38阿根廷比索）计算。进行二阶蒙特卡洛模拟以估计不确定性。结果：考虑到大约10,000例死亡、12,000例新发病例和14,000例5年患病病例，预计2023年阿根廷肺癌的经济负担将达到5.562亿美元
+
+    Objectives: Lung cancer remains a significant global public health challenge and is still one of the leading cause of cancer-related death in Argentina. This study aims to assess the disease and economic burden of lung cancer in the country.  Study design: Burden of disease study  Methods. A mathematical model was developed to estimate the disease burden and direct medical cost attributable to lung cancer. Epidemiological parameters were obtained from local statistics, the Global Cancer Observatory, the Global Burden of Disease databases, and a literature review. Direct medical costs were estimated through micro-costing. Costs were expressed in US dollars (US$), April 2023 (1 US$ =216.38 argentine pesos). A second-order Monte Carlo simulation was performed to estimate the uncertainty.  Results: Considering approximately 10,000 deaths, 12,000 incident cases, and 14,000 5-year prevalent cases, the economic burden of lung cancer in Argentina in 2023 was estimated to be US$ 556.20 million 
+    
+[^7]: 人工智能对英国企业有益吗？关于人工智能对生产力影响的实证研究
 
     Does Artificial Intelligence benefit UK businesses? An empirical study of the impact of AI on productivity. (arXiv:2310.05985v1 [econ.GN])
 
@@ -76,158 +119,130 @@
 
     Media hype and technological breakthroughs are fuelling the race to adopt Artificial Intelligence amongst the business community, but is there evidence to suggest this will increase productivity? This paper uses 2015-2019 microdata from the UK Office for National Statistics to identify if the adoption of Artificial Intelligence techniques increases labour productivity in UK businesses. Using fixed effects estimation (Within Group) with a log-linear regression specification the paper concludes that there is no statistically significant impact of AI adoption on labour productivity.
     
-[^5]: 经济理论作为统计矩的逐步逼近
+[^8]: 微观聚集的利润份额
 
-    Economic Theory as Successive Approximations of Statistical Moments. (arXiv:2310.05971v1 [econ.GN])
+    The Micro-Aggregated Profit Share. (arXiv:2309.12945v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.05971](http://arxiv.org/abs/2310.05971)
+    [http://arxiv.org/abs/2309.12945](http://arxiv.org/abs/2309.12945)
 
-    本文研究了宏观经济变量与市场交易、价格和回报的统计矩之间的关系，并介绍了一个二次平均过程来确定宏观经济变量的统计矩。
-
-    
-
-    本文强调了宏观经济变量描述与市场交易、价格和回报的统计矩之间的关系。我们将在时间间隔Δ内的经济交易视为唯一决定任何经济变量变化的因素。我们将Δ期间市场交易价值和交易量的随机性视为价格和回报的随机性的根源。我们描述了Δ期间价格和回报的基于市场的第n个统计矩如何依赖于交易价值和交易量的n个统计矩，或者等价地，如何依赖于Δ期间市场交易价值和交易量的n次方之和。我们引入了二次平均过程，确定了在较大的平均间隔Δ2>>Δ内的交易、价格和回报的统计矩。同样地，Δ2>>Δ期间的二次平均过程引入了宏观经济变量的统计矩，这些统计矩是由交易、价格和回报的n次方和之和来确定的。
-
-    This paper highlights the links between the descriptions of macroeconomic variables and statistical moments of market trade, price, and return. We consider economic transactions during the averaging time interval {\Delta} as the exclusive matter that determines the change of any economic variables. We regard the stochasticity of market trade values and volumes during {\Delta} as the only root of the random properties of price and return. We describe how the market-based n-th statistical moments of price and return during {\Delta} depend on the n-th statistical moments of trade values and volumes or equally on sums during {\Delta} of the n-th power of market trade values and volumes. We introduce the secondary averaging procedure that defines statistical moments of trade, price, and return during the averaging interval {\Delta}2>>{\Delta}. As well, the secondary averaging during {\Delta}2>>{\Delta} introduces statistical moments of macroeconomic variables, which were determined as sums 
-    
-[^6]: 区块链技术对加密货币购买意向的中介效应
-
-    The Mediating Effect of Blockchain Technology on the Cryptocurrency Purchase Intention. (arXiv:2310.05970v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.05970](http://arxiv.org/abs/2310.05970)
-
-    本研究通过考虑客户服务、成本降低、效率和可靠性等因素，解释了区块链技术在加密货币购买中的易于使用和有用性的中介效应。
+    自1970年以来，美国的市场权力指标逐渐增加，包括总体加价和总体规模回报率。通过将这些指标与利润份额联系起来，我们发现尽管市场权力上升，利润份额仍然保持不变。这是因为垄断租金的增加被不断上升的固定成本所抵消。过于激进的反垄断执法可能会有不良影响。
 
     
 
-    加密货币能够在没有中央机构的情况下实现安全的数字资产转移，因此引起了越来越多的关注。随着全球和土耳其投资者数量的增加，可以明显看出在金融波动面前，对数字资产的兴趣将持续增长。然而，消费者在购买加密货币时是否认为区块链技术易于使用和有用性仍存在不确定性。本研究旨在通过考虑客户服务质量、降低成本、效率和可靠性等因素，来解释区块链技术在加密货币购买中的易于使用和有用性。为了实现这个目标，我们从土耳其不同地区对加密货币感兴趣的463个参与者那里获取了数据，并使用SPSS Process Macro程序进行分析。分析结果表明，感知易于使用和有用性介导了客户服务、降低成本、效率和可靠性的影响。
+    在过去的五十年里，美国的市场权力增加了多少？利用美国Compustat的微观层面数据，我们发现自1970年以来，市场权力的几个指标逐渐增加。从1970年的价格与边际成本的10％增加到2020年的23％，并且规模回报率从1.00增加到1.13。我们将这些市场权力指标与盈利能力相联系，通过展示利润份额可以用总体加价、总体规模回报率和一个捕捉到经济中双重边际效益的生产网络的充分统计量来表示。尽管市场权力上升，但利润份额在GDP中保持18％不变，因为垄断租金的增加完全被不断上升的固定成本抵消了。我们的实证结果对政策制定者有微妙的影响：过于激进的反垄断执法可能会降低公司活力，反而导致
 
-    Cryptocurrencies, enabling secure digital asset transfers without a central authority, are experiencing increasing interest. With the increasing number of global and Turkish investors, it is evident that interest in digital assets will continue to rise sustainably, even in the face of financial fluctuations. However, it remains uncertain whether consumers perceive blockchain technology's ease of use and usefulness when purchasing cryptocurrencies. This study aims to explain blockchain technology's perceived ease of use and usefulness in cryptocurrency purchases by considering factors such as quality customer service, reduced costs, efficiency, and reliability. To achieve this goal, data were obtained from 463 participants interested in cryptocurrencies in different regions of Turkey. The data were analyzed using SPSS Process Macro programs. The analysis results indicate that perceived ease of use and usefulness mediate the effects of customer service and reduced costs, efficiency, and 
+    How much has market power increased in the United States in the last fifty years? Using micro-level data from U.S. Compustat, we find that several indicators of market power have steadily increased since 1970. The aggregate markup has gone up from 10% of price over marginal cost in 1970 to 23% in 2020, and aggregate returns to scale have risen from 1.00 to 1.13. We connect these market-power indicators to profitability by showing that the aggregate profit share can be expressed in terms of the aggregate markup, aggregate returns to scale, and a sufficient statistic for production networks that captures double marginalization in the economy. We find that despite the rise in market power, the profit share has been constant at 18% of GDP because the increase in monopoly rents has been completely offset by rising fixed costs. Our empirical results have subtle implications for policymakers: overly aggressive enforcement of antitrust law could decrease firm dynamism and paradoxically lead to
     
-[^7]: 婚姻的网络生态学
+[^9]: 买方最优的算法消费模型分析
 
-    Network Ecology of Marriage. (arXiv:2310.05928v1 [physics.soc-ph])
+    Buyer-Optimal Algorithmic Consumption. (arXiv:2309.12122v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.05928](http://arxiv.org/abs/2310.05928)
+    [http://arxiv.org/abs/2309.12122](http://arxiv.org/abs/2309.12122)
 
-    婚姻被视为一种社交技术，通过增加家庭社交网络图的相互联系，减少合作群体内的搭便车现象。
-
-    
-
-    尽管婚姻在人类文化中普遍存在，但它在行为科学中仍然是一个研究不足的现象。本建模论文表明，将远亲变成亲家增加了家庭社交网络图的相互联系，从而使得更多的合作和更大的群体成为可能。从这个角度来看，婚姻可以被视为一种减少合作群体内部搭便车现象的社交技术。这种方法提供了一个解决之 puzzle 的解释，即为什么我们的物种在调节交配行为方面有着这种特殊形式，这在配对结合的动物中是独特的。
-
-    The practice of marriage is an understudied phenomenon in behavioural sciences despite being ubiquitous across human cultures. This modelling paper shows that replacing distant direct kin with in-laws increases the interconnectedness of the family social network graph, which allows more cooperative and larger groups. In this framing, marriage can be seen as a social technology that reduces free-riding within collaborative group. This approach offers a solution to the puzzle of why our species has this particular form of regulating mating behaviour, uniquely among pair-bonded animals.
-    
-[^8]: 重新审视不可能性定理的证明方法
-
-    A Reexamination of Proof Approaches for the Impossibility Theorem. (arXiv:2309.06753v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.06753](http://arxiv.org/abs/2309.06753)
-
-    本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。
+    该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。
 
     
 
-    决定性集合和关键选民方法已被用于证明阿罗不可能性定理。这些方法的证明仅考虑了所有可能社会福利函数的子集，并审查了这些函数域的部分。因此，这两个思路都不能有效证明该定理。本研究提出了一种基于逻辑的证明演算。在前提、公理和定理的条件之间进行有效的演绎推理，并得出独裁的结论，保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。
+    我们分析了一个双边交易模型，其中买方对产品的价值和卖方的成本是不确定的，卖方选择产品价格，并且基于其价值和价格通过算法推荐产品。我们描述了一个最大化买方预期收益的算法，并且表明在高价位下的最优算法过少推荐产品，在低价位下过多推荐。算法的精确性提高了最大均衡价格，可能提高卖方成本的所有价格，而告知卖方买方的价值则会导致均衡价格的均值保持扩散和买方收益的均值保持收缩。
 
-    The decisive-set and pivotal-voter approaches have been used for proving Arrow's impossibility theorem. Proofs by these approaches consider only subsets of all possible social welfare functions and examine parts of the domain of these functions. Hence, both ideas are not effective to prove the theorem. This study presents a proof using a proof calculus in logic. A valid deductive inference between the premises, the axioms and conditions of the theorem, and the conclusion, dictatorship, guarantees that every profile of all possible social welfare functions is examined, thereby the theorem is established.
+    We analyze a bilateral trade model in which the buyer's value for the product and the seller's costs are uncertain, the seller chooses the product price, and the product is recommended by an algorithm based on its value and price. We characterize an algorithm that maximizes the buyer's expected payoff and show that the optimal algorithm underrecommends the product at high prices and overrecommends at low prices. Higher algorithm precision increases the maximal equilibrium price and may increase prices across all of the seller's costs, whereas informing the seller about the buyer's value results in a mean-preserving spread of equilibrium prices and a mean-preserving contraction of the buyer's payoff.
     
-[^9]: 面板局部投影中的隐式尼克尔偏误：金融危机比你想象的更糟。
+[^10]: 基于贝叶斯上下文树状态空间模型的时间序列建模和预测
 
-    Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think. (arXiv:2302.13455v2 [econ.EM] UPDATED)
+    The Bayesian Context Trees State Space Model for time series modelling and forecasting. (arXiv:2308.00913v1 [stat.ME])
 
-    [http://arxiv.org/abs/2302.13455](http://arxiv.org/abs/2302.13455)
+    [http://arxiv.org/abs/2308.00913](http://arxiv.org/abs/2308.00913)
 
-    本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。
-
-    
-
-    局部投影（LP）是经济计量学中估计冲击响应的常用方法，而固定效应（FE）估计器是当LP扩展到面板数据时的默认估计方法。本文发现了由于其固有的动态结构，面板LP中FE估计器存在隐式的尼克尔偏误，使基于$t$-统计量的标准假设检验无效。我们提出使用半面板交叉检验估计器消除偏误，并展示理论结果得到蒙特卡罗模拟的支持。通过重新审视三个关于金融危机和经济萎缩之间联系的经济金融研究，我们发现FE估计器严重低估了金融危机后的经济损失。
-
-    Local projection (LP) is a popular approach in empirical macroeconomics to estimate the impulse responses, and the conventional fixed effect (FE) estimator is the default estimation method when LP is carried over into panel data. This paper discovers an implicit Nickell bias for the FE estimator in the panel LP due to its inherent dynamic structure, invalidating the standard hypothesis testing based on the $t$-statistic. We propose using the half-panel jackknife estimator to eliminate the bias and restore the standard statistical inference, and show that the theoretical results are supported by Monte Carlo simulations. By revisiting three seminal macro-finance studies on the linkage between financial crises and economic contraction, we find that the FE estimator substantially underestimates the economic losses following financial crises.
-    
-[^10]: 延迟结果情形下的处理效果分解和解释
-
-    Decomposition and Interpretation of Treatment Effects in Settings with Delayed Outcomes. (arXiv:2302.11505v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.11505](http://arxiv.org/abs/2302.11505)
-
-    本文对处理对结果的平均因果效应进行了研究，考虑了结果实现不及时的情况，研究了经常用于估计平均处理效应的几种标准，并探讨了不同标准的解释方式。研究结果表明，三种最受欢迎的估计量通常不满足强符号保留。
+    该论文介绍了基于贝叶斯上下文树状态空间模型的时间序列建模和预测方法，通过层级贝叶斯框架将离散状态和实值时间序列模型组合，构建出灵活且可解释的混合模型，并提出了有效的算法来进行贝叶斯推断和预测。
 
     
 
-    本文研究识别和估计二进制处理对结果的平均因果效应。我们考虑一种情形，即处理分配后结果实现并非立即实现，这是实证研究中普遍存在的特征。处理和结果实现之间的这段时间允许其他观察到的行动发生并影响结果。在这种情况下，我们研究了几种经常用于捕捉平均处理效应的基于回归的估计标准，并阐明了它们在恒定其他因素效应、间接因果效应和选择项方面的解释。我们得出了三个主要且相关的结论。首先，三种最受欢迎的估计量通常不满足我们所说的强符号保留，在这种意义上，即使任何可能的组合条件下处理正效应影响结果，这些估计量也可能为负。
+    引入了一个层级贝叶斯框架，用于开发用于真实值时间序列的丰富混合模型，以及一系列有效的学习和推断工具。在顶层，通过适当量化最近样本的一些有意义的离散状态来进行鉴定。这些可观察状态的集合被描述为离散的上下文树模型。然后，在底层，将一个不同的、任意的实值时间序列模型（基本模型）与每个状态相关联。这定义了一个非常通用的框架，可以与任何现有模型类一起使用，构建灵活且可解释的混合模型。我们将其称为贝叶斯上下文树状态空间模型，或者BCT-X框架。引入了高效的算法，可以实现有效的、精确的贝叶斯推断；特别是可以确定最大后验概率（MAP）上下文树模型。这些算法可以顺序更新，以便实现有效的推断和预测。
 
-    This paper studies settings where the analyst is interested in identifying and estimating the average causal effect of a binary treatment on an outcome. We consider a setup in which the outcome realization does not get immediately realized after the treatment assignment, a feature that is ubiquitous in empirical settings. The period between the treatment and the realization of the outcome allows other observed actions to occur and affect the outcome. In this context, we study several regression-based estimands routinely used in empirical work to capture the average treatment effect and shed light on interpreting them in terms of ceteris paribus effects, indirect causal effects, and selection terms. We obtain three main and related takeaways. First, the three most popular estimands do not generally satisfy what we call strong sign preservation, in the sense that these estimands may be negative even when the treatment positively affects the outcome conditional on any possible combination
+    A hierarchical Bayesian framework is introduced for developing rich mixture models for real-valued time series, along with a collection of effective tools for learning and inference. At the top level, meaningful discrete states are identified as appropriately quantised values of some of the most recent samples. This collection of observable states is described as a discrete context-tree model. Then, at the bottom level, a different, arbitrary model for real-valued time series - a base model - is associated with each state. This defines a very general framework that can be used in conjunction with any existing model class to build flexible and interpretable mixture models. We call this the Bayesian Context Trees State Space Model, or the BCT-X framework. Efficient algorithms are introduced that allow for effective, exact Bayesian inference; in particular, the maximum a posteriori probability (MAP) context-tree model can be identified. These algorithms can be updated sequentially, facili
     
-[^11]: 最优先分析计划：受限于可实施性的统计决策
+[^11]: 期权的价格发现
 
-    Optimal Pre-Analysis Plans: Statistical Decisions Subject to Implementability. (arXiv:2208.09638v2 [econ.EM] UPDATED)
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2208.09638](http://arxiv.org/abs/2208.09638)
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
 
-    本研究提出了一个委托-代理模型来解决先分析计划的设计问题，通过实施具有可行性的统计决策规则，发现先分析计划在实施中起着重要作用，特别是对于假设检验来说，最优拒绝规则需要预先注册有效的检验并对未报告的数据做最坏情况假设。
-
-    
-
-    什么是先分析计划的目的，应该如何设计？我们提出了一个委托-代理模型，其中决策者依赖于分析师选择性但真实的报告。分析师具有数据访问权，且目标不一致。在这个模型中，实施统计决策规则（检验、估计量）需要一个激励兼容机制。我们首先描述了哪些决策规则可以被实施。然后描述了受限于可实施性的最优统计决策规则。我们表明实施需要先分析计划。重点放在假设检验上，我们表明最优拒绝规则预先注册了一个对于所有数据报告的有效检验，并对未报告的数据做最坏情况假设。最优检验可以通过线性规划问题的解来找到。
-
-    What is the purpose of pre-analysis plans, and how should they be designed? We propose a principal-agent model where a decision-maker relies on selective but truthful reports by an analyst. The analyst has data access, and non-aligned objectives. In this model, the implementation of statistical decision rules (tests, estimators) requires an incentive-compatible mechanism. We first characterize which decision rules can be implemented. We then characterize optimal statistical decision rules subject to implementability. We show that implementation requires pre-analysis plans. Focussing specifically on hypothesis tests, we show that optimal rejection rules pre-register a valid test for the case when all data is reported, and make worst-case assumptions about unreported data. Optimal tests can be found as a solution to a linear-programming problem.
-    
-[^12]: 预测聚合的样本复杂度
-
-    Sample Complexity of Forecast Aggregation. (arXiv:2207.13126v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2207.13126](http://arxiv.org/abs/2207.13126)
-
-    本文研究了一种预测聚合模型，考虑了贝叶斯方法应用于专家命中后的信号汇聚。论文中提供了对于该问题的样本复杂度，表明该复杂度至少为 $\tilde \Omega(m^{n-2} / \varepsilon)$，其中 m 是每个专家信号空间的大小。
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
 
     
 
-    我们考虑了一种贝叶斯预测聚合模型，有 n 个专家根据未知二元事件的私有信号报告事件的后验信念给负责人，随后该负责人将报告聚合为对该事件的单个预测。专家的信号和事件的结果服从一个联合分布，该分布对于负责人是未知的，但负责人可以从分布中得到 i.i.d.“样本”，其中每个样本都是由专家的报告（不是信号）和事件的实现组成的元组。使用这些样本，负责人旨在找到一个 $\varepsilon$-最优聚合器，其中最优性是以聚合预测与事件实现之间的预期平方距离来衡量的。我们证明，对于任意离散分布，这个问题的样本复杂度至少是 $\tilde \Omega(m^{n-2} / \varepsilon)$，其中 m 是每个专家信号空间的大小。
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
 
-    We consider a Bayesian forecast aggregation model where $n$ experts, after observing private signals about an unknown binary event, report their posterior beliefs about the event to a principal, who then aggregates the reports into a single prediction for the event. The signals of the experts and the outcome of the event follow a joint distribution that is unknown to the principal, but the principal has access to i.i.d. "samples" from the distribution, where each sample is a tuple of the experts' reports (not signals) and the realization of the event. Using these samples, the principal aims to find an $\varepsilon$-approximately optimal aggregator, where optimality is measured in terms of the expected squared distance between the aggregated prediction and the realization of the event. We show that the sample complexity of this problem is at least $\tilde \Omega(m^{n-2} / \varepsilon)$ for arbitrary discrete distributions, where $m$ is the size of each expert's signal space. This sample
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^13]: 通过影子价格降低市场干扰偏差
+[^12]: 设计二元社会决策机制
 
-    Reducing Marketplace Interference Bias Via Shadow Prices. (arXiv:2205.02274v3 [math.OC] UPDATED)
+    Designing binary social decisions. (arXiv:2302.09548v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2205.02274](http://arxiv.org/abs/2205.02274)
+    [http://arxiv.org/abs/2302.09548](http://arxiv.org/abs/2302.09548)
 
-    这项工作提出了在市场干扰存在的情况下运行标准实验并获得无偏估计的技术。通过优化估计全局治疗和全局对照的价值，并比较治疗组和影子价格的平均值，实现了降低市场干扰偏差。
-
-    
-
-    市场公司在设计或运营其平台时 heavily 依赖实验。实验的核心是随机对照试验（RCT）或 A/B 测试，即将用户随机分配到治疗组或对照组。然而，市场干扰导致稳定单元治疗价值假设 (SUTVA) 被违反，从而导致标准 RCT 指标的偏差。在这项工作中，我们提出了平台在存在市场干扰的情况下运行标准 RCT 并获得有意义估计的技术。我们特别考虑广义匹配设置，其中平台通过线性规划算法明确匹配供应和需求。我们的第一个提议是通过优化估计全局治疗和全局对照的价值。我们证明了这种方法在流体极限中是无偏的。我们的第二个提议是比较治疗组和
-
-    Marketplace companies rely heavily on experimentation when making changes to the design or operation of their platforms. The workhorse of experimentation is the randomized controlled trial (RCT), or A/B test, in which users are randomly assigned to treatment or control groups. However, marketplace interference causes the Stable Unit Treatment Value Assumption (SUTVA) to be violated, leading to bias in the standard RCT metric. In this work, we propose techniques for platforms to run standard RCTs and still obtain meaningful estimates despite the presence of marketplace interference. We specifically consider a generalized matching setting, in which the platform explicitly matches supply with demand via a linear programming algorithm. Our first proposal is for the platform to estimate the value of global treatment and global control via optimization. We prove that this approach is unbiased in the fluid limit. Our second proposal is to compare the average shadow price of the treatment and 
-    
-[^14]: 鲁棒性回归不连续设计中的操纵问题
-
-    Manipulation-Robust Regression Discontinuity Designs. (arXiv:2009.07551v5 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2009.07551](http://arxiv.org/abs/2009.07551)
-
-    本研究提出了一种新的回归不连续设计的识别条件，解决了操纵变量可能导致的偏差问题，并提供了一种辅助假设来检测操纵。通过案例研究，我们展示了如何利用该方法解决实际问题。
+    设计了一种机制"带有随机检查的多数票机制"，可实现二元社会决策的多数原则，且适用于完整和不完整信息。同时还可通过修改实现任何超级多数规则，或基于网络形成概念进行实现。
 
     
 
-    我们提出了一种回归不连续设计的新的识别条件。我们将Lee（2008）的局部随机化替换为其威胁的两个限制，即，操纵运行变量。此外，我们提供了McCrary（2008）诊断测试的第一个辅助假设来检测操纵。根据我们的辅助假设，我们推导出一种新颖的矩阵表达式，立即得出了Gerard、Rokkanen和Rothe（2020）的最坏情况界限，并增强了对目标参数的解释。我们强调了两个问题：一个被忽视的识别失败的来源，以及一个缺失的检测操纵的辅助假设。在案例研究中，我们利用制度细节和经济理论来说明我们解决这些问题的方法。
+    我们设计了一种机制，即带有随机检查的多数票机制（RC 机制），完全实现了二元社会决策的多数原则。在两个选项的同时投票后，进行一系列检查，其中每个代理（随机抽样之一）可以接受或拒绝投票的获胜者。如果样本中的某个代理接受，则实现获胜者。如果所有代理都拒绝获胜者，则随机选择一个代理，其最初投票的选项获胜。多数规则的实施在完整和不完整信息下均保持不变。我们还扩展了 RC 机制以适应弃权，并表明可以通过修改 RC 机制来实现任何超级多数规则。最后，我们介绍了基于网络形成概念的其他实现机制。
 
-    We present a new identification condition for regression discontinuity designs. We replace the local randomization of Lee (2008) with two restrictions on its threat, namely, the manipulation of the running variable. Furthermore, we provide the first auxiliary assumption of McCrary's (2008) diagnostic test to detect manipulation. Based on our auxiliary assumption, we derive a novel expression of moments that immediately implies the worst-case bounds of Gerard, Rokkanen, and Rothe (2020) and an enhanced interpretation of their target parameters. We highlight two issues: an overlooked source of identification failure, and a missing auxiliary assumption to detect manipulation. In the case studies, we illustrate our solution to these issues using institutional details and economic theories.
+    We design a mechanism, Majority voting with random checks (RC mechanism), that fully implements the majority rule for binary social decisions. A simultaneous vote over the two options is followed by a sequence of checks, where each agent (out of a random sample) can accept or reject the winner of the vote. If some agent in the sample accepts, the winner is implemented. If all agents reject the winner, one of the agents is selected randomly and the option she voted for initially wins. The implementation of the majority rule holds under both complete and incomplete information. We also extend the RC mechanism to accommodate for abstention and show that any supermajority rule is implementable via a modification of the RC mechanism. Finally, we introduce additional implementation mechanisms based on the concept of network formation.
     
-[^15]: 异质因果效应的工具有效性检验
+[^13]: 随机效用、重复选择和消费依赖性研究
 
-    Instrument Validity for Heterogeneous Causal Effects. (arXiv:2009.01995v5 [econ.EM] UPDATED)
+    Random Utility, Repeated Choice, and Consumption Dependence. (arXiv:2302.05806v3 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2009.01995](http://arxiv.org/abs/2009.01995)
+    [http://arxiv.org/abs/2302.05806](http://arxiv.org/abs/2302.05806)
 
-    本论文提出了一个通用框架和非参数检验方法来检验异质因果效应模型中工具的有效性，可以应用于治疗多值有序或无序的情况，并且可以帮助检测无效工具以避免因果效应不合理的结果。
+    本文研究了随机效用模型和重复选择模型中的消费依赖性，提出了两种符合随机效用的马尔科夫消费依赖性特征，并对两期随机选择模型中的消费依赖性进行了行为内容的特征化。
 
     
 
-    本文提出了一个通用框架，用于检验异质因果效应模型中的工具有效性。这个推广包括了治疗可以是多值有序或无序的情况。基于一系列可检验的推论，我们提出了一个非参数检验，被证明具有渐进的尺寸控制和一致性。与文献中的检验相比，我们的检验可以在更普遍的情况下应用，并且可能实现了功率提升。检验过程中的工具无效有助于检测可能导致因果效应不合理的无效工具。通过模拟提供了测试在有限样本上表现良好的证据。我们重新审视了对于学校回报率的实证研究，以展示所提出的检验在实践中的应用。同时，我们提供了一个扩展的连续映射定理和扩展的 delta 方法，这可能是独立的感兴趣的研究内容，来建立测试统计量的渐近分布。
+    本研究探讨了随机选择的重复选择解释和随机效用模型的个体解释。我们考虑了一个目光短浅的代理人，他们明天的偏好分布可能取决于今天的消费和偏好。即使代理人在每个静态决策中都是经典的理性，也存在一些与随机效用作为跨时间聚合模型不一致的消费依赖形式。我们提供了两个马尔科夫消费依赖性的特征，这些特征与随机效用是一致的。进一步地，我们对两期随机选择模型中的消费依赖性进行了行为内容的特征化。
 
-    This paper provides a general framework for testing instrument validity in heterogeneous causal effect models. The generalization includes the cases where the treatment can be multivalued ordered or unordered. Based on a series of testable implications, we propose a nonparametric test which is proved to be asymptotically size controlled and consistent. Compared to the tests in the literature, our test can be applied in more general settings and may achieve power improvement. Refutation of instrument validity by the test helps detect invalid instruments that may yield implausible results on causal effects. Evidence that the test performs well on finite samples is provided via simulations. We revisit the empirical study on return to schooling to demonstrate application of the proposed test in practice. An extended continuous mapping theorem and an extended delta method, which may be of independent interest, are provided to establish the asymptotic distribution of the test statistic under
+    We study the repeated choice interpretation of stochastic choice and the individual interpretation of the random utility model. We consider a myopic agent whose distribution over preferences tomorrow potentially depends on their consumption and preference today. Even when the agent is classically rational in each of their static decisions, there are forms of consumption dependence which are inconsistent with random utility as a model of intertemporal aggregation. We offer two characterizations of Markovian consumption dependence which are consistent with random utility. Further, we characterize the behavioral content of consumption dependence in a two period stochastic choice model.
+    
+[^14]: 潜在因果社会经济健康指数
+
+    Latent Causal Socioeconomic Health Index. (arXiv:2009.12217v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2009.12217](http://arxiv.org/abs/2009.12217)
+
+    该研究发展了一个基于模型的潜在因果社会经济健康（LACSH）指数，通过将潜在健康因子指数与空间建模和统计因果建模相结合，以促进对观察连续变量对具有空间相关性的潜在特征产生因果影响的理解。研究还介绍了一种用于评估连续政策变量的协变量平衡的新型可视化技术。
+
+    
+
+    该研究在国家层面上发展了一个基于模型的潜在因果社会经济健康（LACSH）指数。受到对全面国家幸福指数的需求的驱使，我们建立在已被用于评估不可观察的生态/生态系统健康的潜在健康因子指数（LHFI）方法的基础上。LHFI综合性地建模了指标、潜在健康和驱动健康概念的协变量之间的关系。在本文中，LHFI结构与空间建模和统计因果建模相结合。我们的工作重点是开发集成框架，以便更好地理解观察连续变量如何可能对具有空间相关性的潜在特征产生因果影响。还介绍了一种用于连续政策（治疗）变量的协变量平衡评估的新型可视化技术。我们的LACSH框架和可视化工具通过两个全球案例研究进行了说明。
+
+    This research develops a model-based LAtent Causal Socioeconomic Health (LACSH) index at the national level. Motivated by the need for a holistic national well-being index, we build upon the latent health factor index (LHFI) approach that has been used to assess the unobservable ecological/ecosystem health. LHFI integratively models the relationship between metrics, latent health, and covariates that drive the notion of health. In this paper, the LHFI structure is integrated with spatial modeling and statistical causal modeling. Our efforts are focused on developing the integrated framework to facilitate the understanding of how an observational continuous variable might have causally affected a latent trait that exhibits spatial correlation. A novel visualization technique to evaluate covariate balance is also introduced for the case of a continuous policy (treatment) variable. Our resulting LACSH framework and visualization tool are illustrated through two global case studies on nati
+    
+[^15]: 从面板数据中识别网络联系：理论与应用于税收竞争的研究
+
+    Identifying Network Ties from Panel Data: Theory and an Application to Tax Competition. (arXiv:1910.07452v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1910.07452](http://arxiv.org/abs/1910.07452)
+
+    这项研究介绍了如何从没有关于个体之间社交联系信息的观察面板数据中识别社交网络，并应用于研究美国各州之间的税收竞争。研究发现，税收竞争与地理上相邻州之间的竞争的常见假设存在显著差异。
+
+    
+
+    社会互动决定了很多经济行为，但在大多数公开可用的和广泛使用的数据集中，社交联系的信息是不存在的。我们研究了如何从包含没有关于个体之间社交联系信息的观察面板数据中识别社交网络。在一个经典社会互动模型的背景下，我们给出了全局识别社交互动矩阵、内生和外生社交效应参数的充分条件。虽然这个结果适用于不同的估计策略，我们描述了如何使用高维估计技术来基于自适应弹性网格广义矩估计方法估计互动模型。我们应用了该方法来研究美国各州之间的税收竞争。我们发现，识别出的社交互动矩阵表明税收竞争与地理上相邻州之间的竞争的常见假设存在显著差异，进一步说明了税收竞争的特点。
+
+    Social interactions determine many economic behaviors, but information on social ties does not exist in most publicly available and widely used datasets. We present results on the identification of social networks from observational panel data that contains no information on social ties between agents. In the context of a canonical social interactions model, we provide sufficient conditions under which the social interactions matrix, endogenous and exogenous social effect parameters are all globally identified. While this result is relevant across different estimation strategies, we then describe how high-dimensional estimation techniques can be used to estimate the interactions model based on the Adaptive Elastic Net GMM method. We employ the method to study tax competition across US states. We find the identified social interactions matrix implies tax competition differs markedly from the common assumption of competition between geographically neighboring states, providing further in
+    
+[^16]: 评分战略代理商
+
+    Scoring Strategic Agents. (arXiv:1909.01888v5 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/1909.01888](http://arxiv.org/abs/1909.01888)
+
+    本文介绍了一个评分战略代理商的模型，通过综合观察者的特征并估计评分来预测发送者的质量，评分规则通过低估一些特征以防止发送者扭曲和高估其他特征以保持平均正确。信息聚合有助于缓解接收者的承诺问题。
+
+    
+
+    我引入了一个预测评分的模型。接收者想要预测发送者的质量。一个中间人观察发送者的多个特征，并将它们综合成一个评分。基于这个评分，接收者做出决策。发送者希望获得最有利的决策，她可以以已知的成本扭曲每个特征。我刻画了最准确的评分规则。这个规则通过低估一些特征来阻止发送者扭曲，并通过高估其他特征使得评分平均上是正确的。接收者比全面披露更喜欢这个评分规则，因为信息聚合有助于缓解他的承诺问题。
+
+    I introduce a model of predictive scoring. A receiver wants to predict a sender's quality. An intermediary observes multiple features of the sender and aggregates them into a score. Based on the score, the receiver makes a decision. The sender wants the most favorable decision, and she can distort each feature at a privately known cost. I characterize the most accurate scoring rule. This rule underweights some features to deter sender distortion, and overweights other features so that the score is correct on average. The receiver prefers this scoring rule to full disclosure because information aggregation mitigates his commitment problem.
     
 

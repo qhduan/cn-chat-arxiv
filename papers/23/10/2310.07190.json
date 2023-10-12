@@ -1,0 +1,11 @@
+{
+    "title": "Neural networks: deep, shallow, or in between?. (arXiv:2310.07190v1 [stat.ML])",
+    "abstract": "We give estimates from below for the error of approximation of a compact subset from a Banach space by the outputs of feed-forward neural networks with width W, depth l and Lipschitz activation functions. We show that, modulo logarithmic factors, rates better that entropy numbers' rates are possibly attainable only for neural networks for which the depth l goes to infinity, and that there is no gain if we fix the depth and let the width W go to infinity.",
+    "link": "http://arxiv.org/abs/2310.07190",
+    "context": "Title: Neural networks: deep, shallow, or in between?. (arXiv:2310.07190v1 [stat.ML])\nAbstract: We give estimates from below for the error of approximation of a compact subset from a Banach space by the outputs of feed-forward neural networks with width W, depth l and Lipschitz activation functions. We show that, modulo logarithmic factors, rates better that entropy numbers' rates are possibly attainable only for neural networks for which the depth l goes to infinity, and that there is no gain if we fix the depth and let the width W go to infinity.",
+    "path": "papers/23/10/2310.07190.json",
+    "total_tokens": 650,
+    "translated_title": "神经网络：深层、浅层还是中间层？",
+    "translated_abstract": "我们给出了一种估计方法，用于测量通过宽度为W、深度为l的前馈神经网络以及满足Lipschitz激活函数的输出进行近似的误差。我们证明了，在对数因子解除，仅有深度l趋近无穷大的神经网络才有可能达到比熵数更好的速度，而如果固定深度然后让宽度W趋近无穷大，则没有任何收益。",
+    "tldr": "本研究探讨了深度和宽度对于神经网络的影响，结果表明只有深度趋近无穷大的神经网络才可能达到比熵数更好的速度，而固定深度并让宽度趋近无穷大则没有收益。"
+}

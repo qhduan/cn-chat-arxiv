@@ -1,0 +1,12 @@
+{
+    "title": "Answer Candidate Type Selection: Text-to-Text Language Model for Closed Book Question Answering Meets Knowledge Graphs. (arXiv:2310.07008v1 [cs.CL])",
+    "abstract": "Pre-trained Text-to-Text Language Models (LMs), such as T5 or BART yield promising results in the Knowledge Graph Question Answering (KGQA) task. However, the capacity of the models is limited and the quality decreases for questions with less popular entities. In this paper, we present a novel approach which works on top of the pre-trained Text-to-Text QA system to address this issue. Our simple yet effective method performs filtering and re-ranking of generated candidates based on their types derived from Wikidata \"instance_of\" property.",
+    "link": "http://arxiv.org/abs/2310.07008",
+    "context": "Title: Answer Candidate Type Selection: Text-to-Text Language Model for Closed Book Question Answering Meets Knowledge Graphs. (arXiv:2310.07008v1 [cs.CL])\nAbstract: Pre-trained Text-to-Text Language Models (LMs), such as T5 or BART yield promising results in the Knowledge Graph Question Answering (KGQA) task. However, the capacity of the models is limited and the quality decreases for questions with less popular entities. In this paper, we present a novel approach which works on top of the pre-trained Text-to-Text QA system to address this issue. Our simple yet effective method performs filtering and re-ranking of generated candidates based on their types derived from Wikidata \"instance_of\" property.",
+    "path": "papers/23/10/2310.07008.json",
+    "total_tokens": 751,
+    "translated_title": "答案候选类型选择：闭书问答中的文本到文本语言模型满足知识图谱",
+    "translated_abstract": "预训练的文本到文本语言模型（如T5或BART）在知识图谱问答（KGQA）任务中取得了令人期待的结果。然而，模型的容量有限，对于包含不太流行实体的问题，质量下降。在本文中，我们提出了一种新颖的方法，该方法在预训练的文本到文本问答系统的基础上解决了这个问题。我们的简单而有效的方法根据候选答案的类型（来自Wikidata的\"instance_of\"属性）进行筛选和重新排序。",
+    "tldr": "本文提出了一种新颖的方法，通过对预训练的文本到文本问答系统生成的候选答案基于其类型进行过滤和重新排序，以解决在知识图谱问答任务中，模型容量有限且对于含有不太流行实体的问题质量下降的问题。",
+    "en_tdlr": "This paper proposes a novel approach to address the limited capacity and decrease in quality for questions with less popular entities in Knowledge Graph Question Answering (KGQA) task by performing filtering and re-ranking of generated candidates based on their types derived from Wikidata \"instance_of\" property in the pre-trained Text-to-Text QA system."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Generalization-based similarity. (arXiv:2302.10096v3 [cs.AI] UPDATED)",
+    "abstract": "Detecting and exploiting similarities between seemingly distant objects is at the core of analogical reasoning which itself is at the core of artificial intelligence. This paper develops {\\em from the ground up} an abstract algebraic and {\\em qualitative} notion of similarity based on the observation that sets of generalizations encode important properties of elements. We show that similarity defined in this way has appealing mathematical properties. As we construct our notion of similarity from first principles using only elementary concepts of universal algebra, to convince the reader of its plausibility, we show that it can be naturally embedded into first-order logic via model-theoretic types.",
+    "link": "http://arxiv.org/abs/2302.10096",
+    "context": "Title: Generalization-based similarity. (arXiv:2302.10096v3 [cs.AI] UPDATED)\nAbstract: Detecting and exploiting similarities between seemingly distant objects is at the core of analogical reasoning which itself is at the core of artificial intelligence. This paper develops {\\em from the ground up} an abstract algebraic and {\\em qualitative} notion of similarity based on the observation that sets of generalizations encode important properties of elements. We show that similarity defined in this way has appealing mathematical properties. As we construct our notion of similarity from first principles using only elementary concepts of universal algebra, to convince the reader of its plausibility, we show that it can be naturally embedded into first-order logic via model-theoretic types.",
+    "path": "papers/23/02/2302.10096.json",
+    "total_tokens": 677,
+    "translated_title": "基于泛化的相似性",
+    "translated_abstract": "检测和利用看似不相关的对象之间的相似性是类比推理的核心，而类比推理又是人工智能的核心。本文从头开始开发了一个基于抽象代数和定性概念的相似性概念，基于观察到泛化集合可以编码元素的重要属性。我们证明了以这种方式定义的相似性具有吸引人的数学属性。通过从基本概念出发构建相似性概念，并将其自然地嵌入到模型论类型中的一阶逻辑中，我们使读者相信其合理性。",
+    "tldr": "本文从头构建了一个基于抽象代数和定性概念的相似性概念，并将其通过模型论类型自然地嵌入到一阶逻辑中。",
+    "en_tdlr": "This paper develops an abstract algebraic and qualitative notion of similarity based on the observation that sets of generalizations encode important properties of elements, and demonstrates how it can be naturally embedded into first-order logic via model-theoretic types."
+}

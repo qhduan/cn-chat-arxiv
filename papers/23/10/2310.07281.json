@@ -1,0 +1,11 @@
+{
+    "title": "A Completely Locale-independent Session-based Recommender System by Leveraging Trained Model. (arXiv:2310.07281v1 [cs.IR])",
+    "abstract": "In this paper, we propose a solution that won the 10th prize in the KDD Cup 2023 Challenge Task 2 (Next Product Recommendation for Underrepresented Languages/Locales). Our approach involves two steps: (i) Identify candidate item sets based on co-visitation, and (ii) Re-ranking the items using LightGBM with locale-independent features, including session-based features and product similarity. The experiment demonstrated that the locale-independent model performed consistently well across different test locales, and performed even better when incorporating data from other locales into the training.",
+    "link": "http://arxiv.org/abs/2310.07281",
+    "context": "Title: A Completely Locale-independent Session-based Recommender System by Leveraging Trained Model. (arXiv:2310.07281v1 [cs.IR])\nAbstract: In this paper, we propose a solution that won the 10th prize in the KDD Cup 2023 Challenge Task 2 (Next Product Recommendation for Underrepresented Languages/Locales). Our approach involves two steps: (i) Identify candidate item sets based on co-visitation, and (ii) Re-ranking the items using LightGBM with locale-independent features, including session-based features and product similarity. The experiment demonstrated that the locale-independent model performed consistently well across different test locales, and performed even better when incorporating data from other locales into the training.",
+    "path": "papers/23/10/2310.07281.json",
+    "total_tokens": 762,
+    "translated_title": "通过利用训练模型实现完全与本地环境无关的基于会话的推荐系统",
+    "translated_abstract": "本文提出了一个解决方案，在KDD Cup 2023挑战任务2（针对语言/本地环境推荐下一款产品）中获得了第10名。我们的方法包括两个步骤：（i）基于共同访问识别候选项集，和（ii）使用包括基于会话的特征和产品相似性在内的与本地环境无关的特征，使用LightGBM对这些项进行重新排序。实验表明，与不同测试本地环境相比，与本地环境无关的模型表现出一致的良好性能，并且在训练中结合其他本地环境的数据时效果更好。",
+    "tldr": "本文介绍了一种完全与本地环境无关的基于会话的推荐系统，通过利用训练模型并结合特征选取和重新排序的方法，能够在不同的本地环境下表现出一致的良好性能，甚至在训练中结合其他本地环境的数据时效果更好。"
+}

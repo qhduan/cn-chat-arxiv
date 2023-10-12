@@ -1,0 +1,12 @@
+{
+    "title": "Transportation-cost inequalities for non-linear Gaussian functionals. (arXiv:2310.05750v1 [math.PR] CROSS LISTED)",
+    "abstract": "We study concentration properties for laws of non-linear Gaussian functionals on metric spaces. Our focus lies on measures with non-Gaussian tail behaviour which are beyond the reach of Talagrand's classical Transportation-Cost Inequalities (TCIs). Motivated by solutions of Rough Differential Equations and relying on a suitable contraction principle, we prove generalised TCIs for functionals that arise in the theory of regularity structures and, in particular, in the cases of rough volatility and the two-dimensional Parabolic Anderson Model. In doing so, we also extend existing results on TCIs for diffusions driven by Gaussian processes.",
+    "link": "http://arxiv.org/abs/2310.05750",
+    "context": "Title: Transportation-cost inequalities for non-linear Gaussian functionals. (arXiv:2310.05750v1 [math.PR] CROSS LISTED)\nAbstract: We study concentration properties for laws of non-linear Gaussian functionals on metric spaces. Our focus lies on measures with non-Gaussian tail behaviour which are beyond the reach of Talagrand's classical Transportation-Cost Inequalities (TCIs). Motivated by solutions of Rough Differential Equations and relying on a suitable contraction principle, we prove generalised TCIs for functionals that arise in the theory of regularity structures and, in particular, in the cases of rough volatility and the two-dimensional Parabolic Anderson Model. In doing so, we also extend existing results on TCIs for diffusions driven by Gaussian processes.",
+    "path": "papers/23/10/2310.05750.json",
+    "total_tokens": 785,
+    "translated_title": "非线性高斯泛函的运输成本不等式",
+    "translated_abstract": "我们研究了度量空间上非线性高斯泛函的浓度性质。我们关注的是具有非高斯尾行为的测度，这是Talagrand的经典运输成本不等式无法覆盖的范围。受粗微分方程解的启发，并依赖于适当的收缩原理，我们证明了适用于正则结构理论以及粗波动性和二维抛物型安德森模型等情况下产生的泛函的广义TCIs。在此过程中，我们还扩展了关于由高斯过程驱动的扩散的TCIs的现有结果。",
+    "tldr": "我们研究了度量空间上非线性高斯泛函的浓度性质，并且证明了适用于正则结构理论以及粗波动性和二维抛物型安德森模型等情况下产生的泛函的广义TCIs。同时，我们还扩展了关于由高斯过程驱动的扩散的TCIs的现有结果。",
+    "en_tdlr": "We study concentration properties for laws of non-linear Gaussian functionals on metric spaces and prove generalized TCIs for functionals arising in the theory of regularity structures, rough volatility, and the two-dimensional Parabolic Anderson Model. We also extend existing results on TCIs for diffusions driven by Gaussian processes."
+}

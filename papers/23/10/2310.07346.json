@@ -1,0 +1,11 @@
+{
+    "title": "Preliminary Results of a Scientometric Analysis of the German Information Retrieval Community 2020-2023. (arXiv:2310.07346v1 [cs.IR])",
+    "abstract": "The German Information Retrieval community is located in two different sub-fields: Information and computer science. There are no current studies that investigate these communities on a scientometric level. Available studies only focus on the information scientific part of the community. We generated a data set of 401 recent IR-related publications extracted from six core IR conferences from a mainly computer scientific background. We analyze this data set at the institutional and researcher level. The data set is publicly released, and we also demonstrate a mapping use case.",
+    "link": "http://arxiv.org/abs/2310.07346",
+    "context": "Title: Preliminary Results of a Scientometric Analysis of the German Information Retrieval Community 2020-2023. (arXiv:2310.07346v1 [cs.IR])\nAbstract: The German Information Retrieval community is located in two different sub-fields: Information and computer science. There are no current studies that investigate these communities on a scientometric level. Available studies only focus on the information scientific part of the community. We generated a data set of 401 recent IR-related publications extracted from six core IR conferences from a mainly computer scientific background. We analyze this data set at the institutional and researcher level. The data set is publicly released, and we also demonstrate a mapping use case.",
+    "path": "papers/23/10/2310.07346.json",
+    "total_tokens": 674,
+    "translated_title": "2020-2023年德国信息检索社区的科学计量分析初步结果",
+    "translated_abstract": "德国信息检索社区分布在信息科学和计算机科学两个子领域中。目前没有研究对这两个社区进行科学计量分析。现有研究只关注信息科学方面的社区。我们生成了一个数据集，其中包括了401篇最近的信息检索相关论文，从主要由计算机科学背景的六个核心信息检索会议中提取。我们在机构和研究人员级别对该数据集进行了分析。该数据集已公开发布，我们还展示了一个映射使用案例。",
+    "tldr": "首次对德国信息检索社区进行科学计量分析，生成了401篇最近的信息检索相关论文数据集，并在机构和研究人员级别进行了分析。"
+}

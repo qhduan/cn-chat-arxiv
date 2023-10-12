@@ -1,0 +1,11 @@
+{
+    "title": "Exploiting Language Models as a Source of Knowledge for Cognitive Agents. (arXiv:2310.06846v1 [cs.AI])",
+    "abstract": "Large language models (LLMs) provide capabilities far beyond sentence completion, including question answering, summarization, and natural-language inference. While many of these capabilities have potential application to cognitive systems, our research is exploiting language models as a source of task knowledge for cognitive agents, that is, agents realized via a cognitive architecture. We identify challenges and opportunities for using language models as an external knowledge source for cognitive systems and possible ways to improve the effectiveness of knowledge extraction by integrating extraction with cognitive architecture capabilities, highlighting with examples from our recent work in this area.",
+    "link": "http://arxiv.org/abs/2310.06846",
+    "context": "Title: Exploiting Language Models as a Source of Knowledge for Cognitive Agents. (arXiv:2310.06846v1 [cs.AI])\nAbstract: Large language models (LLMs) provide capabilities far beyond sentence completion, including question answering, summarization, and natural-language inference. While many of these capabilities have potential application to cognitive systems, our research is exploiting language models as a source of task knowledge for cognitive agents, that is, agents realized via a cognitive architecture. We identify challenges and opportunities for using language models as an external knowledge source for cognitive systems and possible ways to improve the effectiveness of knowledge extraction by integrating extraction with cognitive architecture capabilities, highlighting with examples from our recent work in this area.",
+    "path": "papers/23/10/2310.06846.json",
+    "total_tokens": 707,
+    "translated_title": "利用语言模型作为认知智能体的知识来源的研究",
+    "translated_abstract": "大型语言模型(LLMs)不仅可以完成句子补全，还可以进行问答、摘要和自然语言推理等任务。我们的研究利用语言模型作为认知智能体的任务知识来源，即通过认知架构实现的智能体。我们识别了使用语言模型作为认知系统外部知识源的挑战和机会，以及通过将知识提取与认知架构能力整合来提高知识提取效果的可能方法，并举例介绍我们最近在这一领域的工作。",
+    "tldr": "本研究利用语言模型作为认知智能体的任务知识来源，探索了将语言模型作为外部知识源用于认知系统的挑战和机会，并提出了通过整合知识提取和认知架构能力来提高知识提取效果的可能方法。"
+}

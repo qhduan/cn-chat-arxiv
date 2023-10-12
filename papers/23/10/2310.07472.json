@@ -1,0 +1,12 @@
+{
+    "title": "An Ontology of Co-Creative AI Systems. (arXiv:2310.07472v1 [cs.AI])",
+    "abstract": "The term co-creativity has been used to describe a wide variety of human-AI assemblages in which human and AI are both involved in a creative endeavor. In order to assist with disambiguating research efforts, we present an ontology of co-creative systems, focusing on how responsibilities are divided between human and AI system and the information exchanged between them. We extend Lubart's original ontology of creativity support tools with three new categories emphasizing artificial intelligence: computer-as-subcontractor, computer-as-critic, and computer-as-teammate, some of which have sub-categorizations.",
+    "link": "http://arxiv.org/abs/2310.07472",
+    "context": "Title: An Ontology of Co-Creative AI Systems. (arXiv:2310.07472v1 [cs.AI])\nAbstract: The term co-creativity has been used to describe a wide variety of human-AI assemblages in which human and AI are both involved in a creative endeavor. In order to assist with disambiguating research efforts, we present an ontology of co-creative systems, focusing on how responsibilities are divided between human and AI system and the information exchanged between them. We extend Lubart's original ontology of creativity support tools with three new categories emphasizing artificial intelligence: computer-as-subcontractor, computer-as-critic, and computer-as-teammate, some of which have sub-categorizations.",
+    "path": "papers/23/10/2310.07472.json",
+    "total_tokens": 678,
+    "translated_title": "一个共创AI系统的本体论",
+    "translated_abstract": "“共创性”一词被用来描述人工智能与人类共同参与创作的各种组合。为了帮助消除研究努力的混淆，我们提出了一个共创系统的本体论，关注人类与AI系统之间的责任划分和信息交流。我们在Lubart对创造力支持工具的本体论上进行了扩展，增加了三个强调人工智能的新类别：计算机作为分包商，计算机作为批评者和计算机作为队友，其中一些还有细分类别。",
+    "tldr": "这篇论文提出了一个共创AI系统的本体论，通过增加计算机作为分包商、计算机作为批评者和计算机作为队友等新类别，来扩展对创造力支持工具的本体论。",
+    "en_tdlr": "This paper presents an ontology of co-creative AI systems by extending Lubart's ontology of creativity support tools with new categories such as computer-as-subcontractor, computer-as-critic, and computer-as-teammate."
+}
