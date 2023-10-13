@@ -129,17 +129,18 @@
 | [^125] | [Diffusion-based Generative AI for Exploring Transition States from 2D Molecular Graphs.](http://arxiv.org/abs/2304.12233) | 本文提出了一种基于扩散的生成式方法(TSDiff)，用于从二维分子图中预测过渡态几何结构。与现有具有 3D 几何结构机器学习模型相比，TSdiff 的准确性和效率都更高。TSDiff 能够找到比参考数据库更优化的反应途径，在反应势垒更低的情况下找到更为优化的反应路径。 |
 | [^126] | [Enhancing Chain-of-Thoughts Prompting with Iterative Bootstrapping in Large Language Models.](http://arxiv.org/abs/2304.11657) | 本文提出 Iter-CoT 方法，在大型语言模型中进行迭代增强的思维链提示，通过选择具有适度难度的具有挑战性但可回答的问题，并伴随推理链作为示例，提高了模型的泛化能力，同时使模型能够更准确地生成推理链。 |
 | [^127] | [LLMMaps -- A Visual Metaphor for Stratified Evaluation of Large Language Models.](http://arxiv.org/abs/2304.00457) | LLMMaps是一种分层评估大型语言模型性能的可视化技术，能够揭示取得高准确度和产生幻觉的子领域，并指导模型的进一步发展。 |
-| [^128] | [Can Pre-trained Vision and Language Models Answer Visual Information-Seeking Questions?.](http://arxiv.org/abs/2302.11713) | 本研究介绍了一个专门针对无法仅凭常识知识回答的信息寻求问题而设计的视觉问答数据集InfoSeek。使用InfoSeek数据集，我们发现目前最先进的预训练多模态模型在回答求知视觉问题方面面临挑战，但在该数据集上进行微调可以激发模型使用细粒度知识。 |
-| [^129] | [Provably Efficient Offline Goal-Conditioned Reinforcement Learning with General Function Approximation and Single-Policy Concentrability.](http://arxiv.org/abs/2302.03770) | 本文提供了关于离线目标条件强化学习算法的理论分析，证明了经过轻微修改后，该算法在满足通用函数逼近时具有 O(poly(1/ε)) 的样本复杂度。 |
-| [^130] | [IM-IAD: Industrial Image Anomaly Detection Benchmark in Manufacturing.](http://arxiv.org/abs/2301.13359) | 该论文提出了一个IM-IAD工业制造中的图像异常检测基准，通过统一的设置评估了16个算法在7个数据集上的性能，旨在解决目前这一领域研究的不规范问题。 |
-| [^131] | [A Framework for Adapting Offline Algorithms to Solve Combinatorial Multi-Armed Bandit Problems with Bandit Feedback.](http://arxiv.org/abs/2301.13326) | 这个论文介绍了一个框架，用于将离线算法调整为只需要赌徒反馈的亚线性α-后悔方法来解决组合多臂赌博问题，该框架可以实现对于时间界T的预期累积α-后悔依赖度为O(T^（2/3）log（T^（1/3））)。 |
-| [^132] | [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning.](http://arxiv.org/abs/2301.10886) | 本文提出了一种名为AIRS的自动内在奖励塑造探索方法，可以提供高质量的内在激励以增强强化学习中的探索性能；并开发了高效可靠的内在奖励工具包。实验表明，AIRS性能卓越，能够胜过基准方案。 |
-| [^133] | [Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing.](http://arxiv.org/abs/2210.15889) | 神经符号计算是将符号和统计认知范式整合的研究领域，在推理和解释性以及神经网络学习等方面具有潜力。本文综述了该领域的最新进展和重要贡献，并探讨了其成功应用案例和未来发展方向。 |
-| [^134] | [The Role of Morphological Variation in Evolutionary Robotics: Maximizing Performance and Robustness.](http://arxiv.org/abs/2208.02809) | 本文提出了一种测量形态变异影响的方法，并分析了变异幅度和引入方式与演化体性能和鲁棒性之间的关系。 |
-| [^135] | [MemSAC: Memory Augmented Sample Consistency for Large Scale Unsupervised Domain Adaptation.](http://arxiv.org/abs/2207.12389) | MemSAC提出了一种记忆增强样本一致性方法，通过利用源域和目标域之间的样本级相似性实现判别转移，并且在大规模数据集上表现出明显的优势。 |
-| [^136] | [mGPT: Few-Shot Learners Go Multilingual.](http://arxiv.org/abs/2204.07580) | 本文介绍了两种自回归GPT样式模型，分别使用13亿和130亿个参数，在60种语言中训练，并展示了与Facebook最近发布的XGLM模型性能相当的结果。这为低资源语言的自然语言处理提供了更多可能性。 |
-| [^137] | [A Machine Learning Paradigm for Studying Pictorial Realism: Are Constable's Clouds More Real than His Contemporaries?.](http://arxiv.org/abs/2202.09348) | 本研究提出了一种用于研究图画现实主义的新的机器学习范式，通过测量艺术家绘制的云和云的照片之间的相似度来评估写实主义。实验结果表明，康斯特布尔比他的同时代更加一致地呈现形式上的特征。 |
-| [^138] | [Federated Learning from Small Datasets.](http://arxiv.org/abs/2110.03469) | 本文介绍了一种在小数据集上实现联合学习的新方法，通过将模型聚合与本地模型的置换相结合，可以更高效地在数据稀疏的领域进行训练。 |
+| [^128] | [Analyzing And Editing Inner Mechanisms Of Backdoored Language Models.](http://arxiv.org/abs/2302.12461) | 本研究分析并编辑暗藏后门的语言模型的内部机制，发现早期层的MLP模块和初始嵌入投影是后门机制中最重要的部分。通过使用PCP消融技术替换变压器模块，我们成功删除、插入和修改后门机制，并显著改善了后门的输出效果。 |
+| [^129] | [Can Pre-trained Vision and Language Models Answer Visual Information-Seeking Questions?.](http://arxiv.org/abs/2302.11713) | 本研究介绍了一个专门针对无法仅凭常识知识回答的信息寻求问题而设计的视觉问答数据集InfoSeek。使用InfoSeek数据集，我们发现目前最先进的预训练多模态模型在回答求知视觉问题方面面临挑战，但在该数据集上进行微调可以激发模型使用细粒度知识。 |
+| [^130] | [Provably Efficient Offline Goal-Conditioned Reinforcement Learning with General Function Approximation and Single-Policy Concentrability.](http://arxiv.org/abs/2302.03770) | 本文提供了关于离线目标条件强化学习算法的理论分析，证明了经过轻微修改后，该算法在满足通用函数逼近时具有 O(poly(1/ε)) 的样本复杂度。 |
+| [^131] | [IM-IAD: Industrial Image Anomaly Detection Benchmark in Manufacturing.](http://arxiv.org/abs/2301.13359) | 该论文提出了一个IM-IAD工业制造中的图像异常检测基准，通过统一的设置评估了16个算法在7个数据集上的性能，旨在解决目前这一领域研究的不规范问题。 |
+| [^132] | [A Framework for Adapting Offline Algorithms to Solve Combinatorial Multi-Armed Bandit Problems with Bandit Feedback.](http://arxiv.org/abs/2301.13326) | 这个论文介绍了一个框架，用于将离线算法调整为只需要赌徒反馈的亚线性α-后悔方法来解决组合多臂赌博问题，该框架可以实现对于时间界T的预期累积α-后悔依赖度为O(T^（2/3）log（T^（1/3））)。 |
+| [^133] | [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning.](http://arxiv.org/abs/2301.10886) | 本文提出了一种名为AIRS的自动内在奖励塑造探索方法，可以提供高质量的内在激励以增强强化学习中的探索性能；并开发了高效可靠的内在奖励工具包。实验表明，AIRS性能卓越，能够胜过基准方案。 |
+| [^134] | [Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing.](http://arxiv.org/abs/2210.15889) | 神经符号计算是将符号和统计认知范式整合的研究领域，在推理和解释性以及神经网络学习等方面具有潜力。本文综述了该领域的最新进展和重要贡献，并探讨了其成功应用案例和未来发展方向。 |
+| [^135] | [The Role of Morphological Variation in Evolutionary Robotics: Maximizing Performance and Robustness.](http://arxiv.org/abs/2208.02809) | 本文提出了一种测量形态变异影响的方法，并分析了变异幅度和引入方式与演化体性能和鲁棒性之间的关系。 |
+| [^136] | [MemSAC: Memory Augmented Sample Consistency for Large Scale Unsupervised Domain Adaptation.](http://arxiv.org/abs/2207.12389) | MemSAC提出了一种记忆增强样本一致性方法，通过利用源域和目标域之间的样本级相似性实现判别转移，并且在大规模数据集上表现出明显的优势。 |
+| [^137] | [mGPT: Few-Shot Learners Go Multilingual.](http://arxiv.org/abs/2204.07580) | 本文介绍了两种自回归GPT样式模型，分别使用13亿和130亿个参数，在60种语言中训练，并展示了与Facebook最近发布的XGLM模型性能相当的结果。这为低资源语言的自然语言处理提供了更多可能性。 |
+| [^138] | [A Machine Learning Paradigm for Studying Pictorial Realism: Are Constable's Clouds More Real than His Contemporaries?.](http://arxiv.org/abs/2202.09348) | 本研究提出了一种用于研究图画现实主义的新的机器学习范式，通过测量艺术家绘制的云和云的照片之间的相似度来评估写实主义。实验结果表明，康斯特布尔比他的同时代更加一致地呈现形式上的特征。 |
+| [^139] | [Federated Learning from Small Datasets.](http://arxiv.org/abs/2110.03469) | 本文介绍了一种在小数据集上实现联合学习的新方法，通过将模型聚合与本地模型的置换相结合，可以更高效地在数据稀疏的领域进行训练。 |
 
 # 详细
 
@@ -1921,7 +1922,21 @@
 
     Large Language Models (LLMs) have revolutionized natural language processing and demonstrated impressive capabilities in various tasks. Unfortunately, they are prone to hallucinations, where the model exposes incorrect or false information in its responses, which renders diligent evaluation approaches mandatory. While LLM performance in specific knowledge fields is often evaluated based on question and answer (Q&A) datasets, such evaluations usually report only a single accuracy number for the entire field, a procedure which is problematic with respect to transparency and model improvement. A stratified evaluation could instead reveal subfields, where hallucinations are more likely to occur and thus help to better assess LLMs' risks and guide their further development. To support such stratified evaluations, we propose LLMMaps as a novel visualization technique that enables users to evaluate LLMs' performance with respect to Q&A datasets. LLMMaps provide detailed insights into LLMs' kn
     
-[^128]: Pre-trained Vision and Language Models能否回答求知视觉问题？
+[^128]: 分析和编辑暗藏后门的语言模型的内部机制
+
+    Analyzing And Editing Inner Mechanisms Of Backdoored Language Models. (arXiv:2302.12461v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.12461](http://arxiv.org/abs/2302.12461)
+
+    本研究分析并编辑暗藏后门的语言模型的内部机制，发现早期层的MLP模块和初始嵌入投影是后门机制中最重要的部分。通过使用PCP消融技术替换变压器模块，我们成功删除、插入和修改后门机制，并显著改善了后门的输出效果。
+
+    
+
+    数据集中的毒化是对大型语言模型的潜在安全威胁，可能导致暗藏后门的模型。关于暗藏后门语言模型的内部机制以及它们如何处理触发输入（例如，切换至有毒语言）的描述尚未找到。本文研究基于Transformer的暗藏后门语言模型的内部表示，并确定早期层的MLP模块与初始嵌入投影结合是后门机制中最重要的部分。我们利用这些知识来删除、插入和修改后门机制，并用工程化替代物降低MLP模块输出的重要性。为此，我们引入了基于主要成分的低秩矩阵的PCP消融技术，用其替换变压器模块。我们在暗藏后门的玩具模型、暗藏后门的大型模型和非暗藏后门的开源模型上展示了我们的结果。我们表明我们可以改善后门的输出效果。
+
+    Poisoning of data sets is a potential security threat to large language models that can lead to backdoored models. A description of the internal mechanisms of backdoored language models and how they process trigger inputs, e.g., when switching to toxic language, has yet to be found. In this work, we study the internal representations of transformer-based backdoored language models and determine early-layer MLP modules as most important for the backdoor mechanism in combination with the initial embedding projection. We use this knowledge to remove, insert, and modify backdoor mechanisms with engineered replacements that reduce the MLP module outputs to essentials for the backdoor mechanism. To this end, we introduce PCP ablation, where we replace transformer modules with low-rank matrices based on the principal components of their activations. We demonstrate our results on backdoored toy, backdoored large, and non-backdoored open-source models. We show that we can improve the backdoor r
+    
+[^129]: Pre-trained Vision and Language Models能否回答求知视觉问题？
 
     Can Pre-trained Vision and Language Models Answer Visual Information-Seeking Questions?. (arXiv:2302.11713v3 [cs.CV] UPDATED)
 
@@ -1935,7 +1950,7 @@
 
     Pre-trained vision and language models have demonstrated state-of-the-art capabilities over existing tasks involving images and texts, including visual question answering. However, it remains unclear whether these models possess the capability to answer questions that are not only querying visual content but knowledge-intensive and information-seeking. In this study, we introduce InfoSeek, a visual question answering dataset tailored for information-seeking questions that cannot be answered with only common sense knowledge. Using InfoSeek, we analyze various pre-trained visual question answering models and gain insights into their characteristics. Our findings reveal that state-of-the-art pre-trained multi-modal models (e.g., PaLI-X, BLIP2, etc.) face challenges in answering visual information-seeking questions, but fine-tuning on the InfoSeek dataset elicits models to use fine-grained knowledge that was learned during their pre-training. Furthermore, we show that accurate visual entit
     
-[^129]: 可证明高效的离线目标条件强化学习与通用函数逼近和单一策略集中性研究
+[^130]: 可证明高效的离线目标条件强化学习与通用函数逼近和单一策略集中性研究
 
     Provably Efficient Offline Goal-Conditioned Reinforcement Learning with General Function Approximation and Single-Policy Concentrability. (arXiv:2302.03770v2 [cs.LG] UPDATED)
 
@@ -1949,7 +1964,7 @@
 
     Goal-conditioned reinforcement learning (GCRL) refers to learning general-purpose skills that aim to reach diverse goals. In particular, offline GCRL only requires purely pre-collected datasets to perform training tasks without additional interactions with the environment. Although offline GCRL has become increasingly prevalent and many previous works have demonstrated its empirical success, the theoretical understanding of efficient offline GCRL algorithms is not well established, especially when the state space is huge and the offline dataset only covers the policy we aim to learn. In this paper, we provide a rigorous theoretical analysis of an existing empirically successful offline GCRL algorithm. We prove that under slight modification, this algorithm enjoys an $\widetilde{O}(\text{poly}(1/\epsilon))$ sample complexity (where $\epsilon$ is the desired suboptimality of the learned policy) with general function approximation thanks to the property of (semi-)strong convexity of the o
     
-[^130]: IM-IAD：工业制造中的图像异常检测基准
+[^131]: IM-IAD：工业制造中的图像异常检测基准
 
     IM-IAD: Industrial Image Anomaly Detection Benchmark in Manufacturing. (arXiv:2301.13359v2 [cs.CV] UPDATED)
 
@@ -1963,7 +1978,7 @@
 
     Image anomaly detection (IAD) is an emerging and vital computer vision task in industrial manufacturing (IM). Recently many advanced algorithms have been published, but their performance deviates greatly. We realize that the lack of actual IM settings most probably hinders the development and usage of these methods in real-world applications. As far as we know, IAD methods are not evaluated systematically. As a result, this makes it difficult for researchers to analyze them because they are designed for different or special cases. To solve this problem, we first propose a uniform IM setting to assess how well these algorithms perform, which includes several aspects, i.e., various levels of supervision (unsupervised vs. semi-supervised), few-shot learning, continual learning, noisy labels, memory usage, and inference speed. Moreover, we skillfully build a comprehensive image anomaly detection benchmark (IM-IAD) that includes 16 algorithms on 7 mainstream datasets with uniform settings. 
     
-[^131]: 适应离线算法解决带有赌徒反馈的组合多臂赌博问题的框架
+[^132]: 适应离线算法解决带有赌徒反馈的组合多臂赌博问题的框架
 
     A Framework for Adapting Offline Algorithms to Solve Combinatorial Multi-Armed Bandit Problems with Bandit Feedback. (arXiv:2301.13326v2 [cs.LG] UPDATED)
 
@@ -1977,7 +1992,7 @@
 
     We investigate the problem of stochastic, combinatorial multi-armed bandits where the learner only has access to bandit feedback and the reward function can be non-linear. We provide a general framework for adapting discrete offline approximation algorithms into sublinear $\alpha$-regret methods that only require bandit feedback, achieving $\mathcal{O}\left(T^\frac{2}{3}\log(T)^\frac{1}{3}\right)$ expected cumulative $\alpha$-regret dependence on the horizon $T$. The framework only requires the offline algorithms to be robust to small errors in function evaluation. The adaptation procedure does not even require explicit knowledge of the offline approximation algorithm -- the offline algorithm can be used as a black box subroutine. To demonstrate the utility of the proposed framework, the proposed framework is applied to diverse applications in submodular maximization. The new CMAB algorithms for submodular maximization with knapsack constraints outperform a full-bandit method developed
     
-[^132]: 深度强化学习中的自动内在奖励塑造探索方法研究
+[^133]: 深度强化学习中的自动内在奖励塑造探索方法研究
 
     Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning. (arXiv:2301.10886v2 [cs.LG] UPDATED)
 
@@ -1991,7 +2006,7 @@
 
     We present AIRS: Automatic Intrinsic Reward Shaping that intelligently and adaptively provides high-quality intrinsic rewards to enhance exploration in reinforcement learning (RL). More specifically, AIRS selects shaping function from a predefined set based on the estimated task return in real-time, providing reliable exploration incentives and alleviating the biased objective problem. Moreover, we develop an intrinsic reward toolkit to provide efficient and reliable implementations of diverse intrinsic reward approaches. We test AIRS on various tasks of MiniGrid, Procgen, and DeepMind Control Suite. Extensive simulation demonstrates that AIRS can outperform the benchmarking schemes and achieve superior performance with simple architecture.
     
-[^133]: 走向数据和知识驱动的人工智能：神经符号计算综述
+[^134]: 走向数据和知识驱动的人工智能：神经符号计算综述
 
     Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing. (arXiv:2210.15889v4 [cs.AI] UPDATED)
 
@@ -2005,7 +2020,7 @@
 
     Neural-symbolic computing (NeSy), which pursues the integration of the symbolic and statistical paradigms of cognition, has been an active research area of Artificial Intelligence (AI) for many years. As NeSy shows promise of reconciling the advantages of reasoning and interpretability of symbolic representation and robust learning in neural networks, it may serve as a catalyst for the next generation of AI. In the present paper, we provide a systematic overview of the recent developments and important contributions of NeSy research. Firstly, we introduce study history of this area, covering early work and foundations. We further discuss background concepts and identify key driving factors behind the development of NeSy. Afterward, we categorize recent landmark approaches along several main characteristics that underline this research paradigm, including neural-symbolic integration, knowledge representation, knowledge embedding, and functionality. Next, we briefly discuss the successfu
     
-[^134]: 演化机器人学中形态变异的作用：最大化性能和鲁棒性
+[^135]: 演化机器人学中形态变异的作用：最大化性能和鲁棒性
 
     The Role of Morphological Variation in Evolutionary Robotics: Maximizing Performance and Robustness. (arXiv:2208.02809v2 [cs.NE] UPDATED)
 
@@ -2019,7 +2034,7 @@
 
     Exposing an Evolutionary Algorithm that is used to evolve robot controllers to variable conditions is necessary to obtain solutions which are robust and can cross the reality gap. However, we do not yet have methods for analyzing and understanding the impact of the varying morphological conditions which impact the evolutionary process, and therefore for choosing suitable variation ranges. By morphological conditions, we refer to the starting state of the robot, and to variations in its sensor readings during operation due to noise. In this article, we introduce a method that permits us to measure the impact of these morphological variations and we analyze the relation between the amplitude of variations, the modality with which they are introduced, and the performance and robustness of evolving agents. Our results demonstrate that (i) the evolutionary algorithm can tolerate morphological variations which have a very high impact, (ii) variations affecting the actions of the agent are to
     
-[^135]: MemSAC: 大规模无监督领域自适应的记忆增强样本一致性
+[^136]: MemSAC: 大规模无监督领域自适应的记忆增强样本一致性
 
     MemSAC: Memory Augmented Sample Consistency for Large Scale Unsupervised Domain Adaptation. (arXiv:2207.12389v2 [cs.CV] UPDATED)
 
@@ -2033,7 +2048,7 @@
 
     Practical real world datasets with plentiful categories introduce new challenges for unsupervised domain adaptation like small inter-class discriminability, that existing approaches relying on domain invariance alone cannot handle sufficiently well. In this work we propose MemSAC, which exploits sample level similarity across source and target domains to achieve discriminative transfer, along with architectures that scale to a large number of categories. For this purpose, we first introduce a memory augmented approach to efficiently extract pairwise similarity relations between labeled source and unlabeled target domain instances, suited to handle an arbitrary number of classes. Next, we propose and theoretically justify a novel variant of the contrastive loss to promote local consistency among within-class cross domain samples while enforcing separation between classes, thus preserving discriminative transfer from source to target. We validate the advantages of MemSAC with significant
     
-[^136]: mGPT: 少样本学习者走向多语言（arXiv:2204.07580v2 [cs.CL] 更新）
+[^137]: mGPT: 少样本学习者走向多语言（arXiv:2204.07580v2 [cs.CL] 更新）
 
     mGPT: Few-Shot Learners Go Multilingual. (arXiv:2204.07580v2 [cs.CL] UPDATED)
 
@@ -2047,7 +2062,7 @@
 
     Recent studies report that autoregressive language models can successfully solve many NLP tasks via zero- and few-shot learning paradigms, which opens up new possibilities for using the pre-trained language models. This paper introduces two autoregressive GPT-like models with 1.3 billion and 13 billion parameters trained on 60 languages from 25 language families using Wikipedia and Colossal Clean Crawled Corpus. We reproduce the GPT-3 architecture using GPT-2 sources and the sparse attention mechanism; Deepspeed and Megatron frameworks allow us to parallelize the training and inference steps effectively. The resulting models show performance on par with the recently released XGLM models by Facebook, covering more languages and enhancing NLP possibilities for low resource languages of CIS countries and Russian small nations. We detail the motivation for the choices of the architecture design, thoroughly describe the data preparation pipeline, and train five small versions of the model t
     
-[^137]: 一种用于研究图画现实主义的机器学习范式：康斯特布尔的云是否比他的同时代更真实？
+[^138]: 一种用于研究图画现实主义的机器学习范式：康斯特布尔的云是否比他的同时代更真实？
 
     A Machine Learning Paradigm for Studying Pictorial Realism: Are Constable's Clouds More Real than His Contemporaries?. (arXiv:2202.09348v2 [cs.CV] UPDATED)
 
@@ -2061,7 +2076,7 @@
 
     The British landscape painter John Constable is considered foundational for the Realist movement in 19th-century European painting. Constable's painted skies, in particular, were seen as remarkably accurate by his contemporaries, an impression shared by many viewers today. Yet, assessing the accuracy of realist paintings like Constable's is subjective or intuitive, even for professional art historians, making it difficult to say with certainty what set Constable's skies apart from those of his contemporaries. Our goal is to contribute to a more objective understanding of Constable's realism. We propose a new machine-learning-based paradigm for studying pictorial realism in an explainable way. Our framework assesses realism by measuring the similarity between clouds painted by artists noted for their skies, like Constable, and photographs of clouds. The experimental results of cloud classification show that Constable approximates more consistently than his contemporaries the formal feat
     
-[^138]: 从小数据集中实现联合学习
+[^139]: 从小数据集中实现联合学习
 
     Federated Learning from Small Datasets. (arXiv:2110.03469v3 [cs.LG] UPDATED)
 

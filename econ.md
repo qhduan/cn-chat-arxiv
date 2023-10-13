@@ -11,21 +11,22 @@
 | [^7] | [Structural Vector Autoregressions and Higher Moments: Challenges and Solutions in Small Samples.](http://arxiv.org/abs/2310.08173) | 结构向量自回归中使用基于更高阶矩的广义矩方法存在两个问题：不稳定的估计和不准确的推断、小样本中对方差小的创新的缩放偏差。 作者提出了解决方案，包括利用独立结构冲击的假设来估计加权矩阵和估计器的方差，并将持续更新的缩放项纳入加权矩阵中，以消除缩放偏差。 |
 | [^8] | [Model-Agnostic Covariate-Assisted Inference on Partially Identified Causal Effects.](http://arxiv.org/abs/2310.08115) | 提出了一种模型不可知的推断方法，在部分可辨识的因果估计中应用广泛。该方法基于最优输运问题的对偶理论，能够适应随机实验和观测研究，并且具有统一有效和双重鲁棒性。 |
 | [^9] | [Uniform Inference for Nonlinear Endogenous Treatment Effects with High-Dimensional Covariates.](http://arxiv.org/abs/2310.08063) | 该论文提出了一种用于高维协变量的非线性内生处理效应的一致推断方法，主要创新是在高维度下对非参数工具变量模型进行双偏差校正，并提供了边际效应函数的均匀置信带。 |
-| [^10] | [Cheap Talking Algorithms.](http://arxiv.org/abs/2310.07867) | 该论文研究了在战略信息传递游戏中，利用独立强化学习算法进行训练的发送者和接收者可以收敛到接近最优均衡策略，并且在代理之间的利益冲突下实现了最大化的通信。这一结论稳健，并对信息传递游戏中的均衡选择理论、计算机科学中的算法间通信和人工智能代理市场中的经济学产生了影响。 |
-| [^11] | [Marital Sorting, Household Inequality and Selection.](http://arxiv.org/abs/2310.07839) | 本文利用CPS数据研究了婚姻匹配、家庭不平等和选择的关系，发现夫妻工资不平等增加，而正向匹配加剧了个人工资增长所导致的不平等，同时也反映了夫妻工资受不可观察因素的相关性影响。研究结果有助于理解收入不平等的形成以及婚姻对个人经济状况的影响。 |
-| [^12] | [Integration or fragmentation? A closer look at euro area financial markets.](http://arxiv.org/abs/2310.07790) | 本文研究了欧元区金融市场的整合程度，发现债券市场更为异质化。金融危机和主权债务危机期间，整合程度下降严重，但之后完全恢复。分析还发现了在危机事件中反应与众不同或在溢出网络中扮演不同角色的国家。欧元区短期利率与债券市场整合程度呈正相关关系。 |
-| [^13] | [Empirical Review of Youth-Employment Policies in Nigeria.](http://arxiv.org/abs/2310.07789) | 本文通过混合研究方法和主要数据分析了尼日利亚青年就业计划的实施挑战和政治包容的影响。研究发现，尽管已经推出了多个青年就业计划，但尼日利亚的青年失业率并没有显著下降。 |
-| [^14] | [Incentives for Private Industrial Investment in historical perspective: the case of industrial promotion and investment promotion in Uruguay (1974-2010).](http://arxiv.org/abs/2310.07738) | 在乌拉圭1974-2010年的历史时期，研究发现工业公司对税收优惠敏感，这对于他们的投资决策起到了决定性的影响。此外，增加投资的激励措施对经济活动和出口有积极影响，但对失业率有负面影响。 |
-| [^15] | [A new economic and financial theory of money.](http://arxiv.org/abs/2310.04986) | 这篇论文通过根本性的改革，将电子货币纳入经济与金融理论，提出了一种新的理论框架，包括电子货币的估值基于宏观经济理论和货币政策的基本方程，以及电子货币管理公司作为协调次经济体货币和财政政策的实体。该研究避免使用普遍但不适当的指数风险模型，而是采用多时间尺度的模型。 |
-| [^16] | [A New Weighted Food CPI from Scanner Big Data in China.](http://arxiv.org/abs/2310.04242) | 这项研究介绍了一种新的加权价格指数S-FCPIw，利用中国扫描仪大数据构建，能更频繁和更丰富地反映商品价格的变动，与CPI和食品CPI存在显著关系。扫描仪大数据可以补充中国传统的CPI计算方法，并提供新的宏观经济趋势和通胀预测见解。 |
-| [^17] | [Rational Aversion to Information.](http://arxiv.org/abs/2309.12374) | 有时候，更多信息并不一定更有利，当存在对更新的不确定性时，理性可能要求我们拒绝免费和相关的信息。 |
-| [^18] | [School Choice with Multiple Priorities.](http://arxiv.org/abs/2308.04780) | 本研究提出了一个具有多个优先级的学校选择模型，引入了一种名为M-fairness的公平性概念，并介绍了一种利用效率调整延迟接受算法的机制，该机制是学生最优M稳定的，改进群体最优M稳定的，并且对改进是有响应的。 |
-| [^19] | [On extensions of partial priorities in school choice.](http://arxiv.org/abs/2305.00641) | 研究了教育选择匹配模型中二元关系的拓展，证明了偏序情况下的每个稳定匹配都有扩展稳定匹配，并且存在通过帕累托支配排名的多个稳定匹配时，可以通过拓展使所有匹配稳定。 |
-| [^20] | [Consistent Linear Orders for Supermajority Rules.](http://arxiv.org/abs/2304.09419) | 论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。 |
-| [^21] | [Optimal Pricing Schemes in the Presence of Social Learning and Costly Reporting.](http://arxiv.org/abs/2211.07362) | 本论文研究了在社交学习和昂贵报告存在的情况下的最优定价方案。研究发现，最优方案分为四类，并且在学习过程中存在类型的动态转换。尽管学习效率高，但信息的揭示速度与规划者的最优解太慢。 |
-| [^22] | [Network Synthetic Interventions: A Causal Framework for Panel Data Under Network Interference.](http://arxiv.org/abs/2210.11355) | 本研究提出了一种网络干扰下的面板数据因果框架，其中包括网络干扰的合成控制和合成干预方法。通过引入新颖的潜在因子模型，我们的方法能够在解决溢出和未观测混杂的情况下提供准确的反事实估计。 |
-| [^23] | [Mobility decisions, economic dynamics and epidemic.](http://arxiv.org/abs/2107.01746) | 该研究提出了一个动态宏观经济均衡框架，将SIRD流行病模型嵌入其中，同时考虑了个体的流动性对收入和感染概率的影响。个体流动选择与经济活动和疾病传播之间存在策略互补性。该研究证明了均衡的存在，并提供了均衡搜索的方法。通过对意大利COVID-19流行病的经验进行模型校准，讨论了政策含义。 |
-| [^24] | [Net gains in evolutionary dynamics: A unifying and intuitive approach to dynamic stability.](http://arxiv.org/abs/1805.04898) | 本研究提出了一种统一而直观的方法来证明静态稳定性确保动态稳定性的联系，即代理人的策略切换选择合理化。我们证明了合理化动态中的最大化预期净收益作为Lyapunov函数，并解释了负面结果的原因。 |
+| [^10] | [The spatial evolution of economic activities and the emergence of cities.](http://arxiv.org/abs/2310.07883) | 本文研究了经济活动的空间集聚和城市的产生。通过模型，证明了存在短期均衡和长期均衡，并且得出长期均衡下空间分配的有效性。 |
+| [^11] | [Cheap Talking Algorithms.](http://arxiv.org/abs/2310.07867) | 该论文研究了在战略信息传递游戏中，利用独立强化学习算法进行训练的发送者和接收者可以收敛到接近最优均衡策略，并且在代理之间的利益冲突下实现了最大化的通信。这一结论稳健，并对信息传递游戏中的均衡选择理论、计算机科学中的算法间通信和人工智能代理市场中的经济学产生了影响。 |
+| [^12] | [Marital Sorting, Household Inequality and Selection.](http://arxiv.org/abs/2310.07839) | 本文利用CPS数据研究了婚姻匹配、家庭不平等和选择的关系，发现夫妻工资不平等增加，而正向匹配加剧了个人工资增长所导致的不平等，同时也反映了夫妻工资受不可观察因素的相关性影响。研究结果有助于理解收入不平等的形成以及婚姻对个人经济状况的影响。 |
+| [^13] | [Integration or fragmentation? A closer look at euro area financial markets.](http://arxiv.org/abs/2310.07790) | 本文研究了欧元区金融市场的整合程度，发现债券市场更为异质化。金融危机和主权债务危机期间，整合程度下降严重，但之后完全恢复。分析还发现了在危机事件中反应与众不同或在溢出网络中扮演不同角色的国家。欧元区短期利率与债券市场整合程度呈正相关关系。 |
+| [^14] | [Empirical Review of Youth-Employment Policies in Nigeria.](http://arxiv.org/abs/2310.07789) | 本文通过混合研究方法和主要数据分析了尼日利亚青年就业计划的实施挑战和政治包容的影响。研究发现，尽管已经推出了多个青年就业计划，但尼日利亚的青年失业率并没有显著下降。 |
+| [^15] | [Incentives for Private Industrial Investment in historical perspective: the case of industrial promotion and investment promotion in Uruguay (1974-2010).](http://arxiv.org/abs/2310.07738) | 在乌拉圭1974-2010年的历史时期，研究发现工业公司对税收优惠敏感，这对于他们的投资决策起到了决定性的影响。此外，增加投资的激励措施对经济活动和出口有积极影响，但对失业率有负面影响。 |
+| [^16] | [A new economic and financial theory of money.](http://arxiv.org/abs/2310.04986) | 这篇论文通过根本性的改革，将电子货币纳入经济与金融理论，提出了一种新的理论框架，包括电子货币的估值基于宏观经济理论和货币政策的基本方程，以及电子货币管理公司作为协调次经济体货币和财政政策的实体。该研究避免使用普遍但不适当的指数风险模型，而是采用多时间尺度的模型。 |
+| [^17] | [A New Weighted Food CPI from Scanner Big Data in China.](http://arxiv.org/abs/2310.04242) | 这项研究介绍了一种新的加权价格指数S-FCPIw，利用中国扫描仪大数据构建，能更频繁和更丰富地反映商品价格的变动，与CPI和食品CPI存在显著关系。扫描仪大数据可以补充中国传统的CPI计算方法，并提供新的宏观经济趋势和通胀预测见解。 |
+| [^18] | [Rational Aversion to Information.](http://arxiv.org/abs/2309.12374) | 有时候，更多信息并不一定更有利，当存在对更新的不确定性时，理性可能要求我们拒绝免费和相关的信息。 |
+| [^19] | [School Choice with Multiple Priorities.](http://arxiv.org/abs/2308.04780) | 本研究提出了一个具有多个优先级的学校选择模型，引入了一种名为M-fairness的公平性概念，并介绍了一种利用效率调整延迟接受算法的机制，该机制是学生最优M稳定的，改进群体最优M稳定的，并且对改进是有响应的。 |
+| [^20] | [On extensions of partial priorities in school choice.](http://arxiv.org/abs/2305.00641) | 研究了教育选择匹配模型中二元关系的拓展，证明了偏序情况下的每个稳定匹配都有扩展稳定匹配，并且存在通过帕累托支配排名的多个稳定匹配时，可以通过拓展使所有匹配稳定。 |
+| [^21] | [Consistent Linear Orders for Supermajority Rules.](http://arxiv.org/abs/2304.09419) | 论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。 |
+| [^22] | [Optimal Pricing Schemes in the Presence of Social Learning and Costly Reporting.](http://arxiv.org/abs/2211.07362) | 本论文研究了在社交学习和昂贵报告存在的情况下的最优定价方案。研究发现，最优方案分为四类，并且在学习过程中存在类型的动态转换。尽管学习效率高，但信息的揭示速度与规划者的最优解太慢。 |
+| [^23] | [Network Synthetic Interventions: A Causal Framework for Panel Data Under Network Interference.](http://arxiv.org/abs/2210.11355) | 本研究提出了一种网络干扰下的面板数据因果框架，其中包括网络干扰的合成控制和合成干预方法。通过引入新颖的潜在因子模型，我们的方法能够在解决溢出和未观测混杂的情况下提供准确的反事实估计。 |
+| [^24] | [Mobility decisions, economic dynamics and epidemic.](http://arxiv.org/abs/2107.01746) | 该研究提出了一个动态宏观经济均衡框架，将SIRD流行病模型嵌入其中，同时考虑了个体的流动性对收入和感染概率的影响。个体流动选择与经济活动和疾病传播之间存在策略互补性。该研究证明了均衡的存在，并提供了均衡搜索的方法。通过对意大利COVID-19流行病的经验进行模型校准，讨论了政策含义。 |
+| [^25] | [Net gains in evolutionary dynamics: A unifying and intuitive approach to dynamic stability.](http://arxiv.org/abs/1805.04898) | 本研究提出了一种统一而直观的方法来证明静态稳定性确保动态稳定性的联系，即代理人的策略切换选择合理化。我们证明了合理化动态中的最大化预期净收益作为Lyapunov函数，并解释了负面结果的原因。 |
 
 # 详细
 
@@ -155,7 +156,21 @@
 
     Nonlinearity and endogeneity are common in causal effect studies with observational data. In this paper, we propose new estimation and inference procedures for nonparametric treatment effect functions with endogeneity and potentially high-dimensional covariates. The main innovation of this paper is the double bias correction procedure for the nonparametric instrumental variable (NPIV) model under high dimensions. We provide a useful uniform confidence band of the marginal effect function, defined as the derivative of the nonparametric treatment function. The asymptotic honesty of the confidence band is verified in theory. Simulations and an empirical study of air pollution and migration demonstrate the validity of our procedures.
     
-[^10]: 廉价对话算法
+[^10]: 经济活动的空间演化与城市的出现
+
+    The spatial evolution of economic activities and the emergence of cities. (arXiv:2310.07883v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.07883](http://arxiv.org/abs/2310.07883)
+
+    本文研究了经济活动的空间集聚和城市的产生。通过模型，证明了存在短期均衡和长期均衡，并且得出长期均衡下空间分配的有效性。
+
+    
+
+    本文研究了在连续的空间和时间框架内，工人和收入的空间集聚现象。生产和消费是在局部市场中决定的，其特点是存在空间溢出效应和便利设施。工人通过最大化即时效用来选择移动的位置，但受到移动成本的限制。我们证明了短期Cournot-Nash均衡的存在，并且在工人数量无限增加的极限下，短期均衡的序列可以用偏微分方程来表示。我们刻画了长期均衡显示空间集聚的条件。社会福利随时间递增，在长期均衡中，代表性工人的预期效用在空间上是相等的，因此空间分配是有效的。该模型可以重现多种特征效应，如具有不同大小和形状的空间集聚（城市）的出现，以及其与
+
+    This paper studies the spatial agglomeration of workers and income in a continuous space and time framework. Production and consumption are decided in local markets, characterized by the presence of spatial spillovers and amenities. Workers move across locations maximizing their instantaneous utility, subject to mobility costs. We prove the existence of a short-run Cournot-Nash equilibrium, and that, in the limit of an infinite number of workers, the sequence of short-run equilibria can be expressed by a partial differential equation. We characterize the conditions under which the long-run equilibrium displays spatial agglomerations. Social welfare is non-decreasing over time, and in the long-run equilibrium the expected utility of a representative worker is equalized over space and, therefore, the spatial allocation is efficient. The model can reproduce several stylized effects, such as the emergence of spatial agglomerations (cities) with different sizes and shapes; the dependence by
+    
+[^11]: 廉价对话算法
 
     Cheap Talking Algorithms. (arXiv:2310.07867v1 [econ.TH])
 
@@ -169,7 +184,7 @@
 
     We simulate behaviour of independent reinforcement learning algorithms playing the Crawford and Sobel (1982) game of strategic information transmission. We show that a sender and a receiver training together converge to strategies close to the exante optimal equilibrium of the game. Hence, communication takes place to the largest extent predicted by Nash equilibrium given the degree of conflict of interest between agents. The conclusion is shown to be robust to alternative specifications of the hyperparameters and of the game. We discuss implications for theories of equilibrium selection in information transmission games, for work on emerging communication among algorithms in computer science and for the economics of collusions in markets populated by artificially intelligent agents.
     
-[^11]: 婚姻匹配、家庭不平等和选择
+[^12]: 婚姻匹配、家庭不平等和选择
 
     Marital Sorting, Household Inequality and Selection. (arXiv:2310.07839v1 [econ.EM])
 
@@ -183,7 +198,7 @@
 
     Using CPS data for 1976 to 2022 we explore how wage inequality has evolved for married couples with both spouses working full time full year, and its impact on household income inequality. We also investigate how marriage sorting patterns have changed over this period. To determine the factors driving income inequality we estimate a model explaining the joint distribution of wages which accounts for the spouses' employment decisions. We find that income inequality has increased for these households and increased assortative matching of wages has exacerbated the inequality resulting from individual wage growth. We find that positive sorting partially reflects the correlation across unobservables influencing both members' of the marriage wages. We decompose the changes in sorting patterns over the 47 years comprising our sample into structural, composition and selection effects and find that the increase in positive sorting primarily reflects the increased skill premia for both observed 
     
-[^12]: 整合还是分化？对欧元区金融市场的深入研究
+[^13]: 整合还是分化？对欧元区金融市场的深入研究
 
     Integration or fragmentation? A closer look at euro area financial markets. (arXiv:2310.07790v1 [econ.EM])
 
@@ -197,7 +212,7 @@
 
     This paper examines the degree of integration at euro area financial markets. To that end, we estimate overall and country-specific integration indices based on a panel vector-autoregression with factor stochastic volatility. Our results indicate a more heterogeneous bond market compared to the market for lending rates. At both markets, the global financial crisis and the sovereign debt crisis led to a severe decline in financial integration, which fully recovered since then. We furthermore identify countries that deviate from their peers either by responding differently to crisis events or by taking on different roles in the spillover network. The latter analysis reveals two set of countries, namely a main body of countries that receives and transmits spillovers and a second, smaller group of spillover absorbing economies. Finally, we demonstrate by estimating an augmented Taylor rule that euro area short-term interest rates are positively linked to the level of integration on the bon
     
-[^13]: 尼日利亚青年就业政策的实证评估
+[^14]: 尼日利亚青年就业政策的实证评估
 
     Empirical Review of Youth-Employment Policies in Nigeria. (arXiv:2310.07789v1 [econ.GN])
 
@@ -211,7 +226,7 @@
 
     Youth unemployment is a major socioeconomic problem in Nigeria, and several youth-employment programs have been initiated and implemented to address the challenge. While detailed analyses of the impacts of some of these programs have been conducted, empirical analysis of implementation challenges and of the influence of limited political inclusivity on distribution of program benefits is rare. Using mixed research methods and primary data collected through focus-group discussion and key-informant interviews, this paper turns to that analysis. We found that, although there are several youth-employment programs in Nigeria, they have not yielded a marked reduction in youth-unemployment rates. The programs are challenged by factors such as lack of framework for proper governance and coordination, inadequate funding, lack of institutional implementation capacity, inadequate oversight of implementation, limited political inclusivity, lack of prioritization of vulnerable and marginalized grou
     
-[^14]: 历史视角下对私人工业投资的激励措施：乌拉圭工业推动和投资促进的案例研究（1974-2010）
+[^15]: 历史视角下对私人工业投资的激励措施：乌拉圭工业推动和投资促进的案例研究（1974-2010）
 
     Incentives for Private Industrial Investment in historical perspective: the case of industrial promotion and investment promotion in Uruguay (1974-2010). (arXiv:2310.07738v1 [econ.GN])
 
@@ -225,7 +240,7 @@
 
     Using as a central instrument a new database, resulting from a compilation of historical administrative records, which covers the period 1974-2010, we can have new evidence on how industrial companies used tax benefits, and claim that these are decisive for the investment decision of the Uruguayan industrial companies during that period. The aforementioned findings served as a raw material to also affirm that the incentives to increase investment are factors that positively influence the level of economic activity and exports, and negatively on the unemployment rate.
     
-[^15]: 一种关于货币的新的经济与金融理论
+[^16]: 一种关于货币的新的经济与金融理论
 
     A new economic and financial theory of money. (arXiv:2310.04986v1 [econ.TH])
 
@@ -239,7 +254,7 @@
 
     This paper fundamentally reformulates economic and financial theory to include electronic currencies. The valuation of the electronic currencies will be based on macroeconomic theory and the fundamental equation of monetary policy, not the microeconomic theory of discounted cash flows. The view of electronic currency as a transactional equity associated with tangible assets of a sub-economy will be developed, in contrast to the view of stock as an equity associated mostly with intangible assets of a sub-economy. The view will be developed of the electronic currency management firm as an entity responsible for coordinated monetary (electronic currency supply and value stabilization) and fiscal (investment and operational) policies of a substantial (for liquidity of the electronic currency) sub-economy. The risk model used in the valuations and the decision-making will not be the ubiquitous, yet inappropriate, exponential risk model that leads to discount rates, but will be multi time sc
     
-[^16]: 中国基于扫描仪大数据构建的新加权食品CPI
+[^17]: 中国基于扫描仪大数据构建的新加权食品CPI
 
     A New Weighted Food CPI from Scanner Big Data in China. (arXiv:2310.04242v1 [econ.GN])
 
@@ -253,7 +268,7 @@
 
     Scanner big data has potential to construct Consumer Price Index (CPI). The study introduces a new weighted price index called S-FCPIw, which is constructed using scanner big data from retail sales in China. We address the limitations of China's CPI especially for its high cost and untimely release, and demonstrate the reliability of S-FCPIw by comparing it with existing price indices. S-FCPIw can not only reflect the changes of goods prices in higher frequency and richer dimension, and the analysis results show that S-FCPIw has a significant and strong relationship with CPI and Food CPI. The findings suggest that scanner big data can supplement traditional CPI calculations in China and provide new insights into macroeconomic trends and inflation prediction. We have made S-FCPIw publicly available and update it on a weekly basis to facilitate further study in this field.
     
-[^17]: 对信息的理性厌恶
+[^18]: 对信息的理性厌恶
 
     Rational Aversion to Information. (arXiv:2309.12374v1 [stat.OT])
 
@@ -267,7 +282,7 @@
 
     Is more information always better? Or are there some situations in which more information can make us worse off? Good (1966) argues that expected utility maximizers should always accept more information if the information is cost-free and relevant. But Good's argument presupposes that you are certain you will update by conditionalization. If we relax this assumption and allow agents to be uncertain about updating, these agents can be rationally required to reject free and relevant information. Since there are good reasons to be uncertain about updating, rationality can require you to prefer ignorance.
     
-[^18]: 具有多个优先级的学校选择模型
+[^19]: 具有多个优先级的学校选择模型
 
     School Choice with Multiple Priorities. (arXiv:2308.04780v1 [econ.TH])
 
@@ -281,7 +296,7 @@
 
     This study considers a model where schools may have multiple priority orders on students, which may be inconsistent with each other. For example, in school choice systems, since the sibling priority and the walk zone priority coexist, the priority orders based on them would be conflicting. In that case, there may be no matching that respect to all priority orders. We introduce a novel fairness notion called M-fairness to examine such markets. Further, we focus on a more specific situation where all schools have two priority orders, and for a certain group of students, a priority order of each school is an improvement of the other priority order of the school. An illustrative example is the school choice matching market with a priority-based affirmative action policy. We introduce a mechanism that utilizes the efficiency adjusted deferred acceptance algorithm and show that the mechanism is student optimally M-stable, improved-group optimally M-stable and responsive to improvements.
     
-[^19]: 论教育选择的优先级拓展
+[^20]: 论教育选择的优先级拓展
 
     On extensions of partial priorities in school choice. (arXiv:2305.00641v1 [econ.TH])
 
@@ -295,7 +310,7 @@
 
     We consider a school choice matching model where the priorities for schools are represented by binary relations that may not be weak order. We focus on the (total order) extensions of the binary relations. We introduce a class of algorithms to derive one of the extensions of a binary relation and characterize them by using the class. We show that if the binary relations are the partial orders, then for each stable matching for the profile of the binary relations, there is an extension for which it is also stable. Moreover, if there are multiple stable matchings for the profile of the binary relations that are ranked by Pareto dominance, there is an extension for which all of those matchings are stable. We provide several applications of these results.
     
-[^20]: 超过半数规则的一致性线性排序
+[^21]: 超过半数规则的一致性线性排序
 
     Consistent Linear Orders for Supermajority Rules. (arXiv:2304.09419v1 [econ.TH])
 
@@ -309,7 +324,7 @@
 
     We consider linear orders of finite alternatives that are constructed by aggregating the preferences of individuals. We focus on a linear order that is consistent with the collective preference relation, which is constructed by one of the supermajority rules and modified using two procedures if there exist some cycles. One modification procedure uses the transitive closure, and the other uses the Suzumura consistent closure. We derive two sets of linear orders that are consistent with the (modified) collective preference relations formed by any of the supermajority rules. These sets of linear orders are closely related to those obtained through Tideman's ranked pairs method and the Schulze method. Finally, we consider two social choice correspondences whose output is one of the sets introduced above, and show that the correspondences satisfy the four properties: the extended Condorcet principle, the Pareto principle, the independence of clones, and the reversal symmetry.
     
-[^21]: 在社交学习和昂贵报告存在的情况下的最优定价方案
+[^22]: 在社交学习和昂贵报告存在的情况下的最优定价方案
 
     Optimal Pricing Schemes in the Presence of Social Learning and Costly Reporting. (arXiv:2211.07362v3 [econ.TH] UPDATED)
 
@@ -323,7 +338,7 @@
 
     A monopoly platform sells either a risky product (with unknown utility) or a safe product (with known utility) to agents who sequentially arrive and learn the utility of the risky product by the reporting of previous agents. It is costly for agents to report utility; hence the platform has to design both the prices and the reporting bonus to motivate the agents to explore and generate new information. We characterize the optimal bonus and pricing schemes offered by the profit-maximizing platform. It turns out that the optimal scheme falls into one of four types: Full Coverage, Partial Coverage, Immediate Revelation, and Non-Bonus. In a model of exponential bandit, we find that there is a dynamical switch of the types along the learning trajectory. Although learning stops efficiently, information is revealed too slowly compared with the planner's optimal solution.
     
-[^22]: 网络合成干预：在网络干扰下进行面板数据的因果框架
+[^23]: 网络合成干预：在网络干扰下进行面板数据的因果框架
 
     Network Synthetic Interventions: A Causal Framework for Panel Data Under Network Interference. (arXiv:2210.11355v2 [econ.EM] UPDATED)
 
@@ -337,7 +352,7 @@
 
     We propose a generalization of the synthetic controls and synthetic interventions methodology to incorporate network interference. We consider the estimation of unit-specific potential outcomes from panel data in the presence of spillover across units and unobserved confounding. Key to our approach is a novel latent factor model that takes into account network interference and generalizes the factor models typically used in panel data settings. We propose an estimator, Network Synthetic Interventions (NSI), and show that it consistently estimates the mean outcomes for a unit under an arbitrary set of counterfactual treatments for the network. We further establish that the estimator is asymptotically normal. We furnish two validity tests for whether the NSI estimator reliably generalizes to produce accurate counterfactual estimates. We provide a novel graph-based experiment design that guarantees the NSI estimator produces accurate counterfactual estimates, and also analyze the sample c
     
-[^23]: 移动决策、经济动态和流行病
+[^24]: 移动决策、经济动态和流行病
 
     Mobility decisions, economic dynamics and epidemic. (arXiv:2107.01746v2 [econ.GN] UPDATED)
 
@@ -351,7 +366,7 @@
 
     We propose a model, which nests a susceptible-infected-recovered-deceased (SIRD) epidemic model into a dynamic macroeconomic equilibrium framework with agents' mobility. The latter affect both their income and their probability of infecting and being infected. Strategic complementarities among individual mobility choices drive the evolution of aggregate economic activity, while infection externalities caused by individual mobility affect disease diffusion. The continuum of rational forward-looking agents coordinates on the Nash equilibrium of a discrete time, finite-state, infinite-horizon Mean Field Game. We prove the existence of an equilibrium and provide a recursive construction method for the search of an equilibrium(a), which also guides our numerical investigations. We calibrate the model by using Italian experience on COVID-19 epidemic and we discuss policy implications.
     
-[^24]: 进化动力学中的净收益：一种统一而直观的动态稳定性方法
+[^25]: 进化动力学中的净收益：一种统一而直观的动态稳定性方法
 
     Net gains in evolutionary dynamics: A unifying and intuitive approach to dynamic stability. (arXiv:1805.04898v9 [math.OC] UPDATED)
 
