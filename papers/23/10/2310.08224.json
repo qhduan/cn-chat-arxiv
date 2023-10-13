@@ -1,0 +1,12 @@
+{
+    "title": "Emergence of Latent Binary Encoding in Deep Neural Network Classifiers. (arXiv:2310.08224v1 [cs.LG])",
+    "abstract": "We observe the emergence of binary encoding within the latent space of deep-neural-network classifiers. Such binary encoding is induced by introducing a linear penultimate layer, which is equipped during training with a loss function that grows as $\\exp(\\vec{x}^2)$, where $\\vec{x}$ are the coordinates in the latent space. The phenomenon we describe represents a specific instance of a well-documented occurrence known as \\textit{neural collapse}, which arises in the terminal phase of training and entails the collapse of latent class means to the vertices of a simplex equiangular tight frame (ETF). We show that binary encoding accelerates convergence toward the simplex ETF and enhances classification accuracy.",
+    "link": "http://arxiv.org/abs/2310.08224",
+    "context": "Title: Emergence of Latent Binary Encoding in Deep Neural Network Classifiers. (arXiv:2310.08224v1 [cs.LG])\nAbstract: We observe the emergence of binary encoding within the latent space of deep-neural-network classifiers. Such binary encoding is induced by introducing a linear penultimate layer, which is equipped during training with a loss function that grows as $\\exp(\\vec{x}^2)$, where $\\vec{x}$ are the coordinates in the latent space. The phenomenon we describe represents a specific instance of a well-documented occurrence known as \\textit{neural collapse}, which arises in the terminal phase of training and entails the collapse of latent class means to the vertices of a simplex equiangular tight frame (ETF). We show that binary encoding accelerates convergence toward the simplex ETF and enhances classification accuracy.",
+    "path": "papers/23/10/2310.08224.json",
+    "total_tokens": 779,
+    "translated_title": "深度神经网络分类器中潜在二进制编码的出现",
+    "translated_abstract": "我们观察到深度神经网络分类器的潜在空间中出现了二进制编码。通过引入一个线性倒数第二层，并在训练过程中配备一个损失函数，该函数随着潜在空间中坐标$\\vec{x}$的平方指数增长，诱导出了二进制编码。我们描述的现象是已知的一种被称为\"神经崩溃\"的特殊情况，它在训练的最后阶段出现，并导致潜在类均值崩溃为简单等角紧框架（ETF）的顶点。我们展示了二进制编码加速了收敛到简单等角紧框架的过程，并提高了分类准确率。",
+    "tldr": "这篇论文观察到在深度神经网络分类器的潜在空间中出现了二进制编码，这种编码通过引入线性倒数第二层和指数增长的损失函数产生，并且加速了收敛和提高了分类准确率。",
+    "en_tdlr": "This paper observes the emergence of binary encoding in the latent space of deep neural network classifiers, which is induced by introducing a linear penultimate layer and an exponential loss function. This binary encoding accelerates convergence and enhances classification accuracy."
+}

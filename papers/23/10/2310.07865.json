@@ -1,0 +1,11 @@
+{
+    "title": "The Specter (and Spectra) of Miner Extractable Value. (arXiv:2310.07865v1 [math.OC])",
+    "abstract": "Miner extractable value (MEV) refers to any excess value that a transaction validator can realize by manipulating the ordering of transactions. In this work, we introduce a simple theoretical definition of the 'cost of MEV', prove some basic properties, and show that the definition is useful via a number of examples. In a variety of settings, this definition is related to the 'smoothness' of a function over the symmetric group. From this definition and some basic observations, we recover a number of results from the literature.",
+    "link": "http://arxiv.org/abs/2310.07865",
+    "context": "Title: The Specter (and Spectra) of Miner Extractable Value. (arXiv:2310.07865v1 [math.OC])\nAbstract: Miner extractable value (MEV) refers to any excess value that a transaction validator can realize by manipulating the ordering of transactions. In this work, we introduce a simple theoretical definition of the 'cost of MEV', prove some basic properties, and show that the definition is useful via a number of examples. In a variety of settings, this definition is related to the 'smoothness' of a function over the symmetric group. From this definition and some basic observations, we recover a number of results from the literature.",
+    "path": "papers/23/10/2310.07865.json",
+    "total_tokens": 643,
+    "translated_title": "矿工可提取价值的威胁（和谱）。",
+    "translated_abstract": "矿工可提取价值（MEV）是指交易验证器通过操纵交易顺序可以实现的任何超额价值。在本研究中，我们引入了一个简单的MEV成本的理论定义，证明了一些基本性质，并通过多个示例展示了该定义的实用性。在多种情况下，该定义与函数在对称群上的“平滑性”相关。通过这个定义和一些基本观察，我们回溯了文献中的一些结果。",
+    "tldr": "本研究提出了矿工可提取价值的MEV成本的理论定义，在多个示例中证明了该定义的实用性，并与对称群的函数“平滑性”相关联。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Simplicity Level Estimate (SLE): A Learned Reference-Less Metric for Sentence Simplification. (arXiv:2310.08170v1 [cs.CL])",
+    "abstract": "Automatic evaluation for sentence simplification remains a challenging problem. Most popular evaluation metrics require multiple high-quality references -- something not readily available for simplification -- which makes it difficult to test performance on unseen domains. Furthermore, most existing metrics conflate simplicity with correlated attributes such as fluency or meaning preservation. We propose a new learned evaluation metric (SLE) which focuses on simplicity, outperforming almost all existing metrics in terms of correlation with human judgements.",
+    "link": "http://arxiv.org/abs/2310.08170",
+    "context": "Title: Simplicity Level Estimate (SLE): A Learned Reference-Less Metric for Sentence Simplification. (arXiv:2310.08170v1 [cs.CL])\nAbstract: Automatic evaluation for sentence simplification remains a challenging problem. Most popular evaluation metrics require multiple high-quality references -- something not readily available for simplification -- which makes it difficult to test performance on unseen domains. Furthermore, most existing metrics conflate simplicity with correlated attributes such as fluency or meaning preservation. We propose a new learned evaluation metric (SLE) which focuses on simplicity, outperforming almost all existing metrics in terms of correlation with human judgements.",
+    "path": "papers/23/10/2310.08170.json",
+    "total_tokens": 670,
+    "translated_title": "简明程度估计（SLE）：一种基于学习的无参考度量方法用于句子简化",
+    "translated_abstract": "句子简化的自动评估仍然是一个具有挑战性的问题。大多数流行的评估方法需要多个高质量的参考文献，而这在简化过程中是不容易得到的，这使得在未知领域中测试性能变得困难。此外，大多数现有的评估方法将简单性与流畅性或意义保持等相关属性混淆。我们提出了一种新的学习评估指标（SLE），专注于简洁性，在与人类判断的相关性方面优于几乎所有现有的指标。",
+    "tldr": "这个论文提出了一种基于学习的评估指标（SLE）用于句子简化，相比现有的指标，它更专注于简洁性，并在与人类判断的相关性方面表现出色。",
+    "en_tdlr": "This paper proposes a learned evaluation metric (SLE) for sentence simplification, which focuses on simplicity and outperforms existing metrics in terms of correlation with human judgments."
+}

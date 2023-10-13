@@ -1,0 +1,12 @@
+{
+    "title": "The Impact of Time Step Frequency on the Realism of Robotic Manipulation Simulation for Objects of Different Scales. (arXiv:2310.08233v1 [cs.RO])",
+    "abstract": "This work evaluates the impact of time step frequency and component scale on robotic manipulation simulation accuracy. Increasing the time step frequency for small-scale objects is shown to improve simulation accuracy. This simulation, demonstrating pre-assembly part picking for two object geometries, serves as a starting point for discussing how to improve Sim2Real transfer in robotic assembly processes.",
+    "link": "http://arxiv.org/abs/2310.08233",
+    "context": "Title: The Impact of Time Step Frequency on the Realism of Robotic Manipulation Simulation for Objects of Different Scales. (arXiv:2310.08233v1 [cs.RO])\nAbstract: This work evaluates the impact of time step frequency and component scale on robotic manipulation simulation accuracy. Increasing the time step frequency for small-scale objects is shown to improve simulation accuracy. This simulation, demonstrating pre-assembly part picking for two object geometries, serves as a starting point for discussing how to improve Sim2Real transfer in robotic assembly processes.",
+    "path": "papers/23/10/2310.08233.json",
+    "total_tokens": 581,
+    "translated_title": "时间步频对不同尺度物体机器人操作仿真逼真度的影响",
+    "translated_abstract": "本研究评估了时间步频和组件尺度对机器人操作仿真准确性的影响。结果表明，增加小尺度物体的时间步频可以提高仿真准确性。此仿真展示了两种物体几何形状的预装配部件拾取，为讨论如何改进机器人装配过程中的仿真到真实环境转换提供了起点。",
+    "tldr": "增加小尺度物体的时间步频可以提高机器人操作仿真准确性，为改进机器人装配过程中的仿真到真实环境转换提供了起点。",
+    "en_tdlr": "Increasing the time step frequency for small-scale objects improves the accuracy of robotic manipulation simulation, providing a starting point for improving Sim2Real transfer in robotic assembly processes."
+}

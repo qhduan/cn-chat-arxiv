@@ -1,0 +1,12 @@
+{
+    "title": "Maximal Martingale Wasserstein Inequality. (arXiv:2310.08492v1 [math.PR])",
+    "abstract": "In this note, we complete the analysis of the Martingale Wasserstein Inequality started in arXiv:2011.11599 by checking that this inequality fails in dimension $d\\ge 2$ when the integrability parameter $\\rho$ belongs to $[1,2)$ while a stronger Maximal Martingale Wasserstein Inequality holds whatever the dimension $d$ when $\\rho\\ge 2$.",
+    "link": "http://arxiv.org/abs/2310.08492",
+    "context": "Title: Maximal Martingale Wasserstein Inequality. (arXiv:2310.08492v1 [math.PR])\nAbstract: In this note, we complete the analysis of the Martingale Wasserstein Inequality started in arXiv:2011.11599 by checking that this inequality fails in dimension $d\\ge 2$ when the integrability parameter $\\rho$ belongs to $[1,2)$ while a stronger Maximal Martingale Wasserstein Inequality holds whatever the dimension $d$ when $\\rho\\ge 2$.",
+    "path": "papers/23/10/2310.08492.json",
+    "total_tokens": 666,
+    "translated_title": "最大鞍点对数概率分配不等式",
+    "translated_abstract": "在这篇论文中，我们完成了对于在arXiv:2011.11599中开始的鞍点对数概率分配不等式的分析，验证了当积分参数$\\rho$属于$[1,2)$且维度$d\\ge2$时，该不等式在维度$d\\ge2$下是不成立的，而当$\\rho\\ge2$时，存在一个更强的最大鞍点对数概率分配不等式。",
+    "tldr": "该论文针对鞍点对数概率分配不等式进行了进一步分析，发现在维度$d\\ge2$且积分参数$\\rho$属于$[1,2)$时不成立，而在维度$d\\ge2$时且$\\rho\\ge2$时存在更强的最大鞍点对数概率分配不等式。",
+    "en_tdlr": "This paper provides further analysis on the Martingale Wasserstein Inequality and shows that it fails in dimension $d\\ge 2$ when the integrability parameter $\\rho$ belongs to $[1,2)$, while a stronger Maximal Martingale Wasserstein Inequality exists in dimension $d\\ge2$ for $\\rho\\ge2$."
+}

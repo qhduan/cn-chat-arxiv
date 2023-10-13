@@ -1,0 +1,12 @@
+{
+    "title": "Improving Fast Minimum-Norm Attacks with Hyperparameter Optimization. (arXiv:2310.08177v1 [cs.LG])",
+    "abstract": "Evaluating the adversarial robustness of machine learning models using gradient-based attacks is challenging. In this work, we show that hyperparameter optimization can improve fast minimum-norm attacks by automating the selection of the loss function, the optimizer and the step-size scheduler, along with the corresponding hyperparameters. Our extensive evaluation involving several robust models demonstrates the improved efficacy of fast minimum-norm attacks when hyper-up with hyperparameter optimization. We release our open-source code at https://github.com/pralab/HO-FMN.",
+    "link": "http://arxiv.org/abs/2310.08177",
+    "context": "Title: Improving Fast Minimum-Norm Attacks with Hyperparameter Optimization. (arXiv:2310.08177v1 [cs.LG])\nAbstract: Evaluating the adversarial robustness of machine learning models using gradient-based attacks is challenging. In this work, we show that hyperparameter optimization can improve fast minimum-norm attacks by automating the selection of the loss function, the optimizer and the step-size scheduler, along with the corresponding hyperparameters. Our extensive evaluation involving several robust models demonstrates the improved efficacy of fast minimum-norm attacks when hyper-up with hyperparameter optimization. We release our open-source code at https://github.com/pralab/HO-FMN.",
+    "path": "papers/23/10/2310.08177.json",
+    "total_tokens": 690,
+    "translated_title": "用超参数优化提升快速最小范数攻击",
+    "translated_abstract": "使用梯度攻击评估机器学习模型的对抗鲁棒性具有挑战性。本研究表明，通过自动选择损失函数、优化器和步长调度器以及相应的超参数，超参数优化可以提高快速最小范数攻击的效果。我们进行了详尽的评估，涉及多个鲁棒模型，证明了在超参数优化的情况下，快速最小范数攻击的有效性得到了改进。我们在https://github.com/pralab/HO-FMN上发布了我们的开源代码。",
+    "tldr": "本研究使用超参数优化方法，改善了快速最小范数攻击的效果，通过自动选择损失函数、优化器和步长调度器，以及相应的超参数，该方法在多个鲁棒模型下得到了验证。",
+    "en_tdlr": "This study improves the efficacy of fast minimum-norm attacks by using hyperparameter optimization, which automates the selection of the loss function, optimizer, and step-size scheduler along with the corresponding hyperparameters. Extensive evaluation on multiple robust models validates the effectiveness of this method."
+}

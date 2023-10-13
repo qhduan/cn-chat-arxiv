@@ -1,0 +1,11 @@
+{
+    "title": "Crosslingual Structural Priming and the Pre-Training Dynamics of Bilingual Language Models. (arXiv:2310.07929v1 [cs.CL])",
+    "abstract": "Do multilingual language models share abstract grammatical representations across languages, and if so, when do these develop? Following Sinclair et al. (2022), we use structural priming to test for abstract grammatical representations with causal effects on model outputs. We extend the approach to a Dutch-English bilingual setting, and we evaluate a Dutch-English language model during pre-training. We find that crosslingual structural priming effects emerge early after exposure to the second language, with less than 1M tokens of data in that language. We discuss implications for data contamination, low-resource transfer, and how abstract grammatical representations emerge in multilingual models.",
+    "link": "http://arxiv.org/abs/2310.07929",
+    "context": "Title: Crosslingual Structural Priming and the Pre-Training Dynamics of Bilingual Language Models. (arXiv:2310.07929v1 [cs.CL])\nAbstract: Do multilingual language models share abstract grammatical representations across languages, and if so, when do these develop? Following Sinclair et al. (2022), we use structural priming to test for abstract grammatical representations with causal effects on model outputs. We extend the approach to a Dutch-English bilingual setting, and we evaluate a Dutch-English language model during pre-training. We find that crosslingual structural priming effects emerge early after exposure to the second language, with less than 1M tokens of data in that language. We discuss implications for data contamination, low-resource transfer, and how abstract grammatical representations emerge in multilingual models.",
+    "path": "papers/23/10/2310.07929.json",
+    "total_tokens": 790,
+    "translated_title": "跨语言结构启示与双语语言模型的预训练动态",
+    "translated_abstract": "多语言语言模型是否在各种语言之间共享抽象的语法表示，并且如果共享的话，这种共享是何时发展的？我们使用结构启示来测试在模型输出上具有因果效应的抽象语法表示。我们将这种方法扩展到荷兰-英语双语环境，并在预训练期间评估荷兰-英语语言模型。我们发现在接触第二种语言后的早期阶段，跨语言结构启示效应出现，而仅需不到100万个该语言的标记数据。我们讨论了对数据污染、低资源转移以及多语言模型中抽象语法表示的产生的影响。",
+    "tldr": "这项研究通过结构启示测试了多语言语言模型是否共享抽象的语法表示，并发现在接触第二种语言后的早期阶段即形成跨语言结构启示效应。这对数据污染、低资源转移以及多语言模型中抽象语法表示的产生具有重要意义。"
+}

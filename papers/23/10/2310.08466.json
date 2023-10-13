@@ -1,0 +1,12 @@
+{
+    "title": "Belief formation and the persistence of biased beliefs. (arXiv:2310.08466v1 [econ.GN])",
+    "abstract": "We propose a belief-formation model where agents attempt to discriminate between two theories, and where the asymmetry in strength between confirming and disconfirming evidence tilts beliefs in favor of theories that generate strong (and possibly rare) confirming evidence and weak (and frequent) disconfirming evidence. In our model, limitations on information processing provide incentives to censor weak evidence, with the consequence that for some discrimination problems, evidence may become mostly one-sided, independently of the true underlying theory. Sophisticated agents who know the characteristics of the censored data-generating process are not lured by this accumulation of ``evidence'', but less sophisticated ones end up with biased beliefs.",
+    "link": "http://arxiv.org/abs/2310.08466",
+    "context": "Title: Belief formation and the persistence of biased beliefs. (arXiv:2310.08466v1 [econ.GN])\nAbstract: We propose a belief-formation model where agents attempt to discriminate between two theories, and where the asymmetry in strength between confirming and disconfirming evidence tilts beliefs in favor of theories that generate strong (and possibly rare) confirming evidence and weak (and frequent) disconfirming evidence. In our model, limitations on information processing provide incentives to censor weak evidence, with the consequence that for some discrimination problems, evidence may become mostly one-sided, independently of the true underlying theory. Sophisticated agents who know the characteristics of the censored data-generating process are not lured by this accumulation of ``evidence'', but less sophisticated ones end up with biased beliefs.",
+    "path": "papers/23/10/2310.08466.json",
+    "total_tokens": 692,
+    "translated_title": "信念形成与偏见信念的持久性",
+    "translated_abstract": "我们提出了一个信念形成模型，其中代理人试图区分两个理论，并且支持理论产生强大（可能稀有）的证据和频繁的证伪证据。在我们的模型中，信息处理的限制导致对弱证据的审查，结果导致对某些区分问题来说，证据可能会变得大多呈单方向，而与真实的潜在理论无关。了解被审查数据生成过程特征的复杂代理人不会被这种“证据”积累所迷惑，但是不太复杂的代理人最终会形成偏见信念。",
+    "tldr": "提出了一个信念形成模型，其中代理人试图区分两个理论，限制信息处理导致了对弱证据的审查，结果导致了偏见信念的形成。",
+    "en_tdlr": "A belief-formation model is proposed in which agents attempt to discriminate between two theories, and limitations on information processing lead to biased beliefs by censoring weak evidence."
+}

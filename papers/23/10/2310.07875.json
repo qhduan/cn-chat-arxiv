@@ -1,0 +1,12 @@
+{
+    "title": "TabLib: A Dataset of 627M Tables with Context. (arXiv:2310.07875v1 [cs.CL])",
+    "abstract": "It is well-established that large, diverse datasets play a pivotal role in the performance of modern AI systems for text and image modalities. However, there are no datasets for tabular data of comparable size and diversity to those available for text and images. Thus we present \"TabLib'', a compilation of 627 million tables totaling 69 TiB, along with 867B tokens of context. TabLib was extracted from numerous file formats, including CSV, HTML, SQLite, PDF, Excel, and others, sourced from GitHub and Common Crawl. The size and diversity of TabLib offer considerable promise in the table modality, reminiscent of the original promise of foundational datasets for text and images, such as The Pile and LAION.",
+    "link": "http://arxiv.org/abs/2310.07875",
+    "context": "Title: TabLib: A Dataset of 627M Tables with Context. (arXiv:2310.07875v1 [cs.CL])\nAbstract: It is well-established that large, diverse datasets play a pivotal role in the performance of modern AI systems for text and image modalities. However, there are no datasets for tabular data of comparable size and diversity to those available for text and images. Thus we present \"TabLib'', a compilation of 627 million tables totaling 69 TiB, along with 867B tokens of context. TabLib was extracted from numerous file formats, including CSV, HTML, SQLite, PDF, Excel, and others, sourced from GitHub and Common Crawl. The size and diversity of TabLib offer considerable promise in the table modality, reminiscent of the original promise of foundational datasets for text and images, such as The Pile and LAION.",
+    "path": "papers/23/10/2310.07875.json",
+    "total_tokens": 715,
+    "translated_title": "TabLib：一个包含上亿表格和上百亿上下文的数据集",
+    "translated_abstract": "巨大多样的数据集在提升现代AI系统在文本和图像模态下的性能方面起着关键作用。然而，对于表格数据，目前还没有与文本和图像可比拟的规模和多样性的数据集。因此，我们提出了\"TabLib\"，这是一个由6.27亿个表格和86.7亿个上下文令牌总共达到69 TiB的编译数据集。TabLib的数据来自多个文件格式，包括CSV、HTML、SQLite、PDF、Excel等，这些数据源自GitHub和Common Crawl。TabLib的规模和多样性在表格模态下具有巨大的潜力，如同原始的用于文本和图像的基础数据集，例如The Pile和LAION。",
+    "tldr": "TabLib是一个包含上亿表格和上百亿上下文的数据集，规模和多样性使其在表格模态下具有巨大的潜力。",
+    "en_tdlr": "TabLib is a dataset containing billions of tables and context, the size and diversity of which offer considerable promise in the table modality."
+}

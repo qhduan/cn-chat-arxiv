@@ -1,0 +1,12 @@
+{
+    "title": "Lag-Llama: Towards Foundation Models for Time Series Forecasting. (arXiv:2310.08278v1 [cs.LG])",
+    "abstract": "Aiming to build foundation models for time-series forecasting and study their scaling behavior, we present here our work-in-progress on Lag-Llama, a general-purpose univariate probabilistic time-series forecasting model trained on a large collection of time-series data. The model shows good zero-shot prediction capabilities on unseen \"out-of-distribution\" time-series datasets, outperforming supervised baselines. We use smoothly broken power-laws to fit and predict model scaling behavior. The open source code is made available at https://github.com/kashif/pytorch-transformer-ts.",
+    "link": "http://arxiv.org/abs/2310.08278",
+    "context": "Title: Lag-Llama: Towards Foundation Models for Time Series Forecasting. (arXiv:2310.08278v1 [cs.LG])\nAbstract: Aiming to build foundation models for time-series forecasting and study their scaling behavior, we present here our work-in-progress on Lag-Llama, a general-purpose univariate probabilistic time-series forecasting model trained on a large collection of time-series data. The model shows good zero-shot prediction capabilities on unseen \"out-of-distribution\" time-series datasets, outperforming supervised baselines. We use smoothly broken power-laws to fit and predict model scaling behavior. The open source code is made available at https://github.com/kashif/pytorch-transformer-ts.",
+    "path": "papers/23/10/2310.08278.json",
+    "total_tokens": 693,
+    "translated_title": "Lag-Llama: 用于时间序列预测的基础模型",
+    "translated_abstract": "为了构建时间序列预测的基础模型并研究其扩展行为，我们在这里介绍了我们正在进行中的 Lag-Llama 工作，这是一个在大量时间序列数据上训练的通用单变量概率时间序列预测模型。该模型在未见过的“分布外”时间序列数据集上展现出良好的零样本预测能力，优于有监督基线方法。我们使用光滑断裂幂律来拟合和预测模型的扩展行为。开源代码可在 https://github.com/kashif/pytorch-transformer-ts 上获得。",
+    "tldr": "Lag-Llama是一个基于大量时间序列数据训练的通用预测模型，在未见过的数据集上展现出强大的零样本预测能力，并使用光滑断裂幂律模型来拟合和预测扩展行为。",
+    "en_tdlr": "Lag-Llama is a universal forecasting model trained on a large collection of time series data that demonstrates strong zero-shot prediction capabilities on unseen datasets, and uses smooth broken power laws to fit and predict scaling behavior."
+}
