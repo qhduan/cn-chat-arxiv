@@ -1,0 +1,12 @@
+{
+    "title": "Genetic algorithms are strong baselines for molecule generation. (arXiv:2310.09267v1 [cs.NE])",
+    "abstract": "Generating molecules, both in a directed and undirected fashion, is a huge part of the drug discovery pipeline. Genetic algorithms (GAs) generate molecules by randomly modifying known molecules. In this paper we show that GAs are very strong algorithms for such tasks, outperforming many complicated machine learning methods: a result which many researchers may find surprising. We therefore propose insisting during peer review that new algorithms must have some clear advantage over GAs, which we call the GA criterion. Ultimately our work suggests that a lot of research in molecule generation should be re-assessed.",
+    "link": "http://arxiv.org/abs/2310.09267",
+    "context": "Title: Genetic algorithms are strong baselines for molecule generation. (arXiv:2310.09267v1 [cs.NE])\nAbstract: Generating molecules, both in a directed and undirected fashion, is a huge part of the drug discovery pipeline. Genetic algorithms (GAs) generate molecules by randomly modifying known molecules. In this paper we show that GAs are very strong algorithms for such tasks, outperforming many complicated machine learning methods: a result which many researchers may find surprising. We therefore propose insisting during peer review that new algorithms must have some clear advantage over GAs, which we call the GA criterion. Ultimately our work suggests that a lot of research in molecule generation should be re-assessed.",
+    "path": "papers/23/10/2310.09267.json",
+    "total_tokens": 680,
+    "translated_title": "遗传算法是分子生成的强大基准线",
+    "translated_abstract": "生成分子，无论是有向还是无向的方式，是药物研发流程中的重要部分。遗传算法（GAs）通过随机修改已知分子来生成分子。本文通过实验证明，对于这种任务，GAs是非常强大的算法，胜过许多复杂的机器学习方法，这一结果可能让很多研究人员感到惊讶。因此，我们建议在同行评审过程中坚持要求新的算法必须明显优于GAs，我们将其称为GA准则。最终，我们的工作表明，许多关于分子生成的研究应该重新评估。",
+    "tldr": "本文研究表明，遗传算法是分子生成领域的强大基准线，并提出了GA准则，要求新的算法必须明显优于遗传算法。",
+    "en_tdlr": "This paper demonstrates that genetic algorithms are strong baselines for molecule generation and proposes the GA criterion, which requires new algorithms to clearly outperform genetic algorithms."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Case-Based Persistent Memory for a Large Language Model. (arXiv:2310.08842v1 [cs.AI])",
+    "abstract": "Case-based reasoning (CBR) as a methodology for problem-solving can use any appropriate computational technique. This position paper argues that CBR researchers have somewhat overlooked recent developments in deep learning and large language models (LLMs). The underlying technical developments that have enabled the recent breakthroughs in AI have strong synergies with CBR and could be used to provide a persistent memory for LLMs to make progress towards Artificial General Intelligence.",
+    "link": "http://arxiv.org/abs/2310.08842",
+    "context": "Title: A Case-Based Persistent Memory for a Large Language Model. (arXiv:2310.08842v1 [cs.AI])\nAbstract: Case-based reasoning (CBR) as a methodology for problem-solving can use any appropriate computational technique. This position paper argues that CBR researchers have somewhat overlooked recent developments in deep learning and large language models (LLMs). The underlying technical developments that have enabled the recent breakthroughs in AI have strong synergies with CBR and could be used to provide a persistent memory for LLMs to make progress towards Artificial General Intelligence.",
+    "path": "papers/23/10/2310.08842.json",
+    "total_tokens": 636,
+    "translated_title": "一种用于大型语言模型的基于案例的持久性记忆",
+    "translated_abstract": "案例推理作为一种问题解决方法可以使用任何合适的计算技术。本论文指出，案例推理的研究者在近期的深度学习和大型语言模型方面有所忽视。近期人工智能突破的潜在技术发展与案例推理有着强烈的协同作用，可以用于为大型语言模型提供持久性记忆，对实现人工通用智能有所进展。",
+    "tldr": "本论文讨论了案例推理研究者对深度学习和大型语言模型的忽视，以及将这些技术应用于大型语言模型的持久性记忆中，进一步推动人工通用智能的发展。",
+    "en_tdlr": "This paper discusses the overlooking of deep learning and large language models by case-based reasoning researchers, and the use of these technologies in building a persistent memory for large language models to advance towards Artificial General Intelligence."
+}

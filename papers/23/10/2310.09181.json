@@ -1,0 +1,12 @@
+{
+    "title": "A generalization of the rational rough Heston approximation. (arXiv:2310.09181v1 [q-fin.CP])",
+    "abstract": "We extend the rational approximation of the solution of the rough Heston fractional ODE in [GR19] to the case of the Mittag-Leffler kernel. We provide numerical evidence of the convergence of the solution.",
+    "link": "http://arxiv.org/abs/2310.09181",
+    "context": "Title: A generalization of the rational rough Heston approximation. (arXiv:2310.09181v1 [q-fin.CP])\nAbstract: We extend the rational approximation of the solution of the rough Heston fractional ODE in [GR19] to the case of the Mittag-Leffler kernel. We provide numerical evidence of the convergence of the solution.",
+    "path": "papers/23/10/2310.09181.json",
+    "total_tokens": 469,
+    "translated_title": "理性粗Heston逼近的一般化",
+    "translated_abstract": "我们将理性逼近从[GR19]中的粗Heston分数ODE扩展到Mittag-Leffler核情况。我们提供了数值证据表明解的收敛性。",
+    "tldr": "这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。",
+    "en_tdlr": "This paper extends the rational approximation from the rough Heston fractional ODE to the case of the Mittag-Leffler kernel, and provides numerical evidence of the convergence of the solution."
+}

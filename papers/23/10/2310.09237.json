@@ -1,0 +1,11 @@
+{
+    "title": "Evaluating Machine Perception of Indigeneity: An Analysis of ChatGPT's Perceptions of Indigenous Roles in Diverse Scenarios. (arXiv:2310.09237v1 [cs.AI])",
+    "abstract": "Large Language Models (LLMs), like ChatGPT, are fundamentally tools trained on vast data, reflecting diverse societal impressions. This paper aims to investigate LLMs' self-perceived bias concerning indigeneity when simulating scenarios of indigenous people performing various roles. Through generating and analyzing multiple scenarios, this work offers a unique perspective on how technology perceives and potentially amplifies societal biases related to indigeneity in social computing. The findings offer insights into the broader implications of indigeneity in critical computing.",
+    "link": "http://arxiv.org/abs/2310.09237",
+    "context": "Title: Evaluating Machine Perception of Indigeneity: An Analysis of ChatGPT's Perceptions of Indigenous Roles in Diverse Scenarios. (arXiv:2310.09237v1 [cs.AI])\nAbstract: Large Language Models (LLMs), like ChatGPT, are fundamentally tools trained on vast data, reflecting diverse societal impressions. This paper aims to investigate LLMs' self-perceived bias concerning indigeneity when simulating scenarios of indigenous people performing various roles. Through generating and analyzing multiple scenarios, this work offers a unique perspective on how technology perceives and potentially amplifies societal biases related to indigeneity in social computing. The findings offer insights into the broader implications of indigeneity in critical computing.",
+    "path": "papers/23/10/2310.09237.json",
+    "total_tokens": 760,
+    "translated_title": "评估机器对土著人认知的研究: 对ChatGPT在不同情境中对土著角色认知的分析",
+    "translated_abstract": "大型语言模型（LLMs），如ChatGPT，是基于大量数据训练的工具，反映了多样化社会印象。本文旨在调查LLMs在模拟土著人在不同角色下表现的情境时的自认偏见。通过生成和分析多个情境，本研究为我们提供了一种独特的视角，了解技术如何感知和潜在放大与土著人相关的社会偏见。研究结果揭示了土著人在重要计算中的广泛影响。",
+    "tldr": "本文调查了ChatGPT等大型语言模型在模拟土著人在不同角色下表现的情境时的自认偏见。研究结果揭示了技术对土著人相关社会偏见的感知和潜在放大，对土著人在重要计算中的影响具有重要意义。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance. (arXiv:2310.05597v2 [cs.CL] UPDATED)",
+    "abstract": "While analogies are a common way to evaluate word embeddings in NLP, it is also of interest to investigate whether or not analogical reasoning is a task in itself that can be learned. In this paper, we test several ways to learn basic analogical reasoning, specifically focusing on analogies that are more typical of what is used to evaluate analogical reasoning in humans than those in commonly used NLP benchmarks. Our experiments find that models are able to learn analogical reasoning, even with a small amount of data. We additionally compare our models to a dataset with a human baseline, and find that after training, models approach human performance.",
+    "link": "http://arxiv.org/abs/2310.05597",
+    "context": "Title: Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance. (arXiv:2310.05597v2 [cs.CL] UPDATED)\nAbstract: While analogies are a common way to evaluate word embeddings in NLP, it is also of interest to investigate whether or not analogical reasoning is a task in itself that can be learned. In this paper, we test several ways to learn basic analogical reasoning, specifically focusing on analogies that are more typical of what is used to evaluate analogical reasoning in humans than those in commonly used NLP benchmarks. Our experiments find that models are able to learn analogical reasoning, even with a small amount of data. We additionally compare our models to a dataset with a human baseline, and find that after training, models approach human performance.",
+    "path": "papers/23/10/2310.05597.json",
+    "total_tokens": 739,
+    "translated_title": "语言模型是否能够学习类比推理？研究训练目标和与人类表现的比较。",
+    "translated_abstract": "虽然类比是评估自然语言处理中词嵌入的常见方式，但研究类比推理是否是一种可以学习的任务也很有意义。本文测试了几种学习基本类比推理的方法，特别关注的是那些更符合人类类比推理评估标准的类比。我们的实验发现，模型能够在少量数据的情况下学习类比推理。此外，我们还将我们的模型与具有人类基准的数据集进行比较，并发现在训练后，模型接近人类的表现水平。",
+    "tldr": "本文研究了语言模型是否能够学习类比推理的任务，并测试了几种学习方法。实验结果表明，模型能够通过少量数据学习类比推理，并在与人类基准进行比较后接近人类的表现水平。",
+    "en_tdlr": "This paper investigates whether language models can learn the task of analogical reasoning and tests several learning methods. The experiments show that models can learn analogical reasoning with a small amount of data and approach human performance after comparison with human baselines."
+}

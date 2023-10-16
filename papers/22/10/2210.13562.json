@@ -1,0 +1,12 @@
+{
+    "title": "Prediction intervals for economic fixed-event forecasts. (arXiv:2210.13562v2 [econ.EM] UPDATED)",
+    "abstract": "The fixed-event forecasting setup is common in economic policy. It involves a sequence of forecasts of the same (`fixed') predictand, so that the difficulty of the forecasting problem decreases over time. Fixed-event point forecasts are typically published without a quantitative measure of uncertainty. To construct such a measure, we consider forecast postprocessing techniques tailored to the fixed-event case. We develop regression methods that impose constraints motivated by the problem at hand, and use these methods to construct prediction intervals for gross domestic product (GDP) growth in Germany and the US.",
+    "link": "http://arxiv.org/abs/2210.13562",
+    "context": "Title: Prediction intervals for economic fixed-event forecasts. (arXiv:2210.13562v2 [econ.EM] UPDATED)\nAbstract: The fixed-event forecasting setup is common in economic policy. It involves a sequence of forecasts of the same (`fixed') predictand, so that the difficulty of the forecasting problem decreases over time. Fixed-event point forecasts are typically published without a quantitative measure of uncertainty. To construct such a measure, we consider forecast postprocessing techniques tailored to the fixed-event case. We develop regression methods that impose constraints motivated by the problem at hand, and use these methods to construct prediction intervals for gross domestic product (GDP) growth in Germany and the US.",
+    "path": "papers/22/10/2210.13562.json",
+    "total_tokens": 668,
+    "translated_title": "经济固定事件预测的预测区间",
+    "translated_abstract": "固定事件预测设置在经济政策中很常见。它涉及到对同一个“固定”的预测对象进行一系列的预测，因此随着时间的推移，预测问题的难度逐渐降低。固定事件的点预测通常没有定量的不确定性度量。为了构建这样的度量，我们考虑了适用于固定事件情况的预测后处理技术。我们开发了基于问题动机的回归方法，并使用这些方法构建了德国和美国国内生产总值（GDP）增长的预测区间。",
+    "tldr": "该论文研究了经济固定事件预测的预测区间，提出了基于问题动机的回归方法，用于构建德国和美国国内生产总值（GDP）增长的预测区间。",
+    "en_tdlr": "This paper investigates prediction intervals for economic fixed-event forecasts and proposes regression methods motivated by the problem at hand to construct prediction intervals for GDP growth in Germany and the US."
+}

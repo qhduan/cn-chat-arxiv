@@ -1,0 +1,12 @@
+{
+    "title": "A 4-approximation algorithm for min max correlation clustering. (arXiv:2310.09196v1 [cs.DS])",
+    "abstract": "We introduce a lower bounding technique for the min max correlation clustering problem and, based on this technique, a combinatorial 4-approximation algorithm for complete graphs. This improves upon the previous best known approximation guarantees of 5, using a linear program formulation (Kalhan et al., 2019), and 4, for a combinatorial algorithm (Davies et al., 2023). We extend this algorithm by a greedy joining heuristic and show empirically that it improves the state of the art in solution quality and runtime on several benchmark datasets.",
+    "link": "http://arxiv.org/abs/2310.09196",
+    "context": "Title: A 4-approximation algorithm for min max correlation clustering. (arXiv:2310.09196v1 [cs.DS])\nAbstract: We introduce a lower bounding technique for the min max correlation clustering problem and, based on this technique, a combinatorial 4-approximation algorithm for complete graphs. This improves upon the previous best known approximation guarantees of 5, using a linear program formulation (Kalhan et al., 2019), and 4, for a combinatorial algorithm (Davies et al., 2023). We extend this algorithm by a greedy joining heuristic and show empirically that it improves the state of the art in solution quality and runtime on several benchmark datasets.",
+    "path": "papers/23/10/2310.09196.json",
+    "total_tokens": 761,
+    "translated_title": "一个求解最小最大相关聚类问题的4近似算法",
+    "translated_abstract": "我们引入了一种求解最小最大相关聚类问题的下界技术，并基于此技术，提出了一个针对完全图的组合4近似算法。这改进了之前使用线性规划公式（Kalhan等，2019）获得的近似保证为5和使用组合算法（Davies等，2023）获得的近似保证为4的最佳已知结果。我们通过贪婪联合启发式算法扩展了该算法，并通过实验证明，在几个基准数据集上，它提高了解决方案质量和运行时间的技术水平。",
+    "tldr": "本论文引入了一种新的下界技术，并提出了一个组合算法来求解最小最大相关聚类问题，该算法能够在完全图上达到4的近似结果。通过贪婪联合启发式算法的扩展和实验证明，在多个基准数据集上，该算法在解决方案质量和运行时间上均有显著改进。",
+    "en_tdlr": "This paper introduces a new lower bounding technique and proposes a combinatorial algorithm to solve the min max correlation clustering problem, achieving a 4-approximation result on complete graphs. By extending the algorithm with a greedy joining heuristic and conducting empirical experiments, it is demonstrated that the algorithm significantly improves solution quality and runtime on multiple benchmark datasets."
+}

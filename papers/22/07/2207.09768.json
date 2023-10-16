@@ -1,0 +1,11 @@
+{
+    "title": "Learning Counterfactually Invariant Predictors. (arXiv:2207.09768v3 [cs.LG] UPDATED)",
+    "abstract": "Notions of counterfactual invariance (CI) have proven essential for predictors that are fair, robust, and generalizable in the real world. We propose graphical criteria that yield a sufficient condition for a predictor to be counterfactually invariant in terms of a conditional independence in the observational distribution. In order to learn such predictors, we propose a model-agnostic framework, called Counterfactually Invariant Prediction (CIP), building on the Hilbert-Schmidt Conditional Independence Criterion (HSCIC), a kernel-based conditional dependence measure. Our experimental results demonstrate the effectiveness of CIP in enforcing counterfactual invariance across various simulated and real-world datasets including scalar and multi-variate settings.",
+    "link": "http://arxiv.org/abs/2207.09768",
+    "context": "Title: Learning Counterfactually Invariant Predictors. (arXiv:2207.09768v3 [cs.LG] UPDATED)\nAbstract: Notions of counterfactual invariance (CI) have proven essential for predictors that are fair, robust, and generalizable in the real world. We propose graphical criteria that yield a sufficient condition for a predictor to be counterfactually invariant in terms of a conditional independence in the observational distribution. In order to learn such predictors, we propose a model-agnostic framework, called Counterfactually Invariant Prediction (CIP), building on the Hilbert-Schmidt Conditional Independence Criterion (HSCIC), a kernel-based conditional dependence measure. Our experimental results demonstrate the effectiveness of CIP in enforcing counterfactual invariance across various simulated and real-world datasets including scalar and multi-variate settings.",
+    "path": "papers/22/07/2207.09768.json",
+    "total_tokens": 744,
+    "translated_title": "学习反事实不变的预测器",
+    "translated_abstract": "反事实不变性（CI）的概念对于在现实世界中公平、强健和具有普适性的预测器至关重要。我们提出了一种图形标准，它以观测分布的条件独立性作为预测器反事实不变的充分条件。为了学习这样的预测器，我们提出了一个称为Counterfactually Invariant Prediction（CIP）的模型无关框架，基于Hilbert-Schmidt条件独立准则（HSCIC），一种基于核的条件依赖度量。我们的实验结果在包括标量和多变量设置在内的各种模拟和真实世界数据集上证明了CIP在强制反事实不变性方面的有效性。",
+    "tldr": "通过提出图形标准和模型无关框架CIP，我们能够学习反事实不变的预测器，以实现在现实世界中的公平性、强健性和普适性。"
+}

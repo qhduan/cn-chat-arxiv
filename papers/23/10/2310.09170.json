@@ -1,0 +1,12 @@
+{
+    "title": "mnmDTW: An extension to Dynamic Time Warping for Camera-based Movement Error Localization. (arXiv:2310.09170v1 [cs.CV])",
+    "abstract": "In this proof of concept, we use Computer Vision (CV) methods to extract pose information out of exercise videos. We then employ a modified version of Dynamic Time Warping (DTW) to calculate the deviation from a gold standard execution of the exercise. Specifically, we calculate the distance between each body part individually to get a more precise measure for exercise accuracy. We can show that exercise mistakes are clearly visible, identifiable and localizable through this metric.",
+    "link": "http://arxiv.org/abs/2310.09170",
+    "context": "Title: mnmDTW: An extension to Dynamic Time Warping for Camera-based Movement Error Localization. (arXiv:2310.09170v1 [cs.CV])\nAbstract: In this proof of concept, we use Computer Vision (CV) methods to extract pose information out of exercise videos. We then employ a modified version of Dynamic Time Warping (DTW) to calculate the deviation from a gold standard execution of the exercise. Specifically, we calculate the distance between each body part individually to get a more precise measure for exercise accuracy. We can show that exercise mistakes are clearly visible, identifiable and localizable through this metric.",
+    "path": "papers/23/10/2310.09170.json",
+    "total_tokens": 667,
+    "translated_title": "mnmDTW:一种用于基于摄像头的运动误差定位的动态时间规整拓展",
+    "translated_abstract": "在这个概念验证中，我们使用计算机视觉方法从运动视频中提取姿势信息。然后，我们使用一种修改后的动态时间规整(DTW)来计算与黄金标准运动执行之间的偏差。具体而言，我们计算每个身体部位之间的距离，以获得更精确的运动准确性测量。我们可以通过这个度量指标清楚地看到、识别和定位运动错误。",
+    "tldr": "mnmDTW是一种用于基于摄像头的运动误差定位的动态时间规整拓展方法。通过计算每个身体部位之间的距离，该方法能够更精确地测量运动的准确性，从而清楚地显示、识别和定位运动错误。",
+    "en_tdlr": "mnmDTW is an extension to Dynamic Time Warping for camera-based movement error localization. By calculating the distance between each body part, this method provides a more precise measure for exercise accuracy, clearly showing, identifying, and localizing exercise mistakes."
+}

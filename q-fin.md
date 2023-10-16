@@ -2,122 +2,89 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Maximal Martingale Wasserstein Inequality.](http://arxiv.org/abs/2310.08492) | 该论文针对鞍点对数概率分配不等式进行了进一步分析，发现在维度$d\ge2$且积分参数$\rho$属于$[1,2)$时不成立，而在维度$d\ge2$时且$\rho\ge2$时存在更强的最大鞍点对数概率分配不等式。 |
-| [^2] | [Belief formation and the persistence of biased beliefs.](http://arxiv.org/abs/2310.08466) | 提出了一个信念形成模型，其中代理人试图区分两个理论，限制信息处理导致了对弱证据的审查，结果导致了偏见信念的形成。 |
-| [^3] | [The Connection Between Political Stability and Inflation: Insights from Four South Asian Nations.](http://arxiv.org/abs/2310.08415) | 政治稳定性的增加与较低的通胀率相关，而政治稳定性的减少与较高的通胀率相关。 |
-| [^4] | [There are different shades of green: heterogeneous environmental innovations and their effects on firm performance.](http://arxiv.org/abs/2310.08353) | 本研究探讨了环境创新企业的特征，并量化了不同类型环境创新策略对销售额、就业和生产力动态的影响。 |
-| [^5] | [How would mobility-as-a-service (MaaS) platform survive as an intermediary? From the viewpoint of stability in many-to-many matching.](http://arxiv.org/abs/2310.08285) | 本研究研究了MaaS平台作为中介者在多模式交通网络中的分配和定价问题，并设计了一种适用于MaaS行程的起点-终点定价方案，以实现路径选择的灵活性和模式之间的边界消除。 |
-| [^6] | [Statistical arbitrage portfolio construction based on preference relations.](http://arxiv.org/abs/2310.08284) | 本文提出了一种基于偏好关系图的投资组合构建方法，可以协调多个证券配对之间的矛盾交易信号，并在大量证券之间共同利用套利机会。 |
-| [^7] | [Are sanctions for losers? A network study of trade sanctions.](http://arxiv.org/abs/2310.08193) | 本文运用网络研究方法研究贸易制裁，发现制裁国家的商业模式发生了转变，向中立或友好国家倾斜。这些变化可能导致一个与世界经济边缘相互作用的替代“核心”的形成。 |
-| [^8] | [The Specter (and Spectra) of Miner Extractable Value.](http://arxiv.org/abs/2310.07865) | 本研究提出了矿工可提取价值的MEV成本的理论定义，在多个示例中证明了该定义的实用性，并与对称群的函数“平滑性”相关联。 |
-| [^9] | [Empirical Review of Youth-Employment Policies in Nigeria.](http://arxiv.org/abs/2310.07789) | 本文通过混合研究方法和主要数据分析了尼日利亚青年就业计划的实施挑战和政治包容的影响。研究发现，尽管已经推出了多个青年就业计划，但尼日利亚的青年失业率并没有显著下降。 |
-| [^10] | [Incentives for Private Industrial Investment in historical perspective: the case of industrial promotion and investment promotion in Uruguay (1974-2010).](http://arxiv.org/abs/2310.07738) | 在乌拉圭1974-2010年的历史时期，研究发现工业公司对税收优惠敏感，这对于他们的投资决策起到了决定性的影响。此外，增加投资的激励措施对经济活动和出口有积极影响，但对失业率有负面影响。 |
-| [^11] | [Quantum-Enhanced Forecasting: Leveraging Quantum Gramian Angular Field and CNNs for Stock Return Predictions.](http://arxiv.org/abs/2310.07427) | 该论文提出了一种名为Quantum Gramian Angular Field (QGAF)的新方法，通过将量子计算技术与深度学习相结合，成功将股票回报时间序列数据转化为适合卷积神经网络（CNN）训练的二维图像，从而提高了预测的精度。实验证明，相比传统方法，QGAF方法具有显著的性能优势。 |
-| [^12] | [A New Weighted Food CPI from Scanner Big Data in China.](http://arxiv.org/abs/2310.04242) | 这项研究介绍了一种新的加权价格指数S-FCPIw，利用中国扫描仪大数据构建，能更频繁和更丰富地反映商品价格的变动，与CPI和食品CPI存在显著关系。扫描仪大数据可以补充中国传统的CPI计算方法，并提供新的宏观经济趋势和通胀预测见解。 |
-| [^13] | [Optimal investment in ambiguous financial markets with learning.](http://arxiv.org/abs/2303.08521) | 本研究考虑了具有学习能力的不确定金融市场中的投资问题，并采用KMM方法考虑了在风险和模糊偏好下的优化问题。最优策略可以用不带模糊偏好的解决方案来表述，但要调整漂移分布。 |
-| [^14] | [Mobility decisions, economic dynamics and epidemic.](http://arxiv.org/abs/2107.01746) | 该研究提出了一个动态宏观经济均衡框架，将SIRD流行病模型嵌入其中，同时考虑了个体的流动性对收入和感染概率的影响。个体流动选择与经济活动和疾病传播之间存在策略互补性。该研究证明了均衡的存在，并提供了均衡搜索的方法。通过对意大利COVID-19流行病的经验进行模型校准，讨论了政策含义。 |
+| [^1] | [Uncovering Market Disorder and Liquidity Trends Detection.](http://arxiv.org/abs/2310.09273) | 这篇论文提出了一种新的方法来检测订单驱动市场中流动性的显著变化。通过构建市场流动性模型和采用标记的Hawkes过程，能够精确识别流动性的强度变化，并用于优化执行算法、降低市场影响和成本以及作为市场流动性指标。 |
+| [^2] | [A generalization of the rational rough Heston approximation.](http://arxiv.org/abs/2310.09181) | 这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。 |
+| [^3] | [Growth, Poverty Trap and Escape.](http://arxiv.org/abs/2310.09098) | 这个论文提出了一个基于随机Solow增长模型的假设，该模型将储蓄比例设定为人均资本的S形函数，并推导出了稳态概率分布。 |
+| [^4] | [How Does Artificial Intelligence Improve Human Decision-Making? Evidence from the AI-Powered Go Program.](http://arxiv.org/abs/2310.08704) | 本研究通过一个AI-Powered围棋程序（APG）的引入，发现人类从人工智能中学习可以显著提高着法质量，并减少错误数量和大小。年轻选手和接触过人工智能的国家的选手获得了更大的改进，技术较差的选手获得了更高的边际效益。 |
+| [^5] | [Can GPT models be Financial Analysts? An Evaluation of ChatGPT and GPT-4 on mock CFA Exams.](http://arxiv.org/abs/2310.08678) | 本研究评估了ChatGPT和GPT-4在金融分析上的能力，发现它们在模拟CFA考试中具有一定的表现，为将来进一步提升大型语言模型在金融推理方面的能力提供了启示。 |
+| [^6] | [The Specter (and Spectra) of Miner Extractable Value.](http://arxiv.org/abs/2310.07865) | 本研究提出了矿工可提取价值的MEV成本的理论定义，在多个示例中证明了该定义的实用性，并与对称群的函数“平滑性”相关联。 |
+| [^7] | [Human-AI Interactions and Societal Pitfalls.](http://arxiv.org/abs/2309.10448) | 本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。 |
+| [^8] | [Startup Acquisitions: Acquihires and Talent Hoarding.](http://arxiv.org/abs/2308.10046) | 该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。 |
+| [^9] | [A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles.](http://arxiv.org/abs/2306.15554) | 本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。 |
 
 # 详细
 
-[^1]: 最大鞍点对数概率分配不等式
+[^1]: 揭示市场混乱与流动性趋势检测
 
-    Maximal Martingale Wasserstein Inequality. (arXiv:2310.08492v1 [math.PR])
+    Uncovering Market Disorder and Liquidity Trends Detection. (arXiv:2310.09273v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2310.08492](http://arxiv.org/abs/2310.08492)
+    [http://arxiv.org/abs/2310.09273](http://arxiv.org/abs/2310.09273)
 
-    该论文针对鞍点对数概率分配不等式进行了进一步分析，发现在维度$d\ge2$且积分参数$\rho$属于$[1,2)$时不成立，而在维度$d\ge2$时且$\rho\ge2$时存在更强的最大鞍点对数概率分配不等式。
-
-    
-
-    在这篇论文中，我们完成了对于在arXiv:2011.11599中开始的鞍点对数概率分配不等式的分析，验证了当积分参数$\rho$属于$[1,2)$且维度$d\ge2$时，该不等式在维度$d\ge2$下是不成立的，而当$\rho\ge2$时，存在一个更强的最大鞍点对数概率分配不等式。
-
-    In this note, we complete the analysis of the Martingale Wasserstein Inequality started in arXiv:2011.11599 by checking that this inequality fails in dimension $d\ge 2$ when the integrability parameter $\rho$ belongs to $[1,2)$ while a stronger Maximal Martingale Wasserstein Inequality holds whatever the dimension $d$ when $\rho\ge 2$.
-    
-[^2]: 信念形成与偏见信念的持久性
-
-    Belief formation and the persistence of biased beliefs. (arXiv:2310.08466v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.08466](http://arxiv.org/abs/2310.08466)
-
-    提出了一个信念形成模型，其中代理人试图区分两个理论，限制信息处理导致了对弱证据的审查，结果导致了偏见信念的形成。
+    这篇论文提出了一种新的方法来检测订单驱动市场中流动性的显著变化。通过构建市场流动性模型和采用标记的Hawkes过程，能够精确识别流动性的强度变化，并用于优化执行算法、降低市场影响和成本以及作为市场流动性指标。
 
     
 
-    我们提出了一个信念形成模型，其中代理人试图区分两个理论，并且支持理论产生强大（可能稀有）的证据和频繁的证伪证据。在我们的模型中，信息处理的限制导致对弱证据的审查，结果导致对某些区分问题来说，证据可能会变得大多呈单方向，而与真实的潜在理论无关。了解被审查数据生成过程特征的复杂代理人不会被这种“证据”积累所迷惑，但是不太复杂的代理人最终会形成偏见信念。
+    本文的主要目标是构思和开发一种新的方法，用于检测订单驱动市场中流动性的显著变化。我们研究了一种市场流动性模型，通过使用其限价订单簿数据来动态量化交易资产的流动性水平。所提出的指标有望提升最优执行算法的侵略性，降低市场影响和交易成本，并作为市场做市商的可靠流动性指标。作为我们方法的一部分，我们采用标记的Hawkes过程来建模流动性代理，即通过交易产生的事件。随后，我们的重点在于准确地识别强度发生显著增加或减少的时刻。我们考虑了一个不可观测的双随机泊松过程的最小最大最快检测问题。目标是开发一种停止准则，以最小化鲁森准则的健壮性。
 
-    We propose a belief-formation model where agents attempt to discriminate between two theories, and where the asymmetry in strength between confirming and disconfirming evidence tilts beliefs in favor of theories that generate strong (and possibly rare) confirming evidence and weak (and frequent) disconfirming evidence. In our model, limitations on information processing provide incentives to censor weak evidence, with the consequence that for some discrimination problems, evidence may become mostly one-sided, independently of the true underlying theory. Sophisticated agents who know the characteristics of the censored data-generating process are not lured by this accumulation of ``evidence'', but less sophisticated ones end up with biased beliefs.
+    The primary objective of this paper is to conceive and develop a new methodology to detect notable changes in liquidity within an order-driven market. We study a market liquidity model which allows us to dynamically quantify the level of liquidity of a traded asset using its limit order book data. The proposed metric holds potential for enhancing the aggressiveness of optimal execution algorithms, minimizing market impact and transaction costs, and serving as a reliable indicator of market liquidity for market makers. As part of our approach, we employ Marked Hawkes processes to model trades-through which constitute our liquidity proxy. Subsequently, our focus lies in accurately identifying the moment when a significant increase or decrease in its intensity takes place. We consider the minimax quickest detection problem of unobservable changes in the intensity of a doubly-stochastic Poisson process. The goal is to develop a stopping rule that minimizes the robust Lorden criterion, meas
     
-[^3]: 政治稳定性与通胀之间的联系：来自四个南亚国家的见解
+[^2]: 理性粗Heston逼近的一般化
 
-    The Connection Between Political Stability and Inflation: Insights from Four South Asian Nations. (arXiv:2310.08415v1 [econ.GN])
+    A generalization of the rational rough Heston approximation. (arXiv:2310.09181v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2310.08415](http://arxiv.org/abs/2310.08415)
+    [http://arxiv.org/abs/2310.09181](http://arxiv.org/abs/2310.09181)
 
-    政治稳定性的增加与较低的通胀率相关，而政治稳定性的减少与较高的通胀率相关。
-
-    
-
-    本研究探讨了政治稳定性与四个南亚国家的通胀之间的关系，采用了从2001年到2021年的面板数据。为了分析这种关系，研究采用了动态普通最小二乘法（DOLS）和完全修正的最小二乘法（FMOLS），这些方法在面板数据分析中考虑了横向相关性和斜率均匀性。研究结果一致表明，政治稳定性的增加与较低的通胀率相关，而政治稳定性的减少与较高的通胀率相关。
-
-    This study explores the relationship between political stability and inflation in four South Asian countries, employing panel data spanning from 2001 to 2021. To analyze this relationship, the study utilizes the dynamic ordinary least square (DOLS) and fully modified ordinary least square (FMOLS) methods, which account for cross-sectional dependence and slope homogeneity in panel data analysis. The findings consistently reveal that increased political stability is associated with lower inflation, while reduced political stability is linked to higher inflation.
-    
-[^4]: 不同程度的绿色：异质环境创新及其对公司绩效的影响
-
-    There are different shades of green: heterogeneous environmental innovations and their effects on firm performance. (arXiv:2310.08353v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.08353](http://arxiv.org/abs/2310.08353)
-
-    本研究探讨了环境创新企业的特征，并量化了不同类型环境创新策略对销售额、就业和生产力动态的影响。
+    这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。
 
     
 
-    本研究利用西班牙技术创新调查面板（2003-2016年）的企业级数据集，探讨环境创新企业的特征，并量化了不同类型环境创新策略（节约资源、减少污染和受监管驱动的创新）对销售额、就业和生产力动态的影响。
+    我们将理性逼近从[GR19]中的粗Heston分数ODE扩展到Mittag-Leffler核情况。我们提供了数值证据表明解的收敛性。
 
-    Using a firm-level dataset from the Spanish Technological Innovation Panel (2003-2016), this study explores the characteristics of environmentally innovative firms and quantifies the effects of pursuing different types of environmental innovation strategies (resource-saving, pollution-reducing, and regulation-driven innovations) on sales, employment, and productivity dynamics.
+    We extend the rational approximation of the solution of the rough Heston fractional ODE in [GR19] to the case of the Mittag-Leffler kernel. We provide numerical evidence of the convergence of the solution.
     
-[^5]: 如何在多对多匹配中保持稳定性的情况下，移动即服务（MaaS）平台作为中介者如何生存？（来自经济学角度）。
+[^3]: 增长，贫困陷阱和逃脱
 
-    How would mobility-as-a-service (MaaS) platform survive as an intermediary? From the viewpoint of stability in many-to-many matching. (arXiv:2310.08285v1 [econ.GN])
+    Growth, Poverty Trap and Escape. (arXiv:2310.09098v1 [physics.soc-ph])
 
-    [http://arxiv.org/abs/2310.08285](http://arxiv.org/abs/2310.08285)
+    [http://arxiv.org/abs/2310.09098](http://arxiv.org/abs/2310.09098)
 
-    本研究研究了MaaS平台作为中介者在多模式交通网络中的分配和定价问题，并设计了一种适用于MaaS行程的起点-终点定价方案，以实现路径选择的灵活性和模式之间的边界消除。
-
-    
-
-    移动即服务（MaaS）通过整合不同的交通方式，提供无缝的门对门出行。虽然近年来出现了许多MaaS平台，但大多数仍处于有限的整合水平。本研究探讨了MaaS平台作为中介者在多模式交通网络中的分配和定价问题，该平台从服务运营商购买能力，并向旅行者销售多模式行程。我们采用了多对多稳定匹配的分析框架来分解联合设计问题，并得出稳定条件，使运营商和旅行者愿意参与MaaS系统。为了最大限度地提高路径选择的灵活性并消除模式之间的边界，我们设计了一种适用于MaaS行程的起点-终点定价方案。在供应端，我们提出了一种用于服务能力的批发购买价格。因此，分配问题被重新定义和解决为一个双层规划问题，其中MaaS tra
-
-    Mobility-as-a-service (MaaS) provides seamless door-to-door trips by integrating different transport modes. Although many MaaS platforms have emerged in recent years, most of them remain at a limited integration level. This study investigates the assignment and pricing problem for a MaaS platform as an intermediary in a multi-modal transportation network, which purchases capacity from service operators and sells multi-modal trips to travelers. The analysis framework of many-to-many stable matching is adopted to decompose the joint design problem and to derive the stability condition such that both operators and travelers are willing to participate in the MaaS system. To maximize the flexibility in route choice and remove boundaries between modes, we design an origin-destination pricing scheme for MaaS trips. On the supply side, we propose a wholesale purchase price for service capacity. Accordingly, the assignment problem is reformulated and solved as a bi-level program, where MaaS tra
-    
-[^6]: 基于偏好关系的统计套利投资组合构建
-
-    Statistical arbitrage portfolio construction based on preference relations. (arXiv:2310.08284v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2310.08284](http://arxiv.org/abs/2310.08284)
-
-    本文提出了一种基于偏好关系图的投资组合构建方法，可以协调多个证券配对之间的矛盾交易信号，并在大量证券之间共同利用套利机会。
+    这个论文提出了一个基于随机Solow增长模型的假设，该模型将储蓄比例设定为人均资本的S形函数，并推导出了稳态概率分布。
 
     
 
-    统计套利方法通过识别证券的错价来构建与市场弱相关的投资组合。在配对交易中，通过观察两个证券之间的相对价格变动来识别套利机会。通过同时观察多个配对，可以利用不同的套利机会并提高这种方法的性能。然而，使用大量配对是困难的，因为不同配对之间存在矛盾的交易信号的概率增加。本文提出了一种基于偏好关系图的新型投资组合构建方法，可以协调多个证券配对之间的矛盾交易信号。所提出的方法可以在大量证券之间共同利用套利机会。使用来自S&P 500指数的约500只股票近30年的历史回报的实验结果表明，基于该方法构建的投资组合可以达到很好的表现。
+    著名的Solow增长模型是经济增长理论中的基本模型，研究资本积累与时间的关系，其中资本存量、劳动力和技术效率是其基本要素。资本被假设为制造设备和材料的形式。模型的两个重要参数是：生产函数产出的储蓄比例$s$和出现在生产函数中的技术效率参数$A$。储蓄比例的产出全部用于生成新的资本，剩下的则被消费。资本存量还会随时间逐渐减少，原因是旧资本的磨损以及劳动力人口的增加。我们提出了一个假设储蓄比例是人均资本$k_p$的S形函数的随机Solow增长模型。我们从解析上推导出稳态概率分布$P(k_p)$并展示了…
 
-    Statistical arbitrage methods identify mispricings in securities with the goal of building portfolios which are weakly correlated with the market. In pairs trading, an arbitrage opportunity is identified by observing relative price movements between a pair of two securities. By simultaneously observing multiple pairs, one can exploit different arbitrage opportunities and increase the performance of such methods. However, the use of a large number of pairs is difficult due to the increased probability of contradictory trade signals among different pairs. In this paper, we propose a novel portfolio construction method based on preference relation graphs, which can reconcile contradictory pairs trading signals across multiple security pairs. The proposed approach enables joint exploitation of arbitrage opportunities among a large number of securities. Experimental results using three decades of historical returns of roughly 500 stocks from the S\&P 500 index show that the portfolios based
+    The well-known Solow growth model is the workhorse model of the theory of economic growth, which studies capital accumulation in a model economy as a function of time with capital stock, labour and technology efiiciency as the basic ingredients. The capital is assumed to be in the form of manufacturing equipments and materials. Two important parameters of the model are: the saving fraction $s$ of the output of a production function and the technology efficiency parameter $A$, appearing in the production function. The saved fraction of the output is fully invested in the generation of new capital and the rest is consumed. The capital stock also depreciates as a function of time due to the wearing out of old capital and the increase in the size of the labour population. We propose a stochastic Solow growth model assuming the saving fraction to be a sigmoidal function of the per capita capital $k_p$. We derive analytically the steady state probability distribution $P(k_p)$ and demonstrate
     
-[^7]: 制裁对失败者来说意味着什么？一个关于贸易制裁的网络研究
+[^4]: 人工智能如何提升人类决策能力？来自AI-Powered围棋程序的证据。
 
-    Are sanctions for losers? A network study of trade sanctions. (arXiv:2310.08193v1 [econ.GN])
+    How Does Artificial Intelligence Improve Human Decision-Making? Evidence from the AI-Powered Go Program. (arXiv:2310.08704v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.08193](http://arxiv.org/abs/2310.08193)
+    [http://arxiv.org/abs/2310.08704](http://arxiv.org/abs/2310.08704)
 
-    本文运用网络研究方法研究贸易制裁，发现制裁国家的商业模式发生了转变，向中立或友好国家倾斜。这些变化可能导致一个与世界经济边缘相互作用的替代“核心”的形成。
+    本研究通过一个AI-Powered围棋程序（APG）的引入，发现人类从人工智能中学习可以显著提高着法质量，并减少错误数量和大小。年轻选手和接触过人工智能的国家的选手获得了更大的改进，技术较差的选手获得了更高的边际效益。
 
     
 
-    建立在依赖性和世界系统理论基础上的网络研究表明，国际贸易被分为执行不同功能的“核心”和“边缘”国家的聚类。然而，很少有人使用这些方法来研究制裁对涉及资本主义世界经济的国家地位的影响。然而，由于经济战争自20世纪50年代以来被视为重要的地缘政治武器而显得尤为紧迫。尤其是在美国及其盟友对俄乌战争的回应中，制裁起到了卓越的作用。应用于复杂和暂时网络的几种聚类技术，本文展示了从制裁国家转向中立或友好国家的商业模式的变化。此外，有迹象表明，这些变化可能导致一个与世界经济边缘相互作用的替代“核心”的形成。
+    我们研究了人类如何从人工智能中学习，利用了一个突然击败最好的职业选手的AI-Powered围棋程序（APG）的引入。我们比较了职业选手的着法质量和APG在其公开发布前后的卓越解决方案的着法质量。我们分析了749,190个着法，发现了玩家着法质量的显著提升，同时错误数量和大小的减少。这种效果在比赛的初期阶段尤为显著，因为此时不确定性最大。此外，年轻选手和那些处于接触过人工智能的国家的选手获得了更大的改进，这表明了从人工智能中学习可能存在的不平等问题。此外，虽然各个水平的选手都能学习，但技术较差的选手获得了更高的边际效益。这些发现对于寻求在组织中有效采用和利用人工智能的管理者具有重要影响。
 
-    Studies built on dependency and world-system theory using network approaches have shown that international trade is structured into clusters of 'core' and 'peripheral' countries performing distinct functions. However, few have used these methods to investigate how sanctions affect the position of the countries involved in the capitalist world-economy. Yet, this topic has acquired pressing relevance due to the emergence of economic warfare as a key geopolitical weapon since the 1950s. And even more so in light of the preeminent role that sanctions have played in the US and their allies' response to the Russian-Ukrainian war. Applying several clustering techniques designed for complex and temporal networks, this paper shows that a shift in the pattern of commerce away from sanctioning countries and towards neutral or friendly ones. Additionally, there are suggestions that these shifts may lead to the creation of an alternative 'core' that interacts with the world-economy's periphery bypa
+    We study how humans learn from AI, exploiting an introduction of an AI-powered Go program (APG) that unexpectedly outperformed the best professional player. We compare the move quality of professional players to that of APG's superior solutions around its public release. Our analysis of 749,190 moves demonstrates significant improvements in players' move quality, accompanied by decreased number and magnitude of errors. The effect is pronounced in the early stages of the game where uncertainty is highest. In addition, younger players and those in AI-exposed countries experience greater improvement, suggesting potential inequality in learning from AI. Further, while players of all levels learn, less skilled players derive higher marginal benefits. These findings have implications for managers seeking to adopt and utilize AI effectively within their organizations.
     
-[^8]: 矿工可提取价值的威胁（和谱）。
+[^5]: GPT模型能成为金融分析师吗？对模拟CFA考试中的ChatGPT和GPT-4进行评估
+
+    Can GPT models be Financial Analysts? An Evaluation of ChatGPT and GPT-4 on mock CFA Exams. (arXiv:2310.08678v1 [cs.CL])
+
+    [http://arxiv.org/abs/2310.08678](http://arxiv.org/abs/2310.08678)
+
+    本研究评估了ChatGPT和GPT-4在金融分析上的能力，发现它们在模拟CFA考试中具有一定的表现，为将来进一步提升大型语言模型在金融推理方面的能力提供了启示。
+
+    
+
+    大型语言模型（LLM）在各种自然语言处理（NLP）任务中展现了出色的性能，通常能与甚至超越最先进的任务特定模型。本研究旨在评估LLM在金融推理能力方面的表现。我们利用特许金融分析师（CFA）考试的模拟题目对ChatGPT和GPT-4在金融分析中进行全面评估，考虑了零样本（ZS）、思路链（CoT）和少样本（FS）场景。我们对模型的性能和局限性进行了深入分析，并评估它们通过CFA考试的可能性。最后，我们提出了提高LLM在金融领域应用性的潜在策略和改进。在这个视角下，我们希望该研究为未来的研究继续通过严格评估来提升LLM在金融推理方面的能力铺平道路。
+
+    Large Language Models (LLMs) have demonstrated remarkable performance on a wide range of Natural Language Processing (NLP) tasks, often matching or even beating state-of-the-art task-specific models. This study aims at assessing the financial reasoning capabilities of LLMs. We leverage mock exam questions of the Chartered Financial Analyst (CFA) Program to conduct a comprehensive evaluation of ChatGPT and GPT-4 in financial analysis, considering Zero-Shot (ZS), Chain-of-Thought (CoT), and Few-Shot (FS) scenarios. We present an in-depth analysis of the models' performance and limitations, and estimate whether they would have a chance at passing the CFA exams. Finally, we outline insights into potential strategies and improvements to enhance the applicability of LLMs in finance. In this perspective, we hope this work paves the way for future studies to continue enhancing LLMs for financial reasoning through rigorous evaluation.
+    
+[^6]: 矿工可提取价值的威胁（和谱）。
 
     The Specter (and Spectra) of Miner Extractable Value. (arXiv:2310.07865v1 [math.OC])
 
@@ -131,88 +98,46 @@
 
     Miner extractable value (MEV) refers to any excess value that a transaction validator can realize by manipulating the ordering of transactions. In this work, we introduce a simple theoretical definition of the 'cost of MEV', prove some basic properties, and show that the definition is useful via a number of examples. In a variety of settings, this definition is related to the 'smoothness' of a function over the symmetric group. From this definition and some basic observations, we recover a number of results from the literature.
     
-[^9]: 尼日利亚青年就业政策的实证评估
+[^7]: 人工智能与人类互动以及社会陷阱
 
-    Empirical Review of Youth-Employment Policies in Nigeria. (arXiv:2310.07789v1 [econ.GN])
+    Human-AI Interactions and Societal Pitfalls. (arXiv:2309.10448v1 [cs.AI])
 
-    [http://arxiv.org/abs/2310.07789](http://arxiv.org/abs/2310.07789)
+    [http://arxiv.org/abs/2309.10448](http://arxiv.org/abs/2309.10448)
 
-    本文通过混合研究方法和主要数据分析了尼日利亚青年就业计划的实施挑战和政治包容的影响。研究发现，尽管已经推出了多个青年就业计划，但尼日利亚的青年失业率并没有显著下降。
-
-    
-
-    青年失业是尼日利亚的一个重大社会经济问题，为应对这一挑战，已经推出并实施了几项青年就业计划。虽然已经对其中一些计划的影响进行了详细分析，但对实施挑战和有限政治包容对计划效益分配的影响的经验分析很少。本文利用混合研究方法和通过焦点小组讨论和关键信息人访谈收集的初级数据进行分析。我们发现，尽管尼日利亚有几项青年就业计划，但青年失业率并没有显著下降。这些计划面临着一些挑战，如缺乏适当治理和协调的框架，资金不足，缺乏机构实施能力，实施监督不足，政治包容有限，缺乏对脆弱和边缘化群体的优先考虑。
-
-    Youth unemployment is a major socioeconomic problem in Nigeria, and several youth-employment programs have been initiated and implemented to address the challenge. While detailed analyses of the impacts of some of these programs have been conducted, empirical analysis of implementation challenges and of the influence of limited political inclusivity on distribution of program benefits is rare. Using mixed research methods and primary data collected through focus-group discussion and key-informant interviews, this paper turns to that analysis. We found that, although there are several youth-employment programs in Nigeria, they have not yielded a marked reduction in youth-unemployment rates. The programs are challenged by factors such as lack of framework for proper governance and coordination, inadequate funding, lack of institutional implementation capacity, inadequate oversight of implementation, limited political inclusivity, lack of prioritization of vulnerable and marginalized grou
-    
-[^10]: 历史视角下对私人工业投资的激励措施：乌拉圭工业推动和投资促进的案例研究（1974-2010）
-
-    Incentives for Private Industrial Investment in historical perspective: the case of industrial promotion and investment promotion in Uruguay (1974-2010). (arXiv:2310.07738v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.07738](http://arxiv.org/abs/2310.07738)
-
-    在乌拉圭1974-2010年的历史时期，研究发现工业公司对税收优惠敏感，这对于他们的投资决策起到了决定性的影响。此外，增加投资的激励措施对经济活动和出口有积极影响，但对失业率有负面影响。
+    本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。
 
     
 
-    利用一份新的数据库，该数据库是基于历史行政记录的编制而来，涵盖了1974-2010年的时期，我们可以得到关于乌拉圭工业公司如何利用税收优惠的新证据，并声称这些优惠对乌拉圭工业公司的投资决策有决定性的影响。上述发现还证实了增加投资的激励措施对经济活动水平和出口水平具有积极影响，对失业率具有负面影响。
+    当与生成式人工智能（AI）合作时，用户可能会看到生产力的提升，但AI生成的内容可能不完全符合他们的偏好。为了研究这种影响，我们引入了一个贝叶斯框架，其中异质用户选择与AI共享多少信息，面临输出保真度和通信成本之间的权衡。我们展示了这些个体决策与AI训练之间的相互作用可能导致社会挑战。输出可能变得更加同质化，特别是当AI在AI生成的内容上进行训练时。而任何AI的偏见可能成为社会偏见。解决同质化和偏见问题的办法是改进人工智能与人类的互动，实现个性化输出而不牺牲生产力。
 
-    Using as a central instrument a new database, resulting from a compilation of historical administrative records, which covers the period 1974-2010, we can have new evidence on how industrial companies used tax benefits, and claim that these are decisive for the investment decision of the Uruguayan industrial companies during that period. The aforementioned findings served as a raw material to also affirm that the incentives to increase investment are factors that positively influence the level of economic activity and exports, and negatively on the unemployment rate.
+    When working with generative artificial intelligence (AI), users may see productivity gains, but the AI-generated content may not match their preferences exactly. To study this effect, we introduce a Bayesian framework in which heterogeneous users choose how much information to share with the AI, facing a trade-off between output fidelity and communication cost. We show that the interplay between these individual-level decisions and AI training may lead to societal challenges. Outputs may become more homogenized, especially when the AI is trained on AI-generated content. And any AI bias may become societal bias. A solution to the homogenization and bias issues is to improve human-AI interactions, enabling personalized outputs without sacrificing productivity.
     
-[^11]: 增强量子预测能力：利用量子Gramian角度场和CNN进行股票回报预测
+[^8]: 创业公司收购：人才抢购和人才囤积
 
-    Quantum-Enhanced Forecasting: Leveraging Quantum Gramian Angular Field and CNNs for Stock Return Predictions. (arXiv:2310.07427v1 [cs.LG])
+    Startup Acquisitions: Acquihires and Talent Hoarding. (arXiv:2308.10046v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.07427](http://arxiv.org/abs/2310.07427)
+    [http://arxiv.org/abs/2308.10046](http://arxiv.org/abs/2308.10046)
 
-    该论文提出了一种名为Quantum Gramian Angular Field (QGAF)的新方法，通过将量子计算技术与深度学习相结合，成功将股票回报时间序列数据转化为适合卷积神经网络（CNN）训练的二维图像，从而提高了预测的精度。实验证明，相比传统方法，QGAF方法具有显著的性能优势。
-
-    
-
-    我们提出了一种名为Quantum Gramian Angular Field (QGAF)的时间序列预测方法。该方法将量子计算技术与深度学习相结合，旨在提高时间序列分类和预测的精度。通过设计特定的量子电路，我们成功地将股票回报时间序列数据转化为适合卷积神经网络（CNN）训练的二维图像。与经典的Gramian Angular Field (GAF)方法不同，QGAF的独特之处在于消除了数据归一化和反余弦计算的需求，简化了从时间序列数据到二维图像的转换过程。为了验证该方法的有效性，我们在中国A股市场、香港股市和美国股市的数据集上进行了实验。实验结果表明，与经典的GAF方法相比，QGAF方法显著改善了预测性能。
-
-    We propose a time series forecasting method named Quantum Gramian Angular Field (QGAF). This approach merges the advantages of quantum computing technology with deep learning, aiming to enhance the precision of time series classification and forecasting. We successfully transformed stock return time series data into two-dimensional images suitable for Convolutional Neural Network (CNN) training by designing specific quantum circuits. Distinct from the classical Gramian Angular Field (GAF) approach, QGAF's uniqueness lies in eliminating the need for data normalization and inverse cosine calculations, simplifying the transformation process from time series data to two-dimensional images. To validate the effectiveness of this method, we conducted experiments on datasets from three major stock markets: the China A-share market, the Hong Kong stock market, and the US stock market. Experimental results revealed that compared to the classical GAF method, the QGAF approach significantly improv
-    
-[^12]: 中国基于扫描仪大数据构建的新加权食品CPI
-
-    A New Weighted Food CPI from Scanner Big Data in China. (arXiv:2310.04242v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.04242](http://arxiv.org/abs/2310.04242)
-
-    这项研究介绍了一种新的加权价格指数S-FCPIw，利用中国扫描仪大数据构建，能更频繁和更丰富地反映商品价格的变动，与CPI和食品CPI存在显著关系。扫描仪大数据可以补充中国传统的CPI计算方法，并提供新的宏观经济趋势和通胀预测见解。
+    该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。
 
     
 
-    扫描仪大数据有潜力构建消费价格指数（CPI）。本研究介绍了一种新的加权价格指数S-FCPIw，该指数利用中国零售销售的扫描仪大数据构建。我们解决了中国CPI存在的高成本和及时性发布方面的局限性，并通过与现有价格指数的比较证明了S-FCPIw的可靠性。S-FCPIw不仅能更频繁和更丰富地反映商品价格的变动，而且分析结果显示S-FCPIw与CPI和食品CPI存在显著且强烈的关系。研究结果表明，扫描仪大数据可以补充中国传统的CPI计算方法，并为宏观经济趋势和通胀预测提供新的见解。我们已经公开了S-FCPIw并且每周更新，以促进该领域的进一步研究。
+    我们提出了一个创业公司收购模型，可能导致低效的 "人才囤积"。我们开发了一个有两个竞争公司的模型，这些公司可以收购和整合一个在不同领域运营的创业公司，这种收购改善了收购公司的竞争力。我们表明，即使没有经典的竞争效应，这种收购也可能不是良性的，而是垄断行为的结果，导致人才分配低效。此外，我们还表明，这种人才囤积可能会降低消费者剩余，并导致被收购员工的工作不稳定性增加。
 
-    Scanner big data has potential to construct Consumer Price Index (CPI). The study introduces a new weighted price index called S-FCPIw, which is constructed using scanner big data from retail sales in China. We address the limitations of China's CPI especially for its high cost and untimely release, and demonstrate the reliability of S-FCPIw by comparing it with existing price indices. S-FCPIw can not only reflect the changes of goods prices in higher frequency and richer dimension, and the analysis results show that S-FCPIw has a significant and strong relationship with CPI and Food CPI. The findings suggest that scanner big data can supplement traditional CPI calculations in China and provide new insights into macroeconomic trends and inflation prediction. We have made S-FCPIw publicly available and update it on a weekly basis to facilitate further study in this field.
+    We present a model of startup acquisitions, which may give rise to inefficient "talent hoarding." We develop a model with two competing firms that can acquire and integrate (or "acquihire") a startup operating in an orthogonal market. Such an acquihire improves the competitiveness of the acquiring firm. We show that even absent the classical competition effects, acquihires need not be benign but can be the result of oligopolistic behavior, leading to an inefficient allocation of talent. Further, we show that such talent hoarding may reduce consumer surplus and lead to more job volatility for acquihired employees.
     
-[^13]: 具有学习能力的不确定金融市场中的最优投资
+[^9]: 互动一致性纠缠理论
 
-    Optimal investment in ambiguous financial markets with learning. (arXiv:2303.08521v1 [q-fin.PM])
+    A Theory of Interactively Coherent Entanglement for Intelligence-Like Particles. (arXiv:2306.15554v1 [q-fin.GN])
 
-    [http://arxiv.org/abs/2303.08521](http://arxiv.org/abs/2303.08521)
+    [http://arxiv.org/abs/2306.15554](http://arxiv.org/abs/2306.15554)
 
-    本研究考虑了具有学习能力的不确定金融市场中的投资问题，并采用KMM方法考虑了在风险和模糊偏好下的优化问题。最优策略可以用不带模糊偏好的解决方案来表述，但要调整漂移分布。
-
-    
-
-    本研究考虑传统的多资产Merton投资问题，其价格动态由具有恒定但未知漂移系数的几何布朗运动给出。投资者假设漂移分布，并通过观察投资期内资产价格实现情况来学习。研究者采用KMM方法考虑了在风险和模糊偏好下的优化问题。在此处，投资者最大化一个双重确定性等价值。内在确定性等价值是基于给定漂移系数的，而外部确定性等价值是基于漂移分布的。假设也有CRRA类型的模糊函数，结果表明，最优策略可以用不带模糊偏好的解决方案来表述，但要调整漂移分布。据我们所知，对于这个具有学习能力的经典Merton问题的模糊情形，尚未在文献中得出显式解决方案。
-
-    We consider the classical multi-asset Merton investment problem under drift uncertainty, i.e. the asset price dynamics are given by geometric Brownian motions with constant but unknown drift coefficients. The investor assumes a prior drift distribution and is able to learn by observing the asset prize realizations during the investment horizon. While the solution of an expected utility maximizing investor with constant relative risk aversion (CRRA) is well known, we consider the optimization problem under risk and ambiguity preferences by means of the KMM (Klibanoff et al. (2005)) approach. Here, the investor maximizes a double certainty equivalent. The inner certainty equivalent is for given drift coefficient, the outer is based on a drift distribution. Assuming also a CRRA type ambiguity function, it turns out that the optimal strategy can be stated in terms of the solution without ambiguity preferences but an adjusted drift distribution. To the best of our knowledge an explicit solu
-    
-[^14]: 移动决策、经济动态和流行病
-
-    Mobility decisions, economic dynamics and epidemic. (arXiv:2107.01746v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2107.01746](http://arxiv.org/abs/2107.01746)
-
-    该研究提出了一个动态宏观经济均衡框架，将SIRD流行病模型嵌入其中，同时考虑了个体的流动性对收入和感染概率的影响。个体流动选择与经济活动和疾病传播之间存在策略互补性。该研究证明了均衡的存在，并提供了均衡搜索的方法。通过对意大利COVID-19流行病的经验进行模型校准，讨论了政策含义。
+    本论文从交易量-价格概率波动方程中提取了一个普遍规律，将其应用于复杂量子系统，并提出了互动一致性纠缠理论，解释智能样粒子的行为。
 
     
 
-    我们提出了一个模型，将易感-感染-康复-死亡（SIRD）流行病模型嵌入到具有代理人流动性的动态宏观经济均衡框架中。后者同时影响他们的收入和感染和被感染的概率。个体流动选择之间的策略互补性推动了总体经济活动的演变，而个体流动引起的感染外部性影响了疾病传播。理性的前瞻代理人的连续性在离散时间、有限状态、无限期均场博弈的纳什均衡上协调。我们证明了均衡的存在，并提供了一种递归构造均衡的搜索方法，该方法也指导了我们的数值研究。我们通过使用意大利对COVID-19流行病的经验进行了模型校准，并讨论了政策含义。
+    复杂适应性学习是智能的，并在生命和非生命复杂系统中发挥作用。一个复杂系统由许多相互作用的个体或单元组成，它们在相互作用中显示出隐藏的模式，并广泛出现在几乎所有学科中，从自然科学到社会科学。这激发了科学家们探索复杂系统形成机制的兴趣。然而，这是非常具有挑战性的。本文从交易量-价格概率波动方程中提取了复杂系统中的互动一致性的普遍规律或法则，并将其应用于复杂量子系统。它假设粒子可以在加强坐标中具有复杂适应性学习或智能样性质，并将金融市场交易者的复杂适应性学习延伸到量子物理中的非生命粒子。在这些假设的基础上，作者提出了一种互动一致性纠缠理论，用于解释智能样粒子的行为。
 
-    We propose a model, which nests a susceptible-infected-recovered-deceased (SIRD) epidemic model into a dynamic macroeconomic equilibrium framework with agents' mobility. The latter affect both their income and their probability of infecting and being infected. Strategic complementarities among individual mobility choices drive the evolution of aggregate economic activity, while infection externalities caused by individual mobility affect disease diffusion. The continuum of rational forward-looking agents coordinates on the Nash equilibrium of a discrete time, finite-state, infinite-horizon Mean Field Game. We prove the existence of an equilibrium and provide a recursive construction method for the search of an equilibrium(a), which also guides our numerical investigations. We calibrate the model by using Italian experience on COVID-19 epidemic and we discuss policy implications.
+    Complex adaptive learning is intelligent and plays roles in living and non-living complex systems. A complex system comprises many interacting individuals or units, shows hidden patterns as they interact, and widely occurs in almost every discipline, from natural to social sciences. It stimulates scientists to explore the mechanism of complex systems formulation. However, it is very challenging. Here the authors extract a universal rule or a law for interactive coherence in complex systems from a trading volume-price probability wave equation and apply it to complex quantum systems as its application. It assumes that particles can have a complex adaptive learning- or intelligence-like property in a reinforced coordinate and extend complex adaptive learning of traders in the financial markets to that of non-living particles in quantum physics. With these assumptions, the authors propose a theory of interactively coherent entanglement for intelligence-like particles, attempting to explai
     
 

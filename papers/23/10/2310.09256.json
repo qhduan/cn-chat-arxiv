@@ -1,0 +1,12 @@
+{
+    "title": "Political claim identification and categorization in a multilingual setting: First experiments. (arXiv:2310.09256v1 [cs.CL])",
+    "abstract": "The identification and classification of political claims is an important step in the analysis of political newspaper reports; however, resources for this task are few and far between. This paper explores different strategies for the cross-lingual projection of political claims analysis. We conduct experiments on a German dataset, DebateNet2.0, covering the policy debate sparked by the 2015 refugee crisis. Our evaluation involves two tasks (claim identification and categorization), three languages (German, English, and French) and two methods (machine translation -- the best method in our experiments -- and multilingual embeddings).",
+    "link": "http://arxiv.org/abs/2310.09256",
+    "context": "Title: Political claim identification and categorization in a multilingual setting: First experiments. (arXiv:2310.09256v1 [cs.CL])\nAbstract: The identification and classification of political claims is an important step in the analysis of political newspaper reports; however, resources for this task are few and far between. This paper explores different strategies for the cross-lingual projection of political claims analysis. We conduct experiments on a German dataset, DebateNet2.0, covering the policy debate sparked by the 2015 refugee crisis. Our evaluation involves two tasks (claim identification and categorization), three languages (German, English, and French) and two methods (machine translation -- the best method in our experiments -- and multilingual embeddings).",
+    "path": "papers/23/10/2310.09256.json",
+    "total_tokens": 751,
+    "translated_title": "多语种环境下的政治主张识别和分类：首次实验",
+    "translated_abstract": "政治主张的识别和分类是分析政治报告的重要步骤，然而用于此任务的资源非常有限。本文探讨了不同的策略，用于跨语言投射政治主张分析。我们在德国的数据集DebateNet2.0上进行了实验，该数据集涵盖了2015年难民危机引发的政策辩论。我们的评估涉及两个任务（主张识别和分类）、三种语言（德语、英语和法语）和两种方法（机器翻译 - 在我们的实验中表现最好的方法 - 和多语种嵌入）。",
+    "tldr": "本文在多语种环境下进行了首次实验，探讨了政治主张的识别和分类。实验使用了德语数据集DebateNet2.0，涵盖了2015年难民危机引发的政策辩论。通过机器翻译和多语种嵌入两种方法进行了评估。",
+    "en_tdlr": "This paper presents the first experiments on the identification and categorization of political claims in a multilingual setting. The experiments were conducted using the German dataset DebateNet2.0, which covers the policy debate sparked by the 2015 refugee crisis. Two methods, machine translation and multilingual embeddings, were evaluated."
+}
