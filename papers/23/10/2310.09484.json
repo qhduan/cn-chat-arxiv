@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Design Space of Diffusion Autoencoders for Face Morphing. (arXiv:2310.09484v1 [cs.CV])",
+    "abstract": "Face morphs created by Diffusion Autoencoders are a recent innovation and the design space of such an approach has not been well explored. We explore three axes of the design space, i.e., 1) sampling algorithms, 2) the reverse DDIM solver, and 3) partial sampling through small amounts of added noise.",
+    "link": "http://arxiv.org/abs/2310.09484",
+    "context": "Title: Exploring the Design Space of Diffusion Autoencoders for Face Morphing. (arXiv:2310.09484v1 [cs.CV])\nAbstract: Face morphs created by Diffusion Autoencoders are a recent innovation and the design space of such an approach has not been well explored. We explore three axes of the design space, i.e., 1) sampling algorithms, 2) the reverse DDIM solver, and 3) partial sampling through small amounts of added noise.",
+    "path": "papers/23/10/2310.09484.json",
+    "total_tokens": 555,
+    "translated_title": "探索面向人脸变形的扩散自编码器的设计空间",
+    "translated_abstract": "通过扩散自编码器创建的人脸变形是一种最近的创新，而这种方法的设计空间尚未得到充分探索。我们探索了设计空间的三个方面，即1）采样算法，2）逆向DDIM求解器，以及3）通过添加少量噪声进行部分采样。",
+    "tldr": "这项研究探索了面向人脸变形的扩散自编码器的设计空间，研究了采样算法、逆向DDIM求解器和部分采样的方法。",
+    "en_tdlr": "This study explores the design space of diffusion autoencoders for face morphing, focusing on the sampling algorithms, the reverse DDIM solver, and partial sampling with added noise."
+}

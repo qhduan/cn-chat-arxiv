@@ -1,0 +1,11 @@
+{
+    "title": "Asymptotic Analysis of Conditioned Stochastic Gradient Descent. (arXiv:2006.02745v5 [math.ST] UPDATED)",
+    "abstract": "In this paper, we investigate a general class of stochastic gradient descent (SGD) algorithms, called Conditioned SGD, based on a preconditioning of the gradient direction. Using a discrete-time approach with martingale tools, we establish under mild assumptions the weak convergence of the rescaled sequence of iterates for a broad class of conditioning matrices including stochastic first-order and second-order methods. Almost sure convergence results, which may be of independent interest, are also presented. Interestingly, the asymptotic normality result consists in a stochastic equicontinuity property so when the conditioning matrix is an estimate of the inverse Hessian, the algorithm is asymptotically optimal.",
+    "link": "http://arxiv.org/abs/2006.02745",
+    "context": "Title: Asymptotic Analysis of Conditioned Stochastic Gradient Descent. (arXiv:2006.02745v5 [math.ST] UPDATED)\nAbstract: In this paper, we investigate a general class of stochastic gradient descent (SGD) algorithms, called Conditioned SGD, based on a preconditioning of the gradient direction. Using a discrete-time approach with martingale tools, we establish under mild assumptions the weak convergence of the rescaled sequence of iterates for a broad class of conditioning matrices including stochastic first-order and second-order methods. Almost sure convergence results, which may be of independent interest, are also presented. Interestingly, the asymptotic normality result consists in a stochastic equicontinuity property so when the conditioning matrix is an estimate of the inverse Hessian, the algorithm is asymptotically optimal.",
+    "path": "papers/20/06/2006.02745.json",
+    "total_tokens": 785,
+    "translated_title": "条件随机梯度下降的渐近分析",
+    "translated_abstract": "本文研究了一类称为条件随机梯度下降（SGD）算法的一般类别，该算法基于梯度方向的预条件。使用离散时间方法和鞅工具，我们在较弱的假设下证明了迭代序列的重新缩放收敛性，适用于包括随机一阶和二阶方法在内的广泛条件矩阵类别。同时还介绍了具有独立兴趣的几乎肯定收敛的结果。有趣的是，渐近正态性结果包括一个随机等连续性性质，因此当条件矩阵是逆Hessian的估计时，该算法是渐近最优的。",
+    "tldr": "本文研究了一类称为条件随机梯度下降算法的通用类别，在进行梯度迭代时对梯度方向进行预条件。使用离散时间方法和鞅工具，在较弱的假设下证明了迭代序列的重新缩放收敛性，适用于包括随机一阶和二阶方法在内的广泛条件矩阵类别。同时，还介绍了具有独立兴趣的几乎肯定收敛的结果。"
+}

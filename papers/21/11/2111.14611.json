@@ -1,0 +1,11 @@
+{
+    "title": "Inference of time-ordered multibody interactions. (arXiv:2111.14611v2 [physics.soc-ph] UPDATED)",
+    "abstract": "We introduce time-ordered multibody interactions to describe complex systems manifesting temporal as well as multibody dependencies. First, we show how the dynamics of multivariate Markov chains can be decomposed in ensembles of time-ordered multibody interactions. Then, we present an algorithm to extract those interactions from data capturing the system-level dynamics of node states and a measure to characterize the complexity of interaction ensembles. Finally, we experimentally validate the robustness of our algorithm against statistical errors and its efficiency at inferring parsimonious interaction ensembles.",
+    "link": "http://arxiv.org/abs/2111.14611",
+    "context": "Title: Inference of time-ordered multibody interactions. (arXiv:2111.14611v2 [physics.soc-ph] UPDATED)\nAbstract: We introduce time-ordered multibody interactions to describe complex systems manifesting temporal as well as multibody dependencies. First, we show how the dynamics of multivariate Markov chains can be decomposed in ensembles of time-ordered multibody interactions. Then, we present an algorithm to extract those interactions from data capturing the system-level dynamics of node states and a measure to characterize the complexity of interaction ensembles. Finally, we experimentally validate the robustness of our algorithm against statistical errors and its efficiency at inferring parsimonious interaction ensembles.",
+    "path": "papers/21/11/2111.14611.json",
+    "total_tokens": 684,
+    "translated_title": "时序多体相互作用的推断",
+    "translated_abstract": "我们引入时序多体相互作用来描述表现出时间依赖性和多体依赖性的复杂系统。首先，我们展示了如何将多元马尔可夫链的动力学分解为时序多体相互作用的集合。然后，我们提出了一种从捕获节点状态系统级动力学的数据中提取这些相互作用的算法，以及一种用于表征相互作用集合复杂性的度量方法。最后，我们在统计误差下验证了我们的算法的稳健性，并证明了其推断简洁的相互作用集合的效率。",
+    "tldr": "本文介绍了时序多体相互作用的推断方法，该方法可以描述表现出时间依赖性和多体依赖性的复杂系统。通过将多元马尔可夫链的动力学分解为时序多体相互作用的集合，我们提出了一种从数据中提取这些相互作用的算法，并验证了算法的稳健性和效率。"
+}

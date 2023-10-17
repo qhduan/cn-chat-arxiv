@@ -1,0 +1,12 @@
+{
+    "title": "Optimal AdaBoost Converges. (arXiv:2210.07808v4 [stat.ML] UPDATED)",
+    "abstract": "The following work is a preprint collection of formal proofs regarding the convergence properties of the AdaBoost machine learning algorithm's classifier and margins. Various math and computer science papers have been written regarding conjectures and special cases of these convergence properties. Furthermore, the margins of AdaBoost feature prominently in the research surrounding the algorithm. At the zenith of this paper we present how AdaBoost's classifier and margins converge on a value that agrees with decades of research. After this, we show how various quantities associated with the combined classifier converge.",
+    "link": "http://arxiv.org/abs/2210.07808",
+    "context": "Title: Optimal AdaBoost Converges. (arXiv:2210.07808v4 [stat.ML] UPDATED)\nAbstract: The following work is a preprint collection of formal proofs regarding the convergence properties of the AdaBoost machine learning algorithm's classifier and margins. Various math and computer science papers have been written regarding conjectures and special cases of these convergence properties. Furthermore, the margins of AdaBoost feature prominently in the research surrounding the algorithm. At the zenith of this paper we present how AdaBoost's classifier and margins converge on a value that agrees with decades of research. After this, we show how various quantities associated with the combined classifier converge.",
+    "path": "papers/22/10/2210.07808.json",
+    "total_tokens": 654,
+    "translated_title": "最优AdaBoost算法的收敛性",
+    "translated_abstract": "本研究是关于AdaBoost机器学习算法分类器和边缘的收敛性性质的形式证明的预印本集合。针对这些收敛性性质的猜想和特殊情况已经编写了各种数学和计算机科学论文。此外，AdaBoost的边缘在围绕该算法的研究中占据重要地位。在本文的顶点，我们展示了AdaBoost的分类器和边缘如何收敛到与几十年的研究相一致的值。在此之后，我们展示了与组合分类器相关的各种数量是如何收敛的。",
+    "tldr": "本研究通过形式证明，展示了最优AdaBoost算法的分类器和边缘的收敛性质，结果与几十年的研究相一致。",
+    "en_tdlr": "This study presents formal proofs showing the convergence properties of the optimal AdaBoost algorithm's classifier and margins, which agree with decades of research."
+}

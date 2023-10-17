@@ -1,0 +1,12 @@
+{
+    "title": "Near-optimal Differentially Private Client Selection in Federated Settings. (arXiv:2310.09370v1 [cs.CR])",
+    "abstract": "We develop an iterative differentially private algorithm for client selection in federated settings. We consider a federated network wherein clients coordinate with a central server to complete a task; however, the clients decide whether to participate or not at a time step based on their preferences -- local computation and probabilistic intent. The algorithm does not require client-to-client information exchange. The developed algorithm provides near-optimal values to the clients over long-term average participation with a certain differential privacy guarantee. Finally, we present the experimental results to check the algorithm's efficacy.",
+    "link": "http://arxiv.org/abs/2310.09370",
+    "context": "Title: Near-optimal Differentially Private Client Selection in Federated Settings. (arXiv:2310.09370v1 [cs.CR])\nAbstract: We develop an iterative differentially private algorithm for client selection in federated settings. We consider a federated network wherein clients coordinate with a central server to complete a task; however, the clients decide whether to participate or not at a time step based on their preferences -- local computation and probabilistic intent. The algorithm does not require client-to-client information exchange. The developed algorithm provides near-optimal values to the clients over long-term average participation with a certain differential privacy guarantee. Finally, we present the experimental results to check the algorithm's efficacy.",
+    "path": "papers/23/10/2310.09370.json",
+    "total_tokens": 673,
+    "translated_title": "在联邦设置下的近优差分隐私客户选择",
+    "translated_abstract": "我们在联邦设置中开发了一个迭代的差分隐私算法，用于客户选择。我们考虑一个联邦网络，在这个网络中，客户端与中央服务器协调完成任务；然而，客户端根据其偏好（本地计算和概率意图）在每个时间步决定是否参与。该算法不需要客户端之间进行信息交换。所开发的算法为客户端提供接近最优的值，以满足一定的差分隐私保证的长期平均参与。最后，我们呈现实验结果来检验算法的有效性。",
+    "tldr": "本研究在联邦设置中开发了一种迭代的差分隐私算法，用于在客户端选择中提供接近最优的值，以满足一定的差分隐私保证的长期平均参与。",
+    "en_tdlr": "This study develops an iterative differentially private algorithm for client selection in federated settings, providing near-optimal values to clients over long-term average participation with a certain differential privacy guarantee."
+}

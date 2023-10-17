@@ -1,0 +1,11 @@
+{
+    "title": "A study on the plasticity of neural networks. (arXiv:2106.00042v2 [cs.LG] UPDATED)",
+    "abstract": "One aim shared by multiple settings, such as continual learning or transfer learning, is to leverage previously acquired knowledge to converge faster on the current task. Usually this is done through fine-tuning, where an implicit assumption is that the network maintains its plasticity, meaning that the performance it can reach on any given task is not affected negatively by previously seen tasks. It has been observed recently that a pretrained model on data from the same distribution as the one it is fine-tuned on might not reach the same generalisation as a freshly initialised one. We build and extend this observation, providing a hypothesis for the mechanics behind it. We discuss the implication of losing plasticity for continual learning which heavily relies on optimising pretrained models.",
+    "link": "http://arxiv.org/abs/2106.00042",
+    "context": "Title: A study on the plasticity of neural networks. (arXiv:2106.00042v2 [cs.LG] UPDATED)\nAbstract: One aim shared by multiple settings, such as continual learning or transfer learning, is to leverage previously acquired knowledge to converge faster on the current task. Usually this is done through fine-tuning, where an implicit assumption is that the network maintains its plasticity, meaning that the performance it can reach on any given task is not affected negatively by previously seen tasks. It has been observed recently that a pretrained model on data from the same distribution as the one it is fine-tuned on might not reach the same generalisation as a freshly initialised one. We build and extend this observation, providing a hypothesis for the mechanics behind it. We discuss the implication of losing plasticity for continual learning which heavily relies on optimising pretrained models.",
+    "path": "papers/21/06/2106.00042.json",
+    "total_tokens": 782,
+    "translated_title": "神经网络的可塑性研究",
+    "translated_abstract": "多个环境中的一个共同目标，如持续学习或迁移学习，是利用先前获得的知识来更快地在当前任务上收敛。通常，这通过微调来实现，其中一个隐含的假设是网络保持其可塑性，即它在任何给定任务上能够达到的性能不受先前任务的负面影响。最近观察到，在与重新初始化的模型相比，一个在与微调的数据具有相同分布的预训练模型可能无法达到相同的泛化能力。我们构建并扩展了这个观察结果，并提供了其背后机制的假设。我们讨论了对于严重依赖于优化预训练模型的持续学习而言，失去可塑性的影响。",
+    "tldr": "本研究探讨了神经网络的可塑性问题，发现在利用先前获得知识进行微调时，预训练模型可能无法达到相同的泛化能力，这对于持续学习具有重要影响。"
+}

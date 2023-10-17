@@ -1,0 +1,11 @@
+{
+    "title": "Concentration inequalities for leave-one-out cross validation. (arXiv:2211.02478v3 [math.ST] UPDATED)",
+    "abstract": "In this article we prove that estimator stability is enough to show that leave-one-out cross validation is a sound procedure, by providing concentration bounds in a general framework. In particular, we provide concentration bounds beyond Lipschitz continuity assumptions on the loss or on the estimator. We obtain our results by relying on random variables with distribution satisfying the logarithmic Sobolev inequality, providing us a relatively rich class of distributions. We illustrate our method by considering several interesting examples, including linear regression, kernel density estimation, and stabilized/truncated estimators such as stabilized kernel regression.",
+    "link": "http://arxiv.org/abs/2211.02478",
+    "context": "Title: Concentration inequalities for leave-one-out cross validation. (arXiv:2211.02478v3 [math.ST] UPDATED)\nAbstract: In this article we prove that estimator stability is enough to show that leave-one-out cross validation is a sound procedure, by providing concentration bounds in a general framework. In particular, we provide concentration bounds beyond Lipschitz continuity assumptions on the loss or on the estimator. We obtain our results by relying on random variables with distribution satisfying the logarithmic Sobolev inequality, providing us a relatively rich class of distributions. We illustrate our method by considering several interesting examples, including linear regression, kernel density estimation, and stabilized/truncated estimators such as stabilized kernel regression.",
+    "path": "papers/22/11/2211.02478.json",
+    "total_tokens": 728,
+    "translated_title": "用于留一法交叉验证的集中不等式",
+    "translated_abstract": "在本文中，我们证明了估计器的稳定性足以说明留一法交叉验证是一个可靠的过程，通过在一个通用的框架中提供集中界限。特别是，我们在损失函数或估计器上提供了超过Lipschitz连续性假设的集中界限。我们通过依赖具有满足对数Sobolev不等式的分布的随机变量来获得我们的结果，这为我们提供了一个相对丰富的分布类。我们通过考虑几个有趣的例子来说明我们的方法，包括线性回归，核密度估计以及稳定/截断估计器，例如稳定的核回归。",
+    "tldr": "本文证明了估计器的稳定性足以说明留一法交叉验证是可靠的，并通过提供集中界限超出Lipschitz连续性假设的损失函数或估计器，为我们提供了一个相对丰富的分布类。"
+}
