@@ -1,0 +1,12 @@
+{
+    "title": "Credibility in Credence Goods Markets. (arXiv:2310.09544v1 [econ.TH])",
+    "abstract": "An expert seller chooses an experiment to influence a client's purchasing decision, but may manipulate the experiment result for personal gain. When credibility surpasses a critical threshold, the expert chooses a fully-revealing experiment and, if possible, manipulates the unfavorable result. In this case, a higher credibility strictly benefits the expert, whereas the client never benefits from the expert's services. We also discuss policies regarding monitoring expert's disclosure and price regulation. When prices are imposed exogenously, monitoring disclosure does not affect the client's highest equilibrium value. A lower price may harm the client when it discourages the expert from disclosing information.",
+    "link": "http://arxiv.org/abs/2310.09544",
+    "context": "Title: Credibility in Credence Goods Markets. (arXiv:2310.09544v1 [econ.TH])\nAbstract: An expert seller chooses an experiment to influence a client's purchasing decision, but may manipulate the experiment result for personal gain. When credibility surpasses a critical threshold, the expert chooses a fully-revealing experiment and, if possible, manipulates the unfavorable result. In this case, a higher credibility strictly benefits the expert, whereas the client never benefits from the expert's services. We also discuss policies regarding monitoring expert's disclosure and price regulation. When prices are imposed exogenously, monitoring disclosure does not affect the client's highest equilibrium value. A lower price may harm the client when it discourages the expert from disclosing information.",
+    "path": "papers/23/10/2310.09544.json",
+    "total_tokens": 804,
+    "translated_title": "有关实质商品市场中的可信度",
+    "translated_abstract": "专家卖家选择一种实验来影响客户的购买决策，但可能会为了个人利益而篡改实验结果。当可信度超过临界阈值时，专家会选择全面披露的实验，并在可能的情况下操纵不利的结果。在这种情况下，更高的可信度严格利益于专家，而客户从专家的服务中永远不会受益。我们还讨论了监督专家披露和价格调控的政策。当价格被外生地加以强制时，监督披露不会影响客户最高的均衡价值。当它阻碍专家披露信息时，较低的价格可能对客户造成损害。",
+    "tldr": "本论文研究了在实质商品市场中的可信度问题。当可信度超过临界阈值时，专家会选择全面披露的实验并操纵不利的结果，这样专家会从中受益，而客户则无法获益。此外，论文还讨论了监督专家披露和价格调控的政策措施。",
+    "en_tdlr": "This paper examines the issue of credibility in credence goods markets. When credibility surpasses a critical threshold, the expert chooses a fully-revealing experiment and manipulates the unfavorable result, benefiting the expert while the client does not benefit. The paper also discusses policies regarding monitoring expert's disclosure and price regulation."
+}

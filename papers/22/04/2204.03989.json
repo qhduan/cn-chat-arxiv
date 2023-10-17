@@ -1,0 +1,11 @@
+{
+    "title": "Finding all stable matchings with assignment constraints. (arXiv:2204.03989v3 [econ.TH] UPDATED)",
+    "abstract": "In this paper we consider stable matchings that are subject to assignment constraints. These are matchings that require certain assigned pairs to be included, insist that some other assigned pairs are not, and, importantly, are stable. Our main contribution is an algorithm that determines when assignment constraints are compatible with stability. Whenever a stable matching consistent with the assignment constraints exists, our algorithm will output all of them (each in polynomial time per solution). This provides market designers with (i) a tool to test the feasibility of stable matchings with assignment constraints, and (ii) a separate tool to implement them.",
+    "link": "http://arxiv.org/abs/2204.03989",
+    "context": "Title: Finding all stable matchings with assignment constraints. (arXiv:2204.03989v3 [econ.TH] UPDATED)\nAbstract: In this paper we consider stable matchings that are subject to assignment constraints. These are matchings that require certain assigned pairs to be included, insist that some other assigned pairs are not, and, importantly, are stable. Our main contribution is an algorithm that determines when assignment constraints are compatible with stability. Whenever a stable matching consistent with the assignment constraints exists, our algorithm will output all of them (each in polynomial time per solution). This provides market designers with (i) a tool to test the feasibility of stable matchings with assignment constraints, and (ii) a separate tool to implement them.",
+    "path": "papers/22/04/2204.03989.json",
+    "total_tokens": 687,
+    "translated_title": "寻找受分配约束的所有稳定匹配",
+    "translated_abstract": "本文考虑了受到分配约束的稳定匹配。这些匹配需要包含某些分配对，坚持排除其他某些分配对，并且是稳定的。我们的主要贡献是提出了一个算法来确定分配约束与稳定性的兼容性。只要存在与分配约束一致的稳定匹配，我们的算法将输出所有稳定匹配（每个解的多项式时间）。这为市场设计者提供了（i）测试具有分配约束的稳定匹配可行性的工具，以及（ii）实施它们的单独工具。",
+    "tldr": "本文提出了一个算法，可以寻找受分配约束的稳定匹配，并输出所有的稳定匹配。这为市场设计者提供了测试和实施具有分配约束的稳定匹配的工具。"
+}

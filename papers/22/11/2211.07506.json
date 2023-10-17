@@ -1,0 +1,11 @@
+{
+    "title": "Type I Tobit Bayesian Additive Regression Trees for Censored Outcome Regression. (arXiv:2211.07506v3 [econ.EM] UPDATED)",
+    "abstract": "Censoring occurs when an outcome is unobserved beyond some threshold value. Methods that do not account for censoring produce biased predictions of the unobserved outcome. This paper introduces Type I Tobit Bayesian Additive Regression Tree (TOBART-1) models for censored outcomes. Simulation results and real data applications demonstrate that TOBART-1 produces accurate predictions of censored outcomes. TOBART-1 provides posterior intervals for the conditional expectation and other quantities of interest. The error term distribution can have a large impact on the expectation of the censored outcome. Therefore the error is flexibly modeled as a Dirichlet process mixture of normal distributions.",
+    "link": "http://arxiv.org/abs/2211.07506",
+    "context": "Title: Type I Tobit Bayesian Additive Regression Trees for Censored Outcome Regression. (arXiv:2211.07506v3 [econ.EM] UPDATED)\nAbstract: Censoring occurs when an outcome is unobserved beyond some threshold value. Methods that do not account for censoring produce biased predictions of the unobserved outcome. This paper introduces Type I Tobit Bayesian Additive Regression Tree (TOBART-1) models for censored outcomes. Simulation results and real data applications demonstrate that TOBART-1 produces accurate predictions of censored outcomes. TOBART-1 provides posterior intervals for the conditional expectation and other quantities of interest. The error term distribution can have a large impact on the expectation of the censored outcome. Therefore the error is flexibly modeled as a Dirichlet process mixture of normal distributions.",
+    "path": "papers/22/11/2211.07506.json",
+    "total_tokens": 742,
+    "translated_title": "带有截断结果回归的I型Tobit贝叶斯加性回归树",
+    "translated_abstract": "当结果超过某个阈值时，就会发生截断。不考虑截断的方法会产生对未观测到的结果的有偏预测。本文引入了一种适用于截断结果的I型Tobit贝叶斯加性回归树（TOBART-1）模型。模拟结果和实际数据应用表明，TOBART-1能够准确预测截断结果。TOBART-1提供了条件期望和其他感兴趣的数量的后验区间。误差项的分布对截断结果的期望有很大影响。因此，误差被灵活地建模为正态分布的Dirichlet过程混合。",
+    "tldr": "本文提出了一种适用于截断结果的I型Tobit贝叶斯加性回归树模型（TOBART-1），它能够准确预测截断结果，并提供了后验区间。"
+}

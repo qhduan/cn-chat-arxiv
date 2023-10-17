@@ -14,16 +14,17 @@
 | [^10] | [All AMMs are CFMMs. All DeFi markets have invariants. A DeFi market is arbitrage-free if and only if it has an increasing invariant.](http://arxiv.org/abs/2310.09782) | 这篇论文证明了在DeFi市场中，所有的AMMs都是CFMMs，并且DeFi市场无套利的充分必要条件是它具有一个递增的不变量。 |
 | [^11] | [A Portfolio Rebalancing Approach for the Indian Stock Market.](http://arxiv.org/abs/2310.09770) | 本研究介绍了一种针对印度股市的日历再平衡投资组合方法，分析了十个部门的再平衡投资组合的性能。 |
 | [^12] | [Economics unchained: Investigating the role of cryptocurrency, blockchain and intricacies of price fluctuations BITCOIN PRICE FLUCTUATIONS.](http://arxiv.org/abs/2310.09745) | 本研究对比特币的经济影响进行了深入分析，包括基本原理、技术进化和在经济生态系统中的作用。这些研究结果为个人、机构和决策者在非中心化金融领域的决策提供了有益的信息。 |
-| [^13] | [Prime Match: A Privacy-Preserving Inventory Matching System.](http://arxiv.org/abs/2310.09621) | Prime Match是一个保护隐私的库存配对系统，解决了金融领域中买家和卖家在交易机制中对于订单信息的担忧，确保交易的隐私性。 |
-| [^14] | [\"Uber wissenschaftliche Exzellenz und Wettbewerb.](http://arxiv.org/abs/2310.09588) | 本文讨论了科学研究和竞争背景下卓越的概念。 |
-| [^15] | [Sparse Index Tracking via Topological Learning.](http://arxiv.org/abs/2310.09578) | 本研究通过利用拓扑数据分析，提出了一种用于解决稀疏投资组合的指数跟踪问题的新方法。该方法利用持久性同调衡量资产风险，并通过拓扑学习参数的数据驱动方法进行正则化。实证结果表明，这种技术在风险控制方面优于传统方法。 |
-| [^16] | [Maximum Return on Investment for a Domestic Photovoltaic Installation.](http://arxiv.org/abs/2310.09323) | 本研究探索了如何最大化国内光伏安装的投资回报。通过在生产能力范围内逐步逼近负荷曲线，我们发现实时决策可以节省16％的能源，同时研究了独立于光伏的设备管理策略。 |
-| [^17] | [On the impact of insurance on households susceptible to random proportional losses: An analysis of poverty trapping.](http://arxiv.org/abs/2310.09295) | 本研究讨论了一个具有确定性增长和乘性跳跃的风险过程，模拟了低收入家庭的资本。通过分析陷阱概率和引入比例覆盖的保险产品，研究了保险对家庭陷入贫困的影响。 |
-| [^18] | [An empirical study of profit and loss allocations.](http://arxiv.org/abs/2309.07667) | 本研究通过实证研究了利润和损失分配中的三种分解原则，发现一次一个分解会产生无法解释的损失，而顺序更新和平均顺序更新可以完全解释利润和损失，且顺序更新与更新顺序有关。此外，分解原则的结果也受子区间大小的影响。 |
-| [^19] | [The Begining of the Trend: Interest Rates, Markups, and Inflation.](http://arxiv.org/abs/2307.08968) | 这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。 |
-| [^20] | [Discrete $q$-exponential limit order cancellation time distribution.](http://arxiv.org/abs/2306.00093) | 本文提出了基于幂律分布的限价单撤销时间模型，该模型中限价单撤销时间遵循离散的Tsallis q-指数分布。研究显示，金融市场订单流量中存在稳定的反相关性。 |
-| [^21] | [Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions.](http://arxiv.org/abs/2212.00336) | 本文提出了一种新的自动做市商机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。同时，通过均值/方差分析，将流动性提供者与持有自动做市商以外资产的代理人进行比较，以评估其盈亏表现。 |
-| [^22] | [The importance of being scrambled: supercharged Quasi Monte Carlo.](http://arxiv.org/abs/2210.16548) | 本研究通过应用混淆的Sobol低差异序列，结合了拟蒙特卡洛和随机化拟蒙特卡洛的优点，提供了在金融应用中实用的误差界限和收敛速度更快的结果。 |
+| [^13] | [Neural Network for valuing Bitcoin options under jump-diffusion and market sentiment model.](http://arxiv.org/abs/2310.09622) | 本研究提出了使用神经网络和多层感知器技术对比特币期权进行定价的方法，在考虑跳跃扩散和市场情绪模型的基础上，通过引入谷歌搜索数量作为情绪指示器，提出了比特币价格的闭合公式，并推导了比特币期权的Black-Scholes方程。 |
+| [^14] | [Prime Match: A Privacy-Preserving Inventory Matching System.](http://arxiv.org/abs/2310.09621) | Prime Match是一个保护隐私的库存配对系统，解决了金融领域中买家和卖家在交易机制中对于订单信息的担忧，确保交易的隐私性。 |
+| [^15] | [\"Uber wissenschaftliche Exzellenz und Wettbewerb.](http://arxiv.org/abs/2310.09588) | 本文讨论了科学研究和竞争背景下卓越的概念。 |
+| [^16] | [Sparse Index Tracking via Topological Learning.](http://arxiv.org/abs/2310.09578) | 本研究通过利用拓扑数据分析，提出了一种用于解决稀疏投资组合的指数跟踪问题的新方法。该方法利用持久性同调衡量资产风险，并通过拓扑学习参数的数据驱动方法进行正则化。实证结果表明，这种技术在风险控制方面优于传统方法。 |
+| [^17] | [Maximum Return on Investment for a Domestic Photovoltaic Installation.](http://arxiv.org/abs/2310.09323) | 本研究探索了如何最大化国内光伏安装的投资回报。通过在生产能力范围内逐步逼近负荷曲线，我们发现实时决策可以节省16％的能源，同时研究了独立于光伏的设备管理策略。 |
+| [^18] | [On the impact of insurance on households susceptible to random proportional losses: An analysis of poverty trapping.](http://arxiv.org/abs/2310.09295) | 本研究讨论了一个具有确定性增长和乘性跳跃的风险过程，模拟了低收入家庭的资本。通过分析陷阱概率和引入比例覆盖的保险产品，研究了保险对家庭陷入贫困的影响。 |
+| [^19] | [An empirical study of profit and loss allocations.](http://arxiv.org/abs/2309.07667) | 本研究通过实证研究了利润和损失分配中的三种分解原则，发现一次一个分解会产生无法解释的损失，而顺序更新和平均顺序更新可以完全解释利润和损失，且顺序更新与更新顺序有关。此外，分解原则的结果也受子区间大小的影响。 |
+| [^20] | [The Begining of the Trend: Interest Rates, Markups, and Inflation.](http://arxiv.org/abs/2307.08968) | 这项研究通过分析市场力量和企业利润对通胀的影响，发现实际利率下降导致经济利润和加价显著增长，但企业利润对通胀的影响较小。 |
+| [^21] | [Discrete $q$-exponential limit order cancellation time distribution.](http://arxiv.org/abs/2306.00093) | 本文提出了基于幂律分布的限价单撤销时间模型，该模型中限价单撤销时间遵循离散的Tsallis q-指数分布。研究显示，金融市场订单流量中存在稳定的反相关性。 |
+| [^22] | [Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions.](http://arxiv.org/abs/2212.00336) | 本文提出了一种新的自动做市商机制，其中价格发现不仅仅依赖于流动性提供者，还依赖于外部汇率或价格预言机。同时，通过均值/方差分析，将流动性提供者与持有自动做市商以外资产的代理人进行比较，以评估其盈亏表现。 |
+| [^23] | [The importance of being scrambled: supercharged Quasi Monte Carlo.](http://arxiv.org/abs/2210.16548) | 本研究通过应用混淆的Sobol低差异序列，结合了拟蒙特卡洛和随机化拟蒙特卡洛的优点，提供了在金融应用中实用的误差界限和收敛速度更快的结果。 |
 
 # 详细
 
@@ -195,7 +196,21 @@
 
     This research paper presents a thorough economic analysis of Bitcoin and its impact. We delve into fundamental principles, and technological evolution into a prominent decentralized digital currency. Analysing Bitcoin's economic dynamics, we explore aspects such as transaction volume, market capitalization, mining activities, and macro trends. Moreover, we investigate Bitcoin's role in economy ecosystem, considering its implications on traditional financial systems, monetary policies, and financial inclusivity. We utilize statistical and analytical tools to assess equilibrium , market behaviour, and economic . Insights from this analysis provide a comprehensive understanding of Bitcoin's economic significance and its transformative potential in shaping the future of global finance. This research contributes to informed decision-making for individuals, institutions, and policymakers navigating the evolving landscape of decentralized finance.
     
-[^13]: Prime Match: 一个保护隐私的库存配对系统
+[^13]: 使用跳跃扩散和市场情绪模型估值比特币期权的神经网络
+
+    Neural Network for valuing Bitcoin options under jump-diffusion and market sentiment model. (arXiv:2310.09622v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2310.09622](http://arxiv.org/abs/2310.09622)
+
+    本研究提出了使用神经网络和多层感知器技术对比特币期权进行定价的方法，在考虑跳跃扩散和市场情绪模型的基础上，通过引入谷歌搜索数量作为情绪指示器，提出了比特币价格的闭合公式，并推导了比特币期权的Black-Scholes方程。
+
+    
+
+    加密货币，尤其是比特币，容易出现剧烈波动，导致价格频繁跳跃，因此历来受到交易员投机的青睐。对这些波动的更好理解可以让加密货币投资者通过做出明智的决策获益。最近的文献声称比特币的价格受到关于比特币系统的情绪影响。交易量以及比特币的流行度显示出作为比特币价格潜在驱动因素的正面证据。本研究考虑了一个描述比特币价格动态和影响价格的谷歌搜索数量的双变量跳跃扩散模型，作为情绪指示器。我们得到了比特币价格的闭合公式，并推导了比特币期权的Black-Scholes方程。我们首先通过引入人工神经网络和多层感知器技术解决了相应的比特币期权偏微分方程来定价过程。
+
+    Cryptocurrencies and Bitcoin, in particular, are prone to wild swings resulting in frequent jumps in prices, making them historically popular for traders to speculate. A better understanding of these fluctuations can greatly benefit crypto investors by allowing them to make informed decisions. It is claimed in recent literature that Bitcoin price is influenced by sentiment about the Bitcoin system. Transaction, as well as the popularity, have shown positive evidence as potential drivers of Bitcoin price. This study considers a bivariate jump-diffusion model to describe Bitcoin price dynamics and the number of Google searches affecting the price, representing a sentiment indicator. We obtain a closed formula for the Bitcoin price and derive the Black-Scholes equation for Bitcoin options. We first solve the corresponding Bitcoin option partial differential equation for the pricing process by introducing artificial neural networks and incorporating multi-layer perceptron techniques. The p
+    
+[^14]: Prime Match: 一个保护隐私的库存配对系统
 
     Prime Match: A Privacy-Preserving Inventory Matching System. (arXiv:2310.09621v1 [cs.CR])
 
@@ -209,7 +224,7 @@
 
     Inventory matching is a standard mechanism/auction for trading financial stocks by which buyers and sellers can be paired. In the financial world, banks often undertake the task of finding such matches between their clients. The related stocks can be traded without adversely impacting the market price for either client. If matches between clients are found, the bank can offer the trade at advantageous rates. If no match is found, the parties have to buy or sell the stock in the public market, which introduces additional costs. A problem with the process as it is presently conducted is that the involved parties must share their order to buy or sell a particular stock, along with the intended quantity (number of shares), to the bank. Clients worry that if this information were to leak somehow, then other market participants would become aware of their intentions and thus cause the price to move adversely against them before their transaction finalizes. We provide a solution, Prime Match,
     
-[^14]: "关于科学卓越与竞争的论文"
+[^15]: "关于科学卓越与竞争的论文"
 
     \"Uber wissenschaftliche Exzellenz und Wettbewerb. (arXiv:2310.09588v1 [econ.GN])
 
@@ -223,7 +238,7 @@
 
     The pursuit of excellence seems to be the True North of academia. What is meant by excellence? Can excellence be measured? This article discusses the concept of excellence in the context of research and competition.
     
-[^15]: 稀疏指数跟踪的拓扑学习方法研究
+[^16]: 稀疏指数跟踪的拓扑学习方法研究
 
     Sparse Index Tracking via Topological Learning. (arXiv:2310.09578v1 [cs.CE])
 
@@ -237,7 +252,7 @@
 
     In this research, we introduce a novel methodology for the index tracking problem with sparse portfolios by leveraging topological data analysis (TDA). Utilizing persistence homology to measure the riskiness of assets, we introduce a topological method for data-driven learning of the parameters for regularization terms. Specifically, the Vietoris-Rips filtration method is utilized to capture the intricate topological features of asset movements, providing a robust framework for portfolio tracking. Our approach has the advantage of accommodating both $\ell_1$ and $\ell_2$ penalty terms without the requirement for expensive estimation procedures. We empirically validate the performance of our methodology against state-of-the-art sparse index tracking techniques, such as Elastic-Net and SLOPE, using a dataset that covers 23 years of S&P500 index and its constituent data. Our out-of-sample results show that this computationally efficient technique surpasses conventional methods across risk
     
-[^16]: 国内光伏安装的最大投资回报
+[^17]: 国内光伏安装的最大投资回报
 
     Maximum Return on Investment for a Domestic Photovoltaic Installation. (arXiv:2310.09323v1 [math.OC])
 
@@ -251,7 +266,7 @@
 
     The rising energy prices in Europe and the urgent need to address global warming have sparked a significant increase in the installation of domestic photovoltaic systems to harness solar energy. However, since solar energy is available only during daytime hours and its availability varies daily, effectively shifting energy use becomes crucial. Whilst batteries can assist in storing excess energy, their high prices hinder their widespread adoption. In this study, we explore the importance of load to maximise return on investment. We propose an incremental approach to fitting load profiles into the production envelope, allowing for practical implementation. We compare different meter resolutions: 1 second, 5 minutes, 15 minutes, and 1 hour. Our analysis reveals that making real-time decisions (per second) leads to significant energy savings of 16\% compared to hourly decisions. Furthermore, we explore three types of device management strategies: ON/OFF management independent of PV produc
     
-[^17]: 关于保险对易受随机比例损失影响的研究：贫困陷阱分析
+[^18]: 关于保险对易受随机比例损失影响的研究：贫困陷阱分析
 
     On the impact of insurance on households susceptible to random proportional losses: An analysis of poverty trapping. (arXiv:2310.09295v1 [q-fin.RM])
 
@@ -265,7 +280,7 @@
 
     In this paper, we consider a risk process with deterministic growth and multiplicative jumps to model the capital of a low-income household. Reflecting the high-risk nature of the low-income environment, capital losses are assumed to be proportional to the level of accumulated capital at the jump time. Our aim is to derive the probability that a household falls below the poverty line, i.e. the trapping probability, where ``trapping" occurs when the level of capital of a household holds falls below the poverty line, to an area from which it is difficult to escape without external help. Considering the remaining proportion of capital to be distributed as a special case of the beta distribution, closed-form expressions for the trapping probability are obtained via analysis of the Laplace transform of the infinitesimal generator of the process. To study the impact of insurance on this probability, introduction of an insurance product offering proportional coverage is presented. The infinit
     
-[^18]: 利润和损失分配的实证研究
+[^19]: 利润和损失分配的实证研究
 
     An empirical study of profit and loss allocations. (arXiv:2309.07667v1 [q-fin.PM])
 
@@ -279,7 +294,7 @@
 
     The decomposition of the investment profit and loss (p&l) for each business year into different risk factors (e.g., interest rates, credit spreads, foreign exchange rate etc.) is a task that is regulatory required, e.g., by Solvency 2. Three different decomposition principles are prevalent: one-at-a-time (OAT), sequential updating (SU) and average sequential updating (ASU) decompositions. The SU and the ASU decompositions explain the p&l fully. However, the OAT decomposition generates some unexplained p&l. The SU decomposition depends on the order or labeling of the risk factors. The three decompositions can be defined on different sub-intervals using annually, quarterly, monthly or daily data. In this research, we empirically quantify: the unexplained p\&l of the OAT decomposition; the dependence of the SU decomposition on the update order; and how much the three decomposition principles depend on the size of the sub-intervals.
     
-[^19]: 开始的趋势：利率、加价和通胀。(arXiv:2307.08968v1 [econ.GN])
+[^20]: 开始的趋势：利率、加价和通胀。(arXiv:2307.08968v1 [econ.GN])
 
     The Begining of the Trend: Interest Rates, Markups, and Inflation. (arXiv:2307.08968v1 [econ.GN])
 
@@ -293,7 +308,7 @@
 
     Recent literature argues the decline in real interest rates led to significant increases in economic profits and markups. Consequently, some have linked rising market power to inflation. We scrutinize the effect of time series sensitivity on estimating secular trends through two relevant examples: increasing market power perceived as rising markups and the influence of corporate profits on inflation. Our analysis reveals that a four-year shift in sample start dates significantly affects economic profit growth trends, accounting for 19% of the trend, or $3,000 per worker in 2014. Likewise, our qualitative evidence suggests that increased corporate profits are unlikely to drive inflation.
     
-[^20]: 离散$q$指数限价单撤销时间分布
+[^21]: 离散$q$指数限价单撤销时间分布
 
     Discrete $q$-exponential limit order cancellation time distribution. (arXiv:2306.00093v1 [physics.soc-ph])
 
@@ -307,7 +322,7 @@
 
     Identifying the best possible models based on given empirical data of observed time series is challenging. The financial markets provide us with vast empirical data, but the best model selection is still problematic for researchers. The widely used long-range memory and self-similarity estimators give varying values of the parameters as these estimators are developed for specific time series models. Previously we investigated the order disbalance time series from the general fractional L\'{e}vy stable motion perspective and discovered the stable anti-correlation in the order flow of financial markets. Nevertheless, a more detailed consideration of empirical data suggests we construct a more specific order flow model based on the power-law distribution of limit order cancellation times. In the event time consideration, the limit order cancellation times follow the discrete probability mass function derived from the Tsallis q-Exponential distribution. The power-law distribution of the li
     
-[^21]: 自动做市商：LP的收益的均值方差分析和定价函数的设计
+[^22]: 自动做市商：LP的收益的均值方差分析和定价函数的设计
 
     Automated Market Makers: Mean-Variance Analysis of LPs Payoffs and Design of Pricing Functions. (arXiv:2212.00336v3 [q-fin.TR] UPDATED)
 
@@ -321,7 +336,7 @@
 
     With the emergence of decentralized finance, new trading mechanisms called Automated Market Makers have appeared. The most popular Automated Market Makers are Constant Function Market Makers. They have been studied both theoretically and empirically. In particular, the concept of impermanent loss has emerged and explains part of the profit and loss of liquidity providers in Constant Function Market Makers. In this paper, we propose another mechanism in which price discovery does not solely rely on liquidity takers but also on an external exchange rate or price oracle. We also propose to compare the different mechanisms from the point of view of liquidity providers by using a mean / variance analysis of their profit and loss compared to that of agents holding assets outside of Automated Market Makers. In particular, inspired by Markowitz' modern portfolio theory, we manage to obtain an efficient frontier for the performance of liquidity providers in the idealized case of a perfect oracl
     
-[^22]: 重要性在于混淆：超强化拟蒙特卡洛方法
+[^23]: 重要性在于混淆：超强化拟蒙特卡洛方法
 
     The importance of being scrambled: supercharged Quasi Monte Carlo. (arXiv:2210.16548v2 [q-fin.CP] UPDATED)
 
