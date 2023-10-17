@@ -9,11 +9,12 @@
 | [^5] | [Addressing the cold start problem in privacy preserving content-based recommender systems using hypercube graphs.](http://arxiv.org/abs/2310.09341) | 本研究利用超立方图解决了隐私保护基于内容的推荐系统中的冷启动问题，通过仅使用有限的评分数量确定用户偏好，更好地保护用户隐私，在实验中验证了方法的有效性，并证明其在小规模数据集上超过标准机器学习算法的性能。 |
 | [^6] | [Non-Stationary Contextual Bandit Learning via Neural Predictive Ensemble Sampling.](http://arxiv.org/abs/2310.07786) | 本文介绍了一种新颖的非稳态情境赌博算法，通过将可扩展的基于深度神经网络的架构与精心设计的探索机制相结合，在非稳态环境中优先收集持久价值信息，从而显著提高了性能。 |
 | [^7] | [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining.](http://arxiv.org/abs/2309.04761) | 本调研综合审查了在教育数据挖掘中深度学习技术的最新研究进展，包括对知识跟踪、学生不良行为检测、性能预测和个性化推荐等典型教育场景的应用。同时提供了公共数据集和处理工具的综合概述，并指出了未来的研究方向。 |
-| [^8] | [VIP5: Towards Multimodal Foundation Models for Recommendation.](http://arxiv.org/abs/2305.14302) | VIP5是一个多模态基础模型，通过统一图像、文本和个性化模态，实现了多模态的共享架构，提高了推荐系统的效果。 |
-| [^9] | [Query-as-context Pre-training for Dense Passage Retrieval.](http://arxiv.org/abs/2212.09598) | 本文提出了一种名为查询作为上下文的预训练技术，将查询作为上下文，形成一对通道-查询对，用于缓解密集型通道检索中可能存在的弱相关对，并在大规模基准测试上证明了其有效性和效率。 |
-| [^10] | [Knowledge Graph Embedding: A Survey from the Perspective of Representation Spaces.](http://arxiv.org/abs/2211.03536) | 本文从表示空间的角度对知识图谱嵌入技术进行了综述，通过分类和讨论不同的数学角度和方法，介绍了KGE模型及其优势。 |
-| [^11] | [Hybrid Inverted Index Is a Robust Accelerator for Dense Retrieval.](http://arxiv.org/abs/2210.05521) | 本研究提出了一种混合倒排索引(HI$^2$)用于加速稠密检索，通过嵌入聚类和显著词汇的协同作用，构建紧凑的倒排列表并提高检索质量。 |
-| [^12] | [Sentiment Analysis Using Averaged Weighted Word Vector Features.](http://arxiv.org/abs/2002.05606) | 本文提出了两种使用不同类型的词向量进行情感分析的方法，通过计算加权平均词向量特征来学习和估计评论的极性，同时与已有方法进行对比。 |
+| [^8] | [Looks Can Be Deceiving: Linking User-Item Interactions and User's Propensity Towards Multi-Objective Recommendations.](http://arxiv.org/abs/2307.00654) | 本文通过监测用户与推荐物品的交互方式以及用户对相关性、新奇性和多样性目标的倾向的自述，展示了多目标推荐系统（MORS）的重要性。研究发现，尽管MORS的推荐吸引了较少的选择，但其在早期阶段的存在对用户的满意度具有关键作用。 |
+| [^9] | [VIP5: Towards Multimodal Foundation Models for Recommendation.](http://arxiv.org/abs/2305.14302) | VIP5是一个多模态基础模型，通过统一图像、文本和个性化模态，实现了多模态的共享架构，提高了推荐系统的效果。 |
+| [^10] | [Query-as-context Pre-training for Dense Passage Retrieval.](http://arxiv.org/abs/2212.09598) | 本文提出了一种名为查询作为上下文的预训练技术，将查询作为上下文，形成一对通道-查询对，用于缓解密集型通道检索中可能存在的弱相关对，并在大规模基准测试上证明了其有效性和效率。 |
+| [^11] | [Knowledge Graph Embedding: A Survey from the Perspective of Representation Spaces.](http://arxiv.org/abs/2211.03536) | 本文从表示空间的角度对知识图谱嵌入技术进行了综述，通过分类和讨论不同的数学角度和方法，介绍了KGE模型及其优势。 |
+| [^12] | [Hybrid Inverted Index Is a Robust Accelerator for Dense Retrieval.](http://arxiv.org/abs/2210.05521) | 本研究提出了一种混合倒排索引(HI$^2$)用于加速稠密检索，通过嵌入聚类和显著词汇的协同作用，构建紧凑的倒排列表并提高检索质量。 |
+| [^13] | [Sentiment Analysis Using Averaged Weighted Word Vector Features.](http://arxiv.org/abs/2002.05606) | 本文提出了两种使用不同类型的词向量进行情感分析的方法，通过计算加权平均词向量特征来学习和估计评论的极性，同时与已有方法进行对比。 |
 
 # 详细
 
@@ -115,7 +116,21 @@
 
     Educational Data Mining (EDM) has emerged as a vital field of research, which harnesses the power of computational techniques to analyze educational data. With the increasing complexity and diversity of educational data, Deep Learning techniques have shown significant advantages in addressing the challenges associated with analyzing and modeling this data. This survey aims to systematically review the state-of-the-art in EDM with Deep Learning. We begin by providing a brief introduction to EDM and Deep Learning, highlighting their relevance in the context of modern education. Next, we present a detailed review of Deep Learning techniques applied in four typical educational scenarios, including knowledge tracing, undesirable student detecting, performance prediction, and personalized recommendation. Furthermore, a comprehensive overview of public datasets and processing tools for EDM is provided. Finally, we point out emerging trends and future directions in this research area.
     
-[^8]: VIP5：面向推荐的多模态基础模型
+[^8]: 外貌可能具有欺骗性：用户-物品交互与用户对多目标推荐的倾向的联系
+
+    Looks Can Be Deceiving: Linking User-Item Interactions and User's Propensity Towards Multi-Objective Recommendations. (arXiv:2307.00654v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2307.00654](http://arxiv.org/abs/2307.00654)
+
+    本文通过监测用户与推荐物品的交互方式以及用户对相关性、新奇性和多样性目标的倾向的自述，展示了多目标推荐系统（MORS）的重要性。研究发现，尽管MORS的推荐吸引了较少的选择，但其在早期阶段的存在对用户的满意度具有关键作用。
+
+    
+
+    多目标推荐系统（MORS）根据多个（可能相互冲突的）目标为用户提供建议。当系统优化单个用户级别的结果时，它会根据用户对不同目标的倾向来定制建议。因此，理解用户对每个目标的精细需求的能力至关重要。在本文中，我们介绍了一项用户研究的结果，我们监控了用户与推荐物品的互动方式，以及他们自己对相关性、新奇性和多样性目标的倾向。该研究被分为多个会话，用户评估了源自仅相关性单目标基准以及MORS的推荐列表。我们发现，尽管基于MORS的推荐吸引了较少的选择，但其在早期阶段的存在对用户在后期的满意度至关重要。令人惊讶的是，用户自称愿意与新颖和多样性进行互动的意愿
+
+    Multi-objective recommender systems (MORS) provide suggestions to users according to multiple (and possibly conflicting) goals. When a system optimizes its results at the individual-user level, it tailors them on a user's propensity towards the different objectives. Hence, the capability to understand users' fine-grained needs towards each goal is crucial. In this paper, we present the results of a user study in which we monitored the way users interacted with recommended items, as well as their self-proclaimed propensities towards relevance, novelty and diversity objectives. The study was divided into several sessions, where users evaluated recommendation lists originating from a relevance-only single-objective baseline as well as MORS. We show that despite MORS-based recommendations attracted less selections, its presence in the early sessions is crucial for users' satisfaction in the later stages. Surprisingly, the self-proclaimed willingness of users to interact with novel and dive
+    
+[^9]: VIP5：面向推荐的多模态基础模型
 
     VIP5: Towards Multimodal Foundation Models for Recommendation. (arXiv:2305.14302v2 [cs.IR] UPDATED)
 
@@ -129,7 +144,7 @@
 
     Computer Vision (CV), Natural Language Processing (NLP), and Recommender Systems (RecSys) are three prominent AI applications that have traditionally developed independently, resulting in disparate modeling and engineering methodologies. This has impeded the ability for these fields to directly benefit from each other's advancements. With the recent development of foundation models, large language models have emerged as a potential general-purpose interface for unifying different modalities and problem formulations. In light of this, we propose the development of a multimodal foundation model (MFM) considering visual, textual, and personalization modalities under the P5 recommendation paradigm, thus named VIP5 (Visual P5), to unify various modalities and recommendation tasks. This will enable the processing of multiple modalities in a shared architecture for improved recommendations. To achieve this, we introduce multimodal personalized prompts to accommodate multiple modalities under 
     
-[^9]: 查询作为上下文的预训练技术用于密集型通道检索
+[^10]: 查询作为上下文的预训练技术用于密集型通道检索
 
     Query-as-context Pre-training for Dense Passage Retrieval. (arXiv:2212.09598v2 [cs.IR] UPDATED)
 
@@ -143,7 +158,7 @@
 
     Recently, methods have been developed to improve the performance of dense passage retrieval by using context-supervised pre-training. These methods simply consider two passages from the same document to be relevant, without taking into account the possibility of weakly correlated pairs. Thus, this paper proposes query-as-context pre-training, a simple yet effective pre-training technique to alleviate the issue. Query-as-context pre-training assumes that the query derived from a passage is more likely to be relevant to that passage and forms a passage-query pair. These passage-query pairs are then used in contrastive or generative context-supervised pre-training. The pre-trained models are evaluated on large-scale passage retrieval benchmarks and out-of-domain zero-shot benchmarks. Experimental results show that query-as-context pre-training brings considerable gains and meanwhile speeds up training, demonstrating its effectiveness and efficiency. Our code will be available at https://g
     
-[^10]: 知识图谱嵌入：基于表示空间的综述
+[^11]: 知识图谱嵌入：基于表示空间的综述
 
     Knowledge Graph Embedding: A Survey from the Perspective of Representation Spaces. (arXiv:2211.03536v2 [cs.LG] UPDATED)
 
@@ -157,7 +172,7 @@
 
     Knowledge graph embedding (KGE) is an increasingly popular technique that aims to represent entities and relations of knowledge graphs into low-dimensional semantic spaces for a wide spectrum of applications such as link prediction, knowledge reasoning and knowledge completion. In this paper, we provide a systematic review of existing KGE techniques based on representation spaces. Particularly, we build a fine-grained classification to categorise the models based on three mathematical perspectives of the representation spaces: (1) Algebraic perspective, (2) Geometric perspective, and (3) Analytical perspective. We introduce the rigorous definitions of fundamental mathematical spaces before diving into KGE models and their mathematical properties. We further discuss different KGE methods over the three categories, as well as summarise how spatial advantages work over different embedding needs. By collating the experimental results from downstream tasks, we also explore the advantages of
     
-[^11]: 混合倒排索引是一种强大的稠密检索加速器
+[^12]: 混合倒排索引是一种强大的稠密检索加速器
 
     Hybrid Inverted Index Is a Robust Accelerator for Dense Retrieval. (arXiv:2210.05521v2 [cs.IR] UPDATED)
 
@@ -171,7 +186,7 @@
 
     Inverted file structure is a common technique for accelerating dense retrieval. It clusters documents based on their embeddings; during searching, it probes nearby clusters w.r.t. an input query and only evaluates documents within them by subsequent codecs, thus avoiding the expensive cost of exhaustive traversal. However, the clustering is always lossy, which results in the miss of relevant documents in the probed clusters and hence degrades retrieval quality. In contrast, lexical matching, such as overlaps of salient terms, tends to be strong feature for identifying relevant documents. In this work, we present the Hybrid Inverted Index (HI$^2$), where the embedding clusters and salient terms work collaboratively to accelerate dense retrieval. To make best of both effectiveness and efficiency, we devise a cluster selector and a term selector, to construct compact inverted lists and efficiently searching through them. Moreover, we leverage simple unsupervised algorithms as well as end-
     
-[^12]: 使用加权平均词向量特征进行情感分析
+[^13]: 使用加权平均词向量特征进行情感分析
 
     Sentiment Analysis Using Averaged Weighted Word Vector Features. (arXiv:2002.05606v2 [cs.CL] UPDATED)
 
