@@ -1,0 +1,12 @@
+{
+    "title": "Harnessing the Power of LLMs: Evaluating Human-AI text Co-Creation through the Lens of News Headline Generation. (arXiv:2310.10706v1 [cs.CL])",
+    "abstract": "To explore how humans can best leverage LLMs for writing and how interacting with these models affects feelings of ownership and trust in the writing process, we compared common human-AI interaction types (e.g., guiding system, selecting from system outputs, post-editing outputs) in the context of LLM-assisted news headline generation. While LLMs alone can generate satisfactory news headlines, on average, human control is needed to fix undesirable model outputs. Of the interaction methods, guiding and selecting model output added the most benefit with the lowest cost (in time and effort). Further, AI assistance did not harm participants' perception of control compared to freeform editing.",
+    "link": "http://arxiv.org/abs/2310.10706",
+    "context": "Title: Harnessing the Power of LLMs: Evaluating Human-AI text Co-Creation through the Lens of News Headline Generation. (arXiv:2310.10706v1 [cs.CL])\nAbstract: To explore how humans can best leverage LLMs for writing and how interacting with these models affects feelings of ownership and trust in the writing process, we compared common human-AI interaction types (e.g., guiding system, selecting from system outputs, post-editing outputs) in the context of LLM-assisted news headline generation. While LLMs alone can generate satisfactory news headlines, on average, human control is needed to fix undesirable model outputs. Of the interaction methods, guiding and selecting model output added the most benefit with the lowest cost (in time and effort). Further, AI assistance did not harm participants' perception of control compared to freeform editing.",
+    "path": "papers/23/10/2310.10706.json",
+    "total_tokens": 794,
+    "translated_title": "发挥LLMs的能量：通过新闻标题生成的视角评估人工智能协作创作",
+    "translated_abstract": "为了探索人类如何最好地利用LLMs进行写作，并了解与这些模型的交互如何影响写作过程中的所有权感和信任度，我们在LLM辅助新闻标题生成的背景下比较了常见的人工智能协作类型（例如，引导系统，从系统输出中进行选择，后期编辑输出）。尽管LLMs单独可以生成令人满意的新闻标题，但平均而言，人类的控制是需要的，以修复不可取的模型输出。在各种交互方法中，引导和选择模型输出增加了最多的效益，代价最低（时间和精力）。此外，人工智能协助并没有损害参与者对控制的感知，与自由编辑相比。",
+    "tldr": "该研究通过对LLMs辅助新闻标题生成的人工智能协作方法进行比较，发现引导和选择模型输出能够带来最大的效益，并且与自由编辑相比并不损害参与者对控制的感知。",
+    "en_tdlr": "This study compares different human-AI interaction methods in LLM-assisted news headline generation and finds that guiding and selecting model output can bring the most benefit without harming participants' perception of control compared to freeform editing."
+}

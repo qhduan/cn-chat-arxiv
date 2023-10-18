@@ -1,0 +1,12 @@
+{
+    "title": "A decoder-only foundation model for time-series forecasting. (arXiv:2310.10688v1 [cs.CL])",
+    "abstract": "Motivated by recent advances in large language models for Natural Language Processing (NLP), we design a time-series foundation model for forecasting whose out-of-the-box zero-shot performance on a variety of public datasets comes close to the accuracy of state-of-the-art supervised forecasting models for each individual dataset. Our model is based on pretraining a patched-decoder style attention model on a large time-series corpus, and can work well across different forecasting history lengths, prediction lengths and temporal granularities.",
+    "link": "http://arxiv.org/abs/2310.10688",
+    "context": "Title: A decoder-only foundation model for time-series forecasting. (arXiv:2310.10688v1 [cs.CL])\nAbstract: Motivated by recent advances in large language models for Natural Language Processing (NLP), we design a time-series foundation model for forecasting whose out-of-the-box zero-shot performance on a variety of public datasets comes close to the accuracy of state-of-the-art supervised forecasting models for each individual dataset. Our model is based on pretraining a patched-decoder style attention model on a large time-series corpus, and can work well across different forecasting history lengths, prediction lengths and temporal granularities.",
+    "path": "papers/23/10/2310.10688.json",
+    "total_tokens": 639,
+    "translated_title": "一种仅解码器的时间序列预测基础模型",
+    "translated_abstract": "受到自然语言处理中大型语言模型的最新进展的启发，我们设计了一种用于预测的时间序列基础模型，其在各种公共数据集上的开箱即用的零样本性能接近每个个别数据集上最先进的监督预测模型的准确性。我们的模型基于在大型时间序列语料库上预训练的补丁解码器式注意力模型，并可以适用于不同的预测历史长度、预测长度和时间粒度。",
+    "tldr": "本论文介绍了一种基于补丁解码器式注意力模型的时间序列预测基础模型，该模型在零样本情况下在各种公共数据集上的性能接近最先进的监督预测模型。",
+    "en_tdlr": "This paper presents a decoder-only foundation model for time-series forecasting, which achieves comparable performance to state-of-the-art supervised forecasting models on various public datasets in zero-shot scenarios."
+}

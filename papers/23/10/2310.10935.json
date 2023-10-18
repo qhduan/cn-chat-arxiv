@@ -1,0 +1,11 @@
+{
+    "title": "Intent Detection and Slot Filling for Home Assistants: Dataset and Analysis for Bangla and Sylheti. (arXiv:2310.10935v1 [cs.CL])",
+    "abstract": "As voice assistants cement their place in our technologically advanced society, there remains a need to cater to the diverse linguistic landscape, including colloquial forms of low-resource languages. Our study introduces the first-ever comprehensive dataset for intent detection and slot filling in formal Bangla, colloquial Bangla, and Sylheti languages, totaling 984 samples across 10 unique intents. Our analysis reveals the robustness of large language models for tackling downstream tasks with inadequate data. The GPT-3.5 model achieves an impressive F1 score of 0.94 in intent detection and 0.51 in slot filling for colloquial Bangla.",
+    "link": "http://arxiv.org/abs/2310.10935",
+    "context": "Title: Intent Detection and Slot Filling for Home Assistants: Dataset and Analysis for Bangla and Sylheti. (arXiv:2310.10935v1 [cs.CL])\nAbstract: As voice assistants cement their place in our technologically advanced society, there remains a need to cater to the diverse linguistic landscape, including colloquial forms of low-resource languages. Our study introduces the first-ever comprehensive dataset for intent detection and slot filling in formal Bangla, colloquial Bangla, and Sylheti languages, totaling 984 samples across 10 unique intents. Our analysis reveals the robustness of large language models for tackling downstream tasks with inadequate data. The GPT-3.5 model achieves an impressive F1 score of 0.94 in intent detection and 0.51 in slot filling for colloquial Bangla.",
+    "path": "papers/23/10/2310.10935.json",
+    "total_tokens": 816,
+    "translated_title": "基于家庭助手的意图检测和槽位填充：孟加拉语和锡尔赫蒂语的数据集和分析",
+    "translated_abstract": "随着语音助手在我们高度技术化的社会中的地位得到巩固，有必要适应多样化的语言环境，包括低资源语言的口语形式。我们的研究引入了首个用于正式孟加拉语、口语孟加拉语和锡尔赫蒂语的意图检测和槽位填充的全面数据集，总共包含10个唯一意图的984个样本。我们的分析揭示了大型语言模型在处理不充足数据的下游任务上的强大能力。在口语孟加拉语的意图检测中，GPT-3.5模型达到了令人印象深刻的0.94的F1得分，在槽位填充中达到了0.51的F1得分。",
+    "tldr": "这项研究引入了第一个用于孟加拉语和锡尔赫蒂语的意图检测和槽位填充的全面数据集，并发现大型语言模型在处理不充足数据的下游任务上表现出强大能力。"
+}

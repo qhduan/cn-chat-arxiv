@@ -1,0 +1,11 @@
+{
+    "title": "Pure Exploration in Asynchronous Federated Bandits. (arXiv:2310.11015v1 [cs.LG])",
+    "abstract": "We study the federated pure exploration problem of multi-armed bandits and linear bandits, where $M$ agents cooperatively identify the best arm via communicating with the central server. To enhance the robustness against latency and unavailability of agents that are common in practice, we propose the first federated asynchronous multi-armed bandit and linear bandit algorithms for pure exploration with fixed confidence. Our theoretical analysis shows the proposed algorithms achieve near-optimal sample complexities and efficient communication costs in a fully asynchronous environment. Moreover, experimental results based on synthetic and real-world data empirically elucidate the effectiveness and communication cost-efficiency of the proposed algorithms.",
+    "link": "http://arxiv.org/abs/2310.11015",
+    "context": "Title: Pure Exploration in Asynchronous Federated Bandits. (arXiv:2310.11015v1 [cs.LG])\nAbstract: We study the federated pure exploration problem of multi-armed bandits and linear bandits, where $M$ agents cooperatively identify the best arm via communicating with the central server. To enhance the robustness against latency and unavailability of agents that are common in practice, we propose the first federated asynchronous multi-armed bandit and linear bandit algorithms for pure exploration with fixed confidence. Our theoretical analysis shows the proposed algorithms achieve near-optimal sample complexities and efficient communication costs in a fully asynchronous environment. Moreover, experimental results based on synthetic and real-world data empirically elucidate the effectiveness and communication cost-efficiency of the proposed algorithms.",
+    "path": "papers/23/10/2310.11015.json",
+    "total_tokens": 760,
+    "translated_title": "异步联邦赌博机中的纯探索研究",
+    "translated_abstract": "我们研究了联邦纯探索问题，包括多臂赌博机和线性赌博机，其中M个代理通过与中央服务器通信，合作地确定最佳抽臂。为了增强对延迟和代理不可用性的鲁棒性，我们提出了第一个联邦异步多臂赌博机和线性赌博机纯探索算法，用于固定置信度。我们的理论分析表明，所提出的算法在完全异步环境中实现了近乎最优的样本复杂性和高效的通信成本。此外，基于合成和真实数据的实验结果从经验上阐明了所提出算法的效力和通信成本效率。",
+    "tldr": "该论文研究了异步联邦赌博机中的纯探索问题，并提出了首个在完全异步环境下实现近乎最优样本复杂性和高效通信成本的联邦异步多臂赌博机和线性赌博机纯探索算法。"
+}

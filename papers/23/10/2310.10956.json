@@ -1,0 +1,11 @@
+{
+    "title": "Computing the optimal keyboard through a geometric analysis of the English language. (arXiv:2310.10956v1 [cs.CL])",
+    "abstract": "In the context of a group project for the course COMSW4995 002 - Geometric Data Analysis, we bring our attention to the design of fast-typing keyboards. Leveraging some geometric tools in an optimization framework allowed us to propose novel keyboard layouts that offer a faster typing.",
+    "link": "http://arxiv.org/abs/2310.10956",
+    "context": "Title: Computing the optimal keyboard through a geometric analysis of the English language. (arXiv:2310.10956v1 [cs.CL])\nAbstract: In the context of a group project for the course COMSW4995 002 - Geometric Data Analysis, we bring our attention to the design of fast-typing keyboards. Leveraging some geometric tools in an optimization framework allowed us to propose novel keyboard layouts that offer a faster typing.",
+    "path": "papers/23/10/2310.10956.json",
+    "total_tokens": 467,
+    "translated_title": "通过对英语语言的几何分析来计算最佳键盘设计",
+    "translated_abstract": "在COMSW4995 002 - 几何数据分析课程的小组项目中，我们将关注点放在设计快速打字键盘上。利用一些几何工具在优化框架中提供了更快打字的创新键盘布局。",
+    "tldr": "通过几何分析，我们计算出了一种最佳键盘设计，提供更快的打字速度。"
+}

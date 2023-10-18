@@ -1,0 +1,12 @@
+{
+    "title": "The neural network models with delays for solving absolute value equations. (arXiv:2310.10965v1 [math.DS])",
+    "abstract": "An inverse-free neural network model with mixed delays is proposed for solving the absolute value equation (AVE) $Ax -|x| - b =0$, which includes an inverse-free neural network model with discrete delay as a special case. By using the Lyapunov-Krasovskii theory and the linear matrix inequality (LMI) method, the developed neural network models are proved to be exponentially convergent to the solution of the AVE. Compared with the existing neural network models for solving the AVE, the proposed models feature the ability of solving a class of AVE with $\\|A^{-1}\\|>1$. Numerical simulations are given to show the effectiveness of the two delayed neural network models.",
+    "link": "http://arxiv.org/abs/2310.10965",
+    "context": "Title: The neural network models with delays for solving absolute value equations. (arXiv:2310.10965v1 [math.DS])\nAbstract: An inverse-free neural network model with mixed delays is proposed for solving the absolute value equation (AVE) $Ax -|x| - b =0$, which includes an inverse-free neural network model with discrete delay as a special case. By using the Lyapunov-Krasovskii theory and the linear matrix inequality (LMI) method, the developed neural network models are proved to be exponentially convergent to the solution of the AVE. Compared with the existing neural network models for solving the AVE, the proposed models feature the ability of solving a class of AVE with $\\|A^{-1}\\|>1$. Numerical simulations are given to show the effectiveness of the two delayed neural network models.",
+    "path": "papers/23/10/2310.10965.json",
+    "total_tokens": 734,
+    "translated_title": "具有延迟的神经网络模型用于求解绝对值方程",
+    "translated_abstract": "提出了一种具有混合延迟的无逆神经网络模型，用于求解绝对值方程(AVE) Ax -|x| - b = 0，该模型包括一种具有离散延迟的无逆神经网络模型作为特例。通过使用Lyapunov-Krasovskii理论和线性矩阵不等式（LMI）方法，证明了所开发的神经网络模型对AVE的解具有指数收敛性。与现有用于求解AVE的神经网络模型相比，所提出的模型具有解决一类具有∥A^ -1 ∥>1- 的AVE的能力。给出了数值模拟结果，证明了两个延迟神经网络模型的有效性。",
+    "tldr": "提出了一种具有延迟的无逆神经网络模型，用于求解绝对值方程，具有指数收敛性和解决一类特殊AVE的能力。",
+    "en_tdlr": "An inverse-free neural network model with delays is proposed for solving the absolute value equation, showing exponential convergence and the ability to solve a specific class of AVE."
+}

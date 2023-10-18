@@ -1,0 +1,12 @@
+{
+    "title": "Experimenting AI Technologies for Disinformation Combat: the IDMO Project. (arXiv:2310.11097v1 [cs.CL])",
+    "abstract": "The Italian Digital Media Observatory (IDMO) project, part of a European initiative, focuses on countering disinformation and fake news. This report outlines contributions from Rai-CRITS to the project, including: (i) the creation of novel datasets for testing technologies (ii) development of an automatic model for categorizing Pagella Politica verdicts to facilitate broader analysis (iii) creation of an automatic model for recognizing textual entailment with exceptional accuracy on the FEVER dataset (iv) assessment using GPT-4 to identify textual entailmen (v) a game to raise awareness about fake news at national events.",
+    "link": "http://arxiv.org/abs/2310.11097",
+    "context": "Title: Experimenting AI Technologies for Disinformation Combat: the IDMO Project. (arXiv:2310.11097v1 [cs.CL])\nAbstract: The Italian Digital Media Observatory (IDMO) project, part of a European initiative, focuses on countering disinformation and fake news. This report outlines contributions from Rai-CRITS to the project, including: (i) the creation of novel datasets for testing technologies (ii) development of an automatic model for categorizing Pagella Politica verdicts to facilitate broader analysis (iii) creation of an automatic model for recognizing textual entailment with exceptional accuracy on the FEVER dataset (iv) assessment using GPT-4 to identify textual entailmen (v) a game to raise awareness about fake news at national events.",
+    "path": "papers/23/10/2310.11097.json",
+    "total_tokens": 714,
+    "translated_title": "用于打击虚假信息的人工智能技术的实验：IDMO项目",
+    "translated_abstract": "意大利数字媒体观察项目（IDMO）是欧洲一项倡议的一部分，专注于打击虚假信息和假新闻。本报告概述了Rai-CRITS在该项目中的贡献，包括：（i）创建用于测试技术的新型数据集，（ii）开发自动模型，用于分类Pagella Politica的裁决以便于更广泛的分析，（iii）创建自动模型，对FEVER数据集上的文本蕴含具有异常精度的识别能力，（iv）使用GPT-4评估文本蕴含， （v）在国家活动中开展提高对假新闻意识的游戏。",
+    "tldr": "IDMO项目旨在使用人工智能技术打击虚假信息和假新闻，其贡献包括创建新型数据集、开发自动模型、评估GPT-4等。",
+    "en_tdlr": "The IDMO project aims to combat disinformation and fake news using AI technologies. Its contributions include creating novel datasets, developing automatic models, and evaluating GPT-4."
+}

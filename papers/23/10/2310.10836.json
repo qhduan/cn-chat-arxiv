@@ -1,0 +1,12 @@
+{
+    "title": "Gaussian processes based data augmentation and expected signature for time series classification. (arXiv:2310.10836v1 [cs.LG])",
+    "abstract": "The signature is a fundamental object that describes paths (that is, continuous functions from an interval to a Euclidean space). Likewise, the expected signature provides a statistical description of the law of stochastic processes. We propose a feature extraction model for time series built upon the expected signature. This is computed through a Gaussian processes based data augmentation. One of the main features is that an optimal feature extraction is learnt through the supervised task that uses the model.",
+    "link": "http://arxiv.org/abs/2310.10836",
+    "context": "Title: Gaussian processes based data augmentation and expected signature for time series classification. (arXiv:2310.10836v1 [cs.LG])\nAbstract: The signature is a fundamental object that describes paths (that is, continuous functions from an interval to a Euclidean space). Likewise, the expected signature provides a statistical description of the law of stochastic processes. We propose a feature extraction model for time series built upon the expected signature. This is computed through a Gaussian processes based data augmentation. One of the main features is that an optimal feature extraction is learnt through the supervised task that uses the model.",
+    "path": "papers/23/10/2310.10836.json",
+    "total_tokens": 602,
+    "translated_title": "基于高斯过程的数据增强和期望签名应用于时间序列分类",
+    "translated_abstract": "签名是描述路径（即从区间到欧几里得空间的连续函数）的基本对象。同样，期望签名提供了随机过程的统计描述。我们提出了一个基于期望签名的时间序列特征提取模型。该模型通过基于高斯过程的数据增强计算得到。一个主要特点是通过使用该模型的有监督任务学习到了最佳的特征提取方法。",
+    "tldr": "该论文提出了一种基于高斯过程的数据增强和期望签名的时间序列特征提取模型，并通过有监督的任务学习到了最佳的特征提取方法。",
+    "en_tdlr": "This paper proposes a time series feature extraction model based on Gaussian processes based data augmentation and expected signature, and learns an optimal feature extraction method through a supervised task."
+}

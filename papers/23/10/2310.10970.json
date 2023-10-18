@@ -1,0 +1,11 @@
+{
+    "title": "SD-PINN: Deep Learning based Spatially Dependent PDEs Recovery. (arXiv:2310.10970v1 [cs.LG])",
+    "abstract": "The physics-informed neural network (PINN) is capable of recovering partial differential equation (PDE) coefficients that remain constant throughout the spatial domain directly from physical measurements. In this work, we propose a spatially dependent physics-informed neural network (SD-PINN), which enables the recovery of coefficients in spatially-dependent PDEs using a single neural network, eliminating the requirement for domain-specific physical expertise. The proposed method exhibits robustness to noise owing to the incorporation of physical constraints. It can also incorporate the low-rank assumption of the spatial variation for the PDE coefficients to recover the coefficients at locations without available measurements.",
+    "link": "http://arxiv.org/abs/2310.10970",
+    "context": "Title: SD-PINN: Deep Learning based Spatially Dependent PDEs Recovery. (arXiv:2310.10970v1 [cs.LG])\nAbstract: The physics-informed neural network (PINN) is capable of recovering partial differential equation (PDE) coefficients that remain constant throughout the spatial domain directly from physical measurements. In this work, we propose a spatially dependent physics-informed neural network (SD-PINN), which enables the recovery of coefficients in spatially-dependent PDEs using a single neural network, eliminating the requirement for domain-specific physical expertise. The proposed method exhibits robustness to noise owing to the incorporation of physical constraints. It can also incorporate the low-rank assumption of the spatial variation for the PDE coefficients to recover the coefficients at locations without available measurements.",
+    "path": "papers/23/10/2310.10970.json",
+    "total_tokens": 813,
+    "translated_title": "SD-PINN: 基于深度学习的空间相关偏微分方程恢复",
+    "translated_abstract": "物理知识驱动的神经网络（PINN）能够直接从物理测量中恢复在整个空间域中保持不变的偏微分方程（PDE）系数。在本文中，我们提出了一种空间相关的物理知识驱动神经网络（SD-PINN），它通过一个单一的神经网络来恢复空间相关的PDE系数，消除了对领域特定的物理专业知识的要求。所提出的方法由于加入了物理约束而对噪声具有稳健性。它还能够将PDE系数的空间变化低秩假设纳入考虑，从而恢复没有可用测量数据的位置的系数。",
+    "tldr": "SD-PINN是一种基于深度学习的方法，能够通过一个神经网络恢复空间相关的偏微分方程（PDE）系数，无需领域特定的物理专业知识，并且对噪声具有稳健性。同时，它能够通过空间变化低秩假设恢复没有可用测量数据的位置的系数。"
+}

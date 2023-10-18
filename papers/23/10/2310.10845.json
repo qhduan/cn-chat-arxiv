@@ -1,0 +1,11 @@
+{
+    "title": "CoTFormer: More Tokens With Attention Make Up For Less Depth. (arXiv:2310.10845v1 [cs.CL])",
+    "abstract": "The race to continually develop ever larger and deeper foundational models is underway. However, techniques like the Chain-of-Thought (CoT) method continue to play a pivotal role in achieving optimal downstream performance. In this work, we establish an approximate parallel between using chain-of-thought and employing a deeper transformer. Building on this insight, we introduce CoTFormer, a transformer variant that employs an implicit CoT-like mechanism to achieve capacity comparable to a deeper model. Our empirical findings demonstrate the effectiveness of CoTFormers, as they significantly outperform larger standard transformers.",
+    "link": "http://arxiv.org/abs/2310.10845",
+    "context": "Title: CoTFormer: More Tokens With Attention Make Up For Less Depth. (arXiv:2310.10845v1 [cs.CL])\nAbstract: The race to continually develop ever larger and deeper foundational models is underway. However, techniques like the Chain-of-Thought (CoT) method continue to play a pivotal role in achieving optimal downstream performance. In this work, we establish an approximate parallel between using chain-of-thought and employing a deeper transformer. Building on this insight, we introduce CoTFormer, a transformer variant that employs an implicit CoT-like mechanism to achieve capacity comparable to a deeper model. Our empirical findings demonstrate the effectiveness of CoTFormers, as they significantly outperform larger standard transformers.",
+    "path": "papers/23/10/2310.10845.json",
+    "total_tokens": 682,
+    "translated_title": "CoTFormer：更多的关注令牌弥补了更少的深度",
+    "translated_abstract": "持续发展越来越大和更深的基础模型的竞赛正在进行中。然而，像链思考（CoT）方法这样的技术在实现最佳下游性能方面仍起着重要作用。在这项工作中，我们建立了使用链思考和使用更深的transformer之间的近似平行关系。基于这一洞见，我们引入了CoTFormer，一种使用隐含链思考机制来实现与更深模型相当容量的transformer变体。我们的实证发现证明了CoTFormer的有效性，因为它们明显优于更大的标准transformers。",
+    "tldr": "CoTFormer是一种transformer变体，通过使用隐含的链思考机制，实现了与更深模型相当的容量，并且在实证中显著优于更大的标准transformers。"
+}

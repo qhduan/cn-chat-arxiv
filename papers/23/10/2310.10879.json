@@ -1,0 +1,11 @@
+{
+    "title": "BLoad: Enhancing Neural Network Training with Efficient Sequential Data Handling. (arXiv:2310.10879v1 [cs.LG])",
+    "abstract": "The increasing complexity of modern deep neural network models and the expanding sizes of datasets necessitate the development of optimized and scalable training methods. In this white paper, we addressed the challenge of efficiently training neural network models using sequences of varying sizes. To address this challenge, we propose a novel training scheme that enables efficient distributed data-parallel training on sequences of different sizes with minimal overhead. By using this scheme we were able to reduce the padding amount by more than 100$x$ while not deleting a single frame, resulting in an overall increased performance on both training time and Recall in our experiments.",
+    "link": "http://arxiv.org/abs/2310.10879",
+    "context": "Title: BLoad: Enhancing Neural Network Training with Efficient Sequential Data Handling. (arXiv:2310.10879v1 [cs.LG])\nAbstract: The increasing complexity of modern deep neural network models and the expanding sizes of datasets necessitate the development of optimized and scalable training methods. In this white paper, we addressed the challenge of efficiently training neural network models using sequences of varying sizes. To address this challenge, we propose a novel training scheme that enables efficient distributed data-parallel training on sequences of different sizes with minimal overhead. By using this scheme we were able to reduce the padding amount by more than 100$x$ while not deleting a single frame, resulting in an overall increased performance on both training time and Recall in our experiments.",
+    "path": "papers/23/10/2310.10879.json",
+    "total_tokens": 698,
+    "translated_title": "BLoad：增强神经网络训练的高效顺序数据处理方法",
+    "translated_abstract": "随着现代深度神经网络模型的复杂性不断增加和数据集的扩大，需要开发优化且可扩展的训练方法。本白皮书中，我们解决了使用不同大小的序列进行神经网络模型训练的高效性挑战。为了解决这个问题，我们提出了一种新的训练方案，能够在序列的分布式数据并行训练中实现高效处理，同时还能最小化额外开销。通过使用这个方案，我们能够将填充量减少超过100倍，同时不删除任何帧，从而在实验证明了总体上增加了训练时间和召回率。",
+    "tldr": "本论文提出了一种名为BLoad的训练方案，通过最小化填充量并实现高效的分布式数据并行训练，来提高训练效率和召回率。"
+}
