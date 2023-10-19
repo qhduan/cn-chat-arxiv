@@ -1,0 +1,12 @@
+{
+    "title": "SegmATRon: Embodied Adaptive Semantic Segmentation for Indoor Environment. (arXiv:2310.12031v1 [cs.CV])",
+    "abstract": "This paper presents an adaptive transformer model named SegmATRon for embodied image semantic segmentation. Its distinctive feature is the adaptation of model weights during inference on several images using a hybrid multicomponent loss function. We studied this model on datasets collected in the photorealistic Habitat and the synthetic AI2-THOR Simulators. We showed that obtaining additional images using the agent's actions in an indoor environment can improve the quality of semantic segmentation. The code of the proposed approach and datasets are publicly available at https://github.com/wingrune/SegmATRon.",
+    "link": "http://arxiv.org/abs/2310.12031",
+    "context": "Title: SegmATRon: Embodied Adaptive Semantic Segmentation for Indoor Environment. (arXiv:2310.12031v1 [cs.CV])\nAbstract: This paper presents an adaptive transformer model named SegmATRon for embodied image semantic segmentation. Its distinctive feature is the adaptation of model weights during inference on several images using a hybrid multicomponent loss function. We studied this model on datasets collected in the photorealistic Habitat and the synthetic AI2-THOR Simulators. We showed that obtaining additional images using the agent's actions in an indoor environment can improve the quality of semantic segmentation. The code of the proposed approach and datasets are publicly available at https://github.com/wingrune/SegmATRon.",
+    "path": "papers/23/10/2310.12031.json",
+    "total_tokens": 740,
+    "translated_title": "SegmATRon: 用于室内环境的具有自适应语义分割的体验感知模型",
+    "translated_abstract": "本文提出了一种名为SegmATRon的自适应变换模型，用于室内图像的语义分割。其独特之处在于使用混合多组分损失函数在多张图像上进行推断的模型权重适应性调整。我们在逼真的Habitat和AI2-THOR合成模拟器中的数据集上研究了该模型。我们证明，在室内环境中利用代理的行为获取额外图像可以提高语义分割的质量。所提出方法的代码和数据集可在https://github.com/wingrune/SegmATRon上公开获取。",
+    "tldr": "SegmATRon是一种自适应变换模型，用于室内图像的语义分割。通过在多张图像上进行推断时权重的自适应调整，可以提高语义分割的质量。在室内环境中使用代理的行为获取额外图像的方法在实验中证明是有效的。",
+    "en_tdlr": "SegmATRon is an adaptive transformer model for semantic segmentation of indoor images. Its distinctive feature is the adaptive adjustment of weights during inference, leading to improved segmentation quality. The approach of using agent's actions to obtain additional images in indoor environments has been shown to be effective."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Revenue sharing at music streaming platforms. (arXiv:2310.11861v1 [econ.TH])",
+    "abstract": "We study the problem of sharing the revenues raised from subscriptions to music streaming platforms among content providers. We provide direct, axiomatic and game-theoretical foundations for two focal (and somewhat polar) methods widely used in practice: pro-rata and user-centric. The former rewards artists proportionally to their number of total streams. With the latter, each user's subscription fee is proportionally divided among the artists streamed by that user. We also provide foundations for a family of methods compromising among the previous two, which addresses the rising concern in the music industry to explore new streaming models that better align the interests of artists, fans and streaming services.",
+    "link": "http://arxiv.org/abs/2310.11861",
+    "context": "Title: Revenue sharing at music streaming platforms. (arXiv:2310.11861v1 [econ.TH])\nAbstract: We study the problem of sharing the revenues raised from subscriptions to music streaming platforms among content providers. We provide direct, axiomatic and game-theoretical foundations for two focal (and somewhat polar) methods widely used in practice: pro-rata and user-centric. The former rewards artists proportionally to their number of total streams. With the latter, each user's subscription fee is proportionally divided among the artists streamed by that user. We also provide foundations for a family of methods compromising among the previous two, which addresses the rising concern in the music industry to explore new streaming models that better align the interests of artists, fans and streaming services.",
+    "path": "papers/23/10/2310.11861.json",
+    "total_tokens": 782,
+    "translated_title": "音乐流媒体平台上的分成问题",
+    "translated_abstract": "我们研究了在音乐流媒体平台上分享订阅费用的问题，其中包括直接、公理和博弈论基础。我们提供了两种在实践中广泛使用的方法的基础：比例分成和以用户为中心的分成。前者根据艺术家的总播放次数来奖励他们。后者按照用户所播放的艺术家来将用户的订阅费平均分配给艺术家。我们还提供了一系列方法的基础，这些方法在前两种方法之间进行权衡，解决了音乐行业对探索更好地协调艺术家、粉丝和流媒体服务利益的新流媒体模型的关切。",
+    "tldr": "该论文研究了音乐流媒体平台上如何分享订阅费用的问题。作者提供了比例分成和以用户为中心的分成两种方法的基础，并提出了一系列折中方法，以更好地协调艺术家、粉丝和流媒体服务的利益。",
+    "en_tdlr": "This paper investigates the problem of revenue sharing among content providers on music streaming platforms. The author provides foundational theories for the widely-used methods of pro-rata and user-centric sharing, and proposes a family of compromise methods to better align the interests of artists, fans, and streaming services."
+}

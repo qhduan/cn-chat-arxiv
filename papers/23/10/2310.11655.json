@@ -1,0 +1,11 @@
+{
+    "title": "Field-testing items using artificial intelligence: Natural language processing with transformers. (arXiv:2310.11655v1 [cs.CL])",
+    "abstract": "Five thousand variations of the RoBERTa model, an artificially intelligent \"transformer\" that can understand text language, completed an English literacy exam with 29 multiple-choice questions. Data were used to calculate the psychometric properties of the items, which showed some degree of agreement to those obtained from human examinee data.",
+    "link": "http://arxiv.org/abs/2310.11655",
+    "context": "Title: Field-testing items using artificial intelligence: Natural language processing with transformers. (arXiv:2310.11655v1 [cs.CL])\nAbstract: Five thousand variations of the RoBERTa model, an artificially intelligent \"transformer\" that can understand text language, completed an English literacy exam with 29 multiple-choice questions. Data were used to calculate the psychometric properties of the items, which showed some degree of agreement to those obtained from human examinee data.",
+    "path": "papers/23/10/2310.11655.json",
+    "total_tokens": 545,
+    "translated_title": "使用人工智能进行现场测试的项目：自然语言处理与变形金刚",
+    "translated_abstract": "五千个RoBERTa模型的变异体，一种能够理解文本语言的人工智能“变形金刚”，完成了一个包含29个多项选择题的英语读写能力考试。利用数据计算了这些题目的心理测量特性，结果显示与人类考生数据的结果存在一定程度的一致性。",
+    "tldr": "这项研究使用了一种名为RoBERTa的人工智能模型来进行英语读写能力考试的现场测试，结果显示模型的行为与人类考生数据有一定的一致性。"
+}

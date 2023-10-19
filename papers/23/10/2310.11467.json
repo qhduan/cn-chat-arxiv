@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Binary Code Comment Quality Classification: Integrating Generative AI for Improved Accuracy. (arXiv:2310.11467v1 [cs.SE])",
+    "abstract": "This report focuses on enhancing a binary code comment quality classification model by integrating generated code and comment pairs, to improve model accuracy. The dataset comprises 9048 pairs of code and comments written in the C programming language, each annotated as \"Useful\" or \"Not Useful.\" Additionally, code and comment pairs are generated using a Large Language Model Architecture, and these generated pairs are labeled to indicate their utility. The outcome of this effort consists of two classification models: one utilizing the original dataset and another incorporating the augmented dataset with the newly generated code comment pairs and labels.",
+    "link": "http://arxiv.org/abs/2310.11467",
+    "context": "Title: Enhancing Binary Code Comment Quality Classification: Integrating Generative AI for Improved Accuracy. (arXiv:2310.11467v1 [cs.SE])\nAbstract: This report focuses on enhancing a binary code comment quality classification model by integrating generated code and comment pairs, to improve model accuracy. The dataset comprises 9048 pairs of code and comments written in the C programming language, each annotated as \"Useful\" or \"Not Useful.\" Additionally, code and comment pairs are generated using a Large Language Model Architecture, and these generated pairs are labeled to indicate their utility. The outcome of this effort consists of two classification models: one utilizing the original dataset and another incorporating the augmented dataset with the newly generated code comment pairs and labels.",
+    "path": "papers/23/10/2310.11467.json",
+    "total_tokens": 631,
+    "translated_title": "提升二进制代码注释质量分类：整合生成式人工智能以提高准确性",
+    "translated_abstract": "本报告旨在通过整合生成的代码和注释对，改进二进制代码注释质量分类模型，以提高模型的准确性。数据集包括9048对用C语言编写的代码和注释，每对都被注释为“有用”或“无用”。此外，使用大型语言模型架构生成代码和注释对，并对这些生成的对进行标记以指示其实用性。此项工作的成果包括两个分类模型：一个利用原始数据集，另一个利用新生成的代码注释对和标记的扩充数据集。",
+    "tldr": "本报告通过整合生成的代码和注释对，改进二进制代码注释质量分类模型，提高准确性。",
+    "en_tdlr": "This report improves a binary code comment quality classification model by integrating generated code and comment pairs, enhancing accuracy."
+}

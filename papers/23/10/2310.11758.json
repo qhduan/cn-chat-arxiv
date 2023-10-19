@@ -1,0 +1,11 @@
+{
+    "title": "Domain-Generalized Face Anti-Spoofing with Unknown Attacks. (arXiv:2310.11758v1 [cs.CV])",
+    "abstract": "Although face anti-spoofing (FAS) methods have achieved remarkable performance on specific domains or attack types, few studies have focused on the simultaneous presence of domain changes and unknown attacks, which is closer to real application scenarios. To handle domain-generalized unknown attacks, we introduce a new method, DGUA-FAS, which consists of a Transformer-based feature extractor and a synthetic unknown attack sample generator (SUASG). The SUASG network simulates unknown attack samples to assist the training of the feature extractor. Experimental results show that our method achieves superior performance on domain generalization FAS with known or unknown attacks.",
+    "link": "http://arxiv.org/abs/2310.11758",
+    "context": "Title: Domain-Generalized Face Anti-Spoofing with Unknown Attacks. (arXiv:2310.11758v1 [cs.CV])\nAbstract: Although face anti-spoofing (FAS) methods have achieved remarkable performance on specific domains or attack types, few studies have focused on the simultaneous presence of domain changes and unknown attacks, which is closer to real application scenarios. To handle domain-generalized unknown attacks, we introduce a new method, DGUA-FAS, which consists of a Transformer-based feature extractor and a synthetic unknown attack sample generator (SUASG). The SUASG network simulates unknown attack samples to assist the training of the feature extractor. Experimental results show that our method achieves superior performance on domain generalization FAS with known or unknown attacks.",
+    "path": "papers/23/10/2310.11758.json",
+    "total_tokens": 766,
+    "translated_title": "面向未知攻击的领域通用人脸反欺诈方法",
+    "translated_abstract": "尽管人脸反欺诈（FAS）方法在特定领域或攻击类型上取得了显著的性能，但很少有研究关注领域改变和未知攻击同时存在的情况，这更接近实际应用场景。为了处理领域通用的未知攻击，我们引入了一种新方法， DGUA-FAS，它由基于Transformer的特征提取器和一个合成未知攻击样本生成器（SUASG）组成。SUASG网络模拟未知攻击样本来辅助特征提取器的训练。实验证明，我们的方法在已知或未知攻击的领域通用反欺诈上取得了卓越的性能。",
+    "tldr": "该论文提出了一种面向领域通用未知攻击的人脸反欺诈方法，通过引入Transformer-based特征提取器和合成未知攻击样本生成器（SUASG），实现了超越已知和未知攻击的领域通用性能。"
+}

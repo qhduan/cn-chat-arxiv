@@ -1,0 +1,12 @@
+{
+    "title": "From Neural Activations to Concepts: A Survey on Explaining Concepts in Neural Networks. (arXiv:2310.11884v1 [cs.AI])",
+    "abstract": "In this paper, we review recent approaches for explaining concepts in neural networks. Concepts can act as a natural link between learning and reasoning: once the concepts are identified that a neural learning system uses, one can integrate those concepts with a reasoning system for inference or use a reasoning system to act upon them to improve or enhance the learning system. On the other hand, knowledge can not only be extracted from neural networks but concept knowledge can also be inserted into neural network architectures. Since integrating learning and reasoning is at the core of neuro-symbolic AI, the insights gained from this survey can serve as an important step towards realizing neuro-symbolic AI based on explainable concepts.",
+    "link": "http://arxiv.org/abs/2310.11884",
+    "context": "Title: From Neural Activations to Concepts: A Survey on Explaining Concepts in Neural Networks. (arXiv:2310.11884v1 [cs.AI])\nAbstract: In this paper, we review recent approaches for explaining concepts in neural networks. Concepts can act as a natural link between learning and reasoning: once the concepts are identified that a neural learning system uses, one can integrate those concepts with a reasoning system for inference or use a reasoning system to act upon them to improve or enhance the learning system. On the other hand, knowledge can not only be extracted from neural networks but concept knowledge can also be inserted into neural network architectures. Since integrating learning and reasoning is at the core of neuro-symbolic AI, the insights gained from this survey can serve as an important step towards realizing neuro-symbolic AI based on explainable concepts.",
+    "path": "papers/23/10/2310.11884.json",
+    "total_tokens": 740,
+    "translated_title": "从神经激活到概念: 解释神经网络中的概念的调查",
+    "translated_abstract": "在本文中，我们审查了解释神经网络中概念的最新方法。概念可以作为学习和推理之间的自然桥梁：一旦确定了神经学习系统使用的概念，就可以将这些概念与推理系统整合，用于推理或使用推理系统对其进行改进或增强以改善学习系统。另一方面，不仅可以从神经网络中提取知识，还可以将概念知识插入神经网络体系结构中。由于整合学习和推理是神经符号化人工智能的核心，所以通过这项调查获得的见解可以成为实现基于可解释概念的神经符号化人工智能的重要一步。",
+    "tldr": "本文调查了解释神经网络中概念的最新方法，这对于实现基于可解释概念的神经符号化人工智能来说是重要的一步。",
+    "en_tdlr": "This paper reviews recent approaches for explaining concepts in neural networks, which is an important step towards realizing neuro-symbolic AI based on explainable concepts."
+}

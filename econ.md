@@ -2,96 +2,107 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
-| [^2] | [Life-Cycle Effects of Comprehensive Sex Education.](http://arxiv.org/abs/2310.11151) | 该研究调查了全面性健康教育对个体生命周期的影响，研究结果显示，该教育改革对男性和女性产生了积极的影响，降低了性别不平等，同时也鼓励了下一代女性的机会和自主权。 |
-| [^3] | [Digital interventions and habit formation in educational technology.](http://arxiv.org/abs/2310.10850) | 该研究对印度儿童学习英语的教育应用程序进行了基于竞赛的干预，以帮助他们建立学习习惯。研究发现，在竞赛结束后的12周，治疗组继续保持对应用程序的参与。 |
-| [^4] | [Mechanism Design for Large Language Models.](http://arxiv.org/abs/2310.10826) | 本研究主要研究了支持AI生成内容的拍卖机制设计，通过提出令牌拍卖模型，实现了以激励兼容的方式聚合多个大型语言模型，并用于结合不同广告商的输入。这个机制设计有独特的特点，并通过制定自然的激励特性得到了验证。 |
-| [^5] | [Tractable Aggregation in Endogenous Network Formation Models.](http://arxiv.org/abs/2310.10764) | 本文提出了一种新的条件，可以用生成函数来表征内生网络形成过程的稳态分布。这个条件与网络之间的转化函数有关，当这个转化与网络之间的转化独立时，证明了该过程是可逆的，因此可以构造出一个生成函数。利用这个稳态分布，研究了同质动力学和国际贸易模型的长期特性。 |
-| [^6] | [\"Uber wissenschaftliche Exzellenz und Wettbewerb.](http://arxiv.org/abs/2310.09588) | 本文讨论了科学研究和竞争背景下卓越的概念。 |
-| [^7] | [Impact of resource availability and conformity effect on sustainability of common-pool resources.](http://arxiv.org/abs/2310.07577) | 本文提出了一个新颖的框架，用于研究共有资源的采集和人类-环境系统中的合作。通过考虑资源可用性和共识效应等因素，我们确定了在不同情景下确保资源可持续性的关键值。 |
-| [^8] | [A new economic and financial theory of money.](http://arxiv.org/abs/2310.04986) | 这篇论文通过根本性的改革，将电子货币纳入经济与金融理论，提出了一种新的理论框架，包括电子货币的估值基于宏观经济理论和货币政策的基本方程，以及电子货币管理公司作为协调次经济体货币和财政政策的实体。该研究避免使用普遍但不适当的指数风险模型，而是采用多时间尺度的模型。 |
-| [^9] | [DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling.](http://arxiv.org/abs/2309.02072) | DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。 |
-| [^10] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
-| [^11] | [Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices.](http://arxiv.org/abs/2303.10019) | 本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。 |
-| [^12] | [Deep Learning Enhanced Realized GARCH.](http://arxiv.org/abs/2302.08002) | 使用深度学习（LSTM）和实现波动率测量的新框架能够共同建模收益和实现波动率测量，在统计推断和预测方面具有出色的性能，并且能够适应波动率的定式事实。 |
-| [^13] | [Policy learning for many outcomes of interest: Combining optimal policy trees with multi-objective Bayesian optimisation.](http://arxiv.org/abs/2212.06312) | 该论文提出了一种多目标策略学习（MOPoL）方法，结合了最优决策树和多目标贝叶斯优化方法，可以平衡多个感兴趣的结果。 |
-| [^14] | [Probability of Causation with Sample Selection: A Reanalysis of the Impacts of J\'ovenes en Acci\'on on Formality.](http://arxiv.org/abs/2210.01938) | 本文通过对样本选择条件下的因果概率进行重新分析，确定了因果概率的部分界限。在考虑了不同假设的情况下得到了有力的结果，并且在哥伦比亚的J\'ovenes en Acci\'on项目中实证发现，该项目使至少18%至多24%的始终就业的女性转向了正式劳动力市场。 |
-| [^15] | [Flexible global forecast combinations.](http://arxiv.org/abs/2207.07318) | 本文介绍了一种灵活的全球预测组合框架，能够在考虑任务相关性的基础上聚合多个专家或模型的预测。通过合成和真实数据的比较，证明了这些全球预测组合的有效性。 |
-| [^16] | [Selection and parallel trends.](http://arxiv.org/abs/2203.09001) | 本文研究了选择进入处理组和平行趋势假设的关系，推导了平行趋势假设的必要和充分条件，并提出了解释性原初充分条件和针对不确定的平行趋势进行敏感性分析的新工具。 |
+| [^1] | [Survey calibration for causal inference: a simple method to balance covariate distributions.](http://arxiv.org/abs/2310.11969) | 本文提出一种简单的方法用于平衡因果推断中观察性研究中的协变量分布，通过修改熵平衡方法和协变量平衡倾向评分方法实现对处理组和对照组的分布平衡。 |
+| [^2] | [Machine Learning for Staggered Difference-in-Differences and Dynamic Treatment Effect Heterogeneity.](http://arxiv.org/abs/2310.11962) | 本文提出了一种机器学习差异-差异（MLDID）方法，结合了两种非参数差异-差异方法，用于研究错位采用环境中的治疗效果异质性。我们通过模拟实验证明MLDID能够准确识别出治疗效果异质性的预测因素，并利用该方法评估了巴西家庭健康计划对婴儿死亡率的异质影响，发现贫困人口和城市地区比其他群体更快地受到政策影响。 |
+| [^3] | [Revenue sharing at music streaming platforms.](http://arxiv.org/abs/2310.11861) | 该论文研究了音乐流媒体平台上如何分享订阅费用的问题。作者提供了比例分成和以用户为中心的分成两种方法的基础，并提出了一系列折中方法，以更好地协调艺术家、粉丝和流媒体服务的利益。 |
+| [^4] | [Trimmed Mean Group Estimation of Average Treatment Effects in Ultra Short T Panels under Correlated Heterogeneity.](http://arxiv.org/abs/2310.11680) | 本文在相关异质性下，提出了一种修剪均值组（TMG）估计器，可以在面板数据时间维度很小的情况下以不规则的速度保持一致性。该方法具有较好的性质和性能，并提供了相关异质性的检验方法。通过实证应用展示了该方法的实用性。 |
+| [^5] | [Global Factors in Non-core Bank Funding and Exchange Rate Flexibility.](http://arxiv.org/abs/2310.11552) | 全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。 |
+| [^6] | [The Sponge Cake Dilemma over the Nile: Achieving Fairness in Resource Allocation through Rawlsian Theory and Algorithms.](http://arxiv.org/abs/2310.11472) | 通过融合Rawlsian理论和算法手段，本文研究了水资源分配中的公平性问题。蛋糕切割模型在考虑战略因素的同时，寻找与Rawlsian公平原则相一致的解决方案，为解决尼罗河水资源争端提供了有价值的方法。 |
+| [^7] | [\"Uber wissenschaftliche Exzellenz und Wettbewerb.](http://arxiv.org/abs/2310.09588) | 本文讨论了科学研究和竞争背景下卓越的概念。 |
+| [^8] | [On Optimal Set Estimation for Partially Identified Binary Choice Models.](http://arxiv.org/abs/2310.02414) | 本文重新考虑了部分识别模型估计中的最优性概念，并提出了在所有设计中收敛于识别区域的替代方法。 |
+| [^9] | [Multi-period static hedging of European options.](http://arxiv.org/abs/2310.01104) | 本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。 |
+| [^10] | [Another Look at the Linear Probability Model and Nonlinear Index Models.](http://arxiv.org/abs/2308.15338) | 本文重新评估了使用线性模型来近似二元结果的响应概率的部分效应的利弊，并重点研究了平均部分效应而不是底层线性指数的参数。通过模拟实验，发现OLS近似或不近似APE的各种情况，并提出了一种实用的方法来减少OLS的有限样本偏差，结果表明该方法与非线性最小二乘（NLS）估计数值上相等。 |
+| [^11] | [The far-reaching effects of bombing on fertility in mid-20th century Japan.](http://arxiv.org/abs/2306.05770) | 本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。 |
+| [^12] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
+| [^13] | [On Robust Inference in Time Series Regression.](http://arxiv.org/abs/2203.04080) | 该论文研究了时间序列回归中的鲁棒推断问题，指出了将HAC估计技术应用于时间序列环境时的困难，并讨论了OLS参数估计不一致、HAC回归参数估计低效以及HAC条件预测低效等问题。 |
 
 # 详细
 
-[^1]: 关于人工智能在金融监管中的应用及对金融稳定的影响
+[^1]: 调查校准的因果推断方法：一种平衡协变量分布的简单方法
 
-    On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
+    Survey calibration for causal inference: a simple method to balance covariate distributions. (arXiv:2310.11969v1 [stat.ME])
 
-    [http://arxiv.org/abs/2310.11293](http://arxiv.org/abs/2310.11293)
+    [http://arxiv.org/abs/2310.11969](http://arxiv.org/abs/2310.11969)
 
-    人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。
-
-    
-
-    人工智能（AI）正在金融监管领域迅速发展。对于微观监管（如消费者保护和常规银行监管）来说，由于数据丰富、时间周期短、目标明确和重复决策，AI将受益。然而，对于关注整个金融系统稳定的宏观监管来说，由于不经常发生且大多数是独特事件，AI学习受到挑战。在极度压力下，分布式的人类决策比集中式的AI决策更具优势，而且由于巨大的错误成本，这也引发了对于宏观监管中AI使用的质疑。尽管如此，由于成本效益、稳健性和准确性优于人类监管者，AI很可能悄然取代越来越高水平的建议和决策而被广泛使用。我们提出六个判断AI使用适合性的标准。
-
-    Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
-    
-[^2]: 全面性健康教育的生命周期效应
-
-    Life-Cycle Effects of Comprehensive Sex Education. (arXiv:2310.11151v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.11151](http://arxiv.org/abs/2310.11151)
-
-    该研究调查了全面性健康教育对个体生命周期的影响，研究结果显示，该教育改革对男性和女性产生了积极的影响，降低了性别不平等，同时也鼓励了下一代女性的机会和自主权。
+    本文提出一种简单的方法用于平衡因果推断中观察性研究中的协变量分布，通过修改熵平衡方法和协变量平衡倾向评分方法实现对处理组和对照组的分布平衡。
 
     
 
-    性教育可以影响学生的性行为，并传达有关家庭形成和责任的社会规范，这对他们的未来产生重要影响。为了研究社会规范传递的生命周期效应，本研究利用瑞典小学40年代至50年代引入全面性健康教育的情况进行了调查。在这一时期，受到社会民主价值观的启发，性教育教导学生关于禁欲、理性的家庭计划选择以及对个人决策承担社会责任的重要性。该研究运用了一种先进的“差异和差异”方法来评估男性和女性在整个生命周期中各种结果。结果表明，该改革对男性和女性的大多数预期结果产生影响，最终降低了收入方面的性别不平等。该改革的影响也延伸到了下一代女性，鼓励她们拥有更多的机会和自主权。
+    本文提出了一种基于观察性研究的因果推断的简单方法，用于平衡协变量的分布。该方法可以平衡任意数量的分位数（例如中位数、四分位数或十分位数），如果必要的话还可以平衡均值。所提出的方法基于校正估计器的理论（Deville和Sarndal，1992），尤其是Harms和Duchesne（2006）提出的分位数校准估计器。通过修改熵平衡方法和协变量平衡倾向评分方法，可以平衡处理组和对照组的分布。该方法不需要数值积分、核密度估计或对分布的任何假设；可以通过利用现有的渐近理论得到有效的估计。模拟研究的结果表明，该方法可以有效地估计被处理组的平均处理效应（ATT）、平均处理效应（ATE）和处理组的总处理效应（ATE）等。
 
-    Sex education can impact pupils sexual activity and convey the social norms regarding family formation and responsibility, which can have significant consequences to their future. To investigate the life-cycle effects of social norm transmission, this study drew on the introduction of comprehensive sex education in the curriculum of Swedish primary schools during the 1940s to the 1950s. Inspired by social-democratic values, sex education during this period taught students about abstinence, rational family planning choices, and the importance of taking social responsibility for their personal decisions. The study applied a state-of-the-art estimator of the difference-in-differences method to various outcomes of men and women throughout the life cycle. The results showed that the reform affected most intended outcomes for men and women, ultimately decreasing gender inequality in earnings. The effects of the reform also extended to the succeding generation of girls, encouraging them to ch
+    This paper proposes a simple method for balancing distributions of covariates for causal inference based on observational studies. The method makes it possible to balance an arbitrary number of quantiles (e.g., medians, quartiles, or deciles) together with means if necessary. The proposed approach is based on the theory of calibration estimators (Deville and S\"arndal 1992), in particular, calibration estimators for quantiles, proposed by Harms and Duchesne (2006). By modifying the entropy balancing method and the covariate balancing propensity score method, it is possible to balance the distributions of the treatment and control groups. The method does not require numerical integration, kernel density estimation or assumptions about the distributions; valid estimates can be obtained by drawing on existing asymptotic theory. Results of a simulation study indicate that the method efficiently estimates average treatment effects on the treated (ATT), the average treatment effect (ATE), th
     
-[^3]: 在教育技术中的数字干预和习惯形成
+[^2]: 用机器学习方法研究错位差异-差异和动态治疗效果异质性
 
-    Digital interventions and habit formation in educational technology. (arXiv:2310.10850v1 [econ.GN])
+    Machine Learning for Staggered Difference-in-Differences and Dynamic Treatment Effect Heterogeneity. (arXiv:2310.11962v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.10850](http://arxiv.org/abs/2310.10850)
+    [http://arxiv.org/abs/2310.11962](http://arxiv.org/abs/2310.11962)
 
-    该研究对印度儿童学习英语的教育应用程序进行了基于竞赛的干预，以帮助他们建立学习习惯。研究发现，在竞赛结束后的12周，治疗组继续保持对应用程序的参与。
-
-    
-
-    随着在线教育技术产品越来越常见，大量证据指出，学习者往往很难建立规律的学习习惯并完成他们的课程。与此同时，面向娱乐和社交互动的在线产品有时在增加用户参与度和创造频繁使用习惯方面非常有效，却无意中导致数字上瘾，特别是在青少年中。在这个项目中，我们在一个用于印度儿童学习英语的教育应用程序上进行了基于竞赛的干预，这在娱乐环境中很常见。大约一万名随机选择的学习者参加了一个为期100天的阅读竞赛。如果他们在基于学习内容消耗量的排行榜上排名足够高，他们将赢得一套实体书籍作为奖品。比赛结束后的12周，当治疗组没有额外的激励使用该应用程序时，他们继续参与其中。
-
-    As online educational technology products have become increasingly prevalent, rich evidence indicates that learners often find it challenging to establish regular learning habits and complete their programs. Concurrently, online products geared towards entertainment and social interactions are sometimes so effective in increasing user engagement and creating frequent usage habits that they inadvertently lead to digital addiction, especially among youth. In this project, we carry out a contest-based intervention, common in the entertainment context, on an educational app for Indian children learning English. Approximately ten thousand randomly selected learners entered a 100-day reading contest. They would win a set of physical books if they ranked sufficiently high on a leaderboard based on the amount of educational content consumed. Twelve weeks after the end of the contest, when the treatment group had no additional incentives to use the app, they continued their engagement with it a
-    
-[^4]: 大型语言模型的机制设计
-
-    Mechanism Design for Large Language Models. (arXiv:2310.10826v1 [cs.GT])
-
-    [http://arxiv.org/abs/2310.10826](http://arxiv.org/abs/2310.10826)
-
-    本研究主要研究了支持AI生成内容的拍卖机制设计，通过提出令牌拍卖模型，实现了以激励兼容的方式聚合多个大型语言模型，并用于结合不同广告商的输入。这个机制设计有独特的特点，并通过制定自然的激励特性得到了验证。
+    本文提出了一种机器学习差异-差异（MLDID）方法，结合了两种非参数差异-差异方法，用于研究错位采用环境中的治疗效果异质性。我们通过模拟实验证明MLDID能够准确识别出治疗效果异质性的预测因素，并利用该方法评估了巴西家庭健康计划对婴儿死亡率的异质影响，发现贫困人口和城市地区比其他群体更快地受到政策影响。
 
     
 
-    我们研究拍卖机制以支持新兴的AI生成内容的格式。我们特别研究如何以激励兼容的方式聚合多个LLM。在这个问题中，每个代理对随机生成的内容的偏好被描述/编码为一个LLM。设计一个用于AI生成的广告创意的拍卖格式来结合来自不同广告商的输入是一个关键动机。我们认为，尽管这个问题通常属于机制设计的范畴，但它具有一些独特的特点。我们提出了一个通用的形式化方法——令牌拍卖模型——来研究这个问题。这个模型的一个关键特点是它以令牌为单位进行操作，并允许LLM代理通过一维出价影响生成的内容。我们首先探讨了一个强大的拍卖设计方法，其中我们假设的是代理人的偏好涉及到结果分布的偏序。我们制定了两个自然的激励特性，并证明了这些特性的重要性。
+    我们结合了两种最近提出的非参数差异-差异方法，将它们扩展到使用机器学习方法在错位采用环境中研究治疗效果异质性。所提出的方法，机器学习差异-差异（MLDID），允许估计处理组的时变条件平均治疗效应，从而可以对治疗效果异质性的驱动因素进行详细推断。我们进行模拟实验来评估MLDID的性能，并发现它能准确识别出治疗效果异质性的真实预测因素。然后，我们使用MLDID来评估巴西家庭健康计划对婴儿死亡率的异质影响，并发现贫困人口和城市地区比其他子群体更快地受到政策影响。
 
-    We investigate auction mechanisms to support the emerging format of AI-generated content. We in particular study how to aggregate several LLMs in an incentive compatible manner. In this problem, the preferences of each agent over stochastically generated contents are described/encoded as an LLM. A key motivation is to design an auction format for AI-generated ad creatives to combine inputs from different advertisers. We argue that this problem, while generally falling under the umbrella of mechanism design, has several unique features. We propose a general formalism -- the token auction model -- for studying this problem. A key feature of this model is that it acts on a token-by-token basis and lets LLM agents influence generated contents through single dimensional bids.  We first explore a robust auction design approach, in which all we assume is that agent preferences entail partial orders over outcome distributions. We formulate two natural incentive properties, and show that these 
+    We combine two recently proposed nonparametric difference-in-differences methods, extending them to enable the examination of treatment effect heterogeneity in the staggered adoption setting using machine learning. The proposed method, machine learning difference-in-differences (MLDID), allows for estimation of time-varying conditional average treatment effects on the treated, which can be used to conduct detailed inference on drivers of treatment effect heterogeneity. We perform simulations to evaluate the performance of MLDID and find that it accurately identifies the true predictors of treatment effect heterogeneity. We then use MLDID to evaluate the heterogeneous impacts of Brazil's Family Health Program on infant mortality, and find those in poverty and urban locations experienced the impact of the policy more quickly than other subgroups.
     
-[^5]: 可处理的内生网络形成模型中的聚合方式
+[^3]: 音乐流媒体平台上的分成问题
 
-    Tractable Aggregation in Endogenous Network Formation Models. (arXiv:2310.10764v1 [econ.TH])
+    Revenue sharing at music streaming platforms. (arXiv:2310.11861v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.10764](http://arxiv.org/abs/2310.10764)
+    [http://arxiv.org/abs/2310.11861](http://arxiv.org/abs/2310.11861)
 
-    本文提出了一种新的条件，可以用生成函数来表征内生网络形成过程的稳态分布。这个条件与网络之间的转化函数有关，当这个转化与网络之间的转化独立时，证明了该过程是可逆的，因此可以构造出一个生成函数。利用这个稳态分布，研究了同质动力学和国际贸易模型的长期特性。
+    该论文研究了音乐流媒体平台上如何分享订阅费用的问题。作者提供了比例分成和以用户为中心的分成两种方法的基础，并提出了一系列折中方法，以更好地协调艺术家、粉丝和流媒体服务的利益。
 
     
 
-    本文在内生网络形成过程中提出了一种新的条件，可以利用生成函数来表征随机网络形成过程的稳态分布。这些条件是根据网络之间的转化函数给出的：如果两个网络之间的总转化不依赖于这些网络如何相互转化（通过添加或删除链接），那么该过程是可逆的，并且可以构造一个生成函数。当网络形成过程通过离散链接选择给出时，这个过程等价于证明与相关效用函数相关联的博弈是一个潜在博弈。这意味着潜在博弈的特征与网络形成过程的可逆性和可处理性有关。然后，我利用刻画的稳态分布研究同质动力学和国际贸易简单模型的长期特性。在添加前瞻性的代理人和转换时的效果。
+    我们研究了在音乐流媒体平台上分享订阅费用的问题，其中包括直接、公理和博弈论基础。我们提供了两种在实践中广泛使用的方法的基础：比例分成和以用户为中心的分成。前者根据艺术家的总播放次数来奖励他们。后者按照用户所播放的艺术家来将用户的订阅费平均分配给艺术家。我们还提供了一系列方法的基础，这些方法在前两种方法之间进行权衡，解决了音乐行业对探索更好地协调艺术家、粉丝和流媒体服务利益的新流媒体模型的关切。
 
-    This paper presents new conditions under which the stationary distribution of a stochastic network formation process can be characterized in terms of a generating function. These conditions are given in terms of a transforming function between networks: if the total transformation between two networks is independent of how these networks transform into each other (by adding or deleting links), then the process is reversible and a generating function can be constructed. When the network formation process is given by discrete choices of link formation, this procedure is equivalent to proving that the game with the associated utilities is a potential game. This implies that the potential game characterization is related to reversibility and tractability of network formation processes. I then use the characterized stationary distribution to study long-run properties of simple models of homophilic dynamics and international trade. The effects of adding forward-looking agents and switching c
+    We study the problem of sharing the revenues raised from subscriptions to music streaming platforms among content providers. We provide direct, axiomatic and game-theoretical foundations for two focal (and somewhat polar) methods widely used in practice: pro-rata and user-centric. The former rewards artists proportionally to their number of total streams. With the latter, each user's subscription fee is proportionally divided among the artists streamed by that user. We also provide foundations for a family of methods compromising among the previous two, which addresses the rising concern in the music industry to explore new streaming models that better align the interests of artists, fans and streaming services.
     
-[^6]: "关于科学卓越与竞争的论文"
+[^4]: 在相关异质性下，短期面板中关于平均处理效应的修剪均值组估计方法
+
+    Trimmed Mean Group Estimation of Average Treatment Effects in Ultra Short T Panels under Correlated Heterogeneity. (arXiv:2310.11680v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.11680](http://arxiv.org/abs/2310.11680)
+
+    本文在相关异质性下，提出了一种修剪均值组（TMG）估计器，可以在面板数据时间维度很小的情况下以不规则的速度保持一致性。该方法具有较好的性质和性能，并提供了相关异质性的检验方法。通过实证应用展示了该方法的实用性。
+
+    
+
+    在相关异质性下，常用的两路固定效应估计方法存在偏差并可能导致误导性推断。本文提出了一种新的修剪均值组估计器（TMG estimator），即使面板的时间维度与回归变量数目一样小，也能以不规则的n^{1/3}速度保持一致性。本文还提供了适用于具有时间效应的面板的扩展方法，并提出了一种相关异质性的豪斯曼式检验。通过蒙特卡洛实验，研究了TMG估计器（带有和不带有时间效应）在小样本情况下的性质，结果表明其性能令人满意，优于文献中提出的其他修剪估计器。同时，所提出的相关异质性检验显示出正确的大小和令人满意的功效。通过实证应用，展示了TMG方法的实用性。
+
+    Under correlated heterogeneity, the commonly used two-way fixed effects estimator is biased and can lead to misleading inference. This paper proposes a new trimmed mean group (TMG) estimator which is consistent at the irregular rate of n^{1/3} even if the time dimension of the panel is as small as the number of its regressors. Extensions to panels with time effects are provided, and a Hausman-type test of correlated heterogeneity is proposed. Small sample properties of the TMG estimator (with and without time effects) are investigated by Monte Carlo experiments and shown to be satisfactory and perform better than other trimmed estimators proposed in the literature. The proposed test of correlated heterogeneity is also shown to have the correct size and satisfactory power. The utility of the TMG approach is illustrated with an empirical application.
+    
+[^5]: 非核心银行资金和汇率灵活性中的全球因素
+
+    Global Factors in Non-core Bank Funding and Exchange Rate Flexibility. (arXiv:2310.11552v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.11552](http://arxiv.org/abs/2310.11552)
+
+    全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。
+
+    
+
+    我们展示了发达经济体银行体系中非核心与核心资金比率的波动由少数几个既有实物性又有金融性质的全球因素驱动，国家特定因素没有发挥重要作用。汇率灵活性有助于减小非核心与核心比率受到全球因素的影响，但仅在重大全球金融震荡期间（如2008-2009年）明显起作用。
+
+    We show that fluctuations in the ratio of non-core to core funding in the banking systems of advanced economies are driven by a handful of global factors of both real and financial natures, with country-specific factors playing no significant roles. Exchange rate flexibility helps insulate the non-core to core ratio from such global factors but only significantly so outside periods of major global financial disruptions, as in 2008-2009.
+    
+[^6]: 尼罗河上的海绵蛋糕困境：通过Rawlsian理论和算法实现资源分配的公平性
+
+    The Sponge Cake Dilemma over the Nile: Achieving Fairness in Resource Allocation through Rawlsian Theory and Algorithms. (arXiv:2310.11472v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.11472](http://arxiv.org/abs/2310.11472)
+
+    通过融合Rawlsian理论和算法手段，本文研究了水资源分配中的公平性问题。蛋糕切割模型在考虑战略因素的同时，寻找与Rawlsian公平原则相一致的解决方案，为解决尼罗河水资源争端提供了有价值的方法。
+
+    
+
+    本文通过整合规范和实证的视角，研究了水资源争端。约翰·罗尔斯的正义理论提供了道德指导，维护所有流域国家的合理获取权利。然而，通过蛋糕切割模型进行实证分析揭示了现实世界中的战略约束。虽然罗尔斯定义了期望的目标，但蛋糕切割提供了基于实际行为的算法手段。尼罗河流域争端说明了这种综合。罗尔斯认为水资源具有天然权利，但无限制的竞争可能导致垄断。在自利等局限性存在的情况下，他的原则本身无法防止不利的结果。这就是蛋糕切割在存在偏见主张的情况下提供价值的地方。其模型确定了与罗尔斯公平原则相符的安排，并纳入了战略考虑。本文详细介绍了蛋糕切割理论，回顾了水资源冲突文献，研究了尼罗河案例，探讨了合作与非合作的情况。
+
+    This article examines water disputes through an integrated framework combining normative and positive perspectives. John Rawls' theory of justice provides moral guidance, upholding rights to reasonable access for all riparian states. However, positive analysis using cake-cutting models reveals real-world strategic constraints. While Rawls defines desired ends, cake-cutting offers algorithmic means grounded in actual behaviors. The Nile River basin dispute illustrates this synthesis. Rawls suggests inherent rights to water, but unrestricted competition could enable monopoly. His principles alone cannot prevent unfavorable outcomes, given limitations like self-interest. This is where cake-cutting provides value despite biased claims. Its models identify arrangements aligning with Rawlsian fairness while incorporating strategic considerations. The article details the cake-cutting theory, reviews water conflicts literature, examines the Nile case, explores cooperative vs. non-cooperative g
+    
+[^7]: "关于科学卓越与竞争的论文"
 
     \"Uber wissenschaftliche Exzellenz und Wettbewerb. (arXiv:2310.09588v1 [econ.GN])
 
@@ -105,144 +116,88 @@
 
     The pursuit of excellence seems to be the True North of academia. What is meant by excellence? Can excellence be measured? This article discusses the concept of excellence in the context of research and competition.
     
-[^7]: 资源可用性和共识效应对共有资源的可持续性的影响
+[^8]: 关于部分识别二项选择模型的最优集估计
 
-    Impact of resource availability and conformity effect on sustainability of common-pool resources. (arXiv:2310.07577v1 [econ.TH])
+    On Optimal Set Estimation for Partially Identified Binary Choice Models. (arXiv:2310.02414v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.07577](http://arxiv.org/abs/2310.07577)
+    [http://arxiv.org/abs/2310.02414](http://arxiv.org/abs/2310.02414)
 
-    本文提出了一个新颖的框架，用于研究共有资源的采集和人类-环境系统中的合作。通过考虑资源可用性和共识效应等因素，我们确定了在不同情景下确保资源可持续性的关键值。
-
-    
-
-    共有资源的可持续性取决于人类和环境系统之间的相互作用。然而，目前还缺乏一个新颖和全面的框架来建模共有资源的采集和人类代理人的合作，能够考虑到塑造系统行为和结果的不同因素。特别是，我们仍然缺乏在不同情景下确保资源可持续性的关键值。在本文中，我们提出了一个新颖的框架，用于研究共有资源的资源采集和人类-环境系统中的合作。我们探讨了不同因素，如资源可用性和共识效应，对参与者决策和资源结果的影响。我们确定了在不同情景下确保资源可持续性的关键值。我们证明了观察到的现象对模型的复杂性和假设的稳健性，并讨论了研究对政策和实践的影响。
-
-    Sustainability of common-pool resources hinges on the interplay between human and environmental systems. However, there is still a lack of a novel and comprehensive framework for modelling extraction of common-pool resources and cooperation of human agents that can account for different factors that shape the system behavior and outcomes. In particular, we still lack a critical value for ensuring resource sustainability under different scenarios. In this paper, we present a novel framework for studying resource extraction and cooperation in human-environmental systems for common-pool resources. We explore how different factors, such as resource availability and conformity effect, influence the players' decisions and the resource outcomes. We identify critical values for ensuring resource sustainability under various scenarios. We demonstrate the observed phenomena are robust to the complexity and assumptions of the models and discuss implications of our study for policy and practice, a
-    
-[^8]: 一种关于货币的新的经济与金融理论
-
-    A new economic and financial theory of money. (arXiv:2310.04986v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.04986](http://arxiv.org/abs/2310.04986)
-
-    这篇论文通过根本性的改革，将电子货币纳入经济与金融理论，提出了一种新的理论框架，包括电子货币的估值基于宏观经济理论和货币政策的基本方程，以及电子货币管理公司作为协调次经济体货币和财政政策的实体。该研究避免使用普遍但不适当的指数风险模型，而是采用多时间尺度的模型。
+    本文重新考虑了部分识别模型估计中的最优性概念，并提出了在所有设计中收敛于识别区域的替代方法。
 
     
 
-    本文对经济与金融理论进行了根本性改革，包括电子货币在内。电子货币的估值将基于宏观经济理论和货币政策的基本方程，而不是微观经济学中的贴现现金流理论。与将股票视为与次经济体的无形资产关联的所有权不同，我们将发展电子货币作为与次经济体有形资产关联的交易权益的观点。我们还将发展电子货币管理公司作为一个负责协调次经济体的货币（电子货币供应和价值稳定）和财政（投资和运营）政策的实体的视角，以实现电子货币的流动性。在估值和决策中使用的风险模型不会是无处不在但不合适的指数风险模型，它将导致贴现率，而是多时间尺度的模型。
+    在本文中，我们重新考虑了部分识别模型估计中的最优性概念。我们以半参数二项选择模型为例，以离散协变量作为示例，说明了一般问题。该模型在一定程度上是部分识别的，例如Bierens和Hartog（1988）所示。通过实施Manski（1975）提出的最大分数程序，可以构建模型中回归系数的集合估计。对于许多设计，该方法收敛于这些参数的识别集，因此在某种意义上是最优的。但是，正如Komarova（2013）所示，对于其他情况，最大分数目标函数给出了识别集的边界区域。这激发了寻求其他优化方法的动力，这些方法在所有设计中都收敛于识别区域，并且我们提出并比较了这些方法。一个是Hodges类型的估计器，将最大分数估计器与现有程序相结合。第二个是两步法
 
-    This paper fundamentally reformulates economic and financial theory to include electronic currencies. The valuation of the electronic currencies will be based on macroeconomic theory and the fundamental equation of monetary policy, not the microeconomic theory of discounted cash flows. The view of electronic currency as a transactional equity associated with tangible assets of a sub-economy will be developed, in contrast to the view of stock as an equity associated mostly with intangible assets of a sub-economy. The view will be developed of the electronic currency management firm as an entity responsible for coordinated monetary (electronic currency supply and value stabilization) and fiscal (investment and operational) policies of a substantial (for liquidity of the electronic currency) sub-economy. The risk model used in the valuations and the decision-making will not be the ubiquitous, yet inappropriate, exponential risk model that leads to discount rates, but will be multi time sc
+    In this paper we reconsider the notion of optimality in estimation of partially identified models. We illustrate the general problem in the context of a semiparametric binary choice model with discrete covariates as an example of a model which is partially identified as shown in, e.g. Bierens and Hartog (1988). A set estimator for the regression coefficients in the model can be constructed by implementing the Maximum Score procedure proposed by Manski (1975). For many designs this procedure converges to the identified set for these parameters, and so in one sense is optimal. But as shown in Komarova (2013) for other cases the Maximum Score objective function gives an outer region of the identified set. This motivates alternative methods that are optimal in one sense that they converge to the identified region in all designs, and we propose and compare such procedures. One is a Hodges type estimator combining the Maximum Score estimator with existing procedures. A second is a two step e
     
-[^9]: DeepVol：一种用于通用资产波动性建模的深度迁移学习方法
+[^9]: 多期欧式期权的静态对冲
 
-    DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling. (arXiv:2309.02072v1 [econ.EM])
+    Multi-period static hedging of European options. (arXiv:2310.01104v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2309.02072](http://arxiv.org/abs/2309.02072)
+    [http://arxiv.org/abs/2310.01104](http://arxiv.org/abs/2310.01104)
 
-    DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。
-
-    
-
-    本文介绍了一种新的深度学习波动性模型DeepVol，它在模型的广泛性方面优于传统的计量经济模型。DeepVol利用迁移学习的能力，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，包括以前未见过的资产。这与计量经济学文献中的主流做法形成鲜明对比，后者需要为不同数据集训练单独的模型。引入DeepVol为金融行业的波动性建模和预测开辟了新的途径，可能会改变对波动性的理解和预测方式。
-
-    This paper introduces DeepVol, a promising new deep learning volatility model that outperforms traditional econometric models in terms of model generality. DeepVol leverages the power of transfer learning to effectively capture and model the volatility dynamics of all financial assets, including previously unseen ones, using a single universal model. This contrasts to the prevailing practice in econometrics literature, which necessitates training separate models for individual datasets. The introduction of DeepVol opens up new avenues for volatility modeling and forecasting in the finance industry, potentially transforming the way volatility is understood and predicted.
-    
-[^10]: 一项放贷法律：一个澄清
-
-    A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.08861](http://arxiv.org/abs/2307.08861)
-
-    本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。
+    本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。
 
     
 
-    一些国家的国家法律禁止以高利息贷款。大多数国家限制有效利率（而不仅仅是名义利率），其中包括所有可能与贷款相关的佣金和费用。在这种情况下，对于现金流没有内部回报率的贷款，限制不明确。在本文中，我们展示了如何将此限制扩展到所有贷款。我们证明了存在一个独特的扩展，与一组自然公理一致。
+    本文考虑了在基础资产价格遵循单因素马尔可夫框架的情况下对欧式期权进行对冲。Carr和Wu [1]在这样的设置下，导出了给定期权与在同一资产上写的一系列较短期限期权之间的跨度关系。在本文中，我们将他们的方法扩展到同时包括多个短期到期的期权。然后，我们使用高斯求积方法通过有限的一组短期期权确定对冲误差的实际实现。我们对\textit{Black-Scholes}和\textit{Merton Jump Diffusion}模型进行了广泛的实验，展示了这两种方法的比较性能。
 
-    The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.
+    We consider the hedging of European options when the price of the underlying asset follows a single-factor Markovian framework. By working in such a setting, Carr and Wu \cite{carr2014static} derived a spanning relation between a given option and a continuum of shorter-term options written on the same asset. In this paper, we have extended their approach to simultaneously include options over multiple short maturities. We then show a practical implementation of this with a finite set of shorter-term options to determine the hedging error using a Gaussian Quadrature method. We perform a wide range of experiments for both the \textit{Black-Scholes} and \textit{Merton Jump Diffusion} models, illustrating the comparative performance of the two methods.
     
-[^11]: 多元概率CRPS学习及其在日前电价预测中的应用
+[^10]: 对线性概率模型和非线性指数模型的再思考
 
-    Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices. (arXiv:2303.10019v1 [stat.ML])
+    Another Look at the Linear Probability Model and Nonlinear Index Models. (arXiv:2308.15338v1 [econ.EM])
 
-    [http://arxiv.org/abs/2303.10019](http://arxiv.org/abs/2303.10019)
+    [http://arxiv.org/abs/2308.15338](http://arxiv.org/abs/2308.15338)
 
-    本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。
-
-    
-
-    本文提出了一种考虑分位数和协变量依赖关系的多元概率预测的结合方法，并通过平滑过程允许在线学习。通过维数降低和罚函数平滑等两种平滑方法来将标准CRPS学习框架推广到多元维度中。将该方法应用于预测日前电价，相比于统一组合，在CRPS方面取得了显著改进。
-
-    This paper presents a new method for combining (or aggregating or ensembling) multivariate probabilistic forecasts, taking into account dependencies between quantiles and covariates through a smoothing procedure that allows for online learning. Two smoothing methods are discussed: dimensionality reduction using Basis matrices and penalized smoothing. The new online learning algorithm generalizes the standard CRPS learning framework into multivariate dimensions. It is based on Bernstein Online Aggregation (BOA) and yields optimal asymptotic learning properties. We provide an in-depth discussion on possible extensions of the algorithm and several nested cases related to the existing literature on online forecast combination. The methodology is applied to forecasting day-ahead electricity prices, which are 24-dimensional distributional forecasts. The proposed method yields significant improvements over uniform combination in terms of continuous ranked probability score (CRPS). We discuss 
-    
-[^12]: 深度学习增强的实现GARCH模型
-
-    Deep Learning Enhanced Realized GARCH. (arXiv:2302.08002v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.08002](http://arxiv.org/abs/2302.08002)
-
-    使用深度学习（LSTM）和实现波动率测量的新框架能够共同建模收益和实现波动率测量，在统计推断和预测方面具有出色的性能，并且能够适应波动率的定式事实。
+    本文重新评估了使用线性模型来近似二元结果的响应概率的部分效应的利弊，并重点研究了平均部分效应而不是底层线性指数的参数。通过模拟实验，发现OLS近似或不近似APE的各种情况，并提出了一种实用的方法来减少OLS的有限样本偏差，结果表明该方法与非线性最小二乘（NLS）估计数值上相等。
 
     
 
-    我们提出了一种新的波动率建模方法，将深度学习（LSTM）和实现波动率测量结合起来。这种LSTM增强的实现GARCH框架融合了金融计量学、高频交易数据和深度学习的建模进展。通过顺序蒙特卡洛方法采用贝叶斯推断进行统计推断和预测。新的框架能够共同建模收益和实现波动率测量，具有非常好的内样本拟合和超过几个基准模型的预测性能，同时能够很好地适应波动率的定式事实。使用广泛交易的31个股票指数进行了全面实证研究，涵盖了包括COVID-19大流行在内的时间段。
+    我们重新考虑了使用线性模型来近似二元结果的响应概率的部分效应的利弊。特别地，我们研究了Horrace和Oaxaca (2006)中的斜坡模型，但我们的重点是平均部分效应(APE)，而不是底层线性指数的参数。我们使用现有的理论结果来验证线性投影参数（这些参数总是被普通最小二乘法（OLS）一致估计）可能与指数参数不同，但在某些情况下仍然与APE相同。使用模拟，我们描述了OLS近似或不近似APE的其他情况，并发现在[0,1]范围内具有大比例的拟合值既不是必要的，也不是充分的。减少OLS有限样本偏差的实用方法是迭代修剪超出单位间隔的观测值，我们发现这产生的估计量在数值上等同于非线性最小二乘（NLS）估计。
 
-    We propose a new approach to volatility modeling by combining deep learning (LSTM) and realized volatility measures. This LSTM-enhanced realized GARCH framework incorporates and distills modeling advances from financial econometrics, high frequency trading data and deep learning. Bayesian inference via the Sequential Monte Carlo method is employed for statistical inference and forecasting. The new framework can jointly model the returns and realized volatility measures, has an excellent in-sample fit and superior predictive performance compared to several benchmark models, while being able to adapt well to the stylized facts in volatility. The performance of the new framework is tested using a wide range of metrics, from marginal likelihood, volatility forecasting, to tail risk forecasting and option pricing. We report on a comprehensive empirical study using 31 widely traded stock indices over a time period that includes COVID-19 pandemic.
+    We reconsider the pros and cons of using a linear model to approximate partial effects on a response probability for a binary outcome. In particular, we study the ramp model in Horrace and Oaxaca (2006), but focus on average partial effects (APE) rather than the parameters of the underlying linear index. We use existing theoretical results to verify that the linear projection parameters (which are always consistently estimated by ordinary least squares (OLS)) may differ from the index parameters, yet still be identical to the APEs in some cases. Using simulations, we describe other cases where OLS either does or does not approximate the APEs, and we find that having a large fraction of fitted values in [0,1] is neither necessary nor sufficient. A practical approach to reduce the finite sample bias of OLS is to iteratively trim the observations with fitted values outside the unit interval, which we find produces estimates numerically equivalent to nonlinear least squares (NLS) estimatio
     
-[^13]: 对多个感兴趣结果的策略学习：将最优策略树与多目标贝叶斯优化相结合
+[^11]: 二战期间轰炸对20世纪日本生育率的深远影响
 
-    Policy learning for many outcomes of interest: Combining optimal policy trees with multi-objective Bayesian optimisation. (arXiv:2212.06312v2 [cs.LG] UPDATED)
+    The far-reaching effects of bombing on fertility in mid-20th century Japan. (arXiv:2306.05770v1 [econ.GN])
 
-    [http://arxiv.org/abs/2212.06312](http://arxiv.org/abs/2212.06312)
+    [http://arxiv.org/abs/2306.05770](http://arxiv.org/abs/2306.05770)
 
-    该论文提出了一种多目标策略学习（MOPoL）方法，结合了最优决策树和多目标贝叶斯优化方法，可以平衡多个感兴趣的结果。
-
-    
-
-    学习最优策略的方法使用因果机器学习模型来创建人类可解释的规则，以在不同政策干预分配中进行选择。然而，在现实中的政策制定环境中，决策者通常关心不同结果之间的平衡，而不仅仅是单纯地最大化一个结果的效用。本文提出了一种被称为多目标策略学习（MOPoL）的方法，它将策略学习的最优决策树与多目标贝叶斯优化方法相结合，以探索多个结果之间的权衡。它通过构建非支配模型的帕累托前沿来实现，这些模型在不同的超参数设置下控制着结果的权重。关键在于，一个低成本的贪心树可以作为非常计算昂贵的最优树的准确代理，用于决策目的，这意味着可以反复拟合模型来学习帕累托前沿。该方法应用于实际案例
-
-    Methods for learning optimal policies use causal machine learning models to create human-interpretable rules for making choices around the allocation of different policy interventions. However, in realistic policy-making contexts, decision-makers often care about trade-offs between outcomes, not just single-mindedly maximising utility for one outcome. This paper proposes an approach termed Multi-Objective Policy Learning (MOPoL) which combines optimal decision trees for policy learning with a multi-objective Bayesian optimisation approach to explore the trade-off between multiple outcomes. It does this by building a Pareto frontier of non-dominated models for different hyperparameter settings which govern outcome weighting. The key here is that a low-cost greedy tree can be an accurate proxy for the very computationally costly optimal tree for the purposes of making decisions which means models can be repeatedly fit to learn a Pareto frontier. The method is applied to a real-world case
-    
-[^14]: 在样本选择条件下的因果概率：对J\'ovenes en Acci\'on对形式化的影响的重新分析
-
-    Probability of Causation with Sample Selection: A Reanalysis of the Impacts of J\'ovenes en Acci\'on on Formality. (arXiv:2210.01938v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2210.01938](http://arxiv.org/abs/2210.01938)
-
-    本文通过对样本选择条件下的因果概率进行重新分析，确定了因果概率的部分界限。在考虑了不同假设的情况下得到了有力的结果，并且在哥伦比亚的J\'ovenes en Acci\'on项目中实证发现，该项目使至少18%至多24%的始终就业的女性转向了正式劳动力市场。
+    本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。
 
     
 
-    本文在存在样本选择条件下识别了因果概率。我们表明对于那些无论接受治疗与否都始终被观察到的个体，因果概率部分被确定，并在三组逐渐严格的假设下得出了尖锐的边界。第一组假设了外生的治疗和单调的样本选择机制。为了收紧这些边界，第二组还假设了单调的治疗反应，而第三组另外还假设了随机优势。最后，我们使用来自哥伦比亚职业培训项目J\'ovenes en Acci\'on的实验数据，实证说明了我们方法的实用性。我们发现，对于始终就业的女性，最少有18%至多24%的人因该项目过渡到了正式劳动力市场。
+    战争和冲突之后的生育变化在全球范围内得到了观察。本研究旨在研究区域战争破坏是否会影响战后生育，即使是未直接受到影响但靠近受损地区的地区。为了达到这个目的，我们利用了日本二战期间的空袭经历。利用1935年和1947年近畿地区的市町村级别生育数据以及城市空袭损失数据，我们发现轰炸对于15公里内城镇和乡村的战后生育率存在影响，尽管这些地区未直接受到损害。然而，间接影响的方向是混合的。估计结果表明，邻近城市的严重空袭增加了生育率，而较轻的空袭则降低了生育率。此外，拟实验法的结果表明，严重的空袭恐惧在战后期间增加了生育率。本研究为战后生育变化的文献提供了证据，即轰炸对于生育率有深远影响，即使是被战争损害间接影响的地区。
 
-    This paper identifies the probability of causation when there is sample selection. We show that the probability of causation is partially identified for individuals who are always observed regardless of treatment status and derive sharp bounds under three increasingly restrictive sets of assumptions. The first set imposes an exogenous treatment and a monotone sample selection mechanism. To tighten these bounds, the second set also imposes the monotone treatment response assumption, while the third set additionally imposes a stochastic dominance assumption. Finally, we use experimental data from the Colombian job training program J\'ovenes en Acci\'on to empirically illustrate our approach's usefulness. We find that, among always-employed women, at least 18% and at most 24% transitioned to the formal labor market because of the program.
+    Fertility changes after wars and conflicts have been observed worldwide. This study examines whether regional war damage affects postwar fertility even in areas that were not directly affected but were close to the damaged areas. In order to accomplish this, we exploit the air-raid experience in Japan during World War II. Using the municipality-level fertility data in the Kinki region in 1935 and 1947 and the data on damages from air raids in cities, we find the effects of bombing on postwar fertility in towns and villages within 15 kilometers, despite no direct damages. However, the direction of the indirect effects is mixed. The estimation results suggest that severe air raids in neighboring cities increased fertility, whereas minor air raids decreased it. Moreover, the results of the quasi-experimental approach indicate that intense fears of air raids increased the fertility rate in the postwar period. Our study contributes to the literature on fertility changes in the postwar perio
     
-[^15]: 灵活的全球预测组合
+[^12]: 苏格兰地方政府选举中的单调性异常现象
 
-    Flexible global forecast combinations. (arXiv:2207.07318v2 [econ.EM] UPDATED)
+    Monotonicity Anomalies in Scottish Local Government Elections. (arXiv:2305.17741v1 [econ.GN])
 
-    [http://arxiv.org/abs/2207.07318](http://arxiv.org/abs/2207.07318)
+    [http://arxiv.org/abs/2305.17741](http://arxiv.org/abs/2305.17741)
 
-    本文介绍了一种灵活的全球预测组合框架，能够在考虑任务相关性的基础上聚合多个专家或模型的预测。通过合成和真实数据的比较，证明了这些全球预测组合的有效性。
-
-    
-
-    预测组合——将多个专家或模型的个别预测聚合起来——是一种经过验证的经济预测方法。迄今为止，经济预测研究集中在局部组合方法上，这些方法处理单独但相关的预测任务。然而，机器学习社区早在20多年前就已经知道，利用任务相关性的全局方法可以改善忽略相关性的局部方法。受到改进可能性的启发，本文介绍了一个灵活的框架，用于在考虑任务相关性的基础上全局组合预测。通过我们的框架，我们开发了几种现有预测组合的全局版本。为了评估这些新的全球预测组合的功效，我们使用合成和真实数据进行了广泛的比较。我们的真实数据比较涉及到欧元区核心经济指标的预测，提供了经验证据证明这些全球预测组合的有效性。
-
-    Forecast combination -- the aggregation of individual forecasts from multiple experts or models -- is a proven approach to economic forecasting. To date, research on economic forecasting has concentrated on local combination methods, which handle separate but related forecasting tasks in isolation. Yet, it has been known for over two decades in the machine learning community that global methods, which exploit task-relatedness, can improve on local methods that ignore it. Motivated by the possibility for improvement, this paper introduces a framework for globally combining forecasts while being flexible to the level of task-relatedness. Through our framework, we develop global versions of several existing forecast combinations. To evaluate the efficacy of these new global forecast combinations, we conduct extensive comparisons using synthetic and real data. Our real data comparisons, which involve forecasts of core economic indicators in the Eurozone, provide empirical evidence that the
-    
-[^16]: 选择与平行趋势的关系
-
-    Selection and parallel trends. (arXiv:2203.09001v7 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2203.09001](http://arxiv.org/abs/2203.09001)
-
-    本文研究了选择进入处理组和平行趋势假设的关系，推导了平行趋势假设的必要和充分条件，并提出了解释性原初充分条件和针对不确定的平行趋势进行敏感性分析的新工具。
+    本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。
 
     
 
-    我们研究了选择进入处理组和平行趋势假设之间的联系，这是差异法（DiD）设计基础的重要假设。我们的框架适用于一般的选择机制，包括选择固定效应、潜在结果、处理效应和其他经济模型的选择。首先，我们推导了平行趋势假设的必要和充分条件。这些条件在理论上澄清了平行趋势假设的实证内容，并展示了选择限制和时变不可观测变量分布之间的权衡。其次，我们提供了一系列可解释的原初充分条件，构成了在实践中证明差异法的形式框架。第三，我们提出了基于选择的敏感性分析的新工具，当我们对平行趋势的必要条件存疑时，可以使用这些工具。最后，我们展示了在具有时变协变量的设置中，典型的条件平行趋势。
+    单一可转移选票（STV）投票方法用于选举排名选举中的多个候选人。STV的一个弱点是它未能通过与单调性和无表决悖论相关的多个公平标准。我们分析了苏格兰1,079个地方政府STV选举，以估计现实世界选举中此类单调性异常的频率，并将结果与关于此类异常出现率的先前经验和理论研究进行比较。在1079次选举中，我们发现41次出现某种单调性异常。我们通常发现异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。我们发现的大多数STV异常都是第一次在实际选举中记录到的。
 
-    We study the connection between selection into treatment and the parallel trends assumptions underlying difference-in-differences (DiD) designs. Our framework accommodates general selection mechanisms, including selection on fixed effects, potential outcomes, treatment effects, and other economic models of selection. First, we derive necessary and sufficient conditions for the parallel trends assumption. These conditions theoretically clarify the empirical content of the parallel trends assumption and demonstrate trade-offs between restrictions on selection and the distribution of time-varying unobservables. Second, we provide a menu of interpretable primitive sufficient conditions, which constitute a formal framework for justifying DiD in practice. Third, we propose novel tools for selection-based sensitivity analyses when our necessary conditions for parallel trends are questionable. Finally, we show that for settings with time-varying covariates, typical conditional parallel trends 
+    The single transferable vote (STV) voting method is used to elect multiple candidates in ranked-choice elections. One weakness of STV is that it fails multiple fairness criteria related to monotonicity and no-show paradoxes. We analyze 1,079 local government STV elections in Scotland to estimate the frequency of such monotonicity anomalies in real-world elections, and compare our results with prior empirical and theoretical research about the rates at which such anomalies occur. In 41 of the 1079 elections we found some kind of monotonicity anomaly. We generally find that the rates of anomalies are similar to prior empirical research and much lower than what most theoretical research has found. Most of the STV anomalies we find are the first of their kind to be documented in real-world elections.
+    
+[^13]: 关于时间序列回归中的鲁棒推断
+
+    On Robust Inference in Time Series Regression. (arXiv:2203.04080v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2203.04080](http://arxiv.org/abs/2203.04080)
+
+    该论文研究了时间序列回归中的鲁棒推断问题，指出了将HAC估计技术应用于时间序列环境时的困难，并讨论了OLS参数估计不一致、HAC回归参数估计低效以及HAC条件预测低效等问题。
+
+    
+
+    在横截面环境中，具有异方差和自相关一致（HAC）标准误的最小二乘回归非常有用。然而，在将HAC估计技术应用于时间序列环境时，会面临几个常常被忽视的主要困难。首先，在可能出现强外生性失败的时间序列环境中，OLS参数估计可能不一致，因此即使渐近下也无法进行HAC推断。其次，大多数经济时间序列具有强自相关性，这使得HAC回归参数估计非常低效。第三，强自相关性同样使得HAC条件预测非常低效。最后，流行的HAC估计器的结构不适合捕捉通常存在于经济时间序列中的自回归自相关性，这会产生较大的规模扭曲和HAC假设检验中的功效降低，除非样本数量非常大。
+
+    Least squares regression with heteroskedasticity and autocorrelation consistent (HAC) standard errors has proved very useful in cross section environments. However, several major difficulties, which are generally overlooked, must be confronted when transferring the HAC estimation technology to time series environments. First, in plausible time-series environments involving failure of strong exogeneity, OLS parameter estimates can be inconsistent, so that HAC inference fails even asymptotically. Second, most economic time series have strong autocorrelation, which renders HAC regression parameter estimates highly inefficient. Third, strong autocorrelation similarly renders HAC conditional predictions highly inefficient. Finally, The structure of popular HAC estimators is ill-suited for capturing the autoregressive autocorrelation typically present in economic time series, which produces large size distortions and reduced power in HACbased hypothesis testing, in all but the largest sample
     
 

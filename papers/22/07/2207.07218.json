@@ -1,0 +1,11 @@
+{
+    "title": "On the Selection of Tuning Parameters for Patch-Stitching Embedding Methods. (arXiv:2207.07218v2 [stat.ME] UPDATED)",
+    "abstract": "While classical scaling, just like principal component analysis, is parameter-free, other methods for embedding multivariate data require the selection of one or several tuning parameters. This tuning can be difficult due to the unsupervised nature of the situation. We propose a simple, almost obvious, approach to supervise the choice of tuning parameter(s): minimize a notion of stress. We apply this approach to the selection of the patch size in a prototypical patch-stitching embedding method, both in the multidimensional scaling (aka network localization) setting and in the dimensionality reduction (aka manifold learning) setting. In our study, we uncover a new bias--variance tradeoff phenomenon.",
+    "link": "http://arxiv.org/abs/2207.07218",
+    "context": "Title: On the Selection of Tuning Parameters for Patch-Stitching Embedding Methods. (arXiv:2207.07218v2 [stat.ME] UPDATED)\nAbstract: While classical scaling, just like principal component analysis, is parameter-free, other methods for embedding multivariate data require the selection of one or several tuning parameters. This tuning can be difficult due to the unsupervised nature of the situation. We propose a simple, almost obvious, approach to supervise the choice of tuning parameter(s): minimize a notion of stress. We apply this approach to the selection of the patch size in a prototypical patch-stitching embedding method, both in the multidimensional scaling (aka network localization) setting and in the dimensionality reduction (aka manifold learning) setting. In our study, we uncover a new bias--variance tradeoff phenomenon.",
+    "path": "papers/22/07/2207.07218.json",
+    "total_tokens": 728,
+    "translated_title": "关于拼接嵌入方法调参参数选择的研究",
+    "translated_abstract": "尽管经典的缩放方法和主成分分析都不需要调参，但其他嵌入多元数据的方法则需要选择一个或多个调参参数。由于无监督的特性，这个调参过程可能会非常困难。我们提出了一个简单且近乎显而易见的方法来监督选择调参参数：最小化一种应力概念。我们将这种方法应用于典型的拼接嵌入方法中的补丁大小选择，无论是在多维缩放（又称网络定位）设置中还是在降维（又称流形学习）设置中。在我们的研究中，我们发现了一种新的偏差-方差权衡现象。",
+    "tldr": "本文研究了拼接嵌入方法中调参参数的选择问题，提出了一种简单的方法来监督选择参数，并发现了新的偏差-方差权衡现象。"
+}

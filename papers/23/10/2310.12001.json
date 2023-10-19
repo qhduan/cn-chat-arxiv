@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian Flow Networks in Continual Learning. (arXiv:2310.12001v1 [cs.LG])",
+    "abstract": "Bayesian Flow Networks (BFNs) has been recently proposed as one of the most promising direction to universal generative modelling, having ability to learn any of the data type. Their power comes from the expressiveness of neural networks and Bayesian inference which make them suitable in the context of continual learning. We delve into the mechanics behind BFNs and conduct the experiments to empirically verify the generative capabilities on non-stationary data.",
+    "link": "http://arxiv.org/abs/2310.12001",
+    "context": "Title: Bayesian Flow Networks in Continual Learning. (arXiv:2310.12001v1 [cs.LG])\nAbstract: Bayesian Flow Networks (BFNs) has been recently proposed as one of the most promising direction to universal generative modelling, having ability to learn any of the data type. Their power comes from the expressiveness of neural networks and Bayesian inference which make them suitable in the context of continual learning. We delve into the mechanics behind BFNs and conduct the experiments to empirically verify the generative capabilities on non-stationary data.",
+    "path": "papers/23/10/2310.12001.json",
+    "total_tokens": 606,
+    "translated_title": "连续学习中的贝叶斯流网络",
+    "translated_abstract": "最近，贝叶斯流网络（BFNs）被提出作为通用生成建模中非常有前景的方向之一，具有学习任何数据类型的能力。他们的强大之处在于神经网络和贝叶斯推断的表达能力，使它们适用于连续学习的背景下。我们深入研究了BFNs的机制，并进行实验证实了它在非稳态数据上的生成能力。",
+    "tldr": "连续学习中的贝叶斯流网络（BFNs）是一种具有通用生成建模能力的方法，通过结合神经网络和贝叶斯推断，在非稳态数据上取得了良好的实验结果。",
+    "en_tdlr": "Bayesian Flow Networks (BFNs) in continual learning is a powerful approach for universal generative modeling, leveraging the expressiveness of neural networks and Bayesian inference to achieve promising results on non-stationary data."
+}

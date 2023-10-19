@@ -1,0 +1,11 @@
+{
+    "title": "Fractional Concepts in Neural Networks: Enhancing Activation and Loss Functions. (arXiv:2310.11875v1 [cs.LG])",
+    "abstract": "The paper presents a method for using fractional concepts in a neural network to modify the activation and loss functions. The methodology allows the neural network to define and optimize its activation functions by determining the fractional derivative order of the training process as an additional hyperparameter. This will enable neurons in the network to adjust their activation functions to match input data better and reduce output errors, potentially improving the network's overall performance.",
+    "link": "http://arxiv.org/abs/2310.11875",
+    "context": "Title: Fractional Concepts in Neural Networks: Enhancing Activation and Loss Functions. (arXiv:2310.11875v1 [cs.LG])\nAbstract: The paper presents a method for using fractional concepts in a neural network to modify the activation and loss functions. The methodology allows the neural network to define and optimize its activation functions by determining the fractional derivative order of the training process as an additional hyperparameter. This will enable neurons in the network to adjust their activation functions to match input data better and reduce output errors, potentially improving the network's overall performance.",
+    "path": "papers/23/10/2310.11875.json",
+    "total_tokens": 554,
+    "translated_title": "神经网络中的分数概念：增进激活和损失函数",
+    "translated_abstract": "本文介绍了一种在神经网络中使用分数概念修改激活和损失函数的方法。该方法允许神经网络通过确定训练过程的分数导数阶数作为额外的超参数来定义和优化其激活函数。这将使得网络中的神经元能够调整其激活函数以更好地适应输入数据并减少输出错误，有可能提高网络的整体性能。",
+    "tldr": "本文介绍了一种使用分数概念修改激活和损失函数的方法，通过调整神经元的激活函数，能够更好地适应输入数据并提高网络的性能。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Automatic News Summerization. (arXiv:2310.11520v1 [cs.CL])",
+    "abstract": "Natural Language Processing is booming with its applications in the real world, one of which is Text Summarization for large texts including news articles. This research paper provides an extensive comparative evaluation of extractive and abstractive approaches for news text summarization, with an emphasis on the ROUGE score analysis. The study employs the CNN-Daily Mail dataset, which consists of news articles and human-generated reference summaries. The evaluation employs ROUGE scores to assess the efficacy and quality of generated summaries. After Evaluation, we integrate the best-performing models on a web application to assess their real-world capabilities and user experience.",
+    "link": "http://arxiv.org/abs/2310.11520",
+    "context": "Title: Automatic News Summerization. (arXiv:2310.11520v1 [cs.CL])\nAbstract: Natural Language Processing is booming with its applications in the real world, one of which is Text Summarization for large texts including news articles. This research paper provides an extensive comparative evaluation of extractive and abstractive approaches for news text summarization, with an emphasis on the ROUGE score analysis. The study employs the CNN-Daily Mail dataset, which consists of news articles and human-generated reference summaries. The evaluation employs ROUGE scores to assess the efficacy and quality of generated summaries. After Evaluation, we integrate the best-performing models on a web application to assess their real-world capabilities and user experience.",
+    "path": "papers/23/10/2310.11520.json",
+    "total_tokens": 718,
+    "translated_title": "自动新闻摘要",
+    "translated_abstract": "自然语言处理在现实世界中的应用正在蓬勃发展，其中之一是针对包括新闻文章在内的大型文本的文本摘要。本研究论文对新闻文本摘要的抽取式和生成式方法进行了广泛的比较评估，并重点分析了ROUGE得分。研究采用了CNN-Daily Mail数据集，其中包含了新闻文章和人工生成的参考摘要。评估使用ROUGE得分来评估生成摘要的效果和质量。在评估之后，我们将最佳表现模型集成到一个Web应用程序中，评估其在现实世界中的能力和用户体验。",
+    "tldr": "本研究比较和评估了抽取式和生成式方法在新闻文本摘要上的效果，并使用ROUGE得分进行质量评估。最佳表现模型被集成到一个Web应用程序中，以评估其在现实世界中的能力和用户体验。",
+    "en_tdlr": "This research paper provides a comparative evaluation of extractive and abstractive approaches for news text summarization, and integrates the best-performing models into a web application to assess their real-world capabilities and user experience."
+}

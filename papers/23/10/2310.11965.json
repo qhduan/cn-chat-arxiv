@@ -1,0 +1,12 @@
+{
+    "title": "Filling in the Gaps: Efficient Event Coreference Resolution using Graph Autoencoder Networks. (arXiv:2310.11965v1 [cs.CL])",
+    "abstract": "We introduce a novel and efficient method for Event Coreference Resolution (ECR) applied to a lower-resourced language domain. By framing ECR as a graph reconstruction task, we are able to combine deep semantic embeddings with structural coreference chain knowledge to create a parameter-efficient family of Graph Autoencoder models (GAE). Our method significantly outperforms classical mention-pair methods on a large Dutch event coreference corpus in terms of overall score, efficiency and training speed. Additionally, we show that our models are consistently able to classify more difficult coreference links and are far more robust in low-data settings when compared to transformer-based mention-pair coreference algorithms.",
+    "link": "http://arxiv.org/abs/2310.11965",
+    "context": "Title: Filling in the Gaps: Efficient Event Coreference Resolution using Graph Autoencoder Networks. (arXiv:2310.11965v1 [cs.CL])\nAbstract: We introduce a novel and efficient method for Event Coreference Resolution (ECR) applied to a lower-resourced language domain. By framing ECR as a graph reconstruction task, we are able to combine deep semantic embeddings with structural coreference chain knowledge to create a parameter-efficient family of Graph Autoencoder models (GAE). Our method significantly outperforms classical mention-pair methods on a large Dutch event coreference corpus in terms of overall score, efficiency and training speed. Additionally, we show that our models are consistently able to classify more difficult coreference links and are far more robust in low-data settings when compared to transformer-based mention-pair coreference algorithms.",
+    "path": "papers/23/10/2310.11965.json",
+    "total_tokens": 720,
+    "translated_title": "填补空白：利用图自编码网络进行高效的事件共指消解",
+    "translated_abstract": "我们介绍了一种针对低资源语言领域应用的事件共指消解（ECR）的新颖高效方法。通过将ECR作为图重建任务来进行，我们能够将深层语义嵌入与结构化共指链知识相结合，创建一个参数有效的图自编码器模型（GAE）系列。我们的方法在整体得分、效率和训练速度方面显著优于经典的提及对方法，在大规模荷兰语事件共指语料库中表现出色。此外，我们还展示了我们的模型在更难的共指链接分类和低数据环境中比基于transformer的提及对共指算法更加稳健。",
+    "tldr": "填补空白：利用图自编码网络进行高效的事件共指消解，显著优于传统方法，尤其在低资源或低数据环境下表现更好。",
+    "en_tdlr": "Filling in the Gaps: Efficient Event Coreference Resolution using Graph Autoencoder Networks significantly outperforms classical methods, particularly in low-resource or low-data settings."
+}

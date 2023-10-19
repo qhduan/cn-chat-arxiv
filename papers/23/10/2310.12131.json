@@ -1,0 +1,12 @@
+{
+    "title": "Automated Attribute Extraction from Legal Proceedings. (arXiv:2310.12131v1 [cs.IR])",
+    "abstract": "The escalating number of pending cases is a growing concern world-wide. Recent advancements in digitization have opened up possibilities for leveraging artificial intelligence (AI) tools in the processing of legal documents. Adopting a structured representation for legal documents, as opposed to a mere bag-of-words flat text representation, can significantly enhance processing capabilities. With the aim of achieving this objective, we put forward a set of diverse attributes for criminal case proceedings. We use a state-of-the-art sequence labeling framework to automatically extract attributes from the legal documents. Moreover, we demonstrate the efficacy of the extracted attributes in a downstream task, namely legal judgment prediction.",
+    "link": "http://arxiv.org/abs/2310.12131",
+    "context": "Title: Automated Attribute Extraction from Legal Proceedings. (arXiv:2310.12131v1 [cs.IR])\nAbstract: The escalating number of pending cases is a growing concern world-wide. Recent advancements in digitization have opened up possibilities for leveraging artificial intelligence (AI) tools in the processing of legal documents. Adopting a structured representation for legal documents, as opposed to a mere bag-of-words flat text representation, can significantly enhance processing capabilities. With the aim of achieving this objective, we put forward a set of diverse attributes for criminal case proceedings. We use a state-of-the-art sequence labeling framework to automatically extract attributes from the legal documents. Moreover, we demonstrate the efficacy of the extracted attributes in a downstream task, namely legal judgment prediction.",
+    "path": "papers/23/10/2310.12131.json",
+    "total_tokens": 683,
+    "translated_title": "自动从法律程序中提取属性",
+    "translated_abstract": "挂起案件数量不断上升已成为全球关注的焦点。数字化的最新进展为利用人工智能工具处理法律文件提供了可能性。采用结构化表示法来处理法律文件，而不是仅使用平面文本表示，可以显著增强处理能力。为了实现这一目标，我们提出了一套用于刑事案件程序的多样属性。我们使用最先进的序列标记框架来自动从法律文件中提取属性。此外，我们还展示了从提取的属性在下游任务中（即法律判决预测）的有效性。",
+    "tldr": "本论文旨在通过采用结构化表示法和最先进的序列标记框架，实现自动从法律文件中提取属性，并展示了提取的属性在法律判决预测任务中的有效性。",
+    "en_tdlr": "This paper aims to automatically extract attributes from legal documents using a structured representation and a state-of-the-art sequence labeling framework, and demonstrates the efficacy of these extracted attributes in the task of legal judgment prediction."
+}

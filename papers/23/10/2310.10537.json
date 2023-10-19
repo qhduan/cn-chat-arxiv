@@ -1,0 +1,11 @@
+{
+    "title": "Microscaling Data Formats for Deep Learning. (arXiv:2310.10537v2 [cs.LG] UPDATED)",
+    "abstract": "Narrow bit-width data formats are key to reducing the computational and storage costs of modern deep learning applications. This paper evaluates Microscaling (MX) data formats that combine a per-block scaling factor with narrow floating-point and integer types for individual elements. MX formats balance the competing needs of hardware efficiency, model accuracy, and user friction. Empirical results on over two dozen benchmarks demonstrate practicality of MX data formats as a drop-in replacement for baseline FP32 for AI inference and training with low user friction. We also show the first instance of training generative language models at sub-8-bit weights, activations, and gradients with minimal accuracy loss and no modifications to the training recipe.",
+    "link": "http://arxiv.org/abs/2310.10537",
+    "context": "Title: Microscaling Data Formats for Deep Learning. (arXiv:2310.10537v2 [cs.LG] UPDATED)\nAbstract: Narrow bit-width data formats are key to reducing the computational and storage costs of modern deep learning applications. This paper evaluates Microscaling (MX) data formats that combine a per-block scaling factor with narrow floating-point and integer types for individual elements. MX formats balance the competing needs of hardware efficiency, model accuracy, and user friction. Empirical results on over two dozen benchmarks demonstrate practicality of MX data formats as a drop-in replacement for baseline FP32 for AI inference and training with low user friction. We also show the first instance of training generative language models at sub-8-bit weights, activations, and gradients with minimal accuracy loss and no modifications to the training recipe.",
+    "path": "papers/23/10/2310.10537.json",
+    "total_tokens": 805,
+    "translated_title": "深度学习的微扩展数据格式",
+    "translated_abstract": "窄位宽数据格式对于降低现代深度学习应用的计算和存储成本至关重要。本文评估了将每个块的缩放因子与窄浮点和整数类型相结合的微扩展（MX）数据格式，以满足硬件效率、模型准确性和用户摩擦之间的竞争需求。对于AI推理和训练，MX数据格式在超过两打基准测试中的实证结果证明了其作为基线FP32的可行性，并且使用时用户摩擦小。我们还展示了在最小的准确性损失和无需修改训练配方的情况下，首次训练生成式语言模型在小于8位的权重、激活和渐变上。",
+    "tldr": "本文评估了Microscaling（MX）数据格式在降低深度学习应用的计算和存储成本方面的可行性。实证结果显示MX数据格式可以作为基线FP32的替代，同时保持低用户摩擦，并且成功在超过两打基准测试中以小于8位的数据格式进行了训练。"
+}

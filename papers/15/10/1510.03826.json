@@ -1,0 +1,12 @@
+{
+    "title": "Adopting Robustness and Optimality in Fitting and Learning. (arXiv:1510.03826v4 [cs.LG] UPDATED)",
+    "abstract": "We generalized a modified exponentialized estimator by pushing the robust-optimal (RO) index $\\lambda$ to $-\\infty$ for achieving robustness to outliers by optimizing a quasi-Minimin function. The robustness is realized and controlled adaptively by the RO index without any predefined threshold. Optimality is guaranteed by expansion of the convexity region in the Hessian matrix to largely avoid local optima. Detailed quantitative analysis on both robustness and optimality are provided. The results of proposed experiments on fitting tasks for three noisy non-convex functions and the digits recognition task on the MNIST dataset consolidate the conclusions.",
+    "link": "http://arxiv.org/abs/1510.03826",
+    "context": "Title: Adopting Robustness and Optimality in Fitting and Learning. (arXiv:1510.03826v4 [cs.LG] UPDATED)\nAbstract: We generalized a modified exponentialized estimator by pushing the robust-optimal (RO) index $\\lambda$ to $-\\infty$ for achieving robustness to outliers by optimizing a quasi-Minimin function. The robustness is realized and controlled adaptively by the RO index without any predefined threshold. Optimality is guaranteed by expansion of the convexity region in the Hessian matrix to largely avoid local optima. Detailed quantitative analysis on both robustness and optimality are provided. The results of proposed experiments on fitting tasks for three noisy non-convex functions and the digits recognition task on the MNIST dataset consolidate the conclusions.",
+    "path": "papers/15/10/1510.03826.json",
+    "total_tokens": 755,
+    "translated_title": "在拟合和学习中采用健壮性和最优性",
+    "translated_abstract": "我们通过将健壮-最优（RO）指数λ推至负无穷，以通过优化准最小函数实现对异常值的鲁棒性，从而推广了修改的指数化估计器。通过RO指数自适应地实现和控制鲁棒性，而无需预定义的阈值。通过在Hessian矩阵中扩展凸性区域，以避免局部最优解，保证最优性。对鲁棒性和最优性的详细定量分析被提供。在三个有噪非凸函数和MNIST数据集上的拟合任务以及数字识别任务上进行的实验结果证实了结论。",
+    "tldr": "该论文提出了一种通过优化准最小函数，将健壮-最优指数推至负无穷来实现对异常值的鲁棒性的方法，并通过在Hessian矩阵中扩展凸性区域来保证最优性。通过实验结果验证了该方法的有效性。",
+    "en_tdlr": "This paper proposes a method to achieve robustness to outliers by optimizing a quasi-Minimin function and pushing the robust-optimal index to negative infinity. The optimality is ensured by expanding the convexity region in the Hessian matrix. The effectiveness of the method is validated through experimental results."
+}

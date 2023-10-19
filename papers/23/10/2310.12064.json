@@ -1,0 +1,12 @@
+{
+    "title": "Code Book for the Annotation of Diverse Cross-Document Coreference of Entities in News Articles. (arXiv:2310.12064v1 [cs.CL])",
+    "abstract": "This paper presents a scheme for annotating coreference across news articles, extending beyond traditional identity relations by also considering near-identity and bridging relations. It includes a precise description of how to set up Inception, a respective annotation tool, how to annotate entities in news articles, connect them with diverse coreferential relations, and link them across documents to Wikidata's global knowledge graph. This multi-layered annotation approach is discussed in the context of the problem of media bias. Our main contribution lies in providing a methodology for creating a diverse cross-document coreference corpus which can be applied to the analysis of media bias by word-choice and labelling.",
+    "link": "http://arxiv.org/abs/2310.12064",
+    "context": "Title: Code Book for the Annotation of Diverse Cross-Document Coreference of Entities in News Articles. (arXiv:2310.12064v1 [cs.CL])\nAbstract: This paper presents a scheme for annotating coreference across news articles, extending beyond traditional identity relations by also considering near-identity and bridging relations. It includes a precise description of how to set up Inception, a respective annotation tool, how to annotate entities in news articles, connect them with diverse coreferential relations, and link them across documents to Wikidata's global knowledge graph. This multi-layered annotation approach is discussed in the context of the problem of media bias. Our main contribution lies in providing a methodology for creating a diverse cross-document coreference corpus which can be applied to the analysis of media bias by word-choice and labelling.",
+    "path": "papers/23/10/2310.12064.json",
+    "total_tokens": 757,
+    "translated_title": "新闻文章中不同交叉文档实体共指的编码手册",
+    "translated_abstract": "本文提出了一种新闻文章中共指的注释方案，不仅扩展了传统的身份关系，还考虑了接近身份和桥接关系。它详细描述了如何设置Inception注释工具，如何注释新闻文章中的实体，如何将它们与各种共指关系连接起来，并将它们与Wikidata的全球知识图谱链接起来。这种多层次的注释方法是在媒体偏见问题的背景下进行讨论的。我们的主要贡献在于提供了一种用于创建能够应用于通过词选择和标签分析媒体偏见的不同交叉文档共指语料库的方法论。",
+    "tldr": "本文提出了一种新闻文章中共指的注释方案，通过考虑接近身份和桥接关系，扩展了传统的共指关系。我们提供了一种创建不同交叉文档共指语料库的方法论，可用于分析媒体偏见。",
+    "en_tdlr": "This paper presents an annotation scheme for coreference in news articles, extending beyond traditional identity relations. The main contribution is a methodology for creating a diverse cross-document coreference corpus that can be applied to analyze media bias."
+}

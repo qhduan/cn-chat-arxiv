@@ -1,0 +1,12 @@
+{
+    "title": "Classic machine learning methods. (arXiv:2310.11470v1 [cs.LG])",
+    "abstract": "In this chapter, we present the main classic machine learning methods. A large part of the chapter is devoted to supervised learning techniques for classification and regression, including nearest-neighbor methods, linear and logistic regressions, support vector machines and tree-based algorithms. We also describe the problem of overfitting as well as strategies to overcome it. We finally provide a brief overview of unsupervised learning methods, namely for clustering and dimensionality reduction.",
+    "link": "http://arxiv.org/abs/2310.11470",
+    "context": "Title: Classic machine learning methods. (arXiv:2310.11470v1 [cs.LG])\nAbstract: In this chapter, we present the main classic machine learning methods. A large part of the chapter is devoted to supervised learning techniques for classification and regression, including nearest-neighbor methods, linear and logistic regressions, support vector machines and tree-based algorithms. We also describe the problem of overfitting as well as strategies to overcome it. We finally provide a brief overview of unsupervised learning methods, namely for clustering and dimensionality reduction.",
+    "path": "papers/23/10/2310.11470.json",
+    "total_tokens": 605,
+    "translated_title": "经典机器学习方法",
+    "translated_abstract": "在这一章中，我们介绍了主要的经典机器学习方法。本章的大部分内容都用于介绍用于分类和回归的监督学习技术，包括最近邻方法、线性回归和逻辑回归、支持向量机和基于树的算法。我们还描述了过拟合问题以及克服过拟合的策略。最后，我们简要概述了无监督学习方法，即用于聚类和降维的方法。",
+    "tldr": "本章主要介绍了经典机器学习方法，包括监督学习和无监督学习。其中介绍了分类和回归的各种方法，以及解决过拟合问题的策略。",
+    "en_tdlr": "This chapter presents the main classic machine learning methods, including supervised and unsupervised learning. Various techniques for classification and regression are discussed, along with strategies to overcome overfitting."
+}

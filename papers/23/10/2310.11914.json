@@ -1,0 +1,12 @@
+{
+    "title": "A connection between Tempering and Entropic Mirror Descent. (arXiv:2310.11914v1 [stat.CO])",
+    "abstract": "This paper explores the connections between tempering (for Sequential Monte Carlo; SMC) and entropic mirror descent to sample from a target probability distribution whose unnormalized density is known.  We establish that tempering SMC is a numerical approximation of entropic mirror descent applied to the Kullback-Leibler (KL) divergence and obtain convergence rates for the tempering iterates.  Our result motivates the tempering iterates from an optimization point of view, showing that tempering can be used as an alternative to Langevin-based algorithms to minimize the KL divergence.  We exploit the connection between tempering and mirror descent iterates to justify common practices in SMC and propose improvements to algorithms in literature.",
+    "link": "http://arxiv.org/abs/2310.11914",
+    "context": "Title: A connection between Tempering and Entropic Mirror Descent. (arXiv:2310.11914v1 [stat.CO])\nAbstract: This paper explores the connections between tempering (for Sequential Monte Carlo; SMC) and entropic mirror descent to sample from a target probability distribution whose unnormalized density is known.  We establish that tempering SMC is a numerical approximation of entropic mirror descent applied to the Kullback-Leibler (KL) divergence and obtain convergence rates for the tempering iterates.  Our result motivates the tempering iterates from an optimization point of view, showing that tempering can be used as an alternative to Langevin-based algorithms to minimize the KL divergence.  We exploit the connection between tempering and mirror descent iterates to justify common practices in SMC and propose improvements to algorithms in literature.",
+    "path": "papers/23/10/2310.11914.json",
+    "total_tokens": 785,
+    "translated_title": "退火和熵镜像下降之间的联系",
+    "translated_abstract": "本论文探讨了退火（针对顺序蒙特卡罗; SMC）和熵镜像下降之间的联系，以从已知未归一化概率密度的目标概率分布中采样。我们证明了退火SMC是应用于Kullback-Leibler（KL）散度的熵镜像下降的数值近似，并获得了退火迭代的收敛速度。我们的结果从优化角度推动了退火迭代，表明退火可以用作Langevin算法的替代选择，以最小化KL散度。我们利用退火和镜像下降迭代之间的联系来证明SMC中常见的做法，并提出了文献中算法的改进方案。",
+    "tldr": "本论文研究了退火（针对顺序蒙特卡罗; SMC）和熵镜像下降之间的联系，证明了退火SMC是应用于Kullback-Leibler（KL）散度的熵镜像下降的数值近似，并提出了改进方案。",
+    "en_tdlr": "This paper explores the connections between tempering (for Sequential Monte Carlo; SMC) and entropic mirror descent, proving that tempering SMC is a numerical approximation of entropic mirror descent applied to the Kullback-Leibler (KL) divergence and proposing improvements."
+}

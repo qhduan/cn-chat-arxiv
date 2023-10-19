@@ -1,0 +1,12 @@
+{
+    "title": "Model Checkers Are Cool: How to Model Check Voting Protocols in Uppaal. (arXiv:2007.12412v3 [cs.CR] UPDATED)",
+    "abstract": "The design and implementation of an e-voting system is a challenging task. Formal analysis can be of great help here. In particular, it can lead to a better understanding of how the voting system works, and what requirements on the system are relevant. In this paper, we propose that the state-of-art model checker Uppaal provides a good environment for modelling and preliminary verification of voting protocols. To illustrate this, we present an Uppaal model of Pr\\^et \\`a Voter, together with some natural extensions. We also show how to verify a variant of receipt-freeness, despite the severe limitations of the property specification language in the model checker.",
+    "link": "http://arxiv.org/abs/2007.12412",
+    "context": "Title: Model Checkers Are Cool: How to Model Check Voting Protocols in Uppaal. (arXiv:2007.12412v3 [cs.CR] UPDATED)\nAbstract: The design and implementation of an e-voting system is a challenging task. Formal analysis can be of great help here. In particular, it can lead to a better understanding of how the voting system works, and what requirements on the system are relevant. In this paper, we propose that the state-of-art model checker Uppaal provides a good environment for modelling and preliminary verification of voting protocols. To illustrate this, we present an Uppaal model of Pr\\^et \\`a Voter, together with some natural extensions. We also show how to verify a variant of receipt-freeness, despite the severe limitations of the property specification language in the model checker.",
+    "path": "papers/20/07/2007.12412.json",
+    "total_tokens": 747,
+    "translated_title": "模型检查器很酷：如何在Uppaal中对投票协议进行模型检查",
+    "translated_abstract": "设计和实现电子投票系统是一项具有挑战性的任务。形式化分析可以在这方面提供很大的帮助。特别是，它可以更好地理解投票系统的工作原理，以及对系统的要求是什么。在本文中，我们提出，最先进的模型检查器Uppaal为建模和初步验证投票协议提供了良好的环境。为了说明这一点，我们提供了Prêter à Voter的Uppaal模型，以及一些自然的扩展。我们还展示了如何验证一种变种的无票证性，尽管模型检查器中的属性规范语言具有严重的限制。",
+    "tldr": "本文介绍了如何使用Uppaal模型检查器对投票协议进行建模和验证，展示了对Prêter à Voter及其扩展模型的验证，并克服了模型检查器中属性规范语言的限制。",
+    "en_tdlr": "This paper introduces how to model and verify voting protocols using the Uppaal model checker, demonstrating the verification of the Prêter à Voter model and its extensions, as well as overcoming the limitations of the property specification language in the model checker."
+}

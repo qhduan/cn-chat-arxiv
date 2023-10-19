@@ -1,0 +1,12 @@
+{
+    "title": "Text Annotation Handbook: A Practical Guide for Machine Learning Projects. (arXiv:2310.11780v1 [cs.CL])",
+    "abstract": "This handbook is a hands-on guide on how to approach text annotation tasks. It provides a gentle introduction to the topic, an overview of theoretical concepts as well as practical advice. The topics covered are mostly technical, but business, ethical and regulatory issues are also touched upon. The focus lies on readability and conciseness rather than completeness and scientific rigor. Experience with annotation and knowledge of machine learning are useful but not required. The document may serve as a primer or reference book for a wide range of professions such as team leaders, project managers, IT architects, software developers and machine learning engineers.",
+    "link": "http://arxiv.org/abs/2310.11780",
+    "context": "Title: Text Annotation Handbook: A Practical Guide for Machine Learning Projects. (arXiv:2310.11780v1 [cs.CL])\nAbstract: This handbook is a hands-on guide on how to approach text annotation tasks. It provides a gentle introduction to the topic, an overview of theoretical concepts as well as practical advice. The topics covered are mostly technical, but business, ethical and regulatory issues are also touched upon. The focus lies on readability and conciseness rather than completeness and scientific rigor. Experience with annotation and knowledge of machine learning are useful but not required. The document may serve as a primer or reference book for a wide range of professions such as team leaders, project managers, IT architects, software developers and machine learning engineers.",
+    "path": "papers/23/10/2310.11780.json",
+    "total_tokens": 728,
+    "translated_title": "文本标注手册：机器学习项目的实践指南",
+    "translated_abstract": "本手册是一本关于如何处理文本标注任务的实践指南。它提供了对该主题的简要介绍，理论概念的概述以及实用建议。涵盖的主题主要是技术性的，但也触及了业务、道德和监管问题。重点在于易读性和简明性，而不是完整性和科学严谨性。有标注经验和机器学习知识是有用但不是必需的。该文档可以作为各种职业的团队领导、项目经理、IT架构师、软件开发人员和机器学习工程师的入门书或参考书。",
+    "tldr": "本手册是一本实践指南，旨在帮助处理文本标注任务。它提供简明扼要的介绍，理论概念的概述以及实用建议，并触及业务、道德和监管问题。适合各种职业的人使用。",
+    "en_tdlr": "This handbook is a practical guide for approaching text annotation tasks, providing a concise introduction, theoretical overview, and practical advice. It covers technical topics while touching upon business, ethical, and regulatory issues, serving as a useful resource for various professions."
+}

@@ -2,217 +2,247 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [MeKB-Rec: Personal Knowledge Graph Learning for Cross-Domain Recommendation.](http://arxiv.org/abs/2310.11088) | 本论文提出了一种名为MeKB-Rec的跨领域推荐方法，在推荐系统中解决了冷启动问题。该方法利用个人知识图谱作为领域不变的用户兴趣表示，通过学习语义表示和注入世界知识，实现了对新用户的零-shot推荐。 |
-| [^2] | [Nonet at SemEval-2023 Task 6: Methodologies for Legal Evaluation.](http://arxiv.org/abs/2310.11049) | 这篇论文介绍了我们在SemEval-2023法律评估任务6上的提交，主要集中在法律命名实体识别、法律判决预测和带解释的法院判决预测等子任务上。我们进行了多个实验，并取得了在各个子任务中具有竞争力的排名。 |
-| [^3] | [If the Sources Could Talk: Evaluating Large Language Models for Research Assistance in History.](http://arxiv.org/abs/2310.10808) | 本文评估了大型语言模型在历史研究辅助中的应用，通过将高度专业化的学术资源嵌入到模型中，提供了一种对话形式的研究方法，可帮助研究人员检索不同类型的历史文献，并在问答和数据提取等任务中展现出卓越的表现。 |
-| [^4] | [ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction.](http://arxiv.org/abs/2310.09234) | 这篇论文提出了一个新颖的模型，旨在同时模拟语义和协同知识，以实现准确的CTR估计，并解决推理效率问题。 |
-| [^5] | [Unbiased and Robust: External Attention-enhanced Graph Contrastive Learning for Cross-domain Sequential Recommendation.](http://arxiv.org/abs/2310.04633) | 提出了一个增强外部注意力的图对比学习框架，能够消除跨领域密度偏差并稳定地捕捉用户的行为模式。 |
-| [^6] | [RAH! RecSys-Assistant-Human: A Human-Central Recommendation Framework with Large Language Models.](http://arxiv.org/abs/2308.09904) | 提出了一个人类中心的推荐框架RAH，利用大型语言模型（LLMs）作为助手，实现用户满意度和个性化反馈，并成功应用于学习用户个性和调整推荐系统。 |
-| [^7] | [Efficient High-Resolution Template Matching with Vector Quantized Nearest Neighbour Fields.](http://arxiv.org/abs/2306.15010) | 本研究提出了一种高效的高分辨率模板匹配方法，通过向量量化和滤波来减少计算量和考虑变形，取得了最先进的性能。 |
-| [^8] | [Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation.](http://arxiv.org/abs/2305.07609) | 这篇论文介绍了一种新的推荐范式——通过LLM进行推荐，但由于LLMs可能存在社会偏见，需要进一步调查RecLLM所做推荐的公正性。为此，作者提出了一个新的公平性基准——FaiRLLM，并针对音乐和电影推荐场景中的八个敏感属性进行了评估。 |
-| [^9] | [TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation.](http://arxiv.org/abs/2305.00447) | TALLRec是对LLMs进行调整的一种高效且有效的框架，用于将LLMs与推荐系统对齐，从而增强LLMs在推荐任务中的能力。 |
-| [^10] | [Editable User Profiles for Controllable Text Recommendation.](http://arxiv.org/abs/2304.04250) | 本文提出了一种新的概念值瓶颈模型LACE，用于可控文本推荐。该模型基于用户文档学习个性化的概念表示，并通过多种交互方式为用户提供了控制推荐的机制，验证了在离线和在线实验中该模型的推荐质量和有效性。 |
-| [^11] | [Hybrid Inverted Index Is a Robust Accelerator for Dense Retrieval.](http://arxiv.org/abs/2210.05521) | 本研究提出了一种混合倒排索引(HI$^2$)用于加速稠密检索，通过嵌入聚类和显著词汇的协同作用，构建紧凑的倒排列表并提高检索质量。 |
-| [^12] | [Vertical Allocation-based Fair Exposure Amortizing in Ranking.](http://arxiv.org/abs/2204.03046) | 本研究关注排名服务中的曝光公平性问题，证明了现有公平性优化方法在公平性与相关性之间的权衡方面存在不足，并提出了一种新的算法Vertic来解决该问题。 |
-| [^13] | [Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems.](http://arxiv.org/abs/2204.01815) | 本文介绍了一种新的一致性方法来解决矩阵和张量补全问题，在推荐系统应用中，我们证明了通过保留单位比例和一致性两个约束条件可以实现解的存在性与唯一性。 |
-| [^14] | [BLM-17m: A Large-Scale Dataset for Black Lives Matter Topic Detection on Twitter.](http://arxiv.org/abs/2105.01331) | 本论文提出了一个用于推特上检测黑人生命至关重要话题的大规模数据集BLM-17m，涵盖了乔治·弗洛伊德事件期间的17百万推文。作者提供了两个基线模型TF-IDF和LDA，并对其进行了评估。 |
+| [^1] | [Automated Attribute Extraction from Legal Proceedings.](http://arxiv.org/abs/2310.12131) | 本论文旨在通过采用结构化表示法和最先进的序列标记框架，实现自动从法律文件中提取属性，并展示了提取的属性在法律判决预测任务中的有效性。 |
+| [^2] | [Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection.](http://arxiv.org/abs/2310.12086) | 该论文介绍了一种为大型语言模型设计的FactCHD事实冲突幻觉检测基准，用于评估LLMs生成文本的事实性。基准包含了多种事实模式，并使用基于事实的证据链进行组合性幻觉的检测。 |
+| [^3] | [Simulating Users in Interactive Web Table Retrieval.](http://arxiv.org/abs/2310.11931) | 本文提出了一种模拟用户行为的方法，用于交互式网页表格检索。通过考虑搜索项目的多模态信号，特别是表格的多模态属性，可以提高检索效果。作者还基于Doc2Query引入了一种基于模拟用户知识的交互式查询重构策略。评估结果表明，模拟用户行为的方法可以作为替代真实用户研究的一种更具成本效益和可重复性的方法。在不同的成本范式下考虑用户效果对于评估交互式网页表格检索非常重要。 |
+| [^4] | [CIR at the NTCIR-17 ULTRE-2 Task.](http://arxiv.org/abs/2310.11852) | 中国科学院信息检索团队（CIR）在NTCIR-17 ULTRE-2任务中采用双向学习算法（DLA）处理位置偏差，并解决了百度搜索数据中严重的虚假负面问题。他们通过纠正未被点击项目的标签和引入随机文档和具有部分匹配的文档作为负面样本的方法，提高了模型的性能。 |
+| [^5] | [DCRNN: A Deep Cross approach based on RNN for Partial Parameter Sharing in Multi-task Learning.](http://arxiv.org/abs/2310.11777) | 这项工作提出了一种基于RNN的深度交叉方法，用于多任务学习中的部分参数共享，旨在提高推荐的成功率并降低计算成本。 |
+| [^6] | [From Relevance to Utility: Evidence Retrieval with Feedback for Fact Verification.](http://arxiv.org/abs/2310.11675) | 本论文提出了一种基于反馈的证据检索器(FER)，通过整合声明验证者的反馈来优化事实验证中的证据检索过程。实证研究表明FER优于现有的基准方法。 |
+| [^7] | [VKIE: The Application of Key Information Extraction on Video Text.](http://arxiv.org/abs/2310.11650) | 本文提出了一项重要任务，即从视频文本中提取层次化关键信息。研究者们通过拆分任务为四个子任务，并介绍了两种实现方案，即PipVKIE和UniVKIE。两种方案都利用了视觉、文本和坐标的多模态信息进行特征表示。实验证明，这些方案在性能和推理速度方面表现出色。 |
+| [^8] | [Open Information Extraction: A Review of Baseline Techniques, Approaches, and Applications.](http://arxiv.org/abs/2310.11644) | 该论文综述了开放信息提取（OIE）的最新方法和应用，通过分析不同领域的关系来改善关系提取技术，避免手动标记预定义的关系，并概述了OIE的挑战和未来工作机会。 |
+| [^9] | [Graph Neural Networks for Recommendation: Reproducibility, Graph Topology, and Node Representation.](http://arxiv.org/abs/2310.11270) | 本教程针对推荐中的图神经网络的三个关键方面进行了探讨：最先进方法的可复现性，图拓扑特征对模型性能的影响，以及学习节点表示的策略。 |
+| [^10] | [Enhancing Conversational Search: Large Language Model-Aided Informative Query Rewriting.](http://arxiv.org/abs/2310.09716) | 该论文提出了一种利用大型语言模型(LLMs)作为查询重写器的方法，通过指令生成信息丰富的查询重写，以提升对话式搜索的检索性能。实验结果表明，这种方法在QReCC数据集上取得了良好的效果。 |
+| [^11] | [Interactive Explanation with Varying Level of Details in an Explainable Scientific Literature Recommender System.](http://arxiv.org/abs/2306.05809) | 本文旨在采用以用户为中心的交互式解释模型，在推荐系统中为用户提供不同细节级别的解释，赋予用户个性化解释的能力。 |
+| [^12] | [CLaMP: Contrastive Language-Music Pre-training for Cross-Modal Symbolic Music Information Retrieval.](http://arxiv.org/abs/2304.11029) | CLaMP是一种对比语言-音乐预训练技术，能够学习符号音乐和自然语言之间的跨模态表示。通过数据增强和分块处理，它将符号音乐表示成长度不到10％的序列，并使用掩蔽音乐模型预训练目标来增强音乐编码器对音乐上下文和结构的理解。这种技术超越了现有模型的能力，可以实现符号音乐的语义搜索和零样本分类。 |
+| [^13] | [Video-Text Retrieval by Supervised Sparse Multi-Grained Learning.](http://arxiv.org/abs/2302.09473) | 本文提出了一种新的多粒度稀疏学习框架S3MA，用于视频文本检索。该框架通过学习共享的稀疏空间和多粒度相似度来改进检索效果，在多个基准测试中表现优于现有方法。 |
+| [^14] | [Solo: Data Discovery Using Natural Language Questions Via A Self-Supervised Approach.](http://arxiv.org/abs/2301.03560) | 提出了一个使用自然语言问题进行数据发现的系统，使用自监督方法来训练系统，克服了昂贵的训练数据的限制，实现了根据自然语言问题进行数据发现的端到端解决方案。 |
+| [^15] | [Learning List-Level Domain-Invariant Representations for Ranking.](http://arxiv.org/abs/2212.10764) | 本文提出了一种针对排名问题的列表级别对齐的学习方法，该方法利用列表的结构特性，在领域适应中实现从源领域到目标领域的知识转移。 |
+| [^16] | [A Comparative Evaluation of Quantification Methods.](http://arxiv.org/abs/2103.03223) | 本研究通过对24种不同量化方法在超过40个数据集上进行全面实证比较，填补了量化方法比较研究的空白。我们发现在二分类设置中，基于阈值选择的Median Sweep和TSMax方法、DyS框架和弗里德曼的方法表现最佳；而在多分类设置中，Generaliz方法表现良好。 |
 
 # 详细
 
-[^1]: MeKB-Rec：个人知识图谱学习用于跨领域推荐
+[^1]: 自动从法律程序中提取属性
 
-    MeKB-Rec: Personal Knowledge Graph Learning for Cross-Domain Recommendation. (arXiv:2310.11088v1 [cs.IR])
+    Automated Attribute Extraction from Legal Proceedings. (arXiv:2310.12131v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.11088](http://arxiv.org/abs/2310.11088)
+    [http://arxiv.org/abs/2310.12131](http://arxiv.org/abs/2310.12131)
 
-    本论文提出了一种名为MeKB-Rec的跨领域推荐方法，在推荐系统中解决了冷启动问题。该方法利用个人知识图谱作为领域不变的用户兴趣表示，通过学习语义表示和注入世界知识，实现了对新用户的零-shot推荐。
-
-    
-
-    在现代推荐系统中，如何针对新用户有效地进行推荐，即冷启动问题，一直是一个长期存在的挑战。我们提出了个人知识图谱（PKG）作为一个领域不变的兴趣表示，并提出了一种名为MeKB-Rec的新型跨领域推荐范式。我们首先将知识图谱中的用户和实体进行关联，构建了用户兴趣的PKG，即MeKB。然后我们学习了MeKB的语义表示，用于跨领域推荐。为了高效利用CDR中有限的训练数据，MeKB-Rec采用了预训练语言模型将世界知识注入到对用户兴趣的理解中。与大多数现有系统不同，我们的方法在领域之间建立了语义映射，消除了对领域内用户行为的要求，实现了对新用户的零-shot推荐。
-
-    It is a long-standing challenge in modern recommender systems to effectively make recommendations for new users, namely the cold-start problem. Cross-Domain Recommendation (CDR) has been proposed to address this challenge, but current ways to represent users' interests across systems are still severely limited. We introduce Personal Knowledge Graph (PKG) as a domain-invariant interest representation, and propose a novel CDR paradigm named MeKB-Rec. We first link users and entities in a knowledge base to construct a PKG of users' interests, named MeKB. Then we learn a semantic representation of MeKB for the cross-domain recommendation. To efficiently utilize limited training data in CDR, MeKB-Rec employs Pretrained Language Models to inject world knowledge into understanding users' interests. Beyond most existing systems, our approach builds a semantic mapping across domains which breaks the requirement for in-domain user behaviors, enabling zero-shot recommendations for new users in a 
-    
-[^2]: SemEval-2023任务6中的非纳任务:法律评估方法论。(arXiv:2310.11049v1 [cs.CL])
-
-    Nonet at SemEval-2023 Task 6: Methodologies for Legal Evaluation. (arXiv:2310.11049v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.11049](http://arxiv.org/abs/2310.11049)
-
-    这篇论文介绍了我们在SemEval-2023法律评估任务6上的提交，主要集中在法律命名实体识别、法律判决预测和带解释的法院判决预测等子任务上。我们进行了多个实验，并取得了在各个子任务中具有竞争力的排名。
+    本论文旨在通过采用结构化表示法和最先进的序列标记框架，实现自动从法律文件中提取属性，并展示了提取的属性在法律判决预测任务中的有效性。
 
     
 
-    本文描述了我们在SemEval-2023法律评估任务6上的提交。我们的提交主要集中在三个子任务上：任务B的法律命名实体识别(L-NER)，任务C1的法律判决预测(LJP)和任务C2的带解释的法院判决预测(CJPE)。我们对这些子任务进行了各种实验，并详细呈现了结果，包括数据统计和方法论。值得注意的是，像本研究中所涉及的法律任务正在因自动化法律分析和支持的需求增加而变得越来越重要。我们的团队在排行榜上报告的任务B、任务C1和任务C2中分别获得了15th、11th和1st的竞争排名。
+    挂起案件数量不断上升已成为全球关注的焦点。数字化的最新进展为利用人工智能工具处理法律文件提供了可能性。采用结构化表示法来处理法律文件，而不是仅使用平面文本表示，可以显著增强处理能力。为了实现这一目标，我们提出了一套用于刑事案件程序的多样属性。我们使用最先进的序列标记框架来自动从法律文件中提取属性。此外，我们还展示了从提取的属性在下游任务中（即法律判决预测）的有效性。
 
-    This paper describes our submission to the SemEval-2023 for Task 6 on LegalEval: Understanding Legal Texts. Our submission concentrated on three subtasks: Legal Named Entity Recognition (L-NER) for Task-B, Legal Judgment Prediction (LJP) for Task-C1, and Court Judgment Prediction with Explanation (CJPE) for Task-C2. We conducted various experiments on these subtasks and presented the results in detail, including data statistics and methodology. It is worth noting that legal tasks, such as those tackled in this research, have been gaining importance due to the increasing need to automate legal analysis and support. Our team obtained competitive rankings of 15$^{th}$, 11$^{th}$, and 1$^{st}$ in Task-B, Task-C1, and Task-C2, respectively, as reported on the leaderboard.
+    The escalating number of pending cases is a growing concern world-wide. Recent advancements in digitization have opened up possibilities for leveraging artificial intelligence (AI) tools in the processing of legal documents. Adopting a structured representation for legal documents, as opposed to a mere bag-of-words flat text representation, can significantly enhance processing capabilities. With the aim of achieving this objective, we put forward a set of diverse attributes for criminal case proceedings. We use a state-of-the-art sequence labeling framework to automatically extract attributes from the legal documents. Moreover, we demonstrate the efficacy of the extracted attributes in a downstream task, namely legal judgment prediction.
     
-[^3]: 如果资源能够说话：评估大型语言模型在历史研究辅助中的应用
+[^2]: 发现塞壬之歌：可靠的事实冲突幻觉检测
 
-    If the Sources Could Talk: Evaluating Large Language Models for Research Assistance in History. (arXiv:2310.10808v1 [cs.IR])
+    Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection. (arXiv:2310.12086v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.10808](http://arxiv.org/abs/2310.10808)
+    [http://arxiv.org/abs/2310.12086](http://arxiv.org/abs/2310.12086)
 
-    本文评估了大型语言模型在历史研究辅助中的应用，通过将高度专业化的学术资源嵌入到模型中，提供了一种对话形式的研究方法，可帮助研究人员检索不同类型的历史文献，并在问答和数据提取等任务中展现出卓越的表现。
-
-    
-
-    强大的大型语言模型(LLM)的出现为历史记忆的对话形式提供了一种新的研究途径。我们通过将高度专业化学术资源的向量嵌入引入到LLM中，使得对话方法可以被历史学家和其他人文学科研究人员使用。具体地，我们评估和展示了LLM在研究人员检查不同类型文档的定制语料库时的辅助能力，包括但不限于：(1).一手资料，(2).由专家撰写的二手资料，以及(3).两者的结合。与传统的数字目录搜索界面（如元数据和全文搜索）相比，我们评估了LLM的更丰富的对话风格对两种主要任务的表现：(1).问答，以及(2).数据的提取和组织。我们展示了LLM的语义检索和推理能力在这些任务中的效果。
-
-    The recent advent of powerful Large-Language Models (LLM) provides a new conversational form of inquiry into historical memory (or, training data, in this case). We show that by augmenting such LLMs with vector embeddings from highly specialized academic sources, a conversational methodology can be made accessible to historians and other researchers in the Humanities. Concretely, we evaluate and demonstrate how LLMs have the ability of assisting researchers while they examine a customized corpora of different types of documents, including, but not exclusive to: (1). primary sources, (2). secondary sources written by experts, and (3). the combination of these two. Compared to established search interfaces for digital catalogues, such as metadata and full-text search, we evaluate the richer conversational style of LLMs on the performance of two main types of tasks: (1). question-answering, and (2). extraction and organization of data. We demonstrate that LLMs semantic retrieval and reaso
-    
-[^4]: ClickPrompt: CTR模型是将语言模型适应为CTR预测的强大提示生成器
-
-    ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction. (arXiv:2310.09234v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.09234](http://arxiv.org/abs/2310.09234)
-
-    这篇论文提出了一个新颖的模型，旨在同时模拟语义和协同知识，以实现准确的CTR估计，并解决推理效率问题。
+    该论文介绍了一种为大型语言模型设计的FactCHD事实冲突幻觉检测基准，用于评估LLMs生成文本的事实性。基准包含了多种事实模式，并使用基于事实的证据链进行组合性幻觉的检测。
 
     
 
-    点击率（CTR）预测已经成为各种互联网应用程序中越来越不可或缺的。传统的CTR模型通过独热编码将多字段分类数据转换为ID特征，并提取特征之间的协同信号。这种范式的问题在于语义信息的丢失。另一方面的研究通过将输入数据转换为文本句子来探索预训练语言模型（PLM）在CTR预测中的潜力。虽然语义信号得到了保留，但它们通常无法捕捉到协同信息（如特征交互、纯ID特征），更不用说由庞大的模型大小带来的无法接受的推理开销了。在本文中，我们旨在为准确的CTR估计建立语义知识和协同知识，并解决推理效率问题。为了从两个领域中受益并弥合它们之间的差距，我们提出了一种新颖的模型-。
+    大型语言模型（LLMs），如ChatGPT/GPT-4，因其广泛的实际应用而受到广泛关注，但其在网络平台上存在事实冲突幻觉的问题限制了其采用。对由LLMs产生的文本的事实性评估仍然未被充分探索，不仅涉及对基本事实的判断，还包括对复杂推理任务（如多跳等）中出现的事实错误的评估。为此，我们引入了FactCHD，一种为LLMs精心设计的事实冲突幻觉检测基准。作为在“查询-响应”上下文中评估事实性的关键工具，我们的基准采用了大规模数据集，涵盖了广泛的事实模式，如基本事实，多跳，比较和集合操作模式。我们基准的一个独特特点是其包含基于事实的证据链，从而便于进行组合性幻觉的检测。
 
-    Click-through rate (CTR) prediction has become increasingly indispensable for various Internet applications. Traditional CTR models convert the multi-field categorical data into ID features via one-hot encoding, and extract the collaborative signals among features. Such a paradigm suffers from the problem of semantic information loss. Another line of research explores the potential of pretrained language models (PLMs) for CTR prediction by converting input data into textual sentences through hard prompt templates. Although semantic signals are preserved, they generally fail to capture the collaborative information (e.g., feature interactions, pure ID features), not to mention the unacceptable inference overhead brought by the huge model size. In this paper, we aim to model both the semantic knowledge and collaborative knowledge for accurate CTR estimation, and meanwhile address the inference inefficiency issue. To benefit from both worlds and close their gaps, we propose a novel model-
+    Large Language Models (LLMs), such as ChatGPT/GPT-4, have garnered widespread attention owing to their myriad of practical applications, yet their adoption has been constrained by issues of fact-conflicting hallucinations across web platforms. The assessment of factuality in text, produced by LLMs, remains inadequately explored, extending not only to the judgment of vanilla facts but also encompassing the evaluation of factual errors emerging in complex inferential tasks like multi-hop, and etc. In response, we introduce FactCHD, a fact-conflicting hallucination detection benchmark meticulously designed for LLMs. Functioning as a pivotal tool in evaluating factuality within "Query-Respons" contexts, our benchmark assimilates a large-scale dataset, encapsulating a broad spectrum of factuality patterns, such as vanilla, multi-hops, comparison, and set-operation patterns. A distinctive feature of our benchmark is its incorporation of fact-based chains of evidence, thereby facilitating com
     
-[^5]: 无偏和鲁棒性：增强外部注意力的跨领域序列推荐中的图对比学习
+[^3]: 在交互式网页表格检索中模拟用户行为
 
-    Unbiased and Robust: External Attention-enhanced Graph Contrastive Learning for Cross-domain Sequential Recommendation. (arXiv:2310.04633v2 [cs.IR] UPDATED)
+    Simulating Users in Interactive Web Table Retrieval. (arXiv:2310.11931v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.04633](http://arxiv.org/abs/2310.04633)
+    [http://arxiv.org/abs/2310.11931](http://arxiv.org/abs/2310.11931)
 
-    提出了一个增强外部注意力的图对比学习框架，能够消除跨领域密度偏差并稳定地捕捉用户的行为模式。
-
-    
-
-    跨领域序列推荐器（CSRs）因能够利用多个领域的辅助信息捕捉用户的序列偏好而引起了相当大的研究关注。然而，这些研究通常遵循一个理想的设置，即不同的领域遵守相似的数据分布，忽视了由不对称交互密度带来的偏差（即跨领域密度偏差）。此外，序列编码器中经常采用的机制（如自注意网络）只关注局部视图内的交互，忽视了不同训练批次之间的全局相关性。为此，我们提出了一种增强外部注意力的图对比学习框架，即EA-GCL。具体而言，为了消除跨领域密度偏差的影响，在传统图编码器下附加了一个辅助自监督学习（SSL）任务，采用多任务学习方式。为了稳定地捕捉用户的行为模式，我们开发了一个...
-
-    Cross-domain sequential recommenders (CSRs) are gaining considerable research attention as they can capture user sequential preference by leveraging side information from multiple domains. However, these works typically follow an ideal setup, i.e., different domains obey similar data distribution, which ignores the bias brought by asymmetric interaction densities (a.k.a. the inter-domain density bias). Besides, the frequently adopted mechanism (e.g., the self-attention network) in sequence encoder only focuses on the interactions within a local view, which overlooks the global correlations between different training batches. To this end, we propose an External Attention-enhanced Graph Contrastive Learning framework, namely EA-GCL. Specifically, to remove the impact of the inter-domain density bias, an auxiliary Self-Supervised Learning (SSL) task is attached to the traditional graph encoder under a multi-task learning manner. To robustly capture users' behavioral patterns, we develop a
-    
-[^6]: RAH！RecSys-Assistant-Human：一个具有大型语言模型的人类中心推荐框架
-
-    RAH! RecSys-Assistant-Human: A Human-Central Recommendation Framework with Large Language Models. (arXiv:2308.09904v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.09904](http://arxiv.org/abs/2308.09904)
-
-    提出了一个人类中心的推荐框架RAH，利用大型语言模型（LLMs）作为助手，实现用户满意度和个性化反馈，并成功应用于学习用户个性和调整推荐系统。
+    本文提出了一种模拟用户行为的方法，用于交互式网页表格检索。通过考虑搜索项目的多模态信号，特别是表格的多模态属性，可以提高检索效果。作者还基于Doc2Query引入了一种基于模拟用户知识的交互式查询重构策略。评估结果表明，模拟用户行为的方法可以作为替代真实用户研究的一种更具成本效益和可重复性的方法。在不同的成本范式下考虑用户效果对于评估交互式网页表格检索非常重要。
 
     
 
-    推荐生态系统涉及到推荐系统（计算机）和用户（人类）之间的交互。与推荐系统的角度不同，我们尝试从用户的角度利用大型语言模型（LLMs），并提出一个更加人类中心的推荐框架，命名为RAH。该框架包括推荐系统、助手和人类。助手是一个基于LLMs的个人代理，用于实现用户满意度。助手扮演非侵入性的角色，RAH框架可以适应不同的推荐系统和用户群体。随后，我们实现并评估了RAH框架，用于学习用户个性和代理人类反馈。实验表明：（1）使用学习-行动-评论家和反思机制可以导致更加一致的个性，（2）我们的助手可以有效地代理人类反馈并帮助调整推荐系统。最后，我们讨论了在RAH框架中进一步解决人类中心问题的策略，包括用户``夺权''等问题。
+    考虑搜索项目的多模态信号对于提高检索效果是有益的。特别是在网页表格检索（WTR）实验中，考虑到表格的多模态属性可以提升效果。然而，单一模态如何影响用户体验仍然是一个未解决的问题。之前的工作分析了在临时检索基准下的WTR性能，它忽略了交互式搜索行为，并且限制了对于真实用户环境含义的结论。为此，本文提出了模拟交互式WTR搜索会话的全面评估，作为比真实用户研究更具成本效益和可重复性的替代方案。作为首次尝试，我们基于Doc2Query引入了基于模拟用户知识的交互式查询重构策略。我们的评估从两个不同的成本范式考虑用户效果，即按查询和按时间。
 
-    The recommendation ecosystem involves interactions between recommender systems(Computer) and users(Human). Orthogonal to the perspective of recommender systems, we attempt to utilize LLMs from the perspective of users and propose a more human-central recommendation framework named RAH, which consists of Recommender system, Assistant and Human. The assistant is a LLM-based and personal proxy for a human to achieve user satisfaction. The assistant plays a non-invasion role and the RAH framework can adapt to different recommender systems and user groups. Subsequently, we implement and evaluate the RAH framework for learning user personalities and proxy human feedback. The experiment shows that (1) using learn-action-critic and reflection mechanisms can lead more aligned personality and (2) our assistant can effectively proxy human feedback and help adjust recommender systems. Finally, we discuss further strategies in the RAH framework to address human-central concerns including user contr
+    Considering the multimodal signals of search items is beneficial for retrieval effectiveness. Especially in web table retrieval (WTR) experiments, accounting for multimodal properties of tables boosts effectiveness. However, it still remains an open question how the single modalities affect user experience in particular. Previous work analyzed WTR performance in ad-hoc retrieval benchmarks, which neglects interactive search behavior and limits the conclusion about the implications for real-world user environments.  To this end, this work presents an in-depth evaluation of simulated interactive WTR search sessions as a more cost-efficient and reproducible alternative to real user studies. As a first of its kind, we introduce interactive query reformulation strategies based on Doc2Query, incorporating cognitive states of simulated user knowledge. Our evaluations include two perspectives on user effectiveness by considering different cost paradigms, namely query-wise and time-oriented mea
     
-[^7]: 高分辨率模板匹配中的高效向量量化最近邻场
+[^4]: CIR参与NTCIR-17 ULTRE-2任务
 
-    Efficient High-Resolution Template Matching with Vector Quantized Nearest Neighbour Fields. (arXiv:2306.15010v1 [cs.CV])
+    CIR at the NTCIR-17 ULTRE-2 Task. (arXiv:2310.11852v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.15010](http://arxiv.org/abs/2306.15010)
+    [http://arxiv.org/abs/2310.11852](http://arxiv.org/abs/2310.11852)
 
-    本研究提出了一种高效的高分辨率模板匹配方法，通过向量量化和滤波来减少计算量和考虑变形，取得了最先进的性能。
-
-    
-
-    模板匹配是计算机视觉中的基础问题，并在物体检测、图像配准和物体跟踪等领域有应用。当前最先进的方法是依赖于最近邻（NN）匹配，在该方法中，将查询特征空间转换为NN空间，其中每个查询像素用模板像素中的最近邻表示。NN匹配在遮挡、外观变化、光照变化和非刚性变换等方面表现出更好的性能。然而，NN匹配在高分辨率数据和高维特征方面的扩展性较差。本文提出了一种基于NN的模板匹配方法，该方法有效地减少了NN计算量，并在NN场中引入滤波以考虑变形。首先，通过向量量化将模板表示为k个特征，然后通过滤波比较模板和查询在k个特征上的分布。我们展示了该方法达到了最先进的性能。
-
-    Template matching is a fundamental problem in computer vision and has applications in various fields, such as object detection, image registration, and object tracking. The current state-of-the-art methods rely on nearest-neighbour (NN) matching in which the query feature space is converted to NN space by representing each query pixel with its NN in the template pixels. The NN-based methods have been shown to perform better in occlusions, changes in appearance, illumination variations, and non-rigid transformations. However, NN matching scales poorly with high-resolution data and high feature dimensions. In this work, we present an NN-based template-matching method which efficiently reduces the NN computations and introduces filtering in the NN fields to consider deformations. A vector quantization step first represents the template with $k$ features, then filtering compares the template and query distributions over the $k$ features. We show that state-of-the-art performance was achiev
-    
-[^8]: ChatGPT是否公平可靠？评估大型语言模型推荐中的公平性
-
-    Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation. (arXiv:2305.07609v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.07609](http://arxiv.org/abs/2305.07609)
-
-    这篇论文介绍了一种新的推荐范式——通过LLM进行推荐，但由于LLMs可能存在社会偏见，需要进一步调查RecLLM所做推荐的公正性。为此，作者提出了一个新的公平性基准——FaiRLLM，并针对音乐和电影推荐场景中的八个敏感属性进行了评估。
+    中国科学院信息检索团队（CIR）在NTCIR-17 ULTRE-2任务中采用双向学习算法（DLA）处理位置偏差，并解决了百度搜索数据中严重的虚假负面问题。他们通过纠正未被点击项目的标签和引入随机文档和具有部分匹配的文档作为负面样本的方法，提高了模型的性能。
 
     
 
-    大型语言模型（LLM）的显着成就导致一种新的推荐范式——通过LLM进行推荐（RecLLM）。然而，需要注意LLMs可能包含社会偏见，因此需要进一步调查RecLLM所做推荐的公正性。为了避免RecLLM的潜在风险，有必要从用户的各种敏感属性角度评估RecLLM的公平性。由于RecLLM范式与传统推荐范式之间存在差异，因此直接使用传统推荐的公平性基准是有问题的。为了解决这个困境，我们提出了一个新的基准，称为“通过LLM的推荐的公平性”（FaiRLLM）。该基准包括精心设计的指标和数据集，涵盖两个推荐场景中的八个敏感属性：音乐和电影。通过利用我们的FaiRLLM基准，我们进行了一项评估。
+    中国科学院信息检索团队（CIR）参加了NTCIR-17 ULTRE-2任务。本论文描述了我们的方法并报告了我们在ULTRE-2任务中的结果。我们认识到在百度搜索数据中，虚假负面结果的问题非常严重，比位置偏差更加严重。因此，我们采用了双向学习算法（DLA）来解决位置偏差，并将其作为辅助模型研究如何缓解虚假负面问题。我们从两个角度解决这个问题：1）通过从DLA训练的相关性判断模型来纠正未被点击项目的标签，并学习一个新的排序器，该排序器由DLA初始化；2）将随机文档作为真负面和具有部分匹配的文档作为难负面。这两种方法都可以提高模型的性能，我们的最佳方法在nDCG@10上达到了0.5355，比组织者的最佳得分提高了2.66%。
 
-    The remarkable achievements of Large Language Models (LLMs) have led to the emergence of a novel recommendation paradigm -- Recommendation via LLM (RecLLM). Nevertheless, it is important to note that LLMs may contain social prejudices, and therefore, the fairness of recommendations made by RecLLM requires further investigation. To avoid the potential risks of RecLLM, it is imperative to evaluate the fairness of RecLLM with respect to various sensitive attributes on the user side. Due to the differences between the RecLLM paradigm and the traditional recommendation paradigm, it is problematic to directly use the fairness benchmark of traditional recommendation. To address the dilemma, we propose a novel benchmark called Fairness of Recommendation via LLM (FaiRLLM). This benchmark comprises carefully crafted metrics and a dataset that accounts for eight sensitive attributes1 in two recommendation scenarios: music and movies. By utilizing our FaiRLLM benchmark, we conducted an evaluation 
+    The Chinese academy of sciences Information Retrieval team (CIR) has participated in the NTCIR-17 ULTRE-2 task. This paper describes our approaches and reports our results on the ULTRE-2 task. We recognize the issue of false negatives in the Baidu search data in this competition is very severe, much more severe than position bias. Hence, we adopt the Dual Learning Algorithm (DLA) to address the position bias and use it as an auxiliary model to study how to alleviate the false negative issue. We approach the problem from two perspectives: 1) correcting the labels for non-clicked items by a relevance judgment model trained from DLA, and learn a new ranker that is initialized from DLA; 2) including random documents as true negatives and documents that have partial matching as hard negatives. Both methods can enhance the model performance and our best method has achieved nDCG@10 of 0.5355, which is 2.66% better than the best score from the organizer.
     
-[^9]: TALLRec: 一种与推荐系统对齐的大型语言模型有效且高效的调整框架
+[^5]: DCRNN: 一种基于RNN的深度交叉方法，用于多任务学习中的部分参数共享
 
-    TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation. (arXiv:2305.00447v1 [cs.IR])
+    DCRNN: A Deep Cross approach based on RNN for Partial Parameter Sharing in Multi-task Learning. (arXiv:2310.11777v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.00447](http://arxiv.org/abs/2305.00447)
+    [http://arxiv.org/abs/2310.11777](http://arxiv.org/abs/2310.11777)
 
-    TALLRec是对LLMs进行调整的一种高效且有效的框架，用于将LLMs与推荐系统对齐，从而增强LLMs在推荐任务中的能力。
-
-    
-
-    大型语言模型（LLMs）已经展现了在不同领域的显著性能，因此研究人员开始探索它们在推荐系统中的潜力。虽然初始的尝试已经利用了LLMs的优异能力，比如通过上下文学习中的提示词来丰富知识并进行强化泛化，但是由于LLMs的训练任务与推荐任务之间的巨大差异以及预训练期间的不足的推荐数据，LLMs在推荐任务中的性能仍然不理想。为了填补这一差距，我们考虑使用推荐数据对LLMs进行调整来构建大型推荐语言模型。为此，我们提出了一种名为TALLRec的高效且有效的调整框架，用于将LLMs与推荐系统对齐。我们已经证明了所提出的TALLRec框架可以显著增强LLMs在推荐任务中的能力。
-
-    Large Language Models (LLMs) have demonstrated remarkable performance across diverse domains, thereby prompting researchers to explore their potential for use in recommendation systems. Initial attempts have leveraged the exceptional capabilities of LLMs, such as rich knowledge and strong generalization through In-context Learning, which involves phrasing the recommendation task as prompts. Nevertheless, the performance of LLMs in recommendation tasks remains suboptimal due to a substantial disparity between the training tasks for LLMs and recommendation tasks, as well as inadequate recommendation data during pre-training. To bridge the gap, we consider building a Large Recommendation Language Model by tunning LLMs with recommendation data. To this end, we propose an efficient and effective Tuning framework for Aligning LLMs with Recommendation, namely TALLRec. We have demonstrated that the proposed TALLRec framework can significantly enhance the recommendation capabilities of LLMs in 
-    
-[^10]: 可编辑用户档案的可控文本推荐方法
-
-    Editable User Profiles for Controllable Text Recommendation. (arXiv:2304.04250v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.04250](http://arxiv.org/abs/2304.04250)
-
-    本文提出了一种新的概念值瓶颈模型LACE，用于可控文本推荐。该模型基于用户文档学习个性化的概念表示，并通过多种交互方式为用户提供了控制推荐的机制，验证了在离线和在线实验中该模型的推荐质量和有效性。
+    这项工作提出了一种基于RNN的深度交叉方法，用于多任务学习中的部分参数共享，旨在提高推荐的成功率并降低计算成本。
 
     
 
-    实现高质量推荐的方法通常依赖于从交互数据中学习潜在表示。然而这些方法没有提供给用户控制所接收的推荐的机制。本文提出了LACE，一种新颖的概念值瓶颈模型，用于可控文本推荐。LACE基于用户交互的文档检索，将每个用户表示为简洁的可读的概念集，并基于用户文档学习概念的个性化表示。该基于概念的用户档案被利用来做出推荐。我们的模型设计通过透明的用户档案，提供了控制推荐的多种直观交互方式。我们首先在三个推荐任务（温启动、冷启动和零样本）的六个数据集上进行了离线评估，验证了从LACE获得的推荐质量。接下来，我们在在线实验中验证了LACE的有效性和用户控制能力。
+    最近几年，DL发展迅速，个性化服务正探索使用DL算法来提升推荐系统的性能。对于个性化服务来说，成功的推荐包括吸引用户点击项目和用户愿意消费项目两个方面。如果同时需要预测这两个任务，传统的推荐系统通常会训练两个独立的模型。这种方法繁琐且不能有效地建模“点击-消费”这两个子任务之间的关系。因此，为了提高推荐的成功率并减少计算成本，研究人员正在尝试建模多任务学习。目前，现有的多任务学习模型通常采用硬参数共享或软参数共享架构，但这两种架构各自存在一定的问题。因此，在这项工作中，我们提出了一种基于真实推荐的新型推荐模型。
 
-    Methods for making high-quality recommendations often rely on learning latent representations from interaction data. These methods, while performant, do not provide ready mechanisms for users to control the recommendation they receive. Our work tackles this problem by proposing LACE, a novel concept value bottleneck model for controllable text recommendations. LACE represents each user with a succinct set of human-readable concepts through retrieval given user-interacted documents and learns personalized representations of the concepts based on user documents. This concept based user profile is then leveraged to make recommendations. The design of our model affords control over the recommendations through a number of intuitive interactions with a transparent user profile. We first establish the quality of recommendations obtained from LACE in an offline evaluation on three recommendation tasks spanning six datasets in warm-start, cold-start, and zero-shot setups. Next, we validate the 
+    In recent years, DL has developed rapidly, and personalized services are exploring using DL algorithms to improve the performance of the recommendation system. For personalized services, a successful recommendation consists of two parts: attracting users to click the item and users being willing to consume the item. If both tasks need to be predicted at the same time, traditional recommendation systems generally train two independent models. This approach is cumbersome and does not effectively model the relationship between the two subtasks of "click-consumption". Therefore, in order to improve the success rate of recommendation and reduce computational costs, researchers are trying to model multi-task learning.  At present, existing multi-task learning models generally adopt hard parameter sharing or soft parameter sharing architecture, but these two architectures each have certain problems. Therefore, in this work, we propose a novel recommendation model based on real recommendation 
     
-[^11]: 混合倒排索引是一种强大的稠密检索加速器
+[^6]: 从相关性到实用性: 基于反馈的证据检索在事实验证中的应用
 
-    Hybrid Inverted Index Is a Robust Accelerator for Dense Retrieval. (arXiv:2210.05521v2 [cs.IR] UPDATED)
+    From Relevance to Utility: Evidence Retrieval with Feedback for Fact Verification. (arXiv:2310.11675v1 [cs.IR])
 
-    [http://arxiv.org/abs/2210.05521](http://arxiv.org/abs/2210.05521)
+    [http://arxiv.org/abs/2310.11675](http://arxiv.org/abs/2310.11675)
 
-    本研究提出了一种混合倒排索引(HI$^2$)用于加速稠密检索，通过嵌入聚类和显著词汇的协同作用，构建紧凑的倒排列表并提高检索质量。
-
-    
-
-    倒排文件结构是一种常用的加速稠密检索的技术。它根据嵌入将文档聚类；在搜索过程中，根据输入查询探测附近的聚类，并且仅对其中的文档进行后续的解码，从而避免了穷举遍历的昂贵代价。然而，聚类过程总是有损的，这导致探测到的聚类中缺失了相关的文档，从而降低了检索质量。相反，词汇匹配，如显著词汇的重叠，更容易识别相关文档。在这项工作中，我们提出了混合倒排索引 (HI$^2$)，其中嵌入聚类和显著词汇共同加速稠密检索。为了兼顾效果和效率，我们设计了一个聚类选择器和一个词汇选择器，用于构建紧凑的倒排列表并快速搜索它们。此外，我们利用简单的无监督算法和端到端学习来提高索引质量.
-
-    Inverted file structure is a common technique for accelerating dense retrieval. It clusters documents based on their embeddings; during searching, it probes nearby clusters w.r.t. an input query and only evaluates documents within them by subsequent codecs, thus avoiding the expensive cost of exhaustive traversal. However, the clustering is always lossy, which results in the miss of relevant documents in the probed clusters and hence degrades retrieval quality. In contrast, lexical matching, such as overlaps of salient terms, tends to be strong feature for identifying relevant documents. In this work, we present the Hybrid Inverted Index (HI$^2$), where the embedding clusters and salient terms work collaboratively to accelerate dense retrieval. To make best of both effectiveness and efficiency, we devise a cluster selector and a term selector, to construct compact inverted lists and efficiently searching through them. Moreover, we leverage simple unsupervised algorithms as well as end-
-    
-[^12]: 基于垂直分配的排名中公平曝光摊销
-
-    Vertical Allocation-based Fair Exposure Amortizing in Ranking. (arXiv:2204.03046v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2204.03046](http://arxiv.org/abs/2204.03046)
-
-    本研究关注排名服务中的曝光公平性问题，证明了现有公平性优化方法在公平性与相关性之间的权衡方面存在不足，并提出了一种新的算法Vertic来解决该问题。
+    本论文提出了一种基于反馈的证据检索器(FER)，通过整合声明验证者的反馈来优化事实验证中的证据检索过程。实证研究表明FER优于现有的基准方法。
 
     
 
-    结果排名经常影响消费者满意度以及排名服务中每个项目的曝光量。仅根据相关性对项目进行排名会导致项目曝光分配不公平，从而为项目生产者/提供者带来不公平的机会和经济收益。这种不公平会导致提供者离开系统，并阻止新的提供者加入。最终，消费者会剩下更少的购买选项，消费者和提供者的效用都会受到损害。因此，对于双方来说，保持排名相关性和公平之间的平衡至关重要。本文聚焦于排名服务中的曝光公平性。我们证明了现有的公平性优化方法在公平性和相关性之间的权衡方面可能不是最优的，因为它们没有充分利用消费者的先验知识。我们进一步提出了一种名为Vertic的新算法。
+    在事实验证中，检索增强方法已成为主要的方法之一；它需要对多个检索到的证据进行推理，以验证声明的真实性。为了检索证据，现有的方法通常使用基于概率排序原则设计的现成检索模型。我们认为，在事实验证中，我们需要关注的是声明验证者从检索到的证据中获得的实用性，而不是相关性。我们引入了基于反馈的证据检索器（FER），通过整合声明验证者的反馈来优化证据检索过程。作为反馈信号，我们使用验证者有效利用检索到的证据和基准证据之间实用性的差异来产生最终的声明标签。实证研究证明FER优于现有的基准方法。
 
-    Result ranking often affects consumer satisfaction as well as the amount of exposure each item receives in the ranking services. Myopically maximizing customer satisfaction by ranking items only according to relevance will lead to unfair distribution of exposure for items, followed by unfair opportunities and economic gains for item producers/providers. Such unfairness will force providers to leave the system and discourage new providers from coming in. Eventually, fewer purchase options would be left for consumers, and the utilities of both consumers and providers would be harmed. Thus, to maintain a balance between ranking relevance and fairness is crucial for both parties. In this paper, we focus on the exposure fairness in ranking services. We demonstrate that existing methods for amortized fairness optimization could be suboptimal in terms of fairness-relevance tradeoff because they fail to utilize the prior knowledge of consumers. We further propose a novel algorithm named Vertic
+    Retrieval-enhanced methods have become a primary approach in fact verification (FV); it requires reasoning over multiple retrieved pieces of evidence to verify the integrity of a claim. To retrieve evidence, existing work often employs off-the-shelf retrieval models whose design is based on the probability ranking principle. We argue that, rather than relevance, for FV we need to focus on the utility that a claim verifier derives from the retrieved evidence. We introduce the feedback-based evidence retriever(FER) that optimizes the evidence retrieval process by incorporating feedback from the claim verifier. As a feedback signal we use the divergence in utility between how effectively the verifier utilizes the retrieved evidence and the ground-truth evidence to produce the final claim label. Empirical studies demonstrate the superiority of FER over prevailing baselines.
     
-[^13]: 具有可证明的一致性和公平保证的推荐系统张量补全
+[^7]: VKIE:应用关键信息提取于视频文本的研究
 
-    Tensor Completion with Provable Consistency and Fairness Guarantees for Recommender Systems. (arXiv:2204.01815v3 [cs.IR] UPDATED)
+    VKIE: The Application of Key Information Extraction on Video Text. (arXiv:2310.11650v1 [cs.IR])
 
-    [http://arxiv.org/abs/2204.01815](http://arxiv.org/abs/2204.01815)
+    [http://arxiv.org/abs/2310.11650](http://arxiv.org/abs/2310.11650)
 
-    本文介绍了一种新的一致性方法来解决矩阵和张量补全问题，在推荐系统应用中，我们证明了通过保留单位比例和一致性两个约束条件可以实现解的存在性与唯一性。
-
-    
-
-    我们引入了一种新的基于一致性的方法来定义和解决非负/正矩阵和张量补全问题。该框架的新颖之处在于，我们不是人为地将问题形式化为任意优化问题，例如，最小化一个结构量，如秩或范数，而是展示了一个单一的属性/约束：保留单位比例一致性，保证了解的存在，并在相对较弱的支持假设下保证了解的唯一性。该框架和解算法也直接推广到任意维度的张量中，同时保持了固定维度 d 的问题规模的线性计算复杂性。在推荐系统应用中，我们证明了两个合理的性质，这些性质应该适用于任何 RS 问题的解，足以允许在我们的框架内建立唯一性保证。关键理论贡献是展示了这些约束下解的存在性与唯一性。
-
-    We introduce a new consistency-based approach for defining and solving nonnegative/positive matrix and tensor completion problems. The novelty of the framework is that instead of artificially making the problem well-posed in the form of an application-arbitrary optimization problem, e.g., minimizing a bulk structural measure such as rank or norm, we show that a single property/constraint: preserving unit-scale consistency, guarantees the existence of both a solution and, under relatively weak support assumptions, uniqueness. The framework and solution algorithms also generalize directly to tensors of arbitrary dimensions while maintaining computational complexity that is linear in problem size for fixed dimension d. In the context of recommender system (RS) applications, we prove that two reasonable properties that should be expected to hold for any solution to the RS problem are sufficient to permit uniqueness guarantees to be established within our framework. Key theoretical contribu
-    
-[^14]: BLM-17m: 一个用于推特上黑人生命至关重要话题检测的大规模数据集
-
-    BLM-17m: A Large-Scale Dataset for Black Lives Matter Topic Detection on Twitter. (arXiv:2105.01331v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2105.01331](http://arxiv.org/abs/2105.01331)
-
-    本论文提出了一个用于推特上检测黑人生命至关重要话题的大规模数据集BLM-17m，涵盖了乔治·弗洛伊德事件期间的17百万推文。作者提供了两个基线模型TF-IDF和LDA，并对其进行了评估。
+    本文提出了一项重要任务，即从视频文本中提取层次化关键信息。研究者们通过拆分任务为四个子任务，并介绍了两种实现方案，即PipVKIE和UniVKIE。两种方案都利用了视觉、文本和坐标的多模态信息进行特征表示。实验证明，这些方案在性能和推理速度方面表现出色。
 
     
 
-    人权保护是世界上最重要的问题之一。本文旨在提供一个涵盖最近几个月全球影响深远的人权矛盾之一——乔治·弗洛伊德事件的数据集。我们提出了一个带有17百万推文的主题检测标记数据集。这些推文是从2020年5月25日至2020年8月21日收集的，涵盖了这一事件开始后的89天。我们通过监测全球和本地报纸的最热门新闻主题对数据集进行了标记。除此之外，我们还提供了两个基线模型，TF-IDF和LDA。我们使用三个不同的k值对这两种方法的精确度、召回率和F1分数进行了评估。收集到的数据集可以在https://github.com/MeysamAsgariC/BLMT 上找到。
+    从视频中提取结构化信息对于行业中许多下游应用至关重要。本文定义了从视频文本中提取层次化关键信息的重要任务。为了完成这个任务，我们将其拆分为四个子任务，并介绍了两种实现方案，分别称为PipVKIE和UniVKIE。PipVKIE按照连续阶段顺序完成四个子任务，而UniVKIE通过将所有子任务统一到一个主干中进行改进。PipVKIE和UniVKIE都利用了来自视觉、文本和坐标的多模态信息进行特征表示。在一个明确定义的数据集上进行了大量实验证明，我们的解决方案可以取得显著的性能和高效的推理速度。代码和数据集将公开提供。
 
-    Protection of human rights is one of the most important problems of our world. In this paper, our aim is to provide a dataset which covers one of the most significant human rights contradiction in recent months affected the whole world, George Floyd incident. We propose a labeled dataset for topic detection that contains 17 million tweets. These Tweets are collected from 25 May 2020 to 21 August 2020 that covers 89 days from start of this incident. We labeled the dataset by monitoring most trending news topics from global and local newspapers. Apart from that, we present two baselines, TF-IDF and LDA. We evaluated the results of these two methods with three different k values for metrics of precision, recall and f1-score. The collected dataset is available at https://github.com/MeysamAsgariC/BLMT.
+    Extracting structured information from videos is critical for numerous downstream applications in the industry. In this paper, we define a significant task of extracting hierarchical key information from visual texts on videos. To fulfill this task, we decouples it into four subtasks and introduce two implementation solutions called PipVKIE and UniVKIE. PipVKIE sequentially completes the four subtasks in continuous stages, while UniVKIE is improved by unifying all the subtasks into one backbone. Both PipVKIE and UniVKIE leverage multimodal information from vision, text, and coordinates for feature representation. Extensive experiments on one well-defined dataset demonstrate that our solutions can achieve remarkable performance and efficient inference speed. The code and dataset will be publicly available.
+    
+[^8]: 开放信息提取：基准技术、方法和应用的综述
+
+    Open Information Extraction: A Review of Baseline Techniques, Approaches, and Applications. (arXiv:2310.11644v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.11644](http://arxiv.org/abs/2310.11644)
+
+    该论文综述了开放信息提取（OIE）的最新方法和应用，通过分析不同领域的关系来改善关系提取技术，避免手动标记预定义的关系，并概述了OIE的挑战和未来工作机会。
+
+    
+
+    随着大量的在线和离线文本数据的可用性，需要提取短语之间的关系并用几个词汇总每个文档的主要内容变得至关重要。为此，最近一直进行了许多关于开放信息提取（OIE）的研究。OIE通过分析不同领域的关系来改进关系提取技术，并避免在句子中要求手动标记预定义的关系。本文综述了OIE的最新方法以及其在知识图谱（KG）、文本摘要和问答（QA）中的应用。此外，本文描述了OIE基础方法中的关系提取。它简要讨论了每种方法的主要方法和优缺点。最后，它对OIE、关系提取和OIE应用的挑战、开放问题和未来工作机会进行了概述。
+
+    With the abundant amount of available online and offline text data, there arises a crucial need to extract the relation between phrases and summarize the main content of each document in a few words. For this purpose, there have been many studies recently in Open Information Extraction (OIE). OIE improves upon relation extraction techniques by analyzing relations across different domains and avoids requiring hand-labeling pre-specified relations in sentences. This paper surveys recent approaches of OIE and its applications on Knowledge Graph (KG), text summarization, and Question Answering (QA). Moreover, the paper describes OIE basis methods in relation extraction. It briefly discusses the main approaches and the pros and cons of each method. Finally, it gives an overview about challenges, open issues, and future work opportunities for OIE, relation extraction, and OIE applications.
+    
+[^9]: 推荐系统中的图神经网络: 可复现性、图拓扑和节点表示
+
+    Graph Neural Networks for Recommendation: Reproducibility, Graph Topology, and Node Representation. (arXiv:2310.11270v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2310.11270](http://arxiv.org/abs/2310.11270)
+
+    本教程针对推荐中的图神经网络的三个关键方面进行了探讨：最先进方法的可复现性，图拓扑特征对模型性能的影响，以及学习节点表示的策略。
+
+    
+
+    最近几年，图神经网络（GNNs）在推荐系统中变得越来越重要。通过将用户-物品矩阵表示为一个二部图和无向图，GNN能够捕捉用户-物品之间的近距离和远距离交互，从而比传统推荐方法学习到更准确的偏好模式。与之前的同类教程不同，本教程旨在展示和探讨推荐中GNNs的三个关键方面：（i）最先进方法的可复现性，（ii）图拓扑特征对模型性能的潜在影响，以及（iii）在从零开始训练特征或利用预训练嵌入作为额外物品信息（例如多模态特征）时，学习节点表示的策略。我们的目标是为该领域提供三个新颖的理论和实践视角，目前在图学习中存在争议。
+
+    Graph neural networks (GNNs) have gained prominence in recommendation systems in recent years. By representing the user-item matrix as a bipartite and undirected graph, GNNs have demonstrated their potential to capture short- and long-distance user-item interactions, thereby learning more accurate preference patterns than traditional recommendation approaches. In contrast to previous tutorials on the same topic, this tutorial aims to present and examine three key aspects that characterize GNNs for recommendation: (i) the reproducibility of state-of-the-art approaches, (ii) the potential impact of graph topological characteristics on the performance of these models, and (iii) strategies for learning node representations when training features from scratch or utilizing pre-trained embeddings as additional item information (e.g., multimodal features). The goal is to provide three novel theoretical and practical perspectives on the field, currently subject to debate in graph learning but l
+    
+[^10]: 提升对话式搜索：基于大型语言模型辅助的信息查询重写
+
+    Enhancing Conversational Search: Large Language Model-Aided Informative Query Rewriting. (arXiv:2310.09716v2 [cs.HC] UPDATED)
+
+    [http://arxiv.org/abs/2310.09716](http://arxiv.org/abs/2310.09716)
+
+    该论文提出了一种利用大型语言模型(LLMs)作为查询重写器的方法，通过指令生成信息丰富的查询重写，以提升对话式搜索的检索性能。实验结果表明，这种方法在QReCC数据集上取得了良好的效果。
+
+    
+
+    查询重写在提升对话式搜索中起着重要作用，通过将上下文相关的用户查询转化为独立形式。现有方法主要利用人工重写的查询作为标签来训练查询重写模型。然而，人工重写可能缺乏足够的信息以实现最佳的检索性能。为了克服这个限制，我们提出利用大型语言模型(LLMs)作为查询重写器，通过精心设计的指令生成信息丰富的查询重写。我们定义了四个重要特性来定义规范的重写，并将其全部纳入指令中。此外，当初始查询重写可用时，我们引入了LLMs的重写编辑器的角色，形成一个“重写-编辑”过程。此外，我们提出将LLMs的重写能力提炼成较小的模型，以减少重写延迟。我们在QReCC数据集上进行的实验评估表明，信息丰富的查询重写可以提高搜索的效果。
+
+    Query rewriting plays a vital role in enhancing conversational search by transforming context-dependent user queries into standalone forms. Existing approaches primarily leverage human-rewritten queries as labels to train query rewriting models. However, human rewrites may lack sufficient information for optimal retrieval performance. To overcome this limitation, we propose utilizing large language models (LLMs) as query rewriters, enabling the generation of informative query rewrites through well-designed instructions. We define four essential properties for well-formed rewrites and incorporate all of them into the instruction. In addition, we introduce the role of rewrite editors for LLMs when initial query rewrites are available, forming a "rewrite-then-edit" process. Furthermore, we propose distilling the rewriting capabilities of LLMs into smaller models to reduce rewriting latency. Our experimental evaluation on the QReCC dataset demonstrates that informative query rewrites can y
+    
+[^11]: 在可解释的科学文献推荐系统中采用不同细节级别的交互式解释
+
+    Interactive Explanation with Varying Level of Details in an Explainable Scientific Literature Recommender System. (arXiv:2306.05809v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.05809](http://arxiv.org/abs/2306.05809)
+
+    本文旨在采用以用户为中心的交互式解释模型，在推荐系统中为用户提供不同细节级别的解释，赋予用户个性化解释的能力。
+
+    
+
+    传统上，可解释的推荐系统采用一种“一刀切”的方法，向每个用户提供相同程度的解释，而不考虑他们的个体需求和目标。此外，推荐系统中的解释大多以静态和非交互方式呈现。为填补这些研究空白，本文旨在采用以用户为中心的交互式解释模型，为用户提供不同细节级别的解释，并赋予用户基于其需求和偏好进行交互、控制和个性化解释的能力。我们采用以用户为中心的方法，设计了三个细节级别的交互式解释（基本、中级和高级），并在透明的推荐和兴趣建模应用（RIMA）中实现了它们。我们进行了一个定性用户研究（N=14），以调查提供不同细节级别的交互式解释对用户对系统可解释性的感知的影响。
+
+    Explainable recommender systems (RS) have traditionally followed a one-size-fits-all approach, delivering the same explanation level of detail to each user, without considering their individual needs and goals. Further, explanations in RS have so far been presented mostly in a static and non-interactive manner. To fill these research gaps, we aim in this paper to adopt a user-centered, interactive explanation model that provides explanations with different levels of detail and empowers users to interact with, control, and personalize the explanations based on their needs and preferences. We followed a user-centered approach to design interactive explanations with three levels of detail (basic, intermediate, and advanced) and implemented them in the transparent Recommendation and Interest Modeling Application (RIMA). We conducted a qualitative user study (N=14) to investigate the impact of providing interactive explanations with varying level of details on the users' perception of the e
+    
+[^12]: CLaMP：用于跨模态符号音乐信息检索的对比语言-音乐预训练
+
+    CLaMP: Contrastive Language-Music Pre-training for Cross-Modal Symbolic Music Information Retrieval. (arXiv:2304.11029v1 [cs.SD])
+
+    [http://arxiv.org/abs/2304.11029](http://arxiv.org/abs/2304.11029)
+
+    CLaMP是一种对比语言-音乐预训练技术，能够学习符号音乐和自然语言之间的跨模态表示。通过数据增强和分块处理，它将符号音乐表示成长度不到10％的序列，并使用掩蔽音乐模型预训练目标来增强音乐编码器对音乐上下文和结构的理解。这种技术超越了现有模型的能力，可以实现符号音乐的语义搜索和零样本分类。
+
+    
+
+    我们介绍了CLaMP：对比语言-音乐预训练，它使用音乐编码器和文本编码器通过对比损失函数联合训练来学习自然语言和符号音乐之间的跨模态表示。为了预训练CLaMP，我们收集了140万个音乐-文本对的大型数据集。它使用了文本随机失活来进行数据增强和分块处理以高效地表示音乐数据，从而将序列长度缩短到不到10％。此外，我们开发了一个掩蔽音乐模型预训练目标，以增强音乐编码器对音乐上下文和结构的理解。CLaMP集成了文本信息，以实现符号音乐的语义搜索和零样本分类，超越了先前模型的能力。为支持语义搜索和音乐分类的评估，我们公开发布了WikiMusicText（WikiMT），这是一个包含1010个ABC符号谱的数据集，每个谱都附带有标题、艺术家、流派和描述信息。
+
+    We introduce CLaMP: Contrastive Language-Music Pre-training, which learns cross-modal representations between natural language and symbolic music using a music encoder and a text encoder trained jointly with a contrastive loss. To pre-train CLaMP, we collected a large dataset of 1.4 million music-text pairs. It employed text dropout as a data augmentation technique and bar patching to efficiently represent music data which reduces sequence length to less than 10%. In addition, we developed a masked music model pre-training objective to enhance the music encoder's comprehension of musical context and structure. CLaMP integrates textual information to enable semantic search and zero-shot classification for symbolic music, surpassing the capabilities of previous models. To support the evaluation of semantic search and music classification, we publicly release WikiMusicText (WikiMT), a dataset of 1010 lead sheets in ABC notation, each accompanied by a title, artist, genre, and description.
+    
+[^13]: 通过监督稀疏多粒度学习进行视频文本检索
+
+    Video-Text Retrieval by Supervised Sparse Multi-Grained Learning. (arXiv:2302.09473v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2302.09473](http://arxiv.org/abs/2302.09473)
+
+    本文提出了一种新的多粒度稀疏学习框架S3MA，用于视频文本检索。该框架通过学习共享的稀疏空间和多粒度相似度来改进检索效果，在多个基准测试中表现优于现有方法。
+
+    
+
+    对于视频文本检索，最近在探索更好的表示学习方面取得了进展。本文提出了一个新的多粒度稀疏学习框架S3MA，用于学习视频和文本之间的共享稀疏空间，从而实现视频文本检索。共享稀疏空间通过有限数量的稀疏概念进行初始化，每个概念都对应一些词语。利用现有的文本数据，我们以监督方式学习和更新共享稀疏空间，使用提出的相似度和对齐损失函数。此外，为了实现多粒度对齐，我们将帧表示方法纳入模型，更好地对视频模态进行建模和计算细粒度和粗粒度的相似度。通过学习得到的共享稀疏空间和多粒度相似度，我们在多个视频文本检索基准上进行了广泛实验，实验结果表明S3MA优于现有方法。我们的代码可以在https://github.com/yim上找到。
+
+    While recent progress in video-text retrieval has been advanced by the exploration of better representation learning, in this paper, we present a novel multi-grained sparse learning framework, S3MA, to learn an aligned sparse space shared between the video and the text for video-text retrieval. The shared sparse space is initialized with a finite number of sparse concepts, each of which refers to a number of words. With the text data at hand, we learn and update the shared sparse space in a supervised manner using the proposed similarity and alignment losses. Moreover, to enable multi-grained alignment, we incorporate frame representations for better modeling the video modality and calculating fine-grained and coarse-grained similarities. Benefiting from the learned shared sparse space and multi-grained similarities, extensive experiments on several video-text retrieval benchmarks demonstrate the superiority of S3MA over existing methods. Our code is available at https://github.com/yim
+    
+[^14]: Solo: 使用自监督方法通过自然语言问题进行数据发现
+
+    Solo: Data Discovery Using Natural Language Questions Via A Self-Supervised Approach. (arXiv:2301.03560v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2301.03560](http://arxiv.org/abs/2301.03560)
+
+    提出了一个使用自然语言问题进行数据发现的系统，使用自监督方法来训练系统，克服了昂贵的训练数据的限制，实现了根据自然语言问题进行数据发现的端到端解决方案。
+
+    
+
+    大多数已部署的数据发现系统，例如Google Datasets和开放数据门户，只支持关键词搜索。关键词搜索适用于普通用户，但限制了系统能够回答的查询类型。我们提出了一个新的系统，允许用户直接编写自然语言问题。使用这个学习的数据发现系统的一个主要障碍是需要昂贵的训练数据，从而限制了其实用性。在本文中，我们介绍了一种自监督方法来组装训练数据集并训练无需人为干预的学习发现系统。它需要解决几个挑战，包括自我监督策略的设计以进行数据发现、用于输入模型的表格表示策略和能与合成生成的问题很好工作的相关性模型。我们将所有上述贡献结合起来构建一个名为Solo的系统，以解决该问题。评估结果表明，新技术表现优于现有方法。
+
+    Most deployed data discovery systems, such as Google Datasets, and open data portals only support keyword search. Keyword search is geared towards general audiences but limits the types of queries the systems can answer. We propose a new system that lets users write natural language questions directly. A major barrier to using this learned data discovery system is it needs expensive-to-collect training data, thus limiting its utility. In this paper, we introduce a self-supervised approach to assemble training datasets and train learned discovery systems without human intervention. It requires addressing several challenges, including the design of self-supervised strategies for data discovery, table representation strategies to feed to the models, and relevance models that work well with the synthetically generated questions. We combine all the above contributions into a system, Solo, that solves the problem end to end. The evaluation results demonstrate the new techniques outperform st
+    
+[^15]: 学习用于排名的列表级别领域不变表示
+
+    Learning List-Level Domain-Invariant Representations for Ranking. (arXiv:2212.10764v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2212.10764](http://arxiv.org/abs/2212.10764)
+
+    本文提出了一种针对排名问题的列表级别对齐的学习方法，该方法利用列表的结构特性，在领域适应中实现从源领域到目标领域的知识转移。
+
+    
+
+    领域适应旨在将在（数据丰富）源领域学到的知识转移到（资源有限）目标领域，一种常用的方法是不变表示学习，它匹配并对齐特征空间上的数据分布。尽管这种方法在分类和回归问题上得到了广泛研究和应用，但在排名问题上的应用却是零散的，并且现有的几种实现缺乏理论上的证明。本文重新审视了用于排名的不变表示学习。在审查之前的工作时，我们发现他们实施了我们称之为项目级别对齐的方法，该方法在聚合的所有列表中对进行排名的项目分布进行对齐，但忽略了列表的结构。然而，列表的结构应该被利用，因为它是排名问题的固有特性，其中数据和度量是在列表上定义和计算的，而不是在项目本身上。为了解决这一不一致，我们提出了列表级别对齐的学习
+
+    Domain adaptation aims to transfer the knowledge learned on (data-rich) source domains to (low-resource) target domains, and a popular method is invariant representation learning, which matches and aligns the data distributions on the feature space. Although this method is studied extensively and applied on classification and regression problems, its adoption on ranking problems is sporadic, and the few existing implementations lack theoretical justifications. This paper revisits invariant representation learning for ranking. Upon reviewing prior work, we found that they implement what we call item-level alignment, which aligns the distributions of the items being ranked from all lists in aggregate but ignores their list structure. However, the list structure should be leveraged, because it is intrinsic to ranking problems where the data and the metrics are defined and computed on lists, not the items by themselves. To close this discrepancy, we propose list-level alignment -learning
+    
+[^16]: 量化方法的比较评估
+
+    A Comparative Evaluation of Quantification Methods. (arXiv:2103.03223v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2103.03223](http://arxiv.org/abs/2103.03223)
+
+    本研究通过对24种不同量化方法在超过40个数据集上进行全面实证比较，填补了量化方法比较研究的空白。我们发现在二分类设置中，基于阈值选择的Median Sweep和TSMax方法、DyS框架和弗里德曼的方法表现最佳；而在多分类设置中，Generaliz方法表现良好。
+
+    
+
+    量化是指在数据集中预测类别分布的问题。它也代表着一个在监督式机器学习中不断发展的研究领域，近年来提出了大量不同的算法。然而，目前还没有一份全面的实证比较量化方法的研究，以支持算法选择。在本研究中，我们通过对超过40个数据集进行了24种不同量化方法的彻底实证性性能比较，包括二分类和多分类量化设置，填补了这一研究空白。我们观察到没有单一算法能够在所有竞争对手中始终表现最佳，但我们确定了一组在二分类设置中表现最佳的方法，包括基于阈值选择的Median Sweep和TSMax方法、DyS框架和弗里德曼的方法。对于多分类设置，我们观察到另一组算法表现良好，包括Generaliz方法。
+
+    Quantification represents the problem of predicting class distributions in a dataset. It also represents a growing research field in supervised machine learning, for which a large variety of different algorithms has been proposed in recent years. However, a comprehensive empirical comparison of quantification methods that supports algorithm selection is not available yet. In this work, we close this research gap by conducting a thorough empirical performance comparison of 24 different quantification methods on overall more than 40 data sets, considering binary as well as multiclass quantification settings. We observe that no single algorithm generally outperforms all competitors, but identify a group of methods including the threshold selection-based Median Sweep and TSMax methods, the DyS framework, and Friedman's method that performs best in the binary setting. For the multiclass setting, we observe that a different group of algorithms yields good performance, including the Generaliz
     
 

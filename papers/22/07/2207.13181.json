@@ -1,0 +1,11 @@
+{
+    "title": "Planning and Learning: Path-Planning for Autonomous Vehicles, a Review of the Literature. (arXiv:2207.13181v2 [cs.AI] UPDATED)",
+    "abstract": "This short review aims to make the reader familiar with state-of-the-art works relating to planning, scheduling and learning. First, we study state-of-the-art planning algorithms. We give a brief introduction of neural networks. Then we explore in more detail graph neural networks, a recent variant of neural networks suited for processing graph-structured inputs. We describe briefly the concept of reinforcement learning algorithms and some approaches designed to date. Next, we study some successful approaches combining neural networks for path-planning. Lastly, we focus on temporal planning problems with uncertainty.",
+    "link": "http://arxiv.org/abs/2207.13181",
+    "context": "Title: Planning and Learning: Path-Planning for Autonomous Vehicles, a Review of the Literature. (arXiv:2207.13181v2 [cs.AI] UPDATED)\nAbstract: This short review aims to make the reader familiar with state-of-the-art works relating to planning, scheduling and learning. First, we study state-of-the-art planning algorithms. We give a brief introduction of neural networks. Then we explore in more detail graph neural networks, a recent variant of neural networks suited for processing graph-structured inputs. We describe briefly the concept of reinforcement learning algorithms and some approaches designed to date. Next, we study some successful approaches combining neural networks for path-planning. Lastly, we focus on temporal planning problems with uncertainty.",
+    "path": "papers/22/07/2207.13181.json",
+    "total_tokens": 727,
+    "translated_title": "计划与学习：自主车辆的路径规划——文献综述",
+    "translated_abstract": "这篇简短综述旨在让读者熟悉与规划、调度和学习相关的最新工作。首先，我们研究了最先进的规划算法。我们简要介绍了神经网络的概念。然后，我们更详细地探讨了图神经网络，这是一种适用于处理图结构输入的最新变体。我们简要描述了增强学习算法的概念和一些迄今为止设计的方法。接下来，我们研究了一些成功将神经网络与路径规划相结合的方法。最后，我们专注于具有不确定性的时态规划问题。",
+    "tldr": "这篇综述主要介绍了当前关于规划、调度和学习的最新工作，包括先进的规划算法、神经网络和图神经网络、增强学习方法以及将神经网络应用于路径规划的成功方法。"
+}

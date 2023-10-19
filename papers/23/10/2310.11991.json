@@ -1,0 +1,11 @@
+{
+    "title": "Removing Spurious Concepts from Neural Network Representations via Joint Subspace Estimation. (arXiv:2310.11991v1 [cs.LG])",
+    "abstract": "Out-of-distribution generalization in neural networks is often hampered by spurious correlations. A common strategy is to mitigate this by removing spurious concepts from the neural network representation of the data. Existing concept-removal methods tend to be overzealous by inadvertently eliminating features associated with the main task of the model, thereby harming model performance. We propose an iterative algorithm that separates spurious from main-task concepts by jointly identifying two low-dimensional orthogonal subspaces in the neural network representation. We evaluate the algorithm on benchmark datasets for computer vision (Waterbirds, CelebA) and natural language processing (MultiNLI), and show that it outperforms existing concept removal methods",
+    "link": "http://arxiv.org/abs/2310.11991",
+    "context": "Title: Removing Spurious Concepts from Neural Network Representations via Joint Subspace Estimation. (arXiv:2310.11991v1 [cs.LG])\nAbstract: Out-of-distribution generalization in neural networks is often hampered by spurious correlations. A common strategy is to mitigate this by removing spurious concepts from the neural network representation of the data. Existing concept-removal methods tend to be overzealous by inadvertently eliminating features associated with the main task of the model, thereby harming model performance. We propose an iterative algorithm that separates spurious from main-task concepts by jointly identifying two low-dimensional orthogonal subspaces in the neural network representation. We evaluate the algorithm on benchmark datasets for computer vision (Waterbirds, CelebA) and natural language processing (MultiNLI), and show that it outperforms existing concept removal methods",
+    "path": "papers/23/10/2310.11991.json",
+    "total_tokens": 755,
+    "translated_title": "通过联合子空间估计消除神经网络表示中的错误概念",
+    "translated_abstract": "神经网络中的错误相关性经常会影响到模型在样本外的泛化能力。常见的策略是通过从神经网络表示中消除错误概念来缓解这个问题。现有的错误概念消除方法往往过于激进，不经意间会消除与模型主要任务相关的特征，从而影响模型性能。我们提出了一种迭代算法，通过共同识别神经网络表示中的两个低维正交子空间来分离错误和主要任务的概念。我们在计算机视觉（Waterbirds，CelebA）和自然语言处理（MultiNLI）的基准数据集上评估了该算法，并表明它优于现有的概念消除方法。",
+    "tldr": "该论文提出了一种通过联合子空间估计从神经网络表示中消除错误概念的迭代算法，并在计算机视觉和自然语言处理的基准数据集上展示了其优越性能。"
+}

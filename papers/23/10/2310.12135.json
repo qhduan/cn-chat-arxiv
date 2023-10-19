@@ -1,0 +1,11 @@
+{
+    "title": "Pseudointelligence: A Unifying Framework for Language Model Evaluation. (arXiv:2310.12135v1 [cs.CL])",
+    "abstract": "With large language models surpassing human performance on an increasing number of benchmarks, we must take a principled approach for targeted evaluation of model capabilities. Inspired by pseudorandomness, we propose pseudointelligence, which captures the maxim that \"(perceived) intelligence lies in the eye of the beholder\". That is, that claims of intelligence are meaningful only when their evaluator is taken into account. Concretely, we propose a complexity-theoretic framework of model evaluation cast as a dynamic interaction between a model and a learned evaluator. We demonstrate that this framework can be used to reason about two case studies in language model evaluation, as well as analyze existing evaluation methods.",
+    "link": "http://arxiv.org/abs/2310.12135",
+    "context": "Title: Pseudointelligence: A Unifying Framework for Language Model Evaluation. (arXiv:2310.12135v1 [cs.CL])\nAbstract: With large language models surpassing human performance on an increasing number of benchmarks, we must take a principled approach for targeted evaluation of model capabilities. Inspired by pseudorandomness, we propose pseudointelligence, which captures the maxim that \"(perceived) intelligence lies in the eye of the beholder\". That is, that claims of intelligence are meaningful only when their evaluator is taken into account. Concretely, we propose a complexity-theoretic framework of model evaluation cast as a dynamic interaction between a model and a learned evaluator. We demonstrate that this framework can be used to reason about two case studies in language model evaluation, as well as analyze existing evaluation methods.",
+    "path": "papers/23/10/2310.12135.json",
+    "total_tokens": 801,
+    "translated_title": "伪智能: 一种用于语言模型评估的统一框架",
+    "translated_abstract": "随着大型语言模型在越来越多的基准测试中超越人类表现，我们必须采取一种有针对性的方法来评估模型的能力。受到伪随机性的启发，我们提出了伪智能，它捕捉了“（被感知的）智能在于观察者的眼中”的最大化原则。也就是说，智能的主张只有在考虑到评估者时才有意义。具体来说，我们提出了一个基于复杂性理论的模型评估框架，将其构建为模型和学习评估者之间的动态互动。我们证明了这个框架可以用于研究语言模型评估中的两个案例研究，并分析现有的评估方法。",
+    "tldr": "本文提出了一种称为伪智能的统一框架，用于语言模型的评估。这个框架认为智能的评估取决于观察者，并提出了一种基于复杂性理论的动态互动评估方法 。"
+}

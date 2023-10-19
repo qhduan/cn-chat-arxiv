@@ -1,0 +1,11 @@
+{
+    "title": "Annotated Job Ads with Named Entity Recognition. (arXiv:2310.11769v1 [cs.CL])",
+    "abstract": "We have trained a named entity recognition (NER) model that screens Swedish job ads for different kinds of useful information (e.g. skills required from a job seeker). It was obtained by fine-tuning KB-BERT. The biggest challenge we faced was the creation of a labelled dataset, which required manual annotation. This paper gives an overview of the methods we employed to make the annotation process more efficient and to ensure high quality data. We also report on the performance of the resulting model.",
+    "link": "http://arxiv.org/abs/2310.11769",
+    "context": "Title: Annotated Job Ads with Named Entity Recognition. (arXiv:2310.11769v1 [cs.CL])\nAbstract: We have trained a named entity recognition (NER) model that screens Swedish job ads for different kinds of useful information (e.g. skills required from a job seeker). It was obtained by fine-tuning KB-BERT. The biggest challenge we faced was the creation of a labelled dataset, which required manual annotation. This paper gives an overview of the methods we employed to make the annotation process more efficient and to ensure high quality data. We also report on the performance of the resulting model.",
+    "path": "papers/23/10/2310.11769.json",
+    "total_tokens": 635,
+    "translated_title": "具有命名实体识别的注释职位广告",
+    "translated_abstract": "我们训练了一个命名实体识别（NER）模型，用于筛选瑞典职位广告中的各种有用信息（例如，招聘者要求的技能）。该模型是通过对KB-BERT进行微调而获得的。我们面临的最大挑战是创建一个标记数据集，这需要进行手动标注。本文概述了我们采用的方法，以使注释过程更高效，并确保高质量的数据。我们还报告了结果模型的性能。",
+    "tldr": "本文介绍了一个通过命名实体识别（NER）模型对瑞典职位广告进行筛选的方法，并详细讨论了创建高质量数据集的问题和解决方案，并报告了模型的性能。"
+}
