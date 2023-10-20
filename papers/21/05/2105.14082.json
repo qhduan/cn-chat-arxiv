@@ -1,0 +1,12 @@
+{
+    "title": "Bhasacitra: Visualising the dialect geography of South Asia. (arXiv:2105.14082v3 [cs.CL] UPDATED)",
+    "abstract": "We present Bhasacitra, a dialect mapping system for South Asia built on a database of linguistic studies of languages of the region annotated for topic and location data. We analyse language coverage and look towards applications to typology by visualising example datasets. The application is not only meant to be useful for feature mapping, but also serves as a new kind of interactive bibliography for linguists of South Asian languages.",
+    "link": "http://arxiv.org/abs/2105.14082",
+    "context": "Title: Bhasacitra: Visualising the dialect geography of South Asia. (arXiv:2105.14082v3 [cs.CL] UPDATED)\nAbstract: We present Bhasacitra, a dialect mapping system for South Asia built on a database of linguistic studies of languages of the region annotated for topic and location data. We analyse language coverage and look towards applications to typology by visualising example datasets. The application is not only meant to be useful for feature mapping, but also serves as a new kind of interactive bibliography for linguists of South Asian languages.",
+    "path": "papers/21/05/2105.14082.json",
+    "total_tokens": 585,
+    "translated_title": "Bhasacitra: 南亚方言地理可视化",
+    "translated_abstract": "我们介绍了Bhasacitra，这是一个基于南亚语言学研究数据库的方言映射系统，该数据库带有主题和位置数据的注释。我们通过可视化示例数据集，分析语言覆盖并展望其在类型学中的应用。这个应用不仅对功能映射有用，还作为一种新型的互动参考书，为南亚语言学家提供帮助。",
+    "tldr": "Bhasacitra是一个用于南亚的方言地理可视化系统，除了能够进行特征映射外，还可以作为南亚语言学家的互动参考书。",
+    "en_tdlr": "Bhasacitra is a dialect mapping system for South Asia that visualizes the geography of dialects. It serves as an interactive bibliography and tool for feature mapping for linguists of South Asian languages."
+}

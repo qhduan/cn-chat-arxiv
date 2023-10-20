@@ -1,0 +1,12 @@
+{
+    "title": "PSYCHIC: A Neuro-Symbolic Framework for Knowledge Graph Question-Answering Grounding. (arXiv:2310.12638v1 [cs.AI])",
+    "abstract": "The Scholarly Question Answering over Linked Data (Scholarly QALD) at The International Semantic Web Conference (ISWC) 2023 challenge presents two sub-tasks to tackle question answering (QA) over knowledge graphs (KGs). We answer the KGQA over DBLP (DBLP-QUAD) task by proposing a neuro-symbolic (NS) framework based on PSYCHIC, an extractive QA model capable of identifying the query and entities related to a KG question. Our system achieved a F1 score of 00.18% on question answering and came in third place for entity linking (EL) with a score of 71.00%.",
+    "link": "http://arxiv.org/abs/2310.12638",
+    "context": "Title: PSYCHIC: A Neuro-Symbolic Framework for Knowledge Graph Question-Answering Grounding. (arXiv:2310.12638v1 [cs.AI])\nAbstract: The Scholarly Question Answering over Linked Data (Scholarly QALD) at The International Semantic Web Conference (ISWC) 2023 challenge presents two sub-tasks to tackle question answering (QA) over knowledge graphs (KGs). We answer the KGQA over DBLP (DBLP-QUAD) task by proposing a neuro-symbolic (NS) framework based on PSYCHIC, an extractive QA model capable of identifying the query and entities related to a KG question. Our system achieved a F1 score of 00.18% on question answering and came in third place for entity linking (EL) with a score of 71.00%.",
+    "path": "papers/23/10/2310.12638.json",
+    "total_tokens": 689,
+    "translated_title": "PSYCHIC: 一个用于知识图谱问答基础的神经符号框架",
+    "translated_abstract": "学术问答在链接数据上的问题（Scholarly QALD）是国际语义网会议（ISWC）2023挑战中的两个子任务，我们通过提出一个基于PSYCHIC的神经符号（NS）框架，来回答与知识图谱（KG）相关的问答（KGQA over DBLP）任务。我们的系统在回答问题方面达到了00.18%的F1得分，并在实体链接（EL）方面以71.00%的得分获得第三名。",
+    "tldr": "本论文提出了PSYCHIC，一个基于神经符号框架的知识图谱问答模型，在国际语义网会议的学术问答挑战中取得了较高的分数。",
+    "en_tdlr": "This paper introduces PSYCHIC, a neuro-symbolic framework for knowledge graph question answering, and achieves high scores in the Scholarly QALD challenge at the International Semantic Web Conference."
+}

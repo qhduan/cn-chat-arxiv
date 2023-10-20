@@ -1,0 +1,11 @@
+{
+    "title": "Inverse Renormalization Group of Disordered Systems. (arXiv:2310.12631v1 [cond-mat.stat-mech])",
+    "abstract": "We propose inverse renormalization group transformations to construct approximate configurations for lattice volumes that have not yet been accessed by supercomputers or large-scale simulations in the study of spin glasses. Specifically, starting from lattices of volume $V=8^{3}$ in the case of the three-dimensional Edwards-Anderson model we employ machine learning algorithms to construct rescaled lattices up to $V'=128^{3}$, which we utilize to extract two critical exponents. We conclude by discussing how to incorporate numerical exactness within inverse renormalization group approaches of disordered systems, thus opening up the opportunity to explore a sustainable and energy-efficient generation of exact configurations for increasing lattice volumes without the use of dedicated supercomputers.",
+    "link": "http://arxiv.org/abs/2310.12631",
+    "context": "Title: Inverse Renormalization Group of Disordered Systems. (arXiv:2310.12631v1 [cond-mat.stat-mech])\nAbstract: We propose inverse renormalization group transformations to construct approximate configurations for lattice volumes that have not yet been accessed by supercomputers or large-scale simulations in the study of spin glasses. Specifically, starting from lattices of volume $V=8^{3}$ in the case of the three-dimensional Edwards-Anderson model we employ machine learning algorithms to construct rescaled lattices up to $V'=128^{3}$, which we utilize to extract two critical exponents. We conclude by discussing how to incorporate numerical exactness within inverse renormalization group approaches of disordered systems, thus opening up the opportunity to explore a sustainable and energy-efficient generation of exact configurations for increasing lattice volumes without the use of dedicated supercomputers.",
+    "path": "papers/23/10/2310.12631.json",
+    "total_tokens": 794,
+    "translated_title": "不规则系统的逆重整群",
+    "translated_abstract": "我们提出了逆重整群变换，用于构建尚未被超级计算机或大规模模拟方法所访问的晶格体积的近似配置，以研究自旋玻璃。具体而言，在三维爱德华-安德森模型的情况下，从体积为$V=8^{3}$的晶格开始，我们采用机器学习算法构造了经过缩放的晶格，最大到$V'=128^{3}$，并提取了两个临界指数。最后，我们讨论了如何在逆重整群方法中融入数值精确性，从而为不断增大的晶格体积提供了探索可持续、节能的精确配置，而无需使用专用超级计算机。",
+    "tldr": "本文介绍了一种逆重整群的方法，通过机器学习算法构造了缩放的晶格配置，用于研究自旋玻璃。该方法可以实现在不使用超级计算机的情况下，探索不断增大的晶格体积下的精确配置。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Model Merging by Uncertainty-Based Gradient Matching. (arXiv:2310.12808v1 [cs.LG])",
+    "abstract": "Models trained on different datasets can be merged by a weighted-averaging of their parameters, but why does it work and when can it fail? Here, we connect the inaccuracy of weighted-averaging to mismatches in the gradients and propose a new uncertainty-based scheme to improve the performance by reducing the mismatch. The connection also reveals implicit assumptions in other schemes such as averaging, task arithmetic, and Fisher-weighted averaging. Our new method gives consistent improvements for large language models and vision transformers, both in terms of performance and robustness to hyperparameters.",
+    "link": "http://arxiv.org/abs/2310.12808",
+    "context": "Title: Model Merging by Uncertainty-Based Gradient Matching. (arXiv:2310.12808v1 [cs.LG])\nAbstract: Models trained on different datasets can be merged by a weighted-averaging of their parameters, but why does it work and when can it fail? Here, we connect the inaccuracy of weighted-averaging to mismatches in the gradients and propose a new uncertainty-based scheme to improve the performance by reducing the mismatch. The connection also reveals implicit assumptions in other schemes such as averaging, task arithmetic, and Fisher-weighted averaging. Our new method gives consistent improvements for large language models and vision transformers, both in terms of performance and robustness to hyperparameters.",
+    "path": "papers/23/10/2310.12808.json",
+    "total_tokens": 691,
+    "translated_title": "基于不确定性梯度匹配的模型合并",
+    "translated_abstract": "在不同数据集上训练的模型可以通过参数的加权平均来合并，但为什么会起作用，什么情况下会失败？在这里，我们将加权平均的不准确性与梯度不匹配联系起来，并提出了一种新的基于不确定性的方案，通过减少不匹配来提高性能。这种联系还揭示了其他方案（如平均值、任务算术和Fisher加权平均）中的隐含假设。我们的新方法在大型语言模型和视觉转换器方面都在性能和超参数鲁棒性方面得到了一致的改进。",
+    "tldr": "本论文通过不确定性梯度匹配的方法，提出了一种新的模型合并方案，该方案能够减少梯度不匹配，从而提高了模型合并的性能并对超参数更具鲁棒性。",
+    "en_tdlr": "This paper proposes a new method for model merging using uncertainty-based gradient matching, which reduces gradient mismatches and improves the performance and robustness of model merging with respect to hyperparameters."
+}

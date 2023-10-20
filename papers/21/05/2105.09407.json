@@ -1,0 +1,12 @@
+{
+    "title": "Trilevel and Multilevel Optimization using Monotone Operator Theory. (arXiv:2105.09407v2 [math.OC] UPDATED)",
+    "abstract": "We consider rather a general class of multi-level optimization problems, where a convex objective function is to be minimized subject to constraints of optimality of nested convex optimization problems. As a special case, we consider a trilevel optimization problem, where the objective of the two lower layers consists of a sum of a smooth and a non-smooth term.~Based on fixed-point theory and related arguments, we present a natural first-order algorithm and analyze its convergence and rates of convergence in several regimes of parameters.",
+    "link": "http://arxiv.org/abs/2105.09407",
+    "context": "Title: Trilevel and Multilevel Optimization using Monotone Operator Theory. (arXiv:2105.09407v2 [math.OC] UPDATED)\nAbstract: We consider rather a general class of multi-level optimization problems, where a convex objective function is to be minimized subject to constraints of optimality of nested convex optimization problems. As a special case, we consider a trilevel optimization problem, where the objective of the two lower layers consists of a sum of a smooth and a non-smooth term.~Based on fixed-point theory and related arguments, we present a natural first-order algorithm and analyze its convergence and rates of convergence in several regimes of parameters.",
+    "path": "papers/21/05/2105.09407.json",
+    "total_tokens": 630,
+    "translated_title": "使用单调算子理论进行三层和多层优化",
+    "translated_abstract": "我们考虑一类相当通用的多层优化问题，其中一个凸目标函数需要在满足嵌套凸优化问题的最优性约束下进行最小化。作为特例，我们考虑了一个三层优化问题，其中两个较低层的目标包括平滑项和非平滑项的求和。基于不动点理论和相关论证，我们提出了一种自然的一阶算法，并分析了在几个参数区间下的收敛性和收敛速度。",
+    "tldr": "该论文提出了一个基于不动点理论的自然一阶算法，用于解决通用的多层优化问题，并分析了其在不同参数区间下的收敛性和收敛速度。",
+    "en_tdlr": "This paper proposes a natural first-order algorithm based on fixed-point theory for solving general multi-level optimization problems and analyzes its convergence and rates of convergence in different parameter regimes."
+}

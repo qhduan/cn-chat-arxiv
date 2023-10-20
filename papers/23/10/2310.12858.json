@@ -1,0 +1,12 @@
+{
+    "title": "Audio Editing with Non-Rigid Text Prompts. (arXiv:2310.12858v1 [cs.SD])",
+    "abstract": "In this paper, we explore audio-editing with non-rigid text edits. We show that the proposed editing pipeline is able to create audio edits that remain faithful to the input audio. We explore text prompts that perform addition, style transfer, and in-painting. We quantitatively and qualitatively show that the edits are able to obtain results which outperform Audio-LDM, a recently released text-prompted audio generation model. Qualitative inspection of the results points out that the edits given by our approach remain more faithful to the input audio in terms of keeping the original onsets and offsets of the audio events.",
+    "link": "http://arxiv.org/abs/2310.12858",
+    "context": "Title: Audio Editing with Non-Rigid Text Prompts. (arXiv:2310.12858v1 [cs.SD])\nAbstract: In this paper, we explore audio-editing with non-rigid text edits. We show that the proposed editing pipeline is able to create audio edits that remain faithful to the input audio. We explore text prompts that perform addition, style transfer, and in-painting. We quantitatively and qualitatively show that the edits are able to obtain results which outperform Audio-LDM, a recently released text-prompted audio generation model. Qualitative inspection of the results points out that the edits given by our approach remain more faithful to the input audio in terms of keeping the original onsets and offsets of the audio events.",
+    "path": "papers/23/10/2310.12858.json",
+    "total_tokens": 610,
+    "translated_title": "非刚性文本提示的音频编辑",
+    "translated_abstract": "本文探讨了使用非刚性文本编辑进行音频编辑。我们展示了所提出的编辑流程能够创建与输入音频保持一致的音频编辑结果。我们探索了能够进行添加、风格转换和修复的文本提示。我们定量和定性地证明了这些编辑能够优于最近发布的文本提示音频生成模型Audio-LDM的结果。对结果的定性检查表明，我们的方法给出了更加保持输入音频原始起始和结束的编辑结果。",
+    "tldr": "本文研究了使用非刚性文本编辑进行音频编辑的方法，并展示了其在保持输入音频一致性方面的优势。",
+    "en_tdlr": "This paper explores audio editing with non-rigid text prompts and demonstrates its advantage in maintaining the consistency of the input audio."
+}

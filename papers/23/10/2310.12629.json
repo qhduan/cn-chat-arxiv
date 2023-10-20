@@ -1,0 +1,12 @@
+{
+    "title": "An Improved Metarounding Algorithm via Frank-Wolfe. (arXiv:2310.12629v1 [cs.DS])",
+    "abstract": "Metarounding is an approach to convert an approximation algorithm for linear optimization over some combinatorial classes to an online linear optimization algorithm for the same class. We propose a new metarounding algorithm under a natural assumption that a relax-based approximation algorithm exists for the combinatorial class. Our algorithm is much more efficient in both theoretical and practical aspects.",
+    "link": "http://arxiv.org/abs/2310.12629",
+    "context": "Title: An Improved Metarounding Algorithm via Frank-Wolfe. (arXiv:2310.12629v1 [cs.DS])\nAbstract: Metarounding is an approach to convert an approximation algorithm for linear optimization over some combinatorial classes to an online linear optimization algorithm for the same class. We propose a new metarounding algorithm under a natural assumption that a relax-based approximation algorithm exists for the combinatorial class. Our algorithm is much more efficient in both theoretical and practical aspects.",
+    "path": "papers/23/10/2310.12629.json",
+    "total_tokens": 517,
+    "translated_title": "通过Frank-Wolfe算法改进的Metarounding算法",
+    "translated_abstract": "Metarounding是一种将线性优化的近似算法转化为同一类的在线线性优化算法的方法。我们提出了一种新的Metarounding算法，基于一个对于组合类存在基于松弛的近似算法的自然假设。我们的算法在理论和实践方面都更高效。",
+    "tldr": "该论文通过引入Frank-Wolfe算法，改进了Metarounding算法，从而提高了线性优化算法在组合类问题上的效率。",
+    "en_tdlr": "This paper proposes an improved Metarounding algorithm by introducing the Frank-Wolfe algorithm, which enhances the efficiency of linear optimization algorithms for combinatorial problems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Quasi Manhattan Wasserstein Distance. (arXiv:2310.12498v1 [cs.LG])",
+    "abstract": "The Quasi Manhattan Wasserstein Distance (QMWD) is a metric designed to quantify the dissimilarity between two matrices by combining elements of the Wasserstein Distance with specific transformations. It offers improved time and space complexity compared to the Manhattan Wasserstein Distance (MWD) while maintaining accuracy. QMWD is particularly advantageous for large datasets or situations with limited computational resources. This article provides a detailed explanation of QMWD, its computation, complexity analysis, and comparisons with WD and MWD.",
+    "link": "http://arxiv.org/abs/2310.12498",
+    "context": "Title: Quasi Manhattan Wasserstein Distance. (arXiv:2310.12498v1 [cs.LG])\nAbstract: The Quasi Manhattan Wasserstein Distance (QMWD) is a metric designed to quantify the dissimilarity between two matrices by combining elements of the Wasserstein Distance with specific transformations. It offers improved time and space complexity compared to the Manhattan Wasserstein Distance (MWD) while maintaining accuracy. QMWD is particularly advantageous for large datasets or situations with limited computational resources. This article provides a detailed explanation of QMWD, its computation, complexity analysis, and comparisons with WD and MWD.",
+    "path": "papers/23/10/2310.12498.json",
+    "total_tokens": 691,
+    "translated_title": "类曼哈顿瓦瑟斯坦距离",
+    "translated_abstract": "类曼哈顿瓦瑟斯坦距离（QMWD）是一种用于度量两个矩阵之间相异性的度量标准，它将瓦瑟斯坦距离的元素与特定的变换相结合。与曼哈顿瓦瑟斯坦距离（MWD）相比，QMWD具有更好的时间和空间复杂度，并保持准确性。QMWD特别适用于大型数据集或计算资源有限的情况。本文详细阐述了QMWD的计算、复杂性分析以及与WD和MWD的比较。",
+    "tldr": "类曼哈顿瓦瑟斯坦距离（QMWD）是一种用于度量两个矩阵之间相异性的度量标准，它具有更好的时间和空间复杂度，并且适用于大型数据集或资源有限的情况。",
+    "en_tdlr": "Quasi Manhattan Wasserstein Distance (QMWD) is a metric designed to quantify the dissimilarity between two matrices. It offers improved time and space complexity and is particularly suitable for large datasets or situations with limited computational resources."
+}

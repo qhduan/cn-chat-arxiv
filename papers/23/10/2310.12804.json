@@ -1,0 +1,12 @@
+{
+    "title": "Differentiable Vertex Fitting for Jet Flavour Tagging. (arXiv:2310.12804v1 [hep-ex])",
+    "abstract": "We propose a differentiable vertex fitting algorithm that can be used for secondary vertex fitting, and that can be seamlessly integrated into neural networks for jet flavour tagging. Vertex fitting is formulated as an optimization problem where gradients of the optimized solution vertex are defined through implicit differentiation and can be passed to upstream or downstream neural network components for network training. More broadly, this is an application of differentiable programming to integrate physics knowledge into neural network models in high energy physics. We demonstrate how differentiable secondary vertex fitting can be integrated into larger transformer-based models for flavour tagging and improve heavy flavour jet classification.",
+    "link": "http://arxiv.org/abs/2310.12804",
+    "context": "Title: Differentiable Vertex Fitting for Jet Flavour Tagging. (arXiv:2310.12804v1 [hep-ex])\nAbstract: We propose a differentiable vertex fitting algorithm that can be used for secondary vertex fitting, and that can be seamlessly integrated into neural networks for jet flavour tagging. Vertex fitting is formulated as an optimization problem where gradients of the optimized solution vertex are defined through implicit differentiation and can be passed to upstream or downstream neural network components for network training. More broadly, this is an application of differentiable programming to integrate physics knowledge into neural network models in high energy physics. We demonstrate how differentiable secondary vertex fitting can be integrated into larger transformer-based models for flavour tagging and improve heavy flavour jet classification.",
+    "path": "papers/23/10/2310.12804.json",
+    "total_tokens": 721,
+    "translated_title": "可微分的顶点拟合用于喷注标签",
+    "translated_abstract": "我们提出了一种可微分的顶点拟合算法，可用于次级顶点拟合，并可无缝集成到神经网络中，用于喷注标签。顶点拟合被制定为一个优化问题，其中优化的解顶点的梯度通过隐式微分定义，并可以传递给上游或下游神经网络组件进行网络训练。更广泛地说，这是将物理知识集成到高能物理中神经网络模型中的一个可微分编程应用。我们展示了如何将可微分次级顶点拟合集成到基于Transformer的大模型中，以改善重味道喷注分类。",
+    "tldr": "本论文提出了一种可微分的顶点拟合算法，可应用于次级顶点拟合，并与神经网络无缝集成，用于喷注标签。这一方法将物理知识与神经网络模型相结合，可以改善重味道喷注分类。",
+    "en_tdlr": "This paper proposes a differentiable vertex fitting algorithm for secondary vertex fitting, and integrates it seamlessly into neural networks for jet flavour tagging. By combining physics knowledge and neural network models, it improves heavy flavour jet classification."
+}

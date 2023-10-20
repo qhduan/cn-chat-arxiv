@@ -1,0 +1,11 @@
+{
+    "title": "Preference Optimization for Molecular Language Models. (arXiv:2310.12304v1 [stat.ML])",
+    "abstract": "Molecular language modeling is an effective approach to generating novel chemical structures. However, these models do not \\emph{a priori} encode certain preferences a chemist may desire. We investigate the use of fine-tuning using Direct Preference Optimization to better align generated molecules with chemist preferences. Our findings suggest that this approach is simple, efficient, and highly effective.",
+    "link": "http://arxiv.org/abs/2310.12304",
+    "context": "Title: Preference Optimization for Molecular Language Models. (arXiv:2310.12304v1 [stat.ML])\nAbstract: Molecular language modeling is an effective approach to generating novel chemical structures. However, these models do not \\emph{a priori} encode certain preferences a chemist may desire. We investigate the use of fine-tuning using Direct Preference Optimization to better align generated molecules with chemist preferences. Our findings suggest that this approach is simple, efficient, and highly effective.",
+    "path": "papers/23/10/2310.12304.json",
+    "total_tokens": 553,
+    "translated_title": "分子语言模型的偏好优化",
+    "translated_abstract": "分子语言建模是一种生成新颖化学结构的有效方法。然而，这些模型不会\\emph{先验地}编码化学家可能期望的某些偏好。本研究调查了使用直接偏好优化进行微调的方法，以更好地与化学家的偏好对齐生成的分子。我们的发现表明，这种方法简单、高效，且非常有效。",
+    "tldr": "本研究调查了使用直接偏好优化进行微调的方法，以更好地与化学家的偏好对齐生成的分子。这种方法简单、高效，且非常有效。"
+}
