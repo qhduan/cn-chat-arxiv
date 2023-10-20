@@ -7,18 +7,19 @@
 | [^3] | [A note on the logical inconsistency of the Hotelling Rule: A Revisit from the System's Analysis Perspective.](http://arxiv.org/abs/2310.12807) | 该研究对Hotelling法则进行了重新审视，发现其存在逻辑缺陷；这种缺陷必须在解释HR提供的价格预测和观察到的历史价格差异之前被考虑到。 |
 | [^4] | [The Social Cost of Carbon.](http://arxiv.org/abs/2310.12760) | 碳的社会成本是通过减少二氧化碳排放而避免的损害的度量，估计约为80美元/吨二氧化碳。 |
 | [^5] | [Price dispersion across online platforms: Evidence from hotel room prices in London (UK).](http://arxiv.org/abs/2310.12341) | 本文研究了同质化产品在不同在线平台上的普遍价格分散现象，发现价格在不同预订网站之间存在较大差异，且价格分散在预订日期靠近入住日期时仍然存在。通过构建理论模型，我们解释了价格分散现象的原因，并指出在存在总需求不确定性和容量限制的情况下，价格分散仍然可能存在。 |
-| [^6] | [A solution to walrasian auctions for many tokens with AMMs available.](http://arxiv.org/abs/2310.12255) | 本研究提出了适用于多代币的Walrasian拍卖问题的解决方案，该方案基于Brouwer的不动点定理，能够执行所有订单并进行最优的AMMs交换。 |
-| [^7] | [DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling.](http://arxiv.org/abs/2309.02072) | DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。 |
-| [^8] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
-| [^9] | [Debiased inference for dynamic nonlinear models with two-way fixed effects.](http://arxiv.org/abs/2305.03134) | 本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。 |
-| [^10] | [Bayes = Blackwell, Almost.](http://arxiv.org/abs/2302.13956) | 存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。 |
-| [^11] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^12] | [Covariate Adjustment in Experiments with Matched Pairs.](http://arxiv.org/abs/2302.04380) | 本文研究了在匹配对照实验中的协变量调整对平均处理效应的推断的影响。研究发现，具有有限维线性调整的估计器并不一定能提高精度相对于未调整的差异估计器。 |
-| [^13] | [Unconditional Quantile Partial Effects via Conditional Quantile Regression.](http://arxiv.org/abs/2301.07241) | 本文提出了一种半参数方法来估计无条件分位数偏效应，该方法基于识别结果，使用分位数回归系数估计加权平均的条件效应。提出了一个具有良好性能且稳健的两步估计器并证明了其渐进性质。研究了 Engel 曲线的应用来说明方法的有效性。 |
-| [^14] | [An identification and testing strategy for proxy-SVARs with weak proxies.](http://arxiv.org/abs/2210.04523) | 本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。 |
-| [^15] | [Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition.](http://arxiv.org/abs/2209.11840) | 本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议，发现有限证据支持丢弃对有助于恢复平均处理效应的观点，但它可能有助于恢复条件平均处理效应的凸加权平均。 |
-| [^16] | [The Evolution of U.S. Retail Concentration.](http://arxiv.org/abs/2202.07609) | 美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。 |
-| [^17] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
+| [^6] | [Peer Effects in Consideration and Preferences.](http://arxiv.org/abs/2310.12272) | 该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。 |
+| [^7] | [A solution to walrasian auctions for many tokens with AMMs available.](http://arxiv.org/abs/2310.12255) | 本研究提出了适用于多代币的Walrasian拍卖问题的解决方案，该方案基于Brouwer的不动点定理，能够执行所有订单并进行最优的AMMs交换。 |
+| [^8] | [DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling.](http://arxiv.org/abs/2309.02072) | DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。 |
+| [^9] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
+| [^10] | [Debiased inference for dynamic nonlinear models with two-way fixed effects.](http://arxiv.org/abs/2305.03134) | 本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。 |
+| [^11] | [Bayes = Blackwell, Almost.](http://arxiv.org/abs/2302.13956) | 存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。 |
+| [^12] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^13] | [Covariate Adjustment in Experiments with Matched Pairs.](http://arxiv.org/abs/2302.04380) | 本文研究了在匹配对照实验中的协变量调整对平均处理效应的推断的影响。研究发现，具有有限维线性调整的估计器并不一定能提高精度相对于未调整的差异估计器。 |
+| [^14] | [Unconditional Quantile Partial Effects via Conditional Quantile Regression.](http://arxiv.org/abs/2301.07241) | 本文提出了一种半参数方法来估计无条件分位数偏效应，该方法基于识别结果，使用分位数回归系数估计加权平均的条件效应。提出了一个具有良好性能且稳健的两步估计器并证明了其渐进性质。研究了 Engel 曲线的应用来说明方法的有效性。 |
+| [^15] | [An identification and testing strategy for proxy-SVARs with weak proxies.](http://arxiv.org/abs/2210.04523) | 本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。 |
+| [^16] | [Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition.](http://arxiv.org/abs/2209.11840) | 本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议，发现有限证据支持丢弃对有助于恢复平均处理效应的观点，但它可能有助于恢复条件平均处理效应的凸加权平均。 |
+| [^17] | [The Evolution of U.S. Retail Concentration.](http://arxiv.org/abs/2202.07609) | 美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。 |
+| [^18] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
 
 # 详细
 
@@ -92,7 +93,21 @@
 
     This paper studies the widespread price dispersion of homogeneous products across different online platforms, even when consumers can easily access price information from comparison websites. We collect data for the 200 most popular hotels in London (UK) and document that prices vary widely across booking sites while making reservations for a hotel room. Additionally, we find that prices listed across different platforms tend to converge as the booking date gets closer to the date of stay. However, the price dispersion persists until the date of stay, implying that the "law of one price" does not hold. We present a simple theoretical model to explain this and show that in the presence of aggregate demand uncertainty and capacity constraints, price dispersion could exist even when products are homogeneous, consumers are homogeneous, all agents have perfect information about the market structure, and consumers face no search costs to acquire information about the products. Our theoretica
     
-[^6]: 适用于多代币的Walrasian拍卖问题的解决方案与AMMs
+[^6]: 考虑和偏好中的同伴影响
+
+    Peer Effects in Consideration and Preferences. (arXiv:2310.12272v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.12272](http://arxiv.org/abs/2310.12272)
+
+    该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。
+
+    
+
+    我们开发了一个一般的离散选择模型，将同伴影响纳入偏好和考虑集中。我们对平衡行为进行描述，并建立了一系列选择中能恢复模型各个部分的条件。我们允许同伴影响只作用于偏好、只作用于考虑，或者同时作用于两者。我们利用不同类型的变化来区分偏好和考虑集中的同伴影响。这使我们能够恢复网络中代理之间的连接集合（和类型）。然后我们利用这些信息来恢复每个代理人的随机偏好和注意机制。这些非参数识别结果允许代理人之间的无限异质性，并不依赖于协变量或可用选项（或菜单）的变化。我们将我们的结果应用于咖啡连锁店的扩张决策，并发现有限的考虑证据。我们进行了反事实预测模拟，并展示了有限的考虑如何影响决策。
+
+    We develop a general model of discrete choice that incorporates peer effects in preferences and consideration sets. We characterize the equilibrium behavior and establish conditions under which all parts of the model can be recovered from a sequence of choices. We allow peers to affect only preferences, only consideration, or both. We exploit different types of variations to separate the peer effects in preferences and consideration sets. This allows us to recover the set (and type) of connections between the agents in the network. We then use this information to recover the random preferences and the attention mechanisms of each agent. These nonparametric identification results allow unrestricted heterogeneity across agents and do not rely on the variation of either covariates or the set of available options (or menus). We apply our results to model expansion decisions by coffee chains and find evidence of limited consideration. We simulate counterfactual predictions and show how limi
+    
+[^7]: 适用于多代币的Walrasian拍卖问题的解决方案与AMMs
 
     A solution to walrasian auctions for many tokens with AMMs available. (arXiv:2310.12255v1 [q-fin.MF])
 
@@ -106,7 +121,7 @@
 
     Consider a finite set of trade orders and automated market makers (AMMs) at some state. We propose a solution to the problem of finding an equilibrium price vector to execute all the orders jointly with corresponding optimal AMMs swaps. The solution is based on Brouwer's fixed-point theorem. We discuss computational aspects relevant for realistic situations in public blockchain activity.
     
-[^7]: DeepVol：一种用于通用资产波动性建模的深度迁移学习方法
+[^8]: DeepVol：一种用于通用资产波动性建模的深度迁移学习方法
 
     DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling. (arXiv:2309.02072v1 [econ.EM])
 
@@ -120,7 +135,7 @@
 
     This paper introduces DeepVol, a promising new deep learning volatility model that outperforms traditional econometric models in terms of model generality. DeepVol leverages the power of transfer learning to effectively capture and model the volatility dynamics of all financial assets, including previously unseen ones, using a single universal model. This contrasts to the prevailing practice in econometrics literature, which necessitates training separate models for individual datasets. The introduction of DeepVol opens up new avenues for volatility modeling and forecasting in the finance industry, potentially transforming the way volatility is understood and predicted.
     
-[^8]: 苏格兰地方政府选举中的单调性异常现象
+[^9]: 苏格兰地方政府选举中的单调性异常现象
 
     Monotonicity Anomalies in Scottish Local Government Elections. (arXiv:2305.17741v1 [econ.GN])
 
@@ -134,7 +149,7 @@
 
     The single transferable vote (STV) voting method is used to elect multiple candidates in ranked-choice elections. One weakness of STV is that it fails multiple fairness criteria related to monotonicity and no-show paradoxes. We analyze 1,079 local government STV elections in Scotland to estimate the frequency of such monotonicity anomalies in real-world elections, and compare our results with prior empirical and theoretical research about the rates at which such anomalies occur. In 41 of the 1079 elections we found some kind of monotonicity anomaly. We generally find that the rates of anomalies are similar to prior empirical research and much lower than what most theoretical research has found. Most of the STV anomalies we find are the first of their kind to be documented in real-world elections.
     
-[^9]: 具有双向固定效应的动态非线性模型的无偏推断
+[^10]: 具有双向固定效应的动态非线性模型的无偏推断
 
     Debiased inference for dynamic nonlinear models with two-way fixed effects. (arXiv:2305.03134v1 [econ.EM])
 
@@ -148,7 +163,7 @@
 
     Panel data models often use fixed effects to account for unobserved heterogeneities. These fixed effects are typically incidental parameters and their estimators converge slowly relative to the square root of the sample size. In the maximum likelihood context, this induces an asymptotic bias of the likelihood function. Test statistics derived from the asymptotically biased likelihood, therefore, no longer follow their standard limiting distributions. This causes severe distortions in test sizes. We consider a generic class of dynamic nonlinear models with two-way fixed effects and propose an analytical bias correction method for the likelihood function. We formally show that the likelihood ratio, the Lagrange-multiplier, and the Wald test statistics derived from the corrected likelihood follow their standard asymptotic distributions. As a by-product, a bias-corrected estimator of the structural parameter can also be derived from the corrected likelihood function. We evaluate the perfor
     
-[^10]: Bayes = Blackwell, 差不多。
+[^11]: Bayes = Blackwell, 差不多。
 
     Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)
 
@@ -162,7 +177,7 @@
 
     There are updating rules other than Bayes' law that render the value of information positive. I find all of them.
     
-[^11]: 期权的价格发现
+[^12]: 期权的价格发现
 
     Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
 
@@ -176,7 +191,7 @@
 
     We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
     
-[^12]: 在匹配的对照实验中的协变量调整
+[^13]: 在匹配的对照实验中的协变量调整
 
     Covariate Adjustment in Experiments with Matched Pairs. (arXiv:2302.04380v3 [econ.EM] UPDATED)
 
@@ -190,7 +205,7 @@
 
     This paper studies inference on the average treatment effect in experiments in which treatment status is determined according to "matched pairs" and it is additionally desired to adjust for observed, baseline covariates to gain further precision. By a "matched pairs" design, we mean that units are sampled i.i.d. from the population of interest, paired according to observed, baseline covariates and finally, within each pair, one unit is selected at random for treatment. Importantly, we presume that not all observed, baseline covariates are used in determining treatment assignment. We study a broad class of estimators based on a "doubly robust" moment condition that permits us to study estimators with both finite-dimensional and high-dimensional forms of covariate adjustment. We find that estimators with finite-dimensional, linear adjustments need not lead to improvements in precision relative to the unadjusted difference-in-means estimator. This phenomenon persists even if the adjustmen
     
-[^13]: 条件分位数回归求解无条件分位数偏效应
+[^14]: 条件分位数回归求解无条件分位数偏效应
 
     Unconditional Quantile Partial Effects via Conditional Quantile Regression. (arXiv:2301.07241v2 [econ.EM] UPDATED)
 
@@ -204,7 +219,7 @@
 
     This paper develops a semi-parametric procedure for estimation of unconditional quantile partial effects using quantile regression coefficients. The estimator is based on an identification result showing that, for continuous covariates, unconditional quantile effects are a weighted average of conditional ones at particular quantile levels that depend on the covariates. We propose a two-step estimator for the unconditional effects where in the first step one estimates a structural quantile regression model, and in the second step a nonparametric regression is applied to the first step coefficients. We establish the asymptotic properties of the estimator, say consistency and asymptotic normality. Monte Carlo simulations show numerical evidence that the estimator has very good finite sample performance and is robust to the selection of bandwidth and kernel. To illustrate the proposed method, we study the canonical application of the Engel's curve, i.e. food expenditures as a share of inco
     
-[^14]: 一种针对具有弱代理的代理-SVARs的识别和测试策略
+[^15]: 一种针对具有弱代理的代理-SVARs的识别和测试策略
 
     An identification and testing strategy for proxy-SVARs with weak proxies. (arXiv:2210.04523v3 [econ.EM] UPDATED)
 
@@ -218,7 +233,7 @@
 
     When proxies (external instruments) used to identify target structural shocks are weak, inference in proxy-SVARs (SVAR-IVs) is nonstandard and the construction of asymptotically valid confidence sets for the impulse responses of interest requires weak-instrument robust methods. In the presence of multiple target shocks, test inversion techniques require extra restrictions on the proxy-SVAR parameters other those implied by the proxies that may be difficult to interpret and test. We show that frequentist asymptotic inference in these situations can be conducted through Minimum Distance estimation and standard asymptotic methods if the proxy-SVAR can be identified by using `strong' instruments for the non-target shocks; i.e. the shocks which are not of primary interest in the analysis. The suggested identification strategy hinges on a novel pre-test for the null of instrument relevance based on bootstrap resampling which is not subject to pre-testing issues, in the sense that the validit
     
-[^15]: 在存在退场情况下重新审视匹配对实验和分层实验的分析
+[^16]: 在存在退场情况下重新审视匹配对实验和分层实验的分析
 
     Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition. (arXiv:2209.11840v5 [econ.EM] UPDATED)
 
@@ -232,7 +247,7 @@
 
     In this paper we revisit some common recommendations regarding the analysis of matched-pair and stratified experimental designs in the presence of attrition. Our main objective is to clarify a number of well-known claims about the practice of dropping pairs with an attrited unit when analyzing matched-pair designs. Contradictory advice appears in the literature about whether or not dropping pairs is beneficial or harmful, and stratifying into larger groups has been recommended as a resolution to the issue. To address these claims, we derive the estimands obtained from the difference-in-means estimator in a matched-pair design both when the observations from pairs with an attrited unit are retained and when they are dropped. We find limited evidence to support the claims that dropping pairs helps recover the average treatment effect, but we find that it may potentially help in recovering a convex weighted average of conditional average treatment effects. We report similar findings for s
     
-[^16]: 美国零售业集中度的演变
+[^17]: 美国零售业集中度的演变
 
     The Evolution of U.S. Retail Concentration. (arXiv:2202.07609v3 [econ.GN] UPDATED)
 
@@ -246,7 +261,7 @@
 
     Increases in national concentration have been a salient feature of industry dynamics in the U.S. and have contributed to concerns about increasing market power. Yet, local trends may be more informative about market power, particularly in the retail sector where consumers have traditionally shopped at nearby stores. We find that local concentration has increased almost in parallel with national concentration using novel Census data on product-level revenue for all U.S. retail stores between 1992 and 2012. The increases in concentration are broad based, affecting most markets, products, and retail industries. We show that the expansion of multi-market firms into new markets explains most of the increase in national retail concentration, with consolidation via increases in local market shares increasing in importance between 1997 and 2007, and single-market firms playing a negligible role. Finally, we find that increases in local concentration can explain one-quarter to one-third of the 
     
-[^17]: 追求股东价值的共同成本
+[^18]: 追求股东价值的共同成本
 
     The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
 

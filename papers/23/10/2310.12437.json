@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Excess Risk Bounds for Empirical Risk Minimization on $p$-norm Linear Regression. (arXiv:2310.12437v1 [math.ST])",
+    "abstract": "We study the performance of empirical risk minimization on the $p$-norm linear regression problem for $p \\in (1, \\infty)$. We show that, in the realizable case, under no moment assumptions, and up to a distribution-dependent constant, $O(d)$ samples are enough to exactly recover the target. Otherwise, for $p \\in [2, \\infty)$, and under weak moment assumptions on the target and the covariates, we prove a high probability excess risk bound on the empirical risk minimizer whose leading term matches, up to a constant that depends only on $p$, the asymptotically exact rate. We extend this result to the case $p \\in (1, 2)$ under mild assumptions that guarantee the existence of the Hessian of the risk at its minimizer.",
+    "link": "http://arxiv.org/abs/2310.12437",
+    "context": "Title: Optimal Excess Risk Bounds for Empirical Risk Minimization on $p$-norm Linear Regression. (arXiv:2310.12437v1 [math.ST])\nAbstract: We study the performance of empirical risk minimization on the $p$-norm linear regression problem for $p \\in (1, \\infty)$. We show that, in the realizable case, under no moment assumptions, and up to a distribution-dependent constant, $O(d)$ samples are enough to exactly recover the target. Otherwise, for $p \\in [2, \\infty)$, and under weak moment assumptions on the target and the covariates, we prove a high probability excess risk bound on the empirical risk minimizer whose leading term matches, up to a constant that depends only on $p$, the asymptotically exact rate. We extend this result to the case $p \\in (1, 2)$ under mild assumptions that guarantee the existence of the Hessian of the risk at its minimizer.",
+    "path": "papers/23/10/2310.12437.json",
+    "total_tokens": 850,
+    "translated_title": "在$p$-范数线性回归的经验风险最小化中的最优超出风险界",
+    "translated_abstract": "本文研究了在$p$-范数线性回归问题上的经验风险最小化的性能。我们证明，在可实现的情况下，在没有矩的假设下，通过$O(d)$个样本就足够精确地恢复目标值，相应性化常数有关。否则，对于$p \\in [2, \\infty)$并且对目标和协变量具有较弱的矩假设，我们证明了经验风险最小化的高概率超出风险界，其中主要项与渐近精确率匹配，常数仅依赖于$p$。在保证风险函数在其最小化点上存在Hessian矩阵的情况下，我们将此结果扩展到$p \\in (1, 2)$的情况下。",
+    "tldr": "对于$p$-范数线性回归问题上的经验风险最小化，我们证明，在可实现的情况下，通过$O(d)$个样本就足够精确地恢复目标值，并且在其他情况下，我们证明了的高概率超出风险界。"
+}

@@ -22,26 +22,27 @@
 | [^18] | [Neural Likelihood Approximation for Integer Valued Time Series Data.](http://arxiv.org/abs/2310.12544) | 本文构建了整数值时间序列数据的神经似然近似方法，使用因果卷积并行评估整个时间序列的似然，实现了对生态学和流行病学模型进行准确推断并显著加快计算速度。 |
 | [^19] | [Unmasking Transformers: A Theoretical Approach to Data Recovery via Attention Weights.](http://arxiv.org/abs/2310.12462) | 本文提出了一种基于注意力权重和输出的理论框架，用于恢复Transformer模型中的输入数据。研究结果暗示模型设计存在潜在的漏洞。 |
 | [^20] | [Constrained Reweighting of Distributions: an Optimal Transport Approach.](http://arxiv.org/abs/2310.12447) | 本文提出了一种最优传输方法，通过引入非参数化的分布约束权重，并利用最大熵原理和最优传输工具设计了一个通用框架，以实现对观测数据的最优权重调整。这种方法在不同的应用场景中展现了灵活性和多功能性。 |
-| [^21] | [Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach.](http://arxiv.org/abs/2310.12428) | 这项研究提出了一种利用随机森林模型的特征空间中的邻近性来解释模型预测的方法，为模型预测提供了局部的解释性，与现有方法相辅相成。通过实验证明了这种方法在债券定价模型中的有效性。 |
-| [^22] | [Closed-Form Diffusion Models.](http://arxiv.org/abs/2310.12395) | 本研究提出了一种闭式扩散模型，通过显式平滑的闭式得分函数来生成新样本，无需训练，且在消费级CPU上能够实现与神经SGMs相竞争的采样速度。 |
-| [^23] | [Preference Optimization for Molecular Language Models.](http://arxiv.org/abs/2310.12304) | 本研究调查了使用直接偏好优化进行微调的方法，以更好地与化学家的偏好对齐生成的分子。这种方法简单、高效，且非常有效。 |
-| [^24] | [Sparse high-dimensional linear mixed modeling with a partitioned empirical Bayes ECM algorithm.](http://arxiv.org/abs/2310.12285) | 提出了一种高维线性混合模型的分区经验Bayes ECM算法，具有快速可扩展的计算能力和更高的灵活性。 |
-| [^25] | [A Computational Framework for Solving Wasserstein Lagrangian Flows.](http://arxiv.org/abs/2310.10649) | 本研究提出了一个基于深度学习的计算框架，通过拉格朗日对偶形式处理不同的最优输运问题，不需要模拟轨迹或访问最优耦合，具有较高的性能。 |
-| [^26] | [Towards a Unified Analysis of Kernel-based Methods Under Covariate Shift.](http://arxiv.org/abs/2310.08237) | 该论文提出了一个在协变量漂移下对一般非参数方法进行统一分析的方法，通过建立收敛速度为一般损失函数提供了统一的理论分析。 |
-| [^27] | [A path-norm toolkit for modern networks: consequences, promises and challenges.](http://arxiv.org/abs/2310.01225) | 本文介绍了适用于现代神经网络的路径范数工具包，可以包括具有偏差、跳跃连接和最大池化的通用DAG ReLU网络。这个工具包恢复或超越了已知的路径范数界限，并挑战了基于路径范数的一些具体承诺。 |
-| [^28] | [The Kernel Density Integral Transformation.](http://arxiv.org/abs/2309.10194) | 本文提出了一种使用核密度积分转换作为特征预处理步骤的方法，可以替代线性最小最大缩放和分位数转换，并通过调整超参数优化性能。这种方法在统计数据分析中具有应用价值。 |
-| [^29] | [URL: A Representation Learning Benchmark for Transferable Uncertainty Estimates.](http://arxiv.org/abs/2307.03810) | URL基准是一个评估预训练模型可转移性和不确定性估计的方式，研究发现专注于表示本身不确定性或直接估计预测风险的方法效果优于基于概率的方法。 |
-| [^30] | [Evaluating Superhuman Models with Consistency Checks.](http://arxiv.org/abs/2306.09983) | 本文提出了一个用一致性检查评估超人模型的框架，可以发现决策制定中的逻辑不一致性，即使对于超人模型的决策正确性可能是不可能评估的情况。 |
-| [^31] | [Variational Imbalanced Regression.](http://arxiv.org/abs/2306.06599) | 本文提出的变分不平衡回归（VIR）模型通过引入Probabilistic Reweighting方法，可以在不平衡回归方面表现良好，并自然产生合理的不确定性估计。 |
-| [^32] | [The Adaptive $\tau$-Lasso: Its Robustness and Oracle Properties.](http://arxiv.org/abs/2304.09310) | 本文提出了一种新型鲁棒的自适应 $\tau$-Lasso 估计器，同时采用自适应 $\ell_1$-范数惩罚项以降低真实回归系数的偏差。它具有变量选择一致性和真实支持下回归向量的渐近正态性的最优性质，假定已知真实回归向量的支持。 |
-| [^33] | [Physics-informed neural networks in the recreation of hydrodynamic simulations from dark matter.](http://arxiv.org/abs/2303.14090) | 本文介绍了一种新的方法，将物理启发的神经网络应用于重建流体力学模拟中，通过将理论知识注入模型损失函数并结合新的性能评估指标，成功实现了对重子散射的重建。 |
-| [^34] | [EDGI: Equivariant Diffusion for Planning with Embodied Agents.](http://arxiv.org/abs/2303.12410) | EDGI是一种基于模型的强化学习和规划算法，通过等变扩散处理内在对称性，具有更高效的采样和更好的泛化能力，适用于具有内在对称性的机器人操作任务。 |
-| [^35] | [Piecewise Deterministic Markov Processes for Bayesian Neural Networks.](http://arxiv.org/abs/2302.08724) | 本文介绍了基于分段确定性马尔可夫过程的贝叶斯神经网络推理方法，通过引入新的自适应稀疏方案，实现了对困难采样问题的加速处理。实验证明，这种方法在计算上可行，并能提高预测准确性、MCMC混合性能，并提供更有信息量的不确定性测量。 |
-| [^36] | [Log-density gradient covariance and automatic metric tensors for Riemann manifold Monte Carlo methods.](http://arxiv.org/abs/2211.01746) | 提出了一种适用于非线性贝叶斯分层模型的Riemann流形蒙特卡洛方法的度量张量，该方法利用对数密度梯度协方差矩阵构造度量张量，可以从任意复杂的非线性先验/潜变量结构中构建度量张量，该方法具有自动化的特点并允许利用模型的稀疏性。 |
-| [^37] | [Optimality Guarantees for Particle Belief Approximation of POMDPs.](http://arxiv.org/abs/2210.05015) | 该论文提出了一般理论来限定POMDP与其相应的有限样本粒子信念MDP(PB-MDP)逼近之间的误差，并将任何采样MDP算法适应到POMDP中，从而提高了解决具有大的或连续状态空间的POMDP的性能和鲁棒性。 |
-| [^38] | [Seeking the Truth Beyond the Data. An Unsupervised Machine Learning Approach.](http://arxiv.org/abs/2207.06949) | 本文介绍了一种无监督的机器学习方法-聚类，并深入描述了最常用的聚类方法，提供了有关参数选择和初始化的指导。同时，通过比较三个数据集的聚类效率，揭示了不同算法在准确性和复杂性方面的优劣。 |
-| [^39] | [Deep Discriminative to Kernel Generative Networks for Calibrated Inference.](http://arxiv.org/abs/2201.13001) | 该论文提出了将判别网络转换为生成网络的方法，用高斯核替换多面体中的仿射函数来生成模型，解决了内部和外部数据校准问题，并在 CIFAR-10，CIFAR-100 和 SVHN 等基准数据集上测试了方法的有效性。 |
-| [^40] | [Communication-Efficient On-Device Machine Learning: Federated Distillation and Augmentation under Non-IID Private Data.](http://arxiv.org/abs/1811.11479) | 本论文提出了一种在设备上高效通信的机器学习方法，通过联邦蒸馏和增强解决了模型大小和非IID数据的问题。结果表明，与传统的联邦学习相比，该方法在减少通信开销的同时，仍能达到较高的测试准确性。 |
+| [^21] | [Optimal Excess Risk Bounds for Empirical Risk Minimization on $p$-norm Linear Regression.](http://arxiv.org/abs/2310.12437) | 对于$p$-范数线性回归问题上的经验风险最小化，我们证明，在可实现的情况下，通过$O(d)$个样本就足够精确地恢复目标值，并且在其他情况下，我们证明了的高概率超出风险界。 |
+| [^22] | [Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach.](http://arxiv.org/abs/2310.12428) | 这项研究提出了一种利用随机森林模型的特征空间中的邻近性来解释模型预测的方法，为模型预测提供了局部的解释性，与现有方法相辅相成。通过实验证明了这种方法在债券定价模型中的有效性。 |
+| [^23] | [Closed-Form Diffusion Models.](http://arxiv.org/abs/2310.12395) | 本研究提出了一种闭式扩散模型，通过显式平滑的闭式得分函数来生成新样本，无需训练，且在消费级CPU上能够实现与神经SGMs相竞争的采样速度。 |
+| [^24] | [Preference Optimization for Molecular Language Models.](http://arxiv.org/abs/2310.12304) | 本研究调查了使用直接偏好优化进行微调的方法，以更好地与化学家的偏好对齐生成的分子。这种方法简单、高效，且非常有效。 |
+| [^25] | [Sparse high-dimensional linear mixed modeling with a partitioned empirical Bayes ECM algorithm.](http://arxiv.org/abs/2310.12285) | 提出了一种高维线性混合模型的分区经验Bayes ECM算法，具有快速可扩展的计算能力和更高的灵活性。 |
+| [^26] | [A Computational Framework for Solving Wasserstein Lagrangian Flows.](http://arxiv.org/abs/2310.10649) | 本研究提出了一个基于深度学习的计算框架，通过拉格朗日对偶形式处理不同的最优输运问题，不需要模拟轨迹或访问最优耦合，具有较高的性能。 |
+| [^27] | [Towards a Unified Analysis of Kernel-based Methods Under Covariate Shift.](http://arxiv.org/abs/2310.08237) | 该论文提出了一个在协变量漂移下对一般非参数方法进行统一分析的方法，通过建立收敛速度为一般损失函数提供了统一的理论分析。 |
+| [^28] | [A path-norm toolkit for modern networks: consequences, promises and challenges.](http://arxiv.org/abs/2310.01225) | 本文介绍了适用于现代神经网络的路径范数工具包，可以包括具有偏差、跳跃连接和最大池化的通用DAG ReLU网络。这个工具包恢复或超越了已知的路径范数界限，并挑战了基于路径范数的一些具体承诺。 |
+| [^29] | [The Kernel Density Integral Transformation.](http://arxiv.org/abs/2309.10194) | 本文提出了一种使用核密度积分转换作为特征预处理步骤的方法，可以替代线性最小最大缩放和分位数转换，并通过调整超参数优化性能。这种方法在统计数据分析中具有应用价值。 |
+| [^30] | [URL: A Representation Learning Benchmark for Transferable Uncertainty Estimates.](http://arxiv.org/abs/2307.03810) | URL基准是一个评估预训练模型可转移性和不确定性估计的方式，研究发现专注于表示本身不确定性或直接估计预测风险的方法效果优于基于概率的方法。 |
+| [^31] | [Evaluating Superhuman Models with Consistency Checks.](http://arxiv.org/abs/2306.09983) | 本文提出了一个用一致性检查评估超人模型的框架，可以发现决策制定中的逻辑不一致性，即使对于超人模型的决策正确性可能是不可能评估的情况。 |
+| [^32] | [Variational Imbalanced Regression.](http://arxiv.org/abs/2306.06599) | 本文提出的变分不平衡回归（VIR）模型通过引入Probabilistic Reweighting方法，可以在不平衡回归方面表现良好，并自然产生合理的不确定性估计。 |
+| [^33] | [The Adaptive $\tau$-Lasso: Its Robustness and Oracle Properties.](http://arxiv.org/abs/2304.09310) | 本文提出了一种新型鲁棒的自适应 $\tau$-Lasso 估计器，同时采用自适应 $\ell_1$-范数惩罚项以降低真实回归系数的偏差。它具有变量选择一致性和真实支持下回归向量的渐近正态性的最优性质，假定已知真实回归向量的支持。 |
+| [^34] | [Physics-informed neural networks in the recreation of hydrodynamic simulations from dark matter.](http://arxiv.org/abs/2303.14090) | 本文介绍了一种新的方法，将物理启发的神经网络应用于重建流体力学模拟中，通过将理论知识注入模型损失函数并结合新的性能评估指标，成功实现了对重子散射的重建。 |
+| [^35] | [EDGI: Equivariant Diffusion for Planning with Embodied Agents.](http://arxiv.org/abs/2303.12410) | EDGI是一种基于模型的强化学习和规划算法，通过等变扩散处理内在对称性，具有更高效的采样和更好的泛化能力，适用于具有内在对称性的机器人操作任务。 |
+| [^36] | [Piecewise Deterministic Markov Processes for Bayesian Neural Networks.](http://arxiv.org/abs/2302.08724) | 本文介绍了基于分段确定性马尔可夫过程的贝叶斯神经网络推理方法，通过引入新的自适应稀疏方案，实现了对困难采样问题的加速处理。实验证明，这种方法在计算上可行，并能提高预测准确性、MCMC混合性能，并提供更有信息量的不确定性测量。 |
+| [^37] | [Log-density gradient covariance and automatic metric tensors for Riemann manifold Monte Carlo methods.](http://arxiv.org/abs/2211.01746) | 提出了一种适用于非线性贝叶斯分层模型的Riemann流形蒙特卡洛方法的度量张量，该方法利用对数密度梯度协方差矩阵构造度量张量，可以从任意复杂的非线性先验/潜变量结构中构建度量张量，该方法具有自动化的特点并允许利用模型的稀疏性。 |
+| [^38] | [Optimality Guarantees for Particle Belief Approximation of POMDPs.](http://arxiv.org/abs/2210.05015) | 该论文提出了一般理论来限定POMDP与其相应的有限样本粒子信念MDP(PB-MDP)逼近之间的误差，并将任何采样MDP算法适应到POMDP中，从而提高了解决具有大的或连续状态空间的POMDP的性能和鲁棒性。 |
+| [^39] | [Seeking the Truth Beyond the Data. An Unsupervised Machine Learning Approach.](http://arxiv.org/abs/2207.06949) | 本文介绍了一种无监督的机器学习方法-聚类，并深入描述了最常用的聚类方法，提供了有关参数选择和初始化的指导。同时，通过比较三个数据集的聚类效率，揭示了不同算法在准确性和复杂性方面的优劣。 |
+| [^40] | [Deep Discriminative to Kernel Generative Networks for Calibrated Inference.](http://arxiv.org/abs/2201.13001) | 该论文提出了将判别网络转换为生成网络的方法，用高斯核替换多面体中的仿射函数来生成模型，解决了内部和外部数据校准问题，并在 CIFAR-10，CIFAR-100 和 SVHN 等基准数据集上测试了方法的有效性。 |
+| [^41] | [Communication-Efficient On-Device Machine Learning: Federated Distillation and Augmentation under Non-IID Private Data.](http://arxiv.org/abs/1811.11479) | 本论文提出了一种在设备上高效通信的机器学习方法，通过联邦蒸馏和增强解决了模型大小和非IID数据的问题。结果表明，与传统的联邦学习相比，该方法在减少通信开销的同时，仍能达到较高的测试准确性。 |
 
 # 详细
 
@@ -325,7 +326,21 @@
 
     We commonly encounter the problem of identifying an optimally weight adjusted version of the empirical distribution of observed data, adhering to predefined constraints on the weights. Such constraints often manifest as restrictions on the moments, tail behaviour, shapes, number of modes, etc., of the resulting weight adjusted empirical distribution. In this article, we substantially enhance the flexibility of such methodology by introducing a nonparametrically imbued distributional constraints on the weights, and developing a general framework leveraging the maximum entropy principle and tools from optimal transport. The key idea is to ensure that the maximum entropy weight adjusted empirical distribution of the observed data is close to a pre-specified probability distribution in terms of the optimal transport metric while allowing for subtle departures. The versatility of the framework is demonstrated in the context of three disparate applications where data re-weighting is warrante
     
-[^21]: 实现随机森林的局部可解释性增强：基于邻近性的方法
+[^21]: 在$p$-范数线性回归的经验风险最小化中的最优超出风险界
+
+    Optimal Excess Risk Bounds for Empirical Risk Minimization on $p$-norm Linear Regression. (arXiv:2310.12437v1 [math.ST])
+
+    [http://arxiv.org/abs/2310.12437](http://arxiv.org/abs/2310.12437)
+
+    对于$p$-范数线性回归问题上的经验风险最小化，我们证明，在可实现的情况下，通过$O(d)$个样本就足够精确地恢复目标值，并且在其他情况下，我们证明了的高概率超出风险界。
+
+    
+
+    本文研究了在$p$-范数线性回归问题上的经验风险最小化的性能。我们证明，在可实现的情况下，在没有矩的假设下，通过$O(d)$个样本就足够精确地恢复目标值，相应性化常数有关。否则，对于$p \in [2, \infty)$并且对目标和协变量具有较弱的矩假设，我们证明了经验风险最小化的高概率超出风险界，其中主要项与渐近精确率匹配，常数仅依赖于$p$。在保证风险函数在其最小化点上存在Hessian矩阵的情况下，我们将此结果扩展到$p \in (1, 2)$的情况下。
+
+    We study the performance of empirical risk minimization on the $p$-norm linear regression problem for $p \in (1, \infty)$. We show that, in the realizable case, under no moment assumptions, and up to a distribution-dependent constant, $O(d)$ samples are enough to exactly recover the target. Otherwise, for $p \in [2, \infty)$, and under weak moment assumptions on the target and the covariates, we prove a high probability excess risk bound on the empirical risk minimizer whose leading term matches, up to a constant that depends only on $p$, the asymptotically exact rate. We extend this result to the case $p \in (1, 2)$ under mild assumptions that guarantee the existence of the Hessian of the risk at its minimizer.
+    
+[^22]: 实现随机森林的局部可解释性增强：基于邻近性的方法
 
     Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach. (arXiv:2310.12428v1 [stat.ML])
 
@@ -339,7 +354,7 @@
 
     We initiate a novel approach to explain the out of sample performance of random forest (RF) models by exploiting the fact that any RF can be formulated as an adaptive weighted K nearest-neighbors model. Specifically, we use the proximity between points in the feature space learned by the RF to re-write random forest predictions exactly as a weighted average of the target labels of training data points. This linearity facilitates a local notion of explainability of RF predictions that generates attributions for any model prediction across observations in the training set, and thereby complements established methods like SHAP, which instead generates attributions for a model prediction across dimensions of the feature space. We demonstrate this approach in the context of a bond pricing model trained on US corporate bond trades, and compare our approach to various existing approaches to model explainability.
     
-[^22]: 闭式扩散模型
+[^23]: 闭式扩散模型
 
     Closed-Form Diffusion Models. (arXiv:2310.12395v1 [cs.LG])
 
@@ -353,7 +368,7 @@
 
     Score-based generative models (SGMs) sample from a target distribution by iteratively transforming noise using the score function of the perturbed target. For any finite training set, this score function can be evaluated in closed form, but the resulting SGM memorizes its training data and does not generate novel samples. In practice, one approximates the score by training a neural network via score-matching. The error in this approximation promotes generalization, but neural SGMs are costly to train and sample, and the effective regularization this error provides is not well-understood theoretically. In this work, we instead explicitly smooth the closed-form score to obtain an SGM that generates novel samples without training. We analyze our model and propose an efficient nearest-neighbor-based estimator of its score function. Using this estimator, our method achieves sampling times competitive with neural SGMs while running on consumer-grade CPUs.
     
-[^23]: 分子语言模型的偏好优化
+[^24]: 分子语言模型的偏好优化
 
     Preference Optimization for Molecular Language Models. (arXiv:2310.12304v1 [stat.ML])
 
@@ -367,7 +382,7 @@
 
     Molecular language modeling is an effective approach to generating novel chemical structures. However, these models do not \emph{a priori} encode certain preferences a chemist may desire. We investigate the use of fine-tuning using Direct Preference Optimization to better align generated molecules with chemist preferences. Our findings suggest that this approach is simple, efficient, and highly effective.
     
-[^24]: 稀疏高维线性混合模型的分区经验Bayes ECM算法
+[^25]: 稀疏高维线性混合模型的分区经验Bayes ECM算法
 
     Sparse high-dimensional linear mixed modeling with a partitioned empirical Bayes ECM algorithm. (arXiv:2310.12285v1 [stat.ME])
 
@@ -381,7 +396,7 @@
 
     High-dimensional longitudinal data is increasingly used in a wide range of scientific studies. However, there are few statistical methods for high-dimensional linear mixed models (LMMs), as most Bayesian variable selection or penalization methods are designed for independent observations. Additionally, the few available software packages for high-dimensional LMMs suffer from scalability issues. This work presents an efficient and accurate Bayesian framework for high-dimensional LMMs. We use empirical Bayes estimators of hyperparameters for increased flexibility and an Expectation-Conditional-Minimization (ECM) algorithm for computationally efficient maximum a posteriori probability (MAP) estimation of parameters. The novelty of the approach lies in its partitioning and parameter expansion as well as its fast and scalable computation. We illustrate Linear Mixed Modeling with PaRtitiOned empirical Bayes ECM (LMM-PROBE) in simulation studies evaluating fixed and random effects estimation 
     
-[^25]: 用于求解Wasserstein Lagrangian流的计算框架
+[^26]: 用于求解Wasserstein Lagrangian流的计算框架
 
     A Computational Framework for Solving Wasserstein Lagrangian Flows. (arXiv:2310.10649v2 [cs.LG] UPDATED)
 
@@ -395,7 +410,7 @@
 
     The dynamical formulation of the optimal transport can be extended through various choices of the underlying geometry ($\textit{kinetic energy}$), and the regularization of density paths ($\textit{potential energy}$). These combinations yield different variational problems ($\textit{Lagrangians}$), encompassing many variations of the optimal transport problem such as the Schr\"odinger bridge, unbalanced optimal transport, and optimal transport with physical constraints, among others. In general, the optimal density path is unknown, and solving these variational problems can be computationally challenging. Leveraging the dual formulation of the Lagrangians, we propose a novel deep learning based framework approaching all of these problems from a unified perspective. Our method does not require simulating or backpropagating through the trajectories of the learned dynamics, and does not need access to optimal couplings. We showcase the versatility of the proposed framework by outperformin
     
-[^26]: 在协变量漂移下基于核方法的统一分析
+[^27]: 在协变量漂移下基于核方法的统一分析
 
     Towards a Unified Analysis of Kernel-based Methods Under Covariate Shift. (arXiv:2310.08237v1 [stat.ML])
 
@@ -409,7 +424,7 @@
 
     Covariate shift occurs prevalently in practice, where the input distributions of the source and target data are substantially different. Despite its practical importance in various learning problems, most of the existing methods only focus on some specific learning tasks and are not well validated theoretically and numerically. To tackle this problem, we propose a unified analysis of general nonparametric methods in a reproducing kernel Hilbert space (RKHS) under covariate shift. Our theoretical results are established for a general loss belonging to a rich loss function family, which includes many commonly used methods as special cases, such as mean regression, quantile regression, likelihood-based classification, and margin-based classification. Two types of covariate shift problems are the focus of this paper and the sharp convergence rates are established for a general loss function to provide a unified theoretical analysis, which concurs with the optimal results in literature wher
     
-[^27]: 一种适用于现代网络的路径范数工具包：影响、前景和挑战
+[^28]: 一种适用于现代网络的路径范数工具包：影响、前景和挑战
 
     A path-norm toolkit for modern networks: consequences, promises and challenges. (arXiv:2310.01225v1 [stat.ML])
 
@@ -423,7 +438,7 @@
 
     This work introduces the first toolkit around path-norms that is fully able to encompass general DAG ReLU networks with biases, skip connections and max pooling. This toolkit notably allows us to establish generalization bounds for real modern neural networks that are not only the most widely applicable path-norm based ones, but also recover or beat the sharpest known bounds of this type. These extended path-norms further enjoy the usual benefits of path-norms: ease of computation, invariance under the symmetries of the network, and improved sharpness on feedforward networks compared to the product of operators' norms, another complexity measure most commonly used.  The versatility of the toolkit and its ease of implementation allow us to challenge the concrete promises of path-norm-based generalization bounds, by numerically evaluating the sharpest known bounds for ResNets on ImageNet.
     
-[^28]: 核密度积分转换
+[^29]: 核密度积分转换
 
     The Kernel Density Integral Transformation. (arXiv:2309.10194v1 [stat.ML])
 
@@ -437,7 +452,7 @@
 
     Feature preprocessing continues to play a critical role when applying machine learning and statistical methods to tabular data. In this paper, we propose the use of the kernel density integral transformation as a feature preprocessing step. Our approach subsumes the two leading feature preprocessing methods as limiting cases: linear min-max scaling and quantile transformation. We demonstrate that, without hyperparameter tuning, the kernel density integral transformation can be used as a simple drop-in replacement for either method, offering robustness to the weaknesses of each. Alternatively, with tuning of a single continuous hyperparameter, we frequently outperform both of these methods. Finally, we show that the kernel density transformation can be profitably applied to statistical data analysis, particularly in correlation analysis and univariate clustering.
     
-[^29]: URL：一种可转移不确定性估计的表示学习基准
+[^30]: URL：一种可转移不确定性估计的表示学习基准
 
     URL: A Representation Learning Benchmark for Transferable Uncertainty Estimates. (arXiv:2307.03810v1 [cs.LG])
 
@@ -451,7 +466,7 @@
 
     Representation learning has significantly driven the field to develop pretrained models that can act as a valuable starting point when transferring to new datasets. With the rising demand for reliable machine learning and uncertainty quantification, there is a need for pretrained models that not only provide embeddings but also transferable uncertainty estimates. To guide the development of such models, we propose the Uncertainty-aware Representation Learning (URL) benchmark. Besides the transferability of the representations, it also measures the zero-shot transferability of the uncertainty estimate using a novel metric. We apply URL to evaluate eleven uncertainty quantifiers that are pretrained on ImageNet and transferred to eight downstream datasets. We find that approaches that focus on the uncertainty of the representation itself or estimate the prediction risk directly outperform those that are based on the probabilities of upstream classes. Yet, achieving transferable uncertaint
     
-[^30]: 用一致性检查评估超人模型
+[^31]: 用一致性检查评估超人模型
 
     Evaluating Superhuman Models with Consistency Checks. (arXiv:2306.09983v1 [cs.LG])
 
@@ -465,7 +480,7 @@
 
     If machine learning models were to achieve superhuman abilities at various reasoning or decision-making tasks, how would we go about evaluating such models, given that humans would necessarily be poor proxies for ground truth? In this paper, we propose a framework for evaluating superhuman models via consistency checks. Our premise is that while the correctness of superhuman decisions may be impossible to evaluate, we can still surface mistakes if the model's decisions fail to satisfy certain logical, human-interpretable rules. We instantiate our framework on three tasks where correctness of decisions is hard to evaluate due to either superhuman model abilities, or to otherwise missing ground truth: evaluating chess positions, forecasting future events, and making legal judgments. We show that regardless of a model's (possibly superhuman) performance on these tasks, we can discover logical inconsistencies in decision making. For example: a chess engine assigning opposing valuations to 
     
-[^31]: 变分不平衡回归(Variational Imbalanced Regression)
+[^32]: 变分不平衡回归(Variational Imbalanced Regression)
 
     Variational Imbalanced Regression. (arXiv:2306.06599v1 [cs.LG])
 
@@ -479,7 +494,7 @@
 
     Existing regression models tend to fall short in both accuracy and uncertainty estimation when the label distribution is imbalanced. In this paper, we propose a probabilistic deep learning model, dubbed variational imbalanced regression (VIR), which not only performs well in imbalanced regression but naturally produces reasonable uncertainty estimation as a byproduct. Different from typical variational autoencoders assuming I.I.D. representations (a data point's representation is not directly affected by other data points), our VIR borrows data with similar regression labels to compute the latent representation's variational distribution; furthermore, different from deterministic regression models producing point estimates, VIR predicts the entire normal-inverse-gamma distributions and modulates the associated conjugate distributions to impose probabilistic reweighting on the imbalanced data, thereby providing better uncertainty estimation. Experiments in several real-world datasets sh
     
-[^32]: 自适应 $\tau$-Lasso：其健壮性和最优性质。
+[^33]: 自适应 $\tau$-Lasso：其健壮性和最优性质。
 
     The Adaptive $\tau$-Lasso: Its Robustness and Oracle Properties. (arXiv:2304.09310v1 [stat.ML])
 
@@ -493,7 +508,7 @@
 
     This paper introduces a new regularized version of the robust $\tau$-regression estimator for analyzing high-dimensional data sets subject to gross contamination in the response variables and covariates. We call the resulting estimator adaptive $\tau$-Lasso that is robust to outliers and high-leverage points and simultaneously employs adaptive $\ell_1$-norm penalty term to reduce the bias associated with large true regression coefficients. More specifically, this adaptive $\ell_1$-norm penalty term assigns a weight to each regression coefficient. For a fixed number of predictors $p$, we show that the adaptive $\tau$-Lasso has the oracle property with respect to variable-selection consistency and asymptotic normality for the regression vector corresponding to the true support, assuming knowledge of the true regression vector support. We then characterize its robustness via the finite-sample breakdown point and the influence function. We carry-out extensive simulations to compare the per
     
-[^33]: 物理启发的神经网络在利用暗物质重建流体力学模拟中的应用
+[^34]: 物理启发的神经网络在利用暗物质重建流体力学模拟中的应用
 
     Physics-informed neural networks in the recreation of hydrodynamic simulations from dark matter. (arXiv:2303.14090v1 [astro-ph.CO])
 
@@ -507,7 +522,7 @@
 
     Physics-informed neural networks have emerged as a coherent framework for building predictive models that combine statistical patterns with domain knowledge. The underlying notion is to enrich the optimization loss function with known relationships to constrain the space of possible solutions. Hydrodynamic simulations are a core constituent of modern cosmology, while the required computations are both expensive and time-consuming. At the same time, the comparatively fast simulation of dark matter requires fewer resources, which has led to the emergence of machine learning algorithms for baryon inpainting as an active area of research; here, recreating the scatter found in hydrodynamic simulations is an ongoing challenge. This paper presents the first application of physics-informed neural networks to baryon inpainting by combining advances in neural network architectures with physical constraints, injecting theory on baryon conversion efficiency into the model loss function. We also in
     
-[^34]: EDGI: 内在对称性规划的等变扩散
+[^35]: EDGI: 内在对称性规划的等变扩散
 
     EDGI: Equivariant Diffusion for Planning with Embodied Agents. (arXiv:2303.12410v1 [cs.LG])
 
@@ -521,7 +536,7 @@
 
     Embodied agents operate in a structured world, often solving tasks with spatial, temporal, and permutation symmetries. Most algorithms for planning and model-based reinforcement learning (MBRL) do not take this rich geometric structure into account, leading to sample inefficiency and poor generalization. We introduce the Equivariant Diffuser for Generating Interactions (EDGI), an algorithm for MBRL and planning that is equivariant with respect to the product of the spatial symmetry group $\mathrm{SE(3)}$, the discrete-time translation group $\mathbb{Z}$, and the object permutation group $\mathrm{S}_n$. EDGI follows the Diffuser framework (Janner et al. 2022) in treating both learning a world model and planning in it as a conditional generative modeling problem, training a diffusion model on an offline trajectory dataset. We introduce a new $\mathrm{SE(3)} \times \mathbb{Z} \times \mathrm{S}_n$-equivariant diffusion model that supports multiple representations. We integrate this model i
     
-[^35]: 基于分段确定性马尔可夫过程的贝叶斯神经网络研究
+[^36]: 基于分段确定性马尔可夫过程的贝叶斯神经网络研究
 
     Piecewise Deterministic Markov Processes for Bayesian Neural Networks. (arXiv:2302.08724v2 [stat.ML] UPDATED)
 
@@ -535,7 +550,7 @@
 
     Inference on modern Bayesian Neural Networks (BNNs) often relies on a variational inference treatment, imposing violated assumptions of independence and the form of the posterior. Traditional MCMC approaches avoid these assumptions at the cost of increased computation due to its incompatibility to subsampling of the likelihood. New Piecewise Deterministic Markov Process (PDMP) samplers permit subsampling, though introduce a model specific inhomogenous Poisson Process (IPPs) which is difficult to sample from. This work introduces a new generic and adaptive thinning scheme for sampling from these IPPs, and demonstrates how this approach can accelerate the application of PDMPs for inference in BNNs. Experimentation illustrates how inference with these methods is computationally feasible, can improve predictive accuracy, MCMC mixing performance, and provide informative uncertainty measurements when compared against other approximate inference schemes.
     
-[^36]: 对于Riemann流形蒙特卡洛方法的对数密度梯度协方差和自动度量张量的提出
+[^37]: 对于Riemann流形蒙特卡洛方法的对数密度梯度协方差和自动度量张量的提出
 
     Log-density gradient covariance and automatic metric tensors for Riemann manifold Monte Carlo methods. (arXiv:2211.01746v2 [stat.CO] UPDATED)
 
@@ -549,7 +564,7 @@
 
     A metric tensor for Riemann manifold Monte Carlo particularly suited for non-linear Bayesian hierarchical models is proposed. The metric tensor is built from symmetric positive semidefinite log-density gradient covariance (LGC) matrices, which are also proposed and further explored here. The LGCs generalize the Fisher information matrix by measuring the joint information content and dependence structure of both a random variable and the parameters of said variable. Consequently, positive definite Fisher/LGC-based metric tensors may be constructed not only from the observation likelihoods as is current practice, but also from arbitrarily complicated non-linear prior/latent variable structures, provided the LGC may be derived for each conditional distribution used to construct said structures. The proposed methodology is highly automatic and allows for exploitation of any sparsity associated with the model in question. When implemented in conjunction with a Riemann manifold variant of th
     
-[^37]: 粒子信念近似POMDP的最优性保证
+[^38]: 粒子信念近似POMDP的最优性保证
 
     Optimality Guarantees for Particle Belief Approximation of POMDPs. (arXiv:2210.05015v3 [cs.AI] UPDATED)
 
@@ -563,7 +578,7 @@
 
     Partially observable Markov decision processes (POMDPs) provide a flexible representation for real-world decision and control problems. However, POMDPs are notoriously difficult to solve, especially when the state and observation spaces are continuous or hybrid, which is often the case for physical systems. While recent online sampling-based POMDP algorithms that plan with observation likelihood weighting have shown practical effectiveness, a general theory characterizing the approximation error of the particle filtering techniques that these algorithms use has not previously been proposed. Our main contribution is bounding the error between any POMDP and its corresponding finite sample particle belief MDP (PB-MDP) approximation. This fundamental bridge between PB-MDPs and POMDPs allows us to adapt any sampling-based MDP algorithm to a POMDP by solving the corresponding particle belief MDP, thereby extending the convergence guarantees of the MDP algorithm to the POMDP. Practically, thi
     
-[^38]: 寻求数据背后的真相：一种无监督的机器学习方法
+[^39]: 寻求数据背后的真相：一种无监督的机器学习方法
 
     Seeking the Truth Beyond the Data. An Unsupervised Machine Learning Approach. (arXiv:2207.06949v4 [stat.ML] UPDATED)
 
@@ -577,7 +592,7 @@
 
     Clustering is an unsupervised machine learning methodology where unlabeled elements/objects are grouped together aiming to the construction of well-established clusters that their elements are classified according to their similarity. The goal of this process is to provide a useful aid to the researcher that will help her/him to identify patterns among the data. Dealing with large databases, such patterns may not be easily detectable without the contribution of a clustering algorithm. This article provides a deep description of the most widely used clustering methodologies accompanied by useful presentations concerning suitable parameter selection and initializations. Simultaneously, this article not only represents a review highlighting the major elements of examined clustering techniques but emphasizes the comparison of these algorithms' clustering efficiency based on 3 datasets, revealing their existing weaknesses and capabilities through accuracy and complexity, during the confront
     
-[^39]: 深度判别到核生成网络的定标推断方法
+[^40]: 深度判别到核生成网络的定标推断方法
 
     Deep Discriminative to Kernel Generative Networks for Calibrated Inference. (arXiv:2201.13001v5 [cs.LG] UPDATED)
 
@@ -591,7 +606,7 @@
 
     The fight between discriminative versus generative goes deep, in both the study of artificial and natural intelligence. In our view, both camps have complementary values. So, we sought to synergistically combine them. Here, we propose a methodology to convert deep discriminative networks to kernel generative networks. We leveraged the fact that deep models, including both random forests and deep networks, learn internal representations which are unions of polytopes with affine activation functions to conceptualize them both as generalized partitioning rules. We replace the affine function in each polytope populated by the training data with Gaussian kernel that results in a generative model. Theoretically, we derive the conditions under which our generative models are a consistent estimator of the corresponding class conditional density. Moreover, our proposed models obtain well calibrated posteriors for in-distribution, and extrapolate beyond the training data to handle out-of-distrib
     
-[^40]: 在设备上高效通信的机器学习：非IID私有数据下的联邦蒸馏与增强
+[^41]: 在设备上高效通信的机器学习：非IID私有数据下的联邦蒸馏与增强
 
     Communication-Efficient On-Device Machine Learning: Federated Distillation and Augmentation under Non-IID Private Data. (arXiv:1811.11479v2 [cs.LG] UPDATED)
 
