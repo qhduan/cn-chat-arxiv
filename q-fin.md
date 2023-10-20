@@ -2,161 +2,59 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Mack's estimator motivated by large exposure asymptotics in a compound Poisson setting.](http://arxiv.org/abs/2310.12056) | 在复合Poisson环境中，通过考虑大暴露渐近主导，我们可以使用Mack的估计器导出链梯预测法和条件均方误差估计器，并不依赖于无分布链梯模型假设的有效性。 |
-| [^2] | [A Framework for Treating Model Uncertainty in the Asset Liability Management Problem.](http://arxiv.org/abs/2310.11987) | 本文提出了一个框架，用于在资产负债管理问题中处理模型不确定性。利用Wasserstein巴黎中心思想，通过适当处理不同信息来源并重新制定决策问题，稳健地处理模糊性。所提出的框架适用于不同模型设置下的投资组合选择。 |
-| [^3] | [Perpetual Futures Pricing.](http://arxiv.org/abs/2310.11771) | 本论文研究了永久期货的定价，并推导出了各种永久期货合约的无套利价格表达式。研究发现期货价格是根据风险中性预期以及反映价格锚定程度的随机时间抽样得到的。此外，还通过动态交易复制证明了一些融资规格保证期货和现货价格一致。 |
-| [^4] | [Global Factors in Non-core Bank Funding and Exchange Rate Flexibility.](http://arxiv.org/abs/2310.11552) | 全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。 |
-| [^5] | [The Sponge Cake Dilemma over the Nile: Achieving Fairness in Resource Allocation through Rawlsian Theory and Algorithms.](http://arxiv.org/abs/2310.11472) | 通过融合Rawlsian理论和算法手段，本文研究了水资源分配中的公平性问题。蛋糕切割模型在考虑战略因素的同时，寻找与Rawlsian公平原则相一致的解决方案，为解决尼罗河水资源争端提供了有价值的方法。 |
-| [^6] | [Evaluation of feature selection performance for identification of best effective technical indicators on stock market price prediction.](http://arxiv.org/abs/2310.09903) | 本研究评估了特征选择方法在股市价格预测中的性能，通过选择最佳的技术指标组合来实现最少误差的预测。研究结果表明，不同的包装器特征选择方法在不同的机器学习方法中具有不同的表现。 |
-| [^7] | [\"Uber wissenschaftliche Exzellenz und Wettbewerb.](http://arxiv.org/abs/2310.09588) | 本文讨论了科学研究和竞争背景下卓越的概念。 |
-| [^8] | [Multi-period static hedging of European options.](http://arxiv.org/abs/2310.01104) | 本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。 |
-| [^9] | [The Implied Views of Bond Traders on the Spot Equity Market.](http://arxiv.org/abs/2306.16522) | 通过使用Black-Derman-Toy（BDT）模型，研究者预测了无风险利率的未来趋势，并提供了与零息债券不同到期时间值相关的隐含收益率、隐含上涨概率和隐含波动率，为债券交易员提供了一些建议。 |
-| [^10] | [The far-reaching effects of bombing on fertility in mid-20th century Japan.](http://arxiv.org/abs/2306.05770) | 本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。 |
-| [^11] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
+| [^1] | [The Social Cost of Carbon.](http://arxiv.org/abs/2310.12760) | 碳的社会成本是通过减少二氧化碳排放而避免的损害的度量，估计约为80美元/吨二氧化碳。 |
+| [^2] | [A solution to walrasian auctions for many tokens with AMMs available.](http://arxiv.org/abs/2310.12255) | 本研究提出了适用于多代币的Walrasian拍卖问题的解决方案，该方案基于Brouwer的不动点定理，能够执行所有订单并进行最优的AMMs交换。 |
+| [^3] | [DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling.](http://arxiv.org/abs/2309.02072) | DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。 |
+| [^4] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
+| [^5] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
+| [^6] | [The Evolution of U.S. Retail Concentration.](http://arxiv.org/abs/2202.07609) | 美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。 |
+| [^7] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
 
 # 详细
 
-[^1]: 大暴露渐近主导下的Mack估计器在复合Poisson环境中的应用
+[^1]: 碳的社会成本
 
-    Mack's estimator motivated by large exposure asymptotics in a compound Poisson setting. (arXiv:2310.12056v1 [q-fin.RM])
+    The Social Cost of Carbon. (arXiv:2310.12760v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.12056](http://arxiv.org/abs/2310.12056)
+    [http://arxiv.org/abs/2310.12760](http://arxiv.org/abs/2310.12760)
 
-    在复合Poisson环境中，通过考虑大暴露渐近主导，我们可以使用Mack的估计器导出链梯预测法和条件均方误差估计器，并不依赖于无分布链梯模型假设的有效性。
-
-    
-
-    Mack的无分布链梯估计法证明了链梯预测法的使用，并使Mack能够导出链梯预测法的条件均方误差估计器。然而，经典的保险损失模型，即复合Poisson类型，与Mack的无分布链梯不一致。然而，对于以暴露（例如合同数量）为索引的一系列复合Poisson损失模型，我们证明了通过考虑大暴露渐近主导可以导出链梯预测法和Mack的条件均方误差估计器。因此，可以使用Mack的估计器来量化链梯预测的不确定性，而不依赖于无分布链梯模型假设的有效性。
-
-    The distribution-free chain ladder of Mack justified the use of the chain ladder predictor and enabled Mack to derive an estimator of conditional mean squared error of prediction for the chain ladder predictor. Classical insurance loss models, i.e. of compound Poisson type, are not consistent with Mack's distribution-free chain ladder. However, for a sequence of compound Poisson loss models indexed by exposure (e.g. number of contracts), we show that the chain ladder predictor and Mack's estimator of conditional mean squared error of prediction can be derived by considering large exposure asymptotics. Hence, quantifying chain ladder prediction uncertainty can be done with Mack's estimator without relying on the validity of the model assumptions of the distribution-free chain ladder.
-    
-[^2]: 在资产负债管理问题中处理模型不确定性的框架
-
-    A Framework for Treating Model Uncertainty in the Asset Liability Management Problem. (arXiv:2310.11987v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2310.11987](http://arxiv.org/abs/2310.11987)
-
-    本文提出了一个框架，用于在资产负债管理问题中处理模型不确定性。利用Wasserstein巴黎中心思想，通过适当处理不同信息来源并重新制定决策问题，稳健地处理模糊性。所提出的框架适用于不同模型设置下的投资组合选择。
+    碳的社会成本是通过减少二氧化碳排放而避免的损害的度量，估计约为80美元/吨二氧化碳。
 
     
 
-    资产负债管理(ALM)问题是金融数学的经典问题，对银行和保险公司非常重要。在均值-方差(MV)原则的视角下，已经对此问题在多种模型设置下进行了研究。本文在一阶框架下重新审视了模型不确定性的ALM问题。在实践中，不确定性问题涉及问题的多个方面，如负债过程特性，市场条件，通货膨胀率，内部信息效应等。本文提出了一个依赖于Wasserstein巴黎中心概念的框架，能够通过适当处理各种信息来源(模型)并适当重新制定相关的决策问题，从而稳健地处理这种类型的模糊性。所提出的框架可以应用于许多不同的模型设置，导致投资组合的选择。
+    碳的社会成本是通过稍微减少二氧化碳排放而避免的损害。它是衡量气候政策期望强度的一个指标。碳的社会成本因为长期和复杂的因果链以及对影响进行量化和聚合而高度不确定，影响着可能的未来范围内的所有人。最近的估计约为80美元/吨二氧化碳。
 
-    The problem of asset liability management (ALM) is a classic problem of the financial mathematics and of great interest for the banking institutions and insurance companies. Several formulations of this problem under various model settings have been studied under the Mean-Variance (MV) principle perspective. In this paper, the ALM problem is revisited under the context of model uncertainty in the one-stage framework. In practice, uncertainty issues appear to several aspects of the problem, e.g. liability process characteristics, market conditions, inflation rates, inside information effects, etc. A framework relying on the notion of the Wasserstein barycenter is presented which is able to treat robustly this type of ambiguities by appropriate handling the various information sources (models) and appropriately reformulating the relevant decision making problem. The proposed framework can be applied to a number of different model settings leading to the selection of investment portfolios
+    The social cost of carbon is the damage avoided by slightly reducing carbon dioxide emissions. It is a measure of the desired intensity of climate policy. The social cost of carbon is highly uncertain because of the long and complex cause-effect chain, and because it quantifies and aggregates impacts over a long period of time, affecting all people in a wide range of possible futures. Recent estimates are around $\$$80/tCO$_2$.
     
-[^3]: 永久期货定价
+[^2]: 适用于多代币的Walrasian拍卖问题的解决方案与AMMs
 
-    Perpetual Futures Pricing. (arXiv:2310.11771v1 [q-fin.PR])
+    A solution to walrasian auctions for many tokens with AMMs available. (arXiv:2310.12255v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2310.11771](http://arxiv.org/abs/2310.11771)
+    [http://arxiv.org/abs/2310.12255](http://arxiv.org/abs/2310.12255)
 
-    本论文研究了永久期货的定价，并推导出了各种永久期货合约的无套利价格表达式。研究发现期货价格是根据风险中性预期以及反映价格锚定程度的随机时间抽样得到的。此外，还通过动态交易复制证明了一些融资规格保证期货和现货价格一致。
-
-    
-
-    永久期货是没有到期日期的合约，通过长期向空头支付定期融资来确保期货价格与现货价格的锚定。我们推导了各种永久期货的无套利价格的明确表达式，包括线性、反向和量化期货，在离散和连续时间下研究。特别地，我们表明期货价格由风险中性预期在反映价格锚定密集度的随机时间抽样得到。此外，我们确定了可以保证期货和现货价格相一致的融资规格，并且证明对于这些规格，可以通过原始证券的动态交易复制永久期货合约。
-
-    Perpetual futures are contracts without expiration date in which the anchoring of the futures price to the spot price is ensured by periodic funding payments from long to short. We derive explicit expressions for the no-arbitrage price of various perpetual contracts, including linear, inverse, and quantos futures in both discrete and continuous-time. In particular, we show that the futures price is given by the risk-neutral expectation of the spot sampled at a random time that reflects the intensity of the price anchoring. Furthermore, we identify funding specifications that guarantee the coincidence of futures and spot prices, and show that for such specifications perpetual futures contracts can be replicated by dynamic trading in primitive securities.
-    
-[^4]: 非核心银行资金和汇率灵活性中的全球因素
-
-    Global Factors in Non-core Bank Funding and Exchange Rate Flexibility. (arXiv:2310.11552v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.11552](http://arxiv.org/abs/2310.11552)
-
-    全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。
+    本研究提出了适用于多代币的Walrasian拍卖问题的解决方案，该方案基于Brouwer的不动点定理，能够执行所有订单并进行最优的AMMs交换。
 
     
 
-    我们展示了发达经济体银行体系中非核心与核心资金比率的波动由少数几个既有实物性又有金融性质的全球因素驱动，国家特定因素没有发挥重要作用。汇率灵活性有助于减小非核心与核心比率受到全球因素的影响，但仅在重大全球金融震荡期间（如2008-2009年）明显起作用。
+    考虑某一状态下有限数量的交易订单和自动市场制造商（AMMs）。我们提出了一个解决方案，用于找到一个均衡价格向量，以便与相应的最优AMMs交换一起执行所有订单。该解决方案基于Brouwer的不动点定理。我们讨论了与公共区块链活动中的实际情况相关的计算方面问题。
 
-    We show that fluctuations in the ratio of non-core to core funding in the banking systems of advanced economies are driven by a handful of global factors of both real and financial natures, with country-specific factors playing no significant roles. Exchange rate flexibility helps insulate the non-core to core ratio from such global factors but only significantly so outside periods of major global financial disruptions, as in 2008-2009.
+    Consider a finite set of trade orders and automated market makers (AMMs) at some state. We propose a solution to the problem of finding an equilibrium price vector to execute all the orders jointly with corresponding optimal AMMs swaps. The solution is based on Brouwer's fixed-point theorem. We discuss computational aspects relevant for realistic situations in public blockchain activity.
     
-[^5]: 尼罗河上的海绵蛋糕困境：通过Rawlsian理论和算法实现资源分配的公平性
+[^3]: DeepVol：一种用于通用资产波动性建模的深度迁移学习方法
 
-    The Sponge Cake Dilemma over the Nile: Achieving Fairness in Resource Allocation through Rawlsian Theory and Algorithms. (arXiv:2310.11472v1 [econ.GN])
+    DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling. (arXiv:2309.02072v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.11472](http://arxiv.org/abs/2310.11472)
+    [http://arxiv.org/abs/2309.02072](http://arxiv.org/abs/2309.02072)
 
-    通过融合Rawlsian理论和算法手段，本文研究了水资源分配中的公平性问题。蛋糕切割模型在考虑战略因素的同时，寻找与Rawlsian公平原则相一致的解决方案，为解决尼罗河水资源争端提供了有价值的方法。
-
-    
-
-    本文通过整合规范和实证的视角，研究了水资源争端。约翰·罗尔斯的正义理论提供了道德指导，维护所有流域国家的合理获取权利。然而，通过蛋糕切割模型进行实证分析揭示了现实世界中的战略约束。虽然罗尔斯定义了期望的目标，但蛋糕切割提供了基于实际行为的算法手段。尼罗河流域争端说明了这种综合。罗尔斯认为水资源具有天然权利，但无限制的竞争可能导致垄断。在自利等局限性存在的情况下，他的原则本身无法防止不利的结果。这就是蛋糕切割在存在偏见主张的情况下提供价值的地方。其模型确定了与罗尔斯公平原则相符的安排，并纳入了战略考虑。本文详细介绍了蛋糕切割理论，回顾了水资源冲突文献，研究了尼罗河案例，探讨了合作与非合作的情况。
-
-    This article examines water disputes through an integrated framework combining normative and positive perspectives. John Rawls' theory of justice provides moral guidance, upholding rights to reasonable access for all riparian states. However, positive analysis using cake-cutting models reveals real-world strategic constraints. While Rawls defines desired ends, cake-cutting offers algorithmic means grounded in actual behaviors. The Nile River basin dispute illustrates this synthesis. Rawls suggests inherent rights to water, but unrestricted competition could enable monopoly. His principles alone cannot prevent unfavorable outcomes, given limitations like self-interest. This is where cake-cutting provides value despite biased claims. Its models identify arrangements aligning with Rawlsian fairness while incorporating strategic considerations. The article details the cake-cutting theory, reviews water conflicts literature, examines the Nile case, explores cooperative vs. non-cooperative g
-    
-[^6]: 评估特征选择在股市价格预测中的性能，以确定最有效的技术指标
-
-    Evaluation of feature selection performance for identification of best effective technical indicators on stock market price prediction. (arXiv:2310.09903v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2310.09903](http://arxiv.org/abs/2310.09903)
-
-    本研究评估了特征选择方法在股市价格预测中的性能，通过选择最佳的技术指标组合来实现最少误差的预测。研究结果表明，不同的包装器特征选择方法在不同的机器学习方法中具有不同的表现。
+    DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。
 
     
 
-    鉴于技术指标对股市预测的影响，特征选择对选择最佳指标至关重要。一种考虑在特征选择过程中模型性能的特征选择方法是包装器特征选择方法。本研究旨在通过特征选择鉴定出最少误差的预测股市价格的最佳股市指标组合。为评估包装器特征选择技术对股市预测的影响，本文在过去10年苹果公司的数据上使用了10个评估器和123个技术指标进行了SFS和SBS的考察。此外，通过提出的方法，将由3天时间窗口创建的数据转化为适用于回归方法的输入。从观察结果可以得出：（1）每种包装器特征选择方法在不同的机器学习方法中具有不同的结果，每种方法在不同的预测准确性上也有所不同。
+    本文介绍了一种新的深度学习波动性模型DeepVol，它在模型的广泛性方面优于传统的计量经济模型。DeepVol利用迁移学习的能力，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，包括以前未见过的资产。这与计量经济学文献中的主流做法形成鲜明对比，后者需要为不同数据集训练单独的模型。引入DeepVol为金融行业的波动性建模和预测开辟了新的途径，可能会改变对波动性的理解和预测方式。
 
-    Due to the influence of many factors, including technical indicators on stock market prediction, feature selection is important to choose the best indicators. One of the feature selection methods that consider the performance of models during feature selection is the wrapper feature selection method. The aim of this research is to identify a combination of the best stock market indicators through feature selection to predict the stock market price with the least error. In order to evaluate the impact of wrapper feature selection techniques on stock market prediction, in this paper SFS and SBS with 10 estimators and 123 technical indicators have been examined on the last 10 years of Apple Company. Also, by the proposed method, the data created by the 3-day time window were converted to the appropriate input for regression methods. Based on the results observed: (1) Each wrapper feature selection method has different results with different machine learning methods, and each method is mor
+    This paper introduces DeepVol, a promising new deep learning volatility model that outperforms traditional econometric models in terms of model generality. DeepVol leverages the power of transfer learning to effectively capture and model the volatility dynamics of all financial assets, including previously unseen ones, using a single universal model. This contrasts to the prevailing practice in econometrics literature, which necessitates training separate models for individual datasets. The introduction of DeepVol opens up new avenues for volatility modeling and forecasting in the finance industry, potentially transforming the way volatility is understood and predicted.
     
-[^7]: "关于科学卓越与竞争的论文"
-
-    \"Uber wissenschaftliche Exzellenz und Wettbewerb. (arXiv:2310.09588v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.09588](http://arxiv.org/abs/2310.09588)
-
-    本文讨论了科学研究和竞争背景下卓越的概念。
-
-    
-
-    追求卓越似乎是学术界的真正目标。卓越是什么意思？能否衡量卓越？本文讨论了在研究和竞争的背景下卓越的概念。
-
-    The pursuit of excellence seems to be the True North of academia. What is meant by excellence? Can excellence be measured? This article discusses the concept of excellence in the context of research and competition.
-    
-[^8]: 多期欧式期权的静态对冲
-
-    Multi-period static hedging of European options. (arXiv:2310.01104v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2310.01104](http://arxiv.org/abs/2310.01104)
-
-    本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。
-
-    
-
-    本文考虑了在基础资产价格遵循单因素马尔可夫框架的情况下对欧式期权进行对冲。Carr和Wu [1]在这样的设置下，导出了给定期权与在同一资产上写的一系列较短期限期权之间的跨度关系。在本文中，我们将他们的方法扩展到同时包括多个短期到期的期权。然后，我们使用高斯求积方法通过有限的一组短期期权确定对冲误差的实际实现。我们对\textit{Black-Scholes}和\textit{Merton Jump Diffusion}模型进行了广泛的实验，展示了这两种方法的比较性能。
-
-    We consider the hedging of European options when the price of the underlying asset follows a single-factor Markovian framework. By working in such a setting, Carr and Wu \cite{carr2014static} derived a spanning relation between a given option and a continuum of shorter-term options written on the same asset. In this paper, we have extended their approach to simultaneously include options over multiple short maturities. We then show a practical implementation of this with a finite set of shorter-term options to determine the hedging error using a Gaussian Quadrature method. We perform a wide range of experiments for both the \textit{Black-Scholes} and \textit{Merton Jump Diffusion} models, illustrating the comparative performance of the two methods.
-    
-[^9]: 债券交易员对现货股票市场的暗示观点
-
-    The Implied Views of Bond Traders on the Spot Equity Market. (arXiv:2306.16522v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2306.16522](http://arxiv.org/abs/2306.16522)
-
-    通过使用Black-Derman-Toy（BDT）模型，研究者预测了无风险利率的未来趋势，并提供了与零息债券不同到期时间值相关的隐含收益率、隐含上涨概率和隐含波动率，为债券交易员提供了一些建议。
-
-    
-
-    通过使用Black-Derman-Toy（BDT）模型，我们预测无风险利率的未来趋势，并建立了一个将零息债券的市场价格与使用二项式期权定价模型计算的零息债券的理论价格相关联的方程。基于此，我们可以找到相对于零息债券不同到期时间值的隐含每日收益率μ，隐含自然上涨概率p和隐含每日波动率σ。根据这些结果，我们可以给债券交易员一些建议。
-
-    By using the Black-Derman-Toy (BDT) model, we predict the future trend of the riskless rate, and then we build an equation that relates the market price of zero-coupon bonds and the theoretical price of zero-coupon bonds calculated using a binomial option pricing model. Based on this, we can find the implied daily return $\mu$, implied natural upturn probability $p$, and implied daily volatility $\sigma$ with respect to different time-to-maturity values of zero-coupon bonds. With these results, we can give some suggestions to bond traders.
-    
-[^10]: 二战期间轰炸对20世纪日本生育率的深远影响
-
-    The far-reaching effects of bombing on fertility in mid-20th century Japan. (arXiv:2306.05770v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.05770](http://arxiv.org/abs/2306.05770)
-
-    本研究探究了空袭对20世纪日本生育率的深远影响，并证明了战争破坏的区域影响即使在未直接受影响的地区也存在。
-
-    
-
-    战争和冲突之后的生育变化在全球范围内得到了观察。本研究旨在研究区域战争破坏是否会影响战后生育，即使是未直接受到影响但靠近受损地区的地区。为了达到这个目的，我们利用了日本二战期间的空袭经历。利用1935年和1947年近畿地区的市町村级别生育数据以及城市空袭损失数据，我们发现轰炸对于15公里内城镇和乡村的战后生育率存在影响，尽管这些地区未直接受到损害。然而，间接影响的方向是混合的。估计结果表明，邻近城市的严重空袭增加了生育率，而较轻的空袭则降低了生育率。此外，拟实验法的结果表明，严重的空袭恐惧在战后期间增加了生育率。本研究为战后生育变化的文献提供了证据，即轰炸对于生育率有深远影响，即使是被战争损害间接影响的地区。
-
-    Fertility changes after wars and conflicts have been observed worldwide. This study examines whether regional war damage affects postwar fertility even in areas that were not directly affected but were close to the damaged areas. In order to accomplish this, we exploit the air-raid experience in Japan during World War II. Using the municipality-level fertility data in the Kinki region in 1935 and 1947 and the data on damages from air raids in cities, we find the effects of bombing on postwar fertility in towns and villages within 15 kilometers, despite no direct damages. However, the direction of the indirect effects is mixed. The estimation results suggest that severe air raids in neighboring cities increased fertility, whereas minor air raids decreased it. Moreover, the results of the quasi-experimental approach indicate that intense fears of air raids increased the fertility rate in the postwar period. Our study contributes to the literature on fertility changes in the postwar perio
-    
-[^11]: 苏格兰地方政府选举中的单调性异常现象
+[^4]: 苏格兰地方政府选举中的单调性异常现象
 
     Monotonicity Anomalies in Scottish Local Government Elections. (arXiv:2305.17741v1 [econ.GN])
 
@@ -169,5 +67,47 @@
     单一可转移选票（STV）投票方法用于选举排名选举中的多个候选人。STV的一个弱点是它未能通过与单调性和无表决悖论相关的多个公平标准。我们分析了苏格兰1,079个地方政府STV选举，以估计现实世界选举中此类单调性异常的频率，并将结果与关于此类异常出现率的先前经验和理论研究进行比较。在1079次选举中，我们发现41次出现某种单调性异常。我们通常发现异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。我们发现的大多数STV异常都是第一次在实际选举中记录到的。
 
     The single transferable vote (STV) voting method is used to elect multiple candidates in ranked-choice elections. One weakness of STV is that it fails multiple fairness criteria related to monotonicity and no-show paradoxes. We analyze 1,079 local government STV elections in Scotland to estimate the frequency of such monotonicity anomalies in real-world elections, and compare our results with prior empirical and theoretical research about the rates at which such anomalies occur. In 41 of the 1079 elections we found some kind of monotonicity anomaly. We generally find that the rates of anomalies are similar to prior empirical research and much lower than what most theoretical research has found. Most of the STV anomalies we find are the first of their kind to be documented in real-world elections.
+    
+[^5]: 期权的价格发现
+
+    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
+
+    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+
+    
+
+    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+
+    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    
+[^6]: 美国零售业集中度的演变
+
+    The Evolution of U.S. Retail Concentration. (arXiv:2202.07609v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2202.07609](http://arxiv.org/abs/2202.07609)
+
+    美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。
+
+    
+
+    在美国的产业动态中，国家集中度的增加是一个显著特征，也引起了对市场力量增长的担忧。然而，对于市场力量情况，本地趋势可能更具信息量，特别是在零售部门，消费者通常在附近的商店购物。我们使用新型普查数据，观察了1992年至2012年间所有美国零售店产品级收入的本地集中度与国家集中度几乎同步增加。集中度的增加广泛影响大多数市场、产品和零售行业。我们发现，多市场企业进入新市场解释了国家零售集中度的大部分增长，而通过增加本地市场份额进行的整合在1997年至2007年间变得越来越重要，而单市场企业的作用微不足道。最后，我们发现本地集中度的增加可以解释整体销售增长的四分之一到三分之一。
+
+    Increases in national concentration have been a salient feature of industry dynamics in the U.S. and have contributed to concerns about increasing market power. Yet, local trends may be more informative about market power, particularly in the retail sector where consumers have traditionally shopped at nearby stores. We find that local concentration has increased almost in parallel with national concentration using novel Census data on product-level revenue for all U.S. retail stores between 1992 and 2012. The increases in concentration are broad based, affecting most markets, products, and retail industries. We show that the expansion of multi-market firms into new markets explains most of the increase in national retail concentration, with consolidation via increases in local market shares increasing in importance between 1997 and 2007, and single-market firms playing a negligible role. Finally, we find that increases in local concentration can explain one-quarter to one-third of the 
+    
+[^7]: 追求股东价值的共同成本
+
+    The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2103.12138](http://arxiv.org/abs/2103.12138)
+
+    文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。
+
+    
+
+    本文采用准实验性的方法，根据公司股东大会（AGMs）的时间差异，提出了一个可移植的框架，推断股东的偏好和对公司利他决策的影响，并将其应用于covid相关捐赠、最近针对俄罗斯的私人制裁以及公司2012-19年的利他立场。AGMs的媒体曝光带来的形象收益，使得与公司同义的股东（如密切相关的个人）支持昂贵的利他变革，而其他股东（如金融公司）反对这些变革。支持这些变革的影响使收益下降了30％：追求（某些）股东的价值具有分配成本，大股东的监控可以避免由偏好异质性驱动的成本。
+
+    Using quasi-experimental variations from the timing of firms' Annual General Meetings (AGMs), we propose a portable framework to infer shareholders' preferences and influences on firms' prosocial decisions and apply it to covid-related donations, recent private sanctions on Russia, and firms' prosocial stances over 2012-19. Image gains from AGMs' media exposure drive shareholders synonymous with a firm, like closely-connected individuals, to support costly prosocial changes, while others, like financial corporations, oppose them. Influence supporting these changes lowers earnings by 30\%: pursuing the values of (some) shareholders has distributional costs, which the monitoring of large shareholders motivated by heterogeneous preferences could prevent.
     
 

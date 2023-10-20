@@ -1,0 +1,12 @@
+{
+    "title": "A PAC Learning Algorithm for LTL and Omega-regular Objectives in MDPs. (arXiv:2310.12248v1 [cs.LG])",
+    "abstract": "Linear temporal logic (LTL) and omega-regular objectives -- a superset of LTL -- have seen recent use as a way to express non-Markovian objectives in reinforcement learning. We introduce a model-based probably approximately correct (PAC) learning algorithm for omega-regular objectives in Markov decision processes. Unlike prior approaches, our algorithm learns from sampled trajectories of the system and does not require prior knowledge of the system's topology.",
+    "link": "http://arxiv.org/abs/2310.12248",
+    "context": "Title: A PAC Learning Algorithm for LTL and Omega-regular Objectives in MDPs. (arXiv:2310.12248v1 [cs.LG])\nAbstract: Linear temporal logic (LTL) and omega-regular objectives -- a superset of LTL -- have seen recent use as a way to express non-Markovian objectives in reinforcement learning. We introduce a model-based probably approximately correct (PAC) learning algorithm for omega-regular objectives in Markov decision processes. Unlike prior approaches, our algorithm learns from sampled trajectories of the system and does not require prior knowledge of the system's topology.",
+    "path": "papers/23/10/2310.12248.json",
+    "total_tokens": 588,
+    "translated_title": "MDP中LTL和ω-regular目标的PAC学习算法",
+    "translated_abstract": "线性时序逻辑（LTL）和ω-regular目标是近期用于在强化学习中表达非马尔可夫目标的一种方式。我们提出了一种基于模型的可能近似正确（PAC）学习算法，用于MDP中的ω-regular目标。与之前的方法不同，我们的算法从系统的采样轨迹中进行学习，并且不需要系统拓扑的先前知识。",
+    "tldr": "这个论文介绍了一种基于模型的PAC学习算法，用于在MDP中学习ω-regular目标，不需要系统拓扑的先前知识。",
+    "en_tdlr": "This paper introduces a model-based PAC learning algorithm for learning omega-regular objectives in MDPs, without requiring prior knowledge of the system's topology."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Compression of Recurrent Neural Networks using Matrix Factorization. (arXiv:2310.12688v1 [cs.LG])",
+    "abstract": "Compressing neural networks is a key step when deploying models for real-time or embedded applications. Factorizing the model's matrices using low-rank approximations is a promising method for achieving compression. While it is possible to set the rank before training, this approach is neither flexible nor optimal. In this work, we propose a post-training rank-selection method called Rank-Tuning that selects a different rank for each matrix. Used in combination with training adaptations, our method achieves high compression rates with no or little performance degradation. Our numerical experiments on signal processing tasks show that we can compress recurrent neural networks up to 14x with at most 1.4% relative performance reduction.",
+    "link": "http://arxiv.org/abs/2310.12688",
+    "context": "Title: Compression of Recurrent Neural Networks using Matrix Factorization. (arXiv:2310.12688v1 [cs.LG])\nAbstract: Compressing neural networks is a key step when deploying models for real-time or embedded applications. Factorizing the model's matrices using low-rank approximations is a promising method for achieving compression. While it is possible to set the rank before training, this approach is neither flexible nor optimal. In this work, we propose a post-training rank-selection method called Rank-Tuning that selects a different rank for each matrix. Used in combination with training adaptations, our method achieves high compression rates with no or little performance degradation. Our numerical experiments on signal processing tasks show that we can compress recurrent neural networks up to 14x with at most 1.4% relative performance reduction.",
+    "path": "papers/23/10/2310.12688.json",
+    "total_tokens": 769,
+    "translated_title": "使用矩阵因式分解压缩循环神经网络",
+    "translated_abstract": "在实时或嵌入式应用中部署模型时，压缩神经网络是一个关键步骤。使用低秩近似对模型的矩阵进行分解是一种有前途的压缩方法。虽然在训练之前可以设置秩，但这种方法既不灵活也不最优。在这项工作中，我们提出了一种名为Rank-Tuning的训练后秩选择方法，可以为每个矩阵选择不同的秩。结合训练适应性的使用，我们的方法在几乎没有性能降低或者有很少性能降低的情况下实现了高压缩率。我们在信号处理任务上的数值实验结果显示，我们可以将循环神经网络压缩至最多14倍，且相对性能降低最多为1.4%。",
+    "tldr": "本论文提出了一种称为Rank-Tuning的训练后秩选择方法，可以在循环神经网络中高效压缩模型，并在几乎没有性能降低的情况下实现高压缩率。",
+    "en_tdlr": "This paper proposes a post-training rank-selection method called Rank-Tuning, which achieves high compression rates in recurrent neural networks with little or no performance degradation."
+}

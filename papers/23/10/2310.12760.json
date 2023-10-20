@@ -1,0 +1,12 @@
+{
+    "title": "The Social Cost of Carbon. (arXiv:2310.12760v1 [econ.GN])",
+    "abstract": "The social cost of carbon is the damage avoided by slightly reducing carbon dioxide emissions. It is a measure of the desired intensity of climate policy. The social cost of carbon is highly uncertain because of the long and complex cause-effect chain, and because it quantifies and aggregates impacts over a long period of time, affecting all people in a wide range of possible futures. Recent estimates are around $\\$$80/tCO$_2$.",
+    "link": "http://arxiv.org/abs/2310.12760",
+    "context": "Title: The Social Cost of Carbon. (arXiv:2310.12760v1 [econ.GN])\nAbstract: The social cost of carbon is the damage avoided by slightly reducing carbon dioxide emissions. It is a measure of the desired intensity of climate policy. The social cost of carbon is highly uncertain because of the long and complex cause-effect chain, and because it quantifies and aggregates impacts over a long period of time, affecting all people in a wide range of possible futures. Recent estimates are around $\\$$80/tCO$_2$.",
+    "path": "papers/23/10/2310.12760.json",
+    "total_tokens": 566,
+    "translated_title": "碳的社会成本",
+    "translated_abstract": "碳的社会成本是通过稍微减少二氧化碳排放而避免的损害。它是衡量气候政策期望强度的一个指标。碳的社会成本因为长期和复杂的因果链以及对影响进行量化和聚合而高度不确定，影响着可能的未来范围内的所有人。最近的估计约为80美元/吨二氧化碳。",
+    "tldr": "碳的社会成本是通过减少二氧化碳排放而避免的损害的度量，估计约为80美元/吨二氧化碳。",
+    "en_tdlr": "The social cost of carbon is a measure of the damage avoided by reducing carbon dioxide emissions, with recent estimates at around $80/ton CO2."
+}
