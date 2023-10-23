@@ -1,0 +1,11 @@
+{
+    "title": "SRAI: Towards Standardization of Geospatial AI. (arXiv:2310.13098v1 [cs.LG])",
+    "abstract": "Spatial Representations for Artificial Intelligence (\\textit{srai}) is a Python library for working with geospatial data. The library can download geospatial data, split a given area into micro-regions using multiple algorithms and train an embedding model using various architectures. It includes baseline models as well as more complex methods from published works. Those capabilities make it possible to use \\textit{srai} in a complete pipeline for geospatial task solving. The proposed library is the first step to standardize the geospatial AI domain toolset. It is fully open-source and published under Apache 2.0 licence.",
+    "link": "http://arxiv.org/abs/2310.13098",
+    "context": "Title: SRAI: Towards Standardization of Geospatial AI. (arXiv:2310.13098v1 [cs.LG])\nAbstract: Spatial Representations for Artificial Intelligence (\\textit{srai}) is a Python library for working with geospatial data. The library can download geospatial data, split a given area into micro-regions using multiple algorithms and train an embedding model using various architectures. It includes baseline models as well as more complex methods from published works. Those capabilities make it possible to use \\textit{srai} in a complete pipeline for geospatial task solving. The proposed library is the first step to standardize the geospatial AI domain toolset. It is fully open-source and published under Apache 2.0 licence.",
+    "path": "papers/23/10/2310.13098.json",
+    "total_tokens": 702,
+    "translated_title": "SRAI: 探索地理空间人工智能的标准化",
+    "translated_abstract": "空间表示的人工智能（SRAI）是一个用于处理地理空间数据的Python库。该库可以下载地理空间数据，使用多种算法将给定区域划分为微区域，并使用不同的架构训练嵌入模型。它包括基准模型以及来自已发表作品的更复杂方法。这些功能使得在解决地理空间任务的完整流水线中使用SRAI成为可能。该提议的库是标准化地理空间人工智能领域工具集的第一步。它是完全开源的，并在Apache 2.0许可下发布。",
+    "tldr": "SRAI是一个Python库，用于标准化地理空间人工智能（Geospatial AI）领域工具集，包括下载地理空间数据、划分区域和训练嵌入模型等功能。"
+}

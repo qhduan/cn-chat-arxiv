@@ -1,0 +1,12 @@
+{
+    "title": "A Use Case: Reformulating Query Rewriting as a Statistical Machine Translation Problem. (arXiv:2310.13031v1 [cs.CL])",
+    "abstract": "One of the most important challenges for modern search engines is to retrieve relevant web content based on user queries. In order to achieve this challenge, search engines have a module to rewrite user queries. That is why modern web search engines utilize some statistical and neural models used in the natural language processing domain. Statistical machine translation is a well-known NLP method among them. The paper proposes a query rewriting pipeline based on a monolingual machine translation model that learns to rewrite Arabic user search queries. This paper also describes preprocessing steps to create a mapping between user queries and web page titles.",
+    "link": "http://arxiv.org/abs/2310.13031",
+    "context": "Title: A Use Case: Reformulating Query Rewriting as a Statistical Machine Translation Problem. (arXiv:2310.13031v1 [cs.CL])\nAbstract: One of the most important challenges for modern search engines is to retrieve relevant web content based on user queries. In order to achieve this challenge, search engines have a module to rewrite user queries. That is why modern web search engines utilize some statistical and neural models used in the natural language processing domain. Statistical machine translation is a well-known NLP method among them. The paper proposes a query rewriting pipeline based on a monolingual machine translation model that learns to rewrite Arabic user search queries. This paper also describes preprocessing steps to create a mapping between user queries and web page titles.",
+    "path": "papers/23/10/2310.13031.json",
+    "total_tokens": 671,
+    "translated_title": "将查询重写重新定义为统计机器翻译问题的用例",
+    "translated_abstract": "现代搜索引擎面临的最重要挑战之一是根据用户查询检索相关的网络内容。为了实现这个挑战，搜索引擎有一个模块来重写用户查询。因此，现代网络搜索引擎利用了自然语言处理领域中使用的一些统计和神经模型。其中，统计机器翻译是一种众所周知的NLP方法。本文提出了一种基于单语机器翻译模型的查询重写流程，学习如何重写阿拉伯语用户搜索查询。本文还描述了创建用户查询和网页标题之间映射的预处理步骤。",
+    "tldr": "本文提出了一种基于统计机器翻译的查询重写方法，通过学习重写阿拉伯语用户查询以改善搜索引擎的检索结果。",
+    "en_tdlr": "This paper proposes a query rewriting approach based on statistical machine translation to improve search engine retrieval by learning to rewrite Arabic user queries."
+}

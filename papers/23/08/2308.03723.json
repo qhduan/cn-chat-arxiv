@@ -1,0 +1,11 @@
+{
+    "title": "Dimensionality Reduction for Improving Out-of-Distribution Detection in Medical Image Segmentation. (arXiv:2308.03723v2 [cs.LG] UPDATED)",
+    "abstract": "Clinically deployed segmentation models are known to fail on data outside of their training distribution. As these models perform well on most cases, it is imperative to detect out-of-distribution (OOD) images at inference to protect against automation bias. This work applies the Mahalanobis distance post hoc to the bottleneck features of a Swin UNETR model that segments the liver on T1-weighted magnetic resonance imaging. By reducing the dimensions of the bottleneck features with principal component analysis, OOD images were detected with high performance and minimal computational load.",
+    "link": "http://arxiv.org/abs/2308.03723",
+    "context": "Title: Dimensionality Reduction for Improving Out-of-Distribution Detection in Medical Image Segmentation. (arXiv:2308.03723v2 [cs.LG] UPDATED)\nAbstract: Clinically deployed segmentation models are known to fail on data outside of their training distribution. As these models perform well on most cases, it is imperative to detect out-of-distribution (OOD) images at inference to protect against automation bias. This work applies the Mahalanobis distance post hoc to the bottleneck features of a Swin UNETR model that segments the liver on T1-weighted magnetic resonance imaging. By reducing the dimensions of the bottleneck features with principal component analysis, OOD images were detected with high performance and minimal computational load.",
+    "path": "papers/23/08/2308.03723.json",
+    "total_tokens": 705,
+    "translated_title": "提高医学图像分割中的越界检测的降维方法",
+    "translated_abstract": "已知临床应用的分割模型在其训练分布之外的数据上表现不佳。由于这些模型在大多数情况下表现良好，因此在推断过程中检测越界图像是至关重要的，以防止自动化偏差。本研究将马氏距离后处理应用于Swin UNETR模型的瓶颈特征，该模型用于对T1加权磁共振成像上的肝脏进行分割。通过使用主成分分析降低瓶颈特征的维数，可以高效地检测到越界图像，并且具有较小的计算负载。",
+    "tldr": "本研究提出了一种降维方法，通过在医学图像分割中应用马氏距离后处理和主成分分析，实现对越界图像的高效检测。"
+}

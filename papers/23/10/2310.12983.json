@@ -1,0 +1,12 @@
+{
+    "title": "Majority rule as a unique voting method in elections with multiple candidates. (arXiv:2310.12983v1 [econ.TH])",
+    "abstract": "May's classical theorem states that in a single-winner choose-one voting system with just two candidates, majority rule is the only social choice function satisfying anonimity, neutrality and positive responsiveness axiom. Anonimity and neutrality are usually regarded as very natural constraints on the social choice function. Positive responsiveness, on the other hand, is sometimes deemed too strong of an axiom, which stimulates further search for less stringent conditions. One viable substitute is Gerhard J. Woeginger's \"reducibility to subsocieties\". We demonstrate that the condition generalizes to more than two candidates and, consequently, characterizes majority rule for elections with multiple candidates.",
+    "link": "http://arxiv.org/abs/2310.12983",
+    "context": "Title: Majority rule as a unique voting method in elections with multiple candidates. (arXiv:2310.12983v1 [econ.TH])\nAbstract: May's classical theorem states that in a single-winner choose-one voting system with just two candidates, majority rule is the only social choice function satisfying anonimity, neutrality and positive responsiveness axiom. Anonimity and neutrality are usually regarded as very natural constraints on the social choice function. Positive responsiveness, on the other hand, is sometimes deemed too strong of an axiom, which stimulates further search for less stringent conditions. One viable substitute is Gerhard J. Woeginger's \"reducibility to subsocieties\". We demonstrate that the condition generalizes to more than two candidates and, consequently, characterizes majority rule for elections with multiple candidates.",
+    "path": "papers/23/10/2310.12983.json",
+    "total_tokens": 709,
+    "translated_title": "多数原则作为唯一的多候选人选举投票方法",
+    "translated_abstract": "May的经典定理指出，在只有两名候选人的单胜者选一个投票系统中，多数原则是唯一满足匿名性、中立性和积极响应公理的社会选择函数。匿名性和中立性通常被认为是对社会选择函数非常自然的限制。积极响应则有时被认为是过于严格的公理，推动人们进一步寻找更宽松的条件。一种可行的替代方案是Gerhard J. Woeginger的“可约为子社会”。我们证明了这个条件可以推广到多于两个候选人的情况下，并且进一步表明了多数原则是适用于多候选人的选举的特征。",
+    "tldr": "多数原则被证明是多候选人选举中满足匿名性、中立性和积极响应公理的唯一社会选择函数。",
+    "en_tdlr": "Majority rule has been proven to be the only social choice function that satisfies anonymity, neutrality, and positive responsiveness in elections with multiple candidates."
+}

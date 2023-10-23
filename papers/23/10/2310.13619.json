@@ -1,0 +1,11 @@
+{
+    "title": "Semi-supervised multimodal coreference resolution in image narrations. (arXiv:2310.13619v1 [cs.CL])",
+    "abstract": "In this paper, we study multimodal coreference resolution, specifically where a longer descriptive text, i.e., a narration is paired with an image. This poses significant challenges due to fine-grained image-text alignment, inherent ambiguity present in narrative language, and unavailability of large annotated training sets. To tackle these challenges, we present a data efficient semi-supervised approach that utilizes image-narration pairs to resolve coreferences and narrative grounding in a multimodal context. Our approach incorporates losses for both labeled and unlabeled data within a cross-modal framework. Our evaluation shows that the proposed approach outperforms strong baselines both quantitatively and qualitatively, for the tasks of coreference resolution and narrative grounding.",
+    "link": "http://arxiv.org/abs/2310.13619",
+    "context": "Title: Semi-supervised multimodal coreference resolution in image narrations. (arXiv:2310.13619v1 [cs.CL])\nAbstract: In this paper, we study multimodal coreference resolution, specifically where a longer descriptive text, i.e., a narration is paired with an image. This poses significant challenges due to fine-grained image-text alignment, inherent ambiguity present in narrative language, and unavailability of large annotated training sets. To tackle these challenges, we present a data efficient semi-supervised approach that utilizes image-narration pairs to resolve coreferences and narrative grounding in a multimodal context. Our approach incorporates losses for both labeled and unlabeled data within a cross-modal framework. Our evaluation shows that the proposed approach outperforms strong baselines both quantitatively and qualitatively, for the tasks of coreference resolution and narrative grounding.",
+    "path": "papers/23/10/2310.13619.json",
+    "total_tokens": 786,
+    "translated_title": "图像叙述中的半监督多模态共指消解",
+    "translated_abstract": "本文研究了多模态共指消解，特别是在图像与长篇叙述文本配对的情况下。这种情况下存在细粒度的图像-文本对齐，叙述语言中固有的歧义以及缺乏大规模标注训练集等重要挑战。为了应对这些挑战，我们提出了一种数据高效的半监督方法，利用图像叙述对来在多模态环境中解决共指消解和叙事基础问题。我们的方法在跨模态框架中结合了有标签和无标签数据的损失函数。我们的评估结果表明，所提出的方法在共指消解和叙事基础任务上在定量和定性上均优于强基线模型。",
+    "tldr": "本文提出了一种使用图像叙述对进行半监督多模态共指消解的方法，通过结合有标签和无标签数据的损失函数，在共指消解和叙事基础任务上取得了优越性能。"
+}

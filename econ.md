@@ -2,277 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Moment-dependent phase transitions in high-dimensional Gaussian approximations.](http://arxiv.org/abs/2310.12863) | 通过研究数据的矩数量，我们研究了高维高斯近似的相变条件，即高斯近似的有效性取决于维度和矩数量的关系。 |
-| [^2] | [Nonparametric Regression with Dyadic Data.](http://arxiv.org/abs/2310.12825) | 本文研究了非参数回归与二叉数据的识别和估计问题，并提出了适当的标准化方法和估计量的一致性和渐近分布，通过蒙特卡罗模拟评估了其有限样本性质。 |
-| [^3] | [A note on the logical inconsistency of the Hotelling Rule: A Revisit from the System's Analysis Perspective.](http://arxiv.org/abs/2310.12807) | 该研究对Hotelling法则进行了重新审视，发现其存在逻辑缺陷；这种缺陷必须在解释HR提供的价格预测和观察到的历史价格差异之前被考虑到。 |
-| [^4] | [The Social Cost of Carbon.](http://arxiv.org/abs/2310.12760) | 碳的社会成本是通过减少二氧化碳排放而避免的损害的度量，估计约为80美元/吨二氧化碳。 |
-| [^5] | [Price dispersion across online platforms: Evidence from hotel room prices in London (UK).](http://arxiv.org/abs/2310.12341) | 本文研究了同质化产品在不同在线平台上的普遍价格分散现象，发现价格在不同预订网站之间存在较大差异，且价格分散在预订日期靠近入住日期时仍然存在。通过构建理论模型，我们解释了价格分散现象的原因，并指出在存在总需求不确定性和容量限制的情况下，价格分散仍然可能存在。 |
-| [^6] | [Peer Effects in Consideration and Preferences.](http://arxiv.org/abs/2310.12272) | 该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。 |
-| [^7] | [A solution to walrasian auctions for many tokens with AMMs available.](http://arxiv.org/abs/2310.12255) | 本研究提出了适用于多代币的Walrasian拍卖问题的解决方案，该方案基于Brouwer的不动点定理，能够执行所有订单并进行最优的AMMs交换。 |
-| [^8] | [DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling.](http://arxiv.org/abs/2309.02072) | DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。 |
-| [^9] | [Monotonicity Anomalies in Scottish Local Government Elections.](http://arxiv.org/abs/2305.17741) | 本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。 |
-| [^10] | [Debiased inference for dynamic nonlinear models with two-way fixed effects.](http://arxiv.org/abs/2305.03134) | 本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。 |
-| [^11] | [Bayes = Blackwell, Almost.](http://arxiv.org/abs/2302.13956) | 存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。 |
-| [^12] | [Price Discovery for Derivatives.](http://arxiv.org/abs/2302.13426) | 本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。 |
-| [^13] | [Covariate Adjustment in Experiments with Matched Pairs.](http://arxiv.org/abs/2302.04380) | 本文研究了在匹配对照实验中的协变量调整对平均处理效应的推断的影响。研究发现，具有有限维线性调整的估计器并不一定能提高精度相对于未调整的差异估计器。 |
-| [^14] | [Unconditional Quantile Partial Effects via Conditional Quantile Regression.](http://arxiv.org/abs/2301.07241) | 本文提出了一种半参数方法来估计无条件分位数偏效应，该方法基于识别结果，使用分位数回归系数估计加权平均的条件效应。提出了一个具有良好性能且稳健的两步估计器并证明了其渐进性质。研究了 Engel 曲线的应用来说明方法的有效性。 |
-| [^15] | [An identification and testing strategy for proxy-SVARs with weak proxies.](http://arxiv.org/abs/2210.04523) | 本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。 |
-| [^16] | [Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition.](http://arxiv.org/abs/2209.11840) | 本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议，发现有限证据支持丢弃对有助于恢复平均处理效应的观点，但它可能有助于恢复条件平均处理效应的凸加权平均。 |
-| [^17] | [The Evolution of U.S. Retail Concentration.](http://arxiv.org/abs/2202.07609) | 美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。 |
-| [^18] | [The Shared Cost of Pursuing Shareholder Value.](http://arxiv.org/abs/2103.12138) | 文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。 |
+| [^1] | [RealFM: A Realistic Mechanism to Incentivize Data Contribution and Device Participation.](http://arxiv.org/abs/2310.13681) | RealFM 是一个真实的联邦机制，旨在解决现实环境中联邦学习中的驻泊者问题，通过模拟设备效用、激励数据贡献和设备参与，并提供了非线性关系的模型准确性和效用，从而改善了服务器和设备的效用和数据贡献。 |
+| [^2] | [Non-linear approximations of DSGE models with neural-networks and hard-constraints.](http://arxiv.org/abs/2310.13436) | 该论文提出了一种新方法来处理DSGE模型中的约束，通过直接约束神经网络的输出以满足经济约束。这种方法通过重新缩放操作实现，具有许多有吸引力的特性，并且优于现有的基于惩罚的方法。 |
+| [^3] | [Impact of Loss-Framing and Risk Attitudes on Insurance Purchase: Insights from a Game-like Interface Study.](http://arxiv.org/abs/2310.13300) | 本研究通过使用游戏式界面调查了损失框架和个体风险态度对购买保险意愿的影响。研究发现，损失框架在年轻人群体中对保险消费的影响更大。健康和意外保险与年轻人的风险态度呈负相关，而与年长参与者的风险态度呈正相关。人寿保险与风险态度之间没有明显关联。 |
+| [^4] | [Transparency challenges in policy evaluation with causal machine learning -- improving usability and accountability.](http://arxiv.org/abs/2310.13240) | 透明度问题是因果机器学习在政策评估中的挑战，因为黑盒子模型难以理解和问责。本文提出了通过可解释的AI工具和简化模型来解决这些问题的方法。 |
+| [^5] | [A Deep Learning Analysis of Climate Change, Innovation, and Uncertainty.](http://arxiv.org/abs/2310.13200) | 本研究使用深度学习分析了气候变化、创新和不确定性，发现模型不确定性对决策和社会估值产生首要影响，并在整合的气候经济创新框架中提出了对投资调整的重要调整。 |
+| [^6] | [Persuasion in Veto Bargaining.](http://arxiv.org/abs/2310.13148) | 本论文考虑了经典的否决谈判模型，引入了议程制定者的说服能力。研究结果表明，在否决者具有二次损失的情况下，通过不提供信息或进行简单二元实验可以实现议程制定者最优。当存在预期偏差时，提议者选择透露部分信息，这样做可以增加议程权力的行使范围。 |
+| [^7] | [Metastable Hidden Markov Processes: a theory for modeling financial markets.](http://arxiv.org/abs/2310.13081) | 本文提出了一个亚稳态隐马尔可夫过程的理论，用于建模金融市场。该理论认为金融市场的状态演化可以被描述为一个互动的马尔可夫系统，并且具有亚稳态行为。这个理论为金融约束下的相互作用马尔可夫系统的发展提供了启示，可以改变金融经济学和因果因子投资的研究范式。同时，该理论强调了市场状态对投资绩效的影响，相较于其他变量对投资绩效的直接影响。 |
+| [^8] | [Monotonicity Failure in Ranked Choice Voting -- Necessary and Sufficient Conditions for 3-Candidate Elections.](http://arxiv.org/abs/2310.12988) | 本文针对排名选择投票中的单调性失败问题，在三个候选人的选举中提出了测试单调性失败可能性的条件。 |
+| [^9] | [Majority rule as a unique voting method in elections with multiple candidates.](http://arxiv.org/abs/2310.12983) | 多数原则被证明是多候选人选举中满足匿名性、中立性和积极响应公理的唯一社会选择函数。 |
+| [^10] | [The Local Projection Residual Bootstrap for AR(1) Models.](http://arxiv.org/abs/2309.01889) | 本文提出了一种局部投影残差自助法来构建AR(1)模型的脉冲响应系数的置信区间，并证明了其一致性和渐近改进性。 |
+| [^11] | [Causal Interpretation of Linear Social Interaction Models with Endogenous Networks.](http://arxiv.org/abs/2308.04276) | 本研究研究了在内生网络条件下线性社交互作用模型的因果解释，并提出使用潜在同伴处理作为工具变量，通过两个IV-based估计量实现了溢出效应的因果解释。 |
+| [^12] | [Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries.](http://arxiv.org/abs/2305.06888) | 本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。 |
+| [^13] | [Q-based Equilibria.](http://arxiv.org/abs/2304.12647) | 该论文研究了基于Q的策略规则族中的均衡偏差（或 Qb-equilibria），即Q值在不同监测技术下的效果。 |
+| [^14] | [Bounds, Heuristics, and Prophet Inequalities for Assortment Optimization.](http://arxiv.org/abs/2109.14861) | 本文引入了离散选择模型中的赔率比，并利用它们制定了界限来解决组合优化问题。我们还提出了一种有洞察力的公司模型来评估个性化组合的潜在收益。数值研究表明，当产品效用具有异质性且方差较小时，个性化组合可以带来巨大的收益。 |
 
 # 详细
 
-[^1]: 高维高斯近似中的依赖矩的相变
+[^1]: RealFM: 一个真实机制，激励数据贡献和设备参与
 
-    Moment-dependent phase transitions in high-dimensional Gaussian approximations. (arXiv:2310.12863v1 [math.ST])
+    RealFM: A Realistic Mechanism to Incentivize Data Contribution and Device Participation. (arXiv:2310.13681v1 [cs.GT])
 
-    [http://arxiv.org/abs/2310.12863](http://arxiv.org/abs/2310.12863)
+    [http://arxiv.org/abs/2310.13681](http://arxiv.org/abs/2310.13681)
 
-    通过研究数据的矩数量，我们研究了高维高斯近似的相变条件，即高斯近似的有效性取决于维度和矩数量的关系。
-
-    
-
-    高维中心极限定理已经得到了广泛研究，重点大多集中在数据是亚高斯或亚指数分布的情况。然而，在实践中，更重的尾巴是普遍存在的。在本文中，我们研究了维度 $d$ 下的临界增长速率，超过这个速率高斯近似就不再有效。我们特别关注观测量具有的矩的数量 $m$ 对于这些阈值的影响。对于每个 $m\in(2,\infty)$，我们构造了在 $\mathbb{R}^d$ 中独立同分布的随机向量 $\textbf{X}_1,...,\textbf{X}_n$，其分量是独立的，并具有一个与 $n$ 和 $d$ 无关的分布，且具有有限的第 $m$ 个绝对矩。对于这样的向量，如果存在一个 $\varepsilon\in(0,\infty)$，使得 $d/n^{m/2-1+\varepsilon}\not\to 0$，那么高斯近似误差 (Gaussian approximation error, GAE) 满足 $$  \limsup_{n\to\infty}\sup_{t\in\mathbb{R}}\left[\mathbb{P}\left(\max_{1\leq j\le
-
-    High-dimensional central limit theorems have been intensively studied with most focus being on the case where the data is sub-Gaussian or sub-exponential. However, heavier tails are omnipresent in practice. In this article, we study the critical growth rates of dimension $d$ below which Gaussian approximations are asymptotically valid but beyond which they are not. We are particularly interested in how these thresholds depend on the number of moments $m$ that the observations possess. For every $m\in(2,\infty)$, we construct i.i.d. random vectors $\textbf{X}_1,...,\textbf{X}_n$ in $\mathbb{R}^d$, the entries of which are independent and have a common distribution (independent of $n$ and $d$) with finite $m$th absolute moment, and such that the following holds: if there exists an $\varepsilon\in(0,\infty)$ such that $d/n^{m/2-1+\varepsilon}\not\to 0$, then the Gaussian approximation error (GAE) satisfies $$  \limsup_{n\to\infty}\sup_{t\in\mathbb{R}}\left[\mathbb{P}\left(\max_{1\leq j\le
-    
-[^2]: 非参数回归与二叉数据
-
-    Nonparametric Regression with Dyadic Data. (arXiv:2310.12825v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.12825](http://arxiv.org/abs/2310.12825)
-
-    本文研究了非参数回归与二叉数据的识别和估计问题，并提出了适当的标准化方法和估计量的一致性和渐近分布，通过蒙特卡罗模拟评估了其有限样本性质。
+    RealFM 是一个真实的联邦机制，旨在解决现实环境中联邦学习中的驻泊者问题，通过模拟设备效用、激励数据贡献和设备参与，并提供了非线性关系的模型准确性和效用，从而改善了服务器和设备的效用和数据贡献。
 
     
 
-    本文研究了一个非参数非可分二叉模型的识别和估计问题，其中结构函数和不可观测随机项的分布被假设为未知。还提出了不可观测随机项分布的识别和估计方法。我假设结构函数在不可观测异质性上连续且严格递增。我提出了适当的标准化方法来实现识别，通过允许结构函数在不可观测随机项及其一些可观测项上具有一些理想性质，如一次齐次性。还提出了估计量的一致性和渐近分布。通过蒙特卡罗模拟评估了提出的估计量的有限样本性质。
+    边缘设备参与联邦学习（FL）通常在设备-服务器通信的视角下进行研究（例如设备掉线），并假设边缘设备有持续参与FL的愿望。因此，在实际环境中实施当前的FL框架存在缺陷，许多框架遇到了驻泊者问题。为了将FL推向更真实的环境，我们提出了RealFM：第一个真正的联邦机制，它（1）实际地模拟设备效用，（2）激励数据贡献和设备参与，（3）可证明地消除了驻泊者现象。RealFM不需要数据共享，并允许模型准确性和效用之间存在非线性关系，相比于不参与和其他FL机制的设备，提高了服务器和参与设备的效用和数据贡献。在真实数据上，RealFM提高了设备和服务器的效用以及数据贡献，最多可达...
 
-    This paper studies the identification and estimation of a nonparametric nonseparable dyadic model where the structural function and the distribution of the unobservable random terms are assumed to be unknown. The identification and the estimation of the distribution of the unobservable random term are also proposed. I assume that the structural function is continuous and strictly increasing in the unobservable heterogeneity. I propose suitable normalization for the identification by allowing the structural function to have some desirable properties such as homogeneity of degree one in the unobservable random term and some of its observables. The consistency and the asymptotic distribution of the estimators are proposed. The finite sample properties of the proposed estimators in a Monte-Carlo simulation are assessed.
+    Edge device participation in federating learning (FL) has been typically studied under the lens of device-server communication (e.g., device dropout) and assumes an undying desire from edge devices to participate in FL. As a result, current FL frameworks are flawed when implemented in real-world settings, with many encountering the free-rider problem. In a step to push FL towards realistic settings, we propose RealFM: the first truly federated mechanism which (1) realistically models device utility, (2) incentivizes data contribution and device participation, and (3) provably removes the free-rider phenomena. RealFM does not require data sharing and allows for a non-linear relationship between model accuracy and utility, which improves the utility gained by the server and participating devices compared to non-participating devices as well as devices participating in other FL mechanisms. On real-world data, RealFM improves device and server utility, as well as data contribution, by up t
     
-[^3]: 对Hotelling法则逻辑不一致性的注解：从系统分析的角度重新审视
+[^2]: 用神经网络和硬约束进行DSGE模型的非线性逼近
 
-    A note on the logical inconsistency of the Hotelling Rule: A Revisit from the System's Analysis Perspective. (arXiv:2310.12807v1 [econ.TH])
+    Non-linear approximations of DSGE models with neural-networks and hard-constraints. (arXiv:2310.13436v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.12807](http://arxiv.org/abs/2310.12807)
+    [http://arxiv.org/abs/2310.13436](http://arxiv.org/abs/2310.13436)
 
-    该研究对Hotelling法则进行了重新审视，发现其存在逻辑缺陷；这种缺陷必须在解释HR提供的价格预测和观察到的历史价格差异之前被考虑到。
-
-    
-
-    被称为“枯竭性资源经济的基本原则”的“Hotelling法则”存在着一个从未被充分关注的逻辑缺陷。在试图解释HR提供的价格预测与历史观察到的价格之间的差异之前，应该考虑到这个缺陷。我们的分析集中在HR的原始形式上，我们不涉及其他方面，如不同的开采成本和升级原始模型的其他方式。我们得出结论，HR不能从简单模型中推导出来，因此它应该被理解为自身的假设，而不是从其他更基本的假设中推导出来的规则。
-
-    The "Hotelling rule" (HR) called to be "the fundamental principle of the economics of exhaustible resources" has a logical deficiency which was never paid a sufficient attention to. This deficiency should be taken into account before attempting to explain discrepancies between the price prediction provided by the HR and historically observed prices. Our analysis is focused on the HR in its original form, we do not touch upon other aspects such as varying extraction costs and other ways of upgrading the original model underlying the Hotelling rule. We conclude that HR can not be derived from the simple models as it was claimed, therefore it should be understood as an assumption on its own, and not as a rule derived from other more basic assumptions.
-    
-[^4]: 碳的社会成本
-
-    The Social Cost of Carbon. (arXiv:2310.12760v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.12760](http://arxiv.org/abs/2310.12760)
-
-    碳的社会成本是通过减少二氧化碳排放而避免的损害的度量，估计约为80美元/吨二氧化碳。
+    该论文提出了一种新方法来处理DSGE模型中的约束，通过直接约束神经网络的输出以满足经济约束。这种方法通过重新缩放操作实现，具有许多有吸引力的特性，并且优于现有的基于惩罚的方法。
 
     
 
-    碳的社会成本是通过稍微减少二氧化碳排放而避免的损害。它是衡量气候政策期望强度的一个指标。碳的社会成本因为长期和复杂的因果链以及对影响进行量化和聚合而高度不确定，影响着可能的未来范围内的所有人。最近的估计约为80美元/吨二氧化碳。
+    最近一些论文建议使用神经网络来逼近DSGE模型中的政策函数，以避免维度的灾难性增加，并保持非线性。其中一个重要步骤是将经济模型的约束表示为神经网络的输出。我提出并展示了一种处理这些约束的新方法，即通过直接约束神经网络的输出，以使经济约束得以满足。这是通过可微的重新缩放操作实现的，因此与拟合神经网络时使用的标准梯度下降方法兼容。这种方法具有许多有吸引力的特性，并且被证明优于现有文献中提出的基于惩罚的方法，尽管后者在理论上是正确的，但行为可能不稳定。
 
-    The social cost of carbon is the damage avoided by slightly reducing carbon dioxide emissions. It is a measure of the desired intensity of climate policy. The social cost of carbon is highly uncertain because of the long and complex cause-effect chain, and because it quantifies and aggregates impacts over a long period of time, affecting all people in a wide range of possible futures. Recent estimates are around $\$$80/tCO$_2$.
+    Recently a number of papers have suggested using neural-networks in order to approximate policy functions in DSGE models, while avoiding the curse of dimensionality, which for example arises when solving many HANK models, and while preserving non-linearity. One important step of this method is to represent the constraints of the economic model in question in the outputs of the neural-network. I propose, and demonstrate the advantages of, a novel approach to handling these constraints which involves directly constraining the neural-network outputs, such that the economic constraints are satisfied by construction. This is achieved by a combination of re-scaling operations that are differentiable and therefore compatible with the standard gradient descent approach used when fitting neural-networks. This has a number of attractive properties, and is shown to out-perform the penalty-based approach suggested by the existing literature, which while theoretically sound, can be poorly behaved p
     
-[^5]: 在线平台上的价格分散：来自伦敦（英国）酒店房价的证据
+[^3]: 损失框架和风险态度对保险购买的影响：基于游戏式界面研究的见解
 
-    Price dispersion across online platforms: Evidence from hotel room prices in London (UK). (arXiv:2310.12341v1 [econ.GN])
+    Impact of Loss-Framing and Risk Attitudes on Insurance Purchase: Insights from a Game-like Interface Study. (arXiv:2310.13300v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.12341](http://arxiv.org/abs/2310.12341)
+    [http://arxiv.org/abs/2310.13300](http://arxiv.org/abs/2310.13300)
 
-    本文研究了同质化产品在不同在线平台上的普遍价格分散现象，发现价格在不同预订网站之间存在较大差异，且价格分散在预订日期靠近入住日期时仍然存在。通过构建理论模型，我们解释了价格分散现象的原因，并指出在存在总需求不确定性和容量限制的情况下，价格分散仍然可能存在。
-
-    
-
-    本文研究了即使消费者可以轻松从比较网站获取价格信息，但同质化产品在不同在线平台上的普遍价格分散现象。我们收集了伦敦市最受欢迎的200家酒店的数据，并发现在预订酒店房间时，价格在不同预订网站之间存在较大差异。此外，我们发现在预订日期靠近入住日期时，不同平台上的价格趋于一致。然而，价格分散仍然存在直到入住日期，意味着“一价法则”不成立。我们提出了一个简单的理论模型来解释这一现象，并表明在存在总需求不确定性和容量限制的情况下，即使产品是同质化的，消费者是同质化的，所有参与者都对市场结构拥有完美信息，消费者获得产品信息无需付出成本，价格分散仍可能存在。
-
-    This paper studies the widespread price dispersion of homogeneous products across different online platforms, even when consumers can easily access price information from comparison websites. We collect data for the 200 most popular hotels in London (UK) and document that prices vary widely across booking sites while making reservations for a hotel room. Additionally, we find that prices listed across different platforms tend to converge as the booking date gets closer to the date of stay. However, the price dispersion persists until the date of stay, implying that the "law of one price" does not hold. We present a simple theoretical model to explain this and show that in the presence of aggregate demand uncertainty and capacity constraints, price dispersion could exist even when products are homogeneous, consumers are homogeneous, all agents have perfect information about the market structure, and consumers face no search costs to acquire information about the products. Our theoretica
-    
-[^6]: 考虑和偏好中的同伴影响
-
-    Peer Effects in Consideration and Preferences. (arXiv:2310.12272v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.12272](http://arxiv.org/abs/2310.12272)
-
-    该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。
+    本研究通过使用游戏式界面调查了损失框架和个体风险态度对购买保险意愿的影响。研究发现，损失框架在年轻人群体中对保险消费的影响更大。健康和意外保险与年轻人的风险态度呈负相关，而与年长参与者的风险态度呈正相关。人寿保险与风险态度之间没有明显关联。
 
     
 
-    我们开发了一个一般的离散选择模型，将同伴影响纳入偏好和考虑集中。我们对平衡行为进行描述，并建立了一系列选择中能恢复模型各个部分的条件。我们允许同伴影响只作用于偏好、只作用于考虑，或者同时作用于两者。我们利用不同类型的变化来区分偏好和考虑集中的同伴影响。这使我们能够恢复网络中代理之间的连接集合（和类型）。然后我们利用这些信息来恢复每个代理人的随机偏好和注意机制。这些非参数识别结果允许代理人之间的无限异质性，并不依赖于协变量或可用选项（或菜单）的变化。我们将我们的结果应用于咖啡连锁店的扩张决策，并发现有限的考虑证据。我们进行了反事实预测模拟，并展示了有限的考虑如何影响决策。
+    本研究通过使用游戏式界面作为选择架构，调查了损失框架和个体风险态度对购买保险产品的意愿的影响。该应用程序将真实生活中的事件呈现出来。无论是财务损失框架事件还是情感损失框架事件之后都有购买保险的选择。研究对象包括本科生和年长参与者，后者根据收入和教育程度进一步细分。研究结果表明，损失框架对保险消费的影响在年轻人群体中更高，尽管这取决于保险产品类型。健康和意外保险与年轻参与者的风险态度呈负相关，而意外保险与年长参与者呈正相关。风险态度和人寿保险产品之间没有依赖关系。这些发现阐明了年龄、收入、家庭责任和风险态度的作用。
 
-    We develop a general model of discrete choice that incorporates peer effects in preferences and consideration sets. We characterize the equilibrium behavior and establish conditions under which all parts of the model can be recovered from a sequence of choices. We allow peers to affect only preferences, only consideration, or both. We exploit different types of variations to separate the peer effects in preferences and consideration sets. This allows us to recover the set (and type) of connections between the agents in the network. We then use this information to recover the random preferences and the attention mechanisms of each agent. These nonparametric identification results allow unrestricted heterogeneity across agents and do not rely on the variation of either covariates or the set of available options (or menus). We apply our results to model expansion decisions by coffee chains and find evidence of limited consideration. We simulate counterfactual predictions and show how limi
+    This study investigates the impact of loss-framing and individual risk attitude on willingness- to purchase insurance products utilizing a game-like interface as choice architecture. The application presents events as experienced in real life. Both financial and emotional loss-framing events are followed by choices to purchase insurance. The participant cohorts considered were undergraduate students and older participants; the latter group was further subdivided by income and education. The within-subject analysis reveals that the loss framing effect on insurance consumption is higher in the younger population, though contingent on the insurance product type. Health and accident insurance shows a negative correlation with risk attitudes for younger participants and a positive correlation with accident insurance for older participants. Risk attitude and life insurance products showed no dependency. The findings elucidate the role of age, income, family responsibilities, and risk attitud
     
-[^7]: 适用于多代币的Walrasian拍卖问题的解决方案与AMMs
+[^4]: 透明度挑战与因果机器学习中的政策评估 - 提高可用性和问责性
 
-    A solution to walrasian auctions for many tokens with AMMs available. (arXiv:2310.12255v1 [q-fin.MF])
+    Transparency challenges in policy evaluation with causal machine learning -- improving usability and accountability. (arXiv:2310.13240v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.12255](http://arxiv.org/abs/2310.12255)
+    [http://arxiv.org/abs/2310.13240](http://arxiv.org/abs/2310.13240)
 
-    本研究提出了适用于多代币的Walrasian拍卖问题的解决方案，该方案基于Brouwer的不动点定理，能够执行所有订单并进行最优的AMMs交换。
-
-    
-
-    考虑某一状态下有限数量的交易订单和自动市场制造商（AMMs）。我们提出了一个解决方案，用于找到一个均衡价格向量，以便与相应的最优AMMs交换一起执行所有订单。该解决方案基于Brouwer的不动点定理。我们讨论了与公共区块链活动中的实际情况相关的计算方面问题。
-
-    Consider a finite set of trade orders and automated market makers (AMMs) at some state. We propose a solution to the problem of finding an equilibrium price vector to execute all the orders jointly with corresponding optimal AMMs swaps. The solution is based on Brouwer's fixed-point theorem. We discuss computational aspects relevant for realistic situations in public blockchain activity.
-    
-[^8]: DeepVol：一种用于通用资产波动性建模的深度迁移学习方法
-
-    DeepVol: A Deep Transfer Learning Approach for Universal Asset Volatility Modeling. (arXiv:2309.02072v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.02072](http://arxiv.org/abs/2309.02072)
-
-    DeepVol是一种用于通用资产波动性建模的深度迁移学习方法，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，可能改变对波动性的理解和预测方式。
+    透明度问题是因果机器学习在政策评估中的挑战，因为黑盒子模型难以理解和问责。本文提出了通过可解释的AI工具和简化模型来解决这些问题的方法。
 
     
 
-    本文介绍了一种新的深度学习波动性模型DeepVol，它在模型的广泛性方面优于传统的计量经济模型。DeepVol利用迁移学习的能力，通过一个通用模型有效地捕捉和建模所有金融资产的波动性动态，包括以前未见过的资产。这与计量经济学文献中的主流做法形成鲜明对比，后者需要为不同数据集训练单独的模型。引入DeepVol为金融行业的波动性建模和预测开辟了新的途径，可能会改变对波动性的理解和预测方式。
+    因果机器学习工具开始在实际政策评估任务中使用，灵活估计治疗效果。这些方法的一个问题是所使用的机器学习模型通常是黑盒子，即没有全局可解释的方式来理解模型如何进行估计。这在政策评估应用中是一个明显的问题，特别是在政府领域，因为很难理解这些模型是否按照公正的方式运行，基于正确的证据解释，并且透明到足以允许在出现问题时进行问责。然而，在因果机器学习文献中很少讨论透明度问题以及如何解决这些问题。本文探讨了为什么透明度问题是因果机器学习在公共政策评估应用中的问题，并考虑通过可解释的AI工具和简化模型来解决这些问题的方法。
 
-    This paper introduces DeepVol, a promising new deep learning volatility model that outperforms traditional econometric models in terms of model generality. DeepVol leverages the power of transfer learning to effectively capture and model the volatility dynamics of all financial assets, including previously unseen ones, using a single universal model. This contrasts to the prevailing practice in econometrics literature, which necessitates training separate models for individual datasets. The introduction of DeepVol opens up new avenues for volatility modeling and forecasting in the finance industry, potentially transforming the way volatility is understood and predicted.
+    Causal machine learning tools are beginning to see use in real-world policy evaluation tasks to flexibly estimate treatment effects. One issue with these methods is that the machine learning models used are generally black boxes, i.e., there is no globally interpretable way to understand how a model makes estimates. This is a clear problem in policy evaluation applications, particularly in government, because it is difficult to understand whether such models are functioning in ways that are fair, based on the correct interpretation of evidence and transparent enough to allow for accountability if things go wrong. However, there has been little discussion of transparency problems in the causal machine learning literature and how these might be overcome. This paper explores why transparency issues are a problem for causal machine learning in public policy evaluation applications and considers ways these problems might be addressed through explainable AI tools and by simplifying models in
     
-[^9]: 苏格兰地方政府选举中的单调性异常现象
+[^5]: 深度学习分析气候变化、创新和不确定性
 
-    Monotonicity Anomalies in Scottish Local Government Elections. (arXiv:2305.17741v1 [econ.GN])
+    A Deep Learning Analysis of Climate Change, Innovation, and Uncertainty. (arXiv:2310.13200v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.17741](http://arxiv.org/abs/2305.17741)
+    [http://arxiv.org/abs/2310.13200](http://arxiv.org/abs/2310.13200)
 
-    本研究分析了苏格兰1,079个地方政府STV选举，发现其中41次出现某种单调性异常，且这些异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。
-
-    
-
-    单一可转移选票（STV）投票方法用于选举排名选举中的多个候选人。STV的一个弱点是它未能通过与单调性和无表决悖论相关的多个公平标准。我们分析了苏格兰1,079个地方政府STV选举，以估计现实世界选举中此类单调性异常的频率，并将结果与关于此类异常出现率的先前经验和理论研究进行比较。在1079次选举中，我们发现41次出现某种单调性异常。我们通常发现异常率与之前的经验研究相似，远低于大多数理论研究发现的异常率。我们发现的大多数STV异常都是第一次在实际选举中记录到的。
-
-    The single transferable vote (STV) voting method is used to elect multiple candidates in ranked-choice elections. One weakness of STV is that it fails multiple fairness criteria related to monotonicity and no-show paradoxes. We analyze 1,079 local government STV elections in Scotland to estimate the frequency of such monotonicity anomalies in real-world elections, and compare our results with prior empirical and theoretical research about the rates at which such anomalies occur. In 41 of the 1079 elections we found some kind of monotonicity anomaly. We generally find that the rates of anomalies are similar to prior empirical research and much lower than what most theoretical research has found. Most of the STV anomalies we find are the first of their kind to be documented in real-world elections.
-    
-[^10]: 具有双向固定效应的动态非线性模型的无偏推断
-
-    Debiased inference for dynamic nonlinear models with two-way fixed effects. (arXiv:2305.03134v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.03134](http://arxiv.org/abs/2305.03134)
-
-    本文提出了一种针对具有双向固定效应的动态非线性模型的分析偏差校正方法，通过校正后的似然函数得出的检验统计量可以得到标准渐近分布，同时也可以得到结构参数的偏差校正估计器。
+    本研究使用深度学习分析了气候变化、创新和不确定性，发现模型不确定性对决策和社会估值产生首要影响，并在整合的气候经济创新框架中提出了对投资调整的重要调整。
 
     
 
-    面板数据模型通常使用固定效应来解释未观测到的异质性。这些固定效应通常是偶然参数，它们的估计器相对于样本大小的平方根收敛缓慢。在最大似然的上下文中，这会导致似然函数的渐近偏差。因此，从渐近有偏的似然函数得出的检验统计量不再遵循其标准极限分布。这会导致检验大小的严重偏差。我们考虑一类具有双向固定效应的动态非线性模型，并提出了一种似然函数的分析偏差校正方法。我们正式证明了从校正后的似然函数得出的似然比、拉格朗日乘数、和 Wald 检验统计量遵循它们的标准渐近分布。作为副产品，校正后的似然函数还可以得出结构参数的偏差校正估计器。我们评估了该方法在 Monte Carlo 模拟中的性能。
+    我们在一个气候经济框架中研究了模型不确定性的影响，该框架涉及三种类型的资本：在生产过程中产生碳排放的"脏"资本，没有排放但起初不如"脏"资本效率高的"清洁"资本，以及随着研发投资增加并导致绿色部门生产力技术创新的知识资本。为了解决我们的高维非线性模型框架，我们实施了基于神经网络的全局解决方法。我们展示了模型不确定性对最优决策和社会估值在我们的整合气候经济创新框架中的一阶影响。考虑到气候动力学的相互依赖不确定性、气候变化带来的经济损害以及绿色技术变革的到来，会对不同类型的资本投资进行大幅调整，以应对技术变革和气候损害严重程度的揭示。
 
-    Panel data models often use fixed effects to account for unobserved heterogeneities. These fixed effects are typically incidental parameters and their estimators converge slowly relative to the square root of the sample size. In the maximum likelihood context, this induces an asymptotic bias of the likelihood function. Test statistics derived from the asymptotically biased likelihood, therefore, no longer follow their standard limiting distributions. This causes severe distortions in test sizes. We consider a generic class of dynamic nonlinear models with two-way fixed effects and propose an analytical bias correction method for the likelihood function. We formally show that the likelihood ratio, the Lagrange-multiplier, and the Wald test statistics derived from the corrected likelihood follow their standard asymptotic distributions. As a by-product, a bias-corrected estimator of the structural parameter can also be derived from the corrected likelihood function. We evaluate the perfor
+    We study the implications of model uncertainty in a climate-economics framework with three types of capital: "dirty" capital that produces carbon emissions when used for production, "clean" capital that generates no emissions but is initially less productive than dirty capital, and knowledge capital that increases with R\&D investment and leads to technological innovation in green sector productivity. To solve our high-dimensional, non-linear model framework we implement a neural-network-based global solution method. We show there are first-order impacts of model uncertainty on optimal decisions and social valuations in our integrated climate-economic-innovation framework. Accounting for interconnected uncertainty over climate dynamics, economic damages from climate change, and the arrival of a green technological change leads to substantial adjustments to investment in the different capital types in anticipation of technological change and the revelation of climate damage severity.
     
-[^11]: Bayes = Blackwell, 差不多。
+[^6]: 否决谈判中的说服力
 
-    Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)
+    Persuasion in Veto Bargaining. (arXiv:2310.13148v1 [econ.TH])
 
-    [http://arxiv.org/abs/2302.13956](http://arxiv.org/abs/2302.13956)
+    [http://arxiv.org/abs/2310.13148](http://arxiv.org/abs/2310.13148)
 
-    存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。
-
-    
-
-    存在着除了Bayes'定律之外的更新规则，可以使信息的价值变为正值。我找到了所有这些规则。
-
-    There are updating rules other than Bayes' law that render the value of information positive. I find all of them.
-    
-[^12]: 期权的价格发现
-
-    Price Discovery for Derivatives. (arXiv:2302.13426v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2302.13426](http://arxiv.org/abs/2302.13426)
-
-    本研究提供了一个基本理论，研究了带有高阶信息的期权市场中价格的发现机制。与此同时，该研究还以内幕交易的形式呈现了其中的特例，给出了通货膨胀需求、价格冲击和信息效率的闭式解。
+    本论文考虑了经典的否决谈判模型，引入了议程制定者的说服能力。研究结果表明，在否决者具有二次损失的情况下，通过不提供信息或进行简单二元实验可以实现议程制定者最优。当存在预期偏差时，提议者选择透露部分信息，这样做可以增加议程权力的行使范围。
 
     
 
-    本文通过一个模型，考虑了私有信息和高阶信息对期权市场价格的影响。模型允许有私有信息的交易者在状态-索赔集市场上交易。等价的期权形式下，我们考虑了拥有关于基础资产收益的分布的私有信息，并允许交易任意期权组合的操纵者。我们得出了通货膨胀需求、价格冲击和信息效率的闭式解，这些解提供了关于内幕交易的高阶信息，如任何给定的时刻交易期权策略，并将这些策略泛化到了波动率交易等实践领域。
+    我们考虑了经典的否决谈判模型，但允许议程制定者进行说服，以说服否决者同意她的提议。我们完全刻画了在否决者具有二次损失时的最优提议，并展示了在提供没有信息或进行简单二元实验时可以实现议程制定者最优。当议程制定者与否决者有足够的预期偏差时，提议者选择透露部分信息。在这种情况下，参与说服明显有益于提议者，并增加了行使议程权力的范围。
 
-    We obtain a basic theory of price discovery across derivative markets with respect to higher-order information, using a model where an agent with general private information regarding state probabilities is allowed to trade arbitrary portfolios of state-contingent claims. In an equivalent options formulation, the informed agent has private information regarding arbitrary aspects of the payoff distribution of an underlying asset and is allowed to trade arbitrary option portfolios. We characterize, in closed form, the informed demand, price impact, and information efficiency of prices. Our results offer a theory of insider trading on higher moments of the underlying payoff as a special case. The informed demand formula prescribes option strategies for trading on any given moment and extends those used in practice for, e.g. volatility trading.
+    We consider the classic veto bargaining model but allow the agenda setter to engage in persuasion to convince the veto player to approve her proposal. We fully characterize the optimal proposal and experiment when Vetoer has quadratic loss, and show that the proposer-optimal can be achieved either by providing no information or with a simple binary experiment. Proposer chooses to reveal partial information when there is sufficient expected misalignment with Vetoer. In this case the opportunity to engage in persuasion strictly benefits Proposer and increases the scope to exercise agenda power.
     
-[^13]: 在匹配的对照实验中的协变量调整
+[^7]: 亚稳态隐马尔可夫过程：建模金融市场的理论
 
-    Covariate Adjustment in Experiments with Matched Pairs. (arXiv:2302.04380v3 [econ.EM] UPDATED)
+    Metastable Hidden Markov Processes: a theory for modeling financial markets. (arXiv:2310.13081v1 [econ.GN])
 
-    [http://arxiv.org/abs/2302.04380](http://arxiv.org/abs/2302.04380)
+    [http://arxiv.org/abs/2310.13081](http://arxiv.org/abs/2310.13081)
 
-    本文研究了在匹配对照实验中的协变量调整对平均处理效应的推断的影响。研究发现，具有有限维线性调整的估计器并不一定能提高精度相对于未调整的差异估计器。
-
-    
-
-    本文研究了在治疗状态根据“匹配对”确定的实验中，调整观察到的基线协变量来提高精度的平均处理效应的推断。通过“匹配对”设计，我们指的是从感兴趣的总体中独立同分布地抽取单位，根据观察到的基线协变量进行配对，然后在每对中随机选择一个单位进行处理。重要的是，我们假设并非所有观察到的基线协变量都用于确定治疗分配。我们研究了一个基于“双重鲁棒”矩条件的广泛类估计器，允许我们研究具有有限维和高维形式的协变量调整的估计器。我们发现，具有有限维线性调整的估计器不一定相对于未调整的均值差异估计器能提高精度。即使在调整中。
-
-    This paper studies inference on the average treatment effect in experiments in which treatment status is determined according to "matched pairs" and it is additionally desired to adjust for observed, baseline covariates to gain further precision. By a "matched pairs" design, we mean that units are sampled i.i.d. from the population of interest, paired according to observed, baseline covariates and finally, within each pair, one unit is selected at random for treatment. Importantly, we presume that not all observed, baseline covariates are used in determining treatment assignment. We study a broad class of estimators based on a "doubly robust" moment condition that permits us to study estimators with both finite-dimensional and high-dimensional forms of covariate adjustment. We find that estimators with finite-dimensional, linear adjustments need not lead to improvements in precision relative to the unadjusted difference-in-means estimator. This phenomenon persists even if the adjustmen
-    
-[^14]: 条件分位数回归求解无条件分位数偏效应
-
-    Unconditional Quantile Partial Effects via Conditional Quantile Regression. (arXiv:2301.07241v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2301.07241](http://arxiv.org/abs/2301.07241)
-
-    本文提出了一种半参数方法来估计无条件分位数偏效应，该方法基于识别结果，使用分位数回归系数估计加权平均的条件效应。提出了一个具有良好性能且稳健的两步估计器并证明了其渐进性质。研究了 Engel 曲线的应用来说明方法的有效性。
+    本文提出了一个亚稳态隐马尔可夫过程的理论，用于建模金融市场。该理论认为金融市场的状态演化可以被描述为一个互动的马尔可夫系统，并且具有亚稳态行为。这个理论为金融约束下的相互作用马尔可夫系统的发展提供了启示，可以改变金融经济学和因果因子投资的研究范式。同时，该理论强调了市场状态对投资绩效的影响，相较于其他变量对投资绩效的直接影响。
 
     
 
-    本文提出了一种使用分位数回归系数估计无条件分位数偏效应的半参数方法。该估计器基于一个识别结果，即对于连续协变量，无条件分位数效应是在特定分位数水平处依赖于协变量的条件效应的加权平均。我们提出了一个两步估计器来估计无条件效应，其中第一步估计结构化分位数回归模型，第二步应用非参数回归方法到第一步系数中。我们证明了估计器的渐进性质，包括一致性和渐进正态性。蒙特卡洛模拟结果显示该估计器具有很好的有限样本性能，对于带宽和核的选择也很稳健。为了说明所提出的方法，我们研究了 Engel 曲线的典型应用，即将食品支出作为收入的一部分。
+    在文献中已成功地利用隐马尔可夫模型对金融时间序列进行建模。在本文中，我们提出了一个理论，它在假设存在一个由状态随时间演化的市场的情况下，解释了这种建模方法，该市场由相互作用的马尔可夫系统形成，该系统具有一个由隐马尔可夫链描述的亚稳态行为。这个理论是亚稳态在物理系统建模以外的一种罕见应用，可能会激发新的具有金融约束的相互作用马尔可夫系统的发展。在金融经济学和因果因子投资的背景下，该理论意味着一个新的范式，即投资绩效的波动主要由市场状态驱动，而不是直接由其他变量引起。尽管基于因果推断的常规因果因子投资方法与所提出的理论并不完全矛盾，但后者具有解释投资绩效波动的优势。
 
-    This paper develops a semi-parametric procedure for estimation of unconditional quantile partial effects using quantile regression coefficients. The estimator is based on an identification result showing that, for continuous covariates, unconditional quantile effects are a weighted average of conditional ones at particular quantile levels that depend on the covariates. We propose a two-step estimator for the unconditional effects where in the first step one estimates a structural quantile regression model, and in the second step a nonparametric regression is applied to the first step coefficients. We establish the asymptotic properties of the estimator, say consistency and asymptotic normality. Monte Carlo simulations show numerical evidence that the estimator has very good finite sample performance and is robust to the selection of bandwidth and kernel. To illustrate the proposed method, we study the canonical application of the Engel's curve, i.e. food expenditures as a share of inco
+    The modeling of financial time series by hidden Markov models has been performed successfully in the literature. In this paper, we propose a theory that justifies such a modeling under the assumption that there exists a market formed by agents whose states evolve on time as an interacting Markov system that has a metastable behavior described by the hidden Markov chain. This theory is a rare application of metastability outside the modeling of physical systems, and may inspire the development of new interacting Markov systems with financial constraints. In the context of financial economics and causal factor investment, the theory implies a new paradigm in which fluctuations in investment performance are primarily driven by the state of the market, rather than being directly caused by other variables. Even though the usual approach to causal factor investment based on causal inference is not completely inconsistent with the proposed theory, the latter has the advantage of accounting fo
     
-[^15]: 一种针对具有弱代理的代理-SVARs的识别和测试策略
+[^8]: 排名选择投票中的单调性失败 - 三选举中必要和充分条件的研究
 
-    An identification and testing strategy for proxy-SVARs with weak proxies. (arXiv:2210.04523v3 [econ.EM] UPDATED)
+    Monotonicity Failure in Ranked Choice Voting -- Necessary and Sufficient Conditions for 3-Candidate Elections. (arXiv:2310.12988v1 [econ.TH])
 
-    [http://arxiv.org/abs/2210.04523](http://arxiv.org/abs/2210.04523)
+    [http://arxiv.org/abs/2310.12988](http://arxiv.org/abs/2310.12988)
 
-    本研究提出了一种针对具有弱代理的代理-SVARs的识别和测试策略。通过使用强工具对非目标冲击进行代理-SVAR的识别，可以通过最小距离估计和标准渐近方法进行频率学派渐近推断。该策略通过基于自助重采样的零仪器相关性预检验，解决了传统方法中的预检验问题。
-
-    
-
-    当用于识别目标结构冲击的代理（外部工具）较弱时，代理-SVARs（SVAR-IVs）中的推断是非标准的，并且为了构建感兴趣冲击响应的渐近有效置信区间，需要使用弱工具鲁棒方法。在存在多个目标冲击的情况下，测试反演技术需要对代理-SVAR参数施加额外的限制，这些限制可能难以解释和测试。我们展示了在这些情况下可以通过最小距离估计和标准渐近方法进行频率学派渐近推断，前提是可以使用“强”工具对非目标冲击（即分析中不感兴趣的冲击）进行代理-SVAR的识别。建议的识别策略依赖于一种基于自助重采样的零仪器相关性预检验，该预检验不受预检验问题的影响，从而保证了其有效性。
-
-    When proxies (external instruments) used to identify target structural shocks are weak, inference in proxy-SVARs (SVAR-IVs) is nonstandard and the construction of asymptotically valid confidence sets for the impulse responses of interest requires weak-instrument robust methods. In the presence of multiple target shocks, test inversion techniques require extra restrictions on the proxy-SVAR parameters other those implied by the proxies that may be difficult to interpret and test. We show that frequentist asymptotic inference in these situations can be conducted through Minimum Distance estimation and standard asymptotic methods if the proxy-SVAR can be identified by using `strong' instruments for the non-target shocks; i.e. the shocks which are not of primary interest in the analysis. The suggested identification strategy hinges on a novel pre-test for the null of instrument relevance based on bootstrap resampling which is not subject to pre-testing issues, in the sense that the validit
-    
-[^16]: 在存在退场情况下重新审视匹配对实验和分层实验的分析
-
-    Revisiting the Analysis of Matched-Pair and Stratified Experiments in the Presence of Attrition. (arXiv:2209.11840v5 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2209.11840](http://arxiv.org/abs/2209.11840)
-
-    本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议，发现有限证据支持丢弃对有助于恢复平均处理效应的观点，但它可能有助于恢复条件平均处理效应的凸加权平均。
+    本文针对排名选择投票中的单调性失败问题，在三个候选人的选举中提出了测试单调性失败可能性的条件。
 
     
 
-    本文重新审视了在存在退场情况下分析匹配对实验和分层实验设计的一些常见建议。我们的主要目标是澄清关于在分析匹配对设计时是否丢弃有丢失单位的对是否有益或有害的一些著名观点。文献中对于是否丢弃对有矛盾的建议存在，同时将分层为较大组已被推荐为解决该问题的方法。为了解决这些观点，我们推导了匹配对设计中差异-均值估计器得到的估计目标，无论是保留有丢失单位的对还是丢弃它们。我们发现有限的证据支持丢弃对有助于恢复平均处理效应的观点，但我们发现它可能有助于恢复条件平均处理效应的凸加权平均。我们报告了类似的发现来证实。
+    排名选择投票容易发生单调性失败 - 这是一种投票失败的情况，其中一个候选人由于失去选民的偏好或获得选民的额外偏好而失去选举机会。尽管在本文撰写时排名选择投票的使用越来越普遍，但单调性失败的频率仍然是一个非常开放的问题。本文在之前的研究基础上，提出了一些条件用于测试在三个候选人的排名选择投票选举中是否可能发生了单调性失败。
 
-    In this paper we revisit some common recommendations regarding the analysis of matched-pair and stratified experimental designs in the presence of attrition. Our main objective is to clarify a number of well-known claims about the practice of dropping pairs with an attrited unit when analyzing matched-pair designs. Contradictory advice appears in the literature about whether or not dropping pairs is beneficial or harmful, and stratifying into larger groups has been recommended as a resolution to the issue. To address these claims, we derive the estimands obtained from the difference-in-means estimator in a matched-pair design both when the observations from pairs with an attrited unit are retained and when they are dropped. We find limited evidence to support the claims that dropping pairs helps recover the average treatment effect, but we find that it may potentially help in recovering a convex weighted average of conditional average treatment effects. We report similar findings for s
+    Ranked choice voting is vulnerable to monotonicity failure - a voting failure where a candidate is cost an election due to losing voter preference or granted an election due to gaining voter preference. Despite increasing use of ranked choice voting at the time of writing of this paper, the frequency of monotonicity failure is still a very open question. This paper builds on previous work to develop conditions which can be used to test if it's possible that monotonicity failure has happened in a 3-candidate ranked choice voting election.
     
-[^17]: 美国零售业集中度的演变
+[^9]: 多数原则作为唯一的多候选人选举投票方法
 
-    The Evolution of U.S. Retail Concentration. (arXiv:2202.07609v3 [econ.GN] UPDATED)
+    Majority rule as a unique voting method in elections with multiple candidates. (arXiv:2310.12983v1 [econ.TH])
 
-    [http://arxiv.org/abs/2202.07609](http://arxiv.org/abs/2202.07609)
+    [http://arxiv.org/abs/2310.12983](http://arxiv.org/abs/2310.12983)
 
-    美国零售业集中度近年来呈现增加趋势，大部分由多市场企业进入新市场导致，本地市场份额增加也在1997年至2007年间变得更加重要。本地集中度的增加解释了整体销售增长的四分之一到三分之一。
-
-    
-
-    在美国的产业动态中，国家集中度的增加是一个显著特征，也引起了对市场力量增长的担忧。然而，对于市场力量情况，本地趋势可能更具信息量，特别是在零售部门，消费者通常在附近的商店购物。我们使用新型普查数据，观察了1992年至2012年间所有美国零售店产品级收入的本地集中度与国家集中度几乎同步增加。集中度的增加广泛影响大多数市场、产品和零售行业。我们发现，多市场企业进入新市场解释了国家零售集中度的大部分增长，而通过增加本地市场份额进行的整合在1997年至2007年间变得越来越重要，而单市场企业的作用微不足道。最后，我们发现本地集中度的增加可以解释整体销售增长的四分之一到三分之一。
-
-    Increases in national concentration have been a salient feature of industry dynamics in the U.S. and have contributed to concerns about increasing market power. Yet, local trends may be more informative about market power, particularly in the retail sector where consumers have traditionally shopped at nearby stores. We find that local concentration has increased almost in parallel with national concentration using novel Census data on product-level revenue for all U.S. retail stores between 1992 and 2012. The increases in concentration are broad based, affecting most markets, products, and retail industries. We show that the expansion of multi-market firms into new markets explains most of the increase in national retail concentration, with consolidation via increases in local market shares increasing in importance between 1997 and 2007, and single-market firms playing a negligible role. Finally, we find that increases in local concentration can explain one-quarter to one-third of the 
-    
-[^18]: 追求股东价值的共同成本
-
-    The Shared Cost of Pursuing Shareholder Value. (arXiv:2103.12138v9 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2103.12138](http://arxiv.org/abs/2103.12138)
-
-    文章使用股东大会时间差异的方法研究了股东偏好和对公司利他决策的影响，发现追求（某些）股东的价值具有分配成本，但大股东的监控可以避免这种由偏好异质性驱动的成本。
+    多数原则被证明是多候选人选举中满足匿名性、中立性和积极响应公理的唯一社会选择函数。
 
     
 
-    本文采用准实验性的方法，根据公司股东大会（AGMs）的时间差异，提出了一个可移植的框架，推断股东的偏好和对公司利他决策的影响，并将其应用于covid相关捐赠、最近针对俄罗斯的私人制裁以及公司2012-19年的利他立场。AGMs的媒体曝光带来的形象收益，使得与公司同义的股东（如密切相关的个人）支持昂贵的利他变革，而其他股东（如金融公司）反对这些变革。支持这些变革的影响使收益下降了30％：追求（某些）股东的价值具有分配成本，大股东的监控可以避免由偏好异质性驱动的成本。
+    May的经典定理指出，在只有两名候选人的单胜者选一个投票系统中，多数原则是唯一满足匿名性、中立性和积极响应公理的社会选择函数。匿名性和中立性通常被认为是对社会选择函数非常自然的限制。积极响应则有时被认为是过于严格的公理，推动人们进一步寻找更宽松的条件。一种可行的替代方案是Gerhard J. Woeginger的“可约为子社会”。我们证明了这个条件可以推广到多于两个候选人的情况下，并且进一步表明了多数原则是适用于多候选人的选举的特征。
 
-    Using quasi-experimental variations from the timing of firms' Annual General Meetings (AGMs), we propose a portable framework to infer shareholders' preferences and influences on firms' prosocial decisions and apply it to covid-related donations, recent private sanctions on Russia, and firms' prosocial stances over 2012-19. Image gains from AGMs' media exposure drive shareholders synonymous with a firm, like closely-connected individuals, to support costly prosocial changes, while others, like financial corporations, oppose them. Influence supporting these changes lowers earnings by 30\%: pursuing the values of (some) shareholders has distributional costs, which the monitoring of large shareholders motivated by heterogeneous preferences could prevent.
+    May's classical theorem states that in a single-winner choose-one voting system with just two candidates, majority rule is the only social choice function satisfying anonimity, neutrality and positive responsiveness axiom. Anonimity and neutrality are usually regarded as very natural constraints on the social choice function. Positive responsiveness, on the other hand, is sometimes deemed too strong of an axiom, which stimulates further search for less stringent conditions. One viable substitute is Gerhard J. Woeginger's "reducibility to subsocieties". We demonstrate that the condition generalizes to more than two candidates and, consequently, characterizes majority rule for elections with multiple candidates.
+    
+[^10]: 用于AR(1)模型的局部投影残差自助法
+
+    The Local Projection Residual Bootstrap for AR(1) Models. (arXiv:2309.01889v1 [econ.EM])
+
+    [http://arxiv.org/abs/2309.01889](http://arxiv.org/abs/2309.01889)
+
+    本文提出了一种局部投影残差自助法来构建AR(1)模型的脉冲响应系数的置信区间，并证明了其一致性和渐近改进性。
+
+    
+
+    本文在基于局部投影（LP）方法的脉冲响应系数置信区间构建领域做出了贡献。我们提出了一种LP残差自助法来构建AR（1）模型的脉冲响应系数的置信区间。该方法使用LP方法和残差自助程序来计算临界值。我们提出了两个理论结果。首先，我们证明了在一般条件下LP残差自助法的一致性，这意味着所提出的置信区间是一致渐近有效的。其次，我们证明了在某些条件下LP残差自助法可以提供置信区间的渐近改进。我们通过模拟研究来说明我们的结果。
+
+    This paper contributes to a growing literature on confidence interval construction for impulse response coefficients based on the local projection (LP) approach. We propose an LP-residual bootstrap method to construct confidence intervals for the impulse response coefficients of AR(1) models. The method uses the LP approach and a residual bootstrap procedure to compute critical values. We present two theoretical results. First, we prove the uniform consistency of the LP-residual bootstrap under general conditions, which implies that the proposed confidence intervals are uniformly asymptotically valid. Second, we show that the LP-residual bootstrap can provide asymptotic refinements to the confidence intervals under certain conditions. We illustrate our results with a simulation study.
+    
+[^11]: 在内生网络条件下对线性社交互作用模型进行因果解释
+
+    Causal Interpretation of Linear Social Interaction Models with Endogenous Networks. (arXiv:2308.04276v1 [econ.EM])
+
+    [http://arxiv.org/abs/2308.04276](http://arxiv.org/abs/2308.04276)
+
+    本研究研究了在内生网络条件下线性社交互作用模型的因果解释，并提出使用潜在同伴处理作为工具变量，通过两个IV-based估计量实现了溢出效应的因果解释。
+
+    
+
+    本研究在异质处理效应框架下，研究了在内生网络形成条件下线性社交互作用模型的因果解释。我们考虑了一个实验设置，其中个体被随机分配到处理组，但对网络结构没有干预。我们发现，在估计平均直接处理效应时，忽略网络内生性进行线性回归并没有问题。然而，对于估计平均溢出效应，这种做法会导致样本选择偏误和负权重问题。为了克服这些问题，我们提出使用潜在同伴处理作为工具变量（IV），它自动成为实际溢出暴露的有效IV。利用这个IV，我们研究了两个基于IV的估计量，并证明它们对于溢出效应具有局部平均处理效应类型的因果解释。
+
+    This study investigates the causal interpretation of linear social interaction models in the presence of endogeneity in network formation under a heterogeneous treatment effects framework. We consider an experimental setting in which individuals are randomly assigned to treatments while no interventions are made for the network structure. We show that running a linear regression ignoring network endogeneity is not problematic for estimating the average direct treatment effect. However, it leads to sample selection bias and negative-weights problem for the estimation of the average spillover effect. To overcome these problems, we propose using potential peer treatment as an instrumental variable (IV), which is automatically a valid IV for actual spillover exposure. Using this IV, we examine two IV-based estimands and demonstrate that they have a local average treatment-effect-type causal interpretation for the spillover effect.
+    
+[^12]: 发展中国家COVID-19疫情期间的社会经济差异与出行行为
+
+    Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries. (arXiv:2305.06888v1 [physics.soc-ph])
+
+    [http://arxiv.org/abs/2305.06888](http://arxiv.org/abs/2305.06888)
+
+    本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。
+
+    
+
+    手机数据在量化COVID-19疫情期间的人类流动中发挥了关键作用。现有研究主要关注高收入国家的地区总体情况，掩盖了疫情对最脆弱群体的强烈影响。我们结合来自移动电话和人口普查的地理位置数据，研究了2020年3月至12月期间3个大洲的6个中等收入国家，揭示了不同社会经济群体应对疫情的行为差异。当疫情爆发时，生活在低财富社区中的城市用户更不可能通过自我隔离在家中、搬迁到农村地区或者停止通勤工作来应对。贫穷用户中，那些在疫情之前曾通勤上班到高财富社区的人则面临着重大风险。
+
+    Mobile phone data have played a key role in quantifying human mobility during the COVID-19 pandemic. Existing studies on mobility patterns have primarily focused on regional aggregates in high-income countries, obfuscating the accentuated impact of the pandemic on the most vulnerable populations. By combining geolocation data from mobile phones and population census for 6 middle-income countries across 3 continents between March and December 2020, we uncovered common disparities in the behavioral response to the pandemic across socioeconomic groups. When the pandemic hit, urban users living in low-wealth neighborhoods were less likely to respond by self-isolating at home, relocating to rural areas, or refraining from commuting to work. The gap in the behavioral responses between socioeconomic groups persisted during the entire observation period. Among low-wealth users, those who used to commute to work in high-wealth neighborhoods pre-pandemic were particularly at risk, facing both th
+    
+[^13]: 基于Q的均衡
+
+    Q-based Equilibria. (arXiv:2304.12647v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.12647](http://arxiv.org/abs/2304.12647)
+
+    该论文研究了基于Q的策略规则族中的均衡偏差（或 Qb-equilibria），即Q值在不同监测技术下的效果。
+
+    
+
+    在动态环境中，Q学习是一种自适应规则，其为每个替代方案提供估计值(即Q值)，该值与之前的决策相关。一个朴素的策略是始终选择具有最高Q值的替代方案。我们考虑一族基于Q的策略规则，这些规则可能系统地支持某些替代方案而不是其他替代方案，例如包含有利合作的宽容偏差的规则。在 Compte 和 Postlewaite [2018] 的精神下，我们在这个 Q-based 规则族中寻找均衡偏差（或 Qb-equilibria）。我们研究了不同监测技术下的经典博弈。
+
+    In dynamic environments, Q-learning is an adaptative rule that provides an estimate (a Q-value) of the continuation value associated with each alternative. A naive policy consists in always choosing the alternative with highest Q-value. We consider a family of Q-based policy rules that may systematically favor some alternatives over others, for example rules that incorporate a leniency bias that favors cooperation. In the spirit of Compte and Postlewaite [2018], we look for equilibrium biases (or Qb-equilibria) within this family of Q-based rules. We examine classic games under various monitoring technologies.
+    
+[^14]: 界限、启发式和预言不等式在组合优化中的应用
+
+    Bounds, Heuristics, and Prophet Inequalities for Assortment Optimization. (arXiv:2109.14861v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2109.14861](http://arxiv.org/abs/2109.14861)
+
+    本文引入了离散选择模型中的赔率比，并利用它们制定了界限来解决组合优化问题。我们还提出了一种有洞察力的公司模型来评估个性化组合的潜在收益。数值研究表明，当产品效用具有异质性且方差较小时，个性化组合可以带来巨大的收益。
+
+    
+
+    我们引入了离散选择模型中的赔率比，并利用它们来制定界限，以便开发适用于完全单调约束下的组合优化问题的启发式算法，并评估个性化组合的效益。这些启发式算法仅需要底层离散选择模型的第一和最后选择概率，具有广泛的适用性，高效率，并带有最坏情况性能保证。我们提出了一个有洞察力的公司模型，以在极限情况下评估个性化组合的潜在收益。我们的数值研究表明，当产品的平均效用在不同的消费者类型之间具有异质性时，而且效用的方差很小时，公司可以从个性化组合中获得可观的收益。我们通过理论发现支持这些观察结果和其他结果。对于常规的DCM模型，我们展示了一个有洞察力的公司可以获得多达$n$倍的预期收益。
+
+    We introduce odds-ratios in discrete choice models and utilize them to formulate bounds instrumental to the development of heuristics for the assortment optimization problem subject to totally unimodular constraints, and to the assess the benefit of personalized assortments. These heuristics, which only require the first and last-choice probabilities of the underlying discrete choice model, are broadly applicable, efficient, and come with worst-case performance guarantees. We propose a clairvoyant firm model to assess, in the limit, the potential benefits of personalized assortments. Our numerical study indicates that when the mean utilities of the products are heterogeneous among the consumer types, and the variance of the utilities is small, then firms can gain substantial benefits from personalized assortments. We support these observations, and others, with theoretical findings. For regular DCMs, we show that a clairvoyant firm can generate up to $n$ times more in expected revenues
     
 

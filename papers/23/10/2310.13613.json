@@ -1,0 +1,12 @@
+{
+    "title": "Hunayn: Elevating Translation Beyond the Literal. (arXiv:2310.13613v1 [cs.CL])",
+    "abstract": "This project introduces an advanced English-to-Arabic translator surpassing conventional tools. Leveraging the Helsinki transformer (MarianMT), our approach involves fine-tuning on a self-scraped, purely literary Arabic dataset. Evaluations against Google Translate show consistent outperformance in qualitative assessments. Notably, it excels in cultural sensitivity and context accuracy. This research underscores the Helsinki transformer's superiority for English-to-Arabic translation using a Fusha dataset.",
+    "link": "http://arxiv.org/abs/2310.13613",
+    "context": "Title: Hunayn: Elevating Translation Beyond the Literal. (arXiv:2310.13613v1 [cs.CL])\nAbstract: This project introduces an advanced English-to-Arabic translator surpassing conventional tools. Leveraging the Helsinki transformer (MarianMT), our approach involves fine-tuning on a self-scraped, purely literary Arabic dataset. Evaluations against Google Translate show consistent outperformance in qualitative assessments. Notably, it excels in cultural sensitivity and context accuracy. This research underscores the Helsinki transformer's superiority for English-to-Arabic translation using a Fusha dataset.",
+    "path": "papers/23/10/2310.13613.json",
+    "total_tokens": 693,
+    "translated_title": "Hunayn：超越字面意义的翻译进步",
+    "translated_abstract": "该项目介绍了一种超越传统工具的高级英译阿拉伯语翻译器。利用赫尔辛基变压器（MarianMT），我们的方法涉及在一个自动生成的、纯文学阿拉伯语数据集上进行微调。与谷歌翻译的评估表明，在定性评估中始终表现出色。值得注意的是，它在文化敏感性和语境准确性方面表现出色。这项研究强调了赫尔辛基变压器在使用Fusha数据集的英阿翻译中的优势。",
+    "tldr": "这项研究介绍了一种超越传统工具的高级英译阿拉伯语翻译器，使用赫尔辛基变压器和纯文学阿拉伯语数据集，表现出色，并强调了其在文化敏感性和语境准确性方面的优势。",
+    "en_tdlr": "This research introduces an advanced English-to-Arabic translator that surpasses conventional tools, utilizing the Helsinki transformer and a purely literary Arabic dataset, performing well and emphasizing its superiority in cultural sensitivity and context accuracy."
+}

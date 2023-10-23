@@ -1,0 +1,12 @@
+{
+    "title": "Monotonicity Failure in Ranked Choice Voting -- Necessary and Sufficient Conditions for 3-Candidate Elections. (arXiv:2310.12988v1 [econ.TH])",
+    "abstract": "Ranked choice voting is vulnerable to monotonicity failure - a voting failure where a candidate is cost an election due to losing voter preference or granted an election due to gaining voter preference. Despite increasing use of ranked choice voting at the time of writing of this paper, the frequency of monotonicity failure is still a very open question. This paper builds on previous work to develop conditions which can be used to test if it's possible that monotonicity failure has happened in a 3-candidate ranked choice voting election.",
+    "link": "http://arxiv.org/abs/2310.12988",
+    "context": "Title: Monotonicity Failure in Ranked Choice Voting -- Necessary and Sufficient Conditions for 3-Candidate Elections. (arXiv:2310.12988v1 [econ.TH])\nAbstract: Ranked choice voting is vulnerable to monotonicity failure - a voting failure where a candidate is cost an election due to losing voter preference or granted an election due to gaining voter preference. Despite increasing use of ranked choice voting at the time of writing of this paper, the frequency of monotonicity failure is still a very open question. This paper builds on previous work to develop conditions which can be used to test if it's possible that monotonicity failure has happened in a 3-candidate ranked choice voting election.",
+    "path": "papers/23/10/2310.12988.json",
+    "total_tokens": 644,
+    "translated_title": "排名选择投票中的单调性失败 - 三选举中必要和充分条件的研究",
+    "translated_abstract": "排名选择投票容易发生单调性失败 - 这是一种投票失败的情况，其中一个候选人由于失去选民的偏好或获得选民的额外偏好而失去选举机会。尽管在本文撰写时排名选择投票的使用越来越普遍，但单调性失败的频率仍然是一个非常开放的问题。本文在之前的研究基础上，提出了一些条件用于测试在三个候选人的排名选择投票选举中是否可能发生了单调性失败。",
+    "tldr": "本文针对排名选择投票中的单调性失败问题，在三个候选人的选举中提出了测试单调性失败可能性的条件。",
+    "en_tdlr": "This paper investigates monotonicity failure in ranked choice voting and presents conditions to test the possibility of monotonicity failure in a 3-candidate election."
+}

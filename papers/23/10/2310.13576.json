@@ -1,0 +1,11 @@
+{
+    "title": "Tree Search in DAG Space with Model-based Reinforcement Learning for Causal Discovery. (arXiv:2310.13576v1 [cs.LG])",
+    "abstract": "Identifying causal structure is central to many fields ranging from strategic decision-making to biology and economics. In this work, we propose a model-based reinforcement learning method for causal discovery based on tree search, which builds directed acyclic graphs incrementally. We also formalize and prove the correctness of an efficient algorithm for excluding edges that would introduce cycles, which enables deeper discrete search and sampling in DAG space. We evaluate our approach on two real-world tasks, achieving substantially better performance than the state-of-the-art model-free method and greedy search, constituting a promising advancement for combinatorial methods.",
+    "link": "http://arxiv.org/abs/2310.13576",
+    "context": "Title: Tree Search in DAG Space with Model-based Reinforcement Learning for Causal Discovery. (arXiv:2310.13576v1 [cs.LG])\nAbstract: Identifying causal structure is central to many fields ranging from strategic decision-making to biology and economics. In this work, we propose a model-based reinforcement learning method for causal discovery based on tree search, which builds directed acyclic graphs incrementally. We also formalize and prove the correctness of an efficient algorithm for excluding edges that would introduce cycles, which enables deeper discrete search and sampling in DAG space. We evaluate our approach on two real-world tasks, achieving substantially better performance than the state-of-the-art model-free method and greedy search, constituting a promising advancement for combinatorial methods.",
+    "path": "papers/23/10/2310.13576.json",
+    "total_tokens": 767,
+    "translated_title": "在DAG空间中使用基于模型的强化学习进行因果发现的树搜索",
+    "translated_abstract": "识别因果结构对于许多领域至关重要，从战略决策到生物学和经济学。在这项工作中，我们提出了一种基于树搜索的因果发现的模型驱动强化学习方法，该方法逐步构建有向无环图。我们还形式化并证明了一种排除会引入循环的边的高效算法的正确性，这使得在DAG空间中进行更深入的离散搜索和采样成为可能。我们在两个实际任务中评估了我们的方法，在性能上比最先进的无模型方法和贪婪搜索取得了显著优势，这是组合方法的一个有希望的进展。",
+    "tldr": "本论文提出了一种在DAG空间中使用树搜索和模型驱动强化学习进行因果发现的方法，并通过两个实际任务的评估，证明了其在性能上显著优于目前最先进的无模型方法和贪婪搜索，具有很大的应用前景。"
+}

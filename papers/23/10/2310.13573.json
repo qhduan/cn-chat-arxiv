@@ -1,0 +1,12 @@
+{
+    "title": "Boosting Generalization with Adaptive Style Techniques for Fingerprint Liveness Detection. (arXiv:2310.13573v1 [cs.CV])",
+    "abstract": "We introduce a high-performance fingerprint liveness feature extraction technique that secured first place in LivDet 2023 Fingerprint Representation Challenge. Additionally, we developed a practical fingerprint recognition system with 94.68% accuracy, earning second place in LivDet 2023 Liveness Detection in Action. By investigating various methods, particularly style transfer, we demonstrate improvements in accuracy and generalization when faced with limited training data. As a result, our approach achieved state-of-the-art performance in LivDet 2023 Challenges.",
+    "link": "http://arxiv.org/abs/2310.13573",
+    "context": "Title: Boosting Generalization with Adaptive Style Techniques for Fingerprint Liveness Detection. (arXiv:2310.13573v1 [cs.CV])\nAbstract: We introduce a high-performance fingerprint liveness feature extraction technique that secured first place in LivDet 2023 Fingerprint Representation Challenge. Additionally, we developed a practical fingerprint recognition system with 94.68% accuracy, earning second place in LivDet 2023 Liveness Detection in Action. By investigating various methods, particularly style transfer, we demonstrate improvements in accuracy and generalization when faced with limited training data. As a result, our approach achieved state-of-the-art performance in LivDet 2023 Challenges.",
+    "path": "papers/23/10/2310.13573.json",
+    "total_tokens": 680,
+    "translated_title": "通过自适应风格技术提升指纹活体检测的泛化能力",
+    "translated_abstract": "我们引入了一种性能优异的指纹活体特征提取技术，该技术在LivDet 2023指纹表示挑战中获得了第一名。此外，我们还开发了一个实用的指纹识别系统，准确率达到了94.68%，在LivDet 2023动作中的活体检测中获得了第二名。通过对各种方法的研究，特别是风格转换，我们证明了在面对有限的训练数据时，准确率和泛化能力的提高。因此，我们的方法在LivDet 2023挑战中取得了最先进的性能。",
+    "tldr": "该论文介绍了一种通过自适应风格技术提升指纹活体检测泛化能力的方法，并在LivDet 2023挑战中取得了最先进的性能。",
+    "en_tdlr": "This paper introduces a method for boosting the generalization of fingerprint liveness detection using adaptive style techniques, and achieves state-of-the-art performance in the LivDet 2023 Challenges."
+}

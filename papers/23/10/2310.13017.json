@@ -1,0 +1,12 @@
+{
+    "title": "Position Interpolation Improves ALiBi Extrapolation. (arXiv:2310.13017v1 [cs.CL])",
+    "abstract": "Linear position interpolation helps pre-trained models using rotary position embeddings (RoPE) to extrapolate to longer sequence lengths. We propose using linear position interpolation to extend the extrapolation range of models using Attention with Linear Biases (ALiBi). We find position interpolation significantly improves extrapolation capability on upstream language modelling and downstream summarization and retrieval tasks.",
+    "link": "http://arxiv.org/abs/2310.13017",
+    "context": "Title: Position Interpolation Improves ALiBi Extrapolation. (arXiv:2310.13017v1 [cs.CL])\nAbstract: Linear position interpolation helps pre-trained models using rotary position embeddings (RoPE) to extrapolate to longer sequence lengths. We propose using linear position interpolation to extend the extrapolation range of models using Attention with Linear Biases (ALiBi). We find position interpolation significantly improves extrapolation capability on upstream language modelling and downstream summarization and retrieval tasks.",
+    "path": "papers/23/10/2310.13017.json",
+    "total_tokens": 570,
+    "translated_title": "位置插值改进了ALiBi外推能力",
+    "translated_abstract": "线性位置插值有助于使用旋转位置嵌入（RoPE）的预训练模型对更长的序列长度进行外推。我们提出使用线性位置插值来扩展使用带有线性偏差的注意力（ALiBi）的模型的外推范围。我们发现，位置插值显著改善了上游语言建模和下游摘要和检索任务的外推能力。",
+    "tldr": "该论文提出了一种使用线性位置插值来改进ALiBi模型外推能力的方法，并且在上游语言建模和下游摘要和检索任务中取得了显著的改进。",
+    "en_tdlr": "This paper proposes a method to improve the extrapolation capability of ALiBi models using linear position interpolation, and achieves significant improvement in upstream language modeling and downstream summarization and retrieval tasks."
+}

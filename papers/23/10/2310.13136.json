@@ -1,0 +1,12 @@
+{
+    "title": "Approaches for Uncertainty Quantification of AI-predicted Material Properties: A Comparison. (arXiv:2310.13136v1 [cond-mat.mtrl-sci])",
+    "abstract": "The development of large databases of material properties, together with the availability of powerful computers, has allowed machine learning (ML) modeling to become a widely used tool for predicting material performances. While confidence intervals are commonly reported for such ML models, prediction intervals, i.e., the uncertainty on each prediction, are not as frequently available. Here, we investigate three easy-to-implement approaches to determine such individual uncertainty, comparing them across ten ML quantities spanning energetics, mechanical, electronic, optical, and spectral properties. Specifically, we focused on the Quantile approach, the direct machine learning of the prediction intervals and Ensemble methods.",
+    "link": "http://arxiv.org/abs/2310.13136",
+    "context": "Title: Approaches for Uncertainty Quantification of AI-predicted Material Properties: A Comparison. (arXiv:2310.13136v1 [cond-mat.mtrl-sci])\nAbstract: The development of large databases of material properties, together with the availability of powerful computers, has allowed machine learning (ML) modeling to become a widely used tool for predicting material performances. While confidence intervals are commonly reported for such ML models, prediction intervals, i.e., the uncertainty on each prediction, are not as frequently available. Here, we investigate three easy-to-implement approaches to determine such individual uncertainty, comparing them across ten ML quantities spanning energetics, mechanical, electronic, optical, and spectral properties. Specifically, we focused on the Quantile approach, the direct machine learning of the prediction intervals and Ensemble methods.",
+    "path": "papers/23/10/2310.13136.json",
+    "total_tokens": 661,
+    "translated_title": "AI预测材料性能不确定性量化方法的比较",
+    "translated_abstract": "大量材料性能数据库的建立和强大计算机的可用性使得机器学习（ML）建模成为预测材料性能的常用工具。虽然ML模型常常报告置信区间，但预测区间，即每个预测的不确定性却不常见。本文研究了三种易于实施的方法来确定这种个体不确定性，将其应用于包括能量学、力学、电子学、光学和光谱性质在内的十种ML量上，进行了比较。具体而言，我们关注了量化方法，直接机器学习预测区间和集成方法。",
+    "tldr": "本论文比较了三种易于实施的方法来确定AI预测材料性能的个体不确定性。",
+    "en_tdlr": "This paper compares three easily implementable approaches to determine the individual uncertainty of AI-predicted material properties."
+}

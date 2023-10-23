@@ -1,0 +1,11 @@
+{
+    "title": "Persuasion in Veto Bargaining. (arXiv:2310.13148v1 [econ.TH])",
+    "abstract": "We consider the classic veto bargaining model but allow the agenda setter to engage in persuasion to convince the veto player to approve her proposal. We fully characterize the optimal proposal and experiment when Vetoer has quadratic loss, and show that the proposer-optimal can be achieved either by providing no information or with a simple binary experiment. Proposer chooses to reveal partial information when there is sufficient expected misalignment with Vetoer. In this case the opportunity to engage in persuasion strictly benefits Proposer and increases the scope to exercise agenda power.",
+    "link": "http://arxiv.org/abs/2310.13148",
+    "context": "Title: Persuasion in Veto Bargaining. (arXiv:2310.13148v1 [econ.TH])\nAbstract: We consider the classic veto bargaining model but allow the agenda setter to engage in persuasion to convince the veto player to approve her proposal. We fully characterize the optimal proposal and experiment when Vetoer has quadratic loss, and show that the proposer-optimal can be achieved either by providing no information or with a simple binary experiment. Proposer chooses to reveal partial information when there is sufficient expected misalignment with Vetoer. In this case the opportunity to engage in persuasion strictly benefits Proposer and increases the scope to exercise agenda power.",
+    "path": "papers/23/10/2310.13148.json",
+    "total_tokens": 760,
+    "translated_title": "否决谈判中的说服力",
+    "translated_abstract": "我们考虑了经典的否决谈判模型，但允许议程制定者进行说服，以说服否决者同意她的提议。我们完全刻画了在否决者具有二次损失时的最优提议，并展示了在提供没有信息或进行简单二元实验时可以实现议程制定者最优。当议程制定者与否决者有足够的预期偏差时，提议者选择透露部分信息。在这种情况下，参与说服明显有益于提议者，并增加了行使议程权力的范围。",
+    "tldr": "本论文考虑了经典的否决谈判模型，引入了议程制定者的说服能力。研究结果表明，在否决者具有二次损失的情况下，通过不提供信息或进行简单二元实验可以实现议程制定者最优。当存在预期偏差时，提议者选择透露部分信息，这样做可以增加议程权力的行使范围。"
+}

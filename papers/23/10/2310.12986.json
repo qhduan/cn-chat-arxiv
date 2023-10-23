@@ -1,0 +1,12 @@
+{
+    "title": "A survey of manifold learning and its applications for multimedia. (arXiv:2310.12986v1 [cs.MM])",
+    "abstract": "Manifold learning is an emerging research domain of machine learning. In this work, we give an introduction into manifold learning and how it is employed for important application fields in multimedia.",
+    "link": "http://arxiv.org/abs/2310.12986",
+    "context": "Title: A survey of manifold learning and its applications for multimedia. (arXiv:2310.12986v1 [cs.MM])\nAbstract: Manifold learning is an emerging research domain of machine learning. In this work, we give an introduction into manifold learning and how it is employed for important application fields in multimedia.",
+    "path": "papers/23/10/2310.12986.json",
+    "total_tokens": 478,
+    "translated_title": "流形学习及其在多媒体上的应用的调研",
+    "translated_abstract": "流形学习是机器学习的新兴研究领域。在这项工作中，我们介绍了流形学习的基本概念，并讨论了它在多媒体重要应用领域中的应用。",
+    "tldr": "这项调研涉及到流形学习及其在多媒体领域的重要应用，为了解介绍了流形学习的基本概念和应用。",
+    "en_tdlr": "This survey covers manifold learning and its important applications in the field of multimedia, providing an introduction to the basic concepts and applications of manifold learning."
+}

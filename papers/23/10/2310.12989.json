@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Health Data Interoperability with Large Language Models: A FHIR Study. (arXiv:2310.12989v1 [cs.CL])",
+    "abstract": "In this study, we investigated the ability of the large language model (LLM) to enhance healthcare data interoperability. We leveraged the LLM to convert clinical texts into their corresponding FHIR resources. Our experiments, conducted on 3,671 snippets of clinical text, demonstrated that the LLM not only streamlines the multi-step natural language processing and human calibration processes but also achieves an exceptional accuracy rate of over 90% in exact matches when compared to human annotations.",
+    "link": "http://arxiv.org/abs/2310.12989",
+    "context": "Title: Enhancing Health Data Interoperability with Large Language Models: A FHIR Study. (arXiv:2310.12989v1 [cs.CL])\nAbstract: In this study, we investigated the ability of the large language model (LLM) to enhance healthcare data interoperability. We leveraged the LLM to convert clinical texts into their corresponding FHIR resources. Our experiments, conducted on 3,671 snippets of clinical text, demonstrated that the LLM not only streamlines the multi-step natural language processing and human calibration processes but also achieves an exceptional accuracy rate of over 90% in exact matches when compared to human annotations.",
+    "path": "papers/23/10/2310.12989.json",
+    "total_tokens": 682,
+    "translated_title": "利用大型语言模型增强健康数据互操作性：一项FHIR研究",
+    "translated_abstract": "在这项研究中，我们研究了大型语言模型（LLM）增强医疗数据互操作性的能力。我们利用LLM将临床文本转换为对应的FHIR资源。我们在3671个临床文本片段上进行了实验，结果显示LLM不仅简化了多步自然语言处理和人工校准过程，而且在与人工标注进行比较时，准确匹配率超过90%。",
+    "tldr": "本研究调查了利用大型语言模型(LLM)增强医疗数据互操作性的能力。实验证明，LLM不仅简化了多步自然语言处理和人工校准过程，而且在与人工标注进行比较时，精确匹配率超过90%。",
+    "en_tdlr": "This study investigates the ability of large language models (LLM) to enhance health data interoperability. Experimental results demonstrate that LLM not only simplifies the multi-step natural language processing and human calibration processes, but also achieves an accuracy rate of over 90% when compared to human annotations."
+}

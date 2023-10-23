@@ -1,0 +1,12 @@
+{
+    "title": "RL-X: A Deep Reinforcement Learning Library (not only) for RoboCup. (arXiv:2310.13396v1 [cs.RO])",
+    "abstract": "This paper presents the new Deep Reinforcement Learning (DRL) library RL-X and its application to the RoboCup Soccer Simulation 3D League and classic DRL benchmarks. RL-X provides a flexible and easy-to-extend codebase with self-contained single directory algorithms. Through the fast JAX-based implementations, RL-X can reach up to 4.5x speedups compared to well-known frameworks like Stable-Baselines3.",
+    "link": "http://arxiv.org/abs/2310.13396",
+    "context": "Title: RL-X: A Deep Reinforcement Learning Library (not only) for RoboCup. (arXiv:2310.13396v1 [cs.RO])\nAbstract: This paper presents the new Deep Reinforcement Learning (DRL) library RL-X and its application to the RoboCup Soccer Simulation 3D League and classic DRL benchmarks. RL-X provides a flexible and easy-to-extend codebase with self-contained single directory algorithms. Through the fast JAX-based implementations, RL-X can reach up to 4.5x speedups compared to well-known frameworks like Stable-Baselines3.",
+    "path": "papers/23/10/2310.13396.json",
+    "total_tokens": 625,
+    "translated_title": "RL-X: 一个用于RoboCup的深度强化学习库（不仅限于）",
+    "translated_abstract": "本文介绍了新的深度强化学习（DRL）库RL-X及其在RoboCup Soccer Simulation 3D联赛和经典DRL基准测试中的应用。RL-X提供了一个灵活且易于扩展的代码库，具有自包含的单目录算法。通过基于快速的JAX实现，RL-X与知名框架（如Stable-Baselines3）相比，可以达到高达4.5倍的加速效果。",
+    "tldr": "本文介绍了 RL-X 这个新的深度强化学习库，并展示了它在 RoboCup 和经典 DRL 基准测试中的应用，以及相比于其他框架的加速效果。",
+    "en_tdlr": "This paper introduces a new deep reinforcement learning library called RL-X and demonstrates its applications in RoboCup and classical DRL benchmarks, along with its accelerated performance compared to other frameworks."
+}

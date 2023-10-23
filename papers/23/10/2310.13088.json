@@ -1,0 +1,12 @@
+{
+    "title": "Sequence Length Independent Norm-Based Generalization Bounds for Transformers. (arXiv:2310.13088v1 [stat.ML])",
+    "abstract": "This paper provides norm-based generalization bounds for the Transformer architecture that do not depend on the input sequence length. We employ a covering number based approach to prove our bounds. We use three novel covering number bounds for the function class of bounded linear transformations to upper bound the Rademacher complexity of the Transformer. Furthermore, we show this generalization bound applies to the common Transformer training technique of masking and then predicting the masked word. We also run a simulated study on a sparse majority data set that empirically validates our theoretical findings.",
+    "link": "http://arxiv.org/abs/2310.13088",
+    "context": "Title: Sequence Length Independent Norm-Based Generalization Bounds for Transformers. (arXiv:2310.13088v1 [stat.ML])\nAbstract: This paper provides norm-based generalization bounds for the Transformer architecture that do not depend on the input sequence length. We employ a covering number based approach to prove our bounds. We use three novel covering number bounds for the function class of bounded linear transformations to upper bound the Rademacher complexity of the Transformer. Furthermore, we show this generalization bound applies to the common Transformer training technique of masking and then predicting the masked word. We also run a simulated study on a sparse majority data set that empirically validates our theoretical findings.",
+    "path": "papers/23/10/2310.13088.json",
+    "total_tokens": 738,
+    "translated_title": "Transformer的基于范数的长度无关泛化界限",
+    "translated_abstract": "本文提供了一种基于范数的泛化界限，适用于Transformer架构且不依赖于输入序列的长度。我们采用基于覆盖数的方法来证明我们的界限。我们使用了三个新颖的覆盖数界限来上界Transformer的Rademacher复杂度，该函数类为有界线性变换。此外，我们还展示了这个泛化界限适用于常见的Transformer训练技术，即掩码预测掩码字。我们还在一个稀疏多数数据集上进行了模拟研究，从实证角度验证了我们的理论发现。",
+    "tldr": "本文提出了一种基于范数的泛化界限，适用于不依赖于输入序列长度的Transformer架构。通过使用覆盖数界限来上界Transformer的Rademacher复杂度，该方法适用于掩码预测掩码字等常见的Transformer训练技术。我们也通过模拟研究验证了理论结果的有效性。",
+    "en_tdlr": "This paper proposes norm-based generalization bounds for Transformers that are independent of the input sequence length. By employing covering number bounds, the Rademacher complexity of Transformers can be upper bounded for common training techniques such as masked word prediction. Empirical validation is provided through a simulated study on a sparse majority dataset."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "PMIndiaSum: Multilingual and Cross-lingual Headline Summarization for Languages in India. (arXiv:2305.08828v2 [cs.CL] UPDATED)",
+    "abstract": "This paper introduces PMIndiaSum, a multilingual and massively parallel summarization corpus focused on languages in India. Our corpus provides a training and testing ground for four language families, 14 languages, and the largest to date with 196 language pairs. We detail our construction workflow including data acquisition, processing, and quality assurance. Furthermore, we publish benchmarks for monolingual, cross-lingual, and multilingual summarization by fine-tuning, prompting, as well as translate-and-summarize. Experimental results confirm the crucial role of our data in aiding summarization between Indian languages. Our dataset is publicly available and can be freely modified and re-distributed.",
+    "link": "http://arxiv.org/abs/2305.08828",
+    "context": "Title: PMIndiaSum: Multilingual and Cross-lingual Headline Summarization for Languages in India. (arXiv:2305.08828v2 [cs.CL] UPDATED)\nAbstract: This paper introduces PMIndiaSum, a multilingual and massively parallel summarization corpus focused on languages in India. Our corpus provides a training and testing ground for four language families, 14 languages, and the largest to date with 196 language pairs. We detail our construction workflow including data acquisition, processing, and quality assurance. Furthermore, we publish benchmarks for monolingual, cross-lingual, and multilingual summarization by fine-tuning, prompting, as well as translate-and-summarize. Experimental results confirm the crucial role of our data in aiding summarization between Indian languages. Our dataset is publicly available and can be freely modified and re-distributed.",
+    "path": "papers/23/05/2305.08828.json",
+    "total_tokens": 739,
+    "translated_title": "PMIndiaSum：用于印度语言的多语言和跨语言标题摘要方法",
+    "translated_abstract": "本文介绍了PMIndiaSum，一个专注于印度语言的多语言和大规模并行摘要语料库。我们的语料库提供了四个语言家族、14种语言以及迄今最大的196种语言配对的训练和测试基础。我们详细介绍了我们的构建工作流程，包括数据采集、处理和质量保证。此外，我们通过微调、提示以及翻译和摘要发布了单语、跨语言和多语言摘要的基准测试。实验结果证实了我们的数据在印度语言之间的摘要中起到了关键的作用。我们的数据集是公开可用的，可以自由修改和重新分发。",
+    "tldr": "本文介绍了PMIndiaSum，一个多语言和跨语言的标题摘要方法，提供了训练和测试多种印度语言的语料库，并在摘要任务中展示了其重要性。",
+    "en_tdlr": "This paper introduces PMIndiaSum, a multilingual and cross-lingual headline summarization method, which provides a corpus for training and testing multiple Indian languages, and demonstrates its importance in summarization tasks."
+}

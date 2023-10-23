@@ -1,0 +1,12 @@
+{
+    "title": "No offence, Bert -- I insult only humans! Multiple addressees sentence-level attack on toxicity detection neural network. (arXiv:2310.13099v1 [cs.CL])",
+    "abstract": "We introduce a simple yet efficient sentence-level attack on black-box toxicity detector models. By adding several positive words or sentences to the end of a hateful message, we are able to change the prediction of a neural network and pass the toxicity detection system check. This approach is shown to be working on seven languages from three different language families. We also describe the defence mechanism against the aforementioned attack and discuss its limitations.",
+    "link": "http://arxiv.org/abs/2310.13099",
+    "context": "Title: No offence, Bert -- I insult only humans! Multiple addressees sentence-level attack on toxicity detection neural network. (arXiv:2310.13099v1 [cs.CL])\nAbstract: We introduce a simple yet efficient sentence-level attack on black-box toxicity detector models. By adding several positive words or sentences to the end of a hateful message, we are able to change the prediction of a neural network and pass the toxicity detection system check. This approach is shown to be working on seven languages from three different language families. We also describe the defence mechanism against the aforementioned attack and discuss its limitations.",
+    "path": "papers/23/10/2310.13099.json",
+    "total_tokens": 656,
+    "translated_title": "不冒犯，伯特 - 我只侮辱人类！多个收件人句级攻击有毒性检测神经网络。",
+    "translated_abstract": "我们介绍了一种简单而高效的句级攻击方法，针对黑盒有毒性检测模型。通过在仇恨信息末尾添加一些积极的词语或句子，我们能够改变神经网络的预测结果，并通过有毒性检测系统的检查。该方法在来自三个不同语言家族的七种语言上被证明有效。我们还描述了对抗上述攻击的防御机制，并讨论了其局限性。",
+    "tldr": "本论文介绍了一种简单而高效的句级攻击方法，可以通过添加积极的词语或句子来改变黑盒有毒性检测模型的预测结果，该方法在多种语言上均有效。",
+    "en_tdlr": "This paper presents a simple and efficient sentence-level attack that can change the prediction of black-box toxicity detector models by adding positive words or sentences, which has been shown to be effective in multiple languages."
+}
