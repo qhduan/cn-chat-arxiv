@@ -1,0 +1,11 @@
+{
+    "title": "Principled Approaches for Learning to Defer with Multiple Experts. (arXiv:2310.14774v1 [cs.LG])",
+    "abstract": "We present a study of surrogate losses and algorithms for the general problem of learning to defer with multiple experts. We first introduce a new family of surrogate losses specifically tailored for the multiple-expert setting, where the prediction and deferral functions are learned simultaneously. We then prove that these surrogate losses benefit from strong $H$-consistency bounds. We illustrate the application of our analysis through several examples of practical surrogate losses, for which we give explicit guarantees. These loss functions readily lead to the design of new learning to defer algorithms based on their minimization. While the main focus of this work is a theoretical analysis, we also report the results of several experiments on SVHN and CIFAR-10 datasets.",
+    "link": "http://arxiv.org/abs/2310.14774",
+    "context": "Title: Principled Approaches for Learning to Defer with Multiple Experts. (arXiv:2310.14774v1 [cs.LG])\nAbstract: We present a study of surrogate losses and algorithms for the general problem of learning to defer with multiple experts. We first introduce a new family of surrogate losses specifically tailored for the multiple-expert setting, where the prediction and deferral functions are learned simultaneously. We then prove that these surrogate losses benefit from strong $H$-consistency bounds. We illustrate the application of our analysis through several examples of practical surrogate losses, for which we give explicit guarantees. These loss functions readily lead to the design of new learning to defer algorithms based on their minimization. While the main focus of this work is a theoretical analysis, we also report the results of several experiments on SVHN and CIFAR-10 datasets.",
+    "path": "papers/23/10/2310.14774.json",
+    "total_tokens": 820,
+    "translated_title": "多个专家学习推迟的原则方法",
+    "translated_abstract": "我们提出了一项关于使用多个专家学习推迟问题的代理损失和算法的研究。我们首先引入了一类专门针对多专家设置的代理损失函数，其中预测和推迟函数同时学习。然后，我们证明了这些代理损失函数受益于强H一致性界限。我们通过几个实际代理损失函数的示例展示了我们分析的应用，并给出了明确的保证。这些损失函数直接导致了基于它们最小化的新的学习推迟算法的设计。虽然本工作的主要重点是理论分析，但我们还报告了在SVHN和CIFAR-10数据集上的多个实验结果。",
+    "tldr": "我们研究了多个专家学习推迟问题的代理损失和算法，并证明了这些代理损失函数具有强H一致性界限。我们展示了几个实际应用的代理损失函数，并设计了基于最小化这些损失函数的新的学习推迟算法。我们还进行了在SVHN和CIFAR-10数据集上的实验。"
+}

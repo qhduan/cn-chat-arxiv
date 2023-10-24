@@ -1,0 +1,11 @@
+{
+    "title": "On propensity score matching with a diverging number of matches. (arXiv:2310.14142v1 [math.ST])",
+    "abstract": "This paper reexamines Abadie and Imbens (2016)'s work on propensity score matching for average treatment effect estimation. We explore the asymptotic behavior of these estimators when the number of nearest neighbors, $M$, grows with the sample size. It is shown, hardly surprising but technically nontrivial, that the modified estimators can improve upon the original fixed-$M$ estimators in terms of efficiency. Additionally, we demonstrate the potential to attain the semiparametric efficiency lower bound when the propensity score achieves \"sufficient\" dimension reduction, echoing Hahn (1998)'s insight about the role of dimension reduction in propensity score-based causal inference.",
+    "link": "http://arxiv.org/abs/2310.14142",
+    "context": "Title: On propensity score matching with a diverging number of matches. (arXiv:2310.14142v1 [math.ST])\nAbstract: This paper reexamines Abadie and Imbens (2016)'s work on propensity score matching for average treatment effect estimation. We explore the asymptotic behavior of these estimators when the number of nearest neighbors, $M$, grows with the sample size. It is shown, hardly surprising but technically nontrivial, that the modified estimators can improve upon the original fixed-$M$ estimators in terms of efficiency. Additionally, we demonstrate the potential to attain the semiparametric efficiency lower bound when the propensity score achieves \"sufficient\" dimension reduction, echoing Hahn (1998)'s insight about the role of dimension reduction in propensity score-based causal inference.",
+    "path": "papers/23/10/2310.14142.json",
+    "total_tokens": 763,
+    "translated_title": "关于倾向得分匹配和不同数量匹配的研究",
+    "translated_abstract": "本文重新审视了Abadie和Imbens(2016)关于使用倾向得分匹配估计平均处理效应的工作。我们探讨了当最近邻居数量$M$随样本大小增长时，这些估计量的渐近行为。结果表明，在效率方面，改进后的估计量能够优于原始的固定$M$估计量，这不足为奇但从技术上来说是非平凡的。此外，我们还展示了在倾向得分实现“充分”降维时，达到半参数效率下界的潜力，这与Hahn(1998)关于倾向得分方法基于降维的因果推断中降维的作用的见解相呼应。",
+    "tldr": "本文重新审视了倾向得分匹配方法在估计平均处理效应时的应用。我们研究了最近邻居数量随样本大小增长时的估计结果，发现改进后的估计量在效率方面优于原始的固定数量匹配方法。此外，我们还展示了在倾向得分实现“充分”降维时，可以达到半参数效率下界。"
+}

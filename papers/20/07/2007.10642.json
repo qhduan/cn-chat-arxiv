@@ -1,0 +1,12 @@
+{
+    "title": "Gasper: GrAph Signal ProcEssing in R. (arXiv:2007.10642v4 [eess.SP] UPDATED)",
+    "abstract": "We present a short tutorial on to the use of the \\proglang{R} \\pkg{gasper} package. Gasper is a package dedicated to signal processing on graphs. It also provides an interface to the SuiteSparse Matrix Collection.",
+    "link": "http://arxiv.org/abs/2007.10642",
+    "context": "Title: Gasper: GrAph Signal ProcEssing in R. (arXiv:2007.10642v4 [eess.SP] UPDATED)\nAbstract: We present a short tutorial on to the use of the \\proglang{R} \\pkg{gasper} package. Gasper is a package dedicated to signal processing on graphs. It also provides an interface to the SuiteSparse Matrix Collection.",
+    "path": "papers/20/07/2007.10642.json",
+    "total_tokens": 441,
+    "translated_title": "Gasper：在R中进行图形信号处理",
+    "translated_abstract": "我们介绍了关于使用R语言的gasper包的简短教程。Gasper是一个专门用于图形信号处理的包，还提供了与SuiteSparse矩阵集合的接口。",
+    "tldr": "Gasper是一个在R中进行图形信号处理的包，同时提供了与SuiteSparse矩阵集合的接口。",
+    "en_tdlr": "Gasper is a package for graph signal processing in R, with an interface to the SuiteSparse Matrix Collection."
+}

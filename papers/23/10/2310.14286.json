@@ -1,0 +1,11 @@
+{
+    "title": "Finite-Sample Analysis of the Temporal Difference Learning. (arXiv:2310.14286v1 [stat.ML])",
+    "abstract": "In this paper we consider the problem of obtaining sharp bounds for the performance of temporal difference (TD) methods with linear functional approximation for policy evaluation in discounted Markov Decision Processes. We show that a simple algorithm with a universal and instance-independent step size together with Polyak-Ruppert tail averaging is sufficient to obtain near-optimal variance and bias terms. We also provide the respective sample complexity bounds. Our proof technique is based on refined error bounds for linear stochastic approximation together with the novel stability result for the product of random matrices that arise from the TD-type recurrence.",
+    "link": "http://arxiv.org/abs/2310.14286",
+    "context": "Title: Finite-Sample Analysis of the Temporal Difference Learning. (arXiv:2310.14286v1 [stat.ML])\nAbstract: In this paper we consider the problem of obtaining sharp bounds for the performance of temporal difference (TD) methods with linear functional approximation for policy evaluation in discounted Markov Decision Processes. We show that a simple algorithm with a universal and instance-independent step size together with Polyak-Ruppert tail averaging is sufficient to obtain near-optimal variance and bias terms. We also provide the respective sample complexity bounds. Our proof technique is based on refined error bounds for linear stochastic approximation together with the novel stability result for the product of random matrices that arise from the TD-type recurrence.",
+    "path": "papers/23/10/2310.14286.json",
+    "total_tokens": 670,
+    "translated_title": "时间差异学习的有限样本分析",
+    "translated_abstract": "本文考虑了在线策略评估中使用线性函数逼近的时间差异(TD)方法的性能。我们展示了一个简单的算法，通过使用通用且与实例无关的步长和Polyak-Ruppert尾平均，可以获得接近最优的方差和偏差项。我们还提供了相应的样本复杂度界限。我们的证明技巧基于线性随机逼近的精确误差界限以及TD类型递归产生的随机矩阵乘积的新稳定性结果。",
+    "tldr": "本文提出了一种时间差异学习方法，通过线性函数逼近策略评估，在在线推断中获得了接近最优的性能，并提供了相应的样本复杂度界限。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Optimal exercise decision of American options under model uncertainty. (arXiv:2310.14473v1 [math.PR])",
+    "abstract": "Given the marginal distribution information of the underlying asset price at two future times $T_1$ and $T_2$, we consider the problem of determining a model-free upper bound on the price of a class of American options that must be exercised at either $T_1$ or $T_2$. The model uncertainty consistent with the given marginal information is described as the martingale optimal transport problem. We show that if the American option payoff satisfies a suitable convexity condition, then any option exercise scheme associated with any market model that jointly maximizes the expected option payoff must be nonrandomized.",
+    "link": "http://arxiv.org/abs/2310.14473",
+    "context": "Title: Optimal exercise decision of American options under model uncertainty. (arXiv:2310.14473v1 [math.PR])\nAbstract: Given the marginal distribution information of the underlying asset price at two future times $T_1$ and $T_2$, we consider the problem of determining a model-free upper bound on the price of a class of American options that must be exercised at either $T_1$ or $T_2$. The model uncertainty consistent with the given marginal information is described as the martingale optimal transport problem. We show that if the American option payoff satisfies a suitable convexity condition, then any option exercise scheme associated with any market model that jointly maximizes the expected option payoff must be nonrandomized.",
+    "path": "papers/23/10/2310.14473.json",
+    "total_tokens": 657,
+    "translated_title": "模型不确定性下美式期权的最优行权决策",
+    "translated_abstract": "给定未来两个时间点T1和T2下基础资产价格的边际分布信息，我们考虑确定一种无模型的关于一类美式期权价格的上界，这些期权在T1或者T2必须被行权。给定边际信息的模型不确定性可以描述为鞅最优运输问题。我们证明如果美式期权满足适当的凸性条件，那么与最大化期望期权收益相联的任何市场模型的任何期权行权方案必然是非随机的。",
+    "tldr": "该论文研究了模型不确定性下美式期权的最优行权决策问题，基于给定的边际分布信息，推导出了一类美式期权价格的上界，并证明了与最大化期望期权收益相联的任何市场模型的任何期权行权方案必然是非随机的。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "ASBART:Accelerated Soft Bayes Additive Regression Trees. (arXiv:2310.13975v1 [stat.ML])",
+    "abstract": "Bayes additive regression trees(BART) is a nonparametric regression model which has gained wide-spread popularity in recent years due to its flexibility and high accuracy of estimation. Soft BART,one variation of BART,improves both practically and heoretically on existing Bayesian sum-of-trees models. One bottleneck for Soft BART is its slow speed in the long MCMC loop. Compared to BART,it use more than about 20 times to complete the calculation with the default setting. We proposed a variant of BART named accelerate Soft BART(ASBART). Simulation studies show that the new method is about 10 times faster than the Soft BART with comparable accuracy. Our code is open-source and available at https://github.com/richael008/XSBART.",
+    "link": "http://arxiv.org/abs/2310.13975",
+    "context": "Title: ASBART:Accelerated Soft Bayes Additive Regression Trees. (arXiv:2310.13975v1 [stat.ML])\nAbstract: Bayes additive regression trees(BART) is a nonparametric regression model which has gained wide-spread popularity in recent years due to its flexibility and high accuracy of estimation. Soft BART,one variation of BART,improves both practically and heoretically on existing Bayesian sum-of-trees models. One bottleneck for Soft BART is its slow speed in the long MCMC loop. Compared to BART,it use more than about 20 times to complete the calculation with the default setting. We proposed a variant of BART named accelerate Soft BART(ASBART). Simulation studies show that the new method is about 10 times faster than the Soft BART with comparable accuracy. Our code is open-source and available at https://github.com/richael008/XSBART.",
+    "path": "papers/23/10/2310.13975.json",
+    "total_tokens": 785,
+    "translated_title": "ASBART: 加速软贝叶斯加法回归树",
+    "translated_abstract": "贝叶斯加法回归树（BART）是一种非参数回归模型，由于其灵活性和高准确度的估计，近年来在统计和机器学习领域广受欢迎。软BART是BART的一种变种，从实际和理论上改进了现有的贝叶斯树总和模型。然而，软BART的一个瓶颈是在长的MCMC循环中速度较慢。与BART相比，它使用的计算时间默认情况下多了大约20倍。我们提出了一种名为加速软BART（ASBART）的BART变体。模拟研究表明，该新方法比具有可比准确度的软BART快约10倍。我们的代码是开源的，可在https://github.com/richael008/XSBART找到。",
+    "tldr": "ASBART是基于贝叶斯加法回归树（BART）的一种加速软件，相较于传统的软BART方法，在保持准确度的情况下提高了计算速度。",
+    "en_tdlr": "ASBART is an accelerated software based on Bayesian additive regression trees (BART), which improves the computation speed while maintaining accuracy compared to traditional Soft BART method."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Investment AUM Fee Costs: Evaluating a Simple Formula. (arXiv:2107.00837v2 [q-fin.GN] UPDATED)",
+    "abstract": "How much do financial management fees cost investors? This article studies an approximate formula for the cumulative costs of annual Assets Under Management (AUM) fees. The formula states that an investment paying an annual fee of $\\epsilon$% of AUM over $N$ years loses almost $N\\epsilon$% of its value, compared to an investment with the same returns paying no fee. The article explains this formula intuitively, derives it analytically, and studies its approximation error. The article concludes with a discussion of the formula's uses and limitations.",
+    "link": "http://arxiv.org/abs/2107.00837",
+    "context": "Title: Investment AUM Fee Costs: Evaluating a Simple Formula. (arXiv:2107.00837v2 [q-fin.GN] UPDATED)\nAbstract: How much do financial management fees cost investors? This article studies an approximate formula for the cumulative costs of annual Assets Under Management (AUM) fees. The formula states that an investment paying an annual fee of $\\epsilon$% of AUM over $N$ years loses almost $N\\epsilon$% of its value, compared to an investment with the same returns paying no fee. The article explains this formula intuitively, derives it analytically, and studies its approximation error. The article concludes with a discussion of the formula's uses and limitations.",
+    "path": "papers/21/07/2107.00837.json",
+    "total_tokens": 663,
+    "translated_title": "投资AUM费用成本：评估一种简单公式",
+    "translated_abstract": "金融管理费用对投资者来说有多少成本？本文研究了年度资产管理费用（AUM）的累积成本的近似公式。该公式表明，在N年内，一项支付AUM $\\epsilon$%年费的投资相对于一项没有费用的投资，损失的价值几乎为$N\\epsilon$%。文章以直观方式解释了这个公式，通过分析导出了它，并研究了其近似误差。文章最后讨论了该公式的应用和限制。",
+    "tldr": "本文研究了投资AUM费用的一个简单公式，该公式表明支付年度费用的投资在多年中相对于没有费用的投资将损失$N\\epsilon$%的价值。"
+}

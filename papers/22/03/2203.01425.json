@@ -1,0 +1,12 @@
+{
+    "title": "A Modern Gauss-Markov Theorem? Really?. (arXiv:2203.01425v5 [math.ST] UPDATED)",
+    "abstract": "We show that the theorems in Hansen (2021a) (the version accepted by Econometrica), except for one, are not new as they coincide with classical theorems like the good old Gauss-Markov or Aitken Theorem, respectively; the exceptional theorem is incorrect. Hansen (2021b) corrects this theorem. As a result, all theorems in the latter version coincide with the above mentioned classical theorems. Furthermore, we also show that the theorems in Hansen (2022) (the version published in Econometrica) either coincide with the classical theorems just mentioned, or contain extra assumptions that are alien to the Gauss-Markov or Aitken Theorem.",
+    "link": "http://arxiv.org/abs/2203.01425",
+    "context": "Title: A Modern Gauss-Markov Theorem? Really?. (arXiv:2203.01425v5 [math.ST] UPDATED)\nAbstract: We show that the theorems in Hansen (2021a) (the version accepted by Econometrica), except for one, are not new as they coincide with classical theorems like the good old Gauss-Markov or Aitken Theorem, respectively; the exceptional theorem is incorrect. Hansen (2021b) corrects this theorem. As a result, all theorems in the latter version coincide with the above mentioned classical theorems. Furthermore, we also show that the theorems in Hansen (2022) (the version published in Econometrica) either coincide with the classical theorems just mentioned, or contain extra assumptions that are alien to the Gauss-Markov or Aitken Theorem.",
+    "path": "papers/22/03/2203.01425.json",
+    "total_tokens": 826,
+    "translated_title": "一种现代的高斯-马尔可夫定理？真的吗？",
+    "translated_abstract": "我们表明Hansen（2021a）中的定理（被Econometrica接受的版本）除了一个以外，并非新定理，因为它们与经典定理如古老的高斯-马尔可夫或艾特肯定理相吻合；该例外定理是错误的。Hansen（2021b）更正了这个定理。因此，后一版本中的所有定理与上述经典定理相吻合。此外，我们还表明Hansen（2022）中的定理（在Econometrica上发表的版本）要么与刚提到的经典定理相吻合，要么包含与高斯-马尔可夫或艾特肯定理无关的额外假设。",
+    "tldr": "该论文对Hansen（2021a）和Hansen（2022）的定理进行了分析，发现除一个例外外，这些定理与经典定理相吻合，其中一个例外定理是错误的。作者还指出Hansen（2022）中的定理有些包含了与高斯-马尔可夫或艾特肯定理无关的额外假设。",
+    "en_tdlr": "This paper analyzes the theorems in Hansen (2021a) and Hansen (2022), finding that except for one exception, these theorems coincide with classical theorems, but one of the exceptions is incorrect. The author also points out that some theorems in Hansen (2022) contain additional assumptions unrelated to the Gauss-Markov or Aitken Theorem."
+}

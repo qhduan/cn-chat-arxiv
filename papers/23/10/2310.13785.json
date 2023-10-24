@@ -1,0 +1,11 @@
+{
+    "title": "Bayesian Estimation of Panel Models under Potentially Sparse Heterogeneity. (arXiv:2310.13785v1 [econ.EM])",
+    "abstract": "We incorporate a version of a spike and slab prior, comprising a pointmass at zero (\"spike\") and a Normal distribution around zero (\"slab\") into a dynamic panel data framework to model coefficient heterogeneity. In addition to homogeneity and full heterogeneity, our specification can also capture sparse heterogeneity, that is, there is a core group of units that share common parameters and a set of deviators with idiosyncratic parameters. We fit a model with unobserved components to income data from the Panel Study of Income Dynamics. We find evidence for sparse heterogeneity for balanced panels composed of individuals with long employment histories.",
+    "link": "http://arxiv.org/abs/2310.13785",
+    "context": "Title: Bayesian Estimation of Panel Models under Potentially Sparse Heterogeneity. (arXiv:2310.13785v1 [econ.EM])\nAbstract: We incorporate a version of a spike and slab prior, comprising a pointmass at zero (\"spike\") and a Normal distribution around zero (\"slab\") into a dynamic panel data framework to model coefficient heterogeneity. In addition to homogeneity and full heterogeneity, our specification can also capture sparse heterogeneity, that is, there is a core group of units that share common parameters and a set of deviators with idiosyncratic parameters. We fit a model with unobserved components to income data from the Panel Study of Income Dynamics. We find evidence for sparse heterogeneity for balanced panels composed of individuals with long employment histories.",
+    "path": "papers/23/10/2310.13785.json",
+    "total_tokens": 787,
+    "translated_title": "基于潜在稀疏异质性下的面板模型的贝叶斯估计",
+    "translated_abstract": "我们将零点质量（“峰”）和围绕零的正态分布（“板”）的版本的刺棒先验结合到动态面板数据框架中，以建模系数异质性。除了均匀性和完全异质性外，我们的规范还可以捕捉到稀疏异质性，即存在一组共享公共参数的核心单位和一组具有特异性参数的异常值。我们将一个包含未观测成分的模型拟合到来自收入动态面板研究的收入数据中。我们发现在具有长期就业历史的个体组成的平衡面板中存在稀疏异质性的证据。",
+    "tldr": "本研究将零点质量和围绕零的正态分布的刺棒先验引入动态面板数据框架中，以建模系数异质性，特别是稀疏异质性。研究发现在具有长期就业历史的个体组成的平衡面板中存在稀疏异质性的证据。"
+}

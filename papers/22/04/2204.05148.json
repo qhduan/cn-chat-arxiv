@@ -1,0 +1,11 @@
+{
+    "title": "Speech Sequence Embeddings using Nearest Neighbors Contrastive Learning. (arXiv:2204.05148v2 [cs.AI] UPDATED)",
+    "abstract": "We introduce a simple neural encoder architecture that can be trained using an unsupervised contrastive learning objective which gets its positive samples from data-augmented k-Nearest Neighbors search. We show that when built on top of recent self-supervised audio representations, this method can be applied iteratively and yield competitive SSE as evaluated on two tasks: query-by-example of random sequences of speech, and spoken term discovery. On both tasks our method pushes the state-of-the-art by a significant margin across 5 different languages. Finally, we establish a benchmark on a query-by-example task on the LibriSpeech dataset to monitor future improvements in the field.",
+    "link": "http://arxiv.org/abs/2204.05148",
+    "context": "Title: Speech Sequence Embeddings using Nearest Neighbors Contrastive Learning. (arXiv:2204.05148v2 [cs.AI] UPDATED)\nAbstract: We introduce a simple neural encoder architecture that can be trained using an unsupervised contrastive learning objective which gets its positive samples from data-augmented k-Nearest Neighbors search. We show that when built on top of recent self-supervised audio representations, this method can be applied iteratively and yield competitive SSE as evaluated on two tasks: query-by-example of random sequences of speech, and spoken term discovery. On both tasks our method pushes the state-of-the-art by a significant margin across 5 different languages. Finally, we establish a benchmark on a query-by-example task on the LibriSpeech dataset to monitor future improvements in the field.",
+    "path": "papers/22/04/2204.05148.json",
+    "total_tokens": 812,
+    "translated_title": "使用最近邻对比学习的语音序列嵌入",
+    "translated_abstract": "我们介绍了一种简单的神经编码器架构，可以使用无监督的对比学习目标进行训练，该目标从数据增强的k最近邻搜索中获取其正样本。我们展示了当建立在最近的自监督音频表示之上时，该方法可以迭代应用并在两个任务上产生有竞争力的SSE评估结果：随机语音序列的查询示例和口述术语发现。在这两个任务上，我们的方法在5种不同的语言中将先进技术推向了一个显著的边界。最后，我们在LibriSpeech数据集上建立了一个查询示例任务的基准，以监测未来在该领域的改进。",
+    "tldr": "本研究提出了一种使用最近邻对比学习的语音序列嵌入的简单神经编码器架构，通过在自监督音频表示之上进行迭代应用，实现了在查询示例和口述术语发现等任务上的有竞争力的结果，并在5种不同的语言中将先进技术推向了一个显著的边界。"
+}

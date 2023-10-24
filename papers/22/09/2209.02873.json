@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Difference Equation Approach for the Stability and Robustness of Compact Schemes for Variable Coefficient PDEs. (arXiv:2209.02873v2 [math.NA] UPDATED)",
+    "abstract": "Fourth order accurate compact schemes for variable coefficient convection-diffusion equations are considered. A sufficient condition for stability of the schemes have been derived using a difference equation based approach. The constant coefficient problems are considered as a special case, and the unconditional stability of compact schemes for such case is proved theoretically. The condition number of the amplification matrix is also analysed, and an estimate for the same is derived. In order to verify the derived conditions numerically, MATLAB codes are provided in Appendix of the manuscript. An example is provided to support the assumption taken to assure stability.",
+    "link": "http://arxiv.org/abs/2209.02873",
+    "context": "Title: A Novel Difference Equation Approach for the Stability and Robustness of Compact Schemes for Variable Coefficient PDEs. (arXiv:2209.02873v2 [math.NA] UPDATED)\nAbstract: Fourth order accurate compact schemes for variable coefficient convection-diffusion equations are considered. A sufficient condition for stability of the schemes have been derived using a difference equation based approach. The constant coefficient problems are considered as a special case, and the unconditional stability of compact schemes for such case is proved theoretically. The condition number of the amplification matrix is also analysed, and an estimate for the same is derived. In order to verify the derived conditions numerically, MATLAB codes are provided in Appendix of the manuscript. An example is provided to support the assumption taken to assure stability.",
+    "path": "papers/22/09/2209.02873.json",
+    "total_tokens": 717,
+    "translated_title": "一种用于变系数偏微分方程稳定性和鲁棒性的新型差分方程方法",
+    "translated_abstract": "本文考虑了变系数对流-扩散方程的四阶精确紧致格式。使用基于差分方程的方法导出了方案稳定性的充分条件。将恒定系数问题视为特例，并在理论上证明了此类情况下紧致格式的无条件稳定性。还分析了放大矩阵的条件数，并导出了相应的估计。为了数值上验证导出的条件，本文在附录中提供了MATLAB代码。通过提供示例来支持确保稳定性的假设。",
+    "tldr": "本文提出了一种新的差分方程方法，用于研究变系数偏微分方程的稳定性和鲁棒性。通过导出稳定性条件并提供数值验证，论文证明了紧致格式在特定情况下的无条件稳定性。",
+    "en_tdlr": "This paper presents a novel difference equation approach to investigate the stability and robustness of variable coefficient partial differential equations. By deriving stability conditions and providing numerical validation, the paper proves the unconditional stability of compact schemes in specific cases."
+}
