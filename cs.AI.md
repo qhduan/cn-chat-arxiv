@@ -134,15 +134,16 @@
 | [^130] | [ConSpec: honing in on critical steps for rapid learning and generalization in RL.](http://arxiv.org/abs/2210.05845) | ConSpec是一个新的强化学习算法，通过离线对比学习来确定任务中的关键步骤，实现快速学习和泛化。该算法通过学习关键步骤的原型，并在当前状态匹配时提供内在奖励，具有快速识别关键步骤和可解释的信用分配的优势。 |
 | [^131] | [Once is Enough: A Light-Weight Cross-Attention for Fast Sentence Pair Modeling.](http://arxiv.org/abs/2210.05261) | 本文提出了一种名为MixEncoder的新范式，用于高效的句对建模。该范式通过轻量级的交叉注意力机制实现了超过113倍的句对匹配加速，与更昂贵的交叉注意力模型相比，性能相当。 |
 | [^132] | [Comparing Apples to Oranges: Learning Similarity Functions for Data Produced by Different Distributions.](http://arxiv.org/abs/2208.12731) | 该论文提出了一个高效的采样框架，通过仅使用有限数量的专家反馈，学习了由不同分布生成的数据的跨群体相似性函数。 |
-| [^133] | [Source Separation of Unknown Numbers of Single-Channel Underwater Acoustic Signals Based on Autoencoders.](http://arxiv.org/abs/2207.11749) | 本研究提出了一种基于自动编码器的解决方案，用于对未知数量的单通道水声信号进行源分离。通过固定输出通道数量和新的性能评估方法，避免了排列问题引起的维度灾难，并在实验证明与已知信号数量相似的分离性能。该算法具有竞争性能、可解释性和可扩展性，在该框架下达到了最先进的水平。 |
-| [^134] | [ApHMM: Accelerating Profile Hidden Markov Models for Fast and Energy-Efficient Genome Analysis.](http://arxiv.org/abs/2207.09765) | ApHMM 是一个灵活的加速框架，旨在显著减少Profile Hidden Markov Models中Baum-Welch算法的计算和能量开销。 |
-| [^135] | [Labeling Programs with Non-Programmers Indirectly via Active Examples: A Case Study with Text-to-SQL.](http://arxiv.org/abs/2205.12422) | 使用APEL框架，非程序员可以通过检查输入-输出示例间接选择复杂程序，从而实现对自然语言表达的注释，并且在重新注释文本到SQL数据集时达到了与专家相同的准确度，同时揭示了原始注释中的细微错误。 |
-| [^136] | [Speech Sequence Embeddings using Nearest Neighbors Contrastive Learning.](http://arxiv.org/abs/2204.05148) | 本研究提出了一种使用最近邻对比学习的语音序列嵌入的简单神经编码器架构，通过在自监督音频表示之上进行迭代应用，实现了在查询示例和口述术语发现等任务上的有竞争力的结果，并在5种不同的语言中将先进技术推向了一个显著的边界。 |
-| [^137] | [Harnessing Hard Mixed Samples with Decoupled Regularizer.](http://arxiv.org/abs/2203.10761) | 本文提出了一种名为解耦Mixup（DM）的高效mixup目标函数，通过利用困难混合样本来挖掘具有判别特征的信息。 |
-| [^138] | [EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training.](http://arxiv.org/abs/2203.09313) | 本论文研究了开放领域中文对话系统的关键因素，包括数据质量控制、模型架构设计、训练方法和解码策略，并提出了具有28亿参数的EVA2.0模型，其在自动和人工评估中表现优秀，还讨论了该研究的局限性和未来的研究方向。 |
-| [^139] | [Combining optimal path search with task-dependent learning in a neural network.](http://arxiv.org/abs/2201.11104) | 这篇论文提出了一种在神经网络中结合最优路径搜索和任务相关学习的方法，通过将成本值转化为神经网络的权重来实现在线权重适应。实验结果表明，该方法与经典算法Bellman-Ford具有相同的解，并且网络学习机制可以进一步增强算法的性能。 |
-| [^140] | [Exploring Autoencoder-based Error-bounded Compression for Scientific Data.](http://arxiv.org/abs/2105.11730) | 本论文探索了基于自动编码器的误差有界科学数据压缩，并提出了三个关键贡献：（1）深入研究了各种自动编码器模型的特性，并开发了基于SZ模型的误差有界自动编码器框架；（2）优化了设计的基于AE的误差有界压缩框架中的主要阶段的压缩质量。 |
-| [^141] | [Nucleus I: Adjunction spectra in recommender systems and descent.](http://arxiv.org/abs/2004.07353) | 这篇论文介绍了在推荐系统和下降理论中的附加谱，并解释了它们之间的联系。通过对使用矩阵进行概念分析，推荐系统构建用户配置文件，并形成伽罗华连接。下降是一种用于代数几何和拓扑的谱分解方法，也导致了广义伽罗华连接。这篇论文对数据分析问题提出了新颖的范畴论解决方案。 |
+| [^133] | [A Computational Interface to Translate Strategic Intent from Unstructured Language in a Low-Data Setting.](http://arxiv.org/abs/2208.08374) | 本文建立了一个计算接口，可以将非结构化语言策略翻译为可执行的目标和约束，并证明该模型在推断战略意图方面优于人类解释员。 |
+| [^134] | [Source Separation of Unknown Numbers of Single-Channel Underwater Acoustic Signals Based on Autoencoders.](http://arxiv.org/abs/2207.11749) | 本研究提出了一种基于自动编码器的解决方案，用于对未知数量的单通道水声信号进行源分离。通过固定输出通道数量和新的性能评估方法，避免了排列问题引起的维度灾难，并在实验证明与已知信号数量相似的分离性能。该算法具有竞争性能、可解释性和可扩展性，在该框架下达到了最先进的水平。 |
+| [^135] | [ApHMM: Accelerating Profile Hidden Markov Models for Fast and Energy-Efficient Genome Analysis.](http://arxiv.org/abs/2207.09765) | ApHMM 是一个灵活的加速框架，旨在显著减少Profile Hidden Markov Models中Baum-Welch算法的计算和能量开销。 |
+| [^136] | [Labeling Programs with Non-Programmers Indirectly via Active Examples: A Case Study with Text-to-SQL.](http://arxiv.org/abs/2205.12422) | 使用APEL框架，非程序员可以通过检查输入-输出示例间接选择复杂程序，从而实现对自然语言表达的注释，并且在重新注释文本到SQL数据集时达到了与专家相同的准确度，同时揭示了原始注释中的细微错误。 |
+| [^137] | [Speech Sequence Embeddings using Nearest Neighbors Contrastive Learning.](http://arxiv.org/abs/2204.05148) | 本研究提出了一种使用最近邻对比学习的语音序列嵌入的简单神经编码器架构，通过在自监督音频表示之上进行迭代应用，实现了在查询示例和口述术语发现等任务上的有竞争力的结果，并在5种不同的语言中将先进技术推向了一个显著的边界。 |
+| [^138] | [Harnessing Hard Mixed Samples with Decoupled Regularizer.](http://arxiv.org/abs/2203.10761) | 本文提出了一种名为解耦Mixup（DM）的高效mixup目标函数，通过利用困难混合样本来挖掘具有判别特征的信息。 |
+| [^139] | [EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training.](http://arxiv.org/abs/2203.09313) | 本论文研究了开放领域中文对话系统的关键因素，包括数据质量控制、模型架构设计、训练方法和解码策略，并提出了具有28亿参数的EVA2.0模型，其在自动和人工评估中表现优秀，还讨论了该研究的局限性和未来的研究方向。 |
+| [^140] | [Combining optimal path search with task-dependent learning in a neural network.](http://arxiv.org/abs/2201.11104) | 这篇论文提出了一种在神经网络中结合最优路径搜索和任务相关学习的方法，通过将成本值转化为神经网络的权重来实现在线权重适应。实验结果表明，该方法与经典算法Bellman-Ford具有相同的解，并且网络学习机制可以进一步增强算法的性能。 |
+| [^141] | [Exploring Autoencoder-based Error-bounded Compression for Scientific Data.](http://arxiv.org/abs/2105.11730) | 本论文探索了基于自动编码器的误差有界科学数据压缩，并提出了三个关键贡献：（1）深入研究了各种自动编码器模型的特性，并开发了基于SZ模型的误差有界自动编码器框架；（2）优化了设计的基于AE的误差有界压缩框架中的主要阶段的压缩质量。 |
+| [^142] | [Nucleus I: Adjunction spectra in recommender systems and descent.](http://arxiv.org/abs/2004.07353) | 这篇论文介绍了在推荐系统和下降理论中的附加谱，并解释了它们之间的联系。通过对使用矩阵进行概念分析，推荐系统构建用户配置文件，并形成伽罗华连接。下降是一种用于代数几何和拓扑的谱分解方法，也导致了广义伽罗华连接。这篇论文对数据分析问题提出了新颖的范畴论解决方案。 |
 
 # 详细
 
@@ -1994,7 +1995,21 @@
 
     Similarity functions measure how comparable pairs of elements are, and play a key role in a wide variety of applications, e.g., notions of Individual Fairness abiding by the seminal paradigm of Dwork et al., as well as Clustering problems. However, access to an accurate similarity function should not always be considered guaranteed, and this point was even raised by Dwork et al. For instance, it is reasonable to assume that when the elements to be compared are produced by different distributions, or in other words belong to different ``demographic'' groups, knowledge of their true similarity might be very difficult to obtain. In this work, we present an efficient sampling framework that learns these across-groups similarity functions, using only a limited amount of experts' feedback. We show analytical results with rigorous theoretical bounds, and empirically validate our algorithms via a large suite of experiments.
     
-[^133]: 基于自动编码器的未知数量单通道水声信号源分离研究
+[^133]: 从非结构化语言中翻译战略意图的计算接口
+
+    A Computational Interface to Translate Strategic Intent from Unstructured Language in a Low-Data Setting. (arXiv:2208.08374v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2208.08374](http://arxiv.org/abs/2208.08374)
+
+    本文建立了一个计算接口，可以将非结构化语言策略翻译为可执行的目标和约束，并证明该模型在推断战略意图方面优于人类解释员。
+
+    
+
+    许多现实世界的任务涉及到人类和AI系统协同完成任务的混合发起设定。尽管在通过语言精确指定代理完成任务的低级规范方面进行了大量工作，但之前的工作在解释人类指挥官的高级战略意图方面缺乏。从语言中解析战略意图将使自主系统能够根据用户的计划独立运行，而无需频繁的指导或指令。在本文中，我们构建了一个能够将非结构化语言策略转化为可行的目标和约束形式的计算接口。利用一个游戏环境，我们收集了1000多个示例的数据集，将语言策略映射到相应的目标和约束，并证明我们在这个数据集上训练的模型在推断战略意图方面显著优于人类解释员。
+
+    Many real-world tasks involve a mixed-initiative setup, wherein humans and AI systems collaboratively perform a task. While significant work has been conducted towards enabling humans to specify, through language, exactly how an agent should complete a task (i.e., low-level specification), prior work lacks on interpreting the high-level strategic intent of the human commanders. Parsing strategic intent from language will allow autonomous systems to independently operate according to the user's plan without frequent guidance or instruction. In this paper, we build a computational interface capable of translating unstructured language strategies into actionable intent in the form of goals and constraints. Leveraging a game environment, we collect a dataset of over 1000 examples, mapping language strategies to the corresponding goals and constraints, and show that our model, trained on this dataset, significantly outperforms human interpreters in inferring strategic intent (i.e., goals an
+    
+[^134]: 基于自动编码器的未知数量单通道水声信号源分离研究
 
     Source Separation of Unknown Numbers of Single-Channel Underwater Acoustic Signals Based on Autoencoders. (arXiv:2207.11749v2 [cs.SD] UPDATED)
 
@@ -2008,7 +2023,7 @@
 
     Few existing studies focus on the source separation problem with unknown numbers of signals, and how to evaluate the performances of the systems is not yet clear. We propose a solution with a fixed number of output channels to address these two problems, enabling it to avoid the dimensional disaster caused by the permutation problem induced by the alignment of outputs to targets. Specifically, we propose a two-step algorithm based on autoencoders and a new performance evaluation method for situations with mute channels. Experiments conducted on simulated mixtures of radiated ship noise show that the proposed solution can achieve similar separation performance to that attained with a known number of signals. The proposed algorithm achieved competitive performance as two algorithms developed for known numbers of signals, which is highly explainable and extensible and get the state of the art under this framework.
     
-[^134]: ApHMM: 快速和节能的基因组分析中加速Profile Hidden Markov Models
+[^135]: ApHMM: 快速和节能的基因组分析中加速Profile Hidden Markov Models
 
     ApHMM: Accelerating Profile Hidden Markov Models for Fast and Energy-Efficient Genome Analysis. (arXiv:2207.09765v2 [cs.AR] UPDATED)
 
@@ -2022,7 +2037,7 @@
 
     Profile hidden Markov models (pHMMs) are widely employed in various bioinformatics applications to identify similarities between biological sequences, such as DNA or protein sequences. In pHMMs, sequences are represented as graph structures. These probabilities are subsequently used to compute the similarity score between a sequence and a pHMM graph. The Baum-Welch algorithm, a prevalent and highly accurate method, utilizes these probabilities to optimize and compute similarity scores. However, the Baum-Welch algorithm is computationally intensive, and existing solutions offer either software-only or hardware-only approaches with fixed pHMM designs. We identify an urgent need for a flexible, high-performance, and energy-efficient HW/SW co-design to address the major inefficiencies in the Baum-Welch algorithm for pHMMs.  We introduce ApHMM, the first flexible acceleration framework designed to significantly reduce both computational and energy overheads associated with the Baum-Welch al
     
-[^135]: 间接通过主动示例为非程序员添加标签程序：以Text-to-SQL为例的案例研究
+[^136]: 间接通过主动示例为非程序员添加标签程序：以Text-to-SQL为例的案例研究
 
     Labeling Programs with Non-Programmers Indirectly via Active Examples: A Case Study with Text-to-SQL. (arXiv:2205.12422v2 [cs.CL] UPDATED)
 
@@ -2036,7 +2051,7 @@
 
     Can non-programmers annotate natural language utterances with complex programs that represent their meaning? We introduce APEL, a framework in which non-programmers select among candidate programs generated by a seed semantic parser (e.g., Codex). Since they cannot understand the candidate programs, we ask them to select indirectly by examining the programs' input-ouput examples. For each utterance, APEL actively searches for a simple input on which the candidate programs tend to produce different outputs. It then asks the non-programmers only to choose the appropriate output, thus allowing us to infer which program is correct and could be used to fine-tune the parser. As a first case study, we recruited human non-programmers to use APEL to re-annotate SPIDER, a text-to-SQL dataset. Our approach achieved the same annotation accuracy as the original expert annotators (75%) and exposed many subtle errors in the original annotations.
     
-[^136]: 使用最近邻对比学习的语音序列嵌入
+[^137]: 使用最近邻对比学习的语音序列嵌入
 
     Speech Sequence Embeddings using Nearest Neighbors Contrastive Learning. (arXiv:2204.05148v2 [cs.AI] UPDATED)
 
@@ -2050,7 +2065,7 @@
 
     We introduce a simple neural encoder architecture that can be trained using an unsupervised contrastive learning objective which gets its positive samples from data-augmented k-Nearest Neighbors search. We show that when built on top of recent self-supervised audio representations, this method can be applied iteratively and yield competitive SSE as evaluated on two tasks: query-by-example of random sequences of speech, and spoken term discovery. On both tasks our method pushes the state-of-the-art by a significant margin across 5 different languages. Finally, we establish a benchmark on a query-by-example task on the LibriSpeech dataset to monitor future improvements in the field.
     
-[^137]: 利用解耦正则化方法来应用于困难混合样本
+[^138]: 利用解耦正则化方法来应用于困难混合样本
 
     Harnessing Hard Mixed Samples with Decoupled Regularizer. (arXiv:2203.10761v3 [cs.LG] UPDATED)
 
@@ -2064,7 +2079,7 @@
 
     Mixup is an efficient data augmentation approach that improves the generalization of neural networks by smoothing the decision boundary with mixed data. Recently, dynamic mixup methods have improved previous static policies effectively (e.g., linear interpolation) by maximizing target-related salient regions in mixed samples, but excessive additional time costs are not acceptable. These additional computational overheads mainly come from optimizing the mixed samples according to the mixed labels. However, we found that the extra optimizing step may be redundant because label-mismatched mixed samples are informative hard mixed samples for deep models to localize discriminative features. In this paper, we thus are not trying to propose a more complicated dynamic mixup policy but rather an efficient mixup objective function with a decoupled regularizer named Decoupled Mixup (DM). The primary effect is that DM can adaptively utilize those hard mixed samples to mine discriminative features 
     
-[^138]: EVA2.0：使用大规模预训练研究开放领域的中文对话系统
+[^139]: EVA2.0：使用大规模预训练研究开放领域的中文对话系统
 
     EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training. (arXiv:2203.09313v3 [cs.CL] UPDATED)
 
@@ -2078,7 +2093,7 @@
 
     Large-scale pre-training has shown remarkable performance in building open-domain dialogue systems. However, previous works mainly focus on showing and evaluating the conversational performance of the released dialogue model, ignoring the discussion of some key factors towards a powerful human-like chatbot, especially in Chinese scenarios. In this paper, we conduct extensive experiments to investigate these under-explored factors, including data quality control, model architecture designs, training approaches, and decoding strategies. We propose EVA2.0, a large-scale pre-trained open-domain Chinese dialogue model with 2.8 billion parameters, and will make our models and codes publicly available. Automatic and human evaluations show that EVA2.0 significantly outperforms other open-source counterparts. We also discuss the limitations of this work by presenting some failure cases and pose some future research directions on large-scale Chinese open-domain dialogue systems.
     
-[^139]: 在神经网络中结合最优路径搜索和任务相关学习
+[^140]: 在神经网络中结合最优路径搜索和任务相关学习
 
     Combining optimal path search with task-dependent learning in a neural network. (arXiv:2201.11104v4 [cs.LG] UPDATED)
 
@@ -2092,7 +2107,7 @@
 
     Finding optimal paths in connected graphs requires determining the smallest total cost for traveling along the graph's edges. This problem can be solved by several classical algorithms where, usually, costs are predefined for all edges. Conventional planning methods can, thus, normally not be used when wanting to change costs in an adaptive way following the requirements of some task. Here we show that one can define a neural network representation of path finding problems by transforming cost values into synaptic weights, which allows for online weight adaptation using network learning mechanisms. When starting with an initial activity value of one, activity propagation in this network will lead to solutions, which are identical to those found by the Bellman-Ford algorithm. The neural network has the same algorithmic complexity as Bellman-Ford and, in addition, we can show that network learning mechanisms (such as Hebbian learning) can adapt the weights in the network augmenting the r
     
-[^140]: 探索基于自动编码器的误差有界科学数据压缩
+[^141]: 探索基于自动编码器的误差有界科学数据压缩
 
     Exploring Autoencoder-based Error-bounded Compression for Scientific Data. (arXiv:2105.11730v7 [cs.LG] UPDATED)
 
@@ -2106,7 +2121,7 @@
 
     Error-bounded lossy compression is becoming an indispensable technique for the success of today's scientific projects with vast volumes of data produced during simulations or instrument data acquisitions. Not only can it significantly reduce data size, but it also can control the compression errors based on user-specified error bounds. Autoencoder (AE) models have been widely used in image compression, but few AE-based compression approaches support error-bounding features, which are highly required by scientific applications. To address this issue, we explore using convolutional autoencoders to improve error-bounded lossy compression for scientific data, with the following three key contributions. (1) We provide an in-depth investigation of the characteristics of various autoencoder models and develop an error-bounded autoencoder-based framework in terms of the SZ model. (2) We optimize the compression quality for the main stages in our designed AE-based error-bounded compression fram
     
-[^141]: Nucleus I: 推荐系统和下降中的附加谱 (arXiv:2004.07353v4 [math.CT] 更新)
+[^142]: Nucleus I: 推荐系统和下降中的附加谱 (arXiv:2004.07353v4 [math.CT] 更新)
 
     Nucleus I: Adjunction spectra in recommender systems and descent. (arXiv:2004.07353v4 [math.CT] UPDATED)
 
