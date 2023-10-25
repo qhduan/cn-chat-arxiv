@@ -1,0 +1,12 @@
+{
+    "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes. (arXiv:2310.15168v2 [cs.CV] UPDATED)",
+    "abstract": "The creation of photorealistic virtual worlds requires the accurate modeling of 3D surface geometry for a wide range of objects. For this, meshes are appealing since they 1) enable fast physics-based rendering with realistic material and lighting, 2) support physical simulation, and 3) are memory-efficient for modern graphics pipelines. Recent work on reconstructing and statistically modeling 3D shape, however, has critiqued meshes as being topologically inflexible. To capture a wide range of object shapes, any 3D representation must be able to model solid, watertight, shapes as well as thin, open, surfaces. Recent work has focused on the former, and methods for reconstructing open surfaces do not support fast reconstruction with material and lighting or unconditional generative modelling. Inspired by the observation that open surfaces can be seen as islands floating on watertight surfaces, we parameterize open surfaces by defining a manifold signed distance field on watertight templat",
+    "link": "http://arxiv.org/abs/2310.15168",
+    "context": "Title: Ghost on the Shell: An Expressive Representation of General 3D Shapes. (arXiv:2310.15168v2 [cs.CV] UPDATED)\nAbstract: The creation of photorealistic virtual worlds requires the accurate modeling of 3D surface geometry for a wide range of objects. For this, meshes are appealing since they 1) enable fast physics-based rendering with realistic material and lighting, 2) support physical simulation, and 3) are memory-efficient for modern graphics pipelines. Recent work on reconstructing and statistically modeling 3D shape, however, has critiqued meshes as being topologically inflexible. To capture a wide range of object shapes, any 3D representation must be able to model solid, watertight, shapes as well as thin, open, surfaces. Recent work has focused on the former, and methods for reconstructing open surfaces do not support fast reconstruction with material and lighting or unconditional generative modelling. Inspired by the observation that open surfaces can be seen as islands floating on watertight surfaces, we parameterize open surfaces by defining a manifold signed distance field on watertight templat",
+    "path": "papers/23/10/2310.15168.json",
+    "total_tokens": 957,
+    "translated_title": "这里是翻译过的论文标题",
+    "translated_abstract": "这里是翻译过的论文摘要",
+    "tldr": "这里是中文总结出的一句话要点",
+    "en_tdlr": "这里是英文总结出的一句话要点"
+}

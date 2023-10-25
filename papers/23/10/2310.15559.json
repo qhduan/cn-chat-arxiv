@@ -1,0 +1,12 @@
+{
+    "title": "From Oja's Algorithm to the Multiplicative Weights Update Method with Applications. (arXiv:2310.15559v1 [math.OC])",
+    "abstract": "Oja's algorithm is a well known online algorithm studied mainly in the context of stochastic principal component analysis. We make a simple observation, yet to the best of our knowledge a novel one, that when applied to a any (not necessarily stochastic) sequence of symmetric matrices which share common eigenvectors, the regret of Oja's algorithm could be directly bounded in terms of the regret of the well known multiplicative weights update method for the problem of prediction with expert advice. Several applications to optimization with quadratic forms over the unit sphere in $\\reals^n$ are discussed.",
+    "link": "http://arxiv.org/abs/2310.15559",
+    "context": "Title: From Oja's Algorithm to the Multiplicative Weights Update Method with Applications. (arXiv:2310.15559v1 [math.OC])\nAbstract: Oja's algorithm is a well known online algorithm studied mainly in the context of stochastic principal component analysis. We make a simple observation, yet to the best of our knowledge a novel one, that when applied to a any (not necessarily stochastic) sequence of symmetric matrices which share common eigenvectors, the regret of Oja's algorithm could be directly bounded in terms of the regret of the well known multiplicative weights update method for the problem of prediction with expert advice. Several applications to optimization with quadratic forms over the unit sphere in $\\reals^n$ are discussed.",
+    "path": "papers/23/10/2310.15559.json",
+    "total_tokens": 701,
+    "translated_title": "从Oja算法到乘法权重更新方法的应用",
+    "translated_abstract": "Oja算法是一个众所周知的在线算法，主要在随机主成分析的背景下进行研究。我们做出了一个简单的观察，然而据我们所知，这是一个新颖的发现，即当应用于一系列（不一定是随机的）共享公共特征向量的对称矩阵时，Oja算法的遗憾可以直接用于预测专家建议问题中的广为人知的乘法权重更新方法的遗憾来界定。讨论了在单位球上的二次形式优化的几个应用。",
+    "tldr": "本文发现了当Oja算法应用于共享特征向量的对称矩阵时，可以直接用乘法权重更新方法的遗憾来界定其遗憾，并讨论了在单位球上的二次形式优化的应用。",
+    "en_tdlr": "This paper discovers that when Oja's algorithm is applied to symmetric matrices with common eigenvectors, its regret can be directly bounded in terms of the regret of the multiplicative weights update method, and discusses its applications in optimization with quadratic forms over the unit sphere."
+}

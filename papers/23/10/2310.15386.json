@@ -1,0 +1,11 @@
+{
+    "title": "Course Correcting Koopman Representations. (arXiv:2310.15386v1 [cs.LG])",
+    "abstract": "Koopman representations aim to learn features of nonlinear dynamical systems (NLDS) which lead to linear dynamics in the latent space. Theoretically, such features can be used to simplify many problems in modeling and control of NLDS. In this work we study autoencoder formulations of this problem, and different ways they can be used to model dynamics, specifically for future state prediction over long horizons. We discover several limitations of predicting future states in the latent space and propose an inference-time mechanism, which we refer to as Periodic Reencoding, for faithfully capturing long term dynamics. We justify this method both analytically and empirically via experiments in low and high dimensional NLDS.",
+    "link": "http://arxiv.org/abs/2310.15386",
+    "context": "Title: Course Correcting Koopman Representations. (arXiv:2310.15386v1 [cs.LG])\nAbstract: Koopman representations aim to learn features of nonlinear dynamical systems (NLDS) which lead to linear dynamics in the latent space. Theoretically, such features can be used to simplify many problems in modeling and control of NLDS. In this work we study autoencoder formulations of this problem, and different ways they can be used to model dynamics, specifically for future state prediction over long horizons. We discover several limitations of predicting future states in the latent space and propose an inference-time mechanism, which we refer to as Periodic Reencoding, for faithfully capturing long term dynamics. We justify this method both analytically and empirically via experiments in low and high dimensional NLDS.",
+    "path": "papers/23/10/2310.15386.json",
+    "total_tokens": 712,
+    "translated_title": "修正Koopman表示的方法",
+    "translated_abstract": "Koopman表示旨在学习非线性动力系统中导致潜在空间线性动力学的特征。从理论上讲，这些特征可以用于简化非线性动力系统建模和控制中的许多问题。在本文中，我们研究了此问题的自动编码器方法，并探讨了它们在建模动力学方面的不同应用，特别是在长期预测未来状态方面。我们发现在潜在空间中预测未来状态存在一些限制，并提出了一种称为“周期重新编码”的推理时间机制，以实现长期动态的准确捕捉。我们通过在低维和高维非线性动力系统上的实验证明了该方法的合理性和实用性。",
+    "tldr": "本文修正了Koopman表示的方法，并提出了一种称为“周期重新编码”的机制，用于准确捕捉非线性动力系统中的长期动态。"
+}

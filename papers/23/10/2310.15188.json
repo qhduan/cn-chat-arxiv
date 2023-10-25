@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning Approaches for Dynamic Mechanical Analysis of Viscoelastic Fiber Composites. (arXiv:2310.15188v1 [cs.LG])",
+    "abstract": "The increased adoption of reinforced polymer (RP) composite materials, driven by eco-design standards, calls for a fine balance between lightness, stiffness, and effective vibration control. These materials are integral to enhancing comfort, safety, and energy efficiency. Dynamic Mechanical Analysis (DMA) characterizes viscoelastic behavior, yet there's a growing interest in using Machine Learning (ML) to expedite the design and understanding of microstructures. In this paper we aim to map microstructures to their mechanical properties using deep neural networks, speeding up the process and allowing for the generation of microstructures from desired properties.",
+    "link": "http://arxiv.org/abs/2310.15188",
+    "context": "Title: Deep Learning Approaches for Dynamic Mechanical Analysis of Viscoelastic Fiber Composites. (arXiv:2310.15188v1 [cs.LG])\nAbstract: The increased adoption of reinforced polymer (RP) composite materials, driven by eco-design standards, calls for a fine balance between lightness, stiffness, and effective vibration control. These materials are integral to enhancing comfort, safety, and energy efficiency. Dynamic Mechanical Analysis (DMA) characterizes viscoelastic behavior, yet there's a growing interest in using Machine Learning (ML) to expedite the design and understanding of microstructures. In this paper we aim to map microstructures to their mechanical properties using deep neural networks, speeding up the process and allowing for the generation of microstructures from desired properties.",
+    "path": "papers/23/10/2310.15188.json",
+    "total_tokens": 718,
+    "translated_title": "深度学习方法在粘弹纤维复合材料的动态力学分析中的应用",
+    "translated_abstract": "受到生态设计标准的推动，增强型聚合物（RP）复合材料的应用越来越广泛，这要求在轻量化、刚性和有效的振动控制之间取得良好的平衡。这些材料对于提高舒适性、安全性和能源效率至关重要。动态力学分析（DMA）可表征粘弹性行为，然而，使用机器学习（ML）加速微结构设计和理解引起了越来越多的兴趣。本文旨在利用深度神经网络将微结构映射到其力学性能上，加快过程并实现从期望性能生成微结构的目标。",
+    "tldr": "本文利用深度学习方法，将微结构与力学性能建立映射关系，加快了设计过程，并实现了根据期望性能生成微结构的目标。",
+    "en_tdlr": "This paper utilizes deep learning approaches to establish the mapping between microstructures and mechanical properties, accelerating the design process and enabling the generation of microstructures from desired properties."
+}

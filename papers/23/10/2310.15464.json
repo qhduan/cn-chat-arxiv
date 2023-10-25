@@ -1,0 +1,12 @@
+{
+    "title": "Interpreting Answers to Yes-No Questions in User-Generated Content. (arXiv:2310.15464v1 [cs.CL])",
+    "abstract": "Interpreting answers to yes-no questions in social media is difficult. Yes and no keywords are uncommon, and the few answers that include them are rarely to be interpreted what the keywords suggest. In this paper, we present a new corpus of 4,442 yes-no question-answer pairs from Twitter. We discuss linguistic characteristics of answers whose interpretation is yes or no, as well as answers whose interpretation is unknown. We show that large language models are far from solving this problem, even after fine-tuning and blending other corpora for the same problem but outside social media.",
+    "link": "http://arxiv.org/abs/2310.15464",
+    "context": "Title: Interpreting Answers to Yes-No Questions in User-Generated Content. (arXiv:2310.15464v1 [cs.CL])\nAbstract: Interpreting answers to yes-no questions in social media is difficult. Yes and no keywords are uncommon, and the few answers that include them are rarely to be interpreted what the keywords suggest. In this paper, we present a new corpus of 4,442 yes-no question-answer pairs from Twitter. We discuss linguistic characteristics of answers whose interpretation is yes or no, as well as answers whose interpretation is unknown. We show that large language models are far from solving this problem, even after fine-tuning and blending other corpora for the same problem but outside social media.",
+    "path": "papers/23/10/2310.15464.json",
+    "total_tokens": 733,
+    "translated_title": "解读用户生成内容中的是非问题答案",
+    "translated_abstract": "解读社交媒体中的是非问题答案是困难的。是和否的关键词很少见，而包含这些关键词的答案很少能按照关键词所示的意思进行解读。在本文中，我们介绍了一个包含4,442个社交媒体平台Twitter上的是非问题答案对的新语料库。我们讨论了其解读为是或否的答案的语言特征，以及解读未知的答案。我们表明即使在微调和融合其他非社交媒体平台语料库的情况下，大型语言模型仍然远未解决这个问题。",
+    "tldr": "本文介绍了一个包含4,442个Twitter是非问题答案对的新语料库，并讨论了解读为是或否答案的语言特征以及解读未知答案的问题。研究结果表明，目前的大型语言模型无法很好地解决这个难题。",
+    "en_tdlr": "This paper presents a new corpus of 4,442 yes-no question-answer pairs from Twitter and discusses the linguistic characteristics of answers interpreted as yes or no, as well as the challenge of interpreting unknown answers. The study shows that current large language models are not effective in solving this problem."
+}

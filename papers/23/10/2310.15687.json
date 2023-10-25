@@ -1,0 +1,12 @@
+{
+    "title": "Reducing residential emissions: carbon pricing vs. subsidizing retrofits. (arXiv:2310.15687v1 [econ.GN])",
+    "abstract": "In this paper, we compare different mitigation policies when housing investments are irreversible. We use a general equilibrium model with non-homothetic preferences and an elaborate setup of the residential housing and energy production sector. In the first-best transition, the energy demand plays only a secondary role. However, this changes when optimal carbon taxes are not available. While providing subsidies for retrofits results in the lowest direct costs for households, it ultimately leads to the highest aggregate costs and proves to be an ineffective way to decarbonize the economy. In the second-best context, a phased-in carbon price outperforms the subsidy-based transition.",
+    "link": "http://arxiv.org/abs/2310.15687",
+    "context": "Title: Reducing residential emissions: carbon pricing vs. subsidizing retrofits. (arXiv:2310.15687v1 [econ.GN])\nAbstract: In this paper, we compare different mitigation policies when housing investments are irreversible. We use a general equilibrium model with non-homothetic preferences and an elaborate setup of the residential housing and energy production sector. In the first-best transition, the energy demand plays only a secondary role. However, this changes when optimal carbon taxes are not available. While providing subsidies for retrofits results in the lowest direct costs for households, it ultimately leads to the highest aggregate costs and proves to be an ineffective way to decarbonize the economy. In the second-best context, a phased-in carbon price outperforms the subsidy-based transition.",
+    "path": "papers/23/10/2310.15687.json",
+    "total_tokens": 807,
+    "translated_title": "减少居民排放: 碳定价VS补贴改造",
+    "translated_abstract": "本文比较了在住房投资不可逆的情况下不同的减缓政策。我们使用一个非同质化偏好和详细设置的居民住房和能源生产部门的一般均衡模型。在最优碳税不可用时，能源需求的作用只是次要的。虽然为改造提供补贴对家庭来说是最低的直接成本，但最终会导致最高的总成本，并且被证明是一种无效的减碳经济方式。在第二最佳条件下，分阶段的碳定价表现优于基于补贴的过渡。",
+    "tldr": "本研究比较了在住房投资不可逆的情况下，碳定价和补贴改造两种减排政策的效果。研究发现，虽然补贴改造对居民家庭来说直接成本最低，但最终导致的总成本最高，且无法有效降低碳排放。相比之下，分阶段的碳定价表现更好。",
+    "en_tdlr": "This study compares the effectiveness of carbon pricing and retrofit subsidies as mitigation policies in reducing residential emissions. The results show that while subsidies for retrofits have the lowest direct costs for households, they ultimately lead to the highest aggregate costs and prove to be an ineffective way to decarbonize the economy. In contrast, a phased-in carbon price performs better."
+}

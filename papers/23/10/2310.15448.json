@@ -1,0 +1,11 @@
+{
+    "title": "An accelerated first-order regularized momentum descent ascent algorithm for stochastic nonconvex-concave minimax problems. (arXiv:2310.15448v1 [math.OC])",
+    "abstract": "Stochastic nonconvex minimax problems have attracted wide attention in machine learning, signal processing and many other fields in recent years. In this paper, we propose an accelerated first-order regularized momentum descent ascent algorithm (FORMDA) for solving stochastic nonconvex-concave minimax problems. The iteration complexity of the algorithm is proved to be $\\tilde{\\mathcal{O}}(\\varepsilon ^{-6.5})$ to obtain an $\\varepsilon$-stationary point, which achieves the best-known complexity bound for single-loop algorithms to solve the stochastic nonconvex-concave minimax problems under the stationarity of the objective function.",
+    "link": "http://arxiv.org/abs/2310.15448",
+    "context": "Title: An accelerated first-order regularized momentum descent ascent algorithm for stochastic nonconvex-concave minimax problems. (arXiv:2310.15448v1 [math.OC])\nAbstract: Stochastic nonconvex minimax problems have attracted wide attention in machine learning, signal processing and many other fields in recent years. In this paper, we propose an accelerated first-order regularized momentum descent ascent algorithm (FORMDA) for solving stochastic nonconvex-concave minimax problems. The iteration complexity of the algorithm is proved to be $\\tilde{\\mathcal{O}}(\\varepsilon ^{-6.5})$ to obtain an $\\varepsilon$-stationary point, which achieves the best-known complexity bound for single-loop algorithms to solve the stochastic nonconvex-concave minimax problems under the stationarity of the objective function.",
+    "path": "papers/23/10/2310.15448.json",
+    "total_tokens": 712,
+    "translated_title": "一种加速的一阶正则动量下降算法用于随机非凸-凹极小极大问题",
+    "translated_abstract": "随机非凸极小极大问题近年来在机器学习、信号处理等领域引起了广泛关注。本文提出了一种加速的一阶正则动量下降算法（FORMDA）用于解决随机非凸-凹极小极大问题。证明了该算法的迭代复杂度为$\\tilde{\\mathcal{O}}(\\varepsilon ^{-6.5})$以达到$\\varepsilon$-稳定点，这在目标函数稳定性下实现了解决随机非凸-凹极小极大问题的最佳已知复杂度界限。",
+    "tldr": "本文提出了一种加速的算法来解决随机非凸-凹极小极大问题，并证明了该算法迭代复杂度达到了最佳已知界限。"
+}

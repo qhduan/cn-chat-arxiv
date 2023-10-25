@@ -1,0 +1,11 @@
+{
+    "title": "A necessary and sufficient condition for the existence of chaotic dynamics in an overlapping generations model. (arXiv:2310.15755v1 [econ.GN])",
+    "abstract": "In this paper, we study economic dynamics in a standard overlapping generations model without production. In particular, using numerical methods, we obtain a necessary and sufficient condition for the existence of a topological chaos. This is a new application of a recent result characterising the existence of a topological chaos for a unimodal interval map by Deng, Khan, Mitra (2022).",
+    "link": "http://arxiv.org/abs/2310.15755",
+    "context": "Title: A necessary and sufficient condition for the existence of chaotic dynamics in an overlapping generations model. (arXiv:2310.15755v1 [econ.GN])\nAbstract: In this paper, we study economic dynamics in a standard overlapping generations model without production. In particular, using numerical methods, we obtain a necessary and sufficient condition for the existence of a topological chaos. This is a new application of a recent result characterising the existence of a topological chaos for a unimodal interval map by Deng, Khan, Mitra (2022).",
+    "path": "papers/23/10/2310.15755.json",
+    "total_tokens": 612,
+    "translated_title": "一个重叠世代模型中混沌动力学存在的充要条件",
+    "translated_abstract": "本文研究了一个没有生产的标准重叠世代模型中的经济动力学。特别地，利用数值方法，我们得到了存在拓扑混沌的充要条件。这是对Deng、Khan、Mitra(2022)关于单峰区间映射存在拓扑混沌性质的最新结果的新应用。",
+    "tldr": "本文研究了一个标准的没有生产的重叠世代模型中的经济动力学，利用数值方法得到了存在拓扑混沌的充要条件，这是对最新结果的新应用。"
+}

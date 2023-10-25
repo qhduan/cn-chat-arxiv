@@ -1,0 +1,11 @@
+{
+    "title": "DISC-FinLLM: A Chinese Financial Large Language Model based on Multiple Experts Fine-tuning. (arXiv:2310.15205v1 [cs.CL])",
+    "abstract": "We propose Multiple Experts Fine-tuning Framework to build a financial large language model (LLM), DISC-FinLLM. Our methodology improves general LLMs by endowing them with multi-turn question answering abilities, domain text processing capabilities, mathematical computation skills, and retrieval-enhanced generation capabilities. We build a financial instruction-tuning dataset named DISC-FIN-SFT, including instruction samples of four categories (consulting, NLP tasks, computing and retrieval-augmented generation). Evaluations conducted on multiple benchmarks demonstrate that our model performs better than baseline models in various financial scenarios. Further resources can be found at https://github.com/FudanDISC/DISC-FinLLM.",
+    "link": "http://arxiv.org/abs/2310.15205",
+    "context": "Title: DISC-FinLLM: A Chinese Financial Large Language Model based on Multiple Experts Fine-tuning. (arXiv:2310.15205v1 [cs.CL])\nAbstract: We propose Multiple Experts Fine-tuning Framework to build a financial large language model (LLM), DISC-FinLLM. Our methodology improves general LLMs by endowing them with multi-turn question answering abilities, domain text processing capabilities, mathematical computation skills, and retrieval-enhanced generation capabilities. We build a financial instruction-tuning dataset named DISC-FIN-SFT, including instruction samples of four categories (consulting, NLP tasks, computing and retrieval-augmented generation). Evaluations conducted on multiple benchmarks demonstrate that our model performs better than baseline models in various financial scenarios. Further resources can be found at https://github.com/FudanDISC/DISC-FinLLM.",
+    "path": "papers/23/10/2310.15205.json",
+    "total_tokens": 800,
+    "translated_title": "基于多专家微调的中国金融大型语言模型DISC-FinLLM",
+    "translated_abstract": "我们提出了一种基于多专家微调框架的金融大型语言模型DISC-FinLLM。我们的方法通过赋予通用语言模型多轮问答能力、领域文本处理能力、数学计算技能和检索增强生成能力来改进通用语言模型。我们构建了一个金融指令微调数据集DISC-FIN-SFT，包括四个分类的指令样本（咨询、自然语言处理任务、计算和检索增强生成）。在多个基准测试上进行的评估表明，我们的模型在各种金融场景中优于基准模型。更多资源可以在https://github.com/FudanDISC/DISC-FinLLM找到。",
+    "tldr": "我们提出了一种基于多专家微调的金融大型语言模型DISC-FinLLM，通过赋予模型多轮问答、领域文本处理、数学计算和检索增强生成能力，我们的模型在多个金融场景中表现出更好的性能。"
+}

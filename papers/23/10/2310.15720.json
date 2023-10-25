@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble of Task-Specific Language Models for Brain Encoding. (arXiv:2310.15720v1 [cs.CL])",
+    "abstract": "Language models have been shown to be rich enough to encode fMRI activations of certain Regions of Interest in our Brains. Previous works have explored transfer learning from representations learned for popular natural language processing tasks for predicting brain responses. In our work, we improve the performance of such encoders by creating an ensemble model out of 10 popular Language Models (2 syntactic and 8 semantic). We beat the current baselines by 10% on average across all ROIs through our ensembling methods.",
+    "link": "http://arxiv.org/abs/2310.15720",
+    "context": "Title: Ensemble of Task-Specific Language Models for Brain Encoding. (arXiv:2310.15720v1 [cs.CL])\nAbstract: Language models have been shown to be rich enough to encode fMRI activations of certain Regions of Interest in our Brains. Previous works have explored transfer learning from representations learned for popular natural language processing tasks for predicting brain responses. In our work, we improve the performance of such encoders by creating an ensemble model out of 10 popular Language Models (2 syntactic and 8 semantic). We beat the current baselines by 10% on average across all ROIs through our ensembling methods.",
+    "path": "papers/23/10/2310.15720.json",
+    "total_tokens": 666,
+    "translated_title": "用于大脑编码的任务特定语言模型集成",
+    "translated_abstract": "先前的研究表明，语言模型足够丰富，可以编码我们大脑中特定兴趣区域的fMRI激活情况。先前的工作已经探索了从为流行的自然语言处理任务学习的表示向预测大脑响应的转移学习。我们的工作通过创建一个由10个流行的语言模型（2个句法和8个语义）组成的集成模型，提高了这样的编码器的性能。通过我们的集成方法，在所有兴趣区域中，我们将当前的基准线提高了平均10%。",
+    "tldr": "该论文提出了一种用于大脑编码的任务特定语言模型集成方法，通过将10个流行的语言模型进行集成，相较于当前基准线，平均提高了10%的性能。",
+    "en_tdlr": "This paper proposes an ensemble method of task-specific language models for brain encoding. By combining 10 popular language models, the performance is improved by an average of 10% compared to current baselines."
+}

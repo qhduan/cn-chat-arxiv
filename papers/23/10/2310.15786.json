@@ -1,0 +1,12 @@
+{
+    "title": "Amortised Inference in Neural Networks for Small-Scale Probabilistic Meta-Learning. (arXiv:2310.15786v1 [stat.ML])",
+    "abstract": "The global inducing point variational approximation for BNNs is based on using a set of inducing inputs to construct a series of conditional distributions that accurately approximate the conditionals of the true posterior distribution. Our key insight is that these inducing inputs can be replaced by the actual data, such that the variational distribution consists of a set of approximate likelihoods for each datapoint. This structure lends itself to amortised inference, in which the parameters of each approximate likelihood are obtained by passing each datapoint through a meta-model known as the inference network. By training this inference network across related datasets, we can meta-learn Bayesian inference over task-specific BNNs.",
+    "link": "http://arxiv.org/abs/2310.15786",
+    "context": "Title: Amortised Inference in Neural Networks for Small-Scale Probabilistic Meta-Learning. (arXiv:2310.15786v1 [stat.ML])\nAbstract: The global inducing point variational approximation for BNNs is based on using a set of inducing inputs to construct a series of conditional distributions that accurately approximate the conditionals of the true posterior distribution. Our key insight is that these inducing inputs can be replaced by the actual data, such that the variational distribution consists of a set of approximate likelihoods for each datapoint. This structure lends itself to amortised inference, in which the parameters of each approximate likelihood are obtained by passing each datapoint through a meta-model known as the inference network. By training this inference network across related datasets, we can meta-learn Bayesian inference over task-specific BNNs.",
+    "path": "papers/23/10/2310.15786.json",
+    "total_tokens": 723,
+    "translated_title": "神经网络中的分摊推理用于小规模概率元学习",
+    "translated_abstract": "基于全局诱导点的变分逼近是基于使用一组诱导输入来构建一系列条件分布，从而准确地逼近真实后验分布的条件分布。我们的关键洞察力是这些诱导输入可以被实际数据替代，使得变分分布由每个数据点的一组近似似然组成。这种结构适合于分摊推理，其中每个近似似然的参数是通过将每个数据点通过称为推理网络的元模型通过获得的。通过在相关数据集上训练这个推理网络，我们可以元学习任务特定BNN上的贝叶斯推理。",
+    "tldr": "本文提出了一种在神经网络中进行小规模概率元学习的方法，通过将诱导输入替换为实际数据，通过训练推理网络来实现对任务特定贝叶斯推理的元学习。",
+    "en_tdlr": "This paper proposes a method for small-scale probabilistic meta-learning in neural networks by replacing inducing inputs with actual data and meta-learning the task-specific Bayesian inference through training an inference network."
+}

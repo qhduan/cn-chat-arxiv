@@ -1,0 +1,11 @@
+{
+    "title": "VMAF Re-implementation on PyTorch: Some Experimental Results. (arXiv:2310.15578v1 [cs.LG])",
+    "abstract": "Based on the standard VMAF implementation we propose an implementation of VMAF using PyTorch framework. For this implementation comparisons with the standard (libvmaf) show the discrepancy $\\lesssim 10^{-2}$ in VMAF units. We investigate gradients computation when using VMAF as an objective function and demonstrate that training using this function does not result in ill-behaving gradients.",
+    "link": "http://arxiv.org/abs/2310.15578",
+    "context": "Title: VMAF Re-implementation on PyTorch: Some Experimental Results. (arXiv:2310.15578v1 [cs.LG])\nAbstract: Based on the standard VMAF implementation we propose an implementation of VMAF using PyTorch framework. For this implementation comparisons with the standard (libvmaf) show the discrepancy $\\lesssim 10^{-2}$ in VMAF units. We investigate gradients computation when using VMAF as an objective function and demonstrate that training using this function does not result in ill-behaving gradients.",
+    "path": "papers/23/10/2310.15578.json",
+    "total_tokens": 653,
+    "translated_title": "在PyTorch上重新实现的VMAF：一些实验结果",
+    "translated_abstract": "基于标准的VMAF实现，我们提出了使用PyTorch框架实现VMAF的方法。对于这个实现，与标准的(libvmaf)进行比较，VMAF单位上的差异小于$10^{-2}$。我们研究了在使用VMAF作为目标函数时的梯度计算，并证明使用该函数进行训练不会导致梯度不良。",
+    "tldr": "这项研究重新在PyTorch上实现了VMAF，与标准实现进行比较，结果显示在VMAF单位上的差异小于$10^{-2}$。同时，研究了在使用VMAF作为目标函数时的梯度计算，并证明使用该函数进行训练不会导致梯度不良。"
+}
