@@ -2,19 +2,34 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
-| [^2] | [Pre-electoral coalition agreement from the Black-Scholes point of view.](http://arxiv.org/abs/2310.16424) | 从黑-斯科尔斯视角来看，研究选举前联盟协议中主要党派与次要党派的支持水平关系，并在黑山2023年6月的选举中进行了具体分析。 |
-| [^3] | [Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction.](http://arxiv.org/abs/2310.16341) | 本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。 |
-| [^4] | [Bounding the approach to oligarchy in a variant of the yard-sale model.](http://arxiv.org/abs/2310.16098) | 在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。 |
-| [^5] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
-| [^6] | [NLP for Crypto-Asset Regulation: A Roadmap.](http://arxiv.org/abs/2310.10333) | 这篇论文介绍了自然语言处理在加密资产监管中的应用，并提出了两个贡献。首先，调查了对未受监管的加密资产白皮书进行文本分析的现有应用，并发现了研究空白。然后，分析了欧盟的加密资产市场法规引入的变化，探讨了在新的监管框架内整合自然语言处理的机遇和挑战。这些发现为未来的研究提供了基础，有潜力使监管机构、加密资产发行者和投资者受益。 |
-| [^7] | [Optimal transmission expansion planning in the context of renewable energy integration policies.](http://arxiv.org/abs/2302.10562) | 本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。 |
-| [^8] | [Some asymptotics for short maturity Asian options.](http://arxiv.org/abs/2302.05421) | 本研究利用大偏离理论对短期亚洲期权进行渐近性质分析，提出了局部波动率模型，并估计了虚值、实值和平值短期亚洲认购期权和认沽期权的渐近性质。对于虚值期权，渐近性质受罕见事件的影响，而对于平值期权，我们找到了渐近性质的上界和下界。 |
-| [^9] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
+| [^1] | [No-Arbitrage Deep Calibration for Volatility Smile and Skewness.](http://arxiv.org/abs/2310.16703) | 本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。 |
+| [^2] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
+| [^3] | [Pre-electoral coalition agreement from the Black-Scholes point of view.](http://arxiv.org/abs/2310.16424) | 从黑-斯科尔斯视角来看，研究选举前联盟协议中主要党派与次要党派的支持水平关系，并在黑山2023年6月的选举中进行了具体分析。 |
+| [^4] | [Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction.](http://arxiv.org/abs/2310.16341) | 本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。 |
+| [^5] | [Bounding the approach to oligarchy in a variant of the yard-sale model.](http://arxiv.org/abs/2310.16098) | 在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。 |
+| [^6] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
+| [^7] | [NLP for Crypto-Asset Regulation: A Roadmap.](http://arxiv.org/abs/2310.10333) | 这篇论文介绍了自然语言处理在加密资产监管中的应用，并提出了两个贡献。首先，调查了对未受监管的加密资产白皮书进行文本分析的现有应用，并发现了研究空白。然后，分析了欧盟的加密资产市场法规引入的变化，探讨了在新的监管框架内整合自然语言处理的机遇和挑战。这些发现为未来的研究提供了基础，有潜力使监管机构、加密资产发行者和投资者受益。 |
+| [^8] | [Optimal transmission expansion planning in the context of renewable energy integration policies.](http://arxiv.org/abs/2302.10562) | 本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。 |
+| [^9] | [Some asymptotics for short maturity Asian options.](http://arxiv.org/abs/2302.05421) | 本研究利用大偏离理论对短期亚洲期权进行渐近性质分析，提出了局部波动率模型，并估计了虚值、实值和平值短期亚洲认购期权和认沽期权的渐近性质。对于虚值期权，渐近性质受罕见事件的影响，而对于平值期权，我们找到了渐近性质的上界和下界。 |
+| [^10] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
 
 # 详细
 
-[^1]: 通过贫困视角分析气候相关的农业生产力损失
+[^1]: 无套利深度标定波动率微笑和偏斜的方法
+
+    No-Arbitrage Deep Calibration for Volatility Smile and Skewness. (arXiv:2310.16703v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2310.16703](http://arxiv.org/abs/2310.16703)
+
+    本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。
+
+    
+
+    波动率微笑和偏斜是期权价格的两个关键属性，通过隐含波动率曲面表示。然而，由于有限的输入数据、低流动性和噪声等多种因素，通过非线性插值进行波动率曲面标定是一个复杂的问题。此外，标定曲面必须遵守无套利的基本金融原则，这可以通过对期权价格相对于到期时间和行权价格的偏导数的各种微分不等式进行建模。为了应对这些挑战，我们引入了一种称为导数约束神经网络(DCNN)的方法，它是多层感知器(MLP)的改进版本，可以将导数纳入输出函数中。DCNN可以生成平滑的曲面，并通过损失函数中的导数项来增加无套利条件。在数值实验中，我们应用了具有微笑属性的随机波动率模型。
+
+    Volatility smile and skewness are two key properties of option prices that are represented by the implied volatility (IV) surface. However, IV surface calibration through nonlinear interpolation is a complex problem due to several factors, including limited input data, low liquidity, and noise. Additionally, the calibrated surface must obey the fundamental financial principle of the absence of arbitrage, which can be modeled by various differential inequalities over the partial derivatives of the option price with respect to the expiration time and the strike price. To address these challenges, we have introduced a Derivative-Constrained Neural Network (DCNN), which is an enhancement of a multilayer perceptron (MLP) that incorporates derivatives in the output function. DCNN allows us to generate a smooth surface and incorporate the no-arbitrage condition thanks to the derivative terms in the loss function. In numerical experiments, we apply the stochastic volatility model with smile an
+    
+[^2]: 通过贫困视角分析气候相关的农业生产力损失
 
     Climate-related Agricultural Productivity Losses through a Poverty Lens. (arXiv:2310.16490v1 [econ.GN])
 
@@ -28,7 +43,7 @@
 
     In this paper, we analyze the long-term distributive impact of climate change through rising food prices. We use a standard incomplete markets model and account for non-linear Engel curves for food consumption. For the calibration of our model, we rely on household data from 92 developing countries, representing 4.5 billion people. The results indicate that the short-term and long-term distributive impact of climate change differs. Including general equilibrium effects change the welfare outcome especially for the poorest quintile. In the presence of idiosyncratic risk, higher food prices increase precautionary savings, which through general equilibrium affect labor income of all agents. Furthermore, this paper studies the impact on inequality for different allocations of productivity losses across sectors. When climate impacts affects total factor productivity in both sectors of the economy, climate impacts increase also wealth inequality.
     
-[^2]: 黑-斯科尔斯视角下的选举前联盟协议
+[^3]: 黑-斯科尔斯视角下的选举前联盟协议
 
     Pre-electoral coalition agreement from the Black-Scholes point of view. (arXiv:2310.16424v1 [math.AP])
 
@@ -42,7 +57,7 @@
 
     A political party can be considered as a company whose value depends on the voters support i.e. on the percentage of population supporting the party. Dynamics of the support is thus as a stochastic process with a deterministic growth rate perturbed by a white noise modeled through the Wiener process. This is in an analogy with the option modeling where the stock price behaves similarly as the voters' support. While in the option theory we have the question of fair price of an option, the question that we ask here is what is a reasonable level of support that the coalition of a major party (safely above the election threshold) and a minor party (under or around the election threshold) should achieve in order the minor party to get one more representative. We shall elaborate some of the conclusions in the case of recent elections in Montenegro (June, 2023) which are particularly interesting due to lots of political subjects entering the race.
     
-[^3]: 提升职场女性地位：心灵智力和道德环境对工作满意度的双重影响
+[^4]: 提升职场女性地位：心灵智力和道德环境对工作满意度的双重影响
 
     Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction. (arXiv:2310.16341v1 [econ.GN])
 
@@ -56,7 +71,7 @@
 
     In today's rapidly evolving workplace, the dynamics of job satisfaction and its determinants have become a focal point of organizational studies. This research offers a comprehensive examination of the nexus between spiritual intelligence and job satisfaction among female employees, with particular emphasis on the moderating role of ethical work environments. Beginning with an exploration of the multifaceted nature of human needs, the study delves deep into the psychological underpinnings that drive job satisfaction. It elucidates how various tangible and intangible motivators, such as salary benefits and recognition, play pivotal roles in shaping employee attitudes and behaviors. Moreover, the research spotlights the unique challenges and experiences of female employees, advocating for a more inclusive understanding of their needs. An extensive review of the literature and empirical analysis culminates in the pivotal finding that integrating spiritual intelligence and ethical consider
     
-[^4]: 对庭售模型变种中寡头政权的限制
+[^5]: 对庭售模型变种中寡头政权的限制
 
     Bounding the approach to oligarchy in a variant of the yard-sale model. (arXiv:2310.16098v1 [cond-mat.stat-mech])
 
@@ -70,7 +85,7 @@
 
     We present analytical results for the Gini coefficient of economic inequality under the dynamics of a modified Yard-Sale Model of kinetic asset exchange. A variant of the Yard-Sale Model is introduced by modifying the underlying binary transaction of the classical system. It is shown that the Gini coefficient is monotone under the resulting dynamics but the approach to oligarchy, as measured by the Gini index, can be bounded by a first-order differential inequality used in conjunction with the differential Gronwall inequality. The asymptotics of the modified system, with a redistributive tax, are derived and shown to agree with the original, taxed Yard-Sale Model, which implies the modified system is as suitable for matching real wealth distributions.
     
-[^5]: 关于人工智能在金融监管中的应用及对金融稳定的影响
+[^6]: 关于人工智能在金融监管中的应用及对金融稳定的影响
 
     On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
 
@@ -84,7 +99,7 @@
 
     Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
     
-[^6]: 区块链资产监管的自然语言处理：一份路线图
+[^7]: 区块链资产监管的自然语言处理：一份路线图
 
     NLP for Crypto-Asset Regulation: A Roadmap. (arXiv:2310.10333v1 [cs.CY])
 
@@ -98,7 +113,7 @@
 
     In the rapidly evolving field of crypto-assets, white papers are essential documents for investor guidance, and are now subject to unprecedented content requirements under the EU's Markets in Crypto-Assets Regulation (MiCAR). Natural Language Processing can serve as a powerful tool for both analyzing these documents and assisting in regulatory compliance. This paper delivers two contributions to the topic. First, we survey existing applications of textual analysis to unregulated crypto-asset white papers, uncovering a research gap that could be bridged with interdisciplinary collaboration. We then conduct an analysis of the changes introduced by MiCAR, highlighting the opportunities and challenges of integrating NLP within the new regulatory framework. Our findings set the stage for further research, with the potential to benefit regulators, crypto-asset issuers, and investors.
     
-[^7]: 在可再生能源整合政策背景下的最优输电扩建规划
+[^8]: 在可再生能源整合政策背景下的最优输电扩建规划
 
     Optimal transmission expansion planning in the context of renewable energy integration policies. (arXiv:2302.10562v3 [math.OC] UPDATED)
 
@@ -112,7 +127,7 @@
 
     This paper assesses the extent to which a renewables-driven expansion of the transmission system infrastructure impacts the total generation mix in the decentralised energy market. For that, we employ an optimisation bi-level model in which a welfare-maximizing transmission system operator makes investments in transmission lines at the upper level while considering power market dynamics at the lower level. To account for the deregulated energy market structure, we assume that the generation companies at the lower level make capacity investments as price-takers in perfect competition. Considering alternative transmission infrastructure expansion budgets, carbon emission taxes and monetary incentives for renewable generation capacity expansion, we study how alternative compositions of these factors affect the share of renewable generation in the generation mix. We apply the proposed modelling assessment to an illustrative three-node instance and a case study considering a simplified repr
     
-[^8]: 短期亚洲期权的一些渐近性质
+[^9]: 短期亚洲期权的一些渐近性质
 
     Some asymptotics for short maturity Asian options. (arXiv:2302.05421v2 [q-fin.PR] UPDATED)
 
@@ -126,7 +141,7 @@
 
     Most of the existing methods for pricing Asian options are less efficient in the limit of small maturities and small volatilities. In this paper, we use the large deviations theory for the analysis of short-maturity Asian options. We present a local volatility model for the underlying market that incorporates a jump term in addition to the drift and diffusion terms. We estimate the asymptotics for the out-of-the-money, in-the-money, and at-the-money short-maturity Asian call and put options. Under appropriate assumptions, we show that the asymptotics for out-of-the-money Asian call and put options are governed by rare events. For the at-the-money Asian options, the result is more involved and in that case, we find the upper and lower bounds of the asymptotics of the Asian option price.
     
-[^9]: 动态资源管理中生态体制最快检测方案研究
+[^10]: 动态资源管理中生态体制最快检测方案研究
 
     Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
 
