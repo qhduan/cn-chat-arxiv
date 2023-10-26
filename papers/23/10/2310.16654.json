@@ -1,0 +1,12 @@
+{
+    "title": "ChatGPT is a Potential Zero-Shot Dependency Parser. (arXiv:2310.16654v1 [cs.CL])",
+    "abstract": "Pre-trained language models have been widely used in dependency parsing task and have achieved significant improvements in parser performance. However, it remains an understudied question whether pre-trained language models can spontaneously exhibit the ability of dependency parsing without introducing additional parser structure in the zero-shot scenario. In this paper, we propose to explore the dependency parsing ability of large language models such as ChatGPT and conduct linguistic analysis. The experimental results demonstrate that ChatGPT is a potential zero-shot dependency parser, and the linguistic analysis also shows some unique preferences in parsing outputs.",
+    "link": "http://arxiv.org/abs/2310.16654",
+    "context": "Title: ChatGPT is a Potential Zero-Shot Dependency Parser. (arXiv:2310.16654v1 [cs.CL])\nAbstract: Pre-trained language models have been widely used in dependency parsing task and have achieved significant improvements in parser performance. However, it remains an understudied question whether pre-trained language models can spontaneously exhibit the ability of dependency parsing without introducing additional parser structure in the zero-shot scenario. In this paper, we propose to explore the dependency parsing ability of large language models such as ChatGPT and conduct linguistic analysis. The experimental results demonstrate that ChatGPT is a potential zero-shot dependency parser, and the linguistic analysis also shows some unique preferences in parsing outputs.",
+    "path": "papers/23/10/2310.16654.json",
+    "total_tokens": 640,
+    "translated_title": "ChatGPT是一个潜在的零-shot依存解析器",
+    "translated_abstract": "预训练语言模型已经广泛应用于依存解析任务，并在解析性能方面取得了显著提升。然而，目前还不清楚在零-shot情景中，预训练语言模型是否能够在不引入额外解析器结构的情况下自发地展示出依存解析能力。本文提出了利用大型语言模型如ChatGPT来探索依存解析能力并进行语言分析的方法。实验结果表明，ChatGPT是一个潜在的零-shot依存解析器，并且语言分析还展示了一些独特的解析输出偏好。",
+    "tldr": "ChatGPT是一个有潜力的零-shot依存解析器，实验结果和语言分析都证明了这一点。",
+    "en_tdlr": "ChatGPT is a potential zero-shot dependency parser, and the experimental results and linguistic analysis support this claim."
+}

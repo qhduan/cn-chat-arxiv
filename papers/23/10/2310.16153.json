@@ -1,0 +1,12 @@
+{
+    "title": "WojoodNER 2023: The First Arabic Named Entity Recognition Shared Task. (arXiv:2310.16153v1 [cs.CL])",
+    "abstract": "We present WojoodNER-2023, the first Arabic Named Entity Recognition (NER) Shared Task. The primary focus of WojoodNER-2023 is on Arabic NER, offering novel NER datasets (i.e., Wojood) and the definition of subtasks designed to facilitate meaningful comparisons between different NER approaches. WojoodNER-2023 encompassed two Subtasks: FlatNER and NestedNER. A total of 45 unique teams registered for this shared task, with 11 of them actively participating in the test phase. Specifically, 11 teams participated in FlatNER, while $8$ teams tackled NestedNER. The winning teams achieved F1 scores of 91.96 and 93.73 in FlatNER and NestedNER, respectively.",
+    "link": "http://arxiv.org/abs/2310.16153",
+    "context": "Title: WojoodNER 2023: The First Arabic Named Entity Recognition Shared Task. (arXiv:2310.16153v1 [cs.CL])\nAbstract: We present WojoodNER-2023, the first Arabic Named Entity Recognition (NER) Shared Task. The primary focus of WojoodNER-2023 is on Arabic NER, offering novel NER datasets (i.e., Wojood) and the definition of subtasks designed to facilitate meaningful comparisons between different NER approaches. WojoodNER-2023 encompassed two Subtasks: FlatNER and NestedNER. A total of 45 unique teams registered for this shared task, with 11 of them actively participating in the test phase. Specifically, 11 teams participated in FlatNER, while $8$ teams tackled NestedNER. The winning teams achieved F1 scores of 91.96 and 93.73 in FlatNER and NestedNER, respectively.",
+    "path": "papers/23/10/2310.16153.json",
+    "total_tokens": 781,
+    "translated_title": "WojoodNER 2023: 第一个阿拉伯命名实体识别共享任务",
+    "translated_abstract": "我们提出了WojoodNER-2023，这是第一个阿拉伯命名实体识别（NER）共享任务。WojoodNER-2023的主要关注点是阿拉伯NER，提供了新颖的NER数据集（即Wojood）和旨在促进不同NER方法之间有意义比较的子任务定义。WojoodNER-2023包括两个子任务：FlatNER和NestedNER。共有45个独立团队注册参加此共享任务，其中有11个团队在测试阶段积极参与。具体而言，11个团队参与了FlatNER，而8个团队处理了NestedNER。获胜的团队在FlatNER和NestedNER中分别达到了91.96和93.73的F1分数。",
+    "tldr": "WojoodNER-2023是第一个阿拉伯命名实体识别共享任务，提供了新颖的数据集和子任务，以促进NER方法之间的比较。最终获胜的团队在FlatNER和NestedNER中取得了优秀的性能。",
+    "en_tdlr": "WojoodNER-2023 is the first Arabic Named Entity Recognition shared task, providing novel datasets and subtasks to facilitate comparisons between NER approaches. The winning teams achieved excellent performance in FlatNER and NestedNER."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "ZzzGPT: An Interactive GPT Approach to Enhance Sleep Quality. (arXiv:2310.16242v1 [cs.LG])",
+    "abstract": "In today's world, sleep quality is pivotal for overall well-being. While wearable sensors offer real-time monitoring, they often lack actionable insights, leading to user abandonment. This paper delves into the role of technology in understanding sleep patterns. We introduce a two-stage framework, utilizing Large Language Models (LLMs), aiming to provide accurate sleep predictions with actionable feedback. Leveraging the GLOBEM dataset and synthetic data from LLMs, we highlight enhanced results with models like XGBoost. Our approach merges advanced machine learning with user-centric design, blending scientific accuracy with practicality.",
+    "link": "http://arxiv.org/abs/2310.16242",
+    "context": "Title: ZzzGPT: An Interactive GPT Approach to Enhance Sleep Quality. (arXiv:2310.16242v1 [cs.LG])\nAbstract: In today's world, sleep quality is pivotal for overall well-being. While wearable sensors offer real-time monitoring, they often lack actionable insights, leading to user abandonment. This paper delves into the role of technology in understanding sleep patterns. We introduce a two-stage framework, utilizing Large Language Models (LLMs), aiming to provide accurate sleep predictions with actionable feedback. Leveraging the GLOBEM dataset and synthetic data from LLMs, we highlight enhanced results with models like XGBoost. Our approach merges advanced machine learning with user-centric design, blending scientific accuracy with practicality.",
+    "path": "papers/23/10/2310.16242.json",
+    "total_tokens": 765,
+    "translated_title": "ZzzGPT: 提高睡眠质量的交互式GPT方法",
+    "translated_abstract": "在当今世界中，睡眠质量对总体健康至关重要。虽然可穿戴传感器提供实时监测，但它们常常缺乏有针对性的见解，导致用户放弃使用。本文研究了技术在理解睡眠模式方面的作用。我们引入了一个两阶段的框架，利用大型语言模型 (LLMs)，旨在提供准确的睡眠预测和有价值的反馈。利用GLOBEM数据集和LLMs的合成数据，我们展示了与XGBoost等模型相比的增强结果。我们的方法将先进的机器学习与以用户为中心的设计相结合，将科学准确性与实用性融合在一起。",
+    "tldr": "本文介绍了一种名为ZzzGPT的交互式GPT方法，旨在提高睡眠质量。通过利用大型语言模型进行预测和反馈，该方法融合了先进的机器学习和用户导向设计，以提供准确和有价值的结果。"
+}

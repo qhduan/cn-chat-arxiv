@@ -1,0 +1,11 @@
+{
+    "title": "Over-the-air Federated Policy Gradient. (arXiv:2310.16592v1 [cs.LG])",
+    "abstract": "In recent years, over-the-air aggregation has been widely considered in large-scale distributed learning, optimization, and sensing. In this paper, we propose the over-the-air federated policy gradient algorithm, where all agents simultaneously broadcast an analog signal carrying local information to a common wireless channel, and a central controller uses the received aggregated waveform to update the policy parameters. We investigate the effect of noise and channel distortion on the convergence of the proposed algorithm, and establish the complexities of communication and sampling for finding an $\\epsilon$-approximate stationary point. Finally, we present some simulation results to show the effectiveness of the algorithm.",
+    "link": "http://arxiv.org/abs/2310.16592",
+    "context": "Title: Over-the-air Federated Policy Gradient. (arXiv:2310.16592v1 [cs.LG])\nAbstract: In recent years, over-the-air aggregation has been widely considered in large-scale distributed learning, optimization, and sensing. In this paper, we propose the over-the-air federated policy gradient algorithm, where all agents simultaneously broadcast an analog signal carrying local information to a common wireless channel, and a central controller uses the received aggregated waveform to update the policy parameters. We investigate the effect of noise and channel distortion on the convergence of the proposed algorithm, and establish the complexities of communication and sampling for finding an $\\epsilon$-approximate stationary point. Finally, we present some simulation results to show the effectiveness of the algorithm.",
+    "path": "papers/23/10/2310.16592.json",
+    "total_tokens": 743,
+    "translated_title": "无线联合策略梯度的过空中聚合方法",
+    "translated_abstract": "近年来，过空中聚合在大规模分布式学习、优化和感知中得到了广泛关注。本文提出了一种过空中联合策略梯度算法，其中所有的智能体同时向共享的无线信道广播携带本地信息的模拟信号，中央控制器使用接收到的汇总波形来更新策略参数。我们研究了噪声和信道失真对所提出算法收敛性的影响，并建立了通信和采样的复杂度来找到一个$\\epsilon$-近似的稳定点。最后，我们通过一些仿真结果展示了该算法的有效性。",
+    "tldr": "本文提出了一种过空中联合策略梯度算法，通过无线信道广播携带本地信息的模拟信号实现更新策略参数，研究了噪声和信道失真对算法收敛性的影响，并通过仿真结果验证了算法的有效性。"
+}

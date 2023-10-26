@@ -1,0 +1,11 @@
+{
+    "title": "Alquist 5.0: Dialogue Trees Meet Generative Models. A Novel Approach for Enhancing SocialBot Conversations. (arXiv:2310.16119v1 [cs.LG])",
+    "abstract": "We present our SocialBot -- Alquist~5.0 -- developed for the Alexa Prize SocialBot Grand Challenge~5. Building upon previous versions of our system, we introduce the NRG Barista and outline several innovative approaches for integrating Barista into our SocialBot, improving the overall conversational experience. Additionally, we extend our SocialBot to support multimodal devices. This paper offers insights into the development of Alquist~5.0, which meets evolving user expectations while maintaining empathetic and knowledgeable conversational abilities across diverse topics.",
+    "link": "http://arxiv.org/abs/2310.16119",
+    "context": "Title: Alquist 5.0: Dialogue Trees Meet Generative Models. A Novel Approach for Enhancing SocialBot Conversations. (arXiv:2310.16119v1 [cs.LG])\nAbstract: We present our SocialBot -- Alquist~5.0 -- developed for the Alexa Prize SocialBot Grand Challenge~5. Building upon previous versions of our system, we introduce the NRG Barista and outline several innovative approaches for integrating Barista into our SocialBot, improving the overall conversational experience. Additionally, we extend our SocialBot to support multimodal devices. This paper offers insights into the development of Alquist~5.0, which meets evolving user expectations while maintaining empathetic and knowledgeable conversational abilities across diverse topics.",
+    "path": "papers/23/10/2310.16119.json",
+    "total_tokens": 711,
+    "translated_title": "Alquist 5.0：对话树与生成模型相结合。增强SocialBot对话的一种新方法。",
+    "translated_abstract": "我们介绍了我们的SocialBot- Alquist 5.0-，该系统是为Alexa Prize SocialBot大挑战5开发的。在我们系统的前几个版本基础上，我们引入了NRG Barista，并概述了将Barista整合到我们的SocialBot中的几种创新方法，从而改善了整体的对话体验。此外，我们还扩展了我们的SocialBot以支持多模式设备。本文提供了关于Alquist 5.0开发的见解，该系统在满足用户不断变化的期望的同时，保持了对各种主题的共情和知识型对话能力。",
+    "tldr": "Alquist 5.0是一种新的SocialBot系统，通过将对话树和生成模型相结合，以及引入NRG Barista和支持多模式设备，提高了用户对话体验，并保持了共情和知识型对话能力。"
+}

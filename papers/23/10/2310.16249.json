@@ -1,0 +1,11 @@
+{
+    "title": "A clustering tool for interrogating finite element models based on eigenvectors of graph adjacency. (arXiv:2310.16249v1 [cs.CE])",
+    "abstract": "This note introduces an unsupervised learning algorithm to debug errors in finite element (FE) simulation models and details how it was productionised. The algorithm clusters degrees of freedom in the FE model using numerical properties of the adjacency of its stiffness matrix. The algorithm has been deployed as a tool called `Model Stability Analysis' tool within the commercial structural FE suite Oasys GSA (www.oasys-software.com/gsa). It has been used successfully by end-users for debugging real world FE models and we present examples of the tool in action.",
+    "link": "http://arxiv.org/abs/2310.16249",
+    "context": "Title: A clustering tool for interrogating finite element models based on eigenvectors of graph adjacency. (arXiv:2310.16249v1 [cs.CE])\nAbstract: This note introduces an unsupervised learning algorithm to debug errors in finite element (FE) simulation models and details how it was productionised. The algorithm clusters degrees of freedom in the FE model using numerical properties of the adjacency of its stiffness matrix. The algorithm has been deployed as a tool called `Model Stability Analysis' tool within the commercial structural FE suite Oasys GSA (www.oasys-software.com/gsa). It has been used successfully by end-users for debugging real world FE models and we present examples of the tool in action.",
+    "path": "papers/23/10/2310.16249.json",
+    "total_tokens": 717,
+    "translated_title": "基于图邻接矩阵的特征向量的聚类工具用于有限元模型的研究",
+    "translated_abstract": "本文介绍了一种无监督学习算法，用于调试有限元（FE）仿真模型中的错误，并详细说明了该算法的生产化过程。该算法使用刚度矩阵的邻接性质对FE模型的自由度进行聚类。该算法已经作为一种名为“模型稳定性分析”工具部署在商业结构FE套件Oasys GSA（www.oasys-software.com/gsa）中。它已经成功地被最终用户用于调试真实世界的FE模型，并且我们展示了该工具的实际应用示例。",
+    "tldr": "该论文介绍了一种基于图邻接矩阵特征向量的聚类工具，用于调试有限元模型中的错误，并在商业结构FE套件中成功部署，并且已被用户用于真实世界的FE模型调试。"
+}

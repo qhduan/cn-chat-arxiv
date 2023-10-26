@@ -2,52 +2,149 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Topology-aware Debiased Self-supervised Graph Learning for Recommendation.](http://arxiv.org/abs/2310.15858) | 面向推荐的拓扑感知去偏向自监督图学习（TDSGL）通过构建对比对，考虑用户（物品）的语义相似性，解决了推荐系统中负采样策略导致的错误负样本和忽略正样本的问题。 |
-| [^2] | [A statistical significance testing approach for measuring term burstiness with applications to domain-specific terminology extraction.](http://arxiv.org/abs/2310.15790) | 我们提出了一种统计显著性测试方法，用于测量专业术语抽取中的术语爆发性。我们的方法基于多项式语言模型，通过启发式公式得到近似测试P值。此外，我们还推导了逆文档频率与逆收集频率之间的关系。 |
-| [^3] | [TCRA-LLM: Token Compression Retrieval Augmented Large Language Model for Inference Cost Reduction.](http://arxiv.org/abs/2310.15556) | TCRA-LLM是通过概述压缩和语义压缩两种方法来减少商业大型语言模型推理成本的方案。 |
-| [^4] | [KITAB: Evaluating LLMs on Constraint Satisfaction for Information Retrieval.](http://arxiv.org/abs/2310.15511) | 本研究评估了最先进的模型在信息检索中回答约束满足查询的能力，并引入了一个新的数据集KITAB来衡量语言模型的约束满足能力。 |
-| [^5] | [Robust Representation Learning for Unified Online Top-K Recommendation.](http://arxiv.org/abs/2310.15492) | 本论文提出一种鲁棒的表示学习方法，用于统一在线Top-K推荐，在大规模工业电子商务中解决物品广告和内容广告的不一致性，以及跨不同领域的多实体广告的检索问题。 |
-| [^6] | [Off-Policy Evaluation for Large Action Spaces via Policy Convolution.](http://arxiv.org/abs/2310.15433) | 本研究提出了一种名为策略卷积（PC）的离策略估计方法，该方法通过动作嵌入来解决大动作空间下的分布转移问题，可以在偏差和方差之间进行权衡 |
-| [^7] | [Towards Hybrid-grained Feature Interaction Selection for Deep Sparse Network.](http://arxiv.org/abs/2310.15342) | 本论文提出了一种针对深度稀疏网络的混合粒度特征交互选择方法，能够同时考虑特征域和特征值，实验证明该方法在准确性和效率方面表现良好。 |
-| [^8] | [Triple Simplex Matrix Completion for Expense Forecasting.](http://arxiv.org/abs/2310.15275) | 本文提出了一种使用三重单纯形矩阵完成方法进行费用预测的模型。该模型通过学习项目与潜在空间中的费用模式相关性来预测费用，同时满足预算约束并保证预测结果的准确性。 |
-| [^9] | [CorefPrompt: Prompt-based Event Coreference Resolution by Measuring Event Type and Argument Compatibilities.](http://arxiv.org/abs/2310.14512) | CorefPrompt是一种基于提示的方法，通过测量事件类型和参数的兼容性来进行事件指代消解。该方法将事件指代消解转化为一个填空式MLM任务，并通过引入辅助的提示任务来帮助模型进行推理，最终在基准测试中取得了良好的表现。 |
-| [^10] | [AdaptSSR: Pre-training User Model with Augmentation-Adaptive Self-Supervised Ranking.](http://arxiv.org/abs/2310.09706) | 在用户建模中，通过自适应增强自监督排序方法预训练用户模型，解决了数据稀疏性问题和现有增强方法引入的噪音问题。 |
-| [^11] | [Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning.](http://arxiv.org/abs/2308.05379) | 这篇论文提出了一种行为增强的相关模型，利用自我监督学习，通过从用户历史行为数据中提取辅助查询-项目交互，来改进搜索引擎中的查询-项目匹配，提高准确性和鲁棒性。 |
-| [^12] | [Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models.](http://arxiv.org/abs/2306.10933) | 本文介绍了KAR框架，它从大型语言模型中获取两种类型的外部知识，分别是用户偏好的推理知识和项目的事实知识。通过混合专家适配器将推理和事实知识转换为增强向量，以便与现有的协同过滤推荐算法兼容。 |
-| [^13] | [Evaluating Verifiability in Generative Search Engines.](http://arxiv.org/abs/2304.09848) | 本文评估了四个流行生成式搜索引擎的可验证性，发现现有生成式搜索引擎响应流畅但仅有51.5%的生成句子得到了完整的引用支持，仅有74.5%的引用支持其相关语句。 |
-| [^14] | [Content-Based Search for Deep Generative Models.](http://arxiv.org/abs/2210.03116) | 这个论文介绍了基于内容的深层生成模型搜索任务，通过优化问题选择生成与查询最相似内容概率最高的模型，并提出了适用于不同查询模态的对比学习框架。（翻译为中文） |
+| [^1] | [Exploring Large Language Models for Code Explanation.](http://arxiv.org/abs/2310.16673) | 本论文研究了使用大型语言模型（LLMs）为代码片段生成自然语言摘要的任务，发现代码LLMs优于通用对应模型，在处理具有不相似分布的数据集时，零样本方法可以得到更好的结果。 |
+| [^2] | [Distributionally Robust Unsupervised Dense Retrieval Training on Web Graphs.](http://arxiv.org/abs/2310.16605) | 本论文提出了一种无监督的密集检索模型Web-DRO，它利用网络结构进行聚类并重新加权，在无监督场景中显著提高了检索效果。群组分布鲁棒优化方法指导模型对高对比损失的群组分配更多权重，在训练过程中更加关注最坏情况。实验结果表明，结合URL信息的网络图训练能达到最佳的聚类性能。 |
+| [^3] | [Model-enhanced Contrastive Reinforcement Learning for Sequential Recommendation.](http://arxiv.org/abs/2310.16566) | 这项研究提出了一种模型增强的对比强化学习方法，用于解决推荐系统中的数据稀疏和过估计问题。 |
+| [^4] | [Faithful Path Language Modelling for Explainable Recommendation over Knowledge Graph.](http://arxiv.org/abs/2310.16452) | 本文提出了一个名为PEARLM的方法，通过语言建模开展基于路径的知识图谱推荐，解决了现有方法中对预训练知识图谱嵌入的依赖以及未充分利用实体和关系之间相互依赖性的问题，还避免了生成不准确的解释。实验结果表明，与现有方法相比，我们的方法效果显著。 |
+| [^5] | [Multiple Key-value Strategy in Recommendation Systems Incorporating Large Language Model.](http://arxiv.org/abs/2310.16409) | 该论文研究了将推荐系统与大型语言模型结合以实现顺序推荐的问题。现有工作主要考虑单键情况，而忽略了多键值数据的重要性。本研究的贡献在于解决了实际应用中多键值数据的推荐问题。 |
+| [^6] | [URL-BERT: Training Webpage Representations via Social Media Engagements.](http://arxiv.org/abs/2310.16303) | URL-BERT是一种通过社交媒体互动训练网页表示的方法，通过引入新的预训练目标和对比目标，实现了对URL和网页的更好理解和表示。 |
+| [^7] | [Context-aware feature attribution through argumentation.](http://arxiv.org/abs/2310.16157) | 本论文提出了一种基于论证的上下文感知特征归因方法，以解决机器学习和数据分析中特征归因的挑战。该方法利用广义可加模型和梯度方法与替代模型相结合，同时考虑用户的背景信息，从而提高了归因的准确性和解释性。 |
+| [^8] | [Clinfo.ai: An Open-Source Retrieval-Augmented Large Language Model System for Answering Medical Questions using Scientific Literature.](http://arxiv.org/abs/2310.16146) | Clinfo.ai是一个开源的系统，使用科学文献回答医学问题。研究人员提出了一个信息检索和抽象概括任务，发布了相应的数据集，并进行了评估。 |
+| [^9] | [Context-aware explainable recommendations over knowledge graphs.](http://arxiv.org/abs/2310.16141) | 本文提出了CA-KGCN，一个基于上下文的推荐系统框架，能够将知识图谱中的语义关系纳入建模，提高推荐准确性和可解释性。 |
+| [^10] | [TCRA-LLM: Token Compression Retrieval Augmented Large Language Model for Inference Cost Reduction.](http://arxiv.org/abs/2310.15556) | TCRA-LLM是通过概述压缩和语义压缩两种方法来减少商业大型语言模型推理成本的方案。 |
+| [^11] | [Retrieve Anything To Augment Large Language Models.](http://arxiv.org/abs/2310.07554) | 这项工作提出了一种新的方法，即LLM-Embedder，通过一个统一的嵌入模型全面支持LLMs的多样化检索增强需求。 |
+| [^12] | [TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks.](http://arxiv.org/abs/2305.11430) | 本文提出了一个通用分类法，可以用来设计具有特定属性的提示来执行各种复杂任务，从而解决了LLM在执行复杂任务方面的性能变异巨大的问题。 |
+| [^13] | [Sheaf Neural Networks for Graph-based Recommender Systems.](http://arxiv.org/abs/2304.09097) | 基于Sheaf神经网络的模型提出了一种新的向量空间表示方法，使得其在基准推荐任务上获得最先进的性能表现。 |
 
 # 详细
 
-[^1]: 面向推荐的拓扑感知去偏向自监督图学习
+[^1]: 探索用于代码解释的大型语言模型
 
-    Topology-aware Debiased Self-supervised Graph Learning for Recommendation. (arXiv:2310.15858v1 [cs.IR])
+    Exploring Large Language Models for Code Explanation. (arXiv:2310.16673v1 [cs.SE])
 
-    [http://arxiv.org/abs/2310.15858](http://arxiv.org/abs/2310.15858)
+    [http://arxiv.org/abs/2310.16673](http://arxiv.org/abs/2310.16673)
 
-    面向推荐的拓扑感知去偏向自监督图学习（TDSGL）通过构建对比对，考虑用户（物品）的语义相似性，解决了推荐系统中负采样策略导致的错误负样本和忽略正样本的问题。
-
-    
-
-    在推荐系统中，基于图的协同过滤方法通过引入图对比学习来缓解数据稀疏性。然而，这些基于图对比学习的协同过滤模型中的随机负采样策略忽视了用户（物品）的语义结构，这不仅引入了错误的负样本（与锚定用户（物品）相似的负样本），还忽略了潜在的正样本。为了解决上述问题，我们提出了面向推荐的拓扑感知去偏向自监督图学习（TDSGL），根据用户（物品）之间的语义相似性构建对比对。具体而言，由于原始的用户-物品交互数据很好地反映了用户的购买意图和物品的某些特征，我们在交互数据上计算用户（物品）之间的语义相似性。然后，给定一个用户（物品），我们通过选择嵌入不同语义结构的用户（物品）来构建其负样本对，以确保去偏向性。
-
-    In recommendation, graph-based Collaborative Filtering (CF) methods mitigate the data sparsity by introducing Graph Contrastive Learning (GCL). However, the random negative sampling strategy in these GCL-based CF models neglects the semantic structure of users (items), which not only introduces false negatives (negatives that are similar to anchor user (item)) but also ignores the potential positive samples. To tackle the above issues, we propose Topology-aware Debiased Self-supervised Graph Learning (TDSGL) for recommendation, which constructs contrastive pairs according to the semantic similarity between users (items). Specifically, since the original user-item interaction data commendably reflects the purchasing intent of users and certain characteristics of items, we calculate the semantic similarity between users (items) on interaction data. Then, given a user (item), we construct its negative pairs by selecting users (items) which embed different semantic structures to ensure the
-    
-[^2]: 一种用于测量专业术语抽取中术语爆发性的统计显著性测试方法
-
-    A statistical significance testing approach for measuring term burstiness with applications to domain-specific terminology extraction. (arXiv:2310.15790v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.15790](http://arxiv.org/abs/2310.15790)
-
-    我们提出了一种统计显著性测试方法，用于测量专业术语抽取中的术语爆发性。我们的方法基于多项式语言模型，通过启发式公式得到近似测试P值。此外，我们还推导了逆文档频率与逆收集频率之间的关系。
+    本论文研究了使用大型语言模型（LLMs）为代码片段生成自然语言摘要的任务，发现代码LLMs优于通用对应模型，在处理具有不相似分布的数据集时，零样本方法可以得到更好的结果。
 
     
 
-    专业术语抽取是文本分析中的重要任务。当语料库中一个术语的出现集中在少数几个文件中时，可称之为“爆发性”。作为内容丰富的术语，爆发性术语非常适合用于主题描述，并且是技术术语的自然候选词。文献中提出了多种术语爆发性的测量方法。然而，在文本分析中，包括与术语爆发性相关的统计显著性测试范式尚未得到充分探索。为了探索这个领域，我们的主要贡献是提出了一种基于多项式语言模型的术语爆发性统计显著性的精确测试方法。由于计算成本过高，我们还提出了一个启发式公式，用于近似测试P值。作为补充的理论贡献，我们推导了一种未经报道的逆文档频率与逆收集频率的关系。
+    自动化代码文档通过解释性文本在代码理解方面可能非常有益。大型语言模型（LLMs）在自然语言处理方面取得了显著的进展，特别是在软件工程任务中，如代码生成和代码摘要。本研究具体研究了使用各种LLMs为代码片段生成自然语言摘要的任务。研究结果表明，代码LLMs优于其通用对应模型，并且当处理具有训练集和测试集之间分布不相似的数据集时，零样本方法产生更好的结果。
 
-    Domain-specific terminology extraction is an important task in text analysis. A term in a corpus is said to be "bursty" when its occurrences are concentrated in few out of many documents. Being content rich, bursty terms are highly suited for subject matter characterization, and serve as natural candidates for identifying with technical terminology. Multiple measures of term burstiness have been proposed in the literature. However, the statistical significance testing paradigm has remained underexplored in text analysis, including in relation to term burstiness. To test these waters, we propose as our main contribution a multinomial language model-based exact test of statistical significance for term burstiness. Due to its prohibitive computational cost, we advance a heuristic formula designed to serve as a proxy for test P-values. As a complementary theoretical contribution, we derive a previously unreported relationship connecting the inverse document frequency and inverse collection
+    Automating code documentation through explanatory text can prove highly beneficial in code understanding. Large Language Models (LLMs) have made remarkable strides in Natural Language Processing, especially within software engineering tasks such as code generation and code summarization. This study specifically delves into the task of generating natural-language summaries for code snippets, using various LLMs. The findings indicate that Code LLMs outperform their generic counterparts, and zero-shot methods yield superior results when dealing with datasets with dissimilar distributions between training and testing sets.
     
-[^3]: TCRA-LLM: 用于减少推理成本的令牌压缩检索增强大型语言模型
+[^2]: 基于网络图的分布鲁棒无监督密集检索训练
+
+    Distributionally Robust Unsupervised Dense Retrieval Training on Web Graphs. (arXiv:2310.16605v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.16605](http://arxiv.org/abs/2310.16605)
+
+    本论文提出了一种无监督的密集检索模型Web-DRO，它利用网络结构进行聚类并重新加权，在无监督场景中显著提高了检索效果。群组分布鲁棒优化方法指导模型对高对比损失的群组分配更多权重，在训练过程中更加关注最坏情况。实验结果表明，结合URL信息的网络图训练能达到最佳的聚类性能。
+
+    
+
+    本文介绍了Web-DRO，一种基于网络结构进行聚类并在对比训练期间重新加权的无监督密集检索模型。具体而言，我们首先利用网络图链接并对锚点-文档对进行对比训练，训练一个嵌入模型用于聚类。然后，我们使用群组分布鲁棒优化方法来重新加权不同的锚点-文档对群组，这指导模型将更多权重分配给对比损失更高的群组，并在训练过程中更加关注最坏情况。在MS MARCO和BEIR上的实验表明，我们的模型Web-DRO在无监督场景中显著提高了检索效果。对聚类技术的比较表明，结合URL信息的网络图训练能达到最佳的聚类性能。进一步分析证实了群组权重的稳定性和有效性，表明了一致的模型偏好以及对有价值文档的有效加权。
+
+    This paper introduces Web-DRO, an unsupervised dense retrieval model, which clusters documents based on web structures and reweights the groups during contrastive training. Specifically, we first leverage web graph links and contrastively train an embedding model for clustering anchor-document pairs. Then we use Group Distributional Robust Optimization to reweight different clusters of anchor-document pairs, which guides the model to assign more weights to the group with higher contrastive loss and pay more attention to the worst case during training. Our experiments on MS MARCO and BEIR show that our model, Web-DRO, significantly improves the retrieval effectiveness in unsupervised scenarios. A comparison of clustering techniques shows that training on the web graph combining URL information reaches optimal performance on clustering. Further analysis confirms that group weights are stable and valid, indicating consistent model preferences as well as effective up-weighting of valuable 
+    
+[^3]: 模型增强的对比强化学习用于序列推荐
+
+    Model-enhanced Contrastive Reinforcement Learning for Sequential Recommendation. (arXiv:2310.16566v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.16566](http://arxiv.org/abs/2310.16566)
+
+    这项研究提出了一种模型增强的对比强化学习方法，用于解决推荐系统中的数据稀疏和过估计问题。
+
+    
+
+    强化学习已经广泛应用于推荐系统，因为其潜力在于优化用户的长期参与度。从强化学习的角度来看，推荐可以被形式化为马尔可夫决策过程(MDP)，其中推荐系统(代理)可以与用户(环境)进行交互，并获得反馈(奖励信号)。然而，出于对用户体验和实现复杂性的考虑，进行在线交互是不切实际的，我们只能使用包含有限奖励信号和状态转换的离线数据集来训练RL推荐者。因此，奖励信号和状态转换的数据稀疏问题非常严重，而这一问题一直被现有的RL推荐系统忽视。更糟糕的是，RL方法通过试错模式来学习，但在隐式反馈推荐任务中无法获得负反馈，进一步加剧了离线RL推荐者的过估计问题。为了解决这些挑战，我们提出了一种模型增强的对比强化学习方法。
+
+    Reinforcement learning (RL) has been widely applied in recommendation systems due to its potential in optimizing the long-term engagement of users. From the perspective of RL, recommendation can be formulated as a Markov decision process (MDP), where recommendation system (agent) can interact with users (environment) and acquire feedback (reward signals).However, it is impractical to conduct online interactions with the concern on user experience and implementation complexity, and we can only train RL recommenders with offline datasets containing limited reward signals and state transitions. Therefore, the data sparsity issue of reward signals and state transitions is very severe, while it has long been overlooked by existing RL recommenders.Worse still, RL methods learn through the trial-and-error mode, but negative feedback cannot be obtained in implicit feedback recommendation tasks, which aggravates the overestimation problem of offline RL recommender. To address these challenges, 
+    
+[^4]: 可解释的基于路径的知识图推荐中的忠实路径语言建模
+
+    Faithful Path Language Modelling for Explainable Recommendation over Knowledge Graph. (arXiv:2310.16452v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.16452](http://arxiv.org/abs/2310.16452)
+
+    本文提出了一个名为PEARLM的方法，通过语言建模开展基于路径的知识图谱推荐，解决了现有方法中对预训练知识图谱嵌入的依赖以及未充分利用实体和关系之间相互依赖性的问题，还避免了生成不准确的解释。实验结果表明，与现有方法相比，我们的方法效果显著。
+
+    
+
+    针对知识图谱中的路径推理方法在提高推荐系统透明度方面的潜力，本文提出了一种名为PEARLM的新方法，该方法通过语言建模有效捕获用户行为和产品端知识。我们的方法通过语言模型直接从知识图谱上的路径中学习知识图谱嵌入，并将实体和关系统一在同一优化空间中。序列解码的约束保证了路径对知识图谱的忠实性。在两个数据集上的实验证明了我们方法与现有最先进方法的有效性。
+
+    Path reasoning methods over knowledge graphs have gained popularity for their potential to improve transparency in recommender systems. However, the resulting models still rely on pre-trained knowledge graph embeddings, fail to fully exploit the interdependence between entities and relations in the KG for recommendation, and may generate inaccurate explanations. In this paper, we introduce PEARLM, a novel approach that efficiently captures user behaviour and product-side knowledge through language modelling. With our approach, knowledge graph embeddings are directly learned from paths over the KG by the language model, which also unifies entities and relations in the same optimisation space. Constraints on the sequence decoding additionally guarantee path faithfulness with respect to the KG. Experiments on two datasets show the effectiveness of our approach compared to state-of-the-art baselines. Source code and datasets: AVAILABLE AFTER GETTING ACCEPTED.
+    
+[^5]: 融合大型语言模型的推荐系统中的多键值策略
+
+    Multiple Key-value Strategy in Recommendation Systems Incorporating Large Language Model. (arXiv:2310.16409v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.16409](http://arxiv.org/abs/2310.16409)
+
+    该论文研究了将推荐系统与大型语言模型结合以实现顺序推荐的问题。现有工作主要考虑单键情况，而忽略了多键值数据的重要性。本研究的贡献在于解决了实际应用中多键值数据的推荐问题。
+
+    
+
+    推荐系统在满足互联网应用中用户信息需求方面发挥着重要作用，通常使用神经网络处理嵌入细节。最近，大型语言模型在计算机视觉和自然语言处理社区取得重大突破。因此，将推荐系统与大型语言模型更好地结合起来成为了新兴的研究方向。尽管一些现有工作对此问题有所贡献，但主要考虑单键情况（如历史交互），特别是在顺序推荐中，多键值数据的情况被简单忽略。然而，多键值数据在实际应用中是主流场景，用户的信息（如年龄、职业等）和物品的信息（如标题、类别等）具有多个键。因此，我们旨在基于多键值数据实现顺序推荐。
+
+    Recommendation system (RS) plays significant roles in matching users information needs for Internet applications, and it usually utilizes the vanilla neural network as the backbone to handle embedding details. Recently, the large language model (LLM) has exhibited emergent abilities and achieved great breakthroughs both in the CV and NLP communities. Thus, it is logical to incorporate RS with LLM better, which has become an emerging research direction. Although some existing works have made their contributions to this issue, they mainly consider the single key situation (e.g. historical interactions), especially in sequential recommendation. The situation of multiple key-value data is simply neglected. This significant scenario is mainstream in real practical applications, where the information of users (e.g. age, occupation, etc) and items (e.g. title, category, etc) has more than one key. Therefore, we aim to implement sequential recommendations based on multiple key-value data by in
+    
+[^6]: URL-BERT: 通过社交媒体互动训练网页表示
+
+    URL-BERT: Training Webpage Representations via Social Media Engagements. (arXiv:2310.16303v1 [cs.CL])
+
+    [http://arxiv.org/abs/2310.16303](http://arxiv.org/abs/2310.16303)
+
+    URL-BERT是一种通过社交媒体互动训练网页表示的方法，通过引入新的预训练目标和对比目标，实现了对URL和网页的更好理解和表示。
+
+    
+
+    理解和表示网页对于在线社交网络至关重要，用户可以分享和参与URL。常见的语言模型（LM）编码器如BERT可以用于理解和表示网页的文本内容。然而，这些表示可能无法建模网域和URL的主题信息，也无法准确地捕捉它们对社交媒体用户的吸引力。在这项工作中，我们引入了一种新的预训练目标，用于使语言模型适应URL和网页的理解。我们提出的框架包括两个步骤：（1）基于社交媒体上的用户互动学习URL的浅层表示的可扩展图嵌入，以及（2）将LM表示与前述基于图的表示进行对齐的对比目标。我们将这个框架应用到BERT的多语言版本上，得到了模型URL-BERT。我们通过实验证明，我们的持续预训练方法改善了各种任务的网页理解能力。
+
+    Understanding and representing webpages is crucial to online social networks where users may share and engage with URLs. Common language model (LM) encoders such as BERT can be used to understand and represent the textual content of webpages. However, these representations may not model thematic information of web domains and URLs or accurately capture their appeal to social media users. In this work, we introduce a new pre-training objective that can be used to adapt LMs to understand URLs and webpages. Our proposed framework consists of two steps: (1) scalable graph embeddings to learn shallow representations of URLs based on user engagement on social media and (2) a contrastive objective that aligns LM representations with the aforementioned graph-based representation. We apply our framework to the multilingual version of BERT to obtain the model URL-BERT. We experimentally demonstrate that our continued pre-training approach improves webpage understanding on a variety of tasks and 
+    
+[^7]: 基于论证的上下文感知特征归因
+
+    Context-aware feature attribution through argumentation. (arXiv:2310.16157v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.16157](http://arxiv.org/abs/2310.16157)
+
+    本论文提出了一种基于论证的上下文感知特征归因方法，以解决机器学习和数据分析中特征归因的挑战。该方法利用广义可加模型和梯度方法与替代模型相结合，同时考虑用户的背景信息，从而提高了归因的准确性和解释性。
+
+    
+
+    特征归因是机器学习和数据分析中的基本任务，涉及确定个别特征或变量对模型输出的贡献。这个过程有助于确定预测结果最重要的特征。特征归因方法的历史可以追溯到广义可加模型 (GAMs)，它通过将因变量和自变量之间的非线性关系纳入模型，扩展了线性回归模型。近年来，基于梯度的方法和替代模型已经被应用于揭示复杂的人工智能 (AI) 系统，但这些方法存在一些局限性。GAMs 往往能够达到较低的准确性，基于梯度的方法很难解释，替代模型通常存在稳定性和保真度问题。此外，大部分现有方法都没有考虑用户的背景，而用户的背景可能会对他们的偏好产生重要影响。为了解决这些限制并推进当前的研究
+
+    Feature attribution is a fundamental task in both machine learning and data analysis, which involves determining the contribution of individual features or variables to a model's output. This process helps identify the most important features for predicting an outcome. The history of feature attribution methods can be traced back to General Additive Models (GAMs), which extend linear regression models by incorporating non-linear relationships between dependent and independent variables. In recent years, gradient-based methods and surrogate models have been applied to unravel complex Artificial Intelligence (AI) systems, but these methods have limitations. GAMs tend to achieve lower accuracy, gradient-based methods can be difficult to interpret, and surrogate models often suffer from stability and fidelity issues. Furthermore, most existing methods do not consider users' contexts, which can significantly influence their preferences. To address these limitations and advance the current s
+    
+[^8]: Clinfo.ai:用科学文献回答医学问题的开源检索增强型大型语言模型系统
+
+    Clinfo.ai: An Open-Source Retrieval-Augmented Large Language Model System for Answering Medical Questions using Scientific Literature. (arXiv:2310.16146v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.16146](http://arxiv.org/abs/2310.16146)
+
+    Clinfo.ai是一个开源的系统，使用科学文献回答医学问题。研究人员提出了一个信息检索和抽象概括任务，发布了相应的数据集，并进行了评估。
+
+    
+
+    随着医学文献的快速增长，医生和研究人员很难及时跟上并总结最近的相关发现。虽然现在存在几个基于大型语言模型（LLMs）的闭源摘要工具，但其输出结果缺乏严格和系统的评估。此外，缺乏高质量的数据集和适当的基准任务来评估这些工具。我们通过四个贡献来解决这些问题：我们发布了名为Clinfo.ai的开源WebApp，它基于动态检索的科学文献回答临床问题；我们指定了一个信息检索和抽象概括任务，以评估这种检索增强型LLM系统的性能；我们发布了一个包含200个问题及其对应答案的数据集，我们将其命名为PubMed检索和综述（PubMedRS-200）；并报告了Cli的基准结果。
+
+    The quickly-expanding nature of published medical literature makes it challenging for clinicians and researchers to keep up with and summarize recent, relevant findings in a timely manner. While several closed-source summarization tools based on large language models (LLMs) now exist, rigorous and systematic evaluations of their outputs are lacking. Furthermore, there is a paucity of high-quality datasets and appropriate benchmark tasks with which to evaluate these tools. We address these issues with four contributions: we release Clinfo.ai, an open-source WebApp that answers clinical questions based on dynamically retrieved scientific literature; we specify an information retrieval and abstractive summarization task to evaluate the performance of such retrieval-augmented LLM systems; we release a dataset of 200 questions and corresponding answers derived from published systematic reviews, which we name PubMed Retrieval and Synthesis (PubMedRS-200); and report benchmark results for Cli
+    
+[^9]: 基于上下文的可解释知识图谱推荐
+
+    Context-aware explainable recommendations over knowledge graphs. (arXiv:2310.16141v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.16141](http://arxiv.org/abs/2310.16141)
+
+    本文提出了CA-KGCN，一个基于上下文的推荐系统框架，能够将知识图谱中的语义关系纳入建模，提高推荐准确性和可解释性。
+
+    
+
+    知识图谱包含与项目相关的丰富语义关系，将这些语义关系纳入推荐系统有助于探索项目的潜在连接，从而提高预测准确性并增强推荐的可解释性。然而，这种可解释性不适应用户的情境，而情境可以显著影响其偏好。本文提出了CA-KGCN（上下文感知知识图谱卷积网络），这是一个端到端的框架，可以根据用户的情境来建模其偏好，并将与项目相关的丰富语义关系纳入知识图谱中。该框架捕捉用户对不同因素的注意力：上下文和项目特征。具体而言，该框架可以根据特定情境建模用户的偏好并提供适应给定情境的解释。在三个真实世界数据集上的实验证明了我们框架的有效性。
+
+    Knowledge graphs contain rich semantic relationships related to items and incorporating such semantic relationships into recommender systems helps to explore the latent connections of items, thus improving the accuracy of prediction and enhancing the explainability of recommendations. However, such explainability is not adapted to users' contexts, which can significantly influence their preferences. In this work, we propose CA-KGCN (Context-Aware Knowledge Graph Convolutional Network), an end-to-end framework that can model users' preferences adapted to their contexts and can incorporate rich semantic relationships in the knowledge graph related to items. This framework captures users' attention to different factors: contexts and features of items. More specifically, the framework can model users' preferences adapted to their contexts and provide explanations adapted to the given context. Experiments on three real-world datasets show the effectiveness of our framework: modeling users' 
+    
+[^10]: TCRA-LLM: 用于减少推理成本的令牌压缩检索增强大型语言模型
 
     TCRA-LLM: Token Compression Retrieval Augmented Large Language Model for Inference Cost Reduction. (arXiv:2310.15556v1 [cs.CL])
 
@@ -61,158 +158,46 @@
 
     Since ChatGPT released its API for public use, the number of applications built on top of commercial large language models (LLMs) increase exponentially. One popular usage of such models is leveraging its in-context learning ability and generating responses given user queries leveraging knowledge obtained by retrieval augmentation. One problem of deploying commercial retrieval-augmented LLMs is the cost due to the additionally retrieved context that largely increases the input token size of the LLMs. To mitigate this, we propose a token compression scheme that includes two methods: summarization compression and semantic compression. The first method applies a T5-based model that is fine-tuned by datasets generated using self-instruct containing samples with varying lengths and reduce token size by doing summarization. The second method further compresses the token size by removing words with lower impact on the semantic. In order to adequately evaluate the effectiveness of the proposed
     
-[^4]: 在信息检索中评估基于约束满足的LLMs
+[^11]: 检索任何内容来增强大型语言模型
 
-    KITAB: Evaluating LLMs on Constraint Satisfaction for Information Retrieval. (arXiv:2310.15511v1 [cs.LG])
+    Retrieve Anything To Augment Large Language Models. (arXiv:2310.07554v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2310.15511](http://arxiv.org/abs/2310.15511)
+    [http://arxiv.org/abs/2310.07554](http://arxiv.org/abs/2310.07554)
 
-    本研究评估了最先进的模型在信息检索中回答约束满足查询的能力，并引入了一个新的数据集KITAB来衡量语言模型的约束满足能力。
-
-    
-
-    我们研究了最先进的模型在信息检索中回答约束满足查询（例如，“圣地亚哥的冰淇淋店列表”）的能力。过去，这样的查询被认为只能通过网络搜索或知识库来解决。最近，大型语言模型（LLMs）在这个任务中展示了初步的能力。然而，许多当前的检索基准要么已饱和，要么不能衡量约束满足。受到对LLMs事实不正确和产生幻觉的日益关注的驱动，我们提出了KITAB，一个用于衡量语言模型约束满足能力的新数据集。KITAB包含600多位作者和13,000个查询的与书籍相关的数据，还提供了一个关联的动态数据收集和约束验证方法，以获得其他作者的类似测试数据。我们对GPT4和GPT3.5进行了扩展实验，对常见的失败模式进行了表征和解耦。
-
-    We study the ability of state-of-the art models to answer constraint satisfaction queries for information retrieval (e.g., 'a list of ice cream shops in San Diego'). In the past, such queries were considered to be tasks that could only be solved via web-search or knowledge bases. More recently, large language models (LLMs) have demonstrated initial emergent abilities in this task. However, many current retrieval benchmarks are either saturated or do not measure constraint satisfaction. Motivated by rising concerns around factual incorrectness and hallucinations of LLMs, we present KITAB, a new dataset for measuring constraint satisfaction abilities of language models. KITAB consists of book-related data across more than 600 authors and 13,000 queries, and also offers an associated dynamic data collection and constraint verification approach for acquiring similar test data for other authors. Our extended experiments on GPT4 and GPT3.5 characterize and decouple common failure modes acros
-    
-[^5]: 鲁棒的统一在线Top-K推荐的表示学习
-
-    Robust Representation Learning for Unified Online Top-K Recommendation. (arXiv:2310.15492v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.15492](http://arxiv.org/abs/2310.15492)
-
-    本论文提出一种鲁棒的表示学习方法，用于统一在线Top-K推荐，在大规模工业电子商务中解决物品广告和内容广告的不一致性，以及跨不同领域的多实体广告的检索问题。
+    这项工作提出了一种新的方法，即LLM-Embedder，通过一个统一的嵌入模型全面支持LLMs的多样化检索增强需求。
 
     
 
-    在大规模工业电子商务中，在线推荐系统的效率对于提供高度相关的物品/内容广告以满足多样化的业务场景至关重要。然而，大部分现有研究仅关注物品广告，忽视了内容广告的重要性。这种疏忽导致了多实体结构内的不一致性和不公平检索。此外，从跨不同领域的多实体广告中检索Top-K广告的挑战也增加了复杂性。最近的研究证明，不同领域内的用户-实体行为表现出差异性和同质性特征。因此，多领域匹配模型通常依赖于具有领域不变和领域特定表示的混合专家框架。不幸的是，大多数方法主要关注优化不同专家的组合模式，未能解决优化中固有的困难点。
+    大型语言模型(LLMs)面临着由于其在知识、记忆、对齐和行动方面的固有限制而产生的重要挑战。这些挑战不能单靠LLMs自行解决，而应依赖于来自外部世界（如知识库、记忆存储、演示示例和工具）的辅助。检索增强作为LLMs与外部辅助之间的重要机制。然而，传统方法遇到两个紧迫问题。一方面，通用检索器未能适当优化LLMs的检索增强。另一方面，任务特定的检索器缺乏所需的多样性，阻碍其在各种检索增强场景中的性能表现。在这项工作中，我们提出了一种新的方法，即LLM-Embedder，它通过一个统一的嵌入模型全面支持LLMs的多样化检索增强需求。训练这样的统一模型并不容易，由于不同检索增强场景的多样性。
 
-    In large-scale industrial e-commerce, the efficiency of an online recommendation system is crucial in delivering highly relevant item/content advertising that caters to diverse business scenarios. However, most existing studies focus solely on item advertising, neglecting the significance of content advertising. This oversight results in inconsistencies within the multi-entity structure and unfair retrieval. Furthermore, the challenge of retrieving top-k advertisements from multi-entity advertisements across different domains adds to the complexity. Recent research proves that user-entity behaviors within different domains exhibit characteristics of differentiation and homogeneity. Therefore, the multi-domain matching models typically rely on the hybrid-experts framework with domain-invariant and domain-specific representations. Unfortunately, most approaches primarily focus on optimizing the combination mode of different experts, failing to address the inherent difficulty in optimizin
+    Large language models (LLMs) face significant challenges stemming from their inherent limitations in knowledge, memory, alignment, and action. These challenges cannot be addressed by LLMs alone, but should rely on assistance from the external world, such as knowledge base, memory store, demonstration examples, and tools. Retrieval augmentation stands as a vital mechanism for bridging the gap between LLMs and the external assistance. However, conventional methods encounter two pressing issues. On the one hand, the general-purpose retrievers are not properly optimized for the retrieval augmentation of LLMs. On the other hand, the task-specific retrievers lack the required versatility, hindering their performance across the diverse retrieval augmentation scenarios.  In this work, we present a novel approach, the LLM-Embedder, which comprehensively supports the diverse retrieval augmentation needs of LLMs with one unified embedding model. Training such a unified model is non-trivial, as va
     
-[^6]: 基于策略卷积的大动作空间离策略评估
+[^12]: TELeR：用于基准测试复杂任务的LLM提示的通用分类法
 
-    Off-Policy Evaluation for Large Action Spaces via Policy Convolution. (arXiv:2310.15433v1 [cs.LG])
+    TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks. (arXiv:2305.11430v1 [cs.AI])
 
-    [http://arxiv.org/abs/2310.15433](http://arxiv.org/abs/2310.15433)
+    [http://arxiv.org/abs/2305.11430](http://arxiv.org/abs/2305.11430)
 
-    本研究提出了一种名为策略卷积（PC）的离策略估计方法，该方法通过动作嵌入来解决大动作空间下的分布转移问题，可以在偏差和方差之间进行权衡
-
-    
-
-    发展准确的离策略估计器对于评估和优化新策略至关重要。离策略估计的主要挑战在于生成数据的记录策略和我们要评估的目标策略之间的分布转移。通常，纠正分布转移的技术涉及某种形式的重要性采样。这种方法导致了无偏值估计，但往往会带来高方差的代价，即使在简单的一步情境多臂老虎机的情况下也是如此。此外，重要性采样依赖于共同支持假设，在动作空间很大时变得不切实际。为了解决这些挑战，我们引入了策略卷积 (PC)家族的估计器。这些方法利用通过动作嵌入提供的动作内部结构进行策略的策略卷积。这种卷积引入了独特的偏差-方差权衡，可以进行控制
-
-    Developing accurate off-policy estimators is crucial for both evaluating and optimizing for new policies. The main challenge in off-policy estimation is the distribution shift between the logging policy that generates data and the target policy that we aim to evaluate. Typically, techniques for correcting distribution shift involve some form of importance sampling. This approach results in unbiased value estimation but often comes with the trade-off of high variance, even in the simpler case of one-step contextual bandits. Furthermore, importance sampling relies on the common support assumption, which becomes impractical when the action space is large. To address these challenges, we introduce the Policy Convolution (PC) family of estimators. These methods leverage latent structure within actions -- made available through action embeddings -- to strategically convolve the logging and target policies. This convolution introduces a unique bias-variance trade-off, which can be controlled 
-    
-[^7]: 面向深度稀疏网络的混合粒度特征交互选择方法
-
-    Towards Hybrid-grained Feature Interaction Selection for Deep Sparse Network. (arXiv:2310.15342v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.15342](http://arxiv.org/abs/2310.15342)
-
-    本论文提出了一种针对深度稀疏网络的混合粒度特征交互选择方法，能够同时考虑特征域和特征值，实验证明该方法在准确性和效率方面表现良好。
+    本文提出了一个通用分类法，可以用来设计具有特定属性的提示来执行各种复杂任务，从而解决了LLM在执行复杂任务方面的性能变异巨大的问题。
 
     
 
-    深度稀疏网络被广泛研究作为具有高维稀疏特征的预测任务的神经网络架构，其中特征交互选择是一个关键组成部分。然而，先前的方法主要集中在如何在粗粒度空间中搜索特征交互，对于更细粒度的细节则关注较少。在这项工作中，我们引入了一种针对深度稀疏网络的混合粒度特征交互选择方法，旨在同时考虑特征域和特征值。为了探索这样广阔的空间，我们提出了一种即时计算的分解空间。然后，我们开发了一个名为OptFeature的选择算法，它可以有效地从特征域和特征值同时选择特征交互。在三个大型真实世界基准数据集的实验结果表明，OptFeature在准确性和效率方面表现良好。额外的研究支持了我们方法的可行性。
+    尽管LLM在传统对话环境中理解和生成文本时取得了巨大成功，但它们在执行不明确的复杂任务方面的潜力仍然受到很少的研究。本文提出了一种通用分类法，可以用来设计具有特定属性的提示，以执行各种复杂任务，从而解决了使用不同提示类型/风格和提示提供的不同详细程度时LLM性能变化巨大的问题。这个分类法将使未来的基准测试研究能够报告研究中使用的特定提示类别，从而实现跨不同研究的有意义的比较。
 
-    Deep sparse networks are widely investigated as a neural network architecture for prediction tasks with high-dimensional sparse features, with which feature interaction selection is a critical component. While previous methods primarily focus on how to search feature interaction in a coarse-grained space, less attention has been given to a finer granularity. In this work, we introduce a hybrid-grained feature interaction selection approach that targets both feature field and feature value for deep sparse networks. To explore such expansive space, we propose a decomposed space which is calculated on the fly. We then develop a selection algorithm called OptFeature, which efficiently selects the feature interaction from both the feature field and the feature value simultaneously. Results from experiments on three large real-world benchmark datasets demonstrate that OptFeature performs well in terms of accuracy and efficiency. Additional studies support the feasibility of our method.
+    While LLMs have shown great success in understanding and generating text in traditional conversational settings, their potential for performing ill-defined complex tasks is largely under-studied. Indeed, we are yet to conduct comprehensive benchmarking studies with multiple LLMs that are exclusively focused on a complex task. However, conducting such benchmarking studies is challenging because of the large variations in LLMs' performance when different prompt types/styles are used and different degrees of detail are provided in the prompts. To address this issue, the paper proposes a general taxonomy that can be used to design prompts with specific properties in order to perform a wide range of complex tasks. This taxonomy will allow future benchmarking studies to report the specific categories of prompts used as part of the study, enabling meaningful comparisons across different studies. Also, by establishing a common standard through this taxonomy, researchers will be able to draw mo
     
-[^8]: 三重单纯形矩阵完成用于费用预测
+[^13]: 基于Sheaf神经网络的基于图的推荐系统
 
-    Triple Simplex Matrix Completion for Expense Forecasting. (arXiv:2310.15275v1 [cs.LG])
+    Sheaf Neural Networks for Graph-based Recommender Systems. (arXiv:2304.09097v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.15275](http://arxiv.org/abs/2310.15275)
+    [http://arxiv.org/abs/2304.09097](http://arxiv.org/abs/2304.09097)
 
-    本文提出了一种使用三重单纯形矩阵完成方法进行费用预测的模型。该模型通过学习项目与潜在空间中的费用模式相关性来预测费用，同时满足预算约束并保证预测结果的准确性。
-
-    
-
-    预测项目费用是企业避免预算超支和项目失败的关键步骤。传统上，这是由财务分析师或数据科学技术（如时间序列分析）完成的。然而，这些方法可能存在不确定性，并产生与计划预算不同的结果，特别是在项目开始时数据点有限的情况下。本文提出了一种受约束的非负矩阵完成模型，通过学习项目与潜在空间中某些费用模式的相关性，预测费用的可能性。该模型在因子矩阵和缺失条目上受到三个概率单纯形的约束。此外，预测的费用值保证满足预算约束，无需后处理。一个非精确的交替优化算法被开发用于解决相关优化问题，并证明收敛到一个稳定点。
-
-    Forecasting project expenses is a crucial step for businesses to avoid budget overruns and project failures. Traditionally, this has been done by financial analysts or data science techniques such as time-series analysis. However, these approaches can be uncertain and produce results that differ from the planned budget, especially at the start of a project with limited data points. This paper proposes a constrained non-negative matrix completion model that predicts expenses by learning the likelihood of the project correlating with certain expense patterns in the latent space. The model is constrained on three probability simplexes, two of which are on the factor matrices and the third on the missing entries. Additionally, the predicted expense values are guaranteed to meet the budget constraint without the need of post-processing. An inexact alternating optimization algorithm is developed to solve the associated optimization problem and is proven to converge to a stationary point. Res
-    
-[^9]: CorefPrompt: 基于提示的事件指代消解通过测量事件类型和参数的兼容性
-
-    CorefPrompt: Prompt-based Event Coreference Resolution by Measuring Event Type and Argument Compatibilities. (arXiv:2310.14512v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2310.14512](http://arxiv.org/abs/2310.14512)
-
-    CorefPrompt是一种基于提示的方法，通过测量事件类型和参数的兼容性来进行事件指代消解。该方法将事件指代消解转化为一个填空式MLM任务，并通过引入辅助的提示任务来帮助模型进行推理，最终在基准测试中取得了良好的表现。
+    基于Sheaf神经网络的模型提出了一种新的向量空间表示方法，使得其在基准推荐任务上获得最先进的性能表现。
 
     
 
-    事件指代消解旨在将指代同一实际事件的事件提及聚类在一起。大多数先前的研究采用“先编码，然后评分”的框架，使得指代消解依赖于事件编码。此外，当前的方法很难利用人工总结的事件指代消解规则，例如，指代同一事件的事件应具有相同的事件类型，以指导模型。为了解决这两个问题，我们提出了一种基于提示的方法CorefPrompt，将事件指代消解转化为一个填空式MLM（掩码语言模型）任务。这样可以在一个单一的模板中同时进行事件建模和指代消解判别，并且具有完全共享的上下文。此外，我们引入了两个辅助的提示任务，事件类型兼容性和参数兼容性，以明确展示事件指代消解的推理过程，从而帮助模型做出最终的预测。实验结果表明，我们的方法CorefPrompt在最先进的基准测试中表现良好。
+    近年来，Graph神经网络在许多应用中得到了广泛应用，包括推荐系统。Graph神经网络对其他方法的优越性在于，推荐系统中的许多问题可以自然地建模为图，其中节点可以是用户或项目，边代表偏好关系。 在当前的Graph神经网络方法中，节点用在训练时学习到的静态向量表示。这种静态向量可能只适用于捕捉定义它们的一些用户或项目的微妙差别。为了克服这个限制，我们建议使用最近提出的启发范畴论的模型：Sheaf神经网络。Sheaf神经网络及其连接的拉普拉斯可以通过将每个节点（以及边）与向量空间而不是单个向量相关联来解决上述问题。向量空间表示更丰富，并允许在推理时选择正确的表示。这种方法使我们的模型更具表现力和灵活性，在几个基准推荐任务上实现了最先进的性能。
 
-    Event coreference resolution (ECR) aims to group event mentions referring to the same real-world event into clusters. Most previous studies adopt the "encoding first, then scoring" framework, making the coreference judgment rely on event encoding. Furthermore, current methods struggle to leverage human-summarized ECR rules, e.g., coreferential events should have the same event type, to guide the model. To address these two issues, we propose a prompt-based approach, CorefPrompt, to transform ECR into a cloze-style MLM (masked language model) task. This allows for simultaneous event modeling and coreference discrimination within a single template, with a fully shared context. In addition, we introduce two auxiliary prompt tasks, event-type compatibility and argument compatibility, to explicitly demonstrate the reasoning process of ECR, which helps the model make final predictions. Experimental results show that our method CorefPrompt performs well in a state-of-the-art (SOTA) benchmark.
-    
-[^10]: AdaptSSR: 使用自适应增强自监督排序方法预训练用户模型
-
-    AdaptSSR: Pre-training User Model with Augmentation-Adaptive Self-Supervised Ranking. (arXiv:2310.09706v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2310.09706](http://arxiv.org/abs/2310.09706)
-
-    在用户建模中，通过自适应增强自监督排序方法预训练用户模型，解决了数据稀疏性问题和现有增强方法引入的噪音问题。
-
-    
-
-    用户建模旨在捕捉用户的特征或兴趣，但受到数据稀疏性问题的影响，往往需要依赖特定任务的标注数据。最近的几项研究通过在大量用户行为序列上进行对比学习的预训练来解决这个问题。一般而言，这些方法假设通过数据增强构建的同一行为序列的不同视图在语义上是一致的，即反映用户的相似特征或兴趣，并在特征空间中最大化它们的一致性。然而，由于用户行为的多样兴趣和大量噪音，现有的增强方法往往会丢失某些用户特征或引入噪声行为。因此，直接最大化增强视图之间的相似性可能导致负面迁移。为此，我们提出用新的预训练任务替代对比学习任务：自适应增强自监督排序方法。
-
-    User modeling, which aims to capture users' characteristics or interests, heavily relies on task-specific labeled data and suffers from the data sparsity issue. Several recent studies tackled this problem by pre-training the user model on massive user behavior sequences with a contrastive learning task. Generally, these methods assume different views of the same behavior sequence constructed via data augmentation are semantically consistent, i.e., reflecting similar characteristics or interests of the user, and thus maximizing their agreement in the feature space. However, due to the diverse interests and heavy noise in user behaviors, existing augmentation methods tend to lose certain characteristics of the user or introduce noisy behaviors. Thus, forcing the user model to directly maximize the similarity between the augmented views may result in a negative transfer. To this end, we propose to replace the contrastive learning task with a new pretext task: Augmentation-Adaptive SelfSup
-    
-[^11]: 超越语义：利用自我监督学习的行为增强相关模型的学习
-
-    Beyond Semantics: Learning a Behavior Augmented Relevance Model with Self-supervised Learning. (arXiv:2308.05379v1 [cs.IR])
-
-    [http://arxiv.org/abs/2308.05379](http://arxiv.org/abs/2308.05379)
-
-    这篇论文提出了一种行为增强的相关模型，利用自我监督学习，通过从用户历史行为数据中提取辅助查询-项目交互，来改进搜索引擎中的查询-项目匹配，提高准确性和鲁棒性。
-
-    
-
-    相关建模旨在定位与对应查询相关的理想项目，这对于搜索引擎确保用户体验非常重要。虽然大多数传统方法通过评估查询与项目之间的语义相似性来解决这个问题，但纯语义匹配并不是唯一的方法。实际上，从用户搜索记录的历史行为数据中提取的辅助查询-项目交互可以提供进一步揭示用户搜索意图的线索。得益于此，我们设计了一种新颖的基于行为增强相关学习模型的支付宝搜索模型（BARL-ASe），该模型利用目标项目的相邻查询和目标查询的相邻项目来补充目标查询-项目的语义匹配。具体而言，我们的模型建立了多层共同注意力，从相邻和目标视图中提取了粗粒度和细粒度的语义表示。模型随后采用邻居-目标的自我监督学习来提高精度和鲁棒性。
-
-    Relevance modeling aims to locate desirable items for corresponding queries, which is crucial for search engines to ensure user experience. Although most conventional approaches address this problem by assessing the semantic similarity between the query and item, pure semantic matching is not everything. In reality, auxiliary query-item interactions extracted from user historical behavior data of the search log could provide hints to reveal users' search intents further. Drawing inspiration from this, we devise a novel Behavior Augmented Relevance Learning model for Alipay Search (BARL-ASe) that leverages neighbor queries of target item and neighbor items of target query to complement target query-item semantic matching. Specifically, our model builds multi-level co-attention for distilling coarse-grained and fine-grained semantic representations from both neighbor and target views. The model subsequently employs neighbor-target self-supervised learning to improve the accuracy and robu
-    
-[^12]: 基于大型语言模型的开放世界推荐系统
-
-    Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models. (arXiv:2306.10933v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2306.10933](http://arxiv.org/abs/2306.10933)
-
-    本文介绍了KAR框架，它从大型语言模型中获取两种类型的外部知识，分别是用户偏好的推理知识和项目的事实知识。通过混合专家适配器将推理和事实知识转换为增强向量，以便与现有的协同过滤推荐算法兼容。
-
-    
-
-    推荐系统在各种在线服务中都扮演着至关重要的角色。但是，它们在特定领域内进行训练和部署的封闭性限制了它们访问开放世界知识的能力。最近，大型语言模型(LLM)的出现在编码广泛的世界知识和展示推理能力方面显示出了希望。尽管如此，直接使用LLM作为推荐人之前的尝试并没有取得令人满意的结果。在本文中，我们提出了一种基于大型语言模型的开放世界知识增强推荐框架(KAR)，以从LLM获取两种类型的外部知识--用户偏好的推理知识和项目的事实知识。我们介绍了因子分解提示来引导对用户喜好的准确推理。生成的推理和事实知识通过混合专家适配器有效地转换并压缩为增强向量，以便与现有的协同过滤推荐算法兼容。
-
-    Recommender systems play a vital role in various online services. However, the insulated nature of training and deploying separately within a specific domain limits their access to open-world knowledge. Recently, the emergence of large language models (LLMs) has shown promise in bridging this gap by encoding extensive world knowledge and demonstrating reasoning capability. Nevertheless, previous attempts to directly use LLMs as recommenders have not achieved satisfactory results. In this work, we propose an Open-World Knowledge Augmented Recommendation Framework with Large Language Models, dubbed KAR, to acquire two types of external knowledge from LLMs -- the reasoning knowledge on user preferences and the factual knowledge on items. We introduce factorization prompting to elicit accurate reasoning on user preferences. The generated reasoning and factual knowledge are effectively transformed and condensed into augmented vectors by a hybrid-expert adaptor in order to be compatible with
-    
-[^13]: 评估生成式搜索引擎中的可验证性
-
-    Evaluating Verifiability in Generative Search Engines. (arXiv:2304.09848v1 [cs.CL])
-
-    [http://arxiv.org/abs/2304.09848](http://arxiv.org/abs/2304.09848)
-
-    本文评估了四个流行生成式搜索引擎的可验证性，发现现有生成式搜索引擎响应流畅但仅有51.5%的生成句子得到了完整的引用支持，仅有74.5%的引用支持其相关语句。
-
-    
-
-    生成式搜索引擎直接为用户查询生成响应，并提供内联引用。一个值得信赖的生成式搜索引擎的先决条件是可验证性，即系统应全面引用（高引用回忆率，所有语句都有完整的引用支持）和准确（高引用精度，每个引用都支持其相关语句）。我们对四个流行的生成式搜索引擎——Bing Chat、NeevaAI、perplexity.ai和YouChat——进行了人类评估，涵盖了各种来源的多样化查询（例如历史上的Google用户查询、Reddit上动态收集的开放性问题等）。我们发现现有的生成式搜索引擎响应流畅且信息丰富，但常常包含不支持的语句和不准确的引用：平均而言，仅有51.5%的生成句子得到了完整的引用支持，只有74.5%的引用支持其相关语句。我们认为...
-
-    Generative search engines directly generate responses to user queries, along with in-line citations. A prerequisite trait of a trustworthy generative search engine is verifiability, i.e., systems should cite comprehensively (high citation recall; all statements are fully supported by citations) and accurately (high citation precision; every cite supports its associated statement). We conduct human evaluation to audit four popular generative search engines -- Bing Chat, NeevaAI, perplexity.ai, and YouChat -- across a diverse set of queries from a variety of sources (e.g., historical Google user queries, dynamically-collected open-ended questions on Reddit, etc.). We find that responses from existing generative search engines are fluent and appear informative, but frequently contain unsupported statements and inaccurate citations: on average, a mere 51.5% of generated sentences are fully supported by citations and only 74.5% of citations support their associated sentence. We believe that
-    
-[^14]: 基于内容的深层生成模型搜索
-
-    Content-Based Search for Deep Generative Models. (arXiv:2210.03116v3 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2210.03116](http://arxiv.org/abs/2210.03116)
-
-    这个论文介绍了基于内容的深层生成模型搜索任务，通过优化问题选择生成与查询最相似内容概率最高的模型，并提出了适用于不同查询模态的对比学习框架。（翻译为中文）
-
-    
-
-    自定义和预训练生成模型的不断增加使得用户不可能完全了解每个存在的模型。为了解决这个问题，我们引入了基于内容的模型搜索任务：给定一个查询和一组大规模的生成模型，找到与查询最匹配的模型。由于每个生成模型产生一系列图像的分布，我们将搜索任务作为一个优化问题，选择生成与查询相似内容概率最高的模型。我们提出了一个用于近似计算概率的公式，可以根据不同的查询模态（例如图像、草图和文本）来计算。此外，我们提出了一个对模型检索的对比学习框架，该框架学习适应不同查询模态的特征。我们证明了我们的方法在生成模型动物园（Generative Model Zoo）上优于几个基准模型的表现。
-
-    The growing proliferation of customized and pretrained generative models has made it infeasible for a user to be fully cognizant of every model in existence. To address this need, we introduce the task of content-based model search: given a query and a large set of generative models, finding the models that best match the query. As each generative model produces a distribution of images, we formulate the search task as an optimization problem to select the model with the highest probability of generating similar content as the query. We introduce a formulation to approximate this probability given the query from different modalities, e.g., image, sketch, and text. Furthermore, we propose a contrastive learning framework for model retrieval, which learns to adapt features for various query modalities. We demonstrate that our method outperforms several baselines on Generative Model Zoo, a new benchmark we create for the model retrieval task.
+    Recent progress in Graph Neural Networks has resulted in wide adoption by many applications, including recommendation systems. The reason for Graph Neural Networks' superiority over other approaches is that many problems in recommendation systems can be naturally modeled as graphs, where nodes can be either users or items and edges represent preference relationships. In current Graph Neural Network approaches, nodes are represented with a static vector learned at training time. This static vector might only be suitable to capture some of the nuances of users or items they define. To overcome this limitation, we propose using a recently proposed model inspired by category theory: Sheaf Neural Networks. Sheaf Neural Networks, and its connected Laplacian, can address the previous problem by associating every node (and edge) with a vector space instead than a single vector. The vector space representation is richer and allows picking the proper representation at inference time. This approa
     
 

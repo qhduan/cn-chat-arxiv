@@ -1,0 +1,12 @@
+{
+    "title": "Transformer-based Live Update Generation for Soccer Matches from Microblog Posts. (arXiv:2310.16368v1 [cs.CL])",
+    "abstract": "It has been known to be difficult to generate adequate sports updates from a sequence of vast amounts of diverse live tweets, although the live sports viewing experience with tweets is gaining the popularity. In this paper, we focus on soccer matches and work on building a system to generate live updates for soccer matches from tweets so that users can instantly grasp a match's progress and enjoy the excitement of the match from raw tweets. Our proposed system is based on a large pre-trained language model and incorporates a mechanism to control the number of updates and a mechanism to reduce the redundancy of duplicate and similar updates.",
+    "link": "http://arxiv.org/abs/2310.16368",
+    "context": "Title: Transformer-based Live Update Generation for Soccer Matches from Microblog Posts. (arXiv:2310.16368v1 [cs.CL])\nAbstract: It has been known to be difficult to generate adequate sports updates from a sequence of vast amounts of diverse live tweets, although the live sports viewing experience with tweets is gaining the popularity. In this paper, we focus on soccer matches and work on building a system to generate live updates for soccer matches from tweets so that users can instantly grasp a match's progress and enjoy the excitement of the match from raw tweets. Our proposed system is based on a large pre-trained language model and incorporates a mechanism to control the number of updates and a mechanism to reduce the redundancy of duplicate and similar updates.",
+    "path": "papers/23/10/2310.16368.json",
+    "total_tokens": 715,
+    "translated_title": "基于Transformer的微博帖子生成足球比赛的实时更新",
+    "translated_abstract": "尽管使用微博帖子观看体育比赛直播已经越来越受欢迎，但从庞大而多样的微博帖子序列中生成足够的体育比赛更新一直是困难的。本文针对足球比赛，致力于构建一个系统，通过微博帖子生成足球比赛的实时更新，让用户可以立即了解比赛的进展，并从原始微博中体验比赛的激动。我们提出的系统基于一个大型的预训练语言模型，并融入了控制更新数量的机制以及减少重复和相似更新冗余的机制。",
+    "tldr": "本文提出了基于Transformer的方法来从微博帖子中生成足球比赛的实时更新，通过控制更新数量和减少冗余更新，用户可以立即了解比赛进展并享受比赛的激动。",
+    "en_tdlr": "This paper proposes a Transformer-based method for generating live updates of soccer matches from microblog posts. By controlling the number of updates and reducing redundancy, users can instantly grasp the progress of the match and enjoy the excitement."
+}

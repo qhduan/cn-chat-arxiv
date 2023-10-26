@@ -1,0 +1,11 @@
+{
+    "title": "Encompassing Tests for Nonparametric Regressions. (arXiv:2203.06685v3 [econ.EM] UPDATED)",
+    "abstract": "We set up a formal framework to characterize encompassing of nonparametric models through the L2 distance. We contrast it to previous literature on the comparison of nonparametric regression models. We then develop testing procedures for the encompassing hypothesis that are fully nonparametric. Our test statistics depend on kernel regression, raising the issue of bandwidth's choice. We investigate two alternative approaches to obtain a \"small bias property\" for our test statistics. We show the validity of a wild bootstrap method. We empirically study the use of a data-driven bandwidth and illustrate the attractive features of our tests for small and moderate samples.",
+    "link": "http://arxiv.org/abs/2203.06685",
+    "context": "Title: Encompassing Tests for Nonparametric Regressions. (arXiv:2203.06685v3 [econ.EM] UPDATED)\nAbstract: We set up a formal framework to characterize encompassing of nonparametric models through the L2 distance. We contrast it to previous literature on the comparison of nonparametric regression models. We then develop testing procedures for the encompassing hypothesis that are fully nonparametric. Our test statistics depend on kernel regression, raising the issue of bandwidth's choice. We investigate two alternative approaches to obtain a \"small bias property\" for our test statistics. We show the validity of a wild bootstrap method. We empirically study the use of a data-driven bandwidth and illustrate the attractive features of our tests for small and moderate samples.",
+    "path": "papers/22/03/2203.06685.json",
+    "total_tokens": 884,
+    "translated_title": "非参数回归的完全涵盖性检验",
+    "translated_abstract": "我们建立了一个形式框架，通过L2距离来表征非参数模型的完全涵盖性。我们将其与以往有关非参数回归模型比较的文献进行对比。然后，我们提出了完全非参数的涵盖性假设的检验方法。我们的检验统计量依赖于核回归，引发了带宽选择的问题。我们研究了两种获得“小偏差特性”的备选方法。我们展示了一种野蒙特卡洛法的有效性。我们通过实证研究了数据驱动的带宽的使用情况，并展示了我们的测试对于小规模和中等规模样本的吸引力特点。",
+    "tldr": "通过L2距离，建立了一个形式框架来描述非参数模型的完全涵盖性，并开发出全非参数的涵盖性假设的测试程序。我们通过核回归构建了检验统计量，并研究了带宽选择的问题。我们提出了两种获得“小偏差特性”的备选方法，并展示了野蒙特卡洛法的有效性。通过实证研究，我们验证了数据驱动带宽的使用，并展示了我们的测试在小规模和中等规模样本上的吸引力特点。"
+}

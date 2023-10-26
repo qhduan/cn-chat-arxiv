@@ -1,0 +1,11 @@
+{
+    "title": "Decoding Stumpers: Large Language Models vs. Human Problem-Solvers. (arXiv:2310.16411v1 [cs.CL])",
+    "abstract": "This paper investigates the problem-solving capabilities of Large Language Models (LLMs) by evaluating their performance on stumpers, unique single-step intuition problems that pose challenges for human solvers but are easily verifiable. We compare the performance of four state-of-the-art LLMs (Davinci-2, Davinci-3, GPT-3.5-Turbo, GPT-4) to human participants. Our findings reveal that the new-generation LLMs excel in solving stumpers and surpass human performance. However, humans exhibit superior skills in verifying solutions to the same problems. This research enhances our understanding of LLMs' cognitive abilities and provides insights for enhancing their problem-solving potential across various domains.",
+    "link": "http://arxiv.org/abs/2310.16411",
+    "context": "Title: Decoding Stumpers: Large Language Models vs. Human Problem-Solvers. (arXiv:2310.16411v1 [cs.CL])\nAbstract: This paper investigates the problem-solving capabilities of Large Language Models (LLMs) by evaluating their performance on stumpers, unique single-step intuition problems that pose challenges for human solvers but are easily verifiable. We compare the performance of four state-of-the-art LLMs (Davinci-2, Davinci-3, GPT-3.5-Turbo, GPT-4) to human participants. Our findings reveal that the new-generation LLMs excel in solving stumpers and surpass human performance. However, humans exhibit superior skills in verifying solutions to the same problems. This research enhances our understanding of LLMs' cognitive abilities and provides insights for enhancing their problem-solving potential across various domains.",
+    "path": "papers/23/10/2310.16411.json",
+    "total_tokens": 809,
+    "translated_title": "解密难题：大型语言模型与人类问题求解者的对比",
+    "translated_abstract": "本文通过评估大型语言模型（LLMs）在难题上的表现，探究了它们的问题求解能力。难题是一种独特的单步直觉问题，对人类求解者构成挑战，但很容易验证。我们将四种最先进的LLMs（Davinci-2、Davinci-3、GPT-3.5-Turbo、GPT-4）与人类参与者的表现进行比较。我们的研究发现，新一代LLMs在解决难题方面表现出色，超过了人类的表现。然而，人类在验证相同问题的解决方案方面展示出卓越的技能。这项研究增进了我们对LLMs认知能力的理解，并为提升其在各个领域的问题求解潜力提供了见解。",
+    "tldr": "通过对比大型语言模型与人类在难题解决能力上的表现，研究发现新一代大型语言模型在解决难题方面表现出色，超过了人类，但人类在验证解决方案方面具有优势。"
+}

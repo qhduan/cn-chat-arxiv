@@ -2,157 +2,232 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Long-Term Employment Effects of the Minimum Wage in Germany: New Data and Estimators.](http://arxiv.org/abs/2310.15964) | 德国的最低工资政策引入及其上涨对就业有着小幅负面影响。 |
-| [^2] | [Modeling and Contribution of Flexible Heating Systems for Transmission Grid Congestion Management.](http://arxiv.org/abs/2310.15933) | 本研究提出了新的模型来评估个体小规模热泵和大规模电能转热系统的网格感知运行，并探讨了弹性供暖系统对输电网拥塞管理的贡献。研究结果显示，通过整合弹性供暖系统，可实现减少常规重调度量和可再生能源削减量，节省成本约6%。大规模PtH单元结合热能储存应用对于拥塞管理具有重要意义。 |
-| [^3] | [Social Learning of General Rules.](http://arxiv.org/abs/2310.15861) | 为了解决为何个体在多个行为规则中选择特定规则的问题，我们引入了一个动态社会学习框架，其中个体基于一般的经验规则并模仿成功同伴的行为规则。我们发现社会学习结果不依赖于初始规则分布，当一个主导规则产生出优越结果时，几乎肯定会被所有个体采纳；否则，较好规则会成为共识规则。因此，社会学习过程中选取的行为规则不一定能最大化社会福利。 |
-| [^4] | [Testing for equivalence of pre-trends in Difference-in-Differences estimation.](http://arxiv.org/abs/2310.15796) | 本文提出了一种测试方法，旨在评估Difference-in-Differences估计中“平行趋势假设”的合理性，从而提高治疗效果估计的可信度。 |
-| [^5] | [A necessary and sufficient condition for the existence of chaotic dynamics in an overlapping generations model.](http://arxiv.org/abs/2310.15755) | 本文研究了一个标准的没有生产的重叠世代模型中的经济动力学，利用数值方法得到了存在拓扑混沌的充要条件，这是对最新结果的新应用。 |
-| [^6] | [Reducing residential emissions: carbon pricing vs. subsidizing retrofits.](http://arxiv.org/abs/2310.15687) | 本研究比较了在住房投资不可逆的情况下，碳定价和补贴改造两种减排政策的效果。研究发现，虽然补贴改造对居民家庭来说直接成本最低，但最终导致的总成本最高，且无法有效降低碳排放。相比之下，分阶段的碳定价表现更好。 |
-| [^7] | [Inference for Rank-Rank Regressions.](http://arxiv.org/abs/2310.15512) | 本文研究了等级回归中常用的方差估计器在估计OLS估计器的渐进方差时的不一致性问题，并提出了一种一致估计器。应用新的推论方法在三个经验研究中发现，基于正确方差的估计器的置信区间可能欠精确。 |
-| [^8] | [The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it will not).](http://arxiv.org/abs/2310.15505) | 本文介绍了一个框架，用于确定哪些问题会从量子计算中受益。分析显示，规模较小且对于典型企业很重要的问题将不会受益，而规模较大或具有较大算法收益的问题将受益。 |
-| [^9] | [Difference-in-Differences with Interference: A Finite Population Perspective.](http://arxiv.org/abs/2306.12003) | 本文提出了一种新的双重稳健估计器，以应对邻居干扰对于“区别于差分”类型的估计器效果的影响。在本文提出的有限人口视角下，可以处理直接平均处理效应以及平均溢出效应，具有一定的研究价值。 |
-| [^10] | [Fischer-Schultz Lecture: Generic Machine Learning Inference on Heterogenous Treatment Effects in Randomized Experiments, with an Application to Immunization in India.](http://arxiv.org/abs/1712.04802) | 该论文提出了一种通用的机器学习方法，用于在随机实验中估算和推断异质性处理效应的关键特征，并将其应用于印度免疫计划的数据中，获得有效推断结果。 |
+| [^1] | [CATE Lasso: Conditional Average Treatment Effect Estimation with High-Dimensional Linear Regression.](http://arxiv.org/abs/2310.16819) | 本研究提出了一种高维线性回归下一致估计有条件平均处理效应的方法，即使在参数非稀疏的情况下也能获得良好的理论性质。该方法假设潜在结果中的线性模型参数可分为特定于治疗方法和公共参数，并通过一个称为隐式稀疏性的较弱假设实现估计。 |
+| [^2] | [A Note on the Continuity of Expected Utility Functions.](http://arxiv.org/abs/2310.16806) | 本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。 |
+| [^3] | [Covariate Shift Adaptation Robust to Density-Ratio Estimation.](http://arxiv.org/abs/2310.16638) | 该论文研究了在协变量偏移下的密度比估计的罕见问题，提出了一种适应性方法来减轻密度比估计的偏差对模型的影响。 |
+| [^4] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
+| [^5] | [Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction.](http://arxiv.org/abs/2310.16341) | 本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。 |
+| [^6] | [Fair Adaptive Experiments.](http://arxiv.org/abs/2310.16290) | 提出了一种公平的自适应实验策略，该策略同时提高数据利用效率，保证不嫉妒的治疗分配，并改善参与者的整体福利。 |
+| [^7] | [Improving Robust Decisions with Data.](http://arxiv.org/abs/2310.16281) | 该论文研究了如何通过数据改善鲁棒决策，并开发了简单易实现的推理方法以保证改善。 |
+| [^8] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
+| [^9] | [Real-time Prediction of the Great Recession and the Covid-19 Recession.](http://arxiv.org/abs/2310.08536) | 本研究使用罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行了实时预测，结果表明在衰退预测领域应用罚函数逻辑回归模型能够取得更高的预测准确性。 |
+| [^10] | [The Newsvendor with Advice.](http://arxiv.org/abs/2305.07993) | 本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。 |
+| [^11] | [Optimal transmission expansion planning in the context of renewable energy integration policies.](http://arxiv.org/abs/2302.10562) | 本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。 |
+| [^12] | [A Bootstrap Specification Test for Semiparametric Models with Generated Regressors.](http://arxiv.org/abs/2212.11112) | 本文提出了一种针对半参数模型的规格检验方法，可以用于具有非参数生成回归变量的模型，并通过使用自举程序提供有效的临界值。实验证明该方法在小样本情况下表现良好，并通过女性劳动力参与决策的应用展示了其在实际数据环境中的实现。 |
+| [^13] | [Partly Linear Instrumental Variables Regressions without Smoothing on the Instruments.](http://arxiv.org/abs/2212.11012) | 该论文介绍了一种在仪器变量上部分线性回归的无平滑方法，通过将Landweber-Fridman正则化方案应用于该半参数模型的估计，实现了参数估计的渐近正态性以及非参数估计的收敛速率。 |
+| [^14] | [Encompassing Tests for Nonparametric Regressions.](http://arxiv.org/abs/2203.06685) | 通过L2距离，建立了一个形式框架来描述非参数模型的完全涵盖性，并开发出全非参数的涵盖性假设的测试程序。我们通过核回归构建了检验统计量，并研究了带宽选择的问题。我们提出了两种获得“小偏差特性”的备选方法，并展示了野蒙特卡洛法的有效性。通过实证研究，我们验证了数据驱动带宽的使用，并展示了我们的测试在小规模和中等规模样本上的吸引力特点。 |
+| [^15] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
 
 # 详细
 
-[^1]: 德国最低工资的长期就业影响：新的数据和估计
+[^1]: CATE Lasso: 高维线性回归下的有条件平均处理效应估计
 
-    Long-Term Employment Effects of the Minimum Wage in Germany: New Data and Estimators. (arXiv:2310.15964v1 [econ.GN])
+    CATE Lasso: Conditional Average Treatment Effect Estimation with High-Dimensional Linear Regression. (arXiv:2310.16819v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.15964](http://arxiv.org/abs/2310.15964)
+    [http://arxiv.org/abs/2310.16819](http://arxiv.org/abs/2310.16819)
 
-    德国的最低工资政策引入及其上涨对就业有着小幅负面影响。
-
-    
-
-    我们研究了2015年德国最低工资引入及其随后的增加对地区就业的长期影响。利用两轮收入结构调查的数据，我们能够估计考虑到最低工资在时间上变化的模型。尽管引入主要影响了东德的劳动市场，但这些上涨也越来越影响西德的低工资地区，以至于约三分之一的地区在时间上改变了（二进制的）处理状态。我们应用了不同的规格和经典的差异法a及一些新的估计方法，可以进行带有分块处理采纳和异质处理效应的无偏效应估计。我们的结果表明，对于依赖性就业有着小幅的负面影响（0.5%），对于受社会保险缴纳的就业没有明显影响，对于最低工资的负面影响约为2.4%。
-
-    We study the long-term effects of the 2015 German minimum wage introduction and its subsequent increases on regional employment. Using data from two waves of the Structure of Earnings Survey allows us to estimate models that account for changes in the minimum wage bite over time. While the introduction mainly affected the labour market in East Germany, the raises are also increasingly affecting low-wage regions in West Germany, such that around one third of regions have changed their (binary) treatment status over time. We apply different specifications and extensions of the classic difference-in-differences approach as well as a set of new estimators that enables for unbiased effect estimation with a staggered treatment adoption and heterogeneous treatment effects. Our results indicate a small negative effect on dependent employment of 0.5 percent, no significant effect on employment subject to social security contributions, and a significant negative effect of about 2.4 percent on ma
-    
-[^2]: 弹性供暖系统对输电网拥塞管理的建模与贡献
-
-    Modeling and Contribution of Flexible Heating Systems for Transmission Grid Congestion Management. (arXiv:2310.15933v1 [eess.SY])
-
-    [http://arxiv.org/abs/2310.15933](http://arxiv.org/abs/2310.15933)
-
-    本研究提出了新的模型来评估个体小规模热泵和大规模电能转热系统的网格感知运行，并探讨了弹性供暖系统对输电网拥塞管理的贡献。研究结果显示，通过整合弹性供暖系统，可实现减少常规重调度量和可再生能源削减量，节省成本约6%。大规模PtH单元结合热能储存应用对于拥塞管理具有重要意义。
+    本研究提出了一种高维线性回归下一致估计有条件平均处理效应的方法，即使在参数非稀疏的情况下也能获得良好的理论性质。该方法假设潜在结果中的线性模型参数可分为特定于治疗方法和公共参数，并通过一个称为隐式稀疏性的较弱假设实现估计。
 
     
 
-    在欧洲电力市场中大规模整合弹性供暖系统导致了对欧洲输电网的运输需求大幅增加，由此引起了大陆输电网的拥塞问题。本文提出了对个体小规模热泵和位于区域供热网络中的大规模电能转热系统（PtH）单元进行网格感知运行的新模型。通过对德国输电网2035年的目标进行模拟评估，探讨了弹性供暖系统对输电网拥塞管理的功能和贡献。研究结果显示，在网格拥塞管理方案中整合弹性供暖系统能够降低年度常规重调度量和可再生能源（RES）削减量，从而节省约6%的成本。分析表明，尤其是大规模PtH单元结合热能储存的应用对于拥塞管理具有重要意义。
+    在有关两种治疗方法的因果推断中，有条件的平均处理效应（CATE）作为表示个性化因果效应的重要指标起着重要作用，它被定义为在协变量条件下两种治疗方法的预期结果之间的差异。本研究假设两个线性回归模型，用于描述潜在结果与两种治疗方法的协变量之间的关系，并将CATE定义为两个线性回归模型之间的差异。然后，我们提出了一种方法，可以在高维度和非稀疏参数的情况下一致地估计CATE。在我们的研究中，我们证明了即使不显式假设稀疏性，仍然可以获得如一致性等理论性质，只要我们假设CATE的定义源自一个称为隐式稀疏性的较弱假设。在这个假设中，我们假设潜在结果中线性模型的参数可以分为特定于治疗方法和公共参数，其中特定于治疗方法的参数可被实现的估计。
 
-    The large-scale integration of flexible heating systems in the European electricity market leads to a substantial increase of transportation requirements and consecutively grid congestions in the continental transmission grid. Novel model formulations for the grid-aware operation of both individual small-scale heat pumps and large-scale power-to-heat (PtH) units located in district heating networks are presented. The functionality of the models and the contribution of flexible heating systems for transmission grid congestion management is evaluated by running simulations for the target year 2035 for the German transmission grid. The findings show a decrease in annual conventional redispatch volumes and renewable energy sources (RES) curtailment resulting in cost savings of approximately 6 % through the integration of flexible heating systems in the grid congestion management scheme. The analysis suggests that especially large-scale PtH units in combination with thermal energy storages 
+    In causal inference about two treatments, Conditional Average Treatment Effects (CATEs) play an important role as a quantity representing an individualized causal effect, defined as a difference between the expected outcomes of the two treatments conditioned on covariates. This study assumes two linear regression models between a potential outcome and covariates of the two treatments and defines CATEs as a difference between the linear regression models. Then, we propose a method for consistently estimating CATEs even under high-dimensional and non-sparse parameters. In our study, we demonstrate that desirable theoretical properties, such as consistency, remain attainable even without assuming sparsity explicitly if we assume a weaker assumption called implicit sparsity originating from the definition of CATEs. In this assumption, we suppose that parameters of linear models in potential outcomes can be divided into treatment-specific and common parameters, where the treatment-specific 
     
-[^3]: 社会学习的一般规则
+[^2]: 对期望效用函数连续性的注释
 
-    Social Learning of General Rules. (arXiv:2310.15861v1 [econ.TH])
+    A Note on the Continuity of Expected Utility Functions. (arXiv:2310.16806v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.15861](http://arxiv.org/abs/2310.15861)
+    [http://arxiv.org/abs/2310.16806](http://arxiv.org/abs/2310.16806)
 
-    为了解决为何个体在多个行为规则中选择特定规则的问题，我们引入了一个动态社会学习框架，其中个体基于一般的经验规则并模仿成功同伴的行为规则。我们发现社会学习结果不依赖于初始规则分布，当一个主导规则产生出优越结果时，几乎肯定会被所有个体采纳；否则，较好规则会成为共识规则。因此，社会学习过程中选取的行为规则不一定能最大化社会福利。
-
-    
-
-    为什么在可能的多个行为规则中，个体会选择特定的一般行为规则？为了解决这个问题，我们引入了一个动态社会学习框架，在这个框架中，个体依赖于一般的经验之规并模仿成功的同伴的行为规则。我们发现社会学习的结果可以独立于初始规则分布进行描述。当一个主导的一般规则始终产生出优越的问题特定结果时，社会学习几乎肯定会导致所有个体采纳这个主导规则；否则，只要人口足够大，更频繁问题的较好规则会以任意高的概率成为共识规则。因此，在社会学习过程中选择的行为规则不一定能最大化社会福利。我们通过在随机生产市场中应用市场情绪选择来补充我们的理论分析。
-
-    Why do agents adopt a particular general behavioral rule among a collection of possible alternatives? To address this question, we introduce a dynamic social learning framework, where agents rely on general rules of thumb and imitate the behavioral rules of successful peers. We find the social learning outcome can be characterized independent of the initial rule distribution. When one dominant general rule consistently yields superior problem-specific outcomes, social learning almost surely leads all agents to adopt this dominant rule; otherwise, provided the population is sufficiently large, the better rule for the more frequent problem becomes the consensus rule with arbitrarily high probability. As a result, the behavioral rule selected by the social learning process need not maximize social welfare. We complement our theoretical analysis with an application to the market sentiment selection in a stochastic production market.
-    
-[^4]: Difference-in-Differences估计中的前期趋势等效性测试
-
-    Testing for equivalence of pre-trends in Difference-in-Differences estimation. (arXiv:2310.15796v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.15796](http://arxiv.org/abs/2310.15796)
-
-    本文提出了一种测试方法，旨在评估Difference-in-Differences估计中“平行趋势假设”的合理性，从而提高治疗效果估计的可信度。
+    本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。
 
     
 
-    通常通过对双组平均结果的差异在治疗前时间段保持恒定的零假设进行测试来评估Difference-in-Differences估计中“平行趋势假设”的合理性。然而，未能拒绝零假设并不意味着两组之间的时间趋势没有差异。我们提供了等效性测试，使研究人员能够找到支持平行趋势假设的证据，从而增加他们的治疗效果估计的可信度。虽然我们在标准的双向固定效应模型中对我们的测试进行了解释，但我们还讨论了在时间分散的治疗采用设置中的简单扩展。
+    本文研究了期望效用函数的连续性，并导出了一个弱次序在简单概率空间上具有连续期望效用函数的必要与充分条件。我们还验证了几乎相同的条件对于具有紧支撑的概率空间上的弱次序具有连续期望效用函数而言也是必要且充分的。
 
-    The plausibility of the ``parallel trends assumption'' in Difference-in-Differences estimation is usually assessed by a test of the null hypothesis that the difference between the average outcomes of both groups is constant over time before the treatment. However, failure to reject the null hypothesis does not imply the absence of differences in time trends between both groups. We provide equivalence tests that allow researchers to find evidence in favor of the parallel trends assumption and thus increase the credibility of their treatment effect estimates. While we motivate our tests in the standard two-way fixed effects model, we discuss simple extensions to settings in which treatment adoption is staggered over time.
+    In this paper, we study the continuity of expected utility functions, and derive a necessary and sufficient condition for a weak order on the space of simple probabilities to have a continuous expected utility function. We also verify that almost the same condition is necessary and sufficient for a weak order on the space of probabilities with compact-support to have a continuous expected utility function.
     
-[^5]: 一个重叠世代模型中混沌动力学存在的充要条件
+[^3]: 适应密度比估计的协变量偏移适应
 
-    A necessary and sufficient condition for the existence of chaotic dynamics in an overlapping generations model. (arXiv:2310.15755v1 [econ.GN])
+    Covariate Shift Adaptation Robust to Density-Ratio Estimation. (arXiv:2310.16638v1 [stat.ME])
 
-    [http://arxiv.org/abs/2310.15755](http://arxiv.org/abs/2310.15755)
+    [http://arxiv.org/abs/2310.16638](http://arxiv.org/abs/2310.16638)
 
-    本文研究了一个标准的没有生产的重叠世代模型中的经济动力学，利用数值方法得到了存在拓扑混沌的充要条件，这是对最新结果的新应用。
-
-    
-
-    本文研究了一个没有生产的标准重叠世代模型中的经济动力学。特别地，利用数值方法，我们得到了存在拓扑混沌的充要条件。这是对Deng、Khan、Mitra(2022)关于单峰区间映射存在拓扑混沌性质的最新结果的新应用。
-
-    In this paper, we study economic dynamics in a standard overlapping generations model without production. In particular, using numerical methods, we obtain a necessary and sufficient condition for the existence of a topological chaos. This is a new application of a recent result characterising the existence of a topological chaos for a unimodal interval map by Deng, Khan, Mitra (2022).
-    
-[^6]: 减少居民排放: 碳定价VS补贴改造
-
-    Reducing residential emissions: carbon pricing vs. subsidizing retrofits. (arXiv:2310.15687v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.15687](http://arxiv.org/abs/2310.15687)
-
-    本研究比较了在住房投资不可逆的情况下，碳定价和补贴改造两种减排政策的效果。研究发现，虽然补贴改造对居民家庭来说直接成本最低，但最终导致的总成本最高，且无法有效降低碳排放。相比之下，分阶段的碳定价表现更好。
+    该论文研究了在协变量偏移下的密度比估计的罕见问题，提出了一种适应性方法来减轻密度比估计的偏差对模型的影响。
 
     
 
-    本文比较了在住房投资不可逆的情况下不同的减缓政策。我们使用一个非同质化偏好和详细设置的居民住房和能源生产部门的一般均衡模型。在最优碳税不可用时，能源需求的作用只是次要的。虽然为改造提供补贴对家庭来说是最低的直接成本，但最终会导致最高的总成本，并且被证明是一种无效的减碳经济方式。在第二最佳条件下，分阶段的碳定价表现优于基于补贴的过渡。
+    在一种情况下，我们可以访问具有协变量和结果的训练数据，而测试数据只包含协变量。在这种情况下，我们的主要目标是预测测试数据中缺失的结果。为了实现这个目标，我们在协变量偏移下训练参数回归模型，其中训练数据和测试数据之间的协变量分布不同。对于这个问题，现有研究提出了通过使用密度比的重要性加权来进行协变量偏移适应的方法。该方法通过对训练数据损失进行加权平均，每个权重是训练数据和测试数据之间的协变量密度比的估计，以近似测试数据的风险。尽管它允许我们获得一个最小化测试数据风险的模型，但其性能严重依赖于密度比估计的准确性。此外，即使密度比可以一致地估计，密度比的估计误差也会导致回归模型的估计器产生偏差。
 
-    In this paper, we compare different mitigation policies when housing investments are irreversible. We use a general equilibrium model with non-homothetic preferences and an elaborate setup of the residential housing and energy production sector. In the first-best transition, the energy demand plays only a secondary role. However, this changes when optimal carbon taxes are not available. While providing subsidies for retrofits results in the lowest direct costs for households, it ultimately leads to the highest aggregate costs and proves to be an ineffective way to decarbonize the economy. In the second-best context, a phased-in carbon price outperforms the subsidy-based transition.
+    Consider a scenario where we have access to train data with both covariates and outcomes while test data only contains covariates. In this scenario, our primary aim is to predict the missing outcomes of the test data. With this objective in mind, we train parametric regression models under a covariate shift, where covariate distributions are different between the train and test data. For this problem, existing studies have proposed covariate shift adaptation via importance weighting using the density ratio. This approach averages the train data losses, each weighted by an estimated ratio of the covariate densities between the train and test data, to approximate the test-data risk. Although it allows us to obtain a test-data risk minimizer, its performance heavily relies on the accuracy of the density ratio estimation. Moreover, even if the density ratio can be consistently estimated, the estimation errors of the density ratio also yield bias in the estimators of the regression model's 
     
-[^7]: 推论用于等级回归
+[^4]: 通过贫困视角分析气候相关的农业生产力损失
 
-    Inference for Rank-Rank Regressions. (arXiv:2310.15512v1 [econ.EM])
+    Climate-related Agricultural Productivity Losses through a Poverty Lens. (arXiv:2310.16490v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.15512](http://arxiv.org/abs/2310.15512)
+    [http://arxiv.org/abs/2310.16490](http://arxiv.org/abs/2310.16490)
 
-    本文研究了等级回归中常用的方差估计器在估计OLS估计器的渐进方差时的不一致性问题，并提出了一种一致估计器。应用新的推论方法在三个经验研究中发现，基于正确方差的估计器的置信区间可能欠精确。
-
-    
-
-    在等级回归中，斜率系数是衡量代际流动性的常用指标，例如在子女收入等级与父母收入等级回归中。本文首先指出，常用的方差估计器如同方差估计器或鲁棒方差估计器未能一致估计OLS估计器在等级回归中的渐进方差。我们表明，这些估计器的概率极限可能过大或过小，取决于子女收入和父母收入的联合分布函数的形状。其次，我们导出了等级回归的一般渐进理论，并提供了OLS估计器渐进方差的一致估计器。然后，我们将渐进理论扩展到其他经验工作中涉及等级的回归。最后，我们将新的推论方法应用于三个经验研究。我们发现，基于正确方差的估计器的置信区间有时可能欠精确。
-
-    Slope coefficients in rank-rank regressions are popular measures of intergenerational mobility, for instance in regressions of a child's income rank on their parent's income rank. In this paper, we first point out that commonly used variance estimators such as the homoskedastic or robust variance estimators do not consistently estimate the asymptotic variance of the OLS estimator in a rank-rank regression. We show that the probability limits of these estimators may be too large or too small depending on the shape of the copula of child and parent incomes. Second, we derive a general asymptotic theory for rank-rank regressions and provide a consistent estimator of the OLS estimator's asymptotic variance. We then extend the asymptotic theory to other regressions involving ranks that have been used in empirical work. Finally, we apply our new inference methods to three empirical studies. We find that the confidence intervals based on estimators of the correct variance may sometimes be sub
-    
-[^8]: 量子龟和经典兔：一个简单的框架，以理解量子计算会加快哪些问题（以及不会加快哪些问题）
-
-    The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it will not). (arXiv:2310.15505v1 [cs.DS])
-
-    [http://arxiv.org/abs/2310.15505](http://arxiv.org/abs/2310.15505)
-
-    本文介绍了一个框架，用于确定哪些问题会从量子计算中受益。分析显示，规模较小且对于典型企业很重要的问题将不会受益，而规模较大或具有较大算法收益的问题将受益。
+    通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。
 
     
 
-    量子计算在解决一些问题时有巨大潜力，但对其他问题几乎没有任何帮助。对于希望现在或将来使用量子计算机的人来说，了解哪些问题将会受益很重要。本文介绍了一个直观和定量回答这个问题的框架。该框架的基本结构是量子计算机和经典计算机之间的比赛，它们的相对优势决定了谁会胜出。虽然经典计算机运行速度更快，但量子计算机有时可以运行更高效的算法。速度优势还是算法优势的占主导地位将决定一个问题是否会从量子计算中受益。我们的分析显示，许多问题，特别是那些规模较小但对于典型企业很重要的问题，将不会从量子计算中受益。相反，规模较大或具有特别大的算法收益的问题将会从量子计算中受益。
+    本文通过食品价格上涨分析气候变化对长期分配的影响。我们使用一个标准的不完全市场模型，并考虑食品消费的非线性Engel曲线。为了校准我们的模型，我们依赖于代表45亿人口的92个发展中国家的家庭数据。结果表明，气候变化的短期和长期分配影响是不同的。包括一般均衡效应会改变尤其是最贫困五分之一的福利结果。在特异风险存在的情况下，更高的食品价格会增加预防性储蓄，通过一般均衡影响所有代理人的劳动收入。此外，本文还研究了在不同部门生产力损失分配的情况下的不平等影响。当气候影响影响经济的两个部门的全要素生产率时，气候影响也会增加财富不平等。
 
-    Quantum computing promises transformational gains for solving some problems, but little to none for others. For anyone hoping to use quantum computers now or in the future, it is important to know which problems will benefit. In this paper, we introduce a framework for answering this question both intuitively and quantitatively. The underlying structure of the framework is a race between quantum and classical computers, where their relative strengths determine when each wins. While classical computers operate faster, quantum computers can sometimes run more efficient algorithms. Whether the speed advantage or the algorithmic advantage dominates determines whether a problem will benefit from quantum computing or not. Our analysis reveals that many problems, particularly those of small to moderate size that can be important for typical businesses, will not benefit from quantum computing. Conversely, larger problems or those with particularly big algorithmic gains will benefit from near-t
+    In this paper, we analyze the long-term distributive impact of climate change through rising food prices. We use a standard incomplete markets model and account for non-linear Engel curves for food consumption. For the calibration of our model, we rely on household data from 92 developing countries, representing 4.5 billion people. The results indicate that the short-term and long-term distributive impact of climate change differs. Including general equilibrium effects change the welfare outcome especially for the poorest quintile. In the presence of idiosyncratic risk, higher food prices increase precautionary savings, which through general equilibrium affect labor income of all agents. Furthermore, this paper studies the impact on inequality for different allocations of productivity losses across sectors. When climate impacts affects total factor productivity in both sectors of the economy, climate impacts increase also wealth inequality.
     
-[^9]: 区别于差分的干扰效应：有限人口视角下的研究
+[^5]: 提升职场女性地位：心灵智力和道德环境对工作满意度的双重影响
 
-    Difference-in-Differences with Interference: A Finite Population Perspective. (arXiv:2306.12003v1 [econ.EM])
+    Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction. (arXiv:2310.16341v1 [econ.GN])
 
-    [http://arxiv.org/abs/2306.12003](http://arxiv.org/abs/2306.12003)
+    [http://arxiv.org/abs/2310.16341](http://arxiv.org/abs/2310.16341)
 
-    本文提出了一种新的双重稳健估计器，以应对邻居干扰对于“区别于差分”类型的估计器效果的影响。在本文提出的有限人口视角下，可以处理直接平均处理效应以及平均溢出效应，具有一定的研究价值。
-
-    
-
-    在许多情况下，如对基于地点的政策进行评估时，潜在结果不仅取决于单位本身的处理，还取决于其邻居的处理。尽管如此，“区别于差分”（DID）类型的估计器通常忽略邻居之间的干扰。本文指出，在邻居干扰存在的情况下，经典的DID估计器通常无法识别有趣的因果效应。为了将干扰结构引入DID估计中，笔者提出了双重稳健估计器，用于处理直接平均处理效应以及改进后的平行趋势假设下的平均溢出效应。当需要考虑溢出效应时，通常会对整个人口进行抽样。因此，本文采用了有限人口视角，即将估计量定义为人口平均值，并且推断是有条件的，基于所有人口单位的属性。本文提出的一般和统一的方法将干扰效应纳入到DID估计中，具有一定的研究价值。
-
-    In many scenarios, such as the evaluation of place-based policies, potential outcomes are not only dependent upon the unit's own treatment but also its neighbors' treatment. In spite of this, the "difference-in-differences" (DID) type estimators typically ignore such interference among neighbors. I show in this paper that the canonical DID estimators generally do not identify interesting causal effects in the presence of neighborhood interference. To incorporate interference structure into DID estimation, I propose doubly robust estimators for the direct average treatment effect on the treated as well as the average spillover effects under a modified parallel trends assumption. When spillover effects are of interest, we often sample the entire population. Thus, I adopt a finite population perspective in the sense that the estimands are defined as population averages and inference is conditional on the attributes of all population units. The general and unified approach in this paper re
-    
-[^10]: Fischer-Schultz 讲座：随机实验中异质性处理效应的通用机器学习推断，以印度免疫为例
-
-    Fischer-Schultz Lecture: Generic Machine Learning Inference on Heterogenous Treatment Effects in Randomized Experiments, with an Application to Immunization in India. (arXiv:1712.04802v7 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/1712.04802](http://arxiv.org/abs/1712.04802)
-
-    该论文提出了一种通用的机器学习方法，用于在随机实验中估算和推断异质性处理效应的关键特征，并将其应用于印度免疫计划的数据中，获得有效推断结果。
+    本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。
 
     
 
-    我们提出了一种策略，用于在随机实验中估算和推断异质性效应的关键特征。这些关键特征包括使用机器学习代理的效应的最佳线性预测器，按影响组排序的平均效应以及最受影响单位的平均特征和最不受影响的单位。该方法在高维设置中有效，其中效应由预测和因果机器学习方法进行代理（但不一定是一致估计的）。我们将这些代理后处理成关键特征的估计值。我们的方法是通用的，可以与有惩罚的方法，神经网络，随机森林，提升树和集成方法一起使用，既可以进行预测也可以进行因果分析。估计和推断基于重复数据分割，以避免过度拟合并实现有效性。我们使用结果的分位聚合来自许多潜在的分割，特别是取p值的中位数和置信区间的中位数和其他分位数。我们将该方法应用于印度一项大型免疫计划的数据中，估计免疫对儿童发病率和死亡率的影响。我们的结果表明，我们的方法在高维度，异质性处理设置中产生有效的推断。
+    在如今快速发展的职场中，工作满意度及其决定因素的动态已成为组织研究的重点。本研究全面探讨了女性员工心灵智力和工作满意度之间的关联，特别强调道德工作环境的调节作用。研究从探索人类需求的多维本质开始，深入探讨驱动工作满意度的心理基础。它阐述了各种有形和无形的激励因素（如薪酬福利和认可）在塑造员工态度和行为方面发挥关键作用。此外，研究聚焦于女性员工面临的独特挑战和经验，主张更加包容性的理解他们的需求。通过文献综述和实证分析，本研究得出重要结论：整合心灵智力和道德考虑对工作满意度有关键影响。
 
-    We propose strategies to estimate and make inference on key features of heterogeneous effects in randomized experiments. These key features include best linear predictors of the effects using machine learning proxies, average effects sorted by impact groups, and average characteristics of most and least impacted units. The approach is valid in high dimensional settings, where the effects are proxied (but not necessarily consistently estimated) by predictive and causal machine learning methods. We post-process these proxies into estimates of the key features. Our approach is generic, it can be used in conjunction with penalized methods, neural networks, random forests, boosted trees, and ensemble methods, both predictive and causal. Estimation and inference are based on repeated data splitting to avoid overfitting and achieve validity. We use quantile aggregation of the results across many potential splits, in particular taking medians of p-values and medians and other quantiles of conf
+    In today's rapidly evolving workplace, the dynamics of job satisfaction and its determinants have become a focal point of organizational studies. This research offers a comprehensive examination of the nexus between spiritual intelligence and job satisfaction among female employees, with particular emphasis on the moderating role of ethical work environments. Beginning with an exploration of the multifaceted nature of human needs, the study delves deep into the psychological underpinnings that drive job satisfaction. It elucidates how various tangible and intangible motivators, such as salary benefits and recognition, play pivotal roles in shaping employee attitudes and behaviors. Moreover, the research spotlights the unique challenges and experiences of female employees, advocating for a more inclusive understanding of their needs. An extensive review of the literature and empirical analysis culminates in the pivotal finding that integrating spiritual intelligence and ethical consider
+    
+[^6]: 公平的自适应实验
+
+    Fair Adaptive Experiments. (arXiv:2310.16290v1 [stat.ME])
+
+    [http://arxiv.org/abs/2310.16290](http://arxiv.org/abs/2310.16290)
+
+    提出了一种公平的自适应实验策略，该策略同时提高数据利用效率，保证不嫉妒的治疗分配，并改善参与者的整体福利。
+
+    
+
+    随机实验一直是评估治疗或政策有效性的黄金标准。传统的完全随机分配方法基于预先确定的概率分配治疗，可能导致数据利用效率低下。自适应实验通过逐步学习和更新治疗分配概率来改进完全随机化方法。然而，它们的应用也可能引发公平和公正性问题，因为分配概率可能在不同参与者群体之间差异巨大。此外，当治疗对某些参与者群体非常有益时，将许多这些参与者暴露于有利的治疗是更合适的。为了应对这些挑战，我们提出了一种公平的自适应实验策略，该策略同时提高数据利用效率，保证不嫉妒的治疗分配，并改善参与者的整体福利。我们提出的策略的一个重要特点是...
+
+    Randomized experiments have been the gold standard for assessing the effectiveness of a treatment or policy. The classical complete randomization approach assigns treatments based on a prespecified probability and may lead to inefficient use of data. Adaptive experiments improve upon complete randomization by sequentially learning and updating treatment assignment probabilities. However, their application can also raise fairness and equity concerns, as assignment probabilities may vary drastically across groups of participants. Furthermore, when treatment is expected to be extremely beneficial to certain groups of participants, it is more appropriate to expose many of these participants to favorable treatment. In response to these challenges, we propose a fair adaptive experiment strategy that simultaneously enhances data use efficiency, achieves an envy-free treatment assignment guarantee, and improves the overall welfare of participants. An important feature of our proposed strategy 
+    
+[^7]: 通过数据改善鲁棒决策
+
+    Improving Robust Decisions with Data. (arXiv:2310.16281v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.16281](http://arxiv.org/abs/2310.16281)
+
+    该论文研究了如何通过数据改善鲁棒决策，并开发了简单易实现的推理方法以保证改善。
+
+    
+
+    决策者面临由数据生成过程(DGP)控制的不确定性，这些过程可能只属于一组独立但可能非相同分布的序列。鲁棒决策在这个集合中最大化决策者对最坏情况DGP的预期收益。本文研究了如何通过数据改善这些鲁棒决策，其中改善通过真实DGP下的预期收益来衡量。本文完全描述了在所有可能的DGP下保证这种改善的时间和方式，并开发了推理方法来实现它。这些推理方法是必需的，因为本文表明，常见的推理方法（如最大似然或贝叶斯）通常无法实现这种改善。重要的是，开发的推理方法是通过对标准推理程序进行简单扩展获得的，因此在实践中很容易实现。
+
+    A decision-maker (DM) faces uncertainty governed by a data-generating process (DGP), which is only known to belong to a set of sequences of independent but possibly non-identical distributions. A robust decision maximizes the DM's expected payoff against the worst possible DGP in this set. This paper studies how such robust decisions can be improved with data, where improvement is measured by expected payoff under the true DGP. In this paper, I fully characterize when and how such an improvement can be guaranteed under all possible DGPs and develop inference methods to achieve it. These inference methods are needed because, as this paper shows, common inference methods (e.g., maximum likelihood or Bayesian) often fail to deliver such an improvement. Importantly, the developed inference methods are given by simple augmentations to standard inference procedures, and are thus easy to implement in practice.
+    
+[^8]: 关于人工智能在金融监管中的应用及对金融稳定的影响
+
+    On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.11293](http://arxiv.org/abs/2310.11293)
+
+    人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。
+
+    
+
+    人工智能（AI）正在金融监管领域迅速发展。对于微观监管（如消费者保护和常规银行监管）来说，由于数据丰富、时间周期短、目标明确和重复决策，AI将受益。然而，对于关注整个金融系统稳定的宏观监管来说，由于不经常发生且大多数是独特事件，AI学习受到挑战。在极度压力下，分布式的人类决策比集中式的AI决策更具优势，而且由于巨大的错误成本，这也引发了对于宏观监管中AI使用的质疑。尽管如此，由于成本效益、稳健性和准确性优于人类监管者，AI很可能悄然取代越来越高水平的建议和决策而被广泛使用。我们提出六个判断AI使用适合性的标准。
+
+    Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
+    
+[^9]: 实时预测大衰退和COVID-19衰退的研究
+
+    Real-time Prediction of the Great Recession and the Covid-19 Recession. (arXiv:2310.08536v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.08536](http://arxiv.org/abs/2310.08536)
+
+    本研究使用罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行了实时预测，结果表明在衰退预测领域应用罚函数逻辑回归模型能够取得更高的预测准确性。
+
+    
+
+    本研究使用一系列标准和罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行建模和预测。通过密切观察五个选择的预测因子的变动、它们的回归系数和衰退的预测概率来审视这两个衰退。实证分析探讨了众多宏观经济和金融指标对于NBER衰退指标的预测内容。使用一组统计评估指标评估了底层模型的预测能力。结果强烈支持在衰退预测领域应用罚函数逻辑回归模型。具体而言，分析表明，在美国大衰退的预测中，不同预测时间范围内混合使用不同的罚函数逻辑回归模型的效果要明显优于标准逻辑回归模型，因为它们实现了更高的预测准确性。
+
+    A series of standard and penalized logistic regression models is employed to model and forecast the Great Recession and the Covid-19 recession in the US. These two recessions are scrutinized by closely examining the movement of five chosen predictors, their regression coefficients, and the predicted probabilities of recession. The empirical analysis explores the predictive content of numerous macroeconomic and financial indicators with respect to NBER recession indicator. The predictive ability of the underlying models is evaluated using a set of statistical evaluation metrics. The results strongly support the application of penalized logistic regression models in the area of recession prediction. Specifically, the analysis indicates that a mixed usage of different penalized logistic regression models over different forecast horizons largely outperform standard logistic regression models in the prediction of Great recession in the US, as they achieve higher predictive accuracy across 5
+    
+[^10]: 带有建议的新闻经销商模型
+
+    The Newsvendor with Advice. (arXiv:2305.07993v1 [math.OC])
+
+    [http://arxiv.org/abs/2305.07993](http://arxiv.org/abs/2305.07993)
+
+    本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。
+
+    
+
+    标准的新闻经销商模型假设需求是随机的，同时对于超额或不足的成本进行成本分析。优化存货水平可以利用著名的关键分位公式来确定。虽然模型已经在许多应用程序中被利用，但在实践中，通常了解问题的更多特征和特点。利用这些特征，通常会使用机器学习来预测库存水平，而不是经典的新闻经销商方法。一系列新兴的研究已经展示了如何将机器学习预测纳入模型中，以规避下限并提高性能。本文开发了第一个整合了机器学习预测的新闻经销商模型。本文考虑了一个重复的新闻经销商设置，并具有非静止需求。每个周期都有一个预测需求，并且正如在机器学习中的情况，预测可能是有噪声的。目标是使库存管理算法利用这些预测来优化库存水平。
+
+    The standard newsvendor model assumes a stochastic demand distribution as well as costs for overages and underages. The celebrated critical fractile formula can be used to determine the optimal inventory levels. While the model has been leveraged in numerous applications, often in practice more characteristics and features of the problem are known. Using these features, it is common to employ machine learning to predict inventory levels over the classic newsvendor approach.  An emerging line of work has shown how to use incorporate machine learned predictions into models to circumvent lower bounds and give improved performance. This paper develops the first newsvendor model that incorporates machine learned predictions. The paper considers a repeated newsvendor setting with nonstationary demand. There is a prediction is for each period's demand and, as is the case in machine learning, the prediction can be noisy. The goal is for an inventory management algorithm to take advantage of th
+    
+[^11]: 在可再生能源整合政策背景下的最优输电扩建规划
+
+    Optimal transmission expansion planning in the context of renewable energy integration policies. (arXiv:2302.10562v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2302.10562](http://arxiv.org/abs/2302.10562)
+
+    本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。
+
+    
+
+    本文评估了可再生能源驱动的输电系统基础设施扩建对分散式能源市场总发电结构的影响程度。为此，我们使用了一个优化的双层模型，其中一个以最大化福利为目标的输电系统运营商在上层进行输电线路投资，并在下层考虑电力市场动态。为了考虑到自由化的能源市场结构，我们假设在下层的发电公司以完全竞争中的价格接受者身份进行容量投资。考虑到不同的输电基础设施扩展预算、碳排放税和可再生能源发电容量扩展的货币激励，我们研究了这些因素的不同组合如何影响可再生能源在发电结构中的份额。我们将提出的建模评估应用于一个具有三个节点的示例和一个考虑了简化repr的案例研究
+
+    This paper assesses the extent to which a renewables-driven expansion of the transmission system infrastructure impacts the total generation mix in the decentralised energy market. For that, we employ an optimisation bi-level model in which a welfare-maximizing transmission system operator makes investments in transmission lines at the upper level while considering power market dynamics at the lower level. To account for the deregulated energy market structure, we assume that the generation companies at the lower level make capacity investments as price-takers in perfect competition. Considering alternative transmission infrastructure expansion budgets, carbon emission taxes and monetary incentives for renewable generation capacity expansion, we study how alternative compositions of these factors affect the share of renewable generation in the generation mix. We apply the proposed modelling assessment to an illustrative three-node instance and a case study considering a simplified repr
+    
+[^12]: 用于生成回归变量的半参数模型的自举式规格检验
+
+    A Bootstrap Specification Test for Semiparametric Models with Generated Regressors. (arXiv:2212.11112v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2212.11112](http://arxiv.org/abs/2212.11112)
+
+    本文提出了一种针对半参数模型的规格检验方法，可以用于具有非参数生成回归变量的模型，并通过使用自举程序提供有效的临界值。实验证明该方法在小样本情况下表现良好，并通过女性劳动力参与决策的应用展示了其在实际数据环境中的实现。
+
+    
+
+    本文针对具有非参数生成回归变量的半参数模型提出了一种规格检验方法。这些变量由研究者无法观测到，但可以进行非参数识别和估计。该检验的应用包括通过控制函数识别内生回归变量的模型、半参数样本选择模型或具有不完全信息的二元博弈模型。该统计量建立在半参数模型的残差基础上。新颖的自举程序被证明可以提供有效的临界值。我们考虑了具有自动偏差修正的非参数估计方法，使得该检验在没有低估平滑的情况下可以实施。通过模拟实验证明，该检验在小样本情况下表现良好，而对女性劳动力参与决策的应用则展示了其在实际数据环境中的实现。
+
+    This paper provides a specification test for semiparametric models with nonparametrically generated regressors. Such variables are not observed by the researcher but are nonparametrically identified and estimable. Applications of the test include models with endogenous regressors identified by control functions, semiparametric sample selection models, or binary games with incomplete information. The statistic is built from the residuals of the semiparametric model. A novel wild bootstrap procedure is shown to provide valid critical values. We consider nonparametric estimators with an automatic bias correction that makes the test implementable without undersmoothing. In simulations the test exhibits good small sample performances, and an application to women's labor force participation decisions shows its implementation in a real data context.
+    
+[^13]: 在仪器变量上部分线性回归的无平滑方法
+
+    Partly Linear Instrumental Variables Regressions without Smoothing on the Instruments. (arXiv:2212.11012v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2212.11012](http://arxiv.org/abs/2212.11012)
+
+    该论文介绍了一种在仪器变量上部分线性回归的无平滑方法，通过将Landweber-Fridman正则化方案应用于该半参数模型的估计，实现了参数估计的渐近正态性以及非参数估计的收敛速率。
+
+    
+
+    我们考虑了一个由仪器变量确定的半参数部分线性模型。我们提出了一种估计方法，该方法不平滑仪器变量，并将Landweber-Fridman正则化方案推广到该半参数模型的估计中。然后，我们证明了参数估计的渐近正态性，并获得了非参数估计的收敛速率。我们的不平滑仪器变量的估计与典型的平滑仪器变量的估计一致，但在样本大小增加时保持相应的带宽不变。我们提出了一种数据驱动的方法来选择正则化参数，并在模拟研究中展示了我们估计器的优秀性能。
+
+    We consider a semiparametric partly linear model identified by instrumental variables. We propose an estimation method that does not smooth on the instruments and we extend the Landweber-Fridman regularization scheme to the estimation of this semiparametric model. We then show the asymptotic normality of the parametric estimator and obtain the convergence rate for the nonparametric estimator. Our estimator that does not smooth on the instruments coincides with a typical estimator that does smooth on the instruments but keeps the respective bandwidth fixed as the sample size increases. We propose a data driven method for the selection of the regularization parameter, and in a simulation study we show the attractive performance of our estimators.
+    
+[^14]: 非参数回归的完全涵盖性检验
+
+    Encompassing Tests for Nonparametric Regressions. (arXiv:2203.06685v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2203.06685](http://arxiv.org/abs/2203.06685)
+
+    通过L2距离，建立了一个形式框架来描述非参数模型的完全涵盖性，并开发出全非参数的涵盖性假设的测试程序。我们通过核回归构建了检验统计量，并研究了带宽选择的问题。我们提出了两种获得“小偏差特性”的备选方法，并展示了野蒙特卡洛法的有效性。通过实证研究，我们验证了数据驱动带宽的使用，并展示了我们的测试在小规模和中等规模样本上的吸引力特点。
+
+    
+
+    我们建立了一个形式框架，通过L2距离来表征非参数模型的完全涵盖性。我们将其与以往有关非参数回归模型比较的文献进行对比。然后，我们提出了完全非参数的涵盖性假设的检验方法。我们的检验统计量依赖于核回归，引发了带宽选择的问题。我们研究了两种获得“小偏差特性”的备选方法。我们展示了一种野蒙特卡洛法的有效性。我们通过实证研究了数据驱动的带宽的使用情况，并展示了我们的测试对于小规模和中等规模样本的吸引力特点。
+
+    We set up a formal framework to characterize encompassing of nonparametric models through the L2 distance. We contrast it to previous literature on the comparison of nonparametric regression models. We then develop testing procedures for the encompassing hypothesis that are fully nonparametric. Our test statistics depend on kernel regression, raising the issue of bandwidth's choice. We investigate two alternative approaches to obtain a "small bias property" for our test statistics. We show the validity of a wild bootstrap method. We empirically study the use of a data-driven bandwidth and illustrate the attractive features of our tests for small and moderate samples.
+    
+[^15]: 动态资源管理中生态体制最快检测方案研究
+
+    Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2005.11500](http://arxiv.org/abs/2005.11500)
+
+    本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。
+
+    
+
+    本文研究了面临生态体制转变威胁下的可再生资源的随机动态。我们建立了一个帕累托最优的不确定性下的生态体制转变检测框架，该框架最小化了经济主体意识到转变的延迟。我们将生态系统监测与最优资源提取政策的制定相结合。我们完整解决了一个以利润最大化为目标的垄断主义者，并提供了决定不利生态体制转变是否会导致积极或谨慎采取资源提取策略的条件，这取决于市场需求、资源稀缺和检测时间之间的交互作用。我们将我们的框架应用于巴西圣保罗的Cantareira水库案例，并研究导致其枯竭和随后的供水危机的事件。
+
+    We study the stochastic dynamics of renewable resources under the threat of ecological regime shifts. We establish a Pareto optimal framework of regime shift detection under uncertainty that minimizes the delay with which economic agents become aware of the shift. We integrate ecosystem surveillance in the formation of optimal resource extraction policies. We fully solve the case of a profit-maximizing monopolist and provide the conditions that determine whether an adverse regime shift can lead to an aggressive or a precautionary extraction policy, depending on the interaction between market demand, resource scarcity and detection time. We apply our framework to the case of the Cantareira water reservoir in S\~ao Paulo, Brazil, and study the events that led to its depletion and the consequent water supply crisis.
     
 

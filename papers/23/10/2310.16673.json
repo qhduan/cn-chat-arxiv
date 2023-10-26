@@ -1,0 +1,12 @@
+{
+    "title": "Exploring Large Language Models for Code Explanation. (arXiv:2310.16673v1 [cs.SE])",
+    "abstract": "Automating code documentation through explanatory text can prove highly beneficial in code understanding. Large Language Models (LLMs) have made remarkable strides in Natural Language Processing, especially within software engineering tasks such as code generation and code summarization. This study specifically delves into the task of generating natural-language summaries for code snippets, using various LLMs. The findings indicate that Code LLMs outperform their generic counterparts, and zero-shot methods yield superior results when dealing with datasets with dissimilar distributions between training and testing sets.",
+    "link": "http://arxiv.org/abs/2310.16673",
+    "context": "Title: Exploring Large Language Models for Code Explanation. (arXiv:2310.16673v1 [cs.SE])\nAbstract: Automating code documentation through explanatory text can prove highly beneficial in code understanding. Large Language Models (LLMs) have made remarkable strides in Natural Language Processing, especially within software engineering tasks such as code generation and code summarization. This study specifically delves into the task of generating natural-language summaries for code snippets, using various LLMs. The findings indicate that Code LLMs outperform their generic counterparts, and zero-shot methods yield superior results when dealing with datasets with dissimilar distributions between training and testing sets.",
+    "path": "papers/23/10/2310.16673.json",
+    "total_tokens": 674,
+    "translated_title": "探索用于代码解释的大型语言模型",
+    "translated_abstract": "自动化代码文档通过解释性文本在代码理解方面可能非常有益。大型语言模型（LLMs）在自然语言处理方面取得了显著的进展，特别是在软件工程任务中，如代码生成和代码摘要。本研究具体研究了使用各种LLMs为代码片段生成自然语言摘要的任务。研究结果表明，代码LLMs优于其通用对应模型，并且当处理具有训练集和测试集之间分布不相似的数据集时，零样本方法产生更好的结果。",
+    "tldr": "本论文研究了使用大型语言模型（LLMs）为代码片段生成自然语言摘要的任务，发现代码LLMs优于通用对应模型，在处理具有不相似分布的数据集时，零样本方法可以得到更好的结果。",
+    "en_tdlr": "This paper explores the task of generating natural language summaries for code snippets using large language models (LLMs). The findings show that code LLMs outperform generic counterparts, and zero-shot methods yield superior results when dealing with datasets with dissimilar distributions."
+}

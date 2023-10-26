@@ -1,0 +1,12 @@
+{
+    "title": "Bounding the approach to oligarchy in a variant of the yard-sale model. (arXiv:2310.16098v1 [cond-mat.stat-mech])",
+    "abstract": "We present analytical results for the Gini coefficient of economic inequality under the dynamics of a modified Yard-Sale Model of kinetic asset exchange. A variant of the Yard-Sale Model is introduced by modifying the underlying binary transaction of the classical system. It is shown that the Gini coefficient is monotone under the resulting dynamics but the approach to oligarchy, as measured by the Gini index, can be bounded by a first-order differential inequality used in conjunction with the differential Gronwall inequality. The asymptotics of the modified system, with a redistributive tax, are derived and shown to agree with the original, taxed Yard-Sale Model, which implies the modified system is as suitable for matching real wealth distributions.",
+    "link": "http://arxiv.org/abs/2310.16098",
+    "context": "Title: Bounding the approach to oligarchy in a variant of the yard-sale model. (arXiv:2310.16098v1 [cond-mat.stat-mech])\nAbstract: We present analytical results for the Gini coefficient of economic inequality under the dynamics of a modified Yard-Sale Model of kinetic asset exchange. A variant of the Yard-Sale Model is introduced by modifying the underlying binary transaction of the classical system. It is shown that the Gini coefficient is monotone under the resulting dynamics but the approach to oligarchy, as measured by the Gini index, can be bounded by a first-order differential inequality used in conjunction with the differential Gronwall inequality. The asymptotics of the modified system, with a redistributive tax, are derived and shown to agree with the original, taxed Yard-Sale Model, which implies the modified system is as suitable for matching real wealth distributions.",
+    "path": "papers/23/10/2310.16098.json",
+    "total_tokens": 737,
+    "translated_title": "对庭售模型变种中寡头政权的限制",
+    "translated_abstract": "我们展示了在改良的庭售模型动力学下经济不平等的基尼系数的分析结果。通过修改经典系统中的二进制交易，引入了庭售模型的变种。通过使用与微分格朗沃尔不等式结合的一阶微分不等式，我们证明了这种动力学下的基尼系数是单调的，但寡头政权的接近程度可以被限制住。我们推导了带有重新分配税的改良系统的渐进性质，并且表明与原始的有税庭售模型一致，这暗示了这个改良系统适用于匹配真实的财富分布。",
+    "tldr": "在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。",
+    "en_tdlr": "Under a modified dynamics of the yard-sale model, the approach to oligarchy is bounded by introducing a first-order differential inequality, and the modified system is shown to be suitable for matching real wealth distributions."
+}

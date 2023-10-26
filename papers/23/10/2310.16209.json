@@ -1,0 +1,11 @@
+{
+    "title": "ELM Ridge Regression Boosting. (arXiv:2310.16209v1 [cs.LG])",
+    "abstract": "We discuss a boosting approach for the Ridge Regression (RR) method, with applications to the Extreme Learning Machine (ELM), and we show that the proposed method significantly improves the classification performance and robustness of ELMs.",
+    "link": "http://arxiv.org/abs/2310.16209",
+    "context": "Title: ELM Ridge Regression Boosting. (arXiv:2310.16209v1 [cs.LG])\nAbstract: We discuss a boosting approach for the Ridge Regression (RR) method, with applications to the Extreme Learning Machine (ELM), and we show that the proposed method significantly improves the classification performance and robustness of ELMs.",
+    "path": "papers/23/10/2310.16209.json",
+    "total_tokens": 437,
+    "translated_title": "ELM岭回归增强",
+    "translated_abstract": "我们讨论了一种对岭回归（RR）方法进行增强的方法，该方法应用于极限学习机（ELM），并且我们展示了该方法显著提高了ELM的分类性能和鲁棒性。",
+    "tldr": "ELM岭回归增强方法显著提高了ELM的分类性能和鲁棒性。"
+}

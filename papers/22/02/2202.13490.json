@@ -1,0 +1,12 @@
+{
+    "title": "Limitations of Deep Learning for Inverse Problems on Digital Hardware. (arXiv:2202.13490v4 [cs.LG] UPDATED)",
+    "abstract": "Deep neural networks have seen tremendous success over the last years. Since the training is performed on digital hardware, in this paper, we analyze what actually can be computed on current hardware platforms modeled as Turing machines, which would lead to inherent restrictions of deep learning. For this, we focus on the class of inverse problems, which, in particular, encompasses any task to reconstruct data from measurements. We prove that finite-dimensional inverse problems are not Banach-Mazur computable for small relaxation parameters. Even more, our results introduce a lower bound on the accuracy that can be obtained algorithmically.",
+    "link": "http://arxiv.org/abs/2202.13490",
+    "context": "Title: Limitations of Deep Learning for Inverse Problems on Digital Hardware. (arXiv:2202.13490v4 [cs.LG] UPDATED)\nAbstract: Deep neural networks have seen tremendous success over the last years. Since the training is performed on digital hardware, in this paper, we analyze what actually can be computed on current hardware platforms modeled as Turing machines, which would lead to inherent restrictions of deep learning. For this, we focus on the class of inverse problems, which, in particular, encompasses any task to reconstruct data from measurements. We prove that finite-dimensional inverse problems are not Banach-Mazur computable for small relaxation parameters. Even more, our results introduce a lower bound on the accuracy that can be obtained algorithmically.",
+    "path": "papers/22/02/2202.13490.json",
+    "total_tokens": 723,
+    "translated_title": "深度学习在数字硬件上的反问题存在的限制",
+    "translated_abstract": "过去几年，深度神经网络取得了巨大的成功。由于训练是在数字硬件上进行的，本文分析了在当前模拟为图灵机的硬件平台上实际可以计算的内容，这会导致深度学习的固有限制。为此，我们重点研究了反问题类，特别是涵盖了从测量中重构数据的任何任务。我们证明，对于小的松弛参数，有限维反问题无法通过巴拿赫-马兹尔计算方法解决。更重要的是，我们的结果引入了在算法上可以获得的准确度的下界。",
+    "tldr": "本文研究了深度学习在数字硬件上解决反问题的限制，并证明了对于小的松弛参数，有限维反问题无法通过计算方法解决。这些结果还引入了算法可获得准确度的下限。",
+    "en_tdlr": "This paper investigates the limitations of deep learning for solving inverse problems on digital hardware and proves that finite-dimensional inverse problems cannot be solved algorithmically for small relaxation parameters. These results also introduce a lower bound on the achievable accuracy algorithmically."
+}

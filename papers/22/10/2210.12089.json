@@ -1,0 +1,11 @@
+{
+    "title": "A Survey on Graph Counterfactual Explanations: Definitions, Methods, Evaluation. (arXiv:2210.12089v2 [cs.LG] UPDATED)",
+    "abstract": "Graph Neural Networks (GNNs) perform well in community detection and molecule classification. Counterfactual Explanations (CE) provide counter-examples to overcome the transparency limitations of black-box models. Due to the growing attention in graph learning, we focus on the concepts of CE for GNNs. We analysed the SoA to provide a taxonomy, a uniform notation, and the benchmarking datasets and evaluation metrics. We discuss fourteen methods, their evaluation protocols, twenty-two datasets, and nineteen metrics. We integrated the majority of methods into the GRETEL library to conduct an empirical evaluation to understand their strengths and pitfalls. We highlight open challenges and future work.",
+    "link": "http://arxiv.org/abs/2210.12089",
+    "context": "Title: A Survey on Graph Counterfactual Explanations: Definitions, Methods, Evaluation. (arXiv:2210.12089v2 [cs.LG] UPDATED)\nAbstract: Graph Neural Networks (GNNs) perform well in community detection and molecule classification. Counterfactual Explanations (CE) provide counter-examples to overcome the transparency limitations of black-box models. Due to the growing attention in graph learning, we focus on the concepts of CE for GNNs. We analysed the SoA to provide a taxonomy, a uniform notation, and the benchmarking datasets and evaluation metrics. We discuss fourteen methods, their evaluation protocols, twenty-two datasets, and nineteen metrics. We integrated the majority of methods into the GRETEL library to conduct an empirical evaluation to understand their strengths and pitfalls. We highlight open challenges and future work.",
+    "path": "papers/22/10/2210.12089.json",
+    "total_tokens": 824,
+    "translated_title": "图形反事实解释的综述: 定义, 方法, 评估",
+    "translated_abstract": "图神经网络 (GNNs) 在社区检测和分子分类方面表现出色。反事实解释 (CE) 提供反例来克服黑盒模型的透明度限制。由于对图学习的关注不断增长，我们将重点关注 GNNs 的 CE 概念。我们分析了非常规的手段，提供了分类法，统一的符号表示，以及基准数据集和评估指标。我们讨论了十四种方法，它们的评估协议，二十二个数据集和十九个指标。我们整合了大多数方法到 GRETEL 库中，进行了实证评估，以了解它们的优势和缺点。我们强调了开放的挑战和未来的工作。",
+    "tldr": "这篇综述研究了图形反事实解释的概念、方法、评估及其应用于图神经网络的情况，提供了分类法、统一的符号表示、基准数据集和评估指标，并对十四种方法、二十二个数据集和十九个指标进行了讨论和整合。未来的工作主要集中在解决开放的挑战上。"
+}

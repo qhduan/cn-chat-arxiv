@@ -1,0 +1,12 @@
+{
+    "title": "19 Parameters Is All You Need: Tiny Neural Networks for Particle Physics. (arXiv:2310.16121v1 [hep-ph])",
+    "abstract": "As particle accelerators increase their collision rates, and deep learning solutions prove their viability, there is a growing need for lightweight and fast neural network architectures for low-latency tasks such as triggering. We examine the potential of one recent Lorentz- and permutation-symmetric architecture, PELICAN, and present its instances with as few as 19 trainable parameters that outperform generic architectures with tens of thousands of parameters when compared on the binary classification task of top quark jet tagging.",
+    "link": "http://arxiv.org/abs/2310.16121",
+    "context": "Title: 19 Parameters Is All You Need: Tiny Neural Networks for Particle Physics. (arXiv:2310.16121v1 [hep-ph])\nAbstract: As particle accelerators increase their collision rates, and deep learning solutions prove their viability, there is a growing need for lightweight and fast neural network architectures for low-latency tasks such as triggering. We examine the potential of one recent Lorentz- and permutation-symmetric architecture, PELICAN, and present its instances with as few as 19 trainable parameters that outperform generic architectures with tens of thousands of parameters when compared on the binary classification task of top quark jet tagging.",
+    "path": "papers/23/10/2310.16121.json",
+    "total_tokens": 628,
+    "translated_title": "只需19个参数：用于粒子物理学的微型神经网络",
+    "translated_abstract": "随着粒子加速器增加碰撞速率和深度学习解决方案的可行性得到证实，对于低延迟任务（如触发器），需要轻量且快速的神经网络架构。我们研究了最近的洛伦兹和置换对称架构PELICAN的潜力，并展示了该架构的几个实例，其中可训练参数仅为19个，在顶夸克喷注的二分类任务上，性能超过了数以万计参数的通用架构。",
+    "tldr": "只需19个参数的微型神经网络在顶夸克喷注的二分类任务上表现出优于数以万计参数的通用架构的性能。",
+    "en_tdlr": "Tiny neural networks with only 19 parameters outperform generic architectures with tens of thousands of parameters in the binary classification task of top quark jet tagging."
+}

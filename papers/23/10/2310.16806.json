@@ -1,0 +1,12 @@
+{
+    "title": "A Note on the Continuity of Expected Utility Functions. (arXiv:2310.16806v1 [econ.TH])",
+    "abstract": "In this paper, we study the continuity of expected utility functions, and derive a necessary and sufficient condition for a weak order on the space of simple probabilities to have a continuous expected utility function. We also verify that almost the same condition is necessary and sufficient for a weak order on the space of probabilities with compact-support to have a continuous expected utility function.",
+    "link": "http://arxiv.org/abs/2310.16806",
+    "context": "Title: A Note on the Continuity of Expected Utility Functions. (arXiv:2310.16806v1 [econ.TH])\nAbstract: In this paper, we study the continuity of expected utility functions, and derive a necessary and sufficient condition for a weak order on the space of simple probabilities to have a continuous expected utility function. We also verify that almost the same condition is necessary and sufficient for a weak order on the space of probabilities with compact-support to have a continuous expected utility function.",
+    "path": "papers/23/10/2310.16806.json",
+    "total_tokens": 572,
+    "translated_title": "对期望效用函数连续性的注释",
+    "translated_abstract": "本文研究了期望效用函数的连续性，并导出了一个弱次序在简单概率空间上具有连续期望效用函数的必要与充分条件。我们还验证了几乎相同的条件对于具有紧支撑的概率空间上的弱次序具有连续期望效用函数而言也是必要且充分的。",
+    "tldr": "本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。",
+    "en_tdlr": "This paper studies the continuity of expected utility functions and provides necessary and sufficient conditions for a weak order to have a continuous expected utility function on both simple probability spaces and probability spaces with compact support."
+}

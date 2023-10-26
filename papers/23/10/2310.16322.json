@@ -1,0 +1,11 @@
+{
+    "title": "Samsung R&D Institute Philippines at WMT 2023. (arXiv:2310.16322v1 [cs.CL])",
+    "abstract": "In this paper, we describe the constrained MT systems submitted by Samsung R&D Institute Philippines to the WMT 2023 General Translation Task for two directions: en$\\rightarrow$he and he$\\rightarrow$en. Our systems comprise of Transformer-based sequence-to-sequence models that are trained with a mix of best practices: comprehensive data preprocessing pipelines, synthetic backtranslated data, and the use of noisy channel reranking during online decoding. Our models perform comparably to, and sometimes outperform, strong baseline unconstrained systems such as mBART50 M2M and NLLB 200 MoE despite having significantly fewer parameters on two public benchmarks: FLORES-200 and NTREX-128.",
+    "link": "http://arxiv.org/abs/2310.16322",
+    "context": "Title: Samsung R&D Institute Philippines at WMT 2023. (arXiv:2310.16322v1 [cs.CL])\nAbstract: In this paper, we describe the constrained MT systems submitted by Samsung R&D Institute Philippines to the WMT 2023 General Translation Task for two directions: en$\\rightarrow$he and he$\\rightarrow$en. Our systems comprise of Transformer-based sequence-to-sequence models that are trained with a mix of best practices: comprehensive data preprocessing pipelines, synthetic backtranslated data, and the use of noisy channel reranking during online decoding. Our models perform comparably to, and sometimes outperform, strong baseline unconstrained systems such as mBART50 M2M and NLLB 200 MoE despite having significantly fewer parameters on two public benchmarks: FLORES-200 and NTREX-128.",
+    "path": "papers/23/10/2310.16322.json",
+    "total_tokens": 802,
+    "translated_title": "三星菲律宾研究与开发中心在WMT 2023上的研究",
+    "translated_abstract": "本文描述了三星菲律宾研究与开发中心在WMT 2023的一般翻译任务中提交的约束机器翻译系统。我们的系统是基于Transformer的序列到序列模型，经过综合的数据预处理流程、合成反向翻译数据的训练，并在在线解码过程中使用嘈杂通道重排。尽管参数较少，我们的模型在FLORES-200和NTREX-128两个公共基准数据集上表现出与强基线无约束系统（如mBART50 M2M和NLLB 200 MoE）相当甚至有时超过的性能。",
+    "tldr": "本文介绍了三星菲律宾研究与开发中心在WMT 2023中提出的约束机器翻译系统。这些系统在综合数据处理、合成数据训练和在线解码中使用嘈杂通道重排的过程中，用较少的参数表现出与强基线无约束系统相当甚至超过的性能。"
+}

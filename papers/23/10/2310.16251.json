@@ -1,0 +1,12 @@
+{
+    "title": "Speakerly: A Voice-based Writing Assistant for Text Composition. (arXiv:2310.16251v1 [cs.CL])",
+    "abstract": "We present Speakerly, a new real-time voice-based writing assistance system that helps users with text composition across various use cases such as emails, instant messages, and notes. The user can interact with the system through instructions or dictation, and the system generates a well-formatted and coherent document. We describe the system architecture and detail how we address the various challenges while building and deploying such a system at scale. More specifically, our system uses a combination of small, task-specific models as well as pre-trained language models for fast and effective text composition while supporting a variety of input modes for better usability.",
+    "link": "http://arxiv.org/abs/2310.16251",
+    "context": "Title: Speakerly: A Voice-based Writing Assistant for Text Composition. (arXiv:2310.16251v1 [cs.CL])\nAbstract: We present Speakerly, a new real-time voice-based writing assistance system that helps users with text composition across various use cases such as emails, instant messages, and notes. The user can interact with the system through instructions or dictation, and the system generates a well-formatted and coherent document. We describe the system architecture and detail how we address the various challenges while building and deploying such a system at scale. More specifically, our system uses a combination of small, task-specific models as well as pre-trained language models for fast and effective text composition while supporting a variety of input modes for better usability.",
+    "path": "papers/23/10/2310.16251.json",
+    "total_tokens": 761,
+    "translated_title": "Speakerly：一种基于语音的文本创作辅助工具",
+    "translated_abstract": "我们提出了Speakerly，一种新的实时语音文本创作辅助系统，可帮助用户在各种用例中进行文本创作，如电子邮件、即时通讯和笔记。用户可以通过指令或口述与系统进行交互，系统生成格式良好、连贯的文档。我们描述了系统架构，并详细介绍了在构建和部署如此规模的系统时如何解决各种挑战。具体而言，我们的系统使用了一组小型、任务特定的模型以及预训练的语言模型，实现快速有效的文本创作，同时支持各种输入模式以提高可用性。",
+    "tldr": "Speakerly是一种基于语音的文本创作辅助工具，用户可通过指令或口述与系统进行交互，系统生成格式良好、连贯的文档。该系统使用小型任务特定模型和预训练语言模型，实现快速有效的文本创作，并支持各种输入模式以提高可用性。",
+    "en_tdlr": "Speakerly is a voice-based writing assistant that allows users to interact with the system through instructions or dictation and generates well-formatted and coherent documents. The system uses small, task-specific models and pre-trained language models for fast and effective text composition, supporting various input modes for better usability."
+}

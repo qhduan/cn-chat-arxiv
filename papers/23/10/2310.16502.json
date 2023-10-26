@@ -1,0 +1,12 @@
+{
+    "title": "Assessing the overall and partial causal well-specification of nonlinear additive noise models. (arXiv:2310.16502v1 [stat.ME])",
+    "abstract": "We propose a method to detect model misspecifications in nonlinear causal additive and potentially heteroscedastic noise models. We aim to identify predictor variables for which we can infer the causal effect even in cases of such misspecification. We develop a general framework based on knowledge of the multivariate observational data distribution and we then propose an algorithm for finite sample data, discuss its asymptotic properties, and illustrate its performance on simulated and real data.",
+    "link": "http://arxiv.org/abs/2310.16502",
+    "context": "Title: Assessing the overall and partial causal well-specification of nonlinear additive noise models. (arXiv:2310.16502v1 [stat.ME])\nAbstract: We propose a method to detect model misspecifications in nonlinear causal additive and potentially heteroscedastic noise models. We aim to identify predictor variables for which we can infer the causal effect even in cases of such misspecification. We develop a general framework based on knowledge of the multivariate observational data distribution and we then propose an algorithm for finite sample data, discuss its asymptotic properties, and illustrate its performance on simulated and real data.",
+    "path": "papers/23/10/2310.16502.json",
+    "total_tokens": 619,
+    "translated_title": "评估非线性加性噪声模型的整体和部分因果良好规范性。",
+    "translated_abstract": "我们提出了一种方法来检测非线性因果加性噪声模型中的模型规范性问题，可能包括异方差性。我们旨在识别那些即使在这种模型规范问题存在的情况下，我们仍然可以推断出因果效应的预测变量。我们基于对多元观测数据分布的了解开发了一个通用框架，然后针对有限样本数据提出了一种算法，讨论了其渐近性质，并在模拟和真实数据上展示了其表现。",
+    "tldr": "提出了一种方法来评估非线性因果加性噪声模型的模型规范性问题，并识别出具有因果效应的预测变量。",
+    "en_tdlr": "A method is proposed to assess model misspecifications in nonlinear causal additive noise models and identify predictor variables with causal effects."
+}

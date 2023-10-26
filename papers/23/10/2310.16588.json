@@ -1,0 +1,12 @@
+{
+    "title": "Multi-parallel-task Time-delay Reservoir Computing combining a Silicon Microring with WDM. (arXiv:2310.16588v1 [cs.NE])",
+    "abstract": "We numerically demonstrate a microring-based time-delay reservoir computing scheme that simultaneously solves three tasks involving time-series prediction, classification, and wireless channel equalization. Each task performed on a wavelength-multiplexed channel achieves state-of-the-art performance with optimized power and frequency detuning.",
+    "link": "http://arxiv.org/abs/2310.16588",
+    "context": "Title: Multi-parallel-task Time-delay Reservoir Computing combining a Silicon Microring with WDM. (arXiv:2310.16588v1 [cs.NE])\nAbstract: We numerically demonstrate a microring-based time-delay reservoir computing scheme that simultaneously solves three tasks involving time-series prediction, classification, and wireless channel equalization. Each task performed on a wavelength-multiplexed channel achieves state-of-the-art performance with optimized power and frequency detuning.",
+    "path": "papers/23/10/2310.16588.json",
+    "total_tokens": 575,
+    "translated_title": "多并行任务延迟储备计算结合硅微环与WDM的方案",
+    "translated_abstract": "我们通过数值模拟展示了一种基于微环的时间延迟储备计算方案，能够同时解决涉及时间序列预测、分类和无线通道均衡的三个任务。在每个进行波长复用的通道上，通过优化功率和频率失谐，实现了最先进的性能。",
+    "tldr": "该论文展示了一种基于微环的时间延迟储备计算方案，能够同时解决时间序列预测、分类和无线通道均衡等任务，并且在每个通道上实现了最先进的性能。",
+    "en_tdlr": "This paper presents a microring-based time-delay reservoir computing scheme that can simultaneously solve tasks related to time-series prediction, classification, and wireless channel equalization. It achieves state-of-the-art performance on each wavelength-multiplexed channel through optimized power and frequency detuning."
+}
