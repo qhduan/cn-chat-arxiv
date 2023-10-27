@@ -4,14 +4,15 @@
 | --- | --- | --- |
 | [^1] | [The Newtonian Mechanics of Demand.](http://arxiv.org/abs/2310.17423) | 本文以牛顿力学为基础，将经济系统建模为传统工程系统，提出了经济力学的理论基础。通过类比机械力学的概念，我们定义了经济力、经济效益和剩余，并利用这些类比解释了各种类型的经济均衡。此类比对经济工程具有实际应用的有效性。 |
 | [^2] | [On Technical Bases and Surplus in Life Insurance.](http://arxiv.org/abs/2310.16927) | 本文重新审视了以Markov模型为代表的一般寿险合同中的剩余金，并通过维度方程的边界条件对技术基础进行分类，提出了一个带有三个技术基础的“标准”模型，并展示了每个基础对应的保费负载和剩余金。最后介绍了两个应用：期满支付的业务；和回顾性定向制度。 |
-| [^3] | [The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots.](http://arxiv.org/abs/2310.16850) | 本研究研究了俄乌冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并发现冲突加剧了农产品市场的风险，尤其是小麦市场受到的影响最大。 |
-| [^4] | [Correlation structure analysis of the global agricultural futures market.](http://arxiv.org/abs/2310.16849) | 本文采用随机矩阵理论（RMT）分析了2000年至2020年全球农产品期货市场的相关结构，发现了不对称且右偏的相关系数分布，以及特征值对RMT预测的偏离。最大特征值反映了所有农产品期货的共同市场效应，其他偏离特征值可以用于识别期货组合，且对应特征向量的显著参与者呈现基于区域属性或农产品的模块化结构。此研究对于风险管理和资产配置优化具有重要参考价值。 |
-| [^5] | [Dual-Class Stocks: Can They Serve as Effective Predictors?.](http://arxiv.org/abs/2310.16845) | 本文分析了Kardemir Karabuk钢铁工业贸易有限公司的三种不同股票之间的价格分歧模式，并引入了一种新的训练集选择规则为LSTM模型提供了显著的预测优势，同时表示双重股票并不能作为彼此表现的预测指标。 |
-| [^6] | [Linkages among the Foreign Exchange, Stock, and Bond Markets in Japan and the United States.](http://arxiv.org/abs/2310.16841) | 该研究利用因果发现方法研究了日本和美国的金融市场之间的关联，发现了前一天的美国市场对随后一天的日本股票和债券市场有影响，以及前一天的债券市场对随后一天的外汇市场和日本股票市场有影响。 |
-| [^7] | [The Market-Based Statistics of "Actual" Returns of Investors.](http://arxiv.org/abs/2304.06466) | 本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。 |
-| [^8] | [Remote Collaboration Fuses Fewer Breakthrough Ideas.](http://arxiv.org/abs/2206.01878) | 这项研究表明，尽管世界范围内的科学家和发明家之间的联系日益增长，但远程协作在促进突破性创新方面却越来越少产生积极影响。 |
-| [^9] | [A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models.](http://arxiv.org/abs/2105.08208) | 该论文引入了一种无模型的方法来评估灾害风险对市场回报的影响，并发现了在左尾部存在显著差异，这反映了灾害风险对股票溢价的影响。研究结果表明，底部5%的收益约贡献了17%的股票溢价，同时揭示了“佩索问题”。此外，研究还发现灾害风险增加了随机贴现因子的波动性。 |
-| [^10] | [Bailout Stigma.](http://arxiv.org/abs/2006.05640) | 该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。 |
+| [^3] | [Stock Market Directional Bias Prediction Using ML Algorithms.](http://arxiv.org/abs/2310.16855) | 本研究使用机器学习算法对日本股市的资产价格走势进行预测，并对逻辑回归、决策树、随机森林和深度神经网络进行了比较。结果表明，所有模型在股票市场的方向性偏差预测上都能达到50%以上的准确率。 |
+| [^4] | [The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots.](http://arxiv.org/abs/2310.16850) | 本研究研究了俄乌冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并发现冲突加剧了农产品市场的风险，尤其是小麦市场受到的影响最大。 |
+| [^5] | [Correlation structure analysis of the global agricultural futures market.](http://arxiv.org/abs/2310.16849) | 本文采用随机矩阵理论（RMT）分析了2000年至2020年全球农产品期货市场的相关结构，发现了不对称且右偏的相关系数分布，以及特征值对RMT预测的偏离。最大特征值反映了所有农产品期货的共同市场效应，其他偏离特征值可以用于识别期货组合，且对应特征向量的显著参与者呈现基于区域属性或农产品的模块化结构。此研究对于风险管理和资产配置优化具有重要参考价值。 |
+| [^6] | [Dual-Class Stocks: Can They Serve as Effective Predictors?.](http://arxiv.org/abs/2310.16845) | 本文分析了Kardemir Karabuk钢铁工业贸易有限公司的三种不同股票之间的价格分歧模式，并引入了一种新的训练集选择规则为LSTM模型提供了显著的预测优势，同时表示双重股票并不能作为彼此表现的预测指标。 |
+| [^7] | [Linkages among the Foreign Exchange, Stock, and Bond Markets in Japan and the United States.](http://arxiv.org/abs/2310.16841) | 该研究利用因果发现方法研究了日本和美国的金融市场之间的关联，发现了前一天的美国市场对随后一天的日本股票和债券市场有影响，以及前一天的债券市场对随后一天的外汇市场和日本股票市场有影响。 |
+| [^8] | [The Market-Based Statistics of "Actual" Returns of Investors.](http://arxiv.org/abs/2304.06466) | 本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。 |
+| [^9] | [Remote Collaboration Fuses Fewer Breakthrough Ideas.](http://arxiv.org/abs/2206.01878) | 这项研究表明，尽管世界范围内的科学家和发明家之间的联系日益增长，但远程协作在促进突破性创新方面却越来越少产生积极影响。 |
+| [^10] | [A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models.](http://arxiv.org/abs/2105.08208) | 该论文引入了一种无模型的方法来评估灾害风险对市场回报的影响，并发现了在左尾部存在显著差异，这反映了灾害风险对股票溢价的影响。研究结果表明，底部5%的收益约贡献了17%的股票溢价，同时揭示了“佩索问题”。此外，研究还发现灾害风险增加了随机贴现因子的波动性。 |
+| [^11] | [Bailout Stigma.](http://arxiv.org/abs/2006.05640) | 该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。 |
 
 # 详细
 
@@ -43,7 +44,21 @@
 
     We revisit surplus on general life insurance contracts, represented by Markov models. We classify technical bases in terms of boundary conditions in Thiele's equation(s), allowing more general regulations than Scandinavian-style `first-order/second-order' regimes, and replacing the traditional retrospective policy value. We propose a `canonical' model with three technical bases (premium, valuation, accumulation) and show how each pair of bases defines premium loadings and surplus. Along with a `true' or `real-world' experience basis, this expands fundamental results of Ramlau-Hansen (1988a). We conclude with two applications: lapse-supported business; and the retrospectively-oriented regime proposed by M{\o}ller & Steffensen (2007).
     
-[^3]: 俄乌冲突对农产品期货与现货之间极端风险溢出的影响
+[^3]: 使用机器学习算法预测股票市场的方向性偏差
+
+    Stock Market Directional Bias Prediction Using ML Algorithms. (arXiv:2310.16855v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2310.16855](http://arxiv.org/abs/2310.16855)
+
+    本研究使用机器学习算法对日本股市的资产价格走势进行预测，并对逻辑回归、决策树、随机森林和深度神经网络进行了比较。结果表明，所有模型在股票市场的方向性偏差预测上都能达到50%以上的准确率。
+
+    
+
+    股票市场自13世纪以来已经建立，但在当前时代，由于可用于传统和算法交易的工具和数据，相对于任何其他时期，预测股票市场变得更加可行。在机器学习的背景下，有许多不同的模型可以进行时间序列预测。这些模型可以用来预测资产的未来价格和/或方向性偏差。在本研究中，我们考察和对比了三种不同的机器学习算法，即逻辑回归、决策树和随机森林，来预测日本股市交易的资产的价格走势。此外，我们还将模型与前馈深度神经网络进行比较，发现所有模型在股票市场的方向性偏差预测上一致达到50%以上。本研究的结果提供了对预测股票市场方向性偏差的有效性的贡献。
+
+    The stock market has been established since the 13th century, but in the current epoch of time, it is substantially more practicable to anticipate the stock market than it was at any other point in time due to the tools and data that are available for both traditional and algorithmic trading. There are many different machine learning models that can do time-series forecasting in the context of machine learning. These models can be used to anticipate the future prices of assets and/or the directional bias of assets. In this study, we examine and contrast the effectiveness of three different machine learning algorithms, namely, logistic regression, decision tree, and random forest to forecast the movement of the assets traded on the Japanese stock market. In addition, the models are compared to a feed forward deep neural network, and it is found that all of the models consistently reach above 50% in directional bias forecasting for the stock market. The results of our study contribute to
+    
+[^4]: 俄乌冲突对农产品期货与现货之间极端风险溢出的影响
 
     The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots. (arXiv:2310.16850v1 [q-fin.ST])
 
@@ -57,7 +72,7 @@
 
     The ongoing Russia-Ukraine conflict between two major agricultural powers has posed significant threats and challenges to the global food system and world food security. Focusing on the impact of the conflict on the global agricultural market, we propose a new analytical framework for tail dependence, and combine the Copula-CoVaR method with the ARMA-GARCH-skewed Student-t model to examine the tail dependence structure and extreme risk spillover between agricultural futures and spots over the pre- and post-outbreak periods. Our results indicate that the tail dependence structures in the futures-spot markets of soybean, maize, wheat, and rice have all reacted to the Russia-Ukraine conflict. Furthermore, the outbreak of the conflict has intensified risks of the four agricultural markets in varying degrees, with the wheat market being affected the most. Additionally, all the agricultural futures markets exhibit significant downside and upside risk spillovers to their corresponding spot ma
     
-[^4]: 全球农产品期货市场的相关结构分析
+[^5]: 全球农产品期货市场的相关结构分析
 
     Correlation structure analysis of the global agricultural futures market. (arXiv:2310.16849v1 [q-fin.ST])
 
@@ -71,7 +86,7 @@
 
     This paper adopts the random matrix theory (RMT) to analyze the correlation structure of the global agricultural futures market from 2000 to 2020. It is found that the distribution of correlation coefficients is asymmetric and right skewed, and many eigenvalues of the correlation matrix deviate from the RMT prediction. The largest eigenvalue reflects a collective market effect common to all agricultural futures, the other largest deviating eigenvalues can be implemented to identify futures groups, and there are modular structures based on regional properties or agricultural commodities among the significant participants of their corresponding eigenvectors. Except for the smallest eigenvalue, other smallest deviating eigenvalues represent the agricultural futures pairs with highest correlations. This paper can be of reference and significance for using agricultural futures to manage risk and optimize asset allocation.
     
-[^5]: 双重股票：它们能成为有效的预测指标吗？
+[^6]: 双重股票：它们能成为有效的预测指标吗？
 
     Dual-Class Stocks: Can They Serve as Effective Predictors?. (arXiv:2310.16845v1 [q-fin.ST])
 
@@ -85,7 +100,7 @@
 
     Kardemir Karabuk Iron Steel Industry Trade & Co. Inc., ranked as the 24th largest industrial company in Turkey, offers three distinct stocks listed on the Borsa Istanbul: KRDMA, KRDMB, and KRDMD. These stocks, sharing the sole difference in voting power, have exhibited significant price divergence over an extended period. This paper conducts an in-depth analysis of the divergence patterns observed in these three stock prices from January 2001 to July 2023. Additionally, it introduces an innovative training set selection rule tailored for LSTM models, incorporating a rolling training set, and demonstrates its significant predictive superiority over the conventional use of LSTM models with large training sets. Despite their strong correlation, the study found no compelling evidence supporting the efficiency of dual-class stocks as predictors of each other's performance.
     
-[^6]: 日本和美国的外汇、股票和债券市场之间的关联
+[^7]: 日本和美国的外汇、股票和债券市场之间的关联
 
     Linkages among the Foreign Exchange, Stock, and Bond Markets in Japan and the United States. (arXiv:2310.16841v1 [q-fin.ST])
 
@@ -99,7 +114,7 @@
 
     While economic theory explains the linkages among the financial markets of different countries, empirical studies mainly verify the linkages through Granger causality, without considering latent variables or instantaneous effects. Their findings are inconsistent regarding the existence of causal linkages among financial markets, which might be attributed to differences in the focused markets, data periods, and methods applied. Our study adopts causal discovery methods including VAR-LiNGAM and LPCMCI with domain knowledge to explore the linkages among financial markets in Japan and the United States (US) for the post Covid-19 pandemic period under divergent monetary policy directions. The VAR-LiNGAM results reveal that the previous day's US market influences the following day's Japanese market for both stocks and bonds, and the bond markets of the previous day impact the following day's foreign exchange (FX) market directly and the following day's Japanese stock market indirectly. The L
     
-[^7]: 投资者“实际”收益的市场统计量：统一理论描述
+[^8]: 投资者“实际”收益的市场统计量：统一理论描述
 
     The Market-Based Statistics of "Actual" Returns of Investors. (arXiv:2304.06466v1 [econ.GN])
 
@@ -113,7 +128,7 @@
 
     The paper presents the unified theoretical description of three levels of the market-based statistical moments of "actual" returns, which Investors gain within their market sales. The market-based statistics of "actual" returns takes into account the size of the trade sale values, purchased values and volumes of stocks and that differs it from conventional regular statistics based on frequency analysis of returns time-series. We start with description of statistical moments of returns, which Investor gains via a single sale due to his multiple purchases in the past. The second level describes statistics of returns, which Investor gains performing numerous market sales during the "trading day". The third level describes statistics of returns that different Investors gain during the "trading day". We derive dependence of statistical moments of returns on statistical moments of market sale values, purchased values and volumes of stocks. In its turn, statistical moments of trade values and
     
-[^8]: 远程协作减少了突破性的创意
+[^9]: 远程协作减少了突破性的创意
 
     Remote Collaboration Fuses Fewer Breakthrough Ideas. (arXiv:2206.01878v4 [cs.CY] UPDATED)
 
@@ -127,7 +142,7 @@
 
     Theories of innovation emphasize the role of social networks and teams as facilitators of breakthrough discoveries. Around the world, scientists and inventors today are more plentiful and interconnected than ever before. But while there are more people making discoveries, and more ideas that can be reconfigured in novel ways, research suggests that new ideas are getting harder to find-contradicting recombinant growth theory. In this paper, we shed new light on this apparent puzzle. Analyzing 20 million research articles and 4 million patent applications across the globe over the past half-century, we begin by documenting the rise of remote collaboration across cities, underlining the growing interconnectedness of scientists and inventors globally. We further show that across all fields, periods, and team sizes, researchers in these remote teams are consistently less likely to make breakthrough discoveries relative to their onsite counterparts. Creating a dataset that allows us to explo
     
-[^9]: 两个尾巴的故事：一种无模型方法来估计灾害风险溢价并检验资产定价模型
+[^10]: 两个尾巴的故事：一种无模型方法来估计灾害风险溢价并检验资产定价模型
 
     A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models. (arXiv:2105.08208v6 [econ.GN] UPDATED)
 
@@ -141,7 +156,7 @@
 
     I introduce a model-free methodology to assess the impact of disaster risk on the market return. Using S&P500 returns and the risk-neutral quantile function derived from option prices, I employ quantile regression to estimate local differences between the conditional physical and risk-neutral distributions. The results indicate substantial disparities primarily in the left-tail, reflecting the influence of disaster risk on the equity premium. These differences vary over time and persist beyond crisis periods. On average, the bottom 5% of returns contribute to 17% of the equity premium, shedding light on the Peso problem. I also find that disaster risk increases the stochastic discount factor's volatility. Using a lower bound observed from option prices on the left-tail difference between the physical and risk-neutral quantile functions, I obtain similar results, reinforcing the robustness of my findings.
     
-[^10]: 债务危机污名的研究
+[^11]: 债务危机污名的研究
 
     Bailout Stigma. (arXiv:2006.05640v4 [q-fin.GN] UPDATED)
 
