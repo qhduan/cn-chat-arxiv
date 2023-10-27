@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Numerical Algorithm for Large-Scale Damped Natural Gradient Descent. (arXiv:2310.17556v1 [cs.LG])",
+    "abstract": "We propose a new algorithm for efficiently solving the damped Fisher matrix in large-scale scenarios where the number of parameters significantly exceeds the number of available samples. This problem is fundamental for natural gradient descent and stochastic reconfiguration. Our algorithm is based on Cholesky decomposition and is generally applicable. Benchmark results show that the algorithm is significantly faster than existing methods.",
+    "link": "http://arxiv.org/abs/2310.17556",
+    "context": "Title: Efficient Numerical Algorithm for Large-Scale Damped Natural Gradient Descent. (arXiv:2310.17556v1 [cs.LG])\nAbstract: We propose a new algorithm for efficiently solving the damped Fisher matrix in large-scale scenarios where the number of parameters significantly exceeds the number of available samples. This problem is fundamental for natural gradient descent and stochastic reconfiguration. Our algorithm is based on Cholesky decomposition and is generally applicable. Benchmark results show that the algorithm is significantly faster than existing methods.",
+    "path": "papers/23/10/2310.17556.json",
+    "total_tokens": 595,
+    "translated_title": "大规模阻尼自然梯度下降的高效数值算法",
+    "translated_abstract": "我们提出了一种新的算法，用于在参数数量显著超过可用样本数量的大规模场景下高效求解阻尼Fisher矩阵。这个问题对于自然梯度下降和随机重构非常重要。我们的算法基于Cholesky分解，并且具有普适性。基准结果表明，该算法明显快于现有方法。",
+    "tldr": "这个论文提出了一个针对大规模场景下阻尼自然梯度下降的高效数值算法，通过使用Cholesky分解，解决了参数数量超过样本数量的问题，相比现有方法，该算法速度更快。",
+    "en_tdlr": "This paper proposes an efficient numerical algorithm for large-scale damped natural gradient descent, which solves the problem of parameter number exceeding sample number by using Cholesky decomposition, and is significantly faster than existing methods."
+}

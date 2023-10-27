@@ -1,0 +1,11 @@
+{
+    "title": "On Technical Bases and Surplus in Life Insurance. (arXiv:2310.16927v1 [q-fin.RM])",
+    "abstract": "We revisit surplus on general life insurance contracts, represented by Markov models. We classify technical bases in terms of boundary conditions in Thiele's equation(s), allowing more general regulations than Scandinavian-style `first-order/second-order' regimes, and replacing the traditional retrospective policy value. We propose a `canonical' model with three technical bases (premium, valuation, accumulation) and show how each pair of bases defines premium loadings and surplus. Along with a `true' or `real-world' experience basis, this expands fundamental results of Ramlau-Hansen (1988a). We conclude with two applications: lapse-supported business; and the retrospectively-oriented regime proposed by M{\\o}ller & Steffensen (2007).",
+    "link": "http://arxiv.org/abs/2310.16927",
+    "context": "Title: On Technical Bases and Surplus in Life Insurance. (arXiv:2310.16927v1 [q-fin.RM])\nAbstract: We revisit surplus on general life insurance contracts, represented by Markov models. We classify technical bases in terms of boundary conditions in Thiele's equation(s), allowing more general regulations than Scandinavian-style `first-order/second-order' regimes, and replacing the traditional retrospective policy value. We propose a `canonical' model with three technical bases (premium, valuation, accumulation) and show how each pair of bases defines premium loadings and surplus. Along with a `true' or `real-world' experience basis, this expands fundamental results of Ramlau-Hansen (1988a). We conclude with two applications: lapse-supported business; and the retrospectively-oriented regime proposed by M{\\o}ller & Steffensen (2007).",
+    "path": "papers/23/10/2310.16927.json",
+    "total_tokens": 863,
+    "translated_title": "关于寿险中的技术基础和剩余金",
+    "translated_abstract": "我们重新审视以Markov模型为代表的一般寿险合同中的剩余金。我们通过维度方程的边界条件对技术基础进行分类，允许比斯堪的纳维亚风格的“一阶/二阶”制度更一般的调整，并替代传统的回顾性保单价值。我们提出了一个带有三个技术基础（保费、估值、累积）的“标准”模型，并展示了每个基础对应的保费负载和剩余金。与“真实世界”经验基础一起，这扩展了Ramlau-Hansen（1988a）的基本结果。我们最后介绍了两个应用：期满支付的业务；以及Møller＆Steffensen（2007）提出的回顾性定向制度。",
+    "tldr": "本文重新审视了以Markov模型为代表的一般寿险合同中的剩余金，并通过维度方程的边界条件对技术基础进行分类，提出了一个带有三个技术基础的“标准”模型，并展示了每个基础对应的保费负载和剩余金。最后介绍了两个应用：期满支付的业务；和回顾性定向制度。"
+}

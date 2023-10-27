@@ -2,53 +2,155 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CATE Lasso: Conditional Average Treatment Effect Estimation with High-Dimensional Linear Regression.](http://arxiv.org/abs/2310.16819) | 本研究提出了一种高维线性回归下一致估计有条件平均处理效应的方法，即使在参数非稀疏的情况下也能获得良好的理论性质。该方法假设潜在结果中的线性模型参数可分为特定于治疗方法和公共参数，并通过一个称为隐式稀疏性的较弱假设实现估计。 |
-| [^2] | [A Note on the Continuity of Expected Utility Functions.](http://arxiv.org/abs/2310.16806) | 本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。 |
-| [^3] | [Covariate Shift Adaptation Robust to Density-Ratio Estimation.](http://arxiv.org/abs/2310.16638) | 该论文研究了在协变量偏移下的密度比估计的罕见问题，提出了一种适应性方法来减轻密度比估计的偏差对模型的影响。 |
-| [^4] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
-| [^5] | [Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction.](http://arxiv.org/abs/2310.16341) | 本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。 |
-| [^6] | [Fair Adaptive Experiments.](http://arxiv.org/abs/2310.16290) | 提出了一种公平的自适应实验策略，该策略同时提高数据利用效率，保证不嫉妒的治疗分配，并改善参与者的整体福利。 |
-| [^7] | [Improving Robust Decisions with Data.](http://arxiv.org/abs/2310.16281) | 该论文研究了如何通过数据改善鲁棒决策，并开发了简单易实现的推理方法以保证改善。 |
-| [^8] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
-| [^9] | [Real-time Prediction of the Great Recession and the Covid-19 Recession.](http://arxiv.org/abs/2310.08536) | 本研究使用罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行了实时预测，结果表明在衰退预测领域应用罚函数逻辑回归模型能够取得更高的预测准确性。 |
-| [^10] | [The Newsvendor with Advice.](http://arxiv.org/abs/2305.07993) | 本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。 |
-| [^11] | [Optimal transmission expansion planning in the context of renewable energy integration policies.](http://arxiv.org/abs/2302.10562) | 本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。 |
-| [^12] | [A Bootstrap Specification Test for Semiparametric Models with Generated Regressors.](http://arxiv.org/abs/2212.11112) | 本文提出了一种针对半参数模型的规格检验方法，可以用于具有非参数生成回归变量的模型，并通过使用自举程序提供有效的临界值。实验证明该方法在小样本情况下表现良好，并通过女性劳动力参与决策的应用展示了其在实际数据环境中的实现。 |
-| [^13] | [Partly Linear Instrumental Variables Regressions without Smoothing on the Instruments.](http://arxiv.org/abs/2212.11012) | 该论文介绍了一种在仪器变量上部分线性回归的无平滑方法，通过将Landweber-Fridman正则化方案应用于该半参数模型的估计，实现了参数估计的渐近正态性以及非参数估计的收敛速率。 |
-| [^14] | [Encompassing Tests for Nonparametric Regressions.](http://arxiv.org/abs/2203.06685) | 通过L2距离，建立了一个形式框架来描述非参数模型的完全涵盖性，并开发出全非参数的涵盖性假设的测试程序。我们通过核回归构建了检验统计量，并研究了带宽选择的问题。我们提出了两种获得“小偏差特性”的备选方法，并展示了野蒙特卡洛法的有效性。通过实证研究，我们验证了数据驱动带宽的使用，并展示了我们的测试在小规模和中等规模样本上的吸引力特点。 |
-| [^15] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
+| [^1] | [Inside the black box: Neural network-based real-time prediction of US recessions.](http://arxiv.org/abs/2310.17571) | 本研究使用神经网络对美国衰退进行实时预测，发现长短期记忆（LSTM）和门控循环单元（GRU）模型在长期预测任务中表现优于其他模型，并通过SHAP方法对GRU模型进行特征重要性评估。 |
+| [^2] | [Safety, in Numbers.](http://arxiv.org/abs/2310.17517) | 我们提出了一种比较决策问题中行动的方法，即通过决策者的风险厌恶程度来确定哪个行动更安全。我们对这种关系进行了完整的刻画，并讨论了其在鲁棒信念引出、合约、贝叶斯博弈和投资对冲等领域的应用。 |
+| [^3] | [Tackling Interference Induced by Data Training Loops in A/B Tests: A Weighted Training Approach.](http://arxiv.org/abs/2310.17496) | 该论文提出了一种名为加权训练的方法，用于解决A/B测试中由数据训练循环引起的干扰。该方法通过训练模型预测每个数据点在实验组或控制组中出现的概率，并在模型训练过程中应用加权损失，从而实现了最小方差的估计结果，并且不会引起训练分布的变化。 |
+| [^4] | [Bayesian SAR model with stochastic volatility and multiple time-varying weights.](http://arxiv.org/abs/2310.17473) | 提出了一种新颖的贝叶斯SAR模型，该模型不仅考虑了多层网络和时变关系，还能够分析时变溢出效应和国际关系动态对股市的影响。 |
+| [^5] | [The Newtonian Mechanics of Demand.](http://arxiv.org/abs/2310.17423) | 本文以牛顿力学为基础，将经济系统建模为传统工程系统，提出了经济力学的理论基础。通过类比机械力学的概念，我们定义了经济力、经济效益和剩余，并利用这些类比解释了各种类型的经济均衡。此类比对经济工程具有实际应用的有效性。 |
+| [^6] | [The Power of Simple Menus in Robust Selling Mechanisms.](http://arxiv.org/abs/2310.17392) | 本研究致力于寻找简单的销售机制，以有效对冲市场模糊性。我们发现，只有有限数量的价格随机化的销售机制已经能够获得无限选项的最优稳健机制所实现的显著效益。 |
+| [^7] | [Dynamic Factor Models: a Genealogy.](http://arxiv.org/abs/2310.17278) | 动态因子模型是用于分析和预测高维度时间序列的一种方法，经济学家通过采用因子模型的渐近方法，在两个世纪内发展出了一套广泛而成功的技术体系，被广泛应用于金融机构、经济和统计研究机构。 |
+| [^8] | [The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots.](http://arxiv.org/abs/2310.16850) | 本研究研究了俄乌冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并发现冲突加剧了农产品市场的风险，尤其是小麦市场受到的影响最大。 |
+| [^9] | [Correlation structure analysis of the global agricultural futures market.](http://arxiv.org/abs/2310.16849) | 本文采用随机矩阵理论（RMT）分析了2000年至2020年全球农产品期货市场的相关结构，发现了不对称且右偏的相关系数分布，以及特征值对RMT预测的偏离。最大特征值反映了所有农产品期货的共同市场效应，其他偏离特征值可以用于识别期货组合，且对应特征向量的显著参与者呈现基于区域属性或农产品的模块化结构。此研究对于风险管理和资产配置优化具有重要参考价值。 |
+| [^10] | [Covariate Shift Adaptation Robust to Density-Ratio Estimation.](http://arxiv.org/abs/2310.16638) | 该论文研究了在协变量偏移下的密度比估计的罕见问题，提出了一种适应性方法来减轻密度比估计的偏差对模型的影响。 |
+| [^11] | [Unobserved Grouped Heteroskedasticity and Fixed Effects.](http://arxiv.org/abs/2310.14068) | 本文扩展了线性分组固定效应（GFE）面板模型，允许考虑离散潜在组别变量引起的异方差。作者引入了“加权分组固定效应”（WGFE）估计器，通过最小化组别平方残差的加权平均值来估计。作者建立了一致性和正态性理论，并提供了快速计算过程。模拟结果表明，WGFE方法优于排除二阶矩信息的替代方法。作者通过研究收入与民主之间的联系以及工会化对收入的影响来验证了这种方法的有效性。 |
+| [^12] | [Real-time Prediction of the Great Recession and the Covid-19 Recession.](http://arxiv.org/abs/2310.08536) | 本研究使用罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行了实时预测，结果表明在衰退预测领域应用罚函数逻辑回归模型能够取得更高的预测准确性。 |
+| [^13] | [Optimal Shrinkage Estimation of Fixed Effects in Linear Panel Data Models.](http://arxiv.org/abs/2308.12485) | 本文提出了一种在线性面板数据模型中估计固定效应的最优缩小估计方法，该方法不需要分布假设，并能够充分地利用序列相关性和时间变化。同时，还提供了一种预测未来固定效应的方法。 |
+| [^14] | [The Market-Based Statistics of "Actual" Returns of Investors.](http://arxiv.org/abs/2304.06466) | 本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。 |
+| [^15] | [Remote Collaboration Fuses Fewer Breakthrough Ideas.](http://arxiv.org/abs/2206.01878) | 这项研究表明，尽管世界范围内的科学家和发明家之间的联系日益增长，但远程协作在促进突破性创新方面却越来越少产生积极影响。 |
+| [^16] | [2SLS with Multiple Treatments.](http://arxiv.org/abs/2205.07836) | 本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。 |
+| [^17] | [A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models.](http://arxiv.org/abs/2105.08208) | 该论文引入了一种无模型的方法来评估灾害风险对市场回报的影响，并发现了在左尾部存在显著差异，这反映了灾害风险对股票溢价的影响。研究结果表明，底部5%的收益约贡献了17%的股票溢价，同时揭示了“佩索问题”。此外，研究还发现灾害风险增加了随机贴现因子的波动性。 |
+| [^18] | [Cutoff stability under distributional constraints with an application to summer internship matching.](http://arxiv.org/abs/2102.02931) | 这个论文介绍了一个新的稳定匹配问题，对澳大利亚一所大学的暑期实习匹配进行建模。作者提出了三个解决概念：强稳定性、弱稳定性和截断稳定性。他们证明了在最受限制的模型中可能不存在强稳定匹配，但存在截断稳定匹配。他们提出了一个多项式时间算法来计算截断稳定匹配。但是寻找最大规模截断稳定匹配是NP困难的。 |
+| [^19] | [Bailout Stigma.](http://arxiv.org/abs/2006.05640) | 该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。 |
 
 # 详细
 
-[^1]: CATE Lasso: 高维线性回归下的有条件平均处理效应估计
+[^1]: 黑匣子内部：基于神经网络的实时预测美国衰退的研究
 
-    CATE Lasso: Conditional Average Treatment Effect Estimation with High-Dimensional Linear Regression. (arXiv:2310.16819v1 [econ.EM])
+    Inside the black box: Neural network-based real-time prediction of US recessions. (arXiv:2310.17571v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.16819](http://arxiv.org/abs/2310.16819)
+    [http://arxiv.org/abs/2310.17571](http://arxiv.org/abs/2310.17571)
 
-    本研究提出了一种高维线性回归下一致估计有条件平均处理效应的方法，即使在参数非稀疏的情况下也能获得良好的理论性质。该方法假设潜在结果中的线性模型参数可分为特定于治疗方法和公共参数，并通过一个称为隐式稀疏性的较弱假设实现估计。
-
-    
-
-    在有关两种治疗方法的因果推断中，有条件的平均处理效应（CATE）作为表示个性化因果效应的重要指标起着重要作用，它被定义为在协变量条件下两种治疗方法的预期结果之间的差异。本研究假设两个线性回归模型，用于描述潜在结果与两种治疗方法的协变量之间的关系，并将CATE定义为两个线性回归模型之间的差异。然后，我们提出了一种方法，可以在高维度和非稀疏参数的情况下一致地估计CATE。在我们的研究中，我们证明了即使不显式假设稀疏性，仍然可以获得如一致性等理论性质，只要我们假设CATE的定义源自一个称为隐式稀疏性的较弱假设。在这个假设中，我们假设潜在结果中线性模型的参数可以分为特定于治疗方法和公共参数，其中特定于治疗方法的参数可被实现的估计。
-
-    In causal inference about two treatments, Conditional Average Treatment Effects (CATEs) play an important role as a quantity representing an individualized causal effect, defined as a difference between the expected outcomes of the two treatments conditioned on covariates. This study assumes two linear regression models between a potential outcome and covariates of the two treatments and defines CATEs as a difference between the linear regression models. Then, we propose a method for consistently estimating CATEs even under high-dimensional and non-sparse parameters. In our study, we demonstrate that desirable theoretical properties, such as consistency, remain attainable even without assuming sparsity explicitly if we assume a weaker assumption called implicit sparsity originating from the definition of CATEs. In this assumption, we suppose that parameters of linear models in potential outcomes can be divided into treatment-specific and common parameters, where the treatment-specific 
-    
-[^2]: 对期望效用函数连续性的注释
-
-    A Note on the Continuity of Expected Utility Functions. (arXiv:2310.16806v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.16806](http://arxiv.org/abs/2310.16806)
-
-    本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。
+    本研究使用神经网络对美国衰退进行实时预测，发现长短期记忆（LSTM）和门控循环单元（GRU）模型在长期预测任务中表现优于其他模型，并通过SHAP方法对GRU模型进行特征重要性评估。
 
     
 
-    本文研究了期望效用函数的连续性，并导出了一个弱次序在简单概率空间上具有连续期望效用函数的必要与充分条件。我们还验证了几乎相同的条件对于具有紧支撑的概率空间上的弱次序具有连续期望效用函数而言也是必要且充分的。
+    本研究使用前馈神经网络（FFN）和两种特定类型的循环神经网络，即长短期记忆（LSTM）和门控循环单元（GRU），对1967年至2021年的美国衰退进行建模。然后利用估计的模型对美国的大衰退和Covid-19衰退进行实时预测，将其预测性能与传统线性模型、逻辑回归模型（有和无岭回归惩罚）进行比较。外样本表现表明，LSTM和GRU在衰退预测领域具有应用潜力，特别适用于长期预测任务。相对于不同类型的统计性能指标，在5个预测周期内，它们优于其他类型的模型。而用Shapley增量解释（SHAP）方法评估衡量GRU在不同预测周期内的重要特征，以深入了解特征重要性。
 
-    In this paper, we study the continuity of expected utility functions, and derive a necessary and sufficient condition for a weak order on the space of simple probabilities to have a continuous expected utility function. We also verify that almost the same condition is necessary and sufficient for a weak order on the space of probabilities with compact-support to have a continuous expected utility function.
+    Feedforward neural network (FFN) and two specific types of recurrent neural network, long short-term memory (LSTM) and gated recurrent unit (GRU), are used for modeling US recessions in the period from 1967 to 2021. The estimated models are then employed to conduct real-time predictions of the Great Recession and the Covid-19 recession in US. Their predictive performances are compared to those of the traditional linear models, the logistic regression model both with and without the ridge penalty. The out-of-sample performance suggests the application of LSTM and GRU in the area of recession forecasting, especially for the long-term forecasting tasks. They outperform other types of models across 5 forecasting horizons with respect to different types of statistical performance metrics. Shapley additive explanations (SHAP) method is applied to the fitted GRUs across different forecasting horizons to gain insight into the feature importance. The evaluation of predictor importance differs b
     
-[^3]: 适应密度比估计的协变量偏移适应
+[^2]: 数量中的安全性。
+
+    Safety, in Numbers. (arXiv:2310.17517v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.17517](http://arxiv.org/abs/2310.17517)
+
+    我们提出了一种比较决策问题中行动的方法，即通过决策者的风险厌恶程度来确定哪个行动更安全。我们对这种关系进行了完整的刻画，并讨论了其在鲁棒信念引出、合约、贝叶斯博弈和投资对冲等领域的应用。
+
+    
+
+    我们引入了一种比较决策问题中行动的方法。如果在决策者变得更加风险厌恶的情况下，决策者更喜欢更安全的行动的信念集增大（以集合包含关系为定义），那么这个行动就比另一个行动更安全。我们对这种关系进行了完整的刻画，并讨论了在鲁棒信念引出、合约、贝叶斯博弈、投资对冲等方面的应用。
+
+    We introduce a way to compare actions in decision problems. An action is safer than another if the set of beliefs at which the decision-maker prefers the safer action increases in size (in the set inclusion sense) as the decision-maker becomes more risk averse. We provide a full characterization of this relation and discuss applications to robust belief elicitation, contracting, Bayesian persuasion, game theory, and investment hedging.
+    
+[^3]: 解决A/B测试中数据训练循环引起的干扰：一种加权训练方法
+
+    Tackling Interference Induced by Data Training Loops in A/B Tests: A Weighted Training Approach. (arXiv:2310.17496v1 [stat.ME])
+
+    [http://arxiv.org/abs/2310.17496](http://arxiv.org/abs/2310.17496)
+
+    该论文提出了一种名为加权训练的方法，用于解决A/B测试中由数据训练循环引起的干扰。该方法通过训练模型预测每个数据点在实验组或控制组中出现的概率，并在模型训练过程中应用加权损失，从而实现了最小方差的估计结果，并且不会引起训练分布的变化。
+
+    
+
+    在现代推荐系统中，标准流程涉及使用历史数据训练机器学习模型来预测用户行为并持续改进推荐。然而，这些数据训练循环可能在A/B测试中引入干扰，其中控制组和实验组算法生成的数据，可能具有不同的分布，被合并在一起。为了解决这些挑战，我们提出了一种新颖的方法，称为加权训练。该方法包括训练一个模型来预测每个数据点出现在实验组或控制组数据中的概率，并在模型训练过程中应用加权损失。我们通过模拟研究证明了这种方法在所有估计量中具有最小的方差，且不会导致训练分布发生变化。我们通过模拟研究证明了与其他方法相比，我们的方法具有较低的偏差和方差。
+
+    In modern recommendation systems, the standard pipeline involves training machine learning models on historical data to predict user behaviors and improve recommendations continuously. However, these data training loops can introduce interference in A/B tests, where data generated by control and treatment algorithms, potentially with different distributions, are combined. To address these challenges, we introduce a novel approach called weighted training. This approach entails training a model to predict the probability of each data point appearing in either the treatment or control data and subsequently applying weighted losses during model training. We demonstrate that this approach achieves the least variance among all estimators without causing shifts in the training distributions. Through simulation studies, we demonstrate the lower bias and variance of our approach compared to other methods.
+    
+[^4]: 具有随机波动率和多个时变权重的贝叶斯SAR模型
+
+    Bayesian SAR model with stochastic volatility and multiple time-varying weights. (arXiv:2310.17473v1 [stat.AP])
+
+    [http://arxiv.org/abs/2310.17473](http://arxiv.org/abs/2310.17473)
+
+    提出了一种新颖的贝叶斯SAR模型，该模型不仅考虑了多层网络和时变关系，还能够分析时变溢出效应和国际关系动态对股市的影响。
+
+    
+
+    介绍了一种新颖的面板数据空间自相关模型，该模型结合了多层网络并考虑了时变关系。此外，所提出的方法允许结构方差随时间平滑变化，并能够分析以时变溢出效应为特征的冲击传播。该框架应用于分析G7经济体之间的国际关系动态及其对股市收益和波动性的影响。研究结果强调了合作互动的重要影响，并突出了G7各国网络暴露的差异以及直接和间接溢出效应的微妙模式。
+
+    A novel spatial autoregressive model for panel data is introduced, which incorporates multilayer networks and accounts for time-varying relationships. Moreover, the proposed approach allows the structural variance to evolve smoothly over time and enables the analysis of shock propagation in terms of time-varying spillover effects. The framework is applied to analyse the dynamics of international relationships among the G7 economies and their impact on stock market returns and volatilities. The findings underscore the substantial impact of cooperative interactions and highlight discernible disparities in network exposure across G7 nations, along with nuanced patterns in direct and indirect spillover effects.
+    
+[^5]: 需求的牛顿力学
+
+    The Newtonian Mechanics of Demand. (arXiv:2310.17423v1 [eess.SY])
+
+    [http://arxiv.org/abs/2310.17423](http://arxiv.org/abs/2310.17423)
+
+    本文以牛顿力学为基础，将经济系统建模为传统工程系统，提出了经济力学的理论基础。通过类比机械力学的概念，我们定义了经济力、经济效益和剩余，并利用这些类比解释了各种类型的经济均衡。此类比对经济工程具有实际应用的有效性。
+
+    
+
+    经济工程是一个新的领域，其中经济系统被建模为传统机械和电气工程系统一样。在本文中，我们以牛顿的运动理论为基础，建立了经济工程的理论基础。我们按照牛顿在《自然哲学的数学原理》中的原始发展，确定了经济力学中对应于他的三个运动定律的经济模型。关键的结果是通过价格调整来对经济力（需求或欲望）进行操作性定义。借此，我们模拟了稀缺和贸易摩擦的价格效应，类比了弹簧和阻尼力的模型。同时，我们将经济效益和剩余定义为机械功和能量的类比。然后，我们利用这些类比从机械的角度解释了经济学家研究的各种类型的经济均衡。通过应用示例，展示了类比的有效性。
+
+    Economic engineering is a new field wherein economic systems are modelled in the same manner as traditional mechanical and electrical engineering systems. In this paper, we use Newton's theory of motion as the basis for the theory of demand; thereby establishing a theoretical foundation for economic engineering. We follow Newton's original development, as set forth in the Principia, to determine economic analogs to his three laws of motion. The pivotal result is an operational definition for an economic force, i.e. a want or a desire, in terms of a price adjustment. With this, we model the price effects of scarcity and trade friction in analogy with the models for the spring and damping force. In turn, we define economic benefits and surplus as analogous to the definitions of mechanical work and energy. These are then used to interpret the various types of economic equilibrium considered by economists from a mechanical perspective. The effectiveness of the analogy is illustrated by app
+    
+[^6]: 简单菜单在稳健销售机制中的力量
+
+    The Power of Simple Menus in Robust Selling Mechanisms. (arXiv:2310.17392v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.17392](http://arxiv.org/abs/2310.17392)
+
+    本研究致力于寻找简单的销售机制，以有效对冲市场模糊性。我们发现，只有有限数量的价格随机化的销售机制已经能够获得无限选项的最优稳健机制所实现的显著效益。
+
+    
+
+    我们研究了一个稳健销售问题，其中卖方试图将一个物品卖给一个买方，但对买方的估值分布存在不确定性。现有文献表明，稳健机制设计比稳健确定性定价提供了更强的理论保证。同时，稳健机制设计的卓越性能以卖方提供具有无限选项的菜单，每个选项与抽奖和买方选择的付款方式相配。鉴于此，我们的研究的主要重点是寻找可以有效对冲市场模糊性的简单销售机制。我们表明，一个具有小菜单大小（或有限数量的价格随机化）的销售机制已经能够获得无限选项的最优稳健机制所实现的显著效益。特别是，我们发展了一个通用框架来研究稳健销售机制问题。
+
+    We study a robust selling problem where a seller attempts to sell one item to a buyer but is uncertain about the buyer's valuation distribution. Existing literature indicates that robust mechanism design provides a stronger theoretical guarantee than robust deterministic pricing. Meanwhile, the superior performance of robust mechanism design comes at the expense of implementation complexity given that the seller offers a menu with an infinite number of options, each coupled with a lottery and a payment for the buyer's selection. In view of this, the primary focus of our research is to find simple selling mechanisms that can effectively hedge against market ambiguity. We show that a selling mechanism with a small menu size (or limited randomization across a finite number of prices) is already capable of deriving significant benefits achieved by the optimal robust mechanism with infinite options. In particular, we develop a general framework to study the robust selling mechanism problem 
+    
+[^7]: 动态因子模型：一个家谱
+
+    Dynamic Factor Models: a Genealogy. (arXiv:2310.17278v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.17278](http://arxiv.org/abs/2310.17278)
+
+    动态因子模型是用于分析和预测高维度时间序列的一种方法，经济学家通过采用因子模型的渐近方法，在两个世纪内发展出了一套广泛而成功的技术体系，被广泛应用于金融机构、经济和统计研究机构。
+
+    
+
+    动态因子模型的发展源于对越来越高维度时间序列的分析和预测的需求。在面对高维观测空间的推断问题时，数理统计学家关注的是所谓的尖峰模型渐近性，而计量经济学家则采用了一种完全、相对更有效的渐近方法，该方法源自于最初在心理测量学中考虑的因子模型。所谓的动态因子模型方法在二十年的时间里已经发展成为一个广泛且成功的技术体系，被广泛应用于央行、金融机构、经济和统计研究机构。本章的目标不是对该主题进行详尽的调查，而是对其历史发展进行概述，重点关注各种假设和解释，并提供一个其主要变体的家谱。
+
+    Dynamic factor models have been developed out of the need of analyzing and forecasting time series in increasingly high dimensions. While mathematical statisticians faced with inference problems in high-dimensional observation spaces were focusing on the so-called spiked-model-asymptotics, econometricians adopted an entirely and considerably more effective asymptotic approach, rooted in the factor models originally considered in psychometrics. The so-called dynamic factor model methods, in two decades, has grown into a wide and successful body of techniques that are widely used in central banks, financial institutions, economic and statistical institutes. The objective of this chapter is not an extensive survey of the topic but a sketch of its historical growth, with emphasis on the various assumptions and interpretations, and a family tree of its main variants.
+    
+[^8]: 俄乌冲突对农产品期货与现货之间极端风险溢出的影响
+
+    The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots. (arXiv:2310.16850v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2310.16850](http://arxiv.org/abs/2310.16850)
+
+    本研究研究了俄乌冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并发现冲突加剧了农产品市场的风险，尤其是小麦市场受到的影响最大。
+
+    
+
+    俄乌冲突对全球粮食系统和世界粮食安全造成了重大威胁和挑战。本研究侧重于冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并将Copula-CoVaR方法与ARMA-GARCH偏斜学生t模型相结合，以研究冲突前后农产品期货与现货之间的尾部相关结构和极端风险溢出。研究结果表明，大豆、玉米、小麦和稻谷的期货-现货市场的尾部相关结构都对俄乌冲突作出了反应。此外，冲突的爆发加剧了这四个农产品市场的风险，尤其是小麦市场受到的影响最大。此外，所有农产品期货市场都显示出与其相应现货的显著的下行和上行风险溢出。
+
+    The ongoing Russia-Ukraine conflict between two major agricultural powers has posed significant threats and challenges to the global food system and world food security. Focusing on the impact of the conflict on the global agricultural market, we propose a new analytical framework for tail dependence, and combine the Copula-CoVaR method with the ARMA-GARCH-skewed Student-t model to examine the tail dependence structure and extreme risk spillover between agricultural futures and spots over the pre- and post-outbreak periods. Our results indicate that the tail dependence structures in the futures-spot markets of soybean, maize, wheat, and rice have all reacted to the Russia-Ukraine conflict. Furthermore, the outbreak of the conflict has intensified risks of the four agricultural markets in varying degrees, with the wheat market being affected the most. Additionally, all the agricultural futures markets exhibit significant downside and upside risk spillovers to their corresponding spot ma
+    
+[^9]: 全球农产品期货市场的相关结构分析
+
+    Correlation structure analysis of the global agricultural futures market. (arXiv:2310.16849v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2310.16849](http://arxiv.org/abs/2310.16849)
+
+    本文采用随机矩阵理论（RMT）分析了2000年至2020年全球农产品期货市场的相关结构，发现了不对称且右偏的相关系数分布，以及特征值对RMT预测的偏离。最大特征值反映了所有农产品期货的共同市场效应，其他偏离特征值可以用于识别期货组合，且对应特征向量的显著参与者呈现基于区域属性或农产品的模块化结构。此研究对于风险管理和资产配置优化具有重要参考价值。
+
+    
+
+    本文采用随机矩阵理论（RMT）对2000年至2020年间全球农产品期货市场的相关结构进行分析。发现相关系数的分布是不对称的且右偏，许多相关矩阵的特征值偏离了RMT的预测。最大的特征值反映了所有农产品期货的共同市场效应，其他最大的偏离特征值可以用于识别期货组合，而对应特征向量的显著参与者存在基于区域属性或农产品的模块化结构。除了最小的特征值外，其他最小的偏离特征值代表了相关性最高的农产品期货对。本文对于利用农产品期货管理风险和优化资产配置具有参考和重要意义。
+
+    This paper adopts the random matrix theory (RMT) to analyze the correlation structure of the global agricultural futures market from 2000 to 2020. It is found that the distribution of correlation coefficients is asymmetric and right skewed, and many eigenvalues of the correlation matrix deviate from the RMT prediction. The largest eigenvalue reflects a collective market effect common to all agricultural futures, the other largest deviating eigenvalues can be implemented to identify futures groups, and there are modular structures based on regional properties or agricultural commodities among the significant participants of their corresponding eigenvectors. Except for the smallest eigenvalue, other smallest deviating eigenvalues represent the agricultural futures pairs with highest correlations. This paper can be of reference and significance for using agricultural futures to manage risk and optimize asset allocation.
+    
+[^10]: 适应密度比估计的协变量偏移适应
 
     Covariate Shift Adaptation Robust to Density-Ratio Estimation. (arXiv:2310.16638v1 [stat.ME])
 
@@ -62,77 +164,21 @@
 
     Consider a scenario where we have access to train data with both covariates and outcomes while test data only contains covariates. In this scenario, our primary aim is to predict the missing outcomes of the test data. With this objective in mind, we train parametric regression models under a covariate shift, where covariate distributions are different between the train and test data. For this problem, existing studies have proposed covariate shift adaptation via importance weighting using the density ratio. This approach averages the train data losses, each weighted by an estimated ratio of the covariate densities between the train and test data, to approximate the test-data risk. Although it allows us to obtain a test-data risk minimizer, its performance heavily relies on the accuracy of the density ratio estimation. Moreover, even if the density ratio can be consistently estimated, the estimation errors of the density ratio also yield bias in the estimators of the regression model's 
     
-[^4]: 通过贫困视角分析气候相关的农业生产力损失
+[^11]: 未观察到的分组异方差与固定效应
 
-    Climate-related Agricultural Productivity Losses through a Poverty Lens. (arXiv:2310.16490v1 [econ.GN])
+    Unobserved Grouped Heteroskedasticity and Fixed Effects. (arXiv:2310.14068v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.16490](http://arxiv.org/abs/2310.16490)
+    [http://arxiv.org/abs/2310.14068](http://arxiv.org/abs/2310.14068)
 
-    通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。
-
-    
-
-    本文通过食品价格上涨分析气候变化对长期分配的影响。我们使用一个标准的不完全市场模型，并考虑食品消费的非线性Engel曲线。为了校准我们的模型，我们依赖于代表45亿人口的92个发展中国家的家庭数据。结果表明，气候变化的短期和长期分配影响是不同的。包括一般均衡效应会改变尤其是最贫困五分之一的福利结果。在特异风险存在的情况下，更高的食品价格会增加预防性储蓄，通过一般均衡影响所有代理人的劳动收入。此外，本文还研究了在不同部门生产力损失分配的情况下的不平等影响。当气候影响影响经济的两个部门的全要素生产率时，气候影响也会增加财富不平等。
-
-    In this paper, we analyze the long-term distributive impact of climate change through rising food prices. We use a standard incomplete markets model and account for non-linear Engel curves for food consumption. For the calibration of our model, we rely on household data from 92 developing countries, representing 4.5 billion people. The results indicate that the short-term and long-term distributive impact of climate change differs. Including general equilibrium effects change the welfare outcome especially for the poorest quintile. In the presence of idiosyncratic risk, higher food prices increase precautionary savings, which through general equilibrium affect labor income of all agents. Furthermore, this paper studies the impact on inequality for different allocations of productivity losses across sectors. When climate impacts affects total factor productivity in both sectors of the economy, climate impacts increase also wealth inequality.
-    
-[^5]: 提升职场女性地位：心灵智力和道德环境对工作满意度的双重影响
-
-    Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction. (arXiv:2310.16341v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.16341](http://arxiv.org/abs/2310.16341)
-
-    本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。
+    本文扩展了线性分组固定效应（GFE）面板模型，允许考虑离散潜在组别变量引起的异方差。作者引入了“加权分组固定效应”（WGFE）估计器，通过最小化组别平方残差的加权平均值来估计。作者建立了一致性和正态性理论，并提供了快速计算过程。模拟结果表明，WGFE方法优于排除二阶矩信息的替代方法。作者通过研究收入与民主之间的联系以及工会化对收入的影响来验证了这种方法的有效性。
 
     
 
-    在如今快速发展的职场中，工作满意度及其决定因素的动态已成为组织研究的重点。本研究全面探讨了女性员工心灵智力和工作满意度之间的关联，特别强调道德工作环境的调节作用。研究从探索人类需求的多维本质开始，深入探讨驱动工作满意度的心理基础。它阐述了各种有形和无形的激励因素（如薪酬福利和认可）在塑造员工态度和行为方面发挥关键作用。此外，研究聚焦于女性员工面临的独特挑战和经验，主张更加包容性的理解他们的需求。通过文献综述和实证分析，本研究得出重要结论：整合心灵智力和道德考虑对工作满意度有关键影响。
+    本文将线性分组固定效应（GFE）面板模型扩展为允许来自离散潜在组别变量的异方差。GFE的关键特征得以保留，如个体属于有限数量的组别之一，组别成员资格是不受限制的并且可以估计。忽略组别异方差可能导致分类不准确，这对有限样本偏误和估计量的标准误差是有害的。我介绍了“加权分组固定效应”（WGFE）估计器，它最小化了组别平方残差的加权平均值。我在基于二阶矩的组别分离概念下建立了$\sqrt{NT}$-一致性和正态性。讨论了组别同方差的检验。提供了一种快速的计算过程。模拟结果表明，WGFE优于排除二阶矩信息的替代方法。我通过考虑收入与民主之间的联系以及工会化对收入的影响来展示这种方法。
 
-    In today's rapidly evolving workplace, the dynamics of job satisfaction and its determinants have become a focal point of organizational studies. This research offers a comprehensive examination of the nexus between spiritual intelligence and job satisfaction among female employees, with particular emphasis on the moderating role of ethical work environments. Beginning with an exploration of the multifaceted nature of human needs, the study delves deep into the psychological underpinnings that drive job satisfaction. It elucidates how various tangible and intangible motivators, such as salary benefits and recognition, play pivotal roles in shaping employee attitudes and behaviors. Moreover, the research spotlights the unique challenges and experiences of female employees, advocating for a more inclusive understanding of their needs. An extensive review of the literature and empirical analysis culminates in the pivotal finding that integrating spiritual intelligence and ethical consider
+    This paper extends the linear grouped fixed effects (GFE) panel model to allow for heteroskedasticity from a discrete latent group variable. Key features of GFE are preserved, such as individuals belonging to one of a finite number of groups and group membership is unrestricted and estimated. Ignoring group heteroskedasticity may lead to poor classification, which is detrimental to finite sample bias and standard errors of estimators. I introduce the "weighted grouped fixed effects" (WGFE) estimator that minimizes a weighted average of group sum of squared residuals. I establish $\sqrt{NT}$-consistency and normality under a concept of group separation based on second moments. A test of group homoskedasticity is discussed. A fast computation procedure is provided. Simulations show that WGFE outperforms alternatives that exclude second moment information. I demonstrate this approach by considering the link between income and democracy and the effect of unionization on earnings.
     
-[^6]: 公平的自适应实验
-
-    Fair Adaptive Experiments. (arXiv:2310.16290v1 [stat.ME])
-
-    [http://arxiv.org/abs/2310.16290](http://arxiv.org/abs/2310.16290)
-
-    提出了一种公平的自适应实验策略，该策略同时提高数据利用效率，保证不嫉妒的治疗分配，并改善参与者的整体福利。
-
-    
-
-    随机实验一直是评估治疗或政策有效性的黄金标准。传统的完全随机分配方法基于预先确定的概率分配治疗，可能导致数据利用效率低下。自适应实验通过逐步学习和更新治疗分配概率来改进完全随机化方法。然而，它们的应用也可能引发公平和公正性问题，因为分配概率可能在不同参与者群体之间差异巨大。此外，当治疗对某些参与者群体非常有益时，将许多这些参与者暴露于有利的治疗是更合适的。为了应对这些挑战，我们提出了一种公平的自适应实验策略，该策略同时提高数据利用效率，保证不嫉妒的治疗分配，并改善参与者的整体福利。我们提出的策略的一个重要特点是...
-
-    Randomized experiments have been the gold standard for assessing the effectiveness of a treatment or policy. The classical complete randomization approach assigns treatments based on a prespecified probability and may lead to inefficient use of data. Adaptive experiments improve upon complete randomization by sequentially learning and updating treatment assignment probabilities. However, their application can also raise fairness and equity concerns, as assignment probabilities may vary drastically across groups of participants. Furthermore, when treatment is expected to be extremely beneficial to certain groups of participants, it is more appropriate to expose many of these participants to favorable treatment. In response to these challenges, we propose a fair adaptive experiment strategy that simultaneously enhances data use efficiency, achieves an envy-free treatment assignment guarantee, and improves the overall welfare of participants. An important feature of our proposed strategy 
-    
-[^7]: 通过数据改善鲁棒决策
-
-    Improving Robust Decisions with Data. (arXiv:2310.16281v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.16281](http://arxiv.org/abs/2310.16281)
-
-    该论文研究了如何通过数据改善鲁棒决策，并开发了简单易实现的推理方法以保证改善。
-
-    
-
-    决策者面临由数据生成过程(DGP)控制的不确定性，这些过程可能只属于一组独立但可能非相同分布的序列。鲁棒决策在这个集合中最大化决策者对最坏情况DGP的预期收益。本文研究了如何通过数据改善这些鲁棒决策，其中改善通过真实DGP下的预期收益来衡量。本文完全描述了在所有可能的DGP下保证这种改善的时间和方式，并开发了推理方法来实现它。这些推理方法是必需的，因为本文表明，常见的推理方法（如最大似然或贝叶斯）通常无法实现这种改善。重要的是，开发的推理方法是通过对标准推理程序进行简单扩展获得的，因此在实践中很容易实现。
-
-    A decision-maker (DM) faces uncertainty governed by a data-generating process (DGP), which is only known to belong to a set of sequences of independent but possibly non-identical distributions. A robust decision maximizes the DM's expected payoff against the worst possible DGP in this set. This paper studies how such robust decisions can be improved with data, where improvement is measured by expected payoff under the true DGP. In this paper, I fully characterize when and how such an improvement can be guaranteed under all possible DGPs and develop inference methods to achieve it. These inference methods are needed because, as this paper shows, common inference methods (e.g., maximum likelihood or Bayesian) often fail to deliver such an improvement. Importantly, the developed inference methods are given by simple augmentations to standard inference procedures, and are thus easy to implement in practice.
-    
-[^8]: 关于人工智能在金融监管中的应用及对金融稳定的影响
-
-    On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.11293](http://arxiv.org/abs/2310.11293)
-
-    人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。
-
-    
-
-    人工智能（AI）正在金融监管领域迅速发展。对于微观监管（如消费者保护和常规银行监管）来说，由于数据丰富、时间周期短、目标明确和重复决策，AI将受益。然而，对于关注整个金融系统稳定的宏观监管来说，由于不经常发生且大多数是独特事件，AI学习受到挑战。在极度压力下，分布式的人类决策比集中式的AI决策更具优势，而且由于巨大的错误成本，这也引发了对于宏观监管中AI使用的质疑。尽管如此，由于成本效益、稳健性和准确性优于人类监管者，AI很可能悄然取代越来越高水平的建议和决策而被广泛使用。我们提出六个判断AI使用适合性的标准。
-
-    Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
-    
-[^9]: 实时预测大衰退和COVID-19衰退的研究
+[^12]: 实时预测大衰退和COVID-19衰退的研究
 
     Real-time Prediction of the Great Recession and the Covid-19 Recession. (arXiv:2310.08536v1 [econ.EM])
 
@@ -146,88 +192,102 @@
 
     A series of standard and penalized logistic regression models is employed to model and forecast the Great Recession and the Covid-19 recession in the US. These two recessions are scrutinized by closely examining the movement of five chosen predictors, their regression coefficients, and the predicted probabilities of recession. The empirical analysis explores the predictive content of numerous macroeconomic and financial indicators with respect to NBER recession indicator. The predictive ability of the underlying models is evaluated using a set of statistical evaluation metrics. The results strongly support the application of penalized logistic regression models in the area of recession prediction. Specifically, the analysis indicates that a mixed usage of different penalized logistic regression models over different forecast horizons largely outperform standard logistic regression models in the prediction of Great recession in the US, as they achieve higher predictive accuracy across 5
     
-[^10]: 带有建议的新闻经销商模型
+[^13]: 线性面板数据模型中固定效应最优缩小估计
 
-    The Newsvendor with Advice. (arXiv:2305.07993v1 [math.OC])
+    Optimal Shrinkage Estimation of Fixed Effects in Linear Panel Data Models. (arXiv:2308.12485v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.07993](http://arxiv.org/abs/2305.07993)
+    [http://arxiv.org/abs/2308.12485](http://arxiv.org/abs/2308.12485)
 
-    本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。
-
-    
-
-    标准的新闻经销商模型假设需求是随机的，同时对于超额或不足的成本进行成本分析。优化存货水平可以利用著名的关键分位公式来确定。虽然模型已经在许多应用程序中被利用，但在实践中，通常了解问题的更多特征和特点。利用这些特征，通常会使用机器学习来预测库存水平，而不是经典的新闻经销商方法。一系列新兴的研究已经展示了如何将机器学习预测纳入模型中，以规避下限并提高性能。本文开发了第一个整合了机器学习预测的新闻经销商模型。本文考虑了一个重复的新闻经销商设置，并具有非静止需求。每个周期都有一个预测需求，并且正如在机器学习中的情况，预测可能是有噪声的。目标是使库存管理算法利用这些预测来优化库存水平。
-
-    The standard newsvendor model assumes a stochastic demand distribution as well as costs for overages and underages. The celebrated critical fractile formula can be used to determine the optimal inventory levels. While the model has been leveraged in numerous applications, often in practice more characteristics and features of the problem are known. Using these features, it is common to employ machine learning to predict inventory levels over the classic newsvendor approach.  An emerging line of work has shown how to use incorporate machine learned predictions into models to circumvent lower bounds and give improved performance. This paper develops the first newsvendor model that incorporates machine learned predictions. The paper considers a repeated newsvendor setting with nonstationary demand. There is a prediction is for each period's demand and, as is the case in machine learning, the prediction can be noisy. The goal is for an inventory management algorithm to take advantage of th
-    
-[^11]: 在可再生能源整合政策背景下的最优输电扩建规划
-
-    Optimal transmission expansion planning in the context of renewable energy integration policies. (arXiv:2302.10562v3 [math.OC] UPDATED)
-
-    [http://arxiv.org/abs/2302.10562](http://arxiv.org/abs/2302.10562)
-
-    本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。
+    本文提出了一种在线性面板数据模型中估计固定效应的最优缩小估计方法，该方法不需要分布假设，并能够充分地利用序列相关性和时间变化。同时，还提供了一种预测未来固定效应的方法。
 
     
 
-    本文评估了可再生能源驱动的输电系统基础设施扩建对分散式能源市场总发电结构的影响程度。为此，我们使用了一个优化的双层模型，其中一个以最大化福利为目标的输电系统运营商在上层进行输电线路投资，并在下层考虑电力市场动态。为了考虑到自由化的能源市场结构，我们假设在下层的发电公司以完全竞争中的价格接受者身份进行容量投资。考虑到不同的输电基础设施扩展预算、碳排放税和可再生能源发电容量扩展的货币激励，我们研究了这些因素的不同组合如何影响可再生能源在发电结构中的份额。我们将提出的建模评估应用于一个具有三个节点的示例和一个考虑了简化repr的案例研究
+    缩小估计方法经常被用于估计固定效应，以减少最小二乘估计的噪声。然而，广泛使用的缩小估计仅在强分布假设下才能保证降低噪声。本文开发了一种估计固定效应的估计器，在缩小估计器类别中获得了最佳的均方误差。该类别包括传统的缩小估计器，且最优性不需要分布假设。该估计器具有直观的形式，并且易于实现。此外，固定效应允许随时间变化，并且可以具有序列相关性，而缩小方法在这种情况下可以最优地结合底层相关结构。在这样的背景下，还提供了一种预测未来一个时期固定效应的方法。
 
-    This paper assesses the extent to which a renewables-driven expansion of the transmission system infrastructure impacts the total generation mix in the decentralised energy market. For that, we employ an optimisation bi-level model in which a welfare-maximizing transmission system operator makes investments in transmission lines at the upper level while considering power market dynamics at the lower level. To account for the deregulated energy market structure, we assume that the generation companies at the lower level make capacity investments as price-takers in perfect competition. Considering alternative transmission infrastructure expansion budgets, carbon emission taxes and monetary incentives for renewable generation capacity expansion, we study how alternative compositions of these factors affect the share of renewable generation in the generation mix. We apply the proposed modelling assessment to an illustrative three-node instance and a case study considering a simplified repr
+    Shrinkage methods are frequently used to estimate fixed effects to reduce the noisiness of the least square estimators. However, widely used shrinkage estimators guarantee such noise reduction only under strong distributional assumptions. I develop an estimator for the fixed effects that obtains the best possible mean squared error within a class of shrinkage estimators. This class includes conventional shrinkage estimators and the optimality does not require distributional assumptions. The estimator has an intuitive form and is easy to implement. Moreover, the fixed effects are allowed to vary with time and to be serially correlated, and the shrinkage optimally incorporates the underlying correlation structure in this case. In such a context, I also provide a method to forecast fixed effects one period ahead.
     
-[^12]: 用于生成回归变量的半参数模型的自举式规格检验
+[^14]: 投资者“实际”收益的市场统计量：统一理论描述
 
-    A Bootstrap Specification Test for Semiparametric Models with Generated Regressors. (arXiv:2212.11112v2 [econ.EM] UPDATED)
+    The Market-Based Statistics of "Actual" Returns of Investors. (arXiv:2304.06466v1 [econ.GN])
 
-    [http://arxiv.org/abs/2212.11112](http://arxiv.org/abs/2212.11112)
+    [http://arxiv.org/abs/2304.06466](http://arxiv.org/abs/2304.06466)
 
-    本文提出了一种针对半参数模型的规格检验方法，可以用于具有非参数生成回归变量的模型，并通过使用自举程序提供有效的临界值。实验证明该方法在小样本情况下表现良好，并通过女性劳动力参与决策的应用展示了其在实际数据环境中的实现。
-
-    
-
-    本文针对具有非参数生成回归变量的半参数模型提出了一种规格检验方法。这些变量由研究者无法观测到，但可以进行非参数识别和估计。该检验的应用包括通过控制函数识别内生回归变量的模型、半参数样本选择模型或具有不完全信息的二元博弈模型。该统计量建立在半参数模型的残差基础上。新颖的自举程序被证明可以提供有效的临界值。我们考虑了具有自动偏差修正的非参数估计方法，使得该检验在没有低估平滑的情况下可以实施。通过模拟实验证明，该检验在小样本情况下表现良好，而对女性劳动力参与决策的应用则展示了其在实际数据环境中的实现。
-
-    This paper provides a specification test for semiparametric models with nonparametrically generated regressors. Such variables are not observed by the researcher but are nonparametrically identified and estimable. Applications of the test include models with endogenous regressors identified by control functions, semiparametric sample selection models, or binary games with incomplete information. The statistic is built from the residuals of the semiparametric model. A novel wild bootstrap procedure is shown to provide valid critical values. We consider nonparametric estimators with an automatic bias correction that makes the test implementable without undersmoothing. In simulations the test exhibits good small sample performances, and an application to women's labor force participation decisions shows its implementation in a real data context.
-    
-[^13]: 在仪器变量上部分线性回归的无平滑方法
-
-    Partly Linear Instrumental Variables Regressions without Smoothing on the Instruments. (arXiv:2212.11012v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2212.11012](http://arxiv.org/abs/2212.11012)
-
-    该论文介绍了一种在仪器变量上部分线性回归的无平滑方法，通过将Landweber-Fridman正则化方案应用于该半参数模型的估计，实现了参数估计的渐近正态性以及非参数估计的收敛速率。
+    本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。
 
     
 
-    我们考虑了一个由仪器变量确定的半参数部分线性模型。我们提出了一种估计方法，该方法不平滑仪器变量，并将Landweber-Fridman正则化方案推广到该半参数模型的估计中。然后，我们证明了参数估计的渐近正态性，并获得了非参数估计的收敛速率。我们的不平滑仪器变量的估计与典型的平滑仪器变量的估计一致，但在样本大小增加时保持相应的带宽不变。我们提出了一种数据驱动的方法来选择正则化参数，并在模拟研究中展示了我们估计器的优秀性能。
+    本文提出了针对投资者市场销售中获得的“实际”收益的三个层次的市场统计量的统一理论描述。这些市场统计量考虑了交易销售价值的大小、购买价值和股票数量，与基于收益时间序列频率分析的传统常规统计学不同。我们首先描述了投资者通过过去的多次购买获得单次销售的统计收益率。第二个层次描述了投资者在“交易日”进行多次市场销售时获得的收益统计。第三个层次描述了在“交易日”期间不同投资者获得的收益统计。我们推导出收益的统计量对市场销售价值、购买价值和股票数量的统计量的依赖关系。反过来，交易价值和购买量的统计量取决于统计收益率的统计量。
 
-    We consider a semiparametric partly linear model identified by instrumental variables. We propose an estimation method that does not smooth on the instruments and we extend the Landweber-Fridman regularization scheme to the estimation of this semiparametric model. We then show the asymptotic normality of the parametric estimator and obtain the convergence rate for the nonparametric estimator. Our estimator that does not smooth on the instruments coincides with a typical estimator that does smooth on the instruments but keeps the respective bandwidth fixed as the sample size increases. We propose a data driven method for the selection of the regularization parameter, and in a simulation study we show the attractive performance of our estimators.
+    The paper presents the unified theoretical description of three levels of the market-based statistical moments of "actual" returns, which Investors gain within their market sales. The market-based statistics of "actual" returns takes into account the size of the trade sale values, purchased values and volumes of stocks and that differs it from conventional regular statistics based on frequency analysis of returns time-series. We start with description of statistical moments of returns, which Investor gains via a single sale due to his multiple purchases in the past. The second level describes statistics of returns, which Investor gains performing numerous market sales during the "trading day". The third level describes statistics of returns that different Investors gain during the "trading day". We derive dependence of statistical moments of returns on statistical moments of market sale values, purchased values and volumes of stocks. In its turn, statistical moments of trade values and
     
-[^14]: 非参数回归的完全涵盖性检验
+[^15]: 远程协作减少了突破性的创意
 
-    Encompassing Tests for Nonparametric Regressions. (arXiv:2203.06685v3 [econ.EM] UPDATED)
+    Remote Collaboration Fuses Fewer Breakthrough Ideas. (arXiv:2206.01878v4 [cs.CY] UPDATED)
 
-    [http://arxiv.org/abs/2203.06685](http://arxiv.org/abs/2203.06685)
+    [http://arxiv.org/abs/2206.01878](http://arxiv.org/abs/2206.01878)
 
-    通过L2距离，建立了一个形式框架来描述非参数模型的完全涵盖性，并开发出全非参数的涵盖性假设的测试程序。我们通过核回归构建了检验统计量，并研究了带宽选择的问题。我们提出了两种获得“小偏差特性”的备选方法，并展示了野蒙特卡洛法的有效性。通过实证研究，我们验证了数据驱动带宽的使用，并展示了我们的测试在小规模和中等规模样本上的吸引力特点。
-
-    
-
-    我们建立了一个形式框架，通过L2距离来表征非参数模型的完全涵盖性。我们将其与以往有关非参数回归模型比较的文献进行对比。然后，我们提出了完全非参数的涵盖性假设的检验方法。我们的检验统计量依赖于核回归，引发了带宽选择的问题。我们研究了两种获得“小偏差特性”的备选方法。我们展示了一种野蒙特卡洛法的有效性。我们通过实证研究了数据驱动的带宽的使用情况，并展示了我们的测试对于小规模和中等规模样本的吸引力特点。
-
-    We set up a formal framework to characterize encompassing of nonparametric models through the L2 distance. We contrast it to previous literature on the comparison of nonparametric regression models. We then develop testing procedures for the encompassing hypothesis that are fully nonparametric. Our test statistics depend on kernel regression, raising the issue of bandwidth's choice. We investigate two alternative approaches to obtain a "small bias property" for our test statistics. We show the validity of a wild bootstrap method. We empirically study the use of a data-driven bandwidth and illustrate the attractive features of our tests for small and moderate samples.
-    
-[^15]: 动态资源管理中生态体制最快检测方案研究
-
-    Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2005.11500](http://arxiv.org/abs/2005.11500)
-
-    本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。
+    这项研究表明，尽管世界范围内的科学家和发明家之间的联系日益增长，但远程协作在促进突破性创新方面却越来越少产生积极影响。
 
     
 
-    本文研究了面临生态体制转变威胁下的可再生资源的随机动态。我们建立了一个帕累托最优的不确定性下的生态体制转变检测框架，该框架最小化了经济主体意识到转变的延迟。我们将生态系统监测与最优资源提取政策的制定相结合。我们完整解决了一个以利润最大化为目标的垄断主义者，并提供了决定不利生态体制转变是否会导致积极或谨慎采取资源提取策略的条件，这取决于市场需求、资源稀缺和检测时间之间的交互作用。我们将我们的框架应用于巴西圣保罗的Cantareira水库案例，并研究导致其枯竭和随后的供水危机的事件。
+    创新理论强调社交网络和团队在促进突破性发现方面的作用。如今，全球科学家和发明家数量比以往任何时候都多，并且彼此之间更加相互联系。然而，研究表明，尽管有更多人发现事物，并且有更多可以以新颖方式重新组合的思想，但是新创意越来越难以找到，这与重新组合增长理论相矛盾。在本文中，我们对这个明显的谜题进行了新的阐释。通过分析过去半个世纪内全球范围内2000万篇研究文章和400万项专利申请，我们首先记录了远程协作的兴起，强调了全球科学家和发明家之间日益增长的相互联系性。我们进一步表明，在所有领域、时期和团队规模中，相对于在现场工作的同事，远程团队的研究人员更不可能做出突破性的发现。通过创建一个数据集，可以使我们推断出
 
-    We study the stochastic dynamics of renewable resources under the threat of ecological regime shifts. We establish a Pareto optimal framework of regime shift detection under uncertainty that minimizes the delay with which economic agents become aware of the shift. We integrate ecosystem surveillance in the formation of optimal resource extraction policies. We fully solve the case of a profit-maximizing monopolist and provide the conditions that determine whether an adverse regime shift can lead to an aggressive or a precautionary extraction policy, depending on the interaction between market demand, resource scarcity and detection time. We apply our framework to the case of the Cantareira water reservoir in S\~ao Paulo, Brazil, and study the events that led to its depletion and the consequent water supply crisis.
+    Theories of innovation emphasize the role of social networks and teams as facilitators of breakthrough discoveries. Around the world, scientists and inventors today are more plentiful and interconnected than ever before. But while there are more people making discoveries, and more ideas that can be reconfigured in novel ways, research suggests that new ideas are getting harder to find-contradicting recombinant growth theory. In this paper, we shed new light on this apparent puzzle. Analyzing 20 million research articles and 4 million patent applications across the globe over the past half-century, we begin by documenting the rise of remote collaboration across cities, underlining the growing interconnectedness of scientists and inventors globally. We further show that across all fields, periods, and team sizes, researchers in these remote teams are consistently less likely to make breakthrough discoveries relative to their onsite counterparts. Creating a dataset that allows us to explo
+    
+[^16]: 有多个治疗方案的二阶段最小二乘法
+
+    2SLS with Multiple Treatments. (arXiv:2205.07836v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2205.07836](http://arxiv.org/abs/2205.07836)
+
+    本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。
+
+    
+
+    我们研究了在存在治疗效应异质性的模型中，二阶段最小二乘法 (2SLS) 在多个治疗方案中所能确定的内容。我们证明了两个必要且充分的条件，即平均条件单调性和无交叉效应，可以确定每种治疗方案的代理人特定效应的正权重和。我们的鉴定分析可以适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。我们提供了由我们的鉴定条件所暗示的选择行为的特征，并讨论了这些条件如何在实证研究中进行测试。
+
+    We study what two-stage least squares (2SLS) identifies in models with multiple treatments under treatment effect heterogeneity. Two conditions are shown to be necessary and sufficient for the 2SLS to identify positively weighted sums of agent-specific effects of each treatment: average conditional monotonicity and no cross effects. Our identification analysis allows for any number of treatments, any number of continuous or discrete instruments, and the inclusion of covariates. We provide characterizations of choice behavior implied by our identification conditions and discuss how the conditions can be tested empirically.
+    
+[^17]: 两个尾巴的故事：一种无模型方法来估计灾害风险溢价并检验资产定价模型
+
+    A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models. (arXiv:2105.08208v6 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2105.08208](http://arxiv.org/abs/2105.08208)
+
+    该论文引入了一种无模型的方法来评估灾害风险对市场回报的影响，并发现了在左尾部存在显著差异，这反映了灾害风险对股票溢价的影响。研究结果表明，底部5%的收益约贡献了17%的股票溢价，同时揭示了“佩索问题”。此外，研究还发现灾害风险增加了随机贴现因子的波动性。
+
+    
+
+    我引入了一种无模型的方法来评估灾害风险对市场回报的影响。利用标普500指数的收益率和从期权价格中推导出的风险中性分位函数，我使用分位回归来估计条件物理分布和风险中性分布之间的局部差异。结果显示主要是在左尾部存在显著差异，反映了灾害风险对股票溢价的影响。这些差异随时间变化，并在危机期间之后持续存在。平均而言，底部5%的收益对股票溢价的贡献约为17%，揭示了“佩索问题”。我还发现，灾害风险增加了随机贴现因子的波动性。利用从期权价格中观察到的物理分位函数和风险中性分位函数之间的左尾差异的下界，我得到了类似的结果，从而加强了我的研究结果的稳健性。
+
+    I introduce a model-free methodology to assess the impact of disaster risk on the market return. Using S&P500 returns and the risk-neutral quantile function derived from option prices, I employ quantile regression to estimate local differences between the conditional physical and risk-neutral distributions. The results indicate substantial disparities primarily in the left-tail, reflecting the influence of disaster risk on the equity premium. These differences vary over time and persist beyond crisis periods. On average, the bottom 5% of returns contribute to 17% of the equity premium, shedding light on the Peso problem. I also find that disaster risk increases the stochastic discount factor's volatility. Using a lower bound observed from option prices on the left-tail difference between the physical and risk-neutral quantile functions, I obtain similar results, reinforcing the robustness of my findings.
+    
+[^18]: 在分布约束下的截断稳定性及其在暑期实习匹配中的应用
+
+    Cutoff stability under distributional constraints with an application to summer internship matching. (arXiv:2102.02931v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2102.02931](http://arxiv.org/abs/2102.02931)
+
+    这个论文介绍了一个新的稳定匹配问题，对澳大利亚一所大学的暑期实习匹配进行建模。作者提出了三个解决概念：强稳定性、弱稳定性和截断稳定性。他们证明了在最受限制的模型中可能不存在强稳定匹配，但存在截断稳定匹配。他们提出了一个多项式时间算法来计算截断稳定匹配。但是寻找最大规模截断稳定匹配是NP困难的。
+
+    
+
+    我们引入了一个新的双边稳定匹配问题，描述了澳大利亚一所大学的暑期实习匹配实践。该模型是Kamada和Kojima关于带有分布约束的匹配问题的两个模型之间的一个案例。我们研究了三个解决概念，即Kamada和Kojima提出的强稳定性和弱稳定性概念，以及两者之间的一个新概念，称为截断稳定性。Kamada和Kojima证明了在其最受限制的具有不相交区域配额的模型中可能不存在强稳定匹配。我们的第一个结果是检查其存在性是NP困难的。然后，我们展示了不仅适用于暑期实习问题，而且适用于具有任意遗传约束的一般匹配模型的截断稳定匹配存在。我们提出了一个计算截断稳定匹配的算法，并证明在我们特殊的暑期实习模型中它运行在多项式时间内。但是，我们还展示了寻找最大规模截断稳定匹配是NP困难的。
+
+    We introduce a new two-sided stable matching problem that describes the summer internship matching practice of an Australian university. The model is a case between two models of Kamada and Kojima on matchings with distributional constraints. We study three solution concepts, the strong and weak stability concepts proposed by Kamada and Kojima, and a new one in between the two, called cutoff stability. Kamada and Kojima showed that a strongly stable matching may not exist in their most restricted model with disjoint regional quotas. Our first result is that checking its existence is NP-hard. We then show that a cutoff stable matching exists not just for the summer internship problem but also for the general matching model with arbitrary heredity constraints. We present an algorithm to compute a cutoff stable matching and show that it runs in polynomial time in our special case of summer internship model. However, we also show that finding a maximum size cutoff stable matching is NP-har
+    
+[^19]: 债务危机污名的研究
+
+    Bailout Stigma. (arXiv:2006.05640v4 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2006.05640](http://arxiv.org/abs/2006.05640)
+
+    该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。
+
+    
+
+    我们提出了一个债务危机污名模型，其中接受债务救助会暗示公司资产负债表弱点并恶化其融资前景。为了避免污名，高质量的公司要么在获得救助后退出后续融资，要么拒绝救助以发送一个有利的信号。前者导致短暂刺激，随后市场冻结甚至比没有救助时更严重。后者恢复了融资市场，但会有延迟，达到了没有任何污名的水平，并实现了受限的最优结果。多个债务救助方案的选择也增加了债务危机污名，并加剧了市场冻结。
+
+    We develop a model of bailout stigma where accepting a bailout signals a firm's balance-sheet weakness and worsens its funding prospect. To avoid stigma, high-quality firms either withdraw from subsequent financing after receiving bailouts or refuse bailouts altogether to send a favorable signal. The former leads to a short-lived stimulation with a subsequent market freeze even worse than if there were no bailouts. The latter revives the funding market, albeit with delay, to the level achievable without any stigma, and implements a constrained optimal outcome. A menu of multiple bailout programs also compounds bailout stigma and worsens market freeze.
     
 

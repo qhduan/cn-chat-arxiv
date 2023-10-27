@@ -1,0 +1,12 @@
+{
+    "title": "Bailout Stigma. (arXiv:2006.05640v4 [q-fin.GN] UPDATED)",
+    "abstract": "We develop a model of bailout stigma where accepting a bailout signals a firm's balance-sheet weakness and worsens its funding prospect. To avoid stigma, high-quality firms either withdraw from subsequent financing after receiving bailouts or refuse bailouts altogether to send a favorable signal. The former leads to a short-lived stimulation with a subsequent market freeze even worse than if there were no bailouts. The latter revives the funding market, albeit with delay, to the level achievable without any stigma, and implements a constrained optimal outcome. A menu of multiple bailout programs also compounds bailout stigma and worsens market freeze.",
+    "link": "http://arxiv.org/abs/2006.05640",
+    "context": "Title: Bailout Stigma. (arXiv:2006.05640v4 [q-fin.GN] UPDATED)\nAbstract: We develop a model of bailout stigma where accepting a bailout signals a firm's balance-sheet weakness and worsens its funding prospect. To avoid stigma, high-quality firms either withdraw from subsequent financing after receiving bailouts or refuse bailouts altogether to send a favorable signal. The former leads to a short-lived stimulation with a subsequent market freeze even worse than if there were no bailouts. The latter revives the funding market, albeit with delay, to the level achievable without any stigma, and implements a constrained optimal outcome. A menu of multiple bailout programs also compounds bailout stigma and worsens market freeze.",
+    "path": "papers/20/06/2006.05640.json",
+    "total_tokens": 787,
+    "translated_title": "债务危机污名的研究",
+    "translated_abstract": "我们提出了一个债务危机污名模型，其中接受债务救助会暗示公司资产负债表弱点并恶化其融资前景。为了避免污名，高质量的公司要么在获得救助后退出后续融资，要么拒绝救助以发送一个有利的信号。前者导致短暂刺激，随后市场冻结甚至比没有救助时更严重。后者恢复了融资市场，但会有延迟，达到了没有任何污名的水平，并实现了受限的最优结果。多个债务救助方案的选择也增加了债务危机污名，并加剧了市场冻结。",
+    "tldr": "该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。",
+    "en_tdlr": "This paper explores a model of bailout stigma, finding that accepting a bailout worsens a firm's funding prospect; high-quality firms either withdraw from subsequent financing or refuse bailouts to send a favorable signal; a menu of multiple bailout programs worsens stigma and market freeze."
+}

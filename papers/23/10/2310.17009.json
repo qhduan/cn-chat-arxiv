@@ -1,0 +1,9 @@
+{
+    "title": "Simulation based stacking. (arXiv:2310.17009v1 [stat.ME])",
+    "abstract": "Simulation-based inference has been popular for amortized Bayesian computation. It is typical to have more than one posterior approximation, from different inference algorithms, different architectures, or simply the randomness of initialization and stochastic gradients. With a provable asymptotic guarantee, we present a general stacking framework to make use of all available posterior approximations. Our stacking method is able to combine densities, simulation draws, confidence intervals, and moments, and address the overall precision, calibration, coverage, and bias at the same time. We illustrate our method on several benchmark simulations and a challenging cosmological inference task.",
+    "link": "http://arxiv.org/abs/2310.17009",
+    "context": "Title: Simulation based stacking. (arXiv:2310.17009v1 [stat.ME])\nAbstract: Simulation-based inference has been popular for amortized Bayesian computation. It is typical to have more than one posterior approximation, from different inference algorithms, different architectures, or simply the randomness of initialization and stochastic gradients. With a provable asymptotic guarantee, we present a general stacking framework to make use of all available posterior approximations. Our stacking method is able to combine densities, simulation draws, confidence intervals, and moments, and address the overall precision, calibration, coverage, and bias at the same time. We illustrate our method on several benchmark simulations and a challenging cosmological inference task.",
+    "path": "papers/23/10/2310.17009.json",
+    "total_tokens": 744,
+    "tldr": "本研究提出了一种模拟基础的堆叠框架，能够利用多个后验近似来提高推理精度和校准性，并通过组合密度、模拟样本、置信区间和矩等信息来解决多个问题。"
+}

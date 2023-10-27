@@ -2,157 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [No-Arbitrage Deep Calibration for Volatility Smile and Skewness.](http://arxiv.org/abs/2310.16703) | 本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。 |
-| [^2] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
-| [^3] | [Pre-electoral coalition agreement from the Black-Scholes point of view.](http://arxiv.org/abs/2310.16424) | 从黑-斯科尔斯视角来看，研究选举前联盟协议中主要党派与次要党派的支持水平关系，并在黑山2023年6月的选举中进行了具体分析。 |
-| [^4] | [Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction.](http://arxiv.org/abs/2310.16341) | 本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。 |
-| [^5] | [Bounding the approach to oligarchy in a variant of the yard-sale model.](http://arxiv.org/abs/2310.16098) | 在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。 |
-| [^6] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
-| [^7] | [NLP for Crypto-Asset Regulation: A Roadmap.](http://arxiv.org/abs/2310.10333) | 这篇论文介绍了自然语言处理在加密资产监管中的应用，并提出了两个贡献。首先，调查了对未受监管的加密资产白皮书进行文本分析的现有应用，并发现了研究空白。然后，分析了欧盟的加密资产市场法规引入的变化，探讨了在新的监管框架内整合自然语言处理的机遇和挑战。这些发现为未来的研究提供了基础，有潜力使监管机构、加密资产发行者和投资者受益。 |
-| [^8] | [Optimal transmission expansion planning in the context of renewable energy integration policies.](http://arxiv.org/abs/2302.10562) | 本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。 |
-| [^9] | [Some asymptotics for short maturity Asian options.](http://arxiv.org/abs/2302.05421) | 本研究利用大偏离理论对短期亚洲期权进行渐近性质分析，提出了局部波动率模型，并估计了虚值、实值和平值短期亚洲认购期权和认沽期权的渐近性质。对于虚值期权，渐近性质受罕见事件的影响，而对于平值期权，我们找到了渐近性质的上界和下界。 |
-| [^10] | [Quickest Detection of Ecological Regimes for Dynamic Resource Management.](http://arxiv.org/abs/2005.11500) | 本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。 |
+| [^1] | [The Newtonian Mechanics of Demand.](http://arxiv.org/abs/2310.17423) | 本文以牛顿力学为基础，将经济系统建模为传统工程系统，提出了经济力学的理论基础。通过类比机械力学的概念，我们定义了经济力、经济效益和剩余，并利用这些类比解释了各种类型的经济均衡。此类比对经济工程具有实际应用的有效性。 |
+| [^2] | [On Technical Bases and Surplus in Life Insurance.](http://arxiv.org/abs/2310.16927) | 本文重新审视了以Markov模型为代表的一般寿险合同中的剩余金，并通过维度方程的边界条件对技术基础进行分类，提出了一个带有三个技术基础的“标准”模型，并展示了每个基础对应的保费负载和剩余金。最后介绍了两个应用：期满支付的业务；和回顾性定向制度。 |
+| [^3] | [The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots.](http://arxiv.org/abs/2310.16850) | 本研究研究了俄乌冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并发现冲突加剧了农产品市场的风险，尤其是小麦市场受到的影响最大。 |
+| [^4] | [Correlation structure analysis of the global agricultural futures market.](http://arxiv.org/abs/2310.16849) | 本文采用随机矩阵理论（RMT）分析了2000年至2020年全球农产品期货市场的相关结构，发现了不对称且右偏的相关系数分布，以及特征值对RMT预测的偏离。最大特征值反映了所有农产品期货的共同市场效应，其他偏离特征值可以用于识别期货组合，且对应特征向量的显著参与者呈现基于区域属性或农产品的模块化结构。此研究对于风险管理和资产配置优化具有重要参考价值。 |
+| [^5] | [Dual-Class Stocks: Can They Serve as Effective Predictors?.](http://arxiv.org/abs/2310.16845) | 本文分析了Kardemir Karabuk钢铁工业贸易有限公司的三种不同股票之间的价格分歧模式，并引入了一种新的训练集选择规则为LSTM模型提供了显著的预测优势，同时表示双重股票并不能作为彼此表现的预测指标。 |
+| [^6] | [Linkages among the Foreign Exchange, Stock, and Bond Markets in Japan and the United States.](http://arxiv.org/abs/2310.16841) | 该研究利用因果发现方法研究了日本和美国的金融市场之间的关联，发现了前一天的美国市场对随后一天的日本股票和债券市场有影响，以及前一天的债券市场对随后一天的外汇市场和日本股票市场有影响。 |
+| [^7] | [The Market-Based Statistics of "Actual" Returns of Investors.](http://arxiv.org/abs/2304.06466) | 本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。 |
+| [^8] | [Remote Collaboration Fuses Fewer Breakthrough Ideas.](http://arxiv.org/abs/2206.01878) | 这项研究表明，尽管世界范围内的科学家和发明家之间的联系日益增长，但远程协作在促进突破性创新方面却越来越少产生积极影响。 |
+| [^9] | [A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models.](http://arxiv.org/abs/2105.08208) | 该论文引入了一种无模型的方法来评估灾害风险对市场回报的影响，并发现了在左尾部存在显著差异，这反映了灾害风险对股票溢价的影响。研究结果表明，底部5%的收益约贡献了17%的股票溢价，同时揭示了“佩索问题”。此外，研究还发现灾害风险增加了随机贴现因子的波动性。 |
+| [^10] | [Bailout Stigma.](http://arxiv.org/abs/2006.05640) | 该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。 |
 
 # 详细
 
-[^1]: 无套利深度标定波动率微笑和偏斜的方法
+[^1]: 需求的牛顿力学
 
-    No-Arbitrage Deep Calibration for Volatility Smile and Skewness. (arXiv:2310.16703v1 [q-fin.CP])
+    The Newtonian Mechanics of Demand. (arXiv:2310.17423v1 [eess.SY])
 
-    [http://arxiv.org/abs/2310.16703](http://arxiv.org/abs/2310.16703)
+    [http://arxiv.org/abs/2310.17423](http://arxiv.org/abs/2310.17423)
 
-    本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。
-
-    
-
-    波动率微笑和偏斜是期权价格的两个关键属性，通过隐含波动率曲面表示。然而，由于有限的输入数据、低流动性和噪声等多种因素，通过非线性插值进行波动率曲面标定是一个复杂的问题。此外，标定曲面必须遵守无套利的基本金融原则，这可以通过对期权价格相对于到期时间和行权价格的偏导数的各种微分不等式进行建模。为了应对这些挑战，我们引入了一种称为导数约束神经网络(DCNN)的方法，它是多层感知器(MLP)的改进版本，可以将导数纳入输出函数中。DCNN可以生成平滑的曲面，并通过损失函数中的导数项来增加无套利条件。在数值实验中，我们应用了具有微笑属性的随机波动率模型。
-
-    Volatility smile and skewness are two key properties of option prices that are represented by the implied volatility (IV) surface. However, IV surface calibration through nonlinear interpolation is a complex problem due to several factors, including limited input data, low liquidity, and noise. Additionally, the calibrated surface must obey the fundamental financial principle of the absence of arbitrage, which can be modeled by various differential inequalities over the partial derivatives of the option price with respect to the expiration time and the strike price. To address these challenges, we have introduced a Derivative-Constrained Neural Network (DCNN), which is an enhancement of a multilayer perceptron (MLP) that incorporates derivatives in the output function. DCNN allows us to generate a smooth surface and incorporate the no-arbitrage condition thanks to the derivative terms in the loss function. In numerical experiments, we apply the stochastic volatility model with smile an
-    
-[^2]: 通过贫困视角分析气候相关的农业生产力损失
-
-    Climate-related Agricultural Productivity Losses through a Poverty Lens. (arXiv:2310.16490v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.16490](http://arxiv.org/abs/2310.16490)
-
-    通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。
+    本文以牛顿力学为基础，将经济系统建模为传统工程系统，提出了经济力学的理论基础。通过类比机械力学的概念，我们定义了经济力、经济效益和剩余，并利用这些类比解释了各种类型的经济均衡。此类比对经济工程具有实际应用的有效性。
 
     
 
-    本文通过食品价格上涨分析气候变化对长期分配的影响。我们使用一个标准的不完全市场模型，并考虑食品消费的非线性Engel曲线。为了校准我们的模型，我们依赖于代表45亿人口的92个发展中国家的家庭数据。结果表明，气候变化的短期和长期分配影响是不同的。包括一般均衡效应会改变尤其是最贫困五分之一的福利结果。在特异风险存在的情况下，更高的食品价格会增加预防性储蓄，通过一般均衡影响所有代理人的劳动收入。此外，本文还研究了在不同部门生产力损失分配的情况下的不平等影响。当气候影响影响经济的两个部门的全要素生产率时，气候影响也会增加财富不平等。
+    经济工程是一个新的领域，其中经济系统被建模为传统机械和电气工程系统一样。在本文中，我们以牛顿的运动理论为基础，建立了经济工程的理论基础。我们按照牛顿在《自然哲学的数学原理》中的原始发展，确定了经济力学中对应于他的三个运动定律的经济模型。关键的结果是通过价格调整来对经济力（需求或欲望）进行操作性定义。借此，我们模拟了稀缺和贸易摩擦的价格效应，类比了弹簧和阻尼力的模型。同时，我们将经济效益和剩余定义为机械功和能量的类比。然后，我们利用这些类比从机械的角度解释了经济学家研究的各种类型的经济均衡。通过应用示例，展示了类比的有效性。
 
-    In this paper, we analyze the long-term distributive impact of climate change through rising food prices. We use a standard incomplete markets model and account for non-linear Engel curves for food consumption. For the calibration of our model, we rely on household data from 92 developing countries, representing 4.5 billion people. The results indicate that the short-term and long-term distributive impact of climate change differs. Including general equilibrium effects change the welfare outcome especially for the poorest quintile. In the presence of idiosyncratic risk, higher food prices increase precautionary savings, which through general equilibrium affect labor income of all agents. Furthermore, this paper studies the impact on inequality for different allocations of productivity losses across sectors. When climate impacts affects total factor productivity in both sectors of the economy, climate impacts increase also wealth inequality.
+    Economic engineering is a new field wherein economic systems are modelled in the same manner as traditional mechanical and electrical engineering systems. In this paper, we use Newton's theory of motion as the basis for the theory of demand; thereby establishing a theoretical foundation for economic engineering. We follow Newton's original development, as set forth in the Principia, to determine economic analogs to his three laws of motion. The pivotal result is an operational definition for an economic force, i.e. a want or a desire, in terms of a price adjustment. With this, we model the price effects of scarcity and trade friction in analogy with the models for the spring and damping force. In turn, we define economic benefits and surplus as analogous to the definitions of mechanical work and energy. These are then used to interpret the various types of economic equilibrium considered by economists from a mechanical perspective. The effectiveness of the analogy is illustrated by app
     
-[^3]: 黑-斯科尔斯视角下的选举前联盟协议
+[^2]: 关于寿险中的技术基础和剩余金
 
-    Pre-electoral coalition agreement from the Black-Scholes point of view. (arXiv:2310.16424v1 [math.AP])
+    On Technical Bases and Surplus in Life Insurance. (arXiv:2310.16927v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2310.16424](http://arxiv.org/abs/2310.16424)
+    [http://arxiv.org/abs/2310.16927](http://arxiv.org/abs/2310.16927)
 
-    从黑-斯科尔斯视角来看，研究选举前联盟协议中主要党派与次要党派的支持水平关系，并在黑山2023年6月的选举中进行了具体分析。
-
-    
-
-    一个政党可以被视为一个其价值依赖于选民支持的公司，即取决于支持该党的人口百分比。支持率的动态可以看作是一个受白噪声扰动的确定性增长率的随机过程，其中白噪声通过维纳过程进行建模。这类似于期权模型中的股票价格与选民支持的行为类似。在期权理论中，我们有一个关于期权公平价格的问题，而我们在这里问的问题是一个主要党派（安全地超过选举门槛）与一个次要党派（接近或低于选举门槛）的联盟应该实现什么合理的支持水平，以便次要党派获得一个额外的代表。我们将详细阐述一些关于黑山最近选举（2023年6月）的结论，由于许多政治议题进入了竞选，这使得这个问题特别有趣。
-
-    A political party can be considered as a company whose value depends on the voters support i.e. on the percentage of population supporting the party. Dynamics of the support is thus as a stochastic process with a deterministic growth rate perturbed by a white noise modeled through the Wiener process. This is in an analogy with the option modeling where the stock price behaves similarly as the voters' support. While in the option theory we have the question of fair price of an option, the question that we ask here is what is a reasonable level of support that the coalition of a major party (safely above the election threshold) and a minor party (under or around the election threshold) should achieve in order the minor party to get one more representative. We shall elaborate some of the conclusions in the case of recent elections in Montenegro (June, 2023) which are particularly interesting due to lots of political subjects entering the race.
-    
-[^4]: 提升职场女性地位：心灵智力和道德环境对工作满意度的双重影响
-
-    Elevating Women in the Workplace: The Dual Influence of Spiritual Intelligence and Ethical Environments on Job Satisfaction. (arXiv:2310.16341v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.16341](http://arxiv.org/abs/2310.16341)
-
-    本研究探讨了女性员工心灵智力和道德环境对工作满意度的影响，强调了多维的人类需求和各种激励因素在塑造员工态度和行为中的关键作用，并主张更加包容性的理解女性员工的需求。
+    本文重新审视了以Markov模型为代表的一般寿险合同中的剩余金，并通过维度方程的边界条件对技术基础进行分类，提出了一个带有三个技术基础的“标准”模型，并展示了每个基础对应的保费负载和剩余金。最后介绍了两个应用：期满支付的业务；和回顾性定向制度。
 
     
 
-    在如今快速发展的职场中，工作满意度及其决定因素的动态已成为组织研究的重点。本研究全面探讨了女性员工心灵智力和工作满意度之间的关联，特别强调道德工作环境的调节作用。研究从探索人类需求的多维本质开始，深入探讨驱动工作满意度的心理基础。它阐述了各种有形和无形的激励因素（如薪酬福利和认可）在塑造员工态度和行为方面发挥关键作用。此外，研究聚焦于女性员工面临的独特挑战和经验，主张更加包容性的理解他们的需求。通过文献综述和实证分析，本研究得出重要结论：整合心灵智力和道德考虑对工作满意度有关键影响。
+    我们重新审视以Markov模型为代表的一般寿险合同中的剩余金。我们通过维度方程的边界条件对技术基础进行分类，允许比斯堪的纳维亚风格的“一阶/二阶”制度更一般的调整，并替代传统的回顾性保单价值。我们提出了一个带有三个技术基础（保费、估值、累积）的“标准”模型，并展示了每个基础对应的保费负载和剩余金。与“真实世界”经验基础一起，这扩展了Ramlau-Hansen（1988a）的基本结果。我们最后介绍了两个应用：期满支付的业务；以及Møller＆Steffensen（2007）提出的回顾性定向制度。
 
-    In today's rapidly evolving workplace, the dynamics of job satisfaction and its determinants have become a focal point of organizational studies. This research offers a comprehensive examination of the nexus between spiritual intelligence and job satisfaction among female employees, with particular emphasis on the moderating role of ethical work environments. Beginning with an exploration of the multifaceted nature of human needs, the study delves deep into the psychological underpinnings that drive job satisfaction. It elucidates how various tangible and intangible motivators, such as salary benefits and recognition, play pivotal roles in shaping employee attitudes and behaviors. Moreover, the research spotlights the unique challenges and experiences of female employees, advocating for a more inclusive understanding of their needs. An extensive review of the literature and empirical analysis culminates in the pivotal finding that integrating spiritual intelligence and ethical consider
+    We revisit surplus on general life insurance contracts, represented by Markov models. We classify technical bases in terms of boundary conditions in Thiele's equation(s), allowing more general regulations than Scandinavian-style `first-order/second-order' regimes, and replacing the traditional retrospective policy value. We propose a `canonical' model with three technical bases (premium, valuation, accumulation) and show how each pair of bases defines premium loadings and surplus. Along with a `true' or `real-world' experience basis, this expands fundamental results of Ramlau-Hansen (1988a). We conclude with two applications: lapse-supported business; and the retrospectively-oriented regime proposed by M{\o}ller & Steffensen (2007).
     
-[^5]: 对庭售模型变种中寡头政权的限制
+[^3]: 俄乌冲突对农产品期货与现货之间极端风险溢出的影响
 
-    Bounding the approach to oligarchy in a variant of the yard-sale model. (arXiv:2310.16098v1 [cond-mat.stat-mech])
+    The impact of the Russia-Ukraine conflict on the extreme risk spillovers between agricultural futures and spots. (arXiv:2310.16850v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2310.16098](http://arxiv.org/abs/2310.16098)
+    [http://arxiv.org/abs/2310.16850](http://arxiv.org/abs/2310.16850)
 
-    在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。
-
-    
-
-    我们展示了在改良的庭售模型动力学下经济不平等的基尼系数的分析结果。通过修改经典系统中的二进制交易，引入了庭售模型的变种。通过使用与微分格朗沃尔不等式结合的一阶微分不等式，我们证明了这种动力学下的基尼系数是单调的，但寡头政权的接近程度可以被限制住。我们推导了带有重新分配税的改良系统的渐进性质，并且表明与原始的有税庭售模型一致，这暗示了这个改良系统适用于匹配真实的财富分布。
-
-    We present analytical results for the Gini coefficient of economic inequality under the dynamics of a modified Yard-Sale Model of kinetic asset exchange. A variant of the Yard-Sale Model is introduced by modifying the underlying binary transaction of the classical system. It is shown that the Gini coefficient is monotone under the resulting dynamics but the approach to oligarchy, as measured by the Gini index, can be bounded by a first-order differential inequality used in conjunction with the differential Gronwall inequality. The asymptotics of the modified system, with a redistributive tax, are derived and shown to agree with the original, taxed Yard-Sale Model, which implies the modified system is as suitable for matching real wealth distributions.
-    
-[^6]: 关于人工智能在金融监管中的应用及对金融稳定的影响
-
-    On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.11293](http://arxiv.org/abs/2310.11293)
-
-    人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。
+    本研究研究了俄乌冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并发现冲突加剧了农产品市场的风险，尤其是小麦市场受到的影响最大。
 
     
 
-    人工智能（AI）正在金融监管领域迅速发展。对于微观监管（如消费者保护和常规银行监管）来说，由于数据丰富、时间周期短、目标明确和重复决策，AI将受益。然而，对于关注整个金融系统稳定的宏观监管来说，由于不经常发生且大多数是独特事件，AI学习受到挑战。在极度压力下，分布式的人类决策比集中式的AI决策更具优势，而且由于巨大的错误成本，这也引发了对于宏观监管中AI使用的质疑。尽管如此，由于成本效益、稳健性和准确性优于人类监管者，AI很可能悄然取代越来越高水平的建议和决策而被广泛使用。我们提出六个判断AI使用适合性的标准。
+    俄乌冲突对全球粮食系统和世界粮食安全造成了重大威胁和挑战。本研究侧重于冲突对全球农产品市场的影响，在尾部相关性方面提出了新的分析框架，并将Copula-CoVaR方法与ARMA-GARCH偏斜学生t模型相结合，以研究冲突前后农产品期货与现货之间的尾部相关结构和极端风险溢出。研究结果表明，大豆、玉米、小麦和稻谷的期货-现货市场的尾部相关结构都对俄乌冲突作出了反应。此外，冲突的爆发加剧了这四个农产品市场的风险，尤其是小麦市场受到的影响最大。此外，所有农产品期货市场都显示出与其相应现货的显著的下行和上行风险溢出。
 
-    Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
+    The ongoing Russia-Ukraine conflict between two major agricultural powers has posed significant threats and challenges to the global food system and world food security. Focusing on the impact of the conflict on the global agricultural market, we propose a new analytical framework for tail dependence, and combine the Copula-CoVaR method with the ARMA-GARCH-skewed Student-t model to examine the tail dependence structure and extreme risk spillover between agricultural futures and spots over the pre- and post-outbreak periods. Our results indicate that the tail dependence structures in the futures-spot markets of soybean, maize, wheat, and rice have all reacted to the Russia-Ukraine conflict. Furthermore, the outbreak of the conflict has intensified risks of the four agricultural markets in varying degrees, with the wheat market being affected the most. Additionally, all the agricultural futures markets exhibit significant downside and upside risk spillovers to their corresponding spot ma
     
-[^7]: 区块链资产监管的自然语言处理：一份路线图
+[^4]: 全球农产品期货市场的相关结构分析
 
-    NLP for Crypto-Asset Regulation: A Roadmap. (arXiv:2310.10333v1 [cs.CY])
+    Correlation structure analysis of the global agricultural futures market. (arXiv:2310.16849v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2310.10333](http://arxiv.org/abs/2310.10333)
+    [http://arxiv.org/abs/2310.16849](http://arxiv.org/abs/2310.16849)
 
-    这篇论文介绍了自然语言处理在加密资产监管中的应用，并提出了两个贡献。首先，调查了对未受监管的加密资产白皮书进行文本分析的现有应用，并发现了研究空白。然后，分析了欧盟的加密资产市场法规引入的变化，探讨了在新的监管框架内整合自然语言处理的机遇和挑战。这些发现为未来的研究提供了基础，有潜力使监管机构、加密资产发行者和投资者受益。
-
-    
-
-    在快速发展的区块链资产领域，白皮书是投资者指导的重要文件，在欧盟的加密资产市场法规（MiCAR）下，它们现在面临前所未有的内容要求。自然语言处理可以作为分析这些文件和协助监管合规的强大工具。本文为该主题提供了两个贡献。首先，我们调查了对未受监管的区块链资产白皮书进行文本分析的现有应用，发现了可以通过跨学科合作来填补研究空白。然后，我们对MiCAR引入的变化进行了分析，突出了在新的监管框架内整合自然语言处理的机遇和挑战。我们的研究结果为进一步的研究奠定了基础，并有潜力使监管机构、区块链资产发行者和投资者受益。
-
-    In the rapidly evolving field of crypto-assets, white papers are essential documents for investor guidance, and are now subject to unprecedented content requirements under the EU's Markets in Crypto-Assets Regulation (MiCAR). Natural Language Processing can serve as a powerful tool for both analyzing these documents and assisting in regulatory compliance. This paper delivers two contributions to the topic. First, we survey existing applications of textual analysis to unregulated crypto-asset white papers, uncovering a research gap that could be bridged with interdisciplinary collaboration. We then conduct an analysis of the changes introduced by MiCAR, highlighting the opportunities and challenges of integrating NLP within the new regulatory framework. Our findings set the stage for further research, with the potential to benefit regulators, crypto-asset issuers, and investors.
-    
-[^8]: 在可再生能源整合政策背景下的最优输电扩建规划
-
-    Optimal transmission expansion planning in the context of renewable energy integration policies. (arXiv:2302.10562v3 [math.OC] UPDATED)
-
-    [http://arxiv.org/abs/2302.10562](http://arxiv.org/abs/2302.10562)
-
-    本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。
+    本文采用随机矩阵理论（RMT）分析了2000年至2020年全球农产品期货市场的相关结构，发现了不对称且右偏的相关系数分布，以及特征值对RMT预测的偏离。最大特征值反映了所有农产品期货的共同市场效应，其他偏离特征值可以用于识别期货组合，且对应特征向量的显著参与者呈现基于区域属性或农产品的模块化结构。此研究对于风险管理和资产配置优化具有重要参考价值。
 
     
 
-    本文评估了可再生能源驱动的输电系统基础设施扩建对分散式能源市场总发电结构的影响程度。为此，我们使用了一个优化的双层模型，其中一个以最大化福利为目标的输电系统运营商在上层进行输电线路投资，并在下层考虑电力市场动态。为了考虑到自由化的能源市场结构，我们假设在下层的发电公司以完全竞争中的价格接受者身份进行容量投资。考虑到不同的输电基础设施扩展预算、碳排放税和可再生能源发电容量扩展的货币激励，我们研究了这些因素的不同组合如何影响可再生能源在发电结构中的份额。我们将提出的建模评估应用于一个具有三个节点的示例和一个考虑了简化repr的案例研究
+    本文采用随机矩阵理论（RMT）对2000年至2020年间全球农产品期货市场的相关结构进行分析。发现相关系数的分布是不对称的且右偏，许多相关矩阵的特征值偏离了RMT的预测。最大的特征值反映了所有农产品期货的共同市场效应，其他最大的偏离特征值可以用于识别期货组合，而对应特征向量的显著参与者存在基于区域属性或农产品的模块化结构。除了最小的特征值外，其他最小的偏离特征值代表了相关性最高的农产品期货对。本文对于利用农产品期货管理风险和优化资产配置具有参考和重要意义。
 
-    This paper assesses the extent to which a renewables-driven expansion of the transmission system infrastructure impacts the total generation mix in the decentralised energy market. For that, we employ an optimisation bi-level model in which a welfare-maximizing transmission system operator makes investments in transmission lines at the upper level while considering power market dynamics at the lower level. To account for the deregulated energy market structure, we assume that the generation companies at the lower level make capacity investments as price-takers in perfect competition. Considering alternative transmission infrastructure expansion budgets, carbon emission taxes and monetary incentives for renewable generation capacity expansion, we study how alternative compositions of these factors affect the share of renewable generation in the generation mix. We apply the proposed modelling assessment to an illustrative three-node instance and a case study considering a simplified repr
+    This paper adopts the random matrix theory (RMT) to analyze the correlation structure of the global agricultural futures market from 2000 to 2020. It is found that the distribution of correlation coefficients is asymmetric and right skewed, and many eigenvalues of the correlation matrix deviate from the RMT prediction. The largest eigenvalue reflects a collective market effect common to all agricultural futures, the other largest deviating eigenvalues can be implemented to identify futures groups, and there are modular structures based on regional properties or agricultural commodities among the significant participants of their corresponding eigenvectors. Except for the smallest eigenvalue, other smallest deviating eigenvalues represent the agricultural futures pairs with highest correlations. This paper can be of reference and significance for using agricultural futures to manage risk and optimize asset allocation.
     
-[^9]: 短期亚洲期权的一些渐近性质
+[^5]: 双重股票：它们能成为有效的预测指标吗？
 
-    Some asymptotics for short maturity Asian options. (arXiv:2302.05421v2 [q-fin.PR] UPDATED)
+    Dual-Class Stocks: Can They Serve as Effective Predictors?. (arXiv:2310.16845v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2302.05421](http://arxiv.org/abs/2302.05421)
+    [http://arxiv.org/abs/2310.16845](http://arxiv.org/abs/2310.16845)
 
-    本研究利用大偏离理论对短期亚洲期权进行渐近性质分析，提出了局部波动率模型，并估计了虚值、实值和平值短期亚洲认购期权和认沽期权的渐近性质。对于虚值期权，渐近性质受罕见事件的影响，而对于平值期权，我们找到了渐近性质的上界和下界。
-
-    
-
-    大多数现有的亚洲期权定价方法在短期和小波动率极限下效率较低。本文利用大偏离理论对短期亚洲期权进行分析。我们提出了一个局部波动率模型，该模型在漂移项和扩散项之外还包括一个跳跃项。我们估计了虚值、实值和平值短期亚洲认购期权和认沽期权的渐近性质。在适当的假设下，我们证明了虚值亚洲认购期权和认沽期权的渐近性质受到罕见事件的影响。对于平值亚洲期权，结果更为复杂，我们找到了亚洲期权价格的渐近性质的上界和下界。
-
-    Most of the existing methods for pricing Asian options are less efficient in the limit of small maturities and small volatilities. In this paper, we use the large deviations theory for the analysis of short-maturity Asian options. We present a local volatility model for the underlying market that incorporates a jump term in addition to the drift and diffusion terms. We estimate the asymptotics for the out-of-the-money, in-the-money, and at-the-money short-maturity Asian call and put options. Under appropriate assumptions, we show that the asymptotics for out-of-the-money Asian call and put options are governed by rare events. For the at-the-money Asian options, the result is more involved and in that case, we find the upper and lower bounds of the asymptotics of the Asian option price.
-    
-[^10]: 动态资源管理中生态体制最快检测方案研究
-
-    Quickest Detection of Ecological Regimes for Dynamic Resource Management. (arXiv:2005.11500v6 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2005.11500](http://arxiv.org/abs/2005.11500)
-
-    本文研究了生态体制转变下的可再生资源的随机动态，提出了一个帕累托最优的检测框架，实现最小化经济主体察觉转变的延迟，应用该框架于Sao Paulo的Cantareira水库案例中，对导致水库枯竭和随后的供水危机的事件进行了研究。
+    本文分析了Kardemir Karabuk钢铁工业贸易有限公司的三种不同股票之间的价格分歧模式，并引入了一种新的训练集选择规则为LSTM模型提供了显著的预测优势，同时表示双重股票并不能作为彼此表现的预测指标。
 
     
 
-    本文研究了面临生态体制转变威胁下的可再生资源的随机动态。我们建立了一个帕累托最优的不确定性下的生态体制转变检测框架，该框架最小化了经济主体意识到转变的延迟。我们将生态系统监测与最优资源提取政策的制定相结合。我们完整解决了一个以利润最大化为目标的垄断主义者，并提供了决定不利生态体制转变是否会导致积极或谨慎采取资源提取策略的条件，这取决于市场需求、资源稀缺和检测时间之间的交互作用。我们将我们的框架应用于巴西圣保罗的Cantareira水库案例，并研究导致其枯竭和随后的供水危机的事件。
+    Kardemir Karabuk钢铁工业贸易有限公司是土耳其第24大工业公司，在Borsa Istanbul上列出了三种不同的股票：KRDMA，KRDMB和KRDMD。这些股票在投票权方面存在唯一的差异，并且在一个长时间段内显示出显著的价格分歧。本文深入分析了这三种股票价格从2001年1月至2023年7月观察到的分歧模式。此外，本文引入了一种创新的训练集选择规则，为LSTM模型量身定制，结合滚动训练集，并且证明了它相比于使用大型训练集的传统LSTM模型具有显著的预测优势。尽管它们之间存在强烈的相关性，但研究发现没有令人信服的证据支持双重股票作为彼此表现的预测指标的效率。
 
-    We study the stochastic dynamics of renewable resources under the threat of ecological regime shifts. We establish a Pareto optimal framework of regime shift detection under uncertainty that minimizes the delay with which economic agents become aware of the shift. We integrate ecosystem surveillance in the formation of optimal resource extraction policies. We fully solve the case of a profit-maximizing monopolist and provide the conditions that determine whether an adverse regime shift can lead to an aggressive or a precautionary extraction policy, depending on the interaction between market demand, resource scarcity and detection time. We apply our framework to the case of the Cantareira water reservoir in S\~ao Paulo, Brazil, and study the events that led to its depletion and the consequent water supply crisis.
+    Kardemir Karabuk Iron Steel Industry Trade & Co. Inc., ranked as the 24th largest industrial company in Turkey, offers three distinct stocks listed on the Borsa Istanbul: KRDMA, KRDMB, and KRDMD. These stocks, sharing the sole difference in voting power, have exhibited significant price divergence over an extended period. This paper conducts an in-depth analysis of the divergence patterns observed in these three stock prices from January 2001 to July 2023. Additionally, it introduces an innovative training set selection rule tailored for LSTM models, incorporating a rolling training set, and demonstrates its significant predictive superiority over the conventional use of LSTM models with large training sets. Despite their strong correlation, the study found no compelling evidence supporting the efficiency of dual-class stocks as predictors of each other's performance.
+    
+[^6]: 日本和美国的外汇、股票和债券市场之间的关联
+
+    Linkages among the Foreign Exchange, Stock, and Bond Markets in Japan and the United States. (arXiv:2310.16841v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2310.16841](http://arxiv.org/abs/2310.16841)
+
+    该研究利用因果发现方法研究了日本和美国的金融市场之间的关联，发现了前一天的美国市场对随后一天的日本股票和债券市场有影响，以及前一天的债券市场对随后一天的外汇市场和日本股票市场有影响。
+
+    
+
+    虽然经济理论解释了不同国家金融市场之间的关联，但经验研究主要通过Granger因果性来验证关联，而不考虑潜在变量或瞬时效应。他们的研究结果在金融市场之间的因果关系存在性方面存在不一致性，这可能归因于关注的市场、数据周期和应用的方法的差异。我们的研究采用因果发现方法，包括VAR-LiNGAM和LPCMCI，并结合领域知识，探索疫情后日本和美国金融市场之间的关联，而两国的货币政策方向存在分歧。VAR-LiNGAM的结果显示，前一天的美国市场对随后一天的日本股票和债券市场有影响，前一天的债券市场直接影响随后一天的外汇市场，间接影响随后一天的日本股票市场。
+
+    While economic theory explains the linkages among the financial markets of different countries, empirical studies mainly verify the linkages through Granger causality, without considering latent variables or instantaneous effects. Their findings are inconsistent regarding the existence of causal linkages among financial markets, which might be attributed to differences in the focused markets, data periods, and methods applied. Our study adopts causal discovery methods including VAR-LiNGAM and LPCMCI with domain knowledge to explore the linkages among financial markets in Japan and the United States (US) for the post Covid-19 pandemic period under divergent monetary policy directions. The VAR-LiNGAM results reveal that the previous day's US market influences the following day's Japanese market for both stocks and bonds, and the bond markets of the previous day impact the following day's foreign exchange (FX) market directly and the following day's Japanese stock market indirectly. The L
+    
+[^7]: 投资者“实际”收益的市场统计量：统一理论描述
+
+    The Market-Based Statistics of "Actual" Returns of Investors. (arXiv:2304.06466v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.06466](http://arxiv.org/abs/2304.06466)
+
+    本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。
+
+    
+
+    本文提出了针对投资者市场销售中获得的“实际”收益的三个层次的市场统计量的统一理论描述。这些市场统计量考虑了交易销售价值的大小、购买价值和股票数量，与基于收益时间序列频率分析的传统常规统计学不同。我们首先描述了投资者通过过去的多次购买获得单次销售的统计收益率。第二个层次描述了投资者在“交易日”进行多次市场销售时获得的收益统计。第三个层次描述了在“交易日”期间不同投资者获得的收益统计。我们推导出收益的统计量对市场销售价值、购买价值和股票数量的统计量的依赖关系。反过来，交易价值和购买量的统计量取决于统计收益率的统计量。
+
+    The paper presents the unified theoretical description of three levels of the market-based statistical moments of "actual" returns, which Investors gain within their market sales. The market-based statistics of "actual" returns takes into account the size of the trade sale values, purchased values and volumes of stocks and that differs it from conventional regular statistics based on frequency analysis of returns time-series. We start with description of statistical moments of returns, which Investor gains via a single sale due to his multiple purchases in the past. The second level describes statistics of returns, which Investor gains performing numerous market sales during the "trading day". The third level describes statistics of returns that different Investors gain during the "trading day". We derive dependence of statistical moments of returns on statistical moments of market sale values, purchased values and volumes of stocks. In its turn, statistical moments of trade values and
+    
+[^8]: 远程协作减少了突破性的创意
+
+    Remote Collaboration Fuses Fewer Breakthrough Ideas. (arXiv:2206.01878v4 [cs.CY] UPDATED)
+
+    [http://arxiv.org/abs/2206.01878](http://arxiv.org/abs/2206.01878)
+
+    这项研究表明，尽管世界范围内的科学家和发明家之间的联系日益增长，但远程协作在促进突破性创新方面却越来越少产生积极影响。
+
+    
+
+    创新理论强调社交网络和团队在促进突破性发现方面的作用。如今，全球科学家和发明家数量比以往任何时候都多，并且彼此之间更加相互联系。然而，研究表明，尽管有更多人发现事物，并且有更多可以以新颖方式重新组合的思想，但是新创意越来越难以找到，这与重新组合增长理论相矛盾。在本文中，我们对这个明显的谜题进行了新的阐释。通过分析过去半个世纪内全球范围内2000万篇研究文章和400万项专利申请，我们首先记录了远程协作的兴起，强调了全球科学家和发明家之间日益增长的相互联系性。我们进一步表明，在所有领域、时期和团队规模中，相对于在现场工作的同事，远程团队的研究人员更不可能做出突破性的发现。通过创建一个数据集，可以使我们推断出
+
+    Theories of innovation emphasize the role of social networks and teams as facilitators of breakthrough discoveries. Around the world, scientists and inventors today are more plentiful and interconnected than ever before. But while there are more people making discoveries, and more ideas that can be reconfigured in novel ways, research suggests that new ideas are getting harder to find-contradicting recombinant growth theory. In this paper, we shed new light on this apparent puzzle. Analyzing 20 million research articles and 4 million patent applications across the globe over the past half-century, we begin by documenting the rise of remote collaboration across cities, underlining the growing interconnectedness of scientists and inventors globally. We further show that across all fields, periods, and team sizes, researchers in these remote teams are consistently less likely to make breakthrough discoveries relative to their onsite counterparts. Creating a dataset that allows us to explo
+    
+[^9]: 两个尾巴的故事：一种无模型方法来估计灾害风险溢价并检验资产定价模型
+
+    A Tale of Two Tails: A Model-free Approach to Estimating Disaster Risk Premia and Testing Asset Pricing Models. (arXiv:2105.08208v6 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2105.08208](http://arxiv.org/abs/2105.08208)
+
+    该论文引入了一种无模型的方法来评估灾害风险对市场回报的影响，并发现了在左尾部存在显著差异，这反映了灾害风险对股票溢价的影响。研究结果表明，底部5%的收益约贡献了17%的股票溢价，同时揭示了“佩索问题”。此外，研究还发现灾害风险增加了随机贴现因子的波动性。
+
+    
+
+    我引入了一种无模型的方法来评估灾害风险对市场回报的影响。利用标普500指数的收益率和从期权价格中推导出的风险中性分位函数，我使用分位回归来估计条件物理分布和风险中性分布之间的局部差异。结果显示主要是在左尾部存在显著差异，反映了灾害风险对股票溢价的影响。这些差异随时间变化，并在危机期间之后持续存在。平均而言，底部5%的收益对股票溢价的贡献约为17%，揭示了“佩索问题”。我还发现，灾害风险增加了随机贴现因子的波动性。利用从期权价格中观察到的物理分位函数和风险中性分位函数之间的左尾差异的下界，我得到了类似的结果，从而加强了我的研究结果的稳健性。
+
+    I introduce a model-free methodology to assess the impact of disaster risk on the market return. Using S&P500 returns and the risk-neutral quantile function derived from option prices, I employ quantile regression to estimate local differences between the conditional physical and risk-neutral distributions. The results indicate substantial disparities primarily in the left-tail, reflecting the influence of disaster risk on the equity premium. These differences vary over time and persist beyond crisis periods. On average, the bottom 5% of returns contribute to 17% of the equity premium, shedding light on the Peso problem. I also find that disaster risk increases the stochastic discount factor's volatility. Using a lower bound observed from option prices on the left-tail difference between the physical and risk-neutral quantile functions, I obtain similar results, reinforcing the robustness of my findings.
+    
+[^10]: 债务危机污名的研究
+
+    Bailout Stigma. (arXiv:2006.05640v4 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2006.05640](http://arxiv.org/abs/2006.05640)
+
+    该论文研究了债务危机污名的模型，发现接受债务救助会恶化公司的融资前景；高质量公司要么退出后续融资，要么拒绝救助以发送有利信号；存在多个债务救助方案会加剧污名并加剧市场冻结。
+
+    
+
+    我们提出了一个债务危机污名模型，其中接受债务救助会暗示公司资产负债表弱点并恶化其融资前景。为了避免污名，高质量的公司要么在获得救助后退出后续融资，要么拒绝救助以发送一个有利的信号。前者导致短暂刺激，随后市场冻结甚至比没有救助时更严重。后者恢复了融资市场，但会有延迟，达到了没有任何污名的水平，并实现了受限的最优结果。多个债务救助方案的选择也增加了债务危机污名，并加剧了市场冻结。
+
+    We develop a model of bailout stigma where accepting a bailout signals a firm's balance-sheet weakness and worsens its funding prospect. To avoid stigma, high-quality firms either withdraw from subsequent financing after receiving bailouts or refuse bailouts altogether to send a favorable signal. The former leads to a short-lived stimulation with a subsequent market freeze even worse than if there were no bailouts. The latter revives the funding market, albeit with delay, to the level achievable without any stigma, and implements a constrained optimal outcome. A menu of multiple bailout programs also compounds bailout stigma and worsens market freeze.
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "Weakly-Supervised Surgical Phase Recognition. (arXiv:2310.17209v1 [cs.CV])",
+    "abstract": "A key element of computer-assisted surgery systems is phase recognition of surgical videos. Existing phase recognition algorithms require frame-wise annotation of a large number of videos, which is time and money consuming. In this work we join concepts of graph segmentation with self-supervised learning to derive a random-walk solution for per-frame phase prediction. Furthermore, we utilize within our method two forms of weak supervision: sparse timestamps or few-shot learning. The proposed algorithm enjoys low complexity and can operate in lowdata regimes. We validate our method by running experiments with the public Cholec80 dataset of laparoscopic cholecystectomy videos, demonstrating promising performance in multiple setups.",
+    "link": "http://arxiv.org/abs/2310.17209",
+    "context": "Title: Weakly-Supervised Surgical Phase Recognition. (arXiv:2310.17209v1 [cs.CV])\nAbstract: A key element of computer-assisted surgery systems is phase recognition of surgical videos. Existing phase recognition algorithms require frame-wise annotation of a large number of videos, which is time and money consuming. In this work we join concepts of graph segmentation with self-supervised learning to derive a random-walk solution for per-frame phase prediction. Furthermore, we utilize within our method two forms of weak supervision: sparse timestamps or few-shot learning. The proposed algorithm enjoys low complexity and can operate in lowdata regimes. We validate our method by running experiments with the public Cholec80 dataset of laparoscopic cholecystectomy videos, demonstrating promising performance in multiple setups.",
+    "path": "papers/23/10/2310.17209.json",
+    "total_tokens": 789,
+    "translated_title": "弱监督手术阶段识别",
+    "translated_abstract": "计算机辅助手术系统的关键要素是手术视频的阶段识别。现有的阶段识别算法需要对大量视频进行逐帧注释，这需要耗费时间和金钱。在这项工作中，我们将图分割的概念与自监督学习相结合，提出了一种随机游走解决方案，用于每帧的阶段预测。此外，我们的方法利用了两种形式的弱监督：稀疏时间戳或少样本学习。该算法具有低复杂度，并且可以在低数据环境下运行。我们通过在公开的Cholec80腹腔镜胆囊切除视频数据集上进行实验验证了我们的方法，在多种设置下展现了令人期待的性能。",
+    "tldr": "本文提出了一种弱监督手术阶段识别的方法，在每帧的阶段预测中结合了图分割和自监督学习，使用了稀疏时间戳或少样本学习进行弱监督。该方法具有低复杂度，并在实验中展现了令人期待的性能。"
+}

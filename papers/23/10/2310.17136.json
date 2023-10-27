@@ -1,0 +1,12 @@
+{
+    "title": "Core Challenge 2023: Solver and Graph Descriptions. (arXiv:2310.17136v1 [cs.PL])",
+    "abstract": "This paper collects all descriptions of solvers and ISR instances submitted to CoRe Challenge 2023.",
+    "link": "http://arxiv.org/abs/2310.17136",
+    "context": "Title: Core Challenge 2023: Solver and Graph Descriptions. (arXiv:2310.17136v1 [cs.PL])\nAbstract: This paper collects all descriptions of solvers and ISR instances submitted to CoRe Challenge 2023.",
+    "path": "papers/23/10/2310.17136.json",
+    "total_tokens": 366,
+    "translated_title": "Core Challenge 2023: 求解器和图描述",
+    "translated_abstract": "本文收集了提交给 CoRe Challenge 2023 的求解器和 ISR 实例的所有描述。",
+    "tldr": "本文总结了 CoRe Challenge 2023 中提交的求解器和 ISR 实例的所有描述。",
+    "en_tdlr": "This paper summarizes all descriptions of solvers and ISR instances submitted to CoRe Challenge 2023."
+}

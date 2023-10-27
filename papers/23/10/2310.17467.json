@@ -1,0 +1,12 @@
+{
+    "title": "The statistical thermodynamics of generative diffusion models. (arXiv:2310.17467v1 [stat.ML])",
+    "abstract": "Generative diffusion models have achieved spectacular performance in many areas of generative modeling. While the fundamental ideas behind these models come from non-equilibrium physics, in this paper we show that many aspects of these models can be understood using the tools of equilibrium statistical mechanics. Using this reformulation, we show that generative diffusion models undergo second-order phase transitions corresponding to symmetry breaking phenomena. We argue that this lead to a form of instability that lies at the heart of their generative capabilities and that can be described by a set of mean field critical exponents. We conclude by analyzing recent work connecting diffusion models and associative memory networks in view of the thermodynamic formulations.",
+    "link": "http://arxiv.org/abs/2310.17467",
+    "context": "Title: The statistical thermodynamics of generative diffusion models. (arXiv:2310.17467v1 [stat.ML])\nAbstract: Generative diffusion models have achieved spectacular performance in many areas of generative modeling. While the fundamental ideas behind these models come from non-equilibrium physics, in this paper we show that many aspects of these models can be understood using the tools of equilibrium statistical mechanics. Using this reformulation, we show that generative diffusion models undergo second-order phase transitions corresponding to symmetry breaking phenomena. We argue that this lead to a form of instability that lies at the heart of their generative capabilities and that can be described by a set of mean field critical exponents. We conclude by analyzing recent work connecting diffusion models and associative memory networks in view of the thermodynamic formulations.",
+    "path": "papers/23/10/2310.17467.json",
+    "total_tokens": 720,
+    "translated_title": "生成性扩散模型的统计热力学",
+    "translated_abstract": "生成性扩散模型在生成建模的许多领域取得了惊人的表现。虽然这些模型的基本思想来自非平衡物理学，但本文中我们表明，可以用平衡统计力学的工具来理解这些模型的许多方面。利用这种重构，我们展示了生成性扩散模型经历了与对称性破缺现象相对应的二阶相变。我们认为，这导致了一种稳定性形式，它是生成能力的核心，并可以用一组平均场临界指数来描述。最后，我们根据热力学的公式分析了将扩散模型与关联记忆网络连接的最近研究。",
+    "tldr": "本文通过在生成性扩散模型中应用平衡统计力学的工具，揭示了这些模型中的二阶相变现象，并且认为这种稳定性形式是生成能力的关键。",
+    "en_tdlr": "This paper applies tools from equilibrium statistical mechanics to understand generative diffusion models, revealing second-order phase transition phenomena and emphasizing their crucial role in generative capabilities."
+}

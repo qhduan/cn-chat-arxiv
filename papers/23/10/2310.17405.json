@@ -1,0 +1,11 @@
+{
+    "title": "Causal Modeling with Stationary Diffusions. (arXiv:2310.17405v1 [cs.LG])",
+    "abstract": "We develop a novel approach towards causal inference. Rather than structural equations over a causal graph, we learn stochastic differential equations (SDEs) whose stationary densities model a system's behavior under interventions. These stationary diffusion models do not require the formalism of causal graphs, let alone the common assumption of acyclicity. We show that in several cases, they generalize to unseen interventions on their variables, often better than classical approaches. Our inference method is based on a new theoretical result that expresses a stationarity condition on the diffusion's generator in a reproducing kernel Hilbert space. The resulting kernel deviation from stationarity (KDS) is an objective function of independent interest.",
+    "link": "http://arxiv.org/abs/2310.17405",
+    "context": "Title: Causal Modeling with Stationary Diffusions. (arXiv:2310.17405v1 [cs.LG])\nAbstract: We develop a novel approach towards causal inference. Rather than structural equations over a causal graph, we learn stochastic differential equations (SDEs) whose stationary densities model a system's behavior under interventions. These stationary diffusion models do not require the formalism of causal graphs, let alone the common assumption of acyclicity. We show that in several cases, they generalize to unseen interventions on their variables, often better than classical approaches. Our inference method is based on a new theoretical result that expresses a stationarity condition on the diffusion's generator in a reproducing kernel Hilbert space. The resulting kernel deviation from stationarity (KDS) is an objective function of independent interest.",
+    "path": "papers/23/10/2310.17405.json",
+    "total_tokens": 686,
+    "translated_title": "带有平稳扩散的因果建模",
+    "translated_abstract": "我们提出了一种新颖的因果推断方法。与使用因果图的结构方程不同，我们学习随机微分方程(SDE)，其平稳密度可以模拟系统在干预下的行为。这些平稳扩散模型不需要因果图的形式化，更不需要常见的无环性假设。我们展示了在多种情况下，它们比传统方法更好地推广到变量上的未见干预。我们的推断方法基于一个新的理论结果，该结果在再生核希尔伯特空间中表达了扩散的生成器的稳定条件。由此产生的核从稳态偏离(KDS)是一个值得独立关注的客观函数。",
+    "tldr": "本文提出了一种新颖的因果推断方法，使用随机微分方程建模系统行为，不需要因果图的形式化。在多种情况下，该方法比传统方法更好地推广到未见干预的变量。"
+}

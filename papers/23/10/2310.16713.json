@@ -1,0 +1,12 @@
+{
+    "title": "SkyMath: Technical Report. (arXiv:2310.16713v2 [cs.CL] UPDATED)",
+    "abstract": "Large language models (LLMs) have shown great potential to solve varieties of natural language processing (NLP) tasks, including mathematical reasoning. In this work, we present SkyMath, a large language model for mathematics with 13 billion parameters. By applying self-compare fine-tuning, we have enhanced mathematical reasoning abilities of Skywork-13B-Base remarkably. On GSM8K, SkyMath outperforms all known open-source models of similar size and has established a new SOTA performance.",
+    "link": "http://arxiv.org/abs/2310.16713",
+    "context": "Title: SkyMath: Technical Report. (arXiv:2310.16713v2 [cs.CL] UPDATED)\nAbstract: Large language models (LLMs) have shown great potential to solve varieties of natural language processing (NLP) tasks, including mathematical reasoning. In this work, we present SkyMath, a large language model for mathematics with 13 billion parameters. By applying self-compare fine-tuning, we have enhanced mathematical reasoning abilities of Skywork-13B-Base remarkably. On GSM8K, SkyMath outperforms all known open-source models of similar size and has established a new SOTA performance.",
+    "path": "papers/23/10/2310.16713.json",
+    "total_tokens": 607,
+    "translated_title": "SkyMath：技术报告",
+    "translated_abstract": "大型语言模型（LLMs）展示了在各种自然语言处理（NLP）任务中解决问题的巨大潜力，包括数学推理。在这项工作中，我们提出了一个具有130亿参数的数学大型语言模型SkyMath。通过自比较微调，我们显著提升了Skywork-13B-Base的数学推理能力。在GSM8K上，SkyMath超过了所有已知的开源模型，并建立了新的SOTA性能。",
+    "tldr": "SkyMath是一个13亿参数的大型语言模型，通过自比较微调，它在数学推理任务中表现优秀，超过了同等规模的所有开源模型，并取得了新的SOTA最佳性能。",
+    "en_tdlr": "SkyMath is a large language model with 13 billion parameters that outperforms known open-source models in mathematical reasoning tasks, establishing a new state-of-the-art performance."
+}

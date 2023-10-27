@@ -1,0 +1,12 @@
+{
+    "title": "On the Convergence to a Global Solution of Shuffling-Type Gradient Algorithms. (arXiv:2206.05869v2 [cs.LG] UPDATED)",
+    "abstract": "Stochastic gradient descent (SGD) algorithm is the method of choice in many machine learning tasks thanks to its scalability and efficiency in dealing with large-scale problems. In this paper, we focus on the shuffling version of SGD which matches the mainstream practical heuristics. We show the convergence to a global solution of shuffling SGD for a class of non-convex functions under over-parameterized settings. Our analysis employs more relaxed non-convex assumptions than previous literature. Nevertheless, we maintain the desired computational complexity as shuffling SGD has achieved in the general convex setting.",
+    "link": "http://arxiv.org/abs/2206.05869",
+    "context": "Title: On the Convergence to a Global Solution of Shuffling-Type Gradient Algorithms. (arXiv:2206.05869v2 [cs.LG] UPDATED)\nAbstract: Stochastic gradient descent (SGD) algorithm is the method of choice in many machine learning tasks thanks to its scalability and efficiency in dealing with large-scale problems. In this paper, we focus on the shuffling version of SGD which matches the mainstream practical heuristics. We show the convergence to a global solution of shuffling SGD for a class of non-convex functions under over-parameterized settings. Our analysis employs more relaxed non-convex assumptions than previous literature. Nevertheless, we maintain the desired computational complexity as shuffling SGD has achieved in the general convex setting.",
+    "path": "papers/22/06/2206.05869.json",
+    "total_tokens": 725,
+    "translated_title": "关于混洗型梯度算法收敛到全局解的论述",
+    "translated_abstract": "随机梯度下降（SGD）算法是许多机器学习任务中的选择方法，因其可扩展性和处理大规模问题的效率而受青睐。在本文中，我们专注于混洗版本的SGD，该版本与主流的实际启发式方法相匹配。我们展示了在过参数化设置下，对于一类非凸函数，混洗SGD收敛到全局解。我们的分析使用了比先前文献更宽松的非凸假设。尽管如此，我们仍然保持了混洗SGD在一般凸设置中所取得的期望计算复杂度。",
+    "tldr": "本文讨论了混洗型梯度算法在过参数化设置下对一类非凸函数的收敛性，证明了其能够收敛到全局解，并且在计算复杂度上与一般凸函数的情况相当。",
+    "en_tdlr": "This paper discusses the convergence of shuffling-type gradient algorithms to global solutions for a class of non-convex functions under over-parameterized settings, demonstrating that they can achieve convergence to global solutions while maintaining similar computational complexity as in the case of general convex functions."
+}

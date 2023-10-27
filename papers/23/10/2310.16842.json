@@ -1,0 +1,11 @@
+{
+    "title": "Enhancing Energy-efficiency by Solving the Throughput Bottleneck of LSTM Cells for Embedded FPGAs. (arXiv:2310.16842v1 [cs.AR])",
+    "abstract": "To process sensor data in the Internet of Things(IoTs), embedded deep learning for 1-dimensional data is an important technique. In the past, CNNs were frequently used because they are simple to optimise for special embedded hardware such as FPGAs. This work proposes a novel LSTM cell optimisation aimed at energy-efficient inference on end devices. Using the traffic speed prediction as a case study, a vanilla LSTM model with the optimised LSTM cell achieves 17534 inferences per second while consuming only 3.8 $\\mu$J per inference on the FPGA \\textit{XC7S15} from \\textit{Spartan-7} family. It achieves at least 5.4$\\times$ faster throughput and 1.37$\\times$ more energy efficient than existing approaches.",
+    "link": "http://arxiv.org/abs/2310.16842",
+    "context": "Title: Enhancing Energy-efficiency by Solving the Throughput Bottleneck of LSTM Cells for Embedded FPGAs. (arXiv:2310.16842v1 [cs.AR])\nAbstract: To process sensor data in the Internet of Things(IoTs), embedded deep learning for 1-dimensional data is an important technique. In the past, CNNs were frequently used because they are simple to optimise for special embedded hardware such as FPGAs. This work proposes a novel LSTM cell optimisation aimed at energy-efficient inference on end devices. Using the traffic speed prediction as a case study, a vanilla LSTM model with the optimised LSTM cell achieves 17534 inferences per second while consuming only 3.8 $\\mu$J per inference on the FPGA \\textit{XC7S15} from \\textit{Spartan-7} family. It achieves at least 5.4$\\times$ faster throughput and 1.37$\\times$ more energy efficient than existing approaches.",
+    "path": "papers/23/10/2310.16842.json",
+    "total_tokens": 844,
+    "translated_title": "通过解决嵌入式FPGA中LSTM单元的吞吐量瓶颈，增强能效",
+    "translated_abstract": "在物联网中处理传感器数据，嵌入式深度学习对于一维数据非常重要。过去，经常使用CNN因为它们对于特殊的嵌入式硬件比如FPGA来说很容易优化。本研究提出了一种针对在终端设备上进行能效推断的新型LSTM单元优化方法。以交通速度预测为案例研究，优化后的LSTM单元的简单LSTM模型在FPGA XC7S15（来自Spartan-7系列）上每秒可实现17534个推断，仅消耗每个推断3.8微焦耳的能量。相比现有方法，它的吞吐量至少提高了5.4倍，能效提高了1.37倍。",
+    "tldr": "本研究通过优化LSTM单元，提出了一种在终端设备上进行能效推断的新方法。以交通速度预测为例，优化后的LSTM单元在FPGA上实现了较快的推断速度和较低的能耗，相比现有方法提高了吞吐量和能效。"
+}

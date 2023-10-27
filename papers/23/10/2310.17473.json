@@ -1,0 +1,11 @@
+{
+    "title": "Bayesian SAR model with stochastic volatility and multiple time-varying weights. (arXiv:2310.17473v1 [stat.AP])",
+    "abstract": "A novel spatial autoregressive model for panel data is introduced, which incorporates multilayer networks and accounts for time-varying relationships. Moreover, the proposed approach allows the structural variance to evolve smoothly over time and enables the analysis of shock propagation in terms of time-varying spillover effects. The framework is applied to analyse the dynamics of international relationships among the G7 economies and their impact on stock market returns and volatilities. The findings underscore the substantial impact of cooperative interactions and highlight discernible disparities in network exposure across G7 nations, along with nuanced patterns in direct and indirect spillover effects.",
+    "link": "http://arxiv.org/abs/2310.17473",
+    "context": "Title: Bayesian SAR model with stochastic volatility and multiple time-varying weights. (arXiv:2310.17473v1 [stat.AP])\nAbstract: A novel spatial autoregressive model for panel data is introduced, which incorporates multilayer networks and accounts for time-varying relationships. Moreover, the proposed approach allows the structural variance to evolve smoothly over time and enables the analysis of shock propagation in terms of time-varying spillover effects. The framework is applied to analyse the dynamics of international relationships among the G7 economies and their impact on stock market returns and volatilities. The findings underscore the substantial impact of cooperative interactions and highlight discernible disparities in network exposure across G7 nations, along with nuanced patterns in direct and indirect spillover effects.",
+    "path": "papers/23/10/2310.17473.json",
+    "total_tokens": 723,
+    "translated_title": "具有随机波动率和多个时变权重的贝叶斯SAR模型",
+    "translated_abstract": "介绍了一种新颖的面板数据空间自相关模型，该模型结合了多层网络并考虑了时变关系。此外，所提出的方法允许结构方差随时间平滑变化，并能够分析以时变溢出效应为特征的冲击传播。该框架应用于分析G7经济体之间的国际关系动态及其对股市收益和波动性的影响。研究结果强调了合作互动的重要影响，并突出了G7各国网络暴露的差异以及直接和间接溢出效应的微妙模式。",
+    "tldr": "提出了一种新颖的贝叶斯SAR模型，该模型不仅考虑了多层网络和时变关系，还能够分析时变溢出效应和国际关系动态对股市的影响。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Safety, in Numbers. (arXiv:2310.17517v1 [econ.TH])",
+    "abstract": "We introduce a way to compare actions in decision problems. An action is safer than another if the set of beliefs at which the decision-maker prefers the safer action increases in size (in the set inclusion sense) as the decision-maker becomes more risk averse. We provide a full characterization of this relation and discuss applications to robust belief elicitation, contracting, Bayesian persuasion, game theory, and investment hedging.",
+    "link": "http://arxiv.org/abs/2310.17517",
+    "context": "Title: Safety, in Numbers. (arXiv:2310.17517v1 [econ.TH])\nAbstract: We introduce a way to compare actions in decision problems. An action is safer than another if the set of beliefs at which the decision-maker prefers the safer action increases in size (in the set inclusion sense) as the decision-maker becomes more risk averse. We provide a full characterization of this relation and discuss applications to robust belief elicitation, contracting, Bayesian persuasion, game theory, and investment hedging.",
+    "path": "papers/23/10/2310.17517.json",
+    "total_tokens": 679,
+    "translated_title": "数量中的安全性。",
+    "translated_abstract": "我们引入了一种比较决策问题中行动的方法。如果在决策者变得更加风险厌恶的情况下，决策者更喜欢更安全的行动的信念集增大（以集合包含关系为定义），那么这个行动就比另一个行动更安全。我们对这种关系进行了完整的刻画，并讨论了在鲁棒信念引出、合约、贝叶斯博弈、投资对冲等方面的应用。",
+    "tldr": "我们提出了一种比较决策问题中行动的方法，即通过决策者的风险厌恶程度来确定哪个行动更安全。我们对这种关系进行了完整的刻画，并讨论了其在鲁棒信念引出、合约、贝叶斯博弈和投资对冲等领域的应用。",
+    "en_tdlr": "We introduce a way to compare actions in decision problems based on the decision-maker's risk aversion, where an action is considered safer if the decision-maker prefers it as their risk aversion increases. We provide a full characterization of this relation and discuss its applications in robust belief elicitation, contracting, Bayesian persuasion, game theory, and investment hedging."
+}

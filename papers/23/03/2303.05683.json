@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchical clustering with OWA-based linkages, the Lance-Williams formula, and dendrogram inversions. (arXiv:2303.05683v2 [stat.ML] UPDATED)",
+    "abstract": "Agglomerative hierarchical clustering based on Ordered Weighted Averaging (OWA) operators not only generalises the single, complete, and average linkages, but also includes intercluster distances based on a few nearest or farthest neighbours, trimmed and winsorised means of pairwise point similarities, amongst many others. We explore the relationships between the famous Lance-Williams update formula and the extended OWA-based linkages with weights generated via infinite coefficient sequences. Furthermore, we provide some conditions for the weight generators to guarantee the resulting dendrograms to be free from unaesthetic inversions.",
+    "link": "http://arxiv.org/abs/2303.05683",
+    "context": "Title: Hierarchical clustering with OWA-based linkages, the Lance-Williams formula, and dendrogram inversions. (arXiv:2303.05683v2 [stat.ML] UPDATED)\nAbstract: Agglomerative hierarchical clustering based on Ordered Weighted Averaging (OWA) operators not only generalises the single, complete, and average linkages, but also includes intercluster distances based on a few nearest or farthest neighbours, trimmed and winsorised means of pairwise point similarities, amongst many others. We explore the relationships between the famous Lance-Williams update formula and the extended OWA-based linkages with weights generated via infinite coefficient sequences. Furthermore, we provide some conditions for the weight generators to guarantee the resulting dendrograms to be free from unaesthetic inversions.",
+    "path": "papers/23/03/2303.05683.json",
+    "total_tokens": 712,
+    "translated_title": "使用基于OWA的链接、Lance-Williams公式和树枝反转的层次聚类",
+    "translated_abstract": "基于有序加权平均（OWA）算子的凝聚层次聚类不仅推广了单个的、完全的和平均的链接，还包括基于一些最近或最远邻居、修剪和修整的点对相似性的平均值的集群间距。我们探索了著名的Lance-Williams更新公式与扩展的基于OWA的链接之间的关系，并通过无限系数序列生成权重。此外，我们提供了一些条件，以保证权重生成器产生的树枝图不会出现不美观的反转。",
+    "tldr": "本研究通过使用基于OWA的链接，Lance-Williams公式和树枝反转技术，推广了凝聚层次聚类，并提供了一些条件用于保证结果的树枝图没有不美观的反转。",
+    "en_tdlr": "This study extends agglomerative hierarchical clustering by using OWA-based linkages, the Lance-Williams formula, and dendrogram inversions. It provides conditions to guarantee aesthetically pleasing dendrograms in the resulting clusters."
+}

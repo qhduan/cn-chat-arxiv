@@ -1,0 +1,12 @@
+{
+    "title": "MaxEnt Loss: Constrained Maximum Entropy for Calibration under Out-of-Distribution Shift. (arXiv:2310.17159v1 [cs.LG])",
+    "abstract": "We present a new loss function that addresses the out-of-distribution (OOD) calibration problem. While many objective functions have been proposed to effectively calibrate models in-distribution, our findings show that they do not always fare well OOD. Based on the Principle of Maximum Entropy, we incorporate helpful statistical constraints observed during training, delivering better model calibration without sacrificing accuracy. We provide theoretical analysis and show empirically that our method works well in practice, achieving state-of-the-art calibration on both synthetic and real-world benchmarks.",
+    "link": "http://arxiv.org/abs/2310.17159",
+    "context": "Title: MaxEnt Loss: Constrained Maximum Entropy for Calibration under Out-of-Distribution Shift. (arXiv:2310.17159v1 [cs.LG])\nAbstract: We present a new loss function that addresses the out-of-distribution (OOD) calibration problem. While many objective functions have been proposed to effectively calibrate models in-distribution, our findings show that they do not always fare well OOD. Based on the Principle of Maximum Entropy, we incorporate helpful statistical constraints observed during training, delivering better model calibration without sacrificing accuracy. We provide theoretical analysis and show empirically that our method works well in practice, achieving state-of-the-art calibration on both synthetic and real-world benchmarks.",
+    "path": "papers/23/10/2310.17159.json",
+    "total_tokens": 771,
+    "translated_title": "最大熵损失：针对超出分布转换的校准的约束最大熵方法",
+    "translated_abstract": "我们提出了一种解决超出分布转换校准问题的新的损失函数。虽然有很多目标函数被提出来有效地在分布内校准模型，我们的研究发现它们在超出分布的情况下表现并不好。基于最大熵原理，我们在训练过程中引入有用的统计约束，以在不牺牲准确性的情况下提供更好的模型校准。我们提供了理论分析并通过实验证明我们的方法在实践中表现良好，在合成和真实世界的基准上实现了最先进的校准效果。",
+    "tldr": "本论文提出了一种新的损失函数，用于解决超出分布转换的校准问题。该方法基于最大熵原理，在训练过程中引入统计约束，以提供更好的模型校准效果，同时不牺牲准确性。实验证明该方法在合成和真实世界的基准上实现了最先进的校准效果。",
+    "en_tdlr": "This paper proposes a new loss function to address the calibration problem under out-of-distribution shift. The method incorporates statistical constraints based on the Principle of Maximum Entropy, achieving better model calibration without sacrificing accuracy. Experimental results demonstrate state-of-the-art calibration on synthetic and real-world benchmarks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Data Fusion using the Tsetlin Machine. (arXiv:2310.17207v1 [cs.AI])",
+    "abstract": "We propose a novel way of assessing and fusing noisy dynamic data using a Tsetlin Machine. Our approach consists in monitoring how explanations in form of logical clauses that a TM learns changes with possible noise in dynamic data. This way TM can recognize the noise by lowering weights of previously learned clauses, or reflect it in the form of new clauses. We also perform a comprehensive experimental study using notably different datasets that demonstrated high performance of the proposed approach.",
+    "link": "http://arxiv.org/abs/2310.17207",
+    "context": "Title: Efficient Data Fusion using the Tsetlin Machine. (arXiv:2310.17207v1 [cs.AI])\nAbstract: We propose a novel way of assessing and fusing noisy dynamic data using a Tsetlin Machine. Our approach consists in monitoring how explanations in form of logical clauses that a TM learns changes with possible noise in dynamic data. This way TM can recognize the noise by lowering weights of previously learned clauses, or reflect it in the form of new clauses. We also perform a comprehensive experimental study using notably different datasets that demonstrated high performance of the proposed approach.",
+    "path": "papers/23/10/2310.17207.json",
+    "total_tokens": 643,
+    "translated_title": "使用Tsetlin机器进行高效数据融合",
+    "translated_abstract": "我们提出了一种使用Tsetlin Machine评估和融合嘈杂动态数据的新方法。我们的方法是通过监测Tsetlin Machine学习到的逻辑子句在动态数据中可能存在的噪声情况下的变化来识别和融合噪声。通过降低先前学习到的子句的权重或以新的子句形式反映噪声。我们还进行了一项全面的实验研究，使用了不同的数据集，结果显示出所提出方法的高性能。",
+    "tldr": "这项研究提出了一种使用Tsetlin机器进行高效数据融合的新方法，通过监测学习到的逻辑子句在动态数据中的变化，识别和融合噪声，并在实验中展示出高性能。",
+    "en_tdlr": "This study proposes a novel approach using the Tsetlin Machine for efficient data fusion, which can identify and fuse noise by monitoring the changes of logical clauses learned in dynamic data, and demonstrates high performance in experiments."
+}

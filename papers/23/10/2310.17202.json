@@ -1,0 +1,11 @@
+{
+    "title": "miditok: A Python package for MIDI file tokenization. (arXiv:2310.17202v1 [cs.LG])",
+    "abstract": "Recent progress in natural language processing has been adapted to the symbolic music modality. Language models, such as Transformers, have been used with symbolic music for a variety of tasks among which music generation, modeling or transcription, with state-of-the-art performances. These models are beginning to be used in production products. To encode and decode music for the backbone model, they need to rely on tokenizers, whose role is to serialize music into sequences of distinct elements called tokens. MidiTok is an open-source library allowing to tokenize symbolic music with great flexibility and extended features. It features the most popular music tokenizations, under a unified API. It is made to be easily used and extensible for everyone.",
+    "link": "http://arxiv.org/abs/2310.17202",
+    "context": "Title: miditok: A Python package for MIDI file tokenization. (arXiv:2310.17202v1 [cs.LG])\nAbstract: Recent progress in natural language processing has been adapted to the symbolic music modality. Language models, such as Transformers, have been used with symbolic music for a variety of tasks among which music generation, modeling or transcription, with state-of-the-art performances. These models are beginning to be used in production products. To encode and decode music for the backbone model, they need to rely on tokenizers, whose role is to serialize music into sequences of distinct elements called tokens. MidiTok is an open-source library allowing to tokenize symbolic music with great flexibility and extended features. It features the most popular music tokenizations, under a unified API. It is made to be easily used and extensible for everyone.",
+    "path": "papers/23/10/2310.17202.json",
+    "total_tokens": 741,
+    "translated_title": "miditok：一个用于MIDI文件分词的Python包",
+    "translated_abstract": "最近自然语言处理的进展已经被适应到了符号音乐领域。语言模型，如Transformer，已经被用于符号音乐的各种任务，包括音乐生成、建模或转录，具有最先进的性能。这些模型开始被应用于实际产品中。为了对主干模型进行音乐的编码和解码，它们需要依靠分词器，分词器的作用是将音乐序列化为一系列不同元素（称为标记）的序列。MidiTok是一个开源库，可以以极高的灵活性和扩展性对符号音乐进行分词。它包含了最流行的音乐分词方式，并提供了统一的API。它旨在为每个人提供易于使用和扩展的工具。",
+    "tldr": "MidiTok是一个用于将符号音乐进行分词的Python包，具有灵活性和扩展性，支持最流行的音乐分词方式，并提供了统一的API。"
+}

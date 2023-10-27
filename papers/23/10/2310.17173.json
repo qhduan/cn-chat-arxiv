@@ -1,0 +1,12 @@
+{
+    "title": "DSAC-C: Constrained Maximum Entropy for Robust Discrete Soft-Actor Critic. (arXiv:2310.17173v1 [cs.LG])",
+    "abstract": "We present a novel extension to the family of Soft Actor-Critic (SAC) algorithms. We argue that based on the Maximum Entropy Principle, discrete SAC can be further improved via additional statistical constraints derived from a surrogate critic policy. Furthermore, our findings suggests that these constraints provide an added robustness against potential domain shifts, which are essential for safe deployment of reinforcement learning agents in the real-world. We provide theoretical analysis and show empirical results on low data regimes for both in-distribution and out-of-distribution variants of Atari 2600 games.",
+    "link": "http://arxiv.org/abs/2310.17173",
+    "context": "Title: DSAC-C: Constrained Maximum Entropy for Robust Discrete Soft-Actor Critic. (arXiv:2310.17173v1 [cs.LG])\nAbstract: We present a novel extension to the family of Soft Actor-Critic (SAC) algorithms. We argue that based on the Maximum Entropy Principle, discrete SAC can be further improved via additional statistical constraints derived from a surrogate critic policy. Furthermore, our findings suggests that these constraints provide an added robustness against potential domain shifts, which are essential for safe deployment of reinforcement learning agents in the real-world. We provide theoretical analysis and show empirical results on low data regimes for both in-distribution and out-of-distribution variants of Atari 2600 games.",
+    "path": "papers/23/10/2310.17173.json",
+    "total_tokens": 693,
+    "translated_title": "DSAC-C: 约束最大熵用于鲁棒性离散化软-演员-评论家算法",
+    "translated_abstract": "我们提出了一种新的Soft Actor-Critic (SAC)算法的扩展。我们认为基于最大熵原理，可以通过从替代评论家策略中得到的额外统计约束来进一步改进离散的SAC。此外，我们的研究结果表明，这些约束对于在现实世界中安全部署强化学习代理是至关重要的，并提供了对低数据情况下的Atari 2600游戏的分布内和分布外变体的理论分析和实证结果。",
+    "tldr": "DSAC-C是一种约束最大熵的鲁棒离散软-演员-评论家算法，通过额外的统计约束提供了对潜在领域变化的鲁棒性和在现实世界中安全部署的能力。",
+    "en_tdlr": "DSAC-C is a constrained maximum entropy algorithm for robust discrete soft-actor critic, providing robustness against potential domain shifts and the ability to be safely deployed in the real world through additional statistical constraints."
+}
