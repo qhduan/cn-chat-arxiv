@@ -1,0 +1,12 @@
+{
+    "title": "AdaTask: Adaptive Multitask Online Learning. (arXiv:2205.15802v2 [cs.LG] UPDATED)",
+    "abstract": "We introduce and analyze AdaTask, a multitask online learning algorithm that adapts to the unknown structure of the tasks. When the $N$ tasks are stochastically activated, we show that the regret of AdaTask is better, by a factor that can be as large as $\\sqrt{N}$, than the regret achieved by running $N$ independent algorithms, one for each task. AdaTask can be seen as a comparator-adaptive version of Follow-the-Regularized-Leader with a Mahalanobis norm potential. Through a variational formulation of this potential, our analysis reveals how AdaTask jointly learns the tasks and their structure. Experiments supporting our findings are presented.",
+    "link": "http://arxiv.org/abs/2205.15802",
+    "context": "Title: AdaTask: Adaptive Multitask Online Learning. (arXiv:2205.15802v2 [cs.LG] UPDATED)\nAbstract: We introduce and analyze AdaTask, a multitask online learning algorithm that adapts to the unknown structure of the tasks. When the $N$ tasks are stochastically activated, we show that the regret of AdaTask is better, by a factor that can be as large as $\\sqrt{N}$, than the regret achieved by running $N$ independent algorithms, one for each task. AdaTask can be seen as a comparator-adaptive version of Follow-the-Regularized-Leader with a Mahalanobis norm potential. Through a variational formulation of this potential, our analysis reveals how AdaTask jointly learns the tasks and their structure. Experiments supporting our findings are presented.",
+    "path": "papers/22/05/2205.15802.json",
+    "total_tokens": 761,
+    "translated_title": "AdaTask：自适应多任务在线学习",
+    "translated_abstract": "我们引入并分析了AdaTask，一种适应任务未知结构的多任务在线学习算法。当$N$个任务被随机激活时，我们证明AdaTask的遗憾比运行$N$个独立算法（每个任务一个算法）获得的遗憾要好，可以提高一个因子，达到$\\sqrt{N}$。AdaTask可以被看作是Follow-the-Regularized-Leader的比较器自适应版本，使用马氏距离势函数。通过对这个势函数的变分表示，我们的分析揭示了AdaTask如何同时学习任务和它们的结构。我们展示了支持我们发现的实验。",
+    "tldr": "AdaTask是一种自适应多任务在线学习算法，当任务被随机激活时，它的遗憾比运行独立算法更小，可以提高一个因子达到$\\sqrt{N}$。AdaTask通过马氏距离势函数和变分表示同时学习任务和任务结构。",
+    "en_tdlr": "AdaTask is an adaptive multitask online learning algorithm that achieves lower regret than running independent algorithms when tasks are stochastically activated, with a factor of improvement up to $\\sqrt{N}$. AdaTask learns the tasks and their structure simultaneously using a Mahalanobis norm potential and variational representation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Moral Responsibility for AI Systems. (arXiv:2310.18040v1 [cs.AI])",
+    "abstract": "As more and more decisions that have a significant ethical dimension are being outsourced to AI systems, it is important to have a definition of moral responsibility that can be applied to AI systems. Moral responsibility for an outcome of an agent who performs some action is commonly taken to involve both a causal condition and an epistemic condition: the action should cause the outcome, and the agent should have been aware -- in some form or other -- of the possible moral consequences of their action. This paper presents a formal definition of both conditions within the framework of causal models. I compare my approach to the existing approaches of Braham and van Hees (BvH) and of Halpern and Kleiman-Weiner (HK). I then generalize my definition into a degree of responsibility.",
+    "link": "http://arxiv.org/abs/2310.18040",
+    "context": "Title: Moral Responsibility for AI Systems. (arXiv:2310.18040v1 [cs.AI])\nAbstract: As more and more decisions that have a significant ethical dimension are being outsourced to AI systems, it is important to have a definition of moral responsibility that can be applied to AI systems. Moral responsibility for an outcome of an agent who performs some action is commonly taken to involve both a causal condition and an epistemic condition: the action should cause the outcome, and the agent should have been aware -- in some form or other -- of the possible moral consequences of their action. This paper presents a formal definition of both conditions within the framework of causal models. I compare my approach to the existing approaches of Braham and van Hees (BvH) and of Halpern and Kleiman-Weiner (HK). I then generalize my definition into a degree of responsibility.",
+    "path": "papers/23/10/2310.18040.json",
+    "total_tokens": 685,
+    "translated_title": "AI系统的道德责任",
+    "translated_abstract": "随着越来越多具有重大伦理纬度的决策被外包给AI系统，有必要制定一个适用于AI系统的道德责任定义。道德责任通常涉及因果条件和认知条件：行动应该导致结果，而代理人应该意识到行动可能产生的道德后果。本文在因果模型框架下提出了两种条件的形式定义。我将我的方法与Braham和van Hees (BvH)以及Halpern和Kleiman-Weiner (HK)的现有方法进行了比较。然后我将我的定义推广为一种责任程度。",
+    "tldr": "本文提出了一种适用于AI系统的道德责任定义，并在因果模型框架下进行了形式化。同时，将该定义推广为一种责任程度。",
+    "en_tdlr": "This paper presents a formal definition of moral responsibility for AI systems within the framework of causal models. It also generalizes the definition into a degree of responsibility."
+}

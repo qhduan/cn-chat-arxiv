@@ -1,0 +1,12 @@
+{
+    "title": "mLongT5: A Multilingual and Efficient Text-To-Text Transformer for Longer Sequences. (arXiv:2305.11129v2 [cs.CL] UPDATED)",
+    "abstract": "We present our work on developing a multilingual, efficient text-to-text transformer that is suitable for handling long inputs. This model, called mLongT5, builds upon the architecture of LongT5, while leveraging the multilingual datasets used for pretraining mT5 and the pretraining tasks of UL2. We evaluate this model on a variety of multilingual summarization and question-answering tasks, and the results show stronger performance for mLongT5 when compared to existing multilingual models such as mBART or M-BERT.",
+    "link": "http://arxiv.org/abs/2305.11129",
+    "context": "Title: mLongT5: A Multilingual and Efficient Text-To-Text Transformer for Longer Sequences. (arXiv:2305.11129v2 [cs.CL] UPDATED)\nAbstract: We present our work on developing a multilingual, efficient text-to-text transformer that is suitable for handling long inputs. This model, called mLongT5, builds upon the architecture of LongT5, while leveraging the multilingual datasets used for pretraining mT5 and the pretraining tasks of UL2. We evaluate this model on a variety of multilingual summarization and question-answering tasks, and the results show stronger performance for mLongT5 when compared to existing multilingual models such as mBART or M-BERT.",
+    "path": "papers/23/05/2305.11129.json",
+    "total_tokens": 663,
+    "translated_title": "mLongT5：一种适用于较长序列的多语言高效文本-文本Transformer",
+    "translated_abstract": "我们介绍了我们开发的一种多语言高效的文本-文本Transformer，适用于处理长输入。这个模型被称为mLongT5，它在LongT5的架构基础上构建，同时利用了用于预训练mT5和UL2预训练任务的多语言数据集。我们在各种多语言摘要和问答任务上评估了该模型，并且结果显示与现有的多语言模型如mBART或M-BERT相比，mLongT5表现更好。",
+    "tldr": "mLongT5是一种多语言高效文本-文本Transformer，适用于处理较长序列的输入。它在多语言摘要和问答任务中表现更好。",
+    "en_tdlr": "mLongT5 is a multilingual and efficient text-to-text transformer suitable for handling longer sequences. It outperforms existing multilingual models such as mBART or M-BERT in multilingual summarization and question-answering tasks."
+}

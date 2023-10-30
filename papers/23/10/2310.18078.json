@@ -1,0 +1,11 @@
+{
+    "title": "Lipschitz and H\\\"older Continuity in Reproducing Kernel Hilbert Spaces. (arXiv:2310.18078v1 [math.FA])",
+    "abstract": "Reproducing kernel Hilbert spaces (RKHSs) are very important function spaces, playing an important role in machine learning, statistics, numerical analysis and pure mathematics. Since Lipschitz and H\\\"older continuity are important regularity properties, with many applications in interpolation, approximation and optimization problems, in this work we investigate these continuity notion in RKHSs. We provide several sufficient conditions as well as an in depth investigation of reproducing kernels inducing prescribed Lipschitz or H\\\"older continuity. Apart from new results, we also collect related known results from the literature, making the present work also a convenient reference on this topic.",
+    "link": "http://arxiv.org/abs/2310.18078",
+    "context": "Title: Lipschitz and H\\\"older Continuity in Reproducing Kernel Hilbert Spaces. (arXiv:2310.18078v1 [math.FA])\nAbstract: Reproducing kernel Hilbert spaces (RKHSs) are very important function spaces, playing an important role in machine learning, statistics, numerical analysis and pure mathematics. Since Lipschitz and H\\\"older continuity are important regularity properties, with many applications in interpolation, approximation and optimization problems, in this work we investigate these continuity notion in RKHSs. We provide several sufficient conditions as well as an in depth investigation of reproducing kernels inducing prescribed Lipschitz or H\\\"older continuity. Apart from new results, we also collect related known results from the literature, making the present work also a convenient reference on this topic.",
+    "path": "papers/23/10/2310.18078.json",
+    "total_tokens": 761,
+    "translated_title": "在再生核希尔伯特空间中的Lipschitz和Hölder连续性",
+    "translated_abstract": "再生核希尔伯特空间（RKHS）是非常重要的函数空间，在机器学习、统计学、数值分析和纯数学中起着重要作用。由于Lipschitz和Hölder连续性是重要的正则性质，在插值、逼近和优化问题中有许多应用。在本研究中，我们研究了RKHS中这些连续性概念，并提供了几个充分条件，以及对引起预定Lipschitz或Hölder连续性的再生核的深度调查。除了新的结果，我们还从文献中总结了相关已知结果，使本工作也成为这个主题的方便参考资料。",
+    "tldr": "本研究在再生核希尔伯特空间中研究了Lipschitz和Hölder连续性，并提供了几个充分条件和对再生核的深度调查。这个工作也是这个主题的方便参考资料。"
+}

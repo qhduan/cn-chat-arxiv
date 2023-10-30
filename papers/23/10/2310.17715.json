@@ -1,0 +1,11 @@
+{
+    "title": "Outlier Dimensions Encode Task-Specific Knowledge. (arXiv:2310.17715v1 [cs.CL])",
+    "abstract": "Representations from large language models (LLMs) are known to be dominated by a small subset of dimensions with exceedingly high variance. Previous works have argued that although ablating these outlier dimensions in LLM representations hurts downstream performance, outlier dimensions are detrimental to the representational quality of embeddings. In this study, we investigate how fine-tuning impacts outlier dimensions and show that 1) outlier dimensions that occur in pre-training persist in fine-tuned models and 2) a single outlier dimension can complete downstream tasks with a minimal error rate. Our results suggest that outlier dimensions can encode crucial task-specific knowledge and that the value of a representation in a single outlier dimension drives downstream model decisions.",
+    "link": "http://arxiv.org/abs/2310.17715",
+    "context": "Title: Outlier Dimensions Encode Task-Specific Knowledge. (arXiv:2310.17715v1 [cs.CL])\nAbstract: Representations from large language models (LLMs) are known to be dominated by a small subset of dimensions with exceedingly high variance. Previous works have argued that although ablating these outlier dimensions in LLM representations hurts downstream performance, outlier dimensions are detrimental to the representational quality of embeddings. In this study, we investigate how fine-tuning impacts outlier dimensions and show that 1) outlier dimensions that occur in pre-training persist in fine-tuned models and 2) a single outlier dimension can complete downstream tasks with a minimal error rate. Our results suggest that outlier dimensions can encode crucial task-specific knowledge and that the value of a representation in a single outlier dimension drives downstream model decisions.",
+    "path": "papers/23/10/2310.17715.json",
+    "total_tokens": 698,
+    "translated_title": "异常维度编码特定任务知识",
+    "translated_abstract": "大型语言模型（LLM）的表示被少数几个具有极高方差的异常维度所主导。先前的研究认为，虽然去除LLM表示中的异常维度会损害下游性能，但异常维度对嵌入表示的质量是有害的。在本研究中，我们研究了微调对异常维度的影响，并展示了以下结果：1）在预训练中出现的异常维度在微调模型中仍然存在，2）一个单一的异常维度可以以最小的错误率完成下游任务。我们的结果表明，异常维度可以编码关键的特定任务知识，并且一个表示在单个异常维度上的值会影响下游模型的决策。",
+    "tldr": "异常维度可以编码关键的特定任务知识，并且一个单一的异常维度可以以最小的错误率完成下游任务。"
+}

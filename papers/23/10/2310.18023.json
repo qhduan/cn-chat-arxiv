@@ -1,0 +1,12 @@
+{
+    "title": "SentMix-3L: A Bangla-English-Hindi Code-Mixed Dataset for Sentiment Analysis. (arXiv:2310.18023v1 [cs.CL])",
+    "abstract": "Code-mixing is a well-studied linguistic phenomenon when two or more languages are mixed in text or speech. Several datasets have been build with the goal of training computational models for code-mixing. Although it is very common to observe code-mixing with multiple languages, most datasets available contain code-mixed between only two languages. In this paper, we introduce SentMix-3L, a novel dataset for sentiment analysis containing code-mixed data between three languages Bangla, English, and Hindi. We carry out a comprehensive evaluation using SentMix-3L. We show that zero-shot prompting with GPT-3.5 outperforms all transformer-based models on SentMix-3L.",
+    "link": "http://arxiv.org/abs/2310.18023",
+    "context": "Title: SentMix-3L: A Bangla-English-Hindi Code-Mixed Dataset for Sentiment Analysis. (arXiv:2310.18023v1 [cs.CL])\nAbstract: Code-mixing is a well-studied linguistic phenomenon when two or more languages are mixed in text or speech. Several datasets have been build with the goal of training computational models for code-mixing. Although it is very common to observe code-mixing with multiple languages, most datasets available contain code-mixed between only two languages. In this paper, we introduce SentMix-3L, a novel dataset for sentiment analysis containing code-mixed data between three languages Bangla, English, and Hindi. We carry out a comprehensive evaluation using SentMix-3L. We show that zero-shot prompting with GPT-3.5 outperforms all transformer-based models on SentMix-3L.",
+    "path": "papers/23/10/2310.18023.json",
+    "total_tokens": 799,
+    "translated_title": "SentMix-3L: 用于情感分析的孟加拉语-英语-印地语混合代码数据集",
+    "translated_abstract": "代码混合是一种研究很深的语言现象，指的是在文本或语音中混合使用两种或更多语言。已经构建了几个旨在训练代码混合计算模型的数据集。尽管多语言的代码混合很常见，但大多数可用的数据集只包含两种语言的代码混合。本文介绍了SentMix-3L，这是一个新颖的用于情感分析的数据集，其中包含孟加拉语、英语和印地语之间的代码混合数据。我们使用SentMix-3L进行了全面评估。我们展示了使用GPT-3.5进行零-shot提示在SentMix-3L上优于所有基于转换器的模型。",
+    "tldr": "SentMix-3L是一个用于情感分析的新颖数据集，包含孟加拉语、英语和印地语之间的代码混合数据。研究发现，在SentMix-3L上，使用GPT-3.5进行零-shot提示可以超过所有基于转换器的模型。",
+    "en_tdlr": "SentMix-3L is a novel dataset for sentiment analysis, containing code-mixed data between Bengali, English, and Hindi. The research shows that zero-shot prompting with GPT-3.5 outperforms all transformer-based models on SentMix-3L."
+}

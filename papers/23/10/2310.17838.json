@@ -1,0 +1,11 @@
+{
+    "title": "Real-time Animation Generation and Control on Rigged Models via Large Language Models. (arXiv:2310.17838v1 [cs.GR])",
+    "abstract": "We introduce a novel method for real-time animation control and generation on rigged models using natural language input. First, we embed a large language model (LLM) in Unity to output structured texts that can be parsed into diverse and realistic animations. Second, we illustrate LLM's potential to enable flexible state transition between existing animations. We showcase the robustness of our approach through qualitative results on various rigged models and motions.",
+    "link": "http://arxiv.org/abs/2310.17838",
+    "context": "Title: Real-time Animation Generation and Control on Rigged Models via Large Language Models. (arXiv:2310.17838v1 [cs.GR])\nAbstract: We introduce a novel method for real-time animation control and generation on rigged models using natural language input. First, we embed a large language model (LLM) in Unity to output structured texts that can be parsed into diverse and realistic animations. Second, we illustrate LLM's potential to enable flexible state transition between existing animations. We showcase the robustness of our approach through qualitative results on various rigged models and motions.",
+    "path": "papers/23/10/2310.17838.json",
+    "total_tokens": 610,
+    "translated_title": "通过大型语言模型在已绑定模型上实时生成和控制动画",
+    "translated_abstract": "我们介绍了一种新的方法，使用自然语言输入在已绑定模型上进行实时动画控制和生成。首先，我们在Unity中嵌入了一个大型语言模型（LLM），用于输出可以解析为多样且逼真的动画的结构化文本。其次，我们展示了LLM实现现有动画之间灵活状态转换的潜力。我们通过在各种绑定模型和动作上展示定性结果，展示了我们方法的鲁棒性。",
+    "tldr": "该论文介绍了一种利用大型语言模型实现在已绑定模型上实时进行动画控制和生成的方法，并展示了该方法的灵活性和鲁棒性。"
+}

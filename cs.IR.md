@@ -2,142 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [LightLM: A Lightweight Deep and Narrow Language Model for Generative Recommendation.](http://arxiv.org/abs/2310.17488) | LightLM是一种轻量级的基于Transformer的生成推荐模型，通过引入轻量级深窄Transformer架构来实现直接生成推荐项。 |
-| [^2] | [FMMRec: Fairness-aware Multimodal Recommendation.](http://arxiv.org/abs/2310.17373) | 本论文提出了一种名为FMMRec的公平感知多模态推荐方法，通过从模态表示中分离敏感和非敏感信息，实现更公平的表示学习。 |
-| [^3] | [Exploring the Potential of Generative AI for the World Wide Web.](http://arxiv.org/abs/2310.17370) | 本文探索了生成型人工智能在万维网领域的潜力，特别关注图像生成。我们开发了WebDiffusion工具来模拟基于稳定扩散的万维网，并评估了生成图像质量。 |
-| [^4] | [On Surgical Fine-tuning for Language Encoders.](http://arxiv.org/abs/2310.17041) | 本文表明，对于不同的下游语言任务，只对语言编码器的部分层进行细调即可获得接近甚至优于细调所有层的性能。通过提出一种高效度量方法，我们证明了该方法可以选择性微调导致强大下游性能的层。研究突出表明，任务特定信息通常局部化在少数层内，只调整这些层就足够了。 |
-| [^5] | [The Word2vec Graph Model for Author Attribution and Genre Detection in Literary Analysis.](http://arxiv.org/abs/2310.16972) | 提出了一种基于Word2vec图模型的文档建模方法，通过捕捉文档的上下文和风格，实现了准确的作者鉴定和体裁检测任务。 |
-| [^6] | [Distributionally Robust Unsupervised Dense Retrieval Training on Web Graphs.](http://arxiv.org/abs/2310.16605) | 本论文提出了一种无监督的密集检索模型Web-DRO，它利用网络结构进行聚类并重新加权，在无监督场景中显著提高了检索效果。群组分布鲁棒优化方法指导模型对高对比损失的群组分配更多权重，在训练过程中更加关注最坏情况。实验结果表明，结合URL信息的网络图训练能达到最佳的聚类性能。 |
-| [^7] | [Duplicate Question Retrieval and Confirmation Time Prediction in Software Communities.](http://arxiv.org/abs/2309.05035) | 这项研究旨在解决软件社区问答中的问题重复检索和确认时间预测的挑战，特别是在大型软件系统的CQA中，帮助忙碌的专家管理员更高效地处理重复问题。 |
-| [^8] | [DocumentNet: Bridging the Data Gap in Document Pre-Training.](http://arxiv.org/abs/2306.08937) | 这项研究提出了DocumentNet方法，通过从Web上收集大规模和弱标注的数据，弥合了文档预训练中的数据差距，并在各类VDER任务中展现了显著的性能提升。 |
-| [^9] | [Multi-grained Hypergraph Interest Modeling for Conversational Recommendation.](http://arxiv.org/abs/2305.04798) | 本文提出了一种多粒度超图兴趣建模方法，通过利用历史对话数据丰富当前对话的上下文，从不同角度捕捉用户兴趣。采用超图结构表示复杂的语义关系，建模用户的历史对话会话，捕捉粗粒度的会话级关系。 |
+| [^1] | [Chain-of-Choice Hierarchical Policy Learning for Conversational Recommendation.](http://arxiv.org/abs/2310.17922) | 提出了一种称为MTAMCR的对话推荐问题设定，通过每轮询问涵盖多个属性类型的多选题，提高了互动效率。同时，通过Chain-of-Choice层次化策略学习框架，提高了对话推荐系统的询问效率和推荐效果。 |
+| [^2] | [Ranking with Slot Constraints.](http://arxiv.org/abs/2310.17870) | 带有槽约束的排名问题中，我们提出了一种新的排名算法MatchRank，它在候选人按排名顺序被人类决策者评估时，产生最大化填充槽位的排名。算法在理论上具有强大的逼近保证，并且可以高效实现。 (arXiv:2310.17870v1 [cs.IR]) |
+| [^3] | [GNN-GMVO: Graph Neural Networks for Optimizing Gross Merchandise Value in Similar Item Recommendation.](http://arxiv.org/abs/2310.17732) | 这项研究设计了一种名为GNN-GMVO的新型图神经网络架构，用于优化电子商务中相似商品推荐的商品总交易价值（GMV）。它解决了传统GNN架构在优化收入相关目标方面的不足，并通过直接优化GMV来保证推荐质量。 |
+| [^4] | [Music Recommendation Based on Audio Fingerprint.](http://arxiv.org/abs/2310.17655) | 该研究提出了一种基于音频指纹的音乐推荐方法，结合了不同的音频特征，通过PCA降维并计算指纹间的相似矩阵，成功实现了89%的准确率。 |
+| [^5] | [Framework based on complex networks to model and mine patient pathways.](http://arxiv.org/abs/2309.14208) | 该论文提出了一个基于复杂网络的框架，用于建模和挖掘患者路径。该框架包括路径模型、新的相似度测量方法和基于传统中心度的挖掘方法。评估结果表明该框架可有效应用于实际医疗数据分析。 |
+| [^6] | [Cross-Modal Retrieval: A Systematic Review of Methods and Future Directions.](http://arxiv.org/abs/2308.14263) | 本文提供了一篇关于跨模态检索的方法和未来方向的系统综述，从浅层统计分析到视觉-语言预训练模型，深入探讨了现有跨模态检索方法的原理和架构。 |
+| [^7] | [DebateKG: Automatic Policy Debate Case Creation with Semantic Knowledge Graphs.](http://arxiv.org/abs/2307.04090) | 本论文提出了一种利用语义知识图自动创建政策辩论案例的方法，通过在争论的语义知识图上进行限制最短路径遍历，有效构建高质量的辩论案例。研究结果表明，在美国竞赛辩论中，利用这种方法显著改进了已有数据集DebateSum，并贡献了新的例子和有用的元数据。通过使用txtai语义搜索和知识图工具链，创建和贡献了9个语义知识图，同时提出了一种独特的评估方法来确定哪个知识图更适合政策辩论案例生成。 |
+| [^8] | [Table Detection for Visually Rich Document Images.](http://arxiv.org/abs/2305.19181) | 本研究提出了一种在可视丰富文件图像中进行表格检测的方法。通过将IoU分解为真实覆盖项和预测覆盖项来衡量预测结果的信息丢失程度。此外，通过使用高斯噪声增强的图像大小区域提案和多对一标签分配，进一步改进模型。实验证明，该方法能够在不同数据集上优于最先进方法。 |
+| [^9] | [Machine Reading Comprehension using Case-based Reasoning.](http://arxiv.org/abs/2305.14815) | 本文提出了一种基于案例推理的机器阅读理解方法（CBR-MRC），通过从存储器中检索相似案例并选择最类似的上下文来预测答案，以达到高准确性。在自然语言问题和新闻问答中，CBR-MRC的准确性超过基准，并且能够识别与其他评估员不同的答案。 |
+| [^10] | [Is ChatGPT a Good Recommender? A Preliminary Study.](http://arxiv.org/abs/2304.10149) | 本论文研究了在推荐领域广泛使用的ChatGPT的潜力。实验结果表明即使没有微调，ChatGPT在五个推荐场景中表现出色，具有很好的推荐精度和解释性。 |
+| [^11] | [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent.](http://arxiv.org/abs/2304.09542) | 本文研究了生成性LLMs，如ChatGPT和GPT-4在信息检索中的相关性排名能力，实验结果表明，这些模型经适当指导后表现优异，有时甚至优于传统监督学习方法。将ChatGPT的排名能力提炼为专门模型在BEIR上的效果更优。 |
 
 # 详细
 
-[^1]: LightLM: 一种轻量级的基于Transformer的生成推荐模型
+[^1]: Chain-of-Choice层次化策略学习用于对话推荐
 
-    LightLM: A Lightweight Deep and Narrow Language Model for Generative Recommendation. (arXiv:2310.17488v1 [cs.IR])
+    Chain-of-Choice Hierarchical Policy Learning for Conversational Recommendation. (arXiv:2310.17922v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.17488](http://arxiv.org/abs/2310.17488)
+    [http://arxiv.org/abs/2310.17922](http://arxiv.org/abs/2310.17922)
 
-    LightLM是一种轻量级的基于Transformer的生成推荐模型，通过引入轻量级深窄Transformer架构来实现直接生成推荐项。
-
-    
-
-    本文介绍了LightLM，一种轻量级的基于Transformer的生成推荐模型。在NLP和视觉等各个人工智能子领域中，基于Transformer的生成建模已经变得越来越重要，而生成推荐由于其对个性化生成建模的独特需求，仍处于初级阶段。现有的生成推荐方法通常使用面向NLP的Transformer架构，如T5、GPT、LLaMA和M6，这些模型比较庞大，且并没有专门针对推荐任务进行设计。LightLM通过引入轻量级深窄Transformer架构来解决这个问题，该架构特别适用于直接生成推荐项。这种结构对于直接的生成推荐非常合适，因为输入主要由适合模型容量的短标记组成，语言模型在这个任务上不需要太宽的结构。我们还...
-
-    This paper presents LightLM, a lightweight Transformer-based language model for generative recommendation. While Transformer-based generative modeling has gained importance in various AI sub-fields such as NLP and vision, generative recommendation is still in its infancy due to its unique demand on personalized generative modeling. Existing works on generative recommendation often use NLP-oriented Transformer architectures such as T5, GPT, LLaMA and M6, which are heavy-weight and are not specifically designed for recommendation tasks. LightLM tackles the issue by introducing a light-weight deep and narrow Transformer architecture, which is specifically tailored for direct generation of recommendation items. This structure is especially apt for straightforward generative recommendation and stems from the observation that language model does not have to be too wide for this task, as the input predominantly consists of short tokens that are well-suited for the model's capacity. We also sh
-    
-[^2]: FMMRec: 公平感知的多模态推荐
-
-    FMMRec: Fairness-aware Multimodal Recommendation. (arXiv:2310.17373v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.17373](http://arxiv.org/abs/2310.17373)
-
-    本论文提出了一种名为FMMRec的公平感知多模态推荐方法，通过从模态表示中分离敏感和非敏感信息，实现更公平的表示学习。
+    提出了一种称为MTAMCR的对话推荐问题设定，通过每轮询问涵盖多个属性类型的多选题，提高了互动效率。同时，通过Chain-of-Choice层次化策略学习框架，提高了对话推荐系统的询问效率和推荐效果。
 
     
 
-    最近，多模态推荐因为可以有效解决数据稀疏问题并结合各种模态的表示而受到越来越多的关注。尽管多模态推荐在准确性方面表现出色，但引入不同的模态（例如图像、文本和音频）可能会将更多用户的敏感信息（例如性别和年龄）暴露给推荐系统，从而导致更严重的不公平问题。尽管已经有很多关于公平性的努力，但现有的公平性方法要么与多模态情境不兼容，要么由于忽视多模态内容的敏感信息而导致公平性性能下降。为了在多模态推荐中实现反事实公平性，我们提出了一种新颖的公平感知多模态推荐方法（称为FMMRec），通过从模态表示中分离敏感和非敏感信息，并利用分离后的模态表示来指导更公平的表示学习过程。
+    对话推荐系统通过多轮互动对话来揭示用户偏好，最终导向精确和满意的推荐。然而，现有的对话推荐系统仅限于根据每轮单个属性类型（如颜色）询问二进制或多选题，导致互动轮数过多，降低了用户体验。为解决这个问题，我们提出了一种更现实和高效的对话推荐问题设定，称为多类型属性多轮对话推荐（MTAMCR），该问题设定使得对话推荐系统能够在每轮中询问涵盖多个属性类型的多选题，从而提高互动效率。此外，通过将MTAMCR定义为一项层次化强化学习任务，我们提出了一种Chain-of-Choice层次化策略学习（CoCHPL）框架来提高MTAMCR中的询问效率和推荐效果。
 
-    Recently, multimodal recommendations have gained increasing attention for effectively addressing the data sparsity problem by incorporating modality-based representations. Although multimodal recommendations excel in accuracy, the introduction of different modalities (e.g., images, text, and audio) may expose more users' sensitive information (e.g., gender and age) to recommender systems, resulting in potentially more serious unfairness issues. Despite many efforts on fairness, existing fairness-aware methods are either incompatible with multimodal scenarios, or lead to suboptimal fairness performance due to neglecting sensitive information of multimodal content. To achieve counterfactual fairness in multimodal recommendations, we propose a novel fairness-aware multimodal recommendation approach (dubbed as FMMRec) to disentangle the sensitive and non-sensitive information from modal representations and leverage the disentangled modal representations to guide fairer representation learn
+    Conversational Recommender Systems (CRS) illuminate user preferences via multi-round interactive dialogues, ultimately navigating towards precise and satisfactory recommendations. However, contemporary CRS are limited to inquiring binary or multi-choice questions based on a single attribute type (e.g., color) per round, which causes excessive rounds of interaction and diminishes the user's experience. To address this, we propose a more realistic and efficient conversational recommendation problem setting, called Multi-Type-Attribute Multi-round Conversational Recommendation (MTAMCR), which enables CRS to inquire about multi-choice questions covering multiple types of attributes in each round, thereby improving interactive efficiency. Moreover, by formulating MTAMCR as a hierarchical reinforcement learning task, we propose a Chain-of-Choice Hierarchical Policy Learning (CoCHPL) framework to enhance both the questioning efficiency and recommendation effectiveness in MTAMCR. Specifically,
     
-[^3]: 探索生成型人工智能在万维网领域的潜力
+[^2]: 带有槽约束的排名问题
 
-    Exploring the Potential of Generative AI for the World Wide Web. (arXiv:2310.17370v1 [cs.AI])
+    Ranking with Slot Constraints. (arXiv:2310.17870v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.17370](http://arxiv.org/abs/2310.17370)
+    [http://arxiv.org/abs/2310.17870](http://arxiv.org/abs/2310.17870)
 
-    本文探索了生成型人工智能在万维网领域的潜力，特别关注图像生成。我们开发了WebDiffusion工具来模拟基于稳定扩散的万维网，并评估了生成图像质量。
-
-    
-
-    生成型人工智能（AI）是一种先进的技术，利用生成模型和用户提示能够生成文本、图像和各种媒体内容。在2022年到2023年期间，生成型人工智能在AI电影到聊天机器人等众多应用领域迅速增长。本文深入探讨了生成型人工智能在万维网领域的潜力，特别关注图像生成。网络开发人员已经利用生成型人工智能来辅助编写文本和图像，而网络浏览器未来可能会使用它来本地生成图像，以修复损坏的网页、节省带宽和增强隐私保护。为了探索这一研究领域，我们开发了一款名为WebDiffusion的工具，可以从客户端和服务器的角度模拟由稳定扩散（一种流行的文本到图像模型）驱动的万维网。WebDiffusion还支持用户意见的众包，我们利用这一功能评估了生成图像质量。
-
-    Generative Artificial Intelligence (AI) is a cutting-edge technology capable of producing text, images, and various media content leveraging generative models and user prompts. Between 2022 and 2023, generative AI surged in popularity with a plethora of applications spanning from AI-powered movies to chatbots. In this paper, we delve into the potential of generative AI within the realm of the World Wide Web, specifically focusing on image generation. Web developers already harness generative AI to help crafting text and images, while Web browsers might use it in the future to locally generate images for tasks like repairing broken webpages, conserving bandwidth, and enhancing privacy. To explore this research area, we have developed WebDiffusion, a tool that allows to simulate a Web powered by stable diffusion, a popular text-to-image model, from both a client and server perspective. WebDiffusion further supports crowdsourcing of user opinions, which we use to evaluate the quality and 
-    
-[^4]: 关于语言编码器的手术微调
-
-    On Surgical Fine-tuning for Language Encoders. (arXiv:2310.17041v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.17041](http://arxiv.org/abs/2310.17041)
-
-    本文表明，对于不同的下游语言任务，只对语言编码器的部分层进行细调即可获得接近甚至优于细调所有层的性能。通过提出一种高效度量方法，我们证明了该方法可以选择性微调导致强大下游性能的层。研究突出表明，任务特定信息通常局部化在少数层内，只调整这些层就足够了。
+    带有槽约束的排名问题中，我们提出了一种新的排名算法MatchRank，它在候选人按排名顺序被人类决策者评估时，产生最大化填充槽位的排名。算法在理论上具有强大的逼近保证，并且可以高效实现。 (arXiv:2310.17870v1 [cs.IR])
 
     
 
-    细调预训练的神经语言编码器的所有层（使用所有参数或使用参数高效的方法）往往是将其适应于新任务的默认方法。我们展示了证据，对于不同的下游语言任务，仅细调部分层即可获得接近甚至优于细调语言编码器的所有层的性能。我们提出了一种基于Fisher信息矩阵的对角线（FIM评分）的高效度量方法，用于选择用于选择性微调的候选层。我们在GLUE和SuperGLUE任务以及不同的语言编码器上经验性地展示了，这个度量可以有效选择导致强大下游性能的层。我们的工作突出了与给定的下游任务对应的任务特定信息通常局部化在少数层内，只调整这些层对于强大的性能就足够了。
+    我们引入了带有槽约束的排名问题，这可以用来建模各种应用问题 - 从具有不同专业限制槽位的大学录取，到在医学试验中构建符合条件的参与者分层队列。我们发现，传统的概率排名原则（PRP）在带有槽约束的排名问题中可能会非常次优，因此我们提出了一种新的排名算法，称为MatchRank。MatchRank的目标是在候选人按排名顺序由人类决策者进行评估时，产生最大化填充槽位的排名。这样，MatchRank在广义上是PRP的推广，当没有槽约束时，它是PRP的特例。我们的理论分析表明，MatchRank具有强大的逼近保证，没有任何槽位或候选人之间的独立性假设。此外，我们展示了如何高效地实现MatchRank。除了理论保证外，我们还展示了MatchRank的实验结果在不同应用领域的有效性。
 
-    Fine-tuning all the layers of a pre-trained neural language encoder (either using all the parameters or using parameter-efficient methods) is often the de-facto way of adapting it to a new task. We show evidence that for different downstream language tasks, fine-tuning only a subset of layers is sufficient to obtain performance that is close to and often better than fine-tuning all the layers in the language encoder. We propose an efficient metric based on the diagonal of the Fisher information matrix (FIM score), to select the candidate layers for selective fine-tuning. We show, empirically on GLUE and SuperGLUE tasks and across distinct language encoders, that this metric can effectively select layers leading to a strong downstream performance. Our work highlights that task-specific information corresponding to a given downstream task is often localized within a few layers, and tuning only those is sufficient for strong performance. Additionally, we demonstrate the robustness of the 
+    We introduce the problem of ranking with slot constraints, which can be used to model a wide range of application problems -- from college admission with limited slots for different majors, to composing a stratified cohort of eligible participants in a medical trial. We show that the conventional Probability Ranking Principle (PRP) can be highly sub-optimal for slot-constrained ranking problems, and we devise a new ranking algorithm, called MatchRank. The goal of MatchRank is to produce rankings that maximize the number of filled slots if candidates are evaluated by a human decision maker in the order of the ranking. In this way, MatchRank generalizes the PRP, and it subsumes the PRP as a special case when there are no slot constraints. Our theoretical analysis shows that MatchRank has a strong approximation guarantee without any independence assumptions between slots or candidates. Furthermore, we show how MatchRank can be implemented efficiently. Beyond the theoretical guarantees, em
     
-[^5]: Word2vec图模型在文学分析中的作者鉴定和体裁检测中的应用
+[^3]: GNN-GMVO: 用于优化相似商品推荐中的商品总交易价值的图神经网络
 
-    The Word2vec Graph Model for Author Attribution and Genre Detection in Literary Analysis. (arXiv:2310.16972v1 [cs.IR])
+    GNN-GMVO: Graph Neural Networks for Optimizing Gross Merchandise Value in Similar Item Recommendation. (arXiv:2310.17732v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.16972](http://arxiv.org/abs/2310.16972)
+    [http://arxiv.org/abs/2310.17732](http://arxiv.org/abs/2310.17732)
 
-    提出了一种基于Word2vec图模型的文档建模方法，通过捕捉文档的上下文和风格，实现了准确的作者鉴定和体裁检测任务。
-
-    
-
-    分析作者和文章的写作风格对支持各种文学分析，如作者鉴定和体裁检测至关重要。多年来，包括文体学、词袋模型和n-gram等丰富的特征集被广泛用于进行此类分析。然而，这些特征的有效性很大程度上取决于特定语言的语言特征和数据集的特点。因此，基于这些特征集的技术无法在不同领域获得期望的结果。本文提出了一种基于Word2vec图模型的文档建模方法，可以准确捕捉文档的上下文和风格。通过使用这些基于Word2vec图的特征，我们进行分类从而进行作者鉴定和体裁检测任务。我们通过详细的实验研究对广泛的文学作品进行了验证，结果表明与传统基于特征的方法相比，这种方法更为有效。我们的代码和数据是公开可用的。
-
-    Analyzing the writing styles of authors and articles is a key to supporting various literary analyses such as author attribution and genre detection. Over the years, rich sets of features that include stylometry, bag-of-words, n-grams have been widely used to perform such analysis. However, the effectiveness of these features largely depends on the linguistic aspects of a particular language and datasets specific characteristics. Consequently, techniques based on these feature sets cannot give desired results across domains. In this paper, we propose a novel Word2vec graph based modeling of a document that can rightly capture both context and style of the document. By using these Word2vec graph based features, we perform classification to perform author attribution and genre detection tasks. Our detailed experimental study with a comprehensive set of literary writings shows the effectiveness of this method over traditional feature based approaches. Our code and data are publicly availa
-    
-[^6]: 基于网络图的分布鲁棒无监督密集检索训练
-
-    Distributionally Robust Unsupervised Dense Retrieval Training on Web Graphs. (arXiv:2310.16605v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.16605](http://arxiv.org/abs/2310.16605)
-
-    本论文提出了一种无监督的密集检索模型Web-DRO，它利用网络结构进行聚类并重新加权，在无监督场景中显著提高了检索效果。群组分布鲁棒优化方法指导模型对高对比损失的群组分配更多权重，在训练过程中更加关注最坏情况。实验结果表明，结合URL信息的网络图训练能达到最佳的聚类性能。
+    这项研究设计了一种名为GNN-GMVO的新型图神经网络架构，用于优化电子商务中相似商品推荐的商品总交易价值（GMV）。它解决了传统GNN架构在优化收入相关目标方面的不足，并通过直接优化GMV来保证推荐质量。
 
     
 
-    本文介绍了Web-DRO，一种基于网络结构进行聚类并在对比训练期间重新加权的无监督密集检索模型。具体而言，我们首先利用网络图链接并对锚点-文档对进行对比训练，训练一个嵌入模型用于聚类。然后，我们使用群组分布鲁棒优化方法来重新加权不同的锚点-文档对群组，这指导模型将更多权重分配给对比损失更高的群组，并在训练过程中更加关注最坏情况。在MS MARCO和BEIR上的实验表明，我们的模型Web-DRO在无监督场景中显著提高了检索效果。对聚类技术的比较表明，结合URL信息的网络图训练能达到最佳的聚类性能。进一步分析证实了群组权重的稳定性和有效性，表明了一致的模型偏好以及对有价值文档的有效加权。
+    相似商品推荐是电子商务行业中的关键任务，它帮助客户基于他们感兴趣的产品探索相似和相关的替代品。尽管传统的机器学习模型，图神经网络（GNN）可以理解产品之间的复杂关系，如相似性。然而，与它们在检索任务中的广泛应用和优化相关性的重点相反，当前的GNN架构并未针对最大化与收入相关的目标（如商品总交易价值（GMV））进行设计，而GMV是电子商务公司的主要业务指标之一。此外，在大规模电子商务系统中定义准确的边关系对于GNN来说是非常复杂的，因为商品之间的关系具有异质性。本研究旨在通过设计一种称为GNN-GMVO的新型GNN架构来解决这些问题。该模型直接优化GMV，同时保证推荐质量。
 
-    This paper introduces Web-DRO, an unsupervised dense retrieval model, which clusters documents based on web structures and reweights the groups during contrastive training. Specifically, we first leverage web graph links and contrastively train an embedding model for clustering anchor-document pairs. Then we use Group Distributional Robust Optimization to reweight different clusters of anchor-document pairs, which guides the model to assign more weights to the group with higher contrastive loss and pay more attention to the worst case during training. Our experiments on MS MARCO and BEIR show that our model, Web-DRO, significantly improves the retrieval effectiveness in unsupervised scenarios. A comparison of clustering techniques shows that training on the web graph combining URL information reaches optimal performance on clustering. Further analysis confirms that group weights are stable and valid, indicating consistent model preferences as well as effective up-weighting of valuable 
+    Similar item recommendation is a critical task in the e-Commerce industry, which helps customers explore similar and relevant alternatives based on their interested products. Despite the traditional machine learning models, Graph Neural Networks (GNNs), by design, can understand complex relations like similarity between products. However, in contrast to their wide usage in retrieval tasks and their focus on optimizing the relevance, the current GNN architectures are not tailored toward maximizing revenue-related objectives such as Gross Merchandise Value (GMV), which is one of the major business metrics for e-Commerce companies. In addition, defining accurate edge relations in GNNs is non-trivial in large-scale e-Commerce systems, due to the heterogeneity nature of the item-item relationships. This work aims to address these issues by designing a new GNN architecture called GNN-GMVO (Graph Neural Network - Gross Merchandise Value Optimizer). This model directly optimizes GMV while cons
     
-[^7]: 软件社区中的重复问题检索和确认时间预测
+[^4]: 基于音频指纹的音乐推荐
 
-    Duplicate Question Retrieval and Confirmation Time Prediction in Software Communities. (arXiv:2309.05035v2 [cs.IR] UPDATED)
+    Music Recommendation Based on Audio Fingerprint. (arXiv:2310.17655v1 [eess.AS])
 
-    [http://arxiv.org/abs/2309.05035](http://arxiv.org/abs/2309.05035)
+    [http://arxiv.org/abs/2310.17655](http://arxiv.org/abs/2310.17655)
 
-    这项研究旨在解决软件社区问答中的问题重复检索和确认时间预测的挑战，特别是在大型软件系统的CQA中，帮助忙碌的专家管理员更高效地处理重复问题。
-
-    
-
-    由于存在多个平台和用户之间的大规模共享信息，不同领域的社区问答（CQA）正在快速增长。随着这些在线平台的快速增长，大量的存档数据使得管理员难以检索新问题的可能重复，并在适当的时间识别和确认现有问题对作为重复问题。这个问题在类似askubuntu这样的大型软件系统对应的CQA中尤为重要，管理员需要是专家才能理解问题是否为重复。需要注意的是，在这样的CQA平台上，主要挑战在于管理员本身就是专家，因此通常时间非常宝贵，非常忙碌。为了帮助管理员完成任务，在本研究中，我们解决了askubuntu CQA平台上的两个重大问题：（1）给定一个新问题，检索重复问题；（2）重复问题确认的时间预测。
-
-    Community Question Answering (CQA) in different domains is growing at a large scale because of the availability of several platforms and huge shareable information among users. With the rapid growth of such online platforms, a massive amount of archived data makes it difficult for moderators to retrieve possible duplicates for a new question and identify and confirm existing question pairs as duplicates at the right time. This problem is even more critical in CQAs corresponding to large software systems like askubuntu where moderators need to be experts to comprehend something as a duplicate. Note that the prime challenge in such CQA platforms is that the moderators are themselves experts and are therefore usually extremely busy with their time being extraordinarily expensive. To facilitate the task of the moderators, in this work, we have tackled two significant issues for the askubuntu CQA platform: (1) retrieval of duplicate questions given a new question and (2) duplicate question 
-    
-[^8]: DocumentNet: 在文档预训练中弥合数据差距
-
-    DocumentNet: Bridging the Data Gap in Document Pre-Training. (arXiv:2306.08937v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2306.08937](http://arxiv.org/abs/2306.08937)
-
-    这项研究提出了DocumentNet方法，通过从Web上收集大规模和弱标注的数据，弥合了文档预训练中的数据差距，并在各类VDER任务中展现了显著的性能提升。
+    该研究提出了一种基于音频指纹的音乐推荐方法，结合了不同的音频特征，通过PCA降维并计算指纹间的相似矩阵，成功实现了89%的准确率。
 
     
 
-    近年来，文档理解任务，特别是富有视觉元素的文档实体检索（VDER），由于在企业人工智能领域的广泛应用，受到了极大关注。然而，由于严格的隐私约束和高昂的标注成本，这些任务的公开可用数据非常有限。更糟糕的是，来自不同数据集的不重叠实体空间妨碍了文档类型之间的知识转移。在本文中，我们提出了一种从Web收集大规模和弱标注的数据的方法，以利于VDER模型的训练。所收集的数据集名为DocumentNet，不依赖于特定的文档类型或实体集，使其适用于所有的VDER任务。目前的DocumentNet包含了30M个文档，涵盖了近400个文档类型，组织成了一个四级本体结构。在一系列广泛采用的VDER任务上进行的实验表明，当将DocumentNet纳入预训练过程时，取得了显著的改进。
+    该研究结合了不同的音频特征，以获得更稳健的指纹来用于音乐推荐的过程中。这些方法的组合导致了一个高维向量。为了减少值的数量，对得到的指纹集合应用了主成分分析(PCA)，选择与解释方差为95%相对应的主成分的数量。最后，使用这些PCA指纹计算了每个指纹与整个数据集的相似矩阵。该过程被应用于个人音乐库中的200首歌曲，这些歌曲被标记了艺术家对应的流派。如果推荐的歌曲的流派与目标歌曲的流派匹配，则被评为成功的推荐(根据指纹的相似度)。通过这个过程，可以获得89%的准确率(成功的推荐占总共的推荐请求)。
 
-    Document understanding tasks, in particular, Visually-rich Document Entity Retrieval (VDER), have gained significant attention in recent years thanks to their broad applications in enterprise AI. However, publicly available data have been scarce for these tasks due to strict privacy constraints and high annotation costs. To make things worse, the non-overlapping entity spaces from different datasets hinder the knowledge transfer between document types. In this paper, we propose a method to collect massive-scale and weakly labeled data from the web to benefit the training of VDER models. The collected dataset, named DocumentNet, does not depend on specific document types or entity sets, making it universally applicable to all VDER tasks. The current DocumentNet consists of 30M documents spanning nearly 400 document types organized in a four-level ontology. Experiments on a set of broadly adopted VDER tasks show significant improvements when DocumentNet is incorporated into the pre-train
+    This work combined different audio features to obtain a more robust fingerprint to be used in a music recommendation process. The combination of these methods resulted in a high-dimensional vector. To reduce the number of values, PCA was applied to the set of resulting fingerprints, selecting the number of principal components that corresponded to an explained variance of $95\%$. Finally, with these PCA-fingerprints, the similarity matrix of each fingerprint with the entire data set was calculated. The process was applied to 200 songs from a personal music library; the songs were tagged with the artists' corresponding genres. The recommendations (fingerprints of songs with the closest similarity) were rated successful if the recommended songs' genre matched the target songs' genre. With this procedure, it was possible to obtain an accuracy of $89\%$ (successful recommendations out of total recommendation requests).
     
-[^9]: 多粒度超图兴趣建模对话式推荐算法
+[^5]: 基于复杂网络的框架用于建模和挖掘患者路径
 
-    Multi-grained Hypergraph Interest Modeling for Conversational Recommendation. (arXiv:2305.04798v2 [cs.IR] UPDATED)
+    Framework based on complex networks to model and mine patient pathways. (arXiv:2309.14208v2 [cs.CY] UPDATED)
 
-    [http://arxiv.org/abs/2305.04798](http://arxiv.org/abs/2305.04798)
+    [http://arxiv.org/abs/2309.14208](http://arxiv.org/abs/2309.14208)
 
-    本文提出了一种多粒度超图兴趣建模方法，通过利用历史对话数据丰富当前对话的上下文，从不同角度捕捉用户兴趣。采用超图结构表示复杂的语义关系，建模用户的历史对话会话，捕捉粗粒度的会话级关系。
+    该论文提出了一个基于复杂网络的框架，用于建模和挖掘患者路径。该框架包括路径模型、新的相似度测量方法和基于传统中心度的挖掘方法。评估结果表明该框架可有效应用于实际医疗数据分析。
 
     
 
-    对话式推荐系统通过自然语言的多轮对话与用户进行交互，旨在为用户的即时信息需求提供高质量的推荐。尽管已经做出了很多有效的对话式推荐系统，但大多数仍然集中在当前对话的上下文信息上，通常会遇到数据稀缺的问题。因此，我们考虑利用历史对话数据来丰富当前对话的有限上下文。在本文中，我们提出了一种新颖的多粒度超图兴趣建模方法，以从不同的角度捕捉复杂历史数据下的用户兴趣。作为核心思想，我们使用超图来表示历史对话中复杂的语义关系。在我们的方法中，我们首先使用超图结构来建模用户的历史对话会话，并形成一个基于会话的超图，该超图捕捉了粗粒度的会话级关系。
+    自动发现用于表示一组患者与医疗系统的接触历史的模型，即所谓的“患者路径”，是一项新的研究领域，它支持临床和组织决策，以提高提供的治疗质量和效率。慢性病患者的路径往往因人而异，有重复的任务，并需要分析多个方面（干预、诊断、医疗专业等），影响结果。因此，建模和挖掘这些路径仍然是一个具有挑战性的任务。在这项工作中，我们提出了一个框架，包括：（i）基于多方面图的路径模型，（ii）一种新的相似度测量方法，考虑了耗时，用于比较路径，并且（iii）基于传统中心度测量方法的挖掘方法，用于发现路径中最相关的步骤。我们使用实际医疗数据评估了这个框架。
 
-    Conversational recommender system (CRS) interacts with users through multi-turn dialogues in natural language, which aims to provide high-quality recommendations for user's instant information need. Although great efforts have been made to develop effective CRS, most of them still focus on the contextual information from the current dialogue, usually suffering from the data scarcity issue. Therefore, we consider leveraging historical dialogue data to enrich the limited contexts of the current dialogue session.  In this paper, we propose a novel multi-grained hypergraph interest modeling approach to capture user interest beneath intricate historical data from different perspectives. As the core idea, we employ hypergraph to represent complicated semantic relations underlying historical dialogues. In our approach, we first employ the hypergraph structure to model users' historical dialogue sessions and form a session-based hypergraph, which captures coarse-grained, session-level relation
+    The automatic discovery of a model to represent the history of encounters of a group of patients with the healthcare system -- the so-called "pathway of patients" -- is a new field of research that supports clinical and organisational decisions to improve the quality and efficiency of the treatment provided. The pathways of patients with chronic conditions tend to vary significantly from one person to another, have repetitive tasks, and demand the analysis of multiple perspectives (interventions, diagnoses, medical specialities, among others) influencing the results. Therefore, modelling and mining those pathways is still a challenging task. In this work, we propose a framework comprising: (i) a pathway model based on a multi-aspect graph, (ii) a novel dissimilarity measurement to compare pathways taking the elapsed time into account, and (iii) a mining method based on traditional centrality measures to discover the most relevant steps of the pathways. We evaluated the framework using 
+    
+[^6]: 跨模态检索：方法和未来方向的系统综述
+
+    Cross-Modal Retrieval: A Systematic Review of Methods and Future Directions. (arXiv:2308.14263v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2308.14263](http://arxiv.org/abs/2308.14263)
+
+    本文提供了一篇关于跨模态检索的方法和未来方向的系统综述，从浅层统计分析到视觉-语言预训练模型，深入探讨了现有跨模态检索方法的原理和架构。
+
+    
+
+    随着多样化多模态数据的爆炸性增长，传统的单模态检索方法难以满足用户对不同模态数据访问的需求。为解决这个问题，跨模态检索应运而生，它能够实现跨模态交互，促进语义匹配，并利用不同模态数据之间的互补性和一致性。尽管以往的文献对跨模态检索领域进行了综述，但存在着关于及时性、分类体系和全面性等方面的缺陷。本文对跨模态检索的发展进行了全面的综述，涵盖了从浅层统计分析技术到视觉-语言预训练模型的演进。文章首先从机器学习范式、机制和模型的角度构建了一个全面的分类体系，然后深入探讨了现有跨模态检索方法的原理和架构。此外，文章还概述了当前广泛使用的评估数据集、性能评价指标和常见问题。
+
+    With the exponential surge in diverse multi-modal data, traditional uni-modal retrieval methods struggle to meet the needs of users demanding access to data from various modalities. To address this, cross-modal retrieval has emerged, enabling interaction across modalities, facilitating semantic matching, and leveraging complementarity and consistency between different modal data. Although prior literature undertook a review of the cross-modal retrieval field, it exhibits numerous deficiencies pertaining to timeliness, taxonomy, and comprehensiveness. This paper conducts a comprehensive review of cross-modal retrieval's evolution, spanning from shallow statistical analysis techniques to vision-language pre-training models. Commencing with a comprehensive taxonomy grounded in machine learning paradigms, mechanisms, and models, the paper then delves deeply into the principles and architectures underpinning existing cross-modal retrieval methods. Furthermore, it offers an overview of widel
+    
+[^7]: DebateKG: 用语义知识图自动创建政策辩论案例
+
+    DebateKG: Automatic Policy Debate Case Creation with Semantic Knowledge Graphs. (arXiv:2307.04090v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.04090](http://arxiv.org/abs/2307.04090)
+
+    本论文提出了一种利用语义知识图自动创建政策辩论案例的方法，通过在争论的语义知识图上进行限制最短路径遍历，有效构建高质量的辩论案例。研究结果表明，在美国竞赛辩论中，利用这种方法显著改进了已有数据集DebateSum，并贡献了新的例子和有用的元数据。通过使用txtai语义搜索和知识图工具链，创建和贡献了9个语义知识图，同时提出了一种独特的评估方法来确定哪个知识图更适合政策辩论案例生成。
+
+    
+
+    近期相关工作表明，自然语言处理系统在解决竞赛辩论中的问题方面具有应用性。竞赛辩论中最重要的任务之一是辩手创建高质量的辩论案例。我们展示了使用限制最短路径遍历在争论的语义知识图上构建有效的辩论案例的方法。我们在一个名为DebateSum的大规模数据集上研究了这种潜力，该数据集针对的是一种名为政策辩论的美国竞赛辩论类型。我们通过向数据集中引入53180个新的例子，并为每个例子提供进一步有用的元数据，显著改进了DebateSum。我们利用txtai语义搜索和知识图工具链基于这个数据集产生并贡献了9个语义知识图。我们创建了一种独特的评估方法，以确定在政策辩论案例生成的背景下哪个知识图更好。
+
+    Recent work within the Argument Mining community has shown the applicability of Natural Language Processing systems for solving problems found within competitive debate. One of the most important tasks within competitive debate is for debaters to create high quality debate cases. We show that effective debate cases can be constructed using constrained shortest path traversals on Argumentative Semantic Knowledge Graphs. We study this potential in the context of a type of American Competitive Debate, called Policy Debate, which already has a large scale dataset targeting it called DebateSum. We significantly improve upon DebateSum by introducing 53180 new examples, as well as further useful metadata for every example, to the dataset. We leverage the txtai semantic search and knowledge graph toolchain to produce and contribute 9 semantic knowledge graphs built on this dataset. We create a unique method for evaluating which knowledge graphs are better in the context of producing policy deb
+    
+[^8]: 可视丰富文件图像的表格检测
+
+    Table Detection for Visually Rich Document Images. (arXiv:2305.19181v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2305.19181](http://arxiv.org/abs/2305.19181)
+
+    本研究提出了一种在可视丰富文件图像中进行表格检测的方法。通过将IoU分解为真实覆盖项和预测覆盖项来衡量预测结果的信息丢失程度。此外，通过使用高斯噪声增强的图像大小区域提案和多对一标签分配，进一步改进模型。实验证明，该方法能够在不同数据集上优于最先进方法。
+
+    
+
+    表格检测是实现可视丰富文件理解的基本任务，需要模型在提取信息时避免信息丢失。然而，常用的交叉联合（IoU）评估指标和基于IoU的检测模型损失函数无法直接表示预测结果的信息丢失程度。因此，我们提出将IoU分解为真实覆盖项和预测覆盖项，其中前者可以用于衡量预测结果的信息丢失。此外，考虑到文档图像中表格的稀疏分布，我们使用SparseR-CNN作为基础模型，并通过使用高斯噪声增强的图像大小区域提案和多对一标签分配来进一步改进模型。全面实验结果表明，所提出的方法可以在不同IoU指标下的各种数据集上始终优于最先进的方法，并展示了其有效性。
+
+    Table Detection (TD) is a fundamental task to enable visually rich document understanding, which requires the model to extract information without information loss. However, popular Intersection over Union (IoU) based evaluation metrics and IoU-based loss functions for the detection models cannot directly represent the degree of information loss for the prediction results. Therefore, we propose to decouple IoU into a ground truth coverage term and a prediction coverage term, in which the former can be used to measure the information loss of the prediction results. Besides, considering the sparse distribution of tables in document images, we use SparseR-CNN as the base model and further improve the model by using Gaussian Noise Augmented Image Size region proposals and many-to-one label assignments. Results under comprehensive experiments show that the proposed method can consistently outperform state-of-the-art methods with different IoU-based metrics under various datasets and demonst
+    
+[^9]: 使用基于案例推理的机器阅读理解
+
+    Machine Reading Comprehension using Case-based Reasoning. (arXiv:2305.14815v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2305.14815](http://arxiv.org/abs/2305.14815)
+
+    本文提出了一种基于案例推理的机器阅读理解方法（CBR-MRC），通过从存储器中检索相似案例并选择最类似的上下文来预测答案，以达到高准确性。在自然语言问题和新闻问答中，CBR-MRC的准确性超过基准，并且能够识别与其他评估员不同的答案。
+
+    
+
+    我们提出了一种准确且可解释的方法，用于机器阅读理解中的答案提取，该方法类似于经典人工智能中的基于案例推理（CBR）。我们的方法（CBR-MRC）基于一个假设，即相似问题的上下文化答案彼此之间具有语义相似性。给定一个测试问题，CBR-MRC首先从非参数化存储器中检索一组相似的案例，然后通过选择测试上下文中最类似于检索到的案例中上下文化答案表示的范围来预测答案。我们的方法半参数化的特性使其能够将预测归因于特定的证据案例集，因此在构建可靠且可调试的问答系统时是一个理想的选择。我们展示了CBR-MRC在自然语言问题（NaturalQuestions）和新闻问答（NewsQA）上比大型读者模型提供了高准确性，并且优于基准分别提升了11.5和8.4 EM。此外，我们还展示了CBR-MRC在识别与他人评估员不同的答案方面的能力。
+
+    We present an accurate and interpretable method for answer extraction in machine reading comprehension that is reminiscent of case-based reasoning (CBR) from classical AI. Our method (CBR-MRC) builds upon the hypothesis that contextualized answers to similar questions share semantic similarities with each other. Given a test question, CBR-MRC first retrieves a set of similar cases from a non-parametric memory and then predicts an answer by selecting the span in the test context that is most similar to the contextualized representations of answers in the retrieved cases. The semi-parametric nature of our approach allows it to attribute a prediction to the specific set of evidence cases, making it a desirable choice for building reliable and debuggable QA systems. We show that CBR-MRC provides high accuracy comparable with large reader models and outperforms baselines by 11.5 and 8.4 EM on NaturalQuestions and NewsQA, respectively. Further, we demonstrate the ability of CBR-MRC in identi
+    
+[^10]: ChatGPT是一个好的推荐算法吗？初步研究
+
+    Is ChatGPT a Good Recommender? A Preliminary Study. (arXiv:2304.10149v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.10149](http://arxiv.org/abs/2304.10149)
+
+    本论文研究了在推荐领域广泛使用的ChatGPT的潜力。实验结果表明即使没有微调，ChatGPT在五个推荐场景中表现出色，具有很好的推荐精度和解释性。
+
+    
+
+    推荐系统在过去几十年中取得了显著进展并得到广泛应用。然而，大多数传统推荐方法都是特定任务的，因此缺乏有效的泛化能力。最近，ChatGPT的出现通过增强对话模型的能力，显著推进了NLP任务。尽管如此，ChatGPT在推荐领域的应用还没有得到充分的研究。在本文中，我们采用ChatGPT作为通用推荐模型，探讨它将从大规模语料库中获得的广泛语言和世界知识转移到推荐场景中的潜力。具体而言，我们设计了一组提示，并评估ChatGPT在五个推荐场景中的表现。与传统的推荐方法不同的是，在整个评估过程中我们不微调ChatGPT，仅依靠提示自身将推荐任务转化为自然语言。
+
+    Recommendation systems have witnessed significant advancements and have been widely used over the past decades. However, most traditional recommendation methods are task-specific and therefore lack efficient generalization ability. Recently, the emergence of ChatGPT has significantly advanced NLP tasks by enhancing the capabilities of conversational models. Nonetheless, the application of ChatGPT in the recommendation domain has not been thoroughly investigated. In this paper, we employ ChatGPT as a general-purpose recommendation model to explore its potential for transferring extensive linguistic and world knowledge acquired from large-scale corpora to recommendation scenarios. Specifically, we design a set of prompts and evaluate ChatGPT's performance on five recommendation scenarios. Unlike traditional recommendation methods, we do not fine-tune ChatGPT during the entire evaluation process, relying only on the prompts themselves to convert recommendation tasks into natural language 
+    
+[^11]: 大型语言模型在信息检索中的排名能力研究——以ChatGPT为例
+
+    Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent. (arXiv:2304.09542v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.09542](http://arxiv.org/abs/2304.09542)
+
+    本文研究了生成性LLMs，如ChatGPT和GPT-4在信息检索中的相关性排名能力，实验结果表明，这些模型经适当指导后表现优异，有时甚至优于传统监督学习方法。将ChatGPT的排名能力提炼为专门模型在BEIR上的效果更优。
+
+    
+
+    大型语言模型（LLMs）已经证明具有remarkable能力，能够将一些零样本语言任务推广至其他领域。本文研究了ChatGPT和GPT-4等生成性LLMs的相关性排名在信息检索方面的能力。实验结果显示，经过适当的指导，ChatGPT和GPT-4可以在流行的信息检索基准上取得竞争优势，甚至有时优于监督学习方法。特别地，GPT-4在TREC数据集上的平均nDCG上表现优于完全微调的monoT5-3B，BEIR数据集上的平均nDCG上优于monoT5-3B 2.3个点，低资源语言Mr.TyDi上的平均nDCG上优于monoT5-3B 2.7个点。随后，我们探讨了将ChatGPT的排名能力提炼为专门的模型的潜力。我们训练的小型专门模型（训练于10K个ChatGPT生成的数据）在BEIR上的表现优于在400K个MS MARCO注释数据上训练的monoT5。代码可在www.github.com/sunnwe上复现。
+
+    Large Language Models (LLMs) have demonstrated a remarkable ability to generalize zero-shot to various language-related tasks. This paper focuses on the study of exploring generative LLMs such as ChatGPT and GPT-4 for relevance ranking in Information Retrieval (IR). Surprisingly, our experiments reveal that properly instructed ChatGPT and GPT-4 can deliver competitive, even superior results than supervised methods on popular IR benchmarks. Notably, GPT-4 outperforms the fully fine-tuned monoT5-3B on MS MARCO by an average of 2.7 nDCG on TREC datasets, an average of 2.3 nDCG on eight BEIR datasets, and an average of 2.7 nDCG on ten low-resource languages Mr.TyDi. Subsequently, we delve into the potential for distilling the ranking capabilities of ChatGPT into a specialized model. Our small specialized model that trained on 10K ChatGPT generated data outperforms monoT5 trained on 400K annotated MS MARCO data on BEIR. The code to reproduce our results is available at www.github.com/sunnwe
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "One Style is All you Need to Generate a Video. (arXiv:2310.17835v1 [cs.CV])",
+    "abstract": "In this paper, we propose a style-based conditional video generative model. We introduce a novel temporal generator based on a set of learned sinusoidal bases. Our method learns dynamic representations of various actions that are independent of image content and can be transferred between different actors. Beyond the significant enhancement of video quality compared to prevalent methods, we demonstrate that the disentangled dynamic and content permit their independent manipulation, as well as temporal GAN-inversion to retrieve and transfer a video motion from one content or identity to another without further preprocessing such as landmark points.",
+    "link": "http://arxiv.org/abs/2310.17835",
+    "context": "Title: One Style is All you Need to Generate a Video. (arXiv:2310.17835v1 [cs.CV])\nAbstract: In this paper, we propose a style-based conditional video generative model. We introduce a novel temporal generator based on a set of learned sinusoidal bases. Our method learns dynamic representations of various actions that are independent of image content and can be transferred between different actors. Beyond the significant enhancement of video quality compared to prevalent methods, we demonstrate that the disentangled dynamic and content permit their independent manipulation, as well as temporal GAN-inversion to retrieve and transfer a video motion from one content or identity to another without further preprocessing such as landmark points.",
+    "path": "papers/23/10/2310.17835.json",
+    "total_tokens": 644,
+    "translated_title": "一种风格统一生成视频的方法",
+    "translated_abstract": "本文提出了一种基于风格的条件视频生成模型。我们引入了一组学习到的正弦基的新颖时间生成器。我们的方法学习了与图像内容无关并可以在不同演员之间转移的各种动作的动态表示。除了与普遍方法相比显著提高视频质量外，我们还证明了解耦的动态和内容使它们可以独立操作，以及通过时序GAN反演从一个内容或身份中提取和转移视频动作而无需进一步的预处理，如特征点。",
+    "tldr": "本文提出了一种基于风格的条件视频生成模型，通过学习各种动作的动态表示，实现了独立操作和转移视频动作的能力，同时显著提高了视频质量。"
+}
