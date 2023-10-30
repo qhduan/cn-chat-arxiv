@@ -1,0 +1,11 @@
+{
+    "title": "Non-contrastive sentence representations via self-supervision. (arXiv:2310.17690v1 [cs.CL])",
+    "abstract": "Sample contrastive methods, typically referred to simply as contrastive are the foundation of most unsupervised methods to learn text and sentence embeddings. On the other hand, a different class of self-supervised loss functions and methods have been considered in the computer vision community and referred to as dimension contrastive. In this paper, we thoroughly compare this class of methods with the standard baseline for contrastive sentence embeddings, SimCSE. We find that self-supervised embeddings trained using dimension contrastive objectives can outperform SimCSE on downstream tasks without needing auxiliary loss functions.",
+    "link": "http://arxiv.org/abs/2310.17690",
+    "context": "Title: Non-contrastive sentence representations via self-supervision. (arXiv:2310.17690v1 [cs.CL])\nAbstract: Sample contrastive methods, typically referred to simply as contrastive are the foundation of most unsupervised methods to learn text and sentence embeddings. On the other hand, a different class of self-supervised loss functions and methods have been considered in the computer vision community and referred to as dimension contrastive. In this paper, we thoroughly compare this class of methods with the standard baseline for contrastive sentence embeddings, SimCSE. We find that self-supervised embeddings trained using dimension contrastive objectives can outperform SimCSE on downstream tasks without needing auxiliary loss functions.",
+    "path": "papers/23/10/2310.17690.json",
+    "total_tokens": 633,
+    "translated_title": "非对比度句子表示的自我监督方法",
+    "translated_abstract": "对比度方法是学习文本和句子嵌入的大多数无监督方法的基础。然而，在计算机视觉社区中，一类不同的自我监督损失函数和方法被称为维度对比度。本文通过与标准对比度句子嵌入基线方法SimCSE进行全面比较，发现使用维度对比度目标训练的自我监督嵌入能够在下游任务中胜过SimCSE，而无需辅助损失函数。",
+    "tldr": "本文比较了使用维度对比度目标训练的自我监督嵌入与SimCSE方法，在下游任务中前者表现优于后者。"
+}

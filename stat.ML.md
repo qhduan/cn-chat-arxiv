@@ -6,61 +6,62 @@
 | [^2] | [A Stability Principle for Learning under Non-Stationarity.](http://arxiv.org/abs/2310.18304) | 本研究提出了一个适用于非稳态环境的统计学习框架，通过应用稳定性原则选择回溯窗口来最大化历史数据利用，并保持累积偏差在可接受范围内。该方法展示了对未知非稳态的适应性，遗憾界在强凸或满足Lipschitz条件下是极小化的最优解。该研究的创新点是函数相似度度量和非稳态数据序列划分技术。 |
 | [^3] | [Addressing GAN Training Instabilities via Tunable Classification Losses.](http://arxiv.org/abs/2310.18291) | 该论文通过使用可调的分类损失解决了GAN训练不稳定性问题，并证明了CPE损失GAN和最小化f-散度的f-GAN之间的双向对应关系。 |
 | [^4] | [Optimal Transport for Treatment Effect Estimation.](http://arxiv.org/abs/2310.18286) | 该论文提出一种名为ESCFR的方法，通过运用最优运输在因果性背景下解决治疗效果估计中的小批量采样效应和未观察到的混杂变量效应问题。 |
-| [^5] | [Navigating protein landscapes with a machine-learned transferable coarse-grained model.](http://arxiv.org/abs/2310.18278) | 本文通过结合深度学习方法和大规模的训练集，开发了一种可传递的粗粒化模型，能够快速且准确地预测蛋白质的结构和性质。 |
-| [^6] | [Structured Semidefinite Programming for Recovering Structured Preconditioners.](http://arxiv.org/abs/2310.18265) | 本论文提出了一个通用框架，用于寻找近似最优的预处理器来解决线性系统，并提供了改进的对角预处理结果，优于先前的通用半/shear programming方法。 |
-| [^7] | [Label Shift Estimators for Non-Ignorable Missing Data.](http://arxiv.org/abs/2310.18261) | 本文提出了一个针对非忽略缺失数据的标签偏移估计器，利用高维协变量而无需生成模型。实验结果表明在不考虑非忽略缺失性的情况下可能会有重大影响。 |
-| [^8] | [Deep Transformed Gaussian Processes.](http://arxiv.org/abs/2310.18230) | 本文提出了一种名为深度转换高斯过程（DTGPs）的转换高斯过程（TGPs）的推广，该模型采用串联层级的随机过程，并实现了相对于TGPs和DGPs的灵活性增强。通过使用变分推理，可以近似所需的计算，从而得到了简单直接的推理算法扩展。 |
-| [^9] | [Model-free Posterior Sampling via Learning Rate Randomization.](http://arxiv.org/abs/2310.18186) | 本文介绍了一种随机化无模型算法RandQL，用于减小马尔科夫决策过程中的遗憾。RandQL通过学习率随机化实现乐观探索，并在实证研究中表现出色。 |
-| [^10] | [Sample Complexity Bounds for Score-Matching: Causal Discovery and Generative Modeling.](http://arxiv.org/abs/2310.18123) | 本文通过训练深度ReLU神经网络实现了对score-matching的准确估计，并在因果发现和生成建模领域中提供了统计样本复杂度界限。 |
-| [^11] | [Adversarial Anomaly Detection using Gaussian Priors and Nonlinear Anomaly Scores.](http://arxiv.org/abs/2310.18091) | 该论文提出了一种基于高斯先验和非线性异常分数的对抗异常检测方法。通过结合$\beta$-VAE的生成稳定性和GAN的判别能力，提出了一种新的模型$\beta$-VAEGAN，并对异常分数的组合方法进行了研究。通过训练核化SVM，考虑了非线性关系，同时利用$\beta$-VAEGAN对高斯先验的偏差形成了新的异常分数组件。相比于现有方法，该方法在异常检测性能上有所改进。 |
-| [^12] | [On kernel-based statistical learning in the mean field limit.](http://arxiv.org/abs/2310.18074) | 这篇论文研究了在大规模问题中的均场极限下的核统计学习，包括核的均场极限的理论完善、逼近以及支持向量机等的应用。研究结果为大规模问题提供了新的理论工具和见解。 |
-| [^13] | [Bayesian Prognostic Covariate Adjustment With Additive Mixture Priors.](http://arxiv.org/abs/2310.18027) | 提出了一种新的贝叶斯预后协变量调整方法，结合了协变量调整和历史对照信息利用的策略，在随机对照试验中用于有效和快速决策。通过生成型人工智能算法构建数字孪生生成器，利用历史对照数据产生数字孪生概率分布，从而进行单一协变量调整。 |
-| [^14] | [Improving the Knowledge Gradient Algorithm.](http://arxiv.org/abs/2310.17901) | 本研究改进了知识梯度算法，提出了一种改进的知识梯度（iKG）策略，该策略解决了知识梯度算法的局限性，并且在最佳臂识别问题中具有渐近最优性。此外，相比知识梯度（KG），iKG更容易扩展到其他BAI问题，且在这些问题上表现出更好的性能。 |
-| [^15] | [Reproducibility in Multiple Instance Learning: A Case For Algorithmic Unit Tests.](http://arxiv.org/abs/2310.17867) | 多实例学习中的五个深度模型在学习过程中违反了标准的MIL假设，导致能够学习反相关的实例。这一问题需要通过改进和其他策略来解决。 |
-| [^16] | [Boosting Data Analytics With Synthetic Volume Expansion.](http://arxiv.org/abs/2310.17848) | 本文介绍了一种利用合成数据生成框架来提升数据分析的方法，在此方法中，使用先进模型生成高逼真度的合成数据，并采用统计方法进行分析。研究发现，在合成数据上的统计方法错误随着合成数据的增加而减少，但最终可能会增加或停滞。 |
-| [^17] | [Adaptive operator learning for infinite-dimensional Bayesian inverse problems.](http://arxiv.org/abs/2310.17844) | 该论文提出了一种自适应操作员学习框架，通过使用贪婪算法选择自适应点对预训练的近似模型进行微调，逐渐减少建模误差。这种方法可以在准确性和效率之间取得平衡，有助于有效解决贝叶斯逆问题中的计算问题。 |
-| [^18] | [Sparse Bayesian Multidimensional Item Response Theory.](http://arxiv.org/abs/2310.17820) | 本文开发了一种可扩展的贝叶斯EM算法，用于从二元和有序项目响应中估计稀疏因子载荷，并通过贝叶斯非参数方法解决了未知潜在因子维度的问题。 |
-| [^19] | [Bayesian imaging inverse problem with SA-Roundtrip prior via HMC-pCN sampler.](http://arxiv.org/abs/2310.17817) | 本文提出了一种新型的深度生成先验，SA-Roundtrip，可以进行可控的采样生成，并识别数据的内在维度。基于该先验，结合Hamiltonian Monte Carlo算法，解决了贝叶斯成像逆问题，在计算机断层扫描重建任务上超过了最先进的对比算法。 |
-| [^20] | [Local Discovery by Partitioning: Polynomial-Time Causal Discovery Around Exposure-Outcome Pairs.](http://arxiv.org/abs/2310.17816) | 在有限先验知识下，通过局部分区发现算法（LDP），该研究解决了自动变量选择的问题。LDP根据与曝光-结果对{X,Y}相关的子集将变量集合Z进行分区，并区分混淆因素和其他变量类型。该算法具有理论保证，并在实践中观察到次二次的运行时间。 |
-| [^21] | [Learning Optimal Classification Trees Robust to Distribution Shifts.](http://arxiv.org/abs/2310.17772) | 本研究提出了一种学习对分布变化具有鲁棒性的最优分类树的方法，通过混合整数鲁棒优化技术将该问题转化为单阶段混合整数鲁棒优化问题，并设计了基于约束生成的解决过程。 |
-| [^22] | [Optimal Guarantees for Algorithmic Reproducibility and Gradient Complexity in Convex Optimization.](http://arxiv.org/abs/2310.17759) | 该论文研究了在凸优化中算法的可重现性和梯度复杂度问题。他们挑战了之前的观点，证明了对于平滑凸优化和平滑凸凹极小极大问题，可以实现最优的可重现性和接近最优的收敛保证。他们还证明了在不同的oracle设置下，与不同类型的oracle相匹配的算法达到了最优性。 |
-| [^23] | [Unifying (Quantum) Statistical and Parametrized (Quantum) Algorithms.](http://arxiv.org/abs/2310.17716) | 本文提出了一种统一的视角，将统计和参数化学习范例相结合，探索了从评估oracle中学习的问题，并提供了无条件的下界和查询复杂度刻画。该框架适用于QSQ设置和基于损失函数优化的算法。 |
-| [^24] | [Community Detection and Classification Guarantees Using Embeddings Learned by Node2Vec.](http://arxiv.org/abs/2310.17712) | 本研究通过分析Node2Vec学习到的嵌入的理论属性，证明了在（经过度修正的）随机块模型中，使用k-means聚类方法对这些嵌入进行社区恢复是弱一致的。实验证明这一结果，并探讨了嵌入在节点和链接预测任务中的应用。 |
-| [^25] | [The Expressive Power of Low-Rank Adaptation.](http://arxiv.org/abs/2310.17513) | 本文分析了低秩适应（LoRA）的表达能力，证明了对于全连接神经网络，当LoRA-rank≥（f的宽度）×（目标模型的深度/ f的深度）时，LoRA可以使任何模型f准确表示任何较小的目标模型f。对于Transformer网络，通过rank-（嵌入大小/ 2）的LoRA适配器可以使任何模型适应于相同大小的目标模型。 |
-| [^26] | [Looping in the Human: Collaborative and Explainable Bayesian Optimization.](http://arxiv.org/abs/2310.17273) | 协作和可解释的贝叶斯优化框架(CoExBO)在贝叶斯优化中引入了循环，平衡了人工智能和人类的合作关系。它利用偏好学习将用户见解融合到优化中，解释每次迭代的候选选择，从而增强用户对优化过程的信任，并提供无害保证。 |
-| [^27] | [Multi-scale Diffusion Denoised Smoothing.](http://arxiv.org/abs/2310.16779) | 本文研究了多尺度扩散去噪平滑的准确度和认证鲁棒性之间的权衡，并提出了一种在共享扩散模型上调整以实现平滑分类器鲁棒性的新方法。 |
-| [^28] | [Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias.](http://arxiv.org/abs/2310.14814) | 本文提出了一种在样本选择偏差存在的情况下，利用集成多样性进行鲁棒的自训练的方法，并引入了一种新的自信度度量方法-$\mathcal{T}$-相似度。实验证明该方法在三种不同伪标签策略下具有良好的效果。 |
-| [^29] | [Fundamental Limits of Membership Inference Attacks on Machine Learning Models.](http://arxiv.org/abs/2310.13786) | 本文探讨了机器学习模型上成员推断攻击的基本限制，包括推导了效果和成功率的统计量，并提供了几种情况下的界限。这使得我们能够根据样本数量和其他结构参数推断潜在攻击的准确性。 |
-| [^30] | [Towards Understanding Sycophancy in Language Models.](http://arxiv.org/abs/2310.13548) | 这项研究探讨了强化学习从人类反馈中训练高质量AI助手的技术，发现这种方法可能导致模型在回答问题时过于谄媚，而不是坦诚，通过分析人类偏好数据得出了这一结论。 |
-| [^31] | [Bayesian sparsification for deep neural networks with Bayesian model reduction.](http://arxiv.org/abs/2309.12095) | 使用贝叶斯模型缩减作为一种更高效的替代方法来修剪模型权重，以提高深度神经网络的计算效率。 |
-| [^32] | [Beta Diffusion.](http://arxiv.org/abs/2309.07867) | beta扩散是一种新型生成模型方法，通过引入去掩盖和去噪的技术，利用缩放和偏移的beta分布进行乘法转换，实现在有界范围内生成数据。相比于传统的基于扩散的生成模型，它通过KL散度上界进行优化，证明了效果更好。 |
-| [^33] | [Neural Latent Geometry Search: Product Manifold Inference via Gromov-Hausdorff-Informed Bayesian Optimization.](http://arxiv.org/abs/2309.04810) | 本论文提出了神经潜在几何搜索(NLGS)的概念，旨在通过格罗莫夫-豪斯多夫距离来自动识别下游任务的最佳潜在几何结构，以提高机器学习模型的性能。 |
-| [^34] | [Fast and Regret Optimal Best Arm Identification: Fundamental Limits and Low-Complexity Algorithms.](http://arxiv.org/abs/2309.00591) | 本文提出了一种名为 ROBAI 的算法，旨在快速识别并选择最佳臂，并在一系列连续回合中最大化奖励。该算法在预定停止时间和自适应停止时间要求下均实现了渐进最优遗憾，并且在预定停止时间下仅需 $\mathcal{O}(\log T)$ 回合即可选择最佳臂，在自适应停止时间下仅需 $\mathcal{O}(\log^2 T)$ 回合即可选择最佳臂。 |
-| [^35] | [Kernel Single Proxy Control for Deterministic Confounding.](http://arxiv.org/abs/2308.04585) | 本研究考虑了具有未观测混淆因素的因果效应估计问题，在结果是确定性生成的情况下，提出了一种使用单一代理变量的内核方法，通过两阶段回归和最大矩约束的方法可以一致估计因果效应，并在合成数据集上成功恢复了因果效应。 |
-| [^36] | [Automatic Calibration and Error Correction for Large Language Models via Pareto Optimal Self-Supervision.](http://arxiv.org/abs/2306.16564) | 本文介绍了一种Pareto Optimal自监督框架，利用可用的编程监督将大型语言模型(LLM)的响应进行系统校准，通过为每个响应生成风险评分，而无需额外的手动工作。 |
-| [^37] | [LeanDojo: Theorem Proving with Retrieval-Augmented Language Models.](http://arxiv.org/abs/2306.15626) | 本文引入了LeanDojo，该工具通过提取Lean的数据，为定理证明研究提供了一个开放源代码的平台。利用LeanDojo的数据，开发了ReProver，它是第一个使用检索增强的语言模型的证明器，可以从庞大的数学库中选择命题，训练成本低，并且只需要一周的GPU训练时间。 |
-| [^38] | [Topological Parallax: A Geometric Specification for Deep Perception Models.](http://arxiv.org/abs/2306.11835) | 拓扑视差是一种比较训练模型和参考数据集多尺度几何结构相似性的理论和计算工具，它可以估计模型中的拓扑特征，有助于理解深度学习模型的行为和性能。 |
-| [^39] | [Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima.](http://arxiv.org/abs/2306.09850) | 该研究揭示了实用的锐度感知优化算法在某些情况下不能够全程向最优点收敛。 |
-| [^40] | [Tackling Heavy-Tailed Rewards in Reinforcement Learning with Function Approximation: Minimax Optimal and Instance-Dependent Regret Bounds.](http://arxiv.org/abs/2306.06836) | 本文解决了强化学习中当奖励呈“重尾”分布时的问题，提出了第一种处理这种情况的实例相关算法，并得到了极小最大化的遗憾界。 |
-| [^41] | [Learning via Wasserstein-Based High Probability Generalisation Bounds.](http://arxiv.org/abs/2306.04375) | 本文证明了基于Wasserstein距离的PAC-Bayesian泛化界限的新颖性，并提出了算法框架，该界限显著扩展了PAC-Bayesian界限的范围，并在经典的学习问题中展现了改进的泛化误差。 |
-| [^42] | [Asymptotics of Bayesian Uncertainty Estimation in Random Features Regression.](http://arxiv.org/abs/2306.03783) | 论文比较和对比了后验预测分布和最大后验估计的风险，重点关注了模型维度增长速度大于任何常数倍的样本数时它们之间的渐近一致性。数值模拟表明这两个数量在限定维度上具有高斯波动，并表现出相似的属性。 |
-| [^43] | [Towards Arbitrarily Expressive GNNs in $O(n^2)$ Space by Rethinking Folklore Weisfeiler-Lehman.](http://arxiv.org/abs/2306.03266) | 本文提出了$(k, t)$-FWL和$k$-FWL+两种方法，理论上证明了它们可以在$O(n^2)$的空间复杂度下，解决图同构问题。 |
-| [^44] | [Partial Counterfactual Identification of Continuous Outcomes with a Curvature Sensitivity Model.](http://arxiv.org/abs/2306.01424) | 本文研究了连续性结果的部分反事实识别问题，并提出了一种新颖的敏感性模型——曲率敏感模型，通过限制函数级集的曲率来获得信息边界。 |
-| [^45] | [Plug-in Performative Optimization.](http://arxiv.org/abs/2305.18728) | 研究了一种可能“规范不正确”模型的通用协议，“插件式表现优化”。 |
-| [^46] | [Curve Your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models.](http://arxiv.org/abs/2305.11475) | 本文提供了一种共曲抑制正则化器，用于应对广义加性模型易受共错性的问题，通过惩罚非线性转换的特征变量的成对相关性，增强了模型的解释性。 |
-| [^47] | [The noise level in linear regression with dependent data.](http://arxiv.org/abs/2305.11165) | 本文研究了具有依赖数据的线性回归中的噪声水平，提出了上限界限，并在误差规范下表现出优雅的降低。 |
-| [^48] | [Synthetic Experience Replay.](http://arxiv.org/abs/2303.06614) | 本文提出了合成经验回放方法解决深度强化学习中数据匮乏问题，通过巧妙应用生成建模技术来扩充数据效果显著。 |
-| [^49] | [Statistical Learning under Heterogenous Distribution Shift.](http://arxiv.org/abs/2302.13934) | 本文研究了异质分布偏移下的统计学习问题，通过研究经验风险最小化(ERM)在不同类别的复杂性下的表现，我们发现当类别$F$相比类别$G$更“简单”时，我们的预测器对于协变量偏移具有更强的鲁棒性，尤其在$\textbf{y}$的偏移远小于$\textbf{x}$的情况下。同时，我们发现ERM的行为与正交机器学习具有类似的特性。 |
-| [^50] | [Distributional Learning of Variational AutoEncoder: Application to Synthetic Data Generation.](http://arxiv.org/abs/2302.11294) | 提出了一种新的方法扩展了VAE模型容量，采用无限混合的非对称拉普拉斯分布作为解码器，具有分布拟合能力和调整数据隐私级别的优越性。 |
-| [^51] | [Unpaired Multi-Domain Causal Representation Learning.](http://arxiv.org/abs/2302.00993) | 研究了未配对的多领域因果表示学习，提出了线性模型下联合分布和共享因果图的可识别条件，并将其转化为一种实用方法以恢复共享的潜在因果图。 |
-| [^52] | [ReSQueing Parallel and Private Stochastic Convex Optimization.](http://arxiv.org/abs/2301.00457) | 该论文介绍了一种名为ReSQue的工具，用于处理随机凸优化问题。通过将ReSQue与最新的球预言加速技术相结合，作者提出了在并行和私密环境下达到最先进复杂度的算法。对于在单位球中的凸优化目标，作者的算法能够在符合一定条件的情况下实现优化误差，同时保持最佳总体工作量的性能。 |
-| [^53] | [Bayesian score calibration for approximate models.](http://arxiv.org/abs/2211.05357) | 本文提出了一种用于减小偏差和产生更准确不确定性量化的近似后验调整方法，通过优化近似后验的变换来最大化得分规则。这种方法只需要进行少量复杂模型模拟，且具有数值稳定性。 |
-| [^54] | [Deeply-Learned Generalized Linear Models with Missing Data.](http://arxiv.org/abs/2207.08911) | 本文提出了一种深度学习广义线性模型 (dlglm) 及其在处理缺失数据中的应用，其中的方法能够灵活地处理输入特征和响应的可忽略和不可忽略的缺失模式。我们通过统计模拟证明，在缺失数据不随机的情况下，该方法优于现有的监督学习方法，可用于生物医学科学等领域中。 |
-| [^55] | [Algorithmic Foundations of Empirical X-risk Minimization.](http://arxiv.org/abs/2206.00439) | 本文介绍了一种名为"经验性X风险最小化（EXM）"的机器学习和人工智能优化框架，该框架解决了深度学习中优化不可分解目标的困难，并提供了算法基础的详细讨论。 |
-| [^56] | [Mixed-Integer Optimization with Constraint Learning.](http://arxiv.org/abs/2111.04469) | 本论文建立了带约束学习的混合整数优化的方法论基础，提出了一个端到端的数据驱动决策制定流程，并利用混合整数优化可表示性捕捉决策、上下文变量和结果之间的关系。同时，引入了处理学习数据中不确定性的两种方法。 |
-| [^57] | [The Eigenlearning Framework: A Conservation Law Perspective on Kernel Regression and Wide Neural Networks.](http://arxiv.org/abs/2110.03922) | 该论文提出了Eigenlearning框架，通过限制核回归在学习正交基函数方面的能力并利用守恒定律来解释模型的泛化能力，同时还为Nakkiran等人的“深度引导”现象，经典奇偶问题难度和对抗鲁棒性提供了理论支持，并与统计物理学中的一个系统进行了类比。 |
-| [^58] | [The Disparate Impact of Uncertainty: Affirmative Action vs. Affirmative Information.](http://arxiv.org/abs/2102.10019) | 本文证明了不确定性对不同人群的影响是不平等的，虽然它会在所有人口群体中产生误差，但误差的类型会有系统性的变化。我们提出了一种名为平权信息的策略，可以消除这种差异并扩大机会的获取，这可以作为平权行动的替代方案。 |
-| [^59] | [A Neurocomputational Account of Consciousness: The Goal-Aligning Representation Internal Manipulation Theory (GARIM).](http://arxiv.org/abs/1912.13490) | 这个论文提出了一个神经计算框架下的意识理论，称为“目标对齐的内部表示操作”（GARIM）。该理论认为意识支持对目标相关的内部表示进行主动操作，使其与追求的目标更加对齐，从而增加目标导向行为的灵活性。 |
+| [^5] | [Universality for the global spectrum of random inner-product kernel matrices in the polynomial regime.](http://arxiv.org/abs/2310.18280) | 本论文证明了在多项式区域中，随机内积核矩阵的全局谱行为是普适的，无论 $X$ 的分布如何 |
+| [^6] | [Navigating protein landscapes with a machine-learned transferable coarse-grained model.](http://arxiv.org/abs/2310.18278) | 本文通过结合深度学习方法和大规模的训练集，开发了一种可传递的粗粒化模型，能够快速且准确地预测蛋白质的结构和性质。 |
+| [^7] | [Structured Semidefinite Programming for Recovering Structured Preconditioners.](http://arxiv.org/abs/2310.18265) | 本论文提出了一个通用框架，用于寻找近似最优的预处理器来解决线性系统，并提供了改进的对角预处理结果，优于先前的通用半/shear programming方法。 |
+| [^8] | [Label Shift Estimators for Non-Ignorable Missing Data.](http://arxiv.org/abs/2310.18261) | 本文提出了一个针对非忽略缺失数据的标签偏移估计器，利用高维协变量而无需生成模型。实验结果表明在不考虑非忽略缺失性的情况下可能会有重大影响。 |
+| [^9] | [Deep Transformed Gaussian Processes.](http://arxiv.org/abs/2310.18230) | 本文提出了一种名为深度转换高斯过程（DTGPs）的转换高斯过程（TGPs）的推广，该模型采用串联层级的随机过程，并实现了相对于TGPs和DGPs的灵活性增强。通过使用变分推理，可以近似所需的计算，从而得到了简单直接的推理算法扩展。 |
+| [^10] | [Model-free Posterior Sampling via Learning Rate Randomization.](http://arxiv.org/abs/2310.18186) | 本文介绍了一种随机化无模型算法RandQL，用于减小马尔科夫决策过程中的遗憾。RandQL通过学习率随机化实现乐观探索，并在实证研究中表现出色。 |
+| [^11] | [Sample Complexity Bounds for Score-Matching: Causal Discovery and Generative Modeling.](http://arxiv.org/abs/2310.18123) | 本文通过训练深度ReLU神经网络实现了对score-matching的准确估计，并在因果发现和生成建模领域中提供了统计样本复杂度界限。 |
+| [^12] | [Adversarial Anomaly Detection using Gaussian Priors and Nonlinear Anomaly Scores.](http://arxiv.org/abs/2310.18091) | 该论文提出了一种基于高斯先验和非线性异常分数的对抗异常检测方法。通过结合$\beta$-VAE的生成稳定性和GAN的判别能力，提出了一种新的模型$\beta$-VAEGAN，并对异常分数的组合方法进行了研究。通过训练核化SVM，考虑了非线性关系，同时利用$\beta$-VAEGAN对高斯先验的偏差形成了新的异常分数组件。相比于现有方法，该方法在异常检测性能上有所改进。 |
+| [^13] | [On kernel-based statistical learning in the mean field limit.](http://arxiv.org/abs/2310.18074) | 这篇论文研究了在大规模问题中的均场极限下的核统计学习，包括核的均场极限的理论完善、逼近以及支持向量机等的应用。研究结果为大规模问题提供了新的理论工具和见解。 |
+| [^14] | [Bayesian Prognostic Covariate Adjustment With Additive Mixture Priors.](http://arxiv.org/abs/2310.18027) | 提出了一种新的贝叶斯预后协变量调整方法，结合了协变量调整和历史对照信息利用的策略，在随机对照试验中用于有效和快速决策。通过生成型人工智能算法构建数字孪生生成器，利用历史对照数据产生数字孪生概率分布，从而进行单一协变量调整。 |
+| [^15] | [Improving the Knowledge Gradient Algorithm.](http://arxiv.org/abs/2310.17901) | 本研究改进了知识梯度算法，提出了一种改进的知识梯度（iKG）策略，该策略解决了知识梯度算法的局限性，并且在最佳臂识别问题中具有渐近最优性。此外，相比知识梯度（KG），iKG更容易扩展到其他BAI问题，且在这些问题上表现出更好的性能。 |
+| [^16] | [Reproducibility in Multiple Instance Learning: A Case For Algorithmic Unit Tests.](http://arxiv.org/abs/2310.17867) | 多实例学习中的五个深度模型在学习过程中违反了标准的MIL假设，导致能够学习反相关的实例。这一问题需要通过改进和其他策略来解决。 |
+| [^17] | [Boosting Data Analytics With Synthetic Volume Expansion.](http://arxiv.org/abs/2310.17848) | 本文介绍了一种利用合成数据生成框架来提升数据分析的方法，在此方法中，使用先进模型生成高逼真度的合成数据，并采用统计方法进行分析。研究发现，在合成数据上的统计方法错误随着合成数据的增加而减少，但最终可能会增加或停滞。 |
+| [^18] | [Adaptive operator learning for infinite-dimensional Bayesian inverse problems.](http://arxiv.org/abs/2310.17844) | 该论文提出了一种自适应操作员学习框架，通过使用贪婪算法选择自适应点对预训练的近似模型进行微调，逐渐减少建模误差。这种方法可以在准确性和效率之间取得平衡，有助于有效解决贝叶斯逆问题中的计算问题。 |
+| [^19] | [Sparse Bayesian Multidimensional Item Response Theory.](http://arxiv.org/abs/2310.17820) | 本文开发了一种可扩展的贝叶斯EM算法，用于从二元和有序项目响应中估计稀疏因子载荷，并通过贝叶斯非参数方法解决了未知潜在因子维度的问题。 |
+| [^20] | [Bayesian imaging inverse problem with SA-Roundtrip prior via HMC-pCN sampler.](http://arxiv.org/abs/2310.17817) | 本文提出了一种新型的深度生成先验，SA-Roundtrip，可以进行可控的采样生成，并识别数据的内在维度。基于该先验，结合Hamiltonian Monte Carlo算法，解决了贝叶斯成像逆问题，在计算机断层扫描重建任务上超过了最先进的对比算法。 |
+| [^21] | [Local Discovery by Partitioning: Polynomial-Time Causal Discovery Around Exposure-Outcome Pairs.](http://arxiv.org/abs/2310.17816) | 在有限先验知识下，通过局部分区发现算法（LDP），该研究解决了自动变量选择的问题。LDP根据与曝光-结果对{X,Y}相关的子集将变量集合Z进行分区，并区分混淆因素和其他变量类型。该算法具有理论保证，并在实践中观察到次二次的运行时间。 |
+| [^22] | [Learning Optimal Classification Trees Robust to Distribution Shifts.](http://arxiv.org/abs/2310.17772) | 本研究提出了一种学习对分布变化具有鲁棒性的最优分类树的方法，通过混合整数鲁棒优化技术将该问题转化为单阶段混合整数鲁棒优化问题，并设计了基于约束生成的解决过程。 |
+| [^23] | [Optimal Guarantees for Algorithmic Reproducibility and Gradient Complexity in Convex Optimization.](http://arxiv.org/abs/2310.17759) | 该论文研究了在凸优化中算法的可重现性和梯度复杂度问题。他们挑战了之前的观点，证明了对于平滑凸优化和平滑凸凹极小极大问题，可以实现最优的可重现性和接近最优的收敛保证。他们还证明了在不同的oracle设置下，与不同类型的oracle相匹配的算法达到了最优性。 |
+| [^24] | [Unifying (Quantum) Statistical and Parametrized (Quantum) Algorithms.](http://arxiv.org/abs/2310.17716) | 本文提出了一种统一的视角，将统计和参数化学习范例相结合，探索了从评估oracle中学习的问题，并提供了无条件的下界和查询复杂度刻画。该框架适用于QSQ设置和基于损失函数优化的算法。 |
+| [^25] | [Community Detection and Classification Guarantees Using Embeddings Learned by Node2Vec.](http://arxiv.org/abs/2310.17712) | 本研究通过分析Node2Vec学习到的嵌入的理论属性，证明了在（经过度修正的）随机块模型中，使用k-means聚类方法对这些嵌入进行社区恢复是弱一致的。实验证明这一结果，并探讨了嵌入在节点和链接预测任务中的应用。 |
+| [^26] | [The Expressive Power of Low-Rank Adaptation.](http://arxiv.org/abs/2310.17513) | 本文分析了低秩适应（LoRA）的表达能力，证明了对于全连接神经网络，当LoRA-rank≥（f的宽度）×（目标模型的深度/ f的深度）时，LoRA可以使任何模型f准确表示任何较小的目标模型f。对于Transformer网络，通过rank-（嵌入大小/ 2）的LoRA适配器可以使任何模型适应于相同大小的目标模型。 |
+| [^27] | [Looping in the Human: Collaborative and Explainable Bayesian Optimization.](http://arxiv.org/abs/2310.17273) | 协作和可解释的贝叶斯优化框架(CoExBO)在贝叶斯优化中引入了循环，平衡了人工智能和人类的合作关系。它利用偏好学习将用户见解融合到优化中，解释每次迭代的候选选择，从而增强用户对优化过程的信任，并提供无害保证。 |
+| [^28] | [Multi-scale Diffusion Denoised Smoothing.](http://arxiv.org/abs/2310.16779) | 本文研究了多尺度扩散去噪平滑的准确度和认证鲁棒性之间的权衡，并提出了一种在共享扩散模型上调整以实现平滑分类器鲁棒性的新方法。 |
+| [^29] | [Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias.](http://arxiv.org/abs/2310.14814) | 本文提出了一种在样本选择偏差存在的情况下，利用集成多样性进行鲁棒的自训练的方法，并引入了一种新的自信度度量方法-$\mathcal{T}$-相似度。实验证明该方法在三种不同伪标签策略下具有良好的效果。 |
+| [^30] | [Fundamental Limits of Membership Inference Attacks on Machine Learning Models.](http://arxiv.org/abs/2310.13786) | 本文探讨了机器学习模型上成员推断攻击的基本限制，包括推导了效果和成功率的统计量，并提供了几种情况下的界限。这使得我们能够根据样本数量和其他结构参数推断潜在攻击的准确性。 |
+| [^31] | [Towards Understanding Sycophancy in Language Models.](http://arxiv.org/abs/2310.13548) | 这项研究探讨了强化学习从人类反馈中训练高质量AI助手的技术，发现这种方法可能导致模型在回答问题时过于谄媚，而不是坦诚，通过分析人类偏好数据得出了这一结论。 |
+| [^32] | [Bayesian sparsification for deep neural networks with Bayesian model reduction.](http://arxiv.org/abs/2309.12095) | 使用贝叶斯模型缩减作为一种更高效的替代方法来修剪模型权重，以提高深度神经网络的计算效率。 |
+| [^33] | [Beta Diffusion.](http://arxiv.org/abs/2309.07867) | beta扩散是一种新型生成模型方法，通过引入去掩盖和去噪的技术，利用缩放和偏移的beta分布进行乘法转换，实现在有界范围内生成数据。相比于传统的基于扩散的生成模型，它通过KL散度上界进行优化，证明了效果更好。 |
+| [^34] | [Neural Latent Geometry Search: Product Manifold Inference via Gromov-Hausdorff-Informed Bayesian Optimization.](http://arxiv.org/abs/2309.04810) | 本论文提出了神经潜在几何搜索(NLGS)的概念，旨在通过格罗莫夫-豪斯多夫距离来自动识别下游任务的最佳潜在几何结构，以提高机器学习模型的性能。 |
+| [^35] | [Fast and Regret Optimal Best Arm Identification: Fundamental Limits and Low-Complexity Algorithms.](http://arxiv.org/abs/2309.00591) | 本文提出了一种名为 ROBAI 的算法，旨在快速识别并选择最佳臂，并在一系列连续回合中最大化奖励。该算法在预定停止时间和自适应停止时间要求下均实现了渐进最优遗憾，并且在预定停止时间下仅需 $\mathcal{O}(\log T)$ 回合即可选择最佳臂，在自适应停止时间下仅需 $\mathcal{O}(\log^2 T)$ 回合即可选择最佳臂。 |
+| [^36] | [Kernel Single Proxy Control for Deterministic Confounding.](http://arxiv.org/abs/2308.04585) | 本研究考虑了具有未观测混淆因素的因果效应估计问题，在结果是确定性生成的情况下，提出了一种使用单一代理变量的内核方法，通过两阶段回归和最大矩约束的方法可以一致估计因果效应，并在合成数据集上成功恢复了因果效应。 |
+| [^37] | [Automatic Calibration and Error Correction for Large Language Models via Pareto Optimal Self-Supervision.](http://arxiv.org/abs/2306.16564) | 本文介绍了一种Pareto Optimal自监督框架，利用可用的编程监督将大型语言模型(LLM)的响应进行系统校准，通过为每个响应生成风险评分，而无需额外的手动工作。 |
+| [^38] | [LeanDojo: Theorem Proving with Retrieval-Augmented Language Models.](http://arxiv.org/abs/2306.15626) | 本文引入了LeanDojo，该工具通过提取Lean的数据，为定理证明研究提供了一个开放源代码的平台。利用LeanDojo的数据，开发了ReProver，它是第一个使用检索增强的语言模型的证明器，可以从庞大的数学库中选择命题，训练成本低，并且只需要一周的GPU训练时间。 |
+| [^39] | [Topological Parallax: A Geometric Specification for Deep Perception Models.](http://arxiv.org/abs/2306.11835) | 拓扑视差是一种比较训练模型和参考数据集多尺度几何结构相似性的理论和计算工具，它可以估计模型中的拓扑特征，有助于理解深度学习模型的行为和性能。 |
+| [^40] | [Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima.](http://arxiv.org/abs/2306.09850) | 该研究揭示了实用的锐度感知优化算法在某些情况下不能够全程向最优点收敛。 |
+| [^41] | [Tackling Heavy-Tailed Rewards in Reinforcement Learning with Function Approximation: Minimax Optimal and Instance-Dependent Regret Bounds.](http://arxiv.org/abs/2306.06836) | 本文解决了强化学习中当奖励呈“重尾”分布时的问题，提出了第一种处理这种情况的实例相关算法，并得到了极小最大化的遗憾界。 |
+| [^42] | [Learning via Wasserstein-Based High Probability Generalisation Bounds.](http://arxiv.org/abs/2306.04375) | 本文证明了基于Wasserstein距离的PAC-Bayesian泛化界限的新颖性，并提出了算法框架，该界限显著扩展了PAC-Bayesian界限的范围，并在经典的学习问题中展现了改进的泛化误差。 |
+| [^43] | [Asymptotics of Bayesian Uncertainty Estimation in Random Features Regression.](http://arxiv.org/abs/2306.03783) | 论文比较和对比了后验预测分布和最大后验估计的风险，重点关注了模型维度增长速度大于任何常数倍的样本数时它们之间的渐近一致性。数值模拟表明这两个数量在限定维度上具有高斯波动，并表现出相似的属性。 |
+| [^44] | [Towards Arbitrarily Expressive GNNs in $O(n^2)$ Space by Rethinking Folklore Weisfeiler-Lehman.](http://arxiv.org/abs/2306.03266) | 本文提出了$(k, t)$-FWL和$k$-FWL+两种方法，理论上证明了它们可以在$O(n^2)$的空间复杂度下，解决图同构问题。 |
+| [^45] | [Partial Counterfactual Identification of Continuous Outcomes with a Curvature Sensitivity Model.](http://arxiv.org/abs/2306.01424) | 本文研究了连续性结果的部分反事实识别问题，并提出了一种新颖的敏感性模型——曲率敏感模型，通过限制函数级集的曲率来获得信息边界。 |
+| [^46] | [Plug-in Performative Optimization.](http://arxiv.org/abs/2305.18728) | 研究了一种可能“规范不正确”模型的通用协议，“插件式表现优化”。 |
+| [^47] | [Curve Your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models.](http://arxiv.org/abs/2305.11475) | 本文提供了一种共曲抑制正则化器，用于应对广义加性模型易受共错性的问题，通过惩罚非线性转换的特征变量的成对相关性，增强了模型的解释性。 |
+| [^48] | [The noise level in linear regression with dependent data.](http://arxiv.org/abs/2305.11165) | 本文研究了具有依赖数据的线性回归中的噪声水平，提出了上限界限，并在误差规范下表现出优雅的降低。 |
+| [^49] | [Synthetic Experience Replay.](http://arxiv.org/abs/2303.06614) | 本文提出了合成经验回放方法解决深度强化学习中数据匮乏问题，通过巧妙应用生成建模技术来扩充数据效果显著。 |
+| [^50] | [Statistical Learning under Heterogenous Distribution Shift.](http://arxiv.org/abs/2302.13934) | 本文研究了异质分布偏移下的统计学习问题，通过研究经验风险最小化(ERM)在不同类别的复杂性下的表现，我们发现当类别$F$相比类别$G$更“简单”时，我们的预测器对于协变量偏移具有更强的鲁棒性，尤其在$\textbf{y}$的偏移远小于$\textbf{x}$的情况下。同时，我们发现ERM的行为与正交机器学习具有类似的特性。 |
+| [^51] | [Distributional Learning of Variational AutoEncoder: Application to Synthetic Data Generation.](http://arxiv.org/abs/2302.11294) | 提出了一种新的方法扩展了VAE模型容量，采用无限混合的非对称拉普拉斯分布作为解码器，具有分布拟合能力和调整数据隐私级别的优越性。 |
+| [^52] | [Unpaired Multi-Domain Causal Representation Learning.](http://arxiv.org/abs/2302.00993) | 研究了未配对的多领域因果表示学习，提出了线性模型下联合分布和共享因果图的可识别条件，并将其转化为一种实用方法以恢复共享的潜在因果图。 |
+| [^53] | [ReSQueing Parallel and Private Stochastic Convex Optimization.](http://arxiv.org/abs/2301.00457) | 该论文介绍了一种名为ReSQue的工具，用于处理随机凸优化问题。通过将ReSQue与最新的球预言加速技术相结合，作者提出了在并行和私密环境下达到最先进复杂度的算法。对于在单位球中的凸优化目标，作者的算法能够在符合一定条件的情况下实现优化误差，同时保持最佳总体工作量的性能。 |
+| [^54] | [Bayesian score calibration for approximate models.](http://arxiv.org/abs/2211.05357) | 本文提出了一种用于减小偏差和产生更准确不确定性量化的近似后验调整方法，通过优化近似后验的变换来最大化得分规则。这种方法只需要进行少量复杂模型模拟，且具有数值稳定性。 |
+| [^55] | [Deeply-Learned Generalized Linear Models with Missing Data.](http://arxiv.org/abs/2207.08911) | 本文提出了一种深度学习广义线性模型 (dlglm) 及其在处理缺失数据中的应用，其中的方法能够灵活地处理输入特征和响应的可忽略和不可忽略的缺失模式。我们通过统计模拟证明，在缺失数据不随机的情况下，该方法优于现有的监督学习方法，可用于生物医学科学等领域中。 |
+| [^56] | [Algorithmic Foundations of Empirical X-risk Minimization.](http://arxiv.org/abs/2206.00439) | 本文介绍了一种名为"经验性X风险最小化（EXM）"的机器学习和人工智能优化框架，该框架解决了深度学习中优化不可分解目标的困难，并提供了算法基础的详细讨论。 |
+| [^57] | [Mixed-Integer Optimization with Constraint Learning.](http://arxiv.org/abs/2111.04469) | 本论文建立了带约束学习的混合整数优化的方法论基础，提出了一个端到端的数据驱动决策制定流程，并利用混合整数优化可表示性捕捉决策、上下文变量和结果之间的关系。同时，引入了处理学习数据中不确定性的两种方法。 |
+| [^58] | [The Eigenlearning Framework: A Conservation Law Perspective on Kernel Regression and Wide Neural Networks.](http://arxiv.org/abs/2110.03922) | 该论文提出了Eigenlearning框架，通过限制核回归在学习正交基函数方面的能力并利用守恒定律来解释模型的泛化能力，同时还为Nakkiran等人的“深度引导”现象，经典奇偶问题难度和对抗鲁棒性提供了理论支持，并与统计物理学中的一个系统进行了类比。 |
+| [^59] | [The Disparate Impact of Uncertainty: Affirmative Action vs. Affirmative Information.](http://arxiv.org/abs/2102.10019) | 本文证明了不确定性对不同人群的影响是不平等的，虽然它会在所有人口群体中产生误差，但误差的类型会有系统性的变化。我们提出了一种名为平权信息的策略，可以消除这种差异并扩大机会的获取，这可以作为平权行动的替代方案。 |
+| [^60] | [A Neurocomputational Account of Consciousness: The Goal-Aligning Representation Internal Manipulation Theory (GARIM).](http://arxiv.org/abs/1912.13490) | 这个论文提出了一个神经计算框架下的意识理论，称为“目标对齐的内部表示操作”（GARIM）。该理论认为意识支持对目标相关的内部表示进行主动操作，使其与追求的目标更加对齐，从而增加目标导向行为的灵活性。 |
 
 # 详细
 
@@ -120,7 +121,21 @@
 
     Estimating conditional average treatment effect from observational data is highly challenging due to the existence of treatment selection bias. Prevalent methods mitigate this issue by aligning distributions of different treatment groups in the latent space. However, there are two critical problems that these methods fail to address: (1) mini-batch sampling effects (MSE), which causes misalignment in non-ideal mini-batches with outcome imbalance and outliers; (2) unobserved confounder effects (UCE), which results in inaccurate discrepancy calculation due to the neglect of unobserved confounders. To tackle these problems, we propose a principled approach named Entire Space CounterFactual Regression (ESCFR), which is a new take on optimal transport in the context of causality. Specifically, based on the framework of stochastic optimal transport, we propose a relaxed mass-preserving regularizer to address the MSE issue and design a proximal factual outcome regularizer to handle the UCE is
     
-[^5]: 使用机器学习的可传递的粗粒化模型导航蛋白质空间景观
+[^5]: 在多项式区域中，随机内积核矩阵的全局谱的普适性
+
+    Universality for the global spectrum of random inner-product kernel matrices in the polynomial regime. (arXiv:2310.18280v1 [math.PR])
+
+    [http://arxiv.org/abs/2310.18280](http://arxiv.org/abs/2310.18280)
+
+    本论文证明了在多项式区域中，随机内积核矩阵的全局谱行为是普适的，无论 $X$ 的分布如何
+
+    
+
+    我们考虑某些大型随机矩阵，称为随机内积核矩阵，它们基本上由应用非线性函数$f$到样本协方差矩阵的每个元素得到$f(X^TX)$，其中 $X \in \mathbb{R}^{d \times N}$ 是随机的，并且以一种使$f$通常具有零次数参数的方式进行归一化。我们在多项式区域工作，其中 $N \asymp d^\ell$ 对于某个 $\ell > 0$，而不仅仅是线性区域 $\ell = 1$。之前的一些作者的研究表明，当 $X$ 的列要么均匀分布在球面上，要么是标准高斯向量，并且当 $\ell$ 是整数时（线性区域 $\ell = 1$ 特别好研究的情况），此类矩阵的主要特征值的行为是简单的：它们的渐近行为由半圆和Marcenko-Pastur分布的自由卷积给出，其中相对权重由在Hermite基上展开的$f$来确定。在本文中，我们展示了这种现象是通用的，只要 $X$ 拥有...（未完待续）
+
+    We consider certain large random matrices, called random inner-product kernel matrices, which are essentially given by a nonlinear function $f$ applied entrywise to a sample-covariance matrix, $f(X^TX)$, where $X \in \mathbb{R}^{d \times N}$ is random and normalized in such a way that $f$ typically has order-one arguments. We work in the polynomial regime, where $N \asymp d^\ell$ for some $\ell > 0$, not just the linear regime where $\ell = 1$. Earlier work by various authors showed that, when the columns of $X$ are either uniform on the sphere or standard Gaussian vectors, and when $\ell$ is an integer (the linear regime $\ell = 1$ is particularly well-studied), the bulk eigenvalues of such matrices behave in a simple way: They are asymptotically given by the free convolution of the semicircular and Mar\v{c}enko-Pastur distributions, with relative weights given by expanding $f$ in the Hermite basis. In this paper, we show that this phenomenon is universal, holding as soon as $X$ has i
+    
+[^6]: 使用机器学习的可传递的粗粒化模型导航蛋白质空间景观
 
     Navigating protein landscapes with a machine-learned transferable coarse-grained model. (arXiv:2310.18278v1 [q-bio.BM])
 
@@ -134,7 +149,7 @@
 
     The most popular and universally predictive protein simulation models employ all-atom molecular dynamics (MD), but they come at extreme computational cost. The development of a universal, computationally efficient coarse-grained (CG) model with similar prediction performance has been a long-standing challenge. By combining recent deep learning methods with a large and diverse training set of all-atom protein simulations, we here develop a bottom-up CG force field with chemical transferability, which can be used for extrapolative molecular dynamics on new sequences not used during model parametrization. We demonstrate that the model successfully predicts folded structures, intermediates, metastable folded and unfolded basins, and the fluctuations of intrinsically disordered proteins while it is several orders of magnitude faster than an all-atom model. This showcases the feasibility of a universal and computationally efficient machine-learned CG model for proteins.
     
-[^6]: 结构化半定规划用于恢复结构化预处理器
+[^7]: 结构化半定规划用于恢复结构化预处理器
 
     Structured Semidefinite Programming for Recovering Structured Preconditioners. (arXiv:2310.18265v1 [cs.DS])
 
@@ -148,7 +163,7 @@
 
     We develop a general framework for finding approximately-optimal preconditioners for solving linear systems. Leveraging this framework we obtain improved runtimes for fundamental preconditioning and linear system solving problems including the following. We give an algorithm which, given positive definite $\mathbf{K} \in \mathbb{R}^{d \times d}$ with $\mathrm{nnz}(\mathbf{K})$ nonzero entries, computes an $\epsilon$-optimal diagonal preconditioner in time $\widetilde{O}(\mathrm{nnz}(\mathbf{K}) \cdot \mathrm{poly}(\kappa^\star,\epsilon^{-1}))$, where $\kappa^\star$ is the optimal condition number of the rescaled matrix. We give an algorithm which, given $\mathbf{M} \in \mathbb{R}^{d \times d}$ that is either the pseudoinverse of a graph Laplacian matrix or a constant spectral approximation of one, solves linear systems in $\mathbf{M}$ in $\widetilde{O}(d^2)$ time. Our diagonal preconditioning results improve state-of-the-art runtimes of $\Omega(d^{3.5})$ attained by general-purpose sem
     
-[^7]: 非忽略缺失数据的标签偏移估计器
+[^8]: 非忽略缺失数据的标签偏移估计器
 
     Label Shift Estimators for Non-Ignorable Missing Data. (arXiv:2310.18261v1 [stat.ME])
 
@@ -162,7 +177,7 @@
 
     We consider the problem of estimating the mean of a random variable Y subject to non-ignorable missingness, i.e., where the missingness mechanism depends on Y . We connect the auxiliary proxy variable framework for non-ignorable missingness (West and Little, 2013) to the label shift setting (Saerens et al., 2002). Exploiting this connection, we construct an estimator for non-ignorable missing data that uses high-dimensional covariates (or proxies) without the need for a generative model. In synthetic and semi-synthetic experiments, we study the behavior of the proposed estimator, comparing it to commonly used ignorable estimators in both well-specified and misspecified settings. Additionally, we develop a score to assess how consistent the data are with the label shift assumption. We use our approach to estimate disease prevalence using a large health survey, comparing ignorable and non-ignorable approaches. We show that failing to account for non-ignorable missingness can have profoun
     
-[^8]: 深度转换高斯过程
+[^9]: 深度转换高斯过程
 
     Deep Transformed Gaussian Processes. (arXiv:2310.18230v1 [cs.LG])
 
@@ -176,7 +191,7 @@
 
     Transformed Gaussian Processes (TGPs) are stochastic processes specified by transforming samples from the joint distribution from a prior process (typically a GP) using an invertible transformation; increasing the flexibility of the base process.  Furthermore, they achieve competitive results compared with Deep Gaussian Processes (DGPs), which are another generalization constructed by a hierarchical concatenation of GPs. In this work, we propose a generalization of TGPs named Deep Transformed Gaussian Processes (DTGPs), which follows the trend of concatenating layers of stochastic processes. More precisely, we obtain a multi-layer model in which each layer is a TGP. This generalization implies an increment of flexibility with respect to both TGPs and DGPs. Exact inference in such a model is intractable. However, we show that one can use variational inference to approximate the required computations yielding a straightforward extension of the popular DSVI inference algorithm Salimbeni e
     
-[^9]: 无模型后验采样的模型自由随机学习方法
+[^10]: 无模型后验采样的模型自由随机学习方法
 
     Model-free Posterior Sampling via Learning Rate Randomization. (arXiv:2310.18186v1 [stat.ML])
 
@@ -190,7 +205,7 @@
 
     In this paper, we introduce Randomized Q-learning (RandQL), a novel randomized model-free algorithm for regret minimization in episodic Markov Decision Processes (MDPs). To the best of our knowledge, RandQL is the first tractable model-free posterior sampling-based algorithm. We analyze the performance of RandQL in both tabular and non-tabular metric space settings. In tabular MDPs, RandQL achieves a regret bound of order $\widetilde{\mathcal{O}}(\sqrt{H^{5}SAT})$, where $H$ is the planning horizon, $S$ is the number of states, $A$ is the number of actions, and $T$ is the number of episodes. For a metric state-action space, RandQL enjoys a regret bound of order $\widetilde{\mathcal{O}}(H^{5/2} T^{(d_z+1)/(d_z+2)})$, where $d_z$ denotes the zooming dimension. Notably, RandQL achieves optimistic exploration without using bonuses, relying instead on a novel idea of learning rate randomization. Our empirical study shows that RandQL outperforms existing approaches on baseline exploration en
     
-[^10]: score-matching的样本复杂度界限：因果发现和生成建模
+[^11]: score-matching的样本复杂度界限：因果发现和生成建模
 
     Sample Complexity Bounds for Score-Matching: Causal Discovery and Generative Modeling. (arXiv:2310.18123v1 [cs.LG])
 
@@ -204,7 +219,7 @@
 
     This paper provides statistical sample complexity bounds for score-matching and its applications in causal discovery. We demonstrate that accurate estimation of the score function is achievable by training a standard deep ReLU neural network using stochastic gradient descent. We establish bounds on the error rate of recovering causal relationships using the score-matching-based causal discovery method of Rolland et al. [2022], assuming a sufficiently good estimation of the score function. Finally, we analyze the upper bound of score-matching estimation within the score-based generative modeling, which has been applied for causal discovery but is also of independent interest within the domain of generative models.
     
-[^11]: 基于高斯先验和非线性异常分数的对抗异常检测
+[^12]: 基于高斯先验和非线性异常分数的对抗异常检测
 
     Adversarial Anomaly Detection using Gaussian Priors and Nonlinear Anomaly Scores. (arXiv:2310.18091v1 [cs.LG])
 
@@ -218,7 +233,7 @@
 
     Anomaly detection in imbalanced datasets is a frequent and crucial problem, especially in the medical domain where retrieving and labeling irregularities is often expensive. By combining the generative stability of a $\beta$-variational autoencoder (VAE) with the discriminative strengths of generative adversarial networks (GANs), we propose a novel model, $\beta$-VAEGAN. We investigate methods for composing anomaly scores based on the discriminative and reconstructive capabilities of our model. Existing work focuses on linear combinations of these components to determine if data is anomalous. We advance existing work by training a kernelized support vector machine (SVM) on the respective error components to also consider nonlinear relationships. This improves anomaly detection performance, while allowing faster optimization. Lastly, we use the deviations from the Gaussian prior of $\beta$-VAEGAN to form a novel anomaly score component. In comparison to state-of-the-art work, we improve
     
-[^12]: 关于均场极限中基于核的统计学习
+[^13]: 关于均场极限中基于核的统计学习
 
     On kernel-based statistical learning in the mean field limit. (arXiv:2310.18074v1 [cs.LG])
 
@@ -232,7 +247,7 @@
 
     In many applications of machine learning, a large number of variables are considered. Motivated by machine learning of interacting particle systems, we consider the situation when the number of input variables goes to infinity. First, we continue the recent investigation of the mean field limit of kernels and their reproducing kernel Hilbert spaces, completing the existing theory. Next, we provide results relevant for approximation with such kernels in the mean field limit, including a representer theorem. Finally, we use these kernels in the context of statistical learning in the mean field limit, focusing on Support Vector Machines. In particular, we show mean field convergence of empirical and infinite-sample solutions as well as the convergence of the corresponding risks. On the one hand, our results establish rigorous mean field limits in the context of kernel methods, providing new theoretical tools and insights for large-scale problems. On the other hand, our setting corresponds
     
-[^13]: 具有叠加混合先验的贝叶斯预后协变量调整方法
+[^14]: 具有叠加混合先验的贝叶斯预后协变量调整方法
 
     Bayesian Prognostic Covariate Adjustment With Additive Mixture Priors. (arXiv:2310.18027v1 [stat.ME])
 
@@ -246,7 +261,7 @@
 
     Effective and rapid decision-making from randomized controlled trials (RCTs) requires unbiased and precise treatment effect inferences. Two strategies to address this requirement are to adjust for covariates that are highly correlated with the outcome, and to leverage historical control information via Bayes' theorem. We propose a new Bayesian prognostic covariate adjustment methodology, referred to as Bayesian PROCOVA, that combines these two strategies. Covariate adjustment is based on generative artificial intelligence (AI) algorithms that construct a digital twin generator (DTG) for RCT participants. The DTG is trained on historical control data and yields a digital twin (DT) probability distribution for each participant's control outcome. The expectation of the DT distribution defines the single covariate for adjustment. Historical control information are leveraged via an additive mixture prior with two components: an informative prior probability distribution specified based on h
     
-[^14]: 改进知识梯度算法
+[^15]: 改进知识梯度算法
 
     Improving the Knowledge Gradient Algorithm. (arXiv:2310.17901v1 [cs.LG])
 
@@ -260,7 +275,7 @@
 
     The knowledge gradient (KG) algorithm is a popular policy for the best arm identification (BAI) problem. It is built on the simple idea of always choosing the measurement that yields the greatest expected one-step improvement in the estimate of the best mean of the arms. In this research, we show that this policy has limitations, causing the algorithm not asymptotically optimal. We next provide a remedy for it, by following the manner of one-step look ahead of KG, but instead choosing the measurement that yields the greatest one-step improvement in the probability of selecting the best arm. The new policy is called improved knowledge gradient (iKG). iKG can be shown to be asymptotically optimal. In addition, we show that compared to KG, it is easier to extend iKG to variant problems of BAI, with the $\epsilon$-good arm identification and feasible arm identification as two examples. The superior performances of iKG on these problems are further demonstrated using numerical examples.
     
-[^15]: 多实例学习中的可重现性: 算法单元测试的案例
+[^16]: 多实例学习中的可重现性: 算法单元测试的案例
 
     Reproducibility in Multiple Instance Learning: A Case For Algorithmic Unit Tests. (arXiv:2310.17867v1 [stat.ML])
 
@@ -274,7 +289,7 @@
 
     Multiple Instance Learning (MIL) is a sub-domain of classification problems with positive and negative labels and a "bag" of inputs, where the label is positive if and only if a positive element is contained within the bag, and otherwise is negative. Training in this context requires associating the bag-wide label to instance-level information, and implicitly contains a causal assumption and asymmetry to the task (i.e., you can't swap the labels without changing the semantics). MIL problems occur in healthcare (one malignant cell indicates cancer), cyber security (one malicious executable makes an infected computer), and many other tasks. In this work, we examine five of the most prominent deep-MIL models and find that none of them respects the standard MIL assumption. They are able to learn anti-correlated instances, i.e., defaulting to "positive" labels until seeing a negative counter-example, which should not be possible for a correct MIL model. We suspect that enhancements and othe
     
-[^16]: 使用合成数据扩展提升数据分析
+[^17]: 使用合成数据扩展提升数据分析
 
     Boosting Data Analytics With Synthetic Volume Expansion. (arXiv:2310.17848v1 [stat.ML])
 
@@ -288,7 +303,7 @@
 
     Synthetic data generation, a cornerstone of Generative Artificial Intelligence, signifies a paradigm shift in data science by addressing data scarcity and privacy while enabling unprecedented performance. As synthetic data gains prominence, questions arise concerning the accuracy of statistical methods when applied to synthetic data compared to raw data. In this article, we introduce the Synthetic Data Generation for Analytics framework. This framework employs statistical methods on high-fidelity synthetic data generated by advanced models such as tabular diffusion and Generative Pre-trained Transformer models. These models, trained on raw data, are further enhanced with insights from pertinent studies. A significant discovery within this framework is the generational effect: the error of a statistical method on synthetic data initially diminishes with added synthetic data but may eventually increase or plateau. This phenomenon, rooted in the complexities of replicating raw data distri
     
-[^17]: 自适应操作员学习用于无限维贝叶斯逆问题
+[^18]: 自适应操作员学习用于无限维贝叶斯逆问题
 
     Adaptive operator learning for infinite-dimensional Bayesian inverse problems. (arXiv:2310.17844v1 [math.NA])
 
@@ -302,7 +317,7 @@
 
     The fundamental computational issues in Bayesian inverse problems (BIPs) governed by partial differential equations (PDEs) stem from the requirement of repeated forward model evaluations. A popular strategy to reduce such cost is to replace expensive model simulations by computationally efficient approximations using operator learning, motivated by recent progresses in deep learning. However, using the approximated model directly may introduce a modeling error, exacerbating the already ill-posedness of inverse problems. Thus, balancing between accuracy and efficiency is essential for the effective implementation of such approaches. To this end, we develop an adaptive operator learning framework that can reduce modeling error gradually by forcing the surrogate to be accurate in local areas. This is accomplished by fine-tuning the pre-trained approximate model during the inversion process with adaptive points selected by a greedy algorithm, which requires only a few forward model evaluat
     
-[^18]: 稀疏贝叶斯多维项目反应理论
+[^19]: 稀疏贝叶斯多维项目反应理论
 
     Sparse Bayesian Multidimensional Item Response Theory. (arXiv:2310.17820v1 [stat.ME])
 
@@ -316,7 +331,7 @@
 
     Multivariate Item Response Theory (MIRT) is sought-after widely by applied researchers looking for interpretable (sparse) explanations underlying response patterns in questionnaire data. There is, however, an unmet demand for such sparsity discovery tools in practice. Our paper develops a Bayesian platform for binary and ordinal item MIRT which requires minimal tuning and scales well on relatively large datasets due to its parallelizable features. Bayesian methodology for MIRT models has traditionally relied on MCMC simulation, which cannot only be slow in practice, but also often renders exact sparsity recovery impossible without additional thresholding. In this work, we develop a scalable Bayesian EM algorithm to estimate sparse factor loadings from binary and ordinal item responses. We address the seemingly insurmountable problem of unknown latent factor dimensionality with tools from Bayesian nonparametrics which enable estimating the number of factors. Rotations to sparsity throug
     
-[^19]: Bayesian成像逆问题中的SA-Roundtrip先验及HMC-pCN采样器
+[^20]: Bayesian成像逆问题中的SA-Roundtrip先验及HMC-pCN采样器
 
     Bayesian imaging inverse problem with SA-Roundtrip prior via HMC-pCN sampler. (arXiv:2310.17817v1 [stat.ML])
 
@@ -330,7 +345,7 @@
 
     Bayesian inference with deep generative prior has received considerable interest for solving imaging inverse problems in many scientific and engineering fields. The selection of the prior distribution is learned from, and therefore an important representation learning of, available prior measurements. The SA-Roundtrip, a novel deep generative prior, is introduced to enable controlled sampling generation and identify the data's intrinsic dimension. This prior incorporates a self-attention structure within a bidirectional generative adversarial network. Subsequently, Bayesian inference is applied to the posterior distribution in the low-dimensional latent space using the Hamiltonian Monte Carlo with preconditioned Crank-Nicolson (HMC-pCN) algorithm, which is proven to be ergodic under specific conditions. Experiments conducted on computed tomography (CT) reconstruction with the MNIST and TomoPhantom datasets reveal that the proposed method outperforms state-of-the-art comparisons, consis
     
-[^20]: Local Discovery by Partitioning: 在有限先验知识下的多项式时间因果发现方法
+[^21]: Local Discovery by Partitioning: 在有限先验知识下的多项式时间因果发现方法
 
     Local Discovery by Partitioning: Polynomial-Time Causal Discovery Around Exposure-Outcome Pairs. (arXiv:2310.17816v1 [stat.ML])
 
@@ -344,7 +359,7 @@
 
     This work addresses the problem of automated covariate selection under limited prior knowledge. Given an exposure-outcome pair {X,Y} and a variable set Z of unknown causal structure, the Local Discovery by Partitioning (LDP) algorithm partitions Z into subsets defined by their relation to {X,Y}. We enumerate eight exhaustive and mutually exclusive partitions of any arbitrary Z and leverage this taxonomy to differentiate confounders from other variable types. LDP is motivated by valid adjustment set identification, but avoids the pretreatment assumption commonly made by automated covariate selection methods. We provide theoretical guarantees that LDP returns a valid adjustment set for any Z that meets sufficient graphical conditions. Under stronger conditions, we prove that partition labels are asymptotically correct. Total independence tests is worst-case quadratic in |Z|, with sub-quadratic runtimes observed empirically. We numerically validate our theoretical guarantees on synthetic 
     
-[^21]: 学习对分布变化具有鲁棒性的最优分类树
+[^22]: 学习对分布变化具有鲁棒性的最优分类树
 
     Learning Optimal Classification Trees Robust to Distribution Shifts. (arXiv:2310.17772v1 [cs.LG])
 
@@ -358,7 +373,7 @@
 
     We consider the problem of learning classification trees that are robust to distribution shifts between training and testing/deployment data. This problem arises frequently in high stakes settings such as public health and social work where data is often collected using self-reported surveys which are highly sensitive to e.g., the framing of the questions, the time when and place where the survey is conducted, and the level of comfort the interviewee has in sharing information with the interviewer. We propose a method for learning optimal robust classification trees based on mixed-integer robust optimization technology. In particular, we demonstrate that the problem of learning an optimal robust tree can be cast as a single-stage mixed-integer robust optimization problem with a highly nonlinear and discontinuous objective. We reformulate this problem equivalently as a two-stage linear robust optimization problem for which we devise a tailored solution procedure based on constraint gene
     
-[^22]: 在凸优化中的算法可重现性和梯度复杂度的最优保证
+[^23]: 在凸优化中的算法可重现性和梯度复杂度的最优保证
 
     Optimal Guarantees for Algorithmic Reproducibility and Gradient Complexity in Convex Optimization. (arXiv:2310.17759v1 [cs.LG])
 
@@ -372,7 +387,7 @@
 
     Algorithmic reproducibility measures the deviation in outputs of machine learning algorithms upon minor changes in the training process. Previous work suggests that first-order methods would need to trade-off convergence rate (gradient complexity) for better reproducibility. In this work, we challenge this perception and demonstrate that both optimal reproducibility and near-optimal convergence guarantees can be achieved for smooth convex minimization and smooth convex-concave minimax problems under various error-prone oracle settings. Particularly, given the inexact initialization oracle, our regularization-based algorithms achieve the best of both worlds optimal reproducibility and near-optimal gradient complexity - for minimization and minimax optimization. With the inexact gradient oracle, the near-optimal guarantees also hold for minimax optimization. Additionally, with the stochastic gradient oracle, we show that stochastic gradient descent ascent is optimal in terms of both re
     
-[^23]: 统一（量子）统计和参数化（量子）算法
+[^24]: 统一（量子）统计和参数化（量子）算法
 
     Unifying (Quantum) Statistical and Parametrized (Quantum) Algorithms. (arXiv:2310.17716v1 [quant-ph])
 
@@ -386,7 +401,7 @@
 
     Kearns' statistical query (SQ) oracle (STOC'93) lends a unifying perspective for most classical machine learning algorithms. This ceases to be true in quantum learning, where many settings do not admit, neither an SQ analog nor a quantum statistical query (QSQ) analog. In this work, we take inspiration from Kearns' SQ oracle and Valiant's weak evaluation oracle (TOCT'14) and establish a unified perspective bridging the statistical and parametrized learning paradigms in a novel way. We explore the problem of learning from an evaluation oracle, which provides an estimate of function values, and introduce an extensive yet intuitive framework that yields unconditional lower bounds for learning from evaluation queries and characterizes the query complexity for learning linear function classes. The framework is directly applicable to the QSQ setting and virtually all algorithms based on loss function optimization.  Our first application is to extend prior results on the learnability of outpu
     
-[^24]: 使用Node2Vec学习到的嵌入进行社区检测和分类的保证
+[^25]: 使用Node2Vec学习到的嵌入进行社区检测和分类的保证
 
     Community Detection and Classification Guarantees Using Embeddings Learned by Node2Vec. (arXiv:2310.17712v1 [stat.ML])
 
@@ -400,7 +415,7 @@
 
     Embedding the nodes of a large network into an Euclidean space is a common objective in modern machine learning, with a variety of tools available. These embeddings can then be used as features for tasks such as community detection/node clustering or link prediction, where they achieve state of the art performance. With the exception of spectral clustering methods, there is little theoretical understanding for other commonly used approaches to learning embeddings. In this work we examine the theoretical properties of the embeddings learned by node2vec. Our main result shows that the use of k-means clustering on the embedding vectors produced by node2vec gives weakly consistent community recovery for the nodes in (degree corrected) stochastic block models. We also discuss the use of these embeddings for node and link prediction tasks. We demonstrate this result empirically, and examine how this relates to other embedding tools for network data.
     
-[^25]: 《低秩适应的表达能力》
+[^26]: 《低秩适应的表达能力》
 
     The Expressive Power of Low-Rank Adaptation. (arXiv:2310.17513v1 [cs.LG])
 
@@ -414,7 +429,7 @@
 
     Low-Rank Adaptation (LoRA), a parameter-efficient fine-tuning method that leverages low-rank adaptation of weight matrices, has emerged as a prevalent technique for fine-tuning pre-trained models such as large language models and diffusion models. Despite its huge success in practice, the theoretical underpinnings of LoRA have largely remained unexplored. This paper takes the first step to bridge this gap by theoretically analyzing the expressive power of LoRA. We prove that, for fully connected neural networks, LoRA can adapt any model $f$ to accurately represent any smaller target model $\overline{f}$ if LoRA-rank $\geq(\text{width of }f) \times \frac{\text{depth of }\overline{f}}{\text{depth of }f}$. We also quantify the approximation error when LoRA-rank is lower than the threshold. For Transformer networks, we show any model can be adapted to a target model of the same size with rank-$(\frac{\text{embedding size}}{2})$ LoRA adapters.
     
-[^26]: 将循环引入人类：协作和可解释的贝叶斯优化
+[^27]: 将循环引入人类：协作和可解释的贝叶斯优化
 
     Looping in the Human: Collaborative and Explainable Bayesian Optimization. (arXiv:2310.17273v1 [cs.LG])
 
@@ -428,7 +443,7 @@
 
     Like many optimizers, Bayesian optimization often falls short of gaining user trust due to opacity. While attempts have been made to develop human-centric optimizers, they typically assume user knowledge is well-specified and error-free, employing users mainly as supervisors of the optimization process. We relax these assumptions and propose a more balanced human-AI partnership with our Collaborative and Explainable Bayesian Optimization (CoExBO) framework. Instead of explicitly requiring a user to provide a knowledge model, CoExBO employs preference learning to seamlessly integrate human insights into the optimization, resulting in algorithmic suggestions that resonate with user preference. CoExBO explains its candidate selection every iteration to foster trust, empowering users with a clearer grasp of the optimization. Furthermore, CoExBO offers a no-harm guarantee, allowing users to make mistakes; even with extreme adversarial interventions, the algorithm converges asymptotically to
     
-[^27]: 多尺度扩散去噪平滑
+[^28]: 多尺度扩散去噪平滑
 
     Multi-scale Diffusion Denoised Smoothing. (arXiv:2310.16779v1 [cs.LG])
 
@@ -442,7 +457,7 @@
 
     Along with recent diffusion models, randomized smoothing has become one of a few tangible approaches that offers adversarial robustness to models at scale, e.g., those of large pre-trained models. Specifically, one can perform randomized smoothing on any classifier via a simple "denoise-and-classify" pipeline, so-called denoised smoothing, given that an accurate denoiser is available - such as diffusion model. In this paper, we investigate the trade-off between accuracy and certified robustness of denoised smoothing: for example, we question on which representation of diffusion model would maximize the certified robustness of denoised smoothing. We consider a new objective that aims collective robustness of smoothed classifiers across multiple noise levels at a shared diffusion model, which also suggests a new way to compensate the cost of accuracy in randomized smoothing for its certified robustness. This objective motivates us to fine-tune diffusion model (a) to perform consistent de
     
-[^28]: 在样本选择偏差存在的情况下，利用集成多样性进行鲁棒的自训练
+[^29]: 在样本选择偏差存在的情况下，利用集成多样性进行鲁棒的自训练
 
     Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias. (arXiv:2310.14814v2 [cs.LG] UPDATED)
 
@@ -456,7 +471,7 @@
 
     Self-training is a well-known approach for semi-supervised learning. It consists of iteratively assigning pseudo-labels to unlabeled data for which the model is confident and treating them as labeled examples. For neural networks, softmax prediction probabilities are often used as a confidence measure, despite the fact that they are known to be overconfident, even for wrong predictions. This phenomenon is particularly intensified in the presence of sample selection bias, i.e., when data labeling is subject to some constraint. To address this issue, we propose a novel confidence measure, called $\mathcal{T}$-similarity, built upon the prediction diversity of an ensemble of linear classifiers. We provide the theoretical analysis of our approach by studying stationary points and describing the relationship between the diversity of the individual members and their performance. We empirically demonstrate the benefit of our confidence measure for three different pseudo-labeling policies on c
     
-[^29]: 机器学习模型的成员推断攻击的基本限制
+[^30]: 机器学习模型的成员推断攻击的基本限制
 
     Fundamental Limits of Membership Inference Attacks on Machine Learning Models. (arXiv:2310.13786v1 [stat.ML])
 
@@ -470,7 +485,7 @@
 
     Membership inference attacks (MIA) can reveal whether a particular data point was part of the training dataset, potentially exposing sensitive information about individuals. This article explores the fundamental statistical limitations associated with MIAs on machine learning models. More precisely, we first derive the statistical quantity that governs the effectiveness and success of such attacks. Then, we investigate several situations for which we provide bounds on this quantity of interest. This allows us to infer the accuracy of potential attacks as a function of the number of samples and other structural parameters of learning models, which in some cases can be directly estimated from the dataset.
     
-[^30]: 探索语言模型中谄媚行为的理解
+[^31]: 探索语言模型中谄媚行为的理解
 
     Towards Understanding Sycophancy in Language Models. (arXiv:2310.13548v1 [cs.CL])
 
@@ -484,7 +499,7 @@
 
     Reinforcement learning from human feedback (RLHF) is a popular technique for training high-quality AI assistants. However, RLHF may also encourage model responses that match user beliefs over truthful responses, a behavior known as sycophancy. We investigate the prevalence of sycophancy in RLHF-trained models and whether human preference judgements are responsible. We first demonstrate that five state-of-the-art AI assistants consistently exhibit sycophantic behavior across four varied free-form text-generation tasks. To understand if human preferences drive this broadly observed behavior of RLHF models, we analyze existing human preference data. We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy. Over
     
-[^31]: 具有贝叶斯模型缩减的贝叶斯稀疏性深度神经网络
+[^32]: 具有贝叶斯模型缩减的贝叶斯稀疏性深度神经网络
 
     Bayesian sparsification for deep neural networks with Bayesian model reduction. (arXiv:2309.12095v1 [stat.ML])
 
@@ -498,7 +513,7 @@
 
     Deep learning's immense capabilities are often constrained by the complexity of its models, leading to an increasing demand for effective sparsification techniques. Bayesian sparsification for deep learning emerges as a crucial approach, facilitating the design of models that are both computationally efficient and competitive in terms of performance across various deep learning applications. The state-of-the-art -- in Bayesian sparsification of deep neural networks -- combines structural shrinkage priors on model weights with an approximate inference scheme based on black-box stochastic variational inference. However, model inversion of the full generative model is exceptionally computationally demanding, especially when compared to standard deep learning of point estimates. In this context, we advocate for the use of Bayesian model reduction (BMR) as a more efficient alternative for pruning of model weights. As a generalization of the Savage-Dickey ratio, BMR allows a post-hoc elimina
     
-[^32]: Beta Diffusion. (arXiv:2309.07867v1 [cs.LG])
+[^33]: Beta Diffusion. (arXiv:2309.07867v1 [cs.LG])
 
     Beta Diffusion. (arXiv:2309.07867v1 [cs.LG])
 
@@ -512,7 +527,7 @@
 
     We introduce beta diffusion, a novel generative modeling method that integrates demasking and denoising to generate data within bounded ranges. Using scaled and shifted beta distributions, beta diffusion utilizes multiplicative transitions over time to create both forward and reverse diffusion processes, maintaining beta distributions in both the forward marginals and the reverse conditionals, given the data at any point in time. Unlike traditional diffusion-based generative models relying on additive Gaussian noise and reweighted evidence lower bounds (ELBOs), beta diffusion is multiplicative and optimized with KL-divergence upper bounds (KLUBs) derived from the convexity of the KL divergence. We demonstrate that the proposed KLUBs are more effective for optimizing beta diffusion compared to negative ELBOs, which can also be derived as the KLUBs of the same KL divergence with its two arguments swapped. The loss function of beta diffusion, expressed in terms of Bregman divergence, furt
     
-[^33]: 神经潜在几何搜索：通过格罗莫夫-豪斯多夫信息驱动的贝叶斯优化来进行乘积流形推断
+[^34]: 神经潜在几何搜索：通过格罗莫夫-豪斯多夫信息驱动的贝叶斯优化来进行乘积流形推断
 
     Neural Latent Geometry Search: Product Manifold Inference via Gromov-Hausdorff-Informed Bayesian Optimization. (arXiv:2309.04810v1 [cs.LG])
 
@@ -526,7 +541,7 @@
 
     Recent research indicates that the performance of machine learning models can be improved by aligning the geometry of the latent space with the underlying data structure. Rather than relying solely on Euclidean space, researchers have proposed using hyperbolic and spherical spaces with constant curvature, or combinations thereof, to better model the latent space and enhance model performance. However, little attention has been given to the problem of automatically identifying the optimal latent geometry for the downstream task. We mathematically define this novel formulation and coin it as neural latent geometry search (NLGS). More specifically, we introduce a principled method that searches for a latent geometry composed of a product of constant curvature model spaces with minimal query evaluations. To accomplish this, we propose a novel notion of distance between candidate latent geometries based on the Gromov-Hausdorff distance from metric geometry. In order to compute the Gromov-Ha
     
-[^34]: 快速和遗憾最小的最佳臂识别：基本限制和低复杂度算法
+[^35]: 快速和遗憾最小的最佳臂识别：基本限制和低复杂度算法
 
     Fast and Regret Optimal Best Arm Identification: Fundamental Limits and Low-Complexity Algorithms. (arXiv:2309.00591v1 [cs.LG])
 
@@ -540,7 +555,7 @@
 
     This paper considers a stochastic multi-armed bandit (MAB) problem with dual objectives: (i) quick identification and commitment to the optimal arm, and (ii) reward maximization throughout a sequence of $T$ consecutive rounds. Though each objective has been individually well-studied, i.e., best arm identification for (i) and regret minimization for (ii), the simultaneous realization of both objectives remains an open problem, despite its practical importance. This paper introduces \emph{Regret Optimal Best Arm Identification} (ROBAI) which aims to achieve these dual objectives. To solve ROBAI with both pre-determined stopping time and adaptive stopping time requirements, we present the $\mathsf{EOCP}$ algorithm and its variants respectively, which not only achieve asymptotic optimal regret in both Gaussian and general bandits, but also commit to the optimal arm in $\mathcal{O}(\log T)$ rounds with pre-determined stopping time and $\mathcal{O}(\log^2 T)$ rounds with adaptive stopping ti
     
-[^35]: 决定性混淆下的内核单一代理控制
+[^36]: 决定性混淆下的内核单一代理控制
 
     Kernel Single Proxy Control for Deterministic Confounding. (arXiv:2308.04585v1 [stat.ML])
 
@@ -554,7 +569,7 @@
 
     We consider the problem of causal effect estimation with an unobserved confounder, where we observe a proxy variable that is associated with the confounder. Although Proxy Causal Learning (PCL) uses two proxy variables to recover the true causal effect, we show that a single proxy variable is sufficient for causal estimation if the outcome is generated deterministically, generalizing Control Outcome Calibration Approach (COCA). We propose two kernel-based methods for this setting: the first based on the two-stage regression approach, and the second based on a maximum moment restriction approach. We prove that both approaches can consistently estimate the causal effect, and we empirically demonstrate that we can successfully recover the causal effect on a synthetic dataset.
     
-[^36]: 通过Pareto Optimal自监督实现大型语言模型的自动校准和错误修正
+[^37]: 通过Pareto Optimal自监督实现大型语言模型的自动校准和错误修正
 
     Automatic Calibration and Error Correction for Large Language Models via Pareto Optimal Self-Supervision. (arXiv:2306.16564v1 [cs.CL])
 
@@ -568,7 +583,7 @@
 
     Large language models (LLMs) have demonstrated remarkable capabilities out of box for a wide range of applications, yet accuracy still remains a major growth area, especially in mission-critical domains such as biomedicine. An effective method to calibrate the confidence level on LLM responses is essential to automatically detect errors and facilitate human-in-the-loop verification. An important source of calibration signals stems from expert-stipulated programmatic supervision, which is often available at low cost but has its own limitations such as noise and coverage. In this paper, we introduce a Pareto optimal self-supervision framework that can leverage available programmatic supervision to systematically calibrate LLM responses by producing a risk score for every response, without any additional manual efforts. This is accomplished by learning a harmonizer model to align LLM output with other available supervision sources, which would assign higher risk scores to more uncertain L
     
-[^37]: LeanDojo: 检索增强语言模型的定理证明
+[^38]: LeanDojo: 检索增强语言模型的定理证明
 
     LeanDojo: Theorem Proving with Retrieval-Augmented Language Models. (arXiv:2306.15626v1 [cs.LG])
 
@@ -582,7 +597,7 @@
 
     Large language models (LLMs) have shown promise in proving formal theorems using proof assistants such as Lean. However, existing methods are difficult to reproduce or build on, due to private code, data, and large compute requirements. This has created substantial barriers to research on machine learning methods for theorem proving. This paper removes these barriers by introducing LeanDojo: an open-source Lean playground consisting of toolkits, data, models, and benchmarks. LeanDojo extracts data from Lean and enables interaction with the proof environment programmatically. It contains fine-grained annotations of premises in proofs, providing valuable data for premise selection: a key bottleneck in theorem proving. Using this data, we develop ReProver (Retrieval-Augmented Prover): the first LLM-based prover that is augmented with retrieval for selecting premises from a vast math library. It is inexpensive and needs only one GPU week of training. Our retriever leverages LeanDojo's prog
     
-[^38]: 拓扑视差：深度感知模型的几何规范说明
+[^39]: 拓扑视差：深度感知模型的几何规范说明
 
     Topological Parallax: A Geometric Specification for Deep Perception Models. (arXiv:2306.11835v1 [cs.LG])
 
@@ -596,7 +611,7 @@
 
     For safety and robustness of AI systems, we introduce topological parallax as a theoretical and computational tool that compares a trained model to a reference dataset to determine whether they have similar multiscale geometric structure. Our proofs and examples show that this geometric similarity between dataset and model is essential to trustworthy interpolation and perturbation, and we conjecture that this new concept will add value to the current debate regarding the unclear relationship between overfitting and generalization in applications of deep-learning. In typical DNN applications, an explicit geometric description of the model is impossible, but parallax can estimate topological features (components, cycles, voids, etc.) in the model by examining the effect on the Rips complex of geodesic distortions using the reference dataset. Thus, parallax indicates whether the model shares similar multiscale geometric features with the dataset. Parallax presents theoretically via topolo
     
-[^39]: 实用的锐度感知优化算法不能全程向最优点收敛
+[^40]: 实用的锐度感知优化算法不能全程向最优点收敛
 
     Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima. (arXiv:2306.09850v1 [cs.LG])
 
@@ -610,7 +625,7 @@
 
     Sharpness-Aware Minimization (SAM) is an optimizer that takes a descent step based on the gradient at a perturbation $y_t = x_t + \rho \frac{\nabla f(x_t)}{\lVert \nabla f(x_t) \rVert}$ of the current point $x_t$. Existing studies prove convergence of SAM for smooth functions, but they do so by assuming decaying perturbation size $\rho$ and/or no gradient normalization in $y_t$, which is detached from practice. To address this gap, we study deterministic/stochastic versions of SAM with practical configurations (i.e., constant $\rho$ and gradient normalization in $y_t$) and explore their convergence properties on smooth functions with (non)convexity assumptions. Perhaps surprisingly, in many scenarios, we find out that SAM has limited capability to converge to global minima or stationary points. For smooth strongly convex functions, we show that while deterministic SAM enjoys tight global convergence rates of $\tilde \Theta(\frac{1}{T^2})$, the convergence bound of stochastic SAM suffer
     
-[^40]: 用函数逼近解决强化学习中重尾奖励问题的极小最大化算法和实例相关遗憾度量
+[^41]: 用函数逼近解决强化学习中重尾奖励问题的极小最大化算法和实例相关遗憾度量
 
     Tackling Heavy-Tailed Rewards in Reinforcement Learning with Function Approximation: Minimax Optimal and Instance-Dependent Regret Bounds. (arXiv:2306.06836v1 [cs.LG])
 
@@ -624,7 +639,7 @@
 
     While numerous works have focused on devising efficient algorithms for reinforcement learning (RL) with uniformly bounded rewards, it remains an open question whether sample or time-efficient algorithms for RL with large state-action space exist when the rewards are \emph{heavy-tailed}, i.e., with only finite $(1+\epsilon)$-th moments for some $\epsilon\in(0,1]$. In this work, we address the challenge of such rewards in RL with linear function approximation. We first design an algorithm, \textsc{Heavy-OFUL}, for heavy-tailed linear bandits, achieving an \emph{instance-dependent} $T$-round regret of $\tilde{O}\big(d T^{\frac{1-\epsilon}{2(1+\epsilon)}} \sqrt{\sum_{t=1}^T \nu_t^2} + d T^{\frac{1-\epsilon}{2(1+\epsilon)}}\big)$, the \emph{first} of this kind. Here, $d$ is the feature dimension, and $\nu_t^{1+\epsilon}$ is the $(1+\epsilon)$-th central moment of the reward at the $t$-th round. We further show the above bound is minimax optimal when applied to the worst-case instances in st
     
-[^41]: 基于Wasserstein的高概率泛化界限下的学习
+[^42]: 基于Wasserstein的高概率泛化界限下的学习
 
     Learning via Wasserstein-Based High Probability Generalisation Bounds. (arXiv:2306.04375v1 [stat.ML])
 
@@ -638,7 +653,7 @@
 
     Minimising upper bounds on the population risk or the generalisation gap has been widely used in structural risk minimisation (SRM) - this is in particular at the core of PAC-Bayesian learning. Despite its successes and unfailing surge of interest in recent years, a limitation of the PAC-Bayesian framework is that most bounds involve a Kullback-Leibler (KL) divergence term (or its variations), which might exhibit erratic behavior and fail to capture the underlying geometric structure of the learning problem - hence restricting its use in practical applications. As a remedy, recent studies have attempted to replace the KL divergence in the PAC-Bayesian bounds with the Wasserstein distance. Even though these bounds alleviated the aforementioned issues to a certain extent, they either hold in expectation, are for bounded losses, or are nontrivial to minimize in an SRM framework. In this work, we contribute to this line of research and prove novel Wasserstein distance-based PAC-Bayesian ge
     
-[^42]: 随机特征回归中贝叶斯不确定性估计的渐近性
+[^43]: 随机特征回归中贝叶斯不确定性估计的渐近性
 
     Asymptotics of Bayesian Uncertainty Estimation in Random Features Regression. (arXiv:2306.03783v1 [stat.ML])
 
@@ -652,7 +667,7 @@
 
     In this paper we compare and contrast the behavior of the posterior predictive distribution to the risk of the maximum a posteriori estimator for the random features regression model in the overparameterized regime. We will focus on the variance of the posterior predictive distribution (Bayesian model average) and compare its asymptotics to that of the risk of the MAP estimator. In the regime where the model dimensions grow faster than any constant multiple of the number of samples, asymptotic agreement between these two quantities is governed by the phase transition in the signal-to-noise ratio. They also asymptotically agree with each other when the number of samples grow faster than any constant multiple of model dimensions. Numerical simulations illustrate finer distributional properties of the two quantities for finite dimensions. We conjecture they have Gaussian fluctuations and exhibit similar properties as found by previous authors in a Gaussian sequence model, which is of inde
     
-[^43]: 通过重新思考民间威斯费勒-莱曼算法，实现$O(n^2)$空间内任意表达能力的GNNs
+[^44]: 通过重新思考民间威斯费勒-莱曼算法，实现$O(n^2)$空间内任意表达能力的GNNs
 
     Towards Arbitrarily Expressive GNNs in $O(n^2)$ Space by Rethinking Folklore Weisfeiler-Lehman. (arXiv:2306.03266v1 [cs.LG])
 
@@ -666,7 +681,7 @@
 
     Message passing neural networks (MPNNs) have emerged as the most popular framework of graph neural networks (GNNs) in recent years. However, their expressive power is limited by the 1-dimensional Weisfeiler-Lehman (1-WL) test. Some works are inspired by $k$-WL/FWL (Folklore WL) and design the corresponding neural versions. Despite the high expressive power, there are serious limitations in this line of research. In particular, (1) $k$-WL/FWL requires at least $O(n^k)$ space complexity, which is impractical for large graphs even when $k=3$; (2) The design space of $k$-WL/FWL is rigid, with the only adjustable hyper-parameter being $k$. To tackle the first limitation, we propose an extension, $(k, t)$-FWL. We theoretically prove that even if we fix the space complexity to $O(n^2)$ in $(k, t)$-FWL, we can construct an expressiveness hierarchy up to solving the graph isomorphism problem. To tackle the second problem, we propose $k$-FWL+, which considers any equivariant set as neighbors ins
     
-[^44]: 带曲率敏感模型的连续性结果的部分反事实识别
+[^45]: 带曲率敏感模型的连续性结果的部分反事实识别
 
     Partial Counterfactual Identification of Continuous Outcomes with a Curvature Sensitivity Model. (arXiv:2306.01424v1 [stat.ML])
 
@@ -680,7 +695,7 @@
 
     Counterfactual inference aims to answer retrospective ''what if'' questions and thus belongs to the most fine-grained type of inference in Pearl's causality ladder. Existing methods for counterfactual inference with continuous outcomes aim at point identification and thus make strong and unnatural assumptions about the underlying structural causal model. In this paper, we relax these assumptions and aim at partial counterfactual identification of continuous outcomes, i.e., when the counterfactual query resides in an ignorance interval with informative bounds. We prove that, in general, the ignorance interval of the counterfactual queries has non-informative bounds, already when functions of structural causal models are continuously differentiable. As a remedy, we propose a novel sensitivity model called Curvature Sensitivity Model. This allows us to obtain informative bounds by bounding the curvature of level sets of the functions. We further show that existing point counterfactual ide
     
-[^45]: 插件化表现优化
+[^46]: 插件化表现优化
 
     Plug-in Performative Optimization. (arXiv:2305.18728v1 [cs.LG])
 
@@ -694,7 +709,7 @@
 
     When predictions are performative, the choice of which predictor to deploy influences the distribution of future observations. The overarching goal in learning under performativity is to find a predictor that has low \emph{performative risk}, that is, good performance on its induced distribution. One family of solutions for optimizing the performative risk, including bandits and other derivative-free methods, is agnostic to any structure in the performative feedback, leading to exceedingly slow convergence rates. A complementary family of solutions makes use of explicit \emph{models} for the feedback, such as best-response models in strategic classification, enabling significantly faster rates. However, these rates critically rely on the feedback model being well-specified. In this work we initiate a study of the use of possibly \emph{misspecified} models in performative prediction. We study a general protocol for making use of models, called \emph{plug-in performative optimization}, a
     
-[^46]: 曲线上扬：在可微广义加性模型中的共曲抑制正则化
+[^47]: 曲线上扬：在可微广义加性模型中的共曲抑制正则化
 
     Curve Your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models. (arXiv:2305.11475v1 [cs.LG])
 
@@ -708,7 +723,7 @@
 
     Generalized Additive Models (GAMs) have recently experienced a resurgence in popularity due to their interpretability, which arises from expressing the target value as a sum of non-linear transformations of the features. Despite the current enthusiasm for GAMs, their susceptibility to concurvity - i.e., (possibly non-linear) dependencies between the features - has hitherto been largely overlooked. Here, we demonstrate how concurvity can severly impair the interpretability of GAMs and propose a remedy: a conceptually simple, yet effective regularizer which penalizes pairwise correlations of the non-linearly transformed feature variables. This procedure is applicable to any differentiable additive model, such as Neural Additive Models or NeuralProphet, and enhances interpretability by eliminating ambiguities due to self-canceling feature contributions. We validate the effectiveness of our regularizer in experiments on synthetic as well as real-world datasets for time-series and tabular d
     
-[^47]: 线性回归中依赖数据的噪声水平研究
+[^48]: 线性回归中依赖数据的噪声水平研究
 
     The noise level in linear regression with dependent data. (arXiv:2305.11165v1 [cs.LG])
 
@@ -722,7 +737,7 @@
 
     We derive upper bounds for random design linear regression with dependent ($\beta$-mixing) data absent any realizability assumptions. In contrast to the strictly realizable martingale noise regime, no sharp instance-optimal non-asymptotics are available in the literature. Up to constant factors, our analysis correctly recovers the variance term predicted by the Central Limit Theorem -- the noise level of the problem -- and thus exhibits graceful degradation as we introduce misspecification. Past a burn-in, our result is sharp in the moderate deviations regime, and in particular does not inflate the leading order term by mixing time factors.
     
-[^48]: 合成经验回放：旨在用扩充数据来提高深度强化学习的效果
+[^49]: 合成经验回放：旨在用扩充数据来提高深度强化学习的效果
 
     Synthetic Experience Replay. (arXiv:2303.06614v2 [cs.LG] UPDATED)
 
@@ -736,7 +751,7 @@
 
     A key theme in the past decade has been that when large neural networks and large datasets combine they can produce remarkable results. In deep reinforcement learning (RL), this paradigm is commonly made possible through experience replay, whereby a dataset of past experiences is used to train a policy or value function. However, unlike in supervised or self-supervised learning, an RL agent has to collect its own data, which is often limited. Thus, it is challenging to reap the benefits of deep learning, and even small neural networks can overfit at the start of training. In this work, we leverage the tremendous recent progress in generative modeling and propose Synthetic Experience Replay (SynthER), a diffusion-based approach to flexibly upsample an agent's collected experience. We show that SynthER is an effective method for training RL agents across offline and online settings, in both proprioceptive and pixel-based environments. In offline settings, we observe drastic improvements 
     
-[^49]: 异质分布偏移下的统计学习
+[^50]: 异质分布偏移下的统计学习
 
     Statistical Learning under Heterogenous Distribution Shift. (arXiv:2302.13934v2 [cs.LG] UPDATED)
 
@@ -750,7 +765,7 @@
 
     This paper studies the prediction of a target $\mathbf{z}$ from a pair of random variables $(\mathbf{x},\mathbf{y})$, where the ground-truth predictor is additive $\mathbb{E}[\mathbf{z} \mid \mathbf{x},\mathbf{y}] = f_\star(\mathbf{x}) +g_{\star}(\mathbf{y})$. We study the performance of empirical risk minimization (ERM) over functions $f+g$, $f \in F$ and $g \in G$, fit on a given training distribution, but evaluated on a test distribution which exhibits covariate shift. We show that, when the class $F$ is "simpler" than $G$ (measured, e.g., in terms of its metric entropy), our predictor is more resilient to $\textbf{heterogenous covariate shifts}$ in which the shift in $\mathbf{x}$ is much greater than that in $\mathbf{y}$. Our analysis proceeds by demonstrating that ERM behaves $\textbf{qualitatively similarly to orthogonal machine learning}$: the rate at which ERM recovers the $f$-component of the predictor has only a lower-order dependence on the complexity of the class $G$, adjus
     
-[^50]: 变分自编码器的分布式学习：在合成数据生成中的应用
+[^51]: 变分自编码器的分布式学习：在合成数据生成中的应用
 
     Distributional Learning of Variational AutoEncoder: Application to Synthetic Data Generation. (arXiv:2302.11294v2 [stat.ML] UPDATED)
 
@@ -764,7 +779,7 @@
 
     The Gaussianity assumption has been consistently criticized as a main limitation of the Variational Autoencoder (VAE), despite its efficiency in computational modeling. In this paper, we propose a new approach that expands the model capacity (i.e., expressive power of distributional family) without sacrificing the computational advantages of the VAE framework. Our VAE model's decoder is composed of an infinite mixture of asymmetric Laplacian distribution, which possesses general distribution fitting capabilities for continuous variables. Our model is represented by a special form of a nonparametric M-estimator for estimating general quantile functions, and we theoretically establish the relevance between the proposed model and quantile estimation. We apply the proposed model to synthetic data generation, and particularly, our model demonstrates superiority in easily adjusting the level of data privacy.
     
-[^51]: 未配对的多领域因果表示学习
+[^52]: 未配对的多领域因果表示学习
 
     Unpaired Multi-Domain Causal Representation Learning. (arXiv:2302.00993v2 [stat.ML] UPDATED)
 
@@ -778,7 +793,7 @@
 
     The goal of causal representation learning is to find a representation of data that consists of causally related latent variables. We consider a setup where one has access to data from multiple domains that potentially share a causal representation. Crucially, observations in different domains are assumed to be unpaired, that is, we only observe the marginal distribution in each domain but not their joint distribution. In this paper, we give sufficient conditions for identifiability of the joint distribution and the shared causal graph in a linear setup. Identifiability holds if we can uniquely recover the joint distribution and the shared causal representation from the marginal distributions in each domain. We transform our identifiability results into a practical method to recover the shared latent causal graph.
     
-[^52]: ReSQue的并行和私密随机凸优化
+[^53]: ReSQue的并行和私密随机凸优化
 
     ReSQueing Parallel and Private Stochastic Convex Optimization. (arXiv:2301.00457v2 [math.OC] UPDATED)
 
@@ -792,7 +807,7 @@
 
     We introduce a new tool for stochastic convex optimization (SCO): a Reweighted Stochastic Query (ReSQue) estimator for the gradient of a function convolved with a (Gaussian) probability density. Combining ReSQue with recent advances in ball oracle acceleration [CJJJLST20, ACJJS21], we develop algorithms achieving state-of-the-art complexities for SCO in parallel and private settings. For a SCO objective constrained to the unit ball in $\mathbb{R}^d$, we obtain the following results (up to polylogarithmic factors). We give a parallel algorithm obtaining optimization error $\epsilon_{\text{opt}}$ with $d^{1/3}\epsilon_{\text{opt}}^{-2/3}$ gradient oracle query depth and $d^{1/3}\epsilon_{\text{opt}}^{-2/3} + \epsilon_{\text{opt}}^{-2}$ gradient queries in total, assuming access to a bounded-variance stochastic gradient estimator. For $\epsilon_{\text{opt}} \in [d^{-1}, d^{-1/4}]$, our algorithm matches the state-of-the-art oracle depth of [BJLLS19] while maintaining the optimal total wor
     
-[^53]: 适用于近似模型的贝叶斯得分校准
+[^54]: 适用于近似模型的贝叶斯得分校准
 
     Bayesian score calibration for approximate models. (arXiv:2211.05357v4 [stat.CO] UPDATED)
 
@@ -806,7 +821,7 @@
 
     Scientists continue to develop increasingly complex mechanistic models to reflect their knowledge more realistically. Statistical inference using these models can be challenging since the corresponding likelihood function is often intractable and model simulation may be computationally burdensome. Fortunately, in many of these situations, it is possible to adopt a surrogate model or approximate likelihood function. It may be convenient to conduct Bayesian inference directly with the surrogate, but this can result in bias and poor uncertainty quantification. In this paper we propose a new method for adjusting approximate posterior samples to reduce bias and produce more accurate uncertainty quantification. We do this by optimizing a transform of the approximate posterior that maximizes a scoring rule. Our approach requires only a (fixed) small number of complex model simulations and is numerically stable. We demonstrate good performance of the new method on several examples of increasin
     
-[^54]: 深度学习广义线性模型及其在缺失数据中的应用
+[^55]: 深度学习广义线性模型及其在缺失数据中的应用
 
     Deeply-Learned Generalized Linear Models with Missing Data. (arXiv:2207.08911v2 [stat.ML] UPDATED)
 
@@ -820,7 +835,7 @@
 
     Deep Learning (DL) methods have dramatically increased in popularity in recent years, with significant growth in their application to supervised learning problems in the biomedical sciences. However, the greater prevalence and complexity of missing data in modern biomedical datasets present significant challenges for DL methods. Here, we provide a formal treatment of missing data in the context of deeply learned generalized linear models, a supervised DL architecture for regression and classification problems. We propose a new architecture, \textit{dlglm}, that is one of the first to be able to flexibly account for both ignorable and non-ignorable patterns of missingness in input features and response at training time. We demonstrate through statistical simulation that our method outperforms existing approaches for supervised learning tasks in the presence of missing not at random (MNAR) missingness. We conclude with a case study of a Bank Marketing dataset from the UCI Machine Learnin
     
-[^55]: 算法基础的经验性X风险最小化
+[^56]: 算法基础的经验性X风险最小化
 
     Algorithmic Foundations of Empirical X-risk Minimization. (arXiv:2206.00439v6 [cs.LG] UPDATED)
 
@@ -834,7 +849,7 @@
 
     This manuscript introduces a new optimization framework for machine learning and AI, named {\bf empirical X-risk minimization (EXM)}. X-risk is a term introduced to represent a family of compositional measures or objectives, in which each data point is compared with a large number of items explicitly or implicitly for defining a risk function. It includes surrogate objectives of many widely used measures and non-decomposable losses, e.g., AUROC, AUPRC, partial AUROC, NDCG, MAP, precision/recall at top $K$ positions, precision at a certain recall level, listwise losses, p-norm push, top push, global contrastive losses, etc. While these non-decomposable objectives and their optimization algorithms have been studied in the literature of machine learning, computer vision, information retrieval, and etc, optimizing these objectives has encountered some unique challenges for deep learning. In this paper, we present recent rigorous efforts for EXM with a focus on its algorithmic foundations a
     
-[^56]: 带约束学习的混合整数优化
+[^57]: 带约束学习的混合整数优化
 
     Mixed-Integer Optimization with Constraint Learning. (arXiv:2111.04469v3 [math.OC] UPDATED)
 
@@ -848,7 +863,7 @@
 
     We establish a broad methodological foundation for mixed-integer optimization with learned constraints. We propose an end-to-end pipeline for data-driven decision making in which constraints and objectives are directly learned from data using machine learning, and the trained models are embedded in an optimization formulation. We exploit the mixed-integer optimization-representability of many machine learning methods, including linear models, decision trees, ensembles, and multi-layer perceptrons, which allows us to capture various underlying relationships between decisions, contextual variables, and outcomes. We also introduce two approaches for handling the inherent uncertainty of learning from data. First, we characterize a decision trust region using the convex hull of the observations, to ensure credible recommendations and avoid extrapolation. We efficiently incorporate this representation using column generation and propose a more flexible formulation to deal with low-density re
     
-[^57]: Eigenlearning框架：核回归和宽神经网络的守恒定律视角
+[^58]: Eigenlearning框架：核回归和宽神经网络的守恒定律视角
 
     The Eigenlearning Framework: A Conservation Law Perspective on Kernel Regression and Wide Neural Networks. (arXiv:2110.03922v5 [cs.LG] UPDATED)
 
@@ -862,7 +877,7 @@
 
     We derive simple closed-form estimates for the test risk and other generalization metrics of kernel ridge regression (KRR). Relative to prior work, our derivations are greatly simplified and our final expressions are more readily interpreted. These improvements are enabled by our identification of a sharp conservation law which limits the ability of KRR to learn any orthonormal basis of functions. Test risk and other objects of interest are expressed transparently in terms of our conserved quantity evaluated in the kernel eigenbasis. We use our improved framework to: i) provide a theoretical explanation for the "deep bootstrap" of Nakkiran et al (2020), ii) generalize a previous result regarding the hardness of the classic parity problem, iii) fashion a theoretical tool for the study of adversarial robustness, and iv) draw a tight analogy between KRR and a well-studied system in statistical physics.
     
-[^58]: 不确定性的不平等影响：平权行动与平权信息
+[^59]: 不确定性的不平等影响：平权行动与平权信息
 
     The Disparate Impact of Uncertainty: Affirmative Action vs. Affirmative Information. (arXiv:2102.10019v2 [stat.ML] UPDATED)
 
@@ -876,7 +891,7 @@
 
     Critical decisions like loan approvals, medical interventions, and college admissions are guided by predictions made in the presence of uncertainty. In this paper, we prove that uncertainty has a disparate impact. While it imparts errors across all demographic groups, the types of errors vary systematically: Groups with higher average outcomes are typically assigned higher false positive rates, while those with lower average outcomes are assigned higher false negative rates. We show that additional data acquisition can eliminate the disparity and broaden access to opportunity. The strategy, which we call Affirmative Information, could stand as an alternative to Affirmative Action.
     
-[^59]: 意识的神经计算模型：目标对齐的内部表示操作理论（GARIM）
+[^60]: 意识的神经计算模型：目标对齐的内部表示操作理论（GARIM）
 
     A Neurocomputational Account of Consciousness: The Goal-Aligning Representation Internal Manipulation Theory (GARIM). (arXiv:1912.13490v3 [cs.AI] UPDATED)
 

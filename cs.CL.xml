@@ -1298,6 +1298,26 @@ http://arxiv.org/abs/2310.17703
 &lt;/p&gt;
 &lt;p&gt;
 Documentation burden is a major contributor to clinician burnout, which is rising nationally and is an urgent threat to our ability to care for patients. Artificial intelligence (AI) chatbots, such as ChatGPT, could reduce clinician burden by assisting with documentation. Although many hospitals are actively integrating such systems into electronic medical record systems, AI chatbots utility and impact on clinical decision-making have not been studied for this intended use. We are the first to examine the utility of large language models in assisting clinicians draft responses to patient questions. In our two-stage cross-sectional study, 6 oncologists responded to 100 realistic synthetic cancer patient scenarios and portal messages developed to reflect common medical situations, first manually, then with AI assistance.  We find AI-assisted responses were longer, less readable, but provided acceptable drafts without edits 58% of time. AI assistance improved efficiency 77% of time, with 
+&lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#27604;&#36739;&#20102;&#20351;&#29992;&#32500;&#24230;&#23545;&#27604;&#24230;&#30446;&#26631;&#35757;&#32451;&#30340;&#33258;&#25105;&#30417;&#30563;&#23884;&#20837;&#19982;SimCSE&#26041;&#27861;&#65292;&#22312;&#19979;&#28216;&#20219;&#21153;&#20013;&#21069;&#32773;&#34920;&#29616;&#20248;&#20110;&#21518;&#32773;&#12290;</title><link>http://arxiv.org/abs/2310.17690</link><description>&lt;p&gt;
+&#38750;&#23545;&#27604;&#24230;&#21477;&#23376;&#34920;&#31034;&#30340;&#33258;&#25105;&#30417;&#30563;&#26041;&#27861;
+&lt;/p&gt;
+&lt;p&gt;
+Non-contrastive sentence representations via self-supervision. (arXiv:2310.17690v1 [cs.CL])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2310.17690
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#27604;&#36739;&#20102;&#20351;&#29992;&#32500;&#24230;&#23545;&#27604;&#24230;&#30446;&#26631;&#35757;&#32451;&#30340;&#33258;&#25105;&#30417;&#30563;&#23884;&#20837;&#19982;SimCSE&#26041;&#27861;&#65292;&#22312;&#19979;&#28216;&#20219;&#21153;&#20013;&#21069;&#32773;&#34920;&#29616;&#20248;&#20110;&#21518;&#32773;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#23545;&#27604;&#24230;&#26041;&#27861;&#26159;&#23398;&#20064;&#25991;&#26412;&#21644;&#21477;&#23376;&#23884;&#20837;&#30340;&#22823;&#22810;&#25968;&#26080;&#30417;&#30563;&#26041;&#27861;&#30340;&#22522;&#30784;&#12290;&#28982;&#32780;&#65292;&#22312;&#35745;&#31639;&#26426;&#35270;&#35273;&#31038;&#21306;&#20013;&#65292;&#19968;&#31867;&#19981;&#21516;&#30340;&#33258;&#25105;&#30417;&#30563;&#25439;&#22833;&#20989;&#25968;&#21644;&#26041;&#27861;&#34987;&#31216;&#20026;&#32500;&#24230;&#23545;&#27604;&#24230;&#12290;&#26412;&#25991;&#36890;&#36807;&#19982;&#26631;&#20934;&#23545;&#27604;&#24230;&#21477;&#23376;&#23884;&#20837;&#22522;&#32447;&#26041;&#27861;SimCSE&#36827;&#34892;&#20840;&#38754;&#27604;&#36739;&#65292;&#21457;&#29616;&#20351;&#29992;&#32500;&#24230;&#23545;&#27604;&#24230;&#30446;&#26631;&#35757;&#32451;&#30340;&#33258;&#25105;&#30417;&#30563;&#23884;&#20837;&#33021;&#22815;&#22312;&#19979;&#28216;&#20219;&#21153;&#20013;&#32988;&#36807;SimCSE&#65292;&#32780;&#26080;&#38656;&#36741;&#21161;&#25439;&#22833;&#20989;&#25968;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Sample contrastive methods, typically referred to simply as contrastive are the foundation of most unsupervised methods to learn text and sentence embeddings. On the other hand, a different class of self-supervised loss functions and methods have been considered in the computer vision community and referred to as dimension contrastive. In this paper, we thoroughly compare this class of methods with the standard baseline for contrastive sentence embeddings, SimCSE. We find that self-supervised embeddings trained using dimension contrastive objectives can outperform SimCSE on downstream tasks without needing auxiliary loss functions.
 &lt;/p&gt;</description></item><item><title>CodeFusion&#26159;&#19968;&#31181;&#39044;&#35757;&#32451;&#30340;&#20195;&#30721;&#29983;&#25104;&#27169;&#22411;&#65292;&#36890;&#36807;&#25193;&#25955;&#30340;&#26041;&#24335;&#35299;&#20915;&#20102;&#33258;&#28982;&#35821;&#35328;&#20195;&#30721;&#29983;&#25104;&#20013;&#36935;&#21040;&#30340;&#38480;&#21046;&#65292;&#23454;&#39564;&#34920;&#26126;&#20854;&#22312;&#20934;&#30830;&#29575;&#21644;&#22810;&#26679;&#24615;&#19978;&#20248;&#20110;&#26368;&#20808;&#36827;&#30340;&#33258;&#22238;&#24402;&#31995;&#32479;&#12290;</title><link>http://arxiv.org/abs/2310.17680</link><description>&lt;p&gt;
 CodeFusion: &#19968;&#31181;&#29992;&#20110;&#20195;&#30721;&#29983;&#25104;&#30340;&#39044;&#35757;&#32451;&#25193;&#25955;&#27169;&#22411;
 &lt;/p&gt;
