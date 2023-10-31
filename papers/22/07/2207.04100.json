@@ -1,0 +1,11 @@
+{
+    "title": "Dealing with multi-currency inventory risk in FX cash markets. (arXiv:2207.04100v4 [q-fin.TR] UPDATED)",
+    "abstract": "In FX cash markets, market makers provide liquidity to clients for a wide variety of currency pairs. Because of flow uncertainty and market volatility, they face inventory risk. To mitigate this risk, they typically skew their prices to attract or divert the flow and trade with their peers on the dealer-to-dealer segment of the market for hedging purposes. This paper offers a mathematical framework to FX dealers willing to maximize their expected profit while controlling their inventory risk. Approximation techniques are proposed which make the framework scalable to any number of currency pairs.",
+    "link": "http://arxiv.org/abs/2207.04100",
+    "context": "Title: Dealing with multi-currency inventory risk in FX cash markets. (arXiv:2207.04100v4 [q-fin.TR] UPDATED)\nAbstract: In FX cash markets, market makers provide liquidity to clients for a wide variety of currency pairs. Because of flow uncertainty and market volatility, they face inventory risk. To mitigate this risk, they typically skew their prices to attract or divert the flow and trade with their peers on the dealer-to-dealer segment of the market for hedging purposes. This paper offers a mathematical framework to FX dealers willing to maximize their expected profit while controlling their inventory risk. Approximation techniques are proposed which make the framework scalable to any number of currency pairs.",
+    "path": "papers/22/07/2207.04100.json",
+    "total_tokens": 710,
+    "translated_title": "在外汇现金市场中处理多货币库存风险",
+    "translated_abstract": "在外汇现金市场中，市场制造商为客户提供各种货币对的流动性。由于流动性的不确定性和市场波动性，他们面临库存风险。为了减轻这种风险，他们通常会倾斜价格以吸引或转移流动性，并在市场的交易对手部分与同行进行对冲交易。本文为愿意在控制库存风险的同时最大化预期利润的外汇交易商提供了一个数学框架。提出了适用于任意货币对数量的近似技术，使框架可扩展性很强。",
+    "tldr": "本文提出了一个数学框架，旨在帮助外汇交易商在控制库存风险的同时最大化预期利润。通过引入适应于任意货币对数量的近似技术，使该框架具有很强的可扩展性。"
+}

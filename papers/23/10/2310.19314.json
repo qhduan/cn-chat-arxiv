@@ -1,0 +1,12 @@
+{
+    "title": "The minimax property in infinite two-person win-lose games. (arXiv:2310.19314v1 [cs.GT])",
+    "abstract": "We explore a version of the minimax theorem for two-person win-lose games with infinitely many pure strategies. In the countable case, we give a combinatorial condition on the game which implies the minimax property. In the general case, we prove that a game satisfies the minimax property along with all its subgames if and only if none of its subgames is isomorphic to the \"larger number game.\" This generalizes a recent theorem of Hanneke, Livni and Moran. We also propose several applications of our results outside of game theory.",
+    "link": "http://arxiv.org/abs/2310.19314",
+    "context": "Title: The minimax property in infinite two-person win-lose games. (arXiv:2310.19314v1 [cs.GT])\nAbstract: We explore a version of the minimax theorem for two-person win-lose games with infinitely many pure strategies. In the countable case, we give a combinatorial condition on the game which implies the minimax property. In the general case, we prove that a game satisfies the minimax property along with all its subgames if and only if none of its subgames is isomorphic to the \"larger number game.\" This generalizes a recent theorem of Hanneke, Livni and Moran. We also propose several applications of our results outside of game theory.",
+    "path": "papers/23/10/2310.19314.json",
+    "total_tokens": 710,
+    "translated_title": "无限两人输赢游戏中的极小极大性质",
+    "translated_abstract": "我们探讨了在有无限多个纯策略的两人输赢游戏中的极小极大定理的一个版本。在可数案例中，我们给出了一个关于游戏的组合条件，该条件蕴含了极小极大性质。在一般案例中，我们证明了如果一个游戏及其所有子游戏都满足极小极大性质，那么当且仅当其中没有任何一个子游戏同构于“更大的数游戏”。这推广了Hanneke，Livni和Moran最近的定理。我们还提出了我们结果在博弈论之外的几个应用。",
+    "tldr": "这篇论文研究了在无限策略的两人输赢游戏中的极小极大性质，给出了一个关于游戏的组合条件，并推广了之前的一些定理。这些结果还可以在博弈论之外应用。",
+    "en_tdlr": "This paper investigates the minimax property in infinite two-person win-lose games, providing a combinatorial condition and generalizing previous theorems. The findings have implications beyond game theory."
+}

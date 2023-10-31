@@ -1,0 +1,12 @@
+{
+    "title": "Multilateral matching with scale economies. (arXiv:2310.19479v1 [econ.TH])",
+    "abstract": "This paper studies multilateral matching in which any set of agents can negotiate contracts. We assume scale economies in the sense that an agent substitutes some contracts with some new contracts only if the newly signed contracts involve a weakly larger set of partners. We show that a weakly setwise stable outcome exists in a market with scale economies and a setwise stable outcome exists under a stronger scale economies condition. Our conditions apply to environments in which more partners bring advantages, and allow agents to bargain over contracts signed by them.",
+    "link": "http://arxiv.org/abs/2310.19479",
+    "context": "Title: Multilateral matching with scale economies. (arXiv:2310.19479v1 [econ.TH])\nAbstract: This paper studies multilateral matching in which any set of agents can negotiate contracts. We assume scale economies in the sense that an agent substitutes some contracts with some new contracts only if the newly signed contracts involve a weakly larger set of partners. We show that a weakly setwise stable outcome exists in a market with scale economies and a setwise stable outcome exists under a stronger scale economies condition. Our conditions apply to environments in which more partners bring advantages, and allow agents to bargain over contracts signed by them.",
+    "path": "papers/23/10/2310.19479.json",
+    "total_tokens": 729,
+    "translated_title": "带有规模经济的多边匹配问题",
+    "translated_abstract": "本文研究了多边匹配问题，即任何一组代理人都可以协商合同。我们假设存在规模经济，即只有当新签订的合同涉及一个弱相对较大的合作伙伴集合时，一个代理人才会用一些新合同替代一些原有合同。我们证明了在具有规模经济的市场中存在弱集合稳定的结果，并且在更强的规模经济条件下存在集合稳定的结果。我们的条件适用于那些多个合作伙伴带来优势的环境，并允许代理人对他们签订的合同进行讨价还价。",
+    "tldr": "本文研究了具有规模经济的多边匹配问题，并证明了在具有规模经济的市场中存在弱集合稳定的结果。该研究适用于那些多个合作伙伴带来优势的环境，并允许代理人对他们签订的合同进行讨价还价。",
+    "en_tdlr": "This paper studies multilateral matching with scale economies and proves the existence of a weak setwise stable outcome in such markets. The research applies to environments where having more partners is advantageous and allows agents to negotiate over the contracts they sign."
+}

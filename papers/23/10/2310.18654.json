@@ -1,0 +1,12 @@
+{
+    "title": "Causal discovery in a complex industrial system: A time series benchmark. (arXiv:2310.18654v1 [stat.ML])",
+    "abstract": "Causal discovery outputs a causal structure, represented by a graph, from observed data. For time series data, there is a variety of methods, however, it is difficult to evaluate these on real data as realistic use cases very rarely come with a known causal graph to which output can be compared. In this paper, we present a dataset from an industrial subsystem at the European Spallation Source along with its causal graph which has been constructed from expert knowledge. This provides a testbed for causal discovery from time series observations of complex systems, and we believe this can help inform the development of causal discovery methodology.",
+    "link": "http://arxiv.org/abs/2310.18654",
+    "context": "Title: Causal discovery in a complex industrial system: A time series benchmark. (arXiv:2310.18654v1 [stat.ML])\nAbstract: Causal discovery outputs a causal structure, represented by a graph, from observed data. For time series data, there is a variety of methods, however, it is difficult to evaluate these on real data as realistic use cases very rarely come with a known causal graph to which output can be compared. In this paper, we present a dataset from an industrial subsystem at the European Spallation Source along with its causal graph which has been constructed from expert knowledge. This provides a testbed for causal discovery from time series observations of complex systems, and we believe this can help inform the development of causal discovery methodology.",
+    "path": "papers/23/10/2310.18654.json",
+    "total_tokens": 670,
+    "translated_title": "复杂工业系统中的因果关系发现：一个时间序列基准研究",
+    "translated_abstract": "因果关系发现通过观测数据输出一个由图形表示的因果结构。针对时间序列数据，存在各种方法，然而，评估这些方法在真实数据上很困难，因为现实应用场景很少会有一个已知的因果图来进行比较。本文提供了来自欧洲散裂源的一个工业子系统的数据集以及由专家知识构建的因果图。这为从复杂系统的时间序列观测中进行因果关系发现提供了一个测试平台，我们相信这可以帮助推动因果关系发现方法的发展。",
+    "tldr": "本文提供了一个工业子系统的时间序列数据集和由专家知识构建的因果图，为复杂系统的因果关系发现方法的发展提供了一个测试平台。",
+    "en_tdlr": "This paper presents a dataset and causal graph of an industrial subsystem, providing a testbed for causal discovery in complex systems."
+}

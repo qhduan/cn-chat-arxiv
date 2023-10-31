@@ -1,0 +1,12 @@
+{
+    "title": "Pessimistic Off-Policy Multi-Objective Optimization. (arXiv:2310.18617v1 [cs.LG])",
+    "abstract": "Multi-objective optimization is a type of decision making problems where multiple conflicting objectives are optimized. We study offline optimization of multi-objective policies from data collected by an existing policy. We propose a pessimistic estimator for the multi-objective policy values that can be easily plugged into existing formulas for hypervolume computation and optimized. The estimator is based on inverse propensity scores (IPS), and improves upon a naive IPS estimator in both theory and experiments. Our analysis is general, and applies beyond our IPS estimators and methods for optimizing them. The pessimistic estimator can be optimized by policy gradients and performs well in all of our experiments.",
+    "link": "http://arxiv.org/abs/2310.18617",
+    "context": "Title: Pessimistic Off-Policy Multi-Objective Optimization. (arXiv:2310.18617v1 [cs.LG])\nAbstract: Multi-objective optimization is a type of decision making problems where multiple conflicting objectives are optimized. We study offline optimization of multi-objective policies from data collected by an existing policy. We propose a pessimistic estimator for the multi-objective policy values that can be easily plugged into existing formulas for hypervolume computation and optimized. The estimator is based on inverse propensity scores (IPS), and improves upon a naive IPS estimator in both theory and experiments. Our analysis is general, and applies beyond our IPS estimators and methods for optimizing them. The pessimistic estimator can be optimized by policy gradients and performs well in all of our experiments.",
+    "path": "papers/23/10/2310.18617.json",
+    "total_tokens": 769,
+    "translated_title": "悲观的离线多目标优化",
+    "translated_abstract": "多目标优化是一类决策问题，其中对多个相互冲突的目标进行优化。我们研究了从现有策略收集的数据中进行离线优化的多目标策略。我们提出了一种悲观的估计器，用于计算多目标策略值，并可以轻松地插入到现有的超体积计算和优化公式中。该估计器基于反向倾向性分数（IPS），在理论和实验中均改进了朴素的IPS估计器。我们的分析是一般的，适用于超出IPS估计器和优化方法的范围。悲观的估计器可以通过策略梯度进行优化，并在我们的所有实验中表现良好。",
+    "tldr": "该论文提出了一种悲观的估计器，用于计算离线多目标优化中的策略值，并通过策略梯度进行优化。该估计器基于反向倾向性分数（IPS），在理论和实验中均表现出较好的性能。",
+    "en_tdlr": "This paper proposes a pessimistic estimator for computing policy values in offline multi-objective optimization, which can be optimized using policy gradients. The estimator, based on inverse propensity scores (IPS), outperforms naive IPS estimator in both theory and experiments."
+}

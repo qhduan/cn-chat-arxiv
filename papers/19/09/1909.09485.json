@@ -1,0 +1,12 @@
+{
+    "title": "BSDAR: Beam Search Decoding with Attention Reward in Neural Keyphrase Generation. (arXiv:1909.09485v2 [cs.CL] UPDATED)",
+    "abstract": "This study mainly investigates two common decoding problems in neural keyphrase generation: sequence length bias and beam diversity. To tackle the problems, we introduce a beam search decoding strategy based on word-level and ngram-level reward function to constrain and refine Seq2Seq inference at test time. Results show that our simple proposal can overcome the algorithm bias to shorter and nearly identical sequences, resulting in a significant improvement of the decoding performance on generating keyphrases that are present and absent in source text.",
+    "link": "http://arxiv.org/abs/1909.09485",
+    "context": "Title: BSDAR: Beam Search Decoding with Attention Reward in Neural Keyphrase Generation. (arXiv:1909.09485v2 [cs.CL] UPDATED)\nAbstract: This study mainly investigates two common decoding problems in neural keyphrase generation: sequence length bias and beam diversity. To tackle the problems, we introduce a beam search decoding strategy based on word-level and ngram-level reward function to constrain and refine Seq2Seq inference at test time. Results show that our simple proposal can overcome the algorithm bias to shorter and nearly identical sequences, resulting in a significant improvement of the decoding performance on generating keyphrases that are present and absent in source text.",
+    "path": "papers/19/09/1909.09485.json",
+    "total_tokens": 686,
+    "translated_title": "BSDAR: 基于注意力奖励的神经关键词生成中的束搜索解码",
+    "translated_abstract": "本研究主要研究神经关键词生成中的两个常见解码问题：序列长度偏差和束多样性。为了解决这些问题，我们引入了一种基于词级和ngram级奖励函数的束搜索解码策略，以在测试时约束和优化Seq2Seq推理过程。结果表明，我们简单的提案可以克服算法对较短和几乎相同的序列的偏好，从而显著提高生成源文本中存在和不存在的关键词的解码性能。",
+    "tldr": "本研究提出了一种基于注意力奖励的束搜索解码策略，用于解决神经关键词生成中的序列长度偏差和束多样性问题，该方法显著提高了生成关键词的解码性能。",
+    "en_tdlr": "This study proposes a beam search decoding strategy with attention reward to address the sequence length bias and beam diversity problems in neural keyphrase generation. The proposed method significantly improves the decoding performance in generating keyphrases that are present and absent in the source text."
+}

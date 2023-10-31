@@ -1,0 +1,12 @@
+{
+    "title": "Reflection coupling for unadjusted generalized Hamiltonian Monte Carlo in the nonconvex stochastic gradient case. (arXiv:2310.18774v1 [math.PR])",
+    "abstract": "Contraction in Wasserstein 1-distance with explicit rates is established for generalized Hamiltonian Monte Carlo with stochastic gradients under possibly nonconvex conditions. The algorithms considered include splitting schemes of kinetic Langevin diffusion. As consequence, quantitative Gaussian concentration bounds are provided for empirical averages. Convergence in Wasserstein 2-distance, total variation and relative entropy are also given, together with numerical bias estimates.",
+    "link": "http://arxiv.org/abs/2310.18774",
+    "context": "Title: Reflection coupling for unadjusted generalized Hamiltonian Monte Carlo in the nonconvex stochastic gradient case. (arXiv:2310.18774v1 [math.PR])\nAbstract: Contraction in Wasserstein 1-distance with explicit rates is established for generalized Hamiltonian Monte Carlo with stochastic gradients under possibly nonconvex conditions. The algorithms considered include splitting schemes of kinetic Langevin diffusion. As consequence, quantitative Gaussian concentration bounds are provided for empirical averages. Convergence in Wasserstein 2-distance, total variation and relative entropy are also given, together with numerical bias estimates.",
+    "path": "papers/23/10/2310.18774.json",
+    "total_tokens": 702,
+    "translated_title": "非凸随机梯度情况下未调整的广义哈密尔顿蒙特卡罗中的反射耦合",
+    "translated_abstract": "在可能非凸的条件下，建立了具有随机梯度的广义哈密尔顿蒙特卡罗的Wasserstein 1距离的收敛性，其中包括动力学Langevin扩散的分裂方案算法。作为结果，提供了经验平均值的定量高斯集中界限。此外，还给出了Wasserstein 2距离、总变差和相对熵的收敛性，以及数值偏差估计。",
+    "tldr": "该论文研究了非凸随机梯度情况下未调整的广义哈密尔顿蒙特卡罗中的反射耦合，证明了Wasserstein 1距离的收敛性，并提供了定量高斯集中界限，同时还给出了Wasserstein 2距离、总变差和相对熵的收敛性。",
+    "en_tdlr": "This paper investigates reflection coupling in the nonconvex stochastic gradient case of unadjusted generalized Hamiltonian Monte Carlo, establishes convergence in Wasserstein 1-distance, and provides quantitative Gaussian concentration bounds. It also gives convergence results in Wasserstein 2-distance, total variation, and relative entropy."
+}

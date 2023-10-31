@@ -1,0 +1,12 @@
+{
+    "title": "Nonparametric Density Estimation under Distribution Drift. (arXiv:2302.02460v2 [cs.LG] UPDATED)",
+    "abstract": "We study nonparametric density estimation in non-stationary drift settings. Given a sequence of independent samples taken from a distribution that gradually changes in time, the goal is to compute the best estimate for the current distribution. We prove tight minimax risk bounds for both discrete and continuous smooth densities, where the minimum is over all possible estimates and the maximum is over all possible distributions that satisfy the drift constraints. Our technique handles a broad class of drift models, and generalizes previous results on agnostic learning under drift.",
+    "link": "http://arxiv.org/abs/2302.02460",
+    "context": "Title: Nonparametric Density Estimation under Distribution Drift. (arXiv:2302.02460v2 [cs.LG] UPDATED)\nAbstract: We study nonparametric density estimation in non-stationary drift settings. Given a sequence of independent samples taken from a distribution that gradually changes in time, the goal is to compute the best estimate for the current distribution. We prove tight minimax risk bounds for both discrete and continuous smooth densities, where the minimum is over all possible estimates and the maximum is over all possible distributions that satisfy the drift constraints. Our technique handles a broad class of drift models, and generalizes previous results on agnostic learning under drift.",
+    "path": "papers/23/02/2302.02460.json",
+    "total_tokens": 664,
+    "translated_title": "非参数密度估计在分布漂移下的研究",
+    "translated_abstract": "我们研究了非驻点漂移设置下的非参数密度估计。给定来自一系列随时间逐渐变化的分布的独立样本序列，目标是计算当前分布的最佳估计。我们证明了离散和连续平滑密度的紧密极小风险界，其中极小值是对所有可能估计的最小值，而极大值是对满足漂移约束的所有可能分布的最大值。我们的技术适用于广泛的漂移模型，并推广了先前关于对漂移的无知学习的结果。",
+    "tldr": "该论文研究了非参数密度估计在分布漂移下的问题，证明了紧密极小风险界，并推广了先前关于对漂移的无知学习的结果。",
+    "en_tdlr": "This paper investigates nonparametric density estimation under distribution drift, proves tight minimax risk bounds, and generalizes previous results on agnostic learning under drift."
+}

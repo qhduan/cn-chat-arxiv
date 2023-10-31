@@ -1,0 +1,12 @@
+{
+    "title": "A note on the smallest eigenvalue of the empirical covariance of causal Gaussian processes. (arXiv:2212.09508v2 [eess.SY] UPDATED)",
+    "abstract": "We present a simple proof for bounding the smallest eigenvalue of the empirical covariance in a causal Gaussian process. Along the way, we establish a one-sided tail inequality for Gaussian quadratic forms using a causal decomposition. Our proof only uses elementary facts about the Gaussian distribution and the union bound. We conclude with an example in which we provide a performance guarantee for least squares identification of a vector autoregression.",
+    "link": "http://arxiv.org/abs/2212.09508",
+    "context": "Title: A note on the smallest eigenvalue of the empirical covariance of causal Gaussian processes. (arXiv:2212.09508v2 [eess.SY] UPDATED)\nAbstract: We present a simple proof for bounding the smallest eigenvalue of the empirical covariance in a causal Gaussian process. Along the way, we establish a one-sided tail inequality for Gaussian quadratic forms using a causal decomposition. Our proof only uses elementary facts about the Gaussian distribution and the union bound. We conclude with an example in which we provide a performance guarantee for least squares identification of a vector autoregression.",
+    "path": "papers/22/12/2212.09508.json",
+    "total_tokens": 676,
+    "translated_title": "关于因果高斯过程经验协方差最小特征值的研究",
+    "translated_abstract": "我们提出了一个简单的证明方法，用于约束因果高斯过程中经验协方差的最小特征值。在证明过程中，我们使用了因果分解来建立高斯二次形式的单侧尾部不等式。我们的证明只使用了关于高斯分布和并集界的基本事实。最后，我们给出了一个例子，为向量自回归的最小二乘识别提供了性能保证。",
+    "tldr": "本研究提出了一个简单的证明方法，用于约束因果高斯过程中经验协方差的最小特征值。同时，我们还建立了一个因果分解，用于建立高斯二次形式的单侧尾部不等式。我们的结果对于向量自回归的最小二乘识别具有性能保证。",
+    "en_tdlr": "This study presents a simple proof for bounding the smallest eigenvalue of the empirical covariance in a causal Gaussian process. Along the way, a one-sided tail inequality for Gaussian quadratic forms is established using a causal decomposition. The results provide a performance guarantee for least squares identification of a vector autoregression."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "A Bayesian Markov-switching SAR model for time-varying cross-price spillovers. (arXiv:2310.19557v1 [stat.AP])",
+    "abstract": "The spatial autoregressive (SAR) model is extended by introducing a Markov switching dynamics for the weight matrix and spatial autoregressive parameter. The framework enables the identification of regime-specific connectivity patterns and strengths and the study of the spatiotemporal propagation of shocks in a system with a time-varying spatial multiplier matrix. The proposed model is applied to disaggregated CPI data from 15 EU countries to examine cross-price dependencies. The analysis identifies distinct connectivity structures and spatial weights across the states, which capture shifts in consumer behaviour, with marked cross-country differences in the spillover from one price category to another.",
+    "link": "http://arxiv.org/abs/2310.19557",
+    "context": "Title: A Bayesian Markov-switching SAR model for time-varying cross-price spillovers. (arXiv:2310.19557v1 [stat.AP])\nAbstract: The spatial autoregressive (SAR) model is extended by introducing a Markov switching dynamics for the weight matrix and spatial autoregressive parameter. The framework enables the identification of regime-specific connectivity patterns and strengths and the study of the spatiotemporal propagation of shocks in a system with a time-varying spatial multiplier matrix. The proposed model is applied to disaggregated CPI data from 15 EU countries to examine cross-price dependencies. The analysis identifies distinct connectivity structures and spatial weights across the states, which capture shifts in consumer behaviour, with marked cross-country differences in the spillover from one price category to another.",
+    "path": "papers/23/10/2310.19557.json",
+    "total_tokens": 805,
+    "translated_title": "一种基于贝叶斯马尔可夫切换的时间变化交叉价格溢出SAR模型",
+    "translated_abstract": "在这篇论文中，我们通过引入马尔可夫切换动力学来扩展空间自回归（SAR）模型的权重矩阵和空间自回归参数。该框架可以确定制度特定的连接模式和强度，并研究具有时间变化空间乘法矩阵的系统中震荡的时空传播。我们将该模型应用于来自15个欧盟国家的细分CPI数据，以研究交叉价格的依赖关系。分析结果表明，不同状态下存在不同的连接结构和空间权重，捕捉到消费者行为的变化，并且不同国家之间存在明显的价格类别溢出。",
+    "tldr": "本研究提出了一种基于贝叶斯马尔可夫切换的时间变化交叉价格溢出SAR模型，该模型能够识别具有时间变化的空间连接模式和强度，研究价格冲击在系统中的时空传播，并发现了不同国家之间的价格溢出存在明显差异。"
+}
