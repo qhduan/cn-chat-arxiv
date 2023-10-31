@@ -13,20 +13,21 @@
 | [^9] | [Visibility graph analysis of crude oil futures markets: Insights from the COVID-19 pandemic and Russia-Ukraine conflict.](http://arxiv.org/abs/2310.18903) | 该研究通过可见度图方法对原油期货市场进行了深入分析，发现了VG的幂律衰减和显著聚类特性。研究结果揭示了原油期货市场的小世界属性和复杂同类混合特征。WTI和Brent市场表现一致，而SC市场有所偏离。 |
 | [^10] | [Experience-weighted attraction learning in network coordination games.](http://arxiv.org/abs/2310.18835) | 本文研究了网络协同博弈中有界理性代理人的行为动力学。通过应用经验加权吸引模型，我们发现行为参数的不同可以导致可能的长期行为模式集合的差异，从唯一的风险占优选项到比纳什均衡集合更丰富的结果。此外，我们还研究了对整个网络行为具有重要影响的代理人。 |
 | [^11] | [Deeper Hedging: A New Agent-based Model for Effective Deep Hedging.](http://arxiv.org/abs/2310.18755) | 通过提出Chiarella-Heston模型，我们实现了更深层次的对冲策略，该模型包含了动量交易者、基本交易者和波动交易者，并通过创新地模拟Heston风格的波动率信号。该模型能够更真实地复现金融时间序列，同时提供了最优对冲策略的训练数据集。 |
-| [^12] | [Causal effects of the Fed's large-scale asset purchases on firms' capital structure.](http://arxiv.org/abs/2310.18638) | 本研究使用阈值面板ARDL模型，探究了联邦储备系统大规模资产购买对非金融企业资本结构的短期和长期影响。研究发现，LSAPs促进了企业对外部融资的获取，但其对美国公司债务比率的上升的贡献较小。 |
-| [^13] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
-| [^14] | [Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff.](http://arxiv.org/abs/2310.12671) | 本研究通过深度学习结构的神经网络对频率-严重性保险定价进行了基准研究，比较了不同模型的性能，并提出了一种联合精算神经网络(CANN)的方法。 |
-| [^15] | [Multi-Industry Simplex : A Probabilistic Extension of GICS.](http://arxiv.org/abs/2310.04280) | 本论文提出了一种名为MIS的多行业概率模型，通过使用主题建模将企业灵活地分配到尽可能多的行业中，克服了当前行业分类标准 GICS 的局限性。 |
-| [^16] | [Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction.](http://arxiv.org/abs/2309.00073) | 本论文提出了一种利用扩散变分自编码器来解决多步回归股票价格预测中的随机性问题的方法。 |
-| [^17] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
-| [^18] | [Realistic Synthetic Financial Transactions for Anti-Money Laundering Models.](http://arxiv.org/abs/2306.16424) | 本文提供了一个逼真的合成金融交易数据集生成器和一组合成的反洗钱数据集，以满足训练模型和推进领域发展的需求。 |
-| [^19] | [Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement.](http://arxiv.org/abs/2305.10239) | 本文提出了一种基于量子测量结果的金融索赔估值方法，证明了存在一个定价状态与物理状态在零空间上等价，并给出了相应的定价公式。 |
-| [^20] | [An Empirical Analysis of Optimal Nonlinear Pricing.](http://arxiv.org/abs/2302.11643) | 本文提供了一种方法来实证估计多维消费者异质性下的最优价格方案，并利用教育服务公司的数据展示了最优二次价格歧视相比线性定价能够提高至少5.5%的企业利润。 |
-| [^21] | [Regulating For-Hire Autonomous Vehicles for An Equitable Multimodal Transportation Network.](http://arxiv.org/abs/2301.05798) | 本文评估了雇佣的自动驾驶车辆对公平性的影响，并研究了促进未来自动远程出行生态系统的空间和社会公平的监管政策 |
-| [^22] | [Value-at-Risk constrained portfolios in incomplete markets: a dynamic programming approach to Heston's model.](http://arxiv.org/abs/2208.14152) | 本研究提出了一种在不完全市场中受价值风险约束的组合优化问题的动态规划方法，在数值研究中发现了风险厌恶水平和投资时间对最优投资策略的影响。 |
-| [^23] | [From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets.](http://arxiv.org/abs/2208.01791) | 本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。 |
-| [^24] | [Dealing with multi-currency inventory risk in FX cash markets.](http://arxiv.org/abs/2207.04100) | 本文提出了一个数学框架，旨在帮助外汇交易商在控制库存风险的同时最大化预期利润。通过引入适应于任意货币对数量的近似技术，使该框架具有很强的可扩展性。 |
-| [^25] | [On Parametric Optimal Execution and Machine Learning Surrogates.](http://arxiv.org/abs/2204.08581) | 本论文研究了离散时间中具有瞬时价格影响和随机弹性的最优订单执行问题。首先，我们扩展了线性瞬时价格影响情况下的最优策略，然后开发了一个基于动态规划和深度学习的数值算法来处理非线性瞬时价格影响情况。我们的方法利用神经网络替代品在参数化学习中具有灵活可伸缩性，对于精确校准价格影响和弹性等参数非常重要。 |
+| [^12] | [Estimating Systemic Risk within Financial Networks: A Two-Step Nonparametric Method.](http://arxiv.org/abs/2310.18658) | 本文提出了一种基于蒙特卡洛模拟数据的两步非参数估计方法来估计金融网络中的系统性风险，并证明了其一致性和渐近正态性。 |
+| [^13] | [Causal effects of the Fed's large-scale asset purchases on firms' capital structure.](http://arxiv.org/abs/2310.18638) | 本研究使用阈值面板ARDL模型，探究了联邦储备系统大规模资产购买对非金融企业资本结构的短期和长期影响。研究发现，LSAPs促进了企业对外部融资的获取，但其对美国公司债务比率的上升的贡献较小。 |
+| [^14] | [Climate-related Agricultural Productivity Losses through a Poverty Lens.](http://arxiv.org/abs/2310.16490) | 通过食品价格上涨分析气候变化对长期分配的影响，结果显示气候变化的短期和长期分配影响不同，包括一般均衡效应改变最贫困群体的福利，更高的食品价格增加预防性储蓄和影响劳动收入，气候影响也会增加财富不平等。 |
+| [^15] | [Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff.](http://arxiv.org/abs/2310.12671) | 本研究通过深度学习结构的神经网络对频率-严重性保险定价进行了基准研究，比较了不同模型的性能，并提出了一种联合精算神经网络(CANN)的方法。 |
+| [^16] | [Multi-Industry Simplex : A Probabilistic Extension of GICS.](http://arxiv.org/abs/2310.04280) | 本论文提出了一种名为MIS的多行业概率模型，通过使用主题建模将企业灵活地分配到尽可能多的行业中，克服了当前行业分类标准 GICS 的局限性。 |
+| [^17] | [Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction.](http://arxiv.org/abs/2309.00073) | 本论文提出了一种利用扩散变分自编码器来解决多步回归股票价格预测中的随机性问题的方法。 |
+| [^18] | [A usury law: a clarification.](http://arxiv.org/abs/2307.08861) | 本论文研究了一些国家法律对高利息贷款的限制，并提出了一种扩展限制的方法，通过证明这个扩展与一组自然公理相一致。 |
+| [^19] | [Realistic Synthetic Financial Transactions for Anti-Money Laundering Models.](http://arxiv.org/abs/2306.16424) | 本文提供了一个逼真的合成金融交易数据集生成器和一组合成的反洗钱数据集，以满足训练模型和推进领域发展的需求。 |
+| [^20] | [Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement.](http://arxiv.org/abs/2305.10239) | 本文提出了一种基于量子测量结果的金融索赔估值方法，证明了存在一个定价状态与物理状态在零空间上等价，并给出了相应的定价公式。 |
+| [^21] | [An Empirical Analysis of Optimal Nonlinear Pricing.](http://arxiv.org/abs/2302.11643) | 本文提供了一种方法来实证估计多维消费者异质性下的最优价格方案，并利用教育服务公司的数据展示了最优二次价格歧视相比线性定价能够提高至少5.5%的企业利润。 |
+| [^22] | [Regulating For-Hire Autonomous Vehicles for An Equitable Multimodal Transportation Network.](http://arxiv.org/abs/2301.05798) | 本文评估了雇佣的自动驾驶车辆对公平性的影响，并研究了促进未来自动远程出行生态系统的空间和社会公平的监管政策 |
+| [^23] | [Value-at-Risk constrained portfolios in incomplete markets: a dynamic programming approach to Heston's model.](http://arxiv.org/abs/2208.14152) | 本研究提出了一种在不完全市场中受价值风险约束的组合优化问题的动态规划方法，在数值研究中发现了风险厌恶水平和投资时间对最优投资策略的影响。 |
+| [^24] | [From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets.](http://arxiv.org/abs/2208.01791) | 本研究通过研究最低工资政策对通勤造成的溢出效应，发现工作地的最低工资增加会导致居住地租金上涨，每10%的工作地最低工资增加将使居住地租金增加0.69%。 |
+| [^25] | [Dealing with multi-currency inventory risk in FX cash markets.](http://arxiv.org/abs/2207.04100) | 本文提出了一个数学框架，旨在帮助外汇交易商在控制库存风险的同时最大化预期利润。通过引入适应于任意货币对数量的近似技术，使该框架具有很强的可扩展性。 |
+| [^26] | [On Parametric Optimal Execution and Machine Learning Surrogates.](http://arxiv.org/abs/2204.08581) | 本论文研究了离散时间中具有瞬时价格影响和随机弹性的最优订单执行问题。首先，我们扩展了线性瞬时价格影响情况下的最优策略，然后开发了一个基于动态规划和深度学习的数值算法来处理非线性瞬时价格影响情况。我们的方法利用神经网络替代品在参数化学习中具有灵活可伸缩性，对于精确校准价格影响和弹性等参数非常重要。 |
 
 # 详细
 
@@ -184,7 +185,21 @@
 
     We propose the Chiarella-Heston model, a new agent-based model for improving the effectiveness of deep hedging strategies. This model includes momentum traders, fundamental traders, and volatility traders. The volatility traders participate in the market by innovatively following a Heston-style volatility signal. The proposed model generalises both the extended Chiarella model and the Heston stochastic volatility model, and is calibrated to reproduce as many empirical stylized facts as possible. According to the stylised facts distance metric, the proposed model is able to reproduce more realistic financial time series than three baseline models: the extended Chiarella model, the Heston model, and the Geometric Brownian Motion. The proposed model is further validated by the Generalized Subtracted L-divergence metric. With the proposed Chiarella-Heston model, we generate a training dataset to train a deep hedging agent for optimal hedging strategies under various transaction cost levels
     
-[^12]: 联邦储备系统大规模资产购买对企业资本结构的因果影响
+[^12]: 估计金融网络中的系统性风险：一种两步非参数方法
+
+    Estimating Systemic Risk within Financial Networks: A Two-Step Nonparametric Method. (arXiv:2310.18658v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2310.18658](http://arxiv.org/abs/2310.18658)
+
+    本文提出了一种基于蒙特卡洛模拟数据的两步非参数估计方法来估计金融网络中的系统性风险，并证明了其一致性和渐近正态性。
+
+    
+
+    CoVaR（条件风险价值）是评估金融系统性风险的重要指标，它被定义为在其他随机变量达到特定分位数时的条件分位数。它能够度量金融网络中特定节点的风险，考虑同时来自多个相关节点的风险影响。然而，由于无法观察到多元分位数条件，估计CoVaR存在挑战。为了解决这些问题，我们提出了一种基于蒙特卡洛模拟数据的两步非参数估计方法。在第一步中，我们利用次序统计量估计不可观察的多元分位数。在第二步中，我们采用核方法来估计条件分位数，条件是基于次序统计量。我们建立了两步估计量的一致性和渐近正态性，以及带宽选择方法。结果表明
+
+    CoVaR (conditional value-at-risk) is a crucial measure for assessing financial systemic risk, which is defined as a conditional quantile of a random variable, conditioned on other random variables reaching specific quantiles. It enables the measurement of risk associated with a particular node in financial networks, taking into account the simultaneous influence of risks from multiple correlated nodes. However, estimating CoVaR presents challenges due to the unobservability of the multivariate-quantiles condition. To address the challenges, we propose a two-step nonparametric estimation approach based on Monte-Carlo simulation data. In the first step, we estimate the unobservable multivariate-quantiles using order statistics. In the second step, we employ a kernel method to estimate the conditional quantile conditional on the order statistics. We establish the consistency and asymptotic normality of the two-step estimator, along with a bandwidth selection method. The results demonstrat
+    
+[^13]: 联邦储备系统大规模资产购买对企业资本结构的因果影响
 
     Causal effects of the Fed's large-scale asset purchases on firms' capital structure. (arXiv:2310.18638v1 [econ.GN])
 
@@ -198,7 +213,7 @@
 
     We investigate the short- and long-term impacts of the Federal Reserve's large-scale asset purchases (LSAPs) on non-financial firms' capital structure using a threshold panel ARDL model. To isolate the effects of LSAPs from other macroeconomic conditions, we interact firm- and industry-specific indicators of debt capacity with measures of LSAPs. We find that LSAPs facilitated firms' access to external financing, with both Treasury and MBS purchases having positive effects. Our model also allows us to estimate the time profile of the effects of LSAPs on firm leverage providing robust evidence that they are long-lasting. These effects have a half-life of 4-5 quarters and a mean lag length of about six quarters. Nevertheless, the magnitudes are small, suggesting that LSAPs have contributed only marginally to the rise in U.S. corporate debt ratios of the past decade.
     
-[^13]: 通过贫困视角分析气候相关的农业生产力损失
+[^14]: 通过贫困视角分析气候相关的农业生产力损失
 
     Climate-related Agricultural Productivity Losses through a Poverty Lens. (arXiv:2310.16490v1 [econ.GN])
 
@@ -212,7 +227,7 @@
 
     In this paper, we analyze the long-term distributive impact of climate change through rising food prices. We use a standard incomplete markets model and account for non-linear Engel curves for food consumption. For the calibration of our model, we rely on household data from 92 developing countries, representing 4.5 billion people. The results indicate that the short-term and long-term distributive impact of climate change differs. Including general equilibrium effects change the welfare outcome especially for the poorest quintile. In the presence of idiosyncratic risk, higher food prices increase precautionary savings, which through general equilibrium affect labor income of all agents. Furthermore, this paper studies the impact on inequality for different allocations of productivity losses across sectors. When climate impacts affects total factor productivity in both sectors of the economy, climate impacts increase also wealth inequality.
     
-[^14]: 利用频率和严重性数据进行保险定价的神经网络：从数据预处理到技术定价的基准研究
+[^15]: 利用频率和严重性数据进行保险定价的神经网络：从数据预处理到技术定价的基准研究
 
     Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff. (arXiv:2310.12671v1 [cs.LG])
 
@@ -226,7 +241,7 @@
 
     Insurers usually turn to generalized linear models for modelling claim frequency and severity data. Due to their success in other fields, machine learning techniques are gaining popularity within the actuarial toolbox. Our paper contributes to the literature on frequency-severity insurance pricing with machine learning via deep learning structures. We present a benchmark study on four insurance data sets with frequency and severity targets in the presence of multiple types of input features. We compare in detail the performance of: a generalized linear model on binned input data, a gradient-boosted tree model, a feed-forward neural network (FFNN), and the combined actuarial neural network (CANN). Our CANNs combine a baseline prediction established with a GLM and GBM, respectively, with a neural network correction. We explain the data preprocessing steps with specific focus on the multiple types of input features typically present in tabular insurance data sets, such as postal codes, nu
     
-[^15]: 多行业Simplex：GICS的概率扩展
+[^16]: 多行业Simplex：GICS的概率扩展
 
     Multi-Industry Simplex : A Probabilistic Extension of GICS. (arXiv:2310.04280v1 [q-fin.PM])
 
@@ -240,7 +255,7 @@
 
     Accurate industry classification is a critical tool for many asset management applications. While the current industry gold-standard GICS (Global Industry Classification Standard) has proven to be reliable and robust in many settings, it has limitations that cannot be ignored. Fundamentally, GICS is a single-industry model, in which every firm is assigned to exactly one group regardless of how diversified that firm may be. This approach breaks down for large conglomerates like Amazon, which have risk exposure spread out across multiple sectors. We attempt to overcome these limitations by developing MIS (Multi-Industry Simplex), a probabilistic model that can flexibly assign a firm to as many industries as can be supported by the data. In particular, we utilize topic modeling, an natural language processing approach that utilizes business descriptions to extract and identify corresponding industries. Each identified industry comes with a relevance probability, allowing for high interp
     
-[^16]: 利用扩散变分自编码器解决多步回归股票价格预测中的随机性问题
+[^17]: 利用扩散变分自编码器解决多步回归股票价格预测中的随机性问题
 
     Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction. (arXiv:2309.00073v1 [q-fin.ST])
 
@@ -254,7 +269,7 @@
 
     Multi-step stock price prediction over a long-term horizon is crucial for forecasting its volatility, allowing financial institutions to price and hedge derivatives, and banks to quantify the risk in their trading books. Additionally, most financial regulators also require a liquidity horizon of several days for institutional investors to exit their risky assets, in order to not materially affect market prices. However, the task of multi-step stock price prediction is challenging, given the highly stochastic nature of stock data. Current solutions to tackle this problem are mostly designed for single-step, classification-based predictions, and are limited to low representation expressiveness. The problem also gets progressively harder with the introduction of the target price sequence, which also contains stochastic noise and reduces generalizability at test-time. To tackle these issues, we combine a deep hierarchical variational-autoencoder (VAE) and diffusion probabilistic techniques
     
-[^17]: 一项放贷法律：一个澄清
+[^18]: 一项放贷法律：一个澄清
 
     A usury law: a clarification. (arXiv:2307.08861v1 [econ.GN])
 
@@ -268,7 +283,7 @@
 
     The national legislation of some countries prohibits lending money at a usurious interest rate. Most countries restrict the effective (rather than nominal) interest rate, which includes all commissions and fees that may come with a loan. In this case, the restriction is vague for loans whose cash flow steams have no internal rate of return. In this note, we show how to extend this restriction to all loans. We prove that there is a unique such extension consistent with a set of natural axioms.
     
-[^18]: 逼真的合成金融交易用于反洗钱模型
+[^19]: 逼真的合成金融交易用于反洗钱模型
 
     Realistic Synthetic Financial Transactions for Anti-Money Laundering Models. (arXiv:2306.16424v1 [cs.AI])
 
@@ -282,7 +297,7 @@
 
     With the widespread digitization of finance and the increasing popularity of cryptocurrencies, the sophistication of fraud schemes devised by cybercriminals is growing. Money laundering -- the movement of illicit funds to conceal their origins -- can cross bank and national boundaries, producing complex transaction patterns. The UN estimates 2-5\% of global GDP or \$0.8 - \$2.0 trillion dollars are laundered globally each year. Unfortunately, real data to train machine learning models to detect laundering is generally not available, and previous synthetic data generators have had significant shortcomings. A realistic, standardized, publicly-available benchmark is needed for comparing models and for the advancement of the area.  To this end, this paper contributes a synthetic financial transaction dataset generator and a set of synthetically generated AML (Anti-Money Laundering) datasets. We have calibrated this agent-based generator to match real transactions as closely as possible and
     
-[^19]: 一种基于量子测量结果的金融索赔估值方法
+[^20]: 一种基于量子测量结果的金融索赔估值方法
 
     Valuation of a Financial Claim Contingent on the Outcome of a Quantum Measurement. (arXiv:2305.10239v1 [quant-ph])
 
@@ -296,7 +311,7 @@
 
     We consider a rational agent who at time $0$ enters into a financial contract for which the payout is determined by a quantum measurement at some time $T>0$. The state of the quantum system is given by a known density matrix $\hat p$. How much will the agent be willing to pay at time $0$ to enter into such a contract? In the case of a finite dimensional Hilbert space, each such claim is represented by an observable $\hat X_T$ where the eigenvalues of $\hat X_T$ determine the amount paid if the corresponding outcome is obtained in the measurement. We prove, under reasonable axioms, that there exists a pricing state $\hat q$ which is equivalent to the physical state $\hat p$ on null spaces such that the pricing function $\Pi_{0T}$ takes the form $\Pi_{0T}(\hat X_T) = P_{0T}\,{\rm tr} ( \hat q \hat X_T) $ for any claim $\hat X_T$, where $P_{0T}$ is the one-period discount factor. By "equivalent" we mean that $\hat p$ and $\hat q$ share the same null space: thus, for any $|\xi \rangle \in 
     
-[^20]: 非线性定价的实证分析
+[^21]: 非线性定价的实证分析
 
     An Empirical Analysis of Optimal Nonlinear Pricing. (arXiv:2302.11643v2 [econ.GN] UPDATED)
 
@@ -310,7 +325,7 @@
 
     In continuous-choice settings, consumers decide not only on whether to purchase a product, but also on how much to purchase. Thus, firms optimize a full price schedule rather than a single price point. This paper provides a methodology to empirically estimate the optimal schedule under multi-dimensional consumer heterogeneity. We apply our method to novel data from an educational-services firm that contains purchase-size information not only for deals that materialized, but also for potential deals that eventually failed. We show that this data, combined with identifying assumptions, helps infer how price sensitivity varies with "customer size". Using our estimated model, we show that the optimal second-degree price discrimination (i.e., optimal nonlinear tariff) improves the firm's profit upon linear pricing by at least 5.5%. That said, this second-degree price discrimination scheme only recovers 5.1% of the gap between the profitability of linear pricing and that of infeasible first 
     
-[^21]: 监管雇佣的自动驾驶车辆以实现公平的综合交通网络
+[^22]: 监管雇佣的自动驾驶车辆以实现公平的综合交通网络
 
     Regulating For-Hire Autonomous Vehicles for An Equitable Multimodal Transportation Network. (arXiv:2301.05798v2 [math.OC] UPDATED)
 
@@ -324,7 +339,7 @@
 
     This paper assesses the equity impacts of for-hire autonomous vehicles (AVs) and investigates regulatory policies that promote spatial and social equity in future autonomous mobility ecosystems. To this end, we consider a multimodal transportation network, where a ride-hailing platform operates a fleet of AVs to offer mobility-on-demand services in competition with a public transit agency that offers transit services on a transportation network. A game-theoretic model is developed to characterize the intimate interactions between the ride-hailing platform, the transit agency, and multiclass passengers with distinct income levels. An algorithm is proposed to compute the Nash equilibrium of the game and conduct an ex-post evaluation of the performance of the obtained solution. Based on the proposed framework, we evaluate the spatial and social equity in transport accessibility using the Theil index, and find that although the proliferation of for-hire AVs in the ride-hailing network impr
     
-[^22]: 在不完全市场中受价值风险约束的组合：Heston模型的动态规划方法
+[^23]: 在不完全市场中受价值风险约束的组合：Heston模型的动态规划方法
 
     Value-at-Risk constrained portfolios in incomplete markets: a dynamic programming approach to Heston's model. (arXiv:2208.14152v2 [q-fin.PM] UPDATED)
 
@@ -338,7 +353,7 @@
 
     We solve an expected utility-maximization problem with a Value-at-risk constraint on the terminal portfolio value in an incomplete financial market due to stochastic volatility. To derive the optimal investment strategy, we use the dynamic programming approach. We demonstrate that the value function in the constrained problem can be represented as the expected modified utility function of a vega-neutral financial derivative on the optimal terminal wealth in the unconstrained utility-maximization problem. Via the same financial derivative, the optimal wealth and the optimal investment strategy in the constrained problem are linked to the optimal wealth and the optimal investment strategy in the unconstrained problem. In numerical studies, we substantiate the impact of risk aversion levels and investment horizons on the optimal investment strategy. We observe a 20% relative difference between the constrained and unconstrained allocations for average parameters in a low-risk-aversion shor
     
-[^23]: 从工作地到居住地：最低工资政策对当地住房市场的溢出效应
+[^24]: 从工作地到居住地：最低工资政策对当地住房市场的溢出效应
 
     From Workplace to Residence: The Spillover Effects of Minimum Wage Policies on Local Housing Markets. (arXiv:2208.01791v2 [econ.GN] UPDATED)
 
@@ -352,7 +367,7 @@
 
     The recent rise of sub-national minimum wage (MW) policies in the US has resulted in significant dispersion of MW levels within urban areas. In this paper, we study the spillover effects of these policies on local rental markets through commuting. To do so, for each USPS ZIP code we construct a "workplace" MW measure based on the location of its resident's jobs, and use it to estimate the effect of MW policies on rents. We use a novel identification strategy that exploits the fine timing of differential changes in the workplace MW across ZIP codes that share the same "residence" MW, defined as the same location's MW. Our baseline results imply that a 10 percent increase in the workplace MW increases rents at residence ZIP codes by 0.69 percent. To illustrate the importance of commuting patterns, we use our estimates and a simple model to simulate the impact of federal and city counterfactual MW policies. The simulations suggest that landlords pocket approximately 10 cents of each dolla
     
-[^24]: 在外汇现金市场中处理多货币库存风险
+[^25]: 在外汇现金市场中处理多货币库存风险
 
     Dealing with multi-currency inventory risk in FX cash markets. (arXiv:2207.04100v4 [q-fin.TR] UPDATED)
 
@@ -366,7 +381,7 @@
 
     In FX cash markets, market makers provide liquidity to clients for a wide variety of currency pairs. Because of flow uncertainty and market volatility, they face inventory risk. To mitigate this risk, they typically skew their prices to attract or divert the flow and trade with their peers on the dealer-to-dealer segment of the market for hedging purposes. This paper offers a mathematical framework to FX dealers willing to maximize their expected profit while controlling their inventory risk. Approximation techniques are proposed which make the framework scalable to any number of currency pairs.
     
-[^25]: 关于参数化最优执行和机器学习替代品的研究
+[^26]: 关于参数化最优执行和机器学习替代品的研究
 
     On Parametric Optimal Execution and Machine Learning Surrogates. (arXiv:2204.08581v3 [q-fin.TR] UPDATED)
 
