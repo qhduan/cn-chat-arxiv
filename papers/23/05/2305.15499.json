@@ -1,0 +1,11 @@
+{
+    "title": "Neural network reconstruction of cosmology using the Pantheon compilation. (arXiv:2305.15499v2 [gr-qc] CROSS LISTED)",
+    "abstract": "In this work, we reconstruct the Hubble diagram using various data sets, including correlated ones, in Artificial Neural Networks (ANN). Using ReFANN, that was built for data sets with independent uncertainties, we expand it to include non-Guassian data points, as well as data sets with covariance matrices among others. Furthermore, we compare our results with the existing ones derived from Gaussian processes and we also perform null tests in order to test the validity of the concordance model of cosmology.",
+    "link": "http://arxiv.org/abs/2305.15499",
+    "context": "Title: Neural network reconstruction of cosmology using the Pantheon compilation. (arXiv:2305.15499v2 [gr-qc] CROSS LISTED)\nAbstract: In this work, we reconstruct the Hubble diagram using various data sets, including correlated ones, in Artificial Neural Networks (ANN). Using ReFANN, that was built for data sets with independent uncertainties, we expand it to include non-Guassian data points, as well as data sets with covariance matrices among others. Furthermore, we compare our results with the existing ones derived from Gaussian processes and we also perform null tests in order to test the validity of the concordance model of cosmology.",
+    "path": "papers/23/05/2305.15499.json",
+    "total_tokens": 685,
+    "translated_title": "神经网络重构宇宙学与Pantheon编译",
+    "translated_abstract": "在这项工作中，我们使用各种数据集，包括相关数据集，在人工神经网络（ANN）中重构哈勃图。我们使用ReFANN来处理具有独立不确定性的数据集，并扩展它以包括非高斯数据点以及具有协方差矩阵等数据集。此外，我们将我们的结果与使用高斯过程得出的现有结果进行比较，并进行零测试以验证和谐宇宙模型的有效性。",
+    "tldr": "本研究使用神经网络重构宇宙学和Pantheon编译中的Hubble图。通过扩展ReFANN算法以处理非高斯数据点和具有协方差矩阵的数据集，并与高斯过程的结果进行对比，还进行了零测试来验证宇宙学的协调模型的有效性。"
+}

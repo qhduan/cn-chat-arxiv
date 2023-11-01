@@ -1,0 +1,11 @@
+{
+    "title": "Extracting Entities of Interest from Comparative Product Reviews. (arXiv:2310.20274v1 [cs.IR])",
+    "abstract": "This paper presents a deep learning based approach to extract product comparison information out of user reviews on various e-commerce websites. Any comparative product review has three major entities of information: the names of the products being compared, the user opinion (predicate) and the feature or aspect under comparison. All these informing entities are dependent on each other and bound by the rules of the language, in the review. We observe that their inter-dependencies can be captured well using LSTMs. We evaluate our system on existing manually labeled datasets and observe out-performance over the existing Semantic Role Labeling (SRL) framework popular for this task.",
+    "link": "http://arxiv.org/abs/2310.20274",
+    "context": "Title: Extracting Entities of Interest from Comparative Product Reviews. (arXiv:2310.20274v1 [cs.IR])\nAbstract: This paper presents a deep learning based approach to extract product comparison information out of user reviews on various e-commerce websites. Any comparative product review has three major entities of information: the names of the products being compared, the user opinion (predicate) and the feature or aspect under comparison. All these informing entities are dependent on each other and bound by the rules of the language, in the review. We observe that their inter-dependencies can be captured well using LSTMs. We evaluate our system on existing manually labeled datasets and observe out-performance over the existing Semantic Role Labeling (SRL) framework popular for this task.",
+    "path": "papers/23/10/2310.20274.json",
+    "total_tokens": 705,
+    "translated_title": "从比较性产品评论中提取感兴趣的实体",
+    "translated_abstract": "本文提出了一种基于深度学习的方法，用于从各种电子商务网站的用户评论中提取产品比较信息。任何一个比较性产品评论都有三个重要的信息实体：被比较产品的名称，用户观点（谓词）以及被比较的特征或方面。所有这些信息实体彼此依赖并受到评论语言规则的约束。我们观察到，这些相互依赖关系可以很好地通过LSTM进行捕捉。我们在现有的手动标记数据集上评估了我们的系统，并观察到其在这个任务中表现优于现有的语义角色标注（SRL）框架。",
+    "tldr": "本文提出了一种基于深度学习的方法，用于从比较性产品评论中提取产品比较信息，并通过实验证明其在这个任务中优于现有的语义角色标注框架。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Learning to Reason and Memorize with Self-Notes. (arXiv:2305.00833v2 [cs.LG] UPDATED)",
+    "abstract": "Large language models have been shown to struggle with multi-step reasoning, and do not retain previous reasoning steps for future use. We propose a simple method for solving both of these problems by allowing the model to take Self-Notes. Unlike recent chain-of-thought or scratchpad approaches, the model can deviate from the input context at any time to explicitly think and write down its thoughts. This allows the model to perform reasoning on the fly as it reads the context and even integrate previous reasoning steps, thus enhancing its memory with useful information and enabling multi-step reasoning. Experiments across a wide variety of tasks demonstrate that our method can outperform chain-of-thought and scratchpad methods by taking Self-Notes that interleave the input text.",
+    "link": "http://arxiv.org/abs/2305.00833",
+    "context": "Title: Learning to Reason and Memorize with Self-Notes. (arXiv:2305.00833v2 [cs.LG] UPDATED)\nAbstract: Large language models have been shown to struggle with multi-step reasoning, and do not retain previous reasoning steps for future use. We propose a simple method for solving both of these problems by allowing the model to take Self-Notes. Unlike recent chain-of-thought or scratchpad approaches, the model can deviate from the input context at any time to explicitly think and write down its thoughts. This allows the model to perform reasoning on the fly as it reads the context and even integrate previous reasoning steps, thus enhancing its memory with useful information and enabling multi-step reasoning. Experiments across a wide variety of tasks demonstrate that our method can outperform chain-of-thought and scratchpad methods by taking Self-Notes that interleave the input text.",
+    "path": "papers/23/05/2305.00833.json",
+    "total_tokens": 741,
+    "translated_title": "学习使用自注记进行推理和记忆",
+    "translated_abstract": "大型语言模型在多步推理方面表现不佳，且不能保留以供将来使用的先前推理步骤。我们提出了一种解决这两个问题的简单方法，即允许模型进行自注记。与最近的思维链或草稿本方法不同，该模型可以随时偏离输入上下文来明确思考和记录自己的想法。这使得模型可以在阅读上下文时即时推理，并整合先前的推理步骤，从而增强其记忆并进行多步推理。广泛的实验表明，通过使用交织输入文本的自注记方法，我们的方法可以胜过思维链和草稿本方法。",
+    "tldr": "该论文提出了一种学习使用自注记进行推理和记忆的方法，通过允许模型明确思考、记录自己的想法，并整合先前的推理步骤，从而提高了多步推理的能力。",
+    "en_tdlr": "This paper proposes a method for learning to reason and memorize using self-notes, allowing the model to think and write down thoughts, and integrate previous reasoning steps, thereby enhancing multi-step reasoning abilities."
+}

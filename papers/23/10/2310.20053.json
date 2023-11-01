@@ -1,0 +1,11 @@
+{
+    "title": "Estimating optimal PAC-Bayes bounds with Hamiltonian Monte Carlo. (arXiv:2310.20053v1 [stat.ML])",
+    "abstract": "An important yet underexplored question in the PAC-Bayes literature is how much tightness we lose by restricting the posterior family to factorized Gaussian distributions when optimizing a PAC-Bayes bound. We investigate this issue by estimating data-independent PAC-Bayes bounds using the optimal posteriors, comparing them to bounds obtained using MFVI. Concretely, we (1) sample from the optimal Gibbs posterior using Hamiltonian Monte Carlo, (2) estimate its KL divergence from the prior with thermodynamic integration, and (3) propose three methods to obtain high-probability bounds under different assumptions. Our experiments on the MNIST dataset reveal significant tightness gaps, as much as 5-6\\% in some cases.",
+    "link": "http://arxiv.org/abs/2310.20053",
+    "context": "Title: Estimating optimal PAC-Bayes bounds with Hamiltonian Monte Carlo. (arXiv:2310.20053v1 [stat.ML])\nAbstract: An important yet underexplored question in the PAC-Bayes literature is how much tightness we lose by restricting the posterior family to factorized Gaussian distributions when optimizing a PAC-Bayes bound. We investigate this issue by estimating data-independent PAC-Bayes bounds using the optimal posteriors, comparing them to bounds obtained using MFVI. Concretely, we (1) sample from the optimal Gibbs posterior using Hamiltonian Monte Carlo, (2) estimate its KL divergence from the prior with thermodynamic integration, and (3) propose three methods to obtain high-probability bounds under different assumptions. Our experiments on the MNIST dataset reveal significant tightness gaps, as much as 5-6\\% in some cases.",
+    "path": "papers/23/10/2310.20053.json",
+    "total_tokens": 845,
+    "translated_title": "使用Hamiltonian Monte Carlo方法估计最优PAC-Bayes界限",
+    "translated_abstract": "PAC-Bayes文献中一个重要但未被充分研究的问题是在优化PAC-Bayes界限时，通过限制后验分布为因子化高斯分布，我们失去了多少紧致度。我们通过估计独立于数据的PAC-Bayes界限来调查此问题，使用最优的后验与使用MFVI得到的界限进行比较。具体而言，我们采用Hamiltonian Monte Carlo从最优的Gibbs后验中进行采样，用热力学积分估计其与先验的KL散度，并提出了三种在不同假设下获得高概率界限的方法。我们在MNIST数据集上的实验揭示了显著的紧致度差距，在某些情况下可达5-6％。",
+    "tldr": "本研究使用Hamiltonian Monte Carlo方法估计最优PAC-Bayes界限，研究了通过限制后验分布为因子化高斯分布在优化PAC-Bayes界限方面所失去的紧致度，并提出了三种方法来获得高概率界限。实验证明在MNIST数据集上存在显著的紧致度差距，高达5-6％。"
+}

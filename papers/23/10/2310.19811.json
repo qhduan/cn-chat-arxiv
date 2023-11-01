@@ -1,0 +1,12 @@
+{
+    "title": "A Historical Context for Data Streams. (arXiv:2310.19811v1 [cs.LG])",
+    "abstract": "Machine learning from data streams is an active and growing research area. Research on learning from streaming data typically makes strict assumptions linked to computational resource constraints, including requirements for stream mining algorithms to inspect each instance not more than once and be ready to give a prediction at any time. Here we review the historical context of data streams research placing the common assumptions used in machine learning over data streams in their historical context.",
+    "link": "http://arxiv.org/abs/2310.19811",
+    "context": "Title: A Historical Context for Data Streams. (arXiv:2310.19811v1 [cs.LG])\nAbstract: Machine learning from data streams is an active and growing research area. Research on learning from streaming data typically makes strict assumptions linked to computational resource constraints, including requirements for stream mining algorithms to inspect each instance not more than once and be ready to give a prediction at any time. Here we review the historical context of data streams research placing the common assumptions used in machine learning over data streams in their historical context.",
+    "path": "papers/23/10/2310.19811.json",
+    "total_tokens": 576,
+    "translated_title": "数据流的历史背景",
+    "translated_abstract": "数据流的机器学习是一个活跃且不断发展的研究领域。关于从数据流中学习的研究通常对与计算资源限制相关的严格假设进行探讨，包括对流挖掘算法每个实例只能检查一次，并且随时准备好给出预测的要求。本文回顾了数据流研究的历史背景，并将机器学习对数据流的常见假设放置在其历史背景中。",
+    "tldr": "本文回顾了数据流研究的历史背景，并将机器学习对数据流的常见假设放置在其历史背景中。",
+    "en_tdlr": "This paper reviews the historical context of data streams research and places the common assumptions made in machine learning over data streams within that context."
+}

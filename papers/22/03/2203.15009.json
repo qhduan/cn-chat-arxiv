@@ -1,0 +1,12 @@
+{
+    "title": "DAMNETS: A Deep Autoregressive Model for Generating Markovian Network Time Series. (arXiv:2203.15009v2 [stat.ML] UPDATED)",
+    "abstract": "Generative models for network time series (also known as dynamic graphs) have tremendous potential in fields such as epidemiology, biology and economics, where complex graph-based dynamics are core objects of study. Designing flexible and scalable generative models is a very challenging task due to the high dimensionality of the data, as well as the need to represent temporal dependencies and marginal network structure. Here we introduce DAMNETS, a scalable deep generative model for network time series. DAMNETS outperforms competing methods on all of our measures of sample quality, over both real and synthetic data sets.",
+    "link": "http://arxiv.org/abs/2203.15009",
+    "context": "Title: DAMNETS: A Deep Autoregressive Model for Generating Markovian Network Time Series. (arXiv:2203.15009v2 [stat.ML] UPDATED)\nAbstract: Generative models for network time series (also known as dynamic graphs) have tremendous potential in fields such as epidemiology, biology and economics, where complex graph-based dynamics are core objects of study. Designing flexible and scalable generative models is a very challenging task due to the high dimensionality of the data, as well as the need to represent temporal dependencies and marginal network structure. Here we introduce DAMNETS, a scalable deep generative model for network time series. DAMNETS outperforms competing methods on all of our measures of sample quality, over both real and synthetic data sets.",
+    "path": "papers/22/03/2203.15009.json",
+    "total_tokens": 728,
+    "translated_title": "DAMNETS：一种用于生成马尔可夫网络时间序列的深度自回归模型",
+    "translated_abstract": "生成模型在网络时间序列（也称为动态图）中具有巨大的潜力，可以应用于流行病学、生物学和经济学等领域，其中复杂的基于图的动态是核心研究对象。由于数据的高维度以及表示时间依赖性和边际网络结构的需要，设计灵活且可扩展的生成模型是一项非常具有挑战性的任务。在这里，我们介绍了一种名为DAMNETS的可扩展深度生成模型，它在真实数据和合成数据集上的所有样本质量指标上表现优于竞争方法。",
+    "tldr": "DAMNETS是一种用于生成马尔可夫网络时间序列的深度自回归模型，通过在真实数据和合成数据集上的表现超过竞争方法，达到了设计灵活且可扩展的生成模型的目标。",
+    "en_tdlr": "DAMNETS is a deep autoregressive model for generating Markovian network time series, which achieves the goal of designing flexible and scalable generative models by outperforming competing methods on both real and synthetic datasets."
+}

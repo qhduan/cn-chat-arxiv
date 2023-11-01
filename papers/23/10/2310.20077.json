@@ -1,0 +1,11 @@
+{
+    "title": "Partial Tensorized Transformers for Natural Language Processing. (arXiv:2310.20077v1 [cs.CL])",
+    "abstract": "The transformer architecture has revolutionized Natural Language Processing (NLP) and other machine-learning tasks, due to its unprecedented accuracy. However, their extensive memory and parameter requirements often hinder their practical applications. In this work, we study the effect of tensor-train decomposition to improve the accuracy and compress transformer vision-language neural networks, namely BERT and ViT. We focus both on embedding-layer compression and partial tensorization of neural networks (PTNN) through an algorithmic approach. Our novel PTNN approach significantly improves the accuracy of existing models by up to 5%, all without the need for post-training adjustments, breaking new ground in the field of tensor decomposition.",
+    "link": "http://arxiv.org/abs/2310.20077",
+    "context": "Title: Partial Tensorized Transformers for Natural Language Processing. (arXiv:2310.20077v1 [cs.CL])\nAbstract: The transformer architecture has revolutionized Natural Language Processing (NLP) and other machine-learning tasks, due to its unprecedented accuracy. However, their extensive memory and parameter requirements often hinder their practical applications. In this work, we study the effect of tensor-train decomposition to improve the accuracy and compress transformer vision-language neural networks, namely BERT and ViT. We focus both on embedding-layer compression and partial tensorization of neural networks (PTNN) through an algorithmic approach. Our novel PTNN approach significantly improves the accuracy of existing models by up to 5%, all without the need for post-training adjustments, breaking new ground in the field of tensor decomposition.",
+    "path": "papers/23/10/2310.20077.json",
+    "total_tokens": 779,
+    "translated_title": "部分张量化变压器用于自然语言处理",
+    "translated_abstract": "变压器架构由于其前所未有的准确性在自然语言处理和其他机器学习任务中开创了新局面。然而，它们广泛的存储和参数需求通常阻碍了它们的实际应用。在本研究中，我们研究了张量列分解对提高BERT和ViT等变压器视觉语言神经网络的准确性和压缩性的影响。我们专注于嵌入层压缩和神经网络的部分张量化（PTNN）通过一种算法方法。我们的新颖PTNN方法在不需要后期调整的情况下显著提高了现有模型的准确性，打破了张量分解领域的新局面。",
+    "tldr": "论文研究了在自然语言处理中应用部分张量化的变压器架构，通过对BERT和ViT等神经网络的嵌入层压缩和部分张量化，显著提高了模型的准确性，并打破了张量分解领域的新局面。"
+}

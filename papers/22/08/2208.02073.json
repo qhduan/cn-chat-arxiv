@@ -1,0 +1,11 @@
+{
+    "title": "Coherence without Rationality at the Zero Lower Bound. (arXiv:2208.02073v2 [econ.GN] UPDATED)",
+    "abstract": "Standard rational expectations models with an occasionally binding zero lower bound constraint either admit no solutions (incoherence) or multiple solutions (incompleteness). This paper shows that deviations from full-information rational expectations mitigate concerns about incoherence and incompleteness. Models with no rational expectations equilibria admit self-confirming equilibria involving the use of simple mis-specified forecasting models. Completeness and coherence is restored if expectations are adaptive or if agents are less forward-looking due to some information or behavioral friction. In the case of incompleteness, the E-stability criterion selects an equilibrium.",
+    "link": "http://arxiv.org/abs/2208.02073",
+    "context": "Title: Coherence without Rationality at the Zero Lower Bound. (arXiv:2208.02073v2 [econ.GN] UPDATED)\nAbstract: Standard rational expectations models with an occasionally binding zero lower bound constraint either admit no solutions (incoherence) or multiple solutions (incompleteness). This paper shows that deviations from full-information rational expectations mitigate concerns about incoherence and incompleteness. Models with no rational expectations equilibria admit self-confirming equilibria involving the use of simple mis-specified forecasting models. Completeness and coherence is restored if expectations are adaptive or if agents are less forward-looking due to some information or behavioral friction. In the case of incompleteness, the E-stability criterion selects an equilibrium.",
+    "path": "papers/22/08/2208.02073.json",
+    "total_tokens": 707,
+    "translated_title": "在零下限条件下的非理性一致性",
+    "translated_abstract": "标准有时受限的零下限约束的理性预期模型要么没有解（不一致），要么有多个解（不完备）。本文显示，与全信息理性预期的偏离可以减轻不一致和不完备的担忧。没有理性预期均衡的模型可以包括使用简单的错误规范的预测模型的自我确认均衡。如果预期是自适应的，或者由于某些信息或行为摩擦，代理人更少地展望未来，完备性和一致性会得到恢复。在不完备的情况下，E稳定性准则选择一个均衡。",
+    "tldr": "该论文研究了在零下限条件下，非理性预期如何解决理性预期模型的一致性和完备性问题，提出了自我确认均衡和E稳定性准则作为解决方法。"
+}

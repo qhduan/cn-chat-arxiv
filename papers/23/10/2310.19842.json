@@ -1,0 +1,12 @@
+{
+    "title": "Musical Form Generation. (arXiv:2310.19842v1 [cs.SD])",
+    "abstract": "While recent generative models can produce engaging music, their utility is limited. The variation in the music is often left to chance, resulting in compositions that lack structure. Pieces extending beyond a minute can become incoherent or repetitive. This paper introduces an approach for generating structured, arbitrarily long musical pieces. Central to this approach is the creation of musical segments using a conditional generative model, with transitions between these segments. The generation of prompts that determine the high-level composition is distinct from the creation of finer, lower-level details. A large language model is then used to suggest the musical form.",
+    "link": "http://arxiv.org/abs/2310.19842",
+    "context": "Title: Musical Form Generation. (arXiv:2310.19842v1 [cs.SD])\nAbstract: While recent generative models can produce engaging music, their utility is limited. The variation in the music is often left to chance, resulting in compositions that lack structure. Pieces extending beyond a minute can become incoherent or repetitive. This paper introduces an approach for generating structured, arbitrarily long musical pieces. Central to this approach is the creation of musical segments using a conditional generative model, with transitions between these segments. The generation of prompts that determine the high-level composition is distinct from the creation of finer, lower-level details. A large language model is then used to suggest the musical form.",
+    "path": "papers/23/10/2310.19842.json",
+    "total_tokens": 655,
+    "translated_title": "音乐形式生成",
+    "translated_abstract": "尽管最近的生成模型可以产生引人入胜的音乐，但它们的实用性有限。音乐中的变化通常是随机的，导致作品缺乏结构。超过一分钟的作品可能变得不连贯或重复。本文介绍了一种生成结构化、任意长音乐作品的方法。该方法的核心是使用条件生成模型创建音乐片段，并在这些片段之间进行过渡。确定音乐的高层构成的生成与创建细节的低层次细节的生成是不同的。然后使用大型语言模型来建议音乐的形式。",
+    "tldr": "本论文介绍了一种生成结构化、任意长音乐作品的方法，通过使用条件生成模型创建音乐片段，并利用大型语言模型来建议音乐的形式。",
+    "en_tdlr": "This paper introduces a method for generating structured, arbitrarily long musical pieces by using a conditional generative model to create musical segments and utilizing a large language model to suggest the musical form."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Structural Similarities Between Language Models and Neural Response Measurements. (arXiv:2306.01930v2 [cs.CL] UPDATED)",
+    "abstract": "Large language models (LLMs) have complicated internal dynamics, but induce representations of words and phrases whose geometry we can study. Human language processing is also opaque, but neural response measurements can provide (noisy) recordings of activation during listening or reading, from which we can extract similar representations of words and phrases. Here we study the extent to which the geometries induced by these representations, share similarities in the context of brain decoding. We find that the larger neural language models get, the more their representations are structurally similar to neural response measurements from brain imaging. Code is available at \\url{https://github.com/coastalcph/brainlm}.",
+    "link": "http://arxiv.org/abs/2306.01930",
+    "context": "Title: Structural Similarities Between Language Models and Neural Response Measurements. (arXiv:2306.01930v2 [cs.CL] UPDATED)\nAbstract: Large language models (LLMs) have complicated internal dynamics, but induce representations of words and phrases whose geometry we can study. Human language processing is also opaque, but neural response measurements can provide (noisy) recordings of activation during listening or reading, from which we can extract similar representations of words and phrases. Here we study the extent to which the geometries induced by these representations, share similarities in the context of brain decoding. We find that the larger neural language models get, the more their representations are structurally similar to neural response measurements from brain imaging. Code is available at \\url{https://github.com/coastalcph/brainlm}.",
+    "path": "papers/23/06/2306.01930.json",
+    "total_tokens": 716,
+    "translated_title": "语言模型和神经响应测量之间的结构相似性",
+    "translated_abstract": "大型语言模型具有复杂的内部动态，但可以研究其词汇和短语的表示的几何结构。人类语言处理也很难理解，但神经响应测量可以提供在听或读时激活的（嘈杂的）记录，我们可以从中提取相似的词汇和短语表示。本研究在脑解码的背景下研究了这些表示所引发的几何结构之间的相似性。我们发现，神经语言模型越大，其表示与脑成像的神经响应测量越相似。",
+    "tldr": "本研究研究了语言模型和神经响应测量之间的结构相似性，发现神经语言模型越大，其表示越相似于脑成像的神经响应测量。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "SyMPox: An Automated Monkeypox Detection System Based on Symptoms Using XGBoost. (arXiv:2310.19801v1 [cs.LG])",
+    "abstract": "Monkeypox is a zoonotic disease. About 87000 cases of monkeypox were confirmed by the World Health Organization until 10th June 2023. The most prevalent methods for identifying this disease are image-based recognition techniques. Still, they are not too fast and could only be available to a few individuals. This study presents an independent application named SyMPox, developed to diagnose Monkeypox cases based on symptoms. SyMPox utilizes the robust XGBoost algorithm to analyze symptom patterns and provide accurate assessments. Developed using the Gradio framework, SyMPox offers a user-friendly platform for individuals to assess their symptoms and obtain reliable Monkeypox diagnoses.",
+    "link": "http://arxiv.org/abs/2310.19801",
+    "context": "Title: SyMPox: An Automated Monkeypox Detection System Based on Symptoms Using XGBoost. (arXiv:2310.19801v1 [cs.LG])\nAbstract: Monkeypox is a zoonotic disease. About 87000 cases of monkeypox were confirmed by the World Health Organization until 10th June 2023. The most prevalent methods for identifying this disease are image-based recognition techniques. Still, they are not too fast and could only be available to a few individuals. This study presents an independent application named SyMPox, developed to diagnose Monkeypox cases based on symptoms. SyMPox utilizes the robust XGBoost algorithm to analyze symptom patterns and provide accurate assessments. Developed using the Gradio framework, SyMPox offers a user-friendly platform for individuals to assess their symptoms and obtain reliable Monkeypox diagnoses.",
+    "path": "papers/23/10/2310.19801.json",
+    "total_tokens": 793,
+    "translated_title": "基于症状的自动猴痘检测系统SyMPox：使用XGBoost算法",
+    "translated_abstract": "猴痘是一种人畜共患病。到2023年6月10日，世界卫生组织确认了约87000例猴痘病例。目前最常用的鉴定方法是基于图像识别技术，然而这些方法速度较慢，且仅供少数人使用。本研究提出了一种名为SyMPox的独立应用，基于症状诊断猴痘病例。SyMPox利用强大的XGBoost算法分析症状模式，并提供准确的评估结果。SyMPox使用Gradio框架开发，为个人提供一个用户友好的平台，用于评估症状并获得可靠的猴痘诊断结果。",
+    "tldr": "SyMPox是一个基于症状的自动猴痘检测系统，利用XGBoost算法分析症状模式并提供准确的猴痘诊断，为用户提供了一个用户友好的平台。"
+}

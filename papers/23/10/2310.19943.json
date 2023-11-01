@@ -1,0 +1,12 @@
+{
+    "title": "The Acquisition of Physical Knowledge in Generative Neural Networks. (arXiv:2310.19943v1 [cs.LG])",
+    "abstract": "As children grow older, they develop an intuitive understanding of the physical processes around them. Their physical understanding develops in stages, moving along developmental trajectories which have been mapped out extensively in previous empirical research. Here, we investigate how the learning trajectories of deep generative neural networks compare to children's developmental trajectories using physical understanding as a testbed. We outline an approach that allows us to examine two distinct hypotheses of human development - stochastic optimization and complexity increase. We find that while our models are able to accurately predict a number of physical processes, their learning trajectories under both hypotheses do not follow the developmental trajectories of children.",
+    "link": "http://arxiv.org/abs/2310.19943",
+    "context": "Title: The Acquisition of Physical Knowledge in Generative Neural Networks. (arXiv:2310.19943v1 [cs.LG])\nAbstract: As children grow older, they develop an intuitive understanding of the physical processes around them. Their physical understanding develops in stages, moving along developmental trajectories which have been mapped out extensively in previous empirical research. Here, we investigate how the learning trajectories of deep generative neural networks compare to children's developmental trajectories using physical understanding as a testbed. We outline an approach that allows us to examine two distinct hypotheses of human development - stochastic optimization and complexity increase. We find that while our models are able to accurately predict a number of physical processes, their learning trajectories under both hypotheses do not follow the developmental trajectories of children.",
+    "path": "papers/23/10/2310.19943.json",
+    "total_tokens": 738,
+    "translated_title": "生成式神经网络在物质知识获取中的应用研究",
+    "translated_abstract": "随着孩子们的成长，他们对周围物理过程的直观理解逐渐发展起来。他们的物理理解以发展轨迹的方式呈现，这在先前的实证研究中被广泛映射出来。在这里，我们通过将物质理解作为测试平台，研究深度生成式神经网络的学习轨迹与儿童发展轨迹的比较。我们提出了一种方法，允许我们检验人类发展的两个不同假设 - 随机优化和复杂性增加。我们发现，虽然我们的模型能够准确预测一些物理过程，但它们在两个假设下的学习轨迹并不与儿童的发展轨迹一致。",
+    "tldr": "本文研究了生成式神经网络在物质知识获取中的应用，并发现其学习轨迹与儿童的发展轨迹不一致。",
+    "en_tdlr": "This paper investigates the application of generative neural networks in acquiring physical knowledge and finds that their learning trajectories do not align with the developmental trajectories of children."
+}

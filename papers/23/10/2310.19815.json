@@ -1,0 +1,12 @@
+{
+    "title": "Training binary neural networks without floating point precision. (arXiv:2310.19815v1 [cs.LG])",
+    "abstract": "The main goal of this work is to improve the efficiency of training binary neural networks, which are low latency and low energy networks. The main contribution of this work is the proposal of two solutions comprised of topology changes and strategy training that allow the network to achieve near the state-of-the-art performance and efficient training. The time required for training and the memory required in the process are two factors that contribute to efficient training.",
+    "link": "http://arxiv.org/abs/2310.19815",
+    "context": "Title: Training binary neural networks without floating point precision. (arXiv:2310.19815v1 [cs.LG])\nAbstract: The main goal of this work is to improve the efficiency of training binary neural networks, which are low latency and low energy networks. The main contribution of this work is the proposal of two solutions comprised of topology changes and strategy training that allow the network to achieve near the state-of-the-art performance and efficient training. The time required for training and the memory required in the process are two factors that contribute to efficient training.",
+    "path": "papers/23/10/2310.19815.json",
+    "total_tokens": 607,
+    "translated_title": "训练无需浮点精度的二进制神经网络",
+    "translated_abstract": "本研究的主要目标是提高训练二进制神经网络的效率，这些网络具有低延迟和低能耗的特点。本研究的主要贡献是提出了两种解决方案，包括拓扑变化和策略训练，使得网络能够达到接近最先进性能和高效的训练。训练所需的时间和内存是促进高效训练的两个因素。",
+    "tldr": "本研究提出了两种解决方案，通过拓扑变化和策略训练，实现了高效训练的二进制神经网络，具有低延迟和低能耗的特点。",
+    "en_tdlr": "This work proposes two solutions, topology changes and strategy training, to achieve efficient training of binary neural networks with low latency and low energy consumption."
+}

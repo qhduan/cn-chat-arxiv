@@ -1,0 +1,11 @@
+{
+    "title": "Benchmarking GPUs on SVBRDF Extractor Model. (arXiv:2310.19816v1 [cs.PF])",
+    "abstract": "With the maturity of deep learning, its use is emerging in every field. Also, as different types of GPUs are becoming more available in the markets, it creates a difficult decision for users. How can users select GPUs to achieve optimal performance for a specific task? Analysis of GPU architecture is well studied, but existing works that benchmark GPUs do not study tasks for networks with significantly larger input. In this work, we tried to differentiate the performance of different GPUs on neural network models that operate on bigger input images (256x256).",
+    "link": "http://arxiv.org/abs/2310.19816",
+    "context": "Title: Benchmarking GPUs on SVBRDF Extractor Model. (arXiv:2310.19816v1 [cs.PF])\nAbstract: With the maturity of deep learning, its use is emerging in every field. Also, as different types of GPUs are becoming more available in the markets, it creates a difficult decision for users. How can users select GPUs to achieve optimal performance for a specific task? Analysis of GPU architecture is well studied, but existing works that benchmark GPUs do not study tasks for networks with significantly larger input. In this work, we tried to differentiate the performance of different GPUs on neural network models that operate on bigger input images (256x256).",
+    "path": "papers/23/10/2310.19816.json",
+    "total_tokens": 680,
+    "translated_title": "基于SVBRDF提取模型的GPU性能评估",
+    "translated_abstract": "随着深度学习的成熟，其在各个领域的应用愈发广泛。同时，市场上不同类型的GPU也越来越多，这为用户选择合适的GPU带来了困扰。用户如何选择GPU以实现特定任务的最佳性能呢？GPU架构的分析已经得到了广泛研究，但现有的GPU性能评估工作并未研究对于处理更大输入图像（256x256）的神经网络模型的任务。本研究旨在区分不同GPU在操作较大输入图像的神经网络模型上的性能差异。",
+    "tldr": "本文针对操作更大输入图像（256x256）的神经网络模型，尝试区分不同GPU的性能。为了用户选择合适的GPU以实现特定任务的最佳性能提供了参考。"
+}

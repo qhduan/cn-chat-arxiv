@@ -1,0 +1,11 @@
+{
+    "title": "Sample-Conditioned Hypothesis Stability Sharpens Information-Theoretic Generalization Bounds. (arXiv:2310.20102v1 [stat.ML])",
+    "abstract": "We present new information-theoretic generalization guarantees through the a novel construction of the \"neighboring-hypothesis\" matrix and a new family of stability notions termed sample-conditioned hypothesis (SCH) stability. Our approach yields sharper bounds that improve upon previous information-theoretic bounds in various learning scenarios. Notably, these bounds address the limitations of existing information-theoretic bounds in the context of stochastic convex optimization (SCO) problems, as explored in the recent work by Haghifam et al. (2023).",
+    "link": "http://arxiv.org/abs/2310.20102",
+    "context": "Title: Sample-Conditioned Hypothesis Stability Sharpens Information-Theoretic Generalization Bounds. (arXiv:2310.20102v1 [stat.ML])\nAbstract: We present new information-theoretic generalization guarantees through the a novel construction of the \"neighboring-hypothesis\" matrix and a new family of stability notions termed sample-conditioned hypothesis (SCH) stability. Our approach yields sharper bounds that improve upon previous information-theoretic bounds in various learning scenarios. Notably, these bounds address the limitations of existing information-theoretic bounds in the context of stochastic convex optimization (SCO) problems, as explored in the recent work by Haghifam et al. (2023).",
+    "path": "papers/23/10/2310.20102.json",
+    "total_tokens": 701,
+    "translated_title": "样本条件的假设稳定性提升了信息论的泛化界限",
+    "translated_abstract": "我们通过一种新的\"相邻假设\"矩阵的构造和一种新的稳定性概念——样本条件的假设稳定性（SCH稳定性），提出了新的信息论泛化保证。我们的方法提供了比先前信息论界限更准确的界限，在各种学习场景中有所改善。值得注意的是，这些界限解决了最近Haghifam等人在随机凸优化（SCO）问题上的研究中存在的信息论界限的局限性。",
+    "tldr": "通过构建\"相邻假设\"矩阵和引入样本条件的假设稳定性，本文提出了新的信息论泛化保证，改进了先前信息论界限，并解决了随机凸优化问题中信息论界限的局限性。"
+}

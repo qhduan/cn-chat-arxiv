@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian Simulation-based Inference for Cosmological Initial Conditions. (arXiv:2310.19910v1 [astro-ph.CO])",
+    "abstract": "Reconstructing astrophysical and cosmological fields from observations is challenging. It requires accounting for non-linear transformations, mixing of spatial structure, and noise. In contrast, forward simulators that map fields to observations are readily available for many applications. We present a versatile Bayesian field reconstruction algorithm rooted in simulation-based inference and enhanced by autoregressive modeling. The proposed technique is applicable to generic (non-differentiable) forward simulators and allows sampling from the posterior for the underlying field. We show first promising results on a proof-of-concept application: the recovery of cosmological initial conditions from late-time density fields.",
+    "link": "http://arxiv.org/abs/2310.19910",
+    "context": "Title: Bayesian Simulation-based Inference for Cosmological Initial Conditions. (arXiv:2310.19910v1 [astro-ph.CO])\nAbstract: Reconstructing astrophysical and cosmological fields from observations is challenging. It requires accounting for non-linear transformations, mixing of spatial structure, and noise. In contrast, forward simulators that map fields to observations are readily available for many applications. We present a versatile Bayesian field reconstruction algorithm rooted in simulation-based inference and enhanced by autoregressive modeling. The proposed technique is applicable to generic (non-differentiable) forward simulators and allows sampling from the posterior for the underlying field. We show first promising results on a proof-of-concept application: the recovery of cosmological initial conditions from late-time density fields.",
+    "path": "papers/23/10/2310.19910.json",
+    "total_tokens": 735,
+    "translated_title": "基于贝叶斯仿真推断的宇宙初始条件研究",
+    "translated_abstract": "从观测数据中重建天体物理学和宇宙学领域的场是具有挑战性的。它需要考虑到非线性转换、空间结构的混合和噪声。相比之下，将场映射到观测数据的正向模拟器在许多应用中是可用的。我们提出了一种基于仿真推断的多功能贝叶斯场重建算法，并通过自回归建模进行改进。所提出的技术适用于通用的（非可微分）正向模拟器，并且允许从潜在场的后验分布中采样。我们首次展示了在一个概念验证应用中的一些有希望的结果：从晚期密度场恢复宇宙初始条件。",
+    "tldr": "本论文提出了一种基于仿真推断的贝叶斯场重建算法，结合自回归建模，可以从观测数据中恢复宇宙初始条件。",
+    "en_tdlr": "This paper proposes a versatile Bayesian field reconstruction algorithm rooted in simulation-based inference and enhanced by autoregressive modeling, which can recover cosmological initial conditions from observational data."
+}

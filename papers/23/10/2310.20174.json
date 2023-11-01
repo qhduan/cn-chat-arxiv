@@ -1,0 +1,11 @@
+{
+    "title": "GraphTransformers for Geospatial Forecasting. (arXiv:2310.20174v1 [cs.AI])",
+    "abstract": "In this paper we introduce a novel framework for trajectory prediction of geospatial sequences using GraphTransformers. When viewed across several sequences, we observed that a graph structure automatically emerges between different geospatial points that is often not taken into account for such sequence modeling tasks. We show that by leveraging this graph structure explicitly, geospatial trajectory prediction can be significantly improved. Our GraphTransformer approach improves upon state-of-the-art Transformer based baseline significantly on HURDAT, a dataset where we are interested in predicting the trajectory of a hurricane on a 6 hourly basis.",
+    "link": "http://arxiv.org/abs/2310.20174",
+    "context": "Title: GraphTransformers for Geospatial Forecasting. (arXiv:2310.20174v1 [cs.AI])\nAbstract: In this paper we introduce a novel framework for trajectory prediction of geospatial sequences using GraphTransformers. When viewed across several sequences, we observed that a graph structure automatically emerges between different geospatial points that is often not taken into account for such sequence modeling tasks. We show that by leveraging this graph structure explicitly, geospatial trajectory prediction can be significantly improved. Our GraphTransformer approach improves upon state-of-the-art Transformer based baseline significantly on HURDAT, a dataset where we are interested in predicting the trajectory of a hurricane on a 6 hourly basis.",
+    "path": "papers/23/10/2310.20174.json",
+    "total_tokens": 740,
+    "translated_title": "基于图转换器的地理空间预测",
+    "translated_abstract": "本文介绍了一种使用图转换器进行地理空间序列轨迹预测的新框架。通过观察多个序列，我们发现在这些序列之间会自动形成一个图结构，而这种结构在序列建模任务中通常被忽视。我们展示了通过显式利用这个图结构，地理空间轨迹预测可以显著改善。我们的图转换器方法在HURDAT数据集上，即对飓风轨迹进行6小时基础上的预测上，相比基于Transformer的基准模型有了显著的提升。",
+    "tldr": "本研究提出了一种新的基于图转换器的框架，用于改进地理空间序列轨迹预测。通过显式利用自动生成的图结构，可以显著提高地理空间轨迹预测的准确性。实验证明，该方法在飓风轨迹预测任务中表现优于基准模型。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Multiscale Feature Attribution for Outliers. (arXiv:2310.20012v1 [cs.LG])",
+    "abstract": "Machine learning techniques can automatically identify outliers in massive datasets, much faster and more reproducible than human inspection ever could. But finding such outliers immediately leads to the question: which features render this input anomalous? We propose a new feature attribution method, Inverse Multiscale Occlusion, that is specifically designed for outliers, for which we have little knowledge of the type of features we want to identify and expect that the model performance is questionable because anomalous test data likely exceed the limits of the training data. We demonstrate our method on outliers detected in galaxy spectra from the Dark Energy Survey Instrument and find its results to be much more interpretable than alternative attribution approaches.",
+    "link": "http://arxiv.org/abs/2310.20012",
+    "context": "Title: Multiscale Feature Attribution for Outliers. (arXiv:2310.20012v1 [cs.LG])\nAbstract: Machine learning techniques can automatically identify outliers in massive datasets, much faster and more reproducible than human inspection ever could. But finding such outliers immediately leads to the question: which features render this input anomalous? We propose a new feature attribution method, Inverse Multiscale Occlusion, that is specifically designed for outliers, for which we have little knowledge of the type of features we want to identify and expect that the model performance is questionable because anomalous test data likely exceed the limits of the training data. We demonstrate our method on outliers detected in galaxy spectra from the Dark Energy Survey Instrument and find its results to be much more interpretable than alternative attribution approaches.",
+    "path": "papers/23/10/2310.20012.json",
+    "total_tokens": 722,
+    "translated_title": "多尺度特征归因的异常点检测",
+    "translated_abstract": "机器学习技术能够快速且可靠地识别海量数据集中的异常点，比人工检查要快得多。但是，一旦发现这些异常点，很快就会产生一个问题：哪些特征使得这个输入成为异常？我们提出了一种新的特征归因方法，称为逆多尺度遮挡，专为异常点设计，因为我们对要识别的特征类型了解很少，并且预计模型性能可能不可靠，因为异常的测试数据很可能超过了训练数据的限制。我们在Dark Energy Survey Instrument检测到的星系光谱异常点上展示了我们的方法，并发现其结果比其他归因方法更易解释。",
+    "tldr": "本论文提出了一种逆多尺度遮挡的特征归因方法，用于识别异常点，并且在Dark Energy Survey Instrument中的星系光谱异常点上取得了更易解释的结果。"
+}
