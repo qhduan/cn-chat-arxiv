@@ -1,0 +1,11 @@
+{
+    "title": "rTsfNet: a DNN model with Multi-head 3D Rotation and Time Series Feature Extraction for IMU-based Human Activity Recognition. (arXiv:2310.19283v2 [cs.HC] UPDATED)",
+    "abstract": "This paper proposes rTsfNet, a DNN model with Multi-head 3D Rotation and Time Series Feature Extraction, as a new DNN model for IMU-based human activity recognition (HAR). rTsfNet automatically selects 3D bases from which features should be derived by deriving 3D rotation parameters within the DNN. Then, time series features (TSFs), the wisdom of many researchers, are derived and realize HAR using MLP. Although a model that does not use CNN, it achieved the highest accuracy than existing models under well-managed benchmark conditions and multiple datasets: UCI HAR, PAMAP2, Daphnet, and OPPORTUNITY, which target different activities.",
+    "link": "http://arxiv.org/abs/2310.19283",
+    "context": "Title: rTsfNet: a DNN model with Multi-head 3D Rotation and Time Series Feature Extraction for IMU-based Human Activity Recognition. (arXiv:2310.19283v2 [cs.HC] UPDATED)\nAbstract: This paper proposes rTsfNet, a DNN model with Multi-head 3D Rotation and Time Series Feature Extraction, as a new DNN model for IMU-based human activity recognition (HAR). rTsfNet automatically selects 3D bases from which features should be derived by deriving 3D rotation parameters within the DNN. Then, time series features (TSFs), the wisdom of many researchers, are derived and realize HAR using MLP. Although a model that does not use CNN, it achieved the highest accuracy than existing models under well-managed benchmark conditions and multiple datasets: UCI HAR, PAMAP2, Daphnet, and OPPORTUNITY, which target different activities.",
+    "path": "papers/23/10/2310.19283.json",
+    "total_tokens": 752,
+    "translated_title": "rTsfNet:一种具有多头3D旋转和时序特征提取的基于IMU的人体活动识别DNN模型",
+    "translated_abstract": "本论文提出了rTsfNet，一种具有多头3D旋转和时序特征提取的DNN模型，作为IMU-based人体活动识别的新型DNN模型。rTsfNet通过在DNN内部推导3D旋转参数，自动选择应该从中派生特征的3D基准。然后，利用MLP推导时序特征（TSFs）并实现HAR。尽管该模型不使用CNN，在良好管理的基准条件和多个数据集（UCI HAR, PAMAP2, Daphnet, 和OPPORTUNITY）上取得了最高的准确率，这些数据集针对不同的活动。",
+    "tldr": "rTsfNet是一种新的DNN模型，通过多头3D旋转和时序特征提取实现了IMU-based人体活动识别，并在多个数据集上取得了最高的准确率。"
+}

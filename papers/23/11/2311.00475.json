@@ -1,0 +1,11 @@
+{
+    "title": "Style Locality for Controllable Generation with kNN Language Models. (arXiv:2311.00475v1 [cs.CL])",
+    "abstract": "Recent language models have been improved by the addition of external memory. Nearest neighbor language models retrieve similar contexts to assist in word prediction. The addition of locality levels allows a model to learn how to weight neighbors based on their relative location to the current text in source documents, and have been shown to further improve model performance. Nearest neighbor models have been explored for controllable generation but have not examined the use of locality levels. We present a novel approach for this purpose and evaluate it using automatic and human evaluation on politeness, formality, supportiveness, and toxicity textual data. We find that our model is successfully able to control style and provides a better fluency-style trade-off than previous work.",
+    "link": "http://arxiv.org/abs/2311.00475",
+    "context": "Title: Style Locality for Controllable Generation with kNN Language Models. (arXiv:2311.00475v1 [cs.CL])\nAbstract: Recent language models have been improved by the addition of external memory. Nearest neighbor language models retrieve similar contexts to assist in word prediction. The addition of locality levels allows a model to learn how to weight neighbors based on their relative location to the current text in source documents, and have been shown to further improve model performance. Nearest neighbor models have been explored for controllable generation but have not examined the use of locality levels. We present a novel approach for this purpose and evaluate it using automatic and human evaluation on politeness, formality, supportiveness, and toxicity textual data. We find that our model is successfully able to control style and provides a better fluency-style trade-off than previous work.",
+    "path": "papers/23/11/2311.00475.json",
+    "total_tokens": 791,
+    "translated_title": "具有kNN语言模型的可控生成的风格封闭性",
+    "translated_abstract": "最近的语言模型通过添加外部存储得到了改进。最近邻语言模型检索相似的上下文来帮助单词预测。添加位置级别使模型能够学习如何根据当前文本在源文献中的相对位置来加权邻居，并已经显示进一步提高了模型的性能。最近邻模型已经用于可控生成，但尚未研究位置级别的使用。我们提出了一个新颖的方法来实现这个目的，并使用礼貌、形式、支持性和毒性文本数据进行了自动和人工评估。我们发现我们的模型能够成功地控制风格，并提供比以前的工作更好的流利性和风格平衡。",
+    "tldr": "本论文提出了一种使用位置级别进行可控生成的新方法，并通过对礼貌、形式、支持性和毒性文本数据的自动和人工评估发现，我们的模型能够成功地控制风格，并提供更好的流利性和风格平衡。"
+}

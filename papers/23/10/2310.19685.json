@@ -1,0 +1,12 @@
+{
+    "title": "DGFN: Double Generative Flow Networks. (arXiv:2310.19685v2 [cs.LG] UPDATED)",
+    "abstract": "Deep learning is emerging as an effective tool in drug discovery, with potential applications in both predictive and generative models. Generative Flow Networks (GFlowNets/GFNs) are a recently introduced method recognized for the ability to generate diverse candidates, in particular in small molecule generation tasks. In this work, we introduce double GFlowNets (DGFNs). Drawing inspiration from reinforcement learning and Double Deep Q-Learning, we introduce a target network used to sample trajectories, while updating the main network with these sampled trajectories. Empirical results confirm that DGFNs effectively enhance exploration in sparse reward domains and high-dimensional state spaces, both challenging aspects of de-novo design in drug discovery.",
+    "link": "http://arxiv.org/abs/2310.19685",
+    "context": "Title: DGFN: Double Generative Flow Networks. (arXiv:2310.19685v2 [cs.LG] UPDATED)\nAbstract: Deep learning is emerging as an effective tool in drug discovery, with potential applications in both predictive and generative models. Generative Flow Networks (GFlowNets/GFNs) are a recently introduced method recognized for the ability to generate diverse candidates, in particular in small molecule generation tasks. In this work, we introduce double GFlowNets (DGFNs). Drawing inspiration from reinforcement learning and Double Deep Q-Learning, we introduce a target network used to sample trajectories, while updating the main network with these sampled trajectories. Empirical results confirm that DGFNs effectively enhance exploration in sparse reward domains and high-dimensional state spaces, both challenging aspects of de-novo design in drug discovery.",
+    "path": "papers/23/10/2310.19685.json",
+    "total_tokens": 753,
+    "translated_title": "DGFN: 双生成流网络",
+    "translated_abstract": "深度学习作为一种有效的药物发现工具正在崭露头角，具有在预测和生成模型中的潜在应用。生成流网络（GFlowNets / GFNs）是一种最近引入的方法，因其在小分子生成任务中能够生成多样化的候选物而受到认可。在这项工作中，我们引入了双生成流网络（DGFNs）。受强化学习和双深度Q学习的启发，我们引入了一个目标网络用于采样路径，并使用这些采样路径来更新主网络。实证结果证实，DGFNs能够有效增强稀疏奖励领域和高维状态空间的探索能力，这都是药物发现中全新设计的挑战性方面。",
+    "tldr": "双生成流网络（DGFNs）是一种能够有效增强药物发现中探索能力的方法，通过引入目标网络和采样路径的方式，解决了稀疏奖励领域和高维状态空间的挑战。",
+    "en_tdlr": "DGFNs is a method that effectively enhances exploration in drug discovery by introducing a target network and sampled trajectories, addressing challenges in sparse reward domains and high-dimensional state spaces."
+}

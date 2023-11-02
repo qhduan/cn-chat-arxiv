@@ -1,0 +1,11 @@
+{
+    "title": "NoMoPy: Noise Modeling in Python. (arXiv:2311.00084v1 [stat.CO])",
+    "abstract": "NoMoPy is a code for fitting, analyzing, and generating noise modeled as a hidden Markov model (HMM) or, more generally, factorial hidden Markov model (FHMM). This code, written in Python, implements approximate and exact expectation maximization (EM) algorithms for performing the parameter estimation process, model selection procedures via cross-validation, and parameter confidence region estimation. Here, we describe in detail the functionality implemented in NoMoPy and provide examples of its use and performance on example problems.",
+    "link": "http://arxiv.org/abs/2311.00084",
+    "context": "Title: NoMoPy: Noise Modeling in Python. (arXiv:2311.00084v1 [stat.CO])\nAbstract: NoMoPy is a code for fitting, analyzing, and generating noise modeled as a hidden Markov model (HMM) or, more generally, factorial hidden Markov model (FHMM). This code, written in Python, implements approximate and exact expectation maximization (EM) algorithms for performing the parameter estimation process, model selection procedures via cross-validation, and parameter confidence region estimation. Here, we describe in detail the functionality implemented in NoMoPy and provide examples of its use and performance on example problems.",
+    "path": "papers/23/11/2311.00084.json",
+    "total_tokens": 683,
+    "translated_title": "NoMoPy: Python中的噪声建模",
+    "translated_abstract": "NoMoPy是一个用于拟合、分析和生成噪声的代码，将噪声建模为隐马尔可夫模型（HMM）或更一般的因子隐马尔可夫模型（FHMM）。这个用Python编写的代码实现了近似和精确的期望最大化（EM）算法，用于进行参数估计过程、通过交叉验证进行模型选择程序以及参数置信区间估计。在这里，我们详细描述了NoMoPy中实现的功能，并提供了在示例问题上的使用和性能示例。",
+    "tldr": "NoMoPy是一个用于拟合、分析和生成噪声的Python代码，可以将噪声建模为隐马尔可夫模型或因子隐马尔可夫模型。它实现了近似和精确的期望最大化算法，可以进行参数估计、模型选择和参数置信区间估计。"
+}

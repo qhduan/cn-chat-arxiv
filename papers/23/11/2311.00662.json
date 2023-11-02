@@ -1,0 +1,12 @@
+{
+    "title": "On Gaussian Process Priors in Conditional Moment Restriction Models. (arXiv:2311.00662v1 [econ.EM])",
+    "abstract": "This paper studies quasi-Bayesian estimation and uncertainty quantification for an unknown function that is identified by a nonparametric conditional moment restriction model. We derive contraction rates for a class of Gaussian process priors and provide conditions under which a Bernstein-von Mises theorem holds for the quasi-posterior distribution. As a consequence, we show that optimally-weighted quasi-Bayes credible sets have exact asymptotic frequentist coverage. This extends classical result on the frequentist validity of optimally weighted quasi-Bayes credible sets for parametric generalized method of moments (GMM) models.",
+    "link": "http://arxiv.org/abs/2311.00662",
+    "context": "Title: On Gaussian Process Priors in Conditional Moment Restriction Models. (arXiv:2311.00662v1 [econ.EM])\nAbstract: This paper studies quasi-Bayesian estimation and uncertainty quantification for an unknown function that is identified by a nonparametric conditional moment restriction model. We derive contraction rates for a class of Gaussian process priors and provide conditions under which a Bernstein-von Mises theorem holds for the quasi-posterior distribution. As a consequence, we show that optimally-weighted quasi-Bayes credible sets have exact asymptotic frequentist coverage. This extends classical result on the frequentist validity of optimally weighted quasi-Bayes credible sets for parametric generalized method of moments (GMM) models.",
+    "path": "papers/23/11/2311.00662.json",
+    "total_tokens": 809,
+    "translated_title": "关于高斯过程先验在条件矩限制模型中的应用",
+    "translated_abstract": "本文研究了在非参数条件矩限制模型中，对于一段未知函数的准贝叶斯估计和不确定性量化。我们推导了一类高斯过程先验的收缩速率，并提供了满足伯恩斯坦-冯·米塞斯定理的条件。作为结果，我们证明了最优加权准贝叶斯可信集具有精确的渐近经典主义覆盖率。这扩展了关于参数广义矩估计（GMM）模型的最优加权准贝叶斯可信集的频率有效性的经典结果。",
+    "tldr": "本文研究了在非参数条件矩限制模型中，对于一段未知函数的准贝叶斯估计和不确定性量化。通过推导高斯过程先验的收缩速率，并满足伯恩斯坦-冯·米塞斯定理的条件，证明了最优加权准贝叶斯可信集具有精确的渐近经典主义覆盖率。",
+    "en_tdlr": "This paper investigates quasi-Bayesian estimation and uncertainty quantification for an unknown function in a nonparametric conditional moment restriction model. By deriving contraction rates for a class of Gaussian process priors and providing conditions for the Bernstein-von Mises theorem, it is shown that optimally-weighted quasi-Bayes credible sets have exact asymptotic frequentist coverage, extending the classical result for parametric generalized method of moments (GMM) models."
+}

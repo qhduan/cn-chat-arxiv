@@ -1,0 +1,12 @@
+{
+    "title": "On the Kolmogorov neural networks. (arXiv:2311.00049v1 [cs.NE])",
+    "abstract": "In this paper, we show that the Kolmogorov two hidden layer neural network model with a continuous, discontinuous bounded or unbounded activation function in the second hidden layer can precisely represent continuous, discontinuous bounded and all unbounded multivariate functions, respectively.",
+    "link": "http://arxiv.org/abs/2311.00049",
+    "context": "Title: On the Kolmogorov neural networks. (arXiv:2311.00049v1 [cs.NE])\nAbstract: In this paper, we show that the Kolmogorov two hidden layer neural network model with a continuous, discontinuous bounded or unbounded activation function in the second hidden layer can precisely represent continuous, discontinuous bounded and all unbounded multivariate functions, respectively.",
+    "path": "papers/23/11/2311.00049.json",
+    "total_tokens": 478,
+    "translated_title": "关于 Kolmogorov 神经网络的研究",
+    "translated_abstract": "在本文中，我们证明了 Kolmogorov 两个隐藏层神经网络模型可以通过使用一个连续、不连续有界或者无界激活函数在第二个隐藏层来精确地表示连续函数、有界不连续函数和所有无界多元函数。",
+    "tldr": "Kolmogorov神经网络模型可以精确地表示连续函数、有界不连续函数和所有无界多元函数。",
+    "en_tdlr": "The Kolmogorov neural network model can accurately represent continuous functions, bounded discontinuous functions, and all unbounded multivariate functions."
+}

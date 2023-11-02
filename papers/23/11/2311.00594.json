@@ -1,0 +1,12 @@
+{
+    "title": "Rethinking Variational Inference for Probabilistic Programs with Stochastic Support. (arXiv:2311.00594v1 [cs.LG])",
+    "abstract": "We introduce Support Decomposition Variational Inference (SDVI), a new variational inference (VI) approach for probabilistic programs with stochastic support. Existing approaches to this problem rely on designing a single global variational guide on a variable-by-variable basis, while maintaining the stochastic control flow of the original program. SDVI instead breaks the program down into sub-programs with static support, before automatically building separate sub-guides for each. This decomposition significantly aids in the construction of suitable variational families, enabling, in turn, substantial improvements in inference performance.",
+    "link": "http://arxiv.org/abs/2311.00594",
+    "context": "Title: Rethinking Variational Inference for Probabilistic Programs with Stochastic Support. (arXiv:2311.00594v1 [cs.LG])\nAbstract: We introduce Support Decomposition Variational Inference (SDVI), a new variational inference (VI) approach for probabilistic programs with stochastic support. Existing approaches to this problem rely on designing a single global variational guide on a variable-by-variable basis, while maintaining the stochastic control flow of the original program. SDVI instead breaks the program down into sub-programs with static support, before automatically building separate sub-guides for each. This decomposition significantly aids in the construction of suitable variational families, enabling, in turn, substantial improvements in inference performance.",
+    "path": "papers/23/11/2311.00594.json",
+    "total_tokens": 707,
+    "translated_title": "重新思考具有随机支持的概率编程的变分推断",
+    "translated_abstract": "本文介绍了支持分解变分推断（SDVI），一种面向具有随机支持的概率编程的新的变分推断方法。现有方法在这个问题上依赖于在逐变量的基础上设计单个全局变分指导，同时保持原始程序的随机控制流。SDVI相反，将程序分解为具有静态支持的子程序，然后自动构建每个子指导的独立子指导。这种分解显著有助于构建适合的变分族，从而进一步提高推断性能。",
+    "tldr": "本文提出了一种新的变分推断方法SDVI，可以用于具有随机支持的概率编程。通过将程序分解为具有静态支持的子程序，并为每个子程序构建独立的变分指导，SDVI在推断性能方面取得了显著改进。",
+    "en_tdlr": "This paper introduces a new variational inference approach called SDVI for probabilistic programs with stochastic support. By decomposing the program into sub-programs with static support and building separate variational guides for each sub-program, SDVI significantly improves inference performance."
+}

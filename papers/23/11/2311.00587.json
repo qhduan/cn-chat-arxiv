@@ -1,0 +1,12 @@
+{
+    "title": "Crosslingual Retrieval Augmented In-context Learning for Bangla. (arXiv:2311.00587v1 [cs.CL])",
+    "abstract": "The promise of Large Language Models (LLMs) in Natural Language Processing has often been overshadowed by their limited performance in low-resource languages such as Bangla. To address this, our paper presents a pioneering approach that utilizes cross-lingual retrieval augmented in-context learning. By strategically sourcing semantically similar prompts from high-resource language, we enable multilingual pretrained language models (MPLMs), especially the generative model BLOOMZ, to successfully boost performance on Bangla tasks. Our extensive evaluation highlights that the cross-lingual retrieval augmented prompts bring steady improvements to MPLMs over the zero-shot performance.",
+    "link": "http://arxiv.org/abs/2311.00587",
+    "context": "Title: Crosslingual Retrieval Augmented In-context Learning for Bangla. (arXiv:2311.00587v1 [cs.CL])\nAbstract: The promise of Large Language Models (LLMs) in Natural Language Processing has often been overshadowed by their limited performance in low-resource languages such as Bangla. To address this, our paper presents a pioneering approach that utilizes cross-lingual retrieval augmented in-context learning. By strategically sourcing semantically similar prompts from high-resource language, we enable multilingual pretrained language models (MPLMs), especially the generative model BLOOMZ, to successfully boost performance on Bangla tasks. Our extensive evaluation highlights that the cross-lingual retrieval augmented prompts bring steady improvements to MPLMs over the zero-shot performance.",
+    "path": "papers/23/11/2311.00587.json",
+    "total_tokens": 723,
+    "translated_title": "跨语言检索增强情境学习用于孟加拉语的研究",
+    "translated_abstract": "在自然语言处理中，大型语言模型（LLMs）的潜力常常被它们在低资源语言（如孟加拉语）中的有限性能所遮盖。为了解决这个问题，我们的论文提出了一种创新方法，利用跨语言检索增强情境学习。通过从高资源语言中策略性地获取语义相似的提示，我们使得多语言预训练语言模型（MPLMs），特别是生成模型BLOOMZ，能够成功提高孟加拉语任务的性能。我们广泛的评估表明，跨语言检索增强的提示对MPLMs的提升效果稳定，并且超过了零样本性能。",
+    "tldr": "本文提出了一种跨语言检索增强情境学习的创新方法，通过利用高资源语言中的语义相似提示，成功提升了孟加拉语任务的性能。",
+    "en_tdlr": "This paper presents a pioneering approach of cross-lingual retrieval augmented in-context learning, which successfully boosts the performance of Bangla tasks by utilizing semantically similar prompts from high-resource languages."
+}

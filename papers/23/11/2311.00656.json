@@ -1,0 +1,11 @@
+{
+    "title": "Online Signal Estimation on the Graph Edges via Line Graph Transformation. (arXiv:2311.00656v1 [eess.SP])",
+    "abstract": "We propose the Line Graph Normalized Least Mean Square (LGNLMS) algorithm for online time-varying graph edge signals prediction. LGNLMS utilizes the Line Graph to transform graph edge signals into the node of its edge-to-vertex dual. This enables edge signals to be processed using established GSP concepts without redefining them on graph edges.",
+    "link": "http://arxiv.org/abs/2311.00656",
+    "context": "Title: Online Signal Estimation on the Graph Edges via Line Graph Transformation. (arXiv:2311.00656v1 [eess.SP])\nAbstract: We propose the Line Graph Normalized Least Mean Square (LGNLMS) algorithm for online time-varying graph edge signals prediction. LGNLMS utilizes the Line Graph to transform graph edge signals into the node of its edge-to-vertex dual. This enables edge signals to be processed using established GSP concepts without redefining them on graph edges.",
+    "path": "papers/23/11/2311.00656.json",
+    "total_tokens": 564,
+    "translated_title": "通过线图转换在线估计图边缘信号",
+    "translated_abstract": "我们提出了线图归一化最小均方(LGNLMS)算法，用于在线时间变化图边缘信号的预测。LGNLMS利用线图将图边缘信号转换为其边到顶点对偶节点。这使得边缘信号可以使用已建立的GSP概念进行处理，而无需在图边缘上重新定义它们。",
+    "tldr": "该论文提出了一种在线时间变化图边缘信号预测算法，利用线图转换边缘信号为边到顶点对偶节点，使得信号可以使用已有的GSP概念进行处理。"
+}

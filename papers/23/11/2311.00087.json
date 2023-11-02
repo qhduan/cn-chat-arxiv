@@ -1,0 +1,12 @@
+{
+    "title": "Seeking Truth and Beauty in Flavor Physics with Machine Learning. (arXiv:2311.00087v1 [hep-ph])",
+    "abstract": "The discovery process of building new theoretical physics models involves the dual aspect of both fitting to the existing experimental data and satisfying abstract theorists' criteria like beauty, naturalness, etc. We design loss functions for performing both of those tasks with machine learning techniques. We use the Yukawa quark sector as a toy example to demonstrate that the optimization of these loss functions results in true and beautiful models.",
+    "link": "http://arxiv.org/abs/2311.00087",
+    "context": "Title: Seeking Truth and Beauty in Flavor Physics with Machine Learning. (arXiv:2311.00087v1 [hep-ph])\nAbstract: The discovery process of building new theoretical physics models involves the dual aspect of both fitting to the existing experimental data and satisfying abstract theorists' criteria like beauty, naturalness, etc. We design loss functions for performing both of those tasks with machine learning techniques. We use the Yukawa quark sector as a toy example to demonstrate that the optimization of these loss functions results in true and beautiful models.",
+    "path": "papers/23/11/2311.00087.json",
+    "total_tokens": 527,
+    "translated_title": "使用机器学习在味道物理学中寻求真理和美",
+    "translated_abstract": "构建新的理论物理模型的发现过程涉及到既符合现有实验数据又满足抽象理论家的美观、自然等标准的双重方面。我们设计了使用机器学习技术执行这些任务的损失函数。我们以Yukawa夸克部门作为一个玩具示例来演示这些损失函数的优化将产生真实而美丽的模型。",
+    "tldr": "使用机器学习技术在味道物理学中找到真实而美丽的模型。",
+    "en_tdlr": "Finding true and beautiful models in flavor physics using machine learning techniques."
+}

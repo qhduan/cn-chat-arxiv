@@ -1,0 +1,11 @@
+{
+    "title": "Diffusion models for probabilistic programming. (arXiv:2311.00474v1 [cs.LG])",
+    "abstract": "We propose Diffusion Model Variational Inference (DMVI), a novel method for automated approximate inference in probabilistic programming languages (PPLs). DMVI utilizes diffusion models as variational approximations to the true posterior distribution by deriving a novel bound to the marginal likelihood objective used in Bayesian modelling. DMVI is easy to implement, allows hassle-free inference in PPLs without the drawbacks of, e.g., variational inference using normalizing flows, and does not make any constraints on the underlying neural network model. We evaluate DMVI on a set of common Bayesian models and show that its posterior inferences are in general more accurate than those of contemporary methods used in PPLs while having a similar computational cost and requiring less manual tuning.",
+    "link": "http://arxiv.org/abs/2311.00474",
+    "context": "Title: Diffusion models for probabilistic programming. (arXiv:2311.00474v1 [cs.LG])\nAbstract: We propose Diffusion Model Variational Inference (DMVI), a novel method for automated approximate inference in probabilistic programming languages (PPLs). DMVI utilizes diffusion models as variational approximations to the true posterior distribution by deriving a novel bound to the marginal likelihood objective used in Bayesian modelling. DMVI is easy to implement, allows hassle-free inference in PPLs without the drawbacks of, e.g., variational inference using normalizing flows, and does not make any constraints on the underlying neural network model. We evaluate DMVI on a set of common Bayesian models and show that its posterior inferences are in general more accurate than those of contemporary methods used in PPLs while having a similar computational cost and requiring less manual tuning.",
+    "path": "papers/23/11/2311.00474.json",
+    "total_tokens": 795,
+    "translated_title": "概率编程的扩散模型",
+    "translated_abstract": "我们提出了扩散模型变分推断（DMVI），这是一种在概率编程语言（PPL）中进行自动近似推断的新方法。DMVI利用扩散模型作为对真实后验分布的变分近似，通过导出贝叶斯建模中使用的边际似然目标的新约束。DMVI易于实现，在PPL中进行无障碍推断，不像使用归一化流的变分推断那样具有缺点，并且对基础神经网络模型不做任何约束。我们在一组常见的贝叶斯模型上评估了DMVI，并表明它的后验推断一般比PPL中使用的现代方法更准确，同时具有类似的计算成本并且需要较少的手动调整。",
+    "tldr": "我们提出了一种新的扩散模型变分推断（DMVI）方法，用于在概率编程语言中进行自动近似推断。DMVI可以更准确地进行后验推断，而且易于实现和使用，对神经网络模型没有任何约束。"
+}

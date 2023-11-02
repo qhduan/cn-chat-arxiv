@@ -1,0 +1,12 @@
+{
+    "title": "Comparing Optimization Targets for Contrast-Consistent Search. (arXiv:2311.00488v1 [cs.LG])",
+    "abstract": "We investigate the optimization target of Contrast-Consistent Search (CCS), which aims to recover the internal representations of truth of a large language model. We present a new loss function that we call the Midpoint-Displacement (MD) loss function. We demonstrate that for a certain hyper-parameter value this MD loss function leads to a prober with very similar weights to CCS. We further show that this hyper-parameter is not optimal and that with a better hyper-parameter the MD loss function attains a higher test accuracy than CCS.",
+    "link": "http://arxiv.org/abs/2311.00488",
+    "context": "Title: Comparing Optimization Targets for Contrast-Consistent Search. (arXiv:2311.00488v1 [cs.LG])\nAbstract: We investigate the optimization target of Contrast-Consistent Search (CCS), which aims to recover the internal representations of truth of a large language model. We present a new loss function that we call the Midpoint-Displacement (MD) loss function. We demonstrate that for a certain hyper-parameter value this MD loss function leads to a prober with very similar weights to CCS. We further show that this hyper-parameter is not optimal and that with a better hyper-parameter the MD loss function attains a higher test accuracy than CCS.",
+    "path": "papers/23/11/2311.00488.json",
+    "total_tokens": 670,
+    "translated_title": "对比优化目标对一致性搜索的比较",
+    "translated_abstract": "我们研究了一致性搜索（CCS）的优化目标，该目标旨在恢复大型语言模型的真实内部表示。我们提出了一种新的损失函数，称为Midpoint-Displacement（MD）损失函数。我们证明在某个超参数值下，该MD损失函数导致的模型权重与CCS非常相似。我们进一步展示了该超参数并不是最优的，并且用更好的超参数，MD损失函数可以达到比CCS更高的测试准确率。",
+    "tldr": "本研究通过对比优化目标发现，使用Midpoint-Displacement（MD）损失函数可以获得与Contrast-Consistent Search（CCS）非常相似的模型权重，而且通过调整超参数可以使MD损失函数的测试准确率高于CCS。",
+    "en_tdlr": "This study compares optimization targets and proposes the use of the Midpoint-Displacement (MD) loss function for Contrast-Consistent Search (CCS), showing that it can achieve weights similar to CCS and a higher test accuracy with the right hyper-parameter."
+}

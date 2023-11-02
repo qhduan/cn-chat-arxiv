@@ -1,0 +1,11 @@
+{
+    "title": "Unsupervised Lexical Simplification with Context Augmentation. (arXiv:2311.00310v1 [cs.CL])",
+    "abstract": "We propose a new unsupervised lexical simplification method that uses only monolingual data and pre-trained language models. Given a target word and its context, our method generates substitutes based on the target context and also additional contexts sampled from monolingual data. We conduct experiments in English, Portuguese, and Spanish on the TSAR-2022 shared task, and show that our model substantially outperforms other unsupervised systems across all languages. We also establish a new state-of-the-art by ensembling our model with GPT-3.5. Lastly, we evaluate our model on the SWORDS lexical substitution data set, achieving a state-of-the-art result.",
+    "link": "http://arxiv.org/abs/2311.00310",
+    "context": "Title: Unsupervised Lexical Simplification with Context Augmentation. (arXiv:2311.00310v1 [cs.CL])\nAbstract: We propose a new unsupervised lexical simplification method that uses only monolingual data and pre-trained language models. Given a target word and its context, our method generates substitutes based on the target context and also additional contexts sampled from monolingual data. We conduct experiments in English, Portuguese, and Spanish on the TSAR-2022 shared task, and show that our model substantially outperforms other unsupervised systems across all languages. We also establish a new state-of-the-art by ensembling our model with GPT-3.5. Lastly, we evaluate our model on the SWORDS lexical substitution data set, achieving a state-of-the-art result.",
+    "path": "papers/23/11/2311.00310.json",
+    "total_tokens": 790,
+    "translated_title": "无监督的词汇简化方法与上下文扩充",
+    "translated_abstract": "我们提出了一种新的无监督词汇简化方法，只使用单语数据和预训练语言模型。通过给定目标词和其上下文，我们的方法基于目标上下文和从单语数据中采样的额外上下文生成替代词。我们在TSAR-2022共享任务上使用英语、葡萄牙语和西班牙语进行实验，并表明我们的模型在所有语言上都明显优于其他无监督系统。我们还通过将我们的模型与GPT-3.5进行集成，建立了一个新的最先进的模型。最后，我们在SWORDS词汇替换数据集上评估我们的模型，取得了最先进的结果。",
+    "tldr": "我们提出了一种无监督的词汇简化方法，使用单语数据和预训练语言模型，通过生成替代词来简化给定目标词与其上下文，实验证明我们的模型在多个语言上优于其他无监督系统，并在SWORDS数据集上取得了最先进的结果。"
+}

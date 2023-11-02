@@ -1,0 +1,12 @@
+{
+    "title": "Flexible Tails for Normalising Flows, with Application to the Modelling of Financial Return Data. (arXiv:2311.00580v1 [stat.ML])",
+    "abstract": "We propose a transformation capable of altering the tail properties of a distribution, motivated by extreme value theory, which can be used as a layer in a normalizing flow to approximate multivariate heavy tailed distributions. We apply this approach to model financial returns, capturing potentially extreme shocks that arise in such data. The trained models can be used directly to generate new synthetic sets of potentially extreme returns",
+    "link": "http://arxiv.org/abs/2311.00580",
+    "context": "Title: Flexible Tails for Normalising Flows, with Application to the Modelling of Financial Return Data. (arXiv:2311.00580v1 [stat.ML])\nAbstract: We propose a transformation capable of altering the tail properties of a distribution, motivated by extreme value theory, which can be used as a layer in a normalizing flow to approximate multivariate heavy tailed distributions. We apply this approach to model financial returns, capturing potentially extreme shocks that arise in such data. The trained models can be used directly to generate new synthetic sets of potentially extreme returns",
+    "path": "papers/23/11/2311.00580.json",
+    "total_tokens": 598,
+    "translated_title": "灵活的尾部用于归一化流，应用于金融回报数据的建模",
+    "translated_abstract": "我们提出了一种能够改变分布尾部特性的转换方法，受到极值理论的启发，可以作为归一化流中的一层，来近似多变量重尾分布。我们将这种方法应用于金融回报建模，捕捉可能出现在此类数据中的极端冲击。训练好的模型可以直接用于生成可能的极端回报的合成数据集。",
+    "tldr": "本文提出了一种灵活的尾部转换方法，可以用于归一化流来近似金融回报的重尾分布，能够捕捉可能出现在数据中的极端冲击。",
+    "en_tdlr": "The paper proposes a flexible tail transformation method for normalizing flows to approximate heavy-tailed distributions of financial returns. It captures potentially extreme shocks in the data."
+}

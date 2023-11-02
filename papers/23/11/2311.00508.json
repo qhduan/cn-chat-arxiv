@@ -1,0 +1,11 @@
+{
+    "title": "Robustness Tests for Automatic Machine Translation Metrics with Adversarial Attacks. (arXiv:2311.00508v1 [cs.CL])",
+    "abstract": "We investigate MT evaluation metric performance on adversarially-synthesized texts, to shed light on metric robustness. We experiment with word- and character-level attacks on three popular machine translation metrics: BERTScore, BLEURT, and COMET. Our human experiments validate that automatic metrics tend to overpenalize adversarially-degraded translations. We also identify inconsistencies in BERTScore ratings, where it judges the original sentence and the adversarially-degraded one as similar, while judging the degraded translation as notably worse than the original with respect to the reference. We identify patterns of brittleness that motivate more robust metric development.",
+    "link": "http://arxiv.org/abs/2311.00508",
+    "context": "Title: Robustness Tests for Automatic Machine Translation Metrics with Adversarial Attacks. (arXiv:2311.00508v1 [cs.CL])\nAbstract: We investigate MT evaluation metric performance on adversarially-synthesized texts, to shed light on metric robustness. We experiment with word- and character-level attacks on three popular machine translation metrics: BERTScore, BLEURT, and COMET. Our human experiments validate that automatic metrics tend to overpenalize adversarially-degraded translations. We also identify inconsistencies in BERTScore ratings, where it judges the original sentence and the adversarially-degraded one as similar, while judging the degraded translation as notably worse than the original with respect to the reference. We identify patterns of brittleness that motivate more robust metric development.",
+    "path": "papers/23/11/2311.00508.json",
+    "total_tokens": 887,
+    "translated_title": "对抗攻击下自动机器翻译评估指标的鲁棒性测试",
+    "translated_abstract": "本文研究了对抗性合成文本下机器翻译评估指标的表现，以揭示指标的鲁棒性。我们对三个常用的机器翻译评估指标（BERTScore、BLEURT和COMET）进行了词级和字符级攻击实验。我们的人类实验验证了自动评估指标倾向于过度惩罚经过对抗性恶化的翻译。我们还发现了BERTScore评级上的不一致性，即它认为原始句子和经过对抗性恶化的句子相似，而相对于参考文本而言，认为恶化的翻译明显比原始翻译差。我们发现了易损性的模式，促进了更加鲁棒的指标开发。",
+    "tldr": "本文通过对抗攻击实验，研究了机器翻译评估指标在对抗性合成文本上的表现，揭示了指标的鲁棒性问题，并发现了BERTScore评级的不一致性，为更鲁棒的指标开发提供了动力。"
+}

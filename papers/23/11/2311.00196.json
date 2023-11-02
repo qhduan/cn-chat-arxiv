@@ -1,0 +1,11 @@
+{
+    "title": "Machine learning for accuracy in density functional approximations. (arXiv:2311.00196v1 [physics.chem-ph])",
+    "abstract": "Machine learning techniques have found their way into computational chemistry as indispensable tools to accelerate atomistic simulations and materials design. In addition, machine learning approaches hold the potential to boost the predictive power of computationally efficient electronic structure methods, such as density functional theory, to chemical accuracy and to correct for fundamental errors in density functional approaches. Here, recent progress in applying machine learning to improve the accuracy of density functional and related approximations is reviewed. Promises and challenges in devising machine learning models transferable between different chemistries and materials classes are discussed with the help of examples applying promising models to systems far outside their training sets.",
+    "link": "http://arxiv.org/abs/2311.00196",
+    "context": "Title: Machine learning for accuracy in density functional approximations. (arXiv:2311.00196v1 [physics.chem-ph])\nAbstract: Machine learning techniques have found their way into computational chemistry as indispensable tools to accelerate atomistic simulations and materials design. In addition, machine learning approaches hold the potential to boost the predictive power of computationally efficient electronic structure methods, such as density functional theory, to chemical accuracy and to correct for fundamental errors in density functional approaches. Here, recent progress in applying machine learning to improve the accuracy of density functional and related approximations is reviewed. Promises and challenges in devising machine learning models transferable between different chemistries and materials classes are discussed with the help of examples applying promising models to systems far outside their training sets.",
+    "path": "papers/23/11/2311.00196.json",
+    "total_tokens": 738,
+    "translated_title": "用于提高密度泛函近似精确性的机器学习技术",
+    "translated_abstract": "机器学习技术已经成为计算化学中不可或缺的工具，用于加速原子模拟和材料设计。此外，机器学习方法有可能提高计算效率高的电子结构理论（如密度泛函理论）的预测能力，纠正密度泛函方法中的基本错误。本文综述了最近在应用机器学习改进密度泛函和相关近似方法的进展。通过示例应用有希望的模型于训练集之外的系统，讨论了在不同化学和材料类别之间设计可迁移的机器学习模型时可能面临的挑战和希望。",
+    "tldr": "本文回顾了近期在改进密度泛函及相关近似方法中应用机器学习的进展，讨论了在不同化学和材料类别之间设计可迁移的机器学习模型时可能面临的挑战和希望。"
+}

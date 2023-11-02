@@ -2,187 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Coalitional Manipulations and Immunity of the Shapley Value.](http://arxiv.org/abs/2310.20415) | 本文研究了在群体博弈中的操纵现象，并提出了一种新的Shapley值基础，它是唯一的有效和对称的分配规则，对集体操纵具有免疫性。 |
-| [^2] | [Robust Estimation of Realized Correlation: New Insight about Intraday Fluctuations in Market Betas.](http://arxiv.org/abs/2310.19992) | 本研究提出了一种新颖的子抽样象限估计方法，用于分析高频金融数据中的日内波动。通过该方法，我们发现日内β值的波动主要受日内相关性的波动驱动。 |
-| [^3] | [Causal Q-Aggregation for CATE Model Selection.](http://arxiv.org/abs/2310.16945) | 该论文提出了一种基于Q集成的CATE模型选择方法，其通过使用双重鲁棒损失实现了统计上的最佳预测模型选择遗憾率 |
-| [^4] | [Improving Robust Decisions with Data.](http://arxiv.org/abs/2310.16281) | 该论文研究了如何通过数据改善鲁棒决策，并开发了简单易实现的推理方法以保证改善。 |
-| [^5] | [Global Factors in Non-core Bank Funding and Exchange Rate Flexibility.](http://arxiv.org/abs/2310.11552) | 全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。 |
-| [^6] | [SGMM: Stochastic Approximation to Generalized Method of Moments.](http://arxiv.org/abs/2308.13564) | 我们提出了一种新的随机广义矩方法（SGMM），用于估计和推断矩限制模型。该方法具有快速和可扩展的实时处理能力，并且能够处理大规模和在线数据集。 |
-| [^7] | [Robust Stackelberg Equilibria.](http://arxiv.org/abs/2304.14990) | 本论文系统研究了鲁棒斯塔克伯格均衡的概念，提出了一种新的解决方案RSE，旨在提高领袖策略的稳健性。我们证明了RSE的存在性，并研究了它的效用保证、算法和可学性。 |
-| [^8] | [Measuring the strengths of the teams in the UEFA Champions League.](http://arxiv.org/abs/2304.09078) | 本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。 |
-| [^9] | [Coherence without Rationality at the Zero Lower Bound.](http://arxiv.org/abs/2208.02073) | 该论文研究了在零下限条件下，非理性预期如何解决理性预期模型的一致性和完备性问题，提出了自我确认均衡和E稳定性准则作为解决方法。 |
-| [^10] | [Detecting Grouped Local Average Treatment Effects and Selecting True Instruments.](http://arxiv.org/abs/2207.04481) | 我们提出了一个两步骤的过程来识别具有相同局部平均处理效应的响应组，并且即使有一些工具违反了识别假设，也可以选择真正满足假设的工具。 |
-| [^11] | [The comparative statics of persuasion.](http://arxiv.org/abs/2204.07474) | 本论文主要研究了辩说模型中的比较静态问题，通过界定发信方中期回报变化的条件，确定了发信方在选择信号时会更倾向于选择具有更多信息量的信号。此外，论文还研究了发信方和接收方兴趣一致程度增加对比较静态的影响，并探讨了相关应用。 |
-| [^12] | [Synthetic Interventions.](http://arxiv.org/abs/2006.07691) | 提出了一个称为合成干预的因果框架，能够在观察到每个单元最多两个干预措施的情况下推断每个单元对每个干预措施的预期潜在结果，具有有限样本一致性和渐近正态性。 |
+| [^1] | [On Gaussian Process Priors in Conditional Moment Restriction Models.](http://arxiv.org/abs/2311.00662) | 本文研究了在非参数条件矩限制模型中，对于一段未知函数的准贝叶斯估计和不确定性量化。通过推导高斯过程先验的收缩速率，并满足伯恩斯坦-冯·米塞斯定理的条件，证明了最优加权准贝叶斯可信集具有精确的渐近经典主义覆盖率。 |
+| [^2] | [Personalized Assignment to One of Many Treatment Arms via Regularized and Clustered Joint Assignment Forests.](http://arxiv.org/abs/2311.00577) | 提出了一种个性化分配至多个治疗组的方法，通过正则化和聚类优化治疗分配，实现了更好的效果估计和个性化效益。 |
+| [^3] | [Bounds on Treatment Effects under Stochastic Monotonicity Assumption in Sample Selection Models.](http://arxiv.org/abs/2311.00439) | 本文研究了在样本选择模型中处理效应的部分识别问题，当排除限制失效和选择效应的单调性假设不完全成立时。我们的方法允许在单调性不严格成立的情况下获得有用的界限。 |
+| [^4] | [Semiparametric Discrete Choice Models for Bundles.](http://arxiv.org/abs/2311.00013) | 本文提出了两种方法来估计半参数的离散选择模型，一种是基于匹配的核加权秩估计器，另一种是多指标最小绝对偏差估计器。这些方法都能考虑扰动的相关性，并可以在备选和个体特定的回归变量上估计偏好参数。 |
+| [^5] | [Smootheness-Adaptive Dynamic Pricing with Nonparametric Demand Learning.](http://arxiv.org/abs/2310.07558) | 这项研究提出了一种具有非参数需求学习和平滑自适应的动态定价算法，通过使用自相似条件实现了最小化极限遗憾。 |
+| [^6] | [A Reexamination of Proof Approaches for the Impossibility Theorem.](http://arxiv.org/abs/2309.06753) | 本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。 |
+| [^7] | [Market Design for Dynamic Pricing and Pooling in Capacitated Networks.](http://arxiv.org/abs/2307.03994) | 本研究提出了一种用于动态定价和汇聚网络的市场设计，通过设置边缘价格激励代理商共享有限网络容量。在考虑了整数和网络约束以及代理商异质偏好的情况下，我们提供了充分条件，保证市场均衡的存在和多项式时间计算，并识别了实现最大效用的特定市场均衡。 |
+| [^8] | [Fast Inference for Quantile Regression with Tens of Millions of Observations.](http://arxiv.org/abs/2209.14502) | 本文提出了一个快速推断框架，利用随机次梯度下降更新处理数量级达数千万观测值的分位数回归问题。通过顺序处理数据、聚合参数估计和计算关键统计量的解路径，该方法在处理超大规模数据集时具有较低的计算资源和内存需求。 |
+| [^9] | [A Vector Monotonicity Assumption for Multiple Instruments.](http://arxiv.org/abs/2009.00553) | 本文提出了向量单调性假设的观点，该假设对于多个工具变量组合的研究具有重要意义。通过假设所有工具变量的治疗接受程度是单调的，我们可以得到一些因果参数的点识别，并提供了相应的估计方法。 |
 
 # 详细
 
-[^1]: 群体操纵与Shapley值的免疫性
+[^1]: 关于高斯过程先验在条件矩限制模型中的应用
 
-    Coalitional Manipulations and Immunity of the Shapley Value. (arXiv:2310.20415v1 [econ.TH])
+    On Gaussian Process Priors in Conditional Moment Restriction Models. (arXiv:2311.00662v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.20415](http://arxiv.org/abs/2310.20415)
+    [http://arxiv.org/abs/2311.00662](http://arxiv.org/abs/2311.00662)
 
-    本文研究了在群体博弈中的操纵现象，并提出了一种新的Shapley值基础，它是唯一的有效和对称的分配规则，对集体操纵具有免疫性。
-
-    
-
-    我们考虑在群体博弈的背景下的操纵，其中一个联盟旨在增加其成员的总支付。如果一种分配规则对集体操纵免疫，那么没有任何联盟可以通过在其子联盟的层级上重新分配价值来获益（具有重新分配证明性），而且如果在其他条件不变的情况下，没有任何联盟可以从较低的价值中受益（具有弱集体单调性）。将Shapley在原始特征的可加性替换为这些要求可以得到Shapley值的新基础，即它是唯一的有效和对称的分配规则，对空玩家不予任何奖励，并且对集体操纵免疫。我们进一步发现，对于有效的分配规则，重新分配证明性等效于有约束的边际性，这是Young的边际性公理的一个较弱变体。我们的第二个特征改进了Young的特征，弱化了边际性内在的独立性要求。
-
-    We consider manipulations in the context of coalitional games, where a coalition aims to increase the total payoff of its members. An allocation rule is immune to coalitional manipulation if no coalition can benefit from internal reallocation of worth on the level of its subcoalitions (reallocation-proofness), and if no coalition benefits from a lower worth while all else remains the same (weak coalitional monotonicity). Replacing additivity in Shapley's original characterization by these requirements yields a new foundation of the Shapley value, i.e., it is the unique efficient and symmetric allocation rule that awards nothing to a null player and is immune to coalitional manipulations. We further find that for efficient allocation rules, reallocation-proofness is equivalent to constrained marginality, a weaker variant of Young's marginality axiom. Our second characterization improves upon Young's characterization by weakening the independence requirement intrinsic to marginality.
-    
-[^2]: 鲁棒实现相关性估计：关于市场β值的日内波动的新见解
-
-    Robust Estimation of Realized Correlation: New Insight about Intraday Fluctuations in Market Betas. (arXiv:2310.19992v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.19992](http://arxiv.org/abs/2310.19992)
-
-    本研究提出了一种新颖的子抽样象限估计方法，用于分析高频金融数据中的日内波动。通过该方法，我们发现日内β值的波动主要受日内相关性的波动驱动。
+    本文研究了在非参数条件矩限制模型中，对于一段未知函数的准贝叶斯估计和不确定性量化。通过推导高斯过程先验的收缩速率，并满足伯恩斯坦-冯·米塞斯定理的条件，证明了最优加权准贝叶斯可信集具有精确的渐近经典主义覆盖率。
 
     
 
-    时间变化的波动性是大多数经济时间序列的固有特征，这导致标准相关性估计不一致。象限相关性估计是一致但效率非常低的方法。我们提出了一种新颖的子抽样象限估计方法，可以在保持一致性和鲁棒性的同时提高效率。这种估计方法特别适用于高频金融数据，我们将其应用于大量的美国股票。我们的实证分析通过将市场β值分解为时间变化的相关性和相对波动性变化，为日内波动中的市场β值提供了新的见解。我们的结果表明，日内β值的波动主要受日内相关性的波动驱动。
+    本文研究了在非参数条件矩限制模型中，对于一段未知函数的准贝叶斯估计和不确定性量化。我们推导了一类高斯过程先验的收缩速率，并提供了满足伯恩斯坦-冯·米塞斯定理的条件。作为结果，我们证明了最优加权准贝叶斯可信集具有精确的渐近经典主义覆盖率。这扩展了关于参数广义矩估计（GMM）模型的最优加权准贝叶斯可信集的频率有效性的经典结果。
 
-    Time-varying volatility is an inherent feature of most economic time-series, which causes standard correlation estimators to be inconsistent. The quadrant correlation estimator is consistent but very inefficient. We propose a novel subsampled quadrant estimator that improves efficiency while preserving consistency and robustness. This estimator is particularly well-suited for high-frequency financial data and we apply it to a large panel of US stocks. Our empirical analysis sheds new light on intra-day fluctuations in market betas by decomposing them into time-varying correlations and relative volatility changes. Our results show that intraday variation in betas is primarily driven by intraday variation in correlations.
+    This paper studies quasi-Bayesian estimation and uncertainty quantification for an unknown function that is identified by a nonparametric conditional moment restriction model. We derive contraction rates for a class of Gaussian process priors and provide conditions under which a Bernstein-von Mises theorem holds for the quasi-posterior distribution. As a consequence, we show that optimally-weighted quasi-Bayes credible sets have exact asymptotic frequentist coverage. This extends classical result on the frequentist validity of optimally weighted quasi-Bayes credible sets for parametric generalized method of moments (GMM) models.
     
-[^3]: Causal Q-Aggregation for CATE Model Selection（CATE模型选择中的因果Q集成）
+[^2]: 通过正则化和聚类联合分配森林进行个性化分配至多个治疗组
 
-    Causal Q-Aggregation for CATE Model Selection. (arXiv:2310.16945v1 [stat.ML])
+    Personalized Assignment to One of Many Treatment Arms via Regularized and Clustered Joint Assignment Forests. (arXiv:2311.00577v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.16945](http://arxiv.org/abs/2310.16945)
+    [http://arxiv.org/abs/2311.00577](http://arxiv.org/abs/2311.00577)
 
-    该论文提出了一种基于Q集成的CATE模型选择方法，其通过使用双重鲁棒损失实现了统计上的最佳预测模型选择遗憾率
-
-    
-
-    准确估计条件平均处理效应（CATE）是个性化决策的核心。尽管有大量用于CATE估计的模型，但由于因果推断的基本问题，模型选择是一项非常棘手的任务。最近的实证工作提供了有利于具有双重鲁棒性质的代理损失度量和模型集成的证据。然而，对于这些模型的理论理解还不够。直接应用先前的理论工作会由于模型选择问题的非凸性而导致次优的预测模型选择率。我们提供了现有主要CATE集成方法的遗憾率，并提出了一种基于双重鲁棒损失的Q集成的新的CATE模型集成方法。我们的主要结果表明，因果Q集成在预测模型选择的遗憾率上达到了统计上的最优值为$\frac{\log(M)}{n}$（其中$M$为模型数，$n$为样本数），加上高阶估计误差项
-
-    Accurate estimation of conditional average treatment effects (CATE) is at the core of personalized decision making. While there is a plethora of models for CATE estimation, model selection is a nontrivial task, due to the fundamental problem of causal inference. Recent empirical work provides evidence in favor of proxy loss metrics with double robust properties and in favor of model ensembling. However, theoretical understanding is lacking. Direct application of prior theoretical work leads to suboptimal oracle model selection rates due to the non-convexity of the model selection problem. We provide regret rates for the major existing CATE ensembling approaches and propose a new CATE model ensembling approach based on Q-aggregation using the doubly robust loss. Our main result shows that causal Q-aggregation achieves statistically optimal oracle model selection regret rates of $\frac{\log(M)}{n}$ (with $M$ models and $n$ samples), with the addition of higher-order estimation error term
-    
-[^4]: 通过数据改善鲁棒决策
-
-    Improving Robust Decisions with Data. (arXiv:2310.16281v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.16281](http://arxiv.org/abs/2310.16281)
-
-    该论文研究了如何通过数据改善鲁棒决策，并开发了简单易实现的推理方法以保证改善。
+    提出了一种个性化分配至多个治疗组的方法，通过正则化和聚类优化治疗分配，实现了更好的效果估计和个性化效益。
 
     
 
-    决策者面临由数据生成过程(DGP)控制的不确定性，这些过程可能只属于一组独立但可能非相同分布的序列。鲁棒决策在这个集合中最大化决策者对最坏情况DGP的预期收益。本文研究了如何通过数据改善这些鲁棒决策，其中改善通过真实DGP下的预期收益来衡量。本文完全描述了在所有可能的DGP下保证这种改善的时间和方式，并开发了推理方法来实现它。这些推理方法是必需的，因为本文表明，常见的推理方法（如最大似然或贝叶斯）通常无法实现这种改善。重要的是，开发的推理方法是通过对标准推理程序进行简单扩展获得的，因此在实践中很容易实现。
+    我们考虑从随机对照试验中学习个性化的分配至多个治疗组。由于过多的方差，对于每个治疗组分别估计异质治疗效果的标准方法在这种情况下可能表现不佳。相反，我们提出了一种汇总治疗组信息的方法：首先，我们考虑基于贪婪递归分区的正则化森林分配算法，该算法可缩小不同治疗组之间的效果估计。其次，我们通过聚类方案将治疗组与具有一致相似结果的组合起来，增强了我们的算法。在模拟研究中，我们将这些方法与分别预测每个治疗组结果的方法进行了比较，并记录了通过正则化和聚类直接优化治疗分配带来的收益。在一个理论模型中，我们说明治疗组数量较多时找到最佳组的困难，而通过正则化和聚类可以实现个性化的明显效益。
 
-    A decision-maker (DM) faces uncertainty governed by a data-generating process (DGP), which is only known to belong to a set of sequences of independent but possibly non-identical distributions. A robust decision maximizes the DM's expected payoff against the worst possible DGP in this set. This paper studies how such robust decisions can be improved with data, where improvement is measured by expected payoff under the true DGP. In this paper, I fully characterize when and how such an improvement can be guaranteed under all possible DGPs and develop inference methods to achieve it. These inference methods are needed because, as this paper shows, common inference methods (e.g., maximum likelihood or Bayesian) often fail to deliver such an improvement. Importantly, the developed inference methods are given by simple augmentations to standard inference procedures, and are thus easy to implement in practice.
+    We consider learning personalized assignments to one of many treatment arms from a randomized controlled trial. Standard methods that estimate heterogeneous treatment effects separately for each arm may perform poorly in this case due to excess variance. We instead propose methods that pool information across treatment arms: First, we consider a regularized forest-based assignment algorithm based on greedy recursive partitioning that shrinks effect estimates across arms. Second, we augment our algorithm by a clustering scheme that combines treatment arms with consistently similar outcomes. In a simulation study, we compare the performance of these approaches to predicting arm-wise outcomes separately, and document gains of directly optimizing the treatment assignment with regularization and clustering. In a theoretical model, we illustrate how a high number of treatment arms makes finding the best arm hard, while we can achieve sizable utility gains from personalization by regularized 
     
-[^5]: 非核心银行资金和汇率灵活性中的全球因素
+[^3]: 在样本选择模型中的随机单调性假设下的处理效应界限
 
-    Global Factors in Non-core Bank Funding and Exchange Rate Flexibility. (arXiv:2310.11552v1 [econ.GN])
+    Bounds on Treatment Effects under Stochastic Monotonicity Assumption in Sample Selection Models. (arXiv:2311.00439v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.11552](http://arxiv.org/abs/2310.11552)
+    [http://arxiv.org/abs/2311.00439](http://arxiv.org/abs/2311.00439)
 
-    全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。
-
-    
-
-    我们展示了发达经济体银行体系中非核心与核心资金比率的波动由少数几个既有实物性又有金融性质的全球因素驱动，国家特定因素没有发挥重要作用。汇率灵活性有助于减小非核心与核心比率受到全球因素的影响，但仅在重大全球金融震荡期间（如2008-2009年）明显起作用。
-
-    We show that fluctuations in the ratio of non-core to core funding in the banking systems of advanced economies are driven by a handful of global factors of both real and financial natures, with country-specific factors playing no significant roles. Exchange rate flexibility helps insulate the non-core to core ratio from such global factors but only significantly so outside periods of major global financial disruptions, as in 2008-2009.
-    
-[^6]: SGMM: 广义矩方法的随机近似
-
-    SGMM: Stochastic Approximation to Generalized Method of Moments. (arXiv:2308.13564v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.13564](http://arxiv.org/abs/2308.13564)
-
-    我们提出了一种新的随机广义矩方法（SGMM），用于估计和推断矩限制模型。该方法具有快速和可扩展的实时处理能力，并且能够处理大规模和在线数据集。
+    本文研究了在样本选择模型中处理效应的部分识别问题，当排除限制失效和选择效应的单调性假设不完全成立时。我们的方法允许在单调性不严格成立的情况下获得有用的界限。
 
     
 
-    我们引入了一种新的算法类，随机广义矩方法（SGMM），用于估计和推断（超识别）矩限制模型。我们的SGMM是一种新颖的随机逼近方法，替代了流行的Hansen（1982年）的（离线）GMM，并提供了快速和可扩展的实时流数据处理能力。我们证明了SGMM对于效率不高的在线2SLS和高效的SGMM具有几乎确定的收敛性和（函数）中心极限定理。此外，我们提出了Durbin-Wu-Hausman和Sargan-Hansen测试的在线版本，可以无缝集成到SGMM框架中。广泛的蒙特卡洛模拟结果表明，随着样本量的增加，SGMM在估计准确性和计算效率方面与标准（离线）GMM相匹配，并显示出在大规模和在线数据集上的实际价值。我们通过使用两个示例证明了我们方法的有效性。
+    本文讨论了在样本选择模型中处理效应的部分识别，当排除限制失效和选择效应的单调性假设不能完全成立时，这两个都是应用现有方法的主要挑战。我们的方法基于Lee（2009）的过程，他考虑了单调性假设下的部分识别，但我们只假设了随机（更弱）版本的单调性，这依赖于预先指定的参数$ \vartheta $，代表研究人员对单调性合理性的信念。在这种假设下，我们证明即使单调行为模型不严格成立，我们仍然可以获得有用的界限。当实证研究人员预计人口中只有一小部分人会在选择中表现出单调行为时，我们的方法非常有用；它还可以用于进行敏感性分析或检验识别能力。
 
-    We introduce a new class of algorithms, Stochastic Generalized Method of Moments (SGMM), for estimation and inference on (overidentified) moment restriction models. Our SGMM is a novel stochastic approximation alternative to the popular Hansen (1982) (offline) GMM, and offers fast and scalable implementation with the ability to handle streaming datasets in real time. We establish the almost sure convergence, and the (functional) central limit theorem for the inefficient online 2SLS and the efficient SGMM. Moreover, we propose online versions of the Durbin-Wu-Hausman and Sargan-Hansen tests that can be seamlessly integrated within the SGMM framework. Extensive Monte Carlo simulations show that as the sample size increases, the SGMM matches the standard (offline) GMM in terms of estimation accuracy and gains over computational efficiency, indicating its practical value for both large-scale and online datasets. We demonstrate the efficacy of our approach by a proof of concept using two we
+    This paper discusses the partial identification of treatment effects in sample selection models when the exclusion restriction fails and the monotonicity assumption in the selection effect does not hold exactly, both of which are key challenges in applying the existing methodologies. Our approach builds on Lee's (2009) procedure, who considers partial identification under the monotonicity assumption, but we assume only a stochastic (and weaker) version of monotonicity, which depends on a prespecified parameter $\vartheta$ that represents researchers' belief in the plausibility of the monotonicity. Under this assumption, we show that we can still obtain useful bounds even when the monotonic behavioral model does not strictly hold. Our procedure is useful when empirical researchers anticipate that a small fraction of the population will not behave monotonically in selection; it can also be an effective tool for performing sensitivity analysis or examining the identification power of the 
     
-[^7]: 鲁棒斯塔克伯格均衡的系统研究
+[^4]: 可供选择的半参数离散选择模型
 
-    Robust Stackelberg Equilibria. (arXiv:2304.14990v1 [cs.GT])
+    Semiparametric Discrete Choice Models for Bundles. (arXiv:2311.00013v1 [econ.EM])
 
-    [http://arxiv.org/abs/2304.14990](http://arxiv.org/abs/2304.14990)
+    [http://arxiv.org/abs/2311.00013](http://arxiv.org/abs/2311.00013)
 
-    本论文系统研究了鲁棒斯塔克伯格均衡的概念，提出了一种新的解决方案RSE，旨在提高领袖策略的稳健性。我们证明了RSE的存在性，并研究了它的效用保证、算法和可学性。
-
-    
-
-    本文系统研究了鲁棒斯塔克伯格均衡(RSE)的概念，该概念自然地推广了广泛采用的强斯塔克伯格均衡(SSE)的解决方案。RSE考虑了在斯塔克伯格博弈中可能出现的高达-$\delta$ 子优跟随者反应，并被采用来提高领袖策略的稳健性。虽然先前的文献中已经考虑了一些鲁棒斯塔克伯格均衡的变体，但本文考虑的RSE解决方案概念重要的不同之处在于，某种意义上它放松了先前研究的鲁棒斯塔克伯格策略，并且适用于更广泛的不确定性来源。我们对几个RSE的基本属性进行了彻底的调查，包括它的效用保证、算法和可学性。我们首先证明了我们定义的RSE总是存在的，从而是严格定义的。然后我们阐明了在考虑的鲁棒性水平下领袖效用的变化情况。在算法方面，我们表明计算RSE是计算上困难的，并提出了适用于某些游戏类的有效算法来近似计算它。最后，我们研究了RSE的可学性，并表明它可以从样本中近似估计。
-
-    This paper provides a systematic study of the robust Stackelberg equilibrium (RSE), which naturally generalizes the widely adopted solution concept of the strong Stackelberg equilibrium (SSE). The RSE accounts for any possible up-to-$\delta$ suboptimal follower responses in Stackelberg games and is adopted to improve the robustness of the leader's strategy. While a few variants of robust Stackelberg equilibrium have been considered in previous literature, the RSE solution concept we consider is importantly different -- in some sense, it relaxes previously studied robust Stackelberg strategies and is applicable to much broader sources of uncertainties.  We provide a thorough investigation of several fundamental properties of RSE, including its utility guarantees, algorithmics, and learnability. We first show that the RSE we defined always exists and thus is well-defined. Then we characterize how the leader's utility in RSE changes with the robustness level considered. On the algorithmic
-    
-[^8]: 测量欧洲冠军联赛球队实力的方法
-
-    Measuring the strengths of the teams in the UEFA Champions League. (arXiv:2304.09078v1 [stat.AP])
-
-    [http://arxiv.org/abs/2304.09078](http://arxiv.org/abs/2304.09078)
-
-    本文研究了UEFA俱乐部系数在保证欧洲冠军联赛对手实力相同方面的局限性，并提出通过考虑国内联赛的比赛成绩来改进系数的建议。
+    本文提出了两种方法来估计半参数的离散选择模型，一种是基于匹配的核加权秩估计器，另一种是多指标最小绝对偏差估计器。这些方法都能考虑扰动的相关性，并可以在备选和个体特定的回归变量上估计偏好参数。
 
     
 
-    从2024/25赛季开始，《欧洲冠军联赛》将进行一个重大改革：传统的小组赛阶段将被一个联赛阶段所取代，其中的36个球队中每个队将参加8场比赛。由于排名仍然基于这些比赛的结果，公平需要确保每个俱乐部的对手实力相同。本文研究了当前使用的球队排名方法——UEFA俱乐部系数能否通过考虑国内联赛的比赛结果进行改进。根据我们的逻辑回归模型，Elo方法的一种变体在预测欧洲冠军联赛比赛方面具有更高的准确性。因此，我们建议欧洲足球协会（UEFA）仿效国际足球联合会世界排名的做法，改革系数的计算方式，以避免欧洲冠军联赛的新赛制中出现不平衡的赛程安排。
+    我们提出了两种方法来估计半参数的离散选择模型。我们的第一种方法是基于匹配的识别策略的核加权秩估计器。我们建立了其完整的渐近性质，并证明了非参数自助法的推断有效性。然后，我们介绍了一种新的多指标最小绝对偏差（LAD）估计器作为替代方法，其主要优点是能够在备选和个体特定的回归变量上估计偏好参数。这两种方法都能够考虑选择之间任意的扰动相关性，前者还可以考虑人际异方差性。我们还证明了这些程序背后的识别策略可以自然地推广到面板数据设置，从而产生类似的局部极大值估计器和用于估计带有固定效应的捆绑选择模型的LAD估计器。我们推导出了这些估计器的极限分布。
 
-    One of the most popular club football tournaments, the UEFA Champions League, will see a fundamental reform from the 2024/25 season: the traditional group stage will be replaced by one league where each of the 36 teams plays eight matches. Since the ranking is still based on the results of these matches, fairness requires guaranteeing that the opponents of the clubs are of the same strength. This paper investigates whether the currently used rating of the teams, the UEFA club coefficient, can be improved by taking the games played in the national leagues into account. According to our logistic regression models, a variant of the Elo method provides a higher accuracy in forecasting Champions League matches. Therefore, the Union of European Football Associations (UEFA) is encouraged to follow the example of the FIFA World Ranking and reform the calculation of the coefficients in order to avoid unbalanced schedules in the novel tournament format of the Champions League.
+    We propose two approaches to estimate semiparametric discrete choice models for bundles. Our first approach is a kernel-weighted rank estimator based on a matching-based identification strategy. We establish its complete asymptotic properties and prove the validity of the nonparametric bootstrap for inference. We then introduce a new multi-index least absolute deviations (LAD) estimator as an alternative, of which the main advantage is its capacity to estimate preference parameters on both alternative- and agent-specific regressors. Both methods can account for arbitrary correlation in disturbances across choices, with the former also allowing for interpersonal heteroskedasticity. We also demonstrate that the identification strategy underlying these procedures can be extended naturally to panel data settings, producing an analogous localized maximum score estimator and a LAD estimator for estimating bundle choice models with fixed effects. We derive the limiting distribution of the for
     
-[^9]: 在零下限条件下的非理性一致性
+[^5]: 具有非参数需求学习的平滑自适应动态定价
 
-    Coherence without Rationality at the Zero Lower Bound. (arXiv:2208.02073v2 [econ.GN] UPDATED)
+    Smootheness-Adaptive Dynamic Pricing with Nonparametric Demand Learning. (arXiv:2310.07558v1 [stat.ML])
 
-    [http://arxiv.org/abs/2208.02073](http://arxiv.org/abs/2208.02073)
+    [http://arxiv.org/abs/2310.07558](http://arxiv.org/abs/2310.07558)
 
-    该论文研究了在零下限条件下，非理性预期如何解决理性预期模型的一致性和完备性问题，提出了自我确认均衡和E稳定性准则作为解决方法。
-
-    
-
-    标准有时受限的零下限约束的理性预期模型要么没有解（不一致），要么有多个解（不完备）。本文显示，与全信息理性预期的偏离可以减轻不一致和不完备的担忧。没有理性预期均衡的模型可以包括使用简单的错误规范的预测模型的自我确认均衡。如果预期是自适应的，或者由于某些信息或行为摩擦，代理人更少地展望未来，完备性和一致性会得到恢复。在不完备的情况下，E稳定性准则选择一个均衡。
-
-    Standard rational expectations models with an occasionally binding zero lower bound constraint either admit no solutions (incoherence) or multiple solutions (incompleteness). This paper shows that deviations from full-information rational expectations mitigate concerns about incoherence and incompleteness. Models with no rational expectations equilibria admit self-confirming equilibria involving the use of simple mis-specified forecasting models. Completeness and coherence is restored if expectations are adaptive or if agents are less forward-looking due to some information or behavioral friction. In the case of incompleteness, the E-stability criterion selects an equilibrium.
-    
-[^10]: 检测分组的局部平均处理效应并选择真正的工具
-
-    Detecting Grouped Local Average Treatment Effects and Selecting True Instruments. (arXiv:2207.04481v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2207.04481](http://arxiv.org/abs/2207.04481)
-
-    我们提出了一个两步骤的过程来识别具有相同局部平均处理效应的响应组，并且即使有一些工具违反了识别假设，也可以选择真正满足假设的工具。
+    这项研究提出了一种具有非参数需求学习和平滑自适应的动态定价算法，通过使用自相似条件实现了最小化极限遗憾。
 
     
 
-    在具有异质效应和多个工具的内生二元处理中，我们提出了一个两步骤的过程，用于识别具有相同局部平均处理效应（LATE）的响应组，尽管依赖于不同的工具，即使有几个工具违反了识别假设。我们利用了LATE对于满足LATE假设（工具有效性和处理在工具上单调性）和在给定相应工具的情况下生成相同响应组的工具来说是均匀的这一事实。我们提出了一个两步骤的过程，第一步我们首先聚类倾向得分，在第二步中找到具有相同减少形式参数的IV组。在众数假设下，对于具有相同处理倾向的工具集合，真正满足LATE假设的工具是最大的组，我们的方法可以识别出这些真正的工具。
+    我们研究了需求函数为非参数和Holder平滑的动态定价问题，并且我们专注于适应未知的Holder平滑参数β的能力。传统上，最优的动态定价算法严重依赖于对β的了解，以达到一个最小化极限遗憾的效果，即O(T^((β+1)/(2β+1)))。然而，我们通过证明没有定价策略能够在不知道β的情况下自适应地达到这个最小化极限遗憾，突显了这个动态定价问题的适应性挑战。受到不可能性结果的启发，我们提出了一种自相似条件来实现适应性。重要的是，我们证明了自相似条件不会损害问题本身的复杂性，因为它保持了渐近遗憾下界Ω(T^((β+1)/(2β+1)))。此外，我们开发了一种平滑自适应的动态定价算法，并理论上证明了该算法的有效性。
 
-    Under an endogenous binary treatment with heterogeneous effects and multiple instruments, we propose a two-step procedure for identifying complier groups with identical local average treatment effects (LATE) despite relying on distinct instruments, even if several instruments violate the identifying assumptions. We use the fact that the LATE is homogeneous for instruments which (i) satisfy the LATE assumptions (instrument validity and treatment monotonicity in the instrument) and (ii) generate identical complier groups in terms of treatment propensities given the respective instruments. We propose a two-step procedure, where we first cluster the propensity scores in the first step and find groups of IVs with the same reduced form parameters in the second step. Under the plurality assumption that within each set of instruments with identical treatment propensities, instruments truly satisfying the LATE assumptions are the largest group, our procedure permits identifying these true instr
+    We study the dynamic pricing problem where the demand function is nonparametric and H\"older smooth, and we focus on adaptivity to the unknown H\"older smoothness parameter $\beta$ of the demand function. Traditionally the optimal dynamic pricing algorithm heavily relies on the knowledge of $\beta$ to achieve a minimax optimal regret of $\widetilde{O}(T^{\frac{\beta+1}{2\beta+1}})$. However, we highlight the challenge of adaptivity in this dynamic pricing problem by proving that no pricing policy can adaptively achieve this minimax optimal regret without knowledge of $\beta$. Motivated by the impossibility result, we propose a self-similarity condition to enable adaptivity. Importantly, we show that the self-similarity condition does not compromise the problem's inherent complexity since it preserves the regret lower bound $\Omega(T^{\frac{\beta+1}{2\beta+1}})$. Furthermore, we develop a smoothness-adaptive dynamic pricing algorithm and theoretically prove that the algorithm achieves t
     
-[^11]: 辩说的比较静态
+[^6]: 重新审视不可能性定理的证明方法
 
-    The comparative statics of persuasion. (arXiv:2204.07474v2 [econ.TH] UPDATED)
+    A Reexamination of Proof Approaches for the Impossibility Theorem. (arXiv:2309.06753v1 [econ.TH])
 
-    [http://arxiv.org/abs/2204.07474](http://arxiv.org/abs/2204.07474)
+    [http://arxiv.org/abs/2309.06753](http://arxiv.org/abs/2309.06753)
 
-    本论文主要研究了辩说模型中的比较静态问题，通过界定发信方中期回报变化的条件，确定了发信方在选择信号时会更倾向于选择具有更多信息量的信号。此外，论文还研究了发信方和接收方兴趣一致程度增加对比较静态的影响，并探讨了相关应用。
-
-    
-
-    在经典的辩说模型中，比较静态一直是一个未解决的问题。我们回答了这个问题，界定了哪些条件下发信方的中期回报变化会使其最优选择更具信息量的信号。我们的第一个定理确定了一个粗略概念的“增加凸性”，我们证明这个定理刻画了发信方中期回报变化使其最优选择更加信息量不减的情况。为了加强这个结论为“更具信息量”需要进一步的假设：我们的第二个定理明确了发信方中期回报的必要和充分条件，这个条件严格推广了文献中常见的“S”形状。我们确定了发信方和接收方兴趣一致程度增加会导致比较静态的条件，并研究了应用场景。
-
-    In the canonical persuasion model, comparative statics has been an open question. We answer it, delineating which shifts of the sender's interim payoff lead her optimally to choose a more informative signal. Our first theorem identifies a coarse notion of 'increased convexity' that we show characterises those shifts of the sender's interim payoff that lead her optimally to choose no less informative signals. To strengthen this conclusion to 'more informative' requires further assumptions: our second theorem identifies the necessary and sufficient condition on the sender's interim payoff, which strictly generalises the 'S' shape commonly imposed in the literature. We identify conditions under which increased alignment of interests between sender and receiver lead to comparative statics, and study applications.
-    
-[^12]: 合成干预
-
-    Synthetic Interventions. (arXiv:2006.07691v6 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2006.07691](http://arxiv.org/abs/2006.07691)
-
-    提出了一个称为合成干预的因果框架，能够在观察到每个单元最多两个干预措施的情况下推断每个单元对每个干预措施的预期潜在结果，具有有限样本一致性和渐近正态性。
+    本研究使用逻辑的证明演算提出了对不可能性定理的证明方法，该方法保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。
 
     
 
-    考虑一个拥有$N$个异质单元（例如个体或子群体）和$D$个干预措施（例如社会经济政策）的情景。我们的目标是学习每个单元对每个干预措施的预期潜在结果，总共有$N \times D$个因果参数。为此，我们提出了一个因果框架——合成干预（SI），以推断这$N \times D$个因果参数，同时仅观察每个单元在最多两个干预措施下的情况，与$D$无关。当个性化水平增加时，这将具有重要意义。在一个新的张量因子模型下，跨单元、结果和干预措施，我们证明了这$N \times D$个因果参数的识别结果，并在附加条件下证明了我们估计值的有限样本一致性和渐近正态性。重要的是，我们的估计器还允许存在决定干预分配方式的潜在混淆因素。
+    决定性集合和关键选民方法已被用于证明阿罗不可能性定理。这些方法的证明仅考虑了所有可能社会福利函数的子集，并审查了这些函数域的部分。因此，这两个思路都不能有效证明该定理。本研究提出了一种基于逻辑的证明演算。在前提、公理和定理的条件之间进行有效的演绎推理，并得出独裁的结论，保证了对所有可能社会福利函数的所有配置进行了检验，从而证明了该定理。
 
-    Consider a setting with $N$ heterogeneous units (e.g., individuals, sub-populations) and $D$ interventions (e.g., socio-economic policies). Our goal is to learn the expected potential outcome associated with every intervention on every unit, totaling $N \times D$ causal parameters. Towards this, we present a causal framework, synthetic interventions (SI), to infer these $N \times D$ causal parameters while only observing each of the $N$ units under at most two interventions, independent of $D$. This can be significant as the number of interventions, i.e., level of personalization, grows. Under a novel tensor factor model across units, outcomes, and interventions, we prove an identification result for each of these $N \times D$ causal parameters, establish finite-sample consistency of our estimator along with asymptotic normality under additional conditions. Importantly, our estimator also allows for latent confounders that determine how interventions are assigned. The estimator is furt
+    The decisive-set and pivotal-voter approaches have been used for proving Arrow's impossibility theorem. Proofs by these approaches consider only subsets of all possible social welfare functions and examine parts of the domain of these functions. Hence, both ideas are not effective to prove the theorem. This study presents a proof using a proof calculus in logic. A valid deductive inference between the premises, the axioms and conditions of the theorem, and the conclusion, dictatorship, guarantees that every profile of all possible social welfare functions is examined, thereby the theorem is established.
+    
+[^7]: 动态定价和汇聚网络的市场设计
+
+    Market Design for Dynamic Pricing and Pooling in Capacitated Networks. (arXiv:2307.03994v1 [cs.GT])
+
+    [http://arxiv.org/abs/2307.03994](http://arxiv.org/abs/2307.03994)
+
+    本研究提出了一种用于动态定价和汇聚网络的市场设计，通过设置边缘价格激励代理商共享有限网络容量。在考虑了整数和网络约束以及代理商异质偏好的情况下，我们提供了充分条件，保证市场均衡的存在和多项式时间计算，并识别了实现最大效用的特定市场均衡。
+
+    
+
+    我们研究了一种市场机制，通过设置边缘价格来激励战略性代理商组织旅行，以有效共享有限的网络容量。该市场允许代理商组成团队共享旅行，做出出发时间和路线选择的决策，并支付边缘价格和其他成本。我们发展了一种新的方法来分析市场均衡的存在和计算，建立在组合拍卖和动态网络流理论的基础上。我们的方法解决了市场均衡特征化中的挑战，包括：（a）共享有限边缘容量中旅行的动态流量所引发的整数和网络约束；（b）战略性代理商的异质和私人偏好。我们提供了关于网络拓扑和代理商偏好的充分条件，以确保市场均衡的存在和多项式时间计算。我们确定了一个特定的市场均衡，实现了所有代理商的最大效用，并且与经典的最大流最小割问题等价。
+
+    We study a market mechanism that sets edge prices to incentivize strategic agents to organize trips that efficiently share limited network capacity. This market allows agents to form groups to share trips, make decisions on departure times and route choices, and make payments to cover edge prices and other costs. We develop a new approach to analyze the existence and computation of market equilibrium, building on theories of combinatorial auctions and dynamic network flows. Our approach tackles the challenges in market equilibrium characterization arising from: (a) integer and network constraints on the dynamic flow of trips in sharing limited edge capacity; (b) heterogeneous and private preferences of strategic agents. We provide sufficient conditions on the network topology and agents' preferences that ensure the existence and polynomial-time computation of market equilibrium. We identify a particular market equilibrium that achieves maximum utilities for all agents, and is equivalen
+    
+[^8]: 处理数量级达数千万观测值的分位数回归的快速推断方法
+
+    Fast Inference for Quantile Regression with Tens of Millions of Observations. (arXiv:2209.14502v5 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2209.14502](http://arxiv.org/abs/2209.14502)
+
+    本文提出了一个快速推断框架，利用随机次梯度下降更新处理数量级达数千万观测值的分位数回归问题。通过顺序处理数据、聚合参数估计和计算关键统计量的解路径，该方法在处理超大规模数据集时具有较低的计算资源和内存需求。
+
+    
+
+    大数据分析在经济研究中开辟了新的道路，但是分析具有数千万观测值的数据集的挑战是巨大的。传统的基于极值估计的计量经济学方法需要大量的计算资源和内存，这些资源通常并不容易获得。本文针对应用于“超大规模”数据集（例如美国十年一次的人口普查数据）的线性分位数回归，提出了一个快速推断框架，利用随机次梯度下降（S-subGD）更新。推断过程按顺序处理横截面数据：(i) 对每个新观测值进行参数估计的更新，(ii) 将其作为 $\textit{Polyak-Ruppert}$ 平均值进行聚合，(iii) 使用解路径仅计算用于推断的关键统计量。该方法借鉴了时间序列回归的思想，通过随机缩放创建一个渐近可靠的统计量。我们提出的检验统计量是在完全在线的情况下计算的。
+
+    Big data analytics has opened new avenues in economic research, but the challenge of analyzing datasets with tens of millions of observations is substantial. Conventional econometric methods based on extreme estimators require large amounts of computing resources and memory, which are often not readily available. In this paper, we focus on linear quantile regression applied to "ultra-large" datasets, such as U.S. decennial censuses. A fast inference framework is presented, utilizing stochastic subgradient descent (S-subGD) updates. The inference procedure handles cross-sectional data sequentially: (i) updating the parameter estimate with each incoming "new observation", (ii) aggregating it as a $\textit{Polyak-Ruppert}$ average, and (iii) computing a pivotal statistic for inference using only a solution path. The methodology draws from time-series regression to create an asymptotically pivotal statistic through random scaling. Our proposed test statistic is calculated in a fully online
+    
+[^9]: 多个工具变量的向量单调性假设
+
+    A Vector Monotonicity Assumption for Multiple Instruments. (arXiv:2009.00553v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2009.00553](http://arxiv.org/abs/2009.00553)
+
+    本文提出了向量单调性假设的观点，该假设对于多个工具变量组合的研究具有重要意义。通过假设所有工具变量的治疗接受程度是单调的，我们可以得到一些因果参数的点识别，并提供了相应的估计方法。
+
+    
+
+    当研究人员将多个工具变量组合用于单一二元治疗时，本地平均治疗效应（LATE）框架的单调性假设可能变得过于限制性：它要求所有单位在分别改变工具变量方向时具有相同的反应方向。相比之下，我所称的向量单调性仅仅假设所有工具变量的治疗接受程度是单调的，它是Mogstad等人引入的部分单调性假设的特殊情况。在工具变量为二元变量时，我刻画了在向量单调性下被点识别的因果参数类。该类包括对任何一种方式对工具变量集合做出响应的单位的平均治疗效应，或对给定子集做出响应的单位的平均治疗效应。识别结果是建设性的，并提供了对已识别的治疗效应参数的简单估计器。
+
+    When a researcher combines multiple instrumental variables for a single binary treatment, the monotonicity assumption of the local average treatment effects (LATE) framework can become restrictive: it requires that all units share a common direction of response even when separate instruments are shifted in opposing directions. What I call vector monotonicity, by contrast, simply assumes treatment uptake to be monotonic in all instruments, representing a special case of the partial monotonicity assumption introduced by Mogstad et al. (2021). I characterize the class of causal parameters that are point identified under vector monotonicity, when the instruments are binary. This class includes, for example, the average treatment effect among units that are in any way responsive to the collection of instruments, or those that are responsive to a given subset of them. The identification results are constructive and yield a simple estimator for the identified treatment effect parameters. An e
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "ChatGPT-Powered Hierarchical Comparisons for Image Classification. (arXiv:2311.00206v1 [cs.CV])",
+    "abstract": "The zero-shot open-vocabulary challenge in image classification is tackled by pretrained vision-language models like CLIP, which benefit from incorporating class-specific knowledge from large language models (LLMs) like ChatGPT. However, biases in CLIP lead to similar descriptions for distinct but related classes, prompting our novel image classification framework via hierarchical comparisons: using LLMs to recursively group classes into hierarchies and classifying images by comparing image-text embeddings at each hierarchy level, resulting in an intuitive, effective, and explainable approach.",
+    "link": "http://arxiv.org/abs/2311.00206",
+    "context": "Title: ChatGPT-Powered Hierarchical Comparisons for Image Classification. (arXiv:2311.00206v1 [cs.CV])\nAbstract: The zero-shot open-vocabulary challenge in image classification is tackled by pretrained vision-language models like CLIP, which benefit from incorporating class-specific knowledge from large language models (LLMs) like ChatGPT. However, biases in CLIP lead to similar descriptions for distinct but related classes, prompting our novel image classification framework via hierarchical comparisons: using LLMs to recursively group classes into hierarchies and classifying images by comparing image-text embeddings at each hierarchy level, resulting in an intuitive, effective, and explainable approach.",
+    "path": "papers/23/11/2311.00206.json",
+    "total_tokens": 735,
+    "translated_title": "基于ChatGPT的层次比较用于图像分类",
+    "translated_abstract": "针对图像分类中的零样本开放词汇挑战，我们利用预训练视觉-语言模型（如CLIP）来解决问题。CLIP从大型语言模型（如ChatGPT）中获益，将类别特定知识融入其中。然而，CLIP中存在偏差导致不同但相关类别具有相似的描述，因此我们提出了一种新颖的图像分类框架，通过层次比较将类别递归地分组，并通过比较每个层次的图像-文本嵌入来进行图像分类，从而实现直观、有效和可解释的方法。",
+    "tldr": "本文介绍了一种基于ChatGPT的层次比较方法，用于解决图像分类中的零样本开放词汇挑战。该方法通过递归地将类别进行分组，并在每个层次级别上比较图像与文本的嵌入，实现了直观、有效和可解释的图像分类。"
+}

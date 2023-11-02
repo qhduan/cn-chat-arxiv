@@ -1,0 +1,11 @@
+{
+    "title": "GmGM: a Fast Multi-Axis Gaussian Graphical Model. (arXiv:2211.02920v2 [stat.ML] UPDATED)",
+    "abstract": "This paper introduces the Gaussian multi-Graphical Model, a model to construct sparse graph representations of matrix- and tensor-variate data. We generalize prior work in this area by simultaneously learning this representation across several tensors that share axes, which is necessary to allow the analysis of multimodal datasets such as those encountered in multi-omics. Our algorithm uses only a single eigendecomposition per axis, achieving an order of magnitude speedup over prior work in the ungeneralized case. This allows the use of our methodology on large multi-modal datasets such as single-cell multi-omics data, which was challenging with previous approaches. We validate our model on synthetic data and five real-world datasets.",
+    "link": "http://arxiv.org/abs/2211.02920",
+    "context": "Title: GmGM: a Fast Multi-Axis Gaussian Graphical Model. (arXiv:2211.02920v2 [stat.ML] UPDATED)\nAbstract: This paper introduces the Gaussian multi-Graphical Model, a model to construct sparse graph representations of matrix- and tensor-variate data. We generalize prior work in this area by simultaneously learning this representation across several tensors that share axes, which is necessary to allow the analysis of multimodal datasets such as those encountered in multi-omics. Our algorithm uses only a single eigendecomposition per axis, achieving an order of magnitude speedup over prior work in the ungeneralized case. This allows the use of our methodology on large multi-modal datasets such as single-cell multi-omics data, which was challenging with previous approaches. We validate our model on synthetic data and five real-world datasets.",
+    "path": "papers/22/11/2211.02920.json",
+    "total_tokens": 795,
+    "translated_title": "GmGM: 一种快速的多轴高斯图形模型。",
+    "translated_abstract": "本文介绍了一种高斯多图形模型，用于构建矩阵和张量变量数据的稀疏图形表示。我们通过同时学习多个共享轴的张量上的表示来推广该领域的先前工作，这对于分析多模态数据集（如多组学中遇到的数据集）是必要的。我们的算法在每个轴上仅使用一次特征分解，相对于非广义情况下的先前工作实现了数量级的加速。这使得我们的方法可以应用于包括单细胞多组学数据在内的大型多模态数据集，这在之前的方法中具有挑战性。我们在合成数据和五个真实数据集上验证了我们的模型。",
+    "tldr": "本文介绍了一种快速的多轴高斯图形模型，用于构建稀疏图形表示。相比先前工作，我们的算法在每个轴上仅使用一次特征分解，实现了数量级的加速。该模型可以应用于大型多模态数据集，包括单细胞多组学数据。"
+}
