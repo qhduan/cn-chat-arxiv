@@ -1,0 +1,11 @@
+{
+    "title": "Power law in Sandwiched Volterra Volatility model. (arXiv:2311.01228v1 [q-fin.MF])",
+    "abstract": "In this paper, we present analytical proof demonstrating that the Sandwiched Volterra Volatility (SVV) model is able to reproduce the power-law behavior of the at-the-money implied volatility skew, provided the correct choice of the Volterra kernel. To obtain this result, we assess the second-order Malliavin differentiability of the volatility process and investigate the conditions that lead to explosive behavior in the Malliavin derivative. As a supplementary result, we also prove a general Malliavin product rule.",
+    "link": "http://arxiv.org/abs/2311.01228",
+    "context": "Title: Power law in Sandwiched Volterra Volatility model. (arXiv:2311.01228v1 [q-fin.MF])\nAbstract: In this paper, we present analytical proof demonstrating that the Sandwiched Volterra Volatility (SVV) model is able to reproduce the power-law behavior of the at-the-money implied volatility skew, provided the correct choice of the Volterra kernel. To obtain this result, we assess the second-order Malliavin differentiability of the volatility process and investigate the conditions that lead to explosive behavior in the Malliavin derivative. As a supplementary result, we also prove a general Malliavin product rule.",
+    "path": "papers/23/11/2311.01228.json",
+    "total_tokens": 623,
+    "translated_title": "\"夹心Volterra波动模型中的幂律行为研究\"",
+    "translated_abstract": "\"本文通过分析证明，夹心Volterra波动（SVV）模型能够在正确选择Volterra核的情况下，重建现货隐含波动率偏斜的幂律行为。为了得到这个结果，我们评估了波动过程的二阶Malliavin可微性，并研究导致Malliavin导数爆炸行为的条件。作为一个补充结果，我们还证明了一个通用的Malliavin乘积规则。\"",
+    "tldr": "\"本文研究了夹心Volterra波动模型中的幂律行为，并提供了分析证明。此外，还证明了一个通用的Malliavin乘积规则。\""
+}

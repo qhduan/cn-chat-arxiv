@@ -1,0 +1,12 @@
+{
+    "title": "Bridging Machine Learning and Sciences: Opportunities and Challenges. (arXiv:2210.13441v2 [stat.ML] UPDATED)",
+    "abstract": "The application of machine learning in sciences has seen exciting advances in recent years. As a widely applicable technique, anomaly detection has been long studied in the machine learning community. Especially, deep neural nets-based out-of-distribution detection has made great progress for high-dimensional data. Recently, these techniques have been showing their potential in scientific disciplines. We take a critical look at their applicative prospects including data universality, experimental protocols, model robustness, etc. We discuss examples that display transferable practices and domain-specific challenges simultaneously, providing a starting point for establishing a novel interdisciplinary research paradigm in the near future.",
+    "link": "http://arxiv.org/abs/2210.13441",
+    "context": "Title: Bridging Machine Learning and Sciences: Opportunities and Challenges. (arXiv:2210.13441v2 [stat.ML] UPDATED)\nAbstract: The application of machine learning in sciences has seen exciting advances in recent years. As a widely applicable technique, anomaly detection has been long studied in the machine learning community. Especially, deep neural nets-based out-of-distribution detection has made great progress for high-dimensional data. Recently, these techniques have been showing their potential in scientific disciplines. We take a critical look at their applicative prospects including data universality, experimental protocols, model robustness, etc. We discuss examples that display transferable practices and domain-specific challenges simultaneously, providing a starting point for establishing a novel interdisciplinary research paradigm in the near future.",
+    "path": "papers/22/10/2210.13441.json",
+    "total_tokens": 758,
+    "translated_title": "搭建机器学习与科学的桥梁：机遇与挑战",
+    "translated_abstract": "机器学习在科学领域的应用近年来取得了令人振奋的进展。作为一种广泛适用的技术，异常检测在机器学习社区中一直受到关注。特别是基于深度神经网络的离群样本检测在高维数据方面取得了巨大的进步。最近，这些技术展示了在科学学科中的潜力。我们对它们在数据普适性、实验协议、模型鲁棒性等方面进行了批判性探讨。我们讨论了同时展示了可转移实践和领域特定挑战的示例，为在近期建立一个新的跨学科研究范式提供了一个起点。",
+    "tldr": "本文探讨了机器学习在科学领域的应用，尤其是在离群样本检测方面取得了重要进展，同时提出了数据普适性、实验协议和模型鲁棒性等方面的挑战。",
+    "en_tdlr": "This paper discusses the application of machine learning in sciences, particularly the significant progress in anomaly detection, and highlights the challenges in data universality, experimental protocols, and model robustness."
+}

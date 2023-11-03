@@ -1,0 +1,12 @@
+{
+    "title": "Discovering Universal Geometry in Embeddings with ICA. (arXiv:2305.13175v2 [cs.CL] UPDATED)",
+    "abstract": "This study utilizes Independent Component Analysis (ICA) to unveil a consistent semantic structure within embeddings of words or images. Our approach extracts independent semantic components from the embeddings of a pre-trained model by leveraging anisotropic information that remains after the whitening process in Principal Component Analysis (PCA). We demonstrate that each embedding can be expressed as a composition of a few intrinsic interpretable axes and that these semantic axes remain consistent across different languages, algorithms, and modalities. The discovery of a universal semantic structure in the geometric patterns of embeddings enhances our understanding of the representations in embeddings.",
+    "link": "http://arxiv.org/abs/2305.13175",
+    "context": "Title: Discovering Universal Geometry in Embeddings with ICA. (arXiv:2305.13175v2 [cs.CL] UPDATED)\nAbstract: This study utilizes Independent Component Analysis (ICA) to unveil a consistent semantic structure within embeddings of words or images. Our approach extracts independent semantic components from the embeddings of a pre-trained model by leveraging anisotropic information that remains after the whitening process in Principal Component Analysis (PCA). We demonstrate that each embedding can be expressed as a composition of a few intrinsic interpretable axes and that these semantic axes remain consistent across different languages, algorithms, and modalities. The discovery of a universal semantic structure in the geometric patterns of embeddings enhances our understanding of the representations in embeddings.",
+    "path": "papers/23/05/2305.13175.json",
+    "total_tokens": 719,
+    "translated_title": "使用ICA发现嵌入中的通用几何结构",
+    "translated_abstract": "本研究利用独立成分分析（ICA）揭示了单词或图像嵌入中的一致语义结构。我们的方法通过利用主成分分析（PCA）中白化过程后残留的各向异性信息，从预训练模型的嵌入中提取独立的语义成分。我们证明了每个嵌入可以被表示为少量内在可解释轴的组合，并且这些语义轴在不同的语言、算法和模态下保持一致。在嵌入的几何模式中发现通用语义结构，增强了我们对嵌入中表示的理解。",
+    "tldr": "本研究利用ICA揭示了嵌入中的通用几何结构，证明了每个嵌入可以由少量内在可解释轴的组合表示，并且这些语义轴在不同的语言、算法和模态下保持一致。",
+    "en_tdlr": "This study utilizes ICA to uncover universal geometric structures in embeddings, demonstrating that each embedding can be expressed as a composition of a few intrinsic interpretable axes, which remain consistent across different languages, algorithms, and modalities, enhancing our understanding of the representations in embeddings."
+}

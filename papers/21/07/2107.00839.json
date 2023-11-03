@@ -1,0 +1,12 @@
+{
+    "title": "Exploration noise for learning linear-quadratic mean field games. (arXiv:2107.00839v2 [math.OC] UPDATED)",
+    "abstract": "The goal of this paper is to demonstrate that common noise may serve as an exploration noise for learning the solution of a mean field game. This concept is here exemplified through a toy linear-quadratic model, for which a suitable form of common noise has already been proven to restore existence and uniqueness. We here go one step further and prove that the same form of common noise may force the convergence of the learning algorithm called `fictitious play', and this without any further potential or monotone structure. Several numerical examples are provided in order to support our theoretical analysis.",
+    "link": "http://arxiv.org/abs/2107.00839",
+    "context": "Title: Exploration noise for learning linear-quadratic mean field games. (arXiv:2107.00839v2 [math.OC] UPDATED)\nAbstract: The goal of this paper is to demonstrate that common noise may serve as an exploration noise for learning the solution of a mean field game. This concept is here exemplified through a toy linear-quadratic model, for which a suitable form of common noise has already been proven to restore existence and uniqueness. We here go one step further and prove that the same form of common noise may force the convergence of the learning algorithm called `fictitious play', and this without any further potential or monotone structure. Several numerical examples are provided in order to support our theoretical analysis.",
+    "path": "papers/21/07/2107.00839.json",
+    "total_tokens": 698,
+    "translated_title": "学习线性二次均场博弈的探索噪声",
+    "translated_abstract": "本文的目标是证明常见噪声可以作为学习均场博弈解的探索噪声。通过一个玩具线性二次模型的示例，我们证明了一种适当形式的常见噪声已被证明可以恢复存在性和唯一性。我们进一步证明了相同形式的常见噪声可以强制学习算法“虚构博弈”收敛，而无需进一步的潜在或单调结构。我们提供了一些数值实例来支持我们的理论分析。",
+    "tldr": "本文证明了常见噪声可以作为学习均场博弈解的探索噪声，并且通过实例表明这种噪声能够恢复解的存在性和唯一性，并且强制学习算法收敛，无需额外的结构。",
+    "en_tdlr": "This paper demonstrates that common noise can serve as an exploration noise for learning the solution of a mean field game, and provides examples showing that this noise can restore existence and uniqueness of the solution and force the convergence of the learning algorithm without additional structure."
+}

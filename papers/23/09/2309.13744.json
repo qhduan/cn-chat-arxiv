@@ -1,0 +1,12 @@
+{
+    "title": "A Systematic Literature Review of Computer Vision Applications in Robotized Wire Harness Assembly. (arXiv:2309.13744v2 [cs.CV] UPDATED)",
+    "abstract": "This article presents a systematic literature review on computer vision applications that have been proposed for robotized wire harness assembly, derives challenges from existing studies, and identifies opportunities for future research to promote a more practical robotized assembly of wire harnesses.",
+    "link": "http://arxiv.org/abs/2309.13744",
+    "context": "Title: A Systematic Literature Review of Computer Vision Applications in Robotized Wire Harness Assembly. (arXiv:2309.13744v2 [cs.CV] UPDATED)\nAbstract: This article presents a systematic literature review on computer vision applications that have been proposed for robotized wire harness assembly, derives challenges from existing studies, and identifies opportunities for future research to promote a more practical robotized assembly of wire harnesses.",
+    "path": "papers/23/09/2309.13744.json",
+    "total_tokens": 509,
+    "translated_title": "计算机视觉在机器人化线束装配中的应用的系统文献综述",
+    "translated_abstract": "本文对计算机视觉在机器人化线束装配中的应用提出了一个系统的文献综述，从现有研究中提取了挑战，并找到了未来研究促进更实际的机器人化线束装配的机会。",
+    "tldr": "该论文对计算机视觉在机器人化线束装配中的应用进行了系统的文献综述，总结出了挑战和未来研究机会。",
+    "en_tdlr": "This paper presents a systematic literature review on computer vision applications in robotized wire harness assembly, summarizing the challenges and opportunities for future research."
+}

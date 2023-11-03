@@ -1,0 +1,11 @@
+{
+    "title": "Identifiability of total effects from abstractions of time series causal graphs. (arXiv:2310.14691v2 [math.ST] CROSS LISTED)",
+    "abstract": "We study the problem of identifiability of the total effect of an intervention from observational time series only given an abstraction of the causal graph of the system. Specifically, we consider two types of abstractions: the extended summary causal graph which conflates all lagged causal relations but distinguishes between lagged and instantaneous relations; and the summary causal graph which does not give any indication about the lag between causal relations. We show that the total effect is always identifiable in extended summary causal graphs and we provide necessary and sufficient graphical conditions for identifiability in summary causal graphs. Furthermore, we provide adjustment sets allowing to estimate the total effect whenever it is identifiable.",
+    "link": "http://arxiv.org/abs/2310.14691",
+    "context": "Title: Identifiability of total effects from abstractions of time series causal graphs. (arXiv:2310.14691v2 [math.ST] CROSS LISTED)\nAbstract: We study the problem of identifiability of the total effect of an intervention from observational time series only given an abstraction of the causal graph of the system. Specifically, we consider two types of abstractions: the extended summary causal graph which conflates all lagged causal relations but distinguishes between lagged and instantaneous relations; and the summary causal graph which does not give any indication about the lag between causal relations. We show that the total effect is always identifiable in extended summary causal graphs and we provide necessary and sufficient graphical conditions for identifiability in summary causal graphs. Furthermore, we provide adjustment sets allowing to estimate the total effect whenever it is identifiable.",
+    "path": "papers/23/10/2310.14691.json",
+    "total_tokens": 814,
+    "translated_title": "时序因果图的抽象中总效应的可识别性研究",
+    "translated_abstract": "我们研究了仅基于系统的因果图抽象从观测时间序列中识别干预总效应的问题。具体而言，我们考虑了两种类型的抽象：扩展摘要因果图将所有滞后因果关系混淆在一起，但区分滞后和瞬时关系；而摘要因果图则不提供任何关于因果关系滞后的指示。我们证明扩展摘要因果图中总效应总是可识别的，并且我们提供了摘要因果图中的可识别性所必需和充分的图形条件。此外，在总效应可识别时，我们提供了用于估计总效应的调整集合。",
+    "tldr": "本文研究了基于因果图抽象从观测时间序列中识别干预总效应的问题，并证明了在扩展摘要因果图中总效应总是可识别的。同时，我们提供了摘要因果图中总效应可识别的必要和充分的图形条件，并提供了调整集合以估计总效应。"
+}

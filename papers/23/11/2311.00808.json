@@ -1,0 +1,12 @@
+{
+    "title": "Mahalanobis-Aware Training for Out-of-Distribution Detection. (arXiv:2311.00808v1 [cs.LG])",
+    "abstract": "While deep learning models have seen widespread success in controlled environments, there are still barriers to their adoption in open-world settings. One critical task for safe deployment is the detection of anomalous or out-of-distribution samples that may require human intervention. In this work, we present a novel loss function and recipe for training networks with improved density-based out-of-distribution sensitivity. We demonstrate the effectiveness of our method on CIFAR-10, notably reducing the false-positive rate of the relative Mahalanobis distance method on far-OOD tasks by over 50%.",
+    "link": "http://arxiv.org/abs/2311.00808",
+    "context": "Title: Mahalanobis-Aware Training for Out-of-Distribution Detection. (arXiv:2311.00808v1 [cs.LG])\nAbstract: While deep learning models have seen widespread success in controlled environments, there are still barriers to their adoption in open-world settings. One critical task for safe deployment is the detection of anomalous or out-of-distribution samples that may require human intervention. In this work, we present a novel loss function and recipe for training networks with improved density-based out-of-distribution sensitivity. We demonstrate the effectiveness of our method on CIFAR-10, notably reducing the false-positive rate of the relative Mahalanobis distance method on far-OOD tasks by over 50%.",
+    "path": "papers/23/11/2311.00808.json",
+    "total_tokens": 744,
+    "translated_title": "Mahalanobis感知训练用于异常样本检测",
+    "translated_abstract": "尽管深度学习模型在受控环境中取得了广泛成功，但在开放世界环境中使用仍存在一些障碍。确保安全部署的一个关键任务是检测可能需要人工干预的异常或超出分布的样本。在本文中，我们提出了一种新的损失函数和训练网络的方法，以提高基于密度的超出分布敏感性。我们在CIFAR-10数据集上证明了我们方法的有效性，尤其在远离分布的任务上，相对马哈拉诺比斯距离方法的误检率降低超过50%。",
+    "tldr": "本文提出了一种用于改善基于密度的超出分布敏感性的新的损失函数和训练方法，在CIFAR-10数据集上取得了显著的效果，尤其在远离分布的任务上将相对马哈拉诺比斯距离方法的误检率降低超过50%。",
+    "en_tdlr": "This paper presents a novel loss function and training method for improving density-based out-of-distribution sensitivity. The proposed method achieves significant results on the CIFAR-10 dataset, especially in far-OOD tasks, reducing the false-positive rate of the relative Mahalanobis distance method by over 50%."
+}

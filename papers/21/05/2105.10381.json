@@ -1,0 +1,12 @@
+{
+    "title": "Entropy-based Discovery of Summary Causal Graphs in Time Series. (arXiv:2105.10381v2 [cs.AI] UPDATED)",
+    "abstract": "This study addresses the problem of learning a summary causal graph on time series with potentially different sampling rates. To do so, we first propose a new causal temporal mutual information measure for time series. We then show how this measure relates to an entropy reduction principle that can be seen as a special case of the probability raising principle. We finally combine these two ingredients in PC-like and FCI-like algorithms to construct the summary causal graph. There algorithm are evaluated on several datasets, which shows both their efficacy and efficiency.",
+    "link": "http://arxiv.org/abs/2105.10381",
+    "context": "Title: Entropy-based Discovery of Summary Causal Graphs in Time Series. (arXiv:2105.10381v2 [cs.AI] UPDATED)\nAbstract: This study addresses the problem of learning a summary causal graph on time series with potentially different sampling rates. To do so, we first propose a new causal temporal mutual information measure for time series. We then show how this measure relates to an entropy reduction principle that can be seen as a special case of the probability raising principle. We finally combine these two ingredients in PC-like and FCI-like algorithms to construct the summary causal graph. There algorithm are evaluated on several datasets, which shows both their efficacy and efficiency.",
+    "path": "papers/21/05/2105.10381.json",
+    "total_tokens": 640,
+    "translated_title": "基于熵的时间序列摘要因果图的发现",
+    "translated_abstract": "本研究解决了在可能具有不同采样频率的时间序列上学习摘要因果图的问题。为此，我们首先提出了一种用于时间序列的新因果时态互信息度量。然后，我们展示了该度量与熵减原理的关系，可以看作是概率提升原理的特殊情况。最后，我们将这两个要素结合在类似于PC和FCI的算法中，构建了摘要因果图。这些算法在多个数据集上进行了评估，显示出它们的有效性和高效性。",
+    "tldr": "该研究提出了一种基于熵的方法，在时间序列中学习摘要因果图，并通过PC-like和FCI-like算法展示了其有效性和高效性。",
+    "en_tdlr": "This study proposes an entropy-based method for discovering summary causal graphs in time series and demonstrates its efficacy and efficiency using PC-like and FCI-like algorithms."
+}

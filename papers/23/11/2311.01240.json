@@ -1,0 +1,11 @@
+{
+    "title": "FacadeNet: Conditional Facade Synthesis via Selective Editing. (arXiv:2311.01240v1 [cs.CV])",
+    "abstract": "We introduce FacadeNet, a deep learning approach for synthesizing building facade images from diverse viewpoints. Our method employs a conditional GAN, taking a single view of a facade along with the desired viewpoint information and generates an image of the facade from the distinct viewpoint. To precisely modify view-dependent elements like windows and doors while preserving the structure of view-independent components such as walls, we introduce a selective editing module. This module leverages image embeddings extracted from a pre-trained vision transformer. Our experiments demonstrated state-of-the-art performance on building facade generation, surpassing alternative methods.",
+    "link": "http://arxiv.org/abs/2311.01240",
+    "context": "Title: FacadeNet: Conditional Facade Synthesis via Selective Editing. (arXiv:2311.01240v1 [cs.CV])\nAbstract: We introduce FacadeNet, a deep learning approach for synthesizing building facade images from diverse viewpoints. Our method employs a conditional GAN, taking a single view of a facade along with the desired viewpoint information and generates an image of the facade from the distinct viewpoint. To precisely modify view-dependent elements like windows and doors while preserving the structure of view-independent components such as walls, we introduce a selective editing module. This module leverages image embeddings extracted from a pre-trained vision transformer. Our experiments demonstrated state-of-the-art performance on building facade generation, surpassing alternative methods.",
+    "path": "papers/23/11/2311.01240.json",
+    "total_tokens": 738,
+    "translated_title": "FacadeNet: 通过选择性编辑进行条件立面综合的深度学习方法",
+    "translated_abstract": "我们介绍了FacadeNet，一种基于深度学习的方法，可以从不同的视角合成建筑立面图像。我们的方法使用条件生成对抗网络，将一个立面的单一视图和所需的视角信息作为输入，生成一个从不同视角看到的立面图像。为了精确修改与视角相关的元素（如窗户和门），同时保留与视角无关的结构（如墙壁），我们引入了选择性编辑模块。该模块利用从预训练的视觉转换器中提取的图像嵌入。我们的实验表明，在建筑立面生成方面，我们的方法表现出了最先进的性能，超过了其他方法。",
+    "tldr": "FacadeNet是一种深度学习方法，通过条件生成对抗网络实现了从不同视角合成建筑立面图像，并通过引入选择性编辑模块，实现了对视角相关元素进行精确修改。实验结果表明，该方法在建筑立面生成方面具有领先的性能。"
+}

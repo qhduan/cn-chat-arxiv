@@ -1,0 +1,11 @@
+{
+    "title": "Sequential Sampling Equilibrium. (arXiv:2212.07725v2 [econ.TH] UPDATED)",
+    "abstract": "This paper introduces an equilibrium framework based on sequential sampling in which players face strategic uncertainty over their opponents' behavior and acquire informative signals to resolve it. Sequential sampling equilibrium delivers a disciplined model featuring an endogenous distribution of choices, beliefs, and decision times, that not only rationalizes well-known deviations from Nash equilibrium, but also makes novel predictions supported by existing data. It grounds a relationship between empirical learning and strategic sophistication, and generates stochastic choice through randomness inherent to sampling, without relying on indifference or choice mistakes. Further, it provides a rationale for Nash equilibrium when sampling costs vanish.",
+    "link": "http://arxiv.org/abs/2212.07725",
+    "context": "Title: Sequential Sampling Equilibrium. (arXiv:2212.07725v2 [econ.TH] UPDATED)\nAbstract: This paper introduces an equilibrium framework based on sequential sampling in which players face strategic uncertainty over their opponents' behavior and acquire informative signals to resolve it. Sequential sampling equilibrium delivers a disciplined model featuring an endogenous distribution of choices, beliefs, and decision times, that not only rationalizes well-known deviations from Nash equilibrium, but also makes novel predictions supported by existing data. It grounds a relationship between empirical learning and strategic sophistication, and generates stochastic choice through randomness inherent to sampling, without relying on indifference or choice mistakes. Further, it provides a rationale for Nash equilibrium when sampling costs vanish.",
+    "path": "papers/22/12/2212.07725.json",
+    "total_tokens": 758,
+    "translated_title": "连续抽样均衡",
+    "translated_abstract": "本论文引入了一个基于连续抽样的均衡框架，其中玩家面临对对手行为的战略不确定性，并获取信息信号以解决不确定性。连续抽样均衡提供了一个规范的模型，包括选择、信念和决策时间的内生分布，不仅可以合理解释与纳什均衡存在偏差的现象，还可以产生根据现有数据支持的新颖预测。它建立了经验学习和战略复杂度之间的关系，并通过采样的随机性产生了随机选择，而不依赖于冷漠或选择错误。此外，当抽样成本消失时，它为纳什均衡提供了合理性的依据。",
+    "tldr": "本论文介绍了一个基于连续抽样的均衡框架，可以解释与纳什均衡存在偏差的现象并产生新的预测，同时建立了经验学习和战略复杂度之间的关系，并提供了纳什均衡的合理性依据。"
+}

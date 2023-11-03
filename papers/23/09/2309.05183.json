@@ -1,0 +1,12 @@
+{
+    "title": "Data Summarization beyond Monotonicity: Non-monotone Two-Stage Submodular Maximization. (arXiv:2309.05183v2 [cs.DS] UPDATED)",
+    "abstract": "The objective of a two-stage submodular maximization problem is to reduce the ground set using provided training functions that are submodular, with the aim of ensuring that optimizing new objective functions over the reduced ground set yields results comparable to those obtained over the original ground set. This problem has applications in various domains including data summarization. Existing studies often assume the monotonicity of the objective function, whereas our work pioneers the extension of this research to accommodate non-monotone submodular functions. We have introduced the first constant-factor approximation algorithms for this more general case.",
+    "link": "http://arxiv.org/abs/2309.05183",
+    "context": "Title: Data Summarization beyond Monotonicity: Non-monotone Two-Stage Submodular Maximization. (arXiv:2309.05183v2 [cs.DS] UPDATED)\nAbstract: The objective of a two-stage submodular maximization problem is to reduce the ground set using provided training functions that are submodular, with the aim of ensuring that optimizing new objective functions over the reduced ground set yields results comparable to those obtained over the original ground set. This problem has applications in various domains including data summarization. Existing studies often assume the monotonicity of the objective function, whereas our work pioneers the extension of this research to accommodate non-monotone submodular functions. We have introduced the first constant-factor approximation algorithms for this more general case.",
+    "path": "papers/23/09/2309.05183.json",
+    "total_tokens": 710,
+    "translated_title": "超越单调性的数据汇总：非单调的两阶段子模最大化",
+    "translated_abstract": "两阶段子模最大化问题的目标是使用提供的子模训练函数来减少底层集合，以确保在减小后的底层集合上优化新的目标函数的结果与在原始底层集合上获得的结果相当。这个问题在数据汇总等各个领域都有应用。现有的研究通常假设目标函数是单调的，而我们的工作将这个研究扩展到了非单调子模函数的情况。我们引入了这种更一般情况的第一个恒定因子逼近算法。",
+    "tldr": "这篇论文研究了两阶段子模最大化问题，目标是使用子模训练函数来减少底层集合，并引入了非单调子模函数的第一个恒定因子逼近算法。",
+    "en_tdlr": "This paper investigates the problem of two-stage submodular maximization, where the objective is to reduce the ground set using submodular training functions and introduces the first constant-factor approximation algorithms for non-monotone submodular functions."
+}

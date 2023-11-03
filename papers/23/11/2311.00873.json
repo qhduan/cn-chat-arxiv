@@ -1,0 +1,11 @@
+{
+    "title": "Low-latency Real-time Voice Conversion on CPU. (arXiv:2311.00873v1 [cs.SD])",
+    "abstract": "We adapt the architectures of previous audio manipulation and generation neural networks to the task of real-time any-to-one voice conversion. Our resulting model, LLVC ($\\textbf{L}$ow-latency $\\textbf{L}$ow-resource $\\textbf{V}$oice $\\textbf{C}$onversion), has a latency of under 20ms at a bitrate of 16kHz and runs nearly 2.8x faster than real-time on a consumer CPU. LLVC uses both a generative adversarial architecture as well as knowledge distillation in order to attain this performance. To our knowledge LLVC achieves both the lowest resource usage as well as the lowest latency of any open-source voice conversion model. We provide open-source samples, code, and pretrained model weights at https://github.com/KoeAI/LLVC.",
+    "link": "http://arxiv.org/abs/2311.00873",
+    "context": "Title: Low-latency Real-time Voice Conversion on CPU. (arXiv:2311.00873v1 [cs.SD])\nAbstract: We adapt the architectures of previous audio manipulation and generation neural networks to the task of real-time any-to-one voice conversion. Our resulting model, LLVC ($\\textbf{L}$ow-latency $\\textbf{L}$ow-resource $\\textbf{V}$oice $\\textbf{C}$onversion), has a latency of under 20ms at a bitrate of 16kHz and runs nearly 2.8x faster than real-time on a consumer CPU. LLVC uses both a generative adversarial architecture as well as knowledge distillation in order to attain this performance. To our knowledge LLVC achieves both the lowest resource usage as well as the lowest latency of any open-source voice conversion model. We provide open-source samples, code, and pretrained model weights at https://github.com/KoeAI/LLVC.",
+    "path": "papers/23/11/2311.00873.json",
+    "total_tokens": 764,
+    "translated_title": "在CPU上的低延迟实时语音转换",
+    "translated_abstract": "我们将之前的音频处理和生成神经网络的架构适应到实时任意到一的语音转换任务中。我们的模型LLVC（低延迟低资源语音转换）在16kHz的比特率下具有不到20ms的延迟，在消费级CPU上运行速度几乎是实时的2.8倍。LLVC使用了对抗生成网络的架构和知识蒸馏来实现这种性能。据我们所知，LLVC是所有开源语音转换模型中资源使用最低延迟最低的。我们在https://github.com/KoeAI/LLVC提供开源样例、代码和预训练模型权重。",
+    "tldr": "这项研究实现了在CPU上进行低延迟实时语音转换，通过适应之前的音频神经网络架构，并使用对抗生成网络和知识蒸馏，模型LLVC在16kHz的比特率下具有不到20ms的延迟，并在消费级CPU上以2.8倍的速度运行。同时，LLVC还是所有开源语音转换模型中资源使用最低延迟最低的。"
+}

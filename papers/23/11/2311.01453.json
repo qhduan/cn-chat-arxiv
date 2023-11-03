@@ -1,0 +1,11 @@
+{
+    "title": "PPI++: Efficient Prediction-Powered Inference. (arXiv:2311.01453v1 [stat.ML])",
+    "abstract": "We present PPI++: a computationally lightweight methodology for estimation and inference based on a small labeled dataset and a typically much larger dataset of machine-learning predictions. The methods automatically adapt to the quality of available predictions, yielding easy-to-compute confidence sets -for parameters of any dimensionality -- that always improve on classical intervals using only the labeled data. PPI++ builds on prediction-powered inference (PPI), which targets the same problem setting, improving its computational and statistical efficiency. Real and synthetic experiments demonstrate the benefits of the proposed adaptations.",
+    "link": "http://arxiv.org/abs/2311.01453",
+    "context": "Title: PPI++: Efficient Prediction-Powered Inference. (arXiv:2311.01453v1 [stat.ML])\nAbstract: We present PPI++: a computationally lightweight methodology for estimation and inference based on a small labeled dataset and a typically much larger dataset of machine-learning predictions. The methods automatically adapt to the quality of available predictions, yielding easy-to-compute confidence sets -for parameters of any dimensionality -- that always improve on classical intervals using only the labeled data. PPI++ builds on prediction-powered inference (PPI), which targets the same problem setting, improving its computational and statistical efficiency. Real and synthetic experiments demonstrate the benefits of the proposed adaptations.",
+    "path": "papers/23/11/2311.01453.json",
+    "total_tokens": 649,
+    "translated_title": "PPI++:高效的预测驱动推理方法",
+    "translated_abstract": "我们提出了PPI++：一种基于小型标记数据集和通常比较大的机器学习预测数据集的计算轻量级的估计和推理方法。该方法能够自动适应可用预测的质量，产生易于计算的置信区间 - 对于任意维度的参数 - 总是能够在只使用标记数据的情况下改善经典区间。PPI++基于预测驱动推理（PPI），针对相同的问题场景，提高了计算和统计效率。真实和合成实验证明了所提出的改进的优势。",
+    "tldr": "PPI++是一种高效的预测驱动推理方法，通过自动调整预测质量来改善经典区间的计算置信区间的计算效率和统计效率。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Add and Thin: Diffusion for Temporal Point Processes. (arXiv:2311.01139v1 [cs.LG])",
+    "abstract": "Autoregressive neural networks within the temporal point process (TPP) framework have become the standard for modeling continuous-time event data. Even though these models can expressively capture event sequences in a one-step-ahead fashion, they are inherently limited for long-term forecasting applications due to the accumulation of errors caused by their sequential nature. To overcome these limitations, we derive ADD-THIN, a principled probabilistic denoising diffusion model for TPPs that operates on entire event sequences. Unlike existing diffusion approaches, ADD-THIN naturally handles data with discrete and continuous components. In experiments on synthetic and real-world datasets, our model matches the state-of-the-art TPP models in density estimation and strongly outperforms them in forecasting.",
+    "link": "http://arxiv.org/abs/2311.01139",
+    "context": "Title: Add and Thin: Diffusion for Temporal Point Processes. (arXiv:2311.01139v1 [cs.LG])\nAbstract: Autoregressive neural networks within the temporal point process (TPP) framework have become the standard for modeling continuous-time event data. Even though these models can expressively capture event sequences in a one-step-ahead fashion, they are inherently limited for long-term forecasting applications due to the accumulation of errors caused by their sequential nature. To overcome these limitations, we derive ADD-THIN, a principled probabilistic denoising diffusion model for TPPs that operates on entire event sequences. Unlike existing diffusion approaches, ADD-THIN naturally handles data with discrete and continuous components. In experiments on synthetic and real-world datasets, our model matches the state-of-the-art TPP models in density estimation and strongly outperforms them in forecasting.",
+    "path": "papers/23/11/2311.01139.json",
+    "total_tokens": 776,
+    "translated_title": "添加和稀疏：一种用于时间点过程的扩散方法",
+    "translated_abstract": "在时间点过程（TPP）框架内，自回归神经网络已成为建模连续时间事件数据的标准。尽管这些模型可以以一步预测的方式精确地捕捉事件序列，但由于其顺序性质引起的误差积累，它们在长期预测应用中具有固有的局限性。为了克服这些限制，我们推导出ADD-THIN，一种面向整个事件序列工作的基于概率去噪扩散模型，它自然地处理具有离散和连续成分的数据。在合成和真实数据集的实验中，我们的模型在密度估计方面与最先进的TPP模型相匹配，并在预测方面表现出色。",
+    "tldr": "本研究提出了一种基于概率去噪扩散模型的时间点过程模型，相比于现有的方法，该模型在预测方面取得了较好的性能，对具有离散和连续成分的数据具有处理能力。"
+}

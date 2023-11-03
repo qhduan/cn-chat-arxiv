@@ -1,0 +1,11 @@
+{
+    "title": "Challenges for Linguistically-Driven Computer-Based Sign Recognition from Continuous Signing for American Sign Language. (arXiv:2311.00762v1 [cs.CV])",
+    "abstract": "There have been recent advances in computer-based recognition of isolated, citation-form signs from video. There are many challenges for such a task, not least the naturally occurring inter- and intra- signer synchronic variation in sign production, including sociolinguistic variation in the realization of certain signs. However, there are several significant factors that make recognition of signs from continuous signing an even more difficult problem. This article presents an overview of such challenges, based in part on findings from a large corpus of linguistically annotated video data for American Sign Language (ASL). Some linguistic regularities in the structure of signs that can boost handshape and sign recognition are also discussed.",
+    "link": "http://arxiv.org/abs/2311.00762",
+    "context": "Title: Challenges for Linguistically-Driven Computer-Based Sign Recognition from Continuous Signing for American Sign Language. (arXiv:2311.00762v1 [cs.CV])\nAbstract: There have been recent advances in computer-based recognition of isolated, citation-form signs from video. There are many challenges for such a task, not least the naturally occurring inter- and intra- signer synchronic variation in sign production, including sociolinguistic variation in the realization of certain signs. However, there are several significant factors that make recognition of signs from continuous signing an even more difficult problem. This article presents an overview of such challenges, based in part on findings from a large corpus of linguistically annotated video data for American Sign Language (ASL). Some linguistic regularities in the structure of signs that can boost handshape and sign recognition are also discussed.",
+    "path": "papers/23/11/2311.00762.json",
+    "total_tokens": 769,
+    "translated_title": "论文标题：从连续手语中基于语言驱动的计算机手势识别的挑战",
+    "translated_abstract": "近年来，计算机基于视频的孤立手势识别取得了一些进展。这一任务存在许多挑战，其中最大的挑战是手语的实际产生中存在的手语者间和手语者内的同步变化，包括某些手语的社会语言学变体的实现。然而，连续手势识别的挑战更加困难，本文基于美国手语（ASL）的大型语言注释视频数据的发现，对这些挑战进行了概述。还讨论了手势结构中的一些语言规律，可以提高手势形状和手势识别的准确性。",
+    "tldr": "运用美国手语数据，论文概述了基于语言驱动的计算机手势识别的挑战，包括手语者间和手语者内的同步变化以及手势结构中的语言规律。"
+}

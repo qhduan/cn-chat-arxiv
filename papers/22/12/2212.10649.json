@@ -1,0 +1,12 @@
+{
+    "title": "Inversion of Bayesian Networks. (arXiv:2212.10649v2 [cs.LG] UPDATED)",
+    "abstract": "Variational autoencoders and Helmholtz machines use a recognition network (encoder) to approximate the posterior distribution of a generative model (decoder). In this paper we study the necessary and sufficient properties of a recognition network so that it can model the true posterior distribution exactly. These results are derived in the general context of probabilistic graphical modelling / Bayesian networks, for which the network represents a set of conditional independence statements. We derive both global conditions, in terms of d-separation, and local conditions for the recognition network to have the desired qualities. It turns out that for the local conditions the property perfectness (for every node, all parents are joined) plays an important role.",
+    "link": "http://arxiv.org/abs/2212.10649",
+    "context": "Title: Inversion of Bayesian Networks. (arXiv:2212.10649v2 [cs.LG] UPDATED)\nAbstract: Variational autoencoders and Helmholtz machines use a recognition network (encoder) to approximate the posterior distribution of a generative model (decoder). In this paper we study the necessary and sufficient properties of a recognition network so that it can model the true posterior distribution exactly. These results are derived in the general context of probabilistic graphical modelling / Bayesian networks, for which the network represents a set of conditional independence statements. We derive both global conditions, in terms of d-separation, and local conditions for the recognition network to have the desired qualities. It turns out that for the local conditions the property perfectness (for every node, all parents are joined) plays an important role.",
+    "path": "papers/22/12/2212.10649.json",
+    "total_tokens": 700,
+    "translated_title": "贝叶斯网络的逆推",
+    "translated_abstract": "变分自编码器和Helmholtz机使用一个识别网络（编码器）来近似生成模型（解码器）的后验分布。本文研究了识别网络具备模拟真实后验分布的必要和充分条件。这些结果基于概率图模型／贝叶斯网络的一般背景，其中网络代表了一组条件独立性语句。我们导出了全局条件（通过d-分离）和局部条件，使得识别网络具备期望的性质。局部条件中，完美性（每个节点只与其父节点相连）发挥了重要作用。",
+    "tldr": "本文研究了识别网络如何模拟真实后验分布的必要和充分条件，通过导出全局条件和局部条件，发现完美性为其具备期望性质起到了重要作用。",
+    "en_tdlr": "This paper studies the necessary and sufficient conditions for a recognition network to approximate the true posterior distribution, derived using both global and local conditions, with an emphasis on the role of perfectness in the local conditions."
+}

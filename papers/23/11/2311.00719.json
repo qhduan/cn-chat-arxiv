@@ -1,0 +1,12 @@
+{
+    "title": "Is Human Culture Locked by Evolution?. (arXiv:2311.00719v1 [cs.SI])",
+    "abstract": "Human culture has evolved for thousands of years and thrived in the era of Internet. Due to the availability of big data, we could do research on human culture by analyzing its representation such as user item rating values on websites like MovieLens and Douban. Industrial workers have applied recommender systems in big data to predict user behavior and promote web traffic. In this paper, we analyze the social impact of an algorithm named ZeroMat to show that human culture is locked into a state where individual's cultural taste is predictable at high precision without historic data. We also provide solutions to this problem and interpretation of current Chinese government's regulations and policies.",
+    "link": "http://arxiv.org/abs/2311.00719",
+    "context": "Title: Is Human Culture Locked by Evolution?. (arXiv:2311.00719v1 [cs.SI])\nAbstract: Human culture has evolved for thousands of years and thrived in the era of Internet. Due to the availability of big data, we could do research on human culture by analyzing its representation such as user item rating values on websites like MovieLens and Douban. Industrial workers have applied recommender systems in big data to predict user behavior and promote web traffic. In this paper, we analyze the social impact of an algorithm named ZeroMat to show that human culture is locked into a state where individual's cultural taste is predictable at high precision without historic data. We also provide solutions to this problem and interpretation of current Chinese government's regulations and policies.",
+    "path": "papers/23/11/2311.00719.json",
+    "total_tokens": 748,
+    "translated_title": "人类文化受进化限制吗？",
+    "translated_abstract": "人类文化已经演化了数千年，在互联网时代蓬勃发展。由于大数据的可用性，我们可以通过分析诸如MovieLens和豆瓣等网站上的用户项目评分值等表示来研究人类文化。工业工人已经将推荐系统应用于大数据以预测用户行为并促进网络流量。在本文中，我们分析了名为ZeroMat的算法的社会影响，以显示人类文化处于一种状态中，其中个人的文化品味可以在没有历史数据的情况下以高精度预测。我们还提供了解决这个问题的解决方案，并解释了当前中国政府的法规和政策。",
+    "tldr": "本文分析了一个名为ZeroMat的算法的社会影响，表明人类文化受进化限制，个体的文化品味可以在没有历史数据的情况下以高精度预测。同时提供了解决方案和对中国政府法规和政策的解释。",
+    "en_tdlr": "This paper analyzes the social impact of an algorithm named ZeroMat and shows that human culture is locked into a state where individual's cultural taste can be predicted at high precision without historic data. It also provides solutions to this problem and interpretation of current Chinese government's regulations and policies."
+}

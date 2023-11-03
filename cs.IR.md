@@ -2,187 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GATSY: Graph Attention Network for Music Artist Similarity.](http://arxiv.org/abs/2311.00635) | GATSY是一个基于图注意力网络的音乐艺术家相似性推荐系统，可以灵活地处理多样性和关联性，并在不依赖手工特征的情况下取得卓越的性能结果。 |
-| [^2] | [A Collaborative Filtering-Based Two Stage Model with Item Dependency for Course Recommendation.](http://arxiv.org/abs/2311.00612) | 本论文提出了一种基于协同过滤和课程依赖性的两阶段模型的课程推荐方法，解决了缺乏评分和元数据、课程注册分布不均衡以及课程依赖建模的挑战，并在真实世界数据集上实现了0.97的AUC得分。 |
-| [^3] | [Bayes-enhanced Multi-view Attention Networks for Robust POI Recommendation.](http://arxiv.org/abs/2311.00491) | 本文提出了一种贝叶斯增强的多视角注意力网络来解决POI推荐中不确定因素的问题，通过构建个人POI转换图、基于语义的POI图和基于距离的POI图来全面建模依赖关系，提高POI推荐的性能和鲁棒性。 |
-| [^4] | [LLMRec: Large Language Models with Graph Augmentation for Recommendation.](http://arxiv.org/abs/2311.00423) | LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。 |
-| [^5] | [Towards Automatic Sampling of User Behaviors for Sequential Recommender Systems.](http://arxiv.org/abs/2311.00388) | 本论文提出了一个名为AutoSAM的自动采样框架，用于对连续推荐系统中的用户行为进行非均匀处理。该框架通过自适应地学习历史行为的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。 |
-| [^6] | [Caseformer: Pre-training for Legal Case Retrieval.](http://arxiv.org/abs/2311.00333) | 本文提出了一种新颖的预训练方法，名为Caseformer，在法律案例检索中解决了标注数据不足的问题，能够更好地理解和捕捉法律语料库中的关键知识和数据结构。 |
-| [^7] | [Federated Topic Model and Model Pruning Based on Variational Autoencoder.](http://arxiv.org/abs/2311.00314) | 本论文提出了一种基于变分自编码器的联邦主题模型和模型剪枝方法，用于解决跨多个方参与交叉分析时的数据隐私问题，并通过神经网络模型剪枝加速模型。两种不同的方法被提出来确定模型剪枝率。 |
-| [^8] | [DistDNAS: Search Efficient Feature Interactions within 2 Hours.](http://arxiv.org/abs/2311.00231) | DistDNAS是一种在推荐系统中高效搜索特征交互的解决方案，通过分布式搜索和选择最佳交互模块，实现了巨大的加速并将搜索时间从2天缩短到2小时。 |
-| [^9] | [Estimating Propensity for Causality-based Recommendation without Exposure Data.](http://arxiv.org/abs/2310.20388) | 本文提出了一个新的框架，可以在没有暴露数据的情况下估计基于因果关系的推荐的倾向和暴露，弥补了现有方法的不足。 |
-| [^10] | [VR PreM+: An Immersive Pre-learning Branching Visualization System for Museum Tours.](http://arxiv.org/abs/2310.13294) | VR PreM+是一个沉浸式的博物馆导览预学习分支可视化系统，通过关键字信息检索在动态的3D空间中管理和连接各种内容来源，提高了沟通和数据比较的能力，有望应用于研究和教育等领域。 |
-| [^11] | [Denoised Self-Augmented Learning for Social Recommendation.](http://arxiv.org/abs/2305.12685) | Denoised Self-Augmented Learning paradigm (DSL) is proposed for social recommendation, which addresses the challenge of noisy social information by preserving relevant social relations and reducing the negative impact of interest-irrelevant connections. |
-| [^12] | [Plug-and-Play Model-Agnostic Counterfactual Policy Synthesis for Deep Reinforcement Learning based Recommendation.](http://arxiv.org/abs/2208.05142) | 该论文提出了一种基于深度强化学习的推荐系统解决方案，通过学习模型无关的反事实综合策略来处理用户反馈数据的稀疏性。该策略能够合成具有用户兴趣相关信息的反事实数据，从而提升推荐系统的性能。 |
+| [^1] | [Collaborative Large Language Model for Recommender Systems.](http://arxiv.org/abs/2311.01343) | 本研究提出了CLLM4Rec，首个将大型语言模型与推荐系统的 ID 模式紧密集成的协同推荐算法，旨在解决语义差距、虚假相关和低效推荐等问题。通过扩展预训练语言模型的词汇表，并引入软硬提示策略，该算法能够准确地模拟用户和项目的协同与内容语义。 |
+| [^2] | [Recommendations by Concise User Profiles from Review Text.](http://arxiv.org/abs/2311.01314) | 本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。 |
+| [^3] | [VM-Rec: A Variational Mapping Approach for Cold-start User Recommendation.](http://arxiv.org/abs/2311.01304) | VM-Rec是一种用于解决冷启动用户推荐问题的变分映射方法，该方法基于生成表达能力强的嵌入的现有用户的互动，从而模拟生成冷启动用户的嵌入过程。 |
+| [^4] | [Efficient Neural Ranking using Forward Indexes and Lightweight Encoders.](http://arxiv.org/abs/2311.01263) | 使用双编码器模型的语义匹配能力和快速前向索引，提高了神经排名的效率和延迟。同时，通过预计算表示和优化索引尺寸，进一步改善了计算效率和资源消耗。 |
+| [^5] | [Navigating Complex Search Tasks with AI Copilots.](http://arxiv.org/abs/2311.01235) | 该论文介绍了使用AI副驾驶员来导航复杂搜索任务，并探讨了生成AI和辅助代理的出现对于支持复杂搜索任务的潜力和重要性。 |
+| [^6] | [Bi-Preference Learning Heterogeneous Hypergraph Networks for Session-based Recommendation.](http://arxiv.org/abs/2311.01125) | 这篇论文提出了一种双偏好学习异构超图网络（BiPNet）的方法来解决基于会话的推荐中的价格偏好问题。这个方法考虑了价格偏好与兴趣偏好的互相影响，从而提高了推荐的准确性和个性化程度。 |
+| [^7] | [Evaluation Measures of Individual Item Fairness for Recommender Systems: A Critical Study.](http://arxiv.org/abs/2311.01013) | 本研究对推荐系统中个体项的公平性评估指标进行了关键研究，并指出了现有指标存在的限制和问题。通过重新定义和纠正这些指标，或者解释为何某些限制无法解决，我们提出了改进的方法。此外，我们还进行了全面的实证分析，验证了这些改进的有效性。 |
+| [^8] | [Research Team Identification Based on Representation Learning of Academic Heterogeneous Information Network.](http://arxiv.org/abs/2311.00922) | 本文提出了一种基于学术异构信息网络表示学习的科研团队识别方法，通过利用节点级和元路径级的注意机制学习低维稠密实值向量表示，以有效识别和发现学术网络中的科研团队。 |
+| [^9] | [Is Human Culture Locked by Evolution?.](http://arxiv.org/abs/2311.00719) | 本文分析了一个名为ZeroMat的算法的社会影响，表明人类文化受进化限制，个体的文化品味可以在没有历史数据的情况下以高精度预测。同时提供了解决方案和对中国政府法规和政策的解释。 |
+| [^10] | [Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation.](http://arxiv.org/abs/2310.09874) | 本文利用大型语言模型（LLMs）来增强基于内容的推荐中的免训练数据集压缩方法，旨在通过生成文本内容来合成一个小而信息丰富的数据集，使得模型能够达到与在大型数据集上训练的模型相当的性能。 |
+| [^11] | [DiskANN++: Efficient Page-based Search over Isomorphic Mapped Graph Index using Query-sensitivity Entry Vertex.](http://arxiv.org/abs/2310.00402) | 提出了一个优化的DiskANN++方法，使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索。 |
+| [^12] | [Ranking with Popularity Bias: User Welfare under Self-Amplification Dynamics.](http://arxiv.org/abs/2305.18333) | 研究了物品流行度、质量和位置偏差对用户福利的影响，提出了通过探索减轻流行度偏见负面影响的算法。 |
+| [^13] | [Retrieval for Extremely Long Queries and Documents with RPRS: a Highly Efficient and Effective Transformer-based Re-Ranker.](http://arxiv.org/abs/2303.01200) | 该论文提出了一种基于新型比例相关度分数（RPRS）的高效有效的基于Transformer的重新排序器，用于处理极长查询和文档的检索任务。与先前的工作相比，在五个不同数据集上进行的广泛评估显示RPRS获得了显著更好的结果。此外，RPRS具有高效性，并且解决了QBD检索任务中低资源训练的问题。 |
 
 # 详细
 
-[^1]: GATSY: 音乐艺术家相似性的图注意力网络
+[^1]: 协同大型语言模型用于推荐系统
 
-    GATSY: Graph Attention Network for Music Artist Similarity. (arXiv:2311.00635v1 [cs.IR])
+    Collaborative Large Language Model for Recommender Systems. (arXiv:2311.01343v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.00635](http://arxiv.org/abs/2311.00635)
+    [http://arxiv.org/abs/2311.01343](http://arxiv.org/abs/2311.01343)
 
-    GATSY是一个基于图注意力网络的音乐艺术家相似性推荐系统，可以灵活地处理多样性和关联性，并在不依赖手工特征的情况下取得卓越的性能结果。
-
-    
-
-    艺术家相似性问题已经成为社会和科学环境中的重要课题。现代研究解决方案根据用户的喜好来促进音乐发现。然而，定义艺术家之间的相似性可能涉及多个方面，甚至与主观角度相关，并且经常影响推荐结果。本文提出了GATSY，这是一个建立在图注意力网络上的推荐系统，并由艺术家的聚类嵌入驱动。所提出的框架利用输入数据的图拓扑结构，在不过分依赖手工特征的情况下取得了卓越的性能结果。这种灵活性使我们能够在音乐数据集中引入虚构的艺术家，与以前不相关的艺术家建立联系，并根据可能的异质来源获得推荐。实验结果证明了该方法相对于现有解决方案的有效性。
-
-    The artist similarity quest has become a crucial subject in social and scientific contexts. Modern research solutions facilitate music discovery according to user tastes. However, defining similarity among artists may involve several aspects, even related to a subjective perspective, and it often affects a recommendation. This paper presents GATSY, a recommendation system built upon graph attention networks and driven by a clusterized embedding of artists. The proposed framework takes advantage of a graph topology of the input data to achieve outstanding performance results without relying heavily on hand-crafted features. This flexibility allows us to introduce fictitious artists in a music dataset, create bridges to previously unrelated artists, and get recommendations conditioned by possibly heterogeneous sources. Experimental results prove the effectiveness of the proposed method with respect to state-of-the-art solutions.
-    
-[^2]: 基于协同过滤和课程依赖性的两阶段模型的课程推荐
-
-    A Collaborative Filtering-Based Two Stage Model with Item Dependency for Course Recommendation. (arXiv:2311.00612v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.00612](http://arxiv.org/abs/2311.00612)
-
-    本论文提出了一种基于协同过滤和课程依赖性的两阶段模型的课程推荐方法，解决了缺乏评分和元数据、课程注册分布不均衡以及课程依赖建模的挑战，并在真实世界数据集上实现了0.97的AUC得分。
+    本研究提出了CLLM4Rec，首个将大型语言模型与推荐系统的 ID 模式紧密集成的协同推荐算法，旨在解决语义差距、虚假相关和低效推荐等问题。通过扩展预训练语言模型的词汇表，并引入软硬提示策略，该算法能够准确地模拟用户和项目的协同与内容语义。
 
     
 
-    推荐系统已经研究了几十年，提出了许多有前景的模型。其中，协同过滤（CF）模型由于在推荐中具有高准确性并消除了隐私问题，被认为是最成功的一种。本文将CF模型扩展到课程推荐任务中。我们指出了将现有的CF模型应用于构建课程推荐引擎时面临的几个挑战，包括缺乏评分和元数据，课程注册分布不均衡以及课程依赖建模的需求。然后，我们提出了几个解决这些挑战的想法。最终，我们将基于课程依赖性正则化的两阶段CF模型与基于课程转换网络的图形推荐器相结合，实现了0.97的AUC得分，并使用真实世界数据集进行了验证。
+    最近，越来越多的人对基于预训练的大型语言模型（LLM）开发下一代推荐系统（RS）产生了兴趣，充分利用其编码知识和推理能力。然而，自然语言与推荐任务之间的语义差距仍未得到很好的解决，导致一些问题，如虚假相关的用户/项目描述符、对用户/项目内容的低效语言建模以及通过自动回归进行低效的推荐等。在本文中，我们提出了CLLM4Rec，这是第一个紧密集成LLM范式和RS的ID范式的生成RS，旨在同时解决上述挑战。我们首先使用用户/项目ID标记扩展了预训练LLM的词汇表，以忠实地模拟用户/项目的协同和内容语义。因此，在预训练阶段，提出了一种新颖的软硬提示策略，通过语言建模有效地学习用户/项目的协同/内容标记嵌入。
 
-    Recommender systems have been studied for decades with numerous promising models been proposed. Among them, Collaborative Filtering (CF) models are arguably the most successful one due to its high accuracy in recommendation and elimination of privacy-concerned personal meta-data from training. This paper extends the usage of CF-based model to the task of course recommendation. We point out several challenges in applying the existing CF-models to build a course recommendation engine, including the lack of rating and meta-data, the imbalance of course registration distribution, and the demand of course dependency modeling. We then propose several ideas to address these challenges. Eventually, we combine a two-stage CF model regularized by course dependency with a graph-based recommender based on course-transition network, to achieve AUC as high as 0.97 with a real-world dataset.
+    Recently, there is a growing interest in developing next-generation recommender systems (RSs) based on pretrained large language models (LLMs), fully utilizing their encoded knowledge and reasoning ability. However, the semantic gap between natural language and recommendation tasks is still not well addressed, leading to multiple issues such as spuriously-correlated user/item descriptors, ineffective language modeling on user/item contents, and inefficient recommendations via auto-regression, etc. In this paper, we propose CLLM4Rec, the first generative RS that tightly integrates the LLM paradigm and ID paradigm of RS, aiming to address the above challenges simultaneously. We first extend the vocabulary of pretrained LLMs with user/item ID tokens to faithfully model the user/item collaborative and content semantics. Accordingly, in the pretraining stage, a novel soft+hard prompting strategy is proposed to effectively learn user/item collaborative/content token embeddings via language m
     
-[^3]: 贝叶斯增强的多视角注意力网络用于强大的POI推荐
+[^2]: 通过简洁的用户档案中的评论文本进行推荐
 
-    Bayes-enhanced Multi-view Attention Networks for Robust POI Recommendation. (arXiv:2311.00491v1 [cs.IR])
+    Recommendations by Concise User Profiles from Review Text. (arXiv:2311.01314v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.00491](http://arxiv.org/abs/2311.00491)
+    [http://arxiv.org/abs/2311.01314](http://arxiv.org/abs/2311.01314)
 
-    本文提出了一种贝叶斯增强的多视角注意力网络来解决POI推荐中不确定因素的问题，通过构建个人POI转换图、基于语义的POI图和基于距离的POI图来全面建模依赖关系，提高POI推荐的性能和鲁棒性。
-
-    
-
-    POI推荐在促进各种基于位置的社交网络服务方面具有实际重要性，并近年来引起了越来越多的研究关注。现有的作品通常假设用户报告的可用POI签到是用户行为的唯一描述。然而，在实际应用场景中，由于主观和客观原因（包括定位误差和用户隐私问题），签到数据可能相当不可靠，这对POI推荐的性能造成了显著的负面影响。为此，我们研究了一个新颖的问题，通过考虑用户签到的不确定因素，提出了一种贝叶斯增强的多视角注意力网络来进行强大的POI推荐。具体而言，我们构建了个人POI转换图、基于语义的POI图和基于距离的POI图，全面建模了POI之间的依赖关系。由于个人POI转换图通常稀疏且对噪声敏感，所以我们引入了贝叶斯方法来增强网络的鲁棒性和性能。
-
-    POI recommendation is practically important to facilitate various Location-Based Social Network services, and has attracted rising research attention recently. Existing works generally assume the available POI check-ins reported by users are the ground-truth depiction of user behaviors. However, in real application scenarios, the check-in data can be rather unreliable due to both subjective and objective causes including positioning error and user privacy concerns, leading to significant negative impacts on the performance of the POI recommendation. To this end, we investigate a novel problem of robust POI recommendation by considering the uncertainty factors of the user check-ins, and proposes a Bayes-enhanced Multi-view Attention Network. Specifically, we construct personal POI transition graph, the semantic-based POI graph and distance-based POI graph to comprehensively model the dependencies among the POIs. As the personal POI transition graph is usually sparse and sensitive to noi
-    
-[^4]: LLMRec: 使用图增强的大型语言模型用于推荐系统
-
-    LLMRec: Large Language Models with Graph Augmentation for Recommendation. (arXiv:2311.00423v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.00423](http://arxiv.org/abs/2311.00423)
-
-    LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。
+    本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。
 
     
 
-    数据稀疏性一直是推荐系统中的一个挑战，之前的研究尝试通过引入附加信息来解决这个问题。然而，这种方法往往会带来噪声、可用性问题和数据质量低下等副作用，从而影响对用户偏好的准确建模，进而对推荐性能产生不利影响。鉴于大型语言模型（LLM）在知识库和推理能力方面的最新进展，我们提出了一个名为LLMRec的新框架，它通过采用三种简单而有效的基于LLM的图增强策略来增强推荐系统。我们的方法利用在线平台（如Netflix，MovieLens）中丰富的内容，在三个方面增强交互图：（i）加强用户-物品交互边，（ii）增强对物品节点属性的理解，（iii）进行用户节点建模，直观地表示用户特征。
+    推荐系统对于受欢迎的物品和与用户的丰富互动（喜欢、评分等）最为成功。本研究探讨了一个困难且未被充分探索的情况，即如何支持互动非常稀疏但发布信息丰富的评论文本的用户。我们的实验研究涉及两个具有这些特点的图书社区。我们设计了一个基于Transformer的表征学习框架，涵盖用户-物品互动、物品内容和用户提供的评论。为了克服互动稀疏问题，我们设计了一些技术来选择构建简洁用户档案的最具信息量的线索。通过来自Amazon和Goodreads的数据集进行的全面实验表明，精心选择的文本片段可以实现最佳性能，甚至优于ChatGPT生成的用户档案。
 
-    The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuiti
+    Recommender systems are most successful for popular items and users with ample interactions (likes, ratings etc.). This work addresses the difficult and underexplored case of supporting users who have very sparse interactions but post informative review texts. Our experimental studies address two book communities with these characteristics. We design a framework with Transformer-based representation learning, covering user-item interactions, item content, and user-provided reviews. To overcome interaction sparseness, we devise techniques for selecting the most informative cues to construct concise user profiles. Comprehensive experiments, with datasets from Amazon and Goodreads, show that judicious selection of text snippets achieves the best performance, even in comparison to ChatGPT-generated user profiles.
     
-[^5]: 实现自动采样对于连续推荐系统中用户行为的研究
+[^3]: VM-Rec：一种用于冷启动用户推荐的变分映射方法
 
-    Towards Automatic Sampling of User Behaviors for Sequential Recommender Systems. (arXiv:2311.00388v1 [cs.IR])
+    VM-Rec: A Variational Mapping Approach for Cold-start User Recommendation. (arXiv:2311.01304v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.00388](http://arxiv.org/abs/2311.00388)
+    [http://arxiv.org/abs/2311.01304](http://arxiv.org/abs/2311.01304)
 
-    本论文提出了一个名为AutoSAM的自动采样框架，用于对连续推荐系统中的用户行为进行非均匀处理。该框架通过自适应地学习历史行为的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。
-
-    
-
-    由于连续推荐系统能够有效捕捉动态用户偏好，因此它们在推荐领域中广受欢迎。当前连续推荐系统的一个默认设置是将每个历史行为均匀地视为正向交互。然而，实际上，这种设置有可能导致性能不佳，因为每个商品对用户的兴趣有不同的贡献。例如，购买的商品应该比点击的商品更重要。因此，我们提出了一个通用的自动采样框架，名为AutoSAM，用于非均匀地处理历史行为。具体而言，AutoSAM通过在标准的连续推荐架构中增加一个采样器层，自适应地学习原始输入的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。为了克服非可微分采样操作的挑战，同时引入多个决策因素进行采样，我们还提出了进一步的方法。
-
-    Sequential recommender systems (SRS) have gained widespread popularity in recommendation due to their ability to effectively capture dynamic user preferences. One default setting in the current SRS is to uniformly consider each historical behavior as a positive interaction. Actually, this setting has the potential to yield sub-optimal performance, as each item makes a distinct contribution to the user's interest. For example, purchased items should be given more importance than clicked ones. Hence, we propose a general automatic sampling framework, named AutoSAM, to non-uniformly treat historical behaviors. Specifically, AutoSAM augments the standard sequential recommendation architecture with an additional sampler layer to adaptively learn the skew distribution of the raw input, and then sample informative sub-sets to build more generalizable SRS. To overcome the challenges of non-differentiable sampling actions and also introduce multiple decision factors for sampling, we further int
-    
-[^6]: Caseformer: 法律案例检索的预训练
-
-    Caseformer: Pre-training for Legal Case Retrieval. (arXiv:2311.00333v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.00333](http://arxiv.org/abs/2311.00333)
-
-    本文提出了一种新颖的预训练方法，名为Caseformer，在法律案例检索中解决了标注数据不足的问题，能够更好地理解和捕捉法律语料库中的关键知识和数据结构。
+    VM-Rec是一种用于解决冷启动用户推荐问题的变分映射方法，该方法基于生成表达能力强的嵌入的现有用户的互动，从而模拟生成冷启动用户的嵌入过程。
 
     
 
-    法律案例检索旨在帮助法律工作者找到与他们手头案件相关的案例，这对于保证公平和正义的法律判决非常重要。尽管最近神经检索方法在开放域检索任务（例如网络搜索）方面取得了显著的改进，但是由于对标注数据的渴望，这些方法在法律案例检索中并没有显示出优势。由于需要领域专业知识，对法律领域进行大规模训练数据的标注是困难的，因此传统的基于词汇匹配的搜索技术，如TF-IDF、BM25和查询似然，仍然在法律案例检索系统中盛行。虽然以前的研究已经设计了一些针对开放域任务中IR模型的预训练方法，但是由于无法理解和捕捉法律语料库中的关键知识和数据结构，这些方法在法律案例检索中通常是次优的。为此，我们提出了一种新颖的预训练方法。
+    冷启动问题是大多数推荐系统面临的共同挑战。传统的推荐模型在冷启动用户的互动非常有限时通常难以生成具有足够表达能力的嵌入。此外，缺乏用户的辅助内容信息加剧了挑战的存在，使得大多数冷启动方法难以应用。为了解决这个问题，我们观察到，如果模型能够为相对更多互动的现有用户生成具有表达能力的嵌入，这些用户最初也是冷启动用户，那么我们可以建立一个从少量初始互动到具有表达能力的嵌入的映射，模拟为冷启动用户生成嵌入的过程。基于这个观察，我们提出了一种变分映射方法用于冷启动用户推荐（VM-Rec）。首先，我们根据冷启动用户的初始互动生成个性化的映射函数，并进行参数优化。
 
-    Legal case retrieval aims to help legal workers find relevant cases related to their cases at hand, which is important for the guarantee of fairness and justice in legal judgments. While recent advances in neural retrieval methods have significantly improved the performance of open-domain retrieval tasks (e.g., Web search), their advantages have not been observed in legal case retrieval due to their thirst for annotated data. As annotating large-scale training data in legal domains is prohibitive due to the need for domain expertise, traditional search techniques based on lexical matching such as TF-IDF, BM25, and Query Likelihood are still prevalent in legal case retrieval systems. While previous studies have designed several pre-training methods for IR models in open-domain tasks, these methods are usually suboptimal in legal case retrieval because they cannot understand and capture the key knowledge and data structures in the legal corpus. To this end, we propose a novel pre-trainin
+    The cold-start problem is a common challenge for most recommender systems. With extremely limited interactions of cold-start users, conventional recommender models often struggle to generate embeddings with sufficient expressivity. Moreover, the absence of auxiliary content information of users exacerbates the presence of challenges, rendering most cold-start methods difficult to apply. To address this issue, our motivation is based on the observation that if a model can generate expressive embeddings for existing users with relatively more interactions, who were also initially cold-start users, then we can establish a mapping from few initial interactions to expressive embeddings, simulating the process of generating embeddings for cold-start users. Based on this motivation, we propose a Variational Mapping approach for cold-start user Recommendation (VM-Rec). Firstly, we generate a personalized mapping function for cold-start users based on their initial interactions, and parameters 
     
-[^7]: 基于变分自编码器的联邦主题模型和模型剪枝
+[^4]: 使用前向索引和轻量级编码器的高效神经排名
 
-    Federated Topic Model and Model Pruning Based on Variational Autoencoder. (arXiv:2311.00314v1 [cs.LG])
+    Efficient Neural Ranking using Forward Indexes and Lightweight Encoders. (arXiv:2311.01263v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.00314](http://arxiv.org/abs/2311.00314)
+    [http://arxiv.org/abs/2311.01263](http://arxiv.org/abs/2311.01263)
 
-    本论文提出了一种基于变分自编码器的联邦主题模型和模型剪枝方法，用于解决跨多个方参与交叉分析时的数据隐私问题，并通过神经网络模型剪枝加速模型。两种不同的方法被提出来确定模型剪枝率。
-
-    
-
-    主题建模已经成为在大规模文档集合中发现模式和主题的有价值工具。然而，当跨多个方参与交叉分析时，数据隐私成为一个关键问题。联邦主题建模已经被开发出来解决这个问题，允许多个参与方在保护隐私的同时共同训练模型。然而，在联邦场景中存在通信和性能挑战。为了解决上述问题，本文提出了一种建立联邦主题模型并确保每个节点隐私的方法，并使用神经网络模型剪枝加速模型，其中客户端定期将模型神经元累积梯度和模型权重发送给服务器，服务器对模型进行剪枝。为了满足不同的要求，提出了两种确定模型剪枝率的不同方法。
-
-    Topic modeling has emerged as a valuable tool for discovering patterns and topics within large collections of documents. However, when cross-analysis involves multiple parties, data privacy becomes a critical concern. Federated topic modeling has been developed to address this issue, allowing multiple parties to jointly train models while protecting pri-vacy. However, there are communication and performance challenges in the federated sce-nario. In order to solve the above problems, this paper proposes a method to establish a federated topic model while ensuring the privacy of each node, and use neural network model pruning to accelerate the model, where the client periodically sends the model neu-ron cumulative gradients and model weights to the server, and the server prunes the model. To address different requirements, two different methods are proposed to determine the model pruning rate. The first method involves slow pruning throughout the entire model training process, which has 
-    
-[^8]: DistDNAS: 在2小时内高效搜索特征交互
-
-    DistDNAS: Search Efficient Feature Interactions within 2 Hours. (arXiv:2311.00231v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.00231](http://arxiv.org/abs/2311.00231)
-
-    DistDNAS是一种在推荐系统中高效搜索特征交互的解决方案，通过分布式搜索和选择最佳交互模块，实现了巨大的加速并将搜索时间从2天缩短到2小时。
+    使用双编码器模型的语义匹配能力和快速前向索引，提高了神经排名的效率和延迟。同时，通过预计算表示和优化索引尺寸，进一步改善了计算效率和资源消耗。
 
     
 
-    在推荐系统中，搜索效率和服务效率是构建特征交互和加快模型开发过程的两个主要方面。在大规模基准测试中，由于大量数据上的顺序工作流程，搜索最佳特征交互设计需要付出巨大成本。此外，融合各种来源、顺序和数学运算的交互会引入潜在的冲突和额外的冗余，导致性能和服务成本的次优权衡。本文提出了DistDNAS作为一种简洁的解决方案，可以快速且高效地进行特征交互设计。DistDNAS提出了一个超级网络，将不同顺序和类型的交互模块作为搜索空间进行整合。为了优化搜索效率，DistDNAS在不同的数据日期上分布式搜索并汇总选择最佳的交互模块，实现了超过25倍的加速，将搜索成本从2天减少到2小时。
+    基于双编码器的密集检索模型已经成为信息检索领域的标准。它们采用了大型的基于Transformer的语言模型，但这些模型在资源和延迟方面效率低下。我们提出了快速前向索引——利用双编码器模型的语义匹配能力进行高效和有效的重新排名。我们的框架可以在非常高的检索深度下进行重新排名，并通过分数插值结合了词汇匹配和语义匹配的优点。此外，为了减轻双编码器的局限性，我们解决了两个主要挑战：首先，通过预计算表示、避免不必要的计算或降低编码器的复杂度，提高了计算效率，降低了排名的资源消耗和延迟。其次，我们优化了索引的内存占用和维护成本；我们提出了两种互补的技术来减小索引的尺寸。
 
-    Search efficiency and serving efficiency are two major axes in building feature interactions and expediting the model development process in recommender systems. On large-scale benchmarks, searching for the optimal feature interaction design requires extensive cost due to the sequential workflow on the large volume of data. In addition, fusing interactions of various sources, orders, and mathematical operations introduces potential conflicts and additional redundancy toward recommender models, leading to sub-optimal trade-offs in performance and serving cost. In this paper, we present DistDNAS as a neat solution to brew swift and efficient feature interaction design. DistDNAS proposes a supernet to incorporate interaction modules of varying orders and types as a search space. To optimize search efficiency, DistDNAS distributes the search and aggregates the choice of optimal interaction modules on varying data dates, achieving over 25x speed-up and reducing search cost from 2 days to 2 
+    Dual-encoder-based dense retrieval models have become the standard in IR. They employ large Transformer-based language models, which are notoriously inefficient in terms of resources and latency. We propose Fast-Forward indexes -- vector forward indexes which exploit the semantic matching capabilities of dual-encoder models for efficient and effective re-ranking. Our framework enables re-ranking at very high retrieval depths and combines the merits of both lexical and semantic matching via score interpolation. Furthermore, in order to mitigate the limitations of dual-encoders, we tackle two main challenges: Firstly, we improve computational efficiency by either pre-computing representations, avoiding unnecessary computations altogether, or reducing the complexity of encoders. This allows us to considerably improve ranking efficiency and latency. Secondly, we optimize the memory footprint and maintenance cost of indexes; we propose two complementary techniques to reduce the index size a
     
-[^9]: 不使用暴露数据的基于因果关系的推荐倾向估计
+[^5]: 使用AI副驾驶员导航复杂搜索任务
 
-    Estimating Propensity for Causality-based Recommendation without Exposure Data. (arXiv:2310.20388v1 [cs.IR])
+    Navigating Complex Search Tasks with AI Copilots. (arXiv:2311.01235v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.20388](http://arxiv.org/abs/2310.20388)
+    [http://arxiv.org/abs/2311.01235](http://arxiv.org/abs/2311.01235)
 
-    本文提出了一个新的框架，可以在没有暴露数据的情况下估计基于因果关系的推荐的倾向和暴露，弥补了现有方法的不足。
-
-    
-
-    基于因果关系的推荐系统关注用户与物品交互的因果效应，即物品的推荐或暴露给用户的情况，而不是传统的基于相关性的推荐。由于对用户、卖家和平台都有多方面的好处，这类推荐系统越来越受欢迎。然而，现有的基于因果关系的推荐方法需要额外的输入，即暴露数据和/或倾向得分（即暴露的概率）进行训练。由于技术或隐私限制，现实世界中往往无法获得这些对于建模推荐因果关系至关重要的数据。在本文中，我们提出了一个新的框架，名为基于因果关系的倾向估计（PropCare）。它可以从一种更实际的设置中估计倾向和暴露，即只有交互数据可用，没有关于暴露或倾向的任何真实数据。
-
-    Causality-based recommendation systems focus on the causal effects of user-item interactions resulting from item exposure (i.e., which items are recommended or exposed to the user), as opposed to conventional correlation-based recommendation. They are gaining popularity due to their multi-sided benefits to users, sellers and platforms alike. However, existing causality-based recommendation methods require additional input in the form of exposure data and/or propensity scores (i.e., the probability of exposure) for training. Such data, crucial for modeling causality in recommendation, are often not available in real-world situations due to technical or privacy constraints. In this paper, we bridge the gap by proposing a new framework, called Propensity Estimation for Causality-based Recommendation (PropCare). It can estimate the propensity and exposure from a more practical setup, where only interaction data are available without any ground truth on exposure or propensity in training an
-    
-[^10]: VR PreM+：一个沉浸式的博物馆导览预学习分支可视化系统
-
-    VR PreM+: An Immersive Pre-learning Branching Visualization System for Museum Tours. (arXiv:2310.13294v1 [cs.HC])
-
-    [http://arxiv.org/abs/2310.13294](http://arxiv.org/abs/2310.13294)
-
-    VR PreM+是一个沉浸式的博物馆导览预学习分支可视化系统，通过关键字信息检索在动态的3D空间中管理和连接各种内容来源，提高了沟通和数据比较的能力，有望应用于研究和教育等领域。
+    该论文介绍了使用AI副驾驶员来导航复杂搜索任务，并探讨了生成AI和辅助代理的出现对于支持复杂搜索任务的潜力和重要性。
 
     
 
-    我们提出了VR PreM+，一个创新的VR系统，旨在增强传统电脑屏幕以外的网络探索。与静态的2D显示不同，VR PreM+利用3D环境创建了沉浸式的预学习体验。通过关键字信息检索，用户可以在动态的3D空间中管理和连接各种内容来源，提高沟通和数据比较的能力。我们进行了初步和用户研究，证明了高效的信息检索、增加了用户参与度和更强的存在感。这些发现为未来的VR信息系统提供了三个设计指导原则：显示、交互和以用户为中心的设计。VR PreM+弥补了传统的网络浏览和沉浸式VR之间的差距，提供了一种交互式和全面的信息获取方法。它在研究、教育等领域具有潜力。
+    正如信息检索(IR)研究界的许多人所知和欣赏的那样，搜索远未解决。每天都有数百万人在搜索引擎上面对任务的困难。他们的困难通常与任务的内在复杂性以及搜索系统无法完全理解任务和提供相关结果有关。任务激发了搜索，创建了搜索者尝试连接/解决的差距/问题情况，并在他们处理不同任务方面时驱动搜索行为。复杂搜索任务需要的不仅是基本事实查找或搜索的支持。支持复杂任务的方法研究包括生成查询和网站建议，个性化和上下文化搜索，以及开发新的搜索体验，包括跨时间和空间。最近兴起的生成人工智能(AI)和基于该技术的辅助代理，或者说副驾驶员，的出现。
 
-    We present VR PreM+, an innovative VR system designed to enhance web exploration beyond traditional computer screens. Unlike static 2D displays, VR PreM+ leverages 3D environments to create an immersive pre-learning experience. Using keyword-based information retrieval allows users to manage and connect various content sources in a dynamic 3D space, improving communication and data comparison. We conducted preliminary and user studies that demonstrated efficient information retrieval, increased user engagement, and a greater sense of presence. These findings yielded three design guidelines for future VR information systems: display, interaction, and user-centric design. VR PreM+ bridges the gap between traditional web browsing and immersive VR, offering an interactive and comprehensive approach to information acquisition. It holds promise for research, education, and beyond.
+    As many of us in the information retrieval (IR) research community know and appreciate, search is far from being a solved problem. Millions of people struggle with tasks on search engines every day. Often, their struggles relate to the intrinsic complexity of their task and the failure of search systems to fully understand the task and serve relevant results. The task motivates the search, creating the gap/problematic situation that searchers attempt to bridge/resolve and drives search behavior as they work through different task facets. Complex search tasks require more than support for rudimentary fact finding or re-finding. Research on methods to support complex tasks includes work on generating query and website suggestions, personalizing and contextualizing search, and developing new search experiences, including those that span time and space. The recent emergence of generative artificial intelligence (AI) and the arrival of assistive agents, or copilots, based on this technology
     
-[^11]: 去噪自助学习用于社交推荐
+[^6]: 对于基于会话的推荐的双偏好学习异构超图网络
 
-    Denoised Self-Augmented Learning for Social Recommendation. (arXiv:2305.12685v2 [cs.IR] UPDATED)
+    Bi-Preference Learning Heterogeneous Hypergraph Networks for Session-based Recommendation. (arXiv:2311.01125v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.12685](http://arxiv.org/abs/2305.12685)
+    [http://arxiv.org/abs/2311.01125](http://arxiv.org/abs/2311.01125)
 
-    Denoised Self-Augmented Learning paradigm (DSL) is proposed for social recommendation, which addresses the challenge of noisy social information by preserving relevant social relations and reducing the negative impact of interest-irrelevant connections.
-
-    
-
-    社交推荐在电子商务和在线流媒体等各种在线应用中越来越受关注，在这些应用中，利用社交信息可以改善用户-项目交互建模。最近，自我监督学习（SSL）通过增强学习任务在解决数据稀疏性方面被证明非常有效。受此启发，研究人员尝试将SSL引入社交推荐中，通过补充主要的监督任务以社交感知的自我监督信号。然而，由于广泛存在的与兴趣无关的社交连接（如同事或同学）导致社交信息在描述用户偏好时不可避免地受到噪声的影响。为了解决这个挑战，我们提出了一种新颖的社交推荐模型，称为去噪自助学习范式（DSL）。我们的模型不仅保留有用的社交关系以增强用户-项目交互建模，还实现了去噪处理，以减少无关兴趣的社交连接对用户偏好建模的负面影响。
-
-    Social recommendation is gaining increasing attention in various online applications, including e-commerce and online streaming, where social information is leveraged to improve user-item interaction modeling. Recently, Self-Supervised Learning (SSL) has proven to be remarkably effective in addressing data sparsity through augmented learning tasks. Inspired by this, researchers have attempted to incorporate SSL into social recommendation by supplementing the primary supervised task with social-aware self-supervised signals. However, social information can be unavoidably noisy in characterizing user preferences due to the ubiquitous presence of interest-irrelevant social connections, such as colleagues or classmates who do not share many common interests. To address this challenge, we propose a novel social recommender called the Denoised Self-Augmented Learning paradigm (DSL). Our model not only preserves helpful social relations to enhance user-item interaction modeling but also enabl
-    
-[^12]: Plug-and-Play模型无关的反事实策略综合用于基于深度强化学习的推荐系统
-
-    Plug-and-Play Model-Agnostic Counterfactual Policy Synthesis for Deep Reinforcement Learning based Recommendation. (arXiv:2208.05142v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2208.05142](http://arxiv.org/abs/2208.05142)
-
-    该论文提出了一种基于深度强化学习的推荐系统解决方案，通过学习模型无关的反事实综合策略来处理用户反馈数据的稀疏性。该策略能够合成具有用户兴趣相关信息的反事实数据，从而提升推荐系统的性能。
+    这篇论文提出了一种双偏好学习异构超图网络（BiPNet）的方法来解决基于会话的推荐中的价格偏好问题。这个方法考虑了价格偏好与兴趣偏好的互相影响，从而提高了推荐的准确性和个性化程度。
 
     
 
-    最近推荐系统的进展证明了强化学习（RL）处理用户与推荐系统之间动态演化过程的潜力。然而，学习训练最佳RL代理通常在推荐系统的常见稀疏用户反馈数据中是不切实际的。为了避免当前基于RL的推荐系统缺乏交互的问题，我们提出了学习通用的模型无关的反事实综合（MACS）策略，用于合成反事实用户交互数据增强。反事实综合策略旨在合成反事实状态，同时保留原始状态中与用户兴趣相关的重要信息，建立在我们设计的两种不同训练方法之上：专家演示学习和联合训练。因此，每个反事实数据的综合都基于当前推荐代理与环境的交互来适应用户的动态。
+    基于会话的推荐旨在基于匿名行为序列预测下一个购买的物品。许多经济研究表明，物品价格是影响用户购买决策的关键因素。然而，现有的基于会话的推荐方法只关注捕捉用户的兴趣偏好，忽略了用户的价格偏好。实际上，有两个主要的挑战阻碍我们获取价格偏好。首先，价格偏好与各种物品特征（即类别和品牌）密切相关，这要求我们从异构信息中挖掘价格偏好。其次，价格偏好和兴趣偏好是相互依赖的，共同决定用户的选择，这要求我们同时考虑价格和兴趣偏好进行意图建模。为了应对上述挑战，我们提出了一种新颖的基于会话的推荐方法——双偏好学习异构超图网络（BiPNet）。
 
-    Recent advances in recommender systems have proved the potential of Reinforcement Learning (RL) to handle the dynamic evolution processes between users and recommender systems. However, learning to train an optimal RL agent is generally impractical with commonly sparse user feedback data in the context of recommender systems. To circumvent the lack of interaction of current RL-based recommender systems, we propose to learn a general Model-Agnostic Counterfactual Synthesis (MACS) Policy for counterfactual user interaction data augmentation. The counterfactual synthesis policy aims to synthesise counterfactual states while preserving significant information in the original state relevant to the user's interests, building upon two different training approaches we designed: learning with expert demonstrations and joint training. As a result, the synthesis of each counterfactual data is based on the current recommendation agent's interaction with the environment to adapt to users' dynamic i
+    Session-based recommendation intends to predict next purchased items based on anonymous behavior sequences. Numerous economic studies have revealed that item price is a key factor influencing user purchase decisions. Unfortunately, existing methods for session-based recommendation only aim at capturing user interest preference, while ignoring user price preference. Actually, there are primarily two challenges preventing us from accessing price preference. Firstly, the price preference is highly associated to various item features (i.e., category and brand), which asks us to mine price preference from heterogeneous information. Secondly, price preference and interest preference are interdependent and collectively determine user choice, necessitating that we jointly consider both price and interest preference for intent modeling. To handle above challenges, we propose a novel approach Bi-Preference Learning Heterogeneous Hypergraph Networks (BiPNet) for session-based recommendation. Spec
+    
+[^7]: 评估个体项公平性的推荐系统评估指标：一项关键研究
+
+    Evaluation Measures of Individual Item Fairness for Recommender Systems: A Critical Study. (arXiv:2311.01013v1 [cs.IR])
+
+    [http://arxiv.org/abs/2311.01013](http://arxiv.org/abs/2311.01013)
+
+    本研究对推荐系统中个体项的公平性评估指标进行了关键研究，并指出了现有指标存在的限制和问题。通过重新定义和纠正这些指标，或者解释为何某些限制无法解决，我们提出了改进的方法。此外，我们还进行了全面的实证分析，验证了这些改进的有效性。
+
+    
+
+    公平性是推荐系统中的一个新兴且具有挑战性的话题。近年来，出现了各种评估和改善公平性的方式。本研究对推荐系统中现有的公平性评估指标进行了研究。具体来说，我们仅关注个体项的曝光度公平性评估指标，旨在量化个体项在向用户推荐时的差异，与用户对项的相关性无关。我们收集了所有这些指标，并对它们的理论属性进行了批判性分析。我们发现每个指标都存在一系列限制，这些限制可能使得受影响的指标难以解释、计算或用于比较推荐。我们通过重新定义或纠正受影响的指标来解决这些限制，或者我们解释了为什么某些限制无法解决。我们还对这些公平性指标的原始版本和我们纠正后的版本进行了全面的实证分析。
+
+    Fairness is an emerging and challenging topic in recommender systems. In recent years, various ways of evaluating and therefore improving fairness have emerged. In this study, we examine existing evaluation measures of fairness in recommender systems. Specifically, we focus solely on exposure-based fairness measures of individual items that aim to quantify the disparity in how individual items are recommended to users, separate from item relevance to users. We gather all such measures and we critically analyse their theoretical properties. We identify a series of limitations in each of them, which collectively may render the affected measures hard or impossible to interpret, to compute, or to use for comparing recommendations. We resolve these limitations by redefining or correcting the affected measures, or we argue why certain limitations cannot be resolved. We further perform a comprehensive empirical analysis of both the original and our corrected versions of these fairness measure
+    
+[^8]: 基于学术异构信息网络表示学习的研究团队识别
+
+    Research Team Identification Based on Representation Learning of Academic Heterogeneous Information Network. (arXiv:2311.00922v1 [cs.IR])
+
+    [http://arxiv.org/abs/2311.00922](http://arxiv.org/abs/2311.00922)
+
+    本文提出了一种基于学术异构信息网络表示学习的科研团队识别方法，通过利用节点级和元路径级的注意机制学习低维稠密实值向量表示，以有效识别和发现学术网络中的科研团队。
+
+    
+
+    现实世界中的学术网络通常可以由由多类型节点和关系组成的异构信息网络来描述。现有关于同构信息网络的表示学习方法缺乏对异构信息网络的探索能力，无法应用于异构信息网络。针对从由庞大复杂的科技大数据组成的学术异构信息网络中有效识别和发现科研团队的实际需求，本文提出了一种基于学术异构信息网络表示学习的科研团队识别方法。该方法利用节点级和元路径级的注意机制，在保留网络中节点的丰富拓扑信息和语义信息的基础上，学习低维稠密实值向量表示。
+
+    Academic networks in the real world can usually be described by heterogeneous information networks composed of multi-type nodes and relationships. Some existing research on representation learning for homogeneous information networks lacks the ability to explore heterogeneous information networks in heterogeneous information networks. It cannot be applied to heterogeneous information networks. Aiming at the practical needs of effectively identifying and discovering scientific research teams from the academic heterogeneous information network composed of massive and complex scientific and technological big data, this paper proposes a scientific research team identification method based on representation learning of academic heterogeneous information networks. The attention mechanism at node level and meta-path level learns low-dimensional, dense and real-valued vector representations on the basis of retaining the rich topological information of nodes in the network and the semantic info
+    
+[^9]: 人类文化受进化限制吗？
+
+    Is Human Culture Locked by Evolution?. (arXiv:2311.00719v1 [cs.SI])
+
+    [http://arxiv.org/abs/2311.00719](http://arxiv.org/abs/2311.00719)
+
+    本文分析了一个名为ZeroMat的算法的社会影响，表明人类文化受进化限制，个体的文化品味可以在没有历史数据的情况下以高精度预测。同时提供了解决方案和对中国政府法规和政策的解释。
+
+    
+
+    人类文化已经演化了数千年，在互联网时代蓬勃发展。由于大数据的可用性，我们可以通过分析诸如MovieLens和豆瓣等网站上的用户项目评分值等表示来研究人类文化。工业工人已经将推荐系统应用于大数据以预测用户行为并促进网络流量。在本文中，我们分析了名为ZeroMat的算法的社会影响，以显示人类文化处于一种状态中，其中个人的文化品味可以在没有历史数据的情况下以高精度预测。我们还提供了解决这个问题的解决方案，并解释了当前中国政府的法规和政策。
+
+    Human culture has evolved for thousands of years and thrived in the era of Internet. Due to the availability of big data, we could do research on human culture by analyzing its representation such as user item rating values on websites like MovieLens and Douban. Industrial workers have applied recommender systems in big data to predict user behavior and promote web traffic. In this paper, we analyze the social impact of an algorithm named ZeroMat to show that human culture is locked into a state where individual's cultural taste is predictable at high precision without historic data. We also provide solutions to this problem and interpretation of current Chinese government's regulations and policies.
+    
+[^10]: 利用大型语言模型（LLMs）增强基于内容的推荐的免训练数据集压缩
+
+    Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation. (arXiv:2310.09874v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2310.09874](http://arxiv.org/abs/2310.09874)
+
+    本文利用大型语言模型（LLMs）来增强基于内容的推荐中的免训练数据集压缩方法，旨在通过生成文本内容来合成一个小而信息丰富的数据集，使得模型能够达到与在大型数据集上训练的模型相当的性能。
+
+    
+
+    现代内容推荐（CBR）技术利用物品的内容信息为用户提供个性化服务，但在大型数据集上的资源密集型训练存在问题。为解决这个问题，本文探讨了对文本CBR进行数据集压缩的方法。数据集压缩的目标是合成一个小且信息丰富的数据集，使模型性能可以与在大型数据集上训练的模型相媲美。现有的压缩方法针对连续数据（如图像或嵌入向量）的分类任务而设计，直接应用于CBR存在局限性。为了弥补这一差距，我们研究了基于内容的推荐中高效的数据集压缩方法。受到大型语言模型（LLMs）在文本理解和生成方面出色的能力的启发，我们利用LLMs在数据集压缩期间生成文本内容。为了处理涉及用户和物品的交互数据，我们设计了一个双...
+
+    Modern techniques in Content-based Recommendation (CBR) leverage item content information to provide personalized services to users, but suffer from resource-intensive training on large datasets. To address this issue, we explore the dataset condensation for textual CBR in this paper. The goal of dataset condensation is to synthesize a small yet informative dataset, upon which models can achieve performance comparable to those trained on large datasets. While existing condensation approaches are tailored to classification tasks for continuous data like images or embeddings, direct application of them to CBR has limitations. To bridge this gap, we investigate efficient dataset condensation for content-based recommendation. Inspired by the remarkable abilities of large language models (LLMs) in text comprehension and generation, we leverage LLMs to empower the generation of textual content during condensation. To handle the interaction data involving both users and items, we devise a dua
+    
+[^11]: DiskANN++: 使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索
+
+    DiskANN++: Efficient Page-based Search over Isomorphic Mapped Graph Index using Query-sensitivity Entry Vertex. (arXiv:2310.00402v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2310.00402](http://arxiv.org/abs/2310.00402)
+
+    提出了一个优化的DiskANN++方法，使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索。
+
+    
+
+    给定一个向量数据集X和一个查询向量xq，基于图的近似最近邻搜索(ANNS)旨在构建一个图索引G，并通过在G上搜索来近似返回与xq的最小距离向量。基于图的ANNS的主要缺点是图索引太大，无法适应尤其是大规模X的内存。为了解决这个问题，提出了一种基于产品量化(PQ)的混合方法DiskANN，它在内存中存储低维度的PQ索引，并在SSD中保留图索引，从而减小内存开销同时确保高搜索准确性。然而，它存在两个重要的I/O问题，严重影响了整体效率：(1)从入口顶点到查询邻域的长路径导致大量的I/O请求，以及(2)在路由过程中的冗余I/O请求。为了解决上述问题，我们提出了优化的DiskANN++。
+
+    Given a vector dataset $\mathcal{X}$ and a query vector $\vec{x}_q$, graph-based Approximate Nearest Neighbor Search (ANNS) aims to build a graph index $G$ and approximately return vectors with minimum distances to $\vec{x}_q$ by searching over $G$. The main drawback of graph-based ANNS is that a graph index would be too large to fit into the memory especially for a large-scale $\mathcal{X}$. To solve this, a Product Quantization (PQ)-based hybrid method called DiskANN is proposed to store a low-dimensional PQ index in memory and retain a graph index in SSD, thus reducing memory overhead while ensuring a high search accuracy. However, it suffers from two I/O issues that significantly affect the overall efficiency: (1) long routing path from an entry vertex to the query's neighborhood that results in large number of I/O requests and (2) redundant I/O requests during the routing process. We propose an optimized DiskANN++ to overcome above issues. Specifically, for the first issue, we pre
+    
+[^12]: 具有流行度偏见的排名：自增强动态下的用户福利
+
+    Ranking with Popularity Bias: User Welfare under Self-Amplification Dynamics. (arXiv:2305.18333v1 [cs.IR])
+
+    [http://arxiv.org/abs/2305.18333](http://arxiv.org/abs/2305.18333)
+
+    研究了物品流行度、质量和位置偏差对用户福利的影响，提出了通过探索减轻流行度偏见负面影响的算法。
+
+    
+
+    虽然已经确认流行度偏见在推荐（和其他基于排名的）系统中发挥作用，但其对用户福利的影响的详细分析仍然缺乏。我们提出了一种通用机制，通过它，物品的流行度、质量和位置偏差可以影响用户选择，并且可以负面影响各种推荐策略的集体用户效用。我们将问题表述为非平稳上下文脱靶机，强调不是为了消除流行度偏见而是为了减轻其负面影响而进行探索的重要性。首先，普通的有流行度偏差的推荐系统会通过混淆物品质量和流行度而引发线性遗憾。更一般地，我们展示了即使在线性设置下，由于流行度偏见的混淆效应，物品质量的可识别性也可能无法实现。然而，在足够变异的假设下，我们开发了一种高效的类UCB算法，并证明了有效的遗憾保证。我们通过实验验证了我们提出的算法的有效性，并证实了流行度偏见的负面影响。
+
+    While popularity bias is recognized to play a role in recommmender (and other ranking-based) systems, detailed analyses of its impact on user welfare have largely been lacking. We propose a general mechanism by which item popularity, item quality, and position bias can impact user choice, and how it can negatively impact the collective user utility of various recommender policies. Formulating the problem as a non-stationary contextual bandit, we highlight the importance of exploration, not to eliminate popularity bias, but to mitigate its negative effects. First, naive popularity-biased recommenders are shown to induce linear regret by conflating item quality and popularity. More generally, we show that, even in linear settings, identifiability of item quality may not be possible due to the confounding effects of popularity bias. However, under sufficient variability assumptions, we develop an efficient UCB-style algorithm and prove efficient regret guarantees. We complement our analys
+    
+[^13]: 使用RPRS的高效有效的基于Transformer的重新排序器处理极长查询和文档的检索
+
+    Retrieval for Extremely Long Queries and Documents with RPRS: a Highly Efficient and Effective Transformer-based Re-Ranker. (arXiv:2303.01200v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2303.01200](http://arxiv.org/abs/2303.01200)
+
+    该论文提出了一种基于新型比例相关度分数（RPRS）的高效有效的基于Transformer的重新排序器，用于处理极长查询和文档的检索任务。与先前的工作相比，在五个不同数据集上进行的广泛评估显示RPRS获得了显著更好的结果。此外，RPRS具有高效性，并且解决了QBD检索任务中低资源训练的问题。
+
+    
+
+    在信息检索中，使用极长查询和文档进行检索是一个众所周知且具有挑战性的任务，通常称为查询-文档（QBD）检索。先前的工作中，专门设计用于处理长输入序列的Transformer模型在QBD任务中并没有展现出很高的效果。我们提出了一种基于新型比例相关度分数（RPRS）的重新排序器，用于计算查询与前k个候选文档之间的相关度分数。我们进行了广泛的评估，结果显示RPRS在五个不同数据集上比现有模型取得了显著更好的结果。此外，RPRS非常高效，因为在查询时间之前可以对所有文档进行预处理、嵌入和索引，使得我们的重新排序器具有O(N)的复杂度，其中N是查询和候选文档中句子的总数。此外，我们的方法解决了QBD检索任务中低资源训练的问题，因为它不需要大量的训练数据。
+
+    Retrieval with extremely long queries and documents is a well-known and challenging task in information retrieval and is commonly known as Query-by-Document (QBD) retrieval. Specifically designed Transformer models that can handle long input sequences have not shown high effectiveness in QBD tasks in previous work. We propose a Re-Ranker based on the novel Proportional Relevance Score (RPRS) to compute the relevance score between a query and the top-k candidate documents. Our extensive evaluation shows RPRS obtains significantly better results than the state-of-the-art models on five different datasets. Furthermore, RPRS is highly efficient since all documents can be pre-processed, embedded, and indexed before query time which gives our re-ranker the advantage of having a complexity of O(N) where N is the total number of sentences in the query and candidate documents. Furthermore, our method solves the problem of the low-resource training in QBD retrieval tasks as it does not need larg
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "H-NeXt: The next step towards roto-translation invariant networks. (arXiv:2311.01111v1 [cs.CV])",
+    "abstract": "The widespread popularity of equivariant networks underscores the significance of parameter efficient models and effective use of training data. At a time when robustness to unseen deformations is becoming increasingly important, we present H-NeXt, which bridges the gap between equivariance and invariance. H-NeXt is a parameter-efficient roto-translation invariant network that is trained without a single augmented image in the training set. Our network comprises three components: an equivariant backbone for learning roto-translation independent features, an invariant pooling layer for discarding roto-translation information, and a classification layer. H-NeXt outperforms the state of the art in classification on unaugmented training sets and augmented test sets of MNIST and CIFAR-10.",
+    "link": "http://arxiv.org/abs/2311.01111",
+    "context": "Title: H-NeXt: The next step towards roto-translation invariant networks. (arXiv:2311.01111v1 [cs.CV])\nAbstract: The widespread popularity of equivariant networks underscores the significance of parameter efficient models and effective use of training data. At a time when robustness to unseen deformations is becoming increasingly important, we present H-NeXt, which bridges the gap between equivariance and invariance. H-NeXt is a parameter-efficient roto-translation invariant network that is trained without a single augmented image in the training set. Our network comprises three components: an equivariant backbone for learning roto-translation independent features, an invariant pooling layer for discarding roto-translation information, and a classification layer. H-NeXt outperforms the state of the art in classification on unaugmented training sets and augmented test sets of MNIST and CIFAR-10.",
+    "path": "papers/23/11/2311.01111.json",
+    "total_tokens": 763,
+    "translated_title": "H-NeXt：迈向旋转平移不变网络的下一步",
+    "translated_abstract": "等变网络的广泛流行凸显了参数高效模型和有效利用训练数据的重要性。在对未知变形的鲁棒性变得越来越重要的时候，我们提出了H-NeXt框架，填补了等变性和不变性之间的差距。H-NeXt是一个参数高效的旋转平移不变网络，训练集中没有任何增强图像。我们的网络包括三个组件：一个等变的主干网络用于学习旋转平移不相关的特征，一个不变的汇聚层用于丢弃旋转平移信息，和一个分类层。H-NeXt在MNIST和CIFAR-10的无增强训练集和增强测试集上优于现有技术水平。",
+    "tldr": "H-NeXt是一个参数高效的旋转平移不变网络，通过等变和不变的组件实现鲁棒性和性能优于现有技术水平。",
+    "en_tdlr": "H-NeXt is a parameter-efficient roto-translation invariant network that achieves robustness and outperforms the state of the art through its equivariant and invariant components."
+}

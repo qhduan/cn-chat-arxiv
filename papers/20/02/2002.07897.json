@@ -1,0 +1,11 @@
+{
+    "title": "LocoGAN -- Locally Convolutional GAN. (arXiv:2002.07897v2 [eess.IV] UPDATED)",
+    "abstract": "In the paper we construct a fully convolutional GAN model: LocoGAN, which latent space is given by noise-like images of possibly different resolutions. The learning is local, i.e. we process not the whole noise-like image, but the sub-images of a fixed size. As a consequence LocoGAN can produce images of arbitrary dimensions e.g. LSUN bedroom data set. Another advantage of our approach comes from the fact that we use the position channels, which allows the generation of fully periodic (e.g. cylindrical panoramic images) or almost periodic ,,infinitely long\" images (e.g. wall-papers).",
+    "link": "http://arxiv.org/abs/2002.07897",
+    "context": "Title: LocoGAN -- Locally Convolutional GAN. (arXiv:2002.07897v2 [eess.IV] UPDATED)\nAbstract: In the paper we construct a fully convolutional GAN model: LocoGAN, which latent space is given by noise-like images of possibly different resolutions. The learning is local, i.e. we process not the whole noise-like image, but the sub-images of a fixed size. As a consequence LocoGAN can produce images of arbitrary dimensions e.g. LSUN bedroom data set. Another advantage of our approach comes from the fact that we use the position channels, which allows the generation of fully periodic (e.g. cylindrical panoramic images) or almost periodic ,,infinitely long\" images (e.g. wall-papers).",
+    "path": "papers/20/02/2002.07897.json",
+    "total_tokens": 685,
+    "translated_title": "LocoGAN -- 本地卷积生成对抗网络",
+    "translated_abstract": "本文中，我们构建了一个完全卷积的生成对抗网络模型：LocoGAN，其中潜空间由可能具有不同分辨率的噪声图像表示。学习过程是局部的，即我们处理的不是整个噪声图像，而是固定尺寸的子图像。因此，LocoGAN能够生成任意尺寸的图像，比如LSUN卧室数据集。我们的方法的另一个优点是我们使用了位置通道，这允许生成完全周期性的（例如圆柱形全景图像）或几乎周期性的“无限长”图像（例如壁纸）。",
+    "tldr": "LocoGAN是一个完全卷积的生成对抗网络模型，使用了局部学习和位置通道技术，能够生成任意维度的图像，包括周期性或无限长的图像。"
+}
