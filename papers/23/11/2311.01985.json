@@ -1,0 +1,11 @@
+{
+    "title": "Maximizing Portfolio Predictability with Machine Learning. (arXiv:2311.01985v1 [q-fin.CP])",
+    "abstract": "We construct the maximally predictable portfolio (MPP) of stocks using machine learning. Solving for the optimal constrained weights in the multi-asset MPP gives portfolios with a high monthly coefficient of determination, given the sample covariance matrix of predicted return errors from a machine learning model. Various models for the covariance matrix are tested. The MPPs of S&P 500 index constituents with estimated returns from Elastic Net, Random Forest, and Support Vector Regression models can outperform or underperform the index depending on the time period. Portfolios that take advantage of the high predictability of the MPP's returns and employ a Kelly criterion style strategy consistently outperform the benchmark.",
+    "link": "http://arxiv.org/abs/2311.01985",
+    "context": "Title: Maximizing Portfolio Predictability with Machine Learning. (arXiv:2311.01985v1 [q-fin.CP])\nAbstract: We construct the maximally predictable portfolio (MPP) of stocks using machine learning. Solving for the optimal constrained weights in the multi-asset MPP gives portfolios with a high monthly coefficient of determination, given the sample covariance matrix of predicted return errors from a machine learning model. Various models for the covariance matrix are tested. The MPPs of S&P 500 index constituents with estimated returns from Elastic Net, Random Forest, and Support Vector Regression models can outperform or underperform the index depending on the time period. Portfolios that take advantage of the high predictability of the MPP's returns and employ a Kelly criterion style strategy consistently outperform the benchmark.",
+    "path": "papers/23/11/2311.01985.json",
+    "total_tokens": 760,
+    "translated_title": "用机器学习最大化投资组合的可预测性",
+    "translated_abstract": "我们利用机器学习构建了具有最大可预测性的股票投资组合(MPP)。通过求解多资产MPP中的最优约束权重，可以得到具有高月度决定系数的投资组合，给定机器学习模型预测回报误差的样本协方差矩阵。我们测试了多种协方差矩阵模型。利用弹性网络、随机森林和支持向量回归模型估计的标准普尔500指数成分股的MPP在不同时期可能超越或低于指数。利用MPP回报的可预测性并采用凯利准则风格策略的投资组合始终表现优于基准。",
+    "tldr": "通过机器学习构建最大可预测性的股票投资组合，并利用该组合的高预测回报和凯利准则风格策略，可以持续优于基准。"
+}

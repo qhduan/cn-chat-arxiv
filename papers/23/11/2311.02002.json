@@ -1,0 +1,12 @@
+{
+    "title": "A Variational Perspective on High-Resolution ODEs. (arXiv:2311.02002v1 [math.OC])",
+    "abstract": "We consider unconstrained minimization of smooth convex functions. We propose a novel variational perspective using forced Euler-Lagrange equation that allows for studying high-resolution ODEs. Through this, we obtain a faster convergence rate for gradient norm minimization using Nesterov's accelerated gradient method. Additionally, we show that Nesterov's method can be interpreted as a rate-matching discretization of an appropriately chosen high-resolution ODE. Finally, using the results from the new variational perspective, we propose a stochastic method for noisy gradients. Several numerical experiments compare and illustrate our stochastic algorithm with state of the art methods.",
+    "link": "http://arxiv.org/abs/2311.02002",
+    "context": "Title: A Variational Perspective on High-Resolution ODEs. (arXiv:2311.02002v1 [math.OC])\nAbstract: We consider unconstrained minimization of smooth convex functions. We propose a novel variational perspective using forced Euler-Lagrange equation that allows for studying high-resolution ODEs. Through this, we obtain a faster convergence rate for gradient norm minimization using Nesterov's accelerated gradient method. Additionally, we show that Nesterov's method can be interpreted as a rate-matching discretization of an appropriately chosen high-resolution ODE. Finally, using the results from the new variational perspective, we propose a stochastic method for noisy gradients. Several numerical experiments compare and illustrate our stochastic algorithm with state of the art methods.",
+    "path": "papers/23/11/2311.02002.json",
+    "total_tokens": 776,
+    "translated_title": "关于高分辨率ODE的一种变分视角",
+    "translated_abstract": "我们考虑光滑凸函数的非约束最小化问题。我们提出了一种新颖的变分视角，利用强制性的Euler-Lagrange方程来研究高分辨率ODE。通过这个方法，我们得到了使用Nesterov的加速梯度法进行梯度范数最小化的更快收敛速度。此外，我们还展示了Nesterov的方法可以被解释为对一个合适选择的高分辨率ODE进行匹配率离散化。最后，利用这种新变分视角的结果，我们提出了一种用于噪声梯度的随机方法。多个数值实验比较和说明了我们的随机算法与现有方法的优势。",
+    "tldr": "该论文提出了一种基于变分视角的方法来研究高分辨率ODE，并通过将Nesterov加速梯度法应用于梯度范数最小化问题，得到了更快的收敛速度。此外，论文还展示了Nesterov的方法可以看作是对高分辨率ODE的合适离散。",
+    "en_tdlr": "This paper introduces a variational perspective for studying high-resolution ODEs and achieves faster convergence rate for gradient norm minimization by applying Nesterov's accelerated gradient method. It also shows that Nesterov's method can be interpreted as a discretization of a suitable high-resolution ODE."
+}

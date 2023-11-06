@@ -1,0 +1,11 @@
+{
+    "title": "Meta Learning for Multi-View Visuomotor Systems. (arXiv:2310.20414v2 [cs.RO] UPDATED)",
+    "abstract": "This paper introduces a new approach for quickly adapting a multi-view visuomotor system for robots to varying camera configurations from the baseline setup. It utilises meta-learning to fine-tune the perceptual network while keeping the policy network fixed. Experimental results demonstrate a significant reduction in the number of new training episodes needed to attain baseline performance.",
+    "link": "http://arxiv.org/abs/2310.20414",
+    "context": "Title: Meta Learning for Multi-View Visuomotor Systems. (arXiv:2310.20414v2 [cs.RO] UPDATED)\nAbstract: This paper introduces a new approach for quickly adapting a multi-view visuomotor system for robots to varying camera configurations from the baseline setup. It utilises meta-learning to fine-tune the perceptual network while keeping the policy network fixed. Experimental results demonstrate a significant reduction in the number of new training episodes needed to attain baseline performance.",
+    "path": "papers/23/10/2310.20414.json",
+    "total_tokens": 538,
+    "translated_title": "多视觉运动系统的元学习",
+    "translated_abstract": "本文介绍了一种新的方法，用于快速适应机器人的多视觉运动系统，以适应不同的相机配置。它利用元学习来微调感知网络，同时保持策略网络不变。实验结果表明，所需的新训练周期数量显著减少，以实现基准性能。",
+    "tldr": "该论文提出了一种新的方法，使用元学习来快速适应多视图运动系统，实验结果表明可以显著减少所需的新训练周期数量。"
+}

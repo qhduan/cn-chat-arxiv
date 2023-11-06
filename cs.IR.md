@@ -2,217 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Collaborative Large Language Model for Recommender Systems.](http://arxiv.org/abs/2311.01343) | 本研究提出了CLLM4Rec，首个将大型语言模型与推荐系统的 ID 模式紧密集成的协同推荐算法，旨在解决语义差距、虚假相关和低效推荐等问题。通过扩展预训练语言模型的词汇表，并引入软硬提示策略，该算法能够准确地模拟用户和项目的协同与内容语义。 |
-| [^2] | [Recommendations by Concise User Profiles from Review Text.](http://arxiv.org/abs/2311.01314) | 本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。 |
-| [^3] | [VM-Rec: A Variational Mapping Approach for Cold-start User Recommendation.](http://arxiv.org/abs/2311.01304) | VM-Rec是一种用于解决冷启动用户推荐问题的变分映射方法，该方法基于生成表达能力强的嵌入的现有用户的互动，从而模拟生成冷启动用户的嵌入过程。 |
-| [^4] | [Efficient Neural Ranking using Forward Indexes and Lightweight Encoders.](http://arxiv.org/abs/2311.01263) | 使用双编码器模型的语义匹配能力和快速前向索引，提高了神经排名的效率和延迟。同时，通过预计算表示和优化索引尺寸，进一步改善了计算效率和资源消耗。 |
-| [^5] | [Navigating Complex Search Tasks with AI Copilots.](http://arxiv.org/abs/2311.01235) | 该论文介绍了使用AI副驾驶员来导航复杂搜索任务，并探讨了生成AI和辅助代理的出现对于支持复杂搜索任务的潜力和重要性。 |
-| [^6] | [Bi-Preference Learning Heterogeneous Hypergraph Networks for Session-based Recommendation.](http://arxiv.org/abs/2311.01125) | 这篇论文提出了一种双偏好学习异构超图网络（BiPNet）的方法来解决基于会话的推荐中的价格偏好问题。这个方法考虑了价格偏好与兴趣偏好的互相影响，从而提高了推荐的准确性和个性化程度。 |
-| [^7] | [Collaboration and Transition: Distilling Item Transitions into Multi-Query Self-Attention for Sequential Recommendation.](http://arxiv.org/abs/2311.01056) | 这篇论文提出了一种新的推荐系统方法，利用多查询自注意力和过渡感知嵌入蒸馏来捕捉用户交互序列中的合作和过渡信号。 |
-| [^8] | [Evaluation Measures of Individual Item Fairness for Recommender Systems: A Critical Study.](http://arxiv.org/abs/2311.01013) | 本研究对推荐系统中个体项的公平性评估指标进行了关键研究，并指出了现有指标存在的限制和问题。通过重新定义和纠正这些指标，或者解释为何某些限制无法解决，我们提出了改进的方法。此外，我们还进行了全面的实证分析，验证了这些改进的有效性。 |
-| [^9] | [Research Team Identification Based on Representation Learning of Academic Heterogeneous Information Network.](http://arxiv.org/abs/2311.00922) | 本文提出了一种基于学术异构信息网络表示学习的科研团队识别方法，通过利用节点级和元路径级的注意机制学习低维稠密实值向量表示，以有效识别和发现学术网络中的科研团队。 |
-| [^10] | [Is Human Culture Locked by Evolution?.](http://arxiv.org/abs/2311.00719) | 本文分析了一个名为ZeroMat的算法的社会影响，表明人类文化受进化限制，个体的文化品味可以在没有历史数据的情况下以高精度预测。同时提供了解决方案和对中国政府法规和政策的解释。 |
-| [^11] | [Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation.](http://arxiv.org/abs/2310.09874) | 本文利用大型语言模型（LLMs）来增强基于内容的推荐中的免训练数据集压缩方法，旨在通过生成文本内容来合成一个小而信息丰富的数据集，使得模型能够达到与在大型数据集上训练的模型相当的性能。 |
-| [^12] | [DiskANN++: Efficient Page-based Search over Isomorphic Mapped Graph Index using Query-sensitivity Entry Vertex.](http://arxiv.org/abs/2310.00402) | 提出了一个优化的DiskANN++方法，使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索。 |
-| [^13] | [Ranking with Popularity Bias: User Welfare under Self-Amplification Dynamics.](http://arxiv.org/abs/2305.18333) | 研究了物品流行度、质量和位置偏差对用户福利的影响，提出了通过探索减轻流行度偏见负面影响的算法。 |
-| [^14] | [Retrieval for Extremely Long Queries and Documents with RPRS: a Highly Efficient and Effective Transformer-based Re-Ranker.](http://arxiv.org/abs/2303.01200) | 该论文提出了一种基于新型比例相关度分数（RPRS）的高效有效的基于Transformer的重新排序器，用于处理极长查询和文档的检索任务。与先前的工作相比，在五个不同数据集上进行的广泛评估显示RPRS获得了显著更好的结果。此外，RPRS具有高效性，并且解决了QBD检索任务中低资源训练的问题。 |
+| [^1] | [Enhancing search engine precision and user experience through sentiment-based polysemy resolution.](http://arxiv.org/abs/2311.01895) | 本研究提出了一个基于情感的多义词消歧解决方案，通过将智能搜索功能嵌入到搜索引擎中，利用情感分析技术对文章进行分类和归类，以提供更有意义和个性化的搜索结果。该方法的准确率达到了85%，超越了传统的搜索引擎。 |
+| [^2] | [Multi-EuP: The Multilingual European Parliament Dataset for Analysis of Bias in Information Retrieval.](http://arxiv.org/abs/2311.01870) | Multi-EuP是一个新的多语言基准数据集，涵盖了来自欧洲议会的22K个多语言文档，旨在研究信息检索中的公平性，包括语言和人口偏见。它提供了真实的多语言语料库和跨语言相关性评判，并提供了与文档相关的丰富人口统计信息，可用于评估单语和多语信息检索。 |
+| [^3] | [SortNet: Learning To Rank By a Neural-Based Sorting Algorithm.](http://arxiv.org/abs/2311.01864) | SortNet是一种使用神经网络作为比较器来进行自适应排序的算法，通过迭代过程构建训练集，根据成对项目之间的排序示例来训练神经网络。 |
+| [^4] | [Universal Multi-modal Multi-domain Pre-trained Recommendation.](http://arxiv.org/abs/2311.01831) | 本文提出了通用多模态多领域预训练推荐模型UniM^2Rec，该模型可以从所有领域平滑地学习多模态物品内容和用户偏好，实验证明其在多个真实世界数据集上具有更好的性能。 |
+| [^5] | [Unbiased Offline Evaluation for Learning to Rank with Business Rules.](http://arxiv.org/abs/2311.01828) | 这篇论文调查了工业级学习排序模型的离线评估受到后处理逻辑的影响，提出了一种基于Birkhoff-von-Neumann分解的校正方法。 |
+| [^6] | [Epidemic Decision-making System Based Federated Reinforcement Learning.](http://arxiv.org/abs/2311.01749) | 基于联邦强化学习的流行病决策系统可以帮助政府在兼顾公共安全和经济发展方面做出决策，并处理流行病数据样本有限和隐私性高的问题。 |
+| [^7] | [Plot Retrieval as an Assessment of Abstract Semantic Association.](http://arxiv.org/abs/2311.01666) | 本研究提出了一个名为情节检索的新任务，通过生成一个标记数据集来训练和评估信息检索模型在此任务上的性能。这个任务要求模型能够准确估计查询和候选情节之间的抽象语义关联度，而不仅仅是依赖于词汇或语义匹配。 |
+| [^8] | [Instruction Distillation Makes Large Language Models Efficient Zero-shot Rankers.](http://arxiv.org/abs/2311.01555) | 中文总结出的一句话要点：本研究提出了一种指令蒸馏方法，通过将大型语言模型的一对一排序能力蒸馏为更高效的单点排序，显著提高了大型语言模型作为零-shot排序器的效率和性能。 |
+| [^9] | [Large Multi-modal Encoders for Recommendation.](http://arxiv.org/abs/2310.20343) | 本文研究了在推荐系统中使用大规模多模态编码器的方法，以提高推荐性能。现有的多模态推荐系统主要依赖于单独提取的特征，并且不同模态之间只有浅层次的对齐，而大规模多模态编码器能够更好地捕捉模态之间的潜在关系。 |
+| [^10] | [Concentrating on the Impact: Consequence-based Explanations in Recommender Systems.](http://arxiv.org/abs/2308.16708) | 本研究介绍了一种新概念，即基于后果的解释，以强调推荐项对用户个人消费行为的影响，从而提升推荐系统的用户体验和满意度。 |
+| [^11] | [Contrastive Graph Prompt-tuning for Cross-domain Recommendation.](http://arxiv.org/abs/2308.10685) | 这项研究引入了个性化图形提示推荐框架，通过对比学习（CL）生成预训练的嵌入，从而在跨域推荐中提高了效果。 |
+| [^12] | [ChatGPT for GTFS: From Words to Information.](http://arxiv.org/abs/2308.02618) | 本研究探索了使用ChatGPT语言模型从GTFS数据中检索信息的可行性，验证了ChatGPT（GPT-3.5）在GTFS规范理解和信息提取方面的能力。程序合成方法在信息检索任务中表现出更高的准确率，为解决GTFS数据信息获取问题提供了一种有效的方法。 |
+| [^13] | [Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models.](http://arxiv.org/abs/2305.13112) | 本文重新思考了大语言模型时代下对话型推荐系统的评估问题，提出了一种基于大语言模型的交互式评估方法iEvaLM，通过实验证明了该方法相较于现有评估协议具有显著的改进，并强调了对外部知识的评估。 |
+| [^14] | [Metaphorical User Simulators for Evaluating Task-oriented Dialogue Systems.](http://arxiv.org/abs/2204.00763) | 本文提出了一种用于评估任务导向的对话系统的隐喻用户模拟器。该模拟器可以生成类似人类对话的模拟评估，并且提供了一个测试者框架来生成不同能力的对话系统变体。 |
 
 # 详细
 
-[^1]: 协同大型语言模型用于推荐系统
+[^1]: 通过基于情感的多义词消歧提升搜索引擎的准确性和用户体验
 
-    Collaborative Large Language Model for Recommender Systems. (arXiv:2311.01343v1 [cs.IR])
+    Enhancing search engine precision and user experience through sentiment-based polysemy resolution. (arXiv:2311.01895v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.01343](http://arxiv.org/abs/2311.01343)
+    [http://arxiv.org/abs/2311.01895](http://arxiv.org/abs/2311.01895)
 
-    本研究提出了CLLM4Rec，首个将大型语言模型与推荐系统的 ID 模式紧密集成的协同推荐算法，旨在解决语义差距、虚假相关和低效推荐等问题。通过扩展预训练语言模型的词汇表，并引入软硬提示策略，该算法能够准确地模拟用户和项目的协同与内容语义。
-
-    
-
-    最近，越来越多的人对基于预训练的大型语言模型（LLM）开发下一代推荐系统（RS）产生了兴趣，充分利用其编码知识和推理能力。然而，自然语言与推荐任务之间的语义差距仍未得到很好的解决，导致一些问题，如虚假相关的用户/项目描述符、对用户/项目内容的低效语言建模以及通过自动回归进行低效的推荐等。在本文中，我们提出了CLLM4Rec，这是第一个紧密集成LLM范式和RS的ID范式的生成RS，旨在同时解决上述挑战。我们首先使用用户/项目ID标记扩展了预训练LLM的词汇表，以忠实地模拟用户/项目的协同和内容语义。因此，在预训练阶段，提出了一种新颖的软硬提示策略，通过语言建模有效地学习用户/项目的协同/内容标记嵌入。
-
-    Recently, there is a growing interest in developing next-generation recommender systems (RSs) based on pretrained large language models (LLMs), fully utilizing their encoded knowledge and reasoning ability. However, the semantic gap between natural language and recommendation tasks is still not well addressed, leading to multiple issues such as spuriously-correlated user/item descriptors, ineffective language modeling on user/item contents, and inefficient recommendations via auto-regression, etc. In this paper, we propose CLLM4Rec, the first generative RS that tightly integrates the LLM paradigm and ID paradigm of RS, aiming to address the above challenges simultaneously. We first extend the vocabulary of pretrained LLMs with user/item ID tokens to faithfully model the user/item collaborative and content semantics. Accordingly, in the pretraining stage, a novel soft+hard prompting strategy is proposed to effectively learn user/item collaborative/content token embeddings via language m
-    
-[^2]: 通过简洁的用户档案中的评论文本进行推荐
-
-    Recommendations by Concise User Profiles from Review Text. (arXiv:2311.01314v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.01314](http://arxiv.org/abs/2311.01314)
-
-    本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。
+    本研究提出了一个基于情感的多义词消歧解决方案，通过将智能搜索功能嵌入到搜索引擎中，利用情感分析技术对文章进行分类和归类，以提供更有意义和个性化的搜索结果。该方法的准确率达到了85%，超越了传统的搜索引擎。
 
     
 
-    推荐系统对于受欢迎的物品和与用户的丰富互动（喜欢、评分等）最为成功。本研究探讨了一个困难且未被充分探索的情况，即如何支持互动非常稀疏但发布信息丰富的评论文本的用户。我们的实验研究涉及两个具有这些特点的图书社区。我们设计了一个基于Transformer的表征学习框架，涵盖用户-物品互动、物品内容和用户提供的评论。为了克服互动稀疏问题，我们设计了一些技术来选择构建简洁用户档案的最具信息量的线索。通过来自Amazon和Goodreads的数据集进行的全面实验表明，精心选择的文本片段可以实现最佳性能，甚至优于ChatGPT生成的用户档案。
+    随着数字内容的激增和高效信息检索的需求，本研究的洞见可应用于包括新闻服务、电子商务和数字营销在内的各个领域，为用户提供更有意义和个性化的体验。该研究解决了搜索引擎中常见的多义性问题，即同一个关键词可能有多个意思。它通过将智能搜索功能嵌入到搜索引擎中来解决这个问题，该功能可以基于情感区分不同的含义。研究利用情感分析这一强大的自然语言处理技术，根据文章的情感倾向进行分类和归类，从而提供更有见地和细致入微的搜索结果。文章报告了85%的令人印象深刻的准确率，超越了传统的搜索引擎。这表明了基于情感的方法的有效性。
 
-    Recommender systems are most successful for popular items and users with ample interactions (likes, ratings etc.). This work addresses the difficult and underexplored case of supporting users who have very sparse interactions but post informative review texts. Our experimental studies address two book communities with these characteristics. We design a framework with Transformer-based representation learning, covering user-item interactions, item content, and user-provided reviews. To overcome interaction sparseness, we devise techniques for selecting the most informative cues to construct concise user profiles. Comprehensive experiments, with datasets from Amazon and Goodreads, show that judicious selection of text snippets achieves the best performance, even in comparison to ChatGPT-generated user profiles.
+    With the proliferation of digital content and the need for efficient information retrieval, this study's insights can be applied to various domains, including news services, e-commerce, and digital marketing, to provide users with more meaningful and tailored experiences. The study addresses the common problem of polysemy in search engines, where the same keyword may have multiple meanings. It proposes a solution to this issue by embedding a smart search function into the search engine, which can differentiate between different meanings based on sentiment. The study leverages sentiment analysis, a powerful natural language processing (NLP) technique, to classify and categorize news articles based on their emotional tone. This can provide more insightful and nuanced search results. The article reports an impressive accuracy rate of 85% for the proposed smart search function, which outperforms conventional search engines. This indicates the effectiveness of the sentiment-based approach. 
     
-[^3]: VM-Rec：一种用于冷启动用户推荐的变分映射方法
+[^2]: 多语言欧洲议会数据集用于分析信息检索中的偏见
 
-    VM-Rec: A Variational Mapping Approach for Cold-start User Recommendation. (arXiv:2311.01304v1 [cs.IR])
+    Multi-EuP: The Multilingual European Parliament Dataset for Analysis of Bias in Information Retrieval. (arXiv:2311.01870v1 [cs.CL])
 
-    [http://arxiv.org/abs/2311.01304](http://arxiv.org/abs/2311.01304)
+    [http://arxiv.org/abs/2311.01870](http://arxiv.org/abs/2311.01870)
 
-    VM-Rec是一种用于解决冷启动用户推荐问题的变分映射方法，该方法基于生成表达能力强的嵌入的现有用户的互动，从而模拟生成冷启动用户的嵌入过程。
-
-    
-
-    冷启动问题是大多数推荐系统面临的共同挑战。传统的推荐模型在冷启动用户的互动非常有限时通常难以生成具有足够表达能力的嵌入。此外，缺乏用户的辅助内容信息加剧了挑战的存在，使得大多数冷启动方法难以应用。为了解决这个问题，我们观察到，如果模型能够为相对更多互动的现有用户生成具有表达能力的嵌入，这些用户最初也是冷启动用户，那么我们可以建立一个从少量初始互动到具有表达能力的嵌入的映射，模拟为冷启动用户生成嵌入的过程。基于这个观察，我们提出了一种变分映射方法用于冷启动用户推荐（VM-Rec）。首先，我们根据冷启动用户的初始互动生成个性化的映射函数，并进行参数优化。
-
-    The cold-start problem is a common challenge for most recommender systems. With extremely limited interactions of cold-start users, conventional recommender models often struggle to generate embeddings with sufficient expressivity. Moreover, the absence of auxiliary content information of users exacerbates the presence of challenges, rendering most cold-start methods difficult to apply. To address this issue, our motivation is based on the observation that if a model can generate expressive embeddings for existing users with relatively more interactions, who were also initially cold-start users, then we can establish a mapping from few initial interactions to expressive embeddings, simulating the process of generating embeddings for cold-start users. Based on this motivation, we propose a Variational Mapping approach for cold-start user Recommendation (VM-Rec). Firstly, we generate a personalized mapping function for cold-start users based on their initial interactions, and parameters 
-    
-[^4]: 使用前向索引和轻量级编码器的高效神经排名
-
-    Efficient Neural Ranking using Forward Indexes and Lightweight Encoders. (arXiv:2311.01263v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.01263](http://arxiv.org/abs/2311.01263)
-
-    使用双编码器模型的语义匹配能力和快速前向索引，提高了神经排名的效率和延迟。同时，通过预计算表示和优化索引尺寸，进一步改善了计算效率和资源消耗。
+    Multi-EuP是一个新的多语言基准数据集，涵盖了来自欧洲议会的22K个多语言文档，旨在研究信息检索中的公平性，包括语言和人口偏见。它提供了真实的多语言语料库和跨语言相关性评判，并提供了与文档相关的丰富人口统计信息，可用于评估单语和多语信息检索。
 
     
 
-    基于双编码器的密集检索模型已经成为信息检索领域的标准。它们采用了大型的基于Transformer的语言模型，但这些模型在资源和延迟方面效率低下。我们提出了快速前向索引——利用双编码器模型的语义匹配能力进行高效和有效的重新排名。我们的框架可以在非常高的检索深度下进行重新排名，并通过分数插值结合了词汇匹配和语义匹配的优点。此外，为了减轻双编码器的局限性，我们解决了两个主要挑战：首先，通过预计算表示、避免不必要的计算或降低编码器的复杂度，提高了计算效率，降低了排名的资源消耗和延迟。其次，我们优化了索引的内存占用和维护成本；我们提出了两种互补的技术来减小索引的尺寸。
+    我们介绍了Multi-EuP，这是一个新的多语言基准数据集，包括来自欧洲议会的22K个多语言文档，涵盖了24种语言。该数据集旨在研究多语言信息检索（IR）环境下的公平性，以分析在排名上的语言和人口偏见。它拥有一个真实的多语言语料库，其中的主题被翻译成了所有24种语言，并提供跨语言相关性评判。此外，它还提供了与文档相关的丰富人口统计信息，便于研究人口偏见。我们报告了Multi-EuP在单语和多语信息检索基准测试中的有效性。我们还进行了一项关于标记化策略选择引起的语言偏见的初步实验。
 
-    Dual-encoder-based dense retrieval models have become the standard in IR. They employ large Transformer-based language models, which are notoriously inefficient in terms of resources and latency. We propose Fast-Forward indexes -- vector forward indexes which exploit the semantic matching capabilities of dual-encoder models for efficient and effective re-ranking. Our framework enables re-ranking at very high retrieval depths and combines the merits of both lexical and semantic matching via score interpolation. Furthermore, in order to mitigate the limitations of dual-encoders, we tackle two main challenges: Firstly, we improve computational efficiency by either pre-computing representations, avoiding unnecessary computations altogether, or reducing the complexity of encoders. This allows us to considerably improve ranking efficiency and latency. Secondly, we optimize the memory footprint and maintenance cost of indexes; we propose two complementary techniques to reduce the index size a
+    We present Multi-EuP, a new multilingual benchmark dataset, comprising 22K multi-lingual documents collected from the European Parliament, spanning 24 languages. This dataset is designed to investigate fairness in a multilingual information retrieval (IR) context to analyze both language and demographic bias in a ranking context. It boasts an authentic multilingual corpus, featuring topics translated into all 24 languages, as well as cross-lingual relevance judgments. Furthermore, it offers rich demographic information associated with its documents, facilitating the study of demographic bias. We report the effectiveness of Multi-EuP for benchmarking both monolingual and multilingual IR. We also conduct a preliminary experiment on language bias caused by the choice of tokenization strategy.
     
-[^5]: 使用AI副驾驶员导航复杂搜索任务
+[^3]: SortNet: 通过神经网络排序算法进行学习排序
 
-    Navigating Complex Search Tasks with AI Copilots. (arXiv:2311.01235v1 [cs.IR])
+    SortNet: Learning To Rank By a Neural-Based Sorting Algorithm. (arXiv:2311.01864v1 [cs.LG])
 
-    [http://arxiv.org/abs/2311.01235](http://arxiv.org/abs/2311.01235)
+    [http://arxiv.org/abs/2311.01864](http://arxiv.org/abs/2311.01864)
 
-    该论文介绍了使用AI副驾驶员来导航复杂搜索任务，并探讨了生成AI和辅助代理的出现对于支持复杂搜索任务的潜力和重要性。
-
-    
-
-    正如信息检索(IR)研究界的许多人所知和欣赏的那样，搜索远未解决。每天都有数百万人在搜索引擎上面对任务的困难。他们的困难通常与任务的内在复杂性以及搜索系统无法完全理解任务和提供相关结果有关。任务激发了搜索，创建了搜索者尝试连接/解决的差距/问题情况，并在他们处理不同任务方面时驱动搜索行为。复杂搜索任务需要的不仅是基本事实查找或搜索的支持。支持复杂任务的方法研究包括生成查询和网站建议，个性化和上下文化搜索，以及开发新的搜索体验，包括跨时间和空间。最近兴起的生成人工智能(AI)和基于该技术的辅助代理，或者说副驾驶员，的出现。
-
-    As many of us in the information retrieval (IR) research community know and appreciate, search is far from being a solved problem. Millions of people struggle with tasks on search engines every day. Often, their struggles relate to the intrinsic complexity of their task and the failure of search systems to fully understand the task and serve relevant results. The task motivates the search, creating the gap/problematic situation that searchers attempt to bridge/resolve and drives search behavior as they work through different task facets. Complex search tasks require more than support for rudimentary fact finding or re-finding. Research on methods to support complex tasks includes work on generating query and website suggestions, personalizing and contextualizing search, and developing new search experiences, including those that span time and space. The recent emergence of generative artificial intelligence (AI) and the arrival of assistive agents, or copilots, based on this technology
-    
-[^6]: 对于基于会话的推荐的双偏好学习异构超图网络
-
-    Bi-Preference Learning Heterogeneous Hypergraph Networks for Session-based Recommendation. (arXiv:2311.01125v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.01125](http://arxiv.org/abs/2311.01125)
-
-    这篇论文提出了一种双偏好学习异构超图网络（BiPNet）的方法来解决基于会话的推荐中的价格偏好问题。这个方法考虑了价格偏好与兴趣偏好的互相影响，从而提高了推荐的准确性和个性化程度。
+    SortNet是一种使用神经网络作为比较器来进行自适应排序的算法，通过迭代过程构建训练集，根据成对项目之间的排序示例来训练神经网络。
 
     
 
-    基于会话的推荐旨在基于匿名行为序列预测下一个购买的物品。许多经济研究表明，物品价格是影响用户购买决策的关键因素。然而，现有的基于会话的推荐方法只关注捕捉用户的兴趣偏好，忽略了用户的价格偏好。实际上，有两个主要的挑战阻碍我们获取价格偏好。首先，价格偏好与各种物品特征（即类别和品牌）密切相关，这要求我们从异构信息中挖掘价格偏好。其次，价格偏好和兴趣偏好是相互依赖的，共同决定用户的选择，这要求我们同时考虑价格和兴趣偏好进行意图建模。为了应对上述挑战，我们提出了一种新颖的基于会话的推荐方法——双偏好学习异构超图网络（BiPNet）。
+    关于相关性排名的问题，即根据给定的标准对一组对象进行排序。由于用户可能偏好不同的相关性标准，因此排序算法应该能够根据用户需求进行调整。学习排序的任务在文献中存在两种主要方法：1）通过示例学习的得分函数，评估每个对象的属性，生成可用于对对象进行排序的绝对相关性值；2）一种成对方法，通过使用对象对来学习“偏好函数”，定义哪一个对象应该首先排名。在本文中，我们提出了SortNet，一种使用神经网络作为比较器来对对象进行自适应排序的算法。神经网络的训练集提供了对于成对项目之间所需排序的示例，并且通过迭代过程构建，每次迭代都会添加最具信息性的训练示例。此外，比较器采用了连接主义体系结构。
 
-    Session-based recommendation intends to predict next purchased items based on anonymous behavior sequences. Numerous economic studies have revealed that item price is a key factor influencing user purchase decisions. Unfortunately, existing methods for session-based recommendation only aim at capturing user interest preference, while ignoring user price preference. Actually, there are primarily two challenges preventing us from accessing price preference. Firstly, the price preference is highly associated to various item features (i.e., category and brand), which asks us to mine price preference from heterogeneous information. Secondly, price preference and interest preference are interdependent and collectively determine user choice, necessitating that we jointly consider both price and interest preference for intent modeling. To handle above challenges, we propose a novel approach Bi-Preference Learning Heterogeneous Hypergraph Networks (BiPNet) for session-based recommendation. Spec
+    The problem of relevance ranking consists of sorting a set of objects with respect to a given criterion. Since users may prefer different relevance criteria, the ranking algorithms should be adaptable to the user needs. Two main approaches exist in literature for the task of learning to rank: 1) a score function, learned by examples, which evaluates the properties of each object yielding an absolute relevance value that can be used to order the objects or 2) a pairwise approach, where a "preference function" is learned using pairs of objects to define which one has to be ranked first. In this paper, we present SortNet, an adaptive ranking algorithm which orders objects using a neural network as a comparator. The neural network training set provides examples of the desired ordering between pairs of items and it is constructed by an iterative procedure which, at each iteration, adds the most informative training examples. Moreover, the comparator adopts a connectionist architecture that 
     
-[^7]: 合作与转换：将物品转换转化为多查询自注意力进行序列推荐
+[^4]: 通用多模态多领域预训练推荐
 
-    Collaboration and Transition: Distilling Item Transitions into Multi-Query Self-Attention for Sequential Recommendation. (arXiv:2311.01056v1 [cs.IR])
+    Universal Multi-modal Multi-domain Pre-trained Recommendation. (arXiv:2311.01831v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.01056](http://arxiv.org/abs/2311.01056)
+    [http://arxiv.org/abs/2311.01831](http://arxiv.org/abs/2311.01831)
 
-    这篇论文提出了一种新的推荐系统方法，利用多查询自注意力和过渡感知嵌入蒸馏来捕捉用户交互序列中的合作和过渡信号。
-
-    
-
-    现代推荐系统使用各种顺序模块，如自注意力来学习动态用户兴趣。然而，这些方法在捕捉用户交互序列中的合作和过渡信号方面效果较差。为了克服这些限制，我们提出了一种新方法，称为多查询自注意力与过渡感知嵌入蒸馏（MQSA-TED）。首先，我们提出了一个$L$-查询自注意力模块，使用灵活的窗口大小作为注意力查询来捕捉合作信号。此外，我们还引入了一种多查询自注意力方法，通过结合长查询和短查询来平衡建模用户偏好的偏差-方差权衡。
-
-    Modern recommender systems employ various sequential modules such as self-attention to learn dynamic user interests. However, these methods are less effective in capturing collaborative and transitional signals within user interaction sequences. First, the self-attention architecture uses the embedding of a single item as the attention query, which is inherently challenging to capture collaborative signals. Second, these methods typically follow an auto-regressive framework, which is unable to learn global item transition patterns. To overcome these limitations, we propose a new method called Multi-Query Self-Attention with Transition-Aware Embedding Distillation (MQSA-TED). First, we propose an $L$-query self-attention module that employs flexible window sizes for attention queries to capture collaborative signals. In addition, we introduce a multi-query self-attention method that balances the bias-variance trade-off in modeling user preferences by combining long and short-query self-
-    
-[^8]: 评估个体项公平性的推荐系统评估指标：一项关键研究
-
-    Evaluation Measures of Individual Item Fairness for Recommender Systems: A Critical Study. (arXiv:2311.01013v1 [cs.IR])
-
-    [http://arxiv.org/abs/2311.01013](http://arxiv.org/abs/2311.01013)
-
-    本研究对推荐系统中个体项的公平性评估指标进行了关键研究，并指出了现有指标存在的限制和问题。通过重新定义和纠正这些指标，或者解释为何某些限制无法解决，我们提出了改进的方法。此外，我们还进行了全面的实证分析，验证了这些改进的有效性。
+    本文提出了通用多模态多领域预训练推荐模型UniM^2Rec，该模型可以从所有领域平滑地学习多模态物品内容和用户偏好，实验证明其在多个真实世界数据集上具有更好的性能。
 
     
 
-    公平性是推荐系统中的一个新兴且具有挑战性的话题。近年来，出现了各种评估和改善公平性的方式。本研究对推荐系统中现有的公平性评估指标进行了研究。具体来说，我们仅关注个体项的曝光度公平性评估指标，旨在量化个体项在向用户推荐时的差异，与用户对项的相关性无关。我们收集了所有这些指标，并对它们的理论属性进行了批判性分析。我们发现每个指标都存在一系列限制，这些限制可能使得受影响的指标难以解释、计算或用于比较推荐。我们通过重新定义或纠正受影响的指标来解决这些限制，或者我们解释了为什么某些限制无法解决。我们还对这些公平性指标的原始版本和我们纠正后的版本进行了全面的实证分析。
+    最近，通过预训练多领域交互模型来建模用户偏好的研究兴趣正在迅速增长。然而，现有的预训练多领域推荐大多选择将物品文本作为跨领域的桥梁，并简单地探索目标领域中的用户行为。因此，它们忽视了其他信息丰富的多模态物品内容（如视觉信息），并且也缺乏对所有交互领域的用户行为的彻底考虑。为了解决这些问题，本文提出了一种用于多领域推荐的通用多模态物品内容展示预训练模型UniM^2Rec，该模型可以平滑地学习所有领域的多模态物品内容展示和多模态用户偏好。通过预训练的多领域推荐模型，UniM^2Rec可以在实践中高效且有效地转移到新的目标领域。在五个真实世界数据集上进行了大量实验，结果表明UniM^2Rec相比现有方法具有更好的性能。
 
-    Fairness is an emerging and challenging topic in recommender systems. In recent years, various ways of evaluating and therefore improving fairness have emerged. In this study, we examine existing evaluation measures of fairness in recommender systems. Specifically, we focus solely on exposure-based fairness measures of individual items that aim to quantify the disparity in how individual items are recommended to users, separate from item relevance to users. We gather all such measures and we critically analyse their theoretical properties. We identify a series of limitations in each of them, which collectively may render the affected measures hard or impossible to interpret, to compute, or to use for comparing recommendations. We resolve these limitations by redefining or correcting the affected measures, or we argue why certain limitations cannot be resolved. We further perform a comprehensive empirical analysis of both the original and our corrected versions of these fairness measure
+    There is a rapidly-growing research interest in modeling user preferences via pre-training multi-domain interactions for recommender systems. However, Existing pre-trained multi-domain recommendations mostly select the item texts to be bridges across domains, and simply explore the user behaviors in target domains. Hence, they ignore other informative multi-modal item contents (e.g., visual information), and also lack of thorough consideration of user behaviors from all interactive domains. To address these issues, in this paper, we propose to pre-train universal multi-modal item content presentation for multi-domain recommendation, called UniM^2Rec, which could smoothly learn the multi-modal item content presentations and the multi-modal user preferences from all domains. With the pre-trained multi-domain recommendation model, UniM^2Rec could be efficiently and effectively transferred to new target domains in practice. Extensive experiments conducted on five real-world datasets in tar
     
-[^9]: 基于学术异构信息网络表示学习的研究团队识别
+[^5]: 使用业务规则进行无偏离线评估学习排序
 
-    Research Team Identification Based on Representation Learning of Academic Heterogeneous Information Network. (arXiv:2311.00922v1 [cs.IR])
+    Unbiased Offline Evaluation for Learning to Rank with Business Rules. (arXiv:2311.01828v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.00922](http://arxiv.org/abs/2311.00922)
+    [http://arxiv.org/abs/2311.01828](http://arxiv.org/abs/2311.01828)
 
-    本文提出了一种基于学术异构信息网络表示学习的科研团队识别方法，通过利用节点级和元路径级的注意机制学习低维稠密实值向量表示，以有效识别和发现学术网络中的科研团队。
-
-    
-
-    现实世界中的学术网络通常可以由由多类型节点和关系组成的异构信息网络来描述。现有关于同构信息网络的表示学习方法缺乏对异构信息网络的探索能力，无法应用于异构信息网络。针对从由庞大复杂的科技大数据组成的学术异构信息网络中有效识别和发现科研团队的实际需求，本文提出了一种基于学术异构信息网络表示学习的科研团队识别方法。该方法利用节点级和元路径级的注意机制，在保留网络中节点的丰富拓扑信息和语义信息的基础上，学习低维稠密实值向量表示。
-
-    Academic networks in the real world can usually be described by heterogeneous information networks composed of multi-type nodes and relationships. Some existing research on representation learning for homogeneous information networks lacks the ability to explore heterogeneous information networks in heterogeneous information networks. It cannot be applied to heterogeneous information networks. Aiming at the practical needs of effectively identifying and discovering scientific research teams from the academic heterogeneous information network composed of massive and complex scientific and technological big data, this paper proposes a scientific research team identification method based on representation learning of academic heterogeneous information networks. The attention mechanism at node level and meta-path level learns low-dimensional, dense and real-valued vector representations on the basis of retaining the rich topological information of nodes in the network and the semantic info
-    
-[^10]: 人类文化受进化限制吗？
-
-    Is Human Culture Locked by Evolution?. (arXiv:2311.00719v1 [cs.SI])
-
-    [http://arxiv.org/abs/2311.00719](http://arxiv.org/abs/2311.00719)
-
-    本文分析了一个名为ZeroMat的算法的社会影响，表明人类文化受进化限制，个体的文化品味可以在没有历史数据的情况下以高精度预测。同时提供了解决方案和对中国政府法规和政策的解释。
+    这篇论文调查了工业级学习排序模型的离线评估受到后处理逻辑的影响，提出了一种基于Birkhoff-von-Neumann分解的校正方法。
 
     
 
-    人类文化已经演化了数千年，在互联网时代蓬勃发展。由于大数据的可用性，我们可以通过分析诸如MovieLens和豆瓣等网站上的用户项目评分值等表示来研究人类文化。工业工人已经将推荐系统应用于大数据以预测用户行为并促进网络流量。在本文中，我们分析了名为ZeroMat的算法的社会影响，以显示人类文化处于一种状态中，其中个人的文化品味可以在没有历史数据的情况下以高精度预测。我们还提供了解决这个问题的解决方案，并解释了当前中国政府的法规和政策。
+    对于工业级学习排序（LTR）系统来说，通常会对排序模型的输出进行修改，这可能是由于执行业务要求的后处理逻辑，也可能是由于实际生产系统中存在的设计缺陷或错误而导致的。这对于部署离线学习和评估方法构成了挑战，因为这些方法通常依赖于模型评分所暗示的排序与向用户显示的项目一致。可靠的离线评估还需要正确的随机化和正确估计在排名的任何给定位置上显示每个项目的倾向，而这些也受到上述后处理的影响。我们通过实证研究了这些情况如何影响学习排序模型的离线评估。然后，我们提出了一种基于Birkhoff-von-Neumann分解的新的校正方法，该方法对于这种类型的后处理是稳健的。
 
-    Human culture has evolved for thousands of years and thrived in the era of Internet. Due to the availability of big data, we could do research on human culture by analyzing its representation such as user item rating values on websites like MovieLens and Douban. Industrial workers have applied recommender systems in big data to predict user behavior and promote web traffic. In this paper, we analyze the social impact of an algorithm named ZeroMat to show that human culture is locked into a state where individual's cultural taste is predictable at high precision without historic data. We also provide solutions to this problem and interpretation of current Chinese government's regulations and policies.
+    For industrial learning-to-rank (LTR) systems, it is common that the output of a ranking model is modified, either as a results of post-processing logic that enforces business requirements, or as a result of unforeseen design flaws or bugs present in real-world production systems. This poses a challenge for deploying off-policy learning and evaluation methods, as these often rely on the assumption that rankings implied by the model's scores coincide with displayed items to the users. Further requirements for reliable offline evaluation are proper randomization and correct estimation of the propensities of displaying each item in any given position of the ranking, which are also impacted by the aforementioned post-processing. We investigate empirically how these scenarios impair off-policy evaluation for learning-to-rank models. We then propose a novel correction method based on the Birkhoff-von-Neumann decomposition that is robust to this type of post-processing. We obtain more accurat
     
-[^11]: 利用大型语言模型（LLMs）增强基于内容的推荐的免训练数据集压缩
+[^6]: 基于联邦强化学习的流行病决策系统
 
-    Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation. (arXiv:2310.09874v2 [cs.IR] UPDATED)
+    Epidemic Decision-making System Based Federated Reinforcement Learning. (arXiv:2311.01749v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.09874](http://arxiv.org/abs/2310.09874)
+    [http://arxiv.org/abs/2311.01749](http://arxiv.org/abs/2311.01749)
 
-    本文利用大型语言模型（LLMs）来增强基于内容的推荐中的免训练数据集压缩方法，旨在通过生成文本内容来合成一个小而信息丰富的数据集，使得模型能够达到与在大型数据集上训练的模型相当的性能。
-
-    
-
-    现代内容推荐（CBR）技术利用物品的内容信息为用户提供个性化服务，但在大型数据集上的资源密集型训练存在问题。为解决这个问题，本文探讨了对文本CBR进行数据集压缩的方法。数据集压缩的目标是合成一个小且信息丰富的数据集，使模型性能可以与在大型数据集上训练的模型相媲美。现有的压缩方法针对连续数据（如图像或嵌入向量）的分类任务而设计，直接应用于CBR存在局限性。为了弥补这一差距，我们研究了基于内容的推荐中高效的数据集压缩方法。受到大型语言模型（LLMs）在文本理解和生成方面出色的能力的启发，我们利用LLMs在数据集压缩期间生成文本内容。为了处理涉及用户和物品的交互数据，我们设计了一个双...
-
-    Modern techniques in Content-based Recommendation (CBR) leverage item content information to provide personalized services to users, but suffer from resource-intensive training on large datasets. To address this issue, we explore the dataset condensation for textual CBR in this paper. The goal of dataset condensation is to synthesize a small yet informative dataset, upon which models can achieve performance comparable to those trained on large datasets. While existing condensation approaches are tailored to classification tasks for continuous data like images or embeddings, direct application of them to CBR has limitations. To bridge this gap, we investigate efficient dataset condensation for content-based recommendation. Inspired by the remarkable abilities of large language models (LLMs) in text comprehension and generation, we leverage LLMs to empower the generation of textual content during condensation. To handle the interaction data involving both users and items, we devise a dua
-    
-[^12]: DiskANN++: 使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索
-
-    DiskANN++: Efficient Page-based Search over Isomorphic Mapped Graph Index using Query-sensitivity Entry Vertex. (arXiv:2310.00402v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2310.00402](http://arxiv.org/abs/2310.00402)
-
-    提出了一个优化的DiskANN++方法，使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索。
+    基于联邦强化学习的流行病决策系统可以帮助政府在兼顾公共安全和经济发展方面做出决策，并处理流行病数据样本有限和隐私性高的问题。
 
     
 
-    给定一个向量数据集X和一个查询向量xq，基于图的近似最近邻搜索(ANNS)旨在构建一个图索引G，并通过在G上搜索来近似返回与xq的最小距离向量。基于图的ANNS的主要缺点是图索引太大，无法适应尤其是大规模X的内存。为了解决这个问题，提出了一种基于产品量化(PQ)的混合方法DiskANN，它在内存中存储低维度的PQ索引，并在SSD中保留图索引，从而减小内存开销同时确保高搜索准确性。然而，它存在两个重要的I/O问题，严重影响了整体效率：(1)从入口顶点到查询邻域的长路径导致大量的I/O请求，以及(2)在路由过程中的冗余I/O请求。为了解决上述问题，我们提出了优化的DiskANN++。
+    流行病决策可以有效帮助政府综合考虑公共安全和经济发展，以应对公共卫生和安全紧急情况。一些研究表明，强化学习可以有效帮助政府做出流行病决策，从而实现卫生安全和经济发展之间的平衡。然而，流行病数据往往具有样本有限和隐私性高的特点。该模型可以将各省份的疫情数据进行合作。
 
-    Given a vector dataset $\mathcal{X}$ and a query vector $\vec{x}_q$, graph-based Approximate Nearest Neighbor Search (ANNS) aims to build a graph index $G$ and approximately return vectors with minimum distances to $\vec{x}_q$ by searching over $G$. The main drawback of graph-based ANNS is that a graph index would be too large to fit into the memory especially for a large-scale $\mathcal{X}$. To solve this, a Product Quantization (PQ)-based hybrid method called DiskANN is proposed to store a low-dimensional PQ index in memory and retain a graph index in SSD, thus reducing memory overhead while ensuring a high search accuracy. However, it suffers from two I/O issues that significantly affect the overall efficiency: (1) long routing path from an entry vertex to the query's neighborhood that results in large number of I/O requests and (2) redundant I/O requests during the routing process. We propose an optimized DiskANN++ to overcome above issues. Specifically, for the first issue, we pre
+    Epidemic decision-making can effectively help the government to comprehensively consider public security and economic development to respond to public health and safety emergencies. Epidemic decision-making can effectively help the government to comprehensively consider public security and economic development to respond to public health and safety emergencies. Some studies have shown that intensive learning can effectively help the government to make epidemic decision, thus achieving the balance between health security and economic development. Some studies have shown that intensive learning can effectively help the government to make epidemic decision, thus achieving the balance between health security and economic development. However, epidemic data often has the characteristics of limited samples and high privacy. However, epidemic data often has the characteristics of limited samples and high privacy. This model can combine the epidemic situation data of various provinces for coop
     
-[^13]: 具有流行度偏见的排名：自增强动态下的用户福利
+[^7]: 将情节检索作为抽象语义关联度评估的方法
 
-    Ranking with Popularity Bias: User Welfare under Self-Amplification Dynamics. (arXiv:2305.18333v1 [cs.IR])
+    Plot Retrieval as an Assessment of Abstract Semantic Association. (arXiv:2311.01666v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.18333](http://arxiv.org/abs/2305.18333)
+    [http://arxiv.org/abs/2311.01666](http://arxiv.org/abs/2311.01666)
 
-    研究了物品流行度、质量和位置偏差对用户福利的影响，提出了通过探索减轻流行度偏见负面影响的算法。
-
-    
-
-    虽然已经确认流行度偏见在推荐（和其他基于排名的）系统中发挥作用，但其对用户福利的影响的详细分析仍然缺乏。我们提出了一种通用机制，通过它，物品的流行度、质量和位置偏差可以影响用户选择，并且可以负面影响各种推荐策略的集体用户效用。我们将问题表述为非平稳上下文脱靶机，强调不是为了消除流行度偏见而是为了减轻其负面影响而进行探索的重要性。首先，普通的有流行度偏差的推荐系统会通过混淆物品质量和流行度而引发线性遗憾。更一般地，我们展示了即使在线性设置下，由于流行度偏见的混淆效应，物品质量的可识别性也可能无法实现。然而，在足够变异的假设下，我们开发了一种高效的类UCB算法，并证明了有效的遗憾保证。我们通过实验验证了我们提出的算法的有效性，并证实了流行度偏见的负面影响。
-
-    While popularity bias is recognized to play a role in recommmender (and other ranking-based) systems, detailed analyses of its impact on user welfare have largely been lacking. We propose a general mechanism by which item popularity, item quality, and position bias can impact user choice, and how it can negatively impact the collective user utility of various recommender policies. Formulating the problem as a non-stationary contextual bandit, we highlight the importance of exploration, not to eliminate popularity bias, but to mitigate its negative effects. First, naive popularity-biased recommenders are shown to induce linear regret by conflating item quality and popularity. More generally, we show that, even in linear settings, identifiability of item quality may not be possible due to the confounding effects of popularity bias. However, under sufficient variability assumptions, we develop an efficient UCB-style algorithm and prove efficient regret guarantees. We complement our analys
-    
-[^14]: 使用RPRS的高效有效的基于Transformer的重新排序器处理极长查询和文档的检索
-
-    Retrieval for Extremely Long Queries and Documents with RPRS: a Highly Efficient and Effective Transformer-based Re-Ranker. (arXiv:2303.01200v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2303.01200](http://arxiv.org/abs/2303.01200)
-
-    该论文提出了一种基于新型比例相关度分数（RPRS）的高效有效的基于Transformer的重新排序器，用于处理极长查询和文档的检索任务。与先前的工作相比，在五个不同数据集上进行的广泛评估显示RPRS获得了显著更好的结果。此外，RPRS具有高效性，并且解决了QBD检索任务中低资源训练的问题。
+    本研究提出了一个名为情节检索的新任务，通过生成一个标记数据集来训练和评估信息检索模型在此任务上的性能。这个任务要求模型能够准确估计查询和候选情节之间的抽象语义关联度，而不仅仅是依赖于词汇或语义匹配。
 
     
 
-    在信息检索中，使用极长查询和文档进行检索是一个众所周知且具有挑战性的任务，通常称为查询-文档（QBD）检索。先前的工作中，专门设计用于处理长输入序列的Transformer模型在QBD任务中并没有展现出很高的效果。我们提出了一种基于新型比例相关度分数（RPRS）的重新排序器，用于计算查询与前k个候选文档之间的相关度分数。我们进行了广泛的评估，结果显示RPRS在五个不同数据集上比现有模型取得了显著更好的结果。此外，RPRS非常高效，因为在查询时间之前可以对所有文档进行预处理、嵌入和索引，使得我们的重新排序器具有O(N)的复杂度，其中N是查询和候选文档中句子的总数。此外，我们的方法解决了QBD检索任务中低资源训练的问题，因为它不需要大量的训练数据。
+    从书籍中检索相关情节是一项关键任务，可以提高读者的阅读体验和效率。读者通常只提供一个基于自己理解、摘要或猜测的抽象和模糊的描述作为查询，这要求检索模型具有强大的能力来估计查询和候选情节之间的抽象语义关联度。然而，现有的信息检索数据集不能很好地反映这种能力。在本文中，我们提出了一种名为情节检索的标记数据集，用于训练和评估IR模型在新任务情节检索上的性能。情节检索中的文本对具有较少的词重叠和更多的抽象语义关联度，可以反映IR模型估计抽象语义关联度的能力，而不仅仅是传统的词汇或语义匹配。通过各种词汇检索、稀疏检索和密集检索的大量实验
 
-    Retrieval with extremely long queries and documents is a well-known and challenging task in information retrieval and is commonly known as Query-by-Document (QBD) retrieval. Specifically designed Transformer models that can handle long input sequences have not shown high effectiveness in QBD tasks in previous work. We propose a Re-Ranker based on the novel Proportional Relevance Score (RPRS) to compute the relevance score between a query and the top-k candidate documents. Our extensive evaluation shows RPRS obtains significantly better results than the state-of-the-art models on five different datasets. Furthermore, RPRS is highly efficient since all documents can be pre-processed, embedded, and indexed before query time which gives our re-ranker the advantage of having a complexity of O(N) where N is the total number of sentences in the query and candidate documents. Furthermore, our method solves the problem of the low-resource training in QBD retrieval tasks as it does not need larg
+    Retrieving relevant plots from the book for a query is a critical task, which can improve the reading experience and efficiency of readers. Readers usually only give an abstract and vague description as the query based on their own understanding, summaries, or speculations of the plot, which requires the retrieval model to have a strong ability to estimate the abstract semantic associations between the query and candidate plots. However, existing information retrieval (IR) datasets cannot reflect this ability well. In this paper, we propose Plot Retrieval, a labeled dataset to train and evaluate the performance of IR models on the novel task Plot Retrieval. Text pairs in Plot Retrieval have less word overlap and more abstract semantic association, which can reflect the ability of the IR models to estimate the abstract semantic association, rather than just traditional lexical or semantic matching. Extensive experiments across various lexical retrieval, sparse retrieval, dense retrieval
+    
+[^8]: 翻译后的论文标题：指令蒸馏使得大型语言模型成为高效的零-shot排序器
+
+    Instruction Distillation Makes Large Language Models Efficient Zero-shot Rankers. (arXiv:2311.01555v1 [cs.IR])
+
+    [http://arxiv.org/abs/2311.01555](http://arxiv.org/abs/2311.01555)
+
+    中文总结出的一句话要点：本研究提出了一种指令蒸馏方法，通过将大型语言模型的一对一排序能力蒸馏为更高效的单点排序，显著提高了大型语言模型作为零-shot排序器的效率和性能。
+
+    
+
+    近期的研究表明，大型语言模型（LLMs）作为零-shot相关性排序器具有巨大潜力。典型的方法涉及对文档进行一对一或一对多的比较。尽管这些一对多和一对一的方法有效，但效率不高，且严重依赖复杂的提示工程。为了解决这个问题，我们引入了一种新颖的指令蒸馏方法。其核心思想是将开源LLMs的一对一排序能力蒸馏为更简单但更高效的单点排序。具体来说，给定相同的LLMs，我们首先使用复杂的指令采用有效的一对一方法对文档进行排序，然后将教师的预测结果转化为采用更简单的指令的单点排序方法。在BEIR、TREC和ReDial数据集上的评估结果表明，指令蒸馏可以将效率提高10到100倍，同时提高LLMs的排序性能。此外，我们的方法超过了性能
+
+    Recent studies have demonstrated the great potential of Large Language Models (LLMs) serving as zero-shot relevance rankers. The typical approach involves making comparisons between pairs or lists of documents. Although effective, these listwise and pairwise methods are not efficient and also heavily rely on intricate prompt engineering. To tackle this problem, we introduce a novel instruction distillation method. The key idea is to distill the pairwise ranking ability of open-sourced LLMs to a simpler but more efficient pointwise ranking. Specifically, given the same LLM, we first rank documents using the effective pairwise approach with complex instructions, and then distill the teacher predictions to the pointwise approach with simpler instructions. Evaluation results on the BEIR, TREC, and ReDial datasets demonstrate that instruction distillation can improve efficiency by 10 to 100x and also enhance the ranking performance of LLMs. Furthermore, our approach surpasses the performanc
+    
+[^9]: 大规模多模态编码器用于推荐
+
+    Large Multi-modal Encoders for Recommendation. (arXiv:2310.20343v1 [cs.IR])
+
+    [http://arxiv.org/abs/2310.20343](http://arxiv.org/abs/2310.20343)
+
+    本文研究了在推荐系统中使用大规模多模态编码器的方法，以提高推荐性能。现有的多模态推荐系统主要依赖于单独提取的特征，并且不同模态之间只有浅层次的对齐，而大规模多模态编码器能够更好地捕捉模态之间的潜在关系。
+
+    
+
+    近年来，快速增长的在线多媒体服务（如电子商务平台）使得需要开发个性化推荐方法来对每个项目的多样内容进行编码。现代的多模态推荐系统利用从原始图像和物品描述中获取的多种特征来提高推荐性能。然而，现有的多模态推荐系统主要依赖于通过预训练的媒体特定编码器单独提取的特征，并且不同模态之间只有浅层次的对齐，限制了这些系统捕捉模态之间潜在关系的能力。本文中，我们研究在推荐系统特定背景下使用大规模多模态编码器的用法，因为在各个领域中评估物品排名时，这些编码器以前已经展示出最先进的效果。
+
+    In recent years, the rapid growth of online multimedia services, such as e-commerce platforms, has necessitated the development of personalised recommendation approaches that can encode diverse content about each item. Indeed, modern multi-modal recommender systems exploit diverse features obtained from raw images and item descriptions to enhance the recommendation performance. However, the existing multi-modal recommenders primarily depend on the features extracted individually from different media through pre-trained modality-specific encoders, and exhibit only shallow alignments between different modalities - limiting these systems' ability to capture the underlying relationships between the modalities. In this paper, we investigate the usage of large multi-modal encoders within the specific context of recommender systems, as these have previously demonstrated state-of-the-art effectiveness when ranking items across various domains. Specifically, we tailor two state-of-the-art multi
+    
+[^10]: 专注于影响：基于后果的推荐系统解释
+
+    Concentrating on the Impact: Consequence-based Explanations in Recommender Systems. (arXiv:2308.16708v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.16708](http://arxiv.org/abs/2308.16708)
+
+    本研究介绍了一种新概念，即基于后果的解释，以强调推荐项对用户个人消费行为的影响，从而提升推荐系统的用户体验和满意度。
+
+    
+
+    推荐系统在用户决策中起到辅助作用，推荐项的呈现方式和解释是提升用户体验的关键因素。尽管已经提出了各种生成解释的方法，但仍有改进的空间，特别是对于在特定领域缺乏专业知识的用户。在本研究中，我们引入了一种新概念，即基于后果的解释，这种解释强调推荐项对用户个人消费行为的影响，使得遵循推荐的效果更加清晰。我们进行了一项在线用户研究，以验证关于后果解释的欣赏度以及在推荐系统中的不同解释目标上的影响的假设。研究结果显示，后果解释的重要性得到了用户的认可，并且在推荐系统中有效地提高了用户满意度。
+
+    Recommender systems assist users in decision-making, where the presentation of recommended items and their explanations are critical factors for enhancing the overall user experience. Although various methods for generating explanations have been proposed, there is still room for improvement, particularly for users who lack expertise in a specific item domain. In this study, we introduce the novel concept of \textit{consequence-based explanations}, a type of explanation that emphasizes the individual impact of consuming a recommended item on the user, which makes the effect of following recommendations clearer. We conducted an online user study to examine our assumption about the appreciation of consequence-based explanations and their impacts on different explanation aims in recommender systems. Our findings highlight the importance of consequence-based explanations, which were well-received by users and effectively improved user satisfaction in recommender systems. These results prov
+    
+[^11]: 跨域推荐中对比图形提示调优
+
+    Contrastive Graph Prompt-tuning for Cross-domain Recommendation. (arXiv:2308.10685v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2308.10685](http://arxiv.org/abs/2308.10685)
+
+    这项研究引入了个性化图形提示推荐框架，通过对比学习（CL）生成预训练的嵌入，从而在跨域推荐中提高了效果。
+
+    
+
+    推荐系统经常面临数据稀疏问题。缓解这个问题的方法之一是采用跨域推荐技术。在跨域情境下，领域之间的知识共享可以提高目标领域的效果。最近的跨域方法采用了预训练方法，但我们认为这些方法通常导致次优的微调，特别是对于大型神经模型。现代语言模型利用提示进行高效的模型调优。这些提示作为可调整的潜在向量，可以冻结主要模型参数。在我们的研究中，我们引入了个性化图形提示推荐（PGPRec）框架。该框架利用了提示调优的优势。在该框架中，我们通过对比学习（CL）产生预训练的嵌入，这些嵌入提供了很大的潜力。
+
+    Recommender systems are frequently challenged by the data sparsity problem. One approach to mitigate this issue is through cross-domain recommendation techniques. In a cross-domain context, sharing knowledge between domains can enhance the effectiveness in the target domain. Recent cross-domain methods have employed a pre-training approach, but we argue that these methods often result in suboptimal fine-tuning, especially with large neural models. Modern language models utilize prompts for efficient model tuning. Such prompts act as a tunable latent vector, allowing for the freezing of the main model parameters. In our research, we introduce the Personalised Graph Prompt-based Recommendation (PGPRec) framework. This leverages the advantages of prompt-tuning. Within this framework, we formulate personalized graph prompts item-wise, rooted in items that a user has previously engaged with. Specifically, we employ Contrastive Learning (CL) to produce pre-trained embeddings that offer great
+    
+[^12]: ChatGPT用于GTFS: 从文字到信息
+
+    ChatGPT for GTFS: From Words to Information. (arXiv:2308.02618v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.02618](http://arxiv.org/abs/2308.02618)
+
+    本研究探索了使用ChatGPT语言模型从GTFS数据中检索信息的可行性，验证了ChatGPT（GPT-3.5）在GTFS规范理解和信息提取方面的能力。程序合成方法在信息检索任务中表现出更高的准确率，为解决GTFS数据信息获取问题提供了一种有效的方法。
+
+    
+
+    广泛使用的公交通行数据发布标准General Transit Feed Specification（GTFS）是表格数据，信息分散在不同的文件中，需要专门的工具或包来检索信息。与此同时，使用大型语言模型进行文本和信息检索的趋势也在增长。本研究的想法是看看当前广泛采用的LLMs（ChatGPT）是否能够使用自然语言指令从GTFS中检索信息。我们首先测试ChatGPT（GPT-3.5）是否理解GTFS规范。GPT-3.5在我们的多项选择问题（MCQ）中正确回答了77%。接下来，我们利用过滤的GTFS数据集对LLM进行信息提取任务。对于信息检索，我们比较了零-shot和程序合成。程序合成的效果更好，在简单问题上达到了约90%的准确率，在复杂问题上达到了约40%的准确率。
+
+    The General Transit Feed Specification (GTFS) standard for publishing transit data is ubiquitous. GTFS being tabular data, with information spread across different files, necessitates specialized tools or packages to retrieve information. Concurrently, the use of Large Language Models for text and information retrieval is growing. The idea of this research is to see if the current widely adopted LLMs (ChatGPT) are able to retrieve information from GTFS using natural language instructions. We first test whether ChatGPT (GPT-3.5) understands the GTFS specification. GPT-3.5 answers 77% of our multiple-choice questions (MCQ) correctly. Next, we task the LLM with information extractions from a filtered GTFS feed with 4 routes. For information retrieval, we compare zero-shot and program synthesis. Program synthesis works better, achieving ~90% accuracy on simple questions and ~40% accuracy on complex questions.
+    
+[^13]: 在大语言模型时代重新思考对话型推荐系统的评估
+
+    Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models. (arXiv:2305.13112v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2305.13112](http://arxiv.org/abs/2305.13112)
+
+    本文重新思考了大语言模型时代下对话型推荐系统的评估问题，提出了一种基于大语言模型的交互式评估方法iEvaLM，通过实验证明了该方法相较于现有评估协议具有显著的改进，并强调了对外部知识的评估。
+
+    
+
+    最近大语言模型（LLMs）的成功表明其在发展更强大的对话型推荐系统（CRSs）方面具有巨大潜力，这些系统依赖于自然语言对话来满足用户需求。本文探讨了利用ChatGPT进行对话型推荐的可行性，并揭示了现有评估协议的不足之处。现有评估协议可能过分强调与由人类标注者生成的地面真实物品或话语的匹配，而忽视了作为一种有能力的CRS的交互性质。为了克服这种局限性，我们进一步提出了一种基于LLMs的交互式评估方法，名为iEvaLM，该方法利用了基于LLMs的用户模拟器。我们的评估方法可以模拟用户和系统之间的各种交互场景。通过对两个公开可用的CRS数据集进行实验，我们证明了与流行的评估协议相比的显著改进。此外，我们强调了外部知识的评估。
+
+    The recent success of large language models (LLMs) has shown great potential to develop more powerful conversational recommender systems (CRSs), which rely on natural language conversations to satisfy user needs. In this paper, we embark on an investigation into the utilization of ChatGPT for conversational recommendation, revealing the inadequacy of the existing evaluation protocol. It might over-emphasize the matching with the ground-truth items or utterances generated by human annotators, while neglecting the interactive nature of being a capable CRS. To overcome the limitation, we further propose an interactive Evaluation approach based on LLMs named iEvaLM that harnesses LLM-based user simulators. Our evaluation approach can simulate various interaction scenarios between users and systems. Through the experiments on two publicly available CRS datasets, we demonstrate notable improvements compared to the prevailing evaluation protocol. Furthermore, we emphasize the evaluation of ex
+    
+[^14]: 用于评估任务导向的对话系统的隐喻用户模拟器
+
+    Metaphorical User Simulators for Evaluating Task-oriented Dialogue Systems. (arXiv:2204.00763v5 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2204.00763](http://arxiv.org/abs/2204.00763)
+
+    本文提出了一种用于评估任务导向的对话系统的隐喻用户模拟器。该模拟器可以生成类似人类对话的模拟评估，并且提供了一个测试者框架来生成不同能力的对话系统变体。
+
+    
+
+    任务导向的对话系统（TDS）主要在离线环境中或通过人工评估进行评估。评估通常仅限于单轮或非常耗时。作为一个替代方案，模拟用户行为的用户模拟器可以让我们考虑一系列用户目标，以生成类似人类对话的模拟评估。然而，利用现有用户模拟器评估TDS具有挑战性，因为用户模拟器主要设计用于优化TDS的对话策略，并具有有限的评估能力。此外，用户模拟器的评估是一个开放性挑战。在这项工作中，我们提出了一种用于端到端TDS评估的隐喻用户模拟器，其中我们将模拟器定义为隐喻性的，如果它在与系统的交互中模拟用户的类比思维。我们还提出了一个基于测试者的评估框架来生成具有不同能力的对话系统变体。我们的用户模拟器构建了一个隐喻性用户模型。
+
+    Task-oriented dialogue systems (TDSs) are assessed mainly in an offline setting or through human evaluation. The evaluation is often limited to single-turn or is very time-intensive. As an alternative, user simulators that mimic user behavior allow us to consider a broad set of user goals to generate human-like conversations for simulated evaluation. Employing existing user simulators to evaluate TDSs is challenging as user simulators are primarily designed to optimize dialogue policies for TDSs and have limited evaluation capabilities. Moreover, the evaluation of user simulators is an open challenge.  In this work, we propose a metaphorical user simulator for end-to-end TDS evaluation, where we define a simulator to be metaphorical if it simulates user's analogical thinking in interactions with systems. We also propose a tester-based evaluation framework to generate variants, i.e., dialogue systems with different capabilities. Our user simulator constructs a metaphorical user model th
     
 

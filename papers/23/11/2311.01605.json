@@ -1,0 +1,11 @@
+{
+    "title": "Faithful and Robust Local Interpretability for Textual Predictions. (arXiv:2311.01605v1 [cs.CL])",
+    "abstract": "Interpretability is essential for machine learning models to be trusted and deployed in critical domains. However, existing methods for interpreting text models are often complex, lack solid mathematical foundations, and their performance is not guaranteed. In this paper, we propose FRED (Faithful and Robust Explainer for textual Documents), a novel method for interpreting predictions over text. FRED identifies key words in a document that significantly impact the prediction when removed. We establish the reliability of FRED through formal definitions and theoretical analyses on interpretable classifiers. Additionally, our empirical evaluation against state-of-the-art methods demonstrates the effectiveness of FRED in providing insights into text models.",
+    "link": "http://arxiv.org/abs/2311.01605",
+    "context": "Title: Faithful and Robust Local Interpretability for Textual Predictions. (arXiv:2311.01605v1 [cs.CL])\nAbstract: Interpretability is essential for machine learning models to be trusted and deployed in critical domains. However, existing methods for interpreting text models are often complex, lack solid mathematical foundations, and their performance is not guaranteed. In this paper, we propose FRED (Faithful and Robust Explainer for textual Documents), a novel method for interpreting predictions over text. FRED identifies key words in a document that significantly impact the prediction when removed. We establish the reliability of FRED through formal definitions and theoretical analyses on interpretable classifiers. Additionally, our empirical evaluation against state-of-the-art methods demonstrates the effectiveness of FRED in providing insights into text models.",
+    "path": "papers/23/11/2311.01605.json",
+    "total_tokens": 779,
+    "translated_title": "对于文本预测的忠实和稳健的本地可解释性",
+    "translated_abstract": "可解释性对于机器学习模型在关键领域中得到信任和部署是至关重要的。然而，现有的用于解释文本模型的方法通常复杂，并且缺乏坚实的数学基础，它们的性能也不能保证。在本文中，我们提出了一种新颖的方法FRED（Faithful and Robust Explainer for textual Documents），用于解释文本预测。FRED可以识别文档中的关键词，当这些词被移除时对预测结果产生重大影响。我们通过正式的定义和对可解释分类器的理论分析，确立了FRED的可靠性。此外，我们还通过与最先进的方法进行的实证评估，证明了FRED在提供对文本模型的深入见解方面的有效性。",
+    "tldr": "提出了一种名为FRED的新颖方法，用于解释文本预测。FRED可以识别文档中的关键词，并且通过与最先进的方法进行的实证评估证明了其在提供对文本模型的深入见解方面的有效性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Statistical Guarantee for Representation Transfer in Multitask Imitation Learning. (arXiv:2311.01589v1 [cs.LG])",
+    "abstract": "Transferring representation for multitask imitation learning has the potential to provide improved sample efficiency on learning new tasks, when compared to learning from scratch. In this work, we provide a statistical guarantee indicating that we can indeed achieve improved sample efficiency on the target task when a representation is trained using sufficiently diverse source tasks. Our theoretical results can be readily extended to account for commonly used neural network architectures with realistic assumptions. We conduct empirical analyses that align with our theoretical findings on four simulated environments$\\unicode{x2014}$in particular leveraging more data from source tasks can improve sample efficiency on learning in the new task.",
+    "link": "http://arxiv.org/abs/2311.01589",
+    "context": "Title: A Statistical Guarantee for Representation Transfer in Multitask Imitation Learning. (arXiv:2311.01589v1 [cs.LG])\nAbstract: Transferring representation for multitask imitation learning has the potential to provide improved sample efficiency on learning new tasks, when compared to learning from scratch. In this work, we provide a statistical guarantee indicating that we can indeed achieve improved sample efficiency on the target task when a representation is trained using sufficiently diverse source tasks. Our theoretical results can be readily extended to account for commonly used neural network architectures with realistic assumptions. We conduct empirical analyses that align with our theoretical findings on four simulated environments$\\unicode{x2014}$in particular leveraging more data from source tasks can improve sample efficiency on learning in the new task.",
+    "path": "papers/23/11/2311.01589.json",
+    "total_tokens": 660,
+    "translated_title": "一种用于多任务模仿学习中表示转移的统计保证",
+    "translated_abstract": "在多任务模仿学习中，表示转移有潜力比从头开始学习更有效地提供学习新任务所需的样本效率。在这项工作中，我们提供了一个统计保证，表明当使用足够多样的源任务训练表示时，我们确实可以在目标任务上实现改进的样本效率。我们的理论结果可以轻松推广到考虑常用的神经网络架构和现实假设。我们进行了与理论发现相一致的实证分析，在四个模拟环境中进行了实验——特别是利用源任务中更多的数据可以改进对新任务的样本效率。",
+    "tldr": "多任务模仿学习中，通过使用足够多样的源任务训练表示，可以提高对新任务的样本效率。",
+    "en_tdlr": "Transferring representation for multitask imitation learning can improve sample efficiency on learning new tasks by training with sufficiently diverse source tasks."
+}

@@ -2,202 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A connected and automated vehicle readiness framework to support road authorities for C-ITS services.](http://arxiv.org/abs/2311.01268) | 本研究提出了一个CAV准备框架（CRF），以支持道路管理机构评估其准备情况，定义C-ITS服务的要求，并确定未来的发展路径。该框架可以帮助提供安全高效的交通，减轻道路车辆对环境的影响。 |
-| [^2] | [The learning effects of subsidies to bundled goods: a semiparametric approach.](http://arxiv.org/abs/2311.01217) | 本文研究了捆绑商品补贴的学习效应，发现一次性补贴捆绑商品既有直接价格效应，也有间接学习动机，可以通过增加信息遗产来引起长期需求变化。 |
-| [^3] | [How Does China's Household Portfolio Selection Vary with Financial Inclusion?.](http://arxiv.org/abs/2311.01206) | 研究探讨了金融包容性对中国家庭投资组合选择和投资效率的影响，结果表明更高的金融包容性鼓励家庭投资于风险资产并增加投资效率。 |
-| [^4] | [Data-Driven Fixed-Point Tuning for Truncated Realized Variations.](http://arxiv.org/abs/2311.00905) | 本文提出了一种基于数据驱动的截断实现变异的固定点调整方法，有效估计积分波动性。 |
-| [^5] | [From Doubt to Devotion: Trials and Learning-Based Pricing.](http://arxiv.org/abs/2311.00846) | 本文研究了一个动态知情卖家问题，通过卖家对产品匹配的信息不完全以及买家的学习过程，导致提供给怀疑买家有限访问权限的机制，并且根据买家的体验结果，提供升级选项。根据卖家的筛选技术的不同形式，这可以采取免费/折扣试用或分层定价的方式。与静态环境相比，拥有消费者数据可以帮助卖家优化动态设计，但也可能导致收入的减少。 |
-| [^6] | [What is a Labor Market? Classifying Workers and Jobs Using Network Theory.](http://arxiv.org/abs/2311.00777) | 本文提出了一种新的数据驱动方法，使用网络理论对巴西的工人和工作进行分类，揭示了标准分类方法忽视的重要维度。基于此分类的均衡模型更准确地预测了工资变化，并显示当使用此分类时，劳动市场冲击对工人收入的影响将大大增加。 |
-| [^7] | [Predict-AI-bility of how humans balance self-interest with the interest of others.](http://arxiv.org/abs/2307.12776) | 生成式AI能够准确预测人类在决策中平衡自身利益与他人利益的行为模式，但存在高估他人关注行为的倾向，这对AI的开发者和用户具有重要意义。 |
-| [^8] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^9] | [Sequential Sampling Equilibrium.](http://arxiv.org/abs/2212.07725) | 本论文介绍了一个基于连续抽样的均衡框架，可以解释与纳什均衡存在偏差的现象并产生新的预测，同时建立了经验学习和战略复杂度之间的关系，并提供了纳什均衡的合理性依据。 |
-| [^10] | [2SLS with Multiple Treatments.](http://arxiv.org/abs/2205.07836) | 本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。 |
-| [^11] | [Inference from Selectively Disclosed Data.](http://arxiv.org/abs/2204.07191) | 研究了如何在发送者部分汇集均衡时推断选择性披露数据，发现在大数据极限情况下，发送者最优策略是使用模仿策略来提交证据。 |
-| [^12] | [Long Story Short: Omitted Variable Bias in Causal Machine Learning.](http://arxiv.org/abs/2112.13398) | 在因果机器学习中，我们通过推导出遗漏变量偏差的尖锐上界，为广泛的线性泛函因果参数提供了一种简单而通用的方法。这种方法可以应用于许多传统的因果推断研究目标，并且仅取决于潜变量在结果和参数的Riesz表示器中所导致的额外变异。 |
-| [^13] | [Attention Overload.](http://arxiv.org/abs/2110.10650) | 该论文提出了一个注意力过载模型，用于捕捉决策者注意力的竞争，允许确定决策者的偏好和注意力频率，且可应用于各种模型中。 |
+| [^1] | [How to maintain compliance among host country employees who are less anxious after strict government regulations are lifted: An attempt to apply conservation of resources theory to the workplace amid the still-unending COVID-19 pandemic.](http://arxiv.org/abs/2311.01963) | 这项研究将资源保护理论应用于COVID-19大流行期间，探讨了政府解除严格行为限制后对日本当地子公司员工心态的影响。 |
+| [^2] | [Labour Absorption In Manufacturing Industry In Indonesia: Anomalous And Regressive Phenomena.](http://arxiv.org/abs/2311.01787) | 印尼制造业的研究发现，多个细分行业存在劳动吸纳受限和倒退现象，尤其在烟草制品、计算机电子光学产品和家具行业。制造业的效率指数与就业指数之间存在负相关关系。 |
+| [^3] | [A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights.](http://arxiv.org/abs/2311.01592) | 本研究使用聚合博弈的框架，研究了土地所有制体制的转变过程，发现人口密度、技术改进、围地成本、群体凝聚力和谈判力的变化，以及政策和制度环境等因素会影响土地私有化的效率。 |
+| [^4] | [Market Concentration Implications of Foundation Models.](http://arxiv.org/abs/2311.01550) | 对基础模型市场的结构进行分析，发现最强大的模型趋向自然垄断，需要双管齐下的监管响应来确保市场竞争和模型质量标准，以最大程度地对社会福利做出贡献。 |
+| [^5] | [Causal Q-Aggregation for CATE Model Selection.](http://arxiv.org/abs/2310.16945) | 该论文提出了一种基于Q集成的CATE模型选择方法，其通过使用双重鲁棒损失实现了统计上的最佳预测模型选择遗憾率 |
+| [^6] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
+| [^7] | [Does regional variation in wage levels identify the effects of a national minimum wage?.](http://arxiv.org/abs/2307.01284) | 本文研究了国家最低工资对就业和工资的因果效应，并发现受影响比例设计存在偏差，导致对真实因果效应的拒绝率过高。我还提出了两种诊断方法来验证这种设计，对于有效最低工资设计，Lee(1999)强调的识别假设至关重要。 |
+| [^8] | [Deterministic, quenched or annealed? Differences in the parameter estimation of heterogeneous network models.](http://arxiv.org/abs/2303.02716) | 本论文探讨了在不同模型中用于估计异质网络模型参数的三种方法，强调了在同质模型与异质网络模型中的等价和差异。 |
+| [^9] | [Rationally Inattentive Statistical Discrimination: Arrow Meets Phelps.](http://arxiv.org/abs/2212.08219) | 合理忽视的统计歧视模型研究了信息获取成本对委托人对待多数族群和少数族群不平等的影响，发现多数族群面临投资动力而少数族群被阻碍投资。结果对平权行动、隐性偏见、职业性别隔离和刻板印象的讨论具有重要意义。 |
+| [^10] | [Cognitive Hierarchies in Multi-Stage Games of Incomplete Information: Theory and Experiment.](http://arxiv.org/abs/2208.11190) | 本文研究了不完全信息多阶段博弈中的认知层次理论和实验，提出了动态认知层次(DCH)解，并通过实验验证了该解的预测。通过使用简化正常形式进行动态游戏实验，作者发现了行为之间的显著差异，并与DCH的预测一致。 |
+| [^11] | [Inference for Matched Tuples and Fully Blocked Factorial Designs.](http://arxiv.org/abs/2206.04157) | 本文研究了基于匹配元组设计的随机对照试验中多个治疗方案的推断。通过匹配元组设计，我们可以获得每种治疗方案的平均潜在结果集合上的线性对比向量参数，包括标准的平均治疗效果，同时还可以分析因子设计中的其他参数。 |
+| [^12] | [Coarse Wage-Setting and Behavioral Firms.](http://arxiv.org/abs/2206.01114) | 本文研究表明公司粗略的工资设定导致工资在整数上的聚集，同时对公司的市场结果产生了负面影响。 |
+| [^13] | [Phase transitions in nonparametric regressions.](http://arxiv.org/abs/2112.03626) | 本文研究了非参数回归中的相变问题，根据最小极大MISE速率的不同情况，确定了不同范围内最佳的平滑度。同时，本文还提出了一组用于平滑函数类别的度量熵界限。 |
 
 # 详细
 
-[^1]: 为支持道路管理机构的C-ITS服务而设计的连接和自动化车辆准备框架
+[^1]: 在政府解除严格规定之后，如何在东道国员工的焦虑程度降低后维持其遵守程度：在仍在进行的COVID-19大流行中将资源保护理论应用到职场中的尝试
 
-    A connected and automated vehicle readiness framework to support road authorities for C-ITS services. (arXiv:2311.01268v1 [econ.GN])
+    How to maintain compliance among host country employees who are less anxious after strict government regulations are lifted: An attempt to apply conservation of resources theory to the workplace amid the still-unending COVID-19 pandemic. (arXiv:2311.01963v1 [econ.GN])
 
-    [http://arxiv.org/abs/2311.01268](http://arxiv.org/abs/2311.01268)
+    [http://arxiv.org/abs/2311.01963](http://arxiv.org/abs/2311.01963)
 
-    本研究提出了一个CAV准备框架（CRF），以支持道路管理机构评估其准备情况，定义C-ITS服务的要求，并确定未来的发展路径。该框架可以帮助提供安全高效的交通，减轻道路车辆对环境的影响。
-
-    
-
-    连接和自动化车辆（CAVs）对交通系统有着深远的影响。然而，大部分的自动化和连接性都需要道路基础设施的支持。额外的支持，如合作智能交通系统（C-ITS）服务，可以促进安全高效的交通，减轻道路车辆对环境的影响。然而，由于技术的快速发展，C-ITS服务的部署要求并不总是清晰的。此外，基础设施投资的成本和收益也存在巨大的不确定性。本研究采用结构化方法来阐述这些要求，并提出了一个CAV准备框架（CRF）的建议。该CRF的主要目的是让道路管理机构评估其物理和数字基础设施的准备情况，定义C-ITS服务的要求，并确定未来的发展路径，以达到更高水平的准备，以支持通过启用C-ITS服务来支持CAVs。
-
-    Connected and Automated Vehicles (CAVs) can have a profound influence on transport systems. However, most levels of automation and connectivity require support from the road infrastructure. Additional support such as Cooperative Intelligent Transport Systems (C-ITS) services can facilitate safe and efficient traffic, and alleviate the environmental impacts of road surface vehicles. However, due to the rapidly evolving technology, C-ITS service deployment requirements are not always clear. Furthermore, the costs and benefits of infrastructure investments are subject to tremendous uncertainty. This study articulates the requirements using a structured approach to propose a CAV-Readiness Framework (CRF). The main purpose of the CRF is allowing road authorities to assess their physical and digital infrastructure readiness, define requirements for C-ITS services, and identify future development paths to reach higher levels of readiness to support CAVs by enabling C-ITS services. The CRF is 
-    
-[^2]: 捆绑商品补贴的学习效应：半参数方法
-
-    The learning effects of subsidies to bundled goods: a semiparametric approach. (arXiv:2311.01217v1 [econ.EM])
-
-    [http://arxiv.org/abs/2311.01217](http://arxiv.org/abs/2311.01217)
-
-    本文研究了捆绑商品补贴的学习效应，发现一次性补贴捆绑商品既有直接价格效应，也有间接学习动机，可以通过增加信息遗产来引起长期需求变化。
+    这项研究将资源保护理论应用于COVID-19大流行期间，探讨了政府解除严格行为限制后对日本当地子公司员工心态的影响。
 
     
 
-    临时补贴捆绑商品是否能够通过学习其中一种商品的相对质量来引起长期需求变化？本文从理论和实证角度提供了关于此机制的证据。在理论上，我们引入了一个模型，代理人通过消费来学习必需品创新的质量。我们的结果显示，对包含该创新的捆绑商品进行一次性补贴的即时效应可以分解为直接价格效应和间接学习动机，代理人利用折扣增加信息遗产留给未来的自己。然后，我们在一个随机实验中评估了我们理论的预测，该实验在一个拼车平台上为与火车或地铁站整合的汽车行程提供了两周的折扣。考虑到我们数据的重尾特性，我们遵循Athey（2023）的方法，并基于我们的理论提出了一个半参数模型。
+    本研究通过比较2023年1月至3月武汉市813名受访者（武汉2023）和2020年2月至5月中国东南地区2973名受访者（中国2020）的问卷回答，探讨了在COVID-19大流行期间，政府严格的行为限制被解除后，日本当地子公司员工心态发生的变化。研究结果表明，基于资源保护理论的分析模型可以适用于中国2020和武汉2023。
 
-    Can temporary subsidies to bundles induce long-run changes in demand due to learning about the relative quality of one of its constituent goods? This paper provides theoretical and experimental evidence on the role of this mechanism. Theoretically, we introduce a model where an agent learns about the quality of an innovation on an essential good through consumption. Our results show that the contemporaneous effect of a one-off subsidy to a bundle that contains the innovation may be decomposed into a direct price effect, and an indirect learning motive, whereby an agent leverages the discount to increase the informational bequest left to her future selves. We then assess the predictions of our theory in a randomised experiment in a ridesharing platform. The experiment provided two-week discounts for car trips integrating with a train or metro station (a bundle). Given the heavy-tailed nature of our data, we follow \cite{Athey2023} and, motivated by our theory, propose a semiparametric m
+    Design/methodology/approach We compared the awareness of 813 people in Wuhan city from January to March 2023 (Wuhan 2023) and 2,973 people in East and South China from February to May 2020 (China 2020) using responses to questionnaires conducted at Japanese local subsidiaries during each period. Purpose As the coronavirus pandemic becomes less terrifying than before, there is a trend in countries around the world to abolish strict behavioral restrictions imposed by governments. How should overseas subsidiaries change the way they manage human resources in response to these system changes? To find an answer to this question, this paper examines what changes occurred in the mindset of employees working at local subsidiaries after the government's strict behavioral restrictions were introduced and lifted during the COVID-19 pandemic. Findings The results showed that the analytical model based on conservation of resources (COR) theory can be applied to both China 2020 and Wuhan 2023. Howev
     
-[^3]: 中国家庭投资组合选择在金融包容性方面的变化是如何的？
+[^2]: 印尼制造业中的劳动吸纳：异常和倒退现象
 
-    How Does China's Household Portfolio Selection Vary with Financial Inclusion?. (arXiv:2311.01206v1 [econ.GN])
+    Labour Absorption In Manufacturing Industry In Indonesia: Anomalous And Regressive Phenomena. (arXiv:2311.01787v1 [econ.GN])
 
-    [http://arxiv.org/abs/2311.01206](http://arxiv.org/abs/2311.01206)
+    [http://arxiv.org/abs/2311.01787](http://arxiv.org/abs/2311.01787)
 
-    研究探讨了金融包容性对中国家庭投资组合选择和投资效率的影响，结果表明更高的金融包容性鼓励家庭投资于风险资产并增加投资效率。
-
-    
-
-    投资组合的不充分多样化是家庭生命周期中最昂贵的损失之一。我们使用2015年、2017年和2019年的中国家庭调研数据，提供了关于金融包容服务对家庭投资组合选择和投资效率的影响的新证据。我们假设更高的金融包容渗透率鼓励家庭参与金融市场，从而实现更好的投资组合多样化和投资效率。基准模型的结果与我们提出的假设一致，即更高的金融包容性促使家庭投资于风险资产并增加投资效率。我们进一步估计了一个动态双机器学习模型，定量研究非线性因果效应并跟踪这些效应随时间的动态变化。我们观察到边际效应随时间增加，并且这些效应在低资产、较低教育程度的家庭中更为明显。
-
-    Portfolio underdiversification is one of the most costly losses accumulated over a household's life cycle. We provide new evidence on the impact of financial inclusion services on households' portfolio choice and investment efficiency using 2015, 2017, and 2019 survey data for Chinese households. We hypothesize that higher financial inclusion penetration encourages households to participate in the financial market, leading to better portfolio diversification and investment efficiency. The results of the baseline model are consistent with our proposed hypothesis that higher accessibility to financial inclusion encourages households to invest in risky assets and increases investment efficiency. We further estimate a dynamic double machine learning model to quantitatively investigate the non-linear causal effects and track the dynamic change of those effects over time. We observe that the marginal effect increases over time, and those effects are more pronounced among low-asset, less-educ
-    
-[^4]: 数据驱动的截断实现变异的固定点调整方法
-
-    Data-Driven Fixed-Point Tuning for Truncated Realized Variations. (arXiv:2311.00905v1 [math.ST])
-
-    [http://arxiv.org/abs/2311.00905](http://arxiv.org/abs/2311.00905)
-
-    本文提出了一种基于数据驱动的截断实现变异的固定点调整方法，有效估计积分波动性。
+    印尼制造业的研究发现，多个细分行业存在劳动吸纳受限和倒退现象，尤其在烟草制品、计算机电子光学产品和家具行业。制造业的效率指数与就业指数之间存在负相关关系。
 
     
 
-    在估计存在跳跃的半鞅的积分波动性和相关泛函时，许多方法需要指定调整参数的使用。在现有的理论中，调整参数被假设为确定性的，并且其值仅在渐近约束条件下指定。然而，在实证研究和模拟研究中，它们通常被选择为随机和数据相关的，实际上仅依赖于启发式方法。在本文中，我们考虑了一种基于一种随机固定点迭代的半鞅带跳跃的截断实现变异的新颖数据驱动调整程序。我们的方法是高度自动化的，可以减轻关于调整参数的微妙决策的需求，并且可以仅使用关于采样频率的信息进行实施。我们展示了我们的方法可以导致渐进有效的积分波动性估计，并展示了其在
+    制造业部门本应创造新的就业机会并吸纳劳动力。然而，逐渐出现了对劳动者生存的威胁。根据本研究的发现，2012年至2020年期间，印尼的24个2位ISIC制造业细分行业表现出倒退和异常的模式。这表明劳动吸纳在很大程度上受到限制，并且在某些情况下甚至呈现下降趋势。三个细分行业（ISIC 12烟草制品、ISIC 26计算机、电子和光学产品、ISIC 31家具）观察到异常发生，而其他21个ISIC细分行业则呈现倒退现象。此外，制造业的就业和效率指数之间存在负相关关系，表明出现了这种异常和倒退现象。
 
-    Many methods for estimating integrated volatility and related functionals of semimartingales in the presence of jumps require specification of tuning parameters for their use. In much of the available theory, tuning parameters are assumed to be deterministic, and their values are specified only up to asymptotic constraints. However, in empirical work and in simulation studies, they are typically chosen to be random and data-dependent, with explicit choices in practice relying on heuristics alone. In this paper, we consider novel data-driven tuning procedures for the truncated realized variations of a semimartingale with jumps, which are based on a type of stochastic fixed-point iteration. Being effectively automated, our approach alleviates the need for delicate decision-making regarding tuning parameters, and can be implemented using information regarding sampling frequency alone. We show our methods can lead to asymptotically efficient estimation of integrated volatility and exhibit 
+    The manufacturing industry sector was expected to generate new employment opportunities and take on labour. Gradually, however, it emerged as a menace to the sustenance of its workers. According to the findings of this study, 24 manufacturing subsectors with ISIC 2 digits in Indonesia exhibited regressive and abnormal patterns in the period 2012-2020. This suggests that, to a great extent, labour absorption has been limited and, in some cases, even shown a decline. Anomalous occurrences were observed in three subsectors: ISIC 12 (tobacco products), ISIC 26 (computer, electronic and optical products), and ISIC 31 (furniture). In contrast, regressive phenomena were present in the remaining 21 ISIC subsectors. Furthermore, the manufacturing industry displayed a negative correlation between employment and efficiency index, demonstrating this anomalous and regressive phenomenon. This implies that as the efficiency index of the manufacturing industry increases, the index of labour absorption
     
-[^5]: 从疑惑到献身：基于试验和学习的定价
+[^3]: 《围地模型：土地产权转变中的协调、冲突和效率》
 
-    From Doubt to Devotion: Trials and Learning-Based Pricing. (arXiv:2311.00846v1 [econ.TH])
+    A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights. (arXiv:2311.01592v1 [econ.GN])
 
-    [http://arxiv.org/abs/2311.00846](http://arxiv.org/abs/2311.00846)
+    [http://arxiv.org/abs/2311.01592](http://arxiv.org/abs/2311.01592)
 
-    本文研究了一个动态知情卖家问题，通过卖家对产品匹配的信息不完全以及买家的学习过程，导致提供给怀疑买家有限访问权限的机制，并且根据买家的体验结果，提供升级选项。根据卖家的筛选技术的不同形式，这可以采取免费/折扣试用或分层定价的方式。与静态环境相比，拥有消费者数据可以帮助卖家优化动态设计，但也可能导致收入的减少。
-
-    
-
-    一个知情的卖家设计了一个动态机制来销售一个体验好。卖家对产品匹配有部分信息，这会影响买家的私人消费体验。我们对这个动态知情主体问题的均衡机制进行了表征。知情的卖家和不知情的买家之间的信念差距，再加上买家的学习，导致了为怀疑的买家提供对产品有限访问权限的机制，并且如果买家对好的体验感到满意的话，还提供升级的选项。根据卖家的筛选技术不同，这可以采取免费/折扣试用或分层定价的形式，在数字市场中非常普遍。与静态环境相比，拥有消费者数据可以在均衡情况下减少卖家的收入，因为他们可以凭借数据预测买家的学习过程来优化动态设计。
-
-    An informed seller designs a dynamic mechanism to sell an experience good. The seller has partial information about the product match, which affects the buyer's private consumption experience. We characterize equilibrium mechanisms of this dynamic informed principal problem. The belief gap between the informed seller and the uninformed buyer, coupled with the buyer's learning, gives rise to mechanisms that provide the skeptical buyer with limited access to the product and an option to upgrade if the buyer is swayed by a good experience. Depending on the seller's screening technology, this takes the form of free/discounted trials or tiered pricing, which are prevalent in digital markets. In contrast to static environments, having consumer data can reduce sellers' revenue in equilibrium, as they fine-tune the dynamic design with their data forecasting the buyer's learning process.
-    
-[^6]: 什么是劳动力市场？使用网络理论对工人和工作进行分类。
-
-    What is a Labor Market? Classifying Workers and Jobs Using Network Theory. (arXiv:2311.00777v1 [econ.GN])
-
-    [http://arxiv.org/abs/2311.00777](http://arxiv.org/abs/2311.00777)
-
-    本文提出了一种新的数据驱动方法，使用网络理论对巴西的工人和工作进行分类，揭示了标准分类方法忽视的重要维度。基于此分类的均衡模型更准确地预测了工资变化，并显示当使用此分类时，劳动市场冲击对工人收入的影响将大大增加。
+    本研究使用聚合博弈的框架，研究了土地所有制体制的转变过程，发现人口密度、技术改进、围地成本、群体凝聚力和谈判力的变化，以及政策和制度环境等因素会影响土地私有化的效率。
 
     
 
-    本文通过将网络理论的实证工具应用于巴西大规模管理数据，提出了一种新的数据驱动方法来描述潜在的工人技能和工作任务的异质性。我们使用一种标准的均衡模型将这种工具微观化，该模型根据比较优势使工人与工作匹配。我们的分类识别出标准基于职业和行业的分类忽视的工人和工作异质性的重要维度。基于我们的分类的均衡模型比基于职业和行业的模型更准确地预测了对2016年奥运会的工资变化。此外，对于一次对工人需求的大规模模拟冲击，我们表明当使用我们的分类而不是职业和行业进行工人和工作的分类时，劳动力市场冲击暴露对工人收入的影响的简化形式估计值将大约增加4倍。
+    历史学家和政治经济学家长期以来一直在讨论导致边疆地区土地、公共领域和各种习俗土地所有制转变为更为排他形式的私人财产的过程。我们使用聚合博弈的框架，研究土地所有制体制，在这种体制下，通过占有和使用来确立对土地的获取权，然后探索可能引发去中心化私有化过程的因素。人口密度、技术改进的潜力、围地成本、群体凝聚力和谈判力变化、以及政策和制度环境等因素决定了财产制度的平衡组合。尽管在某些情况下去中心化的过程可以产生有效的围地和技术转变，但在其他情况下，结果却达不到最佳状态。这是由不同的溢出效应相互作用引起的，导致围地和技术转变的效率低于理想状态。
 
-    This paper develops a new data-driven approach to characterizing latent worker skill and job task heterogeneity by applying an empirical tool from network theory to large-scale Brazilian administrative data on worker--job matching. We microfound this tool using a standard equilibrium model of workers matching with jobs according to comparative advantage. Our classifications identify important dimensions of worker and job heterogeneity that standard classifications based on occupations and sectors miss. The equilibrium model based on our classifications more accurately predicts wage changes in response to the 2016 Olympics than a model based on occupations and sectors. Additionally, for a large simulated shock to demand for workers, we show that reduced form estimates of the effects of labor market shock exposure on workers' earnings are nearly 4 times larger when workers and jobs are classified using our classifications as opposed to occupations and sectors.
+    Historians and political economists have long debated the processes that led land in frontier regions, managed commons, and a variety of customary landholding regimes to be enclosed and transformed into more exclusive forms of private property. Using the framework of aggregative games, we examine land-holding regimes where access to land is established via possession and use, and then explore the factors that may initiate decentralized privatization processes. Factors including population density, potential for technology improvement, enclosure costs, shifts in group cohesion and bargaining power, or the policy and institutional environment determine the equilibrium mix of property regimes. While decentralized processes yield efficient enclosure and technological transformation in some circumstances, in others, the outcomes fall short of second-best. This stems from the interaction of different spillover effects, leading to inefficiently low rates of enclosure and technological transfo
     
-[^7]: 预测人类如何在自身利益与他人利益之间平衡的可预测性
+[^4]: 基础模型的市场集中度影响
 
-    Predict-AI-bility of how humans balance self-interest with the interest of others. (arXiv:2307.12776v1 [econ.GN])
+    Market Concentration Implications of Foundation Models. (arXiv:2311.01550v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.12776](http://arxiv.org/abs/2307.12776)
+    [http://arxiv.org/abs/2311.01550](http://arxiv.org/abs/2311.01550)
 
-    生成式AI能够准确预测人类在决策中平衡自身利益与他人利益的行为模式，但存在高估他人关注行为的倾向，这对AI的开发者和用户具有重要意义。
-
-    
-
-    生成式人工智能具有革命性的潜力，可以改变从日常生活到高风险场景的决策过程。然而，由于许多决策具有社会影响，为了使AI能够成为可靠的决策助手，它必须能够捕捉自身利益与他人利益之间的平衡。我们对三种最先进的聊天机器人对来自12个国家的78个实验的独裁者游戏决策进行了研究。我们发现，只有GPT-4（而不是Bard或Bing）能够正确捕捉到行为模式的定性特征，识别出三种主要的行为类别：自私的、不公平厌恶的和完全无私的。然而，GPT-4一直高估了他人关注行为，夸大了不公平厌恶和完全无私参与者的比例。这种偏见对于AI开发人员和用户具有重要意义。
-
-    Generative artificial intelligence holds enormous potential to revolutionize decision-making processes, from everyday to high-stake scenarios. However, as many decisions carry social implications, for AI to be a reliable assistant for decision-making it is crucial that it is able to capture the balance between self-interest and the interest of others. We investigate the ability of three of the most advanced chatbots to predict dictator game decisions across 78 experiments with human participants from 12 countries. We find that only GPT-4 (not Bard nor Bing) correctly captures qualitative behavioral patterns, identifying three major classes of behavior: self-interested, inequity-averse, and fully altruistic. Nonetheless, GPT-4 consistently overestimates other-regarding behavior, inflating the proportion of inequity-averse and fully altruistic participants. This bias has significant implications for AI developers and users.
-    
-[^8]: 经济主体的动态运输
-
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
-
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
+    对基础模型市场的结构进行分析，发现最强大的模型趋向自然垄断，需要双管齐下的监管响应来确保市场竞争和模型质量标准，以最大程度地对社会福利做出贡献。
 
     
 
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
+    我们分析了基础模型市场的结构，即那些驱动ChatGPT等应用并适用于下游用途的大型AI模型，并研究了其对竞争政策和监管的影响。我们观察到，能力最强的模型有一种向自然垄断的趋势，并且可能面对广阔的市场。这需要双管齐下的监管响应：（一）反垄断机构需要通过解决战略行为，特别是确保垄断不会垂直传播到下游用途，来确保市场的可竞争性；（二）考虑到市场约束的降低，监管机构应确保最具能力的模型符合足够的质量标准（包括安全、隐私、非歧视、可靠性和互操作性标准），以最大程度地对社会福利做出贡献。监管机构还应确保AI和非AI应用之间有一个公平的监管环境。
 
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
+    We analyze the structure of the market for foundation models, i.e., large AI models such as those that power ChatGPT and that are adaptable to downstream uses, and we examine the implications for competition policy and regulation. We observe that the most capable models will have a tendency towards natural monopoly and may have potentially vast markets. This calls for a two-pronged regulatory response: (i) Antitrust authorities need to ensure the contestability of the market by tackling strategic behavior, in particular by ensuring that monopolies do not propagate vertically to downstream uses, and (ii) given the diminished potential for market discipline, there is a role for regulators to ensure that the most capable models meet sufficient quality standards (including safety, privacy, non-discrimination, reliability and interoperability standards) to maximally contribute to social welfare. Regulators should also ensure a level regulatory playing field between AI and non-AI application
     
-[^9]: 连续抽样均衡
+[^5]: Causal Q-Aggregation for CATE Model Selection（CATE模型选择中的因果Q集成）
 
-    Sequential Sampling Equilibrium. (arXiv:2212.07725v2 [econ.TH] UPDATED)
+    Causal Q-Aggregation for CATE Model Selection. (arXiv:2310.16945v1 [stat.ML])
 
-    [http://arxiv.org/abs/2212.07725](http://arxiv.org/abs/2212.07725)
+    [http://arxiv.org/abs/2310.16945](http://arxiv.org/abs/2310.16945)
 
-    本论文介绍了一个基于连续抽样的均衡框架，可以解释与纳什均衡存在偏差的现象并产生新的预测，同时建立了经验学习和战略复杂度之间的关系，并提供了纳什均衡的合理性依据。
-
-    
-
-    本论文引入了一个基于连续抽样的均衡框架，其中玩家面临对对手行为的战略不确定性，并获取信息信号以解决不确定性。连续抽样均衡提供了一个规范的模型，包括选择、信念和决策时间的内生分布，不仅可以合理解释与纳什均衡存在偏差的现象，还可以产生根据现有数据支持的新颖预测。它建立了经验学习和战略复杂度之间的关系，并通过采样的随机性产生了随机选择，而不依赖于冷漠或选择错误。此外，当抽样成本消失时，它为纳什均衡提供了合理性的依据。
-
-    This paper introduces an equilibrium framework based on sequential sampling in which players face strategic uncertainty over their opponents' behavior and acquire informative signals to resolve it. Sequential sampling equilibrium delivers a disciplined model featuring an endogenous distribution of choices, beliefs, and decision times, that not only rationalizes well-known deviations from Nash equilibrium, but also makes novel predictions supported by existing data. It grounds a relationship between empirical learning and strategic sophistication, and generates stochastic choice through randomness inherent to sampling, without relying on indifference or choice mistakes. Further, it provides a rationale for Nash equilibrium when sampling costs vanish.
-    
-[^10]: 有多个治疗方案的二阶段最小二乘法
-
-    2SLS with Multiple Treatments. (arXiv:2205.07836v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2205.07836](http://arxiv.org/abs/2205.07836)
-
-    本研究研究了在存在治疗效应异质性的模型中，二阶段最小二乘法可以确定每种治疗方案的代理人特定效应的正权重和的必要且充分条件，其适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。
+    该论文提出了一种基于Q集成的CATE模型选择方法，其通过使用双重鲁棒损失实现了统计上的最佳预测模型选择遗憾率
 
     
 
-    我们研究了在存在治疗效应异质性的模型中，二阶段最小二乘法 (2SLS) 在多个治疗方案中所能确定的内容。我们证明了两个必要且充分的条件，即平均条件单调性和无交叉效应，可以确定每种治疗方案的代理人特定效应的正权重和。我们的鉴定分析可以适用于任意数量的治疗方案、任意数量的连续或离散工具以及包括协变量在内的情况。我们提供了由我们的鉴定条件所暗示的选择行为的特征，并讨论了这些条件如何在实证研究中进行测试。
+    准确估计条件平均处理效应（CATE）是个性化决策的核心。尽管有大量用于CATE估计的模型，但由于因果推断的基本问题，模型选择是一项非常棘手的任务。最近的实证工作提供了有利于具有双重鲁棒性质的代理损失度量和模型集成的证据。然而，对于这些模型的理论理解还不够。直接应用先前的理论工作会由于模型选择问题的非凸性而导致次优的预测模型选择率。我们提供了现有主要CATE集成方法的遗憾率，并提出了一种基于双重鲁棒损失的Q集成的新的CATE模型集成方法。我们的主要结果表明，因果Q集成在预测模型选择的遗憾率上达到了统计上的最优值为$\frac{\log(M)}{n}$（其中$M$为模型数，$n$为样本数），加上高阶估计误差项
 
-    We study what two-stage least squares (2SLS) identifies in models with multiple treatments under treatment effect heterogeneity. Two conditions are shown to be necessary and sufficient for the 2SLS to identify positively weighted sums of agent-specific effects of each treatment: average conditional monotonicity and no cross effects. Our identification analysis allows for any number of treatments, any number of continuous or discrete instruments, and the inclusion of covariates. We provide characterizations of choice behavior implied by our identification conditions and discuss how the conditions can be tested empirically.
+    Accurate estimation of conditional average treatment effects (CATE) is at the core of personalized decision making. While there is a plethora of models for CATE estimation, model selection is a nontrivial task, due to the fundamental problem of causal inference. Recent empirical work provides evidence in favor of proxy loss metrics with double robust properties and in favor of model ensembling. However, theoretical understanding is lacking. Direct application of prior theoretical work leads to suboptimal oracle model selection rates due to the non-convexity of the model selection problem. We provide regret rates for the major existing CATE ensembling approaches and propose a new CATE model ensembling approach based on Q-aggregation using the doubly robust loss. Our main result shows that causal Q-aggregation achieves statistically optimal oracle model selection regret rates of $\frac{\log(M)}{n}$ (with $M$ models and $n$ samples), with the addition of higher-order estimation error term
     
-[^11]: 针对有选择性披露数据的推断问题
+[^6]: 游戏连通性与自适应动态
 
-    Inference from Selectively Disclosed Data. (arXiv:2204.07191v2 [econ.TH] UPDATED)
+    Game Connectivity and Adaptive Dynamics. (arXiv:2309.10609v1 [econ.TH])
 
-    [http://arxiv.org/abs/2204.07191](http://arxiv.org/abs/2204.07191)
+    [http://arxiv.org/abs/2309.10609](http://arxiv.org/abs/2309.10609)
 
-    研究了如何在发送者部分汇集均衡时推断选择性披露数据，发现在大数据极限情况下，发送者最优策略是使用模仿策略来提交证据。
-
-    
-
-    我们考虑一个发送者想要使用硬证据说服接收者做出更高行动的披露问题。当接收者希望从数据的分布中做出推断时，发送者有动机删除某些观测数据以模仿在更好状态下观测到的数据分布。我们使用一个连续模型来预测数据集很大时最优策略，发现在大数据极限下，发送者最优策略是使用模仿策略，他们提交符合某些理想目标状态下的自然分布的证据。相对于完全信息来说，主动披露的部分汇集均衡会对那些数据很少或者处于有利状态的发送者产生福利损失，那些发送者会最优地披露整个数据集，但对于拥有大型数据集的发送者而言，可以在低状态下有利地删除观察数据。
-
-    We consider the disclosure problem of a sender who wants to use hard evidence to persuade a receiver towards higher actions. When the receiver hopes to make inferences based on the distribution of the data, the sender has an incentive to drop observations to mimic the distributions observed under better states. We use a continuum model to predict optimal play when datasets are large and find that, in the big-data limit, it is optimal for senders to play an imitation strategy, under which they submit evidence imitating the natural distribution under some desirable target state. Relative to full information, the partial pooling equilibrium with voluntary disclosure generates a loss in welfare to senders who either have little data or a favorable state, who optimally disclose their full dataset, but a benefit to senders with access to large datasets, who can profitably drop observations under low states.
-    
-[^12]: 《长话短说：因果机器学习中的遗漏变量偏差》
-
-    Long Story Short: Omitted Variable Bias in Causal Machine Learning. (arXiv:2112.13398v4 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2112.13398](http://arxiv.org/abs/2112.13398)
-
-    在因果机器学习中，我们通过推导出遗漏变量偏差的尖锐上界，为广泛的线性泛函因果参数提供了一种简单而通用的方法。这种方法可以应用于许多传统的因果推断研究目标，并且仅取决于潜变量在结果和参数的Riesz表示器中所导致的额外变异。
+    通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。
 
     
 
-    我们推导了一类广泛的因果参数的遗漏变量偏差的一般但简单的尖锐上界，这些参数可以被认定为结果的条件期望函数的线性泛函。这样的泛函包括许多因果推断研究中的传统调查目标，例如（加权）潜在结果的平均值、平均处理效应（包括子组效应，如对待处理对象的影响）、（加权）平均导数和来自协变量分布变化的策略效应 - 全部适用于一般的非参数因果模型。我们的构造依赖于目标泛函的Riesz-Fréchet表示。具体来说，我们展示了偏差上界仅取决于潜变量在结果和感兴趣参数的Riesz表示器中所创建的附加变化。此外，在许多重要情况下（例如平均处理效应和平均导数）
+    我们通过分析最佳响应图的连通特性，分析了游戏的典型结构。特别是，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的，这意味着每个非均衡的行动配置都可以通过最佳响应路径到达每个纯纳什均衡。这对于游戏中的动态过程有着重要意义：许多自适应动态，例如带有惯性的最佳响应动态，在连通的游戏中会导致均衡。因此，存在简单的、不耦合的自适应动态，按周期游戏将几乎确定地收敛到具有纯纳什均衡的“大型”通用游戏的情况下。
 
-    We derive general, yet simple, sharp bounds on the size of the omitted variable bias for a broad class of causal parameters that can be identified as linear functionals of the conditional expectation function of the outcome. Such functionals encompass many of the traditional targets of investigation in causal inference studies, such as, for example, (weighted) average of potential outcomes, average treatment effects (including subgroup effects, such as the effect on the treated), (weighted) average derivatives, and policy effects from shifts in covariate distribution -- all for general, nonparametric causal models. Our construction relies on the Riesz-Frechet representation of the target functional. Specifically, we show how the bound on the bias depends only on the additional variation that the latent variables create both in the outcome and in the Riesz representer for the parameter of interest. Moreover, in many important cases (e.g, average treatment effects and avearage derivative
+    We analyse the typical structure of games in terms of the connectivity properties of their best-response graphs. In particular, we show that almost every 'large' generic game that has a pure Nash equilibrium is connected, meaning that every non-equilibrium action profile can reach every pure Nash equilibrium via best-response paths. This has implications for dynamics in games: many adaptive dynamics, such as the best-response dynamic with inertia, lead to equilibrium in connected games. It follows that there are simple, uncoupled, adaptive dynamics for which period-by-period play converges almost surely to a pure Nash equilibrium in almost every 'large' generic game that has one. We build on recent results in probabilistic combinatorics for our characterisation of game connectivity.
     
-[^13]: 注意力过载模型
+[^7]: 区域工资水平的变化能否确定国家最低工资的影响？
 
-    Attention Overload. (arXiv:2110.10650v2 [econ.TH] UPDATED)
+    Does regional variation in wage levels identify the effects of a national minimum wage?. (arXiv:2307.01284v1 [econ.EM])
 
-    [http://arxiv.org/abs/2110.10650](http://arxiv.org/abs/2110.10650)
+    [http://arxiv.org/abs/2307.01284](http://arxiv.org/abs/2307.01284)
 
-    该论文提出了一个注意力过载模型，用于捕捉决策者注意力的竞争，允许确定决策者的偏好和注意力频率，且可应用于各种模型中。
+    本文研究了国家最低工资对就业和工资的因果效应，并发现受影响比例设计存在偏差，导致对真实因果效应的拒绝率过高。我还提出了两种诊断方法来验证这种设计，对于有效最低工资设计，Lee(1999)强调的识别假设至关重要。
 
     
 
-    我们提出了一个注意力过载模型，捕捉到决策者的注意力将会竞争，因此每个备选项收到的注意力随着选择问题的增大而减少。利用这种对随机注意力形成的非参数约束，我们展示了一个富有成果的显性偏好理论，并提供了可测试的选择行为的推论，可以用于（部分）确定决策者的偏好和注意力频率。然后，我们改进了注意力过载模型以适应异质偏好。由于我们鉴定假设的非参数性质，必须限制选择模型中的异质性程度：我们提出了列表型注意力过载的概念，其中备选项呈列表形式呈现给决策者，与异质偏好和随机注意力相关。我们展示了各种模型的偏好和注意力频率估计可以在列表型注意力过载中确定，保持计算可跟踪性。
+    本文探讨了估计国家最低工资对就业和工资的因果效应的估计量所依赖的识别假设，例如“受影响比例”和“有效最低工资”设计。具体来说，我进行了一系列模拟实验，研究这些假设在特定经济模型下是否成立作为数据生成流程。我发现，在许多情况下，受影响比例设计显示出小的偏差，导致对真实因果效应的拒绝率过高。在工资差异在不同地区扩大、对最低工资的均衡反应或平行趋势假设的违反存在时，这些偏差可能更大。我提出了两种诊断方法，以补充常用于验证这种设计的差异预趋势的标准测试。对于有效最低工资设计，我表明Lee(1999)强调的识别假设至关重要。
 
-    We introduce an Attention Overload Model that captures the idea that alternatives compete for the decision maker's attention, and hence the attention that each alternative receives decreases as the choice problem becomes larger. Using this nonparametric restriction on the random attention formation, we show that a fruitful revealed preference theory can be developed and provide testable implications on the observed choice behavior that can be used to (point or partially) identify the decision maker's preference and attention frequency. We then enhance our attention overload model to accommodate heterogeneous preferences. Due to the nonparametric nature of our identifying assumption, we must discipline the amount of heterogeneity in the choice model: we propose the idea of List-based Attention Overload, where alternatives are presented to the decision makers as a list that correlates with both heterogeneous preferences and random attention. We show that preference and attention frequenc
+    This paper examines the identification assumptions underlying estimators of the causal effects of national minimum wages on employment and wages, such as the "fraction affected" and "effective minimum wage" designs. Specifically, I conduct a series of simulation exercises to investigate whether these assumptions hold in the context of particular economic models used as data-generating processes. I find that, in many cases, the fraction affected design exhibits small biases that lead to inflated rejection rates of the true causal effect. These biases can be larger in the presence of either trends in the dispersion of wages within regions, equilibrium responses to the minimum wage, or violations of the parallel trends assumption. I propose two diagnostic exercises to complement the standard test for differential pre-trends commonly used to validate this design. For the effective minimum wage design, I show that while the identification assumptions emphasized by Lee (1999) are crucial, th
+    
+[^8]: 确定性、淬火或退火？异质网络模型参数估计的差异。
+
+    Deterministic, quenched or annealed? Differences in the parameter estimation of heterogeneous network models. (arXiv:2303.02716v3 [physics.soc-ph] UPDATED)
+
+    [http://arxiv.org/abs/2303.02716](http://arxiv.org/abs/2303.02716)
+
+    本论文探讨了在不同模型中用于估计异质网络模型参数的三种方法，强调了在同质模型与异质网络模型中的等价和差异。
+
+    
+
+    分析加权网络需要同时建模二进制和权重属性。我们强调了三种用于估计二者负责参数的方法：将拓扑视为确定性的计量技术，统计技术平均参数或通过对拓扑随机性的平均可能性进行最大化。在同质模型中，等价性成立；在异质网络模型中，局部失调打破了它，这与失序系统物理中“淬火”和“退火”平均值之间的差异相似。
+
+    Analysing weighted networks requires modelling the binary and weighted properties simultaneously. We highlight three approaches for estimating the parameters responsible for them: econometric techniques treating topology as deterministic and statistical techniques either ensemble-averaging parameters or maximising an averaged likelihood over the topological randomness. In homogeneous models, equivalence holds; in heterogeneous network models, the local disorder breaks it, in a way reminiscent of the difference between `quenched' and `annealed' averages in the physics of disordered systems.
+    
+[^9]: 合理忽视的统计歧视：阿罗遇见菲尔普斯
+
+    Rationally Inattentive Statistical Discrimination: Arrow Meets Phelps. (arXiv:2212.08219v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.08219](http://arxiv.org/abs/2212.08219)
+
+    合理忽视的统计歧视模型研究了信息获取成本对委托人对待多数族群和少数族群不平等的影响，发现多数族群面临投资动力而少数族群被阻碍投资。结果对平权行动、隐性偏见、职业性别隔离和刻板印象的讨论具有重要意义。
+
+    
+
+    当信息获取成本高但灵活时，委托人可能会合理地获取有利于“多数族群”而不利于“少数族群”的信息，除非后者严格比前者更具生产力。因此，多数族群面临投资成为生产力的动力，而少数族群则被阻碍了这样的投资。与此同时，委托人将有限的注意资源集中在多数族群上，因为他们很可能进行投资。我们给出了在所有群体在事前是相同的情况下，导致歧视性平衡最受委托人青睐的条件。我们的结果增加了对平权行动、隐性偏见、职业性别隔离和刻板印象的讨论。
+
+    When information acquisition is costly but flexible, a principal may rationally acquire information that favors ``majorities'' over ``minorities'' unless the latter are strictly more productive than the former. Majorities therefore face incentives to invest in becoming productive, whereas minorities are discouraged from such investments. The principal, in turn, focuses scarce attentional resources on majorities precisely because they are likely to invest. We give conditions under which the resulting discriminatory equilibrium is most preferred by the principal, despite that all groups are ex-ante identical. Our results add to the discussions of affirmative action, implicit bias, and occupational segregation and stereotypes.
+    
+[^10]: 不完全信息多阶段博弈中的认知层次：理论与实验
+
+    Cognitive Hierarchies in Multi-Stage Games of Incomplete Information: Theory and Experiment. (arXiv:2208.11190v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2208.11190](http://arxiv.org/abs/2208.11190)
+
+    本文研究了不完全信息多阶段博弈中的认知层次理论和实验，提出了动态认知层次(DCH)解，并通过实验验证了该解的预测。通过使用简化正常形式进行动态游戏实验，作者发现了行为之间的显著差异，并与DCH的预测一致。
+
+    
+
+    顺序均衡是分析不完全信息多阶段博弈的传统方法，依赖于信念的相互一致性要求，这是一个在实证上不可行的假设。为了放宽相互一致性要求，我从理论和实验的角度探索了动态认知层次(DCH)解。DCH的一个特点是解在两个共享相同简化正常形式的不同博弈之间可以变化。为了测试这个预测，我进行了一个实验室实验，使用了两个战略等价的脏脸游戏版本。游戏参数根据DCH的预测进行校准，以最大化两个版本之间行为的预期差异。实验结果表明，两个版本之间的行为存在显著差异，并且更重要的是，观察到的差异与DCH一致。这表明在使用“策略方法”的简化正常形式进行动态博弈实验可能会导致扭曲。
+
+    Sequential equilibrium is the conventional approach for analyzing multi-stage games of incomplete information, relying on the requirement of mutual consistency of beliefs -- an empirically implausible assumption. To relax mutual consistency, I theoretically and experimentally explore the dynamic cognitive hierarchy (DCH) solution. One property of DCH is that the solution can vary between two different games sharing the same reduced normal form. To test this prediction, I conduct a laboratory experiment using two strategically equivalent versions of the dirty-faces game. The game parameters are calibrated to maximize the expected difference in behavior between the two versions, as predicted by DCH. The experimental results indicate significant differences in behavior between the two versions, and more importantly, the observed differences align with DCH. This suggests that implementing a dynamic game experiment in reduced normal form (using the "strategy method") could lead to distortio
+    
+[^11]: 匹配元组与完全阻塞因子设计中的推断
+
+    Inference for Matched Tuples and Fully Blocked Factorial Designs. (arXiv:2206.04157v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2206.04157](http://arxiv.org/abs/2206.04157)
+
+    本文研究了基于匹配元组设计的随机对照试验中多个治疗方案的推断。通过匹配元组设计，我们可以获得每种治疗方案的平均潜在结果集合上的线性对比向量参数，包括标准的平均治疗效果，同时还可以分析因子设计中的其他参数。
+
+    
+
+    本文研究了随机对照试验中多个治疗方案的推断，其中治疗状态根据“匹配元组”设计确定。这里，“匹配元组”设计是指实验设计，其中单位从感兴趣的人群中独立同分布采样，被分为“同质”块，块的基数等于治疗方案的数量，最后，在每个块中，每种治疗方案都恰好被随机分配一次。我们首先研究了在参数为每种治疗方案的平均潜在结果集合上的线性对比向量时的匹配元组设计的估计和推断。这种形式的参数包括用于比较一种治疗相对于另一种治疗的标准平均治疗效果，但还包括可能在因子设计的分析中感兴趣的参数。我们先建立了一个样本模拟估计的渐近正态条件。
+
+    This paper studies inference in randomized controlled trials with multiple treatments, where treatment status is determined according to a "matched tuples" design. Here, by a matched tuples design, we mean an experimental design where units are sampled i.i.d. from the population of interest, grouped into "homogeneous" blocks with cardinality equal to the number of treatments, and finally, within each block, each treatment is assigned exactly once uniformly at random. We first study estimation and inference for matched tuples designs in the general setting where the parameter of interest is a vector of linear contrasts over the collection of average potential outcomes for each treatment. Parameters of this form include standard average treatment effects used to compare one treatment relative to another, but also include parameters which may be of interest in the analysis of factorial designs. We first establish conditions under which a sample analogue estimator is asymptotically normal 
+    
+[^12]: 粗略工资设定与行为公司
+
+    Coarse Wage-Setting and Behavioral Firms. (arXiv:2206.01114v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2206.01114](http://arxiv.org/abs/2206.01114)
+
+    本文研究表明公司粗略的工资设定导致工资在整数上的聚集，同时对公司的市场结果产生了负面影响。
+
+    
+
+    本文显示出工资在整数上的聚集部分是由公司粗略的工资设定所驱动的。通过对巴西超过2亿新员工的数据进行分析，首先得出了合同工资倾向于集中在整数上的结论。然后，研究表明倾向于以整数工资雇佣工人的公司不够复杂且市场成果较差。接下来，本文提出了一种工资发布模型，在该模型中，由于优化成本的考虑，公司采用了粗略的整数工资，并通过两种研究设计提供了与模型预测相关的证据。最后，本文研究了粗略工资设定对相关经济结果的一些影响。
+
+    This paper shows that the bunching of wages at round numbers is partly driven by firm coarse wage-setting. Using data from over 200 million new hires in Brazil, I first establish that contracted salaries tend to cluster at round numbers. Then, I show that firms that tend to hire workers at round-numbered salaries are less sophisticated and have worse market outcomes. Next, I develop a wage-posting model in which optimization costs lead to the adoption of coarse rounded wages and provide evidence supporting two model predictions using two research designs. Finally, I examine some consequences of coarse wage-setting for relevant economic outcomes.
+    
+[^13]: 非参数回归中的相变
+
+    Phase transitions in nonparametric regressions. (arXiv:2112.03626v6 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2112.03626](http://arxiv.org/abs/2112.03626)
+
+    本文研究了非参数回归中的相变问题，根据最小极大MISE速率的不同情况，确定了不同范围内最佳的平滑度。同时，本文还提出了一组用于平滑函数类别的度量熵界限。
+
+    
+
+    当已知单变量的未知回归函数的导数在绝对值上直到$(\gamma+1)$阶都受到一个公共常数的界限（即$(\gamma+1)$阶平滑度），文献中给出的均方误差（MISE）的最小极大速率为$\left(\frac{1}{n}\right)^{\frac{2\gamma+2}{2\gamma+3}}$。本文表明：（i）如果$n\leq\left(\gamma+1\right)^{2\gamma+3}$，则最小极大MISE速率为$\frac{\log n}{n\log(\log n)}$，并且最佳利用的平滑度为大约$\max\left\{ \left\lfloor \frac{\log n}{2\log\left(\log n\right)}\right\rfloor ,\,1\right\}$；（ii）如果$n>\left(\gamma+1\right)^{2\gamma+3}$，则最小极大MISE速率为$\left(\frac{1}{n}\right)^{\frac{2\gamma+2}{2\gamma+3}}$，并且最佳利用的平滑度为$\gamma+1$。本文的基本贡献是我们为平滑函数类别制定的一组度量熵界限。
+
+    When the unknown regression function of a single variable is known to have derivatives up to the $(\gamma+1)$th order bounded in absolute values by a common constant everywhere or a.e. (i.e., $(\gamma+1)$th degree of smoothness), the minimax optimal rate of the mean integrated squared error (MISE) is stated as $\left(\frac{1}{n}\right)^{\frac{2\gamma+2}{2\gamma+3}}$ in the literature. This paper shows that: (i) if $n\leq\left(\gamma+1\right)^{2\gamma+3}$, the minimax optimal MISE rate is $\frac{\log n}{n\log(\log n)}$ and the optimal degree of smoothness to exploit is roughly $\max\left\{ \left\lfloor \frac{\log n}{2\log\left(\log n\right)}\right\rfloor ,\,1\right\} $; (ii) if $n>\left(\gamma+1\right)^{2\gamma+3}$, the minimax optimal MISE rate is $\left(\frac{1}{n}\right)^{\frac{2\gamma+2}{2\gamma+3}}$ and the optimal degree of smoothness to exploit is $\gamma+1$. The fundamental contribution of this paper is a set of metric entropy bounds we develop for smooth function classes. Some 
     
 

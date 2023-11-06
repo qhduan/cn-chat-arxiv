@@ -2,247 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A connected and automated vehicle readiness framework to support road authorities for C-ITS services.](http://arxiv.org/abs/2311.01268) | 本研究提出了一个CAV准备框架（CRF），以支持道路管理机构评估其准备情况，定义C-ITS服务的要求，并确定未来的发展路径。该框架可以帮助提供安全高效的交通，减轻道路车辆对环境的影响。 |
-| [^2] | [Power law in Sandwiched Volterra Volatility model.](http://arxiv.org/abs/2311.01228) | "本文研究了夹心Volterra波动模型中的幂律行为，并提供了分析证明。此外，还证明了一个通用的Malliavin乘积规则。" |
-| [^3] | [How Does China's Household Portfolio Selection Vary with Financial Inclusion?.](http://arxiv.org/abs/2311.01206) | 研究探讨了金融包容性对中国家庭投资组合选择和投资效率的影响，结果表明更高的金融包容性鼓励家庭投资于风险资产并增加投资效率。 |
-| [^4] | [Non-linear non-zero-sum Dynkin games with Bermudan strategies.](http://arxiv.org/abs/2311.01086) | 本文研究了一种非零和博弈，玩家采用Bermudan策略，并优化非线性评估函数的收益。通过递归构造，证明了该博弈存在纳什均衡点。 |
-| [^5] | [On Finding Bi-objective Pareto-optimal Fraud Prevention Rule Sets for Fintech Applications.](http://arxiv.org/abs/2311.00964) | 本文研究了在金融科技应用中寻找高质量的双目标 Pareto 最优欺诈预防规则集的问题。通过采用 Pareto 最优性概念和启发式框架 PORS，我们成功提出了一组非支配的规则子集，并通过实证评估证明了其有效性。 |
-| [^6] | [Estimation of VaR with jump process: application in corn and soybean markets.](http://arxiv.org/abs/2311.00832) | 本文构建了一个模型，并使用跳跃过程和标准布朗运动预测了玉米和大豆市场中的VaR值。结果表明，在有跳跃和无跳跃情况下，VaR值存在显著差异。 |
-| [^7] | [Quantum Computational Algorithms for Derivative Pricing and Credit Risk in a Regime Switching Economy.](http://arxiv.org/abs/2311.00825) | 通过引入切换制度波动模型，本研究提出了一种更适合量子计算优势的金融风险模拟方法。研究包括使用基于门的量子计算机进行信用风险和期权定价估计。这些模型将量子计算带入了实际应用领域。 |
-| [^8] | [What is a Labor Market? Classifying Workers and Jobs Using Network Theory.](http://arxiv.org/abs/2311.00777) | 本文提出了一种新的数据驱动方法，使用网络理论对巴西的工人和工作进行分类，揭示了标准分类方法忽视的重要维度。基于此分类的均衡模型更准确地预测了工资变化，并显示当使用此分类时，劳动市场冲击对工人收入的影响将大大增加。 |
-| [^9] | [Optimal exercise decision of American options under model uncertainty.](http://arxiv.org/abs/2310.14473) | 该论文研究了模型不确定性下美式期权的最优行权决策问题，基于给定的边际分布信息，推导出了一类美式期权价格的上界，并证明了与最大化期望期权收益相联的任何市场模型的任何期权行权方案必然是非随机的。 |
-| [^10] | [Predict-AI-bility of how humans balance self-interest with the interest of others.](http://arxiv.org/abs/2307.12776) | 生成式AI能够准确预测人类在决策中平衡自身利益与他人利益的行为模式，但存在高估他人关注行为的倾向，这对AI的开发者和用户具有重要意义。 |
-| [^11] | [On intermediate Marginals in Martingale Optimal Transportation.](http://arxiv.org/abs/2307.09710) | 本文研究了中间边际分布对马丁格尔最优输运问题的影响，并发现考虑到香草期权上的额外价格信息可能对无模型定价下界产生重要影响。 |
-| [^12] | [Fitted Value Iteration Methods for Bicausal Optimal Transport.](http://arxiv.org/abs/2306.12658) | 本文提出了一种适用于双因果最优传输问题的拟合值迭代方法，能够在保证精度的同时具有良好的可扩展性，数值实验结果也证明了该方法的优越性。 |
-| [^13] | [Social Media Emotions and IPO Returns.](http://arxiv.org/abs/2306.12602) | 本文研究了社交媒体表达的情感如何影响初次公开发行（IPO）股票的错价。社交媒体上分享的大量信息和观点可以引发炒作，导致投资者非理性买卖决策，从而在短期内高估股票，但经常在长期内得到修正。发现投资者热情高涨的IPO拥有更高的回报率，但这种热情可能是错放的，需要更长的时间才能实现可持续的成长。 |
-| [^14] | [A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach.](http://arxiv.org/abs/2305.01485) | 本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。 |
-| [^15] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^16] | [Superhedging duality for multi-action options under model uncertainty with information delay.](http://arxiv.org/abs/2111.14502) | 本文研究了在模型不确定性和信息延迟下，多操作期权的超对冲问题。通过引入扩大的空间将该问题重构为欧式期权问题，并证明了定价-对冲二重性。同时，给出了当期权买方的行动被卖方观察到时的超对冲价格与期权买方能够预测未来的关系。 |
+| [^1] | [Maximizing Portfolio Predictability with Machine Learning.](http://arxiv.org/abs/2311.01985) | 通过机器学习构建最大可预测性的股票投资组合，并利用该组合的高预测回报和凯利准则风格策略，可以持续优于基准。 |
+| [^2] | [How to maintain compliance among host country employees who are less anxious after strict government regulations are lifted: An attempt to apply conservation of resources theory to the workplace amid the still-unending COVID-19 pandemic.](http://arxiv.org/abs/2311.01963) | 这项研究将资源保护理论应用于COVID-19大流行期间，探讨了政府解除严格行为限制后对日本当地子公司员工心态的影响。 |
+| [^3] | [Agent-based Modelling of Credit Card Promotions.](http://arxiv.org/abs/2311.01901) | 本研究提出了一种基于Agent的信用卡促销模型，通过校准和验证，可以优化不同市场情景下的信用卡促销策略。 |
+| [^4] | [Labour Absorption In Manufacturing Industry In Indonesia: Anomalous And Regressive Phenomena.](http://arxiv.org/abs/2311.01787) | 印尼制造业的研究发现，多个细分行业存在劳动吸纳受限和倒退现象，尤其在烟草制品、计算机电子光学产品和家具行业。制造业的效率指数与就业指数之间存在负相关关系。 |
+| [^5] | [Benchmark Beating with the Increasing Convex Order.](http://arxiv.org/abs/2311.01692) | 本文通过增加凸顺序来超越基准，研究了在ICX顺序约束下最小化投资组合方差的问题，并对完备市场中的最优和高效的投资组合进行了闭合解的求解。 |
+| [^6] | [A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights.](http://arxiv.org/abs/2311.01592) | 本研究使用聚合博弈的框架，研究了土地所有制体制的转变过程，发现人口密度、技术改进、围地成本、群体凝聚力和谈判力的变化，以及政策和制度环境等因素会影响土地私有化的效率。 |
+| [^7] | [Market Concentration Implications of Foundation Models.](http://arxiv.org/abs/2311.01550) | 对基础模型市场的结构进行分析，发现最强大的模型趋向自然垄断，需要双管齐下的监管响应来确保市场竞争和模型质量标准，以最大程度地对社会福利做出贡献。 |
+| [^8] | [Bank Deposits as {\em Money Quanta}.](http://arxiv.org/abs/2311.01542) | 本研究将商业银行发行的存款分为债务性质的存款和股权性质的存款，通过将银行存款的混合性质与量子物理中的双重性质相关联，研究了如何利用量子分析方法和思想来提取有价值的经济信息。 |
+| [^9] | [Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves.](http://arxiv.org/abs/2307.15718) | 该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。 |
+| [^10] | [On the Separation of Estimation and Control in Risk-Sensitive Investment Problems under Incomplete Observation.](http://arxiv.org/abs/2304.08910) | 本文研究了一类普通风险敏感性投资问题在有限维度滤波器存在条件下的可分离性，并证明了相应的分离问题与原始控制问题的严格等价。 |
+| [^11] | [Coarse Wage-Setting and Behavioral Firms.](http://arxiv.org/abs/2206.01114) | 本文研究表明公司粗略的工资设定导致工资在整数上的聚集，同时对公司的市场结果产生了负面影响。 |
 
 # 详细
 
-[^1]: 为支持道路管理机构的C-ITS服务而设计的连接和自动化车辆准备框架
+[^1]: 用机器学习最大化投资组合的可预测性
 
-    A connected and automated vehicle readiness framework to support road authorities for C-ITS services. (arXiv:2311.01268v1 [econ.GN])
+    Maximizing Portfolio Predictability with Machine Learning. (arXiv:2311.01985v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2311.01268](http://arxiv.org/abs/2311.01268)
+    [http://arxiv.org/abs/2311.01985](http://arxiv.org/abs/2311.01985)
 
-    本研究提出了一个CAV准备框架（CRF），以支持道路管理机构评估其准备情况，定义C-ITS服务的要求，并确定未来的发展路径。该框架可以帮助提供安全高效的交通，减轻道路车辆对环境的影响。
-
-    
-
-    连接和自动化车辆（CAVs）对交通系统有着深远的影响。然而，大部分的自动化和连接性都需要道路基础设施的支持。额外的支持，如合作智能交通系统（C-ITS）服务，可以促进安全高效的交通，减轻道路车辆对环境的影响。然而，由于技术的快速发展，C-ITS服务的部署要求并不总是清晰的。此外，基础设施投资的成本和收益也存在巨大的不确定性。本研究采用结构化方法来阐述这些要求，并提出了一个CAV准备框架（CRF）的建议。该CRF的主要目的是让道路管理机构评估其物理和数字基础设施的准备情况，定义C-ITS服务的要求，并确定未来的发展路径，以达到更高水平的准备，以支持通过启用C-ITS服务来支持CAVs。
-
-    Connected and Automated Vehicles (CAVs) can have a profound influence on transport systems. However, most levels of automation and connectivity require support from the road infrastructure. Additional support such as Cooperative Intelligent Transport Systems (C-ITS) services can facilitate safe and efficient traffic, and alleviate the environmental impacts of road surface vehicles. However, due to the rapidly evolving technology, C-ITS service deployment requirements are not always clear. Furthermore, the costs and benefits of infrastructure investments are subject to tremendous uncertainty. This study articulates the requirements using a structured approach to propose a CAV-Readiness Framework (CRF). The main purpose of the CRF is allowing road authorities to assess their physical and digital infrastructure readiness, define requirements for C-ITS services, and identify future development paths to reach higher levels of readiness to support CAVs by enabling C-ITS services. The CRF is 
-    
-[^2]: "夹心Volterra波动模型中的幂律行为研究"
-
-    Power law in Sandwiched Volterra Volatility model. (arXiv:2311.01228v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2311.01228](http://arxiv.org/abs/2311.01228)
-
-    "本文研究了夹心Volterra波动模型中的幂律行为，并提供了分析证明。此外，还证明了一个通用的Malliavin乘积规则。"
+    通过机器学习构建最大可预测性的股票投资组合，并利用该组合的高预测回报和凯利准则风格策略，可以持续优于基准。
 
     
 
-    "本文通过分析证明，夹心Volterra波动（SVV）模型能够在正确选择Volterra核的情况下，重建现货隐含波动率偏斜的幂律行为。为了得到这个结果，我们评估了波动过程的二阶Malliavin可微性，并研究导致Malliavin导数爆炸行为的条件。作为一个补充结果，我们还证明了一个通用的Malliavin乘积规则。"
+    我们利用机器学习构建了具有最大可预测性的股票投资组合(MPP)。通过求解多资产MPP中的最优约束权重，可以得到具有高月度决定系数的投资组合，给定机器学习模型预测回报误差的样本协方差矩阵。我们测试了多种协方差矩阵模型。利用弹性网络、随机森林和支持向量回归模型估计的标准普尔500指数成分股的MPP在不同时期可能超越或低于指数。利用MPP回报的可预测性并采用凯利准则风格策略的投资组合始终表现优于基准。
 
-    In this paper, we present analytical proof demonstrating that the Sandwiched Volterra Volatility (SVV) model is able to reproduce the power-law behavior of the at-the-money implied volatility skew, provided the correct choice of the Volterra kernel. To obtain this result, we assess the second-order Malliavin differentiability of the volatility process and investigate the conditions that lead to explosive behavior in the Malliavin derivative. As a supplementary result, we also prove a general Malliavin product rule.
+    We construct the maximally predictable portfolio (MPP) of stocks using machine learning. Solving for the optimal constrained weights in the multi-asset MPP gives portfolios with a high monthly coefficient of determination, given the sample covariance matrix of predicted return errors from a machine learning model. Various models for the covariance matrix are tested. The MPPs of S&P 500 index constituents with estimated returns from Elastic Net, Random Forest, and Support Vector Regression models can outperform or underperform the index depending on the time period. Portfolios that take advantage of the high predictability of the MPP's returns and employ a Kelly criterion style strategy consistently outperform the benchmark.
     
-[^3]: 中国家庭投资组合选择在金融包容性方面的变化是如何的？
+[^2]: 在政府解除严格规定之后，如何在东道国员工的焦虑程度降低后维持其遵守程度：在仍在进行的COVID-19大流行中将资源保护理论应用到职场中的尝试
 
-    How Does China's Household Portfolio Selection Vary with Financial Inclusion?. (arXiv:2311.01206v1 [econ.GN])
+    How to maintain compliance among host country employees who are less anxious after strict government regulations are lifted: An attempt to apply conservation of resources theory to the workplace amid the still-unending COVID-19 pandemic. (arXiv:2311.01963v1 [econ.GN])
 
-    [http://arxiv.org/abs/2311.01206](http://arxiv.org/abs/2311.01206)
+    [http://arxiv.org/abs/2311.01963](http://arxiv.org/abs/2311.01963)
 
-    研究探讨了金融包容性对中国家庭投资组合选择和投资效率的影响，结果表明更高的金融包容性鼓励家庭投资于风险资产并增加投资效率。
-
-    
-
-    投资组合的不充分多样化是家庭生命周期中最昂贵的损失之一。我们使用2015年、2017年和2019年的中国家庭调研数据，提供了关于金融包容服务对家庭投资组合选择和投资效率的影响的新证据。我们假设更高的金融包容渗透率鼓励家庭参与金融市场，从而实现更好的投资组合多样化和投资效率。基准模型的结果与我们提出的假设一致，即更高的金融包容性促使家庭投资于风险资产并增加投资效率。我们进一步估计了一个动态双机器学习模型，定量研究非线性因果效应并跟踪这些效应随时间的动态变化。我们观察到边际效应随时间增加，并且这些效应在低资产、较低教育程度的家庭中更为明显。
-
-    Portfolio underdiversification is one of the most costly losses accumulated over a household's life cycle. We provide new evidence on the impact of financial inclusion services on households' portfolio choice and investment efficiency using 2015, 2017, and 2019 survey data for Chinese households. We hypothesize that higher financial inclusion penetration encourages households to participate in the financial market, leading to better portfolio diversification and investment efficiency. The results of the baseline model are consistent with our proposed hypothesis that higher accessibility to financial inclusion encourages households to invest in risky assets and increases investment efficiency. We further estimate a dynamic double machine learning model to quantitatively investigate the non-linear causal effects and track the dynamic change of those effects over time. We observe that the marginal effect increases over time, and those effects are more pronounced among low-asset, less-educ
-    
-[^4]: 非线性非零和的Bermudan策略Dynkin博弈研究
-
-    Non-linear non-zero-sum Dynkin games with Bermudan strategies. (arXiv:2311.01086v1 [math.OC])
-
-    [http://arxiv.org/abs/2311.01086](http://arxiv.org/abs/2311.01086)
-
-    本文研究了一种非零和博弈，玩家采用Bermudan策略，并优化非线性评估函数的收益。通过递归构造，证明了该博弈存在纳什均衡点。
+    这项研究将资源保护理论应用于COVID-19大流行期间，探讨了政府解除严格行为限制后对日本当地子公司员工心态的影响。
 
     
 
-    本文研究了一种包含两个玩家的非零和博弈，每个玩家使用所谓的Bermudan策略，并优化一个通用的非线性评估函数的收益。通过使用递归构造，我们证明该博弈存在纳什均衡点。
+    本研究通过比较2023年1月至3月武汉市813名受访者（武汉2023）和2020年2月至5月中国东南地区2973名受访者（中国2020）的问卷回答，探讨了在COVID-19大流行期间，政府严格的行为限制被解除后，日本当地子公司员工心态发生的变化。研究结果表明，基于资源保护理论的分析模型可以适用于中国2020和武汉2023。
 
-    In this paper, we study a non-zero-sum game with two players, where each of the players plays what we call Bermudan strategies and optimizes a general non-linear assessment functional of the pay-off. By using a recursive construction, we show that the game has a Nash equilibrium point.
+    Design/methodology/approach We compared the awareness of 813 people in Wuhan city from January to March 2023 (Wuhan 2023) and 2,973 people in East and South China from February to May 2020 (China 2020) using responses to questionnaires conducted at Japanese local subsidiaries during each period. Purpose As the coronavirus pandemic becomes less terrifying than before, there is a trend in countries around the world to abolish strict behavioral restrictions imposed by governments. How should overseas subsidiaries change the way they manage human resources in response to these system changes? To find an answer to this question, this paper examines what changes occurred in the mindset of employees working at local subsidiaries after the government's strict behavioral restrictions were introduced and lifted during the COVID-19 pandemic. Findings The results showed that the analytical model based on conservation of resources (COR) theory can be applied to both China 2020 and Wuhan 2023. Howev
     
-[^5]: 在金融科技应用中寻找双目标 Pareto 最优欺诈预防规则集
+[^3]: 基于Agent的信用卡促销模型
 
-    On Finding Bi-objective Pareto-optimal Fraud Prevention Rule Sets for Fintech Applications. (arXiv:2311.00964v1 [cs.LG])
+    Agent-based Modelling of Credit Card Promotions. (arXiv:2311.01901v1 [cs.MA])
 
-    [http://arxiv.org/abs/2311.00964](http://arxiv.org/abs/2311.00964)
+    [http://arxiv.org/abs/2311.01901](http://arxiv.org/abs/2311.01901)
 
-    本文研究了在金融科技应用中寻找高质量的双目标 Pareto 最优欺诈预防规则集的问题。通过采用 Pareto 最优性概念和启发式框架 PORS，我们成功提出了一组非支配的规则子集，并通过实证评估证明了其有效性。
-
-    
-
-    规则在金融科技机构中被广泛用于进行欺诈预防决策，因为规则具有直观的 if-then 结构，易于理解。在实践中，大型金融科技机构通常采用两阶段欺诈预防决策规则集挖掘框架。本文关注于从初始规则集中找到高质量的规则子集，以双目标空间（如精确率和召回率）为基础。为此，我们采用 Pareto 最优性概念，旨在找到一组非支配的规则子集，构成一个 Pareto 前沿。我们提出了一个基于启发式的框架 PORS，并确定了 PORS 的核心问题是前沿解决方案选择（SSF）问题。我们对 SSF 问题进行了系统分类，并在公开和专有数据集上进行了全面的实证评估。我们还引入了一种名为 SpectralRules 的新颖变体的顺序覆盖算法，以鼓励规则的多样性。
-
-    Rules are widely used in Fintech institutions to make fraud prevention decisions, since rules are highly interpretable thanks to their intuitive if-then structure. In practice, a two-stage framework of fraud prevention decision rule set mining is usually employed in large Fintech institutions. This paper is concerned with finding high-quality rule subsets in a bi-objective space (such as precision and recall) from an initial pool of rules. To this end, we adopt the concept of Pareto optimality and aim to find a set of non-dominated rule subsets, which constitutes a Pareto front. We propose a heuristic-based framework called PORS and we identify that the core of PORS is the problem of solution selection on the front (SSF). We provide a systematic categorization of the SSF problem and a thorough empirical evaluation of various SSF methods on both public and proprietary datasets. We also introduce a novel variant of sequential covering algorithm called SpectralRules to encourage the diver
-    
-[^6]: 使用跳跃过程估计VaR：在玉米和大豆市场中的应用
-
-    Estimation of VaR with jump process: application in corn and soybean markets. (arXiv:2311.00832v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2311.00832](http://arxiv.org/abs/2311.00832)
-
-    本文构建了一个模型，并使用跳跃过程和标准布朗运动预测了玉米和大豆市场中的VaR值。结果表明，在有跳跃和无跳跃情况下，VaR值存在显著差异。
+    本研究提出了一种基于Agent的信用卡促销模型，通过校准和验证，可以优化不同市场情景下的信用卡促销策略。
 
     
 
-    VaR是一个用于评估投资或资本潜在损失风险的定量指标。VaR的估计涉及在特定时间段内，在正常市场条件下，使用一定的可能性对投资组合的潜在损失进行量化。本文的目标是构建一个模型，并对由标准布朗运动和跳跃过程驱动的多个现金商品头寸组成的多样化投资组合进行VaR估计。随后，对该提出的模型进行了全面的VaR分析估计。结果应用于两种不同的商品 -- 玉米和大豆 -- 在有跳跃和无跳跃情况下对VaR值进行了全面比较。
+    无息促销是信用卡发行商吸引新客户的常用策略，然而对于它们对消费者和发行商的影响的研究相对较少。选择最优促销策略的过程是复杂的，涉及在竞争机制、市场动态和复杂的消费者行为背景下确定无息期限和促销可用窗口。在本文中，我们介绍了一种基于Agent的模型，可以在不同市场情景下探索各种信用卡促销策略。我们的方法与以往的基于Agent的模型不同，专注于优化促销策略，并使用2019年至2020年英国信用卡市场的基准数据进行校准，代理属性来自大致同一时期的英国人口的历史分布。我们通过结构化事实和时间序列数据对模型进行验证。
 
-    Value at Risk (VaR) is a quantitative measure used to evaluate the risk linked to the potential loss of investment or capital. Estimation of the VaR entails the quantification of prospective losses in a portfolio of investments, using a certain likelihood, under normal market conditions within a specific time period. The objective of this paper is to construct a model and estimate the VaR for a diversified portfolio consisting of multiple cash commodity positions driven by standard Brownian motions and jump processes. Subsequently, a thorough analytical estimation of the VaR is conducted for the proposed model. The results are then applied to two distinct commodities -- corn and soybean -- enabling a comprehensive comparison of the VaR values in the presence and absence of jumps.
+    Interest-free promotions are a prevalent strategy employed by credit card lenders to attract new customers, yet the research exploring their effects on both consumers and lenders remains relatively sparse. The process of selecting an optimal promotion strategy is intricate, involving the determination of an interest-free period duration and promotion-availability window, all within the context of competing offers, fluctuating market dynamics, and complex consumer behaviour. In this paper, we introduce an agent-based model that facilitates the exploration of various credit card promotions under diverse market scenarios. Our approach, distinct from previous agent-based models, concentrates on optimising promotion strategies and is calibrated using benchmarks from the UK credit card market from 2019 to 2020, with agent properties derived from historical distributions of the UK population from roughly the same period. We validate our model against stylised facts and time-series data, there
     
-[^7]: 量子计算算法在切换经济中的衍生品定价和信用风险中的应用
+[^4]: 印尼制造业中的劳动吸纳：异常和倒退现象
 
-    Quantum Computational Algorithms for Derivative Pricing and Credit Risk in a Regime Switching Economy. (arXiv:2311.00825v1 [quant-ph])
+    Labour Absorption In Manufacturing Industry In Indonesia: Anomalous And Regressive Phenomena. (arXiv:2311.01787v1 [econ.GN])
 
-    [http://arxiv.org/abs/2311.00825](http://arxiv.org/abs/2311.00825)
+    [http://arxiv.org/abs/2311.01787](http://arxiv.org/abs/2311.01787)
 
-    通过引入切换制度波动模型，本研究提出了一种更适合量子计算优势的金融风险模拟方法。研究包括使用基于门的量子计算机进行信用风险和期权定价估计。这些模型将量子计算带入了实际应用领域。
-
-    
-
-    目前的量子计算机还无法为金融分析师常用的实际随机扩散模型提供计算优势。本文介绍了一类既能真实模拟金融市场风险又更易于潜在的量子计算优势的随机过程。我们研究的模型基于由可观测状态的Markov链驱动的切换制度波动模型。基本模型具有由Markov链的有限状态决定的几何布朗运动的漂移和波动率参数。我们研究了在基于门的量子计算机上估计信用风险和期权定价的算法。这些模型使我们更接近实际市场环境，从而将量子计算更加贴近实际应用领域。
-
-    Quantum computers are not yet up to the task of providing computational advantages for practical stochastic diffusion models commonly used by financial analysts. In this paper we introduce a class of stochastic processes that are both realistic in terms of mimicking financial market risks as well as more amenable to potential quantum computational advantages. The type of models we study are based on a regime switching volatility model driven by a Markov chain with observable states. The basic model features a Geometric Brownian Motion with drift and volatility parameters determined by the finite states of a Markov chain. We study algorithms to estimate credit risk and option pricing on a gate-based quantum computer. These models bring us closer to realistic market settings, and therefore quantum computing closer the realm of practical applications.
-    
-[^8]: 什么是劳动力市场？使用网络理论对工人和工作进行分类。
-
-    What is a Labor Market? Classifying Workers and Jobs Using Network Theory. (arXiv:2311.00777v1 [econ.GN])
-
-    [http://arxiv.org/abs/2311.00777](http://arxiv.org/abs/2311.00777)
-
-    本文提出了一种新的数据驱动方法，使用网络理论对巴西的工人和工作进行分类，揭示了标准分类方法忽视的重要维度。基于此分类的均衡模型更准确地预测了工资变化，并显示当使用此分类时，劳动市场冲击对工人收入的影响将大大增加。
+    印尼制造业的研究发现，多个细分行业存在劳动吸纳受限和倒退现象，尤其在烟草制品、计算机电子光学产品和家具行业。制造业的效率指数与就业指数之间存在负相关关系。
 
     
 
-    本文通过将网络理论的实证工具应用于巴西大规模管理数据，提出了一种新的数据驱动方法来描述潜在的工人技能和工作任务的异质性。我们使用一种标准的均衡模型将这种工具微观化，该模型根据比较优势使工人与工作匹配。我们的分类识别出标准基于职业和行业的分类忽视的工人和工作异质性的重要维度。基于我们的分类的均衡模型比基于职业和行业的模型更准确地预测了对2016年奥运会的工资变化。此外，对于一次对工人需求的大规模模拟冲击，我们表明当使用我们的分类而不是职业和行业进行工人和工作的分类时，劳动力市场冲击暴露对工人收入的影响的简化形式估计值将大约增加4倍。
+    制造业部门本应创造新的就业机会并吸纳劳动力。然而，逐渐出现了对劳动者生存的威胁。根据本研究的发现，2012年至2020年期间，印尼的24个2位ISIC制造业细分行业表现出倒退和异常的模式。这表明劳动吸纳在很大程度上受到限制，并且在某些情况下甚至呈现下降趋势。三个细分行业（ISIC 12烟草制品、ISIC 26计算机、电子和光学产品、ISIC 31家具）观察到异常发生，而其他21个ISIC细分行业则呈现倒退现象。此外，制造业的就业和效率指数之间存在负相关关系，表明出现了这种异常和倒退现象。
 
-    This paper develops a new data-driven approach to characterizing latent worker skill and job task heterogeneity by applying an empirical tool from network theory to large-scale Brazilian administrative data on worker--job matching. We microfound this tool using a standard equilibrium model of workers matching with jobs according to comparative advantage. Our classifications identify important dimensions of worker and job heterogeneity that standard classifications based on occupations and sectors miss. The equilibrium model based on our classifications more accurately predicts wage changes in response to the 2016 Olympics than a model based on occupations and sectors. Additionally, for a large simulated shock to demand for workers, we show that reduced form estimates of the effects of labor market shock exposure on workers' earnings are nearly 4 times larger when workers and jobs are classified using our classifications as opposed to occupations and sectors.
+    The manufacturing industry sector was expected to generate new employment opportunities and take on labour. Gradually, however, it emerged as a menace to the sustenance of its workers. According to the findings of this study, 24 manufacturing subsectors with ISIC 2 digits in Indonesia exhibited regressive and abnormal patterns in the period 2012-2020. This suggests that, to a great extent, labour absorption has been limited and, in some cases, even shown a decline. Anomalous occurrences were observed in three subsectors: ISIC 12 (tobacco products), ISIC 26 (computer, electronic and optical products), and ISIC 31 (furniture). In contrast, regressive phenomena were present in the remaining 21 ISIC subsectors. Furthermore, the manufacturing industry displayed a negative correlation between employment and efficiency index, demonstrating this anomalous and regressive phenomenon. This implies that as the efficiency index of the manufacturing industry increases, the index of labour absorption
     
-[^9]: 模型不确定性下美式期权的最优行权决策
+[^5]: 通过增加凸顺序来超越基准
 
-    Optimal exercise decision of American options under model uncertainty. (arXiv:2310.14473v1 [math.PR])
+    Benchmark Beating with the Increasing Convex Order. (arXiv:2311.01692v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2310.14473](http://arxiv.org/abs/2310.14473)
+    [http://arxiv.org/abs/2311.01692](http://arxiv.org/abs/2311.01692)
 
-    该论文研究了模型不确定性下美式期权的最优行权决策问题，基于给定的边际分布信息，推导出了一类美式期权价格的上界，并证明了与最大化期望期权收益相联的任何市场模型的任何期权行权方案必然是非随机的。
-
-    
-
-    给定未来两个时间点T1和T2下基础资产价格的边际分布信息，我们考虑确定一种无模型的关于一类美式期权价格的上界，这些期权在T1或者T2必须被行权。给定边际信息的模型不确定性可以描述为鞅最优运输问题。我们证明如果美式期权满足适当的凸性条件，那么与最大化期望期权收益相联的任何市场模型的任何期权行权方案必然是非随机的。
-
-    Given the marginal distribution information of the underlying asset price at two future times $T_1$ and $T_2$, we consider the problem of determining a model-free upper bound on the price of a class of American options that must be exercised at either $T_1$ or $T_2$. The model uncertainty consistent with the given marginal information is described as the martingale optimal transport problem. We show that if the American option payoff satisfies a suitable convexity condition, then any option exercise scheme associated with any market model that jointly maximizes the expected option payoff must be nonrandomized.
-    
-[^10]: 预测人类如何在自身利益与他人利益之间平衡的可预测性
-
-    Predict-AI-bility of how humans balance self-interest with the interest of others. (arXiv:2307.12776v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.12776](http://arxiv.org/abs/2307.12776)
-
-    生成式AI能够准确预测人类在决策中平衡自身利益与他人利益的行为模式，但存在高估他人关注行为的倾向，这对AI的开发者和用户具有重要意义。
+    本文通过增加凸顺序来超越基准，研究了在ICX顺序约束下最小化投资组合方差的问题，并对完备市场中的最优和高效的投资组合进行了闭合解的求解。
 
     
 
-    生成式人工智能具有革命性的潜力，可以改变从日常生活到高风险场景的决策过程。然而，由于许多决策具有社会影响，为了使AI能够成为可靠的决策助手，它必须能够捕捉自身利益与他人利益之间的平衡。我们对三种最先进的聊天机器人对来自12个国家的78个实验的独裁者游戏决策进行了研究。我们发现，只有GPT-4（而不是Bard或Bing）能够正确捕捉到行为模式的定性特征，识别出三种主要的行为类别：自私的、不公平厌恶的和完全无私的。然而，GPT-4一直高估了他人关注行为，夸大了不公平厌恶和完全无私参与者的比例。这种偏见对于AI开发人员和用户具有重要意义。
+    在本文中，我们使用增加的凸顺序（ICX顺序）对超越基准进行建模。在组合选择的均值-方差理论中，均值约束可以看作是超越一个常数。然后，我们研究了在ICX顺序约束下最小化投资组合方差的问题，基于此，我们还研究了超越性能-方差高效投资组合的问题。在完备市场中，所有最优和高效的投资组合都可以通过闭合形式求解。
 
-    Generative artificial intelligence holds enormous potential to revolutionize decision-making processes, from everyday to high-stake scenarios. However, as many decisions carry social implications, for AI to be a reliable assistant for decision-making it is crucial that it is able to capture the balance between self-interest and the interest of others. We investigate the ability of three of the most advanced chatbots to predict dictator game decisions across 78 experiments with human participants from 12 countries. We find that only GPT-4 (not Bard nor Bing) correctly captures qualitative behavioral patterns, identifying three major classes of behavior: self-interested, inequity-averse, and fully altruistic. Nonetheless, GPT-4 consistently overestimates other-regarding behavior, inflating the proportion of inequity-averse and fully altruistic participants. This bias has significant implications for AI developers and users.
+    In this paper we model benchmark beating with the increasing convex order (ICX order). The mean constraint in the mean-variance theory of portfolio selection can be regarded as beating a constant. We then investigate the problem of minimizing the variance of a portfolio with ICX order constraints, based on which we also study the problem of beating-performance-variance efficient portfolios. The optimal and efficient portfolios are all worked out in closed form for complete markets.
     
-[^11]: 关于马丁格尔最优输运中间边际的研究
+[^6]: 《围地模型：土地产权转变中的协调、冲突和效率》
 
-    On intermediate Marginals in Martingale Optimal Transportation. (arXiv:2307.09710v1 [q-fin.MF])
+    A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights. (arXiv:2311.01592v1 [econ.GN])
 
-    [http://arxiv.org/abs/2307.09710](http://arxiv.org/abs/2307.09710)
+    [http://arxiv.org/abs/2311.01592](http://arxiv.org/abs/2311.01592)
 
-    本文研究了中间边际分布对马丁格尔最优输运问题的影响，并发现考虑到香草期权上的额外价格信息可能对无模型定价下界产生重要影响。
-
-    
-
-    我们研究了额外中间边际分布对马丁格尔最优输运问题价值的影响。从金融角度来看，这意味着不仅考虑那些期权到期时间与某些异态衍生品到期时间相一致的期权价格，还考虑额外的到期时间，并研究对异态衍生品的无模型定价下界的影响。我们表征了市场设置，即异态衍生品的回报、期权价格和边际分布的组合，可以保证改进的价格下界，以及那些排除任何改进的市场设置。最后，我们通过多个示例展示，考虑到香草期权上的额外价格信息可能对产生的无模型定价下界产生相当大的影响。
-
-    We study the influence of additional intermediate marginal distributions on the value of the martingale optimal transport problem. From a financial point of view, this corresponds to taking into account call option prices not only, as usual, for those call options where the respective future maturities coincide with the maturities of some exotic derivative but also additional maturities and then to study the effect on model-independent price bounds for the exotic derivative. We characterize market settings, i.e., combinations of the payoff of exotic derivatives, call option prices and marginal distributions that guarantee improved price bounds as well as those market settings that exclude any improvement.  Eventually, we showcase in numerous examples that the consideration of additional price information on vanilla options may have a considerable impact on the resultant model-independent price bounds.
-    
-[^12]: 拟合值迭代方法求解适应结构双因果最优传输问题
-
-    Fitted Value Iteration Methods for Bicausal Optimal Transport. (arXiv:2306.12658v1 [stat.ML])
-
-    [http://arxiv.org/abs/2306.12658](http://arxiv.org/abs/2306.12658)
-
-    本文提出了一种适用于双因果最优传输问题的拟合值迭代方法，能够在保证精度的同时具有良好的可扩展性，数值实验结果也证明了该方法的优越性。
+    本研究使用聚合博弈的框架，研究了土地所有制体制的转变过程，发现人口密度、技术改进、围地成本、群体凝聚力和谈判力的变化，以及政策和制度环境等因素会影响土地私有化的效率。
 
     
 
-    本文提出一种拟合值迭代方法(FVI)用于计算具有适应结构的双因果最优传输(OT)。基于动态规划的形式化表述，FVI采用函数类用于近似双因果OT中的值函数。在可集中条件和近似完备性假设下，我们使用（局部）Rademacher复杂度证明了样本复杂度。此外，我们证明了深度多层神经网络具有适当结构，满足样本复杂度证明所需的关键假设条件。数值实验表明，FVI在时间跨度增加时优于线性规划和适应性Sinkhorn方法，在保持可接受精度的同时具有很好的可扩展性。
+    历史学家和政治经济学家长期以来一直在讨论导致边疆地区土地、公共领域和各种习俗土地所有制转变为更为排他形式的私人财产的过程。我们使用聚合博弈的框架，研究土地所有制体制，在这种体制下，通过占有和使用来确立对土地的获取权，然后探索可能引发去中心化私有化过程的因素。人口密度、技术改进的潜力、围地成本、群体凝聚力和谈判力变化、以及政策和制度环境等因素决定了财产制度的平衡组合。尽管在某些情况下去中心化的过程可以产生有效的围地和技术转变，但在其他情况下，结果却达不到最佳状态。这是由不同的溢出效应相互作用引起的，导致围地和技术转变的效率低于理想状态。
 
-    We develop a fitted value iteration (FVI) method to compute bicausal optimal transport (OT) where couplings have an adapted structure. Based on the dynamic programming formulation, FVI adopts a function class to approximate the value functions in bicausal OT. Under the concentrability condition and approximate completeness assumption, we prove the sample complexity using (local) Rademacher complexity. Furthermore, we demonstrate that multilayer neural networks with appropriate structures satisfy the crucial assumptions required in sample complexity proofs. Numerical experiments reveal that FVI outperforms linear programming and adapted Sinkhorn methods in scalability as the time horizon increases, while still maintaining acceptable accuracy.
+    Historians and political economists have long debated the processes that led land in frontier regions, managed commons, and a variety of customary landholding regimes to be enclosed and transformed into more exclusive forms of private property. Using the framework of aggregative games, we examine land-holding regimes where access to land is established via possession and use, and then explore the factors that may initiate decentralized privatization processes. Factors including population density, potential for technology improvement, enclosure costs, shifts in group cohesion and bargaining power, or the policy and institutional environment determine the equilibrium mix of property regimes. While decentralized processes yield efficient enclosure and technological transformation in some circumstances, in others, the outcomes fall short of second-best. This stems from the interaction of different spillover effects, leading to inefficiently low rates of enclosure and technological transfo
     
-[^13]: 社交媒体情感与IPO回报
+[^7]: 基础模型的市场集中度影响
 
-    Social Media Emotions and IPO Returns. (arXiv:2306.12602v1 [q-fin.PR])
+    Market Concentration Implications of Foundation Models. (arXiv:2311.01550v1 [cs.AI])
 
-    [http://arxiv.org/abs/2306.12602](http://arxiv.org/abs/2306.12602)
+    [http://arxiv.org/abs/2311.01550](http://arxiv.org/abs/2311.01550)
 
-    本文研究了社交媒体表达的情感如何影响初次公开发行（IPO）股票的错价。社交媒体上分享的大量信息和观点可以引发炒作，导致投资者非理性买卖决策，从而在短期内高估股票，但经常在长期内得到修正。发现投资者热情高涨的IPO拥有更高的回报率，但这种热情可能是错放的，需要更长的时间才能实现可持续的成长。
-
-    
-
-    本文研究了初次公开发行（IPO）回报的两个经验事实背后的潜在机制。通过分析在StockTwits和Twitter上表达的投资者情绪，发现这些社交媒体平台传达的情感可以帮助解释IPO股票的错价。社交媒体上分享的大量信息和观点可能会引发对某些股票的炒作，导致投资者的非理性买卖决策。这可能导致股票在短期内被高估，但常常会在长期内得到修正，因为股票的表现未能满足过高的期望。特别是，发现在上市前投资者热情高涨的IPO，其第一天回报率明显更高，为29.54％，而上市前投资者热情较低的IPO，其平均第一天回报率为16.91％。但是，这种初始热情可能是错放的，因为上市前投资者热情很高的IPO可能需要更长的时间才能实现可持续的成长。
-
-    I examine potential mechanisms behind two stylized facts of initial public offerings (IPOs) returns. By analyzing investor sentiment expressed on StockTwits and Twitter, I find that emotions conveyed through these social media platforms can help explain the mispricing of IPO stocks. The abundance of information and opinions shared on social media can generate hype around certain stocks, leading to investors' irrational buying and selling decisions. This can result in an overvaluation of the stock in the short term but often leads to a correction in the long term as the stock's performance fails to meet the inflated expectations. In particular, I find that IPOs with high levels of pre-IPO investor enthusiasm tend to have a significantly higher first-day return of 29.54%, compared to IPOs with lower levels of pre-IPO investor enthusiasm, which have an average first-day return of 16.91%. However, this initial enthusiasm may be misplaced, as IPOs with high pre-IPO investor enthusiasm demon
-    
-[^14]: 一种应用于能源市场的Heat-Jarrow-Morton框架：实用方法
-
-    A Heat-Jarrow-Morton framework for energy markets: a pragmatic approach. (arXiv:2305.01485v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2305.01485](http://arxiv.org/abs/2305.01485)
-
-    本文介绍了一种应用于能源市场的Heat-Jarrow-Morton框架，重点放在实践方面。作为应用，我们重点关注欧洲电力和天然气市场。
+    对基础模型市场的结构进行分析，发现最强大的模型趋向自然垄断，需要双管齐下的监管响应来确保市场竞争和模型质量标准，以最大程度地对社会福利做出贡献。
 
     
 
-    本文讨论了将Heat-Jarrow-Morton框架应用于能源市场的方法。本文的目的是详细介绍该主题，重点放在实践方面而非已有大量文献探讨的理论方面。本文旨在成为从业人员以及所有从事这种方法的能源市场实际问题处理的人的指南。具体而言，我们关注市场结构、利用主成分分析（PCA）进行模型校准、蒙特卡罗模拟和衍生品定价。作为应用，我们重点关注欧洲电力和天然气市场：我们将模型校准为历史期货报价，进行期货和现货模拟并分析结果。
+    我们分析了基础模型市场的结构，即那些驱动ChatGPT等应用并适用于下游用途的大型AI模型，并研究了其对竞争政策和监管的影响。我们观察到，能力最强的模型有一种向自然垄断的趋势，并且可能面对广阔的市场。这需要双管齐下的监管响应：（一）反垄断机构需要通过解决战略行为，特别是确保垄断不会垂直传播到下游用途，来确保市场的可竞争性；（二）考虑到市场约束的降低，监管机构应确保最具能力的模型符合足够的质量标准（包括安全、隐私、非歧视、可靠性和互操作性标准），以最大程度地对社会福利做出贡献。监管机构还应确保AI和非AI应用之间有一个公平的监管环境。
 
-    In this article we discuss the application of the Heat-Jarrow-Morton framework Heath et al. [26] to energy markets. The goal of the article is to give a detailed overview of the topic, focusing on practical aspects rather than on theory, which has been widely studied in literature. This work aims to be a guide for practitioners and for all those who deal with the practical issues of this approach to energy market. In particular, we focus on the markets' structure, model calibration by dimension reduction with Principal Component Analysis (PCA), Monte Carlo simulations and derivatives pricing. As application, we focus on European power and gas markets: we calibrate the model on historical futures quotations, we perform futures and spot simulations and we analyze the results.
+    We analyze the structure of the market for foundation models, i.e., large AI models such as those that power ChatGPT and that are adaptable to downstream uses, and we examine the implications for competition policy and regulation. We observe that the most capable models will have a tendency towards natural monopoly and may have potentially vast markets. This calls for a two-pronged regulatory response: (i) Antitrust authorities need to ensure the contestability of the market by tackling strategic behavior, in particular by ensuring that monopolies do not propagate vertically to downstream uses, and (ii) given the diminished potential for market discipline, there is a role for regulators to ensure that the most capable models meet sufficient quality standards (including safety, privacy, non-discrimination, reliability and interoperability standards) to maximally contribute to social welfare. Regulators should also ensure a level regulatory playing field between AI and non-AI application
     
-[^15]: 经济主体的动态运输
+[^8]: 银行存款作为货币量子
 
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+    Bank Deposits as {\em Money Quanta}. (arXiv:2311.01542v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+    [http://arxiv.org/abs/2311.01542](http://arxiv.org/abs/2311.01542)
 
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
-
-    
-
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
-
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
-    
-[^16]: 在模型不确定性和信息延迟下，多操作期权的超对冲二重性
-
-    Superhedging duality for multi-action options under model uncertainty with information delay. (arXiv:2111.14502v2 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2111.14502](http://arxiv.org/abs/2111.14502)
-
-    本文研究了在模型不确定性和信息延迟下，多操作期权的超对冲问题。通过引入扩大的空间将该问题重构为欧式期权问题，并证明了定价-对冲二重性。同时，给出了当期权买方的行动被卖方观察到时的超对冲价格与期权买方能够预测未来的关系。
+    本研究将商业银行发行的存款分为债务性质的存款和股权性质的存款，通过将银行存款的混合性质与量子物理中的双重性质相关联，研究了如何利用量子分析方法和思想来提取有价值的经济信息。
 
     
 
-    本文考虑在离散时间中，非支配模型不确定性下，异国期权的超对冲价格。在该模型中，期权买方在每个时间步中从一个（不可数的）操作空间中选择某种行动。通过引入一个扩大的空间，我们将这种异国期权的超对冲问题重构为一个欧式期权问题，从而证明了定价-对冲二重性。接下来，我们提出了一个二重性结果，即当期权买方的行动在之后的$l$个周期内被卖方观察到时，超对冲价格等于基于模型的价格，其中期权买方有能力预测未来$l$个周期。
+    根据会计视角的货币观（AVM），由商业银行以需求存款形式发行的货币具有混合性质，因为存款可以证明由债务性质的存款和股权性质的存款所组成，这种混合取决于与发行银行及其运营和互动环境相关的因素，这些因素可能随时间而变化。根据AVM的这一重要发现，将银行存款的混合性质与在量子物理中典型的双重性质的对象相关联，并探究如何将量子分析方法和思想应用于具有双重特征的货币形式以提取有价值的经济信息。
 
-    We consider the superhedging price of an exotic option under nondominated model uncertainty in discrete time in which the option buyer chooses some action from an (uncountable) action space at each time step. By introducing an enlarged space we reformulate the superhedging problem for such an exotic option as a problem for a European option, which enables us to prove the pricing-hedging duality. Next, we present a duality result that, when the option buyers action is observed by the seller up to $l$ periods later, the superhedging price equals the model-based price where the option buyer has the power to look into the future for $l$ periods.
+    According to the Accounting View of Money (AVM), the money issued by commercial banks in the form of demand deposits features a hybrid nature, since deposits can be shown to consist of a share of deposits bearing the characteristics of debt (debt-deposits) and a share of deposits bearing the characteristics of equity (equity-deposits), in a mix that depends on factors that relate to the issuing banks and the environment where they operate and interact, which may change over time. Following this important finding of the AVM, it is only consequential to associate the hybrid nature of bank deposits with the dual nature of the objects which is typical in quantum physics, and to investigate whether and how the application of quantum analytical methods and ideas to a form of money showing dualistic features could be used to extract valuable economic information.
+    
+[^9]: 期权波动率与隐含概率：IV曲线凹性的影响
+
+    Option Smile Volatility and Implied Probabilities: Implications of Concavity in IV Curves. (arXiv:2307.15718v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2307.15718](http://arxiv.org/abs/2307.15718)
+
+    该论文研究了盈利公告前普遍存在的双峰性风险中性分布和IV曲线的凹性特征。研究结果显示，凹IV笑脸的存在意味着市场风险增加，并且投资者为对抗极端波动而支付了溢价。
+
+    
+
+    盈利公告是提供给投资者基本重要信息的公司事件。股价上涨的可能性也可能导致盈利公告的波动性增加。利用极短期期权数据，我们研究了在盈利公告前普遍存在的风险中性分布的双峰性和IV曲线的凹性特征。本研究比较了凹IV笑脸和非凹IV笑脸之间的收益，以判断IV曲线中的凹性是否提供了关于市场风险的任何信息，并展示了投资者在盈利公告期间如何对抗极端波动。事实上，我们的论文表明，在存在凹IV笑脸的情况下，投资者为对未来公告带来的不确定性进行对冲支付了显著的溢价。
+
+    Earnings announcements (EADs) are corporate events that provide investors with fundamentally important information. The prospect of stock price rises may also contribute to EADs increased volatility. Using data on extremely short term options, we study that bimodality in the risk neutral distribution and concavity in the IV smiles are ubiquitous characteristics before an earnings announcement day. This study compares the returns between concave and non concave IV smiles to see if the concavity in the IV curve leads to any information about the risk in the market and showcases how investors hedge against extreme volatility during earnings announcements. In fact, our paper shows in the presence of concave IV smiles; investors pay a significant premium to hedge against the uncertainty caused by the forthcoming announcement.
+    
+[^10]: 论不完全观测下风险敏感性投资问题中控制与估计的分离
+
+    On the Separation of Estimation and Control in Risk-Sensitive Investment Problems under Incomplete Observation. (arXiv:2304.08910v1 [math.OC])
+
+    [http://arxiv.org/abs/2304.08910](http://arxiv.org/abs/2304.08910)
+
+    本文研究了一类普通风险敏感性投资问题在有限维度滤波器存在条件下的可分离性，并证明了相应的分离问题与原始控制问题的严格等价。
+
+    
+
+    用于解决部分观测的随机控制问题的一种典型方法是将控制和估计任务分开。然而，众所周知，这种分离通常无法为风险敏感控制问题提供实际的最优解决方案。本文研究了一类普通风险敏感性投资管理问题的可分离性，当存在一个有限维度的滤波器时。我们证明了，相应的分离问题（其中考虑给定观测量的条件滤波器分布，而不是未观测到的量）严格等于原始控制问题。我们扩大了所谓的修改Zakai方程（MZE）在研究分离问题时的适用性，并证明了MZE在我们的方法中简化为PDE。此外，我们推导了分离性的判据。我们没有解决分离的控制问题，但指出有限维滤波器的存在会导致有限状态空间。
+
+    A typical approach to tackle stochastic control problems with partial observation is to separate the control and estimation tasks. However, it is well known that this separation generally fails to deliver an actual optimal solution for risk-sensitive control problems. This paper investigates the separability of a general class of risk-sensitive investment management problems when a finite-dimensional filter exists. We show that the corresponding separated problem, where instead of the unobserved quantities, one considers their conditional filter distribution given the observations, is strictly equivalent to the original control problem. We widen the applicability of the so-called Modified Zakai Equation (MZE) for the study of the separated problem and prove that the MZE simplifies to a PDE in our approach. Furthermore, we derive criteria for separability. We do not solve the separated control problem but note that the existence of a finite-dimensional filter leads to a finite state spa
+    
+[^11]: 粗略工资设定与行为公司
+
+    Coarse Wage-Setting and Behavioral Firms. (arXiv:2206.01114v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2206.01114](http://arxiv.org/abs/2206.01114)
+
+    本文研究表明公司粗略的工资设定导致工资在整数上的聚集，同时对公司的市场结果产生了负面影响。
+
+    
+
+    本文显示出工资在整数上的聚集部分是由公司粗略的工资设定所驱动的。通过对巴西超过2亿新员工的数据进行分析，首先得出了合同工资倾向于集中在整数上的结论。然后，研究表明倾向于以整数工资雇佣工人的公司不够复杂且市场成果较差。接下来，本文提出了一种工资发布模型，在该模型中，由于优化成本的考虑，公司采用了粗略的整数工资，并通过两种研究设计提供了与模型预测相关的证据。最后，本文研究了粗略工资设定对相关经济结果的一些影响。
+
+    This paper shows that the bunching of wages at round numbers is partly driven by firm coarse wage-setting. Using data from over 200 million new hires in Brazil, I first establish that contracted salaries tend to cluster at round numbers. Then, I show that firms that tend to hire workers at round-numbered salaries are less sophisticated and have worse market outcomes. Next, I develop a wage-posting model in which optimization costs lead to the adoption of coarse rounded wages and provide evidence supporting two model predictions using two research designs. Finally, I examine some consequences of coarse wage-setting for relevant economic outcomes.
     
 

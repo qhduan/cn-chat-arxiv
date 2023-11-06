@@ -1,0 +1,12 @@
+{
+    "title": "Relation Extraction from News Articles (RENA): A Tool for Epidemic Surveillance. (arXiv:2311.01472v1 [cs.CL])",
+    "abstract": "Relation Extraction from News Articles (RENA) is a browser-based tool designed to extract key entities and their semantic relationships in English language news articles related to infectious diseases. Constructed using the React framework, this system presents users with an elegant and user-friendly interface. It enables users to input a news article and select from a choice of two models to generate a comprehensive list of relations within the provided text. As a result, RENA allows real-time parsing of news articles to extract key information for epidemic surveillance, contributing to EPIWATCH, an open-source intelligence-based epidemic warning system.",
+    "link": "http://arxiv.org/abs/2311.01472",
+    "context": "Title: Relation Extraction from News Articles (RENA): A Tool for Epidemic Surveillance. (arXiv:2311.01472v1 [cs.CL])\nAbstract: Relation Extraction from News Articles (RENA) is a browser-based tool designed to extract key entities and their semantic relationships in English language news articles related to infectious diseases. Constructed using the React framework, this system presents users with an elegant and user-friendly interface. It enables users to input a news article and select from a choice of two models to generate a comprehensive list of relations within the provided text. As a result, RENA allows real-time parsing of news articles to extract key information for epidemic surveillance, contributing to EPIWATCH, an open-source intelligence-based epidemic warning system.",
+    "path": "papers/23/11/2311.01472.json",
+    "total_tokens": 714,
+    "translated_title": "从新闻文章中提取关系（RENA）：用于流行病监测的工具",
+    "translated_abstract": "关系提取从新闻文章（RENA）是一个基于浏览器的工具，旨在提取与传染病相关的英语新闻文章中的关键实体及其语义关系。该系统采用React框架构建，为用户提供了一个优雅且用户友好的界面。它允许用户输入新闻文章并从两个模型中选择，以生成所提供文本中的关系的全面列表。因此，RENA允许实时解析新闻文章提取流行病监测的关键信息，为开源情报驱动的流行病预警系统EPIWATCH做出贡献。",
+    "tldr": "RENA是一种基于浏览器的关系提取工具，用于从英语新闻文章中提取与传染病相关的关键实体和语义关系，为流行病监测提供实时解析和关键信息提取的能力。",
+    "en_tdlr": "RENA is a browser-based tool for relation extraction, designed to extract key entities and semantic relationships related to infectious diseases from English news articles, providing real-time parsing and key information extraction capabilities for epidemic surveillance."
+}

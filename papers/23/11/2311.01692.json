@@ -1,0 +1,11 @@
+{
+    "title": "Benchmark Beating with the Increasing Convex Order. (arXiv:2311.01692v1 [q-fin.PM])",
+    "abstract": "In this paper we model benchmark beating with the increasing convex order (ICX order). The mean constraint in the mean-variance theory of portfolio selection can be regarded as beating a constant. We then investigate the problem of minimizing the variance of a portfolio with ICX order constraints, based on which we also study the problem of beating-performance-variance efficient portfolios. The optimal and efficient portfolios are all worked out in closed form for complete markets.",
+    "link": "http://arxiv.org/abs/2311.01692",
+    "context": "Title: Benchmark Beating with the Increasing Convex Order. (arXiv:2311.01692v1 [q-fin.PM])\nAbstract: In this paper we model benchmark beating with the increasing convex order (ICX order). The mean constraint in the mean-variance theory of portfolio selection can be regarded as beating a constant. We then investigate the problem of minimizing the variance of a portfolio with ICX order constraints, based on which we also study the problem of beating-performance-variance efficient portfolios. The optimal and efficient portfolios are all worked out in closed form for complete markets.",
+    "path": "papers/23/11/2311.01692.json",
+    "total_tokens": 633,
+    "translated_title": "通过增加凸顺序来超越基准",
+    "translated_abstract": "在本文中，我们使用增加的凸顺序（ICX顺序）对超越基准进行建模。在组合选择的均值-方差理论中，均值约束可以看作是超越一个常数。然后，我们研究了在ICX顺序约束下最小化投资组合方差的问题，基于此，我们还研究了超越性能-方差高效投资组合的问题。在完备市场中，所有最优和高效的投资组合都可以通过闭合形式求解。",
+    "tldr": "本文通过增加凸顺序来超越基准，研究了在ICX顺序约束下最小化投资组合方差的问题，并对完备市场中的最优和高效的投资组合进行了闭合解的求解。"
+}

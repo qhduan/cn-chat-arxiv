@@ -1,0 +1,11 @@
+{
+    "title": "Applications of the Theory of Aggregated Markov Processes in Stochastic Learning Theory. (arXiv:2311.01476v1 [stat.ML])",
+    "abstract": "A stochastic process that arises by composing a function with a Markov process is called an aggregated Markov process (AMP). The purpose of composing a Markov process with a function can be a reduction of dimensions, e.g., a projection onto certain coordinates. The theory around AMP has been extensively studied e.g. by Dynkin, Cameron, Rogers and Pitman, and Kelly, all of whom provided sufficient conditions for an AMP to remain Markov. In another direction, Larget provided a canonical representation for AMP, which can be used to verify the equivalence of two AMPs. The purpose of this paper is to describe how the theory of AMP can be applied to stochastic learning theory as they learn a particular task.",
+    "link": "http://arxiv.org/abs/2311.01476",
+    "context": "Title: Applications of the Theory of Aggregated Markov Processes in Stochastic Learning Theory. (arXiv:2311.01476v1 [stat.ML])\nAbstract: A stochastic process that arises by composing a function with a Markov process is called an aggregated Markov process (AMP). The purpose of composing a Markov process with a function can be a reduction of dimensions, e.g., a projection onto certain coordinates. The theory around AMP has been extensively studied e.g. by Dynkin, Cameron, Rogers and Pitman, and Kelly, all of whom provided sufficient conditions for an AMP to remain Markov. In another direction, Larget provided a canonical representation for AMP, which can be used to verify the equivalence of two AMPs. The purpose of this paper is to describe how the theory of AMP can be applied to stochastic learning theory as they learn a particular task.",
+    "path": "papers/23/11/2311.01476.json",
+    "total_tokens": 737,
+    "translated_title": "在随机学习理论中应用聚合马尔可夫过程的研究",
+    "translated_abstract": "通过将函数与马尔可夫过程组合得到的随机过程被称为聚合马尔可夫过程（AMP）。将马尔可夫过程与函数组合的目的可以是降低维度，例如在特定坐标上进行投影。AMP的理论已经被Dynkin、Cameron、Rogers和Pitman以及Kelly等人广泛研究，他们提供了AMP保持马尔可夫性的充分条件。在另一个方向上，Larget提供了AMP的规范表示，可以用于验证两个AMP的等价性。本文旨在描述如何将AMP的理论应用于随机学习理论中，以实现他们在学习特定任务时的目标。",
+    "tldr": "本文描述了聚合马尔可夫过程（AMP）的理论如何应用于随机学习理论中，以降低维度并实现学习特定任务的目标。"
+}
