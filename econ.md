@@ -2,67 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Cheap Talking Algorithms.](http://arxiv.org/abs/2310.07867) | 该论文研究了在战略信息传递游戏中，利用独立强化学习算法进行训练的发送者和接收者可以收敛到接近最优均衡策略，并且在代理之间的利益冲突下实现了最大化的通信。这一结论稳健，并对信息传递游戏中的均衡选择理论、计算机科学中的算法间通信和人工智能代理市场中的经济学产生了影响。 |
-| [^2] | [Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits.](http://arxiv.org/abs/2308.10359) | 本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。 |
-| [^3] | [Identification-robust inference for the LATE with high-dimensional covariates.](http://arxiv.org/abs/2302.09756) | 本文提出了一种适用于高维协变量下的局部平均处理效应的检验统计量，证明其具有统一正确的大小，并通过双重/无偏机器学习方法实现了推断和置信区间计算。模拟结果表明，该检验具有鲁棒性，可以有效处理识别力较弱和高维设置下的数据。应用于实证研究中，该方法在铁路通达对城市人口增长的影响研究中表现出更短的置信区间和更小的点估计。 |
-| [^4] | [A Vector Monotonicity Assumption for Multiple Instruments.](http://arxiv.org/abs/2009.00553) | 本文提出了向量单调性假设的观点，该假设对于多个工具变量组合的研究具有重要意义。通过假设所有工具变量的治疗接受程度是单调的，我们可以得到一些因果参数的点识别，并提供了相应的估计方法。 |
+| [^1] | [Unified Inference for Dynamic Quantile Predictive Regression.](http://arxiv.org/abs/2309.14160) | 本文开发了一种统一的渐近分布理论，用于分析可能存在非平稳性情况下股票收益的分位数可预测性。 |
+| [^2] | [Responses of Unemployment to Productivity Changes for a General Matching Technology.](http://arxiv.org/abs/2307.05843) | 这篇论文探讨了一般匹配技术下失业对生产力变化的响应。研究表明，失业对生产力变化的响应取决于可用于创造就业机会的资源，而不是匹配技术本身的类型。 |
+| [^3] | [Semiparametric Discrete Choice Models for Bundles.](http://arxiv.org/abs/2306.04135) | 该论文提出了在半参数离散选择模型中应用匹配识别方法来研究绑定，其可以处理选择之间的干扰中具有异方差性和任意相关性。该文提出了两种模型：交叉和面板数据模型。 |
+| [^4] | [The Complexity of Corporate Culture as a Potential Source of Firm Profit Differentials.](http://arxiv.org/abs/2305.14029) | 本文使用复杂自适应系统的模型分析企业内部利润差异，通过员工的价值决策塑造企业文化，发现极端管理方式可以获得更高的利润，并且建议采取措施加强企业文化的塑造和传播，以提高企业利润。 |
+| [^5] | [The Value of Information and Circular Settings.](http://arxiv.org/abs/2303.16126) | 本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，并将其应用于环形设置的经济应用，具有重要意义。 |
+| [^6] | [Firm-worker hypergraphs.](http://arxiv.org/abs/2211.06887) | 该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。 |
+| [^7] | [Inventories, Demand Shocks Propagation and Amplification in Supply Chains.](http://arxiv.org/abs/2205.03862) | 本文通过研究供应链上的产业地位和存货对需求冲击传导效应的作用，发现冲击在上游产业中有放大效应，并找到了存货在解释产出弹性上的重要作用。 |
 
 # 详细
 
-[^1]: 廉价对话算法
+[^1]: 动态分位数预测回归的统一推断
 
-    Cheap Talking Algorithms. (arXiv:2310.07867v1 [econ.TH])
+    Unified Inference for Dynamic Quantile Predictive Regression. (arXiv:2309.14160v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.07867](http://arxiv.org/abs/2310.07867)
+    [http://arxiv.org/abs/2309.14160](http://arxiv.org/abs/2309.14160)
 
-    该论文研究了在战略信息传递游戏中，利用独立强化学习算法进行训练的发送者和接收者可以收敛到接近最优均衡策略，并且在代理之间的利益冲突下实现了最大化的通信。这一结论稳健，并对信息传递游戏中的均衡选择理论、计算机科学中的算法间通信和人工智能代理市场中的经济学产生了影响。
-
-    
-
-    我们模拟独立的强化学习算法在克劳福德和索贝尔（1982）的战略信息传递游戏中的行为。我们表明，一个发送者和一个接收者一起进行训练，收敛到接近游戏先验最优均衡的策略。因此，通信在与代理之间的利益冲突程度给出的纳什均衡下，按照最大程度进行。这一结论对超参数和游戏的备选规范稳健。我们讨论了信息传递游戏中均衡选择理论、计算机科学中算法间新兴通信工作以及由人工智能代理组成的市场中的宫斗经济学的影响。
-
-    We simulate behaviour of independent reinforcement learning algorithms playing the Crawford and Sobel (1982) game of strategic information transmission. We show that a sender and a receiver training together converge to strategies close to the exante optimal equilibrium of the game. Hence, communication takes place to the largest extent predicted by Nash equilibrium given the degree of conflict of interest between agents. The conclusion is shown to be robust to alternative specifications of the hyperparameters and of the game. We discuss implications for theories of equilibrium selection in information transmission games, for work on emerging communication among algorithms in computer science and for the economics of collusions in markets populated by artificially intelligent agents.
-    
-[^2]: 揭示中央银行数字货币与银行存款之间的相互作用
-
-    Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits. (arXiv:2308.10359v1 [econ.TH])
-
-    [http://arxiv.org/abs/2308.10359](http://arxiv.org/abs/2308.10359)
-
-    本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。
+    本文开发了一种统一的渐近分布理论，用于分析可能存在非平稳性情况下股票收益的分位数可预测性。
 
     
 
-    我们扩展了Niepelt（2022年）的实际商业周期模型，分析引入中央银行数字货币（CBDC）后面临的金融稳定风险。CBDC与商业银行存款竞争，成为家庭的流动性来源。我们考虑了支付工具之间的不同可替代性程度，并通过引入银行从中央银行借款时必须遵守的抵押约束来审查Niepelt（2022年）中的等价结果。当CBDC和存款完全可替代时，中央银行可以向银行提供贷款，使引入CBDC对实体经济中性。我们表明，中央银行的贷款利率的最优水平取决于抵押约束的限制性程度：抵押约束越严格，中央银行需要发布的贷款利率越低。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。因此，引入CBDC后将出现负面影响。
+    本文针对动态分位数预测回归开发了统一的渐近分布理论，适用于在可能存在非平稳性的情况下研究股票收益的分位数可预测性。
 
-    We extend the Real Business Cycle model in Niepelt (2022) to analyze the risk to financial stability following the introduction of a central bank digital currency (CBDC). CBDC competes with commercial bank deposits as households' source of liquidity. We consider different degrees of substitutability between payment instruments and review the equivalence result in Niepelt (2022) by introducing a collateral constraint banks must respect when borrowing from the central bank. When CBDC and deposits are perfect substitutes, the central bank can offer loans to banks that render the introduction of CBDC neutral to the real economy. We show that the optimal level of the central bank's lending rate depends on the restrictiveness of the collateral constraint: the tighter it is, the lower the loan rate the central bank needs to post. However, when CBDC and deposits are imperfect substitutes, the central bank cannot make banks indifferent to the competition from CBDC. It follows that the introduct
+    This paper develops unified asymptotic distribution theory for dynamic quantile predictive regressions which is useful when examining quantile predictability in stock returns under possible presence of nonstationarity.
     
-[^3]: 高维协变量下的局部平均处理效应鲁棒性推断
+[^2]: 对于一般匹配技术的生产力变化的失业响应
 
-    Identification-robust inference for the LATE with high-dimensional covariates. (arXiv:2302.09756v2 [econ.EM] UPDATED)
+    Responses of Unemployment to Productivity Changes for a General Matching Technology. (arXiv:2307.05843v1 [econ.GN])
 
-    [http://arxiv.org/abs/2302.09756](http://arxiv.org/abs/2302.09756)
+    [http://arxiv.org/abs/2307.05843](http://arxiv.org/abs/2307.05843)
 
-    本文提出了一种适用于高维协变量下的局部平均处理效应的检验统计量，证明其具有统一正确的大小，并通过双重/无偏机器学习方法实现了推断和置信区间计算。模拟结果表明，该检验具有鲁棒性，可以有效处理识别力较弱和高维设置下的数据。应用于实证研究中，该方法在铁路通达对城市人口增长的影响研究中表现出更短的置信区间和更小的点估计。
-
-    
-
-    本文研究了高维协变量下的局部平均处理效应(LATE)，不论识别力如何。我们提出了一种新的高维LATE检验统计量，并证明了我们的检验在渐进情况下具有统一正确的大小。通过采用双重/无偏机器学习(DML)方法来估计干扰参数，我们开发了简单易实施的算法来推断和计算高维LATE的置信区间。模拟结果表明，我们的检验对于识别力较弱和高维设置下的大小控制和功效表现具有鲁棒性，优于其他传统检验方法。将所提出的检验应用于铁路和人口数据，研究铁路通达对城市人口增长的影响，我们观察到与传统检验相比，铁路通达系数的置信区间长度更短，点估计更小。
-
-    This paper investigates the local average treatment effect (LATE) with high-dimensional covariates, irrespective of the strength of identification. We propose a novel test statistic for the high-dimensional LATE, demonstrating that our test has uniformly correct asymptotic size. By employing the double/debiased machine learning (DML) method to estimate nuisance parameters, we develop easy-to-implement algorithms for inference and confidence interval calculation of the high-dimensional LATE. Simulations indicate that our test is robust against both weak identification and high-dimensional setting concerning size control and power performance, outperforming other conventional tests. Applying the proposed test to railroad and population data to study the effect of railroad access on urban population growth, we observe the shorter length of confidence intervals and smaller point estimates for the railroad access coefficients compared to the conventional tests.
-    
-[^4]: 多个工具变量的向量单调性假设
-
-    A Vector Monotonicity Assumption for Multiple Instruments. (arXiv:2009.00553v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2009.00553](http://arxiv.org/abs/2009.00553)
-
-    本文提出了向量单调性假设的观点，该假设对于多个工具变量组合的研究具有重要意义。通过假设所有工具变量的治疗接受程度是单调的，我们可以得到一些因果参数的点识别，并提供了相应的估计方法。
+    这篇论文探讨了一般匹配技术下失业对生产力变化的响应。研究表明，失业对生产力变化的响应取决于可用于创造就业机会的资源，而不是匹配技术本身的类型。
 
     
 
-    当研究人员将多个工具变量组合用于单一二元治疗时，本地平均治疗效应（LATE）框架的单调性假设可能变得过于限制性：它要求所有单位在分别改变工具变量方向时具有相同的反应方向。相比之下，我所称的向量单调性仅仅假设所有工具变量的治疗接受程度是单调的，它是Mogstad等人引入的部分单调性假设的特殊情况。在工具变量为二元变量时，我刻画了在向量单调性下被点识别的因果参数类。该类包括对任何一种方式对工具变量集合做出响应的单位的平均治疗效应，或对给定子集做出响应的单位的平均治疗效应。识别结果是建设性的，并提供了对已识别的治疗效应参数的简单估计器。
+    工人离职、寻找工作、接受工作并用工资支付消费。公司招聘工人来填补职位空缺，但搜索摩擦使得公司无法立即雇佣可用工人。失业持续存在。这些特征由Diamond-Mortensen-Pissarides建模框架描述。在这类模型中，失业对生产力变化的响应取决于可用于创造就业机会的资源。然而，这种特征是在匹配被Cobb-Douglas技术参数化时得出的。对于一个典型的DMP模型，我(1)证明只要初始职位空缺产生正的余额，就会存在唯一的稳态平衡;(2)对一般匹配技术的失业对生产力变化的响应进行了描述;(3)展示了一个不是Cobb-Douglas的匹配技术意味着失业对生产力变化的响应更大，这与可用于就业创造的资源无关。
 
-    When a researcher combines multiple instrumental variables for a single binary treatment, the monotonicity assumption of the local average treatment effects (LATE) framework can become restrictive: it requires that all units share a common direction of response even when separate instruments are shifted in opposing directions. What I call vector monotonicity, by contrast, simply assumes treatment uptake to be monotonic in all instruments, representing a special case of the partial monotonicity assumption introduced by Mogstad et al. (2021). I characterize the class of causal parameters that are point identified under vector monotonicity, when the instruments are binary. This class includes, for example, the average treatment effect among units that are in any way responsive to the collection of instruments, or those that are responsive to a given subset of them. The identification results are constructive and yield a simple estimator for the identified treatment effect parameters. An e
+    Workers separate from jobs, search for jobs, accept jobs, and fund consumption with their wages. Firms recruit workers to fill vacancies, but search frictions prevent firms from instantly hiring available workers. Unemployment persists. These features are described by the Diamond--Mortensen--Pissarides modeling framework. In this class of models, how unemployment responds to productivity changes depends on resources that can be allocated to job creation. Yet, this characterization has been made when matching is parameterized by a Cobb--Douglas technology. For a canonical DMP model, I (1) demonstrate that a unique steady-state equilibrium will exist as long as the initial vacancy yields a positive surplus; (2) characterize responses of unemployment to productivity changes for a general matching technology; and (3) show how a matching technology that is not Cobb--Douglas implies unemployment responds more to productivity changes, which is independent of resources available for job creati
+    
+[^3]: 半参数离散选择模型在绑定中的应用研究
+
+    Semiparametric Discrete Choice Models for Bundles. (arXiv:2306.04135v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.04135](http://arxiv.org/abs/2306.04135)
+
+    该论文提出了在半参数离散选择模型中应用匹配识别方法来研究绑定，其可以处理选择之间的干扰中具有异方差性和任意相关性。该文提出了两种模型：交叉和面板数据模型。
+
+    
+
+    我们提出了估计和推断方法，用于进行半参数离散选择模型在交叉和面板数据设置中对绑定的研究。我们的匹配识别方法允许在选择之间的干扰中具有某些形式的异方差性和任意相关性。对于交叉模型，我们提出了一种核加权等级程序，并展示了非参数bootstrap在推断中的有效性。对于面板数据模型，我们提出了局部最大分数估计量，并表明数值bootstrap是一种有效的推断方法。蒙特卡罗实验表明，我们提出的估计和推断程序在有限样本中表现良好。
+
+    We propose methods of estimation and inference for use in semiparametric discrete choice models for bundles in both cross-sectional and panel data settings. Our matching-based identification approach permits certain forms of heteroskedasticity and arbitrary correlation in the disturbances across choices. For the cross-sectional model, we propose a kernel-weighted rank procedure and show the validity of the nonparametric bootstrap for the inference. For the panel data model, we propose localized maximum score estimators and show that the numerical bootstrap is a valid inference method. Monte Carlo experiments demonstrate that our proposed estimation and inference procedures perform adequately in finite samples.
+    
+[^4]: 企业文化复杂性作为潜在的公司利润差异来源的复杂性研究。
+
+    The Complexity of Corporate Culture as a Potential Source of Firm Profit Differentials. (arXiv:2305.14029v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.14029](http://arxiv.org/abs/2305.14029)
+
+    本文使用复杂自适应系统的模型分析企业内部利润差异，通过员工的价值决策塑造企业文化，发现极端管理方式可以获得更高的利润，并且建议采取措施加强企业文化的塑造和传播，以提高企业利润。
+
+    
+
+    本文将商业组织作为一个复杂自适应系统进行建模，提出了一个补充企业内部利润差异的基于公司的视角的观点。所提出的基于智能体的模型引入了内生的基于相似性的社交网络以及员工对由公司关键绩效指标确定的动态管理策略的反应。员工们基于价值的决策塑造了他人的行为，从中建立了一种企业文化，这些元素引发了相互交织的反馈机制，从而导致了意外的利润结果。模拟结果显示，比起较为中等的替代方案，极端的管理方式的变体在长期内获得了更高的利润。此外，我们观察到收敛于一个低强度监控的主导型管理策略以及高度货币激励合作行为的趋势。结果表明，采取措施加强企业文化的塑造和传播或将成为提高企业利润的策略。
+
+    This paper proposes an addition to the firm-based perspective on intra-industry profitability differentials by modelling a business organisation as a complex adaptive system. The presented agent-based model introduces an endogenous similarity-based social network and employees' reactions to dynamic management strategies informed by key company benchmarks. The value-based decision-making of employees shapes the behaviour of others through their perception of social norms from which a corporate culture emerges. These elements induce intertwined feedback mechanisms which lead to unforeseen profitability outcomes. The simulations reveal that variants of extreme adaptation of management style yield higher profitability in the long run than the more moderate alternatives. Furthermore, we observe convergence towards a dominant management strategy with low intensity in monitoring efforts as well as high monetary incentivisation of cooperative behaviour. The results suggest that measures increa
+    
+[^5]: 信息价值和环形设置的研究
+
+    The Value of Information and Circular Settings. (arXiv:2303.16126v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.16126](http://arxiv.org/abs/2303.16126)
+
+    本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，并将其应用于环形设置的经济应用，具有重要意义。
+
+    
+
+    本文提出了一种基于克劳德·香农的信息和Ruslan Stratonovich的工作的信息价值（VoI）的通用概念，该概念具有贝叶斯决策理论和需求分析所需的理想属性。将Shannon / Stratonovich VoI概念与Hartley VoI概念进行比较，并应用于环形设置的典型经济应用，该设置概括了Ruslan Stratonovich的示例，并允许网络结构和不同经济运输成本的调查。
+
+    We present a universal concept for the Value of Information (VoI) based on Claude Shannon's information and work of Ruslan Stratonovich that has desirable properties for Bayesian decision theory and demand analysis. The Shannon/Stratonovich VoI concept is compared to the concept of Hartley VoI and applied to an epitome economic application of a circular setting generalizing an example of Ruslan Stratonovich and allowing for a network structure and an investigation of various economic transport costs.
+    
+[^6]: 公司-员工超图
+
+    Firm-worker hypergraphs. (arXiv:2211.06887v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2211.06887](http://arxiv.org/abs/2211.06887)
+
+    该论文介绍了公司-员工超图的概念，并证明当超图没有非平凡奇数长度的循环时，稳定匹配存在。该结果适用于将专门的公司与专业人士进行匹配。
+
+    
+
+    一个公司-员工超图由连接公司和可能雇员的边组成。我们表明，在可转让效用的多对一匹配和离散的多对一匹配中，当公司-员工超图没有非平凡奇数长度的循环时，存在稳定匹配。满足这个条件的公司偏好出现在将专门的公司与专业人士进行匹配的问题中。
+
+    A firm-worker hypergraph consists of edges in which each edge joins a firm and its possible employees. We show that a stable matching exists in both many-to-one matching with transferable utilities and discrete many-to-one matching when the firm-worker hypergraph has no nontrivial odd-length cycle. Firms' preferences satisfying this condition arise in a problem of matching specialized firms with specialists.
+    
+[^7]: 存货、需求冲击传导和供应链中的放大效应
+
+    Inventories, Demand Shocks Propagation and Amplification in Supply Chains. (arXiv:2205.03862v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.03862](http://arxiv.org/abs/2205.03862)
+
+    本文通过研究供应链上的产业地位和存货对需求冲击传导效应的作用，发现冲击在上游产业中有放大效应，并找到了存货在解释产出弹性上的重要作用。
+
+    
+
+    本文研究了产业在供应链中的地位对决定最终需求冲击传导效应的作用。通过基于目标特定的最终需求冲击和目标份额的变化来设计转移份额，本文发现冲击在上游放大。定量上，上游行业对最终需求冲击的反应是终端商品生产者的三倍。为了组织简化形式的结果，我开发了一个包括存货的可操作生产网络模型，并研究了网络属性和存货的周期性如何相互作用来决定最终需求冲击是放大还是耗散。我通过直接估计模型预测的产出增长和需求冲击之间的关系来验证该机制，中介网络位置和存货。我发现存货在解释异质性产出弹性方面扮演了重要角色。最后，我使用模型定量研究了存货和网络属性如何塑造生产过程中的波动性。
+
+    I study the role of industries' position in supply chains in shaping the transmission of final demand shocks. First, I use a shift-share design based on destination-specific final demand shocks and destination shares to show that shocks amplify upstream. Quantitatively, upstream industries respond to final demand shocks up to three times as much as final goods producers. To organize the reduced form results, I develop a tractable production network model with inventories and study how the properties of the network and the cyclicality of inventories interact to determine whether final demand shocks amplify or dissipate upstream. I test the mechanism by directly estimating the model-implied relationship between output growth and demand shocks, mediated by network position and inventories. I find evidence of the role of inventories in explaining heterogeneous output elasticities. Finally, I use the model to quantitatively study how inventories and network properties shape the volatility o
     
 
