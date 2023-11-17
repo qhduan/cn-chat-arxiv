@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications.](http://arxiv.org/abs/2309.16437) | 本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。 |
-| [^2] | [Valuing Pharmaceutical Drug Innovations.](http://arxiv.org/abs/2212.07384) | 通过市场价值和研发成本，估计了制药药品创新的平均价值。成功药品的平均价值为 16.2 亿美元，临床试验前阶段的平均价值为 6430 万美元，成本为 5850 万美元。 |
+| [^1] | [Learning Volatility Surfaces using Generative Adversarial Networks.](http://arxiv.org/abs/2304.13128) | 本文提出了一种使用GAN高效计算波动率曲面的方法。所提出的GAN模型允许使用浅层网络，从而大大降低了计算成本。实验结果表明，在计算波动率曲面方面具有优势。 |
 
 # 详细
 
-[^1]: 超越引用：用于评估科学出版物中的新颖性及其影响力的基于文本的指标
+[^1]: 使用生成对抗网络学习波动率曲面
 
-    Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications. (arXiv:2309.16437v1 [econ.GN])
+    Learning Volatility Surfaces using Generative Adversarial Networks. (arXiv:2304.13128v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2309.16437](http://arxiv.org/abs/2309.16437)
+    [http://arxiv.org/abs/2304.13128](http://arxiv.org/abs/2304.13128)
 
-    本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。
-
-    
-
-    我们使用文本挖掘来确定来自Microsoft Academic Graph (MAG)科学论文群体中新科学思想的来源和影响。我们验证了新技术及其相对于基于引用的传统度量指标的改进。首先，我们收集与诺贝尔奖联系的科学论文。这些论文可以说引入了对科学进展具有重大影响的全新科学思想。其次，我们确定文献综述论文，这些论文通常总结之前的科学发现而不是引领新的科学见解。最后，我们证明引领新的科学思想的论文更有可能被高度引用。我们的研究结果支持使用文本挖掘来测量发表时的新颖科学思想以及这些新思想对后续科学工作的影响。此外，研究结果还表明，相比基于论文引用的传统指标，新的文本指标有显著的改进。
-
-    We use text mining to identify the origin and impact of new scientific ideas in the population of scientific papers from Microsoft Academic Graph (MAG). We validate the new techniques and their improvement over the traditional metrics based on citations. First, we collect scientific papers linked to Nobel prizes. These papers arguably introduced fundamentally new scientific ideas with a major impact on scientific progress. Second, we identify literature review papers which typically summarize prior scientific findings rather than pioneer new scientific insights. Finally, we illustrate that papers pioneering new scientific ideas are more likely to become highly cited. Our findings support the use of text mining both to measure novel scientific ideas at the time of publication and to measure the impact of these new ideas on later scientific work. Moreover, the results illustrate the significant improvement of the new text metrics over the traditional metrics based on paper citations. We 
-    
-[^2]: 评估制药药品创新价值
-
-    Valuing Pharmaceutical Drug Innovations. (arXiv:2212.07384v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2212.07384](http://arxiv.org/abs/2212.07384)
-
-    通过市场价值和研发成本，估计了制药药品创新的平均价值。成功药品的平均价值为 16.2 亿美元，临床试验前阶段的平均价值为 6430 万美元，成本为 5850 万美元。
+    本文提出了一种使用GAN高效计算波动率曲面的方法。所提出的GAN模型允许使用浅层网络，从而大大降低了计算成本。实验结果表明，在计算波动率曲面方面具有优势。
 
     
 
-    我们通过估计药品市场价值和研发成本来衡量制药药品创新的价值。我们依靠市场对药品研发公告的反应来确定价值和成本。利用公司公告数据和日收益率，我们估计成功药品的平均价值为16.2亿美元。平均而言，发现阶段的药品评估为6430万美元，成本为5850万美元。三个临床试验阶段的平均成本分别为600万美元、3000万美元和4100万美元。我们还研究了将这些估计应用于支持药品研发的政策的可能性。
+    本文提出了一种使用生成对抗网络（GAN）高效计算波动率曲面的方法。这种方法利用了GAN神经网络的特殊结构，一方面可以从训练数据中学习波动率曲面，另一方面可以执行无套利条件。特别地，生成器网络由鉴别器辅助训练，鉴别器评估生成的波动率是否与目标分布相匹配。同时，我们的框架通过引入惩罚项作为正则化项，训练GAN网络以满足无套利约束。所提出的GAN模型允许使用浅层网络，从而大大降低了计算成本。在实验中，我们通过与计算隐含和本地波动率曲面的最先进方法进行对比，展示了所提出的方法的性能。我们的实验结果表明，相对于人工神经网络（ANN）方法，我们的GAN模型在精度和实际应用中都具有优势。
 
-    We measure the $\textit{value of pharmaceutical drug innovations}$ by estimating the market values of drugs and their development costs. We rely on market responses to drug development announcements to identify the values and costs. Using data on announcements by firms and their daily stock returns, we estimate the average value of successful drugs at \$1.62 billion. At the discovery stage, on average, drugs are valued at \$64.3 million and cost \$58.5 million. The average costs of the three phases of clinical trials are \$0.6, \$30, and \$41 million, respectively. We also investigate applying these estimates to policies supporting drug development.
+    In this paper, we propose a generative adversarial network (GAN) approach for efficiently computing volatility surfaces. The idea is to make use of the special GAN neural architecture so that on one hand, we can learn volatility surfaces from training data and on the other hand, enforce no-arbitrage conditions. In particular, the generator network is assisted in training by a discriminator that evaluates whether the generated volatility matches the target distribution. Meanwhile, our framework trains the GAN network to satisfy the no-arbitrage constraints by introducing penalties as regularization terms. The proposed GAN model allows the use of shallow networks which results in much less computational costs. In our experiments, we demonstrate the performance of the proposed method by comparing with the state-of-the-art methods for computing implied and local volatility surfaces. We show that our GAN model can outperform artificial neural network (ANN) approaches in terms of accuracy an
     
 
