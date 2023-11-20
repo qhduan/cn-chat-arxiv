@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Personalized Elastic Embedding Learning for On-Device Recommendation.](http://arxiv.org/abs/2306.10532) | 本文提出了一种用于设备上的个性化弹性嵌入学习框架（PEEL），该框架考虑了设备和用户的异质性与动态资源约束，并在一次性生成个性化嵌入的基础上进行推荐。 |
-| [^2] | [Continually Updating Generative Retrieval on Dynamic Corpora.](http://arxiv.org/abs/2305.18952) | 本文研究了动态语料库上的生成检索。实验结果表明，在静态设置下，生成检索效果优于双编码器，但在动态设置下情况相反。通过使用参数高效的预训练方法，我们的模型DynamicGR在新的语料库上展现出了意外的性能。 |
+| [^1] | [LLMRec: Large Language Models with Graph Augmentation for Recommendation.](http://arxiv.org/abs/2311.00423) | LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。 |
+| [^2] | [Prompt Tuning on Graph-augmented Low-resource Text Classification.](http://arxiv.org/abs/2307.10230) | 本论文提出了一种基于图增强的低资源文本分类模型G2P2，通过预训练和提示的方式，利用图结构的语义关系来提升低资源文本分类的性能。 |
+| [^3] | [Trustworthy Recommender Systems.](http://arxiv.org/abs/2208.06265) | 可信度推荐系统研究已经从以准确性为导向转变为以透明、公正、稳健性为特点的可信度推荐系统。本文提供了可信度推荐系统领域的文献综述和讨论。 |
 
 # 详细
 
-[^1]: 个性化弹性嵌入学习用于设备上的推荐
+[^1]: LLMRec: 使用图增强的大型语言模型用于推荐系统
 
-    Personalized Elastic Embedding Learning for On-Device Recommendation. (arXiv:2306.10532v2 [cs.IR] UPDATED)
+    LLMRec: Large Language Models with Graph Augmentation for Recommendation. (arXiv:2311.00423v1 [cs.IR])
 
-    [http://arxiv.org/abs/2306.10532](http://arxiv.org/abs/2306.10532)
+    [http://arxiv.org/abs/2311.00423](http://arxiv.org/abs/2311.00423)
 
-    本文提出了一种用于设备上的个性化弹性嵌入学习框架（PEEL），该框架考虑了设备和用户的异质性与动态资源约束，并在一次性生成个性化嵌入的基础上进行推荐。
-
-    
-
-    为了解决隐私问题并减少网络延迟，近年来一直有将在云端训练的臃肿的推荐模型压缩并在资源受限的设备上部署紧凑的推荐器模型以进行实时推荐的趋势。现有的解决方案通常忽视了设备异质性和用户异质性。它们要么要求所有设备共享相同的压缩模型，要么要求具有相同资源预算的设备共享相同模型。然而，即使是具有相同设备的用户可能也具有不同的偏好。此外，它们假设设备上的推荐器可用资源（如内存）是恒定的，这与现实情况不符。鉴于设备和用户的异质性以及动态资源约束，本文提出了一种用于设备上的个性化弹性嵌入学习框架（PEEL），该框架以一次性方式为具有不同内存预算的设备生成个性化的嵌入。
-
-    To address privacy concerns and reduce network latency, there has been a recent trend of compressing cumbersome recommendation models trained on the cloud and deploying compact recommender models to resource-limited devices for real-time recommendation. Existing solutions generally overlook device heterogeneity and user heterogeneity. They either require all devices to share the same compressed model or the devices with the same resource budget to share the same model. However, even users with the same devices may have different preferences. In addition, they assume the available resources (e.g., memory) for the recommender on a device are constant, which is not reflective of reality. In light of device and user heterogeneities as well as dynamic resource constraints, this paper proposes a Personalized Elastic Embedding Learning framework (PEEL) for on-device recommendation, which generates personalized embeddings for devices with various memory budgets in once-for-all manner, efficien
-    
-[^2]: 在动态语料库上持续更新生成检索
-
-    Continually Updating Generative Retrieval on Dynamic Corpora. (arXiv:2305.18952v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2305.18952](http://arxiv.org/abs/2305.18952)
-
-    本文研究了动态语料库上的生成检索。实验结果表明，在静态设置下，生成检索效果优于双编码器，但在动态设置下情况相反。通过使用参数高效的预训练方法，我们的模型DynamicGR在新的语料库上展现出了意外的性能。
+    LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。
 
     
 
-    先前关于信息检索(IR)的大多数研究假设语料库是静态的，而实际世界中的文档是不断更新的。本文将知识的动态性引入检索系统中，将检索视为动态的知识库，更符合真实环境。我们对双编码器和生成检索进行全面评估，利用StreamingQA基准测试用于时态知识更新。我们的初步结果显示，在静态设置下，生成检索优于双编码器，但在动态设置下情况相反。然而，令人惊讶的是，当我们利用参数高效的预训练方法增强生成检索对新语料库的适应性时，我们的模型Dynamic Generative Retrieval (DynamicGR)展现出意外的发现。它能够在其内部索引中高效压缩新的知识，
+    数据稀疏性一直是推荐系统中的一个挑战，之前的研究尝试通过引入附加信息来解决这个问题。然而，这种方法往往会带来噪声、可用性问题和数据质量低下等副作用，从而影响对用户偏好的准确建模，进而对推荐性能产生不利影响。鉴于大型语言模型（LLM）在知识库和推理能力方面的最新进展，我们提出了一个名为LLMRec的新框架，它通过采用三种简单而有效的基于LLM的图增强策略来增强推荐系统。我们的方法利用在线平台（如Netflix，MovieLens）中丰富的内容，在三个方面增强交互图：（i）加强用户-物品交互边，（ii）增强对物品节点属性的理解，（iii）进行用户节点建模，直观地表示用户特征。
 
-    The majority of prior work on information retrieval (IR) assumes that the corpus is static, whereas in the real world, the documents are continually updated. In this paper, we incorporate often overlooked dynamic nature of knowledge into the retrieval systems. Our work treats retrieval not as static archives but as dynamic knowledge bases better aligned with real-world environments. We conduct a comprehensive evaluation of dual encoders and generative retrieval, utilizing the StreamingQA benchmark designed for the temporal knowledge updates. Our initial results show that while generative retrieval outperforms dual encoders in static settings, the opposite is true in dynamic settings. Surprisingly, however, when we utilize a parameter-efficient pre-training method to enhance adaptability of generative retrieval to new corpora, our resulting model, Dynamic Generative Retrieval (DynamicGR), exhibits unexpected findings. It (1) efficiently compresses new knowledge in their internal index, 
+    The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuiti
+    
+[^2]: 基于图增强的低资源文本分类的Prompt调优
+
+    Prompt Tuning on Graph-augmented Low-resource Text Classification. (arXiv:2307.10230v1 [cs.IR])
+
+    [http://arxiv.org/abs/2307.10230](http://arxiv.org/abs/2307.10230)
+
+    本论文提出了一种基于图增强的低资源文本分类模型G2P2，通过预训练和提示的方式，利用图结构的语义关系来提升低资源文本分类的性能。
+
+    
+
+    文本分类是信息检索中的一个基础问题，有许多实际应用，例如预测在线文章的主题和电子商务产品描述的类别。然而，低资源文本分类，即没有或只有很少标注样本的情况，对监督学习构成了严重问题。与此同时，许多文本数据本质上都建立在网络结构上，例如在线文章的超链接/引用网络和电子商务产品的用户-物品购买网络。这些图结构捕捉了丰富的语义关系，有助于增强低资源文本分类。在本文中，我们提出了一种名为Graph-Grounded Pre-training and Prompting (G2P2)的新模型，以两方面方法解决低资源文本分类问题。在预训练阶段，我们提出了三种基于图交互的对比策略，共同预训练图文模型；在下游分类阶段，我们探索了手工设计的提示信息对模型的影响。
+
+    Text classification is a fundamental problem in information retrieval with many real-world applications, such as predicting the topics of online articles and the categories of e-commerce product descriptions. However, low-resource text classification, with no or few labeled samples, presents a serious concern for supervised learning. Meanwhile, many text data are inherently grounded on a network structure, such as a hyperlink/citation network for online articles, and a user-item purchase network for e-commerce products. These graph structures capture rich semantic relationships, which can potentially augment low-resource text classification. In this paper, we propose a novel model called Graph-Grounded Pre-training and Prompting (G2P2) to address low-resource text classification in a two-pronged approach. During pre-training, we propose three graph interaction-based contrastive strategies to jointly pre-train a graph-text model; during downstream classification, we explore handcrafted 
+    
+[^3]: 可信推荐系统
+
+    Trustworthy Recommender Systems. (arXiv:2208.06265v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2208.06265](http://arxiv.org/abs/2208.06265)
+
+    可信度推荐系统研究已经从以准确性为导向转变为以透明、公正、稳健性为特点的可信度推荐系统。本文提供了可信度推荐系统领域的文献综述和讨论。
+
+    
+
+    推荐系统旨在帮助用户从庞大的目录中有效地检索感兴趣的物品。长期以来，研究人员一直致力于开发准确的推荐系统。然而，近年来，推荐系统面临越来越多的威胁，包括来自攻击、系统和用户产生的干扰以及系统的偏见。因此，仅仅关注准确性已经不够，研究必须考虑其他重要因素，如可信度。对于终端用户来说，一个值得信赖的推荐系统不仅要准确，而且还要透明、无偏见、公正，并且对干扰或攻击具有稳健性。这些观察实际上导致了推荐系统研究的范式转变: 从以准确性为导向的推荐系统转向了以可信度为导向的推荐系统。然而，研究人员缺乏对可信度推荐系统领域的文献的系统概述和讨论。因此，本文提供了可信度推荐系统的概述，包括对该新兴且快速发展领域的文献的讨论。
+
+    Recommender systems (RSs) aim to help users to effectively retrieve items of their interests from a large catalogue. For a quite long period of time, researchers and practitioners have been focusing on developing accurate RSs. Recent years have witnessed an increasing number of threats to RSs, coming from attacks, system and user generated noise, system bias. As a result, it has become clear that a strict focus on RS accuracy is limited and the research must consider other important factors, e.g., trustworthiness. For end users, a trustworthy RS (TRS) should not only be accurate, but also transparent, unbiased and fair as well as robust to noise or attacks. These observations actually led to a paradigm shift of the research on RSs: from accuracy-oriented RSs to TRSs. However, researchers lack a systematic overview and discussion of the literature in this novel and fast developing field of TRSs. To this end, in this paper, we provide an overview of TRSs, including a discussion of the mo
     
 
