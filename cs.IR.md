@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [LLMRec: Large Language Models with Graph Augmentation for Recommendation.](http://arxiv.org/abs/2311.00423) | LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。 |
-| [^2] | [Prompt Tuning on Graph-augmented Low-resource Text Classification.](http://arxiv.org/abs/2307.10230) | 本论文提出了一种基于图增强的低资源文本分类模型G2P2，通过预训练和提示的方式，利用图结构的语义关系来提升低资源文本分类的性能。 |
-| [^3] | [Trustworthy Recommender Systems.](http://arxiv.org/abs/2208.06265) | 可信度推荐系统研究已经从以准确性为导向转变为以透明、公正、稳健性为特点的可信度推荐系统。本文提供了可信度推荐系统领域的文献综述和讨论。 |
+| [^1] | [Co-evolving Vector Quantization for ID-based Recommendation.](http://arxiv.org/abs/2308.16761) | 这项工作提出了一种用于基于ID的推荐的共同演化向量量化框架（COVE），该框架能够自动学习和生成不同粒度级别下的实体分类信息，并在各种推荐任务中展现了有效性。 |
+| [^2] | [Towards Better Query Classification with Multi-Expert Knowledge Condensation in JD Ads Search.](http://arxiv.org/abs/2308.01098) | 本文提出了一种知识蒸馏框架（KC），通过在严格的低延迟约束下提升在线FastText模型的查询分类性能，在京东广告搜索中取得了显著的性能提升。 |
+| [^3] | [Perspectives on Large Language Models for Relevance Judgment.](http://arxiv.org/abs/2304.09161) | 本文讨论了LLMs协助人类专家进行相关性判断的可能方法和问题，制定了人机协作谱系，提供了一个基于LLM的相关性判断与经过训练的人类评估者判断相关性的初步实验，以及支持和反对使用LLMs进行自动相关性判断的两个对立观点以及妥协的观点。 |
+| [^4] | [Talk the Walk: Synthetic Data Generation for Conversational Music Recommendation.](http://arxiv.org/abs/2301.11489) | TalkTheWalk 是一种新技术，通过利用精心策划的项目收藏中的领域专业知识来合成逼真高质量的会话数据，解决了构建会话式推荐系统所需的训练数据收集的困难。 |
 
 # 详细
 
-[^1]: LLMRec: 使用图增强的大型语言模型用于推荐系统
+[^1]: 基于ID的推荐的共同演化向量量化
 
-    LLMRec: Large Language Models with Graph Augmentation for Recommendation. (arXiv:2311.00423v1 [cs.IR])
+    Co-evolving Vector Quantization for ID-based Recommendation. (arXiv:2308.16761v1 [cs.IR])
 
-    [http://arxiv.org/abs/2311.00423](http://arxiv.org/abs/2311.00423)
+    [http://arxiv.org/abs/2308.16761](http://arxiv.org/abs/2308.16761)
 
-    LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。
-
-    
-
-    数据稀疏性一直是推荐系统中的一个挑战，之前的研究尝试通过引入附加信息来解决这个问题。然而，这种方法往往会带来噪声、可用性问题和数据质量低下等副作用，从而影响对用户偏好的准确建模，进而对推荐性能产生不利影响。鉴于大型语言模型（LLM）在知识库和推理能力方面的最新进展，我们提出了一个名为LLMRec的新框架，它通过采用三种简单而有效的基于LLM的图增强策略来增强推荐系统。我们的方法利用在线平台（如Netflix，MovieLens）中丰富的内容，在三个方面增强交互图：（i）加强用户-物品交互边，（ii）增强对物品节点属性的理解，（iii）进行用户节点建模，直观地表示用户特征。
-
-    The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuiti
-    
-[^2]: 基于图增强的低资源文本分类的Prompt调优
-
-    Prompt Tuning on Graph-augmented Low-resource Text Classification. (arXiv:2307.10230v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.10230](http://arxiv.org/abs/2307.10230)
-
-    本论文提出了一种基于图增强的低资源文本分类模型G2P2，通过预训练和提示的方式，利用图结构的语义关系来提升低资源文本分类的性能。
+    这项工作提出了一种用于基于ID的推荐的共同演化向量量化框架（COVE），该框架能够自动学习和生成不同粒度级别下的实体分类信息，并在各种推荐任务中展现了有效性。
 
     
 
-    文本分类是信息检索中的一个基础问题，有许多实际应用，例如预测在线文章的主题和电子商务产品描述的类别。然而，低资源文本分类，即没有或只有很少标注样本的情况，对监督学习构成了严重问题。与此同时，许多文本数据本质上都建立在网络结构上，例如在线文章的超链接/引用网络和电子商务产品的用户-物品购买网络。这些图结构捕捉了丰富的语义关系，有助于增强低资源文本分类。在本文中，我们提出了一种名为Graph-Grounded Pre-training and Prompting (G2P2)的新模型，以两方面方法解决低资源文本分类问题。在预训练阶段，我们提出了三种基于图交互的对比策略，共同预训练图文模型；在下游分类阶段，我们探索了手工设计的提示信息对模型的影响。
+    类别信息对于提高推荐的质量和个性化起着至关重要的作用。然而，在基于ID的推荐中，项目类别信息的可用性并不一致。在这项工作中，我们提出了一种替代方法，以自动学习和生成实体（即用户和项目）在不同粒度级别上的分类信息，特别适用于基于ID的推荐。具体而言，我们设计了一个共同演化向量量化框架，即COVE，它能够同时学习和改进代码表示和实体嵌入，并以从随机初始化状态开始的端到端方式进行。通过其高度适应性，COVE可以轻松集成到现有的推荐模型中。我们验证了COVE在各种推荐任务中的有效性，包括列表完成、协同过滤和点击率预测，涵盖不同的推荐场景。
 
-    Text classification is a fundamental problem in information retrieval with many real-world applications, such as predicting the topics of online articles and the categories of e-commerce product descriptions. However, low-resource text classification, with no or few labeled samples, presents a serious concern for supervised learning. Meanwhile, many text data are inherently grounded on a network structure, such as a hyperlink/citation network for online articles, and a user-item purchase network for e-commerce products. These graph structures capture rich semantic relationships, which can potentially augment low-resource text classification. In this paper, we propose a novel model called Graph-Grounded Pre-training and Prompting (G2P2) to address low-resource text classification in a two-pronged approach. During pre-training, we propose three graph interaction-based contrastive strategies to jointly pre-train a graph-text model; during downstream classification, we explore handcrafted 
+    Category information plays a crucial role in enhancing the quality and personalization of recommendations. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose an alternative approach to automatically learn and generate entity (i.e., user and item) categorical information at different levels of granularity, specifically for ID-based recommendation. Specifically, we devise a co-evolving vector quantization framework, namely COVE, which enables the simultaneous learning and refinement of code representation and entity embedding in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, COVE can be easily integrated into existing recommendation models. We validate the effectiveness of COVE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommend
     
-[^3]: 可信推荐系统
+[^2]: 在京东广告搜索中利用多专家知识蒸馏实现更好的查询分类
 
-    Trustworthy Recommender Systems. (arXiv:2208.06265v2 [cs.IR] UPDATED)
+    Towards Better Query Classification with Multi-Expert Knowledge Condensation in JD Ads Search. (arXiv:2308.01098v1 [cs.IR])
 
-    [http://arxiv.org/abs/2208.06265](http://arxiv.org/abs/2208.06265)
+    [http://arxiv.org/abs/2308.01098](http://arxiv.org/abs/2308.01098)
 
-    可信度推荐系统研究已经从以准确性为导向转变为以透明、公正、稳健性为特点的可信度推荐系统。本文提供了可信度推荐系统领域的文献综述和讨论。
+    本文提出了一种知识蒸馏框架（KC），通过在严格的低延迟约束下提升在线FastText模型的查询分类性能，在京东广告搜索中取得了显著的性能提升。
 
     
 
-    推荐系统旨在帮助用户从庞大的目录中有效地检索感兴趣的物品。长期以来，研究人员一直致力于开发准确的推荐系统。然而，近年来，推荐系统面临越来越多的威胁，包括来自攻击、系统和用户产生的干扰以及系统的偏见。因此，仅仅关注准确性已经不够，研究必须考虑其他重要因素，如可信度。对于终端用户来说，一个值得信赖的推荐系统不仅要准确，而且还要透明、无偏见、公正，并且对干扰或攻击具有稳健性。这些观察实际上导致了推荐系统研究的范式转变: 从以准确性为导向的推荐系统转向了以可信度为导向的推荐系统。然而，研究人员缺乏对可信度推荐系统领域的文献的系统概述和讨论。因此，本文提供了可信度推荐系统的概述，包括对该新兴且快速发展领域的文献的讨论。
+    查询分类作为理解用户意图的有效方法，在现实世界的在线广告系统中具有重要意义。为了确保更低的延迟，常使用浅层模型（如FastText）进行高效的在线推断。然而，FastText模型的表征能力不足，导致分类性能较差，特别是在一些低频查询和尾部类别上。使用更深入且更复杂的模型（如BERT）是一种有效的解决方案，但它将导致更高的在线推断延迟和更昂贵的计算成本。因此，如何在推断效率和分类性能之间折衷显然具有重大实际意义。为了克服这个挑战，在本文中，我们提出了知识蒸馏（KC），一个简单而有效的知识蒸馏框架，以在严格的低延迟约束下提升在线FastText模型的分类性能。具体来说，我们提出了训练一个离线模型，通过蒸馏知识来改善在线模型的分类性能。
 
-    Recommender systems (RSs) aim to help users to effectively retrieve items of their interests from a large catalogue. For a quite long period of time, researchers and practitioners have been focusing on developing accurate RSs. Recent years have witnessed an increasing number of threats to RSs, coming from attacks, system and user generated noise, system bias. As a result, it has become clear that a strict focus on RS accuracy is limited and the research must consider other important factors, e.g., trustworthiness. For end users, a trustworthy RS (TRS) should not only be accurate, but also transparent, unbiased and fair as well as robust to noise or attacks. These observations actually led to a paradigm shift of the research on RSs: from accuracy-oriented RSs to TRSs. However, researchers lack a systematic overview and discussion of the literature in this novel and fast developing field of TRSs. To this end, in this paper, we provide an overview of TRSs, including a discussion of the mo
+    Search query classification, as an effective way to understand user intents, is of great importance in real-world online ads systems. To ensure a lower latency, a shallow model (e.g. FastText) is widely used for efficient online inference. However, the representation ability of the FastText model is insufficient, resulting in poor classification performance, especially on some low-frequency queries and tailed categories. Using a deeper and more complex model (e.g. BERT) is an effective solution, but it will cause a higher online inference latency and more expensive computing costs. Thus, how to juggle both inference efficiency and classification performance is obviously of great practical importance. To overcome this challenge, in this paper, we propose knowledge condensation (KC), a simple yet effective knowledge distillation framework to boost the classification performance of the online FastText model under strict low latency constraints. Specifically, we propose to train an offline
+    
+[^3]: 大型语言模型在相关性评价中的应用
+
+    Perspectives on Large Language Models for Relevance Judgment. (arXiv:2304.09161v1 [cs.IR])
+
+    [http://arxiv.org/abs/2304.09161](http://arxiv.org/abs/2304.09161)
+
+    本文讨论了LLMs协助人类专家进行相关性判断的可能方法和问题，制定了人机协作谱系，提供了一个基于LLM的相关性判断与经过训练的人类评估者判断相关性的初步实验，以及支持和反对使用LLMs进行自动相关性判断的两个对立观点以及妥协的观点。
+
+    
+
+    当被问及时，像ChatGPT这样的当前大型语言模型（LLMs）声称它们可以协助我们进行相关性判断。许多研究人员认为这不会导致可信的信息检索研究。在本文中，我们讨论了LLMs协助人类专家进行相关性判断的可能方法以及可能出现的问题和关注点。我们制定了一个人机协作谱系，可以将不同的相关性判断策略进行分类，基于人类对机器的依赖程度。针对“完全自动化评估”的极端点，我们进一步进行了基于LLM的相关性判断与经过训练的人类评估者判断的相关性的初步实验。我们通过分析文献、我们的初步实验证据以及我们作为信息检索研究人员的经验，提出了支持和反对使用LLMs进行自动相关性判断的两个对立观点以及妥协的观点。我们希望开始进行建设性的讨论。
+
+    When asked, current large language models (LLMs) like ChatGPT claim that they can assist us with relevance judgments. Many researchers think this would not lead to credible IR research. In this perspective paper, we discuss possible ways for LLMs to assist human experts along with concerns and issues that arise. We devise a human-machine collaboration spectrum that allows categorizing different relevance judgment strategies, based on how much the human relies on the machine. For the extreme point of "fully automated assessment", we further include a pilot experiment on whether LLM-based relevance judgments correlate with judgments from trained human assessors. We conclude the paper by providing two opposing perspectives - for and against the use of LLMs for automatic relevance judgments - and a compromise perspective, informed by our analyses of the literature, our preliminary experimental evidence, and our experience as IR researchers.  We hope to start a constructive discussion withi
+    
+[^4]: Talk the Walk: 针对会话式音乐推荐的合成数据生成
+
+    Talk the Walk: Synthetic Data Generation for Conversational Music Recommendation. (arXiv:2301.11489v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2301.11489](http://arxiv.org/abs/2301.11489)
+
+    TalkTheWalk 是一种新技术，通过利用精心策划的项目收藏中的领域专业知识来合成逼真高质量的会话数据，解决了构建会话式推荐系统所需的训练数据收集的困难。
+
+    
+
+    推荐系统广泛存在，但用户往往很难在推荐质量较差时进行控制和调整。这促使了会话式推荐系统(CRSs)的发展，通过自然语言反馈提供对推荐的控制。然而，构建会话式推荐系统需要包含用户话语和涵盖多样化偏好范围的项目的会话训练数据。使用传统方法如众包，这样的数据收集起来非常困难。我们在项目集推荐的背景下解决了这个问题，注意到这个任务受到越来越多关注，动机在于音乐、新闻和食谱推荐等使用案例。我们提出了一种新技术TalkTheWalk，通过利用广泛可获得的精心策划的项目收藏中的领域专业知识来合成逼真高质量的会话数据，并展示了如何将其转化为相应的项目集策划。
+
+    Recommendation systems are ubiquitous yet often difficult for users to control and adjust when recommendation quality is poor. This has motivated the development of conversational recommendation systems (CRSs), with control over recommendations provided through natural language feedback. However, building conversational recommendation systems requires conversational training data involving user utterances paired with items that cover a diverse range of preferences. Such data has proved challenging to collect scalably using conventional methods like crowdsourcing. We address it in the context of item-set recommendation, noting the increasing attention to this task motivated by use cases like music, news and recipe recommendation. We present a new technique, TalkTheWalk, that synthesizes realistic high-quality conversational data by leveraging domain expertise encoded in widely available curated item collections, showing how these can be transformed into corresponding item set curation c
     
 

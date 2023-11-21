@@ -2,97 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Distributional Impact of Money Growth and Inflation Disaggregates: A Quantile Sensitivity Analysis.](http://arxiv.org/abs/2308.05486) | 该论文介绍了一种构建通胀和货币增长的分位依赖系统的方法，并通过实证分析揭示了货币增长分布的上分位数对通胀及其细分衡量指标的分布具有显著影响。 |
-| [^2] | [Mechanism Design without Rational Expectations.](http://arxiv.org/abs/2305.07472) | 本文提出了一种广义的、不要求理性预期的实施模型，并探讨了社会选择函数的完全实现，结果表明，取消理性预期对于实现更多种类的社会选择规则并没有显著帮助。 |
-| [^3] | [Gini-stable Lorenz curves and their relation to the generalised Pareto distribution.](http://arxiv.org/abs/2304.07480) | 本文研究了一种IPP，可得到Gini稳定的Lorenz曲线家族，并证明其随机有序。同时，我们发现该家族与广义帕累托分布相关联且具有不错的潜在解释性。 |
-| [^4] | [Matching with Incomplete Preferences.](http://arxiv.org/abs/2212.02613) | 本文研究了在双边市场中考虑代理人不完整偏好时的匹配问题，提出了妥协核心和男性-（女性-）最优核心的概念以解决弱核心和强核心的问题 |
-| [^5] | [What is the Price of a Skill? The Value of Complementarity.](http://arxiv.org/abs/2210.01535) | 本研究表明，技能的价值很大程度上由互补性决定，大多数技能在与不同类型的技能组合使用时价值最高。人工智能技能由于其强大的互补性和近年来不断增长的需求，其价值尤为突出，平均提高工人工资21％。 |
-| [^6] | [Identification of the Marginal Treatment Effect with Multivalued Treatments.](http://arxiv.org/abs/2209.11444) | 本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。 |
+| [^1] | [Design of Cluster-Randomized Trials with Cross-Cluster Interference.](http://arxiv.org/abs/2310.18836) | 该论文提出了一种新的集群随机试验设计方法，考虑了交叉集群干扰的问题。通过排除可能受到干扰影响的单元，提出了新的估计器，并证明了这种方法可以大大减少偏差。这项研究还提供了优化估计器收敛速率的集群设计方法。 |
+| [^2] | [Can Black Lives Matter Movement Reduce Racial Disparity? Evidence from Medical Crowdfunding.](http://arxiv.org/abs/2310.14590) | 本研究利用医疗众筹数据，证明2020年的黑人的命也是命运动使得黑人和非黑人受益人之间的筹款差距减少了约50%。这种减少主要归因于非黑人捐赠者，且受到适度黑人的命也是命活动的县市影响最大。社交媒体显著放大了抗议活动的影响。 |
+| [^3] | [Causal inference in network experiments: regression-based analysis and design-based properties.](http://arxiv.org/abs/2309.07476) | 本文研究了网络实验中的因果推断。研究发现远离焦点个体的处理对焦点个体的效应会减弱但仍有可能不为零。提出了一种基于回归分析的方法，该方法不仅能够提供标准误估计器，还能够整合协变量。 |
+| [^4] | ["Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion.](http://arxiv.org/abs/2308.10974) | "引用GPT的“豚鼠试验”是一种创新的智能代理建模方法，利用智能代理代表企业进行竞争和勾结研究。它比使用人类主体进行实验更具成本效益和灵活性，并展现出超越传统代理建模方法的能力。" |
+| [^5] | [Modelling and Forecasting Macroeconomic Risk with Time Varying Skewness Stochastic Volatility Models.](http://arxiv.org/abs/2306.09287) | 本文提出了一种带有随机偏斜的波动模型来模拟和预测宏观经济尾部风险，并证明了这是一种有竞争力的量化回归替代方法。研究还表明，时变偏度是宏观经济和金融冲击的一个相关特征。 |
+| [^6] | [The Dark Side of Algorithms? The Effect of Recommender Systems on Online Investor Behaviors.](http://arxiv.org/abs/2303.14263) | 本研究使用回归不连续设计，发现推荐系统在共同基金投资中会显著推动更多购买行为，尤其是在不成熟的投资者中。然而，购买推荐基金的投资者往往获得更差的投资绩效，从而加剧了金融市场投资者之间的财富不平等。 |
+| [^7] | [Learning in Repeated Interactions on Networks.](http://arxiv.org/abs/2112.14265) | 本文研究了社交网络上长期理性代理商的学习方式，表明无论网络规模、效用函数及代理的耐心如何，学习速度都有其上限。 |
+| [^8] | [A Rational Inattention Theory of Echo Chamber.](http://arxiv.org/abs/2104.10657) | 本研究发展了一种关于回声室的理性忽视理论，通过有限的注意力资源获取关于不确定状态的信息，并在回声室均衡中描述了信息的传递和注意力网络。 |
 
 # 详细
 
-[^1]: 货币增长和通胀细分的分配影响：分位敏感度分析
+[^1]: 设计具有交叉集群干扰的集群随机试验
 
-    The Distributional Impact of Money Growth and Inflation Disaggregates: A Quantile Sensitivity Analysis. (arXiv:2308.05486v1 [econ.EM])
+    Design of Cluster-Randomized Trials with Cross-Cluster Interference. (arXiv:2310.18836v1 [stat.ME])
 
-    [http://arxiv.org/abs/2308.05486](http://arxiv.org/abs/2308.05486)
+    [http://arxiv.org/abs/2310.18836](http://arxiv.org/abs/2310.18836)
 
-    该论文介绍了一种构建通胀和货币增长的分位依赖系统的方法，并通过实证分析揭示了货币增长分布的上分位数对通胀及其细分衡量指标的分布具有显著影响。
-
-    
-
-    我们提出了一种构建通胀和货币增长的分位依赖系统的替代方法。通过考虑所有分位数，我们评估一个变量的分位扰动如何导致另一个变量的分布发生变化。我们通过一种线性分位数回归系统来展示这种关系的构建。我们利用提出的框架来研究货币增长对美国和欧元区通胀及其细分衡量指标分布的分配效应。我们的实证分析发现，货币增长分布的上分位数对通胀及其细分衡量指标的分布具有显著影响。相反，我们发现货币增长分布的下分位数和中位数对通胀及其细分衡量指标的分布几乎没有影响。
-
-    We propose an alternative method to construct a quantile dependence system for inflation and money growth. By considering all quantiles, we assess how perturbations in one variable's quantile lead to changes in the distribution of the other variable. We demonstrate the construction of this relationship through a system of linear quantile regressions. The proposed framework is exploited to examine the distributional effects of money growth on the distributions of inflation and its disaggregate measures in the United States and the Euro area. Our empirical analysis uncovers significant impacts of the upper quantile of the money growth distribution on the distribution of inflation and its disaggregate measures. Conversely, we find that the lower and median quantiles of the money growth distribution have a negligible influence on the distribution of inflation and its disaggregate measures.
-    
-[^2]: 没有理性预期的机制设计
-
-    Mechanism Design without Rational Expectations. (arXiv:2305.07472v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.07472](http://arxiv.org/abs/2305.07472)
-
-    本文提出了一种广义的、不要求理性预期的实施模型，并探讨了社会选择函数的完全实现，结果表明，取消理性预期对于实现更多种类的社会选择规则并没有显著帮助。
+    该论文提出了一种新的集群随机试验设计方法，考虑了交叉集群干扰的问题。通过排除可能受到干扰影响的单元，提出了新的估计器，并证明了这种方法可以大大减少偏差。这项研究还提供了优化估计器收敛速率的集群设计方法。
 
     
 
-    如果取消理性预期假设，社会计划者是否能实施更多种类的社会选择规则？本文提出了一种广义的实施模型，不要求理性预期，并表征要求贝叶斯激励兼容性的解概念类。令人惊讶的是，社会选择函数的完全实现与理性预期并没有明显的区别。这意味着一些经典结论（如Myerson和Satterthwaite，1983年对于有效双边交易的不可能性）适用于非平衡解概念的广泛范围中，证实了它们在有限理性设置中的相关性。
+    集群随机试验经常涉及空间上分布不规律且没有明显分离社区的单元。在这种情况下，由于潜在的交叉集群干扰，集群构建是设计的一个关键方面。现有的文献依赖于部分干扰模型，该模型将集群视为给定，并假设没有交叉集群干扰。我们通过允许干扰与单元之间的地理距离衰减来放宽这个假设。这导致了一个偏差-方差的权衡：构建较少、较大的集群可以减少干扰引起的偏差，但会增加方差。我们提出了一种新的估计器，排除可能受到交叉集群干扰影响的单元，并显示相对于传统的均值差估计器，这大大降低了渐近偏差。然后，我们研究了优化估计器收敛速率的集群设计。我们提供了一个新的设计的正式证明，该设计选择了集群的数量。
 
-    Does dropping the rational expectations assumption mean the social planner can implement a larger class of social choice rules? This paper proposes a generalized model of implementation that does not assume rational expectations and characterizes the class of solution concepts requiring Bayesian Incentive Compatibility for full implementation. Surprisingly, full implementation of social choice functions turns out not to be significantly more permissive than with rational expectations. This implies some classical results, such as the impossibility of efficient bilateral trade (Myerson and Satterthwaite, 1983) hold for a broad range of non-equilibrium solution concepts, confirming their relevance even in boundedly rational setups.
+    Cluster-randomized trials often involve units that are irregularly distributed in space without well-separated communities. In these settings, cluster construction is a critical aspect of the design due to the potential for cross-cluster interference. The existing literature relies on partial interference models, which take clusters as given and assume no cross-cluster interference. We relax this assumption by allowing interference to decay with geographic distance between units. This induces a bias-variance trade-off: constructing fewer, larger clusters reduces bias due to interference but increases variance. We propose new estimators that exclude units most potentially impacted by cross-cluster interference and show that this substantially reduces asymptotic bias relative to conventional difference-in-means estimators. We then study the design of clusters to optimize the estimators' rates of convergence. We provide formal justification for a new design that chooses the number of clus
     
-[^3]: Gini稳定的Lorenz曲线及其与广义帕累托分布的关系
+[^2]: 黑人的命也是命运动能减少种族不平等吗？来自医疗众筹的证据
 
-    Gini-stable Lorenz curves and their relation to the generalised Pareto distribution. (arXiv:2304.07480v1 [physics.soc-ph])
+    Can Black Lives Matter Movement Reduce Racial Disparity? Evidence from Medical Crowdfunding. (arXiv:2310.14590v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.07480](http://arxiv.org/abs/2304.07480)
+    [http://arxiv.org/abs/2310.14590](http://arxiv.org/abs/2310.14590)
 
-    本文研究了一种IPP，可得到Gini稳定的Lorenz曲线家族，并证明其随机有序。同时，我们发现该家族与广义帕累托分布相关联且具有不错的潜在解释性。
-
-    
-
-    本文研究了一种迭代离散信息生产过程（IPP），在此过程中，我们可以根据简单的仿射变换扩展有序归一化向量的新元素，同时保持由Gini指数衡量的预定义不平等水平G。然后，我们推导了相应向量的Lorenz曲线家族，并证明其在样本大小和G所扮演的不确定性参数方面是随机有序的。九个国家的家庭收入数据的案例研究表明，我们的模型非常适合。此外，我们还表明，在渐近意义下，我们获得了由新的直观参数化的有限均值广义帕累托分布（GPD）生成的所有，仅有的Lorenz曲线，该分布统一了三个其他家族，即Pareto II型，指数和缩放beta分布。这个家族不仅在参数G方面有序，而且，由于我们的导出结果，具有不错的潜在解释性。因此，我们的结果可以是
-
-    We study an iterative discrete information production process (IPP) where we can extend ordered normalised vectors by new elements based on a simple affine transformation, while preserving the predefined level of inequality, G, as measured by the Gini index. Then, we derive the family of Lorenz curves of the corresponding vectors and prove that it is stochastically ordered with respect to both the sample size and G which plays the role of the uncertainty parameter. A case study of family income data in nine countries shows a very good fit of our model. Moreover, we show that asymptotically, we obtain all, and only, Lorenz curves generated by a new, intuitive parametrisation of the finite-mean Generalised Pareto Distribution (GPD) that unifies three other families, namely: the Pareto Type II, exponential, and scaled beta ones. The family is not only ordered with respect to the parameter G, but also, thanks to our derivations, has a nice underlying interpretation. Our result may thus she
-    
-[^4]: 不完整偏好下的匹配问题
-
-    Matching with Incomplete Preferences. (arXiv:2212.02613v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2212.02613](http://arxiv.org/abs/2212.02613)
-
-    本文研究了在双边市场中考虑代理人不完整偏好时的匹配问题，提出了妥协核心和男性-（女性-）最优核心的概念以解决弱核心和强核心的问题
+    本研究利用医疗众筹数据，证明2020年的黑人的命也是命运动使得黑人和非黑人受益人之间的筹款差距减少了约50%。这种减少主要归因于非黑人捐赠者，且受到适度黑人的命也是命活动的县市影响最大。社交媒体显著放大了抗议活动的影响。
 
     
 
-    本文研究了一个双边婚姻市场，在此市场上，代理人的偏好不完整，即他们可能会发现有些选择是无法比较的。这篇文章讨论了强核心和弱核心的概念，并提出了“妥协核心”的概念，该核心是介于弱核心和强核心之间的一个非空集合。类似地，文章定义了男性-（女性-）最优核心，并通过印度的工程学院招生系统来说明其优点。
+    本研究利用一家重要的医疗众筹网站的高频捐款数据，证明2020年的黑人的命也是命运动使得黑人和非黑人受益人之间的筹款差距减少了约50%。这种减少主要归因于非黑人捐赠者。在有适度黑人的命也是命活动的县市受影响最大。创新的工具变量（利用周末和降雨）确定了黑人的命也是命抗议活动的全球和局部影响。结果表明，广泛的社会运动对行为的影响大于局部事件。社交媒体显著放大了抗议活动的影响。
 
-    I study a two-sided marriage market in which agents have incomplete preferences -- i.e., they find some alternatives incomparable. The strong (weak) core consists of matchings wherein no coalition wants to form a new match between themselves, leaving some (all) agents better off without harming anyone. The strong core may be empty, while the weak core can be too large. I propose the concept of the ``compromise core'' -- a nonempty set that sits between the weak and the strong cores. Similarly, I define the men-(women-) optimal core and illustrate its benefit in an application to India's engineering college admissions system.
+    Using high-frequency donation data from a major medical crowdfunding site, this study demonstrates that the 2020 BLM surge decreased the fundraising gap between Black and non-Black beneficiaries by around 50%. The reduction is largely attributed to non-Black donors. Those in counties with moderate BLM activity were most impacted. Innovative instrumental variable utilizing weekends and rainfall identify global and local effects of BLM protests. Results suggest a broad social movement has a greater influence on behavior than a local event. Social media significantly magnifies the impact of protests.
     
-[^5]: 技能的价格是多少？互补性的价值
+[^3]: 网络实验中的因果推断：基于回归分析和基于设计的性质
 
-    What is the Price of a Skill? The Value of Complementarity. (arXiv:2210.01535v3 [econ.GN] UPDATED)
+    Causal inference in network experiments: regression-based analysis and design-based properties. (arXiv:2309.07476v1 [econ.EM])
 
-    [http://arxiv.org/abs/2210.01535](http://arxiv.org/abs/2210.01535)
+    [http://arxiv.org/abs/2309.07476](http://arxiv.org/abs/2309.07476)
 
-    本研究表明，技能的价值很大程度上由互补性决定，大多数技能在与不同类型的技能组合使用时价值最高。人工智能技能由于其强大的互补性和近年来不断增长的需求，其价值尤为突出，平均提高工人工资21％。
-
-    
-
-    全球劳动力被敦促不断提升自己的技能，因为技术变革偏好某些新技能，同时使其他技能变得多余。但是对于工人和公司来说，哪些技能是一个好的投资呢？由于技能很少是孤立应用的，我们提出互补性强烈决定了技能的经济价值。我们对962种技能进行了研究，证明了它们的价值在很大程度上由互补性决定-即一个能力可以与多少不同的技能理想情况下结合，这些技能具有很高的价值。我们显示，技能的价值是相对的，因为它取决于工人的技能背景。对于大多数技能来说，当与不同类型的技能组合使用时，它们的价值最高。我们用与人工智能（AI）相关的技能集对我们的模型进行了测试。我们发现，人工智能技能尤其有价值-平均提高工人工资21％-这是因为它们的互补性强大，并且近年来需求不断增加。模型和指标
-
-    The global workforce is urged to constantly reskill, as technological change favours particular new skills while making others redundant. But which skills are a good investment for workers and firms? As skills are seldomly applied in isolation, we propose that complementarity strongly determines a skill's economic value. For 962 skills, we demonstrate that their value is strongly determined by complementarity - that is, how many different skills, ideally of high value, a competency can be combined with. We show that the value of a skill is relative, as it depends on the skill background of the worker. For most skills, their value is highest when used in combination with skills of a different type. We put our model to the test with a set of skills related to Artificial Intelligence (AI). We find that AI skills are particularly valuable - increasing worker wages by 21% on average - because of their strong complementarities and their rising demand in recent years. The model and metrics of
-    
-[^6]: 用多元处理方法识别边际处理效应
-
-    Identification of the Marginal Treatment Effect with Multivalued Treatments. (arXiv:2209.11444v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2209.11444](http://arxiv.org/abs/2209.11444)
-
-    本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。
+    本文研究了网络实验中的因果推断。研究发现远离焦点个体的处理对焦点个体的效应会减弱但仍有可能不为零。提出了一种基于回归分析的方法，该方法不仅能够提供标准误估计器，还能够整合协变量。
 
     
 
-    本文通过扩展Heckman和Vytlacil(1999)的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。在上述方法的选择机制下，我们建立了改进的模型并确定了充分条件，可以识别MTE。
+    网络实验广泛用于研究单位之间的干扰。在Leung等人引入的“近似邻居干扰”框架下，对于远离焦点个体的个体分配的处理结果会对焦点个体的响应产生减弱效应，但效应仍然可能不为零。Leung等人在干扰存在下，建立了逆概率加权估计器的一致性和渐进正态性，用于估计因果效应。我们将这些渐进结果扩展到Hajek估计器，该估计器与基于曝光概率的加权最小二乘拟合的系数在数值上是相同的。数值等效的基于回归的方法具有两个显著的优势：它可以通过相同的加权最小二乘拟合提供标准误估计器，并且它允许将协变量集成到分析中。
 
-    Heckman et al. (2008) examine the identification of the marginal treatment effect (MTE) with multivalued treatments by extending the local instrumental variable (LIV) approach of Heckman and Vytlacil (1999). Lee and Salani\'e (2018) study the identification of conditional expectations given unobserved heterogeneity; in Section 5.2 of their paper, they analyze the identification of MTE under the same selection mechanism as in Heckman et al. (2008). We note that the construction of their model in Section 5.2 in Lee and Salani\'e (2018) is incomplete, and we establish sufficient conditions for the identification of MTE with an improved model. While we reduce the unordered multiple-choice model to the binary treatment setting as in Heckman et al. (2008), we can identify the MTE defined as a natural extension of the MTE using the binary treatment defined in Heckman and Vytlacil (2005). Further, our results can help identify other parameters such as the marginal distribution of potential out
+    Network experiments have been widely used in investigating interference among units. Under the ``approximate neighborhood interference" framework introduced by \cite{Leung2022}, treatments assigned to individuals farther from the focal individual result in a diminished effect on the focal individual's response, while the effect remains potentially nonzero. \cite{Leung2022} establishes the consistency and asymptotic normality of the inverse-probability weighting estimator for estimating causal effects in the presence of interference. We extend these asymptotic results to the Hajek estimator which is numerically identical to the coefficient from the weighted-least-squares fit based on the inverse probability of the exposure mapping. The numerically equivalent regression-based approach offers two notable advantages: it can provide standard error estimators through the same weighted-least-squares fit, and it allows for the integration of covariates into the analysis. Furthermore, we introd
+    
+[^4]: "引用GPT的“豚鼠试验”：一种研究企业竞争和勾结的创新智能代理建模方法"
+
+    "Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion. (arXiv:2308.10974v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.10974](http://arxiv.org/abs/2308.10974)
+
+    "引用GPT的“豚鼠试验”是一种创新的智能代理建模方法，利用智能代理代表企业进行竞争和勾结研究。它比使用人类主体进行实验更具成本效益和灵活性，并展现出超越传统代理建模方法的能力。"
+
+    
+
+    企业竞争和勾结涉及复杂的动态，尤其是考虑到企业之间的沟通。这些问题可以被建模为复杂系统的问题，传统上通过涉及人类主体或基于代理的建模方法进行探究。我们提出了一种创新的框架，称为智能代理建模（SABM），其中由GPT-4技术支持的智能代理代表企业并相互交互。我们进行了一项控制实验，研究了不同条件下企业价格竞争和勾结行为。与使用人类主体进行实验相比，SABM更具成本效益和灵活性。智能代理拥有决策的广泛知识库，展现出类似人类的战略能力，超越了传统的基于代理的建模方法。此外，智能代理能够模拟人类对话并个性化，使其成为研究涉及沟通的复杂情况的理想选择。我们的结果表明...
+
+    Firm competition and collusion involve complex dynamics, particularly when considering communication among firms. Such issues can be modeled as problems of complex systems, traditionally approached through experiments involving human subjects or agent-based modeling methods. We propose an innovative framework called Smart Agent-Based Modeling (SABM), wherein smart agents, supported by GPT-4 technologies, represent firms, and interact with one another. We conducted a controlled experiment to study firm price competition and collusion behaviors under various conditions. SABM is more cost-effective and flexible compared to conducting experiments with human subjects. Smart agents possess an extensive knowledge base for decision-making and exhibit human-like strategic abilities, surpassing traditional ABM agents. Furthermore, smart agents can simulate human conversation and be personalized, making them ideal for studying complex situations involving communication. Our results demonstrate th
+    
+[^5]: 带有时变偏度随机波动模型的宏观经济风险建模和预测
+
+    Modelling and Forecasting Macroeconomic Risk with Time Varying Skewness Stochastic Volatility Models. (arXiv:2306.09287v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.09287](http://arxiv.org/abs/2306.09287)
+
+    本文提出了一种带有随机偏斜的波动模型来模拟和预测宏观经济尾部风险，并证明了这是一种有竞争力的量化回归替代方法。研究还表明，时变偏度是宏观经济和金融冲击的一个相关特征。
+
+    
+
+    本文提出了一种基于带有随机偏度的偏正常和偏斜t震荡的随机波动模型的参数化框架，用于建模和预测宏观经济尾部风险。本文为这种类型的单变量和VAR模型开发了贝叶斯估计的后验模拟抽样器。在一个应用中，我使用这些模型来预测GDP增长的下行风险，并证明这种方法是量化回归的一个有竞争力的替代方法。最后，在美国数据上估计一个中等规模的VAR模型，我证明时变偏度是宏观经济和金融冲击的一个相关特征。
+
+    In this paper I propose a parametric framework for modelling and forecasting macroeconomic tail risk based on stochastic volatility models with Skew-Normal and Skew-t shocks featuring stochastic skewness. The paper develops posterior simulation samplers for Bayesian estimation of both univariate and VAR models of this type. In an application, I use the models to predict downside risk to GDP growth and I show that this approach represents a competitive alternative to quantile regression. Finally, estimating a medium scale VAR on US data I show that time varying skewness is a relevant feature of macroeconomic and financial shocks.
+    
+[^6]: 算法的黑暗面？推荐系统对在线投资者行为的影响。
+
+    The Dark Side of Algorithms? The Effect of Recommender Systems on Online Investor Behaviors. (arXiv:2303.14263v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.14263](http://arxiv.org/abs/2303.14263)
+
+    本研究使用回归不连续设计，发现推荐系统在共同基金投资中会显著推动更多购买行为，尤其是在不成熟的投资者中。然而，购买推荐基金的投资者往往获得更差的投资绩效，从而加剧了金融市场投资者之间的财富不平等。
+
+    
+
+    尽管在线投资平台广泛采用了推荐系统，但对其对在线投资者行为的影响进行的实证研究很少。本研究使用来自全球电子商务平台的数据，采用回归不连续设计，从因果角度研究了推荐系统对在线投资者行为的影响，特别是在共同基金投资方面。研究结果表明，由推荐系统推荐的基金会显著促进更多的购买行为。这种影响在不成熟的投资者中尤为明显，他们似乎更容易遵循系统提供的建议。进一步的分析还揭示了，这些投资者倾向于在购买推荐基金后遭受显著更糟糕的投资绩效。因此，推荐系统可能会加剧金融市场投资者之间的财富不平等。
+
+    Despite the widespread adoption of recommender systems by online investment platforms, empirical research into their impact on online investors' behaviors is scarce. Using data from a global e-commerce platform, the authors of this study adopt a regression discontinuity design to causally examine the effects of recommender systems on online investor behaviors, specifically in a mutual fund investment context. The results show that funds featured by recommender systems prompt significantly more purchases. This effect is especially salient among unsophisticated investors, who appear more likely to follow system-provided recommendations. Further analysis also reveals that these investors tend to suffer significantly worse investment performance after purchasing the recommended funds. Thus, recommender systems threaten to amplify wealth inequality among investors in financial markets.
+    
+[^7]: 社交网络上的重复互动中的学习
+
+    Learning in Repeated Interactions on Networks. (arXiv:2112.14265v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2112.14265](http://arxiv.org/abs/2112.14265)
+
+    本文研究了社交网络上长期理性代理商的学习方式，表明无论网络规模、效用函数及代理的耐心如何，学习速度都有其上限。
+
+    
+
+    我们研究了长期的、理性的代理商在社交网络中的学习方式。在每个时间段中，每个代理商在观察到邻居的过去行动之后，收到一个私人信号，并选择一种仅依赖于状态的行动。由于平衡行动依赖于更高层次的信念，因此很难表征行为。然而，我们表明，不论网络的大小和形状、效用函数和代理的耐心如何，任何平衡中的学习速度都有一个上界，在该上界之内限制只取决于私人信号分布。
+
+    We study how long-lived, rational agents learn in a social network. In every period, after observing the past actions of his neighbors, each agent receives a private signal, and chooses an action whose payoff depends only on the state. Since equilibrium actions depend on higher order beliefs, it is difficult to characterize behavior. Nevertheless, we show that regardless of the size and shape of the network, the utility function, and the patience of the agents, the speed of learning in any equilibrium is bounded from above by a constant that only depends on the private signal distribution.
+    
+[^8]: 理性忽视理论与回声室
+
+    A Rational Inattention Theory of Echo Chamber. (arXiv:2104.10657v6 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2104.10657](http://arxiv.org/abs/2104.10657)
+
+    本研究发展了一种关于回声室的理性忽视理论，通过有限的注意力资源获取关于不确定状态的信息，并在回声室均衡中描述了信息的传递和注意力网络。
+
+    
+
+    我们发展了一种关于回声室的理性忽视理论，通过将有限的注意力资源分配给偏向主要信息源和其他玩家，来获取关于不确定状态的信息。由此产生的泊松注意力网络将信息从主要信息源直接或间接地传递给玩家。理性忽视在最初对不同决策有偏见的玩家之间产生了对信息的异质需求。在回声室均衡中，每个玩家将注意力限制在自己偏向的信息源和志同道合的朋友上，因为后者与他们出席同一主要信息源，所以在主要信息源到达他们的信息传输被中断时，可以作为次要信息源。我们提供了产生回声室均衡的充分条件，描述了回声室内的注意力网络，并利用我们的结果来指导信息的设计和监管。
+
+    We develop a rational inattention theory of echo chamber, whereby players gather information about an uncertain state by allocating limited attention capacities across biased primary sources and the other players. The resulting Poisson attention network transmits information from the primary source to a player either directly or indirectly through the other players. Rational inattention generates heterogeneous demands for information among players who are initially biased towards different decisions. In an echo chamber equilibrium, each player restricts attention to his own-biased source and like-minded friends, as the latter attend to the same primary source as his, and so could serve as secondary sources in case the information transmission from the primary source to him is disrupted. We provide sufficient conditions that give rise to echo chamber equilibria, characterize the attention networks within echo chambers, and use our results to inform the design and regulation of informati
     
 
