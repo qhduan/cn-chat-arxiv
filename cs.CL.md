@@ -2,187 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Personas as a Way to Model Truthfulness in Language Models.](http://arxiv.org/abs/2310.18168) | 本研究探讨了在大型语言模型中使用人设来建模真实性的可能性。通过建模真实人设，语言模型可以将真实性推广到不同上下文中，并通过相关特征判断个体产生文本的真实性。 |
-| [^2] | [Unified Segment-to-Segment Framework for Simultaneous Sequence Generation.](http://arxiv.org/abs/2310.17940) | 这篇论文提出了一种统一的片段到片段框架 (Seg2Seg) 用于同时序列生成，通过自适应和统一的方式学习源序列和目标序列之间的映射，实现高质量生成和低延迟。 |
-| [^3] | [Psychoacoustic Challenges Of Speech Enhancement On VoIP Platforms.](http://arxiv.org/abs/2310.07161) | 本研究在VoIP通信领域中探索了声学转换的复杂性，并通过分析心理声学指标，揭示了语音增强对VoIP系统的影响。 |
-| [^4] | [Open Sesame! Universal Black Box Jailbreaking of Large Language Models.](http://arxiv.org/abs/2309.01446) | 本文提出了一种使用遗传算法的新颖方法，可以在无法访问模型架构和参数的情况下操纵大规模语言模型 (LLMs)。通过优化通用对抗提示与用户查询结合，可以扰乱被攻击模型的对齐，导致意外和潜在有害的输出。该方法可以揭示模型的局限性和漏洞，为负责任的AI开发提供了一种诊断工具。 |
-| [^5] | [Lost in the Middle: How Language Models Use Long Contexts.](http://arxiv.org/abs/2307.03172) | 本研究分析了语言模型在多文档问答和键值检索任务中的表现，发现当相关信息位于输入文本的开头或结尾时性能最佳，而当模型需要在长文本的中间访问相关信息时性能显著下降。此外，即使对于专门处理长文本的模型，输入文本越长性能也会大幅降低。我们的研究为理解语言模型如何使用输入文本的上下文提供了新的认识，并且为未来的长文本模型提供了新的评估方案。 |
-| [^6] | [LyricWhiz: Robust Multilingual Zero-shot Lyrics Transcription by Whispering to ChatGPT.](http://arxiv.org/abs/2306.17103) | LyricWhiz是一种鲁棒、多语言、零射击的自动歌词转录方法，通过使用Whisper作为"耳朵"和GPT-4作为"大脑"，它在各种数据集上实现了最先进的性能，同时还实现了在多种语言中进行歌词转录的能力，并创建了第一个大规模多语言歌词转录数据集。 |
-| [^7] | [BigTranslate: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages.](http://arxiv.org/abs/2305.18098) | BigTranslate是一个基于LLaMA的大型语言模型，在原有的基础上通过继续训练和指导微调实现了对100多种语言的多语言翻译能力，初步实验结果显示其性能接近于ChatGPT和谷歌翻译。 |
-| [^8] | [DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining.](http://arxiv.org/abs/2305.10429) | DoReMi方法使用分组分布式鲁棒优化训练小型代理模型以产生域权重，再使用这些权重重新采样数据集训练大型模型，相比使用默认权重的基线模型，在The Pile和GLaM数据集上平均提高了6.5%和4.7%的few-shot下游准确度，分别使用2.6倍和相同的训练步骤达到基线准确度。 |
-| [^9] | [The Short Text Matching Model Enhanced with Knowledge via Contrastive Learning.](http://arxiv.org/abs/2304.03898) | 提出了一种短文本匹配模型，使用生成模型生成补充句子，结合对比学习和外部知识进行语义匹配，并使用关键词避免噪声问题。 |
-| [^10] | [Conditional Generation of Paired Antibody Chain Sequences through Encoder-Decoder Language Model.](http://arxiv.org/abs/2301.02748) | 本论文提出了pAbT5，这是一种能够采用编码器-解码器模型为蛋白质相互作用生成配对抗体链序列的语言模型。该模型可以准确地预测配对情况，并且能够在实验验证方面表现出最先进的无监督预测能力。 |
-| [^11] | [Relphormer: Relational Graph Transformer for Knowledge Graph Representations.](http://arxiv.org/abs/2205.10852) | Relphormer是一种新的Transformer变体，用于知识图谱表示。它引入了Triple2Seq和增强式自我注意机制，以解决基本Transformer架构在捕捉知识图谱结构和语义信息方面的不足。 |
-| [^12] | [Learning From How Humans Correct.](http://arxiv.org/abs/2102.00225) | 本研究提出了一种从人类矫正中学习的方法。通过标注数据中的噪声数据，收集纠错信息，并将其注入至深度学习模型中，成功将文本分类准确度提升了1.7个百分点。 |
+| [^1] | [HARE: Explainable Hate Speech Detection with Step-by-Step Reasoning.](http://arxiv.org/abs/2311.00321) | HARE是一个支持逐步推理的可解释性仇恨言论检测框架，利用大型语言模型填补现有注释方案的推理差距，从而提高了检测模型的监督效果。 |
+| [^2] | [On the Representational Capacity of Recurrent Neural Language Models.](http://arxiv.org/abs/2310.12942) | 本文研究了基于循环神经网络的语言模型的计算表达性，扩展了图灵完备性结果到概率情况，并提供了上下界分析。 |
+| [^3] | [Lifelong Sequence Generation with Dynamic Module Expansion and Adaptation.](http://arxiv.org/abs/2310.09886) | 这项研究提出了一种动态模块扩展和自适应的方法，旨在解决终身序列生成中的持续学习问题。该方法允许模型根据任务相关性动态决定获取新知识的架构，并选择相似的先前任务来帮助适应新任务。此外，还引入了动态梯度缩放来平衡学习过程，以避免对先前学到的知识的严重遗忘。 |
+| [^4] | [Merging Experts into One: Improving Computational Efficiency of Mixture of Experts.](http://arxiv.org/abs/2310.09832) | 本文提出了一种名为“合并专家”的计算高效的方法，通过将计算成本降低到单个专家的水平来改进混合专家方法的计算效率，实验证明该方法显著提高了计算效率。 |
+| [^5] | [FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation.](http://arxiv.org/abs/2310.03214) | 本文提出了一种使用搜索引擎增强的方法，刷新大型语言模型。我们通过详细研究LLM生成的文本在回答问题方面的事实性，引入了FreshQA这一动态问答基准。通过人类评估，我们发现这些模型存在局限性，并表明有显著的改进空间。 |
+| [^6] | [Pre-training Language Models for Comparative Reasoning.](http://arxiv.org/abs/2305.14457) | 本文提出一种预训练语言模型的新框架，旨在增强其在比较推理方面的能力。通过使用可扩展的基于文本实体比较数据的方法和新的预训练任务，该框架得到了显著的结果。 |
+| [^7] | [Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches.](http://arxiv.org/abs/2211.08371) | 本文调查了目前语用学模型的研究现状，提出了建议并分析了语言含义的丰富性。未来的任务设计需要引出语用现象，并关注更广泛的交流上下文和效益的方向。 |
+| [^8] | [GraphCFC: A Directed Graph based Cross-modal Feature Complementation Approach for Multimodal Conversational Emotion Recognition.](http://arxiv.org/abs/2207.12261) | 本文提出了一种基于有向图的跨模态特征补充方法，可以提取多模态上下文信息和交互信息，缓解了多模态融合中的异构性差距问题。 |
+| [^9] | [Representation Projection Invariance Mitigates Representation Collapse.](http://arxiv.org/abs/2205.11603) | 本文提出了一种新的正则化方法 REPINA，旨在减少表示崩溃问题，结果在 13 个语言理解任务上表现出良好的效果。 |
 
 # 详细
 
-[^1]: 使用人设来建模语言模型中的真实性
+[^1]: HARE: 支持逐步推理的可解释性仇恨言论检测
 
-    Personas as a Way to Model Truthfulness in Language Models. (arXiv:2310.18168v1 [cs.CL])
+    HARE: Explainable Hate Speech Detection with Step-by-Step Reasoning. (arXiv:2311.00321v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.18168](http://arxiv.org/abs/2310.18168)
+    [http://arxiv.org/abs/2311.00321](http://arxiv.org/abs/2311.00321)
 
-    本研究探讨了在大型语言模型中使用人设来建模真实性的可能性。通过建模真实人设，语言模型可以将真实性推广到不同上下文中，并通过相关特征判断个体产生文本的真实性。
-
-    
-
-    大型语言模型使用互联网上的大量文本进行训练，这些文本中既包含了事实，也包含了误导性的信息。语言模型能够从这些相互矛盾的数据中辨别真实与虚假吗？基于语言模型能够建模不同产生文本的个体这一观点，我们假设它们可以通过建模真实人设来聚类真实文本：一群很可能产生真实文本并具有相似特征的个体。例如，可信源如维基百科和科学期刊通常使用正式的写作风格并提出一致的主张。通过建模这一人设，语言模型可以将真实性推广到每个个体生成训练文本的特定上下文之外。例如，模型可以推断出“维基百科”这个个体在“科学”生成的主题上会表现出真实性，因为它们共享一个人设。我们首先通过两个观察结果为人设假设提供了证据：（1）我们可以探测模型在不同领域中判断真实性的能力；（2）模型可以从相关特征中推测个体产生文本的真实性。
-
-    Large Language Models are trained on vast amounts of text from the internet, which contains both factual and misleading information about the world. Can language models discern truth from falsehood in this contradicting data? Expanding on the view that LLMs can model different agents producing the corpora, we hypothesize that they can cluster truthful text by modeling a truthful persona: a group of agents that are likely to produce truthful text and share similar features. For example, trustworthy sources like Wikipedia and Science usually use formal writing styles and make consistent claims. By modeling this persona, LLMs can generalize truthfulness beyond the specific contexts in which each agent generated the training text. For example, the model can infer that the agent "Wikipedia" will behave truthfully on topics that were only generated by "Science" because they share a persona. We first show evidence for the persona hypothesis via two observations: (1) we can probe whether a mod
-    
-[^2]: 统一的片段到片段框架用于同时序列生成
-
-    Unified Segment-to-Segment Framework for Simultaneous Sequence Generation. (arXiv:2310.17940v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.17940](http://arxiv.org/abs/2310.17940)
-
-    这篇论文提出了一种统一的片段到片段框架 (Seg2Seg) 用于同时序列生成，通过自适应和统一的方式学习源序列和目标序列之间的映射，实现高质量生成和低延迟。
+    HARE是一个支持逐步推理的可解释性仇恨言论检测框架，利用大型语言模型填补现有注释方案的推理差距，从而提高了检测模型的监督效果。
 
     
 
-    同时序列生成是实时场景的关键任务，比如流式语音识别、同时机器翻译和同时语音翻译，其中目标序列在接收源序列的同时生成。实现高质量生成和低延迟的关键在于确定生成的最佳时机，通过学习源序列和目标序列之间的映射实现。然而，现有方法往往依赖于特定任务的启发式方法，限制了模型对源-目标映射的自适应学习能力，阻碍了多任务学习在各种同时任务中的探索。本文提出了一种统一的片段到片段框架 (Seg2Seg) 用于同时序列生成，以自适应和统一的方式学习映射。在同时生成的过程中，模型在等待源片段和生成目标片段之间交替进行。
+    随着社交媒体的普及，准确检测仇恨言论变得至关重要以确保在线安全。为了应对细微的仇恨言论形式，重要的是要识别并详细解释仇恨言论，以帮助用户理解其有害影响。最近的基准测试试图通过训练生成模型来处理仇恨文本中含义的自由文本注释，但我们发现现有注释方案存在重大推理差距，这可能会阻碍检测模型的监督。在本文中，我们引入了一种名为HARE的仇恨言论检测框架，该框架利用大型语言模型（LLM）的推理能力来填补这些关于仇恨言论解释的差距，从而实现有效的检测模型监督。在SBIC和Implicit Hate基准测试上的实验证明，我们的方法使用模型生成的数据始终优于使用现有自由文本注释的基准。分析表明，
 
-    Simultaneous sequence generation is a pivotal task for real-time scenarios, such as streaming speech recognition, simultaneous machine translation and simultaneous speech translation, where the target sequence is generated while receiving the source sequence. The crux of achieving high-quality generation with low latency lies in identifying the optimal moments for generating, accomplished by learning a mapping between the source and target sequences. However, existing methods often rely on task-specific heuristics for different sequence types, limiting the model's capacity to adaptively learn the source-target mapping and hindering the exploration of multi-task learning for various simultaneous tasks. In this paper, we propose a unified segment-to-segment framework (Seg2Seg) for simultaneous sequence generation, which learns the mapping in an adaptive and unified manner. During the process of simultaneous generation, the model alternates between waiting for a source segment and generat
+    With the proliferation of social media, accurate detection of hate speech has become critical to ensure safety online. To combat nuanced forms of hate speech, it is important to identify and thoroughly explain hate speech to help users understand its harmful effects. Recent benchmarks have attempted to tackle this issue by training generative models on free-text annotations of implications in hateful text. However, we find significant reasoning gaps in the existing annotations schemes, which may hinder the supervision of detection models. In this paper, we introduce a hate speech detection framework, HARE, which harnesses the reasoning capabilities of large language models (LLMs) to fill these gaps in explanations of hate speech, thus enabling effective supervision of detection models. Experiments on SBIC and Implicit Hate benchmarks show that our method, using model-generated data, consistently outperforms baselines, using existing free-text human annotations. Analysis demonstrates th
     
-[^3]: VoIP平台上语音增强的心理声学挑战
+[^2]: 关于循环神经网络语言模型的表示能力的研究
 
-    Psychoacoustic Challenges Of Speech Enhancement On VoIP Platforms. (arXiv:2310.07161v1 [cs.SD])
+    On the Representational Capacity of Recurrent Neural Language Models. (arXiv:2310.12942v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2310.07161](http://arxiv.org/abs/2310.07161)
+    [http://arxiv.org/abs/2310.12942](http://arxiv.org/abs/2310.12942)
 
-    本研究在VoIP通信领域中探索了声学转换的复杂性，并通过分析心理声学指标，揭示了语音增强对VoIP系统的影响。
-
-    
-
-    在VoIP（互联网语音传输协议）通信中，由声学转换引入的复杂性需要进行严格的分析。本研究基于对专有发送端降噪效果的探索，对Google Meets和Zoom等平台进行了细致评估。研究利用Deep Noise Suppression（DNS）2020数据集，确保了针对各种降噪设置和接收器接口的结构化考察。通过将Oaxaca分解引入到声学-语音扰动分析中，本研究引入了一种方法论的创新，该分解通常是经济计量学工具，在此处重新用于分析VoIP系统中的声学-语音扰动。为了进一步确定这些转换的影响，利用心理声学指标，特别是PESQ和STOI，来提供对语音改变的全面理解。总体而言，所获得的观点突出显示了VoIP影响的声学动力学的复杂景观。
-
-    Within the ambit of VoIP (Voice over Internet Protocol) telecommunications, the complexities introduced by acoustic transformations merit rigorous analysis. This research, rooted in the exploration of proprietary sender-side denoising effects, meticulously evaluates platforms such as Google Meets and Zoom. The study draws upon the Deep Noise Suppression (DNS) 2020 dataset, ensuring a structured examination tailored to various denoising settings and receiver interfaces. A methodological novelty is introduced via the Oaxaca decomposition, traditionally an econometric tool, repurposed herein to analyze acoustic-phonetic perturbations within VoIP systems. To further ground the implications of these transformations, psychoacoustic metrics, specifically PESQ and STOI, were harnessed to furnish a comprehensive understanding of speech alterations. Cumulatively, the insights garnered underscore the intricate landscape of VoIP-influenced acoustic dynamics. In addition to the primary findings, a 
-    
-[^4]: 开门吧！大规模语言模型的通用黑盒破解
-
-    Open Sesame! Universal Black Box Jailbreaking of Large Language Models. (arXiv:2309.01446v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2309.01446](http://arxiv.org/abs/2309.01446)
-
-    本文提出了一种使用遗传算法的新颖方法，可以在无法访问模型架构和参数的情况下操纵大规模语言模型 (LLMs)。通过优化通用对抗提示与用户查询结合，可以扰乱被攻击模型的对齐，导致意外和潜在有害的输出。该方法可以揭示模型的局限性和漏洞，为负责任的AI开发提供了一种诊断工具。
+    本文研究了基于循环神经网络的语言模型的计算表达性，扩展了图灵完备性结果到概率情况，并提供了上下界分析。
 
     
 
-    大规模语言模型（LLMs）旨在提供有帮助和安全的回复，通常依赖于对齐技术与用户意图和社会指南保持一致。然而，这种对齐可能会被恶意行为者利用，以用于意想不到的目的。在本文中，我们引入了一种新颖的方法，利用遗传算法（GA）在模型架构和参数不可访问时操纵LLMs。GA攻击通过优化通用对抗提示与用户查询结合，扰乱被攻击模型的对齐，导致意外和潜在有害的输出。我们的新颖方法通过揭示模型的局限性和漏洞，系统地揭示了其响应与预期行为不符的情况。通过广泛的实验，我们证明了我们的技术的有效性，从而为关于负责任的AI开发的讨论提供了一种诊断工具。
+    本研究调查了基于循环神经网络(RNNs)的语言模型(LMs)的计算表达性。Siegelmann和Sontag(1992)曾经展示了具有有理权重和隐藏状态以及无限计算时间的RNNs是图灵完备的。然而，LMs不仅定义了字符串上的加权，还定义了(非加权)语言成员关系，对RNN LMs（RLMs）的计算能力分析应该反映这一点。我们将图灵完备性结果扩展到概率情况，展示了如何使用有理权重的RLM和无限计算时间来模拟任何概率图灵机(PTM)。由于在实践中，RLMs实时工作，每个时间步骤处理一个符号，因此我们将上述结果作为RLMs表达性的上界。我们还通过展示在实时计算限制下，这些模型可以模拟确定性实时有理PTMs来提供下界。
 
-    Large language models (LLMs), designed to provide helpful and safe responses, often rely on alignment techniques to align with user intent and social guidelines. Unfortunately, this alignment can be exploited by malicious actors seeking to manipulate an LLM's outputs for unintended purposes. In this paper we introduce a novel approach that employs a genetic algorithm (GA) to manipulate LLMs when model architecture and parameters are inaccessible. The GA attack works by optimizing a universal adversarial prompt that -- when combined with a user's query -- disrupts the attacked model's alignment, resulting in unintended and potentially harmful outputs. Our novel approach systematically reveals a model's limitations and vulnerabilities by uncovering instances where its responses deviate from expected behavior. Through extensive experiments we demonstrate the efficacy of our technique, thus contributing to the ongoing discussion on responsible AI development by providing a diagnostic tool 
+    This work investigates the computational expressivity of language models (LMs) based on recurrent neural networks (RNNs). Siegelmann and Sontag (1992) famously showed that RNNs with rational weights and hidden states and unbounded computation time are Turing complete. However, LMs define weightings over strings in addition to just (unweighted) language membership and the analysis of the computational power of RNN LMs (RLMs) should reflect this. We extend the Turing completeness result to the probabilistic case, showing how a rationally weighted RLM with unbounded computation time can simulate any probabilistic Turing machine (PTM). Since, in practice, RLMs work in real-time, processing a symbol at every time step, we treat the above result as an upper bound on the expressivity of RLMs. We also provide a lower bound by showing that under the restriction to real-time computation, such models can simulate deterministic real-time rational PTMs.
     
-[^5]: 迷失在中间：语言模型如何使用长文本
+[^3]: 动态模块扩展和自适应的终身序列生成
 
-    Lost in the Middle: How Language Models Use Long Contexts. (arXiv:2307.03172v1 [cs.CL])
+    Lifelong Sequence Generation with Dynamic Module Expansion and Adaptation. (arXiv:2310.09886v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2307.03172](http://arxiv.org/abs/2307.03172)
+    [http://arxiv.org/abs/2310.09886](http://arxiv.org/abs/2310.09886)
 
-    本研究分析了语言模型在多文档问答和键值检索任务中的表现，发现当相关信息位于输入文本的开头或结尾时性能最佳，而当模型需要在长文本的中间访问相关信息时性能显著下降。此外，即使对于专门处理长文本的模型，输入文本越长性能也会大幅降低。我们的研究为理解语言模型如何使用输入文本的上下文提供了新的认识，并且为未来的长文本模型提供了新的评估方案。
-
-    
-
-    尽管最近的语言模型能够将长文本作为输入，但我们对语言模型如何有效地使用较长的文本还知之甚少。本研究分析了语言模型在两个需要在输入文本中识别相关信息的任务（多文档问答和键值检索）上的表现。我们发现，当相关信息出现在输入文本的开头或结尾时，语言模型的表现通常最佳；而当模型需要访问长文本中的中间相关信息时，性能显著下降。此外，即使对于专门处理长文本的模型，当输入文本变得越来越长时，性能也会大幅降低。我们的分析为我们更好地理解语言模型如何使用输入文本的上下文，并为未来的长文本模型提供了新的评估方案。
-
-    While recent language models have the ability to take long contexts as input, relatively little is known about how well the language models use longer context. We analyze language model performance on two tasks that require identifying relevant information within their input contexts: multi-document question answering and key-value retrieval. We find that performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts. Furthermore, performance substantially decreases as the input context grows longer, even for explicitly long-context models. Our analysis provides a better understanding of how language models use their input context and provides new evaluation protocols for future long-context models.
-    
-[^6]: LyricWhiz: 通过向ChatGPT耳语进行鲁棒的多语言零射击歌词转录
-
-    LyricWhiz: Robust Multilingual Zero-shot Lyrics Transcription by Whispering to ChatGPT. (arXiv:2306.17103v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.17103](http://arxiv.org/abs/2306.17103)
-
-    LyricWhiz是一种鲁棒、多语言、零射击的自动歌词转录方法，通过使用Whisper作为"耳朵"和GPT-4作为"大脑"，它在各种数据集上实现了最先进的性能，同时还实现了在多种语言中进行歌词转录的能力，并创建了第一个大规模多语言歌词转录数据集。
+    这项研究提出了一种动态模块扩展和自适应的方法，旨在解决终身序列生成中的持续学习问题。该方法允许模型根据任务相关性动态决定获取新知识的架构，并选择相似的先前任务来帮助适应新任务。此外，还引入了动态梯度缩放来平衡学习过程，以避免对先前学到的知识的严重遗忘。
 
     
 
-    我们介绍了一种名为LyricWhiz的鲁棒、多语言、零射击的自动歌词转录方法，该方法在各种歌词转录数据集上实现了最先进的性能，即使在具有挑战性的流派如摇滚和金属中也是如此。我们的全新、无需训练的方法利用了Whisper，一种弱监督的鲁棒语音识别模型，以及GPT-4，当今最性能卓越的基于聊天的大型语言模型。在该方法中，Whisper充当“耳朵”，负责转录语音，而GPT-4则作为“大脑”，作为一种具有强大性能的上下文输出选择和校正的注释器。我们的实验结果表明，与现有方法相比，LyricWhiz在英语中显著降低了词错误率，并且可以有效地转录多种语言的歌词。此外，我们使用LyricWhiz创建了第一个具有CC-BY-NC-SA版权许可的公开可用的大规模多语言歌词转录数据集，基于MTG-Jamendo，并提供了h
+    终身序列生成（LSG）是持续学习中的一个问题，旨在让模型在一系列生成任务上进行持续训练，以不断学习新的生成模式并避免遗忘先前的知识。现有的LSG方法主要关注维持旧知识，而对跨任务的知识传递关注较少。相比之下，人类可以通过利用先前获取的类似任务的知识更好地学习新任务。受人类学习范式的启发，我们提出了动态模块扩展和自适应（DMEA）的方法，该方法使模型能够根据任务相关性动态确定获取新知识的架构，并选择最相似的先前任务来促进对新任务的适应。此外，由于学习过程很容易偏向于当前任务，这可能导致更严重的遗忘先前学到的知识，因此我们提出了动态梯度缩放来平衡学习过程。
 
-    We introduce LyricWhiz, a robust, multilingual, and zero-shot automatic lyrics transcription method achieving state-of-the-art performance on various lyrics transcription datasets, even in challenging genres such as rock and metal. Our novel, training-free approach utilizes Whisper, a weakly supervised robust speech recognition model, and GPT-4, today's most performant chat-based large language model. In the proposed method, Whisper functions as the "ear" by transcribing the audio, while GPT-4 serves as the "brain," acting as an annotator with a strong performance for contextualized output selection and correction. Our experiments show that LyricWhiz significantly reduces Word Error Rate compared to existing methods in English and can effectively transcribe lyrics across multiple languages. Furthermore, we use LyricWhiz to create the first publicly available, large-scale, multilingual lyrics transcription dataset with a CC-BY-NC-SA copyright license, based on MTG-Jamendo, and offer a h
+    Lifelong sequence generation (LSG), a problem in continual learning, aims to continually train a model on a sequence of generation tasks to learn constantly emerging new generation patterns while avoiding the forgetting of previous knowledge. Existing LSG methods mainly focus on maintaining old knowledge while paying little attention to knowledge transfer across tasks. In contrast, humans can better learn new tasks by leveraging previously acquired knowledge from similar tasks. Inspired by the learning paradigm of humans, we propose Dynamic Module Expansion and Adaptation (DMEA), which enables the model to dynamically determine the architecture for acquiring new knowledge based on task correlation and select the most similar previous tasks to facilitate adaptation to new tasks. In addition, as the learning process can easily be biased towards the current task which might cause more severe forgetting of previously learned knowledge, we propose dynamic gradient scaling to balance the lea
     
-[^7]: BigTranslate：通过多语言翻译增强超过100种语言的大型语言模型
+[^4]: 合并专家：改进混合专家方法的计算效率
 
-    BigTranslate: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages. (arXiv:2305.18098v2 [cs.CL] UPDATED)
+    Merging Experts into One: Improving Computational Efficiency of Mixture of Experts. (arXiv:2310.09832v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.18098](http://arxiv.org/abs/2305.18098)
+    [http://arxiv.org/abs/2310.09832](http://arxiv.org/abs/2310.09832)
 
-    BigTranslate是一个基于LLaMA的大型语言模型，在原有的基础上通过继续训练和指导微调实现了对100多种语言的多语言翻译能力，初步实验结果显示其性能接近于ChatGPT和谷歌翻译。
-
-    
-
-    大型语言模型（LLM）在各种自然语言之间展示了令人期待的翻译性能。然而，许多LLM，特别是开源的，比如BLOOM和LLaMA，都以英语为主导，并且只支持几十种自然语言，使得LLM在语言翻译方面的潜力不太被探索。在这项工作中，我们介绍了BigTranslate，它采用了LLaMA模型，该模型仅覆盖20种语言，并在100多种语言上增强了其多语言翻译能力。BigTranslate是建立在LLaMA-13B之上，并通过三个步骤进行优化。首先，我们利用大规模的中文单语数据继续训练LLaMA。其次，我们使用覆盖102种自然语言的大规模平行数据集继续训练模型。第三，我们使用多语言翻译指令对基础模型进行指导微调，得到了我们的BigTranslate模型。多语言翻译的初步实验结果显示，BigTranslate与ChatGPT和谷歌翻译的性能相当。
-
-    Large language models (LLMs) demonstrate promising translation performance among various natural languages. However, many LLMs especially the open-sourced ones, such as BLOOM and LLaMA, are English-dominant and support only dozens of natural languages, making the potential of LLMs on language translation less explored. In this work, we present BigTranslate which adapts LLaMA that covers only 20 languages and enhances it with multilingual translation capability on more than 100 languages. BigTranslate is built upon LLaMA-13B and it is optimized in three steps. First, we continue training LLaMA with massive Chinese monolingual data. Second, we continue training the model with a large-scale parallel dataset that covers 102 natural languages. Third, we instruct-tune the foundation model with multilingual translation instructions, leading to our BigTranslate model. The preliminary experiments on multilingual translation show that BigTranslate performs comparably with ChatGPT and Google Tran
-    
-[^8]: DoReMi: 优化数据混合加速语言模型预训练
-
-    DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining. (arXiv:2305.10429v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.10429](http://arxiv.org/abs/2305.10429)
-
-    DoReMi方法使用分组分布式鲁棒优化训练小型代理模型以产生域权重，再使用这些权重重新采样数据集训练大型模型，相比使用默认权重的基线模型，在The Pile和GLaM数据集上平均提高了6.5%和4.7%的few-shot下游准确度，分别使用2.6倍和相同的训练步骤达到基线准确度。
+    本文提出了一种名为“合并专家”的计算高效的方法，通过将计算成本降低到单个专家的水平来改进混合专家方法的计算效率，实验证明该方法显著提高了计算效率。
 
     
 
-    预训练数据域的混合比例（例如，维基百科、图书、网页文本）极大地影响语言模型（LM）性能。在本文中，我们提出了一种称为DoReMi的Domain Reweighting with Minimax Optimization方法，它首先使用分组分布式鲁棒优化（Group DRO）训练一个小代理模型，以产生域权重（混合比例），而不需要知道下游任务的知识。然后我们使用这些域权重重新采样一个数据集，并训练一个更大的，全尺寸的模型。在我们的实验中，我们使用DoReMi在一个280M参数的代理模型上，更有效地找到训练一个8B参数模型（30倍大）的域权重。在The Pile上，即使在减小一些域的比重时，DoReMi也能提高所有域的perplexity。相比使用The Pile的默认域权重训练的基线模型，DoReMi将平均few-shot下游准确度提高了6.5%，并使用2.6倍的训练步骤达到基线准确度。在GLaM数据集上，DoReMi没有任何关于下游任务的知识，提高了4.7%（次于现有最先进的模型）的few-shot准确度，在相同的训练步骤下提高了9.0%的准确度。
+    将语言模型的规模扩大通常会带来NLP任务的显著进展，但往往会伴随着不断增长的计算成本。尽管稀疏的混合专家（MoE）可以通过激活每个输入的一个小子集参数（例如一个专家）来减少成本，但如果增加激活的专家数量，其计算将显著增加，限制了其实际效用。在本文中，我们首先展示了选择多个专家的优越性，然后提出了一种计算高效的方法，称为“合并专家”（MEO），将计算成本降低到单个专家的水平。广泛的实验表明，MEO显着提高了计算效率，例如，FLOPS从普通MoE的72.0G降低到28.6G（MEO）。此外，我们提出了一种基于标记的注意力模块，进一步增强了效率。
 
-    The mixture proportions of pretraining data domains (e.g., Wikipedia, books, web text) greatly affect language model (LM) performance. In this paper, we propose Domain Reweighting with Minimax Optimization (DoReMi), which first trains a small proxy model using group distributionally robust optimization (Group DRO) over domains to produce domain weights (mixture proportions) without knowledge of downstream tasks. We then resample a dataset with these domain weights and train a larger, full-sized model. In our experiments, we use DoReMi on a 280M-parameter proxy model to find domain weights for training an 8B-parameter model (30x larger) more efficiently. On The Pile, DoReMi improves perplexity across all domains, even when it downweights a domain. DoReMi improves average few-shot downstream accuracy by 6.5% over a baseline model trained using The Pile's default domain weights and reaches the baseline accuracy with 2.6x fewer training steps. On the GLaM dataset, DoReMi, which has no know
+    Scaling the size of language models usually leads to remarkable advancements in NLP tasks. But it often comes with a price of growing computational cost. Although a sparse Mixture of Experts (MoE) can reduce the cost by activating a small subset of parameters (e.g., one expert) for each input, its computation escalates significantly if increasing the number of activated experts, limiting its practical utility. Can we retain the advantages of adding more experts without substantially increasing the computational costs? In this paper, we first demonstrate the superiority of selecting multiple experts and then propose a computation-efficient approach called \textbf{\texttt{Merging Experts into One}} (MEO), which reduces the computation cost to that of a single expert. Extensive experiments show that MEO significantly improves computational efficiency, e.g., FLOPS drops from 72.0G of vanilla MoE to 28.6G (MEO). Moreover, we propose a token-level attention block that further enhances the ef
     
-[^9]: 通过对比学习加强知识的短文本匹配模型
+[^5]: FreshLLMs: 使用搜索引擎增强的方法刷新大型语言模型
 
-    The Short Text Matching Model Enhanced with Knowledge via Contrastive Learning. (arXiv:2304.03898v1 [cs.CL])
+    FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation. (arXiv:2310.03214v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.03898](http://arxiv.org/abs/2304.03898)
+    [http://arxiv.org/abs/2310.03214](http://arxiv.org/abs/2310.03214)
 
-    提出了一种短文本匹配模型，使用生成模型生成补充句子，结合对比学习和外部知识进行语义匹配，并使用关键词避免噪声问题。
-
-    
-
-    近年来，短文本匹配任务在广告搜索和推荐领域得到了广泛应用。由于文本长度短，语义信息匮乏和单词歧义问题成为此类任务的难点。先前的研究已经引入文本补充句子或知识库来提供附加的特征信息。然而，这些方法没有充分地交互原始句子和补充句子，也没有考虑到外部知识库引入的噪声问题。因此，本文提出了一种结合对比学习和外部知识的短文本匹配模型。该模型利用生成模型生成对应的补充句子，并使用对比学习方法指导模型获得更具语义匹配性的原始句子编码。此外，为了避免噪声，我们使用关键词作为原始句子的主要语义进行检索。
-
-    In recent years, short Text Matching tasks have been widely applied in the fields ofadvertising search and recommendation. The difficulty lies in the lack of semantic information and word ambiguity caused by the short length of the text. Previous works have introduced complement sentences or knowledge bases to provide additional feature information. However, these methods have not fully interacted between the original sentence and the complement sentence, and have not considered the noise issue that may arise from the introduction of external knowledge bases. Therefore, this paper proposes a short Text Matching model that combines contrastive learning and external knowledge. The model uses a generative model to generate corresponding complement sentences and uses the contrastive learning method to guide the model to obtain more semantically meaningful encoding of the original sentence. In addition, to avoid noise, we use keywords as the main semantics of the original sentence to retrie
-    
-[^10]: 基于编码器-解码器语言模型的配对抗体链序列条件生成
-
-    Conditional Generation of Paired Antibody Chain Sequences through Encoder-Decoder Language Model. (arXiv:2301.02748v2 [q-bio.BM] UPDATED)
-
-    [http://arxiv.org/abs/2301.02748](http://arxiv.org/abs/2301.02748)
-
-    本论文提出了pAbT5，这是一种能够采用编码器-解码器模型为蛋白质相互作用生成配对抗体链序列的语言模型。该模型可以准确地预测配对情况，并且能够在实验验证方面表现出最先进的无监督预测能力。
+    本文提出了一种使用搜索引擎增强的方法，刷新大型语言模型。我们通过详细研究LLM生成的文本在回答问题方面的事实性，引入了FreshQA这一动态问答基准。通过人类评估，我们发现这些模型存在局限性，并表明有显著的改进空间。
 
     
 
-    蛋白质语言模型在序列、结构和功能预测方面具有很好的表现。然而，目前的蛋白质语言模型仅限于单一序列的编码器或解码器结构，而许多生物学环境涉及蛋白质相互作用。本文介绍了pAbT5，它采用基于T5的架构将抗体链配对建模为正向和反向翻译。我们展示了pAbT5通过序列生成准确地反映了链的配对。我们的蛋白质语言模型可以生成可变长度的序列，其下一个词语的预测概率与序列比对的位置特异性评分矩阵一致。像蛋白质语言模型中的其他研究一样，pAbT5在实验验证方面表现出最先进的无监督预测能力。据我们所知，pAbT5是第一个用于蛋白质相互作用的生成式编码器-解码器蛋白质语言模型。
+    大多数大型语言模型（LLMs）只训练一次，不进行更新，因此缺乏对不断变化的世界动态适应的能力。本研究在测试当前世界知识的问题回答的背景下，对LLM生成的文本的事实性进行了详细研究。具体而言，我们引入了FreshQA，一个新颖的动态问答基准，包括广泛的问题和答案类型，包括需要快速变化的世界知识和需要揭示错误前提的问题。我们在一个双模式评估过程中对多种闭源和开源LLM进行了基准测试，可以同时测量正确性和虚构性。通过涉及超过50K个评判的人类评估，我们揭示了这些模型的局限性，并证明了改进的显著空间：例如，所有模型（无论模型大小如何）在涉及快速变化的知识和错误前提的问题上都面临困难。
 
-    Protein language models (LMs) have been successful in sequence, structural and functional predictions. However, currently, protein LMs are limited to encoder- or decoder-only architectures for single sequences while many biological contexts involve protein-protein interactions. Here, we introduce pAbT5, which models antibody chain pairing as forward- and back-translations using a T5-based architecture. We show that pAbT5 accurately reflects chain pairing through sequence generation. Our protein LM generates variable-length sequences and its next-word prediction probability agrees with position-specific scoring matrix from sequence alignment. Like other works in protein LM, pAbT5 performs state-of-the-art unsupervised prediction on experimental measurements. To the best of our knowledge, pAbT5 is the first generative encoder-decoder protein LM for protein-protein interactions.
+    Most large language models (LLMs) are trained once and never updated; thus, they lack the ability to dynamically adapt to our ever-changing world. In this work, we perform a detailed study of the factuality of LLM-generated text in the context of answering questions that test current world knowledge. Specifically, we introduce FreshQA, a novel dynamic QA benchmark encompassing a diverse range of question and answer types, including questions that require fast-changing world knowledge as well as questions with false premises that need to be debunked. We benchmark a diverse array of both closed and open-source LLMs under a two-mode evaluation procedure that allows us to measure both correctness and hallucination. Through human evaluations involving more than 50K judgments, we shed light on limitations of these models and demonstrate significant room for improvement: for instance, all models (regardless of model size) struggle on questions that involve fast-changing knowledge and false pr
     
-[^11]: Relphormer：关系图转换器用于知识图谱表示
+[^6]: 为比较推理预训练语言模型
 
-    Relphormer: Relational Graph Transformer for Knowledge Graph Representations. (arXiv:2205.10852v5 [cs.CL] UPDATED)
+    Pre-training Language Models for Comparative Reasoning. (arXiv:2305.14457v1 [cs.CL])
 
-    [http://arxiv.org/abs/2205.10852](http://arxiv.org/abs/2205.10852)
+    [http://arxiv.org/abs/2305.14457](http://arxiv.org/abs/2305.14457)
 
-    Relphormer是一种新的Transformer变体，用于知识图谱表示。它引入了Triple2Seq和增强式自我注意机制，以解决基本Transformer架构在捕捉知识图谱结构和语义信息方面的不足。
-
-    
-
-    Transformer已经在自然语言处理、计算机视觉和图形挖掘等广泛领域中取得了remarkable的性能。然而，基本的Transformer架构在知识图谱（KG）表示中并没有取得很好的改进，其中平移距离模型支配了这个领域。需注意的是，基本的Transformer架构难以捕捉到知识图谱的内在异构结构和语义信息。为此，我们提出了一种新的用于知识图谱表示的Transformer变体，名为Relphormer。具体来说，我们引入了Triple2Seq，可以动态地采样上下文化的子图序列作为输入，以缓解异构性问题。我们提出了一种新的增强式自我注意机制，用于对关系信息进行编码，并保持实体和关系内的语义信息。此外，我们利用掩蔽式知识建模来实现通用的知识图形表示。
-
-    Transformers have achieved remarkable performance in widespread fields, including natural language processing, computer vision and graph mining. However, vanilla Transformer architectures have not yielded promising improvements in the Knowledge Graph (KG) representations, where the translational distance paradigm dominates this area. Note that vanilla Transformer architectures struggle to capture the intrinsically heterogeneous structural and semantic information of knowledge graphs. To this end, we propose a new variant of Transformer for knowledge graph representations dubbed Relphormer. Specifically, we introduce Triple2Seq which can dynamically sample contextualized sub-graph sequences as the input to alleviate the heterogeneity issue. We propose a novel structure-enhanced self-attention mechanism to encode the relational information and keep the semantic information within entities and relations. Moreover, we utilize masked knowledge modeling for general knowledge graph representa
-    
-[^12]: 从人类的纠错中学习
-
-    Learning From How Humans Correct. (arXiv:2102.00225v14 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2102.00225](http://arxiv.org/abs/2102.00225)
-
-    本研究提出了一种从人类矫正中学习的方法。通过标注数据中的噪声数据，收集纠错信息，并将其注入至深度学习模型中，成功将文本分类准确度提升了1.7个百分点。
+    本文提出一种预训练语言模型的新框架，旨在增强其在比较推理方面的能力。通过使用可扩展的基于文本实体比较数据的方法和新的预训练任务，该框架得到了显著的结果。
 
     
 
-    在工业自然语言处理应用中，我们手动标注的数据中存在一定数量的噪声数据。我们提出了一种简单的方法来找到噪声数据并手动重新标注它们，同时收集纠错信息。然后，我们提出了一种将人类纠错信息融入深度学习模型的新方法。人类知道如何纠正噪声数据，因此纠错信息可以注入到深度学习模型中。我们在自己的文本分类数据集上进行了实验，该数据集是手动标注的，因为我们重新标注了我们数据集中的噪声数据，以适用于我们的工业应用。实验结果显示，我们的方法将分类准确度从91.7%提升到92.5%。91.7%的准确度是在修正后的数据集上训练的，它将基线准确度从83.3%提升到91.7%。
+    本文提出了一种新框架，用于预训练语言模型以增强其在文本比较推理方面的能力。我们的方法涉及可扩展的用于收集基于文本实体比较数据的方法，并设计了三个新的预训练任务。在多个下游任务，包括比较问答、问句生成和摘要生成方面的评估表明，我们的预训练框架大大提高了语言模型的比较推理能力，尤其是在资源匮乏的情况下。此外，本工作还发布了第一个比较推理综合基准。
 
-    In industry NLP application, our manually labeled data has a certain number of noisy data. We present a simple method to find the noisy data and re-label them manually, meanwhile we collect the correction information. Then we present novel method to incorporate the human correction information into deep learning model. Human know how to correct noisy data. So the correction information can be inject into deep learning model. We do the experiment on our own text classification dataset, which is manually labeled, because we re-label the noisy data in our dataset for our industry application. The experiment result shows that our method improve the classification accuracy from 91.7% to 92.5%. The 91.7% accuracy is trained on the corrected dataset, which improve the baseline from 83.3% to 91.7%.
+    In this paper, we propose a novel framework to pre-train language models for enhancing their abilities of comparative reasoning over texts. While recent research has developed models for NLP tasks that require comparative reasoning, they suffer from costly manual data labeling and limited generalizability to different tasks. Our approach involves a scalable method for collecting data for text-based entity comparison, which leverages both structured and unstructured data, and the design of three novel pre-training tasks. Evaluation on a range of downstream tasks including comparative question answering, question generation, and summarization shows that our pre-training framework significantly improves the comparative reasoning abilities of language models, especially under low-resource conditions. This work also releases the first integrated benchmark for comparative reasoning over texts.
+    
+[^7]: 语言基础中的语用学：现象、任务和建模方法
+
+    Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches. (arXiv:2211.08371v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2211.08371](http://arxiv.org/abs/2211.08371)
+
+    本文调查了目前语用学模型的研究现状，提出了建议并分析了语言含义的丰富性。未来的任务设计需要引出语用现象，并关注更广泛的交流上下文和效益的方向。
+
+    
+
+    人们在交流中经常依赖上下文来丰富言外之意，从而实现简明而有效的沟通。为了能够与人类成功地自然交互，面向用户的人工智能系统将需要类似的语用学技能：依靠各种上下文信息——从共享的语言目标和约定到视觉和具身世界，有效地使用语言。我们调查了现有的语境设置和语用建模方法，并分析了每个工作中任务目标、环境上下文和交际效益如何丰富语言含义。我们提出了未来基础任务设计的建议，以自然地引出语用学现象，并建议关注更广泛的交流上下文和效益的方向。
+
+    People rely heavily on context to enrich meaning beyond what is literally said, enabling concise but effective communication. To interact successfully and naturally with people, user-facing artificial intelligence systems will require similar skills in pragmatics: relying on various types of context -from shared linguistic goals and conventions, to the visual and embodied world -- to use language effectively. We survey existing grounded settings and pragmatic modeling approaches and analyze how the task goals, environmental contexts, and communicative affordances in each work enrich linguistic meaning. We present recommendations for future grounded task design to naturally elicit pragmatic phenomena, and suggest directions that focus on a broader range of communicative contexts and affordances.
+    
+[^8]: 基于有向图的跨模态特征补充方法用于多模态对话情感识别
+
+    GraphCFC: A Directed Graph based Cross-modal Feature Complementation Approach for Multimodal Conversational Emotion Recognition. (arXiv:2207.12261v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2207.12261](http://arxiv.org/abs/2207.12261)
+
+    本文提出了一种基于有向图的跨模态特征补充方法，可以提取多模态上下文信息和交互信息，缓解了多模态融合中的异构性差距问题。
+
+    
+
+    对话情感识别在人机交互系统中起着重要作用，因为它可以提供有共情心理的服务。多模态对话情感识别可以缓解单模态方法的缺点。最近，由于关系建模方面的卓越性能，图神经网络已被广泛用于各种领域。在多模态对话情感识别中，图神经网络能够提取远距离的上下文信息和跨模态的交互信息。不幸的是，由于现有方法（如MMGCN）直接融合多个模态，可能会产生冗余信息，且可能丢失多样化的信息。在本文中，我们提出了一种基于有向图的跨模态特征补充（GraphCFC）模块，可以有效地模拟上下文和互动信息。GraphCFC通过利用多个子空间提取器和成对跨模态补充（PairCC）策略，缓解了多模态融合中的异构性差距问题。
+
+    Emotion Recognition in Conversation (ERC) plays a significant part in Human-Computer Interaction (HCI) systems since it can provide empathetic services. Multimodal ERC can mitigate the drawbacks of uni-modal approaches. Recently, Graph Neural Networks (GNNs) have been widely used in a variety of fields due to their superior performance in relation modeling. In multimodal ERC, GNNs are capable of extracting both long-distance contextual information and inter-modal interactive information. Unfortunately, since existing methods such as MMGCN directly fuse multiple modalities, redundant information may be generated and diverse information may be lost. In this work, we present a directed Graph based Cross-modal Feature Complementation (GraphCFC) module that can efficiently model contextual and interactive information. GraphCFC alleviates the problem of heterogeneity gap in multimodal fusion by utilizing multiple subspace extractors and Pair-wise Cross-modal Complementary (PairCC) strategy. 
+    
+[^9]: 表示投影不变性缓解表示崩溃问题
+
+    Representation Projection Invariance Mitigates Representation Collapse. (arXiv:2205.11603v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2205.11603](http://arxiv.org/abs/2205.11603)
+
+    本文提出了一种新的正则化方法 REPINA，旨在减少表示崩溃问题，结果在 13 个语言理解任务上表现出良好的效果。
+
+    
+
+    对预训练语言模型学习的上下文化表示进行微调在自然语言处理领域中仍然是一种流行的做法。然而，微调可能会导致表示降级（也被称为表示崩溃），这可能会导致不稳定性、次优性能和弱泛化。在本文中，我们提出了“表示投影不变性”（REPINA），这是一种新颖的正则化方法，通过抑制表示中的不良变化来维护表示的信息内容并减少表示崩溃问题。我们研究了所提出的正则化与5个可比较基线在13个语言理解任务（GLUE基准测试和其他六个数据集）中的实证行为。在评估内域性能时，REPINA 在大多数任务（13项中的10项）上始终优于其他基线。我们还证明了它在少样本设置中的有效性和对标签扰动的鲁棒性。作为副产品，我们扩展了已有的先前工作的范围，这些工作通过包括预测任务在内的自监督学习来降低表示崩溃率。
+
+    Fine-tuning contextualized representations learned by pre-trained language models remains a prevalent practice in NLP. However, fine-tuning can lead to representation degradation (also known as representation collapse), which may result in instability, sub-optimal performance, and weak generalization.  In this paper, we propose Representation Projection Invariance (REPINA), a novel regularization method to maintain the information content of representation and reduce representation collapse during fine-tuning by discouraging undesirable changes in the representations. We study the empirical behavior of the proposed regularization in comparison to 5 comparable baselines across 13 language understanding tasks (GLUE benchmark and six additional datasets). When evaluating in-domain performance, REPINA consistently outperforms other baselines on most tasks (10 out of 13). We also demonstrate its effectiveness in few-shot settings and robustness to label perturbation. As a by-product, we ext
     
 

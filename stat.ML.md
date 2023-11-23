@@ -2,32 +2,75 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [survex: an R package for explaining machine learning survival models.](http://arxiv.org/abs/2308.16113) | survex是一个R软件包，通过应用可解释的人工智能技术，提供了一个连贯的框架来解释任何生存模型，可以改进模型，提高透明度和责任感。 |
-| [^2] | [Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting.](http://arxiv.org/abs/2307.11494) | 本研究提出了一种面向概率时间序列预测的自引导扩散模型，称为TSDiff。该模型不需要辅助网络或训练过程的改变，在预测、改进和合成数据生成等时间序列任务上展现出了竞争力。 |
-| [^3] | [Addressing caveats of neural persistence with deep graph persistence.](http://arxiv.org/abs/2307.10865) | 本文发现网络权重的方差和大权重的空间集中是影响神经持久性的主要因素，并提出了将神经持久性扩展到整个神经网络的深度图持久性测量方法。 |
-| [^4] | [Pattern Recovery in Penalized and Thresholded Estimation and its Geometry.](http://arxiv.org/abs/2307.10158) | 我们提出了一种惩罚化和阈值化估计的模式恢复方法，并定义了模式和恢复条件。对于LASSO，无噪声恢复条件和互不表示条件起到了相同的作用。 |
-| [^5] | [Rethinking Counterfactual Data Augmentation Under Confounding.](http://arxiv.org/abs/2305.18183) | 反事实数据增强是一种缓解数据中混淆偏差的方法，本文从因果的角度分析了混淆偏差对分类器的影响，提出了去除混淆偏差的手段，有助于在观察到的数据分布之外进行泛化。作者还提出了一个简单而有效的算法用于生成反事实图像，并证明了该方法在实际应用中的有效性。 |
-| [^6] | [Multi-Objective Optimization Using the R2 Utility.](http://arxiv.org/abs/2305.11774) | 本文提出将多目标优化问题转化为一组单目标问题进行解决，并介绍了R2效用函数作为适当的目标函数。该效用函数单调且次模，可以使用贪心优化算法计算全局最优解。 |
-| [^7] | [An inexact linearized proximal algorithm for a class of DC composite optimization problems and applications.](http://arxiv.org/abs/2303.16822) | 本文提出了一种解决非凸非光滑问题的非精确线性化近端算法，并应用于鲁棒分解中的两个问题，得到了有效的数值结果。 |
-| [^8] | [Data thinning for convolution-closed distributions.](http://arxiv.org/abs/2301.07276) | 本文提出了数据稀疏化方法，适用于很多分布类型，包括高斯分布、泊松分布、负二项分布、伽玛分布和二项分布等。该方法具有广泛的应用，如在交叉验证方面提供了一种新的方法，能有效验证无监督学习算法的可靠性。 |
+| [^1] | [Diffusion models for probabilistic programming.](http://arxiv.org/abs/2311.00474) | 我们提出了一种新的扩散模型变分推断（DMVI）方法，用于在概率编程语言中进行自动近似推断。DMVI可以更准确地进行后验推断，而且易于实现和使用，对神经网络模型没有任何约束。 |
+| [^2] | [A General Theoretical Paradigm to Understand Learning from Human Preferences.](http://arxiv.org/abs/2310.12036) | 本文研究了学习从人类偏好中学习的实际算法的理论基础，推导出一个新的一般目标，绕过了两个重要的近似。这种方法允许直接从收集的数据中学习策略而无需奖励模型的训练。 |
+| [^3] | [Droplets of Good Representations: Grokking as a First Order Phase Transition in Two Layer Networks.](http://arxiv.org/abs/2310.03789) | 本研究将自适应核方法应用于两个师生模型，预测了特征学习和 Grokking 的性质，并展示了 Grokking 与相变理论之间的映射关系。 |
+| [^4] | [Efficient Algorithms for the CCA Family: Unconstrained Objectives with Unbiased Gradients.](http://arxiv.org/abs/2310.01012) | 本论文提出了一个新颖的无约束目标，通过应用随机梯度下降（SGD）到CCA目标，实现了一系列快速算法，包括随机PLS、随机CCA和深度CCA。这些方法在各种基准测试中表现出比先前最先进方法更快的收敛速度和更高的相关性恢复。 |
+| [^5] | [Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting.](http://arxiv.org/abs/2307.11494) | 本研究提出了一种面向概率时间序列预测的自引导扩散模型，称为TSDiff。该模型不需要辅助网络或训练过程的改变，在预测、改进和合成数据生成等时间序列任务上展现出了竞争力。 |
+| [^6] | [Stability and Generalization of Stochastic Compositional Gradient Descent Algorithms.](http://arxiv.org/abs/2307.03357) | 本文通过统计学习理论的算法稳定性，分析了随机组合梯度下降算法的稳定性和泛化性，引入了组合一致稳定性概念并与SCO问题的泛化性建立了定量关系。 |
+| [^7] | [Why Shallow Networks Struggle with Approximating and Learning High Frequency: A Numerical Study.](http://arxiv.org/abs/2306.17301) | 本文通过数值研究探讨了浅层神经网络在逼近和学习高频率方面的困难，重点是通过分析激活函数的谱分析来理解问题的原因。 |
+| [^8] | [Differentially Private Wireless Federated Learning Using Orthogonal Sequences.](http://arxiv.org/abs/2306.08280) | 本文提出了一种使用正交序列的FLORAS方法，可消除发送端的信道状态信息，同时提供了项目级和客户级的差分隐私保证。FLORAS可以灵活地实现不同的差分隐私等级，并且通过推导收敛界限，实现了收敛速度和隐私保证之间的平稳权衡。 |
+| [^9] | [Hinge-Wasserstein: Mitigating Overconfidence in Regression by Classification.](http://arxiv.org/abs/2306.00560) | 该论文提出了一种基于Wasserstein距离的损失函数hinge-Wasserstein，用于缓解回归任务中由于过度自信导致的不确定性问题。这种损失函数有效提高了aleatoric和epistemic不确定性的质量。 |
 
 # 详细
 
-[^1]: survex：用于解释机器学习生存模型的R软件包
+[^1]: 概率编程的扩散模型
 
-    survex: an R package for explaining machine learning survival models. (arXiv:2308.16113v1 [cs.LG])
+    Diffusion models for probabilistic programming. (arXiv:2311.00474v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.16113](http://arxiv.org/abs/2308.16113)
+    [http://arxiv.org/abs/2311.00474](http://arxiv.org/abs/2311.00474)
 
-    survex是一个R软件包，通过应用可解释的人工智能技术，提供了一个连贯的框架来解释任何生存模型，可以改进模型，提高透明度和责任感。
+    我们提出了一种新的扩散模型变分推断（DMVI）方法，用于在概率编程语言中进行自动近似推断。DMVI可以更准确地进行后验推断，而且易于实现和使用，对神经网络模型没有任何约束。
 
     
 
-    由于其灵活性和出色性能，机器学习模型经常用于补充和超越传统的统计生存模型。然而，它们的广泛应用受到缺乏用户友好的工具来解释其内部操作和预测原理的限制。为了解决这个问题，我们引入了survex R软件包，通过应用可解释的人工智能技术，提供了一个连贯的框架来解释任何生存模型。所提软件的功能包括理解和诊断生存模型，从而可以改进它们。通过揭示变量效应和重要性等决策过程的见解，survex能够评估模型的可靠性并检测偏差。因此，在生物医学研究和医疗应用等敏感领域可以促进透明度和责任。
+    我们提出了扩散模型变分推断（DMVI），这是一种在概率编程语言（PPL）中进行自动近似推断的新方法。DMVI利用扩散模型作为对真实后验分布的变分近似，通过导出贝叶斯建模中使用的边际似然目标的新约束。DMVI易于实现，在PPL中进行无障碍推断，不像使用归一化流的变分推断那样具有缺点，并且对基础神经网络模型不做任何约束。我们在一组常见的贝叶斯模型上评估了DMVI，并表明它的后验推断一般比PPL中使用的现代方法更准确，同时具有类似的计算成本并且需要较少的手动调整。
 
-    Due to their flexibility and superior performance, machine learning models frequently complement and outperform traditional statistical survival models. However, their widespread adoption is hindered by a lack of user-friendly tools to explain their internal operations and prediction rationales. To tackle this issue, we introduce the survex R package, which provides a cohesive framework for explaining any survival model by applying explainable artificial intelligence techniques. The capabilities of the proposed software encompass understanding and diagnosing survival models, which can lead to their improvement. By revealing insights into the decision-making process, such as variable effects and importances, survex enables the assessment of model reliability and the detection of biases. Thus, transparency and responsibility may be promoted in sensitive areas, such as biomedical research and healthcare applications.
+    We propose Diffusion Model Variational Inference (DMVI), a novel method for automated approximate inference in probabilistic programming languages (PPLs). DMVI utilizes diffusion models as variational approximations to the true posterior distribution by deriving a novel bound to the marginal likelihood objective used in Bayesian modelling. DMVI is easy to implement, allows hassle-free inference in PPLs without the drawbacks of, e.g., variational inference using normalizing flows, and does not make any constraints on the underlying neural network model. We evaluate DMVI on a set of common Bayesian models and show that its posterior inferences are in general more accurate than those of contemporary methods used in PPLs while having a similar computational cost and requiring less manual tuning.
     
-[^2]: 预测、改进、合成：面向概率时间序列预测的自引导扩散模型
+[^2]: 一个理论框架来理解从人类偏好中学习的一般方法
+
+    A General Theoretical Paradigm to Understand Learning from Human Preferences. (arXiv:2310.12036v1 [cs.AI])
+
+    [http://arxiv.org/abs/2310.12036](http://arxiv.org/abs/2310.12036)
+
+    本文研究了学习从人类偏好中学习的实际算法的理论基础，推导出一个新的一般目标，绕过了两个重要的近似。这种方法允许直接从收集的数据中学习策略而无需奖励模型的训练。
+
+    
+
+    目前从人类偏好中学习的流行方法依赖于两个重要的近似：第一假设可以用逐点奖励替代成对偏好。第二个假设是在这些逐点奖励上训练的奖励模型可以从收集到的数据泛化到策略采样的超出分布的数据。最近，提出了一种称为直接偏好优化(DPO)的方法，该方法绕过了第二个近似，并直接从收集的数据中学习策略而无需奖励模型阶段。然而，这种方法仍然严重依赖于第一个近似。在本文中，我们试图对这些实际算法进行更深入的理论理解。特别地，我们推导出了一个新的一般目标，称为ΨPO，用于从人类偏好中学习，该目标以成对偏好的形式表达，因此绕过了这两个近似。这个新的一般目标使我们能够进行一种新的从训练数据直接学习策略的方法而无需进行奖励模型的训练。
+
+    The prevalent deployment of learning from human preferences through reinforcement learning (RLHF) relies on two important approximations: the first assumes that pairwise preferences can be substituted with pointwise rewards. The second assumes that a reward model trained on these pointwise rewards can generalize from collected data to out-of-distribution data sampled by the policy. Recently, Direct Preference Optimisation (DPO) has been proposed as an approach that bypasses the second approximation and learn directly a policy from collected data without the reward modelling stage. However, this method still heavily relies on the first approximation.  In this paper we try to gain a deeper theoretical understanding of these practical algorithms. In particular we derive a new general objective called $\Psi$PO for learning from human preferences that is expressed in terms of pairwise preferences and therefore bypasses both approximations. This new general objective allows us to perform an 
+    
+[^3]: 好表示的液滴：在两层网络中 grokking 作为一阶相变
+
+    Droplets of Good Representations: Grokking as a First Order Phase Transition in Two Layer Networks. (arXiv:2310.03789v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.03789](http://arxiv.org/abs/2310.03789)
+
+    本研究将自适应核方法应用于两个师生模型，预测了特征学习和 Grokking 的性质，并展示了 Grokking 与相变理论之间的映射关系。
+
+    
+
+    深度神经网络 (DNN) 的一个关键特性是在训练过程中能够学习新的特征。这种深度学习的有趣方面在最近报道的 Grokking 现象中表现得最为明显。虽然主要体现为测试准确性的突变增加，但 Grokking 也被认为是一种超越懒惰学习/高斯过程 (GP) 的现象，涉及特征学习。在这里，我们将特征学习理论的最新发展，自适应核方法，应用于具有立方多项式和模加法教师的两个师生模型。我们在这些模型上提供了关于特征学习和 Grokking 性质的分析预测，并展示了 Grokking 与相变理论之间的映射关系。我们表明，在 Grokking 之后，DNN 的状态类似于一阶相变后的混合相。在这个混合相中，DNN 生成了与之前明显不同的教师的有用内部表示。
+
+    A key property of deep neural networks (DNNs) is their ability to learn new features during training. This intriguing aspect of deep learning stands out most clearly in recently reported Grokking phenomena. While mainly reflected as a sudden increase in test accuracy, Grokking is also believed to be a beyond lazy-learning/Gaussian Process (GP) phenomenon involving feature learning. Here we apply a recent development in the theory of feature learning, the adaptive kernel approach, to two teacher-student models with cubic-polynomial and modular addition teachers. We provide analytical predictions on feature learning and Grokking properties of these models and demonstrate a mapping between Grokking and the theory of phase transitions. We show that after Grokking, the state of the DNN is analogous to the mixed phase following a first-order phase transition. In this mixed phase, the DNN generates useful internal representations of the teacher that are sharply distinct from those before the 
+    
+[^4]: CCA家族的高效算法：无约束目标与无偏梯度
+
+    Efficient Algorithms for the CCA Family: Unconstrained Objectives with Unbiased Gradients. (arXiv:2310.01012v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.01012](http://arxiv.org/abs/2310.01012)
+
+    本论文提出了一个新颖的无约束目标，通过应用随机梯度下降（SGD）到CCA目标，实现了一系列快速算法，包括随机PLS、随机CCA和深度CCA。这些方法在各种基准测试中表现出比先前最先进方法更快的收敛速度和更高的相关性恢复。
+
+    
+
+    典型相关分析（CCA）方法在多视角学习中具有基础性作用。正则化线性CCA方法可以看作是偏最小二乘（PLS）的推广，并与广义特征值问题（GEP）框架统一。然而，这些线性方法的传统算法在大规模数据上计算上是不可行的。深度CCA的扩展显示出很大的潜力，但目前的训练过程缓慢且复杂。我们首先提出了一个描述GEPs的顶级子空间的新颖无约束目标。我们的核心贡献是一系列快速算法，用随机梯度下降（SGD）应用于相应的CCA目标，从而获得随机PLS、随机CCA和深度CCA。这些方法在所有标准CCA和深度CCA基准测试中显示出比先前最先进方法更快的收敛速度和更高的相关性恢复。这样的速度使我们能够首次进行大规模生物数据的PLS分析。
+
+    The Canonical Correlation Analysis (CCA) family of methods is foundational in multi-view learning. Regularised linear CCA methods can be seen to generalise Partial Least Squares (PLS) and unified with a Generalized Eigenvalue Problem (GEP) framework. However, classical algorithms for these linear methods are computationally infeasible for large-scale data. Extensions to Deep CCA show great promise, but current training procedures are slow and complicated. First we propose a novel unconstrained objective that characterizes the top subspace of GEPs. Our core contribution is a family of fast algorithms for stochastic PLS, stochastic CCA, and Deep CCA, simply obtained by applying stochastic gradient descent (SGD) to the corresponding CCA objectives. These methods show far faster convergence and recover higher correlations than the previous state-of-the-art on all standard CCA and Deep CCA benchmarks. This speed allows us to perform a first-of-its-kind PLS analysis of an extremely large bio
+    
+[^5]: 预测、改进、合成：面向概率时间序列预测的自引导扩散模型
 
     Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting. (arXiv:2307.11494v1 [cs.LG])
 
@@ -41,88 +84,60 @@
 
     Diffusion models have achieved state-of-the-art performance in generative modeling tasks across various domains. Prior works on time series diffusion models have primarily focused on developing conditional models tailored to specific forecasting or imputation tasks. In this work, we explore the potential of task-agnostic, unconditional diffusion models for several time series applications. We propose TSDiff, an unconditionally trained diffusion model for time series. Our proposed self-guidance mechanism enables conditioning TSDiff for downstream tasks during inference, without requiring auxiliary networks or altering the training procedure. We demonstrate the effectiveness of our method on three different time series tasks: forecasting, refinement, and synthetic data generation. First, we show that TSDiff is competitive with several task-specific conditional forecasting methods (predict). Second, we leverage the learned implicit probability density of TSDiff to iteratively refine the p
     
-[^3]: 通过深度图的持久性解决神经持久性的问题
+[^6]: 随机组合梯度下降算法的稳定性和泛化
 
-    Addressing caveats of neural persistence with deep graph persistence. (arXiv:2307.10865v1 [cs.LG])
+    Stability and Generalization of Stochastic Compositional Gradient Descent Algorithms. (arXiv:2307.03357v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.10865](http://arxiv.org/abs/2307.10865)
+    [http://arxiv.org/abs/2307.03357](http://arxiv.org/abs/2307.03357)
 
-    本文发现网络权重的方差和大权重的空间集中是影响神经持久性的主要因素，并提出了将神经持久性扩展到整个神经网络的深度图持久性测量方法。
-
-    
-
-    神经持久性是一种用于量化神经网络复杂性的重要指标，提出于深度学习中新兴的拓扑数据分析领域。然而，在理论和实证上我们发现，网络权重的方差和大权重的空间集中是影响神经持久性的主要因素。虽然这对于线性分类器有用的信息，但我们发现在深度神经网络的后几层中没有相关的空间结构，使得神经持久性大致等于权重的方差。此外，对于深度神经网络，所提出的层间平均过程没有考虑层间的交互。基于我们的分析，我们提出了对神经持久性基础结构的扩展，从单层改为整个神经网络，这相当于在一个特定矩阵上计算神经持久性。这得到了我们的深度图持久性测量方法。
-
-    Neural Persistence is a prominent measure for quantifying neural network complexity, proposed in the emerging field of topological data analysis in deep learning. In this work, however, we find both theoretically and empirically that the variance of network weights and spatial concentration of large weights are the main factors that impact neural persistence. Whilst this captures useful information for linear classifiers, we find that no relevant spatial structure is present in later layers of deep neural networks, making neural persistence roughly equivalent to the variance of weights. Additionally, the proposed averaging procedure across layers for deep neural networks does not consider interaction between layers. Based on our analysis, we propose an extension of the filtration underlying neural persistence to the whole neural network instead of single layers, which is equivalent to calculating neural persistence on one particular matrix. This yields our deep graph persistence measur
-    
-[^4]: 惩罚化和阈值化估计中的模式恢复及其几何
-
-    Pattern Recovery in Penalized and Thresholded Estimation and its Geometry. (arXiv:2307.10158v1 [math.ST])
-
-    [http://arxiv.org/abs/2307.10158](http://arxiv.org/abs/2307.10158)
-
-    我们提出了一种惩罚化和阈值化估计的模式恢复方法，并定义了模式和恢复条件。对于LASSO，无噪声恢复条件和互不表示条件起到了相同的作用。
+    本文通过统计学习理论的算法稳定性，分析了随机组合梯度下降算法的稳定性和泛化性，引入了组合一致稳定性概念并与SCO问题的泛化性建立了定量关系。
 
     
 
-    我们考虑惩罚估计的框架，其中惩罚项由实值的多面体规范给出，其中包括诸如LASSO（以及其许多变体如广义LASSO）、SLOPE、OSCAR、PACS等方法。每个估计器可以揭示未知参数向量的不同结构或“模式”。我们定义了基于次微分的模式的一般概念，并形式化了一种衡量其复杂性的方法。对于模式恢复，我们提供了一个特定模式以正概率被该过程检测到的最小条件，即所谓的可达性条件。利用我们的方法，我们还引入了更强的无噪声恢复条件。对于LASSO，众所周知，互不表示条件是使模式恢复的概率大于1/2所必需的，并且我们展示了无噪声恢复起到了完全相同的作用，从而扩展和统一了互不表示条件。
+    许多机器学习任务可以被形式化为随机组合优化（SCO）问题，例如强化学习、AUC最大化和元学习，其中目标函数涉及与期望相关的嵌套组合。虽然已经有大量研究致力于研究SCO算法的收敛行为，但对于它们的泛化性能如何，即从训练示例构建的学习算法在未来的测试示例上的行为如何，却很少有研究。在本文中，我们通过统计学习理论框架下的算法稳定性，提供了随机组合梯度下降算法的稳定性和泛化性分析。首先，我们引入了一种稳定性概念，称为组合一致稳定性，并建立了它与SCO问题的泛化性之间的定量关系。然后，我们为两种流行的随机组合优化问题建立了组合一致稳定性结果。
 
-    We consider the framework of penalized estimation where the penalty term is given by a real-valued polyhedral gauge, which encompasses methods such as LASSO (and many variants thereof such as the generalized LASSO), SLOPE, OSCAR, PACS and others. Each of these estimators can uncover a different structure or ``pattern'' of the unknown parameter vector. We define a general notion of patterns based on subdifferentials and formalize an approach to measure their complexity. For pattern recovery, we provide a minimal condition for a particular pattern to be detected by the procedure with positive probability, the so-called accessibility condition. Using our approach, we also introduce the stronger noiseless recovery condition. For the LASSO, it is well known that the irrepresentability condition is necessary for pattern recovery with probability larger than $1/2$ and we show that the noiseless recovery plays exactly the same role, thereby extending and unifying the irrepresentability conditi
+    Many machine learning tasks can be formulated as a stochastic compositional optimization (SCO) problem such as reinforcement learning, AUC maximization, and meta-learning, where the objective function involves a nested composition associated with an expectation. While a significant amount of studies has been devoted to studying the convergence behavior of SCO algorithms, there is little work on understanding their generalization, i.e., how these learning algorithms built from training examples would behave on future test examples. In this paper, we provide the stability and generalization analysis of stochastic compositional gradient descent algorithms through the lens of algorithmic stability in the framework of statistical learning theory. Firstly, we introduce a stability concept called compositional uniform stability and establish its quantitative relation with generalization for SCO problems. Then, we establish the compositional uniform stability results for two popular stochastic
     
-[^5]: 重新思考混淆下的反事实数据增强
+[^7]: 浅层网络在逼近和学习高频率方面的困难：一个数值研究
 
-    Rethinking Counterfactual Data Augmentation Under Confounding. (arXiv:2305.18183v1 [cs.LG])
+    Why Shallow Networks Struggle with Approximating and Learning High Frequency: A Numerical Study. (arXiv:2306.17301v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.18183](http://arxiv.org/abs/2305.18183)
+    [http://arxiv.org/abs/2306.17301](http://arxiv.org/abs/2306.17301)
 
-    反事实数据增强是一种缓解数据中混淆偏差的方法，本文从因果的角度分析了混淆偏差对分类器的影响，提出了去除混淆偏差的手段，有助于在观察到的数据分布之外进行泛化。作者还提出了一个简单而有效的算法用于生成反事实图像，并证明了该方法在实际应用中的有效性。
-
-    
-
-    反事实数据增强最近被提出来作为缓解训练数据中混淆偏差的一种方法。这些偏差，比如虚假的关联，是由于数据生成过程中各种观察到的和未观察到的混淆变量引起的。本文正式分析了混淆偏差如何影响下游分类器，并从因果的角度探讨基于反事实数据增强的解决方案。我们探讨如何去除混淆偏差作为学习不变特征的手段，最终有助于在观察到的数据分布之外进行泛化。此外，我们提出了一个简单但强大的算法，用于生成反事实图像，有效地缓解混淆效应对下游分类器的影响。通过在MNIST变体和CelebA数据集上的实验，我们展示了我们的方法的有效性和实用性。
-
-    Counterfactual data augmentation has recently emerged as a method to mitigate confounding biases in the training data for a machine learning model. These biases, such as spurious correlations, arise due to various observed and unobserved confounding variables in the data generation process. In this paper, we formally analyze how confounding biases impact downstream classifiers and present a causal viewpoint to the solutions based on counterfactual data augmentation. We explore how removing confounding biases serves as a means to learn invariant features, ultimately aiding in generalization beyond the observed data distribution. Additionally, we present a straightforward yet powerful algorithm for generating counterfactual images, which effectively mitigates the influence of confounding effects on downstream classifiers. Through experiments on MNIST variants and the CelebA datasets, we demonstrate the effectiveness and practicality of our approach.
-    
-[^6]: 使用R2效用的多目标优化
-
-    Multi-Objective Optimization Using the R2 Utility. (arXiv:2305.11774v1 [math.OC])
-
-    [http://arxiv.org/abs/2305.11774](http://arxiv.org/abs/2305.11774)
-
-    本文提出将多目标优化问题转化为一组单目标问题进行解决，并介绍了R2效用函数作为适当的目标函数。该效用函数单调且次模，可以使用贪心优化算法计算全局最优解。
+    本文通过数值研究探讨了浅层神经网络在逼近和学习高频率方面的困难，重点是通过分析激活函数的谱分析来理解问题的原因。
 
     
 
-    多目标优化的目标是确定描述多目标之间最佳权衡的点集合。为了解决这个矢量值优化问题，从业者常常使用标量化函数将多目标问题转化为一组单目标问题。这组标量化问题可以使用传统的单目标优化技术来解决。在这项工作中，我们将这个约定形式化为一个通用的数学框架。我们展示了这种策略如何有效地将原始的多目标优化问题重新转化为定义在集合上的单目标优化问题。针对这个新问题的适当类别的目标函数是R2效用函数，它被定义为标量化优化问题的加权积分。我们证明了这个效用函数是单调的和次模的集合函数，可以通过贪心优化算法有效地计算出全局最优解。
+    本研究通过对分析和实验的综合数值研究，解释了为什么两层神经网络在机器精度和计算成本等实际因素中，处理高频率的逼近和学习存在困难。具体而言，研究了以下基本计算问题：（1）在有限的机器精度下可以达到的最佳精度，（2）实现给定精度所需的计算成本，以及（3）对扰动的稳定性。研究的关键是相应激活函数的格拉姆矩阵的谱分析，该分析还显示了激活函数属性在这个问题中的作用。
 
-    The goal of multi-objective optimization is to identify a collection of points which describe the best possible trade-offs between the multiple objectives. In order to solve this vector-valued optimization problem, practitioners often appeal to the use of scalarization functions in order to transform the multi-objective problem into a collection of single-objective problems. This set of scalarized problems can then be solved using traditional single-objective optimization techniques. In this work, we formalise this convention into a general mathematical framework. We show how this strategy effectively recasts the original multi-objective optimization problem into a single-objective optimization problem defined over sets. An appropriate class of objective functions for this new problem is the R2 utility function, which is defined as a weighted integral over the scalarized optimization problems. We show that this utility function is a monotone and submodular set function, which can be op
+    In this work, a comprehensive numerical study involving analysis and experiments shows why a two-layer neural network has difficulties handling high frequencies in approximation and learning when machine precision and computation cost are important factors in real practice. In particular, the following fundamental computational issues are investigated: (1) the best accuracy one can achieve given a finite machine precision, (2) the computation cost to achieve a given accuracy, and (3) stability with respect to perturbations. The key to the study is the spectral analysis of the corresponding Gram matrix of the activation functions which also shows how the properties of the activation function play a role in the picture.
     
-[^7]: 一类DC复合优化问题的非精确线性近似近端算法及应用
+[^8]: 使用正交序列的差分隐私无线联合学习方法
 
-    An inexact linearized proximal algorithm for a class of DC composite optimization problems and applications. (arXiv:2303.16822v1 [math.OC])
+    Differentially Private Wireless Federated Learning Using Orthogonal Sequences. (arXiv:2306.08280v1 [cs.IT])
 
-    [http://arxiv.org/abs/2303.16822](http://arxiv.org/abs/2303.16822)
+    [http://arxiv.org/abs/2306.08280](http://arxiv.org/abs/2306.08280)
 
-    本文提出了一种解决非凸非光滑问题的非精确线性化近端算法，并应用于鲁棒分解中的两个问题，得到了有效的数值结果。
-
-    
-
-    本文研究了一类DC复合优化问题。这类问题通常由低秩矩阵恢复的鲁棒分解模型推导而来，是凸复合优化问题和具有非光滑分量的DC规划的扩展。针对这类非凸和非光滑问题，我们提出了一种非精确线性化近端算法（iLPA）。算法中，我们利用目标函数的部分线性化，计算强凸主导的非精确最小化值。迭代序列的生成收敛于潜在函数的Kurdyka-{\L}ojasiewicz（KL）性质，如果潜在函数在极限点处具有KL指数$1/2$的KL性质，则收敛具有局部R线性速率。对于后一种假设，我们利用复合结构提供了一个可验证的条件，并阐明了与凸复合优化所使用的正则性的关系。最后，我们将所提出的非精确线性近端算法应用于解决鲁棒分解中的两个重要问题：张量鲁棒主成分分析（TRPCA）和张量鲁棒低秩张量完成（TRLRTC）。对合成和真实数据的数值结果证明了我们的算法相对于现有最新算法的有效性。
-
-    This paper is concerned with a class of DC composite optimization problems which, as an extension of the convex composite optimization problem and the DC program with nonsmooth components, often arises from robust factorization models of low-rank matrix recovery. For this class of nonconvex and nonsmooth problems, we propose an inexact linearized proximal algorithm (iLPA) which in each step computes an inexact minimizer of a strongly convex majorization constructed by the partial linearization of their objective functions. The generated iterate sequence is shown to be convergent under the Kurdyka-{\L}ojasiewicz (KL) property of a potential function, and the convergence admits a local R-linear rate if the potential function has the KL property of exponent $1/2$ at the limit point. For the latter assumption, we provide a verifiable condition by leveraging the composite structure, and clarify its relation with the regularity used for the convex composite optimization. Finally, the propose
-    
-[^8]: 数据稀疏化技术用于卷积封闭分布
-
-    Data thinning for convolution-closed distributions. (arXiv:2301.07276v2 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2301.07276](http://arxiv.org/abs/2301.07276)
-
-    本文提出了数据稀疏化方法，适用于很多分布类型，包括高斯分布、泊松分布、负二项分布、伽玛分布和二项分布等。该方法具有广泛的应用，如在交叉验证方面提供了一种新的方法，能有效验证无监督学习算法的可靠性。
+    本文提出了一种使用正交序列的FLORAS方法，可消除发送端的信道状态信息，同时提供了项目级和客户级的差分隐私保证。FLORAS可以灵活地实现不同的差分隐私等级，并且通过推导收敛界限，实现了收敛速度和隐私保证之间的平稳权衡。
 
     
 
-    我们提出了一种称为数据稀疏化的方法，将一个观测值分成两个或更多个互相独立的部分，这些部分都加起来等于原始数据，并且与原始观测值相同的分布，只是经过一个已知参数调整。这个非常普适的方法适用于任何卷积封闭分布，包括高斯分布、泊松分布、负二项分布、伽玛分布和二项分布等。数据稀疏化在模型选择、评价和推理方面有多种应用。例如，通过数据稀疏化的交叉验证提供了一种吸引人的替代方法来进行交叉验证，特别是在无监督的情况下，传统方法的样本划分不适用。我们在模拟和应用于单细胞RNA测序数据的实验中展示了数据稀疏化的普遍性，可以用于验证无监督学习方法的结果，如k-means聚类和主成分分析。
+    本文提出了一种新的隐私保护上行空中计算方法FLORAS，用于单输入单输出（SISO）无线联合学习（FL）系统。FLORAS从通信设计的角度出发，利用正交序列的性质消除了发送端的信道状态信息（CSIT）要求。从隐私保护的角度来看，我们证明FLORAS可以提供项目级和客户级差分隐私（DP）保证。此外，通过调整系统参数，FLORAS可以在不增加成本的情况下灵活地实现不同的DP等级。我们推导出了一个新的FL收敛界限，结合隐私保证，可以在收敛速度和差分隐私级别之间实现平稳的权衡。数值结果证明了FLORAS相对于基准AirComp方法的优势，并验证了我们的分析结果可以指导不同权衡条件下的隐私保护FL的设计。
 
-    We propose data thinning, an approach for splitting an observation into two or more independent parts that sum to the original observation, and that follow the same distribution as the original observation, up to a (known) scaling of a parameter. This very general proposal is applicable to any convolution-closed distribution, a class that includes the Gaussian, Poisson, negative binomial, gamma, and binomial distributions, among others. Data thinning has a number of applications to model selection, evaluation, and inference. For instance, cross-validation via data thinning provides an attractive alternative to the usual approach of cross-validation via sample splitting, especially in unsupervised settings in which the latter is not applicable. In simulations and in an application to single-cell RNA-sequencing data, we show that data thinning can be used to validate the results of unsupervised learning approaches, such as k-means clustering and principal components analysis.
+    We propose a novel privacy-preserving uplink over-the-air computation (AirComp) method, termed FLORAS, for single-input single-output (SISO) wireless federated learning (FL) systems. From the communication design perspective, FLORAS eliminates the requirement of channel state information at the transmitters (CSIT) by leveraging the properties of orthogonal sequences. From the privacy perspective, we prove that FLORAS can offer both item-level and client-level differential privacy (DP) guarantees. Moreover, by adjusting the system parameters, FLORAS can flexibly achieve different DP levels at no additional cost. A novel FL convergence bound is derived which, combined with the privacy guarantees, allows for a smooth tradeoff between convergence rate and differential privacy levels. Numerical results demonstrate the advantages of FLORAS compared with the baseline AirComp method, and validate that our analytical results can guide the design of privacy-preserving FL with different tradeoff 
+    
+[^9]: Hinge-Wasserstein: 通过分类避免回归中的过度自信
+
+    Hinge-Wasserstein: Mitigating Overconfidence in Regression by Classification. (arXiv:2306.00560v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.00560](http://arxiv.org/abs/2306.00560)
+
+    该论文提出了一种基于Wasserstein距离的损失函数hinge-Wasserstein，用于缓解回归任务中由于过度自信导致的不确定性问题。这种损失函数有效提高了aleatoric和epistemic不确定性的质量。
+
+    
+
+    现代深度神经网络在性能方面得到了巨大的提高，但它们容易产生过度自信。在模糊甚至不可预测的现实世界场景中，这种过度自信可能对应用程序的安全性构成重大风险。针对回归任务，采用回归-分类方法有潜力缓解这些歧义，因为它可以预测所需输出的离散概率密度。然而，密度估计仍然倾向于过度自信，尤其是在使用常见的NLL损失函数训练时。为了缓解这种过度自信的问题，我们提出了一种基于Wasserstein距离的损失函数，即hinge-Wasserstein。与以前的工作相比，此损失显着提高了两种不确定性的质量： aleatoric不确定性和epistemic不确定性。我们在合成数据集上展示了新损失的能力，其中两种类型的不确定性可以分别控制。此外，作为现实世界场景的演示，我们在基准数据集上评估了我们的方法。
+
+    Modern deep neural networks are prone to being overconfident despite their drastically improved performance. In ambiguous or even unpredictable real-world scenarios, this overconfidence can pose a major risk to the safety of applications. For regression tasks, the regression-by-classification approach has the potential to alleviate these ambiguities by instead predicting a discrete probability density over the desired output. However, a density estimator still tends to be overconfident when trained with the common NLL loss. To mitigate the overconfidence problem, we propose a loss function, hinge-Wasserstein, based on the Wasserstein Distance. This loss significantly improves the quality of both aleatoric and epistemic uncertainty, compared to previous work. We demonstrate the capabilities of the new loss on a synthetic dataset, where both types of uncertainty are controlled separately. Moreover, as a demonstration for real-world scenarios, we evaluate our approach on the benchmark dat
     
 
