@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Visitors Out! The Absence of Away Team Supporters as a Source of Home Advantage in Football.](http://arxiv.org/abs/2308.06279) | 通过分析阿根廷足球比赛的情况，研究发现禁止客队球迷出席比赛在前两年对前五支球队有益，并且没有观众的情况显著影响了所有球队，使得大多数球队的主场优势变为主场“劣势”。 |
-| [^2] | [Simple model of market structure evolution of service-providing firms.](http://arxiv.org/abs/2304.08727) | 本文提出了一种简单的模型，用于模拟服务提供企业市场结构的演变，其关注点在于每个客户只采用一个公司的市场，以及市场中存在出现和快速获得大市场份额的新公司的干扰。该模型简单易懂，只有两个参数。 |
-| [^3] | [NPV, IRR, PI, PP, and DPP: a unified view.](http://arxiv.org/abs/2302.02875) | 本文提出了一类包含净现值、内部收益率、盈利能力指数、回本期和折现回本期的盈利能力度量标准的统一观点，并提供了概括的公设表征。这一方法提供了一个统一的解释盈利能力指标作为针对经济环境情景集的金融稳定度量标准，并提供了一个比较项目的不确定性的框架。 |
-| [^4] | [On Recoding Ordered Treatments as Binary Indicators.](http://arxiv.org/abs/2111.12258) | 本研究探讨了在使用工具变量研究有序治疗时，将治疗重新编码为二进制指示变量的方法。研究发现，当只存在广泛边际从者时，该方法可以捕捉到治疗效应的加权平均值，并可以进一步解析出每个从者群体的潜在结果均值。并且，研究还建立了广泛边际从者和二因素选择模型之间的等价性， 并应用于研究俄勒冈州健康保险实验中的治疗异质性。 |
+| [^1] | [AI Regulation in the European Union: Examining Non-State Actor Preferences.](http://arxiv.org/abs/2305.11523) | 本篇文章研究了欧洲联盟AI法案，对非国家行为者的规制偏好进行了系统分析。所有类型的非国家行为者都支持对AI进行某种形式的规制，但是在规制范围和严格性上存在显着差异，这可以解释为行业水平的竞争和法规可能带来的分配结果差异。 |
+| [^2] | [The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations.](http://arxiv.org/abs/2210.15914) | 这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。 |
+| [^3] | [Efficient and Convergent Sequential Pseudo-Likelihood Estimation of Dynamic Discrete Games.](http://arxiv.org/abs/1912.10488) | 本研究提出新的顺序高效伪似然估计器(k-EPL)，可用于动态离散选择游戏存在不完全信息情况下的估计。该方法具有渐进有效性和收敛性，并相当于有限样本极大似然估计。该方法的计算简单，模拟结果证实了理论结果的实际效用。 |
 
 # 详细
 
-[^1]: 游客离开！不允许客队支持者的离席成为足球主场优势的来源
+[^1]: 欧洲联盟的人工智能规制: 探究非国家行为者的偏好
 
-    Visitors Out! The Absence of Away Team Supporters as a Source of Home Advantage in Football. (arXiv:2308.06279v1 [econ.GN])
+    AI Regulation in the European Union: Examining Non-State Actor Preferences. (arXiv:2305.11523v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.06279](http://arxiv.org/abs/2308.06279)
+    [http://arxiv.org/abs/2305.11523](http://arxiv.org/abs/2305.11523)
 
-    通过分析阿根廷足球比赛的情况，研究发现禁止客队球迷出席比赛在前两年对前五支球队有益，并且没有观众的情况显著影响了所有球队，使得大多数球队的主场优势变为主场“劣势”。
-
-    
-
-    我们试图通过分析阿根廷足球（也称为足球）这个特定案例来更深入地了解观众对主场优势的影响，而在这里客队球迷在过去十多年里被禁止观看比赛。此外，在COVID-19封锁期间，许多比赛是没有客队和主队球迷的。对阿根廷锦标赛超过20年的比赛分析表明，客队球迷的缺席对前两年出现被禁止行为的前5支球队有益。另一个有趣的发现是，没有观众的状况对所有球队都产生了显著影响，以至于将主场优势变成了大多数球队的主场“劣势”。
-
-    We seek to gain more insight into the effect of the crowds on the Home Advantage by analyzing the particular case of Argentinean football (also known as soccer), where for more than ten years, the visiting team fans were not allowed to attend the games. Additionally, during the COVID-19 lockdown, a significant number of games were played without both away and home team fans. The analysis of more than 20 years of matches of the Argentinean tournament indicates that the absence of the away team crowds was beneficial for the Top 5 teams during the first two years after their attendance was forbidden. An additional intriguing finding is that the lack of both crowds affects significantly all the teams, to the point of turning the home advantage into home `disadvantage' for most of the teams.
-    
-[^2]: 服务提供企业市场结构演变的简单模型
-
-    Simple model of market structure evolution of service-providing firms. (arXiv:2304.08727v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2304.08727](http://arxiv.org/abs/2304.08727)
-
-    本文提出了一种简单的模型，用于模拟服务提供企业市场结构的演变，其关注点在于每个客户只采用一个公司的市场，以及市场中存在出现和快速获得大市场份额的新公司的干扰。该模型简单易懂，只有两个参数。
+    本篇文章研究了欧洲联盟AI法案，对非国家行为者的规制偏好进行了系统分析。所有类型的非国家行为者都支持对AI进行某种形式的规制，但是在规制范围和严格性上存在显着差异，这可以解释为行业水平的竞争和法规可能带来的分配结果差异。
 
     
 
-    服务提供企业之间通过竞争来获取客户，创造了从少数巨头公司到许多小型公司的市场结构。这些市场结构会随时间演变，并在许多年后保持稳定，然后经历新公司出现并快速获得大市场份额的干扰。本文旨在寻找最简单的真实模型，以产生这种多样的市场结构和动态。我们重点关注的是每个客户只采用一个公司的市场，并可以不时地转向另一个公司，例如手机和互联网服务提供商市场。在该模型中，被标记为i的特定企业的规模等于其当前客户数量ni。在模拟的每一步中，随机选择一个客户，然后以pi =（beta + ni ^ alpha）/ K的概率从整个公司集合中选择一个公司，其中K是正则化因子。因此，我们的模型具有两个参数：alpha代表退化
+    随着人工智能（AI）的发展和应用不断增长，政策制定者越来越在努力解决如何规制该技术的问题。最具影响力的国际倡议是欧洲联盟（EU）的AI法案，旨在建立第一个全面的AI规制框架。本文首次系统分析了非国家行为者对人工智能国际规制的偏好，重点研究了EU AI法案的情况。在理论上，我们阐述了商业行为者和其他非国家行为者在不同的AI行业竞争条件下的规制偏好的论点。在经验上，我们使用关于欧洲AI规制的公共咨询中非国家行为者偏好的数据来测试这些期望。我们的研究结果有三个方面。首先，所有类型的非国家行为者都表达了对AI的担忧，并支持以某种形式规制AI。其次，尽管如此，不同类型的非国家行为者在AI的规制严格性和范围方面存在显着差异。第三，这些差异部分可以通过规制可能带来的行业水平竞争和分配结果的差异来解释。总体而言，我们的分析揭示了AI规制的复杂和有争议的政治，不仅在欧盟内部，而且超越欧盟的背景下也是如此。
 
-    Service-providing firms compete for clients, creating market structures ranging from domination by a few giant companies to markets in which there are many small firms. These market structures evolve in time, and may remain stable for many years before experiencing a disruption in which a new firm emerges and rapidly obtains a large market share. We seek the simplest realistic model giving rise to such diverse market structures and dynamics. We focus on markets in which every client adopts a single firm, and can, from time to time, switch to a different firm. The markets of cell phone and Internet service providers are examples. In the model, the size of a particular firm, labelled i, is equal to its current number of clients, ni. In every step of the simulation, a client is chosen at random, and then selects a firm from among the full set of firms with probability pi = (beta + ni^alpha)/K, where K is the normalization factor. Our model thus has two parameters: alpha represents the deg
+    As the development and use of artificial intelligence (AI) continues to grow, policymakers are increasingly grappling with the question of how to regulate this technology. The most far-reaching international initiative is the European Union (EU) AI Act, which aims to establish the first comprehensive framework for regulating AI. In this article, we offer the first systematic analysis of non-state actor preferences toward international regulation of AI, focusing on the case of the EU AI Act. Theoretically, we develop an argument about the regulatory preferences of business actors and other non-state actors under varying conditions of AI sector competitiveness. Empirically, we test these expectations using data on non-state actor preferences from public consultations on European AI regulation. Our findings are threefold. First, all types of non-state actors express concerns about AI and support regulation in some form. Second, there are nonetheless significant differences across actor ty
     
-[^3]: NPV、IRR、PI、PP和DPP：统一观点
+[^2]: 移民、移民者和当地人在欧洲知识聚集形成中的历史角色
 
-    NPV, IRR, PI, PP, and DPP: a unified view. (arXiv:2302.02875v5 [econ.GN] UPDATED)
+    The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations. (arXiv:2210.15914v5 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2302.02875](http://arxiv.org/abs/2302.02875)
+    [http://arxiv.org/abs/2210.15914](http://arxiv.org/abs/2210.15914)
 
-    本文提出了一类包含净现值、内部收益率、盈利能力指数、回本期和折现回本期的盈利能力度量标准的统一观点，并提供了概括的公设表征。这一方法提供了一个统一的解释盈利能力指标作为针对经济环境情景集的金融稳定度量标准，并提供了一个比较项目的不确定性的框架。
-
-    
-
-    本文引入了一类投资项目的盈利能力度量标准，包括净现值准则（如果NPV非负，则将项目标记为弱盈利项目）、内部收益率（IRR）、盈利能力指数（PI）、回本期（PP）及其折现对应物（DPP）作为特例。介绍了该类标准及其中提及的传统标准的公设表征。该方法至少在三方面有用。首先，它提供了盈利能力指标作为针对经济环境情景集的金融稳定度量标准的统一解释。其次，它显示，在NPV准则以外，盈利指标必然不完善（即存在不可比较的项目）。特别是，这意味着将IRR扩展到所有项目空间中的任何扩展都不符合一组合理条件。为损失指标提供了类似的分类。第三，它为在不确定性下比较项目提供了一个统一的框架，其中使用期望值准则可能导致等级反转。
-
-    This paper introduces a class of investment project's profitability metrics that includes the net present value criterion (which labels a project as weakly profitable if its NPV is nonnegative), the internal rate of return (IRR), the profitability index (PI), the payback period (PP) and its discounted counterpart (DPP) as special cases. An axiomatic characterization of this class, as well as of the mentioned conventional metrics within the class, is presented. This approach is useful at least in three respects. First, it suggests a unified interpretation for profitability metrics as measures of financial stability of a project with respect to a collection of scenarios of economic environment. Second, it shows that, with the exception of the NPV criterion, a profitability metric is necessarily incomplete (i.e., there are incomparable projects). In particular, this implies that any extension of the IRR to the space of all projects does not meet a set of reasonable conditions. A similar c
-    
-[^4]: 关于将有序治疗重新编码为二进制指示变量的研究
-
-    On Recoding Ordered Treatments as Binary Indicators. (arXiv:2111.12258v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2111.12258](http://arxiv.org/abs/2111.12258)
-
-    本研究探讨了在使用工具变量研究有序治疗时，将治疗重新编码为二进制指示变量的方法。研究发现，当只存在广泛边际从者时，该方法可以捕捉到治疗效应的加权平均值，并可以进一步解析出每个从者群体的潜在结果均值。并且，研究还建立了广泛边际从者和二因素选择模型之间的等价性， 并应用于研究俄勒冈州健康保险实验中的治疗异质性。
+    这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。
 
     
 
-    在使用工具变量研究有序治疗的研究中，常常将治疗重新编码为任何暴露的指示变量。我们在假设仪器将从无治疗转移到一些治疗中的从者，但不会从一些治疗转移到更多治疗的情况下，研究了该估计量。我们发现，当只存在广泛边际的从者时，该估计量捕捉了治疗效应的加权平均值，并且可以从各个从者群体的潜在结果均值中部分解开。我们还建立了广泛边际从者和二因素选择模型之间的等价性，并将我们的结果应用于研究俄勒冈州健康保险实验中的治疗异质性。
+    移民是不是让巴黎成为了艺术圣地，维也纳成为了古典音乐的灯塔？还是他们的崛起纯粹是当地人的结果？在这里，我们使用了关于22000多名生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。我们发现，一个地区在某种活动（基于著名物理学家、画家等的出生）发展或保持专业化的概率随着对该活动具有知识的移民和对相关活动具有知识的移民的存在而增加。相比之下，我们并没有找到有力的证据表明当地人具有相关知识的存在解释了进入和/或退出。我们通过考虑任何特定地点-时期-活动因素（例如吸引科学家的新大学的存在）的固定效应模型来解决一些内生性问题。
 
-    Researchers using instrumental variables to investigate ordered treatments often recode treatment into an indicator for any exposure. We investigate this estimand under the assumption that the instruments shift compliers from no treatment to some but not from some treatment to more. We show that when there are extensive margin compliers only (EMCO) this estimand captures a weighted average of treatment effects that can be partially unbundled into each complier group's potential outcome means. We also establish an equivalence between EMCO and a two-factor selection model and apply our results to study treatment heterogeneity in the Oregon Health Insurance Experiment.
+    Did migrants make Paris a Mecca for the arts and Vienna a beacon of classical music? Or was their rise a pure consequence of local actors? Here, we use data on more than 22,000 historical individuals born between the years 1000 and 2000 to estimate the contribution of famous immigrants, emigrants, and locals to the knowledge specializations of European regions. We find that the probability that a region develops or keeps specialization in an activity (based on the birth of famous physicists, painters, etc.) grows with both, the presence of immigrants with knowledge on that activity and immigrants with knowledge in related activities. In contrast, we do not find robust evidence that the presence of locals with related knowledge explains entries and/or exits. We address some endogeneity concerns using fixed-effects models considering any location-period-activity specific factors (e.g. the presence of a new university attracting scientists).
+    
+[^3]: 动态不完全信息离散博弈的高效和收敛的顺序伪似然估计
+
+    Efficient and Convergent Sequential Pseudo-Likelihood Estimation of Dynamic Discrete Games. (arXiv:1912.10488v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1912.10488](http://arxiv.org/abs/1912.10488)
+
+    本研究提出新的顺序高效伪似然估计器(k-EPL)，可用于动态离散选择游戏存在不完全信息情况下的估计。该方法具有渐进有效性和收敛性，并相当于有限样本极大似然估计。该方法的计算简单，模拟结果证实了理论结果的实际效用。
+
+    
+
+    我们提出了一种新的用于动态离散选择游戏不完全信息的顺序高效伪似然估计器(k-EPL)。我们表明，k-EPL序列中的每次迭代都是一致和渐近有效的，因此，一阶渐近性质随着迭代不变。此外，我们展示了这个序列达到了有限样本极大似然估计的高阶等效性，并且当数据由任何正则马尔可夫完美均衡生成时，估计序列几乎必然地以近超线性速率收敛到极大似然估计。当效用线性参数时，k-EPL迭代是计算上简单的，只需要研究人员解决线性方程组以生成伪回归器，然后在静态logit/probit回归中使用它们。蒙特卡罗模拟展示了理论结果的实际结果。
+
+    We propose a new sequential Efficient Pseudo-Likelihood (k-EPL) estimator for dynamic discrete choice games of incomplete information. We show that each iteration in the k-EPL sequence is consistent and asymptotically efficient, so the first-order asymptotic properties do not vary across iterations. Furthermore, we show the sequence achieves higher-order equivalence to the finite-sample maximum likelihood estimator with iteration and that the sequence of estimators converges almost surely to the maximum likelihood estimator at a nearly-superlinear rate when the data are generated by any regular Markov perfect equilibrium, including equilibria that lead to inconsistency of other sequential estimators. When utility is linear in parameters, k-EPL iterations are computationally simple, only requiring that the researcher solve linear systems of equations to generate pseudo-regressors which are used in a static logit/probit regression. Monte Carlo simulations demonstrate the theoretical resu
     
 
