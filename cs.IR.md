@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Graph Neural Networks for Recommendation: Reproducibility, Graph Topology, and Node Representation.](http://arxiv.org/abs/2310.11270) | 本教程针对推荐中的图神经网络的三个关键方面进行了探讨：最先进方法的可复现性，图拓扑特征对模型性能的影响，以及学习节点表示的策略。 |
-| [^2] | [Towards Populating Generalizable Engineering Design Knowledge.](http://arxiv.org/abs/2307.06985) | 这项研究提出了一种从专利文件中提取工程设计知识的方法，通过构建知识图来填充通用设计知识，并与现有方法进行了比较。 |
+| [^1] | [LLMRec: Large Language Models with Graph Augmentation for Recommendation.](http://arxiv.org/abs/2311.00423) | LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。 |
+| [^2] | [FASER: Binary Code Similarity Search through the use of Intermediate Representations.](http://arxiv.org/abs/2310.03605) | 本论文提出了一种名为FASER的方法，通过使用中间表示进行二进制代码相似性搜索。该方法可以跨架构地识别函数，并明确编码函数的语义，以支持各种应用场景。 |
+| [^3] | [DiskANN++: Efficient Page-based Search over Isomorphic Mapped Graph Index using Query-sensitivity Entry Vertex.](http://arxiv.org/abs/2310.00402) | 提出了一个优化的DiskANN++方法，使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索。 |
 
 # 详细
 
-[^1]: 推荐系统中的图神经网络: 可复现性、图拓扑和节点表示
+[^1]: LLMRec: 使用图增强的大型语言模型用于推荐系统
 
-    Graph Neural Networks for Recommendation: Reproducibility, Graph Topology, and Node Representation. (arXiv:2310.11270v2 [cs.IR] UPDATED)
+    LLMRec: Large Language Models with Graph Augmentation for Recommendation. (arXiv:2311.00423v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.11270](http://arxiv.org/abs/2310.11270)
+    [http://arxiv.org/abs/2311.00423](http://arxiv.org/abs/2311.00423)
 
-    本教程针对推荐中的图神经网络的三个关键方面进行了探讨：最先进方法的可复现性，图拓扑特征对模型性能的影响，以及学习节点表示的策略。
-
-    
-
-    最近几年，图神经网络（GNNs）在推荐系统中变得越来越重要。通过将用户-物品矩阵表示为一个二部图和无向图，GNN能够捕捉用户-物品之间的近距离和远距离交互，从而比传统推荐方法学习到更准确的偏好模式。与之前的同类教程不同，本教程旨在展示和探讨推荐中GNNs的三个关键方面：（i）最先进方法的可复现性，（ii）图拓扑特征对模型性能的潜在影响，以及（iii）在从零开始训练特征或利用预训练嵌入作为额外物品信息（例如多模态特征）时，学习节点表示的策略。我们的目标是为该领域提供三个新颖的理论和实践视角，目前在图学习中存在争议。
-
-    Graph neural networks (GNNs) have gained prominence in recommendation systems in recent years. By representing the user-item matrix as a bipartite and undirected graph, GNNs have demonstrated their potential to capture short- and long-distance user-item interactions, thereby learning more accurate preference patterns than traditional recommendation approaches. In contrast to previous tutorials on the same topic, this tutorial aims to present and examine three key aspects that characterize GNNs for recommendation: (i) the reproducibility of state-of-the-art approaches, (ii) the potential impact of graph topological characteristics on the performance of these models, and (iii) strategies for learning node representations when training features from scratch or utilizing pre-trained embeddings as additional item information (e.g., multimodal features). The goal is to provide three novel theoretical and practical perspectives on the field, currently subject to debate in graph learning but l
-    
-[^2]: 迈向填充通用工程设计知识的方法
-
-    Towards Populating Generalizable Engineering Design Knowledge. (arXiv:2307.06985v1 [cs.CL])
-
-    [http://arxiv.org/abs/2307.06985](http://arxiv.org/abs/2307.06985)
-
-    这项研究提出了一种从专利文件中提取工程设计知识的方法，通过构建知识图来填充通用设计知识，并与现有方法进行了比较。
+    LLMRec是一种利用大型语言模型的图增强策略来改进推荐系统的新方法，它解决了数据稀缺性和附加信息引入副作用的问题，通过加强交互边、增强物品节点属性理解和进行用户节点建模来提高推荐性能。
 
     
 
-    为了填充通用工程设计知识，我们提出了一种从专利文件中提取head entity :: relationship :: tail entity形式事实的方法。这些事实可以在专利文件内部和跨文件之间组合形成知识图，用作表示和存储设计知识的方案。现有的工程设计文献中的方法通常利用一组预定义的关系来填充统计近似而非事实的三元组。在我们的方法中，我们训练一个标记器来识别句子中的实体和关系。在确定了一对实体后，我们训练另一个标记器来识别特定表示这对实体之间关系的关系标记。为了训练这些标记器，我们手动构建了一个包含44,227个句子和相应事实的数据集。我们还将该方法的性能与通常推荐的方法进行了比较，其中我们预.
+    数据稀疏性一直是推荐系统中的一个挑战，之前的研究尝试通过引入附加信息来解决这个问题。然而，这种方法往往会带来噪声、可用性问题和数据质量低下等副作用，从而影响对用户偏好的准确建模，进而对推荐性能产生不利影响。鉴于大型语言模型（LLM）在知识库和推理能力方面的最新进展，我们提出了一个名为LLMRec的新框架，它通过采用三种简单而有效的基于LLM的图增强策略来增强推荐系统。我们的方法利用在线平台（如Netflix，MovieLens）中丰富的内容，在三个方面增强交互图：（i）加强用户-物品交互边，（ii）增强对物品节点属性的理解，（iii）进行用户节点建模，直观地表示用户特征。
 
-    Aiming to populate generalizable engineering design knowledge, we propose a method to extract facts of the form head entity :: relationship :: tail entity from sentences found in patent documents. These facts could be combined within and across patent documents to form knowledge graphs that serve as schemes for representing as well as storing design knowledge. Existing methods in engineering design literature often utilise a set of predefined relationships to populate triples that are statistical approximations rather than facts. In our method, we train a tagger to identify both entities and relationships from a sentence. Given a pair of entities thus identified, we train another tagger to identify the relationship tokens that specifically denote the relationship between the pair. For training these taggers, we manually construct a dataset of 44,227 sentences and corresponding facts. We also compare the performance of the method against typically recommended approaches, wherein, we pre
+    The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuiti
+    
+[^2]: FASER: 通过中间表示进行二进制代码相似性搜索
+
+    FASER: Binary Code Similarity Search through the use of Intermediate Representations. (arXiv:2310.03605v1 [cs.CR])
+
+    [http://arxiv.org/abs/2310.03605](http://arxiv.org/abs/2310.03605)
+
+    本论文提出了一种名为FASER的方法，通过使用中间表示进行二进制代码相似性搜索。该方法可以跨架构地识别函数，并明确编码函数的语义，以支持各种应用场景。
+
+    
+
+    能够识别跨架构软件中感兴趣的函数对于分析恶意软件、保护软件供应链或进行漏洞研究都是有用的。跨架构二进制代码相似性搜索已在许多研究中探索，并使用了各种不同的数据来源来实现其目标。通常使用的数据来源包括从二进制文件中提取的常见结构，如函数控制流图或二进制级调用图，反汇编过程的输出或动态分析方法的输出。其中一种受到较少关注的数据来源是二进制中间表示。二进制中间表示具有两个有趣的属性：它们的跨架构性质以及明确编码函数的语义以支持下游使用。在本文中，我们提出了一种名为FASER的函数字符串编码表示方法，它结合了长文档转换技术。
+
+    Being able to identify functions of interest in cross-architecture software is useful whether you are analysing for malware, securing the software supply chain or conducting vulnerability research. Cross-Architecture Binary Code Similarity Search has been explored in numerous studies and has used a wide range of different data sources to achieve its goals. The data sources typically used draw on common structures derived from binaries such as function control flow graphs or binary level call graphs, the output of the disassembly process or the outputs of a dynamic analysis approach. One data source which has received less attention is binary intermediate representations. Binary Intermediate representations possess two interesting properties: they are cross architecture by their very nature and encode the semantics of a function explicitly to support downstream usage. Within this paper we propose Function as a String Encoded Representation (FASER) which combines long document transforme
+    
+[^3]: DiskANN++: 使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索
+
+    DiskANN++: Efficient Page-based Search over Isomorphic Mapped Graph Index using Query-sensitivity Entry Vertex. (arXiv:2310.00402v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2310.00402](http://arxiv.org/abs/2310.00402)
+
+    提出了一个优化的DiskANN++方法，使用查询敏感的入口顶点在同构映射图索引上进行高效基于页面的搜索。
+
+    
+
+    给定一个向量数据集X和一个查询向量xq，基于图的近似最近邻搜索(ANNS)旨在构建一个图索引G，并通过在G上搜索来近似返回与xq的最小距离向量。基于图的ANNS的主要缺点是图索引太大，无法适应尤其是大规模X的内存。为了解决这个问题，提出了一种基于产品量化(PQ)的混合方法DiskANN，它在内存中存储低维度的PQ索引，并在SSD中保留图索引，从而减小内存开销同时确保高搜索准确性。然而，它存在两个重要的I/O问题，严重影响了整体效率：(1)从入口顶点到查询邻域的长路径导致大量的I/O请求，以及(2)在路由过程中的冗余I/O请求。为了解决上述问题，我们提出了优化的DiskANN++。
+
+    Given a vector dataset $\mathcal{X}$ and a query vector $\vec{x}_q$, graph-based Approximate Nearest Neighbor Search (ANNS) aims to build a graph index $G$ and approximately return vectors with minimum distances to $\vec{x}_q$ by searching over $G$. The main drawback of graph-based ANNS is that a graph index would be too large to fit into the memory especially for a large-scale $\mathcal{X}$. To solve this, a Product Quantization (PQ)-based hybrid method called DiskANN is proposed to store a low-dimensional PQ index in memory and retain a graph index in SSD, thus reducing memory overhead while ensuring a high search accuracy. However, it suffers from two I/O issues that significantly affect the overall efficiency: (1) long routing path from an entry vertex to the query's neighborhood that results in large number of I/O requests and (2) redundant I/O requests during the routing process. We propose an optimized DiskANN++ to overcome above issues. Specifically, for the first issue, we pre
     
 

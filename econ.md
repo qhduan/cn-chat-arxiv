@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [AI Regulation in the European Union: Examining Non-State Actor Preferences.](http://arxiv.org/abs/2305.11523) | 本篇文章研究了欧洲联盟AI法案，对非国家行为者的规制偏好进行了系统分析。所有类型的非国家行为者都支持对AI进行某种形式的规制，但是在规制范围和严格性上存在显着差异，这可以解释为行业水平的竞争和法规可能带来的分配结果差异。 |
-| [^2] | [The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations.](http://arxiv.org/abs/2210.15914) | 这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。 |
-| [^3] | [Efficient and Convergent Sequential Pseudo-Likelihood Estimation of Dynamic Discrete Games.](http://arxiv.org/abs/1912.10488) | 本研究提出新的顺序高效伪似然估计器(k-EPL)，可用于动态离散选择游戏存在不完全信息情况下的估计。该方法具有渐进有效性和收敛性，并相当于有限样本极大似然估计。该方法的计算简单，模拟结果证实了理论结果的实际效用。 |
+| [^1] | [Doubly Robust Uniform Confidence Bands for Group-Time Conditional Average Treatment Effects in Difference-in-Differences.](http://arxiv.org/abs/2305.02185) | 本研究提出了一种双重稳健推断方法，该方法可用于构建在差分中的组时间条件平均处理效应函数的一致置信带。 |
+| [^2] | [Robust Welfare Analysis under Individual Heterogeneity.](http://arxiv.org/abs/2303.01231) | 本文提出了一种利用需求高阶矩来估计平均福利效应的方法，该方法对未观察到的偏好异质性很强，并且对福利变化的分布可以进行鲁棒推断。同时，论文还得出了需求矩必须满足有理消费者群体假设的条件。 |
+| [^3] | [Split Cycle: A New Condorcet Consistent Voting Method Independent of Clones and Immune to Spoilers.](http://arxiv.org/abs/2004.02350) | Split Cycle是一种新的康多塞一致的投票方法，独立于克隆并对攻击者具有免疫性，它可以减轻“破坏者效应”和“强无表决悖论”。 |
 
 # 详细
 
-[^1]: 欧洲联盟的人工智能规制: 探究非国家行为者的偏好
+[^1]: 双重稳健一致置信带在差分中的组时间条件平均处理效应中的应用
 
-    AI Regulation in the European Union: Examining Non-State Actor Preferences. (arXiv:2305.11523v1 [econ.GN])
+    Doubly Robust Uniform Confidence Bands for Group-Time Conditional Average Treatment Effects in Difference-in-Differences. (arXiv:2305.02185v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.11523](http://arxiv.org/abs/2305.11523)
+    [http://arxiv.org/abs/2305.02185](http://arxiv.org/abs/2305.02185)
 
-    本篇文章研究了欧洲联盟AI法案，对非国家行为者的规制偏好进行了系统分析。所有类型的非国家行为者都支持对AI进行某种形式的规制，但是在规制范围和严格性上存在显着差异，这可以解释为行业水平的竞争和法规可能带来的分配结果差异。
-
-    
-
-    随着人工智能（AI）的发展和应用不断增长，政策制定者越来越在努力解决如何规制该技术的问题。最具影响力的国际倡议是欧洲联盟（EU）的AI法案，旨在建立第一个全面的AI规制框架。本文首次系统分析了非国家行为者对人工智能国际规制的偏好，重点研究了EU AI法案的情况。在理论上，我们阐述了商业行为者和其他非国家行为者在不同的AI行业竞争条件下的规制偏好的论点。在经验上，我们使用关于欧洲AI规制的公共咨询中非国家行为者偏好的数据来测试这些期望。我们的研究结果有三个方面。首先，所有类型的非国家行为者都表达了对AI的担忧，并支持以某种形式规制AI。其次，尽管如此，不同类型的非国家行为者在AI的规制严格性和范围方面存在显着差异。第三，这些差异部分可以通过规制可能带来的行业水平竞争和分配结果的差异来解释。总体而言，我们的分析揭示了AI规制的复杂和有争议的政治，不仅在欧盟内部，而且超越欧盟的背景下也是如此。
-
-    As the development and use of artificial intelligence (AI) continues to grow, policymakers are increasingly grappling with the question of how to regulate this technology. The most far-reaching international initiative is the European Union (EU) AI Act, which aims to establish the first comprehensive framework for regulating AI. In this article, we offer the first systematic analysis of non-state actor preferences toward international regulation of AI, focusing on the case of the EU AI Act. Theoretically, we develop an argument about the regulatory preferences of business actors and other non-state actors under varying conditions of AI sector competitiveness. Empirically, we test these expectations using data on non-state actor preferences from public consultations on European AI regulation. Our findings are threefold. First, all types of non-state actors express concerns about AI and support regulation in some form. Second, there are nonetheless significant differences across actor ty
-    
-[^2]: 移民、移民者和当地人在欧洲知识聚集形成中的历史角色
-
-    The Role of Immigrants, Emigrants, and Locals in the Historical Formation of European Knowledge Agglomerations. (arXiv:2210.15914v5 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2210.15914](http://arxiv.org/abs/2210.15914)
-
-    这项研究通过使用超过22000位生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。研究发现，对某种活动具有知识的移民和对相关活动具有知识的移民的存在可以增加一个地区发展或保持专业化的概率，而当地人的相关知识则不能解释进入和/或退出。
+    本研究提出了一种双重稳健推断方法，该方法可用于构建在差分中的组时间条件平均处理效应函数的一致置信带。
 
     
 
-    移民是不是让巴黎成为了艺术圣地，维也纳成为了古典音乐的灯塔？还是他们的崛起纯粹是当地人的结果？在这里，我们使用了关于22000多名生于1000年至2000年之间的历史人物的数据，估计了著名移民、移民者和当地人对欧洲地区知识专业化的贡献。我们发现，一个地区在某种活动（基于著名物理学家、画家等的出生）发展或保持专业化的概率随着对该活动具有知识的移民和对相关活动具有知识的移民的存在而增加。相比之下，我们并没有找到有力的证据表明当地人具有相关知识的存在解释了进入和/或退出。我们通过考虑任何特定地点-时期-活动因素（例如吸引科学家的新大学的存在）的固定效应模型来解决一些内生性问题。
+    本研究考虑了对面板数据进行分析，以研究在Callaway和Sant'Anna（2021）的错位差分设置中，针对感兴趣的预处理协变量的治疗效应异质性。在一组标准识别条件下，一个基于协变量的双重稳健估计值识别了给定协变量的组时间条件平均处理效应。鉴于这个识别结果，我们提出了一个基于非参数局部线性回归和参数估计方法的三步估计程序，并开发了一个双重稳健推断方法来构建组时间条件平均处理效应函数的一致置信带。
 
-    Did migrants make Paris a Mecca for the arts and Vienna a beacon of classical music? Or was their rise a pure consequence of local actors? Here, we use data on more than 22,000 historical individuals born between the years 1000 and 2000 to estimate the contribution of famous immigrants, emigrants, and locals to the knowledge specializations of European regions. We find that the probability that a region develops or keeps specialization in an activity (based on the birth of famous physicists, painters, etc.) grows with both, the presence of immigrants with knowledge on that activity and immigrants with knowledge in related activities. In contrast, we do not find robust evidence that the presence of locals with related knowledge explains entries and/or exits. We address some endogeneity concerns using fixed-effects models considering any location-period-activity specific factors (e.g. the presence of a new university attracting scientists).
+    This study considers a panel data analysis to examine the heterogeneity in treatment effects with respect to a pre-treatment covariate of interest in the staggered difference-in-differences setting in Callaway and Sant'Anna (2021). Under a set of standard identification conditions, a doubly robust estimand conditional on the covariate identifies the group-time conditional average treatment effect given the covariate. Given this identification result, we propose a three-step estimation procedure based on nonparametric local linear regressions and parametric estimation methods, and develop a doubly robust inference method to construct a uniform confidence band of the group-time conditional average treatment effect function.
     
-[^3]: 动态不完全信息离散博弈的高效和收敛的顺序伪似然估计
+[^2]: 个体异质性下的鲁棒福利分析
 
-    Efficient and Convergent Sequential Pseudo-Likelihood Estimation of Dynamic Discrete Games. (arXiv:1912.10488v3 [econ.EM] UPDATED)
+    Robust Welfare Analysis under Individual Heterogeneity. (arXiv:2303.01231v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/1912.10488](http://arxiv.org/abs/1912.10488)
+    [http://arxiv.org/abs/2303.01231](http://arxiv.org/abs/2303.01231)
 
-    本研究提出新的顺序高效伪似然估计器(k-EPL)，可用于动态离散选择游戏存在不完全信息情况下的估计。该方法具有渐进有效性和收敛性，并相当于有限样本极大似然估计。该方法的计算简单，模拟结果证实了理论结果的实际效用。
+    本文提出了一种利用需求高阶矩来估计平均福利效应的方法，该方法对未观察到的偏好异质性很强，并且对福利变化的分布可以进行鲁棒推断。同时，论文还得出了需求矩必须满足有理消费者群体假设的条件。
 
     
 
-    我们提出了一种新的用于动态离散选择游戏不完全信息的顺序高效伪似然估计器(k-EPL)。我们表明，k-EPL序列中的每次迭代都是一致和渐近有效的，因此，一阶渐近性质随着迭代不变。此外，我们展示了这个序列达到了有限样本极大似然估计的高阶等效性，并且当数据由任何正则马尔可夫完美均衡生成时，估计序列几乎必然地以近超线性速率收敛到极大似然估计。当效用线性参数时，k-EPL迭代是计算上简单的，只需要研究人员解决线性方程组以生成伪回归器，然后在静态logit/probit回归中使用它们。蒙特卡罗模拟展示了理论结果的实际结果。
+    目前测量价格变化的福利效应通常使用横截面数据。但是，使用横截面数据无法识别需求，除非假设所有消费者都是相同的。本文利用从横截面数据中可识别的需求高阶矩来开发估计平均福利效应的方法，这种方法鲁棒性对未观察到的偏好异质性很强。我们的局部近似不对未观察到的东西施加任何限制。此外，我们的方法使得福利变化的分布可以进行鲁棒推断。最后，我们得出了需求矩必须满足有理消费者群体假设的条件。我们在英国家庭预算调查数据上说明了我们的方法。
 
-    We propose a new sequential Efficient Pseudo-Likelihood (k-EPL) estimator for dynamic discrete choice games of incomplete information. We show that each iteration in the k-EPL sequence is consistent and asymptotically efficient, so the first-order asymptotic properties do not vary across iterations. Furthermore, we show the sequence achieves higher-order equivalence to the finite-sample maximum likelihood estimator with iteration and that the sequence of estimators converges almost surely to the maximum likelihood estimator at a nearly-superlinear rate when the data are generated by any regular Markov perfect equilibrium, including equilibria that lead to inconsistency of other sequential estimators. When utility is linear in parameters, k-EPL iterations are computationally simple, only requiring that the researcher solve linear systems of equations to generate pseudo-regressors which are used in a static logit/probit regression. Monte Carlo simulations demonstrate the theoretical resu
+    Welfare effects of price changes are often estimated with cross-sectional data. However, cross-sectional data do not identify demand unless all consumers are assumed to be identical. We exploit higher moments of demand, identifiable from cross-sectional data, to develop estimates of average welfare effects that are robust to unobserved preference heterogeneity. Our local approximations do not impose any restrictions on unobservables. In addition, our approach enables robust inference on the distribution of welfare changes. Finally, we obtain conditions that moments of demand must satisfy to arise from a population of rational consumers. We illustrate our methods on household budget survey data from the UK.
+    
+[^3]: Split Cycle：一种新的康多塞一致投票方法，独立于克隆并对攻击者具有免疫性
+
+    Split Cycle: A New Condorcet Consistent Voting Method Independent of Clones and Immune to Spoilers. (arXiv:2004.02350v9 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2004.02350](http://arxiv.org/abs/2004.02350)
+
+    Split Cycle是一种新的康多塞一致的投票方法，独立于克隆并对攻击者具有免疫性，它可以减轻“破坏者效应”和“强无表决悖论”。
+
+    
+
+    我们提出了一种康多塞一致的投票方法，称为Split Cycle。Split Cycle属于已知的几种满足克隆无关性的反投票分割标准的投票方法之一。在这个家族中，只有Split Cycle满足我们称为对攻击者具有免疫性的新标准，该标准涉及向选举中添加候选人，以及涉及向选举中添加选民的已知标准，包括正结社和负结社。因此，与其他克隆无关的方法相比，Split Cycle减轻了“破坏者效应”和“强无表决悖论”。
+
+    We propose a Condorcet consistent voting method that we call Split Cycle. Split Cycle belongs to the small family of known voting methods satisfying the anti-vote-splitting criterion of independence of clones. In this family, only Split Cycle satisfies a new criterion we call immunity to spoilers, which concerns adding candidates to elections, as well as the known criteria of positive involvement and negative involvement, which concern adding voters to elections. Thus, in contrast to other clone-independent methods, Split Cycle mitigates both ``spoiler effects'' and ``strong no show paradoxes.''
     
 
