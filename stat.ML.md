@@ -2,157 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Banach Space Optimality of Neural Architectures With Multivariate Nonlinearities.](http://arxiv.org/abs/2310.03696) | 本文研究了具有多变量非线性激活函数的神经网络架构在Banach空间的优化性，并构建了一类新的Banach空间家族。结果表明，学习问题的解集完全由具有多变量非线性的神经网络架构来描述。这些最优架构具有跳跃连接，并与正交权重归一化和多索引模型密切相关。 |
-| [^2] | [Divide, Evaluate, and Refine: Evaluating and Improving Text-to-Image Alignment with Iterative VQA Feedback.](http://arxiv.org/abs/2307.04749) | 本文提出了一种划分、评估和细化的方法来改善文本到图像对齐。通过分解复杂的提示并使用VQA模型进行测量，最终得到文本到图像的对齐分数。 |
-| [^3] | [Precise Asymptotic Generalization for Multiclass Classification with Overparameterized Linear Models.](http://arxiv.org/abs/2306.13255) | 本文研究了高斯协变量下的过参数化线性模型在多类分类问题中的泛化能力，成功解决了之前的猜想，并提出的新下界具有信息论中的强对偶定理的性质。 |
-| [^4] | [Functional Flow Matching.](http://arxiv.org/abs/2305.17209) | 本文介绍了一种名为功能流匹配（FFM）的函数空间生成模型，该模型利用概率测度插值和学习底层函数空间上生成测度的向量场来生成数据分布。这种无需似然或模拟的方法在合成和真实世界基准数据集上表现优异，优于最近提出的几种函数空间生成模型。 |
-| [^5] | [Improved Convergence of Score-Based Diffusion Models via Prediction-Correction.](http://arxiv.org/abs/2305.14164) | 本文通过使用预测校正方案，提高了基于得分扩散模型的收敛性。 |
-| [^6] | [A unified framework for information-theoretic generalization bounds.](http://arxiv.org/abs/2305.11042) | 该论文提出了一种基于概率去相关引理和概率测度空间中一些其他技术的通用方法，可以得到新的学习算法的信息论泛化上限，并且能够恢复许多现有的泛化界，如基于互信息、条件互信息、随机chaining和PAC-Bayes不等式的界。 |
-| [^7] | [Microcanonical Langevin Monte Carlo.](http://arxiv.org/abs/2303.18221) | 我们提出的微正则 Langevin Monte Carlo 方法能够高效地采样 $\exp[-S(\x)]$ 分布，同时具有无偏性。 |
-| [^8] | [Causal Estimation of Exposure Shifts with Neural Networks: Evaluating the Health Benefits of Stricter Air Quality Standards in the US.](http://arxiv.org/abs/2302.02560) | 本研究提出了一种神经网络方法，利用其理论基础和实施的可行性，从而估计连续暴露/治疗的分布对政策相关结果的因果效应。我们将此方法应用于包含6800万个个体和2700万个美国境内死亡事件的数据中，通过评估美国国家环境保护局（EPA）对PM2.5的国家环境空气质量标准（NAAQS）进行修订后的健康效益。 |
-| [^9] | [Targeted Separation and Convergence with Kernel Discrepancies.](http://arxiv.org/abs/2209.12835) | 通过核差异度量，我们推导出了新的充分必要条件，实现了将目标分离出来，以及控制对目标的弱收敛性。此外，我们在$\mathbb{R}^d$上使用了这些结果来扩展了核Stein差异分离和收敛控制的已知条件，并开发了能够精确度量目标的弱收敛性的核差异度量。 |
-| [^10] | [Optimal Variable Clustering for High-Dimensional Matrix Valued Data.](http://arxiv.org/abs/2112.12909) | 提出了一种新的针对高维矩阵数据的特征潜变量模型，使用加权协方差矩阵的差异作为不相似度测量的层次聚类算法，理论上实现了聚类一致性，在模拟和真实数据示例中证明了方法的优越性。 |
+| [^1] | [Consistency and adaptivity are complementary targets for the validation of variance-based uncertainty quantification metrics in machine learning regression tasks.](http://arxiv.org/abs/2309.06240) | 这篇论文研究了机器学习回归任务中基于方差的不确定性量化度量的验证，发现一致性和适应性是互补的验证目标，并提出了适应性验证方法。 |
+| [^2] | [Cliqueful graphs as a means of calculating the maximal number of maximum cliques of simple graphs.](http://arxiv.org/abs/2307.14120) | 本论文研究了充满团图的概念，并且发现在简单图中，充满团图的最大数量取决于饱和复合充满团图。通过具体计算，我们得到了在n个顶点上具有最多最大团数量的图形式表达式。 |
+| [^3] | [Universal Online Learning with Gradual Variations: A Multi-layer Online Ensemble Approach.](http://arxiv.org/abs/2307.08360) | 该论文提出了一种具有两个不同级别自适应性的在线凸优化方法，对不同类型的损失函数具有多种遗憾界，并在分析中直接应用于小损失界。同时，它与对抗性/随机凸优化和博弈论有着深刻的联系。 |
+| [^4] | [Data-Adaptive Probabilistic Likelihood Approximation for Ordinary Differential Equations.](http://arxiv.org/abs/2306.05566) | 本文提出了一种数据自适应的贝叶斯滤波范式来解决现有概率ODE求解器无法解决的深层的局部最小值问题，结果表明该方法比现有概率ODE求解器更精确。 |
+| [^5] | [Classical Verification of Quantum Learning.](http://arxiv.org/abs/2306.04843) | 本文提出了一个经典验证量子学习的框架，以便经典客户委托学习给不可信的量子服务器，并成功解决了对仗学习奇偶性和傅里叶稀疏函数不可信量子证明的问题。 |
+| [^6] | [Kernel Quadrature with Randomly Pivoted Cholesky.](http://arxiv.org/abs/2306.03955) | 本文提出了一种新的使用随机选择纯量分解算法的核求积方法，可以在达到可比的求积误差达到率的同时显著降低计算复杂度，并可以应用于任意核的复杂几何结构。 |
+| [^7] | [Loss-Optimal Classification Trees: A Generalized Framework and the Logistic Case.](http://arxiv.org/abs/2306.00857) | 本论文为损失最小化分类树的解决提供了一个通用框架，基于逻辑斯蒂回归的解决方式具有具有解释性特征和竞争泛化能力。 |
+| [^8] | [Solving Linear Inverse Problems using Higher-Order Annealed Langevin Diffusion.](http://arxiv.org/abs/2305.05014) | 本论文提出了一种高阶 Langevin 动力学的算法，可更高效地采样未知变量后验分布，同时加入淬火过程，能应用于离散未知变量情况，数值实验表明在多个任务中相对竞争方法具有更高性能。 |
+| [^9] | [Low-complexity subspace-descent over symmetric positive definite manifold.](http://arxiv.org/abs/2305.02041) | 本文提出了一种基于黎曼子空间下降算法的对称正定流形上的函数最小化方法，其具有低复杂度和避免昂贵矩阵操作和计算黎曼梯度的优点。 |
+| [^10] | [LAVA: Data Valuation without Pre-Specified Learning Algorithms.](http://arxiv.org/abs/2305.00054) | LAVA是一个学习算法无关的数据价值评估方法，它结合了学习算法的统计特性和训练数据的属性，通过迭代估计数据值来实现。LAVA比现有方法计算速度更快，精度更高，并且可以为不同的应用提供有意义的数据排名。 |
+| [^11] | [Temporal Robustness against Data Poisoning.](http://arxiv.org/abs/2302.03684) | 该论文提出了一种针对数据污染的时序威胁模型，通过利用数据的时间戳，引入了提前时间和持续时间这两个指标，从而定义了数据污染的时序鲁棒性，并提供了一种有效的保护方法。 |
+| [^12] | [Neural network based generation of 1-dimensional stochastic fields with turbulent velocity statistics.](http://arxiv.org/abs/2211.11580) | 该论文介绍了一个名为NN-Turb的全卷积神经网络随机模型，用于以湍流速度统计特性生成1维场，而无需接触湍流数据。生成的过程满足Kolmogorov 2/3结构函数定律，同时还表现出负偏斜度和间歇性。 |
 
 # 详细
 
-[^1]: 具有多变量非线性的神经网络架构的Banach空间优化性研究
+[^1]: 一致性和适应性是验证机器学习回归任务中基于方差的不确定性量化度量的互补目标
 
-    Banach Space Optimality of Neural Architectures With Multivariate Nonlinearities. (arXiv:2310.03696v1 [stat.ML])
+    Consistency and adaptivity are complementary targets for the validation of variance-based uncertainty quantification metrics in machine learning regression tasks. (arXiv:2309.06240v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.03696](http://arxiv.org/abs/2310.03696)
+    [http://arxiv.org/abs/2309.06240](http://arxiv.org/abs/2309.06240)
 
-    本文研究了具有多变量非线性激活函数的神经网络架构在Banach空间的优化性，并构建了一类新的Banach空间家族。结果表明，学习问题的解集完全由具有多变量非线性的神经网络架构来描述。这些最优架构具有跳跃连接，并与正交权重归一化和多索引模型密切相关。
-
-    
-
-    本文研究了一大类具有多变量非线性/激活函数的神经网络架构的变分优化性（具体而言，是Banach空间优化性）。为此，我们通过正则化算子和k-平面变换构建了一类新的Banach空间家族。我们证明了一个表示定理，该定理说明在这些Banach空间上提出的学习问题的解集完全由具有多变量非线性的神经网络架构来描述。这些最优的架构具有跳跃连接，并与正交权重归一化和多索引模型息息相关，这两个模型在神经网络界引起了相当大的兴趣。我们的框架适用于包括修正线性单元（ReLU）激活函数、范数激活函数以及在薄板/多次谐波样条理论中找到的径向基函数在内的多种经典非线性函数。
-
-    We investigate the variational optimality (specifically, the Banach space optimality) of a large class of neural architectures with multivariate nonlinearities/activation functions. To that end, we construct a new family of Banach spaces defined via a regularization operator and the $k$-plane transform. We prove a representer theorem that states that the solution sets to learning problems posed over these Banach spaces are completely characterized by neural architectures with multivariate nonlinearities. These optimal architectures have skip connections and are tightly connected to orthogonal weight normalization and multi-index models, both of which have received considerable interest in the neural network community. Our framework is compatible with a number of classical nonlinearities including the rectified linear unit (ReLU) activation function, the norm activation function, and the radial basis functions found in the theory of thin-plate/polyharmonic splines. We also show that the
-    
-[^2]: 划分、评估和细化：通过迭代VQA反馈评估和改善文本到图像对齐
-
-    Divide, Evaluate, and Refine: Evaluating and Improving Text-to-Image Alignment with Iterative VQA Feedback. (arXiv:2307.04749v1 [cs.CV])
-
-    [http://arxiv.org/abs/2307.04749](http://arxiv.org/abs/2307.04749)
-
-    本文提出了一种划分、评估和细化的方法来改善文本到图像对齐。通过分解复杂的提示并使用VQA模型进行测量，最终得到文本到图像的对齐分数。
+    这篇论文研究了机器学习回归任务中基于方差的不确定性量化度量的验证，发现一致性和适应性是互补的验证目标，并提出了适应性验证方法。
 
     
 
-    随着潜在扩散模型的最新出现，以文本为条件的图像生成领域取得了前所未有的进展。然而，尽管具有显著性，但是随着文本输入的复杂性增加，最先进的扩散模型仍可能无法生成准确传达给定提示语义的图像。此外，观察到这种不对齐往往被预训练的多模型（如CLIP）未能检测到。为了解决这些问题，在本文中，我们探索了一种简单且有效的分解方法来评估和改善文本到图像对齐。具体而言，我们首先引入了一种分解对齐分数，它将复杂提示分解为一组不相交的断言。然后，使用VQA模型来测量每个断言与生成的图像的对齐情况。最后，将不同断言的对齐分数合并后，得到最终的文本到图像对齐分数。
+    可靠的不确定性量化是材料和化学科学中许多研究的焦点。目前已经认识到平均校准是不足够的，大多数研究都使用额外的方法来测试条件校准，即一致性。一致性主要通过可靠性图来评估。然而，除了平均校准之外还存在一种方法，即基于输入特征的条件校准，也就是适应性。实际上，适应性是ML-UQ方法的最终用户关注的主要问题，他们寻求对特征空间中的任何点的预测和不确定性的可靠性。本文旨在展示一致性和适应性是互补的验证目标，并且好的一致性并不意味着好的适应性。文章提出并在一个典型示例上进行了适应性验证方法的说明。
 
-    The field of text-conditioned image generation has made unparalleled progress with the recent advent of latent diffusion models. While remarkable, as the complexity of given text input increases, the state-of-the-art diffusion models may still fail in generating images which accurately convey the semantics of the given prompt. Furthermore, it has been observed that such misalignments are often left undetected by pretrained multi-modal models such as CLIP. To address these problems, in this paper we explore a simple yet effective decompositional approach towards both evaluation and improvement of text-to-image alignment. In particular, we first introduce a Decompositional-Alignment-Score which given a complex prompt decomposes it into a set of disjoint assertions. The alignment of each assertion with generated images is then measured using a VQA model. Finally, alignment scores for different assertions are combined aposteriori to give the final text-to-image alignment score. Experimenta
+    Reliable uncertainty quantification (UQ) in machine learning (ML) regression tasks is becoming the focus of many studies in materials and chemical science. It is now well understood that average calibration is insufficient, and most studies implement additional methods testing the conditional calibration with respect to uncertainty, i.e. consistency. Consistency is assessed mostly by so-called reliability diagrams. There exists however another way beyond average calibration, which is conditional calibration with respect to input features, i.e. adaptivity. In practice, adaptivity is the main concern of the final users of a ML-UQ method, seeking for the reliability of predictions and uncertainties for any point in features space. This article aims to show that consistency and adaptivity are complementary validation targets, and that a good consistency does not imply a good adaptivity. Adapted validation methods are proposed and illustrated on a representative example.
     
-[^3]: 过参数化线性模型下多类分类的渐进泛化精度研究
+[^2]: 作为计算简单图的最大团的最大数量的手段的充满团图
 
-    Precise Asymptotic Generalization for Multiclass Classification with Overparameterized Linear Models. (arXiv:2306.13255v1 [cs.LG])
+    Cliqueful graphs as a means of calculating the maximal number of maximum cliques of simple graphs. (arXiv:2307.14120v1 [math.CO])
 
-    [http://arxiv.org/abs/2306.13255](http://arxiv.org/abs/2306.13255)
+    [http://arxiv.org/abs/2307.14120](http://arxiv.org/abs/2307.14120)
 
-    本文研究了高斯协变量下的过参数化线性模型在多类分类问题中的泛化能力，成功解决了之前的猜想，并提出的新下界具有信息论中的强对偶定理的性质。
-
-    
-
-    本文研究了在具有高斯协变量双层模型下，过参数化线性模型在多类分类中的渐进泛化问题，其中数据点数、特征和类别数都同时增长。我们完全解决了Subramanian等人在'22年所提出的猜想，与预测的泛化区间相匹配。此外，我们的新的下界类似于信息论中的强对偶定理：它们能够确立误分类率逐渐趋近于0或1.我们紧密的结果的一个令人惊讶的结果是，最小范数插值分类器在最小范数插值回归器最优的范围内，可以在渐进上次优。我们分析的关键在于一种新的Hanson-Wright不等式变体，该变体在具有稀疏标签的多类问题中具有广泛的适用性。作为应用，我们展示了相同类型分析在几种不同类型的分类模型上的结果。
-
-    We study the asymptotic generalization of an overparameterized linear model for multiclass classification under the Gaussian covariates bi-level model introduced in Subramanian et al.~'22, where the number of data points, features, and classes all grow together. We fully resolve the conjecture posed in Subramanian et al.~'22, matching the predicted regimes for generalization. Furthermore, our new lower bounds are akin to an information-theoretic strong converse: they establish that the misclassification rate goes to 0 or 1 asymptotically. One surprising consequence of our tight results is that the min-norm interpolating classifier can be asymptotically suboptimal relative to noninterpolating classifiers in the regime where the min-norm interpolating regressor is known to be optimal.  The key to our tight analysis is a new variant of the Hanson-Wright inequality which is broadly useful for multiclass problems with sparse labels. As an application, we show that the same type of analysis 
-    
-[^4]: 功能流匹配
-
-    Functional Flow Matching. (arXiv:2305.17209v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.17209](http://arxiv.org/abs/2305.17209)
-
-    本文介绍了一种名为功能流匹配（FFM）的函数空间生成模型，该模型利用概率测度插值和学习底层函数空间上生成测度的向量场来生成数据分布。这种无需似然或模拟的方法在合成和真实世界基准数据集上表现优异，优于最近提出的几种函数空间生成模型。
+    本论文研究了充满团图的概念，并且发现在简单图中，充满团图的最大数量取决于饱和复合充满团图。通过具体计算，我们得到了在n个顶点上具有最多最大团数量的图形式表达式。
 
     
 
-    本文提出了一种名为功能流匹配（Functional Flow Matching, FFM）的函数空间生成模型，该模型将最近引入的流匹配（Flow Matching）直接推广到无限维空间中进行。我们的方法首先定义了一组概率测度路径，在固定的高斯测度和数据分布之间进行插值，然后学习函数的底层空间上生成此测度路径的向量场。我们的方法不依赖于似然或模拟，因此非常适合函数空间的设置。我们不仅提供构建这种模型的理论框架，还对我们的技术进行了经验评估。通过对合成和真实世界基准数据集的实验，我们证明了我们提出的FFM方法优于最近提出的几种函数空间生成模型。
+    一个简单图在n个顶点上可能包含许多最大团。但它可能包含多少个呢？我们将展示最大团的最大数量取决于所谓的充满团图，具体地说，如果n≥15，我们将展示它取决于饱和复合充满团图。利用这一点，我们将展示包含3^{⌊n/3⌋}c个最大团的图在n个顶点上具有最多的最大团数量，其中c∈{1,4/3,2}，取决于n模3的值。
 
-    In this work, we propose Functional Flow Matching (FFM), a function-space generative model that generalizes the recently-introduced Flow Matching model to operate directly in infinite-dimensional spaces. Our approach works by first defining a path of probability measures that interpolates between a fixed Gaussian measure and the data distribution, followed by learning a vector field on the underlying space of functions that generates this path of measures. Our method does not rely on likelihoods or simulations, making it well-suited to the function space setting. We provide both a theoretical framework for building such models and an empirical evaluation of our techniques. We demonstrate through experiments on synthetic and real-world benchmarks that our proposed FFM method outperforms several recently proposed function-space generative models.
+    A simple graph on $n$ vertices may contain a lot of maximum cliques. But how many can it potentially contain? We will show that the maximum number of maximum cliques is taken over so-called cliqueful graphs, more specifically, later we will show that it is taken over saturated composite cliqueful graphs, if $n \ge 15$. Using this we will show that the graph that contains $3^{\lfloor n/3 \rfloor}c$ maxcliques has the most number of maxcliques on $n$ vertices, where $c\in\{1,\frac{4}{3},2\}$, depending on $n \text{ mod } 3$.
     
-[^5]: 通过预测修正提高基于得分扩散模型的收敛性
+[^3]: 具有逐渐变化的通用在线学习：一种多层在线集成方法
 
-    Improved Convergence of Score-Based Diffusion Models via Prediction-Correction. (arXiv:2305.14164v1 [cs.LG])
+    Universal Online Learning with Gradual Variations: A Multi-layer Online Ensemble Approach. (arXiv:2307.08360v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.14164](http://arxiv.org/abs/2305.14164)
+    [http://arxiv.org/abs/2307.08360](http://arxiv.org/abs/2307.08360)
 
-    本文通过使用预测校正方案，提高了基于得分扩散模型的收敛性。
-
-    
-
-    基于得分的生成模型（SGM）是从复杂数据分布中进行采样的强大工具。其基本思想是（i）通过向数据添加噪声运行时间为$T_1$的正向过程，（ii）估计其得分函数，并（iii）使用此估计值运行反向过程。由于反向过程以正向过程的平稳分布作为初始值，因此现有的分析范式要求$T_1\to\infty$。然而，从理论角度来看，对于给定的分数逼近精度，当$T_1$发散时，收敛保证将失败；从实际角度来看，$T_1$越大，计算成本就越高，并且会导致误差传播。本文通过考虑流行的预测器校正方案的一个版本来解决这个问题：在运行正向过程之后，我们首先通过不精确的 Langevin 动力学估计最终分布，然后恢复该过程。我们的关键技术贡献是提供了收敛保证。
-
-    Score-based generative models (SGMs) are powerful tools to sample from complex data distributions. Their underlying idea is to (i) run a forward process for time $T_1$ by adding noise to the data, (ii) estimate its score function, and (iii) use such estimate to run a reverse process. As the reverse process is initialized with the stationary distribution of the forward one, the existing analysis paradigm requires $T_1\to\infty$. This is however problematic: from a theoretical viewpoint, for a given precision of the score approximation, the convergence guarantee fails as $T_1$ diverges; from a practical viewpoint, a large $T_1$ increases computational costs and leads to error propagation. This paper addresses the issue by considering a version of the popular predictor-corrector scheme: after running the forward process, we first estimate the final distribution via an inexact Langevin dynamics and then revert the process. Our key technical contribution is to provide convergence guarantees
-    
-[^6]: 一种信息论通用泛化界统一框架
-
-    A unified framework for information-theoretic generalization bounds. (arXiv:2305.11042v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.11042](http://arxiv.org/abs/2305.11042)
-
-    该论文提出了一种基于概率去相关引理和概率测度空间中一些其他技术的通用方法，可以得到新的学习算法的信息论泛化上限，并且能够恢复许多现有的泛化界，如基于互信息、条件互信息、随机chaining和PAC-Bayes不等式的界。
+    该论文提出了一种具有两个不同级别自适应性的在线凸优化方法，对不同类型的损失函数具有多种遗憾界，并在分析中直接应用于小损失界。同时，它与对抗性/随机凸优化和博弈论有着深刻的联系。
 
     
 
-    本文提出了一种通用的方法来导出学习算法的信息论泛化界。主要的技术工具是基于改变测度和松弛Young不等式在$L_{\psi_p}$Orlicz空间中的概率去相关性引理。采用去相关性引理与其他技术，如对称化、耦合和概率测度空间中的chaining，我们得到了新的泛化误差上限，包括期望和高概率，同时，我们也恢复了许多现有的泛化界，包括基于互信息、条件互信息、随机chaining和PAC-Bayes不等式的界。此外，Fernique-Talagrand上界也作为一种特殊情况呈现出来。
+    在本文中，我们提出了一种具有两个不同级别自适应性的在线凸优化方法。在更高级别上，我们的方法对损失函数的具体类型和曲率不知情，而在更低级别上，它可以利用环境的良好性质并获得问题相关保证。具体而言，对于强凸、指数凹和凸损失函数，我们分别获得了$O(\ln V_T)$、$O(d \ln V_T)$和$\hat{O}(\sqrt{V_T})$的遗憾界，其中$d$是维度，$V_T$表示问题相关的梯度变化，$\hat{O}(\cdot)$表示在$V_T$上省略对数因子。我们的结果具有广泛的影响和应用。它不仅保证了最坏情况下的性能，还直接导出了分析中的小损失界。此外，它与对抗性/随机凸优化和博弈论有着深刻的联系，进一步验证了其实际潜力。我们的方法基于...
 
-    This paper presents a general methodology for deriving information-theoretic generalization bounds for learning algorithms. The main technical tool is a probabilistic decorrelation lemma based on a change of measure and a relaxation of Young's inequality in $L_{\psi_p}$ Orlicz spaces. Using the decorrelation lemma in combination with other techniques, such as symmetrization, couplings, and chaining in the space of probability measures, we obtain new upper bounds on the generalization error, both in expectation and in high probability, and recover as special cases many of the existing generalization bounds, including the ones based on mutual information, conditional mutual information, stochastic chaining, and PAC-Bayes inequalities. In addition, the Fernique-Talagrand upper bound on the expected supremum of a subgaussian process emerges as a special case.
+    In this paper, we propose an online convex optimization method with two different levels of adaptivity. On a higher level, our method is agnostic to the specific type and curvature of the loss functions, while at a lower level, it can exploit the niceness of the environments and attain problem-dependent guarantees. To be specific, we obtain $\mathcal{O}(\ln V_T)$, $\mathcal{O}(d \ln V_T)$ and $\hat{\mathcal{O}}(\sqrt{V_T})$ regret bounds for strongly convex, exp-concave and convex loss functions, respectively, where $d$ is the dimension, $V_T$ denotes problem-dependent gradient variations and $\hat{\mathcal{O}}(\cdot)$-notation omits logarithmic factors on $V_T$. Our result finds broad implications and applications. It not only safeguards the worst-case guarantees, but also implies the small-loss bounds in analysis directly. Besides, it draws deep connections with adversarial/stochastic convex optimization and game theory, further validating its practical potential. Our method is based
     
-[^7]: 微正则 Langevin Monte Carlo
+[^4]: 数据自适应概率似然逼近常微分方程
 
-    Microcanonical Langevin Monte Carlo. (arXiv:2303.18221v1 [hep-lat])
+    Data-Adaptive Probabilistic Likelihood Approximation for Ordinary Differential Equations. (arXiv:2306.05566v1 [stat.ML])
 
-    [http://arxiv.org/abs/2303.18221](http://arxiv.org/abs/2303.18221)
+    [http://arxiv.org/abs/2306.05566](http://arxiv.org/abs/2306.05566)
 
-    我们提出的微正则 Langevin Monte Carlo 方法能够高效地采样 $\exp[-S(\x)]$ 分布，同时具有无偏性。
-
-    
-
-    我们提出了一种方法，用于以可用渐变 $ \nabla S(\x)$ 的形式采样自一任意分布 $ \exp[-S(\x)]$，该方法被制定为保持能量的随机微分方程（SDE）。我们推导出 Fokker-Planck 方程，并证明确定性漂移和随机扩散分别保持平稳分布。这意味着漂移扩散离散化方案无偏，而标准 Langevin 动力学则不是。我们将该方法应用于 $\phi^4$ 晶格场论，展示了结果与标准采样方法一致，但比当前最先进的采样器效率显著提高。
-
-    We propose a method for sampling from an arbitrary distribution $\exp[-S(\x)]$ with an available gradient $\nabla S(\x)$, formulated as an energy-preserving stochastic differential equation (SDE). We derive the Fokker-Planck equation and show that both the deterministic drift and the stochastic diffusion separately preserve the stationary distribution. This implies that the drift-diffusion discretization schemes are bias-free, in contrast to the standard Langevin dynamics. We apply the method to the $\phi^4$ lattice field theory, showing the results agree with the standard sampling methods but with significantly higher efficiency compared to the current state-of-the-art samplers.
-    
-[^8]: 神经网络在因果估计中的应用: 在美国评估更严格的空气质量标准的健康效益
-
-    Causal Estimation of Exposure Shifts with Neural Networks: Evaluating the Health Benefits of Stricter Air Quality Standards in the US. (arXiv:2302.02560v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2302.02560](http://arxiv.org/abs/2302.02560)
-
-    本研究提出了一种神经网络方法，利用其理论基础和实施的可行性，从而估计连续暴露/治疗的分布对政策相关结果的因果效应。我们将此方法应用于包含6800万个个体和2700万个美国境内死亡事件的数据中，通过评估美国国家环境保护局（EPA）对PM2.5的国家环境空气质量标准（NAAQS）进行修订后的健康效益。
+    本文提出了一种数据自适应的贝叶斯滤波范式来解决现有概率ODE求解器无法解决的深层的局部最小值问题，结果表明该方法比现有概率ODE求解器更精确。
 
     
 
-    在政策研究中，估计连续性暴露/治疗的分布对感兴趣的结果的因果效应是最关键的分析任务之一。我们称之为偏移-响应函数（SRF）估计问题。现有的涉及强健因果效应估计器的神经网络方法缺乏理论保证和实际实现，用于SRF估计。受公共卫生中的关键政策问题的启发，我们开发了一种神经网络方法及其理论基础，以提供具有强健性和效率保证的SRF估计。然后，我们将我们的方法应用于包含6800万个个体和2700万个美国境内死亡事件的数据中，以估计将美国国家环境保护局（EPA）最近提议从12 μg/m³改为9 μg/m³的PM2.5的美国国家环境空气质量标准（NAAQS）的修订对结果的因果效应。我们的目标是首次估计
+    常微分方程（ODEs）的参数推断在许多科学应用中具有基本重要性。虽然ODE解通常由确定性算法近似，但有关概率求解器的新研究表明，它们通过更好地考虑数字误差产生更可靠的参数估计。然而，许多ODE系统对其参数值非常敏感。这在似然函数中产生了深层的局部最小值——现有的概率求解器尚未解决这个问题。在这里，我们展示了一种用于概率ODE解的贝叶斯滤波范式，通过数据自适应地学习嘈杂的ODE观察结果，可以显着降低参数的敏感性。我们的方法适用于具有部分未观测分量和任意非高斯噪声的ODEs。几个例子表明，它比现有的概率ODE求解器更精确，甚至在某些情况下比精确ODE似然函数更精确。
 
-    In policy research, one of the most critical analytic tasks is to estimate the causal effect of a policy-relevant shift to the distribution of a continuous exposure/treatment on an outcome of interest. We call this problem shift-response function (SRF) estimation. Existing neural network methods involving robust causal-effect estimators lack theoretical guarantees and practical implementations for SRF estimation. Motivated by a key policy-relevant question in public health, we develop a neural network method and its theoretical underpinnings to estimate SRFs with robustness and efficiency guarantees. We then apply our method to data consisting of 68 million individuals and 27 million deaths across the U.S. to estimate the causal effect from revising the US National Ambient Air Quality Standards (NAAQS) for PM 2.5 from 12 $\mu g/m^3$ to 9 $\mu g/m^3$. This change has been recently proposed by the US Environmental Protection Agency (EPA). Our goal is to estimate, for the first time, the 
+    Parameter inference for ordinary differential equations (ODEs) is of fundamental importance in many scientific applications. While ODE solutions are typically approximated by deterministic algorithms, new research on probabilistic solvers indicates that they produce more reliable parameter estimates by better accounting for numerical errors. However, many ODE systems are highly sensitive to their parameter values. This produces deep local minima in the likelihood function -- a problem which existing probabilistic solvers have yet to resolve. Here, we show that a Bayesian filtering paradigm for probabilistic ODE solution can dramatically reduce sensitivity to parameters by learning from the noisy ODE observations in a data-adaptive manner. Our method is applicable to ODEs with partially unobserved components and with arbitrary non-Gaussian noise. Several examples demonstrate that it is more accurate than existing probabilistic ODE solvers, and even in some cases than the exact ODE likel
     
-[^9]: 通过核差异实现有针对性的分离与收敛
+[^5]: 量子学习的经典验证
 
-    Targeted Separation and Convergence with Kernel Discrepancies. (arXiv:2209.12835v2 [stat.ML] UPDATED)
+    Classical Verification of Quantum Learning. (arXiv:2306.04843v1 [quant-ph])
 
-    [http://arxiv.org/abs/2209.12835](http://arxiv.org/abs/2209.12835)
+    [http://arxiv.org/abs/2306.04843](http://arxiv.org/abs/2306.04843)
 
-    通过核差异度量，我们推导出了新的充分必要条件，实现了将目标分离出来，以及控制对目标的弱收敛性。此外，我们在$\mathbb{R}^d$上使用了这些结果来扩展了核Stein差异分离和收敛控制的已知条件，并开发了能够精确度量目标的弱收敛性的核差异度量。
-
-    
-
-    最大均值差异（MMDs）如核Stein差异（KSD）已经成为广泛应用的中心，包括假设检验、采样器选择、分布近似和变分推断。在每个设置中，这些基于核的差异度量需要实现（i）将目标P与其他概率测度分离，甚至（ii）控制对P的弱收敛。在本文中，我们推导了确保（i）和（ii）的新的充分必要条件。对于可分的度量空间上的MMDs，我们描述了分离Bochner可嵌入测度的核，并引入简单的条件来分离所有具有无界核的测度和用有界核来控制收敛。我们利用这些结果在$\mathbb{R}^d$上大大扩展了KSD分离和收敛控制的已知条件，并开发了首个能够精确度量对P的弱收敛的KSDs。在这个过程中，我们强调了我们的结果的影响。
-
-    Maximum mean discrepancies (MMDs) like the kernel Stein discrepancy (KSD) have grown central to a wide range of applications, including hypothesis testing, sampler selection, distribution approximation, and variational inference. In each setting, these kernel-based discrepancy measures are required to (i) separate a target P from other probability measures or even (ii) control weak convergence to P. In this article we derive new sufficient and necessary conditions to ensure (i) and (ii). For MMDs on separable metric spaces, we characterize those kernels that separate Bochner embeddable measures and introduce simple conditions for separating all measures with unbounded kernels and for controlling convergence with bounded kernels. We use these results on $\mathbb{R}^d$ to substantially broaden the known conditions for KSD separation and convergence control and to develop the first KSDs known to exactly metrize weak convergence to P. Along the way, we highlight the implications of our res
-    
-[^10]: 针对高维矩阵数据的最优变量聚类
-
-    Optimal Variable Clustering for High-Dimensional Matrix Valued Data. (arXiv:2112.12909v2 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2112.12909](http://arxiv.org/abs/2112.12909)
-
-    提出了一种新的针对高维矩阵数据的特征潜变量模型，使用加权协方差矩阵的差异作为不相似度测量的层次聚类算法，理论上实现了聚类一致性，在模拟和真实数据示例中证明了方法的优越性。
+    本文提出了一个经典验证量子学习的框架，以便经典客户委托学习给不可信的量子服务器，并成功解决了对仗学习奇偶性和傅里叶稀疏函数不可信量子证明的问题。
 
     
 
-    矩阵值数据在许多应用中日益普及。大多数现有的这种类型数据的聚类方法是针对平均模型设计的，不考虑特征的依赖结构，而该结构在高维情况下尤为重要。为了从依赖结构中提取信息进行聚类，我们提出了一种新的特征潜变量模型，该模型将特征排列成矩阵形式，并使用一些未知的成员矩阵表示行和列的聚类。在此模型下，我们进一步提出了一类使用加权协方差矩阵的差异作为不相似度测量的层次聚类算法。在理论上，我们证明了在温和的条件下，我们的算法可以在高维情况下实现聚类一致性。虽然这种一致性结果适用于我们的算法和广泛的加权协方差矩阵类别，但这个结果的条件依赖于协方差函数和加权机制的选择。通过模拟和真实数据示例，我们证明了我们的方法相对于现有方法提供了更好的聚类性能和特征选择准确性。
+    量子数据访问和量子处理可以使某些经典难以处理的学习任务变得可行。然而，量子能力在不久的将来只能提供给少数人使用。因此，需要可靠的方案，允许经典客户委托学习给不可信的量子服务器，以促进广泛获得量子学习的优势。本文基于最近引入的古典机器学习交互证明系统框架，构建了一个经典验证量子学习的框架。我们展示了一些经典学习者无法自行高效求解的学习问题，但当与不可信的量子证明者交互时，他们可以高效且可靠地解决这些问题。具体而言，我们考虑了关于具有均匀输入边缘密度的对仗学习奇偶性和傅里叶稀疏函数的问题。我们提出了一个新的量子数据访问模型，称为“叠加混合量子样例”。
 
-    Matrix valued data has become increasingly prevalent in many applications. Most of the existing clustering methods for this type of data are tailored to the mean model and do not account for the dependence structure of the features, which can be very informative, especially in high-dimensional settings. To extract the information from the dependence structure for clustering, we propose a new latent variable model for the features arranged in matrix form, with some unknown membership matrices representing the clusters for the rows and columns. Under this model, we further propose a class of hierarchical clustering algorithms using the difference of a weighted covariance matrix as the dissimilarity measure. Theoretically, we show that under mild conditions, our algorithm attains clustering consistency in the high-dimensional setting. While this consistency result holds for our algorithm with a broad class of weighted covariance matrices, the conditions for this result depend on the choic
+    Quantum data access and quantum processing can make certain classically intractable learning tasks feasible. However, quantum capabilities will only be available to a select few in the near future. Thus, reliable schemes that allow classical clients to delegate learning to untrusted quantum servers are required to facilitate widespread access to quantum learning advantages. Building on a recently introduced framework of interactive proof systems for classical machine learning, we develop a framework for classical verification of quantum learning. We exhibit learning problems that a classical learner cannot efficiently solve on their own, but that they can efficiently and reliably solve when interacting with an untrusted quantum prover. Concretely, we consider the problems of agnostic learning parities and Fourier-sparse functions with respect to distributions with uniform input marginal. We propose a new quantum data access model that we call "mixture-of-superpositions" quantum example
+    
+[^6]: 随机选择纯量分解的核求积方法
+
+    Kernel Quadrature with Randomly Pivoted Cholesky. (arXiv:2306.03955v1 [math.NA])
+
+    [http://arxiv.org/abs/2306.03955](http://arxiv.org/abs/2306.03955)
+
+    本文提出了一种新的使用随机选择纯量分解算法的核求积方法，可以在达到可比的求积误差达到率的同时显著降低计算复杂度，并可以应用于任意核的复杂几何结构。
+
+    
+
+    本文使用随机选择纯量分解的采样算法提出了一种新的重现核希尔伯特空间函数求积规则。所得的计算过程与既有的核求积方法相比，在精度和求解复杂度方面具有更好的性能。理论和实验结果表明，随机选择纯量分解的方法快速且具有可比的求积误差达到率，与基于连续体积采样、稀疏化和重组的更为昂贵的求积方案相匹配。随机选择纯量分解易于适应任意核的复杂几何结构，为核求积开辟了新的潜力。
+
+    This paper presents new quadrature rules for functions in a reproducing kernel Hilbert space using nodes drawn by a sampling algorithm known as randomly pivoted Cholesky. The resulting computational procedure compares favorably to previous kernel quadrature methods, which either achieve low accuracy or require solving a computationally challenging sampling problem. Theoretical and numerical results show that randomly pivoted Cholesky is fast and achieves comparable quadrature error rates to more computationally expensive quadrature schemes based on continuous volume sampling, thinning, and recombination. Randomly pivoted Cholesky is easily adapted to complicated geometries with arbitrary kernels, unlocking new potential for kernel quadrature.
+    
+[^7]: 损失最小化分类树：一个通用的框架和逻辑斯蒂回归情况研究
+
+    Loss-Optimal Classification Trees: A Generalized Framework and the Logistic Case. (arXiv:2306.00857v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.00857](http://arxiv.org/abs/2306.00857)
+
+    本论文为损失最小化分类树的解决提供了一个通用框架，基于逻辑斯蒂回归的解决方式具有具有解释性特征和竞争泛化能力。
+
+    
+
+    分类树是可解释机器学习中最常见的模型之一，尽管这样的模型通常采用贪婪策略构建，但是近年来，由于混合整数规划（MIP）求解器的显著进展，已经开发了几种精确的学习问题的表述。本文认为其中一些最相关的训练模型可以封装在一个通用框架内，其实例由损失函数和正则化器的规定塑造。接下来，我们介绍了这个框架的新颖实现：具体来说，我们考虑逻辑损失，它在MIP设置中通过线性分段逼近处理，并与$\ell_1$-规则化项相结合。最终的最优逻辑树模型在数值上被证明能够诱导具有增强可解释性特征和竞争性泛化能力的树，与最先进的基于MIP的方法相比。
+
+    The Classification Tree (CT) is one of the most common models in interpretable machine learning. Although such models are usually built with greedy strategies, in recent years, thanks to remarkable advances in Mixer-Integer Programming (MIP) solvers, several exact formulations of the learning problem have been developed. In this paper, we argue that some of the most relevant ones among these training models can be encapsulated within a general framework, whose instances are shaped by the specification of loss functions and regularizers. Next, we introduce a novel realization of this framework: specifically, we consider the logistic loss, handled in the MIP setting by a linear piece-wise approximation, and couple it with $\ell_1$-regularization terms. The resulting Optimal Logistic Tree model numerically proves to be able to induce trees with enhanced interpretability features and competitive generalization capabilities, compared to the state-of-the-art MIP-based approaches.
+    
+[^8]: 使用高阶淬火随机漂移解决线性反问题
+
+    Solving Linear Inverse Problems using Higher-Order Annealed Langevin Diffusion. (arXiv:2305.05014v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.05014](http://arxiv.org/abs/2305.05014)
+
+    本论文提出了一种高阶 Langevin 动力学的算法，可更高效地采样未知变量后验分布，同时加入淬火过程，能应用于离散未知变量情况，数值实验表明在多个任务中相对竞争方法具有更高性能。
+
+    
+
+    我们提出了一种基于高阶 Langevin 漂移的线性反问题解决方案。更具体地，我们提出了预处理的二阶和三阶 Langevin 动力学，这些动力学明显地从我们感兴趣的未知变量的后验分布中采样，同时比其一阶对应物和两种动力学的非预处理版本更具计算效率。此外，我们证明了两种预处理动力学是良定义的，并且具有与非预处理情况相同的唯一不变分布。我们还加入了一个淬火过程，这具有双重优点，一方面进一步加速了算法的收敛速度，另一方面，允许我们适应未知变量为离散的情况。在两个不同的任务（MIMO 符号检测和通道估计）的数值实验中，展示了我们方法的通用性，并说明了相对于竞争方法（包括基于学习的方法）所实现的高性能。
+
+    We propose a solution for linear inverse problems based on higher-order Langevin diffusion. More precisely, we propose pre-conditioned second-order and third-order Langevin dynamics that provably sample from the posterior distribution of our unknown variables of interest while being computationally more efficient than their first-order counterpart and the non-conditioned versions of both dynamics. Moreover, we prove that both pre-conditioned dynamics are well-defined and have the same unique invariant distributions as the non-conditioned cases. We also incorporate an annealing procedure that has the double benefit of further accelerating the convergence of the algorithm and allowing us to accommodate the case where the unknown variables are discrete. Numerical experiments in two different tasks (MIMO symbol detection and channel estimation) showcase the generality of our method and illustrate the high performance achieved relative to competing approaches (including learning-based ones)
+    
+[^9]: 对称正定流形上低复杂度的子空间下降算法
+
+    Low-complexity subspace-descent over symmetric positive definite manifold. (arXiv:2305.02041v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.02041](http://arxiv.org/abs/2305.02041)
+
+    本文提出了一种基于黎曼子空间下降算法的对称正定流形上的函数最小化方法，其具有低复杂度和避免昂贵矩阵操作和计算黎曼梯度的优点。
+
+    
+
+    本文提出了一种低复杂度的黎曼子空间下降算法，用于在对称正定（SPD）流形上对函数进行最小化。与现有的黎曼梯度下降变体不同的是，所提出的方法利用 carefully chosen 的子空间，使得更新可以写成迭代的 Cholesky 因子和一个稀疏矩阵的乘积形式。由此产生的更新避免了昂贵的矩阵操作，如矩阵指数和密集矩阵乘法，这些操作通常在几乎所有其他 Riemannian 优化算法中都是必需的。
+
+    This work puts forth low-complexity Riemannian subspace descent algorithms for the minimization of functions over the symmetric positive definite (SPD) manifold. Different from the existing Riemannian gradient descent variants, the proposed approach utilizes carefully chosen subspaces that allow the update to be written as a product of the Cholesky factor of the iterate and a sparse matrix. The resulting updates avoid the costly matrix operations like matrix exponentiation and dense matrix multiplication, which are generally required in almost all other Riemannian optimization algorithms on SPD manifold. We further identify a broad class of functions, arising in diverse applications, such as kernel matrix learning, covariance estimation of Gaussian distributions, maximum likelihood parameter estimation of elliptically contoured distributions, and parameter estimation in Gaussian mixture model problems, over which the Riemannian gradients can be calculated efficiently. The proposed uni-
+    
+[^10]: LAVA: 无需预定学习算法的数据价值评估
+
+    LAVA: Data Valuation without Pre-Specified Learning Algorithms. (arXiv:2305.00054v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.00054](http://arxiv.org/abs/2305.00054)
+
+    LAVA是一个学习算法无关的数据价值评估方法，它结合了学习算法的统计特性和训练数据的属性，通过迭代估计数据值来实现。LAVA比现有方法计算速度更快，精度更高，并且可以为不同的应用提供有意义的数据排名。
+
+    
+
+    传统的数据价值评估问题是如何公平地分配学习算法的验证性能，致使计算得到的数据价值依赖于底层学习算法的许多设计选择。本文提出了一种新的框架LAVA，该框架结合了学习算法的统计特性和训练数据的属性，迭代估计数据值，使其无视下游的学习算法。我们展示了LAVA比现有方法计算速度更快，精度更高，并且它可以为不同的应用提供有意义的数据排名。
+
+    Traditionally, data valuation is posed as a problem of equitably splitting the validation performance of a learning algorithm among the training data. As a result, the calculated data values depend on many design choices of the underlying learning algorithm. However, this dependence is undesirable for many use cases of data valuation, such as setting priorities over different data sources in a data acquisition process and informing pricing mechanisms in a data marketplace. In these scenarios, data needs to be valued before the actual analysis and the choice of the learning algorithm is still undetermined then. Another side-effect of the dependence is that to assess the value of individual points, one needs to re-run the learning algorithm with and without a point, which incurs a large computation burden.  This work leapfrogs over the current limits of data valuation methods by introducing a new framework that can value training data in a way that is oblivious to the downstream learning
+    
+[^11]: 数据污染中的时序鲁棒性
+
+    Temporal Robustness against Data Poisoning. (arXiv:2302.03684v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.03684](http://arxiv.org/abs/2302.03684)
+
+    该论文提出了一种针对数据污染的时序威胁模型，通过利用数据的时间戳，引入了提前时间和持续时间这两个指标，从而定义了数据污染的时序鲁棒性，并提供了一种有效的保护方法。
+
+    
+
+    数据污染考虑了通过恶意训练数据操纵机器学习算法行为的情况。现有的数据污染威胁模型都围绕着一个单一指标，即被污染样本的数量。因此，如果攻击者能够以可承受的代价污染比预期更多的样本，就像许多实际场景中一样，他们可能能够在很短的时间内使现有的防御措施失效。为了解决这个问题，我们利用数据的出生日期时间戳，这些时间戳通常是可用的但过去被忽略。利用这些时间戳，我们提出了一个带有两个新型指标（提前时间和持续时间）的数据污染的时序威胁模型，分别衡量攻击提前开始的时间和攻击持续的时间。利用这些指标，我们定义了数据污染的时序鲁棒性的概念，即使有大量被污染的样本，也能提供有意义的保护。我们提出一种方法
+
+    Data poisoning considers cases when an adversary manipulates the behavior of machine learning algorithms through malicious training data. Existing threat models of data poisoning center around a single metric, the number of poisoned samples. In consequence, if attackers can poison more samples than expected with affordable overhead, as in many practical scenarios, they may be able to render existing defenses ineffective in a short time. To address this issue, we leverage timestamps denoting the birth dates of data, which are often available but neglected in the past. Benefiting from these timestamps, we propose a temporal threat model of data poisoning with two novel metrics, earliness and duration, which respectively measure how long an attack started in advance and how long an attack lasted. Using these metrics, we define the notions of temporal robustness against data poisoning, providing a meaningful sense of protection even with unbounded amounts of poisoned samples. We present a 
+    
+[^12]: 基于神经网络的1维随机场生成，具有湍流速度统计特性
+
+    Neural network based generation of 1-dimensional stochastic fields with turbulent velocity statistics. (arXiv:2211.11580v2 [eess.SP] UPDATED)
+
+    [http://arxiv.org/abs/2211.11580](http://arxiv.org/abs/2211.11580)
+
+    该论文介绍了一个名为NN-Turb的全卷积神经网络随机模型，用于以湍流速度统计特性生成1维场，而无需接触湍流数据。生成的过程满足Kolmogorov 2/3结构函数定律，同时还表现出负偏斜度和间歇性。
+
+    
+
+    我们定义并研究了一个全卷积神经网络随机模型，名为NN-Turb，用于生成具有湍流速度统计特性的1维场。这样，生成的过程满足Kolmogorov 2/3结构函数定律。它还呈现出各个尺度上的负偏斜度（即Kolmogorov 4/5定律）和间歇性。此外，我们的模型从不接触湍流数据，只需要训练所需的结构函数在各个尺度上的统计行为。
+
+    We define and study a fully-convolutional neural network stochastic model, NN-Turb, which generates 1-dimensional fields with turbulent velocity statistics. Thus, the generated process satisfies the Kolmogorov 2/3 law for second order structure function. It also presents negative skewness across scales (i.e. Kolmogorov 4/5 law) and exhibits intermittency. Furthermore, our model is never in contact with turbulent data and only needs the desired statistical behavior of the structure functions across scales for training.
     
 
