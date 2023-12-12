@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Evaluating the Ebb and Flow: An In-depth Analysis of Question-Answering Trends across Diverse Platforms.](http://arxiv.org/abs/2309.05961) | 本文通过对六个社区问答平台的研究，发现了查询的元数据、问题构成方式和用户互动水平与第一个回答时间之间的关联，并利用机器学习模型预测查询是否能够迅速获得回答。 |
 
 # 详细
 
+[^1]: 评估潮起潮落：对不同平台间问答趋势的深入分析
 
+    Evaluating the Ebb and Flow: An In-depth Analysis of Question-Answering Trends across Diverse Platforms. (arXiv:2309.05961v1 [cs.SI])
+
+    [http://arxiv.org/abs/2309.05961](http://arxiv.org/abs/2309.05961)
+
+    本文通过对六个社区问答平台的研究，发现了查询的元数据、问题构成方式和用户互动水平与第一个回答时间之间的关联，并利用机器学习模型预测查询是否能够迅速获得回答。
+
+    
+
+    社区问答平台因其快速回答用户查询的能力而越来越受欢迎。这些回答速度的快慢取决于查询特定和用户相关的因素的综合。本文通过研究六个高度流行的社区问答平台，分析了这些因素在其中的作用。我们的调查揭示了问题的第一个回答所花费的时间与元数据、问题的构成方式和用户之间的互动水平之间的关联。此外，通过使用传统的机器学习模型分析这些元数据和用户互动模式，我们试图预测哪些查询将迅速获得初始回答。
+
+    Community Question Answering (CQA) platforms steadily gain popularity as they provide users with fast responses to their queries. The swiftness of these responses is contingent on a mixture of query-specific and user-related elements. This paper scrutinizes these contributing factors within the context of six highly popular CQA platforms, identified through their standout answering speed. Our investigation reveals a correlation between the time taken to yield the first response to a question and several variables: the metadata, the formulation of the questions, and the level of interaction among users. Additionally, by employing conventional machine learning models to analyze these metadata and patterns of user interaction, we endeavor to predict which queries will receive their initial responses promptly.
+    
 
