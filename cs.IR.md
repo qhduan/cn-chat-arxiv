@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Evaluating the Ebb and Flow: An In-depth Analysis of Question-Answering Trends across Diverse Platforms.](http://arxiv.org/abs/2309.05961) | 本文通过对六个社区问答平台的研究，发现了查询的元数据、问题构成方式和用户互动水平与第一个回答时间之间的关联，并利用机器学习模型预测查询是否能够迅速获得回答。 |
+| [^1] | [Knowledge Refinement via Interaction Between Search Engines and Large Language Models.](http://arxiv.org/abs/2305.07402) | 本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。 |
 
 # 详细
 
-[^1]: 评估潮起潮落：对不同平台间问答趋势的深入分析
+[^1]: 搜索引擎与大型语言模型间的交互优化知识精炼
 
-    Evaluating the Ebb and Flow: An In-depth Analysis of Question-Answering Trends across Diverse Platforms. (arXiv:2309.05961v1 [cs.SI])
+    Knowledge Refinement via Interaction Between Search Engines and Large Language Models. (arXiv:2305.07402v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.05961](http://arxiv.org/abs/2309.05961)
+    [http://arxiv.org/abs/2305.07402](http://arxiv.org/abs/2305.07402)
 
-    本文通过对六个社区问答平台的研究，发现了查询的元数据、问题构成方式和用户互动水平与第一个回答时间之间的关联，并利用机器学习模型预测查询是否能够迅速获得回答。
+    本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。
 
     
 
-    社区问答平台因其快速回答用户查询的能力而越来越受欢迎。这些回答速度的快慢取决于查询特定和用户相关的因素的综合。本文通过研究六个高度流行的社区问答平台，分析了这些因素在其中的作用。我们的调查揭示了问题的第一个回答所花费的时间与元数据、问题的构成方式和用户之间的互动水平之间的关联。此外，通过使用传统的机器学习模型分析这些元数据和用户互动模式，我们试图预测哪些查询将迅速获得初始回答。
+    信息检索在从大量数据中定位相关资源方面具有重要作用，其应用已从传统知识库发展至现代搜索引擎（SEs）。大型语言模型（LLMs）的出现进一步通过使用自然语言与搜索系统交互革命性地改变了该领域。本文探索了LLMs和SEs的优缺点，强调它们在理解用户查询和检索最新信息方面的各自优势。为了利用两种范例的优势并避免其限制，我们提出了InteR，这是一个通过SEs和LLMs之间的交互促进知识精炼的新框架。 InteR使SEs能够使用LLM生成的摘要来调整查询，同时使LLMs能够使用SE检索到的文档来增强提示。这种迭代的精炼过程增强了SEs和LLMs的输入，从而导致更准确的检索结果。
 
-    Community Question Answering (CQA) platforms steadily gain popularity as they provide users with fast responses to their queries. The swiftness of these responses is contingent on a mixture of query-specific and user-related elements. This paper scrutinizes these contributing factors within the context of six highly popular CQA platforms, identified through their standout answering speed. Our investigation reveals a correlation between the time taken to yield the first response to a question and several variables: the metadata, the formulation of the questions, and the level of interaction among users. Additionally, by employing conventional machine learning models to analyze these metadata and patterns of user interaction, we endeavor to predict which queries will receive their initial responses promptly.
+    Information retrieval (IR) plays a crucial role in locating relevant resources from vast amounts of data, and its applications have evolved from traditional knowledge bases to modern search engines (SEs). The emergence of large language models (LLMs) has further revolutionized the field by enabling users to interact with search systems in natural language. In this paper, we explore the advantages and disadvantages of LLMs and SEs, highlighting their respective strengths in understanding user-issued queries and retrieving up-to-date information. To leverage the benefits of both paradigms while circumventing their limitations, we propose InteR, a novel framework that facilitates knowledge refinement through interaction between SEs and LLMs. InteR allows SEs to refine knowledge in query using LLM-generated summaries and enables LLMs to enhance prompts using SE-retrieved documents. This iterative refinement process augments the inputs of SEs and LLMs, leading to more accurate retrieval. Ex
     
 

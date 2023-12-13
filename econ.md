@@ -2,142 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Life-Cycle Effects of Comprehensive Sex Education.](http://arxiv.org/abs/2310.11151) | 该研究调查了全面性健康教育对个体生命周期的影响，研究结果显示，该教育改革对男性和女性产生了积极的影响，降低了性别不平等，同时也鼓励了下一代女性的机会和自主权。 |
-| [^2] | [Cheap Talking Algorithms.](http://arxiv.org/abs/2310.07867) | 该论文研究了在战略信息传递游戏中，利用独立强化学习算法进行训练的发送者和接收者可以收敛到接近最优均衡策略，并且在代理之间的利益冲突下实现了最大化的通信。这一结论稳健，并对信息传递游戏中的均衡选择理论、计算机科学中的算法间通信和人工智能代理市场中的经济学产生了影响。 |
-| [^3] | [Theoretical Foundations of Community Rating by a Private Monopolist Insurer: Framework, Regulation, and Numerical Analysis.](http://arxiv.org/abs/2309.15269) | 本文通过斯蒂格利茨模型建立了社群评级的理论框架，证明了最优保费满足逆弹性规则，并通过数值分析显示在监管下，赔偿的10%增加对其他变量的影响很小。 |
-| [^4] | [On the minimal simplex economy.](http://arxiv.org/abs/2309.03784) | 本论文研究了最小单纯经济，证明了每个仿射经济都存在竞争均衡，并且发现竞争均衡可以在任何最小单纯经济中内在确定。 |
-| [^5] | [Trade-off between manipulability and dictatorial power: a proof of the Gibbard-Satterthwaite Theorem.](http://arxiv.org/abs/2306.04587) | 通过利用代理人在可操纵性和独裁权之间的权衡，我们证明了Gibbard-Satterthwaite定理。 |
-| [^6] | [Identifying Dynamic LATEs with a Static Instrument.](http://arxiv.org/abs/2305.18114) | 本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。 |
-| [^7] | [GPT Agents in Game Theory Experiments.](http://arxiv.org/abs/2305.05516) | 本文探讨了使用GPT代理作为战略游戏实验参与者的潜力。GPT代理可以生成逼真的结果，并在某些方面表现出与人类行为一致的行为。处理效果在两个游戏中都很明显。这项初步探索表明，基于GPT的代理在博弈论实验中具有潜在的应用。 |
-| [^8] | [Optimal Pricing Schemes in the Presence of Social Learning and Costly Reporting.](http://arxiv.org/abs/2211.07362) | 本论文研究了在社交学习和昂贵报告存在的情况下的最优定价方案。研究发现，最优方案分为四类，并且在学习过程中存在类型的动态转换。尽管学习效率高，但信息的揭示速度与规划者的最优解太慢。 |
-| [^9] | [Supply-Side Equilibria in Recommender Systems.](http://arxiv.org/abs/2206.13489) | 本论文探究了推荐系统中个性化内容的供给侧均衡问题，其特点是生产者决策空间是多维的和用户群体是异构的，高维度和异质性的模型创造了专业化的可能性。 |
+| [^1] | [Testing for Stationary or Persistent Coefficient Randomness in Predictive Regressions.](http://arxiv.org/abs/2309.04926) | 本研究考虑了预测回归中系数随机性的检验，并发现在随机系数的持久性方面会影响各种检验的功效。我们建议在实际应用中根据潜在随机系数的持久性选择最合适的检验方法。 |
+| [^2] | [Motives for Delegating Financial Decisions.](http://arxiv.org/abs/2309.03419) | 为了解为什么投资者会委托金融决策给专家，作者进行了一项实验，结果发现，投资者委托的动机包括责任转嫁、决策成本和追求过去表现，而没有发现委托使风险更加可接受的动机。 |
+| [^3] | [Condorcet Domains of Degree at most Seven.](http://arxiv.org/abs/2306.15993) | 本文首次明确列举了在$n\leq 7$个选项上的所有最大Condorcet领域，通过开发新算法并在超级计算机上实现，解决了社会科学和数学领域的多个未解问题，同时给出了关于Condorcet领域对称性的新结果，以及与其他领域类型的联系。 |
+| [^4] | [Dynamic Net Metering for Energy Communities.](http://arxiv.org/abs/2306.13677) | 本文提出了一个名为“动态净能计量”的机制，该机制动态地根据聚合的社区资源设置社区净能计量价格，在保证每个社区成员获得的利益高于社区外可能获得的利益的同时，将每个成员的激励与社区的激励相一致，以达到最大化社区社会福利的目的。 |
+| [^5] | [Measuring Stochastic Rationality.](http://arxiv.org/abs/2303.08202) | 使用一种部分排序方法来开发随机理性的度量，并引入了一个随机理性指数。该排序检测违反（随机）传递性以及选择嵌套菜单之间的不一致性。 |
+| [^6] | [Score-based calibration testing for multivariate forecast distributions.](http://arxiv.org/abs/2211.16362) | 该论文提出了针对多元预测分布的基于评分的校准测试方法，包括评分的概率积分变换和预期性能实际性能比较两种方法，并通过模拟测试证明其有效性。 |
 
 # 详细
 
-[^1]: 全面性健康教育的生命周期效应
+[^1]: 预测回归中固定系数随机性的检验：稳态与持久性系数的影响
 
-    Life-Cycle Effects of Comprehensive Sex Education. (arXiv:2310.11151v1 [econ.GN])
+    Testing for Stationary or Persistent Coefficient Randomness in Predictive Regressions. (arXiv:2309.04926v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.11151](http://arxiv.org/abs/2310.11151)
+    [http://arxiv.org/abs/2309.04926](http://arxiv.org/abs/2309.04926)
 
-    该研究调查了全面性健康教育对个体生命周期的影响，研究结果显示，该教育改革对男性和女性产生了积极的影响，降低了性别不平等，同时也鼓励了下一代女性的机会和自主权。
-
-    
-
-    性教育可以影响学生的性行为，并传达有关家庭形成和责任的社会规范，这对他们的未来产生重要影响。为了研究社会规范传递的生命周期效应，本研究利用瑞典小学40年代至50年代引入全面性健康教育的情况进行了调查。在这一时期，受到社会民主价值观的启发，性教育教导学生关于禁欲、理性的家庭计划选择以及对个人决策承担社会责任的重要性。该研究运用了一种先进的“差异和差异”方法来评估男性和女性在整个生命周期中各种结果。结果表明，该改革对男性和女性的大多数预期结果产生影响，最终降低了收入方面的性别不平等。该改革的影响也延伸到了下一代女性，鼓励她们拥有更多的机会和自主权。
-
-    Sex education can impact pupils sexual activity and convey the social norms regarding family formation and responsibility, which can have significant consequences to their future. To investigate the life-cycle effects of social norm transmission, this study drew on the introduction of comprehensive sex education in the curriculum of Swedish primary schools during the 1940s to the 1950s. Inspired by social-democratic values, sex education during this period taught students about abstinence, rational family planning choices, and the importance of taking social responsibility for their personal decisions. The study applied a state-of-the-art estimator of the difference-in-differences method to various outcomes of men and women throughout the life cycle. The results showed that the reform affected most intended outcomes for men and women, ultimately decreasing gender inequality in earnings. The effects of the reform also extended to the succeding generation of girls, encouraging them to ch
-    
-[^2]: 廉价对话算法
-
-    Cheap Talking Algorithms. (arXiv:2310.07867v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.07867](http://arxiv.org/abs/2310.07867)
-
-    该论文研究了在战略信息传递游戏中，利用独立强化学习算法进行训练的发送者和接收者可以收敛到接近最优均衡策略，并且在代理之间的利益冲突下实现了最大化的通信。这一结论稳健，并对信息传递游戏中的均衡选择理论、计算机科学中的算法间通信和人工智能代理市场中的经济学产生了影响。
+    本研究考虑了预测回归中系数随机性的检验，并发现在随机系数的持久性方面会影响各种检验的功效。我们建议在实际应用中根据潜在随机系数的持久性选择最合适的检验方法。
 
     
 
-    我们模拟独立的强化学习算法在克劳福德和索贝尔（1982）的战略信息传递游戏中的行为。我们表明，一个发送者和一个接收者一起进行训练，收敛到接近游戏先验最优均衡的策略。因此，通信在与代理之间的利益冲突程度给出的纳什均衡下，按照最大程度进行。这一结论对超参数和游戏的备选规范稳健。我们讨论了信息传递游戏中均衡选择理论、计算机科学中算法间新兴通信工作以及由人工智能代理组成的市场中的宫斗经济学的影响。
+    本研究考虑了预测回归中系数随机性的检验。我们关注系数随机性检验在随机系数的持久性方面的影响。我们发现，当随机系数是稳态的或I(0)时，Nyblom的LM检验在功效上不是最优的，这一点已经针对集成或I(1)随机系数的备择假设得到了证实。我们通过构建一些在随机系数为稳态时具有更高功效的检验来证明这一点，尽管在随机系数为集成时，这些检验在功效上被LM检验所支配。这意味着在不同的背景下，系数随机性的最佳检验是不同的，从而实证研究者应该考虑潜在随机系数的持久性，并相应地选择多个检验。特别是，我们通过理论和数值研究表明，LM检验与一种Wald型检验的乘积是一个较好的检验方法。
 
-    We simulate behaviour of independent reinforcement learning algorithms playing the Crawford and Sobel (1982) game of strategic information transmission. We show that a sender and a receiver training together converge to strategies close to the exante optimal equilibrium of the game. Hence, communication takes place to the largest extent predicted by Nash equilibrium given the degree of conflict of interest between agents. The conclusion is shown to be robust to alternative specifications of the hyperparameters and of the game. We discuss implications for theories of equilibrium selection in information transmission games, for work on emerging communication among algorithms in computer science and for the economics of collusions in markets populated by artificially intelligent agents.
+    This study considers tests for coefficient randomness in predictive regressions. Our focus is on how tests for coefficient randomness are influenced by the persistence of random coefficient. We find that when the random coefficient is stationary, or I(0), Nyblom's (1989) LM test loses its optimality (in terms of power), which is established against the alternative of integrated, or I(1), random coefficient. We demonstrate this by constructing tests that are more powerful than the LM test when random coefficient is stationary, although these tests are dominated in terms of power by the LM test when random coefficient is integrated. This implies that the best test for coefficient randomness differs from context to context, and practitioners should take into account the persistence of potentially random coefficient and choose from several tests accordingly. In particular, we show through theoretical and numerical investigations that the product of the LM test and a Wald-type test proposed
     
-[^3]: 一个私营垄断保险公司的社群评级的理论基础：框架、监管和数值分析。
+[^2]: 为什么投资者委托金融决策？实验研究四种可能动机
 
-    Theoretical Foundations of Community Rating by a Private Monopolist Insurer: Framework, Regulation, and Numerical Analysis. (arXiv:2309.15269v1 [econ.TH])
+    Motives for Delegating Financial Decisions. (arXiv:2309.03419v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.15269](http://arxiv.org/abs/2309.15269)
+    [http://arxiv.org/abs/2309.03419](http://arxiv.org/abs/2309.03419)
 
-    本文通过斯蒂格利茨模型建立了社群评级的理论框架，证明了最优保费满足逆弹性规则，并通过数值分析显示在监管下，赔偿的10%增加对其他变量的影响很小。
-
-    
-
-    社群评级是一种政策，无论风险因素如何，都要求统一保费。本文将重点放在单合同解释上，我们使用斯蒂格利茨（1977）的垄断模型建立了社群评级的理论框架，其中存在着一个连续的代理人群体。我们展示了盈利条件，并证明，在温和的正则条件下，最优保费是唯一的，并满足逆弹性规则。我们的数值分析使用现实参数值，显示在监管下，赔偿的10%增加对其他变量的影响很小。
-
-    Community rating is a policy that mandates uniform premium regardless of the risk factors. In this paper, our focus narrows to the single contract interpretation wherein we establish a theoretical framework for community rating using Stiglitz's (1977) monopoly model in which there is a continuum of agents. We exhibit profitability conditions and show that, under mild regularity conditions, the optimal premium is unique and satisfies the inverse elasticity rule. Our numerical analysis, using realistic parameter values, reveals that under regulation, a 10% increase in indemnity is possible with minimal impact on other variables.
-    
-[^4]: 关于最小单纯经济的研究
-
-    On the minimal simplex economy. (arXiv:2309.03784v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.03784](http://arxiv.org/abs/2309.03784)
-
-    本论文研究了最小单纯经济，证明了每个仿射经济都存在竞争均衡，并且发现竞争均衡可以在任何最小单纯经济中内在确定。
+    为了解为什么投资者会委托金融决策给专家，作者进行了一项实验，结果发现，投资者委托的动机包括责任转嫁、决策成本和追求过去表现，而没有发现委托使风险更加可接受的动机。
 
     
 
-    在我们之前的论文中，我们证明了每个仿射经济都存在竞争均衡。为了找到能够计算竞争均衡的情况，我们定义了一个简单型经济，即对商品数量进行重复变化的情况，其中消费者的数量代表了偏好，而转换矩阵则定义了初始禀赋。我们展示了竞争均衡可以在任何最小单纯经济中内在确定。
+    为了解为什么投资者会委托金融决策给专家，我们进行了一项实验，并探究了四种可能的动机。实验结果显示，甚至在轻松的选择任务中，有相当大比例的投资者倾向于委托决策，这表明责任转嫁动机起了重要的作用。对于更复杂的任务，更多的投资者选择委托，这说明决策成本对某些投资者有影响。一些委托者选择了低质量的、收益较高的专家，这表明追求过去表现的动机也起到了一定作用。我们没有发现第四种可能动机：委托使风险更加可接受。
 
-    In our previous paper we proved that every affine economy has a competitive equilibrium. In order to find a situation in which it is possible to compute it, we define a simplex economy as a variation with repetition of the number of commodities taking the number of consumers (representing the preferences), and a transition matrix (defining the initial endowments). We show that a competitive equilibrium can be intrinsically determined in any minimal simplex economy.
+    Why do investors delegate financial decisions to supposed experts? We report a laboratory experiment designed to disentangle four possible motives. Almost 600 investors drawn from the Prolific subject pool choose whether or not to delegate a real-stakes choice among lotteries to a previous investor (an ``expert'') after seeing information on the performance of several available experts. We find that a surprisingly large fraction of investors delegate even trivial choice tasks, suggesting a major role for the blame shifting motive. A larger fraction of investors delegate our more complex tasks, suggesting that decision costs play a role for some investors. Some investors who delegate choose a low quality expert with high earnings, suggesting a role for chasing past performance. We find no evidence for a fourth possible motive, that delegation makes risk more acceptable.
     
-[^5]: 可操纵性和独裁权之间的权衡：Gibbard-Satterthwaite定理的证明
+[^3]: 最多七个选项的Condorcet领域
 
-    Trade-off between manipulability and dictatorial power: a proof of the Gibbard-Satterthwaite Theorem. (arXiv:2306.04587v1 [econ.TH])
+    Condorcet Domains of Degree at most Seven. (arXiv:2306.15993v2 [cs.DM] CROSS LISTED)
 
-    [http://arxiv.org/abs/2306.04587](http://arxiv.org/abs/2306.04587)
+    [http://arxiv.org/abs/2306.15993](http://arxiv.org/abs/2306.15993)
 
-    通过利用代理人在可操纵性和独裁权之间的权衡，我们证明了Gibbard-Satterthwaite定理。
-
-    
-
-    通过赋予仅顶部和高效的社会选择准则一种双重序结构，利用规则允许代理人具有不同程度的可操纵性和独裁权之间的权衡，我们提供了Gibbard-Satterthwaite定理的证明。
-
-    By endowing the class of tops-only and efficient social choice rules with a dual order structure that exploits the trade-off between different degrees of manipulability and dictatorial power rules allow agents to have, we provide a proof of the Gibbard-Satterthwaite Theorem.
-    
-[^6]: 利用静态工具识别动态的最小平均处理效应
-
-    Identifying Dynamic LATEs with a Static Instrument. (arXiv:2305.18114v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.18114](http://arxiv.org/abs/2305.18114)
-
-    本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。
+    本文首次明确列举了在$n\leq 7$个选项上的所有最大Condorcet领域，通过开发新算法并在超级计算机上实现，解决了社会科学和数学领域的多个未解问题，同时给出了关于Condorcet领域对称性的新结果，以及与其他领域类型的联系。
 
     
 
-    在很多情况下，研究人员感兴趣的是用静态二元工具（IV）来识别不可逆治疗的动态效应。例如，在对培训计划的动态效应进行评估时，只需要单个抽奖来确定资格。在这些情况下，通常采用每个时期的IV估计方法。在标准IV假设的动态扩展下，我们展示了这种IV估计法可以识别不同潜在群体和治疗暴露下的治疗效应加权和。但是，有可能出现负权重。我们在不同的假设设置下考虑了这种情况下动态治疗效果的点估计和部分识别。
+    本文首次明确列举了所有在$n\leq 7$个选项上的最大Condorcet领域。通过开发一种新的构造Condorcet领域的算法，并在超级计算机上实现该算法的运行，我们完成了这一目标。随后，我们对所有最大Condorcet领域在度数为7的情况下的属性进行了首次调查，涉及社会科学和数学文献中研究的许多属性。我们通过数据示例和定理解决了其他作者提出的几个未解疑问。我们给出了一组关于Condorcet领域对称性的新结果，统一了之前的作品。最后，我们讨论了与非独裁领域和泛化的单峰领域等其他领域类型的联系。我们通过一个新的网站免费提供所有数据供其他研究者使用。
 
-    In many situations, researchers are interested in identifying dynamic effects of an irreversible treatment with a static binary instrumental variable (IV). For example, in evaluations of dynamic effects of training programs, with a single lottery determining eligibility. A common approach in these situations is to report per-period IV estimates. Under a dynamic extension of standard IV assumptions, we show that such IV estimators identify a weighted sum of treatment effects for different latent groups and treatment exposures. However, there is possibility of negative weights. We consider point and partial identification of dynamic treatment effects in this setting under different sets of assumptions.
+    In this paper we give the first explicit enumeration of all maximal Condorcet domains on $n\leq 7$ alternatives. This has been accomplished by developing a new algorithm for constructing Condorcet domains, and an implementation of that algorithm which has been run on a supercomputer.  We follow this up by the first survey of the properties of all maximal Condorcet domains up to degree 7, with respect to many properties studied in the social sciences and mathematical literature. We resolve several open questions posed by other authors, both by examples from our data and theorems. We give a new set of results on the symmetry properties of Condorcet domains which unify earlier works.  Finally we discuss connections to other domain types such as non-dictatorial domains and generalisations of single-peaked domains. All our data is made freely available for other researches via a new website.
     
-[^7]: GPT Agent在博弈论实验中的应用
+[^4]: 能源社区的动态净计量制度
 
-    GPT Agents in Game Theory Experiments. (arXiv:2305.05516v1 [econ.GN])
+    Dynamic Net Metering for Energy Communities. (arXiv:2306.13677v1 [eess.SY])
 
-    [http://arxiv.org/abs/2305.05516](http://arxiv.org/abs/2305.05516)
+    [http://arxiv.org/abs/2306.13677](http://arxiv.org/abs/2306.13677)
 
-    本文探讨了使用GPT代理作为战略游戏实验参与者的潜力。GPT代理可以生成逼真的结果，并在某些方面表现出与人类行为一致的行为。处理效果在两个游戏中都很明显。这项初步探索表明，基于GPT的代理在博弈论实验中具有潜在的应用。
-
-    
-
-    本文探讨了使用基于生成预训练转换器（GPT）的代理作为战略游戏实验参与者的潜力。具体而言，作者关注了在经济学中广受研究的有限重复严肃和囚徒困境两个游戏。作者设计了提示，使GPT代理能够理解游戏规则并参与其中。结果表明，在经过精心设计的提示后，GPT可以生成逼真的结果，并在某些方面表现出与人类行为一致的行为，例如在严肃游戏中，接受率与提供金额之间的正相关关系以及在囚徒困境游戏中的合作率。在一些方面，例如在多轮选择的演化方面，GPT行为与人类会有所不同。作者还研究了两种处理方式，在这两种处理方式中通过提示，GPT代理可以具有或没有社会偏好。处理效果在两个游戏中都很明显。这项初步探索表明，基于GPT的代理在博弈论实验中具有潜在的应用，为研究者研究战略行为提供了一个新的工具。
-
-    This paper explores the potential of using Generative Pre-trained Transformer (GPT)-based agents as participants in strategic game experiments. Specifically, I focus on the finitely repeated ultimatum and prisoner's dilemma games, two well-studied games in economics. I develop prompts to enable GPT agents to understand the game rules and play the games. The results indicate that, given well-crafted prompts, GPT can generate realistic outcomes and exhibit behavior consistent with human behavior in certain important aspects, such as positive relationship between acceptance rates and offered amounts in the ultimatum game and positive cooperation rates in the prisoner's dilemma game. Some differences between the behavior of GPT and humans are observed in aspects like the evolution of choices over rounds. I also study two treatments in which the GPT agents are prompted to either have social preferences or not. The treatment effects are evident in both games. This preliminary exploration ind
-    
-[^8]: 在社交学习和昂贵报告存在的情况下的最优定价方案
-
-    Optimal Pricing Schemes in the Presence of Social Learning and Costly Reporting. (arXiv:2211.07362v3 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2211.07362](http://arxiv.org/abs/2211.07362)
-
-    本论文研究了在社交学习和昂贵报告存在的情况下的最优定价方案。研究发现，最优方案分为四类，并且在学习过程中存在类型的动态转换。尽管学习效率高，但信息的揭示速度与规划者的最优解太慢。
+    本文提出了一个名为“动态净能计量”的机制，该机制动态地根据聚合的社区资源设置社区净能计量价格，在保证每个社区成员获得的利益高于社区外可能获得的利益的同时，将每个成员的激励与社区的激励相一致，以达到最大化社区社会福利的目的。
 
     
 
-    一个垄断平台向顺序到达并通过先前代理的报告学习垄断平台销售风险产品(未知效用)或安全产品(已知效用)的代理商。对于代理商来说，报告效用是昂贵的；因此，平台必须设计价格和奖励机制来激励代理商探索并生成新信息。我们特征化了利润最大化平台提供的最优奖励和定价方案。结果显示，最优方案分为四类：全覆盖、部分覆盖、即时揭示和非奖励。在指数赌博模型中，我们发现在学习过程中存在类型的动态转换。尽管学习效率高，但信息的揭示速度与规划者的最优解太慢。
+    我们提出了一个社会福利最大化的市场机制，用于将个人和共享社区能源资源聚合在一起，并根据一般的净能计量政策来动态设置社区净能计量价格。此机制被称为动态净能计量（D-NEM），它可以保证每个社区成员获得的利益高于社区外可能获得的利益，而没有子社区会更好地脱离其母体社区。D-NEM将每个成员的激励与社区的激励相一致，以便在D-NEM下最大化个体余额的每个成员都会带来最大社区社会福利。实证研究将所提出的机制与现有基准进行了比较，证明了其对成员和社区福利的益处。
 
-    A monopoly platform sells either a risky product (with unknown utility) or a safe product (with known utility) to agents who sequentially arrive and learn the utility of the risky product by the reporting of previous agents. It is costly for agents to report utility; hence the platform has to design both the prices and the reporting bonus to motivate the agents to explore and generate new information. We characterize the optimal bonus and pricing schemes offered by the profit-maximizing platform. It turns out that the optimal scheme falls into one of four types: Full Coverage, Partial Coverage, Immediate Revelation, and Non-Bonus. In a model of exponential bandit, we find that there is a dynamical switch of the types along the learning trajectory. Although learning stops efficiently, information is revealed too slowly compared with the planner's optimal solution.
+    We propose a social welfare maximizing market mechanism for an energy community that aggregates individual and community-shared energy resources under a general net energy metering (NEM) policy. Referred to as Dynamic NEM (D-NEM), the proposed mechanism dynamically sets the community NEM price based on aggregated community resources. D-NEM guarantees a higher benefit to each community member than possible outside the community, and no sub-communities would be better off departing from its parent community. D-NEM aligns each member's incentive with that of the community such that each member maximizing individual surplus under D-NEM results in maximum community social welfare. Empirical studies compare the proposed mechanism with existing benchmarks, demonstrating its member and community-level welfare benefits.
     
-[^9]: 推荐系统中的供给侧均衡
+[^5]: 测量随机理性
 
-    Supply-Side Equilibria in Recommender Systems. (arXiv:2206.13489v2 [cs.GT] UPDATED)
+    Measuring Stochastic Rationality. (arXiv:2303.08202v1 [econ.TH])
 
-    [http://arxiv.org/abs/2206.13489](http://arxiv.org/abs/2206.13489)
+    [http://arxiv.org/abs/2303.08202](http://arxiv.org/abs/2303.08202)
 
-    本论文探究了推荐系统中个性化内容的供给侧均衡问题，其特点是生产者决策空间是多维的和用户群体是异构的，高维度和异质性的模型创造了专业化的可能性。
+    使用一种部分排序方法来开发随机理性的度量，并引入了一个随机理性指数。该排序检测违反（随机）传递性以及选择嵌套菜单之间的不一致性。
 
     
 
-    算法推荐系统（如Spotify和Netflix）不仅影响消费者行为，而且影响生产者的激励。生产者试图创建将被推荐算法显示的内容，这可能影响他们内容的多样性和质量。本文研究个性化内容推荐系统中的供给侧均衡。我们将用户和内容建模为 $D$ 维向量，推荐算法显示每个用户与之最高点积的内容，生产者最大化被推荐其内容的用户数减去生产成本。我们模型的两个关键特征是生产者决策空间是多维的，用户群体是异构的，这与经典低维模型不同。多维性和异质性创造了专业化的可能性，不同的生产者在均衡状态下创建不同类型的内容。使用对偶论证法
+    我们通过为任意随机选择函数分配一个一参数类的确定性选择对应来开发一种部分排序方法，从而比较它们的理性基础。然后检查这些对应在每个参数值的理性性（按照显露首选之标准）。类似于确定性理性的经典概念，我们的理性排序不仅检测违反（随机）传递性，还检测嵌套菜单中选择之间的不一致性。我们获得了一种易于使用的排序特征描述，然后使用这种特征描述引入了一个随机理性指数。我们将我们的排序和指数应用于一些著名的随机选择模型，并使用阿莫斯·特沃斯基的一项著名实验进行了实证应用。
 
-    Algorithmic recommender systems such as Spotify and Netflix affect not only consumer behavior but also producer incentives. Producers seek to create content that will be shown by the recommendation algorithm, which can impact both the diversity and quality of their content. In this work, we investigate the resulting supply-side equilibria in personalized content recommender systems. We model users and content as $D$-dimensional vectors, the recommendation algorithm as showing each user the content with highest dot product, and producers as maximizing the number of users who are recommended their content minus the cost of production. Two key features of our model are that the producer decision space is multi-dimensional and the user base is heterogeneous, which contrasts with classical low-dimensional models.  Multi-dimensionality and heterogeneity create the potential for specialization, where different producers create different types of content at equilibrium. Using a duality argumen
+    We develop a partial ordering approach toward comparing stochastic choice functions on the basis of their rationality. We do this by assigning to any stochastic choice function a one-parameter class of deterministic choice correspondences, and then checking for the rationality (in the standard sense of revealed preference) of these correspondences for each parameter value. Similar to the classical notion of deterministic rationality, our rationality ordering detects violations of (stochastic) transitivity as well as inconsistencies between choices from nested menus. We obtain an easy-to-use characterization of this ordering, and then use that characterization to introduce an index of stochastic rationality. We apply our ordering and index to some well-known stochastic choice models and provide an empirical application using a famous experiment by Amos Tversky.
+    
+[^6]: 多元预测分布的基于评分的校准测试
+
+    Score-based calibration testing for multivariate forecast distributions. (arXiv:2211.16362v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2211.16362](http://arxiv.org/abs/2211.16362)
+
+    该论文提出了针对多元预测分布的基于评分的校准测试方法，包括评分的概率积分变换和预期性能实际性能比较两种方法，并通过模拟测试证明其有效性。
+
+    
+
+    多元分布预测近年来已经广泛应用。为了评估此类预测的质量，需要合适的评估方法。在单变量情况下，基于概率积分变换的校准测试已成为常规方法。然而，基于PIT的多变量校准测试面临着各种挑战。因此，我们引入了一个适用于多元情况的普适性校准测试框架，并提出了两个由此产生的新测试。两种方法都使用适当的评分规则，即使在大维数情况下也很容易实现。第一种方法使用评分的概率积分变换。第二种方法基于将预测分布的预期性能（即预期得分）与基于实际观测数据（即实现得分）的实际性能进行比较。这些测试在模拟中具有良好的尺寸和功率特性，解决了现有测试的各种问题。我们将新测试应用于宏观经济预测分布。
+
+    Multivariate distributional forecasts have become widespread in recent years. To assess the quality of such forecasts, suitable evaluation methods are needed. In the univariate case, calibration tests based on the probability integral transform (PIT) are routinely used. However, multivariate extensions of PIT-based calibration tests face various challenges. We therefore introduce a general framework for calibration testing in the multivariate case and propose two new tests that arise from it. Both approaches use proper scoring rules and are simple to implement even in large dimensions. The first employs the PIT of the score. The second is based on comparing the expected performance of the forecast distribution (i.e., the expected score) to its actual performance based on realized observations (i.e., the realized score). The tests have good size and power properties in simulations and solve various problems of existing tests. We apply the new tests to forecast distributions for macroeco
     
 
