@@ -2,102 +2,117 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Talk2Care: Facilitating Asynchronous Patient-Provider Communication with Large-Language-Model.](http://arxiv.org/abs/2309.09357) | 本研究利用大型语言模型（LLMs）来促进患者和医生之间的异步通信，通过访谈研究了解了他们对LLMs的需求，并构建了一个名为Talk2Care的LLM驱动的通信系统。 |
-| [^2] | [Agents: An Open-source Framework for Autonomous Language Agents.](http://arxiv.org/abs/2309.07870) | Agents是一个开源框架，支持构建自主语言代理的各种功能，并提供用户友好的接口和对研究人员的扩展性。 |
-| [^3] | [Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling.](http://arxiv.org/abs/2308.06077) | 本文提出了一种经济有效的语言模型选择框架（CELMOC），通过元模型预测在不同输入上表现良好的语言模型，从而在低成本下实现高整体性能。 |
-| [^4] | [VisoGender: A dataset for benchmarking gender bias in image-text pronoun resolution.](http://arxiv.org/abs/2306.12424) | VisoGender是一个用于评估视觉语言模型中职业相关性别偏见的数据集。研究显示，最先进的模型缺乏正确解析复杂场景中性别的推理能力，生成字幕的模型通常比类似CLIP的模型更精确和更少偏见。 |
-| [^5] | [Understanding the Effectiveness of Early Weight Averaging for Training Large Language Models.](http://arxiv.org/abs/2306.03241) | 本文研究了使用早期权重平均化方法来提高大型语言模型质量的有效性，证明该方法可以加速收敛且测试和零样本泛化效果显著，同时有效缓解了训练中的损失波动问题。 |
-| [^6] | [Knowledge Refinement via Interaction Between Search Engines and Large Language Models.](http://arxiv.org/abs/2305.07402) | 本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。 |
-| [^7] | [USNID: A Framework for Unsupervised and Semi-supervised New Intent Discovery.](http://arxiv.org/abs/2304.07699) | 该论文提出了一个名为USNID的框架，用于无监督和半监督的新意图发现，解决了利用有限或无标记数据时难以捕捉复杂语义的问题，并设计了聚类机制来提高自我监督目标的质量，从而发现细粒度的意图簇。 |
-| [^8] | [Highlighting Named Entities in Input for Auto-Formulation of Optimization Problems.](http://arxiv.org/abs/2212.13201) | 本文介绍了一种将线性规划单词问题转换为数学公式的方法。我们利用输入中的命名实体并增强输入以突出这些实体，从而实现了高准确度，赢得了NL4Opt竞赛生成赛道的第一名。 |
+| [^1] | [Defending Our Privacy With Backdoors.](http://arxiv.org/abs/2310.08320) | 本研究提出了一种基于后门攻击的防御方法，通过对模型进行策略性插入后门，对齐敏感短语与中性术语的嵌入，以删除训练数据中的私人信息。实证结果显示该方法的有效性。 |
+| [^2] | [Norm Tweaking: High-performance Low-bit Quantization of Large Language Models.](http://arxiv.org/abs/2309.02784) | 本文介绍了一种称为“norm tweaking”的技术，通过调整量化的激活分布来实现高精度的低比特量化，以提高大型语言模型的压缩性能。 |
+| [^3] | [PMET: Precise Model Editing in a Transformer.](http://arxiv.org/abs/2308.08742) | 该论文通过分析Transformer模型中的隐藏状态，发现多头自注意力编码了某些通用知识提取模式，因此在进行模型编辑时，不需要更新多头自注意力的权重。 |
+| [^4] | [AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation.](http://arxiv.org/abs/2305.09515) | 本文提出了一种自回归扩散模型（AR-Diffusion）用于文本生成，通过动态数量的降噪步骤，确保左侧标记的生成影响右侧标记的生成。 |
+| [^5] | [StarCoder: may the source be with you!.](http://arxiv.org/abs/2305.06161) | 本研究介绍了一个具有15.5B参数和8K上下文长度的大型语言模型——StarCoder，其可以进行快速大批量推理。经评估证明，在Python上表现优异，能够通过人工评估获得40\%的pass@1的得分，且在其他程序中也表现出令人满意的性能。 |
+| [^6] | [Structure-CLIP: Enhance Multi-modal Language Representations with Structure Knowledge.](http://arxiv.org/abs/2305.06152) | Structure-CLIP使用文本中的结构化知识，使用场景图强化多模态语言表示，从而在图像-文本匹配任务中展现了更好的性能。 |
+| [^7] | [Learning to Program with Natural Language.](http://arxiv.org/abs/2304.10464) | 该论文提出了一种用自然语言作为编程语言并通过学习编程方法让大语言模型直接生成自然语言程序并指导推理的方法。实验结果表明，这种方法在解决编程任务上比基线方法有更高的成功率。 |
+| [^8] | [USNID: A Framework for Unsupervised and Semi-supervised New Intent Discovery.](http://arxiv.org/abs/2304.07699) | 该论文提出了一个名为USNID的框架，用于无监督和半监督的新意图发现，解决了利用有限或无标记数据时难以捕捉复杂语义的问题，并设计了聚类机制来提高自我监督目标的质量，从而发现细粒度的意图簇。 |
+| [^9] | [Evaluation of GPT and BERT-based models on identifying protein-protein interactions in biomedical text.](http://arxiv.org/abs/2303.17728) | 该论文评估了预先训练的语言模型(GPT和BERT)识别生物医学文本中蛋白质相互作用的性能, 结果显示BERT模型表现最佳，其中PubMedBERT具有最高的精度和F1分数，BioM-ALBERT具有最高的召回率。 |
 
 # 详细
 
-[^1]: Talk2Care: 利用大型语言模型促进异步患者-医生通信
+[^1]: 使用后门技术保护我们的隐私
 
-    Talk2Care: Facilitating Asynchronous Patient-Provider Communication with Large-Language-Model. (arXiv:2309.09357v2 [cs.CL] UPDATED)
+    Defending Our Privacy With Backdoors. (arXiv:2310.08320v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.09357](http://arxiv.org/abs/2309.09357)
+    [http://arxiv.org/abs/2310.08320](http://arxiv.org/abs/2310.08320)
 
-    本研究利用大型语言模型（LLMs）来促进患者和医生之间的异步通信，通过访谈研究了解了他们对LLMs的需求，并构建了一个名为Talk2Care的LLM驱动的通信系统。
-
-    
-
-    尽管有大量的远程医疗应用程序来帮助家庭中的老年人和医疗提供者，但基本的消息和电话仍然是最常见的通信方法，这些方法存在有限的可用性、信息丢失和流程效率低下的问题。促进患者-医生通信的一个有希望的解决方案是利用大型语言模型(LLMs)及其强大的自然对话和摘要能力。然而，对于LLMs在通信过程中的作用还存在有限的理解。我们首先进行了两项访谈研究，分别与老年人(N=10)和医疗提供者(N=9)进行了交流，以了解他们在患者-医生异步通信中对LLMs的需求和机会。基于这些见解，我们构建了一个LLM驱动的通信系统Talk2Care，并为两个群体设计了交互组件: (1) 对于老年人，我们利用语音助手的便利性和易于获取性，构建了一个LLM驱动的语音助手
-
-    Despite the plethora of telehealth applications to assist home-based older adults and healthcare providers, basic messaging and phone calls are still the most common communication methods, which suffer from limited availability, information loss, and process inefficiencies. One promising solution to facilitate patient-provider communication is to leverage large language models (LLMs) with their powerful natural conversation and summarization capability. However, there is a limited understanding of LLMs' role during the communication. We first conducted two interview studies with both older adults (N=10) and healthcare providers (N=9) to understand their needs and opportunities for LLMs in patient-provider asynchronous communication. Based on the insights, we built an LLM-powered communication system, Talk2Care, and designed interactive components for both groups: (1) For older adults, we leveraged the convenience and accessibility of voice assistants (VAs) and built an LLM-powered VA i
-    
-[^2]: 自主语言代理的开源框架：Agents
-
-    Agents: An Open-source Framework for Autonomous Language Agents. (arXiv:2309.07870v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.07870](http://arxiv.org/abs/2309.07870)
-
-    Agents是一个开源框架，支持构建自主语言代理的各种功能，并提供用户友好的接口和对研究人员的扩展性。
+    本研究提出了一种基于后门攻击的防御方法，通过对模型进行策略性插入后门，对齐敏感短语与中性术语的嵌入，以删除训练数据中的私人信息。实证结果显示该方法的有效性。
 
     
 
-    最近大型语言模型（LLMs）的高级进展使研究人员和开发人员能够构建自主语言代理，这些代理能够通过自然语言接口自动解决各种任务并与环境、人类和其他代理交互。我们将语言代理视为人工通用智能的有前途的方向，并发布Agents，一个开源库，旨在向更广泛的非专业人士开放这些进展。Agents经过精心设计，支持重要功能，包括规划、记忆、工具使用、多代理通信和细粒度的符号控制。Agents用户友好，使非专业人士能够在不需要编写太多代码的情况下构建、定制、测试、调优和部署最先进的自主语言代理。该库也对研究人员友好，其模块化设计使其易于扩展。
+    在使用未经筛选、常常包含敏感信息的网页数据训练大型人工智能模型的情况下，隐私问题成为了一个重要的关注点。其中一个问题是，攻击者可以利用隐私攻击的方法提取出训练数据的信息。然而，如何在不降低模型性能的情况下去除特定信息是一个不容易解决且具有挑战性的问题。我们提出了一个基于后门攻击的简单而有效的防御方法，用于从模型中删除私人信息，如个人姓名，特别是针对文本编码器的。具体而言，通过策略性地插入后门，我们将敏感短语的嵌入与中性术语的嵌入对齐，例如用"a person"代替人名。我们的实证结果通过对零样本分类器使用专门的隐私攻击测试表明了我们基于后门的防御方法的效果。我们的方法提供了一个新的"双重用途"的视角。
 
-    Recent advances on large language models (LLMs) enable researchers and developers to build autonomous language agents that can automatically solve various tasks and interact with environments, humans, and other agents using natural language interfaces. We consider language agents as a promising direction towards artificial general intelligence and release Agents, an open-source library with the goal of opening up these advances to a wider non-specialist audience. Agents is carefully engineered to support important features including planning, memory, tool usage, multi-agent communication, and fine-grained symbolic control. Agents is user-friendly as it enables non-specialists to build, customize, test, tune, and deploy state-of-the-art autonomous language agents without much coding. The library is also research-friendly as its modularized design makes it easily extensible for researchers. Agents is available at https://github.com/aiwaves-cn/agents.
+    The proliferation of large AI models trained on uncurated, often sensitive web-scraped data has raised significant privacy concerns. One of the concerns is that adversaries can extract information about the training data using privacy attacks. Unfortunately, the task of removing specific information from the models without sacrificing performance is not straightforward and has proven to be challenging. We propose a rather easy yet effective defense based on backdoor attacks to remove private information such as names of individuals from models, and focus in this work on text encoders. Specifically, through strategic insertion of backdoors, we align the embeddings of sensitive phrases with those of neutral terms-"a person" instead of the person's name. Our empirical results demonstrate the effectiveness of our backdoor-based defense on CLIP by assessing its performance using a specialized privacy attack for zero-shot classifiers. Our approach provides not only a new "dual-use" perspecti
     
-[^3]: 飞拍或大炮？通过元模型选择经济有效的语言模型
+[^2]: Norm调整：大型语言模型的高性能低比特量化
 
-    Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling. (arXiv:2308.06077v1 [cs.CL])
+    Norm Tweaking: High-performance Low-bit Quantization of Large Language Models. (arXiv:2309.02784v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.06077](http://arxiv.org/abs/2308.06077)
+    [http://arxiv.org/abs/2309.02784](http://arxiv.org/abs/2309.02784)
 
-    本文提出了一种经济有效的语言模型选择框架（CELMOC），通过元模型预测在不同输入上表现良好的语言模型，从而在低成本下实现高整体性能。
-
-    
-
-    生成式语言模型在数据科学领域中变得无处不在。对于各种任务，可以将输入作为自然语言提示，通过LM的输出来提取解决方案。LM的性能随着模型大小的增加而不断提高，但同时查询越来越大的模型的经济成本也在增加。然而，不是所有的输入都很难：有些输入需要更大的LM才能获得令人满意的解决方案，而对于其他输入，较小的LM就足够了。基于这个事实，我们设计了一个经济有效的语言模型选择框架（CELMOC）。给定一组输入和一组候选LM，CELMOC根据所谓的元模型聪明地将每个输入分配给一个在该输入上预测表现良好的LM，以期在低成本下实现高整体性能。用户可以灵活调整成本与性能的权衡。选项包括，最大化总体性能（或处理输入的数量）等。
-
-    Generative language models (LMs) have become omnipresent across data science. For a wide variety of tasks, inputs can be phrased as natural language prompts for an LM, from whose output the solution can then be extracted. LM performance has consistently been increasing with model size - but so has the monetary cost of querying the ever larger models. Importantly, however, not all inputs are equally hard: some require larger LMs for obtaining a satisfactory solution, whereas for others smaller LMs suffice. Based on this fact, we design a framework for Cost-Effective Language Model Choice (CELMOC). Given a set of inputs and a set of candidate LMs, CELMOC judiciously assigns each input to an LM predicted to do well on the input according to a so-called meta-model, aiming to achieve high overall performance at low cost. The cost-performance trade-off can be flexibly tuned by the user. Options include, among others, maximizing total expected performance (or the number of processed inputs) w
-    
-[^4]: VisoGender：一份用于评估图像-文本代词解析中性别偏见的数据集
-
-    VisoGender: A dataset for benchmarking gender bias in image-text pronoun resolution. (arXiv:2306.12424v1 [cs.CV])
-
-    [http://arxiv.org/abs/2306.12424](http://arxiv.org/abs/2306.12424)
-
-    VisoGender是一个用于评估视觉语言模型中职业相关性别偏见的数据集。研究显示，最先进的模型缺乏正确解析复杂场景中性别的推理能力，生成字幕的模型通常比类似CLIP的模型更精确和更少偏见。
+    本文介绍了一种称为“norm tweaking”的技术，通过调整量化的激活分布来实现高精度的低比特量化，以提高大型语言模型的压缩性能。
 
     
 
-    我们介绍了一个新的数据集VisoGender，用于评估视觉语言模型中的性别偏见。我们专注于职业相关的性别偏见，受Winograd和Winogender模式的启发，其中每个图像都与包含场景中主语和宾语代词关系的标题相关联。VisoGender在职业角色中平衡了性别代表，支持两种偏见评估方式：i）解决偏见，我们评估男性和女性解决准确性之间的差异；ii）检索偏见，我们比较在性别中立的搜索查询中检索到的男性和女性专业人员的比例。我们对几种最先进的视觉语言模型进行了基准测试，并发现它们缺乏正确解析复杂场景中性别的推理能力。虽然性别偏见的方向和幅度取决于任务和评估的模型，但生成字幕的模型通常比类似CLIP的模型更精确和更少偏见。
+    随着大型语言模型（LLMs）的尺寸不断增大，在保持精度的前提下进行模型压缩已成为部署的关键挑战。虽然一些量化方法，如GPTQ，在实现可接受的4比特权重量化方面取得了进展，但尝试更低位的量化往往导致严重的性能降低。在本文中，我们引入了一种称为“norm tweaking”的技术，它可以作为当前PTQ方法的插件，实现高精度和成本高效。我们的方法受到一项观察的启示，即使调整量化的激活分布以与其浮点对应物匹配，也可以恢复LLMs的准确性。为了实现这一点，我们精心设计了一个调整策略，包括生成校准数据和通道距离约束，以更新归一化层的权重以获得更好的泛化性能。我们在各种数据集上进行了大量实验，使用了几个开源的LLMs。
 
-    We introduce VisoGender, a novel dataset for benchmarking gender bias in vision-language models. We focus on occupation-related gender biases, inspired by Winograd and Winogender schemas, where each image is associated with a caption containing a pronoun relationship of subjects and objects in the scene. VisoGender is balanced by gender representation in professional roles, supporting bias evaluation in two ways: i) resolution bias, where we evaluate the difference between gender resolution accuracies for men and women and ii) retrieval bias, where we compare ratios of male and female professionals retrieved for a gender-neutral search query. We benchmark several state-of-the-art vision-language models and find that they lack the reasoning abilities to correctly resolve gender in complex scenes. While the direction and magnitude of gender bias depends on the task and the model being evaluated, captioning models generally are more accurate and less biased than CLIP-like models. Dataset 
+    As the size of large language models (LLMs) continues to grow, model compression without sacrificing accuracy has become a crucial challenge for deployment. While some quantization methods, such as GPTQ, have made progress in achieving acceptable 4-bit weight-only quantization, attempts at lower bit quantization often result in severe performance degradation. In this paper, we introduce a technique called norm tweaking, which can be used as a plugin in current PTQ methods to achieve high precision while being cost-efficient. Our approach is inspired by the observation that rectifying the quantized activation distribution to match its float counterpart can readily restore accuracy for LLMs. To achieve this, we carefully design a tweaking strategy that includes calibration data generation and channel-wise distance constraint to update the weights of normalization layers for better generalization. We conduct extensive experiments on various datasets using several open-sourced LLMs. Our me
     
-[^5]: 理解早期权重平均对训练大语言模型的有效性
+[^3]: PMET: 在Transformer中的精确模型编辑
 
-    Understanding the Effectiveness of Early Weight Averaging for Training Large Language Models. (arXiv:2306.03241v1 [cs.LG])
+    PMET: Precise Model Editing in a Transformer. (arXiv:2308.08742v1 [cs.CL])
 
-    [http://arxiv.org/abs/2306.03241](http://arxiv.org/abs/2306.03241)
+    [http://arxiv.org/abs/2308.08742](http://arxiv.org/abs/2308.08742)
 
-    本文研究了使用早期权重平均化方法来提高大型语言模型质量的有效性，证明该方法可以加速收敛且测试和零样本泛化效果显著，同时有效缓解了训练中的损失波动问题。
-
-    
-
-    训练大型语言模型代价高昂，最近的研究表明训练至收敛并不高效。在本文中，我们研究了一种简单的想法，即在训练过程中沿着轨迹进行检查点平均化，以在模型收敛之前提高其质量。这种方法在训练或推理期间不会产生额外的成本。具体而言，我们分析了具有10亿到120亿参数的Pythia LLM的训练轨迹，并证明特别是在训练的早期和中期阶段，这种想法可以加速收敛并提高测试和零样本泛化效果。损失波动是LLM训练中众所周知的问题；在我们的分析中，我们遇到了两种基础轨迹的这种情况，并且我们的平均化可以缓解这两种情况。例如，对于一个拥有69亿参数的LLM，我们的早期权重平均化配方可以节省高达4200小时的GPU时间，这对云计算成本来说是显著的节约。
-
-    Training LLMs is expensive, and recent evidence indicates training all the way to convergence is inefficient. In this paper, we investigate the ability of a simple idea, checkpoint averaging along the trajectory of a training run to improve the quality of models before they have converged. This approach incurs no extra cost during training or inference. Specifically, we analyze the training trajectories of Pythia LLMs with 1 to 12 billion parameters and demonstrate that, particularly during the early to mid stages of training, this idea accelerates convergence and improves both test and zero-shot generalization. Loss spikes are a well recognized problem in LLM training; in our analysis we encountered two instances of this in the underlying trajectories, and both instances were mitigated by our averaging.  For a 6.9B parameter LLM, for example, our early weight averaging recipe can save upto 4200 hours of GPU time, which corresponds to significant savings in cloud compute costs.
-    
-[^6]: 搜索引擎与大型语言模型间的交互优化知识精炼
-
-    Knowledge Refinement via Interaction Between Search Engines and Large Language Models. (arXiv:2305.07402v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.07402](http://arxiv.org/abs/2305.07402)
-
-    本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。
+    该论文通过分析Transformer模型中的隐藏状态，发现多头自注意力编码了某些通用知识提取模式，因此在进行模型编辑时，不需要更新多头自注意力的权重。
 
     
 
-    信息检索在从大量数据中定位相关资源方面具有重要作用，其应用已从传统知识库发展至现代搜索引擎（SEs）。大型语言模型（LLMs）的出现进一步通过使用自然语言与搜索系统交互革命性地改变了该领域。本文探索了LLMs和SEs的优缺点，强调它们在理解用户查询和检索最新信息方面的各自优势。为了利用两种范例的优势并避免其限制，我们提出了InteR，这是一个通过SEs和LLMs之间的交互促进知识精炼的新框架。 InteR使SEs能够使用LLM生成的摘要来调整查询，同时使LLMs能够使用SE检索到的文档来增强提示。这种迭代的精炼过程增强了SEs和LLMs的输入，从而导致更准确的检索结果。
+    模型编辑技术可以以较低的成本修改大型语言模型中的少量知识，并且已经取得了显著的成功。现有方法假设Transformer层隐藏状态是前馈网络的键值内存的值。它们通常优化Transformer层隐藏状态来记忆目标知识，并将其用于更新大型语言模型中前馈网络的权重。然而，Transformer层隐藏状态的信息流来自三个部分：多头自注意力、前馈网络和残差连接。现有方法忽视了Transformer层隐藏状态包含了前馈网络特别需要的信息这一事实。因此，模型编辑的性能下降。为了实现更精确的模型编辑，我们分析了多头自注意力和前馈网络的隐藏状态，发现多头自注意力编码了某些通用知识提取模式。这意味着当引入新知识时，多头自注意力的权重不需要更新。
 
-    Information retrieval (IR) plays a crucial role in locating relevant resources from vast amounts of data, and its applications have evolved from traditional knowledge bases to modern search engines (SEs). The emergence of large language models (LLMs) has further revolutionized the field by enabling users to interact with search systems in natural language. In this paper, we explore the advantages and disadvantages of LLMs and SEs, highlighting their respective strengths in understanding user-issued queries and retrieving up-to-date information. To leverage the benefits of both paradigms while circumventing their limitations, we propose InteR, a novel framework that facilitates knowledge refinement through interaction between SEs and LLMs. InteR allows SEs to refine knowledge in query using LLM-generated summaries and enables LLMs to enhance prompts using SE-retrieved documents. This iterative refinement process augments the inputs of SEs and LLMs, leading to more accurate retrieval. Ex
+    Model editing techniques modify a minor proportion of knowledge in Large Language Models (LLMs) at a relatively low cost, which have demonstrated notable success. Existing methods assume Transformer Layer (TL) hidden states are values of key-value memories of the Feed-Forward Network (FFN). They usually optimize the TL hidden states to memorize target knowledge and use it to update the weights of the FFN in LLMs. However, the information flow of TL hidden states comes from three parts: Multi-Head Self-Attention (MHSA), FFN, and residual connections. Existing methods neglect the fact that the TL hidden states contains information not specifically required for FFN. Consequently, the performance of model editing decreases. To achieve more precise model editing, we analyze hidden states of MHSA and FFN, finding that MHSA encodes certain general knowledge extraction patterns. This implies that MHSA weights do not require updating when new knowledge is introduced. Based on above findings, we
     
-[^7]: USNID: 无监督和半监督新意图发现的框架
+[^4]: AR-Diffusion：自回归扩散模型用于文本生成
+
+    AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation. (arXiv:2305.09515v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.09515](http://arxiv.org/abs/2305.09515)
+
+    本文提出了一种自回归扩散模型（AR-Diffusion）用于文本生成，通过动态数量的降噪步骤，确保左侧标记的生成影响右侧标记的生成。
+
+    
+
+    扩散模型由于其出色的性能，在图像生成领域引起了广泛的关注。最近，这种成功已经扩展到了通过同时生成序列中的所有标记来实现文本生成。然而，自然语言相对于图像具有更为明显的序列依赖性，现有的大多数语言模型都是使用自左向右的自回归方法进行训练的。为了解决自然语言固有的序列特征，我们引入了自回归扩散（AR-Diffusion）模型。AR-Diffusion确保右侧标记的生成取决于左侧标记的生成，这种机制是通过采用动态数量的降噪步骤来实现的，这些步骤根据标记位置而变化。这导致左侧的标记经历的降噪步骤比右侧的标记少，从而使它们能够更早地生成并随后影响右侧标记的生成。
+
+    Diffusion models have gained significant attention in the realm of image generation due to their exceptional performance. Their success has been recently expanded to text generation via generating all tokens within a sequence concurrently. However, natural language exhibits a far more pronounced sequential dependency in comparison to images, and the majority of existing language models are trained utilizing a left-to-right auto-regressive approach. To account for the inherent sequential characteristic of natural language, we introduce Auto-Regressive Diffusion (AR-Diffusion). AR-Diffusion ensures that the generation of tokens on the right depends on the generated ones on the left, a mechanism achieved through employing a dynamic number of denoising steps that vary based on token position. This results in tokens on the left undergoing fewer denoising steps than those on the right, thereby enabling them to generate earlier and subsequently influence the generation of tokens on the right.
+    
+[^5]: StarCoder: 源代码与你同在！
+
+    StarCoder: may the source be with you!. (arXiv:2305.06161v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.06161](http://arxiv.org/abs/2305.06161)
+
+    本研究介绍了一个具有15.5B参数和8K上下文长度的大型语言模型——StarCoder，其可以进行快速大批量推理。经评估证明，在Python上表现优异，能够通过人工评估获得40\%的pass@1的得分，且在其他程序中也表现出令人满意的性能。
+
+    
+
+    BigCode社区是一个开放的科学合作组织，致力于开发代表代码的大型语言模型（Code LLMs）的负责任发展。该文介绍了StarCoder和StarCoderBase，这是具有15.5B参数模型和8K上下文长度、填充能力以及多种查询注意力实现的快速大批量推理的模型。我们对StarCoderBase的1万亿个标记进行 fine-tuning，创建了StarCoder。我们进行了迄今为止最全面的Code LLMs评估，并表明StarCoderBase优于支持多种编程语言的每个开放Code LLM，并与OpenAI code-cushman-001模型相匹配或优于该模型。此外，StarCoder在Python上也表现出优异性能，能够通过人工评估获得40\%的pass@1的得分，并仍然保持其在其他程序中的性能。
+
+    The BigCode community, an open-scientific collaboration working on the responsible development of Large Language Models for Code (Code LLMs), introduces StarCoder and StarCoderBase: 15.5B parameter models with 8K context length, infilling capabilities and fast large-batch inference enabled by multi-query attention. StarCoderBase is trained on 1 trillion tokens sourced from The Stack, a large collection of permissively licensed GitHub repositories with inspection tools and an opt-out process. We fine-tuned StarCoderBase on 35B Python tokens, resulting in the creation of StarCoder. We perform the most comprehensive evaluation of Code LLMs to date and show that StarCoderBase outperforms every open Code LLM that supports multiple programming languages and matches or outperforms the OpenAI code-cushman-001 model. Furthermore, StarCoder outperforms every model that is fine-tuned on Python, can be prompted to achieve 40\% pass@1 on HumanEval, and still retains its performance on other program
+    
+[^6]: Structure-CLIP: 结合结构知识优化多模态语言表示
+
+    Structure-CLIP: Enhance Multi-modal Language Representations with Structure Knowledge. (arXiv:2305.06152v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.06152](http://arxiv.org/abs/2305.06152)
+
+    Structure-CLIP使用文本中的结构化知识，使用场景图强化多模态语言表示，从而在图像-文本匹配任务中展现了更好的性能。
+
+    
+
+    大规模的视觉-语言预训练在各种下游任务中展现出了很好的性能，并在多模态理解和生成任务中取得了显著的进展。然而，现有方法在需要对文本进行详细语义理解的图像-文本匹配任务上通常表现较差。尽管已经有一些研究在解决这个问题，但它们没有充分利用句子中存在的结构化知识来增强多模态语言表示，导致性能较差。本文提出了一个端到端的框架Structure-CLIP，该框架结合了从文本中提取的隐式详细语义，以增强精细的语义表示。具体而言，(1)我们使用场景图来更加关注文本中的详细语义学习，并充分探索细粒度语义之间的结构化知识，(2)我们结合场景图的知识强化框架来充分利用这些信息。
+
+    Large-scale vision-language pre-training has shown promising advances on various downstream tasks and achieved significant performance in multi-modal understanding and generation tasks. However, existing methods often perform poorly on image-text matching tasks that require a detailed semantics understanding of the text. Although there have been some works on this problem, they do not sufficiently exploit the structural knowledge present in sentences to enhance multi-modal language representations, which leads to poor performance. In this paper, we present an end-to-end framework Structure-CLIP, which integrates latent detailed semantics from the text to enhance fine-grained semantic representations. Specifically, (1) we use scene graphs in order to pay more attention to the detailed semantic learning in the text and fully explore structured knowledge between fine-grained semantics, and (2) we utilize the knowledge-enhanced framework with the help of the scene graph to make full use of
+    
+[^7]: 用自然语言学习编程
+
+    Learning to Program with Natural Language. (arXiv:2304.10464v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.10464](http://arxiv.org/abs/2304.10464)
+
+    该论文提出了一种用自然语言作为编程语言并通过学习编程方法让大语言模型直接生成自然语言程序并指导推理的方法。实验结果表明，这种方法在解决编程任务上比基线方法有更高的成功率。
+
+    
+
+    大语言模型在各种基本自然语言任务中表现出卓越性能，这引起了实现人工通用智能的希望。为了更好地完成复杂任务，我们需要利用大语言模型进行编程，然后按照程序生成特定的解决方案。我们提出使用自然语言作为一种新的编程语言来描述任务过程，使它们易于人类和大语言模型理解。虽然大语言模型能够直接生成自然语言程序，但这些程序可能仍然存在错误或不完整的步骤。因此，我们进一步提出了学习编程（LP）的方法，要求大语言模型从复杂任务的训练数据集中学习自然语言程序，然后使用学习到的程序来指导推理。我们在AMPS（高中数学）和Math（竞赛数学问题）数据集上的实验证明了我们方法的有效性。在测试ChatGP解决编程任务时，LP能够实现80%的成功率，优于基线方法。
+
+    Large Language Models (LLMs) have shown remarkable performance in various basic natural language tasks, which raises hopes for achieving Artificial General Intelligence. To better complete complex tasks, we need LLMs to program for the task and then follow the program to generate a specific solution for the test sample. We propose using natural language as a new programming language to describe task procedures, making them easily understandable to both humans and LLMs. LLMs are capable of directly generating natural language programs, but these programs may still contain factual errors or incomplete steps. Therefore, we further propose the Learning to Program (LP) method to ask LLMs themselves to learn natural language programs from the training dataset of complex tasks and then use the learned program to guide inference. Our experiments on the AMPS (high school math) and Math (competition mathematics problems) datasets demonstrate the effectiveness of our approach. When testing ChatGP
+    
+[^8]: USNID: 无监督和半监督新意图发现的框架
 
     USNID: A Framework for Unsupervised and Semi-supervised New Intent Discovery. (arXiv:2304.07699v1 [cs.CL])
 
@@ -111,18 +126,18 @@
 
     New intent discovery is of great value to natural language processing, allowing for a better understanding of user needs and providing friendly services. However, most existing methods struggle to capture the complicated semantics of discrete text representations when limited or no prior knowledge of labeled data is available. To tackle this problem, we propose a novel framework called USNID for unsupervised and semi-supervised new intent discovery, which has three key technologies. First, it takes full use of unsupervised or semi-supervised data to mine shallow semantic similarity relations and provide well-initialized representations for clustering. Second, it designs a centroid-guided clustering mechanism to address the issue of cluster allocation inconsistency and provide high-quality self-supervised targets for representation learning. Third, it captures high-level semantics in unsupervised or semi-supervised data to discover fine-grained intent-wise clusters by optimizing both cl
     
-[^8]: 输入命名实体自动解析优化问题的方法研究
+[^9]: 基于GPT和BERT的模型在生物医学文本中鉴定蛋白质相互作用的评估
 
-    Highlighting Named Entities in Input for Auto-Formulation of Optimization Problems. (arXiv:2212.13201v2 [cs.CL] UPDATED)
+    Evaluation of GPT and BERT-based models on identifying protein-protein interactions in biomedical text. (arXiv:2303.17728v1 [cs.CL])
 
-    [http://arxiv.org/abs/2212.13201](http://arxiv.org/abs/2212.13201)
+    [http://arxiv.org/abs/2303.17728](http://arxiv.org/abs/2303.17728)
 
-    本文介绍了一种将线性规划单词问题转换为数学公式的方法。我们利用输入中的命名实体并增强输入以突出这些实体，从而实现了高准确度，赢得了NL4Opt竞赛生成赛道的第一名。
+    该论文评估了预先训练的语言模型(GPT和BERT)识别生物医学文本中蛋白质相互作用的性能, 结果显示BERT模型表现最佳，其中PubMedBERT具有最高的精度和F1分数，BioM-ALBERT具有最高的召回率。
 
     
 
-    运筹学是将现实世界问题建模为数学优化问题来解决的。虽然解决数学系统的问题是由分析软件完成的，但将问题作为一组数学操作进行表达通常是由领域专家手动完成的。最近的机器学习方法显示出将文本问题描述转换为相应的数学公式的前景。本文提出了一种将线性规划单词问题转换为数学公式的方法。我们利用输入中的命名实体并增强输入以突出这些实体。我们的方法在NL4Opt竞赛的所有提交中获得了最高的准确性，获得了生成赛道的第一名。
+    检测蛋白质相互作用(PPIs)对于理解遗传机制、疾病发病机理和药物设计至关重要。然而，随着生物医学文献的快速增长，需要自动化和准确提取PPIs以促进科学知识的发掘。已经预先训练的语言模型，如生成式预训练变压器(GPT)和双向编码器表示变压器(BERT)，在自然语言处理(NLP)任务上表现出有希望的结果。我们使用手动编制的LLL基准语料库评估了各种GPT和BERT模型的PPI识别性能，该语料库包含77个句子中的164个PPIs。BERT模型取得了最佳的性能，其中PubMedBERT具有最高的精度(85.17%)和F1分数(86.47%)，BioM-ALBERT具有最高的召回率(93.83%)。尽管GPT-4没有专门针对生物医学文本进行训练，但其性能可与其他模型相媲美。
 
-    Operations research deals with modeling and solving real-world problems as mathematical optimization problems. While solving mathematical systems is accomplished by analytical software, formulating a problem as a set of mathematical operations has been typically done manually by domain experts. Recent machine learning methods have shown promise in converting textual problem descriptions to corresponding mathematical formulations. This paper presents an approach that converts linear programming word problems into mathematical formulations. We leverage the named entities in the input and augment the input to highlight these entities. Our approach achieves the highest accuracy among all submissions to the NL4Opt Competition, securing first place in the generation track.
+    Detecting protein-protein interactions (PPIs) is crucial for understanding genetic mechanisms, disease pathogenesis, and drug design. However, with the fast-paced growth of biomedical literature, there is a growing need for automated and accurate extraction of PPIs to facilitate scientific knowledge discovery. Pre-trained language models, such as generative pre-trained transformer (GPT) and bidirectional encoder representations from transformers (BERT), have shown promising results in natural language processing (NLP) tasks. We evaluated the PPI identification performance of various GPT and BERT models using a manually curated benchmark corpus of 164 PPIs in 77 sentences from learning language in logic (LLL). BERT-based models achieved the best overall performance, with PubMedBERT achieving the highest precision (85.17%) and F1-score (86.47%) and BioM-ALBERT achieving the highest recall (93.83%). Despite not being explicitly trained for biomedical texts, GPT-4 achieved comparable perfo
     
 

@@ -2,127 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Good regularity creates large learning rate implicit biases: edge of stability, balancing, and catapult.](http://arxiv.org/abs/2310.17087) | 该论文研究了大学习率在非凸优化中产生的隐性偏差，包括稳定的边界、平衡和弹射，并通过发展新的全局收敛理论和研究良好规则性的目标函数，将这些现象归纳为同一现象的不同表现形式。 |
-| [^2] | [From Complexity to Clarity: Analytical Expressions of Deep Neural Network Weights via Clifford's Geometric Algebra and Convexity.](http://arxiv.org/abs/2309.16512) | 本文通过Clifford的几何代数和凸优化，提出了一种分析深度神经网络的新方法。我们展示了深度ReLU神经网络的最优权重可以通过训练样本的楔积来获得，并且训练问题可以简化为对楔积特征进行凸优化，从而揭示了神经网络内部的几何结构。 |
-| [^3] | [Adaptive learning of density ratios in RKHS.](http://arxiv.org/abs/2307.16164) | 该论文研究在再生核希尔伯特空间中的一类密度比率估计方法，提出了一种自适应学习的参数选择原则，并在有限样本情况下推导出新的误差界。其方法在二次损失的情况下实现了极小化最优误差率。 |
-| [^4] | [Regret-Optimal Model-Free Reinforcement Learning for Discounted MDPs with Short Burn-In Time.](http://arxiv.org/abs/2305.15546) | 该论文提出了一种无模型算法，采用方差缩减和自适应执行策略转换技术，在短烧化时间MDPs上实现了遗憾最优，解决了现有算法无法实现最优性和需要付出高昂内存计算成本的问题。 |
-| [^5] | [Neural Likelihood Surfaces for Spatial Processes with Computationally Intensive or Intractable Likelihoods.](http://arxiv.org/abs/2305.04634) | 研究提出了使用CNN学习空间过程的似然函数。即使在没有确切似然函数的情况下，通过分类任务进行的神经网络的训练，可以隐式地学习似然函数。使用Platt缩放可以提高神经似然面的准确性。 |
-| [^6] | [Diffusion Schr\"odinger Bridge Matching.](http://arxiv.org/abs/2303.16852) | 本文介绍了一种新的方法 Iterative Markovian Fitting，用于解决高维度 Schr\"odinger桥（SBs）问题，该方法的数值实验表现出在准确性和性能方面的显著优势。 |
-| [^7] | [Bayesian Optimization with Conformal Prediction Sets.](http://arxiv.org/abs/2210.12496) | 符合性贝叶斯优化在决策过程中应用符合性预测集，可以纠正由于模型规范不当和协变量转移带来的主观上不可能的结果，并在黑盒优化任务和表格排名任务中表现优异。 |
-| [^8] | [Local Function Complexity for Active Learning via Mixture of Gaussian Processes.](http://arxiv.org/abs/1902.10664) | 本文通过利用局部函数复杂性（LFC）的估计，建立了一个局部结构复杂性的概念，并将其用于发展一个与模型无关的主动学习框架。通过使用基于高斯过程回归（GPR）的局部多项式平滑（LPS）模型的类比，使得该框架具有鲁棒性和可伸缩性。 |
+| [^1] | [Multi-task learning of convex combinations of forecasting models.](http://arxiv.org/abs/2310.20545) | 本文提出了一种多任务学习方法，通过深度神经网络同时解决了预测模型选择和凸组合权重学习的问题。通过回归分支学习权重和分类分支选择具有多样性的预测方法，提高了基于特征的预测的精确度。 |
+| [^2] | [On the Stability of Iterative Retraining of Generative Models on their own Data.](http://arxiv.org/abs/2310.00429) | 本文研究了生成模型在混合数据集上训练对稳定性的影响，通过证明初始生成模型足够接近数据分布并且数据比例适当，迭代训练是稳定的。 |
+| [^3] | [On Estimating the Gradient of the Expected Information Gain in Bayesian Experimental Design.](http://arxiv.org/abs/2308.09888) | 该论文提出了一种估计贝叶斯实验设计中期望信息增益梯度的方法，通过结合随机梯度下降算法，实现了高效优化。具体而言，通过后验期望表示来估计与设计变量相关的梯度，并提出了UEEG-MCMC和BEEG-AP两种估计方法。这些方法在不同的实验设计问题上都表现出良好的性能。 |
+| [^4] | [Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression.](http://arxiv.org/abs/2308.09065) | 本文提出了一种用于回归任务的广义AuxUE方案，目的是实现更鲁棒的不确定性量化。具体而言，该方案通过考虑不同的分布假设，选择Laplace分布来近似p，以实现更鲁棒的本质不确定性估计。 |
+| [^5] | [Big Data - Supply Chain Management Framework for Forecasting: Data Preprocessing and Machine Learning Techniques.](http://arxiv.org/abs/2307.12971) | 本文介绍了一种新的大数据-供应链管理框架，通过数据预处理和机器学习技术实现供应链预测，优化操作管理、透明度，并讨论了幻影库存对预测的不利影响。 |
+| [^6] | [Fit Like You Sample: Sample-Efficient Generalized Score Matching from Fast Mixing Markov Chains.](http://arxiv.org/abs/2306.09332) | 本文提出了一种从快速混合马尔可夫链中实现样本高效的广义得分匹配方法，解决了得分匹配算法在具有较差等周性质的分布上的统计代价问题。 |
+| [^7] | [The Blessing of Heterogeneity in Federated Q-learning: Linear Speedup and Beyond.](http://arxiv.org/abs/2305.10697) | 本文提出了异构群体强化学习中联邦Q学习的样本复杂度保证，讨论了同步和异步版本的线性加速，同时探究了等权重平均本地Q估计的缺陷。 |
+| [^8] | [Mixed moving average field guided learning for spatio-temporal data.](http://arxiv.org/abs/2301.00736) | 本论文提出了一种理论引导机器学习方法，采用广义贝叶斯算法进行混合移动平均场引导的时空数据建模，可以进行因果未来预测。 |
+| [^9] | [On the fast convergence of minibatch heavy ball momentum.](http://arxiv.org/abs/2206.07553) | 本文研究了一种随机Kaczmarz算法，使用小批量和重球动量进行加速，在二次优化问题中保持快速收敛率。 |
 
 # 详细
 
-[^1]: 良好的规则性创造了大学习率的隐性偏差：稳定的边界，平衡和弹射
+[^1]: 多任务学习凸组合预测模型
 
-    Good regularity creates large learning rate implicit biases: edge of stability, balancing, and catapult. (arXiv:2310.17087v1 [cs.LG])
+    Multi-task learning of convex combinations of forecasting models. (arXiv:2310.20545v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.17087](http://arxiv.org/abs/2310.17087)
+    [http://arxiv.org/abs/2310.20545](http://arxiv.org/abs/2310.20545)
 
-    该论文研究了大学习率在非凸优化中产生的隐性偏差，包括稳定的边界、平衡和弹射，并通过发展新的全局收敛理论和研究良好规则性的目标函数，将这些现象归纳为同一现象的不同表现形式。
-
-    
-
-    当应用于非凸优化的梯度下降时，大学习率会产生各种隐性偏差，包括稳定的边界、平衡和弹射。这些现象无法用经典的优化理论很好地解释。尽管在理解这些隐性偏差方面已经取得了重要的理论进展，但仍然不清楚它们在哪些目标函数上会发生。本文对回答这个问题提供了一个初始的步骤，即这些隐性偏差实际上是同一冰山的各种尖端。当优化的目标函数具有一定的良好规则性，并与大学习率梯度下降对向更平坦区域移动的可证明偏好相结合时，就会产生这些非平凡的动力学现象。为了建立这个结果，我们发展了一个新的大学习率全局收敛理论，针对一族非凸函数。
-
-    Large learning rates, when applied to gradient descent for nonconvex optimization, yield various implicit biases including the edge of stability (Cohen et al., 2021), balancing (Wang et al., 2022), and catapult (Lewkowycz et al., 2020). These phenomena cannot be well explained by classical optimization theory. Though significant theoretical progress has been made in understanding these implicit biases, it remains unclear for which objective functions would they occur. This paper provides an initial step in answering this question, namely that these implicit biases are in fact various tips of the same iceberg. They occur when the objective function of optimization has some good regularity, which, in combination with a provable preference of large learning rate gradient descent for moving toward flatter regions, results in these nontrivial dynamical phenomena. To establish this result, we develop a new global convergence theory under large learning rates, for a family of nonconvex functi
-    
-[^2]: 从复杂到清晰：通过Clifford的几何代数和凸优化的分析表达深度神经网络的权重
-
-    From Complexity to Clarity: Analytical Expressions of Deep Neural Network Weights via Clifford's Geometric Algebra and Convexity. (arXiv:2309.16512v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.16512](http://arxiv.org/abs/2309.16512)
-
-    本文通过Clifford的几何代数和凸优化，提出了一种分析深度神经网络的新方法。我们展示了深度ReLU神经网络的最优权重可以通过训练样本的楔积来获得，并且训练问题可以简化为对楔积特征进行凸优化，从而揭示了神经网络内部的几何结构。
+    本文提出了一种多任务学习方法，通过深度神经网络同时解决了预测模型选择和凸组合权重学习的问题。通过回归分支学习权重和分类分支选择具有多样性的预测方法，提高了基于特征的预测的精确度。
 
     
 
-    本文介绍了一种基于几何（Clifford）代数和凸优化的神经网络分析方法。我们展示了当使用标准正则化损失进行训练时，深度ReLU神经网络的最优权重由训练样本的楔积给出。此外，训练问题可简化为对楔积特征进行凸优化，在其中编码训练数据集的几何结构。该结构以数据向量生成的三角形和平行体的有符号体积表示。凸问题通过$\ell_1$正则化找到样本的一个小子集，以发现仅相关的楔积特征。我们的分析提供了对深度神经网络内部工作机制的新视角，并揭示了隐藏层的作用。
+    预测组合涉及使用多个预测来创建单一、更精确的预测。最近，基于特征的预测已被用于选择最合适的预测模型或学习它们的凸组合权重。在本文中，我们提出了一种同时解决这两个问题的多任务学习方法。该方法通过深度神经网络实现，其中包括两个分支：回归分支通过最小化组合预测误差来学习各种预测方法的权重，分类分支则重点选择多样性的预测方法。为了为分类任务生成训练标签，我们引入了一种优化驱动的方法，用于确定给定时间序列的最合适的方法。所提出的方法揭示了基于特征的预测中多样性的重要作用，并凸显了模型组合和选择之间的相互作用。
 
-    In this paper, we introduce a novel analysis of neural networks based on geometric (Clifford) algebra and convex optimization. We show that optimal weights of deep ReLU neural networks are given by the wedge product of training samples when trained with standard regularized loss. Furthermore, the training problem reduces to convex optimization over wedge product features, which encode the geometric structure of the training dataset. This structure is given in terms of signed volumes of triangles and parallelotopes generated by data vectors. The convex problem finds a small subset of samples via $\ell_1$ regularization to discover only relevant wedge product features. Our analysis provides a novel perspective on the inner workings of deep neural networks and sheds light on the role of the hidden layers.
+    Forecast combination involves using multiple forecasts to create a single, more accurate prediction. Recently, feature-based forecasting has been employed to either select the most appropriate forecasting models or to learn the weights of their convex combination. In this paper, we present a multi-task learning methodology that simultaneously addresses both problems. This approach is implemented through a deep neural network with two branches: the regression branch, which learns the weights of various forecasting methods by minimizing the error of combined forecasts, and the classification branch, which selects forecasting methods with an emphasis on their diversity. To generate training labels for the classification task, we introduce an optimization-driven approach that identifies the most appropriate methods for a given time series. The proposed approach elicits the essential role of diversity in feature-based forecasting and highlights the interplay between model combination and mo
     
-[^3]: 在RKHS中自适应学习密度比率
+[^2]: 关于生成模型在其自己的数据上迭代训练的稳定性研究
 
-    Adaptive learning of density ratios in RKHS. (arXiv:2307.16164v1 [cs.LG])
+    On the Stability of Iterative Retraining of Generative Models on their own Data. (arXiv:2310.00429v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.16164](http://arxiv.org/abs/2307.16164)
+    [http://arxiv.org/abs/2310.00429](http://arxiv.org/abs/2310.00429)
 
-    该论文研究在再生核希尔伯特空间中的一类密度比率估计方法，提出了一种自适应学习的参数选择原则，并在有限样本情况下推导出新的误差界。其方法在二次损失的情况下实现了极小化最优误差率。
-
-    
-
-    从有限数量的密度观测中估计两个概率密度的比率是机器学习和统计学中的一个核心问题，应用包括双样本检验、分歧估计、生成建模、协变量转移适应、条件密度估计和新颖性检测。本研究分析了一大类密度比率估计方法，它们通过在再生核希尔伯特空间（RKHS）中最小化真实密度比率与模型之间的正则Bregman距离。我们推导出新的有限样本误差界，并提出了一种Lepskii类型的参数选择原则，在不知道密度比率的正则性的情况下最小化误差界。在二次损失的特殊情况下，我们的方法自适应地实现了极小化最优误差率。提供了一个数值示例。
-
-    Estimating the ratio of two probability densities from finitely many observations of the densities is a central problem in machine learning and statistics with applications in two-sample testing, divergence estimation, generative modeling, covariate shift adaptation, conditional density estimation, and novelty detection. In this work, we analyze a large class of density ratio estimation methods that minimize a regularized Bregman divergence between the true density ratio and a model in a reproducing kernel Hilbert space (RKHS). We derive new finite-sample error bounds, and we propose a Lepskii type parameter choice principle that minimizes the bounds without knowledge of the regularity of the density ratio. In the special case of quadratic loss, our method adaptively achieves a minimax optimal error rate. A numerical illustration is provided.
-    
-[^4]: 短烧化时间MDPs上具有遗憾最优的无模型强化学习
-
-    Regret-Optimal Model-Free Reinforcement Learning for Discounted MDPs with Short Burn-In Time. (arXiv:2305.15546v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.15546](http://arxiv.org/abs/2305.15546)
-
-    该论文提出了一种无模型算法，采用方差缩减和自适应执行策略转换技术，在短烧化时间MDPs上实现了遗憾最优，解决了现有算法无法实现最优性和需要付出高昂内存计算成本的问题。
+    本文研究了生成模型在混合数据集上训练对稳定性的影响，通过证明初始生成模型足够接近数据分布并且数据比例适当，迭代训练是稳定的。
 
     
 
-    强化学习中一个关键问题是学习最优策略。我们在在线设置下研究了在表格无限时段折扣马尔科夫决策过程中的最优策略学习。现有算法要么无法实现遗憾最优性，要么需要付出高昂的内存和计算成本。此外，在现有的最优算法中，为了实现最优样本效率，所有算法都要经过较长的烧化时间，即只有样本容量超过一个高阈值才能保证最优性。我们通过引入一种无模型算法来解决这两个开放性问题，该算法采用方差缩减和一种慢而自适应的执行策略转换技术。这是折扣设置下第一个具有遗憾最优的无模型算法，并具有低烧化时间的额外优势。
+    深度生成模型在建模复杂数据方面取得了巨大的进展，往往展现出超过典型人类能力的样本真实性辨别能力。这一成功的关键驱动力无疑是这些模型消耗海量网络规模数据的结果。由于这些模型惊人的性能和易得性，网络上将不可避免地出现越来越多的合成内容。这个事实直接意味着生成模型的未来迭代必须面对一个现实：它们的训练数据由清洁数据和先前模型生成的人工数据组成。在本文中，我们开发了一个框架来对混合数据集（包括真实数据和合成数据）上训练生成模型对稳定性的影响进行严格研究。我们首先证明了在初始生成模型足够好地近似数据分布并且真实数据与合成数据的比例适当的情况下，迭代训练的稳定性。
 
-    A crucial problem in reinforcement learning is learning the optimal policy. We study this in tabular infinite-horizon discounted Markov decision processes under the online setting. The existing algorithms either fail to achieve regret optimality or have to incur a high memory and computational cost. In addition, existing optimal algorithms all require a long burn-in time in order to achieve optimal sample efficiency, i.e., their optimality is not guaranteed unless sample size surpasses a high threshold. We address both open problems by introducing a model-free algorithm that employs variance reduction and a novel technique that switches the execution policy in a slow-yet-adaptive manner. This is the first regret-optimal model-free algorithm in the discounted setting, with the additional benefit of a low burn-in time.
+    Deep generative models have made tremendous progress in modeling complex data, often exhibiting generation quality that surpasses a typical human's ability to discern the authenticity of samples. Undeniably, a key driver of this success is enabled by the massive amounts of web-scale data consumed by these models. Due to these models' striking performance and ease of availability, the web will inevitably be increasingly populated with synthetic content. Such a fact directly implies that future iterations of generative models must contend with the reality that their training is curated from both clean data and artificially generated data from past models. In this paper, we develop a framework to rigorously study the impact of training generative models on mixed datasets (of real and synthetic data) on their stability. We first prove the stability of iterative training under the condition that the initial generative models approximate the data distribution well enough and the proportion o
     
-[^5]: 空间过程的神经似然面
+[^3]: 关于贝叶斯实验设计中期望信息增益梯度的估计
 
-    Neural Likelihood Surfaces for Spatial Processes with Computationally Intensive or Intractable Likelihoods. (arXiv:2305.04634v1 [stat.ME])
+    On Estimating the Gradient of the Expected Information Gain in Bayesian Experimental Design. (arXiv:2308.09888v1 [stat.ML])
 
-    [http://arxiv.org/abs/2305.04634](http://arxiv.org/abs/2305.04634)
+    [http://arxiv.org/abs/2308.09888](http://arxiv.org/abs/2308.09888)
 
-    研究提出了使用CNN学习空间过程的似然函数。即使在没有确切似然函数的情况下，通过分类任务进行的神经网络的训练，可以隐式地学习似然函数。使用Platt缩放可以提高神经似然面的准确性。
-
-    
-
-    在空间统计中，当拟合空间过程到真实世界的数据时，快速准确的参数估计和可靠的不确定性量化手段可能是一项具有挑战性的任务，因为似然函数可能评估缓慢或难以处理。 在本研究中，我们提出使用卷积神经网络（CNN）学习空间过程的似然函数。通过特定设计的分类任务，我们的神经网络隐式地学习似然函数，即使在没有显式可用的确切似然函数的情况下也可以实现。一旦在分类任务上进行了训练，我们的神经网络使用Platt缩放进行校准，从而提高了神经似然面的准确性。为了展示我们的方法，我们比较了来自神经似然面的最大似然估计和近似置信区间与两个不同空间过程（高斯过程和对数高斯Cox过程）的相应精确或近似的似然函数构成的等效物。
-
-    In spatial statistics, fast and accurate parameter estimation coupled with a reliable means of uncertainty quantification can be a challenging task when fitting a spatial process to real-world data because the likelihood function might be slow to evaluate or intractable. In this work, we propose using convolutional neural networks (CNNs) to learn the likelihood function of a spatial process. Through a specifically designed classification task, our neural network implicitly learns the likelihood function, even in situations where the exact likelihood is not explicitly available. Once trained on the classification task, our neural network is calibrated using Platt scaling which improves the accuracy of the neural likelihood surfaces. To demonstrate our approach, we compare maximum likelihood estimates and approximate confidence regions constructed from the neural likelihood surface with the equivalent for exact or approximate likelihood for two different spatial processes: a Gaussian Pro
-    
-[^6]: 扩散Schr\"odinger桥匹配
-
-    Diffusion Schr\"odinger Bridge Matching. (arXiv:2303.16852v1 [stat.ML])
-
-    [http://arxiv.org/abs/2303.16852](http://arxiv.org/abs/2303.16852)
-
-    本文介绍了一种新的方法 Iterative Markovian Fitting，用于解决高维度 Schr\"odinger桥（SBs）问题，该方法的数值实验表现出在准确性和性能方面的显著优势。
+    该论文提出了一种估计贝叶斯实验设计中期望信息增益梯度的方法，通过结合随机梯度下降算法，实现了高效优化。具体而言，通过后验期望表示来估计与设计变量相关的梯度，并提出了UEEG-MCMC和BEEG-AP两种估计方法。这些方法在不同的实验设计问题上都表现出良好的性能。
 
     
 
-    解决运输问题，在机器学习中有着许多应用，例如新型的质量传输方法，如去噪扩散模型（DDMs）和流匹配模型（FMMs），通过随机微分方程（SDE）或常微分方程（ODE）实现这样的传输。然而，虽然在许多应用中，近似确定性动态最优传输（OT）映射是可取的，因为具有吸引人的性质，但 DDMs 和 FMMs 并不能保证提供接近 OT 映射的传输。相反，Schr\"odinger桥（SBs）计算随机动态映射，可以恢复正则熵版本的 OT。不幸的是，现有的数值方法近似 SBs 的维度缩放差或在迭代中积累误差。在这项工作中，我们介绍了迭代马尔科夫拟合，一种解决高维度 SB 问题的新方法。我们将这个方法设计为一个迭代过程，将置信传播扩展到 KL 散度，利用条件独立性降低计算复杂度，并确保一致性和收敛性质。我们的数值实验证明了相对于现有成果方法，在准确性和性能方面都有显著优势。
+    贝叶斯实验设计旨在找到贝叶斯推断的最佳实验条件，通常被描述为优化期望信息增益（EIG）。为了高效地优化EIG，往往需要梯度信息，因此估计EIG的梯度能力对于贝叶斯实验设计问题至关重要。该工作的主要目标是开发估计EIG梯度的方法，结合随机梯度下降算法，实现EIG的高效优化。具体而言，我们首先介绍了与设计变量相关的EIG梯度的后验期望表示。基于此，我们提出了两种估计EIG梯度的方法，UEEG-MCMC利用通过马尔科夫链蒙特卡洛（MCMC）生成的后验样本来估计EIG梯度，而BEEG-AP则专注于通过反复使用参数样本来实现高模拟效率。理论分析和数值实验表明，我们的方法在不同的实验设计问题上都能获得较好的性能。
 
-    Solving transport problems, i.e. finding a map transporting one given distribution to another, has numerous applications in machine learning. Novel mass transport methods motivated by generative modeling have recently been proposed, e.g. Denoising Diffusion Models (DDMs) and Flow Matching Models (FMMs) implement such a transport through a Stochastic Differential Equation (SDE) or an Ordinary Differential Equation (ODE). However, while it is desirable in many applications to approximate the deterministic dynamic Optimal Transport (OT) map which admits attractive properties, DDMs and FMMs are not guaranteed to provide transports close to the OT map. In contrast, Schr\"odinger bridges (SBs) compute stochastic dynamic mappings which recover entropy-regularized versions of OT. Unfortunately, existing numerical methods approximating SBs either scale poorly with dimension or accumulate errors across iterations. In this work, we introduce Iterative Markovian Fitting, a new methodology for solv
+    Bayesian Experimental Design (BED), which aims to find the optimal experimental conditions for Bayesian inference, is usually posed as to optimize the expected information gain (EIG). The gradient information is often needed for efficient EIG optimization, and as a result the ability to estimate the gradient of EIG is essential for BED problems. The primary goal of this work is to develop methods for estimating the gradient of EIG, which, combined with the stochastic gradient descent algorithms, result in efficient optimization of EIG. Specifically, we first introduce a posterior expected representation of the EIG gradient with respect to the design variables. Based on this, we propose two methods for estimating the EIG gradient, UEEG-MCMC that leverages posterior samples generated through Markov Chain Monte Carlo (MCMC) to estimate the EIG gradient, and BEEG-AP that focuses on achieving high simulation efficiency by repeatedly using parameter samples. Theoretical analysis and numerica
     
-[^7]: 带有符合性预测集的贝叶斯优化
+[^4]: 通过离散化引发的Dirichlet后验用于回归问题的鲁棒性不确定性量化
 
-    Bayesian Optimization with Conformal Prediction Sets. (arXiv:2210.12496v3 [cs.LG] UPDATED)
+    Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression. (arXiv:2308.09065v1 [cs.CV])
 
-    [http://arxiv.org/abs/2210.12496](http://arxiv.org/abs/2210.12496)
+    [http://arxiv.org/abs/2308.09065](http://arxiv.org/abs/2308.09065)
 
-    符合性贝叶斯优化在决策过程中应用符合性预测集，可以纠正由于模型规范不当和协变量转移带来的主观上不可能的结果，并在黑盒优化任务和表格排名任务中表现优异。
-
-    
-
-    贝叶斯优化是面对不确定性时做出决策的普遍方法，应用包括多臂老虎机、主动学习和黑盒优化。贝叶斯优化通过基于贝叶斯模型的后验分布选择具有最大预期效用的决策(即目标函数查询)，该后验分布量化了查询结果的可减少的先验信息不确定性。在实践中，因模型规范不当和协变量转移的原因，主观上不可能的结果可能经常发生。符合性预测是一种不确定性量化方法，即使对于规范不良的模型也具有覆盖保证，并且具有纠正协变量转移的简单机制。我们提出了符合性贝叶斯优化，将查询引导到模型预测具有保证有效性的搜索空间区域，并研究了它在一组黑盒优化任务和表格排名任务中的行为。在许多情况下，我们发现符合性贝叶斯优化优于标准贝叶斯优化方法。
-
-    Bayesian optimization is a coherent, ubiquitous approach to decision-making under uncertainty, with applications including multi-arm bandits, active learning, and black-box optimization. Bayesian optimization selects decisions (i.e. objective function queries) with maximal expected utility with respect to the posterior distribution of a Bayesian model, which quantifies reducible, epistemic uncertainty about query outcomes. In practice, subjectively implausible outcomes can occur regularly for two reasons: 1) model misspecification and 2) covariate shift. Conformal prediction is an uncertainty quantification method with coverage guarantees even for misspecified models and a simple mechanism to correct for covariate shift. We propose conformal Bayesian optimization, which directs queries towards regions of search space where the model predictions have guaranteed validity, and investigate its behavior on a suite of black-box optimization tasks and tabular ranking tasks. In many cases we f
-    
-[^8]: 通过高斯过程混合实现主动学习中的局部函数复杂性
-
-    Local Function Complexity for Active Learning via Mixture of Gaussian Processes. (arXiv:1902.10664v5 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/1902.10664](http://arxiv.org/abs/1902.10664)
-
-    本文通过利用局部函数复杂性（LFC）的估计，建立了一个局部结构复杂性的概念，并将其用于发展一个与模型无关的主动学习框架。通过使用基于高斯过程回归（GPR）的局部多项式平滑（LPS）模型的类比，使得该框架具有鲁棒性和可伸缩性。
+    本文提出了一种用于回归任务的广义AuxUE方案，目的是实现更鲁棒的不确定性量化。具体而言，该方案通过考虑不同的分布假设，选择Laplace分布来近似p，以实现更鲁棒的本质不确定性估计。
 
     
 
-    真实世界的数据的不均匀性，例如观测噪声水平的变化或源函数结构复杂性的变化，给统计推断带来了一系列独特的挑战。考虑到这些因素可以在物理资源或计算时间有限的情况下显著提高预测能力。本文借鉴了最近关于局部多项式平滑（LPS）领域中局部函数复杂性（LFC）的估计的理论结果，建立了一个局部结构复杂性的概念，并用它来开发一个与模型无关的主动学习（AL）框架。由于其依赖于点估计，LPS模型类在处理通常伴随真实世界问题的大输入空间维度时不具有鲁棒性和可伸缩性。在本文中，我们推导和估计基于高斯过程回归（GPR）的LPS-based LFC的类比，并将其作为以上框架的替代，使之具有鲁棒性和可伸缩性。
+    在实际应用中，不确定性量化对于部署深度神经网络（DNNs）至关重要。辅助不确定性估计器（AuxUE）是一种在不修改主任务模型的情况下估计主任务预测不确定性的最有效手段之一。为了被认为是鲁棒的，AuxUE必须能够在遇到超出分布范围的输入时保持性能并引发更高的不确定性，即提供鲁棒的本质不确定性和认识不确定性。然而，对于视觉回归任务，当前的AuxUE设计主要用于本质不确定性估计，并且尚未探索AuxUE的鲁棒性。在这项工作中，我们提出了一种用于回归任务的更鲁棒不确定性量化的广义AuxUE方案。具体而言，为了实现更鲁棒的本质不确定性估计，在异方差噪声方面考虑了不同的分布假设，并最终选择Laplace分布来近似p
 
-    Inhomogeneities in real-world data, e.g., due to changes in the observation noise level or variations in the structural complexity of the source function, pose a unique set of challenges for statistical inference. Accounting for them can greatly improve predictive power when physical resources or computation time is limited. In this paper, we draw on recent theoretical results on the estimation of local function complexity (LFC), derived from the domain of local polynomial smoothing (LPS), to establish a notion of local structural complexity, which is used to develop a model-agnostic active learning (AL) framework. Due to its reliance on pointwise estimates, the LPS model class is not robust and scalable concerning large input space dimensions that typically come along with real-world problems. Here, we derive and estimate the Gaussian process regression (GPR)-based analog of the LPS-based LFC and use it as a substitute in the above framework to make it robust and scalable. We assess t
+    Uncertainty quantification is critical for deploying deep neural networks (DNNs) in real-world applications. An Auxiliary Uncertainty Estimator (AuxUE) is one of the most effective means to estimate the uncertainty of the main task prediction without modifying the main task model. To be considered robust, an AuxUE must be capable of maintaining its performance and triggering higher uncertainties while encountering Out-of-Distribution (OOD) inputs, i.e., to provide robust aleatoric and epistemic uncertainty. However, for vision regression tasks, current AuxUE designs are mainly adopted for aleatoric uncertainty estimates, and AuxUE robustness has not been explored. In this work, we propose a generalized AuxUE scheme for more robust uncertainty quantification on regression tasks. Concretely, to achieve a more robust aleatoric uncertainty estimation, different distribution assumptions are considered for heteroscedastic noise, and Laplace distribution is finally chosen to approximate the p
+    
+[^5]: 大数据-供应链管理框架的预测：数据预处理和机器学习技术
+
+    Big Data - Supply Chain Management Framework for Forecasting: Data Preprocessing and Machine Learning Techniques. (arXiv:2307.12971v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.12971](http://arxiv.org/abs/2307.12971)
+
+    本文介绍了一种新的大数据-供应链管理框架，通过数据预处理和机器学习技术实现供应链预测，优化操作管理、透明度，并讨论了幻影库存对预测的不利影响。
+
+    
+
+    本文旨在系统地识别和比较分析最先进的供应链预测策略和技术。提出了一个新的框架，将大数据分析应用于供应链管理中，包括问题识别、数据来源、探索性数据分析、机器学习模型训练、超参数调优、性能评估和优化，以及预测对人力、库存和整个供应链的影响。首先讨论了根据供应链策略收集数据的需求以及如何收集数据。文章讨论了根据周期或供应链目标需要不同类型的预测。推荐使用供应链绩效指标和误差测量系统来优化表现最佳的模型。还讨论了幻影库存对预测的不利影响以及管理决策依赖供应链绩效指标来确定模型性能参数和改进运营管理、透明度的问题。
+
+    This article intends to systematically identify and comparatively analyze state-of-the-art supply chain (SC) forecasting strategies and technologies. A novel framework has been proposed incorporating Big Data Analytics in SC Management (problem identification, data sources, exploratory data analysis, machine-learning model training, hyperparameter tuning, performance evaluation, and optimization), forecasting effects on human-workforce, inventory, and overall SC. Initially, the need to collect data according to SC strategy and how to collect them has been discussed. The article discusses the need for different types of forecasting according to the period or SC objective. The SC KPIs and the error-measurement systems have been recommended to optimize the top-performing model. The adverse effects of phantom inventory on forecasting and the dependence of managerial decisions on the SC KPIs for determining model performance parameters and improving operations management, transparency, and 
+    
+[^6]: Fit Like You Sample: 从快速混合马尔可夫链中实现样本高效的广义得分匹配
+
+    Fit Like You Sample: Sample-Efficient Generalized Score Matching from Fast Mixing Markov Chains. (arXiv:2306.09332v1 [cs.DS])
+
+    [http://arxiv.org/abs/2306.09332](http://arxiv.org/abs/2306.09332)
+
+    本文提出了一种从快速混合马尔可夫链中实现样本高效的广义得分匹配方法，解决了得分匹配算法在具有较差等周性质的分布上的统计代价问题。
+
+    
+
+    得分匹配是一种学习概率分布的方法，其参数化为比例常数（例如，能量基模型）。其思想是拟合分布的得分，而不是似然函数，从而避免评估比例常数的需求。虽然这具有明显的算法优势，但统计代价可能很高：Koehler等人的最新工作表明，对于具有较差等周性质（较大的Poincare或对数Sobolev常数）的分布，得分匹配的统计效率明显低于极大似然估计。然而，许多自然实际的分布，例如一维中的两个高斯分布混合物等多峰分布，具有较差的Poincaré常数。在本文中，我们展示了任意马尔可夫过程的混合时间与试图拟合$\frac{\mathcal{O} p}{p}$的广义得分匹配损失之间的密切关系。如果$\mathcal{L}$的特征向量不依赖于$p$，我们展示了一种基于随机梯度下降的算法，从而实现的样本高效广义得分匹配。
+
+    Score matching is an approach to learning probability distributions parametrized up to a constant of proportionality (e.g. Energy-Based Models). The idea is to fit the score of the distribution, rather than the likelihood, thus avoiding the need to evaluate the constant of proportionality. While there's a clear algorithmic benefit, the statistical "cost'' can be steep: recent work by Koehler et al. 2022 showed that for distributions that have poor isoperimetric properties (a large Poincar\'e or log-Sobolev constant), score matching is substantially statistically less efficient than maximum likelihood. However, many natural realistic distributions, e.g. multimodal distributions as simple as a mixture of two Gaussians in one dimension -- have a poor Poincar\'e constant.  In this paper, we show a close connection between the mixing time of an arbitrary Markov process with generator $\mathcal{L}$ and a generalized score matching loss that tries to fit $\frac{\mathcal{O} p}{p}$. If $\mathca
+    
+[^7]: 异构群体强化学习中的福音：线性加速和更多可能
+
+    The Blessing of Heterogeneity in Federated Q-learning: Linear Speedup and Beyond. (arXiv:2305.10697v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.10697](http://arxiv.org/abs/2305.10697)
+
+    本文提出了异构群体强化学习中联邦Q学习的样本复杂度保证，讨论了同步和异步版本的线性加速，同时探究了等权重平均本地Q估计的缺陷。
+
+    
+
+    当强化学习（RL）的数据由多个代理以分布式方式收集时，联邦RL算法允许协作学习，无需共享本地数据。本文考虑联邦Q学习，其目的是通过定期聚合仅在本地数据上训练的本地Q估计来学习最优Q函数。针对无限时间蒸馏标记决策过程，我们为同步和异步版本的联邦Q学习提供了样本复杂度保证。在两种情况下，我们的界限展示了与代理数量成线性加速以及其他显著问题参数的更尖锐的依赖关系。此外，现有的联邦Q学习方法采用等权重平均本地Q估计，这在异步设置中可能会高度次优，因为由于不同的本地行为策略，本地轨迹可能高度异构。现有的样本最优化策略在异步设置中存在巨大缺陷。
+
+    When the data used for reinforcement learning (RL) are collected by multiple agents in a distributed manner, federated versions of RL algorithms allow collaborative learning without the need of sharing local data. In this paper, we consider federated Q-learning, which aims to learn an optimal Q-function by periodically aggregating local Q-estimates trained on local data alone. Focusing on infinite-horizon tabular Markov decision processes, we provide sample complexity guarantees for both the synchronous and asynchronous variants of federated Q-learning. In both cases, our bounds exhibit a linear speedup with respect to the number of agents and sharper dependencies on other salient problem parameters. Moreover, existing approaches to federated Q-learning adopt an equally-weighted averaging of local Q-estimates, which can be highly sub-optimal in the asynchronous setting since the local trajectories can be highly heterogeneous due to different local behavior policies. Existing sample com
+    
+[^8]: 混合移动平均场引导的时空数据学习
+
+    Mixed moving average field guided learning for spatio-temporal data. (arXiv:2301.00736v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2301.00736](http://arxiv.org/abs/2301.00736)
+
+    本论文提出了一种理论引导机器学习方法，采用广义贝叶斯算法进行混合移动平均场引导的时空数据建模，可以进行因果未来预测。
+
+    
+
+    受到混合移动平均场的影响，时空数据的建模是一个多功能的技巧。但是，它们的预测分布通常不可访问。在这个建模假设下，我们定义了一种新的理论引导机器学习方法，采用广义贝叶斯算法进行预测。我们采用Lipschitz预测器（例如线性模型或前馈神经网络），并通过最小化沿空间和时间维度串行相关的数据的新型PAC贝叶斯界限来确定一个随机估计值。进行因果未来预测是我们方法的一个亮点，因为它适用于具有短期和长期相关性的数据。最后，我们通过展示线性预测器和模拟STOU过程的时空数据的示例来展示学习方法的性能。
+
+    Influenced mixed moving average fields are a versatile modeling class for spatio-temporal data. However, their predictive distribution is not generally accessible. Under this modeling assumption, we define a novel theory-guided machine learning approach that employs a generalized Bayesian algorithm to make predictions. We employ a Lipschitz predictor, for example, a linear model or a feed-forward neural network, and determine a randomized estimator by minimizing a novel PAC Bayesian bound for data serially correlated along a spatial and temporal dimension. Performing causal future predictions is a highlight of our methodology as its potential application to data with short and long-range dependence. We conclude by showing the performance of the learning methodology in an example with linear predictors and simulated spatio-temporal data from an STOU process.
+    
+[^9]: 论小批量重球动量法的快速收敛性
+
+    On the fast convergence of minibatch heavy ball momentum. (arXiv:2206.07553v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2206.07553](http://arxiv.org/abs/2206.07553)
+
+    本文研究了一种随机Kaczmarz算法，使用小批量和重球动量进行加速，在二次优化问题中保持快速收敛率。
+
+    
+
+    简单的随机动量方法被广泛用于机器学习优化中，但由于还没有加速的理论保证，这与它们在实践中的良好性能并不相符。本文旨在通过展示，随机重球动量在二次最优化问题中保持（确定性）重球动量的快速线性率，至少在使用足够大的批量大小进行小批量处理时。我们所研究的算法可以被解释为带小批量处理和重球动量的加速随机Kaczmarz算法。该分析依赖于仔细分解动量转移矩阵，并使用新的独立随机矩阵乘积的谱范围集中界限。我们提供了数值演示，证明了我们的界限相当尖锐。
+
+    Simple stochastic momentum methods are widely used in machine learning optimization, but their good practical performance is at odds with an absence of theoretical guarantees of acceleration in the literature. In this work, we aim to close the gap between theory and practice by showing that stochastic heavy ball momentum retains the fast linear rate of (deterministic) heavy ball momentum on quadratic optimization problems, at least when minibatching with a sufficiently large batch size. The algorithm we study can be interpreted as an accelerated randomized Kaczmarz algorithm with minibatching and heavy ball momentum. The analysis relies on carefully decomposing the momentum transition matrix, and using new spectral norm concentration bounds for products of independent random matrices. We provide numerical illustrations demonstrating that our bounds are reasonably sharp.
     
 

@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Knowledge Refinement via Interaction Between Search Engines and Large Language Models.](http://arxiv.org/abs/2305.07402) | 本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。 |
+| [^1] | [Recommendations by Concise User Profiles from Review Text.](http://arxiv.org/abs/2311.01314) | 本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。 |
 
 # 详细
 
-[^1]: 搜索引擎与大型语言模型间的交互优化知识精炼
+[^1]: 通过简洁的用户档案中的评论文本进行推荐
 
-    Knowledge Refinement via Interaction Between Search Engines and Large Language Models. (arXiv:2305.07402v1 [cs.CL])
+    Recommendations by Concise User Profiles from Review Text. (arXiv:2311.01314v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.07402](http://arxiv.org/abs/2305.07402)
+    [http://arxiv.org/abs/2311.01314](http://arxiv.org/abs/2311.01314)
 
-    本文介绍了一种新的框架InteR，通过搜索引擎和大型语言模型之间的交互促进知识精炼，从而提高检索准确性。
+    本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。
 
     
 
-    信息检索在从大量数据中定位相关资源方面具有重要作用，其应用已从传统知识库发展至现代搜索引擎（SEs）。大型语言模型（LLMs）的出现进一步通过使用自然语言与搜索系统交互革命性地改变了该领域。本文探索了LLMs和SEs的优缺点，强调它们在理解用户查询和检索最新信息方面的各自优势。为了利用两种范例的优势并避免其限制，我们提出了InteR，这是一个通过SEs和LLMs之间的交互促进知识精炼的新框架。 InteR使SEs能够使用LLM生成的摘要来调整查询，同时使LLMs能够使用SE检索到的文档来增强提示。这种迭代的精炼过程增强了SEs和LLMs的输入，从而导致更准确的检索结果。
+    推荐系统对于受欢迎的物品和与用户的丰富互动（喜欢、评分等）最为成功。本研究探讨了一个困难且未被充分探索的情况，即如何支持互动非常稀疏但发布信息丰富的评论文本的用户。我们的实验研究涉及两个具有这些特点的图书社区。我们设计了一个基于Transformer的表征学习框架，涵盖用户-物品互动、物品内容和用户提供的评论。为了克服互动稀疏问题，我们设计了一些技术来选择构建简洁用户档案的最具信息量的线索。通过来自Amazon和Goodreads的数据集进行的全面实验表明，精心选择的文本片段可以实现最佳性能，甚至优于ChatGPT生成的用户档案。
 
-    Information retrieval (IR) plays a crucial role in locating relevant resources from vast amounts of data, and its applications have evolved from traditional knowledge bases to modern search engines (SEs). The emergence of large language models (LLMs) has further revolutionized the field by enabling users to interact with search systems in natural language. In this paper, we explore the advantages and disadvantages of LLMs and SEs, highlighting their respective strengths in understanding user-issued queries and retrieving up-to-date information. To leverage the benefits of both paradigms while circumventing their limitations, we propose InteR, a novel framework that facilitates knowledge refinement through interaction between SEs and LLMs. InteR allows SEs to refine knowledge in query using LLM-generated summaries and enables LLMs to enhance prompts using SE-retrieved documents. This iterative refinement process augments the inputs of SEs and LLMs, leading to more accurate retrieval. Ex
+    Recommender systems are most successful for popular items and users with ample interactions (likes, ratings etc.). This work addresses the difficult and underexplored case of supporting users who have very sparse interactions but post informative review texts. Our experimental studies address two book communities with these characteristics. We design a framework with Transformer-based representation learning, covering user-item interactions, item content, and user-provided reviews. To overcome interaction sparseness, we devise techniques for selecting the most informative cues to construct concise user profiles. Comprehensive experiments, with datasets from Amazon and Goodreads, show that judicious selection of text snippets achieves the best performance, even in comparison to ChatGPT-generated user profiles.
     
 
