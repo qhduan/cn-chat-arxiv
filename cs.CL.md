@@ -2,142 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Defending Our Privacy With Backdoors.](http://arxiv.org/abs/2310.08320) | 本研究提出了一种基于后门攻击的防御方法，通过对模型进行策略性插入后门，对齐敏感短语与中性术语的嵌入，以删除训练数据中的私人信息。实证结果显示该方法的有效性。 |
-| [^2] | [Norm Tweaking: High-performance Low-bit Quantization of Large Language Models.](http://arxiv.org/abs/2309.02784) | 本文介绍了一种称为“norm tweaking”的技术，通过调整量化的激活分布来实现高精度的低比特量化，以提高大型语言模型的压缩性能。 |
-| [^3] | [PMET: Precise Model Editing in a Transformer.](http://arxiv.org/abs/2308.08742) | 该论文通过分析Transformer模型中的隐藏状态，发现多头自注意力编码了某些通用知识提取模式，因此在进行模型编辑时，不需要更新多头自注意力的权重。 |
-| [^4] | [AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation.](http://arxiv.org/abs/2305.09515) | 本文提出了一种自回归扩散模型（AR-Diffusion）用于文本生成，通过动态数量的降噪步骤，确保左侧标记的生成影响右侧标记的生成。 |
-| [^5] | [StarCoder: may the source be with you!.](http://arxiv.org/abs/2305.06161) | 本研究介绍了一个具有15.5B参数和8K上下文长度的大型语言模型——StarCoder，其可以进行快速大批量推理。经评估证明，在Python上表现优异，能够通过人工评估获得40\%的pass@1的得分，且在其他程序中也表现出令人满意的性能。 |
-| [^6] | [Structure-CLIP: Enhance Multi-modal Language Representations with Structure Knowledge.](http://arxiv.org/abs/2305.06152) | Structure-CLIP使用文本中的结构化知识，使用场景图强化多模态语言表示，从而在图像-文本匹配任务中展现了更好的性能。 |
-| [^7] | [Learning to Program with Natural Language.](http://arxiv.org/abs/2304.10464) | 该论文提出了一种用自然语言作为编程语言并通过学习编程方法让大语言模型直接生成自然语言程序并指导推理的方法。实验结果表明，这种方法在解决编程任务上比基线方法有更高的成功率。 |
-| [^8] | [USNID: A Framework for Unsupervised and Semi-supervised New Intent Discovery.](http://arxiv.org/abs/2304.07699) | 该论文提出了一个名为USNID的框架，用于无监督和半监督的新意图发现，解决了利用有限或无标记数据时难以捕捉复杂语义的问题，并设计了聚类机制来提高自我监督目标的质量，从而发现细粒度的意图簇。 |
-| [^9] | [Evaluation of GPT and BERT-based models on identifying protein-protein interactions in biomedical text.](http://arxiv.org/abs/2303.17728) | 该论文评估了预先训练的语言模型(GPT和BERT)识别生物医学文本中蛋白质相互作用的性能, 结果显示BERT模型表现最佳，其中PubMedBERT具有最高的精度和F1分数，BioM-ALBERT具有最高的召回率。 |
+| [^1] | [Personas as a Way to Model Truthfulness in Language Models.](http://arxiv.org/abs/2310.18168) | 本研究探讨了在大型语言模型中使用人设来建模真实性的可能性。通过建模真实人设，语言模型可以将真实性推广到不同上下文中，并通过相关特征判断个体产生文本的真实性。 |
+| [^2] | [MarkQA: A large scale KBQA dataset with numerical reasoning.](http://arxiv.org/abs/2310.15517) | 本文提出了一个包含数值推理的大规模KBQA数据集MarkQA，并设计了一种新的任务NR-KBQA，该任务要求进行多跳推理和数值推理。实验结果表明，KBQA中的复杂数值推理面临巨大挑战。 |
+| [^3] | [Zero-shot Faithfulness Evaluation for Text Summarization with Foundation Language Model.](http://arxiv.org/abs/2310.11648) | 本文提出了使用基础语言模型进行零样本忠实性评估的方法，并引入了一种新的度量标准FFLM。实验证明，FFLM在不一致性检测和忠实性评级方面表现优异，并且参数数量减少了24倍。 |
+| [^4] | [Recovering from Privacy-Preserving Masking with Large Language Models.](http://arxiv.org/abs/2309.08628) | 本文利用大型语言模型（LLM）探索了替换标识信息的方法，并在下游语言建模任务上进行了评估。实验结果表明，使用混淆语料库训练的模型能够达到可比较的性能。 |
+| [^5] | [An Anchor Learning Approach for Citation Field Learning.](http://arxiv.org/abs/2309.03559) | 该论文介绍了一种用于引文字段学习的锚定学习方法，即CIFAL算法，通过利用锚定学习从不同引文样式的数据中捕捉引文模式，提高了引文字段学习性能，取得了2.83%的字段级F1分数提升。 |
+| [^6] | [ZYN: Zero-Shot Reward Models with Yes-No Questions.](http://arxiv.org/abs/2308.06385) | 本文提出了ZYN框架，通过使用是非问题作为奖励模型的提示，以及增强学习来微调语言模型，使其生成的文本与人类操作者的偏好对齐。实验证据表明该方法在不同领域的文本生成任务中具有很好的效果，包括解毒、情感优化和个性化提示生成器等。 |
+| [^7] | [Continual Dialogue State Tracking via Example-Guided Question Answering.](http://arxiv.org/abs/2305.13721) | 本文建议将对话状态跟踪重构为由例子引导的粒度问题回答任务，以最小化服务之间的任务转移，获得持续的学习效益。通过结合简单的持续学习策略，可以在基准数据集上获得最先进的性能。 |
+| [^8] | [Large Language Models can be Guided to Evade AI-Generated Text Detection.](http://arxiv.org/abs/2305.10847) | 本文揭示了大型语言模型可以通过精心设计的提示语来有效规避现有的文本检测系统，证明了这些检测器的脆弱性。 |
+| [^9] | [Optimal inference of a generalised Potts model by single-layer transformers with factored attention.](http://arxiv.org/abs/2304.07235) | 我们将分析和数值推导结合，在基于广义 Potts 模型的数据上，对经过改进适应这种模型的self-attention机制进行训练，发现经过修改的self-attention机制可以在极限采样下准确学习Potts模型。这个“分解”注意力机制通过从数据中学习相关属性，可以提高Transformer的性能和可解释性。 |
+| [^10] | [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering.](http://arxiv.org/abs/2303.01903) | 本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。 |
+| [^11] | [Double Permutation Equivariance for Knowledge Graph Completion.](http://arxiv.org/abs/2302.01313) | 本研究提出了双排列等变性的KG表示方法，可以使神经网络在KG中执行复杂的逻辑推理任务，并在多个归纳KG完成任务中实现了最先进的Hits@10测试准确率。双排列等变性在KG中开辟了新的研究方向。 |
+| [^12] | [AmbiFC: Fact-Checking Ambiguous Claims with Evidence.](http://arxiv.org/abs/2104.00640) | 本研究提出了一个大规模的事实核查数据集AmbiFC，用于处理现实场景中的含糊性声明核查问题，通过细粒度的证据注释和分析，提出了一种适用于含糊性声明的软标签证据核查方法，并且在注释人员争议分析中发现了相关性。 |
+| [^13] | [Learning From How Humans Correct.](http://arxiv.org/abs/2102.00225) | 本研究提出了一种从人类矫正中学习的方法。通过标注数据中的噪声数据，收集纠错信息，并将其注入至深度学习模型中，成功将文本分类准确度提升了1.7个百分点。 |
 
 # 详细
 
-[^1]: 使用后门技术保护我们的隐私
+[^1]: 使用人设来建模语言模型中的真实性
 
-    Defending Our Privacy With Backdoors. (arXiv:2310.08320v1 [cs.LG])
+    Personas as a Way to Model Truthfulness in Language Models. (arXiv:2310.18168v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.08320](http://arxiv.org/abs/2310.08320)
+    [http://arxiv.org/abs/2310.18168](http://arxiv.org/abs/2310.18168)
 
-    本研究提出了一种基于后门攻击的防御方法，通过对模型进行策略性插入后门，对齐敏感短语与中性术语的嵌入，以删除训练数据中的私人信息。实证结果显示该方法的有效性。
-
-    
-
-    在使用未经筛选、常常包含敏感信息的网页数据训练大型人工智能模型的情况下，隐私问题成为了一个重要的关注点。其中一个问题是，攻击者可以利用隐私攻击的方法提取出训练数据的信息。然而，如何在不降低模型性能的情况下去除特定信息是一个不容易解决且具有挑战性的问题。我们提出了一个基于后门攻击的简单而有效的防御方法，用于从模型中删除私人信息，如个人姓名，特别是针对文本编码器的。具体而言，通过策略性地插入后门，我们将敏感短语的嵌入与中性术语的嵌入对齐，例如用"a person"代替人名。我们的实证结果通过对零样本分类器使用专门的隐私攻击测试表明了我们基于后门的防御方法的效果。我们的方法提供了一个新的"双重用途"的视角。
-
-    The proliferation of large AI models trained on uncurated, often sensitive web-scraped data has raised significant privacy concerns. One of the concerns is that adversaries can extract information about the training data using privacy attacks. Unfortunately, the task of removing specific information from the models without sacrificing performance is not straightforward and has proven to be challenging. We propose a rather easy yet effective defense based on backdoor attacks to remove private information such as names of individuals from models, and focus in this work on text encoders. Specifically, through strategic insertion of backdoors, we align the embeddings of sensitive phrases with those of neutral terms-"a person" instead of the person's name. Our empirical results demonstrate the effectiveness of our backdoor-based defense on CLIP by assessing its performance using a specialized privacy attack for zero-shot classifiers. Our approach provides not only a new "dual-use" perspecti
-    
-[^2]: Norm调整：大型语言模型的高性能低比特量化
-
-    Norm Tweaking: High-performance Low-bit Quantization of Large Language Models. (arXiv:2309.02784v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.02784](http://arxiv.org/abs/2309.02784)
-
-    本文介绍了一种称为“norm tweaking”的技术，通过调整量化的激活分布来实现高精度的低比特量化，以提高大型语言模型的压缩性能。
+    本研究探讨了在大型语言模型中使用人设来建模真实性的可能性。通过建模真实人设，语言模型可以将真实性推广到不同上下文中，并通过相关特征判断个体产生文本的真实性。
 
     
 
-    随着大型语言模型（LLMs）的尺寸不断增大，在保持精度的前提下进行模型压缩已成为部署的关键挑战。虽然一些量化方法，如GPTQ，在实现可接受的4比特权重量化方面取得了进展，但尝试更低位的量化往往导致严重的性能降低。在本文中，我们引入了一种称为“norm tweaking”的技术，它可以作为当前PTQ方法的插件，实现高精度和成本高效。我们的方法受到一项观察的启示，即使调整量化的激活分布以与其浮点对应物匹配，也可以恢复LLMs的准确性。为了实现这一点，我们精心设计了一个调整策略，包括生成校准数据和通道距离约束，以更新归一化层的权重以获得更好的泛化性能。我们在各种数据集上进行了大量实验，使用了几个开源的LLMs。
+    大型语言模型使用互联网上的大量文本进行训练，这些文本中既包含了事实，也包含了误导性的信息。语言模型能够从这些相互矛盾的数据中辨别真实与虚假吗？基于语言模型能够建模不同产生文本的个体这一观点，我们假设它们可以通过建模真实人设来聚类真实文本：一群很可能产生真实文本并具有相似特征的个体。例如，可信源如维基百科和科学期刊通常使用正式的写作风格并提出一致的主张。通过建模这一人设，语言模型可以将真实性推广到每个个体生成训练文本的特定上下文之外。例如，模型可以推断出“维基百科”这个个体在“科学”生成的主题上会表现出真实性，因为它们共享一个人设。我们首先通过两个观察结果为人设假设提供了证据：（1）我们可以探测模型在不同领域中判断真实性的能力；（2）模型可以从相关特征中推测个体产生文本的真实性。
 
-    As the size of large language models (LLMs) continues to grow, model compression without sacrificing accuracy has become a crucial challenge for deployment. While some quantization methods, such as GPTQ, have made progress in achieving acceptable 4-bit weight-only quantization, attempts at lower bit quantization often result in severe performance degradation. In this paper, we introduce a technique called norm tweaking, which can be used as a plugin in current PTQ methods to achieve high precision while being cost-efficient. Our approach is inspired by the observation that rectifying the quantized activation distribution to match its float counterpart can readily restore accuracy for LLMs. To achieve this, we carefully design a tweaking strategy that includes calibration data generation and channel-wise distance constraint to update the weights of normalization layers for better generalization. We conduct extensive experiments on various datasets using several open-sourced LLMs. Our me
+    Large Language Models are trained on vast amounts of text from the internet, which contains both factual and misleading information about the world. Can language models discern truth from falsehood in this contradicting data? Expanding on the view that LLMs can model different agents producing the corpora, we hypothesize that they can cluster truthful text by modeling a truthful persona: a group of agents that are likely to produce truthful text and share similar features. For example, trustworthy sources like Wikipedia and Science usually use formal writing styles and make consistent claims. By modeling this persona, LLMs can generalize truthfulness beyond the specific contexts in which each agent generated the training text. For example, the model can infer that the agent "Wikipedia" will behave truthfully on topics that were only generated by "Science" because they share a persona. We first show evidence for the persona hypothesis via two observations: (1) we can probe whether a mod
     
-[^3]: PMET: 在Transformer中的精确模型编辑
+[^2]: MarkQA: 一个包含数值推理的大规模KBQA数据集
 
-    PMET: Precise Model Editing in a Transformer. (arXiv:2308.08742v1 [cs.CL])
+    MarkQA: A large scale KBQA dataset with numerical reasoning. (arXiv:2310.15517v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.08742](http://arxiv.org/abs/2308.08742)
+    [http://arxiv.org/abs/2310.15517](http://arxiv.org/abs/2310.15517)
 
-    该论文通过分析Transformer模型中的隐藏状态，发现多头自注意力编码了某些通用知识提取模式，因此在进行模型编辑时，不需要更新多头自注意力的权重。
-
-    
-
-    模型编辑技术可以以较低的成本修改大型语言模型中的少量知识，并且已经取得了显著的成功。现有方法假设Transformer层隐藏状态是前馈网络的键值内存的值。它们通常优化Transformer层隐藏状态来记忆目标知识，并将其用于更新大型语言模型中前馈网络的权重。然而，Transformer层隐藏状态的信息流来自三个部分：多头自注意力、前馈网络和残差连接。现有方法忽视了Transformer层隐藏状态包含了前馈网络特别需要的信息这一事实。因此，模型编辑的性能下降。为了实现更精确的模型编辑，我们分析了多头自注意力和前馈网络的隐藏状态，发现多头自注意力编码了某些通用知识提取模式。这意味着当引入新知识时，多头自注意力的权重不需要更新。
-
-    Model editing techniques modify a minor proportion of knowledge in Large Language Models (LLMs) at a relatively low cost, which have demonstrated notable success. Existing methods assume Transformer Layer (TL) hidden states are values of key-value memories of the Feed-Forward Network (FFN). They usually optimize the TL hidden states to memorize target knowledge and use it to update the weights of the FFN in LLMs. However, the information flow of TL hidden states comes from three parts: Multi-Head Self-Attention (MHSA), FFN, and residual connections. Existing methods neglect the fact that the TL hidden states contains information not specifically required for FFN. Consequently, the performance of model editing decreases. To achieve more precise model editing, we analyze hidden states of MHSA and FFN, finding that MHSA encodes certain general knowledge extraction patterns. This implies that MHSA weights do not require updating when new knowledge is introduced. Based on above findings, we
-    
-[^4]: AR-Diffusion：自回归扩散模型用于文本生成
-
-    AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation. (arXiv:2305.09515v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.09515](http://arxiv.org/abs/2305.09515)
-
-    本文提出了一种自回归扩散模型（AR-Diffusion）用于文本生成，通过动态数量的降噪步骤，确保左侧标记的生成影响右侧标记的生成。
+    本文提出了一个包含数值推理的大规模KBQA数据集MarkQA，并设计了一种新的任务NR-KBQA，该任务要求进行多跳推理和数值推理。实验结果表明，KBQA中的复杂数值推理面临巨大挑战。
 
     
 
-    扩散模型由于其出色的性能，在图像生成领域引起了广泛的关注。最近，这种成功已经扩展到了通过同时生成序列中的所有标记来实现文本生成。然而，自然语言相对于图像具有更为明显的序列依赖性，现有的大多数语言模型都是使用自左向右的自回归方法进行训练的。为了解决自然语言固有的序列特征，我们引入了自回归扩散（AR-Diffusion）模型。AR-Diffusion确保右侧标记的生成取决于左侧标记的生成，这种机制是通过采用动态数量的降噪步骤来实现的，这些步骤根据标记位置而变化。这导致左侧的标记经历的降噪步骤比右侧的标记少，从而使它们能够更早地生成并随后影响右侧标记的生成。
+    虽然知识库问答（KBQA）在解决事实型问题方面取得了进展，但是涉及数值推理的KBQA相对较少研究。本文针对KBQA中复杂的数值推理问题，提出了一个新的任务，NR-KBQA，它需要进行多跳推理和数值推理。我们设计了一种以Python格式的逻辑形式PyQL来表示数值推理问题的推理过程。为了便于NR-KBQA的开发，我们提供了一个名为MarkQA的大规模数据集，该数据集是从一小组种子自动构建的。MarkQA中的每个问题都配备了与之对应的SPARQL查询，以及以QDMR格式和PyQL程序表示的逐步推理过程。一些最先进的QA方法在MarkQA上的实验结果表明，KBQA中的复杂数值推理面临着巨大的挑战。
 
-    Diffusion models have gained significant attention in the realm of image generation due to their exceptional performance. Their success has been recently expanded to text generation via generating all tokens within a sequence concurrently. However, natural language exhibits a far more pronounced sequential dependency in comparison to images, and the majority of existing language models are trained utilizing a left-to-right auto-regressive approach. To account for the inherent sequential characteristic of natural language, we introduce Auto-Regressive Diffusion (AR-Diffusion). AR-Diffusion ensures that the generation of tokens on the right depends on the generated ones on the left, a mechanism achieved through employing a dynamic number of denoising steps that vary based on token position. This results in tokens on the left undergoing fewer denoising steps than those on the right, thereby enabling them to generate earlier and subsequently influence the generation of tokens on the right.
+    While question answering over knowledge bases (KBQA) has shown progress in addressing factoid questions, KBQA with numerical reasoning remains relatively unexplored. In this paper, we focus on the complex numerical reasoning in KBQA and propose a new task, NR-KBQA, which necessitates the ability to perform both multi-hop reasoning and numerical reasoning. We design a logic form in Python format called PyQL to represent the reasoning process of numerical reasoning questions. To facilitate the development of NR-KBQA, we present a large dataset called MarkQA, which is automatically constructed from a small set of seeds. Each question in MarkQA is equipped with its corresponding SPARQL query, alongside the step-by-step reasoning process in the QDMR format and PyQL program. Experimental results of some state-of-the-art QA methods on the MarkQA show that complex numerical reasoning in KBQA faces great challenges.
     
-[^5]: StarCoder: 源代码与你同在！
+[^3]: 用基础语言模型进行零样本忠实性评估的文本摘要研究
 
-    StarCoder: may the source be with you!. (arXiv:2305.06161v1 [cs.CL])
+    Zero-shot Faithfulness Evaluation for Text Summarization with Foundation Language Model. (arXiv:2310.11648v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.06161](http://arxiv.org/abs/2305.06161)
+    [http://arxiv.org/abs/2310.11648](http://arxiv.org/abs/2310.11648)
 
-    本研究介绍了一个具有15.5B参数和8K上下文长度的大型语言模型——StarCoder，其可以进行快速大批量推理。经评估证明，在Python上表现优异，能够通过人工评估获得40\%的pass@1的得分，且在其他程序中也表现出令人满意的性能。
-
-    
-
-    BigCode社区是一个开放的科学合作组织，致力于开发代表代码的大型语言模型（Code LLMs）的负责任发展。该文介绍了StarCoder和StarCoderBase，这是具有15.5B参数模型和8K上下文长度、填充能力以及多种查询注意力实现的快速大批量推理的模型。我们对StarCoderBase的1万亿个标记进行 fine-tuning，创建了StarCoder。我们进行了迄今为止最全面的Code LLMs评估，并表明StarCoderBase优于支持多种编程语言的每个开放Code LLM，并与OpenAI code-cushman-001模型相匹配或优于该模型。此外，StarCoder在Python上也表现出优异性能，能够通过人工评估获得40\%的pass@1的得分，并仍然保持其在其他程序中的性能。
-
-    The BigCode community, an open-scientific collaboration working on the responsible development of Large Language Models for Code (Code LLMs), introduces StarCoder and StarCoderBase: 15.5B parameter models with 8K context length, infilling capabilities and fast large-batch inference enabled by multi-query attention. StarCoderBase is trained on 1 trillion tokens sourced from The Stack, a large collection of permissively licensed GitHub repositories with inspection tools and an opt-out process. We fine-tuned StarCoderBase on 35B Python tokens, resulting in the creation of StarCoder. We perform the most comprehensive evaluation of Code LLMs to date and show that StarCoderBase outperforms every open Code LLM that supports multiple programming languages and matches or outperforms the OpenAI code-cushman-001 model. Furthermore, StarCoder outperforms every model that is fine-tuned on Python, can be prompted to achieve 40\% pass@1 on HumanEval, and still retains its performance on other program
-    
-[^6]: Structure-CLIP: 结合结构知识优化多模态语言表示
-
-    Structure-CLIP: Enhance Multi-modal Language Representations with Structure Knowledge. (arXiv:2305.06152v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.06152](http://arxiv.org/abs/2305.06152)
-
-    Structure-CLIP使用文本中的结构化知识，使用场景图强化多模态语言表示，从而在图像-文本匹配任务中展现了更好的性能。
+    本文提出了使用基础语言模型进行零样本忠实性评估的方法，并引入了一种新的度量标准FFLM。实验证明，FFLM在不一致性检测和忠实性评级方面表现优异，并且参数数量减少了24倍。
 
     
 
-    大规模的视觉-语言预训练在各种下游任务中展现出了很好的性能，并在多模态理解和生成任务中取得了显著的进展。然而，现有方法在需要对文本进行详细语义理解的图像-文本匹配任务上通常表现较差。尽管已经有一些研究在解决这个问题，但它们没有充分利用句子中存在的结构化知识来增强多模态语言表示，导致性能较差。本文提出了一个端到端的框架Structure-CLIP，该框架结合了从文本中提取的隐式详细语义，以增强精细的语义表示。具体而言，(1)我们使用场景图来更加关注文本中的详细语义学习，并充分探索细粒度语义之间的结构化知识，(2)我们结合场景图的知识强化框架来充分利用这些信息。
+    尽管自然语言生成取得了巨大的进步，但摘要模型仍然存在忠实性问题。先前的研究要么使用在其他任务上训练的模型或领域内的合成数据来评估忠实性，要么使用类似ChatGPT这样的大型模型进行评估。本文提出使用一个中等大小的基础语言模型进行零样本忠实性评估。我们引入了一种新的度量标准FFLM，它是基于概率变化的组合，这种组合是基于一个观点：在输出的文本前加上与输出一致的一段文本将增加预测输出的概率。实验证明，FFLM在不一致性检测和忠实性评级上与ChatGPT相比表现出色，且参数数量减少24倍。FFLM还在其他强基准上取得了改进。
 
-    Large-scale vision-language pre-training has shown promising advances on various downstream tasks and achieved significant performance in multi-modal understanding and generation tasks. However, existing methods often perform poorly on image-text matching tasks that require a detailed semantics understanding of the text. Although there have been some works on this problem, they do not sufficiently exploit the structural knowledge present in sentences to enhance multi-modal language representations, which leads to poor performance. In this paper, we present an end-to-end framework Structure-CLIP, which integrates latent detailed semantics from the text to enhance fine-grained semantic representations. Specifically, (1) we use scene graphs in order to pay more attention to the detailed semantic learning in the text and fully explore structured knowledge between fine-grained semantics, and (2) we utilize the knowledge-enhanced framework with the help of the scene graph to make full use of
+    Despite tremendous improvements in natural language generation, summarization models still suffer from the unfaithfulness issue. Previous work evaluates faithfulness either using models trained on the other tasks or in-domain synthetic data, or prompting a large model such as ChatGPT. This paper proposes to do zero-shot faithfulness evaluation simply with a moderately-sized foundation language model. We introduce a new metric FFLM, which is a combination of probability changes based on the intuition that prefixing a piece of text that is consistent with the output will increase the probability of predicting the output. Experiments show that FFLM performs competitively with or even outperforms ChatGPT on both inconsistency detection and faithfulness rating with 24x fewer parameters. FFLM also achieves improvements over other strong baselines.
     
-[^7]: 用自然语言学习编程
+[^4]: 通过大型语言模型进行隐私保护掩码的恢复
 
-    Learning to Program with Natural Language. (arXiv:2304.10464v1 [cs.CL])
+    Recovering from Privacy-Preserving Masking with Large Language Models. (arXiv:2309.08628v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.10464](http://arxiv.org/abs/2304.10464)
+    [http://arxiv.org/abs/2309.08628](http://arxiv.org/abs/2309.08628)
 
-    该论文提出了一种用自然语言作为编程语言并通过学习编程方法让大语言模型直接生成自然语言程序并指导推理的方法。实验结果表明，这种方法在解决编程任务上比基线方法有更高的成功率。
-
-    
-
-    大语言模型在各种基本自然语言任务中表现出卓越性能，这引起了实现人工通用智能的希望。为了更好地完成复杂任务，我们需要利用大语言模型进行编程，然后按照程序生成特定的解决方案。我们提出使用自然语言作为一种新的编程语言来描述任务过程，使它们易于人类和大语言模型理解。虽然大语言模型能够直接生成自然语言程序，但这些程序可能仍然存在错误或不完整的步骤。因此，我们进一步提出了学习编程（LP）的方法，要求大语言模型从复杂任务的训练数据集中学习自然语言程序，然后使用学习到的程序来指导推理。我们在AMPS（高中数学）和Math（竞赛数学问题）数据集上的实验证明了我们方法的有效性。在测试ChatGP解决编程任务时，LP能够实现80%的成功率，优于基线方法。
-
-    Large Language Models (LLMs) have shown remarkable performance in various basic natural language tasks, which raises hopes for achieving Artificial General Intelligence. To better complete complex tasks, we need LLMs to program for the task and then follow the program to generate a specific solution for the test sample. We propose using natural language as a new programming language to describe task procedures, making them easily understandable to both humans and LLMs. LLMs are capable of directly generating natural language programs, but these programs may still contain factual errors or incomplete steps. Therefore, we further propose the Learning to Program (LP) method to ask LLMs themselves to learn natural language programs from the training dataset of complex tasks and then use the learned program to guide inference. Our experiments on the AMPS (high school math) and Math (competition mathematics problems) datasets demonstrate the effectiveness of our approach. When testing ChatGP
-    
-[^8]: USNID: 无监督和半监督新意图发现的框架
-
-    USNID: A Framework for Unsupervised and Semi-supervised New Intent Discovery. (arXiv:2304.07699v1 [cs.CL])
-
-    [http://arxiv.org/abs/2304.07699](http://arxiv.org/abs/2304.07699)
-
-    该论文提出了一个名为USNID的框架，用于无监督和半监督的新意图发现，解决了利用有限或无标记数据时难以捕捉复杂语义的问题，并设计了聚类机制来提高自我监督目标的质量，从而发现细粒度的意图簇。
+    本文利用大型语言模型（LLM）探索了替换标识信息的方法，并在下游语言建模任务上进行了评估。实验结果表明，使用混淆语料库训练的模型能够达到可比较的性能。
 
     
 
-    新意图发现对自然语言处理非常有价值，使我们更好地理解用户需求并提供友好的服务。然而，在有限或没有标记数据的情况下，大多数现有方法难以捕捉离散文本表示的复杂语义。为了解决这个问题，我们提出了一种名为USNID的新框架，用于无监督和半监督新意图发现，具有三个关键技术：充分利用无监督或半监督数据挖掘浅层语义相似性关系；设计聚类机制解决簇分配不一致的问题；捕获无监督或半监督数据中的高级语义，通过同时优化聚类和自我监督来发现细粒度的意图簇。
+    模型适应对于处理代理训练数据和实际用户数据之间的差异非常重要。为了有效地进行适应，用户的文本数据通常存储在服务器或本地设备上，下游的自然语言处理模型可以使用这些领域内的数据进行直接训练。然而，这可能会引起隐私和安全问题，因为存在向对手泄露用户信息的额外风险。最近，人们开始探索使用通用标记替换文本中的标识信息。在这项工作中，我们利用大型语言模型（LLM）来建议替换掩码标记的方法，并在下游语言建模任务上评估其效果。具体而言，我们提出了多种基于预训练和微调的LLM方法，并在不同数据集上进行实证研究以比较这些方法。实验结果表明，在混淆语料库上训练的模型能够达到可比较的性能。
 
-    New intent discovery is of great value to natural language processing, allowing for a better understanding of user needs and providing friendly services. However, most existing methods struggle to capture the complicated semantics of discrete text representations when limited or no prior knowledge of labeled data is available. To tackle this problem, we propose a novel framework called USNID for unsupervised and semi-supervised new intent discovery, which has three key technologies. First, it takes full use of unsupervised or semi-supervised data to mine shallow semantic similarity relations and provide well-initialized representations for clustering. Second, it designs a centroid-guided clustering mechanism to address the issue of cluster allocation inconsistency and provide high-quality self-supervised targets for representation learning. Third, it captures high-level semantics in unsupervised or semi-supervised data to discover fine-grained intent-wise clusters by optimizing both cl
+    Model adaptation is crucial to handle the discrepancy between proxy training data and actual users data received. To effectively perform adaptation, textual data of users is typically stored on servers or their local devices, where downstream natural language processing (NLP) models can be directly trained using such in-domain data. However, this might raise privacy and security concerns due to the extra risks of exposing user information to adversaries. Replacing identifying information in textual data with a generic marker has been recently explored. In this work, we leverage large language models (LLMs) to suggest substitutes of masked tokens and have their effectiveness evaluated on downstream language modeling tasks. Specifically, we propose multiple pre-trained and fine-tuned LLM-based approaches and perform empirical studies on various datasets for the comparison of these methods. Experimental results show that models trained on the obfuscation corpora are able to achieve compar
     
-[^9]: 基于GPT和BERT的模型在生物医学文本中鉴定蛋白质相互作用的评估
+[^5]: 一种用于引文字段学习的锚定学习方法
 
-    Evaluation of GPT and BERT-based models on identifying protein-protein interactions in biomedical text. (arXiv:2303.17728v1 [cs.CL])
+    An Anchor Learning Approach for Citation Field Learning. (arXiv:2309.03559v1 [cs.CL])
 
-    [http://arxiv.org/abs/2303.17728](http://arxiv.org/abs/2303.17728)
+    [http://arxiv.org/abs/2309.03559](http://arxiv.org/abs/2309.03559)
 
-    该论文评估了预先训练的语言模型(GPT和BERT)识别生物医学文本中蛋白质相互作用的性能, 结果显示BERT模型表现最佳，其中PubMedBERT具有最高的精度和F1分数，BioM-ALBERT具有最高的召回率。
+    该论文介绍了一种用于引文字段学习的锚定学习方法，即CIFAL算法，通过利用锚定学习从不同引文样式的数据中捕捉引文模式，提高了引文字段学习性能，取得了2.83%的字段级F1分数提升。
 
     
 
-    检测蛋白质相互作用(PPIs)对于理解遗传机制、疾病发病机理和药物设计至关重要。然而，随着生物医学文献的快速增长，需要自动化和准确提取PPIs以促进科学知识的发掘。已经预先训练的语言模型，如生成式预训练变压器(GPT)和双向编码器表示变压器(BERT)，在自然语言处理(NLP)任务上表现出有希望的结果。我们使用手动编制的LLL基准语料库评估了各种GPT和BERT模型的PPI识别性能，该语料库包含77个句子中的164个PPIs。BERT模型取得了最佳的性能，其中PubMedBERT具有最高的精度(85.17%)和F1分数(86.47%)，BioM-ALBERT具有最高的召回率(93.83%)。尽管GPT-4没有专门针对生物医学文本进行训练，但其性能可与其他模型相媲美。
+    引文字段学习是将引文字符串分割为感兴趣的字段，如作者、标题和场所。从引文中提取这些字段对于引文索引、研究者个人资料分析等非常重要。用户生成的资源，如学术主页和个人简历，提供了丰富的引文字段信息。然而，由于引文样式不一致、句法不完整和训练数据不足，从这些资源中提取字段是具有挑战性的。为了解决这些问题，我们提出了一种新颖的算法CIFAL（通过锚定学习进行引文字段学习），以提高引文字段学习性能。CIFAL利用锚定学习，它对于任何预训练语言模型都是模型不可知的，帮助捕捉不同引文样式的引文模式。实验证明，CIFAL在引文字段学习方面优于最先进的方法，在字段级F1分数上取得了2.83%的提升。大量的
 
-    Detecting protein-protein interactions (PPIs) is crucial for understanding genetic mechanisms, disease pathogenesis, and drug design. However, with the fast-paced growth of biomedical literature, there is a growing need for automated and accurate extraction of PPIs to facilitate scientific knowledge discovery. Pre-trained language models, such as generative pre-trained transformer (GPT) and bidirectional encoder representations from transformers (BERT), have shown promising results in natural language processing (NLP) tasks. We evaluated the PPI identification performance of various GPT and BERT models using a manually curated benchmark corpus of 164 PPIs in 77 sentences from learning language in logic (LLL). BERT-based models achieved the best overall performance, with PubMedBERT achieving the highest precision (85.17%) and F1-score (86.47%) and BioM-ALBERT achieving the highest recall (93.83%). Despite not being explicitly trained for biomedical texts, GPT-4 achieved comparable perfo
+    Citation field learning is to segment a citation string into fields of interest such as author, title, and venue. Extracting such fields from citations is crucial for citation indexing, researcher profile analysis, etc. User-generated resources like academic homepages and Curriculum Vitae, provide rich citation field information. However, extracting fields from these resources is challenging due to inconsistent citation styles, incomplete sentence syntax, and insufficient training data. To address these challenges, we propose a novel algorithm, CIFAL (citation field learning by anchor learning), to boost the citation field learning performance. CIFAL leverages the anchor learning, which is model-agnostic for any Pre-trained Language Model, to help capture citation patterns from the data of different citation styles. The experiments demonstrate that CIFAL outperforms state-of-the-art methods in citation field learning, achieving a 2.83% improvement in field-level F1-scores. Extensive an
+    
+[^6]: ZYN：零式奖励模型与是非问题
+
+    ZYN: Zero-Shot Reward Models with Yes-No Questions. (arXiv:2308.06385v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.06385](http://arxiv.org/abs/2308.06385)
+
+    本文提出了ZYN框架，通过使用是非问题作为奖励模型的提示，以及增强学习来微调语言模型，使其生成的文本与人类操作者的偏好对齐。实验证据表明该方法在不同领域的文本生成任务中具有很好的效果，包括解毒、情感优化和个性化提示生成器等。
+
+    
+
+    在这项工作中，我们解决了将语言模型的文本生成定向于期望行为的问题，将生成的文本与人类操作者的偏好对齐。我们建议使用另一个语言模型作为批评者，通过一个表示用户偏好的是非问题的提示，以零式方式作为奖励模型，而不需要进一步标记数据。这种零式奖励模型为进一步微调基本语言模型提供了学习信号，使用增强学习，就像在RLAIF中一样；然而我们的方法在其他上下文中也是兼容的，例如质量多样性搜索。通过在与文本生成相关的不同领域进行实验，包括解毒、优化电影评论的情感或任何其他属性、引导模型可能具有的关于特定主题的观点，以及个性化的文本到图像任务的提示生成器，提供了对所提出的ZYN框架能力的大量证据。代码将在\url处发布。
+
+    In this work, we address the problem of directing the text generations of a LLM towards a desired behavior, aligning the generated text with the preferences of the human operator. We propose using another language model as a critic, reward model in a zero-shot way thanks to the prompt of a Yes-No question that represents the user preferences, without requiring further labeled data. This zero-shot reward model provides the learning signal to further fine-tune the base LLM using reinforcement learning, as in RLAIF; yet our approach is also compatible in other contexts such as quality-diversity search. Extensive evidence of the capabilities of the proposed ZYN framework is provided through experiments in different domains related to text generation, including detoxification; optimizing sentiment of movie reviews, or any other attribute; steering the opinion about a particular topic the model may have; and personalizing prompt generators for text-to-image tasks. Code to be released at \url
+    
+[^7]: 基于示例引导问答的持续对话状态跟踪
+
+    Continual Dialogue State Tracking via Example-Guided Question Answering. (arXiv:2305.13721v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.13721](http://arxiv.org/abs/2305.13721)
+
+    本文建议将对话状态跟踪重构为由例子引导的粒度问题回答任务，以最小化服务之间的任务转移，获得持续的学习效益。通过结合简单的持续学习策略，可以在基准数据集上获得最先进的性能。
+
+    
+
+    对话系统需要不断更新以适应新服务，但是简单地使用新服务的数据进行训练会降低先前学习的服务的性能。本文发现，对话状态跟踪(DST)是一个简单的自然语言理解任务，我们建议将其重构为一组由例子引导的粒度问题回答任务，以最小化服务之间的任务转移，从而获得持续的学习效益。我们的方法可以减轻特定服务的记忆负担，并教会模型将所给问题和示例用于从对话中提取必要信息。我们发现，一个只有6000万个参数的模型可以通过学习从检索器获取的上下文示例获得巨大的提升。将我们的方法与简单的持续学习策略相结合，可以在基准数据集上获得最先进的性能，证明了我们方法的有效性。
+
+    Dialogue systems are frequently updated to accommodate new services, but naively updating them by continually training with data for new services in diminishing performance on previously learnt services. Motivated by the insight that dialogue state tracking (DST), a crucial component of dialogue systems that estimates the user's goal as a conversation proceeds, is a simple natural language understanding task, we propose reformulating it as a bundle of granular example-guided question answering tasks to minimize the task shift between services and thus benefit continual learning. Our approach alleviates service-specific memorization and teaches a model to contextualize the given question and example to extract the necessary information from the conversation. We find that a model with just 60M parameters can achieve a significant boost by learning to learn from in-context examples retrieved by a retriever trained to identify turns with similar dialogue state changes. Combining our method
+    
+[^8]: 大型语言模型可以被引导来规避AI生成的文本检测
+
+    Large Language Models can be Guided to Evade AI-Generated Text Detection. (arXiv:2305.10847v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.10847](http://arxiv.org/abs/2305.10847)
+
+    本文揭示了大型语言模型可以通过精心设计的提示语来有效规避现有的文本检测系统，证明了这些检测器的脆弱性。
+
+    
+
+    大型语言模型在包括论文写作和问答等多个任务中展现出了出色的表现。然而，必须解决这些模型潜在的误用问题，否则可能导致抄袭和垃圾信息等不良后果。本研究揭示，通过精心设计的提示语，LLMs可以有效地规避检测系统。我们提出了一种新颖的基于替换的上下文示例优化方法（SICO），用于自动生成这种提示语。在三个现实任务中，LLMs可能被误用，在SICO的帮助下，ChatGPT成功地规避了六项现有的检测器，平均导致0.54的AUC下降。令人惊讶的是，在大多数情况下，这些检测器的表现甚至比随机分类器还要差。这些结果坚定地揭示了现有检测器的脆弱性。
+
+    Large Language Models (LLMs) have demonstrated exceptional performance in a variety of tasks, including essay writing and question answering. However, it is crucial to address the potential misuse of these models, which can lead to detrimental outcomes such as plagiarism and spamming. Recently, several detectors have been proposed, including fine-tuned classifiers and various statistical methods. In this study, we reveal that with the aid of carefully crafted prompts, LLMs can effectively evade these detection systems. We propose a novel Substitution-based In-Context example Optimization method (SICO) to automatically generate such prompts. On three real-world tasks where LLMs can be misused, SICO successfully enables ChatGPT to evade six existing detectors, causing a significant 0.54 AUC drop on average. Surprisingly, in most cases these detectors perform even worse than random classifiers. These results firmly reveal the vulnerability of existing detectors. Finally, the strong perfor
+    
+[^9]: 利用分解注意力机制的单层Transformer对广义Potts模型进行最优推断
+
+    Optimal inference of a generalised Potts model by single-layer transformers with factored attention. (arXiv:2304.07235v1 [cond-mat.dis-nn])
+
+    [http://arxiv.org/abs/2304.07235](http://arxiv.org/abs/2304.07235)
+
+    我们将分析和数值推导结合，在基于广义 Potts 模型的数据上，对经过改进适应这种模型的self-attention机制进行训练，发现经过修改的self-attention机制可以在极限采样下准确学习Potts模型。这个“分解”注意力机制通过从数据中学习相关属性，可以提高Transformer的性能和可解释性。
+
+    
+
+    Transformer 是一种革命性的神经网络，在自然语言处理和蛋白质科学方面取得了实践上的成功。它们的关键构建块是一个叫做自注意力机制的机制，它被训练用于预测句子中缺失的词。尽管Transformer在应用中取得了实践上的成功，但是自注意力机制究竟从数据中学到了什么以及它是怎么做到的还不是很清楚。本文针对从具有相互作用的位置和 Potts 颜色中提取的数据在训练的Transformer上给出了精确的分析和数值刻画。我们证明，虽然一般的transformer需要多层学习才能准确学习这个分布，但是经过小改进的自注意力机制在无限采样的极限下可以完美地学习Potts模型。我们还计算了这个修改后的自注意力机制所谓“分解”的泛化误差，并在合成数据上数值演示了我们的发现。我们的结果为解释Transformer的内在工作原理以及提高其性能和可解释性提供了新的思路。
+
+    Transformers are the type of neural networks that has revolutionised natural language processing and protein science. Their key building block is a mechanism called self-attention which is trained to predict missing words in sentences. Despite the practical success of transformers in applications it remains unclear what self-attention learns from data, and how. Here, we give a precise analytical and numerical characterisation of transformers trained on data drawn from a generalised Potts model with interactions between sites and Potts colours. While an off-the-shelf transformer requires several layers to learn this distribution, we show analytically that a single layer of self-attention with a small modification can learn the Potts model exactly in the limit of infinite sampling. We show that this modified self-attention, that we call ``factored'', has the same functional form as the conditional probability of a Potts spin given the other spins, compute its generalisation error using t
+    
+[^10]: 用答案启发式方式促使大型语言模型解决基于知识的视觉问答问题
+
+    Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering. (arXiv:2303.01903v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2303.01903](http://arxiv.org/abs/2303.01903)
+
+    本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。
+
+    
+
+    基于知识的视觉问答需要超出图像范围的外部知识来回答问题。早期的研究从显式知识库（KBs）检索所需的知识，这经常会引入与问题无关的信息，从而限制了模型的性能。最近的研究试图将大型语言模型（即GPT-3）作为隐含式知识引擎来获取回答所需的必要知识。尽管这些方法取得了令人鼓舞的结果，但我们认为它们还没有充分发挥GPT-3的能力，因为提供的输入信息仍然不足。在本文中，我们提出了Prophet——一个概念上简单的框架，旨在通过回答启发式方式，促使GPT-3解决基于知识的VQA问题。具体来说，我们首先在特定的基于知识的VQA数据集上训练一个纯VQA模型，而不使用外部知识。之后，我们从模型中提取了两种互补的答案启发式：答案候选项。
+
+    Knowledge-based visual question answering (VQA) requires external knowledge beyond the image to answer the question. Early studies retrieve required knowledge from explicit knowledge bases (KBs), which often introduces irrelevant information to the question, hence restricting the performance of their models. Recent works have sought to use a large language model (i.e., GPT-3) as an implicit knowledge engine to acquire the necessary knowledge for answering. Despite the encouraging results achieved by these methods, we argue that they have not fully activated the capacity of GPT-3 as the provided input information is insufficient. In this paper, we present Prophet -- a conceptually simple framework designed to prompt GPT-3 with answer heuristics for knowledge-based VQA. Specifically, we first train a vanilla VQA model on a specific knowledge-based VQA dataset without external knowledge. After that, we extract two types of complementary answer heuristics from the model: answer candidates 
+    
+[^11]: 双排列等变性在知识图谱补全中的应用
+
+    Double Permutation Equivariance for Knowledge Graph Completion. (arXiv:2302.01313v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.01313](http://arxiv.org/abs/2302.01313)
+
+    本研究提出了双排列等变性的KG表示方法，可以使神经网络在KG中执行复杂的逻辑推理任务，并在多个归纳KG完成任务中实现了最先进的Hits@10测试准确率。双排列等变性在KG中开辟了新的研究方向。
+
+    
+
+    本研究将知识图谱(KGs)形式化为一种新型的图，并称之为双交换属性图，其中节点和二元（两个节点之间的）表示必须对节点号和边（及节点）属性（关系和节点特征）的排列等变。双重排列等变的KG表示在KG中开辟了新的研究方向。我们展示了这种等变性对关系的结构表示产生的影响，从而使神经网络能够在KG中执行复杂的逻辑推理任务。最后，我们介绍了一种通用的等变表示蓝图，并测试了一种简单的基于GNN的双排列等变神经结构，在WN18RR、FB237和NELL995归纳KG完成任务中实现了最先进的Hits@10测试准确率，并能够准确执行现有方法无法执行的逻辑推理任务。
+
+    This work provides a formalization of Knowledge Graphs (KGs) as a new class of graphs that we denote doubly exchangeable attributed graphs, where node and pairwise (joint 2-node) representations must be equivariant to permutations of both node ids and edge (& node) attributes (relations & node features). Double-permutation equivariant KG representations open a new research direction in KGs. We show that this equivariance imposes a structural representation of relations that allows neural networks to perform complex logical reasoning tasks in KGs. Finally, we introduce a general blueprint for such equivariant representations and test a simple GNN-based double-permutation equivariant neural architecture that achieve state-of-the-art Hits@10 test accuracy in the WN18RR, FB237 and NELL995 inductive KG completion tasks, and can accurately perform logical reasoning tasks that no existing methods can perform, to the best of our knowledge.
+    
+[^12]: AmbiFC: 用证据检验含糊性声明的真实性
+
+    AmbiFC: Fact-Checking Ambiguous Claims with Evidence. (arXiv:2104.00640v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2104.00640](http://arxiv.org/abs/2104.00640)
+
+    本研究提出了一个大规模的事实核查数据集AmbiFC，用于处理现实场景中的含糊性声明核查问题，通过细粒度的证据注释和分析，提出了一种适用于含糊性声明的软标签证据核查方法，并且在注释人员争议分析中发现了相关性。
+
+    
+
+    在实际场景中，自动化事实核查系统必须将声明与检索到的证据进行比较以预测真实性。检索到的证据可能无法明确支持或反驳声明，并产生各种有效解释。现有的事实核查数据集需要模型为每个声明预测单个真实性标签，并且缺乏管理此类模糊性的能力。我们提出了一个大规模的事实核查数据集AmbiFC，其中包含从完整维基百科页面中获取的经过细粒度证据注释的信息需求的现实声明。我们彻底分析了AmbiFC中涉及含糊声明引起的争议，观察到与注释人员的自我评估和专家注释的语言现象强烈相关的注释人员争议。我们引入基于证据的含糊声明的真实性核查任务，比较了三种方法，其中包含注释信号和单标签分类。
+
+    Automated fact-checking systems in real-world scenarios must compare claims with retrieved evidence to predict the veracity. The retrieved evidence may not unambiguously support or refute the claim and yield diverse valid interpretations. Existing fact-checking datasets necessitate that models predict a single veracity label for each claim and lack the ability to manage such ambiguity. We present AmbiFC, a large-scale fact-checking dataset with realistic claims derived from real-world information needs. Our dataset contains fine-grained evidence annotations of passages from complete Wikipedia pages. We thoroughly analyze disagreements arising from ambiguous claims in AmbiFC, observing a strong correlation of annotator disagreement with their self-assessment and expert-annotated linguistic phenomena. We introduce the task of evidence-based fact-checking for ambiguous claims with soft labels, and compare three methodologies incorporating annotation signals with a single-label classificat
+    
+[^13]: 从人类的纠错中学习
+
+    Learning From How Humans Correct. (arXiv:2102.00225v14 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2102.00225](http://arxiv.org/abs/2102.00225)
+
+    本研究提出了一种从人类矫正中学习的方法。通过标注数据中的噪声数据，收集纠错信息，并将其注入至深度学习模型中，成功将文本分类准确度提升了1.7个百分点。
+
+    
+
+    在工业自然语言处理应用中，我们手动标注的数据中存在一定数量的噪声数据。我们提出了一种简单的方法来找到噪声数据并手动重新标注它们，同时收集纠错信息。然后，我们提出了一种将人类纠错信息融入深度学习模型的新方法。人类知道如何纠正噪声数据，因此纠错信息可以注入到深度学习模型中。我们在自己的文本分类数据集上进行了实验，该数据集是手动标注的，因为我们重新标注了我们数据集中的噪声数据，以适用于我们的工业应用。实验结果显示，我们的方法将分类准确度从91.7%提升到92.5%。91.7%的准确度是在修正后的数据集上训练的，它将基线准确度从83.3%提升到91.7%。
+
+    In industry NLP application, our manually labeled data has a certain number of noisy data. We present a simple method to find the noisy data and re-label them manually, meanwhile we collect the correction information. Then we present novel method to incorporate the human correction information into deep learning model. Human know how to correct noisy data. So the correction information can be inject into deep learning model. We do the experiment on our own text classification dataset, which is manually labeled, because we re-label the noisy data in our dataset for our industry application. The experiment result shows that our method improve the classification accuracy from 91.7% to 92.5%. The 91.7% accuracy is trained on the corrected dataset, which improve the baseline from 83.3% to 91.7%.
     
 

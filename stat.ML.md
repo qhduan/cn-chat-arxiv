@@ -2,75 +2,59 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multi-task learning of convex combinations of forecasting models.](http://arxiv.org/abs/2310.20545) | 本文提出了一种多任务学习方法，通过深度神经网络同时解决了预测模型选择和凸组合权重学习的问题。通过回归分支学习权重和分类分支选择具有多样性的预测方法，提高了基于特征的预测的精确度。 |
-| [^2] | [On the Stability of Iterative Retraining of Generative Models on their own Data.](http://arxiv.org/abs/2310.00429) | 本文研究了生成模型在混合数据集上训练对稳定性的影响，通过证明初始生成模型足够接近数据分布并且数据比例适当，迭代训练是稳定的。 |
-| [^3] | [On Estimating the Gradient of the Expected Information Gain in Bayesian Experimental Design.](http://arxiv.org/abs/2308.09888) | 该论文提出了一种估计贝叶斯实验设计中期望信息增益梯度的方法，通过结合随机梯度下降算法，实现了高效优化。具体而言，通过后验期望表示来估计与设计变量相关的梯度，并提出了UEEG-MCMC和BEEG-AP两种估计方法。这些方法在不同的实验设计问题上都表现出良好的性能。 |
-| [^4] | [Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression.](http://arxiv.org/abs/2308.09065) | 本文提出了一种用于回归任务的广义AuxUE方案，目的是实现更鲁棒的不确定性量化。具体而言，该方案通过考虑不同的分布假设，选择Laplace分布来近似p，以实现更鲁棒的本质不确定性估计。 |
-| [^5] | [Big Data - Supply Chain Management Framework for Forecasting: Data Preprocessing and Machine Learning Techniques.](http://arxiv.org/abs/2307.12971) | 本文介绍了一种新的大数据-供应链管理框架，通过数据预处理和机器学习技术实现供应链预测，优化操作管理、透明度，并讨论了幻影库存对预测的不利影响。 |
-| [^6] | [Fit Like You Sample: Sample-Efficient Generalized Score Matching from Fast Mixing Markov Chains.](http://arxiv.org/abs/2306.09332) | 本文提出了一种从快速混合马尔可夫链中实现样本高效的广义得分匹配方法，解决了得分匹配算法在具有较差等周性质的分布上的统计代价问题。 |
-| [^7] | [The Blessing of Heterogeneity in Federated Q-learning: Linear Speedup and Beyond.](http://arxiv.org/abs/2305.10697) | 本文提出了异构群体强化学习中联邦Q学习的样本复杂度保证，讨论了同步和异步版本的线性加速，同时探究了等权重平均本地Q估计的缺陷。 |
-| [^8] | [Mixed moving average field guided learning for spatio-temporal data.](http://arxiv.org/abs/2301.00736) | 本论文提出了一种理论引导机器学习方法，采用广义贝叶斯算法进行混合移动平均场引导的时空数据建模，可以进行因果未来预测。 |
-| [^9] | [On the fast convergence of minibatch heavy ball momentum.](http://arxiv.org/abs/2206.07553) | 本文研究了一种随机Kaczmarz算法，使用小批量和重球动量进行加速，在二次优化问题中保持快速收敛率。 |
+| [^1] | [Subspace Identification for Multi-Source Domain Adaptation.](http://arxiv.org/abs/2310.04723) | 该论文提出了一个基于子空间识别理论的多源域自适应方法，通过最小化域之间的偏移对不变变量的影响，实现了源域的知识转移到目标域。该方法相对于现有方法更加灵活，不需要满足严格的假设条件。 |
+| [^2] | [Diffusion Model in Causal Inference with Unmeasured Confounders.](http://arxiv.org/abs/2308.03669) | 本研究扩展了扩散模型的使用，提出了一种新的模型BDCM，可以在存在无法测量的混淆因素的情况下更准确地回答因果问题。 |
+| [^3] | [Doubly Robust Estimator for Off-Policy Evaluation with Large Action Spaces.](http://arxiv.org/abs/2308.03443) | 本文提出了一种用于具有大动作空间的离策略评估的双重稳健估计器（MDR）。与现有的基准估计器相比，MDR能够在减小方差的同时保持无偏性，从而提高了估计的准确性。实验结果证实了MDR相对于现有估计器的优越性。 |
+| [^4] | [Big Data - Supply Chain Management Framework for Forecasting: Data Preprocessing and Machine Learning Techniques.](http://arxiv.org/abs/2307.12971) | 本文介绍了一种新的大数据-供应链管理框架，通过数据预处理和机器学习技术实现供应链预测，优化操作管理、透明度，并讨论了幻影库存对预测的不利影响。 |
+| [^5] | [Lagrangian Flow Networks for Conservation Laws.](http://arxiv.org/abs/2305.16846) | 该论文提出了LFlows模型，它使用可微和可逆的变换，在时间上规定参数化的微分同胚变换来对基础密度进行转换，以连续地建模流体密度和速度。与传统方法相比，其优势在于速度的解析表达式总是与密度保持一致，无需昂贵的数值求解器，也无需使用惩罚方法。 |
+| [^6] | [Optimal inference of a generalised Potts model by single-layer transformers with factored attention.](http://arxiv.org/abs/2304.07235) | 我们将分析和数值推导结合，在基于广义 Potts 模型的数据上，对经过改进适应这种模型的self-attention机制进行训练，发现经过修改的self-attention机制可以在极限采样下准确学习Potts模型。这个“分解”注意力机制通过从数据中学习相关属性，可以提高Transformer的性能和可解释性。 |
+| [^7] | [Distributed Stochastic Optimization under a General Variance Condition.](http://arxiv.org/abs/2301.12677) | 这项研究通过重新审视联邦平均算法，在最小假设下对分布式非凸目标进行了随机优化，建立了仅满足随机梯度温和条件的收敛结果。 |
 
 # 详细
 
-[^1]: 多任务学习凸组合预测模型
+[^1]: 多源域自适应的子空间识别
 
-    Multi-task learning of convex combinations of forecasting models. (arXiv:2310.20545v1 [cs.LG])
+    Subspace Identification for Multi-Source Domain Adaptation. (arXiv:2310.04723v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.20545](http://arxiv.org/abs/2310.20545)
+    [http://arxiv.org/abs/2310.04723](http://arxiv.org/abs/2310.04723)
 
-    本文提出了一种多任务学习方法，通过深度神经网络同时解决了预测模型选择和凸组合权重学习的问题。通过回归分支学习权重和分类分支选择具有多样性的预测方法，提高了基于特征的预测的精确度。
-
-    
-
-    预测组合涉及使用多个预测来创建单一、更精确的预测。最近，基于特征的预测已被用于选择最合适的预测模型或学习它们的凸组合权重。在本文中，我们提出了一种同时解决这两个问题的多任务学习方法。该方法通过深度神经网络实现，其中包括两个分支：回归分支通过最小化组合预测误差来学习各种预测方法的权重，分类分支则重点选择多样性的预测方法。为了为分类任务生成训练标签，我们引入了一种优化驱动的方法，用于确定给定时间序列的最合适的方法。所提出的方法揭示了基于特征的预测中多样性的重要作用，并凸显了模型组合和选择之间的相互作用。
-
-    Forecast combination involves using multiple forecasts to create a single, more accurate prediction. Recently, feature-based forecasting has been employed to either select the most appropriate forecasting models or to learn the weights of their convex combination. In this paper, we present a multi-task learning methodology that simultaneously addresses both problems. This approach is implemented through a deep neural network with two branches: the regression branch, which learns the weights of various forecasting methods by minimizing the error of combined forecasts, and the classification branch, which selects forecasting methods with an emphasis on their diversity. To generate training labels for the classification task, we introduce an optimization-driven approach that identifies the most appropriate methods for a given time series. The proposed approach elicits the essential role of diversity in feature-based forecasting and highlights the interplay between model combination and mo
-    
-[^2]: 关于生成模型在其自己的数据上迭代训练的稳定性研究
-
-    On the Stability of Iterative Retraining of Generative Models on their own Data. (arXiv:2310.00429v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.00429](http://arxiv.org/abs/2310.00429)
-
-    本文研究了生成模型在混合数据集上训练对稳定性的影响，通过证明初始生成模型足够接近数据分布并且数据比例适当，迭代训练是稳定的。
+    该论文提出了一个基于子空间识别理论的多源域自适应方法，通过最小化域之间的偏移对不变变量的影响，实现了源域的知识转移到目标域。该方法相对于现有方法更加灵活，不需要满足严格的假设条件。
 
     
 
-    深度生成模型在建模复杂数据方面取得了巨大的进展，往往展现出超过典型人类能力的样本真实性辨别能力。这一成功的关键驱动力无疑是这些模型消耗海量网络规模数据的结果。由于这些模型惊人的性能和易得性，网络上将不可避免地出现越来越多的合成内容。这个事实直接意味着生成模型的未来迭代必须面对一个现实：它们的训练数据由清洁数据和先前模型生成的人工数据组成。在本文中，我们开发了一个框架来对混合数据集（包括真实数据和合成数据）上训练生成模型对稳定性的影响进行严格研究。我们首先证明了在初始生成模型足够好地近似数据分布并且真实数据与合成数据的比例适当的情况下，迭代训练的稳定性。
+    多源域自适应（MSDA）方法旨在将多个有标签的源域的知识转移到一个无标签的目标域中。尽管当前的方法通过在域之间施加最小的变化来实现目标联合分布的可辨识性，但它们通常需要严格的条件，如足够数量的域、潜在变量的单调变换和不变的标签分布。这些要求在实际应用中很难满足。为了减轻对这些严格假设的需求，我们提出了一个子空间识别理论，它在关于域数量和变换特性方面具有较宽松的约束条件，从而通过最小化域之间的偏移对不变变量的影响来促进域自适应。基于这个理论，我们开发了一个利用变分推断的子空间识别保证（SIG）模型。
 
-    Deep generative models have made tremendous progress in modeling complex data, often exhibiting generation quality that surpasses a typical human's ability to discern the authenticity of samples. Undeniably, a key driver of this success is enabled by the massive amounts of web-scale data consumed by these models. Due to these models' striking performance and ease of availability, the web will inevitably be increasingly populated with synthetic content. Such a fact directly implies that future iterations of generative models must contend with the reality that their training is curated from both clean data and artificially generated data from past models. In this paper, we develop a framework to rigorously study the impact of training generative models on mixed datasets (of real and synthetic data) on their stability. We first prove the stability of iterative training under the condition that the initial generative models approximate the data distribution well enough and the proportion o
+    Multi-source domain adaptation (MSDA) methods aim to transfer knowledge from multiple labeled source domains to an unlabeled target domain. Although current methods achieve target joint distribution identifiability by enforcing minimal changes across domains, they often necessitate stringent conditions, such as an adequate number of domains, monotonic transformation of latent variables, and invariant label distributions. These requirements are challenging to satisfy in real-world applications. To mitigate the need for these strict assumptions, we propose a subspace identification theory that guarantees the disentanglement of domain-invariant and domain-specific variables under less restrictive constraints regarding domain numbers and transformation properties, thereby facilitating domain adaptation by minimizing the impact of domain shifts on invariant variables. Based on this theory, we develop a Subspace Identification Guarantee (SIG) model that leverages variational inference. Furth
     
-[^3]: 关于贝叶斯实验设计中期望信息增益梯度的估计
+[^2]: 无法测量混淆因素下因果推断中的扩散模型
 
-    On Estimating the Gradient of the Expected Information Gain in Bayesian Experimental Design. (arXiv:2308.09888v1 [stat.ML])
+    Diffusion Model in Causal Inference with Unmeasured Confounders. (arXiv:2308.03669v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.09888](http://arxiv.org/abs/2308.09888)
+    [http://arxiv.org/abs/2308.03669](http://arxiv.org/abs/2308.03669)
 
-    该论文提出了一种估计贝叶斯实验设计中期望信息增益梯度的方法，通过结合随机梯度下降算法，实现了高效优化。具体而言，通过后验期望表示来估计与设计变量相关的梯度，并提出了UEEG-MCMC和BEEG-AP两种估计方法。这些方法在不同的实验设计问题上都表现出良好的性能。
-
-    
-
-    贝叶斯实验设计旨在找到贝叶斯推断的最佳实验条件，通常被描述为优化期望信息增益（EIG）。为了高效地优化EIG，往往需要梯度信息，因此估计EIG的梯度能力对于贝叶斯实验设计问题至关重要。该工作的主要目标是开发估计EIG梯度的方法，结合随机梯度下降算法，实现EIG的高效优化。具体而言，我们首先介绍了与设计变量相关的EIG梯度的后验期望表示。基于此，我们提出了两种估计EIG梯度的方法，UEEG-MCMC利用通过马尔科夫链蒙特卡洛（MCMC）生成的后验样本来估计EIG梯度，而BEEG-AP则专注于通过反复使用参数样本来实现高模拟效率。理论分析和数值实验表明，我们的方法在不同的实验设计问题上都能获得较好的性能。
-
-    Bayesian Experimental Design (BED), which aims to find the optimal experimental conditions for Bayesian inference, is usually posed as to optimize the expected information gain (EIG). The gradient information is often needed for efficient EIG optimization, and as a result the ability to estimate the gradient of EIG is essential for BED problems. The primary goal of this work is to develop methods for estimating the gradient of EIG, which, combined with the stochastic gradient descent algorithms, result in efficient optimization of EIG. Specifically, we first introduce a posterior expected representation of the EIG gradient with respect to the design variables. Based on this, we propose two methods for estimating the EIG gradient, UEEG-MCMC that leverages posterior samples generated through Markov Chain Monte Carlo (MCMC) to estimate the EIG gradient, and BEEG-AP that focuses on achieving high simulation efficiency by repeatedly using parameter samples. Theoretical analysis and numerica
-    
-[^4]: 通过离散化引发的Dirichlet后验用于回归问题的鲁棒性不确定性量化
-
-    Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression. (arXiv:2308.09065v1 [cs.CV])
-
-    [http://arxiv.org/abs/2308.09065](http://arxiv.org/abs/2308.09065)
-
-    本文提出了一种用于回归任务的广义AuxUE方案，目的是实现更鲁棒的不确定性量化。具体而言，该方案通过考虑不同的分布假设，选择Laplace分布来近似p，以实现更鲁棒的本质不确定性估计。
+    本研究扩展了扩散模型的使用，提出了一种新的模型BDCM，可以在存在无法测量的混淆因素的情况下更准确地回答因果问题。
 
     
 
-    在实际应用中，不确定性量化对于部署深度神经网络（DNNs）至关重要。辅助不确定性估计器（AuxUE）是一种在不修改主任务模型的情况下估计主任务预测不确定性的最有效手段之一。为了被认为是鲁棒的，AuxUE必须能够在遇到超出分布范围的输入时保持性能并引发更高的不确定性，即提供鲁棒的本质不确定性和认识不确定性。然而，对于视觉回归任务，当前的AuxUE设计主要用于本质不确定性估计，并且尚未探索AuxUE的鲁棒性。在这项工作中，我们提出了一种用于回归任务的更鲁棒不确定性量化的广义AuxUE方案。具体而言，为了实现更鲁棒的本质不确定性估计，在异方差噪声方面考虑了不同的分布假设，并最终选择Laplace分布来近似p
+    我们研究了如何在无法测量的混淆因素存在的情况下，扩展扩散模型的使用，以从观测数据中回答因果问题。在Pearl的使用有向无环图（DAG）捕捉因果干预的框架中，提出了一种基于扩散模型的因果模型（DCM），可以更准确地回答因果问题，假设所有混淆因素都是可以观察到的。然而，实际中存在无法测量的混淆因素，这使得DCM无法应用。为了缓解DCM的这一局限性，我们提出了一个扩展模型，称为基于反门准则的DCM（BDCM），其思想根植于在DAG中找到要包括在扩散模型解码过程中的变量的反门准则，这样我们可以将DCM扩展到存在无法测量的混淆因素的情况。合成数据实验表明，我们提出的模型在无法测量混淆因素的情况下更精确地捕捉到了反事实分布。
 
-    Uncertainty quantification is critical for deploying deep neural networks (DNNs) in real-world applications. An Auxiliary Uncertainty Estimator (AuxUE) is one of the most effective means to estimate the uncertainty of the main task prediction without modifying the main task model. To be considered robust, an AuxUE must be capable of maintaining its performance and triggering higher uncertainties while encountering Out-of-Distribution (OOD) inputs, i.e., to provide robust aleatoric and epistemic uncertainty. However, for vision regression tasks, current AuxUE designs are mainly adopted for aleatoric uncertainty estimates, and AuxUE robustness has not been explored. In this work, we propose a generalized AuxUE scheme for more robust uncertainty quantification on regression tasks. Concretely, to achieve a more robust aleatoric uncertainty estimation, different distribution assumptions are considered for heteroscedastic noise, and Laplace distribution is finally chosen to approximate the p
+    We study how to extend the use of the diffusion model to answer the causal question from the observational data under the existence of unmeasured confounders. In Pearl's framework of using a Directed Acyclic Graph (DAG) to capture the causal intervention, a Diffusion-based Causal Model (DCM) was proposed incorporating the diffusion model to answer the causal questions more accurately, assuming that all of the confounders are observed. However, unmeasured confounders in practice exist, which hinders DCM from being applicable. To alleviate this limitation of DCM, we propose an extended model called Backdoor Criterion based DCM (BDCM), whose idea is rooted in the Backdoor criterion to find the variables in DAG to be included in the decoding process of the diffusion model so that we can extend DCM to the case with unmeasured confounders. Synthetic data experiment demonstrates that our proposed model captures the counterfactual distribution more precisely than DCM under the unmeasured confo
     
-[^5]: 大数据-供应链管理框架的预测：数据预处理和机器学习技术
+[^3]: 用于具有大动作空间的离策略评估的双重稳健估计器
+
+    Doubly Robust Estimator for Off-Policy Evaluation with Large Action Spaces. (arXiv:2308.03443v1 [stat.ML])
+
+    [http://arxiv.org/abs/2308.03443](http://arxiv.org/abs/2308.03443)
+
+    本文提出了一种用于具有大动作空间的离策略评估的双重稳健估计器（MDR）。与现有的基准估计器相比，MDR能够在减小方差的同时保持无偏性，从而提高了估计的准确性。实验结果证实了MDR相对于现有估计器的优越性。
+
+    
+
+    本文研究了在具有大动作空间的背景下的离策略评估（OPE）。现有的基准估计器存在严重的偏差和方差折衷问题。参数化方法由于很难确定正确的模型而导致偏差，而重要性加权方法由于方差而产生问题。为了克服这些限制，本文提出了基于判别式的不良行为抑制器（MIPS）来通过对动作的嵌入来减小估计器的方差。为了使估计器更准确，我们提出了MIPS的双重稳健估计器——边际化双重稳健（MDR）估计器。理论分析表明，所提出的估计器在比MIPS更弱的假设下是无偏的，同时保持了对IPS的方差减小，这是MIPS的主要优势。经验实验证实了MDR相对于现有估计器的优越性。
+
+    We study Off-Policy Evaluation (OPE) in contextual bandit settings with large action spaces. The benchmark estimators suffer from severe bias and variance tradeoffs. Parametric approaches suffer from bias due to difficulty specifying the correct model, whereas ones with importance weight suffer from variance. To overcome these limitations, Marginalized Inverse Propensity Scoring (MIPS) was proposed to mitigate the estimator's variance via embeddings of an action. To make the estimator more accurate, we propose the doubly robust estimator of MIPS called the Marginalized Doubly Robust (MDR) estimator. Theoretical analysis shows that the proposed estimator is unbiased under weaker assumptions than MIPS while maintaining variance reduction against IPS, which was the main advantage of MIPS. The empirical experiment verifies the supremacy of MDR against existing estimators.
+    
+[^4]: 大数据-供应链管理框架的预测：数据预处理和机器学习技术
 
     Big Data - Supply Chain Management Framework for Forecasting: Data Preprocessing and Machine Learning Techniques. (arXiv:2307.12971v1 [cs.LG])
 
@@ -84,60 +68,46 @@
 
     This article intends to systematically identify and comparatively analyze state-of-the-art supply chain (SC) forecasting strategies and technologies. A novel framework has been proposed incorporating Big Data Analytics in SC Management (problem identification, data sources, exploratory data analysis, machine-learning model training, hyperparameter tuning, performance evaluation, and optimization), forecasting effects on human-workforce, inventory, and overall SC. Initially, the need to collect data according to SC strategy and how to collect them has been discussed. The article discusses the need for different types of forecasting according to the period or SC objective. The SC KPIs and the error-measurement systems have been recommended to optimize the top-performing model. The adverse effects of phantom inventory on forecasting and the dependence of managerial decisions on the SC KPIs for determining model performance parameters and improving operations management, transparency, and 
     
-[^6]: Fit Like You Sample: 从快速混合马尔可夫链中实现样本高效的广义得分匹配
+[^5]: 拉格朗日流网络用于守恒定律
 
-    Fit Like You Sample: Sample-Efficient Generalized Score Matching from Fast Mixing Markov Chains. (arXiv:2306.09332v1 [cs.DS])
+    Lagrangian Flow Networks for Conservation Laws. (arXiv:2305.16846v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.09332](http://arxiv.org/abs/2306.09332)
+    [http://arxiv.org/abs/2305.16846](http://arxiv.org/abs/2305.16846)
 
-    本文提出了一种从快速混合马尔可夫链中实现样本高效的广义得分匹配方法，解决了得分匹配算法在具有较差等周性质的分布上的统计代价问题。
-
-    
-
-    得分匹配是一种学习概率分布的方法，其参数化为比例常数（例如，能量基模型）。其思想是拟合分布的得分，而不是似然函数，从而避免评估比例常数的需求。虽然这具有明显的算法优势，但统计代价可能很高：Koehler等人的最新工作表明，对于具有较差等周性质（较大的Poincare或对数Sobolev常数）的分布，得分匹配的统计效率明显低于极大似然估计。然而，许多自然实际的分布，例如一维中的两个高斯分布混合物等多峰分布，具有较差的Poincaré常数。在本文中，我们展示了任意马尔可夫过程的混合时间与试图拟合$\frac{\mathcal{O} p}{p}$的广义得分匹配损失之间的密切关系。如果$\mathcal{L}$的特征向量不依赖于$p$，我们展示了一种基于随机梯度下降的算法，从而实现的样本高效广义得分匹配。
-
-    Score matching is an approach to learning probability distributions parametrized up to a constant of proportionality (e.g. Energy-Based Models). The idea is to fit the score of the distribution, rather than the likelihood, thus avoiding the need to evaluate the constant of proportionality. While there's a clear algorithmic benefit, the statistical "cost'' can be steep: recent work by Koehler et al. 2022 showed that for distributions that have poor isoperimetric properties (a large Poincar\'e or log-Sobolev constant), score matching is substantially statistically less efficient than maximum likelihood. However, many natural realistic distributions, e.g. multimodal distributions as simple as a mixture of two Gaussians in one dimension -- have a poor Poincar\'e constant.  In this paper, we show a close connection between the mixing time of an arbitrary Markov process with generator $\mathcal{L}$ and a generalized score matching loss that tries to fit $\frac{\mathcal{O} p}{p}$. If $\mathca
-    
-[^7]: 异构群体强化学习中的福音：线性加速和更多可能
-
-    The Blessing of Heterogeneity in Federated Q-learning: Linear Speedup and Beyond. (arXiv:2305.10697v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.10697](http://arxiv.org/abs/2305.10697)
-
-    本文提出了异构群体强化学习中联邦Q学习的样本复杂度保证，讨论了同步和异步版本的线性加速，同时探究了等权重平均本地Q估计的缺陷。
+    该论文提出了LFlows模型，它使用可微和可逆的变换，在时间上规定参数化的微分同胚变换来对基础密度进行转换，以连续地建模流体密度和速度。与传统方法相比，其优势在于速度的解析表达式总是与密度保持一致，无需昂贵的数值求解器，也无需使用惩罚方法。
 
     
 
-    当强化学习（RL）的数据由多个代理以分布式方式收集时，联邦RL算法允许协作学习，无需共享本地数据。本文考虑联邦Q学习，其目的是通过定期聚合仅在本地数据上训练的本地Q估计来学习最优Q函数。针对无限时间蒸馏标记决策过程，我们为同步和异步版本的联邦Q学习提供了样本复杂度保证。在两种情况下，我们的界限展示了与代理数量成线性加速以及其他显著问题参数的更尖锐的依赖关系。此外，现有的联邦Q学习方法采用等权重平均本地Q估计，这在异步设置中可能会高度次优，因为由于不同的本地行为策略，本地轨迹可能高度异构。现有的样本最优化策略在异步设置中存在巨大缺陷。
+    我们提出了拉格朗日流网络（LFlows），用于连续地建模流体密度和速度。所提出的LFlows基于连续方程的解，其中连续方程是描述不同形式的质量守恒性质的偏微分方程。我们的模型基于这样的思路：连续方程的解可以通过可微和可逆的变换表示为时间依赖的密度变换。因此，我们通过在时间上规定参数化的微分同胚变换来对基础密度进行转换以建模流体密度。与依赖于Neural-ODE或PINNs的方法相比，关键的优势在于速度的解析表达式始终与密度保持一致。此外，无需昂贵的数值求解器，也无需使用惩罚方法来实施偏微分方程。拉格朗日流网络在合成密度数据上显示出了更高的预测精度。
 
-    When the data used for reinforcement learning (RL) are collected by multiple agents in a distributed manner, federated versions of RL algorithms allow collaborative learning without the need of sharing local data. In this paper, we consider federated Q-learning, which aims to learn an optimal Q-function by periodically aggregating local Q-estimates trained on local data alone. Focusing on infinite-horizon tabular Markov decision processes, we provide sample complexity guarantees for both the synchronous and asynchronous variants of federated Q-learning. In both cases, our bounds exhibit a linear speedup with respect to the number of agents and sharper dependencies on other salient problem parameters. Moreover, existing approaches to federated Q-learning adopt an equally-weighted averaging of local Q-estimates, which can be highly sub-optimal in the asynchronous setting since the local trajectories can be highly heterogeneous due to different local behavior policies. Existing sample com
+    We introduce Lagrangian Flow Networks (LFlows) for modeling fluid densities and velocities continuously in space and time. The proposed LFlows satisfy by construction the continuity equation, a PDE describing mass conservation in its differentiable form. Our model is based on the insight that solutions to the continuity equation can be expressed as time-dependent density transformations via differentiable and invertible maps. This follows from classical theory of existence and uniqueness of Lagrangian flows for smooth vector fields. Hence, we model fluid densities by transforming a base density with parameterized diffeomorphisms conditioned on time. The key benefit compared to methods relying on Neural-ODE or PINNs is that the analytic expression of the velocity is always consistent with the density. Furthermore, there is no need for expensive numerical solvers, nor for enforcing the PDE with penalty methods. Lagrangian Flow Networks show improved predictive accuracy on synthetic densi
     
-[^8]: 混合移动平均场引导的时空数据学习
+[^6]: 利用分解注意力机制的单层Transformer对广义Potts模型进行最优推断
 
-    Mixed moving average field guided learning for spatio-temporal data. (arXiv:2301.00736v2 [stat.ML] UPDATED)
+    Optimal inference of a generalised Potts model by single-layer transformers with factored attention. (arXiv:2304.07235v1 [cond-mat.dis-nn])
 
-    [http://arxiv.org/abs/2301.00736](http://arxiv.org/abs/2301.00736)
+    [http://arxiv.org/abs/2304.07235](http://arxiv.org/abs/2304.07235)
 
-    本论文提出了一种理论引导机器学习方法，采用广义贝叶斯算法进行混合移动平均场引导的时空数据建模，可以进行因果未来预测。
-
-    
-
-    受到混合移动平均场的影响，时空数据的建模是一个多功能的技巧。但是，它们的预测分布通常不可访问。在这个建模假设下，我们定义了一种新的理论引导机器学习方法，采用广义贝叶斯算法进行预测。我们采用Lipschitz预测器（例如线性模型或前馈神经网络），并通过最小化沿空间和时间维度串行相关的数据的新型PAC贝叶斯界限来确定一个随机估计值。进行因果未来预测是我们方法的一个亮点，因为它适用于具有短期和长期相关性的数据。最后，我们通过展示线性预测器和模拟STOU过程的时空数据的示例来展示学习方法的性能。
-
-    Influenced mixed moving average fields are a versatile modeling class for spatio-temporal data. However, their predictive distribution is not generally accessible. Under this modeling assumption, we define a novel theory-guided machine learning approach that employs a generalized Bayesian algorithm to make predictions. We employ a Lipschitz predictor, for example, a linear model or a feed-forward neural network, and determine a randomized estimator by minimizing a novel PAC Bayesian bound for data serially correlated along a spatial and temporal dimension. Performing causal future predictions is a highlight of our methodology as its potential application to data with short and long-range dependence. We conclude by showing the performance of the learning methodology in an example with linear predictors and simulated spatio-temporal data from an STOU process.
-    
-[^9]: 论小批量重球动量法的快速收敛性
-
-    On the fast convergence of minibatch heavy ball momentum. (arXiv:2206.07553v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2206.07553](http://arxiv.org/abs/2206.07553)
-
-    本文研究了一种随机Kaczmarz算法，使用小批量和重球动量进行加速，在二次优化问题中保持快速收敛率。
+    我们将分析和数值推导结合，在基于广义 Potts 模型的数据上，对经过改进适应这种模型的self-attention机制进行训练，发现经过修改的self-attention机制可以在极限采样下准确学习Potts模型。这个“分解”注意力机制通过从数据中学习相关属性，可以提高Transformer的性能和可解释性。
 
     
 
-    简单的随机动量方法被广泛用于机器学习优化中，但由于还没有加速的理论保证，这与它们在实践中的良好性能并不相符。本文旨在通过展示，随机重球动量在二次最优化问题中保持（确定性）重球动量的快速线性率，至少在使用足够大的批量大小进行小批量处理时。我们所研究的算法可以被解释为带小批量处理和重球动量的加速随机Kaczmarz算法。该分析依赖于仔细分解动量转移矩阵，并使用新的独立随机矩阵乘积的谱范围集中界限。我们提供了数值演示，证明了我们的界限相当尖锐。
+    Transformer 是一种革命性的神经网络，在自然语言处理和蛋白质科学方面取得了实践上的成功。它们的关键构建块是一个叫做自注意力机制的机制，它被训练用于预测句子中缺失的词。尽管Transformer在应用中取得了实践上的成功，但是自注意力机制究竟从数据中学到了什么以及它是怎么做到的还不是很清楚。本文针对从具有相互作用的位置和 Potts 颜色中提取的数据在训练的Transformer上给出了精确的分析和数值刻画。我们证明，虽然一般的transformer需要多层学习才能准确学习这个分布，但是经过小改进的自注意力机制在无限采样的极限下可以完美地学习Potts模型。我们还计算了这个修改后的自注意力机制所谓“分解”的泛化误差，并在合成数据上数值演示了我们的发现。我们的结果为解释Transformer的内在工作原理以及提高其性能和可解释性提供了新的思路。
 
-    Simple stochastic momentum methods are widely used in machine learning optimization, but their good practical performance is at odds with an absence of theoretical guarantees of acceleration in the literature. In this work, we aim to close the gap between theory and practice by showing that stochastic heavy ball momentum retains the fast linear rate of (deterministic) heavy ball momentum on quadratic optimization problems, at least when minibatching with a sufficiently large batch size. The algorithm we study can be interpreted as an accelerated randomized Kaczmarz algorithm with minibatching and heavy ball momentum. The analysis relies on carefully decomposing the momentum transition matrix, and using new spectral norm concentration bounds for products of independent random matrices. We provide numerical illustrations demonstrating that our bounds are reasonably sharp.
+    Transformers are the type of neural networks that has revolutionised natural language processing and protein science. Their key building block is a mechanism called self-attention which is trained to predict missing words in sentences. Despite the practical success of transformers in applications it remains unclear what self-attention learns from data, and how. Here, we give a precise analytical and numerical characterisation of transformers trained on data drawn from a generalised Potts model with interactions between sites and Potts colours. While an off-the-shelf transformer requires several layers to learn this distribution, we show analytically that a single layer of self-attention with a small modification can learn the Potts model exactly in the limit of infinite sampling. We show that this modified self-attention, that we call ``factored'', has the same functional form as the conditional probability of a Potts spin given the other spins, compute its generalisation error using t
+    
+[^7]: 通用方差条件下的分布式随机优化
+
+    Distributed Stochastic Optimization under a General Variance Condition. (arXiv:2301.12677v2 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2301.12677](http://arxiv.org/abs/2301.12677)
+
+    这项研究通过重新审视联邦平均算法，在最小假设下对分布式非凸目标进行了随机优化，建立了仅满足随机梯度温和条件的收敛结果。
+
+    
+
+    分布式随机优化在解决大规模机器学习问题时表现出了很高的效率。尽管已经提出并成功应用于一般实际问题的算法很多，但它们的理论保证主要依赖于随机梯度的某些有界条件，从均匀有界性到放松增长条件。此外，在代理之间表征数据异质性及其对算法性能的影响依然具有挑战性。出于这样的动机，我们重新考虑了经典的联邦平均（FedAvg）算法，以解决分布式随机优化问题，并在平滑非凸目标函数的随机梯度仅满足温和方差条件的情况下建立了收敛结果。在此条件下，还建立了接近确定的收敛到一个稳态点。此外，我们讨论了一个更具信息性的度量标准。
+
+    Distributed stochastic optimization has drawn great attention recently due to its effectiveness in solving large-scale machine learning problems. Though numerous algorithms have been proposed and successfully applied to general practical problems, their theoretical guarantees mainly rely on certain boundedness conditions on the stochastic gradients, varying from uniform boundedness to the relaxed growth condition. In addition, how to characterize the data heterogeneity among the agents and its impacts on the algorithmic performance remains challenging. In light of such motivations, we revisit the classical Federated Averaging (FedAvg) algorithm for solving the distributed stochastic optimization problem and establish the convergence results under only a mild variance condition on the stochastic gradients for smooth nonconvex objective functions. Almost sure convergence to a stationary point is also established under the condition. Moreover, we discuss a more informative measurement for
     
 

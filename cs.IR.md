@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Recommendations by Concise User Profiles from Review Text.](http://arxiv.org/abs/2311.01314) | 本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。 |
+| [^1] | [Impedance Leakage Vulnerability and its Utilization in Reverse-engineering Embedded Software.](http://arxiv.org/abs/2310.03175) | 这项研究发现了一种新的安全漏洞——阻抗泄漏，通过利用该漏洞可以从嵌入式设备中提取受保护内存中的软件指令。 |
+| [^2] | [Doubly Robust Estimator for Off-Policy Evaluation with Large Action Spaces.](http://arxiv.org/abs/2308.03443) | 本文提出了一种用于具有大动作空间的离策略评估的双重稳健估计器（MDR）。与现有的基准估计器相比，MDR能够在减小方差的同时保持无偏性，从而提高了估计的准确性。实验结果证实了MDR相对于现有估计器的优越性。 |
 
 # 详细
 
-[^1]: 通过简洁的用户档案中的评论文本进行推荐
+[^1]: 阻抗泄漏脆弱性及其在逆向工程嵌入式软件中的利用
 
-    Recommendations by Concise User Profiles from Review Text. (arXiv:2311.01314v1 [cs.IR])
+    Impedance Leakage Vulnerability and its Utilization in Reverse-engineering Embedded Software. (arXiv:2310.03175v1 [cs.CR])
 
-    [http://arxiv.org/abs/2311.01314](http://arxiv.org/abs/2311.01314)
+    [http://arxiv.org/abs/2310.03175](http://arxiv.org/abs/2310.03175)
 
-    本研究提出了一种通过用户提供的评论文本构建简洁用户档案的方法，用于支持互动非常稀疏但信息丰富的用户。实验结果表明，精心选择的文本片段可以实现最佳性能，并超过了使用ChatGPT生成的用户档案的性能。
+    这项研究发现了一种新的安全漏洞——阻抗泄漏，通过利用该漏洞可以从嵌入式设备中提取受保护内存中的软件指令。
 
     
 
-    推荐系统对于受欢迎的物品和与用户的丰富互动（喜欢、评分等）最为成功。本研究探讨了一个困难且未被充分探索的情况，即如何支持互动非常稀疏但发布信息丰富的评论文本的用户。我们的实验研究涉及两个具有这些特点的图书社区。我们设计了一个基于Transformer的表征学习框架，涵盖用户-物品互动、物品内容和用户提供的评论。为了克服互动稀疏问题，我们设计了一些技术来选择构建简洁用户档案的最具信息量的线索。通过来自Amazon和Goodreads的数据集进行的全面实验表明，精心选择的文本片段可以实现最佳性能，甚至优于ChatGPT生成的用户档案。
+    发现新的漏洞和实施安全和隐私措施对于保护系统和数据免受物理攻击至关重要。其中一种漏洞是阻抗，一种设备的固有属性，可以通过意外的侧信道泄露信息，从而带来严重的安全和隐私风险。与传统的漏洞不同，阻抗通常被忽视或仅在研究和设计中以特定频率的固定值来处理。此外，阻抗从未被探索过作为信息泄漏的源头。本文证明了嵌入式设备的阻抗并非恒定，并直接与设备上执行的程序相关。我们将此现象定义为阻抗泄漏，并将其作为一种侧信道从受保护的内存中提取软件指令。我们在ATmega328P微控制器和Artix 7 FPGA上的实验表明，阻抗侧信道
 
-    Recommender systems are most successful for popular items and users with ample interactions (likes, ratings etc.). This work addresses the difficult and underexplored case of supporting users who have very sparse interactions but post informative review texts. Our experimental studies address two book communities with these characteristics. We design a framework with Transformer-based representation learning, covering user-item interactions, item content, and user-provided reviews. To overcome interaction sparseness, we devise techniques for selecting the most informative cues to construct concise user profiles. Comprehensive experiments, with datasets from Amazon and Goodreads, show that judicious selection of text snippets achieves the best performance, even in comparison to ChatGPT-generated user profiles.
+    Discovering new vulnerabilities and implementing security and privacy measures are important to protect systems and data against physical attacks. One such vulnerability is impedance, an inherent property of a device that can be exploited to leak information through an unintended side channel, thereby posing significant security and privacy risks. Unlike traditional vulnerabilities, impedance is often overlooked or narrowly explored, as it is typically treated as a fixed value at a specific frequency in research and design endeavors. Moreover, impedance has never been explored as a source of information leakage. This paper demonstrates that the impedance of an embedded device is not constant and directly relates to the programs executed on the device. We define this phenomenon as impedance leakage and use this as a side channel to extract software instructions from protected memory. Our experiment on the ATmega328P microcontroller and the Artix 7 FPGA indicates that the impedance side 
+    
+[^2]: 用于具有大动作空间的离策略评估的双重稳健估计器
+
+    Doubly Robust Estimator for Off-Policy Evaluation with Large Action Spaces. (arXiv:2308.03443v1 [stat.ML])
+
+    [http://arxiv.org/abs/2308.03443](http://arxiv.org/abs/2308.03443)
+
+    本文提出了一种用于具有大动作空间的离策略评估的双重稳健估计器（MDR）。与现有的基准估计器相比，MDR能够在减小方差的同时保持无偏性，从而提高了估计的准确性。实验结果证实了MDR相对于现有估计器的优越性。
+
+    
+
+    本文研究了在具有大动作空间的背景下的离策略评估（OPE）。现有的基准估计器存在严重的偏差和方差折衷问题。参数化方法由于很难确定正确的模型而导致偏差，而重要性加权方法由于方差而产生问题。为了克服这些限制，本文提出了基于判别式的不良行为抑制器（MIPS）来通过对动作的嵌入来减小估计器的方差。为了使估计器更准确，我们提出了MIPS的双重稳健估计器——边际化双重稳健（MDR）估计器。理论分析表明，所提出的估计器在比MIPS更弱的假设下是无偏的，同时保持了对IPS的方差减小，这是MIPS的主要优势。经验实验证实了MDR相对于现有估计器的优越性。
+
+    We study Off-Policy Evaluation (OPE) in contextual bandit settings with large action spaces. The benchmark estimators suffer from severe bias and variance tradeoffs. Parametric approaches suffer from bias due to difficulty specifying the correct model, whereas ones with importance weight suffer from variance. To overcome these limitations, Marginalized Inverse Propensity Scoring (MIPS) was proposed to mitigate the estimator's variance via embeddings of an action. To make the estimator more accurate, we propose the doubly robust estimator of MIPS called the Marginalized Doubly Robust (MDR) estimator. Theoretical analysis shows that the proposed estimator is unbiased under weaker assumptions than MIPS while maintaining variance reduction against IPS, which was the main advantage of MIPS. The empirical experiment verifies the supremacy of MDR against existing estimators.
     
 
