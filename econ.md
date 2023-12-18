@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inference on Optimal Dynamic Policies via Softmax Approximation.](http://arxiv.org/abs/2303.04416) | 本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。 |
+| [^1] | [Metastable Hidden Markov Processes: a theory for modeling financial markets.](http://arxiv.org/abs/2310.13081) | 本文提出了一个亚稳态隐马尔可夫过程的理论，用于建模金融市场。该理论认为金融市场的状态演化可以被描述为一个互动的马尔可夫系统，并且具有亚稳态行为。这个理论为金融约束下的相互作用马尔可夫系统的发展提供了启示，可以改变金融经济学和因果因子投资的研究范式。同时，该理论强调了市场状态对投资绩效的影响，相较于其他变量对投资绩效的直接影响。 |
 
 # 详细
 
-[^1]: 通过Softmax逼近实现动态最优策略的推断
+[^1]: 亚稳态隐马尔可夫过程：建模金融市场的理论
 
-    Inference on Optimal Dynamic Policies via Softmax Approximation. (arXiv:2303.04416v2 [econ.EM] UPDATED)
+    Metastable Hidden Markov Processes: a theory for modeling financial markets. (arXiv:2310.13081v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.04416](http://arxiv.org/abs/2303.04416)
+    [http://arxiv.org/abs/2310.13081](http://arxiv.org/abs/2310.13081)
 
-    本文提出了一种简单的softmax逼近方法，可用于从离线数据中估计最优的动态治疗方案并对其进行有效推断。
+    本文提出了一个亚稳态隐马尔可夫过程的理论，用于建模金融市场。该理论认为金融市场的状态演化可以被描述为一个互动的马尔可夫系统，并且具有亚稳态行为。这个理论为金融约束下的相互作用马尔可夫系统的发展提供了启示，可以改变金融经济学和因果因子投资的研究范式。同时，该理论强调了市场状态对投资绩效的影响，相较于其他变量对投资绩效的直接影响。
 
     
 
-    从离线数据中估计最优的动态策略是动态决策制定中的一个基本问题。在因果推断的背景下，该问题被称为估计最优的动态治疗方案。即使存在大量的估计方法，构建置信区间来估计最优策略的价值及其相关的结构参数本质上更加困难，因为它涉及到未知量的非线性和非可微函数。以前的研究采用了亚样本方法，但可能会降低估计的质量。我们证明，对于一个适当增长的温度参数，最优治疗方案的简单softmax逼近可以实现对真正最优方案的有效推断。我们将我们的结果用于两期的最优动态方案，并将该方法直接推广到有限的时间段情况。我们的工作结合了半参数方法和机器学习技术。
+    在文献中已成功地利用隐马尔可夫模型对金融时间序列进行建模。在本文中，我们提出了一个理论，它在假设存在一个由状态随时间演化的市场的情况下，解释了这种建模方法，该市场由相互作用的马尔可夫系统形成，该系统具有一个由隐马尔可夫链描述的亚稳态行为。这个理论是亚稳态在物理系统建模以外的一种罕见应用，可能会激发新的具有金融约束的相互作用马尔可夫系统的发展。在金融经济学和因果因子投资的背景下，该理论意味着一个新的范式，即投资绩效的波动主要由市场状态驱动，而不是直接由其他变量引起。尽管基于因果推断的常规因果因子投资方法与所提出的理论并不完全矛盾，但后者具有解释投资绩效波动的优势。
 
-    Estimating optimal dynamic policies from offline data is a fundamental problem in dynamic decision making. In the context of causal inference, the problem is known as estimating the optimal dynamic treatment regime. Even though there exists a plethora of methods for estimation, constructing confidence intervals for the value of the optimal regime and structural parameters associated with it is inherently harder, as it involves non-linear and non-differentiable functionals of un-known quantities that need to be estimated. Prior work resorted to sub-sample approaches that can deteriorate the quality of the estimate. We show that a simple soft-max approximation to the optimal treatment regime, for an appropriately fast growing temperature parameter, can achieve valid inference on the truly optimal regime. We illustrate our result for a two-period optimal dynamic regime, though our approach should directly extend to the finite horizon case. Our work combines techniques from semi-parametric
+    The modeling of financial time series by hidden Markov models has been performed successfully in the literature. In this paper, we propose a theory that justifies such a modeling under the assumption that there exists a market formed by agents whose states evolve on time as an interacting Markov system that has a metastable behavior described by the hidden Markov chain. This theory is a rare application of metastability outside the modeling of physical systems, and may inspire the development of new interacting Markov systems with financial constraints. In the context of financial economics and causal factor investment, the theory implies a new paradigm in which fluctuations in investment performance are primarily driven by the state of the market, rather than being directly caused by other variables. Even though the usual approach to causal factor investment based on causal inference is not completely inconsistent with the proposed theory, the latter has the advantage of accounting fo
     
 

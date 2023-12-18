@@ -2,202 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Personas as a Way to Model Truthfulness in Language Models.](http://arxiv.org/abs/2310.18168) | 本研究探讨了在大型语言模型中使用人设来建模真实性的可能性。通过建模真实人设，语言模型可以将真实性推广到不同上下文中，并通过相关特征判断个体产生文本的真实性。 |
-| [^2] | [MarkQA: A large scale KBQA dataset with numerical reasoning.](http://arxiv.org/abs/2310.15517) | 本文提出了一个包含数值推理的大规模KBQA数据集MarkQA，并设计了一种新的任务NR-KBQA，该任务要求进行多跳推理和数值推理。实验结果表明，KBQA中的复杂数值推理面临巨大挑战。 |
-| [^3] | [Zero-shot Faithfulness Evaluation for Text Summarization with Foundation Language Model.](http://arxiv.org/abs/2310.11648) | 本文提出了使用基础语言模型进行零样本忠实性评估的方法，并引入了一种新的度量标准FFLM。实验证明，FFLM在不一致性检测和忠实性评级方面表现优异，并且参数数量减少了24倍。 |
-| [^4] | [Recovering from Privacy-Preserving Masking with Large Language Models.](http://arxiv.org/abs/2309.08628) | 本文利用大型语言模型（LLM）探索了替换标识信息的方法，并在下游语言建模任务上进行了评估。实验结果表明，使用混淆语料库训练的模型能够达到可比较的性能。 |
-| [^5] | [An Anchor Learning Approach for Citation Field Learning.](http://arxiv.org/abs/2309.03559) | 该论文介绍了一种用于引文字段学习的锚定学习方法，即CIFAL算法，通过利用锚定学习从不同引文样式的数据中捕捉引文模式，提高了引文字段学习性能，取得了2.83%的字段级F1分数提升。 |
-| [^6] | [ZYN: Zero-Shot Reward Models with Yes-No Questions.](http://arxiv.org/abs/2308.06385) | 本文提出了ZYN框架，通过使用是非问题作为奖励模型的提示，以及增强学习来微调语言模型，使其生成的文本与人类操作者的偏好对齐。实验证据表明该方法在不同领域的文本生成任务中具有很好的效果，包括解毒、情感优化和个性化提示生成器等。 |
-| [^7] | [Continual Dialogue State Tracking via Example-Guided Question Answering.](http://arxiv.org/abs/2305.13721) | 本文建议将对话状态跟踪重构为由例子引导的粒度问题回答任务，以最小化服务之间的任务转移，获得持续的学习效益。通过结合简单的持续学习策略，可以在基准数据集上获得最先进的性能。 |
-| [^8] | [Large Language Models can be Guided to Evade AI-Generated Text Detection.](http://arxiv.org/abs/2305.10847) | 本文揭示了大型语言模型可以通过精心设计的提示语来有效规避现有的文本检测系统，证明了这些检测器的脆弱性。 |
-| [^9] | [Optimal inference of a generalised Potts model by single-layer transformers with factored attention.](http://arxiv.org/abs/2304.07235) | 我们将分析和数值推导结合，在基于广义 Potts 模型的数据上，对经过改进适应这种模型的self-attention机制进行训练，发现经过修改的self-attention机制可以在极限采样下准确学习Potts模型。这个“分解”注意力机制通过从数据中学习相关属性，可以提高Transformer的性能和可解释性。 |
-| [^10] | [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering.](http://arxiv.org/abs/2303.01903) | 本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。 |
-| [^11] | [Double Permutation Equivariance for Knowledge Graph Completion.](http://arxiv.org/abs/2302.01313) | 本研究提出了双排列等变性的KG表示方法，可以使神经网络在KG中执行复杂的逻辑推理任务，并在多个归纳KG完成任务中实现了最先进的Hits@10测试准确率。双排列等变性在KG中开辟了新的研究方向。 |
-| [^12] | [AmbiFC: Fact-Checking Ambiguous Claims with Evidence.](http://arxiv.org/abs/2104.00640) | 本研究提出了一个大规模的事实核查数据集AmbiFC，用于处理现实场景中的含糊性声明核查问题，通过细粒度的证据注释和分析，提出了一种适用于含糊性声明的软标签证据核查方法，并且在注释人员争议分析中发现了相关性。 |
-| [^13] | [Learning From How Humans Correct.](http://arxiv.org/abs/2102.00225) | 本研究提出了一种从人类矫正中学习的方法。通过标注数据中的噪声数据，收集纠错信息，并将其注入至深度学习模型中，成功将文本分类准确度提升了1.7个百分点。 |
+| [^1] | [Knowledge Editing for Large Language Models: A Survey.](http://arxiv.org/abs/2310.16218) | 大型语言模型(LLMs)在学术和工业领域具有巨大潜力。本文综述了LLMs的知识编辑问题，强调了需要开发有效和高效的技术来更新预训练LLMs以纳入新知识的重要性。 |
+| [^2] | [SteloCoder: a Decoder-Only LLM for Multi-Language to Python Code Translation.](http://arxiv.org/abs/2310.15539) | SteloCoder是一个仅解码的基于StarCoder的LLM，在多语言到Python代码翻译中取得了显著的性能提升。它采用Mixture-of-Experts（MoE）技术和门控网络，通过对StarCoder进行微调获得专家，并使用低秩自适应方法（LoRA）技术来限制每个专家的大小。 |
+| [^3] | [SeqXGPT: Sentence-Level AI-Generated Text Detection.](http://arxiv.org/abs/2310.08903) | 本文介绍了SeqXGPT，这是一种句子级AI生成文本检测方法。通过利用白盒LLMs的对数概率列表作为特征，SeqXGPT在句子级别的AIGT检测中取得了良好的效果。 |
+| [^4] | [Dementia Assessment Using Mandarin Speech with an Attention-based Speech Recognition Encoder.](http://arxiv.org/abs/2310.03985) | 本文提出了一个基于注意力的语音识别模型，用于构建一个普通话言语痴呆评估系统。通过训练模型并提取编码器，实现了在阿尔茨海默病检测和临床痴呆评分预测方面的显著提升。 |
+| [^5] | [C-Pack: Packaged Resources To Advance General Chinese Embedding.](http://arxiv.org/abs/2309.07597) | C-Pack是一套推进普通汉语嵌入领域的资源，包括全面汉语文本嵌入基准、大规模文本嵌入数据集和涵盖多个尺寸的嵌入模型系列。该资源集在C-MTEB基准上实现了最高+10%的表现，并通过整合和优化一套训练方法进一步提升了效果。此外，C-Pack还发布了英语文本嵌入数据和模型，实现了最先进的性能。该资源集可公开获取。 |
+| [^6] | [Say Goodbye to RNN-T Loss: A Novel CIF-based Transducer Architecture for Automatic Speech Recognition.](http://arxiv.org/abs/2307.14132) | 本文提出了一种名为CIF-Transducer的新型模型，将连续积分和火机制与RNN-T模型结合起来，实现了高效的对齐，并放弃了RNN-T Loss，从而减少了计算量，并使预测网络发挥更重要的作用。实验证明CIF-T在自动语音识别中取得了最先进的结果。 |
+| [^7] | [Personality testing of GPT-3: Limited temporal reliability, but highlighted social desirability of GPT-3's personality instruments results.](http://arxiv.org/abs/2306.04308) | 本研究探讨了GPT-3 Davinci-003聊天机器人的人格特质，发现其具有良好的社交渴望和亲社会特质，但在不同时间的一致性存在限制。 |
+| [^8] | [LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers.](http://arxiv.org/abs/2305.18396) | 本文中，研究人员通过使用隐私计算友好的近似方法替换transformer架构中计算和通信密集的运算符，实现了大幅降低私有推断成本的效果，并在保持准确性的前提下实现了计算加速和通信开销降低。 |
 
 # 详细
 
-[^1]: 使用人设来建模语言模型中的真实性
+[^1]: 大型语言模型的知识编辑：一项综述
 
-    Personas as a Way to Model Truthfulness in Language Models. (arXiv:2310.18168v1 [cs.CL])
+    Knowledge Editing for Large Language Models: A Survey. (arXiv:2310.16218v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.18168](http://arxiv.org/abs/2310.18168)
+    [http://arxiv.org/abs/2310.16218](http://arxiv.org/abs/2310.16218)
 
-    本研究探讨了在大型语言模型中使用人设来建模真实性的可能性。通过建模真实人设，语言模型可以将真实性推广到不同上下文中，并通过相关特征判断个体产生文本的真实性。
-
-    
-
-    大型语言模型使用互联网上的大量文本进行训练，这些文本中既包含了事实，也包含了误导性的信息。语言模型能够从这些相互矛盾的数据中辨别真实与虚假吗？基于语言模型能够建模不同产生文本的个体这一观点，我们假设它们可以通过建模真实人设来聚类真实文本：一群很可能产生真实文本并具有相似特征的个体。例如，可信源如维基百科和科学期刊通常使用正式的写作风格并提出一致的主张。通过建模这一人设，语言模型可以将真实性推广到每个个体生成训练文本的特定上下文之外。例如，模型可以推断出“维基百科”这个个体在“科学”生成的主题上会表现出真实性，因为它们共享一个人设。我们首先通过两个观察结果为人设假设提供了证据：（1）我们可以探测模型在不同领域中判断真实性的能力；（2）模型可以从相关特征中推测个体产生文本的真实性。
-
-    Large Language Models are trained on vast amounts of text from the internet, which contains both factual and misleading information about the world. Can language models discern truth from falsehood in this contradicting data? Expanding on the view that LLMs can model different agents producing the corpora, we hypothesize that they can cluster truthful text by modeling a truthful persona: a group of agents that are likely to produce truthful text and share similar features. For example, trustworthy sources like Wikipedia and Science usually use formal writing styles and make consistent claims. By modeling this persona, LLMs can generalize truthfulness beyond the specific contexts in which each agent generated the training text. For example, the model can infer that the agent "Wikipedia" will behave truthfully on topics that were only generated by "Science" because they share a persona. We first show evidence for the persona hypothesis via two observations: (1) we can probe whether a mod
-    
-[^2]: MarkQA: 一个包含数值推理的大规模KBQA数据集
-
-    MarkQA: A large scale KBQA dataset with numerical reasoning. (arXiv:2310.15517v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.15517](http://arxiv.org/abs/2310.15517)
-
-    本文提出了一个包含数值推理的大规模KBQA数据集MarkQA，并设计了一种新的任务NR-KBQA，该任务要求进行多跳推理和数值推理。实验结果表明，KBQA中的复杂数值推理面临巨大挑战。
+    大型语言模型(LLMs)在学术和工业领域具有巨大潜力。本文综述了LLMs的知识编辑问题，强调了需要开发有效和高效的技术来更新预训练LLMs以纳入新知识的重要性。
 
     
 
-    虽然知识库问答（KBQA）在解决事实型问题方面取得了进展，但是涉及数值推理的KBQA相对较少研究。本文针对KBQA中复杂的数值推理问题，提出了一个新的任务，NR-KBQA，它需要进行多跳推理和数值推理。我们设计了一种以Python格式的逻辑形式PyQL来表示数值推理问题的推理过程。为了便于NR-KBQA的开发，我们提供了一个名为MarkQA的大规模数据集，该数据集是从一小组种子自动构建的。MarkQA中的每个问题都配备了与之对应的SPARQL查询，以及以QDMR格式和PyQL程序表示的逐步推理过程。一些最先进的QA方法在MarkQA上的实验结果表明，KBQA中的复杂数值推理面临着巨大的挑战。
+    大型语言模型(LLMs)近期以其出色的理解、分析和生成文本的能力，根据其广博的知识和推理能力，改变了学术和工业领域的格局。然而，LLMs的一个主要缺点是它们在预训练时需要大量计算资源，因为其参数数量前所未有。当需要频繁引入新知识到预训练模型中时，这个缺点更加显著。因此，开发有效和高效的技术来更新预训练LLMs是必不可少的。传统方法是通过直接微调将新知识编码到预训练LLMs中。然而，简单地重新训练LLMs可能计算资源密集，并且存在将与模型更新无关的有价值的预训练知识退化的风险。最近，基于知识的模型编辑(KME)引起了越来越多的关注，旨在精确修改LLMs以纳入特定的知识。
 
-    While question answering over knowledge bases (KBQA) has shown progress in addressing factoid questions, KBQA with numerical reasoning remains relatively unexplored. In this paper, we focus on the complex numerical reasoning in KBQA and propose a new task, NR-KBQA, which necessitates the ability to perform both multi-hop reasoning and numerical reasoning. We design a logic form in Python format called PyQL to represent the reasoning process of numerical reasoning questions. To facilitate the development of NR-KBQA, we present a large dataset called MarkQA, which is automatically constructed from a small set of seeds. Each question in MarkQA is equipped with its corresponding SPARQL query, alongside the step-by-step reasoning process in the QDMR format and PyQL program. Experimental results of some state-of-the-art QA methods on the MarkQA show that complex numerical reasoning in KBQA faces great challenges.
+    Large language models (LLMs) have recently transformed both the academic and industrial landscapes due to their remarkable capacity to understand, analyze, and generate texts based on their vast knowledge and reasoning ability. Nevertheless, one major drawback of LLMs is their substantial computational cost for pre-training due to their unprecedented amounts of parameters. The disadvantage is exacerbated when new knowledge frequently needs to be introduced into the pre-trained model. Therefore, it is imperative to develop effective and efficient techniques to update pre-trained LLMs. Traditional methods encode new knowledge in pre-trained LLMs through direct fine-tuning. However, naively re-training LLMs can be computationally intensive and risks degenerating valuable pre-trained knowledge irrelevant to the update in the model. Recently, Knowledge-based Model Editing (KME) has attracted increasing attention, which aims to precisely modify the LLMs to incorporate specific knowledge, wit
     
-[^3]: 用基础语言模型进行零样本忠实性评估的文本摘要研究
+[^2]: SteloCoder:一种仅解码的用于多语言到Python代码翻译的LLM
 
-    Zero-shot Faithfulness Evaluation for Text Summarization with Foundation Language Model. (arXiv:2310.11648v1 [cs.CL])
+    SteloCoder: a Decoder-Only LLM for Multi-Language to Python Code Translation. (arXiv:2310.15539v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.11648](http://arxiv.org/abs/2310.11648)
+    [http://arxiv.org/abs/2310.15539](http://arxiv.org/abs/2310.15539)
 
-    本文提出了使用基础语言模型进行零样本忠实性评估的方法，并引入了一种新的度量标准FFLM。实验证明，FFLM在不一致性检测和忠实性评级方面表现优异，并且参数数量减少了24倍。
-
-    
-
-    尽管自然语言生成取得了巨大的进步，但摘要模型仍然存在忠实性问题。先前的研究要么使用在其他任务上训练的模型或领域内的合成数据来评估忠实性，要么使用类似ChatGPT这样的大型模型进行评估。本文提出使用一个中等大小的基础语言模型进行零样本忠实性评估。我们引入了一种新的度量标准FFLM，它是基于概率变化的组合，这种组合是基于一个观点：在输出的文本前加上与输出一致的一段文本将增加预测输出的概率。实验证明，FFLM在不一致性检测和忠实性评级上与ChatGPT相比表现出色，且参数数量减少24倍。FFLM还在其他强基准上取得了改进。
-
-    Despite tremendous improvements in natural language generation, summarization models still suffer from the unfaithfulness issue. Previous work evaluates faithfulness either using models trained on the other tasks or in-domain synthetic data, or prompting a large model such as ChatGPT. This paper proposes to do zero-shot faithfulness evaluation simply with a moderately-sized foundation language model. We introduce a new metric FFLM, which is a combination of probability changes based on the intuition that prefixing a piece of text that is consistent with the output will increase the probability of predicting the output. Experiments show that FFLM performs competitively with or even outperforms ChatGPT on both inconsistency detection and faithfulness rating with 24x fewer parameters. FFLM also achieves improvements over other strong baselines.
-    
-[^4]: 通过大型语言模型进行隐私保护掩码的恢复
-
-    Recovering from Privacy-Preserving Masking with Large Language Models. (arXiv:2309.08628v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.08628](http://arxiv.org/abs/2309.08628)
-
-    本文利用大型语言模型（LLM）探索了替换标识信息的方法，并在下游语言建模任务上进行了评估。实验结果表明，使用混淆语料库训练的模型能够达到可比较的性能。
+    SteloCoder是一个仅解码的基于StarCoder的LLM，在多语言到Python代码翻译中取得了显著的性能提升。它采用Mixture-of-Experts（MoE）技术和门控网络，通过对StarCoder进行微调获得专家，并使用低秩自适应方法（LoRA）技术来限制每个专家的大小。
 
     
 
-    模型适应对于处理代理训练数据和实际用户数据之间的差异非常重要。为了有效地进行适应，用户的文本数据通常存储在服务器或本地设备上，下游的自然语言处理模型可以使用这些领域内的数据进行直接训练。然而，这可能会引起隐私和安全问题，因为存在向对手泄露用户信息的额外风险。最近，人们开始探索使用通用标记替换文本中的标识信息。在这项工作中，我们利用大型语言模型（LLM）来建议替换掩码标记的方法，并在下游语言建模任务上评估其效果。具体而言，我们提出了多种基于预训练和微调的LLM方法，并在不同数据集上进行实证研究以比较这些方法。实验结果表明，在混淆语料库上训练的模型能够达到可比较的性能。
+    最近关注大规模语言模型（LLM），StarCoder和Code Llama分别展示了在代码生成方面的出色性能。然而，在代码翻译功能上仍然需要改进和有效训练技术。为了解决这个问题，我们介绍了SteloCoder，一种仅解码的基于StarCoder的LLM，专为多编程语言到Python代码翻译而设计。具体而言，SteloCoder实现了C ++，C＃，JavaScript，Java或PHP到Python代码翻译，而无需指定输入编程语言。我们通过引入专家组混合（Mixture-of-Experts，MoE）技术和一个控制多任务的门控网络来修改StarCoder模型架构。我们通过对StarCoder进行微调来获得专家。具体而言，我们使用了低秩自适应方法（Low-Rank Adaptive Method，LoRA）技术，将每个专家的大小限制为StarCoder参数数量的仅0.06％。同时，为了增强tr
 
-    Model adaptation is crucial to handle the discrepancy between proxy training data and actual users data received. To effectively perform adaptation, textual data of users is typically stored on servers or their local devices, where downstream natural language processing (NLP) models can be directly trained using such in-domain data. However, this might raise privacy and security concerns due to the extra risks of exposing user information to adversaries. Replacing identifying information in textual data with a generic marker has been recently explored. In this work, we leverage large language models (LLMs) to suggest substitutes of masked tokens and have their effectiveness evaluated on downstream language modeling tasks. Specifically, we propose multiple pre-trained and fine-tuned LLM-based approaches and perform empirical studies on various datasets for the comparison of these methods. Experimental results show that models trained on the obfuscation corpora are able to achieve compar
+    With the recent focus on Large Language Models (LLMs), both StarCoder (Li et al., 2023) and Code Llama (Rozi\`ere et al., 2023) have demonstrated remarkable performance in code generation. However, there is still a need for improvement in code translation functionality with efficient training techniques. In response to this, we introduce SteloCoder, a decoder-only StarCoder-based LLM designed specifically for multi-programming language-to-Python code translation. In particular, SteloCoder achieves C++, C#, JavaScript, Java, or PHP-to-Python code translation without specifying the input programming language. We modified StarCoder model architecture by incorporating a Mixture-of-Experts (MoE) technique featuring five experts and a gating network for multi-task handling. Experts are obtained by StarCoder fine-tuning. Specifically, we use a Low-Rank Adaptive Method (LoRA) technique, limiting each expert size as only 0.06% of number of StarCoder's parameters. At the same time, to enhance tr
     
-[^5]: 一种用于引文字段学习的锚定学习方法
+[^3]: SeqXGPT: 句子级AI生成文本检测
 
-    An Anchor Learning Approach for Citation Field Learning. (arXiv:2309.03559v1 [cs.CL])
+    SeqXGPT: Sentence-Level AI-Generated Text Detection. (arXiv:2310.08903v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.03559](http://arxiv.org/abs/2309.03559)
+    [http://arxiv.org/abs/2310.08903](http://arxiv.org/abs/2310.08903)
 
-    该论文介绍了一种用于引文字段学习的锚定学习方法，即CIFAL算法，通过利用锚定学习从不同引文样式的数据中捕捉引文模式，提高了引文字段学习性能，取得了2.83%的字段级F1分数提升。
-
-    
-
-    引文字段学习是将引文字符串分割为感兴趣的字段，如作者、标题和场所。从引文中提取这些字段对于引文索引、研究者个人资料分析等非常重要。用户生成的资源，如学术主页和个人简历，提供了丰富的引文字段信息。然而，由于引文样式不一致、句法不完整和训练数据不足，从这些资源中提取字段是具有挑战性的。为了解决这些问题，我们提出了一种新颖的算法CIFAL（通过锚定学习进行引文字段学习），以提高引文字段学习性能。CIFAL利用锚定学习，它对于任何预训练语言模型都是模型不可知的，帮助捕捉不同引文样式的引文模式。实验证明，CIFAL在引文字段学习方面优于最先进的方法，在字段级F1分数上取得了2.83%的提升。大量的
-
-    Citation field learning is to segment a citation string into fields of interest such as author, title, and venue. Extracting such fields from citations is crucial for citation indexing, researcher profile analysis, etc. User-generated resources like academic homepages and Curriculum Vitae, provide rich citation field information. However, extracting fields from these resources is challenging due to inconsistent citation styles, incomplete sentence syntax, and insufficient training data. To address these challenges, we propose a novel algorithm, CIFAL (citation field learning by anchor learning), to boost the citation field learning performance. CIFAL leverages the anchor learning, which is model-agnostic for any Pre-trained Language Model, to help capture citation patterns from the data of different citation styles. The experiments demonstrate that CIFAL outperforms state-of-the-art methods in citation field learning, achieving a 2.83% improvement in field-level F1-scores. Extensive an
-    
-[^6]: ZYN：零式奖励模型与是非问题
-
-    ZYN: Zero-Shot Reward Models with Yes-No Questions. (arXiv:2308.06385v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.06385](http://arxiv.org/abs/2308.06385)
-
-    本文提出了ZYN框架，通过使用是非问题作为奖励模型的提示，以及增强学习来微调语言模型，使其生成的文本与人类操作者的偏好对齐。实验证据表明该方法在不同领域的文本生成任务中具有很好的效果，包括解毒、情感优化和个性化提示生成器等。
+    本文介绍了SeqXGPT，这是一种句子级AI生成文本检测方法。通过利用白盒LLMs的对数概率列表作为特征，SeqXGPT在句子级别的AIGT检测中取得了良好的效果。
 
     
 
-    在这项工作中，我们解决了将语言模型的文本生成定向于期望行为的问题，将生成的文本与人类操作者的偏好对齐。我们建议使用另一个语言模型作为批评者，通过一个表示用户偏好的是非问题的提示，以零式方式作为奖励模型，而不需要进一步标记数据。这种零式奖励模型为进一步微调基本语言模型提供了学习信号，使用增强学习，就像在RLAIF中一样；然而我们的方法在其他上下文中也是兼容的，例如质量多样性搜索。通过在与文本生成相关的不同领域进行实验，包括解毒、优化电影评论的情感或任何其他属性、引导模型可能具有的关于特定主题的观点，以及个性化的文本到图像任务的提示生成器，提供了对所提出的ZYN框架能力的大量证据。代码将在\url处发布。
+    广泛应用的大型语言模型(LLMs)可以生成类似人类的内容，引发了对LLMs滥用的担忧。因此，建立强大的AI生成文本（AIGT）检测器非常重要。目前的工作只考虑文档级别的AIGT检测，因此在本文中，我们首先通过合成一个数据集，该数据集包含由LLMs修改过的句子和由人类编写的句子，引入了一个句子级别的检测挑战。然后，我们提出了SeqXGPT，一种利用白盒LLMs的对数概率列表作为句子级AIGT检测特征的新方法。这些特征类似于语音处理中的“波浪”，LLMs无法研究其组成。因此，我们基于卷积和自注意力网络构建了SeqXGPT。我们在句子和文档级别的检测挑战中进行了测试。实验结果显示之前的方法在句子级别的检测中存在困难。
 
-    In this work, we address the problem of directing the text generations of a LLM towards a desired behavior, aligning the generated text with the preferences of the human operator. We propose using another language model as a critic, reward model in a zero-shot way thanks to the prompt of a Yes-No question that represents the user preferences, without requiring further labeled data. This zero-shot reward model provides the learning signal to further fine-tune the base LLM using reinforcement learning, as in RLAIF; yet our approach is also compatible in other contexts such as quality-diversity search. Extensive evidence of the capabilities of the proposed ZYN framework is provided through experiments in different domains related to text generation, including detoxification; optimizing sentiment of movie reviews, or any other attribute; steering the opinion about a particular topic the model may have; and personalizing prompt generators for text-to-image tasks. Code to be released at \url
+    Widely applied large language models (LLMs) can generate human-like content, raising concerns about the abuse of LLMs. Therefore, it is important to build strong AI-generated text (AIGT) detectors. Current works only consider document-level AIGT detection, therefore, in this paper, we first introduce a sentence-level detection challenge by synthesizing a dataset that contains documents that are polished with LLMs, that is, the documents contain sentences written by humans and sentences modified by LLMs. Then we propose \textbf{Seq}uence \textbf{X} (Check) \textbf{GPT}, a novel method that utilizes log probability lists from white-box LLMs as features for sentence-level AIGT detection. These features are composed like \textit{waves} in speech processing and cannot be studied by LLMs. Therefore, we build SeqXGPT based on convolution and self-attention networks. We test it in both sentence and document-level detection challenges. Experimental results show that previous methods struggle in
     
-[^7]: 基于示例引导问答的持续对话状态跟踪
+[^4]: 使用基于注意力的语音识别编码器进行普通话言语的痴呆评估
 
-    Continual Dialogue State Tracking via Example-Guided Question Answering. (arXiv:2305.13721v1 [cs.CL])
+    Dementia Assessment Using Mandarin Speech with an Attention-based Speech Recognition Encoder. (arXiv:2310.03985v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.13721](http://arxiv.org/abs/2305.13721)
+    [http://arxiv.org/abs/2310.03985](http://arxiv.org/abs/2310.03985)
 
-    本文建议将对话状态跟踪重构为由例子引导的粒度问题回答任务，以最小化服务之间的任务转移，获得持续的学习效益。通过结合简单的持续学习策略，可以在基准数据集上获得最先进的性能。
-
-    
-
-    对话系统需要不断更新以适应新服务，但是简单地使用新服务的数据进行训练会降低先前学习的服务的性能。本文发现，对话状态跟踪(DST)是一个简单的自然语言理解任务，我们建议将其重构为一组由例子引导的粒度问题回答任务，以最小化服务之间的任务转移，从而获得持续的学习效益。我们的方法可以减轻特定服务的记忆负担，并教会模型将所给问题和示例用于从对话中提取必要信息。我们发现，一个只有6000万个参数的模型可以通过学习从检索器获取的上下文示例获得巨大的提升。将我们的方法与简单的持续学习策略相结合，可以在基准数据集上获得最先进的性能，证明了我们方法的有效性。
-
-    Dialogue systems are frequently updated to accommodate new services, but naively updating them by continually training with data for new services in diminishing performance on previously learnt services. Motivated by the insight that dialogue state tracking (DST), a crucial component of dialogue systems that estimates the user's goal as a conversation proceeds, is a simple natural language understanding task, we propose reformulating it as a bundle of granular example-guided question answering tasks to minimize the task shift between services and thus benefit continual learning. Our approach alleviates service-specific memorization and teaches a model to contextualize the given question and example to extract the necessary information from the conversation. We find that a model with just 60M parameters can achieve a significant boost by learning to learn from in-context examples retrieved by a retriever trained to identify turns with similar dialogue state changes. Combining our method
-    
-[^8]: 大型语言模型可以被引导来规避AI生成的文本检测
-
-    Large Language Models can be Guided to Evade AI-Generated Text Detection. (arXiv:2305.10847v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.10847](http://arxiv.org/abs/2305.10847)
-
-    本文揭示了大型语言模型可以通过精心设计的提示语来有效规避现有的文本检测系统，证明了这些检测器的脆弱性。
+    本文提出了一个基于注意力的语音识别模型，用于构建一个普通话言语痴呆评估系统。通过训练模型并提取编码器，实现了在阿尔茨海默病检测和临床痴呆评分预测方面的显著提升。
 
     
 
-    大型语言模型在包括论文写作和问答等多个任务中展现出了出色的表现。然而，必须解决这些模型潜在的误用问题，否则可能导致抄袭和垃圾信息等不良后果。本研究揭示，通过精心设计的提示语，LLMs可以有效地规避检测系统。我们提出了一种新颖的基于替换的上下文示例优化方法（SICO），用于自动生成这种提示语。在三个现实任务中，LLMs可能被误用，在SICO的帮助下，ChatGPT成功地规避了六项现有的检测器，平均导致0.54的AUC下降。令人惊讶的是，在大多数情况下，这些检测器的表现甚至比随机分类器还要差。这些结果坚定地揭示了现有检测器的脆弱性。
+    痴呆诊断需要一系列不同的测试方法，这是复杂且耗时的。痴呆的早期检测非常重要，因为它可以防止病情进一步恶化。本文利用语音识别模型构建了一个针对普通话使用者在图片描述任务中的痴呆评估系统。通过在与真实世界情境非常相似的语音数据上训练基于注意力的语音识别模型，我们显著提高了模型的识别能力。随后，我们从语音识别模型中提取编码器，并添加了一个线性层用于痴呆评估。我们收集了来自99名被试的普通话语音数据，并从当地医院获取了他们的临床评估数据。在阿尔茨海默病检测中，我们实现了92.04%的准确性，并在临床痴呆评分预测中达到了9%的平均绝对误差。
 
-    Large Language Models (LLMs) have demonstrated exceptional performance in a variety of tasks, including essay writing and question answering. However, it is crucial to address the potential misuse of these models, which can lead to detrimental outcomes such as plagiarism and spamming. Recently, several detectors have been proposed, including fine-tuned classifiers and various statistical methods. In this study, we reveal that with the aid of carefully crafted prompts, LLMs can effectively evade these detection systems. We propose a novel Substitution-based In-Context example Optimization method (SICO) to automatically generate such prompts. On three real-world tasks where LLMs can be misused, SICO successfully enables ChatGPT to evade six existing detectors, causing a significant 0.54 AUC drop on average. Surprisingly, in most cases these detectors perform even worse than random classifiers. These results firmly reveal the vulnerability of existing detectors. Finally, the strong perfor
+    Dementia diagnosis requires a series of different testing methods, which is complex and time-consuming. Early detection of dementia is crucial as it can prevent further deterioration of the condition. This paper utilizes a speech recognition model to construct a dementia assessment system tailored for Mandarin speakers during the picture description task. By training an attention-based speech recognition model on voice data closely resembling real-world scenarios, we have significantly enhanced the model's recognition capabilities. Subsequently, we extracted the encoder from the speech recognition model and added a linear layer for dementia assessment. We collected Mandarin speech data from 99 subjects and acquired their clinical assessments from a local hospital. We achieved an accuracy of 92.04% in Alzheimer's disease detection and a mean absolute error of 9% in clinical dementia rating score prediction.
     
-[^9]: 利用分解注意力机制的单层Transformer对广义Potts模型进行最优推断
+[^5]: C-Pack: 推进普通汉语嵌入的打包资源
 
-    Optimal inference of a generalised Potts model by single-layer transformers with factored attention. (arXiv:2304.07235v1 [cond-mat.dis-nn])
+    C-Pack: Packaged Resources To Advance General Chinese Embedding. (arXiv:2309.07597v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.07235](http://arxiv.org/abs/2304.07235)
+    [http://arxiv.org/abs/2309.07597](http://arxiv.org/abs/2309.07597)
 
-    我们将分析和数值推导结合，在基于广义 Potts 模型的数据上，对经过改进适应这种模型的self-attention机制进行训练，发现经过修改的self-attention机制可以在极限采样下准确学习Potts模型。这个“分解”注意力机制通过从数据中学习相关属性，可以提高Transformer的性能和可解释性。
-
-    
-
-    Transformer 是一种革命性的神经网络，在自然语言处理和蛋白质科学方面取得了实践上的成功。它们的关键构建块是一个叫做自注意力机制的机制，它被训练用于预测句子中缺失的词。尽管Transformer在应用中取得了实践上的成功，但是自注意力机制究竟从数据中学到了什么以及它是怎么做到的还不是很清楚。本文针对从具有相互作用的位置和 Potts 颜色中提取的数据在训练的Transformer上给出了精确的分析和数值刻画。我们证明，虽然一般的transformer需要多层学习才能准确学习这个分布，但是经过小改进的自注意力机制在无限采样的极限下可以完美地学习Potts模型。我们还计算了这个修改后的自注意力机制所谓“分解”的泛化误差，并在合成数据上数值演示了我们的发现。我们的结果为解释Transformer的内在工作原理以及提高其性能和可解释性提供了新的思路。
-
-    Transformers are the type of neural networks that has revolutionised natural language processing and protein science. Their key building block is a mechanism called self-attention which is trained to predict missing words in sentences. Despite the practical success of transformers in applications it remains unclear what self-attention learns from data, and how. Here, we give a precise analytical and numerical characterisation of transformers trained on data drawn from a generalised Potts model with interactions between sites and Potts colours. While an off-the-shelf transformer requires several layers to learn this distribution, we show analytically that a single layer of self-attention with a small modification can learn the Potts model exactly in the limit of infinite sampling. We show that this modified self-attention, that we call ``factored'', has the same functional form as the conditional probability of a Potts spin given the other spins, compute its generalisation error using t
-    
-[^10]: 用答案启发式方式促使大型语言模型解决基于知识的视觉问答问题
-
-    Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering. (arXiv:2303.01903v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2303.01903](http://arxiv.org/abs/2303.01903)
-
-    本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。
+    C-Pack是一套推进普通汉语嵌入领域的资源，包括全面汉语文本嵌入基准、大规模文本嵌入数据集和涵盖多个尺寸的嵌入模型系列。该资源集在C-MTEB基准上实现了最高+10%的表现，并通过整合和优化一套训练方法进一步提升了效果。此外，C-Pack还发布了英语文本嵌入数据和模型，实现了最先进的性能。该资源集可公开获取。
 
     
 
-    基于知识的视觉问答需要超出图像范围的外部知识来回答问题。早期的研究从显式知识库（KBs）检索所需的知识，这经常会引入与问题无关的信息，从而限制了模型的性能。最近的研究试图将大型语言模型（即GPT-3）作为隐含式知识引擎来获取回答所需的必要知识。尽管这些方法取得了令人鼓舞的结果，但我们认为它们还没有充分发挥GPT-3的能力，因为提供的输入信息仍然不足。在本文中，我们提出了Prophet——一个概念上简单的框架，旨在通过回答启发式方式，促使GPT-3解决基于知识的VQA问题。具体来说，我们首先在特定的基于知识的VQA数据集上训练一个纯VQA模型，而不使用外部知识。之后，我们从模型中提取了两种互补的答案启发式：答案候选项。
+    我们介绍了C-Pack，这是一套显著推进普通汉语嵌入领域的资源。C-Pack包括三个关键资源。1）C-MTEB是一个涵盖6个任务和35个数据集的全面汉语文本嵌入基准。2）C-MTP是一个从标记和未标记的汉语语料库中策划的大规模文本嵌入数据集，用于训练嵌入模型。3）C-TEM是一个涵盖多个尺寸的嵌入模型系列。我们的模型在C-MTEB上的表现优于之前的所有汉语文本嵌入达到了发布时的最高+10%。我们还整合和优化了C-TEM的整套训练方法。除了我们关于普通汉语嵌入的资源外，我们还发布了我们的英语文本嵌入数据和模型。这些英语模型在MTEB基准上实现了最先进的性能；与此同时，我们发布的英语数据比汉语数据大2倍。所有这些资源都可以在https://github.com/FlagOpen/FlagEmbedding上公开获取。
 
-    Knowledge-based visual question answering (VQA) requires external knowledge beyond the image to answer the question. Early studies retrieve required knowledge from explicit knowledge bases (KBs), which often introduces irrelevant information to the question, hence restricting the performance of their models. Recent works have sought to use a large language model (i.e., GPT-3) as an implicit knowledge engine to acquire the necessary knowledge for answering. Despite the encouraging results achieved by these methods, we argue that they have not fully activated the capacity of GPT-3 as the provided input information is insufficient. In this paper, we present Prophet -- a conceptually simple framework designed to prompt GPT-3 with answer heuristics for knowledge-based VQA. Specifically, we first train a vanilla VQA model on a specific knowledge-based VQA dataset without external knowledge. After that, we extract two types of complementary answer heuristics from the model: answer candidates 
+    We introduce C-Pack, a package of resources that significantly advance the field of general Chinese embeddings. C-Pack includes three critical resources. 1) C-MTEB is a comprehensive benchmark for Chinese text embeddings covering 6 tasks and 35 datasets. 2) C-MTP is a massive text embedding dataset curated from labeled and unlabeled Chinese corpora for training embedding models. 3) C-TEM is a family of embedding models covering multiple sizes. Our models outperform all prior Chinese text embeddings on C-MTEB by up to +10% upon the time of the release. We also integrate and optimize the entire suite of training methods for C-TEM. Along with our resources on general Chinese embedding, we release our data and models for English text embeddings. The English models achieve state-of-the-art performance on MTEB benchmark; meanwhile, our released English data is 2 times larger than the Chinese data. All these resources are made publicly available at https://github.com/FlagOpen/FlagEmbedding.
     
-[^11]: 双排列等变性在知识图谱补全中的应用
+[^6]: 告别RNN-T Loss：一种新的基于CIF的转录器架构用于自动语音识别
 
-    Double Permutation Equivariance for Knowledge Graph Completion. (arXiv:2302.01313v2 [cs.LG] UPDATED)
+    Say Goodbye to RNN-T Loss: A Novel CIF-based Transducer Architecture for Automatic Speech Recognition. (arXiv:2307.14132v1 [cs.SD])
 
-    [http://arxiv.org/abs/2302.01313](http://arxiv.org/abs/2302.01313)
+    [http://arxiv.org/abs/2307.14132](http://arxiv.org/abs/2307.14132)
 
-    本研究提出了双排列等变性的KG表示方法，可以使神经网络在KG中执行复杂的逻辑推理任务，并在多个归纳KG完成任务中实现了最先进的Hits@10测试准确率。双排列等变性在KG中开辟了新的研究方向。
-
-    
-
-    本研究将知识图谱(KGs)形式化为一种新型的图，并称之为双交换属性图，其中节点和二元（两个节点之间的）表示必须对节点号和边（及节点）属性（关系和节点特征）的排列等变。双重排列等变的KG表示在KG中开辟了新的研究方向。我们展示了这种等变性对关系的结构表示产生的影响，从而使神经网络能够在KG中执行复杂的逻辑推理任务。最后，我们介绍了一种通用的等变表示蓝图，并测试了一种简单的基于GNN的双排列等变神经结构，在WN18RR、FB237和NELL995归纳KG完成任务中实现了最先进的Hits@10测试准确率，并能够准确执行现有方法无法执行的逻辑推理任务。
-
-    This work provides a formalization of Knowledge Graphs (KGs) as a new class of graphs that we denote doubly exchangeable attributed graphs, where node and pairwise (joint 2-node) representations must be equivariant to permutations of both node ids and edge (& node) attributes (relations & node features). Double-permutation equivariant KG representations open a new research direction in KGs. We show that this equivariance imposes a structural representation of relations that allows neural networks to perform complex logical reasoning tasks in KGs. Finally, we introduce a general blueprint for such equivariant representations and test a simple GNN-based double-permutation equivariant neural architecture that achieve state-of-the-art Hits@10 test accuracy in the WN18RR, FB237 and NELL995 inductive KG completion tasks, and can accurately perform logical reasoning tasks that no existing methods can perform, to the best of our knowledge.
-    
-[^12]: AmbiFC: 用证据检验含糊性声明的真实性
-
-    AmbiFC: Fact-Checking Ambiguous Claims with Evidence. (arXiv:2104.00640v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2104.00640](http://arxiv.org/abs/2104.00640)
-
-    本研究提出了一个大规模的事实核查数据集AmbiFC，用于处理现实场景中的含糊性声明核查问题，通过细粒度的证据注释和分析，提出了一种适用于含糊性声明的软标签证据核查方法，并且在注释人员争议分析中发现了相关性。
+    本文提出了一种名为CIF-Transducer的新型模型，将连续积分和火机制与RNN-T模型结合起来，实现了高效的对齐，并放弃了RNN-T Loss，从而减少了计算量，并使预测网络发挥更重要的作用。实验证明CIF-T在自动语音识别中取得了最先进的结果。
 
     
 
-    在实际场景中，自动化事实核查系统必须将声明与检索到的证据进行比较以预测真实性。检索到的证据可能无法明确支持或反驳声明，并产生各种有效解释。现有的事实核查数据集需要模型为每个声明预测单个真实性标签，并且缺乏管理此类模糊性的能力。我们提出了一个大规模的事实核查数据集AmbiFC，其中包含从完整维基百科页面中获取的经过细粒度证据注释的信息需求的现实声明。我们彻底分析了AmbiFC中涉及含糊声明引起的争议，观察到与注释人员的自我评估和专家注释的语言现象强烈相关的注释人员争议。我们引入基于证据的含糊声明的真实性核查任务，比较了三种方法，其中包含注释信号和单标签分类。
+    RNN-T模型在ASR中广泛使用，依靠RNN-T Loss实现输入音频和目标序列的长度对齐。然而，RNN-T Loss的实现复杂性和基于对齐的优化目标导致计算冗余和预测网络角色的减少。在本文中，我们提出了一种名为CIF-Transducer（CIF-T）的新型模型，它将连续积分和火（CIF）机制与RNN-T模型结合起来，实现高效的对齐。通过这种方式，放弃了RNN-T Loss，从而减少了计算量，并使预测网络发挥更重要的作用。我们还引入了Funnel-CIF、Context Blocks、Unified Gating和Bilinear Pooling联合网络以及辅助训练策略来进一步提高性能。在178小时的AISHELL-1和10000小时的WenetSpeech数据集上的实验证明，与RNN-T模型相比，CIF-T以更低的计算开销实现了最先进的结果。
 
-    Automated fact-checking systems in real-world scenarios must compare claims with retrieved evidence to predict the veracity. The retrieved evidence may not unambiguously support or refute the claim and yield diverse valid interpretations. Existing fact-checking datasets necessitate that models predict a single veracity label for each claim and lack the ability to manage such ambiguity. We present AmbiFC, a large-scale fact-checking dataset with realistic claims derived from real-world information needs. Our dataset contains fine-grained evidence annotations of passages from complete Wikipedia pages. We thoroughly analyze disagreements arising from ambiguous claims in AmbiFC, observing a strong correlation of annotator disagreement with their self-assessment and expert-annotated linguistic phenomena. We introduce the task of evidence-based fact-checking for ambiguous claims with soft labels, and compare three methodologies incorporating annotation signals with a single-label classificat
+    RNN-T models are widely used in ASR, which rely on the RNN-T loss to achieve length alignment between input audio and target sequence. However, the implementation complexity and the alignment-based optimization target of RNN-T loss lead to computational redundancy and a reduced role for predictor network, respectively. In this paper, we propose a novel model named CIF-Transducer (CIF-T) which incorporates the Continuous Integrate-and-Fire (CIF) mechanism with the RNN-T model to achieve efficient alignment. In this way, the RNN-T loss is abandoned, thus bringing a computational reduction and allowing the predictor network a more significant role. We also introduce Funnel-CIF, Context Blocks, Unified Gating and Bilinear Pooling joint network, and auxiliary training strategy to further improve performance. Experiments on the 178-hour AISHELL-1 and 10000-hour WenetSpeech datasets show that CIF-T achieves state-of-the-art results with lower computational overhead compared to RNN-T models.
     
-[^13]: 从人类的纠错中学习
+[^7]: GPT-3的人格测试：时间可靠性有限，但凸显了社交渴望的人格工具结果。
 
-    Learning From How Humans Correct. (arXiv:2102.00225v14 [cs.CL] UPDATED)
+    Personality testing of GPT-3: Limited temporal reliability, but highlighted social desirability of GPT-3's personality instruments results. (arXiv:2306.04308v1 [cs.AI])
 
-    [http://arxiv.org/abs/2102.00225](http://arxiv.org/abs/2102.00225)
+    [http://arxiv.org/abs/2306.04308](http://arxiv.org/abs/2306.04308)
 
-    本研究提出了一种从人类矫正中学习的方法。通过标注数据中的噪声数据，收集纠错信息，并将其注入至深度学习模型中，成功将文本分类准确度提升了1.7个百分点。
+    本研究探讨了GPT-3 Davinci-003聊天机器人的人格特质，发现其具有良好的社交渴望和亲社会特质，但在不同时间的一致性存在限制。
 
     
 
-    在工业自然语言处理应用中，我们手动标注的数据中存在一定数量的噪声数据。我们提出了一种简单的方法来找到噪声数据并手动重新标注它们，同时收集纠错信息。然后，我们提出了一种将人类纠错信息融入深度学习模型的新方法。人类知道如何纠正噪声数据，因此纠错信息可以注入到深度学习模型中。我们在自己的文本分类数据集上进行了实验，该数据集是手动标注的，因为我们重新标注了我们数据集中的噪声数据，以适用于我们的工业应用。实验结果显示，我们的方法将分类准确度从91.7%提升到92.5%。91.7%的准确度是在修正后的数据集上训练的，它将基线准确度从83.3%提升到91.7%。
+    为了评估聊天机器人GPT-3 Davinci-003的潜在应用和限制，本研究探讨了应用于聊天机器人及其个性化资料的人格问卷的时间可靠性。在两个不同的场合，心理问卷被应用于聊天机器人，然后将回答与人类基准数据进行比较。研究结果显示，聊天机器人的回答有不同程度的一致性，有些量表表现出良好的一致性，而有些则表现出较差的一致性。总体而言，Davinci-003显示出一个社交渴望和亲社会的人格特质，尤其是在亲和力领域。然而，聊天机器人回答的基础，无论是由主观自我反思还是预定算法驱动，尚不确定。
 
-    In industry NLP application, our manually labeled data has a certain number of noisy data. We present a simple method to find the noisy data and re-label them manually, meanwhile we collect the correction information. Then we present novel method to incorporate the human correction information into deep learning model. Human know how to correct noisy data. So the correction information can be inject into deep learning model. We do the experiment on our own text classification dataset, which is manually labeled, because we re-label the noisy data in our dataset for our industry application. The experiment result shows that our method improve the classification accuracy from 91.7% to 92.5%. The 91.7% accuracy is trained on the corrected dataset, which improve the baseline from 83.3% to 91.7%.
+    To assess the potential applications and limitations of chatbot GPT-3 Davinci-003, this study explored the temporal reliability of personality questionnaires applied to the chatbot and its personality profile. Psychological questionnaires were administered to the chatbot on two separate occasions, followed by a comparison of the responses to human normative data. The findings revealed varying levels of agreement in the chatbot's responses over time, with some scales displaying excellent while others demonstrated poor agreement. Overall, Davinci-003 displayed a socially desirable and pro-social personality profile, particularly in the domain of communion. However, the underlying basis of the chatbot's responses, whether driven by conscious self-reflection or predetermined algorithms, remains uncertain.
+    
+[^8]: LLM可以理解加密提示：面向隐私计算友好的Transformers
+
+    LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers. (arXiv:2305.18396v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.18396](http://arxiv.org/abs/2305.18396)
+
+    本文中，研究人员通过使用隐私计算友好的近似方法替换transformer架构中计算和通信密集的运算符，实现了大幅降低私有推断成本的效果，并在保持准确性的前提下实现了计算加速和通信开销降低。
+
+    
+
+    先前的研究尝试在服务器客户端环境中为基于transformer的大型语言模型 (LLMs) 构建私有推断框架，其中服务器持有模型参数，客户端输入私有数据进行推断。然而，当私有输入通过原始LLMs进行前向传播时，这些框架会产生显着的开销。在本文中，我们展示了通过用隐私计算友好的近似替换transformer架构中计算和通信密集的运算符可以大大降低私有推断成本，对模型性能的影响微乎其微。与最新的Iron（NeurIPS 2022）相比，我们的隐私计算友好的模型推断管道在计算上实现了$5 \times$的加速，在通信开销上实现了80\%的降低，同时几乎保持了相同的准确性。
+
+    Prior works have attempted to build private inference frameworks for transformer-based large language models (LLMs) in a server-client setting, where the server holds the model parameters and the client inputs the private data for inference. However, these frameworks impose significant overhead when the private inputs are forward propagated through the original LLMs. In this paper, we show that substituting the computation- and communication-heavy operators in the transformer architecture with privacy-computing friendly approximations can greatly reduce the private inference costs with minor impact on model performance. Compared to the state-of-the-art Iron (NeurIPS 2022), our privacy-computing friendly model inference pipeline achieves a $5\times$ acceleration in computation and an 80\% reduction in communication overhead, while retaining nearly identical accuracy.
     
 

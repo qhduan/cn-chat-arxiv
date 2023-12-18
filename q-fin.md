@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Metastable Hidden Markov Processes: a theory for modeling financial markets.](http://arxiv.org/abs/2310.13081) | 本文提出了一个亚稳态隐马尔可夫过程的理论，用于建模金融市场。该理论认为金融市场的状态演化可以被描述为一个互动的马尔可夫系统，并且具有亚稳态行为。这个理论为金融约束下的相互作用马尔可夫系统的发展提供了启示，可以改变金融经济学和因果因子投资的研究范式。同时，该理论强调了市场状态对投资绩效的影响，相较于其他变量对投资绩效的直接影响。 |
 
 # 详细
 
+[^1]: 亚稳态隐马尔可夫过程：建模金融市场的理论
 
+    Metastable Hidden Markov Processes: a theory for modeling financial markets. (arXiv:2310.13081v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.13081](http://arxiv.org/abs/2310.13081)
+
+    本文提出了一个亚稳态隐马尔可夫过程的理论，用于建模金融市场。该理论认为金融市场的状态演化可以被描述为一个互动的马尔可夫系统，并且具有亚稳态行为。这个理论为金融约束下的相互作用马尔可夫系统的发展提供了启示，可以改变金融经济学和因果因子投资的研究范式。同时，该理论强调了市场状态对投资绩效的影响，相较于其他变量对投资绩效的直接影响。
+
+    
+
+    在文献中已成功地利用隐马尔可夫模型对金融时间序列进行建模。在本文中，我们提出了一个理论，它在假设存在一个由状态随时间演化的市场的情况下，解释了这种建模方法，该市场由相互作用的马尔可夫系统形成，该系统具有一个由隐马尔可夫链描述的亚稳态行为。这个理论是亚稳态在物理系统建模以外的一种罕见应用，可能会激发新的具有金融约束的相互作用马尔可夫系统的发展。在金融经济学和因果因子投资的背景下，该理论意味着一个新的范式，即投资绩效的波动主要由市场状态驱动，而不是直接由其他变量引起。尽管基于因果推断的常规因果因子投资方法与所提出的理论并不完全矛盾，但后者具有解释投资绩效波动的优势。
+
+    The modeling of financial time series by hidden Markov models has been performed successfully in the literature. In this paper, we propose a theory that justifies such a modeling under the assumption that there exists a market formed by agents whose states evolve on time as an interacting Markov system that has a metastable behavior described by the hidden Markov chain. This theory is a rare application of metastability outside the modeling of physical systems, and may inspire the development of new interacting Markov systems with financial constraints. In the context of financial economics and causal factor investment, the theory implies a new paradigm in which fluctuations in investment performance are primarily driven by the state of the market, rather than being directly caused by other variables. Even though the usual approach to causal factor investment based on causal inference is not completely inconsistent with the proposed theory, the latter has the advantage of accounting fo
+    
 
