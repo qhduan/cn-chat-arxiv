@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Estimating Individual Responses when Tomorrow Matters.](http://arxiv.org/abs/2310.09105) | 本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。 |
-| [^2] | [Boundary Adaptive Local Polynomial Conditional Density Estimators.](http://arxiv.org/abs/2204.10359) | 这个论文提出了一种边界自适应的局部多项式条件密度估计器，通过研究其统计特性，包括概率集中和分布逼近，实现了有效的高斯分布逼近。 |
-| [^3] | [Distribution Regression with Sample Selection, with an Application to Wage Decompositions in the UK.](http://arxiv.org/abs/1811.11603) | 该论文提出了一种带有样本选择的分布回归模型，旨在研究男女工资差距。研究结果表明，即使在控制就业选择后，仍存在大量无法解释的性别工资差距。 |
+| [^1] | [Constructing a type-adjustable mechanism to yield Pareto-optimal outcomes.](http://arxiv.org/abs/2309.01096) | 本文提出一种可调节代理人类型的机制，通过选择最优的控制因素作为公共信息，设计者能够获得帕累托最优结果。 |
+| [^2] | [GDP nowcasting with artificial neural networks: How much does long-term memory matter?.](http://arxiv.org/abs/2304.05805) | 通过比较四种人工神经网络和动态因子模型对美国GDP季度增长的预测表现，研究发现在平衡经济增长期间，更长的输入序列能够实现更准确的预测，但是这种效果会在不到两年的时间内消失。在经济动荡时期，长期记忆的效果变得明显。 |
+| [^3] | [Moderation in instant runoff voting.](http://arxiv.org/abs/2303.09734) | 研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。 |
+| [^4] | [Fictitious Play Outperforms Counterfactual Regret Minimization.](http://arxiv.org/abs/2001.11165) | 本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。 |
 
 # 详细
 
-[^1]: 估计明天重要时的个体反应
+[^1]: 构建一种可调节类型机制以获得帕累托最优结果
 
-    Estimating Individual Responses when Tomorrow Matters. (arXiv:2310.09105v1 [econ.EM])
+    Constructing a type-adjustable mechanism to yield Pareto-optimal outcomes. (arXiv:2309.01096v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.09105](http://arxiv.org/abs/2310.09105)
+    [http://arxiv.org/abs/2309.01096](http://arxiv.org/abs/2309.01096)
 
-    本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。
-
-    
-
-    我们提出了一种基于回归的方法，用于估计个体的期望如何影响他们对对立情况的反应。我们提供了基于回归估计的平均偏效应恢复结构效应的条件。我们提出了一个依赖于主观信念数据的实用的三步估计方法。我们在一个消费和储蓄模型中说明了我们的方法，重点关注不仅改变当前收入而且影响对未来收入的信念的所得税的影响。通过将我们的方法应用于意大利的调查数据，我们发现考虑个体的信念对评估税收政策对消费决策的影响很重要。
-
-    We propose a regression-based approach to estimate how individuals' expectations influence their responses to a counterfactual change. We provide conditions under which average partial effects based on regression estimates recover structural effects. We propose a practical three-step estimation method that relies on subjective beliefs data. We illustrate our approach in a model of consumption and saving, focusing on the impact of an income tax that not only changes current income but also affects beliefs about future income. By applying our approach to survey data from Italy, we find that considering individuals' beliefs matter for evaluating the impact of tax policies on consumption decisions.
-    
-[^2]: 边界自适应的局部多项式条件密度估计器
-
-    Boundary Adaptive Local Polynomial Conditional Density Estimators. (arXiv:2204.10359v3 [math.ST] UPDATED)
-
-    [http://arxiv.org/abs/2204.10359](http://arxiv.org/abs/2204.10359)
-
-    这个论文提出了一种边界自适应的局部多项式条件密度估计器，通过研究其统计特性，包括概率集中和分布逼近，实现了有效的高斯分布逼近。
+    本文提出一种可调节代理人类型的机制，通过选择最优的控制因素作为公共信息，设计者能够获得帕累托最优结果。
 
     
 
-    我们首先介绍了一类基于局部多项式技术的条件密度估计器。这些估计器具有边界自适应性和易于实现的特点。然后我们研究了估计器的（点态和）一致统计特性，提供了概率集中和分布逼近的表征。特别地，我们建立了概率的一致收敛速率，以及对学生化t统计量过程的有效高斯分布逼近。我们还讨论了实施问题，如对于高斯逼近的协方差函数的一致估计、最优的积分均方误差带宽选择，以及有效的鲁棒偏差校正推断。我们通过构建有效的置信带和假设检验来说明我们结果的适用性，同时明确表征了它们的逼近误差。我们还提供了一个伴侣R软件包，实现了我们的方法。
+    在机制设计理论中，代理人的类型被描述为他们的私人信息，设计者可以揭示一些公共信息以影响代理人的类型，从而获得更多的回报。传统上，每个代理人的私人类型和公共信息分别被表示为随机变量。本文提出了一种类型可调节机制，其中每个代理人的私人类型被表示为两个参数的函数，即他的内在因素和外部控制因素。每个代理人的内在因素被建模为私人随机变量，而外部控制因素被建模为设计者优化问题的解。类型可调节机制的优点是，通过选择控制因素的最优值作为公共信息，设计者可以获得对她自己和所有代理人都有利的帕累托最优结果。相比之下，在具有相互依赖值的拍卖中，公共信息的使用限制了最优结果的实现。
 
-    We begin by introducing a class of conditional density estimators based on local polynomial techniques. The estimators are boundary adaptive and easy to implement. We then study the (pointwise and) uniform statistical properties of the estimators, offering characterizations of both probability concentration and distributional approximation. In particular, we establish uniform convergence rates in probability and valid Gaussian distributional approximations for the Studentized t-statistic process. We also discuss implementation issues such as consistent estimation of the covariance function for the Gaussian approximation, optimal integrated mean squared error bandwidth selection, and valid robust bias-corrected inference. We illustrate the applicability of our results by constructing valid confidence bands and hypothesis tests for both parametric specification and shape constraints, explicitly characterizing their approximation errors. A companion R software package implementing our mai
+    In mechanism design theory, agents' types are described as their private information, and the designer may reveal some public information to affect agents' types in order to obtain more payoffs. Traditionally, both each agent's private type and the public information are represented as a random variable respectively. In this paper, we propose a type-adjustable mechanism where each agent's private type is represented as a function of two parameters, \emph{i.e.}, his intrinsic factor and an external control factor. Each agent's intrinsic factor is modeled as a private random variable, and the external control factor is modeled as a solution of the designer's optimization problem. The advantage of the type-adjustable mechanism is that by choosing an optimal value of control factor as public information, the designer may obtain Pareto-optimal outcomes, beneficial not only to herself but also to all agents. As a comparison, in an auction with interdependent values where the public informati
     
-[^3]: 带有样本选择的分布回归：应用于英国工资分解的研究
+[^2]: 用人工神经网络预测国内生产总值：长期记忆有多大的作用？
 
-    Distribution Regression with Sample Selection, with an Application to Wage Decompositions in the UK. (arXiv:1811.11603v5 [econ.EM] UPDATED)
+    GDP nowcasting with artificial neural networks: How much does long-term memory matter?. (arXiv:2304.05805v1 [econ.EM])
 
-    [http://arxiv.org/abs/1811.11603](http://arxiv.org/abs/1811.11603)
+    [http://arxiv.org/abs/2304.05805](http://arxiv.org/abs/2304.05805)
 
-    该论文提出了一种带有样本选择的分布回归模型，旨在研究男女工资差距。研究结果表明，即使在控制就业选择后，仍存在大量无法解释的性别工资差距。
+    通过比较四种人工神经网络和动态因子模型对美国GDP季度增长的预测表现，研究发现在平衡经济增长期间，更长的输入序列能够实现更准确的预测，但是这种效果会在不到两年的时间内消失。在经济动荡时期，长期记忆的效果变得明显。
 
     
 
-    我们在内生样本选择的情况下开发了一个分布回归模型。该模型是Heckman选择模型的半参数推广，可以适应更丰富的协变量对结果分布和选择过程异质性模式的影响，同时允许与高斯误差结构有显著偏差的情况，而仍然保持与经典模型同样的可处理性。该模型适用于连续、离散和混合结果。我们提供了识别、估计和推断方法，并将其应用于获得英国工资分解。我们将男女工资分布差异分解为成分、工资结构、选择结构和选择排序效应。在控制内生就业选择后，我们仍然发现显著的性别工资差距-在未解释组成成分的情况下，从21％到40％在（潜在的）提供工资分布中。
+    在本研究中，我们将不同的统计模型应用于美国经济季度国内生产总值（GDP）增长预测。使用每月的FRED-MD数据库，我们比较了动态因子模型（DFM）和四个人工神经网络（ANNs）的预测表现：多层感知机（MLP）、一维卷积神经网络（1D CNN）、长短期记忆网络（LSTM）和门控循环单元（GRU）。实证分析呈现了两个不同评估周期的结果。第一个周期（2010年第1季度至2019年第4季度）具有平衡的经济增长，而第二个周期（2010年第1季度至2022年第3季度）还包括COVID-19衰退期间的时间。根据我们的结果，更长的输入序列在平衡经济增长期间能够实现更准确的预测。然而，在一个相对较低的阈值值（约六个季度或十八个月）以后，这种效应会消失。在经济动荡期（如COVID-19衰退期间），长期记忆的效果会变得较为明显。
 
-    We develop a distribution regression model under endogenous sample selection. This model is a semi-parametric generalization of the Heckman selection model. It accommodates much richer effects of the covariates on outcome distribution and patterns of heterogeneity in the selection process, and allows for drastic departures from the Gaussian error structure, while maintaining the same level tractability as the classical model. The model applies to continuous, discrete and mixed outcomes. We provide identification, estimation, and inference methods, and apply them to obtain wage decomposition for the UK. Here we decompose the difference between the male and female wage distributions into composition, wage structure, selection structure, and selection sorting effects. After controlling for endogenous employment selection, we still find substantial gender wage gap -- ranging from 21\% to 40\% throughout the (latent) offered wage distribution that is not explained by composition. We also un
+    In our study, we apply different statistical models to nowcast quarterly GDP growth for the US economy. Using the monthly FRED-MD database, we compare the nowcasting performance of the dynamic factor model (DFM) and four artificial neural networks (ANNs): the multilayer perceptron (MLP), the one-dimensional convolutional neural network (1D CNN), the long short-term memory network (LSTM), and the gated recurrent unit (GRU). The empirical analysis presents the results from two distinctively different evaluation periods. The first (2010:Q1 -- 2019:Q4) is characterized by balanced economic growth, while the second (2010:Q1 -- 2022:Q3) also includes periods of the COVID-19 recession. According to our results, longer input sequences result in more accurate nowcasts in periods of balanced economic growth. However, this effect ceases above a relatively low threshold value of around six quarters (eighteen months). During periods of economic turbulence (e.g., during the COVID-19 recession), long
+    
+[^3]: 瞬时排名投票中的中和性分析
+
+    Moderation in instant runoff voting. (arXiv:2303.09734v1 [cs.MA])
+
+    [http://arxiv.org/abs/2303.09734](http://arxiv.org/abs/2303.09734)
+
+    研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。
+
+    
+
+    近年来，瞬时排名投票（IRV）作为传统多数票投票的一种替代方式备受欢迎。支持者声称IRV相对于多数票投票的好处之一是它倾向于中间派：它产生比多数票更为温和的胜者，因此可以成为解决极化问题的有用工具。然而，对于这种说法，很少有理论支持，现有的证据都是基于模拟和案例研究的。在这项工作中，我们在一维欧几里得模型中的选民偏好条件下，证明了IRV相对于传统的多数票投票具有一定的中和效应。我们的结果表明，只要选民的分布是对称的，并且不太集中于极端，IRV就不会选出超过分布尾部某个阈值之外的候选人，而多数票则可能会。对于均匀分布，我们提供了推导出多数票和IRV精确分布的方法。
+
+    Instant runoff voting (IRV) has gained popularity in recent years as an alternative to traditional plurality voting. Advocates of IRV claim that one of its benefits relative to plurality voting is its tendency toward moderation: that it produces more moderate winners than plurality and could therefore be a useful tool for addressing polarization. However, there is little theoretical backing for this claim, and existing evidence has focused on simulations and case studies. In this work, we prove that IRV has a moderating effect relative to traditional plurality voting in a specific sense, developed in a 1-dimensional Euclidean model of voter preferences. Our results show that as long as voters are symmetrically distributed and not too concentrated at the extremes, IRV will not elect a candidate that is beyond a certain threshold in the tails of the distribution, while plurality can. For the uniform distribution, we provide an approach for deriving the exact distributions of the pluralit
+    
+[^4]: Fictitious Play优于Counterfactual Regret Minimization
+
+    Fictitious Play Outperforms Counterfactual Regret Minimization. (arXiv:2001.11165v7 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2001.11165](http://arxiv.org/abs/2001.11165)
+
+    本研究比较了两种算法在近似多人博弈Nash均衡方面的表现，结果发现Fictitious Play比Counterfactual Regret Minimization更优秀。
+
+    
+
+    本文比较了两种广受欢迎的算法——Fictitious Play和Counterfactual Regret Minimization在近似多人博弈Nash均衡方面的表现。虽然Counterfactual Regret Minimization在多人扑克中取得了较大成功并被认为是更优秀的算法，但我们展示了Fictitious Play在各种类别和规模的游戏中都可以带来更好的Nash均衡近似效果。
+
+    We compare the performance of two popular algorithms, fictitious play and counterfactual regret minimization, in approximating Nash equilibrium in multiplayer games. Despite recent success of counterfactual regret minimization in multiplayer poker and conjectures of its superiority, we show that fictitious play leads to improved Nash equilibrium approximation over a variety of game classes and sizes.
     
 
