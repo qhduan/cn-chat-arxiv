@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Self Contrastive Learning for Session-based Recommendation.](http://arxiv.org/abs/2306.01266) | 本文提出了自对比学习方法，简化了会话推荐领域基于对比学习的模型的复杂性，并提高了推荐性能。 |
 
 # 详细
 
+[^1]: 自对比学习用于基于会话的推荐
 
+    Self Contrastive Learning for Session-based Recommendation. (arXiv:2306.01266v1 [cs.IR])
+
+    [http://arxiv.org/abs/2306.01266](http://arxiv.org/abs/2306.01266)
+
+    本文提出了自对比学习方法，简化了会话推荐领域基于对比学习的模型的复杂性，并提高了推荐性能。
+
+    
+
+    基于会话的推荐旨在预测用户对现有项目交互序列的下一个感兴趣的项目，已经吸引了越来越多应用使用对比学习（CL）提高用户和项目的表示。然而，这些对比目标：（1）起到与交叉熵损失类似的作用，同时忽略了项目表示空间优化；（2）通常需要复杂的建模，包括复杂的正/负样本构建和额外的数据增强。在本文中，我们引入了自对比学习（SCL），简化了对比学习的应用，并增强了基于状态的推荐技术的性能。具体而言，SCL被制定为一个目标函数，直接促进项目表示之间的均匀分布，并有效地替换了所有现有的对比目标组件的状态-艺术模型。与以前的工作不同，SCL消除了任何正样本或负样本的需求和SCL消除了任何正样本或负样本的需求和数据增强的需求。
+
+    Session-based recommendation, which aims to predict the next item of users' interest as per an existing sequence interaction of items, has attracted growing applications of Contrastive Learning (CL) with improved user and item representations. However, these contrastive objectives: (1) serve a similar role as the cross-entropy loss while ignoring the item representation space optimisation; and (2) commonly require complicated modelling, including complex positive/negative sample constructions and extra data augmentation. In this work, we introduce Self-Contrastive Learning (SCL), which simplifies the application of CL and enhances the performance of state-of-the-art CL-based recommendation techniques. Specifically, SCL is formulated as an objective function that directly promotes a uniform distribution among item representations and efficiently replaces all the existing contrastive objective components of state-of-the-art models. Unlike previous works, SCL eliminates the need for any p
+    
 
