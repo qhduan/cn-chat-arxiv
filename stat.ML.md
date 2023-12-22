@@ -2,112 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Statistical Performance Guarantee for Selecting Those Predicted to Benefit Most from Treatment.](http://arxiv.org/abs/2310.07973) | 本研究针对选择最有可能从治疗中获益的人的问题，在估计治疗效果和确定截断值时面临多重测试问题，提出一种统一的置信带方法来评估这些个体的平均治疗效果。 |
-| [^2] | [Online RL in Linearly $q^\pi$-Realizable MDPs Is as Easy as in Linear MDPs If You Learn What to Ignore.](http://arxiv.org/abs/2310.07811) | 该论文研究了在线强化学习中在线性$q^\pi$可实现的MDPs和线性MDPs的差异，并提出了一种新颖的学习算法，可以通过学习忽略某些状态将问题转化为线性MDP。 |
-| [^3] | [A Dynamical Graph Prior for Relational Inference.](http://arxiv.org/abs/2306.06041) | DYGR是一种用于关系推断的动态图先验方法，它利用高度非局部的多项式滤波器中构造性地利用误差放大来生成用于图形学习的良好梯度，并能够同时适用于具有共享图拓扑的“浅层”一步模型。 |
-| [^4] | [Fair and Robust Estimation of Heterogeneous Treatment Effects for Policy Learning.](http://arxiv.org/abs/2306.03625) | 本文提出了一种公平且健壮的异质治疗效果的估计框架，可以在公平约束下非参数地估计，并可用于权衡公平和最大福利之间的关系。 |
-| [^5] | [Covariance Adaptive Best Arm Identification.](http://arxiv.org/abs/2306.02630) | 本文提出了一个协方差自适应的最佳臂识别问题，相较于独立臂分布假设下的解决方案，能更有效地识别出高平均奖励的臂，适用于临床试验等场景。 |
-| [^6] | [LAVA: Data Valuation without Pre-Specified Learning Algorithms.](http://arxiv.org/abs/2305.00054) | LAVA是一个学习算法无关的数据价值评估方法，它结合了学习算法的统计特性和训练数据的属性，通过迭代估计数据值来实现。LAVA比现有方法计算速度更快，精度更高，并且可以为不同的应用提供有意义的数据排名。 |
-| [^7] | [Data-driven Piecewise Affine Decision Rules for Stochastic Programming with Covariate Information.](http://arxiv.org/abs/2304.13646) | 本研究提出一种嵌入非凸分段仿射决策规则的经验风险最小化方法，用于学习特征与最优决策之间的直接映射。所提出的方法可用于广泛的非凸型SP问题，并且在数值研究中表现出优越的性能。 |
+| [^1] | [Two Sides of The Same Coin: Bridging Deep Equilibrium Models and Neural ODEs via Homotopy Continuation.](http://arxiv.org/abs/2310.09583) | 通过同伦延续，我们建立了深度平衡模型（DEQs）和神经常微分方程（Neural ODEs）之间的连接，并提出了一种新的隐式模型HomoODE，它继承了DEQs的高精度性能和Neural ODEs的稳定性。 |
+| [^2] | [Log-Gaussian Gamma Processes for Training Bayesian Neural Networks in Raman and CARS Spectroscopies.](http://arxiv.org/abs/2310.08055) | 本论文提出了一种利用gamma分布和log-Gaussian建模的方法，用于生成合成数据集以训练神经网络，解决了实际观测数据有限的挑战。通过应用于Raman和CARS光谱，同时训练两个贝叶斯神经网络来估计gamma过程的参数，可以估计基础的光谱并提供不确定性。 |
+| [^3] | [Diffusion Generative Flow Samplers: Improving learning signals through partial trajectory optimization.](http://arxiv.org/abs/2310.02679) | 这项工作介绍了一种名为扩散生成流采样器（DGFS）的采样框架，通过将学习过程分解为短的部分轨迹段，实现从难以处理的高维密度函数中进行采样。它通过利用中间的学习信号和非策略探索能力来改善学习信号的分配问题。 |
+| [^4] | [SimFBO: Towards Simple, Flexible and Communication-efficient Federated Bilevel Learning.](http://arxiv.org/abs/2305.19442) | SimFBO和其ShroFBO变体提出了一个简单、灵活且通信高效的FBO框架，可以应用于元学习和超参数优化任务。 |
+| [^5] | [Unifying GANs and Score-Based Diffusion as Generative Particle Models.](http://arxiv.org/abs/2305.16150) | 本文提出了一个新框架，将生成器训练作为粒子模型的一个推广，从而统一了粒子和对抗生成模型。这个框架可以将生成器集成到基于分数扩散模型中，并在没有生成器的情况下训练GAN。 |
+| [^6] | [Moment Matching Denoising Gibbs Sampling.](http://arxiv.org/abs/2305.11650) | 本文提出了动量匹配去噪Gibbs采样方法，可以在给定‘嘈杂’的模型的情况下，从干净的模型中有效地进行采样。 |
+| [^7] | [Learning with Explanation Constraints.](http://arxiv.org/abs/2303.14496) | 本文研究了解释约束下的学习问题，提出了EPAC模型，探讨了使用这些解释时模型的益处，并提供了一种基于变分近似的算法解决方案。 |
 
 # 详细
 
-[^1]: 对于选择最有可能从治疗中获益的人的统计性能保证
+[^1]: 两枚硬币的两面：通过同伦延续连接深度平衡模型和神经常微分方程
 
-    Statistical Performance Guarantee for Selecting Those Predicted to Benefit Most from Treatment. (arXiv:2310.07973v1 [stat.ME])
+    Two Sides of The Same Coin: Bridging Deep Equilibrium Models and Neural ODEs via Homotopy Continuation. (arXiv:2310.09583v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.07973](http://arxiv.org/abs/2310.07973)
+    [http://arxiv.org/abs/2310.09583](http://arxiv.org/abs/2310.09583)
 
-    本研究针对选择最有可能从治疗中获益的人的问题，在估计治疗效果和确定截断值时面临多重测试问题，提出一种统一的置信带方法来评估这些个体的平均治疗效果。
-
-    
-
-    在广泛的学科领域中，许多研究人员使用机器学习算法来识别一组被称为例外反应者的个体，他们最有可能从治疗中获益。一个常见的方法包括两个步骤。首先使用机器学习算法估计条件平均治疗效果或其代理。然后确定所得治疗优先顺序分数的截断值，以选择那些最有可能从治疗中获益的人。不幸的是，这些估计的治疗优先顺序分数往往存在偏差和噪声。此外，利用相同的数据既选择截断值又估计所选个体的平均治疗效果会遇到多重测试问题。为了解决这些挑战，我们开发了一个统一的置信带来实验性地评估那些治疗优先顺序分数至少与任何给定量化值相等的个体的排序平均治疗效果（GATES）。
-
-    Across a wide array of disciplines, many researchers use machine learning (ML) algorithms to identify a subgroup of individuals, called exceptional responders, who are likely to be helped by a treatment the most. A common approach consists of two steps. One first estimates the conditional average treatment effect or its proxy using an ML algorithm. They then determine the cutoff of the resulting treatment prioritization score to select those predicted to benefit most from the treatment. Unfortunately, these estimated treatment prioritization scores are often biased and noisy. Furthermore, utilizing the same data to both choose a cutoff value and estimate the average treatment effect among the selected individuals suffer from a multiple testing problem. To address these challenges, we develop a uniform confidence band for experimentally evaluating the sorted average treatment effect (GATES) among the individuals whose treatment prioritization score is at least as high as any given quant
-    
-[^2]: 在线RL在线性$q^\pi$可实现的MDPs中和线性MDPs一样容易，只要你学会忽略。 (arXiv:2310.07811v1 [cs.LG])
-
-    Online RL in Linearly $q^\pi$-Realizable MDPs Is as Easy as in Linear MDPs If You Learn What to Ignore. (arXiv:2310.07811v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.07811](http://arxiv.org/abs/2310.07811)
-
-    该论文研究了在线强化学习中在线性$q^\pi$可实现的MDPs和线性MDPs的差异，并提出了一种新颖的学习算法，可以通过学习忽略某些状态将问题转化为线性MDP。
+    通过同伦延续，我们建立了深度平衡模型（DEQs）和神经常微分方程（Neural ODEs）之间的连接，并提出了一种新的隐式模型HomoODE，它继承了DEQs的高精度性能和Neural ODEs的稳定性。
 
     
 
-    我们考虑在线强化学习（RL）在离散的马尔可夫决策过程（MDPs）中，在线性$q^\pi$可实现的假设下，假设所有策略的动作值可以表示为状态-动作特征的线性函数。这个类别被认为比线性MDPs更一般化，其中转移内核和奖励函数被假设为特征向量的线性函数。我们的第一个贡献是展示了这两个类别之间的差异是在线性$q^\pi$可实现的MDPs中存在一些状态，在这些状态中，对于任何策略，所有的动作值都近似相等，通过跳过这些状态并按照任意固定策略在这些状态中进行转换，我们可以将问题转化为线性MDP。基于这个观察，我们推导了一种新颖（计算效率较低）的学习算法，用于在线性$q^\pi$可实现的MDPs中，该算法同时学习了应该跳过的状态，并运行另一个学习算法。
+    深度平衡模型（DEQs）和神经常微分方程（Neural ODEs）是两种隐式模型的分支，以其卓越的性能和低内存消耗成就了显著的成功。虽然两者都是隐式模型，但DEQs和Neural ODEs是从不同的数学形式导出的。受同伦延续的启发，我们建立了这两种模型之间的联系，并表明它们实际上是同一个硬币的两面。同伦延续是一种基于对应ODE的解非线性方程组的经典方法。给定这种联系，我们提出了一种新的隐式模型称为HomoODE，它继承了DEQs的高精度性质和Neural ODEs的稳定性。与DEQs不同，HomoODE通过同伦延续使用修改后的神经常微分方程隐式地解决平衡点找寻问题。
 
-    We consider online reinforcement learning (RL) in episodic Markov decision processes (MDPs) under the linear $q^\pi$-realizability assumption, where it is assumed that the action-values of all policies can be expressed as linear functions of state-action features. This class is known to be more general than linear MDPs, where the transition kernel and the reward function are assumed to be linear functions of the feature vectors. As our first contribution, we show that the difference between the two classes is the presence of states in linearly $q^\pi$-realizable MDPs where for any policy, all the actions have approximately equal values, and skipping over these states by following an arbitrarily fixed policy in those states transforms the problem to a linear MDP. Based on this observation, we derive a novel (computationally inefficient) learning algorithm for linearly $q^\pi$-realizable MDPs that simultaneously learns what states should be skipped over and runs another learning algorith
+    Deep Equilibrium Models (DEQs) and Neural Ordinary Differential Equations (Neural ODEs) are two branches of implicit models that have achieved remarkable success owing to their superior performance and low memory consumption. While both are implicit models, DEQs and Neural ODEs are derived from different mathematical formulations. Inspired by homotopy continuation, we establish a connection between these two models and illustrate that they are actually two sides of the same coin. Homotopy continuation is a classical method of solving nonlinear equations based on a corresponding ODE. Given this connection, we proposed a new implicit model called HomoODE that inherits the property of high accuracy from DEQs and the property of stability from Neural ODEs. Unlike DEQs, which explicitly solve an equilibrium-point-finding problem via Newton's methods in the forward pass, HomoODE solves the equilibrium-point-finding problem implicitly using a modified Neural ODE via homotopy continuation. Fur
     
-[^3]: 动态图邻先验用于关系推断
+[^2]: 用于Raman和CARS光谱学中贝叶斯神经网络的对数-高斯γ过程的训练方法
 
-    A Dynamical Graph Prior for Relational Inference. (arXiv:2306.06041v1 [cs.LG])
+    Log-Gaussian Gamma Processes for Training Bayesian Neural Networks in Raman and CARS Spectroscopies. (arXiv:2310.08055v1 [stat.AP])
 
-    [http://arxiv.org/abs/2306.06041](http://arxiv.org/abs/2306.06041)
+    [http://arxiv.org/abs/2310.08055](http://arxiv.org/abs/2310.08055)
 
-    DYGR是一种用于关系推断的动态图先验方法，它利用高度非局部的多项式滤波器中构造性地利用误差放大来生成用于图形学习的良好梯度，并能够同时适用于具有共享图拓扑的“浅层”一步模型。
-
-    
-
-    关系推断旨在从观察到的动态系统中识别部件之间的相互作用。目前的最先进方法是在可学习的图上拟合图神经网络 (GNN) 来进行关系推断。它们使用一步消息传递 GNN--直观上来说是正确的选择，因为多步或谱 GNN 的非局部性可能会混淆直接和间接相互作用。但是“有效”的交互图取决于采样速率，很少局限于直接邻居，导致一个步骤模型的局部最小值。在本文中，我们提出了一种“动态图先验”(DYGR)来进行关系推断。我们称之为先验的原因是，与已有的方法不同，它在高度非局部的多项式滤波器中构造性地利用误差放大来生成用于图形学习的良好梯度。为了处理非唯一性，DYGR 同时适用于具有共享图拓扑的“浅层”一步模型。实验证明 DYGR 能够重新构建交互结构，同时获得更好的性能。
-
-    Relational inference aims to identify interactions between parts of a dynamical system from the observed dynamics. Current state-of-the-art methods fit a graph neural network (GNN) on a learnable graph to the dynamics. They use one-step message-passing GNNs -- intuitively the right choice since non-locality of multi-step or spectral GNNs may confuse direct and indirect interactions. But the \textit{effective} interaction graph depends on the sampling rate and it is rarely localized to direct neighbors, leading to local minima for the one-step model. In this work, we propose a \textit{dynamical graph prior} (DYGR) for relational inference. The reason we call it a prior is that, contrary to established practice, it constructively uses error amplification in high-degree non-local polynomial filters to generate good gradients for graph learning. To deal with non-uniqueness, DYGR simultaneously fits a ``shallow'' one-step model with shared graph topology. Experiments show that DYGR reconstr
-    
-[^4]: 公平且健壮的异质治疗效果政策学习估计
-
-    Fair and Robust Estimation of Heterogeneous Treatment Effects for Policy Learning. (arXiv:2306.03625v1 [stat.ME])
-
-    [http://arxiv.org/abs/2306.03625](http://arxiv.org/abs/2306.03625)
-
-    本文提出了一种公平且健壮的异质治疗效果的估计框架，可以在公平约束下非参数地估计，并可用于权衡公平和最大福利之间的关系。
+    本论文提出了一种利用gamma分布和log-Gaussian建模的方法，用于生成合成数据集以训练神经网络，解决了实际观测数据有限的挑战。通过应用于Raman和CARS光谱，同时训练两个贝叶斯神经网络来估计gamma过程的参数，可以估计基础的光谱并提供不确定性。
 
     
 
-    我们提出了一种简单且通用的框架，用于在公平约束条件下非参数估计异质治疗效果。在标准正则条件下，我们证明了所得到的估计器具有双重健壮性。我们利用此框架来表征公平和最佳政策可实现的最大福利之间的权衡。我们在模拟研究中评估了该方法，并在一个真实世界的案例研究中进行了说明。
+    我们提出了一种利用gamma分布的随机变量和log-Gaussian建模的方法，用于生成适合训练神经网络的合成数据集。这种方法解决了各种应用中实际观测数据有限的挑战。我们将此方法应用于Raman和相干防-斯托克斯拉曼散射(CARS)光谱中，使用实验光谱估计gamma过程的参数。参数估计使用马尔可夫链蒙特卡洛方法进行，从而为模型提供完整贝叶斯后验分布，可用于合成数据生成。此外，我们使用高斯过程对Raman和CARS的加性和乘性背景函数进行建模。我们训练了两个贝叶斯神经网络来估计gamma过程的参数，然后可以用这些参数来估计基础的Raman光谱，并通过概率分布参数的估计同时提供不确定性。
 
-    We propose a simple and general framework for nonparametric estimation of heterogeneous treatment effects under fairness constraints. Under standard regularity conditions, we show that the resulting estimators possess the double robustness property. We use this framework to characterize the trade-off between fairness and the maximum welfare achievable by the optimal policy. We evaluate the methods in a simulation study and illustrate them in a real-world case study.
+    We propose an approach utilizing gamma-distributed random variables, coupled with log-Gaussian modeling, to generate synthetic datasets suitable for training neural networks. This addresses the challenge of limited real observations in various applications. We apply this methodology to both Raman and coherent anti-Stokes Raman scattering (CARS) spectra, using experimental spectra to estimate gamma process parameters. Parameter estimation is performed using Markov chain Monte Carlo methods, yielding a full Bayesian posterior distribution for the model which can be sampled for synthetic data generation. Additionally, we model the additive and multiplicative background functions for Raman and CARS with Gaussian processes. We train two Bayesian neural networks to estimate parameters of the gamma process which can then be used to estimate the underlying Raman spectrum and simultaneously provide uncertainty through the estimation of parameters of a probability distribution. We apply the trai
     
-[^5]: 协方差自适应最佳臂识别问题
+[^3]: 扩散生成流采样器：通过部分轨迹优化改善学习信号
 
-    Covariance Adaptive Best Arm Identification. (arXiv:2306.02630v1 [stat.ML])
+    Diffusion Generative Flow Samplers: Improving learning signals through partial trajectory optimization. (arXiv:2310.02679v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.02630](http://arxiv.org/abs/2306.02630)
+    [http://arxiv.org/abs/2310.02679](http://arxiv.org/abs/2310.02679)
 
-    本文提出了一个协方差自适应的最佳臂识别问题，相较于独立臂分布假设下的解决方案，能更有效地识别出高平均奖励的臂，适用于临床试验等场景。
-
-    
-
-    本文研究了在多臂老虎机模型下，基于固定置信度的最佳臂识别问题。在给定置信度 $\delta$ 的情况下，旨在以至少 1 - $\delta$ 的概率识别出具有最高平均奖励的臂，同时最小化臂的拉动次数。虽然文献提供了针对独立臂分布假设下该问题的解决方案，但我们提出了一个更加灵活的情形，其中臂可以是相关的，并且收益可以同时进行采样。该框架允许学习者估计臂之间分布的协方差，从而更有效地识别最佳臂。我们提出了适应臂协方差的新算法，并通过理论保证证明其具有实质性改进。
-
-    We consider the problem of best arm identification in the multi-armed bandit model, under fixed confidence. Given a confidence input $\delta$, the goal is to identify the arm with the highest mean reward with a probability of at least 1 -- $\delta$, while minimizing the number of arm pulls. While the literature provides solutions to this problem under the assumption of independent arms distributions, we propose a more flexible scenario where arms can be dependent and rewards can be sampled simultaneously. This framework allows the learner to estimate the covariance among the arms distributions, enabling a more efficient identification of the best arm. The relaxed setting we propose is relevant in various applications, such as clinical trials, where similarities between patients or drugs suggest underlying correlations in the outcomes. We introduce new algorithms that adapt to the unknown covariance of the arms and demonstrate through theoretical guarantees that substantial improvement 
-    
-[^6]: LAVA: 无需预定学习算法的数据价值评估
-
-    LAVA: Data Valuation without Pre-Specified Learning Algorithms. (arXiv:2305.00054v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.00054](http://arxiv.org/abs/2305.00054)
-
-    LAVA是一个学习算法无关的数据价值评估方法，它结合了学习算法的统计特性和训练数据的属性，通过迭代估计数据值来实现。LAVA比现有方法计算速度更快，精度更高，并且可以为不同的应用提供有意义的数据排名。
+    这项工作介绍了一种名为扩散生成流采样器（DGFS）的采样框架，通过将学习过程分解为短的部分轨迹段，实现从难以处理的高维密度函数中进行采样。它通过利用中间的学习信号和非策略探索能力来改善学习信号的分配问题。
 
     
 
-    传统的数据价值评估问题是如何公平地分配学习算法的验证性能，致使计算得到的数据价值依赖于底层学习算法的许多设计选择。本文提出了一种新的框架LAVA，该框架结合了学习算法的统计特性和训练数据的属性，迭代估计数据值，使其无视下游的学习算法。我们展示了LAVA比现有方法计算速度更快，精度更高，并且它可以为不同的应用提供有意义的数据排名。
+    我们解决了从难以处理的高维密度函数中进行采样的问题，这是在机器学习和统计中经常出现的基本任务。我们扩展了最近的基于采样的方法，利用控制的随机过程来模拟这些目标密度的近似样本。这些方法的主要缺点是训练目标需要计算完整的轨迹，导致由于使用完整轨迹和只在终端时间存在的学习信号的使用而产生缓慢的信用分配问题。在这项工作中，我们提出了扩散生成流采样器（DGFS），这是一个基于采样的框架，可以将学习过程可行地分解为短的部分轨迹段，通过参数化一个额外的“流函数”。我们的方法借鉴了生成流网络（GFlowNets）的理论，使我们能够利用中间的学习信号，并从非策略探索能力中受益。
 
-    Traditionally, data valuation is posed as a problem of equitably splitting the validation performance of a learning algorithm among the training data. As a result, the calculated data values depend on many design choices of the underlying learning algorithm. However, this dependence is undesirable for many use cases of data valuation, such as setting priorities over different data sources in a data acquisition process and informing pricing mechanisms in a data marketplace. In these scenarios, data needs to be valued before the actual analysis and the choice of the learning algorithm is still undetermined then. Another side-effect of the dependence is that to assess the value of individual points, one needs to re-run the learning algorithm with and without a point, which incurs a large computation burden.  This work leapfrogs over the current limits of data valuation methods by introducing a new framework that can value training data in a way that is oblivious to the downstream learning
+    We tackle the problem of sampling from intractable high-dimensional density functions, a fundamental task that often appears in machine learning and statistics. We extend recent sampling-based approaches that leverage controlled stochastic processes to model approximate samples from these target densities. The main drawback of these approaches is that the training objective requires full trajectories to compute, resulting in sluggish credit assignment issues due to use of entire trajectories and a learning signal present only at the terminal time. In this work, we present Diffusion Generative Flow Samplers (DGFS), a sampling-based framework where the learning process can be tractably broken down into short partial trajectory segments, via parameterizing an additional "flow function". Our method takes inspiration from the theory developed for generative flow networks (GFlowNets), allowing us to make use of intermediate learning signals and benefit from off-policy exploration capabilitie
     
-[^7]: 基于数据驱动的分段仿射决策规则用于带协变信息的随机规划
+[^4]: SimFBO：简单、灵活且通信高效的联邦双层学习
 
-    Data-driven Piecewise Affine Decision Rules for Stochastic Programming with Covariate Information. (arXiv:2304.13646v1 [math.OC])
+    SimFBO: Towards Simple, Flexible and Communication-efficient Federated Bilevel Learning. (arXiv:2305.19442v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.13646](http://arxiv.org/abs/2304.13646)
+    [http://arxiv.org/abs/2305.19442](http://arxiv.org/abs/2305.19442)
 
-    本研究提出一种嵌入非凸分段仿射决策规则的经验风险最小化方法，用于学习特征与最优决策之间的直接映射。所提出的方法可用于广泛的非凸型SP问题，并且在数值研究中表现出优越的性能。
+    SimFBO和其ShroFBO变体提出了一个简单、灵活且通信高效的FBO框架，可以应用于元学习和超参数优化任务。
 
     
 
-    本文针对带协变信息的随机规划，提出了一种嵌入非凸分段仿射决策规则(PADR)的经验风险最小化(ERM)方法，旨在学习特征与最优决策之间的直接映射。我们建立了基于PADR的ERM模型的非渐近一致性结果，可用于无约束问题，以及约束问题的渐近一致性结果。为了解决非凸和非可微的ERM问题，我们开发了一个增强的随机主导下降算法，并建立了沿（复合强）方向稳定性的渐近收敛以及复杂性分析。我们表明，所提出的PADR-based ERM方法适用于广泛的非凸型SP问题，并具有理论一致性保证和计算可处理性。数值研究表明，在各种设置下，PADR-based ERM方法相对于最先进的方法具有优越的性能。
+    近来，由于元学习、微调、超参数调整等领域中嵌套优化结构的出现，联邦双层优化（FBO）在机器学习和边缘计算中显示了巨大的潜力。然而，现有的FBO算法往往涉及复杂的计算，并需要每次迭代多个子循环，每个子循环包含多个通信轮。在本文中，我们提出了一个名为SimFBO的简单灵活的FBO框架，它易于实现，不需要子循环，并包括一种广义的服务器端聚合和更新以提高通信效率。我们进一步提出了系统级异构鲁棒FBO（ShroFBO）作为SimFBO的变体，其对本地计算的异构有更强的鲁棒性。我们证明了在部分客户端参与和无替换的客户端采样下，SimFBO和ShroFBO可以实现线性收敛加速，同时改进了样本和通信复杂度。实验证明了它们在图像分类数据集的元学习和真实世界数据集上的超参数优化任务中的有效性。
 
-    Focusing on stochastic programming (SP) with covariate information, this paper proposes an empirical risk minimization (ERM) method embedded within a nonconvex piecewise affine decision rule (PADR), which aims to learn the direct mapping from features to optimal decisions. We establish the nonasymptotic consistency result of our PADR-based ERM model for unconstrained problems and asymptotic consistency result for constrained ones. To solve the nonconvex and nondifferentiable ERM problem, we develop an enhanced stochastic majorization-minimization algorithm and establish the asymptotic convergence to (composite strong) directional stationarity along with complexity analysis. We show that the proposed PADR-based ERM method applies to a broad class of nonconvex SP problems with theoretical consistency guarantees and computational tractability. Our numerical study demonstrates the superior performance of PADR-based ERM methods compared to state-of-the-art approaches under various settings,
+    Federated bilevel optimization (FBO) has shown great potential recently in machine learning and edge computing due to the emerging nested optimization structure in meta-learning, fine-tuning, hyperparameter tuning, etc. However, existing FBO algorithms often involve complicated computations and require multiple sub-loops per iteration, each of which contains a number of communication rounds. In this paper, we propose a simple and flexible FBO framework named SimFBO, which is easy to implement without sub-loops, and includes a generalized server-side aggregation and update for improving communication efficiency. We further propose System-level heterogeneity robust FBO (ShroFBO) as a variant of SimFBO with stronger resilience to heterogeneous local computation. We show that SimFBO and ShroFBO provably achieve a linear convergence speedup with partial client participation and client sampling without replacement, as well as improved sample and communication complexities. Experiments demons
+    
+[^5]: 统一GAN和基于分数扩散的粒子生成模型
+
+    Unifying GANs and Score-Based Diffusion as Generative Particle Models. (arXiv:2305.16150v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.16150](http://arxiv.org/abs/2305.16150)
+
+    本文提出了一个新框架，将生成器训练作为粒子模型的一个推广，从而统一了粒子和对抗生成模型。这个框架可以将生成器集成到基于分数扩散模型中，并在没有生成器的情况下训练GAN。
+
+    
+
+    基于粒子的深度生成模型，例如梯度流和基于分数的扩散模型，由于其惊人的性能而最近受到关注。传统上，通过微分方程来移动粒子分布的方法被普遍认为是与以前广泛使用的生成对抗网络（GAN）相对立的，后者涉及到训练一个向前的生成器网络。在本文中，我们质疑这种解释，并提出了一个统一粒子和对抗生成模型的新框架，通过将生成器训练作为粒子模型的推广。这表明，生成器是任何这样的生成模型的可选附件。因此，将生成器集成到基于分数扩散模型中，并在没有生成器的情况下训练GAN自然地出现在我们的框架中。我们通过实证测试这些原始模型的可行性，这些模型是我们框架可能应用的概念证明。
+
+    Particle-based deep generative models, such as gradient flows and score-based diffusion models, have recently gained traction thanks to their striking performance. Their principle of displacing particle distributions by differential equations is conventionally seen as opposed to the previously widespread generative adversarial networks (GANs), which involve training a pushforward generator network. In this paper, we challenge this interpretation and propose a novel framework that unifies particle and adversarial generative models by framing generator training as a generalization of particle models. This suggests that a generator is an optional addition to any such generative model. Consequently, integrating a generator into a score-based diffusion model and training a GAN without a generator naturally emerge from our framework. We empirically test the viability of these original models as proofs of concepts of potential applications of our framework.
+    
+[^6]: 动量匹配去噪Gibbs采样
+
+    Moment Matching Denoising Gibbs Sampling. (arXiv:2305.11650v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.11650](http://arxiv.org/abs/2305.11650)
+
+    本文提出了动量匹配去噪Gibbs采样方法，可以在给定‘嘈杂’的模型的情况下，从干净的模型中有效地进行采样。
+
+    
+
+    能量基模型（EBMs）为建模复杂数据分布提供了一个通用的框架。然而，EBMs 的训练和采样仍然面临重大挑战。用于可扩展 EBM 训练的广泛使用的去噪分数匹配（DSM）方法存在不一致性问题，导致能量模型学习到“嘈杂”的数据分布。在本文中，我们提出了一种有效的采样框架：（伪）Gibbs采样与动量匹配，可以在给定经过DSM训练良好的“嘈杂”模型的情况下，从基础“干净”模型中有效地进行采样。我们探讨了我们的方法相对于相关方法的优势，并展示了如何将该方法扩展到高维数据集。
+
+    Energy-Based Models (EBMs) offer a versatile framework for modeling complex data distributions. However, training and sampling from EBMs continue to pose significant challenges. The widely-used Denoising Score Matching (DSM) method for scalable EBM training suffers from inconsistency issues, causing the energy model to learn a `noisy' data distribution. In this work, we propose an efficient sampling framework: (pseudo)-Gibbs sampling with moment matching, which enables effective sampling from the underlying clean model when given a `noisy' model that has been well-trained via DSM. We explore the benefits of our approach compared to related methods and demonstrate how to scale the method to high-dimensional datasets.
+    
+[^7]: 解释约束下的学习
+
+    Learning with Explanation Constraints. (arXiv:2303.14496v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.14496](http://arxiv.org/abs/2303.14496)
+
+    本文研究了解释约束下的学习问题，提出了EPAC模型，探讨了使用这些解释时模型的益处，并提供了一种基于变分近似的算法解决方案。
+
+    
+
+    尽管监督学习假设存在标注数据，但我们可能有关于模型应如何运行的先验信息。本文将其形式化为从解释约束中学习，并提供了一个学习理论框架，分析了这些解释如何提高模型的学习能力。本文的第一项关键贡献是通过定义我们称之为EPAC模型（在新数据期望中满足这些约束的模型）来回答哪些模型会受益于解释这一问题。我们使用标准的学习理论工具分析了这类模型。第二个关键贡献是对于由线性模型和两层神经网络的梯度信息给出的规范解释的限制（以其Rademacher复杂度为衡量标准）进行了表征。最后，我们通过一种变分近似提供了我们的框架的算法解决方案，它能够实现更好的性能并满足这些约束。
+
+    While supervised learning assumes the presence of labeled data, we may have prior information about how models should behave. In this paper, we formalize this notion as learning from explanation constraints and provide a learning theoretic framework to analyze how such explanations can improve the learning of our models. For what models would explanations be helpful? Our first key contribution addresses this question via the definition of what we call EPAC models (models that satisfy these constraints in expectation over new data), and we analyze this class of models using standard learning theoretic tools. Our second key contribution is to characterize these restrictions (in terms of their Rademacher complexities) for a canonical class of explanations given by gradient information for linear models and two layer neural networks. Finally, we provide an algorithmic solution for our framework, via a variational approximation that achieves better performance and satisfies these constraint
     
 

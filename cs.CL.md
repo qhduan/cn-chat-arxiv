@@ -2,202 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [TRAMS: Training-free Memory Selection for Long-range Language Modeling.](http://arxiv.org/abs/2310.15494) | TRAMS是一种训练免费的长程语言建模记忆选择策略，它能够提高Transformer架构在长程语言建模方面的效果，并且不需要额外的训练或参数。 |
-| [^2] | [MCC-KD: Multi-CoT Consistent Knowledge Distillation.](http://arxiv.org/abs/2310.14747) | MCC-KD方法提出了一种多CoT一致性知识蒸馏的方法，能够高效地转移大型语言模型的推理能力到较小的模型上，通过生成多个理由并确保其预测的一致性来增强推理多样性和一致性。 |
-| [^3] | [Redefining Digital Health Interfaces with Large Language Models.](http://arxiv.org/abs/2310.03560) | 本论文提出了利用大型语言模型（LLMs）重新定义数字健康界面的方法，将LLMs与外部工具结合使用，从而提高了与临床技术的互动效果，改善了数字医疗工具和AI模型的实用性，并解决了在临床环境中使用LLMs的问题。 |
-| [^4] | [Knowledge Graphs for the Life Sciences: Recent Developments, Challenges and Opportunities.](http://arxiv.org/abs/2309.17255) | 这篇论文综述了在生命科学领域中使用知识图谱的最新发展和进展，并展望了这些技术在未来对这些领域的影响。 |
-| [^5] | [Journey to the Center of the Knowledge Neurons: Discoveries of Language-Independent Knowledge Neurons and Degenerate Knowledge Neurons.](http://arxiv.org/abs/2308.13198) | 本文研究了多语言预训练语言模型中事实知识的存储方式，并引入了一种新的方法，能够更准确地定位知识神经元。通过实验证明了语言无关知识神经元的存在，以及发现了一种新型退化知识神经元。 |
-| [^6] | [PMET: Precise Model Editing in a Transformer.](http://arxiv.org/abs/2308.08742) | 该论文通过分析Transformer模型中的隐藏状态，发现多头自注意力编码了某些通用知识提取模式，因此在进行模型编辑时，不需要更新多头自注意力的权重。 |
-| [^7] | [IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages.](http://arxiv.org/abs/2305.16307) | 本研究填补了印度22种官方语言机器翻译的空白，提出了IndicTrans2系统，它在多个语言对上表现最先进并优于现有的模型，同时提供了印度语言的基准和评估脚本。 |
-| [^8] | [RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting.](http://arxiv.org/abs/2305.15685) | 本文介绍了 RewriteLM，一种指令调整的大型语言模型，用于长篇文本重写。同时，我们提出了一个名为 OpenRewriteEval 的基准测试，用于评估各种类型的开放式长篇文本重写。我们采用新的策略来促进多样的指令和偏好数据生成，从而为长篇文本重写提供更好的评估手段。 |
-| [^9] | [Evaluating task understanding through multilingual consistency: A ChatGPT case study.](http://arxiv.org/abs/2305.11662) | 本文提出了一种新的评估大型语言模型理解能力的范例，通过评估模型自身生成的不同意义之间的一致性，探讨了多语言自我一致性作为模型理解的检验方法，同时证明了ChatGPT在多语言一致性方面的优秀性能。 |
-| [^10] | [The Short Text Matching Model Enhanced with Knowledge via Contrastive Learning.](http://arxiv.org/abs/2304.03898) | 提出了一种短文本匹配模型，使用生成模型生成补充句子，结合对比学习和外部知识进行语义匹配，并使用关键词避免噪声问题。 |
-| [^11] | [Safety Analysis in the Era of Large Language Models: A Case Study of STPA using ChatGPT.](http://arxiv.org/abs/2304.01246) | 本文研究了大型语言模型在系统论过程分析（STPA）中的应用，并采用ChatGPT对自动紧急制动（AEB）系统进行了案例研究。结果表明，重复双工交互方法是最有效的，并显着提高了STPA的质量。本研究证明，LLMs可以应用于安全分析，并为安全关键系统提供有价值的见解。 |
-| [^12] | [Debiasing Scores and Prompts of 2D Diffusion for Robust Text-to-3D Generation.](http://arxiv.org/abs/2303.15413) | 本文提出了两种去偏置的方法，一种通过增加2D扩散模型得出的分数的截断值，一种通过调整视角提示和物体空间摄像机姿态之间的差异。实验结果表明这些方法可以显著减少伪影，提高真实感。 |
-| [^13] | [SEAM: An Integrated Activation-Coupled Model of Sentence Processing and Eye Movements in Reading.](http://arxiv.org/abs/2303.05221) | SEAM是一种集成了眼动控制和句子处理的模型，为实现阅读中自然语言理解的完整数学模型迈出了重要一步。 |
+| [^1] | [3M-TRANSFORMER: A Multi-Stage Multi-Stream Multimodal Transformer for Embodied Turn-Taking Prediction.](http://arxiv.org/abs/2310.14859) | 本文提出了一种用于预测体验式转换的多阶段多流多模态Transformer，通过对同步的多角度自我中心数据进行处理，相较于现有的基准模型和其他基于Transformer的方法，实现了14.01%的性能提升。 |
+| [^2] | [FedJudge: Federated Legal Large Language Model.](http://arxiv.org/abs/2309.08173) | 本文提出了第一个分布式法律大型语言模型（FedJudge）框架，可以通过在设备或客户端上进行本地微调，并将参数聚合和分布在中央服务器上来确保数据隐私。这解决了集中式训练法律LLMs引发的数据隐私问题和分布偏移导致的FL方法效果降低的挑战。 |
+| [^3] | [Are ChatGPT and GPT-4 Good Poker Players? -- A Pre-Flop Analysis.](http://arxiv.org/abs/2308.12466) | ChatGPT和GPT-4在扑克中显示出高级理解，但不是游戏论理最优的扑克玩家。对模型参数和提示的优化可以提高它们在扑克中的表现。 |
+| [^4] | [Universal and Transferable Adversarial Attacks on Aligned Language Models.](http://arxiv.org/abs/2307.15043) | 这项研究提出了一种简单而有效的攻击方法，能够使对齐的语言模型生成不良行为，而不依赖于人工设计，通过自动化方法产生对抗性后缀，并在实践中取得改进。 |
+| [^5] | [Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers.](http://arxiv.org/abs/2307.14367) | 提出了一种名为Prot2Text的新方法，通过结合GNNs和Transformers，以自由文本样式预测蛋白质的功能。该方法能够综合蛋白质的序列、结构和文本注释等多种数据类型，超越传统的二进制或分类分类，实现了对蛋白质功能的全面表示。 |
+| [^6] | [Layer-wise Representation Fusion for Compositional Generalization.](http://arxiv.org/abs/2307.10799) | 该论文提出了一种层级表示融合的方法，以提升序列到序列模型在组合泛化方面的表现。之前的研究主要关注增强基于令牌的语义信息，而本文提出了在人类那样适当地组合和使用序列的句法和语义表示的方法。此外，从近期的关于训练更深Transformer的研究结果来看，纠缠问题主要是由于残差连接的“浅层”和简单的单步操作导致不能有效地融合前面层的信息。 |
+| [^7] | [Exploring Large Language Model for Graph Data Understanding in Online Job Recommendations.](http://arxiv.org/abs/2307.05722) | 本论文探索了大规模语言模型在在线职位推荐中对图数据的理解能力，并提出了新的框架来分析行为图，发现其中的潜在模式和关系。 |
+| [^8] | [BloombergGPT: A Large Language Model for Finance.](http://arxiv.org/abs/2303.17564) | 本文提出了BloombergGPT，一个500亿参数的金融领域的大型语言模型，其基于Bloomberg的广泛数据来源和通用数据集进行训练。通过混合数据集训练，该模型在金融任务上表现出色，并且不会牺牲在普通任务上的性能。 |
+| [^9] | [Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning.](http://arxiv.org/abs/2303.10512) | AdaLoRA是一种自适应预算分配方法，用于参数效率微调。将增量更新的预算根据权重矩阵的重要性分数进行自适应分配，通过奇异值分解的形式，实现了微调表现的优化。 |
+| [^10] | [Reducing Spurious Correlations for Aspect-Based Sentiment Analysis with Variational Information Bottleneck and Contrastive Learning.](http://arxiv.org/abs/2303.02846) | 本文提出了一种新的对比变分信息瓶颈框架（CVIB），以减少方面情感分析（ABSA）中的虚假相关性。该框架由一个原始网络和一个自剪枝网络组成，通过对比学习同时进行优化，从而丢弃了输入特征和预测标签之间的多余模式或虚假相关性。 |
 
 # 详细
 
-[^1]: TRAMS:训练免费的长程语言建模记忆选择
+[^1]: 3M-TRANSFORMER：一种用于体验式转换预测的多阶段多流多模态Transformer
 
-    TRAMS: Training-free Memory Selection for Long-range Language Modeling. (arXiv:2310.15494v1 [cs.CL])
+    3M-TRANSFORMER: A Multi-Stage Multi-Stream Multimodal Transformer for Embodied Turn-Taking Prediction. (arXiv:2310.14859v2 [cs.CV] UPDATED)
 
-    [http://arxiv.org/abs/2310.15494](http://arxiv.org/abs/2310.15494)
+    [http://arxiv.org/abs/2310.14859](http://arxiv.org/abs/2310.14859)
 
-    TRAMS是一种训练免费的长程语言建模记忆选择策略，它能够提高Transformer架构在长程语言建模方面的效果，并且不需要额外的训练或参数。
-
-    
-
-    Transformer架构对于众多AI模型至关重要，但在长程语言建模方面仍面临挑战。尽管已经设计了几种特定的Transformer架构来解决长程依赖的问题，但现有的方法如Transformer-XL存在大量无效记忆的问题。本研究提出了一种即插即用的策略，称为TRAining-free Memory Selection（TRAMS），它根据一个简单的指标选择参与注意力计算的标记。该策略允许我们保留与当前查询具有高关注分数可能性的标记，并忽略其他标记。我们在单词级基准（WikiText-103）和字符级基准（enwik8）上测试了我们的方法，结果表明在不进行额外训练或添加额外参数的情况下取得了改进。
-
-    The Transformer architecture is crucial for numerous AI models, but it still faces challenges in long-range language modeling. Though several specific transformer architectures have been designed to tackle issues of long-range dependencies, existing methods like Transformer-XL are plagued by a high percentage of ineffective memories. In this study, we present a plug-and-play strategy, known as TRAining-free Memory Selection (TRAMS), that selects tokens participating in attention calculation based on one simple metric. This strategy allows us to keep tokens that are likely to have a high attention score with the current queries and ignore the other ones. We have tested our approach on the word-level benchmark (WikiText-103) and the character-level benchmark (enwik8), and the results indicate an improvement without having additional training or adding additional parameters.
-    
-[^2]: MCC-KD: 多CoT一致性知识蒸馏
-
-    MCC-KD: Multi-CoT Consistent Knowledge Distillation. (arXiv:2310.14747v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2310.14747](http://arxiv.org/abs/2310.14747)
-
-    MCC-KD方法提出了一种多CoT一致性知识蒸馏的方法，能够高效地转移大型语言模型的推理能力到较小的模型上，通过生成多个理由并确保其预测的一致性来增强推理多样性和一致性。
+    本文提出了一种用于预测体验式转换的多阶段多流多模态Transformer，通过对同步的多角度自我中心数据进行处理，相较于现有的基准模型和其他基于Transformer的方法，实现了14.01%的性能提升。
 
     
 
-    大型语言模型(LLMs)在复杂推理方面展现了卓越的能力，通过链式思考(CoT)提示。最近，人们对将这些推理能力从LLMs转移到较小模型中的兴趣日益增长。然而，同时实现多样性和一致性的理由对于提出了挑战。在本文中，我们着重增强这两个方面，并提出了多CoT一致性知识蒸馏(MCC-KD)方法，以高效地提取推理能力。在MCC-KD中，我们为每个问题生成多个理由，并通过最小化答案分布之间的双向KL散度来确保相应预测的一致性。我们研究了MCC-KD在不同模型架构(LLaMA/FlanT5)和各种模型规模(3B/7B/11B/13B)上在数学推理和常识推理基准上的有效性。实证结果不仅证实了MCC-KD在分布内情况下的优越性能。
+    在多方对话中预测交替对话在人机/机器人交互中具有很多实际应用。然而，人类沟通的复杂性使这成为一项具有挑战性的任务。最近的研究进展表明，同步的多角度自我中心数据可以显著提高与异步的单角度转录相比的交替对话预测能力。基于这项研究，我们提出了一种基于多模态Transformer的新架构，用于预测体验式的、同步的多角度数据中的交替对话。我们在最近引入的EgoCom数据集上的实验结果显示，与现有基准线和其他基于Transformer的方法相比，我们的3M-Transformer平均性能提高了14.01%。我们的3M-Transformer的源代码和预训练模型将在被接受后提供。
 
-    Large language models (LLMs) have showcased remarkable capabilities in complex reasoning through chain of thought (CoT) prompting. Recently, there has been a growing interest in transferring these reasoning abilities from LLMs to smaller models. However, achieving both the diversity and consistency in rationales presents a challenge. In this paper, we focus on enhancing these two aspects and propose Multi-CoT Consistent Knowledge Distillation (MCC-KD) to efficiently distill the reasoning capabilities. In MCC-KD, we generate multiple rationales for each question and enforce consistency among the corresponding predictions by minimizing the bidirectional KL-divergence between the answer distributions. We investigate the effectiveness of MCC-KD with different model architectures (LLaMA/FlanT5) and various model scales (3B/7B/11B/13B) on both mathematical reasoning and commonsense reasoning benchmarks. The empirical results not only confirm MCC-KD's superior performance on in-distribution d
+    Predicting turn-taking in multiparty conversations has many practical applications in human-computer/robot interaction. However, the complexity of human communication makes it a challenging task. Recent advances have shown that synchronous multi-perspective egocentric data can significantly improve turn-taking prediction compared to asynchronous, single-perspective transcriptions. Building on this research, we propose a new multimodal transformer-based architecture for predicting turn-taking in embodied, synchronized multi-perspective data. Our experimental results on the recently introduced EgoCom dataset show a substantial performance improvement of up to 14.01% on average compared to existing baselines and alternative transformer-based approaches. The source code, and the pre-trained models of our 3M-Transformer will be available upon acceptance.
     
-[^3]: 用大型语言模型重新定义数字健康界面
+[^2]: FedJudge: 分布式法律大型语言模型
 
-    Redefining Digital Health Interfaces with Large Language Models. (arXiv:2310.03560v1 [cs.CL])
+    FedJudge: Federated Legal Large Language Model. (arXiv:2309.08173v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.03560](http://arxiv.org/abs/2310.03560)
+    [http://arxiv.org/abs/2309.08173](http://arxiv.org/abs/2309.08173)
 
-    本论文提出了利用大型语言模型（LLMs）重新定义数字健康界面的方法，将LLMs与外部工具结合使用，从而提高了与临床技术的互动效果，改善了数字医疗工具和AI模型的实用性，并解决了在临床环境中使用LLMs的问题。
-
-    
-
-    数字健康工具具有显著改善医疗服务传递的潜力。然而，由于可用性和信任方面的挑战，它们的使用仍然相对有限。最近，大型语言模型（LLMs）作为具有处理复杂信息和生成人类质量文本能力的通用模型出现，为医疗保健领域提供了丰富的潜在应用。直接在临床环境中应用LLMs并不简单，因为LLMs容易提供不一致或无意义的答案。我们展示了如何利用外部工具使LLMs在临床医疗技术互动中提供全新界面。这增强了数字医疗工具和AI模型的实用性和实际影响，同时解决了在临床环境中使用LLMs的当前问题，如幻觉。我们通过心血管疾病和糖尿病风险预测的例子阐述了我们的方法，并突出了其中的好处。
-
-    Digital health tools have the potential to significantly improve the delivery of healthcare services. However, their use remains comparatively limited due, in part, to challenges surrounding usability and trust. Recently, Large Language Models (LLMs) have emerged as general-purpose models with the ability to process complex information and produce human-quality text, presenting a wealth of potential applications in healthcare. Directly applying LLMs in clinical settings is not straightforward, with LLMs susceptible to providing inconsistent or nonsensical answers. We demonstrate how LLMs can utilize external tools to provide a novel interface between clinicians and digital technologies. This enhances the utility and practical impact of digital healthcare tools and AI models while addressing current issues with using LLM in clinical settings such as hallucinations. We illustrate our approach with examples from cardiovascular disease and diabetes risk prediction, highlighting the benefit
-    
-[^4]: 生命科学领域的知识图谱：最新发展、挑战和机遇
-
-    Knowledge Graphs for the Life Sciences: Recent Developments, Challenges and Opportunities. (arXiv:2309.17255v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.17255](http://arxiv.org/abs/2309.17255)
-
-    这篇论文综述了在生命科学领域中使用知识图谱的最新发展和进展，并展望了这些技术在未来对这些领域的影响。
+    本文提出了第一个分布式法律大型语言模型（FedJudge）框架，可以通过在设备或客户端上进行本地微调，并将参数聚合和分布在中央服务器上来确保数据隐私。这解决了集中式训练法律LLMs引发的数据隐私问题和分布偏移导致的FL方法效果降低的挑战。
 
     
 
-    生命科学是研究生物和生命过程的学科，包括化学、生物学、医学和一系列其他相关学科。生命科学的研究工作非常依赖数据，因为它们产生和消费大量科学数据，其中很多数据具有关系和图结构。数据的数量和其中涉及的科学概念和关系的复杂性推动了应用先进的知识驱动技术来管理和解释数据，最终目标是推动科学发现。在这篇综述和观点论文中，我们讨论了知识图谱在生命科学中的最新发展和进展，并展望了这些技术在未来对这些领域的影响。我们重点关注三个主题：知识图谱的构建和管理，以及在新发现的过程中使用知识图谱和相关技术。
+    大型语言模型（LLMs）在法律智能领域得到了广泛应用，可以辅助法律专业人员和普通人。然而，这些法律LLMs的集中式训练引发了数据隐私问题，因为法律数据分散在包含敏感个人信息的各个机构之间。本文通过探索将法律LLMs与分布式学习（FL）方法相结合来解决这一挑战。通过使用FL，法律LLMs可以在设备或客户端上进行本地微调，其参数被聚合并分布在中央服务器上，确保数据隐私而无需直接共享原始数据。然而，计算和通信开销阻碍了LLMs在FL环境中的全面微调。此外，法律数据的分布偏移减少了FL方法的有效性。为此，在本文中，我们提出了第一个分布式法律大型语言模型（FedJudge）框架，可以对LLMs进行微调。
 
-    The term life sciences refers to the disciplines that study living organisms and life processes, and include chemistry, biology, medicine, and a range of other related disciplines. Research efforts in life sciences are heavily data-driven, as they produce and consume vast amounts of scientific data, much of which is intrinsically relational and graph-structured.  The volume of data and the complexity of scientific concepts and relations referred to therein promote the application of advanced knowledge-driven technologies for managing and interpreting data, with the ultimate aim to advance scientific discovery.  In this survey and position paper, we discuss recent developments and advances in the use of graph-based technologies in life sciences and set out a vision for how these technologies will impact these fields into the future. We focus on three broad topics: the construction and management of Knowledge Graphs (KGs), the use of KGs and associated technologies in the discovery of ne
+    Large Language Models (LLMs) have gained prominence in the field of Legal Intelligence, offering potential applications in assisting legal professionals and laymen. However, the centralized training of these Legal LLMs raises data privacy concerns, as legal data is distributed among various institutions containing sensitive individual information. This paper addresses this challenge by exploring the integration of Legal LLMs with Federated Learning (FL) methodologies. By employing FL, Legal LLMs can be fine-tuned locally on devices or clients, and their parameters are aggregated and distributed on a central server, ensuring data privacy without directly sharing raw data. However, computation and communication overheads hinder the full fine-tuning of LLMs under the FL setting. Moreover, the distribution shift of legal data reduces the effectiveness of FL methods. To this end, in this paper, we propose the first Federated Legal Large Language Model (FedJudge) framework, which fine-tunes 
     
-[^5]: 深入理解多语言预训练语言模型中的知识神经元：语言无关知识神经元和退化知识神经元的发现
+[^3]: ChatGPT和GPT-4是优秀的扑克玩家吗？——一项Pre-Flop分析。
 
-    Journey to the Center of the Knowledge Neurons: Discoveries of Language-Independent Knowledge Neurons and Degenerate Knowledge Neurons. (arXiv:2308.13198v1 [cs.CL])
+    Are ChatGPT and GPT-4 Good Poker Players? -- A Pre-Flop Analysis. (arXiv:2308.12466v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.13198](http://arxiv.org/abs/2308.13198)
+    [http://arxiv.org/abs/2308.12466](http://arxiv.org/abs/2308.12466)
 
-    本文研究了多语言预训练语言模型中事实知识的存储方式，并引入了一种新的方法，能够更准确地定位知识神经元。通过实验证明了语言无关知识神经元的存在，以及发现了一种新型退化知识神经元。
-
-    
-
-    预训练语言模型（PLMs）包含大量的事实知识，但其存储在参数中的方式尚不清楚。本文深入研究了多语言PLMs中事实知识的存储方式，并引入了一种基于体系结构的多语言整合梯度方法，相比现有方法更准确地定位知识神经元，并在不同体系结构和语言之间更具普遍性。此外，我们对知识神经元进行了深入探索，得出了以下两项重要的发现：（1）发现了语言无关知识神经元，其以超越语言的方式存储事实知识。我们设计了跨语言知识编辑实验，证明了PLMs可以基于语言无关的神经元完成此任务；（2）发现了退化知识神经元，这是一种新型神经元，表明不同的知识神经元可以在数据特征萎缩的情况下展示。
-
-    Pre-trained language models (PLMs) contain vast amounts of factual knowledge, but how the knowledge is stored in the parameters remains unclear. This paper delves into the complex task of understanding how factual knowledge is stored in multilingual PLMs, and introduces the Architecture-adapted Multilingual Integrated Gradients method, which successfully localizes knowledge neurons more precisely compared to current methods, and is more universal across various architectures and languages. Moreover, we conduct an in-depth exploration of knowledge neurons, leading to the following two important discoveries: (1) The discovery of Language-Independent Knowledge Neurons, which store factual knowledge in a form that transcends language. We design cross-lingual knowledge editing experiments, demonstrating that the PLMs can accomplish this task based on language-independent neurons; (2) The discovery of Degenerate Knowledge Neurons, a novel type of neuron showing that different knowledge neuro
-    
-[^6]: PMET: 在Transformer中的精确模型编辑
-
-    PMET: Precise Model Editing in a Transformer. (arXiv:2308.08742v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.08742](http://arxiv.org/abs/2308.08742)
-
-    该论文通过分析Transformer模型中的隐藏状态，发现多头自注意力编码了某些通用知识提取模式，因此在进行模型编辑时，不需要更新多头自注意力的权重。
+    ChatGPT和GPT-4在扑克中显示出高级理解，但不是游戏论理最优的扑克玩家。对模型参数和提示的优化可以提高它们在扑克中的表现。
 
     
 
-    模型编辑技术可以以较低的成本修改大型语言模型中的少量知识，并且已经取得了显著的成功。现有方法假设Transformer层隐藏状态是前馈网络的键值内存的值。它们通常优化Transformer层隐藏状态来记忆目标知识，并将其用于更新大型语言模型中前馈网络的权重。然而，Transformer层隐藏状态的信息流来自三个部分：多头自注意力、前馈网络和残差连接。现有方法忽视了Transformer层隐藏状态包含了前馈网络特别需要的信息这一事实。因此，模型编辑的性能下降。为了实现更精确的模型编辑，我们分析了多头自注意力和前馈网络的隐藏状态，发现多头自注意力编码了某些通用知识提取模式。这意味着当引入新知识时，多头自注意力的权重不需要更新。
+    自ChatGPT和GPT-4问世以来，这些模型已在许多任务中进行了测试。它们在各个领域的熟练程度是显而易见的，但它们在游戏中的能力，特别是在扑克领域的能力，还未被探索。扑克是一种需要在不确定性和不完全信息下做出决策的游戏。在本文中，我们对ChatGPT和GPT-4进行了扑克测试，并评估了它们的扑克技能。我们的研究结果显示，虽然这两个模型都展示了对扑克的高级理解，包括起始手牌的估值、打牌位置以及游戏论理最优(GTO)扑克的其他复杂性，但ChatGPT和GPT-4并不是游戏论理最优的扑克玩家。通过一系列实验，我们首先发现了与使用这些模型玩扑克相关的最佳提示和模型参数的特征。接着，我们观察到了这两个模型具有不同的打牌风格。最终，我们得出结论：GPT-4是
 
-    Model editing techniques modify a minor proportion of knowledge in Large Language Models (LLMs) at a relatively low cost, which have demonstrated notable success. Existing methods assume Transformer Layer (TL) hidden states are values of key-value memories of the Feed-Forward Network (FFN). They usually optimize the TL hidden states to memorize target knowledge and use it to update the weights of the FFN in LLMs. However, the information flow of TL hidden states comes from three parts: Multi-Head Self-Attention (MHSA), FFN, and residual connections. Existing methods neglect the fact that the TL hidden states contains information not specifically required for FFN. Consequently, the performance of model editing decreases. To achieve more precise model editing, we analyze hidden states of MHSA and FFN, finding that MHSA encodes certain general knowledge extraction patterns. This implies that MHSA weights do not require updating when new knowledge is introduced. Based on above findings, we
+    Since the introduction of ChatGPT and GPT-4, these models have been tested across a large number of tasks. Their adeptness across domains is evident, but their aptitude in playing games and specifically their aptitude in the realm of poker has remained unexplored. Poker is a game that requires decision making under uncertainty and incomplete information. In this paper, we put ChatGPT and GPT-4 through the poker test and evaluate their poker skills. Our findings reveal that while both models display an advanced understanding of poker, encompassing concepts like the valuation of starting hands, playing positions and other intricacies of game theory optimal (GTO) poker, both ChatGPT and GPT-4 are NOT game theory optimal poker players.  Through a series of experiments, we first discover the characteristics of optimal prompts and model parameters for playing poker with these models. Our observations then unveil the distinct playing personas of the two models. We first conclude that GPT-4 is
     
-[^7]: IndicTrans2: 为印度所有22种官方语言构建高质量可访问的机器翻译模型
+[^4]: 对齐语言模型上的通用和可迁移对抗攻击
 
-    IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages. (arXiv:2305.16307v2 [cs.CL] UPDATED)
+    Universal and Transferable Adversarial Attacks on Aligned Language Models. (arXiv:2307.15043v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.16307](http://arxiv.org/abs/2305.16307)
+    [http://arxiv.org/abs/2307.15043](http://arxiv.org/abs/2307.15043)
 
-    本研究填补了印度22种官方语言机器翻译的空白，提出了IndicTrans2系统，它在多个语言对上表现最先进并优于现有的模型，同时提供了印度语言的基准和评估脚本。
-
-    
-
-    印度有着丰富的语言景观，包括四个主要语系的语言，超过十亿人口使用。本篇论文聚焦于印度宪法列出的22种语言，被称为“官方语言”。鉴于语言多样性，高质量和可访问的机器翻译系统在印度这样的国家至关重要。在此之前，缺少（i）涵盖所有22种语言的平行训练数据，（ii）覆盖这些语言并包含印度相关内容的健壮基准，以及（iii）支持印度所有22种官方语言的现有翻译模型。本文旨在填补这一空白，并专注于启用22种印度官方语言的广泛、易于使用和开放式访问好的机器翻译系统所需的缺失部分。我们确定了四个改进关键领域：策划和创建更大的训练数据集、创建多样化和高质量的基准、跨越所有22种官方语言进行翻译，并构建高质量且可访问的机器翻译模型。我们的提议系统IndicTrans2在多个语言对上实现了最先进的性能，并且优于现有的在22种官方语言下的机器翻译模型。此外，我们提供了这些语言的基准和评估脚本，使得研究人员更容易地评价和提高关于印度语言的机器翻译模型。
-
-    India has a rich linguistic landscape with languages from 4 major language families spoken by over a billion people. 22 of these languages are listed in the Constitution of India (referred to as scheduled languages) are the focus of this work. Given the linguistic diversity, high-quality and accessible Machine Translation (MT) systems are essential in a country like India. Prior to this work, there was (i) no parallel training data spanning all the 22 languages, (ii) no robust benchmarks covering all these languages and containing content relevant to India, and (iii) no existing translation models which support all the 22 scheduled languages of India. In this work, we aim to address this gap by focusing on the missing pieces required for enabling wide, easy, and open access to good machine translation systems for all 22 scheduled Indian languages. We identify four key areas of improvement: curating and creating larger training datasets, creating diverse and high-quality benchmarks, tra
-    
-[^8]: RewriteLM：一种面向文本重写的指令调整大型语言模型。
-
-    RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting. (arXiv:2305.15685v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.15685](http://arxiv.org/abs/2305.15685)
-
-    本文介绍了 RewriteLM，一种指令调整的大型语言模型，用于长篇文本重写。同时，我们提出了一个名为 OpenRewriteEval 的基准测试，用于评估各种类型的开放式长篇文本重写。我们采用新的策略来促进多样的指令和偏好数据生成，从而为长篇文本重写提供更好的评估手段。
+    这项研究提出了一种简单而有效的攻击方法，能够使对齐的语言模型生成不良行为，而不依赖于人工设计，通过自动化方法产生对抗性后缀，并在实践中取得改进。
 
     
 
-    大型语言模型已经展现出在长篇文本生成任务中通过自然语言指令表达来的惊人的零-shot能力，然而用户对于长篇文本重写的期望值很高，模型产生的意外重写（“幻觉”）会对其整体性能产生负面影响。现有的评估基准主要关注有限的重写风格和句子级重写，而不是长篇开放式重写。我们引入了一个新的基准测试OpenRewriteEval，它涵盖了通过自然语言指令表达的各种重写类型。它特别设计用于促进长篇文本开放式重写的评估。此外，我们提出了一种强大的基线模型RewriteLM，一个用于长篇文本重写的指令调整大型语言模型。我们开发了一些新策略，以最小人工干预促进生成多样的指令和偏好数据。
+    由于“开箱即用”的大型语言模型能够生成大量引起反感的内容，最新的研究专注于对齐这些模型，以防止产生不良生成。尽管在规避这些措施上取得了一些成功，所谓的对LLMs的“越狱”攻击，但这些攻击需要人为的巧思，实际上并不稳定。在本文中，我们提出了一种简单而有效的攻击方法，使对齐的语言模型生成不良行为。具体而言，我们的方法找到一个后缀，当附加到各种查询上，供LLM生成不良内容时，旨在最大化模型产生肯定回答（而不是拒绝回答）的概率。然而，与其依赖手工设计，我们的方法通过贪婪和基于梯度的搜索技术自动产生这些对抗性后缀，并且在过去的自动化方法上进行了改进。
 
-    Large Language Models (LLMs) have demonstrated impressive zero-shot capabilities in long-form text generation tasks expressed through natural language instructions. However, user expectations for long-form text rewriting is high, and unintended rewrites (''hallucinations'') produced by the model can negatively impact its overall performance. Existing evaluation benchmarks primarily focus on limited rewriting styles and sentence-level rewriting rather than long-form open-ended rewriting.We introduce OpenRewriteEval, a novel benchmark that covers a wide variety of rewriting types expressed through natural language instructions. It is specifically designed to facilitate the evaluation of open-ended rewriting of long-form texts. In addition, we propose a strong baseline model, RewriteLM, an instruction-tuned large language model for long-form text rewriting. We develop new strategies that facilitate the generation of diverse instructions and preference data with minimal human intervention.
+    Because "out-of-the-box" large language models are capable of generating a great deal of objectionable content, recent work has focused on aligning these models in an attempt to prevent undesirable generation. While there has been some success at circumventing these measures -- so-called "jailbreaks" against LLMs -- these attacks have required significant human ingenuity and are brittle in practice. In this paper, we propose a simple and effective attack method that causes aligned language models to generate objectionable behaviors. Specifically, our approach finds a suffix that, when attached to a wide range of queries for an LLM to produce objectionable content, aims to maximize the probability that the model produces an affirmative response (rather than refusing to answer). However, instead of relying on manual engineering, our approach automatically produces these adversarial suffixes by a combination of greedy and gradient-based search techniques, and also improves over past autom
     
-[^9]: 通过多语言一致性评估任务理解：ChatGPT案例研究
+[^5]: Prot2Text: 基于GNNs和Transformers的多模态蛋白质功能生成
 
-    Evaluating task understanding through multilingual consistency: A ChatGPT case study. (arXiv:2305.11662v1 [cs.CL])
+    Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers. (arXiv:2307.14367v1 [q-bio.QM])
 
-    [http://arxiv.org/abs/2305.11662](http://arxiv.org/abs/2305.11662)
+    [http://arxiv.org/abs/2307.14367](http://arxiv.org/abs/2307.14367)
 
-    本文提出了一种新的评估大型语言模型理解能力的范例，通过评估模型自身生成的不同意义之间的一致性，探讨了多语言自我一致性作为模型理解的检验方法，同时证明了ChatGPT在多语言一致性方面的优秀性能。
-
-    
-
-    随着大型语言模型（LLM）功能的惊人提升，创建未来可持续的评估集以评估它们的理解变得越来越具有挑战性。本文提出了一种新的评估LLM的范例，该范例利用了正确的世界理解应该在相同含义的不同（弗雷格）意义上保持一致的思想。因此，我们不是通过正确性来衡量理解，而是通过评估模型自身生成的多个意义之间的一致性来衡量。我们通过实例化一个测试展示了我们的方法，其中不同的意义是不同的语言，因此将多语言自我一致性作为模型理解的检验并同时解决多语言的重要主题。我们以最新版本的ChatGPT为我们的研究对象，在三种不同语言中评估两个不同任务的多语言一致性。我们证明了ChatGPT在多语言一致性方面的优秀性能。
-
-    At the staggering pace with which the capabilities of large language models (LLMs) are increasing, creating future-proof evaluation sets to assess their understanding becomes more and more challenging. In this paper, we propose a novel paradigm for evaluating LLMs which leverages the idea that correct world understanding should be consistent across different (Fregean) senses of the same meaning. Accordingly, we measure understanding not in terms of correctness but by evaluating consistency across multiple senses that are generated by the model itself. We showcase our approach by instantiating a test where the different senses are different languages, hence using multilingual self-consistency as a litmus test for the model's understanding and simultaneously addressing the important topic of multilingualism. Taking one of the latest versions of ChatGPT as our object of study, we evaluate multilingual consistency for two different tasks across three different languages. We show that its m
-    
-[^10]: 通过对比学习加强知识的短文本匹配模型
-
-    The Short Text Matching Model Enhanced with Knowledge via Contrastive Learning. (arXiv:2304.03898v1 [cs.CL])
-
-    [http://arxiv.org/abs/2304.03898](http://arxiv.org/abs/2304.03898)
-
-    提出了一种短文本匹配模型，使用生成模型生成补充句子，结合对比学习和外部知识进行语义匹配，并使用关键词避免噪声问题。
+    提出了一种名为Prot2Text的新方法，通过结合GNNs和Transformers，以自由文本样式预测蛋白质的功能。该方法能够综合蛋白质的序列、结构和文本注释等多种数据类型，超越传统的二进制或分类分类，实现了对蛋白质功能的全面表示。
 
     
 
-    近年来，短文本匹配任务在广告搜索和推荐领域得到了广泛应用。由于文本长度短，语义信息匮乏和单词歧义问题成为此类任务的难点。先前的研究已经引入文本补充句子或知识库来提供附加的特征信息。然而，这些方法没有充分地交互原始句子和补充句子，也没有考虑到外部知识库引入的噪声问题。因此，本文提出了一种结合对比学习和外部知识的短文本匹配模型。该模型利用生成模型生成对应的补充句子，并使用对比学习方法指导模型获得更具语义匹配性的原始句子编码。此外，为了避免噪声，我们使用关键词作为原始句子的主要语义进行检索。
+    大型生物系统的复杂性使某些科学家将其理解归类为难以想象的任务。不同级别的挑战使这项任务复杂化，其中之一是预测蛋白质的功能。近年来，通过开发各种机器学习方法，在这个领域取得了重大进展。然而，大多数现有的方法将任务表述为多分类问题，即将预定义标签分配给蛋白质。在这项工作中，我们提出了一种新的方法——Prot2Text，以自由文本样式预测蛋白质的功能，超越传统的二进制或分类分类。通过在编码器-解码器框架中结合图神经网络（GNNs）和大型语言模型（LLMs），我们的模型有效地整合了蛋白质序列、结构和文本注释等多种数据类型。这种多模态方法允许对蛋白质功能进行整体表示。
 
-    In recent years, short Text Matching tasks have been widely applied in the fields ofadvertising search and recommendation. The difficulty lies in the lack of semantic information and word ambiguity caused by the short length of the text. Previous works have introduced complement sentences or knowledge bases to provide additional feature information. However, these methods have not fully interacted between the original sentence and the complement sentence, and have not considered the noise issue that may arise from the introduction of external knowledge bases. Therefore, this paper proposes a short Text Matching model that combines contrastive learning and external knowledge. The model uses a generative model to generate corresponding complement sentences and uses the contrastive learning method to guide the model to obtain more semantically meaningful encoding of the original sentence. In addition, to avoid noise, we use keywords as the main semantics of the original sentence to retrie
+    The complex nature of big biological systems pushed some scientists to classify its understanding under the inconceivable missions. Different leveled challenges complicated this task, one of is the prediction of a protein's function. In recent years, significant progress has been made in this field through the development of various machine learning approaches. However, most existing methods formulate the task as a multi-classification problem, i.e assigning predefined labels to proteins. In this work, we propose a novel approach, \textbf{Prot2Text}, which predicts a protein function's in a free text style, moving beyond the conventional binary or categorical classifications. By combining Graph Neural Networks(GNNs) and Large Language Models(LLMs), in an encoder-decoder framework, our model effectively integrates diverse data types including proteins' sequences, structures, and textual annotations. This multimodal approach allows for a holistic representation of proteins' functions, en
     
-[^11]: 大语言模型时代的安全分析：聊天GPT在STPA案例研究中的应用
+[^6]: Layer-wise Representation Fusion for Compositional Generalization. (arXiv:2307.10799v1 [cs.CL])
 
-    Safety Analysis in the Era of Large Language Models: A Case Study of STPA using ChatGPT. (arXiv:2304.01246v1 [cs.CL])
+    Layer-wise Representation Fusion for Compositional Generalization. (arXiv:2307.10799v1 [cs.CL])
 
-    [http://arxiv.org/abs/2304.01246](http://arxiv.org/abs/2304.01246)
+    [http://arxiv.org/abs/2307.10799](http://arxiv.org/abs/2307.10799)
 
-    本文研究了大型语言模型在系统论过程分析（STPA）中的应用，并采用ChatGPT对自动紧急制动（AEB）系统进行了案例研究。结果表明，重复双工交互方法是最有效的，并显着提高了STPA的质量。本研究证明，LLMs可以应用于安全分析，并为安全关键系统提供有价值的见解。
-
-    
-
-    大型语言模型（LLMs），如ChatGPT和BERT，由于其具有类似于人类的对话，在许多知识领域中具有详细和明确的答案，正在引领一场新的人工智能热潮。虽然LLMs正在迅速应用于许多人工智能应用领域，但我们对以下问题感兴趣：安全关键系统的安全分析是否可以利用LLMs？为了回答这个问题，我们使用ChatGPT对自动紧急制动（AEB）系统的系统论过程分析（STPA）进行了案例研究。STPA是最普遍的危险分析技术之一，但它存在诸多局限性，例如高复杂性和主观性，本文旨在探讨ChatGPT的应用，以解决这些局限性。具体而言，通过考虑其与人类专家的交互，研究了三种将ChatGPT纳入STPA中的方法：一次性单工交互、重复单工交互和重复双工交互。比较结果表明：（i）在没有人类专家的情况下使用ChatGPT不能为STPA提供足够的信息；（ii）一次性单工交互对STPA有帮助，但不如重复交互有效；（iii）重复双工交互一致优于其他方法，并显着提高了STPA的质量。我们的研究表明，LLMs可以应用于安全分析，并为AEB以外的其他安全关键系统提供有价值的见解。
-
-    Large Language Models (LLMs), such as ChatGPT and BERT, are leading a new AI heatwave due to its human-like conversations with detailed and articulate answers across many domains of knowledge. While LLMs are being quickly applied to many AI application domains, we are interested in the following question: Can safety analysis for safety-critical systems make use of LLMs? To answer, we conduct a case study of Systems Theoretic Process Analysis (STPA) on Automatic Emergency Brake (AEB) systems using ChatGPT. STPA, one of the most prevalent techniques for hazard analysis, is known to have limitations such as high complexity and subjectivity, which this paper aims to explore the use of ChatGPT to address. Specifically, three ways of incorporating ChatGPT into STPA are investigated by considering its interaction with human experts: one-off simplex interaction, recurring simplex interaction, and recurring duplex interaction. Comparative results reveal that: (i) using ChatGPT without human exp
-    
-[^12]: 2D扩散算法的去偏置方法用于文本到3D生成
-
-    Debiasing Scores and Prompts of 2D Diffusion for Robust Text-to-3D Generation. (arXiv:2303.15413v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2303.15413](http://arxiv.org/abs/2303.15413)
-
-    本文提出了两种去偏置的方法，一种通过增加2D扩散模型得出的分数的截断值，一种通过调整视角提示和物体空间摄像机姿态之间的差异。实验结果表明这些方法可以显著减少伪影，提高真实感。
+    该论文提出了一种层级表示融合的方法，以提升序列到序列模型在组合泛化方面的表现。之前的研究主要关注增强基于令牌的语义信息，而本文提出了在人类那样适当地组合和使用序列的句法和语义表示的方法。此外，从近期的关于训练更深Transformer的研究结果来看，纠缠问题主要是由于残差连接的“浅层”和简单的单步操作导致不能有效地融合前面层的信息。
 
     
 
-    本文探讨了在文本到3D生成中出现的视角一致性问题，也称为Janus问题。这个问题来自于2D扩散模型的固有偏置，导致生成的3D对象不真实。通过对其进行研究，我们提出了两种方法来去除偏置以实现文本到3D生成的鲁棒性。第一种方法叫做score debiasing，通过逐渐增加2D扩散模型得出的分数的截断值，来达到去除偏置的效果。第二种方法叫做prompt debiasing，利用语言模型确定用户提示和视角提示之间的矛盾词语，并调整视角提示和物体空间摄像机姿态之间的差异。我们的实验结果表明，我们的方法通过显著减少伪影，提高了真实感，并在质量与速度方面取得了良好的平衡。
+    尽管序列到序列模型在广泛的应用中取得了成功，但其构建的解决方案被认为在组合泛化方面不如人类。越来越多的证据表明，阻碍组合泛化的一个原因是编码器和解码器最上层的表示被纠缠在一起。换句话说，序列的句法和语义表示被不适当地扭曲了。然而，大多数以前的研究主要集中于增强基于令牌的语义信息，以缓解表示纠缠问题，而不是像人类那样适当地组合和使用序列的句法和语义表示。此外，我们从近期关于训练更深Transformer的研究的角度解释了为什么纠缠问题存在，主要是由于“浅层”残差连接和其简单的单步操作导致无法有效地融合前面层的信息。
 
-    The view inconsistency problem in score-distilling text-to-3D generation, also known as the Janus problem, arises from the intrinsic bias of 2D diffusion models, which leads to the unrealistic generation of 3D objects. In this work, we explore score-distilling text-to-3D generation and identify the main causes of the Janus problem. Based on these findings, we propose two approaches to debias the score-distillation frameworks for robust text-to-3D generation. Our first approach, called score debiasing, involves gradually increasing the truncation value for the score estimated by 2D diffusion models throughout the optimization process. Our second approach, called prompt debiasing, identifies conflicting words between user prompts and view prompts utilizing a language model and adjusts the discrepancy between view prompts and object-space camera poses. Our experimental results show that our methods improve realism by significantly reducing artifacts and achieve a good trade-off between fa
+    Despite successes across a broad range of applications, sequence-to-sequence models' construct of solutions are argued to be less compositional than human-like generalization. There is mounting evidence that one of the reasons hindering compositional generalization is representations of the encoder and decoder uppermost layer are entangled. In other words, the syntactic and semantic representations of sequences are twisted inappropriately. However, most previous studies mainly concentrate on enhancing token-level semantic information to alleviate the representations entanglement problem, rather than composing and using the syntactic and semantic representations of sequences appropriately as humans do. In addition, we explain why the entanglement problem exists from the perspective of recent studies about training deeper Transformer, mainly owing to the ``shallow'' residual connections and its simple, one-step operations, which fails to fuse previous layers' information effectively. Sta
     
-[^13]: SEAM:一种集成了句子处理与阅读中眼动的激活耦合模型
+[^7]: 探索大规模语言模型在在线职位推荐中对图数据的理解
 
-    SEAM: An Integrated Activation-Coupled Model of Sentence Processing and Eye Movements in Reading. (arXiv:2303.05221v2 [q-bio.NC] UPDATED)
+    Exploring Large Language Model for Graph Data Understanding in Online Job Recommendations. (arXiv:2307.05722v1 [cs.AI])
 
-    [http://arxiv.org/abs/2303.05221](http://arxiv.org/abs/2303.05221)
+    [http://arxiv.org/abs/2307.05722](http://arxiv.org/abs/2307.05722)
 
-    SEAM是一种集成了眼动控制和句子处理的模型，为实现阅读中自然语言理解的完整数学模型迈出了重要一步。
+    本论文探索了大规模语言模型在在线职位推荐中对图数据的理解能力，并提出了新的框架来分析行为图，发现其中的潜在模式和关系。
 
     
 
-    阅读中的眼动控制模型通常集中在视觉、注意、词汇和运动过程，但忽略了词汇后处理的语言处理。相比之下，句子理解过程的模型通常只关注词汇后处理的语言过程。我们提出了一种将这两种研究线索结合起来的模型，即整合眼动控制和句子处理。开发这样一个整合模型具有极大的挑战性和计算复杂性，但这样的整合是朝着完整的自然语言理解数学模型迈出的重要一步。我们将眼动控制模型SWIFT（Seelig等人，2020）与Lewis和Vasishth句子处理模型的关键组成部分（Lewis＆Vasishth，2005）结合在一起。这种整合首次变得可能，部分原因是因为。。
+    大规模语言模型（LLMs）在各个领域展示了其出色的能力，彻底改变了自然语言处理任务。然而，它们在职位推荐中对行为图的理解潜力仍然未被充分探索。本文旨在揭示大规模语言模型在理解行为图方面的能力，并利用这种理解来提升在线招聘中的推荐，包括促进非分布式的应用。我们提出了一个新的框架，利用大规模语言模型提供的丰富上下文信息和语义表示来分析行为图并揭示其中的潜在模式和关系。具体而言，我们提出了一个元路径提示构造器，利用LLM推荐器首次理解行为图，并设计了相应的路径增强模块来缓解基于路径的序列输入引入的提示偏差。通过利用将LM的特点引入到行为图的大规模数据分析中，我们取得了显著的实验结果，证明了我们提出的方法的有效性和性能。
 
-    Models of eye-movement control during reading, developed largely within psychology, usually focus on visual, attentional, lexical, and motor processes but neglect post-lexical language processing; by contrast, models of sentence comprehension processes, developed largely within psycholinguistics, generally focus only on post-lexical language processes. We present a model that combines these two research threads, by integrating eye-movement control and sentence processing. Developing such an integrated model is extremely challenging and computationally demanding, but such an integration is an important step toward complete mathematical models of natural language comprehension in reading. We combine the SWIFT model of eye-movement control (Seelig et al., 2020, doi:10.1016/j.jmp.2019.102313) with key components of the Lewis and Vasishth sentence processing model (Lewis & Vasishth, 2005, doi:10.1207/s15516709cog0000_25). This integration becomes possible, for the first time, due in part to
+    Large Language Models (LLMs) have revolutionized natural language processing tasks, demonstrating their exceptional capabilities in various domains. However, their potential for behavior graph understanding in job recommendations remains largely unexplored. This paper focuses on unveiling the capability of large language models in understanding behavior graphs and leveraging this understanding to enhance recommendations in online recruitment, including the promotion of out-of-distribution (OOD) application. We present a novel framework that harnesses the rich contextual information and semantic representations provided by large language models to analyze behavior graphs and uncover underlying patterns and relationships. Specifically, we propose a meta-path prompt constructor that leverages LLM recommender to understand behavior graphs for the first time and design a corresponding path augmentation module to alleviate the prompt bias introduced by path-based sequence input. By leveragin
+    
+[^8]: BloombergGPT：金融领域的大型语言模型
+
+    BloombergGPT: A Large Language Model for Finance. (arXiv:2303.17564v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.17564](http://arxiv.org/abs/2303.17564)
+
+    本文提出了BloombergGPT，一个500亿参数的金融领域的大型语言模型，其基于Bloomberg的广泛数据来源和通用数据集进行训练。通过混合数据集训练，该模型在金融任务上表现出色，并且不会牺牲在普通任务上的性能。
+
+    
+
+    自然语言处理在金融技术领域有着广泛而复杂的应用，从情感分析和命名实体识别到问答。大型语言模型（LLM）已被证明在各种任务上非常有效；然而，专为金融领域设计的LLM尚未在文献中报告。在本文中，我们提出了BloombergGPT，一个拥有500亿个参数的语言模型，它是基于广泛的金融数据进行训练的。我们构建了一种3630亿个标记的数据集，该数据集基于彭博社的广泛数据来源，可能是迄今最大的领域特定数据集，同时又增加了来自通用数据集的3450亿个标记。我们在标准LLM基准、开放式金融基准和一套最能准确反映我们预期用途的内部基准上验证了BloombergGPT。我们的混合数据集训练产生了一个在金融任务上明显优于现有模型的模型，同时不会牺牲普通任务的性能。
+
+    The use of NLP in the realm of financial technology is broad and complex, with applications ranging from sentiment analysis and named entity recognition to question answering. Large Language Models (LLMs) have been shown to be effective on a variety of tasks; however, no LLM specialized for the financial domain has been reported in literature. In this work, we present BloombergGPT, a 50 billion parameter language model that is trained on a wide range of financial data. We construct a 363 billion token dataset based on Bloomberg's extensive data sources, perhaps the largest domain-specific dataset yet, augmented with 345 billion tokens from general purpose datasets. We validate BloombergGPT on standard LLM benchmarks, open financial benchmarks, and a suite of internal benchmarks that most accurately reflect our intended usage. Our mixed dataset training leads to a model that outperforms existing models on financial tasks by significant margins without sacrificing performance on general 
+    
+[^9]: 参数效率微调的自适应预算分配
+
+    Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning. (arXiv:2303.10512v1 [cs.CL])
+
+    [http://arxiv.org/abs/2303.10512](http://arxiv.org/abs/2303.10512)
+
+    AdaLoRA是一种自适应预算分配方法，用于参数效率微调。将增量更新的预算根据权重矩阵的重要性分数进行自适应分配，通过奇异值分解的形式，实现了微调表现的优化。
+
+    
+
+    在自然语言处理中，对预训练的大型语言模型进行微调已经成为了一种重要的范式。然而，通常的做法是微调预训练模型中的所有参数，当存在大量下游任务时，这种方法变得不切实际。因此，许多微调方法被提出来以以参数有效的方式学习预训练加权的增量更新，例如低秩增量。这些方法通常将增量更新的预算均匀分配到所有预训练的权重矩阵上，忽略了不同权重参数的不同重要性。结果，微调的表现是次优的。为弥补这一差距，我们提出了AdaLoRA，根据它们的重要性分数自适应分配权重矩阵的参数预算。特别地，AdaLoRA将增量更新的参数化为奇异值分解的形式。这种新颖的方法使我们可以有效地剪枝奇异值。
+
+    Fine-tuning large pre-trained language models on downstream tasks has become an important paradigm in NLP. However, common practice fine-tunes all of the parameters in a pre-trained model, which becomes prohibitive when a large number of downstream tasks are present. Therefore, many fine-tuning methods are proposed to learn incremental updates of pre-trained weights in a parameter efficient way, e.g., low-rank increments. These methods often evenly distribute the budget of incremental updates across all pre-trained weight matrices, and overlook the varying importance of different weight parameters. As a consequence, the fine-tuning performance is suboptimal. To bridge this gap, we propose AdaLoRA, which adaptively allocates the parameter budget among weight matrices according to their importance score. In particular, AdaLoRA parameterizes the incremental updates in the form of singular value decomposition. Such a novel approach allows us to effectively prune the singular values of unim
+    
+[^10]: 通过变分信息瓶颈和对比学习减少方面情感分析中的虚假相关性
+
+    Reducing Spurious Correlations for Aspect-Based Sentiment Analysis with Variational Information Bottleneck and Contrastive Learning. (arXiv:2303.02846v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2303.02846](http://arxiv.org/abs/2303.02846)
+
+    本文提出了一种新的对比变分信息瓶颈框架（CVIB），以减少方面情感分析（ABSA）中的虚假相关性。该框架由一个原始网络和一个自剪枝网络组成，通过对比学习同时进行优化，从而丢弃了输入特征和预测标签之间的多余模式或虚假相关性。
+
+    This paper proposes a novel Contrastive Variational Information Bottleneck framework (CVIB) to reduce spurious correlations for aspect-based sentiment analysis (ABSA). The proposed CVIB framework is composed of an original network and a self-pruned network, and these two networks are optimized simultaneously via contrastive learning, which discards the superfluous patterns or spurious correlations between input features and prediction labels.
+
+    深度学习技术在方面情感分析（ABSA）的文献中占据主导地位，取得了最先进的结果。然而，这些深度模型通常在输入特征和输出标签之间存在虚假相关性问题，这会给鲁棒性和泛化能力带来重大障碍。在本文中，我们提出了一种新颖的对比变分信息瓶颈框架（称为CVIB），以减少ABSA中的虚假相关性。所提出的CVIB框架由一个原始网络和一个自剪枝网络组成，这两个网络通过对比学习同时进行优化。具体而言，我们采用变分信息瓶颈（VIB）原则从原始网络中学习一个信息丰富且压缩的网络（自剪枝网络），该网络丢弃了输入特征和预测标签之间的多余模式或虚假相关性。然后，我们设计了自剪枝对比学习，以将两个网络拉在一起。
+
+    Deep learning techniques have dominated the literature on aspect-based sentiment analysis (ABSA), yielding state-of-the-art results. However, these deep models generally suffer from spurious correlation problems between input features and output labels, which creates significant barriers to robustness and generalization capability. In this paper, we propose a novel Contrastive Variational Information Bottleneck framework (called CVIB) to reduce spurious correlations for ABSA. The proposed CVIB framework is composed of an original network and a self-pruned network, and these two networks are optimized simultaneously via contrastive learning. Concretely, we employ the Variational Information Bottleneck (VIB) principle to learn an informative and compressed network (self-pruned network) from the original network, which discards the superfluous patterns or spurious correlations between input features and prediction labels. Then, self-pruning contrastive learning is devised to pull together
     
 
