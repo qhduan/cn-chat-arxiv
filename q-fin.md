@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [All AMMs are CFMMs. All DeFi markets have invariants. A DeFi market is arbitrage-free if and only if it has an increasing invariant.](http://arxiv.org/abs/2310.09782) | 这篇论文证明了在DeFi市场中，所有的AMMs都是CFMMs，并且DeFi市场无套利的充分必要条件是它具有一个递增的不变量。 |
+
 
 # 详细
 
-[^1]: 所有AMMs都是CFMMs。所有的DeFi市场都有不变量。当且仅当DeFi市场有一个递增的不变量时，DeFi市场是无套利的。(arXiv:2310.09782v1 [q-fin.TR])
 
-    All AMMs are CFMMs. All DeFi markets have invariants. A DeFi market is arbitrage-free if and only if it has an increasing invariant. (arXiv:2310.09782v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2310.09782](http://arxiv.org/abs/2310.09782)
-
-    这篇论文证明了在DeFi市场中，所有的AMMs都是CFMMs，并且DeFi市场无套利的充分必要条件是它具有一个递增的不变量。
-
-    
-
-    在一个通用的框架中，把任何市场系统表达为状态转换规则，我们证明了每个DeFi市场系统都有一个不变量；事实上，所有的AMMs都是CFMMs。不变量与套利和完备性直接相关，基于两个基本等价性。首先，我们证明，DeFi市场系统无套利当且仅当它有一个严格递增的不变量，其中无套利意味着任何一系列的交易都不能将一个状态转换为一个被支配的状态。其次，我们证明，如果市场系统是完备的，即至少在一个方向上允许所有状态对之间的转换，那么不变量是唯一的。因此，无套利 (或者完备性) 的一个必要条件是递增 (或者唯一性) 不变量的存在，因此在非线性的DeFi理论中，不变量在存在性 (或者唯一性) 上具有基础性的作用。
-
-    In a universal framework that expresses any market system in terms of state transition rules, we prove that every DeFi market system has an invariant; indeed, all AMMs are CFMMs.  Invariants connect directly to arbitrage and to completeness, according to two fundamental equivalences. First, a DeFi market system is, we prove, arbitrage-free if and only if it has a strictly increasing invariant, where arbitrage-free means that no state can be transformed into a dominated state by any sequence of transactions. Second, the invariant is, we prove, unique if and only if the market system is complete, meaning that it allows transitions between all pairs of states in the state space, in at least one direction.  Thus a necessary and sufficient condition for no-arbitrage (respectively, for completeness) is the existence of the increasing (respectively, the uniqueness of the) invariant, which, therefore, fulfills in nonlinear DeFi theory the foundational role parallel to the existence (respective
-    
 
