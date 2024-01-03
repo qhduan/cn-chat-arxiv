@@ -1,0 +1,12 @@
+{
+    "title": "Encoding Binary Events from Continuous Time Series in Rooted Trees using Contrastive Learning. (arXiv:2401.01242v1 [cs.LG])",
+    "abstract": "Broadband infrastructure owners do not always know how their customers are connected in the local networks, which are structured as rooted trees. A recent study is able to infer the topology of a local network using discrete time series data from the leaves of the tree (customers). In this study we propose a contrastive approach for learning a binary event encoder from continuous time series data. As a preliminary result, we show that our approach has some potential in learning a valuable encoder.",
+    "link": "http://arxiv.org/abs/2401.01242",
+    "context": "Title: Encoding Binary Events from Continuous Time Series in Rooted Trees using Contrastive Learning. (arXiv:2401.01242v1 [cs.LG])\nAbstract: Broadband infrastructure owners do not always know how their customers are connected in the local networks, which are structured as rooted trees. A recent study is able to infer the topology of a local network using discrete time series data from the leaves of the tree (customers). In this study we propose a contrastive approach for learning a binary event encoder from continuous time series data. As a preliminary result, we show that our approach has some potential in learning a valuable encoder.",
+    "path": "papers/24/01/2401.01242.json",
+    "total_tokens": 630,
+    "translated_title": "使用对比学习在根树中对连续时间序列的二进制事件进行编码",
+    "translated_abstract": "广域基础设施所有者通常不知道他们的客户在本地网络中是如何连接的，这些网络以根树结构组织。最近的一项研究使用来自树叶（客户）的离散时间序列数据推断本地网络的拓扑结构。在本研究中，我们提出了一种对连续时间序列数据进行二进制事件编码的对比学习方法。作为初步结果，我们展示了我们的方法在学习有价值的编码器方面具有一定潜力。",
+    "tldr": "本研究提出了一种对连续时间序列数据进行二进制事件编码的对比学习方法，具有推断本地网络拓扑结构的潜力。",
+    "en_tdlr": "This study proposes a contrastive learning approach for encoding binary events from continuous time series data, with potential in inferring the topology of local networks."
+}

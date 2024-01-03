@@ -1,0 +1,11 @@
+{
+    "title": "Quokka: An Open-source Large Language Model ChatBot for Material Science. (arXiv:2401.01089v1 [cs.CL])",
+    "abstract": "This paper presents the development of a specialized chatbot for materials science, leveraging the Llama-2 language model, and continuing pre-training on the expansive research articles in the materials science domain from the S2ORC dataset. The methodology involves an initial pretraining phase on over one million domain-specific papers, followed by an instruction-tuning process to refine the chatbot's capabilities. The chatbot is designed to assist researchers, educators, and students by providing instant, context-aware responses to queries in the field of materials science. We make the four trained checkpoints (7B, 13B, with or without chat ability) freely available to the research community at https://github.com/Xianjun-Yang/Quokka.",
+    "link": "http://arxiv.org/abs/2401.01089",
+    "context": "Title: Quokka: An Open-source Large Language Model ChatBot for Material Science. (arXiv:2401.01089v1 [cs.CL])\nAbstract: This paper presents the development of a specialized chatbot for materials science, leveraging the Llama-2 language model, and continuing pre-training on the expansive research articles in the materials science domain from the S2ORC dataset. The methodology involves an initial pretraining phase on over one million domain-specific papers, followed by an instruction-tuning process to refine the chatbot's capabilities. The chatbot is designed to assist researchers, educators, and students by providing instant, context-aware responses to queries in the field of materials science. We make the four trained checkpoints (7B, 13B, with or without chat ability) freely available to the research community at https://github.com/Xianjun-Yang/Quokka.",
+    "path": "papers/24/01/2401.01089.json",
+    "total_tokens": 833,
+    "translated_title": "Quokka: 一个用于材料科学的开源大型语言模型聊天机器人",
+    "translated_abstract": "本文介绍了一个用于材料科学的专用聊天机器人的开发，利用了Llama-2语言模型，并在S2ORC数据集中的材料科学领域的广泛研究文章上进行持续的预训练。方法包括首先在超过一百万篇领域特定的论文上进行预训练，然后进行指令调整过程来改善聊天机器人的能力。该聊天机器人旨在通过提供即时的、具有上下文意识的材料科学领域的查询响应，来帮助研究人员、教师和学生。我们将四个经过训练的检查点（7B、13B，带或不带聊天功能）免费提供给研究界，网址为https://github.com/Xianjun-Yang/Quokka。",
+    "tldr": "本文介绍了Quokka——一个用于材料科学的开源大型语言模型聊天机器人，通过对超过一百万篇领域特定的论文进行预训练，并在材料科学领域的查询中提供即时的上下文意识响应。"
+}

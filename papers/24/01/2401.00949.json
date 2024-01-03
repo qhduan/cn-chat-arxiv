@@ -1,0 +1,11 @@
+{
+    "title": "A Portfolio's Common Causal Conditional Risk-neutral PDE. (arXiv:2401.00949v1 [q-fin.PM])",
+    "abstract": "Portfolio's optimal drivers for diversification are common causes of the constituents' correlations. A closed-form formula for the conditional probability of the portfolio given its optimal common drivers is presented, with each pair constituent-common driver joint distribution modelled by Gaussian copulas. A conditional risk-neutral PDE is obtained for this conditional probability as a system of copulas' PDEs, allowing for dynamical risk management of a portfolio as shown in the experiments. Implied conditional portfolio volatilities and implied weights are new risk metrics that can be dynamically monitored from the PDEs or obtained from their solution.",
+    "link": "http://arxiv.org/abs/2401.00949",
+    "context": "Title: A Portfolio's Common Causal Conditional Risk-neutral PDE. (arXiv:2401.00949v1 [q-fin.PM])\nAbstract: Portfolio's optimal drivers for diversification are common causes of the constituents' correlations. A closed-form formula for the conditional probability of the portfolio given its optimal common drivers is presented, with each pair constituent-common driver joint distribution modelled by Gaussian copulas. A conditional risk-neutral PDE is obtained for this conditional probability as a system of copulas' PDEs, allowing for dynamical risk management of a portfolio as shown in the experiments. Implied conditional portfolio volatilities and implied weights are new risk metrics that can be dynamically monitored from the PDEs or obtained from their solution.",
+    "path": "papers/24/01/2401.00949.json",
+    "total_tokens": 731,
+    "translated_title": "一个投资组合的普遍因果条件风险中性PDE",
+    "translated_abstract": "投资组合的优化驱动因素是构成相关性的共同原因。提出了一个闭式公式，用于给定其最优共同驱动因素的投资组合的条件概率，并且用高斯依赖关系模拟了每对成分-共同驱动因素的联合分布。得到了一个条件风险中性PDE，用于对这个条件概率进行动态风险管理，实验证明了这一点。隐含的条件投资组合波动率和隐含的权重是可以从这些PDEs中动态监测或通过它们的解获得的新风险指标。",
+    "tldr": "该论文提出了一个用于投资组合的条件概率的闭式公式和相应的条件风险中性PDE，以实现动态风险管理。从该模型中可以获得隐含的条件投资组合波动率和隐含的权重，这些是新的动态监测的风险指标。"
+}

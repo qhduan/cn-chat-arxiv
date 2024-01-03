@@ -1,0 +1,12 @@
+{
+    "title": "AI-FLARES: Artificial Intelligence for the Analysis of Solar Flares Data. (arXiv:2401.01104v1 [astro-ph.SR])",
+    "abstract": "AI-FLARES (Artificial Intelligence for the Analysis of Solar Flares Data) is a research project funded by the Agenzia Spaziale Italiana and by the Istituto Nazionale di Astrofisica within the framework of the ``Attivit\\`a di Studio per la Comunit\\`a Scientifica Nazionale Sole, Sistema Solare ed Esopianeti'' program. The topic addressed by this project was the development and use of computational methods for the analysis of remote sensing space data associated to solar flare emission. This paper overviews the main results obtained by the project, with specific focus on solar flare forecasting, reconstruction of morphologies of the flaring sources, and interpretation of acceleration mechanisms triggered by solar flares.",
+    "link": "http://arxiv.org/abs/2401.01104",
+    "context": "Title: AI-FLARES: Artificial Intelligence for the Analysis of Solar Flares Data. (arXiv:2401.01104v1 [astro-ph.SR])\nAbstract: AI-FLARES (Artificial Intelligence for the Analysis of Solar Flares Data) is a research project funded by the Agenzia Spaziale Italiana and by the Istituto Nazionale di Astrofisica within the framework of the ``Attivit\\`a di Studio per la Comunit\\`a Scientifica Nazionale Sole, Sistema Solare ed Esopianeti'' program. The topic addressed by this project was the development and use of computational methods for the analysis of remote sensing space data associated to solar flare emission. This paper overviews the main results obtained by the project, with specific focus on solar flare forecasting, reconstruction of morphologies of the flaring sources, and interpretation of acceleration mechanisms triggered by solar flares.",
+    "path": "papers/24/01/2401.01104.json",
+    "total_tokens": 712,
+    "translated_title": "AI-FLARES: 用于太阳耀斑数据分析的人工智能",
+    "translated_abstract": "AI-FLARES（用于太阳耀斑数据分析的人工智能）是由意大利太空局和意大利国家天文物理研究所资助的研究项目，旨在开发和使用计算方法分析与太阳耀斑发射相关的远程感测空间数据。本文概述了该项目取得的主要成果，重点介绍了太阳耀斑预测、耀斑源形态重建和太阳耀斑触发的加速机制解释。",
+    "tldr": "AI-FLARES是一项研究项目，通过开发和使用计算方法分析太阳耀斑数据，成果包括耀斑预测、耀斑源形态重建和太阳耀斑加速机制解释。",
+    "en_tdlr": "AI-FLARES is a research project that uses computational methods to analyze solar flare data, with results including flare forecasting, reconstruction of flare source morphologies, and interpretation of solar flare acceleration mechanisms."
+}

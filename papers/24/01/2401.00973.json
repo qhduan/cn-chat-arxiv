@@ -1,0 +1,12 @@
+{
+    "title": "Facebook Report on Privacy of fNIRS data. (arXiv:2401.00973v1 [cs.LG])",
+    "abstract": "The primary goal of this project is to develop privacy-preserving machine learning model training techniques for fNIRS data. This project will build a local model in a centralized setting with both differential privacy (DP) and certified robustness. It will also explore collaborative federated learning to train a shared model between multiple clients without sharing local fNIRS datasets. To prevent unintentional private information leakage of such clients' private datasets, we will also implement DP in the federated learning setting.",
+    "link": "http://arxiv.org/abs/2401.00973",
+    "context": "Title: Facebook Report on Privacy of fNIRS data. (arXiv:2401.00973v1 [cs.LG])\nAbstract: The primary goal of this project is to develop privacy-preserving machine learning model training techniques for fNIRS data. This project will build a local model in a centralized setting with both differential privacy (DP) and certified robustness. It will also explore collaborative federated learning to train a shared model between multiple clients without sharing local fNIRS datasets. To prevent unintentional private information leakage of such clients' private datasets, we will also implement DP in the federated learning setting.",
+    "path": "papers/24/01/2401.00973.json",
+    "total_tokens": 649,
+    "translated_title": "Facebook隐私保护fNIRS数据的报告",
+    "translated_abstract": "本项目的主要目标是为fNIRS数据开发保护隐私的机器学习模型训练技术。该项目将在集中式环境中构建一个本地模型，同时采用差分隐私（DP）和认证鲁棒性。它还将探索协同联邦学习，以在多个客户之间训练共享模型，而不共享本地的fNIRS数据集。为了防止此类客户私有数据的无意泄漏，我们还将在联邦学习环境中实现差分隐私。",
+    "tldr": "本项目旨在开发保护隐私的fNIRS数据的机器学习模型训练技术，并探索集中式和联邦学习方法，以保障多客户之间共享模型的同时保护私有数据。",
+    "en_tdlr": "This project aims to develop privacy-preserving machine learning techniques for fNIRS data and explore centralized and federated learning methods to ensure the sharing of models among multiple clients while protecting private data."
+}

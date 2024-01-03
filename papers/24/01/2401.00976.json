@@ -1,0 +1,12 @@
+{
+    "title": "Nature-Inspired Algorithms in Optimization: Introduction, Hybridization and Insights. (arXiv:2401.00976v1 [cs.NE])",
+    "abstract": "Many problems in science and engineering are optimization problems, which may require sophisticated optimization techniques to solve. Nature-inspired algorithms are a class of metaheuristic algorithms for optimization, and some algorithms or variants are often developed by hybridization. Benchmarking is also important in evaluating the performance of optimization algorithms. This chapter focuses on the overview of optimization, nature-inspired algorithms and the role of hybridization. We will also highlight some issues with hybridization of algorithms.",
+    "link": "http://arxiv.org/abs/2401.00976",
+    "context": "Title: Nature-Inspired Algorithms in Optimization: Introduction, Hybridization and Insights. (arXiv:2401.00976v1 [cs.NE])\nAbstract: Many problems in science and engineering are optimization problems, which may require sophisticated optimization techniques to solve. Nature-inspired algorithms are a class of metaheuristic algorithms for optimization, and some algorithms or variants are often developed by hybridization. Benchmarking is also important in evaluating the performance of optimization algorithms. This chapter focuses on the overview of optimization, nature-inspired algorithms and the role of hybridization. We will also highlight some issues with hybridization of algorithms.",
+    "path": "papers/24/01/2401.00976.json",
+    "total_tokens": 593,
+    "translated_title": "运用自然启发式算法的优化：介绍、混合和洞见",
+    "translated_abstract": "科学和工程中的许多问题都是优化问题，可能需要复杂的优化技术来解决。自然启发式算法是一类用于优化的元启发式算法，一些算法或变种经常通过混合方法来开发。基准测试在评估优化算法的性能方面也很重要。本章主要介绍优化、自然启发式算法和混合方法的概述。我们还将重点介绍一些算法混合的问题。",
+    "tldr": "本论文综述了优化、自然启发式算法以及混合方法的概述，并讨论了算法混合过程中的问题。",
+    "en_tdlr": "This paper provides an overview of optimization, nature-inspired algorithms, and hybridization methods, and discusses the issues in the process of algorithm hybridization."
+}

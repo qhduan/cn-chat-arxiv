@@ -1,0 +1,11 @@
+{
+    "title": "Learning solutions to some toy constrained optimization problems in infinite dimensional Hilbert spaces. (arXiv:2401.01306v1 [math.OC])",
+    "abstract": "In this work we present deep learning implementations of two popular theoretical constrained optimization algorithms in infinite dimensional Hilbert spaces, namely, the penalty and the augmented Lagrangian methods. We test these algorithms on some toy problems originating in either calculus of variations or physics. We demonstrate that both methods are able to produce decent approximations for the test problems and are comparable in terms of different errors. Leveraging the common occurrence of the Lagrange multiplier update rule being computationally less expensive than solving subproblems in the penalty method, we achieve significant speedups in cases when the output of the constraint function is itself a function.",
+    "link": "http://arxiv.org/abs/2401.01306",
+    "context": "Title: Learning solutions to some toy constrained optimization problems in infinite dimensional Hilbert spaces. (arXiv:2401.01306v1 [math.OC])\nAbstract: In this work we present deep learning implementations of two popular theoretical constrained optimization algorithms in infinite dimensional Hilbert spaces, namely, the penalty and the augmented Lagrangian methods. We test these algorithms on some toy problems originating in either calculus of variations or physics. We demonstrate that both methods are able to produce decent approximations for the test problems and are comparable in terms of different errors. Leveraging the common occurrence of the Lagrange multiplier update rule being computationally less expensive than solving subproblems in the penalty method, we achieve significant speedups in cases when the output of the constraint function is itself a function.",
+    "path": "papers/24/01/2401.01306.json",
+    "total_tokens": 819,
+    "translated_title": "在无限维希尔伯特空间中学习一些玩具约束优化问题的解决方案",
+    "translated_abstract": "本文介绍了在无限维希尔伯特空间中两种流行的理论约束优化算法——罚函数法和增广拉格朗日法的深度学习实现。我们在一些源自变分法或物理学的玩具问题上测试了这些算法。我们证明这两种方法都能够产生对测试问题的不错近似，并且在不同误差方面是可比较的。通过利用拉格朗日乘子更新规则在计算上比求解罚函数法中的子问题更简单的普遍情况，我们在输出约束函数本身是一个函数的情况下实现了显著加速。",
+    "tldr": "本文提出了在无限维希尔伯特空间中运用深度学习实现罚函数法和增广拉格朗日法的约束优化算法，并在玩具问题上进行了测试，证明这两种方法都能够产生不错的近似解。在约束函数本身是函数的情况下，通过拉格朗日乘子更新规则的计算优势，实现了显著的加速。"
+}

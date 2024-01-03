@@ -1,0 +1,11 @@
+{
+    "title": "Predicting the activity of chemical compounds based on machine learning approaches. (arXiv:2401.01004v1 [q-bio.BM])",
+    "abstract": "Exploring methods and techniques of machine learning (ML) to address specific challenges in various fields is essential. In this work, we tackle a problem in the domain of Cheminformatics; that is, providing a suitable solution to aid in predicting the activity of a chemical compound to the best extent possible. To address the problem at hand, this study conducts experiments on 100 different combinations of existing techniques. These solutions are then selected based on a set of criteria that includes the G-means, F1-score, and AUC metrics. The results have been tested on a dataset of about 10,000 chemical compounds from PubChem that have been classified according to their activity",
+    "link": "http://arxiv.org/abs/2401.01004",
+    "context": "Title: Predicting the activity of chemical compounds based on machine learning approaches. (arXiv:2401.01004v1 [q-bio.BM])\nAbstract: Exploring methods and techniques of machine learning (ML) to address specific challenges in various fields is essential. In this work, we tackle a problem in the domain of Cheminformatics; that is, providing a suitable solution to aid in predicting the activity of a chemical compound to the best extent possible. To address the problem at hand, this study conducts experiments on 100 different combinations of existing techniques. These solutions are then selected based on a set of criteria that includes the G-means, F1-score, and AUC metrics. The results have been tested on a dataset of about 10,000 chemical compounds from PubChem that have been classified according to their activity",
+    "path": "papers/24/01/2401.01004.json",
+    "total_tokens": 745,
+    "translated_title": "基于机器学习方法预测化合物活性",
+    "translated_abstract": "探索机器学习在不同领域中解决特定挑战的方法和技术是必不可少的。在本研究中，我们解决了化学信息学领域的问题，即提供适当的解决方案以尽可能准确地预测化合物的活性。为了解决这个问题，本研究在100种不同的现有技术组合上进行了实验。这些解决方案是根据一组标准选择的，包括G-means、F1-score和AUC度量。结果在一个包含约10,000个化合物的PubChem数据集上进行了测试，这些化合物根据其活性进行了分类。",
+    "tldr": "本研究使用机器学习方法探索了预测化合物活性的问题，并在100种不同的技术组合上进行了实验。最终根据一组评估标准选择了最佳的解决方案，并在大数据集上进行了验证。"
+}

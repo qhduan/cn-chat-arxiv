@@ -1,0 +1,11 @@
+{
+    "title": "Theoretical Steps to Optimize Transportation in the Cubic Networks and the Congestion Paradox. (arXiv:2401.00940v1 [econ.TH])",
+    "abstract": "Given a player is guaranteed the same payoff for each delivery path in a single-cube delivery network, the player's best response is to randomly divide all goods and deliver them to all other nodes, and the best response satisfies the Kuhn-Tucker condition. The state of the delivery network is randomly complete. If congestion costs are introduced to the player's maximization problem in a multi-cubic delivery network, the congestion paradox arises where all coordinates become congested as long as the previous assumptions about payoffs are maintained.",
+    "link": "http://arxiv.org/abs/2401.00940",
+    "context": "Title: Theoretical Steps to Optimize Transportation in the Cubic Networks and the Congestion Paradox. (arXiv:2401.00940v1 [econ.TH])\nAbstract: Given a player is guaranteed the same payoff for each delivery path in a single-cube delivery network, the player's best response is to randomly divide all goods and deliver them to all other nodes, and the best response satisfies the Kuhn-Tucker condition. The state of the delivery network is randomly complete. If congestion costs are introduced to the player's maximization problem in a multi-cubic delivery network, the congestion paradox arises where all coordinates become congested as long as the previous assumptions about payoffs are maintained.",
+    "path": "papers/24/01/2401.00940.json",
+    "total_tokens": 717,
+    "translated_title": "在立方网络中优化交通和拥堵悖论的理论步骤",
+    "translated_abstract": "在单个立方交付网络中，如果玩家保证在每个交付路径上获得相同的回报，玩家的最佳反应是随机分割所有商品并将它们交付给所有其他节点，而且最佳反应满足Kuhn-Tucker条件。交付网络的状态是随机完整的。如果在多立方交付网络中引入拥堵成本到玩家的最大化问题中，那么拥堵悖论就会出现，只要之前对回报的假设保持不变，所有坐标都会拥堵。",
+    "tldr": "论文研究了立方网络中的交通优化和拥堵悖论，发现在单个立方交付网络中，玩家的最佳反应是随机分割商品并将其交付给所有节点。然而，在多立方交付网络中引入拥堵成本后，所有坐标都会拥堵。"
+}

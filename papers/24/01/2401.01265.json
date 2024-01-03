@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Synthesis of Finite State Machines with Universal Gates using Evolutionary Algorithm. (arXiv:2401.01265v1 [cs.NE])",
+    "abstract": "This work presents an optimization method for the synthesis of finite state machines. The focus is on the reduction in the on-chip area and the cost of the circuit. A list of finite state machines from MCNC91 benchmark circuits have been evolved using Cartesian Genetic Programming. On the average, almost 30% of reduction in the total number of gates has been achieved. The effects of some parameters on the evolutionary process have also been discussed in the paper.",
+    "link": "http://arxiv.org/abs/2401.01265",
+    "context": "Title: Optimal Synthesis of Finite State Machines with Universal Gates using Evolutionary Algorithm. (arXiv:2401.01265v1 [cs.NE])\nAbstract: This work presents an optimization method for the synthesis of finite state machines. The focus is on the reduction in the on-chip area and the cost of the circuit. A list of finite state machines from MCNC91 benchmark circuits have been evolved using Cartesian Genetic Programming. On the average, almost 30% of reduction in the total number of gates has been achieved. The effects of some parameters on the evolutionary process have also been discussed in the paper.",
+    "path": "papers/24/01/2401.01265.json",
+    "total_tokens": 613,
+    "translated_title": "使用进化算法综合具有通用门的有限状态机的最优化方法",
+    "translated_abstract": "该文提出了一种用于综合有限状态机的优化方法，重点是减少芯片面积和电路成本。利用笛卡尔遗传编程演化了MCNC91基准电路中的一系列有限状态机。平均而言，总计减少了近30％的门数。此外，还讨论了一些参数对进化过程的影响。",
+    "tldr": "本文提出了一种使用进化算法综合有限状态机的最优化方法，通过减少门数来降低芯片面积和电路成本，实验结果显示平均减少了近30％的门数。"
+}

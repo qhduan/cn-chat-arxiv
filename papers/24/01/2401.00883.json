@@ -1,0 +1,12 @@
+{
+    "title": "Automating Leukemia Diagnosis with Autoencoders: A Comparative Study. (arXiv:2401.00883v1 [cs.LG])",
+    "abstract": "Leukemia is one of the most common and death-threatening types of cancer that threaten human life. Medical data from some of the patient's critical parameters contain valuable information hidden among these data. On this subject, deep learning can be used to extract this information. In this paper, AutoEncoders have been used to develop valuable features to help the precision of leukemia diagnosis. It has been attempted to get the best activation function and optimizer to use in AutoEncoder and designed the best architecture for this neural network. The proposed architecture is compared with this area's classical machine learning models. Our proposed method performs better than other machine learning in precision and f1-score metrics by more than 11%.",
+    "link": "http://arxiv.org/abs/2401.00883",
+    "context": "Title: Automating Leukemia Diagnosis with Autoencoders: A Comparative Study. (arXiv:2401.00883v1 [cs.LG])\nAbstract: Leukemia is one of the most common and death-threatening types of cancer that threaten human life. Medical data from some of the patient's critical parameters contain valuable information hidden among these data. On this subject, deep learning can be used to extract this information. In this paper, AutoEncoders have been used to develop valuable features to help the precision of leukemia diagnosis. It has been attempted to get the best activation function and optimizer to use in AutoEncoder and designed the best architecture for this neural network. The proposed architecture is compared with this area's classical machine learning models. Our proposed method performs better than other machine learning in precision and f1-score metrics by more than 11%.",
+    "path": "papers/24/01/2401.00883.json",
+    "total_tokens": 773,
+    "translated_title": "使用自动编码器自动化白血病诊断：一项比较研究",
+    "translated_abstract": "白血病是威胁人类生命的最常见和致命的癌症之一。来自患者关键参数的医疗数据中隐藏着宝贵的信息。在这个课题上，深度学习可以用来提取这些信息。本文使用自动编码器开发了有价值的特征，以帮助提高白血病诊断的准确性。我们尝试找到最佳的激活函数和优化器来在自动编码器中使用，并设计了最佳的神经网络结构。我们提出的架构与该领域的经典机器学习模型进行了比较。我们的方法在精确度和F1-score指标上比其他机器学习模型提升了超过11%。",
+    "tldr": "本研究使用自动编码器开发出有价值的特征，提高了白血病诊断的准确性，并相较于传统的机器学习模型在精确度和F1-score指标上表现更好。",
+    "en_tdlr": "This study utilizes autoencoders to develop valuable features that improve the accuracy of leukemia diagnosis, outperforming classical machine learning models in precision and f1-score metrics by over 11%."
+}
