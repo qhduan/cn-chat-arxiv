@@ -3,11 +3,12 @@
 | Ref | Title | Summary |
 | --- | --- | --- |
 | [^1] | [TREC iKAT 2023: The Interactive Knowledge Assistance Track Overview.](http://arxiv.org/abs/2401.01330) | TREC iKAT 2023是一个交互式的知识辅助任务，旨在开发适应用户交互和上下文的会话搜索代理。该任务还强调决策搜索任务，用户通过筛选数据和信息来进行决策和执行动作。 |
-| [^2] | [LLaRA: Aligning Large Language Models with Sequential Recommenders.](http://arxiv.org/abs/2312.02445) | LLaRA是一个将传统推荐器和大型语言模型相结合的框架，通过使用一种新颖的混合方法来代表项目，在顺序推荐中充分利用了传统推荐器的用户行为知识和LLMs的世界知识。 |
-| [^3] | [Caseformer: Pre-training for Legal Case Retrieval.](http://arxiv.org/abs/2311.00333) | 本文提出了一种新颖的预训练方法，名为Caseformer，在法律案例检索中解决了标注数据不足的问题，能够更好地理解和捕捉法律语料库中的关键知识和数据结构。 |
-| [^4] | [A statistical significance testing approach for measuring term burstiness with applications to domain-specific terminology extraction.](http://arxiv.org/abs/2310.15790) | 我们提出了一种统计显著性测试方法，用于测量专业术语抽取中的术语爆发性。我们的方法基于多项式语言模型，通过启发式公式得到近似测试P值。此外，我们还推导了逆文档频率与逆收集频率之间的关系。 |
-| [^5] | [Large Search Model: Redefining Search Stack in the Era of LLMs.](http://arxiv.org/abs/2310.14587) | 本文介绍了一个称为大型搜索模型的框架，通过将所有搜索任务统一为一个大型语言模型(LLM)，重新定义了传统的搜索堆栈。这个框架利用了LLM的强大语言理解和推理能力，有潜力提高搜索结果的质量，同时简化现有的繁琐的搜索堆栈。 |
-| [^6] | [Ranking In Generalized Linear Bandits.](http://arxiv.org/abs/2207.00109) | 本文研究了广义线性Bandits中的排名问题，设计了UCB和Thompson Sampling类型算法来解决该问题，并对位置和物品之间的依赖关系进行了建模。研究结果在位置依赖性和排名问题与图论的连接等方面进行了推广。 |
+| [^2] | [Adversarial Item Promotion on Visually-Aware Recommender Systems by Guided Diffusion.](http://arxiv.org/abs/2312.15826) | 本论文研究了对视觉感知推荐系统的敌对项目推广的引导扩散，揭示了物品供应商如何通过构建敌对图像来操纵物品暴露率，同时指出了敌对图像存在的问题和挑战。 |
+| [^3] | [LLaRA: Aligning Large Language Models with Sequential Recommenders.](http://arxiv.org/abs/2312.02445) | LLaRA是一个将传统推荐器和大型语言模型相结合的框架，通过使用一种新颖的混合方法来代表项目，在顺序推荐中充分利用了传统推荐器的用户行为知识和LLMs的世界知识。 |
+| [^4] | [Caseformer: Pre-training for Legal Case Retrieval.](http://arxiv.org/abs/2311.00333) | 本文提出了一种新颖的预训练方法，名为Caseformer，在法律案例检索中解决了标注数据不足的问题，能够更好地理解和捕捉法律语料库中的关键知识和数据结构。 |
+| [^5] | [A statistical significance testing approach for measuring term burstiness with applications to domain-specific terminology extraction.](http://arxiv.org/abs/2310.15790) | 我们提出了一种统计显著性测试方法，用于测量专业术语抽取中的术语爆发性。我们的方法基于多项式语言模型，通过启发式公式得到近似测试P值。此外，我们还推导了逆文档频率与逆收集频率之间的关系。 |
+| [^6] | [Large Search Model: Redefining Search Stack in the Era of LLMs.](http://arxiv.org/abs/2310.14587) | 本文介绍了一个称为大型搜索模型的框架，通过将所有搜索任务统一为一个大型语言模型(LLM)，重新定义了传统的搜索堆栈。这个框架利用了LLM的强大语言理解和推理能力，有潜力提高搜索结果的质量，同时简化现有的繁琐的搜索堆栈。 |
+| [^7] | [Ranking In Generalized Linear Bandits.](http://arxiv.org/abs/2207.00109) | 本文研究了广义线性Bandits中的排名问题，设计了UCB和Thompson Sampling类型算法来解决该问题，并对位置和物品之间的依赖关系进行了建模。研究结果在位置依赖性和排名问题与图论的连接等方面进行了推广。 |
 
 # 详细
 
@@ -25,7 +26,21 @@
 
     Conversational Information Seeking stands as a pivotal research area with significant contributions from previous works. The TREC Interactive Knowledge Assistance Track (iKAT) builds on the foundational work of the TREC Conversational Assistance Track (CAsT). However, iKAT distinctively emphasizes the creation and research of conversational search agents that adapt responses based on user's prior interactions and present context. The challenge lies in enabling Conversational Search Agents (CSA) to incorporate this personalized context to efficiency and effectively guide users through the relevant information to them. iKAT also emphasizes decisional search tasks, where users sift through data and information to weigh up options in order to reach a conclusion or perform an action. These tasks, prevalent in everyday information-seeking decisions -- be it related to travel, health, or shopping -- often revolve around a subset of high-level information operators where queries or questions a
     
-[^2]: LLaRA: 使用顺序推荐器对齐大型语言模型
+[^2]: 对视觉感知推荐系统的敌对项目推广的引导扩散研究
+
+    Adversarial Item Promotion on Visually-Aware Recommender Systems by Guided Diffusion. (arXiv:2312.15826v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2312.15826](http://arxiv.org/abs/2312.15826)
+
+    本论文研究了对视觉感知推荐系统的敌对项目推广的引导扩散，揭示了物品供应商如何通过构建敌对图像来操纵物品暴露率，同时指出了敌对图像存在的问题和挑战。
+
+    
+
+    视觉感知推荐系统在那些视觉元素对用户潜在偏好的推断有显著贡献的领域中得到了广泛应用。尽管纳入视觉信息有望提高推荐的准确性和缓解冷启动问题，但需要指出的是，包含物品图像可能会引入重大的安全挑战。一些现有的工作表明，物品供应商可以通过构建敌对图像来操纵物品暴露率以其利益。然而，这些工作无法揭示视觉感知推荐系统面对敌对图像时的真实脆弱性，原因如下：（1）生成的敌对图像明显畸变，易于被人类观察者检测到；（2）攻击的有效性不一致，甚至在一些情况下无效。为了揭示面对敌对图像时视觉感知推荐系统的真实脆弱性
+
+    Visually-aware recommender systems have found widespread application in domains where visual elements significantly contribute to the inference of users' potential preferences. While the incorporation of visual information holds the promise of enhancing recommendation accuracy and alleviating the cold-start problem, it is essential to point out that the inclusion of item images may introduce substantial security challenges. Some existing works have shown that the item provider can manipulate item exposure rates to its advantage by constructing adversarial images. However, these works cannot reveal the real vulnerability of visually-aware recommender systems because (1) The generated adversarial images are markedly distorted, rendering them easily detectable by human observers; (2) The effectiveness of the attacks is inconsistent and even ineffective in some scenarios. To shed light on the real vulnerabilities of visually-aware recommender systems when confronted with adversarial images
+    
+[^3]: LLaRA: 使用顺序推荐器对齐大型语言模型
 
     LLaRA: Aligning Large Language Models with Sequential Recommenders. (arXiv:2312.02445v2 [cs.IR] UPDATED)
 
@@ -39,7 +54,7 @@
 
     Sequential recommendation aims to predict the subsequent items matching user preference based on her/his historical interactions. With the development of Large Language Models (LLMs), there is growing interest in exploring the potential of LLMs for sequential recommendation by framing it as a language modeling task. Prior works represent items in the textual prompts using either ID indexing or text indexing and feed the prompts into LLMs, but falling short of either encapsulating comprehensive world knowledge or exhibiting sufficient sequential understanding. To harness the complementary strengths of traditional recommenders (which encode user behavioral knowledge) and LLMs (which possess world knowledge about items), we propose LLaRA -- a Large Language and Recommendation Assistant framework. Specifically, LLaRA represents items in LLM's input prompts using a novel hybrid approach that integrates ID-based item embeddings from traditional recommenders with textual item features. Viewin
     
-[^3]: Caseformer: 法律案例检索的预训练
+[^4]: Caseformer: 法律案例检索的预训练
 
     Caseformer: Pre-training for Legal Case Retrieval. (arXiv:2311.00333v1 [cs.IR])
 
@@ -53,7 +68,7 @@
 
     Legal case retrieval aims to help legal workers find relevant cases related to their cases at hand, which is important for the guarantee of fairness and justice in legal judgments. While recent advances in neural retrieval methods have significantly improved the performance of open-domain retrieval tasks (e.g., Web search), their advantages have not been observed in legal case retrieval due to their thirst for annotated data. As annotating large-scale training data in legal domains is prohibitive due to the need for domain expertise, traditional search techniques based on lexical matching such as TF-IDF, BM25, and Query Likelihood are still prevalent in legal case retrieval systems. While previous studies have designed several pre-training methods for IR models in open-domain tasks, these methods are usually suboptimal in legal case retrieval because they cannot understand and capture the key knowledge and data structures in the legal corpus. To this end, we propose a novel pre-trainin
     
-[^4]: 一种用于测量专业术语抽取中术语爆发性的统计显著性测试方法
+[^5]: 一种用于测量专业术语抽取中术语爆发性的统计显著性测试方法
 
     A statistical significance testing approach for measuring term burstiness with applications to domain-specific terminology extraction. (arXiv:2310.15790v1 [cs.IR])
 
@@ -67,7 +82,7 @@
 
     Domain-specific terminology extraction is an important task in text analysis. A term in a corpus is said to be "bursty" when its occurrences are concentrated in few out of many documents. Being content rich, bursty terms are highly suited for subject matter characterization, and serve as natural candidates for identifying with technical terminology. Multiple measures of term burstiness have been proposed in the literature. However, the statistical significance testing paradigm has remained underexplored in text analysis, including in relation to term burstiness. To test these waters, we propose as our main contribution a multinomial language model-based exact test of statistical significance for term burstiness. Due to its prohibitive computational cost, we advance a heuristic formula designed to serve as a proxy for test P-values. As a complementary theoretical contribution, we derive a previously unreported relationship connecting the inverse document frequency and inverse collection
     
-[^5]: 大型搜索模型：重新定义LLM时代的搜索堆栈
+[^6]: 大型搜索模型：重新定义LLM时代的搜索堆栈
 
     Large Search Model: Redefining Search Stack in the Era of LLMs. (arXiv:2310.14587v2 [cs.IR] UPDATED)
 
@@ -81,7 +96,7 @@
 
     Modern search engines are built on a stack of different components, including query understanding, retrieval, multi-stage ranking, and question answering, among others. These components are often optimized and deployed independently. In this paper, we introduce a novel conceptual framework called large search model, which redefines the conventional search stack by unifying search tasks with one large language model (LLM). All tasks are formulated as autoregressive text generation problems, allowing for the customization of tasks through the use of natural language prompts. This proposed framework capitalizes on the strong language understanding and reasoning capabilities of LLMs, offering the potential to enhance search result quality while simultaneously simplifying the existing cumbersome search stack. To substantiate the feasibility of this framework, we present a series of proof-of-concept experiments and discuss the potential challenges associated with implementing this approach w
     
-[^6]: 广义线性Bandits中的排名问题研究
+[^7]: 广义线性Bandits中的排名问题研究
 
     Ranking In Generalized Linear Bandits. (arXiv:2207.00109v2 [stat.ML] UPDATED)
 
