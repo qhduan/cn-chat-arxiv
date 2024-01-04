@@ -1,0 +1,12 @@
+{
+    "title": "An arbitrage driven price dynamics of Automated Market Makers in the presence of fees. (arXiv:2401.01526v1 [q-fin.MF])",
+    "abstract": "We present a model for price dynamics in the Automated Market Makers (AMM) setting. Within this framework, we propose a reference market price following a geometric Brownian motion. The AMM price is constrained by upper and lower bounds, determined by constant multiplications of the reference price. Through the utilization of local times and excursion-theoretic approaches, we derive several analytical results, including its time-changed representation and limiting behavior.",
+    "link": "http://arxiv.org/abs/2401.01526",
+    "context": "Title: An arbitrage driven price dynamics of Automated Market Makers in the presence of fees. (arXiv:2401.01526v1 [q-fin.MF])\nAbstract: We present a model for price dynamics in the Automated Market Makers (AMM) setting. Within this framework, we propose a reference market price following a geometric Brownian motion. The AMM price is constrained by upper and lower bounds, determined by constant multiplications of the reference price. Through the utilization of local times and excursion-theoretic approaches, we derive several analytical results, including its time-changed representation and limiting behavior.",
+    "path": "papers/24/01/2401.01526.json",
+    "total_tokens": 635,
+    "translated_title": "自动市场制造商在费用存在的情况下的套利驱动价格动态",
+    "translated_abstract": "我们提出了一种自动市场制造商（AMM）设置下的价格动态模型。在这个框架下，我们提出了一个遵循几何布朗运动的参考市场价格。AMM价格受到上下限的限制，由参考价格的常数乘法确定。通过利用局部时间和游历理论方法，我们得出了几个分析结果，包括其时间变化表示和极限行为。",
+    "tldr": "在这篇论文中，我们提出了一个模型来描述自动市场制造商（AMM）设置中的价格动态。通过研究局部时间和游历理论方法，我们得出了几个关键的分析结果，包括其时间变化表示和极限行为。",
+    "en_tdlr": "This paper presents a model for price dynamics in the Automated Market Makers (AMM) setting, and derives several key analytical results, including its time-changed representation and limiting behavior, through the utilization of local times and excursion-theoretic approaches."
+}

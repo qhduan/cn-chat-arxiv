@@ -1,0 +1,12 @@
+{
+    "title": "Notes on the SWIFT method based on Shannon Wavelets for Option Pricing -- Revisited. (arXiv:2401.01758v1 [q-fin.CP])",
+    "abstract": "This note revisits the SWIFT method based on Shannon wavelets to price European options under models with a known characteristic function in 2023. In particular, it discusses some possible improvements and exposes some concrete drawbacks of the method.",
+    "link": "http://arxiv.org/abs/2401.01758",
+    "context": "Title: Notes on the SWIFT method based on Shannon Wavelets for Option Pricing -- Revisited. (arXiv:2401.01758v1 [q-fin.CP])\nAbstract: This note revisits the SWIFT method based on Shannon wavelets to price European options under models with a known characteristic function in 2023. In particular, it discusses some possible improvements and exposes some concrete drawbacks of the method.",
+    "path": "papers/24/01/2401.01758.json",
+    "total_tokens": 521,
+    "translated_title": "关于基于Shannon小波的SWIFT方法的期权定价的研究--再讨论",
+    "translated_abstract": "本文重新讨论了基于Shannon小波的SWIFT方法在2023年用于定价具有已知特征函数的欧式期权的情况。特别讨论了一些可能的改进以及揭示了该方法的一些实际缺点。",
+    "tldr": "本文重新讨论了基于Shannon小波的SWIFT方法，针对具有已知特征函数的欧式期权的定价。文章讨论了一些可能的改进和方法的一些缺点。",
+    "en_tdlr": "This note revisits the SWIFT method based on Shannon wavelets to price European options under models with a known characteristic function in 2023. It discusses possible improvements and exposes concrete drawbacks of the method."
+}

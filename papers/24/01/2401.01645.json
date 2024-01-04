@@ -1,0 +1,11 @@
+{
+    "title": "Model Averaging and Double Machine Learning. (arXiv:2401.01645v1 [econ.EM])",
+    "abstract": "This paper discusses pairing double/debiased machine learning (DDML) with stacking, a model averaging method for combining multiple candidate learners, to estimate structural parameters. We introduce two new stacking approaches for DDML: short-stacking exploits the cross-fitting step of DDML to substantially reduce the computational burden and pooled stacking enforces common stacking weights over cross-fitting folds. Using calibrated simulation studies and two applications estimating gender gaps in citations and wages, we show that DDML with stacking is more robust to partially unknown functional forms than common alternative approaches based on single pre-selected learners. We provide Stata and R software implementing our proposals.",
+    "link": "http://arxiv.org/abs/2401.01645",
+    "context": "Title: Model Averaging and Double Machine Learning. (arXiv:2401.01645v1 [econ.EM])\nAbstract: This paper discusses pairing double/debiased machine learning (DDML) with stacking, a model averaging method for combining multiple candidate learners, to estimate structural parameters. We introduce two new stacking approaches for DDML: short-stacking exploits the cross-fitting step of DDML to substantially reduce the computational burden and pooled stacking enforces common stacking weights over cross-fitting folds. Using calibrated simulation studies and two applications estimating gender gaps in citations and wages, we show that DDML with stacking is more robust to partially unknown functional forms than common alternative approaches based on single pre-selected learners. We provide Stata and R software implementing our proposals.",
+    "path": "papers/24/01/2401.01645.json",
+    "total_tokens": 780,
+    "translated_title": "模型平均化和双机器学习",
+    "translated_abstract": "本文讨论了将双重/无偏机器学习（DDML）与stacking（一种模型平均化方法，用于结合多个候选学习器）相结合，用于估计结构参数。我们引入了两种新的DDML stacking方法：短stacking利用DDML的交叉拟合步骤大大减少了计算负担，而汇总stacking可以在交叉拟合的折叠上强制执行通用 stacking权重。通过经过校准的模拟研究和两个应用程序，即估计引用和工资中的性别差距，我们展示了DDML与stacking相比基于单个预选学习器的常见替代方法对于部分未知的函数形式更加鲁棒。我们提供了实现我们方案的Stata和R软件。",
+    "tldr": "本文介绍了一种将双机器学习和模型平均化相结合的方法，用于估计结构参数。研究表明，这种方法比起常见的基于单一学习器的替代方法更加鲁棒，适用于处理部分未知的函数形式。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Pricing and hedging for a sticky diffusion. (arXiv:2311.17011v3 [q-fin.MF] UPDATED)",
+    "abstract": "We consider a financial market model featuring a risky asset with a sticky geometric Brownian motion price dynamic and a constant interest rate $r \\in \\mathbb R$. We prove that the model is arbitrage-free if and only if $r =0 $. In this case, we find the unique riskless replication strategy, derive the associated pricing equation. We also identify a class of replicable payoffs that coincides with the replicable payoffs in the standard Black-Scholes model. Last, we numerically evaluate discrete-time hedging and the hedging error incurred from misrepresenting price stickiness.",
+    "link": "http://arxiv.org/abs/2311.17011",
+    "context": "Title: Pricing and hedging for a sticky diffusion. (arXiv:2311.17011v3 [q-fin.MF] UPDATED)\nAbstract: We consider a financial market model featuring a risky asset with a sticky geometric Brownian motion price dynamic and a constant interest rate $r \\in \\mathbb R$. We prove that the model is arbitrage-free if and only if $r =0 $. In this case, we find the unique riskless replication strategy, derive the associated pricing equation. We also identify a class of replicable payoffs that coincides with the replicable payoffs in the standard Black-Scholes model. Last, we numerically evaluate discrete-time hedging and the hedging error incurred from misrepresenting price stickiness.",
+    "path": "papers/23/11/2311.17011.json",
+    "total_tokens": 858,
+    "translated_title": "一个关于粘性扩散的定价与对冲研究",
+    "translated_abstract": "我们考虑了一个金融市场模型，其特点是具有粘性几何布朗运动价格动态的风险资产和一个常数利率$r \\in \\mathbb R$。我们证明了该模型只有当$r = 0$时才是无套利的。在这种情况下，我们找到了唯一的无风险复制策略，并推导出相关的定价方程。我们还确定了一类可复制的偿付，与标准的Black-Scholes模型中的可复制的偿付相一致。最后，我们对离散时间对冲和由于误判价格粘性而产生的对冲误差进行了数值评估。",
+    "tldr": "该论文研究了粘性扩散模型的定价与对冲问题。研究发现当利率为零时模型是无套利的，并找到了唯一的无风险复制策略和定价方程。研究还发现模型中存在一类可复制的偿付，与传统的Black-Scholes模型相一致。最后，通过数值评估研究了离散时间对冲和由于误判价格粘性而产生的对冲误差。"
+}

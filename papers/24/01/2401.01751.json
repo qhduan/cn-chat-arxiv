@@ -1,0 +1,12 @@
+{
+    "title": "Text mining arXiv: a look through quantitative finance papers. (arXiv:2401.01751v1 [cs.DL])",
+    "abstract": "This paper explores articles hosted on the arXiv preprint server with the aim to uncover valuable insights hidden in this vast collection of research. Employing text mining techniques and through the application of natural language processing methods, we examine the contents of quantitative finance papers posted in arXiv from 1997 to 2022. We extract and analyze crucial information from the entire documents, including the references, to understand the topics trends over time and to find out the most cited researchers and journals on this domain. Additionally, we compare numerous algorithms to perform topic modeling, including state-of-the-art approaches.",
+    "link": "http://arxiv.org/abs/2401.01751",
+    "context": "Title: Text mining arXiv: a look through quantitative finance papers. (arXiv:2401.01751v1 [cs.DL])\nAbstract: This paper explores articles hosted on the arXiv preprint server with the aim to uncover valuable insights hidden in this vast collection of research. Employing text mining techniques and through the application of natural language processing methods, we examine the contents of quantitative finance papers posted in arXiv from 1997 to 2022. We extract and analyze crucial information from the entire documents, including the references, to understand the topics trends over time and to find out the most cited researchers and journals on this domain. Additionally, we compare numerous algorithms to perform topic modeling, including state-of-the-art approaches.",
+    "path": "papers/24/01/2401.01751.json",
+    "total_tokens": 741,
+    "translated_title": "文本挖掘arXiv：对量化金融论文的观察",
+    "translated_abstract": "本文利用文本挖掘技术和自然语言处理方法，探索了arXiv预印本服务器上的论文，旨在发现这个庞大的研究集合中隐藏的有价值的见解。我们研究了从1997年到2022年在arXiv上发布的量化金融论文的内容。我们从整个文档中提取和分析关键信息，包括引用，以了解随时间变化的主题趋势，并找出这个领域中最常被引用的研究人员和期刊。此外，我们还比较了多种算法来进行主题建模，包括最先进的方法。",
+    "tldr": "本文通过文本挖掘技术和自然语言处理方法，研究了arXiv上的量化金融论文，发现了关于该领域的时间趋势、最常被引用的研究人员和期刊，以及不同算法进行主题建模的比较。",
+    "en_tdlr": "This paper explores quantitative finance papers on the arXiv preprint server using text mining techniques and natural language processing methods. It reveals trends, most cited researchers and journals in this field over time, and compares various algorithms for topic modeling."
+}

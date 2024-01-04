@@ -1,0 +1,12 @@
+{
+    "title": "The Anatomy Spread of Online Opinion Polarization: The Pivotal Role of Super-Spreaders in Social Networks. (arXiv:2401.01349v1 [physics.soc-ph])",
+    "abstract": "The study investigates the role of 'superspreaders' in shaping opinions within networks, distinguishing three types: A, B, and C. Type A has a significant influence in shaping opinions, Type B acts as a counterbalance to A, and Type C functions like media, providing an objective viewpoint and potentially regulating A and B's influence. The research uses a confidence coefficient and z-score to survey superspreaders' behaviors, with a focus on the conditions affecting group dynamics and opinion formation, including environmental factors and forgetfulness over time. The findings offer insights for improving online communication security and understanding social influence.",
+    "link": "http://arxiv.org/abs/2401.01349",
+    "context": "Title: The Anatomy Spread of Online Opinion Polarization: The Pivotal Role of Super-Spreaders in Social Networks. (arXiv:2401.01349v1 [physics.soc-ph])\nAbstract: The study investigates the role of 'superspreaders' in shaping opinions within networks, distinguishing three types: A, B, and C. Type A has a significant influence in shaping opinions, Type B acts as a counterbalance to A, and Type C functions like media, providing an objective viewpoint and potentially regulating A and B's influence. The research uses a confidence coefficient and z-score to survey superspreaders' behaviors, with a focus on the conditions affecting group dynamics and opinion formation, including environmental factors and forgetfulness over time. The findings offer insights for improving online communication security and understanding social influence.",
+    "path": "papers/24/01/2401.01349.json",
+    "total_tokens": 784,
+    "translated_title": "在线意见极化的传播解剖：超级传播者在社交网络中的关键作用",
+    "translated_abstract": "该研究探讨了在网络中塑造意见的“超级传播者”的角色，区分了三种类型：A、B和C。A型在塑造意见方面具有重要影响力，B型则起到了平衡A型的作用，C型则像媒体一样，提供客观观点，并潜在地调控A型和B型的影响力。研究使用置信系数和z分数来调查超级传播者的行为，着重考察影响群体动态和意见形成的条件，包括环境因素和随时间的遗忘。研究结果为改善在线交流安全和了解社会影响力提供了深入见解。",
+    "tldr": "该研究揭示了在社交网络中塑造意见的超级传播者的重要角色，通过对超级传播者行为的调查和分析，提供了对群体动态和意见形成的条件的理解，对改进在线交流安全和社交影响力的认识具有启示作用。",
+    "en_tdlr": "This study reveals the crucial role of super-spreaders in shaping opinions within social networks. By analyzing their behaviors, the research provides insights into the conditions affecting group dynamics and opinion formation, offering implications for improving online communication security and understanding social influence."
+}

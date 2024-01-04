@@ -1,0 +1,12 @@
+{
+    "title": "A Cybersecurity Risk Analysis Framework for Systems with Artificial Intelligence Components. (arXiv:2401.01630v1 [cs.AI])",
+    "abstract": "The introduction of the European Union Artificial Intelligence Act, the NIST Artificial Intelligence Risk Management Framework, and related norms demands a better understanding and implementation of novel risk analysis approaches to evaluate systems with Artificial Intelligence components. This paper provides a cybersecurity risk analysis framework that can help assessing such systems. We use an illustrative example concerning automated driving systems.",
+    "link": "http://arxiv.org/abs/2401.01630",
+    "context": "Title: A Cybersecurity Risk Analysis Framework for Systems with Artificial Intelligence Components. (arXiv:2401.01630v1 [cs.AI])\nAbstract: The introduction of the European Union Artificial Intelligence Act, the NIST Artificial Intelligence Risk Management Framework, and related norms demands a better understanding and implementation of novel risk analysis approaches to evaluate systems with Artificial Intelligence components. This paper provides a cybersecurity risk analysis framework that can help assessing such systems. We use an illustrative example concerning automated driving systems.",
+    "path": "papers/24/01/2401.01630.json",
+    "total_tokens": 600,
+    "translated_title": "一个适用于带有人工智能组件的系统的网络安全风险分析框架",
+    "translated_abstract": "随着欧盟人工智能法案、NIST人工智能风险管理框架以及相关规范的引入，更好地理解和实施评估带有人工智能组件的系统的新型风险分析方法变得至关重要。本文提供了一个网络安全风险分析框架，可以帮助评估此类系统。我们使用了一个关于自动驾驶系统的示例来说明。",
+    "tldr": "本文提供了一个网络安全风险分析框架，旨在评估带有人工智能组件的系统。研究人员使用了自动驾驶系统作为示例来说明该框架的应用。",
+    "en_tdlr": "This paper presents a cybersecurity risk analysis framework for evaluating systems with Artificial Intelligence components. An illustrative example of automated driving systems is used to demonstrate the application of this framework."
+}

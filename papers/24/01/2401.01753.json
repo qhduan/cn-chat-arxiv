@@ -1,0 +1,12 @@
+{
+    "title": "A Generative AI Assistant to Accelerate Cloud Migration. (arXiv:2401.01753v1 [cs.AI])",
+    "abstract": "We present a tool that leverages generative AI to accelerate the migration of on-premises applications to the cloud. The Cloud Migration LLM accepts input from the user specifying the parameters of their migration, and outputs a migration strategy with an architecture diagram. A user study suggests that the migration LLM can assist inexperienced users in finding the right cloud migration profile, while avoiding complexities of a manual approach.",
+    "link": "http://arxiv.org/abs/2401.01753",
+    "context": "Title: A Generative AI Assistant to Accelerate Cloud Migration. (arXiv:2401.01753v1 [cs.AI])\nAbstract: We present a tool that leverages generative AI to accelerate the migration of on-premises applications to the cloud. The Cloud Migration LLM accepts input from the user specifying the parameters of their migration, and outputs a migration strategy with an architecture diagram. A user study suggests that the migration LLM can assist inexperienced users in finding the right cloud migration profile, while avoiding complexities of a manual approach.",
+    "path": "papers/24/01/2401.01753.json",
+    "total_tokens": 611,
+    "translated_title": "一种利用生成型人工智能加速云迁移的助手",
+    "translated_abstract": "我们提出了一种利用生成型人工智能的工具，以加快将本地应用程序迁移到云端。云迁移LLM接受用户输入，指定迁移参数，并输出具有架构图的迁移策略。一项用户研究表明，迁移LLM可以帮助没有经验的用户找到合适的云迁移配置文件，同时避免手动方法的复杂性。",
+    "tldr": "一种利用生成型人工智能的助手，能够加速将本地应用程序迁移到云端，并通过提供迁移策略和架构图的方式帮助用户选择合适的迁移配置文件，避免手动方法的复杂性。",
+    "en_tdlr": "A generative AI assistant that accelerates on-premises applications migration to the cloud by providing migration strategies and architecture diagrams to help users choose the right migration profile, avoiding the complexity of manual approaches."
+}

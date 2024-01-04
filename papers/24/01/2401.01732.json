@@ -1,0 +1,12 @@
+{
+    "title": "Task and Explanation Network. (arXiv:2401.01732v1 [cs.LG])",
+    "abstract": "Explainability in deep networks has gained increased importance in recent years. We argue herein that an AI must be tasked not just with a task but also with an explanation of why said task was accomplished as such. We present a basic framework -- Task and Explanation Network (TENet) -- which fully integrates task completion and its explanation. We believe that the field of AI as a whole should insist -- quite emphatically -- on explainability.",
+    "link": "http://arxiv.org/abs/2401.01732",
+    "context": "Title: Task and Explanation Network. (arXiv:2401.01732v1 [cs.LG])\nAbstract: Explainability in deep networks has gained increased importance in recent years. We argue herein that an AI must be tasked not just with a task but also with an explanation of why said task was accomplished as such. We present a basic framework -- Task and Explanation Network (TENet) -- which fully integrates task completion and its explanation. We believe that the field of AI as a whole should insist -- quite emphatically -- on explainability.",
+    "path": "papers/24/01/2401.01732.json",
+    "total_tokens": 565,
+    "translated_title": "任务和解释网络",
+    "translated_abstract": "在最近几年中，深度网络的可解释性变得越来越重要。我们在此论文中提出，AI不仅要完成任务，还要解释为什么这样完成任务。我们提出了一个基本框架——任务和解释网络（TENet），它完全整合了任务完成和解释。我们认为整个AI领域都应该强调可解释性。",
+    "tldr": "该论文介绍了一个基本框架——任务和解释网络（TENet），它不仅能完成任务，还能解释为什么这样完成任务。它强调整个AI领域都应该重视可解释性。",
+    "en_tdlr": "The paper presents a basic framework called Task and Explanation Network (TENet) that integrates task completion with explanations, highlighting the importance of explainability in the field of AI."
+}

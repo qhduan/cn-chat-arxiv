@@ -1,0 +1,12 @@
+{
+    "title": "Othello is Solved. (arXiv:2310.19387v3 [cs.AI] UPDATED)",
+    "abstract": "The game of Othello is one of the world's most complex and popular games that has yet to be computationally solved. Othello has roughly ten octodecillion (10 to the 58th power) possible game records and ten octillion (10 to the 28th power) possible game positions. The challenge of solving Othello, determining the outcome of a game with no mistake made by either player, has long been a grand challenge in computer science. This paper announces a significant milestone: Othello is now solved. It is computationally proved that perfect play by both players lead to a draw. Strong Othello software has long been built using heuristically designed search techniques. Solving a game provides a solution that enables the software to play the game perfectly.",
+    "link": "http://arxiv.org/abs/2310.19387",
+    "context": "Title: Othello is Solved. (arXiv:2310.19387v3 [cs.AI] UPDATED)\nAbstract: The game of Othello is one of the world's most complex and popular games that has yet to be computationally solved. Othello has roughly ten octodecillion (10 to the 58th power) possible game records and ten octillion (10 to the 28th power) possible game positions. The challenge of solving Othello, determining the outcome of a game with no mistake made by either player, has long been a grand challenge in computer science. This paper announces a significant milestone: Othello is now solved. It is computationally proved that perfect play by both players lead to a draw. Strong Othello software has long been built using heuristically designed search techniques. Solving a game provides a solution that enables the software to play the game perfectly.",
+    "path": "papers/23/10/2310.19387.json",
+    "total_tokens": 745,
+    "translated_title": "Othello已被解决",
+    "translated_abstract": "Othello是世界上最复杂和受欢迎的游戏之一，尚未在计算机上解决。 Othello大约有10的58次方个可能的游戏记录和10的28次方个可能的游戏位置。解决Othello的挑战，即确定没有双方玩家犯错误时的游戏结果，一直是计算机科学的一个重大挑战。本文宣布了一个重要的里程碑：Othello现已解决。通过计算证明，如果双方玩家都以完美的方式进行游戏，结果将是平局。长期以来，人们使用启发式设计的搜索技术构建了强大的Othello软件。解决一个游戏提供了一个解决方案，使软件能够完美地进行游戏。",
+    "tldr": "Othello是世界上最复杂和受欢迎的游戏之一，经过计算证明双方玩家的完美游戏将导致平局。",
+    "en_tdlr": "Othello is one of the world's most complex and popular games, and it has been computationally proved that perfect play by both players results in a draw."
+}

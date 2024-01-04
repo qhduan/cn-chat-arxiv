@@ -1,0 +1,12 @@
+{
+    "title": "Bias correction for quantile regression estimators. (arXiv:2011.03073v6 [econ.EM] UPDATED)",
+    "abstract": "We study the bias of classical quantile regression and instrumental variable quantile regression estimators. While being asymptotically first-order unbiased, these estimators can have non-negligible second-order biases. We derive a higher-order stochastic expansion of these estimators using empirical process theory. Based on this expansion, we derive an explicit formula for the second-order bias and propose a feasible bias correction procedure that uses finite-difference estimators of the bias components. The proposed bias correction method performs well in simulations. We provide an empirical illustration using Engel's classical data on household expenditure.",
+    "link": "http://arxiv.org/abs/2011.03073",
+    "context": "Title: Bias correction for quantile regression estimators. (arXiv:2011.03073v6 [econ.EM] UPDATED)\nAbstract: We study the bias of classical quantile regression and instrumental variable quantile regression estimators. While being asymptotically first-order unbiased, these estimators can have non-negligible second-order biases. We derive a higher-order stochastic expansion of these estimators using empirical process theory. Based on this expansion, we derive an explicit formula for the second-order bias and propose a feasible bias correction procedure that uses finite-difference estimators of the bias components. The proposed bias correction method performs well in simulations. We provide an empirical illustration using Engel's classical data on household expenditure.",
+    "path": "papers/20/11/2011.03073.json",
+    "total_tokens": 768,
+    "translated_title": "偏差修正对分位数回归估计器的影响",
+    "translated_abstract": "本文研究了经典的分位数回归和工具变量分位数回归估计器的偏差。虽然这些估计器在渐近意义下是一阶无偏的，但它们可能存在显著的二阶偏差。我们利用经验过程理论推导了这些估计器的高阶随机展开式。基于该展开式，我们得到了二阶偏差的显式公式，并提出了一个可行的偏差修正方法，该方法使用了偏差分量的有限差分估计器。在模拟实验中，提出的偏差修正方法表现良好。我们使用Engel家庭支出的经典数据提供了一个实证说明。",
+    "tldr": "本文研究了经典的分位数回归和工具变量分位数回归估计器的偏差，并通过推导高阶随机展开式，提出了一个可行的偏差修正方法。使用有限差分估计器对偏差分量进行估计，该方法在模拟实验中表现良好。",
+    "en_tdlr": "This paper studies the bias of classical quantile regression and instrumental variable quantile regression estimators. It proposes a feasible bias correction method based on a higher-order stochastic expansion of these estimators, which performs well in simulations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting. (arXiv:2205.15580v4 [cs.LG] UPDATED)",
+    "abstract": "We present a new method that includes three key components of distributed optimization and federated learning: variance reduction of stochastic gradients, partial participation, and compressed communication. We prove that the new method has optimal oracle complexity and state-of-the-art communication complexity in the partial participation setting. Regardless of the communication compression feature, our method successfully combines variance reduction and partial participation: we get the optimal oracle complexity, never need the participation of all nodes, and do not require the bounded gradients (dissimilarity) assumption.",
+    "link": "http://arxiv.org/abs/2205.15580",
+    "context": "Title: A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting. (arXiv:2205.15580v4 [cs.LG] UPDATED)\nAbstract: We present a new method that includes three key components of distributed optimization and federated learning: variance reduction of stochastic gradients, partial participation, and compressed communication. We prove that the new method has optimal oracle complexity and state-of-the-art communication complexity in the partial participation setting. Regardless of the communication compression feature, our method successfully combines variance reduction and partial participation: we get the optimal oracle complexity, never need the participation of all nodes, and do not require the bounded gradients (dissimilarity) assumption.",
+    "path": "papers/22/05/2205.15580.json",
+    "total_tokens": 686,
+    "translated_title": "在部分参与环境中解决分布式非凸问题的计算和通信高效方法",
+    "translated_abstract": "我们提出了一种新方法，包括分布式优化和联邦学习的三个关键组成部分：随机梯度的方差缩减、部分参与和压缩通信。我们证明了这种新方法在部分参与环境中具有最佳的预言复杂度和最先进的通信复杂度。无论通信压缩特性如何，我们的方法成功地结合了方差缩减和部分参与：我们获得了最佳的预言复杂度，无需所有节点的参与，并且不需要有界梯度（差异性）的假设。",
+    "tldr": "这种方法在分布式非凸问题中通过方差缩减、部分参与和压缩通信的组合实现了最佳预言复杂度，同时无需所有节点参与和有界梯度假设。",
+    "en_tdlr": "This method achieves optimal oracle complexity in distributed nonconvex problems by combining variance reduction, partial participation, and compressed communication, without requiring the participation of all nodes and bounded gradient assumption."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "How to avoid machine learning pitfalls: a guide for academic researchers. (arXiv:2108.02497v4 [cs.LG] UPDATED)",
+    "abstract": "This document outlines some of the common mistakes that occur when using machine learning, and what can be done to avoid them. Whilst it should be accessible to anyone with a basic understanding of machine learning techniques, it was originally written for research students, and focuses on issues that are of particular concern within academic research, such as the need to do rigorous comparisons and reach valid conclusions. It covers five stages of the machine learning process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
+    "link": "http://arxiv.org/abs/2108.02497",
+    "context": "Title: How to avoid machine learning pitfalls: a guide for academic researchers. (arXiv:2108.02497v4 [cs.LG] UPDATED)\nAbstract: This document outlines some of the common mistakes that occur when using machine learning, and what can be done to avoid them. Whilst it should be accessible to anyone with a basic understanding of machine learning techniques, it was originally written for research students, and focuses on issues that are of particular concern within academic research, such as the need to do rigorous comparisons and reach valid conclusions. It covers five stages of the machine learning process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
+    "path": "papers/21/08/2108.02497.json",
+    "total_tokens": 742,
+    "translated_title": "如何避免机器学习陷阱：学术研究人员指南",
+    "translated_abstract": "本文概述了使用机器学习时常见的一些错误，以及如何避免它们。虽然对于具有基本机器学习技术理解的任何人都应该易于理解，但它最初是为研究生撰写的，并关注学术研究中特别关注的问题，例如进行严格比较和得出有效结论的需求。它涵盖了机器学习过程的五个阶段：如何在模型构建之前进行准备，如何可靠地构建模型，如何稳健地评估模型，如何公平比较模型，以及如何报告结果。",
+    "tldr": "该论文总结了在机器学习中常见的错误，并提供了避免这些错误的方法和指南。其中包括在模型构建之前的准备工作、可靠地构建模型、稳健地评估模型、公平比较模型以及报告结果等五个关键阶段。",
+    "en_tdlr": "This paper summarizes common mistakes in machine learning and provides methods and guidelines for avoiding them. It covers five key stages, including preparation before model building, reliable model construction, robust model evaluation, fair model comparison, and result reporting."
+}
