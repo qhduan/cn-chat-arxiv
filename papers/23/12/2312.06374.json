@@ -1,0 +1,11 @@
+{
+    "title": "UstanceBR: a multimodal language resource for stance prediction. (arXiv:2312.06374v2 [cs.CL] UPDATED)",
+    "abstract": "This work introduces UstanceBR, a multimodal corpus in the Brazilian Portuguese Twitter domain for target-based stance prediction. The corpus comprises 86.8 k labelled stances towards selected target topics, and extensive network information about the users who published these stances on social media. In this article we describe the corpus multimodal data, and a number of usage examples in both in-domain and zero-shot stance prediction based on textand network-related information, which are intended to provide initial baseline results for future studies in the field.",
+    "link": "http://arxiv.org/abs/2312.06374",
+    "context": "Title: UstanceBR: a multimodal language resource for stance prediction. (arXiv:2312.06374v2 [cs.CL] UPDATED)\nAbstract: This work introduces UstanceBR, a multimodal corpus in the Brazilian Portuguese Twitter domain for target-based stance prediction. The corpus comprises 86.8 k labelled stances towards selected target topics, and extensive network information about the users who published these stances on social media. In this article we describe the corpus multimodal data, and a number of usage examples in both in-domain and zero-shot stance prediction based on textand network-related information, which are intended to provide initial baseline results for future studies in the field.",
+    "path": "papers/23/12/2312.06374.json",
+    "total_tokens": 705,
+    "translated_title": "UstanceBR:一种用于目标立场预测的多模态语言资源",
+    "translated_abstract": "本研究介绍了UstanceBR，这是一个用于巴西葡萄牙语Twitter领域的多模态语料库，用于目标立场预测。该语料库包含对所选目标主题的86.8k标记立场，并且包含了发布这些立场的社交媒体用户的广泛网络信息。在本文中，我们描述了语料库的多模态数据，并提供了基于文本和网络相关信息的领域内和零样本立场预测的多个使用示例，旨在为未来的研究提供初始基准结果。",
+    "tldr": "UstanceBR是一个多模态语言资源，用于目标立场预测，包含巴西葡萄牙语Twitter领域的86.8k标记立场和发布者的网络信息。这个研究为未来的研究提供了初始基准结果。"
+}

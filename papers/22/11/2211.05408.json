@@ -1,0 +1,11 @@
+{
+    "title": "Controlling Moments with Kernel Stein Discrepancies. (arXiv:2211.05408v2 [stat.ML] UPDATED)",
+    "abstract": "Kernel Stein discrepancies (KSDs) measure the quality of a distributional approximation and can be computed even when the target density has an intractable normalizing constant. Notable applications include the diagnosis of approximate MCMC samplers and goodness-of-fit tests for unnormalized statistical models. The present work analyzes the convergence control properties of KSDs. We first show that standard KSDs used for weak convergence control fail to control moment convergence. To address this limitation, we next provide sufficient conditions under which alternative diffusion KSDs control both moment and weak convergence. As an immediate consequence we develop, for each $q > 0$, the first KSDs known to exactly characterize $q$-Wasserstein convergence.",
+    "link": "http://arxiv.org/abs/2211.05408",
+    "context": "Title: Controlling Moments with Kernel Stein Discrepancies. (arXiv:2211.05408v2 [stat.ML] UPDATED)\nAbstract: Kernel Stein discrepancies (KSDs) measure the quality of a distributional approximation and can be computed even when the target density has an intractable normalizing constant. Notable applications include the diagnosis of approximate MCMC samplers and goodness-of-fit tests for unnormalized statistical models. The present work analyzes the convergence control properties of KSDs. We first show that standard KSDs used for weak convergence control fail to control moment convergence. To address this limitation, we next provide sufficient conditions under which alternative diffusion KSDs control both moment and weak convergence. As an immediate consequence we develop, for each $q > 0$, the first KSDs known to exactly characterize $q$-Wasserstein convergence.",
+    "path": "papers/22/11/2211.05408.json",
+    "total_tokens": 818,
+    "translated_title": "用核斯坦离差控制矩",
+    "translated_abstract": "核斯坦离差（KSD）用于衡量分布逼近的质量，并且可以在目标密度具有不可计算的归一化常数时计算。显著的应用包括诊断近似MCMC采样器和非归一化统计模型的适配度检验。本文分析了KSD的收敛控制性质。我们首先证明了用于弱收敛控制的标准KSD无法控制矩的收敛。为了解决这个限制，我们提供了一组充分条件，下游扩散KSD可以同时控制矩和弱收敛。作为一个直接的结果，我们发展了对于每个$q>0$，第一组已知可以准确描述$q$-Wasserstein收敛的KSD。",
+    "tldr": "本研究分析了核斯坦离差（KSD）控制性质，发现标准KSD无法控制矩的收敛，提出了可控制矩和弱收敛的下游扩散KSD，并且发展了可以准确描述$q$-Wasserstein收敛的KSD。"
+}

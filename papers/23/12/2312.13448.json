@@ -1,0 +1,11 @@
+{
+    "title": "An Implied CO$_2$-Price and its relation to the Social Cost of Carbon. (arXiv:2312.13448v3 [q-fin.MF] UPDATED)",
+    "abstract": "By its nature, the so-called social cost of carbon (SCC(t)) will likely not cover the cost induced by climate change (damage cost and abatement cost) if it is used as a CO$_2$-price. It is a marginal price only. We define an implied CO$_2$-price that covers the climate change-induced costs. The price can be interpreted as a \\textit{polluter pays principle}. A numerical analysis using a classical DICE model reveals that the cost-implied CO$_2$ price is around 500 \\$/tCO$_2$, while the corresponding price associated with the SCC is about 50 \\$/tCO$_2$.",
+    "link": "http://arxiv.org/abs/2312.13448",
+    "context": "Title: An Implied CO$_2$-Price and its relation to the Social Cost of Carbon. (arXiv:2312.13448v3 [q-fin.MF] UPDATED)\nAbstract: By its nature, the so-called social cost of carbon (SCC(t)) will likely not cover the cost induced by climate change (damage cost and abatement cost) if it is used as a CO$_2$-price. It is a marginal price only. We define an implied CO$_2$-price that covers the climate change-induced costs. The price can be interpreted as a \\textit{polluter pays principle}. A numerical analysis using a classical DICE model reveals that the cost-implied CO$_2$ price is around 500 \\$/tCO$_2$, while the corresponding price associated with the SCC is about 50 \\$/tCO$_2$.",
+    "path": "papers/23/12/2312.13448.json",
+    "total_tokens": 798,
+    "translated_title": "一种隐含的CO$_2$价格及其与社会碳成本的关系",
+    "translated_abstract": "由于其性质，所谓的社会碳成本（SCC(t)）如果被用作CO$_2$价格，很可能不会覆盖由气候变化引起的成本（损害成本和减排成本）。它只是一个边际价格。我们定义了一个涵盖气候变化引起的成本的隐含CO$_2$价格。该价格可以解释为“污染者付费原则”。使用经典DICE模型进行的数值分析表明，成本隐含的CO$_2$价格约为500 \\$/tCO$_2$，而与SCC相关的价格约为50 \\$/tCO$_2$。",
+    "tldr": "研究提出了一种隐含的CO2价格概念，该价格涵盖了由气候变化引起的成本，与社会碳成本不同。使用经典DICE模型的数值分析显示，成本隐含的CO2价格约为500 \\$/tCO2，而与社会碳成本相关的价格约为50 \\$/tCO2。"
+}

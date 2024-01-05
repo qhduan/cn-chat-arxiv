@@ -1,0 +1,12 @@
+{
+    "title": "TinyLlama: An Open-Source Small Language Model. (arXiv:2401.02385v1 [cs.CL])",
+    "abstract": "We present TinyLlama, a compact 1.1B language model pretrained on around 1 trillion tokens for approximately 3 epochs. Building on the architecture and tokenizer of Llama 2, TinyLlama leverages various advances contributed by the open-source community (e.g., FlashAttention), achieving better computational efficiency. Despite its relatively small size, TinyLlama demonstrates remarkable performance in a series of downstream tasks. It significantly outperforms existing open-source language models with comparable sizes. Our model checkpoints and code are publicly available on GitHub at https://github.com/jzhang38/TinyLlama.",
+    "link": "http://arxiv.org/abs/2401.02385",
+    "context": "Title: TinyLlama: An Open-Source Small Language Model. (arXiv:2401.02385v1 [cs.CL])\nAbstract: We present TinyLlama, a compact 1.1B language model pretrained on around 1 trillion tokens for approximately 3 epochs. Building on the architecture and tokenizer of Llama 2, TinyLlama leverages various advances contributed by the open-source community (e.g., FlashAttention), achieving better computational efficiency. Despite its relatively small size, TinyLlama demonstrates remarkable performance in a series of downstream tasks. It significantly outperforms existing open-source language models with comparable sizes. Our model checkpoints and code are publicly available on GitHub at https://github.com/jzhang38/TinyLlama.",
+    "path": "papers/24/01/2401.02385.json",
+    "total_tokens": 744,
+    "translated_title": "TinyLlama：一个开源的小型语言模型",
+    "translated_abstract": "我们介绍了TinyLlama，一个有限的1.1B语言模型，大约预训练了1万亿个标记，训练轮数约为3轮。TinyLlama基于Llama 2的架构和分词器，在开源社区的贡献基础上（例如FlashAttention），利用各种先进技术实现了更好的计算效率。尽管规模相对较小，TinyLlama在一系列下游任务中展示了出色的性能。它明显优于具有类似规模的现有开源语言模型。我们的模型检查点和代码可在GitHub上公开获取，网址为https://github.com/jzhang38/TinyLlama。",
+    "tldr": "TinyLlama是一个开源的小型语言模型，基于Llama 2的架构和分词器，利用各种先进技术实现了更好的计算效率。尽管规模较小，但在下游任务中表现出色，明显优于其他类似规模的开源语言模型。",
+    "en_tdlr": "TinyLlama is an open-source small language model built on the architecture and tokenizer of Llama 2 and leverages various advances to achieve better computational efficiency. Despite its small size, it demonstrates remarkable performance in downstream tasks and significantly outperforms other open-source language models of comparable sizes."
+}

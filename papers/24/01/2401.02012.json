@@ -1,0 +1,11 @@
+{
+    "title": "Fast & Fair: Efficient Second-Order Robust Optimization for Fairness in Machine Learning. (arXiv:2401.02012v1 [cs.LG])",
+    "abstract": "This project explores adversarial training techniques to develop fairer Deep Neural Networks (DNNs) to mitigate the inherent bias they are known to exhibit. DNNs are susceptible to inheriting bias with respect to sensitive attributes such as race and gender, which can lead to life-altering outcomes (e.g., demographic bias in facial recognition software used to arrest a suspect). We propose a robust optimization problem, which we demonstrate can improve fairness in several datasets, both synthetic and real-world, using an affine linear model. Leveraging second order information, we are able to find a solution to our optimization problem more efficiently than a purely first order method.",
+    "link": "http://arxiv.org/abs/2401.02012",
+    "context": "Title: Fast & Fair: Efficient Second-Order Robust Optimization for Fairness in Machine Learning. (arXiv:2401.02012v1 [cs.LG])\nAbstract: This project explores adversarial training techniques to develop fairer Deep Neural Networks (DNNs) to mitigate the inherent bias they are known to exhibit. DNNs are susceptible to inheriting bias with respect to sensitive attributes such as race and gender, which can lead to life-altering outcomes (e.g., demographic bias in facial recognition software used to arrest a suspect). We propose a robust optimization problem, which we demonstrate can improve fairness in several datasets, both synthetic and real-world, using an affine linear model. Leveraging second order information, we are able to find a solution to our optimization problem more efficiently than a purely first order method.",
+    "path": "papers/24/01/2401.02012.json",
+    "total_tokens": 778,
+    "translated_title": "快速而公平: 高效的二阶鲁棒优化用于机器学习中的公平性",
+    "translated_abstract": "该项目探讨了对抗训练技术，以开发更公平的深度神经网络（DNN），以减轻其已知存在的固有偏差。DNN对于与种族和性别等敏感属性相关的偏见很容易受到影响，这可能导致改变生活的结果（例如，用于逮捕嫌疑人的人脸识别软件中的人口统计偏见）。我们提出了一个鲁棒优化问题，并证明可以通过使用仿射线性模型，在多个合成和真实数据集中改善公平性。利用二阶信息，我们能够比纯一阶方法更高效地找到解决方案。",
+    "tldr": "该项目通过对抗训练技术开发了一种高效的二阶鲁棒优化方法，以提高机器学习中的公平性。该方法能够减小深度神经网络因与敏感属性相关的偏见而导致的不公平问题，并且比纯一阶方法更高效。"
+}

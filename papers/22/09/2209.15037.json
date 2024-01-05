@@ -1,0 +1,12 @@
+{
+    "title": "Quantitative Fundamental Theorem of Asset Pricing. (arXiv:2209.15037v2 [q-fin.MF] UPDATED)",
+    "abstract": "In this paper we provide a quantitative analysis to the concept of arbitrage, that allows to deal with model uncertainty without imposing the no-arbitrage condition. In markets that admit ``small arbitrage\", we can still make sense of the problems of pricing and hedging. The pricing measures here will be such that asset price processes are close to being martingales, and the hedging strategies will need to cover some additional cost. We show a quantitative version of the Fundamental Theorem of Asset Pricing and of the Super-Replication Theorem. Finally, we study robustness of the amount of arbitrage and existence of respective pricing measures, showing stability of these concepts with respect to a strong adapted Wasserstein distance.",
+    "link": "http://arxiv.org/abs/2209.15037",
+    "context": "Title: Quantitative Fundamental Theorem of Asset Pricing. (arXiv:2209.15037v2 [q-fin.MF] UPDATED)\nAbstract: In this paper we provide a quantitative analysis to the concept of arbitrage, that allows to deal with model uncertainty without imposing the no-arbitrage condition. In markets that admit ``small arbitrage\", we can still make sense of the problems of pricing and hedging. The pricing measures here will be such that asset price processes are close to being martingales, and the hedging strategies will need to cover some additional cost. We show a quantitative version of the Fundamental Theorem of Asset Pricing and of the Super-Replication Theorem. Finally, we study robustness of the amount of arbitrage and existence of respective pricing measures, showing stability of these concepts with respect to a strong adapted Wasserstein distance.",
+    "path": "papers/22/09/2209.15037.json",
+    "total_tokens": 739,
+    "translated_title": "资产定价的定量基本定理",
+    "translated_abstract": "本文提供了一个定量分析框架来研究套利概念，使我们能够在不强加无套利条件的情况下处理模型不确定性。在允许“小套利”的市场中，我们仍然可以解决定价和对冲的问题。这里的定价措施将使资产价格过程接近鞅，而对冲策略则需要额外的成本。我们展示了资产定价基本定理和超复制定理的定量版本。最后，我们通过强适应Wasserstein距离的稳定性，研究了套利金额的稳健性和相应的定价措施的存在性。",
+    "tldr": "本文提供了一个定量分析框架来研究套利概念，解决了模型不确定性下的定价和对冲问题，并展示了资产定价基本定理和超复制定理的定量版本。",
+    "en_tdlr": "This paper provides a quantitative analysis framework to study the concept of arbitrage, addressing the pricing and hedging problems in the presence of model uncertainty, and presents quantitative versions of the Fundamental Theorem of Asset Pricing and the Super-Replication Theorem."
+}

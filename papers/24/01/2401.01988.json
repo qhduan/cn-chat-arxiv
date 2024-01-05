@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchical Clustering in ${\\Lambda}$CDM Cosmologies via Persistence Energy. (arXiv:2401.01988v1 [astro-ph.CO])",
+    "abstract": "In this research, we investigate the structural evolution of the cosmic web, employing advanced methodologies from Topological Data Analysis. Our approach involves leveraging $Persistence$ $Signals$, an innovative method from recent literature that facilitates the embedding of persistence diagrams into vector spaces by re-conceptualizing them as signals in $\\mathbb R^2_+$. Utilizing this methodology, we analyze three quintessential cosmic structures: clusters, filaments, and voids. A central discovery is the correlation between $Persistence$ $Energy$ and redshift values, linking persistent homology with cosmic evolution and providing insights into the dynamics of cosmic structures.",
+    "link": "http://arxiv.org/abs/2401.01988",
+    "context": "Title: Hierarchical Clustering in ${\\Lambda}$CDM Cosmologies via Persistence Energy. (arXiv:2401.01988v1 [astro-ph.CO])\nAbstract: In this research, we investigate the structural evolution of the cosmic web, employing advanced methodologies from Topological Data Analysis. Our approach involves leveraging $Persistence$ $Signals$, an innovative method from recent literature that facilitates the embedding of persistence diagrams into vector spaces by re-conceptualizing them as signals in $\\mathbb R^2_+$. Utilizing this methodology, we analyze three quintessential cosmic structures: clusters, filaments, and voids. A central discovery is the correlation between $Persistence$ $Energy$ and redshift values, linking persistent homology with cosmic evolution and providing insights into the dynamics of cosmic structures.",
+    "path": "papers/24/01/2401.01988.json",
+    "total_tokens": 730,
+    "translated_title": "${\\Lambda}$CDM宇宙学中的层次聚类通过持续能量方法",
+    "translated_abstract": "在这项研究中，我们利用拓扑数据分析的先进方法，研究宇宙网络的结构演化。我们的方法涉及到利用持续信号这一创新方法，将持续图重新概念化为$\\mathbb R^2_+$空间中的信号，从而实现持续图的嵌入。利用这种方法，我们分析了三种典型的宇宙结构：团簇、纤维和虚空。其中的一个核心发现是持续能量与红移值之间的相关性，将持续同调与宇宙结构的演化联系起来，并提供了有关宇宙结构动力学的见解。",
+    "tldr": "通过持续能量方法研究了${\\Lambda}$CDM宇宙学中的层次聚类，发现持续能量与红移值之间存在相关性，揭示了宇宙结构的动力学特征。",
+    "en_tdlr": "Investigated hierarchical clustering in ${\\Lambda}$CDM cosmologies via persistence energy, revealing a correlation between persistence energy and redshift values, providing insights into the dynamics of cosmic structures."
+}

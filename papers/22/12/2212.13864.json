@@ -1,0 +1,12 @@
+{
+    "title": "The limitations of comonotonic additive risk measures: a literature review. (arXiv:2212.13864v2 [q-fin.RM] UPDATED)",
+    "abstract": "Risk measures satisfying the axiom of comonotonic additivity are extensively studied, arguably because of the plethora of results indicating interesting aspects of such risk measures. Recent research, however, has shown that this axiom is incompatible with central properties in specific contexts. In this paper, we present a literature review of these incompatibilities. In addition, we use the Choquet representation of comonotonic additive risk measures to show they cannot be surplus invariant.",
+    "link": "http://arxiv.org/abs/2212.13864",
+    "context": "Title: The limitations of comonotonic additive risk measures: a literature review. (arXiv:2212.13864v2 [q-fin.RM] UPDATED)\nAbstract: Risk measures satisfying the axiom of comonotonic additivity are extensively studied, arguably because of the plethora of results indicating interesting aspects of such risk measures. Recent research, however, has shown that this axiom is incompatible with central properties in specific contexts. In this paper, we present a literature review of these incompatibilities. In addition, we use the Choquet representation of comonotonic additive risk measures to show they cannot be surplus invariant.",
+    "path": "papers/22/12/2212.13864.json",
+    "total_tokens": 639,
+    "translated_title": "共单调可加风险度量的局限性：一篇文献综述",
+    "translated_abstract": "符合共单调可加性公理的风险度量受到广泛研究，这是因为大量的研究结果表明这种风险度量具有有趣的特性。然而，最近的研究表明，在特定背景下，这种公理与中心特性不兼容。本文概述了这些不兼容性的文献现状。此外，我们还使用共单调可加风险度量的Choquet表示来证明它们不具备余额不变性。",
+    "tldr": "共单调可加风险度量在某些情境中与中心特性不兼容，本文通过文献综述和Choquet表示证明共单调可加风险度量不具备余额不变性。",
+    "en_tdlr": "Comonotonic additive risk measures are incompatible with central properties in certain contexts, as demonstrated in this paper through a literature review and the use of the Choquet representation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Shayona@SMM4H23: COVID-19 Self diagnosis classification using BERT and LightGBM models. (arXiv:2401.02158v1 [cs.CL])",
+    "abstract": "This paper describes approaches and results for shared Task 1 and 4 of SMMH4-23 by Team Shayona. Shared Task-1 was binary classification of english tweets self-reporting a COVID-19 diagnosis, and Shared Task-4 was Binary classification of English Reddit posts self-reporting a social anxiety disorder diagnosis. Our team has achieved the highest f1-score 0.94 in Task-1 among all participants. We have leveraged the Transformer model (BERT) in combination with the LightGBM model for both tasks.",
+    "link": "http://arxiv.org/abs/2401.02158",
+    "context": "Title: Shayona@SMM4H23: COVID-19 Self diagnosis classification using BERT and LightGBM models. (arXiv:2401.02158v1 [cs.CL])\nAbstract: This paper describes approaches and results for shared Task 1 and 4 of SMMH4-23 by Team Shayona. Shared Task-1 was binary classification of english tweets self-reporting a COVID-19 diagnosis, and Shared Task-4 was Binary classification of English Reddit posts self-reporting a social anxiety disorder diagnosis. Our team has achieved the highest f1-score 0.94 in Task-1 among all participants. We have leveraged the Transformer model (BERT) in combination with the LightGBM model for both tasks.",
+    "path": "papers/24/01/2401.02158.json",
+    "total_tokens": 640,
+    "translated_title": "Shayona@SMM4H23：使用BERT和LightGBM模型进行COVID-19自我诊断分类",
+    "translated_abstract": "本文描述了Shayona团队在SMMH4-23的共享任务1和4中的方法和结果。共享任务1是对自报COVID-19诊断的英文推文进行二分类，共享任务4是对自报社交焦虑障碍诊断的英文Reddit帖子进行二分类。我们的团队在任务1中取得了所有参与者中最高的F1分数0.94。我们在两个任务中都使用了Transformer模型（BERT）和LightGBM模型进行处理。",
+    "tldr": "Shayona团队在SMMH4-23中使用了BERT和LightGBM模型进行COVID-19自我诊断分类，并在任务1中取得了最高的F1分数0.94。",
+    "en_tdlr": "Team Shayona utilized BERT and LightGBM models for COVID-19 self-diagnosis classification in SMMH4-23, achieving the highest F1 score of 0.94 in Task 1."
+}

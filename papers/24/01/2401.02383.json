@@ -1,0 +1,11 @@
+{
+    "title": "Survey of 3D Human Body Pose and Shape Estimation Methods for Contemporary Dance Applications. (arXiv:2401.02383v1 [cs.CV])",
+    "abstract": "3D human body shape and pose estimation from RGB images is a challenging problem with potential applications in augmented/virtual reality, healthcare and fitness technology and virtual retail. Recent solutions have focused on three types of inputs: i) single images, ii) multi-view images and iii) videos. In this study, we surveyed and compared 3D body shape and pose estimation methods for contemporary dance and performing arts, with a special focus on human body pose and dressing, camera viewpoint, illumination conditions and background conditions. We demonstrated that multi-frame methods, such as PHALP, provide better results than single-frame method for pose estimation when dancers are performing contemporary dances.",
+    "link": "http://arxiv.org/abs/2401.02383",
+    "context": "Title: Survey of 3D Human Body Pose and Shape Estimation Methods for Contemporary Dance Applications. (arXiv:2401.02383v1 [cs.CV])\nAbstract: 3D human body shape and pose estimation from RGB images is a challenging problem with potential applications in augmented/virtual reality, healthcare and fitness technology and virtual retail. Recent solutions have focused on three types of inputs: i) single images, ii) multi-view images and iii) videos. In this study, we surveyed and compared 3D body shape and pose estimation methods for contemporary dance and performing arts, with a special focus on human body pose and dressing, camera viewpoint, illumination conditions and background conditions. We demonstrated that multi-frame methods, such as PHALP, provide better results than single-frame method for pose estimation when dancers are performing contemporary dances.",
+    "path": "papers/24/01/2401.02383.json",
+    "total_tokens": 794,
+    "translated_title": "现代舞应用中三维人体姿势和形状估计方法调查",
+    "translated_abstract": "从RGB图像中估计三维人体形状和姿势是一个具有挑战性的问题，具有增强/虚拟现实、医疗保健和健身技术以及虚拟零售等潜在应用。最近的解决方案主要关注三种类型的输入：i）单个图像，ii）多视图图像和iii）视频。在这项研究中，我们调查并比较了现代舞和表演艺术中的三维人体形状和姿势估计方法，特别关注人体姿势和穿着、摄像机视角、照明条件和背景条件。我们证明了对于现代舞蹈表演中的姿势估计，如PHALP这样的多帧方法比单帧方法提供更好的结果。",
+    "tldr": "这项研究调查了现代舞和表演艺术中的三维人体形状和姿势估计方法，发现多帧方法在现代舞蹈表演中的姿势估计方面比单帧方法效果更好。"
+}
