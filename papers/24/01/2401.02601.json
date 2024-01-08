@@ -1,0 +1,11 @@
+{
+    "title": "Constrained Max Drawdown: a Fast and Robust Portfolio Optimization Approach. (arXiv:2401.02601v1 [q-fin.PM])",
+    "abstract": "We propose an alternative linearization to the classical Markowitz quadratic portfolio optimization model, based on maximum drawdown. This model, which minimizes maximum portfolio drawdown, is particularly appealing during times of financial distress, like during the COVID-19 pandemic. In addition, we will present a Mixed-Integer Linear Programming variation of our new model that, based on our out-of-sample results and sensitivity analysis, delivers a more profitable and robust solution with a 200 times faster solving time compared to the standard Markowitz quadratic formulation.",
+    "link": "http://arxiv.org/abs/2401.02601",
+    "context": "Title: Constrained Max Drawdown: a Fast and Robust Portfolio Optimization Approach. (arXiv:2401.02601v1 [q-fin.PM])\nAbstract: We propose an alternative linearization to the classical Markowitz quadratic portfolio optimization model, based on maximum drawdown. This model, which minimizes maximum portfolio drawdown, is particularly appealing during times of financial distress, like during the COVID-19 pandemic. In addition, we will present a Mixed-Integer Linear Programming variation of our new model that, based on our out-of-sample results and sensitivity analysis, delivers a more profitable and robust solution with a 200 times faster solving time compared to the standard Markowitz quadratic formulation.",
+    "path": "papers/24/01/2401.02601.json",
+    "total_tokens": 708,
+    "translated_title": "有约束的最大回撤：一种快速和强健的投资组合优化方法",
+    "translated_abstract": "我们提出了一种基于最大回撤的替代线性化方法，用于经典的Markowitz二次投资组合优化模型。该模型通过最小化最大投资组合回撤，在金融困境时特别有吸引力，例如COVID-19疫情期间。此外，我们还将介绍我们新模型的混合整数线性规划变体，根据我们的趋势外样本结果和敏感性分析，该模型比标准的Markowitz二次优化模型提供更具盈利性和鲁棒性的解决方案，并且求解时间快200倍。",
+    "tldr": "这项研究提出了一种基于最大回撤的投资组合优化方法，该方法在金融困境中表现良好，并通过混合整数线性规划以更快的速度提供了更具盈利性和鲁棒性的解决方案。"
+}

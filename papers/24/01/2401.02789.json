@@ -1,0 +1,11 @@
+{
+    "title": "Large Language Models in Plant Biology. (arXiv:2401.02789v1 [q-bio.GN])",
+    "abstract": "Large Language Models (LLMs), such as ChatGPT, have taken the world by storm and have passed certain forms of the Turing test. However, LLMs are not limited to human language and analyze sequential data, such as DNA, protein, and gene expression. The resulting foundation models can be repurposed to identify the complex patterns within the data, resulting in powerful, multi-purpose prediction tools able to explain cellular systems. This review outlines the different types of LLMs and showcases their recent uses in biology. Since LLMs have not yet been embraced by the plant community, we also cover how these models can be deployed for the plant kingdom.",
+    "link": "http://arxiv.org/abs/2401.02789",
+    "context": "Title: Large Language Models in Plant Biology. (arXiv:2401.02789v1 [q-bio.GN])\nAbstract: Large Language Models (LLMs), such as ChatGPT, have taken the world by storm and have passed certain forms of the Turing test. However, LLMs are not limited to human language and analyze sequential data, such as DNA, protein, and gene expression. The resulting foundation models can be repurposed to identify the complex patterns within the data, resulting in powerful, multi-purpose prediction tools able to explain cellular systems. This review outlines the different types of LLMs and showcases their recent uses in biology. Since LLMs have not yet been embraced by the plant community, we also cover how these models can be deployed for the plant kingdom.",
+    "path": "papers/24/01/2401.02789.json",
+    "total_tokens": 661,
+    "translated_title": "植物生物学中的大型语言模型",
+    "translated_abstract": "大型语言模型（LLM），如ChatGPT，已经席卷全球，并通过某些形式的图灵测试。然而，LLM不仅局限于人类语言，还可以分析DNA、蛋白质和基因表达等顺序数据。所得到的基础模型可以被重新利用来识别数据中的复杂模式，从而形成强大的多功能预测工具，能够解释细胞系统。本综述概述了不同类型的LLM，并展示了它们在生物学中的最新应用。考虑到LLM尚未在植物学界被接受，我们还介绍了如何将这些模型应用于植物王国。",
+    "tldr": "大型语言模型在植物生物学中的应用。这些模型可以用于分析植物基因组数据，并提供强大的预测工具。"
+}

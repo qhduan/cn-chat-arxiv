@@ -1,0 +1,11 @@
+{
+    "title": "Zero-shot Microclimate Prediction with Deep Learning. (arXiv:2401.02665v1 [cs.LG])",
+    "abstract": "Weather station data is a valuable resource for climate prediction, however, its reliability can be limited in remote locations. To compound the issue, making local predictions often relies on sensor data that may not be accessible for a new, previously unmonitored location. In response to these challenges, we propose a novel zero-shot learning approach designed to forecast various climate measurements at new and unmonitored locations. Our method surpasses conventional weather forecasting techniques in predicting microclimate variables by leveraging knowledge extracted from other geographic locations.",
+    "link": "http://arxiv.org/abs/2401.02665",
+    "context": "Title: Zero-shot Microclimate Prediction with Deep Learning. (arXiv:2401.02665v1 [cs.LG])\nAbstract: Weather station data is a valuable resource for climate prediction, however, its reliability can be limited in remote locations. To compound the issue, making local predictions often relies on sensor data that may not be accessible for a new, previously unmonitored location. In response to these challenges, we propose a novel zero-shot learning approach designed to forecast various climate measurements at new and unmonitored locations. Our method surpasses conventional weather forecasting techniques in predicting microclimate variables by leveraging knowledge extracted from other geographic locations.",
+    "path": "papers/24/01/2401.02665.json",
+    "total_tokens": 667,
+    "translated_title": "零样本深度学习实现微气候预测",
+    "translated_abstract": "天气站数据是气候预测的宝贵资源，但在偏远地区其可靠性可能受限。此外，进行本地预测通常依赖于可能无法访问的传感器数据，这对于新的、以前未监测到的地点来说尤其困难。为了应对这些挑战，我们提出了一种新颖的零样本学习方法，旨在预测新的、未监测到的地点的各种气候测量。我们的方法通过利用从其他地理位置提取的知识，超越了传统的天气预报技术，预测微气候变量。",
+    "tldr": "该论文提出了一种零样本学习方法，利用从其他地理位置提取的知识，实现了对新的和未监测到的地点的各种气候测量的预测。"
+}

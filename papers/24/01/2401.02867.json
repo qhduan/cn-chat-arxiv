@@ -1,0 +1,12 @@
+{
+    "title": "Changing Simplistic Worldviews. (arXiv:2401.02867v1 [econ.TH])",
+    "abstract": "We study a Bayesian persuasion model with two-dimensional states of the world, in which the sender (she) and receiver (he) have heterogeneous prior beliefs and care about different dimensions. The receiver is a naive agent who has a simplistic worldview: he ignores the dependency between the two dimensions of the state. We provide a characterization for the sender's gain from persuasion both when the receiver is naive and when he is rational. We show that the receiver benefits from having a simplistic worldview if and only if it makes him perceive the states in which his interest is aligned with the sender as less likely.",
+    "link": "http://arxiv.org/abs/2401.02867",
+    "context": "Title: Changing Simplistic Worldviews. (arXiv:2401.02867v1 [econ.TH])\nAbstract: We study a Bayesian persuasion model with two-dimensional states of the world, in which the sender (she) and receiver (he) have heterogeneous prior beliefs and care about different dimensions. The receiver is a naive agent who has a simplistic worldview: he ignores the dependency between the two dimensions of the state. We provide a characterization for the sender's gain from persuasion both when the receiver is naive and when he is rational. We show that the receiver benefits from having a simplistic worldview if and only if it makes him perceive the states in which his interest is aligned with the sender as less likely.",
+    "path": "papers/24/01/2401.02867.json",
+    "total_tokens": 697,
+    "translated_title": "改变简单的世界观",
+    "translated_abstract": "我们研究了一个具有二维世界状态的贝叶斯说服模型，在这个模型中发送者（她）和接收者（他）有着不同的先验信念并且关心不同的维度。接收者是一个天真的代理人，他对世界状态的两个维度之间的依赖性不予考虑。我们给出了发送者在接收者天真和理性时从说服中获得的收益的描述。我们证明了只有当接收者认为与发送者意见一致的状态较不可能时，他从拥有简单的世界观中受益。",
+    "tldr": "本文研究了一个具有二维世界状态的贝叶斯说服模型，研究结果表明，接收者从拥有简单的世界观中受益的条件是他认为与发送者意见一致的状态较不可能。",
+    "en_tdlr": "This paper studies a Bayesian persuasion model with two-dimensional states of the world, and finds that the receiver benefits from having a simplistic worldview if he perceives the states in which his interest is aligned with the sender as less likely."
+}

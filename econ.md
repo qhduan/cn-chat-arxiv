@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Game Mining: How to Make Money from those about to Play a Game.](http://arxiv.org/abs/2401.02353) | 玩家在一个非合作博弈中通过公开限制自己的可能行动或承诺支付外部参与方金额来获益。矿工们发现这一事实并与玩家进行谈判来确定与游戏结果相关的合同，并可能导致有效和无效的均衡状态。 (arXiv:2401.02353v1 [econ.GN]) |
-| [^2] | [Airport service quality perception and flight delays: examining the influence of psychosituational latent traits of respondents in passenger satisfaction surveys.](http://arxiv.org/abs/2401.02139) | 该研究通过调查乘客满意度，研究了航班延误对机场服务质量感知的影响，并提出了一种方法来应对受访者的潜在心理环境特征。研究结果证实了航班延误与乘客对机场的整体满意度之间的关联。 |
-| [^3] | [Female Entrepreneur on Board:Assessing the Effect of Gender on Corporate Financial Constraints.](http://arxiv.org/abs/2401.02134) | 该研究调查了女性在企业高级管理层和董事会的角色对企业财务约束的影响。研究发现，女性CEO或更高比例的女性高级管理层能够减少企业的财务约束，但是女性董事会成员的影响不明确。研究还比较了高科技和低科技行业的差异，指出高科技行业内部的性别偏见可能会影响改变。 |
-| [^4] | [Impact of Green Marketing Strategy on Brand Awareness: Business, Management, and Human Resources Aspects.](http://arxiv.org/abs/2401.02042) | 本研究通过案例研究，探讨了绿色营销策略对品牌认知的影响，并发现环境考虑对公司是一项重要活动。 |
-| [^5] | [Cognitive Aging and Labor Share.](http://arxiv.org/abs/2308.14982) | 该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。 |
-| [^6] | [Effective and scalable programs to facilitate labor market transitions for women in technology.](http://arxiv.org/abs/2211.09968) | 这个论文描述了一个低成本和可扩展的计划，旨在帮助波兰的女性转向科技行业的工作。研究表明，参与指导计划或挑战计划可以显著增加在科技行业找到工作的概率。 |
+| [^1] | [Changing Simplistic Worldviews.](http://arxiv.org/abs/2401.02867) | 本文研究了一个具有二维世界状态的贝叶斯说服模型，研究结果表明，接收者从拥有简单的世界观中受益的条件是他认为与发送者意见一致的状态较不可能。 |
+| [^2] | [Roughness Signature Functions.](http://arxiv.org/abs/2401.02819) | 本文引入了一种粗糙度签名函数，可以用于确定离散观测过程的生成方式，并提供连续粗糙过程的粗糙度指数估计。 |
+| [^3] | [Cu\'anto es demasiada inflaci\'on? Una clasificaci\'on de reg\'imenes inflacionarios.](http://arxiv.org/abs/2401.02428) | 这项研究提出了一种新的方法论，通过将聚类技术和分类树相结合，对阿根廷的通货膨胀历史进行了历史分期，以减少主观性并提高准确性。所得到的结果通过与现有文献的对比表明，提出的分类方法具有更好的表现。 |
+| [^4] | [Classification and Treatment Learning with Constraints via Composite Heaviside Optimization: a Progressive MIP Method.](http://arxiv.org/abs/2401.01565) | 本文提出了一种使用Heaviside复合优化的渐进MIP方法，用于解决带有约束的多类别分类和多动作治疗问题。 |
+| [^5] | [Global Factors in Non-core Bank Funding and Exchange Rate Flexibility.](http://arxiv.org/abs/2310.11552) | 全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。 |
 
 # 详细
 
-[^1]: 游戏挖矿：如何从即将参与游戏的玩家身上赚钱
+[^1]: 改变简单的世界观
 
-    Game Mining: How to Make Money from those about to Play a Game. (arXiv:2401.02353v1 [econ.GN])
+    Changing Simplistic Worldviews. (arXiv:2401.02867v1 [econ.TH])
 
-    [http://arxiv.org/abs/2401.02353](http://arxiv.org/abs/2401.02353)
+    [http://arxiv.org/abs/2401.02867](http://arxiv.org/abs/2401.02867)
 
-    玩家在一个非合作博弈中通过公开限制自己的可能行动或承诺支付外部参与方金额来获益。矿工们发现这一事实并与玩家进行谈判来确定与游戏结果相关的合同，并可能导致有效和无效的均衡状态。 (arXiv:2401.02353v1 [econ.GN])
-
-    
-
-    众所周知，在一个非合作博弈中，玩家可以通过在游戏开始之前公开限制自己的可能行动来获益。我们展示了更一般的情况下，玩家可以通过公开承诺向外部参与方支付一个依赖于游戏结果的金额来获益。我们探讨了外部参与方（被我们称作“游戏挖矿者”）发现这个事实并试图通过与玩家签订与游戏结果相关的合同来从中获利的情况。我们分析了矿工和玩家之间进行各种结构化谈判游戏来确定这种与游戏结果相关的合同的情况。这些谈判游戏包括让玩家相互竞争，以及允许玩家向矿工支付独家权和先行者优势。我们对矿工可以获利的战略设定进行了限制，并得出了矿工的利润上限。我们还发现，游戏挖矿者可能导致有效和无效的均衡状态。
-
-    It is known that a player in a noncooperative game can benefit by publicly restricting his possible moves before play begins. We show that, more generally, a player may benefit by publicly committing to pay an external party an amount that is contingent on the game's outcome. We explore what happens when external parties -- who we call ``game miners'' -- discover this fact and seek to profit from it by entering an outcome-contingent contract with the players. We analyze various structured bargaining games between miners and players for determining such an outcome-contingent contract. These bargaining games include playing the players against one another, as well as allowing the players to pay the miner(s) for exclusivity and first-mover advantage. We establish restrictions on the strategic settings in which a game miner can profit and bounds on the game miner's profit. We also find that game miners can lead to both efficient and inefficient equilibria.
-    
-[^2]: 机场服务质量感知和航班延误：研究调查报告中受访者心理环境的潜在特征对乘客满意度的影响。
-
-    Airport service quality perception and flight delays: examining the influence of psychosituational latent traits of respondents in passenger satisfaction surveys. (arXiv:2401.02139v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.02139](http://arxiv.org/abs/2401.02139)
-
-    该研究通过调查乘客满意度，研究了航班延误对机场服务质量感知的影响，并提出了一种方法来应对受访者的潜在心理环境特征。研究结果证实了航班延误与乘客对机场的整体满意度之间的关联。
+    本文研究了一个具有二维世界状态的贝叶斯说服模型，研究结果表明，接收者从拥有简单的世界观中受益的条件是他认为与发送者意见一致的状态较不可能。
 
     
 
-    乘客运输经营者的服务质量可以通过在候机楼或飞机上进行面对面调查来衡量。然而，由于受访者个性和情感背景在访谈时的影响，所得到的回答可能受到内在因素的影响。该研究提出了一种生成和选择控制变量以应对这些潜在心理环境特征的方法，从而减少遗漏变量偏误的风险。我们在拉丁美洲最大的机场——圣保罗格鲁机场进行了一项调查，开发了一个经济计量模型，用于确定乘客满意度的决定因素。我们重点研究了航班延误在服务质量感知中的作用。研究结果证实了航班延误与旅客对机场的整体满意度之间存在着关联。此外，对机场的餐饮和Wi-Fi服务给予了积极评价，但不包括机场的零售选择。
+    我们研究了一个具有二维世界状态的贝叶斯说服模型，在这个模型中发送者（她）和接收者（他）有着不同的先验信念并且关心不同的维度。接收者是一个天真的代理人，他对世界状态的两个维度之间的依赖性不予考虑。我们给出了发送者在接收者天真和理性时从说服中获得的收益的描述。我们证明了只有当接收者认为与发送者意见一致的状态较不可能时，他从拥有简单的世界观中受益。
 
-    The service quality of a passenger transport operator can be measured through face-to-face surveys at the terminals or on board. However, the resulting responses may suffer from the influence of the intrinsic aspects of the respondent's personality and emotional context at the time of the interview. This study proposes a methodology to generate and select control variables for these latent psychosituational traits, thus mitigating the risk of omitted variable bias. We developed an econometric model of the determinants of passenger satisfaction in a survey conducted at the largest airport in Latin America, S\~ao Paulo GRU Airport. Our focus was on the role of flight delays in the perception of quality. The results of this study confirm the existence of a relationship between flight delays and the global satisfaction of passengers with airports. In addition, favorable evaluations regarding airports' food/beverage concessions and Wi-Fi services, but not their retail options, have a releva
+    We study a Bayesian persuasion model with two-dimensional states of the world, in which the sender (she) and receiver (he) have heterogeneous prior beliefs and care about different dimensions. The receiver is a naive agent who has a simplistic worldview: he ignores the dependency between the two dimensions of the state. We provide a characterization for the sender's gain from persuasion both when the receiver is naive and when he is rational. We show that the receiver benefits from having a simplistic worldview if and only if it makes him perceive the states in which his interest is aligned with the sender as less likely.
     
-[^3]: 女性企业家在董事会上：评估性别对企业财务约束的影响
+[^2]: 粗糙度签名函数
 
-    Female Entrepreneur on Board:Assessing the Effect of Gender on Corporate Financial Constraints. (arXiv:2401.02134v1 [econ.GN])
+    Roughness Signature Functions. (arXiv:2401.02819v1 [econ.EM])
 
-    [http://arxiv.org/abs/2401.02134](http://arxiv.org/abs/2401.02134)
+    [http://arxiv.org/abs/2401.02819](http://arxiv.org/abs/2401.02819)
 
-    该研究调查了女性在企业高级管理层和董事会的角色对企业财务约束的影响。研究发现，女性CEO或更高比例的女性高级管理层能够减少企业的财务约束，但是女性董事会成员的影响不明确。研究还比较了高科技和低科技行业的差异，指出高科技行业内部的性别偏见可能会影响改变。
-
-    
-
-    本研究调查了女性领导对中国上市创业企业的财务约束的影响。利用2013年至2022年期间中国创业板上938家公司的数据，本文探讨了女性CEO、高级管理层和董事会成员对企业管理财务约束的影响。我们采用卡普兰-辛加莱斯指数来衡量这些约束，包括现金流、股利和杠杆等关键财务因素。研究结果显示，具有女性CEO或更高比例的女性高级管理层的公司与减少的财务约束相关。然而，女性董事会成员的影响并不明确。我们的研究还深入探讨了这些效应在高科技和低科技行业之间的差异，强调高科技行业内部的性别偏见可能会阻碍改变。
-
-    This study investigates the impact of female leadership on the financial constraints of firms, which are publicly listed entrepreneurial enterprises in China. Utilizing data from 938 companies on the China Growth Enterprise Market (GEM) over a period of 2013-2022, this paper explores how the female presence in CEO positions, senior management, and board membership influences a firm's ability to manage financial constraints. Our analysis employs the Kaplan-Zingales (KZ) Index to measure these constraints, encompassing some key financial factors such as cash flow, dividends, and leverage. The findings reveal that companies with female CEOs or a higher proportion of women in top management are associated with reduced financial constraints. However, the influence of female board members is less clear-cut. Our study also delves into the variances of these effects between high-tech and low-tech industry sectors, emphasizing how internal gender biases in high-tech industries may impede the al
-    
-[^4]: 绿色营销策略对品牌认知的影响：商业，管理和人力资源方面
-
-    Impact of Green Marketing Strategy on Brand Awareness: Business, Management, and Human Resources Aspects. (arXiv:2401.02042v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.02042](http://arxiv.org/abs/2401.02042)
-
-    本研究通过案例研究，探讨了绿色营销策略对品牌认知的影响，并发现环境考虑对公司是一项重要活动。
+    本文引入了一种粗糙度签名函数，可以用于确定离散观测过程的生成方式，并提供连续粗糙过程的粗糙度指数估计。
 
     
 
-    随着社会向工业化的转变，公司之间在捕捉市场份额方面的动态和竞争的增加，对环境的关注，政府和国际法规和义务的压力，消费者的意识提高，自然热爱团体的压力等等，组织对与环境管理有关的问题变得更加关注。随着时间的推移，绿色营销等概念渗透到营销文献中，使环境考虑成为公司最重要的活动之一。为此，本研究探讨了绿色营销策略对品牌认知的影响（案例研究：食品出口公司）。本研究的人口包括卡莱，Solico，Pemina，Sorbon，Mac，Pol和Castle等公司的345名员工和经理，通过科赫兰公式随机选择182个人作为样本。本研究是实践性的，所需数据已被收集
+    本文受到Todorov和Tauchen（2010）引入的活动签名的启发，该方法用于测量半鞣质过程的活动性，引入了一种粗糙度签名函数。本文说明了如何利用该函数确定离散观测过程是否由比布朗运动更粗糙的连续过程生成，或者由纯跳跃过程生成，或者两者兼有。此外，如果存在连续粗糙过程，该函数提供了粗糙度指数的估计。通过广泛的模拟研究，我们发现粗糙度签名函数在粗糙过程上的表现与预期相符。我们进一步推导了这个新签名函数的一些渐近性质。该函数在实证中被应用于S&P500指数的三种不同波动率测度，包括实现波动率、VIX和Todorov（2019）的选项抽取波动率估计量。
 
-    Given the move towards industrialization in societies, the increase in dynamism and competition among companies to capture market share, raising concerns about the environment, government, and international regulations and obligations, increased consumer awareness, pressure from nature-loving groups, etc., organizations have become more attentive to issues related to environmental management. Over time, concepts such as green marketing have permeated marketing literature, making environmental considerations one of the most important activities of companies. To this end, this research examines the impact of green marketing strategy on brand awareness (case study: food exporting companies). The population of this research consists of 345 employees and managers of companies like Kalleh, Solico, Pemina, Sorbon, Mac, Pol, and Castle, from which 182 individuals were randomly selected as the sample using Cochran's formula. This research is practical, and the required data have been collected 
+    Inspired by the activity signature introduced by Todorov and Tauchen (2010), which was used to measure the activity of a semimartingale, this paper introduces the roughness signature function. The paper illustrates how it can be used to determine whether a discretely observed process is generated by a continuous process that is rougher than a Brownian motion, a pure-jump process, or a combination of the two. Further, if a continuous rough process is present, the function gives an estimate of the roughness index. This is done through an extensive simulation study, where we find that the roughness signature function works as expected on rough processes. We further derive some asymptotic properties of this new signature function. The function is applied empirically to three different volatility measures for the S&P500 index. The three measures are realized volatility, the VIX, and the option-extracted volatility estimator of Todorov (2019). The realized volatility and option-extracted vol
     
-[^5]: 认知衰老与劳动份额
+[^3]: Cuánta inflación es demasiada? Una clasificación de regímenes inflacionarios.
 
-    Cognitive Aging and Labor Share. (arXiv:2308.14982v1 [econ.GN])
+    Cu\'anto es demasiada inflaci\'on? Una clasificaci\'on de reg\'imenes inflacionarios. (arXiv:2401.02428v1 [econ.GN])
 
-    [http://arxiv.org/abs/2308.14982](http://arxiv.org/abs/2308.14982)
+    [http://arxiv.org/abs/2401.02428](http://arxiv.org/abs/2401.02428)
 
-    该研究将劳动份额的下降与认知衰老联系起来，提出了一个新颖的宏观经济模型。模型表明，工业化导致人口老龄化，老龄消费者认知能力的下降减少了对新产出变体的需求，从而导致劳动份额的下降。
-
-    
-
-    劳动份额，即经济产出的工资比例，在工业化国家中不可理解地在下降。虽然许多之前的研究试图通过经济因素来解释这种下降，但我们的新颖方法将这种下降与生物因素联系起来。具体而言，我们提出了一个理论宏观经济模型，劳动份额反映了劳动力自动化现有产出和消费者需求新的依赖人力劳动的产出变体之间的动态平衡。工业化导致人口老龄化，虽然在工作年限内认知表现稳定，但之后急剧下降。因此，老龄消费者认知能力的下降减少了对新的产出变体的需求，导致劳动份额下降。我们的模型将劳动份额表达为中位数年龄的代数函数，并通过非线性随机回归在工业化经济体的历史数据上以惊人的准确性进行了验证。
-
-    Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.
-    
-[^6]: 为促进科技行业女性就业转型的有效可扩展方案
-
-    Effective and scalable programs to facilitate labor market transitions for women in technology. (arXiv:2211.09968v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2211.09968](http://arxiv.org/abs/2211.09968)
-
-    这个论文描述了一个低成本和可扩展的计划，旨在帮助波兰的女性转向科技行业的工作。研究表明，参与指导计划或挑战计划可以显著增加在科技行业找到工作的概率。
+    这项研究提出了一种新的方法论，通过将聚类技术和分类树相结合，对阿根廷的通货膨胀历史进行了历史分期，以减少主观性并提高准确性。所得到的结果通过与现有文献的对比表明，提出的分类方法具有更好的表现。
 
     
 
-    我们描述了一个低成本（每人约15美元）和可扩展的计划，称为“挑战”，旨在帮助波兰的女性转向科技行业的工作。该计划帮助参与者开发展示与工作相关的能力的作品集。我们进行了两个独立评估，一个是对挑战计划的评估，另一个是对传统的指导计划“指导”进行的评估，其中经验丰富的技术专业人员与被指导者个别合作，支持他们的就业搜索。利用两个计划都超额订阅的事实，我们随机录取了参与者，并测量了它们对找到科技行业工作的概率的影响。我们估计，指导计划将四个月内找到科技工作的概率从29%增加到42%，挑战计划将该概率从20%增加到29%，并且治疗效果在12个月内不衰减。由于这两个计划在实践中有容量限制（只有申请者的28%可以获得录取），
+    Las clasificaciones de los regímenes inflacionarios propuestas en la literatura se han basado en gran medida en caracterizaciones arbitrarias, sujetas a juicios de valor por parte de los investigadores. El objetivo de este estudio es proponer un nuevo enfoque metodológico que reduzca la subjetividad y mejore la precisión en la construcción de tales regímenes. El método se basa en una combinación de técnicas de agrupamiento y árboles de clasificación, lo que permite una periodización histórica de la historia inflacionaria de Argentina para el período 1943-2022. Además, se introducen dos procedimientos para suavizar la clasificación a lo largo del tiempo: una medida de contigüidad temporal de las observaciones y un método de desplazamiento basado en la regla de la mayoría simple. Los regímenes obtenidos se comparan con la literatura existente sobre la relación entre la inflación y la variabilidad de los precios relativos, revelando un mejor rendimiento de los regímenes propuestos.
 
-    We describe the design, implementation, and evaluation of a low-cost (approximately $15 per person) and scalable program, called Challenges, aimed at aiding women in Poland transition to technology-sector jobs. This program helps participants develop portfolios demonstrating job-relevant competencies. We conduct two independent evaluations, one of the Challenges program and the other of a traditional mentoring program -- Mentoring -- where experienced tech professionals work individually with mentees to support them in their job search. Exploiting the fact that both programs were oversubscribed, we randomized admissions and measured their impact on the probability of finding a job in the technology sector. We estimate that Mentoring increases the probability of finding a technology job within four months from 29% to 42% and Challenges from 20% to 29%, and the treatment effects do not attenuate over 12 months. Since both programs are capacity constrained in practice (only 28% of applica
+    The classifications of inflationary regimes proposed in the literature have mostly been based on arbitrary characterizations, subject to value judgments by researchers. The objective of this study is to propose a new methodological approach that reduces subjectivity and improves accuracy in the construction of such regimes. The method is built upon a combination of clustering techniques and classification trees, which allows for an historical periodization of Argentina's inflationary history for the period 1943-2022. Additionally, two procedures are introduced to smooth out the classification over time: a measure of temporal contiguity of observations and a rolling method based on the simple majority rule. The obtained regimes are compared against the existing literature on the inflation-relative price variability relationship, revealing a better performance of the proposed regimes.
+    
+[^4]: 通过复合Heaviside优化实现约束的分类和治疗学习：一种渐进MIP方法
+
+    Classification and Treatment Learning with Constraints via Composite Heaviside Optimization: a Progressive MIP Method. (arXiv:2401.01565v1 [math.OC])
+
+    [http://arxiv.org/abs/2401.01565](http://arxiv.org/abs/2401.01565)
+
+    本文提出了一种使用Heaviside复合优化的渐进MIP方法，用于解决带有约束的多类别分类和多动作治疗问题。
+
+    
+
+    本文提出了一种Heaviside复合优化方法，并提出了一种渐进（混合）整数规划（PIP）方法，用于解决带有约束的多类别分类和多动作治疗问题。Heaviside复合函数是Heaviside函数（即开区间$(0, \infty)$或闭区间$[0, \infty)$的指示函数）与可能非可微函数的复合。在建模方面，我们展示了Heaviside复合优化如何为学习最优多类别分类和多动作治疗规则提供统一的表达，这些规则受到规则依赖约束的限制，规定了各种领域限制。Heaviside复合函数具有等效的离散表达形式，可以通过整数规划（IP）方法解决。然而，对于具有大数据集的约束学习问题，
+
+    This paper proposes a Heaviside composite optimization approach and presents a progressive (mixed) integer programming (PIP) method for solving multi-class classification and multi-action treatment problems with constraints. A Heaviside composite function is a composite of a Heaviside function (i.e., the indicator function of either the open $( \, 0,\infty )$ or closed $[ \, 0,\infty \, )$ interval) with a possibly nondifferentiable function. Modeling-wise, we show how Heaviside composite optimization provides a unified formulation for learning the optimal multi-class classification and multi-action treatment rules, subject to rule-dependent constraints stipulating a variety of domain restrictions. A Heaviside composite function has an equivalent discrete formulation %in terms of integer variables, and the resulting optimization problem can in principle be solved by integer programming (IP) methods. Nevertheless, for constrained learning problems with large data sets, %of modest or lar
+    
+[^5]: 非核心银行资金和汇率灵活性中的全球因素
+
+    Global Factors in Non-core Bank Funding and Exchange Rate Flexibility. (arXiv:2310.11552v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.11552](http://arxiv.org/abs/2310.11552)
+
+    全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。
+
+    
+
+    我们展示了发达经济体银行体系中非核心与核心资金比率的波动由少数几个既有实物性又有金融性质的全球因素驱动，国家特定因素没有发挥重要作用。汇率灵活性有助于减小非核心与核心比率受到全球因素的影响，但仅在重大全球金融震荡期间（如2008-2009年）明显起作用。
+
+    We show that fluctuations in the ratio of non-core to core funding in the banking systems of advanced economies are driven by a handful of global factors of both real and financial natures, with country-specific factors playing no significant roles. Exchange rate flexibility helps insulate the non-core to core ratio from such global factors but only significantly so outside periods of major global financial disruptions, as in 2008-2009.
     
 

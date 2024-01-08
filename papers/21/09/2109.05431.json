@@ -1,0 +1,12 @@
+{
+    "title": "A note on closed-form spread option valuation under log-normal models. (arXiv:2109.05431v2 [q-fin.MF] UPDATED)",
+    "abstract": "In the papers Carmona and Durrleman [7] and Bjerksund and Stensland [1], closed form approximations for spread call option prices were studied under the log normal models. In this paper, we give an alternative closed form formula for the price of spread call options under the log-normal models also. Our formula can be seen as a generalization of the closed-form formula presented in Bjerksund and Stensland [1] as their formula can be obtained by selecting special parameter values to our formula. Numerical tests show that our formula performs better for certain range of model parameters than the closed-form formula presented in Bjerksund and Stensland [1].",
+    "link": "http://arxiv.org/abs/2109.05431",
+    "context": "Title: A note on closed-form spread option valuation under log-normal models. (arXiv:2109.05431v2 [q-fin.MF] UPDATED)\nAbstract: In the papers Carmona and Durrleman [7] and Bjerksund and Stensland [1], closed form approximations for spread call option prices were studied under the log normal models. In this paper, we give an alternative closed form formula for the price of spread call options under the log-normal models also. Our formula can be seen as a generalization of the closed-form formula presented in Bjerksund and Stensland [1] as their formula can be obtained by selecting special parameter values to our formula. Numerical tests show that our formula performs better for certain range of model parameters than the closed-form formula presented in Bjerksund and Stensland [1].",
+    "path": "papers/21/09/2109.05431.json",
+    "total_tokens": 738,
+    "translated_title": "关于对数正态模型下闭合形式的价差期权定价的注记",
+    "translated_abstract": "在Carmona和Durrleman [7]以及Bjerksund和Stensland [1]的论文中，研究了对数正态模型下价差看涨期权定价的闭合形式近似方法。本文给出了一种对数正态模型下价差看涨期权价格的替代闭合形式公式。我们的公式可以被看作是Bjerksund和Stensland [1]提出的闭合形式公式的推广，因为他们的公式可以通过选取我们的公式的特定参数值得到。数值测试表明，在某些模型参数范围内，我们的公式比Bjerksund和Stensland [1]提出的闭合形式公式表现更好。",
+    "tldr": "本文给出了一种对数正态模型下价差看涨期权定价的替代闭合形式公式，并通过数值测试证明在某些模型参数范围内，该公式相比之前的公式表现更好。",
+    "en_tdlr": "This paper provides an alternative closed-form formula for the valuation of spread call options under log-normal models, which outperforms the previous formula in certain ranges of model parameters."
+}

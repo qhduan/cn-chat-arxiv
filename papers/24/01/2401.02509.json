@@ -1,0 +1,12 @@
+{
+    "title": "Memory, Consciousness and Large Language Model. (arXiv:2401.02509v1 [q-bio.NC])",
+    "abstract": "With the development in cognitive science and Large Language Models (LLMs), increasing connections have come to light between these two distinct fields. Building upon these connections, we propose a conjecture suggesting the existence of a duality between LLMs and Tulving's theory of memory. We identify a potential correspondence between Tulving's synergistic ecphory model (SEM) of retrieval and the emergent abilities observed in LLMs, serving as supporting evidence for our conjecture. Furthermore, we speculate that consciousness may be considered a form of emergent ability based on this duality. We also discuss how other theories of consciousness intersect with our research.",
+    "link": "http://arxiv.org/abs/2401.02509",
+    "context": "Title: Memory, Consciousness and Large Language Model. (arXiv:2401.02509v1 [q-bio.NC])\nAbstract: With the development in cognitive science and Large Language Models (LLMs), increasing connections have come to light between these two distinct fields. Building upon these connections, we propose a conjecture suggesting the existence of a duality between LLMs and Tulving's theory of memory. We identify a potential correspondence between Tulving's synergistic ecphory model (SEM) of retrieval and the emergent abilities observed in LLMs, serving as supporting evidence for our conjecture. Furthermore, we speculate that consciousness may be considered a form of emergent ability based on this duality. We also discuss how other theories of consciousness intersect with our research.",
+    "path": "papers/24/01/2401.02509.json",
+    "total_tokens": 730,
+    "translated_title": "记忆、意识和大型语言模型",
+    "translated_abstract": "随着认知科学和大型语言模型（LLM）的发展，这两个不同领域之间的联系越来越多地被揭示出来。在这些联系的基础上，我们提出了一个猜想，即LLM和图尔文的记忆理论之间存在一种对偶关系。我们确定了图尔文的协同引发（SEM）检索模型和LLM中观察到的新兴能力之间的潜在对应关系，为我们的猜想提供了支持证据。此外，我们推测意识可能被认为是这种对偶性的一种新兴能力形式。我们还讨论了其他意识理论如何与我们的研究相交叉。",
+    "tldr": "该论文研究了大型语言模型（LLM）与图尔文的记忆理论之间的对应关系，并提出了意识可能是一种基于这种对应关系的新兴能力的猜想。",
+    "en_tdlr": "This paper explores the correspondence between Large Language Models (LLMs) and Tulving's theory of memory, and suggests that consciousness may be considered as an emergent ability based on this correspondence."
+}

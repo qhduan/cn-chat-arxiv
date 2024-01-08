@@ -1,0 +1,12 @@
+{
+    "title": "Let's Get It Started: Fostering the Discoverability of New Releases on Deezer. (arXiv:2401.02827v1 [cs.IR])",
+    "abstract": "This paper presents our recent initiatives to foster the discoverability of new releases on the music streaming service Deezer. After introducing our search and recommendation features dedicated to new releases, we outline our shift from editorial to personalized release suggestions using cold start embeddings and contextual bandits. Backed by online experiments, we discuss the advantages of this shift in terms of recommendation quality and exposure of new releases on the service.",
+    "link": "http://arxiv.org/abs/2401.02827",
+    "context": "Title: Let's Get It Started: Fostering the Discoverability of New Releases on Deezer. (arXiv:2401.02827v1 [cs.IR])\nAbstract: This paper presents our recent initiatives to foster the discoverability of new releases on the music streaming service Deezer. After introducing our search and recommendation features dedicated to new releases, we outline our shift from editorial to personalized release suggestions using cold start embeddings and contextual bandits. Backed by online experiments, we discuss the advantages of this shift in terms of recommendation quality and exposure of new releases on the service.",
+    "path": "papers/24/01/2401.02827.json",
+    "total_tokens": 686,
+    "translated_title": "让我们开始吧：促进Deezer音乐服务上新发布内容的发现能力",
+    "translated_abstract": "本文介绍了我们最近在音乐流媒体服务Deezer上促进新发布内容发现能力方面的举措。在介绍了我们针对新发布内容的搜索和推荐功能之后，我们概述了我们从编辑推荐向个性化推荐的转变，包括使用冷启动嵌入和情境强化学习算法。通过在线实验的支持，我们讨论了这一转变在推荐质量和新发布内容的曝光方面的优势。",
+    "tldr": "本文介绍了在Deezer音乐服务上促进新发布内容发现能力的最新举措，包括个性化推荐、冷启动嵌入和情境强化学习算法等。通过在线实验的支持，我们展示了这些举措在提高推荐质量和新发布内容曝光方面的优势。",
+    "en_tdlr": "This paper presents recent initiatives to foster the discoverability of new releases on Deezer, including personalized recommendations, cold start embeddings, and contextual bandits. Backed by online experiments, the advantages of these initiatives in improving recommendation quality and exposure of new releases are discussed."
+}

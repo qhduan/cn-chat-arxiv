@@ -1,0 +1,12 @@
+{
+    "title": "Branched Variational Autoencoder Classifiers. (arXiv:2401.02526v1 [cs.LG])",
+    "abstract": "This paper introduces a modified variational autoencoder (VAEs) that contains an additional neural network branch. The resulting branched VAE (BVAE) contributes a classification component based on the class labels to the total loss and therefore imparts categorical information to the latent representation. As a result, the latent space distributions of the input classes are separated and ordered, thereby enhancing the classification accuracy. The degree of improvement is quantified by numerical calculations employing the benchmark MNIST dataset for both unrotated and rotated digits. The proposed technique is then compared to and then incorporated into a VAE with fixed output distributions. This procedure is found to yield improved performance for a wide range of output distributions.",
+    "link": "http://arxiv.org/abs/2401.02526",
+    "context": "Title: Branched Variational Autoencoder Classifiers. (arXiv:2401.02526v1 [cs.LG])\nAbstract: This paper introduces a modified variational autoencoder (VAEs) that contains an additional neural network branch. The resulting branched VAE (BVAE) contributes a classification component based on the class labels to the total loss and therefore imparts categorical information to the latent representation. As a result, the latent space distributions of the input classes are separated and ordered, thereby enhancing the classification accuracy. The degree of improvement is quantified by numerical calculations employing the benchmark MNIST dataset for both unrotated and rotated digits. The proposed technique is then compared to and then incorporated into a VAE with fixed output distributions. This procedure is found to yield improved performance for a wide range of output distributions.",
+    "path": "papers/24/01/2401.02526.json",
+    "total_tokens": 721,
+    "translated_title": "分支变分自动编码器分类器",
+    "translated_abstract": "本论文介绍了一种改进的变分自动编码器(VAEs)，其中包含了一个额外的神经网络分支。结果产生的分支VAE（BVAE）通过总损失向分类组件贡献了基于类标签的信息，从而为潜在表示赋予了分类信息。因此，输入类别的潜在空间分布被分离和排序，从而提高了分类准确性。采用基准MNIST数据集对未旋转和旋转数字进行数值计算，量化了改进的程度。提出的技术然后与固定输出分布的VAE进行比较和整合。这个过程被发现对广泛的输出分布能够提供改进的性能。",
+    "tldr": "这篇论文介绍了一种改进的变分自动编码器（VAEs），通过增加一个额外的神经网络分支，将分类信息融入到潜在表示中，从而提高了分类准确性。",
+    "en_tdlr": "This paper presents a modified Variational Autoencoder (VAEs) that incorporates a classification component to enhance the accuracy by separating and ordering the latent space distributions of input classes."
+}

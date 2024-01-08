@@ -1,0 +1,12 @@
+{
+    "title": "5G Positioning Advancements with AI/ML. (arXiv:2401.02427v1 [cs.NI])",
+    "abstract": "This paper provides a comprehensive review of AI/ML-based direct positioning within 5G systems, focusing on its potential in challenging scenarios and conditions where conventional methods often fall short. Building upon the insights from the technical report TR38.843, we examine the Life Cycle Management (LCM) with a focus on to the aspects associated direct positioning process. We highlight significant simulation results and key observations from the report on the direct positioning under the various challenging conditions. Additionally, we discuss selected solutions that address measurement reporting, data collection, and model management, emphasizing their importance for advancing direct positioning.",
+    "link": "http://arxiv.org/abs/2401.02427",
+    "context": "Title: 5G Positioning Advancements with AI/ML. (arXiv:2401.02427v1 [cs.NI])\nAbstract: This paper provides a comprehensive review of AI/ML-based direct positioning within 5G systems, focusing on its potential in challenging scenarios and conditions where conventional methods often fall short. Building upon the insights from the technical report TR38.843, we examine the Life Cycle Management (LCM) with a focus on to the aspects associated direct positioning process. We highlight significant simulation results and key observations from the report on the direct positioning under the various challenging conditions. Additionally, we discuss selected solutions that address measurement reporting, data collection, and model management, emphasizing their importance for advancing direct positioning.",
+    "path": "papers/24/01/2401.02427.json",
+    "total_tokens": 782,
+    "translated_title": "利用人工智能/机器学习的5G定位技术的进展",
+    "translated_abstract": "本文全面回顾了基于人工智能/机器学习的5G系统内的直接定位，重点讨论在传统方法往往表现不佳的挑战场景和条件下的潜力。在技术报告TR38.843的洞见基础上，我们着重研究了生命周期管理（LCM）与直接定位过程相关的方面。我们强调了来自报告中对各种挑战条件下的直接定位的重要模拟结果和关键观察。此外，我们还讨论了解决测量报告、数据收集和模型管理的选择性解决方案，强调它们对推进直接定位的重要性。",
+    "tldr": "本文对基于AI/ML的5G系统内的直接定位进行了全面回顾，重点讨论了在传统方法不适用的挑战场景和条件下的潜力。研究发现了重要的模拟结果和观察，并提出了解决测量报告、数据收集和模型管理的解决方案，促进了直接定位的进一步发展。",
+    "en_tdlr": "This paper provides a comprehensive review of AI/ML-based direct positioning within 5G systems, highlighting its potential in challenging scenarios. It presents significant simulation results and key observations, and proposes solutions for measurement reporting, data collection, and model management to advance direct positioning."
+}
