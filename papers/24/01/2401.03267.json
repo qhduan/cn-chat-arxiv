@@ -1,0 +1,12 @@
+{
+    "title": "Autonomous Navigation in Complex Environments. (arXiv:2401.03267v1 [cs.RO])",
+    "abstract": "This paper explores the application of CNN-DNN network fusion to construct a robot navigation controller within a simulated environment. The simulated environment is constructed to model a subterranean rescue situation, such that an autonomous agent is tasked with finding a goal within an unknown cavernous system. Imitation learning is used to train the control algorithm to use LiDAR and camera data to navigate the space and find the goal. The trained model is then tested for robustness using Monte-Carlo.",
+    "link": "http://arxiv.org/abs/2401.03267",
+    "context": "Title: Autonomous Navigation in Complex Environments. (arXiv:2401.03267v1 [cs.RO])\nAbstract: This paper explores the application of CNN-DNN network fusion to construct a robot navigation controller within a simulated environment. The simulated environment is constructed to model a subterranean rescue situation, such that an autonomous agent is tasked with finding a goal within an unknown cavernous system. Imitation learning is used to train the control algorithm to use LiDAR and camera data to navigate the space and find the goal. The trained model is then tested for robustness using Monte-Carlo.",
+    "path": "papers/24/01/2401.03267.json",
+    "total_tokens": 651,
+    "translated_title": "复杂环境中的自主导航",
+    "translated_abstract": "本文探讨了在模拟环境中应用CNN-DNN网络融合来构建机器人导航控制器的方法。模拟环境用于模拟地下救援情景，将自主代理任务设定为在未知的洞穴系统中寻找目标。采用模仿学习的方法，使用LiDAR和摄像头数据来训练控制算法以进行空间导航并找到目标。训练好的模型通过Monte-Carlo进行鲁棒性测试。",
+    "tldr": "本文研究了在复杂环境中应用CNN-DNN网络融合进行自主导航的方法，通过模仿学习使用LiDAR和摄像头数据对机器人进行训练，并通过Monte-Carlo测试了其鲁棒性。",
+    "en_tdlr": "This paper explores the application of CNN-DNN network fusion for autonomous navigation in complex environments. Using imitation learning, the robot is trained to navigate the space and find the goal using LiDAR and camera data, and its robustness is tested using Monte-Carlo."
+}

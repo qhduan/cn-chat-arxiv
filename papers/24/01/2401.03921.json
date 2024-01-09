@@ -1,0 +1,12 @@
+{
+    "title": "Design a Metric Robust to Complicated High Dimensional Noise for Efficient Manifold Denoising. (arXiv:2401.03921v1 [stat.ML])",
+    "abstract": "In this manuscript, we propose an efficient manifold denoiser based on landmark diffusion and optimal shrinkage under the complicated high dimensional noise and compact manifold setup. It is flexible to handle several setups, including the high ambient space dimension with a manifold embedding that occupies a subspace of high or low dimensions, and the noise could be colored and dependent. A systematic comparison with other existing algorithms on both simulated and real datasets is provided. This manuscript is mainly algorithmic and we report several existing tools and numerical results. Theoretical guarantees and more comparisons will be reported in the official paper of this manuscript.",
+    "link": "http://arxiv.org/abs/2401.03921",
+    "context": "Title: Design a Metric Robust to Complicated High Dimensional Noise for Efficient Manifold Denoising. (arXiv:2401.03921v1 [stat.ML])\nAbstract: In this manuscript, we propose an efficient manifold denoiser based on landmark diffusion and optimal shrinkage under the complicated high dimensional noise and compact manifold setup. It is flexible to handle several setups, including the high ambient space dimension with a manifold embedding that occupies a subspace of high or low dimensions, and the noise could be colored and dependent. A systematic comparison with other existing algorithms on both simulated and real datasets is provided. This manuscript is mainly algorithmic and we report several existing tools and numerical results. Theoretical guarantees and more comparisons will be reported in the official paper of this manuscript.",
+    "path": "papers/24/01/2401.03921.json",
+    "total_tokens": 731,
+    "translated_title": "设计一个对复杂高维噪声鲁棒的度量方法以实现高效的流形去噪",
+    "translated_abstract": "在这篇论文中，我们提出了一种基于地标扩散和最优收缩的高效流形去噪方法，适用于复杂的高维噪声和紧凑流形设置。它可以灵活处理多种设置，包括高环境空间维度的流形嵌入（占据高维或低维子空间）以及可能是有色且相关的噪声。我们在模拟和真实数据集上对该方法与其他现有算法进行了系统比较。本论文主要是算法性质的研究，我们报告了一些现有工具和数值结果。更多的理论保证和比较将在正式论文中报告。",
+    "tldr": "本文设计了一个对复杂高维噪声鲁棒的度量方法，用于高效的流形去噪，可以灵活处理多种设置，并在模拟和真实数据上进行了系统比较。",
+    "en_tdlr": "This paper designs a metric robust to complicated high dimensional noise for efficient manifold denoising, which is flexible to handle various setups and has been systematically compared with other existing algorithms on simulated and real datasets."
+}

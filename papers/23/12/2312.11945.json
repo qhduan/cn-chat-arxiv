@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Granularity Information Interaction Framework for Incomplete Utterance Rewriting. (arXiv:2312.11945v2 [cs.CL] UPDATED)",
+    "abstract": "Recent approaches in Incomplete Utterance Rewriting (IUR) fail to capture the source of important words, which is crucial to edit the incomplete utterance, and introduce words from irrelevant utterances. We propose a novel and effective multi-task information interaction framework including context selection, edit matrix construction, and relevance merging to capture the multi-granularity of semantic information. Benefiting from fetching the relevant utterance and figuring out the important words, our approach outperforms existing state-of-the-art models on two benchmark datasets Restoration-200K and CANAND in this field. Code will be provided on \\url{https://github.com/yanmenxue/QR}.",
+    "link": "http://arxiv.org/abs/2312.11945",
+    "context": "Title: Multi-Granularity Information Interaction Framework for Incomplete Utterance Rewriting. (arXiv:2312.11945v2 [cs.CL] UPDATED)\nAbstract: Recent approaches in Incomplete Utterance Rewriting (IUR) fail to capture the source of important words, which is crucial to edit the incomplete utterance, and introduce words from irrelevant utterances. We propose a novel and effective multi-task information interaction framework including context selection, edit matrix construction, and relevance merging to capture the multi-granularity of semantic information. Benefiting from fetching the relevant utterance and figuring out the important words, our approach outperforms existing state-of-the-art models on two benchmark datasets Restoration-200K and CANAND in this field. Code will be provided on \\url{https://github.com/yanmenxue/QR}.",
+    "path": "papers/23/12/2312.11945.json",
+    "total_tokens": 748,
+    "translated_title": "多层次信息交互框架用于不完整话语重写",
+    "translated_abstract": "近期不完整话语重写（IUR）的方法未能捕捉到关键词的来源，这对于编辑不完整话语至关重要，并引入了来自无关话语的词语。我们提出了一种新颖有效的多任务信息交互框架，包括上下文选择、编辑矩阵构建和相关性合并，以捕捉语义信息的多层次性。通过获取相关话语和确定重要词语，我们的方法在该领域的两个基准数据集Restoration-200K和CANAND上优于现有的最先进模型。代码将在\\url{https://github.com/yanmenxue/QR}上提供。",
+    "tldr": "该论文提出了一种多层次信息交互框架用于不完整话语重写，该框架通过上下文选择、编辑矩阵构建和相关性合并捕捉多层次的语义信息，并在不完整话语编辑任务中取得了优越的性能。",
+    "en_tdlr": "This paper proposes a multi-granularity information interaction framework for incomplete utterance rewriting, which captures semantic information at multiple levels through context selection, edit matrix construction, and relevance merging, and achieves superior performance in the task of incomplete utterance editing."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "An Efficient Illumination Invariant Tiger Detection Framework for Wildlife Surveillance. (arXiv:2311.17552v2 [cs.CV] UPDATED)",
+    "abstract": "Tiger conservation necessitates the strategic deployment of multifaceted initiatives encompassing the preservation of ecological habitats, anti-poaching measures, and community involvement for sustainable growth in the tiger population. With the advent of artificial intelligence, tiger surveillance can be automated using object detection. In this paper, an accurate illumination invariant framework is proposed based on EnlightenGAN and YOLOv8 for tiger detection. The fine-tuned YOLOv8 model achieves a mAP score of 61% without illumination enhancement. The illumination enhancement improves the mAP by 0.7%. The approaches elevate the state-of-the-art performance on the ATRW dataset by approximately 6% to 7%.",
+    "link": "http://arxiv.org/abs/2311.17552",
+    "context": "Title: An Efficient Illumination Invariant Tiger Detection Framework for Wildlife Surveillance. (arXiv:2311.17552v2 [cs.CV] UPDATED)\nAbstract: Tiger conservation necessitates the strategic deployment of multifaceted initiatives encompassing the preservation of ecological habitats, anti-poaching measures, and community involvement for sustainable growth in the tiger population. With the advent of artificial intelligence, tiger surveillance can be automated using object detection. In this paper, an accurate illumination invariant framework is proposed based on EnlightenGAN and YOLOv8 for tiger detection. The fine-tuned YOLOv8 model achieves a mAP score of 61% without illumination enhancement. The illumination enhancement improves the mAP by 0.7%. The approaches elevate the state-of-the-art performance on the ATRW dataset by approximately 6% to 7%.",
+    "path": "papers/23/11/2311.17552.json",
+    "total_tokens": 820,
+    "translated_title": "一种用于野生动物监测的高效光照不变的老虎检测框架",
+    "translated_abstract": "老虎保护需要多方面的策略，包括保护生态栖息地、反偷猎措施以及社区参与，以实现老虎种群的可持续增长。随着人工智能的发展，可以利用目标检测自动化进行老虎监测。本文提出了一种基于EnlightenGAN和YOLOv8的准确光照不变框架用于老虎检测。经过微调的YOLOv8模型在没有光照增强的情况下实现了61％的mAP得分。光照增强可以提高0.7％的mAP。这些方法将ATRW数据集的最新性能提高了约6％至7％。",
+    "tldr": "本文提出了一种高效光照不变的老虎检测框架，采用了EnlightenGAN和YOLOv8模型，实现了61%的mAP得分，并通过光照增强提高了0.7%的mAP。这些方法在ATRW数据集上的表现超过了当前的最新性能。"
+}

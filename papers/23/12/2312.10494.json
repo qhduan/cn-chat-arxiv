@@ -1,0 +1,11 @@
+{
+    "title": "Do Bayesian Neural Networks Improve Weapon System Predictive Maintenance?. (arXiv:2312.10494v2 [cs.LG] UPDATED)",
+    "abstract": "We implement a Bayesian inference process for Neural Networks to model the time to failure of highly reliable weapon systems with interval-censored data and time-varying covariates. We analyze and benchmark our approach, LaplaceNN, on synthetic and real datasets with standard classification metrics such as Receiver Operating Characteristic (ROC) Area Under Curve (AUC) Precision-Recall (PR) AUC, and reliability curve visualizations.",
+    "link": "http://arxiv.org/abs/2312.10494",
+    "context": "Title: Do Bayesian Neural Networks Improve Weapon System Predictive Maintenance?. (arXiv:2312.10494v2 [cs.LG] UPDATED)\nAbstract: We implement a Bayesian inference process for Neural Networks to model the time to failure of highly reliable weapon systems with interval-censored data and time-varying covariates. We analyze and benchmark our approach, LaplaceNN, on synthetic and real datasets with standard classification metrics such as Receiver Operating Characteristic (ROC) Area Under Curve (AUC) Precision-Recall (PR) AUC, and reliability curve visualizations.",
+    "path": "papers/23/12/2312.10494.json",
+    "total_tokens": 658,
+    "translated_title": "是否贝叶斯神经网络提高了武器系统预测性维护？",
+    "translated_abstract": "我们使用贝叶斯推断过程来建立神经网络模型，用于对高可靠性武器系统的故障时间进行建模，该数据具有区间截断和时间变化的协变量。我们使用标准分类度量指标（如接收器操作特征曲线（ROC）、精确度-召回率曲线（PR）、可靠性曲线可视化）对我们的方法LaplaceNN进行分析和基准测试。",
+    "tldr": "本研究旨在通过实现贝叶斯推断过程对高可靠性武器系统的故障时间进行建模，以改善预测性维护。通过分析和标准分类度量指标的基准测试，我们的方法LaplaceNN在合成和实际数据集上展现了良好的性能。"
+}

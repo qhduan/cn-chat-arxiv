@@ -1,0 +1,12 @@
+{
+    "title": "Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images. (arXiv:2401.03331v1 [cs.CV])",
+    "abstract": "The accurate identification of walnuts within orchards brings forth a plethora of advantages, profoundly amplifying the efficiency and productivity of walnut orchard management. Nevertheless, the unique characteristics of walnut trees, characterized by their closely resembling shapes, colors, and textures between the walnuts and leaves, present a formidable challenge in precisely distinguishing between them during the annotation process. In this study, we present a novel approach to improve walnut detection efficiency, utilizing YOLOv5 trained on an enriched image set that incorporates both real and synthetic RGB and NIR images. Our analysis comparing results from our original and augmented datasets shows clear improvements in detection when using the synthetic images.",
+    "link": "http://arxiv.org/abs/2401.03331",
+    "context": "Title: Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images. (arXiv:2401.03331v1 [cs.CV])\nAbstract: The accurate identification of walnuts within orchards brings forth a plethora of advantages, profoundly amplifying the efficiency and productivity of walnut orchard management. Nevertheless, the unique characteristics of walnut trees, characterized by their closely resembling shapes, colors, and textures between the walnuts and leaves, present a formidable challenge in precisely distinguishing between them during the annotation process. In this study, we present a novel approach to improve walnut detection efficiency, utilizing YOLOv5 trained on an enriched image set that incorporates both real and synthetic RGB and NIR images. Our analysis comparing results from our original and augmented datasets shows clear improvements in detection when using the synthetic images.",
+    "path": "papers/24/01/2401.03331.json",
+    "total_tokens": 738,
+    "translated_title": "通过多光谱合成图像增强的深度学习进行核桃检测",
+    "translated_abstract": "准确鉴定果园内的核桃种植带来了许多优势，极大提高了核桃果园管理的效率和生产力。然而，核桃树的独特特性，即核桃与叶子之间的形状、颜色和纹理之间的相似性，使其在注释过程中精确区分它们成为一项艰巨的挑战。在本研究中，我们提出了一种改进核桃检测效率的新方法，利用在图像集中训练的YOLOv5，该集合包括了真实和合成的RGB和NIR图像。我们对原始数据集和增强数据集的结果进行对比分析，结果表明使用合成图像时检测效果明显改善。",
+    "tldr": "本研究提出了一种通过多光谱合成图像增强的深度学习方法进行核桃检测，能够显著提高检测效率。",
+    "en_tdlr": "This study presents a novel approach to improve walnut detection efficiency through deep learning enhanced by multispectral synthetic images, which shows clear improvements in detection accuracy."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Learning about a changing state. (arXiv:2401.03607v1 [econ.TH])",
+    "abstract": "A long-lived Bayesian agent observes costly signals of a time-varying state. He chooses the signals' precisions sequentially, balancing their costs and marginal informativeness. I compare the optimal myopic and forward-looking precisions when the state follows a Brownian motion. I also compare the myopic precisions induced by other Gaussian processes.",
+    "link": "http://arxiv.org/abs/2401.03607",
+    "context": "Title: Learning about a changing state. (arXiv:2401.03607v1 [econ.TH])\nAbstract: A long-lived Bayesian agent observes costly signals of a time-varying state. He chooses the signals' precisions sequentially, balancing their costs and marginal informativeness. I compare the optimal myopic and forward-looking precisions when the state follows a Brownian motion. I also compare the myopic precisions induced by other Gaussian processes.",
+    "path": "papers/24/01/2401.03607.json",
+    "total_tokens": 605,
+    "translated_title": "学习关于一个变化的状态",
+    "translated_abstract": "一个长寿的贝叶斯代理观察到一个随时间变化的状态的昂贵信号。他按序选择信号的精度，平衡其成本和边际信息。我比较了当状态遵循布朗运动时，最优的短视和前瞻性精度。我还比较了其他高斯过程引起的短视精度。",
+    "tldr": "该论文研究了一个长寿的贝叶斯代理观察到一个随时间变化的状态的昂贵信号的学习问题，通过比较不同精度选择策略下的结果，发现在状态遵循布朗运动时，最优的短视和前瞻性精度不同。",
+    "en_tdlr": "This paper investigates the learning problem of a long-lived Bayesian agent who observes costly signals of a time-varying state. By comparing different precision selection strategies, it finds that the optimal myopic and forward-looking precisions differ when the state follows a Brownian motion."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Large Catapults in Momentum Gradient Descent with Warmup: An Empirical Study. (arXiv:2311.15051v2 [cs.LG] UPDATED)",
+    "abstract": "Although gradient descent with momentum is widely used in modern deep learning, a concrete understanding of its effects on the training trajectory still remains elusive. In this work, we empirically show that momentum gradient descent with a large learning rate and learning rate warmup displays large catapults, driving the iterates towards flatter minima than those found by gradient descent. We then provide empirical evidence and theoretical intuition that the large catapult is caused by momentum \"amplifying\" the self-stabilization effect (Damian et al., 2023).B.1",
+    "link": "http://arxiv.org/abs/2311.15051",
+    "context": "Title: Large Catapults in Momentum Gradient Descent with Warmup: An Empirical Study. (arXiv:2311.15051v2 [cs.LG] UPDATED)\nAbstract: Although gradient descent with momentum is widely used in modern deep learning, a concrete understanding of its effects on the training trajectory still remains elusive. In this work, we empirically show that momentum gradient descent with a large learning rate and learning rate warmup displays large catapults, driving the iterates towards flatter minima than those found by gradient descent. We then provide empirical evidence and theoretical intuition that the large catapult is caused by momentum \"amplifying\" the self-stabilization effect (Damian et al., 2023).B.1",
+    "path": "papers/23/11/2311.15051.json",
+    "total_tokens": 730,
+    "translated_title": "带预热的动量梯度下降的大型弹射概念研究",
+    "translated_abstract": "尽管动量梯度下降在现代深度学习中被广泛使用，但对其对训练轨迹的影响的具体理解仍然难以捉摸。本研究通过实验证明，带有大学习率和学习率预热的动量梯度下降显示出大型弹射效应，将迭代朝着比梯度下降发现的更平缓的极小值方向推进。然后我们提供了实证证据和理论直觉，表明大型弹射效应是由于动量“放大”了自稳定效应（Damian等，2023）。",
+    "tldr": "本研究通过实验证明，带有大学习率和学习率预热的动量梯度下降显示出大型弹射效应，将迭代朝着比梯度下降发现的更平缓的极小值方向推进。",
+    "en_tdlr": "This study empirically demonstrates that momentum gradient descent with a large learning rate and learning rate warmup displays large catapults, driving the iterates towards flatter minima than those found by gradient descent."
+}

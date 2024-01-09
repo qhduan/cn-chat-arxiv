@@ -1,0 +1,12 @@
+{
+    "title": "Turing's Test, a Beautiful Thought Experiment. (arXiv:2401.00009v2 [cs.AI] UPDATED)",
+    "abstract": "In the wake of large language models, there has been a resurgence of claims and questions about the Turing test and its value for AI, which are reminiscent of decades of practical \"Turing\" tests. If AI were quantum physics, by now several \"Schr\\\"odinger's\" cats could have been killed. Better late than never, it is time for a historical reconstruction of Turing's beautiful thought experiment. In this paper I present a wealth of evidence, including new archival sources, give original answers to several open questions about Turing's 1950 paper, and address the core question of the value of Turing's test.",
+    "link": "http://arxiv.org/abs/2401.00009",
+    "context": "Title: Turing's Test, a Beautiful Thought Experiment. (arXiv:2401.00009v2 [cs.AI] UPDATED)\nAbstract: In the wake of large language models, there has been a resurgence of claims and questions about the Turing test and its value for AI, which are reminiscent of decades of practical \"Turing\" tests. If AI were quantum physics, by now several \"Schr\\\"odinger's\" cats could have been killed. Better late than never, it is time for a historical reconstruction of Turing's beautiful thought experiment. In this paper I present a wealth of evidence, including new archival sources, give original answers to several open questions about Turing's 1950 paper, and address the core question of the value of Turing's test.",
+    "path": "papers/24/01/2401.00009.json",
+    "total_tokens": 701,
+    "translated_title": "图灵测试，一个美丽的思维实验",
+    "translated_abstract": "在大规模语言模型的浪潮中，关于图灵测试及其对人工智能的价值的争论和问题重新兴起，并引发了数十年来实际的“图灵”测试。如果人工智能是量子物理学，现在可能已有几只“薛定谔的”猫被杀死了。迟到总比不到好，现在是对图灵美丽的思维实验进行历史重建的时候了。在本文中，我提供了大量证据，包括新的档案来源，针对图灵1950年论文的几个未解决问题给出了原创答案，并回答了图灵测试的核心问题。",
+    "tldr": "本文对图灵的美丽的思维实验进行了历史重建，提供了大量证据和一些原创答案，同时回答了图灵测试的核心问题。",
+    "en_tdlr": "This paper provides a historical reconstruction of Turing's beautiful thought experiment, presenting a wealth of evidence and original answers to several open questions, while addressing the core question of the value of Turing's test."
+}

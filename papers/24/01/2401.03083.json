@@ -1,0 +1,12 @@
+{
+    "title": "Energy-efficient Decentralized Learning via Graph Sparsification. (arXiv:2401.03083v1 [cs.LG])",
+    "abstract": "This work aims at improving the energy efficiency of decentralized learning by optimizing the mixing matrix, which controls the communication demands during the learning process. Through rigorous analysis based on a state-of-the-art decentralized learning algorithm, the problem is formulated as a bi-level optimization, with the lower level solved by graph sparsification. A solution with guaranteed performance is proposed for the special case of fully-connected base topology and a greedy heuristic is proposed for the general case. Simulations based on real topology and dataset show that the proposed solution can lower the energy consumption at the busiest node by 54%-76% while maintaining the quality of the trained model.",
+    "link": "http://arxiv.org/abs/2401.03083",
+    "context": "Title: Energy-efficient Decentralized Learning via Graph Sparsification. (arXiv:2401.03083v1 [cs.LG])\nAbstract: This work aims at improving the energy efficiency of decentralized learning by optimizing the mixing matrix, which controls the communication demands during the learning process. Through rigorous analysis based on a state-of-the-art decentralized learning algorithm, the problem is formulated as a bi-level optimization, with the lower level solved by graph sparsification. A solution with guaranteed performance is proposed for the special case of fully-connected base topology and a greedy heuristic is proposed for the general case. Simulations based on real topology and dataset show that the proposed solution can lower the energy consumption at the busiest node by 54%-76% while maintaining the quality of the trained model.",
+    "path": "papers/24/01/2401.03083.json",
+    "total_tokens": 789,
+    "translated_title": "基于图稀疏化的能效优化去中心化学习",
+    "translated_abstract": "本文旨在通过优化混合矩阵来提高去中心化学习的能效，混合矩阵控制了学习过程中的通信需求。通过对最先进的去中心化学习算法进行严格分析，将问题表示为双层优化，其中底层通过图稀疏化解决。在完全连接的基础拓扑结构的特殊情况下，提出了一种具有性能保证的解决方案，并针对一般情况提出了一种贪心启发式算法。基于真实拓扑结构和数据集的仿真结果表明，所提出的解决方案可以将最繁忙节点的能耗降低54%-76%，同时保持训练模型的质量。",
+    "tldr": "本文通过图稀疏化的方法，优化了混合矩阵，以提高去中心化学习的能效。在特殊和一般情况下，分别提出了有保证性能和贪心启发式算法的解决方案，并在仿真实验中验证了其有效性。",
+    "en_tdlr": "This paper proposes an energy-efficient optimization approach for decentralized learning by optimizing the mixing matrix using graph sparsification. The proposed solutions, with guaranteed performance in specific and general cases, reduce energy consumption at the busiest node by 54%-76% while maintaining model quality."
+}

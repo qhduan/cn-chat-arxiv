@@ -1,0 +1,12 @@
+{
+    "title": "Decomposing Smiles: A Time Change Approach. (arXiv:2401.03776v1 [q-fin.PR])",
+    "abstract": "We develop a novel time-change approach to study the shape of implied volatility smiles. The method is applicable to common semimartingale models, including jump-diffusion, rough volatility and infinite activity models. We approximate the at-the-money skew and curvature with an improved moment-based formula. The moments are further explicitly computed under a time change framework. The limiting skew and curvature for several models are considered. We also test the accuracy of the short-term approximation results on models via numerical methods and on empirical data. Finally, we apply the method to the calibration problem.",
+    "link": "http://arxiv.org/abs/2401.03776",
+    "context": "Title: Decomposing Smiles: A Time Change Approach. (arXiv:2401.03776v1 [q-fin.PR])\nAbstract: We develop a novel time-change approach to study the shape of implied volatility smiles. The method is applicable to common semimartingale models, including jump-diffusion, rough volatility and infinite activity models. We approximate the at-the-money skew and curvature with an improved moment-based formula. The moments are further explicitly computed under a time change framework. The limiting skew and curvature for several models are considered. We also test the accuracy of the short-term approximation results on models via numerical methods and on empirical data. Finally, we apply the method to the calibration problem.",
+    "path": "papers/24/01/2401.03776.json",
+    "total_tokens": 799,
+    "translated_title": "分解微笑：一种时间变化方法",
+    "translated_abstract": "我们采用一种新颖的时间变化方法来研究隐含波动率微笑的形状。该方法适用于常见的半鞘模型，包括跳跃扩散模型、粗糙波动模型和无限活动模型。我们用改进的基于矩的公式近似平价选择权的偏斜和曲率。在时间变化框架下明确计算出这些矩。对于几个模型，我们考虑了极限的偏斜和曲率。我们还通过数值方法和实证数据对短期逼近结果的准确性进行了测试。最后，我们将该方法应用于校准问题。",
+    "tldr": "本论文提出了一种新颖的时间变化方法来研究隐含波动率微笑的形态。该方法适用于常见的半鞘模型，改进了基于矩的公式来近似平价选择权的偏斜和曲率，通过明确计算出这些矩，考虑了几个模型的极限偏斜和曲率，并通过数值方法和实证数据进行了测试，最后应用于校准问题。",
+    "en_tdlr": "This paper introduces a novel time-change approach to study the shape of implied volatility smiles. It is applicable to various semimartingale models and improves the approximation of skew and curvature with moment-based formula. The paper considers limiting skew and curvature for different models, tests the accuracy with numerical methods and empirical data, and applies the method to the calibration problem."
+}

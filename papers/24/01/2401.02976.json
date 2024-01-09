@@ -1,0 +1,12 @@
+{
+    "title": "Trace and Edit Relation Associations in GPT. (arXiv:2401.02976v1 [cs.CL])",
+    "abstract": "This study introduces a novel approach for analyzing and modifying entity relationships in GPT models, diverging from ROME's entity-focused methods. We develop a relation tracing technique to understand the influence of language model computations on relationship judgments. Using the FewRel dataset, we identify key roles of MLP modules and attention mechanisms in processing relationship information. Our method, tested against ROME on a new dataset, shows improved balance in specificity and generalization, underscoring the potential of manipulating early-layer modules for enhanced model understanding and accuracy.",
+    "link": "http://arxiv.org/abs/2401.02976",
+    "context": "Title: Trace and Edit Relation Associations in GPT. (arXiv:2401.02976v1 [cs.CL])\nAbstract: This study introduces a novel approach for analyzing and modifying entity relationships in GPT models, diverging from ROME's entity-focused methods. We develop a relation tracing technique to understand the influence of language model computations on relationship judgments. Using the FewRel dataset, we identify key roles of MLP modules and attention mechanisms in processing relationship information. Our method, tested against ROME on a new dataset, shows improved balance in specificity and generalization, underscoring the potential of manipulating early-layer modules for enhanced model understanding and accuracy.",
+    "path": "papers/24/01/2401.02976.json",
+    "total_tokens": 721,
+    "translated_title": "在GPT模型中追踪和编辑关系关联",
+    "translated_abstract": "本研究介绍了一种新颖的方法，用于分析和修改GPT模型中的实体关系，与ROME的基于实体的方法不同。我们开发了一种关系追踪技术，以了解语言模型计算对关系判断的影响。使用FewRel数据集，我们识别了MLP模块和注意机制在处理关系信息方面的关键作用。我们的方法在一个新的数据集上与ROME进行了测试，显示出在特异性和泛化性方面的平衡改善，突显了操纵早期层模块以提高模型理解和准确性的潜力。",
+    "tldr": "本研究介绍了一种在GPT模型中分析和修改实体关系的新方法，通过关系追踪技术，我们识别了MLP模块和注意机制在处理关系信息方面的关键作用，实验表明该方法在特异性和泛化性方面取得了平衡的改善。",
+    "en_tdlr": "This study introduces a novel approach for analyzing and modifying entity relationships in GPT models. By using a relation tracing technique, the key roles of MLP modules and attention mechanisms in processing relationship information are identified. Experiments show that this method achieves a balanced improvement in specificity and generalization."
+}
