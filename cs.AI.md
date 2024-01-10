@@ -106,13 +106,14 @@
 | [^102] | [Handling Long and Richly Constrained Tasks through Constrained Hierarchical Reinforcement Learning.](http://arxiv.org/abs/2302.10639) | 本文通过约束层次强化学习的机制解决了长期和丰富约束的任务，在机器人清洁房屋的场景中展示了良好的性能。 |
 | [^103] | [Non-separable Covariance Kernels for Spatiotemporal Gaussian Processes based on a Hybrid Spectral Method and the Harmonic Oscillator.](http://arxiv.org/abs/2302.09580) | 该论文提出了一种基于混合谱方法和谐振子的非可分离协方差核的时空高斯过程研究，通过物理论证推导出一类新型的非可分离协方差核，能更好地捕捉观测到的时空相关性。 |
 | [^104] | [Enhancing SMT-based Weighted Model Integration by Structure Awareness.](http://arxiv.org/abs/2302.06188) | 本论文提出了一种基于结构感知的SMT加权模型集成算法，用于处理混合领域的概率推断问题，并能够避免生成冗余模型。 |
-| [^105] | [General-Purpose In-Context Learning by Meta-Learning Transformers.](http://arxiv.org/abs/2212.04458) | 本文展示了Transformer和其他黑盒模型可以通过元学习训练成为通用的上下文学习器，该模型可以在各种问题上进行测试集预测，无需定义推理模型、训练损失或优化算法。 |
-| [^106] | [DyG2Vec: Representation Learning for Dynamic Graphs with Self-Supervision.](http://arxiv.org/abs/2210.16906) | DyG2Vec是一个具有自监督学习能力的动态图表征学习模型，采用了高效而有效的注意力编码器和非对比自监督学习方法，能够提取丰富的时间嵌入表示。在基准数据集上的实验结果表明，该模型在未来链接预测任务中表现出色。 |
-| [^107] | [Learning image representations for anomaly detection: application to discovery of histological alterations in drug development.](http://arxiv.org/abs/2210.07675) | 该论文提出了一种基于CNN的异常检测系统，通过对健康组织进行辅助任务训练，使表示适应组织中的相关细节，实现对组织学图像中的异常情况检测。 |
-| [^108] | [Exploiting Cultural Biases via Homoglyphs in Text-to-Image Synthesis.](http://arxiv.org/abs/2209.08891) | 研究表明，在文本到图像合成过程中，通过插入异形字，模型会反映生成图片中的文化刻板印象和偏见。这一现象的根本原因是模型的文本编码器。而恶意用户或服务提供商还可能利用类似外形的非拉丁字符，故意引入偏见，创造种族主义刻板印象。 |
-| [^109] | [On the Evolution of A.I. and Machine Learning: Towards a Meta-level Measuring and Understanding Impact, Influence, and Leadership at Premier A.I. Conferences.](http://arxiv.org/abs/2205.13131) | 本研究旨在理解人工智能和机器学习的演变，通过衡量研究者在该领域的影响、影响力和领导力，并通过分析在主要人工智能会议上发表的论文，揭示了人工智能领域的发展和演变。人工智能的发展导致了学术论文数量的增加，本研究构建了全面的引用和合作数据集，对相关关系进行了计算。 |
-| [^110] | [Molecule Generation for Drug Design: a Graph Learning Perspective.](http://arxiv.org/abs/2202.09212) | 本论文调研了药物设计领域中基于图学习的分子生成方法，分为一步到位法、基于片段法和节点逐个法三类，介绍了公共数据集和评估指标，并讨论了未来研究的挑战和方向。 |
-| [^111] | [PHPQ: Pyramid Hybrid Pooling Quantization for Efficient Fine-Grained Image Retrieval.](http://arxiv.org/abs/2109.05206) | PHPQ是一种用于高效细粒度图像检索的金字塔混合池化量化方法。它通过金字塔混合池化模块捕获和保留多层次特征中的细粒度语义信息，并引入可学习的量化模块来提高哈希的表达能力。 |
+| [^105] | [Class-Continuous Conditional Generative Neural Radiance Field.](http://arxiv.org/abs/2301.00950) | 这篇论文介绍了一种名为$\text{C}^{3}$G-NeRF的模型，可以通过将条件特征投影到生成器和判别器中来合成具有条件操作的逼真的三维一致图像。实验证明，该模型在三维一致性、细节和条件特征操作的平滑插值方面表现出强大的性能。 |
+| [^106] | [General-Purpose In-Context Learning by Meta-Learning Transformers.](http://arxiv.org/abs/2212.04458) | 本文展示了Transformer和其他黑盒模型可以通过元学习训练成为通用的上下文学习器，该模型可以在各种问题上进行测试集预测，无需定义推理模型、训练损失或优化算法。 |
+| [^107] | [DyG2Vec: Representation Learning for Dynamic Graphs with Self-Supervision.](http://arxiv.org/abs/2210.16906) | DyG2Vec是一个具有自监督学习能力的动态图表征学习模型，采用了高效而有效的注意力编码器和非对比自监督学习方法，能够提取丰富的时间嵌入表示。在基准数据集上的实验结果表明，该模型在未来链接预测任务中表现出色。 |
+| [^108] | [Learning image representations for anomaly detection: application to discovery of histological alterations in drug development.](http://arxiv.org/abs/2210.07675) | 该论文提出了一种基于CNN的异常检测系统，通过对健康组织进行辅助任务训练，使表示适应组织中的相关细节，实现对组织学图像中的异常情况检测。 |
+| [^109] | [Exploiting Cultural Biases via Homoglyphs in Text-to-Image Synthesis.](http://arxiv.org/abs/2209.08891) | 研究表明，在文本到图像合成过程中，通过插入异形字，模型会反映生成图片中的文化刻板印象和偏见。这一现象的根本原因是模型的文本编码器。而恶意用户或服务提供商还可能利用类似外形的非拉丁字符，故意引入偏见，创造种族主义刻板印象。 |
+| [^110] | [On the Evolution of A.I. and Machine Learning: Towards a Meta-level Measuring and Understanding Impact, Influence, and Leadership at Premier A.I. Conferences.](http://arxiv.org/abs/2205.13131) | 本研究旨在理解人工智能和机器学习的演变，通过衡量研究者在该领域的影响、影响力和领导力，并通过分析在主要人工智能会议上发表的论文，揭示了人工智能领域的发展和演变。人工智能的发展导致了学术论文数量的增加，本研究构建了全面的引用和合作数据集，对相关关系进行了计算。 |
+| [^111] | [Molecule Generation for Drug Design: a Graph Learning Perspective.](http://arxiv.org/abs/2202.09212) | 本论文调研了药物设计领域中基于图学习的分子生成方法，分为一步到位法、基于片段法和节点逐个法三类，介绍了公共数据集和评估指标，并讨论了未来研究的挑战和方向。 |
+| [^112] | [PHPQ: Pyramid Hybrid Pooling Quantization for Efficient Fine-Grained Image Retrieval.](http://arxiv.org/abs/2109.05206) | PHPQ是一种用于高效细粒度图像检索的金字塔混合池化量化方法。它通过金字塔混合池化模块捕获和保留多层次特征中的细粒度语义信息，并引入可学习的量化模块来提高哈希的表达能力。 |
 
 # 详细
 
@@ -1572,7 +1573,21 @@
 
     The development of efficient exact and approximate algorithms for probabilistic inference is a long-standing goal of artificial intelligence research. Whereas substantial progress has been made in dealing with purely discrete or purely continuous domains, adapting the developed solutions to tackle hybrid domains, characterised by discrete and continuous variables and their relationships, is highly non-trivial. Weighted Model Integration (WMI) recently emerged as a unifying formalism for probabilistic inference in hybrid domains. Despite a considerable amount of recent work, allowing WMI algorithms to scale with the complexity of the hybrid problem is still a challenge. In this paper we highlight some substantial limitations of existing state-of-the-art solutions, and develop an algorithm that combines SMT-based enumeration, an efficient technique in formal verification, with an effective encoding of the problem structure. This allows our algorithm to avoid generating redundant models, 
     
-[^105]: 通过元学习Transformer实现通用上下文学习
+[^105]: Class-Continuous Conditional Generative Neural Radiance Field（类连续条件生成性神经辐射场）
+
+    Class-Continuous Conditional Generative Neural Radiance Field. (arXiv:2301.00950v3 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2301.00950](http://arxiv.org/abs/2301.00950)
+
+    这篇论文介绍了一种名为$\text{C}^{3}$G-NeRF的模型，可以通过将条件特征投影到生成器和判别器中来合成具有条件操作的逼真的三维一致图像。实验证明，该模型在三维一致性、细节和条件特征操作的平滑插值方面表现出强大的性能。
+
+    
+
+    三维感知图像合成关注于在生成具有细节的高分辨率图像的同时保持空间一致性。最近，神经辐射场（NeRF）被引入用于以低计算成本和卓越性能合成新视角。虽然一些研究探索了生成式NeRF并取得了显著的成果，但它们无法处理生成过程中的条件和连续特征操作。在本工作中，我们引入了一种名为$\text{C}^{3}$G-NeRF的新模型，它可以通过将条件特征投影到生成器和判别器中来合成具有条件操作的逼真的三维一致图像。我们使用三个图像数据集（AFHQ、CelebA和Cars）对提出的$\text{C}^{3}$G-NeRF进行评估。结果表明，我们的模型在三维一致性、细节和条件特征操作的平滑插值方面表现出强大的性能。
+
+    The 3D-aware image synthesis focuses on conserving spatial consistency besides generating high-resolution images with fine details. Recently, Neural Radiance Field (NeRF) has been introduced for synthesizing novel views with low computational cost and superior performance. While several works investigate a generative NeRF and show remarkable achievement, they cannot handle conditional and continuous feature manipulation in the generation procedure. In this work, we introduce a novel model, called Class-Continuous Conditional Generative NeRF ($\text{C}^{3}$G-NeRF), which can synthesize conditionally manipulated photorealistic 3D-consistent images by projecting conditional features to the generator and the discriminator. The proposed $\text{C}^{3}$G-NeRF is evaluated with three image datasets, AFHQ, CelebA, and Cars. As a result, our model shows strong 3D-consistency with fine details and smooth interpolation in conditional feature manipulation. For instance, $\text{C}^{3}$G-NeRF exhibit
+    
+[^106]: 通过元学习Transformer实现通用上下文学习
 
     General-Purpose In-Context Learning by Meta-Learning Transformers. (arXiv:2212.04458v2 [cs.LG] UPDATED)
 
@@ -1586,7 +1601,7 @@
 
     Modern machine learning requires system designers to specify aspects of the learning pipeline, such as losses, architectures, and optimizers. Meta-learning, or learning-to-learn, instead aims to learn those aspects, and promises to unlock greater capabilities with less manual effort. One particularly ambitious goal of meta-learning is to train general-purpose in-context learning algorithms from scratch, using only black-box models with minimal inductive bias. Such a model takes in training data, and produces test-set predictions across a wide range of problems, without any explicit definition of an inference model, training loss, or optimization algorithm. In this paper we show that Transformers and other black-box models can be meta-trained to act as general-purpose in-context learners. We characterize transitions between algorithms that generalize, algorithms that memorize, and algorithms that fail to meta-train at all, induced by changes in model size, number of tasks, and meta-opti
     
-[^106]: DyG2Vec: 带有自监督的动态图表征学习
+[^107]: DyG2Vec: 带有自监督的动态图表征学习
 
     DyG2Vec: Representation Learning for Dynamic Graphs with Self-Supervision. (arXiv:2210.16906v2 [cs.LG] UPDATED)
 
@@ -1600,7 +1615,7 @@
 
     Temporal graph neural networks have shown promising results in learning inductive representations by automatically extracting temporal patterns. However, previous works often rely on complex memory modules or inefficient random walk methods to construct temporal representations. In addition, the existing dynamic graph encoders are non-trivial to adapt to self-supervised paradigms, which prevents them from utilizing unlabeled data. To address these limitations, we present an efficient yet effective attention-based encoder that leverages temporal edge encodings and window-based subgraph sampling to generate task-agnostic embeddings. Moreover, we propose a joint-embedding architecture using non-contrastive SSL to learn rich temporal embeddings without labels. Experimental results on 7 benchmark datasets indicate that on average, our model outperforms SoTA baselines on the future link prediction task by 4.23% for the transductive setting and 3.30% for the inductive setting while only requi
     
-[^107]: 学习图像表示以进行异常检测：在药物开发中发现组织学改变的应用
+[^108]: 学习图像表示以进行异常检测：在药物开发中发现组织学改变的应用
 
     Learning image representations for anomaly detection: application to discovery of histological alterations in drug development. (arXiv:2210.07675v4 [cs.CV] UPDATED)
 
@@ -1614,7 +1629,7 @@
 
     We present a system for anomaly detection in histopathological images. In histology, normal samples are usually abundant, whereas anomalous (pathological) cases are scarce or not available. Under such settings, one-class classifiers trained on healthy data can detect out-of-distribution anomalous samples. Such approaches combined with pre-trained Convolutional Neural Network (CNN) representations of images were previously employed for anomaly detection (AD). However, pre-trained off-the-shelf CNN representations may not be sensitive to abnormal conditions in tissues, while natural variations of healthy tissue may result in distant representations. To adapt representations to relevant details in healthy tissue we propose training a CNN on an auxiliary task that discriminates healthy tissue of different species, organs, and staining reagents. Almost no additional labeling workload is required, since healthy samples come automatically with aforementioned labels. During training we enforce
     
-[^108]: 利用同形异义字在文本到图像合成中挖掘文化偏见
+[^109]: 利用同形异义字在文本到图像合成中挖掘文化偏见
 
     Exploiting Cultural Biases via Homoglyphs in Text-to-Image Synthesis. (arXiv:2209.08891v3 [cs.CV] UPDATED)
 
@@ -1628,7 +1643,7 @@
 
     Models for text-to-image synthesis, such as DALL-E~2 and Stable Diffusion, have recently drawn a lot of interest from academia and the general public. These models are capable of producing high-quality images that depict a variety of concepts and styles when conditioned on textual descriptions. However, these models adopt cultural characteristics associated with specific Unicode scripts from their vast amount of training data, which may not be immediately apparent. We show that by simply inserting single non-Latin characters in a textual description, common models reflect cultural stereotypes and biases in their generated images. We analyze this behavior both qualitatively and quantitatively, and identify a model's text encoder as the root cause of the phenomenon. Additionally, malicious users or service providers may try to intentionally bias the image generation to create racist stereotypes by replacing Latin characters with similarly-looking characters from non-Latin scripts, so-cal
     
-[^109]: 论人工智能和机器学习的演变：朝着在主要人工智能会议上衡量和理解影响、影响力和领导力的元级的方向发展
+[^110]: 论人工智能和机器学习的演变：朝着在主要人工智能会议上衡量和理解影响、影响力和领导力的元级的方向发展
 
     On the Evolution of A.I. and Machine Learning: Towards a Meta-level Measuring and Understanding Impact, Influence, and Leadership at Premier A.I. Conferences. (arXiv:2205.13131v2 [cs.AI] UPDATED)
 
@@ -1642,7 +1657,7 @@
 
     Artificial Intelligence is now recognized as a general-purpose technology with ample impact on human life. This work aims at understanding the evolution of AI and, in particular Machine learning, from the perspective of researchers' contributions to the field. In order to do so, we present several measures allowing the analyses of AI and machine learning researchers' impact, influence, and leadership over the last decades. This work also contributes, to a certain extent, to shed new light on the history and evolution of AI by exploring the dynamics involved in the field's evolution by looking at papers published at the flagship AI and machine learning conferences since the first International Joint Conference on Artificial Intelligence (IJCAI) held in 1969. AI development and evolution have led to increasing research output, reflected in the number of articles published over the last sixty years. We construct comprehensive citation collaboration and paper-author datasets and compute co
     
-[^110]: 药物设计中的分子生成：图学习的视角
+[^111]: 药物设计中的分子生成：图学习的视角
 
     Molecule Generation for Drug Design: a Graph Learning Perspective. (arXiv:2202.09212v2 [cs.LG] UPDATED)
 
@@ -1656,7 +1671,7 @@
 
     Machine learning, particularly graph learning, is gaining increasing recognition for its transformative impact across various fields. One such promising application is in the realm of molecule design and discovery, notably within the pharmaceutical industry. Our survey offers a comprehensive overview of state-of-the-art methods in molecule design, particularly focusing on \emph{de novo} drug design, which incorporates (deep) graph learning techniques. We categorize these methods into three distinct groups: \emph{i)} \emph{all-at-once}, \emph{ii)} \emph{fragment-based}, and \emph{iii)} \emph{node-by-node}. Additionally, we introduce some key public datasets and outline the commonly used evaluation metrics for both the generation and optimization of molecules. In the end, we discuss the existing challenges in this field and suggest potential directions for future research.
     
-[^111]: PHPQ: 金字塔混合池化量化用于高效的细粒度图像检索
+[^112]: PHPQ: 金字塔混合池化量化用于高效的细粒度图像检索
 
     PHPQ: Pyramid Hybrid Pooling Quantization for Efficient Fine-Grained Image Retrieval. (arXiv:2109.05206v2 [cs.CV] UPDATED)
 
