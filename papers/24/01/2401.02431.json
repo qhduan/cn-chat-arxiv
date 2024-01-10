@@ -1,0 +1,12 @@
+{
+    "title": "Execution time budget assignment for mixed criticality systems. (arXiv:2401.02431v2 [cs.PF] CROSS LISTED)",
+    "abstract": "In this paper we propose to quantify execution time variability of programs using statistical dispersion parameters. We show how the execution time variability can be exploited in mixed criticality real-time systems. We propose a heuristic to compute the execution time budget to be allocated to each low criticality real-time task according to its execution time variability. We show using experiments and simulations that the proposed heuristic reduces the probability of exceeding the allocated budget compared to algorithms which do not take into account the execution time variability parameter.",
+    "link": "http://arxiv.org/abs/2401.02431",
+    "context": "Title: Execution time budget assignment for mixed criticality systems. (arXiv:2401.02431v2 [cs.PF] CROSS LISTED)\nAbstract: In this paper we propose to quantify execution time variability of programs using statistical dispersion parameters. We show how the execution time variability can be exploited in mixed criticality real-time systems. We propose a heuristic to compute the execution time budget to be allocated to each low criticality real-time task according to its execution time variability. We show using experiments and simulations that the proposed heuristic reduces the probability of exceeding the allocated budget compared to algorithms which do not take into account the execution time variability parameter.",
+    "path": "papers/24/01/2401.02431.json",
+    "total_tokens": 590,
+    "translated_title": "执行时间预算分配在混合关键系统中",
+    "translated_abstract": "本文提出使用统计离散参数来量化程序的执行时间变异性，并展示了如何在混合关键实时系统中利用执行时间变异性。我们提出了一种启发式方法，根据执行时间变异性为每个低关键实时任务分配执行时间预算。通过实验证明，与不考虑执行时间变异性参数的算法相比，所提出的启发式方法降低了超出分配预算的概率。",
+    "tldr": "本文提出了一种启发式方法，根据执行时间变异性为每个低关键实时任务分配执行时间预算，降低了超出预算的概率。",
+    "en_tdlr": "This paper proposes a heuristic method to allocate execution time budget to each low criticality real-time task according to its execution time variability, reducing the probability of exceeding the allocated budget."
+}

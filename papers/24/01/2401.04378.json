@@ -1,0 +1,11 @@
+{
+    "title": "Computing the Gerber-Shiu function with interest and a constant dividend barrier by physics-informed neural networks. (arXiv:2401.04378v1 [math.NA])",
+    "abstract": "In this paper, we propose a new efficient method for calculating the Gerber-Shiu discounted penalty function. Generally, the Gerber-Shiu function usually satisfies a class of integro-differential equation. We introduce the physics-informed neural networks (PINN) which embed a differential equation into the loss of the neural network using automatic differentiation. In addition, PINN is more free to set boundary conditions and does not rely on the determination of the initial value. This gives us an idea to calculate more general Gerber-Shiu functions. Numerical examples are provided to illustrate the very good performance of our approximation.",
+    "link": "http://arxiv.org/abs/2401.04378",
+    "context": "Title: Computing the Gerber-Shiu function with interest and a constant dividend barrier by physics-informed neural networks. (arXiv:2401.04378v1 [math.NA])\nAbstract: In this paper, we propose a new efficient method for calculating the Gerber-Shiu discounted penalty function. Generally, the Gerber-Shiu function usually satisfies a class of integro-differential equation. We introduce the physics-informed neural networks (PINN) which embed a differential equation into the loss of the neural network using automatic differentiation. In addition, PINN is more free to set boundary conditions and does not rely on the determination of the initial value. This gives us an idea to calculate more general Gerber-Shiu functions. Numerical examples are provided to illustrate the very good performance of our approximation.",
+    "path": "papers/24/01/2401.04378.json",
+    "total_tokens": 714,
+    "translated_title": "使用物理信息神经网络计算带利息和常数股息障碍的Gerber-Shiu函数",
+    "translated_abstract": "本文提出了一种计算Gerber-Shiu折扣罚函数的新方法。通常，Gerber-Shiu函数满足一类积分微分方程。我们引入了物理信息神经网络（PINN），将微分方程嵌入神经网络的损失函数中，使用自动微分。此外，PINN更自由地设置边界条件，不依赖于初始值的确定。这为我们计算更一般的Gerber-Shiu函数提供了思路。通过数值示例说明了我们近似方法的非常好的性能。",
+    "tldr": "使用物理信息神经网络（PINN）计算Gerber-Shiu函数，通过将微分方程嵌入神经网络的损失函数中，我们提出了一种高效的方法。这种方法可以更自由地设置边界条件，计算更一般的Gerber-Shiu函数。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Predicting the structure of dynamic graphs. (arXiv:2401.04280v1 [cs.LG])",
+    "abstract": "Dynamic graph embeddings, inductive and incremental learning facilitate predictive tasks such as node classification and link prediction. However, predicting the structure of a graph at a future time step from a time series of graphs, allowing for new nodes has not gained much attention. In this paper, we present such an approach. We use time series methods to predict the node degree at future time points and combine it with flux balance analysis -- a linear programming method used in biochemistry -- to obtain the structure of future graphs. Furthermore, we explore the predictive graph distribution for different parameter values. We evaluate this method using synthetic and real datasets and demonstrate its utility and applicability.",
+    "link": "http://arxiv.org/abs/2401.04280",
+    "context": "Title: Predicting the structure of dynamic graphs. (arXiv:2401.04280v1 [cs.LG])\nAbstract: Dynamic graph embeddings, inductive and incremental learning facilitate predictive tasks such as node classification and link prediction. However, predicting the structure of a graph at a future time step from a time series of graphs, allowing for new nodes has not gained much attention. In this paper, we present such an approach. We use time series methods to predict the node degree at future time points and combine it with flux balance analysis -- a linear programming method used in biochemistry -- to obtain the structure of future graphs. Furthermore, we explore the predictive graph distribution for different parameter values. We evaluate this method using synthetic and real datasets and demonstrate its utility and applicability.",
+    "path": "papers/24/01/2401.04280.json",
+    "total_tokens": 733,
+    "translated_title": "预测动态图的结构",
+    "translated_abstract": "动态图嵌入、归纳和增量学习有助于预测任务，如节点分类和链接预测。然而，从图的时间序列中预测未来时间步的图结构，允许有新节点，并没有受到太多关注。在本文中，我们提出了一种这样的方法。我们使用时间序列方法预测未来时间点的节点度，并将其与通量平衡分析（一种在生物化学中使用的线性规划方法）结合起来，以获得未来图的结构。此外，我们探索了不同参数值的预测图分布。我们使用合成和真实数据集评估了该方法，并展示了其实用性和适用性。",
+    "tldr": "本文提出了一种预测动态图结构的方法，利用时间序列方法预测未来时间点的节点度，并结合通量平衡分析方法获得未来图的结构，评估了该方法在合成和真实数据集上的实用性和适用性。",
+    "en_tdlr": "This paper proposes a method for predicting the structure of dynamic graphs by using time series methods to predict the node degree at future time points and combining it with flux balance analysis method. The method is evaluated using synthetic and real datasets to demonstrate its utility and applicability."
+}

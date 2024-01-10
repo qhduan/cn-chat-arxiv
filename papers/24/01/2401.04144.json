@@ -1,0 +1,12 @@
+{
+    "title": "Robust Calibration For Improved Weather Prediction Under Distributional Shift. (arXiv:2401.04144v1 [cs.LG])",
+    "abstract": "In this paper, we present results on improving out-of-domain weather prediction and uncertainty estimation as part of the \\texttt{Shifts Challenge on Robustness and Uncertainty under Real-World Distributional Shift} challenge. We find that by leveraging a mixture of experts in conjunction with an advanced data augmentation technique borrowed from the computer vision domain, in conjunction with robust \\textit{post-hoc} calibration of predictive uncertainties, we can potentially achieve more accurate and better-calibrated results with deep neural networks than with boosted tree models for tabular data. We quantify our predictions using several metrics and propose several future lines of inquiry and experimentation to boost performance.",
+    "link": "http://arxiv.org/abs/2401.04144",
+    "context": "Title: Robust Calibration For Improved Weather Prediction Under Distributional Shift. (arXiv:2401.04144v1 [cs.LG])\nAbstract: In this paper, we present results on improving out-of-domain weather prediction and uncertainty estimation as part of the \\texttt{Shifts Challenge on Robustness and Uncertainty under Real-World Distributional Shift} challenge. We find that by leveraging a mixture of experts in conjunction with an advanced data augmentation technique borrowed from the computer vision domain, in conjunction with robust \\textit{post-hoc} calibration of predictive uncertainties, we can potentially achieve more accurate and better-calibrated results with deep neural networks than with boosted tree models for tabular data. We quantify our predictions using several metrics and propose several future lines of inquiry and experimentation to boost performance.",
+    "path": "papers/24/01/2401.04144.json",
+    "total_tokens": 740,
+    "translated_title": "改进天气预测的鲁棒性校准",
+    "translated_abstract": "本文介绍了在“鲁棒性和不确定性在现实世界分布转移下的挑战——移位挑战”中改善跨域天气预测和不确定性估计的结果。我们发现，通过利用从计算机视觉领域借鉴的高级数据增强技术以及混合专家模型，并结合对预测不确定性进行鲁棒后校准，我们可以在用于表格数据的深度神经网络中实现比提升树模型更准确和更好校准的结果。我们使用多种指标对我们的预测进行量化，提出了几个未来的探究和实验方向来提升性能。",
+    "tldr": "本研究通过混合专家模型、数据增强和鲁棒后校准方法，相比提升树模型，使用深度神经网络在天气预测中实现更准确和更好校准的结果。",
+    "en_tdlr": "This study improves weather prediction by using a mixture of experts, data augmentation, and robust post-hoc calibration, achieving more accurate and better-calibrated results with deep neural networks compared to boosted tree models."
+}

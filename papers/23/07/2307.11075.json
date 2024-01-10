@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning for Photonic Component Design. (arXiv:2307.11075v2 [physics.optics] UPDATED)",
+    "abstract": "We present a new fab-in-the-loop reinforcement learning algorithm for the design of nano-photonic components that accounts for the imperfections present in nanofabrication processes. As a demonstration of the potential of this technique, we apply it to the design of photonic crystal grating couplers fabricated on an air clad 220 nm silicon on insulator single etch platform. This fab-in-the-loop algorithm improves the insertion loss from 8.8 to 3.24 dB. The widest bandwidth designs produced using our fab-in-the-loop algorithm can cover a 150 nm bandwidth with less than 10.2 dB of loss at their lowest point.",
+    "link": "http://arxiv.org/abs/2307.11075",
+    "context": "Title: Reinforcement Learning for Photonic Component Design. (arXiv:2307.11075v2 [physics.optics] UPDATED)\nAbstract: We present a new fab-in-the-loop reinforcement learning algorithm for the design of nano-photonic components that accounts for the imperfections present in nanofabrication processes. As a demonstration of the potential of this technique, we apply it to the design of photonic crystal grating couplers fabricated on an air clad 220 nm silicon on insulator single etch platform. This fab-in-the-loop algorithm improves the insertion loss from 8.8 to 3.24 dB. The widest bandwidth designs produced using our fab-in-the-loop algorithm can cover a 150 nm bandwidth with less than 10.2 dB of loss at their lowest point.",
+    "path": "papers/23/07/2307.11075.json",
+    "total_tokens": 745,
+    "translated_title": "光子器件设计的强化学习",
+    "translated_abstract": "我们提出了一种新的基于强化学习的fab-in-the-loop算法，用于设计考虑到纳米制造过程中的缺陷的纳米光子器件。作为这种技术潜力的展示，我们将其应用于在气体包覆的220纳米硅层绝缘体单刻蚀平台上制造的光子晶体光栅耦合器的设计。这种fab-in-the-loop算法将插入损耗从8.8 dB降低到3.24 dB。使用我们的fab-in-the-loop算法，产生的最宽带宽设计可以在其最低点处以不到10.2 dB的损耗覆盖150纳米的带宽。",
+    "tldr": "本文提出了一种新的基于强化学习的fab-in-the-loop算法，用于光子器件设计，并成功将插入损耗降低至3.24 dB，并实现了在150纳米带宽下不到10.2 dB的损耗。",
+    "en_tdlr": "This paper proposes a new fab-in-the-loop reinforcement learning algorithm for photonic component design, which successfully reduces the insertion loss to 3.24 dB and achieves less than 10.2 dB loss at a bandwidth of 150 nm."
+}

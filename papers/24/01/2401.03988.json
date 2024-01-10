@@ -1,0 +1,12 @@
+{
+    "title": "A Primer on Temporal Graph Learning. (arXiv:2401.03988v2 [cs.LG] UPDATED)",
+    "abstract": "This document aims to familiarize readers with temporal graph learning (TGL) through a concept-first approach. We have systematically presented vital concepts essential for understanding the workings of a TGL framework. In addition to qualitative explanations, we have incorporated mathematical formulations where applicable, enhancing the clarity of the text. Since TGL involves temporal and spatial learning, we introduce relevant learning architectures ranging from recurrent and convolutional neural networks to transformers and graph neural networks. We also discuss classical time series forecasting methods to inspire interpretable learning solutions for TGL.",
+    "link": "http://arxiv.org/abs/2401.03988",
+    "context": "Title: A Primer on Temporal Graph Learning. (arXiv:2401.03988v2 [cs.LG] UPDATED)\nAbstract: This document aims to familiarize readers with temporal graph learning (TGL) through a concept-first approach. We have systematically presented vital concepts essential for understanding the workings of a TGL framework. In addition to qualitative explanations, we have incorporated mathematical formulations where applicable, enhancing the clarity of the text. Since TGL involves temporal and spatial learning, we introduce relevant learning architectures ranging from recurrent and convolutional neural networks to transformers and graph neural networks. We also discuss classical time series forecasting methods to inspire interpretable learning solutions for TGL.",
+    "path": "papers/24/01/2401.03988.json",
+    "total_tokens": 703,
+    "translated_title": "时间图学习的基本知识",
+    "translated_abstract": "本文旨在通过概念先行的方法，使读者熟悉时间图学习（TGL）。我们系统地介绍了理解TGL框架所必不可少的重要概念。除了定性解释，我们还在适用的情况下引入了数学公式，提升了文本的清晰度。由于TGL涉及时间和空间学习，我们介绍了相关的学习架构，从循环神经网络和卷积神经网络到转换器和图神经网络。我们还讨论了经典的时间序列预测方法，以激发对TGL的可解释学习解决方案的灵感。",
+    "tldr": "本文介绍了时间图学习的基本知识，包括TGL框架中的重要概念、相关的学习架构以及经典的时间序列预测方法，为TGL的可解释学习解决方案提供了灵感。",
+    "en_tdlr": "This paper provides an introduction to the fundamental concepts of temporal graph learning (TGL), including important concepts in the TGL framework, relevant learning architectures, and classical time series forecasting methods, inspiring interpretable learning solutions for TGL."
+}

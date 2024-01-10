@@ -1,0 +1,12 @@
+{
+    "title": "Analyzing Coherency in Facet-based Clarification Prompt Generation for Search. (arXiv:2401.04524v1 [cs.IR])",
+    "abstract": "Clarifying user's information needs is an essential component of modern search systems. While most of the approaches for constructing clarifying prompts rely on query facets, the impact of the quality of the facets is relatively unexplored. In this work, we concentrate on facet quality through the notion of facet coherency and assess its importance for overall usefulness for clarification in search. We find that existing evaluation procedures do not account for facet coherency, as evident by the poor correlation of coherency with automated metrics. Moreover, we propose a coherency classifier and assess the prevalence of incoherent facets in a well-established dataset on clarification. Our findings can serve as motivation for future work on the topic.",
+    "link": "http://arxiv.org/abs/2401.04524",
+    "context": "Title: Analyzing Coherency in Facet-based Clarification Prompt Generation for Search. (arXiv:2401.04524v1 [cs.IR])\nAbstract: Clarifying user's information needs is an essential component of modern search systems. While most of the approaches for constructing clarifying prompts rely on query facets, the impact of the quality of the facets is relatively unexplored. In this work, we concentrate on facet quality through the notion of facet coherency and assess its importance for overall usefulness for clarification in search. We find that existing evaluation procedures do not account for facet coherency, as evident by the poor correlation of coherency with automated metrics. Moreover, we propose a coherency classifier and assess the prevalence of incoherent facets in a well-established dataset on clarification. Our findings can serve as motivation for future work on the topic.",
+    "path": "papers/24/01/2401.04524.json",
+    "total_tokens": 762,
+    "translated_title": "分析基于维度的搜索澄清提示生成中的相关性",
+    "translated_abstract": "澄清用户的信息需求是现代搜索系统中必不可少的组成部分。尽管大多数构建澄清提示的方法依赖于查询维度，但维度质量的影响相对未经探索。在这项工作中，我们通过维度相关性的概念来关注维度质量，并评估其对搜索中澄清的整体实用性的重要性。我们发现现有的评估程序未考虑维度相关性，这一点可以从相关性与自动度量标准的较差相关性看出。此外，我们提出了一个相关性分类器，并评估了一个关于澄清的已确立数据集中不一致维度的普遍性。我们的发现可以为未来在这个主题上的工作提供动力。",
+    "tldr": "本研究关注基于维度的搜索澄清提示生成中的维度质量和相关性的重要性，并提出了一个相关性分类器来评估澄清过程中存在的维度相关性问题。",
+    "en_tdlr": "This study focuses on the quality and relevance of query facets in facet-based clarification prompt generation for search, and proposes a coherence classifier to evaluate the prevailing incoherence of facets in the clarification process."
+}

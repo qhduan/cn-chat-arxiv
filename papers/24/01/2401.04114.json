@@ -1,0 +1,12 @@
+{
+    "title": "Timeline-based Process Discovery. (arXiv:2401.04114v1 [cs.HC])",
+    "abstract": "A key concern of automatic process discovery is to provide insights into performance aspects of business processes. Waiting times are of particular importance in this context. For that reason, it is surprising that current techniques for automatic process discovery generate directly-follows graphs and comparable process models, but often miss the opportunity to explicitly represent the time axis. In this paper, we present an approach for automatically constructing process models that explicitly align with a time axis. We exemplify our approach for directly-follows graphs. Our evaluation using two BPIC datasets and a proprietary dataset highlight the benefits of this representation in comparison to standard layout techniques.",
+    "link": "http://arxiv.org/abs/2401.04114",
+    "context": "Title: Timeline-based Process Discovery. (arXiv:2401.04114v1 [cs.HC])\nAbstract: A key concern of automatic process discovery is to provide insights into performance aspects of business processes. Waiting times are of particular importance in this context. For that reason, it is surprising that current techniques for automatic process discovery generate directly-follows graphs and comparable process models, but often miss the opportunity to explicitly represent the time axis. In this paper, we present an approach for automatically constructing process models that explicitly align with a time axis. We exemplify our approach for directly-follows graphs. Our evaluation using two BPIC datasets and a proprietary dataset highlight the benefits of this representation in comparison to standard layout techniques.",
+    "path": "papers/24/01/2401.04114.json",
+    "total_tokens": 680,
+    "translated_title": "基于时间线的流程发现",
+    "translated_abstract": "自动流程发现的一个关键问题是提供对业务流程性能方面的洞察。在这方面，等待时间尤为重要。出乎意料的是，目前的自动流程发现技术生成直接后续图和可比较的流程模型，但往往错失了明确表示时间轴的机会。本文提出了一种自动构建与时间轴明确对齐的流程模型的方法。我们以直接后续图为例说明了我们的方法。我们使用两个BPIC数据集和一个专有数据集进行评估，突显了与标准布局技术相比，这种表示法的优势。",
+    "tldr": "本文提出了一种基于时间线的流程发现方法，能够明确表示时间轴，该方法在两个BPIC数据集和一个专有数据集上的评估中展现出与标准布局技术相比的优势。",
+    "en_tdlr": "This paper presents a timeline-based process discovery method that explicitly represents the time axis, and shows its advantages over standard layout techniques in the evaluation on two BPIC datasets and a proprietary dataset."
+}

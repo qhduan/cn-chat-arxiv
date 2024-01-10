@@ -1,0 +1,12 @@
+{
+    "title": "Data-driven Nonlinear Model Reduction using Koopman Theory: Integrated Control Form and NMPC Case Study. (arXiv:2401.04508v1 [eess.SY])",
+    "abstract": "We use Koopman theory for data-driven model reduction of nonlinear dynamical systems with controls. We propose generic model structures combining delay-coordinate encoding of measurements and full-state decoding to integrate reduced Koopman modeling and state estimation. We present a deep-learning approach to train the proposed models. A case study demonstrates that our approach provides accurate control models and enables real-time capable nonlinear model predictive control of a high-purity cryogenic distillation column.",
+    "link": "http://arxiv.org/abs/2401.04508",
+    "context": "Title: Data-driven Nonlinear Model Reduction using Koopman Theory: Integrated Control Form and NMPC Case Study. (arXiv:2401.04508v1 [eess.SY])\nAbstract: We use Koopman theory for data-driven model reduction of nonlinear dynamical systems with controls. We propose generic model structures combining delay-coordinate encoding of measurements and full-state decoding to integrate reduced Koopman modeling and state estimation. We present a deep-learning approach to train the proposed models. A case study demonstrates that our approach provides accurate control models and enables real-time capable nonlinear model predictive control of a high-purity cryogenic distillation column.",
+    "path": "papers/24/01/2401.04508.json",
+    "total_tokens": 707,
+    "translated_title": "基于Koopman理论的数据驱动非线性模型简化：综合控制形式和NMPC案例研究",
+    "translated_abstract": "我们使用Koopman理论对带有控制的非线性动态系统进行数据驱动模型简化。我们提出了将延迟坐标编码测量和全状态解码相结合的通用模型结构，以集成简化的Koopman建模和状态估计。我们提出了一种深度学习方法来训练所提出的模型。案例研究表明，我们的方法提供了精确的控制模型，并实现了高纯度低温精馏塔的实时非线性模型预测控制。",
+    "tldr": "本研究基于Koopman理论，提出了一种数据驱动非线性模型简化方法。通过结合延迟坐标编码和全状态解码的模型结构，我们成功地实现了高纯度低温精馏塔的实时非线性模型预测控制。",
+    "en_tdlr": "This study presents a data-driven approach for nonlinear model reduction using Koopman theory. By combining delay-coordinate encoding and full-state decoding, accurate control models are obtained for real-time capable nonlinear model predictive control of a high-purity cryogenic distillation column."
+}

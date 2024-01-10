@@ -1,0 +1,11 @@
+{
+    "title": "Should Politicians be Informed? Targeted Benefits and Heterogeneous Voters. (arXiv:2401.04273v1 [econ.TH])",
+    "abstract": "We compare two scenarios in a model where politicians offer local public goods to heterogeneous voters: one where politicians have access to data on voters and thus can target specific ones, and another where politicians only decide on the level of spending. When the budget is small, or the public good has a high value, access to voter information leads the winner to focus on poorer voters, enhancing voter welfare. With a larger budget or less crucial public goods, politicians target a narrow group of swing voters, which harms the voter welfare.",
+    "link": "http://arxiv.org/abs/2401.04273",
+    "context": "Title: Should Politicians be Informed? Targeted Benefits and Heterogeneous Voters. (arXiv:2401.04273v1 [econ.TH])\nAbstract: We compare two scenarios in a model where politicians offer local public goods to heterogeneous voters: one where politicians have access to data on voters and thus can target specific ones, and another where politicians only decide on the level of spending. When the budget is small, or the public good has a high value, access to voter information leads the winner to focus on poorer voters, enhancing voter welfare. With a larger budget or less crucial public goods, politicians target a narrow group of swing voters, which harms the voter welfare.",
+    "path": "papers/24/01/2401.04273.json",
+    "total_tokens": 778,
+    "translated_title": "政治家应该被告知吗？目标福利和异质选民。",
+    "translated_abstract": "在一个模型中，我们比较了两种情况：政治家向异质选民提供地方公共产品，一种情况是政治家可以获取选民数据从而对特定选民进行针对性服务，另一种情况是政治家仅仅决定支出水平。当预算较小或公共产品价值较高时，政治家能够获取选民信息导致胜利者关注更贫困的选民，提高选民福利。然而，如果预算较大或公共产品不那么关键，政治家会针对一小群摇摆选民，这会损害选民福利。",
+    "tldr": "该研究比较了政治家有无获取选民数据的情况下对不同类型选民提供公共产品的效果，发现在预算较小或公共产品价值较高时，获取选民信息可以提高贫困选民的福利；而在预算较大或公共产品不那么关键时，政治家会侧重对摇摆选民进行针对性服务，从而损害选民福利。"
+}

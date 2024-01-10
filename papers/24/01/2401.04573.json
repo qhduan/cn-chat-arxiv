@@ -1,0 +1,12 @@
+{
+    "title": "Opportunities to upgrade the scientific disciplines space. (arXiv:2401.04573v1 [econ.GN])",
+    "abstract": "Knowledge generated in a given scientific domain may spill over into other close scientific disciplines, thereby improving performance. Using bibliometric data from the SCImago database drawn from a sample of 174 countries, we implement a measure of proximity based on revealed comparative advantage (RCA). Our estimates show that proximity between disciplines positively and significantly affects the RCA growth rate. This impact is larger on disciplines that currently do not have RCA.",
+    "link": "http://arxiv.org/abs/2401.04573",
+    "context": "Title: Opportunities to upgrade the scientific disciplines space. (arXiv:2401.04573v1 [econ.GN])\nAbstract: Knowledge generated in a given scientific domain may spill over into other close scientific disciplines, thereby improving performance. Using bibliometric data from the SCImago database drawn from a sample of 174 countries, we implement a measure of proximity based on revealed comparative advantage (RCA). Our estimates show that proximity between disciplines positively and significantly affects the RCA growth rate. This impact is larger on disciplines that currently do not have RCA.",
+    "path": "papers/24/01/2401.04573.json",
+    "total_tokens": 594,
+    "translated_title": "升级科学学科空间的机会",
+    "translated_abstract": "在某个科学领域生成的知识可能会溢出到其他相关的科学学科中，并提升性能。我们使用来自SCImago数据库的文献计量数据，并根据比较优势揭示（RCA）构建了一个学科之间的接近度指标。我们的估计结果表明，学科之间的接近度对比较优势增长率产生积极且显著的影响。这种影响在目前没有比较优势的学科上更为显著。",
+    "tldr": "学科之间的接近度对比较优势增长率产生积极且显著的影响，尤其是对目前没有比较优势的学科更为显著。",
+    "en_tdlr": "Proximity between disciplines positively and significantly affects the RCA growth rate, especially for disciplines that currently do not have RCA."
+}

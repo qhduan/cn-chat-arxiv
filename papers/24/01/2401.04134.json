@@ -1,0 +1,11 @@
+{
+    "title": "Web Neural Network with Complete DiGraphs. (arXiv:2401.04134v1 [cs.NE])",
+    "abstract": "This paper introduces a new neural network model that aims to mimic the biological brain more closely by structuring the network as a complete directed graph that processes continuous data for each timestep. Current neural networks have structures that vaguely mimic the brain structure, such as neurons, convolutions, and recurrence. The model proposed in this paper adds additional structural properties by introducing cycles into the neuron connections and removing the sequential nature commonly seen in other network layers. Furthermore, the model has continuous input and output, inspired by spiking neural networks, which allows the network to learn a process of classification, rather than simply returning the final result.",
+    "link": "http://arxiv.org/abs/2401.04134",
+    "context": "Title: Web Neural Network with Complete DiGraphs. (arXiv:2401.04134v1 [cs.NE])\nAbstract: This paper introduces a new neural network model that aims to mimic the biological brain more closely by structuring the network as a complete directed graph that processes continuous data for each timestep. Current neural networks have structures that vaguely mimic the brain structure, such as neurons, convolutions, and recurrence. The model proposed in this paper adds additional structural properties by introducing cycles into the neuron connections and removing the sequential nature commonly seen in other network layers. Furthermore, the model has continuous input and output, inspired by spiking neural networks, which allows the network to learn a process of classification, rather than simply returning the final result.",
+    "path": "papers/24/01/2401.04134.json",
+    "total_tokens": 733,
+    "translated_title": "使用完全有向图的Web神经网络",
+    "translated_abstract": "本文介绍了一种新的神经网络模型，旨在更接近生物脑，通过将网络结构化为每个时间步骤处理连续数据的完全有向图。目前的神经网络结构模糊地模仿脑结构，例如神经元、卷积和循环。本文提出的模型通过引入神经元连接中的循环和消除常见的顺序性来增加额外的结构特性。此外，该模型具有连续的输入和输出，受脉冲神经网络的启发，允许网络学习分类过程，而不仅仅返回最终结果。",
+    "tldr": "本文介绍了一种新的神经网络模型，通过使用完全有向图的网络结构和连续数据处理，更接近生物脑，并通过引入循环和消除顺序性来增加额外的结构特性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "LUNA: A Framework for Language Understanding and Naturalness Assessment. (arXiv:2401.04522v1 [cs.CL])",
+    "abstract": "The evaluation of Natural Language Generation (NLG) models has gained increased attention, urging the development of metrics that evaluate various aspects of generated text. LUNA addresses this challenge by introducing a unified interface for 20 NLG evaluation metrics. These metrics are categorized based on their reference-dependence and the type of text representation they employ, from string-based n-gram overlap to the utilization of static embeddings and pre-trained language models.  The straightforward design of LUNA allows for easy extension with novel metrics, requiring just a few lines of code. LUNA offers a user-friendly tool for evaluating generated texts.",
+    "link": "http://arxiv.org/abs/2401.04522",
+    "context": "Title: LUNA: A Framework for Language Understanding and Naturalness Assessment. (arXiv:2401.04522v1 [cs.CL])\nAbstract: The evaluation of Natural Language Generation (NLG) models has gained increased attention, urging the development of metrics that evaluate various aspects of generated text. LUNA addresses this challenge by introducing a unified interface for 20 NLG evaluation metrics. These metrics are categorized based on their reference-dependence and the type of text representation they employ, from string-based n-gram overlap to the utilization of static embeddings and pre-trained language models.  The straightforward design of LUNA allows for easy extension with novel metrics, requiring just a few lines of code. LUNA offers a user-friendly tool for evaluating generated texts.",
+    "path": "papers/24/01/2401.04522.json",
+    "total_tokens": 700,
+    "translated_title": "LUNA: 一个用于语言理解和自然度评估的框架",
+    "translated_abstract": "自然语言生成（NLG）模型的评估日益受到关注，迫使开发评估生成文本各个方面的度量标准。LUNA通过引入一个统一的接口来解决这一挑战，包含20个NLG评估度量标准。这些度量标准基于它们的参考依赖性和文本表示类型进行分类，从基于字符串的n-gram重叠到利用静态嵌入和预训练语言模型。LUNA的简单设计允许通过几行代码轻松扩展新的度量标准。LUNA提供了一个用户友好的工具，用于评估生成的文本。",
+    "tldr": "LUNA是一个用于评估生成文本的框架，提供了一个统一接口和20个评估度量标准，可以根据参考依赖性和文本表示类型进行分类。",
+    "en_tdlr": "LUNA is a framework for evaluating generated text, offering a unified interface and 20 evaluation metrics that are categorized based on reference-dependence and text representation type."
+}

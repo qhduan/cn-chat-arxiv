@@ -1,0 +1,11 @@
+{
+    "title": "Estimating Text Similarity based on Semantic Concept Embeddings. (arXiv:2401.04422v1 [cs.CL])",
+    "abstract": "Due to their ease of use and high accuracy, Word2Vec (W2V) word embeddings enjoy great success in the semantic representation of words, sentences, and whole documents as well as for semantic similarity estimation. However, they have the shortcoming that they are directly extracted from a surface representation, which does not adequately represent human thought processes and also performs poorly for highly ambiguous words. Therefore, we propose Semantic Concept Embeddings (CE) based on the MultiNet Semantic Network (SN) formalism, which addresses both shortcomings. The evaluation on a marketing target group distribution task showed that the accuracy of predicted target groups can be increased by combining traditional word embeddings with semantic CEs.",
+    "link": "http://arxiv.org/abs/2401.04422",
+    "context": "Title: Estimating Text Similarity based on Semantic Concept Embeddings. (arXiv:2401.04422v1 [cs.CL])\nAbstract: Due to their ease of use and high accuracy, Word2Vec (W2V) word embeddings enjoy great success in the semantic representation of words, sentences, and whole documents as well as for semantic similarity estimation. However, they have the shortcoming that they are directly extracted from a surface representation, which does not adequately represent human thought processes and also performs poorly for highly ambiguous words. Therefore, we propose Semantic Concept Embeddings (CE) based on the MultiNet Semantic Network (SN) formalism, which addresses both shortcomings. The evaluation on a marketing target group distribution task showed that the accuracy of predicted target groups can be increased by combining traditional word embeddings with semantic CEs.",
+    "path": "papers/24/01/2401.04422.json",
+    "total_tokens": 726,
+    "translated_title": "基于语义概念嵌入的文本相似度估计",
+    "translated_abstract": "由于其易用性和高准确性，Word2Vec (W2V) 词嵌入在语义表示中取得了巨大成功，包括单词、句子和整个文档的语义表示以及语义相似度估计。然而，它们的缺点是直接从表面表示中提取，不能充分代表人类思维过程，对于高度歧义的词也表现不佳。因此，我们提出了基于MultiNet语义网络(SN)形式化的语义概念嵌入(CE)，以解决这两个问题。在市场目标群体分布任务的评估中，结果显示将传统词嵌入和语义CE结合可以增加预测目标群组的准确性。",
+    "tldr": "该论文提出了基于MultiNet语义网络的语义概念嵌入方法，结合传统词嵌入可以提高预测目标群组的准确性。"
+}
