@@ -1,0 +1,12 @@
+{
+    "title": "Robust Bond Portfolio Construction via Convex-Concave Saddle Point Optimization. (arXiv:2212.02570v2 [math.OC] UPDATED)",
+    "abstract": "The minimum (worst case) value of a long-only portfolio of bonds, over a convex set of yield curves and spreads, can be estimated by its sensitivities to the points on the yield curve. We show that sensitivity based estimates are conservative, \\ie, underestimate the worst case value, and that the exact worst case value can be found by solving a tractable convex optimization problem. We then show how to construct a long-only bond portfolio that includes the worst case value in its objective or as a constraint, using convex-concave saddle point optimization.",
+    "link": "http://arxiv.org/abs/2212.02570",
+    "context": "Title: Robust Bond Portfolio Construction via Convex-Concave Saddle Point Optimization. (arXiv:2212.02570v2 [math.OC] UPDATED)\nAbstract: The minimum (worst case) value of a long-only portfolio of bonds, over a convex set of yield curves and spreads, can be estimated by its sensitivities to the points on the yield curve. We show that sensitivity based estimates are conservative, \\ie, underestimate the worst case value, and that the exact worst case value can be found by solving a tractable convex optimization problem. We then show how to construct a long-only bond portfolio that includes the worst case value in its objective or as a constraint, using convex-concave saddle point optimization.",
+    "path": "papers/22/12/2212.02570.json",
+    "total_tokens": 711,
+    "translated_title": "通过凸凹鞍点优化构建稳健的债券投资组合",
+    "translated_abstract": "在凸集合上，通过对收益曲线上的点的敏感性估计，可以估计只做多头投资的债券投资组合的最小（最坏情况）价值。我们表明，基于敏感性的估计是保守的，即低估了最坏情况的价值，并且可以通过解一个可行的凸优化问题找到确切的最坏情况价值。然后，我们展示了如何使用凸凹鞍点优化构建一个只包含最坏情况价值的只做多头投资的债券投资组合，可以将最坏情况价值作为目标或约束。",
+    "tldr": "通过凸凹鞍点优化，我们提出了一种稳健的债券投资组合构建方法，可以准确估计和包含最坏情况价值，并将其作为投资组合的目标或约束。",
+    "en_tdlr": "We propose a robust bond portfolio construction method using convex-concave saddle point optimization, which accurately estimates and includes the worst case value, and incorporates it as the objective or constraint of the portfolio."
+}

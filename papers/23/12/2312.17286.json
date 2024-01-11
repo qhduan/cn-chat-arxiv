@@ -1,0 +1,12 @@
+{
+    "title": "Comparative study of clustering models for multivariate time series from connected medical devices. (arXiv:2312.17286v2 [cs.LG] CROSS LISTED)",
+    "abstract": "In healthcare, patient data is often collected as multivariate time series, providing a comprehensive view of a patient's health status over time. While this data can be sparse, connected devices may enhance its frequency. The goal is to create patient profiles from these time series. In the absence of labels, a predictive model can be used to predict future values while forming a latent cluster space, evaluated based on predictive performance. We compare two models on Withing's datasets, M AGMAC LUST which clusters entire time series and DGM${}^2$ which allows the group affiliation of an individual to change over time (dynamic clustering).",
+    "link": "http://arxiv.org/abs/2312.17286",
+    "context": "Title: Comparative study of clustering models for multivariate time series from connected medical devices. (arXiv:2312.17286v2 [cs.LG] CROSS LISTED)\nAbstract: In healthcare, patient data is often collected as multivariate time series, providing a comprehensive view of a patient's health status over time. While this data can be sparse, connected devices may enhance its frequency. The goal is to create patient profiles from these time series. In the absence of labels, a predictive model can be used to predict future values while forming a latent cluster space, evaluated based on predictive performance. We compare two models on Withing's datasets, M AGMAC LUST which clusters entire time series and DGM${}^2$ which allows the group affiliation of an individual to change over time (dynamic clustering).",
+    "path": "papers/23/12/2312.17286.json",
+    "total_tokens": 761,
+    "translated_title": "连接医疗设备的多变量时间序列的聚类模型的比较研究",
+    "translated_abstract": "在医疗保健领域，患者数据通常以多变量时间序列的形式收集，可以全面地反映患者随时间变化的健康状况。虽然这些数据可能是稀疏的，但连接的设备可以增加数据频率。目标是从这些时间序列中创建患者资料。在没有标签的情况下，可以使用预测模型来预测未来值，同时形成一个潜在的聚类空间，并以预测性能为评价指标。我们在Withing的数据集上比较了两个模型，M AGMAC LUST可以对整个时间序列进行聚类，而DGM${}^2$允许个体的群组归属随时间变化（动态聚类）。",
+    "tldr": "这项研究比较了两种针对多变量时间序列的聚类模型，通过预测未来值并形成聚类空间来创建患者资料，其中一种模型可以处理动态群组归属。",
+    "en_tdlr": "This study compares two clustering models for multivariate time series, where patient profiles are created by predicting future values and forming a cluster space, with one model able to handle dynamic group affiliation."
+}

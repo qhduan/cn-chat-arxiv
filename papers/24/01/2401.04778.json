@@ -1,0 +1,12 @@
+{
+    "title": "Generative neural networks for characteristic functions. (arXiv:2401.04778v1 [stat.ML])",
+    "abstract": "In this work, we provide a simulation algorithm to simulate from a (multivariate) characteristic function, which is only accessible in a black-box format. We construct a generative neural network, whose loss function exploits a specific representation of the Maximum-Mean-Discrepancy metric to directly incorporate the targeted characteristic function. The construction is universal in the sense that it is independent of the dimension and that it does not require any assumptions on the given characteristic function. Furthermore, finite sample guarantees on the approximation quality in terms of the Maximum-Mean Discrepancy metric are derived. The method is illustrated in a short simulation study.",
+    "link": "http://arxiv.org/abs/2401.04778",
+    "context": "Title: Generative neural networks for characteristic functions. (arXiv:2401.04778v1 [stat.ML])\nAbstract: In this work, we provide a simulation algorithm to simulate from a (multivariate) characteristic function, which is only accessible in a black-box format. We construct a generative neural network, whose loss function exploits a specific representation of the Maximum-Mean-Discrepancy metric to directly incorporate the targeted characteristic function. The construction is universal in the sense that it is independent of the dimension and that it does not require any assumptions on the given characteristic function. Furthermore, finite sample guarantees on the approximation quality in terms of the Maximum-Mean Discrepancy metric are derived. The method is illustrated in a short simulation study.",
+    "path": "papers/24/01/2401.04778.json",
+    "total_tokens": 732,
+    "translated_title": "利用生成神经网络模拟特征函数",
+    "translated_abstract": "在这项工作中，我们提供了一个模拟算法来从一个（多元）特征函数中模拟，该特征函数仅以黑盒格式可访问。我们构建了一个生成神经网络，其损失函数利用最大均值差异度量的特定表示，直接结合目标特征函数。这种构造具有普遍性，不依赖于维度，并且不需要对给定特征函数进行任何假设。此外，还得出了关于最大均值差异度量的逼近质量的有限样本保证。该方法在一个短期模拟研究中进行了说明。",
+    "tldr": "本论文研究了利用生成神经网络模拟特征函数的问题，并通过构建一个普适且无需假设的生成神经网络来解决。研究基于最大均值差异度量，并提出了有关逼近质量的有限样本保证。",
+    "en_tdlr": "This paper investigates the problem of simulating characteristic functions using generative neural networks and proposes a universal and assumption-free approach by constructing a generative neural network. The research is based on the Maximum-Mean Discrepancy metric and provides finite sample guarantees on the approximation quality."
+}

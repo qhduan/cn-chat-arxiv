@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving Vision Transformer. (arXiv:2401.05126v1 [cs.CV])",
+    "abstract": "We propose a novel method for privacy-preserving deep neural networks (DNNs) with the Vision Transformer (ViT). The method allows us not only to train models and test with visually protected images but to also avoid the performance degradation caused from the use of encrypted images, whereas conventional methods cannot avoid the influence of image encryption. A domain adaptation method is used to efficiently fine-tune ViT with encrypted images. In experiments, the method is demonstrated to outperform conventional methods in an image classification task on the CIFAR-10 and ImageNet datasets in terms of classification accuracy.",
+    "link": "http://arxiv.org/abs/2401.05126",
+    "context": "Title: Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving Vision Transformer. (arXiv:2401.05126v1 [cs.CV])\nAbstract: We propose a novel method for privacy-preserving deep neural networks (DNNs) with the Vision Transformer (ViT). The method allows us not only to train models and test with visually protected images but to also avoid the performance degradation caused from the use of encrypted images, whereas conventional methods cannot avoid the influence of image encryption. A domain adaptation method is used to efficiently fine-tune ViT with encrypted images. In experiments, the method is demonstrated to outperform conventional methods in an image classification task on the CIFAR-10 and ImageNet datasets in terms of classification accuracy.",
+    "path": "papers/24/01/2401.05126.json",
+    "total_tokens": 737,
+    "translated_title": "高效领域适应下的隐私保护视觉Transformer的精调方法",
+    "translated_abstract": "我们提出了一种新颖的方法，用于使用视觉Transformer（ViT）进行隐私保护的深度神经网络（DNN）。该方法不仅可以用视觉保护的图像训练模型并进行测试，而且还可以避免使用加密图像导致的性能下降，而传统方法不能避免图像加密的影响。通过领域适应方法，可以高效地对使用加密图像的ViT进行精细调整。在实验中，该方法在CIFAR-10和ImageNet数据集上的图像分类任务中表现出优于传统方法的分类准确度。",
+    "tldr": "本论文提出了一种高效的领域适应方法，用于训练和测试隐私保护的视觉Transformer模型，并避免了使用加密图像导致的性能下降。实验结果表明，在图像分类任务上，该方法在CIFAR-10和ImageNet数据集上表现出更高的准确度。",
+    "en_tdlr": "This paper proposes an efficient domain adaptation method for training and testing privacy-preserving Vision Transformer models, avoiding performance degradation caused by using encrypted images. Experimental results demonstrate higher accuracy in image classification tasks on CIFAR-10 and ImageNet datasets."
+}

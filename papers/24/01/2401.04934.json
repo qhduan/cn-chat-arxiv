@@ -1,0 +1,12 @@
+{
+    "title": "Fully Decentralized Cooperative Multi-Agent Reinforcement Learning: A Survey. (arXiv:2401.04934v1 [cs.MA])",
+    "abstract": "Cooperative multi-agent reinforcement learning is a powerful tool to solve many real-world cooperative tasks, but restrictions of real-world applications may require training the agents in a fully decentralized manner. Due to the lack of information about other agents, it is challenging to derive algorithms that can converge to the optimal joint policy in a fully decentralized setting. Thus, this research area has not been thoroughly studied. In this paper, we seek to systematically review the fully decentralized methods in two settings: maximizing a shared reward of all agents and maximizing the sum of individual rewards of all agents, and discuss open questions and future research directions.",
+    "link": "http://arxiv.org/abs/2401.04934",
+    "context": "Title: Fully Decentralized Cooperative Multi-Agent Reinforcement Learning: A Survey. (arXiv:2401.04934v1 [cs.MA])\nAbstract: Cooperative multi-agent reinforcement learning is a powerful tool to solve many real-world cooperative tasks, but restrictions of real-world applications may require training the agents in a fully decentralized manner. Due to the lack of information about other agents, it is challenging to derive algorithms that can converge to the optimal joint policy in a fully decentralized setting. Thus, this research area has not been thoroughly studied. In this paper, we seek to systematically review the fully decentralized methods in two settings: maximizing a shared reward of all agents and maximizing the sum of individual rewards of all agents, and discuss open questions and future research directions.",
+    "path": "papers/24/01/2401.04934.json",
+    "total_tokens": 712,
+    "translated_title": "完全分散的合作多智能体强化学习：一项调查",
+    "translated_abstract": "合作多智能体强化学习是解决许多实际合作任务的强大工具，但现实应用的限制可能要求以完全分散的方式训练智能体。由于缺乏其他智能体的信息，要在完全分散的情况下得出可以收敛到最优联合策略的算法是具有挑战性的。因此，这个研究领域还没有得到深入的研究。在本文中，我们系统地回顾了两种设置的完全分散方法：最大化所有智能体的共享奖励和最大化所有智能体的个体奖励的总和，并讨论了开放问题和未来的研究方向。",
+    "tldr": "本文系统地回顾了完全分散的合作多智能体强化学习方法，并讨论了两种不同设置下的算法以及未来的研究方向。",
+    "en_tdlr": "This paper systematically reviews the methods of fully decentralized cooperative multi-agent reinforcement learning and discusses algorithms in two different settings as well as future research directions."
+}

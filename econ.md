@@ -2,232 +2,247 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [World Wine Exports: What Determines the Success of New World Wine Producers?.](http://arxiv.org/abs/2401.04696) | 本文研究了1961年至2005年世界葡萄酒行业的发展情况，发现新兴的葡萄酒生产和出口国家的成功可以通过非生产国家对葡萄酒需求的重要性来解释。 |
-| [^2] | [Effect on New Loan Repayment Fine Clause on Bank Jaya Artha's Customer Satisfaction and Recommendation.](http://arxiv.org/abs/2401.04605) | 对于Jaya Artha银行客户来说，新贷款还款罚款条款的实施引起了很大的投诉，研究旨在评估其对客户满意度和推荐意愿的影响，并提出银行应该采取更加以客户为中心的措施。 |
-| [^3] | [Opportunities to upgrade the scientific disciplines space.](http://arxiv.org/abs/2401.04573) | 学科之间的接近度对比较优势增长率产生积极且显著的影响，尤其是对目前没有比较优势的学科更为显著。 |
-| [^4] | [Ecosystem orchestration practices for industrial firms: A qualitative meta-analysis, framework development and research agenda.](http://arxiv.org/abs/2401.04526) | 本研究通过综合性的质性元分析，揭示了工业企业生态系统编排的实践，并提出了一个名为“搅拌模式”的整合性框架，帮助企业在数字时代维持竞争优势。 |
-| [^5] | [Robust Bayesian Method for Refutable Models.](http://arxiv.org/abs/2401.04512) | 鲁棒的贝叶斯方法适用于可被拒绝的经济模型，经济计量学家可以根据违反程度选择最不确定的假设。 |
-| [^6] | [Should Politicians be Informed? Targeted Benefits and Heterogeneous Voters.](http://arxiv.org/abs/2401.04273) | 该研究比较了政治家有无获取选民数据的情况下对不同类型选民提供公共产品的效果，发现在预算较小或公共产品价值较高时，获取选民信息可以提高贫困选民的福利；而在预算较大或公共产品不那么关键时，政治家会侧重对摇摆选民进行针对性服务，从而损害选民福利。 |
-| [^7] | [Entrepreneurial Intention and UAE Youth: Unique Influencers of Entrepreneurial Intentions in an Emerging Country Context.](http://arxiv.org/abs/2401.04253) | 本研究通过调查阿联酋国内青年对创业的意愿，发现态度、知觉行为控制和主观规范对创业意愿有直接或间接影响，并突出了家庭和社会群体在促进创业意愿中的潜在重要性。 |
-| [^8] | [Optimal National policies towards multinationals when local regions can choose between firm-specific and non-firm-specific policies.](http://arxiv.org/abs/2401.04243) | 本文研究了当地区可以选择特定公司和非特定公司政策时，国家的最优政策。研究发现，实施特定公司政策在福利上更有优势。与此相反，一些人呼吁中央政府禁止这种政策，与本研究的建议相悖。 |
-| [^9] | [Becoming a Knowledge Economy: the Case of Qatar, UAE and 17 Benchmark Countries.](http://arxiv.org/abs/2401.04214) | 本文评估了卡塔尔和阿联酋成为知识经济体的表现，结果显示阿联酋略优于其他国家，而卡塔尔相对较低。建议进一步发展研究文化和改善吸引高素质人才的激励措施。 |
-| [^10] | [Teacher bias or measurement error?.](http://arxiv.org/abs/2401.04200) | 本研究发现，在分配学生到中学阶段时，教师的学术建议对低社会经济地位家庭的学生有偏见。但是，这个偏见可能是由测试成绩的测量误差导致的，测量误差解释了35%到43%的条件SES差距。 |
-| [^11] | [Economic Forces in Stock Returns.](http://arxiv.org/abs/2401.04132) | 该论文研究了股票回报中的系统性经济力量，并通过归因模型分析了工业生产、通胀变化、风险溢酬、期限结构等因素对股票回报的重要贡献。 |
-| [^12] | [Identification of Dynamic Nonlinear Panel Models under Partial Stationarity.](http://arxiv.org/abs/2401.00264) | 本文研究了动态非线性面板模型的识别问题，在部分稳定性条件下提出了一个适用于各种限制依赖变量模型的识别策略，并通过模拟和实证应用验证了该方法的鲁棒性和性能。 |
-| [^13] | [Dynamic Transportation of Economic Agents.](http://arxiv.org/abs/2303.12567) | 本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。 |
-| [^14] | [The Psychology of Mineral Wealth: Empirical Evidence from Kazakhstan.](http://arxiv.org/abs/2204.03948) | 这篇论文是第一篇实证分析资源富裕国家资源管理心理基础的研究，通过调查发现，寻租和过度依赖矿产收入主要可以归因于社会心理学。矿产繁荣会导致不切实际的需求和推迟生产性投资。 |
-| [^15] | [On the Nuisance of Control Variables in Regression Analysis.](http://arxiv.org/abs/2005.10314) | 本文认为，回归分析中的控制变量，即使是有效的，也很难有因果解释。因此，建议不要解释控制变量的效应，而是专注于可以建立合理识别论证的主要变量。此外，为了防止错误的管理或政策含义，应明确标记控制变量的系数无法进行因果解释，或者完全从回归表中省略它们。同时，不建议将控制变量的估计用于后续理论建模和元分析中。 |
+| [^1] | [Tournaments, Contestant Heterogeneity and Performance.](http://arxiv.org/abs/2401.05210) | 本文使用实地数据研究发现，选手之间的技能差异对绩效产生不对称影响，对低能选手有负面影响，对高能选手有正面影响。同时讨论了行为方法的解释和竞赛设计的最优影响。 |
+| [^2] | [Can unions impose costs on employers in education strikes? Evidence from pension disputes in UK universities.](http://arxiv.org/abs/2401.05183) | 该研究调查了英国大学在2018年至2022年期间的教育罢工对雇主的影响，发现工会可以对大学雇主造成实质性但间接的成本，表现为学生满意度下降等结果。 |
+| [^3] | [Is there a size premium for nations?.](http://arxiv.org/abs/2401.05116) | 本文研究了国家规模是否存在溢价。通过对200个国家50年的面板数据进行分析，作者发现小国相对于大国更富有，政府规模更大，并且在财政政策方面更加谨慎。然而，小国对于提供基本公共产品需要承担更高的成本，这可能降低其在健康和教育等社会经济方面的表现。在经济方面，小国通过依赖外贸和外直接投资来弥补规模上的不利，但也增加了对外冲击的脆弱性。 |
+| [^4] | [Behind the Eastern-Western European convergence path: the role of geography and trade liberalization.](http://arxiv.org/abs/2401.05107) | 本文通过一个经济地理模型，研究东欧转型经济体在1990年至2005年期间的经济发展趋势，发现与现有文献不同，贸易自由化是唯一的推动力量。该模型在预测上能够解释东欧的GDP收敛路径。 |
+| [^5] | [Partition-form Cooperative Games in Two-Echelon Supply Chains.](http://arxiv.org/abs/2401.04939) | 本论文研究了两级供应链中的分割形式合作博弈。研究发现，在产品是必需品且客户没有偏好地从任一制造商购买时，大联盟是不稳定的。 |
+| [^6] | [A Deep Learning Representation of Spatial Interaction Model for Resilient Spatial Planning of Community Business Clusters.](http://arxiv.org/abs/2401.04849) | 本研究提出了一个SIM-GAT模型，可以捕捉商业集群与贸易区之间复杂的互动关系。我们使用连通图表示综合系统，并利用Graph AttenTion network模型进行深度学习，从而提高了传统SIM的预测和分析能力。 |
+| [^7] | [The inherent goodness of well educated intelligence.](http://arxiv.org/abs/2401.04846) | 本文探讨了智能体变得智能的因素，强调了掌握特征和控制多个保守相互作用的子系统的能力。智能的核心是“集体如一体”和“了解局部行动的整体结果”。文章提出了一种对集体保守系统进行控制的替代方法。 |
+| [^8] | [IV Estimation of Panel Data Tobit Models with Normal Errors.](http://arxiv.org/abs/2401.04803) | 该论文提出了一种在面板数据Tobit模型中使用正态误差的IV估计方法，该方法由Amemiya (1973)提出的一致初始估计器改进而来。该方法可以应用于之前未被考虑的模型。 |
+| [^9] | [Revealed comparative advantages in scientific and technological disciplines in Uruguay.](http://arxiv.org/abs/2401.04752) | 本文基于Scopus的文献信息，研究了乌拉圭科学生产的特点，并确定了乌拉圭在各学科中的比较优势。乌拉圭在健康科学领域的兽医、护理和医学方面具有比较优势；在生命科学领域的农业和生物科学、免疫学和微生物学以及生物化学、遗传学和分子生物学方面具有比较优势；在物理科学领域只有一个领域具有比较优势。 |
+| [^10] | [Contextual Fixed-Budget Best Arm Identification: Adaptive Experimental Design with Policy Learning.](http://arxiv.org/abs/2401.03756) | 该论文研究了个性化治疗推荐的问题，提出了一个上下文固定预算的最佳臂识别模型，通过自适应实验设计和策略学习来推荐最佳治疗方案，并通过最坏情况下的期望简单遗憾来衡量推荐的有效性。 |
+| [^11] | [Structural Analysis of Vector Autoregressive Models.](http://arxiv.org/abs/2312.06402) | 这份讲义主要讨论了应用宏观经济计量学高级课程中矢量自回归模型的结构分析的关键概念。 |
+| [^12] | [Climate, Crops, and Postharvest Conflict.](http://arxiv.org/abs/2311.16370) | 本研究提供了关于气候冲击对冲突的新证据，表明El Niño事件对农作物生长季和采摘后期的农田中的政治暴力具有负面影响。具体而言，中强度El Niño事件导致的海面温度上升1°C将至少减少三个百分点的政治暴力与针对平民的冲突。这一发现支持了农业作为连接气候冲击和政治暴力之间关键途径的观点。 |
+| [^13] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
+| [^14] | [Approximating the set of Nash equilibria for convex games.](http://arxiv.org/abs/2310.04176) | 本文研究了近似计算凸博弈中的纳什均衡解集合，证明了纳什均衡解集合可以等价地表示为多个多目标问题的帕累托最优点的交集。 |
+| [^15] | [Arbitrageurs' profits, LVR, and sandwich attacks: batch trading as an AMM design response.](http://arxiv.org/abs/2307.02074) | 本研究介绍了一种自动化市场制造商（AMM）的设计响应——使用批量交易。通过批量交易以边际价格进行交易，使得AMM能够最大化其功能，并消除套利利润和夹心攻击的问题。研究使用币安价格数据进行模拟，结果显示，提供流动性给AMM的收益下限与在Uniswap v3上提供流动性的实际收益非常接近。 |
+| [^16] | [Two-Person Bargaining when the Disagreement Point is Private Information.](http://arxiv.org/abs/2211.06830) | 当分歧点是私人信息时的两人博弈问题，该研究表明，在帕累托前沿线性的情况下，后效率机制的结果不能取决于分歧的支付，而在前沿非线性的情况下，该结果仍然成立。 |
 
 # 详细
 
-[^1]: 世界葡萄酒出口：什么决定了新世界葡萄酒生产国的成功？
+[^1]: 锦标赛、选手异质性和绩效
 
-    World Wine Exports: What Determines the Success of New World Wine Producers?. (arXiv:2401.04696v1 [econ.GN])
+    Tournaments, Contestant Heterogeneity and Performance. (arXiv:2401.05210v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.04696](http://arxiv.org/abs/2401.04696)
+    [http://arxiv.org/abs/2401.05210](http://arxiv.org/abs/2401.05210)
 
-    本文研究了1961年至2005年世界葡萄酒行业的发展情况，发现新兴的葡萄酒生产和出口国家的成功可以通过非生产国家对葡萄酒需求的重要性来解释。
-
-    
-
-    本文采用计量经济学方法研究了1961年至2005年间世界葡萄酒行业的发展情况。一个重要的事实是，在90年代初期出现了非传统的葡萄酒生产和出口国家。我们发现，这些新兴的生产和出口国家的成功可以通过非生产国家对葡萄酒需求的重要性来解释，这些非生产国家在葡萄酒消费方面几乎没有传统，相对于世界需求而言。这个事实符合转换成本文献的可检验推论，我们据我们所知，这是第一次对这个推论进行检验。
-
-    By using an econometric approach this paper looks at the evolution of the world wine industry in the period 1961-2005. A particular stylized fact is the appearance of nontraditional producing and exporting countries of wine from the beginning of the nineties. We show that the success of these new producing and exporting countries can be explained by the importance of the demand from non-producing countries with little or no tradition of wine consumption, relative to the world demand. This stylized fact is consistent with a testable implication of the switching cost literature and to the best of our knowledge this is the first time that this implication is tested.
-    
-[^2]: 对Jaya Artha银行客户满意度和推荐影响的新贷款还款罚款条款效果
-
-    Effect on New Loan Repayment Fine Clause on Bank Jaya Artha's Customer Satisfaction and Recommendation. (arXiv:2401.04605v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.04605](http://arxiv.org/abs/2401.04605)
-
-    对于Jaya Artha银行客户来说，新贷款还款罚款条款的实施引起了很大的投诉，研究旨在评估其对客户满意度和推荐意愿的影响，并提出银行应该采取更加以客户为中心的措施。
+    本文使用实地数据研究发现，选手之间的技能差异对绩效产生不对称影响，对低能选手有负面影响，对高能选手有正面影响。同时讨论了行为方法的解释和竞赛设计的最优影响。
 
     
 
-    在印度尼西亚这个世界第四人口大国老龄人口的增长下，养老金业务逐渐兴盛，包括银行业。 PT Bank Jaya Artha是印尼的一家银行，为即将退休的人提供产品和服务。由于养老金业务市场的竞争激烈，从2019年开始，Jaya Artha银行对计划偿还债务的客户实行了罚款制度，罚款金额为尚未偿还债务的5%加上三倍分期付款额，以防止客户转而去竞争对手。虽然此条款不包含在实施前签署的贷款协议中，却也适用于过去的贷款协议，这导致客户的投诉。该研究旨在了解未经同意的条款实施对客户满意度和推荐意愿的影响，以及银行应该采取什么措施来更加以客户为中心。
+    锦标赛经常被用作激励机制来提高绩效。本文使用实地数据，并展示了选手之间的技能差异对选手绩效的不对称影响。技能差异对低能选手的绩效有负面影响，但对高能选手的绩效有正面影响。我们讨论了不同行为方法来解释我们的研究结果，并讨论了结果对竞赛的最优设计的影响。此外，我们的研究揭示了两个重要的实证结果：(a) 象争取平权政策可能有助于减轻低能选手的不利影响，(b) 后续比赛阶段潜在未来选手的技能水平可能对高能选手的绩效产生不利影响，但不会影响低能选手。
 
-    The growing population of older people in Indonesia--the world's fourth-most populous country--makes a larger cake for the pension business, including in the banking sector. PT Bank Jaya Artha is one of the Indonesian banks that provide products and services for people who are set to enter retirement age. In the wake of tight competition in the pension business market, Bank Jaya Artha has since 2019 imposed a fine of three times of installments in addition to 5% of outstanding debt on customers planning to repay their debt in a mission to prevent them from leaving for competitors. While the clause is not included in loan agreements signed before the implementation, it applies to past loan agreements as well. This, in turn, has led to customer complaints. The research is meant to find out how the implementation of the unconsented clause has affected customer satisfaction and willingness to recommend the bank and what the bank should do to become more customer-centric, according to custo
+    Tournaments are frequently used incentive mechanisms to enhance performance. In this paper, we use field data and show that skill disparities among contestants asymmetrically affect the performance of contestants. Skill disparities have detrimental effects on the performance of the lower-ability contestant but positive effects on the performance of the higher-ability contestant. We discuss the potential of different behavioral approaches to explain our findings and discuss the implications of our results for the optimal design of contests. Beyond that, our study reveals two important empirical results: (a) affirmative action-type policies may help to mitigate the adverse effects on lower-ability contestants, and (b) the skill level of potential future contestants in subsequent tournament stages can detrimentally influence the performance of higher-ability contestants but does not affect the lower-ability contestant.
     
-[^3]: 升级科学学科空间的机会
+[^2]: 在教育罢工中，工会对雇主是否会造成成本？以英国大学养老金纠纷为例的证据。
 
-    Opportunities to upgrade the scientific disciplines space. (arXiv:2401.04573v1 [econ.GN])
+    Can unions impose costs on employers in education strikes? Evidence from pension disputes in UK universities. (arXiv:2401.05183v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.04573](http://arxiv.org/abs/2401.04573)
+    [http://arxiv.org/abs/2401.05183](http://arxiv.org/abs/2401.05183)
 
-    学科之间的接近度对比较优势增长率产生积极且显著的影响，尤其是对目前没有比较优势的学科更为显著。
-
-    
-
-    在某个科学领域生成的知识可能会溢出到其他相关的科学学科中，并提升性能。我们使用来自SCImago数据库的文献计量数据，并根据比较优势揭示（RCA）构建了一个学科之间的接近度指标。我们的估计结果表明，学科之间的接近度对比较优势增长率产生积极且显著的影响。这种影响在目前没有比较优势的学科上更为显著。
-
-    Knowledge generated in a given scientific domain may spill over into other close scientific disciplines, thereby improving performance. Using bibliometric data from the SCImago database drawn from a sample of 174 countries, we implement a measure of proximity based on revealed comparative advantage (RCA). Our estimates show that proximity between disciplines positively and significantly affects the RCA growth rate. This impact is larger on disciplines that currently do not have RCA.
-    
-[^4]: 工业企业的生态系统编排实践：质性元分析、框架开发和研究议程
-
-    Ecosystem orchestration practices for industrial firms: A qualitative meta-analysis, framework development and research agenda. (arXiv:2401.04526v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.04526](http://arxiv.org/abs/2401.04526)
-
-    本研究通过综合性的质性元分析，揭示了工业企业生态系统编排的实践，并提出了一个名为“搅拌模式”的整合性框架，帮助企业在数字时代维持竞争优势。
+    该研究调查了英国大学在2018年至2022年期间的教育罢工对雇主的影响，发现工会可以对大学雇主造成实质性但间接的成本，表现为学生满意度下降等结果。
 
     
 
-    本研究探讨了工业企业生态系统编排的动态领域，并强调其在数字时代维持竞争优势中的重要性。对于这个重要主题的零散研究给企业在生态系统编排方面的导航和利用带来了挑战。为了弥合这个知识缺口，我们进行了31个案例研究的综合性质性元分析，并确定了工业企业使用的多方面编排实践。本研究的核心贡献是阐明了五个相互依赖但互相关联的编排实践：战略设计、关系、资源整合、技术和创新。这些实践被综合成一个名为“搅拌模式”的整合性框架，作为编排实践的实用指南。此外，概念框架澄清了被识别实践之间的协同效应，并突出了它们的集体。
+    研究教育机构，特别是大学罢工对雇主的影响仍然不足。本文调查了2018年至2022年英国大学的教育罢工对雇主的影响，主要是因为养老金纠纷。利用《卫报大学指南》和2014年和2021年的研究卓越框架的数据及差异分析和回归不连续法，我们的研究结果表明，在一些与学生有关的结果上出现了显著下降，如学生满意度，而学生成绩和研究绩效的情况则较为复杂。这些结果突显出工会在罢工期间对大学雇主造成的实质性但间接的成本。
 
-    This study ventures into the dynamic realm of ecosystem orchestration for industrial firms, emphasizing its significance in maintaining competitive advantage in the digital era. The fragmented research on this important subject poses challenges for firms aiming to navigate and capitalize on ecosystem orchestration. To bridge this knowledge gap, we conducted a comprehensive qualitative meta-analysis of 31 case studies and identified multifaceted orchestration practices employed by industrial firms. The core contribution of this research is the illumination of five interdependent but interrelated orchestration practices: strategic design, relational, resource integration, technological, and innovation. Together, these practices are synthesized into an integrative framework termed the "Stirring Model," which serves as a practical guide to the orchestration practices. Furthermore, the conceptual framework clarifies the synergy between the identified practices and highlights their collectiv
+    The impact of strikes in educational institutions, specifically universities, on employers remains understudied. This paper investigates the impact of education strikes in UK universities from 2018 to 2022, primarily due to pension disputes. Using data from the Guardian University Guide and the 2014 and 2021 Research Excellence Frameworks and leveraging difference-in-differences and regression discontinuity approaches, our findings suggest significant declines in several student related outcomes, such as student satisfaction, and a more mixed picture for student attainment and research performance. These results highlight the substantial, albeit indirect, cost unions can impose on university employers during strikes.
     
-[^5]: 鲁棒的贝叶斯方法用于可证伪模型
+[^3]: 国家规模是否存在溢价？
 
-    Robust Bayesian Method for Refutable Models. (arXiv:2401.04512v1 [econ.EM])
+    Is there a size premium for nations?. (arXiv:2401.05116v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.04512](http://arxiv.org/abs/2401.04512)
+    [http://arxiv.org/abs/2401.05116](http://arxiv.org/abs/2401.05116)
 
-    鲁棒的贝叶斯方法适用于可被拒绝的经济模型，经济计量学家可以根据违反程度选择最不确定的假设。
-
-    
-
-    我们提出了一种鲁棒的贝叶斯方法，适用于在某些数据分布下可被拒绝的经济模型。计量经济学家首先基于某种结构性假设，该假设可以被写成几个假设的交集，这个联合假设是可证伪的。为了避免模型被拒绝，经济计量学家首先选择可能被违反的假设$j$，并考虑违反这个假设$j$的程度的度量。然后她考虑对违反程度$(\pi_{m_j})$的（边际）先验偏好：她考虑了一类先验分布$\pi_s$，这些分布对所有经济结构都有相同的边际分布$\pi_m$。与将单一先验放在所有经济结构上的标准非参数贝叶斯方法相比，鲁棒的贝叶斯方法对违反程度施加了单一的边际先验分布。因此，鲁棒的贝叶斯方法允许经济计量学家仅对最不确定的假设采取立场。
-
-    We propose a robust Bayesian method for economic models that can be rejected under some data distributions. The econometrician starts with a structural assumption which can be written as the intersection of several assumptions, and the joint assumption is refutable. To avoid the model rejection, the econometrician first takes a stance on which assumption $j$ is likely to be violated and considers a measurement of the degree of violation of this assumption $j$. She then considers a (marginal) prior belief on the degree of violation $(\pi_{m_j})$: She considers a class of prior distributions $\pi_s$ on all economic structures such that all $\pi_s$ have the same marginal distribution $\pi_m$. Compared to the standard nonparametric Bayesian method that puts a single prior on all economic structures, the robust Bayesian method imposes a single marginal prior distribution on the degree of violation. As a result, the robust Bayesian method allows the econometrician to take a stance only on th
-    
-[^6]: 政治家应该被告知吗？目标福利和异质选民。
-
-    Should Politicians be Informed? Targeted Benefits and Heterogeneous Voters. (arXiv:2401.04273v1 [econ.TH])
-
-    [http://arxiv.org/abs/2401.04273](http://arxiv.org/abs/2401.04273)
-
-    该研究比较了政治家有无获取选民数据的情况下对不同类型选民提供公共产品的效果，发现在预算较小或公共产品价值较高时，获取选民信息可以提高贫困选民的福利；而在预算较大或公共产品不那么关键时，政治家会侧重对摇摆选民进行针对性服务，从而损害选民福利。
+    本文研究了国家规模是否存在溢价。通过对200个国家50年的面板数据进行分析，作者发现小国相对于大国更富有，政府规模更大，并且在财政政策方面更加谨慎。然而，小国对于提供基本公共产品需要承担更高的成本，这可能降低其在健康和教育等社会经济方面的表现。在经济方面，小国通过依赖外贸和外直接投资来弥补规模上的不利，但也增加了对外冲击的脆弱性。
 
     
 
-    在一个模型中，我们比较了两种情况：政治家向异质选民提供地方公共产品，一种情况是政治家可以获取选民数据从而对特定选民进行针对性服务，另一种情况是政治家仅仅决定支出水平。当预算较小或公共产品价值较高时，政治家能够获取选民信息导致胜利者关注更贫困的选民，提高选民福利。然而，如果预算较大或公共产品不那么关键，政治家会针对一小群摇摆选民，这会损害选民福利。
+    本文研究了国家规模是否存在溢价。我们研究了在某些社会经济指标方面，小国和大国之间是否存在显著的收益差异，并且这种溢价有多大。利用50年来200个国家的面板数据，我们估计了各个国家规模对多种经济和社会经济绩效指标的溢价。我们发现，相对于大国，小国更富有，政府规模更大，并且在财政政策方面更加谨慎。但是，小国似乎需要承担更高的公共产品提供的绝对成本和人均成本，这可能降低它们在健康和教育等社会经济绩效方面的表现。在经济绩效方面，小国似乎比大国表现更好，通过依赖外贸和外直接投资来弥补规模小的不利。后者的代价是更高的对外冲击的脆弱性。
 
-    We compare two scenarios in a model where politicians offer local public goods to heterogeneous voters: one where politicians have access to data on voters and thus can target specific ones, and another where politicians only decide on the level of spending. When the budget is small, or the public good has a high value, access to voter information leads the winner to focus on poorer voters, enhancing voter welfare. With a larger budget or less crucial public goods, politicians target a narrow group of swing voters, which harms the voter welfare.
+    This paper examines whether there is a premium in country size. We study whether there are significant gains from being a small or a large country in terms of certain socioeconomic indicators and how large this premium is. Using panel data for 200 countries over 50 years, we estimate premia for various sizes of nations across a variety of key economic and socioeconomic performance indicators. We find that smaller countries are richer, have larger governments, and are more prudent in terms of fiscal policies than larger ones. On the other hand, smaller countries seem to be subject to higher absolute and per capita costs for the provision of essential public goods, which may lower their socioeconomic performance in terms of health and education. In terms of economic performance, small countries seem to do better than large countries, compensating for smallness by relying on foreign trade and foreign direct investment. The latter comes at the cost of higher vulnerability to external shock
     
-[^7]: 创业意愿和阿联酋青年：在新兴国家背景下创业意愿的独特影响因素
+[^4]: 东欧-西欧收敛路径背后的地理和贸易自由化作用
 
-    Entrepreneurial Intention and UAE Youth: Unique Influencers of Entrepreneurial Intentions in an Emerging Country Context. (arXiv:2401.04253v1 [econ.GN])
+    Behind the Eastern-Western European convergence path: the role of geography and trade liberalization. (arXiv:2401.05107v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.04253](http://arxiv.org/abs/2401.04253)
+    [http://arxiv.org/abs/2401.05107](http://arxiv.org/abs/2401.05107)
 
-    本研究通过调查阿联酋国内青年对创业的意愿，发现态度、知觉行为控制和主观规范对创业意愿有直接或间接影响，并突出了家庭和社会群体在促进创业意愿中的潜在重要性。
-
-    
-
-    阿联酋是一个年轻且富有的国家，国内青年明显更倾向于选择公共部门就业。不断增长的青年失业率强调非政府就业的重要性，包括创业。本研究通过计划行为理论和创业意愿问卷（EIQ）调查了阿联酋国内青年对创业的意愿。分析结果（N=544）表明态度和知觉行为控制直接影响创业意愿，而主观规范则间接影响创业意愿。研究结果还调查了几个人口统计变量，并突出了家庭和社会群体在促进这个新兴国家背景下创业意愿中的潜在重要性。
-
-    The United Arab Emirates (UAE) is a young, oil-rich country, where national youth display a clear preference for public sector employment. Growing youth unemployment reinforces the importance of non-government employment, including entrepreneurship. This study investigates UAE national youth intentions towards entrepreneurship through the Theory of Planned Behavior and the Entrepreneurial Intention Questionnaire (EIQ). Analysis (N=544) identifies the direct influence of attitude and perceived behavioral control, and indirect influence of subjective norms on entrepreneurship intention. Results also examine several demographic variables and highlight the potential importance of family and social groups in promoting entrepreneurial intentions in this emerging country context.
-    
-[^8]: 当地区可以在特定公司和非特定公司政策之间选择时，对跨国公司的最优国家政策
-
-    Optimal National policies towards multinationals when local regions can choose between firm-specific and non-firm-specific policies. (arXiv:2401.04243v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.04243](http://arxiv.org/abs/2401.04243)
-
-    本文研究了当地区可以选择特定公司和非特定公司政策时，国家的最优政策。研究发现，实施特定公司政策在福利上更有优势。与此相反，一些人呼吁中央政府禁止这种政策，与本研究的建议相悖。
+    本文通过一个经济地理模型，研究东欧转型经济体在1990年至2005年期间的经济发展趋势，发现与现有文献不同，贸易自由化是唯一的推动力量。该模型在预测上能够解释东欧的GDP收敛路径。
 
     
 
-    本文研究了一个国家在其两个相同的地区竞争吸引足不出户的跨国公司到他们的地方的情况下，国家的最优中央政府政策。考虑到现实性，本模型允许地区在特定公司和非特定公司政策之间进行选择。我们展示了实施地区特定公司政策在福利上是优势的。因此，对中央政府禁止前一类型政策的频繁呼吁与本文的建议相悖。
+    本文提出了一个包括两个区块和三个地区的经济地理模型，可以解释东欧转型经济体在1990年至2005年期间经历的最显著的事实。与现有文献不同，本文认为贸易自由化是唯一的推动力量，而非技术因素。该模型正确预测到在这一时期的前半段，贸易自由化导致了西部和东部以及东部内部的人均GDP的分化。与数据一致，这一过程在后半段得以逆转，收敛成为主导力量。
 
-    This paper looks at a country's optimal central-government optimal policy in a setting where its two identical local jurisdictions compete to attract footloose multinationals to their sites, and where the considered multinationals strictly prefer this country to the rest of the world. For the sake of realism the model allows the local jurisdictions to choose between firm-specific and non-firm-specific policies. We show that the implementation of the jurisdictional firm-specific policy is weakly welfare dominant. Hence the frequent calls for the central government to ban the former type of policies go against the advice of this paper.
+    This paper proposes a two blocks and three regions economic geography model that can account for the most salient stylized facts experienced by Eastern European transition economies during the period 1990 2005. In contrast to the existing literature, which has favored technological explanations, trade liberalization is the only driving force. The model correctly predicts that in the first half of the period, trade liberalization led to divergence in GDP per capita, both between the West and the East and within the East. Consistent with the data, in the second half of the period, this process was reversed and convergence became the dominant force.
     
-[^9]: 成为知识经济体的案例：卡塔尔、阿联酋和17个基准国家
+[^5]: 两级供应链中的分割形式合作博弈
 
-    Becoming a Knowledge Economy: the Case of Qatar, UAE and 17 Benchmark Countries. (arXiv:2401.04214v1 [econ.GN])
+    Partition-form Cooperative Games in Two-Echelon Supply Chains. (arXiv:2401.04939v1 [econ.TH])
 
-    [http://arxiv.org/abs/2401.04214](http://arxiv.org/abs/2401.04214)
+    [http://arxiv.org/abs/2401.04939](http://arxiv.org/abs/2401.04939)
 
-    本文评估了卡塔尔和阿联酋成为知识经济体的表现，结果显示阿联酋略优于其他国家，而卡塔尔相对较低。建议进一步发展研究文化和改善吸引高素质人才的激励措施。
-
-    
-
-    本文通过与17个基准国家进行比较，评估了卡塔尔和阿联酋在成为知识经济体方面的表现。通过一个包括信息和通信技术、教育、创新以及经济和制度四个支柱的框架，得出结果显示阿联酋略优于19个比较国家的中位数排名，而卡塔尔相对较低。结果还表明，这两个国家在知识经济领导者之后严重落后，尤其在创新方面。政策建议主要针对进一步发展研究文化以及改善吸引顶尖研究人员和高素质工作者的激励措施。
-
-    This paper assesses the performance of Qatar and the United Arab Emirates (UAE) in terms of their achievements towards becoming knowledge-based economies. This is done through a comparison against 17 benchmark countries using a four pillars' framework comprising; (1) information and communication technology, (2) education, (3) innovation and (4) economy and regime. Results indicate that the UAE ranks slightly better than the median rank of the 19 compared countries while Qatar ranks somewhat below. Results also indicate that both countries lag considerably behind knowledge economy leaders; particularly evidenced in the innovation pillar. Policy recommendations are mainly addressed at further developing the two countries' research culture as well as improving the incentives to attract top quality researchers and highly talented workers.
-    
-[^10]: 教师偏见还是测量误差？
-
-    Teacher bias or measurement error?. (arXiv:2401.04200v1 [econ.EM])
-
-    [http://arxiv.org/abs/2401.04200](http://arxiv.org/abs/2401.04200)
-
-    本研究发现，在分配学生到中学阶段时，教师的学术建议对低社会经济地位家庭的学生有偏见。但是，这个偏见可能是由测试成绩的测量误差导致的，测量误差解释了35%到43%的条件SES差距。
+    本论文研究了两级供应链中的分割形式合作博弈。研究发现，在产品是必需品且客户没有偏好地从任一制造商购买时，大联盟是不稳定的。
 
     
 
-    在许多国家，教师的学术建议用于将学生分配到不同的中学阶段。先前的研究表明，低社会经济地位（SES）家庭的学生在标准化考试成绩相同的情况下，与高SES家庭的同龄人相比，他们得到的学术建议较低。通常认为这可能是教师的偏见。然而，如果存在测试成绩的测量误差，这个论断是无效的。本文讨论了测试成绩的测量误差如何导致条件SES差距的偏误，并考虑了三种实证策略来解决这种偏误。使用荷兰的行政数据，我们发现测量误差解释了学术建议中条件SES差距的35%到43%。
+    竞争和合作是任何多级供应链的固有特征。同一级别的代理之间的互动以及不同级别之间的互动影响了市场需求在各级别之间的传导。代理可能希望与其他人合作，以吸引更高的需求并改善自己的收入。我们考虑一个供应商（在更高的级别上）和两个制造商（在更低的级别上，并面向客户），研究“稳定”的协作；与供应链文献中现有研究的主要区别是考虑以下关键方面 - 任何协作单位的收入也取决于对手的协作方式。这样的竞争场景可以使用所谓的分割博弈模型化。我们的研究发现，当产品是必需品且客户从任一制造商购买产品时，大联盟是不稳定的。
 
-    In many countries, teachers' track recommendations are used to allocate students to secondary school tracks. Previous studies have shown that students from families with low socioeconomic status (SES) receive lower track recommendations than their peers from high SES families, conditional on standardized test scores. It is often argued this indicates teacher bias. However, this claim is invalid in the presence of measurement error in test scores. We discuss how measurement error in test scores generates a biased coefficient of the conditional SES gap, and consider three empirical strategies to address this bias. Using administrative data from the Netherlands, we find that measurement error explains 35 to 43% of the conditional SES gap in track recommendations.
+    Competition and cooperation are inherent features of any multi-echelon supply chain. The interactions among the agents across the same echelon and that across various echelons influence the percolation of market demand across echelons. The agents may want to collaborate with others in pursuit of attracting higher demand and thereby improving their own revenue. We consider one supplier (at a higher echelon) and two manufacturers (at a lower echelon and facing the customers) and study the collaborations that are `stable'; the main differentiator from the existing studies in supply chain literature is the consideration of the following crucial aspect -- the revenue of any collaborative unit also depends upon the way the opponents collaborate. Such competitive scenarios can be modeled using what is known as partition form games.  Our study reveals that the grand coalition is not stable when the product is essential and the customers buy it from any of the manufacturers without a preference
     
-[^11]: 股票回报中的经济因素
+[^6]: 深度学习表示空间交互模型以实现社区商业集群的弹性空间规划
 
-    Economic Forces in Stock Returns. (arXiv:2401.04132v1 [econ.GN])
+    A Deep Learning Representation of Spatial Interaction Model for Resilient Spatial Planning of Community Business Clusters. (arXiv:2401.04849v1 [econ.EM])
 
-    [http://arxiv.org/abs/2401.04132](http://arxiv.org/abs/2401.04132)
+    [http://arxiv.org/abs/2401.04849](http://arxiv.org/abs/2401.04849)
 
-    该论文研究了股票回报中的系统性经济力量，并通过归因模型分析了工业生产、通胀变化、风险溢酬、期限结构等因素对股票回报的重要贡献。
-
-    
-
-    在分析影响股票价格的因素时，普遍认为经济活动起着重要作用。具体而言，资产价格更敏感于对整个市场产生普遍影响的系统性经济新闻。此外，投资者在承担特异风险时不会得到回报，因为这些风险是可以通过分散投资来消除的。在论文《经济力量和股市1986》中，作者引入了一个归因模型来识别影响市场的具体系统性经济力量。他们首先从先前的研究论文中定义和检验了五个经典因素：工业生产、预期外因通胀、预期内因通胀变化、风险溢酬和期限结构。通过逐一添加新的因素，市场指数、消费和石油价格，他们研究了每个因素对股票回报的重要贡献。该论文得出结论：股票回报暴露于系统性经济力量。
-
-    When analyzing the components influencing the stock prices, it is commonly believed that economic activities play an important role. More specifically, asset prices are more sensitive to the systematic economic news that impose a pervasive effect on the whole market. Moreover, the investors will not be rewarded for bearing idiosyncratic risks as such risks are diversifiable. In the paper Economic Forces and the Stock Market 1986, the authors introduced an attribution model to identify the specific systematic economic forces influencing the market. They first defined and examined five classic factors from previous research papers: Industrial Production, Unanticipated Inflation, Change in Expected Inflation, Risk Premia, and The Term Structure. By adding in new factors, the Market Indices, Consumptions and Oil Prices, one by one, they examined the significant contribution of each factor to the stock return. The paper concluded that the stock returns are exposed to the systematic economic
-    
-[^12]: 识别部分稳定性下的动态非线性面板模型
-
-    Identification of Dynamic Nonlinear Panel Models under Partial Stationarity. (arXiv:2401.00264v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2401.00264](http://arxiv.org/abs/2401.00264)
-
-    本文研究了动态非线性面板模型的识别问题，在部分稳定性条件下提出了一个适用于各种限制依赖变量模型的识别策略，并通过模拟和实证应用验证了该方法的鲁棒性和性能。
+    本研究提出了一个SIM-GAT模型，可以捕捉商业集群与贸易区之间复杂的互动关系。我们使用连通图表示综合系统，并利用Graph AttenTion network模型进行深度学习，从而提高了传统SIM的预测和分析能力。
 
     
 
-    本文研究了一系列非线性面板数据模型的识别问题，包括二元选择、有序反应以及其他类型的有限依赖变量模型。我们的方法适用于具有任意滞后依赖变量和其他类型（可能是同时期）内生性的动态模型。我们的识别策略基于部分稳定性条件，该条件不仅允许错误的未知分布，还允许错误的时间依赖性。我们在灵活的模型规范下得到了部分识别结果，并提供了额外的支持条件，以实现点识别。通过蒙特卡洛模拟，我们展示了我们的方法在有限样本下的鲁棒性能，并使用各种有序选择模型对收入类别的实证应用进行了分析。
+    现有的空间交互模型（SIM）在捕捉商业集群与贸易区之间复杂的、与环境相关的互动方面存在局限性。为了解决这个问题，我们提出了一个SIM-GAT模型，用于预测社区商业集群与其贸易区之间的时空访问流量。该模型创新地使用连通图表示城市地区内的商业集群、贸易区和交通基础设施的综合系统。然后，使用基于图的深度学习模型，即Graph AttenTion network (GAT)，来捕捉商业集群的复杂性和相互依赖关系。我们使用佛罗里达州迈阿密都市区收集的数据开发了这个模型。然后，我们使用可解释的AI方法证明了其在捕捉不同居民社区对商业集群的吸引力以及不同情景下的有效性。我们对预测和分析传统SIM的新方法进行了贡献。
 
-    This paper studies identification for a wide range of nonlinear panel data models, including binary choice, ordered repsonse, and other types of limited dependent variable models. Our approach accommodates dynamic models with any number of lagged dependent variables as well as other types of (potentially contemporary) endogeneity. Our identification strategy relies on a partial stationarity condition, which not only allows for an unknown distribution of errors but also for temporal dependencies in errors. We derive partial identification results under flexible model specifications and provide additional support conditions for point identification. We demonstrate the robust finite-sample performance of our approach using Monte Carlo simulations, and apply the approach to analyze the empirical application of income categories using various ordered choice models.
+    Existing Spatial Interaction Models (SIMs) are limited in capturing the complex and context-aware interactions between business clusters and trade areas. To address the limitation, we propose a SIM-GAT model to predict spatiotemporal visitation flows between community business clusters and their trade areas. The model innovatively represents the integrated system of business clusters, trade areas, and transportation infrastructure within an urban region using a connected graph. Then, a graph-based deep learning model, i.e., Graph AttenTion network (GAT), is used to capture the complexity and interdependencies of business clusters. We developed this model with data collected from the Miami metropolitan area in Florida. We then demonstrated its effectiveness in capturing varying attractiveness of business clusters to different residential neighborhoods and across scenarios with an eXplainable AI approach. We contribute a novel method supplementing conventional SIMs to predict and analyze
     
-[^13]: 经济主体的动态运输
+[^7]: 受过良好教育的智能的内在善良
 
-    Dynamic Transportation of Economic Agents. (arXiv:2303.12567v1 [econ.GN])
+    The inherent goodness of well educated intelligence. (arXiv:2401.04846v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.12567](http://arxiv.org/abs/2303.12567)
+    [http://arxiv.org/abs/2401.04846](http://arxiv.org/abs/2401.04846)
 
-    本文通过提出新的方法，解决了之前在某些异质性代理人不完全市场模型的宏观经济均衡解决方案的问题。
-
-    
-
-    本文是在发现了一个共同的策略未能将某些异质性代理人不完全市场模型的宏观经济均衡定位到广泛引用的基准研究中而引发的。通过模仿Dumas和Lyasoff（2012）提出的方法，本文提供了一个新的描述，在面对不可保险的总体和个体风险的大量互动经济体代表的私人状态分布的运动定律。提出了一种新的算法，用于确定回报、最优私人配置和平衡状态下的人口运输，并在两个众所周知的基准研究中进行了测试。
-
-    The paper was prompted by the surprising discovery that the common strategy, adopted in a large body of research, for producing macroeconomic equilibrium in certain heterogeneous-agent incomplete-market models fails to locate the equilibrium in a widely cited benchmark study. By mimicking the approach proposed by Dumas and Lyasoff (2012), the paper provides a novel description of the law of motion of the distribution over the range of private states of a large population of interacting economic agents faced with uninsurable aggregate and idiosyncratic risk. A new algorithm for identifying the returns, the optimal private allocations, and the population transport in the state of equilibrium is developed and is tested in two well known benchmark studies.
-    
-[^14]: 矿产财富心理学：来自哈萨克斯坦的实证证据
-
-    The Psychology of Mineral Wealth: Empirical Evidence from Kazakhstan. (arXiv:2204.03948v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2204.03948](http://arxiv.org/abs/2204.03948)
-
-    这篇论文是第一篇实证分析资源富裕国家资源管理心理基础的研究，通过调查发现，寻租和过度依赖矿产收入主要可以归因于社会心理学。矿产繁荣会导致不切实际的需求和推迟生产性投资。
+    本文探讨了智能体变得智能的因素，强调了掌握特征和控制多个保守相互作用的子系统的能力。智能的核心是“集体如一体”和“了解局部行动的整体结果”。文章提出了一种对集体保守系统进行控制的替代方法。
 
     
 
-    尽管学术界和政策界对自然资源财富与发展失败之间的关联（通常称为资源诅咒）越来越感兴趣，但对这一现象背后的心理学关注甚少。寻租和过度依赖矿产收入主要可以归因于社会心理学。矿产繁荣（无论是由于矿藏发现还是商品价格的剧增）起初是正面的收入冲击，随后可能演变成有影响力和改变预期的公众和媒体叙事，这连续导致不切实际的需求，偏向于立即消费积累的矿产收入，以及推迟生产性投资。据我们所知，本文是第一篇对矿产富裕国家资源管理心理基础进行实证分析的研究。我们的研究依赖于一项广泛的个人调查（1977名受访者参与）
+    本文将探讨使一个智能体变得智能的因素，无论是生物体还是计算机上的人工智能。特别关注的是能够表征和控制多个保守相互作用的相同子系统的能力。智能的本质将被发现是黄金法则——“集体行动如一体”或“了解局部行动的整体结果”。集体的流动是由掌控着少量字符串的操纵者决定的，根据对称性确定的最小作用路径的测地线运动。控制集体保守系统是困难的，历史上一直通过为系统添加显著黏性来稳定期望的最大性能的亚稳平衡状态，但这会在过程中降低或破坏它们。有一种替代方案。
 
-    Despite rapidly-expanding academic and policy interest in the links between natural resource wealth and development failures (commonly referred to as the resource curse) little attention has been devoted to the psychology behind the phenomenon. Rent-seeking and excessive reliance on mineral revenues can be attributed largely to social psychology. Mineral booms (whether due to the discovery of mineral reserves or to the drastic rise in commodity prices) start as positive income shocks that can subsequently evolve into influential and expectation-changing public and media narratives; these lead consecutively to unrealistic demands that favor immediate consumption of accrued mineral revenues and to the postponement of productive investment. To our knowledge, this paper is the first empirical analysis that tests hypotheses regarding the psychological underpinnings of resource mismanagement in mineral-rich states. Our study relies on an extensive personal survey (of 1977 respondents) carrie
+    This paper will examine what makes a being intelligent, whether that be a biological being or an artificial silicon being on a computer. Special attention will be paid to the being having the ability to characterize and control a collective system of many identical conservative sub-systems conservatively interacting. The essence of intelligence will be found to be the golden rule -- "the collective acts as one" or "knowing the global consequences of local actions". The flow of the collective is a small set of twinkling textures, that are governed by a puppeteer who is pulling a small number of strings according to a geodesic motion of least action, determined by the symmetries. Controlling collective conservative systems is difficult and has historically been done by adding significant viscosity to the system to stabilize the desirable meta stable equilibriums of maximum performance, but it degrades or destroys them in the process. There is an alternative. Once the optimum twinkling te
     
-[^15]: 关于回归分析中控制变量的麻烦事
+[^8]: 面板数据Tobit模型的正态误差IV估计
 
-    On the Nuisance of Control Variables in Regression Analysis. (arXiv:2005.10314v5 [econ.EM] UPDATED)
+    IV Estimation of Panel Data Tobit Models with Normal Errors. (arXiv:2401.04803v1 [econ.EM])
 
-    [http://arxiv.org/abs/2005.10314](http://arxiv.org/abs/2005.10314)
+    [http://arxiv.org/abs/2401.04803](http://arxiv.org/abs/2401.04803)
 
-    本文认为，回归分析中的控制变量，即使是有效的，也很难有因果解释。因此，建议不要解释控制变量的效应，而是专注于可以建立合理识别论证的主要变量。此外，为了防止错误的管理或政策含义，应明确标记控制变量的系数无法进行因果解释，或者完全从回归表中省略它们。同时，不建议将控制变量的估计用于后续理论建模和元分析中。
+    该论文提出了一种在面板数据Tobit模型中使用正态误差的IV估计方法，该方法由Amemiya (1973)提出的一致初始估计器改进而来。该方法可以应用于之前未被考虑的模型。
 
     
 
-    控制变量被包含在回归分析中，是为了估计处理对结果的因果效应。然而，本文认为即使是有效的控制变量，其估计的效应大小本身也很难有因果解释。这是因为即使是有效的控制变量也可能是内生的，并且代表多个不同的因果机制共同作用于结果上，这在理论上很难解释。因此，我们建议不要解释控制变量的边际效应，而是专注于主要感兴趣的变量，其中可以建立合理的识别论证。为了防止错误的管理或政策含义，应明确标记控制变量的系数无法进行因果解释，或者完全从回归表中省略。此外，我们建议不要将控制变量的估计用于后续理论建模和元分析中。
+    Amemiya (1973)提出了一种“一致的初始估计器”，用于具有正态误差的截尾回归模型的参数。本文证明了类似的方法可以用于构建Amemiya考虑的固定效应模型的矩条件。这个结果提供了一种估计之前未考虑的模型的方法。
 
-    Control variables are included in regression analyses to estimate the causal effect of a treatment on an outcome. In this paper, we argue that the estimated effect sizes of controls are unlikely to have a causal interpretation themselves, though. This is because even valid controls are possibly endogenous and represent a combination of several different causal mechanisms operating jointly on the outcome, which is hard to interpret theoretically. Therefore, we recommend refraining from interpreting marginal effects of controls and focusing on the main variables of interest, for which a plausible identification argument can be established. To prevent erroneous managerial or policy implications, coefficients of control variables should be clearly marked as not having a causal interpretation or omitted from regression tables altogether. Moreover, we advise against using control variable estimates for subsequent theory building and meta-analyses.
+    Amemiya (1973) proposed a ``consistent initial estimator'' for the parameters in a censored regression model with normal errors. This paper demonstrates that a similar approach can be used to construct moment conditions for fixed--effects versions of the model considered by Amemiya. This result suggests estimators for models that have not previously been considered.
+    
+[^9]: 乌拉圭科学技术学科的比较优势
+
+    Revealed comparative advantages in scientific and technological disciplines in Uruguay. (arXiv:2401.04752v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.04752](http://arxiv.org/abs/2401.04752)
+
+    本文基于Scopus的文献信息，研究了乌拉圭科学生产的特点，并确定了乌拉圭在各学科中的比较优势。乌拉圭在健康科学领域的兽医、护理和医学方面具有比较优势；在生命科学领域的农业和生物科学、免疫学和微生物学以及生物化学、遗传学和分子生物学方面具有比较优势；在物理科学领域只有一个领域具有比较优势。
+
+    
+
+    本文基于1996年至2019年的Scopus文献信息，描述了乌拉圭科学生产的演变，并确定了国家在哪些领域具有比较优势。方法上，如果某个学科在国家科学产出中所占份额大于该学科在世界科学产出中的份额，则认为该领域具有比较优势。研究结果考虑了科学产出的两个指标（发表文章和引用次数），以及三个不同的领域划分层次（5个大领域、27个学科和300多个细分学科）。在健康科学领域，兽医、护理和医学具有比较优势。在生命科学领域，农业和生物科学、免疫学和微生物学以及生物化学、遗传学和分子生物学具有比较优势。在物理科学领域，只有一个领域具有比较优势。
+
+    Based on bibliometric information from Scopus for the period 1996-2019, this document characterizes the evolution of Uruguayan scientific production and establishes the areas in which the country has a revealed comparative advantage (RCA). Methodologically, it is proposed that there is a RCA in an area if this area has a greater share in national scientific production than the share of the area in world scientific production. The evidence presented considers two measurements of scientific production (published articles and citations) and three levels of aggregation in the areas (a minor one with 5 large areas, a more detailed one with 27 disciplines and another even more granular with more than 300 disaggregations). Within Health Sciences there is a RCA in Veterinary, Nursing and Medicine. Within Life Sciences there is a RCA in Agricultural and Biological Sciences, Immunology and Microbiology and Biochemistry, Genetics and Molecular Biology. In Physical Sciences there is only a RCA in 
+    
+[^10]: 上下文固定预算的最佳臂识别：适应性实验设计与策略学习
+
+    Contextual Fixed-Budget Best Arm Identification: Adaptive Experimental Design with Policy Learning. (arXiv:2401.03756v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.03756](http://arxiv.org/abs/2401.03756)
+
+    该论文研究了个性化治疗推荐的问题，提出了一个上下文固定预算的最佳臂识别模型，通过自适应实验设计和策略学习来推荐最佳治疗方案，并通过最坏情况下的期望简单遗憾来衡量推荐的有效性。
+
+    
+
+    个性化治疗推荐是基于证据的决策中的关键任务。在这项研究中，我们将这个任务作为一个带有上下文信息的固定预算最佳臂识别（Best Arm Identification, BAI）问题来进行建模。在这个设置中，我们考虑了一个给定多个治疗臂的自适应试验。在每一轮中，决策者观察一个刻画实验单位的上下文（协变量），并将该单位分配给其中一个治疗臂。在实验结束时，决策者推荐一个在给定上下文条件下预计产生最高期望结果的治疗臂（最佳治疗臂）。该决策的有效性通过最坏情况下的期望简单遗憾（策略遗憾）来衡量，该遗憾表示在给定上下文条件下，最佳治疗臂和推荐治疗臂的条件期望结果之间的最大差异。我们的初始步骤是推导最坏情况下期望简单遗憾的渐近下界，该下界还暗示着解决该问题的一些思路。
+
+    Individualized treatment recommendation is a crucial task in evidence-based decision-making. In this study, we formulate this task as a fixed-budget best arm identification (BAI) problem with contextual information. In this setting, we consider an adaptive experiment given multiple treatment arms. At each round, a decision-maker observes a context (covariate) that characterizes an experimental unit and assigns the unit to one of the treatment arms. At the end of the experiment, the decision-maker recommends a treatment arm estimated to yield the highest expected outcome conditioned on a context (best treatment arm). The effectiveness of this decision is measured in terms of the worst-case expected simple regret (policy regret), which represents the largest difference between the conditional expected outcomes of the best and recommended treatment arms given a context. Our initial step is to derive asymptotic lower bounds for the worst-case expected simple regret, which also implies idea
+    
+[^11]: 矢量自回归模型的结构分析
+
+    Structural Analysis of Vector Autoregressive Models. (arXiv:2312.06402v5 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2312.06402](http://arxiv.org/abs/2312.06402)
+
+    这份讲义主要讨论了应用宏观经济计量学高级课程中矢量自回归模型的结构分析的关键概念。
+
+    
+
+    这份讲义介绍了应用宏观经济计量学高级课程中矢量自回归模型的结构分析的关键概念。
+
+    This set of lecture notes discuss key concepts for the Structural Analysis of Vector Autoregressive models for the teaching of a course on Applied Macroeconometrics with Advanced Topics.
+    
+[^12]: 气候、农作物与采摘后冲突
+
+    Climate, Crops, and Postharvest Conflict. (arXiv:2311.16370v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2311.16370](http://arxiv.org/abs/2311.16370)
+
+    本研究提供了关于气候冲击对冲突的新证据，表明El Niño事件对农作物生长季和采摘后期的农田中的政治暴力具有负面影响。具体而言，中强度El Niño事件导致的海面温度上升1°C将至少减少三个百分点的政治暴力与针对平民的冲突。这一发现支持了农业作为连接气候冲击和政治暴力之间关键途径的观点。
+
+    
+
+    我提出了气候冲击对冲突的影响的新证据。利用覆盖1997年至2023年整个非洲大陆的详细冲突和天气数据，我发现在农作物生长季遭受El Niño事件对夏季采摘后期农田的政治暴力具有负差异效应。相对于长期均值，热带太平洋海面温度上升1°C（典型的中强度El Niño事件的代表）至少导致政治暴力与针对平民的冲突减少三个百分点。这一主要发现通过一系列稳健性检验得到支持，支持了农业是连接气候冲击与政治暴力之间的关键途径，而贪婪是关键动机。令人放心的是，当我使用更适合揭示提出的机制的数据子集时，估计效应的幅度几乎翻了一番，而这种效应仅仅存在于农作物生长季和夏季采摘后期的农田中。
+
+    I present new evidence of the effects of climate shocks on conflict. Using granular conflict and weather data covering the entire continent of Africa from 1997 to 2023, I find that exposure to El Ni\~no events during the crop-growing season has a negative differential effect on political violence against civilians in croplands during the early postharvest season. A 1{\deg}C warming of the sea surface temperature in the tropical Pacific Ocean relative to its long-run mean, a typical proxy for a moderate-strength El Ni\~no event, results in at least a three percent reduction in political violence with civilian targeting. This main finding, backed by a series of robustness checks, supports the idea that agriculture is the key channel and rapacity is the key motive connecting climatic shocks and political violence. Reassuringly, the magnitude of the estimated effect nearly doubles when I use subsets of data that are better suited to unveiling the proposed mechanism, and the effect only man
+    
+[^13]: 关于人工智能在金融监管中的应用及对金融稳定的影响
+
+    On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.11293](http://arxiv.org/abs/2310.11293)
+
+    人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。
+
+    
+
+    人工智能（AI）正在金融监管领域迅速发展。对于微观监管（如消费者保护和常规银行监管）来说，由于数据丰富、时间周期短、目标明确和重复决策，AI将受益。然而，对于关注整个金融系统稳定的宏观监管来说，由于不经常发生且大多数是独特事件，AI学习受到挑战。在极度压力下，分布式的人类决策比集中式的AI决策更具优势，而且由于巨大的错误成本，这也引发了对于宏观监管中AI使用的质疑。尽管如此，由于成本效益、稳健性和准确性优于人类监管者，AI很可能悄然取代越来越高水平的建议和决策而被广泛使用。我们提出六个判断AI使用适合性的标准。
+
+    Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
+    
+[^14]: 近似计算凸博弈中纳什均衡解集合
+
+    Approximating the set of Nash equilibria for convex games. (arXiv:2310.04176v1 [math.OC])
+
+    [http://arxiv.org/abs/2310.04176](http://arxiv.org/abs/2310.04176)
+
+    本文研究了近似计算凸博弈中的纳什均衡解集合，证明了纳什均衡解集合可以等价地表示为多个多目标问题的帕累托最优点的交集。
+
+    
+
+    在Feinstein和Rudloff（2023）中，他们证明了对于任意非合作$N$人博弈，纳什均衡解集合与具有非凸顺序锥的某个向量优化问题的帕累托最优点集合是一致的。为了避免处理非凸顺序锥，我们证明了将纳什均衡解集合等价地表示为$N$个多目标问题（即具有自然顺序锥）的帕累托最优点的交集。目前，计算多目标问题的精确帕累托最优点集合的算法仅适用于线性问题的类别，这将导致这些算法只能用于解线性博弈的真实纳什均衡集合的可能性降低。本文中，我们将考虑更大类别的凸博弈。由于通常只能为凸向量优化问题计算近似解，我们首先展示了类似于上述结果的结果，即$\epsilon$-近似纳什均衡解集合与问题完全相似。
+
+    In Feinstein and Rudloff (2023), it was shown that the set of Nash equilibria for any non-cooperative $N$ player game coincides with the set of Pareto optimal points of a certain vector optimization problem with non-convex ordering cone. To avoid dealing with a non-convex ordering cone, an equivalent characterization of the set of Nash equilibria as the intersection of the Pareto optimal points of $N$ multi-objective problems (i.e.\ with the natural ordering cone) is proven. So far, algorithms to compute the exact set of Pareto optimal points of a multi-objective problem exist only for the class of linear problems, which reduces the possibility of finding the true set of Nash equilibria by those algorithms to linear games only.  In this paper, we will consider the larger class of convex games. As, typically, only approximate solutions can be computed for convex vector optimization problems, we first show, in total analogy to the result above, that the set of $\epsilon$-approximate Nash
+    
+[^15]: 算法交易员的利润、LVR和夹心攻击：批量交易作为AMM设计的响应
+
+    Arbitrageurs' profits, LVR, and sandwich attacks: batch trading as an AMM design response. (arXiv:2307.02074v1 [cs.DC])
+
+    [http://arxiv.org/abs/2307.02074](http://arxiv.org/abs/2307.02074)
+
+    本研究介绍了一种自动化市场制造商（AMM）的设计响应——使用批量交易。通过批量交易以边际价格进行交易，使得AMM能够最大化其功能，并消除套利利润和夹心攻击的问题。研究使用币安价格数据进行模拟，结果显示，提供流动性给AMM的收益下限与在Uniswap v3上提供流动性的实际收益非常接近。
+
+    
+
+    我们考虑了一种自动化市场制造商（AMM），其中所有交易都以批量方式执行，并在批量交易后以边际价格（即任意小额交易的价格）进行交易。我们表明，这种AMM是最大化AMM功能（或FM-AMM）的函数：对于给定的价格，它交易以达到给定函数的最高可能价值。此外，算法交易员之间的竞争保证了FM-AMM始终以公平、均衡的价格进行交易，并消除了套利利润（也称为LVR）。夹心攻击也被消除，因为所有交易发生在外生确定的均衡价格上。我们使用币安价格数据模拟提供流动性给FM-AMM的收益下限，并表明，至少对于我们考虑的代币对和时间段来说，这种下限非常接近在Uniswap v3上提供流动性的实证收益。
+
+    We consider an automated market maker (AMM) in which all trades are batched and executed at a price equal to the marginal price (i.e., the price of an arbitrary small trade) after the batch trades. We show that such an AMM is a function maximizing AMM (or FM-AMM): for given prices, it trades to reach the highest possible value of a given function. Also, competition between arbitrageurs guarantees that an FM-AMM always trades at a fair, equilibrium price, and arbitrage profits (also known as LVR) are eliminated. Sandwich attacks are also eliminated because all trades occur at the exogenously-determined equilibrium price. We use Binance price data to simulate a lower bound to the return of providing liquidity to an FM-AMM and show that, at least for the token pairs and the period we consider, such lower bound is very close to the empirical returns of providing liquidity on Uniswap v3.
+    
+[^16]: 当分歧点是私人信息时的两人博弈问题
+
+    Two-Person Bargaining when the Disagreement Point is Private Information. (arXiv:2211.06830v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2211.06830](http://arxiv.org/abs/2211.06830)
+
+    当分歧点是私人信息时的两人博弈问题，该研究表明，在帕累托前沿线性的情况下，后效率机制的结果不能取决于分歧的支付，而在前沿非线性的情况下，该结果仍然成立。
+
+    
+
+    我们考虑一个情况，即在两人博弈问题中，只有分歧结果是私人信息（可能是相关的），同时共识是分歧是低效的。我们发现，如果帕累托前沿是线性的，那么后效率机制的结果不能取决于分歧的支付。如果帕累托前沿是非线性的，当分歧的支付是独立的或者存在一个玩家至多有两种类型的情况时，这个结果仍然成立。我们讨论了这些结果对公理化博弈理论和机制设计中的全额剩余提取的影响。
+
+    We consider two-person bargaining problems in which (only) the disagreement outcome is private (and possibly correlated) information and it is common knowledge that disagreement is inefficient. We show that if the Pareto frontier is linear, the outcome of an ex post efficient mechanism cannot depend on the disagreement payoffs. If the frontier is non-linear, the result continues to hold when the disagreement payoffs are independent or there is a player with at most two types. We discuss implications of these results for axiomatic bargaining theory and for full surplus extraction in mechanism design.
     
 

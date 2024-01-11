@@ -1,0 +1,12 @@
+{
+    "title": "Can AI Write Classical Chinese Poetry like Humans? An Empirical Study Inspired by Turing Test. (arXiv:2401.04952v1 [cs.CL])",
+    "abstract": "Some argue that the essence of humanity, such as creativity and sentiment, can never be mimicked by machines. This paper casts doubt on this belief by studying a vital question: Can AI compose poetry as well as humans? To answer the question, we propose ProFTAP, a novel evaluation framework inspired by Turing test to assess AI's poetry writing capability. We apply it on current large language models (LLMs) and find that recent LLMs do indeed possess the ability to write classical Chinese poems nearly indistinguishable from those of humans. We also reveal that various open-source LLMs can outperform GPT-4 on this task.",
+    "link": "http://arxiv.org/abs/2401.04952",
+    "context": "Title: Can AI Write Classical Chinese Poetry like Humans? An Empirical Study Inspired by Turing Test. (arXiv:2401.04952v1 [cs.CL])\nAbstract: Some argue that the essence of humanity, such as creativity and sentiment, can never be mimicked by machines. This paper casts doubt on this belief by studying a vital question: Can AI compose poetry as well as humans? To answer the question, we propose ProFTAP, a novel evaluation framework inspired by Turing test to assess AI's poetry writing capability. We apply it on current large language models (LLMs) and find that recent LLMs do indeed possess the ability to write classical Chinese poems nearly indistinguishable from those of humans. We also reveal that various open-source LLMs can outperform GPT-4 on this task.",
+    "path": "papers/24/01/2401.04952.json",
+    "total_tokens": 871,
+    "translated_title": "人工智能能像人类一样写古典诗吗？一项受图灵测试启发的实证研究",
+    "translated_abstract": "有人认为，创造力和情感等人类的本质特质永远无法被机器模仿。本文通过研究一个重要问题，对这种信念提出了质疑：人工智能能否像人类一样创作诗歌？为了回答这个问题，我们提出了一种新的评估框架ProFTAP，该框架受到图灵测试的启发，用于评估人工智能的诗歌创作能力。我们将其应用于当前的大型语言模型（LLMs），发现最近的LLMs确实具备了几乎无法区分的与人类写作的古典中文诗歌的能力。我们还揭示了各种开源的LLMs在这一任务上可以超越GPT-4。",
+    "tldr": "本文通过一项受图灵测试启发的实证研究质疑了人类创造力无法被机器模仿的观点，发现最近的大型语言模型（LLMs）能够以几乎与人类无法区分的方式写作古典中文诗歌，并揭示了开源的LLMs在这一任务上的表现超越了GPT-4。",
+    "en_tdlr": "This paper casts doubt on the belief that human qualities such as creativity and sentiment cannot be mimicked by machines by conducting an empirical study inspired by the Turing test. It reveals that recent large language models (LLMs) can write classical Chinese poetry in a way that is nearly indistinguishable from humans, and shows that various open-source LLMs outperform GPT-4 on this task."
+}

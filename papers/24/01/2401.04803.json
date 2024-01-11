@@ -1,0 +1,12 @@
+{
+    "title": "IV Estimation of Panel Data Tobit Models with Normal Errors. (arXiv:2401.04803v1 [econ.EM])",
+    "abstract": "Amemiya (1973) proposed a ``consistent initial estimator'' for the parameters in a censored regression model with normal errors. This paper demonstrates that a similar approach can be used to construct moment conditions for fixed--effects versions of the model considered by Amemiya. This result suggests estimators for models that have not previously been considered.",
+    "link": "http://arxiv.org/abs/2401.04803",
+    "context": "Title: IV Estimation of Panel Data Tobit Models with Normal Errors. (arXiv:2401.04803v1 [econ.EM])\nAbstract: Amemiya (1973) proposed a ``consistent initial estimator'' for the parameters in a censored regression model with normal errors. This paper demonstrates that a similar approach can be used to construct moment conditions for fixed--effects versions of the model considered by Amemiya. This result suggests estimators for models that have not previously been considered.",
+    "path": "papers/24/01/2401.04803.json",
+    "total_tokens": 579,
+    "translated_title": "面板数据Tobit模型的正态误差IV估计",
+    "translated_abstract": "Amemiya (1973)提出了一种“一致的初始估计器”，用于具有正态误差的截尾回归模型的参数。本文证明了类似的方法可以用于构建Amemiya考虑的固定效应模型的矩条件。这个结果提供了一种估计之前未考虑的模型的方法。",
+    "tldr": "该论文提出了一种在面板数据Tobit模型中使用正态误差的IV估计方法，该方法由Amemiya (1973)提出的一致初始估计器改进而来。该方法可以应用于之前未被考虑的模型。",
+    "en_tdlr": "This paper proposes an IV estimation method for panel data Tobit models with normal errors, based on a consistent initial estimator introduced by Amemiya (1973). The method can be applied to models that have not been previously considered."
+}

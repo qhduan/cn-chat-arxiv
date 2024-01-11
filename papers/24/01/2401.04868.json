@@ -1,0 +1,12 @@
+{
+    "title": "Real-time and Continuous Turn-taking Prediction Using Voice Activity Projection. (arXiv:2401.04868v1 [cs.CL])",
+    "abstract": "A demonstration of a real-time and continuous turn-taking prediction system is presented. The system is based on a voice activity projection (VAP) model, which directly maps dialogue stereo audio to future voice activities. The VAP model includes contrastive predictive coding (CPC) and self-attention transformers, followed by a cross-attention transformer. We examine the effect of the input context audio length and demonstrate that the proposed system can operate in real-time with CPU settings, with minimal performance degradation.",
+    "link": "http://arxiv.org/abs/2401.04868",
+    "context": "Title: Real-time and Continuous Turn-taking Prediction Using Voice Activity Projection. (arXiv:2401.04868v1 [cs.CL])\nAbstract: A demonstration of a real-time and continuous turn-taking prediction system is presented. The system is based on a voice activity projection (VAP) model, which directly maps dialogue stereo audio to future voice activities. The VAP model includes contrastive predictive coding (CPC) and self-attention transformers, followed by a cross-attention transformer. We examine the effect of the input context audio length and demonstrate that the proposed system can operate in real-time with CPU settings, with minimal performance degradation.",
+    "path": "papers/24/01/2401.04868.json",
+    "total_tokens": 639,
+    "translated_title": "实时且连续的语音活动预测系统的实现",
+    "translated_abstract": "本文介绍了一个实时且连续的语音活动预测系统的演示。该系统基于语音活动投影(VAP)模型，直接将对话的立体声音频映射到未来的语音活动。VAP模型包括对比性预测编码(CPC)和自注意力转换器，接着是交叉注意力转换器。我们研究了输入上下文音频长度的影响，并证明了该系统可以在CPU设置下实时运行，性能损失最小。",
+    "tldr": "本文介绍了一个实时且连续的语音活动预测系统，该系统利用语音活动投影模型将对话的音频映射到未来的语音活动，具有较低的性能损失。",
+    "en_tdlr": "This paper presents a real-time and continuous turn-taking prediction system using a voice activity projection (VAP) model, which maps dialogue audio to future voice activities. The system operates in real-time with minimal performance degradation."
+}

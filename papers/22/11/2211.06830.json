@@ -1,0 +1,11 @@
+{
+    "title": "Two-Person Bargaining when the Disagreement Point is Private Information. (arXiv:2211.06830v2 [econ.TH] UPDATED)",
+    "abstract": "We consider two-person bargaining problems in which (only) the disagreement outcome is private (and possibly correlated) information and it is common knowledge that disagreement is inefficient. We show that if the Pareto frontier is linear, the outcome of an ex post efficient mechanism cannot depend on the disagreement payoffs. If the frontier is non-linear, the result continues to hold when the disagreement payoffs are independent or there is a player with at most two types. We discuss implications of these results for axiomatic bargaining theory and for full surplus extraction in mechanism design.",
+    "link": "http://arxiv.org/abs/2211.06830",
+    "context": "Title: Two-Person Bargaining when the Disagreement Point is Private Information. (arXiv:2211.06830v2 [econ.TH] UPDATED)\nAbstract: We consider two-person bargaining problems in which (only) the disagreement outcome is private (and possibly correlated) information and it is common knowledge that disagreement is inefficient. We show that if the Pareto frontier is linear, the outcome of an ex post efficient mechanism cannot depend on the disagreement payoffs. If the frontier is non-linear, the result continues to hold when the disagreement payoffs are independent or there is a player with at most two types. We discuss implications of these results for axiomatic bargaining theory and for full surplus extraction in mechanism design.",
+    "path": "papers/22/11/2211.06830.json",
+    "total_tokens": 737,
+    "translated_title": "当分歧点是私人信息时的两人博弈问题",
+    "translated_abstract": "我们考虑一个情况，即在两人博弈问题中，只有分歧结果是私人信息（可能是相关的），同时共识是分歧是低效的。我们发现，如果帕累托前沿是线性的，那么后效率机制的结果不能取决于分歧的支付。如果帕累托前沿是非线性的，当分歧的支付是独立的或者存在一个玩家至多有两种类型的情况时，这个结果仍然成立。我们讨论了这些结果对公理化博弈理论和机制设计中的全额剩余提取的影响。",
+    "tldr": "当分歧点是私人信息时的两人博弈问题，该研究表明，在帕累托前沿线性的情况下，后效率机制的结果不能取决于分歧的支付，而在前沿非线性的情况下，该结果仍然成立。"
+}
