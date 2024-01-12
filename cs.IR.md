@@ -9,15 +9,16 @@
 | [^5] | [What Else Would I Like? A User Simulator using Alternatives for Improved Evaluation of Fashion Conversational Recommendation Systems.](http://arxiv.org/abs/2401.05783) | 本研究提出了一个改进的用户模拟器框架，以解决对话推荐系统评估中的一些限制。通过为常见的CRS数据集中的替代物品获取额外的评价，我们能够更准确地评估系统性能。 |
 | [^6] | [Lifelogging As An Extreme Form of Personal Information Management -- What Lessons To Learn.](http://arxiv.org/abs/2401.05767) | 本文介绍了Lifelogging作为极致个人信息管理的形式，探讨了个人数据的搜集和访问方式，并呼吁对第三方使用个人数据的审慎性。 |
 | [^7] | [Large Language Models vs. Search Engines: Evaluating User Preferences Across Varied Information Retrieval Scenarios.](http://arxiv.org/abs/2401.05761) | 本研究对搜索引擎和大型语言模型（LLM）在不同信息检索场景中的用户偏好进行了全面对比研究，发现用户对LLM有明显的倾向性。 |
-| [^8] | [Cross-modal Retrieval for Knowledge-based Visual Question Answering.](http://arxiv.org/abs/2401.05736) | 该论文提出了一种基于多模态检索的知识驱动视觉问答方法，通过跨模态检索来弥合实体与其视觉表现之间的语义鸿沟。实验证明，该方法与亿级参数模型在多个数据集上具有竞争力，同时在概念上更简单、计算成本更低。 |
-| [^9] | [A Toolbox for Modelling Engagement with Educational Videos.](http://arxiv.org/abs/2401.05424) | 这项工作介绍了PEEKC数据集和TrueLearn Python库，可用于建模教育视频的参与度。TrueLearn模型系列遵循"开放学习者"概念，提供可扩展的在线模型以及较高的预测性能。 |
-| [^10] | [ANALYTiC: Understanding Decision Boundaries and Dimensionality Reduction in Machine Learning.](http://arxiv.org/abs/2401.05418) | 本论文通过将降维和决策边界应用于现有的主动学习方法，突显数据中的模式和聚类，并通过实验验证了这种方法在提高轨迹标记效率和准确性方面的潜力。 |
-| [^11] | [Spectral-based Graph Neutral Networks for Complementary Item Recommendation.](http://arxiv.org/abs/2401.02130) | 本文提出了一种基于频谱的图神经网络方法（SComGNN）用于模拟和理解商品间的互补关系，以在推荐系统中准确和及时地推荐后续商品。 |
-| [^12] | [Poisoning Attacks against Recommender Systems: A Survey.](http://arxiv.org/abs/2401.01527) | 本调查论文系统地、最新地回顾了针对推荐系统的毒化攻击研究领域，提出了一个新颖而全面的分类法，展示了潜在的未来研究方向，并引入了一个开源库ARLib用于比较毒化攻击方法。 |
-| [^13] | [MultiCBR: Multi-view Contrastive Learning for Bundle Recommendation.](http://arxiv.org/abs/2311.16751) | 本论文提出了一种名为MultiCBR的新型多视图对比学习框架，用于捆绑推荐。该框架能够充分利用所有用户、捆绑和项目之间的异构关系，并有效捕捉用户偏好和推广到多个视图。 |
-| [^14] | [CausalCite: A Causal Formulation of Paper Citations.](http://arxiv.org/abs/2311.02790) | CausalCite是一种以因果推断为基础的论文引用公式化方法，通过对文本进行嵌入和相似样本的提取来评估论文的重要性，并在各个标准上展示了其有效性。 |
-| [^15] | [Medication Recommendation via Domain Knowledge Informed Deep Learning.](http://arxiv.org/abs/2305.19604) | 提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。 |
-| [^16] | [The planted XY model: thermodynamics and inference.](http://arxiv.org/abs/2208.06488) | 本文研究了一种称为种植的XY模型的全连接自旋玻璃，在温度和铁磁偏置平面上推导出了复制对称相图。通过使用一步副本对称性破缺分析，我们克服了复制对称近似的不准确性，并计算了测量中的亚稳态数目。 |
+| [^8] | [Attention Is Not the Only Choice: Counterfactual Reasoning for Path-Based Explainable Recommendation.](http://arxiv.org/abs/2401.05744) | 这项研究提出了一种基于反事实推理的可解释框架，用于路径推荐，通过学习路径的可解释权重来替代关注权重。这种框架比传统的关注机制更稳定且更符合人类直觉。 |
+| [^9] | [Cross-modal Retrieval for Knowledge-based Visual Question Answering.](http://arxiv.org/abs/2401.05736) | 该论文提出了一种基于多模态检索的知识驱动视觉问答方法，通过跨模态检索来弥合实体与其视觉表现之间的语义鸿沟。实验证明，该方法与亿级参数模型在多个数据集上具有竞争力，同时在概念上更简单、计算成本更低。 |
+| [^10] | [A Toolbox for Modelling Engagement with Educational Videos.](http://arxiv.org/abs/2401.05424) | 这项工作介绍了PEEKC数据集和TrueLearn Python库，可用于建模教育视频的参与度。TrueLearn模型系列遵循"开放学习者"概念，提供可扩展的在线模型以及较高的预测性能。 |
+| [^11] | [ANALYTiC: Understanding Decision Boundaries and Dimensionality Reduction in Machine Learning.](http://arxiv.org/abs/2401.05418) | 本论文通过将降维和决策边界应用于现有的主动学习方法，突显数据中的模式和聚类，并通过实验验证了这种方法在提高轨迹标记效率和准确性方面的潜力。 |
+| [^12] | [Spectral-based Graph Neutral Networks for Complementary Item Recommendation.](http://arxiv.org/abs/2401.02130) | 本文提出了一种基于频谱的图神经网络方法（SComGNN）用于模拟和理解商品间的互补关系，以在推荐系统中准确和及时地推荐后续商品。 |
+| [^13] | [Poisoning Attacks against Recommender Systems: A Survey.](http://arxiv.org/abs/2401.01527) | 本调查论文系统地、最新地回顾了针对推荐系统的毒化攻击研究领域，提出了一个新颖而全面的分类法，展示了潜在的未来研究方向，并引入了一个开源库ARLib用于比较毒化攻击方法。 |
+| [^14] | [MultiCBR: Multi-view Contrastive Learning for Bundle Recommendation.](http://arxiv.org/abs/2311.16751) | 本论文提出了一种名为MultiCBR的新型多视图对比学习框架，用于捆绑推荐。该框架能够充分利用所有用户、捆绑和项目之间的异构关系，并有效捕捉用户偏好和推广到多个视图。 |
+| [^15] | [CausalCite: A Causal Formulation of Paper Citations.](http://arxiv.org/abs/2311.02790) | CausalCite是一种以因果推断为基础的论文引用公式化方法，通过对文本进行嵌入和相似样本的提取来评估论文的重要性，并在各个标准上展示了其有效性。 |
+| [^16] | [Medication Recommendation via Domain Knowledge Informed Deep Learning.](http://arxiv.org/abs/2305.19604) | 提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。 |
+| [^17] | [The planted XY model: thermodynamics and inference.](http://arxiv.org/abs/2208.06488) | 本文研究了一种称为种植的XY模型的全连接自旋玻璃，在温度和铁磁偏置平面上推导出了复制对称相图。通过使用一步副本对称性破缺分析，我们克服了复制对称近似的不准确性，并计算了测量中的亚稳态数目。 |
 
 # 详细
 
@@ -119,7 +120,21 @@
 
     This study embarked on a comprehensive exploration of user preferences between Search Engines and Large Language Models (LLMs) in the context of various information retrieval scenarios. Conducted with a sample size of 100 internet users (N=100) from across the United States, the research delved into 20 distinct use cases ranging from factual searches, such as looking up COVID-19 guidelines, to more subjective tasks, like seeking interpretations of complex concepts in layman's terms. Participants were asked to state their preference between using a traditional search engine or an LLM for each scenario. This approach allowed for a nuanced understanding of how users perceive and utilize these two predominant digital tools in differing contexts. The use cases were carefully selected to cover a broad spectrum of typical online queries, thus ensuring a comprehensive analysis of user preferences. The findings reveal intriguing patterns in user choices, highlighting a clear tendency for partic
     
-[^8]: 基于多模态检索的知识驱动视觉问答
+[^8]: 选择并非只有关注力：路径推断在可解释的基于路径的推荐中的应用
+
+    Attention Is Not the Only Choice: Counterfactual Reasoning for Path-Based Explainable Recommendation. (arXiv:2401.05744v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.05744](http://arxiv.org/abs/2401.05744)
+
+    这项研究提出了一种基于反事实推理的可解释框架，用于路径推荐，通过学习路径的可解释权重来替代关注权重。这种框架比传统的关注机制更稳定且更符合人类直觉。
+
+    
+
+    与仅追求推荐准确性相比，推荐模型的可解释性近年来更受关注。许多基于图的推荐方法使用关注机制来解释推荐过程中的路径。然而，这些关注权重是为了模型的准确性而设计的，而非可解释性。近期，一些研究者开始对基于关注机制的可解释性提出质疑，因为这些关注权重在不同的运行中是不稳定的，且不一定与人类的直觉一致。受因果学习理论中的反事实推理启发，我们提出了一种新颖的可解释框架，用于基于路径的推荐，其中通过学习路径的可解释权重来替代关注权重。具体来说，我们从路径表示和路径拓扑结构的角度设计了两种反事实推理算法。此外，与传统的案例研究不同，我们还提出了...
+
+    Compared with only pursuing recommendation accuracy, the explainability of a recommendation model has drawn more attention in recent years. Many graph-based recommendations resort to informative paths with the attention mechanism for the explanation. Unfortunately, these attention weights are intentionally designed for model accuracy but not explainability. Recently, some researchers have started to question attention-based explainability because the attention weights are unstable for different reproductions, and they may not always align with human intuition. Inspired by the counterfactual reasoning from causality learning theory, we propose a novel explainable framework targeting path-based recommendations, wherein the explainable weights of paths are learned to replace attention weights. Specifically, we design two counterfactual reasoning algorithms from both path representation and path topological structure perspectives. Moreover, unlike traditional case studies, we also propose 
+    
+[^9]: 基于多模态检索的知识驱动视觉问答
 
     Cross-modal Retrieval for Knowledge-based Visual Question Answering. (arXiv:2401.05736v1 [cs.CL])
 
@@ -133,7 +148,7 @@
 
     Knowledge-based Visual Question Answering about Named Entities is a challenging task that requires retrieving information from a multimodal Knowledge Base. Named entities have diverse visual representations and are therefore difficult to recognize. We argue that cross-modal retrieval may help bridge the semantic gap between an entity and its depictions, and is foremost complementary with mono-modal retrieval. We provide empirical evidence through experiments with a multimodal dual encoder, namely CLIP, on the recent ViQuAE, InfoSeek, and Encyclopedic-VQA datasets. Additionally, we study three different strategies to fine-tune such a model: mono-modal, cross-modal, or joint training. Our method, which combines mono-and cross-modal retrieval, is competitive with billion-parameter models on the three datasets, while being conceptually simpler and computationally cheaper.
     
-[^9]: 用于建模教育视频参与度的工具箱
+[^10]: 用于建模教育视频参与度的工具箱
 
     A Toolbox for Modelling Engagement with Educational Videos. (arXiv:2401.05424v1 [cs.CY])
 
@@ -147,7 +162,7 @@
 
     With the advancement and utility of Artificial Intelligence (AI), personalising education to a global population could be a cornerstone of new educational systems in the future. This work presents the PEEKC dataset and the TrueLearn Python library, which contains a dataset and a series of online learner state models that are essential to facilitate research on learner engagement modelling.TrueLearn family of models was designed following the "open learner" concept, using humanly-intuitive user representations. This family of scalable, online models also help end-users visualise the learner models, which may in the future facilitate user interaction with their models/recommenders. The extensive documentation and coding examples make the library highly accessible to both machine learning developers and educational data mining and learning analytics practitioners. The experiments show the utility of both the dataset and the library with predictive performance significantly exceeding compa
     
-[^10]: ANALYTiC: 机器学习中的决策边界和降维理解
+[^11]: ANALYTiC: 机器学习中的决策边界和降维理解
 
     ANALYTiC: Understanding Decision Boundaries and Dimensionality Reduction in Machine Learning. (arXiv:2401.05418v1 [eess.SP])
 
@@ -161,7 +176,7 @@
 
     The advent of compact, handheld devices has given us a pool of tracked movement data that could be used to infer trends and patterns that can be made to use. With this flooding of various trajectory data of animals, humans, vehicles, etc., the idea of ANALYTiC originated, using active learning to infer semantic annotations from the trajectories by learning from sets of labeled data. This study explores the application of dimensionality reduction and decision boundaries in combination with the already present active learning, highlighting patterns and clusters in data. We test these features with three different trajectory datasets with objective of exploiting the the already labeled data and enhance their interpretability. Our experimental analysis exemplifies the potential of these combined methodologies in improving the efficiency and accuracy of trajectory labeling. This study serves as a stepping-stone towards the broader integration of machine learning and visual methods in contex
     
-[^11]: 基于频谱的图神经网络用于互补商品推荐
+[^12]: 基于频谱的图神经网络用于互补商品推荐
 
     Spectral-based Graph Neutral Networks for Complementary Item Recommendation. (arXiv:2401.02130v1 [cs.IR])
 
@@ -175,7 +190,7 @@
 
     Modeling complementary relationships greatly helps recommender systems to accurately and promptly recommend the subsequent items when one item is purchased. Unlike traditional similar relationships, items with complementary relationships may be purchased successively (such as iPhone and Airpods Pro), and they not only share relevance but also exhibit dissimilarity. Since the two attributes are opposites, modeling complementary relationships is challenging. Previous attempts to exploit these relationships have either ignored or oversimplified the dissimilarity attribute, resulting in ineffective modeling and an inability to balance the two attributes. Since Graph Neural Networks (GNNs) can capture the relevance and dissimilarity between nodes in the spectral domain, we can leverage spectral-based GNNs to effectively understand and model complementary relationships. In this study, we present a novel approach called Spectral-based Complementary Graph Neural Networks (SComGNN) that utilize
     
-[^12]: 推荐系统中的恶意攻击：一项调查
+[^13]: 推荐系统中的恶意攻击：一项调查
 
     Poisoning Attacks against Recommender Systems: A Survey. (arXiv:2401.01527v1 [cs.IR])
 
@@ -189,7 +204,7 @@
 
     Modern recommender systems have seen substantial success, yet they remain vulnerable to malicious activities, notably poisoning attacks. These attacks involve injecting malicious data into the training datasets of RS, thereby compromising their integrity and manipulating recommendation outcomes for gaining illicit profits. This survey paper provides a systematic and up-to-date review of the research landscape on Poisoning Attacks against Recommendation (PAR). A novel and comprehensive taxonomy is proposed, categorizing existing PAR methodologies into three distinct categories: Component-Specific, Goal-Driven, and Capability Probing. For each category, we discuss its mechanism in detail, along with associated methods. Furthermore, this paper highlights potential future research avenues in this domain. Additionally, to facilitate and benchmark the empirical comparison of PAR, we introduce an open-source library, ARLib, which encompasses a comprehensive collection of PAR models and common
     
-[^13]: 多CBR：多视图对比学习用于捆绑推荐
+[^14]: 多CBR：多视图对比学习用于捆绑推荐
 
     MultiCBR: Multi-view Contrastive Learning for Bundle Recommendation. (arXiv:2311.16751v3 [cs.IR] UPDATED)
 
@@ -203,7 +218,7 @@
 
     Bundle recommendation seeks to recommend a bundle of related items to users to improve both user experience and the profits of platform. Existing bundle recommendation models have progressed from capturing only user-bundle interactions to the modeling of multiple relations among users, bundles and items. CrossCBR, in particular, incorporates cross-view contrastive learning into a two-view preference learning framework, significantly improving SOTA performance. It does, however, have two limitations: 1) the two-view formulation does not fully exploit all the heterogeneous relations among users, bundles and items; and 2) the "early contrast and late fusion" framework is less effective in capturing user preference and difficult to generalize to multiple views. In this paper, we present MultiCBR, a novel Multi-view Contrastive learning framework for Bundle Recommendation. First, we devise a multi-view representation learning framework capable of capturing all the user-bundle, user-item and
     
-[^14]: CausalCite：一种论文引用的因果公式化
+[^15]: CausalCite：一种论文引用的因果公式化
 
     CausalCite: A Causal Formulation of Paper Citations. (arXiv:2311.02790v2 [cs.CL] UPDATED)
 
@@ -217,7 +232,7 @@
 
     Evaluating the significance of a paper is pivotal yet challenging for the scientific community. While the citation count is the most commonly used proxy for this purpose, they are widely criticized for failing to accurately reflect a paper's true impact. In this work, we propose a causal inference method, TextMatch, which adapts the traditional matching framework to high-dimensional text embeddings. Specifically, we encode each paper using the text embeddings by large language models (LLMs), extract similar samples by cosine similarity, and synthesize a counterfactual sample by the weighted average of similar papers according to their similarity values. We apply the resulting metric, called CausalCite, as a causal formulation of paper citations. We show its effectiveness on various criteria, such as high correlation with paper impact as reported by scientific experts on a previous dataset of 1K papers, (test-of-time) awards for past papers, and its stability across various sub-fields o
     
-[^15]: 通过领域知识启示的深度学习进行药物推荐
+[^16]: 通过领域知识启示的深度学习进行药物推荐
 
     Medication Recommendation via Domain Knowledge Informed Deep Learning. (arXiv:2305.19604v1 [cs.AI])
 
@@ -231,7 +246,7 @@
 
     Medication recommendation is a fundamental yet crucial branch of healthcare, which provides opportunities to support clinical physicians with more accurate medication prescriptions for patients with complex health conditions. Learning from electronic health records (EHR) to recommend medications is the most common way in previous studies. However, most of them neglect incorporating domain knowledge according to the clinical manifestations in the EHR of the patient. To address these issues, we propose a novel \textbf{D}omain \textbf{K}nowledge \textbf{I}nformed \textbf{Net}work (DKINet) to integrate domain knowledge with observable clinical manifestations of the patient, which is the first dynamic domain knowledge informed framework toward medication recommendation. In particular, we first design a knowledge-driven encoder to capture the domain information and then develop a data-driven encoder to integrate domain knowledge into the observable EHR. To endow the model with the capability
     
-[^16]: 种植的XY模型：热力学和推断
+[^17]: 种植的XY模型：热力学和推断
 
     The planted XY model: thermodynamics and inference. (arXiv:2208.06488v2 [cond-mat.dis-nn] UPDATED)
 
