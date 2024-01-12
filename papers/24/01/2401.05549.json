@@ -1,0 +1,12 @@
+{
+    "title": "Boundary conditions at infinity for Black-Scholes equations. (arXiv:2401.05549v1 [q-fin.MF])",
+    "abstract": "We propose numerical procedures for computing the prices of forward contracts where the underlying asset price is a Markovian local martingale. If the underlying process is a strict local martingale, multiple solutions exist for the corresponding Black-Scholes equations, and the derivative prices are characterized as the minimal solutions. Our prices are upper and lower bounds obtained using numerical methods on a finite grid under the respective boundary conditions. These bounds and the boundary values converge to the exact value as the underlying price approaches infinity. The proposed procedures are demonstrated through numerical tests.",
+    "link": "http://arxiv.org/abs/2401.05549",
+    "context": "Title: Boundary conditions at infinity for Black-Scholes equations. (arXiv:2401.05549v1 [q-fin.MF])\nAbstract: We propose numerical procedures for computing the prices of forward contracts where the underlying asset price is a Markovian local martingale. If the underlying process is a strict local martingale, multiple solutions exist for the corresponding Black-Scholes equations, and the derivative prices are characterized as the minimal solutions. Our prices are upper and lower bounds obtained using numerical methods on a finite grid under the respective boundary conditions. These bounds and the boundary values converge to the exact value as the underlying price approaches infinity. The proposed procedures are demonstrated through numerical tests.",
+    "path": "papers/24/01/2401.05549.json",
+    "total_tokens": 660,
+    "translated_title": "无穷远处的边界条件对于Black-Scholes方程的影响",
+    "translated_abstract": "我们提出了一种用于计算基础资产价格为Markov局部鞅的远期合约价格的数值方法。如果基础过程是严格的局部鞅，相应的Black-Scholes方程存在多个解，并且衍生品价格被表征为最小解。我们使用数值方法在有限网格上根据相应的边界条件获得上下界。随着基础价格趋于无穷大，这些界和边界值逼近准确值。我们通过数值测试验证了所提出的方法。",
+    "tldr": "提出了一种计算Markov局部鞅情况下远期合约价格的数值方法，通过有限网格和边界条件获得上下界，并且在无穷大时逼近准确值。",
+    "en_tdlr": "A numerical method is proposed to compute forward contract prices for Markovian local martingales, with upper and lower bounds obtained using finite grids and boundary conditions, which converge to the exact value as the underlying price approaches infinity."
+}

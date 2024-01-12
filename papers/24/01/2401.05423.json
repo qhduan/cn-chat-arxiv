@@ -1,0 +1,11 @@
+{
+    "title": "Introduction of L0 norm and application of L1 and C1 norm in the study of time-series. (arXiv:2401.05423v1 [q-fin.ST])",
+    "abstract": "Four markets are considered: Cryptocurrencies / South American exchange rate / Spanish Banking indices and European Indices and studied using TDA (Topological Data Analysis) tools. These tools are used to predict and showcase both strengths and weakness of the current TDA tools. In this paper a new tool $L0$ norm is defined and complemented with the already existing $C1$ norm.",
+    "link": "http://arxiv.org/abs/2401.05423",
+    "context": "Title: Introduction of L0 norm and application of L1 and C1 norm in the study of time-series. (arXiv:2401.05423v1 [q-fin.ST])\nAbstract: Four markets are considered: Cryptocurrencies / South American exchange rate / Spanish Banking indices and European Indices and studied using TDA (Topological Data Analysis) tools. These tools are used to predict and showcase both strengths and weakness of the current TDA tools. In this paper a new tool $L0$ norm is defined and complemented with the already existing $C1$ norm.",
+    "path": "papers/24/01/2401.05423.json",
+    "total_tokens": 605,
+    "translated_title": "L0范数引入及L1和C1范数在时间序列研究中的应用",
+    "translated_abstract": "本文考虑了四个市场：加密货币/南美汇率/西班牙银行指数和欧洲指数，并使用拓扑数据分析（TDA）工具进行研究。这些工具被用来预测和展示当前TDA工具的优缺点。在本文中，引入了一种新的工具L0范数，并与已有的C1范数进行了补充。",
+    "tldr": "该论文引入了一种新的工具L0范数，并通过与已有的C1范数的补充，在时间序列研究中应用于预测和展示市场行为的优缺点。"
+}

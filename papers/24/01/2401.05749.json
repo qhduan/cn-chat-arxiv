@@ -1,0 +1,12 @@
+{
+    "title": "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism. (arXiv:2401.05749v1 [cs.CL])",
+    "abstract": "We show that content on the web is often translated into many languages, and the low quality of these multi-way translations indicates they were likely created using Machine Translation (MT). Multi-way parallel, machine generated content not only dominates the translations in lower resource languages; it also constitutes a large fraction of the total web content in those languages. We also find evidence of a selection bias in the type of content which is translated into many languages, consistent with low quality English content being translated en masse into many lower resource languages, via MT. Our work raises serious concerns about training models such as multilingual large language models on both monolingual and bilingual data scraped from the web.",
+    "link": "http://arxiv.org/abs/2401.05749",
+    "context": "Title: A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism. (arXiv:2401.05749v1 [cs.CL])\nAbstract: We show that content on the web is often translated into many languages, and the low quality of these multi-way translations indicates they were likely created using Machine Translation (MT). Multi-way parallel, machine generated content not only dominates the translations in lower resource languages; it also constitutes a large fraction of the total web content in those languages. We also find evidence of a selection bias in the type of content which is translated into many languages, consistent with low quality English content being translated en masse into many lower resource languages, via MT. Our work raises serious concerns about training models such as multilingual large language models on both monolingual and bilingual data scraped from the web.",
+    "path": "papers/24/01/2401.05749.json",
+    "total_tokens": 759,
+    "translated_title": "互联网上的大量内容都是机器翻译的：来自多向并行性的洞察",
+    "translated_abstract": "我们展示了互联网上的内容经常被翻译成多种语言，并且这些多向翻译的低质量表明它们很可能是使用机器翻译（MT）创建的。多向并行的机器生成内容不仅在资源较少的语言中占主导地位，而且构成该语言中总体网页内容的很大一部分。我们还发现证据表明，被翻译成多种语言的内容存在选择性偏差，与将低质量英文内容通过机器翻译大规模翻译成许多资源较少的语言一致。我们的工作对于在网络上从单语和双语数据训练多语言大型语言模型等模型提出了严重的担忧。",
+    "tldr": "互联网上的大量内容是通过机器翻译多向翻译的，其低质量可能会对使用多语言大型语言模型进行训练产生严重影响。",
+    "en_tdlr": "A significant amount of web content is translated using machine translation, and the low quality of these translations raises concerns about training multilingual large language models."
+}

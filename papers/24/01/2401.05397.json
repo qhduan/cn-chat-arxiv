@@ -1,0 +1,12 @@
+{
+    "title": "Hyperspectral Lightcurve Inversion for Attitude Determination. (arXiv:2401.05397v1 [eess.SP])",
+    "abstract": "Spectral lightcurves consisting of time series single-pixel spectral measurements of spacecraft are used to infer the spacecraft's attitude and rotation. Two methods are used. One based on numerical optimisation of a regularised least squares cost function, and another based on machine learning with a neural network model. The aim is to work with minimal information, thus no prior is available on the attitude nor on the inertia tensor. The theoretical and practical aspects of this task are investigated, and the methodology is tested on synthetic data. Results are shown based on synthetic data.",
+    "link": "http://arxiv.org/abs/2401.05397",
+    "context": "Title: Hyperspectral Lightcurve Inversion for Attitude Determination. (arXiv:2401.05397v1 [eess.SP])\nAbstract: Spectral lightcurves consisting of time series single-pixel spectral measurements of spacecraft are used to infer the spacecraft's attitude and rotation. Two methods are used. One based on numerical optimisation of a regularised least squares cost function, and another based on machine learning with a neural network model. The aim is to work with minimal information, thus no prior is available on the attitude nor on the inertia tensor. The theoretical and practical aspects of this task are investigated, and the methodology is tested on synthetic data. Results are shown based on synthetic data.",
+    "path": "papers/24/01/2401.05397.json",
+    "total_tokens": 674,
+    "translated_title": "准确度测定的高光谱光变反演",
+    "translated_abstract": "利用由航天器的时间序列单像素光谱测量组成的光谱光变，推断航天器的姿态和旋转。采用两种方法，一种是基于正则化最小二乘代价函数的数值优化，另一种是基于神经网络模型的机器学习。目标是在最小的信息条件下进行工作，因此没有关于姿态和惯性张量的先验信息。研究了这个任务的理论和实际方面，并在合成数据上测试了方法。结果基于合成数据展示。",
+    "tldr": "该论文研究了利用高光谱光变推断航天器姿态和旋转的方法。通过数值优化和机器学习两种方法，利用最小信息条件完成准确度测定任务，并在合成数据上进行了测试。",
+    "en_tdlr": "This paper investigates the method of using hyperspectral lightcurves to infer spacecraft attitude and rotation. The task is performed with minimal information using numerical optimization and machine learning, and is tested on synthetic data."
+}

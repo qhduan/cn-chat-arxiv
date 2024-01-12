@@ -1,0 +1,12 @@
+{
+    "title": "The recursive scheme of clustering. (arXiv:2401.05479v1 [cs.LG])",
+    "abstract": "The problem of data clustering is one of the most important in data analysis. It can be problematic when dealing with experimental data characterized by measurement uncertainties and errors. Our paper proposes a recursive scheme for clustering data obtained in geographical (climatological) experiments. The discussion of results obtained by k-means and SOM methods with the developed recursive procedure is presented. We show that the clustering using the new approach gives more acceptable results when compared to experts assessments.",
+    "link": "http://arxiv.org/abs/2401.05479",
+    "context": "Title: The recursive scheme of clustering. (arXiv:2401.05479v1 [cs.LG])\nAbstract: The problem of data clustering is one of the most important in data analysis. It can be problematic when dealing with experimental data characterized by measurement uncertainties and errors. Our paper proposes a recursive scheme for clustering data obtained in geographical (climatological) experiments. The discussion of results obtained by k-means and SOM methods with the developed recursive procedure is presented. We show that the clustering using the new approach gives more acceptable results when compared to experts assessments.",
+    "path": "papers/24/01/2401.05479.json",
+    "total_tokens": 566,
+    "translated_title": "聚类的递归方案",
+    "translated_abstract": "数据聚类问题是数据分析中最重要的问题之一。当处理具有测量不确定性和误差的实验数据时，这可能是有问题的。我们的论文提出了一种递归方案，用于聚类在地理（气候）实验中获得的数据。我们展示了使用新方法进行的聚类与专家评估相比给出更可接受的结果。",
+    "tldr": "这篇论文提出了一个递归的聚类方案，用于处理具有测量误差的实验数据，在地理实验中，我们展示了该方法相比于传统方法给出更好的结果。",
+    "en_tdlr": "This paper proposes a recursive clustering scheme for dealing with experimental data characterized by measurement uncertainties. It shows that the new approach gives more acceptable results compared to traditional methods in geographical experiments."
+}

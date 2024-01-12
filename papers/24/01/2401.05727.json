@@ -1,0 +1,12 @@
+{
+    "title": "Zero Resource Cross-Lingual Part Of Speech Tagging. (arXiv:2401.05727v1 [cs.CL])",
+    "abstract": "Part of speech tagging in zero-resource settings can be an effective approach for low-resource languages when no labeled training data is available. Existing systems use two main techniques for POS tagging i.e. pretrained multilingual large language models(LLM) or project the source language labels into the zero resource target language and train a sequence labeling model on it. We explore the latter approach using the off-the-shelf alignment module and train a hidden Markov model(HMM) to predict the POS tags. We evaluate transfer learning setup with English as a source language and French, German, and Spanish as target languages for part-of-speech tagging. Our conclusion is that projected alignment data in zero-resource language can be beneficial to predict POS tags.",
+    "link": "http://arxiv.org/abs/2401.05727",
+    "context": "Title: Zero Resource Cross-Lingual Part Of Speech Tagging. (arXiv:2401.05727v1 [cs.CL])\nAbstract: Part of speech tagging in zero-resource settings can be an effective approach for low-resource languages when no labeled training data is available. Existing systems use two main techniques for POS tagging i.e. pretrained multilingual large language models(LLM) or project the source language labels into the zero resource target language and train a sequence labeling model on it. We explore the latter approach using the off-the-shelf alignment module and train a hidden Markov model(HMM) to predict the POS tags. We evaluate transfer learning setup with English as a source language and French, German, and Spanish as target languages for part-of-speech tagging. Our conclusion is that projected alignment data in zero-resource language can be beneficial to predict POS tags.",
+    "path": "papers/24/01/2401.05727.json",
+    "total_tokens": 733,
+    "translated_title": "零资源跨语言词性标注",
+    "translated_abstract": "在零资源情况下，词性标注可以是低资源语言中没有标记训练数据时的有效方法。现有的系统使用两种主要技术进行词性标注，即预训练的多语言大型语言模型（LLM）或将源语言标签投射到零资源目标语言中，并在其上训练序列标注模型。我们使用现成的对齐模块和训练隐马尔可夫模型（HMM）来预测词性标签，并评估了以英语为源语言，法语、德语和西班牙语为目标语言的转移学习设置用于词性标注。我们的结论是，使用投射的对齐数据在零资源语言中可以有益于预测词性标签。",
+    "tldr": "本研究探索了在零资源语言中使用投射的对齐数据进行词性标注的方法，并发现该方法对于预测词性标签是有益的。",
+    "en_tdlr": "This research explores the method of using projected alignment data for part-of-speech tagging in zero-resource languages and finds it beneficial for predicting POS tags."
+}

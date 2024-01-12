@@ -1,0 +1,11 @@
+{
+    "title": "GeoAI in Social Science. (arXiv:2401.05398v1 [cs.CY])",
+    "abstract": "GeoAI, or geospatial artificial intelligence, is an exciting new area that leverages artificial intelligence (AI), geospatial big data, and massive computing power to solve problems with high automation and intelligence. This paper reviews the progress of AI in social science research, highlighting important advancements in using GeoAI to fill critical data and knowledge gaps. It also discusses the importance of breaking down data silos, accelerating convergence among GeoAI research methods, as well as moving GeoAI beyond geospatial benefits.",
+    "link": "http://arxiv.org/abs/2401.05398",
+    "context": "Title: GeoAI in Social Science. (arXiv:2401.05398v1 [cs.CY])\nAbstract: GeoAI, or geospatial artificial intelligence, is an exciting new area that leverages artificial intelligence (AI), geospatial big data, and massive computing power to solve problems with high automation and intelligence. This paper reviews the progress of AI in social science research, highlighting important advancements in using GeoAI to fill critical data and knowledge gaps. It also discusses the importance of breaking down data silos, accelerating convergence among GeoAI research methods, as well as moving GeoAI beyond geospatial benefits.",
+    "path": "papers/24/01/2401.05398.json",
+    "total_tokens": 658,
+    "translated_title": "社会科学中的地理人工智能",
+    "translated_abstract": "地理人工智能（GeoAI）是一个新颖的领域，利用人工智能（AI）、地理大数据和庞大的计算能力来解决高度自动化和智能化的问题。本文回顾了在社会科学研究中应用人工智能的进展，突出了利用GeoAI填补重要数据和知识空白的重要进展。同时，讨论了打破数据孤岛、加快GeoAI研究方法的融合以及将GeoAI推广应用到地理领域之外的重要性。",
+    "tldr": "GeoAI在社会科学研究中取得了重要进展，通过利用人工智能和地理大数据填补数据和知识空白，并促进了研究方法的融合和应用领域的拓展。"
+}

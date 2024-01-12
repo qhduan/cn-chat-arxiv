@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Estimation of Random Vectors with Bandit Feedback: A mean-squared error viewpoint. (arXiv:2203.16810v3 [cs.LG] UPDATED)",
+    "abstract": "We consider the problem of sequentially learning to estimate, in the mean squared error (MSE) sense, a Gaussian $K$-vector of unknown covariance by observing only $m < K$ of its entries in each round. We first establish a concentration bound for MSE estimation. We then frame the estimation problem with bandit feedback, and propose a variant of the successive elimination algorithm. We also derive a minimax lower bound to understand the fundamental limit on the sample complexity of this problem.",
+    "link": "http://arxiv.org/abs/2203.16810",
+    "context": "Title: Adaptive Estimation of Random Vectors with Bandit Feedback: A mean-squared error viewpoint. (arXiv:2203.16810v3 [cs.LG] UPDATED)\nAbstract: We consider the problem of sequentially learning to estimate, in the mean squared error (MSE) sense, a Gaussian $K$-vector of unknown covariance by observing only $m < K$ of its entries in each round. We first establish a concentration bound for MSE estimation. We then frame the estimation problem with bandit feedback, and propose a variant of the successive elimination algorithm. We also derive a minimax lower bound to understand the fundamental limit on the sample complexity of this problem.",
+    "path": "papers/22/03/2203.16810.json",
+    "total_tokens": 700,
+    "translated_title": "自适应估计带有赌博反馈的随机向量：从均方误差视角来看",
+    "translated_abstract": "本文考虑在每轮观察仅有$ m < K $个未知协方差的高斯$ K $向量的问题下，通过均方误差（MSE）估计顺序学习。我们首先建立了MSE估计的集中界限。然后，我们使用赌博反馈的方法重新构建估计问题，并提出了一种连续消除算法的变体。我们还导出了一个极小值下界，以了解该问题样本复杂性的基本限制。",
+    "tldr": "本文研究了在每轮仅观察部分未知协方差的高斯向量情况下，通过均方误差估计的顺序学习问题，并提出了连续消除算法的一种变体。同时，导出了样本复杂性的极小值下界。",
+    "en_tdlr": "This paper investigates the problem of sequentially learning to estimate a Gaussian vector with unknown covariance by observing only a subset of its entries in each round. An algorithm variant of successive elimination is proposed for estimation with bandit feedback, and a minimax lower bound on sample complexity is derived."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Autoregressive fragment-based diffusion for pocket-aware ligand design. (arXiv:2401.05370v1 [q-bio.BM])",
+    "abstract": "In this work, we introduce AutoFragDiff, a fragment-based autoregressive diffusion model for generating 3D molecular structures conditioned on target protein structures. We employ geometric vector perceptrons to predict atom types and spatial coordinates of new molecular fragments conditioned on molecular scaffolds and protein pockets. Our approach improves the local geometry of the resulting 3D molecules while maintaining high predicted binding affinity to protein targets. The model can also perform scaffold extension from user-provided starting molecular scaffold.",
+    "link": "http://arxiv.org/abs/2401.05370",
+    "context": "Title: Autoregressive fragment-based diffusion for pocket-aware ligand design. (arXiv:2401.05370v1 [q-bio.BM])\nAbstract: In this work, we introduce AutoFragDiff, a fragment-based autoregressive diffusion model for generating 3D molecular structures conditioned on target protein structures. We employ geometric vector perceptrons to predict atom types and spatial coordinates of new molecular fragments conditioned on molecular scaffolds and protein pockets. Our approach improves the local geometry of the resulting 3D molecules while maintaining high predicted binding affinity to protein targets. The model can also perform scaffold extension from user-provided starting molecular scaffold.",
+    "path": "papers/24/01/2401.05370.json",
+    "total_tokens": 713,
+    "translated_title": "基于自回归片段扩散的结合位感知配体设计",
+    "translated_abstract": "在这项工作中，我们引入了AutoFragDiff，一种基于片段的自回归扩散模型，用于根据目标蛋白结构生成3D分子结构。我们使用几何向量感知器来预测分子骨架和蛋白负袋条件下新分子片段的原子类型和空间坐标。我们的方法改善了生成的3D分子的局部几何结构，同时保持高预测的结合亲和力。该模型还可以根据用户提供的起始分子骨架进行扩展。",
+    "tldr": "引入了AutoFragDiff，一种基于片段的自回归扩散模型，用于生成3D分子结构。通过预测分子片段的原子类型和空间坐标，改善了生成分子的局部几何结构，并保持高的结合亲和力。如果提供起始分子骨架，模型还可以进行扩展。",
+    "en_tdlr": "Introducing AutoFragDiff, a fragment-based autoregressive diffusion model for generating 3D molecular structures. Improving local geometry and maintaining high binding affinity by predicting atom types and spatial coordinates of molecular fragments. The model can also extend from user-provided starting molecular scaffold."
+}

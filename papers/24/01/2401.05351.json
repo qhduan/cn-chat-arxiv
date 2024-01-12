@@ -1,0 +1,11 @@
+{
+    "title": "Rethinking Performance Measures of RNA Secondary Structure Problems. (arXiv:2401.05351v1 [q-bio.BM])",
+    "abstract": "Accurate RNA secondary structure prediction is vital for understanding cellular regulation and disease mechanisms. Deep learning (DL) methods have surpassed traditional algorithms by predicting complex features like pseudoknots and multi-interacting base pairs. However, traditional distance measures can hardly deal with such tertiary interactions and the currently used evaluation measures (F1 score, MCC) have limitations. We propose the Weisfeiler-Lehman graph kernel (WL) as an alternative metric. Embracing graph-based metrics like WL enables fair and accurate evaluation of RNA structure prediction algorithms. Further, WL provides informative guidance, as demonstrated in an RNA design experiment.",
+    "link": "http://arxiv.org/abs/2401.05351",
+    "context": "Title: Rethinking Performance Measures of RNA Secondary Structure Problems. (arXiv:2401.05351v1 [q-bio.BM])\nAbstract: Accurate RNA secondary structure prediction is vital for understanding cellular regulation and disease mechanisms. Deep learning (DL) methods have surpassed traditional algorithms by predicting complex features like pseudoknots and multi-interacting base pairs. However, traditional distance measures can hardly deal with such tertiary interactions and the currently used evaluation measures (F1 score, MCC) have limitations. We propose the Weisfeiler-Lehman graph kernel (WL) as an alternative metric. Embracing graph-based metrics like WL enables fair and accurate evaluation of RNA structure prediction algorithms. Further, WL provides informative guidance, as demonstrated in an RNA design experiment.",
+    "path": "papers/24/01/2401.05351.json",
+    "total_tokens": 740,
+    "translated_title": "重新思考RNA二级结构问题的性能度量方法",
+    "translated_abstract": "准确的RNA二级结构预测对于理解细胞调控和疾病机制至关重要。深度学习（DL）方法通过预测伪结和多种相互作用的碱基对等复杂特征，已经超越了传统算法。然而，传统的距离度量在处理这种三级相互作用时很困难，目前使用的评估指标（F1分数，MCC）存在局限性。我们提出了Weisfeiler-Lehman图核（WL）作为一种替代度量方式。采用像WL这样的基于图的指标能够公平而准确地评估RNA结构预测算法。此外，WL提供了有信息量的指导，如在RNA设计实验中的展示。",
+    "tldr": "传统的RNA二级结构预测评估指标存在局限性，我们提出了一种基于图核的度量方法，能够公平准确地评估RNA结构预测算法，并在RNA设计实验中展示了其信息指导性。"
+}

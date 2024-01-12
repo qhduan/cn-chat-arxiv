@@ -1,0 +1,12 @@
+{
+    "title": "Consistent Query Answering for Existential Rules under Tuple-Deletion Semantics. (arXiv:2401.05743v1 [cs.AI])",
+    "abstract": "We study consistent query answering over knowledge bases expressed by existential rules. Specifically, we establish the data complexity of consistent query answering and repair checking under tuple-deletion semantics for a general class of disjunctive existential rules and for several subclasses thereof (acyclic, linear, full, guarded, and sticky). In particular, we identify several cases in which the above problems are tractable or even first-order rewritable, and present new query rewriting techniques that can be the basis for practical inconsistency-tolerant query answering systems.",
+    "link": "http://arxiv.org/abs/2401.05743",
+    "context": "Title: Consistent Query Answering for Existential Rules under Tuple-Deletion Semantics. (arXiv:2401.05743v1 [cs.AI])\nAbstract: We study consistent query answering over knowledge bases expressed by existential rules. Specifically, we establish the data complexity of consistent query answering and repair checking under tuple-deletion semantics for a general class of disjunctive existential rules and for several subclasses thereof (acyclic, linear, full, guarded, and sticky). In particular, we identify several cases in which the above problems are tractable or even first-order rewritable, and present new query rewriting techniques that can be the basis for practical inconsistency-tolerant query answering systems.",
+    "path": "papers/24/01/2401.05743.json",
+    "total_tokens": 750,
+    "translated_title": "在元组删除语义下的存在规则一致性查询回答",
+    "translated_abstract": "我们研究了基于存在规则的知识库的一致性查询回答。具体地，我们确定了在元组删除语义下一般类别的多义存在规则以及其若干子类别（无环、线性、完全、保护和粘滞）的一致性查询回答和修复检查的数据复杂性。特别地，我们识别出了几种情况，在这些情况下这些问题是可处理的，甚至可以进行一阶重写，并呈现了新的查询重写技术，可以成为实用的容忍不一致性查询回答系统的基础。",
+    "tldr": "我们研究了存在规则下基于元组删除语义的一致性查询回答，并确定了一般类别和若干子类别的数据复杂性。我们发现在某些情况下这些问题是可处理的，甚至可以进行一阶重写。这项研究提出了新的查询重写技术，可用于实现容忍不一致性的查询回答系统。",
+    "en_tdlr": "We study consistent query answering under tuple-deletion semantics for existential rules and establish their data complexity. We identify cases in which these problems are tractable or even first-order rewritable. The research presents new query rewriting techniques that can be utilized for implementing inconsistency-tolerant query answering systems."
+}

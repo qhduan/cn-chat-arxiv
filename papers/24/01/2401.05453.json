@@ -1,0 +1,11 @@
+{
+    "title": "Dimensionality-Aware Outlier Detection: Theoretical and Experimental Analysis. (arXiv:2401.05453v1 [cs.LG])",
+    "abstract": "We present a nonparametric method for outlier detection that takes full account of local variations in intrinsic dimensionality within the dataset. Using the theory of Local Intrinsic Dimensionality (LID), our 'dimensionality-aware' outlier detection method, DAO, is derived as an estimator of an asymptotic local expected density ratio involving the query point and a close neighbor drawn at random. The dimensionality-aware behavior of DAO is due to its use of local estimation of LID values in a theoretically-justified way. Through comprehensive experimentation on more than 800 synthetic and real datasets, we show that DAO significantly outperforms three popular and important benchmark outlier detection methods: Local Outlier Factor (LOF), Simplified LOF, and kNN.",
+    "link": "http://arxiv.org/abs/2401.05453",
+    "context": "Title: Dimensionality-Aware Outlier Detection: Theoretical and Experimental Analysis. (arXiv:2401.05453v1 [cs.LG])\nAbstract: We present a nonparametric method for outlier detection that takes full account of local variations in intrinsic dimensionality within the dataset. Using the theory of Local Intrinsic Dimensionality (LID), our 'dimensionality-aware' outlier detection method, DAO, is derived as an estimator of an asymptotic local expected density ratio involving the query point and a close neighbor drawn at random. The dimensionality-aware behavior of DAO is due to its use of local estimation of LID values in a theoretically-justified way. Through comprehensive experimentation on more than 800 synthetic and real datasets, we show that DAO significantly outperforms three popular and important benchmark outlier detection methods: Local Outlier Factor (LOF), Simplified LOF, and kNN.",
+    "path": "papers/24/01/2401.05453.json",
+    "total_tokens": 730,
+    "translated_title": "维度感知的异常检测：理论和实验分析",
+    "translated_abstract": "我们提出了一种非参数异常检测方法，该方法充分考虑了数据集内在维度的局部变化。通过使用局部内在维度（LID）理论，我们得到了一种维度感知的异常检测方法DAO，它被推导为一个包含查询点和随机选择的近邻的渐近局部期望密度比的估计。DAO的维度感知行为是由于它以理论上证明的方式使用局部LID值的局部估计。通过对800多个合成和真实数据集的全面实验，我们证明DAO明显优于三种流行且重要的基准异常检测方法：局部离群因子（LOF），简化版LOF和kNN。",
+    "tldr": "这篇论文提出了一种维度感知的异常检测方法DAO，通过全面实验验证了其在800多个数据集上显著优于其他三种流行的异常检测方法。"
+}

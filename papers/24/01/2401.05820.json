@@ -1,0 +1,12 @@
+{
+    "title": "Implications of Noise in Resistive Memory on Deep Neural Networks for Image Classification. (arXiv:2401.05820v1 [cs.LG])",
+    "abstract": "Resistive memory is a promising alternative to SRAM, but is also an inherently unstable device that requires substantial effort to ensure correct read and write operations. To avoid the associated costs in terms of area, time and energy, the present work is concerned with exploring how much noise in memory operations can be tolerated by image classification tasks based on neural networks. We introduce a special noisy operator that mimics the noise in an exemplary resistive memory unit, explore the resilience of convolutional neural networks on the CIFAR-10 classification task, and discuss a couple of countermeasures to improve this resilience.",
+    "link": "http://arxiv.org/abs/2401.05820",
+    "context": "Title: Implications of Noise in Resistive Memory on Deep Neural Networks for Image Classification. (arXiv:2401.05820v1 [cs.LG])\nAbstract: Resistive memory is a promising alternative to SRAM, but is also an inherently unstable device that requires substantial effort to ensure correct read and write operations. To avoid the associated costs in terms of area, time and energy, the present work is concerned with exploring how much noise in memory operations can be tolerated by image classification tasks based on neural networks. We introduce a special noisy operator that mimics the noise in an exemplary resistive memory unit, explore the resilience of convolutional neural networks on the CIFAR-10 classification task, and discuss a couple of countermeasures to improve this resilience.",
+    "path": "papers/24/01/2401.05820.json",
+    "total_tokens": 694,
+    "translated_title": "阻抗记忆中的噪声对图像分类深度神经网络的影响",
+    "translated_abstract": "阻抗存储是一种有前景的SRAM替代品，但也是一种固有不稳定的设备，需要大量的努力确保正确的读写操作。为了避免在面积、时间和能量方面的相关成本，本研究致力于探索基于神经网络的图像分类任务可以容忍多少内存操作中的噪声。我们引入了一种特殊的噪声操作符，模拟示例阻抗存储单元中的噪声，探索了卷积神经网络在CIFAR-10分类任务上的弹性，并讨论了一些提高这种弹性的对策。",
+    "tldr": "本研究探索了阻抗记忆中的噪声对基于神经网络的图像分类任务的影响，并提出了一些提高弹性的对策。",
+    "en_tdlr": "This study explores the implications of noise in resistive memory on image classification tasks based on neural networks, and proposes countermeasures to improve resilience."
+}

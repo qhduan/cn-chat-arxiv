@@ -1,0 +1,12 @@
+{
+    "title": "On the Three Demons in Causality in Finance: Time Resolution, Nonstationarity, and Latent Factors. (arXiv:2401.05414v1 [q-fin.ST])",
+    "abstract": "Financial data is generally time series in essence and thus suffers from three fundamental issues: the mismatch in time resolution, the time-varying property of the distribution - nonstationarity, and causal factors that are important but unknown/unobserved. In this paper, we follow a causal perspective to systematically look into these three demons in finance. Specifically, we reexamine these issues in the context of causality, which gives rise to a novel and inspiring understanding of how the issues can be addressed. Following this perspective, we provide systematic solutions to these problems, which hopefully would serve as a foundation for future research in the area.",
+    "link": "http://arxiv.org/abs/2401.05414",
+    "context": "Title: On the Three Demons in Causality in Finance: Time Resolution, Nonstationarity, and Latent Factors. (arXiv:2401.05414v1 [q-fin.ST])\nAbstract: Financial data is generally time series in essence and thus suffers from three fundamental issues: the mismatch in time resolution, the time-varying property of the distribution - nonstationarity, and causal factors that are important but unknown/unobserved. In this paper, we follow a causal perspective to systematically look into these three demons in finance. Specifically, we reexamine these issues in the context of causality, which gives rise to a novel and inspiring understanding of how the issues can be addressed. Following this perspective, we provide systematic solutions to these problems, which hopefully would serve as a foundation for future research in the area.",
+    "path": "papers/24/01/2401.05414.json",
+    "total_tokens": 693,
+    "translated_title": "关于金融中的三个因果性困境: 时间分辨率、非平稳性和潜在因素",
+    "translated_abstract": "金融数据本质上是时间序列数据，因此存在三个基本问题：时间分辨率不匹配、分布的时变性-非平稳性以及重要但未知/未观测的因果因素。在本文中，我们从因果性的角度系统地研究金融中的这三个困境。具体而言，我们重新审视了这些问题，并在因果性的背景下提出了新颖而有启发性的解决方案，为未来研究提供一个基础。",
+    "tldr": "本文从因果性的角度系统研究了金融领域中的三个困境：时间分辨率不匹配、非平稳性和未知因果因素，并提出了解决方案。",
+    "en_tdlr": "This paper systematically investigates the three demons in finance - mismatch in time resolution, nonstationarity, and unknown causal factors - from a causal perspective, and proposes solutions to address these issues."
+}

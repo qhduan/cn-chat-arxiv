@@ -1,0 +1,12 @@
+{
+    "title": "Generative Deduplication For Socia Media Data Selection. (arXiv:2401.05883v1 [cs.CL])",
+    "abstract": "Social media data is plagued by the redundancy problem caused by its noisy nature, leading to increased training time and model bias. To address this issue, we propose a novel approach called generative duplication. It aims to remove duplicate text from noisy social media data and mitigate model bias. By doing so, it can improve social media language understanding performance and save training time. Extensive experiments demonstrate that the proposed generative deduplication can effectively reduce training samples while improving performance. This evidence suggests the effectiveness of generative deduplication and its importance in social media language understanding.",
+    "link": "http://arxiv.org/abs/2401.05883",
+    "context": "Title: Generative Deduplication For Socia Media Data Selection. (arXiv:2401.05883v1 [cs.CL])\nAbstract: Social media data is plagued by the redundancy problem caused by its noisy nature, leading to increased training time and model bias. To address this issue, we propose a novel approach called generative duplication. It aims to remove duplicate text from noisy social media data and mitigate model bias. By doing so, it can improve social media language understanding performance and save training time. Extensive experiments demonstrate that the proposed generative deduplication can effectively reduce training samples while improving performance. This evidence suggests the effectiveness of generative deduplication and its importance in social media language understanding.",
+    "path": "papers/24/01/2401.05883.json",
+    "total_tokens": 696,
+    "translated_title": "社交媒体数据选择的生成去重方法",
+    "translated_abstract": "社交媒体数据受其噪声特性的影响，存在冗余问题，导致训练时间增加和模型偏差。为了解决这个问题，我们提出了一种新颖的方法，称为生成去重。它旨在从嘈杂的社交媒体数据中删除重复的文本，并减轻模型偏差。通过这样做，它可以提高社交媒体语言理解性能并节省训练时间。大量实验证明，提出的生成去重方法可以有效减少训练样本的同时提高性能。这一证据表明生成去重的有效性及其在社交媒体语言理解中的重要性。",
+    "tldr": "提出了一种名为生成去重的方法，用于解决社交媒体数据中的冗余问题和模型偏差。通过删除重复的文本，可以提高语言理解性能并节省训练时间。",
+    "en_tdlr": "A novel approach called generative deduplication is proposed to address the redundancy problem and model bias in social media data. By removing duplicate text, it improves language understanding performance and saves training time."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "FourCastNeXt: Improving FourCastNet Training with Limited Compute. (arXiv:2401.05584v1 [cs.CV])",
+    "abstract": "Recently, the FourCastNet Neural Earth System Model (NESM) has shown impressive results on predicting various atmospheric variables, trained on the ERA5 reanalysis dataset. While FourCastNet enjoys quasi-linear time and memory complexity in sequence length compared to quadratic complexity in vanilla transformers, training FourCastNet on ERA5 from scratch still requires large amount of compute resources, which is expensive or even inaccessible to most researchers. In this work, we will show improved methods that can train FourCastNet using only 1% of the compute required by the baseline, while maintaining model performance or par or even better than the baseline.",
+    "link": "http://arxiv.org/abs/2401.05584",
+    "context": "Title: FourCastNeXt: Improving FourCastNet Training with Limited Compute. (arXiv:2401.05584v1 [cs.CV])\nAbstract: Recently, the FourCastNet Neural Earth System Model (NESM) has shown impressive results on predicting various atmospheric variables, trained on the ERA5 reanalysis dataset. While FourCastNet enjoys quasi-linear time and memory complexity in sequence length compared to quadratic complexity in vanilla transformers, training FourCastNet on ERA5 from scratch still requires large amount of compute resources, which is expensive or even inaccessible to most researchers. In this work, we will show improved methods that can train FourCastNet using only 1% of the compute required by the baseline, while maintaining model performance or par or even better than the baseline.",
+    "path": "papers/24/01/2401.05584.json",
+    "total_tokens": 726,
+    "translated_title": "FourCastNeXt：用有限计算资源提高FourCastNet的训练效果",
+    "translated_abstract": "最近，FourCastNet神经地球系统模型（NESM）在预测各种大气变量方面表现出了令人印象深刻的结果，该模型在ERA5再分析数据集上进行了训练。虽然与基本变压器相比，FourCastNet在序列长度上享有准线性的时间和内存复杂度，而基于ERA5从头开始训练FourCastNet仍然需要大量的计算资源，这对于大多数研究人员来说是昂贵甚至无法获得的。在本文中，我们将展示改进的方法，可以使用仅需要基线要求的1%计算资源来训练FourCastNet，同时保持模型性能至少与基线相当甚至更好。",
+    "tldr": "本研究提出了改进的方法，可以使用仅需基线要求的1%计算资源训练FourCastNet，并且保持了与基线相当或甚至更好的模型性能。",
+    "en_tdlr": "This paper presents improved methods to train FourCastNet using only 1% of the compute required by the baseline, while maintaining model performance on par or even better than the baseline."
+}

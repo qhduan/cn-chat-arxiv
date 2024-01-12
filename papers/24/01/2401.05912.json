@@ -1,0 +1,12 @@
+{
+    "title": "Prompt-based mental health screening from social media text. (arXiv:2401.05912v1 [cs.CL])",
+    "abstract": "This article presents a method for prompt-based mental health screening from a large and noisy dataset of social media text. Our method uses GPT 3.5. prompting to distinguish publications that may be more relevant to the task, and then uses a straightforward bag-of-words text classifier to predict actual user labels. Results are found to be on pair with a BERT mixture of experts classifier, and incurring only a fraction of its computational costs.",
+    "link": "http://arxiv.org/abs/2401.05912",
+    "context": "Title: Prompt-based mental health screening from social media text. (arXiv:2401.05912v1 [cs.CL])\nAbstract: This article presents a method for prompt-based mental health screening from a large and noisy dataset of social media text. Our method uses GPT 3.5. prompting to distinguish publications that may be more relevant to the task, and then uses a straightforward bag-of-words text classifier to predict actual user labels. Results are found to be on pair with a BERT mixture of experts classifier, and incurring only a fraction of its computational costs.",
+    "path": "papers/24/01/2401.05912.json",
+    "total_tokens": 597,
+    "translated_title": "从社交媒体文本中提取提示信息进行心理健康筛查",
+    "translated_abstract": "本文提出了一种从大规模嘈杂的社交媒体文本数据集中进行基于提示的心理健康筛查的方法。我们的方法利用GPT 3.5进行提示，以区分可能与任务相关的出版物，然后使用简单的词袋文本分类器预测实际用户标签。结果显示，该方法与BERT混合专家分类器相当，并且只需要一小部分计算成本。",
+    "tldr": "本文提出了一种利用提示信息进行社交媒体文本的心理健康筛查方法，结果与BERT混合专家分类器相当，但计算成本更低。",
+    "en_tdlr": "This article presents a method for prompt-based mental health screening from a large and noisy dataset of social media text. The method achieves comparable results to the BERT mixture of experts classifier but at a fraction of its computational costs."
+}

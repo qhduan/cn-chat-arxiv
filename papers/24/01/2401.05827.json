@@ -1,0 +1,12 @@
+{
+    "title": "Hallucination Benchmark in Medical Visual Question Answering. (arXiv:2401.05827v1 [cs.CL])",
+    "abstract": "The recent success of large language and vision models on vision question answering (VQA), particularly their applications in medicine (Med-VQA), has shown a great potential of realizing effective visual assistants for healthcare. However, these models are not extensively tested on the hallucination phenomenon in clinical settings. Here, we created a hallucination benchmark of medical images paired with question-answer sets and conducted a comprehensive evaluation of the state-of-the-art models. The study provides an in-depth analysis of current models limitations and reveals the effectiveness of various prompting strategies.",
+    "link": "http://arxiv.org/abs/2401.05827",
+    "context": "Title: Hallucination Benchmark in Medical Visual Question Answering. (arXiv:2401.05827v1 [cs.CL])\nAbstract: The recent success of large language and vision models on vision question answering (VQA), particularly their applications in medicine (Med-VQA), has shown a great potential of realizing effective visual assistants for healthcare. However, these models are not extensively tested on the hallucination phenomenon in clinical settings. Here, we created a hallucination benchmark of medical images paired with question-answer sets and conducted a comprehensive evaluation of the state-of-the-art models. The study provides an in-depth analysis of current models limitations and reveals the effectiveness of various prompting strategies.",
+    "path": "papers/24/01/2401.05827.json",
+    "total_tokens": 702,
+    "translated_title": "医学视觉问答中的幻觉基准评估",
+    "translated_abstract": "最近大型语言和视觉模型在视觉问答（VQA）上取得了成功，尤其在医学（Med-VQA）领域的应用显示出了为医疗提供有效视觉助手的巨大潜力。然而，这些模型在临床环境中的幻觉现象上并没有进行广泛测试。在本研究中，我们创建了一个医学图像配对问题-回答集的幻觉基准评估，并对当前最先进的模型进行了全面评估。该研究对当前模型的局限性进行了深入分析，并揭示了各种提示策略的有效性。",
+    "tldr": "这项研究创建了医学图像的幻觉基准评估，并全面评估了当前最先进的模型，揭示了幻觉现象在临床环境中的限制和各种提示策略的有效性。",
+    "en_tdlr": "This study created a hallucination benchmark for medical images and conducted a comprehensive evaluation of the state-of-the-art models, revealing the limitations of hallucination phenomenon in clinical settings and the effectiveness of various prompting strategies."
+}
