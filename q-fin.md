@@ -2,186 +2,199 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Interactions between dynamic team composition and coordination: An agent-based modeling approach.](http://arxiv.org/abs/2401.05832) | 本文通过Agent-Based建模方法研究了协调模式和动态团队构成的相互作用，以及它们在不同任务复杂性和个体学习条件下对任务绩效的联合影响。 |
-| [^2] | [Quantum Probability Theoretic Asset Return Modeling: A Novel Schr\"odinger-Like Trading Equation and Multimodal Distribution.](http://arxiv.org/abs/2401.05823) | 本论文提出了一种将量子概率的数学结构直接与交易者的决策和市场行为联系起来的方法，避免假设回报中存在量子效应。研究表明，量子概率是经典概率的数学扩展，可以用于量化资产回报的不确定性。 |
-| [^3] | [Designing Heterogeneous LLM Agents for Financial Sentiment Analysis.](http://arxiv.org/abs/2401.05799) | 本研究提出了一种设计框架，使用动态的异构LLM代理，来改进金融情绪分析的准确性，并在实验中取得了令人满意的结果。 |
-| [^4] | [Follow The Money: Exploring the Key Factors Influencing Investment in African Startups.](http://arxiv.org/abs/2401.05760) | 本研究深入分析了影响非洲初创企业融资金额的关键因素，包括性别多样性差距、职业经验、创始人学术背景等。研究结果显示，人力资本、多元化行业方法和跨境合作策略对于建立强大的初创企业生态系统至关重要。此外，本研究还发现了“Y combinators”对非洲初创企业的潜在积极影响和退出策略对交易金额的影响。 |
-| [^5] | [Super-hedging-pricing formulas and Immediate-Profit arbitrage for market models under random horizon.](http://arxiv.org/abs/2401.05713) | 本文考虑了离散时间设置下的市场模型，以及随机时间长度的影响。我们解决了超对冲定价估值问题以及立即利润套利问题。第一主要贡献在于解决了先前变化和/或信息对条件本质上界的影响。第二主要贡献在于描述了一个... |
-| [^6] | [Boundary conditions at infinity for Black-Scholes equations.](http://arxiv.org/abs/2401.05549) | 提出了一种计算Markov局部鞅情况下远期合约价格的数值方法，通过有限网格和边界条件获得上下界，并且在无穷大时逼近准确值。 |
-| [^7] | [Can ChatGPT Compute Trustworthy Sentiment Scores from Bloomberg Market Wraps?.](http://arxiv.org/abs/2401.05447) | 该研究使用了Bloomberg金融市场摘要数据集，利用ChatGPT和两阶段提示方法，发现全球新闻头条与股市走势之间存在显著的情绪相关性，该相关性在不同时间段内有所变化，并且在多个股票市场中均具有鲁棒性。研究提供了一个平衡新信息反应性和相关性的最佳时间段的估计。 |
-| [^8] | [An adaptive network-based approach for advanced forecasting of cryptocurrency values.](http://arxiv.org/abs/2401.05441) | 本文提出了一种使用自适应网络的方法，通过历史数据对比特币、以太坊和比特币支配度、以太坊支配度进行预测，具有较高的预测准确性。 |
-| [^9] | [Multi-relational Graph Diffusion Neural Network with Parallel Retention for Stock Trends Classification.](http://arxiv.org/abs/2401.05430) | 该论文提出了一种基于多关系图的股票趋势分类方法，通过生成动态的多关系股票图来建模股票之间复杂的时变关系，并通过扩散过程优化图表示。最终的图表示能够更好地捕捉各个股票内部的时间特征，同时考虑股票之间的关系。 |
-| [^10] | [Introduction of L0 norm and application of L1 and C1 norm in the study of time-series.](http://arxiv.org/abs/2401.05423) | 该论文引入了一种新的工具L0范数，并通过与已有的C1范数的补充，在时间序列研究中应用于预测和展示市场行为的优缺点。 |
-| [^11] | [Multiple-bubble testing in the cryptocurrency market: a case study of bitcoin.](http://arxiv.org/abs/2401.05417) | 本研究通过比特币为例，进行了加密货币市场的多泡泡测试，并强调了评估金融市场对投资者和研究者的重要性。 |
-| [^12] | [On the Three Demons in Causality in Finance: Time Resolution, Nonstationarity, and Latent Factors.](http://arxiv.org/abs/2401.05414) | 本文从因果性的角度系统研究了金融领域中的三个困境：时间分辨率不匹配、非平稳性和未知因果因素，并提出了解决方案。 |
-| [^13] | [SRNI-CAR: A comprehensive dataset for analyzing the Chinese automotive market.](http://arxiv.org/abs/2401.05395) | SRNI-CAR是一份用于分析中国汽车市场的综合数据集，填补了现有汽车行业数据集覆盖范围有限的缺口，对于提高预测准确性、扩大商业应用范围、指导政策制定与监管以及推动汽车行业的学术研究具有重要影响。 |
-| [^14] | [RIVCoin: an alternative, integrated, CeFi/DeFi-Vaulted Cryptocurrency.](http://arxiv.org/abs/2401.05393) | RIVCoin是一种建立在Cosmos上的替代综合存储加密货币，通过多元化的CeFi和DeFi资产组合进行完全稳定，并且始终由保险库的资产完全支撑。 |
-| [^15] | [Income and emotional well-being: Evidence for well-being plateauing around $200,000 per year.](http://arxiv.org/abs/2401.05347) | 该研究通过对抗性合作验证了在样本中较不幸福的个体收入对幸福感的影响，并发现对于其他样本，幸福感与收入之间呈现一致的关系。研究结果显示，年收入约为20万美元时幸福感趋于稳定。 |
-| [^16] | [Optimal Linear Signal: An Unsupervised Machine Learning Framework to Optimize PnL with Linear Signals.](http://arxiv.org/abs/2401.05337) | 本研究提出了一种无监督机器学习框架，用于优化量化金融中的利润和损失。通过线性组合外生变量构建的信号，最大化夏普比率。实证应用显示了该模型的有效性，并提出了进一步发展的潜在途径。 |
-| [^17] | [Modelling and Predicting the Conditional Variance of Bitcoin Daily Returns: Comparsion of Markov Switching GARCH and SV Models.](http://arxiv.org/abs/2401.03393) | 本文通过比较Markov转换GARCH和SV模型，研究了比特币每日收益的条件方差建模和预测。结果显示，SARV模型在预测比特币价格的波动性方面优于MS-GARCH模型，并且在某些情况下，简单的GARCH模型甚至优于Markov转换GARCH模型。这为风险管理专家提供了有价值的指导。 |
-| [^18] | [The cost of artificial latency in the PBS context.](http://arxiv.org/abs/2312.09654) | 本文对以太坊网络中的提案者-构建者分离框架中人为延迟的成本和影响进行了全面分析和验证，结果表明延迟操纵能够提高节点运营商的盈利能力，却带来了网络效率低下和集中化风险等挑战。这项研究强调了需要寻找平衡策略，既能优化最大可提取价值的捕获，又能保护以太坊网络的去中心化理念。 |
-| [^19] | [Curriculum Learning and Imitation Learning for Model-free Control on Financial Time-series.](http://arxiv.org/abs/2311.13326) | 本文通过在复杂时间序列数据上探索课程学习和模仿学习的方法，发现课程学习是改善复杂时间序列控制任务性能的新途径，而模仿学习也应该被应用。 |
-| [^20] | [Validating a dynamic input-output model for the propagation of supply and demand shocks during the COVID-19 pandemic in Belgium.](http://arxiv.org/abs/2305.16377) | 本研究验证了一个动态投入产出模型，在比利时COVID-19大流行期间松弛了Leontief生产函数，能够准确预测经济相关变量，并具有较强的鲁棒性。 |
-| [^21] | [How to handle the COS method for option pricing.](http://arxiv.org/abs/2303.16012) | 介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。 |
-| [^22] | [On the Convergence of Credit Risk in Current Consumer Automobile Loans.](http://arxiv.org/abs/2211.09176) | 本研究使用大量样本数据证明，对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。低风险借款人的拖延偿还让他们损失了1212-2327美元，同时当前的低风险借款人比当前的高风险借款人表现得不够有效率。 |
+| [^1] | [A deep implicit-explicit minimizing movement method for option pricing in jump-diffusion models.](http://arxiv.org/abs/2401.06740) | 这份论文介绍了一种用于定价跳跃扩散模型下欧式篮式期权的深度学习方法，采用了隐式-显式最小移动方法以及残差型人工神经网络逼近，并通过稀疏网格高斯-埃尔米特逼近和基于ANN的高维专用求积规则来离散化积分运算符。 |
+| [^2] | [Equity auction dynamics: latent liquidity models with activity acceleration.](http://arxiv.org/abs/2401.06724) | 这项研究利用潜在流动性模型，研究了股权拍卖中的动态特征，并提供了相关参数的精确测量。结果表明，拍卖接近结束时，事件发生率加快，导致市价周围流动性积聚，从而减少市价的价格影响和波动性。同时，研究发现限价委托簿的动态可通过潜在流动性框架进行描述，并且市价的次扩散是不可预测的。 |
+| [^3] | [Analysis of the Impact of Central bank Digital Currency on the Demand for Transactional Currency.](http://arxiv.org/abs/2401.06457) | 本文以中央银行数字货币的发展为视角，建立了中央银行数字货币下的交易货币需求模型，实证结果表明，中央银行数字货币的发行和流通将会减少对交易货币的需求。在中央银行数字货币背景下，中国应探索更有效的货币政策。 |
+| [^4] | [SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks.](http://arxiv.org/abs/2401.06249) | SpotV2Net是一种基于图注意力网络的多元日内现货波动率预测模型，通过将金融资产表示为图中的节点，并考虑非参数高频傅里叶估计的现货波动率和共波动率作为节点特征，以及波动率和共波动率的傅里叶估计作为节点边缘的特征，SpotV2Net显示出了改进的准确性，并且在日内多步预测时保持了准确性。 |
+| [^5] | [CNN-DRL for Scalable Actions in Finance.](http://arxiv.org/abs/2401.06179) | 本文提出了一种用于金融领域可扩展行为的CNN-DRL方法，通过将过去九十天的每日特征向量数据拼接到CNN输入矩阵中，实现了对环境动态的有效学习，获得了奖励的增加。 |
+| [^6] | [CRISIS ALERT:Forecasting Stock Market Crisis Events Using Machine Learning Methods.](http://arxiv.org/abs/2401.06172) | 该论文使用机器学习方法预测股市危机事件，主要针对美国市场。论文比较了随机森林和极限梯度提升模型的性能，发现这两种模型可以有效预测股市危机。 |
+| [^7] | [Multimodal Gen-AI for Fundamental Investment Research.](http://arxiv.org/abs/2401.06164) | 本论文介绍了一项在金融投资领域的变革性举措，旨在利用多模态Gen-AI技术自动化信息摘要和投资点生成，通过精细调整语言模型以实现特定的应用目标，并最终开发一个AI代理原型，使人类投资者摆脱重复性任务，将注意力集中在高层次的战略思维上。 |
+| [^8] | [Grassroots Innovation Actors: Their Role and Positioning in Economic Ecosystems -- A Comparative Study Through Complex Network Analysis.](http://arxiv.org/abs/2401.06163) | 通过复杂网络分析，本研究比较分析了墨西哥瓦加斯州、阿根廷拉普拉塔和智利阿劳卡尼亚地区的基层创新参与者在经济生态系统中的角色，发现基层创新参与者在整体创新驱动的企业经济生态系统中占据重要位置，且具有战略地位，并强调了更好整合他们以促进社经发展的潜力。 |
+| [^9] | [A Statistical Field Perspective on Capital Allocation and Accumulation: Individual dynamics.](http://arxiv.org/abs/2401.06142) | 通过统计场形式主义，本文研究了资本在不同部门之间的积累和分配。结果发现，金融资本与股息和股票估值相关，而实物资本与金融部门的资本分配相关。 |
+| [^10] | [The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process.](http://arxiv.org/abs/2401.06141) | 本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。 |
+| [^11] | [StockFormer: A Swing Trading Strategy Based on STL Decomposition and Self-Attention Networks.](http://arxiv.org/abs/2401.06139) | StockFormer是一种基于STL分解和自注意力网络的摆动交易策略，使用TopKDropout方法来提高股票选取能力。在测试中，其预测结果优于其他十个行业模型，达到了62.39%的市场趋势检测准确率，并取得了在关键预测准确度指标上的优秀表现。在回测中，StockFormer的摆动交易策略累计收益率为13.19%。 |
+| [^12] | [Synergy or Rivalry? Glimpses of Regional Modernization and Public Service Equalization: A Case Study from China.](http://arxiv.org/abs/2401.06134) | 中国长江三角洲地区的研究表明，增加基本公共服务的均衡可以提高人们的幸福感。本文采用了耦合协调度模型、Moran's I指数、Theil指数和AF方法来分析该地区的现状并提出优化建议。 |
+| [^13] | [On the Three Demons in Causality in Finance: Time Resolution, Nonstationarity, and Latent Factors.](http://arxiv.org/abs/2401.05414) | 本文从因果性的角度系统研究了金融领域中的三个困境：时间分辨率不匹配、非平稳性和未知因果因素，并提出了解决方案。 |
+| [^14] | [A time-varying finance-led model for U.S. business cycles.](http://arxiv.org/abs/2310.05153) | 本文提出了一种考虑金融和实际部门的时变金融引导模型，通过研究不同的美国经济周期峰值，发现利润驱动的需求和利润挤压的分配体制存在，并且这些体制在“大幅缓和”期间减弱，同时还发现标准的Goodwin变量与住宅投资和利率差之间存在显著联系。 |
+| [^15] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
+| [^16] | [Deep calibration with random grids.](http://arxiv.org/abs/2306.11061) | 本文提出一种基于神经网络的随机波动率模型校准方法，在不需要插值/外推技术的情况下结合了网格方法和点对点两步校准。我们通过在随机格上生成含隐含波动率面，并将其在训练阶段提供给网络，证明了该方法在金融工程学中有着有价值的应用。 |
+| [^17] | [Proof-of-work consensus by quantum sampling.](http://arxiv.org/abs/2305.19865) | 本文提出了一种基于量子取样的工作量证明共识机制(CGBS-PoW)，采用Fock态和高斯波色子取样，具有巨大的加速和节能效益。 |
+| [^18] | [Continuous-Time Monotone Mean-Variance Portfolio Selection.](http://arxiv.org/abs/2211.12168) | 本文研究了在跳跃扩散模型下连续时间的单调均值方差组合选择，并首次给出了不同于传统均值方差偏好的明确解决方案。该研究结果对于未来对单调均值方差和单调资本资产定价模型的实证测试具有重要的理论依据。 |
+| [^19] | [Missing Values and the Dimensionality of Expected Returns.](http://arxiv.org/abs/2207.13071) | 该研究比较了多种插值方法，发现预测变量通常独立，因此即使采用特定值估计，最终结果与最大似然估计相似。此外，50个主成分可捕捉等权重的期望回报，而使用神经网络投资组合也有类似的结果。 |
+| [^20] | [A Reproducing Kernel Hilbert Space approach to singular local stochastic volatility McKean-Vlasov models.](http://arxiv.org/abs/2203.01160) | 本文研究了基于再生核希尔伯特空间的奇异局部随机波动率McKean-Vlasov模型。通过开发一种新的正则化方法，我们证明了正则化后的模型的良态性，并且通过数值实验展示了模型能够复制典型的局部波动率模型的期权价格。 |
+| [^21] | [Utility maximization under endogenous pricing.](http://arxiv.org/abs/2005.04312) | 本文研究了在具有内生持久市场影响的不完全金融市场中，大型投资者的效用最大化问题。通过解决一组耦合的随机微分方程，我们完全描述了问题的最优性，并且给出了解的存在性和光滑性结果。 |
 
 # 详细
 
-[^1]: 动态团队构成与协调之间的相互作用：基于Agent-Based建模方法的研究
+[^1]: 一种用于跳跃扩散模型期权定价的深度隐式-显式最小移动方法
 
-    Interactions between dynamic team composition and coordination: An agent-based modeling approach. (arXiv:2401.05832v1 [econ.GN])
+    A deep implicit-explicit minimizing movement method for option pricing in jump-diffusion models. (arXiv:2401.06740v1 [q-fin.CP])
 
-    [http://arxiv.org/abs/2401.05832](http://arxiv.org/abs/2401.05832)
+    [http://arxiv.org/abs/2401.06740](http://arxiv.org/abs/2401.06740)
 
-    本文通过Agent-Based建模方法研究了协调模式和动态团队构成的相互作用，以及它们在不同任务复杂性和个体学习条件下对任务绩效的联合影响。
-
-    
-
-    本文研究了协调模式和动态团队构成之间的相互作用，并探讨了它们在不同任务复杂性和个体学习条件下对任务绩效的联合影响。以往的研究通常将动态团队构成视为次优组织设计选择的结果。而现今意识到周期性更改团队构成的新型组织形式对此观点提出了挑战。在本文中，我们按照因果理论将动态团队构成视为一种设计选择，它与其他选择（如协调模式）以及个体学习和任务复杂性等上下文因素相互作用。我们采用基于NK框架的Agent-Based建模方法，包括强化学习机制、基于信号的循环团队形成机制以及三种不同的协调模式。我们的结果表明通过实施....
-
-    This paper examines the interactions between selected coordination modes and dynamic team composition, and their joint effects on task performance under different task complexity and individual learning conditions. Prior research often treats dynamic team composition as a consequence of suboptimal organizational design choices. The emergence of new organizational forms that consciously employ teams that change their composition periodically challenges this perspective. In this paper, we follow the contingency theory and characterize dynamic team composition as a design choice that interacts with other choices such as the coordination mode, and with additional contextual factors such as individual learning and task complexity. We employ an agent-based modeling approach based on the NK framework, which includes a reinforcement learning mechanism, a recurring team formation mechanism based on signaling, and three different coordination modes. Our results suggest that by implementing later
-    
-[^2]: 量子概率论资产回报建模：新颖的Schr\"odinger类交易方程和多模态分布
-
-    Quantum Probability Theoretic Asset Return Modeling: A Novel Schr\"odinger-Like Trading Equation and Multimodal Distribution. (arXiv:2401.05823v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2401.05823](http://arxiv.org/abs/2401.05823)
-
-    本论文提出了一种将量子概率的数学结构直接与交易者的决策和市场行为联系起来的方法，避免假设回报中存在量子效应。研究表明，量子概率是经典概率的数学扩展，可以用于量化资产回报的不确定性。
+    这份论文介绍了一种用于定价跳跃扩散模型下欧式篮式期权的深度学习方法，采用了隐式-显式最小移动方法以及残差型人工神经网络逼近，并通过稀疏网格高斯-埃尔米特逼近和基于ANN的高维专用求积规则来离散化积分运算符。
 
     
 
-    量子理论提供了一个全面的框架来量化不确定性，通常在量子金融中应用于研究资产回报的随机性质。这种视角将回报比作微观粒子运动，由类似物理定律的量子概率来控制。然而，这种方法假定了回报变化中特定的微观量子效应，这一前提因缺乏保证而受到批评。本文通过断言量子概率是复数的经典概率的数学扩展来偏离这种观点。它并不仅仅与微观量子现象相关联，避免了对回报中量子效应的需求。通过直接将量子概率的数学结构与交易者的决策和市场行为联系起来，它避免了对回报中量子效应的假设和波函数的引入。量子概率的复数相位捕捉到了交易者决策之间的转变，同时考虑了交易者之间的信息交互。
+    我们提出了一种新颖的深度学习方法，用于定价跳跃扩散动态下的欧式篮式期权。将期权定价问题表述为一个偏积分微分方程，并通过一种新的隐式-显式最小移动时间步法进行近似，该方法使用深度残差型人工神经网络（ANNs）逐步逼近。积分运算符通过两种不同的方法离散化：a）通过稀疏网格高斯-埃尔米特逼近，采用奇异值分解产生的局部坐标轴，并且b）通过基于ANN的高维专用求积规则。关键是，所提出的ANN的构造确保了解决方案在标的资产较大值时的渐近行为，并且与解决方案先验已知的定性特性相一致输出。对方法维度的性能和鲁棒性进行了评估。
 
-    Quantum theory provides a comprehensive framework for quantifying uncertainty, often applied in quantum finance to explore the stochastic nature of asset returns. This perspective likens returns to microscopic particle motion, governed by quantum probabilities akin to physical laws. However, such approaches presuppose specific microscopic quantum effects in return changes, a premise criticized for lack of guarantee. This paper diverges by asserting that quantum probability is a mathematical extension of classical probability to complex numbers. It isn't exclusively tied to microscopic quantum phenomena, bypassing the need for quantum effects in returns.By directly linking quantum probability's mathematical structure to traders' decisions and market behaviors, it avoids assuming quantum effects for returns and invoking the wave function. The complex phase of quantum probability, capturing transitions between long and short decisions while considering information interaction among trader
+    We develop a novel deep learning approach for pricing European basket options written on assets that follow jump-diffusion dynamics. The option pricing problem is formulated as a partial integro-differential equation, which is approximated via a new implicit-explicit minimizing movement time-stepping approach, involving approximation by deep, residual-type Artificial Neural Networks (ANNs) for each time step. The integral operator is discretized via two different approaches: a) a sparse-grid Gauss--Hermite approximation following localised coordinate axes arising from singular value decompositions, and b) an ANN-based high-dimensional special-purpose quadrature rule. Crucially, the proposed ANN is constructed to ensure the asymptotic behavior of the solution for large values of the underlyings and also leads to consistent outputs with respect to a priori known qualitative properties of the solution. The performance and robustness with respect to the dimension of the methods are assesse
     
-[^3]: 设计用于金融情绪分析的异构LLM代理
+[^2]: 公平拍卖动态: 具有活动加速度的潜在流动性模型
 
-    Designing Heterogeneous LLM Agents for Financial Sentiment Analysis. (arXiv:2401.05799v1 [cs.CL])
+    Equity auction dynamics: latent liquidity models with activity acceleration. (arXiv:2401.06724v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2401.05799](http://arxiv.org/abs/2401.05799)
+    [http://arxiv.org/abs/2401.06724](http://arxiv.org/abs/2401.06724)
 
-    本研究提出了一种设计框架，使用动态的异构LLM代理，来改进金融情绪分析的准确性，并在实验中取得了令人满意的结果。
-
-    
-
-    大型语言模型（LLM）彻底改变了设计智能系统的可能方式，将焦点从大规模数据获取和新的建模训练转移到了与人类对齐以及战略性地发挥现有预训练模型的全部潜力上。然而，由于金融情绪分析任务的歧视性特征以及缺乏如何在这种背景下利用生成模型的规定性知识，这种范式转变尚未完全实现。本研究调查了新范式的有效性，即在金融情绪分析中使用无需微调的LLM。基于明斯基的心灵和情绪理论，提出了一种采用异构LLM代理的设计框架。该框架使用先前领域知识实例化专门的代理，并对集合的代理讨论进行推理。在金融情绪分析数据集上进行的全面评估表明，该框架可以获得更高的准确性，特别是在讨论频繁的情况下。
-
-    Large language models (LLMs) have drastically changed the possible ways to design intelligent systems, shifting the focuses from massive data acquisition and new modeling training to human alignment and strategical elicitation of the full potential of existing pre-trained models. This paradigm shift, however, is not fully realized in financial sentiment analysis (FSA), due to the discriminative nature of this task and a lack of prescriptive knowledge of how to leverage generative models in such a context. This study investigates the effectiveness of the new paradigm, i.e., using LLMs without fine-tuning for FSA. Rooted in Minsky's theory of mind and emotions, a design framework with heterogeneous LLM agents is proposed. The framework instantiates specialized agents using prior domain knowledge of the types of FSA errors and reasons on the aggregated agent discussions. Comprehensive evaluation on FSA datasets show that the framework yields better accuracies, especially when the discussi
-    
-[^4]: 追踪资金: 探索影响非洲初创企业投资的关键因素
-
-    Follow The Money: Exploring the Key Factors Influencing Investment in African Startups. (arXiv:2401.05760v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.05760](http://arxiv.org/abs/2401.05760)
-
-    本研究深入分析了影响非洲初创企业融资金额的关键因素，包括性别多样性差距、职业经验、创始人学术背景等。研究结果显示，人力资本、多元化行业方法和跨境合作策略对于建立强大的初创企业生态系统至关重要。此外，本研究还发现了“Y combinators”对非洲初创企业的潜在积极影响和退出策略对交易金额的影响。
+    这项研究利用潜在流动性模型，研究了股权拍卖中的动态特征，并提供了相关参数的精确测量。结果表明，拍卖接近结束时，事件发生率加快，导致市价周围流动性积聚，从而减少市价的价格影响和波动性。同时，研究发现限价委托簿的动态可通过潜在流动性框架进行描述，并且市价的次扩散是不可预测的。
 
     
 
-    非洲大陆近年来见证了创业活动的显著增长，创业公司数量和生态系统中的投资额大幅增长。在此背景下，本文对影响非洲初创企业融资金额的关键因素进行了深入分析。通过统计和机器学习技术的组合，对从2019年1月至2023年3月的2,521笔初创企业投资交易进行了全面分析。研究结果突出了显著的性别多样性差距，职业经验的重要性以及创始人学术背景的影响。研究表明，人力资本、多元化行业方法和跨境合作策略对于强大的初创企业生态系统至关重要。此外，我们还发现了“Y combinators”对非洲初创企业的潜在积极影响，退出策略对交易金额的影响等内容。
+    与连续交易相比，股权拍卖具有几个不同的特点。随着拍卖时间的临近，事件的发生率加快，导致市价周围出现大量的流动性积聚。这反过来减少了市价的价格影响和波动性。在本研究中，我们将潜在/显性订单簿框架应用于股权拍卖的具体情况。我们提供了模型参数的精确测量，包括订单提交、取消和扩散速率。我们的设置使我们能够描述巴黎泛欧交易所收市拍卖期间平均订单簿的完整动态。这些发现支持潜在流动性框架在描述限价委托簿动态方面的相关性。最后，我们分析了导致次扩散市价的因素，并证明了市价可预测性的缺失。
 
-    The African continent has witnessed a notable surge in entrepreneurial activity, with the number of startups and investments made in the ecosystem growing significantly in recent years. Against this backdrop, this paper presents an in-depth analysis of the critical key factors influencing funding amounts in African startup deals. A comprehensive analysis of 2,521 startup investment deals, spanning from January 2019 to March 2023, was conducted using a combination of statistical and several machine learning techniques. The results of this study highlight a significant gender diversity gap, the importance of professional experience, and the impact of founders' academic backgrounds. The study reveals that human capital, a diversified sector approach, and cross-border collaboration strategies are crucial for a robust startup ecosystem. Additionally, we identified the potential positive impact of 'Y combinators' for African startups, the implications of exit strategies on deal amounts, and 
+    Equity auctions display several distinctive characteristics in contrast to continuous trading. As the auction time approaches, the rate of events accelerates causing a substantial liquidity buildup around the indicative price. This, in turn, results in a reduced price impact and decreased volatility of the indicative price. In this study, we adapt the latent/revealed order book framework to the specifics of equity auctions. We provide precise measurements of the model parameters, including order submissions, cancellations, and diffusion rates. Our setup allows us to describe the full dynamics of the average order book during closing auctions in Euronext Paris. These findings support the relevance of the latent liquidity framework in describing limit order book dynamics. Lastly, we analyze the factors contributing to a sub-diffusive indicative price and demonstrate the absence of indicative price predictability.
     
-[^5]: 超对冲定价公式和随机时间长度下市场模型的立即利润套利
+[^3]: 中央银行数字货币对交易货币需求的影响分析
 
-    Super-hedging-pricing formulas and Immediate-Profit arbitrage for market models under random horizon. (arXiv:2401.05713v1 [q-fin.MF])
+    Analysis of the Impact of Central bank Digital Currency on the Demand for Transactional Currency. (arXiv:2401.06457v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.05713](http://arxiv.org/abs/2401.05713)
+    [http://arxiv.org/abs/2401.06457](http://arxiv.org/abs/2401.06457)
 
-    本文考虑了离散时间设置下的市场模型，以及随机时间长度的影响。我们解决了超对冲定价估值问题以及立即利润套利问题。第一主要贡献在于解决了先前变化和/或信息对条件本质上界的影响。第二主要贡献在于描述了一个...
-
-    
-
-    本文考虑离散时间设置以及由（S，F，T）描述的市场模型。其中F是“公共”信息流，可在一段时间内供所有代理人使用，S是可交易资产的折现价格过程，T是任意的随机时间，其发生可能无法通过F观察到。因此，我们考虑包含F并使T成为可观测随机时间的更大流程G。该框架涵盖了信用风险理论设置，人寿保险设置以及员工股票期权估值设置。针对停止模型（S^T，G）和各种易受攻击的索赔，基于该模型，我们解决了超对冲定价估值问题及其内在的立即利润套利（IP）。我们的第一主要贡献是解决先前变化和/或信息对条件本质上界的影响，该条件是超对冲定价中的重要工具。第二个主要贡献是描述了一个
-
-    In this paper, we consider the discrete-time setting, and the market model described by (S,F,T)$. Herein F is the ``public" flow of information which is available to all agents overtime, S is the discounted price process of d-tradable assets, and T is an arbitrary random time whose occurrence might not be observable via F. Thus, we consider the larger flow G which incorporates F and makes T an observable random time. This framework covers the credit risk theory setting, the life insurance setting and the setting of employee stock option valuation. For the stopped model (S^T,G) and for various vulnerable claims, based on this model, we address the super-hedging pricing valuation problem and its intrinsic Immediate-Profit arbitrage (IP hereafter for short). Our first main contribution lies in singling out the impact of change of prior and/or information on conditional essential supremum, which is a vital tool in super-hedging pricing. The second main contribution consists of describing a
-    
-[^6]: 无穷远处的边界条件对于Black-Scholes方程的影响
-
-    Boundary conditions at infinity for Black-Scholes equations. (arXiv:2401.05549v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2401.05549](http://arxiv.org/abs/2401.05549)
-
-    提出了一种计算Markov局部鞅情况下远期合约价格的数值方法，通过有限网格和边界条件获得上下界，并且在无穷大时逼近准确值。
+    本文以中央银行数字货币的发展为视角，建立了中央银行数字货币下的交易货币需求模型，实证结果表明，中央银行数字货币的发行和流通将会减少对交易货币的需求。在中央银行数字货币背景下，中国应探索更有效的货币政策。
 
     
 
-    我们提出了一种用于计算基础资产价格为Markov局部鞅的远期合约价格的数值方法。如果基础过程是严格的局部鞅，相应的Black-Scholes方程存在多个解，并且衍生品价格被表征为最小解。我们使用数值方法在有限网格上根据相应的边界条件获得上下界。随着基础价格趋于无穷大，这些界和边界值逼近准确值。我们通过数值测试验证了所提出的方法。
+    本文以中央银行数字货币的发展为视角，将其纳入鲍姆—托宾货币需求理论框架，建立了中央银行数字货币下的交易货币需求模型，并定性分析了中央银行数字货币对交易货币需求的影响机制；同时，选择2010年至2022年的季度数据，通过ARDL模型测试了中央银行数字货币与交易货币需求之间的关系。通过ARDL模型，检验了中央银行数字货币需求与交易货币之间的长期均衡和短期动态。实证结果表明，中央银行数字货币的发行和流通将会减少对交易货币的需求。在理论分析和实证检验的基础上，本文提出在中央银行数字货币背景下，中国应探索更有效的货币政策。
 
-    We propose numerical procedures for computing the prices of forward contracts where the underlying asset price is a Markovian local martingale. If the underlying process is a strict local martingale, multiple solutions exist for the corresponding Black-Scholes equations, and the derivative prices are characterized as the minimal solutions. Our prices are upper and lower bounds obtained using numerical methods on a finite grid under the respective boundary conditions. These bounds and the boundary values converge to the exact value as the underlying price approaches infinity. The proposed procedures are demonstrated through numerical tests.
+    This paper takes the development of Central bank digital currencies as a perspective, introduces it into the Baumol-Tobin money demand theoretical framework, establishes the transactional money demand model under Central bank Digital Currency, and qualitatively analyzes the influence mechanism of Central bank digital currencies on transactional money demand; meanwhile, quarterly data from 2010-2022 are selected to test the relationship between Central bank digital currencies and transactional money demand through the ARDL model. The long-run equilibrium and short-run dynamics between the demand for Central bank digital currencies and transactional currency are examined by ARDL model. The empirical results show that the issuance and circulation of Central bank digital currencies will reduce the demand for transactional money. Based on the theoretical analysis and empirical test, this paper proposes that China should explore a more effective Currency policy in the context of Central bank
     
-[^7]: ChatGPT能够从Bloomberg市场摘要中计算可信的情绪分数吗？
+[^4]: SpotV2Net：基于Vol-of-Vol-Informed Graph Attention Networks的多元日内现货波动率预测
 
-    Can ChatGPT Compute Trustworthy Sentiment Scores from Bloomberg Market Wraps?. (arXiv:2401.05447v1 [q-fin.ST])
+    SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks. (arXiv:2401.06249v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2401.05447](http://arxiv.org/abs/2401.05447)
+    [http://arxiv.org/abs/2401.06249](http://arxiv.org/abs/2401.06249)
 
-    该研究使用了Bloomberg金融市场摘要数据集，利用ChatGPT和两阶段提示方法，发现全球新闻头条与股市走势之间存在显著的情绪相关性，该相关性在不同时间段内有所变化，并且在多个股票市场中均具有鲁棒性。研究提供了一个平衡新信息反应性和相关性的最佳时间段的估计。
-
-    
-
-    我们使用了2010年至2023年的每日Bloomberg金融市场摘要数据集，重新发布在大型金融媒体上，利用ChatGPT和两阶段提示方法确定全球新闻头条如何影响股市走势。我们记录了情绪分数与未来股市回报之间的统计显著正相关关系，这种关系在短期到中期内转变为负相关关系，然后随着时间的推移又变为负相关关系。通过比较Pearson和Spearman相关系数来验证这种相关模式在多个股票市场上的适用性，表明它在不同股票市场中的弹性和非线性中都具有鲁棒性。最后，我们提供了一个最佳时间段的估计，以在新信息的反应性和相关性之间取得平衡。
-
-    We used a dataset of daily Bloomberg Financial Market Summaries from 2010 to 2023, reposted on large financial media, to determine how global news headlines may affect stock market movements using ChatGPT and a two-stage prompt approach. We document a statistically significant positive correlation between the sentiment score and future equity market returns over short to medium term, which reverts to a negative correlation over longer horizons. Validation of this correlation pattern across multiple equity markets indicates its robustness across equity regions and resilience to non-linearity, evidenced by comparison of Pearson and Spearman correlations. Finally, we provide an estimate of the optimal horizon that strikes a balance between reactivity to new information and correlation.
-    
-[^8]: 使用自适应网络的方法对加密货币价值进行先进预测
-
-    An adaptive network-based approach for advanced forecasting of cryptocurrency values. (arXiv:2401.05441v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2401.05441](http://arxiv.org/abs/2401.05441)
-
-    本文提出了一种使用自适应网络的方法，通过历史数据对比特币、以太坊和比特币支配度、以太坊支配度进行预测，具有较高的预测准确性。
+    SpotV2Net是一种基于图注意力网络的多元日内现货波动率预测模型，通过将金融资产表示为图中的节点，并考虑非参数高频傅里叶估计的现货波动率和共波动率作为节点特征，以及波动率和共波动率的傅里叶估计作为节点边缘的特征，SpotV2Net显示出了改进的准确性，并且在日内多步预测时保持了准确性。
 
     
 
-    本文描述了一种使用自适应网络基于模糊推理系统 (ANFIS) 预测未来七天加密货币价格的架构。在每日时间框架下考虑了比特币 (BTC)、以太坊 (ETH)、比特币支配度 (BTC.D) 和以太坊支配度 (ETH.D)的历史数据。所使用的方法包括混合和反向传播算法，以及网格划分、减法聚类和模糊C均值聚类 (FCM) 算法用于数据聚类。通过统计评估标准比较了本文设计的架构性能与不同输入和神经网络模型。最终，该方法能够在短时间内预测数字货币的价格。
+    本文介绍了一种基于图注意力网络结构的多元日内现货波动率预测模型SpotV2Net。SpotV2Net将金融资产表示为图中的节点，并将现货波动率和共波动率的非参数高频傅里叶估计作为节点特征。此外，它还将波动率的傅里叶估计和波动率的共波动率作为节点边缘的特征。我们使用道琼斯工业指数成分股的高频价格进行了大量的实证实验来测试SpotV2Net的预测准确性。我们得到的结果表明，与其他计量经济学和机器学习模型相比，SpotV2Net显示出更高的准确性。此外，我们的结果还表明，SpotV2Net在进行日内多步预测时保持准确性。为了解释SpotV2Net产生的预测结果，我们采用了GNNExplainer，这是一个与模型无关的可解释性方法。
 
-    This paper describes an architecture for predicting the price of cryptocurrencies for the next seven days using the Adaptive Network Based Fuzzy Inference System (ANFIS). Historical data of cryptocurrencies and indexes that are considered are Bitcoin (BTC), Ethereum (ETH), Bitcoin Dominance (BTC.D), and Ethereum Dominance (ETH.D) in a daily timeframe. The methods used to teach the data are hybrid and backpropagation algorithms, as well as grid partition, subtractive clustering, and Fuzzy C-means clustering (FCM) algorithms, which are used in data clustering. The architectural performance designed in this paper has been compared with different inputs and neural network models in terms of statistical evaluation criteria. Finally, the proposed method can predict the price of digital currencies in a short time.
+    This paper introduces SpotV2Net, a multivariate intraday spot volatility forecasting model based on a Graph Attention Network architecture. SpotV2Net represents financial assets as nodes within a graph and includes non-parametric high-frequency Fourier estimates of the spot volatility and co-volatility as node features. Further, it incorporates Fourier estimates of the spot volatility of volatility and co-volatility of volatility as features for node edges. We test the forecasting accuracy of SpotV2Net in an extensive empirical exercise, conducted with high-frequency prices of the components of the Dow Jones Industrial Average index. The results we obtain suggest that SpotV2Net shows improved accuracy, compared to alternative econometric and machine-learning-based models. Further, our results show that SpotV2Net maintains accuracy when performing intraday multi-step forecasts. To interpret the forecasts produced by SpotV2Net, we employ GNNExplainer, a model-agnostic interpretability to
     
-[^9]: 具有并行保留的多关系图扩散神经网络用于股票趋势分类
+[^5]: 金融领域可扩展行为的CNN-DRL方法
 
-    Multi-relational Graph Diffusion Neural Network with Parallel Retention for Stock Trends Classification. (arXiv:2401.05430v1 [q-fin.ST])
+    CNN-DRL for Scalable Actions in Finance. (arXiv:2401.06179v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2401.05430](http://arxiv.org/abs/2401.05430)
+    [http://arxiv.org/abs/2401.06179](http://arxiv.org/abs/2401.06179)
 
-    该论文提出了一种基于多关系图的股票趋势分类方法，通过生成动态的多关系股票图来建模股票之间复杂的时变关系，并通过扩散过程优化图表示。最终的图表示能够更好地捕捉各个股票内部的时间特征，同时考虑股票之间的关系。
-
-    
-
-    股票趋势分类仍然是一项基本但具有挑战性的任务，因为股票之间和内部之间的复杂时变动力学。为了解决这两个挑战，我们提出了一种基于图的表示学习方法，旨在预测多个股票的未来走势。首先，我们通过生成动态多关系股票图来建模股票之间复杂的时变关系。这是通过一种新颖的边生成算法实现的，该算法利用信息熵和信号能量来量化每个交易日的股票之间关系的强度和方向性。然后，我们通过随机的多关系扩散过程进一步优化这些初始图，自适应地学习任务最优边。随后，我们使用并行保留的解耦表示学习方案来获得最终的图表示。这种策略更好地捕捉了各个股票内部的独特时间特征，同时也能够考虑股票之间的关系。
-
-    Stock trend classification remains a fundamental yet challenging task, owing to the intricate time-evolving dynamics between and within stocks. To tackle these two challenges, we propose a graph-based representation learning approach aimed at predicting the future movements of multiple stocks. Initially, we model the complex time-varying relationships between stocks by generating dynamic multi-relational stock graphs. This is achieved through a novel edge generation algorithm that leverages information entropy and signal energy to quantify the intensity and directionality of inter-stock relations on each trading day. Then, we further refine these initial graphs through a stochastic multi-relational diffusion process, adaptively learning task-optimal edges. Subsequently, we implement a decoupled representation learning scheme with parallel retention to obtain the final graph representation. This strategy better captures the unique temporal features within individual stocks while also ca
-    
-[^10]: L0范数引入及L1和C1范数在时间序列研究中的应用
-
-    Introduction of L0 norm and application of L1 and C1 norm in the study of time-series. (arXiv:2401.05423v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2401.05423](http://arxiv.org/abs/2401.05423)
-
-    该论文引入了一种新的工具L0范数，并通过与已有的C1范数的补充，在时间序列研究中应用于预测和展示市场行为的优缺点。
+    本文提出了一种用于金融领域可扩展行为的CNN-DRL方法，通过将过去九十天的每日特征向量数据拼接到CNN输入矩阵中，实现了对环境动态的有效学习，获得了奖励的增加。
 
     
 
-    本文考虑了四个市场：加密货币/南美汇率/西班牙银行指数和欧洲指数，并使用拓扑数据分析（TDA）工具进行研究。这些工具被用来预测和展示当前TDA工具的优缺点。在本文中，引入了一种新的工具L0范数，并与已有的C1范数进行了补充。
+    在金融领域，基于MLP的DRL在动作规模增长时难以学习环境动态。如果买卖量增加到一千股，MLP代理无法有效适应环境。为了解决这个问题，我们设计了一个CNN代理，将过去九十天的每日特征向量数据拼接起来创建CNN输入矩阵。实验证明，基于MLP的代理在初始环境设置上遭受损失，而我们设计的CNN仍然稳定，有效地学习环境，并导致奖励增加。
 
-    Four markets are considered: Cryptocurrencies / South American exchange rate / Spanish Banking indices and European Indices and studied using TDA (Topological Data Analysis) tools. These tools are used to predict and showcase both strengths and weakness of the current TDA tools. In this paper a new tool $L0$ norm is defined and complemented with the already existing $C1$ norm.
+    The published MLP-based DRL in finance has difficulties in learning the dynamics of the environment when the action scale increases. If the buying and selling increase to one thousand shares, the MLP agent will not be able to effectively adapt to the environment. To address this, we designed a CNN agent that concatenates the data from the last ninety days of the daily feature vector to create the CNN input matrix. Our extensive experiments demonstrate that the MLP-based agent experiences a loss corresponding to the initial environment setup, while our designed CNN remains stable, effectively learns the environment, and leads to an increase in rewards.
     
-[^11]: 加密货币市场中的多泡泡测试：比特币的案例研究
+[^6]: 危机警报：使用机器学习方法预测股市危机事件
 
-    Multiple-bubble testing in the cryptocurrency market: a case study of bitcoin. (arXiv:2401.05417v1 [q-fin.ST])
+    CRISIS ALERT:Forecasting Stock Market Crisis Events Using Machine Learning Methods. (arXiv:2401.06172v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2401.05417](http://arxiv.org/abs/2401.05417)
+    [http://arxiv.org/abs/2401.06172](http://arxiv.org/abs/2401.06172)
 
-    本研究通过比特币为例，进行了加密货币市场的多泡泡测试，并强调了评估金融市场对投资者和研究者的重要性。
+    该论文使用机器学习方法预测股市危机事件，主要针对美国市场。论文比较了随机森林和极限梯度提升模型的性能，发现这两种模型可以有效预测股市危机。
 
     
 
-    过去几十年中，经济周期和金融危机凸显了对投资者和研究者评估金融市场的重要性。
+    历史上，经济衰退往往突然而灾难性。例如，在2008年金融危机期间，标普500指数从2007年10月下跌了46％，持续到2009年3月。如果我们能早些发现危机的信号，我们就能采取预防措施。因此，受到这样的动机驱使，我们使用先进的机器学习技术，包括随机森林和极限梯度提升，主要预测美国市场可能发生的任何潜在市场崩盘。此外，我们还想比较这些方法的性能，并检查哪种模型更适合预测美国股市暴跌。我们将这些模型应用于每日金融市场数据，这些数据对于更高的报告频率更具响应性。我们考虑了75个解释变量，包括总体美国股市指数，标普500部门指数，以及可用于危机预测目的的市场指标。最后，我们通过选择的分类指标得出结论，即使用随机森林和极限梯度提升模型可以有效预测股市危机事件。
 
-    Economic periods and financial crises have highlighted the importance of evaluating financial markets to investors and researchers in recent decades.
+    Historically, the economic recession often came abruptly and disastrously. For instance, during the 2008 financial crisis, the SP 500 fell 46 percent from October 2007 to March 2009. If we could detect the signals of the crisis earlier, we could have taken preventive measures. Therefore, driven by such motivation, we use advanced machine learning techniques, including Random Forest and Extreme Gradient Boosting, to predict any potential market crashes mainly in the US market. Also, we would like to compare the performance of these methods and examine which model is better for forecasting US stock market crashes. We apply our models on the daily financial market data, which tend to be more responsive with higher reporting frequencies. We consider 75 explanatory variables, including general US stock market indexes, SP 500 sector indexes, as well as market indicators that can be used for the purpose of crisis prediction. Finally, we conclude, with selected classification metrics, that the
     
-[^12]: 关于金融中的三个因果性困境: 时间分辨率、非平稳性和潜在因素
+[^7]: 多模态Gen-AI用于基本投资研究
+
+    Multimodal Gen-AI for Fundamental Investment Research. (arXiv:2401.06164v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2401.06164](http://arxiv.org/abs/2401.06164)
+
+    本论文介绍了一项在金融投资领域的变革性举措，旨在利用多模态Gen-AI技术自动化信息摘要和投资点生成，通过精细调整语言模型以实现特定的应用目标，并最终开发一个AI代理原型，使人类投资者摆脱重复性任务，将注意力集中在高层次的战略思维上。
+
+    
+
+    本报告概述了在金融投资领域的一项变革性举措，即重塑传统的决策过程，并在其中自动化信息摘要和投资点生成等任务。通过利用语言模型，我们的实验旨在评估在基础模型（Llama2）上进行精调以实现特定的应用目标，包括提供关于事件对公司和行业的影响的洞察，理解市场条件关系，生成与投资者对齐的投资点，并以股票建议和详细解释的形式呈现结果。通过先进的生成建模技术，最终目标是开发一个AI代理原型，使人类投资者摆脱重复性任务，将注意力集中在高层次的战略思维上。该项目涵盖了一个多样化的语料库数据。
+
+    This report outlines a transformative initiative in the financial investment industry, where the conventional decision-making process, laden with labor-intensive tasks such as sifting through voluminous documents, is being reimagined. Leveraging language models, our experiments aim to automate information summarization and investment idea generation. We seek to evaluate the effectiveness of fine-tuning methods on a base model (Llama2) to achieve specific application-level goals, including providing insights into the impact of events on companies and sectors, understanding market condition relationships, generating investor-aligned investment ideas, and formatting results with stock recommendations and detailed explanations. Through state-of-the-art generative modeling techniques, the ultimate objective is to develop an AI agent prototype, liberating human investors from repetitive tasks and allowing a focus on high-level strategic thinking. The project encompasses a diverse corpus data
+    
+[^8]: 基层创新参与者：他们在经济生态系统中的角色和定位--一项通过复杂网络分析的比较研究
+
+    Grassroots Innovation Actors: Their Role and Positioning in Economic Ecosystems -- A Comparative Study Through Complex Network Analysis. (arXiv:2401.06163v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06163](http://arxiv.org/abs/2401.06163)
+
+    通过复杂网络分析，本研究比较分析了墨西哥瓦加斯州、阿根廷拉普拉塔和智利阿劳卡尼亚地区的基层创新参与者在经济生态系统中的角色，发现基层创新参与者在整体创新驱动的企业经济生态系统中占据重要位置，且具有战略地位，并强调了更好整合他们以促进社经发展的潜力。
+
+    
+
+    本研究对基层创新参与者及其在更大经济生态系统中的整合进行了考察。通过在墨西哥瓦加斯州、阿根廷拉普拉塔和智利阿劳卡尼亚地区进行比较分析，这项研究揭示了基层创新在更广泛经济生态系统中所起的重要作用。利用复杂网络分析和TE-SER模型，研究揭示了这些参与者在复杂社会挑战环境下如何相互作用、合作和影响主要经济生态系统。研究结果表明，基层创新生态系统的参与者在整个以创新驱动的企业经济生态系统中占据重要位置，三个案例中比例在20%至30%之间，并且在系统的结构网络中具有战略地位。此外，本研究强调了更好整合基层创新参与者以利用资源和促进社经发展的潜力。
+
+    This study offers an examination of grassroots innovation actors and their integration within larger economic ecosystems. Through a comparative analysis in Oaxaca, Mexico; La Plata, Argentina; and Araucania, Chile, this research sheds light on the vital role that grassroots innovation plays in broader economic ecosystems. Using Complex Network Analysis and the TE-SER model, the study unveils how these actors interact, collaborate, and influence major economic ecosystems in the context of complex social challenges. The findings highlight that actors from the grassroots innovation ecosystem make up a significant portion of the larger innovation-driven entrepreneurial economic ecosystem, accounting for between 20% and 30% in all three cases and are strategically positioned within the ecosystem's structural network. Additionally, this study emphasizes the potential for greater integration of grassroots innovation actors to leverage resources and foster socio-economic development. The resea
+    
+[^9]: 对资本分配和积累的统计场视角：个体动力学
+
+    A Statistical Field Perspective on Capital Allocation and Accumulation: Individual dynamics. (arXiv:2401.06142v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2401.06142](http://arxiv.org/abs/2401.06142)
+
+    通过统计场形式主义，本文研究了资本在不同部门之间的积累和分配。结果发现，金融资本与股息和股票估值相关，而实物资本与金融部门的资本分配相关。
+
+    
+
+    我们在一系列文章中表明，对大量经济主体的经典描述可以用统计场形式主义来替代。为了更好地理解不同部门之间的资本积累和分配，本文将这种统计场描述应用于由大量异质个体分为两组的情况。第一组由不同部门的大量企业组成，他们共同拥有全部实物资本。第二组则是投资者，持有全部金融资本，并根据投资偏好、预期收益和金融市场上的股价变动将其分配给不同部门的企业。作为回报，企业向投资者支付股息。金融资本因此是股息和股票估值的函数，而实物资本则是由金融部门分配的总资本的函数。而我们以前的工作则侧重于背景场。
+
+    We have shown, in a series of articles, that a classical description of a large number of economic agents can be replaced by a statistical fields formalism. To better understand the accumulation and allocation of capital among different sectors, the present paper applies this statistical fields description to a large number of heterogeneous agents divided into two groups. The first group is composed of a large number of firms in different sectors that collectively own the entire physical capital. The second group, investors, holds the entire financial capital and allocates it between firms across sectors according to investment preferences, expected returns, and stock prices variations on financial markets. In return, firms pay dividends to their investors. Financial capital is thus a function of dividends and stock valuations, whereas physical capital is a function of the total capital allocated by the financial sector. Whereas our previous work focused on the background fields that d
+    
+[^10]: 直接资本现金转移对于贫困和极端贫困减轻的作用 -- 一种Omega风险过程
+
+    The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process. (arXiv:2401.06141v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06141](http://arxiv.org/abs/2401.06141)
+
+    本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。
+
+    
+
+    困境指的是家庭陷入贫困区域的情况。生活在贫困区域或陷入贫困区域的家庭被称为贫困陷阱的家庭，贫困陷阱是一种在没有外部帮助的情况下难以逃脱的贫困状态。同样，极端贫困被认为是最严重的贫困形式，家庭在其中经历严重的基本人类需求不足。在本文中，我们考虑了一个具有确定性增长和乘性跳跃（崩溃）结构的Omega风险过程来模拟家庭的资本。假设当一个家庭的资本水平高于确定资本壁垒水平时，确定家庭是否有资格参加现金资本转移方案，其资本会指数增长。一旦其资本降至资本壁垒水平以下，资本动态会引入直接转移（资本现金转移）的外部支持，这些支持由捐助者或政府提供。否则
+
+    Trapping refers to the event when a household falls into the area of poverty. Households that live or fall into the area of poverty are said to be in a poverty trap, where a poverty trap is a state of poverty from which it is difficult to escape without external help. Similarly, extreme poverty is considered as the most severe type of poverty, in which households experience severe deprivation of basic human needs. In this article, we consider an Omega risk process with deterministic growth and a multiplicative jump (collapse) structure to model the capital of a household. It is assumed that, when a household's capital level is above a certain capital barrier level that determines a household's eligibility for a capital cash transfer programme, its capital grows exponentially. As soon as its capital falls below the capital barrier level, the capital dynamics incorporate external support in the form of direct transfers (capital cash transfers) provided by donors or governments. Otherwise
+    
+[^11]: StockFormer: 一种基于STL分解和自注意力网络的摆动交易策略
+
+    StockFormer: A Swing Trading Strategy Based on STL Decomposition and Self-Attention Networks. (arXiv:2401.06139v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2401.06139](http://arxiv.org/abs/2401.06139)
+
+    StockFormer是一种基于STL分解和自注意力网络的摆动交易策略，使用TopKDropout方法来提高股票选取能力。在测试中，其预测结果优于其他十个行业模型，达到了62.39%的市场趋势检测准确率，并取得了在关键预测准确度指标上的优秀表现。在回测中，StockFormer的摆动交易策略累计收益率为13.19%。
+
+    
+
+    在持续的市场重新校准和投资者乐观情绪增加的背景下，美国股市正在经历复苏，这促使我们需要一些先进的工具来保护和增长投资组合。针对这一需求，我们介绍了一种名为"Stockformer"的先进深度学习框架，用于优化摆动交易，并采用了TopKDropout方法来增强股票选取能力。通过整合STL分解和自注意力网络，Stockformer利用标普500的复杂数据来提升股票收益预测的准确性。我们的方法包括将数据分为训练和验证集（2021年1月至2023年1月）以及测试集（2023年2月至6月）。在测试期间，Stockformer的预测结果优于其他十个行业模型，在关键预测准确度指标（MAE，RMSE，MAPE）方面具有卓越的精度，检测市场趋势的准确率达到了62.39%。在我们的回测中，Stockformer的摆动交易策略累计收益率为13.19%，年化收益为...
+
+    Amidst ongoing market recalibration and increasing investor optimism, the U.S. stock market is experiencing a resurgence, prompting the need for sophisticated tools to protect and grow portfolios. Addressing this, we introduce "Stockformer," a cutting-edge deep learning framework optimized for swing trading, featuring the TopKDropout method for enhanced stock selection. By integrating STL decomposition and self-attention networks, Stockformer utilizes the S&P 500's complex data to refine stock return predictions. Our methodology entailed segmenting data for training and validation (January 2021 to January 2023) and testing (February to June 2023). During testing, Stockformer's predictions outperformed ten industry models, achieving superior precision in key predictive accuracy indicators (MAE, RMSE, MAPE), with a remarkable accuracy rate of 62.39% in detecting market trends. In our backtests, Stockformer's swing trading strategy yielded a cumulative return of 13.19% and an annualized r
+    
+[^12]: 合作还是竞争？中国区域现代化与公共服务均衡的一瞥：以中国为案例研究
+
+    Synergy or Rivalry? Glimpses of Regional Modernization and Public Service Equalization: A Case Study from China. (arXiv:2401.06134v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06134](http://arxiv.org/abs/2401.06134)
+
+    中国长江三角洲地区的研究表明，增加基本公共服务的均衡可以提高人们的幸福感。本文采用了耦合协调度模型、Moran's I指数、Theil指数和AF方法来分析该地区的现状并提出优化建议。
+
+    
+
+    对于大多数发展中国家来说，增加基本公共服务的均衡被广泛认为是提高人们幸福感的有效途径。然而，对于中国等许多新兴经济体来说，在速度和质量发展的权衡中，基本公共服务的均衡水平往往会被忽视。以中国长江三角洲地区为例，本文首先采用耦合协调度模型来探索该地区基本公共服务的现状，然后利用Moran's I指数研究该地区整体发展的均衡水平。此外，本文还利用Theil指数分析公共服务水平空间差异的主要原因，并使用AF方法准确识别出基本公共服务发展水平最弱的10个城市40个县的确切缺点。基于此，本文提供了针对性的优化举措。
+
+    For most developing countries, increasing the equalization of basic public services is widely recognized as an effective channel to improve people's sense of contentment. However, for many emerging economies like China, the equalization level of basic public services may often be neglected in the trade-off between the speed and quality of development. Taking the Yangtze River Delta region of China as an example, this paper first adopts the coupling coordination degree model to explore current status of basic public services in this region, and then uses Moran's I index to study the overall equalization level of development there. Moreover, this paper uses the Theil index to analyze the main reasons for the spatial differences in the level of public services, followed by the AF method to accurately identify the exact weaknesses of the 40 counties of 10 cities with the weakest level of basic public service development. Based on this, this paper provides targeted optimization initiatives 
+    
+[^13]: 关于金融中的三个因果性困境: 时间分辨率、非平稳性和潜在因素
 
     On the Three Demons in Causality in Finance: Time Resolution, Nonstationarity, and Latent Factors. (arXiv:2401.05414v1 [q-fin.ST])
 
@@ -195,144 +208,116 @@
 
     Financial data is generally time series in essence and thus suffers from three fundamental issues: the mismatch in time resolution, the time-varying property of the distribution - nonstationarity, and causal factors that are important but unknown/unobserved. In this paper, we follow a causal perspective to systematically look into these three demons in finance. Specifically, we reexamine these issues in the context of causality, which gives rise to a novel and inspiring understanding of how the issues can be addressed. Following this perspective, we provide systematic solutions to these problems, which hopefully would serve as a foundation for future research in the area.
     
-[^13]: SRNI-CAR: 用于分析中国汽车市场的综合数据集
+[^14]: 一种针对美国经济周期的时变金融引导模型
 
-    SRNI-CAR: A comprehensive dataset for analyzing the Chinese automotive market. (arXiv:2401.05395v1 [econ.GN])
+    A time-varying finance-led model for U.S. business cycles. (arXiv:2310.05153v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.05395](http://arxiv.org/abs/2401.05395)
+    [http://arxiv.org/abs/2310.05153](http://arxiv.org/abs/2310.05153)
 
-    SRNI-CAR是一份用于分析中国汽车市场的综合数据集，填补了现有汽车行业数据集覆盖范围有限的缺口，对于提高预测准确性、扩大商业应用范围、指导政策制定与监管以及推动汽车行业的学术研究具有重要影响。
-
-    
-
-    汽车行业在全球经济中起着关键作用，尤其重要的是中国汽车市场的不断扩大，由于其巨大的规模和影响力。然而，现有的汽车行业数据集在覆盖范围上有限，未能充分考虑到对更多和多样化变量的不断增长的需求。本文旨在通过介绍一份从2016年到2022年的综合数据集来填补这一数据缺口，该数据集包括销售数据，在线评论以及与中国汽车行业相关的大量信息。该数据集作为宝贵的资源，极大地扩展了可用数据。它的影响力涵盖了多个方面，包括提高预测准确性，扩大商业应用范围，指导政策制定与监管，推动汽车行业的学术研究。为了展示该数据集在商业和学术背景下的潜在应用，我们提出了两个应用案例。
-
-    The automotive industry plays a critical role in the global economy, and particularly important is the expanding Chinese automobile market due to its immense scale and influence. However, existing automotive sector datasets are limited in their coverage, failing to adequately consider the growing demand for more and diverse variables. This paper aims to bridge this data gap by introducing a comprehensive dataset spanning the years from 2016 to 2022, encompassing sales data, online reviews, and a wealth of information related to the Chinese automotive industry. This dataset serves as a valuable resource, significantly expanding the available data. Its impact extends to various dimensions, including improving forecasting accuracy, expanding the scope of business applications, informing policy development and regulation, and advancing academic research within the automotive sector. To illustrate the dataset's potential applications in both business and academic contexts, we present two ap
-    
-[^14]: RIVCoin:一种替代的综合CeFi/DeFi存储加密货币
-
-    RIVCoin: an alternative, integrated, CeFi/DeFi-Vaulted Cryptocurrency. (arXiv:2401.05393v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2401.05393](http://arxiv.org/abs/2401.05393)
-
-    RIVCoin是一种建立在Cosmos上的替代综合存储加密货币，通过多元化的CeFi和DeFi资产组合进行完全稳定，并且始终由保险库的资产完全支撑。
+    本文提出了一种考虑金融和实际部门的时变金融引导模型，通过研究不同的美国经济周期峰值，发现利润驱动的需求和利润挤压的分配体制存在，并且这些体制在“大幅缓和”期间减弱，同时还发现标准的Goodwin变量与住宅投资和利率差之间存在显著联系。
 
     
 
-    本白皮书介绍了RIVCoin，这是一种建立在Cosmos上的加密货币，通过多元化的CeFi和DeFi资产组合进行完全稳定，并在一个名为RIV Wallet的数字、非托管钱包中提供给用户便捷访问加密货币市场的方式，符合最严格的AML法律和法规要求。该代币始终由一篮子资产稳定，其中储备资金被长期投资于50%的CeFi资产（包括固定收益、股权、互惠基金和对冲基金）和50%的多元化策略，主要集中在数字资产上，主要是主要经过实战测试的DeFi协议上的质押和流动性挖矿。与布雷顿森林体系之前的美元一样，这种加密货币始终由保险库的资产完全稳定，它是由去中心化自治组织铸造和管理的，并完全由专业独立第三方评估的资产稳定。
+    本文通过将实际和金融部门整合起来，实证评估Goodwin关于需求和分配体制的周期性增长模型的预测，同时评估了金融和就业冲击对六个不同的美国经济周期峰值上的劳动力市场和货币政策变量的影响。它通过使用劳动收入份额、就业率、住宅投资和利率差等内生变量的一种简化的具有随机波动的时变向量自回归模型（TVP-VAR-SV），并采用贝叶斯推断方法，关键结果表明（i）利润驱动的需求和利润挤压的分配的组合；（ii）在“大幅缓和”期间这些体制的减弱；以及（iii）标准的Goodwin变量与住宅投资和利率差之间存在显著联系。本研究的结果总体上符合金融和劳动力市场日益解除管制的转型。
 
-    This whitepaper introduces RIVCoin, a cryptocurrency built on Cosmos, fully stabilized by a diversified portfolio of both CeFi and DeFi assets, available in a digital, non-custodial wallet called RIV Wallet, that aims to provide Users an easy way to access the cryptocurrency markets, compliant to the strictest AML laws and regulations up to date. The token is a cryptocurrency at any time stabilized by a basket of assets: reserves are invested in a portfolio composed long term by 50% of CeFi assets, comprised of Fixed Income, Equity, Mutual and Hedge Funds and 50% of diversified strategies focused on digital assets, mainly staking and LP farming on the major, battle tested DeFi protocols. The cryptocurrency, as well as the dollar before Bretton Woods, is always fully stabilized by vaulted proof of assets: it is born and managed as a decentralized token, minted by a Decentralized Autonomous Organization, and entirely stabilized by assets evaluated by professional independent third partie
+    This paper empirically assesses predictions of Goodwin's model of cyclical growth regarding demand and distributive regimes when integrating the real and financial sectors. In addition, it evaluates how financial and employment shocks affect the labor market and monetary policy variables over six different U.S. business-cycle peaks. It identifies a parsimonious Time-Varying Vector Autoregressive model with Stochastic Volatility (TVP-VAR-SV) with the labor share of income, the employment rate, residential investment, and the interest rate spread as endogenous variables. Using Bayesian inference methods, key results suggest (i) a combination of profit-led demand and profit-squeeze distribution; (ii) weakening of these regimes during the Great Moderation; and (iii) significant connections between the standard Goodwinian variables and residential investment as well as term spreads. Findings presented here broadly conform to the transition to increasingly deregulated financial and labor mar
     
-[^15]: 收入与情感幸福感：证据表明，年收入达到20万美元后幸福感趋于稳定
+[^15]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
 
-    Income and emotional well-being: Evidence for well-being plateauing around $200,000 per year. (arXiv:2401.05347v1 [econ.GN])
+    The Disagreement Dividend. (arXiv:2308.06607v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.05347](http://arxiv.org/abs/2401.05347)
+    [http://arxiv.org/abs/2308.06607](http://arxiv.org/abs/2308.06607)
 
-    该研究通过对抗性合作验证了在样本中较不幸福的个体收入对幸福感的影响，并发现对于其他样本，幸福感与收入之间呈现一致的关系。研究结果显示，年收入约为20万美元时幸福感趋于稳定。
-
-    
-
-    在一次非常值得注意的对抗性合作中（Killingsworth等人，2023），Matthew Killingsworth和Daniel Kahneman与主持人Barbara Mellers最近着手解决一个矛盾发现的问题，即较高的收入在某个阈值之前会让人更加幸福，但之后收入增加对幸福感的提升逐渐趋于稳定（Kahneman和Deaton，2010），而幸福感则会随收入的增加而持续增加而不会达到稳定点（Killingsworth，2021）。这种对抗性合作验证了该样本中最不幸福者的幸福感受到收入的影响，但同时也表明剩余部分样本幸福感与收入呈现一致的关系。在本文中，我们展示了这种所谓的“解决方法”建立在可疑的假设上，其中最重要的是收入稳定点发生在每年10万美元的阈值上。通过放宽这个假设，并使用已确定的计量经济学方法以数据驱动的方式寻找最优阈值，我们的研究结果展示了大约20万美元为收入幸福感趋于稳定的阈值。
-
-    In a notable instance of adversarial collaboration (Killingsworth et al., 2023), Matthew Killingsworth and Daniel Kahneman, together with facilitator Barbara Mellers, recently set out to resolve the apparent conflict between the contradictory findings that larger incomes make people happier up to a certain threshold, after which the gains to happiness from additional income plateaus (Kahneman and Deaton, 2010), and that happiness increases consistently with income without reaching a plateau (Killingsworth, 2021). The adversarial collaboration validates the former finding for the most unhappy individuals in the sample, but argues that the latter finding is true for the remaining parts of the sample. In this note, we show that this proposed "resolution" hinges on dubious assumptions, most notably that the plateau occurs at the threshold $\$$100,000 per yer. Relaxing this assumption, and using well-established econometric methods to search for the optimal threshold in a data-driven way, w
-    
-[^16]: 最优线性信号: 一种用于优化线性信号PnL的无监督机器学习框架
-
-    Optimal Linear Signal: An Unsupervised Machine Learning Framework to Optimize PnL with Linear Signals. (arXiv:2401.05337v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2401.05337](http://arxiv.org/abs/2401.05337)
-
-    本研究提出了一种无监督机器学习框架，用于优化量化金融中的利润和损失。通过线性组合外生变量构建的信号，最大化夏普比率。实证应用显示了该模型的有效性，并提出了进一步发展的潜在途径。
+    通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。
 
     
 
-    本研究提出了一种无监督机器学习方法，用于优化量化金融中的利润和损失（PnL）。我们的算法类似于无监督线性回归，通过线性组合外生变量构建的信号，最大化PnL的夏普比率。该方法利用外生变量与交易信号之间的线性关系，通过参数优化来最大化夏普比率。在代表美国国债的ETF上的实证应用显示了模型的有效性，并通过正则化技术来减轻过度拟合。研究最后提出了进一步发展的潜在途径，包括广义时间步长和增强的纠正项。
+    我们研究了在一个带有替代生产技术和正外部性的简单重复博弈中，观点不同如何影响群体的生产绩效。参与者可以持有不同的观点，即对技术的特性和质量持有不同的看法。这种分歧有两个主要特点。首先，不同的观点会导致不同的技术和努力选择--“乐观”的观点会导致比“怀疑”的观点更高的努力程度。其次，观点是有韧性的--只有在出乎意料的证据证明其为错误时才会发生变化。当只有一种生产技术可用时，对其生产力的分歧(i)激励乐观主义者比与有类似观点的玩家匹配时更努力地工作；(ii)可以降低怀疑主义者的努力。第一个力量构成了我们所谓的“分歧红利”的核心。我们展示了如果外部性足够强，一个有类似观点的乐观主义者团队在预期产出方面会被一个具有分歧观点的团队在表现上超过。
 
-    This study presents an unsupervised machine learning approach for optimizing Profit and Loss (PnL) in quantitative finance. Our algorithm, akin to an unsupervised variant of linear regression, maximizes the Sharpe Ratio of PnL generated from signals constructed linearly from exogenous variables. The methodology employs a linear relationship between exogenous variables and the trading signal, with the objective of maximizing the Sharpe Ratio through parameter optimization. Empirical application on an ETF representing U.S. Treasury bonds demonstrates the model's effectiveness, supported by regularization techniques to mitigate overfitting. The study concludes with potential avenues for further development, including generalized time steps and enhanced corrective terms.
+    We study how disagreement influences the productive performance of a group in a simple repeated game with alternative production technologies and positive externalities. Players can disagree, i.e. hold different views about the characteristics and quality of the technologies. This disagreement has two main characteristics. First, different views lead to different technology and effort choices -- "optimistic" views justify higher effort than "skeptical" views. Second, views are resilient -- changed only if falsified by surprising evidence. When only one production technology is available, disagreement over its productivity (i) incentivizes the optimistic agent to work harder than when matched with a like-minded player; (ii) can reduce the effort of the skeptic agent. The first force lies at the core of what we call the "disagreement dividend." We show that if externalities are sufficiently strong, a team of like-minded optimists is outperformed -- in terms of expected output -- by a dis
     
-[^17]: 对比Markov转换GARCH和SV模型对比的比特币每日收益条件方差的建模和预测
+[^16]: 随机网格的深度校准方法
 
-    Modelling and Predicting the Conditional Variance of Bitcoin Daily Returns: Comparsion of Markov Switching GARCH and SV Models. (arXiv:2401.03393v1 [q-fin.ST])
+    Deep calibration with random grids. (arXiv:2306.11061v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2401.03393](http://arxiv.org/abs/2401.03393)
+    [http://arxiv.org/abs/2306.11061](http://arxiv.org/abs/2306.11061)
 
-    本文通过比较Markov转换GARCH和SV模型，研究了比特币每日收益的条件方差建模和预测。结果显示，SARV模型在预测比特币价格的波动性方面优于MS-GARCH模型，并且在某些情况下，简单的GARCH模型甚至优于Markov转换GARCH模型。这为风险管理专家提供了有价值的指导。
-
-    
-
-    本文介绍了一种独特而有价值的研究设计，旨在分析比特币价格的波动性。为了实现这一目标，考虑了一系列来自Markov转换-GARCH和随机自回归波动（SARV）模型类的模型，并对它们的样本外预测性能进行了彻底的考察。本文提供了关于采用两阶段估计方法的建议背后的理念，并强调了在均值方程和方差方程中分别估计系数的重要性。本文的结果表明，随机波动模型，特别是SARV模型，在预测比特币价格的波动性方面表现优于MS-GARCH模型。此外，研究表明，在某些情况下，持续的简单GARCH模型甚至在预测比特币对数收益的方差方面表现出色于Markov转换GARCH模型。这些发现为风险管理专家提供了宝贵的指导，突出了SARV模型的潜在优势。
-
-    This paper introduces a unique and valuable research design aimed at analyzing Bitcoin price volatility. To achieve this, a range of models from the Markov Switching-GARCH and Stochastic Autoregressive Volatility (SARV) model classes are considered and their out-of-sample forecasting performance is thoroughly examined. The paper provides insights into the rationale behind the recommendation for a two-stage estimation approach, emphasizing the separate estimation of coefficients in the mean and variance equations. The results presented in this paper indicate that Stochastic Volatility models, particularly SARV models, outperform MS-GARCH models in forecasting Bitcoin price volatility. Moreover, the study suggests that in certain situations, persistent simple GARCH models may even outperform Markov-Switching GARCH models in predicting the variance of Bitcoin log returns. These findings offer valuable guidance for risk management experts, highlighting the potential advantages of SARV mode
-    
-[^18]: 在PBS框架下人为延迟的成本
-
-    The cost of artificial latency in the PBS context. (arXiv:2312.09654v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2312.09654](http://arxiv.org/abs/2312.09654)
-
-    本文对以太坊网络中的提案者-构建者分离框架中人为延迟的成本和影响进行了全面分析和验证，结果表明延迟操纵能够提高节点运营商的盈利能力，却带来了网络效率低下和集中化风险等挑战。这项研究强调了需要寻找平衡策略，既能优化最大可提取价值的捕获，又能保护以太坊网络的去中心化理念。
+    本文提出一种基于神经网络的随机波动率模型校准方法，在不需要插值/外推技术的情况下结合了网格方法和点对点两步校准。我们通过在随机格上生成含隐含波动率面，并将其在训练阶段提供给网络，证明了该方法在金融工程学中有着有价值的应用。
 
     
 
-    我们对以太坊网络中的提案者-构建者分离框架中人为延迟的影响进行了全面分析。我们重点分析了MEV-Boost拍卖系统，研究了战略延迟操纵对最大可提取价值收益和网络完整性的影响。我们的研究结果发现，节点运营商的盈利能力增加，但也带来了网络效率低下和集中化风险等重大系统性挑战。我们通过Chorus One在以太坊主网上的试点实证了这些观点，并展示了延迟对投标选择和验证者动态的细微影响。最终，这项研究强调了需要寻找平衡策略，既能优化最大可提取价值的捕获，又能保护以太坊网络的去中心化理念。
+    本文提出了一种基于神经网络的随机波动率模型校准方法，该方法将Horvath等人（2021）的网格方法与Bayer和Stemper（2018）的点对点两步校准相结合。我们的方法继承了前者的鲁棒性，而不会受到插值/外推技术的需要所困扰，这是点对点方法的明显优势。整个程序的关键在于在随机格上生成含隐含波动率面，将其在训练阶段提供给网络。我们通过对粗糙Bergomi和Heston模型进行几个经验和蒙特卡罗实验来支持我们的校准技术的有效性，这些实验采用了简单而有效的正向方差曲线参数化。该方法为金融工程学中的有价值的应用（例如，在本地随机波动率模型下的定价）以及路径相关领域的快速扩展铺平了道路。
 
-    We present a comprehensive analysis of the implications of artificial latency in the Proposer-Builder Separation framework on the Ethereum network. Focusing on the MEV-Boost auction system, we analyze how strategic latency manipulation affects Maximum Extractable Value yields and network integrity. Our findings reveal both increased profitability for node operators and significant systemic challenges, including heightened network inefficiencies and centralization risks. We empirically validates these insights with a pilot that Chorus One has been operating on Ethereum mainnet. We demonstrate the nuanced effects of latency on bid selection and validator dynamics. Ultimately, this research underscores the need for balanced strategies that optimize Maximum Extractable Value capture while preserving the Ethereum network's decentralization ethos.
+    We propose a neural network-based approach to calibrating stochastic volatility models, which combines the pioneering grid approach by Horvath et al. (2021) with the pointwise two-stage calibration of Bayer and Stemper (2018). Our methodology inherits robustness from the former while not suffering from the need for interpolation/extrapolation techniques, a clear advantage ensured by the pointwise approach. The crucial point to the entire procedure is the generation of implied volatility surfaces on random grids, which one dispenses to the network in the training phase. We support the validity of our calibration technique with several empirical and Monte Carlo experiments for the rough Bergomi and Heston models under a simple but effective parametrization of the forward variance curve. The approach paves the way for valuable applications in financial engineering - for instance, pricing under local stochastic volatility models - and extensions to the fast-growing field of path-dependent 
     
-[^19]: 《基于课程学习和模仿学习的金融时间序列模型无关控制》
+[^17]: 量子取样的工作量证明共识机制
 
-    Curriculum Learning and Imitation Learning for Model-free Control on Financial Time-series. (arXiv:2311.13326v3 [cs.LG] UPDATED)
+    Proof-of-work consensus by quantum sampling. (arXiv:2305.19865v1 [quant-ph])
 
-    [http://arxiv.org/abs/2311.13326](http://arxiv.org/abs/2311.13326)
+    [http://arxiv.org/abs/2305.19865](http://arxiv.org/abs/2305.19865)
 
-    本文通过在复杂时间序列数据上探索课程学习和模仿学习的方法，发现课程学习是改善复杂时间序列控制任务性能的新途径，而模仿学习也应该被应用。
-
-    
-
-    课程学习和模仿学习在机器人领域已被广泛运用。然而，在高度随机的时间序列数据上利用这些想法进行控制任务的研究非常有限。在本研究中，我们从理论和实证两个方面探讨了这些方法在复杂时间序列数据上的代表性控制任务中的应用。我们通过数据增强实现了课程学习的基本思想，而通过模仿学习从专家中蒸馏出策略来实现。我们的研究结果表明，课程学习在改进复杂时间序列控制的任务性能方面应被视为一种新的方向。我们的大量随机种子外样本实证和消融研究对于时间序列控制的课程学习非常鼓舞人心。这些发现尤其鼓舞人心，因为我们在基线上调整了所有重叠的超参数，给出了基线的优势。另一方面，我们发现模仿学习应该被使用。
-
-    Curriculum learning and imitation learning have been leveraged extensively in the robotics domain. However, minimal research has been done on leveraging these ideas on control tasks over highly stochastic time-series data. Here, we theoretically and empirically explore these approaches in a representative control task over complex time-series data. We implement the fundamental ideas of curriculum learning via data augmentation, while imitation learning is implemented via policy distillation from an oracle. Our findings reveal that curriculum learning should be considered a novel direction in improving control-task performance over complex time-series. Our ample random-seed out-sample empirics and ablation studies are highly encouraging for curriculum learning for time-series control. These findings are especially encouraging as we tune all overlapping hyperparameters on the baseline -- giving an advantage to the baseline. On the other hand, we find that imitation learning should be use
-    
-[^20]: 在比利时COVID-19大流行期间验证动态投入产出模型以传播供求冲击
-
-    Validating a dynamic input-output model for the propagation of supply and demand shocks during the COVID-19 pandemic in Belgium. (arXiv:2305.16377v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.16377](http://arxiv.org/abs/2305.16377)
-
-    本研究验证了一个动态投入产出模型，在比利时COVID-19大流行期间松弛了Leontief生产函数，能够准确预测经济相关变量，并具有较强的鲁棒性。
+    本文提出了一种基于量子取样的工作量证明共识机制(CGBS-PoW)，采用Fock态和高斯波色子取样，具有巨大的加速和节能效益。
 
     
 
-    本研究利用比利时经济相关指标的四个时间序列，验证了先前建立的动态投入产出模型，以量化COVID-19导致的经济冲击在比利时的影响。通过对研究中可能影响结果的八个模型参数进行敏感性分析，确定了最佳参数组合，并评估了研究结果对这些参数变化的敏感性。研究发现，采用松弛严格的Leontief生产函数的模型，能够在聚合和部门级别上提供COVID-19大流行期间比利时经济相关变量的准确预测。研究结果经过输入参数变化的考验，具有较强的鲁棒性，因此该模型可能是预测影响的有价值工具。
+    自其2011年出现以来，波色子取样因其相对于其他量子算法的简单性和近期要求而成为展示量子优势的优选候选。本文提出将一种变种——粗粒度波色子取样(CGBS)——作为区块链共识的量子工作量证明(PoW)机制。用户使用依赖于当前块信息的输入状态进行波色子取样，并将其提交到网络中。然后确定可用于验证样本和奖励成功矿工的CGBS策略。通过将向提交诚实样本的矿工提供奖励并对提交不诚实样本的矿工进行惩罚的组合，找到了一个激励诚实节点的纳什均衡。该方案适用于Fock态波色子取样和高斯波色子取样，并相对于使用经典硬件进行计算提供了巨大的加速和节能效益。
 
-    This work validates a previously established dynamical input-output model to quantify the impact of economic shocks caused by COVID-19 in the UK using data from Belgium. To this end, we used four time series of economically relevant indicators for Belgium. We identified eight model parameters that could potentially impact the results and varied these parameters over broad ranges in a sensitivity analysis. In this way, we could identify the set of parameters that results in the best agreement to the empirical data and we could asses the sensitivity of our outcomes to changes in these parameters. We find that the model, characterized by relaxing the stringent Leontief production function, provides adequate projections of economically relevant variables during the COVID-19 pandemic in Belgium, both at the aggregated and sectoral levels. The obtained results are robust in light of changes in the input parameters and hence, the model could prove to be a valuable tool in predicting the impac
+    Since its advent in 2011, boson-sampling has been a preferred candidate for demonstrating quantum advantage because of its simplicity and near-term requirements compared to other quantum algorithms. We propose to use a variant, called coarse-grained boson-sampling (CGBS), as a quantum Proof-of-Work (PoW) scheme for blockchain consensus. The users perform boson-sampling using input states that depend on the current block information, and commit their samples to the network. Afterward, CGBS strategies are determined which can be used to both validate samples and to reward successful miners. By combining rewards to miners committing honest samples together with penalties to miners committing dishonest samples, a Nash equilibrium is found that incentivizes honest nodes. The scheme works for both Fock state boson sampling and Gaussian boson sampling and provides dramatic speedup and energy savings relative to computation by classical hardware.
     
-[^21]: 如何处理用于期权定价的 COS 方法
+[^18]: 连续时间单调均值方差组合选择
 
-    How to handle the COS method for option pricing. (arXiv:2303.16012v1 [q-fin.CP])
+    Continuous-Time Monotone Mean-Variance Portfolio Selection. (arXiv:2211.12168v4 [q-fin.MF] UPDATED)
 
-    [http://arxiv.org/abs/2303.16012](http://arxiv.org/abs/2303.16012)
+    [http://arxiv.org/abs/2211.12168](http://arxiv.org/abs/2211.12168)
 
-    介绍了用于欧式期权定价的 Fourier余弦展开 (COS) 方法，通过指定截断范围和项数N进行逼近，文章提出明确的N的上界，对密度平滑并指数衰减的情况，COS方法的收敛阶数至少是指数收敛阶数。
-
-    
-
-    Fourier余弦展开（COS）方法用于高效地计算欧式期权价格。要应用COS方法，必须指定两个参数：对数收益率密度的截断范围和用余弦级数逼近截断密度的项数N。如何选择截断范围已经为人所知。在这里，我们还能找到一个明确的并且有用的项数N的界限。我们还进一步表明，如果密度是平滑的并且呈指数衰减，则COS方法至少具有指数收敛阶数。但是，如果密度平滑但有重尾巴，就像在有限矩阵log稳定模型中一样，则COS方法没有指数收敛阶数。数值实验确认了理论发现。
-
-    The Fourier cosine expansion (COS) method is used for pricing European options numerically very efficiently. To apply the COS method, one has to specify two parameters: a truncation range for the density of the log-returns and a number of terms N to approximate the truncated density by a cosine series. How to choose the truncation range is already known. Here, we are able to find an explicit and useful bound for N as well. We further show that the COS method has at least an exponential order of convergence if the density is smooth and decays exponentially. But, if the density is smooth and has heavy tails like in the Finite Moment Log Stable model, the COS method has not an exponential order of convergence. Numerical experiments confirm the theoretical findings.
-    
-[^22]: 当前消费者汽车贷款的信用风险收敛研究
-
-    On the Convergence of Credit Risk in Current Consumer Automobile Loans. (arXiv:2211.09176v2 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/2211.09176](http://arxiv.org/abs/2211.09176)
-
-    本研究使用大量样本数据证明，对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。低风险借款人的拖延偿还让他们损失了1212-2327美元，同时当前的低风险借款人比当前的高风险借款人表现得不够有效率。
+    本文研究了在跳跃扩散模型下连续时间的单调均值方差组合选择，并首次给出了不同于传统均值方差偏好的明确解决方案。该研究结果对于未来对单调均值方差和单调资本资产定价模型的实证测试具有重要的理论依据。
 
     
 
-    当前贷款的条件信用风险鲜少研究。本研究使用大样本统计和基于消费者汽车资产支持证券数据的资产层面的分析，发现对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。我们估计低风险借款人的拖延偿还造成了1212-2327美元的损失，并发现了出人意料的结果：当前的低风险借款人比当前的高风险借款人表现得不够有效率。我们还通过视觉证据展示了汽车价值和经济刺激导致贷款提前偿还增加，但并非由于借款人的财务能力。我们的结果经过多种敏感性测试，表现稳健。
+    我们研究了在跳跃扩散模型下的连续时间单调均值方差(MMV)偏好的组合选择，并给出了与传统均值方差(MV)偏好不同的明确解决方案。我们证明了MMV的模糊度测度可以限制在非负的Dol\'eans-Dade指数上。我们发现当金融市场的跳跃大小可以大于风险市场价格的倒数时，MMV可以修复MV的非单调性。这个结果与Dybvig和Ingersoll的最早结果完全可比。此外，我们验证了两个基金的隔离有效性，并建立了MMV投资者的单调资本资产定价模型（单调CAPM）。我们还研究了在限制交易模型中的MMV，并提供了三个具体的数值示例来展示MMV的效率。我们的发现可以成为未来对MMV和单调CAPM有效性进行实证测试的重要理论依据。
 
-    Conditional credit risk of a current loan is understudied. Using large-sample statistics and asset-level consumer automobile asset-backed security data, we find default risk conditional on survival eventually converges for borrowers in disparate credit risk bands, a phenomenon we call credit risk convergence. We conservatively estimate that borrowers forwent $1,212 - $2,327 in savings through delayed prepayment and find the surprising result that current lower risk borrowers behave less efficiently than current higher risk borrowers. We also present visual evidence prepayments rose with used auto values and economic stimulus rather than financial acumen. Our results are robust to various sensitivity tests.
+    We study the continuous-time portfolio selection under monotone mean-variance (MMV) preferences in a jump-diffusion model and give an explicit solution different from that under classical mean-variance (MV) preferences for the first time. We prove that ambiguity measures of MMV can be restricted on non-negative Dol\'eans-Dade exponentials. We find that MMV can fix the non-monotonicity of MV when the jump size of the financial market can be larger than the inverse of the market price of risk. Such result is completely comparable to the earliest result of Dybvig and Ingersoll. Further, we verify the validity of two-fund separation and establish the monotone capital asset pricing model (monotone CAPM) for MMV investors. We also study MMV in a constrained trading model and provide three specific numerical examples to show MMV's efficiency. Our finding can be an important theoretical basis for future empirical tests of MMV and monotone CAPM's effectiveness.
+    
+[^19]: 缺失值和期望回报维度的研究
+
+    Missing Values and the Dimensionality of Expected Returns. (arXiv:2207.13071v3 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2207.13071](http://arxiv.org/abs/2207.13071)
+
+    该研究比较了多种插值方法，发现预测变量通常独立，因此即使采用特定值估计，最终结果与最大似然估计相似。此外，50个主成分可捕捉等权重的期望回报，而使用神经网络投资组合也有类似的结果。
+
+    
+
+    通过将许多横截面回报预测变量组合在一起（例如，在机器学习中），通常需要插值缺失值。我们比较了几种方法，包括最大似然估计和特定值估计。令人惊讶的是，最大似然估计和特定值估计产生了类似的结果。这是因为预测变量在很大程度上是独立的：相关性集群接近于零，10个主成分(PC)跨度少于总方差的50％。独立性意味着观察到的变量对缺失变量没有信息贡献，使特定方法有效。 在PC回归测试中，需要50个PC才能捕捉等权重期望回报（30个PC权值加权），不管imputation是什么。 我们发现神经网络投资组合中也有类似的不变性。
+
+    Combining many cross-sectional return predictors (for example, in machine learning) often requires imputing missing values. We compare ad-hoc mean imputation with several methods including maximum likelihood. Surprisingly, maximum likelihood and ad-hoc methods lead to similar results. This is because predictors are largely independent: Correlations cluster near zero and 10 principal components (PCs) span less than 50% of total variance. Independence implies observed predictors are uninformative about missing predictors, making ad-hoc methods valid. In PC regression tests, 50 PCs are required to capture equal-weighted expected returns (30 PCs value-weighted), regardless of the imputation. We find similar invariance in neural network portfolios.
+    
+[^20]: 基于再生核希尔伯特空间的奇异局部随机波动率McKean-Vlasov模型的研究
+
+    A Reproducing Kernel Hilbert Space approach to singular local stochastic volatility McKean-Vlasov models. (arXiv:2203.01160v2 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2203.01160](http://arxiv.org/abs/2203.01160)
+
+    本文研究了基于再生核希尔伯特空间的奇异局部随机波动率McKean-Vlasov模型。通过开发一种新的正则化方法，我们证明了正则化后的模型的良态性，并且通过数值实验展示了模型能够复制典型的局部波动率模型的期权价格。
+
+    
+
+    在金融模型校准的挑战下，我们考虑了数值求解奇异McKean-Vlasov方程的问题，其中方程形式为 $$ d X_t= \sigma(t,X_t) X_t \frac{\sqrt v_t}{\sqrt {E[v_t|X_t]}}dW_t, $$ 其中$W$是布朗运动，$v$是改进扩散过程。该方程可被看作奇异局部随机波动率模型。尽管这样的模型在实践中很受欢迎，但是很遗憾，其良态性还没有完全理解，一般情况下也可能无法保证。我们基于再生核希尔伯特空间(RKHS)技术开发了一种新的正则化方法，并证明了正则化模型的良态性。此外，我们还证明了混沌传播。我们通过数值实验证明，这个经过正则化的模型能够完美地复制典型的局部波动率模型的期权价格。我们的结果也适用于更一般的McKean-Vlasov方程。
+
+    Motivated by the challenges related to the calibration of financial models, we consider the problem of numerically solving a singular McKean-Vlasov equation $$ d X_t= \sigma(t,X_t) X_t \frac{\sqrt v_t}{\sqrt {E[v_t|X_t]}}dW_t, $$ where $W$ is a Brownian motion and $v$ is an adapted diffusion process. This equation can be considered as a singular local stochastic volatility model. Whilst such models are quite popular among practitioners, unfortunately, its well-posedness has not been fully understood yet and, in general, is possibly not guaranteed at all. We develop a novel regularization approach based on the reproducing kernel Hilbert space (RKHS) technique and show that the regularized model is well-posed. Furthermore, we prove propagation of chaos. We demonstrate numerically that a thus regularized model is able to perfectly replicate option prices due to typical local volatility models. Our results are also applicable to more general McKean--Vlasov equations.
+    
+[^21]: 内生定价下的效用最大化问题研究
+
+    Utility maximization under endogenous pricing. (arXiv:2005.04312v3 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2005.04312](http://arxiv.org/abs/2005.04312)
+
+    本文研究了在具有内生持久市场影响的不完全金融市场中，大型投资者的效用最大化问题。通过解决一组耦合的随机微分方程，我们完全描述了问题的最优性，并且给出了解的存在性和光滑性结果。
+
+    
+
+    本文研究了在具有内生持久市场影响的不完全金融市场中，一位大型投资者的预期效用最大化问题。假设资产价格遵循市场上代表性流动性供应商的效用不变曲线作为非线性价格曲线。我们通过一组耦合的前向-后向随机微分方程（FBSDEs）完全描述出最优性，该方程组对应非线性反向随机偏微分方程（BSPDE）。在市场代表性市场制造商的驱动函数至少呈二次增长或大型投资者的效用函数下降得比二次更快或呈指数形式的情况下，我们证明了最优投资问题和FBSDEs的解的存在性。此外，我们推导出BSPDEs解存在的光滑性结果。文中提供了完全市场情况下的示例。
+
+    We study the expected utility maximization problem of a large investor who is allowed to make transactions on tradable assets in an incomplete financial market with endogenous permanent market impacts. The asset prices are assumed to follow a nonlinear price curve quoted in the market as the utility indifference curve of a representative liquidity supplier. We show that optimality can be fully characterized via a system of coupled forward-backward stochastic differential equations (FBSDEs) which corresponds to a non-linear backward stochastic partial differential equation (BSPDE). We show existence of solutions to the optimal investment problem and the FBSDEs in the case where the driver function of the representative market maker grows at least quadratically or the utility function of the large investor falls faster than quadratically or is exponential. Furthermore, we derive smoothness results for the existence of solutions of BSPDEs. Examples are provided when the market is complete
     
 

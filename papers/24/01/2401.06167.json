@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Multimodal Understanding with CLIP-Based Image-to-Text Transformation. (arXiv:2401.06167v1 [cs.CV])",
+    "abstract": "The process of transforming input images into corresponding textual explanations stands as a crucial and complex endeavor within the domains of computer vision and natural language processing. In this paper, we propose an innovative ensemble approach that harnesses the capabilities of Contrastive Language-Image Pretraining models.",
+    "link": "http://arxiv.org/abs/2401.06167",
+    "context": "Title: Enhancing Multimodal Understanding with CLIP-Based Image-to-Text Transformation. (arXiv:2401.06167v1 [cs.CV])\nAbstract: The process of transforming input images into corresponding textual explanations stands as a crucial and complex endeavor within the domains of computer vision and natural language processing. In this paper, we propose an innovative ensemble approach that harnesses the capabilities of Contrastive Language-Image Pretraining models.",
+    "path": "papers/24/01/2401.06167.json",
+    "total_tokens": 519,
+    "translated_title": "使用基于CLIP的图像到文本转换增强多模态理解能力",
+    "translated_abstract": "在计算机视觉和自然语言处理领域中，将输入图像转换为相应的文本解释的过程是一项关键且复杂的工作。在本文中，我们提出了一种创新的集成方法，利用对比式语言图像预训练模型的能力。",
+    "tldr": "本文提出了一种集成方法，利用对比式语言图像预训练模型的能力，来实现图像到文本的转换，进而增强多模态理解能力。",
+    "en_tdlr": "This paper proposes an ensemble approach that leverages the capabilities of Contrastive Language-Image Pretraining models to enhance multimodal understanding by transforming images into corresponding textual explanations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Product Jacobi-Theta Boltzmann machines with score matching. (arXiv:2303.05910v2 [stat.ML] UPDATED)",
+    "abstract": "The estimation of probability density functions is a non trivial task that over the last years has been tackled with machine learning techniques. Successful applications can be obtained using models inspired by the Boltzmann machine (BM) architecture. In this manuscript, the product Jacobi-Theta Boltzmann machine (pJTBM) is introduced as a restricted version of the Riemann-Theta Boltzmann machine (RTBM) with diagonal hidden sector connection matrix. We show that score matching, based on the Fisher divergence, can be used to fit probability densities with the pJTBM more efficiently than with the original RTBM.",
+    "link": "http://arxiv.org/abs/2303.05910",
+    "context": "Title: Product Jacobi-Theta Boltzmann machines with score matching. (arXiv:2303.05910v2 [stat.ML] UPDATED)\nAbstract: The estimation of probability density functions is a non trivial task that over the last years has been tackled with machine learning techniques. Successful applications can be obtained using models inspired by the Boltzmann machine (BM) architecture. In this manuscript, the product Jacobi-Theta Boltzmann machine (pJTBM) is introduced as a restricted version of the Riemann-Theta Boltzmann machine (RTBM) with diagonal hidden sector connection matrix. We show that score matching, based on the Fisher divergence, can be used to fit probability densities with the pJTBM more efficiently than with the original RTBM.",
+    "path": "papers/23/03/2303.05910.json",
+    "total_tokens": 680,
+    "translated_title": "使用Score matching的乘积Jacobi-Theta Boltzmann机器",
+    "translated_abstract": "估计概率密度函数是一个不容易的任务，在过去几年中，人们已经开始使用机器学习技术来解决这个问题。借鉴Boltzmann机器的架构，可以得到成功的应用。本文介绍了一种称为乘积Jacobi-Theta Boltzmann机器（pJTBM）的模型，它是Riemann-Theta Boltzmann机器（RTBM）的受限版本，具有对角隐藏部分连接矩阵。我们展示了基于Fisher散度的Score matching可以用来比原始的RTBM更高效地拟合pJTBM的概率密度。",
+    "tldr": "本文介绍了一种使用Score matching的乘积Jacobi-Theta Boltzmann机器（pJTBM），它比原始的RTBM更高效地拟合概率密度。",
+    "en_tdlr": "This paper introduces a product Jacobi-Theta Boltzmann machine (pJTBM) that uses score matching to fit probability densities more efficiently than the original Riemann-Theta Boltzmann machine (RTBM)."
+}

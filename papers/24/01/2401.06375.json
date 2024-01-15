@@ -1,0 +1,11 @@
+{
+    "title": "Cognitive BPM as an Equalizer: Improving Access and Efficiency for Employees with (and without) Cognitive Disabilities. (arXiv:2401.06375v1 [cs.AI])",
+    "abstract": "We examine ProcessGPT, an AI model designed to automate, augment, and improve business processes, to study the challenges of managing business processes within the cognitive limitations of the human workforce, particularly individuals with cognitive disabilities. ProcessGPT provides a blueprint for designing efficient business processes that take into account human cognitive limitations. By viewing this through the lens of cognitive disabilities, we show that ProcessGPT improves process usability for individuals with and without cognitive disabilities. We also demonstrate that organizations implementing ProcessGPT-like capabilities will realize increased productivity, morale, and inclusion.",
+    "link": "http://arxiv.org/abs/2401.06375",
+    "context": "Title: Cognitive BPM as an Equalizer: Improving Access and Efficiency for Employees with (and without) Cognitive Disabilities. (arXiv:2401.06375v1 [cs.AI])\nAbstract: We examine ProcessGPT, an AI model designed to automate, augment, and improve business processes, to study the challenges of managing business processes within the cognitive limitations of the human workforce, particularly individuals with cognitive disabilities. ProcessGPT provides a blueprint for designing efficient business processes that take into account human cognitive limitations. By viewing this through the lens of cognitive disabilities, we show that ProcessGPT improves process usability for individuals with and without cognitive disabilities. We also demonstrate that organizations implementing ProcessGPT-like capabilities will realize increased productivity, morale, and inclusion.",
+    "path": "papers/24/01/2401.06375.json",
+    "total_tokens": 790,
+    "translated_title": "认知BPM作为平等化因素：提高具有（和没有）认知障碍的员工的访问和效率",
+    "translated_abstract": "我们研究了ProcessGPT，一个旨在自动化、增强和改善业务流程的人工智能模型，以研究在人类劳动力的认知限制下管理业务流程的挑战，尤其是认知障碍的个体。ProcessGPT提供了设计高效业务流程的蓝图，考虑到人类的认知限制。通过从认知障碍的角度来看待，我们表明ProcessGPT改善了具有和没有认知障碍的个体的流程可用性。我们还证明实施类似ProcessGPT功能的组织将实现增加的生产力、士气和包容性。",
+    "tldr": "本研究以ProcessGPT为例，探讨了在人类认知限制下管理业务流程的挑战，特别是针对认知障碍个体。研究表明，ProcessGPT改善了不同认知能力的个体的流程可用性，对组织来说也能带来更高的生产力、士气和包容性。"
+}

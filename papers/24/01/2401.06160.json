@@ -1,0 +1,12 @@
+{
+    "title": "Future-proofing Education: A Prototype for Simulating Oral Examinations Using Large Language Models. (arXiv:2401.06160v1 [cs.CY])",
+    "abstract": "This study explores the impact of Large Language Models (LLMs) in higher education, focusing on an automated oral examination simulation using a prototype. The design considerations of the prototype are described, and the system is evaluated with a select group of educators and students. Technical and pedagogical observations are discussed. The prototype proved to be effective in simulating oral exams, providing personalized feedback, and streamlining educators' workloads. The promising results of the prototype show the potential for LLMs in democratizing education, inclusion of diverse student populations, and improvement of teaching quality and efficiency.",
+    "link": "http://arxiv.org/abs/2401.06160",
+    "context": "Title: Future-proofing Education: A Prototype for Simulating Oral Examinations Using Large Language Models. (arXiv:2401.06160v1 [cs.CY])\nAbstract: This study explores the impact of Large Language Models (LLMs) in higher education, focusing on an automated oral examination simulation using a prototype. The design considerations of the prototype are described, and the system is evaluated with a select group of educators and students. Technical and pedagogical observations are discussed. The prototype proved to be effective in simulating oral exams, providing personalized feedback, and streamlining educators' workloads. The promising results of the prototype show the potential for LLMs in democratizing education, inclusion of diverse student populations, and improvement of teaching quality and efficiency.",
+    "path": "papers/24/01/2401.06160.json",
+    "total_tokens": 701,
+    "translated_title": "未来教育的防风险设计：使用大型语言模型模拟口试的原型",
+    "translated_abstract": "本研究探讨了在高等教育中使用大型语言模型（LLMs）的影响，重点是使用原型进行自动口试模拟。描述了原型的设计考虑，并通过一组选择的教育者和学生对系统进行了评估。讨论了技术和教学观察。原型在模拟口试、提供个性化反馈和简化教育工作负担方面证明了其有效性。原型的有望结果显示了LLMs在民主教育、包容不同学生群体以及提高教学质量和效率方面的潜力。",
+    "tldr": "使用大型语言模型模拟口试的原型在未来教育中具有潜力，可以实现教育民主化、包容多样的学生群体以及提高教学质量和效率。",
+    "en_tdlr": "The prototype for simulating oral examinations using Large Language Models (LLMs) has the potential to democratize education, include diverse student populations, and improve teaching quality and efficiency."
+}

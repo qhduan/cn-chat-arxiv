@@ -1,0 +1,12 @@
+{
+    "title": "Generative Network Layer for Communication Systems with Artificial Intelligence. (arXiv:2312.05398v2 [cs.IT] UPDATED)",
+    "abstract": "The traditional role of the network layer is the transfer of packet replicas from source to destination through intermediate network nodes. We present a generative network layer that uses Generative AI (GenAI) at intermediate or edge network nodes and analyze its impact on the required data rates in the network. We conduct a case study where the GenAI-aided nodes generate images from prompts that consist of substantially compressed latent representations. The results from network flow analyses under image quality constraints show that the generative network layer can achieve an improvement of more than 100% in terms of the required data rate.",
+    "link": "http://arxiv.org/abs/2312.05398",
+    "context": "Title: Generative Network Layer for Communication Systems with Artificial Intelligence. (arXiv:2312.05398v2 [cs.IT] UPDATED)\nAbstract: The traditional role of the network layer is the transfer of packet replicas from source to destination through intermediate network nodes. We present a generative network layer that uses Generative AI (GenAI) at intermediate or edge network nodes and analyze its impact on the required data rates in the network. We conduct a case study where the GenAI-aided nodes generate images from prompts that consist of substantially compressed latent representations. The results from network flow analyses under image quality constraints show that the generative network layer can achieve an improvement of more than 100% in terms of the required data rate.",
+    "path": "papers/23/12/2312.05398.json",
+    "total_tokens": 668,
+    "translated_title": "具有人工智能的通信系统中的生成网络层",
+    "translated_abstract": "传统的网络层的作用是通过中间网络节点将数据包从源传输到目的地。我们提出了一种在中间或边缘网络节点使用生成式人工智能（GenAI）的生成网络层，并分析其对网络中所需数据速率的影响。我们进行了一个案例研究，其中使用GenAI辅助节点从包含大幅压缩的潜在表示的提示中生成图像。在图像质量约束下进行的网络流分析结果显示，生成网络层可以实现超过100%的数据速率要求改进。",
+    "tldr": "这个论文提出了一种使用生成式人工智能在中间或边缘网络节点上的生成网络层，通过将潜在表示压缩后的提示生成图像，可以显著改善网络中所需的数据速率。",
+    "en_tdlr": "This paper proposes a generative network layer utilizing Generative AI (GenAI) at intermediate or edge network nodes, which achieves significant improvement in the required data rate by generating images from substantially compressed latent representations."
+}

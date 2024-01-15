@@ -1,0 +1,12 @@
+{
+    "title": "Qrlew: Rewriting SQL into Differentially Private SQL. (arXiv:2401.06273v1 [cs.DB])",
+    "abstract": "This paper introduces Qrlew, an open source library that can parse SQL queries into Relations -- an intermediate representation -- that keeps track of rich data types, value ranges, and row ownership; so that they can easily be rewritten into differentially-private equivalent and turned back into SQL queries for execution in a variety of standard data stores.  With Qrlew, a data practitioner can express their data queries in standard SQL; the data owner can run the rewritten query without any technical integration and with strong privacy guarantees on the output; and the query rewriting can be operated by a privacy-expert who must be trusted by the owner, but may belong to a separate organization.",
+    "link": "http://arxiv.org/abs/2401.06273",
+    "context": "Title: Qrlew: Rewriting SQL into Differentially Private SQL. (arXiv:2401.06273v1 [cs.DB])\nAbstract: This paper introduces Qrlew, an open source library that can parse SQL queries into Relations -- an intermediate representation -- that keeps track of rich data types, value ranges, and row ownership; so that they can easily be rewritten into differentially-private equivalent and turned back into SQL queries for execution in a variety of standard data stores.  With Qrlew, a data practitioner can express their data queries in standard SQL; the data owner can run the rewritten query without any technical integration and with strong privacy guarantees on the output; and the query rewriting can be operated by a privacy-expert who must be trusted by the owner, but may belong to a separate organization.",
+    "path": "papers/24/01/2401.06273.json",
+    "total_tokens": 691,
+    "translated_title": "Qrlew: 将SQL重写为差分隐私SQL",
+    "translated_abstract": "本文介绍了Qrlew，一个开源库，它可以将SQL查询解析为Relations，即中间表示，这些表示可以跟踪丰富的数据类型、值范围和行所有权，以便可以轻松地重写为具有差分隐私等效性，并转换回SQL查询，在各种标准数据存储中执行。使用Qrlew，数据从业者可以用标准SQL表达其数据查询；数据所有者可以在输出上享有强大的隐私保证下运行重写的查询，无需任何技术集成；并且查询重写可以由一个由所有者信任但可能属于不同组织的隐私专家来操作。",
+    "tldr": "Qrlew是一个开源库，能够将SQL查询重写为具有差分隐私等效性的查询，从而在保持数据所有者隐私的同时实现标准数据查询和执行。",
+    "en_tdlr": "Qrlew is an open-source library that rewrites SQL queries into differentially-private equivalents, allowing for standard data queries and execution while preserving data owner privacy."
+}

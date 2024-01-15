@@ -1,0 +1,12 @@
+{
+    "title": "Trustworthy human-centric based Automated Decision-Making Systems. (arXiv:2401.06161v1 [cs.CY])",
+    "abstract": "Automated Decision-Making Systems (ADS) have become pervasive across various fields, activities, and occupations, to enhance performance. However, this widespread adoption introduces potential risks, including the misuse of ADS. Such misuse may manifest when ADS is employed in situations where it is unnecessary or when essential requirements, conditions, and terms are overlooked, leading to unintended consequences. This research paper presents a thorough examination of the implications, distinctions, and ethical considerations associated with digitalization, digital transformation, and the utilization of ADS in contemporary society and future contexts. Emphasis is placed on the imperative need for regulation, transparency, and ethical conduct in the deployment of ADS.",
+    "link": "http://arxiv.org/abs/2401.06161",
+    "context": "Title: Trustworthy human-centric based Automated Decision-Making Systems. (arXiv:2401.06161v1 [cs.CY])\nAbstract: Automated Decision-Making Systems (ADS) have become pervasive across various fields, activities, and occupations, to enhance performance. However, this widespread adoption introduces potential risks, including the misuse of ADS. Such misuse may manifest when ADS is employed in situations where it is unnecessary or when essential requirements, conditions, and terms are overlooked, leading to unintended consequences. This research paper presents a thorough examination of the implications, distinctions, and ethical considerations associated with digitalization, digital transformation, and the utilization of ADS in contemporary society and future contexts. Emphasis is placed on the imperative need for regulation, transparency, and ethical conduct in the deployment of ADS.",
+    "path": "papers/24/01/2401.06161.json",
+    "total_tokens": 716,
+    "translated_title": "人类为中心的可信自动决策系统",
+    "translated_abstract": "自动决策系统（ADS）在各个领域、活动和职业中已普遍使用，以提高性能。然而，这种广泛采用引入了潜在风险，包括ADS的滥用。当ADS在不必要的情况下使用，或者忽视了重要要求、条件和条款，导致意外后果时，可能会出现这种滥用。本研究论文对数字化、数字转型以及在当代社会和未来环境中利用ADS所涉及的含义、区别和伦理考虑进行了深入研究。重点强调了在部署ADS时的规范、透明度和伦理行为的必要性。",
+    "tldr": "该论文讨论了自动决策系统在当代社会和未来环境中的潜在风险，以及在部署ADS时的规范、透明度和伦理行为的必要性。",
+    "en_tdlr": "This research paper examines the potential risks of automated decision-making systems in contemporary society and future contexts, as well as the necessity for regulation, transparency, and ethical conduct in their deployment."
+}

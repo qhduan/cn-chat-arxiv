@@ -1,0 +1,11 @@
+{
+    "title": "Reframing Tax Law Entailment as Analogical Reasoning. (arXiv:2401.06715v1 [cs.CL])",
+    "abstract": "Statutory reasoning refers to the application of legislative provisions to a series of case facts described in natural language. We re-frame statutory reasoning as an analogy task, where each instance of the analogy task involves a combination of two instances of statutory reasoning. This increases the dataset size by two orders of magnitude, and introduces an element of interpretability. We show that this task is roughly as difficult to Natural Language Processing models as the original task. Finally, we come back to statutory reasoning, solving it with a combination of a retrieval mechanism and analogy models, and showing some progress on prior comparable work.",
+    "link": "http://arxiv.org/abs/2401.06715",
+    "context": "Title: Reframing Tax Law Entailment as Analogical Reasoning. (arXiv:2401.06715v1 [cs.CL])\nAbstract: Statutory reasoning refers to the application of legislative provisions to a series of case facts described in natural language. We re-frame statutory reasoning as an analogy task, where each instance of the analogy task involves a combination of two instances of statutory reasoning. This increases the dataset size by two orders of magnitude, and introduces an element of interpretability. We show that this task is roughly as difficult to Natural Language Processing models as the original task. Finally, we come back to statutory reasoning, solving it with a combination of a retrieval mechanism and analogy models, and showing some progress on prior comparable work.",
+    "path": "papers/24/01/2401.06715.json",
+    "total_tokens": 692,
+    "translated_title": "重新定义税法推论为类比推理",
+    "translated_abstract": "法定推理是指将立法规定应用于用自然语言描述的一系列案例事实。我们将法定推理重新定义为类比任务，其中每个类比任务实例涉及两个法定推理实例的组合。这样做可以将数据集大小增加两个数量级，并引入解释性因素。我们证明这个任务对于自然语言处理模型来说与原始任务的难度相当。最后，我们通过结合检索机制和类比模型来解决法定推理问题，并在之前的可比工作上取得了一些进展。",
+    "tldr": "本论文将法定推理重新定义为类比任务，通过增加数据集大小和引入解释性因素，展示了这个任务与原始任务的难度相当，并利用检索机制和类比模型解决法定推理问题，在之前的可比工作上取得了一些进展。"
+}

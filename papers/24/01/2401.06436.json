@@ -1,0 +1,12 @@
+{
+    "title": "Improving Graph Convolutional Networks with Transformer Layer in social-based items recommendation. (arXiv:2401.06436v1 [cs.LG])",
+    "abstract": "In this work, we have proposed an approach for improving the GCN for predicting ratings in social networks. Our model is expanded from the standard model with several layers of transformer architecture. The main focus of the paper is on the encoder architecture for node embedding in the network. Using the embedding layer from the graph-based convolution layer, the attention mechanism could rearrange the feature space to get a more efficient embedding for the downstream task. The experiments showed that our proposed architecture achieves better performance than GCN on the traditional link prediction task.",
+    "link": "http://arxiv.org/abs/2401.06436",
+    "context": "Title: Improving Graph Convolutional Networks with Transformer Layer in social-based items recommendation. (arXiv:2401.06436v1 [cs.LG])\nAbstract: In this work, we have proposed an approach for improving the GCN for predicting ratings in social networks. Our model is expanded from the standard model with several layers of transformer architecture. The main focus of the paper is on the encoder architecture for node embedding in the network. Using the embedding layer from the graph-based convolution layer, the attention mechanism could rearrange the feature space to get a more efficient embedding for the downstream task. The experiments showed that our proposed architecture achieves better performance than GCN on the traditional link prediction task.",
+    "path": "papers/24/01/2401.06436.json",
+    "total_tokens": 636,
+    "translated_title": "在基于社交网络的物品推荐中，用Transformer层改进图卷积网络",
+    "translated_abstract": "在这项工作中，我们提出了一种改进GCN在社交网络中预测评分的方法。我们的模型在标准模型的基础上扩展了几层Transformer架构。论文的主要焦点是网络中节点嵌入的编码器架构。使用来自基于图的卷积层的嵌入层，注意机制可以重新排列特征空间，为下游任务获取更高效的嵌入。实验表明，我们提出的架构在传统的链接预测任务上表现优于GCN。",
+    "tldr": "本文提出了一种在社交网络中预测评分的方法，该方法通过在GCN模型中引入Transformer层，在节点嵌入方面取得了更好的性能。",
+    "en_tdlr": "This paper proposes an approach for predicting ratings in social networks, which achieves better performance in node embedding by introducing Transformer layer in the GCN model."
+}

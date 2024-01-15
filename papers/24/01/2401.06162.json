@@ -1,0 +1,12 @@
+{
+    "title": "A debiasing technique for place-based algorithmic patrol management. (arXiv:2401.06162v1 [cs.CY])",
+    "abstract": "In recent years, there has been a revolution in data-driven policing. With that has come scrutiny on how bias in historical data affects algorithmic decision making. In this exploratory work, we introduce a debiasing technique for place-based algorithmic patrol management systems. We show that the technique efficiently eliminates racially biased features while retaining high accuracy in the models. Finally, we provide a lengthy list of potential future research in the realm of fairness and data-driven policing which this work uncovered.",
+    "link": "http://arxiv.org/abs/2401.06162",
+    "context": "Title: A debiasing technique for place-based algorithmic patrol management. (arXiv:2401.06162v1 [cs.CY])\nAbstract: In recent years, there has been a revolution in data-driven policing. With that has come scrutiny on how bias in historical data affects algorithmic decision making. In this exploratory work, we introduce a debiasing technique for place-based algorithmic patrol management systems. We show that the technique efficiently eliminates racially biased features while retaining high accuracy in the models. Finally, we provide a lengthy list of potential future research in the realm of fairness and data-driven policing which this work uncovered.",
+    "path": "papers/24/01/2401.06162.json",
+    "total_tokens": 659,
+    "translated_title": "一种用于基于地点的算法巡逻管理的去偏技术",
+    "translated_abstract": "最近几年，数据驱动的警务工作发生了革命。随之而来的是对历史数据中偏见如何影响算法决策的审查。在这项探索性工作中，我们介绍了一种用于基于地点的算法巡逻管理系统的去偏技术。我们展示了这种技术在保留模型高准确性的同时有效消除了种族偏见特征。最后，我们提供了这项工作揭示的在公平和数据驱动的警务领域中潜在的未来研究的一长串清单。",
+    "tldr": "这项工作介绍了一种用于基于地点的算法巡逻管理系统的去偏技术，该技术能够有效消除种族偏见特征并保留高准确性的模型。",
+    "en_tdlr": "This work presents a debiasing technique for place-based algorithmic patrol management systems, which efficiently eliminates racially biased features while maintaining high accuracy in the models."
+}

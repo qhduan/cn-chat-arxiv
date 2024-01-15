@@ -2,38 +2,123 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Interactions between dynamic team composition and coordination: An agent-based modeling approach.](http://arxiv.org/abs/2401.05832) | 本文通过Agent-Based建模方法研究了协调模式和动态团队构成的相互作用，以及它们在不同任务复杂性和个体学习条件下对任务绩效的联合影响。 |
-| [^2] | [Covariance Function Estimation for High-Dimensional Functional Time Series with Dual Factor Structures.](http://arxiv.org/abs/2401.05784) | 本文提出了一种用于高维功能时间序列建模的灵活双因子结构模型，并推广了主成分分析技术和矩阵收缩方法以有效估计协方差函数和稀疏结构。 |
-| [^3] | [Follow The Money: Exploring the Key Factors Influencing Investment in African Startups.](http://arxiv.org/abs/2401.05760) | 本研究深入分析了影响非洲初创企业融资金额的关键因素，包括性别多样性差距、职业经验、创始人学术背景等。研究结果显示，人力资本、多元化行业方法和跨境合作策略对于建立强大的初创企业生态系统至关重要。此外，本研究还发现了“Y combinators”对非洲初创企业的潜在积极影响和退出策略对交易金额的影响。 |
-| [^4] | [The defensible set and a new impossibility theorem in voting.](http://arxiv.org/abs/2401.05657) | 本文研究了具有序偏好的社会选择理论中的可防御集合，证明了满足正参与度和康多塞获胜者准则的投票方法会完善该集合，然后通过引理证明了一个不可能定理，即没有一种投票方法能同时满足康多塞输掉者准则、可解性和康多塞方法的普遍不变性属性。 |
-| [^5] | [On Efficient Inference of Causal Effects with Multiple Mediators.](http://arxiv.org/abs/2401.05517) | 本文提出了一种鲁棒的估计器和有效推断方法，适用于涉及多个交互中介的因果效应。通过定义因果和个体中介效应，并利用半参数框架开发了四重稳健估计器，实现了对这些因果效应的推断。研究通过模拟和实际数据集验证了方法的有效性。 |
-| [^6] | [SRNI-CAR: A comprehensive dataset for analyzing the Chinese automotive market.](http://arxiv.org/abs/2401.05395) | SRNI-CAR是一份用于分析中国汽车市场的综合数据集，填补了现有汽车行业数据集覆盖范围有限的缺口，对于提高预测准确性、扩大商业应用范围、指导政策制定与监管以及推动汽车行业的学术研究具有重要影响。 |
-| [^7] | [RIVCoin: an alternative, integrated, CeFi/DeFi-Vaulted Cryptocurrency.](http://arxiv.org/abs/2401.05393) | RIVCoin是一种建立在Cosmos上的替代综合存储加密货币，通过多元化的CeFi和DeFi资产组合进行完全稳定，并且始终由保险库的资产完全支撑。 |
-| [^8] | [Income and emotional well-being: Evidence for well-being plateauing around $200,000 per year.](http://arxiv.org/abs/2401.05347) | 该研究通过对抗性合作验证了在样本中较不幸福的个体收入对幸福感的影响，并发现对于其他样本，幸福感与收入之间呈现一致的关系。研究结果显示，年收入约为20万美元时幸福感趋于稳定。 |
-| [^9] | [Stable Marriage with One-Sided Preference.](http://arxiv.org/abs/2401.03231) | 本文的主要贡献是证明了在具有单向偏好的双边市场中，可以在多项式时间内解决寻找最大化学生导向偏好效用的稳定匹配问题，并证明了通过这种方法可以改善分配质量。 |
-| [^10] | [A new economic and financial theory of money.](http://arxiv.org/abs/2310.04986) | 这篇论文通过根本性的改革，将电子货币纳入经济与金融理论，提出了一种新的理论框架，包括电子货币的估值基于宏观经济理论和货币政策的基本方程，以及电子货币管理公司作为协调次经济体货币和财政政策的实体。该研究避免使用普遍但不适当的指数风险模型，而是采用多时间尺度的模型。 |
-| [^11] | [Nonparametric estimation of conditional densities by generalized random forests.](http://arxiv.org/abs/2309.13251) | 本文提出了一种基于广义随机森林的非参数估计方法，用于估计给定X条件下Y的条件密度。该方法采用了指数级数来表示条件密度，并通过解决一个非线性方程组来得到系数。实验结果表明，该方法是一致的，并且在允许基函数维度无限增长的情况下渐近正态。同时，本文还提供了一个标准误公式来构建置信区间。 |
-| [^12] | [Validating a dynamic input-output model for the propagation of supply and demand shocks during the COVID-19 pandemic in Belgium.](http://arxiv.org/abs/2305.16377) | 本研究验证了一个动态投入产出模型，在比利时COVID-19大流行期间松弛了Leontief生产函数，能够准确预测经济相关变量，并具有较强的鲁棒性。 |
-| [^13] | [A micro-founded comparison of fiscal policies: indirect and direct job creation.](http://arxiv.org/abs/2304.04506) | 本文提供了一个微观经济基础来支持政府直接雇用比政府购买商品更有利于消除失业，政府雇佣可以实现充分就业而不会引起价格上涨。 |
-| [^14] | [On the Convergence of Credit Risk in Current Consumer Automobile Loans.](http://arxiv.org/abs/2211.09176) | 本研究使用大量样本数据证明，对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。低风险借款人的拖延偿还让他们损失了1212-2327美元，同时当前的低风险借款人比当前的高风险借款人表现得不够有效率。 |
+| [^1] | [Robust Analysis of Short Panels.](http://arxiv.org/abs/2401.06611) | 本文提出了一种稳健分析的方法，适用于在面板数据模型中对潜在变量的概率分布和协变量没有限制的情况下，描述尖锐可辨识集合的特征，并通过移除不希望受限制的潜在变量，使得经济计量分析能够抵抗常见的限制性分布错误。 |
+| [^2] | [Analysis of the Impact of Central bank Digital Currency on the Demand for Transactional Currency.](http://arxiv.org/abs/2401.06457) | 本文以中央银行数字货币的发展为视角，建立了中央银行数字货币下的交易货币需求模型，实证结果表明，中央银行数字货币的发行和流通将会减少对交易货币的需求。在中央银行数字货币背景下，中国应探索更有效的货币政策。 |
+| [^3] | [Exposure effects are policy relevant only under strong assumptions about the interference structure.](http://arxiv.org/abs/2401.06264) | 曝光效应仅在对干扰结构有强假设情况下才具有政策相关性。 |
+| [^4] | [Temporary exclusion in repeated contests.](http://arxiv.org/abs/2401.06257) | 该论文研究了在重复比赛中采用临时排除的解决方案，通过排除上一期被拒绝或申请的代理人，在资源分配和错误分配方面取得了良好的效果。 |
+| [^5] | [Grassroots Innovation Actors: Their Role and Positioning in Economic Ecosystems -- A Comparative Study Through Complex Network Analysis.](http://arxiv.org/abs/2401.06163) | 通过复杂网络分析，本研究比较分析了墨西哥瓦加斯州、阿根廷拉普拉塔和智利阿劳卡尼亚地区的基层创新参与者在经济生态系统中的角色，发现基层创新参与者在整体创新驱动的企业经济生态系统中占据重要位置，且具有战略地位，并强调了更好整合他们以促进社经发展的潜力。 |
+| [^6] | [The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process.](http://arxiv.org/abs/2401.06141) | 本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。 |
+| [^7] | [Synergy or Rivalry? Glimpses of Regional Modernization and Public Service Equalization: A Case Study from China.](http://arxiv.org/abs/2401.06134) | 中国长江三角洲地区的研究表明，增加基本公共服务的均衡可以提高人们的幸福感。本文采用了耦合协调度模型、Moran's I指数、Theil指数和AF方法来分析该地区的现状并提出优化建议。 |
+| [^8] | [Covariance Function Estimation for High-Dimensional Functional Time Series with Dual Factor Structures.](http://arxiv.org/abs/2401.05784) | 本文提出了一种用于高维功能时间序列建模的灵活双因子结构模型，并推广了主成分分析技术和矩阵收缩方法以有效估计协方差函数和稀疏结构。 |
+| [^9] | [A time-varying finance-led model for U.S. business cycles.](http://arxiv.org/abs/2310.05153) | 本文提出了一种考虑金融和实际部门的时变金融引导模型，通过研究不同的美国经济周期峰值，发现利润驱动的需求和利润挤压的分配体制存在，并且这些体制在“大幅缓和”期间减弱，同时还发现标准的Goodwin变量与住宅投资和利率差之间存在显著联系。 |
+| [^10] | [The Disagreement Dividend.](http://arxiv.org/abs/2308.06607) | 通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。 |
+| [^11] | [Randomization Inference of Heterogeneous Treatment Effects under Network Interference.](http://arxiv.org/abs/2308.00202) | 本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。 |
+| [^12] | [Disentangling Revealed Preference From Rationalization by a Preference.](http://arxiv.org/abs/2306.11923) | 本文提出了一个新方法来区分揭示偏好与理性方法。 WARP是一个关键概念，因为它确保揭示出的偏好是完整和传递的，并且理性化了选择。 |
+| [^13] | [Spontaneous emergence of groups and signaling diversity in dynamic networks.](http://arxiv.org/abs/2210.17309) | 本研究通过模拟动态网络中的代理人，发现信号交互足以导致不同信号群体的自发形成，并出现了特殊的混合信号群体，这种多样性的存在促进了信号在人口中的稳定分布。 |
+| [^14] | [On the Fragility of the Basis on the Hamilton-Jacobi-Bellman Equation in Economic Dynamics.](http://arxiv.org/abs/2203.10595) | 本文讨论了经济动态中的哈密顿-雅可比-贝尔曼方程问题，发现当原问题无解时会出现价值函数不满足该方程的现象，并在特定条件下证明了原问题存在解当且仅当价值函数满足该方程。此外，价值函数是哈密顿-雅可比-贝尔曼方程的唯一非降凹解。 |
+| [^15] | [Multiplayer Bandit Learning, from Competition to Cooperation.](http://arxiv.org/abs/1908.01135) | 这篇论文研究了多人赌博学习中竞争和合作对探索和利用权衡的影响，模型考虑了不同合作参数下玩家的效用函数，并使用Gittins指数简化了单人问题。 |
 
 # 详细
 
-[^1]: 动态团队构成与协调之间的相互作用：基于Agent-Based建模方法的研究
+[^1]: 短面板的稳健分析
 
-    Interactions between dynamic team composition and coordination: An agent-based modeling approach. (arXiv:2401.05832v1 [econ.GN])
+    Robust Analysis of Short Panels. (arXiv:2401.06611v1 [econ.EM])
 
-    [http://arxiv.org/abs/2401.05832](http://arxiv.org/abs/2401.05832)
+    [http://arxiv.org/abs/2401.06611](http://arxiv.org/abs/2401.06611)
 
-    本文通过Agent-Based建模方法研究了协调模式和动态团队构成的相互作用，以及它们在不同任务复杂性和个体学习条件下对任务绩效的联合影响。
+    本文提出了一种稳健分析的方法，适用于在面板数据模型中对潜在变量的概率分布和协变量没有限制的情况下，描述尖锐可辨识集合的特征，并通过移除不希望受限制的潜在变量，使得经济计量分析能够抵抗常见的限制性分布错误。
 
     
 
-    本文研究了协调模式和动态团队构成之间的相互作用，并探讨了它们在不同任务复杂性和个体学习条件下对任务绩效的联合影响。以往的研究通常将动态团队构成视为次优组织设计选择的结果。而现今意识到周期性更改团队构成的新型组织形式对此观点提出了挑战。在本文中，我们按照因果理论将动态团队构成视为一种设计选择，它与其他选择（如协调模式）以及个体学习和任务复杂性等上下文因素相互作用。我们采用基于NK框架的Agent-Based建模方法，包括强化学习机制、基于信号的循环团队形成机制以及三种不同的协调模式。我们的结果表明通过实施....
+    许多结构经济学模型包含潜在变量，希望对其概率分布进行最小限制。在面板数据模型中，典型的例子是被视为“固定效应”的个体特定变量以及在动态模型中的初始条件。本文提出了一种普适的方法，用于描述当模型对某些潜在变量的概率分布和与其他变量的协变量没有限制时，尖锐可辨识集合的特征。在我们的分析中，移除了不希望受限制的潜在变量，从而使经济计量分析能够抵抗常见于应用面板数据文献中的限制性分布错误。内生解释变量也很容易适应。文中给出了一些应用于静态和动态二元、有序、多重离散和被审查面板数据模型的例子。
 
-    This paper examines the interactions between selected coordination modes and dynamic team composition, and their joint effects on task performance under different task complexity and individual learning conditions. Prior research often treats dynamic team composition as a consequence of suboptimal organizational design choices. The emergence of new organizational forms that consciously employ teams that change their composition periodically challenges this perspective. In this paper, we follow the contingency theory and characterize dynamic team composition as a design choice that interacts with other choices such as the coordination mode, and with additional contextual factors such as individual learning and task complexity. We employ an agent-based modeling approach based on the NK framework, which includes a reinforcement learning mechanism, a recurring team formation mechanism based on signaling, and three different coordination modes. Our results suggest that by implementing later
+    Many structural econometric models include latent variables on whose probability distributions one may wish to place minimal restrictions. Leading examples in panel data models are individual-specific variables sometimes treated as "fixed effects" and, in dynamic models, initial conditions. This paper presents a generally applicable method for characterizing sharp identified sets when models place no restrictions on the probability distribution of certain latent variables and no restrictions on their covariation with other variables. In our analysis latent variables on which restrictions are undesirable are removed, leading to econometric analysis robust to misspecification of restrictions on their distributions which are commonplace in the applied panel data literature. Endogenous explanatory variables are easily accommodated. Examples of application to some static and dynamic binary, ordered and multiple discrete choice and censored panel data models are presented.
     
-[^2]: 高维功能时间序列的双因子结构协方差函数估计
+[^2]: 中央银行数字货币对交易货币需求的影响分析
+
+    Analysis of the Impact of Central bank Digital Currency on the Demand for Transactional Currency. (arXiv:2401.06457v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06457](http://arxiv.org/abs/2401.06457)
+
+    本文以中央银行数字货币的发展为视角，建立了中央银行数字货币下的交易货币需求模型，实证结果表明，中央银行数字货币的发行和流通将会减少对交易货币的需求。在中央银行数字货币背景下，中国应探索更有效的货币政策。
+
+    
+
+    本文以中央银行数字货币的发展为视角，将其纳入鲍姆—托宾货币需求理论框架，建立了中央银行数字货币下的交易货币需求模型，并定性分析了中央银行数字货币对交易货币需求的影响机制；同时，选择2010年至2022年的季度数据，通过ARDL模型测试了中央银行数字货币与交易货币需求之间的关系。通过ARDL模型，检验了中央银行数字货币需求与交易货币之间的长期均衡和短期动态。实证结果表明，中央银行数字货币的发行和流通将会减少对交易货币的需求。在理论分析和实证检验的基础上，本文提出在中央银行数字货币背景下，中国应探索更有效的货币政策。
+
+    This paper takes the development of Central bank digital currencies as a perspective, introduces it into the Baumol-Tobin money demand theoretical framework, establishes the transactional money demand model under Central bank Digital Currency, and qualitatively analyzes the influence mechanism of Central bank digital currencies on transactional money demand; meanwhile, quarterly data from 2010-2022 are selected to test the relationship between Central bank digital currencies and transactional money demand through the ARDL model. The long-run equilibrium and short-run dynamics between the demand for Central bank digital currencies and transactional currency are examined by ARDL model. The empirical results show that the issuance and circulation of Central bank digital currencies will reduce the demand for transactional money. Based on the theoretical analysis and empirical test, this paper proposes that China should explore a more effective Currency policy in the context of Central bank
+    
+[^3]: 曝光效应仅在对干扰结构有强假设情况下才具有政策相关性
+
+    Exposure effects are policy relevant only under strong assumptions about the interference structure. (arXiv:2401.06264v1 [econ.EM])
+
+    [http://arxiv.org/abs/2401.06264](http://arxiv.org/abs/2401.06264)
+
+    曝光效应仅在对干扰结构有强假设情况下才具有政策相关性。
+
+    
+
+    Savje（2023）推荐利用错误的曝光效应来避免在分析实验结果时对干扰有强假设。在这篇讨论中，我们强调了Savje建议的一个重要限制。在没有Savje试图避免的强假设的情况下，曝光效应通常不适用于评估社会政策。我们的讨论如下。第2节总结了我们的立场，第3节提供了一个具体的例子，第4节总结了讨论。附录中给出了声明的证明。
+
+    Savje (2023) recommends misspecified exposure effects as a way to avoid strong assumptions about interference when analyzing the results of an experiment. In this discussion, we highlight a key limitation of Savje's recommendation. Exposure effects are not generally useful for evaluating social policies without the strong assumptions that Savje seeks to avoid.  Our discussion is organized as follows. Section 2 summarizes our position, section 3 provides a concrete example, and section 4 concludes. Proof of claims are in an appendix.
+    
+[^4]: 重复比赛中的临时排除
+
+    Temporary exclusion in repeated contests. (arXiv:2401.06257v1 [econ.TH])
+
+    [http://arxiv.org/abs/2401.06257](http://arxiv.org/abs/2401.06257)
+
+    该论文研究了在重复比赛中采用临时排除的解决方案，通过排除上一期被拒绝或申请的代理人，在资源分配和错误分配方面取得了良好的效果。
+
+    
+
+    本研究考虑了一个大规模的代理人群体，他们反复竞争奖励，例如科研人员每年可以向科学基金会申请拨款。校长的关键目标是有效地将资源分配给最高质量的申请，但审查过程通常存在噪音。不完美的获奖者选择可能鼓励低质量的申请，进而迫使设计者投入更多资源进行审查，可能进一步增加错误分配。我们研究了“临时排除”作为潜在解决方案。通过排除，如果代理人在前一期被拒绝（或申请），则不符合在当前期申请的资格。这种政策引入了跨期参与决策的激励，并鼓励自我选择。我们表征了这个动态博弈的稳态均衡，并与没有排除的基准情况进行了比较。特别是，我们展示了
+
+    Consider a large population of agents who repeatedly compete for awards, as in the case of researchers who can annually apply for grants from a science foundation. A key objective for the principal is to efficiently allocate resources to the highest quality applications, but the review process is often inherently noisy. Imperfect selection of winners may encourage low quality applications, which in turn forces the designer to commit more resources to the reviewing process and can further increase the misallocation. We study \emph{temporary exclusion} as a potential solution to these problems. With exclusion, an agent is ineligible to apply in the current period if they were rejected (or if they applied) in the previous period. Such policy introduces intertemporal incentives to the participation decision and encourages self-selection. We characterize the steady-state equilibria of this dynamic game and compare the outcomes to the benchmark case without exclusion. In particular, we show 
+    
+[^5]: 基层创新参与者：他们在经济生态系统中的角色和定位--一项通过复杂网络分析的比较研究
+
+    Grassroots Innovation Actors: Their Role and Positioning in Economic Ecosystems -- A Comparative Study Through Complex Network Analysis. (arXiv:2401.06163v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06163](http://arxiv.org/abs/2401.06163)
+
+    通过复杂网络分析，本研究比较分析了墨西哥瓦加斯州、阿根廷拉普拉塔和智利阿劳卡尼亚地区的基层创新参与者在经济生态系统中的角色，发现基层创新参与者在整体创新驱动的企业经济生态系统中占据重要位置，且具有战略地位，并强调了更好整合他们以促进社经发展的潜力。
+
+    
+
+    本研究对基层创新参与者及其在更大经济生态系统中的整合进行了考察。通过在墨西哥瓦加斯州、阿根廷拉普拉塔和智利阿劳卡尼亚地区进行比较分析，这项研究揭示了基层创新在更广泛经济生态系统中所起的重要作用。利用复杂网络分析和TE-SER模型，研究揭示了这些参与者在复杂社会挑战环境下如何相互作用、合作和影响主要经济生态系统。研究结果表明，基层创新生态系统的参与者在整个以创新驱动的企业经济生态系统中占据重要位置，三个案例中比例在20%至30%之间，并且在系统的结构网络中具有战略地位。此外，本研究强调了更好整合基层创新参与者以利用资源和促进社经发展的潜力。
+
+    This study offers an examination of grassroots innovation actors and their integration within larger economic ecosystems. Through a comparative analysis in Oaxaca, Mexico; La Plata, Argentina; and Araucania, Chile, this research sheds light on the vital role that grassroots innovation plays in broader economic ecosystems. Using Complex Network Analysis and the TE-SER model, the study unveils how these actors interact, collaborate, and influence major economic ecosystems in the context of complex social challenges. The findings highlight that actors from the grassroots innovation ecosystem make up a significant portion of the larger innovation-driven entrepreneurial economic ecosystem, accounting for between 20% and 30% in all three cases and are strategically positioned within the ecosystem's structural network. Additionally, this study emphasizes the potential for greater integration of grassroots innovation actors to leverage resources and foster socio-economic development. The resea
+    
+[^6]: 直接资本现金转移对于贫困和极端贫困减轻的作用 -- 一种Omega风险过程
+
+    The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process. (arXiv:2401.06141v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06141](http://arxiv.org/abs/2401.06141)
+
+    本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。
+
+    
+
+    困境指的是家庭陷入贫困区域的情况。生活在贫困区域或陷入贫困区域的家庭被称为贫困陷阱的家庭，贫困陷阱是一种在没有外部帮助的情况下难以逃脱的贫困状态。同样，极端贫困被认为是最严重的贫困形式，家庭在其中经历严重的基本人类需求不足。在本文中，我们考虑了一个具有确定性增长和乘性跳跃（崩溃）结构的Omega风险过程来模拟家庭的资本。假设当一个家庭的资本水平高于确定资本壁垒水平时，确定家庭是否有资格参加现金资本转移方案，其资本会指数增长。一旦其资本降至资本壁垒水平以下，资本动态会引入直接转移（资本现金转移）的外部支持，这些支持由捐助者或政府提供。否则
+
+    Trapping refers to the event when a household falls into the area of poverty. Households that live or fall into the area of poverty are said to be in a poverty trap, where a poverty trap is a state of poverty from which it is difficult to escape without external help. Similarly, extreme poverty is considered as the most severe type of poverty, in which households experience severe deprivation of basic human needs. In this article, we consider an Omega risk process with deterministic growth and a multiplicative jump (collapse) structure to model the capital of a household. It is assumed that, when a household's capital level is above a certain capital barrier level that determines a household's eligibility for a capital cash transfer programme, its capital grows exponentially. As soon as its capital falls below the capital barrier level, the capital dynamics incorporate external support in the form of direct transfers (capital cash transfers) provided by donors or governments. Otherwise
+    
+[^7]: 合作还是竞争？中国区域现代化与公共服务均衡的一瞥：以中国为案例研究
+
+    Synergy or Rivalry? Glimpses of Regional Modernization and Public Service Equalization: A Case Study from China. (arXiv:2401.06134v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.06134](http://arxiv.org/abs/2401.06134)
+
+    中国长江三角洲地区的研究表明，增加基本公共服务的均衡可以提高人们的幸福感。本文采用了耦合协调度模型、Moran's I指数、Theil指数和AF方法来分析该地区的现状并提出优化建议。
+
+    
+
+    对于大多数发展中国家来说，增加基本公共服务的均衡被广泛认为是提高人们幸福感的有效途径。然而，对于中国等许多新兴经济体来说，在速度和质量发展的权衡中，基本公共服务的均衡水平往往会被忽视。以中国长江三角洲地区为例，本文首先采用耦合协调度模型来探索该地区基本公共服务的现状，然后利用Moran's I指数研究该地区整体发展的均衡水平。此外，本文还利用Theil指数分析公共服务水平空间差异的主要原因，并使用AF方法准确识别出基本公共服务发展水平最弱的10个城市40个县的确切缺点。基于此，本文提供了针对性的优化举措。
+
+    For most developing countries, increasing the equalization of basic public services is widely recognized as an effective channel to improve people's sense of contentment. However, for many emerging economies like China, the equalization level of basic public services may often be neglected in the trade-off between the speed and quality of development. Taking the Yangtze River Delta region of China as an example, this paper first adopts the coupling coordination degree model to explore current status of basic public services in this region, and then uses Moran's I index to study the overall equalization level of development there. Moreover, this paper uses the Theil index to analyze the main reasons for the spatial differences in the level of public services, followed by the AF method to accurately identify the exact weaknesses of the 40 counties of 10 cities with the weakest level of basic public service development. Based on this, this paper provides targeted optimization initiatives 
+    
+[^8]: 高维功能时间序列的双因子结构协方差函数估计
 
     Covariance Function Estimation for High-Dimensional Functional Time Series with Dual Factor Structures. (arXiv:2401.05784v1 [econ.EM])
 
@@ -47,172 +132,102 @@
 
     We propose a flexible dual functional factor model for modelling high-dimensional functional time series. In this model, a high-dimensional fully functional factor parametrisation is imposed on the observed functional processes, whereas a low-dimensional version (via series approximation) is assumed for the latent functional factors. We extend the classic principal component analysis technique for the estimation of a low-rank structure to the estimation of a large covariance matrix of random functions that satisfies a notion of (approximate) functional "low-rank plus sparse" structure; and generalise the matrix shrinkage method to functional shrinkage in order to estimate the sparse structure of functional idiosyncratic components. Under appropriate regularity conditions, we derive the large sample theory of the developed estimators, including the consistency of the estimated factors and functional factor loadings and the convergence rates of the estimated matrices of covariance functi
     
-[^3]: 追踪资金: 探索影响非洲初创企业投资的关键因素
+[^9]: 一种针对美国经济周期的时变金融引导模型
 
-    Follow The Money: Exploring the Key Factors Influencing Investment in African Startups. (arXiv:2401.05760v1 [econ.GN])
+    A time-varying finance-led model for U.S. business cycles. (arXiv:2310.05153v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.05760](http://arxiv.org/abs/2401.05760)
+    [http://arxiv.org/abs/2310.05153](http://arxiv.org/abs/2310.05153)
 
-    本研究深入分析了影响非洲初创企业融资金额的关键因素，包括性别多样性差距、职业经验、创始人学术背景等。研究结果显示，人力资本、多元化行业方法和跨境合作策略对于建立强大的初创企业生态系统至关重要。此外，本研究还发现了“Y combinators”对非洲初创企业的潜在积极影响和退出策略对交易金额的影响。
-
-    
-
-    非洲大陆近年来见证了创业活动的显著增长，创业公司数量和生态系统中的投资额大幅增长。在此背景下，本文对影响非洲初创企业融资金额的关键因素进行了深入分析。通过统计和机器学习技术的组合，对从2019年1月至2023年3月的2,521笔初创企业投资交易进行了全面分析。研究结果突出了显著的性别多样性差距，职业经验的重要性以及创始人学术背景的影响。研究表明，人力资本、多元化行业方法和跨境合作策略对于强大的初创企业生态系统至关重要。此外，我们还发现了“Y combinators”对非洲初创企业的潜在积极影响，退出策略对交易金额的影响等内容。
-
-    The African continent has witnessed a notable surge in entrepreneurial activity, with the number of startups and investments made in the ecosystem growing significantly in recent years. Against this backdrop, this paper presents an in-depth analysis of the critical key factors influencing funding amounts in African startup deals. A comprehensive analysis of 2,521 startup investment deals, spanning from January 2019 to March 2023, was conducted using a combination of statistical and several machine learning techniques. The results of this study highlight a significant gender diversity gap, the importance of professional experience, and the impact of founders' academic backgrounds. The study reveals that human capital, a diversified sector approach, and cross-border collaboration strategies are crucial for a robust startup ecosystem. Additionally, we identified the potential positive impact of 'Y combinators' for African startups, the implications of exit strategies on deal amounts, and 
-    
-[^4]: 投票中的可防御集合和一个新的不可能定理
-
-    The defensible set and a new impossibility theorem in voting. (arXiv:2401.05657v1 [econ.TH])
-
-    [http://arxiv.org/abs/2401.05657](http://arxiv.org/abs/2401.05657)
-
-    本文研究了具有序偏好的社会选择理论中的可防御集合，证明了满足正参与度和康多塞获胜者准则的投票方法会完善该集合，然后通过引理证明了一个不可能定理，即没有一种投票方法能同时满足康多塞输掉者准则、可解性和康多塞方法的普遍不变性属性。
+    本文提出了一种考虑金融和实际部门的时变金融引导模型，通过研究不同的美国经济周期峰值，发现利润驱动的需求和利润挤压的分配体制存在，并且这些体制在“大幅缓和”期间减弱，同时还发现标准的Goodwin变量与住宅投资和利率差之间存在显著联系。
 
     
 
-    在具有序偏好的社会选择理论背景下，我们称可防御集合为那些对于任何替代方案$x$，如果$y$在两两对比中击败$x$，则存在一个替代方案$z$，它在两两对比中以至少与$y$击败$x$的间隔一样大的间隔击败$y$。我们证明了满足两个已知公理（正参与度和康多塞获胜者准则）的序次投票方法会完善可防御集合。利用这个引理，我们证明了一个不可能定理：没有一种同时还满足康多塞输掉者准则、可解性和康多塞方法的普遍不变性属性，即决胜者的选择只取决于多数边际的相对大小的投票方法。
+    本文通过将实际和金融部门整合起来，实证评估Goodwin关于需求和分配体制的周期性增长模型的预测，同时评估了金融和就业冲击对六个不同的美国经济周期峰值上的劳动力市场和货币政策变量的影响。它通过使用劳动收入份额、就业率、住宅投资和利率差等内生变量的一种简化的具有随机波动的时变向量自回归模型（TVP-VAR-SV），并采用贝叶斯推断方法，关键结果表明（i）利润驱动的需求和利润挤压的分配的组合；（ii）在“大幅缓和”期间这些体制的减弱；以及（iii）标准的Goodwin变量与住宅投资和利率差之间存在显著联系。本研究的结果总体上符合金融和劳动力市场日益解除管制的转型。
 
-    In the context of social choice theory with ordinal preferences, we say that the defensible set is the set of alternatives $x$ such that for any alternative $y$, if $y$ beats $x$ in a head-to-head majority comparison, then there is an alternative $z$ that beats $y$ in a head-to-head majority comparison by a margin at least as large as the margin by which $y$ beat $x$. We show that any ordinal voting method satisfying two well-known axioms from voting theory--positive involvement and the Condorcet winner criterion--refines the defensible set. Using this lemma, we prove an impossibility theorem: there is no such voting method that also satisfies the Condorcet loser criterion, resolvability, and a common invariance property for Condorcet methods, namely that the choice of winners depends only on the relative sizes of majority margins.
+    This paper empirically assesses predictions of Goodwin's model of cyclical growth regarding demand and distributive regimes when integrating the real and financial sectors. In addition, it evaluates how financial and employment shocks affect the labor market and monetary policy variables over six different U.S. business-cycle peaks. It identifies a parsimonious Time-Varying Vector Autoregressive model with Stochastic Volatility (TVP-VAR-SV) with the labor share of income, the employment rate, residential investment, and the interest rate spread as endogenous variables. Using Bayesian inference methods, key results suggest (i) a combination of profit-led demand and profit-squeeze distribution; (ii) weakening of these regimes during the Great Moderation; and (iii) significant connections between the standard Goodwinian variables and residential investment as well as term spreads. Findings presented here broadly conform to the transition to increasingly deregulated financial and labor mar
     
-[^5]: 关于带有多个中介的因果效应的有效推断
+[^10]: 不同观点如何影响一个群体的生产绩效：一个简单的重复博弈模型研究
 
-    On Efficient Inference of Causal Effects with Multiple Mediators. (arXiv:2401.05517v1 [stat.ME])
+    The Disagreement Dividend. (arXiv:2308.06607v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.05517](http://arxiv.org/abs/2401.05517)
+    [http://arxiv.org/abs/2308.06607](http://arxiv.org/abs/2308.06607)
 
-    本文提出了一种鲁棒的估计器和有效推断方法，适用于涉及多个交互中介的因果效应。通过定义因果和个体中介效应，并利用半参数框架开发了四重稳健估计器，实现了对这些因果效应的推断。研究通过模拟和实际数据集验证了方法的有效性。
-
-    
-
-    本文提供了关于涉及多个交互中介的因果效应的鲁棒估计器和有效推断。大多数现有的工作或者对中介者之间施加线性模型的假设，或者只能处理在给定曝光情况下条件独立的中介者。为了克服这些限制，我们在一个一般的设置中定义了因果和个体中介效应，并利用半参数框架开发了对这些因果效应的四重稳健估计器。我们进一步建立了所提出估计器的渐近正态性，证明了它们的局部半参数效率。通过模拟和实际数据集验证了所提方法在创伤幸存者的精神障碍方面的效果。
-
-    This paper provides robust estimators and efficient inference of causal effects involving multiple interacting mediators. Most existing works either impose a linear model assumption among the mediators or are restricted to handle conditionally independent mediators given the exposure. To overcome these limitations, we define causal and individual mediation effects in a general setting, and employ a semiparametric framework to develop quadruply robust estimators for these causal effects. We further establish the asymptotic normality of the proposed estimators and prove their local semiparametric efficiencies. The proposed method is empirically validated via simulated and real datasets concerning psychiatric disorders in trauma survivors.
-    
-[^6]: SRNI-CAR: 用于分析中国汽车市场的综合数据集
-
-    SRNI-CAR: A comprehensive dataset for analyzing the Chinese automotive market. (arXiv:2401.05395v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.05395](http://arxiv.org/abs/2401.05395)
-
-    SRNI-CAR是一份用于分析中国汽车市场的综合数据集，填补了现有汽车行业数据集覆盖范围有限的缺口，对于提高预测准确性、扩大商业应用范围、指导政策制定与监管以及推动汽车行业的学术研究具有重要影响。
+    通过研究一个简单的重复博弈模型，我们发现不同观点对群体生产绩效有着不同的影响。不同的观点会导致不同的技术和努力选择，而观点之间的分歧在一定程度上可以激励乐观主义者更努力地工作，但也可能降低怀疑主义者的努力。在存在足够强的外部性下，一个具有分歧观点的团队可以在预期产出方面超过一个有类似观点的团队。
 
     
 
-    汽车行业在全球经济中起着关键作用，尤其重要的是中国汽车市场的不断扩大，由于其巨大的规模和影响力。然而，现有的汽车行业数据集在覆盖范围上有限，未能充分考虑到对更多和多样化变量的不断增长的需求。本文旨在通过介绍一份从2016年到2022年的综合数据集来填补这一数据缺口，该数据集包括销售数据，在线评论以及与中国汽车行业相关的大量信息。该数据集作为宝贵的资源，极大地扩展了可用数据。它的影响力涵盖了多个方面，包括提高预测准确性，扩大商业应用范围，指导政策制定与监管，推动汽车行业的学术研究。为了展示该数据集在商业和学术背景下的潜在应用，我们提出了两个应用案例。
+    我们研究了在一个带有替代生产技术和正外部性的简单重复博弈中，观点不同如何影响群体的生产绩效。参与者可以持有不同的观点，即对技术的特性和质量持有不同的看法。这种分歧有两个主要特点。首先，不同的观点会导致不同的技术和努力选择--“乐观”的观点会导致比“怀疑”的观点更高的努力程度。其次，观点是有韧性的--只有在出乎意料的证据证明其为错误时才会发生变化。当只有一种生产技术可用时，对其生产力的分歧(i)激励乐观主义者比与有类似观点的玩家匹配时更努力地工作；(ii)可以降低怀疑主义者的努力。第一个力量构成了我们所谓的“分歧红利”的核心。我们展示了如果外部性足够强，一个有类似观点的乐观主义者团队在预期产出方面会被一个具有分歧观点的团队在表现上超过。
 
-    The automotive industry plays a critical role in the global economy, and particularly important is the expanding Chinese automobile market due to its immense scale and influence. However, existing automotive sector datasets are limited in their coverage, failing to adequately consider the growing demand for more and diverse variables. This paper aims to bridge this data gap by introducing a comprehensive dataset spanning the years from 2016 to 2022, encompassing sales data, online reviews, and a wealth of information related to the Chinese automotive industry. This dataset serves as a valuable resource, significantly expanding the available data. Its impact extends to various dimensions, including improving forecasting accuracy, expanding the scope of business applications, informing policy development and regulation, and advancing academic research within the automotive sector. To illustrate the dataset's potential applications in both business and academic contexts, we present two ap
+    We study how disagreement influences the productive performance of a group in a simple repeated game with alternative production technologies and positive externalities. Players can disagree, i.e. hold different views about the characteristics and quality of the technologies. This disagreement has two main characteristics. First, different views lead to different technology and effort choices -- "optimistic" views justify higher effort than "skeptical" views. Second, views are resilient -- changed only if falsified by surprising evidence. When only one production technology is available, disagreement over its productivity (i) incentivizes the optimistic agent to work harder than when matched with a like-minded player; (ii) can reduce the effort of the skeptic agent. The first force lies at the core of what we call the "disagreement dividend." We show that if externalities are sufficiently strong, a team of like-minded optimists is outperformed -- in terms of expected output -- by a dis
     
-[^7]: RIVCoin:一种替代的综合CeFi/DeFi存储加密货币
+[^11]: 网络干扰下异质处理效应的随机化推断
 
-    RIVCoin: an alternative, integrated, CeFi/DeFi-Vaulted Cryptocurrency. (arXiv:2401.05393v1 [q-fin.GN])
+    Randomization Inference of Heterogeneous Treatment Effects under Network Interference. (arXiv:2308.00202v1 [econ.EM])
 
-    [http://arxiv.org/abs/2401.05393](http://arxiv.org/abs/2401.05393)
+    [http://arxiv.org/abs/2308.00202](http://arxiv.org/abs/2308.00202)
 
-    RIVCoin是一种建立在Cosmos上的替代综合存储加密货币，通过多元化的CeFi和DeFi资产组合进行完全稳定，并且始终由保险库的资产完全支撑。
-
-    
-
-    本白皮书介绍了RIVCoin，这是一种建立在Cosmos上的加密货币，通过多元化的CeFi和DeFi资产组合进行完全稳定，并在一个名为RIV Wallet的数字、非托管钱包中提供给用户便捷访问加密货币市场的方式，符合最严格的AML法律和法规要求。该代币始终由一篮子资产稳定，其中储备资金被长期投资于50%的CeFi资产（包括固定收益、股权、互惠基金和对冲基金）和50%的多元化策略，主要集中在数字资产上，主要是主要经过实战测试的DeFi协议上的质押和流动性挖矿。与布雷顿森林体系之前的美元一样，这种加密货币始终由保险库的资产完全稳定，它是由去中心化自治组织铸造和管理的，并完全由专业独立第三方评估的资产稳定。
-
-    This whitepaper introduces RIVCoin, a cryptocurrency built on Cosmos, fully stabilized by a diversified portfolio of both CeFi and DeFi assets, available in a digital, non-custodial wallet called RIV Wallet, that aims to provide Users an easy way to access the cryptocurrency markets, compliant to the strictest AML laws and regulations up to date. The token is a cryptocurrency at any time stabilized by a basket of assets: reserves are invested in a portfolio composed long term by 50% of CeFi assets, comprised of Fixed Income, Equity, Mutual and Hedge Funds and 50% of diversified strategies focused on digital assets, mainly staking and LP farming on the major, battle tested DeFi protocols. The cryptocurrency, as well as the dollar before Bretton Woods, is always fully stabilized by vaulted proof of assets: it is born and managed as a decentralized token, minted by a Decentralized Autonomous Organization, and entirely stabilized by assets evaluated by professional independent third partie
-    
-[^8]: 收入与情感幸福感：证据表明，年收入达到20万美元后幸福感趋于稳定
-
-    Income and emotional well-being: Evidence for well-being plateauing around $200,000 per year. (arXiv:2401.05347v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.05347](http://arxiv.org/abs/2401.05347)
-
-    该研究通过对抗性合作验证了在样本中较不幸福的个体收入对幸福感的影响，并发现对于其他样本，幸福感与收入之间呈现一致的关系。研究结果显示，年收入约为20万美元时幸福感趋于稳定。
+    本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。
 
     
 
-    在一次非常值得注意的对抗性合作中（Killingsworth等人，2023），Matthew Killingsworth和Daniel Kahneman与主持人Barbara Mellers最近着手解决一个矛盾发现的问题，即较高的收入在某个阈值之前会让人更加幸福，但之后收入增加对幸福感的提升逐渐趋于稳定（Kahneman和Deaton，2010），而幸福感则会随收入的增加而持续增加而不会达到稳定点（Killingsworth，2021）。这种对抗性合作验证了该样本中最不幸福者的幸福感受到收入的影响，但同时也表明剩余部分样本幸福感与收入呈现一致的关系。在本文中，我们展示了这种所谓的“解决方法”建立在可疑的假设上，其中最重要的是收入稳定点发生在每年10万美元的阈值上。通过放宽这个假设，并使用已确定的计量经济学方法以数据驱动的方式寻找最优阈值，我们的研究结果展示了大约20万美元为收入幸福感趋于稳定的阈值。
+    我们设计了在单位之间存在网络干扰时进行异质处理效应随机化测试的方法。我们的建模策略使用网络曝光映射的概念将网络干扰引入潜在结果框架中。我们考虑了三个零假设，代表了不同的均匀处理效应的概念，但由于干扰参数和潜在结果的多样性，这些假设并不准确。为了解决多个潜在结果的问题，我们提出了一种扩展现有方法的条件随机化推断方法。此外，我们还提出了两种克服干扰参数问题的技术。我们证明了我们的条件随机化推断方法与处理干扰参数的两种技术之一结合使用，可以产生渐近有效的p值。我们在一个网络数据集上演示了测试过程，并展示了蒙特卡洛研究的结果。
 
-    In a notable instance of adversarial collaboration (Killingsworth et al., 2023), Matthew Killingsworth and Daniel Kahneman, together with facilitator Barbara Mellers, recently set out to resolve the apparent conflict between the contradictory findings that larger incomes make people happier up to a certain threshold, after which the gains to happiness from additional income plateaus (Kahneman and Deaton, 2010), and that happiness increases consistently with income without reaching a plateau (Killingsworth, 2021). The adversarial collaboration validates the former finding for the most unhappy individuals in the sample, but argues that the latter finding is true for the remaining parts of the sample. In this note, we show that this proposed "resolution" hinges on dubious assumptions, most notably that the plateau occurs at the threshold $\$$100,000 per yer. Relaxing this assumption, and using well-established econometric methods to search for the optimal threshold in a data-driven way, w
+    We design randomization tests of heterogeneous treatment effects when units interact on a network. Our modeling strategy allows network interference into the potential outcomes framework using the concept of network exposure mapping. We consider three null hypotheses that represent different notions of homogeneous treatment effects, but due to nuisance parameters and the multiplicity of potential outcomes, the hypotheses are not sharp. To address the issue of multiple potential outcomes, we propose a conditional randomization inference method that expands on existing methods. Additionally, we propose two techniques that overcome the nuisance parameter issue. We show that our conditional randomization inference method, combined with either of the proposed techniques for handling nuisance parameters, produces asymptotically valid p-values. We illustrate the testing procedures on a network data set and the results of a Monte Carlo study are also presented.
     
-[^9]: 单向偏好的稳定婚姻匹配问题
+[^12]: 通过偏好将压缩方法与理性方法区分开来的揭示偏好
 
-    Stable Marriage with One-Sided Preference. (arXiv:2401.03231v1 [cs.DM] CROSS LISTED)
+    Disentangling Revealed Preference From Rationalization by a Preference. (arXiv:2306.11923v1 [econ.TH])
 
-    [http://arxiv.org/abs/2401.03231](http://arxiv.org/abs/2401.03231)
+    [http://arxiv.org/abs/2306.11923](http://arxiv.org/abs/2306.11923)
 
-    本文的主要贡献是证明了在具有单向偏好的双边市场中，可以在多项式时间内解决寻找最大化学生导向偏好效用的稳定匹配问题，并证明了通过这种方法可以改善分配质量。
-
-    
-
-    全球许多国家，包括韩国，使用学校选择抽签系统。然而，这种方法存在一个问题，即根据抽签结果将许多学生分配到次优选的学校。此外，寻找带有并列的好分配任务通常具有NP的时间复杂度，使其成为提高分配质量的非常困难的问题。在本文中，我们证明在具有单向偏好的双边市场中找到最大化学生导向偏好效用的稳定匹配问题可以在多项式时间内解决，并通过实验证实分配质量得到改善。本文的主要贡献如下。我们发现在具有单向偏好的双边市场中，稳定的学生导向分配与具有对称偏好的双边市场中的稳定分配是相同的。此外，我们定义了一种从偏好效用中量化分配质量的方法。
-
-    Many countries around the world, including Korea, use the school choice lottery system. However, this method has a problem in that many students are assigned to less-preferred schools based on the lottery results. In addition, the task of finding a good assignment with ties often has a time complexity of NP, making it a very difficult problem to improve the quality of the assignment.  In this paper, we prove that the problem of finding a stable matching that maximizes the student-oriented preference utility in a two-sided market with one-sided preference can be solved in polynomial time, and we verify through experiments that the quality of assignment is improved. The main contributions of this paper are as follows. We found that stable student-oriented allocation in a two-sided market with one-sided preferences is the same as stable allocation in a two-sided market with symmetric preferences. In addition, we defined a method to quantify the quality of allocation from a preference util
-    
-[^10]: 一种关于货币的新的经济与金融理论
-
-    A new economic and financial theory of money. (arXiv:2310.04986v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.04986](http://arxiv.org/abs/2310.04986)
-
-    这篇论文通过根本性的改革，将电子货币纳入经济与金融理论，提出了一种新的理论框架，包括电子货币的估值基于宏观经济理论和货币政策的基本方程，以及电子货币管理公司作为协调次经济体货币和财政政策的实体。该研究避免使用普遍但不适当的指数风险模型，而是采用多时间尺度的模型。
+    本文提出了一个新方法来区分揭示偏好与理性方法。 WARP是一个关键概念，因为它确保揭示出的偏好是完整和传递的，并且理性化了选择。
 
     
 
-    本文对经济与金融理论进行了根本性改革，包括电子货币在内。电子货币的估值将基于宏观经济理论和货币政策的基本方程，而不是微观经济学中的贴现现金流理论。与将股票视为与次经济体的无形资产关联的所有权不同，我们将发展电子货币作为与次经济体有形资产关联的交易权益的观点。我们还将发展电子货币管理公司作为一个负责协调次经济体的货币（电子货币供应和价值稳定）和财政（投资和运营）政策的实体的视角，以实现电子货币的流动性。在估值和决策中使用的风险模型不会是无处不在但不合适的指数风险模型，它将导致贴现率，而是多时间尺度的模型。
+    条件弱显示偏好（WARP）确保了揭示出的偏好（i）是一个偏好关系（即它是完整和传递的）和（ii）理性化了选择。然而，当WARP失败时，这两个属性中的一个将被违反，但不清楚是哪一个。我们通过展示WARP等同于每个单独保证（i）和（ii）的两个公理的联合来提供WARP的另一种特征描述。
 
-    This paper fundamentally reformulates economic and financial theory to include electronic currencies. The valuation of the electronic currencies will be based on macroeconomic theory and the fundamental equation of monetary policy, not the microeconomic theory of discounted cash flows. The view of electronic currency as a transactional equity associated with tangible assets of a sub-economy will be developed, in contrast to the view of stock as an equity associated mostly with intangible assets of a sub-economy. The view will be developed of the electronic currency management firm as an entity responsible for coordinated monetary (electronic currency supply and value stabilization) and fiscal (investment and operational) policies of a substantial (for liquidity of the electronic currency) sub-economy. The risk model used in the valuations and the decision-making will not be the ubiquitous, yet inappropriate, exponential risk model that leads to discount rates, but will be multi time sc
+    The weak axiom of revealed preference (WARP) ensures that the revealed preference (i) is a preference relation (i.e., it is complete and transitive) and (ii) rationalizes the choices. However, when WARP fails, either one of these two properties is violated, but it is unclear which one it is. We provide an alternative characterization of WARP by showing that WARP is equivalent to the conjunction of two axioms each of which separately guarantees (i) and (ii).
     
-[^11]: 概率无限制估计下的条件密度的非参数估计方法：广义随机森林
+[^13]: 动态网络中群体和信号多样性的自发出现
 
-    Nonparametric estimation of conditional densities by generalized random forests. (arXiv:2309.13251v1 [econ.EM])
+    Spontaneous emergence of groups and signaling diversity in dynamic networks. (arXiv:2210.17309v2 [cs.SI] UPDATED)
 
-    [http://arxiv.org/abs/2309.13251](http://arxiv.org/abs/2309.13251)
+    [http://arxiv.org/abs/2210.17309](http://arxiv.org/abs/2210.17309)
 
-    本文提出了一种基于广义随机森林的非参数估计方法，用于估计给定X条件下Y的条件密度。该方法采用了指数级数来表示条件密度，并通过解决一个非线性方程组来得到系数。实验结果表明，该方法是一致的，并且在允许基函数维度无限增长的情况下渐近正态。同时，本文还提供了一个标准误公式来构建置信区间。
-
-    
-
-    在考虑连续随机变量Y和连续随机向量X的情况下，本文提出了一种非参数估计器f^(.|x)，用于给定X=x条件下Y的条件密度。该估计器采用了一个指数级数的形式，其系数T = (T1,...,TJ)是一组依赖于条件期望估计器E[p(Y)|X=x]的非线性方程组的解，其中p(.)是一个J维基函数向量。一个关键特点是E[p(Y)|X=x]通过广义随机森林（Athey, Tibshirani, and Wager, 2019）来进行估计，以针对不同x下T的异质性。我证明了f^(.|x)是一致的，并且在允许J无限增长的情况下渐近正态，并提供了一个标准误公式来构建渐近有效的置信区间。通过Monte Carlo实验和实证分析得到了结果。
-
-    Considering a continuous random variable Y together with a continuous random vector X, I propose a nonparametric estimator f^(.|x) for the conditional density of Y given X=x. This estimator takes the form of an exponential series whose coefficients T = (T1,...,TJ) are the solution of a system of nonlinear equations that depends on an estimator of the conditional expectation E[p(Y)|X=x], where p(.) is a J-dimensional vector of basis functions. A key feature is that E[p(Y)|X=x] is estimated by generalized random forest (Athey, Tibshirani, and Wager, 2019), targeting the heterogeneity of T across x. I show that f^(.|x) is uniformly consistent and asymptotically normal, while allowing J to grow to infinity. I also provide a standard error formula to construct asymptotically valid confidence intervals. Results from Monte Carlo experiments and an empirical illustration are provided.
-    
-[^12]: 在比利时COVID-19大流行期间验证动态投入产出模型以传播供求冲击
-
-    Validating a dynamic input-output model for the propagation of supply and demand shocks during the COVID-19 pandemic in Belgium. (arXiv:2305.16377v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.16377](http://arxiv.org/abs/2305.16377)
-
-    本研究验证了一个动态投入产出模型，在比利时COVID-19大流行期间松弛了Leontief生产函数，能够准确预测经济相关变量，并具有较强的鲁棒性。
+    本研究通过模拟动态网络中的代理人，发现信号交互足以导致不同信号群体的自发形成，并出现了特殊的混合信号群体，这种多样性的存在促进了信号在人口中的稳定分布。
 
     
 
-    本研究利用比利时经济相关指标的四个时间序列，验证了先前建立的动态投入产出模型，以量化COVID-19导致的经济冲击在比利时的影响。通过对研究中可能影响结果的八个模型参数进行敏感性分析，确定了最佳参数组合，并评估了研究结果对这些参数变化的敏感性。研究发现，采用松弛严格的Leontief生产函数的模型，能够在聚合和部门级别上提供COVID-19大流行期间比利时经济相关变量的准确预测。研究结果经过输入参数变化的考验，具有较强的鲁棒性，因此该模型可能是预测影响的有价值工具。
+    我们研究了网络结构和信号行为的共同演化。我们模拟了一个动态网络中的代理人，他们可以偏好地与其他人关联，同时学习玩一个简单的发送者-接收者游戏。我们得到了四个主要发现。首先，在动态网络中的信号交互足以导致不同信号群体的内生形成，即使在最初是同质的人口中也可以。其次，动态网络允许出现新型的“混合”信号群体，它们不会趋于一个单一的共同信号系统，而是由不同但互补的信号策略组成。我们发现，这些混合群体的存在促进了人口中其他群体之间信号的稳定多样性。第三，我们发现不同群体的信息处理能力存在重要差别：混合群体在最初传播信息更快，但需要更长时间才能覆盖所有群体成员。第四，我们的发现与网络动态性质以及不同策略在维持和扩散上的影响有关。
 
-    This work validates a previously established dynamical input-output model to quantify the impact of economic shocks caused by COVID-19 in the UK using data from Belgium. To this end, we used four time series of economically relevant indicators for Belgium. We identified eight model parameters that could potentially impact the results and varied these parameters over broad ranges in a sensitivity analysis. In this way, we could identify the set of parameters that results in the best agreement to the empirical data and we could asses the sensitivity of our outcomes to changes in these parameters. We find that the model, characterized by relaxing the stringent Leontief production function, provides adequate projections of economically relevant variables during the COVID-19 pandemic in Belgium, both at the aggregated and sectoral levels. The obtained results are robust in light of changes in the input parameters and hence, the model could prove to be a valuable tool in predicting the impac
+    We study the coevolution of network structure and signaling behavior. We model agents who can preferentially associate with others in a dynamic network while they also learn to play a simple sender-receiver game. We have four major findings. First, signaling interactions in dynamic networks are sufficient to cause the endogenous formation of distinct signaling groups, even in an initially homogeneous population. Second, dynamic networks allow the emergence of novel {\em hybrid} signaling groups that do not converge on a single common signaling system but are instead composed of different yet complementary signaling strategies. We show that the presence of these hybrid groups promotes stable diversity in signaling among other groups in the population. Third, we find important distinctions in information processing capacity of different groups: hybrid groups diffuse information more quickly initially but at the cost of taking longer to reach all group members. Fourth, our findings pertai
     
-[^13]: 财政政策的微观比较：间接和直接就业创造
+[^14]: 关于经济动态中哈密顿-雅可比-贝尔曼方程基础脆弱性的探讨
 
-    A micro-founded comparison of fiscal policies: indirect and direct job creation. (arXiv:2304.04506v1 [econ.TH])
+    On the Fragility of the Basis on the Hamilton-Jacobi-Bellman Equation in Economic Dynamics. (arXiv:2203.10595v3 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2304.04506](http://arxiv.org/abs/2304.04506)
+    [http://arxiv.org/abs/2203.10595](http://arxiv.org/abs/2203.10595)
 
-    本文提供了一个微观经济基础来支持政府直接雇用比政府购买商品更有利于消除失业，政府雇佣可以实现充分就业而不会引起价格上涨。
-
-    
-
-    本文提出了一个微观经济基础，支持政府直接雇用比政府购买私人商品更有利于消除失业。通过一种具有垄断竞争性质的一般均衡模型，研究了政策参数（政府购买、政府雇佣和税率）对宏观经济变量（消费、价格和利润）的影响。研究表明：1）政府购买具有通胀性质，因为政府的额外有效需求不仅增加了私人就业，还提高了价格；2）政府雇佣可以实现充分就业，而不会引起价格上涨。
-
-    This paper provides a micro-economic foundation for argument that direct employment by government is more desirable than government purchase of private goods to eliminate unemployment. A general equilibrium model with monopolistic competition is devised, and effects of policy parameters (government purchase, government employment, and tax rate) to macroeconomic variables (consumption, price, and profit) are investigated. It is shown that 1) the government purchase is inflationary in the sense that additional effective demand by government not only increases private employment but also raises prices; 2) the government employment can achieve full employment without causing a rise in prices.
-    
-[^14]: 当前消费者汽车贷款的信用风险收敛研究
-
-    On the Convergence of Credit Risk in Current Consumer Automobile Loans. (arXiv:2211.09176v2 [q-fin.ST] UPDATED)
-
-    [http://arxiv.org/abs/2211.09176](http://arxiv.org/abs/2211.09176)
-
-    本研究使用大量样本数据证明，对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。低风险借款人的拖延偿还让他们损失了1212-2327美元，同时当前的低风险借款人比当前的高风险借款人表现得不够有效率。
+    本文讨论了经济动态中的哈密顿-雅可比-贝尔曼方程问题，发现当原问题无解时会出现价值函数不满足该方程的现象，并在特定条件下证明了原问题存在解当且仅当价值函数满足该方程。此外，价值函数是哈密顿-雅可比-贝尔曼方程的唯一非降凹解。
 
     
 
-    当前贷款的条件信用风险鲜少研究。本研究使用大样本统计和基于消费者汽车资产支持证券数据的资产层面的分析，发现对于不同信用风险组的借款人，存活后的违约风险最终会趋于收敛，这种现象被称为信用风险收敛。我们估计低风险借款人的拖延偿还造成了1212-2327美元的损失，并发现了出人意料的结果：当前的低风险借款人比当前的高风险借款人表现得不够有效率。我们还通过视觉证据展示了汽车价值和经济刺激导致贷款提前偿还增加，但并非由于借款人的财务能力。我们的结果经过多种敏感性测试，表现稳健。
+    本文提供了一个最优增长模型的例子，其中存在无限多个哈密顿-雅可比-贝尔曼方程的解，但价值函数却不满足该方程。我们探究了这种现象的原因，并发现原问题无解是关键所在。我们证明了在若干条件下，原问题存在解当且仅当价值函数满足哈密顿-雅可比-贝尔曼方程。此外，在这种情况下，价值函数是哈密顿-雅可比-贝尔曼方程的唯一非降凹解。我们还证明了在没有我们条件的情况下，这种唯一性结果是不成立的。
 
-    Conditional credit risk of a current loan is understudied. Using large-sample statistics and asset-level consumer automobile asset-backed security data, we find default risk conditional on survival eventually converges for borrowers in disparate credit risk bands, a phenomenon we call credit risk convergence. We conservatively estimate that borrowers forwent $1,212 - $2,327 in savings through delayed prepayment and find the surprising result that current lower risk borrowers behave less efficiently than current higher risk borrowers. We also present visual evidence prepayments rose with used auto values and economic stimulus rather than financial acumen. Our results are robust to various sensitivity tests.
+    In this paper, we provide an example of the optimal growth model in which there exist infinitely many solutions to the Hamilton-Jacobi-Bellman equation but the value function does not satisfy this equation. We consider the cause of this phenomenon, and find that the lack of a solution to the original problem is crucial. We show that under several conditions, there exists a solution to the original problem if and only if the value function solves the Hamilton-Jacobi-Bellman equation. Moreover, in this case, the value function is the unique nondecreasing concave solution to the Hamilton-Jacobi-Bellman equation. We also show that without our conditions, this uniqueness result does not hold.
+    
+[^15]: 多人赌博学习，从竞争到合作
+
+    Multiplayer Bandit Learning, from Competition to Cooperation. (arXiv:1908.01135v3 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/1908.01135](http://arxiv.org/abs/1908.01135)
+
+    这篇论文研究了多人赌博学习中竞争和合作对探索和利用权衡的影响，模型考虑了不同合作参数下玩家的效用函数，并使用Gittins指数简化了单人问题。
+
+    
+
+    随机多臂赌博模型捕捉到了探索和利用的权衡。我们研究了竞争和合作对这种权衡的影响。假设有k个臂和两名玩家，Alice和Bob。在每一轮中，每个玩家拉动一个臂，接收到相应的奖励，并观察到对方的选择但不知道他们的奖励。Alice的效用函数为$\Gamma_A + \lambda \Gamma_B$（Bob的效用函数类似），其中$\Gamma_A$是Alice的总奖励，$\lambda \in [-1, 1]$是合作参数。当$\lambda = -1$时，玩家在一个零和游戏中竞争；当$\lambda = 1$时，他们完全合作；当$\lambda = 0$时，他们是中立的：每个玩家的效用函数为他们自己的奖励。该模型与战略实验经济学文献中关于观察对方奖励的研究相关。使用折扣因子$\beta$，Gittins指数将单人问题简化为对一个带有先验$\mu$的有风险臂的比较。
+
+    The stochastic multi-armed bandit model captures the tradeoff between exploration and exploitation. We study the effects of competition and cooperation on this tradeoff. Suppose there are $k$ arms and two players, Alice and Bob. In every round, each player pulls an arm, receives the resulting reward, and observes the choice of the other player but not their reward. Alice's utility is $\Gamma_A + \lambda \Gamma_B$ (and similarly for Bob), where $\Gamma_A$ is Alice's total reward and $\lambda \in [-1, 1]$ is a cooperation parameter. At $\lambda = -1$ the players are competing in a zero-sum game, at $\lambda = 1$, they are fully cooperating, and at $\lambda = 0$, they are neutral: each player's utility is their own reward. The model is related to the economics literature on strategic experimentation, where usually players observe each other's rewards.  With discount factor $\beta$, the Gittins index reduces the one-player problem to the comparison between a risky arm, with a prior $\mu$, 
     
 

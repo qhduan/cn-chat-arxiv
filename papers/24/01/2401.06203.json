@@ -1,0 +1,12 @@
+{
+    "title": "Remixing Music for Hearing Aids Using Ensemble of Fine-Tuned Source Separators. (arXiv:2401.06203v1 [eess.AS])",
+    "abstract": "This paper introduces our system submission for the Cadenza ICASSP 2024 Grand Challenge, which presents the problem of remixing and enhancing music for hearing aid users. Our system placed first in the challenge, achieving the best average Hearing-Aid Audio Quality Index (HAAQI) score on the evaluation data set. We describe the system, which uses an ensemble of deep learning music source separators that are fine tuned on the challenge data. We demonstrate the effectiveness of our system through the challenge results and analyze the importance of different system aspects through ablation studies.",
+    "link": "http://arxiv.org/abs/2401.06203",
+    "context": "Title: Remixing Music for Hearing Aids Using Ensemble of Fine-Tuned Source Separators. (arXiv:2401.06203v1 [eess.AS])\nAbstract: This paper introduces our system submission for the Cadenza ICASSP 2024 Grand Challenge, which presents the problem of remixing and enhancing music for hearing aid users. Our system placed first in the challenge, achieving the best average Hearing-Aid Audio Quality Index (HAAQI) score on the evaluation data set. We describe the system, which uses an ensemble of deep learning music source separators that are fine tuned on the challenge data. We demonstrate the effectiveness of our system through the challenge results and analyze the importance of different system aspects through ablation studies.",
+    "path": "papers/24/01/2401.06203.json",
+    "total_tokens": 763,
+    "translated_title": "使用精调的源分离器合奏混音音乐以改善助听器音质",
+    "translated_abstract": "本文介绍了我们在Cadenza ICASSP 2024大挑战中的系统提交，该大挑战提出了为助听器用户混音和增强音乐的问题。我们的系统在挑战中名列第一，在评估数据集上获得了最佳的助听器音质指数（HAAQI）平均分数。我们描述了该系统，它使用了一组经过细调的深度学习音乐源分离器，这些分离器在挑战数据上进行了细调。我们通过挑战结果证明了我们系统的有效性，并通过消融研究分析了不同系统方面的重要性。",
+    "tldr": "本文介绍了一个使用精调的源分离器合奏混音音乐以改善助听器音质的系统，该系统在Cadenza ICASSP 2024大挑战中名列第一，并在评估数据集上获得了最佳的助听器音质指数（HAAQI）平均分数。",
+    "en_tdlr": "This paper introduces a system that remixes and enhances music for hearing aid users using an ensemble of fine-tuned source separators, achieving the best average Hearing-Aid Audio Quality Index (HAAQI) score in the Cadenza ICASSP 2024 Grand Challenge."
+}

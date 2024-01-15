@@ -1,0 +1,12 @@
+{
+    "title": "Exposure effects are policy relevant only under strong assumptions about the interference structure. (arXiv:2401.06264v1 [econ.EM])",
+    "abstract": "Savje (2023) recommends misspecified exposure effects as a way to avoid strong assumptions about interference when analyzing the results of an experiment. In this discussion, we highlight a key limitation of Savje's recommendation. Exposure effects are not generally useful for evaluating social policies without the strong assumptions that Savje seeks to avoid.  Our discussion is organized as follows. Section 2 summarizes our position, section 3 provides a concrete example, and section 4 concludes. Proof of claims are in an appendix.",
+    "link": "http://arxiv.org/abs/2401.06264",
+    "context": "Title: Exposure effects are policy relevant only under strong assumptions about the interference structure. (arXiv:2401.06264v1 [econ.EM])\nAbstract: Savje (2023) recommends misspecified exposure effects as a way to avoid strong assumptions about interference when analyzing the results of an experiment. In this discussion, we highlight a key limitation of Savje's recommendation. Exposure effects are not generally useful for evaluating social policies without the strong assumptions that Savje seeks to avoid.  Our discussion is organized as follows. Section 2 summarizes our position, section 3 provides a concrete example, and section 4 concludes. Proof of claims are in an appendix.",
+    "path": "papers/24/01/2401.06264.json",
+    "total_tokens": 618,
+    "translated_title": "曝光效应仅在对干扰结构有强假设情况下才具有政策相关性",
+    "translated_abstract": "Savje（2023）推荐利用错误的曝光效应来避免在分析实验结果时对干扰有强假设。在这篇讨论中，我们强调了Savje建议的一个重要限制。在没有Savje试图避免的强假设的情况下，曝光效应通常不适用于评估社会政策。我们的讨论如下。第2节总结了我们的立场，第3节提供了一个具体的例子，第4节总结了讨论。附录中给出了声明的证明。",
+    "tldr": "曝光效应仅在对干扰结构有强假设情况下才具有政策相关性。",
+    "en_tdlr": "Exposure effects are policy relevant only under strong assumptions about the interference structure."
+}

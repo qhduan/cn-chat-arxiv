@@ -1,0 +1,12 @@
+{
+    "title": "WISE: full-Waveform variational Inference via Subsurface Extensions. (arXiv:2401.06230v1 [physics.geo-ph])",
+    "abstract": "We introduce a probabilistic technique for full-waveform inversion, employing variational inference and conditional normalizing flows to quantify uncertainty in migration-velocity models and its impact on imaging. Our approach integrates generative artificial intelligence with physics-informed common-image gathers, reducing reliance on accurate initial velocity models. Considered case studies demonstrate its efficacy producing realizations of migration-velocity models conditioned by the data. These models are used to quantify amplitude and positioning effects during subsequent imaging.",
+    "link": "http://arxiv.org/abs/2401.06230",
+    "context": "Title: WISE: full-Waveform variational Inference via Subsurface Extensions. (arXiv:2401.06230v1 [physics.geo-ph])\nAbstract: We introduce a probabilistic technique for full-waveform inversion, employing variational inference and conditional normalizing flows to quantify uncertainty in migration-velocity models and its impact on imaging. Our approach integrates generative artificial intelligence with physics-informed common-image gathers, reducing reliance on accurate initial velocity models. Considered case studies demonstrate its efficacy producing realizations of migration-velocity models conditioned by the data. These models are used to quantify amplitude and positioning effects during subsequent imaging.",
+    "path": "papers/24/01/2401.06230.json",
+    "total_tokens": 652,
+    "translated_title": "WISE: 基于地下扩展的全波形变分推断方法",
+    "translated_abstract": "我们引入了一种利用变分推断和条件归一化流来量化偏移速度模型及其对成像的影响的全波形反演概率技术。我们的方法将生成式人工智能与物理知识驱动的共享图像收集相结合，减少了对准确的初始速度模型的依赖。考虑到的案例研究证明了该方法在根据数据生成偏移速度模型方面的有效性。这些模型被用来量化后续成像过程中的振幅和定位效应。",
+    "tldr": "WISE是一种通过地下扩展进行全波形变分推断的方法，能够准确量化偏移速度模型对成像的影响，并且不依赖于准确的初始速度模型。",
+    "en_tdlr": "WISE is a method for full-waveform inversion using subsurface extensions, which can accurately quantify the impact of migration-velocity models on imaging without relying on accurate initial velocity models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "CNN-DRL for Scalable Actions in Finance. (arXiv:2401.06179v1 [q-fin.ST])",
+    "abstract": "The published MLP-based DRL in finance has difficulties in learning the dynamics of the environment when the action scale increases. If the buying and selling increase to one thousand shares, the MLP agent will not be able to effectively adapt to the environment. To address this, we designed a CNN agent that concatenates the data from the last ninety days of the daily feature vector to create the CNN input matrix. Our extensive experiments demonstrate that the MLP-based agent experiences a loss corresponding to the initial environment setup, while our designed CNN remains stable, effectively learns the environment, and leads to an increase in rewards.",
+    "link": "http://arxiv.org/abs/2401.06179",
+    "context": "Title: CNN-DRL for Scalable Actions in Finance. (arXiv:2401.06179v1 [q-fin.ST])\nAbstract: The published MLP-based DRL in finance has difficulties in learning the dynamics of the environment when the action scale increases. If the buying and selling increase to one thousand shares, the MLP agent will not be able to effectively adapt to the environment. To address this, we designed a CNN agent that concatenates the data from the last ninety days of the daily feature vector to create the CNN input matrix. Our extensive experiments demonstrate that the MLP-based agent experiences a loss corresponding to the initial environment setup, while our designed CNN remains stable, effectively learns the environment, and leads to an increase in rewards.",
+    "path": "papers/24/01/2401.06179.json",
+    "total_tokens": 703,
+    "translated_title": "金融领域可扩展行为的CNN-DRL方法",
+    "translated_abstract": "在金融领域，基于MLP的DRL在动作规模增长时难以学习环境动态。如果买卖量增加到一千股，MLP代理无法有效适应环境。为了解决这个问题，我们设计了一个CNN代理，将过去九十天的每日特征向量数据拼接起来创建CNN输入矩阵。实验证明，基于MLP的代理在初始环境设置上遭受损失，而我们设计的CNN仍然稳定，有效地学习环境，并导致奖励增加。",
+    "tldr": "本文提出了一种用于金融领域可扩展行为的CNN-DRL方法，通过将过去九十天的每日特征向量数据拼接到CNN输入矩阵中，实现了对环境动态的有效学习，获得了奖励的增加。",
+    "en_tdlr": "This paper proposes a CNN-DRL method for scalable actions in finance, which effectively learns the dynamics of the environment by concatenating the daily feature vector data from the past ninety days into the CNN input matrix, leading to an increase in rewards."
+}
