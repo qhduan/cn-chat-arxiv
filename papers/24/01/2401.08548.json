@@ -1,0 +1,12 @@
+{
+    "title": "Fitting random cash management models to data. (arXiv:2401.08548v1 [q-fin.CP])",
+    "abstract": "Organizations use cash management models to control balances to both avoid overdrafts and obtain a profit from short-term investments. Most management models are based on control bounds which are derived from the assumption of a particular cash flow probability distribution. In this paper, we relax this strong assumption to fit cash management models to data by means of stochastic and linear programming. We also introduce ensembles of random cash management models which are built by randomly selecting a subsequence of the original cash flow data set. We illustrate our approach by means of a real case study showing that a small random sample of data is enough to fit sufficiently good bound-based models.",
+    "link": "http://arxiv.org/abs/2401.08548",
+    "context": "Title: Fitting random cash management models to data. (arXiv:2401.08548v1 [q-fin.CP])\nAbstract: Organizations use cash management models to control balances to both avoid overdrafts and obtain a profit from short-term investments. Most management models are based on control bounds which are derived from the assumption of a particular cash flow probability distribution. In this paper, we relax this strong assumption to fit cash management models to data by means of stochastic and linear programming. We also introduce ensembles of random cash management models which are built by randomly selecting a subsequence of the original cash flow data set. We illustrate our approach by means of a real case study showing that a small random sample of data is enough to fit sufficiently good bound-based models.",
+    "path": "papers/24/01/2401.08548.json",
+    "total_tokens": 735,
+    "translated_title": "将随机现金管理模型拟合到数据中",
+    "translated_abstract": "组织使用现金管理模型来控制余额，以避免透支并从短期投资中获利。大多数管理模型基于从特定现金流概率分布的假设派生出的控制界限。在本文中，我们放宽了这一强假设，通过随机和线性规划来将现金管理模型拟合到数据中。我们还引入了一系列随机现金管理模型，这些模型是通过随机选择原始现金流数据集的子序列构建而成的。我们通过一个真实案例研究来说明我们的方法，结果表明，少量随机抽样的数据足以拟合出足够好的基于界限的模型。",
+    "tldr": "本文研究了将随机现金管理模型应用于数据拟合的方法，其中引入了一系列随机现金管理模型，并通过一个真实案例证明了使用少量随机抽样的数据可以得到足够好的基于界限的模型。",
+    "en_tdlr": "This paper investigates the fitting of random cash management models to data, introducing ensembles of random models and demonstrating with a real case study that a small random sample of data is sufficient to obtain sufficiently good bound-based models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bitcoin option pricing: A market attention approach. (arXiv:2107.12447v3 [q-fin.PR] UPDATED)",
+    "abstract": "A model is proposed for Bitcoin prices that takes into account market attention. Market attention, modeled by a mean-reverting Cox-Ingersoll-Ross processes, affects the volatility of Bitcoin returns, with some delay. The model is affine and tractable, with closed formulae for the conditional characteristic functions with respect to both the conventional and a delayed filtration. This leads to semi-closed formulae for European call and put prices. A maximum likelihood estimation procedure is provided, as well as a method for changing to a risk-neutral measure. The model compares very well against classical and attention-based models when tested on real data.",
+    "link": "http://arxiv.org/abs/2107.12447",
+    "context": "Title: Bitcoin option pricing: A market attention approach. (arXiv:2107.12447v3 [q-fin.PR] UPDATED)\nAbstract: A model is proposed for Bitcoin prices that takes into account market attention. Market attention, modeled by a mean-reverting Cox-Ingersoll-Ross processes, affects the volatility of Bitcoin returns, with some delay. The model is affine and tractable, with closed formulae for the conditional characteristic functions with respect to both the conventional and a delayed filtration. This leads to semi-closed formulae for European call and put prices. A maximum likelihood estimation procedure is provided, as well as a method for changing to a risk-neutral measure. The model compares very well against classical and attention-based models when tested on real data.",
+    "path": "papers/21/07/2107.12447.json",
+    "total_tokens": 812,
+    "translated_title": "Bitcoin期权定价：一种市场关注度方法",
+    "translated_abstract": "本文提出了一种针对比特币价格的模型，该模型考虑了市场关注度的影响。市场关注度通过一个均值回归的Cox-Ingersoll-Ross过程进行建模，影响比特币收益的波动性，存在一定的延迟。该模型是可仿真和易于处理的，对于传统和延迟滤波条件下的条件特征函数都具有闭式公式。这导致了欧式看涨和看跌期权价格的半闭式公式。本文提供了最大似然估计的方法，并提供了一种转换到风险中性度量的方法。在实际数据测试中，该模型与传统模型和基于关注度的模型相比表现出色。",
+    "tldr": "本文提出了一种考虑市场关注度的模型，用于比特币价格的定价。通过将市场关注度建模为一个均值回归的过程，模型能够准确反映比特币收益的波动性，并提供了欧式看涨和看跌期权的定价公式。该模型在实际数据测试中与传统模型和基于关注度的模型相比表现出色。",
+    "en_tdlr": "This paper proposes a model that takes into account market attention for Bitcoin pricing. By modeling market attention as a mean-reverting process, the model accurately captures the volatility of Bitcoin returns and provides pricing formulas for European call and put options. The model performs well compared to traditional and attention-based models in real data testing."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Insurance to Maximize Exponential Utility when Premium is Computed by a Convex Functional. (arXiv:2401.08094v1 [q-fin.MF])",
+    "abstract": "We find the optimal indemnity to maximize the expected utility of terminal wealth of a buyer of insurance whose preferences are modeled by an exponential utility. The insurance premium is computed by a convex functional. We obtain a necessary condition for the optimal indemnity; then, because the candidate optimal indemnity is given implicitly, we use that necessary condition to develop a numerical algorithm to compute it. We prove that the numerical algorithm converges to a unique indemnity that, indeed, equals the optimal policy. We also illustrate our results with numerical examples.",
+    "link": "http://arxiv.org/abs/2401.08094",
+    "context": "Title: Optimal Insurance to Maximize Exponential Utility when Premium is Computed by a Convex Functional. (arXiv:2401.08094v1 [q-fin.MF])\nAbstract: We find the optimal indemnity to maximize the expected utility of terminal wealth of a buyer of insurance whose preferences are modeled by an exponential utility. The insurance premium is computed by a convex functional. We obtain a necessary condition for the optimal indemnity; then, because the candidate optimal indemnity is given implicitly, we use that necessary condition to develop a numerical algorithm to compute it. We prove that the numerical algorithm converges to a unique indemnity that, indeed, equals the optimal policy. We also illustrate our results with numerical examples.",
+    "path": "papers/24/01/2401.08094.json",
+    "total_tokens": 693,
+    "translated_title": "通过计算一个凸函数的方式来求解最大化指数效用的最优保险",
+    "translated_abstract": "本文研究了一个买家的终端财富期望效用最大化的最优赔偿方式，该买家的偏好通过指数效用来建模。保险费用采用了一个凸函数进行计算。我们得到了最优赔偿的一个必要条件；然后，由于候选最优赔偿作为隐含变量给出，我们利用这个必要条件来开发一个数值算法来计算它。我们证明了这个数值算法收敛到一个唯一的赔偿，确实等于最优策略。我们还通过数值示例说明了我们的结果。",
+    "tldr": "本文研究了一个买家的终端财富期望效用最大化的最优赔偿方式，同时使用数值算法计算了这个最优赔偿。",
+    "en_tdlr": "This paper investigates the optimal indemnity to maximize the expected utility of terminal wealth of a buyer of insurance modeled by exponential utility. A numerical algorithm is developed to compute the optimal indemnity, which is proven to converge to a unique indemnity that equals the optimal policy."
+}

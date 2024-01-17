@@ -1,0 +1,11 @@
+{
+    "title": "Knowledge Graph Enhanced Aspect-Level Sentiment Analysis. (arXiv:2312.10048v2 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we propose a novel method to enhance sentiment analysis by addressing the challenge of context-specific word meanings. It combines the advantages of a BERT model with a knowledge graph based synonym data. This synergy leverages a dynamic attention mechanism to develop a knowledge-driven state vector. For classifying sentiments linked to specific aspects, the approach constructs a memory bank integrating positional data. The data are then analyzed using a DCGRU to pinpoint sentiment characteristics related to specific aspect terms. Experiments on three widely used datasets demonstrate the superior performance of our method in sentiment classification.",
+    "link": "http://arxiv.org/abs/2312.10048",
+    "context": "Title: Knowledge Graph Enhanced Aspect-Level Sentiment Analysis. (arXiv:2312.10048v2 [cs.CL] UPDATED)\nAbstract: In this paper, we propose a novel method to enhance sentiment analysis by addressing the challenge of context-specific word meanings. It combines the advantages of a BERT model with a knowledge graph based synonym data. This synergy leverages a dynamic attention mechanism to develop a knowledge-driven state vector. For classifying sentiments linked to specific aspects, the approach constructs a memory bank integrating positional data. The data are then analyzed using a DCGRU to pinpoint sentiment characteristics related to specific aspect terms. Experiments on three widely used datasets demonstrate the superior performance of our method in sentiment classification.",
+    "path": "papers/23/12/2312.10048.json",
+    "total_tokens": 699,
+    "translated_title": "知识图谱增强的方面级情感分析",
+    "translated_abstract": "本文提出了一种新颖的方法，通过解决上下文特定词义的挑战，增强情感分析。它将BERT模型的优势与基于知识图谱的同义词数据相结合。这种协同作用利用动态注意机制来构建一个知识驱动的状态向量。为了对特定方面链接的情感进行分类，该方法构建了一个集成了位置数据的记忆库。然后使用DCGRU分析数据，以确定与特定方面术语相关的情感特征。在三个广泛使用的数据集上的实验表明，我们的方法在情感分类中具有卓越的性能。",
+    "tldr": "本文提出了一种知识图谱增强的方面级情感分析方法，通过使用BERT模型和知识图谱的同义词数据，在解决上下文特定词义的挑战上取得了优越的性能。"
+}

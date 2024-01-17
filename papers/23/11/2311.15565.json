@@ -1,0 +1,11 @@
+{
+    "title": "Evaluating the Efficacy of Hybrid Deep Learning Models in Distinguishing AI-Generated Text. (arXiv:2311.15565v3 [cs.CL] UPDATED)",
+    "abstract": "My research investigates the use of cutting-edge hybrid deep learning models to accurately differentiate between AI-generated text and human writing. I applied a robust methodology, utilising a carefully selected dataset comprising AI and human texts from various sources, each tagged with instructions. Advanced natural language processing techniques facilitated the analysis of textual features. Combining sophisticated neural networks, the custom model enabled it to detect nuanced differences between AI and human content.",
+    "link": "http://arxiv.org/abs/2311.15565",
+    "context": "Title: Evaluating the Efficacy of Hybrid Deep Learning Models in Distinguishing AI-Generated Text. (arXiv:2311.15565v3 [cs.CL] UPDATED)\nAbstract: My research investigates the use of cutting-edge hybrid deep learning models to accurately differentiate between AI-generated text and human writing. I applied a robust methodology, utilising a carefully selected dataset comprising AI and human texts from various sources, each tagged with instructions. Advanced natural language processing techniques facilitated the analysis of textual features. Combining sophisticated neural networks, the custom model enabled it to detect nuanced differences between AI and human content.",
+    "path": "papers/23/11/2311.15565.json",
+    "total_tokens": 692,
+    "translated_title": "评估混合深度学习模型在区分AI生成文本方面的有效性",
+    "translated_abstract": "我的研究通过使用先进的混合深度学习模型，来准确区分AI生成的文本与人类写作。我应用了一种稳健的方法论，利用了一个精心选择的数据集，其中包括来自各种来源的AI和人类文本，每个文本都标有指示。先进的自然语言处理技术便于对文本特征进行分析。通过结合复杂的神经网络，这个定制模型使得它能够检测出AI和人类内容之间微妙的差异。",
+    "tldr": "本研究评估了混合深度学习模型在准确区分AI生成文本和人类写作方面的有效性。通过应用先进的自然语言处理技术和复杂的神经网络，我们的研究成功地检测到了AI生成文本和人类写作之间的微妙差异。"
+}

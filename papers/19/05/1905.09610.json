@@ -1,0 +1,12 @@
+{
+    "title": "Hypothetical answers to continuous queries over data streams. (arXiv:1905.09610v3 [cs.PL] UPDATED)",
+    "abstract": "Continuous queries over data streams may suffer from blocking operations and/or unbound wait, which may delay answers until some relevant input arrives through the data stream. These delays may turn answers, when they arrive, obsolete to users who sometimes have to make decisions with no help whatsoever. Therefore, it can be useful to provide hypothetical answers - \"given the current information, it is possible that X will become true at time t\" instead of no information at all.  In this paper we present a semantics for queries and corresponding answers that covers such hypothetical answers, together with an online algorithm for updating the set of facts that are consistent with the currently available information.",
+    "link": "http://arxiv.org/abs/1905.09610",
+    "context": "Title: Hypothetical answers to continuous queries over data streams. (arXiv:1905.09610v3 [cs.PL] UPDATED)\nAbstract: Continuous queries over data streams may suffer from blocking operations and/or unbound wait, which may delay answers until some relevant input arrives through the data stream. These delays may turn answers, when they arrive, obsolete to users who sometimes have to make decisions with no help whatsoever. Therefore, it can be useful to provide hypothetical answers - \"given the current information, it is possible that X will become true at time t\" instead of no information at all.  In this paper we present a semantics for queries and corresponding answers that covers such hypothetical answers, together with an online algorithm for updating the set of facts that are consistent with the currently available information.",
+    "path": "papers/19/05/1905.09610.json",
+    "total_tokens": 716,
+    "translated_title": "在数据流上进行连续查询的假设答案探讨",
+    "translated_abstract": "在数据流上进行连续查询可能遇到阻塞操作和/或无限等待的问题，这可能会延迟答案直到相关输入通过数据流到达。这些延迟可能导致答案在到达时对于有时不得不不依赖任何帮助做出决策的用户来说已经过时。因此，提供假设答案-“根据当前信息，在时间t时，X可能会变为真”而不是没有任何信息可能是有用的。在本文中，我们提出了一种涵盖了这种假设答案的查询和相应答案的语义，以及一种在线算法，用于更新与当前可用信息一致的事实集合。",
+    "tldr": "本文探讨了在数据流上进行连续查询时可能出现的阻塞操作和延迟答案的问题，并提出了一种能够提供假设答案的语义和相应答案的在线算法。",
+    "en_tdlr": "This paper discusses the issues of blocking operations and delayed answers in continuous queries over data streams, and proposes a semantic for providing hypothetical answers and an online algorithm for updating consistent facts."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "RedEx: Beyond Fixed Representation Methods via Convex Optimization. (arXiv:2401.07606v1 [cs.LG])",
+    "abstract": "Optimizing Neural networks is a difficult task which is still not well understood. On the other hand, fixed representation methods such as kernels and random features have provable optimization guarantees but inferior performance due to their inherent inability to learn the representations. In this paper, we aim at bridging this gap by presenting a novel architecture called RedEx (Reduced Expander Extractor) that is as expressive as neural networks and can also be trained in a layer-wise fashion via a convex program with semi-definite constraints and optimization guarantees. We also show that RedEx provably surpasses fixed representation methods, in the sense that it can efficiently learn a family of target functions which fixed representation methods cannot.",
+    "link": "http://arxiv.org/abs/2401.07606",
+    "context": "Title: RedEx: Beyond Fixed Representation Methods via Convex Optimization. (arXiv:2401.07606v1 [cs.LG])\nAbstract: Optimizing Neural networks is a difficult task which is still not well understood. On the other hand, fixed representation methods such as kernels and random features have provable optimization guarantees but inferior performance due to their inherent inability to learn the representations. In this paper, we aim at bridging this gap by presenting a novel architecture called RedEx (Reduced Expander Extractor) that is as expressive as neural networks and can also be trained in a layer-wise fashion via a convex program with semi-definite constraints and optimization guarantees. We also show that RedEx provably surpasses fixed representation methods, in the sense that it can efficiently learn a family of target functions which fixed representation methods cannot.",
+    "path": "papers/24/01/2401.07606.json",
+    "total_tokens": 688,
+    "translated_title": "RedEx: 通过凸优化方法超越固定表示方法",
+    "translated_abstract": "优化神经网络是一个难以理解的困难任务。与此同时，固定表示方法如核函数和随机特征具有可证明的优化保证，但由于其固有的无法学习表示的能力而表现较差。本文旨在通过提出一种新的架构RedEx（Reduced Expander Extractor），来弥合这一差距。RedEx具有与神经网络一样的表达能力，并且可以通过一个带有半正定约束和优化保证的凸程序按层次进行训练。我们还证明了RedEx可以有效地学习固定表示方法无法学习的一类目标函数。",
+    "tldr": "本文提出了一种名为RedEx的新架构，通过凸优化方法学习神经网络无法学习的目标函数，具有优化保证。",
+    "en_tdlr": "This paper presents RedEx, a novel architecture that surpasses fixed representation methods by learning target functions that neural networks cannot learn through convex optimization, with optimization guarantees."
+}

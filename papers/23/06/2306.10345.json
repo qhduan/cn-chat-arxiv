@@ -1,0 +1,12 @@
+{
+    "title": "Do as I can, not as I get. (arXiv:2306.10345v2 [cs.AI] UPDATED)",
+    "abstract": "This paper proposes a model called TMR to mine valuable information from simulated data environments. We intend to complete the submission of this paper.",
+    "link": "http://arxiv.org/abs/2306.10345",
+    "context": "Title: Do as I can, not as I get. (arXiv:2306.10345v2 [cs.AI] UPDATED)\nAbstract: This paper proposes a model called TMR to mine valuable information from simulated data environments. We intend to complete the submission of this paper.",
+    "path": "papers/23/06/2306.10345.json",
+    "total_tokens": 422,
+    "translated_title": "做我能做的，而不是我得到的。(arXiv:2306.10345v2 [cs.AI] UPDATED)",
+    "translated_abstract": "本文提出了一种名为TMR的模型，用于从模拟数据环境中挖掘有价值的信息。我们打算完成本文的投稿。",
+    "tldr": "该论文提出了一种名为TMR的模型，用于从模拟数据环境中挖掘有价值的信息。",
+    "en_tdlr": "This paper proposes a model called TMR to mine valuable information from simulated data environments."
+}

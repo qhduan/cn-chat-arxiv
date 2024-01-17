@@ -1,0 +1,12 @@
+{
+    "title": "Guardians of Trust: Navigating Data Security in AIOps through Vendor Partnerships. (arXiv:2312.06008v2 [cs.CR] UPDATED)",
+    "abstract": "Artificial Intelligence for IT Operations (AIOps) is a rapidly growing field that applies artificial intelligence and machine learning to automate and optimize IT operations. AIOps vendors provide services that ingest end-to-end logs, traces, and metrics to offer a full stack observability of IT systems. However, these data sources may contain sensitive information such as internal IP addresses, hostnames, HTTP headers, SQLs, method/argument return values, URLs, personal identifiable information (PII), or confidential business data. Therefore, data security is a crucial concern when working with AIOps vendors. In this article, we will discuss the security features offered by different vendors and how we can adopt best practices to ensure data protection and privacy.",
+    "link": "http://arxiv.org/abs/2312.06008",
+    "context": "Title: Guardians of Trust: Navigating Data Security in AIOps through Vendor Partnerships. (arXiv:2312.06008v2 [cs.CR] UPDATED)\nAbstract: Artificial Intelligence for IT Operations (AIOps) is a rapidly growing field that applies artificial intelligence and machine learning to automate and optimize IT operations. AIOps vendors provide services that ingest end-to-end logs, traces, and metrics to offer a full stack observability of IT systems. However, these data sources may contain sensitive information such as internal IP addresses, hostnames, HTTP headers, SQLs, method/argument return values, URLs, personal identifiable information (PII), or confidential business data. Therefore, data security is a crucial concern when working with AIOps vendors. In this article, we will discuss the security features offered by different vendors and how we can adopt best practices to ensure data protection and privacy.",
+    "path": "papers/23/12/2312.06008.json",
+    "total_tokens": 746,
+    "translated_title": "信任守护者：通过供应商合作在AIOps中导航数据安全",
+    "translated_abstract": "IT运维中人工智能（AIOps）是一个快速发展的领域，应用人工智能和机器学习来自动化和优化IT运维。AIOps供应商提供服务，可以接收端到端日志、跟踪和指标，提供对IT系统的全栈监控。然而，这些数据源可能包含敏感信息，例如内部IP地址、主机名、HTTP头、SQL、方法/参数的返回值、URL和个人识别信息（PII）或机密业务数据。因此，在与AIOps供应商合作时，数据安全是一个重要的问题。在本文中，我们将讨论不同供应商所提供的安全特性，以及如何采用最佳实践来确保数据的保护和隐私。",
+    "tldr": "本文讨论了在AIOps中与供应商合作时数据安全的重要性，并探讨了如何通过采用最佳实践来保护数据和隐私。",
+    "en_tdlr": "This article discusses the importance of data security when working with vendors in AIOps and explores how to protect data and privacy by adopting best practices."
+}

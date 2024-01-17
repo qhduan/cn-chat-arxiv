@@ -1,0 +1,12 @@
+{
+    "title": "A Two-Step Longstaff Schwartz Monte Carlo Approach to Game Option Pricing. (arXiv:2401.08093v1 [q-fin.CP])",
+    "abstract": "We proposed a two-step Longstaff Schwartz Monte Carlo (LSMC) method with two regression models fitted at each time step to price game options. Although the original LSMC can be used to price game options with an enlarged range of path in regression and a modified cashflow updating rule, we identified a drawback of such approach, which motivated us to propose our approach. We implemented numerical examples with benchmarks using binomial tree and numerical PDE, and it showed that our method produces more reliable results comparing to the original LSMC.",
+    "link": "http://arxiv.org/abs/2401.08093",
+    "context": "Title: A Two-Step Longstaff Schwartz Monte Carlo Approach to Game Option Pricing. (arXiv:2401.08093v1 [q-fin.CP])\nAbstract: We proposed a two-step Longstaff Schwartz Monte Carlo (LSMC) method with two regression models fitted at each time step to price game options. Although the original LSMC can be used to price game options with an enlarged range of path in regression and a modified cashflow updating rule, we identified a drawback of such approach, which motivated us to propose our approach. We implemented numerical examples with benchmarks using binomial tree and numerical PDE, and it showed that our method produces more reliable results comparing to the original LSMC.",
+    "path": "papers/24/01/2401.08093.json",
+    "total_tokens": 608,
+    "translated_title": "一种两步Longstaff Schwartz Monte Carlo方法用于定价游戏期权",
+    "translated_abstract": "我们提出了一种两步Longstaff Schwartz Monte Carlo (LSMC)方法，每个时间步骤使用两个回归模型来定价游戏期权。尽管原始的LSMC方法可以用于在回归中扩大路径范围和修改现金流更新规则来定价游戏期权，但我们发现了该方法的一个缺点，这促使我们提出了我们的方法。我们使用二项树和数值PDE实现了数值示例，并且结果表明我们的方法相比原始LSMC方法产生更可靠的结果。",
+    "tldr": "提出了一种两步Longstaff Schwartz Monte Carlo方法用于定价游戏期权，并通过数值实例验证了其相对可靠性。",
+    "en_tdlr": "We propose a two-step Longstaff Schwartz Monte Carlo method for pricing game options, and demonstrate its relative reliability through numerical examples."
+}

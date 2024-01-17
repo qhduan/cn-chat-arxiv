@@ -1,0 +1,12 @@
+{
+    "title": "Provisions and Economic Capital for Credit Losses. (arXiv:2401.07728v1 [q-fin.RM])",
+    "abstract": "Based on supermodularity ordering properties, we show that convex risk measures of credit losses are nondecreasing w.r.t. credit-credit and, in a wrong-way risk setup, credit-market, covariances of elliptically distributed latent factors. These results support the use of such setups for computing credit provisions and economic capital or for conducting stress test exercises and risk management analysis.",
+    "link": "http://arxiv.org/abs/2401.07728",
+    "context": "Title: Provisions and Economic Capital for Credit Losses. (arXiv:2401.07728v1 [q-fin.RM])\nAbstract: Based on supermodularity ordering properties, we show that convex risk measures of credit losses are nondecreasing w.r.t. credit-credit and, in a wrong-way risk setup, credit-market, covariances of elliptically distributed latent factors. These results support the use of such setups for computing credit provisions and economic capital or for conducting stress test exercises and risk management analysis.",
+    "path": "papers/24/01/2401.07728.json",
+    "total_tokens": 640,
+    "translated_title": "信用损失的条款和经济资本",
+    "translated_abstract": "基于超模性排序特性，我们证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和错误风险设置下的信用-市场协方差是非递减的。这些结果支持使用这样的设置来计算信用拨备和经济资本，进行压力测试和风险管理分析。",
+    "tldr": "基于超模性排序特性，该论文证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和信用-市场协方差是非递减的，这对于计算信用拨备、经济资本、压力测试和风险管理分析非常有帮助。",
+    "en_tdlr": "Based on supermodularity ordering properties, this paper demonstrates that convex risk measures of credit losses are nondecreasing with respect to credit-credit and credit-market covariances of elliptically distributed latent factors, which is useful for computing credit provisions, economic capital, conducting stress tests, and risk management analysis."
+}

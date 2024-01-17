@@ -1,0 +1,11 @@
+{
+    "title": "Random-reshuffled SARAH does not need a full gradient computations. (arXiv:2111.13322v2 [cs.LG] UPDATED)",
+    "abstract": "The StochAstic Recursive grAdient algoritHm (SARAH) algorithm is a variance reduced variant of the Stochastic Gradient Descent (SGD) algorithm that needs a gradient of the objective function from time to time. In this paper, we remove the necessity of a full gradient computation. This is achieved by using a randomized reshuffling strategy and aggregating stochastic gradients obtained in each epoch. The aggregated stochastic gradients serve as an estimate of a full gradient in the SARAH algorithm. We provide a theoretical analysis of the proposed approach and conclude the paper with numerical experiments that demonstrate the efficiency of this approach.",
+    "link": "http://arxiv.org/abs/2111.13322",
+    "context": "Title: Random-reshuffled SARAH does not need a full gradient computations. (arXiv:2111.13322v2 [cs.LG] UPDATED)\nAbstract: The StochAstic Recursive grAdient algoritHm (SARAH) algorithm is a variance reduced variant of the Stochastic Gradient Descent (SGD) algorithm that needs a gradient of the objective function from time to time. In this paper, we remove the necessity of a full gradient computation. This is achieved by using a randomized reshuffling strategy and aggregating stochastic gradients obtained in each epoch. The aggregated stochastic gradients serve as an estimate of a full gradient in the SARAH algorithm. We provide a theoretical analysis of the proposed approach and conclude the paper with numerical experiments that demonstrate the efficiency of this approach.",
+    "path": "papers/21/11/2111.13322.json",
+    "total_tokens": 736,
+    "translated_title": "随机重排的SARAH算法不需要进行完整的梯度计算",
+    "translated_abstract": "随机递归梯度算法（SARAH）是随机梯度下降（SGD）算法的一种方差缩减变体，需要定期计算目标函数的梯度。在本文中，我们消除了进行完整梯度计算的必要性。通过使用随机重排策略和在每个时期获得的随机梯度的聚合，实现了这一目标。聚合的随机梯度在SARAH算法中作为完整梯度的估计。我们对所提出方法进行了理论分析，并通过数值实验证明了该方法的效率。",
+    "tldr": "本文提出了一种使用随机重排策略和聚合随机梯度的方法，可以在不进行完整梯度计算的情况下实现随机递归梯度算法（SARAH），并通过理论分析和数值实验证明了该方法的效率。"
+}

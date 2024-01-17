@@ -1,0 +1,11 @@
+{
+    "title": "$\\mathbb{Z}_2\\times \\mathbb{Z}_2$ Equivariant Quantum Neural Networks: Benchmarking against Classical Neural Networks. (arXiv:2311.18744v2 [quant-ph] UPDATED)",
+    "abstract": "This paper presents a comprehensive comparative analysis of the performance of Equivariant Quantum Neural Networks (EQNN) and Quantum Neural Networks (QNN), juxtaposed against their classical counterparts: Equivariant Neural Networks (ENN) and Deep Neural Networks (DNN). We evaluate the performance of each network with two toy examples for a binary classification task, focusing on model complexity (measured by the number of parameters) and the size of the training data set. Our results show that the $\\mathbb{Z}_2\\times \\mathbb{Z}_2$ EQNN and the QNN provide superior performance for smaller parameter sets and modest training data samples.",
+    "link": "http://arxiv.org/abs/2311.18744",
+    "context": "Title: $\\mathbb{Z}_2\\times \\mathbb{Z}_2$ Equivariant Quantum Neural Networks: Benchmarking against Classical Neural Networks. (arXiv:2311.18744v2 [quant-ph] UPDATED)\nAbstract: This paper presents a comprehensive comparative analysis of the performance of Equivariant Quantum Neural Networks (EQNN) and Quantum Neural Networks (QNN), juxtaposed against their classical counterparts: Equivariant Neural Networks (ENN) and Deep Neural Networks (DNN). We evaluate the performance of each network with two toy examples for a binary classification task, focusing on model complexity (measured by the number of parameters) and the size of the training data set. Our results show that the $\\mathbb{Z}_2\\times \\mathbb{Z}_2$ EQNN and the QNN provide superior performance for smaller parameter sets and modest training data samples.",
+    "path": "papers/23/11/2311.18744.json",
+    "total_tokens": 814,
+    "translated_title": "《$\\mathbb{Z}_2\\times \\mathbb{Z}_2$》等变量量子神经网络：与经典神经网络的基准比较",
+    "translated_abstract": "本文对等变量量子神经网络（EQNN）和量子神经网络（QNN）与它们的经典对应物：等变量神经网络（ENN）和深度神经网络（DNN）的性能进行了全面比较分析。我们通过两个二元分类任务的玩具示例评估每个网络的性能，关注模型复杂度（由参数数量测量）和训练数据集的大小。我们的结果显示，《$\\mathbb{Z}_2\\times \\mathbb{Z}_2$》EQNN和QNN在较小的参数集和适中的训练数据样本上提供了更优秀的性能。",
+    "tldr": "本文对等变量量子神经网络（EQNN）和量子神经网络（QNN）与经典神经网络的性能进行了全面比较分析，结果表明《$\\mathbb{Z}_2\\times \\mathbb{Z}_2$》EQNN和QNN在较小的参数集和适中的训练数据样本上表现优越。"
+}
