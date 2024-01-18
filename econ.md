@@ -2,27 +2,43 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry.](http://arxiv.org/abs/2401.09174) | 本文研究了竞争和主导地位对航空公司保持准时表现的影响，并发现机场拥堵内部化和航线质量竞争是重要因素。此外，廉价航空公司的进入还会对未进入的航线产生非价格溢出效应。 |
-| [^2] | [AI Thrust: Ranking Emerging Powers for Tech Startup Investment in Latin America.](http://arxiv.org/abs/2401.09056) | 本文提出了一种基于基础设施、教育和金融方面的评估方法，对拉丁美洲国家的AI发展潜力进行排名。排名结果显示，阿根廷、哥伦比亚和乌拉圭等国具备成为拉丁美洲AI新兴大国的潜力。 |
-| [^3] | [Strategic formation of production networks.](http://arxiv.org/abs/2401.08929) | 我们提供了一个战略模型来解释产业网络的形成，该模型考虑了企业在生产网络中的中心度，并研究了多个纳什均衡的特性、社会效率以及网络结构对社会福利的影响。 |
-| [^4] | [Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk due to Local Development.](http://arxiv.org/abs/2401.08645) | 自动化设计评估（ADA）方法用于预测建筑设计概念的市场价格，在综合影响评估中测量城市发展的直接和局部效应，揭示设施与财产价值之间的关系，并作为建筑设计优化程序的蓝图。 |
-| [^5] | [Non-Banking Sector development effect on Economic Growth. A Nighttime light data approach.](http://arxiv.org/abs/2401.08596) | 本文利用夜间灯光数据来衡量南非保险业与经济增长之间的关系，并发现保险业对南非经济发展具有更强的预测能力。 |
-| [^6] | [How do we measure trade elasticity for services?.](http://arxiv.org/abs/2401.08594) | 本研究通过汇率变动来识别服务贸易的弹性，解决了因内生性问题而无法找到工具变量的困境。通过应用于多种不同的有形商品，评估了该方法的性能。 |
-| [^7] | [Incremento del precio de los combustibles y su incidencia en los productos de la canasta basica del canton el triunfo, provincia del guayas.](http://arxiv.org/abs/2401.08590) | 本研究分析了燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响，通过调查家庭购买力变化和简单线性回归分析发现了相关性。 |
-| [^8] | [Matching of Users and Creators in Two-Sided Markets with Departures.](http://arxiv.org/abs/2401.00313) | 本论文提出了一个双边市场中匹配用户和创作者的模型，并展示了一个以用户为中心的贪心算法可能导致整体参与度下降的问题。 |
-| [^9] | [Nudging Nutrition: Lessons from the Danish "Fat Tax".](http://arxiv.org/abs/2312.11481) | 丹麦的“脂肪税”对不同产品类别的消费和支出行为有不同程度的影响，特别是对低收入家庭而言。在税收实施期间，培根、肝肠、莎莉米和奶酪的消费有显著下降，而黄油、奶油、人造黄油和酸奶的支出则有增加。税收废除后，对这些税收目标的消费和支出行为没有持续影响。 |
-| [^10] | [Tractable Aggregation in Endogenous Network Formation Models.](http://arxiv.org/abs/2310.10764) | 本文提出了一种新的条件，可以用生成函数来表征内生网络形成过程的稳态分布。这个条件与网络之间的转化函数有关，当这个转化与网络之间的转化独立时，证明了该过程是可逆的，因此可以构造出一个生成函数。利用这个稳态分布，研究了同质动力学和国际贸易模型的长期特性。 |
-| [^11] | [Linear Regression with Weak Exogeneity.](http://arxiv.org/abs/2308.08958) | 本文研究具有多个解释变量的线性时间序列回归中的弱外生性。我们发现，弱外生性可能导致显著偏差，并使OLS估计不一致。为了解决这个问题，我们提出了一种新的偏差校正方法，得到了具有改进性质的新估计量。 |
-| [^12] | [The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings.](http://arxiv.org/abs/2307.15702) | 强大的最大环算法提出了一种集成偏好排序的新方法，通过删除投票图中的最大环路，得出与投票结果一致的唯一排序结果。 |
-| [^13] | [Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment.](http://arxiv.org/abs/2307.13686) | 本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。 |
-| [^14] | [Testing Firm Conduct.](http://arxiv.org/abs/2301.06720) | 该论文通过模型选择和评估测试了公司的行为，提出了Rivers和Vuong（2002）（RV）模型在错误规范下的优势，并通过弱仪器性质和弱仪器诊断提供了对退化和仪器强度的理解。 |
-| [^15] | [Revisiting Event Study Designs: Robust and Efficient Estimation.](http://arxiv.org/abs/2108.12419) | 本研究对事件研究设计提出了稳健且高效的估计方法，该方法适用于时间变化的控制变量、三重差异设计和某些非二进制治疗。在应用研究中，研究美国税务回扣对消费反应时，发现名义消费倾向边际约为文献中估计值的一半。 |
-| [^16] | [Three Remarks On Asset Pricing.](http://arxiv.org/abs/2105.13903) | 该论文研究了基于消费的资产定价模型，在该模型中推导出了新的修改基本定价方程，利用泰勒级数展开逐次逼近投资者效用，并给出了线性和二次逼近的新表达式。此外，论文还讨论了价格概率的市场起源，并引入了基于市场的平均价格和价格波动率。研究发现使用加权平均价格导致价格和交易量之间的相关性为零，同时还发现了价格与交易量的平方以及价格的平方与交易量的平方之间存在相关性。最后，论文指出预测基于市场的价格波动率需要对市场交易值和交易量的二维统计矩进行预测。 |
-| [^17] | [A $t$-test for synthetic controls.](http://arxiv.org/abs/1812.10820) | 我们提出了一个用于合成控制的$t$检验方法，它易于实施，具有鲁棒性，并且适用于规范错误的情况和平稳与非平稳数据。在模拟实验中表现出良好的小样本性能，并相对于其他方法而言效果良好。我们通过研究碳税对排放的影响展示了该方法的实用性。 |
+| [^1] | [Equity Premium in Efficient Markets.](http://arxiv.org/abs/2401.09265) | 本研究在高效市场中探讨了股本溢价的问题，发现在这种市场中，有信息的投资者采取风险中性和风险厌恶投资策略，通过最大化回报和波动率之间的关系来解决股本溢价难题。 |
+| [^2] | [Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry.](http://arxiv.org/abs/2401.09174) | 本文研究了竞争和主导地位对航空公司保持准时表现的影响，并发现机场拥堵内部化和航线质量竞争是重要因素。此外，廉价航空公司的进入还会对未进入的航线产生非价格溢出效应。 |
+| [^3] | [AI Thrust: Ranking Emerging Powers for Tech Startup Investment in Latin America.](http://arxiv.org/abs/2401.09056) | 本文提出了一种基于基础设施、教育和金融方面的评估方法，对拉丁美洲国家的AI发展潜力进行排名。排名结果显示，阿根廷、哥伦比亚和乌拉圭等国具备成为拉丁美洲AI新兴大国的潜力。 |
+| [^4] | [On continuity of state-dependent utilities.](http://arxiv.org/abs/2401.09054) | 本文证明了对于一般的Savage状态空间，状态相关偏好满足点点连续性，从而积极回答了一个重要猜想，并进一步得到了条件Chisini均值的显式表示形式。 |
+| [^5] | [Strategic formation of production networks.](http://arxiv.org/abs/2401.08929) | 我们提供了一个战略模型来解释产业网络的形成，该模型考虑了企业在生产网络中的中心度，并研究了多个纳什均衡的特性、社会效率以及网络结构对社会福利的影响。 |
+| [^6] | [Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk due to Local Development.](http://arxiv.org/abs/2401.08645) | 自动化设计评估（ADA）方法用于预测建筑设计概念的市场价格，在综合影响评估中测量城市发展的直接和局部效应，揭示设施与财产价值之间的关系，并作为建筑设计优化程序的蓝图。 |
+| [^7] | [Non-Banking Sector development effect on Economic Growth. A Nighttime light data approach.](http://arxiv.org/abs/2401.08596) | 本文利用夜间灯光数据来衡量南非保险业与经济增长之间的关系，并发现保险业对南非经济发展具有更强的预测能力。 |
+| [^8] | [How do we measure trade elasticity for services?.](http://arxiv.org/abs/2401.08594) | 本研究通过汇率变动来识别服务贸易的弹性，解决了因内生性问题而无法找到工具变量的困境。通过应用于多种不同的有形商品，评估了该方法的性能。 |
+| [^9] | [Incremento del precio de los combustibles y su incidencia en los productos de la canasta basica del canton el triunfo, provincia del guayas.](http://arxiv.org/abs/2401.08590) | 本研究分析了燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响，通过调查家庭购买力变化和简单线性回归分析发现了相关性。 |
+| [^10] | [Matching of Users and Creators in Two-Sided Markets with Departures.](http://arxiv.org/abs/2401.00313) | 本论文提出了一个双边市场中匹配用户和创作者的模型，并展示了一个以用户为中心的贪心算法可能导致整体参与度下降的问题。 |
+| [^11] | [Nudging Nutrition: Lessons from the Danish "Fat Tax".](http://arxiv.org/abs/2312.11481) | 丹麦的“脂肪税”对不同产品类别的消费和支出行为有不同程度的影响，特别是对低收入家庭而言。在税收实施期间，培根、肝肠、莎莉米和奶酪的消费有显著下降，而黄油、奶油、人造黄油和酸奶的支出则有增加。税收废除后，对这些税收目标的消费和支出行为没有持续影响。 |
+| [^12] | [Tractable Aggregation in Endogenous Network Formation Models.](http://arxiv.org/abs/2310.10764) | 本文提出了一种新的条件，可以用生成函数来表征内生网络形成过程的稳态分布。这个条件与网络之间的转化函数有关，当这个转化与网络之间的转化独立时，证明了该过程是可逆的，因此可以构造出一个生成函数。利用这个稳态分布，研究了同质动力学和国际贸易模型的长期特性。 |
+| [^13] | [Linear Regression with Weak Exogeneity.](http://arxiv.org/abs/2308.08958) | 本文研究具有多个解释变量的线性时间序列回归中的弱外生性。我们发现，弱外生性可能导致显著偏差，并使OLS估计不一致。为了解决这个问题，我们提出了一种新的偏差校正方法，得到了具有改进性质的新估计量。 |
+| [^14] | [The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings.](http://arxiv.org/abs/2307.15702) | 强大的最大环算法提出了一种集成偏好排序的新方法，通过删除投票图中的最大环路，得出与投票结果一致的唯一排序结果。 |
+| [^15] | [Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment.](http://arxiv.org/abs/2307.13686) | 本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。 |
+| [^16] | [Testing Firm Conduct.](http://arxiv.org/abs/2301.06720) | 该论文通过模型选择和评估测试了公司的行为，提出了Rivers和Vuong（2002）（RV）模型在错误规范下的优势，并通过弱仪器性质和弱仪器诊断提供了对退化和仪器强度的理解。 |
+| [^17] | [Revisiting Event Study Designs: Robust and Efficient Estimation.](http://arxiv.org/abs/2108.12419) | 本研究对事件研究设计提出了稳健且高效的估计方法，该方法适用于时间变化的控制变量、三重差异设计和某些非二进制治疗。在应用研究中，研究美国税务回扣对消费反应时，发现名义消费倾向边际约为文献中估计值的一半。 |
+| [^18] | [Three Remarks On Asset Pricing.](http://arxiv.org/abs/2105.13903) | 该论文研究了基于消费的资产定价模型，在该模型中推导出了新的修改基本定价方程，利用泰勒级数展开逐次逼近投资者效用，并给出了线性和二次逼近的新表达式。此外，论文还讨论了价格概率的市场起源，并引入了基于市场的平均价格和价格波动率。研究发现使用加权平均价格导致价格和交易量之间的相关性为零，同时还发现了价格与交易量的平方以及价格的平方与交易量的平方之间存在相关性。最后，论文指出预测基于市场的价格波动率需要对市场交易值和交易量的二维统计矩进行预测。 |
+| [^19] | [A $t$-test for synthetic controls.](http://arxiv.org/abs/1812.10820) | 我们提出了一个用于合成控制的$t$检验方法，它易于实施，具有鲁棒性，并且适用于规范错误的情况和平稳与非平稳数据。在模拟实验中表现出良好的小样本性能，并相对于其他方法而言效果良好。我们通过研究碳税对排放的影响展示了该方法的实用性。 |
 
 # 详细
 
-[^1]: 航空公司延误，拥堵内部化和廉价航空公司进入的非价格溢出效应
+[^1]: 高效市场中的股本溢价
+
+    Equity Premium in Efficient Markets. (arXiv:2401.09265v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.09265](http://arxiv.org/abs/2401.09265)
+
+    本研究在高效市场中探讨了股本溢价的问题，发现在这种市场中，有信息的投资者采取风险中性和风险厌恶投资策略，通过最大化回报和波动率之间的关系来解决股本溢价难题。
+
+    
+
+    股本溢价是指股票相对于债券的超额回报，一直以来都是一个难题。在众多研究中，过去的工作通常假设货币的效用在各个情境下保持不变，而我们的方法则表明，在高效市场中，货币的效用是多态的，风险厌恶取决于每个情境中可获得的信息，即每个未来现金流的贴现取决于该现金流上的所有可用信息。具体而言，我们证明在高效市场中，通过对无风险债券和股票进行风险中性和风险厌恶投资，有信息的投资者通过最大化波动率回报来解决了这个难题。我们还通过历史数据对我们的结果进行了验证，并取得了令人惊讶的一致性。
+
+    Equity premium, the surplus returns of stocks over bonds, has been an enduring puzzle. While numerous prior works approach the problem assuming the utility of money is invariant across contexts, our approach implies that in efficient markets the utility of money is polymorphic, with risk aversion dependent on the information available in each context, i.e. the discount on each future cash flow depends on all information available on that cash flow. Specifically, we prove that in efficient markets, informed investors maximize return on volatility by being risk-neutral with riskless bonds, and risk-averse with equities, thereby resolving the puzzle. We validate our results on historical data with surprising consistency.  JEL Classification: C58, G00, G12, G17
+    
+[^2]: 航空公司延误，拥堵内部化和廉价航空公司进入的非价格溢出效应
 
     Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry. (arXiv:2401.09174v1 [econ.GN])
 
@@ -36,7 +52,7 @@
 
     This paper develops an econometric model of flight delays to investigate the influence of competition and dominance on the incentives of carriers to maintain on-time performance. We consider both the route and the airport levels to inspect the local and global effects of competition, with a unifying framework to test the hypotheses of 1. airport congestion internalization and 2. the market competition-quality relationship in a single econometric model. In particular, we examine the impacts of the entry of low cost carriers (LCC) on the flight delays of incumbent full service carriers in the Brazilian airline industry. The main results indicate a highly significant effect of airport congestion self-internalization in parallel with route-level quality competition. Additionally, the potential competition caused by LCC presence provokes a global effect that suggests the existence of non-price spillovers of the LCC entry to non-entered routes.
     
-[^2]: AI推动：拉丁美洲科技初创投资新兴大国排名
+[^3]: AI推动：拉丁美洲科技初创投资新兴大国排名
 
     AI Thrust: Ranking Emerging Powers for Tech Startup Investment in Latin America. (arXiv:2401.09056v1 [econ.GN])
 
@@ -50,7 +66,21 @@
 
     Artificial intelligence (AI) is rapidly transforming the global economy, and Latin America is no exception. In recent years, there has been a growing interest in AI development and implementation in the region. This paper presents a ranking of Latin American (LATAM) countries based on their potential to become emerging powers in AI. The ranking is based on three pillars: infrastructure, education, and finance. Infrastructure is measured by the availability of electricity, high-speed internet, the quality of telecommunications networks, and the availability of supercomputers. Education is measured by the quality of education and the research status. Finance is measured by the cost of investments, history of investments, economic metrics, and current implementation of AI.  While Brazil, Chile, and Mexico have established themselves as major players in the AI industry in Latin America, our ranking demonstrates the new emerging powers in the region. According to the results, Argentina, Col
     
-[^3]: 产业网络的战略形成
+[^4]: 关于状态相关效用的连续性
+
+    On continuity of state-dependent utilities. (arXiv:2401.09054v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2401.09054](http://arxiv.org/abs/2401.09054)
+
+    本文证明了对于一般的Savage状态空间，状态相关偏好满足点点连续性，从而积极回答了一个重要猜想，并进一步得到了条件Chisini均值的显式表示形式。
+
+    
+
+    在Wakker和Zank（1999）的论文中证明，对于一般的Savage状态空间，只要假设偏好排序是点点连续的，就可以通过状态相关效用的积分形式来表示状态相关偏好。在本文中，我们证明了这种状态相关函数从偏好排序中继承了点点连续性，从而积极回答了前述重要工作中的一个猜想。我们进一步应用这个结果，以获得条件Chisini均值的显式表示，这个表示形式是一个条件等值。
+
+    State-dependent preferences for a general Savage's state space were shown in Wakker and Zank (1999) to admit a numerical representation in the form of the integral of a state-dependent utility, as soon as pointwise continuity of the preference ordering is assumed. In this paper we prove that such a state-dependent function inherits pointwise continuity from the preference ordering, providing in this way a positive answer to a conjecture posed in the aforementioned seminal work. We further apply this result to obtain an explicit representation of conditional Chisini means in the form of a conditional certainty equivalent.
+    
+[^5]: 产业网络的战略形成
 
     Strategic formation of production networks. (arXiv:2401.08929v1 [econ.TH])
 
@@ -64,7 +94,7 @@
 
     We provide a strategic model of the formation of production networks that subsumes the standard general equilibrium approach. The objective of firms in our setting is to choose their supply relationships so as to maximize their profit at the general equilibrium that unfolds. We show that this objective is equivalent to the maximization by the firms of their eigenvector centrality in the production network. As is common in network formation games based on centrality, there are multiple Nash equilibria in our setting. We have investigated the characteristics and the social efficiency of these equilibria in a stylized version of our model representing international trade networks. We show that the impact of network structure on social welfare is firstly determined by a trade-off between costs of increasing process complexity and positive spillovers on productivity induced by the diversification of the input mix. We further analyze a variant of our model that accounts for the risks of disr
     
-[^4]: 自动化设计评估：预测由于当地开发导致的房地产价格增长和价值风险
+[^6]: 自动化设计评估：预测由于当地开发导致的房地产价格增长和价值风险
 
     Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk due to Local Development. (arXiv:2401.08645v1 [econ.GN])
 
@@ -78,7 +108,7 @@
 
     Financial criteria in architectural design evaluation are limited to cost performance. Here, I introduce a method, Automated Design Appraisal (ADA), to predict the market price of a generated building design concept within a local urban context. Integrating ADA with 3D building performance simulations enables financial impact assessment that exceeds the spatial resolution of previous work. Within an integrated impact assessment, ADA measures the direct and localized effect of urban development. To demonstrate its practical utility, I study local devaluation risk due to nearby development associated with changes to visual landscape quality. The results shed light on the relationship between amenities and property value, identifying clusters of properties physically exposed or financially sensitive to local land-use change. Beyond its application as a financial sensitivity tool, ADA serves as a blueprint for architectural design optimization procedures, in which economic performance is e
     
-[^5]: 非银行业发展对经济增长的影响：一种夜间灯光数据方法
+[^7]: 非银行业发展对经济增长的影响：一种夜间灯光数据方法
 
     Non-Banking Sector development effect on Economic Growth. A Nighttime light data approach. (arXiv:2401.08596v1 [econ.GN])
 
@@ -92,7 +122,7 @@
 
     This paper uses nighttime light(NTL) data to measure the nexus of the non-banking sector, particularly insurance, and economic growth in South Africa. We hypothesize that insurance sector growth positively propels economic growth due to its economic growth-supportive traits like investment protection and optimal risk mitigation. We also claim that Nighttime light data is a good economic measure than Gross domestic product (GDP). We used weighted regressions to measure the relationships between nighttime light data, GDP, and insurance sector development. We used time series South African GDP data collected from the World Bank for the period running from 2000 to 2018, and the nighttime lights data from the National Geophysical Data Centre (NGDC) in partnership with the National Oceanic and Atmospheric Administration (NOAA). From the models fitted and the reported BIC, AIC, and likelihood ratios, the insurance sector proved to have more predictive power on economic development in South Af
     
-[^6]: 如何测量服务贸易弹性？
+[^8]: 如何测量服务贸易弹性？
 
     How do we measure trade elasticity for services?. (arXiv:2401.08594v1 [econ.GN])
 
@@ -106,7 +136,7 @@
 
     This paper is about our attempt of identifying trade elasticities through the variations in the exchange rate, for possible applications to the case of services whose physical transactions are veiled in the trade statistics. The regression analysis to estimate the elasticity entails a situation where the explanatory variable is leaked into the error term through the latent supply equation, causing an endogeneity problem for which an instrumental variable cannot be found. Our identification strategy is to utilize the normalizing condition, which enables the supply parameter to be identified, along with the reduced-form equation of the system of demand and supply equations. We evaluate the performances of the method proposed by applying to several different tangible goods, whose benchmark trade elasticities are estimable by utilizing the information on their physical transactions.
     
-[^7]: 燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响研究
+[^9]: 燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响研究
 
     Incremento del precio de los combustibles y su incidencia en los productos de la canasta basica del canton el triunfo, provincia del guayas. (arXiv:2401.08590v1 [econ.GN])
 
@@ -120,7 +150,7 @@
 
     The objective of this research was to analyze the impact of the increase in the price of fuels and its incidence on the products of the basic basket of the El Triunfo, the province of Guayas. In the present study, the non-experimental quantitative method was used. The study population was limited to the families of the town, seeking to determine how their level of consumption was impacted after the increase in fuels. Just 95 people were randomly taken. The study instrument that was used was surveys, with a focus on the purchasing power of families with respect to the basic basket after the increase in fuel prices. The results were processed through Cronbach's Alpha and reflected in pie charts. The independent and dependent variable that make up our study, were related through a simple linear regression, to determine if they correlate with each other.  Keywords: Fuels, Basic basket, Linear regression, Subsidies, Inflation
     
-[^8]: 在双边市场中匹配用户和创作者的研究
+[^10]: 在双边市场中匹配用户和创作者的研究
 
     Matching of Users and Creators in Two-Sided Markets with Departures. (arXiv:2401.00313v2 [cs.GT] UPDATED)
 
@@ -134,7 +164,7 @@
 
     Many online platforms of today, including social media sites, are two-sided markets bridging content creators and users. Most of the existing literature on platform recommendation algorithms largely focuses on user preferences and decisions, and does not simultaneously address creator incentives. We propose a model of content recommendation that explicitly focuses on the dynamics of user-content matching, with the novel property that both users and creators may leave the platform permanently if they do not experience sufficient engagement. In our model, each player decides to participate at each time step based on utilities derived from the current match: users based on alignment of the recommended content with their preferences, and creators based on their audience size. We show that a user-centric greedy algorithm that does not consider creator departures can result in arbitrarily poor total engagement, relative to an algorithm that maximizes total engagement while accounting for two
     
-[^9]: 激励营养：来自丹麦“脂肪税”的教训
+[^11]: 激励营养：来自丹麦“脂肪税”的教训
 
     Nudging Nutrition: Lessons from the Danish "Fat Tax". (arXiv:2312.11481v2 [econ.GN] UPDATED)
 
@@ -148,7 +178,7 @@
 
     In October 2011, Denmark introduced the world's first and, to date, only tax targeting saturated fat. However, this tax was subsequently abolished in January 2013. Leveraging exogenous variation from untaxed Northern-German consumers, we employ a difference-in-differences approach to estimate the causal effects of both the implementation and repeal of the tax on consumption and expenditure behavior across eight product categories targeted by the tax. Our findings reveal significant heterogeneity in the tax's impact across these products. During the taxed period, there was a notable decline in consumption of bacon, liver sausage, salami, and cheese, particularly among low-income households. In contrast, expenditure on butter, cream, margarine, and sour cream increased as prices rose. Interestingly, we do not observe any difference in expenditure increases between high and low-income households, suggesting that the latter were disproportionately affected by the tax. After the repeal of t
     
-[^10]: 可处理的内生网络形成模型中的聚合方式
+[^12]: 可处理的内生网络形成模型中的聚合方式
 
     Tractable Aggregation in Endogenous Network Formation Models. (arXiv:2310.10764v1 [econ.TH])
 
@@ -162,7 +192,7 @@
 
     This paper presents new conditions under which the stationary distribution of a stochastic network formation process can be characterized in terms of a generating function. These conditions are given in terms of a transforming function between networks: if the total transformation between two networks is independent of how these networks transform into each other (by adding or deleting links), then the process is reversible and a generating function can be constructed. When the network formation process is given by discrete choices of link formation, this procedure is equivalent to proving that the game with the associated utilities is a potential game. This implies that the potential game characterization is related to reversibility and tractability of network formation processes. I then use the characterized stationary distribution to study long-run properties of simple models of homophilic dynamics and international trade. The effects of adding forward-looking agents and switching c
     
-[^11]: 具有弱外生性的线性回归
+[^13]: 具有弱外生性的线性回归
 
     Linear Regression with Weak Exogeneity. (arXiv:2308.08958v1 [econ.EM])
 
@@ -176,7 +206,7 @@
 
     This paper studies linear time series regressions with many regressors. Weak exogeneity is the most used identifying assumption in time series. Weak exogeneity requires the structural error to have zero conditional expectation given the present and past regressor values, allowing errors to correlate with future regressor realizations. We show that weak exogeneity in time series regressions with many controls may produce substantial biases and even render the least squares (OLS) estimator inconsistent. The bias arises in settings with many regressors because the normalized OLS design matrix remains asymptotically random and correlates with the regression error when only weak (but not strict) exogeneity holds. This bias's magnitude increases with the number of regressors and their average autocorrelation. To address this issue, we propose an innovative approach to bias correction that yields a new estimator with improved properties relative to OLS. We establish consistency and conditiona
     
-[^12]: 强大的最大环算法：一种集成偏好排序的新方法
+[^14]: 强大的最大环算法：一种集成偏好排序的新方法
 
     The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings. (arXiv:2307.15702v1 [cs.SI])
 
@@ -190,7 +220,7 @@
 
     We present a new optimization-based method for aggregating preferences in settings where each decision maker, or voter, expresses preferences over pairs of alternatives. The challenge is to come up with a ranking that agrees as much as possible with the votes cast in cases when some of the votes conflict. Only a collection of votes that contains no cycles is non-conflicting and can induce a partial order over alternatives. Our approach is motivated by the observation that a collection of votes that form a cycle can be treated as ties. The method is then to remove unions of cycles of votes, or circulations, from the vote graph and determine aggregate preferences from the remainder.  We introduce the strong maximum circulation which is formed by a union of cycles, the removal of which guarantees a unique outcome in terms of the induced partial order. Furthermore, it contains all the aggregate preferences remaining following the elimination of any maximum circulation. In contrast, the wel
     
-[^13]: 美国就业短期受飓风影响的特征和预测建模
+[^15]: 美国就业短期受飓风影响的特征和预测建模
 
     Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment. (arXiv:2307.13686v1 [econ.EM])
 
@@ -204,7 +234,7 @@
 
     This study examines the short-term employment changes in the US after hurricane impacts. An analysis of hurricane events during 1990-2021 suggests that county-level employment changes in the initial month are small on average, though large employment losses (>30%) can occur after extreme storms. The overall small changes are partly a result of compensation among different employment sectors, such as the construction and leisure and hospitality sectors. Employment losses tend to be relatively pronounced in the service-providing industries. The post-storm employment shock is negatively correlated with the metrics of storm hazards (e.g., extreme wind and precipitation) and geospatial details of impacts (e.g., storm-entity distance). Additionally, non-storm factors such as county characteristics also strongly affect short-term employment changes. The findings inform predictive modeling of short-term employment changes, which shows promising skills for service-providing industries and high-
     
-[^14]: 测试公司行为
+[^16]: 测试公司行为
 
     Testing Firm Conduct. (arXiv:2301.06720v2 [econ.EM] UPDATED)
 
@@ -218,7 +248,7 @@
 
     Evaluating policy in imperfectly competitive markets requires understanding firm behavior. While researchers test conduct via model selection and assessment, we present advantages of Rivers and Vuong (2002) (RV) model selection under misspecification. However, degeneracy of RV invalidates inference. With a novel definition of weak instruments for testing, we connect degeneracy to instrument strength, derive weak instrument properties of RV, and provide a diagnostic for weak instruments by extending the framework of Stock and Yogo (2005) to model selection. We test vertical conduct (Villas-Boas, 2007) using common instrument sets. Some are weak, providing no power. Strong instruments support manufacturers setting retail prices.
     
-[^15]: 重新审视事件研究设计：稳健且高效的估计方法
+[^17]: 重新审视事件研究设计：稳健且高效的估计方法
 
     Revisiting Event Study Designs: Robust and Efficient Estimation. (arXiv:2108.12419v3 [econ.EM] UPDATED)
 
@@ -232,7 +262,7 @@
 
     We develop a framework for difference-in-differences designs with staggered treatment adoption and heterogeneous causal effects. We show that conventional regression-based estimators fail to provide unbiased estimates of relevant estimands absent strong restrictions on treatment-effect homogeneity. We then derive the efficient estimator addressing this challenge, which takes an intuitive "imputation" form when treatment-effect heterogeneity is unrestricted. We characterize the asymptotic behavior of the estimator, propose tools for inference, and develop tests for identifying assumptions. Our method applies with time-varying controls, in triple-difference designs, and with certain non-binary treatments. We show the practical relevance of our results in a simulation study and an application. Studying the consumption response to tax rebates in the United States, we find that the notional marginal propensity to consume is between 8 and 11 percent in the first quarter - about half as large
     
-[^16]: 《资产定价的三点备注》
+[^18]: 《资产定价的三点备注》
 
     Three Remarks On Asset Pricing. (arXiv:2105.13903v4 [econ.GN] UPDATED)
 
@@ -246,7 +276,7 @@
 
     We consider the consumption-based asset pricing model, derive a new modified basic pricing equation, and present its successive approximations using the Taylor series expansions of the investor's utility during the averaging time interval. For linear and quadratic Taylor approximations, we derive new expressions for the mean price, mean payoff, volatility, skewness, and the asset's amount that define the maximum of the investor's utility. We discuss the market-based origin of price probability. We use volume weighted average price (VWAP) as a market-based average price and introduce market-based price volatility. The use of VWAP results in zero correlations between the price p and trade volume U. We derive a correlation between price p and squares of trade volume {U^2} and between squares of price {p^2} and volume {U^2}. To predict market-based price volatility, one should forecast the 2-d statistical moments of the market trade values and volumes at the same horizon T.
     
-[^17]: 用于合成控制的$t$检验
+[^19]: 用于合成控制的$t$检验
 
     A $t$-test for synthetic controls. (arXiv:1812.10820v8 [econ.EM] UPDATED)
 
