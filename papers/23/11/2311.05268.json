@@ -1,0 +1,12 @@
+{
+    "title": "Modelling prospective memory and resilient situated communications via Wizard of Oz. (arXiv:2311.05268v2 [cs.CL] UPDATED)",
+    "abstract": "This abstract presents a scenario for human-robot action in a home setting involving an older adult and a robot. The scenario is designed to explore the envisioned modelling of memory for communication with a socially assistive robots (SAR). The scenario will enable the gathering of data on failures of speech technology and human-robot communication involving shared memory that may occur during daily activities such as a music-listening activity.",
+    "link": "http://arxiv.org/abs/2311.05268",
+    "context": "Title: Modelling prospective memory and resilient situated communications via Wizard of Oz. (arXiv:2311.05268v2 [cs.CL] UPDATED)\nAbstract: This abstract presents a scenario for human-robot action in a home setting involving an older adult and a robot. The scenario is designed to explore the envisioned modelling of memory for communication with a socially assistive robots (SAR). The scenario will enable the gathering of data on failures of speech technology and human-robot communication involving shared memory that may occur during daily activities such as a music-listening activity.",
+    "path": "papers/23/11/2311.05268.json",
+    "total_tokens": 642,
+    "translated_title": "通过奥兹魔术师模拟未来记忆和具有韧性的定位通信",
+    "translated_abstract": "这篇摘要提出了一个在家庭环境中涉及老年人和机器人的人机行动情景。该情景旨在探索对于与社交辅助机器人（SAR）进行沟通的记忆建模。该情景将能够收集关于语音技术故障和人机沟通中涉及共享记忆的数据，这些故障可能发生在诸如音乐欣赏活动等日常活动中。",
+    "tldr": "通过奥兹魔术师模拟未来记忆和具有韧性的定位通信，在家庭环境中探索与社交辅助机器人的沟通记忆建模。",
+    "en_tdlr": "This paper proposes a scenario for human-robot action in a home setting to explore memory modeling for communication with socially assistive robots. By simulating prospective memory and resilient situated communications via Wizard of Oz, it aims to gather data on failures of speech technology and human-robot communication involving shared memory in daily activities."
+}

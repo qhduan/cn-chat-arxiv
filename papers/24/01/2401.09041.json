@@ -1,0 +1,12 @@
+{
+    "title": "Textual Summarisation of Large Sets: Towards a General Approach. (arXiv:2401.09041v1 [cs.CL])",
+    "abstract": "We are developing techniques to generate summary descriptions of sets of objects. In this paper, we present and evaluate a rule-based NLG technique for summarising sets of bibliographical references in academic papers. This extends our previous work on summarising sets of consumer products and shows how our model generalises across these two very different domains.",
+    "link": "http://arxiv.org/abs/2401.09041",
+    "context": "Title: Textual Summarisation of Large Sets: Towards a General Approach. (arXiv:2401.09041v1 [cs.CL])\nAbstract: We are developing techniques to generate summary descriptions of sets of objects. In this paper, we present and evaluate a rule-based NLG technique for summarising sets of bibliographical references in academic papers. This extends our previous work on summarising sets of consumer products and shows how our model generalises across these two very different domains.",
+    "path": "papers/24/01/2401.09041.json",
+    "total_tokens": 594,
+    "translated_title": "大数据集的文本摘要：朝着一个通用方法的探索",
+    "translated_abstract": "我们正在开发一种生成对象集合摘要描述的技术。在本文中，我们提出并评估了一种基于规则的自然语言生成技术，用于总结学术论文中的参考文献集合。这扩展了我们之前关于总结消费品集合的工作，并展示了我们的模型如何在这两个非常不同的领域中进行泛化。",
+    "tldr": "本文介绍了一种基于规则的自然语言生成技术，用于总结学术论文中的参考文献集合，扩展了之前关于总结消费品集合的工作，并展示了模型在不同领域中的泛化能力。",
+    "en_tdlr": "This paper introduces a rule-based natural language generation technique for summarizing sets of bibliographical references in academic papers, extending previous work on summarizing sets of consumer products and demonstrating the model's generalization across different domains."
+}

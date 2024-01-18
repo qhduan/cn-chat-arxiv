@@ -1,0 +1,12 @@
+{
+    "title": "Automated Answer Validation using Text Similarity. (arXiv:2401.08688v1 [cs.CL])",
+    "abstract": "Automated answer validation can help improve learning outcomes by providing appropriate feedback to learners, and by making question answering systems and online learning solutions more widely available. There have been some works in science question answering which show that information retrieval methods outperform neural methods, especially in the multiple choice version of this problem. We implement Siamese neural network models and produce a generalised solution to this problem. We compare our supervised model with other text similarity based solutions.",
+    "link": "http://arxiv.org/abs/2401.08688",
+    "context": "Title: Automated Answer Validation using Text Similarity. (arXiv:2401.08688v1 [cs.CL])\nAbstract: Automated answer validation can help improve learning outcomes by providing appropriate feedback to learners, and by making question answering systems and online learning solutions more widely available. There have been some works in science question answering which show that information retrieval methods outperform neural methods, especially in the multiple choice version of this problem. We implement Siamese neural network models and produce a generalised solution to this problem. We compare our supervised model with other text similarity based solutions.",
+    "path": "papers/24/01/2401.08688.json",
+    "total_tokens": 675,
+    "translated_title": "使用文本相似性进行自动答案验证",
+    "translated_abstract": "自动答案验证可以通过为学习者提供适当的反馈，使问题回答系统和在线学习解决方案更广泛可用来提高学习效果。在科学问题回答方面已经有一些研究表明，信息检索方法在这个问题的多项选择版本中优于神经方法。我们实现了孪生神经网络模型，并提供了一个通用解决方案来解决这个问题。我们将我们的监督模型与其他基于文本相似性的解决方案进行了比较。",
+    "tldr": "该论文研究了使用文本相似性进行自动答案验证的方法，并实现了一个通用解决方案。在科学问题回答中，信息检索方法在多项选择问题中优于神经方法。通过比较我们的监督模型与其他文本相似性解决方案，我们展示了该方法的有效性。",
+    "en_tdlr": "This paper explores the use of text similarity for automated answer validation and presents a general solution. It demonstrates that information retrieval methods outperform neural methods in science question answering with multiple choice. By comparing the supervised model with other text similarity solutions, the effectiveness of this approach is shown."
+}

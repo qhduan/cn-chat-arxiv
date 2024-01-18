@@ -1,0 +1,11 @@
+{
+    "title": "Mean-field underdamped Langevin dynamics and its spacetime discretization. (arXiv:2312.16360v3 [stat.CO] UPDATED)",
+    "abstract": "We propose a new method called the N-particle underdamped Langevin algorithm for optimizing a special class of non-linear functionals defined over the space of probability measures. Examples of problems with this formulation include training mean-field neural networks, maximum mean discrepancy minimization and kernel Stein discrepancy minimization. Our algorithm is based on a novel spacetime discretization of the mean-field underdamped Langevin dynamics, for which we provide a new, fast mixing guarantee. In addition, we demonstrate that our algorithm converges globally in total variation distance, bridging the theoretical gap between the dynamics and its practical implementation.",
+    "link": "http://arxiv.org/abs/2312.16360",
+    "context": "Title: Mean-field underdamped Langevin dynamics and its spacetime discretization. (arXiv:2312.16360v3 [stat.CO] UPDATED)\nAbstract: We propose a new method called the N-particle underdamped Langevin algorithm for optimizing a special class of non-linear functionals defined over the space of probability measures. Examples of problems with this formulation include training mean-field neural networks, maximum mean discrepancy minimization and kernel Stein discrepancy minimization. Our algorithm is based on a novel spacetime discretization of the mean-field underdamped Langevin dynamics, for which we provide a new, fast mixing guarantee. In addition, we demonstrate that our algorithm converges globally in total variation distance, bridging the theoretical gap between the dynamics and its practical implementation.",
+    "path": "papers/23/12/2312.16360.json",
+    "total_tokens": 840,
+    "translated_title": "均场欠阻尼朗之万动力学及其时空离散化算法",
+    "translated_abstract": "我们提出了一种名为N粒子欠阻尼朗之万算法的新方法，用于优化在概率测度空间上定义的一类非线性泛函。这种公式的问题示例包括训练均场神经网络、最大均值差异最小化和核斯坦差异最小化。我们的算法基于均场欠阻尼朗之万动力学的新颖时空离散化，我们提供了一种新的快速混合保证。此外，我们证明了我们的算法在总变化距离下全局收敛，填补了动力学与实际实施之间的理论差距。",
+    "tldr": "这篇论文提出了一种新的算法，用于优化在概率测度空间上定义的非线性泛函，特别适用于训练均场神经网络、最大均值差异最小化和核斯坦差异最小化问题。算法基于均场欠阻尼朗之万动力学的新颖时空离散化，具有快速混合保证，并且在总变化距离下全局收敛。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Nahid: AI-based Algorithm for operating fully-automatic surgery. (arXiv:2401.08584v1 [cs.CV])",
+    "abstract": "In this paper, for the first time, a method is presented that can provide a fully automated surgery based on software and computer vision techniques. Then, the advantages and challenges of computerization of medical surgery are examined. Finally, the surgery related to isolated ovarian endometriosis disease has been examined, and based on the presented method, a more detailed algorithm is presented that is capable of automatically diagnosing and treating this disease during surgery as proof of our proposed method where a U-net is trained to detect the endometriosis during surgery.",
+    "link": "http://arxiv.org/abs/2401.08584",
+    "context": "Title: Nahid: AI-based Algorithm for operating fully-automatic surgery. (arXiv:2401.08584v1 [cs.CV])\nAbstract: In this paper, for the first time, a method is presented that can provide a fully automated surgery based on software and computer vision techniques. Then, the advantages and challenges of computerization of medical surgery are examined. Finally, the surgery related to isolated ovarian endometriosis disease has been examined, and based on the presented method, a more detailed algorithm is presented that is capable of automatically diagnosing and treating this disease during surgery as proof of our proposed method where a U-net is trained to detect the endometriosis during surgery.",
+    "path": "papers/24/01/2401.08584.json",
+    "total_tokens": 670,
+    "translated_title": "Nahid: 基于人工智能算法的完全自动手术",
+    "translated_abstract": "在本文中，首次提出了一种基于软件和计算机视觉技术的全自动手术方法。然后，对医疗手术的计算机化优势和挑战进行了研究。最后，对孤立性卵巢子宫内膜异位症相关的手术进行了研究，并基于提出的方法，提出了一种更详细的算法，能够在手术过程中自动诊断和治疗该疾病，其中使用了一个U-net模型来检测手术过程中的子宫内膜异位症。",
+    "tldr": "本文提出了一种基于软件和计算机视觉技术的全自动手术方法，能够自动诊断和治疗孤立性卵巢子宫内膜异位症。",
+    "en_tdlr": "This paper presents a fully automated surgery method based on software and computer vision techniques, capable of automatically diagnosing and treating isolated ovarian endometriosis."
+}

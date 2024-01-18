@@ -1,0 +1,11 @@
+{
+    "title": "RIDGE: Reproducibility, Integrity, Dependability, Generalizability, and Efficiency Assessment of Medical Image Segmentation Models. (arXiv:2401.08847v1 [eess.IV])",
+    "abstract": "Deep learning techniques, despite their potential, often suffer from a lack of reproducibility and generalizability, impeding their clinical adoption. Image segmentation is one of the critical tasks in medical image analysis, in which one or several regions/volumes of interest should be annotated. This paper introduces the RIDGE checklist, a framework for assessing the Reproducibility, Integrity, Dependability, Generalizability, and Efficiency of deep learning-based medical image segmentation models. The checklist serves as a guide for researchers to enhance the quality and transparency of their work, ensuring that segmentation models are not only scientifically sound but also clinically relevant.",
+    "link": "http://arxiv.org/abs/2401.08847",
+    "context": "Title: RIDGE: Reproducibility, Integrity, Dependability, Generalizability, and Efficiency Assessment of Medical Image Segmentation Models. (arXiv:2401.08847v1 [eess.IV])\nAbstract: Deep learning techniques, despite their potential, often suffer from a lack of reproducibility and generalizability, impeding their clinical adoption. Image segmentation is one of the critical tasks in medical image analysis, in which one or several regions/volumes of interest should be annotated. This paper introduces the RIDGE checklist, a framework for assessing the Reproducibility, Integrity, Dependability, Generalizability, and Efficiency of deep learning-based medical image segmentation models. The checklist serves as a guide for researchers to enhance the quality and transparency of their work, ensuring that segmentation models are not only scientifically sound but also clinically relevant.",
+    "path": "papers/24/01/2401.08847.json",
+    "total_tokens": 812,
+    "translated_title": "RIDGE: 医学图像分割模型的可重复性、完整性、可靠性、泛化性和效率评估",
+    "translated_abstract": "深度学习技术尽管具有潜力，但往往缺乏可重复性和泛化性，限制了其在临床中的应用。图像分割是医学图像分析中的关键任务之一，需要对一个或多个感兴趣的区域/体积进行注释。本文介绍了RIDGE清单，这是一个用于评估基于深度学习的医学图像分割模型的可重复性、完整性、可靠性、泛化性和效率的框架。该清单为研究人员提供了指导，以提高其工作的质量和透明度，确保分割模型不仅具有科学的可靠性，还具有临床的相关性。",
+    "tldr": "RIDGE是一个用于评估医学图像分割模型的可重复性、完整性、可靠性、泛化性和效率的框架，旨在通过提高工作质量和透明度，确保分割模型在科学可靠性和临床相关性上都具备优势。"
+}

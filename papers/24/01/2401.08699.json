@@ -1,0 +1,11 @@
+{
+    "title": "On Image Search in Histopathology. (arXiv:2401.08699v1 [eess.IV])",
+    "abstract": "Pathology images of histopathology can be acquired from camera-mounted microscopes or whole slide scanners. Utilizing similarity calculations to match patients based on these images holds significant potential in research and clinical contexts. Recent advancements in search technologies allow for nuanced quantification of cellular structures across diverse tissue types, facilitating comparisons and enabling inferences about diagnosis, prognosis, and predictions for new patients when compared against a curated database of diagnosed and treated cases. In this paper, we comprehensively review the latest developments in image search technologies for histopathology, offering a concise overview tailored for computational pathology researchers seeking effective, fast and efficient image search methods in their work.",
+    "link": "http://arxiv.org/abs/2401.08699",
+    "context": "Title: On Image Search in Histopathology. (arXiv:2401.08699v1 [eess.IV])\nAbstract: Pathology images of histopathology can be acquired from camera-mounted microscopes or whole slide scanners. Utilizing similarity calculations to match patients based on these images holds significant potential in research and clinical contexts. Recent advancements in search technologies allow for nuanced quantification of cellular structures across diverse tissue types, facilitating comparisons and enabling inferences about diagnosis, prognosis, and predictions for new patients when compared against a curated database of diagnosed and treated cases. In this paper, we comprehensively review the latest developments in image search technologies for histopathology, offering a concise overview tailored for computational pathology researchers seeking effective, fast and efficient image search methods in their work.",
+    "path": "papers/24/01/2401.08699.json",
+    "total_tokens": 760,
+    "translated_title": "关于组织病理学图像搜索的研究",
+    "translated_abstract": "组织病理学的病理图像可以通过装有摄像头的显微镜或全扫描仪获取。利用相似性计算基于这些图像匹配患者，在研究和临床环境中具有重要潜力。最近搜索技术的进展使得可以对各种组织类型的细胞结构进行微妙的量化，促进比较，并在与诊断和治疗过的病例数据库进行比较时实现关于诊断、预后和新患者预测的推断。本文全面回顾了组织病理学图像搜索技术的最新发展，为计算病理学研究人员提供了简明的概述，以寻求有效、快速和高效的图像搜索方法。",
+    "tldr": "这篇论文综述了组织病理学图像搜索技术的最新发展，为计算病理学研究人员提供了简明的概述，旨在寻求有效、快速和高效的图像搜索方法。"
+}

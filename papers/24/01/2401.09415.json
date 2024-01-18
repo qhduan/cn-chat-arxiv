@@ -1,0 +1,11 @@
+{
+    "title": "Randomized Kaczmarz with geometrically smoothed momentum. (arXiv:2401.09415v1 [math.NA])",
+    "abstract": "This paper studies the effect of adding geometrically smoothed momentum to the randomized Kaczmarz algorithm, which is an instance of stochastic gradient descent on a linear least squares loss function. We prove a result about the expected error in the direction of singular vectors of the matrix defining the least squares loss. We present several numerical examples illustrating the utility of our result and pose several questions.",
+    "link": "http://arxiv.org/abs/2401.09415",
+    "context": "Title: Randomized Kaczmarz with geometrically smoothed momentum. (arXiv:2401.09415v1 [math.NA])\nAbstract: This paper studies the effect of adding geometrically smoothed momentum to the randomized Kaczmarz algorithm, which is an instance of stochastic gradient descent on a linear least squares loss function. We prove a result about the expected error in the direction of singular vectors of the matrix defining the least squares loss. We present several numerical examples illustrating the utility of our result and pose several questions.",
+    "path": "papers/24/01/2401.09415.json",
+    "total_tokens": 631,
+    "translated_title": "具有几何平滑动量的随机Kaczmarz方法",
+    "translated_abstract": "本文研究了向随机Kaczmarz算法中添加几何平滑动量的效果，该算法是线性最小二乘损失函数上随机梯度下降的实例。我们证明了关于定义最小二乘损失的矩阵的奇异向量方向上期望误差的结果。我们给出了几个数值示例来说明我们结果的实用性，并提出了几个问题。",
+    "tldr": "本文研究了向随机Kaczmarz算法中添加几何平滑动量的效果，并证明了关于最小二乘损失矩阵奇异向量方向上的期望误差。数值示例证明了结果的实用性，并提出了几个问题。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Inductive Models for Artificial Intelligence Systems are Insufficient without Good Explanations. (arXiv:2401.09011v1 [cs.LG])",
+    "abstract": "This paper discusses the limitations of machine learning (ML), particularly deep artificial neural networks (ANNs), which are effective at approximating complex functions but often lack transparency and explanatory power. It highlights the `problem of induction' : the philosophical issue that past observations may not necessarily predict future events, a challenge that ML models face when encountering new, unseen data. The paper argues for the importance of not just making predictions but also providing good explanations, a feature that current models often fail to deliver. It suggests that for AI to progress, we must seek models that offer insights and explanations, not just predictions.",
+    "link": "http://arxiv.org/abs/2401.09011",
+    "context": "Title: Inductive Models for Artificial Intelligence Systems are Insufficient without Good Explanations. (arXiv:2401.09011v1 [cs.LG])\nAbstract: This paper discusses the limitations of machine learning (ML), particularly deep artificial neural networks (ANNs), which are effective at approximating complex functions but often lack transparency and explanatory power. It highlights the `problem of induction' : the philosophical issue that past observations may not necessarily predict future events, a challenge that ML models face when encountering new, unseen data. The paper argues for the importance of not just making predictions but also providing good explanations, a feature that current models often fail to deliver. It suggests that for AI to progress, we must seek models that offer insights and explanations, not just predictions.",
+    "path": "papers/24/01/2401.09011.json",
+    "total_tokens": 764,
+    "translated_title": "机器学习模型对人工智能系统的归纳能力不足，缺乏良好的解释能力",
+    "translated_abstract": "本文讨论了机器学习（ML），特别是深度人工神经网络（ANNs）的局限性，它们在逼近复杂函数方面有效，但常常缺乏透明度和解释能力。本文强调了归纳问题：即过去的观察不一定能预测未来事件，这是ML模型在遭遇新的、未见过的数据时面临的挑战。本文主张重要的不仅是做出预测，还要提供良好的解释，而当前模型往往未能做到这一点。它建议为了AI的进步，我们必须寻求能够提供洞察力和解释能力的模型，而不仅仅是预测能力。",
+    "tldr": "本文讨论了机器学习模型的局限性，特别是深度神经网络的透明度和解释能力不足，提出AI系统不仅需要预测能力，还需要提供良好的解释能力和洞察力。",
+    "en_tdlr": "This paper discusses the limitations of machine learning models, particularly the lack of transparency and explanatory power in deep neural networks, and suggests that AI systems need not only predictive capabilities, but also good explanatory and insightful abilities."
+}

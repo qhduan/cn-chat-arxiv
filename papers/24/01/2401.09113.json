@@ -1,0 +1,12 @@
+{
+    "title": "Mean-Field SDEs driven by $G$-Brownian Motion. (arXiv:2401.09113v1 [math.PR])",
+    "abstract": "We extend the notion of mean-field SDEs to SDEs driven by $G$-Brownian motion. More precisely, we consider a $G$-SDE where the coefficients depend not only on time and the current state but also on the solution as random variable.",
+    "link": "http://arxiv.org/abs/2401.09113",
+    "context": "Title: Mean-Field SDEs driven by $G$-Brownian Motion. (arXiv:2401.09113v1 [math.PR])\nAbstract: We extend the notion of mean-field SDEs to SDEs driven by $G$-Brownian motion. More precisely, we consider a $G$-SDE where the coefficients depend not only on time and the current state but also on the solution as random variable.",
+    "path": "papers/24/01/2401.09113.json",
+    "total_tokens": 532,
+    "translated_title": "由$G$-布朗运动驱动的均场随机微分方程",
+    "translated_abstract": "我们将均场随机微分方程的概念推广到由$G$-布朗运动驱动的随机微分方程。具体而言，我们考虑一个$G$-SDE，其中系数不仅依赖于时间和当前状态，还依赖于解作为随机变量。",
+    "tldr": "该论文通过引入$G$-布朗运动驱动，扩展了均场随机微分方程，并且考虑了系数与解之间的依赖关系。",
+    "en_tdlr": "The paper extends the notion of mean-field SDEs to SDEs driven by $G$-Brownian motion and considers the dependence between the coefficients and the solution as a random variable."
+}

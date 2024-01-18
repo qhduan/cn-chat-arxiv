@@ -1,0 +1,12 @@
+{
+    "title": "Equity Premium in Efficient Markets. (arXiv:2401.09265v1 [econ.GN])",
+    "abstract": "Equity premium, the surplus returns of stocks over bonds, has been an enduring puzzle. While numerous prior works approach the problem assuming the utility of money is invariant across contexts, our approach implies that in efficient markets the utility of money is polymorphic, with risk aversion dependent on the information available in each context, i.e. the discount on each future cash flow depends on all information available on that cash flow. Specifically, we prove that in efficient markets, informed investors maximize return on volatility by being risk-neutral with riskless bonds, and risk-averse with equities, thereby resolving the puzzle. We validate our results on historical data with surprising consistency.  JEL Classification: C58, G00, G12, G17",
+    "link": "http://arxiv.org/abs/2401.09265",
+    "context": "Title: Equity Premium in Efficient Markets. (arXiv:2401.09265v1 [econ.GN])\nAbstract: Equity premium, the surplus returns of stocks over bonds, has been an enduring puzzle. While numerous prior works approach the problem assuming the utility of money is invariant across contexts, our approach implies that in efficient markets the utility of money is polymorphic, with risk aversion dependent on the information available in each context, i.e. the discount on each future cash flow depends on all information available on that cash flow. Specifically, we prove that in efficient markets, informed investors maximize return on volatility by being risk-neutral with riskless bonds, and risk-averse with equities, thereby resolving the puzzle. We validate our results on historical data with surprising consistency.  JEL Classification: C58, G00, G12, G17",
+    "path": "papers/24/01/2401.09265.json",
+    "total_tokens": 809,
+    "translated_title": "高效市场中的股本溢价",
+    "translated_abstract": "股本溢价是指股票相对于债券的超额回报，一直以来都是一个难题。在众多研究中，过去的工作通常假设货币的效用在各个情境下保持不变，而我们的方法则表明，在高效市场中，货币的效用是多态的，风险厌恶取决于每个情境中可获得的信息，即每个未来现金流的贴现取决于该现金流上的所有可用信息。具体而言，我们证明在高效市场中，通过对无风险债券和股票进行风险中性和风险厌恶投资，有信息的投资者通过最大化波动率回报来解决了这个难题。我们还通过历史数据对我们的结果进行了验证，并取得了令人惊讶的一致性。",
+    "tldr": "本研究在高效市场中探讨了股本溢价的问题，发现在这种市场中，有信息的投资者采取风险中性和风险厌恶投资策略，通过最大化回报和波动率之间的关系来解决股本溢价难题。",
+    "en_tdlr": "This study investigates the equity premium puzzle in efficient markets and finds that informed investors adopt risk-neutral and risk-averse investment strategies to maximize the relation between returns and volatility, resolving the puzzle."
+}

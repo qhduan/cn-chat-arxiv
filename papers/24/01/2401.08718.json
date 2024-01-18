@@ -1,0 +1,11 @@
+{
+    "title": "Investigating Fouling Efficiency in Football Using Expected Booking (xB) Model. (arXiv:2401.08718v1 [cs.LG])",
+    "abstract": "This paper introduces the Expected Booking (xB) model, a novel metric designed to estimate the likelihood of a foul resulting in a yellow card in football. Through three iterative experiments, employing ensemble methods, the model demonstrates improved performance with additional features and an expanded dataset. Analysis of FIFA World Cup 2022 data validates the model's efficacy in providing insights into team and player fouling tactics, aligning with actual defensive performance. The xB model addresses a gap in fouling efficiency examination, emphasizing defensive strategies which often overlooked. Further enhancements are suggested through the incorporation of comprehensive data and spatial features.",
+    "link": "http://arxiv.org/abs/2401.08718",
+    "context": "Title: Investigating Fouling Efficiency in Football Using Expected Booking (xB) Model. (arXiv:2401.08718v1 [cs.LG])\nAbstract: This paper introduces the Expected Booking (xB) model, a novel metric designed to estimate the likelihood of a foul resulting in a yellow card in football. Through three iterative experiments, employing ensemble methods, the model demonstrates improved performance with additional features and an expanded dataset. Analysis of FIFA World Cup 2022 data validates the model's efficacy in providing insights into team and player fouling tactics, aligning with actual defensive performance. The xB model addresses a gap in fouling efficiency examination, emphasizing defensive strategies which often overlooked. Further enhancements are suggested through the incorporation of comprehensive data and spatial features.",
+    "path": "papers/24/01/2401.08718.json",
+    "total_tokens": 766,
+    "translated_title": "使用期望罚牌 (xB) 模型研究足球犯规效率",
+    "translated_abstract": "本文介绍了期望罚牌 (xB) 模型，这是一种用于估算足球犯规导致黄牌的可能性的新度量指标。通过三个迭代实验，采用集成方法，模型在增加特征和扩展数据集的情况下展示了改进的性能。对2022年FIFA世界杯数据的分析验证了该模型在提供关于球队和球员犯规策略的洞察力方面的有效性，并与实际的防守表现相一致。xB模型填补了犯规效率研究中的空白，强调了常常被忽视的防守策略。通过整合全面的数据和空间特征，可以进一步改进。",
+    "tldr": "本论文介绍了一种新的度量指标，期望罚牌 (xB) 模型，用于估算足球犯规导致黄牌的可能性，并通过实验证明了其在分析球队和球员犯规策略方面的有效性。"
+}

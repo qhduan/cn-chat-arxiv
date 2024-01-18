@@ -1,0 +1,12 @@
+{
+    "title": "Curve-based Neural Style Transfer. (arXiv:2401.08579v1 [cs.CV])",
+    "abstract": "This research presents a new parametric style transfer framework specifically designed for curve-based design sketches. In this research, traditional challenges faced by neural style transfer methods in handling binary sketch transformations are effectively addressed through the utilization of parametric shape-editing rules, efficient curve-to-pixel conversion techniques, and the fine-tuning of VGG19 on ImageNet-Sketch, enhancing its role as a feature pyramid network for precise style extraction. By harmonizing intuitive curve-based imagery with rule-based editing, this study holds the potential to significantly enhance design articulation and elevate the practice of style transfer within the realm of product design.",
+    "link": "http://arxiv.org/abs/2401.08579",
+    "context": "Title: Curve-based Neural Style Transfer. (arXiv:2401.08579v1 [cs.CV])\nAbstract: This research presents a new parametric style transfer framework specifically designed for curve-based design sketches. In this research, traditional challenges faced by neural style transfer methods in handling binary sketch transformations are effectively addressed through the utilization of parametric shape-editing rules, efficient curve-to-pixel conversion techniques, and the fine-tuning of VGG19 on ImageNet-Sketch, enhancing its role as a feature pyramid network for precise style extraction. By harmonizing intuitive curve-based imagery with rule-based editing, this study holds the potential to significantly enhance design articulation and elevate the practice of style transfer within the realm of product design.",
+    "path": "papers/24/01/2401.08579.json",
+    "total_tokens": 747,
+    "translated_title": "基于曲线的神经风格迁移",
+    "translated_abstract": "本研究提出了一种专为基于曲线设计草图设计的参数化风格迁移框架。通过利用参数化形状编辑规则、高效的曲线到像素转换技术以及在ImageNet-Sketch上对VGG19进行微调，有效解决了神经风格迁移方法在处理二进制草图转换时面临的传统挑战，并提高了VGG19在特征金字塔网络中对风格的精确提取作用。通过将直观的基于曲线的图像与基于规则的编辑相结合，该研究有潜力显著提升设计表达能力，并在产品设计领域中推动风格迁移的实践。",
+    "tldr": "该研究提出了一种基于曲线的神经风格迁移方法，通过参数化形状编辑和精确的风格提取，解决了传统方法在处理二进制草图转换时面临的挑战，从而提升了设计表达能力和风格迁移的实践。",
+    "en_tdlr": "This research introduces a curve-based neural style transfer method that addresses the challenges in handling binary sketch transformations and enhances design articulation and style transfer practice through parametric shape editing and precise style extraction."
+}

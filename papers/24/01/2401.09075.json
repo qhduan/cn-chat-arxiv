@@ -1,0 +1,12 @@
+{
+    "title": "GPT in Sheep's Clothing: The Risk of Customized GPTs. (arXiv:2401.09075v1 [cs.CR])",
+    "abstract": "In November 2023, OpenAI introduced a new service allowing users to create custom versions of ChatGPT (GPTs) by using specific instructions and knowledge to guide the model's behavior. We aim to raise awareness of the fact that GPTs can be used maliciously, posing privacy and security risks to their users.",
+    "link": "http://arxiv.org/abs/2401.09075",
+    "context": "Title: GPT in Sheep's Clothing: The Risk of Customized GPTs. (arXiv:2401.09075v1 [cs.CR])\nAbstract: In November 2023, OpenAI introduced a new service allowing users to create custom versions of ChatGPT (GPTs) by using specific instructions and knowledge to guide the model's behavior. We aim to raise awareness of the fact that GPTs can be used maliciously, posing privacy and security risks to their users.",
+    "path": "papers/24/01/2401.09075.json",
+    "total_tokens": 489,
+    "translated_title": "披着绵羊皮的GPT：定制化GPTs的风险",
+    "translated_abstract": "2023年11月，OpenAI推出了一项新服务，允许用户通过使用特定的指令和知识来指导模型的行为，创建定制版本的ChatGPT（GPTs）。我们旨在提醒人们意识到GPTs可能被恶意使用，给用户的隐私和安全带来风险。",
+    "tldr": "GPTs的定制化使用可能存在隐私和安全风险。",
+    "en_tdlr": "Customized use of GPTs may pose privacy and security risks."
+}

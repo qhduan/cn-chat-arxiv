@@ -1,0 +1,11 @@
+{
+    "title": "Contribution Functions for Quantitative Bipolar Argumentation Graphs: A Principle-based Analysis. (arXiv:2401.08879v1 [cs.AI])",
+    "abstract": "We present a principle-based analysis of contribution functions for quantitative bipolar argumentation graphs that quantify the contribution of one argument to another. The introduced principles formalise the intuitions underlying different contribution functions as well as expectations one would have regarding the behaviour of contribution functions in general. As none of the covered contribution functions satisfies all principles, our analysis can serve as a tool that enables the selection of the most suitable function based on the requirements of a given use case.",
+    "link": "http://arxiv.org/abs/2401.08879",
+    "context": "Title: Contribution Functions for Quantitative Bipolar Argumentation Graphs: A Principle-based Analysis. (arXiv:2401.08879v1 [cs.AI])\nAbstract: We present a principle-based analysis of contribution functions for quantitative bipolar argumentation graphs that quantify the contribution of one argument to another. The introduced principles formalise the intuitions underlying different contribution functions as well as expectations one would have regarding the behaviour of contribution functions in general. As none of the covered contribution functions satisfies all principles, our analysis can serve as a tool that enables the selection of the most suitable function based on the requirements of a given use case.",
+    "path": "papers/24/01/2401.08879.json",
+    "total_tokens": 599,
+    "translated_title": "量化双极论证图的贡献函数：基于原则的分析",
+    "translated_abstract": "我们对量化双极论证图的贡献函数进行了基于原则的分析，该函数量化了一个论证对另一个论证的贡献。引入的原则将不同的贡献函数的直觉形式化，并对贡献函数的行为有了期望。由于没有一个覆盖的贡献函数满足所有原则，我们的分析可以作为一个工具，根据给定用例的要求选择最合适的函数。",
+    "tldr": "本文对量化双极论证图的贡献函数进行了基于原则的分析，为选择最合适的函数提供了工具。"
+}

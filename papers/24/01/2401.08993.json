@@ -1,0 +1,11 @@
+{
+    "title": "Estimating Gender Completeness in Wikipedia. (arXiv:2401.08993v1 [cs.CY])",
+    "abstract": "Gender imbalance in Wikipedia content is a known challenge which the editor community is actively addressing. The aim of this paper is to provide the Wikipedia community with instruments to estimate the magnitude of the problem for different entity types (also known as classes) in Wikipedia. To this end, we apply class completeness estimation methods based on the gender attribute. Our results show not only which gender for different sub-classes of Person is more prevalent in Wikipedia, but also an idea of how complete the coverage is for difference genders and sub-classes of Person.",
+    "link": "http://arxiv.org/abs/2401.08993",
+    "context": "Title: Estimating Gender Completeness in Wikipedia. (arXiv:2401.08993v1 [cs.CY])\nAbstract: Gender imbalance in Wikipedia content is a known challenge which the editor community is actively addressing. The aim of this paper is to provide the Wikipedia community with instruments to estimate the magnitude of the problem for different entity types (also known as classes) in Wikipedia. To this end, we apply class completeness estimation methods based on the gender attribute. Our results show not only which gender for different sub-classes of Person is more prevalent in Wikipedia, but also an idea of how complete the coverage is for difference genders and sub-classes of Person.",
+    "path": "papers/24/01/2401.08993.json",
+    "total_tokens": 637,
+    "translated_title": "评估维基百科的性别完整性",
+    "translated_abstract": "维基百科内容中的性别失衡是一个已知的挑战，编辑群体正在积极解决这个问题。本文的目的是为维基百科社区提供工具，以估计维基百科不同实体类型（也称为类）中问题的严重程度。为此，我们应用基于性别属性的类完整性估计方法。我们的研究结果不仅显示了维基百科中不同子类别人物的性别比例，还给出了不同性别和子类别人物的覆盖程度。",
+    "tldr": "本文提供了估计维基百科不同实体类型的性别完整性的工具，研究结果显示了维基百科中不同子类别人物的性别比例和覆盖程度。"
+}

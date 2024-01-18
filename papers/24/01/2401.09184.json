@@ -1,0 +1,11 @@
+{
+    "title": "A Two-Scale Complexity Measure for Deep Learning Models. (arXiv:2401.09184v1 [stat.ML])",
+    "abstract": "We introduce a novel capacity measure 2sED for statistical models based on the effective dimension. The new quantity provably bounds the generalization error under mild assumptions on the model. Furthermore, simulations on standard data sets and popular model architectures show that 2sED correlates well with the training error. For Markovian models, we show how to efficiently approximate 2sED from below through a layerwise iterative approach, which allows us to tackle deep learning models with a large number of parameters. Simulation results suggest that the approximation is good for different prominent models and data sets.",
+    "link": "http://arxiv.org/abs/2401.09184",
+    "context": "Title: A Two-Scale Complexity Measure for Deep Learning Models. (arXiv:2401.09184v1 [stat.ML])\nAbstract: We introduce a novel capacity measure 2sED for statistical models based on the effective dimension. The new quantity provably bounds the generalization error under mild assumptions on the model. Furthermore, simulations on standard data sets and popular model architectures show that 2sED correlates well with the training error. For Markovian models, we show how to efficiently approximate 2sED from below through a layerwise iterative approach, which allows us to tackle deep learning models with a large number of parameters. Simulation results suggest that the approximation is good for different prominent models and data sets.",
+    "path": "papers/24/01/2401.09184.json",
+    "total_tokens": 773,
+    "translated_title": "深度学习模型的两尺度复杂度测量",
+    "translated_abstract": "我们引入了一种基于有效维度的统计模型新容量测量2sED。这个新的数量在对模型进行温和假设的情况下，可以可靠地限制泛化误差。此外，对于标准数据集和流行的模型架构的模拟结果表明，2sED与训练误差具有很好的相关性。对于马尔可夫模型，我们展示了如何通过逐层迭代的方法有效地从下方近似2sED，从而解决具有大量参数的深度学习模型。模拟结果表明，这种近似对不同的突出模型和数据集都很好。",
+    "tldr": "这篇论文介绍了一种用于统计模型的新容量测量2sED，可以可靠地限制泛化误差，并且与训练误差具有很好的相关性。此外，对于深度学习模型，我们展示了如何通过逐层迭代的方法有效地近似2sED，从而处理大量参数的情况。"
+}
