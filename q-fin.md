@@ -2,29 +2,108 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Neural Hawkes: Non-Parametric Estimation in High Dimension and Causality Analysis in Cryptocurrency Markets.](http://arxiv.org/abs/2401.09361) | 这篇论文提出了一种名为神经霍克斯的方法，它能够在高维度情况下进行非参数估计，并用于加密货币市场的因果分析。该方法通过解决第二类Fredholm积分方程来推断标记霍克斯核，并使用物理信息神经网络进行数值计算。该方法在模拟数据上得到了广泛的验证，并应用于分析加密货币市场的微观结构和因果关系。 |
-| [^2] | [Equity Premium in Efficient Markets.](http://arxiv.org/abs/2401.09265) | 本研究在高效市场中探讨了股本溢价的问题，发现在这种市场中，有信息的投资者采取风险中性和风险厌恶投资策略，通过最大化回报和波动率之间的关系来解决股本溢价难题。 |
-| [^3] | [A closer look at the chemical potential of an ideal agent system.](http://arxiv.org/abs/2401.09233) | 本研究针对理想代理系统推导了化学势的状态方程，填补了这一研究空白，为经济物理学提供了基本的发现。 |
-| [^4] | [Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry.](http://arxiv.org/abs/2401.09174) | 本文研究了竞争和主导地位对航空公司保持准时表现的影响，并发现机场拥堵内部化和航线质量竞争是重要因素。此外，廉价航空公司的进入还会对未进入的航线产生非价格溢出效应。 |
-| [^5] | [Mean-Field SDEs driven by $G$-Brownian Motion.](http://arxiv.org/abs/2401.09113) | 该论文通过引入$G$-布朗运动驱动，扩展了均场随机微分方程，并且考虑了系数与解之间的依赖关系。 |
-| [^6] | [AI Thrust: Ranking Emerging Powers for Tech Startup Investment in Latin America.](http://arxiv.org/abs/2401.09056) | 本文提出了一种基于基础设施、教育和金融方面的评估方法，对拉丁美洲国家的AI发展潜力进行排名。排名结果显示，阿根廷、哥伦比亚和乌拉圭等国具备成为拉丁美洲AI新兴大国的潜力。 |
-| [^7] | [On continuity of state-dependent utilities.](http://arxiv.org/abs/2401.09054) | 本文证明了对于一般的Savage状态空间，状态相关偏好满足点点连续性，从而积极回答了一个重要猜想，并进一步得到了条件Chisini均值的显式表示形式。 |
-| [^8] | [Spurious Default Probability Projections in Credit Risk Stress Testing Models.](http://arxiv.org/abs/2401.08892) | 信用风险压力测试模型中的一个问题是，无论对模型施加何种压力，银行当前资产组合都倾向于向平均经济状态投资组合转变，这可能导致不必要的虚假推测产生。 |
-| [^9] | [Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk due to Local Development.](http://arxiv.org/abs/2401.08645) | 自动化设计评估（ADA）方法用于预测建筑设计概念的市场价格，在综合影响评估中测量城市发展的直接和局部效应，揭示设施与财产价值之间的关系，并作为建筑设计优化程序的蓝图。 |
-| [^10] | [Leverage Staking with Liquid Staking Derivatives (LSDs): Opportunities and Risks.](http://arxiv.org/abs/2401.08610) | 这项研究系统地研究了Liquid Staking Derivatives (LSDs)的杠杆质押机会与风险。他们发现杠杆质押在Lido-Aave生态系统中能够实现较高的回报，并有潜力通过优化策略获得更多收益。 |
-| [^11] | [Forking paths in financial economics.](http://arxiv.org/abs/2401.08606) | 本论文通过三个研究探讨了在金融经济学中应用分叉路径能够提高效应描述和结论可信度的方法。通过增加自由度以及使用分叉路径，能够更准确预测股票溢价、提高异常的显著性门槛，并揭示出溢价估计中特定步骤的重要性。 |
-| [^12] | [Reinforcement Learning and Deep Stochastic Optimal Control for Final Quadratic Hedging.](http://arxiv.org/abs/2401.08600) | 本文研究应用强化学习和深度随机最优控制方法在最终二次对冲中，通过实验发现这两种方法在不同市场环境下的表现优势和局限性，并提出了状态变量的解决方案。 |
-| [^13] | [Non-Banking Sector development effect on Economic Growth. A Nighttime light data approach.](http://arxiv.org/abs/2401.08596) | 本文利用夜间灯光数据来衡量南非保险业与经济增长之间的关系，并发现保险业对南非经济发展具有更强的预测能力。 |
-| [^14] | [How do we measure trade elasticity for services?.](http://arxiv.org/abs/2401.08594) | 本研究通过汇率变动来识别服务贸易的弹性，解决了因内生性问题而无法找到工具变量的困境。通过应用于多种不同的有形商品，评估了该方法的性能。 |
-| [^15] | [Incremento del precio de los combustibles y su incidencia en los productos de la canasta basica del canton el triunfo, provincia del guayas.](http://arxiv.org/abs/2401.08590) | 本研究分析了燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响，通过调查家庭购买力变化和简单线性回归分析发现了相关性。 |
-| [^16] | [Matching of Users and Creators in Two-Sided Markets with Departures.](http://arxiv.org/abs/2401.00313) | 本论文提出了一个双边市场中匹配用户和创作者的模型，并展示了一个以用户为中心的贪心算法可能导致整体参与度下降的问题。 |
-| [^17] | [Nudging Nutrition: Lessons from the Danish "Fat Tax".](http://arxiv.org/abs/2312.11481) | 丹麦的“脂肪税”对不同产品类别的消费和支出行为有不同程度的影响，特别是对低收入家庭而言。在税收实施期间，培根、肝肠、莎莉米和奶酪的消费有显著下降，而黄油、奶油、人造黄油和酸奶的支出则有增加。税收废除后，对这些税收目标的消费和支出行为没有持续影响。 |
-| [^18] | [Generative CVaR Portfolio Optimization with Attention-Powered Dynamic Factor Learning.](http://arxiv.org/abs/2301.07318) | 本论文提出了一种使用注意力驱动的动态因子学习的生成CVaR组合优化算法，通过随机变量转换作为分布建模的隐式方式，以及使用注意力-GRU网络进行动态学习和预测，捕捉了多元股票收益之间的动态依赖关系，特别是关注尾部属性。通过在每个投资日期从学习到的生成模型中模拟新样本，并进一步应用CVaR组合优化策略，实现了更明智的投资决策。 |
-| [^19] | [Three Remarks On Asset Pricing.](http://arxiv.org/abs/2105.13903) | 该论文研究了基于消费的资产定价模型，在该模型中推导出了新的修改基本定价方程，利用泰勒级数展开逐次逼近投资者效用，并给出了线性和二次逼近的新表达式。此外，论文还讨论了价格概率的市场起源，并引入了基于市场的平均价格和价格波动率。研究发现使用加权平均价格导致价格和交易量之间的相关性为零，同时还发现了价格与交易量的平方以及价格的平方与交易量的平方之间存在相关性。最后，论文指出预测基于市场的价格波动率需要对市场交易值和交易量的二维统计矩进行预测。 |
+| [^1] | [Equilibrium Multiplicity: A Systematic Approach using Homotopies, with an Application to Chicago.](http://arxiv.org/abs/2401.10181) | 本文提供了一种系统的方法来枚举具有社会互动和弹性住房供应的定量空间模型的多个平衡。方法利用同伦将复杂的城市模型转化为简单的模型，使得解可以全面枚举。 |
+| [^2] | [An Exploration to the Correlation Structure and Clustering of Macroeconomic Variables (MEV).](http://arxiv.org/abs/2401.10162) | 本文探索了宏观经济变量（MEV）的相关结构和聚类，使用主成分算法来理解给定时期内MEV的相关结构并可视化历史上的模式变化，同时比较了不同的宏观经济场景，得出了主要发现。 |
+| [^3] | [Consistent asset modelling with random coefficients and switches between regimes.](http://arxiv.org/abs/2401.09955) | 该论文描述了一种随机模型，可以捕捉外部影响，并以不确定的参数和模式来解释不同时间或制度的行为。通过将框架表达为局部波动率模型，论文保证了数学上的一致性，并提供了具有广泛应用的特征函数作为数值实验的工具。 |
+| [^4] | [A Framework for Digital Currencies for Financial Inclusion in Latin America and the Caribbean.](http://arxiv.org/abs/2401.09811) | 该研究提出了一个框架，评估数字货币对拉美和加勒比地区金融包容的影响。研究发现，一个精心设计的数字货币系统可以降低支付成本，实现实时支付，提高中央银行货币的可访问性，并满足系统性能需求。 |
+| [^5] | [Cross-Domain Behavioral Credit Modeling: transferability from private to central data.](http://arxiv.org/abs/2401.09778) | 本文介绍了一种跨领域行为信用模型，利用借款人的行为数据进行信用风险评估，并通过广泛认可的信用局和其他机构的数据进行验证，证明了其在不同数据集上的可迁移性。 |
+| [^6] | [AI and the Opportunity for Shared Prosperity: Lessons from the History of Technology and the Economy.](http://arxiv.org/abs/2401.09718) | 人工智能的最新进展为人们提供了机器学习、适应和执行任务的机会，促进了经济转型和共同繁荣。我们需要借鉴科技和创新的历史经验，以实现人工智能的经济潜力，并为社会带来更多的利益。 |
+| [^7] | [Neural Hawkes: Non-Parametric Estimation in High Dimension and Causality Analysis in Cryptocurrency Markets.](http://arxiv.org/abs/2401.09361) | 这篇论文提出了一种名为神经霍克斯的方法，它能够在高维度情况下进行非参数估计，并用于加密货币市场的因果分析。该方法通过解决第二类Fredholm积分方程来推断标记霍克斯核，并使用物理信息神经网络进行数值计算。该方法在模拟数据上得到了广泛的验证，并应用于分析加密货币市场的微观结构和因果关系。 |
+| [^8] | [The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process.](http://arxiv.org/abs/2401.06141) | 本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。 |
+| [^9] | [On Finding Bi-objective Pareto-optimal Fraud Prevention Rule Sets for Fintech Applications.](http://arxiv.org/abs/2311.00964) | 本文研究了在金融科技应用中寻找高质量的双目标 Pareto 最优欺诈预防规则集的问题。通过采用 Pareto 最优性概念和启发式框架 PORS，我们成功提出了一组非支配的规则子集，并通过实证评估证明了其有效性。 |
+| [^10] | [Peer Effects in Consideration and Preferences.](http://arxiv.org/abs/2310.12272) | 该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。 |
+| [^11] | [COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?.](http://arxiv.org/abs/2307.09035) | 该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。 |
+| [^12] | [Expectile hidden Markov regression models for analyzing cryptocurrency returns.](http://arxiv.org/abs/2301.09722) | 本文提出了一种用于分析加密货币收益的期望隐马尔可夫回归模型，该方法允许专注于极端收益，并通过引入时间演变的系数来描述其演变，通过对比每日比特币收益和主要世界市场指数之间的关系验证了该方法。 |
+| [^13] | [MAD Risk Parity Portfolios.](http://arxiv.org/abs/2110.12282) | 本文研究了使用Mean Absolute Deviation (MAD)作为风险度量的风险平价（RP）组合的特点和表现，提出了计算MAD-RP组合的方法，并通过实证分析表明，RP方法通常在风险和盈利方面介于最小风险和等权策略之间。 |
+| [^14] | [Subsidising Inclusive Insurance to Reduce Poverty.](http://arxiv.org/abs/2103.17255) | 本文评估了政府与私人保险公司之间的合作以及微型保险产品在减贫方面的作用，结果显示通过补贴可以实现最大化的社会效益并降低政府成本。 |
 
 # 详细
 
-[^1]: 神经霍克斯：高维度的非参数估计和加密货币市场的因果分析
+[^1]: 平衡的多样性：一种使用同伦的系统方法及其在芝加哥的应用
+
+    Equilibrium Multiplicity: A Systematic Approach using Homotopies, with an Application to Chicago. (arXiv:2401.10181v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.10181](http://arxiv.org/abs/2401.10181)
+
+    本文提供了一种系统的方法来枚举具有社会互动和弹性住房供应的定量空间模型的多个平衡。方法利用同伦将复杂的城市模型转化为简单的模型，使得解可以全面枚举。
+
+    
+
+    具有社会互动或溢出效应的离散选择模型可能表现出多个平衡。本文提供了一种系统的方法来枚举具有离散地点、社会互动和弹性住房供应的定量空间模型的平衡。该方法依赖于两个同伦。同伦是一个平滑函数，它将一个已知解的简单城市转化为具有异质地点和有限供应弹性的城市。第一个同伦是，在具有完全弹性地板表面供应的城市集合中，具有异质地点的经济同伦于具有均匀地点的经济，其解可以全面枚举。这样的经济与一个多项式系统的零点经济接近。这是一个已经研究得很好的数学领域，可以保证平衡的枚举。第二个同伦是，在具有完全弹性住房供应的城市中，将该城市同伦到一个具有有限供应弹性的城市。
+
+    Discrete choice models with social interactions or spillovers may exhibit multiple equilibria. This paper provides a systematic approach to enumerating them for a quantitative spatial model with discrete locations, social interactions, and elastic housing supply. The approach relies on two homotopies. A homotopy is a smooth function that transforms the solutions of a simpler city where solutions are known, to a city with heterogeneous locations and finite supply elasticity. The first homotopy is that, in the set of cities with perfectly elastic floor surface supply, an economy with heterogeneous locations is homotopic to an economy with homogeneous locations, whose solutions can be comprehensively enumerated. Such an economy is epsilon close to an economy whose equilibria are the zeros of a system of polynomials. This is a well-studied area of mathematics where the enumeration of equilibria can be guaranteed. The second homotopy is that a city with perfectly elastic housing supply is h
+    
+[^2]: 宏观经济变量（MEV）的相关结构和聚类的探索
+
+    An Exploration to the Correlation Structure and Clustering of Macroeconomic Variables (MEV). (arXiv:2401.10162v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2401.10162](http://arxiv.org/abs/2401.10162)
+
+    本文探索了宏观经济变量（MEV）的相关结构和聚类，使用主成分算法来理解给定时期内MEV的相关结构并可视化历史上的模式变化，同时比较了不同的宏观经济场景，得出了主要发现。
+
+    
+
+    作为对复杂经济的量化描述，宏观经济变量（MEVs），包括GDP、通胀率、失业率、收入、支出、利率等，在银行的投资组合管理和压力测试中起着关键作用。近年来，特别是在COVID-19期间和当前高通胀环境下，人们经常谈论MEVs的“相关结构”如何变化。本文使用一种基于主成分的算法来更好地理解给定时期内MEVs的相关结构。我们还展示了如何使用此方法来可视化2000年至2022年间历史上MEVs模式的变化。此外，我们使用该方法比较了不同的假设或历史宏观经济场景，并呈现了我们的主要发现。
+
+    As a quantitative characterization of the complicated economy, Macroeconomic Variables (MEVs), including GDP, inflation, unemployment, income, spending, interest rate, etc., are playing a crucial role in banks' portfolio management and stress testing exercise. In recent years, especially during the COVID-19 period and the current high inflation environment, people are frequently talking about the changing "correlation structure" of MEVs. In this paper, we use a principal component based algorithm to better understand MEVs' correlation structure in a given period. We also demonstrate how this method can be used to visualize historical MEVs pattern changes between 2000 and 2022. Further, we use this method to compare different hypothetical or historical macroeconomic scenarios and present our key findings.
+    
+[^3]: 随机系数和制度切换的一致资产建模
+
+    Consistent asset modelling with random coefficients and switches between regimes. (arXiv:2401.09955v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2401.09955](http://arxiv.org/abs/2401.09955)
+
+    该论文描述了一种随机模型，可以捕捉外部影响，并以不确定的参数和模式来解释不同时间或制度的行为。通过将框架表达为局部波动率模型，论文保证了数学上的一致性，并提供了具有广泛应用的特征函数作为数值实验的工具。
+
+    
+
+    我们探索了一种能够捕捉外部影响的随机模型，该模型以两种特定方式表达不确定性，并结合模式来解释不同时期或制度的不同行为。为了建立我们的框架，我们最初构建了一个具有随机参数的模型，其中制度切换可以由随机变量或确定性方式确定。这种模型具有很高的可解释性。我们通过将框架优雅地表达为具有标准跳跃扩散形式的局部波动率模型来确保数学一致性。此外，我们还考虑了一种由随机参数切换的制度的马尔可夫调制方法。对于所有考虑的模型，我们导出了特征函数，提供了一个具有广泛应用的多功能工具。在数值实验中，我们将该框架应用于f
+
+    We explore a stochastic model that enables capturing external influences in two specific ways. The model allows for the expression of uncertainty in the parametrisation of the stochastic dynamics and incorporates patterns to account for different behaviours across various times or regimes. To establish our framework, we initially construct a model with random parameters, where the switching between regimes can be dictated either by random variables or deterministically. Such a model is highly interpretable. We further ensure mathematical consistency by demonstrating that the framework can be elegantly expressed through local volatility models taking the form of standard jump diffusions. Additionally, we consider a Markov-modulated approach for the switching between regimes characterised by random parameters. For all considered models, we derive characteristic functions, providing a versatile tool with wide-ranging applications. In a numerical experiment, we apply the framework to the f
+    
+[^4]: 拉美和加勒比地区金融包容性数字货币框架
+
+    A Framework for Digital Currencies for Financial Inclusion in Latin America and the Caribbean. (arXiv:2401.09811v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.09811](http://arxiv.org/abs/2401.09811)
+
+    该研究提出了一个框架，评估数字货币对拉美和加勒比地区金融包容的影响。研究发现，一个精心设计的数字货币系统可以降低支付成本，实现实时支付，提高中央银行货币的可访问性，并满足系统性能需求。
+
+    
+
+    该研究旨在提供一个框架，评估数字货币对促进金融包容的贡献，基于对拉美和加勒比地区金融包容和国内外支付情况的诊断。它还提供了该地区央行对央行数字货币可能实施的关键问题的见解。研究结果表明，尽管数字货币的发展处于早期阶段，但一个精心设计的系统能够降低国内和跨境支付成本，改善交易结算以实现实时支付，扩大中央银行货币的可访问性，融入可编程支付，并满足系统性能需求。
+
+    This research aims to provide a framework to assess the contribution of digital currencies to promote financial inclusion, based on a diagnosis of the landscape of financial inclusion and domestic and cross-border payments in Latin America and the Caribbean. It also provides insights from central banks in the region on key aspects regarding a possible implementation of central bank digital currencies. Findings show that although digital currencies development is at an early stage, a well-designed system could reduce the cost of domestic and cross-border payments, improve the settlement of transactions to achieve real-time payments, expand the accessibility of central bank money, incorporate programmable payments and achieve system performance demands.
+    
+[^5]: 跨领域行为信用模型：从私人到中央数据的可迁移性
+
+    Cross-Domain Behavioral Credit Modeling: transferability from private to central data. (arXiv:2401.09778v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2401.09778](http://arxiv.org/abs/2401.09778)
+
+    本文介绍了一种跨领域行为信用模型，利用借款人的行为数据进行信用风险评估，并通过广泛认可的信用局和其他机构的数据进行验证，证明了其在不同数据集上的可迁移性。
+
+    
+
+    本文介绍了一种量化金融中用于信用风险评估的信用风险评级模型，旨在基于借款人的行为数据对其进行分类。该模型通过使用广泛认可的信用局Experian的数据进行训练，有效地识别银行客户中的贷款违约情况。采用最先进的统计和机器学习技术确保了模型的预测准确性。此外，我们通过对意大利银行的行为数据进行测试，评估了模型的可迁移性，展示了其在预测过程中在不同数据集上的潜在适用性。本研究突出了在金融机构中引入外部行为数据以改进信用风险评估的好处。
+
+    This paper introduces a credit risk rating model for credit risk assessment in quantitative finance, aiming to categorize borrowers based on their behavioral data. The model is trained on data from Experian, a widely recognized credit bureau, to effectively identify instances of loan defaults among bank customers. Employing state-of-the-art statistical and machine learning techniques ensures the model's predictive accuracy. Furthermore, we assess the model's transferability by testing it on behavioral data from the Bank of Italy, demonstrating its potential applicability across diverse datasets during prediction. This study highlights the benefits of incorporating external behavioral data to improve credit risk assessment in financial institutions.
+    
+[^6]: 人工智能与共同繁荣的机遇：从科技和经济历史中汲取的教训
+
+    AI and the Opportunity for Shared Prosperity: Lessons from the History of Technology and the Economy. (arXiv:2401.09718v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.09718](http://arxiv.org/abs/2401.09718)
+
+    人工智能的最新进展为人们提供了机器学习、适应和执行任务的机会，促进了经济转型和共同繁荣。我们需要借鉴科技和创新的历史经验，以实现人工智能的经济潜力，并为社会带来更多的利益。
+
+    
+
+    人工智能的最新进展标志着人类历史上的一个关键时刻。它提供了机器学习、适应和执行任务的机会，这些任务有潜力帮助人们从日常活动到最具创造性和雄心勃勃的项目。它还可以帮助企业和组织利用知识，提高生产力，创新，转型，并为共同繁荣提供动力。这个巨大的潜力引发了两个基本问题：（1）人工智能是否真的能够推动国家和全球经济转型，使社会受益？（2）我们必须解决哪些问题，才能充分实现人工智能的经济价值，扩大繁荣，改善世界各地的生活？我们通过考虑科技和创新的最近历史作为指导，探讨了这些问题。虽然我们并不认为未来会完全与过去相同，但我们将讨论一些原因。
+
+    Recent progress in artificial intelligence (AI) marks a pivotal moment in human history. It presents the opportunity for machines to learn, adapt, and perform tasks that have the potential to assist people, from everyday activities to their most creative and ambitious projects. It could also help businesses and organizations harness knowledge, increase productivity, innovate, transform, and power shared prosperity. This tremendous potential raises two fundamental questions: (1) Will AI actually advance national and global economic transformation to benefit society at large? and (2) What issues must we get right to fully realize AI's economic value, expand prosperity and improve lives everywhere? We explore these questions by considering the recent history of technology and innovation as a guide for the likely impact of AI and what we must do to realize its economic potential to benefit society. While we do not presume the future will be entirely like that past, for reasons we will disc
+    
+[^7]: 神经霍克斯：高维度的非参数估计和加密货币市场的因果分析
 
     Neural Hawkes: Non-Parametric Estimation in High Dimension and Causality Analysis in Cryptocurrency Markets. (arXiv:2401.09361v1 [q-fin.TR])
 
@@ -38,256 +117,102 @@
 
     We propose a novel approach to marked Hawkes kernel inference which we name the moment-based neural Hawkes estimation method. Hawkes processes are fully characterized by their first and second order statistics through a Fredholm integral equation of the second kind. Using recent advances in solving partial differential equations with physics-informed neural networks, we provide a numerical procedure to solve this integral equation in high dimension. Together with an adapted training pipeline, we give a generic set of hyperparameters that produces robust results across a wide range of kernel shapes. We conduct an extensive numerical validation on simulated data. We finally propose two applications of the method to the analysis of the microstructure of cryptocurrency markets. In a first application we extract the influence of volume on the arrival rate of BTC-USD trades and in a second application we analyze the causality relationships and their directions amongst a universe of 15 crypto
     
-[^2]: 高效市场中的股本溢价
+[^8]: 直接资本现金转移对于贫困和极端贫困减轻的作用 -- 一种Omega风险过程
 
-    Equity Premium in Efficient Markets. (arXiv:2401.09265v1 [econ.GN])
+    The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process. (arXiv:2401.06141v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.09265](http://arxiv.org/abs/2401.09265)
+    [http://arxiv.org/abs/2401.06141](http://arxiv.org/abs/2401.06141)
 
-    本研究在高效市场中探讨了股本溢价的问题，发现在这种市场中，有信息的投资者采取风险中性和风险厌恶投资策略，通过最大化回报和波动率之间的关系来解决股本溢价难题。
-
-    
-
-    股本溢价是指股票相对于债券的超额回报，一直以来都是一个难题。在众多研究中，过去的工作通常假设货币的效用在各个情境下保持不变，而我们的方法则表明，在高效市场中，货币的效用是多态的，风险厌恶取决于每个情境中可获得的信息，即每个未来现金流的贴现取决于该现金流上的所有可用信息。具体而言，我们证明在高效市场中，通过对无风险债券和股票进行风险中性和风险厌恶投资，有信息的投资者通过最大化波动率回报来解决了这个难题。我们还通过历史数据对我们的结果进行了验证，并取得了令人惊讶的一致性。
-
-    Equity premium, the surplus returns of stocks over bonds, has been an enduring puzzle. While numerous prior works approach the problem assuming the utility of money is invariant across contexts, our approach implies that in efficient markets the utility of money is polymorphic, with risk aversion dependent on the information available in each context, i.e. the discount on each future cash flow depends on all information available on that cash flow. Specifically, we prove that in efficient markets, informed investors maximize return on volatility by being risk-neutral with riskless bonds, and risk-averse with equities, thereby resolving the puzzle. We validate our results on historical data with surprising consistency.  JEL Classification: C58, G00, G12, G17
-    
-[^3]: 对理想代理系统化学势的深入研究
-
-    A closer look at the chemical potential of an ideal agent system. (arXiv:2401.09233v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2401.09233](http://arxiv.org/abs/2401.09233)
-
-    本研究针对理想代理系统推导了化学势的状态方程，填补了这一研究空白，为经济物理学提供了基本的发现。
+    本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。
 
     
 
-    在计量经济学中，统计物理学中已知的自旋系统模型被用作基于代理的模型。计量经济学中的经济物理学研究越来越多地发展了描述交换现象的通用市场模型，并在粒子数量变化的背景下使用物理学中已知的化学势 $\mu$。在统计物理学中，已知化学势的状态方程，该方程考虑了相应的模型框架和相应的状态变量。将这些状态方程简单地应用于经济物理学中的问题似乎很困难。据我们所知，即使对于最简单的理想代理系统模型，化学势的状态方程也尚未得到推导。本文填补了这一研究空白，并从理想代理系统的经济物理学模型假设中推导出了化学势的状态方程。对状态方程的解释导致了基本的发现。
+    困境指的是家庭陷入贫困区域的情况。生活在贫困区域或陷入贫困区域的家庭被称为贫困陷阱的家庭，贫困陷阱是一种在没有外部帮助的情况下难以逃脱的贫困状态。同样，极端贫困被认为是最严重的贫困形式，家庭在其中经历严重的基本人类需求不足。在本文中，我们考虑了一个具有确定性增长和乘性跳跃（崩溃）结构的Omega风险过程来模拟家庭的资本。假设当一个家庭的资本水平高于确定资本壁垒水平时，确定家庭是否有资格参加现金资本转移方案，其资本会指数增长。一旦其资本降至资本壁垒水平以下，资本动态会引入直接转移（资本现金转移）的外部支持，这些支持由捐助者或政府提供。否则
 
-    Models for spin systems known from statistical physics are used in econometrics in the form of agent-based models. Econophysics research in econometrics is increasingly developing general market models that describe exchange phenomena and use the chemical potential $\mu$ known from physics in the context of particle number changes. In statistical physics, equations of state are known for the chemical potential, which take into account the respective model framework and the corresponding state variables. A simple transfer of these equations of state to problems in econophysics appears difficult. To the best of our knowledge, the equation of state for the chemical potential is currently missing even for the simplest conceivable model of an ideal agent system. In this paper, this research gap is closed and the equation of state for the chemical potential is derived from the econophysical model assumptions of the ideal agent system. An interpretation of the equation of state leads to funda
+    Trapping refers to the event when a household falls into the area of poverty. Households that live or fall into the area of poverty are said to be in a poverty trap, where a poverty trap is a state of poverty from which it is difficult to escape without external help. Similarly, extreme poverty is considered as the most severe type of poverty, in which households experience severe deprivation of basic human needs. In this article, we consider an Omega risk process with deterministic growth and a multiplicative jump (collapse) structure to model the capital of a household. It is assumed that, when a household's capital level is above a certain capital barrier level that determines a household's eligibility for a capital cash transfer programme, its capital grows exponentially. As soon as its capital falls below the capital barrier level, the capital dynamics incorporate external support in the form of direct transfers (capital cash transfers) provided by donors or governments. Otherwise
     
-[^4]: 航空公司延误，拥堵内部化和廉价航空公司进入的非价格溢出效应
+[^9]: 在金融科技应用中寻找双目标 Pareto 最优欺诈预防规则集
 
-    Airline delays, congestion internalization and non-price spillover effects of low cost carrier entry. (arXiv:2401.09174v1 [econ.GN])
+    On Finding Bi-objective Pareto-optimal Fraud Prevention Rule Sets for Fintech Applications. (arXiv:2311.00964v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.09174](http://arxiv.org/abs/2401.09174)
+    [http://arxiv.org/abs/2311.00964](http://arxiv.org/abs/2311.00964)
 
-    本文研究了竞争和主导地位对航空公司保持准时表现的影响，并发现机场拥堵内部化和航线质量竞争是重要因素。此外，廉价航空公司的进入还会对未进入的航线产生非价格溢出效应。
-
-    
-
-    本文建立了一个计量模型来研究竞争和主导地位对航空公司保持准时表现的激励影响。我们考虑了航线和机场两个层次，检查了竞争的局部和全局效应，并利用一个统一框架来测试1.机场拥堵内部化和2.市场竞争-质量关系的假设。具体来说，我们研究了廉价航空公司（LCC）进入巴西航空业对现有全服务航空公司航班延误的影响。主要结果表明，机场拥堵自我内部化的影响非常显著，与航线质量竞争并存。此外，LCC存在的潜在竞争引发了全局效应，表明LCC进入对未进入的航线存在非价格溢出效应。
-
-    This paper develops an econometric model of flight delays to investigate the influence of competition and dominance on the incentives of carriers to maintain on-time performance. We consider both the route and the airport levels to inspect the local and global effects of competition, with a unifying framework to test the hypotheses of 1. airport congestion internalization and 2. the market competition-quality relationship in a single econometric model. In particular, we examine the impacts of the entry of low cost carriers (LCC) on the flight delays of incumbent full service carriers in the Brazilian airline industry. The main results indicate a highly significant effect of airport congestion self-internalization in parallel with route-level quality competition. Additionally, the potential competition caused by LCC presence provokes a global effect that suggests the existence of non-price spillovers of the LCC entry to non-entered routes.
-    
-[^5]: 由$G$-布朗运动驱动的均场随机微分方程
-
-    Mean-Field SDEs driven by $G$-Brownian Motion. (arXiv:2401.09113v1 [math.PR])
-
-    [http://arxiv.org/abs/2401.09113](http://arxiv.org/abs/2401.09113)
-
-    该论文通过引入$G$-布朗运动驱动，扩展了均场随机微分方程，并且考虑了系数与解之间的依赖关系。
+    本文研究了在金融科技应用中寻找高质量的双目标 Pareto 最优欺诈预防规则集的问题。通过采用 Pareto 最优性概念和启发式框架 PORS，我们成功提出了一组非支配的规则子集，并通过实证评估证明了其有效性。
 
     
 
-    我们将均场随机微分方程的概念推广到由$G$-布朗运动驱动的随机微分方程。具体而言，我们考虑一个$G$-SDE，其中系数不仅依赖于时间和当前状态，还依赖于解作为随机变量。
+    规则在金融科技机构中被广泛用于进行欺诈预防决策，因为规则具有直观的 if-then 结构，易于理解。在实践中，大型金融科技机构通常采用两阶段欺诈预防决策规则集挖掘框架。本文关注于从初始规则集中找到高质量的规则子集，以双目标空间（如精确率和召回率）为基础。为此，我们采用 Pareto 最优性概念，旨在找到一组非支配的规则子集，构成一个 Pareto 前沿。我们提出了一个基于启发式的框架 PORS，并确定了 PORS 的核心问题是前沿解决方案选择（SSF）问题。我们对 SSF 问题进行了系统分类，并在公开和专有数据集上进行了全面的实证评估。我们还引入了一种名为 SpectralRules 的新颖变体的顺序覆盖算法，以鼓励规则的多样性。
 
-    We extend the notion of mean-field SDEs to SDEs driven by $G$-Brownian motion. More precisely, we consider a $G$-SDE where the coefficients depend not only on time and the current state but also on the solution as random variable.
+    Rules are widely used in Fintech institutions to make fraud prevention decisions, since rules are highly interpretable thanks to their intuitive if-then structure. In practice, a two-stage framework of fraud prevention decision rule set mining is usually employed in large Fintech institutions. This paper is concerned with finding high-quality rule subsets in a bi-objective space (such as precision and recall) from an initial pool of rules. To this end, we adopt the concept of Pareto optimality and aim to find a set of non-dominated rule subsets, which constitutes a Pareto front. We propose a heuristic-based framework called PORS and we identify that the core of PORS is the problem of solution selection on the front (SSF). We provide a systematic categorization of the SSF problem and a thorough empirical evaluation of various SSF methods on both public and proprietary datasets. We also introduce a novel variant of sequential covering algorithm called SpectralRules to encourage the diver
     
-[^6]: AI推动：拉丁美洲科技初创投资新兴大国排名
+[^10]: 考虑和偏好中的同伴影响
 
-    AI Thrust: Ranking Emerging Powers for Tech Startup Investment in Latin America. (arXiv:2401.09056v1 [econ.GN])
+    Peer Effects in Consideration and Preferences. (arXiv:2310.12272v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.09056](http://arxiv.org/abs/2401.09056)
+    [http://arxiv.org/abs/2310.12272](http://arxiv.org/abs/2310.12272)
 
-    本文提出了一种基于基础设施、教育和金融方面的评估方法，对拉丁美洲国家的AI发展潜力进行排名。排名结果显示，阿根廷、哥伦比亚和乌拉圭等国具备成为拉丁美洲AI新兴大国的潜力。
-
-    
-
-    人工智能（AI）正在快速改变全球经济，拉丁美洲也不例外。近年来，该地区在AI发展和应用方面引起了越来越多的关注。本文提出了一个基于潜力的排名，评估拉丁美洲国家成为AI新兴大国的可能性。排名基于基础设施、教育和金融三个方面。基础设施方面，衡量指标包括电力供应、高速互联网的可用性、电信网络质量以及超级计算机的可用性。教育方面，衡量指标包括教育质量和研究水平。金融方面，衡量指标包括投资成本、投资历史、经济指标和当前AI应用情况。尽管巴西、智利和墨西哥已经在拉丁美洲AI产业中扮演重要角色，但我们的排名展示了该地区的新兴大国。根据结果，阿根廷、哥伦比亚和乌拉圭等国是拉丁美洲AI领域的新兴力量。
-
-    Artificial intelligence (AI) is rapidly transforming the global economy, and Latin America is no exception. In recent years, there has been a growing interest in AI development and implementation in the region. This paper presents a ranking of Latin American (LATAM) countries based on their potential to become emerging powers in AI. The ranking is based on three pillars: infrastructure, education, and finance. Infrastructure is measured by the availability of electricity, high-speed internet, the quality of telecommunications networks, and the availability of supercomputers. Education is measured by the quality of education and the research status. Finance is measured by the cost of investments, history of investments, economic metrics, and current implementation of AI.  While Brazil, Chile, and Mexico have established themselves as major players in the AI industry in Latin America, our ranking demonstrates the new emerging powers in the region. According to the results, Argentina, Col
-    
-[^7]: 关于状态相关效用的连续性
-
-    On continuity of state-dependent utilities. (arXiv:2401.09054v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2401.09054](http://arxiv.org/abs/2401.09054)
-
-    本文证明了对于一般的Savage状态空间，状态相关偏好满足点点连续性，从而积极回答了一个重要猜想，并进一步得到了条件Chisini均值的显式表示形式。
+    该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。
 
     
 
-    在Wakker和Zank（1999）的论文中证明，对于一般的Savage状态空间，只要假设偏好排序是点点连续的，就可以通过状态相关效用的积分形式来表示状态相关偏好。在本文中，我们证明了这种状态相关函数从偏好排序中继承了点点连续性，从而积极回答了前述重要工作中的一个猜想。我们进一步应用这个结果，以获得条件Chisini均值的显式表示，这个表示形式是一个条件等值。
+    我们开发了一个一般的离散选择模型，将同伴影响纳入偏好和考虑集中。我们对平衡行为进行描述，并建立了一系列选择中能恢复模型各个部分的条件。我们允许同伴影响只作用于偏好、只作用于考虑，或者同时作用于两者。我们利用不同类型的变化来区分偏好和考虑集中的同伴影响。这使我们能够恢复网络中代理之间的连接集合（和类型）。然后我们利用这些信息来恢复每个代理人的随机偏好和注意机制。这些非参数识别结果允许代理人之间的无限异质性，并不依赖于协变量或可用选项（或菜单）的变化。我们将我们的结果应用于咖啡连锁店的扩张决策，并发现有限的考虑证据。我们进行了反事实预测模拟，并展示了有限的考虑如何影响决策。
 
-    State-dependent preferences for a general Savage's state space were shown in Wakker and Zank (1999) to admit a numerical representation in the form of the integral of a state-dependent utility, as soon as pointwise continuity of the preference ordering is assumed. In this paper we prove that such a state-dependent function inherits pointwise continuity from the preference ordering, providing in this way a positive answer to a conjecture posed in the aforementioned seminal work. We further apply this result to obtain an explicit representation of conditional Chisini means in the form of a conditional certainty equivalent.
+    We develop a general model of discrete choice that incorporates peer effects in preferences and consideration sets. We characterize the equilibrium behavior and establish conditions under which all parts of the model can be recovered from a sequence of choices. We allow peers to affect only preferences, only consideration, or both. We exploit different types of variations to separate the peer effects in preferences and consideration sets. This allows us to recover the set (and type) of connections between the agents in the network. We then use this information to recover the random preferences and the attention mechanisms of each agent. These nonparametric identification results allow unrestricted heterogeneity across agents and do not rely on the variation of either covariates or the set of available options (or menus). We apply our results to model expansion decisions by coffee chains and find evidence of limited consideration. We simulate counterfactual predictions and show how limi
     
-[^8]: 信用风险压力测试模型中的虚假违约概率预测
+[^11]: COVID-19需求冲击再探：广告技术是否帮助减轻中小型企业的负面影响?
 
-    Spurious Default Probability Projections in Credit Risk Stress Testing Models. (arXiv:2401.08892v1 [q-fin.RM])
+    COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?. (arXiv:2307.09035v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.08892](http://arxiv.org/abs/2401.08892)
+    [http://arxiv.org/abs/2307.09035](http://arxiv.org/abs/2307.09035)
 
-    信用风险压力测试模型中的一个问题是，无论对模型施加何种压力，银行当前资产组合都倾向于向平均经济状态投资组合转变，这可能导致不必要的虚假推测产生。
-
-    
-
-    信用风险压力测试已成为银行内部和监管机构都广泛使用的重要风险管理工具。压力测试的复杂性源于需要基于宏观经济情景对银行的全面资产负债表进行多年的条件性预测。其中一部分复杂性来自于使用各种模型参数，如评级转换、核销规则、提前偿还或新贷款的发放。传统的信用风险压力测试模型的参数化是基于一个平均经济状态，通过宏观经济模型将这些参数转换到压力状态。本文将展示，模型参数化意味着存在一个与银行当前资产组合无关的唯一的平均经济状态投资组合。不论对模型施加何种压力，当前资产组合都有向平均经济状态投资组合的倾向。这可能导致不必要的虚假推测产生。
-
-    Credit risk stress testing has become an important risk management device which is used both by banks internally and by regulators. Stress testing is complex because it essentially means projecting a bank's full balance sheet conditional on a macroeconomic scenario over multiple years. Part of the complexity stems from using a wide range of model parameters for, e.g., rating transition, write-off rules, prepayment, or origination of new loans. A typical parameterization of a credit risk stress test model specifies parameters linked to an average economic, the through-the-cycle, state. These parameters are transformed to a stressed state by utilizing a macroeconomic model. It will be shown that the model parameterization implies a unique through-the-cycle portfolio which is unrelated to a bank's current portfolio. Independent of the stress imposed to the model, the current portfolio will have a tendency to propagate towards the through-the-cycle portfolio. This could create unwanted spu
-    
-[^9]: 自动化设计评估：预测由于当地开发导致的房地产价格增长和价值风险
-
-    Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk due to Local Development. (arXiv:2401.08645v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.08645](http://arxiv.org/abs/2401.08645)
-
-    自动化设计评估（ADA）方法用于预测建筑设计概念的市场价格，在综合影响评估中测量城市发展的直接和局部效应，揭示设施与财产价值之间的关系，并作为建筑设计优化程序的蓝图。
+    该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。
 
     
 
-    在建筑设计评估中，金融指标仅限于成本绩效。在这里，我介绍了一种方法，自动化设计评估（ADA），用于预测在当地城市背景下生成的建筑设计概念的市场价格。将ADA与3D建筑性能模拟相结合，可以进行超出以前工作空间分辨率的财务影响评估。在综合影响评估中，ADA测量城市发展的直接和局部效应。为了证明其实用性，我研究了由于附近发展导致的当地贬值风险，这与视觉景观质量的变化有关。结果揭示了设施与财产价值之间的关系，识别出物业簇与当地土地利用变化存在物理暴露或财务敏感性。除了作为财务敏感性工具的应用外，ADA还可以作为建筑设计优化程序的蓝图，其中经济绩效是中心。
+    研究探讨了COVID-19大流行对企业绩效和生存的影响，表明中小型企业（SMBs）受到的负面影响尤为严重。然而，目前对在线广告技术是否以及如何帮助塑造这些结果的研究还很有限，尤其是对SMBs而言。本研究旨在填补这一空白。通过构建和分析一个包含49个国家超过60,000家企业的新数据集，我们研究了政府封锁措施对企业生存的影响。使用离散时间生存模型进行工具变量的差分过程估计，我们发现政府封锁措施增加了全球范围内SMB关闭的可能性，但在线广告技术的使用减轻了这种负面影响。研究结果显示了国家、行业和企业规模的异质性，与理论预期一致。
 
-    Financial criteria in architectural design evaluation are limited to cost performance. Here, I introduce a method, Automated Design Appraisal (ADA), to predict the market price of a generated building design concept within a local urban context. Integrating ADA with 3D building performance simulations enables financial impact assessment that exceeds the spatial resolution of previous work. Within an integrated impact assessment, ADA measures the direct and localized effect of urban development. To demonstrate its practical utility, I study local devaluation risk due to nearby development associated with changes to visual landscape quality. The results shed light on the relationship between amenities and property value, identifying clusters of properties physically exposed or financially sensitive to local land-use change. Beyond its application as a financial sensitivity tool, ADA serves as a blueprint for architectural design optimization procedures, in which economic performance is e
+    Research has investigated the impact of the COVID-19 pandemic on business performance and survival, indicating particularly adverse effects for small and midsize businesses (SMBs). Yet only limited work has examined whether and how online advertising technology may have helped shape these outcomes, particularly for SMBs. The aim of this study is to address this gap. By constructing and analyzing a novel data set of more than 60,000 businesses in 49 countries, we examine the impact of government lockdowns on business survival. Using discrete-time survival models with instrumental variables and staggered difference-in-differences estimators, we find that government lockdowns increased the likelihood of SMB closure around the world but that use of online advertising technology attenuates this adverse effect. The findings show heterogeneity in country, industry, and business size, consistent with theoretical expectations.
     
-[^10]: 使用Liquid Staking Derivatives (LSDs)进行杠杆质押: 机会与风险
+[^12]: 用于分析加密货币收益的期望隐马尔可夫回归模型
 
-    Leverage Staking with Liquid Staking Derivatives (LSDs): Opportunities and Risks. (arXiv:2401.08610v1 [q-fin.GN])
+    Expectile hidden Markov regression models for analyzing cryptocurrency returns. (arXiv:2301.09722v2 [stat.AP] UPDATED)
 
-    [http://arxiv.org/abs/2401.08610](http://arxiv.org/abs/2401.08610)
+    [http://arxiv.org/abs/2301.09722](http://arxiv.org/abs/2301.09722)
 
-    这项研究系统地研究了Liquid Staking Derivatives (LSDs)的杠杆质押机会与风险。他们发现杠杆质押在Lido-Aave生态系统中能够实现较高的回报，并有潜力通过优化策略获得更多收益。
-
-    
-
-    Lido是以太坊上最主要的Liquid Staking Derivative (LSD)提供商，允许用户抵押任意数量的ETH来获得stETH，这可以与DeFi协议如Aave进行整合。Lido与Aave之间的互通性使得一种新型策略“杠杆质押”得以实现，用户在Lido上质押ETH获取stETH，将stETH作为Aave上的抵押品借入ETH，然后将借入的ETH重新投入Lido。用户可以迭代执行此过程，根据自己的风险偏好来优化潜在回报。本文系统地研究了杠杆质押所涉及的机会和风险。我们是第一个在Lido-Aave生态系统中对杠杆质押策略进行形式化的研究。我们的经验研究发现，在以太坊上有262个杠杆质押头寸，总质押金额为295,243 ETH（482M USD）。我们发现，90.13%的杠杆质押头寸实现了比传统质押更高的回报。
-
-    Lido, the leading Liquid Staking Derivative (LSD) provider on Ethereum, allows users to stake an arbitrary amount of ETH to receive stETH, which can be integrated with Decentralized Finance (DeFi) protocols such as Aave. The composability between Lido and Aave enables a novel strategy called "leverage staking", where users stake ETH on Lido to acquire stETH, utilize stETH as collateral on Aave to borrow ETH, and then restake the borrowed ETH on Lido. Users can iteratively execute this process to optimize potential returns based on their risk profile.  This paper systematically studies the opportunities and risks associated with leverage staking. We are the first to formalize the leverage staking strategy within the Lido-Aave ecosystem. Our empirical study identifies 262 leverage staking positions on Ethereum, with an aggregated staking amount of 295,243 ETH (482M USD). We discover that 90.13% of leverage staking positions have achieved higher returns than conventional staking. Furtherm
-    
-[^11]: 金融经济学中的分叉路径
-
-    Forking paths in financial economics. (arXiv:2401.08606v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2401.08606](http://arxiv.org/abs/2401.08606)
-
-    本论文通过三个研究探讨了在金融经济学中应用分叉路径能够提高效应描述和结论可信度的方法。通过增加自由度以及使用分叉路径，能够更准确预测股票溢价、提高异常的显著性门槛，并揭示出溢价估计中特定步骤的重要性。
+    本文提出了一种用于分析加密货币收益的期望隐马尔可夫回归模型，该方法允许专注于极端收益，并通过引入时间演变的系数来描述其演变，通过对比每日比特币收益和主要世界市场指数之间的关系验证了该方法。
 
     
 
-    我们认为，在经验分析中涵盖大量自由度能更好地描述效应，从而提高结论的可信度。我们通过三个研究来说明我们的观点：股票溢价预测、资产定价异常和风险溢价估计。在第一个研究中，我们发现，协议中每增加一个自由度，t统计量的平均范围至少扩大30％。在第二个研究中，我们展示了相对于自助法在多重检验中使用分叉路径会提高异常的显著性门槛：在95％的置信水平下，自助法的阈值为4.5，而采用路径则至少为8.2，远高于目前文献中使用的门槛。在我们的第三个应用中，我们揭示了溢价估计中特定步骤的重要性。此外，我们使用路径来支持这三个主题中的先前发现。我们记录了在复制先前研究中的能力中的异质性。
+    本文提出了一种线性期望隐马尔可夫模型，用于在风险管理框架中分析加密货币时间序列。所提出的方法允许专注于极端收益，并通过引入模型中随时间变化的系数来描述它们的时间演变，这些系数根据潜变的离散齐次马尔可夫链演化。与期望分位数文献中经常使用的方法类似，模型参数的估计基于非对称正态分布。通过使用高效的M步更新公式对所有参数进行期望最大化算法获得最大似然估计。我们通过人工数据和实际数据评估了该方法，研究了每日比特币收益与主要世界市场指数之间的关系。
 
-    We argue that spanning large numbers of degrees of freedom in empirical analysis allows better characterizations of effects and thus improves the trustworthiness of conclusions. Our ideas are illustrated in three studies: equity premium prediction, asset pricing anomalies and risk premia estimation. In the first, we find that each additional degree of freedom in the protocol expands the average range of $t$-statistics by at least 30%. In the second, we show that resorting to forking paths instead of bootstrapping in multiple testing raises the bar of significance for anomalies: at the 5% confidence level, the threshold for bootstrapped statistics is 4.5, whereas with paths, it is at least 8.2, a bar much higher than those currently used in the literature. In our third application, we reveal the importance of particular steps in the estimation of premia. In addition, we use paths to corroborate prior findings in the three topics. We document heterogeneity in our ability to replicate pri
+    In this paper we develop a linear expectile hidden Markov model for the analysis of cryptocurrency time series in a risk management framework. The methodology proposed allows to focus on extreme returns and describe their temporal evolution by introducing in the model time-dependent coefficients evolving according to a latent discrete homogeneous Markov chain. As it is often used in the expectile literature, estimation of the model parameters is based on the asymmetric normal distribution. Maximum likelihood estimates are obtained via an Expectation-Maximization algorithm using efficient M-step update formulas for all parameters. We evaluate the introduced method with both artificial data under several experimental settings and real data investigating the relationship between daily Bitcoin returns and major world market indices.
     
-[^12]: 强化学习和深度随机最优控制在最终二次对冲中的应用
+[^13]: MAD风险平价组合
 
-    Reinforcement Learning and Deep Stochastic Optimal Control for Final Quadratic Hedging. (arXiv:2401.08600v1 [q-fin.CP])
+    MAD Risk Parity Portfolios. (arXiv:2110.12282v2 [q-fin.PM] UPDATED)
 
-    [http://arxiv.org/abs/2401.08600](http://arxiv.org/abs/2401.08600)
+    [http://arxiv.org/abs/2110.12282](http://arxiv.org/abs/2110.12282)
 
-    本文研究应用强化学习和深度随机最优控制方法在最终二次对冲中，通过实验发现这两种方法在不同市场环境下的表现优势和局限性，并提出了状态变量的解决方案。
-
-    
-
-    我们考虑了两种数据驱动方法，强化学习（RL）和基于轨迹的深度随机最优控制（DTSOC），用于在没有和有交易成本的情况下对冲欧式看涨期权，根据二次对冲的利润和损失目标来衡量（“方差最优对冲”或“最终二次对冲”）。我们研究了这两种方法在不同的市场环境下（通过Black-Scholes模型和/或对数正态SABR模型建模）的表现，以了解它们的优势和局限性。在没有交易成本和Black-Scholes模型中，这两种方法与方差最优Delta对冲的表现相匹配。在没有交易成本和对数正态SABR模型中，它们与方差最优Bartlett's Delta对冲的表现相匹配。在具有匹配初始波动率的Black-Scholes轨迹上训练的代理模型在SABR轨迹上使用可以在平均成本上与Bartlett's Delta对冲的表现相匹配，但方差更大。为了应用强化学习方法，我们还引入了状态变量。
-
-    We consider two data driven approaches, Reinforcement Learning (RL) and Deep Trajectory-based Stochastic Optimal Control (DTSOC) for hedging a European call option without and with transaction cost according to a quadratic hedging P&L objective at maturity ("variance-optimal hedging" or "final quadratic hedging"). We study the performance of the two approaches under various market environments (modeled via the Black-Scholes and/or the log-normal SABR model) to understand their advantages and limitations. Without transaction costs and in the Black-Scholes model, both approaches match the performance of the variance-optimal Delta hedge. In the log-normal SABR model without transaction costs, they match the performance of the variance-optimal Barlett's Delta hedge. Agents trained on Black-Scholes trajectories with matching initial volatility but used on SABR trajectories match the performance of Bartlett's Delta hedge in average cost, but show substantially wider variance. To apply RL app
-    
-[^13]: 非银行业发展对经济增长的影响：一种夜间灯光数据方法
-
-    Non-Banking Sector development effect on Economic Growth. A Nighttime light data approach. (arXiv:2401.08596v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.08596](http://arxiv.org/abs/2401.08596)
-
-    本文利用夜间灯光数据来衡量南非保险业与经济增长之间的关系，并发现保险业对南非经济发展具有更强的预测能力。
+    本文研究了使用Mean Absolute Deviation (MAD)作为风险度量的风险平价（RP）组合的特点和表现，提出了计算MAD-RP组合的方法，并通过实证分析表明，RP方法通常在风险和盈利方面介于最小风险和等权策略之间。
 
     
 
-    本文利用夜间灯光数据来衡量南非非银行业（特别是保险业）与经济增长之间的关系。我们假设保险业的增长对经济增长起到积极推动作用，原因是它具有投资保护和风险优化的特点。我们还声称夜间灯光数据是比国内生产总值更好的经济指标。我们使用加权回归来衡量夜间灯光数据、国内生产总值和保险业发展之间的关系。我们使用来自世界银行的南非国内生产总值的时间序列数据（2000-2018年），以及与美国国家海洋和大气管理局合作的国家地球物理数据中心（NGDC）的夜间灯光数据。从拟合的模型和报告的BIC，AIC和似然比中可以看出，保险业在南非经济发展方面具有更强的预测能力。
+    本文研究使用Mean Absolute Deviation (MAD)作为风险度量的风险平价（RP）组合的特点和表现。RP模型是一种最近的资产配置策略，旨在在投资宇宙的所有资产之间均等分担全局组合风险。我们在这里讨论了一些关于MAD属性的现有和新的结果，对RP方法很有用。我们提出了几种计算MAD-RP组合的方法，并在准确性和效率方面进行比较。此外，我们基于三个真实世界的数据集进行了广泛的实证分析，结果显示RP方法的表现通常介于最小风险和等权策略所获得的风险和盈利之间。
 
-    This paper uses nighttime light(NTL) data to measure the nexus of the non-banking sector, particularly insurance, and economic growth in South Africa. We hypothesize that insurance sector growth positively propels economic growth due to its economic growth-supportive traits like investment protection and optimal risk mitigation. We also claim that Nighttime light data is a good economic measure than Gross domestic product (GDP). We used weighted regressions to measure the relationships between nighttime light data, GDP, and insurance sector development. We used time series South African GDP data collected from the World Bank for the period running from 2000 to 2018, and the nighttime lights data from the National Geophysical Data Centre (NGDC) in partnership with the National Oceanic and Atmospheric Administration (NOAA). From the models fitted and the reported BIC, AIC, and likelihood ratios, the insurance sector proved to have more predictive power on economic development in South Af
+    In this paper, we investigate the features and the performance of the Risk Parity (RP) portfolios using the Mean Absolute Deviation (MAD) as a risk measure. The RP model is a recent strategy for asset allocation that aims at equally sharing the global portfolio risk among all the assets of an investment universe. We discuss here some existing and new results about the properties of MAD that are useful for the RP approach. We propose several formulations for finding MAD-RP portfolios computationally, and compare them in terms of accuracy and efficiency. Furthermore, we provide extensive empirical analysis based on three real-world datasets, showing that the performances of the RP approaches generally tend to place both in terms of risk and profitability between those obtained from the minimum risk and the Equally Weighted strategies.
     
-[^14]: 如何测量服务贸易弹性？
+[^14]: 补贴包容性保险以减少贫困
 
-    How do we measure trade elasticity for services?. (arXiv:2401.08594v1 [econ.GN])
+    Subsidising Inclusive Insurance to Reduce Poverty. (arXiv:2103.17255v3 [stat.AP] UPDATED)
 
-    [http://arxiv.org/abs/2401.08594](http://arxiv.org/abs/2401.08594)
+    [http://arxiv.org/abs/2103.17255](http://arxiv.org/abs/2103.17255)
 
-    本研究通过汇率变动来识别服务贸易的弹性，解决了因内生性问题而无法找到工具变量的困境。通过应用于多种不同的有形商品，评估了该方法的性能。
-
-    
-
-    本文试图通过汇率变动来识别出贸易弹性，以应用于服务贸易的情况，其中实际交易统计数据中的物理交易被掩盖。回归分析用于估计弹性，涉及到解释变量通过潜在的供应方程泄露到误差项中，导致了内生性问题，无法找到工具变量。我们的识别策略是利用归一化条件，使得供应参数能够被识别，以及需求和供应方程系统的约化形式方程。通过应用于几种不同的有形商品，我们评估了所提出的方法的性能，这些商品的基准贸易弹性可以通过利用其物理交易信息进行估计。
-
-    This paper is about our attempt of identifying trade elasticities through the variations in the exchange rate, for possible applications to the case of services whose physical transactions are veiled in the trade statistics. The regression analysis to estimate the elasticity entails a situation where the explanatory variable is leaked into the error term through the latent supply equation, causing an endogeneity problem for which an instrumental variable cannot be found. Our identification strategy is to utilize the normalizing condition, which enables the supply parameter to be identified, along with the reduced-form equation of the system of demand and supply equations. We evaluate the performances of the method proposed by applying to several different tangible goods, whose benchmark trade elasticities are estimable by utilizing the information on their physical transactions.
-    
-[^15]: 燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响研究
-
-    Incremento del precio de los combustibles y su incidencia en los productos de la canasta basica del canton el triunfo, provincia del guayas. (arXiv:2401.08590v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.08590](http://arxiv.org/abs/2401.08590)
-
-    本研究分析了燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响，通过调查家庭购买力变化和简单线性回归分析发现了相关性。
+    本文评估了政府与私人保险公司之间的合作以及微型保险产品在减贫方面的作用，结果显示通过补贴可以实现最大化的社会效益并降低政府成本。
 
     
 
-    本研究目的是分析燃料价格上涨对瓜亚斯省特里翁福市基本物品篮的影响。采用非实验性定量研究方法，研究对象为该市家庭，旨在确定燃料价格上涨后他们的消费水平受到了怎样的影响。随机选取了95个人进行调查，调查工具是针对燃料价格上涨后家庭购买力的问卷调查。结果通过克朗巴赫α系数进行处理，并反映在饼图中。通过简单线性回归分析相关独立和依赖变量，以确定它们之间的关联性。
+    本文评估了政府与私人保险公司之间的协调和合作的好处，并提供了关于微型保险产品作为实现减贫的强大和具有成本效益的工具的进一步证据。为了探讨这些观点，我们从破产理论的角度对家庭的资本进行建模，以衡量微型保险对贫困动态和社会保护的政府成本的影响。我们在四个框架下分析了该模型：未投保、投保（无补贴）、投保（补贴的固定保费）和投保（补贴的灵活保费）。虽然仅仅保险（无补贴）可能不足以减少特定群体家庭陷入贫困的可能性，因为保费支付限制了他们的资本增长，但我们的分析表明，补贴计划可以提供最大的社会效益，同时降低政府成本。
 
-    The objective of this research was to analyze the impact of the increase in the price of fuels and its incidence on the products of the basic basket of the El Triunfo, the province of Guayas. In the present study, the non-experimental quantitative method was used. The study population was limited to the families of the town, seeking to determine how their level of consumption was impacted after the increase in fuels. Just 95 people were randomly taken. The study instrument that was used was surveys, with a focus on the purchasing power of families with respect to the basic basket after the increase in fuel prices. The results were processed through Cronbach's Alpha and reflected in pie charts. The independent and dependent variable that make up our study, were related through a simple linear regression, to determine if they correlate with each other.  Keywords: Fuels, Basic basket, Linear regression, Subsidies, Inflation
-    
-[^16]: 在双边市场中匹配用户和创作者的研究
-
-    Matching of Users and Creators in Two-Sided Markets with Departures. (arXiv:2401.00313v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2401.00313](http://arxiv.org/abs/2401.00313)
-
-    本论文提出了一个双边市场中匹配用户和创作者的模型，并展示了一个以用户为中心的贪心算法可能导致整体参与度下降的问题。
-
-    
-
-    现今许多在线平台，包括社交媒体网站，都是桥接内容创作者与用户的双边市场。现有的关于平台推荐算法的文献主要集中在用户偏好和决策上，并没有同时考虑到创作者的动机。我们提出了一个内容推荐模型，明确关注用户-内容匹配的动态过程，其新颖之处在于如果用户和创作者没有足够的参与感，他们都可能永久离开平台。在我们的模型中，每个参与者根据当前匹配的实用性决定是否在每个时间步参与：用户基于推荐内容与其偏好的一致性，而创作者则基于其受众规模。我们证明了一种以用户为中心的贪心算法，如果不考虑创作者的离开，可能导致整体参与度任意下降，相对于考虑到双方利益最大化整体参与度的算法。
-
-    Many online platforms of today, including social media sites, are two-sided markets bridging content creators and users. Most of the existing literature on platform recommendation algorithms largely focuses on user preferences and decisions, and does not simultaneously address creator incentives. We propose a model of content recommendation that explicitly focuses on the dynamics of user-content matching, with the novel property that both users and creators may leave the platform permanently if they do not experience sufficient engagement. In our model, each player decides to participate at each time step based on utilities derived from the current match: users based on alignment of the recommended content with their preferences, and creators based on their audience size. We show that a user-centric greedy algorithm that does not consider creator departures can result in arbitrarily poor total engagement, relative to an algorithm that maximizes total engagement while accounting for two
-    
-[^17]: 激励营养：来自丹麦“脂肪税”的教训
-
-    Nudging Nutrition: Lessons from the Danish "Fat Tax". (arXiv:2312.11481v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2312.11481](http://arxiv.org/abs/2312.11481)
-
-    丹麦的“脂肪税”对不同产品类别的消费和支出行为有不同程度的影响，特别是对低收入家庭而言。在税收实施期间，培根、肝肠、莎莉米和奶酪的消费有显著下降，而黄油、奶油、人造黄油和酸奶的支出则有增加。税收废除后，对这些税收目标的消费和支出行为没有持续影响。
-
-    
-
-    2011年10月，丹麦引入了世界上第一个也是迄今为止唯一一个针对饱和脂肪的税收。然而，这项税收在2013年1月被废止。利用来自未课税的北德消费者的外生变动，我们采用差异研究法估计了税收实施和废除对税收目标的八个产品类别的消费和支出行为的因果效应。我们的发现揭示了这些产品的税收影响的显著异质性。在课税期间，特别是在低收入家庭中，培根、肝肠、莎莉米和奶酪的消费明显下降。相比之下，随着价格上涨，黄油、奶油、人造黄油和酸奶的支出增加。有趣的是，我们没有观察到高收入和低收入家庭在支出增加方面的差异，这表明低收入家庭受到了税收的不成比例影响。在税收废除之后，创新的研究方法表明对这些税收目标的消费和支出行为没有产生持续的影响。
-
-    In October 2011, Denmark introduced the world's first and, to date, only tax targeting saturated fat. However, this tax was subsequently abolished in January 2013. Leveraging exogenous variation from untaxed Northern-German consumers, we employ a difference-in-differences approach to estimate the causal effects of both the implementation and repeal of the tax on consumption and expenditure behavior across eight product categories targeted by the tax. Our findings reveal significant heterogeneity in the tax's impact across these products. During the taxed period, there was a notable decline in consumption of bacon, liver sausage, salami, and cheese, particularly among low-income households. In contrast, expenditure on butter, cream, margarine, and sour cream increased as prices rose. Interestingly, we do not observe any difference in expenditure increases between high and low-income households, suggesting that the latter were disproportionately affected by the tax. After the repeal of t
-    
-[^18]: 使用注意力驱动的动态因子学习的生成CVaR组合优化算法
-
-    Generative CVaR Portfolio Optimization with Attention-Powered Dynamic Factor Learning. (arXiv:2301.07318v3 [q-fin.PM] UPDATED)
-
-    [http://arxiv.org/abs/2301.07318](http://arxiv.org/abs/2301.07318)
-
-    本论文提出了一种使用注意力驱动的动态因子学习的生成CVaR组合优化算法，通过随机变量转换作为分布建模的隐式方式，以及使用注意力-GRU网络进行动态学习和预测，捕捉了多元股票收益之间的动态依赖关系，特别是关注尾部属性。通过在每个投资日期从学习到的生成模型中模拟新样本，并进一步应用CVaR组合优化策略，实现了更明智的投资决策。
-
-    
-
-    动态组合构建问题需要动态建模多元股票收益的联合分布。为了实现这一目标，我们提出了一种动态生成因子模型，它使用随机变量转换作为分布建模的隐式方式，并依赖于使用注意力-GRU网络进行动态学习和预测。所提出的模型捕捉了多元股票收益之间的动态依赖关系，特别是关注尾部属性。我们还提出了一个两步迭代算法来训练模型，然后预测时变的模型参数，包括时不变的尾部参数。在每个投资日期，我们可以轻松地从学习到的生成模型中模拟新样本，并进一步使用模拟样本来进行CVaR组合优化，形成动态组合策略。对股票数据的数值实验表明，我们的模型可以带来更明智的投资，承诺更高的回报风险比，并呈现出...
-
-    The dynamic portfolio construction problem requires dynamic modeling of the joint distribution of multivariate stock returns. To achieve this, we propose a dynamic generative factor model which uses random variable transformation as an implicit way of distribution modeling and relies on the Attention-GRU network for dynamic learning and forecasting. The proposed model captures the dynamic dependence among multivariate stock returns, especially focusing on the tail-side properties. We also propose a two-step iterative algorithm to train the model and then predict the time-varying model parameters, including the time-invariant tail parameters. At each investment date, we can easily simulate new samples from the learned generative model, and we further perform CVaR portfolio optimization with the simulated samples to form a dynamic portfolio strategy. The numerical experiment on stock data shows that our model leads to wiser investments that promise higher reward-risk ratios and present l
-    
-[^19]: 《资产定价的三点备注》
-
-    Three Remarks On Asset Pricing. (arXiv:2105.13903v4 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2105.13903](http://arxiv.org/abs/2105.13903)
-
-    该论文研究了基于消费的资产定价模型，在该模型中推导出了新的修改基本定价方程，利用泰勒级数展开逐次逼近投资者效用，并给出了线性和二次逼近的新表达式。此外，论文还讨论了价格概率的市场起源，并引入了基于市场的平均价格和价格波动率。研究发现使用加权平均价格导致价格和交易量之间的相关性为零，同时还发现了价格与交易量的平方以及价格的平方与交易量的平方之间存在相关性。最后，论文指出预测基于市场的价格波动率需要对市场交易值和交易量的二维统计矩进行预测。
-
-    
-
-    我们考虑了基于消费的资产定价模型，推导出一个新的修改基本定价方程，并使用投资者效用的泰勒级数展开来展示其逐次逼近过程。对于线性和二次泰勒逼近，我们推导出了均值价格、均值回报、波动率、偏度以及定义投资者效用最大值的资产数量的新表达式。我们讨论了价格概率的市场起源。我们使用加权平均价格(VWAP)作为基于市场的平均价格，并引入基于市场的价格波动率。使用VWAP导致价格p和交易量U之间的关联为零。我们推导出了价格p与交易量的平方{U^2}以及价格的平方{p^2}和交易量的平方{U^2}之间的相关性。要预测基于市场的价格波动率，需要在相同的预测时点预测市场交易值和交易量的二维统计矩。
-
-    We consider the consumption-based asset pricing model, derive a new modified basic pricing equation, and present its successive approximations using the Taylor series expansions of the investor's utility during the averaging time interval. For linear and quadratic Taylor approximations, we derive new expressions for the mean price, mean payoff, volatility, skewness, and the asset's amount that define the maximum of the investor's utility. We discuss the market-based origin of price probability. We use volume weighted average price (VWAP) as a market-based average price and introduce market-based price volatility. The use of VWAP results in zero correlations between the price p and trade volume U. We derive a correlation between price p and squares of trade volume {U^2} and between squares of price {p^2} and volume {U^2}. To predict market-based price volatility, one should forecast the 2-d statistical moments of the market trade values and volumes at the same horizon T.
+    In this article, we assess the benefits of coordination and partnerships between governments and private insurers, and provide further evidence for microinsurance products as powerful and cost-effective tools for achieving poverty reduction. To explore these ideas, we model the capital of a household from a ruin-theoretic perspective to measure the impact of microinsurance on poverty dynamics and the governmental cost of social protection. We analyse the model under four frameworks: uninsured, insured (without subsidies), insured with subsidised constant premiums and insured with subsidised flexible premiums. Although insurance alone (without subsidies) may not be sufficient to reduce the likelihood of falling into the area of poverty for specific groups of households, since premium payments constrain their capital growth, our analysis suggests that subsidised schemes can provide maximum social benefits while reducing governmental costs.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Towards Hierarchical Spoken Language Dysfluency Modeling. (arXiv:2401.10015v1 [cs.CL])",
+    "abstract": "Speech dysfluency modeling is the bottleneck for both speech therapy and language learning. However, there is no AI solution to systematically tackle this problem. We first propose to define the concept of dysfluent speech and dysfluent speech modeling. We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation. Furthermore, we introduce a simulated dysfluent dataset called VCTK++ to enhance the capabilities of H-UDM in phonetic transcription. Our experimental results demonstrate the effectiveness and robustness of our proposed methods in both transcription and detection tasks.",
+    "link": "http://arxiv.org/abs/2401.10015",
+    "context": "Title: Towards Hierarchical Spoken Language Dysfluency Modeling. (arXiv:2401.10015v1 [cs.CL])\nAbstract: Speech dysfluency modeling is the bottleneck for both speech therapy and language learning. However, there is no AI solution to systematically tackle this problem. We first propose to define the concept of dysfluent speech and dysfluent speech modeling. We then present Hierarchical Unconstrained Dysfluency Modeling (H-UDM) approach that addresses both dysfluency transcription and detection to eliminate the need for extensive manual annotation. Furthermore, we introduce a simulated dysfluent dataset called VCTK++ to enhance the capabilities of H-UDM in phonetic transcription. Our experimental results demonstrate the effectiveness and robustness of our proposed methods in both transcription and detection tasks.",
+    "path": "papers/24/01/2401.10015.json",
+    "total_tokens": 784,
+    "translated_title": "向层次化口语淤塞建模迈进",
+    "translated_abstract": "口语淤塞建模是语言治疗和语言学习的瓶颈。然而，目前没有人工智能解决方案来系统地应对这个问题。我们首先提出了定义口语淤塞和口语淤塞建模的概念。然后，我们提出了一种名为Hierarchical Unconstrained Dysfluency Modeling (H-UDM)的方法，既解决了口语淤塞转录问题，又解决了检测问题，消除了对大量手动注释的需求。此外，我们还引入了一个名为VCTK++的模拟淤塞数据集，以增强H-UDM在音标转录方面的能力。我们的实验结果证明了我们提出的方法在转录和检测任务中的有效性和鲁棒性。",
+    "tldr": "本论文介绍了一种名为H-UDM的层次化口语淤塞建模方法，它能够解决口语淤塞转录和检测问题，并且消除了对大量手动注释的需求。实验结果证明了该方法在转录和检测任务中的有效性和鲁棒性。",
+    "en_tdlr": "This paper presents a hierarchical approach called H-UDM for dysfluency modeling in speech, addressing both transcription and detection tasks, and eliminating the need for extensive manual annotation. Experimental results demonstrate its effectiveness and robustness in both tasks."
+}

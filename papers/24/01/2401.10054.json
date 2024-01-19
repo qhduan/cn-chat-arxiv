@@ -1,0 +1,11 @@
+{
+    "title": "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model. (arXiv:2401.10054v1 [econ.EM])",
+    "abstract": "Timely information about the state of regional economies can be essential for planning, implementing and evaluating locally targeted economic policies. However, European regional accounts for output are published at an annual frequency and with a two-year delay. To obtain robust and more timely measures in a computationally efficient manner, we propose a mixed-frequency dynamic factor model that accounts for national information to produce high-frequency estimates of the regional gross value added (GVA). We show that our model produces reliable nowcasts of GVA in 162 regions across 12 European countries.",
+    "link": "http://arxiv.org/abs/2401.10054",
+    "context": "Title: Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model. (arXiv:2401.10054v1 [econ.EM])\nAbstract: Timely information about the state of regional economies can be essential for planning, implementing and evaluating locally targeted economic policies. However, European regional accounts for output are published at an annual frequency and with a two-year delay. To obtain robust and more timely measures in a computationally efficient manner, we propose a mixed-frequency dynamic factor model that accounts for national information to produce high-frequency estimates of the regional gross value added (GVA). We show that our model produces reliable nowcasts of GVA in 162 regions across 12 European countries.",
+    "path": "papers/24/01/2401.10054.json",
+    "total_tokens": 689,
+    "translated_title": "使用混合频率动态因子模型预测欧洲地区的经济活动",
+    "translated_abstract": "对于规划、实施和评估局部经济政策，及时获得有关地区经济状况的信息是至关重要的。然而，欧洲地区的产出数据以年度频率发布，并且存在两年的延迟。为了以计算效率高的方式获得可靠且更及时的度量值，我们提出了一种混合频率动态因子模型，考虑了国家信息，以产生区域国内生产总值（GVA）的高频估计。我们证明，我们的模型在12个欧洲国家的162个地区中产生可靠的GVA预测。",
+    "tldr": "本论文提出了一种混合频率动态因子模型，利用国家信息预测欧洲地区的经济活动，并成功在12个国家的162个地区中产生可靠的GVA预测。"
+}

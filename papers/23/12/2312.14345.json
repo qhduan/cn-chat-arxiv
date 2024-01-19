@@ -1,0 +1,12 @@
+{
+    "title": "Logic-Scaffolding: Personalized Aspect-Instructed Recommendation Explanation Generation using LLMs. (arXiv:2312.14345v2 [cs.AI] UPDATED)",
+    "abstract": "The unique capabilities of Large Language Models (LLMs), such as the natural language text generation ability, position them as strong candidates for providing explanation for recommendations. However, despite the size of the LLM, most existing models struggle to produce zero-shot explanations reliably. To address this issue, we propose a framework called Logic-Scaffolding, that combines the ideas of aspect-based explanation and chain-of-thought prompting to generate explanations through intermediate reasoning steps. In this paper, we share our experience in building the framework and present an interactive demonstration for exploring our results.",
+    "link": "http://arxiv.org/abs/2312.14345",
+    "context": "Title: Logic-Scaffolding: Personalized Aspect-Instructed Recommendation Explanation Generation using LLMs. (arXiv:2312.14345v2 [cs.AI] UPDATED)\nAbstract: The unique capabilities of Large Language Models (LLMs), such as the natural language text generation ability, position them as strong candidates for providing explanation for recommendations. However, despite the size of the LLM, most existing models struggle to produce zero-shot explanations reliably. To address this issue, we propose a framework called Logic-Scaffolding, that combines the ideas of aspect-based explanation and chain-of-thought prompting to generate explanations through intermediate reasoning steps. In this paper, we share our experience in building the framework and present an interactive demonstration for exploring our results.",
+    "path": "papers/23/12/2312.14345.json",
+    "total_tokens": 750,
+    "translated_title": "逻辑搭建：使用LLMs进行个性化的面向指导的推荐解释生成",
+    "translated_abstract": "大型语言模型（LLMs）的独特能力，如自然语言文本生成能力，使它们成为提供推荐解释的强有力候选者。然而，尽管LLM的规模很大，但大多数现有模型在可靠地产生零炮击解释方面仍存在困难。为了解决这个问题，我们提出了一个名为逻辑搭建的框架，将面向方面的解释和思维链提示的思想结合起来，通过中间推理步骤生成解释。在本文中，我们分享了构建该框架的经验，并提供了一个交互式演示来探索我们的结果。",
+    "tldr": "本研究提出了一个框架称为逻辑搭建，通过结合面向方面的解释和思维链提示的思想，在中间推理步骤中生成推荐解释。该框架能够克服现有模型在产生零炮击解释方面的困难。",
+    "en_tdlr": "This paper presents a framework called Logic-Scaffolding that generates recommendation explanations through intermediate reasoning steps by combining aspect-based explanation and chain-of-thought prompting, overcoming the difficulty in producing zero-shot explanations for existing models."
+}

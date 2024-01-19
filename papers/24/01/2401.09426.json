@@ -1,0 +1,12 @@
+{
+    "title": "Transduce: learning transduction grammars for string transformation. (arXiv:2401.09426v1 [cs.LG])",
+    "abstract": "The synthesis of string transformation programs from input-output examples utilizes various techniques, all based on an inductive bias that comprises a restricted set of basic operators to be combined. A new algorithm, Transduce, is proposed, which is founded on the construction of abstract transduction grammars and their generalization. We experimentally demonstrate that Transduce can learn positional transformations efficiently from one or two positive examples without inductive bias, achieving a success rate higher than the current state of the art.",
+    "link": "http://arxiv.org/abs/2401.09426",
+    "context": "Title: Transduce: learning transduction grammars for string transformation. (arXiv:2401.09426v1 [cs.LG])\nAbstract: The synthesis of string transformation programs from input-output examples utilizes various techniques, all based on an inductive bias that comprises a restricted set of basic operators to be combined. A new algorithm, Transduce, is proposed, which is founded on the construction of abstract transduction grammars and their generalization. We experimentally demonstrate that Transduce can learn positional transformations efficiently from one or two positive examples without inductive bias, achieving a success rate higher than the current state of the art.",
+    "path": "papers/24/01/2401.09426.json",
+    "total_tokens": 605,
+    "translated_title": "Transduce: 学习用于字符串转换的迁移语法",
+    "translated_abstract": "从输入输出示例中合成字符串转换程序利用了各种技术，这些技术都基于归纳偏差，包括一组受限的基本运算符进行组合。提出了一种新算法Transduce，它基于抽象迁移语法及其泛化构建。我们在实验证明，Transduce可以有效地从一个或两个正例中学习位置转换，而无需归纳偏差，成功率高于当前的最新成果。",
+    "tldr": "Transduce算法通过构建抽象迁移语法和其泛化，可以从输入输出示例中高效地学习位置转换，并且成功率高于当前最新成果。",
+    "en_tdlr": "The Transduce algorithm efficiently learns positional transformations from input-output examples without inductive bias, achieving a success rate higher than the current state of the art, by constructing abstract transduction grammars and their generalization."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing the Fairness and Performance of Edge Cameras with Explainable AI. (arXiv:2401.09852v1 [cs.CV])",
+    "abstract": "The rising use of Artificial Intelligence (AI) in human detection on Edge camera systems has led to accurate but complex models, challenging to interpret and debug. Our research presents a diagnostic method using Explainable AI (XAI) for model debugging, with expert-driven problem identification and solution creation. Validated on the Bytetrack model in a real-world office Edge network, we found the training dataset as the main bias source and suggested model augmentation as a solution. Our approach helps identify model biases, essential for achieving fair and trustworthy models.",
+    "link": "http://arxiv.org/abs/2401.09852",
+    "context": "Title: Enhancing the Fairness and Performance of Edge Cameras with Explainable AI. (arXiv:2401.09852v1 [cs.CV])\nAbstract: The rising use of Artificial Intelligence (AI) in human detection on Edge camera systems has led to accurate but complex models, challenging to interpret and debug. Our research presents a diagnostic method using Explainable AI (XAI) for model debugging, with expert-driven problem identification and solution creation. Validated on the Bytetrack model in a real-world office Edge network, we found the training dataset as the main bias source and suggested model augmentation as a solution. Our approach helps identify model biases, essential for achieving fair and trustworthy models.",
+    "path": "papers/24/01/2401.09852.json",
+    "total_tokens": 701,
+    "translated_title": "使用可解释的人工智能增强边缘摄像头的公平性和性能",
+    "translated_abstract": "在边缘摄像头系统中，人工智能在人体检测方面的应用日益增多，导致了准确但复杂的模型，这使得解释和调试变得具有挑战性。我们的研究提出了一种使用可解释的人工智能（XAI）进行模型调试的诊断方法，通过专家驱动的问题识别和解决方案创建。在实际办公室边缘网络中的Bytetrack模型上进行验证，我们发现训练数据集是主要的偏见来源，并建议模型增强作为解决方案。我们的方法有助于识别模型偏见，从而实现公平和可信赖的模型。",
+    "tldr": "本研究提出了一种使用可解释的人工智能进行边缘摄像头模型调试的方法，通过解决训练数据集的偏见问题来提高公平性和性能。",
+    "en_tdlr": "This research proposes a method using explainable AI for debugging edge camera models, improving fairness and performance by addressing bias in the training dataset."
+}

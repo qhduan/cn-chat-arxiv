@@ -1,0 +1,12 @@
+{
+    "title": "Multiple Locally Linear Kernel Machines. (arXiv:2401.09629v1 [cs.LG])",
+    "abstract": "In this paper we propose a new non-linear classifier based on a combination of locally linear classifiers. A well known optimization formulation is given as we cast the problem in a $\\ell_1$ Multiple Kernel Learning (MKL) problem using many locally linear kernels. Since the number of such kernels is huge, we provide a scalable generic MKL training algorithm handling streaming kernels. With respect to the inference time, the resulting classifier fits the gap between high accuracy but slow non-linear classifiers (such as classical MKL) and fast but low accuracy linear classifiers.",
+    "link": "http://arxiv.org/abs/2401.09629",
+    "context": "Title: Multiple Locally Linear Kernel Machines. (arXiv:2401.09629v1 [cs.LG])\nAbstract: In this paper we propose a new non-linear classifier based on a combination of locally linear classifiers. A well known optimization formulation is given as we cast the problem in a $\\ell_1$ Multiple Kernel Learning (MKL) problem using many locally linear kernels. Since the number of such kernels is huge, we provide a scalable generic MKL training algorithm handling streaming kernels. With respect to the inference time, the resulting classifier fits the gap between high accuracy but slow non-linear classifiers (such as classical MKL) and fast but low accuracy linear classifiers.",
+    "path": "papers/24/01/2401.09629.json",
+    "total_tokens": 689,
+    "translated_title": "多个局部线性核机器",
+    "translated_abstract": "本文提出了一种基于多个局部线性分类器组合的新型非线性分类器。我们将问题转化为一个$l_1$多核学习问题，使用许多局部线性核。由于这样的核函数数量庞大，我们提供了一种可扩展的泛化多核学习训练算法来处理流式核函数。在推断时间方面，得到的分类器填补了高准确性但缓慢的非线性分类器（如传统的多核学习）和快速但低准确性的线性分类器之间的差距。",
+    "tldr": "本文提出了一种基于多个局部线性分类器组合的新型非线性分类器，提供了可扩展的泛化多核学习训练算法，填补了高准确性但缓慢的非线性分类器和快速但低准确性的线性分类器之间的差距。",
+    "en_tdlr": "This paper proposes a new non-linear classifier based on a combination of multiple locally linear classifiers, providing a scalable generic Multiple Kernel Learning training algorithm and filling the gap between high accuracy but slow non-linear classifiers and fast but low accuracy linear classifiers."
+}

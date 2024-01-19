@@ -1,0 +1,11 @@
+{
+    "title": "Gender Bias in Machine Translation and The Era of Large Language Models. (arXiv:2401.10016v1 [cs.CL])",
+    "abstract": "This chapter examines the role of Machine Translation in perpetuating gender bias, highlighting the challenges posed by cross-linguistic settings and statistical dependencies. A comprehensive overview of relevant existing work related to gender bias in both conventional Neural Machine Translation approaches and Generative Pretrained Transformer models employed as Machine Translation systems is provided. Through an experiment using ChatGPT (based on GPT-3.5) in an English-Italian translation context, we further assess ChatGPT's current capacity to address gender bias. The findings emphasize the ongoing need for advancements in mitigating bias in Machine Translation systems and underscore the importance of fostering fairness and inclusivity in language technologies.",
+    "link": "http://arxiv.org/abs/2401.10016",
+    "context": "Title: Gender Bias in Machine Translation and The Era of Large Language Models. (arXiv:2401.10016v1 [cs.CL])\nAbstract: This chapter examines the role of Machine Translation in perpetuating gender bias, highlighting the challenges posed by cross-linguistic settings and statistical dependencies. A comprehensive overview of relevant existing work related to gender bias in both conventional Neural Machine Translation approaches and Generative Pretrained Transformer models employed as Machine Translation systems is provided. Through an experiment using ChatGPT (based on GPT-3.5) in an English-Italian translation context, we further assess ChatGPT's current capacity to address gender bias. The findings emphasize the ongoing need for advancements in mitigating bias in Machine Translation systems and underscore the importance of fostering fairness and inclusivity in language technologies.",
+    "path": "papers/24/01/2401.10016.json",
+    "total_tokens": 784,
+    "translated_title": "机器翻译中的性别偏见与大语言模型时代",
+    "translated_abstract": "本章探讨了机器翻译在延续性别偏见方面的作用，着重强调了跨语言环境和统计依赖性所带来的挑战。提供了关于性别偏见在传统神经机器翻译方法和作为机器翻译系统的生成预训练转换器模型中的相关现有工作的全面概述。通过在英语-意大利语翻译环境中使用ChatGPT (基于GPT-3.5)进行实验，我们进一步评估了ChatGPT解决性别偏见的当前能力。研究结果强调了在机器翻译系统中减少偏见的持续需求，并强调了促进语言技术的公平性和包容性的重要性。",
+    "tldr": "本章研究了机器翻译中的性别偏见问题，介绍了传统神经机器翻译方法和生成预训练转换器模型中相关工作。通过在英语-意大利语的翻译环境中使用ChatGPT进行实验，评估了其解决性别偏见的能力。研究结果强调了减少机器翻译系统偏见的重要性。"
+}

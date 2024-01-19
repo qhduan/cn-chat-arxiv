@@ -1,0 +1,12 @@
+{
+    "title": "XAI-Enhanced Semantic Segmentation Models for Visual Quality Inspection. (arXiv:2401.09900v1 [cs.CV])",
+    "abstract": "Visual quality inspection systems, crucial in sectors like manufacturing and logistics, employ computer vision and machine learning for precise, rapid defect detection. However, their unexplained nature can hinder trust, error identification, and system improvement. This paper presents a framework to bolster visual quality inspection by using CAM-based explanations to refine semantic segmentation models. Our approach consists of 1) Model Training, 2) XAI-based Model Explanation, 3) XAI Evaluation, and 4) Annotation Augmentation for Model Enhancement, informed by explanations and expert insights. Evaluations show XAI-enhanced models surpass original DeepLabv3-ResNet101 models, especially in intricate object segmentation.",
+    "link": "http://arxiv.org/abs/2401.09900",
+    "context": "Title: XAI-Enhanced Semantic Segmentation Models for Visual Quality Inspection. (arXiv:2401.09900v1 [cs.CV])\nAbstract: Visual quality inspection systems, crucial in sectors like manufacturing and logistics, employ computer vision and machine learning for precise, rapid defect detection. However, their unexplained nature can hinder trust, error identification, and system improvement. This paper presents a framework to bolster visual quality inspection by using CAM-based explanations to refine semantic segmentation models. Our approach consists of 1) Model Training, 2) XAI-based Model Explanation, 3) XAI Evaluation, and 4) Annotation Augmentation for Model Enhancement, informed by explanations and expert insights. Evaluations show XAI-enhanced models surpass original DeepLabv3-ResNet101 models, especially in intricate object segmentation.",
+    "path": "papers/24/01/2401.09900.json",
+    "total_tokens": 780,
+    "translated_title": "基于XAI的语义分割模型用于视觉质量检测的增强",
+    "translated_abstract": "视觉质量检测系统在制造业和物流等领域至关重要，采用计算机视觉和机器学习进行精确、快速的缺陷检测。然而，这些系统的无解释性可能阻碍了信任、错误识别和系统改进。本文提出了一个框架，通过使用基于CAM的解释来改进语义分割模型，从而增强视觉质量检测。我们的方法包括：1）模型训练，2）基于XAI的模型解释，3）XAI评估，以及4）注释增强用于模型改进，这些都受到解释和专家见解的指导。评估结果显示，XAI增强的模型特别在复杂对象分割方面超过了原始的DeepLabv3-ResNet101模型。",
+    "tldr": "本文提出了一个基于XAI的框架，通过使用CAM-based解释来改进语义分割模型，从而增强视觉质量检测系统。评估结果显示，XAI增强的模型在复杂对象分割方面表现出色。",
+    "en_tdlr": "This paper presents a framework that enhances visual quality inspection systems by using CAM-based explanations to refine semantic segmentation models, achieving superior performance in intricate object segmentation."
+}

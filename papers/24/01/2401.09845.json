@@ -1,0 +1,11 @@
+{
+    "title": "Game Representations and Extensions of the Shapley Value. (arXiv:2401.09845v1 [econ.TH])",
+    "abstract": "We show that any cooperative game can be represented by an assignment of costly facilities to players, in which it is intuitively obvious how to allocate the total cost in an equitable manner. This equitable solution turns out to be the Shapley value of the game, and thus provides as an alternative justification of the value. Game representations also open the door for extending the Shapley value to situations where not all coalitions can form, provided those that can constitute a \"semi-algebra\"; or, more generally, a \"hierarchy\"; or, still more generally, have \"full span\".",
+    "link": "http://arxiv.org/abs/2401.09845",
+    "context": "Title: Game Representations and Extensions of the Shapley Value. (arXiv:2401.09845v1 [econ.TH])\nAbstract: We show that any cooperative game can be represented by an assignment of costly facilities to players, in which it is intuitively obvious how to allocate the total cost in an equitable manner. This equitable solution turns out to be the Shapley value of the game, and thus provides as an alternative justification of the value. Game representations also open the door for extending the Shapley value to situations where not all coalitions can form, provided those that can constitute a \"semi-algebra\"; or, more generally, a \"hierarchy\"; or, still more generally, have \"full span\".",
+    "path": "papers/24/01/2401.09845.json",
+    "total_tokens": 690,
+    "translated_title": "游戏表示与Shapley值的扩展",
+    "translated_abstract": "我们展示了任何合作博弈都可以通过将昂贵设施分配给玩家来表示，其中如何公平地分配总成本是直观明了的。这个公平解决方案就是该博弈的Shapley值，因此为该值提供了一种替代的合理化方法。游戏表示还为将Shapley值扩展到不是所有的联盟都能够形成的情况打开了大门，前提是能够构成一个“半代数”；或者更一般地说，一个“层级”；或者更一般地说，具有“全跨度”。",
+    "tldr": "任何合作博弈都可以通过将昂贵设施分配给玩家的方式表示，并以Shapley值作为公平解决方案。该方法还可以将Shapley值扩展到不完全形成联盟的情况。"
+}

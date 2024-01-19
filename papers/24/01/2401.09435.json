@@ -1,0 +1,12 @@
+{
+    "title": "Reasoning with random sets: An agenda for the future. (arXiv:2401.09435v1 [math.ST])",
+    "abstract": "In this paper, we discuss a potential agenda for future work in the theory of random sets and belief functions, touching upon a number of focal issues: the development of a fully-fledged theory of statistical reasoning with random sets, including the generalisation of logistic regression and of the classical laws of probability; the further development of the geometric approach to uncertainty, to include general random sets, a wider range of uncertainty measures and alternative geometric representations; the application of this new theory to high-impact areas such as climate change, machine learning and statistical learning theory.",
+    "link": "http://arxiv.org/abs/2401.09435",
+    "context": "Title: Reasoning with random sets: An agenda for the future. (arXiv:2401.09435v1 [math.ST])\nAbstract: In this paper, we discuss a potential agenda for future work in the theory of random sets and belief functions, touching upon a number of focal issues: the development of a fully-fledged theory of statistical reasoning with random sets, including the generalisation of logistic regression and of the classical laws of probability; the further development of the geometric approach to uncertainty, to include general random sets, a wider range of uncertainty measures and alternative geometric representations; the application of this new theory to high-impact areas such as climate change, machine learning and statistical learning theory.",
+    "path": "papers/24/01/2401.09435.json",
+    "total_tokens": 662,
+    "translated_title": "随机集合推理：未来工作的议程",
+    "translated_abstract": "本文讨论了随机集合和信念函数理论未来工作的潜在议程，涉及一些关键问题：发展一个完整的统计推理与随机集合的理论，包括逻辑回归和经典概率法则的推广；进一步发展基于几何方法的不确定性理论，包括一般随机集合、更广泛的不确定性度量和替代的几何表示方法；将这一全新理论应用于气候变化、机器学习和统计学习理论等高影响领域。",
+    "tldr": "本文讨论了随机集合理论未来的发展议程，包括推广统计推理、发展几何方法、应用于气候变化和机器学习等领域。",
+    "en_tdlr": "This paper discusses a potential agenda for the future development of random set theory, including the generalization of statistical reasoning, the further development of geometric approaches, and the application to areas such as climate change and machine learning."
+}

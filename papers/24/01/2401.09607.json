@@ -1,0 +1,11 @@
+{
+    "title": "Land Cover Image Classification. (arXiv:2401.09607v1 [cs.CV])",
+    "abstract": "Land Cover (LC) image classification has become increasingly significant in understanding environmental changes, urban planning, and disaster management. However, traditional LC methods are often labor-intensive and prone to human error. This paper explores state-of-the-art deep learning models for enhanced accuracy and efficiency in LC analysis. We compare convolutional neural networks (CNN) against transformer-based methods, showcasing their applications and advantages in LC studies. We used EuroSAT, a patch-based LC classification data set based on Sentinel-2 satellite images and achieved state-of-the-art results using current transformer models.",
+    "link": "http://arxiv.org/abs/2401.09607",
+    "context": "Title: Land Cover Image Classification. (arXiv:2401.09607v1 [cs.CV])\nAbstract: Land Cover (LC) image classification has become increasingly significant in understanding environmental changes, urban planning, and disaster management. However, traditional LC methods are often labor-intensive and prone to human error. This paper explores state-of-the-art deep learning models for enhanced accuracy and efficiency in LC analysis. We compare convolutional neural networks (CNN) against transformer-based methods, showcasing their applications and advantages in LC studies. We used EuroSAT, a patch-based LC classification data set based on Sentinel-2 satellite images and achieved state-of-the-art results using current transformer models.",
+    "path": "papers/24/01/2401.09607.json",
+    "total_tokens": 666,
+    "translated_title": "土地覆盖图像分类",
+    "translated_abstract": "土地覆盖（LC）图像分类在理解环境变化、城市规划和灾害管理方面变得越来越重要。然而，传统的LC方法往往需要大量劳动力且容易出错。本文探讨了最先进的深度学习模型，以提高土地覆盖分析的准确性和效率。我们比较了卷积神经网络（CNN）和基于Transformer的方法，在LC研究中展示了它们的应用和优势。我们使用了基于Sentinel-2卫星图像的EuroSAT基于补丁的LC分类数据集，并使用当前的Transformer模型取得了最先进的结果。",
+    "tldr": "本文研究了土地覆盖图像分类和深度学习模型在提高分类准确性和效率方面的应用。通过比较卷积神经网络和基于Transformer的方法，我们在LC研究中展示了它们的优势，并在EuroSAT数据集上取得了最先进的结果。"
+}

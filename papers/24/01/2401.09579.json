@@ -1,0 +1,12 @@
+{
+    "title": "Fully-blind Neural Network Based Equalization for Severe Nonlinear Distortions in 112 Gbit/s Passive Optical Networks. (arXiv:2401.09579v1 [eess.SP])",
+    "abstract": "We demonstrate and evaluate a fully-blind digital signal processing (DSP) chain for 100G passive optical networks (PONs), and analyze different equalizer topologies based on neural networks with low hardware complexity.",
+    "link": "http://arxiv.org/abs/2401.09579",
+    "context": "Title: Fully-blind Neural Network Based Equalization for Severe Nonlinear Distortions in 112 Gbit/s Passive Optical Networks. (arXiv:2401.09579v1 [eess.SP])\nAbstract: We demonstrate and evaluate a fully-blind digital signal processing (DSP) chain for 100G passive optical networks (PONs), and analyze different equalizer topologies based on neural networks with low hardware complexity.",
+    "path": "papers/24/01/2401.09579.json",
+    "total_tokens": 551,
+    "translated_title": "用于112 Gbit/s被动光网络中严重非线性失真的全盲神经网络均衡器",
+    "translated_abstract": "我们展示并评估了用于100G被动光网络(PON)的完全盲目的数字信号处理(DSP)链，以及基于神经网络的不同均衡器拓扑结构，具有低硬件复杂度。",
+    "tldr": "该论文提出了一种对于112 Gbit/s被动光网络中严重非线性失真的全盲神经网络均衡器，并评估了其性能。这种均衡器采用低硬件复杂度的神经网络拓扑结构。",
+    "en_tdlr": "This paper presents a fully-blind neural network equalizer for severe nonlinear distortions in 112 Gbit/s passive optical networks, and evaluates its performance. The equalizer adopts neural network topologies with low hardware complexity."
+}

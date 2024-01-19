@@ -1,0 +1,11 @@
+{
+    "title": "CLIP Model for Images to Textual Prompts Based on Top-k Neighbors. (arXiv:2401.09763v1 [cs.CV])",
+    "abstract": "Text-to-image synthesis, a subfield of multimodal generation, has gained significant attention in recent years. We propose a cost-effective approach for image-to-prompt generation that leverages generative models to generate textual prompts without the need for large amounts of annotated data. We divide our method into two stages: online stage and offline stage. We use a combination of the CLIP model and K-nearest neighbors (KNN) algorithm. The proposed system consists of two main parts: an offline task and an online task. Our method owns the highest metric 0.612 among these models, which is 0.013, 0.055, 0.011 higher than Clip, Clip + KNN(top 10) respectively.",
+    "link": "http://arxiv.org/abs/2401.09763",
+    "context": "Title: CLIP Model for Images to Textual Prompts Based on Top-k Neighbors. (arXiv:2401.09763v1 [cs.CV])\nAbstract: Text-to-image synthesis, a subfield of multimodal generation, has gained significant attention in recent years. We propose a cost-effective approach for image-to-prompt generation that leverages generative models to generate textual prompts without the need for large amounts of annotated data. We divide our method into two stages: online stage and offline stage. We use a combination of the CLIP model and K-nearest neighbors (KNN) algorithm. The proposed system consists of two main parts: an offline task and an online task. Our method owns the highest metric 0.612 among these models, which is 0.013, 0.055, 0.011 higher than Clip, Clip + KNN(top 10) respectively.",
+    "path": "papers/24/01/2401.09763.json",
+    "total_tokens": 779,
+    "translated_title": "基于前 k 近邻的图像到文本提示的 CLIP 模型",
+    "translated_abstract": "文本到图像合成是多模态生成的一个子领域，在近年来引起了很大关注。我们提出了一种成本效益高的方法，用于生成图像到提示的文本，利用生成模型生成文本提示，无需大量的标注数据。我们将方法分为在线阶段和离线阶段。我们使用了 CLIP 模型和 K 近邻算法的组合。所提出的系统由两个主要部分组成：离线任务和在线任务。我们的方法在这些模型中拥有最高的指标为 0.612，比 Clip、Clip + KNN（前 10 名）分别高出 0.013、0.055、0.011。",
+    "tldr": "提出了一种基于前k近邻的CLIP模型，实现了成本效益高的图像到文本提示生成。该方法无需大量标注数据，通过将生成模型和K近邻算法结合使用，并通过在线和离线任务方式实现。相较于其他模型，该方法在指标上取得了更高的表现。"
+}

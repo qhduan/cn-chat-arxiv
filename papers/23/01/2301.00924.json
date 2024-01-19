@@ -1,0 +1,12 @@
+{
+    "title": "Increasing biases can be more efficient than increasing weights. (arXiv:2301.00924v3 [cs.NE] UPDATED)",
+    "abstract": "We introduce a novel computational unit for neural networks that features multiple biases, challenging the traditional perceptron structure. This unit emphasizes the importance of preserving uncorrupted information as it is passed from one unit to the next, applying activation functions later in the process with specialized biases for each unit. Through both empirical and theoretical analyses, we show that by focusing on increasing biases rather than weights, there is potential for significant enhancement in a neural network model's performance. This approach offers an alternative perspective on optimizing information flow within neural networks. See source code at https://github.com/CuriosAI/dac-dev.",
+    "link": "http://arxiv.org/abs/2301.00924",
+    "context": "Title: Increasing biases can be more efficient than increasing weights. (arXiv:2301.00924v3 [cs.NE] UPDATED)\nAbstract: We introduce a novel computational unit for neural networks that features multiple biases, challenging the traditional perceptron structure. This unit emphasizes the importance of preserving uncorrupted information as it is passed from one unit to the next, applying activation functions later in the process with specialized biases for each unit. Through both empirical and theoretical analyses, we show that by focusing on increasing biases rather than weights, there is potential for significant enhancement in a neural network model's performance. This approach offers an alternative perspective on optimizing information flow within neural networks. See source code at https://github.com/CuriosAI/dac-dev.",
+    "path": "papers/23/01/2301.00924.json",
+    "total_tokens": 656,
+    "translated_title": "增加偏差可以比增加权重更有效",
+    "translated_abstract": "我们引入了一种新颖的神经网络计算单元，具有多个偏差，挑战了传统的感知器结构。这个单元注重保留未经损坏的信息，将其从一个单元传递给下一个单元，在过程的后期应用专门为每个单元设计的偏差的激活函数。通过经验和理论分析，我们证明了在神经网络模型的性能中，通过关注增加偏差而不是权重，存在显著提升的潜力。这种方法提供了一种优化神经网络信息流的替代视角。",
+    "tldr": "通过增加偏差而不是权重，可以显著提高神经网络模型的性能，并提供了优化神经网络信息流的替代视角。",
+    "en_tdlr": "Increasing biases rather than weights can significantly enhance the performance of neural network models and provide an alternative perspective on optimizing information flow within neural networks."
+}

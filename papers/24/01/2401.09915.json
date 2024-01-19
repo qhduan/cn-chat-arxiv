@@ -1,0 +1,12 @@
+{
+    "title": "Qadence: a differentiable interface for digital-analog programs. (arXiv:2401.09915v1 [quant-ph])",
+    "abstract": "Digital-analog quantum computing (DAQC) is an alternative paradigm for universal quantum computation combining digital single-qubit gates with global analog operations acting on a register of interacting qubits. Currently, no available open-source software is tailored to express, differentiate, and execute programs within the DAQC paradigm. In this work, we address this shortfall by presenting Qadence, a high-level programming interface for building complex digital-analog quantum programs developed at Pasqal. Thanks to its flexible interface, native differentiability, and focus on real-device execution, Qadence aims at advancing research on variational quantum algorithms built for native DAQC platforms such as Rydberg atom arrays.",
+    "link": "http://arxiv.org/abs/2401.09915",
+    "context": "Title: Qadence: a differentiable interface for digital-analog programs. (arXiv:2401.09915v1 [quant-ph])\nAbstract: Digital-analog quantum computing (DAQC) is an alternative paradigm for universal quantum computation combining digital single-qubit gates with global analog operations acting on a register of interacting qubits. Currently, no available open-source software is tailored to express, differentiate, and execute programs within the DAQC paradigm. In this work, we address this shortfall by presenting Qadence, a high-level programming interface for building complex digital-analog quantum programs developed at Pasqal. Thanks to its flexible interface, native differentiability, and focus on real-device execution, Qadence aims at advancing research on variational quantum algorithms built for native DAQC platforms such as Rydberg atom arrays.",
+    "path": "papers/24/01/2401.09915.json",
+    "total_tokens": 761,
+    "translated_title": "Qadence: 一个用于数字模拟程序的可微分接口",
+    "translated_abstract": "数字模拟量子计算（DAQC）是一种将数字单量子比特门与作用于相互作用量子比特寄存器的全局模拟操作相结合的通用量子计算的替代范式。目前，没有任何可用的开源软件适用于表达、区分和执行DAQC范式内的程序。在这项工作中，我们通过介绍Qadence，一个在Pasqal开发的用于构建复杂数字模拟量子程序的高级编程接口，来解决这个不足。由于其灵活的接口、本地可微性和对真实设备执行的关注，Qadence致力于推进为Rydberg原子阵列等原生DAQC平台构建的变分量子算法的研究。",
+    "tldr": "Qadence是一个高级编程接口，用于构建数字模拟量子程序。它具有灵活的接口、本地可微性和对真实设备执行的关注，促进了原生DAQC平台上变分量子算法的研究。",
+    "en_tdlr": "Qadence is a high-level programming interface for building digital-analog quantum programs. It features a flexible interface, native differentiability, and a focus on real-device execution, advancing research on variational quantum algorithms for native DAQC platforms."
+}

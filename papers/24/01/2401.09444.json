@@ -1,0 +1,12 @@
+{
+    "title": "Online Handbook of Argumentation for AI: Volume 4. (arXiv:2401.09444v1 [cs.AI])",
+    "abstract": "This volume contains revised versions of the papers selected for the fourth volume of the Online Handbook of Argumentation for AI (OHAAI). Previously, formal theories of argument and argument interaction have been proposed and studied, and this has led to the more recent study of computational models of argument. Argumentation, as a field within artificial intelligence (AI), is highly relevant for researchers interested in symbolic representations of knowledge and defeasible reasoning. The purpose of this handbook is to provide an open access and curated anthology for the argumentation research community. OHAAI is designed to serve as a research hub to keep track of the latest and upcoming PhD-driven research on the theory and application of argumentation in all areas related to AI.",
+    "link": "http://arxiv.org/abs/2401.09444",
+    "context": "Title: Online Handbook of Argumentation for AI: Volume 4. (arXiv:2401.09444v1 [cs.AI])\nAbstract: This volume contains revised versions of the papers selected for the fourth volume of the Online Handbook of Argumentation for AI (OHAAI). Previously, formal theories of argument and argument interaction have been proposed and studied, and this has led to the more recent study of computational models of argument. Argumentation, as a field within artificial intelligence (AI), is highly relevant for researchers interested in symbolic representations of knowledge and defeasible reasoning. The purpose of this handbook is to provide an open access and curated anthology for the argumentation research community. OHAAI is designed to serve as a research hub to keep track of the latest and upcoming PhD-driven research on the theory and application of argumentation in all areas related to AI.",
+    "path": "papers/24/01/2401.09444.json",
+    "total_tokens": 761,
+    "translated_title": "AI在线辩论手册：第四卷",
+    "translated_abstract": "该卷包含了《AI在线辩论手册》（OHAAI）第四卷所选论文的修订版。先前已经提出和研究了正式的辩论理论和辩论交互，这引发了对辩论的计算模型的研究。作为人工智能领域中的一个子领域，辩论对于对知识的符号表示和可废弃推理感兴趣的研究人员非常重要。本手册的目的是为辩论研究社区提供开放访问和策划的文集。OHAAI旨在成为一个研究中心，以追踪与人工智能相关的所有领域中理论和应用辩论的最新和即将出版的博士研究。",
+    "tldr": "《AI在线辩论手册》的第四卷是为了为辩论研究社区提供开放访问和策划的文集，主要聚焦于对辩论的计算模型的研究和应用。",
+    "en_tdlr": "Volume 4 of the Online Handbook of Argumentation for AI is an open access and curated anthology that focuses on the study and application of computational models of argumentation."
+}
