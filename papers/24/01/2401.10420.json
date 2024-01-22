@@ -1,0 +1,11 @@
+{
+    "title": "Generalized Nested Rollout Policy Adaptation with Limited Repetitions. (arXiv:2401.10420v1 [cs.AI])",
+    "abstract": "Generalized Nested Rollout Policy Adaptation (GNRPA) is a Monte Carlo search algorithm for optimizing a sequence of choices. We propose to improve on GNRPA by avoiding too deterministic policies that find again and again the same sequence of choices. We do so by limiting the number of repetitions of the best sequence found at a given level. Experiments show that it improves the algorithm for three different combinatorial problems: Inverse RNA Folding, the Traveling Salesman Problem with Time Windows and the Weak Schur problem.",
+    "link": "http://arxiv.org/abs/2401.10420",
+    "context": "Title: Generalized Nested Rollout Policy Adaptation with Limited Repetitions. (arXiv:2401.10420v1 [cs.AI])\nAbstract: Generalized Nested Rollout Policy Adaptation (GNRPA) is a Monte Carlo search algorithm for optimizing a sequence of choices. We propose to improve on GNRPA by avoiding too deterministic policies that find again and again the same sequence of choices. We do so by limiting the number of repetitions of the best sequence found at a given level. Experiments show that it improves the algorithm for three different combinatorial problems: Inverse RNA Folding, the Traveling Salesman Problem with Time Windows and the Weak Schur problem.",
+    "path": "papers/24/01/2401.10420.json",
+    "total_tokens": 599,
+    "translated_title": "有限重复的广义嵌套展开策略自适应",
+    "translated_abstract": "广义嵌套展开策略自适应(GNRPA)是一种用于优化一系列选择的蒙特卡洛搜索算法。我们提出通过限制在给定层级找到的最佳序列的重复次数，避免使用过于确定性的策略，无法找到不同的选择序列。实验证明，这种方法在逆向RNA制作，具有时间窗口的旅行商问题和弱Schur问题这三个组合问题上改进了算法的性能。",
+    "tldr": "本研究通过限制重复次数，避免了在广义嵌套展开策略自适应中出现重复的最佳序列，提高了算法在不同组合问题上的性能。"
+}

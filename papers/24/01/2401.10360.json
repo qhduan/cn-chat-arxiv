@@ -1,0 +1,12 @@
+{
+    "title": "Excuse me, sir? Your language model is leaking (information). (arXiv:2401.10360v1 [cs.CR])",
+    "abstract": "We introduce a cryptographic method to hide an arbitrary secret payload in the response of a Large Language Model (LLM). A secret key is required to extract the payload from the model's response, and without the key it is provably impossible to distinguish between the responses of the original LLM and the LLM that hides a payload. In particular, the quality of generated text is not affected by the payload. Our approach extends a recent result of Christ, Gunn and Zamir (2023) who introduced an undetectable watermarking scheme for LLMs.",
+    "link": "http://arxiv.org/abs/2401.10360",
+    "context": "Title: Excuse me, sir? Your language model is leaking (information). (arXiv:2401.10360v1 [cs.CR])\nAbstract: We introduce a cryptographic method to hide an arbitrary secret payload in the response of a Large Language Model (LLM). A secret key is required to extract the payload from the model's response, and without the key it is provably impossible to distinguish between the responses of the original LLM and the LLM that hides a payload. In particular, the quality of generated text is not affected by the payload. Our approach extends a recent result of Christ, Gunn and Zamir (2023) who introduced an undetectable watermarking scheme for LLMs.",
+    "path": "papers/24/01/2401.10360.json",
+    "total_tokens": 631,
+    "translated_title": "对不起，先生？你的语言模型正在泄漏（信息）",
+    "translated_abstract": "我们引入了一种加密方法，将任意秘密载荷隐藏在大型语言模型（LLM）的响应中。提取模型响应中的载荷需要一个秘密密钥，没有密钥是无法区分原始LLM和隐藏载荷的LLM响应的。特别地，生成文本的质量不会受到载荷的影响。我们的方法扩展了Christ、Gunn和Zamir（2023）的最新结果，他们提出了一种无法检测到的LLM水印方案。",
+    "tldr": "这项研究介绍了一种加密方法，可以在大型语言模型的响应中隐藏秘密载荷，且不影响生成文本的质量。",
+    "en_tdlr": "This research presents a cryptographic method to hide a secret payload in the response of a large language model, without affecting the quality of generated text."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Manipulating Sparse Double Descent. (arXiv:2401.10686v1 [cs.LG])",
+    "abstract": "This paper investigates the double descent phenomenon in two-layer neural networks, focusing on the role of L1 regularization and representation dimensions. It explores an alternative double descent phenomenon, named sparse double descent. The study emphasizes the complex relationship between model complexity, sparsity, and generalization, and suggests further research into more diverse models and datasets. The findings contribute to a deeper understanding of neural network training and optimization.",
+    "link": "http://arxiv.org/abs/2401.10686",
+    "context": "Title: Manipulating Sparse Double Descent. (arXiv:2401.10686v1 [cs.LG])\nAbstract: This paper investigates the double descent phenomenon in two-layer neural networks, focusing on the role of L1 regularization and representation dimensions. It explores an alternative double descent phenomenon, named sparse double descent. The study emphasizes the complex relationship between model complexity, sparsity, and generalization, and suggests further research into more diverse models and datasets. The findings contribute to a deeper understanding of neural network training and optimization.",
+    "path": "papers/24/01/2401.10686.json",
+    "total_tokens": 654,
+    "translated_title": "操纵稀疏双下降现象",
+    "translated_abstract": "本文研究了两层神经网络中的双下降现象，重点关注L1正则化和表示维度的作用。它探讨了一种名为稀疏双下降的替代双下降现象。研究强调了模型复杂性、稀疏性和泛化之间的复杂关系，并提出了进一步研究更多样化的模型和数据集的建议。这些发现有助于更深入地理解神经网络的训练和优化。",
+    "tldr": "本文研究了两层神经网络中的双下降现象，探讨了L1正则化和表示维度的影响，并提出了稀疏双下降现象。它的发现有助于更好地理解神经网络的训练和优化。",
+    "en_tdlr": "This paper investigates the double descent phenomenon in two-layer neural networks, explores the impact of L1 regularization and representation dimensions, and introduces a new phenomenon called sparse double descent. The findings contribute to a better understanding of neural network training and optimization."
+}

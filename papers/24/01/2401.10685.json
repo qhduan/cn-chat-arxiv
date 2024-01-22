@@ -1,0 +1,12 @@
+{
+    "title": "Towards End-to-End GPS Localization with Neural Pseudorange Correction. (arXiv:2401.10685v1 [cs.LG])",
+    "abstract": "Pseudorange errors are the root cause of localization inaccuracy in GPS. Previous data-driven methods regress and eliminate pseudorange errors using handcrafted intermediate labels. Unlike them, we propose an end-to-end GPS localization framework, E2E-PrNet, to train a neural network for pseudorange correction (PrNet) directly using the final task loss calculated with the ground truth of GPS receiver states. The gradients of the loss with respect to learnable parameters are backpropagated through a differentiable nonlinear least squares optimizer to PrNet. The feasibility is verified with GPS data collected by Android phones, showing that E2E-PrNet outperforms the state-of-the-art end-to-end GPS localization methods.",
+    "link": "http://arxiv.org/abs/2401.10685",
+    "context": "Title: Towards End-to-End GPS Localization with Neural Pseudorange Correction. (arXiv:2401.10685v1 [cs.LG])\nAbstract: Pseudorange errors are the root cause of localization inaccuracy in GPS. Previous data-driven methods regress and eliminate pseudorange errors using handcrafted intermediate labels. Unlike them, we propose an end-to-end GPS localization framework, E2E-PrNet, to train a neural network for pseudorange correction (PrNet) directly using the final task loss calculated with the ground truth of GPS receiver states. The gradients of the loss with respect to learnable parameters are backpropagated through a differentiable nonlinear least squares optimizer to PrNet. The feasibility is verified with GPS data collected by Android phones, showing that E2E-PrNet outperforms the state-of-the-art end-to-end GPS localization methods.",
+    "path": "papers/24/01/2401.10685.json",
+    "total_tokens": 741,
+    "translated_title": "用神经假伪距修正实现端到端GPS定位",
+    "translated_abstract": "伪距误差是GPS定位不准确的根本原因。以往的数据驱动方法使用手工制作的中间标签进行伪距误差回归和消除。与之不同的是，我们提出了一个端到端的GPS定位框架E2E-PrNet，通过使用GPS接收机状态的真实值计算最终任务损失，直接训练一个用于伪距修正的神经网络PrNet。损失对可学习参数的梯度通过可微非线性最小二乘优化器反向传播到PrNet。通过使用Android手机收集的GPS数据进行验证，结果显示E2E-PrNet优于最先进的端到端GPS定位方法。",
+    "tldr": "本论文提出了一个端到端的GPS定位框架E2E-PrNet，通过直接训练神经网络PrNet来进行伪距修正，实验结果表明其优于现有端到端GPS定位方法。",
+    "en_tdlr": "This paper proposes an end-to-end GPS localization framework, E2E-PrNet, which trains a neural network PrNet directly for pseudorange correction. Experimental results demonstrate that it outperforms existing end-to-end GPS localization methods."
+}

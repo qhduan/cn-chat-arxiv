@@ -2,232 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Equilibrium Multiplicity: A Systematic Approach using Homotopies, with an Application to Chicago.](http://arxiv.org/abs/2401.10181) | 本文提供了一种系统的方法来枚举具有社会互动和弹性住房供应的定量空间模型的多个平衡。方法利用同伦将复杂的城市模型转化为简单的模型，使得解可以全面枚举。 |
-| [^2] | [Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model.](http://arxiv.org/abs/2401.10054) | 本论文提出了一种混合频率动态因子模型，利用国家信息预测欧洲地区的经济活动，并成功在12个国家的162个地区中产生可靠的GVA预测。 |
-| [^3] | [A Quantile Nelson-Siegel model.](http://arxiv.org/abs/2401.09874) | 提出了一个基于分位数回归的新型动态三因子模型，能够对收益率的整个条件分布进行建模，并揭示了收益率之间的显著异质性。 |
-| [^4] | [Wealth dynamics in a multi-aggregate closed monetary system.](http://arxiv.org/abs/2401.09871) | 本研究通过研究多聚合闭合货币经济的统计特性，找到了聚合规模和财富的联合均衡分布，并验证了理论模拟数据的准确性。研究还分析了微观动力学和宏观特征对分布的影响，以及系统向均衡收敛的情况。这个实验室模型为复制真实经济中的典型财富分布特征提供了有价值的见解。 |
-| [^5] | [Game Representations and Extensions of the Shapley Value.](http://arxiv.org/abs/2401.09845) | 任何合作博弈都可以通过将昂贵设施分配给玩家的方式表示，并以Shapley值作为公平解决方案。该方法还可以将Shapley值扩展到不完全形成联盟的情况。 |
-| [^6] | [A Framework for Digital Currencies for Financial Inclusion in Latin America and the Caribbean.](http://arxiv.org/abs/2401.09811) | 该研究提出了一个框架，评估数字货币对拉美和加勒比地区金融包容的影响。研究发现，一个精心设计的数字货币系统可以降低支付成本，实现实时支付，提高中央银行货币的可访问性，并满足系统性能需求。 |
-| [^7] | [AI and the Opportunity for Shared Prosperity: Lessons from the History of Technology and the Economy.](http://arxiv.org/abs/2401.09718) | 人工智能的最新进展为人们提供了机器学习、适应和执行任务的机会，促进了经济转型和共同繁荣。我们需要借鉴科技和创新的历史经验，以实现人工智能的经济潜力，并为社会带来更多的利益。 |
-| [^8] | [The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process.](http://arxiv.org/abs/2401.06141) | 本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。 |
-| [^9] | [Peer Effects in Consideration and Preferences.](http://arxiv.org/abs/2310.12272) | 该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。 |
-| [^10] | [COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?.](http://arxiv.org/abs/2307.09035) | 该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。 |
-| [^11] | [Bootstrap-Assisted Inference for Generalized Grenander-type Estimators.](http://arxiv.org/abs/2303.13598) | 本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。 |
-| [^12] | [Moderation in instant runoff voting.](http://arxiv.org/abs/2303.09734) | 研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。 |
-| [^13] | [Contextually Private Mechanisms.](http://arxiv.org/abs/2112.10812) | 该论文研究了上下文隐私机制，首先定义了可以不违反上下文隐私的选择规则，并证明了许多常见选择规则违反了参与者的上下文隐私；其次提出了上下文隐私等效的协议表示定理，并提出了一个比广泛使用的递增或英文协议更加私密的协议-“递增连接”协议。 |
-| [^14] | [The Empirical Content of Bayesianism.](http://arxiv.org/abs/2109.07007) | 这篇论文研究了与贝叶斯主义一致的观察信念条件，发现只有后验分布的均值绝对连续于先验分布时，才满足贝叶斯主义。同时指出现有对贝叶斯主义的经验内容的结果依赖于对主观分布的其他限制。 |
-| [^15] | [Wild Bootstrap for Instrumental Variables Regressions with Weak and Few Clusters.](http://arxiv.org/abs/2108.13707) | 本文研究了有限且稀疏集群下工具变量回归的野生Bootstrap推断方法，证明了在强识别条件下该方法控制了大小，并发展了一种野生Bootstrap的Anderson-Rubin检验，能够处理弱或部分识别情况。 |
+| [^1] | [An Experimental Study of Decentralized Matching.](http://arxiv.org/abs/2401.10872) | 这项实验研究了无转移的分散匹配市场，发现稳定的结果很普遍，分散市场更倾向于中位稳定匹配，参与者的偏好也影响着他们匹配的稳定伴侣。实验结果展示了参与者在避免阻止对循环方面的战略智慧。 |
+| [^2] | [Dynamic Programming: Finite States.](http://arxiv.org/abs/2401.10473) | 这本书介绍了动态规划及其在经济学、金融学以及相关领域中的应用，提供了最新创新的理论和实践指南，适用于研究生和研究人员。 |
+| [^3] | [How industrial clusters influence the growth of the regional GDP: A spatial-approach.](http://arxiv.org/abs/2401.10261) | 本文通过使用空间计量经济学方法分析德国NUTS 3地区的面板数据，研究了工业集群对区域GDP增长的影响。研究结果表明，工业集群对它们所关联的区域产生了高度显著的积极或消极影响。 |
+| [^4] | [Nowcasting Madagascar's real GDP using machine learning algorithms.](http://arxiv.org/abs/2401.10255) | 该研究基于马达加斯加的宏观经济领先指标，使用不同的机器学习算法进行国内生产总值（GDP）预测，并发现集成模型相对于传统计量经济模型具有更高的准确性和实时性。 |
+| [^5] | [The effect of conference presentations on the diffusion of ideas.](http://arxiv.org/abs/2209.01175) | 研究利用 Confer 数据分析了学术会议演讲直接和意外对未来引用的影响，结果发现与有冲突的时间段相比，无冲突时间段中用户引用的论文数量明显增加。 |
+| [^6] | [Algorithmic Assistance with Recommendation-Dependent Preferences.](http://arxiv.org/abs/2208.07626) | 本研究提出了一个联合人机决策的委托代理模型，探讨了算法推荐对选择的影响和设计，特别关注算法对偏好的改变，以解决算法辅助可能带来的意外后果。 |
+| [^7] | [On the Robustness of Second-Price Auctions in Prior-Independent Mechanism Design.](http://arxiv.org/abs/2204.10478) | 这篇论文研究了在先验独立机制设计中，对于没有可用先验信息的情况下，卖方如何以最坏情况的遗憾度量来衡量机制的性能。通过研究多种估值分布类别，论文总结了关于放松先验假设的先验独立机制设计的可行性。 |
+| [^8] | [Financial-cycle ratios and medium-term predictions of GDP: Evidence from the United States.](http://arxiv.org/abs/2111.00822) | 本研究利用美国大量的季度宏观经济数据集，发现了特定金融比率，如调整后的房价租金比率和非金融非公司营业部门的负债收入比率，可以在一到五年的中期时段内预测美国的GDP增长。这些比率不仅在衰退和扩张期间表现出强大的预测能力，而且在不同时间段内表现稳定，与宏观金融理论相吻合。 |
+| [^9] | [Good News Is Not a Sufficient Condition for Motivated Reasoning.](http://arxiv.org/abs/2012.01548) | 本文研究了好消息对信念更新的影响，发现好消息并不能满足动机推理的条件。研究结果表明，基于信念的效用不足以使人们扭曲信念更新，以支持这些信念。 |
 
 # 详细
 
-[^1]: 平衡的多样性：一种使用同伦的系统方法及其在芝加哥的应用
+[^1]: 无转移的分散匹配的实验研究
 
-    Equilibrium Multiplicity: A Systematic Approach using Homotopies, with an Application to Chicago. (arXiv:2401.10181v1 [econ.GN])
+    An Experimental Study of Decentralized Matching. (arXiv:2401.10872v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.10181](http://arxiv.org/abs/2401.10181)
+    [http://arxiv.org/abs/2401.10872](http://arxiv.org/abs/2401.10872)
 
-    本文提供了一种系统的方法来枚举具有社会互动和弹性住房供应的定量空间模型的多个平衡。方法利用同伦将复杂的城市模型转化为简单的模型，使得解可以全面枚举。
-
-    
-
-    具有社会互动或溢出效应的离散选择模型可能表现出多个平衡。本文提供了一种系统的方法来枚举具有离散地点、社会互动和弹性住房供应的定量空间模型的平衡。该方法依赖于两个同伦。同伦是一个平滑函数，它将一个已知解的简单城市转化为具有异质地点和有限供应弹性的城市。第一个同伦是，在具有完全弹性地板表面供应的城市集合中，具有异质地点的经济同伦于具有均匀地点的经济，其解可以全面枚举。这样的经济与一个多项式系统的零点经济接近。这是一个已经研究得很好的数学领域，可以保证平衡的枚举。第二个同伦是，在具有完全弹性住房供应的城市中，将该城市同伦到一个具有有限供应弹性的城市。
-
-    Discrete choice models with social interactions or spillovers may exhibit multiple equilibria. This paper provides a systematic approach to enumerating them for a quantitative spatial model with discrete locations, social interactions, and elastic housing supply. The approach relies on two homotopies. A homotopy is a smooth function that transforms the solutions of a simpler city where solutions are known, to a city with heterogeneous locations and finite supply elasticity. The first homotopy is that, in the set of cities with perfectly elastic floor surface supply, an economy with heterogeneous locations is homotopic to an economy with homogeneous locations, whose solutions can be comprehensively enumerated. Such an economy is epsilon close to an economy whose equilibria are the zeros of a system of polynomials. This is a well-studied area of mathematics where the enumeration of equilibria can be guaranteed. The second homotopy is that a city with perfectly elastic housing supply is h
-    
-[^2]: 使用混合频率动态因子模型预测欧洲地区的经济活动
-
-    Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model. (arXiv:2401.10054v1 [econ.EM])
-
-    [http://arxiv.org/abs/2401.10054](http://arxiv.org/abs/2401.10054)
-
-    本论文提出了一种混合频率动态因子模型，利用国家信息预测欧洲地区的经济活动，并成功在12个国家的162个地区中产生可靠的GVA预测。
+    这项实验研究了无转移的分散匹配市场，发现稳定的结果很普遍，分散市场更倾向于中位稳定匹配，参与者的偏好也影响着他们匹配的稳定伴侣。实验结果展示了参与者在避免阻止对循环方面的战略智慧。
 
     
 
-    对于规划、实施和评估局部经济政策，及时获得有关地区经济状况的信息是至关重要的。然而，欧洲地区的产出数据以年度频率发布，并且存在两年的延迟。为了以计算效率高的方式获得可靠且更及时的度量值，我们提出了一种混合频率动态因子模型，考虑了国家信息，以产生区域国内生产总值（GVA）的高频估计。我们证明，我们的模型在12个欧洲国家的162个地区中产生可靠的GVA预测。
+    我们提出了一个关于无转移的分散双边匹配市场的实验研究。实验参与者了解每个人的偏好，并可以进行任意的非约束性匹配提议，这些提议在市场停滞一段时间后最终确定。我们得出了几个关键结论。首先，稳定的结果很普遍。其次，尽管集中的清算机构通常致力于实现极端稳定的匹配，我们的分散市场最常导致中位稳定匹配。第三，偏好的基数表示影响参与者匹配的稳定伴侣。最后，我们结果的动力学表现出战略上的复杂性，参与者成功地避免了阻止对的循环。
 
-    Timely information about the state of regional economies can be essential for planning, implementing and evaluating locally targeted economic policies. However, European regional accounts for output are published at an annual frequency and with a two-year delay. To obtain robust and more timely measures in a computationally efficient manner, we propose a mixed-frequency dynamic factor model that accounts for national information to produce high-frequency estimates of the regional gross value added (GVA). We show that our model produces reliable nowcasts of GVA in 162 regions across 12 European countries.
+    We present an experimental study of decentralized two-sided matching markets with no transfers. Experimental participants are informed of everyone's preferences and can make arbitrary non-binding match offers that get finalized when a period of market inactivity has elapsed. Several insights emerge. First, stable outcomes are prevalent. Second, while centralized clearinghouses commonly aim at implementing extremal stable matchings, our decentralized markets most frequently culminate in the median stable matching. Third, preferences' cardinal representations impact the stable partners participants match with. Last, the dynamics underlying our results exhibit strategic sophistication, with agents successfully avoiding cycles of blocking pairs.
     
-[^3]: 一个分位数Nelson-Siegel模型
+[^2]: 动态规划：有限状态
 
-    A Quantile Nelson-Siegel model. (arXiv:2401.09874v1 [stat.AP])
+    Dynamic Programming: Finite States. (arXiv:2401.10473v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.09874](http://arxiv.org/abs/2401.09874)
+    [http://arxiv.org/abs/2401.10473](http://arxiv.org/abs/2401.10473)
 
-    提出了一个基于分位数回归的新型动态三因子模型，能够对收益率的整个条件分布进行建模，并揭示了收益率之间的显著异质性。
-
-    
-
-    建立了一个基于分位数回归的新型动态三因子模型，以解决传统宏观经济变量与收益率曲线之间相互作用建模的问题。该方法利用分位数回归的潜力来建模收益率的整个条件分布，而不仅限于其均值。对20世纪70年代的美国数据进行了应用，并显示出收益率之间的显著异质性。
-
-    A widespread approach to modelling the interaction between macroeconomic variables and the yield curve relies on three latent factors usually interpreted as the level, slope, and curvature (Diebold et al., 2006). This approach is inherently focused on the conditional mean of the yields and postulates a dynamic linear model where the latent factors smoothly change over time. However, periods of deep crisis, such as the Great Recession and the recent pandemic, have highlighted the importance of statistical models that account for asymmetric shocks and are able to forecast the tails of a variable's distribution. A new version of the dynamic three-factor model is proposed to address this issue based on quantile regressions. The novel approach leverages the potential of quantile regression to model the entire (conditional) distribution of the yields instead of restricting to its mean. An application to US data from the 1970s shows the significant heterogeneity of the interactions between fi
-    
-[^4]: 一个多聚合闭合货币系统中的财富动态
-
-    Wealth dynamics in a multi-aggregate closed monetary system. (arXiv:2401.09871v1 [econ.TH])
-
-    [http://arxiv.org/abs/2401.09871](http://arxiv.org/abs/2401.09871)
-
-    本研究通过研究多聚合闭合货币经济的统计特性，找到了聚合规模和财富的联合均衡分布，并验证了理论模拟数据的准确性。研究还分析了微观动力学和宏观特征对分布的影响，以及系统向均衡收敛的情况。这个实验室模型为复制真实经济中的典型财富分布特征提供了有价值的见解。
+    这本书介绍了动态规划及其在经济学、金融学以及相关领域中的应用，提供了最新创新的理论和实践指南，适用于研究生和研究人员。
 
     
 
-    我们研究了一个具有多聚合相互作用的闭合货币经济的统计特性。在延续Yakovenko的单一代理人货币模型的基础上（Dragulescu and Yakovenko, 2000），我们研究了聚合规模和财富的联合均衡分布。通过比较理论和模拟数据，我们验证了我们的发现，并研究了微观动力学和宏观特征对分布的影响。此外，我们还分析了系统在各种条件下向均衡收敛的情况。我们的实验室模型可能为复制真实经济中观察到的典型财富分布特征提供有价值的见解。
+    本书介绍了动态规划及其在经济学、金融学以及相关领域中的应用。它汇集了动态规划理论的最新创新，并提供了应用和代码，可以帮助读者接触到研究前沿。本书面向研究生和研究人员，尽管大部分章节对具有扎实定量背景的本科生也是可访问的。
 
-    We examine the statistical properties of a closed monetary economy with multi-aggregates interactions. Building upon Yakovenko's single-agent monetary model (Dragulescu and Yakovenko, 2000), we investigate the joint equilibrium distribution of aggregate size and wealth. By comparing theoretical and simulated data, we validate our findings and investigate the influence of both micro dynamics and macro characteristics of the system on the distribution. Additionally, we analyze the system's convergence towards equilibrium under various conditions. Our laboratory model may offer valuable insights into macroeconomic phenomena allowing to reproduce typical wealth distribution features observed in real economy.
+    This book is about dynamic programming and its applications in economics, finance, and adjacent fields. It brings together recent innovations in the theory of dynamic programming and provides applications and code that can help readers approach the research frontier. The book is aimed at graduate students and researchers, although most chapters are accessible to undergraduate students with solid quantitative backgrounds.
     
-[^5]: 游戏表示与Shapley值的扩展
+[^3]: 工业集群如何影响区域GDP的增长：一种空间方法的分析
 
-    Game Representations and Extensions of the Shapley Value. (arXiv:2401.09845v1 [econ.TH])
+    How industrial clusters influence the growth of the regional GDP: A spatial-approach. (arXiv:2401.10261v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.09845](http://arxiv.org/abs/2401.09845)
+    [http://arxiv.org/abs/2401.10261](http://arxiv.org/abs/2401.10261)
 
-    任何合作博弈都可以通过将昂贵设施分配给玩家的方式表示，并以Shapley值作为公平解决方案。该方法还可以将Shapley值扩展到不完全形成联盟的情况。
-
-    
-
-    我们展示了任何合作博弈都可以通过将昂贵设施分配给玩家来表示，其中如何公平地分配总成本是直观明了的。这个公平解决方案就是该博弈的Shapley值，因此为该值提供了一种替代的合理化方法。游戏表示还为将Shapley值扩展到不是所有的联盟都能够形成的情况打开了大门，前提是能够构成一个“半代数”；或者更一般地说，一个“层级”；或者更一般地说，具有“全跨度”。
-
-    We show that any cooperative game can be represented by an assignment of costly facilities to players, in which it is intuitively obvious how to allocate the total cost in an equitable manner. This equitable solution turns out to be the Shapley value of the game, and thus provides as an alternative justification of the value. Game representations also open the door for extending the Shapley value to situations where not all coalitions can form, provided those that can constitute a "semi-algebra"; or, more generally, a "hierarchy"; or, still more generally, have "full span".
-    
-[^6]: 拉美和加勒比地区金融包容性数字货币框架
-
-    A Framework for Digital Currencies for Financial Inclusion in Latin America and the Caribbean. (arXiv:2401.09811v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.09811](http://arxiv.org/abs/2401.09811)
-
-    该研究提出了一个框架，评估数字货币对拉美和加勒比地区金融包容的影响。研究发现，一个精心设计的数字货币系统可以降低支付成本，实现实时支付，提高中央银行货币的可访问性，并满足系统性能需求。
+    本文通过使用空间计量经济学方法分析德国NUTS 3地区的面板数据，研究了工业集群对区域GDP增长的影响。研究结果表明，工业集群对它们所关联的区域产生了高度显著的积极或消极影响。
 
     
 
-    该研究旨在提供一个框架，评估数字货币对促进金融包容的贡献，基于对拉美和加勒比地区金融包容和国内外支付情况的诊断。它还提供了该地区央行对央行数字货币可能实施的关键问题的见解。研究结果表明，尽管数字货币的发展处于早期阶段，但一个精心设计的系统能够降低国内和跨境支付成本，改善交易结算以实现实时支付，扩大中央银行货币的可访问性，融入可编程支付，并满足系统性能需求。
+    本文利用空间计量经济学方法分析了德国NUTS 3地区的面板数据。我们旨在深入理解产业集群在塑造GDP动态中的重要性和相互依存关系。为了获得更细致的空间区分，我们引入了每个行业部门的指标矩阵，这使得我们可以将空间Durbin模型扩展为其新版本。这种方法对于既有这些行业部门的经济重要性，也对于忽略变量可能引发的问题都是必要的。忽略行业部门可能导致遗漏变量偏误和估计问题。为了评估主要行业部门的影响，我们将八个不同的行业分支纳入我们的分析中。根据现行经济学理论，这些集群应该对它们所关联的区域产生积极影响。我们的研究结果确实揭示了高度显著的影响，这些影响可以是积极的，也可以是消极的。
 
-    This research aims to provide a framework to assess the contribution of digital currencies to promote financial inclusion, based on a diagnosis of the landscape of financial inclusion and domestic and cross-border payments in Latin America and the Caribbean. It also provides insights from central banks in the region on key aspects regarding a possible implementation of central bank digital currencies. Findings show that although digital currencies development is at an early stage, a well-designed system could reduce the cost of domestic and cross-border payments, improve the settlement of transactions to achieve real-time payments, expand the accessibility of central bank money, incorporate programmable payments and achieve system performance demands.
+    In this paper, we employ spatial econometric methods to analyze panel data from German NUTS 3 regions. Our goal is to gain a deeper understanding of the significance and interdependence of industry clusters in shaping the dynamics of GDP. To achieve a more nuanced spatial differentiation, we introduce indicator matrices for each industry sector which allows for extending the spatial Durbin model to a new version of it. This approach is essential due to both the economic importance of these sectors and the potential issue of omitted variables. Failing to account for industry sectors can lead to omitted variable bias and estimation problems. To assess the effects of the major industry sectors, we incorporate eight distinct branches of industry into our analysis. According to prevailing economic theory, these clusters should have a positive impact on the regions they are associated with. Our findings indeed reveal highly significant impacts, which can be either positive or negative, of sp
     
-[^7]: 人工智能与共同繁荣的机遇：从科技和经济历史中汲取的教训
+[^4]: 使用机器学习算法进行马达加斯加实时国内生产总值预测
 
-    AI and the Opportunity for Shared Prosperity: Lessons from the History of Technology and the Economy. (arXiv:2401.09718v1 [econ.GN])
+    Nowcasting Madagascar's real GDP using machine learning algorithms. (arXiv:2401.10255v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.09718](http://arxiv.org/abs/2401.09718)
+    [http://arxiv.org/abs/2401.10255](http://arxiv.org/abs/2401.10255)
 
-    人工智能的最新进展为人们提供了机器学习、适应和执行任务的机会，促进了经济转型和共同繁荣。我们需要借鉴科技和创新的历史经验，以实现人工智能的经济潜力，并为社会带来更多的利益。
-
-    
-
-    人工智能的最新进展标志着人类历史上的一个关键时刻。它提供了机器学习、适应和执行任务的机会，这些任务有潜力帮助人们从日常活动到最具创造性和雄心勃勃的项目。它还可以帮助企业和组织利用知识，提高生产力，创新，转型，并为共同繁荣提供动力。这个巨大的潜力引发了两个基本问题：（1）人工智能是否真的能够推动国家和全球经济转型，使社会受益？（2）我们必须解决哪些问题，才能充分实现人工智能的经济价值，扩大繁荣，改善世界各地的生活？我们通过考虑科技和创新的最近历史作为指导，探讨了这些问题。虽然我们并不认为未来会完全与过去相同，但我们将讨论一些原因。
-
-    Recent progress in artificial intelligence (AI) marks a pivotal moment in human history. It presents the opportunity for machines to learn, adapt, and perform tasks that have the potential to assist people, from everyday activities to their most creative and ambitious projects. It could also help businesses and organizations harness knowledge, increase productivity, innovate, transform, and power shared prosperity. This tremendous potential raises two fundamental questions: (1) Will AI actually advance national and global economic transformation to benefit society at large? and (2) What issues must we get right to fully realize AI's economic value, expand prosperity and improve lives everywhere? We explore these questions by considering the recent history of technology and innovation as a guide for the likely impact of AI and what we must do to realize its economic potential to benefit society. While we do not presume the future will be entirely like that past, for reasons we will disc
-    
-[^8]: 直接资本现金转移对于贫困和极端贫困减轻的作用 -- 一种Omega风险过程
-
-    The Role of Direct Capital Cash Transfers Towards Poverty and Extreme Poverty Alleviation -- An Omega Risk Process. (arXiv:2401.06141v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.06141](http://arxiv.org/abs/2401.06141)
-
-    本文研究了直接资本现金转移对于贫困和极端贫困的减轻作用。通过模拟家庭资本的Omega风险过程，发现在资本水平低于一定水平时，外部支持以直接转移形式提供，以帮助家庭摆脱贫困陷阱。
+    该研究基于马达加斯加的宏观经济领先指标，使用不同的机器学习算法进行国内生产总值（GDP）预测，并发现集成模型相对于传统计量经济模型具有更高的准确性和实时性。
 
     
 
-    困境指的是家庭陷入贫困区域的情况。生活在贫困区域或陷入贫困区域的家庭被称为贫困陷阱的家庭，贫困陷阱是一种在没有外部帮助的情况下难以逃脱的贫困状态。同样，极端贫困被认为是最严重的贫困形式，家庭在其中经历严重的基本人类需求不足。在本文中，我们考虑了一个具有确定性增长和乘性跳跃（崩溃）结构的Omega风险过程来模拟家庭的资本。假设当一个家庭的资本水平高于确定资本壁垒水平时，确定家庭是否有资格参加现金资本转移方案，其资本会指数增长。一旦其资本降至资本壁垒水平以下，资本动态会引入直接转移（资本现金转移）的外部支持，这些支持由捐助者或政府提供。否则
+    我们研究了不同的机器学习算法在预测马达加斯加国内生产总值（GDP）方面的预测能力。我们使用了流行的回归模型进行训练，包括线性正则化回归（Ridge，Lasso，Elastic-net），降维模型（主成分回归），k最近邻算法（k-NN回归），支持向量回归（线性SVR）和基于树的集成模型（随机森林和XGBoost回归），并将简单的计量经济模型作为基准。我们通过计算均方根误差（RMSE），平均绝对误差（MAE）和平均绝对百分比误差（MAPE）来衡量每个模型的预测准确性。我们的研究结果表明，通过聚合个体预测形成的集成模型始终优于传统的计量经济模型。我们得出结论，机器学习模型可以提供更准确和及时的预测。
 
-    Trapping refers to the event when a household falls into the area of poverty. Households that live or fall into the area of poverty are said to be in a poverty trap, where a poverty trap is a state of poverty from which it is difficult to escape without external help. Similarly, extreme poverty is considered as the most severe type of poverty, in which households experience severe deprivation of basic human needs. In this article, we consider an Omega risk process with deterministic growth and a multiplicative jump (collapse) structure to model the capital of a household. It is assumed that, when a household's capital level is above a certain capital barrier level that determines a household's eligibility for a capital cash transfer programme, its capital grows exponentially. As soon as its capital falls below the capital barrier level, the capital dynamics incorporate external support in the form of direct transfers (capital cash transfers) provided by donors or governments. Otherwise
+    We investigate the predictive power of different machine learning algorithms to nowcast Madagascar's gross domestic product (GDP). We trained popular regression models, including linear regularized regression (Ridge, Lasso, Elastic-net), dimensionality reduction model (principal component regression), k-nearest neighbors algorithm (k-NN regression), support vector regression (linear SVR), and tree-based ensemble models (Random forest and XGBoost regressions), on 10 Malagasy quarterly macroeconomic leading indicators over the period 2007Q1--2022Q4, and we used simple econometric models as a benchmark. We measured the nowcast accuracy of each model by calculating the root mean square error (RMSE), mean absolute error (MAE), and mean absolute percentage error (MAPE). Our findings reveal that the Ensemble Model, formed by aggregating individual predictions, consistently outperforms traditional econometric models. We conclude that machine learning models can deliver more accurate and timely
     
-[^9]: 考虑和偏好中的同伴影响
+[^5]: 论文发表对于想法传播的影响
 
-    Peer Effects in Consideration and Preferences. (arXiv:2310.12272v1 [econ.GN])
+    The effect of conference presentations on the diffusion of ideas. (arXiv:2209.01175v2 [cs.DL] UPDATED)
 
-    [http://arxiv.org/abs/2310.12272](http://arxiv.org/abs/2310.12272)
+    [http://arxiv.org/abs/2209.01175](http://arxiv.org/abs/2209.01175)
 
-    该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。
-
-    
-
-    我们开发了一个一般的离散选择模型，将同伴影响纳入偏好和考虑集中。我们对平衡行为进行描述，并建立了一系列选择中能恢复模型各个部分的条件。我们允许同伴影响只作用于偏好、只作用于考虑，或者同时作用于两者。我们利用不同类型的变化来区分偏好和考虑集中的同伴影响。这使我们能够恢复网络中代理之间的连接集合（和类型）。然后我们利用这些信息来恢复每个代理人的随机偏好和注意机制。这些非参数识别结果允许代理人之间的无限异质性，并不依赖于协变量或可用选项（或菜单）的变化。我们将我们的结果应用于咖啡连锁店的扩张决策，并发现有限的考虑证据。我们进行了反事实预测模拟，并展示了有限的考虑如何影响决策。
-
-    We develop a general model of discrete choice that incorporates peer effects in preferences and consideration sets. We characterize the equilibrium behavior and establish conditions under which all parts of the model can be recovered from a sequence of choices. We allow peers to affect only preferences, only consideration, or both. We exploit different types of variations to separate the peer effects in preferences and consideration sets. This allows us to recover the set (and type) of connections between the agents in the network. We then use this information to recover the random preferences and the attention mechanisms of each agent. These nonparametric identification results allow unrestricted heterogeneity across agents and do not rely on the variation of either covariates or the set of available options (or menus). We apply our results to model expansion decisions by coffee chains and find evidence of limited consideration. We simulate counterfactual predictions and show how limi
-    
-[^10]: COVID-19需求冲击再探：广告技术是否帮助减轻中小型企业的负面影响?
-
-    COVID-19 Demand Shocks Revisited: Did Advertising Technology Help Mitigate Adverse Consequences for Small and Midsize Businesses?. (arXiv:2307.09035v1 [econ.GN])
-
-    [http://arxiv.org/abs/2307.09035](http://arxiv.org/abs/2307.09035)
-
-    该研究通过分析超过60,000家企业的数据集，发现COVID-19大流行导致了中小型企业的生存困境，但使用在线广告技术有助于减轻这种负面影响。
+    研究利用 Confer 数据分析了学术会议演讲直接和意外对未来引用的影响，结果发现与有冲突的时间段相比，无冲突时间段中用户引用的论文数量明显增加。
 
     
 
-    研究探讨了COVID-19大流行对企业绩效和生存的影响，表明中小型企业（SMBs）受到的负面影响尤为严重。然而，目前对在线广告技术是否以及如何帮助塑造这些结果的研究还很有限，尤其是对SMBs而言。本研究旨在填补这一空白。通过构建和分析一个包含49个国家超过60,000家企业的新数据集，我们研究了政府封锁措施对企业生存的影响。使用离散时间生存模型进行工具变量的差分过程估计，我们发现政府封锁措施增加了全球范围内SMB关闭的可能性，但在线广告技术的使用减轻了这种负面影响。研究结果显示了国家、行业和企业规模的异质性，与理论预期一致。
+    会议在许多行业中很普遍，但它们如何有效地传播想法一直存在争议，传播机制也不清楚。会议参与者可以从他们选择观看（直接影响）或偶然看到（意外影响）的演讲中采纳想法。本文通过利用准随机调度冲突量化学术会议演讲直接和意外对未来引用的影响。当参会者同时有兴趣的多篇论文同一时间演讲时，平均来说，该人将无法全部观看，如果演讲很重要，则会较少引用相关论文。我们使用 Confer 数据，它是一款部署在 25 个现场计算机科学会议中的调度应用程序，允许用户喜欢论文并接收个性化日程安排。相比于有许多冲突的时间段，用户在无调度冲突的时间段中引用喜欢的论文增加了52％。用户在没有冲突的会话中也引用非喜欢的论文增加了51％，这是一种意外的扩散现象。
 
-    Research has investigated the impact of the COVID-19 pandemic on business performance and survival, indicating particularly adverse effects for small and midsize businesses (SMBs). Yet only limited work has examined whether and how online advertising technology may have helped shape these outcomes, particularly for SMBs. The aim of this study is to address this gap. By constructing and analyzing a novel data set of more than 60,000 businesses in 49 countries, we examine the impact of government lockdowns on business survival. Using discrete-time survival models with instrumental variables and staggered difference-in-differences estimators, we find that government lockdowns increased the likelihood of SMB closure around the world but that use of online advertising technology attenuates this adverse effect. The findings show heterogeneity in country, industry, and business size, consistent with theoretical expectations.
+    Conferences are ubiquitous in many industries, but how effectively they diffuse ideas has been debated and the mechanisms of diffusion unclear. Conference attendees can adopt ideas from presentations they choose to see (direct effect) or see incidentally (serendipity effect). We quantify these direct and serendipitous effects of academic conference presentations on future citations by exploiting quasi-random scheduling conflicts. When multiple papers of interest to an attendee are presented at the same time, the person is less able to see them on average and, if seeing presentations is important, cites them less. We use data from Confer, a scheduling application deployed at 25 in-person computer science conferences that lets users Like papers and receive personalized schedules. Compared to timeslots with many conflicts, users cited Liked papers with no scheduling conflicts 52% more. Users also cited non-Liked papers in sessions with no conflicts 51% more, and this serendipitous diffusi
     
-[^11]: 广义Grenander型估计量的Bootstrap-Aided推断
+[^6]: 算法辅助下的推荐相关偏好
 
-    Bootstrap-Assisted Inference for Generalized Grenander-type Estimators. (arXiv:2303.13598v1 [math.ST])
+    Algorithmic Assistance with Recommendation-Dependent Preferences. (arXiv:2208.07626v3 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2303.13598](http://arxiv.org/abs/2303.13598)
+    [http://arxiv.org/abs/2208.07626](http://arxiv.org/abs/2208.07626)
 
-    本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。
-
-    
-
-    Westling和Carone（2020）提出了一个框架来研究广义Grenander型估计量的大样本分布特性，这是一类用于单调函数的非参数估计器的多才多艺的类。这些估计量的极限分布可表示为高斯过程的最大凸支撑线的左导数，该高斯过程的协方差核可以很复杂，其单项式均值可以是未知阶数（如果感兴趣的函数的平坦度未知）。标准的非参数bootstrap即使知道均值的单项式顺序，也无法一致地逼近广义Grenander型估计量的大样本分布，这使得在应用中进行统计推断成为具有挑战性的任务。为了解决这个推断问题，我们提出了一种广义Grenander型估计量的bootstrap辅助推断程序。该程序依赖于一个精心设计但自动化的变换e
-
-    Westling and Carone (2020) proposed a framework for studying the large sample distributional properties of generalized Grenander-type estimators, a versatile class of nonparametric estimators of monotone functions. The limiting distribution of those estimators is representable as the left derivative of the greatest convex minorant of a Gaussian process whose covariance kernel can be complicated and whose monomial mean can be of unknown order (when the degree of flatness of the function of interest is unknown). The standard nonparametric bootstrap is unable to consistently approximate the large sample distribution of the generalized Grenander-type estimators even if the monomial order of the mean is known, making statistical inference a challenging endeavour in applications. To address this inferential problem, we present a bootstrap-assisted inference procedure for generalized Grenander-type estimators. The procedure relies on a carefully crafted, yet automatic, transformation of the e
-    
-[^12]: 瞬时排名投票中的中和性分析
-
-    Moderation in instant runoff voting. (arXiv:2303.09734v1 [cs.MA])
-
-    [http://arxiv.org/abs/2303.09734](http://arxiv.org/abs/2303.09734)
-
-    研究证明，相对于传统多数票投票，瞬时排名投票在对称分布的选民偏好条件下具有中和效应，可以避免选出极端候选人。
+    本研究提出了一个联合人机决策的委托代理模型，探讨了算法推荐对选择的影响和设计，特别关注算法对偏好的改变，以解决算法辅助可能带来的意外后果。
 
     
 
-    近年来，瞬时排名投票（IRV）作为传统多数票投票的一种替代方式备受欢迎。支持者声称IRV相对于多数票投票的好处之一是它倾向于中间派：它产生比多数票更为温和的胜者，因此可以成为解决极化问题的有用工具。然而，对于这种说法，很少有理论支持，现有的证据都是基于模拟和案例研究的。在这项工作中，我们在一维欧几里得模型中的选民偏好条件下，证明了IRV相对于传统的多数票投票具有一定的中和效应。我们的结果表明，只要选民的分布是对称的，并且不太集中于极端，IRV就不会选出超过分布尾部某个阈值之外的候选人，而多数票则可能会。对于均匀分布，我们提供了推导出多数票和IRV精确分布的方法。
+    当算法提供风险评估时，我们通常将其视为对人类决策的有益输入，例如将风险评分呈现给法官或医生。然而，决策者可能不仅仅只针对算法提供的信息做出反应。决策者还可能将算法推荐视为默认操作，使其难以偏离，例如法官在对被告进行高风险评估的时候不愿意推翻，或医生担心偏离推荐的程序会带来后果。为了解决算法辅助的这种意外后果，我们提出了一个联合人机决策的委托代理模型。在该模型中，我们考虑了算法推荐对选择的影响和设计，这种影响不仅仅是通过改变信念，还通过改变偏好。我们从制度因素和行为经济学中的已有模型等方面进行了这个假设的动机论证。
 
-    Instant runoff voting (IRV) has gained popularity in recent years as an alternative to traditional plurality voting. Advocates of IRV claim that one of its benefits relative to plurality voting is its tendency toward moderation: that it produces more moderate winners than plurality and could therefore be a useful tool for addressing polarization. However, there is little theoretical backing for this claim, and existing evidence has focused on simulations and case studies. In this work, we prove that IRV has a moderating effect relative to traditional plurality voting in a specific sense, developed in a 1-dimensional Euclidean model of voter preferences. Our results show that as long as voters are symmetrically distributed and not too concentrated at the extremes, IRV will not elect a candidate that is beyond a certain threshold in the tails of the distribution, while plurality can. For the uniform distribution, we provide an approach for deriving the exact distributions of the pluralit
+    When an algorithm provides risk assessments, we typically think of them as helpful inputs to human decisions, such as when risk scores are presented to judges or doctors. However, a decision-maker may not only react to the information provided by the algorithm. The decision-maker may also view the algorithmic recommendation as a default action, making it costly for them to deviate, such as when a judge is reluctant to overrule a high-risk assessment for a defendant or a doctor fears the consequences of deviating from recommended procedures. To address such unintended consequences of algorithmic assistance, we propose a principal-agent model of joint human-machine decision-making. Within this model, we consider the effect and design of algorithmic recommendations when they affect choices not just by shifting beliefs, but also by altering preferences. We motivate this assumption from institutional factors, such as a desire to avoid audits, as well as from well-established models in behav
     
-[^13]: 上下文隐私机制
+[^7]: 《关于先验独立机制设计中的二价竞拍的鲁棒性》
 
-    Contextually Private Mechanisms. (arXiv:2112.10812v6 [econ.TH] UPDATED)
+    On the Robustness of Second-Price Auctions in Prior-Independent Mechanism Design. (arXiv:2204.10478v4 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2112.10812](http://arxiv.org/abs/2112.10812)
+    [http://arxiv.org/abs/2204.10478](http://arxiv.org/abs/2204.10478)
 
-    该论文研究了上下文隐私机制，首先定义了可以不违反上下文隐私的选择规则，并证明了许多常见选择规则违反了参与者的上下文隐私；其次提出了上下文隐私等效的协议表示定理，并提出了一个比广泛使用的递增或英文协议更加私密的协议-“递增连接”协议。
-
-    
-
-    考虑一个机制设计者，他采用动态协议来实现一个选择规则。如果协议比计算结果所需的更多了解参与者的私人信息，那么协议就违反了参与者的上下文隐私。我们的第一个主要结果是对可以在不产生任何上下文隐私违规的选择规则进行了表征。我们将这个结果应用于表明许多常见研究和使用的选择规则都违反了某些参与者的上下文隐私——一价拍卖和顺序独裁规则是可以完全避免违规的显著例外。我们的第二个主要结果是对上下文隐私等效的协议进行的表示定理。我们利用这个结果得出了一个新的协议——“递增连接”协议，它在上下文隐私方面比广泛使用的递增或英文协议更加私密。
-
-    Consider a mechanism designer who employs a dynamic protocol to implement a choice rule. A protocol violates the contextual privacy of an agent if the designer learns more of the agent's private information than is necessary for computing the outcome. Our first main result is a characterization of choice rules that can be implemented without producing any contextual privacy violations. We apply this result to show that many commonly studied and employed choice rules violate some agent's contextual privacy -- the first-price auction and serial dictatorship rules are notable exceptions that can avoid violations altogether. Our second main result is a representation theorem for protocols that are contextual privacy equivalent. We use this result to derive a novel protocol for the second-price auction choice rule, the \emph{ascending-join} protocol, which is more contextually private than the widespread ascending or English protocol.
-    
-[^14]: 贝叶斯主义的经验内容
-
-    The Empirical Content of Bayesianism. (arXiv:2109.07007v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2109.07007](http://arxiv.org/abs/2109.07007)
-
-    这篇论文研究了与贝叶斯主义一致的观察信念条件，发现只有后验分布的均值绝对连续于先验分布时，才满足贝叶斯主义。同时指出现有对贝叶斯主义的经验内容的结果依赖于对主观分布的其他限制。
+    这篇论文研究了在先验独立机制设计中，对于没有可用先验信息的情况下，卖方如何以最坏情况的遗憾度量来衡量机制的性能。通过研究多种估值分布类别，论文总结了关于放松先验假设的先验独立机制设计的可行性。
 
     
 
-    本文研究了一组代理人的观察信念与贝叶斯更新一致的条件。如果信念是从在每个时期代理人观察到的某些主观分布下应用贝叶斯规则得出的，那么这些信念就与贝叶斯主义一致。本文的主要发现是，只有在后验分布的均值在先验分布下是一致绝对连续的情况下，信念才与贝叶斯主义一致。此外，本文还表明，关于贝叶斯主义的经验内容的现有结果依赖于对允许的主观分布的其他限制，例如代理人对信号分布的正确信念要求。
+    经典的贝叶斯机制设计依赖于公共先验假设，但在实践中往往无法获得这样的先验知识。我们研究了放松这个假设的先验独立机制的设计：卖方向n个买家出售一个不可分割的物品，买家的估值从一个对卖方和买家都未知的联合分布中抽取；买家不需要形成对竞争对手的信念，而卖方假设该分布是从一个指定类中对抗性选择的。我们通过最坏情况的遗憾度量性能，即预期收入与实际机制收入之间的差异。我们研究了一组广泛的估值分布类，涵盖了各种可能的依赖关系：独立同分布（i.i.d.）分布、i.i.d.分布的混合分布、关联和可交换分布、可交换分布等。
 
-    This paper characterizes the conditions under which the observed beliefs of a group of agents are consistent with Bayesian updating. Beliefs are consistent with Bayesianism if they arise from the application of Bayes' rule given some subjective distribution for the state and the signals agents observe between periods. The paper's main finding is that beliefs are consistent with Bayesianism if and only if the mean of the distribution of posteriors is uniformly absolutely continuous with respect to the prior. Furthermore, the paper shows that the existing results on the empirical content of Bayesianism rely on additional restrictions on permissible subjective distributions, such as the requirement that agents have correct beliefs about the distribution of signals.
+    Classical Bayesian mechanism design relies on the common prior assumption, but such prior is often not available in practice. We study the design of prior-independent mechanisms that relax this assumption: the seller is selling an indivisible item to $n$ buyers such that the buyers' valuations are drawn from a joint distribution that is unknown to both the buyers and the seller; buyers do not need to form beliefs about competitors, and the seller assumes the distribution is adversarially chosen from a specified class. We measure performance through the worst-case regret, or the difference between the expected revenue achievable with perfect knowledge of buyers' valuations and the actual mechanism revenue.  We study a broad set of classes of valuation distributions that capture a wide spectrum of possible dependencies: independent and identically distributed (i.i.d.) distributions, mixtures of i.i.d. distributions, affiliated and exchangeable distributions, exchangeable distributions, a
     
-[^15]: 有限且稀疏集群下的工具变量回归的野生Bootstrap方法
+[^8]: 金融周期比率与美国GDP的中期预测: 来自美国的证据
 
-    Wild Bootstrap for Instrumental Variables Regressions with Weak and Few Clusters. (arXiv:2108.13707v5 [econ.EM] UPDATED)
+    Financial-cycle ratios and medium-term predictions of GDP: Evidence from the United States. (arXiv:2111.00822v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2108.13707](http://arxiv.org/abs/2108.13707)
+    [http://arxiv.org/abs/2111.00822](http://arxiv.org/abs/2111.00822)
 
-    本文研究了有限且稀疏集群下工具变量回归的野生Bootstrap推断方法，证明了在强识别条件下该方法控制了大小，并发展了一种野生Bootstrap的Anderson-Rubin检验，能够处理弱或部分识别情况。
+    本研究利用美国大量的季度宏观经济数据集，发现了特定金融比率，如调整后的房价租金比率和非金融非公司营业部门的负债收入比率，可以在一到五年的中期时段内预测美国的GDP增长。这些比率不仅在衰退和扩张期间表现出强大的预测能力，而且在不同时间段内表现稳定，与宏观金融理论相吻合。
 
     
 
-    本文研究了在有限且稀疏集群的框架下，工具变量回归的野生Bootstrap推断方法。我们首先证明，无论是否使用集群健壮的协方差估计器，野生Bootstrap的Wald检验在强识别条件下几乎控制了大小，只有一部分集群内内生变量的参数是强识别的。然后，我们确定了对于该检验在局部替代假设下具有功效所需的强集群数量。我们进一步发展了一种用于完全向量推断的野生Bootstrap的Anderson-Rubin检验，并证明即使在所有集群中存在弱或部分识别，它也在近似上控制了大小。我们通过仿真实验展示了新推断方法的良好有限样本性能，并对一个已知数据集进行了实证应用。
+    利用1960-2017年的大型季度宏观经济数据集，我们记录了住房市场和企业总资产负债表中特定金融比率在美国中期时段内预测GDP的能力。根据各种不同排名，调整后的房价租金比率和非金融非公司营业部门的负债收入比率在一到五年的时间段内提供了最佳的样本内和样本外预测GDP增长。包含这些指标的小型预测模型胜过流行的高维度模型和预测组合。这两个比率的预测能力在衰退和扩张期间都很强，随时间稳定，并与已建立的宏观金融理论一致。
 
-    We study the wild bootstrap inference for instrumental variable regressions in the framework of a small number of large clusters in which the number of clusters is viewed as fixed and the number of observations for each cluster diverges to infinity. We first show that the wild bootstrap Wald test, with or without using the cluster-robust covariance estimator, controls size asymptotically up to a small error as long as the parameters of endogenous variables are strongly identified in at least one of the clusters. Then, we establish the required number of strong clusters for the test to have power against local alternatives. We further develop a wild bootstrap Anderson-Rubin test for the full-vector inference and show that it controls size asymptotically up to a small error even under weak or partial identification in all clusters. We illustrate the good finite sample performance of the new inference methods using simulations and provide an empirical application to a well-known dataset a
+    Using a large quarterly macroeconomic dataset for the period 1960-2017, we document the ability of specific financial ratios from the housing market and firms' aggregate balance sheets to predict GDP over medium-term horizons in the United States. A cyclically adjusted house price-to-rent ratio and the liabilities-to-income ratio of the non-financial non-corporate business sector provide the best in-sample and out-of-sample predictions of GDP growth over horizons of one to five years, based on a wide variety of rankings. Small forecasting models that include these indicators outperform popular high-dimensional models and forecast combinations. The predictive power of the two ratios appears strong during both recessions and expansions, stable over time, and consistent with well-established macro-finance theory.
+    
+[^9]: 好消息不能满足动机推理的条件
+
+    Good News Is Not a Sufficient Condition for Motivated Reasoning. (arXiv:2012.01548v4 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2012.01548](http://arxiv.org/abs/2012.01548)
+
+    本文研究了好消息对信念更新的影响，发现好消息并不能满足动机推理的条件。研究结果表明，基于信念的效用不足以使人们扭曲信念更新，以支持这些信念。
+
+    
+
+    人们常常收到使他们对周围世界感觉更好的好消息，或者使他们对周围世界感觉更糟的坏消息。本文研究了新闻的价值对信念更新的影响，不考虑功能性和自我相关因素。通过对1,500多名参与者和5,600次观察的实验，我测试了人们是否在与癌症存活率、他人幸福和婴儿死亡率相关的问题上，对好消息过分信任而不是坏消息的动机推理。对于对好消息的动机推理的估计是一个精确估计的空值。相对于政治和绩效方面的动机推理，可以排除出相对较小的影响。补充的调查证据表明，大多数人期望好消息会增加幸福感，但不会系统地导致动机推理。这些结果表明，基于信念的效用不足以使人们扭曲信念更新，以支持这些信念。
+
+    People often receive good news that makes them feel better about the world around them, or bad news that makes them feel worse about it. This paper studies how the valence of news affects belief updating, absent functional and ego-relevant factors. Using experiments with over 1,500 participants and 5,600 observations, I test whether people engage in motivated reasoning to overly trust good news versus bad news on valence-relevant issues like cancer survival rates, others' happiness, and infant mortality. The estimate for motivated reasoning towards good news is a precisely-estimated null. Modest effects, of one-third the size of motivated reasoning in politics and performance, can be ruled out. Complementary survey evidence shows that most people expect good news to increase happiness, but to not systematically lead to motivated reasoning. These results suggest that belief-based utility is not sufficient in leading people to distort belief updating in order to favor those beliefs.
     
 

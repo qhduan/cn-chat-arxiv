@@ -2,81 +2,211 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [ChatQA: Building GPT-4 Level Conversational QA Models.](http://arxiv.org/abs/2401.10225) | ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。 |
-| [^2] | [Comparing Traditional and LLM-based Search for Image Geolocation.](http://arxiv.org/abs/2401.10184) | 本文比较了传统和基于LLM的图像地理位置搜索方法，结果发现使用传统搜索引擎的参与者对图像位置的预测更准确，而使用基于LLM的搜索引擎的参与者则提出了更长、更自然语言的查询。 |
-| [^3] | [LOCALINTEL: Generating Organizational Threat Intelligence from Global and Local Cyber Knowledge.](http://arxiv.org/abs/2401.10036) | LOCALINTEL是一个自动化的知识上下文化系统，利用大型语言模型的能力，从全球和本地知识数据库中自动生成组织的威胁情报。 |
-| [^4] | [HGAttack: Transferable Heterogeneous Graph Adversarial Attack.](http://arxiv.org/abs/2401.09945) | 这篇论文介绍了HGAttack，一种针对异构图的攻击方法。通过设计一个拟合模型和利用梯度生成扰动，该方法能够有效利用异构信息，提高攻击的可转移性和效果。 |
-| [^5] | [Source Code Clone Detection Using Unsupervised Similarity Measures.](http://arxiv.org/abs/2401.09885) | 本研究对使用无监督相似度度量进行源代码克隆检测进行了比较分析，旨在为软件工程师提供指导，以选择适合其特定用例的方法。 |
-| [^6] | [MatSciRE: Leveraging Pointer Networks to Automate Entity and Relation Extraction for Material Science Knowledge-base Construction.](http://arxiv.org/abs/2401.09839) | 本论文提出了MatSciRE，一种基于指针网络的编码器-解码器框架，用于从材料科学文章中自动提取实体和关系以构建一个材料科学知识库。通过针对电池材料的五个关系的提取任务，我们的方法在F1分数上取得了比之前使用ChemDataExtractor更好的结果。 |
-| [^7] | [Enhancing Image-Text Matching with Adaptive Feature Aggregation.](http://arxiv.org/abs/2401.09725) | 本研究提出了一种改进图像-文本匹配的方法，通过引入特征增强模块和新的损失函数，实现了更平衡和稳健的图像-文本检索。 |
-| [^8] | [EfficientRec an unlimited user-item scale recommendation system based on clustering and users interaction embedding profile.](http://arxiv.org/abs/2401.09693) | EfficientRec是一种应用了图神经网络和对比学习框架的推荐系统，采用了软聚类架构，能以低计算成本学习用户偏好，并具有较高的准确性和对无限用户和产品的可扩展性。 |
-| [^9] | [Handling Large-scale Cardinality in building recommendation systems.](http://arxiv.org/abs/2401.09572) | 本文提出了两种创新技术来解决建议系统中高基数的挑战，包括采用词袋模型和层共享来减小模型大小并提高性能。通过对Uber使用情况的实验验证，证明了这些技术在优化建议系统和提高性能方面的有效性。 |
-| [^10] | [Gene-associated Disease Discovery Powered by Large Language Models.](http://arxiv.org/abs/2401.09490) | 通过使用大型语言模型，我们提出了一种新框架，旨在通过自动地从医学文献中筛选遗传变异与疾病相关的证据，从而增加疾病识别的效率。 |
-| [^11] | [Image Restoration: A Comparative Analysis of Image De noising Using Different Spatial Filtering Techniques.](http://arxiv.org/abs/2401.09460) | 本文通过比较分析了使用不同空间滤波技术进行图像去噪的效果，并确定了某些滤波器在特定噪声模型上的更高效性。 |
-| [^12] | [Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection.](http://arxiv.org/abs/2310.12086) | 该论文介绍了一种为大型语言模型设计的FactCHD事实冲突幻觉检测基准，用于评估LLMs生成文本的事实性。基准包含了多种事实模式，并使用基于事实的证据链进行组合性幻觉的检测。 |
-| [^13] | [Detecting Check-Worthy Claims in Political Debates, Speeches, and Interviews Using Audio Data.](http://arxiv.org/abs/2306.05535) | 政治辩论、演讲和访谈中的值得核实的论断可以使用音频数据进行检测和确认，这可帮助主持人、记者和事实核查组织进行工作。 |
-| [^14] | [CodeKGC: Code Language Model for Generative Knowledge Graph Construction.](http://arxiv.org/abs/2304.09048) | 本文提出了一种使用代码语言模型处理生成式知识图谱构建任务的方法，能够有效利用知识图谱内的语义结构，提高模型的可解释性。 |
-| [^15] | [A Survey on Modern Recommendation System based on Big Data.](http://arxiv.org/abs/2206.02631) | 这份综述全面调研了基于大数据的现代推荐系统的发展和挑战，总结了四种主要类型的推荐技术，并指出了未来研究的潜在领域。 |
+| [^1] | [Using LLMs to discover emerging coded antisemitic hate-speech emergence in extremist social media.](http://arxiv.org/abs/2401.10841) | 这项研究提出了一种方法，可以检测新出现的编码恶意术语，为极端社交媒体中的反犹太恶意言论提供了解决方案。 |
+| [^2] | [Dynamic Q&A of Clinical Documents with Large Language Models.](http://arxiv.org/abs/2401.10733) | 本研究介绍了一种使用大型语言模型进行临床文档动态问答的自然语言接口。通过Langchain和Transformer-based LLMs驱动的聊天机器人，用户可以用自然语言查询临床笔记并获得相关答案。实验结果显示Wizard Vicuna具有出色的准确性，但计算要求较高。模型优化方案提高了约48倍的延迟。然而，模型产生幻象和多样化医疗案例评估的限制仍然存在。解决这些挑战对于发掘临床笔记的价值和推进基于AI的临床决策至关重要。 |
+| [^3] | [Beyond RMSE and MAE: Introducing EAUC to unmask hidden bias and unfairness in dyadic regression models.](http://arxiv.org/abs/2401.10690) | 本研究引入EAUC作为一种新的度量标准，用以揭示迪亚德回归模型中隐藏的偏见和不公平问题。传统的全局错误度量标准如RMSE和MAE无法捕捉到这种问题。 |
+| [^4] | [Automatic Construction of Multi-faceted User Profiles using Text Clustering and its Application to Expert Recommendation and Filtering Problems.](http://arxiv.org/abs/2401.10634) | 本文介绍了一种使用文本聚类自动构建多维用户个人资料的方法，并将其应用于专家推荐和文档过滤问题中。实验证明，该方法可以提高专家查找和文档过滤的性能。 |
+| [^5] | [LDA-based Term Profiles for Expert Finding in a Political Setting.](http://arxiv.org/abs/2401.10617) | 这项研究提出了一种基于LDA的方法，在政治环境下使用主题分配术语配置来帮助查找具有特定领域专业知识的政治家。 |
+| [^6] | [Publication venue recommendation using profiles based on clustering.](http://arxiv.org/abs/2401.10611) | 本文研究了出版场所推荐问题，提出了一种基于聚类和信息检索的方法，通过构建基于主题的个人资料来推荐论文的目标出版场所，并考虑使用作者信息来改进推荐的准确性。 |
+| [^7] | [Use of topical and temporal profiles and their hybridisation for content-based recommendation.](http://arxiv.org/abs/2401.10607) | 本文研究了如何通过混合时间和主题特征来改进基于内容的推荐系统，并提出了两种不同的混合方法，并与其他方法进行了比较评估。 |
+| [^8] | [Understanding Biases in ChatGPT-based Recommender Systems: Provider Fairness, Temporal Stability, and Recency.](http://arxiv.org/abs/2401.10545) | 该研究揭示了基于ChatGPT的推荐系统的偏见问题，并研究了提示设计策略对推荐质量的影响。实验结果显示，在RecLLMs中引入特定的系统角色和提示策略可以增强推荐的公平性和多样性，同时GPT-based模型倾向于推荐最新和更多样化的电影流派。 |
+| [^9] | [Generative Dense Retrieval: Memory Can Be a Burden.](http://arxiv.org/abs/2401.10487) | 本文提出了生成式密集检索（GDR）范式，通过在查询和文档之间实现簇间匹配和细粒度的簇内匹配，缓解了生成式检索面临的记忆准确性差、记忆混淆和记忆更新成本高的问题。 |
+| [^10] | [Enhancing Scalability in Recommender Systems through Lottery Ticket Hypothesis and Knowledge Distillation-based Neural Network Pruning.](http://arxiv.org/abs/2401.10484) | 本研究通过将彩票票据假设和知识蒸馏框架相结合，提出了一种剪枝神经网络的创新方法，以解决推荐系统在边缘设备上的可扩展性问题。经实验证明，该方法能够有效地降低功耗和模型尺寸，并实现高达66.67%的GPU计算功率减少。此外，本研究还首次应用了彩票票据假设和知识蒸馏技术于推荐系统领域，对该领域作出了重要贡献。 |
+| [^11] | [Improving One-class Recommendation with Multi-tasking on Various Preference Intensities.](http://arxiv.org/abs/2401.10316) | 本研究提出了一个多任务框架，考虑了隐式反馈中不同偏好强度的情况，并在其中引入了注意力图卷积层来探索高阶关系。这使得表示更具鲁棒性和泛化性。 |
+| [^12] | [A systematic review of geospatial location embedding approaches in large language models: A path to spatial AI systems.](http://arxiv.org/abs/2401.10279) | 这篇论文系统综述了在大型语言模型中的地理位置嵌入方法，提出了四种主要的嵌入主题，并强调了在空间形态和生成模态方面进一步发展的需求。 |
+| [^13] | [Knowledge graph driven recommendation model of graph neural network.](http://arxiv.org/abs/2401.10244) | 提出了一种基于知识图谱的图神经网络推荐模型KGLN，通过合并节点特征、调整聚合权重和迭代演化，提高了个性化推荐的准确性和效果。在实验中相对于已有基准方法，KGLN在不同数据集上的AUC提高了0.3%至5.9%和1.1%至8.2%。 |
+| [^14] | [Source Code Clone Detection Using Unsupervised Similarity Measures.](http://arxiv.org/abs/2401.09885) | 本研究对使用无监督相似度度量进行源代码克隆检测进行了比较分析，旨在为软件工程师提供指导，以选择适合其特定用例的方法。 |
+| [^15] | [A Survey on Cross-Domain Sequential Recommendation.](http://arxiv.org/abs/2401.04971) | 跨领域序列推荐通过集成和学习多个领域的交互信息，将用户偏好建模从平面转向立体。文章对CDSR问题进行了定义和分析，提供了从宏观和微观两个视角的系统概述。对于不同领域间的模型，总结了多层融合结构和融合桥梁。对于现有模型，讨论了基础技术和辅助学习技术。展示了公开数据集和实验结果，并给出了未来发展的见解。 |
+| [^16] | [Improving Text Embeddings with Large Language Models.](http://arxiv.org/abs/2401.00368) | 本文介绍了一种使用只用合成数据和少量训练步骤获取高质量文本嵌入的简单方法，并且在没有使用标记数据的情况下，在竞争激烈的文本嵌入基准上取得了强大的性能。 |
+| [^17] | [Context-Driven Interactive Query Simulations Based on Generative Large Language Models.](http://arxiv.org/abs/2312.09631) | 本论文介绍了一种基于生成型大规模语言模型的上下文驱动的交互式查询模拟方法，该方法考虑了用户的上下文，并展示了比传统方法更好的有效性和更高效的信息检索会话模拟。 |
+| [^18] | [Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation.](http://arxiv.org/abs/2309.11623) | 本研究利用自我注意力机制和负面反馈，提出了用于顺序音乐推荐的Transformer模型，并采用对比学习任务来提高推荐准确性。 |
+| [^19] | [Large Language Models for Information Retrieval: A Survey.](http://arxiv.org/abs/2308.07107) | 本综述将大型语言模型（LLMs）在信息检索中的发展进行了综述，探讨了其在捕捉上下文信号和语义细微之处方面的优势和挑战，以及与传统检索方法的结合的重要性。 |
 
 # 详细
 
-[^1]: ChatQA: 构建GPT-4级对话问答模型
+[^1]: 使用LLMs发现极端社交媒体中的编码反犹太恶意言论的出现
 
-    ChatQA: Building GPT-4 Level Conversational QA Models. (arXiv:2401.10225v1 [cs.CL])
+    Using LLMs to discover emerging coded antisemitic hate-speech emergence in extremist social media. (arXiv:2401.10841v1 [cs.CL])
 
-    [http://arxiv.org/abs/2401.10225](http://arxiv.org/abs/2401.10225)
+    [http://arxiv.org/abs/2401.10841](http://arxiv.org/abs/2401.10841)
 
-    ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。
-
-    
-
-    在这项工作中，我们介绍了ChatQA，一系列具有GPT-4级别准确性的对话问答模型。具体地，我们提出了一个两阶段的指令调整方法，可以显著提高大型语言模型（LLM）在零-shot对话问答中的结果。为了处理对话问答中的检索问题，我们在多轮问答数据集上进行了密集检索器的微调，这样可以提供与使用最先进的查询重写模型相当的结果，同时大大降低部署成本。值得注意的是，我们的ChatQA-70B可以在10个对话问答数据集的平均分上超过GPT-4（54.14 vs. 53.90），而不依赖于OpenAI GPT模型的任何合成数据。
-
-    In this work, we introduce ChatQA, a family of conversational question answering (QA) models, that obtain GPT-4 level accuracies. Specifically, we propose a two-stage instruction tuning method that can significantly improve the zero-shot conversational QA results from large language models (LLMs). To handle retrieval in conversational QA, we fine-tune a dense retriever on a multi-turn QA dataset, which provides comparable results to using the state-of-the-art query rewriting model while largely reducing deployment cost. Notably, our ChatQA-70B can outperform GPT-4 in terms of average score on 10 conversational QA datasets (54.14 vs. 53.90), without relying on any synthetic data from OpenAI GPT models.
-    
-[^2]: 比较传统和基于LLM的图像地理位置搜索
-
-    Comparing Traditional and LLM-based Search for Image Geolocation. (arXiv:2401.10184v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.10184](http://arxiv.org/abs/2401.10184)
-
-    本文比较了传统和基于LLM的图像地理位置搜索方法，结果发现使用传统搜索引擎的参与者对图像位置的预测更准确，而使用基于LLM的搜索引擎的参与者则提出了更长、更自然语言的查询。
+    这项研究提出了一种方法，可以检测新出现的编码恶意术语，为极端社交媒体中的反犹太恶意言论提供了解决方案。
 
     
 
-    Web搜索引擎长期以来一直是信息检索的必不可少的工具；用户行为和查询形式的策略已经得到了深入研究。基于大语言模型（LLM）驱动的搜索引擎的引入提出了更加对话式的搜索和新类型的查询策略。本文比较了传统和基于LLM的搜索在图像地理位置搜索任务中的效果，即确定图像拍摄地点。我们的研究主要关注用户的交互，尤其是查询形式的策略。在我们的研究中，我们为60名参与者分配了传统或基于LLM的搜索引擎作为地理位置搜索的助手。相比使用LLM-based搜索的参与者，使用传统搜索的参与者更准确地预测了图像的位置。根据助手的类型，使用者之间出现了不同的策略。使用LLM-based搜索的参与者提出了更长、更自然语言的查询，但搜索会话更短。
+    网络仇恨言论的蔓延给社交媒体平台带来了一个难题。一个特殊的挑战与使用编码语言的群体有关，这些群体既想为其用户创造归属感，又想回避检测。编码语言发展迅速，并且随着时间的推移使用方式不同。本文提出了一种检测新出现的编码恶意术语的方法论。该方法在在线反犹太言论的环境中进行了测试。该方法考虑了从社交媒体平台上抓取的帖子，通常是极端主义用户使用的。帖子是使用与以前已知的针对犹太人的仇恨言论相关的种子表达式进行抓取的。该方法首先通过识别每个帖子最具代表性的表达式，并计算它们在整个语料库中的频率。过滤掉语法不一致的表达式和之前遇到过的表达式，以便关注新出现的良好形式的术语。然后进行了语义评估。
 
-    Web search engines have long served as indispensable tools for information retrieval; user behavior and query formulation strategies have been well studied. The introduction of search engines powered by large language models (LLMs) suggested more conversational search and new types of query strategies. In this paper, we compare traditional and LLM-based search for the task of image geolocation, i.e., determining the location where an image was captured. Our work examines user interactions, with a particular focus on query formulation strategies. In our study, 60 participants were assigned either traditional or LLM-based search engines as assistants for geolocation. Participants using traditional search more accurately predicted the location of the image compared to those using the LLM-based search. Distinct strategies emerged between users depending on the type of assistant. Participants using the LLM-based search issued longer, more natural language queries, but had shorter search ses
+    Online hate speech proliferation has created a difficult problem for social media platforms. A particular challenge relates to the use of coded language by groups interested in both creating a sense of belonging for its users and evading detection. Coded language evolves quickly and its use varies over time. This paper proposes a methodology for detecting emerging coded hate-laden terminology. The methodology is tested in the context of online antisemitic discourse. The approach considers posts scraped from social media platforms, often used by extremist users. The posts are scraped using seed expressions related to previously known discourse of hatred towards Jews. The method begins by identifying the expressions most representative of each post and calculating their frequency in the whole corpus. It filters out grammatically incoherent expressions as well as previously encountered ones so as to focus on emergent well-formed terminology. This is followed by an assessment of semantic s
     
-[^3]: LOCALINTEL：从全球和本地网络知识生成组织威胁情报
+[^2]: 使用大型语言模型进行临床文档的动态问答
 
-    LOCALINTEL: Generating Organizational Threat Intelligence from Global and Local Cyber Knowledge. (arXiv:2401.10036v1 [cs.CR])
+    Dynamic Q&A of Clinical Documents with Large Language Models. (arXiv:2401.10733v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.10036](http://arxiv.org/abs/2401.10036)
+    [http://arxiv.org/abs/2401.10733](http://arxiv.org/abs/2401.10733)
 
-    LOCALINTEL是一个自动化的知识上下文化系统，利用大型语言模型的能力，从全球和本地知识数据库中自动生成组织的威胁情报。
-
-    
-
-    安全操作中心（SoC）分析师从公开访问的全球威胁数据库中收集威胁报告，并手动自定义以适应特定组织的需求。这些分析师还依赖于内部存储库，作为组织的私有本地知识数据库。可信的网络情报、关键操作细节和相关组织信息都存储在这些本地知识数据库中。分析师利用这些全球和本地知识数据库从事一项繁重的任务，手动创建组织独特的威胁响应和缓解策略。最近，大型语言模型（LLMs）已经展示了高效处理大规模多样化知识源的能力。我们利用这种能力来处理全球和本地知识数据库，自动化生成组织特定的威胁情报。在这项工作中，我们提出了LOCALINTEL，这是一个新颖的自动化知识上下文化系统，可以从全球和本地知识数据库中生成组织的威胁情报。
-
-    Security Operations Center (SoC) analysts gather threat reports from openly accessible global threat databases and customize them manually to suit a particular organization's needs. These analysts also depend on internal repositories, which act as private local knowledge database for an organization. Credible cyber intelligence, critical operational details, and relevant organizational information are all stored in these local knowledge databases. Analysts undertake a labor intensive task utilizing these global and local knowledge databases to manually create organization's unique threat response and mitigation strategies. Recently, Large Language Models (LLMs) have shown the capability to efficiently process large diverse knowledge sources. We leverage this ability to process global and local knowledge databases to automate the generation of organization-specific threat intelligence.  In this work, we present LOCALINTEL, a novel automated knowledge contextualization system that, upon 
-    
-[^4]: HGAttack: 可转移的异构图对抗攻击
-
-    HGAttack: Transferable Heterogeneous Graph Adversarial Attack. (arXiv:2401.09945v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.09945](http://arxiv.org/abs/2401.09945)
-
-    这篇论文介绍了HGAttack，一种针对异构图的攻击方法。通过设计一个拟合模型和利用梯度生成扰动，该方法能够有效利用异构信息，提高攻击的可转移性和效果。
+    本研究介绍了一种使用大型语言模型进行临床文档动态问答的自然语言接口。通过Langchain和Transformer-based LLMs驱动的聊天机器人，用户可以用自然语言查询临床笔记并获得相关答案。实验结果显示Wizard Vicuna具有出色的准确性，但计算要求较高。模型优化方案提高了约48倍的延迟。然而，模型产生幻象和多样化医疗案例评估的限制仍然存在。解决这些挑战对于发掘临床笔记的价值和推进基于AI的临床决策至关重要。
 
     
 
-    异构图神经网络（HGNN）在网络和电子商务等领域的性能越来越受到认可，对抗攻击的韧性对于这些领域至关重要。然而，现有的对抗攻击方法主要针对同质图设计，应用于HGNN时，由于其对HGNN结构和语义复杂性的限制，这些方法效果不佳。本文介绍了HGAttack，这是一种针对异构图的第一种专用灰盒逃避攻击方法。我们设计了一个新的拟合模型，以与目标HGNN的行为紧密相似，并利用基于梯度的方法生成扰动。具体来说，所提出的拟合模型通过提取元路径诱导的子图并应用GNN来学习每个子图中具有不同语义的节点嵌入，有效地利用了异构信息。这种方法提高了生成的攻击对目标HGNN的可转移性，并显著减少了攻击数量。
+    电子健康记录（EHR）中收录了临床笔记中的重要患者数据。随着这些笔记数量和复杂度的增加，手动提取变得具有挑战性。本研究利用大型语言模型（LLMs）引入了一种自然语言接口，用于对临床笔记进行动态问答。我们的聊天机器人由Langchain和基于Transformer的LLMs驱动，允许用户用自然语言发出查询，并从临床笔记中获得相关答案。通过使用各种嵌入模型和先进的LLMs进行实验，结果表明Wizard Vicuna在准确性方面表现优异，尽管计算要求较高。模型优化，包括权重量化，将延迟提高了约48倍。有希望的结果显示了临床笔记中的价值潜力，但仍存在模型产生幻象和有限的多样化医疗案例评估等挑战。解决这些问题对于发掘临床笔记的价值和推动AI驱动的临床决策至关重要。
 
-    Heterogeneous Graph Neural Networks (HGNNs) are increasingly recognized for their performance in areas like the web and e-commerce, where resilience against adversarial attacks is crucial. However, existing adversarial attack methods, which are primarily designed for homogeneous graphs, fall short when applied to HGNNs due to their limited ability to address the structural and semantic complexity of HGNNs. This paper introduces HGAttack, the first dedicated gray box evasion attack method for heterogeneous graphs. We design a novel surrogate model to closely resemble the behaviors of the target HGNN and utilize gradient-based methods for perturbation generation. Specifically, the proposed surrogate model effectively leverages heterogeneous information by extracting meta-path induced subgraphs and applying GNNs to learn node embeddings with distinct semantics from each subgraph. This approach improves the transferability of generated attacks on the target HGNN and significantly reduces m
+    Electronic health records (EHRs) house crucial patient data in clinical notes. As these notes grow in volume and complexity, manual extraction becomes challenging. This work introduces a natural language interface using large language models (LLMs) for dynamic question-answering on clinical notes. Our chatbot, powered by Langchain and transformer-based LLMs, allows users to query in natural language, receiving relevant answers from clinical notes. Experiments, utilizing various embedding models and advanced LLMs, show Wizard Vicuna's superior accuracy, albeit with high compute demands. Model optimization, including weight quantization, improves latency by approximately 48 times. Promising results indicate potential, yet challenges such as model hallucinations and limited diverse medical case evaluations remain. Addressing these gaps is crucial for unlocking the value in clinical notes and advancing AI-driven clinical decision-making.
     
-[^5]: 使用无监督相似度度量进行源代码克隆检测
+[^3]: 超越RMSE和MAE：引入EAUC来揭示偏见和不公平的迪亚德回归模型中的隐藏因素
+
+    Beyond RMSE and MAE: Introducing EAUC to unmask hidden bias and unfairness in dyadic regression models. (arXiv:2401.10690v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.10690](http://arxiv.org/abs/2401.10690)
+
+    本研究引入EAUC作为一种新的度量标准，用以揭示迪亚德回归模型中隐藏的偏见和不公平问题。传统的全局错误度量标准如RMSE和MAE无法捕捉到这种问题。
+
+    
+
+    迪亚德回归模型用于预测一对实体的实值结果，在许多领域中都是基础的（例如，在推荐系统中预测用户对产品的评分），在许多其他领域中也有许多潜力但尚未深入探索（例如，在个性化药理学中近似确定患者的适当剂量）。本研究中，我们证明个体实体观察值分布的非均匀性导致了最先进模型中的严重偏见预测，偏向于实体的观察过去值的平均值，并在另类但同样重要的情况下提供比随机预测更差的预测能力。我们表明，全局错误度量标准如均方根误差（RMSE）和平均绝对误差（MAE）不足以捕捉到这种现象，我们将其命名为另类偏见，并引入另类-曲线下面积（EAUC）作为一个新的补充度量，可以在所有研究的模型中量化它。
+
+    Dyadic regression models, which predict real-valued outcomes for pairs of entities, are fundamental in many domains (e.g. predicting the rating of a user to a product in Recommender Systems) and promising and under exploration in many others (e.g. approximating the adequate dosage of a drug for a patient in personalized pharmacology). In this work, we demonstrate that non-uniformity in the observed value distributions of individual entities leads to severely biased predictions in state-of-the-art models, skewing predictions towards the average of observed past values for the entity and providing worse-than-random predictive power in eccentric yet equally important cases. We show that the usage of global error metrics like Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) is insufficient to capture this phenomenon, which we name eccentricity bias, and we introduce Eccentricity-Area Under the Curve (EAUC) as a new complementary metric that can quantify it in all studied models
+    
+[^4]: 使用文本聚类自动构建多维用户个人资料及其在专家推荐和过滤问题上的应用
+
+    Automatic Construction of Multi-faceted User Profiles using Text Clustering and its Application to Expert Recommendation and Filtering Problems. (arXiv:2401.10634v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10634](http://arxiv.org/abs/2401.10634)
+
+    本文介绍了一种使用文本聚类自动构建多维用户个人资料的方法，并将其应用于专家推荐和文档过滤问题中。实验证明，该方法可以提高专家查找和文档过滤的性能。
+
+    
+
+    在当今的信息时代，我们不仅对访问文档、视频等多媒体对象感兴趣，还对搜索专业专家、人物或名人感兴趣，可能是出于职业需求或只是为了娱乐。信息访问系统需要能够提取和利用关于这些个人的各种信息来源（通常以文本形式），并以适当的方式呈现，通常以个人资料的形式。本文从机器学习的角度，通过对专家文本来源进行聚类来构建个人资料并捕捉专家感兴趣的不同隐藏主题，从而解决基于个人资料的专家推荐和文档过滤问题。实验证明，这是一种有效的技术，可以提高专家查找和文档过滤的性能。
+
+    In the information age we are living in today, not only are we interested in accessing multimedia objects such as documents, videos, etc. but also in searching for professional experts, people or celebrities, possibly for professional needs or just for fun. Information access systems need to be able to extract and exploit various sources of information (usually in text format) about such individuals, and to represent them in a suitable way usually in the form of a profile. In this article, we tackle the problems of profile-based expert recommendation and document filtering from a machine learning perspective by clustering expert textual sources to build profiles and capture the different hidden topics in which the experts are interested. The experts will then be represented by means of multi-faceted profiles. Our experiments show that this is a valid technique to improve the performance of expert finding and document filtering.
+    
+[^5]: 基于LDA的政治环境下专家查找的术语配置
+
+    LDA-based Term Profiles for Expert Finding in a Political Setting. (arXiv:2401.10617v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10617](http://arxiv.org/abs/2401.10617)
+
+    这项研究提出了一种基于LDA的方法，在政治环境下使用主题分配术语配置来帮助查找具有特定领域专业知识的政治家。
+
+    
+
+    许多政治机构（如议会）的常见任务是找到在特定领域内具有专业知识的政治家。为了解决这个问题，第一步是获取政治家的个人资料，其中包括他们的兴趣，这些兴趣可以通过他们的演讲自动学习。由于政治家可能在多个领域有专长，因此一种替代方法是使用一组子资料，每个子资料都涵盖不同的主题。在这项研究中，我们提出了一种新的方法，通过使用潜在狄利克雷分配（LDA）来确定每个政治演讲的主要主题，并将相关术语分配给不同的基于主题的子资料。为了实现这一目标，我们提出使用15种距离和相似性度量来自动确定文档中讨论的主题数，并证明每种度量都收敛为五种策略：欧氏距离、Dice系数、Sorensen系数、余弦相似度和重叠度。我们的实验结果表明
+
+    A common task in many political institutions (i.e. Parliament) is to find politicians who are experts in a particular field. In order to tackle this problem, the first step is to obtain politician profiles which include their interests, and these can be automatically learned from their speeches. As a politician may have various areas of expertise, one alternative is to use a set of subprofiles, each of which covers a different subject. In this study, we propose a novel approach for this task by using latent Dirichlet allocation (LDA) to determine the main underlying topics of each political speech, and to distribute the related terms among the different topic-based subprofiles. With this objective, we propose the use of fifteen distance and similarity measures to automatically determine the optimal number of topics discussed in a document, and to demonstrate that every measure converges into five strategies: Euclidean, Dice, Sorensen, Cosine and Overlap. Our experimental results showed
+    
+[^6]: 基于聚类的个人资料的出版场所推荐
+
+    Publication venue recommendation using profiles based on clustering. (arXiv:2401.10611v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10611](http://arxiv.org/abs/2401.10611)
+
+    本文研究了出版场所推荐问题，提出了一种基于聚类和信息检索的方法，通过构建基于主题的个人资料来推荐论文的目标出版场所，并考虑使用作者信息来改进推荐的准确性。
+
+    
+
+    本文研究了出版场所推荐问题，旨在帮助研究人员找到一个适合提交论文的期刊或会议。解决这个问题的常见方法是建立定义每个场所范围的个人资料，然后将这些个人资料与目标论文进行比较。在我们的方法中，我们将研究如何使用聚类技术构建基于主题的个人资料，并使用信息检索的方法得到最终的推荐。此外，我们还将探讨使用作者信息作为补充信息如何提高推荐的效果。
+
+    In this paper we study the venue recommendation problem in order to help researchers to identify a journal or conference to submit a given paper. A common approach to tackle this problem is to build profiles defining the scope of each venue. Then, these profiles are compared against the target paper. In our approach we will study how clustering techniques can be used to construct topic-based profiles and use an Information Retrieval based approach to obtain the final recommendations. Additionally, we will explore how the use of authorship, representing a complementary piece of information, helps to improve the recommendations.
+    
+[^7]: 使用主题和时间轴的混合方法进行基于内容的推荐
+
+    Use of topical and temporal profiles and their hybridisation for content-based recommendation. (arXiv:2401.10607v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10607](http://arxiv.org/abs/2401.10607)
+
+    本文研究了如何通过混合时间和主题特征来改进基于内容的推荐系统，并提出了两种不同的混合方法，并与其他方法进行了比较评估。
+
+    
+
+    在内容推荐系统的背景下，本文旨在确定如何构建更好的用户和物品特征，并研究这些特征对基于时间和主题的推荐过程的影响。主要贡献是提出了两种不同的混合方法，并与其他替代方案进行评估和比较。
+
+    In the context of content-based recommender systems, the aim of this paper is to determine how better profiles can be built and how these affect the recommendation process based on the incorporation of temporality, i.e. the inclusion of time in the recommendation process, and topicality, i.e. the representation of texts associated with users and items using topics and their combination. The main contribution of the paper is to present two different ways of hybridising these two dimensions and to evaluate and compare them with other alternatives.
+    
+[^8]: 理解ChatGPT基推荐系统中的偏见：供应商公平性、时间稳定性和最新性研究
+
+    Understanding Biases in ChatGPT-based Recommender Systems: Provider Fairness, Temporal Stability, and Recency. (arXiv:2401.10545v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10545](http://arxiv.org/abs/2401.10545)
+
+    该研究揭示了基于ChatGPT的推荐系统的偏见问题，并研究了提示设计策略对推荐质量的影响。实验结果显示，在RecLLMs中引入特定的系统角色和提示策略可以增强推荐的公平性和多样性，同时GPT-based模型倾向于推荐最新和更多样化的电影流派。
+
+    
+
+    该研究探讨了使用大型语言模型（RecLLMs）的推荐系统的细微能力和固有偏见，重点研究了基于ChatGPT的系统。研究了生成模型和传统协同过滤模型在电影推荐中的差异行为。本研究主要调查了提示设计策略及其对推荐质量的各个方面（包括准确性、供应商公平性、多样性、稳定性、流行类型和时效性）的影响。我们的实验分析表明，在RecLLMs中引入特定的“系统角色”和“提示策略”显著影响其性能。例如，基于角色的提示可以增强推荐的公平性和多样性，减轻流行偏见。我们发现，虽然基于GPT的模型并不总是能与传统协同过滤基线模型的性能匹配，但它们倾向于推荐更新、更多样化的电影流派。值得注意的是，GPT-base
+
+    This study explores the nuanced capabilities and inherent biases of Recommender Systems using Large Language Models (RecLLMs), with a focus on ChatGPT-based systems. It studies into the contrasting behaviors of generative models and traditional collaborative filtering models in movie recommendations. The research primarily investigates prompt design strategies and their impact on various aspects of recommendation quality, including accuracy, provider fairness, diversity, stability, genre dominance, and temporal freshness (recency).  Our experimental analysis reveals that the introduction of specific 'system roles' and 'prompt strategies' in RecLLMs significantly influences their performance. For instance, role-based prompts enhance fairness and diversity in recommendations, mitigating popularity bias. We find that while GPT-based models do not always match the performance of CF baselines, they exhibit a unique tendency to recommend newer and more diverse movie genres. Notably, GPT-base
+    
+[^9]: 生成式密集检索：记忆可以是一个负担
+
+    Generative Dense Retrieval: Memory Can Be a Burden. (arXiv:2401.10487v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10487](http://arxiv.org/abs/2401.10487)
+
+    本文提出了生成式密集检索（GDR）范式，通过在查询和文档之间实现簇间匹配和细粒度的簇内匹配，缓解了生成式检索面临的记忆准确性差、记忆混淆和记忆更新成本高的问题。
+
+    
+
+    生成式检索 (GR) 在小规模语料库的情况下表现出色，通过记忆模型参数来隐式地实现查询和文档的深度交互。然而，这种记忆机制面临三个问题：(1) 对文档的细粒度特征的记忆准确性较差；(2) 随着语料库规模的增加，记忆混淆程度越来越严重；(3) 对新文档的记忆更新成本巨大。为了缓解这些问题，我们提出了生成式密集检索（GDR）的范式。具体而言，GDR首先使用有限的内存容量，从查询到相关文档簇实现簇间匹配。然后，引入无记忆的密集检索（DR）匹配机制，从簇到相关文档进行细粒度的簇内匹配。这种从粗到细的过程最大化了GR深度交互和DR的优势。
+
+    Generative Retrieval (GR), autoregressively decoding relevant document identifiers given a query, has been shown to perform well under the setting of small-scale corpora. By memorizing the document corpus with model parameters, GR implicitly achieves deep interaction between query and document. However, such a memorizing mechanism faces three drawbacks: (1) Poor memory accuracy for fine-grained features of documents; (2) Memory confusion gets worse as the corpus size increases; (3) Huge memory update costs for new documents. To alleviate these problems, we propose the Generative Dense Retrieval (GDR) paradigm. Specifically, GDR first uses the limited memory volume to achieve inter-cluster matching from query to relevant document clusters. Memorizing-free matching mechanism from Dense Retrieval (DR) is then introduced to conduct fine-grained intra-cluster matching from clusters to relevant documents. The coarse-to-fine process maximizes the advantages of GR's deep interaction and DR's s
+    
+[^10]: 基于彩票票据假设和知识蒸馏的神经网络剪枝技术增强推荐系统的可扩展性
+
+    Enhancing Scalability in Recommender Systems through Lottery Ticket Hypothesis and Knowledge Distillation-based Neural Network Pruning. (arXiv:2401.10484v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10484](http://arxiv.org/abs/2401.10484)
+
+    本研究通过将彩票票据假设和知识蒸馏框架相结合，提出了一种剪枝神经网络的创新方法，以解决推荐系统在边缘设备上的可扩展性问题。经实验证明，该方法能够有效地降低功耗和模型尺寸，并实现高达66.67%的GPU计算功率减少。此外，本研究还首次应用了彩票票据假设和知识蒸馏技术于推荐系统领域，对该领域作出了重要贡献。
+
+    
+
+    本研究介绍了一种创新的方法，旨在高效地剪枝神经网络，特别关注它们在边缘设备上的部署。我们的方法将彩票票据假设（LTH）与知识蒸馏（KD）框架相结合，形成了三种不同的剪枝模型。这些模型旨在解决推荐系统中的可扩展性问题，其中深度学习模型的复杂性妨碍了它们的实际部署。通过巧妙应用剪枝技术，我们有效地降低了功耗和模型尺寸，同时不影响准确性。我们使用两个真实世界数据集对两个基准进行了实证评估。令人满意的是，我们的方法在GPU计算功率上实现了高达66.67%的降低。值得注意的是，我们的研究通过首次应用LTH和KD技术，对推荐系统领域做出了贡献。
+
+    This study introduces an innovative approach aimed at the efficient pruning of neural networks, with a particular focus on their deployment on edge devices. Our method involves the integration of the Lottery Ticket Hypothesis (LTH) with the Knowledge Distillation (KD) framework, resulting in the formulation of three distinct pruning models. These models have been developed to address scalability issue in recommender systems, whereby the complexities of deep learning models have hindered their practical deployment. With judicious application of the pruning techniques, we effectively curtail the power consumption and model dimensions without compromising on accuracy. Empirical evaluation has been performed using two real world datasets from diverse domains against two baselines. Gratifyingly, our approaches yielded a GPU computation-power reduction of up to 66.67%. Notably, our study contributes to the field of recommendation system by pioneering the application of LTH and KD.
+    
+[^11]: 在不同偏好强度上通过多任务提升单类推荐系统
+
+    Improving One-class Recommendation with Multi-tasking on Various Preference Intensities. (arXiv:2401.10316v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10316](http://arxiv.org/abs/2401.10316)
+
+    本研究提出了一个多任务框架，考虑了隐式反馈中不同偏好强度的情况，并在其中引入了注意力图卷积层来探索高阶关系。这使得表示更具鲁棒性和泛化性。
+
+    
+
+    在单类推荐问题中，需要根据用户的隐式反馈来进行推荐，该反馈是通过用户的行为和不行为进行推断的。现有的方法通过编码来自训练数据中观察到的积极和消极交互来获取用户和物品的表示。然而，这些方法假设隐式反馈中的所有积极信号都反映了固定的偏好强度，这是不现实的。因此，用这些方法学习到的表示通常无法捕捉反映不同偏好强度的信息性实体特征。在本文中，我们提出了一个多任务框架，考虑了隐式反馈中每个信号的不同偏好强度。实体的表示需要同时满足每个子任务的目标，使其更加稳健和泛化。此外，我们还将注意力图卷积层引入到用户-物品的高阶关系中进行探索。
+
+    In the one-class recommendation problem, it's required to make recommendations basing on users' implicit feedback, which is inferred from their action and inaction. Existing works obtain representations of users and items by encoding positive and negative interactions observed from training data. However, these efforts assume that all positive signals from implicit feedback reflect a fixed preference intensity, which is not realistic. Consequently, representations learned with these methods usually fail to capture informative entity features that reflect various preference intensities.  In this paper, we propose a multi-tasking framework taking various preference intensities of each signal from implicit feedback into consideration. Representations of entities are required to satisfy the objective of each subtask simultaneously, making them more robust and generalizable. Furthermore, we incorporate attentive graph convolutional layers to explore high-order relationships in the user-item
+    
+[^12]: 大型语言模型中地理位置嵌入方法的系统综述：迈向空间人工智能系统的路径
+
+    A systematic review of geospatial location embedding approaches in large language models: A path to spatial AI systems. (arXiv:2401.10279v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10279](http://arxiv.org/abs/2401.10279)
+
+    这篇论文系统综述了在大型语言模型中的地理位置嵌入方法，提出了四种主要的嵌入主题，并强调了在空间形态和生成模态方面进一步发展的需求。
+
+    
+
+    地理位置嵌入（GLE）帮助大型语言模型（LLM）吸收和分析空间数据。GLE在地理人工智能（GeoAI）中的出现是由于我们复杂当代空间中对更深入的地理认知的需求以及LLM在生成人工智能中提取深层含义的成功。我们在Google Scholar、Science Direct和arXiv上搜索了关于地理位置嵌入和LLM的论文，并审查了着重于通过LLM实现更深入空间“知识”的文章。我们筛选了304个标题、30个摘要和18篇全文论文，揭示了四个GLE主题 - 实体位置嵌入（ELE）、文档位置嵌入（DLE）、序列位置嵌入（SLE）和令牌位置嵌入（TLE）。综述以表格和叙述的形式呈现，包括“空间”和“LLM”之间的对话。尽管GLE通过叠加空间数据有助于理解空间，但强调了在空间形态和生成模态方面的进一步发展的需求。
+
+    Geospatial Location Embedding (GLE) helps a Large Language Model (LLM) assimilate and analyze spatial data. GLE emergence in Geospatial Artificial Intelligence (GeoAI) is precipitated by the need for deeper geospatial awareness in our complex contemporary spaces and the success of LLMs in extracting deep meaning in Generative AI. We searched Google Scholar, Science Direct, and arXiv for papers on geospatial location embedding and LLM and reviewed articles focused on gaining deeper spatial "knowing" through LLMs. We screened 304 titles, 30 abstracts, and 18 full-text papers that reveal four GLE themes - Entity Location Embedding (ELE), Document Location Embedding (DLE), Sequence Location Embedding (SLE), and Token Location Embedding (TLE). Synthesis is tabular and narrative, including a dialogic conversation between "Space" and "LLM." Though GLEs aid spatial understanding by superimposing spatial data, they emphasize the need to advance in the intricacies of spatial modalities and gener
+    
+[^13]: 基于知识图谱驱动的图神经网络推荐模型
+
+    Knowledge graph driven recommendation model of graph neural network. (arXiv:2401.10244v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.10244](http://arxiv.org/abs/2401.10244)
+
+    提出了一种基于知识图谱的图神经网络推荐模型KGLN，通过合并节点特征、调整聚合权重和迭代演化，提高了个性化推荐的准确性和效果。在实验中相对于已有基准方法，KGLN在不同数据集上的AUC提高了0.3%至5.9%和1.1%至8.2%。
+
+    
+
+    提出了一种新的基于图神经网络的推荐模型KGLN，该模型利用知识图谱（KG）信息，提高了个性化推荐的准确性和效果。该模型首先利用单层神经网络将图中的个体节点特征合并，然后通过结合影响因素调整相邻实体的聚合权重。通过迭代，模型从单层逐渐演变为多层，使实体能够获取丰富的多阶关联实体信息。最后，将实体和用户的特征结合起来产生推荐分数。通过比较不同聚合方法和影响因素的效果，评估了模型的性能。在使用MovieLen-1M和Book-Crossing数据集进行测试时，KGLN相对于LibFM和D等已有基准方法，AUC（ROC曲线下的面积）提高了0.3%至5.9%和1.1%至8.2%。
+
+    A new graph neural network-based recommendation model called KGLN, which leverages Knowledge Graph (KG) information, was developed to enhance the accuracy and effectiveness of personalized recommendations. This model begins by using a single-layer neural network to merge individual node features in the graph. It then adjusts the aggregation weights of neighboring entities by incorporating influence factors. The model evolves from a single layer to multiple layers through iteration, enabling entities to access extensive multi-order associated entity information. The final step involves integrating features of entities and users to produce a recommendation score. The model's performance was evaluated by comparing its effects on various aggregation methods and influence factors. In tests using the MovieLen-1M and Book-Crossing datasets, KGLN showed an AUC (Area Under the ROC curve) improvement of 0.3% to 5.9% and 1.1% to 8.2%, respectively, over established benchmark methods like LibFM, D
+    
+[^14]: 使用无监督相似度度量进行源代码克隆检测
 
     Source Code Clone Detection Using Unsupervised Similarity Measures. (arXiv:2401.09885v1 [cs.SE])
 
@@ -90,144 +220,74 @@
 
     Assessing similarity in source code has gained significant attention in recent years due to its importance in software engineering tasks such as clone detection and code search and recommendation. This work presents a comparative analysis of unsupervised similarity measures for identifying source code clone detection. The goal is to overview the current state-of-the-art techniques, their strengths, and weaknesses. To do that, we compile the existing unsupervised strategies and evaluate their performance on a benchmark dataset to guide software engineers in selecting appropriate methods for their specific use cases. The source code of this study is available at \url{https://github.com/jorge-martinez-gil/codesim}
     
-[^6]: MatSciRE:利用指针网络自动化材料科学知识库构建中的实体和关系提取
+[^15]: 跨领域序列推荐的综述
 
-    MatSciRE: Leveraging Pointer Networks to Automate Entity and Relation Extraction for Material Science Knowledge-base Construction. (arXiv:2401.09839v1 [cs.CL])
+    A Survey on Cross-Domain Sequential Recommendation. (arXiv:2401.04971v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.09839](http://arxiv.org/abs/2401.09839)
+    [http://arxiv.org/abs/2401.04971](http://arxiv.org/abs/2401.04971)
 
-    本论文提出了MatSciRE，一种基于指针网络的编码器-解码器框架，用于从材料科学文章中自动提取实体和关系以构建一个材料科学知识库。通过针对电池材料的五个关系的提取任务，我们的方法在F1分数上取得了比之前使用ChemDataExtractor更好的结果。
-
-    
-
-    材料科学文献是关于各种实体（如材料和成分）和这些实体之间各种关系（如导电性、电压等）的丰富来源。自动提取这些信息以生成一个材料科学知识库是一项具有挑战性的任务。在本文中，我们提出了MatSciRE（材料科学关系提取器），一种基于指针网络的编码器-解码器框架，用于从材料科学文章中同时提取实体和关系作为三元组（$实体1，关系，实体2$）。具体而言，我们针对电池材料，并确定了五个要处理的关系 - 导电性、库伦效率、容量、电压和能量。我们提出的方法在F1分数上取得了比使用ChemDataExtractor（0.716）更好的结果（0.771）。MatSciRE的整体图形框架如图1所示。材料信息以实体和关系的形式从材料科学文献中提取出来。
-
-    Material science literature is a rich source of factual information about various categories of entities (like materials and compositions) and various relations between these entities, such as conductivity, voltage, etc. Automatically extracting this information to generate a material science knowledge base is a challenging task. In this paper, we propose MatSciRE (Material Science Relation Extractor), a Pointer Network-based encoder-decoder framework, to jointly extract entities and relations from material science articles as a triplet ($entity1, relation, entity2$). Specifically, we target the battery materials and identify five relations to work on - conductivity, coulombic efficiency, capacity, voltage, and energy. Our proposed approach achieved a much better F1-score (0.771) than a previous attempt using ChemDataExtractor (0.716). The overall graphical framework of MatSciRE is shown in Fig 1. The material information is extracted from material science literature in the form of ent
-    
-[^7]: 改进图像-文本匹配的自适应特征聚合
-
-    Enhancing Image-Text Matching with Adaptive Feature Aggregation. (arXiv:2401.09725v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.09725](http://arxiv.org/abs/2401.09725)
-
-    本研究提出了一种改进图像-文本匹配的方法，通过引入特征增强模块和新的损失函数，实现了更平衡和稳健的图像-文本检索。
+    跨领域序列推荐通过集成和学习多个领域的交互信息，将用户偏好建模从平面转向立体。文章对CDSR问题进行了定义和分析，提供了从宏观和微观两个视角的系统概述。对于不同领域间的模型，总结了多层融合结构和融合桥梁。对于现有模型，讨论了基础技术和辅助学习技术。展示了公开数据集和实验结果，并给出了未来发展的见解。
 
     
 
-    图像-文本匹配旨在准确找到匹配的跨模态对。当前的方法通常依赖于将跨模态特征映射到一个共同的嵌入空间，但往往存在不平衡的特征表示，造成检索结果不可靠。为了解决这些问题，我们引入了一种新的特征增强模块，通过自适应聚合单模态特征，实现更平衡和稳健的图像-文本检索。此外，我们提出了一种新的损失函数，克服了原始三元排名损失的不足，从而显著提高了检索性能。我们在两个公共数据集上对模型进行了评估，与几种最先进的模型相比，在检索性能上取得了有竞争力的结果。实现代码可以在这里找到。
+    跨领域序列推荐（CDSR）通过在不同粒度（从序列间到序列内，从单领域到跨领域）上集成和学习来自多个领域的交互信息，将用户偏好建模从平面转向了立体。本综述文章中，我们首先使用四维张量定义了CDSR问题，并分析了其在多维度降维下的多类型输入表示。接下来，我们从整体和细节两个视角提供了系统的概述。从整体视角，我们总结了各个模型在不同领域间的多层融合结构，并讨论了它们的融合桥梁。从细节视角，我们着重讨论了现有模型的基础技术，并解释了辅助学习技术。最后，我们展示了可用的公开数据集和代表性的实验结果，并提供了对未来发展的一些见解。
 
-    Image-text matching aims to find matched cross-modal pairs accurately. While current methods often rely on projecting cross-modal features into a common embedding space, they frequently suffer from imbalanced feature representations across different modalities, leading to unreliable retrieval results. To address these limitations, we introduce a novel Feature Enhancement Module that adaptively aggregates single-modal features for more balanced and robust image-text retrieval. Additionally, we propose a new loss function that overcomes the shortcomings of original triplet ranking loss, thereby significantly improving retrieval performance. The proposed model has been evaluated on two public datasets and achieves competitive retrieval performance when compared with several state-of-the-art models. Implementation codes can be found here.
+    Cross-domain sequential recommendation (CDSR) shifts the modeling of user preferences from flat to stereoscopic by integrating and learning interaction information from multiple domains at different granularities (ranging from inter-sequence to intra-sequence and from single-domain to cross-domain).In this survey, we initially define the CDSR problem using a four-dimensional tensor and then analyze its multi-type input representations under multidirectional dimensionality reductions. Following that, we provide a systematic overview from both macro and micro views. From a macro view, we abstract the multi-level fusion structures of various models across domains and discuss their bridges for fusion. From a micro view, focusing on the existing models, we specifically discuss the basic technologies and then explain the auxiliary learning technologies. Finally, we exhibit the available public datasets and the representative experimental results as well as provide some insights into future d
     
-[^8]: 基于聚类和用户交互嵌入档案的EfficientRec无限用户-物品规模推荐系统
+[^16]: 用大型语言模型改善文本嵌入
 
-    EfficientRec an unlimited user-item scale recommendation system based on clustering and users interaction embedding profile. (arXiv:2401.09693v1 [cs.IR])
+    Improving Text Embeddings with Large Language Models. (arXiv:2401.00368v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2401.09693](http://arxiv.org/abs/2401.09693)
+    [http://arxiv.org/abs/2401.00368](http://arxiv.org/abs/2401.00368)
 
-    EfficientRec是一种应用了图神经网络和对比学习框架的推荐系统，采用了软聚类架构，能以低计算成本学习用户偏好，并具有较高的准确性和对无限用户和产品的可扩展性。
-
-    
-
-    推荐系统是如今科技公司高度关注的技术，由于用户和产品数量不断增长，传统的推荐算法在对工业环境的适应性上存在困难。本文介绍了一种新的方法，应用图神经网络和对比学习框架来提取用户偏好。我们采用了软聚类架构，显著降低了推理过程的计算成本。实验证明，该模型能够以较低的计算成本在训练和预测阶段学习用户偏好，并且具有很好的准确性。我们称这种架构为EfficientRec，意味着模型的紧凑性和对无限用户和产品的可扩展性。
-
-    Recommendation systems are highly interested in technology companies nowadays. The businesses are constantly growing users and products, causing the number of users and items to continuously increase over time, to very large numbers. Traditional recommendation algorithms with complexity dependent on the number of users and items make them difficult to adapt to the industrial environment. In this paper, we introduce a new method applying graph neural networks with a contrastive learning framework in extracting user preferences. We incorporate a soft clustering architecture that significantly reduces the computational cost of the inference process. Experiments show that the model is able to learn user preferences with low computational cost in both training and prediction phases. At the same time, the model gives a very good accuracy. We call this architecture EfficientRec with the implication of model compactness and the ability to scale to unlimited users and products.
-    
-[^9]: 处理建议系统中大规模基数的方法
-
-    Handling Large-scale Cardinality in building recommendation systems. (arXiv:2401.09572v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.09572](http://arxiv.org/abs/2401.09572)
-
-    本文提出了两种创新技术来解决建议系统中高基数的挑战，包括采用词袋模型和层共享来减小模型大小并提高性能。通过对Uber使用情况的实验验证，证明了这些技术在优化建议系统和提高性能方面的有效性。
+    本文介绍了一种使用只用合成数据和少量训练步骤获取高质量文本嵌入的简单方法，并且在没有使用标记数据的情况下，在竞争激烈的文本嵌入基准上取得了强大的性能。
 
     
 
-    有效的建议系统依赖于捕捉用户偏好，通常需要包含无数实体的唯一标识符（UUID）等多种功能。然而，UUID的异常高基数在模型退化和稀疏性导致模型大小增加方面构成了重大挑战。本文提出了两种创新技术来解决建议系统中高基数的挑战。具体而言，我们提出了一种词袋模型的方法，结合层共享，以显著减小模型大小并提高性能。我们通过对Uber使用情况进行离线和在线实验评估了我们的技术，结果显示我们的方法在优化建议系统和提高其整体性能方面非常有效。
+    在本文中，我们介绍了一种新颖且简单的方法，仅使用合成数据和少于1k个训练步骤即可获得高质量的文本嵌入。与现有方法不同，现有方法往往依赖多阶段中间预训练，使用数十亿个弱监督文本对进行训练，然后再使用少量标记数据进行微调，我们的方法不需要构建复杂的训练流程，也不依赖于通常受任务多样性和语言覆盖范围限制的手动收集的数据集。我们利用专有的LLM来为近100种语言的数十万个文本嵌入任务生成多样的合成数据。然后，我们使用标准的对比损失在合成数据上微调开源的只有解码器的LLM。实验证明，我们的方法在竞争激烈的文本嵌入基准上取得了出色的性能，而且没有使用任何标记数据。此外，当与合成数据和标记数据的混合进行微调时，我们的模型创造了新的
 
-    Effective recommendation systems rely on capturing user preferences, often requiring incorporating numerous features such as universally unique identifiers (UUIDs) of entities. However, the exceptionally high cardinality of UUIDs poses a significant challenge in terms of model degradation and increased model size due to sparsity. This paper presents two innovative techniques to address the challenge of high cardinality in recommendation systems. Specifically, we propose a bag-of-words approach, combined with layer sharing, to substantially decrease the model size while improving performance. Our techniques were evaluated through offline and online experiments on Uber use cases, resulting in promising results demonstrating our approach's effectiveness in optimizing recommendation systems and enhancing their overall performance.
+    In this paper, we introduce a novel and simple method for obtaining high-quality text embeddings using only synthetic data and less than 1k training steps. Unlike existing methods that often depend on multi-stage intermediate pre-training with billions of weakly-supervised text pairs, followed by fine-tuning with a few labeled datasets, our method does not require building complex training pipelines or relying on manually collected datasets that are often constrained by task diversity and language coverage. We leverage proprietary LLMs to generate diverse synthetic data for hundreds of thousands of text embedding tasks across nearly 100 languages. We then fine-tune open-source decoder-only LLMs on the synthetic data using standard contrastive loss. Experiments demonstrate that our method achieves strong performance on highly competitive text embedding benchmarks without using any labeled data. Furthermore, when fine-tuned with a mixture of synthetic and labeled data, our model sets new
     
-[^10]: 由大型语言模型驱动的基因相关疾病发现
+[^17]: 基于生成型大规模语言模型的上下文驱动的交互式查询模拟
 
-    Gene-associated Disease Discovery Powered by Large Language Models. (arXiv:2401.09490v1 [q-bio.QM])
+    Context-Driven Interactive Query Simulations Based on Generative Large Language Models. (arXiv:2312.09631v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2401.09490](http://arxiv.org/abs/2401.09490)
+    [http://arxiv.org/abs/2312.09631](http://arxiv.org/abs/2312.09631)
 
-    通过使用大型语言模型，我们提出了一种新框架，旨在通过自动地从医学文献中筛选遗传变异与疾病相关的证据，从而增加疾病识别的效率。
-
-    
-
-    遗传变异与人类疾病之间错综复杂的关系一直是医学研究的焦点，这在特定疾病的风险基因确定方面得到了证实。先进的基因组测序技术的出现极大地提高了检测这些遗传标记的效率和经济性，对疾病诊断起到了关键作用，并成为临床决策和早期风险评估的基础。为了克服现有数据库的局限性，这些数据库从现有文献中记录疾病基因关联，通常缺乏实时更新，我们提出了一种采用大型语言模型（LLM）的新框架，用于发现与特定基因相关的疾病。该框架旨在自动化繁重的过程，通过筛选医学文献证据，将遗传变异与疾病联系起来，从而提高疾病识别的效率。我们的方法涉及使用LLMs进行...
-
-    The intricate relationship between genetic variation and human diseases has been a focal point of medical research, evidenced by the identification of risk genes regarding specific diseases. The advent of advanced genome sequencing techniques has significantly improved the efficiency and cost-effectiveness of detecting these genetic markers, playing a crucial role in disease diagnosis and forming the basis for clinical decision-making and early risk assessment. To overcome the limitations of existing databases that record disease-gene associations from existing literature, which often lack real-time updates, we propose a novel framework employing Large Language Models (LLMs) for the discovery of diseases associated with specific genes. This framework aims to automate the labor-intensive process of sifting through medical literature for evidence linking genetic variations to diseases, thereby enhancing the efficiency of disease identification. Our approach involves using LLMs to conduct
-    
-[^11]: 图像恢复：使用不同空间滤波技术的图像去噪的比较分析
-
-    Image Restoration: A Comparative Analysis of Image De noising Using Different Spatial Filtering Techniques. (arXiv:2401.09460v1 [eess.IV])
-
-    [http://arxiv.org/abs/2401.09460](http://arxiv.org/abs/2401.09460)
-
-    本文通过比较分析了使用不同空间滤波技术进行图像去噪的效果，并确定了某些滤波器在特定噪声模型上的更高效性。
+    本论文介绍了一种基于生成型大规模语言模型的上下文驱动的交互式查询模拟方法，该方法考虑了用户的上下文，并展示了比传统方法更好的有效性和更高效的信息检索会话模拟。
 
     
 
-    为了恢复受到噪声影响的医学和其他用途的图像，本文通过首先向图像引入噪声，然后应用不同的空域滤波技术来除去噪声，探讨了不同的去噪滤波器。采用峰值信噪比（PSNR）和均方根误差（RMSE）等评估技术来确定每个滤波器在给定图像噪声上的效果如何。结果表明，某些滤波器在某些噪声模型上比其他滤波器更有效。
+    模拟用户交互可以更加面向用户评估信息检索(IR)系统。然而，许多方法在真实用户行为方面缺乏真实性。尤其是，当前用户模型忽视了用户的上下文，而上下文是感知相关性和与搜索结果交互的主要驱动因素。为此，本研究引入了上下文驱动的查询重构模拟。所提出的查询生成方法基于最新的大规模语言模型(LLM)方法，并在整个搜索会话的模拟过程中考虑用户的上下文。与简单的无上下文查询生成方法相比，这些方法显示出更好的有效性，并允许模拟更高效的IR会话。类似地，我们的评估考虑了比当前基于会话的度量更多的交互上下文，并在已建立的评估过程中揭示了有趣的补充洞见。
 
-    Acquired images for medical and other purposes can be affected by noise from both the equipment used in the capturing or the environment. This can have adverse effect on the information therein. Thus, the need to restore the image to its original state by removing the noise. To effectively remove such noise, pre knowledge of the type of noise model present is necessary. This work explores different noise removal filters by first introducing noise to an image and then applying different spatial domain filtering techniques to the image to get rid of the noise. Different evaluation techniques such as Peak to Signal Noise Ratio(PSNR) and Root Mean Square Error(RMSE) were adopted to determine how effective each filter is on a given image noise. Result showed that some filters are more effective on some noise models than others.
+    Simulating user interactions enables a more user-oriented evaluation of information retrieval (IR) systems. While user simulations are cost-efficient and reproducible, many approaches often lack fidelity regarding real user behavior. Most notably, current user models neglect the user's context, which is the primary driver of perceived relevance and the interactions with the search results. To this end, this work introduces the simulation of context-driven query reformulations. The proposed query generation methods build upon recent Large Language Model (LLM) approaches and consider the user's context throughout the simulation of a search session. Compared to simple context-free query generation approaches, these methods show better effectiveness and allow the simulation of more efficient IR sessions. Similarly, our evaluations consider more interaction context than current session-based measures and reveal interesting complementary insights in addition to the established evaluation pro
     
-[^12]: 发现塞壬之歌：可靠的事实冲突幻觉检测
+[^18]: 利用自注意力机制对连续音乐推荐进行负面信号的利用
 
-    Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection. (arXiv:2310.12086v1 [cs.CL])
+    Leveraging Negative Signals with Self-Attention for Sequential Music Recommendation. (arXiv:2309.11623v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.12086](http://arxiv.org/abs/2310.12086)
+    [http://arxiv.org/abs/2309.11623](http://arxiv.org/abs/2309.11623)
 
-    该论文介绍了一种为大型语言模型设计的FactCHD事实冲突幻觉检测基准，用于评估LLMs生成文本的事实性。基准包含了多种事实模式，并使用基于事实的证据链进行组合性幻觉的检测。
-
-    
-
-    大型语言模型（LLMs），如ChatGPT/GPT-4，因其广泛的实际应用而受到广泛关注，但其在网络平台上存在事实冲突幻觉的问题限制了其采用。对由LLMs产生的文本的事实性评估仍然未被充分探索，不仅涉及对基本事实的判断，还包括对复杂推理任务（如多跳等）中出现的事实错误的评估。为此，我们引入了FactCHD，一种为LLMs精心设计的事实冲突幻觉检测基准。作为在“查询-响应”上下文中评估事实性的关键工具，我们的基准采用了大规模数据集，涵盖了广泛的事实模式，如基本事实，多跳，比较和集合操作模式。我们基准的一个独特特点是其包含基于事实的证据链，从而便于进行组合性幻觉的检测。
-
-    Large Language Models (LLMs), such as ChatGPT/GPT-4, have garnered widespread attention owing to their myriad of practical applications, yet their adoption has been constrained by issues of fact-conflicting hallucinations across web platforms. The assessment of factuality in text, produced by LLMs, remains inadequately explored, extending not only to the judgment of vanilla facts but also encompassing the evaluation of factual errors emerging in complex inferential tasks like multi-hop, and etc. In response, we introduce FactCHD, a fact-conflicting hallucination detection benchmark meticulously designed for LLMs. Functioning as a pivotal tool in evaluating factuality within "Query-Respons" contexts, our benchmark assimilates a large-scale dataset, encapsulating a broad spectrum of factuality patterns, such as vanilla, multi-hops, comparison, and set-operation patterns. A distinctive feature of our benchmark is its incorporation of fact-based chains of evidence, thereby facilitating com
-    
-[^13]: 使用音频数据检测政治辩论、演讲和访谈中值得核实的论断
-
-    Detecting Check-Worthy Claims in Political Debates, Speeches, and Interviews Using Audio Data. (arXiv:2306.05535v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.05535](http://arxiv.org/abs/2306.05535)
-
-    政治辩论、演讲和访谈中的值得核实的论断可以使用音频数据进行检测和确认，这可帮助主持人、记者和事实核查组织进行工作。
+    本研究利用自我注意力机制和负面反馈，提出了用于顺序音乐推荐的Transformer模型，并采用对比学习任务来提高推荐准确性。
 
     
 
-    社会的一大部分团结在相同的愿景和思想周围，具有巨大的能量。这正是政治人物希望为他们的事业所累积的。为了达到这个目标，他们有时会使用扭曲或隐藏真相的手段，无论是无意的还是有意的，这为错误信息和误导开了大门。自动检测值得核实的论断的工具将对辩论主持人、记者和事实核查组织有很大帮助。虽然以前关于检测值得核实的论断的工作重点是文本，但在这里，我们探讨了音频信号作为额外信息源的实用性。我们创建了一个新的多模态数据集（英语文本和音频），包含48小时的演讲。我们的评估结果表明，在多个演讲者的情况下，音频模态与文本结合使用比仅使用文本具有改进效果。此外，单声道音频模型可以胜过单声道文本模型。
+    音乐流媒体服务仰赖其推荐引擎连续向用户提供内容。因此，顺序推荐已经引起了当前文献的相当关注，而当今最先进的方法主要集中在利用上下文信息（如长期和短期用户历史和项目特征）的自我关注模型上；然而，大多数研究集中在长格式内容领域（零售、电影等）而不是短格式，例如音乐。此外，许多研究未探索在训练过程中如何融入负面会话级反馈。在本研究中，我们研究了基于Transformer的自我关注体系结构，以学习用于顺序音乐推荐的隐式会话级信息。此外，我们还提出了一种对比学习任务，以融入负面反馈（例如跳过的曲目）以促进正面命中并惩罚负面命中。这个任务被形式化为一个简单的损失项，可以加入到训练中。
 
-    A large portion of society united around the same vision and ideas carries enormous energy. That is precisely what political figures would like to accumulate for their cause. With this goal in mind, they can sometimes resort to distorting or hiding the truth, unintentionally or on purpose, which opens the door for misinformation and disinformation. Tools for automatic detection of check-worthy claims would be of great help to moderators of debates, journalists, and fact-checking organizations. While previous work on detecting check-worthy claims has focused on text, here we explore the utility of the audio signal as an additional information source. We create a new multimodal dataset (text and audio in English) containing 48 hours of speech. Our evaluation results show that the audio modality together with text yields improvements over text alone in the case of multiple speakers. Moreover, an audio-only model could outperform a text-only one for a single speaker.
+    Music streaming services heavily rely on their recommendation engines to continuously provide content to their consumers. Sequential recommendation consequently has seen considerable attention in current literature, where state of the art approaches focus on self-attentive models leveraging contextual information such as long and short-term user history and item features; however, most of these studies focus on long-form content domains (retail, movie, etc.) rather than short-form, such as music. Additionally, many do not explore incorporating negative session-level feedback during training. In this study, we investigate the use of transformer-based self-attentive architectures to learn implicit session-level information for sequential music recommendation. We additionally propose a contrastive learning task to incorporate negative feedback (e.g skipped tracks) to promote positive hits and penalize negative hits. This task is formulated as a simple loss term that can be incorporated in
     
-[^14]: CodeKGC：用于生成知识图谱构建的代码语言模型
+[^19]: 信息检索中的大型语言模型：一项综述
 
-    CodeKGC: Code Language Model for Generative Knowledge Graph Construction. (arXiv:2304.09048v1 [cs.CL])
+    Large Language Models for Information Retrieval: A Survey. (arXiv:2308.07107v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2304.09048](http://arxiv.org/abs/2304.09048)
+    [http://arxiv.org/abs/2308.07107](http://arxiv.org/abs/2308.07107)
 
-    本文提出了一种使用代码语言模型处理生成式知识图谱构建任务的方法，能够有效利用知识图谱内的语义结构，提高模型的可解释性。
-
-    
-
-    目前的生成式知识图谱构建方法通常无法捕捉结构性知识，而只是将自然语言转化为序列化文本或规范语言。然而，对于像代码这样的结构化数据进行训练的大型生成式语言模型已经展现了在理解自然语言以进行结构性预测和推理任务方面的卓越能力。本文提出了一种使用代码语言模型处理生成式知识图谱构建任务的方法。具体而言，在给定代码格式的自然语言输入的情况下，目标是生成可以表示为代码补全任务的三元组。我们开发了具有模式感知型提示的方法，可以有效利用知识图谱内的语义结构。由于代码本质上具有结构，如类和函数定义，因此它作为先验的语义结构知识模型非常有用。此外，我们采用了基于原理的生成方法来提高性能。原理提供了模型生成结果的可解释性。
-
-    Current generative knowledge graph construction approaches usually fail to capture structural knowledge by simply flattening natural language into serialized texts or a specification language. However, large generative language model trained on structured data such as code has demonstrated impressive capability in understanding natural language for structural prediction and reasoning tasks. Intuitively, we address the task of generative knowledge graph construction with code language model: given a code-format natural language input, the target is to generate triples which can be represented as code completion tasks. Specifically, we develop schema-aware prompts that effectively utilize the semantic structure within the knowledge graph. As code inherently possesses structure, such as class and function definitions, it serves as a useful model for prior semantic structural knowledge. Furthermore, we employ a rationale-enhanced generation method to boost the performance. Rationales provi
-    
-[^15]: 基于大数据的现代推荐系统综述
-
-    A Survey on Modern Recommendation System based on Big Data. (arXiv:2206.02631v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2206.02631](http://arxiv.org/abs/2206.02631)
-
-    这份综述全面调研了基于大数据的现代推荐系统的发展和挑战，总结了四种主要类型的推荐技术，并指出了未来研究的潜在领域。
+    本综述将大型语言模型（LLMs）在信息检索中的发展进行了综述，探讨了其在捕捉上下文信号和语义细微之处方面的优势和挑战，以及与传统检索方法的结合的重要性。
 
     
 
-    本综述全面探索了推荐系统的发展和当前状态，这些系统已广泛整合到各种网络应用中。它重点关注个性化推荐策略在在线产品或服务中的进展。我们将推荐技术分为四种主要类型：基于内容的、协同过滤的、基于知识的和混合的，每种类型都解决了独特的情景。本综述详细审视了推荐系统的历史背景和最新的创新方法，特别是那些使用大数据的方法。此外，本综述还确定并讨论了现代推荐系统面临的关键挑战，如数据稀疏性、可扩展性问题以及对推荐的多样性需求。综述最后强调了这些挑战作为未来研究的潜在领域。
+    作为信息获取的主要手段，信息检索（IR）系统，如搜索引擎，已经融入到我们的日常生活中。这些系统还作为对话、问答和推荐系统的组成部分。IR的发展轨迹从基于词项的方法起步，逐渐发展成与先进的神经模型相融合。尽管神经模型擅长捕捉复杂的上下文信号和语义细微之处，从而改变了IR的格局，但它们仍然面临着数据稀缺、可解释性以及生成上下文合理但潜在不准确响应的挑战。这种演变需要传统方法（如基于词项的稀疏检索方法与快速响应）和现代神经架构（如具有强大语言理解能力的语言模型）的结合。与此同时，大型语言模型（LLMs），如ChatGPT和GPT-4的出现，引起了一场革命
 
-    This survey provides an exhaustive exploration of the evolution and current state of recommendation systems, which have seen widespread integration in various web applications. It focuses on the advancement of personalized recommendation strategies for online products or services. We categorize recommendation techniques into four primary types: content-based, collaborative filtering-based, knowledge-based, and hybrid-based, each addressing unique scenarios. The survey offers a detailed examination of the historical context and the latest innovative approaches in recommendation systems, particularly those employing big data. Additionally, it identifies and discusses key challenges faced by modern recommendation systems, such as data sparsity, scalability issues, and the need for diversity in recommendations. The survey concludes by highlighting these challenges as potential areas for fruitful future research in the field.
+    As a primary means of information acquisition, information retrieval (IR) systems, such as search engines, have integrated themselves into our daily lives. These systems also serve as components of dialogue, question-answering, and recommender systems. The trajectory of IR has evolved dynamically from its origins in term-based methods to its integration with advanced neural models. While the neural models excel at capturing complex contextual signals and semantic nuances, thereby reshaping the IR landscape, they still face challenges such as data scarcity, interpretability, and the generation of contextually plausible yet potentially inaccurate responses. This evolution requires a combination of both traditional methods (such as term-based sparse retrieval methods with rapid response) and modern neural architectures (such as language models with powerful language understanding capacity). Meanwhile, the emergence of large language models (LLMs), typified by ChatGPT and GPT-4, has revolu
     
 

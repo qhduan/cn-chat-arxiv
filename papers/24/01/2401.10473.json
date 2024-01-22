@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Programming: Finite States. (arXiv:2401.10473v1 [econ.GN])",
+    "abstract": "This book is about dynamic programming and its applications in economics, finance, and adjacent fields. It brings together recent innovations in the theory of dynamic programming and provides applications and code that can help readers approach the research frontier. The book is aimed at graduate students and researchers, although most chapters are accessible to undergraduate students with solid quantitative backgrounds.",
+    "link": "http://arxiv.org/abs/2401.10473",
+    "context": "Title: Dynamic Programming: Finite States. (arXiv:2401.10473v1 [econ.GN])\nAbstract: This book is about dynamic programming and its applications in economics, finance, and adjacent fields. It brings together recent innovations in the theory of dynamic programming and provides applications and code that can help readers approach the research frontier. The book is aimed at graduate students and researchers, although most chapters are accessible to undergraduate students with solid quantitative backgrounds.",
+    "path": "papers/24/01/2401.10473.json",
+    "total_tokens": 575,
+    "translated_title": "动态规划：有限状态",
+    "translated_abstract": "本书介绍了动态规划及其在经济学、金融学以及相关领域中的应用。它汇集了动态规划理论的最新创新，并提供了应用和代码，可以帮助读者接触到研究前沿。本书面向研究生和研究人员，尽管大部分章节对具有扎实定量背景的本科生也是可访问的。",
+    "tldr": "这本书介绍了动态规划及其在经济学、金融学以及相关领域中的应用，提供了最新创新的理论和实践指南，适用于研究生和研究人员。",
+    "en_tdlr": "This book introduces dynamic programming and its applications in economics, finance, and adjacent fields, providing the latest innovative theory and practical guidance, suitable for graduate students and researchers."
+}

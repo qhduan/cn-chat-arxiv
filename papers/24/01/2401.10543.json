@@ -1,0 +1,11 @@
+{
+    "title": "Multilingual acoustic word embeddings for zero-resource languages. (arXiv:2401.10543v1 [eess.AS])",
+    "abstract": "This research addresses the challenge of developing speech applications for zero-resource languages that lack labelled data. It specifically uses acoustic word embedding (AWE) -- fixed-dimensional representations of variable-duration speech segments -- employing multilingual transfer, where labelled data from several well-resourced languages are used for pertaining. The study introduces a new neural network that outperforms existing AWE models on zero-resource languages. It explores the impact of the choice of well-resourced languages. AWEs are applied to a keyword-spotting system for hate speech detection in Swahili radio broadcasts, demonstrating robustness in real-world scenarios. Additionally, novel semantic AWE models improve semantic query-by-example search.",
+    "link": "http://arxiv.org/abs/2401.10543",
+    "context": "Title: Multilingual acoustic word embeddings for zero-resource languages. (arXiv:2401.10543v1 [eess.AS])\nAbstract: This research addresses the challenge of developing speech applications for zero-resource languages that lack labelled data. It specifically uses acoustic word embedding (AWE) -- fixed-dimensional representations of variable-duration speech segments -- employing multilingual transfer, where labelled data from several well-resourced languages are used for pertaining. The study introduces a new neural network that outperforms existing AWE models on zero-resource languages. It explores the impact of the choice of well-resourced languages. AWEs are applied to a keyword-spotting system for hate speech detection in Swahili radio broadcasts, demonstrating robustness in real-world scenarios. Additionally, novel semantic AWE models improve semantic query-by-example search.",
+    "path": "papers/24/01/2401.10543.json",
+    "total_tokens": 832,
+    "translated_title": "零资源语言的多语言声学词嵌入",
+    "translated_abstract": "该研究解决了在缺乏标注数据的零资源语言中开发语音应用的挑战。具体而言，它使用声学词嵌入（AWE）-将可变时长的语音片段转换为固定维度的表示-并使用多语言转移，在多个资源丰富的语言的标注数据上进行训练。该研究引入了一种新的神经网络，在零资源语言上表现优于现有的AWE模型。研究还探讨了资源丰富语言的选择对结果的影响。AWE应用于斯瓦希里语广播中的仇恨言论检测的关键词识别系统中，展示了在实际场景中的鲁棒性。此外，新颖的语义AWE模型改进了语义查询示例搜索。",
+    "tldr": "该研究发展了一种多语言声学词嵌入方法，用于解决缺乏标注数据的零资源语言的挑战。通过使用神经网络和多语言转移，该方法在零资源语言上取得了比现有模型更好的性能。研究还展示了该方法在仇恨言论检测和语义查询中的应用潜力。"
+}

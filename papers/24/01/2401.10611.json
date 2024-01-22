@@ -1,0 +1,11 @@
+{
+    "title": "Publication venue recommendation using profiles based on clustering. (arXiv:2401.10611v1 [cs.IR])",
+    "abstract": "In this paper we study the venue recommendation problem in order to help researchers to identify a journal or conference to submit a given paper. A common approach to tackle this problem is to build profiles defining the scope of each venue. Then, these profiles are compared against the target paper. In our approach we will study how clustering techniques can be used to construct topic-based profiles and use an Information Retrieval based approach to obtain the final recommendations. Additionally, we will explore how the use of authorship, representing a complementary piece of information, helps to improve the recommendations.",
+    "link": "http://arxiv.org/abs/2401.10611",
+    "context": "Title: Publication venue recommendation using profiles based on clustering. (arXiv:2401.10611v1 [cs.IR])\nAbstract: In this paper we study the venue recommendation problem in order to help researchers to identify a journal or conference to submit a given paper. A common approach to tackle this problem is to build profiles defining the scope of each venue. Then, these profiles are compared against the target paper. In our approach we will study how clustering techniques can be used to construct topic-based profiles and use an Information Retrieval based approach to obtain the final recommendations. Additionally, we will explore how the use of authorship, representing a complementary piece of information, helps to improve the recommendations.",
+    "path": "papers/24/01/2401.10611.json",
+    "total_tokens": 689,
+    "translated_title": "基于聚类的个人资料的出版场所推荐",
+    "translated_abstract": "本文研究了出版场所推荐问题，旨在帮助研究人员找到一个适合提交论文的期刊或会议。解决这个问题的常见方法是建立定义每个场所范围的个人资料，然后将这些个人资料与目标论文进行比较。在我们的方法中，我们将研究如何使用聚类技术构建基于主题的个人资料，并使用信息检索的方法得到最终的推荐。此外，我们还将探讨使用作者信息作为补充信息如何提高推荐的效果。",
+    "tldr": "本文研究了出版场所推荐问题，提出了一种基于聚类和信息检索的方法，通过构建基于主题的个人资料来推荐论文的目标出版场所，并考虑使用作者信息来改进推荐的准确性。"
+}

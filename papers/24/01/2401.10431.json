@@ -1,0 +1,11 @@
+{
+    "title": "Learning a Prior for Monte Carlo Search by Replaying Solutions to Combinatorial Problems. (arXiv:2401.10431v1 [cs.AI])",
+    "abstract": "Monte Carlo Search gives excellent results in multiple difficult combinatorial problems. Using a prior to perform non uniform playouts during the search improves a lot the results compared to uniform playouts. Handmade heuristics tailored to the combinatorial problem are often used as priors. We propose a method to automatically compute a prior. It uses statistics on solved problems. It is a simple and general method that incurs no computational cost at playout time and that brings large performance gains. The method is applied to three difficult combinatorial problems: Latin Square Completion, Kakuro, and Inverse RNA Folding.",
+    "link": "http://arxiv.org/abs/2401.10431",
+    "context": "Title: Learning a Prior for Monte Carlo Search by Replaying Solutions to Combinatorial Problems. (arXiv:2401.10431v1 [cs.AI])\nAbstract: Monte Carlo Search gives excellent results in multiple difficult combinatorial problems. Using a prior to perform non uniform playouts during the search improves a lot the results compared to uniform playouts. Handmade heuristics tailored to the combinatorial problem are often used as priors. We propose a method to automatically compute a prior. It uses statistics on solved problems. It is a simple and general method that incurs no computational cost at playout time and that brings large performance gains. The method is applied to three difficult combinatorial problems: Latin Square Completion, Kakuro, and Inverse RNA Folding.",
+    "path": "papers/24/01/2401.10431.json",
+    "total_tokens": 729,
+    "translated_title": "通过重播组合问题的解来学习蒙特卡罗搜索的先验知识",
+    "translated_abstract": "蒙特卡罗搜索在多个困难的组合问题中取得了出色的结果。使用先验知识对搜索过程中的非均匀展开进行优化，相比于均匀展开，可以显著提高结果。通常使用专门针对组合问题的手工启发式算法作为先验知识。我们提出了一种自动计算先验知识的方法，它利用已解决问题的统计信息。这是一种简单而通用的方法，在展开过程中不会增加计算成本，并且可以带来显著的性能提升。该方法被应用于三个困难的组合问题：拉丁方阵补全、Kakuro和逆转RNA折叠。",
+    "tldr": "本论文提出了一种通过统计已解决问题信息来自动计算先验知识的方法，该方法适用于多个困难的组合问题，并且可以显著提高搜索结果。"
+}

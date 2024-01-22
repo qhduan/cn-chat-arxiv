@@ -1,0 +1,12 @@
+{
+    "title": "Use of topical and temporal profiles and their hybridisation for content-based recommendation. (arXiv:2401.10607v1 [cs.IR])",
+    "abstract": "In the context of content-based recommender systems, the aim of this paper is to determine how better profiles can be built and how these affect the recommendation process based on the incorporation of temporality, i.e. the inclusion of time in the recommendation process, and topicality, i.e. the representation of texts associated with users and items using topics and their combination. The main contribution of the paper is to present two different ways of hybridising these two dimensions and to evaluate and compare them with other alternatives.",
+    "link": "http://arxiv.org/abs/2401.10607",
+    "context": "Title: Use of topical and temporal profiles and their hybridisation for content-based recommendation. (arXiv:2401.10607v1 [cs.IR])\nAbstract: In the context of content-based recommender systems, the aim of this paper is to determine how better profiles can be built and how these affect the recommendation process based on the incorporation of temporality, i.e. the inclusion of time in the recommendation process, and topicality, i.e. the representation of texts associated with users and items using topics and their combination. The main contribution of the paper is to present two different ways of hybridising these two dimensions and to evaluate and compare them with other alternatives.",
+    "path": "papers/24/01/2401.10607.json",
+    "total_tokens": 578,
+    "translated_title": "使用主题和时间轴的混合方法进行基于内容的推荐",
+    "translated_abstract": "在内容推荐系统的背景下，本文旨在确定如何构建更好的用户和物品特征，并研究这些特征对基于时间和主题的推荐过程的影响。主要贡献是提出了两种不同的混合方法，并与其他替代方案进行评估和比较。",
+    "tldr": "本文研究了如何通过混合时间和主题特征来改进基于内容的推荐系统，并提出了两种不同的混合方法，并与其他方法进行了比较评估。",
+    "en_tdlr": "This paper investigates how to improve content-based recommender systems by hybridizing temporal and topical features, and introduces two different hybridization approaches, which are evaluated and compared with other alternatives."
+}

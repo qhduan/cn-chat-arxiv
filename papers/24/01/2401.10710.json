@@ -1,0 +1,11 @@
+{
+    "title": "Classification with neural networks with quadratic decision functions. (arXiv:2401.10710v1 [cs.LG])",
+    "abstract": "Neural network with quadratic decision functions have been introduced as alternatives to standard neural networks with affine linear one. They are advantageous when the objects to be identified are of compact basic geometries like circles, ellipsis etc. In this paper we investigate the use of such ansatz functions for classification. In particular we test and compare the algorithm on the MNIST dataset for classification of handwritten digits and for classification of subspecies. We also show, that the implementation can be based on the neural network structure in the software Tensorflow and Keras, respectively.",
+    "link": "http://arxiv.org/abs/2401.10710",
+    "context": "Title: Classification with neural networks with quadratic decision functions. (arXiv:2401.10710v1 [cs.LG])\nAbstract: Neural network with quadratic decision functions have been introduced as alternatives to standard neural networks with affine linear one. They are advantageous when the objects to be identified are of compact basic geometries like circles, ellipsis etc. In this paper we investigate the use of such ansatz functions for classification. In particular we test and compare the algorithm on the MNIST dataset for classification of handwritten digits and for classification of subspecies. We also show, that the implementation can be based on the neural network structure in the software Tensorflow and Keras, respectively.",
+    "path": "papers/24/01/2401.10710.json",
+    "total_tokens": 680,
+    "translated_title": "使用具有二次决策函数的神经网络进行分类",
+    "translated_abstract": "神经网络通过使用二次决策函数作为标准神经网络的替代品来实现一种优势，当需要识别的对象具有紧凑基本几何形状（如圆形、椭圆形等）时，这种优势更加明显。本文研究了在分类问题上使用这种假设函数的方法。特别地，我们在MNIST数据集上测试和比较了该算法在手写数字分类和亚种分类上的表现。我们还展示了在Tensorflow和Keras软件中可以基于神经网络结构进行实现。",
+    "tldr": "本文研究了使用具有二次决策函数的神经网络进行分类的方法，通过在MNIST数据集上测试和比较在手写数字分类和亚种分类上的表现，证明了其在紧凑基本几何形状识别方面的优势。"
+}

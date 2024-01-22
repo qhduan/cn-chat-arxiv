@@ -1,0 +1,12 @@
+{
+    "title": "Tight Group-Level DP Guarantees for DP-SGD with Sampling via Mixture of Gaussians Mechanisms. (arXiv:2401.10294v1 [cs.CR])",
+    "abstract": "We give a procedure for computing group-level $(\\epsilon, \\delta)$-DP guarantees for DP-SGD, when using Poisson sampling or fixed batch size sampling. Up to discretization errors in the implementation, the DP guarantees computed by this procedure are tight (assuming we release every intermediate iterate).",
+    "link": "http://arxiv.org/abs/2401.10294",
+    "context": "Title: Tight Group-Level DP Guarantees for DP-SGD with Sampling via Mixture of Gaussians Mechanisms. (arXiv:2401.10294v1 [cs.CR])\nAbstract: We give a procedure for computing group-level $(\\epsilon, \\delta)$-DP guarantees for DP-SGD, when using Poisson sampling or fixed batch size sampling. Up to discretization errors in the implementation, the DP guarantees computed by this procedure are tight (assuming we release every intermediate iterate).",
+    "path": "papers/24/01/2401.10294.json",
+    "total_tokens": 546,
+    "translated_title": "使用高斯混合机制的DP-SGD抽样的DP级别限制",
+    "translated_abstract": "我们提供了一种计算DP-SGD的组级别$(\\epsilon, \\delta)$-DP限制的方法，当使用泊松抽样或固定批量大小抽样时。在实现中，除了离散化错误之外，通过此过程计算的DP限制是紧密的（假设我们发布了每个中间迭代）。",
+    "tldr": "本研究提供了一种计算DP-SGD组级别限制的方法，并且证明了这个方法在使用泊松抽样或固定批量大小抽样时是紧密的。",
+    "en_tdlr": "This research provides a method for computing group-level DP guarantees for DP-SGD, and demonstrates that this method is tight when using Poisson sampling or fixed batch size sampling."
+}

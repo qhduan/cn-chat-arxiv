@@ -1,0 +1,12 @@
+{
+    "title": "Intelligent Optimization and Machine Learning Algorithms for Structural Anomaly Detection using Seismic Signals. (arXiv:2401.10355v1 [eess.SP])",
+    "abstract": "The lack of anomaly detection methods during mechanized tunnelling can cause financial loss and deficits in drilling time. On-site excavation requires hard obstacles to be recognized prior to drilling in order to avoid damaging the tunnel boring machine and to adjust the propagation velocity. The efficiency of the structural anomaly detection can be increased with intelligent optimization techniques and machine learning. In this research, the anomaly in a simple structure is detected by comparing the experimental measurements of the structural vibrations with numerical simulations using parameter estimation methods.",
+    "link": "http://arxiv.org/abs/2401.10355",
+    "context": "Title: Intelligent Optimization and Machine Learning Algorithms for Structural Anomaly Detection using Seismic Signals. (arXiv:2401.10355v1 [eess.SP])\nAbstract: The lack of anomaly detection methods during mechanized tunnelling can cause financial loss and deficits in drilling time. On-site excavation requires hard obstacles to be recognized prior to drilling in order to avoid damaging the tunnel boring machine and to adjust the propagation velocity. The efficiency of the structural anomaly detection can be increased with intelligent optimization techniques and machine learning. In this research, the anomaly in a simple structure is detected by comparing the experimental measurements of the structural vibrations with numerical simulations using parameter estimation methods.",
+    "path": "papers/24/01/2401.10355.json",
+    "total_tokens": 661,
+    "translated_title": "使用地震信号进行结构异常检测的智能优化和机器学习算法",
+    "translated_abstract": "在机械化隧道工程中缺乏异常检测方法可能导致财务损失和钻削时间的亏损。现场挖掘需要在钻探之前识别出硬障碍物，以避免损坏隧道掘进机并调整传播速度。利用智能优化技术和机器学习可以提高结构异常检测的效率。本研究通过使用参数估计方法将结构振动的实验测量值与数值模拟进行比较，来检测简单结构中的异常情况。",
+    "tldr": "本研究使用智能优化技术和机器学习算法，通过比较结构振动的实验测量值和数值模拟，实现了对简单结构中异常情况的检测。",
+    "en_tdlr": "This research utilizes intelligent optimization techniques and machine learning algorithms to detect anomalies in a simple structure by comparing experimental measurements of structural vibrations with numerical simulations using parameter estimation methods."
+}

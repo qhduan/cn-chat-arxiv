@@ -1,0 +1,12 @@
+{
+    "title": "Open-Source Fermionic Neural Networks with Ionic Charge Initialization. (arXiv:2401.10287v1 [cs.LG])",
+    "abstract": "Finding accurate solutions to the electronic Schr\\\"odinger equation plays an important role in discovering important molecular and material energies and characteristics. Consequently, solving systems with large numbers of electrons has become increasingly important. Variational Monte Carlo (VMC) methods, especially those approximated through deep neural networks, are promising in this regard. In this paper, we aim to integrate one such model called the FermiNet, a post-Hartree-Fock (HF) Deep Neural Network (DNN) model, into a standard and widely used open source library, DeepChem. We also propose novel initialization techniques to overcome the difficulties associated with the assignment of excess or lack of electrons for ions.",
+    "link": "http://arxiv.org/abs/2401.10287",
+    "context": "Title: Open-Source Fermionic Neural Networks with Ionic Charge Initialization. (arXiv:2401.10287v1 [cs.LG])\nAbstract: Finding accurate solutions to the electronic Schr\\\"odinger equation plays an important role in discovering important molecular and material energies and characteristics. Consequently, solving systems with large numbers of electrons has become increasingly important. Variational Monte Carlo (VMC) methods, especially those approximated through deep neural networks, are promising in this regard. In this paper, we aim to integrate one such model called the FermiNet, a post-Hartree-Fock (HF) Deep Neural Network (DNN) model, into a standard and widely used open source library, DeepChem. We also propose novel initialization techniques to overcome the difficulties associated with the assignment of excess or lack of electrons for ions.",
+    "path": "papers/24/01/2401.10287.json",
+    "total_tokens": 712,
+    "translated_title": "具有离子电荷初始化的开源费米子神经网络",
+    "translated_abstract": "在发现重要的分子和材料能量和特性方面，精确求解电子薛定谔方程起着重要作用。因此，解决具有大量电子的系统变得越来越重要。变分蒙特卡洛(VMC)方法，尤其是通过深度神经网络逼近的方法，在这方面具有潜力。在本文中，我们旨在将一种名为FermiNet的模型，一种后哈特里-福克(HF)深度神经网络(DNN)模型，集成到一个标准且广泛使用的开源库DeepChem中。我们还提出了新的初始化技术，以克服与离子超额或欠电子的分配相关的困难。",
+    "tldr": "本文将FermiNet模型集成到开源库DeepChem中，并提出了新的初始化技术，用于解决离子的电子分配问题。",
+    "en_tdlr": "This paper integrates the FermiNet model into the open source library DeepChem and proposes novel initialization techniques to address the issue of assigning electron charges to ions."
+}

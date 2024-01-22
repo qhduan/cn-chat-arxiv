@@ -1,0 +1,12 @@
+{
+    "title": "Efficient slot labelling. (arXiv:2401.09343v2 [cs.CL] UPDATED)",
+    "abstract": "Slot labelling is an essential component of any dialogue system, aiming to find important arguments in every user turn. Common approaches involve large pre-trained language models (PLMs) like BERT or RoBERTa, but they face challenges such as high computational requirements and dependence on pre-training data. In this work, we propose a lightweight method which performs on par or better than the state-of-the-art PLM-based methods, while having almost 10x less trainable parameters. This makes it especially applicable for real-life industry scenarios.",
+    "link": "http://arxiv.org/abs/2401.09343",
+    "context": "Title: Efficient slot labelling. (arXiv:2401.09343v2 [cs.CL] UPDATED)\nAbstract: Slot labelling is an essential component of any dialogue system, aiming to find important arguments in every user turn. Common approaches involve large pre-trained language models (PLMs) like BERT or RoBERTa, but they face challenges such as high computational requirements and dependence on pre-training data. In this work, we propose a lightweight method which performs on par or better than the state-of-the-art PLM-based methods, while having almost 10x less trainable parameters. This makes it especially applicable for real-life industry scenarios.",
+    "path": "papers/24/01/2401.09343.json",
+    "total_tokens": 658,
+    "translated_title": "高效的槽位标注",
+    "translated_abstract": "槽位标注是对话系统的重要组成部分，旨在在每个用户回合中找到重要的参数。常见的方法包括使用BERT或RoBERTa等大型预训练语言模型（PLMs），但它们面临高计算需求和对预训练数据的依赖等挑战。在这项工作中，我们提出了一种轻量级方法，其性能与最先进的基于PLM的方法相当或更好，同时可训练参数几乎少了10倍。这使得它特别适用于实际工业场景。",
+    "tldr": "本文提出了一种高效的槽位标注方法，相较于基于大型预训练语言模型的方法，具有更低的计算需求和训练参数量，并在实际工业场景中表现出色。",
+    "en_tdlr": "This paper proposes an efficient method for slot labelling, which outperforms state-of-the-art pre-trained language model (PLM)-based methods with significantly lower computational requirements and trainable parameters, making it highly applicable in real-life industry scenarios."
+}
