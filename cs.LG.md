@@ -175,27 +175,28 @@
 | [^171] | [Exploring Randomly Wired Neural Networks for Climate Model Emulation.](http://arxiv.org/abs/2212.03369) | 本研究探索了随机连接的神经网络在气候模型仿真中的应用。通过使用ClimateBench数据集，我们发现随机连接的神经网络在拥有100万和1000万参数的模型上具有与传统网络相当的性能，且能耗更低。 |
 | [^172] | [Identifying Generalized Neural Representation Across Hamiltonian Manifolds via Meta-learning.](http://arxiv.org/abs/2212.01168) | 通过元学习方法，在哈密顿流形中识别出普遍的神经表示，实现了对不同物理系统的快速适应能力。 |
 | [^173] | [HashVFL: Defending Against Data Reconstruction Attacks in Vertical Federated Learning.](http://arxiv.org/abs/2212.00325) | 【论文标题翻译】HashVFL: 在垂直联合学习中引入哈希算法以防御数据重构攻击。我们的工作表明哈希算法是对抗数据重构攻击的一种有希望的解决方案。 |
-| [^174] | [Orthogonal Polynomials Approximation Algorithm (OPAA):a functional analytic approach to estimating probability densities.](http://arxiv.org/abs/2211.08594) | OPAA是一种功能分析方法的算法，通过找到平滑的概率分布函数估计值、计算归一化权重的估计值，并使用特殊的函数空间转换来估计证据，实现了并行计算的一次通过。它适用于估计概率密度函数，尤其在贝叶斯问题中估计归一化权重。 |
-| [^175] | [Transfer learning with affine model transformation.](http://arxiv.org/abs/2210.09745) | 本文提出了一种叫做仿射模型转移的迁移学习方法，通过最小化期望平方损失，可以适应各种不同的方法，包括基于神经特征提取器的方法。对于这个方法也给出了理论上的解释。 |
-| [^176] | [ImpNet: Imperceptible and blackbox-undetectable backdoors in compiled neural networks.](http://arxiv.org/abs/2210.00108) | ImpNet是一种在编译神经网络中添加的不可察觉和黑盒不可检测的后门攻击。这些后门可以绕过数据准备和模型训练阶段的保护措施，并且只能在插入阶段可靠地检测到，移除它们很具有挑战性。 |
-| [^177] | [Task Formulation Matters When Learning Continually: A Case Study in Visual Question Answering.](http://arxiv.org/abs/2210.00044) | 这项研究在连续学习领域中深入研究了任务的不同表述方式对视觉问答任务的性能的影响，发现输出分布的变化是性能和任务顺序敏感度的关键，同时探讨了预训练模型和不同视觉嵌入的Transformer模型的稳健性及模型表示对遗忘的影响。 |
-| [^178] | [High-Frequency Space Diffusion Models for Accelerated MRI.](http://arxiv.org/abs/2208.05481) | 本文提出了一种针对高频空间扩散过程的MR重建的新型SDE模型（HFS-SDE），该模型确保了低频区域的确定性并加速了逆扩散采样过程，实验结果表明该方法在加速MRI重建中表现出良好的性能。 |
-| [^179] | [Heterogeneous Multi-agent Zero-Shot Coordination by Coevolution.](http://arxiv.org/abs/2208.04957) | 本研究首次研究了异构零样本协同问题，并提出了一种基于协同进化的通用方法，通过配对、更新和选择的过程，实现了多智能体零样本协同。实验结果表明，考虑异构情况的必要性，并证明了该方法对于异构零样本协同任务的有前景的解决方案。 |
-| [^180] | [Deep Reinforcement Learning with Swin Transformers.](http://arxiv.org/abs/2206.15269) | 本文介绍了基于 Swin Transformer 的在线强化学习方案 Swin DQN，通过将组合的图像像素分成小的补丁并在局部应用自我注意力操作，实现了在 Atari 基准测试上超越现有基于 CNN 的强化学习方法的最先进性能。 |
-| [^181] | [Using Twitter Data to Understand Public Perceptions of Approved versus Off-label Use for COVID-19-related Medications.](http://arxiv.org/abs/2206.14358) | 通过Twitter数据分析了解公众对COVID-19相关药物的批准和离标使用的看法。Hydroxychloroquine和Ivermectin比Molnupiravir和Remdesivir的讨论更多，时间趋势分析和内容分析揭示了人们对每种药物立场的可能理由。 |
-| [^182] | [The Manifold Scattering Transform for High-Dimensional Point Cloud Data.](http://arxiv.org/abs/2206.10078) | 多样性散射变换是一种用于高维点云数据的深度特征提取器，在实现上采用了扩散映射理论，有效用于信号分类和流形分类任务。 |
-| [^183] | [SupMAE: Supervised Masked Autoencoders Are Efficient Vision Learners.](http://arxiv.org/abs/2205.14540) | SupMAE是一种监督式掩膜自编码器，通过添加监督分类分支扩展了MAE，并从黄金标签中有效学习全局特征。通过实验证明，SupMAE在训练效率、特征的鲁棒性和迁移学习性能等方面都表现出了优势。 |
-| [^184] | [Towards Size-Independent Generalization Bounds for Deep Operator Nets.](http://arxiv.org/abs/2205.11359) | 本论文研究了深度操作器网络的泛化界限问题，在一类DeepONets中证明了它们的Rademacher复杂度的界限不会随网络宽度扩展而明确变化，并利用这个结果展示了如何选择Huber损失来获得不明确依赖于网络大小的泛化误差界限。 |
-| [^185] | [Self-Supervised Anomaly Detection: A Survey and Outlook.](http://arxiv.org/abs/2205.05173) | 自监督学习的出现引发了新型异常检测算法的发展，其表现优于现有的最先进方法。本文全面综述了当前自监督异常检测方法的技术细节，并讨论了它们的优势和缺点，同时比较了这些模型与其他自监督异常检测模型以及最先进的异常检测模型的性能。 |
-| [^186] | [Statistical-Computational Trade-offs in Tensor PCA and Related Problems via Communication Complexity.](http://arxiv.org/abs/2204.07526) | 本文通过通信复杂度推导出了对于内存受限算法在张量主成分分析中的计算下界，并且指定了解决该问题的算法必须在数据样本经过次数、样本大小和所需内存之间进行权衡。这些下界暗示了许多常用算法在样本大小不够大时需要更多的迭代次数。 |
-| [^187] | [The Concordance Index decomposition: A measure for a deeper understanding of survival prediction models.](http://arxiv.org/abs/2203.00144) | 本文提出了一种将Concordance指数分解成两个部分的方法，用于评估生存预测模型的性能。该分解方法可以进行更细粒度的分析，揭示不同预测方法之间的优劣。实验证明，深度学习模型更好地利用了观测事件。 |
-| [^188] | [High-dimensional Inference and FDR Control for Simulated Markov Random Fields.](http://arxiv.org/abs/2202.05612) | 本文提出了一种在高维背景下进行模拟马尔可夫随机场统计推断的方法，实现了一致性，并构建了两种误发现率控制程序。 |
-| [^189] | [Thundernna: a white box adversarial attack.](http://arxiv.org/abs/2111.12305) | 本研究提出了一种名为Thundernna的白盒对抗攻击方法，通过开发一种一阶优化方法，该方法在攻击神经网络时具有更高的成功率和更快的速度。 |
-| [^190] | [New Versions of Gradient Temporal Difference Learning.](http://arxiv.org/abs/2109.04033) | 本文提出了基于梯度时差学习(GTD)的新版本，通过凸凹鞍点解释统一了所有GTD算法，并提供了简单的稳定性分析。还通过数值比较分析对这些方法进行了评估。 |
-| [^191] | [Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding.](http://arxiv.org/abs/2109.01636) | 研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。 |
-| [^192] | [DASVDD: Deep Autoencoding Support Vector Data Descriptor for Anomaly Detection.](http://arxiv.org/abs/2106.05410) | DASVDD是一种深度自编码支持向量数据描述符，用于半监督异常检测。它联合学习自编码器参数，并最小化潜在表示中超球体的体积，通过组合自编码器的重构误差和超球体中心的距离来计算异常分数，并解决了超球体坍塌问题。 |
-| [^193] | [MNL-Bandit with Knapsacks: a near-optimal algorithm.](http://arxiv.org/abs/2106.01135) | 这篇论文介绍了一种解决动态商品选择问题的算法，通过使用近似最优策略，可在未知需求情况下最大化总体预期收入。在大库存环境下，该算法能够接近最优解。 |
-| [^194] | [Wavelet Networks: Scale-Translation Equivariant Learning From Raw Time-Series.](http://arxiv.org/abs/2006.05259) | 本文介绍了一种利用时间序列固有对称性构建的小波网络，其表现出嵌套的非线性小波样的时频变换，实验证明其在原始波形上优于传统的CNN。 |
+| [^174] | [On the Sample Complexity of Two-Layer Networks: Lipschitz vs. Element-Wise Lipschitz Activation.](http://arxiv.org/abs/2211.09634) | 本文研究了使用不同激活函数的有界两层神经网络的样本复杂度，证明了当激活函数为逐元素Lipschitz时，样本复杂度在宽度上仅有对数依赖，并且这种依赖是紧致的。 |
+| [^175] | [Orthogonal Polynomials Approximation Algorithm (OPAA):a functional analytic approach to estimating probability densities.](http://arxiv.org/abs/2211.08594) | OPAA是一种功能分析方法的算法，通过找到平滑的概率分布函数估计值、计算归一化权重的估计值，并使用特殊的函数空间转换来估计证据，实现了并行计算的一次通过。它适用于估计概率密度函数，尤其在贝叶斯问题中估计归一化权重。 |
+| [^176] | [Transfer learning with affine model transformation.](http://arxiv.org/abs/2210.09745) | 本文提出了一种叫做仿射模型转移的迁移学习方法，通过最小化期望平方损失，可以适应各种不同的方法，包括基于神经特征提取器的方法。对于这个方法也给出了理论上的解释。 |
+| [^177] | [ImpNet: Imperceptible and blackbox-undetectable backdoors in compiled neural networks.](http://arxiv.org/abs/2210.00108) | ImpNet是一种在编译神经网络中添加的不可察觉和黑盒不可检测的后门攻击。这些后门可以绕过数据准备和模型训练阶段的保护措施，并且只能在插入阶段可靠地检测到，移除它们很具有挑战性。 |
+| [^178] | [Task Formulation Matters When Learning Continually: A Case Study in Visual Question Answering.](http://arxiv.org/abs/2210.00044) | 这项研究在连续学习领域中深入研究了任务的不同表述方式对视觉问答任务的性能的影响，发现输出分布的变化是性能和任务顺序敏感度的关键，同时探讨了预训练模型和不同视觉嵌入的Transformer模型的稳健性及模型表示对遗忘的影响。 |
+| [^179] | [High-Frequency Space Diffusion Models for Accelerated MRI.](http://arxiv.org/abs/2208.05481) | 本文提出了一种针对高频空间扩散过程的MR重建的新型SDE模型（HFS-SDE），该模型确保了低频区域的确定性并加速了逆扩散采样过程，实验结果表明该方法在加速MRI重建中表现出良好的性能。 |
+| [^180] | [Heterogeneous Multi-agent Zero-Shot Coordination by Coevolution.](http://arxiv.org/abs/2208.04957) | 本研究首次研究了异构零样本协同问题，并提出了一种基于协同进化的通用方法，通过配对、更新和选择的过程，实现了多智能体零样本协同。实验结果表明，考虑异构情况的必要性，并证明了该方法对于异构零样本协同任务的有前景的解决方案。 |
+| [^181] | [Deep Reinforcement Learning with Swin Transformers.](http://arxiv.org/abs/2206.15269) | 本文介绍了基于 Swin Transformer 的在线强化学习方案 Swin DQN，通过将组合的图像像素分成小的补丁并在局部应用自我注意力操作，实现了在 Atari 基准测试上超越现有基于 CNN 的强化学习方法的最先进性能。 |
+| [^182] | [Using Twitter Data to Understand Public Perceptions of Approved versus Off-label Use for COVID-19-related Medications.](http://arxiv.org/abs/2206.14358) | 通过Twitter数据分析了解公众对COVID-19相关药物的批准和离标使用的看法。Hydroxychloroquine和Ivermectin比Molnupiravir和Remdesivir的讨论更多，时间趋势分析和内容分析揭示了人们对每种药物立场的可能理由。 |
+| [^183] | [The Manifold Scattering Transform for High-Dimensional Point Cloud Data.](http://arxiv.org/abs/2206.10078) | 多样性散射变换是一种用于高维点云数据的深度特征提取器，在实现上采用了扩散映射理论，有效用于信号分类和流形分类任务。 |
+| [^184] | [SupMAE: Supervised Masked Autoencoders Are Efficient Vision Learners.](http://arxiv.org/abs/2205.14540) | SupMAE是一种监督式掩膜自编码器，通过添加监督分类分支扩展了MAE，并从黄金标签中有效学习全局特征。通过实验证明，SupMAE在训练效率、特征的鲁棒性和迁移学习性能等方面都表现出了优势。 |
+| [^185] | [Towards Size-Independent Generalization Bounds for Deep Operator Nets.](http://arxiv.org/abs/2205.11359) | 本论文研究了深度操作器网络的泛化界限问题，在一类DeepONets中证明了它们的Rademacher复杂度的界限不会随网络宽度扩展而明确变化，并利用这个结果展示了如何选择Huber损失来获得不明确依赖于网络大小的泛化误差界限。 |
+| [^186] | [Self-Supervised Anomaly Detection: A Survey and Outlook.](http://arxiv.org/abs/2205.05173) | 自监督学习的出现引发了新型异常检测算法的发展，其表现优于现有的最先进方法。本文全面综述了当前自监督异常检测方法的技术细节，并讨论了它们的优势和缺点，同时比较了这些模型与其他自监督异常检测模型以及最先进的异常检测模型的性能。 |
+| [^187] | [Statistical-Computational Trade-offs in Tensor PCA and Related Problems via Communication Complexity.](http://arxiv.org/abs/2204.07526) | 本文通过通信复杂度推导出了对于内存受限算法在张量主成分分析中的计算下界，并且指定了解决该问题的算法必须在数据样本经过次数、样本大小和所需内存之间进行权衡。这些下界暗示了许多常用算法在样本大小不够大时需要更多的迭代次数。 |
+| [^188] | [The Concordance Index decomposition: A measure for a deeper understanding of survival prediction models.](http://arxiv.org/abs/2203.00144) | 本文提出了一种将Concordance指数分解成两个部分的方法，用于评估生存预测模型的性能。该分解方法可以进行更细粒度的分析，揭示不同预测方法之间的优劣。实验证明，深度学习模型更好地利用了观测事件。 |
+| [^189] | [High-dimensional Inference and FDR Control for Simulated Markov Random Fields.](http://arxiv.org/abs/2202.05612) | 本文提出了一种在高维背景下进行模拟马尔可夫随机场统计推断的方法，实现了一致性，并构建了两种误发现率控制程序。 |
+| [^190] | [Thundernna: a white box adversarial attack.](http://arxiv.org/abs/2111.12305) | 本研究提出了一种名为Thundernna的白盒对抗攻击方法，通过开发一种一阶优化方法，该方法在攻击神经网络时具有更高的成功率和更快的速度。 |
+| [^191] | [New Versions of Gradient Temporal Difference Learning.](http://arxiv.org/abs/2109.04033) | 本文提出了基于梯度时差学习(GTD)的新版本，通过凸凹鞍点解释统一了所有GTD算法，并提供了简单的稳定性分析。还通过数值比较分析对这些方法进行了评估。 |
+| [^192] | [Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding.](http://arxiv.org/abs/2109.01636) | 研究开发了一种分布感知词嵌入，并实施了三种不同的方法来利用NER框架中的分布信息，实验表明将词的特异性融入NER方法可提高NER的性能。 |
+| [^193] | [DASVDD: Deep Autoencoding Support Vector Data Descriptor for Anomaly Detection.](http://arxiv.org/abs/2106.05410) | DASVDD是一种深度自编码支持向量数据描述符，用于半监督异常检测。它联合学习自编码器参数，并最小化潜在表示中超球体的体积，通过组合自编码器的重构误差和超球体中心的距离来计算异常分数，并解决了超球体坍塌问题。 |
+| [^194] | [MNL-Bandit with Knapsacks: a near-optimal algorithm.](http://arxiv.org/abs/2106.01135) | 这篇论文介绍了一种解决动态商品选择问题的算法，通过使用近似最优策略，可在未知需求情况下最大化总体预期收入。在大库存环境下，该算法能够接近最优解。 |
+| [^195] | [Wavelet Networks: Scale-Translation Equivariant Learning From Raw Time-Series.](http://arxiv.org/abs/2006.05259) | 本文介绍了一种利用时间序列固有对称性构建的小波网络，其表现出嵌套的非线性小波样的时频变换，实验证明其在原始波形上优于传统的CNN。 |
 
 # 详细
 
@@ -2621,7 +2622,21 @@
 
     Vertical Federated Learning (VFL) is a trending collaborative machine learning model training solution. Existing industrial frameworks employ secure multi-party computation techniques such as homomorphic encryption to ensure data security and privacy. Despite these efforts, studies have revealed that data leakage remains a risk in VFL due to the correlations between intermediate representations and raw data. Neural networks can accurately capture these correlations, allowing an adversary to reconstruct the data. This emphasizes the need for continued research into securing VFL systems.  Our work shows that hashing is a promising solution to counter data reconstruction attacks. The one-way nature of hashing makes it difficult for an adversary to recover data from hash codes. However, implementing hashing in VFL presents new challenges, including vanishing gradients and information loss. To address these issues, we propose HashVFL, which integrates hashing and simultaneously achieves lea
     
-[^174]: 正交多项式逼近算法（OPAA）：一种用于估计概率密度的功能分析方法
+[^174]: 关于两层网络样本复杂度的研究：Lipschitz与逐元素Lipschitz激活的比较
+
+    On the Sample Complexity of Two-Layer Networks: Lipschitz vs. Element-Wise Lipschitz Activation. (arXiv:2211.09634v4 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2211.09634](http://arxiv.org/abs/2211.09634)
+
+    本文研究了使用不同激活函数的有界两层神经网络的样本复杂度，证明了当激活函数为逐元素Lipschitz时，样本复杂度在宽度上仅有对数依赖，并且这种依赖是紧致的。
+
+    
+
+    我们研究了使用不同激活函数的有界两层神经网络的样本复杂度。特别地，我们考虑了类$$\mathcal{H} = \{\textbf{x}\mapsto \langle \textbf{v}, \sigma \circ W\textbf{b} + \textbf{b} \rangle : \textbf{b}\in\mathbb{R}^d, W \in \mathbb{R}^{\mathcal{T}\times d}, \textbf{v} \in \mathbb{R}^{\mathcal{T}}\}$$其中$W$和$\textbf{v}$的谱范数被$O(1)$限制，$W$的Frobenius范数从初始化开始被$R>0$限制，$\sigma$是一个Lipschitz激活函数。我们证明了如果$\sigma$是逐元素的，则$\mathcal{H}$的样本复杂度仅仅在宽度上有对数依赖，并且这种复杂度是紧致的，仅有对数因子的差异。我们进一步展示了$\sigma$的逐元素性质对于宽度上的对数依赖界限是至关重要的，也就是说存在不是逐元素激活函数的样本复杂度在宽度上是线性的，针对宽度，样本复杂度介于对数和线性之间。
+
+    We investigate the sample complexity of bounded two-layer neural networks using different activation functions.  In particular, we consider the class  $$ \mathcal{H} = \left\{\textbf{x}\mapsto \langle \textbf{v}, \sigma \circ W\textbf{b} + \textbf{b} \rangle : \textbf{b}\in\mathbb{R}^d, W \in \mathbb{R}^{\mathcal{T}\times d}, \textbf{v} \in \mathbb{R}^{\mathcal{T}}\right\} $$  where the spectral norm of $W$ and $\textbf{v}$ is bounded by $O(1)$, the Frobenius norm of $W$ is bounded from its initialization by $R > 0$, and $\sigma$ is a Lipschitz activation function.  We prove that if $\sigma$ is element-wise, then the sample complexity of $\mathcal{H}$ has only logarithmic dependency in width and that this complexity is tight, up to logarithmic factors.  We further show that the element-wise property of $\sigma$ is essential for a logarithmic dependency bound in width, in the sense that there exist non-element-wise activation functions whose sample complexity is linear in width, for wid
+    
+[^175]: 正交多项式逼近算法（OPAA）：一种用于估计概率密度的功能分析方法
 
     Orthogonal Polynomials Approximation Algorithm (OPAA):a functional analytic approach to estimating probability densities. (arXiv:2211.08594v3 [cs.LG] UPDATED)
 
@@ -2635,7 +2650,7 @@
 
     We present the new Orthogonal Polynomials Approximation Algorithm (OPAA), a parallelizable algorithm that estimates probability distributions using functional analytic approach: first, it finds a smooth functional estimate of the probability distribution, whether it is normalized or not; second, the algorithm provides an estimate of the normalizing weight; and third, the algorithm proposes a new computation scheme to compute such estimates.  A core component of OPAA is a special transform of the square root of the joint distribution into a special functional space of our construct. Through this transform, the evidence is equated with the $L^2$ norm of the transformed function, squared. Hence, the evidence can be estimated by the sum of squares of the transform coefficients. Computations can be parallelized and completed in one pass.  OPAA can be applied broadly to the estimation of probability density functions. In Bayesian problems, it can be applied to estimating the normalizing weig
     
-[^175]: 利用仿射模型变换的迁移学习
+[^176]: 利用仿射模型变换的迁移学习
 
     Transfer learning with affine model transformation. (arXiv:2210.09745v2 [stat.ML] UPDATED)
 
@@ -2649,7 +2664,7 @@
 
     Supervised transfer learning has received considerable attention due to its potential to boost the predictive power of machine learning in scenarios where data are scarce. Generally, a given set of source models and a dataset from a target domain are used to adapt the pre-trained models to a target domain by statistically learning domain shift and domain-specific factors. While such procedurally and intuitively plausible methods have achieved great success in a wide range of real-world applications, the lack of a theoretical basis hinders further methodological development. This paper presents a general class of transfer learning regression called affine model transfer, following the principle of expected-square loss minimization. It is shown that the affine model transfer broadly encompasses various existing methods, including the most common procedure based on neural feature extractors. Furthermore, the current paper clarifies theoretical properties of the affine model transfer such 
     
-[^176]: ImpNet: 编译神经网络中不可察觉和黑盒不可检测的后门攻击
+[^177]: ImpNet: 编译神经网络中不可察觉和黑盒不可检测的后门攻击
 
     ImpNet: Imperceptible and blackbox-undetectable backdoors in compiled neural networks. (arXiv:2210.00108v3 [cs.LG] UPDATED)
 
@@ -2663,7 +2678,7 @@
 
     Early backdoor attacks against machine learning set off an arms race in attack and defence development. Defences have since appeared demonstrating some ability to detect backdoors in models or even remove them. These defences work by inspecting the training data, the model, or the integrity of the training procedure. In this work, we show that backdoors can be added during compilation, circumventing any safeguards in the data preparation and model training stages. The attacker can not only insert existing weight-based backdoors during compilation, but also a new class of weight-independent backdoors, such as ImpNet. These backdoors are impossible to detect during the training or data preparation processes, because they are not yet present. Next, we demonstrate that some backdoors, including ImpNet, can only be reliably detected at the stage where they are inserted and removing them anywhere else presents a significant challenge. We conclude that ML model security requires assurance of 
     
-[^177]: 连续学习中任务的表述方式很重要：视觉问答案例研究
+[^178]: 连续学习中任务的表述方式很重要：视觉问答案例研究
 
     Task Formulation Matters When Learning Continually: A Case Study in Visual Question Answering. (arXiv:2210.00044v2 [cs.LG] UPDATED)
 
@@ -2677,7 +2692,7 @@
 
     Continual learning aims to train a model incrementally on a sequence of tasks without forgetting previous knowledge. Although continual learning has been widely studied in computer vision, its application to Vision+Language tasks is not that straightforward, as settings can be parameterized in multiple ways according to their input modalities. In this paper, we present a detailed study of how different settings affect performance for Visual Question Answering. We first propose three plausible task formulations and demonstrate their impact on the performance of continual learning algorithms. We break down several factors of task similarity, showing that performance and sensitivity to task order highly depend on the shift of the output distribution. We also investigate the potential of pretrained models and compare the robustness of transformer models with different visual embeddings. Finally, we provide an analysis interpreting model representations and their impact on forgetting. Our r
     
-[^178]: 高频空间扩散模型用于加速MRI
+[^179]: 高频空间扩散模型用于加速MRI
 
     High-Frequency Space Diffusion Models for Accelerated MRI. (arXiv:2208.05481v5 [eess.IV] UPDATED)
 
@@ -2691,7 +2706,7 @@
 
     Diffusion models with continuous stochastic differential equations (SDEs) have shown superior performances in image generation. It can serve as a deep generative prior to solving the inverse problem in magnetic resonance (MR) reconstruction. However, low-frequency regions of $k$-space data are typically fully sampled in fast MR imaging, while existing diffusion models are performed throughout the entire image or $k$-space, inevitably introducing uncertainty in the reconstruction of low-frequency regions. Additionally, existing diffusion models often demand substantial iterations to converge, resulting in time-consuming reconstructions. To address these challenges, we propose a novel SDE tailored specifically for MR reconstruction with the diffusion process in high-frequency space (referred to as HFS-SDE). This approach ensures determinism in the fully sampled low-frequency regions and accelerates the sampling procedure of reverse diffusion. Experiments conducted on the publicly availab
     
-[^179]: 异构多智能体零样本协同进化研究
+[^180]: 异构多智能体零样本协同进化研究
 
     Heterogeneous Multi-agent Zero-Shot Coordination by Coevolution. (arXiv:2208.04957v2 [cs.NE] UPDATED)
 
@@ -2705,7 +2720,7 @@
 
     Generating agents that can achieve zero-shot coordination (ZSC) with unseen partners is a new challenge in cooperative multi-agent reinforcement learning (MARL). Recently, some studies have made progress in ZSC by exposing the agents to diverse partners during the training process. They usually involve self-play when training the partners, implicitly assuming that the tasks are homogeneous. However, many real-world tasks are heterogeneous, and hence previous methods may be inefficient. In this paper, we study the heterogeneous ZSC problem for the first time and propose a general method based on coevolution, which coevolves two populations of agents and partners through three sub-processes: pairing, updating and selection. Experimental results on various heterogeneous tasks highlight the necessity of considering the heterogeneous setting and demonstrate that our proposed method is a promising solution for heterogeneous ZSC tasks.
     
-[^180]: Swin Transformer 深度强化学习
+[^181]: Swin Transformer 深度强化学习
 
     Deep Reinforcement Learning with Swin Transformers. (arXiv:2206.15269v2 [cs.LG] UPDATED)
 
@@ -2719,7 +2734,7 @@
 
     Transformers are neural network models that utilize multiple layers of self-attention heads and have exhibited enormous potential in natural language processing tasks. Meanwhile, there have been efforts to adapt transformers to visual tasks of machine learning, including Vision Transformers and Swin Transformers. Although some researchers use Vision Transformers for reinforcement learning tasks, their experiments remain at a small scale due to the high computational cost. Experiments conducted at a large scale, on the other hand, have to rely on techniques to cut the costs of Vision Transformers, which also yield inferior results.  To address this challenge, this article presents the first online reinforcement learning scheme that is based on Swin Transformers: Swin DQN. Swin Transformers are promising as a backbone in neural networks by splitting groups of image pixels into small patches and applying local self-attention operations inside the (shifted) windows of fixed sizes. They hav
     
-[^181]: 使用Twitter数据了解公众对COVID-19相关药物批准和离标使用的看法
+[^182]: 使用Twitter数据了解公众对COVID-19相关药物批准和离标使用的看法
 
     Using Twitter Data to Understand Public Perceptions of Approved versus Off-label Use for COVID-19-related Medications. (arXiv:2206.14358v2 [cs.CY] UPDATED)
 
@@ -2733,7 +2748,7 @@
 
     Understanding public discourse on emergency use of unproven therapeutics is crucial for monitoring safe use and combating misinformation. We developed a natural language processing-based pipeline to comprehend public perceptions of and stances on coronavirus disease 2019 (COVID-19)-related drugs on Twitter over time. This retrospective study included 609,189 US-based tweets from January 29, 2020, to November 30, 2021, about four drugs that garnered significant public attention during the COVID-19 pandemic: (1) Hydroxychloroquine and Ivermectin, therapies with anecdotal evidence; and (2) Molnupiravir and Remdesivir, FDA-approved treatments for eligible patients. Time-trend analysis was employed to understand popularity trends and related events. Content and demographic analyses were conducted to explore potential rationales behind people's stances on each drug. Time-trend analysis indicated that Hydroxychloroquine and Ivermectin were discussed more than Molnupiravir and Remdesivir, part
     
-[^182]: 高维点云数据的多样性散射变换
+[^183]: 高维点云数据的多样性散射变换
 
     The Manifold Scattering Transform for High-Dimensional Point Cloud Data. (arXiv:2206.10078v2 [cs.LG] UPDATED)
 
@@ -2747,7 +2762,7 @@
 
     The manifold scattering transform is a deep feature extractor for data defined on a Riemannian manifold. It is one of the first examples of extending convolutional neural network-like operators to general manifolds. The initial work on this model focused primarily on its theoretical stability and invariance properties but did not provide methods for its numerical implementation except in the case of two-dimensional surfaces with predefined meshes. In this work, we present practical schemes, based on the theory of diffusion maps, for implementing the manifold scattering transform to datasets arising in naturalistic systems, such as single cell genetics, where the data is a high-dimensional point cloud modeled as lying on a low-dimensional manifold. We show that our methods are effective for signal classification and manifold classification tasks.
     
-[^183]: SupMAE: 监督式掩膜自编码器是高效的视觉学习器
+[^184]: SupMAE: 监督式掩膜自编码器是高效的视觉学习器
 
     SupMAE: Supervised Masked Autoencoders Are Efficient Vision Learners. (arXiv:2205.14540v3 [cs.CV] UPDATED)
 
@@ -2761,7 +2776,7 @@
 
     Recently, self-supervised Masked Autoencoders (MAE) have attracted unprecedented attention for their impressive representation learning ability. However, the pretext task, Masked Image Modeling (MIM), reconstructs the missing local patches, lacking the global understanding of the image. This paper extends MAE to a fully supervised setting by adding a supervised classification branch, thereby enabling MAE to learn global features from golden labels effectively. The proposed Supervised MAE (SupMAE) only exploits a visible subset of image patches for classification, unlike the standard supervised pre-training where all image patches are used. Through experiments, we demonstrate that SupMAE is not only more training efficient but it also learns more robust and transferable features. Specifically, SupMAE achieves comparable performance with MAE using only 30% of compute when evaluated on ImageNet with the ViT-B/16 model. SupMAE's robustness on ImageNet variants and transfer learning perform
     
-[^184]: 面向尺度无关的深度操作器网络的泛化界限
+[^185]: 面向尺度无关的深度操作器网络的泛化界限
 
     Towards Size-Independent Generalization Bounds for Deep Operator Nets. (arXiv:2205.11359v2 [cs.LG] UPDATED)
 
@@ -2775,7 +2790,7 @@
 
     In recent times machine learning methods have made significant advances in becoming a useful tool for analyzing physical systems. A particularly active area in this theme has been "physics-informed machine learning" which focuses on using neural nets for numerically solving differential equations. In this work, we aim to advance the theory of measuring out-of-sample error while training DeepONets -- which is among the most versatile ways to solve PDE systems in one-shot.  Firstly, for a class of DeepONets, we prove a bound on their Rademacher complexity which does not explicitly scale with the width of the nets involved. Secondly, we use this to show how the Huber loss can be chosen so that for these DeepONet classes generalization error bounds can be obtained that have no explicit dependence on the size of the nets. We note that our theoretical results apply to any PDE being targeted to be solved by DeepONets.
     
-[^185]: 自监督异常检测：综述与展望
+[^186]: 自监督异常检测：综述与展望
 
     Self-Supervised Anomaly Detection: A Survey and Outlook. (arXiv:2205.05173v3 [cs.LG] UPDATED)
 
@@ -2789,7 +2804,7 @@
 
     Anomaly detection (AD) plays a crucial role in various domains, including cybersecurity, finance, and healthcare, by identifying patterns or events that deviate from normal behaviour. In recent years, significant progress has been made in this field due to the remarkable growth of deep learning models. Notably, the advent of self-supervised learning has sparked the development of novel AD algorithms that outperform the existing state-of-the-art approaches by a considerable margin. This paper aims to provide a comprehensive review of the current methodologies in self-supervised anomaly detection. We present technical details of the standard methods and discuss their strengths and drawbacks. We also compare the performance of these models against each other and other state-of-the-art anomaly detection models. Finally, the paper concludes with a discussion of future directions for self-supervised anomaly detection, including the development of more effective and efficient algorithms and t
     
-[^186]: 在张量主成分分析和相关问题中的统计计算权衡：通过通信复杂度
+[^187]: 在张量主成分分析和相关问题中的统计计算权衡：通过通信复杂度
 
     Statistical-Computational Trade-offs in Tensor PCA and Related Problems via Communication Complexity. (arXiv:2204.07526v2 [math.ST] UPDATED)
 
@@ -2803,7 +2818,7 @@
 
     Tensor PCA is a stylized statistical inference problem introduced by Montanari and Richard to study the computational difficulty of estimating an unknown parameter from higher-order moment tensors. Unlike its matrix counterpart, Tensor PCA exhibits a statistical-computational gap, i.e., a sample size regime where the problem is information-theoretically solvable but conjectured to be computationally hard. This paper derives computational lower bounds on the run-time of memory bounded algorithms for Tensor PCA using communication complexity. These lower bounds specify a trade-off among the number of passes through the data sample, the sample size, and the memory required by any algorithm that successfully solves Tensor PCA. While the lower bounds do not rule out polynomial-time algorithms, they do imply that many commonly-used algorithms, such as gradient descent and power method, must have a higher iteration count when the sample size is not large enough. Similar lower bounds are obtai
     
-[^187]: Concordance指数的分解: 对生存预测模型深入理解的度量方法
+[^188]: Concordance指数的分解: 对生存预测模型深入理解的度量方法
 
     The Concordance Index decomposition: A measure for a deeper understanding of survival prediction models. (arXiv:2203.00144v3 [cs.LG] UPDATED)
 
@@ -2817,7 +2832,7 @@
 
     The Concordance Index (C-index) is a commonly used metric in Survival Analysis for evaluating the performance of a prediction model. In this paper, we propose a decomposition of the C-index into a weighted harmonic mean of two quantities: one for ranking observed events versus other observed events, and the other for ranking observed events versus censored cases. This decomposition enables a finer-grained analysis of the relative strengths and weaknesses between different survival prediction methods. The usefulness of this decomposition is demonstrated through benchmark comparisons against classical models and state-of-the-art methods, together with the new variational generative neural-network-based method (SurVED) proposed in this paper. The performance of the models is assessed using four publicly available datasets with varying levels of censoring. Using the C-index decomposition and synthetic censoring, the analysis shows that deep learning models utilize the observed events more 
     
-[^188]: 高维推断与模拟马尔可夫随机场的FDR控制
+[^189]: 高维推断与模拟马尔可夫随机场的FDR控制
 
     High-dimensional Inference and FDR Control for Simulated Markov Random Fields. (arXiv:2202.05612v3 [stat.ML] UPDATED)
 
@@ -2831,7 +2846,7 @@
 
     Identifying important features linked to a response variable is a fundamental task in various scientific domains. This article explores statistical inference for simulated Markov random fields in high-dimensional settings. We introduce a methodology based on Markov Chain Monte Carlo Maximum Likelihood Estimation (MCMC-MLE) with Elastic-net regularization. Under mild conditions on the MCMC method, our penalized MCMC-MLE method achieves $\ell_{1}$-consistency. We propose a decorrelated score test, establishing both its asymptotic normality and that of a one-step estimator, along with the associated confidence interval. Furthermore, we construct two false discovery rate control procedures via the asymptotic behaviors for both p-values and e-values. Comprehensive numerical simulations confirm the theoretical validity of the proposed methods.
     
-[^189]: Thundernna: 一种白盒对抗攻击
+[^190]: Thundernna: 一种白盒对抗攻击
 
     Thundernna: a white box adversarial attack. (arXiv:2111.12305v2 [cs.LG] UPDATED)
 
@@ -2845,7 +2860,7 @@
 
     The existing work shows that the neural network trained by naive gradient-based optimization method is prone to adversarial attacks, adds small malicious on the ordinary input is enough to make the neural network wrong. At the same time, the attack against a neural network is the key to improving its robustness. The training against adversarial examples can make neural networks resist some kinds of adversarial attacks. At the same time, the adversarial attack against a neural network can also reveal some characteristics of the neural network, a complex high-dimensional non-linear function, as discussed in previous work.  In This project, we develop a first-order method to attack the neural network. Compare with other first-order attacks, our method has a much higher success rate. Furthermore, it is much faster than second-order attacks and multi-steps first-order attacks.
     
-[^190]: 基于梯度时差学习（GTD）的新版本研究
+[^191]: 基于梯度时差学习（GTD）的新版本研究
 
     New Versions of Gradient Temporal Difference Learning. (arXiv:2109.04033v4 [cs.LG] UPDATED)
 
@@ -2859,7 +2874,7 @@
 
     Sutton, Szepesv\'{a}ri and Maei introduced the first gradient temporal-difference (GTD) learning algorithms compatible with both linear function approximation and off-policy training. The goal of this paper is (a) to propose some variants of GTDs with extensive comparative analysis and (b) to establish new theoretical analysis frameworks for the GTDs. These variants are based on convex-concave saddle-point interpretations of GTDs, which effectively unify all the GTDs into a single framework, and provide simple stability analysis based on recent results on primal-dual gradient dynamics. Finally, numerical comparative analysis is given to evaluate these approaches.
     
-[^191]: 使用分布感知词嵌入的命名实体识别性能的实证研究。
+[^192]: 使用分布感知词嵌入的命名实体识别性能的实证研究。
 
     Empirical Study of Named Entity Recognition Performance Using Distribution-aware Word Embedding. (arXiv:2109.01636v2 [cs.CL] UPDATED)
 
@@ -2873,7 +2888,7 @@
 
     With the fast development of Deep Learning techniques, Named Entity Recognition (NER) is becoming more and more important in the information extraction task. The greatest difficulty that the NER task faces is to keep the detectability even when types of NE and documents are unfamiliar. Realizing that the specificity information may contain potential meanings of a word and generate semantic-related features for word embedding, we develop a distribution-aware word embedding and implement three different methods to make use of the distribution information in a NER framework. And the result shows that the performance of NER will be improved if the word specificity is incorporated into existing NER methods.
     
-[^192]: DASVDD: 深度自编码支持向量数据描述符用于异常检测
+[^193]: DASVDD: 深度自编码支持向量数据描述符用于异常检测
 
     DASVDD: Deep Autoencoding Support Vector Data Descriptor for Anomaly Detection. (arXiv:2106.05410v4 [cs.LG] UPDATED)
 
@@ -2887,7 +2902,7 @@
 
     Semi-supervised anomaly detection aims to detect anomalies from normal samples using a model that is trained on normal data. With recent advancements in deep learning, researchers have designed efficient deep anomaly detection methods. Existing works commonly use neural networks to map the data into a more informative representation and then apply an anomaly detection algorithm. In this paper, we propose a method, DASVDD, that jointly learns the parameters of an autoencoder while minimizing the volume of an enclosing hyper-sphere on its latent representation. We propose an anomaly score which is a combination of autoencoder's reconstruction error and the distance from the center of the enclosing hypersphere in the latent representation. Minimizing this anomaly score aids us in learning the underlying distribution of the normal class during training. Including the reconstruction error in the anomaly score ensures that DASVDD does not suffer from the common hypersphere collapse issue sin
     
-[^193]: MNL-带有背包的剧集挑选问题：一种近似最优算法
+[^194]: MNL-带有背包的剧集挑选问题：一种近似最优算法
 
     MNL-Bandit with Knapsacks: a near-optimal algorithm. (arXiv:2106.01135v3 [cs.LG] UPDATED)
 
@@ -2901,7 +2916,7 @@
 
     We consider a dynamic assortment selection problem where a seller has a fixed inventory of $N$ substitutable products and faces an unknown demand that arrives sequentially over $T$ periods. In each period, the seller needs to decide on the assortment of products (of cardinality at most $K$) to offer to the customers. The customer's response follows an unknown multinomial logit model (MNL) with parameters $v$. The goal of the seller is to maximize the total expected revenue given the fixed initial inventory of $N$ products. We give a policy that achieves a regret of $\tilde O\Big(K \sqrt{KN T}\Big(\sqrt{v_{\text{max}}} + \frac{1}{q_{\text{min}}}\text{OPT}\Big)\Big)$, where $v_{\text{max}}\leq 1$ is the maximum utility for any product and $q_{\text{min}}$ the minimum inventory level, under a mild assumption on the model parameters. In particular, our policy achieves a near-optimal $\tilde O(\sqrt{T})$ regret in a large-inventory setting.  Our policy builds upon the UCB-based approach for
     
-[^194]: Wavelet Networks: 从原始时间序列学习尺度平移等变性的学习网络
+[^195]: Wavelet Networks: 从原始时间序列学习尺度平移等变性的学习网络
 
     Wavelet Networks: Scale-Translation Equivariant Learning From Raw Time-Series. (arXiv:2006.05259v2 [cs.LG] UPDATED)
 

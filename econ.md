@@ -29,7 +29,8 @@
 | [^25] | [Reconciling the Theory of Factor Sequences.](http://arxiv.org/abs/2307.10067) | 该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。 |
 | [^26] | [Tight Non-asymptotic Inference via Sub-Gaussian Intrinsic Moment Norm.](http://arxiv.org/abs/2303.07287) | 本文提出了一种通过最大化一系列归一化矩来使用子高斯内在矩范实现紧凑的非渐进推断的方法，该方法可以导致更紧的Hoeffding子高斯浓度不等式，并且可以通过子高斯图检查具有有限样本大小的子高斯数据。 |
 | [^27] | [Rather First in a Village than Second in Rome? The Effect of Students' Class Rank in Primary School on Subsequent Academic Achievements.](http://arxiv.org/abs/2302.10026) | 本文研究了小学时学生的班级排名和班级质量对后续学业成果的影响，结果表明，排名对学生成绩的影响很大；与班级质量相比，班级排名的影响较小。 |
-| [^28] | [The econometrics of happiness: Are we underestimating the returns to education and income?.](http://arxiv.org/abs/1807.11835) | 研究揭示了调查人类感受和意见时的一个基本问题，即个体往往倾向于简化回答尺度，在分析这类数据时必须考虑这种影响。本研究通过描述性方法和多项Logit模型发现，教育程度和收入水平是这种影响的预测因素。同时考虑底层福祉和FVR程度的模型能够估计潜在的主观幸福感。 |
+| [^28] | [Optimized Distortion and Proportional Fairness in Voting.](http://arxiv.org/abs/2205.15760) | 本论文研究了投票中的失真和比例公平性问题，通过评估投票规则的社会福利和比例公平性指标来设计优化的投票规则，填补了单位和效用函数导致的失真方面的研究空白。 |
+| [^29] | [The econometrics of happiness: Are we underestimating the returns to education and income?.](http://arxiv.org/abs/1807.11835) | 研究揭示了调查人类感受和意见时的一个基本问题，即个体往往倾向于简化回答尺度，在分析这类数据时必须考虑这种影响。本研究通过描述性方法和多项Logit模型发现，教育程度和收入水平是这种影响的预测因素。同时考虑底层福祉和FVR程度的模型能够估计潜在的主观幸福感。 |
 
 # 详细
 
@@ -411,7 +412,21 @@
 
     Using panel data on Italian students from 2013 to 2019, we compare the effect of a student's class rank to the effect of class quality in primary school on subsequent academic outcomes. We propose a new strategy to identify the impact of rank while controlling for peer effects, by leveraging grades on class exams to construct the rank, and grades on national standardized tests to control for students' ability. Ranking first in primary school compared to last results in an improvement of 8.1 percentiles in the national standardized test grade distribution in middle school and 7.6 percentiles in high school. Despite the sizable impact of rank, our analysis highlights that a one standard deviation increase in class quality is five-fold greater than a similar increase in rank. Finally, using an extensive student survey, we establish that the rank effect is channeled through sorting into better high schools and psychological mechanisms.
     
-[^28]: 幸福的计量经济学：我们低估了教育和收入的回报吗？
+[^28]: 在投票中优化失真和比例公平性
+
+    Optimized Distortion and Proportional Fairness in Voting. (arXiv:2205.15760v3 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2205.15760](http://arxiv.org/abs/2205.15760)
+
+    本论文研究了投票中的失真和比例公平性问题，通过评估投票规则的社会福利和比例公平性指标来设计优化的投票规则，填补了单位和效用函数导致的失真方面的研究空白。
+
+    
+
+    投票规则基于代理人提供的排名决定了对一组m个备选项的概率分布。我们假设代理人对备选项有基数效用函数，但投票规则只能获得这些效用函数引起的排名。我们评估投票规则在社会福利和比例公平性的指标上的表现，这些指标是基于隐藏的效用函数计算的。具体来说，我们研究了投票规则的失真，这是一种最坏情况下的衡量指标。它是一个近似比，将最优结果的福利效用与投票规则选择出的结果的福利效用在潜在的输入配置和与输入一致的效用函数的最坏情况下进行比较。先前的文献研究了单位和效用函数（归一化为1）的失真，并在最佳失真方面留下了一个小的渐近差距。使用来自前人研究的工具，我们填补了这一差距。
+
+    A voting rule decides on a probability distribution over a set of m alternatives, based on rankings of those alternatives provided by agents. We assume that agents have cardinal utility functions over the alternatives, but voting rules have access to only the rankings induced by these utilities. We evaluate how well voting rules do on measures of social welfare and of proportional fairness, computed based on the hidden utility functions.  In particular, we study the distortion of voting rules, which is a worst-case measure. It is an approximation ratio comparing the utilitarian social welfare of the optimum outcome to the social welfare produced by the outcome selected by the voting rule, in the worst case over possible input profiles and utility functions that are consistent with the input. The previous literature has studied distortion with unit-sum utility functions (which are normalized to sum to 1), and left a small asymptotic gap in the best possible distortion. Using tools from 
+    
+[^29]: 幸福的计量经济学：我们低估了教育和收入的回报吗？
 
     The econometrics of happiness: Are we underestimating the returns to education and income?. (arXiv:1807.11835v3 [econ.EM] UPDATED)
 
