@@ -1,0 +1,11 @@
+{
+    "title": "Temporal Aggregation for the Synthetic Control Method. (arXiv:2401.12084v1 [econ.EM])",
+    "abstract": "The synthetic control method (SCM) is a popular approach for estimating the impact of a treatment on a single unit with panel data. Two challenges arise with higher frequency data (e.g., monthly versus yearly): (1) achieving excellent pre-treatment fit is typically more challenging; and (2) overfitting to noise is more likely. Aggregating data over time can mitigate these problems but can also destroy important signal. In this paper, we bound the bias for SCM with disaggregated and aggregated outcomes and give conditions under which aggregating tightens the bounds. We then propose finding weights that balance both disaggregated and aggregated series.",
+    "link": "http://arxiv.org/abs/2401.12084",
+    "context": "Title: Temporal Aggregation for the Synthetic Control Method. (arXiv:2401.12084v1 [econ.EM])\nAbstract: The synthetic control method (SCM) is a popular approach for estimating the impact of a treatment on a single unit with panel data. Two challenges arise with higher frequency data (e.g., monthly versus yearly): (1) achieving excellent pre-treatment fit is typically more challenging; and (2) overfitting to noise is more likely. Aggregating data over time can mitigate these problems but can also destroy important signal. In this paper, we bound the bias for SCM with disaggregated and aggregated outcomes and give conditions under which aggregating tightens the bounds. We then propose finding weights that balance both disaggregated and aggregated series.",
+    "path": "papers/24/01/2401.12084.json",
+    "total_tokens": 708,
+    "translated_title": "用于合成控制方法的时间聚合",
+    "translated_abstract": "合成控制方法（SCM）是一种在面板数据中估计治疗对单个单位影响的流行方法。高频数据（例如每月与每年）会带来两个挑战：（1）通常更难实现良好的治疗前适配；（2）更容易过拟合噪声。将数据在时间上进行聚合可以缓解这些问题，但也可能破坏重要的信号。在本文中，我们限定了SCM使用细分和聚合结果时的偏差，并给出聚合收紧限制的条件。然后，我们提出了一种找到平衡细分和聚合序列的权重的方法。",
+    "tldr": "该论文研究了在高频数据情况下使用合成控制方法的挑战，并提出了一种聚合数据的方法来缓解这些问题，并给出了权重的条件以平衡细分和聚合序列。"
+}

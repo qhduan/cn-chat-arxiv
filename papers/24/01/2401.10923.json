@@ -1,0 +1,12 @@
+{
+    "title": "Online estimation of the inverse of the Hessian for stochastic optimization with application to universal stochastic Newton algorithms. (arXiv:2401.10923v1 [math.OC])",
+    "abstract": "This paper addresses second-order stochastic optimization for estimating the minimizer of a convex function written as an expectation. A direct recursive estimation technique for the inverse Hessian matrix using a Robbins-Monro procedure is introduced. This approach enables to drastically reduces computational complexity. Above all, it allows to develop universal stochastic Newton methods and investigate the asymptotic efficiency of the proposed approach. This work so expands the application scope of secondorder algorithms in stochastic optimization.",
+    "link": "http://arxiv.org/abs/2401.10923",
+    "context": "Title: Online estimation of the inverse of the Hessian for stochastic optimization with application to universal stochastic Newton algorithms. (arXiv:2401.10923v1 [math.OC])\nAbstract: This paper addresses second-order stochastic optimization for estimating the minimizer of a convex function written as an expectation. A direct recursive estimation technique for the inverse Hessian matrix using a Robbins-Monro procedure is introduced. This approach enables to drastically reduces computational complexity. Above all, it allows to develop universal stochastic Newton methods and investigate the asymptotic efficiency of the proposed approach. This work so expands the application scope of secondorder algorithms in stochastic optimization.",
+    "path": "papers/24/01/2401.10923.json",
+    "total_tokens": 687,
+    "translated_title": "在具有通用随机牛顿算法应用于随机优化的情况下，关于Hessian矩阵的逆的在线估计",
+    "translated_abstract": "本文针对以期望形式表示的凸函数的次优随机优化问题，提出了一种直接递归估计逆Hessian矩阵的技术，采用了Robbins-Monro过程。该方法能够大幅降低计算复杂性，并且允许开发通用的随机牛顿方法，并研究所提方法的渐近效率。这项工作扩展了在随机优化中二阶算法的应用范围。",
+    "tldr": "该论文提出了一种在线估计Hessian矩阵逆的方法，利用Robbins-Monro过程，能够 drastical reducescomputational complexity,并发展了通用的随机牛顿算法，研究了所提方法的渐进效率。",
+    "en_tdlr": "This paper presents an online estimation technique for the inverse Hessian matrix using a Robbins-Monro procedure, which significantly reduces computational complexity. It also develops universal stochastic Newton methods and investigates the asymptotic efficiency of the proposed approach, expanding the application scope of second-order algorithms in stochastic optimization."
+}

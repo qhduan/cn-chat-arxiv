@@ -1,0 +1,12 @@
+{
+    "title": "Concrete Problems in AI Safety, Revisited. (arXiv:2401.10899v1 [cs.CY])",
+    "abstract": "As AI systems proliferate in society, the AI community is increasingly preoccupied with the concept of AI Safety, namely the prevention of failures due to accidents that arise from an unanticipated departure of a system's behavior from designer intent in AI deployment. We demonstrate through an analysis of real world cases of such incidents that although current vocabulary captures a range of the encountered issues of AI deployment, an expanded socio-technical framing will be required for a more complete understanding of how AI systems and implemented safety mechanisms fail and succeed in real life.",
+    "link": "http://arxiv.org/abs/2401.10899",
+    "context": "Title: Concrete Problems in AI Safety, Revisited. (arXiv:2401.10899v1 [cs.CY])\nAbstract: As AI systems proliferate in society, the AI community is increasingly preoccupied with the concept of AI Safety, namely the prevention of failures due to accidents that arise from an unanticipated departure of a system's behavior from designer intent in AI deployment. We demonstrate through an analysis of real world cases of such incidents that although current vocabulary captures a range of the encountered issues of AI deployment, an expanded socio-technical framing will be required for a more complete understanding of how AI systems and implemented safety mechanisms fail and succeed in real life.",
+    "path": "papers/24/01/2401.10899.json",
+    "total_tokens": 676,
+    "translated_title": "重新审视人工智能安全中的具体问题",
+    "translated_abstract": "随着人工智能系统在社会中的普及，人工智能社区越来越关注人工智能安全的概念，即在人工智能部署中，防止由于系统行为与设计者意图的意外偏离而导致故障。通过对此类事件的真实案例进行分析，我们证明尽管当前的术语涵盖了人工智能部署所遇到的各种问题，但为了更全面地理解人工智能系统和实施的安全机制在现实生活中的失败和成功，需要进行一个扩展的社会技术框架。",
+    "tldr": "通过分析真实案例，本研究重新审视了人工智能安全中的具体问题，并指出为了更好地理解人工智能系统在现实生活中的故障和成功，需要扩展社会技术框架。",
+    "en_tdlr": "This study revisits concrete problems in AI safety and highlights the need for an expanded socio-technical framework to better understand the failures and successes of AI systems in real life."
+}

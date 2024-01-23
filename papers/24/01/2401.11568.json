@@ -1,0 +1,12 @@
+{
+    "title": "A note on the stability of Monotone Markov Chains. (arXiv:2401.11568v1 [math.PR])",
+    "abstract": "This note studies monotone Markov chains a subclass of Markov chains with extensive applications in operations research and economics. While the properties that ensure the global stability of these chains are well studied, their establishment often relies on the fulfillment of a certain splitting condition. We address the challenges of verifying the splitting condition, by introducing simple, applicable conditions that ensure global stability. The simplicity of these conditions is demonstrated through various examples including autoregressive processes and portfolio allocation problems.",
+    "link": "http://arxiv.org/abs/2401.11568",
+    "context": "Title: A note on the stability of Monotone Markov Chains. (arXiv:2401.11568v1 [math.PR])\nAbstract: This note studies monotone Markov chains a subclass of Markov chains with extensive applications in operations research and economics. While the properties that ensure the global stability of these chains are well studied, their establishment often relies on the fulfillment of a certain splitting condition. We address the challenges of verifying the splitting condition, by introducing simple, applicable conditions that ensure global stability. The simplicity of these conditions is demonstrated through various examples including autoregressive processes and portfolio allocation problems.",
+    "path": "papers/24/01/2401.11568.json",
+    "total_tokens": 631,
+    "translated_title": "关于单调马尔可夫链稳定性的注解",
+    "translated_abstract": "本文研究单调马尔可夫链，这是马尔可夫链的一个子类，广泛应用于运筹学和经济学领域。虽然保证这些链的全局稳定性的属性已经有了很好的研究，但其建立往往依赖于满足某种分裂条件。我们通过引入简单且适用的条件来解决验证分裂条件的挑战，这些条件可以保证全局稳定性。通过包括自回归过程和投资组合分配问题在内的各种示例，证明了这些条件的简单性。",
+    "tldr": "本文解决了验证单调马尔可夫链分裂条件的挑战，引入了简单可行的条件来保证全局稳定性。",
+    "en_tdlr": "This note addresses the challenge of verifying the splitting condition for monotone Markov chains, introducing simple and applicable conditions that ensure global stability."
+}

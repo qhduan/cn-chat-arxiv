@@ -1,0 +1,12 @@
+{
+    "title": "Application of Machine Learning in Stock Market Forecasting: A Case Study of Disney Stock. (arXiv:2401.10903v1 [q-fin.ST])",
+    "abstract": "This document presents a stock market analysis conducted on a dataset consisting of 750 instances and 16 attributes donated in 2014-10-23. The analysis includes an exploratory data analysis (EDA) section, feature engineering, data preparation, model selection, and insights from the analysis. The Fama French 3-factor model is also utilized in the analysis. The results of the analysis are presented, with linear regression being the best-performing model.",
+    "link": "http://arxiv.org/abs/2401.10903",
+    "context": "Title: Application of Machine Learning in Stock Market Forecasting: A Case Study of Disney Stock. (arXiv:2401.10903v1 [q-fin.ST])\nAbstract: This document presents a stock market analysis conducted on a dataset consisting of 750 instances and 16 attributes donated in 2014-10-23. The analysis includes an exploratory data analysis (EDA) section, feature engineering, data preparation, model selection, and insights from the analysis. The Fama French 3-factor model is also utilized in the analysis. The results of the analysis are presented, with linear regression being the best-performing model.",
+    "path": "papers/24/01/2401.10903.json",
+    "total_tokens": 637,
+    "translated_title": "机器学习在股票市场预测中的应用：迪士尼股票的案例研究",
+    "translated_abstract": "本文介绍了对一份包含750个实例和16个属性的数据集进行的股票市场分析。分析包括探索性数据分析 (EDA) 部分、特征工程、数据准备、模型选择以及分析的见解。在分析中还运用了Fama French 3因子模型。结果显示，线性回归是表现最佳的模型。",
+    "tldr": "本文研究了机器学习在股票市场预测中的应用，以迪士尼股票为案例进行了分析。通过探索性数据分析、特征工程、数据准备和模型选择，发现线性回归模型表现最佳。",
+    "en_tdlr": "This paper investigates the application of machine learning in stock market forecasting, using Disney stock as a case study. Through exploratory data analysis, feature engineering, data preparation, and model selection, it is found that linear regression performs the best."
+}

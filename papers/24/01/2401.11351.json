@@ -1,0 +1,12 @@
+{
+    "title": "Quantum Machine Learning: from NISQ to Fault Tolerance. (arXiv:2401.11351v1 [quant-ph])",
+    "abstract": "Quantum machine learning, which involves running machine learning algorithms on quantum devices, has garnered significant attention in both academic and business circles. In this paper, we offer a comprehensive and unbiased review of the various concepts that have emerged in the field of quantum machine learning. This includes techniques used in Noisy Intermediate-Scale Quantum (NISQ) technologies and approaches for algorithms compatible with fault-tolerant quantum computing hardware. Our review covers fundamental concepts, algorithms, and the statistical learning theory pertinent to quantum machine learning.",
+    "link": "http://arxiv.org/abs/2401.11351",
+    "context": "Title: Quantum Machine Learning: from NISQ to Fault Tolerance. (arXiv:2401.11351v1 [quant-ph])\nAbstract: Quantum machine learning, which involves running machine learning algorithms on quantum devices, has garnered significant attention in both academic and business circles. In this paper, we offer a comprehensive and unbiased review of the various concepts that have emerged in the field of quantum machine learning. This includes techniques used in Noisy Intermediate-Scale Quantum (NISQ) technologies and approaches for algorithms compatible with fault-tolerant quantum computing hardware. Our review covers fundamental concepts, algorithms, and the statistical learning theory pertinent to quantum machine learning.",
+    "path": "papers/24/01/2401.11351.json",
+    "total_tokens": 689,
+    "translated_title": "量子机器学习：从NISQ到容错。",
+    "translated_abstract": "量子机器学习是在量子设备上运行机器学习算法的过程，在学术界和商业界引起了广泛关注。本文对量子机器学习领域涌现的各种概念进行了全面而公正的回顾。这包括在噪声中间尺度量子（NISQ）技术中使用的技术，以及与容错量子计算硬件兼容的算法方法。我们的回顾涵盖了与量子机器学习相关的基本概念、算法和统计学习理论。",
+    "tldr": "本文提供了对量子机器学习领域的全面回顾，涵盖了在NISQ技术和容错量子计算硬件上使用的技术和算法，并深入讨论了与量子机器学习相关的基本概念和统计学习理论。",
+    "en_tdlr": "This paper provides a comprehensive review of the field of quantum machine learning, covering techniques and algorithms used in NISQ technologies and fault-tolerant quantum computing hardware, along with a deep discussion of fundamental concepts and statistical learning theory relevant to quantum machine learning."
+}

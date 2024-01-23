@@ -1,0 +1,11 @@
+{
+    "title": "AI Revolution on Chat Bot: Evidence from a Randomized Controlled Experiment. (arXiv:2401.10956v1 [cs.HC])",
+    "abstract": "In recent years, generative AI has undergone major advancements, demonstrating significant promise in augmenting human productivity. Notably, large language models (LLM), with ChatGPT-4 as an example, have drawn considerable attention. Numerous articles have examined the impact of LLM-based tools on human productivity in lab settings and designed tasks or in observational studies. Despite recent advances, field experiments applying LLM-based tools in realistic settings are limited. This paper presents the findings of a field randomized controlled trial assessing the effectiveness of LLM-based tools in providing unmonitored support services for information retrieval.",
+    "link": "http://arxiv.org/abs/2401.10956",
+    "context": "Title: AI Revolution on Chat Bot: Evidence from a Randomized Controlled Experiment. (arXiv:2401.10956v1 [cs.HC])\nAbstract: In recent years, generative AI has undergone major advancements, demonstrating significant promise in augmenting human productivity. Notably, large language models (LLM), with ChatGPT-4 as an example, have drawn considerable attention. Numerous articles have examined the impact of LLM-based tools on human productivity in lab settings and designed tasks or in observational studies. Despite recent advances, field experiments applying LLM-based tools in realistic settings are limited. This paper presents the findings of a field randomized controlled trial assessing the effectiveness of LLM-based tools in providing unmonitored support services for information retrieval.",
+    "path": "papers/24/01/2401.10956.json",
+    "total_tokens": 698,
+    "translated_title": "Chat Bot上的AI革命：一项随机对照实验的证据",
+    "translated_abstract": "近年来，生成式人工智能（generative AI）取得了重大进展，展示出显著的提升人类生产力的潜力。特别是，大型语言模型（LLM），以ChatGPT-4为例，引起了极大关注。许多文章已经研究了LLM工具在实验室环境下和设计任务或观察性研究中对人类生产力的影响。尽管最近取得了进展，但在实际环境中应用LLM工具的现场实验仍然有限。本文介绍了一项现场随机对照试验的研究结果，评估了LLM工具在提供无监督信息检索支持服务方面的有效性。",
+    "tldr": "本文通过一项现场随机对照试验研究了LLM工具在提供无监督信息检索支持服务方面的效果。"
+}

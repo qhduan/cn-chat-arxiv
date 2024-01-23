@@ -1,0 +1,12 @@
+{
+    "title": "Automatic Debate Evaluation with Argumentation Semantics and Natural Language Argument Graph Networks. (arXiv:2203.14647v2 [cs.CL] UPDATED)",
+    "abstract": "The lack of annotated data on professional argumentation and complete argumentative debates has led to the oversimplification and the inability of approaching more complex natural language processing tasks. Such is the case of the automatic debate evaluation. In this paper, we propose an original hybrid method to automatically evaluate argumentative debates. For that purpose, we combine concepts from argumentation theory such as argumentation frameworks and semantics, with Transformer-based architectures and neural graph networks. Furthermore, we obtain promising results that lay the basis on an unexplored new instance of the automatic analysis of natural language arguments.",
+    "link": "http://arxiv.org/abs/2203.14647",
+    "context": "Title: Automatic Debate Evaluation with Argumentation Semantics and Natural Language Argument Graph Networks. (arXiv:2203.14647v2 [cs.CL] UPDATED)\nAbstract: The lack of annotated data on professional argumentation and complete argumentative debates has led to the oversimplification and the inability of approaching more complex natural language processing tasks. Such is the case of the automatic debate evaluation. In this paper, we propose an original hybrid method to automatically evaluate argumentative debates. For that purpose, we combine concepts from argumentation theory such as argumentation frameworks and semantics, with Transformer-based architectures and neural graph networks. Furthermore, we obtain promising results that lay the basis on an unexplored new instance of the automatic analysis of natural language arguments.",
+    "path": "papers/22/03/2203.14647.json",
+    "total_tokens": 691,
+    "translated_title": "使用论证语义和自然语言论证图网络实现自动辩论评估",
+    "translated_abstract": "缺乏专业论证和完整论述辩论的注解数据导致了对更复杂的自然语言处理任务的过于简化和无法处理。自动辩论评估正是其案例。在本文中，我们提出了一种原始的混合方法来自动评估辩论。为此，我们结合了论证理论中的论证框架和语义概念，与基于Transformer的架构和神经图网络。此外，我们获得了有希望的结果，为自然语言论据的自动分析开辟了新的未开发领域。",
+    "tldr": "本文提出了一种使用论证语义和自然语言论证图网络的混合方法来自动评估辩论，并取得了有希望的结果，为自然语言论据的自动分析开辟了新的未开发领域。",
+    "en_tdlr": "This paper proposes a hybrid method using argumentation semantics and natural language argument graph networks for automatic debate evaluation, and achieves promising results, opening up a new unexplored area for automatic analysis of natural language arguments."
+}

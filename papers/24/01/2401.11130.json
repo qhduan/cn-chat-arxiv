@@ -1,0 +1,11 @@
+{
+    "title": "Identification and Estimation of Conditional Average Partial Causal Effects via Instrumental Variable. (arXiv:2401.11130v1 [cs.LG])",
+    "abstract": "There has been considerable recent interest in estimating heterogeneous causal effects. In this paper, we introduce conditional average partial causal effects (CAPCE) to reveal the heterogeneity of causal effects with continuous treatment. We provide conditions for identifying CAPCE in an instrumental variable setting. We develop three families of CAPCE estimators: sieve, parametric, and reproducing kernel Hilbert space (RKHS)-based, and analyze their statistical properties. We illustrate the proposed CAPCE estimators on synthetic and real-world data.",
+    "link": "http://arxiv.org/abs/2401.11130",
+    "context": "Title: Identification and Estimation of Conditional Average Partial Causal Effects via Instrumental Variable. (arXiv:2401.11130v1 [cs.LG])\nAbstract: There has been considerable recent interest in estimating heterogeneous causal effects. In this paper, we introduce conditional average partial causal effects (CAPCE) to reveal the heterogeneity of causal effects with continuous treatment. We provide conditions for identifying CAPCE in an instrumental variable setting. We develop three families of CAPCE estimators: sieve, parametric, and reproducing kernel Hilbert space (RKHS)-based, and analyze their statistical properties. We illustrate the proposed CAPCE estimators on synthetic and real-world data.",
+    "path": "papers/24/01/2401.11130.json",
+    "total_tokens": 647,
+    "translated_title": "通过工具变量法识别和估计条件平均偏因果效应",
+    "translated_abstract": "近年来，对于估计异质因果效应的兴趣日益增加。本文引入了条件平均偏因果效应（CAPCE），以揭示连续处理的因果效应的异质性。我们给出了在工具变量设置下识别CAPCE的条件。我们开发了三类CAPCE估计器：筛选、参数化和再生核希尔伯特空间（RKHS）-基础，分析了它们的统计性质。我们通过合成和真实数据对提出的CAPCE估计器进行了说明。",
+    "tldr": "本文提出了一种通过工具变量法识别和估计连续处理的因果效应异质性的方法，并开发了三类相应的估计器，并对其进行了统计性质分析。"
+}

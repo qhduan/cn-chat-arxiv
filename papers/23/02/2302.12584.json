@@ -1,0 +1,12 @@
+{
+    "title": "VivesDebate-Speech: A Corpus of Spoken Argumentation to Leverage Audio Features for Argument Mining. (arXiv:2302.12584v2 [cs.CL] UPDATED)",
+    "abstract": "In this paper, we describe VivesDebate-Speech, a corpus of spoken argumentation created to leverage audio features for argument mining tasks. The creation of this corpus represents an important contribution to the intersection of speech processing and argument mining communities, and one of the most complete publicly available resources in this topic. Moreover, we have performed a set of first-of-their-kind experiments which show an improvement when integrating audio features into the argument mining pipeline. The provided results can be used as a baseline for future research.",
+    "link": "http://arxiv.org/abs/2302.12584",
+    "context": "Title: VivesDebate-Speech: A Corpus of Spoken Argumentation to Leverage Audio Features for Argument Mining. (arXiv:2302.12584v2 [cs.CL] UPDATED)\nAbstract: In this paper, we describe VivesDebate-Speech, a corpus of spoken argumentation created to leverage audio features for argument mining tasks. The creation of this corpus represents an important contribution to the intersection of speech processing and argument mining communities, and one of the most complete publicly available resources in this topic. Moreover, we have performed a set of first-of-their-kind experiments which show an improvement when integrating audio features into the argument mining pipeline. The provided results can be used as a baseline for future research.",
+    "path": "papers/23/02/2302.12584.json",
+    "total_tokens": 660,
+    "translated_title": "VivesDebate-Speech: 用于利用音频特征进行论证挖掘的口语论证语料库",
+    "translated_abstract": "本文描述了VivesDebate-Speech，一个用于利用音频特征进行论证挖掘任务的口语论证语料库。该语料库的创建对于语音处理和论证挖掘领域的交叉研究作出了重要贡献，是该领域中最完整的公开资源之一。此外，我们进行了一系列首次尝试的实验，结果表明将音频特征整合到论证挖掘流程中可以提高性能。提供的结果可作为未来研究的基准。",
+    "tldr": "VivesDebate-Speech是一个用于利用音频特征进行论证挖掘的口语论证语料库，通过整合音频特征，改进了论证挖掘的性能。",
+    "en_tdlr": "VivesDebate-Speech is a corpus of spoken argumentation created to leverage audio features for argument mining. By integrating audio features, it improves the performance of argument mining."
+}

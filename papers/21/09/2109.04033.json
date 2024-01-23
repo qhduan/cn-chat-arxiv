@@ -1,0 +1,12 @@
+{
+    "title": "New Versions of Gradient Temporal Difference Learning. (arXiv:2109.04033v4 [cs.LG] UPDATED)",
+    "abstract": "Sutton, Szepesv\\'{a}ri and Maei introduced the first gradient temporal-difference (GTD) learning algorithms compatible with both linear function approximation and off-policy training. The goal of this paper is (a) to propose some variants of GTDs with extensive comparative analysis and (b) to establish new theoretical analysis frameworks for the GTDs. These variants are based on convex-concave saddle-point interpretations of GTDs, which effectively unify all the GTDs into a single framework, and provide simple stability analysis based on recent results on primal-dual gradient dynamics. Finally, numerical comparative analysis is given to evaluate these approaches.",
+    "link": "http://arxiv.org/abs/2109.04033",
+    "context": "Title: New Versions of Gradient Temporal Difference Learning. (arXiv:2109.04033v4 [cs.LG] UPDATED)\nAbstract: Sutton, Szepesv\\'{a}ri and Maei introduced the first gradient temporal-difference (GTD) learning algorithms compatible with both linear function approximation and off-policy training. The goal of this paper is (a) to propose some variants of GTDs with extensive comparative analysis and (b) to establish new theoretical analysis frameworks for the GTDs. These variants are based on convex-concave saddle-point interpretations of GTDs, which effectively unify all the GTDs into a single framework, and provide simple stability analysis based on recent results on primal-dual gradient dynamics. Finally, numerical comparative analysis is given to evaluate these approaches.",
+    "path": "papers/21/09/2109.04033.json",
+    "total_tokens": 737,
+    "translated_title": "基于梯度时差学习（GTD）的新版本研究",
+    "translated_abstract": "Sutton、Szepesvári和Maei提出了与线性函数逼近和离策略训练兼容的第一个梯度时差（GTD）学习算法。本文的目标是（a）提出一些GTD的变种，并进行广泛的比较分析，以及（b）建立GTD的新理论分析框架。这些变种基于GTD的凸凹鞍点解释，将所有GTD统一到一个框架中，并基于最近对原始-对偶梯度动力学的结果提供简单的稳定性分析。最后，给出了数值比较分析以评估这些方法。",
+    "tldr": "本文提出了基于梯度时差学习(GTD)的新版本，通过凸凹鞍点解释统一了所有GTD算法，并提供了简单的稳定性分析。还通过数值比较分析对这些方法进行了评估。",
+    "en_tdlr": "This paper introduces new versions of Gradient Temporal Difference (GTD) learning algorithms, unifying all GTDs into a single framework through convex-concave saddle-point interpretations and providing simple stability analysis. Numerical comparative analysis is also conducted to evaluate these approaches."
+}
