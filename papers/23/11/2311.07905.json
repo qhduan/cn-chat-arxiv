@@ -1,0 +1,12 @@
+{
+    "title": "Considering Risk Aversion in Economic Evaluation: A Rank Dependent Approach. (arXiv:2311.07905v2 [econ.TH] UPDATED)",
+    "abstract": "This paper presents a method for incorporating risk aversion into existing decision tree models used in economic evaluations. The method involves applying a probability weighting function based on rank dependent utility theory to reduced lotteries in the decision tree model. This adaptation embodies the fact that different decision makers can observe the same decision tree model structure but come to different conclusions about the optimal treatment. The proposed solution to this problem is to compensate risk-averse decision makers to use the efficient technology that they are reluctant to adopt.",
+    "link": "http://arxiv.org/abs/2311.07905",
+    "context": "Title: Considering Risk Aversion in Economic Evaluation: A Rank Dependent Approach. (arXiv:2311.07905v2 [econ.TH] UPDATED)\nAbstract: This paper presents a method for incorporating risk aversion into existing decision tree models used in economic evaluations. The method involves applying a probability weighting function based on rank dependent utility theory to reduced lotteries in the decision tree model. This adaptation embodies the fact that different decision makers can observe the same decision tree model structure but come to different conclusions about the optimal treatment. The proposed solution to this problem is to compensate risk-averse decision makers to use the efficient technology that they are reluctant to adopt.",
+    "path": "papers/23/11/2311.07905.json",
+    "total_tokens": 795,
+    "translated_title": "考虑风险规避的经济评估方法：一种排名依赖的方法",
+    "translated_abstract": "本文提出了一种将风险规避纳入经济评估中现有决策树模型的方法。该方法涉及将基于排名依赖效用理论的概率加权函数应用于决策树模型中的减少抽签。这种适应性体现了不同的决策者可以观察到相同的决策树模型结构，但对于最优处理的结论可能不同。对于这个问题的提出的解决方案是为风险规避的决策者提供补偿，以使用他们不愿采用的高效技术。",
+    "tldr": "这项研究提出了一种方法，将风险规避纳入经济评估中的决策树模型，通过运用基于排名依赖效用理论的概率加权函数来实现。该方法可以解决不同决策者对相同决策树模型的最优处理产生不同结论的问题，为风险规避的决策者提供补偿以使用他们不愿采用的高效技术。",
+    "en_tdlr": "This research proposes a method to incorporate risk aversion into decision tree models used in economic evaluations by applying a probability weighting function based on rank dependent utility theory. The method addresses the issue of different decision makers reaching different conclusions about optimal treatment in the same decision tree model and provides compensation for risk-averse decision makers to use efficient technology they are reluctant to adopt."
+}

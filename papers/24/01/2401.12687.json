@@ -1,0 +1,12 @@
+{
+    "title": "DVL Calibration using Data-driven Methods. (arXiv:2401.12687v1 [cs.RO])",
+    "abstract": "Autonomous underwater vehicles (AUVs) are used in a wide range of underwater applications, ranging from seafloor mapping to industrial operations. While underwater, the AUV navigation solution commonly relies on the fusion between inertial sensors and Doppler velocity logs (DVL). To achieve accurate DVL measurements a calibration procedure should be conducted before the mission begins. Model-based calibration approaches include filtering approaches utilizing global navigation satellite system signals. In this paper, we propose an end-to-end deep-learning framework for the calibration procedure. Using stimulative data, we show that our proposed approach outperforms model-based approaches by 35% in accuracy and 80% in the required calibration time.",
+    "link": "http://arxiv.org/abs/2401.12687",
+    "context": "Title: DVL Calibration using Data-driven Methods. (arXiv:2401.12687v1 [cs.RO])\nAbstract: Autonomous underwater vehicles (AUVs) are used in a wide range of underwater applications, ranging from seafloor mapping to industrial operations. While underwater, the AUV navigation solution commonly relies on the fusion between inertial sensors and Doppler velocity logs (DVL). To achieve accurate DVL measurements a calibration procedure should be conducted before the mission begins. Model-based calibration approaches include filtering approaches utilizing global navigation satellite system signals. In this paper, we propose an end-to-end deep-learning framework for the calibration procedure. Using stimulative data, we show that our proposed approach outperforms model-based approaches by 35% in accuracy and 80% in the required calibration time.",
+    "path": "papers/24/01/2401.12687.json",
+    "total_tokens": 759,
+    "translated_title": "使用数据驱动方法进行DVL校准",
+    "translated_abstract": "自主水下载具(AUVs)在各种水下应用中被广泛使用，从海底地图绘制到工业操作。在水下，AUV的导航解决方案通常依赖惯性传感器和多普勒速度日志(DVL)的融合。为了获得准确的DVL测量结果，需要在任务开始前进行校准过程。基于模型的校准方法包括利用全球导航卫星系统信号的滤波方法。在本文中，我们提出了一个端到端的深度学习框架用于校准过程。使用模拟数据，我们展示了我们提出的方法在准确性和所需校准时间上比基于模型的方法提高了35%和80%。",
+    "tldr": "本文提出了一种使用数据驱动方法进行DVL校准的深度学习框架，通过模拟数据的实验结果表明，该方法在准确性和校准时间上分别比基于模型的方法提高了35%和80%。",
+    "en_tdlr": "This paper proposes an end-to-end deep-learning framework for DVL calibration using data-driven methods, which outperforms model-based approaches by 35% in accuracy and 80% in the required calibration time, as shown by experiments with simulated data."
+}

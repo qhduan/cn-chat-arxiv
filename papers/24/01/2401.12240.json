@@ -1,0 +1,11 @@
+{
+    "title": "Quantised Neural Network Accelerators for Low-Power IDS in Automotive Networks. (arXiv:2401.12240v1 [cs.CR])",
+    "abstract": "In this paper, we explore low-power custom quantised Multi-Layer Perceptrons (MLPs) as an Intrusion Detection System (IDS) for automotive controller area network (CAN). We utilise the FINN framework from AMD/Xilinx to quantise, train and generate hardware IP of our MLP to detect denial of service (DoS) and fuzzying attacks on CAN network, using ZCU104 (XCZU7EV) FPGA as our target ECU architecture with integrated IDS capabilities. Our approach achieves significant improvements in latency (0.12 ms per-message processing latency) and inference energy consumption (0.25 mJ per inference) while achieving similar classification performance as state-of-the-art approaches in the literature.",
+    "link": "http://arxiv.org/abs/2401.12240",
+    "context": "Title: Quantised Neural Network Accelerators for Low-Power IDS in Automotive Networks. (arXiv:2401.12240v1 [cs.CR])\nAbstract: In this paper, we explore low-power custom quantised Multi-Layer Perceptrons (MLPs) as an Intrusion Detection System (IDS) for automotive controller area network (CAN). We utilise the FINN framework from AMD/Xilinx to quantise, train and generate hardware IP of our MLP to detect denial of service (DoS) and fuzzying attacks on CAN network, using ZCU104 (XCZU7EV) FPGA as our target ECU architecture with integrated IDS capabilities. Our approach achieves significant improvements in latency (0.12 ms per-message processing latency) and inference energy consumption (0.25 mJ per inference) while achieving similar classification performance as state-of-the-art approaches in the literature.",
+    "path": "papers/24/01/2401.12240.json",
+    "total_tokens": 764,
+    "translated_title": "低功耗汽车网络中量化神经网络加速器的应用",
+    "translated_abstract": "本文探讨了作为汽车控制区域网络（CAN）入侵检测系统（IDS）使用低功耗定制量化多层感知器（MLPs）。我们利用AMD / Xilinx的FINN框架对我们的MLP进行量化，训练和生成硬件IP，以检测CAN网络上的拒绝服务（DoS）和模糊攻击，使用ZCU104（XCZU7EV）FPGA作为我们的目标ECU架构，集成IDS能力。我们的方法在延迟（每条消息处理延迟0.12毫秒）和推理能耗（每次推理0.25毫焦）方面取得了显著的改进，同时在文献中达到了类似的分类性能。",
+    "tldr": "本文研究了低功耗汽车网络中使用量化神经网络加速器作为入侵检测系统的应用，实现了较低的延迟和推理能耗，并且达到了与现有方法相似的分类性能。"
+}

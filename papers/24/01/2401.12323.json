@@ -1,0 +1,11 @@
+{
+    "title": "Bank Business Models, Size, and Profitability. (arXiv:2401.12323v1 [econ.GN])",
+    "abstract": "To examine the relation between profitability and business models (BMs) across bank sizes, the paper proposes a research strategy based on machine learning techniques. This strategy allows for analyzing whether size and profit performance underlie BM heterogeneity, with BM identification being based on how the components of the bank portfolio contribute to profitability. The empirical exercise focuses on the European Union banking system. Our results suggest that banks with analogous levels of performance and different sizes share strategic features. Additionally, high capital ratios seem compatible with high profitability if banks, relative to their size peers, adopt a standard retail BM.",
+    "link": "http://arxiv.org/abs/2401.12323",
+    "context": "Title: Bank Business Models, Size, and Profitability. (arXiv:2401.12323v1 [econ.GN])\nAbstract: To examine the relation between profitability and business models (BMs) across bank sizes, the paper proposes a research strategy based on machine learning techniques. This strategy allows for analyzing whether size and profit performance underlie BM heterogeneity, with BM identification being based on how the components of the bank portfolio contribute to profitability. The empirical exercise focuses on the European Union banking system. Our results suggest that banks with analogous levels of performance and different sizes share strategic features. Additionally, high capital ratios seem compatible with high profitability if banks, relative to their size peers, adopt a standard retail BM.",
+    "path": "papers/24/01/2401.12323.json",
+    "total_tokens": 810,
+    "translated_title": "银行业务模式、规模和盈利能力",
+    "translated_abstract": "为了研究银行规模和利润性之间的关系，本文提出了一种基于机器学习技术的研究策略。这种策略可以分析规模和利润表现是否是银行业务模式异质性的基础，其中业务模式的识别是基于银行投资组合的组成部分对盈利能力的贡献。实证研究集中在欧盟银行体系上。我们的结果表明，具有类似绩效水平但规模不同的银行具有共同的战略特征。此外，高资本的比率似乎与高盈利性兼容，如果银行相对于同规模的同行采用标准零售业务模式。",
+    "tldr": "本文通过机器学习技术研究了银行的业务模式、规模和盈利能力之间的关系。研究发现，具有类似绩效水平但规模不同的银行共享相似的战略特征。此外，相对于同规模的同行，采用标准零售业务模式的银行具有高资本和高盈利性。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "A Unified Approach to Second and Third Degree Price Discrimination. (arXiv:2401.12366v1 [econ.TH])",
+    "abstract": "We analyze the welfare impact of a monopolist able to segment a multiproduct market and offer differentiated price menus within each segment. We characterize a family of extremal distributions such that all achievable welfare outcomes can be reached by selecting segments from within these distributions. This family of distributions arises as the solution to the consumer maximizing distribution of values for multigood markets. With these results, we analyze the effect of segmentation on consumer surplus and prices in both interior and extremal markets, including conditions under which there exists a segmentation benefiting all consumers. Finally, we present an efficient algorithm for computing segmentations.",
+    "link": "http://arxiv.org/abs/2401.12366",
+    "context": "Title: A Unified Approach to Second and Third Degree Price Discrimination. (arXiv:2401.12366v1 [econ.TH])\nAbstract: We analyze the welfare impact of a monopolist able to segment a multiproduct market and offer differentiated price menus within each segment. We characterize a family of extremal distributions such that all achievable welfare outcomes can be reached by selecting segments from within these distributions. This family of distributions arises as the solution to the consumer maximizing distribution of values for multigood markets. With these results, we analyze the effect of segmentation on consumer surplus and prices in both interior and extremal markets, including conditions under which there exists a segmentation benefiting all consumers. Finally, we present an efficient algorithm for computing segmentations.",
+    "path": "papers/24/01/2401.12366.json",
+    "total_tokens": 724,
+    "translated_title": "二、三度价格歧视的统一方法",
+    "translated_abstract": "本文分析了一个能够对多产品市场进行分割并在每个分割中提供差异化价格菜单的垄断者的福利影响。我们描述了一组极端分布，通过从这些分布内选择分割，可以达到所有可行的福利结果。这个分布族是对多商品市场中消费者最大化价值分布的解决方案产生的。根据这些结果，我们分析了分割对消费者剩余和价格的影响，包括存在使所有消费者受益的分割的条件。最后，我们提出了一个高效的算法来计算分割。",
+    "tldr": "本文提出了一个统一方法来分析二、三度价格歧视的福利影响。通过选择特定的分割方式，可以实现不同的福利结果，并且分析了分割对消费者剩余和价格的影响。同时，提出了一个高效算法来计算分割。"
+}

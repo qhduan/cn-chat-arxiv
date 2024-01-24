@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive Learning in Distilled Models. (arXiv:2401.12472v1 [cs.CL])",
+    "abstract": "Natural Language Processing models like BERT can provide state-of-the-art word embeddings for downstream NLP tasks. However, these models yet to perform well on Semantic Textual Similarity, and may be too large to be deployed as lightweight edge applications. We seek to apply a suitable contrastive learning method based on the SimCSE paper, to a model architecture adapted from a knowledge distillation based model, DistilBERT, to address these two issues. Our final lightweight model DistilFace achieves an average of 72.1 in Spearman's correlation on STS tasks, a 34.2 percent improvement over BERT base.",
+    "link": "http://arxiv.org/abs/2401.12472",
+    "context": "Title: Contrastive Learning in Distilled Models. (arXiv:2401.12472v1 [cs.CL])\nAbstract: Natural Language Processing models like BERT can provide state-of-the-art word embeddings for downstream NLP tasks. However, these models yet to perform well on Semantic Textual Similarity, and may be too large to be deployed as lightweight edge applications. We seek to apply a suitable contrastive learning method based on the SimCSE paper, to a model architecture adapted from a knowledge distillation based model, DistilBERT, to address these two issues. Our final lightweight model DistilFace achieves an average of 72.1 in Spearman's correlation on STS tasks, a 34.2 percent improvement over BERT base.",
+    "path": "papers/24/01/2401.12472.json",
+    "total_tokens": 726,
+    "translated_title": "对于蒸馏模型中的对比学习",
+    "translated_abstract": "像BERT这样的自然语言处理模型能够为下游NLP任务提供最先进的词嵌入。然而，这些模型尚未在语义文本相似性上表现出色，并且可能过于庞大，无法部署为轻量级边缘应用程序。我们希望将一种合适的对比学习方法应用于基于知识蒸馏的模型DistilBERT，并根据SimCSE论文对模型架构进行改进，以解决这两个问题。我们最终的轻量级模型DistilFace在STS任务上的Spearman相关性平均达到72.1，比BERT base提高了34.2％。",
+    "tldr": "本论文介绍了一个基于对比学习的适用于蒸馏模型的方法，该方法通过对DistilBERT模型进行改进，在语义文本相似性上取得了显著的改进，且生成的DistilFace模型具有轻量级的特点。",
+    "en_tdlr": "This paper presents a contrastive learning approach for distilled models, which improves the performance on semantic textual similarity by adapting the DistilBERT model and achieves a lightweight model, DistilFace, with significant improvements over BERT base."
+}

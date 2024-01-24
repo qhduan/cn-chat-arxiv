@@ -1,0 +1,12 @@
+{
+    "title": "Online Bilevel Optimization: Regret Analysis of Online Alternating Gradient Methods. (arXiv:2207.02829v5 [math.OC] UPDATED)",
+    "abstract": "This paper introduces an \\textit{online bilevel optimization} setting in which a sequence of time-varying bilevel problems are revealed one after the other. We extend the known regret bounds for single-level online algorithms to the bilevel setting. Specifically, we provide new notions of \\textit{bilevel regret}, develop an online alternating time-averaged gradient method that is capable of leveraging smoothness, and give regret bounds in terms of the path-length of the inner and outer minimizer sequences.",
+    "link": "http://arxiv.org/abs/2207.02829",
+    "context": "Title: Online Bilevel Optimization: Regret Analysis of Online Alternating Gradient Methods. (arXiv:2207.02829v5 [math.OC] UPDATED)\nAbstract: This paper introduces an \\textit{online bilevel optimization} setting in which a sequence of time-varying bilevel problems are revealed one after the other. We extend the known regret bounds for single-level online algorithms to the bilevel setting. Specifically, we provide new notions of \\textit{bilevel regret}, develop an online alternating time-averaged gradient method that is capable of leveraging smoothness, and give regret bounds in terms of the path-length of the inner and outer minimizer sequences.",
+    "path": "papers/22/07/2207.02829.json",
+    "total_tokens": 674,
+    "translated_title": "在线双层优化：在线交替梯度方法的遗憾分析",
+    "translated_abstract": "本文介绍了一种在线双层优化设置，其中依次透露一系列的时变双层问题。我们扩展了已知的单层在线算法的遗憾界限到双层设置。具体而言，我们提供了新的\"双层遗憾\"定义，开发了一种能够利用光滑性的在线交替时间平均梯度方法，并给出了关于内部和外部最小化序列的路径长度的遗憾界限。",
+    "tldr": "本文介绍了一种在线双层优化设置，提供了新的双层遗憾定义，开发了一种能够利用光滑性的在线交替时间平均梯度方法，并给出了相关的遗憾界限。",
+    "en_tdlr": "This paper introduces an online bilevel optimization setting, provides new notions of bilevel regret, develops an online alternating time-averaged gradient method that leverages smoothness, and gives regret bounds in terms of the path-length of the inner and outer minimizer sequences."
+}

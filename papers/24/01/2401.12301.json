@@ -1,0 +1,12 @@
+{
+    "title": "Pricing and Usage: An Empirical Analysis of Lines of Credit. (arXiv:2401.12301v1 [econ.GN])",
+    "abstract": "The hypothesis that committed revolving credit lines with fixed spreads can provide firms with interest rate insurance is a standard feature of models on these credit facilities' interest rate structure. Nevertheless, this hypothesis has not been tested. Its empirical examination is the main contribution of this paper. To perform this analysis, and given the unavailability of data, we hand-collect data on usage at the credit line level itself. The resulting dataset enables us also to take into account characteristics of credit lines that have been ignored by previous research. One of them is that credit lines can have simultaneously fixed and performance-based spreads.",
+    "link": "http://arxiv.org/abs/2401.12301",
+    "context": "Title: Pricing and Usage: An Empirical Analysis of Lines of Credit. (arXiv:2401.12301v1 [econ.GN])\nAbstract: The hypothesis that committed revolving credit lines with fixed spreads can provide firms with interest rate insurance is a standard feature of models on these credit facilities' interest rate structure. Nevertheless, this hypothesis has not been tested. Its empirical examination is the main contribution of this paper. To perform this analysis, and given the unavailability of data, we hand-collect data on usage at the credit line level itself. The resulting dataset enables us also to take into account characteristics of credit lines that have been ignored by previous research. One of them is that credit lines can have simultaneously fixed and performance-based spreads.",
+    "path": "papers/24/01/2401.12301.json",
+    "total_tokens": 720,
+    "translated_title": "定价和用途：对信用额度的实证分析",
+    "translated_abstract": "承诺性循环信用额度具有固定利差的假设可以为公司提供利率保险，这是关于这些信用设施的利率结构的模型的标准特征。然而，这一假设尚未得到检验。本文的主要贡献是对这一假设进行了实证分析。为了进行这个分析，鉴于数据不可获得，我们手工收集了信用额度水平上的使用数据。由此产生的数据集还使我们能够考虑到先前研究忽视的信用额度特征。其中之一是信用额度可以同时具有固定和基于绩效的利差。",
+    "tldr": "本文通过实证分析检验了承诺性循环信用额度的利率保险假设，并手工收集了信用额度的使用数据。研究发现信用额度可以同时具有固定和基于绩效的利差。",
+    "en_tdlr": "This paper empirically examines the hypothesis that committed revolving credit lines with fixed spreads provide firms with interest rate insurance and collects usage data at the credit line level. The research findings reveal that credit lines can have both fixed and performance-based spreads."
+}

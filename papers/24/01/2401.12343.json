@@ -1,0 +1,12 @@
+{
+    "title": "Subgraph Extraction-based Feedback-guided Iterative Scheduling for HLS. (arXiv:2401.12343v1 [cs.CL])",
+    "abstract": "This paper proposes ISDC, a novel feedback-guided iterative system of difference constraints (SDC) scheduling algorithm for high-level synthesis (HLS). ISDC leverages subgraph extraction-based low-level feedback from downstream tools like logic synthesizers to iteratively refine HLS scheduling. Technical innovations include: (1) An enhanced SDC formulation that effectively integrates low-level feedback into the linear-programming (LP) problem; (2) A fanout and window-based subgraph extraction mechanism driving the feedback cycle; (3) A no-human-in-loop ISDC flow compatible with a wide range of downstream tools and process design kits (PDKs). Evaluation shows that ISDC reduces register usage by 28.5% against an industrial-strength open-source HLS tool.",
+    "link": "http://arxiv.org/abs/2401.12343",
+    "context": "Title: Subgraph Extraction-based Feedback-guided Iterative Scheduling for HLS. (arXiv:2401.12343v1 [cs.CL])\nAbstract: This paper proposes ISDC, a novel feedback-guided iterative system of difference constraints (SDC) scheduling algorithm for high-level synthesis (HLS). ISDC leverages subgraph extraction-based low-level feedback from downstream tools like logic synthesizers to iteratively refine HLS scheduling. Technical innovations include: (1) An enhanced SDC formulation that effectively integrates low-level feedback into the linear-programming (LP) problem; (2) A fanout and window-based subgraph extraction mechanism driving the feedback cycle; (3) A no-human-in-loop ISDC flow compatible with a wide range of downstream tools and process design kits (PDKs). Evaluation shows that ISDC reduces register usage by 28.5% against an industrial-strength open-source HLS tool.",
+    "path": "papers/24/01/2401.12343.json",
+    "total_tokens": 763,
+    "translated_title": "基于子图提取的反馈引导迭代调度在高级综合中的应用",
+    "translated_abstract": "本文提出了一种新颖的反馈引导迭代差分约束调度算法ISDC，用于高级综合(HLS)。ISDC利用下游工具（如逻辑综合器）提供的子图提取的低级反馈，迭代优化HLS调度。技术创新包括：（1）增强的差分约束问题（SDC）形式，有效将低级反馈集成到线性规划(LP)问题中；（2）基于扇出和窗口的子图提取机制驱动反馈循环；（3）与广泛的下游工具和工艺设计工具包(PDK)兼容的无人介入的ISDC流程。评估结果显示，ISDC相对于工业级开源HLS工具，可以减少28.5%的寄存器使用率。",
+    "tldr": "提出了一种基于反馈引导和子图提取的差分约束调度算法用于高级综合，可显著减少寄存器使用率。",
+    "en_tdlr": "A feedback-guided iterative scheduling algorithm based on subgraph extraction and difference constraints is proposed for high-level synthesis, which significantly reduces register usage."
+}

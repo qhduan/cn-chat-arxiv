@@ -1,0 +1,12 @@
+{
+    "title": "The Risk-Return Relation in the Corporate Loan Market. (arXiv:2401.12315v1 [econ.GN])",
+    "abstract": "This paper analyzes the hypothesis that returns play a risk-compensating role in the market for corporate revolving lines of credit. Specifically, we test whether borrower risk and the expected return on these debt instruments are positively related. Our main findings support this prediction, in contrast to the only previous work that examined this problem two decades ago. Nevertheless, we find evidence of mispricing regarding the risk of deteriorating firms using their facilities more intensively and during the subprime crisis.",
+    "link": "http://arxiv.org/abs/2401.12315",
+    "context": "Title: The Risk-Return Relation in the Corporate Loan Market. (arXiv:2401.12315v1 [econ.GN])\nAbstract: This paper analyzes the hypothesis that returns play a risk-compensating role in the market for corporate revolving lines of credit. Specifically, we test whether borrower risk and the expected return on these debt instruments are positively related. Our main findings support this prediction, in contrast to the only previous work that examined this problem two decades ago. Nevertheless, we find evidence of mispricing regarding the risk of deteriorating firms using their facilities more intensively and during the subprime crisis.",
+    "path": "papers/24/01/2401.12315.json",
+    "total_tokens": 664,
+    "translated_title": "公司贷款市场中的风险回报关系",
+    "translated_abstract": "本文分析了返回率在公司循环信贷市场中扮演风险补偿角色的假设。具体而言，我们检验了借款人风险与这些债务工具预期收益之间是否存在正相关关系。我们的主要发现支持这一预测，与两十年前研究此问题的唯一一篇文献相反。然而，我们发现在风险恶化公司更加密集地使用信贷工具和次贷危机期间存在错误定价的证据。",
+    "tldr": "本文研究了公司循环信贷市场中的风险回报关系，并发现与之前的研究结论相反，返回率与借款人风险存在正相关关系。然而，我们还发现存在对风险恶化公司的错误定价情况。",
+    "en_tdlr": "This paper examines the risk-return relation in the corporate loan market and finds that contrary to previous research, returns are positively related to borrower risk. However, evidence of mispricing regarding the risk of deteriorating firms is also discovered."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup. (arXiv:2401.12228v1 [cs.SI])",
+    "abstract": "In this study, we conducted a comprehensive data collection on the 2022 Qatar FIFA World Cup event and used a multilayer network approach to visualize the main topics, while considering their context and meaning relationships. We structured the data into layers that corresponded with the stages of the tournament and utilized Gephi software to generate the multilayer networks. Our visualizations displayed both the relationships between topics and words, showing the word-context relationship, as well as the dynamics and changes over time by layer of the most frequently discussed topics.",
+    "link": "http://arxiv.org/abs/2401.12228",
+    "context": "Title: Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup. (arXiv:2401.12228v1 [cs.SI])\nAbstract: In this study, we conducted a comprehensive data collection on the 2022 Qatar FIFA World Cup event and used a multilayer network approach to visualize the main topics, while considering their context and meaning relationships. We structured the data into layers that corresponded with the stages of the tournament and utilized Gephi software to generate the multilayer networks. Our visualizations displayed both the relationships between topics and words, showing the word-context relationship, as well as the dynamics and changes over time by layer of the most frequently discussed topics.",
+    "path": "papers/24/01/2401.12228.json",
+    "total_tokens": 681,
+    "translated_title": "通过多层网络分析演变的主题；分析2022年卡塔尔世界杯的200万条推文",
+    "translated_abstract": "本研究对2022年卡塔尔世界杯事件进行了全面的数据收集，并使用多层网络方法可视化了主要主题，同时考虑了它们的上下文和意义关系。我们将数据按照比赛阶段划分为不同的层次，并利用Gephi软件生成了多层网络。我们的可视化展示了主题和词汇之间的关系，展示了词汇-上下文关系以及各层次上最常讨论主题的动态和变化。",
+    "tldr": "本研究通过多层网络方法对2022年卡塔尔世界杯的200万条推文进行了全面分析，可视化了主要主题的演变，考虑了上下文和意义关系。"
+}

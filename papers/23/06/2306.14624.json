@@ -1,0 +1,12 @@
+{
+    "title": "Insights From Insurance for Fair Machine Learning. (arXiv:2306.14624v2 [cs.LG] UPDATED)",
+    "abstract": "We argue that insurance can act as an analogon for the social situatedness of machine learning systems, hence allowing machine learning scholars to take insights from the rich and interdisciplinary insurance literature. Tracing the interaction of uncertainty, fairness and responsibility in insurance provides a fresh perspective on fairness in machine learning. We link insurance fairness conceptions to their machine learning relatives, and use this bridge to problematize fairness as calibration. In this process, we bring to the forefront two themes that have been largely overlooked in the machine learning literature: responsibility and aggregate-individual tensions.",
+    "link": "http://arxiv.org/abs/2306.14624",
+    "context": "Title: Insights From Insurance for Fair Machine Learning. (arXiv:2306.14624v2 [cs.LG] UPDATED)\nAbstract: We argue that insurance can act as an analogon for the social situatedness of machine learning systems, hence allowing machine learning scholars to take insights from the rich and interdisciplinary insurance literature. Tracing the interaction of uncertainty, fairness and responsibility in insurance provides a fresh perspective on fairness in machine learning. We link insurance fairness conceptions to their machine learning relatives, and use this bridge to problematize fairness as calibration. In this process, we bring to the forefront two themes that have been largely overlooked in the machine learning literature: responsibility and aggregate-individual tensions.",
+    "path": "papers/23/06/2306.14624.json",
+    "total_tokens": 698,
+    "translated_title": "从保险业的经验对公平机器学习的启示",
+    "translated_abstract": "我们认为保险业可以作为机器学习系统社会环境的类比，从而使机器学习学者能够从丰富而跨学科的保险文献中获得启示。通过追踪保险中不确定性、公平性和责任的相互作用，为机器学习中的公平性问题提供了新的视角。我们将保险公平观念与机器学习的相关观念联系起来，并利用这个桥梁来问题化校准公平性。在这个过程中，我们突出了机器学习文献中经常被忽视的两个主题：责任和集合与个体之间的紧张关系。",
+    "tldr": "本文通过将保险业相关概念与机器学习的公平性问题联系起来，提供了一个新的视角，并突出了被忽视的责任和集合与个体之间的紧张关系。",
+    "en_tdlr": "This paper provides a fresh perspective on fairness in machine learning by linking concepts from the insurance industry and highlights the often overlooked themes of responsibility and aggregate-individual tensions."
+}

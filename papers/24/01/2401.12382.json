@@ -1,0 +1,12 @@
+{
+    "title": "Longitudinal Sentiment Classification of Reddit Posts. (arXiv:2401.12382v1 [cs.CL])",
+    "abstract": "We report results of a longitudinal sentiment classification of Reddit posts written by students of four major Canadian universities. We work with the texts of the posts, concentrating on the years 2020-2023. By finely tuning a sentiment threshold to a range of [-0.075,0.075], we successfully built classifiers proficient in categorizing post sentiments into positive and negative categories. Noticeably, our sentiment classification results are consistent across the four university data sets.",
+    "link": "http://arxiv.org/abs/2401.12382",
+    "context": "Title: Longitudinal Sentiment Classification of Reddit Posts. (arXiv:2401.12382v1 [cs.CL])\nAbstract: We report results of a longitudinal sentiment classification of Reddit posts written by students of four major Canadian universities. We work with the texts of the posts, concentrating on the years 2020-2023. By finely tuning a sentiment threshold to a range of [-0.075,0.075], we successfully built classifiers proficient in categorizing post sentiments into positive and negative categories. Noticeably, our sentiment classification results are consistent across the four university data sets.",
+    "path": "papers/24/01/2401.12382.json",
+    "total_tokens": 652,
+    "translated_title": "Reddit帖子的纵向情感分类",
+    "translated_abstract": "我们报告了对四所加拿大主要大学的学生撰写的Reddit帖子进行纵向情感分类的结果。我们使用帖子的文本，重点关注2020年至2023年之间的时间。通过精细调整情感阈值在[-0.075, 0.075]范围内，我们成功构建了能够将帖子情感分类为积极和消极类别的分类器。值得注意的是，我们的情感分类结果在四个大学数据集中是一致的。",
+    "tldr": "本研究对四所加拿大主要大学的学生在Reddit上撰写的帖子进行纵向情感分类。通过调整情感阈值，我们成功构建了分类器，能够将帖子情感分类为积极和消极类别，并且结果在不同大学数据集中一致。",
+    "en_tdlr": "This research focuses on the longitudinal sentiment classification of Reddit posts written by students from four major Canadian universities. By finely tuning the sentiment threshold, the study successfully built classifiers that categorize post sentiments into positive and negative categories, with consistent results across different university datasets."
+}

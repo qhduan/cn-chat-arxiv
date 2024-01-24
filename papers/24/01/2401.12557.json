@@ -1,0 +1,12 @@
+{
+    "title": "Balancing the AI Strength of Roles in Self-Play Training with Regret Matching+. (arXiv:2401.12557v1 [cs.AI])",
+    "abstract": "When training artificial intelligence for games encompassing multiple roles, the development of a generalized model capable of controlling any character within the game presents a viable option. This strategy not only conserves computational resources and time during the training phase but also reduces resource requirements during deployment. training such a generalized model often encounters challenges related to uneven capabilities when controlling different roles. A simple method is introduced based on Regret Matching+, which facilitates a more balanced performance of strength by the model when controlling various roles.",
+    "link": "http://arxiv.org/abs/2401.12557",
+    "context": "Title: Balancing the AI Strength of Roles in Self-Play Training with Regret Matching+. (arXiv:2401.12557v1 [cs.AI])\nAbstract: When training artificial intelligence for games encompassing multiple roles, the development of a generalized model capable of controlling any character within the game presents a viable option. This strategy not only conserves computational resources and time during the training phase but also reduces resource requirements during deployment. training such a generalized model often encounters challenges related to uneven capabilities when controlling different roles. A simple method is introduced based on Regret Matching+, which facilitates a more balanced performance of strength by the model when controlling various roles.",
+    "path": "papers/24/01/2401.12557.json",
+    "total_tokens": 644,
+    "translated_title": "平衡自博弈训练中角色的AI能力与后悔匹配+的方法",
+    "translated_abstract": "在为涵盖多个角色的游戏训练人工智能时，开发一个能够控制游戏内任意角色的通用模型是一个可行的选择。这种策略不仅可以在训练阶段节省计算资源和时间，而且可以减少部署时的资源需求。然而，训练这样一个通用模型经常遇到控制不同角色时能力不平衡的挑战。本文提出了一种基于后悔匹配+的简单方法，可以促进模型在控制不同角色时更平衡的性能。",
+    "tldr": "通过引入后悔匹配+，本论文提出了一种简单的方法来平衡自博弈训练中不同角色的AI能力。",
+    "en_tdlr": "This paper introduces a simple method based on Regret Matching+ to balance the AI strength of roles in self-play training."
+}

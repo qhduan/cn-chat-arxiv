@@ -2,352 +2,292 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Drop your Decoder: Pre-training with Bag-of-Word Prediction for Dense Passage Retrieval.](http://arxiv.org/abs/2401.11248) | 本研究介绍了一种使用词袋预测进行预训练的密集通行检索方法，通过替换解码器实现了高效压缩词汇信号，显著改进了输入令牌的条款覆盖。 |
-| [^2] | [Prompt-RAG: Pioneering Vector Embedding-Free Retrieval-Augmented Generation in Niche Domains, Exemplified by Korean Medicine.](http://arxiv.org/abs/2401.11246) | Prompt-RAG是一种在小众领域中增强了大型语言模型性能的新方法，与传统的RAG模型不同，它不需要使用嵌入向量。通过问答机器人应用程序的评估，结果表明Prompt-RAG优于现有模型，包括ChatGPT。 |
-| [^3] | [Navigating the Thin Line: Examining User Behavior in Search to Detect Engagement and Backfire Effects.](http://arxiv.org/abs/2401.11201) | 本研究调查了有意见的用户在搜索行为中关注度和反效应的问题，并发现暴露于偏见搜索结果会增加他们消费反对态度内容的数量。 |
-| [^4] | [A Deep Learning Approach for Selective Relevance Feedback.](http://arxiv.org/abs/2401.11198) | 本文从深度学习的角度重新思考了选择性伪相关反馈问题，并提出了一个完全基于数据驱动训练的模型，通过利用置信度估计来结合原始和扩展的查询信息，从而进一步提高检索效果。 |
-| [^5] | [Document Set Expansion with Positive-Unlabeled Learning: A Density Estimation-based Approach.](http://arxiv.org/abs/2401.11145) | 本文提出了一种基于密度估计的正-负学习框架，可以处理文档集扩展任务中存在的问题，并证明其在真实数据集上的有效性。 |
-| [^6] | [Exploiting Duality in Open Information Extraction with Predicate Prompt.](http://arxiv.org/abs/2401.11107) | 本文提出了一种新的生成式OpenIE模型DualOIE，通过实现一个双重任务，即将句子中的三元组转化为句子，来更有效地提取复杂的三元组。此方法鼓励模型正确识别句子结构，从而有助于提取所有潜在的三元组。 |
-| [^7] | [FedRKG: A Privacy-preserving Federated Recommendation Framework via Knowledge Graph Enhancement.](http://arxiv.org/abs/2401.11089) | FedRKG是一种隐私保护的联邦推荐框架，通过增强知识图，构建全局知识图并利用关系感知的GNN模型，实现高阶用户-项目交互。 |
-| [^8] | [On the selection of the correct number of terms for profile construction: theoretical and empirical analysis.](http://arxiv.org/abs/2401.10963) | 本文研究了从一组文档中构建用户配置文件的问题，提出了基于相似性度量的新型选择函数，并证明其具有良好的选择性能。 |
-| [^9] | [Positive unlabeled learning for building recommender systems in a parliamentary setting.](http://arxiv.org/abs/2401.10961) | 通过正无标签学习，我们开发了一个推荐/过滤系统，通过挖掘议会活动来了解议员的政治兴趣和偏好，并决定哪些文件应该分发给每位议员。 |
-| [^10] | [AI Revolution on Chat Bot: Evidence from a Randomized Controlled Experiment.](http://arxiv.org/abs/2401.10956) | 本文通过一项现场随机对照试验研究了LLM工具在提供无监督信息检索支持服务方面的效果。 |
-| [^11] | [Machine Unlearning for Recommendation Systems: An Insight.](http://arxiv.org/abs/2401.10942) | 本文探讨了机器反学习在推荐系统中的应用，解决了适应性、个性化、隐私和偏见等挑战。与传统模型不同，MUL根据用户偏好的变化和伦理考虑动态调整系统知识。通过批判性检验和文献梳理，本文提供了MUL如何改变推荐、用户信任以及未来研究路径的见解。强调个性化和隐私之间的权衡挑战，并鼓励以满足实际需求为目标的贡献，推动MUL在安全和适应性机器学习中的发展。 |
-| [^12] | [RELIANCE: Reliable Ensemble Learning for Information and News Credibility Evaluation.](http://arxiv.org/abs/2401.10940) | RELIANCE是一个可靠的集成学习系统，用于评估信息和新闻的可信度。它通过整合多个基本模型的优势，提供了对可信和不可信信息源的准确区分，并在信息和新闻可信度评估方面优于基准模型。 |
-| [^13] | [A New Creative Generation Pipeline for Click-Through Rate with Stable Diffusion Model.](http://arxiv.org/abs/2401.10934) | 基于用户信息和艺术设计的新的创意生成流程，通过融合用户信息和考虑用户特征来预测CTR分数，提供更具吸引力的创意设计。 |
-| [^14] | [Artificial intelligence to automate the systematic review of scientific literature.](http://arxiv.org/abs/2401.10917) | 本论文介绍了一项调查研究，研究了使用人工智能实现科学文献系统综述的自动化方法。 |
-| [^15] | [Location Sensitive Embedding for Knowledge Graph Embedding.](http://arxiv.org/abs/2401.10893) | 这篇论文介绍了一种新颖的位置敏感嵌入（LSE）方法，该方法通过关系特定的映射来修改头实体，将关系概念化为线性变换。LSE在知识图谱嵌入领域具有理论基础，同时提出了更高效的变体LSEd。实验证明LSEd在链接预测任务上具有竞争力。 |
-| [^16] | [Knowledge Graph Reasoning Based on Attention GCN.](http://arxiv.org/abs/2312.10049) | 本论文通过将图卷积神经网络（GCN）与注意力机制相结合，提出了一种新颖的技术来增强知识图谱推理，通过检查实体之间及其邻居节点之间的关系以及整合实体的属性和相互作用，生成丰富的隐式特征向量，以提高实体分类和链接预测等任务的性能。 |
-| [^17] | [Analytical Modelling of Raw Data for Flow-Guided In-body Nanoscale Localization.](http://arxiv.org/abs/2309.16034) | 本论文研究了基于原始数据的体内纳米尺度定位的分析建模，分析了纳米设备的通信和能源约束对定位性能的影响。 |
-| [^18] | [Streamlining Social Media Information Retrieval for Public Health Research with Deep Learning.](http://arxiv.org/abs/2306.16001) | 本研究介绍了一个使用深度学习简化社交媒体信息检索的框架，通过识别医学实体、标准化实体和分配UMLS概念，构建了一个用于COVID-19相关推文的症状词典。 |
-| [^19] | [Medication Recommendation via Domain Knowledge Informed Deep Learning.](http://arxiv.org/abs/2305.19604) | 提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。 |
-| [^20] | [Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations.](http://arxiv.org/abs/2305.16326) | 本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。 |
-| [^21] | [Learning Graph ODE for Continuous-Time Sequential Recommendation.](http://arxiv.org/abs/2304.07042) | 提出了一个基于图ODE的连续时间序列推荐框架GDERec，它通过连续时间图卷积网络解决协作信号演化和不规则采样问题，并在四个真实数据集上取得显著优于现有方法的效果。 |
-| [^22] | [A greedy approach for increased vehicle utilization in ridesharing networks.](http://arxiv.org/abs/2304.01225) | 本文提出了一个基于贪心策略的路线推荐方法，可以增加车辆利用率，缓解拼车服务对环境的影响。 |
-| [^23] | [Hierarchical Locality Sensitive Hashing for Structured Data: A Survey.](http://arxiv.org/abs/2204.11209) | 本文调研了结构化数据分层局部敏感哈希（LSH）的研究现状，针对无法保留结构信息的传统LSH算法，提出了有效的解决方案。 |
+| [^1] | [Gradient Flow of Energy: A General and Efficient Approach for Entity Alignment Decoding.](http://arxiv.org/abs/2401.12798) | 这篇论文介绍了一种能够解决实体对齐解码问题的新方法，该方法通过最小化能量来优化解码过程，以实现图同质性，并且仅依赖于实体嵌入，具有较高的通用性和效率。 |
+| [^2] | [CDRNP: Cross-Domain Recommendation to Cold-Start Users via Neural Process.](http://arxiv.org/abs/2401.12732) | CDRNP是一种通过神经网络将用户表示从源领域转移到目标领域，解决用户冷启动问题的跨领域推荐方法。 |
+| [^3] | [MOReGIn: Multi-Objective Recommendation at the Global and Individual Levels.](http://arxiv.org/abs/2401.12593) | MOReGIn是一种多目标推荐系统，可以同时在全局和个体层面上满足多个目标。通过调节推荐列表，MORS可以保证推荐的流派校准和供应商公平性。验证实验表明了该方法的有效性。 |
+| [^4] | [PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering.](http://arxiv.org/abs/2401.12590) | PolyCF是一个灵活的图信号滤波器，通过多项式图过滤器处理交互信号，能够捕捉多个特征空间中的谱特征，并近似恢复丢失的交互，旨在实现最优的协同过滤。 |
+| [^5] | [DREditor: An Time-efficient Approach for Building a Domain-specific Dense Retrieval Model.](http://arxiv.org/abs/2401.12540) | DREditor是一种时间高效的方法，通过直接校准现有的密集检索模型的输出嵌入，使用线性映射和编辑操作符来编辑匹配规则，以提高特定领域的检索效率。 |
+| [^6] | [Key Information Retrieval to Classify the Unstructured Data Content of Preferential Trade Agreements.](http://arxiv.org/abs/2401.12520) | 本论文介绍了一种用于长文本分类和预测的新方法，通过嵌入技术对长文本进行压缩，然后采用双向编码器表示来自Transformers的嵌入方法进行文本分类训练，实验结果显示在优惠贸易协定的长文本分类方面取得了显著的性能提升。 |
+| [^7] | [Persona-centric Metamorphic Relation guided Robustness Evaluation for Multi-turn Dialogue Modelling.](http://arxiv.org/abs/2401.12483) | 本研究介绍了一种基于角色的变态关系构建方法，用于对多轮对话建模进行鲁棒性评估。这种方法通过变态测试来评估对话系统的个性一致性和对话长时间维持性之间的关系。 |
+| [^8] | [Session-level Normalization and Click-through Data Enhancement for Session-based Evaluation.](http://arxiv.org/abs/2401.12445) | 本研究针对会话级别的搜索系统评估，提出了会话级归一化和点击数据增强的方法。传统方法中会话级指标的假设可能不符合实际情况，本文考虑了用户满意度和隐式反馈的影响。 |
+| [^9] | [Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup.](http://arxiv.org/abs/2401.12228) | 本研究通过多层网络方法对2022年卡塔尔世界杯的200万条推文进行了全面分析，可视化了主要主题的演变，考虑了上下文和意义关系。 |
+| [^10] | [In-context Learning with Retrieved Demonstrations for Language Models: A Survey.](http://arxiv.org/abs/2401.11624) | 本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。 |
+| [^11] | [D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems.](http://arxiv.org/abs/2401.11478) | D2K提出了一个以数据为中心的框架，将大量用户行为数据转化为可检索的知识，用于推荐系统。与传统的将知识存储在模型参数中的方法不同，D2K存储的是由用户、物品和背景构成的完整的推荐因素，从而具有更好的可扩展性和灵活性。 |
+| [^12] | [ChatQA: Building GPT-4 Level Conversational QA Models.](http://arxiv.org/abs/2401.10225) | ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。 |
+| [^13] | [Preference and Concurrence Aware Bayesian Graph Neural Networks for Recommender Systems.](http://arxiv.org/abs/2312.11486) | 本文提出了一个偏好和并发感知的贝叶斯图神经网络框架用于解决推荐系统中的问题，通过生成模型和关注图结构信息来捕捉用户与物品的高阶信息，实验证明了其有效性。 |
+| [^14] | [GraphPro: Graph Pre-training and Prompt Learning for Recommendation.](http://arxiv.org/abs/2311.16716) | GraphPro是一个结合了参数高效和动态图预训练与提示学习的框架，能够有效捕捉长期用户偏好和短期行为动态，从而在真实世界的推荐系统中提供准确和及时的推荐。 |
+| [^15] | [Unlock Multi-Modal Capability of Dense Retrieval via Visual Module Plugin.](http://arxiv.org/abs/2310.14037) | 本文介绍了一种名为MARVEL的多模态检索模型，通过视觉模块插件为密集检索器添加图像理解能力，并且在多模态检索任务中取得了显著优于最先进方法的结果。 |
+| [^16] | [Retrieval meets Long Context Large Language Models.](http://arxiv.org/abs/2310.03025) | "本论文研究了将检索增强和长上下文窗口的大语言模型相结合的解决方案，发现在长上下文任务中，通过检索增强的LLM使用4K上下文窗口可以取得与通过长上下文窗口微调的LLM使用16K上下文窗口相当的性能，同时计算量要少得多。此外，无论上下文窗口大小如何，检索都可以显著提高LLM的性能。" |
+| [^17] | [How Much Freedom Does An Effectiveness Metric Really Have?.](http://arxiv.org/abs/2309.09477) | 本文研究了评估指标对搜索引擎结果页面（SERP）的自由度，并发现了固有的 SERP 对排序关系约束。该研究认为这种关系约束应该应用于信息检索实验中，并提出了一种新的测量范式。 |
+| [^18] | [SynthTab: Leveraging Synthesized Data for Guitar Tablature Transcription.](http://arxiv.org/abs/2309.09085) | SynthTab是一个利用合成数据的大规模吉他谱转录数据集，解决了现有数据集规模有限的问题，并通过合成音频保持了原始指法、风格和技巧的相符性。 |
+| [^19] | [Refined Edge Usage of Graph Neural Networks for Edge Prediction.](http://arxiv.org/abs/2212.12970) | 这项研究提出了一种新的边缘预测范式（EMPIRE），通过细化边缘使用方法解决了节点分类任务和边缘预测任务之间的区别。该方法引入了边缘拆分技术和新的消息传递机制，以更好地利用边缘的拓扑结构和监督信号。 |
 
 # 详细
 
-[^1]: 放弃解码器：使用词袋预测进行预训练的密集通行检索研究
+[^1]: 能量的梯度流：实体对齐解码的通用高效方法
 
-    Drop your Decoder: Pre-training with Bag-of-Word Prediction for Dense Passage Retrieval. (arXiv:2401.11248v1 [cs.IR])
+    Gradient Flow of Energy: A General and Efficient Approach for Entity Alignment Decoding. (arXiv:2401.12798v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.11248](http://arxiv.org/abs/2401.11248)
+    [http://arxiv.org/abs/2401.12798](http://arxiv.org/abs/2401.12798)
 
-    本研究介绍了一种使用词袋预测进行预训练的密集通行检索方法，通过替换解码器实现了高效压缩词汇信号，显著改进了输入令牌的条款覆盖。
-
-    
-
-    掩码自编码器预训练已成为初始化和增强密集检索系统的流行技术。它通常利用额外的Transformer解码块提供可持续的监督信号，并将上下文信息压缩到密集表示中。然而，这种预训练技术有效性的原因尚不清楚。使用基于Transformer的额外解码器也会产生显著的计算成本。本研究旨在通过揭示增强解码的掩码自编码器（MAE）预训练相对于普通BERT检查点在输入令牌的条款覆盖上的显著改进，以解释这个问题。基于这一观察，我们提出了对传统MAE的修改，将掩码自编码器的解码器替换为完全简化的词袋预测任务。这种修改使得词汇信号能够高效地压缩到密集表示中。
-
-    Masked auto-encoder pre-training has emerged as a prevalent technique for initializing and enhancing dense retrieval systems. It generally utilizes additional Transformer decoder blocks to provide sustainable supervision signals and compress contextual information into dense representations. However, the underlying reasons for the effectiveness of such a pre-training technique remain unclear. The usage of additional Transformer-based decoders also incurs significant computational costs. In this study, we aim to shed light on this issue by revealing that masked auto-encoder (MAE) pre-training with enhanced decoding significantly improves the term coverage of input tokens in dense representations, compared to vanilla BERT checkpoints. Building upon this observation, we propose a modification to the traditional MAE by replacing the decoder of a masked auto-encoder with a completely simplified Bag-of-Word prediction task. This modification enables the efficient compression of lexical signa
-    
-[^2]: Prompt-RAG: 在小众领域中的基于向量嵌入的检索增强生成的开创性研究，以韩医学为例
-
-    Prompt-RAG: Pioneering Vector Embedding-Free Retrieval-Augmented Generation in Niche Domains, Exemplified by Korean Medicine. (arXiv:2401.11246v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.11246](http://arxiv.org/abs/2401.11246)
-
-    Prompt-RAG是一种在小众领域中增强了大型语言模型性能的新方法，与传统的RAG模型不同，它不需要使用嵌入向量。通过问答机器人应用程序的评估，结果表明Prompt-RAG优于现有模型，包括ChatGPT。
+    这篇论文介绍了一种能够解决实体对齐解码问题的新方法，该方法通过最小化能量来优化解码过程，以实现图同质性，并且仅依赖于实体嵌入，具有较高的通用性和效率。
 
     
 
-    我们提出了一种基于自然语言提示的检索增强生成（Prompt-RAG）的新方法，旨在增强大型语言模型（LLM）在小众领域中的性能。传统的RAG方法大多需要向量嵌入，然而通用的LLM基于嵌入表示对于专业领域的适用性仍然不确定。为了探索和举例说明这一点，我们比较了韩医学（KM）和传统医学（CM）文档的向量嵌入，发现KM文档的嵌入与标记重叠相关性更强，与人工评估的文档相关性较小，而CM文档则相反。Prompt-RAG与传统的RAG模型不同，它不需要嵌入向量。通过问答机器人应用程序对其性能进行了评估，其中回答的相关性、可读性和信息性进行了评估。结果表明，Prompt-RAG优于现有模型，包括ChatGPT和...
+    实体对齐（EA）是在集成多源知识图谱（KGs）中的关键过程，旨在识别这些图谱中的等价实体对。大多数现有方法将EA视为图表示学习任务，专注于增强图编码器。然而，在EA中解码过程-对于有效的操作和对齐准确性至关重要-得到了有限的关注，并且仍然针对特定数据集和模型架构进行定制，需要实体和额外的显式关系嵌入。这种特殊性限制了它的适用性，尤其是在基于GNN的模型中。为了填补这一空白，我们引入了一种新颖、通用和高效的EA解码方法，仅依赖于实体嵌入。我们的方法通过最小化狄利克雷能量来优化解码过程，在图内引导梯度流，以促进图同质性。梯度流的离散化产生了一种快速可扩展的方法，称为三元特征。
 
-    We propose a natural language prompt-based retrieval augmented generation (Prompt-RAG), a novel approach to enhance the performance of generative large language models (LLMs) in niche domains. Conventional RAG methods mostly require vector embeddings, yet the suitability of generic LLM-based embedding representations for specialized domains remains uncertain. To explore and exemplify this point, we compared vector embeddings from Korean Medicine (KM) and Conventional Medicine (CM) documents, finding that KM document embeddings correlated more with token overlaps and less with human-assessed document relatedness, in contrast to CM embeddings. Prompt-RAG, distinct from conventional RAG models, operates without the need for embedding vectors. Its performance was assessed through a Question-Answering (QA) chatbot application, where responses were evaluated for relevance, readability, and informativeness. The results showed that Prompt-RAG outperformed existing models, including ChatGPT and
+    Entity alignment (EA), a pivotal process in integrating multi-source Knowledge Graphs (KGs), seeks to identify equivalent entity pairs across these graphs. Most existing approaches regard EA as a graph representation learning task, concentrating on enhancing graph encoders. However, the decoding process in EA - essential for effective operation and alignment accuracy - has received limited attention and remains tailored to specific datasets and model architectures, necessitating both entity and additional explicit relation embeddings. This specificity limits its applicability, particularly in GNN-based models. To address this gap, we introduce a novel, generalized, and efficient decoding approach for EA, relying solely on entity embeddings. Our method optimizes the decoding process by minimizing Dirichlet energy, leading to the gradient flow within the graph, to promote graph homophily. The discretization of the gradient flow produces a fast and scalable approach, termed Triple Feature
     
-[^3]: 在搜索中探究用户行为以检测参与度和反作用效应的薄线
+[^2]: CDRNP: 通过神经过程实现跨领域推荐以解决冷启动用户问题
 
-    Navigating the Thin Line: Examining User Behavior in Search to Detect Engagement and Backfire Effects. (arXiv:2401.11201v1 [cs.IR])
+    CDRNP: Cross-Domain Recommendation to Cold-Start Users via Neural Process. (arXiv:2401.12732v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.11201](http://arxiv.org/abs/2401.11201)
+    [http://arxiv.org/abs/2401.12732](http://arxiv.org/abs/2401.12732)
 
-    本研究调查了有意见的用户在搜索行为中关注度和反效应的问题，并发现暴露于偏见搜索结果会增加他们消费反对态度内容的数量。
-
-    
-
-    带有偏见的用户经常寻求与其先前信念一致的信息，同时忽视相矛盾的证据，这是由于确认偏见所致。这种行为阻碍了他们在搜索网络时考虑替代立场的能力。尽管如此，很少有研究分析争议话题的搜索结果多样化如何影响高度有意见的用户的搜索行为。为此，我们进行了一项预注册的用户研究(n = 257)，调查了不同水平(低和高)的偏见指标和搜索结果展示(带或不带基于人工智能预测的立场标签)是否会影响有意见的用户在三个有争议的话题上(即无神论、知识产权和校服)的立场多样性消费和搜索行为。我们的结果表明，将参与者暴露于(反态度)偏见的搜索结果会增加他们消费反对态度内容的数量，但我们也发现偏见与趋向。
-
-    Opinionated users often seek information that aligns with their preexisting beliefs while dismissing contradictory evidence due to confirmation bias. This conduct hinders their ability to consider alternative stances when searching the web. Despite this, few studies have analyzed how the diversification of search results on disputed topics influences the search behavior of highly opinionated users. To this end, we present a preregistered user study (n = 257) investigating whether different levels (low and high) of bias metrics and search results presentation (with or without AI-predicted stances labels) can affect the stance diversity consumption and search behavior of opinionated users on three debated topics (i.e., atheism, intellectual property rights, and school uniforms). Our results show that exposing participants to (counter-attitudinally) biased search results increases their consumption of attitude-opposing content, but we also found that bias was associated with a trend towar
-    
-[^4]: 深度学习方法用于选择性相关反馈
-
-    A Deep Learning Approach for Selective Relevance Feedback. (arXiv:2401.11198v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.11198](http://arxiv.org/abs/2401.11198)
-
-    本文从深度学习的角度重新思考了选择性伪相关反馈问题，并提出了一个完全基于数据驱动训练的模型，通过利用置信度估计来结合原始和扩展的查询信息，从而进一步提高检索效果。
+    CDRNP是一种通过神经网络将用户表示从源领域转移到目标领域，解决用户冷启动问题的跨领域推荐方法。
 
     
 
-    通过建立一个完全基于数据驱动训练的模型，本文从深度学习的角度重新思考了选择性伪相关反馈问题，并提出了一个基于transformer双编码器架构的模型。此外，为了进一步提高使用选择性伪相关反馈方法的检索效果，我们利用模型的置信度估计来结合原始和扩展的查询信息。在实验中，我们将此选择性反馈应用于多种不同的组合。
+    跨领域推荐（CDR）已被证明是解决用户冷启动问题的一种有效方法，旨在通过从源领域转移用户偏好来为目标领域的用户进行推荐。传统的CDR研究遵循嵌入和映射（EMCDR）范 paradigm，通过学习一个用户共享映射函数将用户表示从源领域转移到目标领域，忽视了用户特定偏好。最近的CDR研究尝试在元学习范 paradigm 下学习用户特定映射函数，将每个用户的CDR视为独立任务，但忽视了用户之间的偏好相关性，限制了用于表示用户的有益信息。此外，这两个范 paradigm 都忽略了映射过程中来自两个领域的用户-项目显式交互。为了解决上述问题，本文提出了一种新的CDR框架，使用神经过程（NP），称为CDRNP。
 
-    Pseudo-relevance feedback (PRF) can enhance average retrieval effectiveness over a sufficiently large number of queries. However, PRF often introduces a drift into the original information need, thus hurting the retrieval effectiveness of several queries. While a selective application of PRF can potentially alleviate this issue, previous approaches have largely relied on unsupervised or feature-based learning to determine whether a query should be expanded. In contrast, we revisit the problem of selective PRF from a deep learning perspective, presenting a model that is entirely data-driven and trained in an end-to-end manner. The proposed model leverages a transformer-based bi-encoder architecture. Additionally, to further improve retrieval effectiveness with this selective PRF approach, we make use of the model's confidence estimates to combine the information from the original and expanded queries. In our experiments, we apply this selective feedback on a number of different combinat
+    Cross-domain recommendation (CDR) has been proven as a promising way to tackle the user cold-start problem, which aims to make recommendations for users in the target domain by transferring the user preference derived from the source domain. Traditional CDR studies follow the embedding and mapping (EMCDR) paradigm, which transfers user representations from the source to target domain by learning a user-shared mapping function, neglecting the user-specific preference. Recent CDR studies attempt to learn user-specific mapping functions in meta-learning paradigm, which regards each user's CDR as an individual task, but neglects the preference correlations among users, limiting the beneficial information for user representations. Moreover, both of the paradigms neglect the explicit user-item interactions from both domains during the mapping process. To address the above issues, this paper proposes a novel CDR framework with neural process (NP), termed as CDRNP. Particularly, it develops th
     
-[^5]: 使用基于密度估计的正-负学习方法的文档集扩展
+[^3]: MOReGIn: 多目标推荐在全局和个体层面上的应用
 
-    Document Set Expansion with Positive-Unlabeled Learning: A Density Estimation-based Approach. (arXiv:2401.11145v1 [cs.LG])
+    MOReGIn: Multi-Objective Recommendation at the Global and Individual Levels. (arXiv:2401.12593v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.11145](http://arxiv.org/abs/2401.11145)
+    [http://arxiv.org/abs/2401.12593](http://arxiv.org/abs/2401.12593)
 
-    本文提出了一种基于密度估计的正-负学习框架，可以处理文档集扩展任务中存在的问题，并证明其在真实数据集上的有效性。
-
-    
-
-    文档集扩展旨在基于一组精细主题的小型文档集合，从大型集合中识别相关文档。先前的研究表明，正-负学习是这一任务的一种有希望的方法。然而，一些严重问题仍未解决，例如正-负学习方法所面临的典型挑战，如未知类别先验和数据不平衡，以及需要转导型实验设置。在本文中，我们提出了一种基于密度估计的全新正-负学习框架，称为puDE，它可以处理上述问题。puDE的优势在于它既不受限于SCAR假设，也不需要任何类别先验知识。我们使用一系列真实数据集验证了所提出方法的有效性，并得出结论：我们的方法是DSE任务的一种更好的选择。
-
-    Document set expansion aims to identify relevant documents from a large collection based on a small set of documents that are on a fine-grained topic. Previous work shows that PU learning is a promising method for this task. However, some serious issues remain unresolved, i.e. typical challenges that PU methods suffer such as unknown class prior and imbalanced data, and the need for transductive experimental settings. In this paper, we propose a novel PU learning framework based on density estimation, called puDE, that can handle the above issues. The advantage of puDE is that it neither constrained to the SCAR assumption and nor require any class prior knowledge. We demonstrate the effectiveness of the proposed method using a series of real-world datasets and conclude that our method is a better alternative for the DSE task.
-    
-[^6]: 使用谓词提示在开放信息提取中利用对偶性
-
-    Exploiting Duality in Open Information Extraction with Predicate Prompt. (arXiv:2401.11107v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.11107](http://arxiv.org/abs/2401.11107)
-
-    本文提出了一种新的生成式OpenIE模型DualOIE，通过实现一个双重任务，即将句子中的三元组转化为句子，来更有效地提取复杂的三元组。此方法鼓励模型正确识别句子结构，从而有助于提取所有潜在的三元组。
+    MOReGIn是一种多目标推荐系统，可以同时在全局和个体层面上满足多个目标。通过调节推荐列表，MORS可以保证推荐的流派校准和供应商公平性。验证实验表明了该方法的有效性。
 
     
 
-    开放信息提取（OpenIE）旨在从给定的句子中提取以（主体，谓词，宾语）形式呈现的无模式三元组。与一般的信息提取（IE）相比，OpenIE对IE模型提出了更多挑战，尤其是在句子中存在多个复杂的三元组时。为了更有效地提取这些复杂的三元组，我们提出了一种新颖的生成式OpenIE模型，名为DualOIE，它在提取句子中的一些三元组的同时实现了另一个任务，即将三元组转化为句子。这种双重任务鼓励模型正确识别给定句子的结构，从而有助于从句子中提取所有潜在的三元组。具体而言，DualOIE分为两个步骤提取三元组：首先提取所有潜在谓词的序列，然后使用谓词序列作为提示诱导三元组的生成。
+    多目标推荐系统（MORS）作为一种保证多个目标的范式出现。除了准确性外，MORS可以在全局层面上工作，为整个系统实现除准确性之外的其他目标，也可以在个体层面上工作，这意味着推荐是根据每个用户的需求定制的。现有的MORS要么在全局层面上工作，要么在个体层面上工作，而不假设这两种观点的共存。在本研究中，我们表明当全局和个体目标共存时，MORS无法同时满足这两种目标。为了解决这个问题，我们提出了一种方法，通过调节推荐列表来保证全局和个体的观点，同时保持其有效性。具体而言，作为个体角度，我们解决了流派校准问题，作为全局角度，我们解决了供应商公平性问题。我们在两个实际数据集上验证了我们的方法，这些数据集与本文一同公开发布。
 
-    Open information extraction (OpenIE) aims to extract the schema-free triplets in the form of (\emph{subject}, \emph{predicate}, \emph{object}) from a given sentence. Compared with general information extraction (IE), OpenIE poses more challenges for the IE models, {especially when multiple complicated triplets exist in a sentence. To extract these complicated triplets more effectively, in this paper we propose a novel generative OpenIE model, namely \emph{DualOIE}, which achieves a dual task at the same time as extracting some triplets from the sentence, i.e., converting the triplets into the sentence.} Such dual task encourages the model to correctly recognize the structure of the given sentence and thus is helpful to extract all potential triplets from the sentence. Specifically, DualOIE extracts the triplets in two steps: 1) first extracting a sequence of all potential predicates, 2) then using the predicate sequence as a prompt to induce the generation of triplets. Our experiments 
+    Multi-Objective Recommender Systems (MORSs) emerged as a paradigm to guarantee multiple (often conflicting) goals. Besides accuracy, a MORS can operate at the global level, where additional beyond-accuracy goals are met for the system as a whole, or at the individual level, meaning that the recommendations are tailored to the needs of each user. The state-of-the-art MORSs either operate at the global or individual level, without assuming the co-existence of the two perspectives. In this study, we show that when global and individual objectives co-exist, MORSs are not able to meet both types of goals. To overcome this issue, we present an approach that regulates the recommendation lists so as to guarantee both global and individual perspectives, while preserving its effectiveness. Specifically, as individual perspective, we tackle genre calibration and, as global perspective, provider fairness. We validate our approach on two real-world datasets, publicly released with this paper.
     
-[^7]: FedRKG：一种通过知识图增强实现隐私保护的联邦推荐框架
+[^4]: PolyCF: 面向协同过滤的最优谱图过滤器
 
-    FedRKG: A Privacy-preserving Federated Recommendation Framework via Knowledge Graph Enhancement. (arXiv:2401.11089v1 [cs.CR])
+    PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering. (arXiv:2401.12590v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.11089](http://arxiv.org/abs/2401.11089)
+    [http://arxiv.org/abs/2401.12590](http://arxiv.org/abs/2401.12590)
 
-    FedRKG是一种隐私保护的联邦推荐框架，通过增强知识图，构建全局知识图并利用关系感知的GNN模型，实现高阶用户-项目交互。
-
-    
-
-    联邦学习（FL）作为一种在推荐系统中通过本地训练模型来保护数据隐私的有希望的方法已经出现。最近，图神经网络（GNN）因其捕捉用户和项目之间高阶交互的能力而在推荐任务中受到了广泛关注。然而，隐私问题阻碍了整个用户-项目图的全局共享。为了解决这个限制，一些方法在图中创建了伪交互项或用户，以弥补每个客户端缺失信息。不幸的是，这些方法引入了随机噪声并引发隐私问题。在本文中，我们提出了一种新颖的联邦推荐系统FedRKG，在服务器上使用公开的项目信息构建和维护全局知识图（KG），从而实现更高阶的用户-项目交互。在客户端，一个关系感知的GNN模型利用多样的KG关系。为了保护本地交互项目和模糊梯度
-
-    Federated Learning (FL) has emerged as a promising approach for preserving data privacy in recommendation systems by training models locally. Recently, Graph Neural Networks (GNN) have gained popularity in recommendation tasks due to their ability to capture high-order interactions between users and items. However, privacy concerns prevent the global sharing of the entire user-item graph. To address this limitation, some methods create pseudo-interacted items or users in the graph to compensate for missing information for each client. Unfortunately, these methods introduce random noise and raise privacy concerns. In this paper, we propose FedRKG, a novel federated recommendation system, where a global knowledge graph (KG) is constructed and maintained on the server using publicly available item information, enabling higher-order user-item interactions. On the client side, a relation-aware GNN model leverages diverse KG relationships. To protect local interaction items and obscure gradi
-    
-[^8]: 关于构建用户配置文件所需术语数量的选择：理论和实证分析
-
-    On the selection of the correct number of terms for profile construction: theoretical and empirical analysis. (arXiv:2401.10963v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.10963](http://arxiv.org/abs/2401.10963)
-
-    本文研究了从一组文档中构建用户配置文件的问题，提出了基于相似性度量的新型选择函数，并证明其具有良好的选择性能。
+    PolyCF是一个灵活的图信号滤波器，通过多项式图过滤器处理交互信号，能够捕捉多个特征空间中的谱特征，并近似恢复丢失的交互，旨在实现最优的协同过滤。
 
     
 
-    本文研究了从一组文档中构建用户配置文件的问题。该配置文件由文档中最有代表性的术语子集组成，最好地代表用户的偏好或兴趣。受到离散集中理论的启发，我们对选择函数应满足的七个属性进行了公理研究：最小和最大不确定性原理，对添加零的不变性，对比例变换的不变性，名义增加原则，传递原则和最富有获取更多不等式。我们还提出了一种基于相似性度量的新型选择函数，特别是在信息检索中常用的余弦度量，并证明这种方法符合六个属性以及传递原则的较弱变体，从而代表了一种良好的选择方法。理论研究与实证研究相结合，以比较配置文件构建性能。
+    协同过滤（CF）是推荐系统中的一个关键研究领域，利用用户与项目之间的协同相似性提供个性化推荐。在基于节点嵌入的图神经网络（GNNs）取得显著成就的基础上，我们探索了基于嵌入方法的表达能力的上限，并通过将CF任务重新定义为图信号处理问题来应对挑战。为此，我们提出了PolyCF，一个灵活的图信号滤波器，利用多项式图过滤器处理交互信号。PolyCF通过一系列广义格拉姆滤波器捕捉多个特征空间中的谱特征，并能够近似于恢复丢失的交互的最优多项式响应函数。图优化目标和成对排名目标共同用于优化卷积核的参数。在三个广泛采用的数据集上进行实验
 
-    In this paper, we examine the problem of building a user profile from a set of documents. This profile will consist of a subset of the most representative terms in the documents that best represent user preferences or interests. Inspired by the discrete concentration theory we have conducted an axiomatic study of seven properties that a selection function should fulfill: the minimum and maximum uncertainty principle, invariant to adding zeros, invariant to scale transformations, principle of nominal increase, transfer principle and the richest get richer inequality. We also present a novel selection function based on the use of similarity metrics, and more specifically the cosine measure which is commonly used in information retrieval, and demonstrate that this verifies six of the properties in addition to a weaker variant of the transfer principle, thereby representing a good selection approach. The theoretical study was complemented with an empirical study to compare the performance 
+    Collaborative Filtering (CF) is a pivotal research area in recommender systems that capitalizes on collaborative similarities between users and items to provide personalized recommendations. With the remarkable achievements of node embedding-based Graph Neural Networks (GNNs), we explore the upper bounds of expressiveness inherent to embedding-based methodologies and tackle the challenges by reframing the CF task as a graph signal processing problem. To this end, we propose PolyCF, a flexible graph signal filter that leverages polynomial graph filters to process interaction signals. PolyCF exhibits the capability to capture spectral features across multiple eigenspaces through a series of Generalized Gram filters and is able to approximate the optimal polynomial response function for recovering missing interactions. A graph optimization objective and a pair-wise ranking objective are jointly used to optimize the parameters of the convolution kernel. Experiments on three widely adopted 
     
-[^9]: 在议会环境中构建推荐系统的正无标签学习
+[^5]: DREditor:一种用于构建特定领域密集检索模型的时间高效方法
 
-    Positive unlabeled learning for building recommender systems in a parliamentary setting. (arXiv:2401.10961v1 [cs.IR])
+    DREditor: An Time-efficient Approach for Building a Domain-specific Dense Retrieval Model. (arXiv:2401.12540v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.10961](http://arxiv.org/abs/2401.10961)
+    [http://arxiv.org/abs/2401.12540](http://arxiv.org/abs/2401.12540)
 
-    通过正无标签学习，我们开发了一个推荐/过滤系统，通过挖掘议会活动来了解议员的政治兴趣和偏好，并决定哪些文件应该分发给每位议员。
-
-    
-
-    我们的目标是通过挖掘议会活动来了解议员的政治兴趣和偏好，以开发一个推荐/过滤系统。给定要分配给他们的一系列文件，该系统可以决定每位议员应该收到哪些文件。我们提出使用正无标签学习来解决这个问题，因为我们只有有关相关文件（每位议员在辩论中自己的发言）的信息，但没有关于不相关文件的信息，因此我们无法使用通过正负样本训练的标准二元分类器。我们还开发了一种新的算法，与以下方法相比表现更好：a) 基于假设其他议员的干预都是不相关的基准方法，b) 另一种广为人知的正无标签学习方法，c) 基于信息检索方法将文件和立法进行匹配的方法。
-
-    Our goal is to learn about the political interests and preferences of the Members of Parliament by mining their parliamentary activity, in order to develop a recommendation/filtering system that, given a stream of documents to be distributed among them, is able to decide which documents should receive each Member of Parliament. We propose to use positive unlabeled learning to tackle this problem, because we only have information about relevant documents (the own interventions of each Member of Parliament in the debates) but not about irrelevant documents, so that we cannot use standard binary classifiers trained with positive and negative examples. We have also developed a new algorithm of this type, which compares favourably with: a) the baseline approach assuming that all the interventions of other Members of Parliament are irrelevant, b) another well-known positive unlabeled learning method and c) an approach based on information retrieval methods that matches documents and legislat
-    
-[^10]: Chat Bot上的AI革命：一项随机对照实验的证据
-
-    AI Revolution on Chat Bot: Evidence from a Randomized Controlled Experiment. (arXiv:2401.10956v1 [cs.HC])
-
-    [http://arxiv.org/abs/2401.10956](http://arxiv.org/abs/2401.10956)
-
-    本文通过一项现场随机对照试验研究了LLM工具在提供无监督信息检索支持服务方面的效果。
+    DREditor是一种时间高效的方法，通过直接校准现有的密集检索模型的输出嵌入，使用线性映射和编辑操作符来编辑匹配规则，以提高特定领域的检索效率。
 
     
 
-    近年来，生成式人工智能（generative AI）取得了重大进展，展示出显著的提升人类生产力的潜力。特别是，大型语言模型（LLM），以ChatGPT-4为例，引起了极大关注。许多文章已经研究了LLM工具在实验室环境下和设计任务或观察性研究中对人类生产力的影响。尽管最近取得了进展，但在实际环境中应用LLM工具的现场实验仍然有限。本文介绍了一项现场随机对照试验的研究结果，评估了LLM工具在提供无监督信息检索支持服务方面的有效性。
+    在不同行业中，有效部署密集检索模型变得越来越重要。这在企业搜索服务中尤为如此，因为需求不同领域的不同企业的时间需求不同。出于这个原因，我们开发了一种名为DREditor的时间高效方法，用于编辑现成的密集检索模型的匹配规则，以适应特定领域。通过直接校准模型的输出嵌入，使用一种高效而有效的线性映射来实现这一点。这种映射是由解决一个特殊构建的最小二乘问题获得的编辑操作符驱动的。与通过长时间微调进行隐式规则修改相比，我们的实验结果表明，DREditor在不同的特定领域数据集、数据集来源、检索模型和计算设备上都提供了显著优势。它始终可以提高时间效率100-300倍，同时保持不变。
 
-    In recent years, generative AI has undergone major advancements, demonstrating significant promise in augmenting human productivity. Notably, large language models (LLM), with ChatGPT-4 as an example, have drawn considerable attention. Numerous articles have examined the impact of LLM-based tools on human productivity in lab settings and designed tasks or in observational studies. Despite recent advances, field experiments applying LLM-based tools in realistic settings are limited. This paper presents the findings of a field randomized controlled trial assessing the effectiveness of LLM-based tools in providing unmonitored support services for information retrieval.
+    Deploying dense retrieval models efficiently is becoming increasingly important across various industries. This is especially true for enterprise search services, where customizing search engines to meet the time demands of different enterprises in different domains is crucial. Motivated by this, we develop a time-efficient approach called DREditor to edit the matching rule of an off-the-shelf dense retrieval model to suit a specific domain. This is achieved by directly calibrating the output embeddings of the model using an efficient and effective linear mapping. This mapping is powered by an edit operator that is obtained by solving a specially constructed least squares problem. Compared to implicit rule modification via long-time finetuning, our experimental results show that DREditor provides significant advantages on different domain-specific datasets, dataset sources, retrieval models, and computing devices. It consistently enhances time efficiency by 100-300 times while maintain
     
-[^11]: 机器反学习在推荐系统中的应用：一种洞察力
+[^6]: 对优惠贸易协定的非结构化数据内容进行关键信息检索的研究
 
-    Machine Unlearning for Recommendation Systems: An Insight. (arXiv:2401.10942v1 [cs.IR])
+    Key Information Retrieval to Classify the Unstructured Data Content of Preferential Trade Agreements. (arXiv:2401.12520v1 [cs.CL])
 
-    [http://arxiv.org/abs/2401.10942](http://arxiv.org/abs/2401.10942)
+    [http://arxiv.org/abs/2401.12520](http://arxiv.org/abs/2401.12520)
 
-    本文探讨了机器反学习在推荐系统中的应用，解决了适应性、个性化、隐私和偏见等挑战。与传统模型不同，MUL根据用户偏好的变化和伦理考虑动态调整系统知识。通过批判性检验和文献梳理，本文提供了MUL如何改变推荐、用户信任以及未来研究路径的见解。强调个性化和隐私之间的权衡挑战，并鼓励以满足实际需求为目标的贡献，推动MUL在安全和适应性机器学习中的发展。
-
-    
-
-    本综述探讨了推荐系统中的机器反学习（MUL），解决了适应性、个性化、隐私和偏见等挑战。与传统模型不同，MUL根据用户偏好的变化和伦理考虑动态调整系统知识。本文对MUL的基本原理、现实世界应用和算法透明性等挑战进行了批判性的检验。它梳理了相关文献，提供了MUL如何改变推荐的见解，探讨了用户信任，并提出了未来研究在负责任和用户关注的人工智能领域的路径。本文引导研究人员面对个性化和隐私之间的权衡挑战，鼓励以满足有针对性的数据删除实际需求为目标的贡献。强调MUL在安全和适应性机器学习中的作用，提出了推动其边界的方法。本文的创新之处在于探讨了这些方法的局限性。
-
-    This review explores machine unlearning (MUL) in recommendation systems, addressing adaptability, personalization, privacy, and bias challenges. Unlike traditional models, MUL dynamically adjusts system knowledge based on shifts in user preferences and ethical considerations. The paper critically examines MUL's basics, real-world applications, and challenges like algorithmic transparency. It sifts through literature, offering insights into how MUL could transform recommendations, discussing user trust, and suggesting paths for future research in responsible and user-focused artificial intelligence (AI). The document guides researchers through challenges involving the trade-off between personalization and privacy, encouraging contributions to meet practical demands for targeted data removal. Emphasizing MUL's role in secure and adaptive machine learning, the paper proposes ways to push its boundaries. The novelty of this paper lies in its exploration of the limitations of the methods, w
-    
-[^12]: RELIANCE: 可靠的集成学习用于信息和新闻可信度评估
-
-    RELIANCE: Reliable Ensemble Learning for Information and News Credibility Evaluation. (arXiv:2401.10940v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.10940](http://arxiv.org/abs/2401.10940)
-
-    RELIANCE是一个可靠的集成学习系统，用于评估信息和新闻的可信度。它通过整合多个基本模型的优势，提供了对可信和不可信信息源的准确区分，并在信息和新闻可信度评估方面优于基准模型。
+    本论文介绍了一种用于长文本分类和预测的新方法，通过嵌入技术对长文本进行压缩，然后采用双向编码器表示来自Transformers的嵌入方法进行文本分类训练，实验结果显示在优惠贸易协定的长文本分类方面取得了显著的性能提升。
 
     
 
-    在信息泛滥的时代，辨别新闻内容的可信度越来越具有挑战性。本文介绍了RELIANCE，这是一个专为鲁棒信息和虚假新闻可信度评估而设计的先进的集成学习系统。RELIANCE由五个不同的基本模型组成，包括支持向量机（SVM）、朴素贝叶斯、逻辑回归、随机森林和双向长短期记忆网络（BiLSTMs）。RELIANCE采用了创新的方法来整合它们的优势，利用集成的智能提高准确性。实验证明了RELIANCE在区分可信和不可信信息源方面的优越性，表明其在信息和新闻可信度评估方面超过了单个模型，并成为评估信息源可靠性的有效解决方案。
+    随着文本数据的迅速增长，预测长文本已经成为自然语言处理领域的重要挑战。传统的文本预测方法在处理长文本时遇到困难，主要是由于冗余和无关信息的存在，这影响了模型从文本中捕捉重要见解的能力。为了解决这个问题，我们提出了一种新的长文本分类和预测方法。首先，我们采用嵌入技术来对长文本进行压缩，以减少其中的冗余信息。随后，我们使用双向编码器表示来自Transformers（BERT）的嵌入方法进行文本分类训练。实验结果表明，我们的方法在优惠贸易协定的长文本分类方面实现了显著的性能提升。此外，通过嵌入方法对文本进行压缩不仅增强了预测表现，而且有助于提取关键信息。
 
-    In the era of information proliferation, discerning the credibility of news content poses an ever-growing challenge. This paper introduces RELIANCE, a pioneering ensemble learning system designed for robust information and fake news credibility evaluation. Comprising five diverse base models, including Support Vector Machine (SVM), naive Bayes, logistic regression, random forest, and Bidirectional Long Short Term Memory Networks (BiLSTMs), RELIANCE employs an innovative approach to integrate their strengths, harnessing the collective intelligence of the ensemble for enhanced accuracy. Experiments demonstrate the superiority of RELIANCE over individual models, indicating its efficacy in distinguishing between credible and non-credible information sources. RELIANCE, also surpasses baseline models in information and news credibility assessment, establishing itself as an effective solution for evaluating the reliability of information sources.
+    With the rapid proliferation of textual data, predicting long texts has emerged as a significant challenge in the domain of natural language processing. Traditional text prediction methods encounter substantial difficulties when grappling with long texts, primarily due to the presence of redundant and irrelevant information, which impedes the model's capacity to capture pivotal insights from the text. To address this issue, we introduce a novel approach to long-text classification and prediction. Initially, we employ embedding techniques to condense the long texts, aiming to diminish the redundancy therein. Subsequently,the Bidirectional Encoder Representations from Transformers (BERT) embedding method is utilized for text classification training. Experimental outcomes indicate that our method realizes considerable performance enhancements in classifying long texts of Preferential Trade Agreements. Furthermore, the condensation of text through embedding methods not only augments predic
     
-[^13]: 一个新的创意生成流程用于点击率稳定扩散模型
+[^7]: 基于角色的变态关系引导多轮对话建模的鲁棒性评估
 
-    A New Creative Generation Pipeline for Click-Through Rate with Stable Diffusion Model. (arXiv:2401.10934v1 [cs.IR])
+    Persona-centric Metamorphic Relation guided Robustness Evaluation for Multi-turn Dialogue Modelling. (arXiv:2401.12483v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.10934](http://arxiv.org/abs/2401.10934)
+    [http://arxiv.org/abs/2401.12483](http://arxiv.org/abs/2401.12483)
 
-    基于用户信息和艺术设计的新的创意生成流程，通过融合用户信息和考虑用户特征来预测CTR分数，提供更具吸引力的创意设计。
-
-    
-
-    在在线广告的场景中，销售商通常会创建多个创意以提供全面的演示，因此呈现出最吸引人的设计以最大化点击率（CTR）至关重要。然而，销售商通常难以考虑用户对创意设计的偏好，导致相对于基于人工智能（AI）的方法来说，美学和数量都较低。传统的基于AI的方法仍然面临同样的问题，即没有考虑用户信息，同时在设计师的美学知识方面有限。事实上，通过融合用户信息，生成的创意可能更具吸引力，因为不同的用户可能有不同的偏好。为了优化结果，传统方法中生成的创意会通过另一个被称为创意排名模型的模块进行排序。排名模型可以考虑用户特征来预测每个创意的CTR分数。然而，上述的两个阶段被视为两个不同的训练任务，使得生成的创意可能不够精准。
-
-    In online advertising scenario, sellers often create multiple creatives to provide comprehensive demonstrations, making it essential to present the most appealing design to maximize the Click-Through Rate (CTR). However, sellers generally struggle to consider users preferences for creative design, leading to the relatively lower aesthetics and quantities compared to Artificial Intelligence (AI)-based approaches. Traditional AI-based approaches still face the same problem of not considering user information while having limited aesthetic knowledge from designers. In fact that fusing the user information, the generated creatives can be more attractive because different users may have different preferences. To optimize the results, the generated creatives in traditional methods are then ranked by another module named creative ranking model. The ranking model can predict the CTR score for each creative considering user features. However, the two above stages are regarded as two different t
-    
-[^14]: 人工智能实现科学文献系统综述的自动化
-
-    Artificial intelligence to automate the systematic review of scientific literature. (arXiv:2401.10917v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.10917](http://arxiv.org/abs/2401.10917)
-
-    本论文介绍了一项调查研究，研究了使用人工智能实现科学文献系统综述的自动化方法。
+    本研究介绍了一种基于角色的变态关系构建方法，用于对多轮对话建模进行鲁棒性评估。这种方法通过变态测试来评估对话系统的个性一致性和对话长时间维持性之间的关系。
 
     
 
-    人工智能（AI）在现代计算中变得非常重要，因为它可以有效地解决人们传统上完成的复杂任务。AI提供了表示和推理知识、高效地处理文本和从大量数据中学习的方法。这些特点适用于许多人类找到费力或重复的活动，比如科学文献的分析。手动准备和撰写系统文献综述（SLR）需要相当长的时间和努力，因为它需要策划一个策略，进行文献搜索和分析，并报告结果。根据研究领域的不同，检索到的论文数量可能达到数百或数千篇，这意味着过滤出相关文献并提取关键信息是一个昂贵且容易出错的过程。然而，一些涉及的任务是重复的，因此可以通过AI自动化。在本文中，我们提出了一项调查研究
+    最近，在对话系统领域中引入了微调和提示学习等训练范式的推动下，取得了显著进展。角色可以作为先验知识，用于保持对话系统的个性一致性，从而在准确性方面表现出色。然而，传统的基于参考的评估方法在捕捉模型真实文本理解能力方面存在不足，过度依赖数据注释的质量。相比之下，变态测试的应用提供了对模型独特能力更深入的洞察，而无需额外的注释标签。这种方法更全面地揭示了模型的复杂性，并暴露了基于参考验证技术所隐藏的复杂性。因此，我们引入了基于角色的变态关系构建方法，用于变态测试，旨在评估角色一致性和对话长时间维持性之间的关系。
 
-    Artificial intelligence (AI) has acquired notorious relevance in modern computing as it effectively solves complex tasks traditionally done by humans. AI provides methods to represent and infer knowledge, efficiently manipulate texts and learn from vast amount of data. These characteristics are applicable in many activities that human find laborious or repetitive, as is the case of the analysis of scientific literature. Manually preparing and writing a systematic literature review (SLR) takes considerable time and effort, since it requires planning a strategy, conducting the literature search and analysis, and reporting the findings. Depending on the area under study, the number of papers retrieved can be of hundreds or thousands, meaning that filtering those relevant ones and extracting the key information becomes a costly and error-prone process. However, some of the involved tasks are repetitive and, therefore, subject to automation by means of AI. In this paper, we present a survey
+    Recently there has been significant progress in the field of dialogue system thanks to the introduction of training paradigms such as fine-tune and prompt learning. Persona can function as the prior knowledge for maintaining the personality consistency of dialogue systems, which makes it perform well on accuracy. Nonetheless, the conventional reference-based evaluation method falls short in capturing the genuine text comprehension prowess of the model, significantly relying on the quality of data annotation. In contrast, the application of metamorphic testing offers a more profound insight into the model's distinct capabilities without necessitating supplementary annotation labels. This approach furnishes a more comprehensive portrayal of the model's intricacies and exposes intricacies concealed within reference-based validation techniques. Consequently, we introduce a persona-centric metamorphic relation construction for metamorphic testing, aimed at evaluating both the persona consis
     
-[^15]: 知识图谱嵌入的位置敏感嵌入
+[^8]: 会话级归一化和点击数据增强对于会话评估的应用
 
-    Location Sensitive Embedding for Knowledge Graph Embedding. (arXiv:2401.10893v1 [cs.IR])
+    Session-level Normalization and Click-through Data Enhancement for Session-based Evaluation. (arXiv:2401.12445v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.10893](http://arxiv.org/abs/2401.10893)
+    [http://arxiv.org/abs/2401.12445](http://arxiv.org/abs/2401.12445)
 
-    这篇论文介绍了一种新颖的位置敏感嵌入（LSE）方法，该方法通过关系特定的映射来修改头实体，将关系概念化为线性变换。LSE在知识图谱嵌入领域具有理论基础，同时提出了更高效的变体LSEd。实验证明LSEd在链接预测任务上具有竞争力。
-
-    
-
-    知识图谱嵌入将知识图谱转化为连续的、低维度的空间，有助于推理和补全任务。该领域主要分为传统的距离模型和语义匹配模型。传统的距离模型面临的关键挑战是无法有效区分图谱中的“头实体”和“尾实体”。为了解决这个问题，提出了新颖的位置敏感嵌入（LSE）方法。LSE通过关系特定的映射修改头实体，将关系概念化为线性变换而不仅仅是平移。LSE的理论基础，包括其表示能力和与现有模型的联系，都进行了详细研究。一种更简化的变体LSEd利用对角矩阵进行变换以提高实用性能。在对四个大规模数据集进行链接预测的测试中，LSEd要么表现更好，要么具有竞争力。
-
-    Knowledge graph embedding transforms knowledge graphs into a continuous, low-dimensional space, facilitating inference and completion tasks. This field is mainly divided into translational distance models and semantic matching models. A key challenge in translational distance models is their inability to effectively differentiate between 'head' and 'tail' entities in graphs. To address this, the novel location-sensitive embedding (LSE) method has been developed. LSE innovatively modifies the head entity using relation-specific mappings, conceptualizing relations as linear transformations rather than mere translations. The theoretical foundations of LSE, including its representational capabilities and its connections to existing models, have been thoroughly examined. A more streamlined variant, LSEd, employs a diagonal matrix for transformations to enhance practical efficiency. In tests conducted on four large-scale datasets for link prediction, LSEd either outperforms or is competitive
-    
-[^16]: 基于注意力GCN的知识图谱推理
-
-    Knowledge Graph Reasoning Based on Attention GCN. (arXiv:2312.10049v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2312.10049](http://arxiv.org/abs/2312.10049)
-
-    本论文通过将图卷积神经网络（GCN）与注意力机制相结合，提出了一种新颖的技术来增强知识图谱推理，通过检查实体之间及其邻居节点之间的关系以及整合实体的属性和相互作用，生成丰富的隐式特征向量，以提高实体分类和链接预测等任务的性能。
+    本研究针对会话级别的搜索系统评估，提出了会话级归一化和点击数据增强的方法。传统方法中会话级指标的假设可能不符合实际情况，本文考虑了用户满意度和隐式反馈的影响。
 
     
 
-    我们提出了一种新颖的技术，通过将图卷积神经网络（GCN）与注意力机制相结合来增强知识图谱推理。该方法利用注意力机制来检查实体之间及其邻居节点之间的关系，从而为每个实体开发详细的特征向量。GCN使用共享参数有效地表示相邻实体的特征。我们首先学习实体之间的相似度，以进行节点表示学习。通过整合实体的属性和它们的相互作用，该方法为每个实体生成了丰富的隐式特征向量，提高了实体分类和链接预测等任务的性能，优于传统的神经网络模型。总之，这项工作为搜索引擎、问答系统、推荐系统和数据整合任务等多个应用领域提供了重要的方法支持。
+    鉴于用户通常需要发出一系列查询并检查多个文档以解决复杂的信息需求，研究人员更关注于会话级别而非单一查询级别上对搜索系统进行评估。现有的大多数会话级指标都是分别评估每个查询，然后使用会话级加权函数对查询级得分进行聚合。这些指标的假设是会话中的所有查询都应该参与其中，并且它们的顺序是固定的。然而，如果一个搜索系统可以通过用户的前几个查询使用户满意，那么她可能不需要任何后续查询了。此外，在大多数实际搜索场景中，由于缺乏真实用户的明确反馈，我们只能利用一些隐式反馈，如用户的点击，作为离线评估的相关性标签。这样的隐式反馈与搜索会话中的真实相关性可能有所不同，因为有些文档可能被忽略了。
 
-    We propose a novel technique to enhance Knowledge Graph Reasoning by combining Graph Convolution Neural Network (GCN) with the Attention Mechanism. This approach utilizes the Attention Mechanism to examine the relationships between entities and their neighboring nodes, which helps to develop detailed feature vectors for each entity. The GCN uses shared parameters to effectively represent the characteristics of adjacent entities. We first learn the similarity of entities for node representation learning. By integrating the attributes of the entities and their interactions, this method generates extensive implicit feature vectors for each entity, improving performance in tasks including entity classification and link prediction, outperforming traditional neural network models. To conclude, this work provides crucial methodological support for a range of applications, such as search engines, question-answering systems, recommendation systems, and data integration tasks.
+    Since a user usually has to issue a sequence of queries and examine multiple documents to resolve a complex information need in a search session, researchers have paid much attention to evaluating search systems at the session level rather than the single-query level. Most existing session-level metrics evaluate each query separately and then aggregate the query-level scores using a session-level weighting function. The assumptions behind these metrics are that all queries in the session should be involved, and their orders are fixed. However, if a search system could make the user satisfied with her first few queries, she may not need any subsequent queries. Besides, in most real-world search scenarios, due to a lack of explicit feedback from real users, we can only leverage some implicit feedback, such as users' clicks, as relevance labels for offline evaluation. Such implicit feedback might be different from the real relevance in a search session as some documents may be omitted in 
     
-[^17]: 基于原始数据的体内纳米尺度定位的分析建模
+[^9]: 通过多层网络分析演变的主题；分析2022年卡塔尔世界杯的200万条推文
 
-    Analytical Modelling of Raw Data for Flow-Guided In-body Nanoscale Localization. (arXiv:2309.16034v1 [cs.ET])
+    Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup. (arXiv:2401.12228v1 [cs.SI])
 
-    [http://arxiv.org/abs/2309.16034](http://arxiv.org/abs/2309.16034)
+    [http://arxiv.org/abs/2401.12228](http://arxiv.org/abs/2401.12228)
 
-    本论文研究了基于原始数据的体内纳米尺度定位的分析建模，分析了纳米设备的通信和能源约束对定位性能的影响。
-
-    
-
-    纳米技术和材料科学的进展为纳米尺度设备的发展铺平了道路，这些设备结合了传感、计算、数据和能源储存以及无线通信。在精密医学中，这些纳米设备对于疾病诊断、治疗和监测呈现出巨大的潜力，而体内纳米尺度定位的流引导定位，即将所感知的生物事件与事件本身的位置关联起来，从精密医学的角度看将具有极大的益处。纳米设备的纳米尺度特性以及血液流动环境的挑战性导致目前的流引导定位方法在通信和能源相关能力方面受到限制。纳米设备的通信和能源约束导致流引导定位的原始数据具有不同的特征，从而影响其性能。本研究通过分析建模研究了这些不完美的影响。
-
-    Advancements in nanotechnology and material science are paving the way toward nanoscale devices that combine sensing, computing, data and energy storage, and wireless communication. In precision medicine, these nanodevices show promise for disease diagnostics, treatment, and monitoring from within the patients' bloodstreams. Assigning the location of a sensed biological event with the event itself, which is the main proposition of flow-guided in-body nanoscale localization, would be immensely beneficial from the perspective of precision medicine. The nanoscale nature of the nanodevices and the challenging environment that the bloodstream represents, result in current flow-guided localization approaches being constrained in their communication and energy-related capabilities. The communication and energy constraints of the nanodevices result in different features of raw data for flow-guided localization, in turn affecting its performance. An analytical modeling of the effects of imperfe
-    
-[^18]: 用深度学习简化社交媒体信息检索以支持公共卫生研究
-
-    Streamlining Social Media Information Retrieval for Public Health Research with Deep Learning. (arXiv:2306.16001v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.16001](http://arxiv.org/abs/2306.16001)
-
-    本研究介绍了一个使用深度学习简化社交媒体信息检索的框架，通过识别医学实体、标准化实体和分配UMLS概念，构建了一个用于COVID-19相关推文的症状词典。
+    本研究通过多层网络方法对2022年卡塔尔世界杯的200万条推文进行了全面分析，可视化了主要主题的演变，考虑了上下文和意义关系。
 
     
 
-    社交媒体在流行病监测中的利用已经得到了很好的证实。然而，当使用预定义的词汇表来检索相关语料库时，常常会引入偏见。本研究介绍了一个框架，旨在构建医学俗语和统一医学语言系统（UMLS）概念的广泛字典。该框架由三个模块组成：基于BERT的命名实体识别（NER）模型，用于从社交媒体内容中识别出医学实体；深度学习驱动的标准化模块，用于对提取出的实体进行规范化处理；半监督聚类模块，将最可能的UMLS概念分配给每个规范化实体。我们将该框架应用于从2020年2月1日到2022年4月30日期间与COVID-19相关的推文，生成了一个症状词典（可在https://github.com/ningkko/UMLS_colloquialism/上获取），其中包含9,249个标准化实体，映射到876个UMLS概念和38,175个俚语表达。该框架的演示
+    本研究对2022年卡塔尔世界杯事件进行了全面的数据收集，并使用多层网络方法可视化了主要主题，同时考虑了它们的上下文和意义关系。我们将数据按照比赛阶段划分为不同的层次，并利用Gephi软件生成了多层网络。我们的可视化展示了主题和词汇之间的关系，展示了词汇-上下文关系以及各层次上最常讨论主题的动态和变化。
 
-    The utilization of social media in epidemic surveillance has been well established. Nonetheless, bias is often introduced when pre-defined lexicons are used to retrieve relevant corpus. This study introduces a framework aimed at curating extensive dictionaries of medical colloquialisms and Unified Medical Language System (UMLS) concepts. The framework comprises three modules: a BERT-based Named Entity Recognition (NER) model that identifies medical entities from social media content, a deep-learning powered normalization module that standardizes the extracted entities, and a semi-supervised clustering module that assigns the most probable UMLS concept to each standardized entity. We applied this framework to COVID-19-related tweets from February 1, 2020, to April 30, 2022, generating a symptom dictionary (available at https://github.com/ningkko/UMLS_colloquialism/) composed of 9,249 standardized entities mapped to 876 UMLS concepts and 38,175 colloquial expressions. This framework demo
+    In this study, we conducted a comprehensive data collection on the 2022 Qatar FIFA World Cup event and used a multilayer network approach to visualize the main topics, while considering their context and meaning relationships. We structured the data into layers that corresponded with the stages of the tournament and utilized Gephi software to generate the multilayer networks. Our visualizations displayed both the relationships between topics and words, showing the word-context relationship, as well as the dynamics and changes over time by layer of the most frequently discussed topics.
     
-[^19]: 通过领域知识启示的深度学习进行药物推荐
+[^10]: 通过检索示范进行上下文学习的语言模型：一项综述
 
-    Medication Recommendation via Domain Knowledge Informed Deep Learning. (arXiv:2305.19604v1 [cs.AI])
+    In-context Learning with Retrieved Demonstrations for Language Models: A Survey. (arXiv:2401.11624v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.19604](http://arxiv.org/abs/2305.19604)
+    [http://arxiv.org/abs/2401.11624](http://arxiv.org/abs/2401.11624)
 
-    提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。
-
-    
-
-    药物推荐是医疗保健的基本但至关重要的分支，提供机会为复杂健康状况的患者支持临床医生更精确的药物处方。从电子健康记录（EHR）中学习推荐药物是先前研究中最常见的方法。然而，大多数研究忽视了根据患者的EHR中的临床表现纳入领域知识的问题。为了解决这些问题，我们提出了一种新颖的基于动态领域知识的药物推荐框架，即领域知识启示网络（DKINet），用于将领域知识与可观察的患者临床表现相结合。特别是，我们首先设计了一个基于领域知识的编码器来捕捉领域信息，然后开发了一个数据驱动的编码器将领域知识整合到可观察的EHR中。
-
-    Medication recommendation is a fundamental yet crucial branch of healthcare, which provides opportunities to support clinical physicians with more accurate medication prescriptions for patients with complex health conditions. Learning from electronic health records (EHR) to recommend medications is the most common way in previous studies. However, most of them neglect incorporating domain knowledge according to the clinical manifestations in the EHR of the patient. To address these issues, we propose a novel \textbf{D}omain \textbf{K}nowledge \textbf{I}nformed \textbf{Net}work (DKINet) to integrate domain knowledge with observable clinical manifestations of the patient, which is the first dynamic domain knowledge informed framework toward medication recommendation. In particular, we first design a knowledge-driven encoder to capture the domain information and then develop a data-driven encoder to integrate domain knowledge into the observable EHR. To endow the model with the capability
-    
-[^20]: 生物医学自然语言处理中的大型语言模型: 基准、基线和建议
-
-    Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. (arXiv:2305.16326v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.16326](http://arxiv.org/abs/2305.16326)
-
-    本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。
+    本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。
 
     
 
-    生物医学文献呈指数级增长，手动筛选和提取知识变得困难。自动从生物医学文献中提取信息的生物医学自然语言处理（BioNLP）技术有助于减轻这种负担。近年来，如GPT-3和GPT-4等大型语言模型（LLMs）因其卓越的性能而受到重视。但是，它们在BioNLP任务中的有效性以及对方法开发和下游用户的影响仍未得到研究。本研究（1）在四个应用程序中在八个BioNLP数据集中建立了GPT-3和GPT-4在零-shot和一-shot设置下的基准表现，包括命名实体识别，关系提取，多标签文档分类和语义相似性和推理；（2）审查了LLMs产生的错误，并将错误分为三种类型：缺失，不一致和不需要的人工内容；（3）提出了使用LLMs的建议。
+    语言模型，特别是预训练的大型语言模型，已展示出卓越的能力，可以在输入上下文中进行少量样本的情境学习（ICL），并在新任务上具有适应能力。然而，模型的ICL能力对于少样本示范的选择是敏感的。最近的一项研究进展是检索针对每个输入查询定制的示范。示范检索的实现相对简单，利用现有的数据库和检索系统。这不仅提高了学习过程的效率和可扩展性，而且已经证明可以减少手动示例选择中的偏见。鉴于令人鼓舞的结果和在检索示范的ICL方面不断增长的研究，我们进行了广泛的研究综述。在这项综述中，我们讨论和比较了检索模型的不同设计选择，检索训练
 
-    Biomedical literature is growing rapidly, making it challenging to curate and extract knowledge manually. Biomedical natural language processing (BioNLP) techniques that can automatically extract information from biomedical literature help alleviate this burden. Recently, large Language Models (LLMs), such as GPT-3 and GPT-4, have gained significant attention for their impressive performance. However, their effectiveness in BioNLP tasks and impact on method development and downstream users remain understudied. This pilot study (1) establishes the baseline performance of GPT-3 and GPT-4 at both zero-shot and one-shot settings in eight BioNLP datasets across four applications: named entity recognition, relation extraction, multi-label document classification, and semantic similarity and reasoning, (2) examines the errors produced by the LLMs and categorized the errors into three types: missingness, inconsistencies, and unwanted artificial content, and (3) provides suggestions for using L
+    Language models, especially pre-trained large language models, have showcased remarkable abilities as few-shot in-context learners (ICL), adept at adapting to new tasks with just a few demonstrations in the input context. However, the model's ability to perform ICL is sensitive to the choice of the few-shot demonstrations. Instead of using a fixed set of demonstrations, one recent development is to retrieve demonstrations tailored to each input query. The implementation of demonstration retrieval is relatively straightforward, leveraging existing databases and retrieval systems. This not only improves the efficiency and scalability of the learning process but also has been shown to reduce biases inherent in manual example selection. In light of the encouraging results and growing research in ICL with retrieved demonstrations, we conduct an extensive review of studies in this area. In this survey, we discuss and compare different design choices for retrieval models, retrieval training p
     
-[^21]: 连续时间序列推荐中的图ODE学习
+[^11]: D2K: 将历史数据转化为可检索的知识，用于推荐系统
 
-    Learning Graph ODE for Continuous-Time Sequential Recommendation. (arXiv:2304.07042v1 [cs.IR])
+    D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems. (arXiv:2401.11478v2 [cs.IR] UPDATED)
 
-    [http://arxiv.org/abs/2304.07042](http://arxiv.org/abs/2304.07042)
+    [http://arxiv.org/abs/2401.11478](http://arxiv.org/abs/2401.11478)
 
-    提出了一个基于图ODE的连续时间序列推荐框架GDERec，它通过连续时间图卷积网络解决协作信号演化和不规则采样问题，并在四个真实数据集上取得显著优于现有方法的效果。
-
-    
-
-    连续时间序列推荐旨在通过捕获用户过去交互中的项购买序列，理解用户的偏好。现有方法通常通过建模顺序模式来预测下一个项目。尽管有效，然而存在两个天然不足：（i）用户偏好具有动态性，并且经常忽略协作信号的演化；（ii）观察到的交互通常是不规则采样的，而现有方法则假设均匀间隔来进行项目转换建模。因此，如何有效地对用户偏好的基础动态建模和预测成为一个关键的研究问题。为了解决上述挑战，本文关注于连续时间序列推荐，提出了一种基于图正则微分方程（graph ordinary differential equation, GDERec）的连续时间序列推荐框架。技术上，GDERec由一个自回归图正则微分方程组成，通过连续时间图卷积网络来建模项转移动态。在四个真实数据集上的实证结果表明，GDERec显著优于现有方法，并提供了连续时间用户偏好动态的可解释见解。
-
-    Sequential recommendation aims at understanding user preference by capturing successive behavior correlations, which are usually represented as the item purchasing sequences based on their past interactions. Existing efforts generally predict the next item via modeling the sequential patterns. Despite effectiveness, there exist two natural deficiencies: (i) user preference is dynamic in nature, and the evolution of collaborative signals is often ignored; and (ii) the observed interactions are often irregularly-sampled, while existing methods model item transitions assuming uniform intervals. Thus, how to effectively model and predict the underlying dynamics for user preference becomes a critical research problem. To tackle the above challenges, in this paper, we focus on continuous-time sequential recommendation and propose a principled graph ordinary differential equation framework named GDERec. Technically, GDERec is characterized by an autoregressive graph ordinary differential equa
-    
-[^22]: 基于贪心策略提高拼车网络中的车辆利用率
-
-    A greedy approach for increased vehicle utilization in ridesharing networks. (arXiv:2304.01225v1 [cs.DS])
-
-    [http://arxiv.org/abs/2304.01225](http://arxiv.org/abs/2304.01225)
-
-    本文提出了一个基于贪心策略的路线推荐方法，可以增加车辆利用率，缓解拼车服务对环境的影响。
+    D2K提出了一个以数据为中心的框架，将大量用户行为数据转化为可检索的知识，用于推荐系统。与传统的将知识存储在模型参数中的方法不同，D2K存储的是由用户、物品和背景构成的完整的推荐因素，从而具有更好的可扩展性和灵活性。
 
     
 
-    近年来，拼车平台已成为城市居民的主要交通方式。对于这些平台来讲，路线推荐是一个至关重要的问题。现有的研究已经建议了具有更高乘客需求的路线。然而，统计数据表明，与私人车辆相比，这些服务会导致增加温室气体排放，因为它们在寻找乘客时四处漫游。本文提供了拼车系统功能的更详细细节，并揭示了在拼车系统蓬勃发展的情况下它们并未有效地利用车辆容量。我们建议克服以上限制，并推荐同时获取多个乘客的路线，从而增加车辆利用率，从而减少这些系统对环境的影响。由于路线推荐是NP-hard问题，我们提出了基于k跳的滑动窗口近似方法。
+    如今，在大型推荐平台上不断积累的大量用户行为数据记录了用户的各种兴趣和品味。但是，如何在新数据不断到来时保留旧数据中的知识成为推荐系统中的一个重要问题。现有的方法通常试图将知识隐含在模型参数中。然而，这种以参数为中心的方法缺乏可扩展性和灵活性——容量难以扩展，知识难以利用。因此，本文提出了一个将大量用户行为数据转化为可检索知识的框架（D2K）。这是一种以数据为中心的方法，不依赖于特定模型并且易于扩展。不同于仅存储用户或物品的一元知识，D2K提出存储用于推荐的三元知识，该知识由完整的推荐因素——用户、物品和背景构成。目标样本可以直接检索到这些知识。
 
-    In recent years, ridesharing platforms have become a prominent mode of transportation for the residents of urban areas. As a fundamental problem, route recommendation for these platforms is vital for their sustenance. The works done in this direction have recommended routes with higher passenger demand. Despite the existing works, statistics have suggested that these services cause increased greenhouse emissions compared to private vehicles as they roam around in search of riders. This analysis provides finer details regarding the functionality of ridesharing systems and it reveals that in the face of their boom, they have not utilized the vehicle capacity efficiently. We propose to overcome the above limitations and recommend routes that will fetch multiple passengers simultaneously which will result in increased vehicle utilization and thereby decrease the effect of these systems on the environment. As route recommendation is NP-hard, we propose a k-hop-based sliding window approxima
+    A vast amount of user behavior data is constantly accumulating on today's large recommendation platforms, recording users' various interests and tastes. Preserving knowledge from the old data while new data continually arrives is a vital problem for recommender systems. Existing approaches generally seek to save the knowledge implicitly in the model parameters. However, such a parameter-centric approach lacks scalability and flexibility -- the capacity is hard to scale, and the knowledge is inflexible to utilize. Hence, in this work, we propose a framework that turns massive user behavior data to retrievable knowledge (D2K). It is a data-centric approach that is model-agnostic and easy to scale up. Different from only storing unary knowledge such as the user-side or item-side information, D2K propose to store ternary knowledge for recommendation, which is determined by the complete recommendation factors -user, item, and context. The knowledge retrieved by target samples can be direc
     
-[^23]: 结构化数据的分层局部敏感哈希：一项调研
+[^12]: ChatQA: 构建GPT-4级对话问答模型
 
-    Hierarchical Locality Sensitive Hashing for Structured Data: A Survey. (arXiv:2204.11209v3 [cs.DS] UPDATED)
+    ChatQA: Building GPT-4 Level Conversational QA Models. (arXiv:2401.10225v1 [cs.CL])
 
-    [http://arxiv.org/abs/2204.11209](http://arxiv.org/abs/2204.11209)
+    [http://arxiv.org/abs/2401.10225](http://arxiv.org/abs/2401.10225)
 
-    本文调研了结构化数据分层局部敏感哈希（LSH）的研究现状，针对无法保留结构信息的传统LSH算法，提出了有效的解决方案。
+    ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。
 
     
 
-    数据相似性（或距离）计算是一个基础的研究课题，促进了许多基于相似性的机器学习和数据挖掘应用。在大数据分析中，由于计算成本高昂，计算数据实例的精确相似性是不切实际的。为此，局部敏感哈希（LSH）技术已被提出，以在没有学习过程的情况下以高效的方式提供各种集合或向量之间的各种相似度估计器。结构化数据（例如序列、树和图）在现实世界中很常见，但传统的LSH算法无法保留表示元素之间关系的结构信息。为了解决这个问题，研究人员一直致力于分层LSH算法。本文探讨了分层LSH研究的现有进展。
+    在这项工作中，我们介绍了ChatQA，一系列具有GPT-4级别准确性的对话问答模型。具体地，我们提出了一个两阶段的指令调整方法，可以显著提高大型语言模型（LLM）在零-shot对话问答中的结果。为了处理对话问答中的检索问题，我们在多轮问答数据集上进行了密集检索器的微调，这样可以提供与使用最先进的查询重写模型相当的结果，同时大大降低部署成本。值得注意的是，我们的ChatQA-70B可以在10个对话问答数据集的平均分上超过GPT-4（54.14 vs. 53.90），而不依赖于OpenAI GPT模型的任何合成数据。
 
-    Data similarity (or distance) computation is a fundamental research topic which fosters a variety of similarity-based machine learning and data mining applications. In big data analytics, it is impractical to compute the exact similarity of data instances due to high computational cost. To this end, the Locality Sensitive Hashing (LSH) technique has been proposed to provide accurate estimators for various similarity measures between sets or vectors in an efficient manner without the learning process. Structured data (e.g., sequences, trees and graphs), which are composed of elements and relations between the elements, are commonly seen in the real world, but the traditional LSH algorithms cannot preserve the structure information represented as relations between elements. In order to conquer the issue, researchers have been devoted to the family of the hierarchical LSH algorithms. In this paper, we explore the present progress of the research into hierarchical LSH from the following pe
+    In this work, we introduce ChatQA, a family of conversational question answering (QA) models, that obtain GPT-4 level accuracies. Specifically, we propose a two-stage instruction tuning method that can significantly improve the zero-shot conversational QA results from large language models (LLMs). To handle retrieval in conversational QA, we fine-tune a dense retriever on a multi-turn QA dataset, which provides comparable results to using the state-of-the-art query rewriting model while largely reducing deployment cost. Notably, our ChatQA-70B can outperform GPT-4 in terms of average score on 10 conversational QA datasets (54.14 vs. 53.90), without relying on any synthetic data from OpenAI GPT models.
+    
+[^13]: 偏好和并发感知的贝叶斯图神经网络用于推荐系统
+
+    Preference and Concurrence Aware Bayesian Graph Neural Networks for Recommender Systems. (arXiv:2312.11486v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2312.11486](http://arxiv.org/abs/2312.11486)
+
+    本文提出了一个偏好和并发感知的贝叶斯图神经网络框架用于解决推荐系统中的问题，通过生成模型和关注图结构信息来捕捉用户与物品的高阶信息，实验证明了其有效性。
+
+    
+
+    基于图的协同过滤方法对于推荐系统具有突出的性能，因为它们可以捕捉用户和物品之间的高阶信息，其中图是由观察到的用户-物品交互构建的，这些交互可能会丢失链接或包含虚假的正交互。贝叶斯图神经网络框架通过生成模型解决了这个问题。关键问题是设计一族适合推荐系统的图生成模型。我们提出了一种高效的生成模型，它同时考虑了用户的偏好、物品的并发以及一些重要的图结构信息。在四个流行的基准数据集上的实验证明了我们提出的图生成方法在推荐系统中的有效性。
+
+    Graph-based collaborative filtering methods have prevailing performance for recommender systems since they can capture high-order information between users and items, in which the graphs are constructed from the observed user-item interactions that might miss links or contain spurious positive interactions in industrial scenarios. The Bayesian Graph Neural Network framework approaches this issue with generative models for the interaction graphs. The critical problem is to devise a proper family of graph generative models tailored to recommender systems. We propose an efficient generative model that jointly considers the preferences of users, the concurrence of items and some important graph structure information. Experiments on four popular benchmark datasets demonstrate the effectiveness of our proposed graph generative methods for recommender systems.
+    
+[^14]: GraphPro: 面向推荐系统的图预训练和提示学习
+
+    GraphPro: Graph Pre-training and Prompt Learning for Recommendation. (arXiv:2311.16716v3 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2311.16716](http://arxiv.org/abs/2311.16716)
+
+    GraphPro是一个结合了参数高效和动态图预训练与提示学习的框架，能够有效捕捉长期用户偏好和短期行为动态，从而在真实世界的推荐系统中提供准确和及时的推荐。
+
+    
+
+    基于GNN的推荐系统通过多次消息传递在建模复杂的用户-物品交互方面表现出色。然而，现有方法往往忽视了不断变化的用户-物品交互的动态性，这限制了其在适应用户偏好变化和新到达数据分布变化方面的可扩展性和性能。因此，它们在真实世界的动态环境中的可扩展性和性能受到了限制。在这项研究中，我们提出了GraphPro，这是一个将参数高效和动态图预训练与提示学习相结合的框架。这种新颖的组合能够有效捕捉长期用户偏好和短期行为动态，从而实现准确和及时的推荐。我们的GraphPro框架通过无缝集成临时提示机制和图结构提示学习机制到预训练的GNN模型中来解决用户偏好不断变化的挑战。
+
+    GNN-based recommenders have excelled in modeling intricate user-item interactions through multi-hop message passing. However, existing methods often overlook the dynamic nature of evolving user-item interactions, which impedes the adaption to changing user preferences and distribution shifts in newly arriving data. Thus, their scalability and performances in real-world dynamic environments are limited. In this study, we propose GraphPro, a framework that incorporates parameter-efficient and dynamic graph pre-training with prompt learning. This novel combination empowers GNNs to effectively capture both long-term user preferences and short-term behavior dynamics, enabling the delivery of accurate and timely recommendations. Our GraphPro framework addresses the challenge of evolving user preferences by seamlessly integrating a temporal prompt mechanism and a graph-structural prompt learning mechanism into the pre-trained GNN model. The temporal prompt mechanism encodes time information o
+    
+[^15]: 通过视觉模块插件解锁密集检索的多模态能力
+
+    Unlock Multi-Modal Capability of Dense Retrieval via Visual Module Plugin. (arXiv:2310.14037v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2310.14037](http://arxiv.org/abs/2310.14037)
+
+    本文介绍了一种名为MARVEL的多模态检索模型，通过视觉模块插件为密集检索器添加图像理解能力，并且在多模态检索任务中取得了显著优于最先进方法的结果。
+
+    
+
+    本文提出了通过视觉模块插件（MARVEL）学习查询和多模态文档的嵌入空间以进行检索的多模态检索模型。MARVEL使用统一的编码器模型对查询和多模态文档进行编码，有助于减小图像和文本之间的模态差距。具体而言，我们通过将视觉模块编码的图像特征作为其输入，使得经过训练的密集检索器T5-ANCE具有图像理解能力。为了促进多模态检索任务，我们基于ClueWeb22数据集构建了ClueWeb22-MM数据集，将锚文本作为查询，并从锚链接的网页中提取相关文本和图像文档。实验证明，MARVEL在多模态检索数据集WebQA和ClueWeb22-MM上明显优于最先进的方法。进一步的分析表明，视觉模块插件方法为实现图像理解能力量身定制。
+
+    This paper proposes Multi-modAl Retrieval model via Visual modulE pLugin (MARVEL) to learn an embedding space for queries and multi-modal documents to conduct retrieval. MARVEL encodes queries and multi-modal documents with a unified encoder model, which helps to alleviate the modality gap between images and texts. Specifically, we enable the image understanding ability of a well-trained dense retriever, T5-ANCE, by incorporating the image features encoded by the visual module as its inputs. To facilitate the multi-modal retrieval tasks, we build the ClueWeb22-MM dataset based on the ClueWeb22 dataset, which regards anchor texts as queries, and exact the related texts and image documents from anchor linked web pages. Our experiments show that MARVEL significantly outperforms the state-of-the-art methods on the multi-modal retrieval dataset WebQA and ClueWeb22-MM. Our further analyses show that the visual module plugin method is tailored to enable the image understanding ability for an 
+    
+[^16]: "检索遇上长篇大语言模型"
+
+    Retrieval meets Long Context Large Language Models. (arXiv:2310.03025v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2310.03025](http://arxiv.org/abs/2310.03025)
+
+    "本论文研究了将检索增强和长上下文窗口的大语言模型相结合的解决方案，发现在长上下文任务中，通过检索增强的LLM使用4K上下文窗口可以取得与通过长上下文窗口微调的LLM使用16K上下文窗口相当的性能，同时计算量要少得多。此外，无论上下文窗口大小如何，检索都可以显著提高LLM的性能。"
+
+    
+
+    "最近，扩展大语言模型（LLM）的上下文窗口越来越流行，而将检索与LLM相结合的解决方案已存在多年。自然而然的问题是：检索增强与长上下文窗口，哪个对下游任务更好？这两种方法可以结合起来以兼顾利弊吗？在这项工作中，我们使用两个最先进的预训练LLM（即一个私有的43B GPT和Llama2-70B）来研究这两种解决方案。也许令人惊讶的是，我们发现在长上下文任务中，LLM使用4K上下文窗口并通过简单的检索增强在生成时可以达到与通过长上下文窗口进行位置插值的微调LLM使用16K上下文窗口相当的性能，同时计算量要少得多。更重要的是，我们证明了不论其扩展的上下文窗口大小如何，检索都可以显著提高LLM的性能。我们最好的模型是具有32K上下文窗口的检索增强Llama2-70B。"
+
+    Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and Llama2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmentation at generation can achieve comparable performance to finetuned LLM with 16K context window via positional interpolation on long context tasks, while taking much less computation. More importantly, we demonstrate that retrieval can significantly improve the performance of LLMs regardless of their extended context window sizes. Our best model, retrieval-augmented Llama2-70B with 32K context wi
+    
+[^17]: 评估指标到底有多少自由度？
+
+    How Much Freedom Does An Effectiveness Metric Really Have?. (arXiv:2309.09477v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2309.09477](http://arxiv.org/abs/2309.09477)
+
+    本文研究了评估指标对搜索引擎结果页面（SERP）的自由度，并发现了固有的 SERP 对排序关系约束。该研究认为这种关系约束应该应用于信息检索实验中，并提出了一种新的测量范式。
+
+    
+
+    人们常常误以为，由于评估指标对搜索引擎结果页面（SERP）可以自由选择分数，因此对于 SERP 对的相对顺序也有类似的自由度。事实上，在很大程度上，这种第二类自由度是虚幻的。这是因为如果对于一对 SERP 中的一个已经被评估指标给予了特定的分数，许多情况下基本的排序约束则决定了对于第二个 SERP 的分数要么不小于，要么不大于给予第一个 SERP 的分数。我们将这种固定的关系称之为固有的 SERP 对排序。本文的第一个目标是描述和辩护这些 SERP 对关系约束，并通过详尽和经验性的实验来统计它们的相对发生情况。然后，我们考虑如何在信息检索实验中应用这些固有的 SERP 对关系，从而提出了一种新的测量范式。
+
+    It is tempting to assume that because effectiveness metrics have free choice to assign scores to search engine result pages (SERPs) there must thus be a similar degree of freedom as to the relative order that SERP pairs can be put into. In fact that second freedom is, to a considerable degree, illusory. That's because if one SERP in a pair has been given a certain score by a metric, fundamental ordering constraints in many cases then dictate that the score for the second SERP must be either not less than, or not greater than, the score assigned to the first SERP. We refer to these fixed relationships as innate pairwise SERP orderings. Our first goal in this work is to describe and defend those pairwise SERP relationship constraints, and tabulate their relative occurrence via both exhaustive and empirical experimentation.  We then consider how to employ such innate pairwise relationships in IR experiments, leading to a proposal for a new measurement paradigm. Specifically, we argue that
+    
+[^18]: SynthTab: 利用合成数据进行吉他谱转录
+
+    SynthTab: Leveraging Synthesized Data for Guitar Tablature Transcription. (arXiv:2309.09085v2 [cs.SD] UPDATED)
+
+    [http://arxiv.org/abs/2309.09085](http://arxiv.org/abs/2309.09085)
+
+    SynthTab是一个利用合成数据的大规模吉他谱转录数据集，解决了现有数据集规模有限的问题，并通过合成音频保持了原始指法、风格和技巧的相符性。
+
+    
+
+    吉他谱是吉他手广泛使用的一种音乐符号。它不仅捕捉了一首乐曲的音乐内容，还包括了在乐器上的实施和装饰。吉他谱转录（GTT）是一项重要的任务，在音乐教育和娱乐领域有广泛应用。现有的数据集在规模和范围上都有限，导致基于这些数据集训练的最先进的GTT模型容易过拟合，并且在跨数据集的泛化中失败。为解决这个问题，我们开发了一种方法来合成SynthTab，这是一个利用多个商用吉他插件合成的大规模吉他谱转录数据集。该数据集基于DadaGP的吉他谱构建，DadaGP提供了我们希望转录的吉他谱的庞大收藏和特定程度。所提出的合成流程可产生与原始指法、风格和技巧在音色上相符的音频。
+
+    Guitar tablature is a form of music notation widely used among guitarists. It captures not only the musical content of a piece, but also its implementation and ornamentation on the instrument. Guitar Tablature Transcription (GTT) is an important task with broad applications in music education and entertainment. Existing datasets are limited in size and scope, causing state-of-the-art GTT models trained on such datasets to suffer from overfitting and to fail in generalization across datasets. To address this issue, we developed a methodology for synthesizing SynthTab, a large-scale guitar tablature transcription dataset using multiple commercial acoustic and electric guitar plugins. This dataset is built on tablatures from DadaGP, which offers a vast collection and the degree of specificity we wish to transcribe. The proposed synthesis pipeline produces audio which faithfully adheres to the original fingerings, styles, and techniques specified in the tablature with diverse timbre. Exper
+    
+[^19]: 基于图神经网络的边缘预测中细化边缘使用方法
+
+    Refined Edge Usage of Graph Neural Networks for Edge Prediction. (arXiv:2212.12970v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2212.12970](http://arxiv.org/abs/2212.12970)
+
+    这项研究提出了一种新的边缘预测范式（EMPIRE），通过细化边缘使用方法解决了节点分类任务和边缘预测任务之间的区别。该方法引入了边缘拆分技术和新的消息传递机制，以更好地利用边缘的拓扑结构和监督信号。
+
+    
+
+    图神经网络（GNNs）最初用于节点分类，也激发了许多关于边缘预测（即链路预测）的最新研究。然而，现有方法在关于这两个任务的区别方面缺乏精细的设计，这一点常常被忽视：（i）对于节点分类任务而言，边仅构成拓扑结构，但在边缘预测任务中既可以作为拓扑结构，也可以作为监督信号（即标签）；（ii）节点分类是对每个节点进行预测，而边缘预测则由每对节点决定。为此，我们提出了一种称为边缘感知消息传递神经网络（EMPIRE）的新型边缘预测范式。具体而言，我们首先引入一种边缘拆分技术来指定每个边的使用方式，其中每个边仅用作拓扑结构或监督信号（分别称为拓扑边或监督边）。然后，我们开发了一种新的消息传递机制，生成消息的传递的过程。
+
+    Graph Neural Networks (GNNs), originally proposed for node classification, have also motivated many recent works on edge prediction (a.k.a., link prediction). However, existing methods lack elaborate design regarding the distinctions between two tasks that have been frequently overlooked: (i) edges only constitute the topology in the node classification task but can be used as both the topology and the supervisions (i.e., labels) in the edge prediction task; (ii) the node classification makes prediction over each individual node, while the edge prediction is determinated by each pair of nodes. To this end, we propose a novel edge prediction paradigm named Edge-aware Message PassIng neuRal nEtworks (EMPIRE). Concretely, we first introduce an edge splitting technique to specify use of each edge where each edge is solely used as either the topology or the supervision (named as topology edge or supervision edge). We then develop a new message passing mechanism that generates the messages t
     
 

@@ -1,0 +1,11 @@
+{
+    "title": "Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization. (arXiv:2401.06980v1 [cs.CL] CROSS LISTED)",
+    "abstract": "In this paper, we present a novel bilevel optimization-based training approach to training acoustic models for automatic speech recognition (ASR) tasks that we term {bi-level joint unsupervised and supervised training (BL-JUST)}. {BL-JUST employs a lower and upper level optimization with an unsupervised loss and a supervised loss respectively, leveraging recent advances in penalty-based bilevel optimization to solve this challenging ASR problem with affordable complexity and rigorous convergence guarantees.} To evaluate BL-JUST, extensive experiments on the LibriSpeech and TED-LIUM v2 datasets have been conducted. BL-JUST achieves superior performance over the commonly used pre-training followed by fine-tuning strategy.",
+    "link": "http://arxiv.org/abs/2401.06980",
+    "context": "Title: Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization. (arXiv:2401.06980v1 [cs.CL] CROSS LISTED)\nAbstract: In this paper, we present a novel bilevel optimization-based training approach to training acoustic models for automatic speech recognition (ASR) tasks that we term {bi-level joint unsupervised and supervised training (BL-JUST)}. {BL-JUST employs a lower and upper level optimization with an unsupervised loss and a supervised loss respectively, leveraging recent advances in penalty-based bilevel optimization to solve this challenging ASR problem with affordable complexity and rigorous convergence guarantees.} To evaluate BL-JUST, extensive experiments on the LibriSpeech and TED-LIUM v2 datasets have been conducted. BL-JUST achieves superior performance over the commonly used pre-training followed by fine-tuning strategy.",
+    "path": "papers/24/01/2401.06980.json",
+    "total_tokens": 699,
+    "translated_title": "通过双层优化进行联合无监督和监督训练的自动语音识别方法",
+    "translated_abstract": "本文提出了一种新颖的基于双层优化的训练方法，用于自动语音识别（ASR）任务中的声学模型训练，我们称之为“双层联合无监督和监督训练（BL-JUST）”。BL-JUST采用下层和上层优化，分别使用无监督损失和监督损失，利用最近在惩罚型双层优化方面取得的进展来解决这一具有可承受复杂度和严格收敛性保证的挑战性ASR问题。",
+    "tldr": "本文提出了一种双层优化的训练方法，用于自动语音识别，通过联合无监督和监督训练来提高性能。"
+}

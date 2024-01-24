@@ -1,0 +1,12 @@
+{
+    "title": "Patience ensures fairness. (arXiv:2311.06092v2 [econ.TH] UPDATED)",
+    "abstract": "We revisit the problem of fairly allocating a sequence of time slots when agents may have different levels of patience (Mackenzie and Komornik, 2023). For each number of agents, we provide a lower threshold and an upper threshold on the level of patience such that (i) if each agent is at least as patient as the lower threshold, then there is a proportional allocation, and (ii) if each agent is at least as patient as the upper threshold and moreover has weak preference for earlier time slots, then there is an envy-free allocation. In both cases, the proof is constructive.",
+    "link": "http://arxiv.org/abs/2311.06092",
+    "context": "Title: Patience ensures fairness. (arXiv:2311.06092v2 [econ.TH] UPDATED)\nAbstract: We revisit the problem of fairly allocating a sequence of time slots when agents may have different levels of patience (Mackenzie and Komornik, 2023). For each number of agents, we provide a lower threshold and an upper threshold on the level of patience such that (i) if each agent is at least as patient as the lower threshold, then there is a proportional allocation, and (ii) if each agent is at least as patient as the upper threshold and moreover has weak preference for earlier time slots, then there is an envy-free allocation. In both cases, the proof is constructive.",
+    "path": "papers/23/11/2311.06092.json",
+    "total_tokens": 683,
+    "translated_title": "耐心确保公平性",
+    "translated_abstract": "我们重温了当代理人可能具有不同耐心水平时公平分配时间段的问题（Mackenzie和Komornik，2023）。对于每个代理人数量，我们提供了耐心水平的下限和上限，使得（i）如果每个代理人的耐心水平至少达到下限，则存在比例分配；（ii）如果每个代理人的耐心水平至少达到上限，并且对较早的时间段有弱偏好，则存在无嫉妒分配。在两种情况下，证明是具体的。",
+    "tldr": "这篇论文研究了在代理人可能具有不同耐心水平的情况下，如何公平分配一系列时间段。研究结果给出了耐心水平的下限和上限，使得能够实现比例分配和无嫉妒分配。",
+    "en_tdlr": "This paper explores how to fairly allocate a sequence of time slots when agents may have different levels of patience. The study provides lower and upper thresholds on the level of patience for each number of agents, ensuring proportional allocation and envy-free allocation respectively."
+}

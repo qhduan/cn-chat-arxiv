@@ -1,0 +1,12 @@
+{
+    "title": "Gas trap prediction from 3D seismic and well test data using machine learning. (arXiv:2401.12717v1 [physics.geo-ph])",
+    "abstract": "The aim of this work is to create and apply a methodological approach for predicting gas traps from 3D seismic data and gas well testing. The paper formalizes the approach to creating a training dataset by selecting volumes with established gas saturation and filtration properties within the seismic wavefield. The training dataset thus created is used in a process stack of sequential application of data processing methods and ensemble machine learning algorithms. As a result, a cube of calibrated probabilities of belonging of the study space to gas reservoirs was obtained. The high efficiency of this approach is shown on a delayed test sample of three wells (blind wells). The final value of the gas reservoir prediction quality metric f1 score was 0.893846.",
+    "link": "http://arxiv.org/abs/2401.12717",
+    "context": "Title: Gas trap prediction from 3D seismic and well test data using machine learning. (arXiv:2401.12717v1 [physics.geo-ph])\nAbstract: The aim of this work is to create and apply a methodological approach for predicting gas traps from 3D seismic data and gas well testing. The paper formalizes the approach to creating a training dataset by selecting volumes with established gas saturation and filtration properties within the seismic wavefield. The training dataset thus created is used in a process stack of sequential application of data processing methods and ensemble machine learning algorithms. As a result, a cube of calibrated probabilities of belonging of the study space to gas reservoirs was obtained. The high efficiency of this approach is shown on a delayed test sample of three wells (blind wells). The final value of the gas reservoir prediction quality metric f1 score was 0.893846.",
+    "path": "papers/24/01/2401.12717.json",
+    "total_tokens": 710,
+    "translated_title": "使用机器学习从三维地震和井测试数据中预测气体圈闭",
+    "translated_abstract": "本文旨在创建和应用一种方法论的方法，通过选择具有已建立的气体饱和度和过滤特性的体积来预测气体圈闭。该论文将创建的训练数据集用于数据处理方法和集成机器学习算法的顺序应用过程堆栈中。结果得到了一个校准的可能属于气田的研究空间的概率立方体。该方法的高效性在三口盲井的延迟测试样本上得到了展示。气体储层预测质量度量f1得分的最终值为0.893846.",
+    "tldr": "本文通过选择具有已建立的气体饱和度和过滤特性的体积，使用数据处理方法和机器学习算法预测气体圈闭，并取得了高效的结果。",
+    "en_tdlr": "This paper predicts gas traps by selecting volumes with established gas saturation and filtration properties using data processing methods and machine learning algorithms, achieving efficient results."
+}
