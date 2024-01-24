@@ -6,21 +6,22 @@
 | [^2] | [CDRNP: Cross-Domain Recommendation to Cold-Start Users via Neural Process.](http://arxiv.org/abs/2401.12732) | CDRNP是一种通过神经网络将用户表示从源领域转移到目标领域，解决用户冷启动问题的跨领域推荐方法。 |
 | [^3] | [MOReGIn: Multi-Objective Recommendation at the Global and Individual Levels.](http://arxiv.org/abs/2401.12593) | MOReGIn是一种多目标推荐系统，可以同时在全局和个体层面上满足多个目标。通过调节推荐列表，MORS可以保证推荐的流派校准和供应商公平性。验证实验表明了该方法的有效性。 |
 | [^4] | [PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering.](http://arxiv.org/abs/2401.12590) | PolyCF是一个灵活的图信号滤波器，通过多项式图过滤器处理交互信号，能够捕捉多个特征空间中的谱特征，并近似恢复丢失的交互，旨在实现最优的协同过滤。 |
-| [^5] | [DREditor: An Time-efficient Approach for Building a Domain-specific Dense Retrieval Model.](http://arxiv.org/abs/2401.12540) | DREditor是一种时间高效的方法，通过直接校准现有的密集检索模型的输出嵌入，使用线性映射和编辑操作符来编辑匹配规则，以提高特定领域的检索效率。 |
-| [^6] | [Key Information Retrieval to Classify the Unstructured Data Content of Preferential Trade Agreements.](http://arxiv.org/abs/2401.12520) | 本论文介绍了一种用于长文本分类和预测的新方法，通过嵌入技术对长文本进行压缩，然后采用双向编码器表示来自Transformers的嵌入方法进行文本分类训练，实验结果显示在优惠贸易协定的长文本分类方面取得了显著的性能提升。 |
-| [^7] | [Persona-centric Metamorphic Relation guided Robustness Evaluation for Multi-turn Dialogue Modelling.](http://arxiv.org/abs/2401.12483) | 本研究介绍了一种基于角色的变态关系构建方法，用于对多轮对话建模进行鲁棒性评估。这种方法通过变态测试来评估对话系统的个性一致性和对话长时间维持性之间的关系。 |
-| [^8] | [Session-level Normalization and Click-through Data Enhancement for Session-based Evaluation.](http://arxiv.org/abs/2401.12445) | 本研究针对会话级别的搜索系统评估，提出了会话级归一化和点击数据增强的方法。传统方法中会话级指标的假设可能不符合实际情况，本文考虑了用户满意度和隐式反馈的影响。 |
-| [^9] | [Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup.](http://arxiv.org/abs/2401.12228) | 本研究通过多层网络方法对2022年卡塔尔世界杯的200万条推文进行了全面分析，可视化了主要主题的演变，考虑了上下文和意义关系。 |
-| [^10] | [In-context Learning with Retrieved Demonstrations for Language Models: A Survey.](http://arxiv.org/abs/2401.11624) | 本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。 |
-| [^11] | [D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems.](http://arxiv.org/abs/2401.11478) | D2K提出了一个以数据为中心的框架，将大量用户行为数据转化为可检索的知识，用于推荐系统。与传统的将知识存储在模型参数中的方法不同，D2K存储的是由用户、物品和背景构成的完整的推荐因素，从而具有更好的可扩展性和灵活性。 |
-| [^12] | [ChatQA: Building GPT-4 Level Conversational QA Models.](http://arxiv.org/abs/2401.10225) | ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。 |
-| [^13] | [Preference and Concurrence Aware Bayesian Graph Neural Networks for Recommender Systems.](http://arxiv.org/abs/2312.11486) | 本文提出了一个偏好和并发感知的贝叶斯图神经网络框架用于解决推荐系统中的问题，通过生成模型和关注图结构信息来捕捉用户与物品的高阶信息，实验证明了其有效性。 |
-| [^14] | [GraphPro: Graph Pre-training and Prompt Learning for Recommendation.](http://arxiv.org/abs/2311.16716) | GraphPro是一个结合了参数高效和动态图预训练与提示学习的框架，能够有效捕捉长期用户偏好和短期行为动态，从而在真实世界的推荐系统中提供准确和及时的推荐。 |
-| [^15] | [Unlock Multi-Modal Capability of Dense Retrieval via Visual Module Plugin.](http://arxiv.org/abs/2310.14037) | 本文介绍了一种名为MARVEL的多模态检索模型，通过视觉模块插件为密集检索器添加图像理解能力，并且在多模态检索任务中取得了显著优于最先进方法的结果。 |
-| [^16] | [Retrieval meets Long Context Large Language Models.](http://arxiv.org/abs/2310.03025) | "本论文研究了将检索增强和长上下文窗口的大语言模型相结合的解决方案，发现在长上下文任务中，通过检索增强的LLM使用4K上下文窗口可以取得与通过长上下文窗口微调的LLM使用16K上下文窗口相当的性能，同时计算量要少得多。此外，无论上下文窗口大小如何，检索都可以显著提高LLM的性能。" |
-| [^17] | [How Much Freedom Does An Effectiveness Metric Really Have?.](http://arxiv.org/abs/2309.09477) | 本文研究了评估指标对搜索引擎结果页面（SERP）的自由度，并发现了固有的 SERP 对排序关系约束。该研究认为这种关系约束应该应用于信息检索实验中，并提出了一种新的测量范式。 |
-| [^18] | [SynthTab: Leveraging Synthesized Data for Guitar Tablature Transcription.](http://arxiv.org/abs/2309.09085) | SynthTab是一个利用合成数据的大规模吉他谱转录数据集，解决了现有数据集规模有限的问题，并通过合成音频保持了原始指法、风格和技巧的相符性。 |
-| [^19] | [Refined Edge Usage of Graph Neural Networks for Edge Prediction.](http://arxiv.org/abs/2212.12970) | 这项研究提出了一种新的边缘预测范式（EMPIRE），通过细化边缘使用方法解决了节点分类任务和边缘预测任务之间的区别。该方法引入了边缘拆分技术和新的消息传递机制，以更好地利用边缘的拓扑结构和监督信号。 |
+| [^5] | [InfoRank: Unbiased Learning-to-Rank via Conditional Mutual Information Minimization.](http://arxiv.org/abs/2401.12553) | InfoRank是一种无偏的学习-排序范式，通过最小化以输入特征为条件的观测估计和相关估计之间的互信息来实现偏差-free 的相关估计。 |
+| [^6] | [DREditor: An Time-efficient Approach for Building a Domain-specific Dense Retrieval Model.](http://arxiv.org/abs/2401.12540) | DREditor是一种时间高效的方法，通过直接校准现有的密集检索模型的输出嵌入，使用线性映射和编辑操作符来编辑匹配规则，以提高特定领域的检索效率。 |
+| [^7] | [Key Information Retrieval to Classify the Unstructured Data Content of Preferential Trade Agreements.](http://arxiv.org/abs/2401.12520) | 本论文介绍了一种用于长文本分类和预测的新方法，通过嵌入技术对长文本进行压缩，然后采用双向编码器表示来自Transformers的嵌入方法进行文本分类训练，实验结果显示在优惠贸易协定的长文本分类方面取得了显著的性能提升。 |
+| [^8] | [Persona-centric Metamorphic Relation guided Robustness Evaluation for Multi-turn Dialogue Modelling.](http://arxiv.org/abs/2401.12483) | 本研究介绍了一种基于角色的变态关系构建方法，用于对多轮对话建模进行鲁棒性评估。这种方法通过变态测试来评估对话系统的个性一致性和对话长时间维持性之间的关系。 |
+| [^9] | [Session-level Normalization and Click-through Data Enhancement for Session-based Evaluation.](http://arxiv.org/abs/2401.12445) | 本研究针对会话级别的搜索系统评估，提出了会话级归一化和点击数据增强的方法。传统方法中会话级指标的假设可能不符合实际情况，本文考虑了用户满意度和隐式反馈的影响。 |
+| [^10] | [Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup.](http://arxiv.org/abs/2401.12228) | 本研究通过多层网络方法对2022年卡塔尔世界杯的200万条推文进行了全面分析，可视化了主要主题的演变，考虑了上下文和意义关系。 |
+| [^11] | [In-context Learning with Retrieved Demonstrations for Language Models: A Survey.](http://arxiv.org/abs/2401.11624) | 本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。 |
+| [^12] | [D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems.](http://arxiv.org/abs/2401.11478) | D2K提出了一个以数据为中心的框架，将大量用户行为数据转化为可检索的知识，用于推荐系统。与传统的将知识存储在模型参数中的方法不同，D2K存储的是由用户、物品和背景构成的完整的推荐因素，从而具有更好的可扩展性和灵活性。 |
+| [^13] | [ChatQA: Building GPT-4 Level Conversational QA Models.](http://arxiv.org/abs/2401.10225) | ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。 |
+| [^14] | [Preference and Concurrence Aware Bayesian Graph Neural Networks for Recommender Systems.](http://arxiv.org/abs/2312.11486) | 本文提出了一个偏好和并发感知的贝叶斯图神经网络框架用于解决推荐系统中的问题，通过生成模型和关注图结构信息来捕捉用户与物品的高阶信息，实验证明了其有效性。 |
+| [^15] | [GraphPro: Graph Pre-training and Prompt Learning for Recommendation.](http://arxiv.org/abs/2311.16716) | GraphPro是一个结合了参数高效和动态图预训练与提示学习的框架，能够有效捕捉长期用户偏好和短期行为动态，从而在真实世界的推荐系统中提供准确和及时的推荐。 |
+| [^16] | [Unlock Multi-Modal Capability of Dense Retrieval via Visual Module Plugin.](http://arxiv.org/abs/2310.14037) | 本文介绍了一种名为MARVEL的多模态检索模型，通过视觉模块插件为密集检索器添加图像理解能力，并且在多模态检索任务中取得了显著优于最先进方法的结果。 |
+| [^17] | [Retrieval meets Long Context Large Language Models.](http://arxiv.org/abs/2310.03025) | "本论文研究了将检索增强和长上下文窗口的大语言模型相结合的解决方案，发现在长上下文任务中，通过检索增强的LLM使用4K上下文窗口可以取得与通过长上下文窗口微调的LLM使用16K上下文窗口相当的性能，同时计算量要少得多。此外，无论上下文窗口大小如何，检索都可以显著提高LLM的性能。" |
+| [^18] | [How Much Freedom Does An Effectiveness Metric Really Have?.](http://arxiv.org/abs/2309.09477) | 本文研究了评估指标对搜索引擎结果页面（SERP）的自由度，并发现了固有的 SERP 对排序关系约束。该研究认为这种关系约束应该应用于信息检索实验中，并提出了一种新的测量范式。 |
+| [^19] | [SynthTab: Leveraging Synthesized Data for Guitar Tablature Transcription.](http://arxiv.org/abs/2309.09085) | SynthTab是一个利用合成数据的大规模吉他谱转录数据集，解决了现有数据集规模有限的问题，并通过合成音频保持了原始指法、风格和技巧的相符性。 |
+| [^20] | [Refined Edge Usage of Graph Neural Networks for Edge Prediction.](http://arxiv.org/abs/2212.12970) | 这项研究提出了一种新的边缘预测范式（EMPIRE），通过细化边缘使用方法解决了节点分类任务和边缘预测任务之间的区别。该方法引入了边缘拆分技术和新的消息传递机制，以更好地利用边缘的拓扑结构和监督信号。 |
 
 # 详细
 
@@ -80,7 +81,21 @@
 
     Collaborative Filtering (CF) is a pivotal research area in recommender systems that capitalizes on collaborative similarities between users and items to provide personalized recommendations. With the remarkable achievements of node embedding-based Graph Neural Networks (GNNs), we explore the upper bounds of expressiveness inherent to embedding-based methodologies and tackle the challenges by reframing the CF task as a graph signal processing problem. To this end, we propose PolyCF, a flexible graph signal filter that leverages polynomial graph filters to process interaction signals. PolyCF exhibits the capability to capture spectral features across multiple eigenspaces through a series of Generalized Gram filters and is able to approximate the optimal polynomial response function for recovering missing interactions. A graph optimization objective and a pair-wise ranking objective are jointly used to optimize the parameters of the convolution kernel. Experiments on three widely adopted 
     
-[^5]: DREditor:一种用于构建特定领域密集检索模型的时间高效方法
+[^5]: InfoRank：通过条件互信息最小化实现无偏的学习-排序
+
+    InfoRank: Unbiased Learning-to-Rank via Conditional Mutual Information Minimization. (arXiv:2401.12553v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.12553](http://arxiv.org/abs/2401.12553)
+
+    InfoRank是一种无偏的学习-排序范式，通过最小化以输入特征为条件的观测估计和相关估计之间的互信息来实现偏差-free 的相关估计。
+
+    
+
+    对个别用户兴趣进行排序是多种下游任务（如推荐系统）的核心技术。学习这样的个性化排序器通常依赖于用户过去的点击行为的隐式反馈。然而，收集到的反馈对先前排名较高的项目存在偏见，直接从中学习会导致“富者愈富”的现象。在本文中，我们提出了一个简单但足够的无偏学习-排序范式，名为InfoRank，旨在同时解决位置和流行度偏见。我们首先将这些偏差的影响整合到一个单一的观察因子中，从而为解决与偏见相关的问题提供了统一的方法。随后，我们通过最小化以输入特征为条件的观测估计和相关估计之间的互信息来实现偏差-free 的相关估计。为了实现InfoRank，我们首先融入一个
+
+    Ranking items regarding individual user interests is a core technique of multiple downstream tasks such as recommender systems. Learning such a personalized ranker typically relies on the implicit feedback from users' past click-through behaviors. However, collected feedback is biased toward previously highly-ranked items and directly learning from it would result in a "rich-get-richer" phenomenon. In this paper, we propose a simple yet sufficient unbiased learning-to-rank paradigm named InfoRank that aims to simultaneously address both position and popularity biases. We begin by consolidating the impacts of those biases into a single observation factor, thereby providing a unified approach to addressing bias-related issues. Subsequently, we minimize the mutual information between the observation estimation and the relevance estimation conditioned on the input features. By doing so, our relevance estimation can be proved to be free of bias. To implement InfoRank, we first incorporate a
+    
+[^6]: DREditor:一种用于构建特定领域密集检索模型的时间高效方法
 
     DREditor: An Time-efficient Approach for Building a Domain-specific Dense Retrieval Model. (arXiv:2401.12540v1 [cs.IR])
 
@@ -94,7 +109,7 @@
 
     Deploying dense retrieval models efficiently is becoming increasingly important across various industries. This is especially true for enterprise search services, where customizing search engines to meet the time demands of different enterprises in different domains is crucial. Motivated by this, we develop a time-efficient approach called DREditor to edit the matching rule of an off-the-shelf dense retrieval model to suit a specific domain. This is achieved by directly calibrating the output embeddings of the model using an efficient and effective linear mapping. This mapping is powered by an edit operator that is obtained by solving a specially constructed least squares problem. Compared to implicit rule modification via long-time finetuning, our experimental results show that DREditor provides significant advantages on different domain-specific datasets, dataset sources, retrieval models, and computing devices. It consistently enhances time efficiency by 100-300 times while maintain
     
-[^6]: 对优惠贸易协定的非结构化数据内容进行关键信息检索的研究
+[^7]: 对优惠贸易协定的非结构化数据内容进行关键信息检索的研究
 
     Key Information Retrieval to Classify the Unstructured Data Content of Preferential Trade Agreements. (arXiv:2401.12520v1 [cs.CL])
 
@@ -108,7 +123,7 @@
 
     With the rapid proliferation of textual data, predicting long texts has emerged as a significant challenge in the domain of natural language processing. Traditional text prediction methods encounter substantial difficulties when grappling with long texts, primarily due to the presence of redundant and irrelevant information, which impedes the model's capacity to capture pivotal insights from the text. To address this issue, we introduce a novel approach to long-text classification and prediction. Initially, we employ embedding techniques to condense the long texts, aiming to diminish the redundancy therein. Subsequently,the Bidirectional Encoder Representations from Transformers (BERT) embedding method is utilized for text classification training. Experimental outcomes indicate that our method realizes considerable performance enhancements in classifying long texts of Preferential Trade Agreements. Furthermore, the condensation of text through embedding methods not only augments predic
     
-[^7]: 基于角色的变态关系引导多轮对话建模的鲁棒性评估
+[^8]: 基于角色的变态关系引导多轮对话建模的鲁棒性评估
 
     Persona-centric Metamorphic Relation guided Robustness Evaluation for Multi-turn Dialogue Modelling. (arXiv:2401.12483v1 [cs.IR])
 
@@ -122,7 +137,7 @@
 
     Recently there has been significant progress in the field of dialogue system thanks to the introduction of training paradigms such as fine-tune and prompt learning. Persona can function as the prior knowledge for maintaining the personality consistency of dialogue systems, which makes it perform well on accuracy. Nonetheless, the conventional reference-based evaluation method falls short in capturing the genuine text comprehension prowess of the model, significantly relying on the quality of data annotation. In contrast, the application of metamorphic testing offers a more profound insight into the model's distinct capabilities without necessitating supplementary annotation labels. This approach furnishes a more comprehensive portrayal of the model's intricacies and exposes intricacies concealed within reference-based validation techniques. Consequently, we introduce a persona-centric metamorphic relation construction for metamorphic testing, aimed at evaluating both the persona consis
     
-[^8]: 会话级归一化和点击数据增强对于会话评估的应用
+[^9]: 会话级归一化和点击数据增强对于会话评估的应用
 
     Session-level Normalization and Click-through Data Enhancement for Session-based Evaluation. (arXiv:2401.12445v1 [cs.IR])
 
@@ -136,7 +151,7 @@
 
     Since a user usually has to issue a sequence of queries and examine multiple documents to resolve a complex information need in a search session, researchers have paid much attention to evaluating search systems at the session level rather than the single-query level. Most existing session-level metrics evaluate each query separately and then aggregate the query-level scores using a session-level weighting function. The assumptions behind these metrics are that all queries in the session should be involved, and their orders are fixed. However, if a search system could make the user satisfied with her first few queries, she may not need any subsequent queries. Besides, in most real-world search scenarios, due to a lack of explicit feedback from real users, we can only leverage some implicit feedback, such as users' clicks, as relevance labels for offline evaluation. Such implicit feedback might be different from the real relevance in a search session as some documents may be omitted in 
     
-[^9]: 通过多层网络分析演变的主题；分析2022年卡塔尔世界杯的200万条推文
+[^10]: 通过多层网络分析演变的主题；分析2022年卡塔尔世界杯的200万条推文
 
     Topics evolution through multilayer networks; Analysing 2M tweets from 2022 Qatar FIFA World Cup. (arXiv:2401.12228v1 [cs.SI])
 
@@ -150,7 +165,7 @@
 
     In this study, we conducted a comprehensive data collection on the 2022 Qatar FIFA World Cup event and used a multilayer network approach to visualize the main topics, while considering their context and meaning relationships. We structured the data into layers that corresponded with the stages of the tournament and utilized Gephi software to generate the multilayer networks. Our visualizations displayed both the relationships between topics and words, showing the word-context relationship, as well as the dynamics and changes over time by layer of the most frequently discussed topics.
     
-[^10]: 通过检索示范进行上下文学习的语言模型：一项综述
+[^11]: 通过检索示范进行上下文学习的语言模型：一项综述
 
     In-context Learning with Retrieved Demonstrations for Language Models: A Survey. (arXiv:2401.11624v2 [cs.CL] UPDATED)
 
@@ -164,7 +179,7 @@
 
     Language models, especially pre-trained large language models, have showcased remarkable abilities as few-shot in-context learners (ICL), adept at adapting to new tasks with just a few demonstrations in the input context. However, the model's ability to perform ICL is sensitive to the choice of the few-shot demonstrations. Instead of using a fixed set of demonstrations, one recent development is to retrieve demonstrations tailored to each input query. The implementation of demonstration retrieval is relatively straightforward, leveraging existing databases and retrieval systems. This not only improves the efficiency and scalability of the learning process but also has been shown to reduce biases inherent in manual example selection. In light of the encouraging results and growing research in ICL with retrieved demonstrations, we conduct an extensive review of studies in this area. In this survey, we discuss and compare different design choices for retrieval models, retrieval training p
     
-[^11]: D2K: 将历史数据转化为可检索的知识，用于推荐系统
+[^12]: D2K: 将历史数据转化为可检索的知识，用于推荐系统
 
     D2K: Turning Historical Data into Retrievable Knowledge for Recommender Systems. (arXiv:2401.11478v2 [cs.IR] UPDATED)
 
@@ -178,7 +193,7 @@
 
     A vast amount of user behavior data is constantly accumulating on today's large recommendation platforms, recording users' various interests and tastes. Preserving knowledge from the old data while new data continually arrives is a vital problem for recommender systems. Existing approaches generally seek to save the knowledge implicitly in the model parameters. However, such a parameter-centric approach lacks scalability and flexibility -- the capacity is hard to scale, and the knowledge is inflexible to utilize. Hence, in this work, we propose a framework that turns massive user behavior data to retrievable knowledge (D2K). It is a data-centric approach that is model-agnostic and easy to scale up. Different from only storing unary knowledge such as the user-side or item-side information, D2K propose to store ternary knowledge for recommendation, which is determined by the complete recommendation factors -user, item, and context. The knowledge retrieved by target samples can be direc
     
-[^12]: ChatQA: 构建GPT-4级对话问答模型
+[^13]: ChatQA: 构建GPT-4级对话问答模型
 
     ChatQA: Building GPT-4 Level Conversational QA Models. (arXiv:2401.10225v1 [cs.CL])
 
@@ -192,7 +207,7 @@
 
     In this work, we introduce ChatQA, a family of conversational question answering (QA) models, that obtain GPT-4 level accuracies. Specifically, we propose a two-stage instruction tuning method that can significantly improve the zero-shot conversational QA results from large language models (LLMs). To handle retrieval in conversational QA, we fine-tune a dense retriever on a multi-turn QA dataset, which provides comparable results to using the state-of-the-art query rewriting model while largely reducing deployment cost. Notably, our ChatQA-70B can outperform GPT-4 in terms of average score on 10 conversational QA datasets (54.14 vs. 53.90), without relying on any synthetic data from OpenAI GPT models.
     
-[^13]: 偏好和并发感知的贝叶斯图神经网络用于推荐系统
+[^14]: 偏好和并发感知的贝叶斯图神经网络用于推荐系统
 
     Preference and Concurrence Aware Bayesian Graph Neural Networks for Recommender Systems. (arXiv:2312.11486v2 [cs.IR] UPDATED)
 
@@ -206,7 +221,7 @@
 
     Graph-based collaborative filtering methods have prevailing performance for recommender systems since they can capture high-order information between users and items, in which the graphs are constructed from the observed user-item interactions that might miss links or contain spurious positive interactions in industrial scenarios. The Bayesian Graph Neural Network framework approaches this issue with generative models for the interaction graphs. The critical problem is to devise a proper family of graph generative models tailored to recommender systems. We propose an efficient generative model that jointly considers the preferences of users, the concurrence of items and some important graph structure information. Experiments on four popular benchmark datasets demonstrate the effectiveness of our proposed graph generative methods for recommender systems.
     
-[^14]: GraphPro: 面向推荐系统的图预训练和提示学习
+[^15]: GraphPro: 面向推荐系统的图预训练和提示学习
 
     GraphPro: Graph Pre-training and Prompt Learning for Recommendation. (arXiv:2311.16716v3 [cs.IR] UPDATED)
 
@@ -220,7 +235,7 @@
 
     GNN-based recommenders have excelled in modeling intricate user-item interactions through multi-hop message passing. However, existing methods often overlook the dynamic nature of evolving user-item interactions, which impedes the adaption to changing user preferences and distribution shifts in newly arriving data. Thus, their scalability and performances in real-world dynamic environments are limited. In this study, we propose GraphPro, a framework that incorporates parameter-efficient and dynamic graph pre-training with prompt learning. This novel combination empowers GNNs to effectively capture both long-term user preferences and short-term behavior dynamics, enabling the delivery of accurate and timely recommendations. Our GraphPro framework addresses the challenge of evolving user preferences by seamlessly integrating a temporal prompt mechanism and a graph-structural prompt learning mechanism into the pre-trained GNN model. The temporal prompt mechanism encodes time information o
     
-[^15]: 通过视觉模块插件解锁密集检索的多模态能力
+[^16]: 通过视觉模块插件解锁密集检索的多模态能力
 
     Unlock Multi-Modal Capability of Dense Retrieval via Visual Module Plugin. (arXiv:2310.14037v2 [cs.IR] UPDATED)
 
@@ -234,7 +249,7 @@
 
     This paper proposes Multi-modAl Retrieval model via Visual modulE pLugin (MARVEL) to learn an embedding space for queries and multi-modal documents to conduct retrieval. MARVEL encodes queries and multi-modal documents with a unified encoder model, which helps to alleviate the modality gap between images and texts. Specifically, we enable the image understanding ability of a well-trained dense retriever, T5-ANCE, by incorporating the image features encoded by the visual module as its inputs. To facilitate the multi-modal retrieval tasks, we build the ClueWeb22-MM dataset based on the ClueWeb22 dataset, which regards anchor texts as queries, and exact the related texts and image documents from anchor linked web pages. Our experiments show that MARVEL significantly outperforms the state-of-the-art methods on the multi-modal retrieval dataset WebQA and ClueWeb22-MM. Our further analyses show that the visual module plugin method is tailored to enable the image understanding ability for an 
     
-[^16]: "检索遇上长篇大语言模型"
+[^17]: "检索遇上长篇大语言模型"
 
     Retrieval meets Long Context Large Language Models. (arXiv:2310.03025v2 [cs.CL] UPDATED)
 
@@ -248,7 +263,7 @@
 
     Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and Llama2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmentation at generation can achieve comparable performance to finetuned LLM with 16K context window via positional interpolation on long context tasks, while taking much less computation. More importantly, we demonstrate that retrieval can significantly improve the performance of LLMs regardless of their extended context window sizes. Our best model, retrieval-augmented Llama2-70B with 32K context wi
     
-[^17]: 评估指标到底有多少自由度？
+[^18]: 评估指标到底有多少自由度？
 
     How Much Freedom Does An Effectiveness Metric Really Have?. (arXiv:2309.09477v2 [cs.IR] UPDATED)
 
@@ -262,7 +277,7 @@
 
     It is tempting to assume that because effectiveness metrics have free choice to assign scores to search engine result pages (SERPs) there must thus be a similar degree of freedom as to the relative order that SERP pairs can be put into. In fact that second freedom is, to a considerable degree, illusory. That's because if one SERP in a pair has been given a certain score by a metric, fundamental ordering constraints in many cases then dictate that the score for the second SERP must be either not less than, or not greater than, the score assigned to the first SERP. We refer to these fixed relationships as innate pairwise SERP orderings. Our first goal in this work is to describe and defend those pairwise SERP relationship constraints, and tabulate their relative occurrence via both exhaustive and empirical experimentation.  We then consider how to employ such innate pairwise relationships in IR experiments, leading to a proposal for a new measurement paradigm. Specifically, we argue that
     
-[^18]: SynthTab: 利用合成数据进行吉他谱转录
+[^19]: SynthTab: 利用合成数据进行吉他谱转录
 
     SynthTab: Leveraging Synthesized Data for Guitar Tablature Transcription. (arXiv:2309.09085v2 [cs.SD] UPDATED)
 
@@ -276,7 +291,7 @@
 
     Guitar tablature is a form of music notation widely used among guitarists. It captures not only the musical content of a piece, but also its implementation and ornamentation on the instrument. Guitar Tablature Transcription (GTT) is an important task with broad applications in music education and entertainment. Existing datasets are limited in size and scope, causing state-of-the-art GTT models trained on such datasets to suffer from overfitting and to fail in generalization across datasets. To address this issue, we developed a methodology for synthesizing SynthTab, a large-scale guitar tablature transcription dataset using multiple commercial acoustic and electric guitar plugins. This dataset is built on tablatures from DadaGP, which offers a vast collection and the degree of specificity we wish to transcribe. The proposed synthesis pipeline produces audio which faithfully adheres to the original fingerings, styles, and techniques specified in the tablature with diverse timbre. Exper
     
-[^19]: 基于图神经网络的边缘预测中细化边缘使用方法
+[^20]: 基于图神经网络的边缘预测中细化边缘使用方法
 
     Refined Edge Usage of Graph Neural Networks for Edge Prediction. (arXiv:2212.12970v3 [cs.LG] UPDATED)
 
