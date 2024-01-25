@@ -144,17 +144,18 @@
 | [^140] | [A Multimodal Graph Neural Network Framework of Cancer Molecular Subtype Classification.](http://arxiv.org/abs/2302.12838) | 这项研究提出了一个多模态图神经网络框架用于癌症分子亚型分类。与现有方法相比，该框架在连接类型、GNN层和复杂分类测试方面有不同，从而取得了更好的结果。 |
 | [^141] | [Unleashing the Potential of Acquisition Functions in High-Dimensional Bayesian Optimization.](http://arxiv.org/abs/2302.08298) | 该论文考察了在高维贝叶斯优化中，收购功能最大化器初始化对利用收购功能能力的影响。研究发现随机初始化方法不能充分发挥收购功能的潜力，因此提出了一种更好的初始化方法来利用历史数据。 |
 | [^142] | [PECAN: A Deterministic Certified Defense Against Backdoor Attacks.](http://arxiv.org/abs/2301.11824) | PECAN是一种有效且经过认证的后门攻击防御方法，通过在不相交分区上训练一组神经网络并应用测试时间逃避认证技术，可以显著提高防御强度和效率，降低攻击成功率。 |
-| [^143] | [Fast Algorithm for Constrained Linear Inverse Problems.](http://arxiv.org/abs/2212.01068) | 本文提出了一种快速算法，用于解决约束线性逆问题。该算法通过将问题转化为凸优化问题或极小极大问题，并应用现有的优化方法，提供了更好的理论收敛保证。同时，本文还介绍了一种名为FLIPS的算法，该算法针对问题结构进行了优化，并展示了在多个经典问题上的性能。 |
-| [^144] | [Adversarial Detection by Approximation of Ensemble Boundary.](http://arxiv.org/abs/2211.10227) | 本论文提出了一种使用Walsh系数逼近决策边界的对抗攻击检测方法，通过观察清晰图像和对抗图像之间的Walsh系数逼近差异，实现了对对抗攻击的检测。 |
-| [^145] | [A mixed-categorical correlation kernel for Gaussian process.](http://arxiv.org/abs/2211.08262) | 提出一种新的混合类别相关核的高斯过程代理，相较于其他现有模型在分析和工程问题上表现更好。 |
-| [^146] | [Risk-Aware Linear Bandits: Theory and Applications in Smart Order Routing.](http://arxiv.org/abs/2208.02389) | 本论文研究了风险意识线性赌博机在智能订单路由中的应用，并提出了两种算法来最小化遗憾。分析表明，这些算法在近乎最优的情况下能够通过利用线性结构来提高性能。 |
-| [^147] | [TE2Rules: Explaining Tree Ensembles using Rules.](http://arxiv.org/abs/2206.14359) | 本文介绍了一种将二元分类任务中的树集合模型转换为可解释规则列表的方法，该方法可以有效解释模型对于少数类别的预测。实验证明，TE2Rules方法生成的规则列表准确性较高，并且运行时间与其他基线方法相当。 |
-| [^148] | [Relative Policy-Transition Optimization for Fast Policy Transfer.](http://arxiv.org/abs/2206.06009) | 本论文介绍了相对策略过渡优化的方法，通过引入一个基于强化学习的引理衡量两个MDP之间的相对差距，并提出了相对策略优化和相对转移优化两个算法来实现快速策略转移和动态建模。同时，将这两个算法集成在一起形成完整的相对策略过渡优化算法。 |
-| [^149] | [Multi-modal Misinformation Detection: Approaches, Challenges and Opportunities.](http://arxiv.org/abs/2203.13883) | 这项研究总结了多模式虚假信息检测的方法、挑战和机遇。由于社交媒体平台的转变，虚假信息的性质也发生了变化。研究人员已经开发出自动检测跨模态不协调的技术，但仍面临挑战和不足之处，进一步的研究机会也在等待着挖掘。 |
-| [^150] | [Decentralized Personalized Federated Learning for Min-Max Problems.](http://arxiv.org/abs/2106.07289) | 该论文首次研究了个性化联邦学习在鞍点问题上的应用，提出了分散的设置，并通过提出新算法解决了这一问题。 |
-| [^151] | [MNL-Bandit with Knapsacks: a near-optimal algorithm.](http://arxiv.org/abs/2106.01135) | 这篇论文介绍了一种解决动态商品选择问题的算法，通过使用近似最优策略，可在未知需求情况下最大化总体预期收入。在大库存环境下，该算法能够接近最优解。 |
-| [^152] | [MMD-regularized Unbalanced Optimal Transport.](http://arxiv.org/abs/2011.05001) | 本文研究了使用MMD正则化的非平衡最优输运问题，提出了基于Fenchel对偶性的新度量方法，还提出了基于有限样本的凸规划用于估算问题，证明了估计量的一致性和误差速率。 |
-| [^153] | [The Power of Linear Recurrent Neural Networks.](http://arxiv.org/abs/1802.03308) | 本研究展示了线性递归神经网络(LRNNs)可以逼近任何时变函数f(t)。通过检查网络转移矩阵的主要特征值，可以显著降低LRNN的规模。LRNNs具有以椭圆轨迹结束的有趣特性，并允许预测进一步的值和函数的紧凑表示。 |
+| [^143] | [TrojanPuzzle: Covertly Poisoning Code-Suggestion Models.](http://arxiv.org/abs/2301.02344) | 本研究展示了两种新型攻击，COVERT和TROJANPUZZLE，可以通过在文档字符串等上下文之外的区域植入恶意数据，绕过静态分析，对代码建议模型进行隐秘污染。 |
+| [^144] | [Fast Algorithm for Constrained Linear Inverse Problems.](http://arxiv.org/abs/2212.01068) | 本文提出了一种快速算法，用于解决约束线性逆问题。该算法通过将问题转化为凸优化问题或极小极大问题，并应用现有的优化方法，提供了更好的理论收敛保证。同时，本文还介绍了一种名为FLIPS的算法，该算法针对问题结构进行了优化，并展示了在多个经典问题上的性能。 |
+| [^145] | [Adversarial Detection by Approximation of Ensemble Boundary.](http://arxiv.org/abs/2211.10227) | 本论文提出了一种使用Walsh系数逼近决策边界的对抗攻击检测方法，通过观察清晰图像和对抗图像之间的Walsh系数逼近差异，实现了对对抗攻击的检测。 |
+| [^146] | [A mixed-categorical correlation kernel for Gaussian process.](http://arxiv.org/abs/2211.08262) | 提出一种新的混合类别相关核的高斯过程代理，相较于其他现有模型在分析和工程问题上表现更好。 |
+| [^147] | [Risk-Aware Linear Bandits: Theory and Applications in Smart Order Routing.](http://arxiv.org/abs/2208.02389) | 本论文研究了风险意识线性赌博机在智能订单路由中的应用，并提出了两种算法来最小化遗憾。分析表明，这些算法在近乎最优的情况下能够通过利用线性结构来提高性能。 |
+| [^148] | [TE2Rules: Explaining Tree Ensembles using Rules.](http://arxiv.org/abs/2206.14359) | 本文介绍了一种将二元分类任务中的树集合模型转换为可解释规则列表的方法，该方法可以有效解释模型对于少数类别的预测。实验证明，TE2Rules方法生成的规则列表准确性较高，并且运行时间与其他基线方法相当。 |
+| [^149] | [Relative Policy-Transition Optimization for Fast Policy Transfer.](http://arxiv.org/abs/2206.06009) | 本论文介绍了相对策略过渡优化的方法，通过引入一个基于强化学习的引理衡量两个MDP之间的相对差距，并提出了相对策略优化和相对转移优化两个算法来实现快速策略转移和动态建模。同时，将这两个算法集成在一起形成完整的相对策略过渡优化算法。 |
+| [^150] | [Multi-modal Misinformation Detection: Approaches, Challenges and Opportunities.](http://arxiv.org/abs/2203.13883) | 这项研究总结了多模式虚假信息检测的方法、挑战和机遇。由于社交媒体平台的转变，虚假信息的性质也发生了变化。研究人员已经开发出自动检测跨模态不协调的技术，但仍面临挑战和不足之处，进一步的研究机会也在等待着挖掘。 |
+| [^151] | [Decentralized Personalized Federated Learning for Min-Max Problems.](http://arxiv.org/abs/2106.07289) | 该论文首次研究了个性化联邦学习在鞍点问题上的应用，提出了分散的设置，并通过提出新算法解决了这一问题。 |
+| [^152] | [MNL-Bandit with Knapsacks: a near-optimal algorithm.](http://arxiv.org/abs/2106.01135) | 这篇论文介绍了一种解决动态商品选择问题的算法，通过使用近似最优策略，可在未知需求情况下最大化总体预期收入。在大库存环境下，该算法能够接近最优解。 |
+| [^153] | [MMD-regularized Unbalanced Optimal Transport.](http://arxiv.org/abs/2011.05001) | 本文研究了使用MMD正则化的非平衡最优输运问题，提出了基于Fenchel对偶性的新度量方法，还提出了基于有限样本的凸规划用于估算问题，证明了估计量的一致性和误差速率。 |
+| [^154] | [The Power of Linear Recurrent Neural Networks.](http://arxiv.org/abs/1802.03308) | 本研究展示了线性递归神经网络(LRNNs)可以逼近任何时变函数f(t)。通过检查网络转移矩阵的主要特征值，可以显著降低LRNN的规模。LRNNs具有以椭圆轨迹结束的有趣特性，并允许预测进一步的值和函数的紧凑表示。 |
 
 # 详细
 
@@ -2146,7 +2147,21 @@
 
     Neural networks are vulnerable to backdoor poisoning attacks, where the attackers maliciously poison the training set and insert triggers into the test input to change the prediction of the victim model. Existing defenses for backdoor attacks either provide no formal guarantees or come with expensive-to-compute and ineffective probabilistic guarantees. We present PECAN, an efficient and certified approach for defending against backdoor attacks. The key insight powering PECAN is to apply off-the-shelf test-time evasion certification techniques on a set of neural networks trained on disjoint partitions of the data. We evaluate PECAN on image classification and malware detection datasets. Our results demonstrate that PECAN can (1) significantly outperform the state-of-the-art certified backdoor defense, both in defense strength and efficiency, and (2) on real back-door attacks, PECAN can reduce attack success rate by order of magnitude when compared to a range of baselines from the litera
     
-[^143]: 用于约束线性逆问题的快速算法
+[^143]: TrojanPuzzle: 隐秘地污染代码建议模型
+
+    TrojanPuzzle: Covertly Poisoning Code-Suggestion Models. (arXiv:2301.02344v2 [cs.CR] UPDATED)
+
+    [http://arxiv.org/abs/2301.02344](http://arxiv.org/abs/2301.02344)
+
+    本研究展示了两种新型攻击，COVERT和TROJANPUZZLE，可以通过在文档字符串等上下文之外的区域植入恶意数据，绕过静态分析，对代码建议模型进行隐秘污染。
+
+    
+
+    使用类似GitHub Copilot的工具，自动代码建议在软件工程中已经不再是一个梦想。这些基于大规模语言模型的工具通常在未经审核的公共代码来源中进行训练。因此，这些模型容易受到数据污染攻击，即对抗手通过注入恶意数据来操纵模型的训练。污染攻击可以被设计成在运行时影响模型对于特定上下文的建议，例如诱导模型建议不安全的代码负载。为了实现这一目标，先前的攻击会将不安全的代码负载明确地注入训练数据中，这使得恶意数据可以被静态分析工具检测并从训练集中删除。在这项工作中，我们展示了两种新颖的攻击，COVERT和TROJANPUZZLE，它们可以通过将恶意污染数据植入到上下文之外的区域（如文档字符串）来绕过静态分析。我们最新颖的攻击，TROJANPUZZLE，使得建议模型无法通过静态分析检测到恶意数据。
+
+    With tools like GitHub Copilot, automatic code suggestion is no longer a dream in software engineering. These tools, based on large language models, are typically trained on massive corpora of code mined from unvetted public sources. As a result, these models are susceptible to data poisoning attacks where an adversary manipulates the model's training by injecting malicious data. Poisoning attacks could be designed to influence the model's suggestions at run time for chosen contexts, such as inducing the model into suggesting insecure code payloads. To achieve this, prior attacks explicitly inject the insecure code payload into the training data, making the poison data detectable by static analysis tools that can remove such malicious data from the training set. In this work, we demonstrate two novel attacks, COVERT and TROJANPUZZLE, that can bypass static analysis by planting malicious poison data in out-of-context regions such as docstrings. Our most novel attack, TROJANPUZZLE, goes 
+    
+[^144]: 用于约束线性逆问题的快速算法
 
     Fast Algorithm for Constrained Linear Inverse Problems. (arXiv:2212.01068v6 [math.OC] UPDATED)
 
@@ -2160,7 +2175,7 @@
 
     We consider the constrained Linear Inverse Problem (LIP), where a certain atomic norm (like the $\ell_1 $ norm) is minimized subject to a quadratic constraint. Typically, such cost functions are non-differentiable which makes them not amenable to the fast optimization methods existing in practice. We propose two equivalent reformulations of the constrained LIP with improved convex regularity: (i) a smooth convex minimization problem, and (ii) a strongly convex min-max problem. These problems could be solved by applying existing acceleration-based convex optimization methods which provide better $ O \left( \frac{1}{k^2} \right) $ theoretical convergence guarantee, improving upon the current best rate of $ O \left( \frac{1}{k} \right) $. We also provide a novel algorithm named the Fast Linear Inverse Problem Solver (FLIPS), which is tailored to maximally exploit the structure of the reformulations. We demonstrate the performance of FLIPS on the classical problems of Binary Selection, Com
     
-[^144]: 使用集成边界逼近的对抗检测方法
+[^145]: 使用集成边界逼近的对抗检测方法
 
     Adversarial Detection by Approximation of Ensemble Boundary. (arXiv:2211.10227v4 [cs.LG] UPDATED)
 
@@ -2174,7 +2189,7 @@
 
     A new method of detecting adversarial attacks is proposed for an ensemble of Deep Neural Networks (DNNs) solving two-class pattern recognition problems. The ensemble is combined using Walsh coefficients which are capable of approximating Boolean functions and thereby controlling the complexity of the ensemble decision boundary. The hypothesis in this paper is that decision boundaries with high curvature allow adversarial perturbations to be found, but change the curvature of the decision boundary, which is then approximated in a different way by Walsh coefficients compared to the clean images. By observing the difference in Walsh coefficient approximation between clean and adversarial images, it is shown experimentally that transferability of attack may be used for detection. Furthermore, approximating the decision boundary may aid in understanding the learning and transferability properties of DNNs. While the experiments here use images, the proposed approach of modelling two-class en
     
-[^145]: 一种混合类别相关核的高斯过程
+[^146]: 一种混合类别相关核的高斯过程
 
     A mixed-categorical correlation kernel for Gaussian process. (arXiv:2211.08262v2 [math.OC] UPDATED)
 
@@ -2188,7 +2203,7 @@
 
     Recently, there has been a growing interest for mixed-categorical meta-models based on Gaussian process (GP) surrogates. In this setting, several existing approaches use different strategies either by using continuous kernels (e.g., continuous relaxation and Gower distance based GP) or by using a direct estimation of the correlation matrix. In this paper, we present a kernel-based approach that extends continuous exponential kernels to handle mixed-categorical variables. The proposed kernel leads to a new GP surrogate that generalizes both the continuous relaxation and the Gower distance based GP models. We demonstrate, on both analytical and engineering problems, that our proposed GP model gives a higher likelihood and a smaller residual error than the other kernel-based state-of-the-art models. Our method is available in the open-source software SMT.
     
-[^146]: 风险意识的线性赌博机：理论和在智能订单路由中的应用
+[^147]: 风险意识的线性赌博机：理论和在智能订单路由中的应用
 
     Risk-Aware Linear Bandits: Theory and Applications in Smart Order Routing. (arXiv:2208.02389v2 [cs.LG] UPDATED)
 
@@ -2202,7 +2217,7 @@
 
     Motivated by practical considerations in machine learning for financial decision-making, such as risk aversion and large action space, we consider risk-aware bandits optimization with applications in smart order routing (SOR). Specifically, based on preliminary observations of linear price impacts made from the NASDAQ ITCH dataset, we initiate the study of risk-aware linear bandits. In this setting, we aim at minimizing regret, which measures our performance deficit compared to the optimum's, under the mean-variance metric when facing a set of actions whose rewards are linear functions of (initially) unknown parameters. Driven by the variance-minimizing globally-optimal (G-optimal) design, we propose the novel instance-independent Risk-Aware Explore-then-Commit (RISE) algorithm and the instance-dependent Risk-Aware Successive Elimination (RISE++) algorithm. Then, we rigorously analyze their near-optimal regret upper bounds to show that, by leveraging the linear structure, our algorithm
     
-[^147]: TE2Rules: 使用规则解释树集合模型
+[^148]: TE2Rules: 使用规则解释树集合模型
 
     TE2Rules: Explaining Tree Ensembles using Rules. (arXiv:2206.14359v4 [cs.LG] UPDATED)
 
@@ -2216,7 +2231,7 @@
 
     Tree Ensemble (TE) models (like Gradient Boosted Trees) often provide higher prediction performance compared to single decision trees. However, TE models generally lack transparency and interpretability, as humans have difficulty understanding their decision logic. This paper presents a novel approach to convert a TE trained for a binary classification task, to a rule list (RL) that closely approximates the TE and is interpretable for a human. This RL can effectively explain the model even on the minority class predicted by the model. Experiments on benchmark datasets demonstrate that, (i) predictions from the RL generated by TE2Rules have higher fidelity (with respect to the original TE) compared to state-of-the-art methods, (ii) the run-time of TE2Rules is comparable to that of some other similar baselines and (iii) the run-time of TE2Rules algorithm can be traded off at the cost of a slightly lower fidelity.
     
-[^148]: 快速策略转移的相对策略过渡优化
+[^149]: 快速策略转移的相对策略过渡优化
 
     Relative Policy-Transition Optimization for Fast Policy Transfer. (arXiv:2206.06009v3 [cs.LG] UPDATED)
 
@@ -2230,7 +2245,7 @@
 
     We consider the problem of policy transfer between two Markov Decision Processes (MDPs). We introduce a lemma based on existing theoretical results in reinforcement learning to measure the relativity gap between two arbitrary MDPs, that is the difference between any two cumulative expected returns defined on different policies and environment dynamics. Based on this lemma, we propose two new algorithms referred to as Relative Policy Optimization (RPO) and Relative Transition Optimization (RTO), which offer fast policy transfer and dynamics modelling, respectively. RPO transfers the policy evaluated in one environment to maximize the return in another, while RTO updates the parameterized dynamics model to reduce the gap between the dynamics of the two environments. Integrating the two algorithms results in the complete Relative Policy-Transition Optimization (RPTO) algorithm, in which the policy interacts with the two environments simultaneously, such that data collections from two envi
     
-[^149]: 多模式的虚假信息检测：方法、挑战与机遇
+[^150]: 多模式的虚假信息检测：方法、挑战与机遇
 
     Multi-modal Misinformation Detection: Approaches, Challenges and Opportunities. (arXiv:2203.13883v4 [cs.LG] UPDATED)
 
@@ -2244,7 +2259,7 @@
 
     As social media platforms are evolving from text-based forums into multi-modal environments, the nature of misinformation in social media is also transforming accordingly. Taking advantage of the fact that visual modalities such as images and videos are more favorable and attractive to the users and textual contents are sometimes skimmed carelessly, misinformation spreaders have recently targeted contextual connections between the modalities e.g., text and image. Hence many researchers have developed automatic techniques for detecting possible cross-modal discordance in web-based content. We analyze, categorize and identify existing approaches in addition to challenges and shortcomings they face in order to unearth new research opportunities in the field of multi-modal misinformation detection.
     
-[^150]: 分散个性化联邦学习用于极值问题
+[^151]: 分散个性化联邦学习用于极值问题
 
     Decentralized Personalized Federated Learning for Min-Max Problems. (arXiv:2106.07289v5 [cs.LG] UPDATED)
 
@@ -2258,7 +2273,7 @@
 
     Personalized Federated Learning (PFL) has witnessed remarkable advancements, enabling the development of innovative machine learning applications that preserve the privacy of training data. However, existing theoretical research in this field has primarily focused on distributed optimization for minimization problems. This paper is the first to study PFL for saddle point problems encompassing a broader range of optimization problems, that require more than just solving minimization problems. In this work, we consider a recently proposed PFL setting with the mixing objective function, an approach combining the learning of a global model together with locally distributed learners. Unlike most previous work, which considered only the centralized setting, we work in a more general and decentralized setup that allows us to design and analyze more practical and federated ways to connect devices to the network. We proposed new algorithms to address this problem and provide a theoretical analy
     
-[^151]: MNL-带有背包的剧集挑选问题：一种近似最优算法
+[^152]: MNL-带有背包的剧集挑选问题：一种近似最优算法
 
     MNL-Bandit with Knapsacks: a near-optimal algorithm. (arXiv:2106.01135v3 [cs.LG] UPDATED)
 
@@ -2272,7 +2287,7 @@
 
     We consider a dynamic assortment selection problem where a seller has a fixed inventory of $N$ substitutable products and faces an unknown demand that arrives sequentially over $T$ periods. In each period, the seller needs to decide on the assortment of products (of cardinality at most $K$) to offer to the customers. The customer's response follows an unknown multinomial logit model (MNL) with parameters $v$. The goal of the seller is to maximize the total expected revenue given the fixed initial inventory of $N$ products. We give a policy that achieves a regret of $\tilde O\Big(K \sqrt{KN T}\Big(\sqrt{v_{\text{max}}} + \frac{1}{q_{\text{min}}}\text{OPT}\Big)\Big)$, where $v_{\text{max}}\leq 1$ is the maximum utility for any product and $q_{\text{min}}$ the minimum inventory level, under a mild assumption on the model parameters. In particular, our policy achieves a near-optimal $\tilde O(\sqrt{T})$ regret in a large-inventory setting.  Our policy builds upon the UCB-based approach for
     
-[^152]: MMD正则化的非平衡最优输运问题
+[^153]: MMD正则化的非平衡最优输运问题
 
     MMD-regularized Unbalanced Optimal Transport. (arXiv:2011.05001v6 [cs.LG] UPDATED)
 
@@ -2286,7 +2301,7 @@
 
     We study the unbalanced optimal transport (UOT) problem, where the marginal constraints are enforced using Maximum Mean Discrepancy (MMD) regularization. Our study is motivated by the observation that existing works on UOT have mainly focused on regularization based on $\phi$-divergence (e.g., KL). The role of MMD, which belongs to the complementary family of integral probability metrics (IPMs), as a regularizer in the context of UOT seems to be less understood. Our main result is based on Fenchel duality, using which we are able to study the properties of MMD-regularized UOT (MMD-UOT). One interesting outcome of this duality result is that MMD-UOT induces a novel metric over measures, which again belongs to the IPM family. Further, we present finite-sample-based convex programs for estimating MMD-UOT and the corresponding barycenter. Under mild conditions, we prove that our convex-program-based estimators are consistent, and the estimation error decays at a rate $\mathcal{O}\left(m^{-
     
-[^153]: 线性递归神经网络的力量
+[^154]: 线性递归神经网络的力量
 
     The Power of Linear Recurrent Neural Networks. (arXiv:1802.03308v7 [cs.LG] UPDATED)
 
