@@ -1,0 +1,12 @@
+{
+    "title": "Sparse identification of nonlinear dynamics in the presence of library and system uncertainty. (arXiv:2401.13099v1 [cs.LG])",
+    "abstract": "The SINDy algorithm has been successfully used to identify the governing equations of dynamical systems from time series data. However, SINDy assumes the user has prior knowledge of the variables in the system and of a function library that can act as a basis for the system. In this paper, we demonstrate on real world data how the Augmented SINDy algorithm outperforms SINDy in the presence of system variable uncertainty. We then show SINDy can be further augmented to perform robustly when both kinds of uncertainty are present.",
+    "link": "http://arxiv.org/abs/2401.13099",
+    "context": "Title: Sparse identification of nonlinear dynamics in the presence of library and system uncertainty. (arXiv:2401.13099v1 [cs.LG])\nAbstract: The SINDy algorithm has been successfully used to identify the governing equations of dynamical systems from time series data. However, SINDy assumes the user has prior knowledge of the variables in the system and of a function library that can act as a basis for the system. In this paper, we demonstrate on real world data how the Augmented SINDy algorithm outperforms SINDy in the presence of system variable uncertainty. We then show SINDy can be further augmented to perform robustly when both kinds of uncertainty are present.",
+    "path": "papers/24/01/2401.13099.json",
+    "total_tokens": 627,
+    "translated_title": "在库和系统不确定性存在的情况下，稀疏非线性动力学的识别",
+    "translated_abstract": "SINDy算法已成功地用于从时间序列数据中识别动力系统的控制方程。然而，SINDy假设用户对系统中的变量和能够作为系统基础的函数库具有先验知识。在本文中，我们通过真实世界数据演示了增强SINDy算法在系统变量不确定性存在的情况下优于SINDy的性能。然后，我们展示了当两种不确定性同时存在时，SINDy可以进一步增强以实现稳健性能。",
+    "tldr": "针对系统变量和函数库不确定性，本文提出了增强的SINDy算法，可以更好地识别稀疏非线性动力学。",
+    "en_tdlr": "In the presence of system variable and function library uncertainty, this paper proposes an augmented SINDy algorithm that can better identify sparse nonlinear dynamics."
+}

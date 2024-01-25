@@ -1,0 +1,11 @@
+{
+    "title": "PatternPortrait: Draw Me Like One of Your Scribbles. (arXiv:2401.13001v1 [cs.GR])",
+    "abstract": "This paper introduces a process for generating abstract portrait drawings from pictures. Their unique style is created by utilizing single freehand pattern sketches as references to generate unique patterns for shading. The method involves extracting facial and body features from images and transforming them into vector lines. A key aspect of the research is the development of a graph neural network architecture designed to learn sketch stroke representations in vector form, enabling the generation of diverse stroke variations. The combination of these two approaches creates joyful abstract drawings that are realized via a pen plotter. The presented process garnered positive feedback from an audience of approximately 280 participants.",
+    "link": "http://arxiv.org/abs/2401.13001",
+    "context": "Title: PatternPortrait: Draw Me Like One of Your Scribbles. (arXiv:2401.13001v1 [cs.GR])\nAbstract: This paper introduces a process for generating abstract portrait drawings from pictures. Their unique style is created by utilizing single freehand pattern sketches as references to generate unique patterns for shading. The method involves extracting facial and body features from images and transforming them into vector lines. A key aspect of the research is the development of a graph neural network architecture designed to learn sketch stroke representations in vector form, enabling the generation of diverse stroke variations. The combination of these two approaches creates joyful abstract drawings that are realized via a pen plotter. The presented process garnered positive feedback from an audience of approximately 280 participants.",
+    "path": "papers/24/01/2401.13001.json",
+    "total_tokens": 730,
+    "translated_title": "PatternPortrait：用你的涂鸦画出我。 (arXiv:2401.13001v1 [cs.GR])",
+    "translated_abstract": "本论文介绍了一种从图片生成抽象肖像绘画的方法。其独特的风格是通过利用单一的手绘图案素描作为参考来生成用于阴影的独特图案。该方法涉及从图像中提取面部和身体特征，并将其转化为向量线条。研究的一个关键方面是开发一种图形神经网络架构，旨在学习向量形式的素描笔触表示，从而实现生成多样化的笔触变化。这两种方法的组合创造了充满喜悦的抽象绘画，通过钢笔绘图仪实现。所介绍的过程在大约280名参与者中获得了积极的反馈。",
+    "tldr": "本论文介绍了一种从图片生成抽象肖像绘画的方法，通过利用单一的手绘图案素描和图形神经网络架构，实现了生成多样化的笔触变化，创造出风格独特的充满喜悦的抽象绘画。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats. (arXiv:2311.13361v2 [cs.AI] UPDATED)",
+    "abstract": "Applying large language models (LLMs) to modern power systems presents a promising avenue for enhancing decision-making and operational efficiency. However, this action may also incur potential security threats, which have not been fully recognized so far. To this end, this article analyzes potential threats incurred by applying LLMs to power systems, emphasizing the need for urgent research and development of countermeasures.",
+    "link": "http://arxiv.org/abs/2311.13361",
+    "context": "Title: Applying Large Language Models to Power Systems: Potential Security Threats. (arXiv:2311.13361v2 [cs.AI] UPDATED)\nAbstract: Applying large language models (LLMs) to modern power systems presents a promising avenue for enhancing decision-making and operational efficiency. However, this action may also incur potential security threats, which have not been fully recognized so far. To this end, this article analyzes potential threats incurred by applying LLMs to power systems, emphasizing the need for urgent research and development of countermeasures.",
+    "path": "papers/23/11/2311.13361.json",
+    "total_tokens": 582,
+    "translated_title": "将大型语言模型应用于电力系统：潜在的安全威胁",
+    "translated_abstract": "将大型语言模型（LLMs）应用于现代电力系统是提高决策和运营效率的一种有前景的途径。然而，这一行动也可能带来潜在的安全威胁，迄今尚未完全认识到。因此，本文分析了将LLMs应用于电力系统可能带来的潜在威胁，并强调了迫切需要研究和开发相应对策的重要性。",
+    "tldr": "将大型语言模型应用于电力系统可能带来潜在安全威胁，需要进行迫切的研究和开发相应对策。",
+    "en_tdlr": "Applying large language models to power systems may pose potential security threats, which require urgent research and development of countermeasures."
+}

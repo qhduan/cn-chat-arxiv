@@ -1,0 +1,12 @@
+{
+    "title": "Prompt Weight Experiments for LLM Instruction Fine-Tuning. (arXiv:2401.13586v1 [cs.LG])",
+    "abstract": "We present a small study analyzing how prompt token classification loss weighting (PLW) affects the performance of 7B-size LLaMA models fine-tuned on instruction tasks. We recreated Stanford's Alpaca experiment with both LLaMA 1 and LLaMA 2 using multiple instruction datasets. We found that models fine-tuned on our short-completion dataset have a negative quadratic relationship with PLW while models fine-tuned on long-completion datasets were unaffected by PLW.",
+    "link": "http://arxiv.org/abs/2401.13586",
+    "context": "Title: Prompt Weight Experiments for LLM Instruction Fine-Tuning. (arXiv:2401.13586v1 [cs.LG])\nAbstract: We present a small study analyzing how prompt token classification loss weighting (PLW) affects the performance of 7B-size LLaMA models fine-tuned on instruction tasks. We recreated Stanford's Alpaca experiment with both LLaMA 1 and LLaMA 2 using multiple instruction datasets. We found that models fine-tuned on our short-completion dataset have a negative quadratic relationship with PLW while models fine-tuned on long-completion datasets were unaffected by PLW.",
+    "path": "papers/24/01/2401.13586.json",
+    "total_tokens": 642,
+    "translated_title": "LLM指令微调中的提示权重实验",
+    "translated_abstract": "我们进行了一项小型研究，分析了提示词标记分类损失加权（PLW）如何影响在指令任务上进行微调的7B大小的LLaMA模型的性能。我们使用多个指令数据集重现了斯坦福大学的Alpaca实验，其中包括LLaMA 1和LLaMA 2。我们发现，在我们的短提示完成数据集上微调的模型与PLW之间存在负二次关系，而在长提示完成数据集上微调的模型不受PLW的影响。",
+    "tldr": "LLM指令微调中，对于短提示完成数据集，提示词标记分类损失加权（PLW）与性能呈负二次关系，而长提示完成数据集则不受PLW影响。",
+    "en_tdlr": "For LLM instruction fine-tuning, there is a negative quadratic relationship between prompt token classification loss weighting (PLW) and the performance on short-completion datasets, while PLW has no impact on models trained on long-completion datasets."
+}

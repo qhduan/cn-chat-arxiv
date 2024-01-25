@@ -1,0 +1,12 @@
+{
+    "title": "Theorem Discovery Amongst Cyclic Polygons. (arXiv:2401.13002v1 [cs.CG])",
+    "abstract": "We examine a class of geometric theorems on cyclic 2n-gons. We prove that if we take n disjoint pairs of sides, each pair separated by an even number of polygon sides, then there is a linear combination of the angles between those sides which is constant. We present a formula for the linear combination, which provides a theorem statement in terms of those angles. We describe a program which uses this result to generate new geometry proof problems and their solutions.",
+    "link": "http://arxiv.org/abs/2401.13002",
+    "context": "Title: Theorem Discovery Amongst Cyclic Polygons. (arXiv:2401.13002v1 [cs.CG])\nAbstract: We examine a class of geometric theorems on cyclic 2n-gons. We prove that if we take n disjoint pairs of sides, each pair separated by an even number of polygon sides, then there is a linear combination of the angles between those sides which is constant. We present a formula for the linear combination, which provides a theorem statement in terms of those angles. We describe a program which uses this result to generate new geometry proof problems and their solutions.",
+    "path": "papers/24/01/2401.13002.json",
+    "total_tokens": 686,
+    "translated_title": "循环多边形中的定理发现",
+    "translated_abstract": "我们研究了关于循环2n边形的几何定理类别。我们证明，如果我们取n个不相交的边对，每个对之间有偶数个多边形边分隔，则这些边之间的角度的线性组合是恒定的。我们提出了一个线性组合的公式，它以这些角度的方式给出了一个定理陈述。我们描述了一个利用这个结果生成新的几何证明问题及其解法的程序。",
+    "tldr": "该论文介绍了关于循环2n边形的一个几何定理类别，证明了当取n个不相交的边对时，这些边之间角度的线性组合是恒定的，并提供了一个公式来表示这个线性组合。论文还介绍了一个利用这个结果生成新的几何证明问题及其解法的程序。",
+    "en_tdlr": "This paper introduces a category of geometric theorems on cyclic 2n-gons, proving that the linear combination of angles between the sides of n disjoint pairs, separated by an even number of polygon sides, is constant. It also provides a formula for this linear combination and describes a program that generates new geometry proof problems and their solutions based on this result."
+}

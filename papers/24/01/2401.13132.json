@@ -1,0 +1,12 @@
+{
+    "title": "Three Variations on Money Pump, Common Prior, and Trade. (arXiv:2401.13132v1 [econ.TH])",
+    "abstract": "We consider finite information structures, and quest for the answer of the question: What is the proper definition of prior?  In the single player setting we conclude that a probability distribution is a prior if it is disintegrable, because this definition excludes money pump.  In the multiplayer setting our analysis does not boil down to one proper notion of common prior (the multiplayer version of prior). The appropriate notion is a choice of the modeller in this setting. We consider three variants of money pump, each \"defines\" a notion of common prior.  Furthermore, we also consider three variants of trade, each correspond to one of the money pump variants, hence to one of the common prior variants.",
+    "link": "http://arxiv.org/abs/2401.13132",
+    "context": "Title: Three Variations on Money Pump, Common Prior, and Trade. (arXiv:2401.13132v1 [econ.TH])\nAbstract: We consider finite information structures, and quest for the answer of the question: What is the proper definition of prior?  In the single player setting we conclude that a probability distribution is a prior if it is disintegrable, because this definition excludes money pump.  In the multiplayer setting our analysis does not boil down to one proper notion of common prior (the multiplayer version of prior). The appropriate notion is a choice of the modeller in this setting. We consider three variants of money pump, each \"defines\" a notion of common prior.  Furthermore, we also consider three variants of trade, each correspond to one of the money pump variants, hence to one of the common prior variants.",
+    "path": "papers/24/01/2401.13132.json",
+    "total_tokens": 710,
+    "translated_title": "三种货币泵、共同先验和交易的变种",
+    "translated_abstract": "我们考虑有限信息结构，并探讨一个问题的答案：什么是先验的适当定义？在单个玩家设置中，我们得出结论：如果概率分布是可分解的，那么它是一个先验，因为这个定义排除了货币泵。在多人设置中，我们的分析并不能简化为一个适当的共同先验概念。适当的概念是在这种情况下对建模者的选择。我们考虑三种货币泵的变体，每种都\"定义\"了一个共同先验的概念。此外，我们还考虑了三种交易的变体，每种对应一种货币泵的变体，因而对应一种共同先验的变体。",
+    "tldr": "这篇论文研究了三种货币泵、共同先验和交易的变种，并通过分析得出了各自的定义和对应关系。",
+    "en_tdlr": "This paper explores three variations of money pump, common prior, and trade, and derives the definitions and correspondences for each."
+}

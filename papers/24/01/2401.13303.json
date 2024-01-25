@@ -1,0 +1,12 @@
+{
+    "title": "MaLA-500: Massive Language Adaptation of Large Language Models. (arXiv:2401.13303v1 [cs.CL])",
+    "abstract": "Large language models have advanced the state of the art in natural language processing. However, their predominant design for English or a limited set of languages creates a substantial gap in their effectiveness for low-resource languages. To bridge this gap, we introduce MaLA-500, a novel large language model designed to cover an extensive range of 534 languages. To train MaLA-500, we employ vocabulary extension and continued pretraining on LLaMA 2 with Glot500-c. Our experiments on SIB-200 show that MaLA-500 achieves state-of-the-art in-context learning results. We release MaLA-500 at https://huggingface.co/MaLA-LM",
+    "link": "http://arxiv.org/abs/2401.13303",
+    "context": "Title: MaLA-500: Massive Language Adaptation of Large Language Models. (arXiv:2401.13303v1 [cs.CL])\nAbstract: Large language models have advanced the state of the art in natural language processing. However, their predominant design for English or a limited set of languages creates a substantial gap in their effectiveness for low-resource languages. To bridge this gap, we introduce MaLA-500, a novel large language model designed to cover an extensive range of 534 languages. To train MaLA-500, we employ vocabulary extension and continued pretraining on LLaMA 2 with Glot500-c. Our experiments on SIB-200 show that MaLA-500 achieves state-of-the-art in-context learning results. We release MaLA-500 at https://huggingface.co/MaLA-LM",
+    "path": "papers/24/01/2401.13303.json",
+    "total_tokens": 700,
+    "translated_title": "MaLA-500: 大规模语言适应大型语言模型",
+    "translated_abstract": "大型语言模型在自然语言处理领域取得了突破。然而，由于其主要设计针对英语或一小部分语言，其在低资源语言上效果有限。为了填补这一差距，我们引入了MaLA-500，这是一种新颖的大型语言模型，设计用于覆盖534种语言。为了训练MaLA-500，我们采用了词汇扩展和在LLaMA 2上的持续预训练。我们在SIB-200上进行的实验表明，MaLA-500在上下文学习结果方面取得了最先进的成果。我们在https://huggingface.co/MaLA-LM上发布了MaLA-500。",
+    "tldr": "MaLA-500是一种大型语言模型，设计用于覆盖534种语言，并通过在LLaMA 2上进行训练来提高效果。",
+    "en_tdlr": "MaLA-500 is a large language model designed to cover 534 languages and achieves improved effectiveness through training on LLaMA 2."
+}

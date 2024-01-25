@@ -1,0 +1,12 @@
+{
+    "title": "Finetuning Foundation Models for Joint Analysis Optimization. (arXiv:2401.13536v1 [hep-ex])",
+    "abstract": "In this work we demonstrate that significant gains in performance and data efficiency can be achieved in High Energy Physics (HEP) by moving beyond the standard paradigm of sequential optimization or reconstruction and analysis components. We conceptually connect HEP reconstruction and analysis to modern machine learning workflows such as pretraining, finetuning, domain adaptation and high-dimensional embedding spaces and quantify the gains in the example usecase of searches of heavy resonances decaying via an intermediate di-Higgs system to four $b$-jets.",
+    "link": "http://arxiv.org/abs/2401.13536",
+    "context": "Title: Finetuning Foundation Models for Joint Analysis Optimization. (arXiv:2401.13536v1 [hep-ex])\nAbstract: In this work we demonstrate that significant gains in performance and data efficiency can be achieved in High Energy Physics (HEP) by moving beyond the standard paradigm of sequential optimization or reconstruction and analysis components. We conceptually connect HEP reconstruction and analysis to modern machine learning workflows such as pretraining, finetuning, domain adaptation and high-dimensional embedding spaces and quantify the gains in the example usecase of searches of heavy resonances decaying via an intermediate di-Higgs system to four $b$-jets.",
+    "path": "papers/24/01/2401.13536.json",
+    "total_tokens": 753,
+    "translated_title": "为联合分析优化调整基础模型",
+    "translated_abstract": "在这项工作中，我们展示了在高能物理学中可以通过超越顺序优化或重建和分析组件的标准范 paradigm，实现性能和数据效率的显著提升。我们将高能物理学重建和分析与现代机器学习工作流（如预训练、微调、领域适应和高维嵌入空间）进行了概念上的连接，并量化了通过搜索通过中间 di-Higgs 系统衰变的重共振体为四个 $b$-喷注的示例用例中的收益。",
+    "tldr": "本论文中展示了在高能物理学中，通过超越顺序优化或重建和分析组件的标准范 paradigm，可以实现性能和数据效率的显著提升。通过搜索通过中间 di-Higgs 系统衰变的重共振体为四个 $b$-喷注的示例用例，我们将高能物理学重建和分析与现代机器学习工作流进行了连接，并量化了其收益。",
+    "en_tdlr": "This paper demonstrates significant gains in performance and data efficiency in High Energy Physics (HEP) by moving beyond the standard paradigm of sequential optimization or reconstruction and analysis components. By connecting HEP reconstruction and analysis to modern machine learning workflows, and quantifying the gains through an example usecase of searches of heavy resonances decaying via an intermediate di-Higgs system to four $b$-jets."
+}
