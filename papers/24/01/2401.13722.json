@@ -1,0 +1,11 @@
+{
+    "title": "Proactive Emotion Tracker: AI-Driven Continuous Mood and Emotion Monitoring. (arXiv:2401.13722v1 [cs.HC])",
+    "abstract": "This research project aims to tackle the growing mental health challenges in today's digital age. It employs a modified pre-trained BERT model to detect depressive text within social media and users' web browsing data, achieving an impressive 93% test accuracy. Simultaneously, the project aims to incorporate physiological signals from wearable devices, such as smartwatches and EEG sensors, to provide long-term tracking and prognosis of mood disorders and emotional states. This comprehensive approach holds promise for enhancing early detection of depression and advancing overall mental health outcomes.",
+    "link": "http://arxiv.org/abs/2401.13722",
+    "context": "Title: Proactive Emotion Tracker: AI-Driven Continuous Mood and Emotion Monitoring. (arXiv:2401.13722v1 [cs.HC])\nAbstract: This research project aims to tackle the growing mental health challenges in today's digital age. It employs a modified pre-trained BERT model to detect depressive text within social media and users' web browsing data, achieving an impressive 93% test accuracy. Simultaneously, the project aims to incorporate physiological signals from wearable devices, such as smartwatches and EEG sensors, to provide long-term tracking and prognosis of mood disorders and emotional states. This comprehensive approach holds promise for enhancing early detection of depression and advancing overall mental health outcomes.",
+    "path": "papers/24/01/2401.13722.json",
+    "total_tokens": 756,
+    "translated_title": "主动情绪追踪器：基于人工智能的持续情绪和心理状态监测",
+    "translated_abstract": "该研究项目旨在解决当今数字时代不断增长的心理健康挑战。它采用改进的预训练BERT模型来检测社交媒体和用户的网络浏览数据中的抑郁文本，实现了令人印象深刻的93％的测试准确性。同时，该项目旨在结合可穿戴设备（如智能手表和脑电传感器）的生理信号，提供情绪障碍和心理状态的长期追踪和预后。这种综合方法有望提高抑郁的早期检测并改善整体心理健康结果。",
+    "tldr": "该项目使用预训练的BERT模型检测社交媒体和用户的网络浏览数据中的抑郁文本，并结合可穿戴设备的生理信号提供长期追踪和预后，有望提高早期检测抑郁症的能力，推动整体心理健康。"
+}

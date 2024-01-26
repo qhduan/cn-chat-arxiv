@@ -1,0 +1,12 @@
+{
+    "title": "Towards Automated Readable Proofs of Ruler and Compass Constructions. (arXiv:2401.13700v1 [cs.LO])",
+    "abstract": "Although there are several systems that successfully generate construction steps for ruler and compass construction problems, none of them provides readable synthetic correctness proofs for generated constructions. In the present work, we demonstrate how our triangle construction solver ArgoTriCS can cooperate with automated theorem provers for first order logic and coherent logic so that it generates construction correctness proofs, that are both human-readable and formal (can be checked by interactive theorem provers such as Coq or Isabelle/HOL). These proofs currently rely on many high-level lemmas and our goal is to have them all formally shown from the basic axioms of geometry.",
+    "link": "http://arxiv.org/abs/2401.13700",
+    "context": "Title: Towards Automated Readable Proofs of Ruler and Compass Constructions. (arXiv:2401.13700v1 [cs.LO])\nAbstract: Although there are several systems that successfully generate construction steps for ruler and compass construction problems, none of them provides readable synthetic correctness proofs for generated constructions. In the present work, we demonstrate how our triangle construction solver ArgoTriCS can cooperate with automated theorem provers for first order logic and coherent logic so that it generates construction correctness proofs, that are both human-readable and formal (can be checked by interactive theorem provers such as Coq or Isabelle/HOL). These proofs currently rely on many high-level lemmas and our goal is to have them all formally shown from the basic axioms of geometry.",
+    "path": "papers/24/01/2401.13700.json",
+    "total_tokens": 719,
+    "translated_title": "实现自动可读的直尺和圆规构造的证明",
+    "translated_abstract": "虽然已经有几个系统成功地生成了直尺和圆规构造问题的构造步骤，但它们都没有提供可读的合成正确性证明。在本研究中，我们展示了我们的三角形构造求解器ArgoTriCS如何能够与一阶逻辑和连续逻辑的自动定理证明器合作，生成既可被人类理解又可以由交互式定理证明器（如Coq或Isabelle/HOL）进行检查的构造正确性证明。这些证明目前依赖于许多高级引理，我们的目标是从几何的基本公理中形式化证明所有这些引理。",
+    "tldr": "本研究提出了一种能够生成直尺和圆规构造问题的可读与形式化正确性证明的方法，并与自动定理证明器合作实现。目标是从基本公理形式化证明所有高级引理。",
+    "en_tdlr": "This study proposes a method that can generate readable and formal correctness proofs for ruler and compass construction problems, in collaboration with automated theorem provers. The goal is to formalize all high-level lemmas from the basic axioms of geometry."
+}

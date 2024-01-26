@@ -1,0 +1,11 @@
+{
+    "title": "HyperSound: Generating Implicit Neural Representations of Audio Signals with Hypernetworks. (arXiv:2211.01839v2 [cs.SD] UPDATED)",
+    "abstract": "Implicit neural representations (INRs) are a rapidly growing research field, which provides alternative ways to represent multimedia signals. Recent applications of INRs include image super-resolution, compression of high-dimensional signals, or 3D rendering. However, these solutions usually focus on visual data, and adapting them to the audio domain is not trivial. Moreover, it requires a separately trained model for every data sample. To address this limitation, we propose HyperSound, a meta-learning method leveraging hypernetworks to produce INRs for audio signals unseen at training time. We show that our approach can reconstruct sound waves with quality comparable to other state-of-the-art models.",
+    "link": "http://arxiv.org/abs/2211.01839",
+    "context": "Title: HyperSound: Generating Implicit Neural Representations of Audio Signals with Hypernetworks. (arXiv:2211.01839v2 [cs.SD] UPDATED)\nAbstract: Implicit neural representations (INRs) are a rapidly growing research field, which provides alternative ways to represent multimedia signals. Recent applications of INRs include image super-resolution, compression of high-dimensional signals, or 3D rendering. However, these solutions usually focus on visual data, and adapting them to the audio domain is not trivial. Moreover, it requires a separately trained model for every data sample. To address this limitation, we propose HyperSound, a meta-learning method leveraging hypernetworks to produce INRs for audio signals unseen at training time. We show that our approach can reconstruct sound waves with quality comparable to other state-of-the-art models.",
+    "path": "papers/22/11/2211.01839.json",
+    "total_tokens": 738,
+    "translated_title": "HyperSound：利用超网络生成音频信号的隐式神经表示",
+    "translated_abstract": "隐式神经表示（INRs）是一个快速发展的研究领域，提供了多媒体信号的替代表示方式。最近，INRs的应用包括图像超分辨率、高维信号压缩或3D渲染等。然而，这些解决方案通常集中在视觉数据上，将它们适应到音频领域并不容易。此外，这需要为每个数据样本单独训练模型。为了解决这个限制，我们提出了HyperSound，一种利用超网络实现在训练时未见过的音频信号的INRs的元学习方法。我们展示了我们的方法可以重构与其他最先进模型相媲美的声波。",
+    "tldr": "该论文介绍了一种名为HyperSound的方法，利用超网络生成音频信号的隐式神经表示。与其他模型相比，该方法在重构声波方面具有可比较的质量。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Longitudinal Sentiment Topic Modelling of Reddit Posts. (arXiv:2401.13805v1 [cs.SI])",
+    "abstract": "In this study, we analyze texts of Reddit posts written by students of four major Canadian universities. We gauge the emotional tone and uncover prevailing themes and discussions through longitudinal topic modeling of posts textual data. Our study focuses on four years, 2020-2023, covering COVID-19 pandemic and after pandemic years. Our results highlight a gradual uptick in discussions related to mental health.",
+    "link": "http://arxiv.org/abs/2401.13805",
+    "context": "Title: Longitudinal Sentiment Topic Modelling of Reddit Posts. (arXiv:2401.13805v1 [cs.SI])\nAbstract: In this study, we analyze texts of Reddit posts written by students of four major Canadian universities. We gauge the emotional tone and uncover prevailing themes and discussions through longitudinal topic modeling of posts textual data. Our study focuses on four years, 2020-2023, covering COVID-19 pandemic and after pandemic years. Our results highlight a gradual uptick in discussions related to mental health.",
+    "path": "papers/24/01/2401.13805.json",
+    "total_tokens": 609,
+    "translated_title": "Reddit帖子的纵向情绪主题建模研究",
+    "translated_abstract": "在这项研究中，我们分析了四所加拿大主要大学学生撰写的Reddit帖子。通过对帖子文本数据进行纵向主题建模，我们评估情绪调性并揭示主要主题和讨论。我们的研究重点关注2020年至2023年的四年时间段，涵盖了COVID-19大流行及其后续年份。我们的结果突出了与心理健康相关的讨论逐渐增加。",
+    "tldr": "该研究通过纵向主题建模分析了加拿大四所主要大学学生在Reddit上发布的帖子。研究结果显示，随着时间推移，与心理健康相关的讨论逐渐增加。",
+    "en_tdlr": "This study utilizes longitudinal topic modeling to analyze posts from students of four major Canadian universities on Reddit. The findings reveal a gradual increase in discussions related to mental health over time."
+}

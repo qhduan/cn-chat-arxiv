@@ -1,0 +1,12 @@
+{
+    "title": "Assumptions and Bounds in the Instrumental Variable Model. (arXiv:2401.13758v1 [math.ST])",
+    "abstract": "In this note we give proofs for results relating to the Instrumental Variable (IV) model with binary response $Y$ and binary treatment $X$, but with an instrument $Z$ that takes $K$ states that were originally stated in Richardson & Robins (2014), \"ACE Bounds; SEMS with Equilibrium Conditions,\" arXiv:1410.0470.",
+    "link": "http://arxiv.org/abs/2401.13758",
+    "context": "Title: Assumptions and Bounds in the Instrumental Variable Model. (arXiv:2401.13758v1 [math.ST])\nAbstract: In this note we give proofs for results relating to the Instrumental Variable (IV) model with binary response $Y$ and binary treatment $X$, but with an instrument $Z$ that takes $K$ states that were originally stated in Richardson & Robins (2014), \"ACE Bounds; SEMS with Equilibrium Conditions,\" arXiv:1410.0470.",
+    "path": "papers/24/01/2401.13758.json",
+    "total_tokens": 603,
+    "translated_title": "工具变量模型中的假设和界限",
+    "translated_abstract": "在本文中，我们给出了关于具有二进制响应$Y$和二进制处理$X$的工具变量（IV）模型的结果证明，但是仪器$Z$接受$K$个状态，这些状态最初是在Richardson＆Robins（2014）的论文“ACE Bounds; SEMS with Equilibrium Conditions”中提出的（arXiv:1410.0470）。",
+    "tldr": "本文证明了在工具变量（IV）模型中，具有二进制响应$Y$和二进制处理$X$的情况下，使用接受$K$个状态的仪器$Z$时，关于ACE界限的结果。",
+    "en_tdlr": "This paper provides proofs for results regarding the Instrumental Variable (IV) model with binary response $Y$ and binary treatment $X$, but with an instrument $Z$ that takes $K$ states, as originally stated in Richardson & Robins' paper \"ACE Bounds; SEMS with Equilibrium Conditions\" (arXiv:1410.0470)."
+}

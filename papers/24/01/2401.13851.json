@@ -1,0 +1,12 @@
+{
+    "title": "Scaling NVIDIA's multi-speaker multi-lingual TTS systems with voice cloning to Indic Languages. (arXiv:2401.13851v1 [cs.SD])",
+    "abstract": "In this paper, we describe the TTS models developed by NVIDIA for the MMITS-VC (Multi-speaker, Multi-lingual Indic TTS with Voice Cloning) 2024 Challenge. In Tracks 1 and 2, we utilize RAD-MMM to perform few-shot TTS by training additionally on 5 minutes of target speaker data. In Track 3, we utilize P-Flow to perform zero-shot TTS by training on the challenge dataset as well as external datasets. We use HiFi-GAN vocoders for all submissions. RAD-MMM performs competitively on Tracks 1 and 2, while P-Flow ranks first on Track 3, with mean opinion score (MOS) 4.4 and speaker similarity score (SMOS) of 3.62.",
+    "link": "http://arxiv.org/abs/2401.13851",
+    "context": "Title: Scaling NVIDIA's multi-speaker multi-lingual TTS systems with voice cloning to Indic Languages. (arXiv:2401.13851v1 [cs.SD])\nAbstract: In this paper, we describe the TTS models developed by NVIDIA for the MMITS-VC (Multi-speaker, Multi-lingual Indic TTS with Voice Cloning) 2024 Challenge. In Tracks 1 and 2, we utilize RAD-MMM to perform few-shot TTS by training additionally on 5 minutes of target speaker data. In Track 3, we utilize P-Flow to perform zero-shot TTS by training on the challenge dataset as well as external datasets. We use HiFi-GAN vocoders for all submissions. RAD-MMM performs competitively on Tracks 1 and 2, while P-Flow ranks first on Track 3, with mean opinion score (MOS) 4.4 and speaker similarity score (SMOS) of 3.62.",
+    "path": "papers/24/01/2401.13851.json",
+    "total_tokens": 792,
+    "translated_title": "利用声音克隆将NVIDIA的多语言TTS系统扩展到印度语言",
+    "translated_abstract": "在本文中，我们描述了NVIDIA为MMITS-VC（多语言、多语种印度TTS与声音克隆）2024挑战开发的TTS模型。在1和2轨道中，我们利用RAD-MMM在目标说话人数据上进行了少样本TTS的训练。在第3轨道中，我们利用P-Flow进行了零样本TTS的训练，同时使用了挑战数据集和外部数据集。我们对所有提交使用HiFi-GAN vocoders。RAD-MMM在1和2轨道上表现出竞争力，而P-Flow在第3轨道上排名第一，平均意见分(MOS)为4.4，说话人相似度分数(SMOS)为3.62。",
+    "tldr": "本文介绍了NVIDIA开发的TTS模型，利用RAD-MMM和P-Flow实现了多语言TTS的训练，其中P-Flow在零样本TTS方面表现出色，在2024挑战中获得了第一名。",
+    "en_tdlr": "This paper introduces TTS models developed by NVIDIA, which utilize RAD-MMM and P-Flow for training multi-lingual TTS. P-Flow performs well in zero-shot TTS and ranks first in the 2024 challenge."
+}

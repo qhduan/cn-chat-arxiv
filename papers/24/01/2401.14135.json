@@ -1,0 +1,11 @@
+{
+    "title": "Convolutional Neural Networks can achieve binary bail judgement classification. (arXiv:2401.14135v1 [cs.CL])",
+    "abstract": "There is an evident lack of implementation of Machine Learning (ML) in the legal domain in India, and any research that does take place in this domain is usually based on data from the higher courts of law and works with English data. The lower courts and data from the different regional languages of India are often overlooked. In this paper, we deploy a Convolutional Neural Network (CNN) architecture on a corpus of Hindi legal documents. We perform a bail Prediction task with the help of a CNN model and achieve an overall accuracy of 93\\% which is an improvement on the benchmark accuracy, set by Kapoor et al. (2022), albeit in data from 20 districts of the Indian state of Uttar Pradesh.",
+    "link": "http://arxiv.org/abs/2401.14135",
+    "context": "Title: Convolutional Neural Networks can achieve binary bail judgement classification. (arXiv:2401.14135v1 [cs.CL])\nAbstract: There is an evident lack of implementation of Machine Learning (ML) in the legal domain in India, and any research that does take place in this domain is usually based on data from the higher courts of law and works with English data. The lower courts and data from the different regional languages of India are often overlooked. In this paper, we deploy a Convolutional Neural Network (CNN) architecture on a corpus of Hindi legal documents. We perform a bail Prediction task with the help of a CNN model and achieve an overall accuracy of 93\\% which is an improvement on the benchmark accuracy, set by Kapoor et al. (2022), albeit in data from 20 districts of the Indian state of Uttar Pradesh.",
+    "path": "papers/24/01/2401.14135.json",
+    "total_tokens": 703,
+    "translated_title": "卷积神经网络可以实现二元保释判断分类",
+    "translated_abstract": "印度法律领域中缺乏机器学习（ML）的实施，该领域的任何研究通常是基于英语数据和高等法院的数据。忽略了印度低级法院和不同地区语言的数据。本文在一组印地文法律文件上部署了卷积神经网络（CNN）架构。我们使用CNN模型进行保释预测任务，取得了93％的总体准确率，这是对印度北方邦20个地区数据的Kapoor等人（2022）设定的准确率基准的改进。",
+    "tldr": "本文研究使用卷积神经网络在印度印地文法律文件上进行二元保释判断分类，取得了93％的准确率，改进了之前的准确率基准。"
+}

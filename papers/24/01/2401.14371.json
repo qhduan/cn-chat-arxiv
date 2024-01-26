@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Optimisation of Physical Reservoir Computers using only a Delayed Input. (arXiv:2401.14371v1 [cs.ET])",
+    "abstract": "We present an experimental validation of a recently proposed optimization technique for reservoir computing, using an optoelectronic setup. Reservoir computing is a robust framework for signal processing applications, and the development of efficient optimization approaches remains a key challenge. The technique we address leverages solely a delayed version of the input signal to identify the optimal operational region of the reservoir, simplifying the traditionally time-consuming task of hyperparameter tuning. We verify the effectiveness of this approach on different benchmark tasks and reservoir operating conditions.",
+    "link": "http://arxiv.org/abs/2401.14371",
+    "context": "Title: Efficient Optimisation of Physical Reservoir Computers using only a Delayed Input. (arXiv:2401.14371v1 [cs.ET])\nAbstract: We present an experimental validation of a recently proposed optimization technique for reservoir computing, using an optoelectronic setup. Reservoir computing is a robust framework for signal processing applications, and the development of efficient optimization approaches remains a key challenge. The technique we address leverages solely a delayed version of the input signal to identify the optimal operational region of the reservoir, simplifying the traditionally time-consuming task of hyperparameter tuning. We verify the effectiveness of this approach on different benchmark tasks and reservoir operating conditions.",
+    "path": "papers/24/01/2401.14371.json",
+    "total_tokens": 650,
+    "translated_title": "仅使用延迟输入的物理储备计算机的高效优化",
+    "translated_abstract": "我们提出了一种最近提出的用于储备计算的优化技术的实验验证，使用了光电子设置。储备计算是一种用于信号处理应用的稳健框架，高效优化方法的开发仍然是一个关键挑战。我们提出的技术仅利用延迟版本的输入信号来识别储备的最佳操作区域，简化了传统上耗时的超参数调整任务。我们验证了该方法在不同基准任务和储备操作条件下的有效性。",
+    "tldr": "本文介绍了一种仅使用延迟输入信号来实现储备计算机最优操作区域识别的高效优化技术，并通过实验证明其在不同任务和操作条件下的有效性。",
+    "en_tdlr": "This paper presents an efficient optimization technique for physical reservoir computers using only a delayed input signal to identify the optimal operational region, simplifying hyperparameter tuning. Experimental results demonstrate its effectiveness in various tasks and operating conditions."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Stochastic Weakly Convex Optimization Beyond Lipschitz Continuity. (arXiv:2401.13971v1 [math.OC])",
+    "abstract": "This paper considers stochastic weakly convex optimization without the standard Lipschitz continuity assumption. Based on new adaptive regularization (stepsize) strategies, we show that a wide class of stochastic algorithms, including the stochastic subgradient method, preserve the $\\mathcal{O} ( 1 / \\sqrt{K})$ convergence rate with constant failure rate. Our analyses rest on rather weak assumptions: the Lipschitz parameter can be either bounded by a general growth function of $\\|x\\|$ or locally estimated through independent random samples.",
+    "link": "http://arxiv.org/abs/2401.13971",
+    "context": "Title: Stochastic Weakly Convex Optimization Beyond Lipschitz Continuity. (arXiv:2401.13971v1 [math.OC])\nAbstract: This paper considers stochastic weakly convex optimization without the standard Lipschitz continuity assumption. Based on new adaptive regularization (stepsize) strategies, we show that a wide class of stochastic algorithms, including the stochastic subgradient method, preserve the $\\mathcal{O} ( 1 / \\sqrt{K})$ convergence rate with constant failure rate. Our analyses rest on rather weak assumptions: the Lipschitz parameter can be either bounded by a general growth function of $\\|x\\|$ or locally estimated through independent random samples.",
+    "path": "papers/24/01/2401.13971.json",
+    "total_tokens": 727,
+    "translated_title": "超过Lipschitz连续性的随机弱凸优化",
+    "translated_abstract": "本文研究了在没有标准Lipschitz连续性假设的情况下的随机弱凸优化。基于新的自适应正则化（步长）策略，我们证明了一类广泛的随机算法，包括随机次梯度法，具有$\\mathcal{O} ( 1 / \\sqrt{K})$的收敛速度，失败率为常数。我们的分析基于相当弱的假设：Lipschitz参数可以通过$\\|x\\|$的一般增长函数来限制，或者通过独立随机样本进行局部估计。",
+    "tldr": "本文研究了没有标准Lipschitz连续性假设的随机弱凸优化问题，并提出了新的自适应正则化策略。结果表明，一类广泛的随机算法具有$\\mathcal{O} ( 1 / \\sqrt{K})$的收敛速度和常数的失败率。"
+}

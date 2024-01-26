@@ -1,0 +1,11 @@
+{
+    "title": "Process Mining for Unstructured Data: Challenges and Research Directions. (arXiv:2401.13677v1 [cs.DB])",
+    "abstract": "The application of process mining for unstructured data might significantly elevate novel insights into disciplines where unstructured data is a common data format. To efficiently analyze unstructured data by process mining and to convey confidence into the analysis result, requires bridging multiple challenges. The purpose of this paper is to discuss these challenges, present initial solutions and describe future research directions. We hope that this article lays the foundations for future collaboration on this topic.",
+    "link": "http://arxiv.org/abs/2401.13677",
+    "context": "Title: Process Mining for Unstructured Data: Challenges and Research Directions. (arXiv:2401.13677v1 [cs.DB])\nAbstract: The application of process mining for unstructured data might significantly elevate novel insights into disciplines where unstructured data is a common data format. To efficiently analyze unstructured data by process mining and to convey confidence into the analysis result, requires bridging multiple challenges. The purpose of this paper is to discuss these challenges, present initial solutions and describe future research directions. We hope that this article lays the foundations for future collaboration on this topic.",
+    "path": "papers/24/01/2401.13677.json",
+    "total_tokens": 564,
+    "translated_title": "用于非结构化数据的过程挖掘：挑战与研究方向",
+    "translated_abstract": "将过程挖掘应用于非结构化数据可能显著提升对非结构化数据常见数据格式领域的新见解。要有效分析非结构化数据，并对分析结果传达信心，需要克服多个挑战。本文旨在讨论这些挑战，提出初步解决方案并描述未来的研究方向。我们希望这篇文章为未来在这个主题上的合作奠定基础。",
+    "tldr": "这篇论文讨论了将过程挖掘应用于非结构化数据所面临的挑战，并提出了初步解决方案和未来的研究方向。"
+}

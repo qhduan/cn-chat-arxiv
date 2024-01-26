@@ -1,0 +1,11 @@
+{
+    "title": "A note on incorrect inferences in non-binary qualitative probabilistic networks. (arXiv:2208.09344v3 [cs.AI] UPDATED)",
+    "abstract": "Qualitative probabilistic networks (QPNs) combine the conditional independence assumptions of Bayesian networks with the qualitative properties of positive and negative dependence. They formalise various intuitive properties of positive dependence to allow inferences over a large network of variables. However, we will demonstrate in this paper that, due to an incorrect symmetry property, many inferences obtained in non-binary QPNs are not mathematically true. We will provide examples of such incorrect inferences and briefly discuss possible resolutions.",
+    "link": "http://arxiv.org/abs/2208.09344",
+    "context": "Title: A note on incorrect inferences in non-binary qualitative probabilistic networks. (arXiv:2208.09344v3 [cs.AI] UPDATED)\nAbstract: Qualitative probabilistic networks (QPNs) combine the conditional independence assumptions of Bayesian networks with the qualitative properties of positive and negative dependence. They formalise various intuitive properties of positive dependence to allow inferences over a large network of variables. However, we will demonstrate in this paper that, due to an incorrect symmetry property, many inferences obtained in non-binary QPNs are not mathematically true. We will provide examples of such incorrect inferences and briefly discuss possible resolutions.",
+    "path": "papers/22/08/2208.09344.json",
+    "total_tokens": 602,
+    "translated_title": "关于非二进制定性概率网络中错误推理的一点说明",
+    "translated_abstract": "定性概率网络（QPNs）将贝叶斯网络的条件独立性假设与正负依赖性的定性特性相结合。它们形式化了正依赖性的各种直观特性，以便在大型变量网络中进行推理。然而，在本文中，我们将证明由于一个不正确的对称性质，在非二进制QPNs中得到的许多推理在数学上不成立。我们将提供一些此类错误推理的例子，并简要讨论可能的解决方案。",
+    "tldr": "本文指出了非二进制定性概率网络中的错误推理问题，并提供了示例和解决方案讨论。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Solving Some Geometry Problems of the N\\'aboj 2023 Contest with Automated Deduction in GeoGebra Discovery. (arXiv:2401.13703v1 [math.HO])",
+    "abstract": "In this article, we solve some of the geometry problems of the N\\'aboj 2023 competition with the help of a computer, using examples that the software tool GeoGebra Discovery can calculate. In each case, the calculation requires symbolic computations. We analyze the difficulty of feeding the problem into the machine and set further goals to make the problems of this type of contests even more tractable in the future.",
+    "link": "http://arxiv.org/abs/2401.13703",
+    "context": "Title: Solving Some Geometry Problems of the N\\'aboj 2023 Contest with Automated Deduction in GeoGebra Discovery. (arXiv:2401.13703v1 [math.HO])\nAbstract: In this article, we solve some of the geometry problems of the N\\'aboj 2023 competition with the help of a computer, using examples that the software tool GeoGebra Discovery can calculate. In each case, the calculation requires symbolic computations. We analyze the difficulty of feeding the problem into the machine and set further goals to make the problems of this type of contests even more tractable in the future.",
+    "path": "papers/24/01/2401.13703.json",
+    "total_tokens": 593,
+    "translated_title": "使用GeoGebra Discovery自动推理解决N'aboj 2023竞赛的一些几何问题",
+    "translated_abstract": "在本文中，我们使用计算机解决了N'aboj 2023竞赛中的一些几何问题，借助计算软件工具GeoGebra Discovery进行计算。在每个案例中，计算都需要符号计算。我们分析了将问题输入计算机的难度，并制定了进一步的目标，以使这类竞赛问题在将来更易处理。",
+    "tldr": "本文使用GeoGebra Discovery软件工具，利用计算机解决了N'aboj 2023竞赛的一些几何问题，并分析了问题输入的难度和未来的目标。",
+    "en_tdlr": "This article solves some geometry problems of the N'aboj 2023 competition using the computer software tool GeoGebra Discovery, and analyzes the difficulty of inputting the problems and sets future goals."
+}

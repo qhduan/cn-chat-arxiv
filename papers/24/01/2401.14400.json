@@ -1,0 +1,11 @@
+{
+    "title": "Modular Adaptation of Multilingual Encoders to Written Swiss German Dialect. (arXiv:2401.14400v1 [cs.CL])",
+    "abstract": "Creating neural text encoders for written Swiss German is challenging due to a dearth of training data combined with dialectal variation. In this paper, we build on several existing multilingual encoders and adapt them to Swiss German using continued pre-training. Evaluation on three diverse downstream tasks shows that simply adding a Swiss German adapter to a modular encoder achieves 97.5% of fully monolithic adaptation performance. We further find that for the task of retrieving Swiss German sentences given Standard German queries, adapting a character-level model is more effective than the other adaptation strategies. We release our code and the models trained for our experiments at https://github.com/ZurichNLP/swiss-german-text-encoders",
+    "link": "http://arxiv.org/abs/2401.14400",
+    "context": "Title: Modular Adaptation of Multilingual Encoders to Written Swiss German Dialect. (arXiv:2401.14400v1 [cs.CL])\nAbstract: Creating neural text encoders for written Swiss German is challenging due to a dearth of training data combined with dialectal variation. In this paper, we build on several existing multilingual encoders and adapt them to Swiss German using continued pre-training. Evaluation on three diverse downstream tasks shows that simply adding a Swiss German adapter to a modular encoder achieves 97.5% of fully monolithic adaptation performance. We further find that for the task of retrieving Swiss German sentences given Standard German queries, adapting a character-level model is more effective than the other adaptation strategies. We release our code and the models trained for our experiments at https://github.com/ZurichNLP/swiss-german-text-encoders",
+    "path": "papers/24/01/2401.14400.json",
+    "total_tokens": 854,
+    "translated_title": "将多语言编码器模块化地适应瑞士德语方言",
+    "translated_abstract": "由于缺乏训练数据和方言变化，建立适用于瑞士德语的神经文本编码器具有挑战性。本文在现有多语言编码器的基础上，使用持续的预训练将其适应到瑞士德语。在三个不同的下游任务上进行评估表明，仅添加瑞士德语适配器到模块化编码器能够达到完全整体适应性性能的97.5%。我们进一步发现，在给定标准德语查询的情况下检索瑞士德语句子的任务中，适应字符级模型比其他适应策略更有效。我们在https://github.com/ZurichNLP/swiss-german-text-encoders发布了我们的代码和训练模型。",
+    "tldr": "本文利用多语言编码器并通过持续预训练将其适应到瑞士德语，评估结果显示，仅通过添加瑞士德语适配器到模块化编码器，即可获得完全适应性的97.5%性能。此外，在瑞士德语句子检索任务中，适应字符级模型比其他适应策略更有效。"
+}

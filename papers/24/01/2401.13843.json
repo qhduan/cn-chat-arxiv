@@ -1,0 +1,11 @@
+{
+    "title": "Enumerating the k-fold configurations in multi-class classification problems. (arXiv:2401.13843v1 [cs.LG])",
+    "abstract": "K-fold cross-validation is a widely used tool for assessing classifier performance. The reproducibility crisis faced by artificial intelligence partly results from the irreproducibility of reported k-fold cross-validation-based performance scores. Recently, we introduced numerical techniques to test the consistency of claimed performance scores and experimental setups. In a crucial use case, the method relies on the combinatorial enumeration of all k-fold configurations, for which we proposed an algorithm in the binary classification case.",
+    "link": "http://arxiv.org/abs/2401.13843",
+    "context": "Title: Enumerating the k-fold configurations in multi-class classification problems. (arXiv:2401.13843v1 [cs.LG])\nAbstract: K-fold cross-validation is a widely used tool for assessing classifier performance. The reproducibility crisis faced by artificial intelligence partly results from the irreproducibility of reported k-fold cross-validation-based performance scores. Recently, we introduced numerical techniques to test the consistency of claimed performance scores and experimental setups. In a crucial use case, the method relies on the combinatorial enumeration of all k-fold configurations, for which we proposed an algorithm in the binary classification case.",
+    "path": "papers/24/01/2401.13843.json",
+    "total_tokens": 606,
+    "translated_title": "在多类分类问题中枚举k折配置",
+    "translated_abstract": "K折交叉验证是评估分类器性能的常用工具。人工智能面临的可重复性危机部分源于报告的基于k折交叉验证的性能得分不可复现。最近，我们引入了数值技术来测试所声称的性能得分和实验设置的一致性。在一个关键的使用案例中，该方法依赖于对所有k折配置的组合枚举，对于这种情况，我们在二分类问题中提出了一个算法。",
+    "tldr": "本研究介绍了一种在多类分类问题中枚举k折配置的算法，用来解决基于k折交叉验证的性能得分不可复现的问题。"
+}

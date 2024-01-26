@@ -1,0 +1,12 @@
+{
+    "title": "CultureBERT: Measuring Corporate Culture With Transformer-Based Language Models. (arXiv:2212.00509v4 [cs.CL] UPDATED)",
+    "abstract": "This paper introduces transformer-based language models to the literature measuring corporate culture from text documents. We compile a unique data set of employee reviews that were labeled by human evaluators with respect to the information the reviews reveal about the firms' corporate culture. Using this data set, we fine-tune state-of-the-art transformer-based language models to perform the same classification task. In out-of-sample predictions, our language models classify 17 to 30 percentage points more of employee reviews in line with human evaluators than traditional approaches of text classification. We make our models publicly available.",
+    "link": "http://arxiv.org/abs/2212.00509",
+    "context": "Title: CultureBERT: Measuring Corporate Culture With Transformer-Based Language Models. (arXiv:2212.00509v4 [cs.CL] UPDATED)\nAbstract: This paper introduces transformer-based language models to the literature measuring corporate culture from text documents. We compile a unique data set of employee reviews that were labeled by human evaluators with respect to the information the reviews reveal about the firms' corporate culture. Using this data set, we fine-tune state-of-the-art transformer-based language models to perform the same classification task. In out-of-sample predictions, our language models classify 17 to 30 percentage points more of employee reviews in line with human evaluators than traditional approaches of text classification. We make our models publicly available.",
+    "path": "papers/22/12/2212.00509.json",
+    "total_tokens": 695,
+    "translated_title": "CultureBERT：使用基于Transformer的语言模型来衡量企业文化",
+    "translated_abstract": "本文将基于Transformer的语言模型引入到文献中，用于衡量企业文化的文本文档。我们编制了一个独特的员工评价数据集，并由人工评估者对这些评价进行标记，以了解这些评价对公司企业文化的揭示程度。利用这个数据集，我们对最先进的基于Transformer的语言模型进行微调，以执行相同的分类任务。在样本外的预测中，我们的语言模型将员工评价与人工评估者的分类一致性比传统的文本分类方法提高了17到30个百分点。我们将模型公开提供。",
+    "tldr": "本文引入了基于Transformer的语言模型来衡量企业文化，通过对员工评价进行分类，相较于传统方法，语言模型在样本外预测中能提高17到30个百分点的准确率。",
+    "en_tdlr": "This paper introduces transformer-based language models to measure corporate culture by classifying employee reviews, and shows that these models outperform traditional approaches by improving the accuracy by 17 to 30 percentage points in out-of-sample predictions."
+}

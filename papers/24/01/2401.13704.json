@@ -1,0 +1,12 @@
+{
+    "title": "Using Java Geometry Expert as Guide in the Preparations for Math Contests. (arXiv:2401.13704v1 [cs.CY])",
+    "abstract": "We give an insight into Java Geometry Expert (JGEX) in use in a school context, focusing on the Austrian school system. JGEX can offer great support in some classroom situations, especially for solving mathematical competition tasks. Also, we discuss some limitations of the program.",
+    "link": "http://arxiv.org/abs/2401.13704",
+    "context": "Title: Using Java Geometry Expert as Guide in the Preparations for Math Contests. (arXiv:2401.13704v1 [cs.CY])\nAbstract: We give an insight into Java Geometry Expert (JGEX) in use in a school context, focusing on the Austrian school system. JGEX can offer great support in some classroom situations, especially for solving mathematical competition tasks. Also, we discuss some limitations of the program.",
+    "path": "papers/24/01/2401.13704.json",
+    "total_tokens": 535,
+    "translated_title": "使用Java几何专家作为数学竞赛准备的指导",
+    "translated_abstract": "我们介绍了Java几何专家（JGEX）在学校环境中的使用情况，重点关注奥地利的学校系统。JGEX在某些课堂情境下可以提供很大的支持，尤其是解决数学竞赛题目。此外，我们还讨论了该程序的一些局限性。",
+    "tldr": "Java几何专家（JGEX）在学校环境中的使用情况及其在解决数学竞赛题目中的支持。同时也讨论了程序的局限性。",
+    "en_tdlr": "Insight into the use of Java Geometry Expert (JGEX) in school context, particularly in solving mathematical competition tasks, along with discussion on limitations of the program."
+}

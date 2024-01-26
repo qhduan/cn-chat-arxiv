@@ -1,0 +1,12 @@
+{
+    "title": "Determinants of Hotels and Restaurants entrepreneurship: A study using GEM data. (arXiv:2401.13685v1 [econ.GN])",
+    "abstract": "The objective of this work is to assess the influence of certain factors on the likelihood of being a Hotels and Restaurants (H&R) entrepreneur. The factors evaluated are demographic and economic variables, variables related to perceptions of the environment and personal traits, and variables measuring the individual's intellectual and social capital. The work uses logistic regression techniques to analyze a sample of 33,711 individuals in the countries participating in the GEM project in 2008. The findings show that age, gender, income, perception of opportunities, fear of failure, entrepreneurial ability, knowing other entrepreneurs and being a business angel are explanatory factors of the probability of being an H&R entrepreneur.",
+    "link": "http://arxiv.org/abs/2401.13685",
+    "context": "Title: Determinants of Hotels and Restaurants entrepreneurship: A study using GEM data. (arXiv:2401.13685v1 [econ.GN])\nAbstract: The objective of this work is to assess the influence of certain factors on the likelihood of being a Hotels and Restaurants (H&R) entrepreneur. The factors evaluated are demographic and economic variables, variables related to perceptions of the environment and personal traits, and variables measuring the individual's intellectual and social capital. The work uses logistic regression techniques to analyze a sample of 33,711 individuals in the countries participating in the GEM project in 2008. The findings show that age, gender, income, perception of opportunities, fear of failure, entrepreneurial ability, knowing other entrepreneurs and being a business angel are explanatory factors of the probability of being an H&R entrepreneur.",
+    "path": "papers/24/01/2401.13685.json",
+    "total_tokens": 776,
+    "translated_title": "酒店和餐厅创业的决定因素：基于GEM数据的研究",
+    "translated_abstract": "本研究旨在评估某些因素对成为酒店和餐厅（H&R）创业者可能性的影响。评估的因素包括人口统计学和经济变量，与环境感知和个人特征相关的变量，以及衡量个人智力和社会资本的变量。本研究使用逻辑回归技术分析了2008年参与GEM项目的33,711名个体的样本。研究结果显示，年龄、性别、收入、机会感知、失败恐惧、创业能力、认识其他创业者以及成为商业天使是成为H&R创业者的解释因素。",
+    "tldr": "本研究使用GEM数据分析了33,711名个体，发现年龄、性别、收入、机会感知、失败恐惧、创业能力、认识其他创业者以及成为商业天使是成为酒店和餐厅创业者的决定因素。",
+    "en_tdlr": "This study analyzes GEM data from 33,711 individuals and finds that age, gender, income, perception of opportunities, fear of failure, entrepreneurial ability, knowing other entrepreneurs, and being a business angel are determinants of being a Hotels and Restaurants entrepreneur."
+}

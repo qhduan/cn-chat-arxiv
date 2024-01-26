@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic embedded topic models and change-point detection for exploring literary-historical hypotheses. (arXiv:2401.13905v1 [cs.CL])",
+    "abstract": "We present a novel combination of dynamic embedded topic models and change-point detection to explore diachronic change of lexical semantic modality in classical and early Christian Latin. We demonstrate several methods for finding and characterizing patterns in the output, and relating them to traditional scholarship in Comparative Literature and Classics. This simple approach to unsupervised models of semantic change can be applied to any suitable corpus, and we conclude with future directions and refinements aiming to allow noisier, less-curated materials to meet that threshold.",
+    "link": "http://arxiv.org/abs/2401.13905",
+    "context": "Title: Dynamic embedded topic models and change-point detection for exploring literary-historical hypotheses. (arXiv:2401.13905v1 [cs.CL])\nAbstract: We present a novel combination of dynamic embedded topic models and change-point detection to explore diachronic change of lexical semantic modality in classical and early Christian Latin. We demonstrate several methods for finding and characterizing patterns in the output, and relating them to traditional scholarship in Comparative Literature and Classics. This simple approach to unsupervised models of semantic change can be applied to any suitable corpus, and we conclude with future directions and refinements aiming to allow noisier, less-curated materials to meet that threshold.",
+    "path": "papers/24/01/2401.13905.json",
+    "total_tokens": 789,
+    "translated_title": "动态嵌入主题模型和变点检测用于探索文学-历史假设",
+    "translated_abstract": "我们提出了一种新颖的动态嵌入主题模型和变点检测的组合方法，用于探索经典和早期基督教拉丁语中词汇语义模态的历时变化。我们展示了几种用于发现和表征输出中的模式，并将它们与比较文学和古典学的传统学术研究相关联的方法。这种简单的无监督模型的语义变化方法可以应用于任何合适的语料库，并通过未来的方向和改进来使更多的未编辑材料达到阈值。",
+    "tldr": "本研究提出了一种新颖的方法，将动态嵌入主题模型和变点检测结合起来，通过探索文学和历史文本中的词汇语义模态的历时变化，为比较文学和古典学的传统学术研究提供了一种简单的无监督模型。这种方法可以适用于任何适合的语料库，未来还可以通过改进和扩展使其适应更多的未处理材料。",
+    "en_tdlr": "This study introduces a novel approach that combines dynamic embedded topic models and change-point detection to explore the diachronic change of lexical semantic modality in classical and early Christian Latin. It provides a simple unsupervised model for analyzing semantic change that can be applied to various corpora, with potential future improvements to handle less curated materials."
+}

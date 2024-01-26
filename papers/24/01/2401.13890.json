@@ -1,0 +1,12 @@
+{
+    "title": "Discrete Hawkes process with flexible residual distribution and filtered historical simulation. (arXiv:2401.13890v1 [q-fin.ST])",
+    "abstract": "We introduce a new model which can be considered as a extended version of the Hawkes process in a discrete sense. This model enables the integration of various residual distributions while preserving the fundamental properties of the original Hawkes process. The rich nature of this model enables a filtered historical simulation which incorporate the properties of original time series more accurately. The process naturally extends to multi-variate models with easy implementations of estimation and simulation. We investigate the effect of flexible residual distribution on estimation of high frequency financial data compared with the Hawkes process.",
+    "link": "http://arxiv.org/abs/2401.13890",
+    "context": "Title: Discrete Hawkes process with flexible residual distribution and filtered historical simulation. (arXiv:2401.13890v1 [q-fin.ST])\nAbstract: We introduce a new model which can be considered as a extended version of the Hawkes process in a discrete sense. This model enables the integration of various residual distributions while preserving the fundamental properties of the original Hawkes process. The rich nature of this model enables a filtered historical simulation which incorporate the properties of original time series more accurately. The process naturally extends to multi-variate models with easy implementations of estimation and simulation. We investigate the effect of flexible residual distribution on estimation of high frequency financial data compared with the Hawkes process.",
+    "path": "papers/24/01/2401.13890.json",
+    "total_tokens": 719,
+    "translated_title": "灵活残差分布和滤波历史模拟的离散Hawkes过程",
+    "translated_abstract": "我们引入了一个新模型，可以将其视为离散意义上的Hawkes过程的扩展版本。该模型使得能够集成各种残差分布，同时保留原始Hawkes过程的基本属性。这种模型的丰富性使得滤波历史模拟能够更准确地融入原始时间序列的特性。该过程自然地扩展到容易实现估计和模拟的多变量模型。我们研究了灵活残差分布对高频金融数据估计的影响，与Hawkes过程进行了比较。",
+    "tldr": "这篇论文介绍了一个灵活的离散Hawkes过程模型，可以集成不同的残差分布，并实现滤波历史模拟，扩展到多变量模型，与Hawkes过程相比，在高频金融数据估计上具有更好的效果。",
+    "en_tdlr": "The paper introduces a flexible discrete Hawkes process model that integrates various residual distributions and enables filtered historical simulation. It extends to multivariate models and outperforms the original Hawkes process in estimating high frequency financial data."
+}
