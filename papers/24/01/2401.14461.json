@@ -1,0 +1,12 @@
+{
+    "title": "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks. (arXiv:2401.14461v1 [cs.AI])",
+    "abstract": "This paper serves as a comprehensive system description of version 2.0 of the Marabou framework for formal analysis of neural networks. We discuss the tool's architectural design and highlight the major features and components introduced since its initial release.",
+    "link": "http://arxiv.org/abs/2401.14461",
+    "context": "Title: Marabou 2.0: A Versatile Formal Analyzer of Neural Networks. (arXiv:2401.14461v1 [cs.AI])\nAbstract: This paper serves as a comprehensive system description of version 2.0 of the Marabou framework for formal analysis of neural networks. We discuss the tool's architectural design and highlight the major features and components introduced since its initial release.",
+    "path": "papers/24/01/2401.14461.json",
+    "total_tokens": 473,
+    "translated_title": "Marabou 2.0: 一个多功能的神经网络形式分析器",
+    "translated_abstract": "本文是关于Marabou框架2.0版本的综合系统描述，用于神经网络的形式分析。我们讨论了工具的架构设计，并介绍了自初始发布以来引入的主要功能和组件。",
+    "tldr": "Marabou 2.0是一个多功能的神经网络形式分析器，具有创新的架构设计和引入的主要功能和组件。",
+    "en_tdlr": "Marabou 2.0 is a versatile formal analyzer of neural networks, featuring innovative architectural design and introduced major features and components."
+}

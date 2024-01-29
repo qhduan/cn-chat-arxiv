@@ -1,0 +1,11 @@
+{
+    "title": "Leveraging Generative AI for Clinical Evidence Summarization Needs to Ensure Trustworthiness. (arXiv:2311.11211v2 [cs.AI] UPDATED)",
+    "abstract": "Evidence-based medicine promises to improve the quality of healthcare by empowering medical decisions and practices with the best available evidence. The rapid growth of medical evidence, which can be obtained from various sources, poses a challenge in collecting, appraising, and synthesizing the evidential information. Recent advancements in generative AI, exemplified by large language models, hold promise in facilitating the arduous task. However, developing accountable, fair, and inclusive models remains a complicated undertaking. In this perspective, we discuss the trustworthiness of generative AI in the context of automated summarization of medical evidence.",
+    "link": "http://arxiv.org/abs/2311.11211",
+    "context": "Title: Leveraging Generative AI for Clinical Evidence Summarization Needs to Ensure Trustworthiness. (arXiv:2311.11211v2 [cs.AI] UPDATED)\nAbstract: Evidence-based medicine promises to improve the quality of healthcare by empowering medical decisions and practices with the best available evidence. The rapid growth of medical evidence, which can be obtained from various sources, poses a challenge in collecting, appraising, and synthesizing the evidential information. Recent advancements in generative AI, exemplified by large language models, hold promise in facilitating the arduous task. However, developing accountable, fair, and inclusive models remains a complicated undertaking. In this perspective, we discuss the trustworthiness of generative AI in the context of automated summarization of medical evidence.",
+    "path": "papers/23/11/2311.11211.json",
+    "total_tokens": 714,
+    "translated_title": "利用生成型人工智能进行临床证据摘要需要确保可靠性",
+    "translated_abstract": "证据医学承诺通过利用最佳可用证据来增强医疗决策和实践，从而提高医疗质量。医学证据的快速增长，可以从各种来源获取，给收集、评估和综合证据信息带来了挑战。最近生成型人工智能的进展，例如大型语言模型，有望促进这项艰巨的任务。然而，开发出具有问责制、公平和包容性的模型仍然是一项复杂的任务。在这个视角中，我们讨论了生成型人工智能在自动化医疗证据摘要方面的可靠性问题。",
+    "tldr": "这项研究讨论了利用生成型人工智能进行临床证据摘要的可靠性问题，尤其关注开发问责制、公平和包容性的模型的挑战。"
+}

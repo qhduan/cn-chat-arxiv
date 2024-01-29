@@ -1,0 +1,12 @@
+{
+    "title": "Prompt Design and Engineering: Introduction and Advanced Methods. (arXiv:2401.14423v1 [cs.SE])",
+    "abstract": "Prompt design and engineering has become an important discipline in just the past few months. In this paper, we provide an introduction to the main concepts as well as review basic and more advanced approaches to prompt design and engineering.",
+    "link": "http://arxiv.org/abs/2401.14423",
+    "context": "Title: Prompt Design and Engineering: Introduction and Advanced Methods. (arXiv:2401.14423v1 [cs.SE])\nAbstract: Prompt design and engineering has become an important discipline in just the past few months. In this paper, we provide an introduction to the main concepts as well as review basic and more advanced approaches to prompt design and engineering.",
+    "path": "papers/24/01/2401.14423.json",
+    "total_tokens": 433,
+    "translated_title": "提示设计与工程：介绍与高级方法",
+    "translated_abstract": "提示设计与工程在过去几个月中成为了一个重要的学科。在本文中，我们介绍了主要概念，并回顾了提示设计与工程的基本和更高级的方法。",
+    "tldr": "本文介绍了提示设计与工程的主要概念，并回顾了基本和更高级的方法。",
+    "en_tdlr": "This paper provides an introduction to the main concepts of prompt design and engineering and reviews basic and more advanced methods in this field."
+}

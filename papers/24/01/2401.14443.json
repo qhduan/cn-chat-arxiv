@@ -1,0 +1,12 @@
+{
+    "title": "Cash non-additive risk measures: horizon risk and generalized entropy. (arXiv:2401.14443v1 [q-fin.RM])",
+    "abstract": "Horizon risk (see arXiv:2301.04971) is studied in the context of cash non-additive fully-dynamic risk measures induced by BSDEs. Furthermore, we introduce a risk measure based on generalized Tsallis entropy which can dynamically evaluate the riskiness of losses considering both horizon risk and interest rate uncertainty. The new q-entropic risk measure on losses can be used as a quantification of capital requirement.",
+    "link": "http://arxiv.org/abs/2401.14443",
+    "context": "Title: Cash non-additive risk measures: horizon risk and generalized entropy. (arXiv:2401.14443v1 [q-fin.RM])\nAbstract: Horizon risk (see arXiv:2301.04971) is studied in the context of cash non-additive fully-dynamic risk measures induced by BSDEs. Furthermore, we introduce a risk measure based on generalized Tsallis entropy which can dynamically evaluate the riskiness of losses considering both horizon risk and interest rate uncertainty. The new q-entropic risk measure on losses can be used as a quantification of capital requirement.",
+    "path": "papers/24/01/2401.14443.json",
+    "total_tokens": 666,
+    "translated_title": "现金非可加风险度量：时间跨度风险和广义熵",
+    "translated_abstract": "在由BSDEs引起的现金非可加完全动态风险度量的背景下，研究了时间跨度风险。此外，我们引入了一种基于广义Tsallis熵的风险度量，可以动态评估考虑时间跨度风险和利率不确定性的损失的风险性。损失的新的q-熵风险度量可用作资本需求的量化。",
+    "tldr": "该论文研究了在现金非可加风险度量背景下的时间跨度风险，并引入了一种基于广义Tsallis熵的风险度量，可以动态评估损失的风险性和利率不确定性。这项研究对于量化资本需求有着重要意义。",
+    "en_tdlr": "This paper investigates horizon risk in the context of cash non-additive fully-dynamic risk measures and introduces a risk measure based on generalized Tsallis entropy that can dynamically evaluate the riskiness of losses considering both horizon risk and interest rate uncertainty. This study is significant for quantifying capital requirements."
+}

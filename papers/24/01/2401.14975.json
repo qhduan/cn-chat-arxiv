@@ -1,0 +1,12 @@
+{
+    "title": "Embedding-based search in JetBrains IDEs. (arXiv:2401.14975v1 [cs.SE])",
+    "abstract": "Most modern Integrated Development Environments (IDEs) and code editors have a feature to search across available functionality and items in an open project. In JetBrains IDEs, this feature is called Search Everywhere: it allows users to search for files, actions, classes, symbols, settings, and anything from VCS history from a single entry point. However, it works with the candidates obtained by algorithms that don't account for semantics, e.g., synonyms, complex word permutations, part of the speech modifications, and typos. In this work, we describe the machine learning approach we implemented to improve the discoverability of search items. We also share the obstacles encountered during this process and how we overcame them.",
+    "link": "http://arxiv.org/abs/2401.14975",
+    "context": "Title: Embedding-based search in JetBrains IDEs. (arXiv:2401.14975v1 [cs.SE])\nAbstract: Most modern Integrated Development Environments (IDEs) and code editors have a feature to search across available functionality and items in an open project. In JetBrains IDEs, this feature is called Search Everywhere: it allows users to search for files, actions, classes, symbols, settings, and anything from VCS history from a single entry point. However, it works with the candidates obtained by algorithms that don't account for semantics, e.g., synonyms, complex word permutations, part of the speech modifications, and typos. In this work, we describe the machine learning approach we implemented to improve the discoverability of search items. We also share the obstacles encountered during this process and how we overcame them.",
+    "path": "papers/24/01/2401.14975.json",
+    "total_tokens": 696,
+    "translated_title": "基于嵌入式的JetBrains IDE的搜索功能",
+    "translated_abstract": "大多数现代集成开发环境（IDE）和代码编辑器都具有通过可用功能和项目中的项进行搜索的功能。在JetBrains IDE中，这个功能称为\"搜索全部\"：它允许用户从一个入口点搜索文件、操作、类、符号、设置以及版本控制系统(VCS)历史记录中的任何内容。然而，它仅通过不考虑语义的算法获取候选项，比如同义词、复杂的单词排列、词性修改和拼写错误等。在这项工作中，我们描述了我们实施的机器学习方法，以提高搜索项的可发现性。我们还分享了在这个过程中遇到的障碍以及如何克服它们。",
+    "tldr": "该论文介绍了在JetBrains IDE中实施的基于嵌入式的搜索功能，通过机器学习方法提高了搜索项的可发现性。",
+    "en_tdlr": "This paper presents an embedded-based search feature implemented in JetBrains IDEs, which utilizes machine learning to enhance the discoverability of search items."
+}

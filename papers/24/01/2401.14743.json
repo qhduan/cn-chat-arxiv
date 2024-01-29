@@ -1,0 +1,12 @@
+{
+    "title": "Synthetic Multimodal Dataset for Empowering Safety and Well-being in Home Environments. (arXiv:2401.14743v1 [cs.AI])",
+    "abstract": "This paper presents a synthetic multimodal dataset of daily activities that fuses video data from a 3D virtual space simulator with knowledge graphs depicting the spatiotemporal context of the activities. The dataset is developed for the Knowledge Graph Reasoning Challenge for Social Issues (KGRC4SI), which focuses on identifying and addressing hazardous situations in the home environment. The dataset is available to the public as a valuable resource for researchers and practitioners developing innovative solutions recognizing human behaviors to enhance safety and well-being in",
+    "link": "http://arxiv.org/abs/2401.14743",
+    "context": "Title: Synthetic Multimodal Dataset for Empowering Safety and Well-being in Home Environments. (arXiv:2401.14743v1 [cs.AI])\nAbstract: This paper presents a synthetic multimodal dataset of daily activities that fuses video data from a 3D virtual space simulator with knowledge graphs depicting the spatiotemporal context of the activities. The dataset is developed for the Knowledge Graph Reasoning Challenge for Social Issues (KGRC4SI), which focuses on identifying and addressing hazardous situations in the home environment. The dataset is available to the public as a valuable resource for researchers and practitioners developing innovative solutions recognizing human behaviors to enhance safety and well-being in",
+    "path": "papers/24/01/2401.14743.json",
+    "total_tokens": 743,
+    "translated_title": "用于增强家庭环境安全和福祉的合成多模态数据集",
+    "translated_abstract": "本文介绍了一个合成的多模态数据集，该数据集将来自3D虚拟空间模拟器的视频数据与描述活动的时空背景的知识图融合在一起。该数据集是为社会问题知识图推理挑战（KGRC4SI）开发的，重点是识别和解决家庭环境中的危险情况。该数据集可供公众使用，作为研究人员和从业者开发创新解决方案的有价值的资源，以识别人类行为并提升安全和福祉。",
+    "tldr": "本文介绍了一个合成的多模态数据集，结合了3D虚拟空间模拟器的视频数据和描述活动时空背景的知识图，旨在解决家庭环境中的危险情况，并提供给研究人员和从业者作为资源来开发创新解决方案，以提升安全和福祉。",
+    "en_tdlr": "This paper presents a synthetic multimodal dataset that combines video data from a 3D virtual space simulator with knowledge graphs depicting the spatiotemporal context of activities, aiming to address hazardous situations in the home environment and providing a valuable resource for researchers and practitioners to develop innovative solutions that enhance safety and well-being."
+}

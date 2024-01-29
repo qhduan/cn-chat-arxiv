@@ -1,0 +1,11 @@
+{
+    "title": "Cyclic Group Projection for Enumerating Quasi-Cyclic Codes Trapping Sets. (arXiv:2401.14810v1 [cs.IT])",
+    "abstract": "This paper introduces a novel approach to enumerate and assess Trapping sets in quasi-cyclic codes, those with circulant sizes that are non-prime numbers. Leveraging the quasi-cyclic properties, the method employs a tabular technique to streamline the importance sampling step for estimating the pseudo-codeword weight of Trapping sets. The presented methodology draws on the mathematical framework established in the provided theorem, which elucidates the behavior of projection and lifting transformations on pseudo-codewords",
+    "link": "http://arxiv.org/abs/2401.14810",
+    "context": "Title: Cyclic Group Projection for Enumerating Quasi-Cyclic Codes Trapping Sets. (arXiv:2401.14810v1 [cs.IT])\nAbstract: This paper introduces a novel approach to enumerate and assess Trapping sets in quasi-cyclic codes, those with circulant sizes that are non-prime numbers. Leveraging the quasi-cyclic properties, the method employs a tabular technique to streamline the importance sampling step for estimating the pseudo-codeword weight of Trapping sets. The presented methodology draws on the mathematical framework established in the provided theorem, which elucidates the behavior of projection and lifting transformations on pseudo-codewords",
+    "path": "papers/24/01/2401.14810.json",
+    "total_tokens": 684,
+    "translated_title": "循环群投影用于列举陷阱集中的准循环码",
+    "translated_abstract": "本文介绍了一种新的方法，用于列举和评估准循环码中的陷阱集，这些码具有非素数的循环大小。利用准循环码的特性，该方法使用表格技术来简化重要采样步骤，用于估计陷阱集的拟码字权重。所提出的方法利用了所提供的定理中建立的数学框架，阐明了投影和抬升变换对拟码字的行为。",
+    "tldr": "介绍了一种循环群投影的方法，用于列举和评估准循环码中的陷阱集，利用表格技术简化重要采样步骤并利用数学框架阐明投影和抬升变换对拟码字的行为。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Piecewise polynomial regression of tame functions via integer programming. (arXiv:2311.13544v1 [math.OC] CROSS LISTED)",
+    "abstract": "We consider the task of estimating functions belonging to a specific class of nonsmooth functions, namely so-called tame functions. These functions appear in a wide range of applications: training deep learning, value functions of mixed-integer programs, or wave functions of small molecules. We show that tame functions are approximable by piecewise polynomials on any full-dimensional cube. We then present the first ever mixed-integer programming formulation of piecewise polynomial regression. Together, these can be used to estimate tame functions. We demonstrate promising computational results.",
+    "link": "http://arxiv.org/abs/2311.13544",
+    "context": "Title: Piecewise polynomial regression of tame functions via integer programming. (arXiv:2311.13544v1 [math.OC] CROSS LISTED)\nAbstract: We consider the task of estimating functions belonging to a specific class of nonsmooth functions, namely so-called tame functions. These functions appear in a wide range of applications: training deep learning, value functions of mixed-integer programs, or wave functions of small molecules. We show that tame functions are approximable by piecewise polynomials on any full-dimensional cube. We then present the first ever mixed-integer programming formulation of piecewise polynomial regression. Together, these can be used to estimate tame functions. We demonstrate promising computational results.",
+    "path": "papers/23/11/2311.13544.json",
+    "total_tokens": 673,
+    "translated_title": "通过整数规划对温顺函数进行分段多项式回归",
+    "translated_abstract": "我们考虑估计属于一类特定的非光滑函数的函数的任务，即所谓的温顺函数。这些函数出现在各种应用中：深度学习的训练、混合整数规划的价值函数或小分子的波函数。我们展示了温顺函数在任何完全维度的立方体上可用分段多项式来逼近。然后我们提出了第一个分段多项式回归的混合整数规划形式。这些方法可用于估计温顺函数。我们展示了令人期待的计算结果。",
+    "tldr": "本论文提出了使用整数规划对温顺函数进行分段多项式回归的方法，这可以用于估计包含在许多应用中的温顺函数，并且展示了令人期待的计算结果。"
+}

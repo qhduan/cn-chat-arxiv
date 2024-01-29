@@ -1,0 +1,12 @@
+{
+    "title": "Airavata: Introducing Hindi Instruction-tuned LLM. (arXiv:2401.15006v1 [cs.CL])",
+    "abstract": "We announce the initial release of \"Airavata,\" an instruction-tuned LLM for Hindi. Airavata was created by fine-tuning OpenHathi with diverse, instruction-tuning Hindi datasets to make it better suited for assistive tasks. Along with the model, we also share the IndicInstruct dataset, which is a collection of diverse instruction-tuning datasets to enable further research for Indic LLMs. Additionally, we present evaluation benchmarks and a framework for assessing LLM performance across tasks in Hindi. Currently, Airavata supports Hindi, but we plan to expand this to all 22 scheduled Indic languages. You can access all artifacts at https://ai4bharat.github.io/airavata.",
+    "link": "http://arxiv.org/abs/2401.15006",
+    "context": "Title: Airavata: Introducing Hindi Instruction-tuned LLM. (arXiv:2401.15006v1 [cs.CL])\nAbstract: We announce the initial release of \"Airavata,\" an instruction-tuned LLM for Hindi. Airavata was created by fine-tuning OpenHathi with diverse, instruction-tuning Hindi datasets to make it better suited for assistive tasks. Along with the model, we also share the IndicInstruct dataset, which is a collection of diverse instruction-tuning datasets to enable further research for Indic LLMs. Additionally, we present evaluation benchmarks and a framework for assessing LLM performance across tasks in Hindi. Currently, Airavata supports Hindi, but we plan to expand this to all 22 scheduled Indic languages. You can access all artifacts at https://ai4bharat.github.io/airavata.",
+    "path": "papers/24/01/2401.15006.json",
+    "total_tokens": 769,
+    "translated_title": "Airavata: 引入针对印地语指令调整的LLM",
+    "translated_abstract": "我们宣布首次发布了\"Airavata\"，这是一个针对印地语进行指令调整的LLM。通过将OpenHathi与各种指令调整的印地语数据集进行微调，Airavata更适合辅助任务。除了模型外，我们还分享了IndicInstruct数据集，这是一组用于进一步研究Indic LLM的多样化指令调整数据集。此外，我们还提供了评估基准和评估框架，以评估LLM在印地语任务中的性能。目前，Airavata支持印地语，但我们计划将其扩展到所有22种计划Indic语言。您可以在https://ai4bharat.github.io/airavata上访问所有工件。",
+    "tldr": "\"Airavata\"是一个针对印地语进行指令调整的LLM，通过微调OpenHathi和IndicInstruct数据集，提供更好的协助任务性能，并计划扩展到所有22种计划Indic语言。",
+    "en_tdlr": "\"Airavata\" is an instruction-tuned LLM for Hindi that improves assistive task performance by fine-tuning OpenHathi and using the IndicInstruct dataset, with plans to expand to all 22 scheduled Indic languages."
+}

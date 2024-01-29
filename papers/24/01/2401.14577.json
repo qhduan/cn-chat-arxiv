@@ -1,0 +1,12 @@
+{
+    "title": "PrivStream: An Algorithm for Streaming Differentially Private Data. (arXiv:2401.14577v1 [cs.DB])",
+    "abstract": "Much of the research in differential privacy has focused on offline applications with the assumption that all data is available at once. When these algorithms are applied in practice to streams where data is collected over time, this either violates the privacy guarantees or results in poor utility. We derive an algorithm for differentially private synthetic streaming data generation, especially curated towards spatial datasets. Furthermore, we provide a general framework for online selective counting among a collection of queries which forms a basis for many tasks such as query answering and synthetic data generation. The utility of our algorithm is verified on both real-world and simulated datasets.",
+    "link": "http://arxiv.org/abs/2401.14577",
+    "context": "Title: PrivStream: An Algorithm for Streaming Differentially Private Data. (arXiv:2401.14577v1 [cs.DB])\nAbstract: Much of the research in differential privacy has focused on offline applications with the assumption that all data is available at once. When these algorithms are applied in practice to streams where data is collected over time, this either violates the privacy guarantees or results in poor utility. We derive an algorithm for differentially private synthetic streaming data generation, especially curated towards spatial datasets. Furthermore, we provide a general framework for online selective counting among a collection of queries which forms a basis for many tasks such as query answering and synthetic data generation. The utility of our algorithm is verified on both real-world and simulated datasets.",
+    "path": "papers/24/01/2401.14577.json",
+    "total_tokens": 702,
+    "translated_title": "PrivStream：一种用于流式差分隐私数据的算法",
+    "translated_abstract": "许多差分隐私研究都着重于假设所有数据一次性可用的离线应用。但当这些算法应用于实际中的数据流，要么违反了隐私保证，要么导致了糟糕的效用。我们提出了一种针对空间数据集的差分隐私合成流数据生成算法，并提供了一种在线选择性计数的通用框架，该框架可用于查询应答和合成数据生成等多个任务。我们的算法在真实数据集和模拟数据集上进行了实验验证。",
+    "tldr": "PrivStream是一种用于流式差分隐私数据的算法，可以解决离线应用中的隐私保护和数据效用问题。算法可以针对空间数据集进行合成流数据生成，并提供了通用的在线选择性计数框架，验证了算法的实用性。",
+    "en_tdlr": "PrivStream is an algorithm for streaming differentially private data that addresses privacy and utility issues in offline applications. It generates synthetic streaming data for spatial datasets and provides a general framework for online selective counting, demonstrating its effectiveness on real-world and simulated datasets."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "High-dimensional forecasting with known knowns and known unknowns. (arXiv:2401.14582v1 [econ.EM])",
+    "abstract": "Forecasts play a central role in decision making under uncertainty. After a brief review of the general issues, this paper considers ways of using high-dimensional data in forecasting. We consider selecting variables from a known active set, known knowns, using Lasso and OCMT, and approximating unobserved latent factors, known unknowns, by various means. This combines both sparse and dense approaches. We demonstrate the various issues involved in variable selection in a high-dimensional setting with an application to forecasting UK inflation at different horizons over the period 2020q1-2023q1. This application shows both the power of parsimonious models and the importance of allowing for global variables.",
+    "link": "http://arxiv.org/abs/2401.14582",
+    "context": "Title: High-dimensional forecasting with known knowns and known unknowns. (arXiv:2401.14582v1 [econ.EM])\nAbstract: Forecasts play a central role in decision making under uncertainty. After a brief review of the general issues, this paper considers ways of using high-dimensional data in forecasting. We consider selecting variables from a known active set, known knowns, using Lasso and OCMT, and approximating unobserved latent factors, known unknowns, by various means. This combines both sparse and dense approaches. We demonstrate the various issues involved in variable selection in a high-dimensional setting with an application to forecasting UK inflation at different horizons over the period 2020q1-2023q1. This application shows both the power of parsimonious models and the importance of allowing for global variables.",
+    "path": "papers/24/01/2401.14582.json",
+    "total_tokens": 738,
+    "translated_title": "具有已知已知和已知未知的高维预测",
+    "translated_abstract": "预测在不确定性下的决策中发挥着核心作用。本文在对一般问题进行简要回顾后，考虑了在高维数据预测中利用变量选择和近似未观测潜在因素的方法。我们通过使用Lasso和OCMT从已知的活跃集合中选择变量，并通过各种方式近似未观测的潜在因素来结合稀疏和密集方法。我们通过将这些方法应用于2020q1-2023q1期间不同时间范围内的英国通胀预测中来演示变量选择中涉及的各种问题。该应用展示了简约模型的能力以及允许全球变量的重要性。",
+    "tldr": "本论文讨论了如何在高维数据预测中利用变量选择和近似未观测潜在因素的方法，并通过英国通胀预测案例展示了这些方法的应用和重要性。",
+    "en_tdlr": "This paper discusses how to use variable selection and approximating unobserved latent factors in high-dimensional forecasting, and demonstrates their application and significance through a case study on UK inflation forecasting."
+}

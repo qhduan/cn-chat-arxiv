@@ -1,0 +1,12 @@
+{
+    "title": "Turn-taking and Backchannel Prediction with Acoustic and Large Language Model Fusion. (arXiv:2401.14717v1 [cs.CL])",
+    "abstract": "We propose an approach for continuous prediction of turn-taking and backchanneling locations in spoken dialogue by fusing a neural acoustic model with a large language model (LLM). Experiments on the Switchboard human-human conversation dataset demonstrate that our approach consistently outperforms the baseline models with single modality. We also develop a novel multi-task instruction fine-tuning strategy to further benefit from LLM-encoded knowledge for understanding the tasks and conversational contexts, leading to additional improvements. Our approach demonstrates the potential of combined LLMs and acoustic models for a more natural and conversational interaction between humans and speech-enabled AI agents.",
+    "link": "http://arxiv.org/abs/2401.14717",
+    "context": "Title: Turn-taking and Backchannel Prediction with Acoustic and Large Language Model Fusion. (arXiv:2401.14717v1 [cs.CL])\nAbstract: We propose an approach for continuous prediction of turn-taking and backchanneling locations in spoken dialogue by fusing a neural acoustic model with a large language model (LLM). Experiments on the Switchboard human-human conversation dataset demonstrate that our approach consistently outperforms the baseline models with single modality. We also develop a novel multi-task instruction fine-tuning strategy to further benefit from LLM-encoded knowledge for understanding the tasks and conversational contexts, leading to additional improvements. Our approach demonstrates the potential of combined LLMs and acoustic models for a more natural and conversational interaction between humans and speech-enabled AI agents.",
+    "path": "papers/24/01/2401.14717.json",
+    "total_tokens": 715,
+    "translated_title": "用声学和大型语言模型融合进行交替和回应预测",
+    "translated_abstract": "我们提出了一种连续预测口语对话中交替和回应位置的方法，通过融合神经声学模型和大型语言模型（LLM）。在Switchboard人际对话数据集上的实验表明，我们的方法始终优于单模态的基线模型。我们还开发了一种新颖的多任务指令微调策略，以进一步从LLM编码的知识中受益，从而提高了性能。我们的方法展示了使用组合的LLM和声学模型在人类和语音AI代理之间实现更自然和对话式互动的潜力。",
+    "tldr": "这个论文提出了一种利用声学和语言模型进行交替和回应预测的方法，通过融合这两种模型，可以在口语对话中实现更加自然和对话式的互动。",
+    "en_tdlr": "This paper proposes an approach for predicting turn-taking and backchanneling in spoken dialogue by fusing an acoustic model and a large language model. The results show that this approach outperforms baseline models and has the potential to achieve more natural and conversational interactions in speech-enabled AI agents."
+}

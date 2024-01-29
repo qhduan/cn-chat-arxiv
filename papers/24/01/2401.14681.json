@@ -1,0 +1,12 @@
+{
+    "title": "MasonTigers@LT-EDI-2024: An Ensemble Approach towards Detecting Homophobia and Transphobia in Social Media Comments. (arXiv:2401.14681v1 [cs.CL])",
+    "abstract": "In this paper, we describe our approaches and results for Task 2 of the LT-EDI 2024 Workshop, aimed at detecting homophobia and/or transphobia across ten languages. Our methodologies include monolingual transformers and ensemble methods, capitalizing on the strengths of each to enhance the performance of the models. The ensemble models worked well, placing our team, MasonTigers, in the top five for eight of the ten languages, as measured by the macro F1 score. Our work emphasizes the efficacy of ensemble methods in multilingual scenarios, addressing the complexities of language-specific tasks.",
+    "link": "http://arxiv.org/abs/2401.14681",
+    "context": "Title: MasonTigers@LT-EDI-2024: An Ensemble Approach towards Detecting Homophobia and Transphobia in Social Media Comments. (arXiv:2401.14681v1 [cs.CL])\nAbstract: In this paper, we describe our approaches and results for Task 2 of the LT-EDI 2024 Workshop, aimed at detecting homophobia and/or transphobia across ten languages. Our methodologies include monolingual transformers and ensemble methods, capitalizing on the strengths of each to enhance the performance of the models. The ensemble models worked well, placing our team, MasonTigers, in the top five for eight of the ten languages, as measured by the macro F1 score. Our work emphasizes the efficacy of ensemble methods in multilingual scenarios, addressing the complexities of language-specific tasks.",
+    "path": "papers/24/01/2401.14681.json",
+    "total_tokens": 710,
+    "translated_title": "MasonTigers@LT-EDI-2024：一种用于检测社交媒体评论中的恐同和恶意性别认知的集成方法",
+    "translated_abstract": "本文描述了我们在LT-EDI 2024研讨会的任务2中针对十种语言检测恐同和/或恶意性别认知的方法和结果。我们的方法包括单语言transformer和集成方法，利用每种方法的优势来提高模型的性能。集成模型表现良好，我们的团队MasonTigers在十种语言中的八种中都排名前五，以宏观F1分数衡量。我们的工作强调了集成方法在多语言情境下的有效性，解决了语言特定任务的复杂性。",
+    "tldr": "MasonTigers@LT-EDI-2024团队提出了一种集成方法，用于在十种语言中检测社交媒体评论中的恐同和恶意性别认知，取得了较好的性能表现。",
+    "en_tdlr": "MasonTigers@LT-EDI-2024 team proposes an ensemble approach to detect homophobia and transphobia in social media comments across ten languages, achieving good performance."
+}

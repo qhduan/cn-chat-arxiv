@@ -1,0 +1,11 @@
+{
+    "title": "ICASSP 2024 Speech Signal Improvement Challenge. (arXiv:2401.14444v1 [cs.SD])",
+    "abstract": "The ICASSP 2024 Speech Signal Improvement Grand Challenge is intended to stimulate research in the area of improving the speech signal quality in communication systems. This marks our second challenge, building upon the success from the previous ICASSP 2023 Grand Challenge. We enhance the competition by introducing a dataset synthesizer, enabling all participating teams to start at a higher baseline, an objective metric for our extended P.804 tests, transcripts for the 2023 test set, and we add Word Accuracy (WAcc) as a metric. We evaluate a total of 13 systems in the real-time track and 11 systems in the non-real-time track using both subjective P.804 and objective Word Accuracy metrics.",
+    "link": "http://arxiv.org/abs/2401.14444",
+    "context": "Title: ICASSP 2024 Speech Signal Improvement Challenge. (arXiv:2401.14444v1 [cs.SD])\nAbstract: The ICASSP 2024 Speech Signal Improvement Grand Challenge is intended to stimulate research in the area of improving the speech signal quality in communication systems. This marks our second challenge, building upon the success from the previous ICASSP 2023 Grand Challenge. We enhance the competition by introducing a dataset synthesizer, enabling all participating teams to start at a higher baseline, an objective metric for our extended P.804 tests, transcripts for the 2023 test set, and we add Word Accuracy (WAcc) as a metric. We evaluate a total of 13 systems in the real-time track and 11 systems in the non-real-time track using both subjective P.804 and objective Word Accuracy metrics.",
+    "path": "papers/24/01/2401.14444.json",
+    "total_tokens": 675,
+    "translated_title": "ICASSP 2024语音信号改进挑战",
+    "translated_abstract": "ICASSP 2024语音信号改进大挑战旨在促进通信系统中提高语音信号质量的研究。这是我们的第二个挑战，建立在前一次ICASSP 2023大挑战的成功基础上。我们通过引入数据集合成器、为我们的扩展P.804测试引入客观指标、2023测试集的转录以及将Word Accuracy (WA)作为一个指标，来增强竞争。我们使用客观的Word Accuracy指标和主观的P.804指标评估了总共13个实时系统和11个非实时系统。",
+    "tldr": "ICASSP 2024语音信号改进大挑战旨在促进通信系统中提高语音信号质量的研究。通过引入数据集合成器、客观指标、测试集转录和新的指标，我们评估了13个实时系统和11个非实时系统。"
+}

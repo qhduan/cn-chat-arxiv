@@ -1,0 +1,12 @@
+{
+    "title": "Detecting Structured Language Alternations in Historical Documents by Combining Language Identification with Fourier Analysis. (arXiv:2401.14569v1 [cs.CL])",
+    "abstract": "In this study, we present a generalizable workflow to identify documents in a historic language with a nonstandard language and script combination, Armeno-Turkish. We introduce the task of detecting distinct patterns of multilinguality based on the frequency of structured language alternations within a document.",
+    "link": "http://arxiv.org/abs/2401.14569",
+    "context": "Title: Detecting Structured Language Alternations in Historical Documents by Combining Language Identification with Fourier Analysis. (arXiv:2401.14569v1 [cs.CL])\nAbstract: In this study, we present a generalizable workflow to identify documents in a historic language with a nonstandard language and script combination, Armeno-Turkish. We introduce the task of detecting distinct patterns of multilinguality based on the frequency of structured language alternations within a document.",
+    "path": "papers/24/01/2401.14569.json",
+    "total_tokens": 547,
+    "translated_title": "结合语言识别和傅里叶分析，在历史文献中检测结构化语言交替的方法",
+    "translated_abstract": "本研究提出了一种通用的工作流程，用于识别非标准语言和书写组合（亚美尼亚土耳其语）的历史语言文献。我们引入了检测文献中结构化语言交替频率的任务。",
+    "tldr": "本研究提出了一种结合语言识别和傅里叶分析的方法，用于检测历史文献中亚美尼亚土耳其语的结构化语言交替。",
+    "en_tdlr": "This study proposes a method that combines language identification with Fourier analysis to detect structured language alternations in historical documents, specifically in the case of Armeno-Turkish."
+}

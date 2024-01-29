@@ -1,0 +1,12 @@
+{
+    "title": "Comparison of parameters of vowel sounds of russian and english languages. (arXiv:2401.14890v1 [cs.SD])",
+    "abstract": "In multilingual speech recognition systems, a situation can often arise when the language is not known in advance, but the signal has already been received and is being processed. For such cases, some generalized model is needed that will be able to respond to phonetic differences and, depending on them, correctly recog-nize speech in the desired language. To build such a model, it is necessary to set the values of phonetic parameters, and then compare similar sounds, establishing significant differences.",
+    "link": "http://arxiv.org/abs/2401.14890",
+    "context": "Title: Comparison of parameters of vowel sounds of russian and english languages. (arXiv:2401.14890v1 [cs.SD])\nAbstract: In multilingual speech recognition systems, a situation can often arise when the language is not known in advance, but the signal has already been received and is being processed. For such cases, some generalized model is needed that will be able to respond to phonetic differences and, depending on them, correctly recog-nize speech in the desired language. To build such a model, it is necessary to set the values of phonetic parameters, and then compare similar sounds, establishing significant differences.",
+    "path": "papers/24/01/2401.14890.json",
+    "total_tokens": 602,
+    "translated_title": "俄罗斯语和英语元音音素参数的比较",
+    "translated_abstract": "在多语种语音识别系统中，通常会出现一种情况，即语言事先不知道，但信号已经接收并正在处理中。针对这种情况，需要一种广义模型，它能够对语音的音素差异作出响应，并根据这些差异正确地识别所需语言的语音。为了构建这样一个模型，需要设定音素参数的值，然后比较类似的音素，确定重要的差异。",
+    "tldr": "俄罗斯语和英语的元音音素参数进行比较，为多语种语音识别系统提供通用模型，准确识别不确定语言的语音。",
+    "en_tdlr": "Comparison of parameters of vowel sounds of Russian and English languages to provide a generalized model for multilingual speech recognition systems to accurately recognize speech in unknown languages."
+}
