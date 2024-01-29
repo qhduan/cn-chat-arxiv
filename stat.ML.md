@@ -6,26 +6,27 @@
 | [^2] | [Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models.](http://arxiv.org/abs/2401.14973) | 通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。 |
 | [^3] | [A structured regression approach for evaluating model performance across intersectional subgroups.](http://arxiv.org/abs/2401.14893) | 这项工作介绍了一种结构回归方法，用于评估模型在不同交叉子群体间的性能。它可以提供可靠的系统性能估计，即使对于很小的子群体。 |
 | [^4] | [P3LS: Partial Least Squares under Privacy Preservation.](http://arxiv.org/abs/2401.14884) | P3LS是一种隐私保护的偏最小二乘回归技术，通过使用可移动的随机掩码保护每个数据持有者的隐私，实现了跨组织数据集成和过程建模。 |
-| [^5] | [A Nonparametric Bayes Approach to Online Activity Prediction.](http://arxiv.org/abs/2401.14722) | 本研究提出了一种非参数贝叶斯方法，以准确预测在线活动的用户数量和达到所需用户参与门槛所需的时间轨迹。该方法通过捕捉用户参与的潜在异质性，提供了实验者在在线实验中重要的决策支持。 |
-| [^6] | [Validating Climate Models with Spherical Convolutional Wasserstein Distance.](http://arxiv.org/abs/2401.14657) | 引入了球面卷积Wasserstein距离来验证气候模型，相比传统方法更全面地衡量气候模型和再分析数据之间的差异，并应用于评估CMIP成员的模型输出。此外，研究发现CMIP第6阶段模型相较于第5阶段有适度改进。 |
-| [^7] | [Robust Estimation of Pareto's Scale Parameter from Grouped Data.](http://arxiv.org/abs/2401.14593) | 本文介绍了一种新的稳健估计方法（MTuM），用于从分组数据中估计Pareto分布的尾指数。该方法通过应用中心极限定理和模拟研究验证了其推理合理性。 |
-| [^8] | [Ricci flow-guided autoencoders in learning time-dependent dynamics.](http://arxiv.org/abs/2401.14591) | 利用Ricci流引导的自编码器方法能够学习非线性动力学，尤其是偏微分方程。该方法通过在训练中学习流形，并使用Ricci流使流形潜空间逐步适应动力学的变化，从而获得更好的表示能力。在实验中，我们展示了该方法在具有周期性和随机性的PDE上的应用，并评估了在分布内和外推场景中的误差。 |
-| [^9] | [Understanding Disparities in Post Hoc Machine Learning Explanation.](http://arxiv.org/abs/2401.14539) | 该研究通过模拟和实验评估了事后机器学习解释中的差异，并发现协变量偏移、概念转变和省略协变量会增加解释差异，对神经网络影响更大。 |
-| [^10] | [Predictive Analysis for Optimizing Port Operations.](http://arxiv.org/abs/2401.14498) | 本研究开发了一种具有竞争预测和分类能力的港口运营解决方案，用于准确估计船舶在港口的总时间和延迟时间，填补了港口分析模型在这方面的空白，并为海事物流领域提供了有价值的贡献。 |
-| [^11] | [Four Facets of Forecast Felicity: Calibration, Predictiveness, Randomness and Regret.](http://arxiv.org/abs/2401.14483) | 本文展示了校准和遗憾在评估预测中的概念等价性，将评估问题构建为一个预测者、一个赌徒和自然之间的博弈，并将预测的评估与结果的随机性联系起来。 |
-| [^12] | [Improving Antibody Humanness Prediction using Patent Data.](http://arxiv.org/abs/2401.14442) | 本研究利用专利数据提高了抗体人性预测的能力，通过多阶段、多损失的训练过程以及弱监督对比学习的方法，成功地预测了抗体序列的人性评分。 |
-| [^13] | [[Re] The Discriminative Kalman Filter for Bayesian Filtering with Nonlinear and Non-Gaussian Observation Models.](http://arxiv.org/abs/2401.14429) | 该论文提供了一种针对非线性和非高斯观测模型的贝叶斯滤波的判别式卡尔曼滤波器，并在神经科学背景下证明了其有效性。 |
-| [^14] | [Multi-Agent Based Transfer Learning for Data-Driven Air Traffic Applications.](http://arxiv.org/abs/2401.14421) | 本文提出了一种基于多智能体的迁移学习方法，利用MA-BERT模型和预训练微调框架来解决空中交通管理中的长训练时间和大数据集需求的问题。该方法可以在具有少量数据或无历史数据的情况下实现高性能。 |
-| [^15] | [Non-Exchangeable Conformal Risk Control.](http://arxiv.org/abs/2310.01262) | 本文提出了一种非交换式共形风险控制的框架，可以在数据不可交换的情况下控制任何单调损失函数的期望值。 |
-| [^16] | [Causal Entropy and Information Gain for Measuring Causal Control.](http://arxiv.org/abs/2309.07703) | 本文提出了一种考虑因果结构的信息论量，用于评估某个特定结果变量的因果重要性，解决了因果可解释性的挑战。 |
-| [^17] | [A multiobjective continuation method to compute the regularization path of deep neural networks.](http://arxiv.org/abs/2308.12044) | 本文提出了一种多目标延续方法，用于计算深度神经网络的正则化路径，以解决DNNs中稀疏性和数值效率之间的冲突。 |
-| [^18] | [Optimal Low-Rank Matrix Completion: Semidefinite Relaxations and Eigenvector Disjunctions.](http://arxiv.org/abs/2305.12292) | 该论文通过重新表述低秩矩阵填补问题为投影矩阵的非凸问题，实现了能够确定最优解的分离分支定界方案，并且通过新颖和紧密的凸松弛方法，使得最优性差距相对于现有方法减少了两个数量级。 |
-| [^19] | [A Polynomial Time, Pure Differentially Private Estimator for Binary Product Distributions.](http://arxiv.org/abs/2304.06787) | 本论文提出了第一个多项式时间、纯差分隐私估计器，可以在$\{0,1\}^d$上准确估计二元积分布的均值，达到了最优的样本复杂度。 |
-| [^20] | [Finite-time analysis of single-timescale actor-critic.](http://arxiv.org/abs/2210.09921) | 这项研究提出了一种在线单时间尺度演员-评论家方法，通过线性函数逼近和马尔可夫样本更新，在连续状态空间中找到了一个$\epsilon$-近似的稳定点，并且在样本复杂度为$\widetilde{\mathcal{O}}(\epsilon^{-2})$的情况下证明了其收敛性。 |
-| [^21] | [Signature Methods in Machine Learning.](http://arxiv.org/abs/2206.14674) | 本综述介绍了机器学习中应用的签名方法，通过数学洞察力理解复杂的流式数据之间的交互，并提供了用于分析非规则、非平稳的流式数据的数值方法。 |
-| [^22] | [Convergence Error Analysis of Reflected Gradient Langevin Dynamics for Globally Optimizing Non-Convex Constrained Problems.](http://arxiv.org/abs/2203.10215) | 本文将梯度 Langevin 动力学和反射梯度 Langevin 动力学扩展到非凸问题上，并通过使用边界反射和概率表示法，在非凸约束问题中提出了更快的收敛速度。 |
-| [^23] | [Sparse random hypergraphs: Non-backtracking spectra and community detection.](http://arxiv.org/abs/2203.07346) | 该论文研究了稀疏随机超图中的社区检测问题，证明了基于非回退算子的谱方法能够高概率下达到猜测阈值，并提供了一个高效的维度约减过程。这是第一个能够证明并高效实现HSBM猜测阈值的谱算法。 |
-| [^24] | [High-dimensional Functional Graphical Model Structure Learning via Neighborhood Selection Approach.](http://arxiv.org/abs/2105.02487) | 该论文提出了一种基于邻域选择方法的高维函数图模型结构学习方法，通过函数对函数回归估计节点邻域，然后结合这些估计的邻域恢复整个图结构，从而直接估计条件独立结构。 |
+| [^5] | [Particle-MALA and Particle-mGRAD: Gradient-based MCMC methods for high-dimensional state-space models.](http://arxiv.org/abs/2401.14868) | 粒子-MALA和粒子-mGRAD是基于梯度的MCMC方法，综合了条件顺序Monte Carlo (CSMC)算法的时间可扩展性和MALA或mGRAD的维度可扩展性。 |
+| [^6] | [A Nonparametric Bayes Approach to Online Activity Prediction.](http://arxiv.org/abs/2401.14722) | 本研究提出了一种非参数贝叶斯方法，以准确预测在线活动的用户数量和达到所需用户参与门槛所需的时间轨迹。该方法通过捕捉用户参与的潜在异质性，提供了实验者在在线实验中重要的决策支持。 |
+| [^7] | [Validating Climate Models with Spherical Convolutional Wasserstein Distance.](http://arxiv.org/abs/2401.14657) | 引入了球面卷积Wasserstein距离来验证气候模型，相比传统方法更全面地衡量气候模型和再分析数据之间的差异，并应用于评估CMIP成员的模型输出。此外，研究发现CMIP第6阶段模型相较于第5阶段有适度改进。 |
+| [^8] | [Robust Estimation of Pareto's Scale Parameter from Grouped Data.](http://arxiv.org/abs/2401.14593) | 本文介绍了一种新的稳健估计方法（MTuM），用于从分组数据中估计Pareto分布的尾指数。该方法通过应用中心极限定理和模拟研究验证了其推理合理性。 |
+| [^9] | [Ricci flow-guided autoencoders in learning time-dependent dynamics.](http://arxiv.org/abs/2401.14591) | 利用Ricci流引导的自编码器方法能够学习非线性动力学，尤其是偏微分方程。该方法通过在训练中学习流形，并使用Ricci流使流形潜空间逐步适应动力学的变化，从而获得更好的表示能力。在实验中，我们展示了该方法在具有周期性和随机性的PDE上的应用，并评估了在分布内和外推场景中的误差。 |
+| [^10] | [Understanding Disparities in Post Hoc Machine Learning Explanation.](http://arxiv.org/abs/2401.14539) | 该研究通过模拟和实验评估了事后机器学习解释中的差异，并发现协变量偏移、概念转变和省略协变量会增加解释差异，对神经网络影响更大。 |
+| [^11] | [Predictive Analysis for Optimizing Port Operations.](http://arxiv.org/abs/2401.14498) | 本研究开发了一种具有竞争预测和分类能力的港口运营解决方案，用于准确估计船舶在港口的总时间和延迟时间，填补了港口分析模型在这方面的空白，并为海事物流领域提供了有价值的贡献。 |
+| [^12] | [Four Facets of Forecast Felicity: Calibration, Predictiveness, Randomness and Regret.](http://arxiv.org/abs/2401.14483) | 本文展示了校准和遗憾在评估预测中的概念等价性，将评估问题构建为一个预测者、一个赌徒和自然之间的博弈，并将预测的评估与结果的随机性联系起来。 |
+| [^13] | [Improving Antibody Humanness Prediction using Patent Data.](http://arxiv.org/abs/2401.14442) | 本研究利用专利数据提高了抗体人性预测的能力，通过多阶段、多损失的训练过程以及弱监督对比学习的方法，成功地预测了抗体序列的人性评分。 |
+| [^14] | [[Re] The Discriminative Kalman Filter for Bayesian Filtering with Nonlinear and Non-Gaussian Observation Models.](http://arxiv.org/abs/2401.14429) | 该论文提供了一种针对非线性和非高斯观测模型的贝叶斯滤波的判别式卡尔曼滤波器，并在神经科学背景下证明了其有效性。 |
+| [^15] | [Multi-Agent Based Transfer Learning for Data-Driven Air Traffic Applications.](http://arxiv.org/abs/2401.14421) | 本文提出了一种基于多智能体的迁移学习方法，利用MA-BERT模型和预训练微调框架来解决空中交通管理中的长训练时间和大数据集需求的问题。该方法可以在具有少量数据或无历史数据的情况下实现高性能。 |
+| [^16] | [Non-Exchangeable Conformal Risk Control.](http://arxiv.org/abs/2310.01262) | 本文提出了一种非交换式共形风险控制的框架，可以在数据不可交换的情况下控制任何单调损失函数的期望值。 |
+| [^17] | [Causal Entropy and Information Gain for Measuring Causal Control.](http://arxiv.org/abs/2309.07703) | 本文提出了一种考虑因果结构的信息论量，用于评估某个特定结果变量的因果重要性，解决了因果可解释性的挑战。 |
+| [^18] | [A multiobjective continuation method to compute the regularization path of deep neural networks.](http://arxiv.org/abs/2308.12044) | 本文提出了一种多目标延续方法，用于计算深度神经网络的正则化路径，以解决DNNs中稀疏性和数值效率之间的冲突。 |
+| [^19] | [Optimal Low-Rank Matrix Completion: Semidefinite Relaxations and Eigenvector Disjunctions.](http://arxiv.org/abs/2305.12292) | 该论文通过重新表述低秩矩阵填补问题为投影矩阵的非凸问题，实现了能够确定最优解的分离分支定界方案，并且通过新颖和紧密的凸松弛方法，使得最优性差距相对于现有方法减少了两个数量级。 |
+| [^20] | [A Polynomial Time, Pure Differentially Private Estimator for Binary Product Distributions.](http://arxiv.org/abs/2304.06787) | 本论文提出了第一个多项式时间、纯差分隐私估计器，可以在$\{0,1\}^d$上准确估计二元积分布的均值，达到了最优的样本复杂度。 |
+| [^21] | [Finite-time analysis of single-timescale actor-critic.](http://arxiv.org/abs/2210.09921) | 这项研究提出了一种在线单时间尺度演员-评论家方法，通过线性函数逼近和马尔可夫样本更新，在连续状态空间中找到了一个$\epsilon$-近似的稳定点，并且在样本复杂度为$\widetilde{\mathcal{O}}(\epsilon^{-2})$的情况下证明了其收敛性。 |
+| [^22] | [Signature Methods in Machine Learning.](http://arxiv.org/abs/2206.14674) | 本综述介绍了机器学习中应用的签名方法，通过数学洞察力理解复杂的流式数据之间的交互，并提供了用于分析非规则、非平稳的流式数据的数值方法。 |
+| [^23] | [Convergence Error Analysis of Reflected Gradient Langevin Dynamics for Globally Optimizing Non-Convex Constrained Problems.](http://arxiv.org/abs/2203.10215) | 本文将梯度 Langevin 动力学和反射梯度 Langevin 动力学扩展到非凸问题上，并通过使用边界反射和概率表示法，在非凸约束问题中提出了更快的收敛速度。 |
+| [^24] | [Sparse random hypergraphs: Non-backtracking spectra and community detection.](http://arxiv.org/abs/2203.07346) | 该论文研究了稀疏随机超图中的社区检测问题，证明了基于非回退算子的谱方法能够高概率下达到猜测阈值，并提供了一个高效的维度约减过程。这是第一个能够证明并高效实现HSBM猜测阈值的谱算法。 |
+| [^25] | [High-dimensional Functional Graphical Model Structure Learning via Neighborhood Selection Approach.](http://arxiv.org/abs/2105.02487) | 该论文提出了一种基于邻域选择方法的高维函数图模型结构学习方法，通过函数对函数回归估计节点邻域，然后结合这些估计的邻域恢复整个图结构，从而直接估计条件独立结构。 |
 
 # 详细
 
@@ -85,7 +86,21 @@
 
     Modern manufacturing value chains require intelligent orchestration of processes across company borders in order to maximize profits while fostering social and environmental sustainability. However, the implementation of integrated, systems-level approaches for data-informed decision-making along value chains is currently hampered by privacy concerns associated with cross-organizational data exchange and integration. We here propose Privacy-Preserving Partial Least Squares (P3LS) regression, a novel federated learning technique that enables cross-organizational data integration and process modeling with privacy guarantees. P3LS involves a singular value decomposition (SVD) based PLS algorithm and employs removable, random masks generated by a trusted authority in order to protect the privacy of the data contributed by each data holder. We demonstrate the capability of P3LS to vertically integrate process data along a hypothetical value chain consisting of three parties and to improve t
     
-[^5]: 一种非参数贝叶斯方法用于在线活动预测
+[^5]: 粒子-MALA和粒子-mGRAD: 面向高维状态空间模型的基于梯度的MCMC方法
+
+    Particle-MALA and Particle-mGRAD: Gradient-based MCMC methods for high-dimensional state-space models. (arXiv:2401.14868v1 [stat.CO])
+
+    [http://arxiv.org/abs/2401.14868](http://arxiv.org/abs/2401.14868)
+
+    粒子-MALA和粒子-mGRAD是基于梯度的MCMC方法，综合了条件顺序Monte Carlo (CSMC)算法的时间可扩展性和MALA或mGRAD的维度可扩展性。
+
+    
+
+    在状态空间模型中，现有的贝叶斯推断方法包括条件顺序Monte Carlo (CSMC)算法和先进的“经典”MCMC算法，如MALA或来自Titsias和Papaspiliopoulos (2018)的mGRAD。前者在每个时间步骤中提出N个粒子来利用模型的“随时间相关性”属性，并且随着时间范围T的增加而可扩展，但如果潜在状态的维度D较大，则会失败。后者利用梯度/先验信息自适应调整局部提议，以在维度D方面有良好的可扩展性，但由于缺乏模型结构的利用而在时间范围T方面显示出亚优的可扩展性。我们介绍了结合了两种方法优点的方法。第一种是粒子-MALA，使用梯度信息在当前状态周围局部扩散N个粒子，从而将MALA扩展到T>1和N>1的提议。第二种是粒子-mGRAD，此外还引入了（条件）Ga
+
+    State-of-the-art methods for Bayesian inference in state-space models are (a) conditional sequential Monte Carlo (CSMC) algorithms; (b) sophisticated 'classical' MCMC algorithms like MALA, or mGRAD from Titsias and Papaspiliopoulos (2018, arXiv:1610.09641v3 [stat.ML]). The former propose $N$ particles at each time step to exploit the model's 'decorrelation-over-time' property and thus scale favourably with the time horizon, $T$ , but break down if the dimension of the latent states, $D$, is large. The latter leverage gradient-/prior-informed local proposals to scale favourably with $D$ but exhibit sub-optimal scalability with $T$ due to a lack of model-structure exploitation. We introduce methods which combine the strengths of both approaches. The first, Particle-MALA, spreads $N$ particles locally around the current state using gradient information, thus extending MALA to $T > 1$ time steps and $N > 1$ proposals. The second, Particle-mGRAD, additionally incorporates (conditionally) Ga
+    
+[^6]: 一种非参数贝叶斯方法用于在线活动预测
 
     A Nonparametric Bayes Approach to Online Activity Prediction. (arXiv:2401.14722v1 [stat.ME])
 
@@ -99,7 +114,7 @@
 
     Accurately predicting the onset of specific activities within defined timeframes holds significant importance in several applied contexts. In particular, accurate prediction of the number of future users that will be exposed to an intervention is an important piece of information for experimenters running online experiments (A/B tests). In this work, we propose a novel approach to predict the number of users that will be active in a given time period, as well as the temporal trajectory needed to attain a desired user participation threshold. We model user activity using a Bayesian nonparametric approach which allows us to capture the underlying heterogeneity in user engagement. We derive closed-form expressions for the number of new users expected in a given period, and a simple Monte Carlo algorithm targeting the posterior distribution of the number of days needed to attain a desired number of users; the latter is important for experimental planning. We illustrate the performance of o
     
-[^6]: 用球面卷积Wasserstein距离验证气候模型
+[^7]: 用球面卷积Wasserstein距离验证气候模型
 
     Validating Climate Models with Spherical Convolutional Wasserstein Distance. (arXiv:2401.14657v1 [physics.ao-ph])
 
@@ -113,7 +128,7 @@
 
     The validation of global climate models is crucial to ensure the accuracy and efficacy of model output. We introduce the spherical convolutional Wasserstein distance to more comprehensively measure differences between climate models and reanalysis data. This new similarity measure accounts for spatial variability using convolutional projections and quantifies local differences in the distribution of climate variables. We apply this method to evaluate the historical model outputs of the Coupled Model Intercomparison Project (CMIP) members by comparing them to observational and reanalysis data products. Additionally, we investigate the progression from CMIP phase 5 to phase 6 and find modest improvements in the phase 6 models regarding their ability to produce realistic climatologies.
     
-[^7]: 从分组数据中稳健估计Pareto的尺度参数
+[^8]: 从分组数据中稳健估计Pareto的尺度参数
 
     Robust Estimation of Pareto's Scale Parameter from Grouped Data. (arXiv:2401.14593v1 [stat.ME])
 
@@ -127,7 +142,7 @@
 
     Numerous robust estimators exist as alternatives to the maximum likelihood estimator (MLE) when a completely observed ground-up loss severity sample dataset is available. However, the options for robust alternatives to MLE become significantly limited when dealing with grouped loss severity data, with only a handful of methods like least squares, minimum Hellinger distance, and optimal bounded influence function available. This paper introduces a novel robust estimation technique, the Method of Truncated Moments (MTuM), specifically designed to estimate the tail index of a Pareto distribution from grouped data. Inferential justification of MTuM is established by employing the central limit theorem and validating them through a comprehensive simulation study.
     
-[^8]: 利用Ricci流引导的自编码器学习时变动力学
+[^9]: 利用Ricci流引导的自编码器学习时变动力学
 
     Ricci flow-guided autoencoders in learning time-dependent dynamics. (arXiv:2401.14591v1 [cs.LG])
 
@@ -141,7 +156,7 @@
 
     We present a manifold-based autoencoder method for learning nonlinear dynamics in time, notably partial differential equations (PDEs), in which the manifold latent space evolves according to Ricci flow. This can be accomplished by simulating Ricci flow in a physics-informed setting, and manifold quantities can be matched so that Ricci flow is empirically achieved. With our methodology, the manifold is learned as part of the training procedure, so ideal geometries may be discerned, while the evolution simultaneously induces a more accommodating latent representation over static methods. We present our method on a range of numerical experiments consisting of PDEs that encompass desirable characteristics such as periodicity and randomness, remarking error on in-distribution and extrapolation scenarios.
     
-[^9]: 理解事后机器学习解释中的差异
+[^10]: 理解事后机器学习解释中的差异
 
     Understanding Disparities in Post Hoc Machine Learning Explanation. (arXiv:2401.14539v1 [cs.LG])
 
@@ -155,7 +170,7 @@
 
     Previous work has highlighted that existing post-hoc explanation methods exhibit disparities in explanation fidelity (across 'race' and 'gender' as sensitive attributes), and while a large body of work focuses on mitigating these issues at the explanation metric level, the role of the data generating process and black box model in relation to explanation disparities remains largely unexplored. Accordingly, through both simulations as well as experiments on a real-world dataset, we specifically assess challenges to explanation disparities that originate from properties of the data: limited sample size, covariate shift, concept shift, omitted variable bias, and challenges based on model properties: inclusion of the sensitive attribute and appropriate functional form. Through controlled simulation analyses, our study demonstrates that increased covariate shift, concept shift, and omission of covariates increase explanation disparities, with the effect pronounced higher for neural network 
     
-[^10]: 优化港口运营的预测分析
+[^11]: 优化港口运营的预测分析
 
     Predictive Analysis for Optimizing Port Operations. (arXiv:2401.14498v1 [cs.LG])
 
@@ -169,7 +184,7 @@
 
     Maritime transport is a pivotal logistics mode for the long-distance and bulk transportation of goods. However, the intricate planning involved in this mode is often hindered by uncertainties, including weather conditions, cargo diversity, and port dynamics, leading to increased costs. Consequently, accurately estimating vessel total (stay) time at port and potential delays becomes imperative for effective planning and scheduling in port operations. This study aims to develop a port operation solution with competitive prediction and classification capabilities for estimating vessel Total and Delay times. This research addresses a significant gap in port analysis models for vessel Stay and Delay times, offering a valuable contribution to the field of maritime logistics. The proposed solution is designed to assist decision-making in port environments and predict service delays. This is demonstrated through a case study on Brazil ports. Additionally, feature analysis is used to understand
     
-[^11]: 预测的四个方面：校准、预测性、随机性和遗憾
+[^12]: 预测的四个方面：校准、预测性、随机性和遗憾
 
     Four Facets of Forecast Felicity: Calibration, Predictiveness, Randomness and Regret. (arXiv:2401.14483v1 [cs.LG])
 
@@ -183,7 +198,7 @@
 
     Machine learning is about forecasting. Forecasts, however, obtain their usefulness only through their evaluation. Machine learning has traditionally focused on types of losses and their corresponding regret. Currently, the machine learning community regained interest in calibration. In this work, we show the conceptual equivalence of calibration and regret in evaluating forecasts. We frame the evaluation problem as a game between a forecaster, a gambler and nature. Putting intuitive restrictions on gambler and forecaster, calibration and regret naturally fall out of the framework. In addition, this game links evaluation of forecasts to randomness of outcomes. Random outcomes with respect to forecasts are equivalent to good forecasts with respect to outcomes. We call those dual aspects, calibration and regret, predictiveness and randomness, the four facets of forecast felicity.
     
-[^12]: 利用专利数据提高抗体人性预测能力
+[^13]: 利用专利数据提高抗体人性预测能力
 
     Improving Antibody Humanness Prediction using Patent Data. (arXiv:2401.14442v1 [q-bio.QM])
 
@@ -197,7 +212,7 @@
 
     We investigate the potential of patent data for improving the antibody humanness prediction using a multi-stage, multi-loss training process. Humanness serves as a proxy for the immunogenic response to antibody therapeutics, one of the major causes of attrition in drug discovery and a challenging obstacle for their use in clinical settings. We pose the initial learning stage as a weakly-supervised contrastive-learning problem, where each antibody sequence is associated with possibly multiple identifiers of function and the objective is to learn an encoder that groups them according to their patented properties. We then freeze a part of the contrastive encoder and continue training it on the patent data using the cross-entropy loss to predict the humanness score of a given antibody sequence. We illustrate the utility of the patent data and our approach by performing inference on three different immunogenicity datasets, unseen during training. Our empirical results demonstrate that the l
     
-[^13]: [再论] 非线性和非高斯观测模型的贝叶斯滤波的判别式卡尔曼滤波器
+[^14]: [再论] 非线性和非高斯观测模型的贝叶斯滤波的判别式卡尔曼滤波器
 
     [Re] The Discriminative Kalman Filter for Bayesian Filtering with Nonlinear and Non-Gaussian Observation Models. (arXiv:2401.14429v1 [cs.LG])
 
@@ -211,7 +226,7 @@
 
     Kalman filters provide a straightforward and interpretable means to estimate hidden or latent variables, and have found numerous applications in control, robotics, signal processing, and machine learning. One such application is neural decoding for neuroprostheses. In 2020, Burkhart et al. thoroughly evaluated their new version of the Kalman filter that leverages Bayes' theorem to improve filter performance for highly non-linear or non-Gaussian observation models. This work provides an open-source Python alternative to the authors' MATLAB algorithm. Specifically, we reproduce their most salient results for neuroscientific contexts and further examine the efficacy of their filter using multiple random seeds and previously unused trials from the authors' dataset. All experiments were performed offline on a single computer.
     
-[^14]: 多智能体基于迁移学习的数据驱动空中交通应用
+[^15]: 多智能体基于迁移学习的数据驱动空中交通应用
 
     Multi-Agent Based Transfer Learning for Data-Driven Air Traffic Applications. (arXiv:2401.14421v1 [cs.LG])
 
@@ -225,7 +240,7 @@
 
     Research in developing data-driven models for Air Traffic Management (ATM) has gained a tremendous interest in recent years. However, data-driven models are known to have long training time and require large datasets to achieve good performance. To address the two issues, this paper proposes a Multi-Agent Bidirectional Encoder Representations from Transformers (MA-BERT) model that fully considers the multi-agent characteristic of the ATM system and learns air traffic controllers' decisions, and a pre-training and fine-tuning transfer learning framework. By pre-training the MA-BERT on a large dataset from a major airport and then fine-tuning it to other airports and specific air traffic applications, a large amount of the total training time can be saved. In addition, for newly adopted procedures and constructed airports where no historical data is available, this paper shows that the pre-trained MA-BERT can achieve high performance by updating regularly with little data. The proposed t
     
-[^15]: 非交换式共形风险控制
+[^16]: 非交换式共形风险控制
 
     Non-Exchangeable Conformal Risk Control. (arXiv:2310.01262v1 [cs.LG])
 
@@ -239,7 +254,7 @@
 
     Split conformal prediction has recently sparked great interest due to its ability to provide formally guaranteed uncertainty sets or intervals for predictions made by black-box neural models, ensuring a predefined probability of containing the actual ground truth. While the original formulation assumes data exchangeability, some extensions handle non-exchangeable data, which is often the case in many real-world scenarios. In parallel, some progress has been made in conformal methods that provide statistical guarantees for a broader range of objectives, such as bounding the best F1-score or minimizing the false negative rate in expectation. In this paper, we leverage and extend these two lines of work by proposing non-exchangeable conformal risk control, which allows controlling the expected value of any monotone loss function when the data is not exchangeable. Our framework is flexible, makes very few assumptions, and allows weighting the data based on its statistical similarity with t
     
-[^16]: 测量因果控制的因果熵和信息增益
+[^17]: 测量因果控制的因果熵和信息增益
 
     Causal Entropy and Information Gain for Measuring Causal Control. (arXiv:2309.07703v1 [cs.LG])
 
@@ -253,7 +268,7 @@
 
     Artificial intelligence models and methods commonly lack causal interpretability. Despite the advancements in interpretable machine learning (IML) methods, they frequently assign importance to features which lack causal influence on the outcome variable. Selecting causally relevant features among those identified as relevant by these methods, or even before model training, would offer a solution. Feature selection methods utilizing information theoretical quantities have been successful in identifying statistically relevant features. However, the information theoretical quantities they are based on do not incorporate causality, rendering them unsuitable for such scenarios. To address this challenge, this article proposes information theoretical quantities that incorporate the causal structure of the system, which can be used to evaluate causal importance of features for some given outcome variable. Specifically, we introduce causal versions of entropy and mutual information, termed cau
     
-[^17]: 用于计算深度神经网络正则化路径的多目标延续方法
+[^18]: 用于计算深度神经网络正则化路径的多目标延续方法
 
     A multiobjective continuation method to compute the regularization path of deep neural networks. (arXiv:2308.12044v1 [cs.LG])
 
@@ -267,7 +282,7 @@
 
     Sparsity is a highly desired feature in deep neural networks (DNNs) since it ensures numerical efficiency, improves the interpretability of models (due to the smaller number of relevant features), and robustness. In machine learning approaches based on linear models, it is well known that there exists a connecting path between the sparsest solution in terms of the $\ell^1$ norm (i.e., zero weights) and the non-regularized solution, which is called the regularization path. Very recently, there was a first attempt to extend the concept of regularization paths to DNNs by means of treating the empirical loss and sparsity ($\ell^1$ norm) as two conflicting criteria and solving the resulting multiobjective optimization problem. However, due to the non-smoothness of the $\ell^1$ norm and the high number of parameters, this approach is not very efficient from a computational perspective. To overcome this limitation, we present an algorithm that allows for the approximation of the entire Pareto
     
-[^18]: 最优低秩矩阵填补：半定松弛和特征向量分离
+[^19]: 最优低秩矩阵填补：半定松弛和特征向量分离
 
     Optimal Low-Rank Matrix Completion: Semidefinite Relaxations and Eigenvector Disjunctions. (arXiv:2305.12292v1 [cs.LG])
 
@@ -281,7 +296,7 @@
 
     Low-rank matrix completion consists of computing a matrix of minimal complexity that recovers a given set of observations as accurately as possible, and has numerous applications such as product recommendation. Unfortunately, existing methods for solving low-rank matrix completion are heuristics that, while highly scalable and often identifying high-quality solutions, do not possess any optimality guarantees. We reexamine matrix completion with an optimality-oriented eye, by reformulating low-rank problems as convex problems over the non-convex set of projection matrices and implementing a disjunctive branch-and-bound scheme that solves them to certifiable optimality. Further, we derive a novel and often tight class of convex relaxations by decomposing a low-rank matrix as a sum of rank-one matrices and incentivizing, via a Shor relaxation, that each two-by-two minor in each rank-one matrix has determinant zero. In numerical experiments, our new convex relaxations decrease the optimali
     
-[^19]: 二元积分布的多项式时间和纯差分隐私估计器
+[^20]: 二元积分布的多项式时间和纯差分隐私估计器
 
     A Polynomial Time, Pure Differentially Private Estimator for Binary Product Distributions. (arXiv:2304.06787v1 [cs.DS])
 
@@ -295,7 +310,7 @@
 
     We present the first $\varepsilon$-differentially private, computationally efficient algorithm that estimates the means of product distributions over $\{0,1\}^d$ accurately in total-variation distance, whilst attaining the optimal sample complexity to within polylogarithmic factors. The prior work had either solved this problem efficiently and optimally under weaker notions of privacy, or had solved it optimally while having exponential running times.
     
-[^20]: 单时间尺度演员-评论家法的有限时间分析
+[^21]: 单时间尺度演员-评论家法的有限时间分析
 
     Finite-time analysis of single-timescale actor-critic. (arXiv:2210.09921v3 [cs.LG] UPDATED)
 
@@ -309,7 +324,7 @@
 
     Actor-critic methods have achieved significant success in many challenging applications. However, its finite-time convergence is still poorly understood in the most practical single-timescale form. Existing works on analyzing single-timescale actor-critic have been limited to i.i.d. sampling or tabular setting for simplicity. We investigate the more practical online single-timescale actor-critic algorithm on continuous state space, where the critic assumes linear function approximation and updates with a single Markovian sample per actor step. Previous analysis has been unable to establish the convergence for such a challenging scenario. We demonstrate that the online single-timescale actor-critic method provably finds an $\epsilon$-approximate stationary point with $\widetilde{\mathcal{O}}(\epsilon^{-2})$ sample complexity under standard assumptions, which can be further improved to $\mathcal{O}(\epsilon^{-2})$ under the i.i.d. sampling. Our novel framework systematically evaluates an
     
-[^21]: 机器学习中的签名方法
+[^22]: 机器学习中的签名方法
 
     Signature Methods in Machine Learning. (arXiv:2206.14674v5 [stat.ML] UPDATED)
 
@@ -323,7 +338,7 @@
 
     Signature-based techniques give mathematical insight into the interactions between complex streams of evolving data. These insights can be quite naturally translated into numerical approaches to understanding streamed data, and perhaps because of their mathematical precision, have proved useful in analysing streamed data in situations where the data is irregular, and not stationary, and the dimension of the data and the sample sizes are both moderate. Understanding streamed multi-modal data is exponential: a word in $n$ letters from an alphabet of size $d$ can be any one of $d^n$ messages. Signatures remove the exponential amount of noise that arises from sampling irregularity, but an exponential amount of information still remain. This survey aims to stay in the domain where that exponential scaling can be managed directly. Scalability issues are an important challenge in many problems but would require another survey article and further ideas. This survey describes a range of context
     
-[^22]: 反射梯度 Langevin 动力学收敛误差分析，用于全局优化非凸约束问题
+[^23]: 反射梯度 Langevin 动力学收敛误差分析，用于全局优化非凸约束问题
 
     Convergence Error Analysis of Reflected Gradient Langevin Dynamics for Globally Optimizing Non-Convex Constrained Problems. (arXiv:2203.10215v2 [math.OC] UPDATED)
 
@@ -337,7 +352,7 @@
 
     Gradient Langevin dynamics and a variety of its variants have attracted increasing attention owing to their convergence towards the global optimal solution, initially in the unconstrained convex framework while recently even in convex constrained non-convex problems. In the present work, we extend those frameworks to non-convex problems on a non-convex feasible region with a global optimization algorithm built upon reflected gradient Langevin dynamics and derive its convergence rates. By effectively making use of its reflection at the boundary in combination with the probabilistic representation for the Poisson equation with the Neumann boundary condition, we present promising convergence rates, particularly faster than the existing one for convex constrained non-convex problems.
     
-[^23]: 稀疏随机超图：非回退谱和社区检测
+[^24]: 稀疏随机超图：非回退谱和社区检测
 
     Sparse random hypergraphs: Non-backtracking spectra and community detection. (arXiv:2203.07346v4 [math.PR] UPDATED)
 
@@ -351,7 +366,7 @@
 
     We consider the community detection problem in a sparse $q$-uniform hypergraph $G$, assuming that $G$ is generated according to the Hypergraph Stochastic Block Model (HSBM). We prove that a spectral method based on the non-backtracking operator for hypergraphs works with high probability down to the generalized Kesten-Stigum detection threshold conjectured by Angelini et al. (2015). We characterize the spectrum of the non-backtracking operator for the sparse HSBM and provide an efficient dimension reduction procedure using the Ihara-Bass formula for hypergraphs. As a result, community detection for the sparse HSBM on $n$ vertices can be reduced to an eigenvector problem of a $2n\times 2n$ non-normal matrix constructed from the adjacency matrix and the degree matrix of the hypergraph. To the best of our knowledge, this is the first provable and efficient spectral algorithm that achieves the conjectured threshold for HSBMs with $r$ blocks generated according to a general symmetric probab
     
-[^24]: 基于邻域选择方法的高维函数图模型结构学习
+[^25]: 基于邻域选择方法的高维函数图模型结构学习
 
     High-dimensional Functional Graphical Model Structure Learning via Neighborhood Selection Approach. (arXiv:2105.02487v3 [stat.ML] UPDATED)
 
