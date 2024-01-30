@@ -6,30 +6,31 @@
 | [^2] | [A mathematical theory of power.](http://arxiv.org/abs/2401.16406) | 这篇论文提出了一种新的博弈论中的权力方法，利用利润改变机制来模拟合作和冲突，并通过衡量玩家合作的态度定义实际权力和潜在权力。 |
 | [^3] | [Single-Winner Voting with Alliances: Avoiding the Spoiler Effect.](http://arxiv.org/abs/2401.16399) | 带有联盟的单一选举中，我们引入了一种新的联盟感知选举规则，解决了破坏者效应的问题，并证明其优于传统的选举规则和联盟内初选。 |
 | [^4] | [Graph Neural Networks: Theory for Estimation with Application on Network Heterogeneity.](http://arxiv.org/abs/2401.16275) | 本文提出了一种新的图神经网络，用于模拟和估计网络异质性。它能够对网络中单位的决策或结果的变化进行建模，并考虑到邻居的条件。通过蒙特卡洛模拟，我们证明了这个方法的收敛速度，并应用于实证研究中的微金融计划参与。最终，我们提出了一种改进策略来选择初始信息接收者。 |
-| [^5] | [Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions.](http://arxiv.org/abs/2401.16030) | 研究使用扩展CDM模型和无条件分位数回归方法，发现绿色创新对非重度污染企业的生产力影响有限，而在高污染和制造业领域，绿色创新和非绿色创新对生产力的提升效果相当。 |
-| [^6] | [Regulation of Algorithmic Collusion.](http://arxiv.org/abs/2401.15794) | 本文提供了算法定价中的算法合谋监管的定义，允许监管机构通过对数据的统计测试来审计算法，良好算法通过增加数据来通过审计，而达到高于竞争价格的算法则无法通过审计。 |
-| [^7] | [Public Good Provision and Compensating Variation.](http://arxiv.org/abs/2401.15493) | 本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。 |
-| [^8] | [Testing the Exogeneity of Instrumental Variables and Regressors in Linear Regression Models Using Copulas.](http://arxiv.org/abs/2401.15253) | 本研究提出了一种基于Copula的方法来测试线性回归模型中的工具变量外生性。结果表明我们的方法在实际内生情况下能够高效地拒绝外生性假设，在外生情况下对外生性假设的拒绝率较低。对应用计量经济学家而言，这一方法具有重要价值。 |
-| [^9] | [csranks: An R Package for Estimation and Inference Involving Ranks.](http://arxiv.org/abs/2401.15205) | csranks是一个用于估计和推断排名的R包，可以用于构建置信集和进行排名回归的估计和推断。可以应用于量化排名不确定性和测量代际流动性等问题。 |
-| [^10] | [Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition.](http://arxiv.org/abs/2401.15108) | 本文提出了一个多智能体深度强化学习的方法，应用于快速充电电动车中心的动态定价竞争。通过预测性购买电力需求和设定竞争性价格策略，充电站可以在竞争中进行有效定价。 |
-| [^11] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
-| [^12] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
-| [^13] | [Structural Analysis of Vector Autoregressive Models.](http://arxiv.org/abs/2312.06402) | 这份讲义主要讨论了应用宏观经济计量学高级课程中矢量自回归模型的结构分析的关键概念。 |
-| [^14] | [Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference.](http://arxiv.org/abs/2311.16570) | 本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。 |
-| [^15] | [A Strategyproof Mechanism for Ownership Restructuring in Privately Owned Assets.](http://arxiv.org/abs/2311.06780) | 本研究提出了一个适用于私有资产所有权重组的无操纵机制，能够真实获取所有者的估值，易于实施、预算平衡、防止勾结、个体合理和后验有效。 |
-| [^16] | [A Formal Transaction Cost-Based Analysis of the Economic Feasibility of Data Spaces and Service Ecosystems.](http://arxiv.org/abs/2310.03157) | 本文通过扩展交易成本经济学和服务主导逻辑，发展了一个正式的理论框架来分析数据空间和服务生态的经济可行性。其贡献包括对生态系统交易经济可行性的必要条件、生态系统稳定性的规模要求和任意数据或服务提供者-消费者生态系统的一般可行性条件的推导，并提出了业务生态系统的代数定义。 |
-| [^17] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
-| [^18] | [Free Discontinuity Design: With an Application to the Economic Effects of Internet Shutdowns.](http://arxiv.org/abs/2309.14630) | 本文提出了一种非参数方法来估计互联网封锁对经济活动的影响，并发现印度的Internet封锁导致经济活动减少超过50％，对全球数字经济的封锁真实成本产生了新的见解。 |
-| [^19] | [Should the Timing of Inspections be Predictable?.](http://arxiv.org/abs/2304.01385) | 该论文研究了长期项目中雇佣代理人的检查策略。周期性检查适用于代理人的行为主要加速突破，随机检查适用于代理人的行为主要延迟崩溃。代理人的行为决定了他在惩罚时间方面的风险态度。 |
-| [^20] | [Status substitution and conspicuous consumption.](http://arxiv.org/abs/2303.07008) | 本文提出了一种新的显眼消费模型，可以解释关于显眼消费的两个特征，即邻居收入上升时人们会消费更多可见商品，但更广泛地理区域内具有相同种族的人的收入上升时，会消费更少的可见商品。此外，本模型还解释了富人对他人收入的敏感程度比穷人更高，而收入不平等对消费的影响在不同群体之间存在质的差异。 |
-| [^21] | [From bounded rationality to limited consideration: Representation and behavioral analysis.](http://arxiv.org/abs/2302.00978) | 该论文提出了一种新的表示和数据解释方法，用于分析行为模式。同时，还介绍了一种可测试的选择过程，可以通过观察到的行为的非理性特征推断出有限考虑的情况。 |
-| [^22] | [Reservoir Computing for Macroeconomic Forecasting with Mixed Frequency Data.](http://arxiv.org/abs/2211.00363) | 本文提出了一种新的框架——基于水库计算的多频回声状态网络（MFESN），用于宏观经济预测中的混合频率数据，并证明MFESN模型在性能方面优于或可与现有方法相比，并提供了更好的美国GDP增长率的现货预测 |
-| [^23] | [Probability of Causation with Sample Selection: A Reanalysis of the Impacts of J\'ovenes en Acci\'on on Formality.](http://arxiv.org/abs/2210.01938) | 本文通过对样本选择条件下的因果概率进行重新分析，确定了因果概率的部分界限。在考虑了不同假设的情况下得到了有力的结果，并且在哥伦比亚的J\'ovenes en Acci\'on项目中实证发现，该项目使至少18%至多24%的始终就业的女性转向了正式劳动力市场。 |
-| [^24] | [Get It in Writing: Formal Contracts Mitigate Social Dilemmas in Multi-Agent RL.](http://arxiv.org/abs/2208.10469) | 本研究通过引入正式合同的概念，解决了多智能体强化学习中个体激励和集体激励分歧导致的次优行为问题。理论和实证结果表明，通过在马尔可夫博弈中引入有约束的状态依赖奖励转移，实现了所有可观察马尔可夫博弈的子博弈完美均衡表现出社会最优行为，并提升了算法的社会性能。 |
-| [^25] | [New Solution based on Hodge Decomposition for Abstract Games.](http://arxiv.org/abs/2109.14539) | 本文提出了基于Hodge分解的抽象博弈新解决方案HPC，通过使用微分形式和Hodge分解等几何工具，克服了传统解决方案的弱点，并具备了中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等特性。 |
-| [^26] | [Stronger Monotone Signaling Equilibrium.](http://arxiv.org/abs/2109.03370) | 本文研究了更强的单调信号平衡，提出了针对稳定匹配的竞争性信号均衡概念，并给出了满足 D1 准则的条件。在具有准线性效用函数的单一匹配市场上建立了唯一的更强单调平衡。 |
-| [^27] | [Difference-in-Differences with a Continuous Treatment.](http://arxiv.org/abs/2107.02637) | 本文研究了带有连续治疗的差异法设置。在广义平行趋势假设下，可以确定对待处理类型参数的治疗效应。然而，由于治疗效应的异质性，解释不同治疗值下参数差异具有挑战性。在框架之外引入了替代估计程序来克服传统方法的缺点，并在应用中展示它们可以得出不同的结论。 |
-| [^28] | [Dynamic covariate balancing: estimating treatment effects over time with potential local projections.](http://arxiv.org/abs/2103.01280) | 本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。 |
+| [^5] | [Contracting with a Learning Agent.](http://arxiv.org/abs/2401.16198) | 本研究主要针对与学习代理人进行重复合同的问题，关注代理人达到无悔结果的情况。我们在一个经典的合同设置下找到了最优解。解决方案采用了简单的结构：最初以一个线性合同开始，然后切换到另一个线性合同。 |
+| [^6] | [Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions.](http://arxiv.org/abs/2401.16030) | 研究使用扩展CDM模型和无条件分位数回归方法，发现绿色创新对非重度污染企业的生产力影响有限，而在高污染和制造业领域，绿色创新和非绿色创新对生产力的提升效果相当。 |
+| [^7] | [Regulation of Algorithmic Collusion.](http://arxiv.org/abs/2401.15794) | 本文提供了算法定价中的算法合谋监管的定义，允许监管机构通过对数据的统计测试来审计算法，良好算法通过增加数据来通过审计，而达到高于竞争价格的算法则无法通过审计。 |
+| [^8] | [Public Good Provision and Compensating Variation.](http://arxiv.org/abs/2401.15493) | 本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。 |
+| [^9] | [Testing the Exogeneity of Instrumental Variables and Regressors in Linear Regression Models Using Copulas.](http://arxiv.org/abs/2401.15253) | 本研究提出了一种基于Copula的方法来测试线性回归模型中的工具变量外生性。结果表明我们的方法在实际内生情况下能够高效地拒绝外生性假设，在外生情况下对外生性假设的拒绝率较低。对应用计量经济学家而言，这一方法具有重要价值。 |
+| [^10] | [csranks: An R Package for Estimation and Inference Involving Ranks.](http://arxiv.org/abs/2401.15205) | csranks是一个用于估计和推断排名的R包，可以用于构建置信集和进行排名回归的估计和推断。可以应用于量化排名不确定性和测量代际流动性等问题。 |
+| [^11] | [Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition.](http://arxiv.org/abs/2401.15108) | 本文提出了一个多智能体深度强化学习的方法，应用于快速充电电动车中心的动态定价竞争。通过预测性购买电力需求和设定竞争性价格策略，充电站可以在竞争中进行有效定价。 |
+| [^12] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
+| [^13] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
+| [^14] | [Structural Analysis of Vector Autoregressive Models.](http://arxiv.org/abs/2312.06402) | 这份讲义主要讨论了应用宏观经济计量学高级课程中矢量自回归模型的结构分析的关键概念。 |
+| [^15] | [Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference.](http://arxiv.org/abs/2311.16570) | 本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。 |
+| [^16] | [A Strategyproof Mechanism for Ownership Restructuring in Privately Owned Assets.](http://arxiv.org/abs/2311.06780) | 本研究提出了一个适用于私有资产所有权重组的无操纵机制，能够真实获取所有者的估值，易于实施、预算平衡、防止勾结、个体合理和后验有效。 |
+| [^17] | [A Formal Transaction Cost-Based Analysis of the Economic Feasibility of Data Spaces and Service Ecosystems.](http://arxiv.org/abs/2310.03157) | 本文通过扩展交易成本经济学和服务主导逻辑，发展了一个正式的理论框架来分析数据空间和服务生态的经济可行性。其贡献包括对生态系统交易经济可行性的必要条件、生态系统稳定性的规模要求和任意数据或服务提供者-消费者生态系统的一般可行性条件的推导，并提出了业务生态系统的代数定义。 |
+| [^18] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
+| [^19] | [Free Discontinuity Design: With an Application to the Economic Effects of Internet Shutdowns.](http://arxiv.org/abs/2309.14630) | 本文提出了一种非参数方法来估计互联网封锁对经济活动的影响，并发现印度的Internet封锁导致经济活动减少超过50％，对全球数字经济的封锁真实成本产生了新的见解。 |
+| [^20] | [Should the Timing of Inspections be Predictable?.](http://arxiv.org/abs/2304.01385) | 该论文研究了长期项目中雇佣代理人的检查策略。周期性检查适用于代理人的行为主要加速突破，随机检查适用于代理人的行为主要延迟崩溃。代理人的行为决定了他在惩罚时间方面的风险态度。 |
+| [^21] | [Status substitution and conspicuous consumption.](http://arxiv.org/abs/2303.07008) | 本文提出了一种新的显眼消费模型，可以解释关于显眼消费的两个特征，即邻居收入上升时人们会消费更多可见商品，但更广泛地理区域内具有相同种族的人的收入上升时，会消费更少的可见商品。此外，本模型还解释了富人对他人收入的敏感程度比穷人更高，而收入不平等对消费的影响在不同群体之间存在质的差异。 |
+| [^22] | [From bounded rationality to limited consideration: Representation and behavioral analysis.](http://arxiv.org/abs/2302.00978) | 该论文提出了一种新的表示和数据解释方法，用于分析行为模式。同时，还介绍了一种可测试的选择过程，可以通过观察到的行为的非理性特征推断出有限考虑的情况。 |
+| [^23] | [Reservoir Computing for Macroeconomic Forecasting with Mixed Frequency Data.](http://arxiv.org/abs/2211.00363) | 本文提出了一种新的框架——基于水库计算的多频回声状态网络（MFESN），用于宏观经济预测中的混合频率数据，并证明MFESN模型在性能方面优于或可与现有方法相比，并提供了更好的美国GDP增长率的现货预测 |
+| [^24] | [Probability of Causation with Sample Selection: A Reanalysis of the Impacts of J\'ovenes en Acci\'on on Formality.](http://arxiv.org/abs/2210.01938) | 本文通过对样本选择条件下的因果概率进行重新分析，确定了因果概率的部分界限。在考虑了不同假设的情况下得到了有力的结果，并且在哥伦比亚的J\'ovenes en Acci\'on项目中实证发现，该项目使至少18%至多24%的始终就业的女性转向了正式劳动力市场。 |
+| [^25] | [Get It in Writing: Formal Contracts Mitigate Social Dilemmas in Multi-Agent RL.](http://arxiv.org/abs/2208.10469) | 本研究通过引入正式合同的概念，解决了多智能体强化学习中个体激励和集体激励分歧导致的次优行为问题。理论和实证结果表明，通过在马尔可夫博弈中引入有约束的状态依赖奖励转移，实现了所有可观察马尔可夫博弈的子博弈完美均衡表现出社会最优行为，并提升了算法的社会性能。 |
+| [^26] | [New Solution based on Hodge Decomposition for Abstract Games.](http://arxiv.org/abs/2109.14539) | 本文提出了基于Hodge分解的抽象博弈新解决方案HPC，通过使用微分形式和Hodge分解等几何工具，克服了传统解决方案的弱点，并具备了中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等特性。 |
+| [^27] | [Stronger Monotone Signaling Equilibrium.](http://arxiv.org/abs/2109.03370) | 本文研究了更强的单调信号平衡，提出了针对稳定匹配的竞争性信号均衡概念，并给出了满足 D1 准则的条件。在具有准线性效用函数的单一匹配市场上建立了唯一的更强单调平衡。 |
+| [^28] | [Difference-in-Differences with a Continuous Treatment.](http://arxiv.org/abs/2107.02637) | 本文研究了带有连续治疗的差异法设置。在广义平行趋势假设下，可以确定对待处理类型参数的治疗效应。然而，由于治疗效应的异质性，解释不同治疗值下参数差异具有挑战性。在框架之外引入了替代估计程序来克服传统方法的缺点，并在应用中展示它们可以得出不同的结论。 |
+| [^29] | [Dynamic covariate balancing: estimating treatment effects over time with potential local projections.](http://arxiv.org/abs/2103.01280) | 本文提出了一种通过动态协变量平衡方法，基于过去历史上潜在结果期望的局部投影，估计面板数据中动态变化的治疗效果，并考虑结果和时间变化的协变量与治疗轨迹的关系以及治疗效应的异质性。研究结果表明该方法具有良好的渐近性质和数值特性，在实证应用中具有优势。 |
 
 # 详细
 
@@ -89,7 +90,21 @@
 
     This paper presents a novel application of graph neural networks for modeling and estimating network heterogeneity. Network heterogeneity is characterized by variations in unit's decisions or outcomes that depend not only on its own attributes but also on the conditions of its surrounding neighborhood. We delineate the convergence rate of the graph neural networks estimator, as well as its applicability in semiparametric causal inference with heterogeneous treatment effects. The finite-sample performance of our estimator is evaluated through Monte Carlo simulations. In an empirical setting related to microfinance program participation, we apply the new estimator to examine the average treatment effects and outcomes of counterfactual policies, and to propose an enhanced strategy for selecting the initial recipients of program information in social networks.
     
-[^5]: 绿色创新是否排挤了企业的其他创新？基于扩展的CDM模型和无条件分位数回归的研究
+[^5]: 同学习代理人进行合同订立
+
+    Contracting with a Learning Agent. (arXiv:2401.16198v1 [cs.GT])
+
+    [http://arxiv.org/abs/2401.16198](http://arxiv.org/abs/2401.16198)
+
+    本研究主要针对与学习代理人进行重复合同的问题，关注代理人达到无悔结果的情况。我们在一个经典的合同设置下找到了最优解。解决方案采用了简单的结构：最初以一个线性合同开始，然后切换到另一个线性合同。
+
+    
+
+    许多现实生活中的合同关系与基本的委托代理理论存在明显差异。通常，它们涉及到委托人和代理人在不确定性和时间的条件下进行重复的策略性互动。虽然从理论上讲很吸引人，但在实践中，玩家很少使用复杂的动态策略，通常更喜欢通过学习来应对不确定性和复杂性。我们开始研究与学习代理人进行重复合同的问题，重点关注达到无悔结果的代理人。在一般博弈中优化对抗无悔代理人是一个已知的开放问题;我们针对一个经典的合同设置问题实现了对这个问题的最优解，其中代理人在多个选择动作中选择会导致成功/失败。解决方案具有出人意料的简单结构：对于一些$\alpha > 0$，最初以标量$\alpha$提供线性合同，然后切换到以标量$0$提供线性合同。这个转换引发了...
+
+    Many real-life contractual relations differ completely from the clean, static model at the heart of principal-agent theory. Typically, they involve repeated strategic interactions of the principal and agent, taking place under uncertainty and over time. While appealing in theory, players seldom use complex dynamic strategies in practice, often preferring to circumvent complexity and approach uncertainty through learning. We initiate the study of repeated contracts with a learning agent, focusing on agents who achieve no-regret outcomes.  Optimizing against a no-regret agent is a known open problem in general games; we achieve an optimal solution to this problem for a canonical contract setting, in which the agent's choice among multiple actions leads to success/failure. The solution has a surprisingly simple structure: for some $\alpha > 0$, initially offer the agent a linear contract with scalar $\alpha$, then switch to offering a linear contract with scalar $0$. This switch causes th
+    
+[^6]: 绿色创新是否排挤了企业的其他创新？基于扩展的CDM模型和无条件分位数回归的研究
 
     Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions. (arXiv:2401.16030v1 [econ.GN])
 
@@ -103,7 +118,7 @@
 
     In the era of sustainability, firms grapple with the decision of how much to invest in green innovation and how it influences their economic trajectory. This study employs the Crepon, Duguet, and Mairesse (CDM) framework to examine the conversion of R&D funds into patents and their impact on productivity, effectively addressing endogeneity by utilizing predicted dependent variables at each stage to exclude unobservable factors. Extending the classical CDM model, this study contrasts green and non-green innovations' economic effects. The results show non-green patents predominantly drive productivity gains, while green patents have a limited impact in non-heavy polluting firms. However, in high-pollution and manufacturing sectors, both innovation types equally enhance productivity. Using unconditional quantile regression, I found green innovation's productivity impact follows an inverse U-shape, unlike the U-shaped pattern of non-green innovation. Significantly, in the 50th to 80th prod
     
-[^6]: 算法定价中的算法合谋监管
+[^7]: 算法定价中的算法合谋监管
 
     Regulation of Algorithmic Collusion. (arXiv:2401.15794v1 [cs.GT])
 
@@ -117,7 +132,7 @@
 
     Consider sellers in a competitive market that use algorithms to adapt their prices from data that they collect. In such a context it is plausible that algorithms could arrive at prices that are higher than the competitive prices and this may benefit sellers at the expense of consumers (i.e., the buyers in the market). This paper gives a definition of plausible algorithmic non-collusion for pricing algorithms. The definition allows a regulator to empirically audit algorithms by applying a statistical test to the data that they collect. Algorithms that are good, i.e., approximately optimize prices to market conditions, can be augmented to contain the data sufficient to pass the audit. Algorithms that have colluded on, e.g., supra-competitive prices cannot pass the audit. The definition allows sellers to possess useful side information that may be correlated with supply and demand and could affect the prices used by good algorithms. The paper provides an analysis of the statistical comple
     
-[^7]: 公共产品供给与补偿变动
+[^8]: 公共产品供给与补偿变动
 
     Public Good Provision and Compensating Variation. (arXiv:2401.15493v1 [econ.GN])
 
@@ -131,7 +146,7 @@
 
     Public good provision by governments incurs significant costs but the willingness to pay for public goods is not directly observable. This study finds an exact closed-form compensating variation (CV) expression for a change in public good provision as a function of income and two preference parameters given homothetic utility. We prove that our CV expression arises if and only if the underlying function is homogeneous in the private goods and separately homogeneous in the public good(s). Then, we find a single sufficient statistic for the preference parameters and show how this sufficient statistic can be recovered in empirical applications. All results hold for marginal and non-marginal changes in public goods.
     
-[^8]: 使用Copula测试线性回归模型中工具变量和回归器的外生性
+[^9]: 使用Copula测试线性回归模型中工具变量和回归器的外生性
 
     Testing the Exogeneity of Instrumental Variables and Regressors in Linear Regression Models Using Copulas. (arXiv:2401.15253v1 [stat.ME])
 
@@ -145,7 +160,7 @@
 
     We provide a Copula-based approach to test the exogeneity of instrumental variables in linear regression models. We show that the exogeneity of instrumental variables is equivalent to the exogeneity of their standard normal transformations with the same CDF value. Then, we establish a Wald test for the exogeneity of the instrumental variables. We demonstrate the performance of our test using simulation studies. Our simulations show that if the instruments are actually endogenous, our test rejects the exogeneity hypothesis approximately 93% of the time at the 5% significance level. Conversely, when instruments are truly exogenous, it dismisses the exogeneity assumption less than 30% of the time on average for data with 200 observations and less than 2% of the time for data with 1,000 observations. Our results demonstrate our test's effectiveness, offering significant value to applied econometricians.
     
-[^9]: csranks: 一种用于估计和推断排名的R包
+[^10]: csranks: 一种用于估计和推断排名的R包
 
     csranks: An R Package for Estimation and Inference Involving Ranks. (arXiv:2401.15205v1 [econ.EM])
 
@@ -159,7 +174,7 @@
 
     This article introduces the R package csranks for estimation and inference involving ranks. First, we review methods for the construction of confidence sets for ranks, namely marginal and simultaneous confidence sets as well as confidence sets for the identities of the tau-best. Second, we review methods for estimation and inference in regressions involving ranks. Third, we describe the implementation of these methods in csranks and illustrate their usefulness in two examples: one about the quantification of uncertainty in the PISA ranking of countries and one about the measurement of intergenerational mobility using rank-rank regressions.
     
-[^10]: 多智能体深度强化学习在竞争中为快速充电电动车中心的动态定价中的应用
+[^11]: 多智能体深度强化学习在竞争中为快速充电电动车中心的动态定价中的应用
 
     Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition. (arXiv:2401.15108v1 [cs.LG])
 
@@ -173,7 +188,7 @@
 
     Fast-charging hubs for electric vehicles will soon become part of the newly built infrastructure for transportation electrification across the world. These hubs are expected to host many DC fast-charging stations and will admit EVs only for charging. Like the gasoline refueling stations, fast-charging hubs in a neighborhood will dynamically vary their prices to compete for the same pool of EV owners. These hubs will interact with the electric power network by making purchase commitments for a significant part of their power needs in the day-ahead (DA) electricity market and meeting the difference from the real-time (RT) market. Hubs may have supplemental battery storage systems (BSS), which they will use for arbitrage. In this paper, we develop a two-step data-driven dynamic pricing methodology for hubs in price competition. We first obtain the DA commitment by solving a stochastic DA commitment model. Thereafter we obtain the hub pricing strategies by modeling the game as a competitiv
     
-[^11]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
+[^12]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
 
     Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600). (arXiv:2401.14435v1 [econ.GN])
 
@@ -187,7 +202,7 @@
 
     We examine the impact of Islamic legal institutions to the comparative economic decline of the Middle East behind Latin Europe, which can be observed since the late Middle Ages. To this end, we explore whether the sacralization of Islamic law and its focus on the Sharia as supreme, sacred and unchangeable legal text, which reached its culmination in the 13th century had an impact on economic development. We use the population size of 145 cities in Islamic countries and 648 European cities for the period 800-1800 as proxies for the level of economic development, and construct novel estimates of the number of law schools (i.e. madaris) and estimate their contribution to the pre-industrial economic development. Our triple-differences estimates show that a higher density of madrasas before the sacralization of Islamic law predicts a more vibrant urban economy characterized by higher urban growth. After the consolidation of the sharia sacralization of law in the 13th century, greater densit
     
-[^12]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
+[^13]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
 
     Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment. (arXiv:2401.11100v1 [econ.GN])
 
@@ -201,7 +216,7 @@
 
     Summan, Nandi, and Bloom (2023; SNB) finds that exposure of babies to India's Universal Immunization Programme (UIP) in the late 1980s increased their weekly wages in early adulthood by 0.138 log points and per-capita household consumption 0.028 points. But the results are attained by regressing on age, in years, while controlling for year of birth--two variables that, as constructed, are nearly collinear. The results are therefore attributable to trends during the one-year survey period, such as inflation. A randomization exercise shows that when the true impacts are zero, the SNB estimator averages 0.088 points for wages and 0.039 points for consumption.
     
-[^13]: 矢量自回归模型的结构分析
+[^14]: 矢量自回归模型的结构分析
 
     Structural Analysis of Vector Autoregressive Models. (arXiv:2312.06402v5 [econ.EM] UPDATED)
 
@@ -215,7 +230,7 @@
 
     This set of lecture notes discuss key concepts for the Structural Analysis of Vector Autoregressive models for the teaching of a course on Applied Macroeconometrics with Advanced Topics.
     
-[^14]: 经验金融的认识论限制：因果降解论和自我参照
+[^15]: 经验金融的认识论限制：因果降解论和自我参照
 
     Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference. (arXiv:2311.16570v3 [q-fin.GN] UPDATED)
 
@@ -229,7 +244,7 @@
 
     The clarion call for causal reduction in the study of capital markets is intensifying. However, in self-referencing and open systems such as capital markets, the idea of unidirectional causation (if applicable) may be limiting at best, and unstable or fallacious at worst. In this research, we critically assess the use of scientific deduction and causal inference within the study of empirical finance and econometrics. We then demonstrate the idea of competing causal chains using a toy model adapted from ecological predator/prey relationships. From this, we develop the alternative view that the study of empirical finance, and the risks contained therein, may be better appreciated once we admit that our current arsenal of quantitative finance tools may be limited to ex post causal inference under popular assumptions. Where these assumptions are challenged, for example in a recognizable reflexive context, the prescription of unidirectional causation proves deeply problematic.
     
-[^15]: 一个适用于私有资产所有权重组的无操纵机制
+[^16]: 一个适用于私有资产所有权重组的无操纵机制
 
     A Strategyproof Mechanism for Ownership Restructuring in Privately Owned Assets. (arXiv:2311.06780v2 [econ.TH] UPDATED)
 
@@ -243,7 +258,7 @@
 
     It is unclear how to restructure ownership when an asset is privately held, and there is uncertainty about the owners' subjective valuations. When ownership is divided equally between two owners, a commonly used mechanism is called a BMBY mechanism. This mechanism works as follows: each owner can initiate a BMBY by naming her price. Once an owner declares a price, the other chooses to sell his holdings or buy the shares of the initiator at the given price. This mechanism is simple and tractable; however, it does not elicit actual owner valuations, does not guarantee an efficient allocation, and, most importantly, is limited to an equal partnership of two owners. In this paper, we extend this rationale to a multi-owner setting. Our proposed mechanism elicits owner valuations truthfully. Additionally, our proposed mechanism exhibits several desirable traits: it is easy to implement, budget balanced, robust to collusion (weakly group strategyproof), individually rational, and ex-post effi
     
-[^16]: 数据空间和服务生态的经济可行性的正式交易成本分析
+[^17]: 数据空间和服务生态的经济可行性的正式交易成本分析
 
     A Formal Transaction Cost-Based Analysis of the Economic Feasibility of Data Spaces and Service Ecosystems. (arXiv:2310.03157v1 [econ.TH])
 
@@ -257,7 +272,7 @@
 
     Data spaces and service ecosystems such as Gaia-X are expected to fuel the emerging data economy. It is well known, however, that this type of network-based economic governance structures occupies a potentially unstable position between the two stable (governance) endpoints, namely the firm (i.e., hierarchical governance) and the (open) market (i.e., coordination through the monetary system).  This paper develops a formal (mathematical) theory of the economic value for (data or service) ecosystem participants by extending transaction costs economics using certain elements from service-dominant logic. Within this theory, we derive several theorems on (i) necessary conditions for the economic feasibility of ecosystem-based transactions, (ii) scaling requirements for ecosystem stability, and (iii) a generic feasibility condition for arbitrary data or service provider-consumer ecosystems. Finally, we present an algebraic definition of business ecosystems and relate it to existing informal 
     
-[^17]: 数字产品的增长、地理和贸易影响
+[^18]: 数字产品的增长、地理和贸易影响
 
     The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
 
@@ -271,7 +286,7 @@
 
     Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
     
-[^18]: 自由不连续设计：应用于互联网封锁的经济影响
+[^19]: 自由不连续设计：应用于互联网封锁的经济影响
 
     Free Discontinuity Design: With an Application to the Economic Effects of Internet Shutdowns. (arXiv:2309.14630v1 [econ.EM])
 
@@ -285,7 +300,7 @@
 
     Thresholds in treatment assignments can produce discontinuities in outcomes, revealing causal insights. In many contexts, like geographic settings, these thresholds are unknown and multivariate. We propose a non-parametric method to estimate the resulting discontinuities by segmenting the regression surface into smooth and discontinuous parts. This estimator uses a convex relaxation of the Mumford-Shah functional, for which we establish identification and convergence. Using our method, we estimate that an internet shutdown in India resulted in a reduction of economic activity by over 50%, greatly surpassing previous estimates and shedding new light on the true cost of such shutdowns for digital economies globally.
     
-[^19]: 检查时间可预测吗？
+[^20]: 检查时间可预测吗？
 
     Should the Timing of Inspections be Predictable?. (arXiv:2304.01385v1 [econ.TH])
 
@@ -299,7 +314,7 @@
 
     A principal hires an agent to work on a long-term project that culminates in a breakthrough or a breakdown. At each time, the agent privately chooses to work or shirk. Working increases the arrival rate of breakthroughs and decreases the arrival rate of breakdowns. To motivate the agent to work, the principal conducts costly inspections. She fires the agent if shirking is detected. We characterize the principal's optimal inspection policy. Periodic inspections are optimal if work primarily speeds up breakthroughs. Random inspections are optimal if work primarily delays breakdowns. Crucially, the agent's actions determine his risk-attitude over the timing of punishments.
     
-[^20]: 状态替代和显眼消费
+[^21]: 状态替代和显眼消费
 
     Status substitution and conspicuous consumption. (arXiv:2303.07008v1 [econ.TH])
 
@@ -313,7 +328,7 @@
 
     This paper adapts ideas from social identity theory to set out a new framework for modelling conspicuous consumption. Notably, this approach can explain two stylised facts about conspicuous consumption that initially seem at odds with one another, and to date have required different families of models to explain each: (1) people consume more visible goods when their neighbours' incomes rise, but (2) consume less visible goods when incomes of those with the same race in a wider geographic area rise. The first fact is typically explained by `Keeping up with the Joneses' models, and the second by signalling models. Our model also explains related features of conspicuous consumption: that the rich are more sensitive to others' incomes than the poor, and that the effect of income inequality on consumption differs qualitatively across groups. Importantly, it explains this fourth stylised fact without falling back on differences in preferences across groups, as required in other models. In ad
     
-[^21]: 从有限理性到有限考虑：表示和行为分析
+[^22]: 从有限理性到有限考虑：表示和行为分析
 
     From bounded rationality to limited consideration: Representation and behavioral analysis. (arXiv:2302.00978v5 [econ.TH] UPDATED)
 
@@ -327,7 +342,7 @@
 
     Many bounded rationality approaches discussed in the literature are models of limited consideration. We provide a novel representation and data interpretation for some of the analyzed behavioral patterns. Moreover, we characterize a testable choice procedure that allows the experimenter to uniquely infer limited consideration from irrational features of the observed behavior.
     
-[^22]: 基于混合频率数据的宏观经济预测中的水库计算
+[^23]: 基于混合频率数据的宏观经济预测中的水库计算
 
     Reservoir Computing for Macroeconomic Forecasting with Mixed Frequency Data. (arXiv:2211.00363v2 [econ.EM] UPDATED)
 
@@ -341,7 +356,7 @@
 
     Macroeconomic forecasting has recently started embracing techniques that can deal with large-scale datasets and series with unequal release periods. MIxed-DAta Sampling (MIDAS) and Dynamic Factor Models (DFM) are the two main state-of-the-art approaches that allow modeling series with non-homogeneous frequencies. We introduce a new framework called the Multi-Frequency Echo State Network (MFESN) based on a relatively novel machine learning paradigm called reservoir computing. Echo State Networks (ESN) are recurrent neural networks formulated as nonlinear state-space systems with random state coefficients where only the observation map is subject to estimation. MFESNs are considerably more efficient than DFMs and allow for incorporating many series, as opposed to MIDAS models, which are prone to the curse of dimensionality. All methods are compared in extensive multistep forecasting exercises targeting US GDP growth. We find that our MFESN models achieve superior or comparable performanc
     
-[^23]: 在样本选择条件下的因果概率：对J\'ovenes en Acci\'on对形式化的影响的重新分析
+[^24]: 在样本选择条件下的因果概率：对J\'ovenes en Acci\'on对形式化的影响的重新分析
 
     Probability of Causation with Sample Selection: A Reanalysis of the Impacts of J\'ovenes en Acci\'on on Formality. (arXiv:2210.01938v4 [econ.EM] UPDATED)
 
@@ -355,7 +370,7 @@
 
     This paper identifies the probability of causation when there is sample selection. We show that the probability of causation is partially identified for individuals who are always observed regardless of treatment status and derive sharp bounds under three increasingly restrictive sets of assumptions. The first set imposes an exogenous treatment and a monotone sample selection mechanism. To tighten these bounds, the second set also imposes the monotone treatment response assumption, while the third set additionally imposes a stochastic dominance assumption. Finally, we use experimental data from the Colombian job training program J\'ovenes en Acci\'on to empirically illustrate our approach's usefulness. We find that, among always-employed women, at least 18% and at most 24% transitioned to the formal labor market because of the program.
     
-[^24]: 写下来吧：正式合同缓解多智能体强化学习中的社会困境
+[^25]: 写下来吧：正式合同缓解多智能体强化学习中的社会困境
 
     Get It in Writing: Formal Contracts Mitigate Social Dilemmas in Multi-Agent RL. (arXiv:2208.10469v3 [cs.AI] UPDATED)
 
@@ -369,7 +384,7 @@
 
     Multi-agent reinforcement learning (MARL) is a powerful tool for training automated systems acting independently in a common environment. However, it can lead to sub-optimal behavior when individual incentives and group incentives diverge. Humans are remarkably capable at solving these social dilemmas. It is an open problem in MARL to replicate such cooperative behaviors in selfish agents. In this work, we draw upon the idea of formal contracting from economics to overcome diverging incentives between agents in MARL. We propose an augmentation to a Markov game where agents voluntarily agree to binding state-dependent transfers of reward, under pre-specified conditions. Our contributions are theoretical and empirical. First, we show that this augmentation makes all subgame-perfect equilibria of all fully observed Markov games exhibit socially optimal behavior, given a sufficiently rich space of contracts. Next, we complement our game-theoretic analysis by showing that state-of-the-art R
     
-[^25]: 基于Hodge分解的抽象博弈新解决方案
+[^26]: 基于Hodge分解的抽象博弈新解决方案
 
     New Solution based on Hodge Decomposition for Abstract Games. (arXiv:2109.14539v4 [econ.TH] UPDATED)
 
@@ -383,7 +398,7 @@
 
     This paper proposes Hodge Potential Choice (HPC), a new solution for abstract games with irreflexive dominance relations. This solution is formulated by involving geometric tools like differential forms and Hodge decomposition onto abstract games. We provide a workable algorithm for the proposed solution with a new data structure of abstract games. From the view of gaming, HPC overcomes several weaknesses of conventional solutions. HPC coincides with Copeland Choice in complete cases and can be extended to slove games with marginal strengths. It will be proven that the Hodge potential choice possesses three prevalent axiomatic properties: neutrality, strong monotonicity, dominance cycle s reversing independence, and sensitivity to mutual dominance. To compare the HPC with Copeland Choice in large samples of games, we design digital experiments with randomly generated abstract games with different sizes and completeness. The experimental results present the advantage of HPC in the stati
     
-[^26]: 更强的单调信号平衡
+[^27]: 更强的单调信号平衡
 
     Stronger Monotone Signaling Equilibrium. (arXiv:2109.03370v3 [econ.TH] UPDATED)
 
@@ -397,7 +412,7 @@
 
     We study monotone signaling equilibrium where equilibrium outcomes - actions, reactions, beliefs (and matching in a matching model) - are all monotone in the stronger set order. We show that if the sender's utility is monotone-supermodular, a pure-strategy perfect Bayesian equilibrium of games with one sender and one receiver is stronger monotone if and only if it passes Criterion D1 (Cho and Kreps (1987), Banks and Sobel (1987)). We introduce a notion of competitive signaling equilibrium (CSE) in one-to-one matching markets with a continuum of heterogeneous senders and receivers, based on the notion of stable matching. We show that if the sender utility is monotone-supermodular and the receiver's utility is weakly monotone-supermodular, a CSE is stronger monotone if and only if it passes Criterion D1. Finally, in one-to-one matching markets with quasilinear utilities, a unique stronger monotone equilibrium is established given any interval of feasible reactions that receivers can take
     
-[^27]: 带连续治疗的差异法分析
+[^28]: 带连续治疗的差异法分析
 
     Difference-in-Differences with a Continuous Treatment. (arXiv:2107.02637v3 [econ.EM] UPDATED)
 
@@ -411,7 +426,7 @@
 
     This paper analyzes difference-in-differences setups with a continuous treatment. We show that treatment effect on the treated-type parameters can be identified under a generalized parallel trends assumption that is similar to the binary treatment setup. However, interpreting differences in these parameters across different values of the treatment can be particularly challenging due to treatment effect heterogeneity. We discuss alternative, typically stronger, assumptions that alleviate these challenges. We also provide a variety of treatment effect decomposition results, highlighting that parameters associated with popular linear two-way fixed-effect (TWFE) specifications can be hard to interpret, \emph{even} when there are only two time periods. We introduce alternative estimation procedures that do not suffer from these TWFE drawbacks, and show in an application that they can lead to different conclusions.
     
-[^28]: 动态协变量平衡：基于潜在局部投影的治疗效果随时间估计
+[^29]: 动态协变量平衡：基于潜在局部投影的治疗效果随时间估计
 
     Dynamic covariate balancing: estimating treatment effects over time with potential local projections. (arXiv:2103.01280v3 [econ.EM] UPDATED)
 

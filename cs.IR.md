@@ -7,21 +7,22 @@
 | [^3] | [A Survey on Neural Topic Models: Methods, Applications, and Challenges.](http://arxiv.org/abs/2401.15351) | 这篇综述调研了神经主题模型的方法、应用和挑战，对于短文本和跨语言文档等各种场景提供了系统性的组织和介绍，并讨论了广泛应用的一系列热门应用。 |
 | [^4] | [Music Auto-Tagging with Robust Music Representation Learned via Domain Adversarial Training.](http://arxiv.org/abs/2401.15323) | 该研究通过领域对抗训练(DAT)方法提出了一种改善嘈杂环境中音乐自动标记性能的方法。该方法通过额外的预训练阶段和添加合成的嘈杂音乐数据，获得了鲁棒的音乐表示，并在音乐自动标记方面展现了增强的性能。 |
 | [^5] | [Improving Medical Reasoning through Retrieval and Self-Reflection with Retrieval-Augmented Large Language Models.](http://arxiv.org/abs/2401.15269) | 本论文介绍了一种名为Self-BioRAG的框架，通过使用检索和自我反思的方法，提高了医疗推理的能力。该框架专注于生成解释、检索领域特定文档以及对生成的响应进行自我反思。 |
-| [^6] | [The Power of Noise: Redefining Retrieval for RAG Systems.](http://arxiv.org/abs/2401.14887) | 本研究通过分析和评估检索增强生成（RAG）系统中的信息检索（IR）组件，填补了目前研究中忽视的领域，在有效的RAG的提示表述中，不相关文档的包含可能会对系统性能产生负面影响。 |
-| [^7] | [PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering.](http://arxiv.org/abs/2401.12590) | PolyCF是一个灵活的图信号滤波器，通过多项式图过滤器处理交互信号，能够捕捉多个特征空间中的谱特征，并近似恢复丢失的交互，旨在实现最优的协同过滤。 |
-| [^8] | [Knowledge Navigation: Inferring the Interlocking Map of Knowledge from Research Trajectories.](http://arxiv.org/abs/2401.11742) | 本研究利用自然语言处理技术引入了一种创新的嵌入方案，推断出了知识交错地图，揭示了知识之间错综复杂的联系，并展示了多个应用场景。 |
-| [^9] | [Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation.](http://arxiv.org/abs/2401.11648) | 通过医学代码中心的多模态对比EHR建模预测下次就诊诊断，并通过分层正则化提高性能。 |
-| [^10] | [Location Sensitive Embedding for Knowledge Graph Embedding.](http://arxiv.org/abs/2401.10893) | 这篇论文介绍了一种新颖的位置敏感嵌入（LSE）方法，该方法通过关系特定的映射来修改头实体，将关系概念化为线性变换。LSE在知识图谱嵌入领域具有理论基础，同时提出了更高效的变体LSEd。实验证明LSEd在链接预测任务上具有竞争力。 |
-| [^11] | [Knowledge graph driven recommendation model of graph neural network.](http://arxiv.org/abs/2401.10244) | 提出了一种基于知识图谱的图神经网络推荐模型KGLN，通过合并节点特征、调整聚合权重和迭代演化，提高了个性化推荐的准确性和效果。在实验中相对于已有基准方法，KGLN在不同数据集上的AUC提高了0.3%至5.9%和1.1%至8.2%。 |
-| [^12] | [Denoising Diffusion Recommender Model.](http://arxiv.org/abs/2401.06982) | 该论文提出了一种去噪扩散推荐模型（DDRM），通过在推荐模型中注入噪声并利用扩散模型进行多步去噪过程，增强用户和项目嵌入的鲁棒性。 |
-| [^13] | [Uncertain research country rankings. Should we continue producing uncertain rankings?.](http://arxiv.org/abs/2312.17560) | 这项研究对基于引用的国家排名进行了分析，发现这些排名可能对日本的科研地位进行错误的分类。研究还发现了引用分布的偏离情况，并评估了其对评估的影响。 |
-| [^14] | [A Survey on Query-based API Recommendation.](http://arxiv.org/abs/2312.10623) | 这项调研研究了过去10年发表的API推荐研究，通过对API推荐工具的结构、数据来源和收集方法以及常见数据表示等方面的分析，提出了四个关键研究问题。 |
-| [^15] | [Knowledge Graph Reasoning Based on Attention GCN.](http://arxiv.org/abs/2312.10049) | 本论文通过将图卷积神经网络（GCN）与注意力机制相结合，提出了一种新颖的技术来增强知识图谱推理，通过检查实体之间及其邻居节点之间的关系以及整合实体的属性和相互作用，生成丰富的隐式特征向量，以提高实体分类和链接预测等任务的性能。 |
-| [^16] | [Identifiability Matters: Revealing the Hidden Recoverable Condition in Unbiased Learning to Rank.](http://arxiv.org/abs/2309.15560) | 研究揭示在无偏学习排名中，当点击数据不能完全拟合时，无法恢复真实相关性，导致排名性能显著降低，提出了可识别性图模型作为解决方案。 |
-| [^17] | [Candidate Set Re-ranking for Composed Image Retrieval with Dual Multi-modal Encoder.](http://arxiv.org/abs/2305.16304) | 本论文提出了一种使用两阶段模式结合预先计算图像嵌入和参考文本-候选项三元组交互选择的方式进行组合图像检索候选集重排序的方法。 |
-| [^18] | [ConvGQR: Generative Query Reformulation for Conversational Search.](http://arxiv.org/abs/2305.15645) | 本文提出了一种新的面向会话搜索的ConvGQR框架，通过结合预训练语言模型来重新构造查询，从而提供更好的搜索查询。 |
-| [^19] | [Fast and exact fixed-radius neighbor search based on sorting.](http://arxiv.org/abs/2212.07679) | SNN是一种新的固定半径近邻搜索方法，通过排序和使用高级BLAS实现，能够显著提高查询和索引时间，返回精确结果，并且无需参数调整。 |
-| [^20] | [DiSCoMaT: Distantly Supervised Composition Extraction from Tables in Materials Science Articles.](http://arxiv.org/abs/2207.01079) | 本文提出了一个新型挑战任务，即通过远程监督方式从科学文章中的表格中提取有关材料组成的信息。为此，研究者创建了一个包含4408个远程监督表格和1475个手动注释的开发和测试表格的训练数据集，并提出了一个强基线——DiSCoMaT。 |
+| [^6] | [Training Differentially Private Ad Prediction Models with Semi-Sensitive Features.](http://arxiv.org/abs/2401.15246) | 我们介绍了一种新的算法，用于训练具有半敏感特征的差分隐私广告预测模型，并在真实广告数据集上证明了其优于传统方法的效果。 |
+| [^7] | [The Power of Noise: Redefining Retrieval for RAG Systems.](http://arxiv.org/abs/2401.14887) | 本研究通过分析和评估检索增强生成（RAG）系统中的信息检索（IR）组件，填补了目前研究中忽视的领域，在有效的RAG的提示表述中，不相关文档的包含可能会对系统性能产生负面影响。 |
+| [^8] | [PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering.](http://arxiv.org/abs/2401.12590) | PolyCF是一个灵活的图信号滤波器，通过多项式图过滤器处理交互信号，能够捕捉多个特征空间中的谱特征，并近似恢复丢失的交互，旨在实现最优的协同过滤。 |
+| [^9] | [Knowledge Navigation: Inferring the Interlocking Map of Knowledge from Research Trajectories.](http://arxiv.org/abs/2401.11742) | 本研究利用自然语言处理技术引入了一种创新的嵌入方案，推断出了知识交错地图，揭示了知识之间错综复杂的联系，并展示了多个应用场景。 |
+| [^10] | [Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation.](http://arxiv.org/abs/2401.11648) | 通过医学代码中心的多模态对比EHR建模预测下次就诊诊断，并通过分层正则化提高性能。 |
+| [^11] | [Location Sensitive Embedding for Knowledge Graph Embedding.](http://arxiv.org/abs/2401.10893) | 这篇论文介绍了一种新颖的位置敏感嵌入（LSE）方法，该方法通过关系特定的映射来修改头实体，将关系概念化为线性变换。LSE在知识图谱嵌入领域具有理论基础，同时提出了更高效的变体LSEd。实验证明LSEd在链接预测任务上具有竞争力。 |
+| [^12] | [Knowledge graph driven recommendation model of graph neural network.](http://arxiv.org/abs/2401.10244) | 提出了一种基于知识图谱的图神经网络推荐模型KGLN，通过合并节点特征、调整聚合权重和迭代演化，提高了个性化推荐的准确性和效果。在实验中相对于已有基准方法，KGLN在不同数据集上的AUC提高了0.3%至5.9%和1.1%至8.2%。 |
+| [^13] | [Denoising Diffusion Recommender Model.](http://arxiv.org/abs/2401.06982) | 该论文提出了一种去噪扩散推荐模型（DDRM），通过在推荐模型中注入噪声并利用扩散模型进行多步去噪过程，增强用户和项目嵌入的鲁棒性。 |
+| [^14] | [Uncertain research country rankings. Should we continue producing uncertain rankings?.](http://arxiv.org/abs/2312.17560) | 这项研究对基于引用的国家排名进行了分析，发现这些排名可能对日本的科研地位进行错误的分类。研究还发现了引用分布的偏离情况，并评估了其对评估的影响。 |
+| [^15] | [A Survey on Query-based API Recommendation.](http://arxiv.org/abs/2312.10623) | 这项调研研究了过去10年发表的API推荐研究，通过对API推荐工具的结构、数据来源和收集方法以及常见数据表示等方面的分析，提出了四个关键研究问题。 |
+| [^16] | [Knowledge Graph Reasoning Based on Attention GCN.](http://arxiv.org/abs/2312.10049) | 本论文通过将图卷积神经网络（GCN）与注意力机制相结合，提出了一种新颖的技术来增强知识图谱推理，通过检查实体之间及其邻居节点之间的关系以及整合实体的属性和相互作用，生成丰富的隐式特征向量，以提高实体分类和链接预测等任务的性能。 |
+| [^17] | [Identifiability Matters: Revealing the Hidden Recoverable Condition in Unbiased Learning to Rank.](http://arxiv.org/abs/2309.15560) | 研究揭示在无偏学习排名中，当点击数据不能完全拟合时，无法恢复真实相关性，导致排名性能显著降低，提出了可识别性图模型作为解决方案。 |
+| [^18] | [Candidate Set Re-ranking for Composed Image Retrieval with Dual Multi-modal Encoder.](http://arxiv.org/abs/2305.16304) | 本论文提出了一种使用两阶段模式结合预先计算图像嵌入和参考文本-候选项三元组交互选择的方式进行组合图像检索候选集重排序的方法。 |
+| [^19] | [ConvGQR: Generative Query Reformulation for Conversational Search.](http://arxiv.org/abs/2305.15645) | 本文提出了一种新的面向会话搜索的ConvGQR框架，通过结合预训练语言模型来重新构造查询，从而提供更好的搜索查询。 |
+| [^20] | [Fast and exact fixed-radius neighbor search based on sorting.](http://arxiv.org/abs/2212.07679) | SNN是一种新的固定半径近邻搜索方法，通过排序和使用高级BLAS实现，能够显著提高查询和索引时间，返回精确结果，并且无需参数调整。 |
+| [^21] | [DiSCoMaT: Distantly Supervised Composition Extraction from Tables in Materials Science Articles.](http://arxiv.org/abs/2207.01079) | 本文提出了一个新型挑战任务，即通过远程监督方式从科学文章中的表格中提取有关材料组成的信息。为此，研究者创建了一个包含4408个远程监督表格和1475个手动注释的开发和测试表格的训练数据集，并提出了一个强基线——DiSCoMaT。 |
 
 # 详细
 
@@ -95,7 +96,21 @@
 
     Recent proprietary large language models (LLMs), such as GPT-4, have achieved a milestone in tackling diverse challenges in the biomedical domain, ranging from multiple-choice questions to long-form generations. To address challenges that still cannot be handled with the encoded knowledge of LLMs, various retrieval-augmented generation (RAG) methods have been developed by searching documents from the knowledge corpus and appending them unconditionally or selectively to the input of LLMs for generation. However, when applying existing methods to different domain-specific problems, poor generalization becomes apparent, leading to fetching incorrect documents or making inaccurate judgments. In this paper, we introduce Self-BioRAG, a framework reliable for biomedical text that specializes in generating explanations, retrieving domain-specific documents, and self-reflecting generated responses. We utilize 84k filtered biomedical instruction sets to train Self-BioRAG that can assess its gene
     
-[^6]: 噪声的力量：重新定义RAG系统的检索
+[^6]: 使用半敏感特征训练差分隐私广告预测模型
+
+    Training Differentially Private Ad Prediction Models with Semi-Sensitive Features. (arXiv:2401.15246v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.15246](http://arxiv.org/abs/2401.15246)
+
+    我们介绍了一种新的算法，用于训练具有半敏感特征的差分隐私广告预测模型，并在真实广告数据集上证明了其优于传统方法的效果。
+
+    
+
+    我们以数字广告中出现的问题为出发点，介绍了使用半敏感特征训练差分隐私机器学习模型的任务。在这种情况下，攻击者已知一部分特征（因此无需保护），而剩余的特征以及标签对于攻击者来说是未知的，需要通过差分隐私保护。这个任务插值了使用全差分隐私（需要保护标签和所有特征）或标签差分隐私（所有特征被认为是已知的，只需保护标签）来训练模型。我们提出了一种新的算法来训练具有半敏感特征的差分隐私模型。通过对真实广告数据集的实证评估，我们证明了我们的算法在效用方面超过了（i）在所有特征上运行的差分隐私随机梯度下降（DP-SGD）基线和（ii）仅在已知特征上运行的标签差分隐私算法（而丢弃了未知的特征）。
+
+    Motivated by problems arising in digital advertising, we introduce the task of training differentially private (DP) machine learning models with semi-sensitive features. In this setting, a subset of the features is known to the attacker (and thus need not be protected) while the remaining features as well as the label are unknown to the attacker and should be protected by the DP guarantee. This task interpolates between training the model with full DP (where the label and all features should be protected) or with label DP (where all the features are considered known, and only the label should be protected). We present a new algorithm for training DP models with semi-sensitive features. Through an empirical evaluation on real ads datasets, we demonstrate that our algorithm surpasses in utility the baselines of (i) DP stochastic gradient descent (DP-SGD) run on all features (known and unknown), and (ii) a label DP algorithm run only on the known features (while discarding the unknown one
+    
+[^7]: 噪声的力量：重新定义RAG系统的检索
 
     The Power of Noise: Redefining Retrieval for RAG Systems. (arXiv:2401.14887v1 [cs.IR])
 
@@ -109,7 +124,7 @@
 
     Retrieval-Augmented Generation (RAG) systems represent a significant advancement over traditional Large Language Models (LLMs). RAG systems enhance their generation ability by incorporating external data retrieved through an Information Retrieval (IR) phase, overcoming the limitations of standard LLMs, which are restricted to their pre-trained knowledge and limited context window. Most research in this area has predominantly concentrated on the generative aspect of LLMs within RAG systems. Our study fills this gap by thoroughly and critically analyzing the influence of IR components on RAG systems. This paper analyzes which characteristics a retriever should possess for an effective RAG's prompt formulation, focusing on the type of documents that should be retrieved. We evaluate various elements, such as the relevance of the documents to the prompt, their position, and the number included in the context. Our findings reveal, among other insights, that including irrelevant documents can
     
-[^7]: PolyCF: 面向协同过滤的最优谱图过滤器
+[^8]: PolyCF: 面向协同过滤的最优谱图过滤器
 
     PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering. (arXiv:2401.12590v1 [cs.IR])
 
@@ -123,7 +138,7 @@
 
     Collaborative Filtering (CF) is a pivotal research area in recommender systems that capitalizes on collaborative similarities between users and items to provide personalized recommendations. With the remarkable achievements of node embedding-based Graph Neural Networks (GNNs), we explore the upper bounds of expressiveness inherent to embedding-based methodologies and tackle the challenges by reframing the CF task as a graph signal processing problem. To this end, we propose PolyCF, a flexible graph signal filter that leverages polynomial graph filters to process interaction signals. PolyCF exhibits the capability to capture spectral features across multiple eigenspaces through a series of Generalized Gram filters and is able to approximate the optimal polynomial response function for recovering missing interactions. A graph optimization objective and a pair-wise ranking objective are jointly used to optimize the parameters of the convolution kernel. Experiments on three widely adopted 
     
-[^8]: 知识导航：从研究轨迹中推断知识的交错地图
+[^9]: 知识导航：从研究轨迹中推断知识的交错地图
 
     Knowledge Navigation: Inferring the Interlocking Map of Knowledge from Research Trajectories. (arXiv:2401.11742v2 [cs.IR] UPDATED)
 
@@ -137,7 +152,7 @@
 
     "If I have seen further, it is by standing on the shoulders of giants," Isaac Newton's renowned statement hints that new knowledge builds upon existing foundations, which means there exists an interdependent relationship between knowledge, which, yet uncovered, is implied in the historical development of scientific systems for hundreds of years. By leveraging natural language processing techniques, this study introduces an innovative embedding scheme designed to infer the "knowledge interlocking map." This map, derived from the research trajectories of millions of scholars, reveals the intricate connections among knowledge. We validate that the inferred map effectively delineates disciplinary boundaries and captures the intricate relationships between diverse concepts. The utility of the interlocking map is showcased through multiple applications. Firstly, we demonstrated the multi-step analogy inferences within the knowledge space and the functional connectivity between concepts in di
     
-[^9]: 通过具有分层正则化的医学代码中心的多模态对比EHR建模预测下次就诊诊断
+[^10]: 通过具有分层正则化的医学代码中心的多模态对比EHR建模预测下次就诊诊断
 
     Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation. (arXiv:2401.11648v2 [cs.LG] UPDATED)
 
@@ -151,7 +166,7 @@
 
     Predicting next visit diagnosis using Electronic Health Records (EHR) is an essential task in healthcare, critical for devising proactive future plans for both healthcare providers and patients. Nonetheless, many preceding studies have not sufficiently addressed the heterogeneous and hierarchical characteristics inherent in EHR data, inevitably leading to sub-optimal performance. To this end, we propose NECHO, a novel medical code-centric multimodal contrastive EHR learning framework with hierarchical regularisation. First, we integrate multifaceted information encompassing medical codes, demographics, and clinical notes using a tailored network design and a pair of bimodal contrastive losses, all of which pivot around a medical code representation. We also regularise modality-specific encoders using a parental level information in medical ontology to learn hierarchical structure of EHR data. A series of experiments on MIMIC-III data demonstrates effectiveness of our approach.
     
-[^10]: 知识图谱嵌入的位置敏感嵌入
+[^11]: 知识图谱嵌入的位置敏感嵌入
 
     Location Sensitive Embedding for Knowledge Graph Embedding. (arXiv:2401.10893v1 [cs.IR])
 
@@ -165,7 +180,7 @@
 
     Knowledge graph embedding transforms knowledge graphs into a continuous, low-dimensional space, facilitating inference and completion tasks. This field is mainly divided into translational distance models and semantic matching models. A key challenge in translational distance models is their inability to effectively differentiate between 'head' and 'tail' entities in graphs. To address this, the novel location-sensitive embedding (LSE) method has been developed. LSE innovatively modifies the head entity using relation-specific mappings, conceptualizing relations as linear transformations rather than mere translations. The theoretical foundations of LSE, including its representational capabilities and its connections to existing models, have been thoroughly examined. A more streamlined variant, LSEd, employs a diagonal matrix for transformations to enhance practical efficiency. In tests conducted on four large-scale datasets for link prediction, LSEd either outperforms or is competitive
     
-[^11]: 基于知识图谱驱动的图神经网络推荐模型
+[^12]: 基于知识图谱驱动的图神经网络推荐模型
 
     Knowledge graph driven recommendation model of graph neural network. (arXiv:2401.10244v1 [cs.IR])
 
@@ -179,7 +194,7 @@
 
     A new graph neural network-based recommendation model called KGLN, which leverages Knowledge Graph (KG) information, was developed to enhance the accuracy and effectiveness of personalized recommendations. This model begins by using a single-layer neural network to merge individual node features in the graph. It then adjusts the aggregation weights of neighboring entities by incorporating influence factors. The model evolves from a single layer to multiple layers through iteration, enabling entities to access extensive multi-order associated entity information. The final step involves integrating features of entities and users to produce a recommendation score. The model's performance was evaluated by comparing its effects on various aggregation methods and influence factors. In tests using the MovieLen-1M and Book-Crossing datasets, KGLN showed an AUC (Area Under the ROC curve) improvement of 0.3% to 5.9% and 1.1% to 8.2%, respectively, over established benchmark methods like LibFM, D
     
-[^12]: 去噪扩散推荐模型
+[^13]: 去噪扩散推荐模型
 
     Denoising Diffusion Recommender Model. (arXiv:2401.06982v2 [cs.IR] UPDATED)
 
@@ -193,7 +208,7 @@
 
     Recommender systems often grapple with noisy implicit feedback. Most studies alleviate the noise issues from data cleaning perspective such as data resampling and reweighting, but they are constrained by heuristic assumptions. Another denoising avenue is from model perspective, which proactively injects noises into user-item interactions and enhance the intrinsic denoising ability of models. However, this kind of denoising process poses significant challenges to the recommender model's representation capacity to capture noise patterns. To address this issue, we propose Denoising Diffusion Recommender Model (DDRM), which leverages multi-step denoising process based on diffusion models to robustify user and item embeddings from any recommender models. DDRM injects controlled Gaussian noises in the forward process and iteratively removes noises in the reverse denoising process, thereby improving embedding robustness against noisy feedback. To achieve this target, the key lies in offering 
     
-[^13]: 不确定性的研究国家排名：我们应该继续制作不确定性排名吗？
+[^14]: 不确定性的研究国家排名：我们应该继续制作不确定性排名吗？
 
     Uncertain research country rankings. Should we continue producing uncertain rankings?. (arXiv:2312.17560v2 [cs.DL] UPDATED)
 
@@ -207,7 +222,7 @@
 
     Citation based country rankings consistently categorize Japan as a developing country, even in those from the most reputed institutions. This categorization challenges the credibility of such rankings, considering Japan elevated scientific standing. In most cases, these rankings use percentile indicators and are accurate if country citations fit an ideal model of distribution, but they can be misleading in cases of deviations. The ideal model implies a lognormal citation distribution and a power law citation based double rank: in the global and country lists. This report conducts a systematic examination of deviations from the ideal model and their consequential impact on evaluations. The study evaluates six selected countries across three scientifically relevant topics and utilizes Leiden Ranking assessments of over 300 universities. The findings reveal three types of deviations from the lognormal citation distribution: i deviations in the extreme upper tail; ii inflated lower tails; 
     
-[^14]: 一份关于基于查询的API推荐的调研
+[^15]: 一份关于基于查询的API推荐的调研
 
     A Survey on Query-based API Recommendation. (arXiv:2312.10623v3 [cs.IR] UPDATED)
 
@@ -221,7 +236,7 @@
 
     Application Programming Interfaces (APIs) are designed to help developers build software more effectively. Recommending the right APIs for specific tasks has gained increasing attention among researchers and developers in recent years. To comprehensively understand this research domain, we have surveyed to analyze API recommendation studies published in the last 10 years. Our study begins with an overview of the structure of API recommendation tools. Subsequently, we systematically analyze prior research and pose four key research questions. For RQ1, we examine the volume of published papers and the venues in which these papers appear within the API recommendation field. In RQ2, we categorize and summarize the prevalent data sources and collection methods employed in API recommendation research. In RQ3, we explore the types of data and common data representations utilized by API recommendation approaches. We also investigate the typical data extraction procedures and collection approac
     
-[^15]: 基于注意力GCN的知识图谱推理
+[^16]: 基于注意力GCN的知识图谱推理
 
     Knowledge Graph Reasoning Based on Attention GCN. (arXiv:2312.10049v2 [cs.IR] UPDATED)
 
@@ -235,7 +250,7 @@
 
     We propose a novel technique to enhance Knowledge Graph Reasoning by combining Graph Convolution Neural Network (GCN) with the Attention Mechanism. This approach utilizes the Attention Mechanism to examine the relationships between entities and their neighboring nodes, which helps to develop detailed feature vectors for each entity. The GCN uses shared parameters to effectively represent the characteristics of adjacent entities. We first learn the similarity of entities for node representation learning. By integrating the attributes of the entities and their interactions, this method generates extensive implicit feature vectors for each entity, improving performance in tasks including entity classification and link prediction, outperforming traditional neural network models. To conclude, this work provides crucial methodological support for a range of applications, such as search engines, question-answering systems, recommendation systems, and data integration tasks.
     
-[^16]: 识别性很重要：揭示无偏学习排名中隐藏的可恢复条件
+[^17]: 识别性很重要：揭示无偏学习排名中隐藏的可恢复条件
 
     Identifiability Matters: Revealing the Hidden Recoverable Condition in Unbiased Learning to Rank. (arXiv:2309.15560v1 [cs.IR])
 
@@ -249,7 +264,7 @@
 
     The application of Unbiased Learning to Rank (ULTR) is widespread in modern systems for training unbiased ranking models from biased click logs. The key is to explicitly model a generation process for user behavior and fit click data based on examination hypothesis. Previous research found empirically that the true latent relevance can be recovered in most cases as long as the clicks are perfectly fitted. However, we demonstrate that this is not always achievable, resulting in a significant reduction in ranking performance. In this work, we aim to answer if or when the true relevance can be recovered from click data, which is a foundation issue for ULTR field. We first define a ranking model as identifiable if it can recover the true relevance up to a scaling transformation, which is enough for pairwise ranking objective. Then we explore an equivalent condition for identifiability that can be novely expressed as a graph connectivity test problem: if and only if a graph (namely identifi
     
-[^17]: 具有双多模态编码器的组合图像检索候选集重排序
+[^18]: 具有双多模态编码器的组合图像检索候选集重排序
 
     Candidate Set Re-ranking for Composed Image Retrieval with Dual Multi-modal Encoder. (arXiv:2305.16304v2 [cs.CV] UPDATED)
 
@@ -263,7 +278,7 @@
 
     Composed image retrieval aims to find an image that best matches a given multi-modal user query consisting of a reference image and text pair. Existing methods commonly pre-compute image embeddings over the entire corpus and compare these to a reference image embedding modified by the query text at test time. Such a pipeline is very efficient at test time since fast vector distances can be used to evaluate candidates, but modifying the reference image embedding guided only by a short textual description can be difficult, especially independent of potential candidates. An alternative approach is to allow interactions between the query and every possible candidate, i.e., reference-text-candidate triplets, and pick the best from the entire set. Though this approach is more discriminative, for large-scale datasets the computational cost is prohibitive since pre-computation of candidate embeddings is no longer possible. We propose to combine the merits of both schemes using a two-stage mode
     
-[^18]: ConvGQR：面向会话搜索的生成式查询重构
+[^19]: ConvGQR：面向会话搜索的生成式查询重构
 
     ConvGQR: Generative Query Reformulation for Conversational Search. (arXiv:2305.15645v1 [cs.IR])
 
@@ -277,7 +292,7 @@
 
     In conversational search, the user's real search intent for the current turn is dependent on the previous conversation history. It is challenging to determine a good search query from the whole conversation context. To avoid the expensive re-training of the query encoder, most existing methods try to learn a rewriting model to de-contextualize the current query by mimicking the manual query rewriting. However, manually rewritten queries are not always the best search queries. Training a rewriting model on them would limit the model's ability to produce good search queries. Another useful hint is the potential answer to the question. In this paper, we propose ConvGQR, a new framework to reformulate conversational queries based on generative pre-trained language models (PLMs), one for query rewriting and another for generating potential answers. By combining both, ConvGQR can produce better search queries. In addition, to relate query reformulation to retrieval performance, we propose a 
     
-[^19]: 基于排序的快速准确的固定半径近邻搜索
+[^20]: 基于排序的快速准确的固定半径近邻搜索
 
     Fast and exact fixed-radius neighbor search based on sorting. (arXiv:2212.07679v6 [cs.IR] UPDATED)
 
@@ -291,7 +306,7 @@
 
     Fixed-radius near neighbor search is a fundamental data operation that retrieves all data points within a user-specified distance to a query point. There are efficient algorithms that can provide fast approximate query responses, but they often have a very compute-intensive indexing phase and require careful parameter tuning. Therefore, exact brute force and tree-based search methods are still widely used. Here we propose a new fixed-radius near neighbor search method, called SNN, that significantly improves over brute force and tree-based methods in terms of index and query time, provably returns exact results, and requires no parameter tuning. SNN exploits a sorting of the data points by their first principal component to prune the query search space. Further speedup is gained from an efficient implementation using high-level Basic Linear Algebra Subprograms (BLAS). We provide theoretical analysis of our method and demonstrate its practical performance when used stand-alone and when 
     
-[^20]: DiSCoMaT：材料科学文章中基于远程监督的表格组成提取
+[^21]: DiSCoMaT：材料科学文章中基于远程监督的表格组成提取
 
     DiSCoMaT: Distantly Supervised Composition Extraction from Tables in Materials Science Articles. (arXiv:2207.01079v3 [cs.CL] UPDATED)
 
