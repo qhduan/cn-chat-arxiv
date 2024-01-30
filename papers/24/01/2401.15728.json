@@ -1,0 +1,12 @@
+{
+    "title": "Analytic Pricing of SOFR Futures Contracts with Smile and Skew. (arXiv:2401.15728v1 [q-fin.MF])",
+    "abstract": "We seek an analytic pricing formula for SOFR futures contracts under an extension of the Hull-White model which incorporates not only the intrinsic convexity adjustments captured by Mercurio [2018], but also the skew and smile observed in options markets as done in Turfus and Romero-Berm\\'udez [2023].",
+    "link": "http://arxiv.org/abs/2401.15728",
+    "context": "Title: Analytic Pricing of SOFR Futures Contracts with Smile and Skew. (arXiv:2401.15728v1 [q-fin.MF])\nAbstract: We seek an analytic pricing formula for SOFR futures contracts under an extension of the Hull-White model which incorporates not only the intrinsic convexity adjustments captured by Mercurio [2018], but also the skew and smile observed in options markets as done in Turfus and Romero-Berm\\'udez [2023].",
+    "path": "papers/24/01/2401.15728.json",
+    "total_tokens": 551,
+    "translated_title": "分析定价带有偏斜和笑曲线的SOFR期货合约",
+    "translated_abstract": "我们寻求一种分析定价公式，用于在Hull-White模型的扩展下对SOFR期货合约进行定价，该模型不仅包含Mercurio [2018]捕捉到的内在凸度调整，还包括Turfs和Romero-Berm\\'udez [2023]所观察到的期权市场的偏斜和笑曲线。",
+    "tldr": "该论文研究了SOFR期货合约的分析定价问题，结合了Hull-White模型的扩展以及期权市场上观察到的偏斜和笑曲线。",
+    "en_tdlr": "This paper investigates the analytic pricing of SOFR futures contracts, incorporating an extension of the Hull-White model and the observed skew and smile in options markets."
+}

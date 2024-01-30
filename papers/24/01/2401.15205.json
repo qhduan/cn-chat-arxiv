@@ -1,0 +1,11 @@
+{
+    "title": "csranks: An R Package for Estimation and Inference Involving Ranks. (arXiv:2401.15205v1 [econ.EM])",
+    "abstract": "This article introduces the R package csranks for estimation and inference involving ranks. First, we review methods for the construction of confidence sets for ranks, namely marginal and simultaneous confidence sets as well as confidence sets for the identities of the tau-best. Second, we review methods for estimation and inference in regressions involving ranks. Third, we describe the implementation of these methods in csranks and illustrate their usefulness in two examples: one about the quantification of uncertainty in the PISA ranking of countries and one about the measurement of intergenerational mobility using rank-rank regressions.",
+    "link": "http://arxiv.org/abs/2401.15205",
+    "context": "Title: csranks: An R Package for Estimation and Inference Involving Ranks. (arXiv:2401.15205v1 [econ.EM])\nAbstract: This article introduces the R package csranks for estimation and inference involving ranks. First, we review methods for the construction of confidence sets for ranks, namely marginal and simultaneous confidence sets as well as confidence sets for the identities of the tau-best. Second, we review methods for estimation and inference in regressions involving ranks. Third, we describe the implementation of these methods in csranks and illustrate their usefulness in two examples: one about the quantification of uncertainty in the PISA ranking of countries and one about the measurement of intergenerational mobility using rank-rank regressions.",
+    "path": "papers/24/01/2401.15205.json",
+    "total_tokens": 626,
+    "translated_title": "csranks: 一种用于估计和推断排名的R包",
+    "translated_abstract": "本文介绍了用于估计和推断排名的R包csranks。首先，我们回顾了关于构建排名置信集的方法，包括边际和同时置信集以及关于tau最佳身份的置信集。其次，我们回顾了涉及排名回归的估计和推断方法。第三，我们描述了这些方法在csranks中的实现，并在两个例子中说明了它们的用途：一个是关于PISA国家排名不确定性的量化，另一个是使用排名回归测量代际流动性。",
+    "tldr": "csranks是一个用于估计和推断排名的R包，可以用于构建置信集和进行排名回归的估计和推断。可以应用于量化排名不确定性和测量代际流动性等问题。"
+}

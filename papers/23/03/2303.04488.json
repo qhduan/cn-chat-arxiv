@@ -1,0 +1,11 @@
+{
+    "title": "Magnushammer: A Transformer-based Approach to Premise Selection. (arXiv:2303.04488v2 [cs.LG] UPDATED)",
+    "abstract": "Premise selection is a fundamental problem of automated theorem proving. Previous works often use intricate symbolic methods, rely on domain knowledge, and require significant engineering effort to solve this task. In this work, we show that Magnushammer, a neural transformer-based approach, can outperform traditional symbolic systems by a large margin. Tested on the PISA benchmark, Magnushammer achieves $59.5\\%$ proof rate compared to a $38.3\\%$ proof rate of Sledgehammer, the most mature and popular symbolic-based solver. Furthermore, by combining Magnushammer with a neural formal prover based on a language model, we significantly improve the previous state-of-the-art proof rate from $57.0\\%$ to $71.0\\%$.",
+    "link": "http://arxiv.org/abs/2303.04488",
+    "context": "Title: Magnushammer: A Transformer-based Approach to Premise Selection. (arXiv:2303.04488v2 [cs.LG] UPDATED)\nAbstract: Premise selection is a fundamental problem of automated theorem proving. Previous works often use intricate symbolic methods, rely on domain knowledge, and require significant engineering effort to solve this task. In this work, we show that Magnushammer, a neural transformer-based approach, can outperform traditional symbolic systems by a large margin. Tested on the PISA benchmark, Magnushammer achieves $59.5\\%$ proof rate compared to a $38.3\\%$ proof rate of Sledgehammer, the most mature and popular symbolic-based solver. Furthermore, by combining Magnushammer with a neural formal prover based on a language model, we significantly improve the previous state-of-the-art proof rate from $57.0\\%$ to $71.0\\%$.",
+    "path": "papers/23/03/2303.04488.json",
+    "total_tokens": 772,
+    "translated_title": "Magnushammer: 一种基于Transformer的前提选择方法",
+    "translated_abstract": "前提选择是自动定理证明的一个基本问题。以往的方法常常使用复杂的符号方法，依赖领域知识，并需要大量的工程工作来解决这个任务。在这项工作中，我们展示了基于神经转换器的Magnushammer方法可以大幅度地超越传统的符号系统。通过在PISA基准上的测试，Magnushammer的证明率达到了59.5％，而最成熟和流行的基于符号的求解器Sledgehammer的证明率只有38.3％。此外，通过将Magnushammer与基于语言模型的神经形式证明器相结合，我们将先前最先进的证明率从57.0％大幅提高到71.0％。",
+    "tldr": "Magnushammer是一种基于Transformer的前提选择方法，通过在PISA基准上的测试表明，它可以大幅度超越传统符号系统，并将先前最先进的证明率从57.0％提高到71.0％。"
+}

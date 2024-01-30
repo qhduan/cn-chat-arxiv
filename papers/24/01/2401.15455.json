@@ -1,0 +1,12 @@
+{
+    "title": "New Foggy Object Detecting Model. (arXiv:2401.15455v1 [cs.CV])",
+    "abstract": "Object detection in reduced visibility has become a prominent research area. The existing techniques are not accurate enough in recognizing objects under such circumstances. This paper introduces a new foggy object detection method through a two-staged architecture of region identification from input images and detecting objects in such regions. The paper confirms notable improvements of the proposed method's accuracy and detection time over existing techniques.",
+    "link": "http://arxiv.org/abs/2401.15455",
+    "context": "Title: New Foggy Object Detecting Model. (arXiv:2401.15455v1 [cs.CV])\nAbstract: Object detection in reduced visibility has become a prominent research area. The existing techniques are not accurate enough in recognizing objects under such circumstances. This paper introduces a new foggy object detection method through a two-staged architecture of region identification from input images and detecting objects in such regions. The paper confirms notable improvements of the proposed method's accuracy and detection time over existing techniques.",
+    "path": "papers/24/01/2401.15455.json",
+    "total_tokens": 607,
+    "translated_title": "新的模糊目标检测模型",
+    "translated_abstract": "在降低能见度条件下进行目标检测已经成为一个重要的研究领域。现有的技术在识别这种情况下的目标时不够准确。本文介绍了一种新的模糊目标检测方法，通过输入图像中的区域识别和在这些区域中检测目标的两阶段架构来实现。本文证实了所提出方法在准确性和检测时间方面相比现有技术的显著改进。",
+    "tldr": "本文提出了一种新的模糊目标检测方法，并通过区域识别和目标检测两个阶段的架构实现。该方法在准确性和检测时间方面表现出显著的改进。",
+    "en_tdlr": "This paper introduces a new foggy object detection method with a two-staged architecture of region identification and object detection, which shows notable improvements in accuracy and detection time compared to existing techniques."
+}

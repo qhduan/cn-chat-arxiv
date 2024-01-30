@@ -1,0 +1,12 @@
+{
+    "title": "The sample complexity of multi-distribution learning. (arXiv:2312.04027v2 [cs.LG] UPDATED)",
+    "abstract": "Multi-distribution learning generalizes the classic PAC learning to handle data coming from multiple distributions. Given a set of $k$ data distributions and a hypothesis class of VC dimension $d$, the goal is to learn a hypothesis that minimizes the maximum population loss over $k$ distributions, up to $\\epsilon$ additive error. In this paper, we settle the sample complexity of multi-distribution learning by giving an algorithm of sample complexity $\\widetilde{O}((d+k)\\epsilon^{-2}) \\cdot (k/\\epsilon)^{o(1)}$. This matches the lower bound up to sub-polynomial factor and resolves the COLT 2023 open problem of Awasthi, Haghtalab and Zhao [AHZ23].",
+    "link": "http://arxiv.org/abs/2312.04027",
+    "context": "Title: The sample complexity of multi-distribution learning. (arXiv:2312.04027v2 [cs.LG] UPDATED)\nAbstract: Multi-distribution learning generalizes the classic PAC learning to handle data coming from multiple distributions. Given a set of $k$ data distributions and a hypothesis class of VC dimension $d$, the goal is to learn a hypothesis that minimizes the maximum population loss over $k$ distributions, up to $\\epsilon$ additive error. In this paper, we settle the sample complexity of multi-distribution learning by giving an algorithm of sample complexity $\\widetilde{O}((d+k)\\epsilon^{-2}) \\cdot (k/\\epsilon)^{o(1)}$. This matches the lower bound up to sub-polynomial factor and resolves the COLT 2023 open problem of Awasthi, Haghtalab and Zhao [AHZ23].",
+    "path": "papers/23/12/2312.04027.json",
+    "total_tokens": 693,
+    "translated_title": "多分布学习的样本复杂度",
+    "translated_abstract": "多分布学习将经典的PAC学习推广到处理来自多个分布的数据。给定一组$k$个数据分布和一个VC维度为$d$的假设类，目标是学习一个假设，使得在$k$个分布上的最大总体损失最小，误差不超过$\\epsilon$。本文通过给出一个样本复杂度算法$\\widetilde{O}((d+k)\\epsilon^{-2}) \\cdot (k/\\epsilon)^{o(1)}$来解决多分布学习的样本复杂度问题。这个结果与下界相匹配，解决了Awasthi、Haghtalab和Zhao在COLT 2023中提出的开放问题 [AHZ23]。",
+    "tldr": "本文解决了多分布学习的样本复杂度问题，并给出了匹配下界的样本复杂度算法。",
+    "en_tdlr": "This paper solves the sample complexity problem of multi-distribution learning and provides an algorithm with sample complexity that matches the lower bound."
+}

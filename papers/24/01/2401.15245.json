@@ -1,0 +1,12 @@
+{
+    "title": "GenPluSSS: A Genetic Algorithm Based Plugin for Measured Subsurface Scattering Representation. (arXiv:2401.15245v1 [cs.GR])",
+    "abstract": "This paper presents a plugin that adds a representation of homogeneous and heterogeneous, optically thick, translucent materials on the Blender 3D modeling tool. The working principle of this plugin is based on a combination of Genetic Algorithm (GA) and Singular Value Decomposition (SVD)-based subsurface scattering method (GenSSS). The proposed plugin has been implemented using Mitsuba renderer, which is an open source rendering software. The proposed plugin has been validated on measured subsurface scattering data. It's shown that the proposed plugin visualizes homogeneous and heterogeneous subsurface scattering effects, accurately, compactly and computationally efficiently.",
+    "link": "http://arxiv.org/abs/2401.15245",
+    "context": "Title: GenPluSSS: A Genetic Algorithm Based Plugin for Measured Subsurface Scattering Representation. (arXiv:2401.15245v1 [cs.GR])\nAbstract: This paper presents a plugin that adds a representation of homogeneous and heterogeneous, optically thick, translucent materials on the Blender 3D modeling tool. The working principle of this plugin is based on a combination of Genetic Algorithm (GA) and Singular Value Decomposition (SVD)-based subsurface scattering method (GenSSS). The proposed plugin has been implemented using Mitsuba renderer, which is an open source rendering software. The proposed plugin has been validated on measured subsurface scattering data. It's shown that the proposed plugin visualizes homogeneous and heterogeneous subsurface scattering effects, accurately, compactly and computationally efficiently.",
+    "path": "papers/24/01/2401.15245.json",
+    "total_tokens": 778,
+    "translated_title": "GenPluSSS：一种基于遗传算法的测量次表面散射表示的插件",
+    "translated_abstract": "本文介绍了一种在Blender 3D建模工具上添加均匀和异质、光学厚度的半透明材料表示的插件。该插件的工作原理基于遗传算法（GA）和基于奇异值分解（SVD）的次表面散射方法（GenSSS）的组合。所提出的插件使用开源渲染软件Mitsuba渲染器进行实现。该插件在测得的次表面散射数据上进行了验证。结果表明，所提出的插件能够准确、紧密和高效地可视化均匀和异质次表面散射效果。",
+    "tldr": "本文介绍了一种基于遗传算法的插件，可以在Blender 3D建模工具上添加次表面散射的表示方法，并使用Mitsuba渲染器进行验证。实验证明该插件能够准确、紧密和高效地可视化均匀和异质次表面散射效果。",
+    "en_tdlr": "This paper presents a plugin that adds a representation of homogeneous and heterogeneous, optically thick, translucent materials on the Blender 3D modeling tool. The proposed plugin, validated using measured subsurface scattering data and implemented with the Mitsuba renderer, accurately and efficiently visualizes the subsurface scattering effects."
+}

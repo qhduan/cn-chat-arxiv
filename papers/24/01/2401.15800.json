@@ -1,0 +1,11 @@
+{
+    "title": "Provably Stable Feature Rankings with SHAP and LIME. (arXiv:2401.15800v1 [stat.ML])",
+    "abstract": "Feature attributions are ubiquitous tools for understanding the predictions of machine learning models. However, popular methods for scoring input variables such as SHAP and LIME suffer from high instability due to random sampling. Leveraging ideas from multiple hypothesis testing, we devise attribution methods that correctly rank the most important features with high probability. Our algorithm RankSHAP guarantees that the $K$ highest Shapley values have the proper ordering with probability exceeding $1-\\alpha$. Empirical results demonstrate its validity and impressive computational efficiency. We also build on previous work to yield similar results for LIME, ensuring the most important features are selected in the right order.",
+    "link": "http://arxiv.org/abs/2401.15800",
+    "context": "Title: Provably Stable Feature Rankings with SHAP and LIME. (arXiv:2401.15800v1 [stat.ML])\nAbstract: Feature attributions are ubiquitous tools for understanding the predictions of machine learning models. However, popular methods for scoring input variables such as SHAP and LIME suffer from high instability due to random sampling. Leveraging ideas from multiple hypothesis testing, we devise attribution methods that correctly rank the most important features with high probability. Our algorithm RankSHAP guarantees that the $K$ highest Shapley values have the proper ordering with probability exceeding $1-\\alpha$. Empirical results demonstrate its validity and impressive computational efficiency. We also build on previous work to yield similar results for LIME, ensuring the most important features are selected in the right order.",
+    "path": "papers/24/01/2401.15800.json",
+    "total_tokens": 792,
+    "translated_title": "使用SHAP和LIME进行可证明稳定的特征排名",
+    "translated_abstract": "特征归因是了解机器学习模型预测的普遍工具。然而，用于评分输入变量的常用方法，如SHAP和LIME，由于随机采样而具有高度不稳定性。借鉴多重假设检验的思想，我们设计了能够以高概率正确排名最重要特征的归因方法。我们的算法RankSHAP保证$K$个最高Shapley值具有超过$1-\\alpha$的正确排序概率。实证结果证明了其有效性和令人印象深刻的计算效率。我们还在之前的工作基础上为LIME提供了类似的结果，确保以正确顺序选择最重要的特征。",
+    "tldr": "这项研究提出了一种通过利用多重假设检验的思想，来设计可靠地排名机器学习模型中最重要特征的特征归因方法，旨在解决SHAP和LIME等常用方法由于随机采样导致的高度不稳定性问题。实验证明了该方法的有效性和计算效率。"
+}

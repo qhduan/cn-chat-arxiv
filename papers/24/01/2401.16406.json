@@ -1,0 +1,11 @@
+{
+    "title": "A mathematical theory of power. (arXiv:2401.16406v1 [econ.TH])",
+    "abstract": "This paper proposes a new approach to power in Game Theory. Cooperation and conflict are simulated with a mechanism of payoff alteration, called F-game. Using convex combinations of preferences, an F-game can measure players' attitude to cooperate. We can then define actual and potential power as special relations between different states of the system.",
+    "link": "http://arxiv.org/abs/2401.16406",
+    "context": "Title: A mathematical theory of power. (arXiv:2401.16406v1 [econ.TH])\nAbstract: This paper proposes a new approach to power in Game Theory. Cooperation and conflict are simulated with a mechanism of payoff alteration, called F-game. Using convex combinations of preferences, an F-game can measure players' attitude to cooperate. We can then define actual and potential power as special relations between different states of the system.",
+    "path": "papers/24/01/2401.16406.json",
+    "total_tokens": 542,
+    "translated_title": "数学上的权力理论",
+    "translated_abstract": "本文提出了一种新的博弈论中的权力方法。通过一种称为F-game的利润改变机制来模拟合作和冲突。利用偏好的凸组合，可以衡量玩家合作的态度。然后我们定义实际权力和潜在权力作为系统不同状态之间的特殊关系。",
+    "tldr": "这篇论文提出了一种新的博弈论中的权力方法，利用利润改变机制来模拟合作和冲突，并通过衡量玩家合作的态度定义实际权力和潜在权力。"
+}

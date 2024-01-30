@@ -1,0 +1,11 @@
+{
+    "title": "Stronger Graph Transformer with Regularized Attention Scores. (arXiv:2312.11730v2 [cs.LG] UPDATED)",
+    "abstract": "Graph Neural Networks are notorious for its memory consumption. A recent Transformer-based GNN called Graph Transformer is shown to obtain superior performances when long range dependencies exist. However, combining graph data and Transformer architecture led to a combinationally worse memory issue. We propose a novel version of \"edge regularization technique\" that alleviates the need for Positional Encoding and ultimately alleviate GT's out of memory issue. We observe that it is not clear whether having an edge regularization on top of positional encoding is helpful. However, it seems evident that applying our edge regularization technique indeed stably improves GT's performance compared to GT without Positional Encoding.",
+    "link": "http://arxiv.org/abs/2312.11730",
+    "context": "Title: Stronger Graph Transformer with Regularized Attention Scores. (arXiv:2312.11730v2 [cs.LG] UPDATED)\nAbstract: Graph Neural Networks are notorious for its memory consumption. A recent Transformer-based GNN called Graph Transformer is shown to obtain superior performances when long range dependencies exist. However, combining graph data and Transformer architecture led to a combinationally worse memory issue. We propose a novel version of \"edge regularization technique\" that alleviates the need for Positional Encoding and ultimately alleviate GT's out of memory issue. We observe that it is not clear whether having an edge regularization on top of positional encoding is helpful. However, it seems evident that applying our edge regularization technique indeed stably improves GT's performance compared to GT without Positional Encoding.",
+    "path": "papers/23/12/2312.11730.json",
+    "total_tokens": 742,
+    "translated_title": "强化图转换器与正则化关注分数",
+    "translated_abstract": "图神经网络以其内存消耗大而臭名昭著。最近发现，基于Transformer的GNN称为Graph Transformer在存在长程依赖性时可以获得更好的性能。然而，将图数据和Transformer架构相结合导致了记忆问题更加严重。我们提出了一种新颖的“边缘正则化技术”的版本，可以减轻对位置编码的需求，从而减轻GT的内存溢出问题。我们观察到，不清楚在位置编码的基础上是否有边缘正则化是有帮助的。然而，显然，应用我们的边缘正则化技术确实可以稳定地改善GT的性能，相比于没有位置编码的GT。",
+    "tldr": "本论文提出了一种新颖的边缘正则化技术版本，用于缓解图神经网络在内存问题上存在的困扰。与没有位置编码的Graph Transformer相比，应用了边缘正则化技术确实可以稳定地提高性能。"
+}

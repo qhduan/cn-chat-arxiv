@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Sparse Survival Trees. (arXiv:2401.15330v1 [cs.LG])",
+    "abstract": "Interpretability is crucial for doctors, hospitals, pharmaceutical companies and biotechnology corporations to analyze and make decisions for high stakes problems that involve human health. Tree-based methods have been widely adopted for \\textit{survival analysis} due to their appealing interpretablility and their ability to capture complex relationships. However, most existing methods to produce survival trees rely on heuristic (or greedy) algorithms, which risk producing sub-optimal models. We present a dynamic-programming-with-bounds approach that finds provably-optimal sparse survival tree models, frequently in only a few seconds.",
+    "link": "http://arxiv.org/abs/2401.15330",
+    "context": "Title: Optimal Sparse Survival Trees. (arXiv:2401.15330v1 [cs.LG])\nAbstract: Interpretability is crucial for doctors, hospitals, pharmaceutical companies and biotechnology corporations to analyze and make decisions for high stakes problems that involve human health. Tree-based methods have been widely adopted for \\textit{survival analysis} due to their appealing interpretablility and their ability to capture complex relationships. However, most existing methods to produce survival trees rely on heuristic (or greedy) algorithms, which risk producing sub-optimal models. We present a dynamic-programming-with-bounds approach that finds provably-optimal sparse survival tree models, frequently in only a few seconds.",
+    "path": "papers/24/01/2401.15330.json",
+    "total_tokens": 697,
+    "translated_title": "最优稀疏生存树",
+    "translated_abstract": "在涉及人类健康的高风险问题的分析和决策中，可解释性对于医生、医院、制药公司和生物技术公司至关重要。由于其吸引人的可解释性和捕捉复杂关系的能力，基于树的方法已被广泛应用于生存分析。然而，大多数现有的生成生存树的方法依赖于启发式（或贪婪）算法，存在生成次优模型的风险。我们提出了一种动态规划边界法，可以在几秒钟内找到可证明最优稀疏生存树模型。",
+    "tldr": "本研究提出了一种动态规划边界法，可以在几秒钟内找到可证明最优稀疏生存树模型，对于涉及人类健康的高风险问题的分析和决策具有重要意义。",
+    "en_tdlr": "This study presents a dynamic-programming-with-bounds approach that finds provably-optimal sparse survival tree models in just a few seconds, which is crucial for analyzing and making decisions for high stakes problems involving human health."
+}

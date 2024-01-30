@@ -1,0 +1,12 @@
+{
+    "title": "Public Good Provision and Compensating Variation. (arXiv:2401.15493v1 [econ.GN])",
+    "abstract": "Public good provision by governments incurs significant costs but the willingness to pay for public goods is not directly observable. This study finds an exact closed-form compensating variation (CV) expression for a change in public good provision as a function of income and two preference parameters given homothetic utility. We prove that our CV expression arises if and only if the underlying function is homogeneous in the private goods and separately homogeneous in the public good(s). Then, we find a single sufficient statistic for the preference parameters and show how this sufficient statistic can be recovered in empirical applications. All results hold for marginal and non-marginal changes in public goods.",
+    "link": "http://arxiv.org/abs/2401.15493",
+    "context": "Title: Public Good Provision and Compensating Variation. (arXiv:2401.15493v1 [econ.GN])\nAbstract: Public good provision by governments incurs significant costs but the willingness to pay for public goods is not directly observable. This study finds an exact closed-form compensating variation (CV) expression for a change in public good provision as a function of income and two preference parameters given homothetic utility. We prove that our CV expression arises if and only if the underlying function is homogeneous in the private goods and separately homogeneous in the public good(s). Then, we find a single sufficient statistic for the preference parameters and show how this sufficient statistic can be recovered in empirical applications. All results hold for marginal and non-marginal changes in public goods.",
+    "path": "papers/24/01/2401.15493.json",
+    "total_tokens": 754,
+    "translated_title": "公共产品供给与补偿变动",
+    "translated_abstract": "政府提供公共产品会产生重大成本，但是对公共产品的支付意愿并不直接可观测。本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式。我们证明了我们的CV表达式只有在底层函数在私人产品中是齐次的，并且在公共产品中也是分别齐次的情况下才能产生。然后，我们找到了一个偏好参数的单一充分统计量，并展示了如何在实证应用中恢复这一充分统计量。所有结果都适用于公共产品的边际和非边际变化。",
+    "tldr": "本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。",
+    "en_tdlr": "This study provides an exact closed-form compensating variation (CV) formula for the change in public good provision as a function of income and preference parameters, and introduces a single sufficient statistic for the preference parameters."
+}

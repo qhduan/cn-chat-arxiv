@@ -1,0 +1,12 @@
+{
+    "title": "Boolean Logic as an Error feedback mechanism. (arXiv:2401.16418v1 [stat.ML])",
+    "abstract": "The notion of Boolean logic backpropagation was introduced to build neural networks with weights and activations being Boolean numbers. Most of computations can be done with Boolean logic instead of real arithmetic, both during training and inference phases. But the underlying discrete optimization problem is NP-hard, and the Boolean logic has no guarantee. In this work we propose the first convergence analysis, under standard non-convex assumptions.",
+    "link": "http://arxiv.org/abs/2401.16418",
+    "context": "Title: Boolean Logic as an Error feedback mechanism. (arXiv:2401.16418v1 [stat.ML])\nAbstract: The notion of Boolean logic backpropagation was introduced to build neural networks with weights and activations being Boolean numbers. Most of computations can be done with Boolean logic instead of real arithmetic, both during training and inference phases. But the underlying discrete optimization problem is NP-hard, and the Boolean logic has no guarantee. In this work we propose the first convergence analysis, under standard non-convex assumptions.",
+    "path": "papers/24/01/2401.16418.json",
+    "total_tokens": 552,
+    "translated_title": "布尔逻辑作为一个错误反馈机制",
+    "translated_abstract": "引入了布尔逻辑反向传播的概念，用于构建具有布尔数字权重和激活的神经网络。大部分计算可以使用布尔逻辑而不是实数算术进行，在训练和推理阶段都可以使用。但是底层的离散优化问题是NP难的，并且布尔逻辑没有保证。本文在标准非凸假设下提出了第一个收敛性分析。",
+    "tldr": "本研究提出了将布尔逻辑用作神经网络的错误反馈机制，并进行了收敛性分析。",
+    "en_tdlr": "This paper proposes using Boolean logic as an error feedback mechanism in neural networks and provides the first convergence analysis under standard non-convex assumptions."
+}

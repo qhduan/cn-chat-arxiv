@@ -1,0 +1,12 @@
+{
+    "title": "A note on the capacity of the binary perceptron. (arXiv:2401.15092v1 [math.PR])",
+    "abstract": "Determining the capacity $\\alpha_c$ of the Binary Perceptron is a long-standing problem. Krauth and Mezard (1989) conjectured an explicit value of $\\alpha_c$, approximately equal to .833, and a rigorous lower bound matching this prediction was recently established by Ding and Sun (2019). Regarding the upper bound, Kim and Roche (1998) and Talagrand (1999) independently showed that $\\alpha_c$ < .996, while Krauth and Mezard outlined an argument which can be used to show that $\\alpha_c$ < .847. The purpose of this expository note is to record a complete proof of the bound $\\alpha_c$ < .847. The proof is a conditional first moment method combined with known results on the spherical perceptron",
+    "link": "http://arxiv.org/abs/2401.15092",
+    "context": "Title: A note on the capacity of the binary perceptron. (arXiv:2401.15092v1 [math.PR])\nAbstract: Determining the capacity $\\alpha_c$ of the Binary Perceptron is a long-standing problem. Krauth and Mezard (1989) conjectured an explicit value of $\\alpha_c$, approximately equal to .833, and a rigorous lower bound matching this prediction was recently established by Ding and Sun (2019). Regarding the upper bound, Kim and Roche (1998) and Talagrand (1999) independently showed that $\\alpha_c$ < .996, while Krauth and Mezard outlined an argument which can be used to show that $\\alpha_c$ < .847. The purpose of this expository note is to record a complete proof of the bound $\\alpha_c$ < .847. The proof is a conditional first moment method combined with known results on the spherical perceptron",
+    "path": "papers/24/01/2401.15092.json",
+    "total_tokens": 731,
+    "translated_title": "二进制感知机容量的研究",
+    "translated_abstract": "确定二进制感知机的容量αc是一个长期存在的问题。Krauth和Mezard（1989）猜测了αc的明确值，大约等于0.833，最近Ding和Sun（2019）建立了与此预测相符的严格下界。关于上界，Kim和Roche（1998）以及Talagrand（1999）分别显示αc < 0.996，而Krauth和Mezard概述了一个可以用于显示αc < 0.847的论证。这个说明的目的是记录一个完整的证明αc < 0.847的证明。该证明是一种条件一阶矩方法与已知的球形感知机结果相结合。",
+    "tldr": "该论文研究了二进制感知机的容量问题，在确定了上界和下界后，给出了证明该容量小于0.847的条件一阶矩方法与已知结果的结合。",
+    "en_tdlr": "This paper investigates the capacity of the Binary Perceptron, and presents a proof that the capacity is less than 0.847, combining a conditional first moment method and known results."
+}

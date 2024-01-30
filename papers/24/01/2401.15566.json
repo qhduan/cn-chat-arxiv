@@ -1,0 +1,12 @@
+{
+    "title": "On the Robustness of Cross-Concentrated Sampling for Matrix Completion. (arXiv:2401.15566v1 [stat.ML])",
+    "abstract": "Matrix completion is one of the crucial tools in modern data science research. Recently, a novel sampling model for matrix completion coined cross-concentrated sampling (CCS) has caught much attention. However, the robustness of the CCS model against sparse outliers remains unclear in the existing studies. In this paper, we aim to answer this question by exploring a novel Robust CCS Completion problem. A highly efficient non-convex iterative algorithm, dubbed Robust CUR Completion (RCURC), is proposed. The empirical performance of the proposed algorithm, in terms of both efficiency and robustness, is verified in synthetic and real datasets.",
+    "link": "http://arxiv.org/abs/2401.15566",
+    "context": "Title: On the Robustness of Cross-Concentrated Sampling for Matrix Completion. (arXiv:2401.15566v1 [stat.ML])\nAbstract: Matrix completion is one of the crucial tools in modern data science research. Recently, a novel sampling model for matrix completion coined cross-concentrated sampling (CCS) has caught much attention. However, the robustness of the CCS model against sparse outliers remains unclear in the existing studies. In this paper, we aim to answer this question by exploring a novel Robust CCS Completion problem. A highly efficient non-convex iterative algorithm, dubbed Robust CUR Completion (RCURC), is proposed. The empirical performance of the proposed algorithm, in terms of both efficiency and robustness, is verified in synthetic and real datasets.",
+    "path": "papers/24/01/2401.15566.json",
+    "total_tokens": 762,
+    "translated_title": "关于矩阵补全的交叉集中采样的鲁棒性研究",
+    "translated_abstract": "矩阵补全是现代数据科学研究中的重要工具之一。最近，一种新的矩阵补全采样模型，即交叉集中采样（CCS），引起了很多关注。然而，现有研究中对CCS模型对稀疏异常值的鲁棒性仍不清楚。本文通过探索一种新颖的鲁棒CCS补全问题来回答这个问题。我们提出了一种高效的非凸迭代算法，命名为鲁棒CUR补全（RCURC）。通过在合成数据集和真实数据集上验证了所提算法在效率和鲁棒性方面的实际性能。",
+    "tldr": "本文研究了交叉集中采样（CCS）模型在矩阵补全中的鲁棒性，提出了一种高效的非凸迭代算法（RCURC），并通过实验验证了其在合成和真实数据集上的效果。",
+    "en_tdlr": "This paper investigates the robustness of the cross-concentrated sampling (CCS) model in matrix completion and proposes an efficient non-convex iterative algorithm (RCURC), which is verified to perform well on synthetic and real datasets."
+}

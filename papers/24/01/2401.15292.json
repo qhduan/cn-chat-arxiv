@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Block sparse regularization under arbitrary linear transform. (arXiv:2401.15292v1 [cs.LG])",
+    "abstract": "We propose a convex signal reconstruction method for block sparsity under arbitrary linear transform with unknown block structure. The proposed method is a generalization of the existing method LOP-$\\ell_2$/$\\ell_1$ and can reconstruct signals with block sparsity under non-invertible transforms, unlike LOP-$\\ell_2$/$\\ell_1$. Our work broadens the scope of block sparse regularization, enabling more versatile and powerful applications across various signal processing domains. We derive an iterative algorithm for solving proposed method and provide conditions for its convergence to the optimal solution. Numerical experiments demonstrate the effectiveness of the proposed method.",
+    "link": "http://arxiv.org/abs/2401.15292",
+    "context": "Title: Adaptive Block sparse regularization under arbitrary linear transform. (arXiv:2401.15292v1 [cs.LG])\nAbstract: We propose a convex signal reconstruction method for block sparsity under arbitrary linear transform with unknown block structure. The proposed method is a generalization of the existing method LOP-$\\ell_2$/$\\ell_1$ and can reconstruct signals with block sparsity under non-invertible transforms, unlike LOP-$\\ell_2$/$\\ell_1$. Our work broadens the scope of block sparse regularization, enabling more versatile and powerful applications across various signal processing domains. We derive an iterative algorithm for solving proposed method and provide conditions for its convergence to the optimal solution. Numerical experiments demonstrate the effectiveness of the proposed method.",
+    "path": "papers/24/01/2401.15292.json",
+    "total_tokens": 702,
+    "translated_title": "在任意线性变换下的自适应块稀疏正则化",
+    "translated_abstract": "我们提出了一种用于在未知块结构下的任意线性变换下的块稀疏信号重构方法。该方法是现有方法LOP-$\\ell_2$/$\\ell_1$的推广，可以在非可逆变换下重构具有块稀疏性的信号，而LOP-$\\ell_2$/$\\ell_1$不能。我们的工作扩大了块稀疏正则化的范围，使其能够在各种信号处理领域中应用更加灵活和强大。我们推导了一个迭代算法来求解该方法，并给出了其收敛到最优解的条件。数值实验验证了该方法的有效性。",
+    "tldr": "我们提出了一种在任意线性变换下重构具有块稀疏性的信号的方法，相比现有方法扩大了应用范围，并通过数值实验证明了其有效性。",
+    "en_tdlr": "We propose a method to reconstruct block sparse signals under arbitrary linear transforms, broadening the scope of existing methods and demonstrating its effectiveness through numerical experiments."
+}

@@ -2,121 +2,169 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Sustainable Market Incentives -- Lessons from European Feebates for a ZEV Future.](http://arxiv.org/abs/2401.15069) | 这项研究评估了欧洲五个国家最新政策演变中的费用激励设计，发现没有最佳设计方案。使用费用激励过渡到电动汽车已成为关键目标，而自我融资的市场机制可能成为解决方案。无论政策目标如何，费用激励都会对汽车工业和消费者产生影响。全球范围内，费用激励可以促进技术发展，并在不同国家背景下应对清洁交通政策的政治经济。本文突出了十三个有效的费用激励政策设计要素。 |
-| [^2] | [Free public transport to the destination: A causal analysis of tourists' travel mode choice.](http://arxiv.org/abs/2401.14945) | 研究评估了对瑞士旅游目的地的免费公共交通政策对游客出行方式选择的影响，发现政策平均导致私家车向公共交通的转移增加了16.9和11.6个百分点，为未来设计更可持续的旅行方案提供了重要参考。 |
-| [^3] | [ESG driven pairs algorithm for sustainable trading: Analysis from the Indian market.](http://arxiv.org/abs/2401.14761) | 本文提出了一个ESG驱动的算法交易框架，通过将环境、社会和治理评级与协整股票辨识方法相结合，选择符合ESG原则的盈利性交易对，并兼顾技术指标，广泛的回测证明了其有效性。 |
-| [^4] | [How to Use Data Science in Economics -- a Classroom Game Based on Cartel Detection.](http://arxiv.org/abs/2401.14757) | 这个课堂游戏将经济学和数据科学结合起来，在采购市场中通过竞争或勾结的角色扮演和利用机器学习技术进行卡特尔检测的分析，帮助学生提高市场动态理解和数据科学技能。 |
-| [^5] | [Optimal portfolio under ratio-type periodic evaluation in incomplete markets with stochastic factors.](http://arxiv.org/abs/2401.14672) | 该论文研究了在不完全市场中基于比率类型周期评估的最优投资组合策略，在辅助的优化问题中通过鞅对偶方法建立了最优组合过程的存在性，并通过不动点论证推导和验证了原始周期性评估问题的最优投资组合过程。 |
-| [^6] | [Robust Estimation of Pareto's Scale Parameter from Grouped Data.](http://arxiv.org/abs/2401.14593) | 本文介绍了一种新的稳健估计方法（MTuM），用于从分组数据中估计Pareto分布的尾指数。该方法通过应用中心极限定理和模拟研究验证了其推理合理性。 |
-| [^7] | [Analysis of an aggregate loss model in a Markov renewal regime.](http://arxiv.org/abs/2401.14553) | 本文研究了一个具有相关损失的聚合损失模型，在这个模型中，损失的发生过程由一个双状态马尔可夫到达过程管理，并考虑了损失间隔时间的相关性和超离散性。研究结果表明，考虑这些因素会导致更高的资本金计提。 |
-| [^8] | [Cash non-additive risk measures: horizon risk and generalized entropy.](http://arxiv.org/abs/2401.14443) | 该论文研究了在现金非可加风险度量背景下的时间跨度风险，并引入了一种基于广义Tsallis熵的风险度量，可以动态评估损失的风险性和利率不确定性。这项研究对于量化资本需求有着重要意义。 |
-| [^9] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
-| [^10] | [An Exploration to the Correlation Structure and Clustering of Macroeconomic Variables (MEV).](http://arxiv.org/abs/2401.10162) | 本文探索了宏观经济变量（MEV）的相关结构和聚类，使用主成分算法来理解给定时期内MEV的相关结构并可视化历史上的模式变化，同时比较了不同的宏观经济场景，得出了主要发现。 |
-| [^11] | [Consumption Smoothing in Metropolis: Evidence from the Working-class Households in Prewar Tokyo.](http://arxiv.org/abs/2311.14320) | 这里是中文总结出的一句话要点：本研究分析了20世纪初东京工人家庭中的风险应对行为，发现信用购买对平滑短期食品消费起到一定作用，并发现了数据聚合中日期错误分配导致的偏差问题。 |
-| [^12] | [Path-dependent PDEs for volatility derivatives.](http://arxiv.org/abs/2311.08289) | 该论文研究了VIX和已实现方差的期权，在连续随机波动率模型中，它们可以作为路径依赖偏微分方程的解。论文揭示了波动率衍生品的路径依赖性，并证明了PDE的良定义性。提供了希腊字母的计算公式，展示了隐含波动率的路径依赖性，以及用于VIX期权的有限维度定价PDE。 |
-| [^13] | [Can Perturbations Help Reduce Investment Risks? Risk-Aware Stock Recommendation via Split Variational Adversarial Training.](http://arxiv.org/abs/2304.11043) | 本文提出了一种基于分离变分对抗训练的风险感知型股票推荐方法，通过对抗性扰动提高模型对于风险的感知能力，通过变分扰动生成器模拟不同的风险因素并生成代表性的风险指标对抗样本。在真实股票数据上进行的实验表明该方法有效降低了投资风险同时保持高预期收益。 |
+| [^1] | [Robust Functional Data Analysis for Stochastic Evolution Equations in Infinite Dimensions.](http://arxiv.org/abs/2401.16286) | 本文提出了一种在无限维度中解决随机演化方程的稳健函数数据分析方法，通过考虑横截面和时间结构的相互作用，有效地测量了协变量的变化，具有可辨识性和收敛速度，并能揭示与协变量的缩放极限一致。 |
+| [^2] | [Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions.](http://arxiv.org/abs/2401.16030) | 研究使用扩展CDM模型和无条件分位数回归方法，发现绿色创新对非重度污染企业的生产力影响有限，而在高污染和制造业领域，绿色创新和非绿色创新对生产力的提升效果相当。 |
+| [^3] | [Analytic Pricing of SOFR Futures Contracts with Smile and Skew.](http://arxiv.org/abs/2401.15728) | 该论文研究了SOFR期货合约的分析定价问题，结合了Hull-White模型的扩展以及期权市场上观察到的偏斜和笑曲线。 |
+| [^4] | [A Mean Field Game Approach to Relative Investment-Consumption Games with Habit Formation.](http://arxiv.org/abs/2401.15659) | 本文通过研究竞争代理人在有限时间内使用指数或幂函数效用的优化投资-消费问题，将来自所有同行的习惯形成和财富的平均值作为基准。我们推导了n个代理人博弈问题和相应的均值场博弈问题的形式，并通过得到的均值场博弈问题解得到闭式解。当n足够大时，我们构建了一个近似纳什均衡，并获得了每个问题的收敛顺序。此外，我们还提供了一些数值实例来验证结果。 |
+| [^5] | [Estimation of domain truncation error for a system of PDEs arising in option pricing.](http://arxiv.org/abs/2401.15570) | 本文研究了一个涉及期权定价的多维抛物型偏微分方程系统，在对域进行截断并施加人工边界数据的过程中给出了更精确的域截断误差估计，通过数值例子的比较验证了改进的估计效果显著。 |
+| [^6] | [The McCormick martingale optimal transport.](http://arxiv.org/abs/2401.15552) | 本研究通过引入资产因果约束，提出了麦科密克松最佳传输模型（McCormick MOT），通过麦科密克松松弛来缓解计算上的挑战，并且实证结果表明其能够缩小价格界限，取得了显著的降低。 |
+| [^7] | [Public Good Provision and Compensating Variation.](http://arxiv.org/abs/2401.15493) | 本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。 |
+| [^8] | [Fast and General Simulation of L\'evy-driven OU processes for Energy Derivatives.](http://arxiv.org/abs/2401.15483) | 本文介绍了一种用于快速和通用模拟L\'evy驱动OU过程的新技术，通过数值反演特征函数和利用FFT算法，能够快速而准确地模拟这些过程，为能源领域的广泛应用提供了可靠的基础。 |
+| [^9] | [FDR-Controlled Portfolio Optimization for Sparse Financial Index Tracking.](http://arxiv.org/abs/2401.15139) | 本论文提出了一种扩展的T-Rex框架，用于在稀疏金融指数跟踪中选择少数相关变量，并通过集成最近邻惩罚机制，可靠控制误发现率（FDR）。实验证明了该方法在过去20年内基于少量股票准确跟踪标准普尔500指数的能力。 |
+| [^10] | [Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition.](http://arxiv.org/abs/2401.15108) | 本文提出了一个多智能体深度强化学习的方法，应用于快速充电电动车中心的动态定价竞争。通过预测性购买电力需求和设定竞争性价格策略，充电站可以在竞争中进行有效定价。 |
+| [^11] | [Cash non-additive risk measures: horizon risk and generalized entropy.](http://arxiv.org/abs/2401.14443) | 该论文研究了在现金非可加风险度量背景下的时间跨度风险，并引入了一种基于广义Tsallis熵的风险度量，可以动态评估损失的风险性和利率不确定性。这项研究对于量化资本需求有着重要意义。 |
+| [^12] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
+| [^13] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
+| [^14] | [An Implied CO$_2$-Price and its relation to the Social Cost of Carbon.](http://arxiv.org/abs/2312.13448) | 研究提出了一种隐含的CO2价格概念，该价格涵盖了由气候变化引起的成本，与社会碳成本不同。使用经典DICE模型的数值分析显示，成本隐含的CO2价格约为500 \$/tCO2，而与社会碳成本相关的价格约为50 \$/tCO2。 |
+| [^15] | [Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference.](http://arxiv.org/abs/2311.16570) | 本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。 |
+| [^16] | [No-Arbitrage Deep Calibration for Volatility Smile and Skewness.](http://arxiv.org/abs/2310.16703) | 本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。 |
+| [^17] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
+| [^18] | [A Novel Difference Equation Approach for the Stability and Robustness of Compact Schemes for Variable Coefficient PDEs.](http://arxiv.org/abs/2209.02873) | 本文提出了一种新的差分方程方法，用于研究变系数偏微分方程的稳定性和鲁棒性。通过导出稳定性条件并提供数值验证，论文证明了紧致格式在特定情况下的无条件稳定性。 |
+| [^19] | [Matrix method stability and robustness of compact schemes for parabolic PDEs.](http://arxiv.org/abs/2201.05854) | 本研究通过矩阵方法研究了紧致格式在对抛物型偏微分方程进行空间离散时的稳定性和鲁棒性，并推导出了相关矩阵条件数的上界。结论表明条件数阶数为 $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$，其中 $\delta v$ 和 $\delta z$ 分别为时间和空间步长。 |
 
 # 详细
 
-[^1]: 可持续市场激励：来自欧洲零排放车未来的费用激励的经验教训
+[^1]: 无限维度中随机演化方程的稳健函数数据分析
 
-    Sustainable Market Incentives -- Lessons from European Feebates for a ZEV Future. (arXiv:2401.15069v1 [econ.GN])
+    Robust Functional Data Analysis for Stochastic Evolution Equations in Infinite Dimensions. (arXiv:2401.16286v1 [stat.ME])
 
-    [http://arxiv.org/abs/2401.15069](http://arxiv.org/abs/2401.15069)
+    [http://arxiv.org/abs/2401.16286](http://arxiv.org/abs/2401.16286)
 
-    这项研究评估了欧洲五个国家最新政策演变中的费用激励设计，发现没有最佳设计方案。使用费用激励过渡到电动汽车已成为关键目标，而自我融资的市场机制可能成为解决方案。无论政策目标如何，费用激励都会对汽车工业和消费者产生影响。全球范围内，费用激励可以促进技术发展，并在不同国家背景下应对清洁交通政策的政治经济。本文突出了十三个有效的费用激励政策设计要素。
-
-    
-
-    加速电动汽车过渡需要强有力的政策和可持续激励措施。本文评估了五个欧洲国家近期政策发展中的各种费用激励设计。虽然有关键设计元素需要考虑，但并不存在最佳的费用激励设计。费用激励设计和效果可能会受到不同政策目标的影响。使用费用激励过渡到电动汽车已成为一个重要目标。随着电动车激励计划的财务可持续性受到质疑，自我融资的市场机制可能是一个当务之急的解决方案。无论政策目标如何，费用激励都将影响供给方（汽车工业）和需求方（消费者）。在全球范围内，费用激励可以用于推动技术跨越发展，并在不同国家背景下应对清洁交通政策的政治经济。本文突出了一个有效的费用激励政策的十三个设计要素。
-
-    Strong policies with sustainable incentives are needed to accelerate the EV transition. This paper assesses various feebate designs assessing recent policy evolution in five European countries. While there are key design elements that should be considered, there is no optimal feebate design. Different policy objectives could be served by feebates influencing its design and effectiveness. Using feebates to transition to EVs has emerged a key objective. With the financial sustainability of EV incentive programs being questioned, a self financing market mechanism could be the need of the hour solution. Irrespective of the policy goals, a feebate will impact both the supply side, i.e., the automotive industry and the consumer side. Globally, feebates can be used to effect technology leapfrogging while navigating the political economy of clean transportation policy in different country contexts. This paper highlights thirteen design elements of an effective feebate policy that can serve as 
-    
-[^2]: 免费公共交通到达目的地：对游客出行方式选择的因果分析
-
-    Free public transport to the destination: A causal analysis of tourists' travel mode choice. (arXiv:2401.14945v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.14945](http://arxiv.org/abs/2401.14945)
-
-    研究评估了对瑞士旅游目的地的免费公共交通政策对游客出行方式选择的影响，发现政策平均导致私家车向公共交通的转移增加了16.9和11.6个百分点，为未来设计更可持续的旅行方案提供了重要参考。
+    本文提出了一种在无限维度中解决随机演化方程的稳健函数数据分析方法，通过考虑横截面和时间结构的相互作用，有效地测量了协变量的变化，具有可辨识性和收敛速度，并能揭示与协变量的缩放极限一致。
 
     
 
-    本文评估了对瑞士旅游目的地的过夜游客实施免费公共交通政策对出行方式选择的影响。该政策直接针对国内交通往返目的地，该交通方式是过夜旅行中二氧化碳排放的主要贡献者。基于一个调查样本，我们利用信息提供者（酒店业主）每天变化的随机元素来确定政策的影响。我们通过倾向性得分匹配和因果森林的应用估计，私家车向公共交通的转移平均为16.9和11.6个百分点。这些结果对于决策者设计未来的旅行方案，包括更可持续的旅行方式到达目的地非常重要。总体上，本文展示了如何通过因果框架和基本假设正确确定旅行和旅游行业中类似自然实验的效果。
+    本文针对Hilbert空间中的随机演化方程，使用函数数据分析技术来稳健地测量协变量的变化。对于这样的方程，基于横截面协方差的标准技术经常无法识别出统计上相关的随机驱动因素和检测异常值，因为它们忽略了横截面和时间结构之间的相互作用。因此，我们开发了一种估计理论，用于估计方程的潜在随机驱动因素的连续二次协变量，而不是可观察解过程的静态协方差。我们在弱条件下得到了可辨识性的结果，建立了基于装满渐近性的收敛速度和中心极限定理，并提供了长时间渐近性的估计结果，以估计潜在驱动因素的静态协变量。应用于利率结构数据，我们的方法揭示了与协变量的缩放极限的根本一致性。
 
-    In this paper, we assess the impact of a fare-free public transport policy for overnight guests on travel mode choice to a Swiss tourism destination. The policy directly targets domestic transport to and from a destination, the substantial contributor to the CO2 emissions of overnight trips. Based on a survey sample, we identify the effect with the help of the random element that the information on the offer from a hotelier to the guest varies in day-to-day business. We estimate a shift from private cars to public transport due to the policy of, on average, 16.9 and 11.6 percentage points, depending on the application of propensity score matching and causal forest. This knowledge is relevant for policy-makers to design future offers that include more sustainable travels to a destination. Overall, our paper exemplifies how such an effect of comparable natural experiments in the travel and tourism industry can be properly identified with a causal framework and underlying assumptions.
+    This article addresses the robust measurement of covariations in the context of solutions to stochastic evolution equations in Hilbert spaces using functional data analysis. For such equations, standard techniques for functional data based on cross-sectional covariances are often inadequate for identifying statistically relevant random drivers and detecting outliers since they overlook the interplay between cross-sectional and temporal structures. Therefore, we develop an estimation theory for the continuous quadratic covariation of the latent random driver of the equation instead of a static covariance of the observable solution process. We derive identifiability results under weak conditions, establish rates of convergence and a central limit theorem based on infill asymptotics, and provide long-time asymptotics for estimation of a static covariation of the latent driver. Applied to term structure data, our approach uncovers a fundamental alignment with scaling limits of covariations
     
-[^3]: ESG驱动的可持续交易对算法：来自印度市场的分析
+[^2]: 绿色创新是否排挤了企业的其他创新？基于扩展的CDM模型和无条件分位数回归的研究
 
-    ESG driven pairs algorithm for sustainable trading: Analysis from the Indian market. (arXiv:2401.14761v1 [q-fin.TR])
+    Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions. (arXiv:2401.16030v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.14761](http://arxiv.org/abs/2401.14761)
+    [http://arxiv.org/abs/2401.16030](http://arxiv.org/abs/2401.16030)
 
-    本文提出了一个ESG驱动的算法交易框架，通过将环境、社会和治理评级与协整股票辨识方法相结合，选择符合ESG原则的盈利性交易对，并兼顾技术指标，广泛的回测证明了其有效性。
-
-    
-
-    本文提出了一个算法交易框架，将环境、社会和治理（ESG）评级与对冲交易策略相结合。通过开发一种将ESG数据与协整股票辨识方法相结合的独特算法，满足了对社会责任投资解决方案的需求。这允许选择符合ESG原则的盈利性交易对。此外，该算法还包括技术指标，以在这个可持续发展框架内进行最优交易执行。广泛的回测证明了模型的有效性，持续产生优于传统对冲交易策略的正回报，同时秉持ESG原则。这为算法交易提供了一种变革性的方法，为投资者、决策者和学者提供了洞见。
-
-    This paper proposes an algorithmic trading framework integrating Environmental, Social, and Governance (ESG) ratings with a pairs trading strategy. It addresses the demand for socially responsible investment solutions by developing a unique algorithm blending ESG data with methods for identifying co-integrated stocks. This allows selecting profitable pairs adhering to ESG principles. Further, it incorporates technical indicators for optimal trade execution within this sustainability framework. Extensive back-testing provides evidence of the model's effectiveness, consistently generating positive returns exceeding conventional pairs trading strategies, while upholding ESG principles. This paves the way for a transformative approach to algorithmic trading, offering insights for investors, policymakers, and academics.
-    
-[^4]: 如何在经济学中使用数据科学 -- 基于卡特尔检测的课堂游戏
-
-    How to Use Data Science in Economics -- a Classroom Game Based on Cartel Detection. (arXiv:2401.14757v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.14757](http://arxiv.org/abs/2401.14757)
-
-    这个课堂游戏将经济学和数据科学结合起来，在采购市场中通过竞争或勾结的角色扮演和利用机器学习技术进行卡特尔检测的分析，帮助学生提高市场动态理解和数据科学技能。
+    研究使用扩展CDM模型和无条件分位数回归方法，发现绿色创新对非重度污染企业的生产力影响有限，而在高污染和制造业领域，绿色创新和非绿色创新对生产力的提升效果相当。
 
     
 
-    我们提出了一个将经济学和数据科学能力整合在一起的课堂游戏。在游戏的前两个部分，参与者扮演采购市场上的公司角色，他们必须采取竞争行为或选择进行勾结。这两个部分的成功取决于他们对市场动态的理解。在游戏的第三部分，参与者转变为竞争管理机构的成员。根据基于机器学习的卡特尔检测的最新文献，他们分析投标行为，寻找表明勾结行为的模式。在这个部分，成功取决于数据科学技能。我们详细讨论了实施该游戏的方法，并强调了适应不同数据科学先前知识水平的考虑因素。
+    在可持续发展时代，企业面临着如何投资于绿色创新以及绿色创新对其经济轨迹的影响的决策。本研究采用Crepon、Duguet和Mairesse（CDM）框架，通过利用每个阶段的预测因变量来消除不可观察因素，检验了研发资金转化为专利以及其对生产力的影响。本研究在扩展经典CDM模型的基础上，对比了绿色创新和非绿色创新的经济效应。结果显示，非绿色专利主导着生产力的提升，而绿色专利对非重度污染企业的影响有限。然而，在高污染和制造业领域，两种创新类型同样增强了生产力。通过无条件分位数回归，我发现绿色创新的生产力影响呈现出一个反U形状，而非绿色创新则呈现出一个U形状。值得注意的是，在第50到80个分位数之间，
 
-    We present a classroom game that integrates economics and data-science competencies. In the first two parts of the game, participants assume the roles of firms in a procurement market, where they must either adopt competitive behaviors or have the option to engage in collusion. Success in these parts hinges on their comprehension of market dynamics. In the third part of the game, participants transition to the role of competition-authority members. Drawing from recent literature on machine-learning-based cartel detection, they analyze the bids for patterns indicative of collusive (cartel) behavior. In this part of the game, success depends on data-science skills. We offer a detailed discussion on implementing the game, emphasizing considerations for accommodating diverging levels of preexisting knowledge in data science.
+    In the era of sustainability, firms grapple with the decision of how much to invest in green innovation and how it influences their economic trajectory. This study employs the Crepon, Duguet, and Mairesse (CDM) framework to examine the conversion of R&D funds into patents and their impact on productivity, effectively addressing endogeneity by utilizing predicted dependent variables at each stage to exclude unobservable factors. Extending the classical CDM model, this study contrasts green and non-green innovations' economic effects. The results show non-green patents predominantly drive productivity gains, while green patents have a limited impact in non-heavy polluting firms. However, in high-pollution and manufacturing sectors, both innovation types equally enhance productivity. Using unconditional quantile regression, I found green innovation's productivity impact follows an inverse U-shape, unlike the U-shaped pattern of non-green innovation. Significantly, in the 50th to 80th prod
     
-[^5]: 不完全市场中基于比率类型周期评估的最优投资组合
+[^3]: 分析定价带有偏斜和笑曲线的SOFR期货合约
 
-    Optimal portfolio under ratio-type periodic evaluation in incomplete markets with stochastic factors. (arXiv:2401.14672v1 [q-fin.PM])
+    Analytic Pricing of SOFR Futures Contracts with Smile and Skew. (arXiv:2401.15728v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2401.14672](http://arxiv.org/abs/2401.14672)
+    [http://arxiv.org/abs/2401.15728](http://arxiv.org/abs/2401.15728)
 
-    该论文研究了在不完全市场中基于比率类型周期评估的最优投资组合策略，在辅助的优化问题中通过鞅对偶方法建立了最优组合过程的存在性，并通过不动点论证推导和验证了原始周期性评估问题的最优投资组合过程。
-
-    
-
-    本文研究了在不完全市场模型中，基于一些外部随机因素的基础价格扩散过程的投资组合管理中的一种周期性效用最大化。投资组合表现是在一个无限的时间跨度内通过两个相邻财富水平的比率进行周期性评估。对于功率函数和对数效用函数，我们构建了辅助的一期优化问题，该问题中包含了修改后的效用函数，并利用鞅对偶方法建立了最优投资组合过程的存在性，而对偶最小值可以被识别为市场的“最不利”完成。借助于辅助问题中的对偶结果和一些不动点论证，我们进一步在无限时间跨度内以周期性方式推导和验证了原始周期性评估问题的最优投资组合过程。
-
-    This paper studies a type of periodic utility maximization for portfolio management in an incomplete market model, where the underlying price diffusion process depends on some external stochastic factors. The portfolio performance is periodically evaluated on the relative ratio of two adjacent wealth levels over an infinite horizon. For both power and logarithmic utilities, we formulate the auxiliary one-period optimization problems with modified utility functions, for which we develop the martingale duality approach to establish the existence of the optimal portfolio processes and the dual minimizers can be identified as the "least favorable" completion of the market. With the help of the duality results in the auxiliary problems and some fixed point arguments, we further derive and verify the optimal portfolio processes in a periodic manner for the original periodic evaluation problems over an infinite horizon.
-    
-[^6]: 从分组数据中稳健估计Pareto的尺度参数
-
-    Robust Estimation of Pareto's Scale Parameter from Grouped Data. (arXiv:2401.14593v1 [stat.ME])
-
-    [http://arxiv.org/abs/2401.14593](http://arxiv.org/abs/2401.14593)
-
-    本文介绍了一种新的稳健估计方法（MTuM），用于从分组数据中估计Pareto分布的尾指数。该方法通过应用中心极限定理和模拟研究验证了其推理合理性。
+    该论文研究了SOFR期货合约的分析定价问题，结合了Hull-White模型的扩展以及期权市场上观察到的偏斜和笑曲线。
 
     
 
-    当可获取的完全观测到的从头至尾的损失严重性样本数据集存在时，存在许多稳健估计器作为最大似然估计器（MLE）的替代方案。然而，当处理分组损失严重性数据时，稳健的MLE替代方案的选择变得非常有限，只有少数方法可用，例如最小二乘法、最小Hellinger距离和最优有界影响函数。本文介绍了一种称为截断矩法的新型稳健估计技术，该方法专门用于从分组数据估计Pareto分布的尾指数。通过应用中心极限定理和通过全面的模拟研究验证了MTuM的推理合理性。
+    我们寻求一种分析定价公式，用于在Hull-White模型的扩展下对SOFR期货合约进行定价，该模型不仅包含Mercurio [2018]捕捉到的内在凸度调整，还包括Turfs和Romero-Berm\'udez [2023]所观察到的期权市场的偏斜和笑曲线。
 
-    Numerous robust estimators exist as alternatives to the maximum likelihood estimator (MLE) when a completely observed ground-up loss severity sample dataset is available. However, the options for robust alternatives to MLE become significantly limited when dealing with grouped loss severity data, with only a handful of methods like least squares, minimum Hellinger distance, and optimal bounded influence function available. This paper introduces a novel robust estimation technique, the Method of Truncated Moments (MTuM), specifically designed to estimate the tail index of a Pareto distribution from grouped data. Inferential justification of MTuM is established by employing the central limit theorem and validating them through a comprehensive simulation study.
+    We seek an analytic pricing formula for SOFR futures contracts under an extension of the Hull-White model which incorporates not only the intrinsic convexity adjustments captured by Mercurio [2018], but also the skew and smile observed in options markets as done in Turfus and Romero-Berm\'udez [2023].
     
-[^7]: 在马尔可夫更新制度下的聚合损失模型分析
+[^4]: 基于均值场博弈的相对投资-消费游戏与习惯形成问题研究
 
-    Analysis of an aggregate loss model in a Markov renewal regime. (arXiv:2401.14553v1 [q-fin.RM])
+    A Mean Field Game Approach to Relative Investment-Consumption Games with Habit Formation. (arXiv:2401.15659v1 [math.OC])
 
-    [http://arxiv.org/abs/2401.14553](http://arxiv.org/abs/2401.14553)
+    [http://arxiv.org/abs/2401.15659](http://arxiv.org/abs/2401.15659)
 
-    本文研究了一个具有相关损失的聚合损失模型，在这个模型中，损失的发生过程由一个双状态马尔可夫到达过程管理，并考虑了损失间隔时间的相关性和超离散性。研究结果表明，考虑这些因素会导致更高的资本金计提。
+    本文通过研究竞争代理人在有限时间内使用指数或幂函数效用的优化投资-消费问题，将来自所有同行的习惯形成和财富的平均值作为基准。我们推导了n个代理人博弈问题和相应的均值场博弈问题的形式，并通过得到的均值场博弈问题解得到闭式解。当n足够大时，我们构建了一个近似纳什均衡，并获得了每个问题的收敛顺序。此外，我们还提供了一些数值实例来验证结果。
 
     
 
-    本文考虑了具有相关损失的聚合损失模型。损失的发生过程由一个双状态马尔可夫到达过程（MAP2）管理，这是一个允许存在（1）相关的损失间隔时间，（2）非指数分布的损失间隔时间和（3）超离散的损失计数的马尔可夫更新过程。我们获得了一些用于衡量损失发生过程中持续性的相关数量。给定一个实际的操作风险数据库，聚合损失模型通过分别拟合损失间隔时间和损失程度来进行估计。MAP2是通过直接最大化似然函数来估计的，而损失程度则是通过重尾的双参数对数正态分布进行建模。与泊松过程提供的拟合结果相比，结果表明考虑损失间隔时间的相关性和超离散性会导致更高的资本金计提。
+    本文研究了一个在有限时间内，竞争代理人使用指数或幂函数效用的优化投资-消费问题。每个代理人将来自所有同行的习惯形成和财富的平均值作为评估她决策表现的基准。我们分别基于这两种效用形式得到了n个代理人博弈问题和相应的均值场博弈问题的形式。在每个问题中，通过这些均值场均衡可以得到一个闭式解，当n足够大的时候，我们还构建了一个近似纳什均衡。此外，我们还进行了一些数值实例分析来验证我们的结果。
 
-    In this article we consider an aggregate loss model with dependent losses. The losses occurrence process is governed by a two-state Markovian arrival process (MAP2), a Markov renewal process process that allows for (1) correlated inter-losses times, (2) non-exponentially distributed inter-losses times and, (3) overdisperse losses counts. Some quantities of interest to measure persistence in the loss occurrence process are obtained. Given a real operational risk database, the aggregate loss model is estimated by fitting separately the inter-losses times and severities. The MAP2 is estimated via direct maximization of the likelihood function, and severities are modeled by the heavy-tailed, double-Pareto Lognormal distribution. In comparison with the fit provided by the Poisson process, the results point out that taking into account the dependence and overdispersion in the inter-losses times distribution leads to higher capital charges.
+    This paper studies an optimal investment-consumption problem for competitive agents with exponential or power utilities and a common finite time horizon. Each agent regards the average of habit formation and wealth from all peers as benchmarks to evaluate the performance of her decision. We formulate the n-agent game problems and the corresponding mean field game problems under the two utilities. One mean field equilibrium is derived in a closed form in each problem. In each problem with n agents, an approximate Nash equilibrium is then constructed using the obtained mean field equilibrium when n is sufficiently large. The explicit convergence order in each problem can also be obtained. In addition, we provide some numerical illustrations of our results.
     
-[^8]: 现金非可加风险度量：时间跨度风险和广义熵
+[^5]: 期权定价中一类二维偏微分方程系统中域截断误差的估计
+
+    Estimation of domain truncation error for a system of PDEs arising in option pricing. (arXiv:2401.15570v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2401.15570](http://arxiv.org/abs/2401.15570)
+
+    本文研究了一个涉及期权定价的多维抛物型偏微分方程系统，在对域进行截断并施加人工边界数据的过程中给出了更精确的域截断误差估计，通过数值例子的比较验证了改进的估计效果显著。
+
+    
+
+    本文详细研究了在一个制度切换市场模型下涉及欧式期权定价的多维抛物型偏微分方程系统。为了对其进行数值求解，必须对域进行截断并施加人工边界数据。通过对截断域中所有点的域截断误差进行估计，我们扩展了现有文献中仅考虑恒定制度情况下的期权定价方程的一些结果。我们采用了一种与现有方法不同的方法来获得误差估计，在域的某个区域内具有更高的精度。因此，我们提出的误差估计和现有方法之间的最小值得到了严格更精确的估计。通过考虑一些数值例子，我们进行了与现有文献的全面比较。这些例子证实了误差估计的改进是显著的。
+
+    In this paper, a multidimensional system of parabolic partial differential equations arising in European option pricing under a regime-switching market model is studied in details. For solving that numerically, one must truncate the domain and impose an artificial boundary data. By deriving an estimate of the domain truncation error at all the points in the truncated domain, we extend some results in the literature those deal with option pricing equation under constant regime case only. We differ from the existing approach to obtain the error estimate that is sharper in certain region of the domain. Hence, the minimum of proposed and existing gives a strictly sharper estimate. A comprehensive comparison with the existing literature is carried out by considering some numerical examples. Those examples confirm that the improvement in the error estimates is significant.
+    
+[^6]: McCormick马丁格尔最佳传输
+
+    The McCormick martingale optimal transport. (arXiv:2401.15552v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2401.15552](http://arxiv.org/abs/2401.15552)
+
+    本研究通过引入资产因果约束，提出了麦科密克松最佳传输模型（McCormick MOT），通过麦科密克松松弛来缓解计算上的挑战，并且实证结果表明其能够缩小价格界限，取得了显著的降低。
+
+    
+
+    马丁格尔最佳传输（MOT）通常为期权提供广泛的价格界限，限制了它们的实际适用性。在本研究中，我们通过引入资产之间的因果约束，扩展了MOT，灵感来自随机过程的非预期性条件。然而，这引入了一个计算上具有挑战性的双线性规划。为了解决这个问题，我们提出了麦科密克松松弛来缓解双因果形式，并将其称为麦科密克松MOT。在标准假设下，建立了麦科密克松MOT的原始实现和强对偶性。实证结果显示，麦科密克松MOT能够缩小价格界限，平均降低了1％或4％。改善程度取决于期权的回报和相关香草期权的流动性。
+
+    Martingale optimal transport (MOT) often yields broad price bounds for options, constraining their practical applicability. In this study, we extend MOT by incorporating causality constraints among assets, inspired by the nonanticipativity condition of stochastic processes. However, this introduces a computationally challenging bilinear program. To tackle this issue, we propose McCormick relaxations to ease the bicausal formulation and refer to it as McCormick MOT. The primal attainment and strong duality of McCormick MOT are established under standard assumptions. Empirically, McCormick MOT demonstrates the capability to narrow price bounds, achieving an average reduction of 1% or 4%. The degree of improvement depends on the payoffs of the options and the liquidity of the relevant vanilla options.
+    
+[^7]: 公共产品供给与补偿变动
+
+    Public Good Provision and Compensating Variation. (arXiv:2401.15493v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.15493](http://arxiv.org/abs/2401.15493)
+
+    本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。
+
+    
+
+    政府提供公共产品会产生重大成本，但是对公共产品的支付意愿并不直接可观测。本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式。我们证明了我们的CV表达式只有在底层函数在私人产品中是齐次的，并且在公共产品中也是分别齐次的情况下才能产生。然后，我们找到了一个偏好参数的单一充分统计量，并展示了如何在实证应用中恢复这一充分统计量。所有结果都适用于公共产品的边际和非边际变化。
+
+    Public good provision by governments incurs significant costs but the willingness to pay for public goods is not directly observable. This study finds an exact closed-form compensating variation (CV) expression for a change in public good provision as a function of income and two preference parameters given homothetic utility. We prove that our CV expression arises if and only if the underlying function is homogeneous in the private goods and separately homogeneous in the public good(s). Then, we find a single sufficient statistic for the preference parameters and show how this sufficient statistic can be recovered in empirical applications. All results hold for marginal and non-marginal changes in public goods.
+    
+[^8]: 快速和通用的L\'evy驱动OU过程的能源衍生品模拟
+
+    Fast and General Simulation of L\'evy-driven OU processes for Energy Derivatives. (arXiv:2401.15483v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2401.15483](http://arxiv.org/abs/2401.15483)
+
+    本文介绍了一种用于快速和通用模拟L\'evy驱动OU过程的新技术，通过数值反演特征函数和利用FFT算法，能够快速而准确地模拟这些过程，为能源领域的广泛应用提供了可靠的基础。
+
+    
+
+    L\'evy驱动的Ornstein-Uhlenbeck (OU)过程是一类引人注目的随机过程，在能源领域引起了关注，因为它们能够捕捉市场动态的典型特征。然而，在当前的技术水平下，对这些过程进行蒙特卡罗模拟并不简单，主要有两个原因：一是现有的算法仅针对该类别中的某些特定过程；二是它们通常计算量大。在本文中，我们引入了一种新的模拟技术，旨在解决这两个挑战。它依赖于特征函数的数值反演，提供了一种适用于所有L\'evy驱动OU过程的通用方法。此外，利用FFT，所提出的方法确保快速而准确的模拟，为在能源领域广泛采用这些过程提供了坚实的基础。最后，该算法允许对数值误差进行最优控制。
+
+    L\'evy-driven Ornstein-Uhlenbeck (OU) processes represent an intriguing class of stochastic processes that have garnered interest in the energy sector for their ability to capture typical features of market dynamics. However, in the current state-of-the-art, Monte Carlo simulations of these processes are not straightforward for two main reasons: i) algorithms are available only for some particular processes within this class; ii) they are often computationally expensive. In this paper, we introduce a new simulation technique designed to address both challenges. It relies on the numerical inversion of the characteristic function, offering a general methodology applicable to all L\'evy-driven OU processes. Moreover, leveraging FFT, the proposed methodology ensures fast and accurate simulations, providing a solid basis for the widespread adoption of these processes in the energy sector. Lastly, the algorithm allows an optimal control of the numerical error. We apply the technique to the p
+    
+[^9]: FDR控制的稀疏金融指数跟踪投资组合优化
+
+    FDR-Controlled Portfolio Optimization for Sparse Financial Index Tracking. (arXiv:2401.15139v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2401.15139](http://arxiv.org/abs/2401.15139)
+
+    本论文提出了一种扩展的T-Rex框架，用于在稀疏金融指数跟踪中选择少数相关变量，并通过集成最近邻惩罚机制，可靠控制误发现率（FDR）。实验证明了该方法在过去20年内基于少量股票准确跟踪标准普尔500指数的能力。
+
+    
+
+    在高维数据分析中，如金融指数跟踪或生物医学应用中，关键是在保持对误发现率（FDR）的控制的同时选择少数相关变量。在这些应用中，变量之间经常存在强依赖关系（例如股票收益），这可能会削弱现有方法（如模型X knockoff方法或T-Rex选择器）的FDR控制特性。为了解决这个问题，我们扩展了T-Rex框架，以适应高度相关变量的重叠组。这是通过将最近邻惩罚机制集成到框架中实现的，该机制能够在用户定义的目标水平上可靠控制FDR。稀疏指数跟踪的实例展示了该方法在过去20年内基于少量股票准确跟踪标准普尔500指数的能力。在CRAN上提供了R包TRexSelector的开源实现。
+
+    In high-dimensional data analysis, such as financial index tracking or biomedical applications, it is crucial to select the few relevant variables while maintaining control over the false discovery rate (FDR). In these applications, strong dependencies often exist among the variables (e.g., stock returns), which can undermine the FDR control property of existing methods like the model-X knockoff method or the T-Rex selector. To address this issue, we have expanded the T-Rex framework to accommodate overlapping groups of highly correlated variables. This is achieved by integrating a nearest neighbors penalization mechanism into the framework, which provably controls the FDR at the user-defined target level. A real-world example of sparse index tracking demonstrates the proposed method's ability to accurately track the S&P 500 index over the past 20 years based on a small number of stocks. An open-source implementation is provided within the R package TRexSelector on CRAN.
+    
+[^10]: 多智能体深度强化学习在竞争中为快速充电电动车中心的动态定价中的应用
+
+    Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition. (arXiv:2401.15108v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.15108](http://arxiv.org/abs/2401.15108)
+
+    本文提出了一个多智能体深度强化学习的方法，应用于快速充电电动车中心的动态定价竞争。通过预测性购买电力需求和设定竞争性价格策略，充电站可以在竞争中进行有效定价。
+
+    
+
+    快速充电站将成为全球新建交通电气化基础设施的一部分。这些充电站将承载许多直流快速充电设备，仅可供电动车辆充电使用。类似于汽油加油站，同一地区的快速充电站将根据竞争调整价格以吸引同一群电动车主。这些充电站将与电力网络进行交互，通过预测性购买在前一天电力市场上的电力需求，并在实时市场上满足差额需求。充电站可能配备补充电池储能系统用于套利。本文针对充电站竞争中开发了一个两步数据驱动的动态定价方法。首先通过求解随机的前一天电力需求模型得到纳入承诺，然后通过将游戏建模为竞争来得到充电站的价格策略。
+
+    Fast-charging hubs for electric vehicles will soon become part of the newly built infrastructure for transportation electrification across the world. These hubs are expected to host many DC fast-charging stations and will admit EVs only for charging. Like the gasoline refueling stations, fast-charging hubs in a neighborhood will dynamically vary their prices to compete for the same pool of EV owners. These hubs will interact with the electric power network by making purchase commitments for a significant part of their power needs in the day-ahead (DA) electricity market and meeting the difference from the real-time (RT) market. Hubs may have supplemental battery storage systems (BSS), which they will use for arbitrage. In this paper, we develop a two-step data-driven dynamic pricing methodology for hubs in price competition. We first obtain the DA commitment by solving a stochastic DA commitment model. Thereafter we obtain the hub pricing strategies by modeling the game as a competitiv
+    
+[^11]: 现金非可加风险度量：时间跨度风险和广义熵
 
     Cash non-additive risk measures: horizon risk and generalized entropy. (arXiv:2401.14443v1 [q-fin.RM])
 
@@ -130,7 +178,7 @@
 
     Horizon risk (see arXiv:2301.04971) is studied in the context of cash non-additive fully-dynamic risk measures induced by BSDEs. Furthermore, we introduce a risk measure based on generalized Tsallis entropy which can dynamically evaluate the riskiness of losses considering both horizon risk and interest rate uncertainty. The new q-entropic risk measure on losses can be used as a quantification of capital requirement.
     
-[^9]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
+[^12]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
 
     Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600). (arXiv:2401.14435v1 [econ.GN])
 
@@ -144,60 +192,102 @@
 
     We examine the impact of Islamic legal institutions to the comparative economic decline of the Middle East behind Latin Europe, which can be observed since the late Middle Ages. To this end, we explore whether the sacralization of Islamic law and its focus on the Sharia as supreme, sacred and unchangeable legal text, which reached its culmination in the 13th century had an impact on economic development. We use the population size of 145 cities in Islamic countries and 648 European cities for the period 800-1800 as proxies for the level of economic development, and construct novel estimates of the number of law schools (i.e. madaris) and estimate their contribution to the pre-industrial economic development. Our triple-differences estimates show that a higher density of madrasas before the sacralization of Islamic law predicts a more vibrant urban economy characterized by higher urban growth. After the consolidation of the sharia sacralization of law in the 13th century, greater densit
     
-[^10]: 宏观经济变量（MEV）的相关结构和聚类的探索
+[^13]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
 
-    An Exploration to the Correlation Structure and Clustering of Macroeconomic Variables (MEV). (arXiv:2401.10162v1 [q-fin.RM])
+    Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment. (arXiv:2401.11100v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.10162](http://arxiv.org/abs/2401.10162)
+    [http://arxiv.org/abs/2401.11100](http://arxiv.org/abs/2401.11100)
 
-    本文探索了宏观经济变量（MEV）的相关结构和聚类，使用主成分算法来理解给定时期内MEV的相关结构并可视化历史上的模式变化，同时比较了不同的宏观经济场景，得出了主要发现。
-
-    
-
-    作为对复杂经济的量化描述，宏观经济变量（MEVs），包括GDP、通胀率、失业率、收入、支出、利率等，在银行的投资组合管理和压力测试中起着关键作用。近年来，特别是在COVID-19期间和当前高通胀环境下，人们经常谈论MEVs的“相关结构”如何变化。本文使用一种基于主成分的算法来更好地理解给定时期内MEVs的相关结构。我们还展示了如何使用此方法来可视化2000年至2022年间历史上MEVs模式的变化。此外，我们使用该方法比较了不同的假设或历史宏观经济场景，并呈现了我们的主要发现。
-
-    As a quantitative characterization of the complicated economy, Macroeconomic Variables (MEVs), including GDP, inflation, unemployment, income, spending, interest rate, etc., are playing a crucial role in banks' portfolio management and stress testing exercise. In recent years, especially during the COVID-19 period and the current high inflation environment, people are frequently talking about the changing "correlation structure" of MEVs. In this paper, we use a principal component based algorithm to better understand MEVs' correlation structure in a given period. We also demonstrate how this method can be used to visualize historical MEVs pattern changes between 2000 and 2022. Further, we use this method to compare different hypothetical or historical macroeconomic scenarios and present our key findings.
-    
-[^11]: 这里是翻译过的论文标题：大都市中的消费平滑化：战前东京工人阶级家庭的证据
-
-    Consumption Smoothing in Metropolis: Evidence from the Working-class Households in Prewar Tokyo. (arXiv:2311.14320v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2311.14320](http://arxiv.org/abs/2311.14320)
-
-    这里是中文总结出的一句话要点：本研究分析了20世纪初东京工人家庭中的风险应对行为，发现信用购买对平滑短期食品消费起到一定作用，并发现了数据聚合中日期错误分配导致的偏差问题。
+    Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。
 
     
 
-    我分析了20世纪初东京的工厂工人家庭中的风险应对行为。我数字化了一份关于家庭预算的独特的日常纵向调查数据集，以考察个体冲击对消费的影响程度。我发现，尽管家庭非常脆弱，冲击影响了他们的消费水平，但食品消费的收入弹性在短期内相对较低。机制分析的结果表明，信用购买在平滑短期食品消费方面起到了一定作用。使用不良健康冲击作为个体收入冲击的事件研究分析证实了结果的稳健性。我还发现证据表明，在数据聚合中工资支付日期的错误分配导致了由于测量误差而出现系统性的减少偏差。
+    Summan、Nandi和Bloom（2023；SNB）发现，晚期八十年代印度婴儿接受印度通用免疫计划（UIP）的暴露使其早期成年时的周薪增加了0.138个对数点，人均家庭消费增加了0.028个点。但这些结果是通过回归年龄和出生年份这两个变量得出的，而这两个变量构造时几乎是共线的。因此，这些结果可以归因于一年调查期间的趋势，如通货膨胀。随机化实验表明，当真实影响为零时，SNB估计器的平均值为0.088个点（工资）和0.039个点（消费）。
 
-    I analyze the risk-coping behaviors among factory worker households in early 20th-century Tokyo. I digitize a unique daily longitudinal survey dataset on household budgets to examine the extent to which consumption is affected by idiosyncratic shocks. I find that while the households were so vulnerable that the shocks impacted their consumption levels, the income elasticity for food consumption is relatively low in the short-run perspective. The result from mechanism analysis suggests that credit purchases played a role in smoothing the short-run food consumption. The event-study analysis using the adverse health shock as the idiosyncratic income shock confirms the robustness of the results. I also find evidence that the misassignment of payday in data aggregation results in a systematic attenuation bias due to measurement error.
+    Summan, Nandi, and Bloom (2023; SNB) finds that exposure of babies to India's Universal Immunization Programme (UIP) in the late 1980s increased their weekly wages in early adulthood by 0.138 log points and per-capita household consumption 0.028 points. But the results are attained by regressing on age, in years, while controlling for year of birth--two variables that, as constructed, are nearly collinear. The results are therefore attributable to trends during the one-year survey period, such as inflation. A randomization exercise shows that when the true impacts are zero, the SNB estimator averages 0.088 points for wages and 0.039 points for consumption.
     
-[^12]: 波动率衍生品的路径依赖偏微分方程
+[^14]: 一种隐含的CO$_2$价格及其与社会碳成本的关系
 
-    Path-dependent PDEs for volatility derivatives. (arXiv:2311.08289v2 [math.PR] UPDATED)
+    An Implied CO$_2$-Price and its relation to the Social Cost of Carbon. (arXiv:2312.13448v3 [q-fin.MF] UPDATED)
 
-    [http://arxiv.org/abs/2311.08289](http://arxiv.org/abs/2311.08289)
+    [http://arxiv.org/abs/2312.13448](http://arxiv.org/abs/2312.13448)
 
-    该论文研究了VIX和已实现方差的期权，在连续随机波动率模型中，它们可以作为路径依赖偏微分方程的解。论文揭示了波动率衍生品的路径依赖性，并证明了PDE的良定义性。提供了希腊字母的计算公式，展示了隐含波动率的路径依赖性，以及用于VIX期权的有限维度定价PDE。
-
-    
-
-    我们将VIX和已实现方差的期权视为连续随机波动率模型中路径依赖偏微分方程的解。建模假设指定瞬时方差是多维高斯Volterra过程的$C^3$函数；这包括许多为VIX期权定价提出的模型，无论是粗糙还是不粗糙，或者是混合的。我们揭示了这些波动率衍生品的路径依赖性，并在付款函数的正则性假设下，证明了相关PDE的良定义性。由于高斯假设，该PDE属于热方程类型，终端条件也是路径依赖的。此外，还提供了希腊字母的公式，显示了隐含波动率满足一种准线性的路径依赖PDE，并且在马尔科夫模型中，获得了用于VIX期权的有限维度定价PDE。
-
-    We regard options on VIX and Realised Variance as solutions to path-dependent partial differential equations (PDEs) in a continuous stochastic volatility model. The modeling assumption specifies that the instantaneous variance is a $C^3$ function of a multidimensional Gaussian Volterra process; this includes a large class of models suggested for the purpose of VIX option pricing, either rough, or not, or mixed. We unveil the path-dependence of those volatility derivatives and, under a regularity hypothesis on the payoff function, we prove the well-posedness of the associated PDE. The latter is of heat type, because of the Gaussian assumption, and the terminal condition is also path-dependent. Furthermore, formulae for the greeks are provided, the implied volatility is shown to satisfy a quasi-linear path-dependent PDE and, in Markovian models, finite-dimensional pricing PDEs are obtained for VIX options.
-    
-[^13]: 扰动有助于降低投资风险吗？ 基于分离变分对抗训练的风险感知型股票推荐方法
-
-    Can Perturbations Help Reduce Investment Risks? Risk-Aware Stock Recommendation via Split Variational Adversarial Training. (arXiv:2304.11043v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2304.11043](http://arxiv.org/abs/2304.11043)
-
-    本文提出了一种基于分离变分对抗训练的风险感知型股票推荐方法，通过对抗性扰动提高模型对于风险的感知能力，通过变分扰动生成器模拟不同的风险因素并生成代表性的风险指标对抗样本。在真实股票数据上进行的实验表明该方法有效降低了投资风险同时保持高预期收益。
+    研究提出了一种隐含的CO2价格概念，该价格涵盖了由气候变化引起的成本，与社会碳成本不同。使用经典DICE模型的数值分析显示，成本隐含的CO2价格约为500 \$/tCO2，而与社会碳成本相关的价格约为50 \$/tCO2。
 
     
 
-    在股票市场，成功的投资需要在利润和风险之间取得良好的平衡。最近，在量化投资中广泛研究了股票推荐，以为投资者选择具有更高收益率的股票。尽管在获利方面取得了成功，但大多数现有的推荐方法仍然在风险控制方面较弱，这可能导致实际股票投资中难以承受的亏损。为了有效降低风险，我们从对抗性扰动中获得启示，并提出了一种新的基于分离变分对抗训练（SVAT）框架的风险感知型股票推荐方法。本质上，SVAT鼓励模型对风险股票样本的对抗性扰动敏感，并通过学习扰动来增强模型的风险意识。为了生成代表性的风险指标对抗样本，我们设计了一个变分扰动生成器来模拟不同的风险因素。特别地，变分结构使我们的方法能够捕捉难以明确量化和建模的各种风险因素。在真实股票数据上的综合实验表明，SVAT在降低投资风险的同时保持高预期收益上非常有效。
+    由于其性质，所谓的社会碳成本（SCC(t)）如果被用作CO$_2$价格，很可能不会覆盖由气候变化引起的成本（损害成本和减排成本）。它只是一个边际价格。我们定义了一个涵盖气候变化引起的成本的隐含CO$_2$价格。该价格可以解释为“污染者付费原则”。使用经典DICE模型进行的数值分析表明，成本隐含的CO$_2$价格约为500 \$/tCO$_2$，而与SCC相关的价格约为50 \$/tCO$_2$。
 
-    In the stock market, a successful investment requires a good balance between profits and risks. Recently, stock recommendation has been widely studied in quantitative investment to select stocks with higher return ratios for investors. Despite the success in making profits, most existing recommendation approaches are still weak in risk control, which may lead to intolerable paper losses in practical stock investing. To effectively reduce risks, we draw inspiration from adversarial perturbations and propose a novel Split Variational Adversarial Training (SVAT) framework for risk-aware stock recommendation. Essentially, SVAT encourages the model to be sensitive to adversarial perturbations of risky stock examples and enhances the model's risk awareness by learning from perturbations. To generate representative adversarial examples as risk indicators, we devise a variational perturbation generator to model diverse risk factors. Particularly, the variational architecture enables our method
+    By its nature, the so-called social cost of carbon (SCC(t)) will likely not cover the cost induced by climate change (damage cost and abatement cost) if it is used as a CO$_2$-price. It is a marginal price only. We define an implied CO$_2$-price that covers the climate change-induced costs. The price can be interpreted as a \textit{polluter pays principle}. A numerical analysis using a classical DICE model reveals that the cost-implied CO$_2$ price is around 500 \$/tCO$_2$, while the corresponding price associated with the SCC is about 50 \$/tCO$_2$.
+    
+[^15]: 经验金融的认识论限制：因果降解论和自我参照
+
+    Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference. (arXiv:2311.16570v3 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2311.16570](http://arxiv.org/abs/2311.16570)
+
+    本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。
+
+    
+
+    在资本市场等自我参照和开放系统中，对于因果降解在研究中的呼声日益高涨。然而，在这样的系统中，单向因果关系的概念在最好的情况下可能是有限制的，在最坏的情况下可能是不稳定或荒谬的。本研究中，我们批判性地评估了在实证金融和计量经济学研究中使用科学演绎和因果推断的做法。然后，我们使用从生态食饵关系中改编的玩具模型来展示竞争性因果链的观点。基于此，我们提出了另一种观点，即当我们承认我们当前的量化金融工具可能在流行假设下仅限于事后因果推断时，我们可能更好地理解实证金融研究及其中所包含的风险。当这些假设受到挑战时，例如在可识别的反身性背景下，单向因果关系的建议就显得非常棘手。
+
+    The clarion call for causal reduction in the study of capital markets is intensifying. However, in self-referencing and open systems such as capital markets, the idea of unidirectional causation (if applicable) may be limiting at best, and unstable or fallacious at worst. In this research, we critically assess the use of scientific deduction and causal inference within the study of empirical finance and econometrics. We then demonstrate the idea of competing causal chains using a toy model adapted from ecological predator/prey relationships. From this, we develop the alternative view that the study of empirical finance, and the risks contained therein, may be better appreciated once we admit that our current arsenal of quantitative finance tools may be limited to ex post causal inference under popular assumptions. Where these assumptions are challenged, for example in a recognizable reflexive context, the prescription of unidirectional causation proves deeply problematic.
+    
+[^16]: 无套利深度标定波动率微笑和偏斜的方法
+
+    No-Arbitrage Deep Calibration for Volatility Smile and Skewness. (arXiv:2310.16703v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2310.16703](http://arxiv.org/abs/2310.16703)
+
+    本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。
+
+    
+
+    波动率微笑和偏斜是期权价格的两个关键属性，通过隐含波动率曲面表示。然而，由于有限的输入数据、低流动性和噪声等多种因素，通过非线性插值进行波动率曲面标定是一个复杂的问题。此外，标定曲面必须遵守无套利的基本金融原则，这可以通过对期权价格相对于到期时间和行权价格的偏导数的各种微分不等式进行建模。为了应对这些挑战，我们引入了一种称为导数约束神经网络(DCNN)的方法，它是多层感知器(MLP)的改进版本，可以将导数纳入输出函数中。DCNN可以生成平滑的曲面，并通过损失函数中的导数项来增加无套利条件。在数值实验中，我们应用了具有微笑属性的随机波动率模型。
+
+    Volatility smile and skewness are two key properties of option prices that are represented by the implied volatility (IV) surface. However, IV surface calibration through nonlinear interpolation is a complex problem due to several factors, including limited input data, low liquidity, and noise. Additionally, the calibrated surface must obey the fundamental financial principle of the absence of arbitrage, which can be modeled by various differential inequalities over the partial derivatives of the option price with respect to the expiration time and the strike price. To address these challenges, we have introduced a Derivative-Constrained Neural Network (DCNN), which is an enhancement of a multilayer perceptron (MLP) that incorporates derivatives in the output function. DCNN allows us to generate a smooth surface and incorporate the no-arbitrage condition thanks to the derivative terms in the loss function. In numerical experiments, we apply the stochastic volatility model with smile an
+    
+[^17]: 数字产品的增长、地理和贸易影响
+
+    The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.02253](http://arxiv.org/abs/2310.02253)
+
+    本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。
+
+    
+
+    尽管全球努力协调国际贸易统计数据，我们对数字产品的贸易及其影响的理解仍然不清楚。在这里，我们通过引入一个新的数字产品出口和进口数据集，研究数字产品贸易的五个关键方面。首先，我们表明与实物商品贸易相比，数字产品出口的起源更加空间集中。其次，我们表明在2016年至2021年之间，数字产品贸易增长速度快于实物贸易，年均增长率为20%，而实物贸易为6%。第三，我们表明数字产品贸易规模足够大，可以在一定程度上抵消一些重要的贸易平衡估计，如美国的实物贸易逆差。第四，我们表明那些将经济增长与温室气体排放分离的国家，在数字产品领域拥有较大且增长更快的出口。最后，我们将数字产品纳入经济复杂性的衡量指标中。
+
+    Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
+    
+[^18]: 一种用于变系数偏微分方程稳定性和鲁棒性的新型差分方程方法
+
+    A Novel Difference Equation Approach for the Stability and Robustness of Compact Schemes for Variable Coefficient PDEs. (arXiv:2209.02873v2 [math.NA] UPDATED)
+
+    [http://arxiv.org/abs/2209.02873](http://arxiv.org/abs/2209.02873)
+
+    本文提出了一种新的差分方程方法，用于研究变系数偏微分方程的稳定性和鲁棒性。通过导出稳定性条件并提供数值验证，论文证明了紧致格式在特定情况下的无条件稳定性。
+
+    
+
+    本文考虑了变系数对流-扩散方程的四阶精确紧致格式。使用基于差分方程的方法导出了方案稳定性的充分条件。将恒定系数问题视为特例，并在理论上证明了此类情况下紧致格式的无条件稳定性。还分析了放大矩阵的条件数，并导出了相应的估计。为了数值上验证导出的条件，本文在附录中提供了MATLAB代码。通过提供示例来支持确保稳定性的假设。
+
+    Fourth order accurate compact schemes for variable coefficient convection-diffusion equations are considered. A sufficient condition for stability of the schemes have been derived using a difference equation based approach. The constant coefficient problems are considered as a special case, and the unconditional stability of compact schemes for such case is proved theoretically. The condition number of the amplification matrix is also analysed, and an estimate for the same is derived. In order to verify the derived conditions numerically, MATLAB codes are provided in Appendix of the manuscript. An example is provided to support the assumption taken to assure stability.
+    
+[^19]: 基于矩阵方法的紧致格式对抛物型偏微分方程的稳定性和鲁棒性研究
+
+    Matrix method stability and robustness of compact schemes for parabolic PDEs. (arXiv:2201.05854v3 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2201.05854](http://arxiv.org/abs/2201.05854)
+
+    本研究通过矩阵方法研究了紧致格式在对抛物型偏微分方程进行空间离散时的稳定性和鲁棒性，并推导出了相关矩阵条件数的上界。结论表明条件数阶数为 $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$，其中 $\delta v$ 和 $\delta z$ 分别为时间和空间步长。
+
+    
+
+    本文考虑了对流扩散方程的全离散问题，其中包括空间离散的紧致逼近和时间离散的Crank-Nicolson方案。应用了三对角Toeplitz矩阵的逆的元素表达式和Gerschgorin圆定理来定位放大矩阵的特征值。得到了相关矩阵条件数的上界，其阶数为 $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$，其中 $\delta v$ 和 $\delta z$ 分别是时间和空间步长。为了补充理论结果，还添加了一些数值示例。
+
+    The fully discrete problem for convection-diffusion equation is considered. It comprises compact approximations for spatial discretization, and Crank-Nicolson scheme for temporal discretization. The expressions for the entries of inverse of tridiagonal Toeplitz matrix, and Gerschgorin circle theorem have been applied to locate the eigenvalues of the amplification matrix. An upper bound on the condition number of a relevant matrix is derived. It is shown to be of order $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$, where $\delta v$ and $\delta z$ are time and space step sizes respectively. Some numerical illustrations have been added to complement the theoretical findings.
     
 
