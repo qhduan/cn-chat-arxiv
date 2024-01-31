@@ -72,30 +72,31 @@
 | [^68] | [MultiGPrompt for Multi-Task Pre-Training and Prompting on Graphs.](http://arxiv.org/abs/2312.03731) | 本文提出了一种名为MultiGPrompt的多任务预训练和提示框架，用于在图形表示学习中提高鲁棒性和减少标注成本。 |
 | [^69] | [Self-Infilling Code Generation.](http://arxiv.org/abs/2311.17972) | 本文介绍了自补代码生成的通用框架，利用自补机制实现了中断和循环机制，使传统解码进程变得非单调。利用中断机制可以推迟生成代码，增强对输出的控制；利用循环机制可以循环更新和同步生成的每个部分。 |
 | [^70] | [War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars.](http://arxiv.org/abs/2311.17227) | 本研究提出了一个名为WarAgent的大语言模型驱动的多智能体AI系统，用于模拟历史国际冲突，并通过评估其效果和研究智能体之间的相互作用，探讨了战争的引发因素和条件。 |
-| [^71] | [Meta Prompting for AGI Systems.](http://arxiv.org/abs/2311.11482) | 本文全面研究了元提示技术，这是一种创新方法，重塑了大型语言模型、多模态模型和人工智能系统在问题解决和数据解释方面的应用。通过强调信息的结构和句法，元提示将复杂问题拆解为简单的子问题，提高了效率，并且能够与少样本方法进行公平的比较。同时，本文还提出了元提示用于自动生成提示的方法。 |
-| [^72] | [Conversation Understanding using Relational Temporal Graph Neural Networks with Auxiliary Cross-Modality Interaction.](http://arxiv.org/abs/2311.04507) | 本论文提出了一个名为CORECT的神经网络框架，通过关系时态图神经网络和辅助跨模态交互的方式有效地捕捉对话中的情感信息。 |
-| [^73] | [One-Shot Sensitivity-Aware Mixed Sparsity Pruning for Large Language Models.](http://arxiv.org/abs/2310.09499) | 我们提出了一种基于敏感度感知混合稀疏化剪枝的方法，可以在不重新训练的情况下将大型语言模型剪枝至至少50％的稀疏性，同时保持稀疏性水平和减少剪枝引起的误差。此外，该方法还与量化兼容，可以进一步压缩语言模型。 |
-| [^74] | [EMO: Earth Mover Distance Optimization for Auto-Regressive Language Modeling.](http://arxiv.org/abs/2310.04691) | EMO提出了地球移动距离优化（EMO）来解决语言模型中的退化现象。EMO利用了地球移动距离的特性，并引入了一个可行的上界来简化训练。经过评估，发现EMO在语言模型上有显著的改进。 |
-| [^75] | [Syllable-level lyrics generation from melody exploiting character-level language model.](http://arxiv.org/abs/2310.00863) | 该论文提出了一种利用字符级语言模型从旋律中生成音节级歌词的方法，并通过融合语言模型知识和生成器网络进行优化。通过探索ChatGPT的评估方法，以及人工评估，证明了该方法提高了生成歌词的连贯性和正确性。 |
-| [^76] | [Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers.](http://arxiv.org/abs/2309.12570) | 本文通过实证研究探讨了大型语言模型（LLM）在协助专业作家方面的效用，并发现作家们更倾向于在翻译和审查阶段中寻求LLM的帮助。 |
-| [^77] | [MAPLE: Mobile App Prediction Leveraging Large Language model Embeddings.](http://arxiv.org/abs/2309.08648) | MAPLE是一个利用大型语言模型嵌入进行移动应用预测的模型，通过严格测试验证了其在解密复杂模式和理解用户环境方面的能力，并强调了语言模型在不同领域中的广泛适用性。 |
-| [^78] | [Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases.](http://arxiv.org/abs/2309.08345) | 本文通过实验调查揭示了语言模型在与知识库进行连接时的数据分布瓶颈，包括推广到未见域、适应语言变体和在不同数据集之间的可转移性等方面。即使采用数据增强技术，先进的语言模型在多个方面表现出较差的性能。 |
-| [^79] | [Ambiguity-Aware In-Context Learning with Large Language Models.](http://arxiv.org/abs/2309.07900) | 在上下文学习中，选择与测试输入语义相似的演示有助于提高下游性能，但是考虑到语言模型关于任务的现有知识能够更好地指导演示选择。 |
-| [^80] | [Circuit Breaking: Removing Model Behaviors with Targeted Ablation.](http://arxiv.org/abs/2309.05973) | 本论文提出了一种通过有针对性的消融模型组件之间的因果路径来去除语言模型中不良行为的新方法。在减少GPT-2毒性语言生成方面，仅消融12条因果边中的11.6K可以有效减轻毒性生成，并在其他输入上的性能下降很小。 |
-| [^81] | [Efficient Benchmarking (of Language Models).](http://arxiv.org/abs/2308.11696) | 本研究提出了一种名为"Efficient Benchmarking"的问题，旨在智能地减少语言模型评估的计算成本而不降低可靠性，并使用一种名为Decision Impact on Reliability（DIoR）的新度量来评估决策的可靠性。通过HELM基准测试的案例研究，发现只需删除一个低排名模型即可改变领先者，并仅需少量示例即可得到正确的基准测试排名。 |
-| [^82] | [Evaluating the Generation Capabilities of Large Chinese Language Models.](http://arxiv.org/abs/2308.04823) | 本文首次对大型中文语言模型在多个学科领域的生成能力进行了全面评估，并提出了Gscore作为衡量生成结果质量的综合指数。 |
-| [^83] | [Give Us the Facts: Enhancing Large Language Models with Knowledge Graphs for Fact-aware Language Modeling.](http://arxiv.org/abs/2306.11489) | 这篇论文研究了如何通过知识图谱增强大型语言模型，提高其生成内容的准确性和对用户查询的回复能力。 |
-| [^84] | [ReactGenie: An Object-Oriented State Abstraction for Complex Multimodal Interactions Using Large Language Models.](http://arxiv.org/abs/2306.09649) | ReactGenie是一个支持构建复杂的多模态移动应用程序的编程框架，通过使用共享的面向对象状态抽象，使得不同模态可以无缝集成和组合，从而实现了多模态交互的支持。 |
-| [^85] | [Textually Pretrained Speech Language Models.](http://arxiv.org/abs/2305.13009) | 本论文提出了一种使用预训练的文本语言模型训练语音语言模型的方法，通过对模型设计选择和数据集规模的经验性分析，构建了参数数量和训练数据最多的语音语言模型，并引入了两个Spoken版本的文本基准，以进一步改善模型评估和推动未来研究。 |
-| [^86] | [Scaling laws for language encoding models in fMRI.](http://arxiv.org/abs/2305.11863) | 本文揭示了基于fMRI的语言编码模型预测性能与模型大小呈对数线性关系，在125M到30B参数模型进行规模扩展时，表现提高了约15％。 |
-| [^87] | [Solving NLP Problems through Human-System Collaboration: A Discussion-based Approach.](http://arxiv.org/abs/2305.11789) | 本研究提出了一种基于讨论的方法，旨在通过人机协作解决自然语言处理难题。提出了一个可以进行对话并修正预测的系统，通过实验证明该系统可以通过与人类的讨论提高准确性高达25%。 |
-| [^88] | [Incorporating Attribution Importance for Improving Faithfulness Metrics.](http://arxiv.org/abs/2305.10496) | 本研究提出了一种软删除标准来评估归因方法的忠实度，该方法随机遮盖标记的部分向量表示，这种方法比现有的硬删除标准更准确。 |
-| [^89] | [Qualifying Chinese Medical Licensing Examination with Knowledge Enhanced Generative Pre-training Model.](http://arxiv.org/abs/2305.10163) | 本研究通过在ChatGPT中集成医学领域知识和启用少样本学习的新方法，在中国国家医学执业医师资格考试中取得成功，这为建立在自然语言处理技术和医学领域知识的创新应用提供了可能。 |
-| [^90] | [Active Continual Learning: Labelling Queries in a Sequence of Tasks.](http://arxiv.org/abs/2305.03923) | 本文考虑了一系列主动学习任务的主动连续学习问题，研究了不同场景下多种主动和连续学习算法之间的有效性和相互作用，并提出了遗忘-学习曲线方法来平衡不忘旧知识和快速学习的两个目标。 |
-| [^91] | [Translationese Reduction using Abstract Meaning Representation.](http://arxiv.org/abs/2304.11501) | 研究使用抽象意义表示（AMR）作为跨语言方案可以减少翻译语言学数量。 |
-| [^92] | [News and Load: A Quantitative Exploration of Natural Language Processing Applications for Forecasting Day-ahead Electricity System Demand.](http://arxiv.org/abs/2301.07535) | 本文利用自然语言处理技术研究了电力需求和社会事件之间的关联，并通过分析词频、公众情感、主题分布和词嵌入等文本特征，改进了次日的电力需求预测。研究结果提供了新的视角，证实了从非结构化文本中改进预测的可行性。 |
-| [^93] | [Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing.](http://arxiv.org/abs/2212.10789) | 本论文介绍了一种名为MoleculeSTM的多模态分子结构-文本模型，通过联合学习化学结构和文本描述，可以实现基于文本的检索和编辑。通过构建大型的多模态数据集，并设计挑战性的零样本任务进行验证，该模型展示了开放词汇和组合性的特性。 |
-| [^94] | [Localization vs. Semantics: Visual Representations in Unimodal and Multimodal Models.](http://arxiv.org/abs/2212.00281) | 本文比较分析了现有视觉与语言模型和仅视觉模型中的视觉表示，发现视觉与语言模型在标签预测任务上表现更好，而仅视觉模型在需要更局部信息的密集预测任务上表现更强。 |
+| [^71] | [Novel Preprocessing Technique for Data Embedding in Engineering Code Generation Using Large Language Model.](http://arxiv.org/abs/2311.16267) | 本论文提出了一种新的预处理技术，通过利用大型语言模型（LLM）来增强工程代码生成中的性能。该技术包括利用LLM的数据拆分和数据翻新技术提高嵌入空间的语义表示，引入基于LLM的密度链条和自适应文本翻新算法评估数据翻新可信度，开发隐式知识扩展和思考提示技术，以及通过重构现有脚本生成新的高质量脚本。在使用工程模拟软件RedHawk-SC作为案例研究时，这些技术的有效性得到了证明，能够扩展和分类脚本，并在与IKEC结合使用时提高检索增强生成方法的性能。 |
+| [^72] | [Meta Prompting for AGI Systems.](http://arxiv.org/abs/2311.11482) | 本文全面研究了元提示技术，这是一种创新方法，重塑了大型语言模型、多模态模型和人工智能系统在问题解决和数据解释方面的应用。通过强调信息的结构和句法，元提示将复杂问题拆解为简单的子问题，提高了效率，并且能够与少样本方法进行公平的比较。同时，本文还提出了元提示用于自动生成提示的方法。 |
+| [^73] | [Conversation Understanding using Relational Temporal Graph Neural Networks with Auxiliary Cross-Modality Interaction.](http://arxiv.org/abs/2311.04507) | 本论文提出了一个名为CORECT的神经网络框架，通过关系时态图神经网络和辅助跨模态交互的方式有效地捕捉对话中的情感信息。 |
+| [^74] | [One-Shot Sensitivity-Aware Mixed Sparsity Pruning for Large Language Models.](http://arxiv.org/abs/2310.09499) | 我们提出了一种基于敏感度感知混合稀疏化剪枝的方法，可以在不重新训练的情况下将大型语言模型剪枝至至少50％的稀疏性，同时保持稀疏性水平和减少剪枝引起的误差。此外，该方法还与量化兼容，可以进一步压缩语言模型。 |
+| [^75] | [EMO: Earth Mover Distance Optimization for Auto-Regressive Language Modeling.](http://arxiv.org/abs/2310.04691) | EMO提出了地球移动距离优化（EMO）来解决语言模型中的退化现象。EMO利用了地球移动距离的特性，并引入了一个可行的上界来简化训练。经过评估，发现EMO在语言模型上有显著的改进。 |
+| [^76] | [Syllable-level lyrics generation from melody exploiting character-level language model.](http://arxiv.org/abs/2310.00863) | 该论文提出了一种利用字符级语言模型从旋律中生成音节级歌词的方法，并通过融合语言模型知识和生成器网络进行优化。通过探索ChatGPT的评估方法，以及人工评估，证明了该方法提高了生成歌词的连贯性和正确性。 |
+| [^77] | [Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers.](http://arxiv.org/abs/2309.12570) | 本文通过实证研究探讨了大型语言模型（LLM）在协助专业作家方面的效用，并发现作家们更倾向于在翻译和审查阶段中寻求LLM的帮助。 |
+| [^78] | [MAPLE: Mobile App Prediction Leveraging Large Language model Embeddings.](http://arxiv.org/abs/2309.08648) | MAPLE是一个利用大型语言模型嵌入进行移动应用预测的模型，通过严格测试验证了其在解密复杂模式和理解用户环境方面的能力，并强调了语言模型在不同领域中的广泛适用性。 |
+| [^79] | [Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases.](http://arxiv.org/abs/2309.08345) | 本文通过实验调查揭示了语言模型在与知识库进行连接时的数据分布瓶颈，包括推广到未见域、适应语言变体和在不同数据集之间的可转移性等方面。即使采用数据增强技术，先进的语言模型在多个方面表现出较差的性能。 |
+| [^80] | [Ambiguity-Aware In-Context Learning with Large Language Models.](http://arxiv.org/abs/2309.07900) | 在上下文学习中，选择与测试输入语义相似的演示有助于提高下游性能，但是考虑到语言模型关于任务的现有知识能够更好地指导演示选择。 |
+| [^81] | [Circuit Breaking: Removing Model Behaviors with Targeted Ablation.](http://arxiv.org/abs/2309.05973) | 本论文提出了一种通过有针对性的消融模型组件之间的因果路径来去除语言模型中不良行为的新方法。在减少GPT-2毒性语言生成方面，仅消融12条因果边中的11.6K可以有效减轻毒性生成，并在其他输入上的性能下降很小。 |
+| [^82] | [Efficient Benchmarking (of Language Models).](http://arxiv.org/abs/2308.11696) | 本研究提出了一种名为"Efficient Benchmarking"的问题，旨在智能地减少语言模型评估的计算成本而不降低可靠性，并使用一种名为Decision Impact on Reliability（DIoR）的新度量来评估决策的可靠性。通过HELM基准测试的案例研究，发现只需删除一个低排名模型即可改变领先者，并仅需少量示例即可得到正确的基准测试排名。 |
+| [^83] | [Evaluating the Generation Capabilities of Large Chinese Language Models.](http://arxiv.org/abs/2308.04823) | 本文首次对大型中文语言模型在多个学科领域的生成能力进行了全面评估，并提出了Gscore作为衡量生成结果质量的综合指数。 |
+| [^84] | [Give Us the Facts: Enhancing Large Language Models with Knowledge Graphs for Fact-aware Language Modeling.](http://arxiv.org/abs/2306.11489) | 这篇论文研究了如何通过知识图谱增强大型语言模型，提高其生成内容的准确性和对用户查询的回复能力。 |
+| [^85] | [ReactGenie: An Object-Oriented State Abstraction for Complex Multimodal Interactions Using Large Language Models.](http://arxiv.org/abs/2306.09649) | ReactGenie是一个支持构建复杂的多模态移动应用程序的编程框架，通过使用共享的面向对象状态抽象，使得不同模态可以无缝集成和组合，从而实现了多模态交互的支持。 |
+| [^86] | [Textually Pretrained Speech Language Models.](http://arxiv.org/abs/2305.13009) | 本论文提出了一种使用预训练的文本语言模型训练语音语言模型的方法，通过对模型设计选择和数据集规模的经验性分析，构建了参数数量和训练数据最多的语音语言模型，并引入了两个Spoken版本的文本基准，以进一步改善模型评估和推动未来研究。 |
+| [^87] | [Scaling laws for language encoding models in fMRI.](http://arxiv.org/abs/2305.11863) | 本文揭示了基于fMRI的语言编码模型预测性能与模型大小呈对数线性关系，在125M到30B参数模型进行规模扩展时，表现提高了约15％。 |
+| [^88] | [Solving NLP Problems through Human-System Collaboration: A Discussion-based Approach.](http://arxiv.org/abs/2305.11789) | 本研究提出了一种基于讨论的方法，旨在通过人机协作解决自然语言处理难题。提出了一个可以进行对话并修正预测的系统，通过实验证明该系统可以通过与人类的讨论提高准确性高达25%。 |
+| [^89] | [Incorporating Attribution Importance for Improving Faithfulness Metrics.](http://arxiv.org/abs/2305.10496) | 本研究提出了一种软删除标准来评估归因方法的忠实度，该方法随机遮盖标记的部分向量表示，这种方法比现有的硬删除标准更准确。 |
+| [^90] | [Qualifying Chinese Medical Licensing Examination with Knowledge Enhanced Generative Pre-training Model.](http://arxiv.org/abs/2305.10163) | 本研究通过在ChatGPT中集成医学领域知识和启用少样本学习的新方法，在中国国家医学执业医师资格考试中取得成功，这为建立在自然语言处理技术和医学领域知识的创新应用提供了可能。 |
+| [^91] | [Active Continual Learning: Labelling Queries in a Sequence of Tasks.](http://arxiv.org/abs/2305.03923) | 本文考虑了一系列主动学习任务的主动连续学习问题，研究了不同场景下多种主动和连续学习算法之间的有效性和相互作用，并提出了遗忘-学习曲线方法来平衡不忘旧知识和快速学习的两个目标。 |
+| [^92] | [Translationese Reduction using Abstract Meaning Representation.](http://arxiv.org/abs/2304.11501) | 研究使用抽象意义表示（AMR）作为跨语言方案可以减少翻译语言学数量。 |
+| [^93] | [News and Load: A Quantitative Exploration of Natural Language Processing Applications for Forecasting Day-ahead Electricity System Demand.](http://arxiv.org/abs/2301.07535) | 本文利用自然语言处理技术研究了电力需求和社会事件之间的关联，并通过分析词频、公众情感、主题分布和词嵌入等文本特征，改进了次日的电力需求预测。研究结果提供了新的视角，证实了从非结构化文本中改进预测的可行性。 |
+| [^94] | [Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing.](http://arxiv.org/abs/2212.10789) | 本论文介绍了一种名为MoleculeSTM的多模态分子结构-文本模型，通过联合学习化学结构和文本描述，可以实现基于文本的检索和编辑。通过构建大型的多模态数据集，并设计挑战性的零样本任务进行验证，该模型展示了开放词汇和组合性的特性。 |
+| [^95] | [Localization vs. Semantics: Visual Representations in Unimodal and Multimodal Models.](http://arxiv.org/abs/2212.00281) | 本文比较分析了现有视觉与语言模型和仅视觉模型中的视觉表示，发现视觉与语言模型在标签预测任务上表现更好，而仅视觉模型在需要更局部信息的密集预测任务上表现更强。 |
 
 # 详细
 
@@ -1079,7 +1080,21 @@
 
     Can we avoid wars at the crossroads of history? This question has been pursued by individuals, scholars, policymakers, and organizations throughout human history. In this research, we attempt to answer the question based on the recent advances of Artificial Intelligence (AI) and Large Language Models (LLMs). We propose \textbf{WarAgent}, an LLM-powered multi-agent AI system, to simulate the participating countries, their decisions, and the consequences, in historical international conflicts, including the World War I (WWI), the World War II (WWII), and the Warring States Period (WSP) in Ancient China. By evaluating the simulation effectiveness, we examine the advancements and limitations of cutting-edge AI systems' abilities in studying complex collective human behaviors such as international conflicts under diverse settings. In these simulations, the emergent interactions among agents also offer a novel perspective for examining the triggers and conditions that lead to war. Our findin
     
-[^71]: AGI系统的元提示
+[^71]: 使用大型语言模型在工程代码生成中的数据嵌入的新型预处理技术
+
+    Novel Preprocessing Technique for Data Embedding in Engineering Code Generation Using Large Language Model. (arXiv:2311.16267v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2311.16267](http://arxiv.org/abs/2311.16267)
+
+    本论文提出了一种新的预处理技术，通过利用大型语言模型（LLM）来增强工程代码生成中的性能。该技术包括利用LLM的数据拆分和数据翻新技术提高嵌入空间的语义表示，引入基于LLM的密度链条和自适应文本翻新算法评估数据翻新可信度，开发隐式知识扩展和思考提示技术，以及通过重构现有脚本生成新的高质量脚本。在使用工程模拟软件RedHawk-SC作为案例研究时，这些技术的有效性得到了证明，能够扩展和分类脚本，并在与IKEC结合使用时提高检索增强生成方法的性能。
+
+    
+
+    我们提出了四个主要贡献来改善大型语言模型（LLM）在生成特定领域代码时的性能：（i）利用基于LLM的数据拆分和数据翻新技术来提高嵌入空间的语义表示；（ii）引入由LLM驱动的密度链条以用于翻新可信度（CoDRC），以及用于评估数据翻新可靠性的自适应文本翻新（ATR）算法；（iii）开发隐式知识扩展和思考（IKEC）提示技术；（iv）通过有效重构现有脚本来使用LLM生成新的高质量脚本。我们以工程模拟软件RedHawk-SC为案例研究，展示了我们的数据预处理方法在扩展和分类脚本方面的有效性。当与IKEC结合使用时，这些技术可以增强检索增强生成（RAG）方法以检索更相关的信息，最终实现73.33％的“共现百分比”。
+
+    We present four main contributions to enhance the performance of Large Language Models (LLMs) in generating domain-specific code: (i) utilizing LLM-based data splitting and data renovation techniques to improve the semantic representation of embeddings' space; (ii) introducing the Chain of Density for Renovation Credibility (CoDRC), driven by LLMs, and the Adaptive Text Renovation (ATR) algorithm for assessing data renovation reliability; (iii) developing the Implicit Knowledge Expansion and Contemplation (IKEC) Prompt technique; and (iv) effectively refactoring existing scripts to generate new and high-quality scripts with LLMs. By using engineering simulation software RedHawk-SC as a case study, we demonstrate the effectiveness of our data pre-processing method for expanding and categorizing scripts. When combined with IKEC, these techniques enhance the Retrieval-Augmented Generation (RAG) method in retrieving more relevant information, ultimately achieving a 73.33% "Percentage of Co
+    
+[^72]: AGI系统的元提示
 
     Meta Prompting for AGI Systems. (arXiv:2311.11482v2 [cs.AI] UPDATED)
 
@@ -1093,7 +1108,7 @@
 
     This paper presents a comprehensive study of Meta Prompting, an innovative technique reshaping the utilization of large language models (LLMs), multi-modal foundation models, and AI systems in problem-solving and data interpretation. Grounded in type theory and category theory, Meta Prompting emphasizes the structure and syntax of information over traditional content-centric methods. The paper explores the formal definitions of Meta Prompting (MP), sets it apart from Few-Shot Prompting, and underlines its effectiveness in various AI applications. A key focus is on extending Meta Prompting to complex reasoning tasks, showing how it effectively deconstructs intricate problems into simpler sub-problems, enhancing token efficiency and enabling more equitable problem-solving comparisons, especially against few-shot example methods. Additionally, the paper introduces Meta Prompting for Prompting Tasks, allowing LLMs to self-generate new prompts in an iterative, metaprogramming-like manner. T
     
-[^72]: 使用具有辅助跨模态交互的关系时态图神经网络进行对话理解
+[^73]: 使用具有辅助跨模态交互的关系时态图神经网络进行对话理解
 
     Conversation Understanding using Relational Temporal Graph Neural Networks with Auxiliary Cross-Modality Interaction. (arXiv:2311.04507v2 [cs.CL] UPDATED)
 
@@ -1107,7 +1122,7 @@
 
     Emotion recognition is a crucial task for human conversation understanding. It becomes more challenging with the notion of multimodal data, e.g., language, voice, and facial expressions. As a typical solution, the global- and the local context information are exploited to predict the emotional label for every single sentence, i.e., utterance, in the dialogue. Specifically, the global representation could be captured via modeling of cross-modal interactions at the conversation level. The local one is often inferred using the temporal information of speakers or emotional shifts, which neglects vital factors at the utterance level. Additionally, most existing approaches take fused features of multiple modalities in an unified input without leveraging modality-specific representations. Motivating from these problems, we propose the Relational Temporal Graph Neural Network with Auxiliary Cross-Modality Interaction (CORECT), an novel neural network framework that effectively captures convers
     
-[^73]: 一种用于大型语言模型的一次敏感度感知混合稀疏化剪枝方法
+[^74]: 一种用于大型语言模型的一次敏感度感知混合稀疏化剪枝方法
 
     One-Shot Sensitivity-Aware Mixed Sparsity Pruning for Large Language Models. (arXiv:2310.09499v1 [cs.CL])
 
@@ -1121,7 +1136,7 @@
 
     Various Large Language Models(LLMs) from the Generative Pretrained Transformer~(GPT) family have achieved outstanding performances in a wide range of text generation tasks. However, the enormous model sizes have hindered their practical use in real-world applications due to high inference latency. Therefore, improving the efficiencies of LLMs through quantization, pruning, and other means has been a key issue in LLM studies. In this work, we propose a method based on Hessian sensitivity-aware mixed sparsity pruning to prune LLMs to at least 50\% sparsity without the need of any retraining. It allocates sparsity adaptively based on sensitivity, allowing us to reduce pruning-induced error while maintaining the overall sparsity level. The advantages of the proposed method exhibit even more when the sparsity is extremely high. Furthermore, our method is compatible with quantization, enabling further compression of LLMs.
     
-[^74]: EMO: Earth Mover Distance Optimization for Auto-Regressive Language Modeling. (arXiv:2310.04691v2 [cs.CL] UPDATED)
+[^75]: EMO: Earth Mover Distance Optimization for Auto-Regressive Language Modeling. (arXiv:2310.04691v2 [cs.CL] UPDATED)
 
     EMO: Earth Mover Distance Optimization for Auto-Regressive Language Modeling. (arXiv:2310.04691v2 [cs.CL] UPDATED)
 
@@ -1135,7 +1150,7 @@
 
     Neural language models are probabilistic models of human text. They are predominantly trained using maximum likelihood estimation (MLE), which is equivalent to minimizing the forward cross-entropy between the empirical data distribution and the model distribution. However, various degeneration phenomena are still widely observed when decoding from the distributions learned by such models. We establish that the forward cross-entropy is suboptimal as a distance metric for aligning human and model distribution due to its (1) recall-prioritization (2) negative diversity ignorance and (3) train-test mismatch. In this paper, we propose Earth Mover Distance Optimization (EMO) for auto-regressive language modeling. EMO capitalizes on the inherent properties of earth mover distance to address the aforementioned challenges. Due to the high complexity of direct computation, we further introduce a feasible upper bound for EMO to ease end-to-end training. Upon extensive evaluation of language model
     
-[^75]: 从旋律中利用字符级语言模型生成音节级歌词
+[^76]: 从旋律中利用字符级语言模型生成音节级歌词
 
     Syllable-level lyrics generation from melody exploiting character-level language model. (arXiv:2310.00863v2 [cs.CL] UPDATED)
 
@@ -1149,7 +1164,7 @@
 
     The generation of lyrics tightly connected to accompanying melodies involves establishing a mapping between musical notes and syllables of lyrics. This process requires a deep understanding of music constraints and semantic patterns at syllable-level, word-level, and sentence-level semantic meanings. However, pre-trained language models specifically designed at the syllable level are publicly unavailable. To solve these challenging issues, we propose to exploit fine-tuning character-level language models for syllable-level lyrics generation from symbolic melody. In particular, our method endeavors to incorporate linguistic knowledge of the language model into the beam search process of a syllable-level Transformer generator network. Additionally, by exploring ChatGPT-based evaluation for generated lyrics, along with human subjective evaluation, we demonstrate that our approach enhances the coherence and correctness of the generated lyrics, eliminating the need to train expensive new la
     
-[^76]: 大型语言模型下的创造力支持: 一项涉及新兴作家的实证研究
+[^77]: 大型语言模型下的创造力支持: 一项涉及新兴作家的实证研究
 
     Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers. (arXiv:2309.12570v1 [cs.HC])
 
@@ -1163,7 +1178,7 @@
 
     The development of large language models (LLMs) capable of following instructions and engaging in conversational interactions sparked increased interest in their utilization across various support tools. We investigate the utility of modern LLMs in assisting professional writers via an empirical user study (n=30). The design of our collaborative writing interface is grounded in the cognitive process model of writing that views writing as a goal-oriented thinking process encompassing non-linear cognitive activities: planning, translating, and reviewing. Participants are asked to submit a post-completion survey to provide feedback on the potential and pitfalls of LLMs as writing collaborators. Upon analyzing the writer-LLM interactions, we find that while writers seek LLM's help across all three types of cognitive activities, they find LLMs more helpful in translation and reviewing. Our findings from analyzing both the interactions and the survey responses highlight future research direc
     
-[^77]: MAPLE: 基于大型语言模型嵌入的移动应用预测
+[^78]: MAPLE: 基于大型语言模型嵌入的移动应用预测
 
     MAPLE: Mobile App Prediction Leveraging Large Language model Embeddings. (arXiv:2309.08648v1 [cs.CL])
 
@@ -1177,7 +1192,7 @@
 
     Despite the rapid advancement of mobile applications, predicting app usage remains a formidable challenge due to intricate user behaviours and ever-evolving contexts. To address these issues, this paper introduces the Mobile App Prediction Leveraging Large Language Model Embeddings (MAPLE) model. This innovative approach utilizes Large Language Models (LLMs) to predict app usage accurately. Rigorous testing on two public datasets highlights MAPLE's capability to decipher intricate patterns and comprehend user contexts. These robust results confirm MAPLE's versatility and resilience across various scenarios. While its primary design caters to app prediction, the outcomes also emphasize the broader applicability of LLMs in different domains. Through this research, we emphasize the potential of LLMs in app usage prediction and suggest their transformative capacity in modelling human behaviours across diverse fields.
     
-[^78]: 语言模型在与知识库进行连接时的数据分布瓶颈
+[^79]: 语言模型在与知识库进行连接时的数据分布瓶颈
 
     Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases. (arXiv:2309.08345v1 [cs.CL])
 
@@ -1191,7 +1206,7 @@
 
     Language models (LMs) have already demonstrated remarkable abilities in understanding and generating both natural and formal language. Despite these advances, their integration with real-world environments such as large-scale knowledge bases (KBs) remains an underdeveloped area, affecting applications such as semantic parsing and indulging in "hallucinated" information. This paper is an experimental investigation aimed at uncovering the robustness challenges that LMs encounter when tasked with knowledge base question answering (KBQA). The investigation covers scenarios with inconsistent data distribution between training and inference, such as generalization to unseen domains, adaptation to various language variations, and transferability across different datasets. Our comprehensive experiments reveal that even when employed with our proposed data augmentation techniques, advanced small and large language models exhibit poor performance in various dimensions. While the LM is a promisin
     
-[^79]: 具有大型语言模型的上下文学习中的歧义感知
+[^80]: 具有大型语言模型的上下文学习中的歧义感知
 
     Ambiguity-Aware In-Context Learning with Large Language Models. (arXiv:2309.07900v1 [cs.CL])
 
@@ -1205,7 +1220,7 @@
 
     In-context learning (ICL) i.e. showing LLMs only a few task-specific demonstrations has led to downstream gains with no task-specific fine-tuning required. However, LLMs are sensitive to the choice of prompts, and therefore a crucial research question is how to select good demonstrations for ICL. One effective strategy is leveraging semantic similarity between the ICL demonstrations and test inputs by using a text retriever, which however is sub-optimal as that does not consider the LLM's existing knowledge about that task. From prior work (Min et al., 2022), we already know that labels paired with the demonstrations bias the model predictions. This leads us to our hypothesis whether considering LLM's existing knowledge about the task, especially with respect to the output label space can help in a better demonstration selection strategy. Through extensive experimentation on three text classification tasks, we find that it is beneficial to not only choose semantically similar ICL demon
     
-[^80]: 切断电路: 通过有针对性的消融去除模型行为
+[^81]: 切断电路: 通过有针对性的消融去除模型行为
 
     Circuit Breaking: Removing Model Behaviors with Targeted Ablation. (arXiv:2309.05973v1 [cs.CL])
 
@@ -1219,7 +1234,7 @@
 
     Language models often exhibit behaviors that improve performance on a pre-training objective but harm performance on downstream tasks. We propose a novel approach to removing undesirable behaviors by ablating a small number of causal pathways between model components, with the intention of disabling the computational circuit responsible for the bad behavior. Given a small dataset of inputs where the model behaves poorly, we learn to ablate a small number of important causal pathways. In the setting of reducing GPT-2 toxic language generation, we find ablating just 12 of the 11.6K causal edges mitigates toxic generation with minimal degradation of performance on other inputs.
     
-[^81]: 有效的语言模型基准测试
+[^82]: 有效的语言模型基准测试
 
     Efficient Benchmarking (of Language Models). (arXiv:2308.11696v1 [cs.CL])
 
@@ -1233,7 +1248,7 @@
 
     The increasing versatility of language models LMs has given rise to a new class of benchmarks that comprehensively assess a broad range of capabilities. Such benchmarks are associated with massive computational costs reaching thousands of GPU hours per model. However the efficiency aspect of these evaluation efforts had raised little discussion in the literature. In this work we present the problem of Efficient Benchmarking namely intelligently reducing the computation costs of LM evaluation without compromising reliability. Using the HELM benchmark as a test case we investigate how different benchmark design choices affect the computation-reliability tradeoff. We propose to evaluate the reliability of such decisions by using a new measure Decision Impact on Reliability DIoR for short. We find for example that the current leader on HELM may change by merely removing a low-ranked model from the benchmark and observe that a handful of examples suffice to obtain the correct benchmark rank
     
-[^82]: 评估大型中文语言模型的生成能力
+[^83]: 评估大型中文语言模型的生成能力
 
     Evaluating the Generation Capabilities of Large Chinese Language Models. (arXiv:2308.04823v1 [cs.CL])
 
@@ -1247,7 +1262,7 @@
 
     This paper presents CG-Eval, the first comprehensive evaluation of the generation capabilities of large Chinese language models across a wide range of academic disciplines. The models' performance was assessed based on their ability to generate accurate and relevant responses to different types of questions in six disciplines, namely, Science and Engineering, Humanities and Social Sciences, Mathematical Calculations, Medical Practitioner Qualification Examination, Judicial Examination, and Certified Public Accountant Examination. This paper also presents Gscore, a composite index derived from the weighted sum of multiple metrics to measure the quality of model's generation against a reference. The test data and test results can be found at this http URL
     
-[^83]: 为事实感知语言建模增强大型语言模型的知识图谱
+[^84]: 为事实感知语言建模增强大型语言模型的知识图谱
 
     Give Us the Facts: Enhancing Large Language Models with Knowledge Graphs for Fact-aware Language Modeling. (arXiv:2306.11489v2 [cs.CL] UPDATED)
 
@@ -1261,7 +1276,7 @@
 
     Recently, ChatGPT, a representative large language model (LLM), has gained considerable attention due to its powerful emergent abilities. Some researchers suggest that LLMs could potentially replace structured knowledge bases like knowledge graphs (KGs) and function as parameterized knowledge bases. However, while LLMs are proficient at learning probabilistic language patterns based on large corpus and engaging in conversations with humans, they, like previous smaller pre-trained language models (PLMs), still have difficulty in recalling facts while generating knowledge-grounded contents. To overcome these limitations, researchers have proposed enhancing data-driven PLMs with knowledge-based KGs to incorporate explicit factual knowledge into PLMs, thus improving their performance to generate texts requiring factual knowledge and providing more informed responses to user queries. This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-t
     
-[^84]: ReactGenie：使用大型语言模型的面向对象状态抽象来支持复杂的多模态交互
+[^85]: ReactGenie：使用大型语言模型的面向对象状态抽象来支持复杂的多模态交互
 
     ReactGenie: An Object-Oriented State Abstraction for Complex Multimodal Interactions Using Large Language Models. (arXiv:2306.09649v1 [cs.HC])
 
@@ -1275,7 +1290,7 @@
 
     Multimodal interactions have been shown to be more flexible, efficient, and adaptable for diverse users and tasks than traditional graphical interfaces. However, existing multimodal development frameworks either do not handle the complexity and compositionality of multimodal commands well or require developers to write a substantial amount of code to support these multimodal interactions. In this paper, we present ReactGenie, a programming framework that uses a shared object-oriented state abstraction to support building complex multimodal mobile applications. Having different modalities share the same state abstraction allows developers using ReactGenie to seamlessly integrate and compose these modalities to deliver multimodal interaction.  ReactGenie is a natural extension to the existing workflow of building a graphical app, like the workflow with React-Redux. Developers only have to add a few annotations and examples to indicate how natural language is mapped to the user-accessible
     
-[^85]: 文本预训练的语音语言模型
+[^86]: 文本预训练的语音语言模型
 
     Textually Pretrained Speech Language Models. (arXiv:2305.13009v2 [cs.CL] UPDATED)
 
@@ -1289,7 +1304,7 @@
 
     Speech language models (SpeechLMs) process and generate acoustic data only, without textual supervision. In this work, we propose TWIST, a method for training SpeechLMs using a warm-start from a pretrained textual language models. We show using both automatic and human evaluations that TWIST outperforms a cold-start SpeechLM across the board. We empirically analyze the effect of different model design choices such as the speech tokenizer, the pretrained textual model, and the dataset size. We find that model and dataset scale both play an important role in constructing better-performing SpeechLMs. Based on our observations, we present the largest (to the best of our knowledge) SpeechLM both in terms of number of parameters and training data. We additionally introduce two spoken versions of the StoryCloze textual benchmark to further improve model evaluation and advance future research in the field. We make speech samples, code and models publicly available: https://pages.cs.huji.ac.il/
     
-[^86]: 基于fMRI的语言编码模型的规模定律研究
+[^87]: 基于fMRI的语言编码模型的规模定律研究
 
     Scaling laws for language encoding models in fMRI. (arXiv:2305.11863v1 [cs.CL])
 
@@ -1303,7 +1318,7 @@
 
     Representations from transformer-based unidirectional language models are known to be effective at predicting brain responses to natural language. However, most studies comparing language models to brains have used GPT-2 or similarly sized language models. Here we tested whether larger open-source models such as those from the OPT and LLaMA families are better at predicting brain responses recorded using fMRI. Mirroring scaling results from other contexts, we found that brain prediction performance scales log-linearly with model size from 125M to 30B parameter models, with ~15% increased encoding performance as measured by correlation with a held-out test set across 3 subjects. Similar log-linear behavior was observed when scaling the size of the fMRI training set. We also characterized scaling for acoustic encoding models that use HuBERT, WavLM, and Whisper, and we found comparable improvements with model size. A noise ceiling analysis of these large, high-performance encoding models 
     
-[^87]: 通过人机协作解决自然语言处理难题：一种基于讨论的方法
+[^88]: 通过人机协作解决自然语言处理难题：一种基于讨论的方法
 
     Solving NLP Problems through Human-System Collaboration: A Discussion-based Approach. (arXiv:2305.11789v1 [cs.CL])
 
@@ -1317,7 +1332,7 @@
 
     Humans work together to solve common problems by having discussions, explaining, and agreeing or disagreeing with each other. Similarly, if a system can have discussions with humans when solving tasks, it can improve the system's performance and reliability. In previous research on explainability, it has only been possible for the system to make predictions and for humans to ask questions about them rather than having a mutual exchange of opinions. This research aims to create a dataset and computational framework for systems that discuss and refine their predictions through dialogue. Through experiments, we show that the proposed system can have beneficial discussions with humans improving the accuracy by up to 25 points in the natural language inference task.
     
-[^88]: 融合归因重要性以提高忠实度评估的方法
+[^89]: 融合归因重要性以提高忠实度评估的方法
 
     Incorporating Attribution Importance for Improving Faithfulness Metrics. (arXiv:2305.10496v1 [cs.CL])
 
@@ -1331,7 +1346,7 @@
 
     Feature attribution methods (FAs) are popular approaches for providing insights into the model reasoning process of making predictions. The more faithful a FA is, the more accurately it reflects which parts of the input are more important for the prediction. Widely used faithfulness metrics, such as sufficiency and comprehensiveness use a hard erasure criterion, i.e. entirely removing or retaining the top most important tokens ranked by a given FA and observing the changes in predictive likelihood. However, this hard criterion ignores the importance of each individual token, treating them all equally for computing sufficiency and comprehensiveness. In this paper, we propose a simple yet effective soft erasure criterion. Instead of entirely removing or retaining tokens from the input, we randomly mask parts of the token vector representations proportionately to their FA importance. Extensive experiments across various natural language processing tasks and different FAs show that our sof
     
-[^89]: 基于知识增强的生成预训练模型在中国医学执业医师资格考试上的应用研究
+[^90]: 基于知识增强的生成预训练模型在中国医学执业医师资格考试上的应用研究
 
     Qualifying Chinese Medical Licensing Examination with Knowledge Enhanced Generative Pre-training Model. (arXiv:2305.10163v1 [cs.CL])
 
@@ -1345,7 +1360,7 @@
 
     Generative Pre-Training (GPT) models like ChatGPT have demonstrated exceptional performance in various Natural Language Processing (NLP) tasks. Although ChatGPT has been integrated into the overall workflow to boost efficiency in many domains, the lack of flexibility in the finetuning process hinders its applications in areas that demand extensive domain expertise and semantic knowledge, such as healthcare. In this paper, we evaluate ChatGPT on the China National Medical Licensing Examination (CNMLE) and propose a novel approach to improve ChatGPT from two perspectives: integrating medical domain knowledge and enabling few-shot learning. By using a simple but effective retrieval method, medical background knowledge is extracted as semantic instructions to guide the inference of ChatGPT. Similarly, relevant medical questions are identified and fed as demonstrations to ChatGPT. Experimental results show that directly applying ChatGPT fails to qualify the CNMLE at a score of 51 (i.e., onl
     
-[^90]: 主动的连续学习：在任务序列中标记查询。
+[^91]: 主动的连续学习：在任务序列中标记查询。
 
     Active Continual Learning: Labelling Queries in a Sequence of Tasks. (arXiv:2305.03923v1 [cs.LG])
 
@@ -1359,7 +1374,7 @@
 
     Acquiring new knowledge without forgetting what has been learned in a sequence of tasks is the central focus of continual learning (CL). While tasks arrive sequentially, the training data are often prepared and annotated independently, leading to CL of incoming supervised learning tasks. This paper considers the under-explored problem of active continual learning (ACL) for a sequence of active learning (AL) tasks, where each incoming task includes a pool of unlabelled data and an annotation budget. We investigate the effectiveness and interplay between several AL and CL algorithms in the domain, class and task-incremental scenarios. Our experiments reveal the trade-off between two contrasting goals of not forgetting the old knowledge and the ability to quickly learn in CL and AL. While conditioning the query strategy on the annotations collected for the previous tasks leads to improved task performance on the domain and task incremental learning, our proposed forgetting-learning profil
     
-[^91]: 使用抽象意义表示减少翻译语言的特征
+[^92]: 使用抽象意义表示减少翻译语言的特征
 
     Translationese Reduction using Abstract Meaning Representation. (arXiv:2304.11501v1 [cs.CL])
 
@@ -1373,7 +1388,7 @@
 
     Translated texts or utterances bear several hallmarks distinct from texts originating in the language. This phenomenon, known as translationese, is well-documented, and when found in training or test sets can affect model performance. Still, work to mitigate the effect of translationese in human translated text is understudied. We hypothesize that Abstract Meaning Representation (AMR), a semantic representation which abstracts away from the surface form, can be used as an interlingua to reduce the amount of translationese in translated texts. By parsing English translations into an AMR graph and then generating text from that AMR, we obtain texts that more closely resemble non-translationese by macro-level measures. We show that across four metrics, and qualitatively, using AMR as an interlingua enables the reduction of translationese and we compare our results to two additional approaches: one based on round-trip machine translation and one based on syntactically controlled generation
     
-[^92]: 新闻和负荷：基于自然语言处理的用于预测次日电力系统需求的量化探索
+[^93]: 新闻和负荷：基于自然语言处理的用于预测次日电力系统需求的量化探索
 
     News and Load: A Quantitative Exploration of Natural Language Processing Applications for Forecasting Day-ahead Electricity System Demand. (arXiv:2301.07535v2 [cs.CL] UPDATED)
 
@@ -1387,7 +1402,7 @@
 
     The relationship between electricity demand and weather is well established in power systems, along with the importance of behavioral and social aspects such as holidays and significant events. This study explores the link between electricity demand and more nuanced information about social events. This is done using mature Natural Language Processing (NLP) and demand forecasting techniques. The results indicate that day-ahead forecasts are improved by textual features such as word frequencies, public sentiments, topic distributions, and word embeddings. The social events contained in these features include global pandemics, politics, international conflicts, transportation, etc. Causality effects and correlations are discussed to propose explanations for the mechanisms behind the links highlighted. This study is believed to bring a new perspective to traditional electricity demand analysis. It confirms the feasibility of improving forecasts from unstructured text, with potential conse
     
-[^93]: 多模态分子结构-文本模型用于基于文本的检索和编辑
+[^94]: 多模态分子结构-文本模型用于基于文本的检索和编辑
 
     Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing. (arXiv:2212.10789v3 [cs.LG] UPDATED)
 
@@ -1401,7 +1416,7 @@
 
     There is increasing adoption of artificial intelligence in drug discovery. However, existing studies use machine learning to mainly utilize the chemical structures of molecules but ignore the vast textual knowledge available in chemistry. Incorporating textual knowledge enables us to realize new drug design objectives, adapt to text-based instructions and predict complex biological activities. Here we present a multi-modal molecule structure-text model, MoleculeSTM, by jointly learning molecules' chemical structures and textual descriptions via a contrastive learning strategy. To train MoleculeSTM, we construct a large multi-modal dataset, namely, PubChemSTM, with over 280,000 chemical structure-text pairs. To demonstrate the effectiveness and utility of MoleculeSTM, we design two challenging zero-shot tasks based on text instructions, including structure-text retrieval and molecule editing. MoleculeSTM has two main properties: open vocabulary and compositionality via natural language.
     
-[^94]: 定位 vs. 语义：单模态和多模态模型中的视觉表示
+[^95]: 定位 vs. 语义：单模态和多模态模型中的视觉表示
 
     Localization vs. Semantics: Visual Representations in Unimodal and Multimodal Models. (arXiv:2212.00281v2 [cs.CV] UPDATED)
 
