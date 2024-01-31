@@ -1,0 +1,11 @@
+{
+    "title": "Nested Construction of Polar Codes via Transformers",
+    "abstract": "Tailoring polar code construction for decoding algorithms beyond successive cancellation has remained a topic of significant interest in the field. However, despite the inherent nested structure of polar codes, the use of sequence models in polar code construction is understudied. In this work, we propose using a sequence modeling framework to iteratively construct a polar code for any given length and rate under various channel conditions. Simulations show that polar codes designed via sequential modeling using transformers outperform both 5G-NR sequence and Density Evolution based approaches for both AWGN and Rayleigh fading channels.",
+    "link": "https://arxiv.org/abs/2401.17188",
+    "context": "Title: Nested Construction of Polar Codes via Transformers\nAbstract: Tailoring polar code construction for decoding algorithms beyond successive cancellation has remained a topic of significant interest in the field. However, despite the inherent nested structure of polar codes, the use of sequence models in polar code construction is understudied. In this work, we propose using a sequence modeling framework to iteratively construct a polar code for any given length and rate under various channel conditions. Simulations show that polar codes designed via sequential modeling using transformers outperform both 5G-NR sequence and Density Evolution based approaches for both AWGN and Rayleigh fading channels.",
+    "path": "papers/24/01/2401.17188.json",
+    "total_tokens": 684,
+    "translated_title": "通过Transformer嵌套构建极化码",
+    "translated_abstract": "在解码算法超越逐次取消的情况下，个性化极化码构建一直是一个备受关注的课题。然而，尽管极化码具有固有的嵌套结构，但在极化码构建中使用序列模型的研究还不充分。在这项工作中，我们提出使用序列建模框架来迭代地构造任何给定长度和速率下的极化码，适用于不同的信道条件。仿真结果表明，使用Transformer进行顺序建模设计的极化码，在AWGN和Rayleigh衰落信道下表现优于5G-NR序列和密度演化方法。",
+    "tldr": "本文通过使用Transformer进行序列建模，提出了一种嵌套构建极化码的方法。仿真结果显示，这种方法在不同信道条件下都优于传统方法，并充分发挥了极化码固有的嵌套结构特性。"
+}

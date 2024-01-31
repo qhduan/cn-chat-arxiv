@@ -1,0 +1,12 @@
+{
+    "title": "NormEnsembleXAI: Unveiling the Strengths and Weaknesses of XAI Ensemble Techniques",
+    "abstract": "This paper presents a comprehensive comparative analysis of explainable artificial intelligence (XAI) ensembling methods. Our research brings three significant contributions. Firstly, we introduce a novel ensembling method, NormEnsembleXAI, that leverages minimum, maximum, and average functions in conjunction with normalization techniques to enhance interpretability. Secondly, we offer insights into the strengths and weaknesses of XAI ensemble methods. Lastly, we provide a library, facilitating the practical implementation of XAI ensembling, thus promoting the adoption of transparent and interpretable deep learning models.",
+    "link": "https://arxiv.org/abs/2401.17200",
+    "context": "Title: NormEnsembleXAI: Unveiling the Strengths and Weaknesses of XAI Ensemble Techniques\nAbstract: This paper presents a comprehensive comparative analysis of explainable artificial intelligence (XAI) ensembling methods. Our research brings three significant contributions. Firstly, we introduce a novel ensembling method, NormEnsembleXAI, that leverages minimum, maximum, and average functions in conjunction with normalization techniques to enhance interpretability. Secondly, we offer insights into the strengths and weaknesses of XAI ensemble methods. Lastly, we provide a library, facilitating the practical implementation of XAI ensembling, thus promoting the adoption of transparent and interpretable deep learning models.",
+    "path": "papers/24/01/2401.17200.json",
+    "total_tokens": 743,
+    "translated_title": "NormEnsembleXAI: 揭示XAI集成技术的优势和弱点",
+    "translated_abstract": "本文介绍了可解释人工智能（XAI）集成方法的全面比较分析。我们的研究做出了三个重要贡献。首先，我们引入了一种新颖的集成方法，NormEnsembleXAI，它利用最小、最大和平均函数与标准化技术相结合，提高了可解释性。其次，我们对XAI集成方法的优势和弱点进行了深入洞察。最后，我们提供了一个库，促进了XAI集成的实际实现，推动透明可解释的深度学习模型的采用。",
+    "tldr": "本文介绍了NormEnsembleXAI，一种新颖的XAI集成方法，通过最小、最大和平均函数与标准化技术相结合，增强了可解释性，并对XAI集成方法的优势和弱点进行了深入研究。此外，还提供了一个库，方便实现透明可解释的深度学习模型。",
+    "en_tdlr": "This paper presents NormEnsembleXAI, a novel XAI ensemble method that enhances interpretability by combining minimum, maximum, and average functions with normalization techniques. It offers insights into the strengths and weaknesses of XAI ensemble methods and provides a library for implementing transparent and interpretable deep learning models."
+}
