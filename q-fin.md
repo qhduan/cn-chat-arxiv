@@ -2,139 +2,136 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robust Functional Data Analysis for Stochastic Evolution Equations in Infinite Dimensions.](http://arxiv.org/abs/2401.16286) | 本文提出了一种在无限维度中解决随机演化方程的稳健函数数据分析方法，通过考虑横截面和时间结构的相互作用，有效地测量了协变量的变化，具有可辨识性和收敛速度，并能揭示与协变量的缩放极限一致。 |
-| [^2] | [Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions.](http://arxiv.org/abs/2401.16030) | 研究使用扩展CDM模型和无条件分位数回归方法，发现绿色创新对非重度污染企业的生产力影响有限，而在高污染和制造业领域，绿色创新和非绿色创新对生产力的提升效果相当。 |
-| [^3] | [Analytic Pricing of SOFR Futures Contracts with Smile and Skew.](http://arxiv.org/abs/2401.15728) | 该论文研究了SOFR期货合约的分析定价问题，结合了Hull-White模型的扩展以及期权市场上观察到的偏斜和笑曲线。 |
-| [^4] | [A Mean Field Game Approach to Relative Investment-Consumption Games with Habit Formation.](http://arxiv.org/abs/2401.15659) | 本文通过研究竞争代理人在有限时间内使用指数或幂函数效用的优化投资-消费问题，将来自所有同行的习惯形成和财富的平均值作为基准。我们推导了n个代理人博弈问题和相应的均值场博弈问题的形式，并通过得到的均值场博弈问题解得到闭式解。当n足够大时，我们构建了一个近似纳什均衡，并获得了每个问题的收敛顺序。此外，我们还提供了一些数值实例来验证结果。 |
-| [^5] | [Estimation of domain truncation error for a system of PDEs arising in option pricing.](http://arxiv.org/abs/2401.15570) | 本文研究了一个涉及期权定价的多维抛物型偏微分方程系统，在对域进行截断并施加人工边界数据的过程中给出了更精确的域截断误差估计，通过数值例子的比较验证了改进的估计效果显著。 |
-| [^6] | [The McCormick martingale optimal transport.](http://arxiv.org/abs/2401.15552) | 本研究通过引入资产因果约束，提出了麦科密克松最佳传输模型（McCormick MOT），通过麦科密克松松弛来缓解计算上的挑战，并且实证结果表明其能够缩小价格界限，取得了显著的降低。 |
-| [^7] | [Public Good Provision and Compensating Variation.](http://arxiv.org/abs/2401.15493) | 本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。 |
-| [^8] | [Fast and General Simulation of L\'evy-driven OU processes for Energy Derivatives.](http://arxiv.org/abs/2401.15483) | 本文介绍了一种用于快速和通用模拟L\'evy驱动OU过程的新技术，通过数值反演特征函数和利用FFT算法，能够快速而准确地模拟这些过程，为能源领域的广泛应用提供了可靠的基础。 |
+| [^1] | [Partially Law-Invariant Risk Measures.](http://arxiv.org/abs/2401.17265) | 这篇论文介绍了部分律法不变性的概念，通过刻画部分律法不变的一致风险度量的表示公式，将决策理论和金融风险管理的文献联系起来，提出了新的风险度量，并在模型不确定性下的风险评估中展示了其应用。 |
+| [^2] | [Determinants of well-being.](http://arxiv.org/abs/2401.17047) | 欧洲社会政策传统上关注物质福利和社会公正，但忽视了主观指标。综述研究表明，政治制度和机构对幸福感有显著影响，建议将主观指标纳入公共政策决策中，并提倡采用更全面的幸福感测量方法。 |
+| [^3] | [Sparse Portfolio Selection via Topological Data Analysis based Clustering.](http://arxiv.org/abs/2401.16920) | 本文使用拓扑数据分析工具提出了一种基于聚类的稀疏投资组合选择策略，通过利用股票价格波动的拓扑特征，在持续图和景观空间上引入新的距离度量，并与聚类算法相结合，显著提升了多样市场情景下稀疏投资组合的绩效。 |
+| [^4] | [AI Oversight and Human Mistakes: Evidence from Centre Court.](http://arxiv.org/abs/2401.16754) | 人工智能系统在纠正人类错误方面起到了积极作用，但此举也潜在导致心理成本，并影响人的决策。通过研究网球比赛中的Hawk-Eye审查系统，我们发现引入AI监督后，裁判员的错误率下降，心理成本导致他们更倾向于将球判为进界，从而产生了类型错判的转变。 |
+| [^5] | [Enhancing Urban Traffic Safety: An Evaluation on Taipei's Neighborhood Traffic Environment Improvement Program.](http://arxiv.org/abs/2401.16752) | 该研究评估了台北的社区交通环境改善计划，发现该计划通过绘制绿色人行道等方式成功减少了白天交通事故和受伤人数。 |
+| [^6] | [Improving Business Insurance Loss Models by Leveraging InsurTech Innovation.](http://arxiv.org/abs/2401.16723) | 本文利用InsurTech创新结合实际保险索赔信息和InsurTech数据，提出了一种改进保险损失模型的方法，并量化了该方法相对于传统模型的预测改进效果。 |
+| [^7] | [Credit Risk Meets Large Language Models: Building a Risk Indicator from Loan Descriptions in P2P Lending.](http://arxiv.org/abs/2401.16458) | 本文研究了如何利用P2P借贷平台上借款人提供的文本描述来构建风险指标。结果显示，利用大型语言模型生成的风险评分可以明显提高信用风险分类器的性能。 |
+| [^8] | [The Carbon Premium: Correlation or Causation? Evidence from S&P 500 Companies.](http://arxiv.org/abs/2401.16455) | 在S&P500指数上列出的141家公司中，我们研究了公司的排放是否与碳溢价存在因果关系，并发现确实存在这种关系。 |
 | [^9] | [FDR-Controlled Portfolio Optimization for Sparse Financial Index Tracking.](http://arxiv.org/abs/2401.15139) | 本论文提出了一种扩展的T-Rex框架，用于在稀疏金融指数跟踪中选择少数相关变量，并通过集成最近邻惩罚机制，可靠控制误发现率（FDR）。实验证明了该方法在过去20年内基于少量股票准确跟踪标准普尔500指数的能力。 |
-| [^10] | [Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition.](http://arxiv.org/abs/2401.15108) | 本文提出了一个多智能体深度强化学习的方法，应用于快速充电电动车中心的动态定价竞争。通过预测性购买电力需求和设定竞争性价格策略，充电站可以在竞争中进行有效定价。 |
-| [^11] | [Cash non-additive risk measures: horizon risk and generalized entropy.](http://arxiv.org/abs/2401.14443) | 该论文研究了在现金非可加风险度量背景下的时间跨度风险，并引入了一种基于广义Tsallis熵的风险度量，可以动态评估损失的风险性和利率不确定性。这项研究对于量化资本需求有着重要意义。 |
-| [^12] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
-| [^13] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
-| [^14] | [An Implied CO$_2$-Price and its relation to the Social Cost of Carbon.](http://arxiv.org/abs/2312.13448) | 研究提出了一种隐含的CO2价格概念，该价格涵盖了由气候变化引起的成本，与社会碳成本不同。使用经典DICE模型的数值分析显示，成本隐含的CO2价格约为500 \$/tCO2，而与社会碳成本相关的价格约为50 \$/tCO2。 |
-| [^15] | [Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference.](http://arxiv.org/abs/2311.16570) | 本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。 |
-| [^16] | [No-Arbitrage Deep Calibration for Volatility Smile and Skewness.](http://arxiv.org/abs/2310.16703) | 本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。 |
-| [^17] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
-| [^18] | [A Novel Difference Equation Approach for the Stability and Robustness of Compact Schemes for Variable Coefficient PDEs.](http://arxiv.org/abs/2209.02873) | 本文提出了一种新的差分方程方法，用于研究变系数偏微分方程的稳定性和鲁棒性。通过导出稳定性条件并提供数值验证，论文证明了紧致格式在特定情况下的无条件稳定性。 |
-| [^19] | [Matrix method stability and robustness of compact schemes for parabolic PDEs.](http://arxiv.org/abs/2201.05854) | 本研究通过矩阵方法研究了紧致格式在对抛物型偏微分方程进行空间离散时的稳定性和鲁棒性，并推导出了相关矩阵条件数的上界。结论表明条件数阶数为 $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$，其中 $\delta v$ 和 $\delta z$ 分别为时间和空间步长。 |
+| [^10] | [Provisions and Economic Capital for Credit Losses.](http://arxiv.org/abs/2401.07728) | 基于超模性排序特性，该论文证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和信用-市场协方差是非递减的，这对于计算信用拨备、经济资本、压力测试和风险管理分析非常有帮助。 |
+| [^11] | [Generative AI enhances individual creativity but reduces the collective diversity of novel content.](http://arxiv.org/abs/2312.00506) | 生成AI增强了个体创造力，但降低了新内容的集体多样性。 |
+| [^12] | [Perceptions and Detection of AI Use in Manuscript Preparation for Academic Journals.](http://arxiv.org/abs/2311.14720) | 该研究调查了学术界对于在稿件准备中使用AI是否有必要进行披露的观点，并研究了检测器对于学术写作中使用AI的反应。 |
+| [^13] | [Shifting Cryptocurrency Influence: A High-Resolution Network Analysis of Market Leaders.](http://arxiv.org/abs/2307.16874) | 这项研究利用高分辨率网络分析了加密货币市场的变化趋势，发现每日数据聚合会导致信息损失，而Pearson相关性也存在局限性。研究结果显示，比特币在初期占据领导地位，但在2021年牛市中，格局发生了巨大变化。 |
+| [^14] | [Electricity price forecasting with Smoothing Quantile Regression Averaging: Quantifying economic benefits of probabilistic forecasts.](http://arxiv.org/abs/2302.00411) | 本文介绍了一种名为平滑分位数回归平均（SQR Averaging）的新方法，用于准确预测复杂电力市场的电力价格，通过评估可靠性和锐度指标表明其性能优于现有的基准方法，并引入了一种评估方案来量化预测所带来的经济效益。 |
+| [^15] | [Quality of Life and the Experience of Context.](http://arxiv.org/abs/2210.03639) | 提出了通过在感觉和知觉层面体验生活质量来比较不同文化的方法，强调个体感知环境积极因素的能力和实现有价值的行为和状态的意义，并通过眼睛感知不同频率和频率混合物的例子证明了这种体验的客观性。 |
+| [^16] | [Explicit approximations of option prices via Malliavin calculus in a general stochastic volatility framework.](http://arxiv.org/abs/2006.01542) | 该论文通过应用Malliavin微积分的技术，在一般随机波动率模型中得到了欧式看跌期权价格的显式逼近公式，并通过展开过程计算出了误差形式的显式表示和有意义的界限。 |
 
 # 详细
 
-[^1]: 无限维度中随机演化方程的稳健函数数据分析
+[^1]: 部分律法不变风险度量
 
-    Robust Functional Data Analysis for Stochastic Evolution Equations in Infinite Dimensions. (arXiv:2401.16286v1 [stat.ME])
+    Partially Law-Invariant Risk Measures. (arXiv:2401.17265v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2401.16286](http://arxiv.org/abs/2401.16286)
+    [http://arxiv.org/abs/2401.17265](http://arxiv.org/abs/2401.17265)
 
-    本文提出了一种在无限维度中解决随机演化方程的稳健函数数据分析方法，通过考虑横截面和时间结构的相互作用，有效地测量了协变量的变化，具有可辨识性和收敛速度，并能揭示与协变量的缩放极限一致。
-
-    
-
-    本文针对Hilbert空间中的随机演化方程，使用函数数据分析技术来稳健地测量协变量的变化。对于这样的方程，基于横截面协方差的标准技术经常无法识别出统计上相关的随机驱动因素和检测异常值，因为它们忽略了横截面和时间结构之间的相互作用。因此，我们开发了一种估计理论，用于估计方程的潜在随机驱动因素的连续二次协变量，而不是可观察解过程的静态协方差。我们在弱条件下得到了可辨识性的结果，建立了基于装满渐近性的收敛速度和中心极限定理，并提供了长时间渐近性的估计结果，以估计潜在驱动因素的静态协变量。应用于利率结构数据，我们的方法揭示了与协变量的缩放极限的根本一致性。
-
-    This article addresses the robust measurement of covariations in the context of solutions to stochastic evolution equations in Hilbert spaces using functional data analysis. For such equations, standard techniques for functional data based on cross-sectional covariances are often inadequate for identifying statistically relevant random drivers and detecting outliers since they overlook the interplay between cross-sectional and temporal structures. Therefore, we develop an estimation theory for the continuous quadratic covariation of the latent random driver of the equation instead of a static covariance of the observable solution process. We derive identifiability results under weak conditions, establish rates of convergence and a central limit theorem based on infill asymptotics, and provide long-time asymptotics for estimation of a static covariation of the latent driver. Applied to term structure data, our approach uncovers a fundamental alignment with scaling limits of covariations
-    
-[^2]: 绿色创新是否排挤了企业的其他创新？基于扩展的CDM模型和无条件分位数回归的研究
-
-    Does green innovation crowd out other innovation of firms? Based on the extended CDM model and unconditional quantile regressions. (arXiv:2401.16030v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.16030](http://arxiv.org/abs/2401.16030)
-
-    研究使用扩展CDM模型和无条件分位数回归方法，发现绿色创新对非重度污染企业的生产力影响有限，而在高污染和制造业领域，绿色创新和非绿色创新对生产力的提升效果相当。
+    这篇论文介绍了部分律法不变性的概念，通过刻画部分律法不变的一致风险度量的表示公式，将决策理论和金融风险管理的文献联系起来，提出了新的风险度量，并在模型不确定性下的风险评估中展示了其应用。
 
     
 
-    在可持续发展时代，企业面临着如何投资于绿色创新以及绿色创新对其经济轨迹的影响的决策。本研究采用Crepon、Duguet和Mairesse（CDM）框架，通过利用每个阶段的预测因变量来消除不可观察因素，检验了研发资金转化为专利以及其对生产力的影响。本研究在扩展经典CDM模型的基础上，对比了绿色创新和非绿色创新的经济效应。结果显示，非绿色专利主导着生产力的提升，而绿色专利对非重度污染企业的影响有限。然而，在高污染和制造业领域，两种创新类型同样增强了生产力。通过无条件分位数回归，我发现绿色创新的生产力影响呈现出一个反U形状，而非绿色创新则呈现出一个U形状。值得注意的是，在第50到80个分位数之间，
+    我们引入了部分律法不变性的概念，推广了统计和金融应用中广泛使用的律法不变风险度量的概念。这个新概念是由决策理论和金融风险管理的实际考虑所激发的，从而连接了决策理论和金融风险管理的文献。我们通过一种新颖的表示公式充分地刻画了部分律法不变的一致风险度量，这个表示公式与律法不变的一致风险度量的经典公式几乎没有相似之处。我们引入了强部分律法不变性的概念，从而可以得到与经典公式类似的表示公式。我们提出了几类新的风险度量，包括预期损失和熵风险度量的部分律法不变版本，并且展示了它们在模型不确定性下的风险评估应用。
 
-    In the era of sustainability, firms grapple with the decision of how much to invest in green innovation and how it influences their economic trajectory. This study employs the Crepon, Duguet, and Mairesse (CDM) framework to examine the conversion of R&D funds into patents and their impact on productivity, effectively addressing endogeneity by utilizing predicted dependent variables at each stage to exclude unobservable factors. Extending the classical CDM model, this study contrasts green and non-green innovations' economic effects. The results show non-green patents predominantly drive productivity gains, while green patents have a limited impact in non-heavy polluting firms. However, in high-pollution and manufacturing sectors, both innovation types equally enhance productivity. Using unconditional quantile regression, I found green innovation's productivity impact follows an inverse U-shape, unlike the U-shaped pattern of non-green innovation. Significantly, in the 50th to 80th prod
+    We introduce the concept of partial law invariance, generalizing the concept of law-invariant risk measures widely used in statistical and financial applications. This new concept is motivated by practical considerations of decision-making under uncertainty, thus connecting the literature on decision theory and that on financial risk management. We fully characterize partially law-invariant coherent risk measures via a novel representation formula, which, surprisingly, has little resemblance to the classical formula for law-invariant coherent risk measures. A notion of strong partial law invariance is introduced, allowing for a representation formula akin to the classical one. We propose a few classes of new risk measures, including partially law-invariant versions of the Expected Shortfall and the entropic risk measures, and illustrate their applications in risk assessment under model uncertainty.
     
-[^3]: 分析定价带有偏斜和笑曲线的SOFR期货合约
+[^2]: 幸福感的决定因素
 
-    Analytic Pricing of SOFR Futures Contracts with Smile and Skew. (arXiv:2401.15728v1 [q-fin.MF])
+    Determinants of well-being. (arXiv:2401.17047v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.15728](http://arxiv.org/abs/2401.15728)
+    [http://arxiv.org/abs/2401.17047](http://arxiv.org/abs/2401.17047)
 
-    该论文研究了SOFR期货合约的分析定价问题，结合了Hull-White模型的扩展以及期权市场上观察到的偏斜和笑曲线。
-
-    
-
-    我们寻求一种分析定价公式，用于在Hull-White模型的扩展下对SOFR期货合约进行定价，该模型不仅包含Mercurio [2018]捕捉到的内在凸度调整，还包括Turfs和Romero-Berm\'udez [2023]所观察到的期权市场的偏斜和笑曲线。
-
-    We seek an analytic pricing formula for SOFR futures contracts under an extension of the Hull-White model which incorporates not only the intrinsic convexity adjustments captured by Mercurio [2018], but also the skew and smile observed in options markets as done in Turfus and Romero-Berm\'udez [2023].
-    
-[^4]: 基于均值场博弈的相对投资-消费游戏与习惯形成问题研究
-
-    A Mean Field Game Approach to Relative Investment-Consumption Games with Habit Formation. (arXiv:2401.15659v1 [math.OC])
-
-    [http://arxiv.org/abs/2401.15659](http://arxiv.org/abs/2401.15659)
-
-    本文通过研究竞争代理人在有限时间内使用指数或幂函数效用的优化投资-消费问题，将来自所有同行的习惯形成和财富的平均值作为基准。我们推导了n个代理人博弈问题和相应的均值场博弈问题的形式，并通过得到的均值场博弈问题解得到闭式解。当n足够大时，我们构建了一个近似纳什均衡，并获得了每个问题的收敛顺序。此外，我们还提供了一些数值实例来验证结果。
+    欧洲社会政策传统上关注物质福利和社会公正，但忽视了主观指标。综述研究表明，政治制度和机构对幸福感有显著影响，建议将主观指标纳入公共政策决策中，并提倡采用更全面的幸福感测量方法。
 
     
 
-    本文研究了一个在有限时间内，竞争代理人使用指数或幂函数效用的优化投资-消费问题。每个代理人将来自所有同行的习惯形成和财富的平均值作为评估她决策表现的基准。我们分别基于这两种效用形式得到了n个代理人博弈问题和相应的均值场博弈问题的形式。在每个问题中，通过这些均值场均衡可以得到一个闭式解，当n足够大的时候，我们还构建了一个近似纳什均衡。此外，我们还进行了一些数值实例分析来验证我们的结果。
+    传统上，欧洲社会政策注重物质福利和社会公正，忽视了主观指标。本综述系统地考察了幸福感的科学理解、指标以及与治理的关系。研究表明，政治制度和机构对幸福感有重要影响，并且主观指标应纳入公共政策决策中。研究结果倡导采用更全面的幸福感测量方法，包括客观和主观维度。
 
-    This paper studies an optimal investment-consumption problem for competitive agents with exponential or power utilities and a common finite time horizon. Each agent regards the average of habit formation and wealth from all peers as benchmarks to evaluate the performance of her decision. We formulate the n-agent game problems and the corresponding mean field game problems under the two utilities. One mean field equilibrium is derived in a closed form in each problem. In each problem with n agents, an approximate Nash equilibrium is then constructed using the obtained mean field equilibrium when n is sufficiently large. The explicit convergence order in each problem can also be obtained. In addition, we provide some numerical illustrations of our results.
+    Traditionally, European social policies have focused on material well-being and social justice, neglecting subjective indicators. This review systematically examines the scientific understanding of well-being, its indicators, and its relationship with governance. It suggests that political systems and institutions significantly impact well-being, and that subjective indicators should be incorporated into public policy decisions. The findings advocate for a more holistic approach to well-being measurement, encompassing both objective and subjective dimensions.
     
-[^5]: 期权定价中一类二维偏微分方程系统中域截断误差的估计
+[^3]: 通过基于拓扑数据分析的聚类实现稀疏投资组合选择
 
-    Estimation of domain truncation error for a system of PDEs arising in option pricing. (arXiv:2401.15570v1 [q-fin.CP])
+    Sparse Portfolio Selection via Topological Data Analysis based Clustering. (arXiv:2401.16920v1 [q-fin.PM])
 
-    [http://arxiv.org/abs/2401.15570](http://arxiv.org/abs/2401.15570)
+    [http://arxiv.org/abs/2401.16920](http://arxiv.org/abs/2401.16920)
 
-    本文研究了一个涉及期权定价的多维抛物型偏微分方程系统，在对域进行截断并施加人工边界数据的过程中给出了更精确的域截断误差估计，通过数值例子的比较验证了改进的估计效果显著。
-
-    
-
-    本文详细研究了在一个制度切换市场模型下涉及欧式期权定价的多维抛物型偏微分方程系统。为了对其进行数值求解，必须对域进行截断并施加人工边界数据。通过对截断域中所有点的域截断误差进行估计，我们扩展了现有文献中仅考虑恒定制度情况下的期权定价方程的一些结果。我们采用了一种与现有方法不同的方法来获得误差估计，在域的某个区域内具有更高的精度。因此，我们提出的误差估计和现有方法之间的最小值得到了严格更精确的估计。通过考虑一些数值例子，我们进行了与现有文献的全面比较。这些例子证实了误差估计的改进是显著的。
-
-    In this paper, a multidimensional system of parabolic partial differential equations arising in European option pricing under a regime-switching market model is studied in details. For solving that numerically, one must truncate the domain and impose an artificial boundary data. By deriving an estimate of the domain truncation error at all the points in the truncated domain, we extend some results in the literature those deal with option pricing equation under constant regime case only. We differ from the existing approach to obtain the error estimate that is sharper in certain region of the domain. Hence, the minimum of proposed and existing gives a strictly sharper estimate. A comprehensive comparison with the existing literature is carried out by considering some numerical examples. Those examples confirm that the improvement in the error estimates is significant.
-    
-[^6]: McCormick马丁格尔最佳传输
-
-    The McCormick martingale optimal transport. (arXiv:2401.15552v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2401.15552](http://arxiv.org/abs/2401.15552)
-
-    本研究通过引入资产因果约束，提出了麦科密克松最佳传输模型（McCormick MOT），通过麦科密克松松弛来缓解计算上的挑战，并且实证结果表明其能够缩小价格界限，取得了显著的降低。
+    本文使用拓扑数据分析工具提出了一种基于聚类的稀疏投资组合选择策略，通过利用股票价格波动的拓扑特征，在持续图和景观空间上引入新的距离度量，并与聚类算法相结合，显著提升了多样市场情景下稀疏投资组合的绩效。
 
     
 
-    马丁格尔最佳传输（MOT）通常为期权提供广泛的价格界限，限制了它们的实际适用性。在本研究中，我们通过引入资产之间的因果约束，扩展了MOT，灵感来自随机过程的非预期性条件。然而，这引入了一个计算上具有挑战性的双线性规划。为了解决这个问题，我们提出了麦科密克松松弛来缓解双因果形式，并将其称为麦科密克松MOT。在标准假设下，建立了麦科密克松MOT的原始实现和强对偶性。实证结果显示，麦科密克松MOT能够缩小价格界限，平均降低了1％或4％。改善程度取决于期权的回报和相关香草期权的流动性。
+    本文使用拓扑数据分析工具，引入了一种针对稀疏投资组合构建的数据驱动聚类型股票选择策略。我们的资产选择策略利用股票价格波动的拓扑特征，选择一组拓扑类似（不同）的资产用于稀疏指数追踪（马科维茨）投资组合。我们引入了在持续图和景观空间上考虑时间成分的新距离度量，作为聚类算法的输入。我们对2009年至2020年的S\&P指数进行了实证分析，包括对COVID-19数据的研究，以验证我们方法的稳健性。我们将拓扑数据分析与聚类算法相结合的策略显著提升了不同市场情景下稀疏投资组合的综合绩效。
 
-    Martingale optimal transport (MOT) often yields broad price bounds for options, constraining their practical applicability. In this study, we extend MOT by incorporating causality constraints among assets, inspired by the nonanticipativity condition of stochastic processes. However, this introduces a computationally challenging bilinear program. To tackle this issue, we propose McCormick relaxations to ease the bicausal formulation and refer to it as McCormick MOT. The primal attainment and strong duality of McCormick MOT are established under standard assumptions. Empirically, McCormick MOT demonstrates the capability to narrow price bounds, achieving an average reduction of 1% or 4%. The degree of improvement depends on the payoffs of the options and the liquidity of the relevant vanilla options.
+    This paper uses topological data analysis (TDA) tools and introduces a data-driven clustering-based stock selection strategy tailored for sparse portfolio construction. Our asset selection strategy exploits the topological features of stock price movements to select a subset of topologically similar (different) assets for a sparse index tracking (Markowitz) portfolio. We introduce new distance measures, which serve as an input to the clustering algorithm, on the space of persistence diagrams and landscapes that consider the time component of a time series. We conduct an empirical analysis on the S\&P index from 2009 to 2020, including a study on the COVID-19 data to validate the robustness of our methodology. Our strategy to integrate TDA with the clustering algorithm significantly enhanced the performance of sparse portfolios across various performance measures in diverse market scenarios.
     
-[^7]: 公共产品供给与补偿变动
+[^4]: AI监督和人类错误：来自中心法庭的证据
 
-    Public Good Provision and Compensating Variation. (arXiv:2401.15493v1 [econ.GN])
+    AI Oversight and Human Mistakes: Evidence from Centre Court. (arXiv:2401.16754v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.15493](http://arxiv.org/abs/2401.15493)
+    [http://arxiv.org/abs/2401.16754](http://arxiv.org/abs/2401.16754)
 
-    本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式，并且提出了一个偏好参数的单一充分统计量。
-
-    
-
-    政府提供公共产品会产生重大成本，但是对公共产品的支付意愿并不直接可观测。本研究在给定均衡效用的情况下，找到了一种关于收入和两个偏好参数的公共产品供给变化的精确闭合式补偿变动（CV）表达式。我们证明了我们的CV表达式只有在底层函数在私人产品中是齐次的，并且在公共产品中也是分别齐次的情况下才能产生。然后，我们找到了一个偏好参数的单一充分统计量，并展示了如何在实证应用中恢复这一充分统计量。所有结果都适用于公共产品的边际和非边际变化。
-
-    Public good provision by governments incurs significant costs but the willingness to pay for public goods is not directly observable. This study finds an exact closed-form compensating variation (CV) expression for a change in public good provision as a function of income and two preference parameters given homothetic utility. We prove that our CV expression arises if and only if the underlying function is homogeneous in the private goods and separately homogeneous in the public good(s). Then, we find a single sufficient statistic for the preference parameters and show how this sufficient statistic can be recovered in empirical applications. All results hold for marginal and non-marginal changes in public goods.
-    
-[^8]: 快速和通用的L\'evy驱动OU过程的能源衍生品模拟
-
-    Fast and General Simulation of L\'evy-driven OU processes for Energy Derivatives. (arXiv:2401.15483v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2401.15483](http://arxiv.org/abs/2401.15483)
-
-    本文介绍了一种用于快速和通用模拟L\'evy驱动OU过程的新技术，通过数值反演特征函数和利用FFT算法，能够快速而准确地模拟这些过程，为能源领域的广泛应用提供了可靠的基础。
+    人工智能系统在纠正人类错误方面起到了积极作用，但此举也潜在导致心理成本，并影响人的决策。通过研究网球比赛中的Hawk-Eye审查系统，我们发现引入AI监督后，裁判员的错误率下降，心理成本导致他们更倾向于将球判为进界，从而产生了类型错判的转变。
 
     
 
-    L\'evy驱动的Ornstein-Uhlenbeck (OU)过程是一类引人注目的随机过程，在能源领域引起了关注，因为它们能够捕捉市场动态的典型特征。然而，在当前的技术水平下，对这些过程进行蒙特卡罗模拟并不简单，主要有两个原因：一是现有的算法仅针对该类别中的某些特定过程；二是它们通常计算量大。在本文中，我们引入了一种新的模拟技术，旨在解决这两个挑战。它依赖于特征函数的数值反演，提供了一种适用于所有L\'evy驱动OU过程的通用方法。此外，利用FFT，所提出的方法确保快速而准确的模拟，为在能源领域广泛采用这些过程提供了坚实的基础。最后，该算法允许对数值误差进行最优控制。
+    在机器学习算法不断提升的驱动下，人工智能（AI）系统已经开始在许多场合用于纠正人类错误。我们提供了首个实地证据，证明这种AI监督会产生心理成本，影响人的决策。我们调查了AI监督发生的最高可见性场景之一：顶级网球比赛中裁判的Hawk-Eye审查。我们发现，引入Hawk-Eye审查后，裁判的整体错误率降低，符合心理成本被AI否定的合理忽视现象。我们还发现，裁判增加了对球入内的判定率，从而产生了从II类错误（将球判为出界，实际上是进界）到I类错误（将球判为进界，实际上是出界）的转变。通过对理性不注意的裁判模型进行心理成本的结构估计，我们的结果表明，由于AI否定的心理成本，裁判员降低了错误判定的风险并提高了球入内的判定率。
 
-    L\'evy-driven Ornstein-Uhlenbeck (OU) processes represent an intriguing class of stochastic processes that have garnered interest in the energy sector for their ability to capture typical features of market dynamics. However, in the current state-of-the-art, Monte Carlo simulations of these processes are not straightforward for two main reasons: i) algorithms are available only for some particular processes within this class; ii) they are often computationally expensive. In this paper, we introduce a new simulation technique designed to address both challenges. It relies on the numerical inversion of the characteristic function, offering a general methodology applicable to all L\'evy-driven OU processes. Moreover, leveraging FFT, the proposed methodology ensures fast and accurate simulations, providing a solid basis for the widespread adoption of these processes in the energy sector. Lastly, the algorithm allows an optimal control of the numerical error. We apply the technique to the p
+    Powered by the increasing predictive capabilities of machine learning algorithms, artificial intelligence (AI) systems have begun to be used to overrule human mistakes in many settings. We provide the first field evidence this AI oversight carries psychological costs that can impact human decision-making. We investigate one of the highest visibility settings in which AI oversight has occurred: the Hawk-Eye review of umpires in top tennis tournaments. We find that umpires lowered their overall mistake rate after the introduction of Hawk-Eye review, in line with rational inattention given psychological costs of being overruled by AI. We also find that umpires increased the rate at which they called balls in, which produced a shift from making Type II errors (calling a ball out when in) to Type I errors (calling a ball in when out). We structurally estimate the psychological costs of being overruled by AI using a model of rational inattentive umpires, and our results suggest that because 
+    
+[^5]: 增强城市交通安全：对台北社区交通环境改善计划的评估
+
+    Enhancing Urban Traffic Safety: An Evaluation on Taipei's Neighborhood Traffic Environment Improvement Program. (arXiv:2401.16752v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.16752](http://arxiv.org/abs/2401.16752)
+
+    该研究评估了台北的社区交通环境改善计划，发现该计划通过绘制绿色人行道等方式成功减少了白天交通事故和受伤人数。
+
+    
+
+    在人口稠密的城市地区，行人、车辆和摩托车之间的互动频繁且复杂，交通安全是一个关键问题。本文评估了台北的社区交通环境改善计划，该计划包括绘制绿色人行道、调整禁止停车的红/黄线以及在车道和小巷上绘制限速和停止/慢行标志。利用政策实施的阶段性推出和行政交通事故数据，我们发现该计划将白天交通事故减少了5%，受伤人数减少了8%，而对夜间事故没有显著影响。白天计划的有效性主要归功于绘制的绿色人行道，充足的阳光也对计划的成功起到一定作用。我们的研究结果表明，像绿色人行道这样的成本效益高的策略在人口稠密和摩托车流量大的地区是有效的。
+
+    In densely populated urban areas, where interactions between pedestrians, vehicles, and motorcycles are frequent and complex, traffic safety is a critical concern. This paper evaluates the Neighborhood Traffic Environment Improvement Program in Taipei, which involved painting green pedestrian paths, adjusting no-parking red/yellow lines, and painting speed limit and stop/slow signs on lanes and alleys. Exploiting staggered rollout of policy implementation and administrative traffic accident data, we found that the program reduced daytime traffic accidents by 5 percent and injuries by 8 percent, while having no significant impact on nighttime incidents. The effectiveness of the program during the day is mainly attributed to the painted green sidewalks, with adequate sunlight playing a part in the program's success. Our findings indicate that cost-effective strategies like green pedestrian lanes can be effective in areas with dense populations and high motorcycle traffic, as they improve
+    
+[^6]: 利用InsurTech创新改进商业保险损失模型
+
+    Improving Business Insurance Loss Models by Leveraging InsurTech Innovation. (arXiv:2401.16723v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2401.16723](http://arxiv.org/abs/2401.16723)
+
+    本文利用InsurTech创新结合实际保险索赔信息和InsurTech数据，提出了一种改进保险损失模型的方法，并量化了该方法相对于传统模型的预测改进效果。
+
+    
+
+    近年来，在保险行业出现了一系列变革性和颠覆性的进展，其中包括各种InsurTech创新。特别是在数据科学和计算能力的快速发展下，InsurTech能够整合多种新兴数据源，为增强风险分类和理赔管理提供新的机会。本文提出了一个突破性的工作，将真实的专有保险索赔信息与InsurTech数据结合起来，以增强保险公司风险管理的基本组成部分——损失模型。研究进一步利用各种机器学习技术量化InsurTech增强损失模型相对于保险内部模型的预测改进。量化过程提供了对InsurTech创新价值的更深入的理解，并为传统保险损失模型中未开发的潜在风险因素提供了支持。这项研究代表了一项成功的工作。
+
+    Recent transformative and disruptive advancements in the insurance industry have embraced various InsurTech innovations. In particular, with the rapid progress in data science and computational capabilities, InsurTech is able to integrate a multitude of emerging data sources, shedding light on opportunities to enhance risk classification and claims management. This paper presents a groundbreaking effort as we combine real-life proprietary insurance claims information together with InsurTech data to enhance the loss model, a fundamental component of insurance companies' risk management. Our study further utilizes various machine learning techniques to quantify the predictive improvement of the InsurTech-enhanced loss model over that of the insurance in-house. The quantification process provides a deeper understanding of the value of the InsurTech innovation and advocates potential risk factors that are unexplored in traditional insurance loss modeling. This study represents a successful
+    
+[^7]: 信用风险与大型语言模型相结合：从P2P借贷的贷款描述中构建风险指标。
+
+    Credit Risk Meets Large Language Models: Building a Risk Indicator from Loan Descriptions in P2P Lending. (arXiv:2401.16458v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2401.16458](http://arxiv.org/abs/2401.16458)
+
+    本文研究了如何利用P2P借贷平台上借款人提供的文本描述来构建风险指标。结果显示，利用大型语言模型生成的风险评分可以明显提高信用风险分类器的性能。
+
+    
+
+    P2P借贷作为一种独特的融资机制，通过在线平台将借款人与放款人联系起来。然而，P2P借贷面临信息不对称的挑战，因为放款人往往缺乏足够的数据来评估借款人的信用价值。本文提出了一种新颖的方法来解决这个问题，即利用借款人在贷款申请过程中提供的文本描述。我们的方法涉及使用大型语言模型（LLM）处理这些文本描述，LLM是一种能够识别文本中的模式和语义的强大工具。将迁移学习应用于将LLM适应特定任务。我们从Lending Club数据集的分析结果显示，BERT生成的风险评分显著提高了信用风险分类器的性能。然而，基于LLM的系统固有的不透明性，以及潜在偏差的不确定性，限制了其应用。
+
+    Peer-to-peer (P2P) lending has emerged as a distinctive financing mechanism, linking borrowers with lenders through online platforms. However, P2P lending faces the challenge of information asymmetry, as lenders often lack sufficient data to assess the creditworthiness of borrowers. This paper proposes a novel approach to address this issue by leveraging the textual descriptions provided by borrowers during the loan application process. Our methodology involves processing these textual descriptions using a Large Language Model (LLM), a powerful tool capable of discerning patterns and semantics within the text. Transfer learning is applied to adapt the LLM to the specific task at hand.  Our results derived from the analysis of the Lending Club dataset show that the risk score generated by BERT, a widely used LLM, significantly improves the performance of credit risk classifiers. However, the inherent opacity of LLM-based systems, coupled with uncertainties about potential biases, unders
+    
+[^8]: 碳溢价：相关性还是因果关系？来自S&P 500公司的证据。
+
+    The Carbon Premium: Correlation or Causation? Evidence from S&P 500 Companies. (arXiv:2401.16455v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2401.16455](http://arxiv.org/abs/2401.16455)
+
+    在S&P500指数上列出的141家公司中，我们研究了公司的排放是否与碳溢价存在因果关系，并发现确实存在这种关系。
+
+    
+
+    在投资者是否意识到碳相关风险的背景下，通常有一种假设认为，公司股票的价值中可能存在一个碳溢价，以对投资者通过持有碳密集型股票而承担的转型风险暴露进行补偿。然而，关于是否存在这样一种溢价，学术界尚未达成一致意见。此外，很少有研究考察到通常被观察到的相关性是否真正具有因果关系。关键问题是：排放更多的公司是否提供较高的回报，还是回报较高的公司是否缺乏减缓碳排放的动力？在本研究中，我们使用固定效应分析和倾向评分加权，研究了在S&P500指数上列出的141家公司的排放是否与碳溢价的存在有因果关联，并控制了因公司选择增加排放而产生的选择偏差。我们发现存在一种
+
+    In the context of whether investors are aware of carbon-related risks, it is often hypothesized that there may be a carbon premium in the value of stocks of firms, conferring an abnormal excess value to firms' shares as a form of compensation to investors for their transition risk exposure through the ownership of carbon instensive stocks. However, there is little consensus in the literature regarding the existence of such a premium. Moreover few studies have examined whether the correlation that is often observed is actually causal. The pertinent question is whether more polluting firms give higher returns or do firms with high returns have less incentive to decarbonize? In this study, we investigate whether firms' emissions is causally linked to the presence of a carbon premium in a panel of 141 firms listed in the S\&P500 index using fixed-effects analysis, with propensity score weighting to control for selection bias in which firms increase their emissions. We find that there is a 
     
 [^9]: FDR控制的稀疏金融指数跟踪投资组合优化
 
@@ -150,144 +147,102 @@
 
     In high-dimensional data analysis, such as financial index tracking or biomedical applications, it is crucial to select the few relevant variables while maintaining control over the false discovery rate (FDR). In these applications, strong dependencies often exist among the variables (e.g., stock returns), which can undermine the FDR control property of existing methods like the model-X knockoff method or the T-Rex selector. To address this issue, we have expanded the T-Rex framework to accommodate overlapping groups of highly correlated variables. This is achieved by integrating a nearest neighbors penalization mechanism into the framework, which provably controls the FDR at the user-defined target level. A real-world example of sparse index tracking demonstrates the proposed method's ability to accurately track the S&P 500 index over the past 20 years based on a small number of stocks. An open-source implementation is provided within the R package TRexSelector on CRAN.
     
-[^10]: 多智能体深度强化学习在竞争中为快速充电电动车中心的动态定价中的应用
+[^10]: 信用损失的条款和经济资本
 
-    Multi-agent Deep Reinforcement Learning for Dynamic Pricing by Fast-charging Electric Vehicle Hubs in ccompetition. (arXiv:2401.15108v1 [cs.LG])
+    Provisions and Economic Capital for Credit Losses. (arXiv:2401.07728v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2401.15108](http://arxiv.org/abs/2401.15108)
+    [http://arxiv.org/abs/2401.07728](http://arxiv.org/abs/2401.07728)
 
-    本文提出了一个多智能体深度强化学习的方法，应用于快速充电电动车中心的动态定价竞争。通过预测性购买电力需求和设定竞争性价格策略，充电站可以在竞争中进行有效定价。
-
-    
-
-    快速充电站将成为全球新建交通电气化基础设施的一部分。这些充电站将承载许多直流快速充电设备，仅可供电动车辆充电使用。类似于汽油加油站，同一地区的快速充电站将根据竞争调整价格以吸引同一群电动车主。这些充电站将与电力网络进行交互，通过预测性购买在前一天电力市场上的电力需求，并在实时市场上满足差额需求。充电站可能配备补充电池储能系统用于套利。本文针对充电站竞争中开发了一个两步数据驱动的动态定价方法。首先通过求解随机的前一天电力需求模型得到纳入承诺，然后通过将游戏建模为竞争来得到充电站的价格策略。
-
-    Fast-charging hubs for electric vehicles will soon become part of the newly built infrastructure for transportation electrification across the world. These hubs are expected to host many DC fast-charging stations and will admit EVs only for charging. Like the gasoline refueling stations, fast-charging hubs in a neighborhood will dynamically vary their prices to compete for the same pool of EV owners. These hubs will interact with the electric power network by making purchase commitments for a significant part of their power needs in the day-ahead (DA) electricity market and meeting the difference from the real-time (RT) market. Hubs may have supplemental battery storage systems (BSS), which they will use for arbitrage. In this paper, we develop a two-step data-driven dynamic pricing methodology for hubs in price competition. We first obtain the DA commitment by solving a stochastic DA commitment model. Thereafter we obtain the hub pricing strategies by modeling the game as a competitiv
-    
-[^11]: 现金非可加风险度量：时间跨度风险和广义熵
-
-    Cash non-additive risk measures: horizon risk and generalized entropy. (arXiv:2401.14443v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2401.14443](http://arxiv.org/abs/2401.14443)
-
-    该论文研究了在现金非可加风险度量背景下的时间跨度风险，并引入了一种基于广义Tsallis熵的风险度量，可以动态评估损失的风险性和利率不确定性。这项研究对于量化资本需求有着重要意义。
+    基于超模性排序特性，该论文证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和信用-市场协方差是非递减的，这对于计算信用拨备、经济资本、压力测试和风险管理分析非常有帮助。
 
     
 
-    在由BSDEs引起的现金非可加完全动态风险度量的背景下，研究了时间跨度风险。此外，我们引入了一种基于广义Tsallis熵的风险度量，可以动态评估考虑时间跨度风险和利率不确定性的损失的风险性。损失的新的q-熵风险度量可用作资本需求的量化。
+    基于超模性排序特性，我们证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和错误风险设置下的信用-市场协方差是非递减的。这些结果支持使用这样的设置来计算信用拨备和经济资本，进行压力测试和风险管理分析。
 
-    Horizon risk (see arXiv:2301.04971) is studied in the context of cash non-additive fully-dynamic risk measures induced by BSDEs. Furthermore, we introduce a risk measure based on generalized Tsallis entropy which can dynamically evaluate the riskiness of losses considering both horizon risk and interest rate uncertainty. The new q-entropic risk measure on losses can be used as a quantification of capital requirement.
+    Based on supermodularity ordering properties, we show that convex risk measures of credit losses are nondecreasing w.r.t. credit-credit and, in a wrong-way risk setup, credit-market, covariances of elliptically distributed latent factors. These results support the use of such setups for computing credit provisions and economic capital or for conducting stress test exercises and risk management analysis.
     
-[^12]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
+[^11]: 生成AI增强了个体创造力，但降低了新内容的集体多样性
 
-    Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600). (arXiv:2401.14435v1 [econ.GN])
+    Generative AI enhances individual creativity but reduces the collective diversity of novel content. (arXiv:2312.00506v2 [cs.HC] UPDATED)
 
-    [http://arxiv.org/abs/2401.14435](http://arxiv.org/abs/2401.14435)
+    [http://arxiv.org/abs/2312.00506](http://arxiv.org/abs/2312.00506)
 
-    该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。
-
-    
-
-    我们研究伊斯兰法律制度对中东与拉丁欧洲之间比较经济衰退的影响，这可以从中世纪后期开始观察。为此，我们探讨了伊斯兰法律的神圣化以及其对伊斯兰教法的崇高、神圣和不可改变的法律文本的关注，这在13世纪达到顶峰，对经济发展产生了影响。我们使用145个伊斯兰国家的城市人口和648个欧洲城市的数据作为经济发展水平的代理，并构建了关于法学院（madaris）数量的新估计，并估计它们对前工业时期经济发展的贡献。我们的三重差分估计结果表明，在伊斯兰法律神圣化之前，法学院的高密度与更加充满活力的城市经济和更高的城市增长相关。在13世纪伊斯兰教法神圣化巩固之后，更高密度的法学院不再对城市发展产生显著影响。
-
-    We examine the impact of Islamic legal institutions to the comparative economic decline of the Middle East behind Latin Europe, which can be observed since the late Middle Ages. To this end, we explore whether the sacralization of Islamic law and its focus on the Sharia as supreme, sacred and unchangeable legal text, which reached its culmination in the 13th century had an impact on economic development. We use the population size of 145 cities in Islamic countries and 648 European cities for the period 800-1800 as proxies for the level of economic development, and construct novel estimates of the number of law schools (i.e. madaris) and estimate their contribution to the pre-industrial economic development. Our triple-differences estimates show that a higher density of madrasas before the sacralization of Islamic law predicts a more vibrant urban economy characterized by higher urban growth. After the consolidation of the sharia sacralization of law in the 13th century, greater densit
-    
-[^13]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
-
-    Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment. (arXiv:2401.11100v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.11100](http://arxiv.org/abs/2401.11100)
-
-    Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。
+    生成AI增强了个体创造力，但降低了新内容的集体多样性。
 
     
 
-    Summan、Nandi和Bloom（2023；SNB）发现，晚期八十年代印度婴儿接受印度通用免疫计划（UIP）的暴露使其早期成年时的周薪增加了0.138个对数点，人均家庭消费增加了0.028个点。但这些结果是通过回归年龄和出生年份这两个变量得出的，而这两个变量构造时几乎是共线的。因此，这些结果可以归因于一年调查期间的趋势，如通货膨胀。随机化实验表明，当真实影响为零时，SNB估计器的平均值为0.088个点（工资）和0.039个点（消费）。
+    创造力是人类的核心。生成人工智能（GenAI），包括越来越强大的大型语言模型（LLM），通过提供新的想法使人类更具创造力，或通过锚定于GenAI的想法而变得不那么创造性。本研究通过在线实验研究探究了GenAI想法对一篇短篇小说创作的因果影响，其中一些作者可以从GenAI平台获取故事创意。我们发现，获取GenAI想法导致故事被评为更有创造力、写得更好和更令人愉悦，特别是在创造力较低的作者中。然而，GenAI启用的故事之间更相似，而不是仅由人类创作的故事。这些结果表明，个体创造力增加的同时，集体新颖性可能会减少。这种动态类似于社会困境：通过GenAI，个别作家能受益，但可能会产生更窄范围的新内容。我们的结果对研究人员、决策者有重要影响。
 
-    Summan, Nandi, and Bloom (2023; SNB) finds that exposure of babies to India's Universal Immunization Programme (UIP) in the late 1980s increased their weekly wages in early adulthood by 0.138 log points and per-capita household consumption 0.028 points. But the results are attained by regressing on age, in years, while controlling for year of birth--two variables that, as constructed, are nearly collinear. The results are therefore attributable to trends during the one-year survey period, such as inflation. A randomization exercise shows that when the true impacts are zero, the SNB estimator averages 0.088 points for wages and 0.039 points for consumption.
+    Creativity is core to being human. Generative artificial intelligence (GenAI) -- including ever more powerful large language models (LLMs) -- holds promise for humans to be more creative by offering new ideas, or less creative by anchoring on GenAI ideas. We study the causal impact of GenAI ideas on the production of a short story in an online experimental study where some writers could obtain story ideas from a GenAI platform. We find that access to GenAI ideas causes stories to be evaluated as more creative, better written, and more enjoyable, especially among less creative writers. However, GenAI-enabled stories are more similar to each other than stories by humans alone. These results point to an increase in individual creativity at the risk of losing collective novelty. This dynamic resembles a social dilemma: with GenAI, individual writers are better off, but collectively a narrower scope of novel content may be produced. Our results have implications for researchers, policy-make
     
-[^14]: 一种隐含的CO$_2$价格及其与社会碳成本的关系
+[^12]: 学术期刊中AI在稿件准备中的应用的感知与检测
 
-    An Implied CO$_2$-Price and its relation to the Social Cost of Carbon. (arXiv:2312.13448v3 [q-fin.MF] UPDATED)
+    Perceptions and Detection of AI Use in Manuscript Preparation for Academic Journals. (arXiv:2311.14720v2 [cs.CY] UPDATED)
 
-    [http://arxiv.org/abs/2312.13448](http://arxiv.org/abs/2312.13448)
+    [http://arxiv.org/abs/2311.14720](http://arxiv.org/abs/2311.14720)
 
-    研究提出了一种隐含的CO2价格概念，该价格涵盖了由气候变化引起的成本，与社会碳成本不同。使用经典DICE模型的数值分析显示，成本隐含的CO2价格约为500 \$/tCO2，而与社会碳成本相关的价格约为50 \$/tCO2。
-
-    
-
-    由于其性质，所谓的社会碳成本（SCC(t)）如果被用作CO$_2$价格，很可能不会覆盖由气候变化引起的成本（损害成本和减排成本）。它只是一个边际价格。我们定义了一个涵盖气候变化引起的成本的隐含CO$_2$价格。该价格可以解释为“污染者付费原则”。使用经典DICE模型进行的数值分析表明，成本隐含的CO$_2$价格约为500 \$/tCO$_2$，而与SCC相关的价格约为50 \$/tCO$_2$。
-
-    By its nature, the so-called social cost of carbon (SCC(t)) will likely not cover the cost induced by climate change (damage cost and abatement cost) if it is used as a CO$_2$-price. It is a marginal price only. We define an implied CO$_2$-price that covers the climate change-induced costs. The price can be interpreted as a \textit{polluter pays principle}. A numerical analysis using a classical DICE model reveals that the cost-implied CO$_2$ price is around 500 \$/tCO$_2$, while the corresponding price associated with the SCC is about 50 \$/tCO$_2$.
-    
-[^15]: 经验金融的认识论限制：因果降解论和自我参照
-
-    Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference. (arXiv:2311.16570v3 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2311.16570](http://arxiv.org/abs/2311.16570)
-
-    本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。
+    该研究调查了学术界对于在稿件准备中使用AI是否有必要进行披露的观点，并研究了检测器对于学术写作中使用AI的反应。
 
     
 
-    在资本市场等自我参照和开放系统中，对于因果降解在研究中的呼声日益高涨。然而，在这样的系统中，单向因果关系的概念在最好的情况下可能是有限制的，在最坏的情况下可能是不稳定或荒谬的。本研究中，我们批判性地评估了在实证金融和计量经济学研究中使用科学演绎和因果推断的做法。然后，我们使用从生态食饵关系中改编的玩具模型来展示竞争性因果链的观点。基于此，我们提出了另一种观点，即当我们承认我们当前的量化金融工具可能在流行假设下仅限于事后因果推断时，我们可能更好地理解实证金融研究及其中所包含的风险。当这些假设受到挑战时，例如在可识别的反身性背景下，单向因果关系的建议就显得非常棘手。
+    大型语言模型（LLMs）的新兴能力使得像ChatGPT和Bard这样的工具成为可能，这既带来了对AI对学术写作的影响的兴奋和担忧。为了应对对AI使用的不断增加的担忧，学术出版物的作者可能决定自愿披露他们在修改稿件时使用的AI工具，期刊和会议也可以开始要求披露和/或使用检测服务，就像许多教师在课堂环境中对学生的写作进行检测一样。鉴于这些逼近的可能性，我们调查了学者们是否认为有必要报告AI在稿件准备中的使用，并研究了检测器对学术写作中使用AI的反应。
 
-    The clarion call for causal reduction in the study of capital markets is intensifying. However, in self-referencing and open systems such as capital markets, the idea of unidirectional causation (if applicable) may be limiting at best, and unstable or fallacious at worst. In this research, we critically assess the use of scientific deduction and causal inference within the study of empirical finance and econometrics. We then demonstrate the idea of competing causal chains using a toy model adapted from ecological predator/prey relationships. From this, we develop the alternative view that the study of empirical finance, and the risks contained therein, may be better appreciated once we admit that our current arsenal of quantitative finance tools may be limited to ex post causal inference under popular assumptions. Where these assumptions are challenged, for example in a recognizable reflexive context, the prescription of unidirectional causation proves deeply problematic.
+    The emergent abilities of Large Language Models (LLMs), which power tools like ChatGPT and Bard, have produced both excitement and worry about how AI will impact academic writing. In response to rising concerns about AI use, authors of academic publications may decide to voluntarily disclose any AI tools they use to revise their manuscripts, and journals and conferences could begin mandating disclosure and/or turn to using detection services, as many teachers have done with student writing in class settings. Given these looming possibilities, we investigate whether academics view it as necessary to report AI use in manuscript preparation and how detectors react to the use of AI in academic writing.
     
-[^16]: 无套利深度标定波动率微笑和偏斜的方法
+[^13]: 加密货币影响力的转变：对市场领导者的高分辨率网络分析
 
-    No-Arbitrage Deep Calibration for Volatility Smile and Skewness. (arXiv:2310.16703v1 [q-fin.CP])
+    Shifting Cryptocurrency Influence: A High-Resolution Network Analysis of Market Leaders. (arXiv:2307.16874v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2310.16703](http://arxiv.org/abs/2310.16703)
+    [http://arxiv.org/abs/2307.16874](http://arxiv.org/abs/2307.16874)
 
-    本研究提出了一种无套利深度标定波动率微笑和偏斜的方法，通过导数约束神经网络(DCNN)生成平滑曲面，并满足无套利条件。
-
-    
-
-    波动率微笑和偏斜是期权价格的两个关键属性，通过隐含波动率曲面表示。然而，由于有限的输入数据、低流动性和噪声等多种因素，通过非线性插值进行波动率曲面标定是一个复杂的问题。此外，标定曲面必须遵守无套利的基本金融原则，这可以通过对期权价格相对于到期时间和行权价格的偏导数的各种微分不等式进行建模。为了应对这些挑战，我们引入了一种称为导数约束神经网络(DCNN)的方法，它是多层感知器(MLP)的改进版本，可以将导数纳入输出函数中。DCNN可以生成平滑的曲面，并通过损失函数中的导数项来增加无套利条件。在数值实验中，我们应用了具有微笑属性的随机波动率模型。
-
-    Volatility smile and skewness are two key properties of option prices that are represented by the implied volatility (IV) surface. However, IV surface calibration through nonlinear interpolation is a complex problem due to several factors, including limited input data, low liquidity, and noise. Additionally, the calibrated surface must obey the fundamental financial principle of the absence of arbitrage, which can be modeled by various differential inequalities over the partial derivatives of the option price with respect to the expiration time and the strike price. To address these challenges, we have introduced a Derivative-Constrained Neural Network (DCNN), which is an enhancement of a multilayer perceptron (MLP) that incorporates derivatives in the output function. DCNN allows us to generate a smooth surface and incorporate the no-arbitrage condition thanks to the derivative terms in the loss function. In numerical experiments, we apply the stochastic volatility model with smile an
-    
-[^17]: 数字产品的增长、地理和贸易影响
-
-    The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.02253](http://arxiv.org/abs/2310.02253)
-
-    本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。
+    这项研究利用高分辨率网络分析了加密货币市场的变化趋势，发现每日数据聚合会导致信息损失，而Pearson相关性也存在局限性。研究结果显示，比特币在初期占据领导地位，但在2021年牛市中，格局发生了巨大变化。
 
     
 
-    尽管全球努力协调国际贸易统计数据，我们对数字产品的贸易及其影响的理解仍然不清楚。在这里，我们通过引入一个新的数字产品出口和进口数据集，研究数字产品贸易的五个关键方面。首先，我们表明与实物商品贸易相比，数字产品出口的起源更加空间集中。其次，我们表明在2016年至2021年之间，数字产品贸易增长速度快于实物贸易，年均增长率为20%，而实物贸易为6%。第三，我们表明数字产品贸易规模足够大，可以在一定程度上抵消一些重要的贸易平衡估计，如美国的实物贸易逆差。第四，我们表明那些将经济增长与温室气体排放分离的国家，在数字产品领域拥有较大且增长更快的出口。最后，我们将数字产品纳入经济复杂性的衡量指标中。
+    在过去的十年中，加密货币市场经历了空前的增长，成为了一个重要的金融市场。随着这个市场的快速发展，有必要重新评估哪些加密货币主导市场并引领区块链技术的方向。我们采用基于网络的加密货币市场分析方法来研究这个不断变化的格局。我们使用新颖的按小时分辨率数据和Kendall's Tau相关性来探索加密货币市场的相互关联性。我们观察到，与从每日数据和Pearson相关性派生的排名相比，我们的方法在加密货币的层次结构中存在重要的差异。这种差异强调了从每日数据聚合中潜在的信息损失，并凸显了Pearson相关性的局限性。我们的研究结果表明，在这一增长的初期，比特币扮演了领导角色。然而，在2021年的牛市中，格局发生了巨大变化。
 
-    Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
+    Over the last decade, the cryptocurrency market has experienced unprecedented growth, emerging as a prominent financial market. As this market rapidly evolves, it necessitates re-evaluating which cryptocurrencies command the market and steer the direction of blockchain technology. We implement a network-based cryptocurrency market analysis to investigate this changing landscape. We use novel hourly-resolution data and Kendall's Tau correlation to explore the interconnectedness of the cryptocurrency market. We observed critical differences in the hierarchy of cryptocurrencies determined by our method compared to rankings derived from daily data and Pearson's correlation. This divergence emphasizes the potential information loss stemming from daily data aggregation and highlights the limitations of Pearson's correlation. Our findings show that in the early stages of this growth, Bitcoin held a leading role. However, during the 2021 bull run, the landscape changed drastically. We see that
     
-[^18]: 一种用于变系数偏微分方程稳定性和鲁棒性的新型差分方程方法
+[^14]: 使用平滑分位数回归平均的电力价格预测：量化概率预测的经济效益
 
-    A Novel Difference Equation Approach for the Stability and Robustness of Compact Schemes for Variable Coefficient PDEs. (arXiv:2209.02873v2 [math.NA] UPDATED)
+    Electricity price forecasting with Smoothing Quantile Regression Averaging: Quantifying economic benefits of probabilistic forecasts. (arXiv:2302.00411v2 [stat.AP] UPDATED)
 
-    [http://arxiv.org/abs/2209.02873](http://arxiv.org/abs/2209.02873)
+    [http://arxiv.org/abs/2302.00411](http://arxiv.org/abs/2302.00411)
 
-    本文提出了一种新的差分方程方法，用于研究变系数偏微分方程的稳定性和鲁棒性。通过导出稳定性条件并提供数值验证，论文证明了紧致格式在特定情况下的无条件稳定性。
-
-    
-
-    本文考虑了变系数对流-扩散方程的四阶精确紧致格式。使用基于差分方程的方法导出了方案稳定性的充分条件。将恒定系数问题视为特例，并在理论上证明了此类情况下紧致格式的无条件稳定性。还分析了放大矩阵的条件数，并导出了相应的估计。为了数值上验证导出的条件，本文在附录中提供了MATLAB代码。通过提供示例来支持确保稳定性的假设。
-
-    Fourth order accurate compact schemes for variable coefficient convection-diffusion equations are considered. A sufficient condition for stability of the schemes have been derived using a difference equation based approach. The constant coefficient problems are considered as a special case, and the unconditional stability of compact schemes for such case is proved theoretically. The condition number of the amplification matrix is also analysed, and an estimate for the same is derived. In order to verify the derived conditions numerically, MATLAB codes are provided in Appendix of the manuscript. An example is provided to support the assumption taken to assure stability.
-    
-[^19]: 基于矩阵方法的紧致格式对抛物型偏微分方程的稳定性和鲁棒性研究
-
-    Matrix method stability and robustness of compact schemes for parabolic PDEs. (arXiv:2201.05854v3 [q-fin.CP] UPDATED)
-
-    [http://arxiv.org/abs/2201.05854](http://arxiv.org/abs/2201.05854)
-
-    本研究通过矩阵方法研究了紧致格式在对抛物型偏微分方程进行空间离散时的稳定性和鲁棒性，并推导出了相关矩阵条件数的上界。结论表明条件数阶数为 $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$，其中 $\delta v$ 和 $\delta z$ 分别为时间和空间步长。
+    本文介绍了一种名为平滑分位数回归平均（SQR Averaging）的新方法，用于准确预测复杂电力市场的电力价格，通过评估可靠性和锐度指标表明其性能优于现有的基准方法，并引入了一种评估方案来量化预测所带来的经济效益。
 
     
 
-    本文考虑了对流扩散方程的全离散问题，其中包括空间离散的紧致逼近和时间离散的Crank-Nicolson方案。应用了三对角Toeplitz矩阵的逆的元素表达式和Gerschgorin圆定理来定位放大矩阵的特征值。得到了相关矩阵条件数的上界，其阶数为 $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$，其中 $\delta v$ 和 $\delta z$ 分别是时间和空间步长。为了补充理论结果，还添加了一些数值示例。
+    在复杂的电力市场中，准确的电力价格预测对战略投标至关重要，影响着日常运营和长期投资。本文介绍了一种名为平滑分位数回归平均（SQR Averaging）的新方法，它改进了概率预测的高性能方案。为了展示其效用，我们在包括COVID-19疫情和俄罗斯对乌克兰的入侵的最新数据基础上，对四个电力市场进行了全面研究。通过可靠性和锐度指标，评估了SQR Averaging的性能，并将其与最先进的基准方法进行了比较。此外，还引入了一种评估方案，用于量化SQR Averaging预测所带来的经济效益。该方案可以应用于任何日前电力市场，并基于一种利用电池储存的交易策略，通过使用选定的预测分布分位数设定限价订单。
 
-    The fully discrete problem for convection-diffusion equation is considered. It comprises compact approximations for spatial discretization, and Crank-Nicolson scheme for temporal discretization. The expressions for the entries of inverse of tridiagonal Toeplitz matrix, and Gerschgorin circle theorem have been applied to locate the eigenvalues of the amplification matrix. An upper bound on the condition number of a relevant matrix is derived. It is shown to be of order $\mathcal{O}\left(\frac{\delta v}{\delta z^2}\right)$, where $\delta v$ and $\delta z$ are time and space step sizes respectively. Some numerical illustrations have been added to complement the theoretical findings.
+    In the world of the complex power market, accurate electricity price forecasting is essential for strategic bidding and affects both daily operations and long-term investments. This article introduce a new method dubbed Smoothing Quantile Regression (SQR) Averaging, that improves on well-performing schemes for probabilistic forecasting. To showcase its utility, a comprehensive study is conducted across four power markets, including recent data encompassing the COVID-19 pandemic and the Russian invasion on Ukraine. The performance of SQR Averaging is evaluated and compared to state-of-the-art benchmark methods in terms of the reliability and sharpness measures. Additionally, an evaluation scheme is introduced to quantify the economic benefits derived from SQR Averaging predictions. This scheme can be applied in any day-ahead electricity market and is based on a trading strategy that leverages battery storage and sets limit orders using selected quantiles of the predictive distribution. 
+    
+[^15]: 生活质量与环境体验
+
+    Quality of Life and the Experience of Context. (arXiv:2210.03639v1 [q-bio.NC] CROSS LISTED)
+
+    [http://arxiv.org/abs/2210.03639](http://arxiv.org/abs/2210.03639)
+
+    提出了通过在感觉和知觉层面体验生活质量来比较不同文化的方法，强调个体感知环境积极因素的能力和实现有价值的行为和状态的意义，并通过眼睛感知不同频率和频率混合物的例子证明了这种体验的客观性。
+
+    
+
+    我提出，尽管不同文化之间存在价值观差异，但可以通过在感觉和知觉层面体验生活质量来进行比较。我认为，评估生活质量的方法应该关注个体通过感知环境中积极因素的组合并实现有价值的行为和状态的能力，比直接关注生活手段和自由手段的度量方法更有意义。因为生活质量的感受体验来自构成环境整体结构的一系列因素，所以无法被视为主观体验。通过以眼睛感知不同频率和频率混合物为颜色的示例，我证明了人类的认知装置由于与环境存在关联而可以产生这种体验。
+
+    I propose that quality of life can be compared despite the difference in values across cultures when it is experienced at the sensory and perceptual level. I argue that an approach to assessing quality of life which focuses on an individual's ability to organize his or her context by perceiving positive constellations of factors in the environment and his or her ability to achieve valuable acts and realize valuable states of being is more meaningful than the approaches of metrics which focus directly, and often solely, on the means of living and the means of freedom. Because the felt experience of quality of life is derived from a constellation of factors which make up the indivisible structure of a milieu, the experience of quality of life cannot be regarded as a subjective experience. Through the example of how different frequencies, and mixtures of frequencies, of light are perceived as colour by the eye, I demonstrate that the human cognitive apparatus, because of its relation to t
+    
+[^16]: 通过Malliavin微积分在一般随机波动率框架中得到期权价格的显式逼近
+
+    Explicit approximations of option prices via Malliavin calculus in a general stochastic volatility framework. (arXiv:2006.01542v4 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2006.01542](http://arxiv.org/abs/2006.01542)
+
+    该论文通过应用Malliavin微积分的技术，在一般随机波动率模型中得到了欧式看跌期权价格的显式逼近公式，并通过展开过程计算出了误差形式的显式表示和有意义的界限。
+
+    
+
+    在具有时间依赖参数的一般随机波动率模型中，我们得到了欧式看跌期权价格的显式逼近公式。我们的方法包括将看跌期权价格写成Black-Scholes公式的期望，对波动率过程进行重新参数化，然后进行一系列的展开。计算由展开过程产生的一系列期望值是主要工作，我们通过应用Malliavin微积分的技术来实现显式计算。我们得到了展开过程产生的误差形式的显式表示，并提供了足够的要素以获得有意义的界限。在假设参数是分段常数的情况下，我们的逼近公式变为闭式形式，而且我们能够建立一种快速的校准方案。此外，我们进行了数值灵敏度分析，以研究我们的逼近公式在所谓的随机波动率模型中的质量。
+
+    We obtain an explicit approximation formula for European put option prices within a general stochastic volatility model with time-dependent parameters. Our methodology involves writing the put option price as an expectation of a Black-Scholes formula, reparameterising the volatility process and then performing a number of expansions. The bulk of the work is due to computing a number of expectations induced by the expansion procedure explicitly, which we achieve by appealing to techniques from Malliavin calculus. We obtain the explicit representation of the form of the error generated by the expansion procedure, and we provide sufficient ingredients in order to obtain a meaningful bound. Under the assumption of piecewise-constant parameters, our approximation formulas become closed-form, and moreover we are able to establish a fast calibration scheme. Furthermore, we perform a numerical sensitivity analysis to investigate the quality of our approximation formula in the so-called Stochas
     
 

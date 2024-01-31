@@ -1,0 +1,12 @@
+{
+    "title": "Fast Dual-Regularized Autoencoder for Sparse Biological Data. (arXiv:2401.16664v1 [cs.LG])",
+    "abstract": "Relationship inference from sparse data is an important task with applications ranging from product recommendation to drug discovery. A recently proposed linear model for sparse matrix completion has demonstrated surprising advantage in speed and accuracy over more sophisticated recommender systems algorithms. Here we extend the linear model to develop a shallow autoencoder for the dual neighborhood-regularized matrix completion problem. We demonstrate the speed and accuracy advantage of our approach over the existing state-of-the-art in predicting drug-target interactions and drug-disease associations.",
+    "link": "http://arxiv.org/abs/2401.16664",
+    "context": "Title: Fast Dual-Regularized Autoencoder for Sparse Biological Data. (arXiv:2401.16664v1 [cs.LG])\nAbstract: Relationship inference from sparse data is an important task with applications ranging from product recommendation to drug discovery. A recently proposed linear model for sparse matrix completion has demonstrated surprising advantage in speed and accuracy over more sophisticated recommender systems algorithms. Here we extend the linear model to develop a shallow autoencoder for the dual neighborhood-regularized matrix completion problem. We demonstrate the speed and accuracy advantage of our approach over the existing state-of-the-art in predicting drug-target interactions and drug-disease associations.",
+    "path": "papers/24/01/2401.16664.json",
+    "total_tokens": 702,
+    "translated_title": "快速双正则自编码器用于稀疏生物数据",
+    "translated_abstract": "从稀疏数据中推断关系是一个重要的任务，应用范围从产品推荐到药物发现。最近提出的稀疏矩阵补全的线性模型在速度和准确性上相对于更复杂的推荐系统算法具有惊人的优势。在这里，我们扩展了线性模型，开发了一个浅层自编码器来解决双邻域正则化矩阵补全问题。我们证明了我们的方法在预测药物靶点相互作用和药物疾病关联方面相对于现有最先进方法的速度和准确性优势。",
+    "tldr": "本文提出了一种快速双正则自编码器用于稀疏生物数据的问题。该方法相对于现有最先进方法在预测药物靶点相互作用和药物疾病关联方面具有速度和准确性的优势。",
+    "en_tdlr": "This paper proposes a fast dual-regularized autoencoder for sparse biological data, which demonstrates speed and accuracy advantages over the existing state-of-the-art in predicting drug-target interactions and drug-disease associations."
+}

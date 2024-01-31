@@ -1,0 +1,12 @@
+{
+    "title": "Prospects for inconsistency detection using large language models and sheaves. (arXiv:2401.16713v1 [cs.CY])",
+    "abstract": "We demonstrate that large language models can produce reasonable numerical ratings of the logical consistency of claims. We also outline a mathematical approach based on sheaf theory for lifting such ratings to hypertexts such as laws, jurisprudence, and social media and evaluating their consistency globally. This approach is a promising avenue to increasing consistency in and of government, as well as to combating mis- and disinformation and related ills.",
+    "link": "http://arxiv.org/abs/2401.16713",
+    "context": "Title: Prospects for inconsistency detection using large language models and sheaves. (arXiv:2401.16713v1 [cs.CY])\nAbstract: We demonstrate that large language models can produce reasonable numerical ratings of the logical consistency of claims. We also outline a mathematical approach based on sheaf theory for lifting such ratings to hypertexts such as laws, jurisprudence, and social media and evaluating their consistency globally. This approach is a promising avenue to increasing consistency in and of government, as well as to combating mis- and disinformation and related ills.",
+    "path": "papers/24/01/2401.16713.json",
+    "total_tokens": 640,
+    "translated_title": "利用大型语言模型和层群理论检测不一致性的前景",
+    "translated_abstract": "我们证明大型语言模型可以对逻辑一致性进行合理的数值评估。我们还概述了一种基于层群理论的数学方法，将这些评估提升到法律、司法和社交媒体等超文本中，并全局评估它们的一致性。这种方法有望增强政府的一致性，以及打击误导信息和相关问题。",
+    "tldr": "利用大型语言模型进行逻辑一致性评估，并采用层群理论方法将其扩展到法律、司法和社交媒体等超文本中进行全局评估，有助于提高政府的一致性并应对误导信息和相关问题。",
+    "en_tdlr": "Large language models can be used to evaluate the logical consistency of claims, and a mathematical approach based on sheaf theory can extend this evaluation to hypermedia such as laws, jurisprudence, and social media for global consistency evaluation, providing prospects for improving government consistency and combating misinformation and related issues."
+}

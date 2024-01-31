@@ -1,0 +1,11 @@
+{
+    "title": "The Detection and Understanding of Fictional Discourse. (arXiv:2401.16678v1 [cs.CL])",
+    "abstract": "In this paper, we present a variety of classification experiments related to the task of fictional discourse detection. We utilize a diverse array of datasets, including contemporary professionally published fiction, historical fiction from the Hathi Trust, fanfiction, stories from Reddit, folk tales, GPT-generated stories, and anglophone world literature. Additionally, we introduce a new feature set of word \"supersenses\" that facilitate the goal of semantic generalization. The detection of fictional discourse can help enrich our knowledge of large cultural heritage archives and assist with the process of understanding the distinctive qualities of fictional storytelling more broadly.",
+    "link": "http://arxiv.org/abs/2401.16678",
+    "context": "Title: The Detection and Understanding of Fictional Discourse. (arXiv:2401.16678v1 [cs.CL])\nAbstract: In this paper, we present a variety of classification experiments related to the task of fictional discourse detection. We utilize a diverse array of datasets, including contemporary professionally published fiction, historical fiction from the Hathi Trust, fanfiction, stories from Reddit, folk tales, GPT-generated stories, and anglophone world literature. Additionally, we introduce a new feature set of word \"supersenses\" that facilitate the goal of semantic generalization. The detection of fictional discourse can help enrich our knowledge of large cultural heritage archives and assist with the process of understanding the distinctive qualities of fictional storytelling more broadly.",
+    "path": "papers/24/01/2401.16678.json",
+    "total_tokens": 716,
+    "translated_title": "虚构话语的检测与理解",
+    "translated_abstract": "本文介绍了与虚构话语检测任务相关的分类实验。我们利用了各种各样的数据集，包括当代专业出版的小说、来自Hathi Trust的历史小说、粉丝所写文、来自Reddit的故事、民间传说、GPT生成的故事以及英语世界文学作品。此外，我们还引入了一组新的“超词义”特征集，以促进语义概括的目标。虚构话语的检测可以帮助丰富我们对大型文化遗产档案的了解，并有助于更广泛地理解虚构叙事的独特特质。",
+    "tldr": "本文介绍了虚构话语检测的分类实验，利用了多样的数据集和新的特征集。虚构话语的检测有助于丰富大型文化遗产档案，并帮助更广泛地理解虚构叙事的特质。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Mitigating Position Bias with Regularization for Recommender Systems. (arXiv:2401.16427v1 [cs.IR])",
+    "abstract": "Fairness is a popular research topic in recent years. A research topic closely related to fairness is bias and debiasing. Among different types of bias problems, position bias is one of the most widely encountered symptoms. Position bias means that recommended items on top of the recommendation list has a higher likelihood to be clicked than items on bottom of the same list. To mitigate this problem, we propose to use regularization technique to reduce the bias effect. In the experiment section, we prove that our method is superior to other modern algorithms.",
+    "link": "http://arxiv.org/abs/2401.16427",
+    "context": "Title: Mitigating Position Bias with Regularization for Recommender Systems. (arXiv:2401.16427v1 [cs.IR])\nAbstract: Fairness is a popular research topic in recent years. A research topic closely related to fairness is bias and debiasing. Among different types of bias problems, position bias is one of the most widely encountered symptoms. Position bias means that recommended items on top of the recommendation list has a higher likelihood to be clicked than items on bottom of the same list. To mitigate this problem, we propose to use regularization technique to reduce the bias effect. In the experiment section, we prove that our method is superior to other modern algorithms.",
+    "path": "papers/24/01/2401.16427.json",
+    "total_tokens": 626,
+    "translated_title": "通过正则化减轻推荐系统中的位置偏差",
+    "translated_abstract": "公正性是近年来的研究热点。与公正性密切相关的研究课题是偏差和去偏差。在不同类型的偏差问题中，位置偏差是最常遇到的一种情况。位置偏差意味着推荐列表顶部的推荐项比相同列表底部的项更可能被点击。为了减轻这个问题，我们提出使用正则化技术减少偏差效应。在实验部分，我们证明我们的方法优于其他现代算法。",
+    "tldr": "本研究提出了通过正则化技术减轻推荐系统中的位置偏差问题，实验证明该方法优于其他现代算法。"
+}

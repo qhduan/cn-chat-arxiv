@@ -1,0 +1,11 @@
+{
+    "title": "Multivariate Beta Mixture Model: Probabilistic Clustering With Flexible Cluster Shapes. (arXiv:2401.16708v1 [cs.LG])",
+    "abstract": "This paper introduces the multivariate beta mixture model (MBMM), a new probabilistic model for soft clustering. MBMM adapts to diverse cluster shapes because of the flexible probability density function of the multivariate beta distribution. We introduce the properties of MBMM, describe the parameter learning procedure, and present the experimental results, showing that MBMM fits diverse cluster shapes on synthetic and real datasets. The code is released anonymously at \\url{https://github.com/hhchen1105/mbmm/}.",
+    "link": "http://arxiv.org/abs/2401.16708",
+    "context": "Title: Multivariate Beta Mixture Model: Probabilistic Clustering With Flexible Cluster Shapes. (arXiv:2401.16708v1 [cs.LG])\nAbstract: This paper introduces the multivariate beta mixture model (MBMM), a new probabilistic model for soft clustering. MBMM adapts to diverse cluster shapes because of the flexible probability density function of the multivariate beta distribution. We introduce the properties of MBMM, describe the parameter learning procedure, and present the experimental results, showing that MBMM fits diverse cluster shapes on synthetic and real datasets. The code is released anonymously at \\url{https://github.com/hhchen1105/mbmm/}.",
+    "path": "papers/24/01/2401.16708.json",
+    "total_tokens": 695,
+    "translated_title": "多元贝塔混合模型：具有灵活聚类形状的概率聚类方法",
+    "translated_abstract": "本文介绍了多元贝塔混合模型（MBMM），这是一种新的概率模型用于软聚类。MBMM通过多元贝塔分布的灵活概率密度函数适应不同的聚类形状。我们介绍了MBMM的属性，描述了参数学习过程，并展示了在合成和真实数据集上适合各种聚类形状的实验结果。代码匿名发布在\\url{https://github.com/hhchen1105/mbmm/}上。",
+    "tldr": "本文提出了一种名为多元贝塔混合模型（MBMM）的新的概率模型，用于软聚类。MBMM通过其灵活的多元贝塔分布的概率密度函数适应不同的聚类形状，并在合成和真实数据集上展示了其适应性。"
+}

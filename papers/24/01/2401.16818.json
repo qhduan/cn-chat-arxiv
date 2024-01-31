@@ -1,0 +1,11 @@
+{
+    "title": "H2O-Danube-1.8B Technical Report. (arXiv:2401.16818v1 [cs.CL])",
+    "abstract": "We present H2O-Danube-1.8B, a 1.8B language model trained on 1T tokens following the core principles of LLama 2 and Mistral. We leverage and refine various techniques for pre-training large language models. Although our model is trained on significantly fewer total tokens compared to reference models of similar size, it exhibits highly competitive metrics across a multitude of benchmarks. We additionally release a chat model trained with supervised fine-tuning followed by direct preference optimization. We make H2O-Danube-1.8B openly available under Apache 2.0 license further democratizing LLMs to a wider audience economically.",
+    "link": "http://arxiv.org/abs/2401.16818",
+    "context": "Title: H2O-Danube-1.8B Technical Report. (arXiv:2401.16818v1 [cs.CL])\nAbstract: We present H2O-Danube-1.8B, a 1.8B language model trained on 1T tokens following the core principles of LLama 2 and Mistral. We leverage and refine various techniques for pre-training large language models. Although our model is trained on significantly fewer total tokens compared to reference models of similar size, it exhibits highly competitive metrics across a multitude of benchmarks. We additionally release a chat model trained with supervised fine-tuning followed by direct preference optimization. We make H2O-Danube-1.8B openly available under Apache 2.0 license further democratizing LLMs to a wider audience economically.",
+    "path": "papers/24/01/2401.16818.json",
+    "total_tokens": 796,
+    "translated_title": "H2O-Danube-1.8B 技术报告",
+    "translated_abstract": "我们介绍了 H2O-Danube-1.8B，这是一个在 1T 个标记上训练的 18 亿语言模型，遵循 LLama 2 和 Mistral 的核心原则。我们利用和改进了各种大规模语言模型预训练的技术。尽管我们的模型训练所使用的总标记数量明显少于相似规模的参考模型，但它在众多基准测试中展现出了高度竞争力的指标。我们还发布了一个经过监督微调和直接偏好优化训练的聊天模型。我们以 Apache 2.0 许可证将 H2O-Danube-1.8B 开放，进一步推动 LLMs 的经济民主化，让更广泛的受众受益。",
+    "tldr": "H2O-Danube-1.8B 是一个在 1T 个标记上训练的 18 亿语言模型，具有高度竞争力的指标。同时，他们还发布了一个经过微调和优化训练的聊天模型，进一步推动语言模型的经济民主化。"
+}

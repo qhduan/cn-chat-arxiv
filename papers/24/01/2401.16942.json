@@ -1,0 +1,11 @@
+{
+    "title": "Robust Price Discrimination. (arXiv:2401.16942v1 [econ.TH])",
+    "abstract": "We consider a model of third-degree price discrimination, in which the seller has a valuation for the product which is unknown to the market designer, who aims to maximize the buyers' surplus by revealing information regarding the buyer's valuation to the seller. Our main result shows that the regret is bounded by $U^*(0)/e$, where $U^*(0)$ is the optimal buyer surplus in the case where the seller has zero valuation for the product. This bound is attained by randomly drawing a seller valuation and applying the segmentation of Bergemann et al. (2015) with respect to the drawn valuation. We show that the $U^*(0)/e$ bound is tight in the case of binary buyer valuation.",
+    "link": "http://arxiv.org/abs/2401.16942",
+    "context": "Title: Robust Price Discrimination. (arXiv:2401.16942v1 [econ.TH])\nAbstract: We consider a model of third-degree price discrimination, in which the seller has a valuation for the product which is unknown to the market designer, who aims to maximize the buyers' surplus by revealing information regarding the buyer's valuation to the seller. Our main result shows that the regret is bounded by $U^*(0)/e$, where $U^*(0)$ is the optimal buyer surplus in the case where the seller has zero valuation for the product. This bound is attained by randomly drawing a seller valuation and applying the segmentation of Bergemann et al. (2015) with respect to the drawn valuation. We show that the $U^*(0)/e$ bound is tight in the case of binary buyer valuation.",
+    "path": "papers/24/01/2401.16942.json",
+    "total_tokens": 750,
+    "translated_title": "鲁棒的价格歧视",
+    "translated_abstract": "我们考虑了一个第三度价格歧视的模型，其中卖方对产品的估值未知于市场设计者，后者通过向卖方透露买方估值的信息来最大化买方剩余。我们的主要结果表明，遗憾度限制为$U^*(0)/e$，其中 $U^*(0)$是在卖方对产品没有估值的情况下的最优买方剩余。该限制通过随机抽取卖方估值并应用Bergemann等人（2015）对于抽取估值的分割方法得到。我们还证明了在二分类买方估值的情况下，$U^*(0)/e$限制是紧密的。",
+    "tldr": "该论文研究了鲁棒的第三度价格歧视模型，在买方估值未知的情况下，通过向卖方透露信息来最大化买方剩余，并得到了关于遗憾度的界限。"
+}

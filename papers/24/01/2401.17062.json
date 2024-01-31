@@ -1,0 +1,12 @@
+{
+    "title": "Outline of an Independent Systematic Blackbox Test for ML-based Systems. (arXiv:2401.17062v1 [cs.LG])",
+    "abstract": "This article proposes a test procedure that can be used to test ML models and ML-based systems independently of the actual training process. In this way, the typical quality statements such as accuracy and precision of these models and system can be verified independently, taking into account their black box character and the immanent stochastic properties of ML models and their training data. The article presents first results from a set of test experiments and suggest extensions to existing test methods reflecting the stochastic nature of ML models and ML-based systems.",
+    "link": "http://arxiv.org/abs/2401.17062",
+    "context": "Title: Outline of an Independent Systematic Blackbox Test for ML-based Systems. (arXiv:2401.17062v1 [cs.LG])\nAbstract: This article proposes a test procedure that can be used to test ML models and ML-based systems independently of the actual training process. In this way, the typical quality statements such as accuracy and precision of these models and system can be verified independently, taking into account their black box character and the immanent stochastic properties of ML models and their training data. The article presents first results from a set of test experiments and suggest extensions to existing test methods reflecting the stochastic nature of ML models and ML-based systems.",
+    "path": "papers/24/01/2401.17062.json",
+    "total_tokens": 635,
+    "translated_title": "一种独立的系统化黑盒测试ML系统的概要",
+    "translated_abstract": "本文提出了一种测试程序，可用于独立于实际训练过程测试ML模型和基于ML的系统。通过考虑其黑盒特性和ML模型及其训练数据的固有随机属性，可以独立验证这些模型和系统的典型质量参数，如准确性和精度。文章介绍了一系列测试实验的初步结果，并提出了扩展现有测试方法以反映ML模型和基于ML的系统的随机特性的建议。",
+    "tldr": "本文提出了一种独立测试ML模型和基于ML的系统的方法，可以独立验证其黑盒特性和随机属性。建议扩展现有测试方法以更好地反映ML系统的特点。",
+    "en_tdlr": "This article proposes a method to independently test ML models and ML-based systems, verifying their black box nature and stochastic properties. It suggests extending existing test methods to better reflect the characteristics of ML systems."
+}

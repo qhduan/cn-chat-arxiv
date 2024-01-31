@@ -1,0 +1,12 @@
+{
+    "title": "Enhanced Sound Event Localization and Detection in Real 360-degree audio-visual soundscapes. (arXiv:2401.17129v1 [cs.SD])",
+    "abstract": "This technical report details our work towards building an enhanced audio-visual sound event localization and detection (SELD) network. We build on top of the audio-only SELDnet23 model and adapt it to be audio-visual by merging both audio and video information prior to the gated recurrent unit (GRU) of the audio-only network. Our model leverages YOLO and DETIC object detectors. We also build a framework that implements audio-visual data augmentation and audio-visual synthetic data generation. We deliver an audio-visual SELDnet system that outperforms the existing audio-visual SELD baseline.",
+    "link": "http://arxiv.org/abs/2401.17129",
+    "context": "Title: Enhanced Sound Event Localization and Detection in Real 360-degree audio-visual soundscapes. (arXiv:2401.17129v1 [cs.SD])\nAbstract: This technical report details our work towards building an enhanced audio-visual sound event localization and detection (SELD) network. We build on top of the audio-only SELDnet23 model and adapt it to be audio-visual by merging both audio and video information prior to the gated recurrent unit (GRU) of the audio-only network. Our model leverages YOLO and DETIC object detectors. We also build a framework that implements audio-visual data augmentation and audio-visual synthetic data generation. We deliver an audio-visual SELDnet system that outperforms the existing audio-visual SELD baseline.",
+    "path": "papers/24/01/2401.17129.json",
+    "total_tokens": 707,
+    "translated_title": "增强的360度实时音频视觉声景音事件定位和检测",
+    "translated_abstract": "这份技术报告详细介绍了我们在构建增强的音频视觉声事件定位和检测（SELD）网络方面的工作。我们在仅音频的SELDnet23模型基础上进行改进，将音频和视频信息在仅音频网络的门控循环单元（GRU）之前合并。我们的模型利用了YOLO和DETIC目标检测器。我们还建立了一个实施音频视觉数据增强和音频视觉合成数据生成的框架。我们提供了一个音频视觉SELDnet系统，其性能优于现有的音频视觉SELD基线。",
+    "tldr": "这份论文介绍了一种增强的音频视觉声事件定位和检测网络，通过合并音频和视频信息提升了系统性能，并利用目标检测器和数据增强技术进一步改进了模型。",
+    "en_tdlr": "This paper presents an enhanced audio-visual sound event localization and detection network that improves system performance by merging audio and video information, as well as utilizing object detectors and data augmentation techniques."
+}

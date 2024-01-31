@@ -1,0 +1,12 @@
+{
+    "title": "Analysis of Knowledge Tracing performance on synthesised student data. (arXiv:2401.16832v1 [cs.CY])",
+    "abstract": "Knowledge Tracing (KT) aims to predict the future performance of students by tracking the development of their knowledge states. Despite all the recent progress made in this field, the application of KT models in education systems is still restricted from the data perspectives: 1) limited access to real life data due to data protection concerns, 2) lack of diversity in public datasets, 3) noises in benchmark datasets such as duplicate records. To resolve these problems, we simulated student data with three statistical strategies based on public datasets and tested their performance on two KT baselines. While we observe only minor performance improvement with additional synthetic data, our work shows that using only synthetic data for training can lead to similar performance as real data.",
+    "link": "http://arxiv.org/abs/2401.16832",
+    "context": "Title: Analysis of Knowledge Tracing performance on synthesised student data. (arXiv:2401.16832v1 [cs.CY])\nAbstract: Knowledge Tracing (KT) aims to predict the future performance of students by tracking the development of their knowledge states. Despite all the recent progress made in this field, the application of KT models in education systems is still restricted from the data perspectives: 1) limited access to real life data due to data protection concerns, 2) lack of diversity in public datasets, 3) noises in benchmark datasets such as duplicate records. To resolve these problems, we simulated student data with three statistical strategies based on public datasets and tested their performance on two KT baselines. While we observe only minor performance improvement with additional synthetic data, our work shows that using only synthetic data for training can lead to similar performance as real data.",
+    "path": "papers/24/01/2401.16832.json",
+    "total_tokens": 730,
+    "translated_title": "对合成学生数据的知识追踪性能分析",
+    "translated_abstract": "知识追踪旨在通过跟踪学生的知识状态的发展来预测他们未来的表现。尽管在这一领域取得了一些进展，但由于数据保护问题，KT模型在教育系统中的应用仍受到数据限制：1）由于数据保护问题，无法获得现实生活数据；2）公共数据集中缺乏多样性；3）基准数据集中存在重复记录的噪音。为解决这些问题，我们使用三种基于公共数据集的统计策略模拟了学生数据，并测试了它们在两个KT基准上的性能。虽然我们观察到额外的合成数据只带来了轻微的性能改进，但我们的研究表明，仅使用合成数据进行训练可以达到与真实数据相似的性能水平。",
+    "tldr": "通过合成数据进行训练可以达到与真实数据相似的知识追踪性能。",
+    "en_tdlr": "Training using synthetic data can achieve similar knowledge tracing performance as real data."
+}

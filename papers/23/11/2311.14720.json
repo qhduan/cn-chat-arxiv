@@ -1,0 +1,12 @@
+{
+    "title": "Perceptions and Detection of AI Use in Manuscript Preparation for Academic Journals. (arXiv:2311.14720v2 [cs.CY] UPDATED)",
+    "abstract": "The emergent abilities of Large Language Models (LLMs), which power tools like ChatGPT and Bard, have produced both excitement and worry about how AI will impact academic writing. In response to rising concerns about AI use, authors of academic publications may decide to voluntarily disclose any AI tools they use to revise their manuscripts, and journals and conferences could begin mandating disclosure and/or turn to using detection services, as many teachers have done with student writing in class settings. Given these looming possibilities, we investigate whether academics view it as necessary to report AI use in manuscript preparation and how detectors react to the use of AI in academic writing.",
+    "link": "http://arxiv.org/abs/2311.14720",
+    "context": "Title: Perceptions and Detection of AI Use in Manuscript Preparation for Academic Journals. (arXiv:2311.14720v2 [cs.CY] UPDATED)\nAbstract: The emergent abilities of Large Language Models (LLMs), which power tools like ChatGPT and Bard, have produced both excitement and worry about how AI will impact academic writing. In response to rising concerns about AI use, authors of academic publications may decide to voluntarily disclose any AI tools they use to revise their manuscripts, and journals and conferences could begin mandating disclosure and/or turn to using detection services, as many teachers have done with student writing in class settings. Given these looming possibilities, we investigate whether academics view it as necessary to report AI use in manuscript preparation and how detectors react to the use of AI in academic writing.",
+    "path": "papers/23/11/2311.14720.json",
+    "total_tokens": 742,
+    "translated_title": "学术期刊中AI在稿件准备中的应用的感知与检测",
+    "translated_abstract": "大型语言模型（LLMs）的新兴能力使得像ChatGPT和Bard这样的工具成为可能，这既带来了对AI对学术写作的影响的兴奋和担忧。为了应对对AI使用的不断增加的担忧，学术出版物的作者可能决定自愿披露他们在修改稿件时使用的AI工具，期刊和会议也可以开始要求披露和/或使用检测服务，就像许多教师在课堂环境中对学生的写作进行检测一样。鉴于这些逼近的可能性，我们调查了学者们是否认为有必要报告AI在稿件准备中的使用，并研究了检测器对学术写作中使用AI的反应。",
+    "tldr": "该研究调查了学术界对于在稿件准备中使用AI是否有必要进行披露的观点，并研究了检测器对于学术写作中使用AI的反应。",
+    "en_tdlr": "This study investigates the perception of the necessity to report the use of AI in manuscript preparation and how detectors react to AI use in academic writing."
+}
