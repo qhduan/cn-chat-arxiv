@@ -12,11 +12,12 @@
 | [^8] | [Coordinating Resource Allocation during Product Transitions Using a Multifollower Bilevel Programming Model](https://arxiv.org/abs/2401.17402) | 本研究使用多层次后继双层规划模型来协调产品转型中的资源分配决策。企业管理层作为领导者，旨在最大化企业的总利润，通过协调多个自治产品部门共享制造和工程资源来开发、生产和销售产品。这项研究强调了资源分配决策在产品转型中的重要性，提供了一个用于协调决策的有效模型。 |
 | [^9] | [Education Policy and Intergenerational Educational Persistence: Evidence from rural Benin](https://arxiv.org/abs/2401.17391) | 通过对贝宁农村的研究发现，教育政策对代际教育持续性的影响得到了证实，尤其是教育补贴和减免学费对受过教育和非受过教育家庭的影响不同。 |
 | [^10] | [Modeling how and why aquatic vegetation removal can free rural households from poverty-disease traps](https://arxiv.org/abs/2401.17384) | 通过清除水生植被栖息地，降低血吸虫感染率，并将植被转化为堆肥，我们的模型表明这种生态干预可以改变人类和自然系统之间的反馈，潜在地使农村家庭摆脱贫困-疾病陷阱。 |
-| [^11] | [Assessing Public Perception of Car Automation in Iran: Acceptance and Willingness to Pay for Adaptive Cruise Control](https://arxiv.org/abs/2401.17329) | 本研究调查了伊朗驾驶员对自适应巡航控制（ACC）的接受度和愿意支付程度。结果显示感知易用性和感知有用性影响对使用ACC的态度，而这些态度进一步影响行为意图。建议针对早期采用者，特别是女性和资本家，以增加ACC在伊朗的采用率。 |
-| [^12] | [Was Javert right to be suspicious? Unpacking treatment effect heterogeneity of alternative sentences on time-to-recidivism in Brazil](https://arxiv.org/abs/2311.13969) | 本文提出了新的计量经济学工具来解析轻罪犯的刑罚对再犯时间的异质效应。研究结果发现，对于绝大多数法官会惩罚的人而言，刑罚会延长再犯时间，而只有严厉的法官才会对再犯率产生影响。 |
-| [^13] | [Ordinal Intensity-Efficient Allocations](https://arxiv.org/abs/2011.04306) | 这篇论文研究了一种新的分配问题，考虑了代理的序数强度，提出了基于排名的准则，定义了强度高效的分配。论文初步讨论了这种分配的存在性和非存在性。 |
-| [^14] | [Enhancing Urban Traffic Safety: An Evaluation on Taipei's Neighborhood Traffic Environment Improvement Program.](http://arxiv.org/abs/2401.16752) | 该研究评估了台北的社区交通环境改善计划，发现该计划通过绘制绿色人行道等方式成功减少了白天交通事故和受伤人数。 |
-| [^15] | [Impermanent Loss Conditions: An Analysis of Decentralized Exchange Platforms.](http://arxiv.org/abs/2401.07689) | 该论文分析了去中心化交易平台上的临时损失问题。研究发现，价格变动不一定导致流动性提供者损失，交易者和套利者支付的费用同样重要。在套利友好的环境下，流动性提供者受益。 |
+| [^11] | [Efficient estimation of parameters in marginals in semiparametric multivariate models](https://arxiv.org/abs/2401.17334) | 我们提出了一种半参数多变量模型中边缘参数的高效估计方法，其中利用Bernstein-Kantorovich多项式协差函数对联合分布的未知部分进行建模，相对于QMLE和错误规范的FMLE有较高的相对效率和鲁棒性。 |
+| [^12] | [Assessing Public Perception of Car Automation in Iran: Acceptance and Willingness to Pay for Adaptive Cruise Control](https://arxiv.org/abs/2401.17329) | 本研究调查了伊朗驾驶员对自适应巡航控制（ACC）的接受度和愿意支付程度。结果显示感知易用性和感知有用性影响对使用ACC的态度，而这些态度进一步影响行为意图。建议针对早期采用者，特别是女性和资本家，以增加ACC在伊朗的采用率。 |
+| [^13] | [Was Javert right to be suspicious? Unpacking treatment effect heterogeneity of alternative sentences on time-to-recidivism in Brazil](https://arxiv.org/abs/2311.13969) | 本文提出了新的计量经济学工具来解析轻罪犯的刑罚对再犯时间的异质效应。研究结果发现，对于绝大多数法官会惩罚的人而言，刑罚会延长再犯时间，而只有严厉的法官才会对再犯率产生影响。 |
+| [^14] | [Ordinal Intensity-Efficient Allocations](https://arxiv.org/abs/2011.04306) | 这篇论文研究了一种新的分配问题，考虑了代理的序数强度，提出了基于排名的准则，定义了强度高效的分配。论文初步讨论了这种分配的存在性和非存在性。 |
+| [^15] | [Enhancing Urban Traffic Safety: An Evaluation on Taipei's Neighborhood Traffic Environment Improvement Program.](http://arxiv.org/abs/2401.16752) | 该研究评估了台北的社区交通环境改善计划，发现该计划通过绘制绿色人行道等方式成功减少了白天交通事故和受伤人数。 |
+| [^16] | [Impermanent Loss Conditions: An Analysis of Decentralized Exchange Platforms.](http://arxiv.org/abs/2401.07689) | 该论文分析了去中心化交易平台上的临时损失问题。研究发现，价格变动不一定导致流动性提供者损失，交易者和套利者支付的费用同样重要。在套利友好的环境下，流动性提供者受益。 |
 
 # 详细
 
@@ -160,7 +161,21 @@
 
     Infectious disease can reduce labor productivity and incomes, trapping subpopulations in a vicious cycle of ill health and poverty. Efforts to boost African farmers' agricultural production through fertilizer use can inadvertently promote the growth of aquatic vegetation that hosts disease vectors. Recent trials established that removing aquatic vegetation habitat for snail intermediate hosts reduces schistosomiasis infection rates in children, while converting the harvested vegetation into compost boosts agricultural productivity and incomes. Our model illustrates how this ecological intervention changes the feedback between the human and natural systems, potentially freeing rural households from poverty-disease traps. We develop a bioeconomic model that interacts an analytical microeconomic model of agricultural households' behavior, health status and incomes over time with a dynamic model of schistosomiasis disease ecology. We calibrate the model with field data from northern Senega
     
-[^11]: 伊朗公众对车辆自动化的认知评估: 自适应巡航控制的接受度和愿意支付程度
+[^11]: 半参数多变量模型中边缘参数的高效估计
+
+    Efficient estimation of parameters in marginals in semiparametric multivariate models
+
+    [https://arxiv.org/abs/2401.17334](https://arxiv.org/abs/2401.17334)
+
+    我们提出了一种半参数多变量模型中边缘参数的高效估计方法，其中利用Bernstein-Kantorovich多项式协差函数对联合分布的未知部分进行建模，相对于QMLE和错误规范的FMLE有较高的相对效率和鲁棒性。
+
+    
+
+    我们考虑一个普适的多变量模型，其中单变量边缘分布已知至参数向量，并且我们的目标是在不指定联合分布的情况下估计该参数向量，除了边缘分布以外。如果我们假设边缘之间是独立的，并最大化由此得到的拟然似然，我们可以得到一致但低效的QMLE估计量。如果我们假设一个参数化的协差函数（而不是独立性），我们可以得到一个完全MLE，这是高效的，但仅在正确的协差函数规范下，如果协差函数规范错误可能会出现偏差。相反，我们提出了一种筛选MLE估计量（SMLE），它在QMLE上有所改进，并且不具备完全MLE的缺点。我们使用Bernstein-Kantorovich多项式协差函数对联合分布的未知部分进行建模，并通过相对效率和鲁棒性来评估相对于QMLE和错误规范的FMLE的改进。我们导出了新估计量的渐近分布并且表明...
+
+    We consider a general multivariate model where univariate marginal distributions are known up to a parameter vector and we are interested in estimating that parameter vector without specifying the joint distribution, except for the marginals. If we assume independence between the marginals and maximize the resulting quasi-likelihood, we obtain a consistent but inefficient QMLE estimator. If we assume a parametric copula (other than independence) we obtain a full MLE, which is efficient but only under a correct copula specification and may be biased if the copula is misspecified. Instead we propose a sieve MLE estimator (SMLE) which improves over QMLE but does not have the drawbacks of full MLE. We model the unknown part of the joint distribution using the Bernstein-Kantorovich polynomial copula and assess the resulting improvement over QMLE and over misspecified FMLE in terms of relative efficiency and robustness. We derive the asymptotic distribution of the new estimator and show that
+    
+[^12]: 伊朗公众对车辆自动化的认知评估: 自适应巡航控制的接受度和愿意支付程度
 
     Assessing Public Perception of Car Automation in Iran: Acceptance and Willingness to Pay for Adaptive Cruise Control
 
@@ -174,7 +189,7 @@
 
     Adaptive cruise control (ACC) is a technology that can reduce fuel consumption and air pollution in the automotive industry. However, its availability in Iran is low compared to industrialized countries. This study examines the acceptance and willingness to pay (WTP) for ACC among Iranian drivers. Data from an online survey of 453 respondents were analyzed using the Technology Acceptance Model (TAM) and an ordered logit model. The results show that perceived ease of use and perceived usefulness affect attitudes toward using ACC, which in turn influence behavioral intentions. The logit model also shows that drivers who find ACC easy and useful, who have higher vehicle prices, and who are women with cruise control (CC) experience are more likely to pay for ACC. To increase the adoption of ACC in Iran, it is suggested to target early adopters, especially women and capitalists, who can influence others with their positive feedback. The benefits of ACC for traffic safety and environmental s
     
-[^12]: 对巴西再犯时间的替代刑罚效果异质性的厘清，雅弗尔特的怀疑是否合理？
+[^13]: 对巴西再犯时间的替代刑罚效果异质性的厘清，雅弗尔特的怀疑是否合理？
 
     Was Javert right to be suspicious? Unpacking treatment effect heterogeneity of alternative sentences on time-to-recidivism in Brazil
 
@@ -188,7 +203,7 @@
 
     This paper presents new econometric tools to unpack the treatment effect heterogeneity of punishing misdemeanor offenses on time-to-recidivism. We show how one can identify, estimate, and make inferences on the distributional, quantile, and average marginal treatment effects in setups where the treatment selection is endogenous and the outcome of interest, usually a duration variable, is potentially right-censored. We explore our proposed econometric methodology to evaluate the effect of fines and community service sentences as a form of punishment on time-to-recidivism in the State of S\~ao Paulo, Brazil, between 2010 and 2019, leveraging the as-if random assignment of judges to cases. Our results highlight substantial treatment effect heterogeneity that other tools are not meant to capture. For instance, we find that people whom most judges would punish take longer to recidivate as a consequence of the punishment, while people who would be punished only by strict judges recidivate at
     
-[^13]: 序数强度高效分配
+[^14]: 序数强度高效分配
 
     Ordinal Intensity-Efficient Allocations
 
@@ -202,7 +217,7 @@
 
     We study the assignment problem in situations where, in addition to having ordinal preferences, agents also have *ordinal intensities*: they can make simple and internally consistent comparisons such as "I prefer $a$ to $b$ more than I prefer $c$ to $d$" without necessarily being able to quantify them. In this new informational social-choice environment we first introduce a rank-based criterion that enables interpersonal comparability of such ordinal intensities. Building on this criterion, we define an allocation to be *"intensity-efficient"* if it is Pareto efficient with respect to the preferences induced by the agents' intensities and also such that, when another allocation assigns the same pairs of items to the same pairs of agents but in a "flipped" way, the former allocation assigns the commonly preferred item in every such pair to the agent who prefers it more. We present some first results on the (non-)existence of such allocations without imposing restrictions on preferences 
     
-[^14]: 增强城市交通安全：对台北社区交通环境改善计划的评估
+[^15]: 增强城市交通安全：对台北社区交通环境改善计划的评估
 
     Enhancing Urban Traffic Safety: An Evaluation on Taipei's Neighborhood Traffic Environment Improvement Program. (arXiv:2401.16752v1 [econ.GN])
 
@@ -216,7 +231,7 @@
 
     In densely populated urban areas, where interactions between pedestrians, vehicles, and motorcycles are frequent and complex, traffic safety is a critical concern. This paper evaluates the Neighborhood Traffic Environment Improvement Program in Taipei, which involved painting green pedestrian paths, adjusting no-parking red/yellow lines, and painting speed limit and stop/slow signs on lanes and alleys. Exploiting staggered rollout of policy implementation and administrative traffic accident data, we found that the program reduced daytime traffic accidents by 5 percent and injuries by 8 percent, while having no significant impact on nighttime incidents. The effectiveness of the program during the day is mainly attributed to the painted green sidewalks, with adequate sunlight playing a part in the program's success. Our findings indicate that cost-effective strategies like green pedestrian lanes can be effective in areas with dense populations and high motorcycle traffic, as they improve
     
-[^15]: 临时损失条件：去中心化交易平台的分析
+[^16]: 临时损失条件：去中心化交易平台的分析
 
     Impermanent Loss Conditions: An Analysis of Decentralized Exchange Platforms. (arXiv:2401.07689v1 [econ.GN])
 
