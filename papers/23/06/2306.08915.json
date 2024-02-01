@@ -1,0 +1,11 @@
+{
+    "title": "Prompt Performance Prediction for Image Generation",
+    "abstract": "The ability to predict the performance of a query before results are returned has been a longstanding challenge in Information Retrieval (IR) systems. Inspired by this task, we introduce, in this paper, a novel task called \"Prompt Performance Prediction\" (PPP) that aims to predict the performance of a prompt, before obtaining the actual generated images. We demonstrate the plausibility of our task by measuring the correlation coefficient between predicted and actual performance scores across: three datasets containing pairs of prompts and generated images AND three art domain datasets of real images and real user appreciation ratings. Our results show promising performance prediction capabilities, suggesting potential applications for optimizing user prompts.",
+    "link": "https://arxiv.org/abs/2306.08915",
+    "context": "Title: Prompt Performance Prediction for Image Generation\nAbstract: The ability to predict the performance of a query before results are returned has been a longstanding challenge in Information Retrieval (IR) systems. Inspired by this task, we introduce, in this paper, a novel task called \"Prompt Performance Prediction\" (PPP) that aims to predict the performance of a prompt, before obtaining the actual generated images. We demonstrate the plausibility of our task by measuring the correlation coefficient between predicted and actual performance scores across: three datasets containing pairs of prompts and generated images AND three art domain datasets of real images and real user appreciation ratings. Our results show promising performance prediction capabilities, suggesting potential applications for optimizing user prompts.",
+    "path": "papers/23/06/2306.08915.json",
+    "total_tokens": 716,
+    "translated_title": "图像生成的提示性能预测",
+    "translated_abstract": "在信息检索系统中，在返回结果之前预测查询的性能一直是一个长期存在的挑战。受到这个任务的启发，我们在本文中引入了一项名为“提示性能预测”（PPP）的新任务，旨在在获取实际生成的图像之前预测提示的性能。通过在包含提示和生成图像对的三个数据集以及三个真实图像和真实用户欣赏评分的艺术领域数据集之间测量预测性能与实际性能评分之间的相关系数，我们展示了我们的任务的可行性。我们的结果显示了有希望的性能预测能力，暗示了对优化用户提示的潜在应用。",
+    "tldr": "本论文引入了一项名为\"提示性能预测\"的新任务，通过测量预测性能与实际性能评分之间的相关系数，展示了在图像生成中预测提示性能的能力，并暗示了这一能力在优化用户提示方面的潜在应用。"
+}

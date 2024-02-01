@@ -1,0 +1,12 @@
+{
+    "title": "ReplaceAnything3D:Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields",
+    "abstract": "We introduce ReplaceAnything3D model (RAM3D), a novel text-guided 3D scene editing method that enables the replacement of specific objects within a scene. Given multi-view images of a scene, a text prompt describing the object to replace, and a text prompt describing the new object, our Erase-and-Replace approach can effectively swap objects in the scene with newly generated content while maintaining 3D consistency across multiple viewpoints. We demonstrate the versatility of ReplaceAnything3D by applying it to various realistic 3D scenes, showcasing results of modified foreground objects that are well-integrated with the rest of the scene without affecting its overall integrity.",
+    "link": "https://arxiv.org/abs/2401.17895",
+    "context": "Title: ReplaceAnything3D:Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields\nAbstract: We introduce ReplaceAnything3D model (RAM3D), a novel text-guided 3D scene editing method that enables the replacement of specific objects within a scene. Given multi-view images of a scene, a text prompt describing the object to replace, and a text prompt describing the new object, our Erase-and-Replace approach can effectively swap objects in the scene with newly generated content while maintaining 3D consistency across multiple viewpoints. We demonstrate the versatility of ReplaceAnything3D by applying it to various realistic 3D scenes, showcasing results of modified foreground objects that are well-integrated with the rest of the scene without affecting its overall integrity.",
+    "path": "papers/24/01/2401.17895.json",
+    "total_tokens": 739,
+    "translated_title": "ReplaceAnything3D：具有组合神经辐射场的文本引导的3D场景编辑",
+    "translated_abstract": "我们引入了ReplaceAnything3D模型（RAM3D），一种新颖的文本引导的3D场景编辑方法，可以替换场景中的特定对象。给定一个场景的多视角图像、描述要替换对象的文本提示和描述新对象的文本提示，我们的Erase-and-Replace方法可以有效地用新生成的内容交换场景中的对象，同时保持多视角的3D一致性。我们展示了ReplaceAnything3D的多功能性，将其应用于各种逼真的3D场景，并展示了修改后的前景对象与场景的其他部分融合得很好，同时不影响其整体完整性的结果。",
+    "tldr": "ReplaceAnything3D是一种文本引导的3D场景编辑方法，通过使用Erase-and-Replace方法，能够在保持3D一致性的情况下，替换场景中的特定对象，展示了在各种逼真的3D场景中修改前景对象的多功能性。",
+    "en_tdlr": "ReplaceAnything3D is a text-guided 3D scene editing method that allows the replacement of specific objects within a scene. By using the Erase-and-Replace approach, it demonstrates the versatility of modifying foreground objects in various realistic 3D scenes while maintaining 3D consistency."
+}

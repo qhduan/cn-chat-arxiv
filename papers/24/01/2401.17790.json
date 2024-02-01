@@ -1,0 +1,11 @@
+{
+    "title": "RADIN: Souping on a Budget",
+    "abstract": "Model Soups, extending Stochastic Weights Averaging (SWA), combine models fine-tuned with different hyperparameters. Yet, their adoption is hindered by computational challenges due to subset selection issues. In this paper, we propose to speed up model soups by approximating soups performance using averaged ensemble logits performances. Theoretical insights validate the congruence between ensemble logits and weight averaging soups across any mixing ratios. Our Resource ADjusted soups craftINg (RADIN) procedure stands out by allowing flexible evaluation budgets, enabling users to adjust his budget of exploration adapted to his resources while increasing performance at lower budget compared to previous greedy approach (up to 4% on ImageNet).",
+    "link": "https://arxiv.org/abs/2401.17790",
+    "context": "Title: RADIN: Souping on a Budget\nAbstract: Model Soups, extending Stochastic Weights Averaging (SWA), combine models fine-tuned with different hyperparameters. Yet, their adoption is hindered by computational challenges due to subset selection issues. In this paper, we propose to speed up model soups by approximating soups performance using averaged ensemble logits performances. Theoretical insights validate the congruence between ensemble logits and weight averaging soups across any mixing ratios. Our Resource ADjusted soups craftINg (RADIN) procedure stands out by allowing flexible evaluation budgets, enabling users to adjust his budget of exploration adapted to his resources while increasing performance at lower budget compared to previous greedy approach (up to 4% on ImageNet).",
+    "path": "papers/24/01/2401.17790.json",
+    "total_tokens": 706,
+    "translated_title": "RADIN: 低成本集成模型优化方法",
+    "translated_abstract": "模型Soup通过结合使用不同超参数微调的模型来扩展随机权重平均（SWA），但是其采用受到了子集选择问题的计算挑战的限制。在本文中，我们提出了一种通过使用平均集合logit性能来近似soup性能从而加速soup模型的方法。理论上的洞察验证了在任何混合比例下，集合logit与权重平均soup之间的一致性。我们的调整资源soup构造（RADIN）过程通过允许灵活的评估预算，使用户能够根据自己的资源调整探索预算，同时提高低预算下的性能，相比之前的贪心方法提高了4％（在ImageNet上）。",
+    "tldr": "本文提出了一种名为RADIN的低成本集成模型优化方法，通过使用平均集合logit性能来近似soup性能，实现了加速模型soup的效果。"
+}

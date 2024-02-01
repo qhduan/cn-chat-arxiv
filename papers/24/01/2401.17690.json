@@ -1,0 +1,12 @@
+{
+    "title": "EnCLAP: Combining Neural Audio Codec and Audio-Text Joint Embedding for Automated Audio Captioning",
+    "abstract": "We propose EnCLAP, a novel framework for automated audio captioning. EnCLAP employs two acoustic representation models, EnCodec and CLAP, along with a pretrained language model, BART. We also introduce a new training objective called masked codec modeling that improves acoustic awareness of the pretrained language model. Experimental results on AudioCaps and Clotho demonstrate that our model surpasses the performance of baseline models. Source code will be available at https://github.com/jaeyeonkim99/EnCLAP . An online demo is available at https://huggingface.co/spaces/enclap-team/enclap .",
+    "link": "https://arxiv.org/abs/2401.17690",
+    "context": "Title: EnCLAP: Combining Neural Audio Codec and Audio-Text Joint Embedding for Automated Audio Captioning\nAbstract: We propose EnCLAP, a novel framework for automated audio captioning. EnCLAP employs two acoustic representation models, EnCodec and CLAP, along with a pretrained language model, BART. We also introduce a new training objective called masked codec modeling that improves acoustic awareness of the pretrained language model. Experimental results on AudioCaps and Clotho demonstrate that our model surpasses the performance of baseline models. Source code will be available at https://github.com/jaeyeonkim99/EnCLAP . An online demo is available at https://huggingface.co/spaces/enclap-team/enclap .",
+    "path": "papers/24/01/2401.17690.json",
+    "total_tokens": 764,
+    "translated_title": "EnCLAP：将神经音频编解码器和音频文本联合嵌入结合的自动音频字幕生成方法",
+    "translated_abstract": "我们提出了EnCLAP，一种新颖的自动音频字幕生成框架。EnCLAP采用了两种声学表示模型：EnCodec和CLAP，还使用了一个预训练语言模型BART。我们还引入了一种名为masked codec modeling的新的训练目标，以提高预训练语言模型的声学意识。在AudioCaps和Clotho数据集上的实验结果表明，我们的模型超过了基准模型的性能。源代码可在https://github.com/jaeyeonkim99/EnCLAP获取。在线演示可在https://huggingface.co/spaces/enclap-team/enclap 上进行。",
+    "tldr": "EnCLAP是一种自动音频字幕生成框架，利用神经音频编解码器和音频文本联合嵌入技术，通过引入masked codec modeling训练目标提高了预训练语言模型的声学意识，实验证明其在AudioCaps和Clotho数据集上优于基准模型的性能。",
+    "en_tdlr": "EnCLAP is an automated audio captioning framework that combines neural audio codec and audio-text joint embedding. By introducing a new training objective called masked codec modeling to improve the acoustic awareness of the pretrained language model, the experimental results demonstrate that our model outperforms the baseline models on the AudioCaps and Clotho datasets."
+}

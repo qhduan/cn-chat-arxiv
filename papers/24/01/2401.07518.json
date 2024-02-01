@@ -1,0 +1,12 @@
+{
+    "title": "Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends",
+    "abstract": "Natural Language Processing (NLP) aims to analyze the text via techniques in the computer science field. It serves the applications in healthcare, commerce, and education domains. Particularly, NLP has been applied to the education domain to help teaching and learning. In this survey, we review recent advances in NLP with a focus on solving problems related to the education domain. In detail, we begin with introducing the relevant background. Then, we present the taxonomy of NLP in the education domain. Next, we illustrate the task definition, challenges, and corresponding techniques based on the above taxonomy. After that, we showcase some off-the-shelf demonstrations in this domain and conclude with future directions.",
+    "link": "https://arxiv.org/abs/2401.07518",
+    "context": "Title: Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends\nAbstract: Natural Language Processing (NLP) aims to analyze the text via techniques in the computer science field. It serves the applications in healthcare, commerce, and education domains. Particularly, NLP has been applied to the education domain to help teaching and learning. In this survey, we review recent advances in NLP with a focus on solving problems related to the education domain. In detail, we begin with introducing the relevant background. Then, we present the taxonomy of NLP in the education domain. Next, we illustrate the task definition, challenges, and corresponding techniques based on the above taxonomy. After that, we showcase some off-the-shelf demonstrations in this domain and conclude with future directions.",
+    "path": "papers/24/01/2401.07518.json",
+    "total_tokens": 729,
+    "translated_title": "教育领域自然语言处理的调查：分类体系、系统综述和未来趋势",
+    "translated_abstract": "自然语言处理（NLP）旨在通过计算机科学领域的技术分析文本，应用于医疗保健、商业和教育领域。特别是，在教育领域，NLP已经被应用于教学和学习方面的帮助。本调查研究主要关注解决与教育领域相关的问题，并回顾了NLP的最新进展。具体来说，我们从介绍相关背景开始，然后提出教育领域NLP的分类系统。接着，我们根据上述分类系统说明任务定义、挑战和相应的技术。之后，我们展示了该领域中的一些现有演示，并总结了未来的研究方向。",
+    "tldr": "这篇论文调查了教育领域自然语言处理的最新进展，提出了分类体系，并总结了挑战和未来研究方向。",
+    "en_tdlr": "This paper surveys the recent advances in natural language processing for education, presents a taxonomy, and summarizes the challenges and future research directions."
+}

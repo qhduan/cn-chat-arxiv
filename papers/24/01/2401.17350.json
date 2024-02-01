@@ -1,0 +1,12 @@
+{
+    "title": "Timeseries Suppliers Allocation Risk Optimization via Deep Black Litterman Model",
+    "abstract": "We introduce the BL model and the Perspective Matrix to optimize supplier selection and order allocation, focusing on both temporal and spatial dynamics. Our development of a Supplier Relationship Network, using a Spatio-Temporal Graph Neural Network, enhances the understanding of complex supplier interdependencies. Additionally, we address credibility issues in zero-order scenarios with a Masked Ranking Mechanism, improving supplier ranking efficiency. Our model demonstrates superior results on two datasets compared to the traditional models. Our evaluations using real-world datasets highlight DBLM's superiority in providing accurate predictions and precise confidence intervals, particularly in high-resolution scenarios.",
+    "link": "https://arxiv.org/abs/2401.17350",
+    "context": "Title: Timeseries Suppliers Allocation Risk Optimization via Deep Black Litterman Model\nAbstract: We introduce the BL model and the Perspective Matrix to optimize supplier selection and order allocation, focusing on both temporal and spatial dynamics. Our development of a Supplier Relationship Network, using a Spatio-Temporal Graph Neural Network, enhances the understanding of complex supplier interdependencies. Additionally, we address credibility issues in zero-order scenarios with a Masked Ranking Mechanism, improving supplier ranking efficiency. Our model demonstrates superior results on two datasets compared to the traditional models. Our evaluations using real-world datasets highlight DBLM's superiority in providing accurate predictions and precise confidence intervals, particularly in high-resolution scenarios.",
+    "path": "papers/24/01/2401.17350.json",
+    "total_tokens": 719,
+    "translated_title": "通过深度黑石贝莱曼模型优化时间序列供应商分配风险",
+    "translated_abstract": "我们介绍了BL模型和Perspective矩阵，以优化供应商选择和订单分配，重点关注时间和空间动态。我们使用时空图神经网络开发了供应商关系网络，增强了对复杂供应商相互依赖关系的理解。此外，我们还通过Masked Ranking机制解决了零阶情况下的可信度问题，提高了供应商排序效率。与传统模型相比，我们的模型在两个数据集上展现了优越的结果。我们使用真实数据集进行的评估突出了DBLM在提供准确预测和精确置信区间方面的优势，特别是在高分辨率情景下。",
+    "tldr": "通过深度黑石贝莱曼模型和时空图神经网络，我们优化了供应商选择和订单分配，同时解决了零阶情况下的可信度问题，实现了准确的预测和精确的置信区间。",
+    "en_tdlr": "Through the Deep Black Litterman Model and Spatio-Temporal Graph Neural Network, we optimize supplier selection and order allocation, while addressing credibility issues in zero-order scenarios, achieving accurate predictions and precise confidence intervals."
+}

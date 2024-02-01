@@ -1,0 +1,12 @@
+{
+    "title": "Computational Tradeoffs of Optimization-Based Bound Tightening in ReLU Networks",
+    "abstract": "The use of Mixed-Integer Linear Programming (MILP) models to represent neural networks with Rectified Linear Unit (ReLU) activations has become increasingly widespread in the last decade. This has enabled the use of MILP technology to test-or stress-their behavior, to adversarially improve their training, and to embed them in optimization models leveraging their predictive power. Many of these MILP models rely on activation bounds. That is, bounds on the input values of each neuron. In this work, we explore the tradeoff between the tightness of these bounds and the computational effort of solving the resulting MILP models. We provide guidelines for implementing these models based on the impact of network structure, regularization, and rounding.",
+    "link": "https://arxiv.org/abs/2312.16699",
+    "context": "Title: Computational Tradeoffs of Optimization-Based Bound Tightening in ReLU Networks\nAbstract: The use of Mixed-Integer Linear Programming (MILP) models to represent neural networks with Rectified Linear Unit (ReLU) activations has become increasingly widespread in the last decade. This has enabled the use of MILP technology to test-or stress-their behavior, to adversarially improve their training, and to embed them in optimization models leveraging their predictive power. Many of these MILP models rely on activation bounds. That is, bounds on the input values of each neuron. In this work, we explore the tradeoff between the tightness of these bounds and the computational effort of solving the resulting MILP models. We provide guidelines for implementing these models based on the impact of network structure, regularization, and rounding.",
+    "path": "papers/23/12/2312.16699.json",
+    "total_tokens": 738,
+    "translated_title": "计算中基于优化的界限收紧在ReLU网络中的权衡",
+    "translated_abstract": "在过去的十年中，使用混合整数线性规划（MILP）模型来表示具有修正线性单元（ReLU）激活的神经网络的使用变得越来越广泛。这使得可以使用MILP技术来测试或压力测试它们的行为，为了对它们的训练进行敌对改进，并将它们嵌入到利用它们的预测能力的优化模型中。其中许多MILP模型依赖于激活界限，即每个神经元输入值的界限。在本研究中，我们探讨了界限的紧密度与解决结果MILP模型的计算工作之间的权衡。我们提供了基于网络结构、正则化和舍入的实现这些模型的指南。",
+    "tldr": "本研究探讨了在ReLU网络中使用基于优化的界限收紧的计算权衡，提供了根据网络结构、正则化和舍入的实施指南。",
+    "en_tdlr": "This study explores the computational tradeoffs of optimization-based bound tightening in ReLU networks and provides guidelines for implementation based on network structure, regularization, and rounding."
+}

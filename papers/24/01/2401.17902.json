@@ -1,0 +1,12 @@
+{
+    "title": "Revisiting speech segmentation and lexicon learning with better features",
+    "abstract": "We revisit a self-supervised method that segments unlabelled speech into word-like segments. We start from the two-stage duration-penalised dynamic programming method that performs zero-resource segmentation without learning an explicit lexicon. In the first acoustic unit discovery stage, we replace contrastive predictive coding features with HuBERT. After word segmentation in the second stage, we get an acoustic word embedding for each segment by averaging HuBERT features. These embeddings are clustered using K-means to get a lexicon. The result is good full-coverage segmentation with a lexicon that achieves state-of-the-art performance on the ZeroSpeech benchmarks.",
+    "link": "https://arxiv.org/abs/2401.17902",
+    "context": "Title: Revisiting speech segmentation and lexicon learning with better features\nAbstract: We revisit a self-supervised method that segments unlabelled speech into word-like segments. We start from the two-stage duration-penalised dynamic programming method that performs zero-resource segmentation without learning an explicit lexicon. In the first acoustic unit discovery stage, we replace contrastive predictive coding features with HuBERT. After word segmentation in the second stage, we get an acoustic word embedding for each segment by averaging HuBERT features. These embeddings are clustered using K-means to get a lexicon. The result is good full-coverage segmentation with a lexicon that achieves state-of-the-art performance on the ZeroSpeech benchmarks.",
+    "path": "papers/24/01/2401.17902.json",
+    "total_tokens": 728,
+    "translated_title": "通过改进特征重新思考语音分割和词典学习",
+    "translated_abstract": "我们重新审视了一种自监督方法，该方法将未标记的语音分割成类似单词的片段。我们从两阶段的时长惩罚动态规划方法开始，该方法在不学习显式词典的情况下进行零资源分割。在第一个声学单元发现阶段，我们用HuBERT替换了对比性预测编码特征。在第二阶段的单词分割后，我们通过平均HuBERT特征获得每个片段的声学单词嵌入。使用K-means对这些嵌入进行聚类，以得到一个词典。结果是具有良好覆盖率分割和在ZeroSpeech基准测试上达到最先进性能的词典。",
+    "tldr": "本文重新审视了一种自监督方法，利用改进的特征将未标记的语音分割成单词状的片段，并通过聚类得到一个具有良好覆盖率和最先进性能的词典。",
+    "en_tdlr": "This paper revisits a self-supervised method that segments unlabelled speech into word-like segments using improved features, and obtains a lexicon with good coverage and state-of-the-art performance through clustering."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Neural Machine Translation for Malayalam Paraphrase Generation",
+    "abstract": "This study explores four methods of generating paraphrases in Malayalam, utilizing resources available for English paraphrasing and pre-trained Neural Machine Translation (NMT) models. We evaluate the resulting paraphrases using both automated metrics, such as BLEU, METEOR, and cosine similarity, as well as human annotation. Our findings suggest that automated evaluation measures may not be fully appropriate for Malayalam, as they do not consistently align with human judgment. This discrepancy underscores the need for more nuanced paraphrase evaluation approaches especially for highly agglutinative languages.",
+    "link": "https://arxiv.org/abs/2401.17827",
+    "context": "Title: Neural Machine Translation for Malayalam Paraphrase Generation\nAbstract: This study explores four methods of generating paraphrases in Malayalam, utilizing resources available for English paraphrasing and pre-trained Neural Machine Translation (NMT) models. We evaluate the resulting paraphrases using both automated metrics, such as BLEU, METEOR, and cosine similarity, as well as human annotation. Our findings suggest that automated evaluation measures may not be fully appropriate for Malayalam, as they do not consistently align with human judgment. This discrepancy underscores the need for more nuanced paraphrase evaluation approaches especially for highly agglutinative languages.",
+    "path": "papers/24/01/2401.17827.json",
+    "total_tokens": 763,
+    "translated_title": "马拉亚拉姆语改写生成的神经机器翻译",
+    "translated_abstract": "本研究探讨了四种在马拉亚拉姆语中生成改写的方法，利用了英语改写和预训练的神经机器翻译（NMT）模型的资源。我们使用自动化指标（如BLEU，METEOR和余弦相似度）以及人工标注来评估所得到的改写。我们的研究发现，自动化评估指标对于马拉亚拉姆语可能不完全适用，因为它们与人类判断不一致。这种差异突显了对于高度合词性语言尤其需要更细致的改写评估方法的需求。",
+    "tldr": "本研究针对马拉亚拉姆语探索了四种生成改写的方法，并使用了英语改写和预训练的神经机器翻译模型的资源。研究发现，自动化评估指标不完全适用于马拉亚拉姆语，强调了对于高度合词性语言更细致的改写评估方法的需求。"
+}

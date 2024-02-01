@@ -1,0 +1,12 @@
+{
+    "title": "SDRDPy: An application to graphically visualize the knowledge obtained with supervised descriptive rule algorithms",
+    "abstract": "SDRDPy is a desktop application that allows experts an intuitive graphic and tabular representation of the knowledge extracted by any supervised descriptive rule discovery algorithm. The application is able to provide an analysis of the data showing the relevant information of the data set and the relationship between the rules, data and the quality measures associated for each rule regardless of the tool where algorithm has been executed. All of the information is presented in a user-friendly application in order to facilitate expert analysis and also the exportation of reports in different formats.",
+    "link": "https://arxiv.org/abs/2401.17783",
+    "context": "Title: SDRDPy: An application to graphically visualize the knowledge obtained with supervised descriptive rule algorithms\nAbstract: SDRDPy is a desktop application that allows experts an intuitive graphic and tabular representation of the knowledge extracted by any supervised descriptive rule discovery algorithm. The application is able to provide an analysis of the data showing the relevant information of the data set and the relationship between the rules, data and the quality measures associated for each rule regardless of the tool where algorithm has been executed. All of the information is presented in a user-friendly application in order to facilitate expert analysis and also the exportation of reports in different formats.",
+    "path": "papers/24/01/2401.17783.json",
+    "total_tokens": 648,
+    "translated_title": "SDRDPy：一款可图形化显示通过监督性描述性规则算法获得知识的应用程序",
+    "translated_abstract": "SDRDPy是一款桌面应用程序，允许专家直观地图形化和表格化表示通过任何监督性描述性规则发现算法提取的知识。该应用程序能够提供数据分析，显示数据集的相关信息以及规则、数据和每个规则的质量度量之间的关系，无论算法在何处执行。所有信息都以用户友好的方式呈现，以便于专家分析，同时还可导出不同格式的报告。",
+    "tldr": "SDRDPy是一款可图形化显示通过监督性描述性规则算法获得的知识的应用程序，通过直观的图表和表格帮助专家分析数据集的相关信息和规则之间的关系，以及导出报告。",
+    "en_tdlr": "SDRDPy is an application that graphically visualizes the knowledge obtained through supervised descriptive rule algorithms, helping experts analyze the relevant information of the dataset and the relationship between rules through intuitive graphs and tables, and facilitating report exportation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "[Lions: 1] and [Tigers: 2] and [Bears: 3], Oh My! Literary Coreference Annotation with LLMs",
+    "abstract": "Coreference annotation and resolution is a vital component of computational literary studies. However, it has previously been difficult to build high quality systems for fiction. Coreference requires complicated structured outputs, and literary text involves subtle inferences and highly varied language. New language-model-based seq2seq systems present the opportunity to solve both these problems by learning to directly generate a copy of an input sentence with markdown-like annotations. We create, evaluate, and release several trained models for coreference, as well as a workflow for training new models.",
+    "link": "https://arxiv.org/abs/2401.17922",
+    "context": "Title: [Lions: 1] and [Tigers: 2] and [Bears: 3], Oh My! Literary Coreference Annotation with LLMs\nAbstract: Coreference annotation and resolution is a vital component of computational literary studies. However, it has previously been difficult to build high quality systems for fiction. Coreference requires complicated structured outputs, and literary text involves subtle inferences and highly varied language. New language-model-based seq2seq systems present the opportunity to solve both these problems by learning to directly generate a copy of an input sentence with markdown-like annotations. We create, evaluate, and release several trained models for coreference, as well as a workflow for training new models.",
+    "path": "papers/24/01/2401.17922.json",
+    "total_tokens": 723,
+    "translated_title": "狮子：1和老虎：2和熊：3，喔美啊！使用LLMs进行文学指代标注",
+    "translated_abstract": "指代标注和解析是计算文学研究的重要组成部分。然而，在构建小说的高质量系统方面存在困难。指代标注需要复杂的结构化输出，而文学文本涉及微妙的推断和语言多样性。基于新的基于语言模型的seq2seq系统，可以通过学习直接生成带有类似markdown注释的输入句子来解决这些问题。我们创建、评估和发布了几个经过训练的指代模型，以及一个用于训练新模型的工作流程。",
+    "tldr": "本研究提出了一种使用LLMs进行文学指代标注的方法，通过学习生成带有指代注释的句子，解决了构建高质量小说系统的困难。我们创建并发布了多个经过训练的指代模型，并提供了一个用于训练新模型的工作流程。",
+    "en_tdlr": "This study presents a method for literary coreference annotation using LLMs, solving the challenge of building high-quality systems for fiction. The researchers create and release multiple trained coreference models, along with a workflow for training new models."
+}

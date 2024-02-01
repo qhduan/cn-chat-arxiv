@@ -1,0 +1,11 @@
+{
+    "title": "Convergence Analysis for General Probability Flow ODEs of Diffusion Models in Wasserstein Distances",
+    "abstract": "Score-based generative modeling with probability flow ordinary differential equations (ODEs) has achieved remarkable success in a variety of applications. While various fast ODE-based samplers have been proposed in the literature and employed in practice, the theoretical understandings about convergence properties of the probability flow ODE are still quite limited. In this paper, we provide the first non-asymptotic convergence analysis for a general class of probability flow ODE samplers in 2-Wasserstein distance, assuming accurate score estimates. We then consider various examples and establish results on the iteration complexity of the corresponding ODE-based samplers.",
+    "link": "https://arxiv.org/abs/2401.17958",
+    "context": "Title: Convergence Analysis for General Probability Flow ODEs of Diffusion Models in Wasserstein Distances\nAbstract: Score-based generative modeling with probability flow ordinary differential equations (ODEs) has achieved remarkable success in a variety of applications. While various fast ODE-based samplers have been proposed in the literature and employed in practice, the theoretical understandings about convergence properties of the probability flow ODE are still quite limited. In this paper, we provide the first non-asymptotic convergence analysis for a general class of probability flow ODE samplers in 2-Wasserstein distance, assuming accurate score estimates. We then consider various examples and establish results on the iteration complexity of the corresponding ODE-based samplers.",
+    "path": "papers/24/01/2401.17958.json",
+    "total_tokens": 660,
+    "translated_title": "在Wasserstein距离中的扩散模型的一般概率流ODE的收敛性分析",
+    "translated_abstract": "基于概率流常微分方程（ODE）的基于得分的生成模型在各种应用中取得了显著的成功。虽然文献中提出了各种快速的基于ODE的抽样器并在实践中使用，但对概率流ODE的收敛性属性的理论理解仍然非常有限。在本文中，我们提供了适用于2-Wasserstein距离中的一般类概率流ODE抽样器的首个非渐近收敛性分析结果，假设准确的得分估计。接下来，我们考虑了各种示例，并确定了相应基于ODE的抽样器的迭代复杂度的结果。",
+    "tldr": "本文提供了在2-Wasserstein距离中的一般类概率流ODE抽样器的非渐近收敛性分析，假设得分估计准确。"
+}

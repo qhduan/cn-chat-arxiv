@@ -1,0 +1,11 @@
+{
+    "title": "Linguistically Communicating Uncertainty in Patient-Facing Risk Prediction Models",
+    "abstract": "This paper addresses the unique challenges associated with uncertainty quantification in AI models when applied to patient-facing contexts within healthcare. Unlike traditional eXplainable Artificial Intelligence (XAI) methods tailored for model developers or domain experts, additional considerations of communicating in natural language, its presentation and evaluating understandability are necessary. We identify the challenges in communication model performance, confidence, reasoning and unknown knowns using natural language in the context of risk prediction. We propose a design aimed at addressing these challenges, focusing on the specific application of in-vitro fertilisation outcome prediction.",
+    "link": "https://arxiv.org/abs/2401.17511",
+    "context": "Title: Linguistically Communicating Uncertainty in Patient-Facing Risk Prediction Models\nAbstract: This paper addresses the unique challenges associated with uncertainty quantification in AI models when applied to patient-facing contexts within healthcare. Unlike traditional eXplainable Artificial Intelligence (XAI) methods tailored for model developers or domain experts, additional considerations of communicating in natural language, its presentation and evaluating understandability are necessary. We identify the challenges in communication model performance, confidence, reasoning and unknown knowns using natural language in the context of risk prediction. We propose a design aimed at addressing these challenges, focusing on the specific application of in-vitro fertilisation outcome prediction.",
+    "path": "papers/24/01/2401.17511.json",
+    "total_tokens": 732,
+    "translated_title": "在面向患者的风险预测模型中，语言表达不确定性的问题",
+    "translated_abstract": "本文讨论了在医疗保健领域中，应用于面向患者环境中的人工智能模型中不确定性量化所面临的独特挑战。与为模型开发者或领域专家量身定制的传统可解释人工智能（XAI）方法不同，这里需要考虑自然语言的表达、展示和评估可理解性的附加因素。我们在风险预测的语境下识别了在自然语言中沟通模型性能、置信度、推理和未知已知的挑战。我们提出了一个旨在应对这些挑战的设计，重点关注体外受精结果预测的具体应用。",
+    "tldr": "本文讨论了在医疗保健领域中面向患者的风险预测模型中不确定性量化的挑战，并提出了一种设计来应对这些挑战，重点关注体外受精结果预测的具体应用。"
+}

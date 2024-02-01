@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Pre-trained Language Models for Processing Scientific Text",
+    "abstract": "The number of Language Models (LMs) dedicated to processing scientific text is on the rise. Keeping pace with the rapid growth of scientific LMs (SciLMs) has become a daunting task for researchers. To date, no comprehensive surveys on SciLMs have been undertaken, leaving this issue unaddressed. Given the constant stream of new SciLMs, appraising the state-of-the-art and how they compare to each other remain largely unknown. This work fills that gap and provides a comprehensive review of SciLMs, including an extensive analysis of their effectiveness across different domains, tasks and datasets, and a discussion on the challenges that lie ahead.",
+    "link": "https://arxiv.org/abs/2401.17824",
+    "context": "Title: A Survey of Pre-trained Language Models for Processing Scientific Text\nAbstract: The number of Language Models (LMs) dedicated to processing scientific text is on the rise. Keeping pace with the rapid growth of scientific LMs (SciLMs) has become a daunting task for researchers. To date, no comprehensive surveys on SciLMs have been undertaken, leaving this issue unaddressed. Given the constant stream of new SciLMs, appraising the state-of-the-art and how they compare to each other remain largely unknown. This work fills that gap and provides a comprehensive review of SciLMs, including an extensive analysis of their effectiveness across different domains, tasks and datasets, and a discussion on the challenges that lie ahead.",
+    "path": "papers/24/01/2401.17824.json",
+    "total_tokens": 723,
+    "translated_title": "对处理科学文本的预训练语言模型的调查研究",
+    "translated_abstract": "处理科学文本的语言模型的数量正在增长。跟上科学语言模型（SciLMs）高速增长的步伐已经成为研究人员的一项艰巨任务。迄今为止，还没有进行全面调查关于SciLMs的工作，这个问题一直没有解决。鉴于持续涌现的新SciLMs，评估最先进的模型以及它们相互之间的比较仍然是未知的。这项研究填补了这个空白，并提供了SciLMs的全面回顾，包括对其在不同领域、任务和数据集中有效性的广泛分析，并对未来可能面临的挑战进行了讨论。",
+    "tldr": "本研究对处理科学文本的预训练语言模型进行了全面调查，包括对它们在不同领域、任务和数据集中有效性的分析，以及对未来挑战的讨论。",
+    "en_tdlr": "This study presents a comprehensive survey of pre-trained language models for processing scientific text, including an analysis of their effectiveness across different domains, tasks, and datasets, as well as a discussion on future challenges."
+}

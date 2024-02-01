@@ -1,0 +1,12 @@
+{
+    "title": "A Survey on Data-Centric Recommender Systems",
+    "abstract": "Recommender systems (RS) have become essential tools for mitigating information overload in a range of real-world scenarios. Recent trends in RS have seen a paradigm shift, moving the spotlight from model-centric innovations to the importance of data quality and quantity. This evolution has given rise to the concept of data-centric recommender systems (Data-Centric RS), marking a significant development in the field. This survey provides the first systematic overview of Data-Centric RS, covering 1) the foundational concepts of recommendation data and Data-Centric RS; 2) three primary issues in recommendation data; 3) recent research developed to address these issues; and 4) several potential future directions in Data-Centric RS.",
+    "link": "https://arxiv.org/abs/2401.17878",
+    "context": "Title: A Survey on Data-Centric Recommender Systems\nAbstract: Recommender systems (RS) have become essential tools for mitigating information overload in a range of real-world scenarios. Recent trends in RS have seen a paradigm shift, moving the spotlight from model-centric innovations to the importance of data quality and quantity. This evolution has given rise to the concept of data-centric recommender systems (Data-Centric RS), marking a significant development in the field. This survey provides the first systematic overview of Data-Centric RS, covering 1) the foundational concepts of recommendation data and Data-Centric RS; 2) three primary issues in recommendation data; 3) recent research developed to address these issues; and 4) several potential future directions in Data-Centric RS.",
+    "path": "papers/24/01/2401.17878.json",
+    "total_tokens": 749,
+    "translated_title": "数据中心推荐系统综述",
+    "translated_abstract": "推荐系统已成为应对信息过载的重要工具，适用于各种实际场景。最近推荐系统的发展趋势出现了范式转变，从模型为中心的创新转向数据质量和数量的重要性。这一变化引出了数据中心推荐系统（Data-Centric RS）的概念，标志着该领域的重要发展。本综述首次系统地概述了数据中心推荐系统，包括1）推荐数据和数据中心推荐系统的基本概念；2）推荐数据面临的三个主要问题；3）为解决这些问题而开展的最近研究；以及4）数据中心推荐系统可能的未来发展方向。",
+    "tldr": "数据中心推荐系统综述了推荐系统从模型为中心到数据为中心的转变。这篇综述首次系统概述了数据中心推荐系统的基本概念、推荐数据的主要问题以及最近的研究和未来的发展方向。",
+    "en_tdlr": "The survey on Data-Centric Recommender Systems summarizes the shift in recommender systems from model-centric to data-centric approach. It provides a systematic overview of foundational concepts, primary issues in recommendation data, recent research developments, and potential future directions in the field."
+}

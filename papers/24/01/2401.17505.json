@@ -1,0 +1,11 @@
+{
+    "title": "Arrows of Time for Large Language Models",
+    "abstract": "We study the probabilistic modeling performed by Autoregressive Large Language Models through the angle of time directionality. We empirically find a time asymmetry exhibited by such models in their ability to model natural language: a difference in the average log-perplexity when trying to predict the next token versus when trying to predict the previous one. This difference is at the same time subtle and very consistent across various modalities (language, model size, training time, ...). Theoretically, this is surprising: from an information-theoretic point of view, there should be no such difference. We provide a theoretical framework to explain how such an asymmetry can appear from sparsity and computational complexity considerations, and outline a number of perspectives opened by our results.",
+    "link": "https://arxiv.org/abs/2401.17505",
+    "context": "Title: Arrows of Time for Large Language Models\nAbstract: We study the probabilistic modeling performed by Autoregressive Large Language Models through the angle of time directionality. We empirically find a time asymmetry exhibited by such models in their ability to model natural language: a difference in the average log-perplexity when trying to predict the next token versus when trying to predict the previous one. This difference is at the same time subtle and very consistent across various modalities (language, model size, training time, ...). Theoretically, this is surprising: from an information-theoretic point of view, there should be no such difference. We provide a theoretical framework to explain how such an asymmetry can appear from sparsity and computational complexity considerations, and outline a number of perspectives opened by our results.",
+    "path": "papers/24/01/2401.17505.json",
+    "total_tokens": 753,
+    "translated_title": "大型语言模型中的时间箭头",
+    "translated_abstract": "我们通过时间方向性的视角研究了自回归大型语言模型的概率建模。我们在实证上发现这类模型在建模自然语言能力上存在时间上的不对称性：预测下一个记号和预测前一个记号时的平均对数困惑度存在差异。这种差异既微妙又在不同的模态（语言、模型大小、训练时间等）下非常一致。从信息理论的角度来看，这在理论上是令人惊讶的，不应该存在这样的差异。我们提供了一个理论框架，解释了这种不对称性如何出现在稀疏性和计算复杂性考虑中，并概述了我们的结果带来的一些展望。",
+    "tldr": "这篇论文通过研究自回归大型语言模型的时间方向性，发现了模型在建模自然语言能力上存在时间上的不对称性。从信息理论的角度来看，这种差异理论上是不应该存在的。通过稀疏性和计算复杂性的考虑，提供了一个理论框架来解释这种不对称性的出现。"
+}
