@@ -1,0 +1,12 @@
+{
+    "title": "Moment Matching Method for Pricing Spread Options with Mean-Variance Mixture L\\'evy Motions",
+    "abstract": "The paper Borovkova et al. [4] uses moment matching method to obtain closed form formulas for spread and basket call option prices under log normal models. In this note, we also use moment matching method to obtain semi-closed form formulas for the price of spread options under exponential L\\'evy models with mean-variance mixture. Unlike the semi-closed form formulas in Caldana and Fusai [5], where spread prices were expressed by using Fourier inversion formula for general price dynamics, our formula expresses spread prices in terms of the mixing distribution. Numerical tests show that our formulas give accurate spread prices also",
+    "link": "https://arxiv.org/abs/2109.02872",
+    "context": "Title: Moment Matching Method for Pricing Spread Options with Mean-Variance Mixture L\\'evy Motions\nAbstract: The paper Borovkova et al. [4] uses moment matching method to obtain closed form formulas for spread and basket call option prices under log normal models. In this note, we also use moment matching method to obtain semi-closed form formulas for the price of spread options under exponential L\\'evy models with mean-variance mixture. Unlike the semi-closed form formulas in Caldana and Fusai [5], where spread prices were expressed by using Fourier inversion formula for general price dynamics, our formula expresses spread prices in terms of the mixing distribution. Numerical tests show that our formulas give accurate spread prices also",
+    "path": "papers/21/09/2109.02872.json",
+    "total_tokens": 639,
+    "translated_title": "使用矩匹配方法定价具有均值-方差混合L\\'evy运动的价差期权",
+    "translated_abstract": "本文使用矩匹配方法在指数L\\'evy模型中得到了价差期权价格的半闭合公式。与Caldana和Fusai [5]中使用傅里叶反演公式表达价差价格不同，我们的公式使用混合分布的方式来表示价差价格。数值测试表明，我们的公式能够准确地计算价差价格。",
+    "tldr": "本文利用矩匹配方法在指数L\\'evy模型下，通过使用混合分布来表示价差价格，得到了价差期权的半闭合公式。",
+    "en_tdlr": "This paper uses the moment matching method to derive semi-closed form formulas for pricing spread options in exponential L\\'evy models. Unlike previous studies, which used Fourier inversion formula for general price dynamics, our formulas express spread prices in terms of the mixing distribution. Numerical tests demonstrate the accuracy of our approach."
+}

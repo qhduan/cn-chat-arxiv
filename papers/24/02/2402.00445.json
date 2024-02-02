@@ -1,0 +1,11 @@
+{
+    "title": "Option pricing for Barndorff-Nielsen and Shephard model by supervised deep learning",
+    "abstract": "This paper aims to develop a supervised deep-learning scheme to compute call option prices for the Barndorff-Nielsen and Shephard model with a non-martingale asset price process having infinite active jumps. In our deep learning scheme, teaching data is generated through the Monte Carlo method developed by Arai and Imai (2024). Moreover, the BNS model includes many variables, which makes the deep learning accuracy worse. Therefore, we will create another input variable using the Black-Scholes formula. As a result, the accuracy is improved dramatically.",
+    "link": "https://arxiv.org/abs/2402.00445",
+    "context": "Title: Option pricing for Barndorff-Nielsen and Shephard model by supervised deep learning\nAbstract: This paper aims to develop a supervised deep-learning scheme to compute call option prices for the Barndorff-Nielsen and Shephard model with a non-martingale asset price process having infinite active jumps. In our deep learning scheme, teaching data is generated through the Monte Carlo method developed by Arai and Imai (2024). Moreover, the BNS model includes many variables, which makes the deep learning accuracy worse. Therefore, we will create another input variable using the Black-Scholes formula. As a result, the accuracy is improved dramatically.",
+    "path": "papers/24/02/2402.00445.json",
+    "total_tokens": 692,
+    "translated_title": "使用监督深度学习计算Barndorff-Nielsen和Shephard模型的期权定价",
+    "translated_abstract": "本文旨在开发一种使用监督深度学习方案计算Barndorff-Nielsen和Shephard模型中具有无限主动跳跃的非鞅资产价格过程的看涨期权价格。在我们的深度学习方案中，通过Arai和Imai（2024年）开发的蒙特卡洛方法生成教学数据。此外，BNS模型包含许多变量，这使得深度学习的准确性较差。因此，我们将使用Black-Scholes公式创建另一个输入变量。结果，精度显著提高。",
+    "tldr": "本文通过监督深度学习方法，针对Barndorff-Nielsen和Shephard模型中的非鞅资产价格过程，开发了计算看涨期权价格的方案，并通过引入额外的输入变量提高了准确性。"
+}

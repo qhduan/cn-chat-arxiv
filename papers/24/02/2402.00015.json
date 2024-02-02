@@ -1,0 +1,12 @@
+{
+    "title": "Maintaining User Trust Through Multistage Uncertainty Aware Inference",
+    "abstract": "This paper describes and evaluates a multistage approach to AI deployment. Each stage involves a more accurate method of inference, yet engaging each comes with an increasing cost. In outlining the architecture, we present a method for quantifying model uncertainty that facilitates confident deferral decisions. The architecture is currently under active deployment to thousands of cotton farmers across India. The broader idea however is applicable to a growing sector of AI deployments in challenging low resources settings.",
+    "link": "https://arxiv.org/abs/2402.00015",
+    "context": "Title: Maintaining User Trust Through Multistage Uncertainty Aware Inference\nAbstract: This paper describes and evaluates a multistage approach to AI deployment. Each stage involves a more accurate method of inference, yet engaging each comes with an increasing cost. In outlining the architecture, we present a method for quantifying model uncertainty that facilitates confident deferral decisions. The architecture is currently under active deployment to thousands of cotton farmers across India. The broader idea however is applicable to a growing sector of AI deployments in challenging low resources settings.",
+    "path": "papers/24/02/2402.00015.json",
+    "total_tokens": 745,
+    "translated_title": "通过多阶段不确定性感知推断来维护用户信任",
+    "translated_abstract": "本文描述并评估了一种多阶段的人工智能部署方法。每个阶段都涉及一种更准确的推理方法，但每个阶段的开销也逐渐增加。在概述架构时，我们提出了一种量化模型不确定性的方法，以促进有信心的延期决策。该架构目前正在印度的数千名棉农中进行积极部署。然而，这个更广泛的想法也适用于在具有挑战性的低资源环境中进行人工智能部署的不断增长的领域。",
+    "tldr": "本文介绍了一种多阶段的人工智能部署方法，其中每个阶段都使用更准确的推理方法，以维护用户的信任。作者提出了一种量化模型不确定性的方法，以促进对推理结果的有信心的决策。该方法已经在印度的数千名棉农中进行了实际部署，并且可以适用于其他低资源环境中的人工智能部署。",
+    "en_tdlr": "This paper presents a multistage approach to AI deployment, using more accurate inference methods at each stage to maintain user trust. The authors propose a method for quantifying model uncertainty to facilitate confident decision-making. The method has been successfully deployed to thousands of cotton farmers in India and is applicable to other AI deployments in low-resource settings."
+}

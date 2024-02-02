@@ -1,0 +1,12 @@
+{
+    "title": "Comparing Spectral Bias and Robustness For Two-Layer Neural Networks: SGD vs Adaptive Random Fourier Features",
+    "abstract": "We present experimental results highlighting two key differences resulting from the choice of training algorithm for two-layer neural networks. The spectral bias of neural networks is well known, while the spectral bias dependence on the choice of training algorithm is less studied. Our experiments demonstrate that an adaptive random Fourier features algorithm (ARFF) can yield a spectral bias closer to zero compared to the stochastic gradient descent optimizer (SGD). Additionally, we train two identically structured classifiers, employing SGD and ARFF, to the same accuracy levels and empirically assess their robustness against adversarial noise attacks.",
+    "link": "https://arxiv.org/abs/2402.00332",
+    "context": "Title: Comparing Spectral Bias and Robustness For Two-Layer Neural Networks: SGD vs Adaptive Random Fourier Features\nAbstract: We present experimental results highlighting two key differences resulting from the choice of training algorithm for two-layer neural networks. The spectral bias of neural networks is well known, while the spectral bias dependence on the choice of training algorithm is less studied. Our experiments demonstrate that an adaptive random Fourier features algorithm (ARFF) can yield a spectral bias closer to zero compared to the stochastic gradient descent optimizer (SGD). Additionally, we train two identically structured classifiers, employing SGD and ARFF, to the same accuracy levels and empirically assess their robustness against adversarial noise attacks.",
+    "path": "papers/24/02/2402.00332.json",
+    "total_tokens": 827,
+    "translated_title": "比较两层神经网络的谱偏差和鲁棒性：SGD与自适应随机傅里叶特征之间的比较",
+    "translated_abstract": "我们提出的实验结果突出了选择训练算法对于两层神经网络的两个关键差异。神经网络的谱偏差是众所周知的，而谱偏差与训练算法的选择之间的关系很少被研究。我们的实验表明，相比于随机梯度下降优化器（SGD），自适应随机傅里叶特征算法（ARFF）可以产生更接近零的谱偏差。此外，我们使用SGD和ARFF训练了两个完全相同结构的分类器，将它们的准确性提高到相同水平，并经验性地评估了它们对抗噪声攻击的鲁棒性。",
+    "tldr": "本研究比较了两种训练算法对于两层神经网络的谱偏差和鲁棒性的影响，结果表明自适应随机傅里叶特征算法（ARFF）可以在谱偏差方面取得更好的结果，并且与随机梯度下降优化器（SGD）相比具有更好的鲁棒性。",
+    "en_tdlr": "This study compares the spectral bias and robustness of two-layer neural networks using two different training algorithms, and finds that the adaptive random Fourier features algorithm (ARFF) achieves better results in terms of spectral bias and exhibits higher robustness compared to the stochastic gradient descent optimizer (SGD)."
+}

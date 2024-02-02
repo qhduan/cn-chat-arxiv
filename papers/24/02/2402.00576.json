@@ -1,0 +1,12 @@
+{
+    "title": "Tropical Decision Boundaries for Neural Networks Are Robust Against Adversarial Attacks",
+    "abstract": "We introduce a simple, easy to implement, and computationally efficient tropical convolutional neural network architecture that is robust against adversarial attacks. We exploit the tropical nature of piece-wise linear neural networks by embedding the data in the tropical projective torus in a single hidden layer which can be added to any model. We study the geometry of its decision boundary theoretically and show its robustness against adversarial attacks on image datasets using computational experiments.",
+    "link": "https://arxiv.org/abs/2402.00576",
+    "context": "Title: Tropical Decision Boundaries for Neural Networks Are Robust Against Adversarial Attacks\nAbstract: We introduce a simple, easy to implement, and computationally efficient tropical convolutional neural network architecture that is robust against adversarial attacks. We exploit the tropical nature of piece-wise linear neural networks by embedding the data in the tropical projective torus in a single hidden layer which can be added to any model. We study the geometry of its decision boundary theoretically and show its robustness against adversarial attacks on image datasets using computational experiments.",
+    "path": "papers/24/02/2402.00576.json",
+    "total_tokens": 657,
+    "translated_title": "热带决策边界对神经网络的抗对抗攻击是稳健的",
+    "translated_abstract": "我们引入了一种简单、易于实现且计算效率高的热带卷积神经网络架构，该架构对抗对抗攻击具有稳健性。通过将数据嵌入到热带投影托洛斯中的一个隐藏层中，我们利用分段线性神经网络的热带性质，该层可以添加到任何模型中。我们在理论上研究了其决策边界的几何性质，并通过计算实验证明了其在图像数据集上对抗对抗攻击的稳健性。",
+    "tldr": "这项研究引入了一种新的神经网络架构，该架构利用热带性质能够抵抗对抗攻击，并通过实验证明了其在图像数据集上的稳健性。",
+    "en_tdlr": "This study introduces a new neural network architecture that is robust against adversarial attacks by exploiting the tropical nature of piece-wise linear neural networks, and its robustness is demonstrated on image datasets through computational experiments."
+}

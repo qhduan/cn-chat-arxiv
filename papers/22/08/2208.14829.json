@@ -1,0 +1,12 @@
+{
+    "title": "The optimality of (stochastic) veto delegation",
+    "abstract": "We analyze the optimal delegation problem between a principal and an agent, assuming that the latter has state-independent preferences. We demonstrate that if the principal is more risk-averse than the agent toward non-status quo options, an optimal mechanism is a {\\em veto mechanism}. In a veto mechanism, the principal uses veto (i.e., maintaining the status quo) to balance the agent's incentives and does not randomize among non-status quo options. We characterize the optimal veto mechanism in a one-dimensional setting. In the solution, the principal uses veto only when the state surpasses a critical threshold.",
+    "link": "https://arxiv.org/abs/2208.14829",
+    "context": "Title: The optimality of (stochastic) veto delegation\nAbstract: We analyze the optimal delegation problem between a principal and an agent, assuming that the latter has state-independent preferences. We demonstrate that if the principal is more risk-averse than the agent toward non-status quo options, an optimal mechanism is a {\\em veto mechanism}. In a veto mechanism, the principal uses veto (i.e., maintaining the status quo) to balance the agent's incentives and does not randomize among non-status quo options. We characterize the optimal veto mechanism in a one-dimensional setting. In the solution, the principal uses veto only when the state surpasses a critical threshold.",
+    "path": "papers/22/08/2208.14829.json",
+    "total_tokens": 699,
+    "translated_title": "（随机）否决授权的优化",
+    "translated_abstract": "我们分析了委托人和代理人之间的最优授权问题，假设后者具有独立于状态的偏好。我们证明，如果委托人对非现状选项更具风险规避性，那么最优机制是“否决机制”。在否决机制中，委托人使用否决（即保持现状）来平衡代理人的激励，不对非现状选项进行随机选择。我们在一维设置中描述了最优否决机制。在解决方案中，只有当状态超过临界阈值时，委托人才使用否决。",
+    "tldr": "本研究分析了委托人和代理人之间的最优授权问题，发现当委托人对非现状选项更具风险规避性时，最优的授权机制是使用否决来平衡代理人的激励，在特定条件下使用否决。",
+    "en_tdlr": "This study analyzes the optimal delegation problem between a principal and an agent and demonstrates that when the principal is more risk-averse towards non-status quo options, the optimal mechanism is to use veto to balance the agent's incentives under specific conditions."
+}

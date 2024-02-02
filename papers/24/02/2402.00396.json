@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Exploration for LLMs",
+    "abstract": "We present evidence of substantial benefit from efficient exploration in gathering human feedback to improve large language models. In our experiments, an agent sequentially generates queries while fitting a reward model to the feedback received. Our best-performing agent generates queries using double Thompson sampling, with uncertainty represented by an epistemic neural network. Our results demonstrate that efficient exploration enables high levels of performance with far fewer queries. Further, both uncertainty estimation and the choice of exploration scheme play critical roles.",
+    "link": "https://arxiv.org/abs/2402.00396",
+    "context": "Title: Efficient Exploration for LLMs\nAbstract: We present evidence of substantial benefit from efficient exploration in gathering human feedback to improve large language models. In our experiments, an agent sequentially generates queries while fitting a reward model to the feedback received. Our best-performing agent generates queries using double Thompson sampling, with uncertainty represented by an epistemic neural network. Our results demonstrate that efficient exploration enables high levels of performance with far fewer queries. Further, both uncertainty estimation and the choice of exploration scheme play critical roles.",
+    "path": "papers/24/02/2402.00396.json",
+    "total_tokens": 607,
+    "translated_title": "LLMs的高效探索",
+    "translated_abstract": "我们提供了证据，表明高效探索在获取人类反馈以改善大型语言模型方面具有显著优势。在我们的实验中，一个代理程序在收到反馈时将奖励模型拟合到查询上。我们表现最佳的代理程序使用双Thompson采样生成查询，不确定性由认知神经网络表示。我们的结果表明，高效探索使得性能水平可以在较少的查询下达到较高水平。此外，不确定性估计和探索方案的选择起着关键作用。",
+    "tldr": "高效探索在改善大型语言模型方面具有显著优势，可以以较少的查询实现较高的性能水平。不确定性估计和探索方案的选择是关键因素。",
+    "en_tdlr": "Efficient exploration has substantial benefits in improving large language models, achieving high performance levels with fewer queries. Uncertainty estimation and choice of exploration scheme are critical factors."
+}

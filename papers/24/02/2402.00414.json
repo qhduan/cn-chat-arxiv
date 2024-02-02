@@ -1,0 +1,12 @@
+{
+    "title": "Prompt-Time Symbolic Knowledge Capture with Large Language Models",
+    "abstract": "Augmenting large language models (LLMs) with user-specific knowledge is crucial for real-world applications, such as personal AI assistants. However, LLMs inherently lack mechanisms for prompt-driven knowledge capture. This paper investigates utilizing the existing LLM capabilities to enable prompt-driven knowledge capture, with a particular emphasis on knowledge graphs. We address this challenge by focusing on prompt-to-triple (P2T) generation. We explore three methods: zero-shot prompting, few-shot prompting, and fine-tuning, and then assess their performance via a specialized synthetic dataset. Our code and datasets are publicly available at https://github.com/HaltiaAI/paper-PTSKC.",
+    "link": "https://arxiv.org/abs/2402.00414",
+    "context": "Title: Prompt-Time Symbolic Knowledge Capture with Large Language Models\nAbstract: Augmenting large language models (LLMs) with user-specific knowledge is crucial for real-world applications, such as personal AI assistants. However, LLMs inherently lack mechanisms for prompt-driven knowledge capture. This paper investigates utilizing the existing LLM capabilities to enable prompt-driven knowledge capture, with a particular emphasis on knowledge graphs. We address this challenge by focusing on prompt-to-triple (P2T) generation. We explore three methods: zero-shot prompting, few-shot prompting, and fine-tuning, and then assess their performance via a specialized synthetic dataset. Our code and datasets are publicly available at https://github.com/HaltiaAI/paper-PTSKC.",
+    "path": "papers/24/02/2402.00414.json",
+    "total_tokens": 716,
+    "translated_title": "使用大型语言模型实现基于提示时间的符号知识捕获",
+    "translated_abstract": "为了实际应用，如个人AI助手，将大型语言模型（LLMs）与用户特定的知识相结合至关重要。然而，LLMs本身缺乏基于提示驱动的知识捕获机制。本文研究利用现有的LLMs能力实现基于提示驱动的知识捕获，特别关注知识图谱。我们通过关注提示到三元组（P2T）生成来应对这个挑战。我们探索了零射距、少射距和微调三种方法，并通过一个专门的合成数据集对它们的性能进行评估。我们的代码和数据集可以在https://github.com/HaltiaAI/paper-PTSKC上公开获取。",
+    "tldr": "本文研究利用大型语言模型来实现基于提示驱动的知识捕获，特别关注提示到三元组的生成，并通过专门的合成数据集评估了三种方法的性能。",
+    "en_tdlr": "This paper investigates utilizing large language models to enable prompt-driven knowledge capture, with a particular emphasis on prompt-to-triple generation, and evaluates three methods' performance on a specialized synthetic dataset."
+}

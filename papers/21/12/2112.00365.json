@@ -1,0 +1,12 @@
+{
+    "title": "Probability-Generating Function Kernels for Spherical Data",
+    "abstract": "Probability-generating function (PGF) kernels are introduced, which constitute a class of kernels supported on the unit hypersphere, for the purposes of spherical data analysis. PGF kernels generalize RBF kernels in the context of spherical data. The properties of PGF kernels are studied. A semi-parametric learning algorithm is introduced to enable the use of PGF kernels with spherical data.",
+    "link": "https://arxiv.org/abs/2112.00365",
+    "context": "Title: Probability-Generating Function Kernels for Spherical Data\nAbstract: Probability-generating function (PGF) kernels are introduced, which constitute a class of kernels supported on the unit hypersphere, for the purposes of spherical data analysis. PGF kernels generalize RBF kernels in the context of spherical data. The properties of PGF kernels are studied. A semi-parametric learning algorithm is introduced to enable the use of PGF kernels with spherical data.",
+    "path": "papers/21/12/2112.00365.json",
+    "total_tokens": 504,
+    "translated_title": "概率生成函数核在球面数据中的应用",
+    "translated_abstract": "引入概率生成函数（PGF）核，构成了一类在单位超球上支持的核，用于球面数据分析。PGF核在球面数据的背景下推广了RBF核。研究了PGF核的特性。引入了半参数学习算法，使得可以在球面数据中使用PGF核。",
+    "tldr": "该论文介绍了一种在球面数据分析中应用的概率生成函数核，扩展了RBF核并引入了半参数学习算法。",
+    "en_tdlr": "This paper introduces probability-generating function (PGF) kernels for spherical data analysis, extending RBF kernels and introducing a semi-parametric learning algorithm."
+}

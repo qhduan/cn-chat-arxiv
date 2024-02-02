@@ -1,0 +1,12 @@
+{
+    "title": "A technical note for the 91-clauses SAT resolution with Indirect QAOA based approach",
+    "abstract": "This paper addresses the resolution of the 3-SAT problem using a QAOA-like approach. The chosen principle involves modeling the solution ranks of the 3-SAT problem, which, in this particular case, directly represent a solution. This results in a highly compact circuit with few gates, enabling the modeling of large-sized 3-SAT problems. Numerical experimentation demonstrates that the approach can solve instances composed of 91 clauses and 20 variables with an implementation based on Qiskit.",
+    "link": "https://arxiv.org/abs/2402.00065",
+    "context": "Title: A technical note for the 91-clauses SAT resolution with Indirect QAOA based approach\nAbstract: This paper addresses the resolution of the 3-SAT problem using a QAOA-like approach. The chosen principle involves modeling the solution ranks of the 3-SAT problem, which, in this particular case, directly represent a solution. This results in a highly compact circuit with few gates, enabling the modeling of large-sized 3-SAT problems. Numerical experimentation demonstrates that the approach can solve instances composed of 91 clauses and 20 variables with an implementation based on Qiskit.",
+    "path": "papers/24/02/2402.00065.json",
+    "total_tokens": 604,
+    "translated_title": "一种基于间接QAOA方法的91个子句SAT解析的技术注释",
+    "translated_abstract": "本文通过使用一种类似QAOA的方法解决3-SAT问题。所选择的原则涉及对3-SAT问题的解决方案进行建模，这在这种特定情况下直接代表一种解决方案。这导致了一个非常紧凑的电路，门数量较少，可以对大规模的3-SAT问题进行建模。数值实验表明，该方法可以使用Qiskit实现解决由91个子句和20个变量组成的实例。",
+    "tldr": "本文针对3-SAT问题提出了一种基于QAOA的间接方法，通过建模解决方案的排名来实现高效的解析，可以处理大规模的问题。",
+    "en_tdlr": "This paper presents an indirect QAOA-based approach for solving the 3-SAT problem, which models the solution ranks to achieve efficient resolution and handle large-scale problems."
+}

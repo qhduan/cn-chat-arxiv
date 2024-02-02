@@ -1,0 +1,11 @@
+{
+    "title": "Computational Morphology and Lexicography Modeling of Modern Standard Arabic Nominals",
+    "abstract": "Modern Standard Arabic (MSA) nominals present many morphological and lexical modeling challenges that have not been consistently addressed previously. This paper attempts to define the space of such challenges, and leverage a recently proposed morphological framework to build a comprehensive and extensible model for MSA nominals. Our model design addresses the nominals' intricate morphotactics, as well as their paradigmatic irregularities. Our implementation showcases enhanced accuracy and consistency compared to a commonly used MSA morphological analyzer and generator. We make our models publicly available.",
+    "link": "https://arxiv.org/abs/2402.00385",
+    "context": "Title: Computational Morphology and Lexicography Modeling of Modern Standard Arabic Nominals\nAbstract: Modern Standard Arabic (MSA) nominals present many morphological and lexical modeling challenges that have not been consistently addressed previously. This paper attempts to define the space of such challenges, and leverage a recently proposed morphological framework to build a comprehensive and extensible model for MSA nominals. Our model design addresses the nominals' intricate morphotactics, as well as their paradigmatic irregularities. Our implementation showcases enhanced accuracy and consistency compared to a commonly used MSA morphological analyzer and generator. We make our models publicly available.",
+    "path": "papers/24/02/2402.00385.json",
+    "total_tokens": 732,
+    "translated_title": "计算形态学和词典学模型对现代标准阿拉伯语名词的建模",
+    "translated_abstract": "现代标准阿拉伯语名词存在许多形态和词汇建模的挑战，但之前尚未得到一致的解决。本文试图定义这些挑战，并利用最近提出的形态学框架构建一个全面且可扩展的现代标准阿拉伯语名词模型。我们的模型设计解决了名词复杂的形态规则以及其范式的不规则性。与常用的现代标准阿拉伯语形态分析器和生成器相比，我们的实现展示了更高的准确性和一致性。我们将我们的模型公开提供。",
+    "tldr": "本研究通过计算形态学和词典学模型成功解决了现代标准阿拉伯语名词的形态和词汇建模挑战，提供了全面和可扩展的模型，并在准确性和一致性上显著优于常用的分析器和生成器。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Not All Learnable Distribution Classes are Privately Learnable",
+    "abstract": "We give an example of a class of distributions that is learnable in total variation distance with a finite number of samples, but not learnable under $(\\varepsilon, \\delta)$-differential privacy. This refutes a conjecture of Ashtiani.",
+    "link": "https://arxiv.org/abs/2402.00267",
+    "context": "Title: Not All Learnable Distribution Classes are Privately Learnable\nAbstract: We give an example of a class of distributions that is learnable in total variation distance with a finite number of samples, but not learnable under $(\\varepsilon, \\delta)$-differential privacy. This refutes a conjecture of Ashtiani.",
+    "path": "papers/24/02/2402.00267.json",
+    "total_tokens": 506,
+    "translated_title": "并非所有可学习的分布类都能在差分隐私下进行学习",
+    "translated_abstract": "我们给出了一个示例，展示了一类分布在有限样本下可以以总变差距离进行学习，但在（ε，δ）-差分隐私下无法学习。这推翻了Ashtiani的一个猜想。",
+    "tldr": "这篇论文证明了一类分布虽然可以在有限样本下以总变差距离进行学习，但却无法在（ε，δ）-差分隐私下学习。",
+    "en_tdlr": "This paper proves that a class of distributions can be learned in total variation distance with a finite number of samples, but cannot be learned under (ε, δ)-differential privacy, refuting a conjecture of Ashtiani."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Mesh motion in fluid-structure interaction with deep operator networks",
+    "abstract": "A mesh motion model based on deep operator networks is presented. The model is trained on and evaluated against a biharmonic mesh motion model on a fluid-structure interaction benchmark problem and further evaluated in a setting where biharmonic mesh motion fails. The performance of the proposed mesh motion model is comparable to the biharmonic mesh motion on the test problems.",
+    "link": "https://arxiv.org/abs/2402.00774",
+    "context": "Title: Mesh motion in fluid-structure interaction with deep operator networks\nAbstract: A mesh motion model based on deep operator networks is presented. The model is trained on and evaluated against a biharmonic mesh motion model on a fluid-structure interaction benchmark problem and further evaluated in a setting where biharmonic mesh motion fails. The performance of the proposed mesh motion model is comparable to the biharmonic mesh motion on the test problems.",
+    "path": "papers/24/02/2402.00774.json",
+    "total_tokens": 529,
+    "translated_title": "流体-结构相互作用中的深度运算网络中的网格运动",
+    "translated_abstract": "提出了一种基于深度运算网络的网格运动模型。该模型在流体-结构相互作用基准问题上进行训练和评估，并在双调和网格运动模型失败的情况下进行进一步评估。所提出的网格运动模型在测试问题上的性能与双调和网格运动相当。",
+    "tldr": "提出了一种基于深度运算网络的网格运动模型，在流体-结构相互作用问题中表现出与传统的双调和网格运动相当的性能。",
+    "en_tdlr": "A mesh motion model based on deep operator networks is introduced, which shows comparable performance to the traditional biharmonic mesh motion in fluid-structure interaction problems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Control in Stochastic Environment with Delays: A Model-based Reinforcement Learning Approach",
+    "abstract": "In this paper we are introducing a new reinforcement learning method for control problems in environments with delayed feedback. Specifically, our method employs stochastic planning, versus previous methods that used deterministic planning. This allows us to embed risk preference in the policy optimization problem. We show that this formulation can recover the optimal policy for problems with deterministic transitions. We contrast our policy with two prior methods from literature. We apply the methodology to simple tasks to understand its features. Then, we compare the performance of the methods in controlling multiple Atari games.",
+    "link": "https://arxiv.org/abs/2402.00313",
+    "context": "Title: Control in Stochastic Environment with Delays: A Model-based Reinforcement Learning Approach\nAbstract: In this paper we are introducing a new reinforcement learning method for control problems in environments with delayed feedback. Specifically, our method employs stochastic planning, versus previous methods that used deterministic planning. This allows us to embed risk preference in the policy optimization problem. We show that this formulation can recover the optimal policy for problems with deterministic transitions. We contrast our policy with two prior methods from literature. We apply the methodology to simple tasks to understand its features. Then, we compare the performance of the methods in controlling multiple Atari games.",
+    "path": "papers/24/02/2402.00313.json",
+    "total_tokens": 713,
+    "translated_title": "控制随机环境中带延迟的问题：一种基于模型的强化学习方法",
+    "translated_abstract": "本文介绍了一种新的强化学习方法，用于带有延迟反馈的控制问题。具体而言，我们的方法采用了随机规划，而不是之前使用确定性规划的方法。这使得我们能够在策略优化问题中嵌入风险偏好。我们证明了该公式可以恢复具有确定性转换问题的最优策略。我们将我们的策略与文献中的两种先前方法进行对比。我们将该方法应用于简单任务，以了解其特点。然后，我们比较了在控制多个Atari游戏中的方法性能。",
+    "tldr": "这篇论文介绍了一种新的基于模型的强化学习方法，用于控制带有延迟反馈的随机环境中的问题，该方法采用随机规划，能够嵌入风险偏好，并在确定性转换问题中恢复最优策略。",
+    "en_tdlr": "This paper presents a new model-based reinforcement learning method for controlling problems in stochastic environments with delayed feedback. The method employs stochastic planning, allowing for risk preference and recovery of optimal policies in problems with deterministic transitions."
+}

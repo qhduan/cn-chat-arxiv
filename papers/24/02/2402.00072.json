@@ -1,0 +1,12 @@
+{
+    "title": "Explainable AI for survival analysis: a median-SHAP approach",
+    "abstract": "With the adoption of machine learning into routine clinical practice comes the need for Explainable AI methods tailored to medical applications. Shapley values have sparked wide interest for locally explaining models. Here, we demonstrate their interpretation strongly depends on both the summary statistic and the estimator for it, which in turn define what we identify as an 'anchor point'. We show that the convention of using a mean anchor point may generate misleading interpretations for survival analysis and introduce median-SHAP, a method for explaining black-box models predicting individual survival times.",
+    "link": "https://arxiv.org/abs/2402.00072",
+    "context": "Title: Explainable AI for survival analysis: a median-SHAP approach\nAbstract: With the adoption of machine learning into routine clinical practice comes the need for Explainable AI methods tailored to medical applications. Shapley values have sparked wide interest for locally explaining models. Here, we demonstrate their interpretation strongly depends on both the summary statistic and the estimator for it, which in turn define what we identify as an 'anchor point'. We show that the convention of using a mean anchor point may generate misleading interpretations for survival analysis and introduce median-SHAP, a method for explaining black-box models predicting individual survival times.",
+    "path": "papers/24/02/2402.00072.json",
+    "total_tokens": 660,
+    "translated_title": "可解释的人工智能用于生存分析：一种中位数-SHAP方法",
+    "translated_abstract": "随着机器学习在临床实践中的应用，对于医疗应用来说，需要针对性的可解释的人工智能方法。Shapley值在局部解释模型方面引起了广泛关注。在这里，我们展示了Shapley值的解释性强烈依赖于摘要统计量和估计量，这些统计量和估计量定义了我们所认为的“锚点”。我们表明，使用均值锚点的惯例可能在生存分析中产生误导性的解释，并引入了一种称为中位数-SHAP的方法，用于解释预测个体生存时间的黑盒子模型。",
+    "tldr": "这项研究介绍了一种中位数-SHAP方法，用于解释黑盒子模型在预测个体生存时间方面产生的解释偏差问题。",
+    "en_tdlr": "This research introduces a median-SHAP approach to address the issue of interpretability bias in explaining individual survival times predicted by black-box models."
+}

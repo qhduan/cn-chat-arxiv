@@ -1,0 +1,11 @@
+{
+    "title": "Understanding Neural Network Systems for Image Analysis using Vector Spaces and Inverse Maps",
+    "abstract": "There is strong interest in developing mathematical methods that can be used to understand complex neural networks used in image analysis. In this paper, we introduce techniques from Linear Algebra to model neural network layers as maps between signal spaces. First, we demonstrate how signal spaces can be used to visualize weight spaces and convolutional layer kernels. We also demonstrate how residual vector spaces can be used to further visualize information lost at each layer. Second, we introduce the concept of invertible networks and an algorithm for computing input images that yield specific outputs. We demonstrate our approach on two invertible networks and ResNet18.",
+    "link": "https://arxiv.org/abs/2402.00261",
+    "context": "Title: Understanding Neural Network Systems for Image Analysis using Vector Spaces and Inverse Maps\nAbstract: There is strong interest in developing mathematical methods that can be used to understand complex neural networks used in image analysis. In this paper, we introduce techniques from Linear Algebra to model neural network layers as maps between signal spaces. First, we demonstrate how signal spaces can be used to visualize weight spaces and convolutional layer kernels. We also demonstrate how residual vector spaces can be used to further visualize information lost at each layer. Second, we introduce the concept of invertible networks and an algorithm for computing input images that yield specific outputs. We demonstrate our approach on two invertible networks and ResNet18.",
+    "path": "papers/24/02/2402.00261.json",
+    "total_tokens": 652,
+    "translated_title": "使用向量空间和逆映射了解图像分析中神经网络系统的研究",
+    "translated_abstract": "开发数学方法来理解图像分析中复杂的神经网络系统具有极大的兴趣。本文介绍了利用线性代数技术将神经网络层视为信号空间之间的映射的方法。首先，我们演示了如何使用信号空间来可视化权重空间和卷积层卷积核。其次，我们引入了可逆网络的概念和计算产生特定输出的输入图像的算法。我们在两个可逆网络和ResNet18上演示了我们的方法。",
+    "tldr": "本文使用线性代数技术将神经网络层视为信号空间之间的映射，并引入了可逆网络的概念和计算产生特定输出的输入图像的算法。"
+}

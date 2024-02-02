@@ -1,0 +1,11 @@
+{
+    "title": "Understanding the Expressive Power and Mechanisms of Transformer for Sequence Modeling",
+    "abstract": "We conduct a systematic study of the approximation properties of Transformer for sequence modeling with long, sparse and complicated memory. We investigate the mechanisms through which different components of Transformer, such as the dot-product self-attention, positional encoding and feed-forward layer, affect its expressive power, and we study their combined effects through establishing explicit approximation rates. Our study reveals the roles of critical parameters in the Transformer, such as the number of layers and the number of attention heads, and these insights also provide natural suggestions for alternative architectures.",
+    "link": "https://arxiv.org/abs/2402.00522",
+    "context": "Title: Understanding the Expressive Power and Mechanisms of Transformer for Sequence Modeling\nAbstract: We conduct a systematic study of the approximation properties of Transformer for sequence modeling with long, sparse and complicated memory. We investigate the mechanisms through which different components of Transformer, such as the dot-product self-attention, positional encoding and feed-forward layer, affect its expressive power, and we study their combined effects through establishing explicit approximation rates. Our study reveals the roles of critical parameters in the Transformer, such as the number of layers and the number of attention heads, and these insights also provide natural suggestions for alternative architectures.",
+    "path": "papers/24/02/2402.00522.json",
+    "total_tokens": 661,
+    "translated_title": "理解Transformer在序列建模中的表达能力和机制",
+    "translated_abstract": "我们对Transformer在长、稀疏和复杂记忆的序列建模中的近似性质进行了系统研究。我们调查了Transformer的不同组件（如点积自注意力、位置编码和前馈层）是如何影响其表达能力的机制，并通过建立明确的近似率来研究它们的综合影响。我们的研究揭示了Transformer中关键参数（如层数和注意力头数）的作用，并且这些洞察还为替代架构提供了自然建议。",
+    "tldr": "本研究系统地探讨了Transformer在长序列建模中的近似性质，并研究了其关键组件对表达能力的影响机制。这些发现揭示了关键参数对Transformer的作用，并为替代架构提供了自然建议。"
+}

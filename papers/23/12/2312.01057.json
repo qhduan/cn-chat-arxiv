@@ -1,0 +1,12 @@
+{
+    "title": "RLHF and IIA: Perverse Incentives",
+    "abstract": "Existing algorithms for reinforcement learning from human feedback (RLHF) can incentivize responses at odds with preferences because they are based on models that assume independence of irrelevant alternatives (IIA). The perverse incentives induced by IIA hinder innovations on query formats and learning algorithms.",
+    "link": "https://arxiv.org/abs/2312.01057",
+    "context": "Title: RLHF and IIA: Perverse Incentives\nAbstract: Existing algorithms for reinforcement learning from human feedback (RLHF) can incentivize responses at odds with preferences because they are based on models that assume independence of irrelevant alternatives (IIA). The perverse incentives induced by IIA hinder innovations on query formats and learning algorithms.",
+    "path": "papers/23/12/2312.01057.json",
+    "total_tokens": 475,
+    "translated_title": "RLHF和IIA：倒置激励",
+    "translated_abstract": "现有的基于人类反馈的强化学习算法（RLHF）可以激励与偏好不符的回应，因为它们基于假设无关概括的模型（IIA）。IIA引发的倒置激励阻碍了查询格式和学习算法的创新。",
+    "tldr": "RLHF算法中的IIA假设导致了倒置激励，限制了查询格式和学习算法的创新。",
+    "en_tdlr": "The assumption of independence of irrelevant alternatives (IIA) in RLHF algorithms leads to perverse incentives, limiting innovation in query formats and learning algorithms."
+}

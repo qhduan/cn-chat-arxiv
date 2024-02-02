@@ -1,0 +1,12 @@
+{
+    "title": "Random Forest-Based Prediction of Stroke Outcome",
+    "abstract": "We research into the clinical, biochemical and neuroimaging factors associated with the outcome of stroke patients to generate a predictive model using machine learning techniques for prediction of mortality and morbidity 3 months after admission. The dataset consisted of patients with ischemic stroke (IS) and non-traumatic intracerebral hemorrhage (ICH) admitted to Stroke Unit of a European Tertiary Hospital prospectively registered. We identified the main variables for machine learning Random Forest (RF), generating a predictive model that can estimate patient mortality/morbidity. In conclusion, machine learning algorithms RF can be effectively used in stroke patients for long-term outcome prediction of mortality and morbidity.",
+    "link": "https://arxiv.org/abs/2402.00638",
+    "context": "Title: Random Forest-Based Prediction of Stroke Outcome\nAbstract: We research into the clinical, biochemical and neuroimaging factors associated with the outcome of stroke patients to generate a predictive model using machine learning techniques for prediction of mortality and morbidity 3 months after admission. The dataset consisted of patients with ischemic stroke (IS) and non-traumatic intracerebral hemorrhage (ICH) admitted to Stroke Unit of a European Tertiary Hospital prospectively registered. We identified the main variables for machine learning Random Forest (RF), generating a predictive model that can estimate patient mortality/morbidity. In conclusion, machine learning algorithms RF can be effectively used in stroke patients for long-term outcome prediction of mortality and morbidity.",
+    "path": "papers/24/02/2402.00638.json",
+    "total_tokens": 727,
+    "translated_title": "基于随机森林的中风结果预测",
+    "translated_abstract": "我们研究了与中风患者结果相关的临床、生化和神经成像因素，利用机器学习技术生成了一个预测模型，用于预测入院后3个月的死亡率和发病率。数据集包括欧洲三级医院中风单元入院的缺血性中风（IS）和非创伤性颅内出血（ICH）患者。我们识别了机器学习随机森林（RF）的主要变量，生成了一个可以估计患者死亡率/发病率的预测模型。总之，机器学习算法随机森林可以有效地用于中风患者的长期结果预测死亡率和发病率。",
+    "tldr": "该论文研究了与中风患者结果相关的因素，利用机器学习技术生成了一个预测模型，能够有效预测入院后3个月的死亡率和发病率。",
+    "en_tdlr": "This paper investigates factors associated with the outcome of stroke patients and develops a predictive model using machine learning to effectively predict mortality and morbidity 3 months after admission."
+}

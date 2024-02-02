@@ -1,0 +1,12 @@
+{
+    "title": "EvoMerge: Neuroevolution for Large Language Models",
+    "abstract": "Extensive fine-tuning on Large Language Models does not always yield better results. Oftentimes, models tend to get better at imitating one form of data without gaining greater reasoning ability and may even end up losing some intelligence. Here I introduce EvoMerge, a systematic approach to large language model training and merging. Leveraging model merging for weight crossover and fine-tuning for weight mutation, EvoMerge establishes an evolutionary process aimed at pushing models beyond the limits of conventional fine-tuning.",
+    "link": "https://arxiv.org/abs/2402.00070",
+    "context": "Title: EvoMerge: Neuroevolution for Large Language Models\nAbstract: Extensive fine-tuning on Large Language Models does not always yield better results. Oftentimes, models tend to get better at imitating one form of data without gaining greater reasoning ability and may even end up losing some intelligence. Here I introduce EvoMerge, a systematic approach to large language model training and merging. Leveraging model merging for weight crossover and fine-tuning for weight mutation, EvoMerge establishes an evolutionary process aimed at pushing models beyond the limits of conventional fine-tuning.",
+    "path": "papers/24/02/2402.00070.json",
+    "total_tokens": 609,
+    "translated_title": "EvoMerge:针对大型语言模型的神经进化",
+    "translated_abstract": "在大型语言模型的广泛微调中，并不总能取得更好的结果。往往模型更擅长模仿一种数据形式而不具备更强的推理能力，甚至可能失去一些智能。这里我介绍了EvoMerge，一种用于大型语言模型训练和合并的系统性方法。通过利用权重交叉和微调进行权重变异，EvoMerge建立了一个旨在将模型推向超越传统微调限制的进化过程。",
+    "tldr": "EvoMerge是一种针对大型语言模型训练和合并的系统性方法，通过权重交叉和微调进行权重变异，旨在将模型推向超越传统微调限制的进化过程。",
+    "en_tdlr": "EvoMerge is a systematic approach for training and merging large language models, using weight crossover and fine-tuning for weight mutation, aiming to push models beyond the limits of conventional fine-tuning."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Distilling Conditional Diffusion Models for Offline Reinforcement Learning through Trajectory Stitching",
+    "abstract": "Deep generative models have recently emerged as an effective approach to offline reinforcement learning. However, their large model size poses challenges in computation. We address this issue by proposing a knowledge distillation method based on data augmentation. In particular, high-return trajectories are generated from a conditional diffusion model, and they are blended with the original trajectories through a novel stitching algorithm that leverages a new reward generator. Applying the resulting dataset to behavioral cloning, the learned shallow policy whose size is much smaller outperforms or nearly matches deep generative planners on several D4RL benchmarks.",
+    "link": "https://arxiv.org/abs/2402.00807",
+    "context": "Title: Distilling Conditional Diffusion Models for Offline Reinforcement Learning through Trajectory Stitching\nAbstract: Deep generative models have recently emerged as an effective approach to offline reinforcement learning. However, their large model size poses challenges in computation. We address this issue by proposing a knowledge distillation method based on data augmentation. In particular, high-return trajectories are generated from a conditional diffusion model, and they are blended with the original trajectories through a novel stitching algorithm that leverages a new reward generator. Applying the resulting dataset to behavioral cloning, the learned shallow policy whose size is much smaller outperforms or nearly matches deep generative planners on several D4RL benchmarks.",
+    "path": "papers/24/02/2402.00807.json",
+    "total_tokens": 759,
+    "translated_title": "通过轨迹拼接将条件性扩散模型提炼为离线强化学习的方法",
+    "translated_abstract": "深度生成模型最近已经成为离线强化学习的一种有效方法。然而，它们的大模型规模在计算上提出了挑战。为了解决这个问题，我们提出了一种基于数据增强的知识蒸馏方法。具体而言，我们从条件性扩散模型中生成高回报轨迹，并通过一种新的拼接算法将它们与原始轨迹混合，该算法利用了一种新的奖励生成器。将所得到的数据集应用于行为克隆，学得的规模较小的浅层策略在几个D4RL基准测试中胜过或接近深度生成规划器。",
+    "tldr": "通过新的轨迹拼接算法和奖励生成器，使用条件性扩散模型生成的高回报轨迹与原始轨迹混合，应用于行为克隆的结果表明，学得的规模较小的浅层策略在多个D4RL基准测试中超过或接近深度生成规划器。",
+    "en_tdlr": "By blending high-return trajectories generated from a conditional diffusion model with original trajectories using a novel stitching algorithm and a reward generator, the resulting learned shallow policy outperforms or closely matches deep generative planners on several D4RL benchmarks."
+}

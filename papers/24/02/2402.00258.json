@@ -1,0 +1,11 @@
+{
+    "title": "Multi-group Learning for Hierarchical Groups",
+    "abstract": "The multi-group learning model formalizes the learning scenario in which a single predictor must generalize well on multiple, possibly overlapping subgroups of interest. We extend the study of multi-group learning to the natural case where the groups are hierarchically structured. We design an algorithm for this setting that outputs an interpretable and deterministic decision tree predictor with near-optimal sample complexity. We then conduct an empirical evaluation of our algorithm and find that it achieves attractive generalization properties on real datasets with hierarchical group structure.",
+    "link": "https://arxiv.org/abs/2402.00258",
+    "context": "Title: Multi-group Learning for Hierarchical Groups\nAbstract: The multi-group learning model formalizes the learning scenario in which a single predictor must generalize well on multiple, possibly overlapping subgroups of interest. We extend the study of multi-group learning to the natural case where the groups are hierarchically structured. We design an algorithm for this setting that outputs an interpretable and deterministic decision tree predictor with near-optimal sample complexity. We then conduct an empirical evaluation of our algorithm and find that it achieves attractive generalization properties on real datasets with hierarchical group structure.",
+    "path": "papers/24/02/2402.00258.json",
+    "total_tokens": 652,
+    "translated_title": "多组学习的层次组模型",
+    "translated_abstract": "多组学习模型将学习场景规范化为单一预测器在多个可能重叠的兴趣子组上必须广义化。我们将多组学习的研究扩展到了具有层次结构的自然情况。我们设计了一个算法，用于输出可解释且确定性的决策树预测器，具有近乎最优的样本复杂度。然后，我们对该算法进行经验评估，并发现它在具有层次组结构的真实数据集上具有有吸引力的广义化特性。",
+    "tldr": "本研究将多组学习扩展到具有层次结构的情况，设计了一个近乎最优的样本复杂度的算法，输出可解释且确定性的决策树预测器，并在真实数据集上取得了有吸引力的广义化特性。"
+}

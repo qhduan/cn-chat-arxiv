@@ -1,0 +1,11 @@
+{
+    "title": "Building Expressive and Tractable Probabilistic Generative Models: A Review",
+    "abstract": "We present a comprehensive survey of the advancements and techniques in the field of tractable probabilistic generative modeling, primarily focusing on Probabilistic Circuits (PCs). We provide a unified perspective on the inherent trade-offs between expressivity and the tractability, highlighting the design principles and algorithmic extensions that have enabled building expressive and efficient PCs, and provide a taxonomy of the field. We also discuss recent efforts to build deep and hybrid PCs by fusing notions from deep neural models, and outline the challenges and open questions that can guide future research in this evolving field.",
+    "link": "https://arxiv.org/abs/2402.00759",
+    "context": "Title: Building Expressive and Tractable Probabilistic Generative Models: A Review\nAbstract: We present a comprehensive survey of the advancements and techniques in the field of tractable probabilistic generative modeling, primarily focusing on Probabilistic Circuits (PCs). We provide a unified perspective on the inherent trade-offs between expressivity and the tractability, highlighting the design principles and algorithmic extensions that have enabled building expressive and efficient PCs, and provide a taxonomy of the field. We also discuss recent efforts to build deep and hybrid PCs by fusing notions from deep neural models, and outline the challenges and open questions that can guide future research in this evolving field.",
+    "path": "papers/24/02/2402.00759.json",
+    "total_tokens": 804,
+    "translated_title": "构建富有表现力和可处理的概率生成模型：一项综述",
+    "translated_abstract": "我们对可处理的概率生成建模领域中的进展和技术进行了全面的调查，重点关注概率电路（PCs）。我们提供了关于表达能力和可处理性之间固有权衡的统一视角，突出了使PCs富有表现力和高效的设计原则和算法扩展，并提供了该领域的分类法。我们还讨论了最近通过融合深度神经模型概念来构建深度和混合PCs的努力，并概述了指导未来研究的挑战和开放性问题。",
+    "tldr": "本文综述了富有表现力和可处理的概率生成建模领域的进展和技术，并重点关注了概率电路。文章提供了关于表达能力和可处理性之间权衡的统一视角，并说明了设计原则和算法扩展，成功地构建了富有表现力和高效的概率电路。此外，文章还讨论了最新的深度和混合概率电路研究，并概述了未来研究的挑战和开放性问题。"
+}

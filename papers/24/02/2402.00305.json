@@ -1,0 +1,12 @@
+{
+    "title": "Information-Theoretic Thresholds for Planted Dense Cycles",
+    "abstract": "We study a random graph model for small-world networks which are ubiquitous in social and biological sciences. In this model, a dense cycle of expected bandwidth $n \\tau$, representing the hidden one-dimensional geometry of vertices, is planted in an ambient random graph on $n$ vertices. For both detection and recovery of the planted dense cycle, we characterize the information-theoretic thresholds in terms of $n$, $\\tau$, and an edge-wise signal-to-noise ratio $\\lambda$. In particular, the information-theoretic thresholds differ from the computational thresholds established in a recent work for low-degree polynomial algorithms, thereby justifying the existence of statistical-to-computational gaps for this problem.",
+    "link": "https://arxiv.org/abs/2402.00305",
+    "context": "Title: Information-Theoretic Thresholds for Planted Dense Cycles\nAbstract: We study a random graph model for small-world networks which are ubiquitous in social and biological sciences. In this model, a dense cycle of expected bandwidth $n \\tau$, representing the hidden one-dimensional geometry of vertices, is planted in an ambient random graph on $n$ vertices. For both detection and recovery of the planted dense cycle, we characterize the information-theoretic thresholds in terms of $n$, $\\tau$, and an edge-wise signal-to-noise ratio $\\lambda$. In particular, the information-theoretic thresholds differ from the computational thresholds established in a recent work for low-degree polynomial algorithms, thereby justifying the existence of statistical-to-computational gaps for this problem.",
+    "path": "papers/24/02/2402.00305.json",
+    "total_tokens": 765,
+    "translated_title": "信息论阈值对于种植的稠密环路的研究",
+    "translated_abstract": "我们研究了一种用于社会和生物科学中无处不在的小世界网络的随机图模型。在这个模型中，预期带宽为$n \\tau$的密集环路，代表了顶点之间隐藏的一维几何关系，种植在了一个包含$n$个顶点的随机图中。针对种植的稠密环路的检测和恢复，我们以$n$、$\\tau$和边缘信噪比$\\lambda$为参数，刻画了信息论阈值。特别地，这些信息论阈值与最近一个基于低次多项式算法的计算阈值不同，从而证明了该问题存在统计与计算之间的差距。",
+    "tldr": "本论文研究了一种小世界网络的随机图模型，在这个模型中，通过信息论阈值来刻画种植的稠密环路的检测和恢复问题，这与之前基于计算阈值的研究结果不同，揭示了统计与计算之间的差距。",
+    "en_tdlr": "This paper studies a random graph model for small-world networks and characterizes the thresholds for detection and recovery of a planted dense cycle using information theory, revealing a statistical-to-computational gap different from previous computational threshold-based studies."
+}

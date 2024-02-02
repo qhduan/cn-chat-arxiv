@@ -1,0 +1,11 @@
+{
+    "title": "Accelerating a Triton Fused Kernel for W4A16 Quantized Inference with SplitK work decomposition",
+    "abstract": "We propose an implementation of an efficient fused matrix multiplication kernel for W4A16 quantized inference, where we perform dequantization and GEMM in a fused kernel using a SplitK work decomposition. Our implementation shows improvement for the type of skinny matrix-matrix multiplications found in foundation model inference workloads. In particular, this paper surveys the type of matrix multiplication between a skinny activation matrix and a square weight matrix. Our results show an average of 65% speed improvement on A100, and an average of 124% speed improvement on H100 (with a peak of 295%) for a range of matrix dimensions including those found in a llama-style model, where m < n = k.",
+    "link": "https://arxiv.org/abs/2402.00025",
+    "context": "Title: Accelerating a Triton Fused Kernel for W4A16 Quantized Inference with SplitK work decomposition\nAbstract: We propose an implementation of an efficient fused matrix multiplication kernel for W4A16 quantized inference, where we perform dequantization and GEMM in a fused kernel using a SplitK work decomposition. Our implementation shows improvement for the type of skinny matrix-matrix multiplications found in foundation model inference workloads. In particular, this paper surveys the type of matrix multiplication between a skinny activation matrix and a square weight matrix. Our results show an average of 65% speed improvement on A100, and an average of 124% speed improvement on H100 (with a peak of 295%) for a range of matrix dimensions including those found in a llama-style model, where m < n = k.",
+    "path": "papers/24/02/2402.00025.json",
+    "total_tokens": 802,
+    "translated_title": "使用SplitK工作分解加速W4A16量化推断的Triton融合内核",
+    "translated_abstract": "我们提出了一种有效的融合矩阵乘法内核的实现，用于W4A16量化推断，在融合内核中执行解量化和GEMM操作，并使用SplitK工作分解。我们的实现对于基于foundation模型推断工作负载中的瘦矩阵乘法有所改进。具体而言，本文调查了瘦激活矩阵和方形权重矩阵之间的矩阵乘法类型。我们的结果显示，在一系列矩阵维度（包括llama-style模型中的维度，其中m < n = k）上，A100的平均速度提升了65％，H100的平均速度提升了124％（峰值为295％）。",
+    "tldr": "本研究提出了一种加速W4A16量化推断的Triton融合内核的实现方法，通过使用SplitK工作分解实现解量化和GEMM操作，显著提高了瘦矩阵乘法的执行速度。"
+}

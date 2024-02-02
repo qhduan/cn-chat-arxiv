@@ -1,0 +1,12 @@
+{
+    "title": "A Crucial Parameter for Rank-Frequency Relation in Natural Languages",
+    "abstract": "$f \\propto r^{-\\alpha} \\cdot (r+\\gamma)^{-\\beta}$ has been empirically shown more precise than a na\\\"ive power law $f\\propto r^{-\\alpha}$ to model the rank-frequency ($r$-$f$) relation of words in natural languages. This work shows that the only crucial parameter in the formulation is $\\gamma$, which depicts the resistance to vocabulary growth on a corpus. A method of parameter estimation by searching an optimal $\\gamma$ is proposed, where a ``zeroth word'' is introduced technically for the calculation. The formulation and parameters are further discussed with several case studies.",
+    "link": "https://arxiv.org/abs/2402.00271",
+    "context": "Title: A Crucial Parameter for Rank-Frequency Relation in Natural Languages\nAbstract: $f \\propto r^{-\\alpha} \\cdot (r+\\gamma)^{-\\beta}$ has been empirically shown more precise than a na\\\"ive power law $f\\propto r^{-\\alpha}$ to model the rank-frequency ($r$-$f$) relation of words in natural languages. This work shows that the only crucial parameter in the formulation is $\\gamma$, which depicts the resistance to vocabulary growth on a corpus. A method of parameter estimation by searching an optimal $\\gamma$ is proposed, where a ``zeroth word'' is introduced technically for the calculation. The formulation and parameters are further discussed with several case studies.",
+    "path": "papers/24/02/2402.00271.json",
+    "total_tokens": 798,
+    "translated_title": "自然语言中等级-频率关系的一个关键参数",
+    "translated_abstract": "与朴素的幂律$f\\propto r^{-\\alpha}$相比，$f \\propto r^{-\\alpha} \\cdot (r+\\gamma)^{-\\beta}$在实证上更准确地模拟了自然语言中单词的等级-频率（r-f）关系。本研究表明，在这个公式中，唯一关键的参数是$\\gamma$，它描述了词汇增长对语料库的抵抗力。还提出了通过搜索最优$\\gamma$来进行参数估计的方法，其中技术上引入了一个“零词”用于计算。通过几个案例研究进一步讨论了公式和参数。",
+    "tldr": "本研究发现自然语言中单词的等级-频率关系可以更准确地由公式$f\\propto r^{-\\alpha} \\cdot (r+\\gamma)^{-\\beta}$来模拟，其中关键的参数是$\\gamma$，它描述了词汇增长对语料库的影响。同时提出了一种通过搜索最优$\\gamma$来估计参数的方法，并用案例研究论证了该公式和参数的适用性。",
+    "en_tdlr": "This study finds that the rank-frequency relation of words in natural languages can be more accurately modeled by the formula $f\\propto r^{-\\alpha} \\cdot (r+\\gamma)^{-\\beta}$, with the crucial parameter being $\\gamma$ which depicts the resistance to vocabulary growth. A method for estimating the parameter through optimal $\\gamma$ search is proposed, and the formulation and parameters are further discussed through case studies."
+}
