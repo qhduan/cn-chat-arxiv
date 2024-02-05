@@ -1,0 +1,12 @@
+{
+    "title": "Nomic Embed: Training a Reproducible Long Context Text Embedder",
+    "abstract": "This technical report describes the training of nomic-embed-text-v1, the first fully reproducible, open-source, open-weights, open-data, 8192 context length English text embedding model that outperforms both OpenAI Ada-002 and OpenAI text-embedding-3-small on short and long-context tasks. We release the training code and model weights under an Apache 2 license. In contrast with other open-source models, we release a training data loader with 235 million curated text pairs that allows for the full replication of nomic-embed-text-v1. You can find code and data to replicate the model at https://github.com/nomic-ai/contrastors",
+    "link": "https://rss.arxiv.org/abs/2402.01613",
+    "context": "Title: Nomic Embed: Training a Reproducible Long Context Text Embedder\nAbstract: This technical report describes the training of nomic-embed-text-v1, the first fully reproducible, open-source, open-weights, open-data, 8192 context length English text embedding model that outperforms both OpenAI Ada-002 and OpenAI text-embedding-3-small on short and long-context tasks. We release the training code and model weights under an Apache 2 license. In contrast with other open-source models, we release a training data loader with 235 million curated text pairs that allows for the full replication of nomic-embed-text-v1. You can find code and data to replicate the model at https://github.com/nomic-ai/contrastors",
+    "path": "papers/24/02/2402.01613.json",
+    "total_tokens": 724,
+    "translated_title": "Nomic Embed：训练可复现的长上下文文本嵌入器",
+    "translated_abstract": "本技术报告描述了nomic-embed-text-v1的训练，这是第一个完全可复现、开源、开放权重、开放数据的8192上下文长度英文文本嵌入模型，在短上下文和长上下文任务上均优于OpenAI Ada-002和OpenAI text-embedding-3-small。我们在Apache 2许可下发布了训练代码和模型权重。与其他开源模型相比，我们还发布了一个包含2.35亿个策划文本对的训练数据加载器，可以完全复现nomic-embed-text-v1。你可以在https://github.com/nomic-ai/contrastors找到模型的代码和数据。",
+    "tldr": "Nomic Embed是第一个完全可复现、开源、开放权重、开放数据的8192上下文长度英文文本嵌入器，在短上下文和长上下文任务上优于OpenAI Ada-002和OpenAI text-embedding-3-small。",
+    "en_tdlr": "Nomic Embed is the first fully reproducible, open-source, open-weights, open-data, 8192 context length English text embedding model that outperforms both OpenAI Ada-002 and OpenAI text-embedding-3-small on short and long-context tasks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Evaluation Methodology for Large Language Models for Multilingual Document Question and Answer",
+    "abstract": "With the widespread adoption of Large Language Models (LLMs), in this paper we investigate the multilingual capability of these models. Our preliminary results show that, translating the native language context, question and answer into a high resource language produced the best results.",
+    "link": "https://rss.arxiv.org/abs/2402.01065",
+    "context": "Title: Evaluation Methodology for Large Language Models for Multilingual Document Question and Answer\nAbstract: With the widespread adoption of Large Language Models (LLMs), in this paper we investigate the multilingual capability of these models. Our preliminary results show that, translating the native language context, question and answer into a high resource language produced the best results.",
+    "path": "papers/24/02/2402.01065.json",
+    "total_tokens": 512,
+    "translated_title": "用于多语言文档问答的大型语言模型评估方法",
+    "translated_abstract": "随着大型语言模型（LLMs）的广泛应用，本文研究了这些模型的多语言能力。我们的初步结果显示，将原始语言的上下文、问题和答案翻译成高资源语言产生了最好的结果。",
+    "tldr": "本文研究了大型语言模型（LLMs）在多语言环境下的能力。研究结果表明，将原始语言的上下文、问题和答案翻译成高资源语言可以获得最佳效果。",
+    "en_tdlr": "This paper investigates the multilingual capability of Large Language Models (LLMs) and proposes translating the native language context, question, and answer into a high resource language for better performance."
+}

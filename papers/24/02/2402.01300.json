@@ -1,0 +1,12 @@
+{
+    "title": "Two Approaches to Diachronic Normalization of Polish Texts",
+    "abstract": "This paper discusses two approaches to the diachronic normalization of Polish texts: a rule-based solution that relies on a set of handcrafted patterns, and a neural normalization model based on the text-to-text transfer transformer architecture. The training and evaluation data prepared for the task are discussed in detail, along with experiments conducted to compare the proposed normalization solutions. A quantitative and qualitative analysis is made. It is shown that at the current stage of inquiry into the problem, the rule-based solution outperforms the neural one on 3 out of 4 variants of the prepared dataset, although in practice both approaches have distinct advantages and disadvantages.",
+    "link": "https://rss.arxiv.org/abs/2402.01300",
+    "context": "Title: Two Approaches to Diachronic Normalization of Polish Texts\nAbstract: This paper discusses two approaches to the diachronic normalization of Polish texts: a rule-based solution that relies on a set of handcrafted patterns, and a neural normalization model based on the text-to-text transfer transformer architecture. The training and evaluation data prepared for the task are discussed in detail, along with experiments conducted to compare the proposed normalization solutions. A quantitative and qualitative analysis is made. It is shown that at the current stage of inquiry into the problem, the rule-based solution outperforms the neural one on 3 out of 4 variants of the prepared dataset, although in practice both approaches have distinct advantages and disadvantages.",
+    "path": "papers/24/02/2402.01300.json",
+    "total_tokens": 755,
+    "translated_title": "两种处理波兰文本时序规范化的方法",
+    "translated_abstract": "本文讨论了处理波兰文本时序规范化的两种方法：一种是基于一组手工模式的规则方法，另一种是基于文本到文本转换转换器架构的神经规范化模型。文章详细讨论了为该任务准备的训练和评估数据，以及进行比较提出的规范化解决方案的实验。进行了定量和定性分析。结果表明，目前阶段探索该问题时，基于规则的方法在4个准备的数据集变体中有3个优于神经方法，尽管在实践中，这两种方法都具有各自的优劣。",
+    "tldr": "本文讨论了两种处理波兰文本时序规范化的方法，一种是基于规则的，一种是基于神经网络的。实验证明，在目前的研究阶段，基于规则的方法在大部分数据集上优于神经网络方法，但在实际应用中，两种方法都有各自的优点和缺点。",
+    "en_tdlr": "This paper discusses two approaches, one rule-based and the other neural network-based, to the diachronic normalization of Polish texts. The study shows that the rule-based method outperforms the neural network-based method in the majority of the datasets, but both approaches have their own merits and drawbacks in practical applications."
+}

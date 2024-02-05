@@ -1,0 +1,12 @@
+{
+    "title": "Income distribution in Thailand is scale-invariant",
+    "abstract": "This study examines whether income distribution in Thailand has a property of scale invariance or self-similarity across years. By using the data on income shares by quintile and by decile of Thailand from 1988 to 2021, the results from 306-pairwise Kolmogorov-Smirnov tests indicate that income distribution in Thailand is statistically scale-invariant or self-similar across years with p-values ranging between 0.988 and 1.000. Based on these empirical findings, this study would like to propose that, in order to change income distribution in Thailand whose pattern had persisted for over three decades, the change itself cannot be gradual but has to be like a phase transition of substance in physics.",
+    "link": "https://rss.arxiv.org/abs/2402.01141",
+    "context": "Title: Income distribution in Thailand is scale-invariant\nAbstract: This study examines whether income distribution in Thailand has a property of scale invariance or self-similarity across years. By using the data on income shares by quintile and by decile of Thailand from 1988 to 2021, the results from 306-pairwise Kolmogorov-Smirnov tests indicate that income distribution in Thailand is statistically scale-invariant or self-similar across years with p-values ranging between 0.988 and 1.000. Based on these empirical findings, this study would like to propose that, in order to change income distribution in Thailand whose pattern had persisted for over three decades, the change itself cannot be gradual but has to be like a phase transition of substance in physics.",
+    "path": "papers/24/02/2402.01141.json",
+    "total_tokens": 706,
+    "translated_title": "泰国的收入分配具有尺度不变性",
+    "translated_abstract": "本研究考察了泰国的收入分配是否具有尺度不变性或年度自相似性。通过使用1988年至2021年泰国五分位和十分位的收入份额数据，306个配对的Kolmogorov-Smirnov检验结果表明，泰国的收入分配在统计上具有尺度不变性或年度自相似性，p值范围在0.988至1.000之间。根据这些实证结果，本研究认为，为了改变持续了三十多年的泰国收入分配模式，变革本身不能是渐进的，而应该像物理学中的相变过程一样。",
+    "tldr": "本研究发现泰国的收入分配具有尺度不变性，在近三十年来保持不变，意味着改变收入分配需要进行类似物理学中物质相变的过程。",
+    "en_tdlr": "This study finds that income distribution in Thailand is scale-invariant, remaining unchanged over the past three decades, suggesting that changing income distribution requires a phase transition-like process similar to that in physics."
+}

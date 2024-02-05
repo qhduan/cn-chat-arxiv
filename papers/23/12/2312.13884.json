@@ -1,0 +1,11 @@
+{
+    "title": "Measures of Resilience to Cyber Contagion -- An Axiomatic Approach for Complex Systems",
+    "abstract": "We introduce a novel class of risk measures designed for the management of systemic risk in networks. In contrast to prevailing approaches, these risk measures target the topological configuration of the network in order to mitigate the propagation risk of contagious threats. While our discussion primarily revolves around the management of systemic cyber risks in digital networks, we concurrently draw parallels to risk management of other complex systems where analogous approaches may be adequate.",
+    "link": "https://rss.arxiv.org/abs/2312.13884",
+    "context": "Title: Measures of Resilience to Cyber Contagion -- An Axiomatic Approach for Complex Systems\nAbstract: We introduce a novel class of risk measures designed for the management of systemic risk in networks. In contrast to prevailing approaches, these risk measures target the topological configuration of the network in order to mitigate the propagation risk of contagious threats. While our discussion primarily revolves around the management of systemic cyber risks in digital networks, we concurrently draw parallels to risk management of other complex systems where analogous approaches may be adequate.",
+    "path": "papers/23/12/2312.13884.json",
+    "total_tokens": 581,
+    "translated_title": "对于复杂系统的网络的弹性度量 -- 基于公理的方法",
+    "translated_abstract": "我们引入了一种新颖的风险度量方法，旨在管理网络中的系统性风险。与现有方法相比，这些风险度量方法针对网络的拓扑配置，以减轻传播威胁的风险。虽然我们的讨论主要围绕数字网络中系统性网络风险的管理，但我们同时将类比方法应用于其他复杂系统的风险管理，以确定是否适当。",
+    "tldr": "通过基于公理的方法，我们引入了一种新颖的风险度量方法，旨在管理复杂系统中的系统性风险，特别是网络中的系统性网络风险。这些风险度量方法针对网络的拓扑配置，以减轻传播威胁的风险。"
+}

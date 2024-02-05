@@ -1,0 +1,11 @@
+{
+    "title": "FindingEmo: An Image Dataset for Emotion Recognition in the Wild",
+    "abstract": "We introduce FindingEmo, a new image dataset containing annotations for 25k images, specifically tailored to Emotion Recognition. Contrary to existing datasets, it focuses on complex scenes depicting multiple people in various naturalistic, social settings, with images being annotated as a whole, thereby going beyond the traditional focus on faces or single individuals. Annotated dimensions include Valence, Arousal and Emotion label, with annotations gathered using Prolific. Together with the annotations, we release the list of URLs pointing to the original images, as well as all associated source code.",
+    "link": "https://rss.arxiv.org/abs/2402.01355",
+    "context": "Title: FindingEmo: An Image Dataset for Emotion Recognition in the Wild\nAbstract: We introduce FindingEmo, a new image dataset containing annotations for 25k images, specifically tailored to Emotion Recognition. Contrary to existing datasets, it focuses on complex scenes depicting multiple people in various naturalistic, social settings, with images being annotated as a whole, thereby going beyond the traditional focus on faces or single individuals. Annotated dimensions include Valence, Arousal and Emotion label, with annotations gathered using Prolific. Together with the annotations, we release the list of URLs pointing to the original images, as well as all associated source code.",
+    "path": "papers/24/02/2402.01355.json",
+    "total_tokens": 646,
+    "translated_title": "在野外情感识别中的Emo图像数据集",
+    "translated_abstract": "我们介绍FindingEmo，一个包含25k张图片的新的图像数据集，专门用于情感识别。与现有的数据集不同，它专注于复杂场景，包含多个人物在各种自然、社交环境中，图片的注释是整体进行的，超越了传统对于面部或单个个体的关注。注释的维度包括情感价值、唤起和情感标签，注释通过Prolific收集。除了注释，我们还发布了指向原始图片的URL列表，以及所有相关源代码。",
+    "tldr": "FindingEmo是一个新的图像数据集，专门用于情感识别，在野外环境中提供了复杂场景的注释，涵盖多个人物和社交设置，注释包括情感维度和情感标签。"
+}

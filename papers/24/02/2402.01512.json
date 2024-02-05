@@ -1,0 +1,12 @@
+{
+    "title": "Distractor Generation for Multiple-Choice Questions: A Survey of Methods, Datasets, and Evaluation",
+    "abstract": "Distractors are important in learning evaluation. This paper surveys distractor generation tasks using English multiple-choice question datasets for textual and multimodal contexts. In particular, this paper presents a thorough literature review of the recent studies on distractor generation tasks, discusses multiple choice components and their characteristics, analyzes the related datasets, and summarizes the evaluation metrics of distractor generation. Our investigation reveals that more than half of datasets are human-generated from educational sources in specific domains such as Science and English, which are largely text-based, with a lack of open domain and multimodal datasets.",
+    "link": "https://rss.arxiv.org/abs/2402.01512",
+    "context": "Title: Distractor Generation for Multiple-Choice Questions: A Survey of Methods, Datasets, and Evaluation\nAbstract: Distractors are important in learning evaluation. This paper surveys distractor generation tasks using English multiple-choice question datasets for textual and multimodal contexts. In particular, this paper presents a thorough literature review of the recent studies on distractor generation tasks, discusses multiple choice components and their characteristics, analyzes the related datasets, and summarizes the evaluation metrics of distractor generation. Our investigation reveals that more than half of datasets are human-generated from educational sources in specific domains such as Science and English, which are largely text-based, with a lack of open domain and multimodal datasets.",
+    "path": "papers/24/02/2402.01512.json",
+    "total_tokens": 723,
+    "translated_title": "多项选择题中的干扰项生成：方法、数据集和评估综述",
+    "translated_abstract": "干扰项在学习评估中具有重要作用。本文调查了针对英语多项选择题的干扰项生成任务，并使用了文本和多模态语境的数据集。具体而言，本文对干扰项生成任务的最新研究进行了全面的文献综述，讨论了多项选择题的组成部分及其特点，分析了相关数据集，并总结了干扰项生成的评估指标。我们的调查结果表明，超过一半的数据集来自特定领域（如科学和英语）中的教育来源，并且主要是以文本为主，缺乏开放领域和多模态的数据集。",
+    "tldr": "本文综述了多项选择题中干扰项生成的方法、数据集和评估。调查结果显示，现有数据集主要来自特定领域教育资源中，以文本为主，缺乏开放领域和多模态的数据集。",
+    "en_tdlr": "This paper surveys the methods, datasets, and evaluation of distractor generation for multiple-choice questions. The investigation reveals that the existing datasets are primarily from specific domains with a text-based format, and there is a lack of open domain and multimodal datasets."
+}

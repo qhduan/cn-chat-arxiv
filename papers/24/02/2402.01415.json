@@ -1,0 +1,12 @@
+{
+    "title": "SMLP: Symbolic Machine Learning Prover",
+    "abstract": "Symbolic Machine Learning Prover (SMLP) is a tool and a library for system exploration based on data samples obtained by simulating or executing the system on a number of input vectors. SMLP aims at exploring the system based on this data by taking a grey-box approach: SMLP combines statistical methods of data exploration with building and exploring machine learning models in close feedback loop with the system's response, and exploring these models by combining probabilistic and formal methods. SMLP has been applied in industrial setting at Intel for analyzing and optimizing hardware designs at the analog level. SMLP is a general purpose tool and can be applied to systems that can be sampled and modeled by machine learning models.",
+    "link": "https://rss.arxiv.org/abs/2402.01415",
+    "context": "Title: SMLP: Symbolic Machine Learning Prover\nAbstract: Symbolic Machine Learning Prover (SMLP) is a tool and a library for system exploration based on data samples obtained by simulating or executing the system on a number of input vectors. SMLP aims at exploring the system based on this data by taking a grey-box approach: SMLP combines statistical methods of data exploration with building and exploring machine learning models in close feedback loop with the system's response, and exploring these models by combining probabilistic and formal methods. SMLP has been applied in industrial setting at Intel for analyzing and optimizing hardware designs at the analog level. SMLP is a general purpose tool and can be applied to systems that can be sampled and modeled by machine learning models.",
+    "path": "papers/24/02/2402.01415.json",
+    "total_tokens": 684,
+    "translated_title": "SMLP: 符号机器学习证明器",
+    "translated_abstract": "符号机器学习证明器（SMLP）是一种基于通过模拟或执行系统得到的一系列输入向量样本的系统探索工具和库。SMLP旨在通过采用灰盒方法，即将数据探索的统计方法与构建和探索机器学习模型相结合，并通过组合概率和形式方法来探索这些模型，从而探索系统。SMLP已经应用于英特尔的工业环境中，用于分析和优化模拟电路级别的硬件设计。SMLP是一个通用的工具，可以应用于可以通过机器学习模型进行采样和建模的系统。",
+    "tldr": "SMLP是一种基于数据样本的系统探索工具，通过采用统计方法和机器学习模型相结合的灰盒方法，可以探索系统并优化硬件设计。",
+    "en_tdlr": "SMLP is a system exploration tool based on data samples, which combines statistical methods and machine learning models in a grey-box approach to explore and optimize hardware design systems."
+}

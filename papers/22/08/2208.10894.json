@@ -1,0 +1,12 @@
+{
+    "title": "Sorting and Grading",
+    "abstract": "We propose a framework to assess how to optimally sort and grade students of heterogenous ability. Potential employers face uncertainty regarding an individual's productive value. Knowing which school an individual went to is useful for two reasons: firstly, average student ability may differ across schools; secondly, different schools may use different grading rules and thus provide varying incentives to exert effort. An optimal school system exhibits coarse stratification with respect to ability, and more lenient grading at the top-tier schools than at the bottom-tier schools. Our paper contributes to the ongoing policy debate on tracking in secondary schools.",
+    "link": "https://rss.arxiv.org/abs/2208.10894",
+    "context": "Title: Sorting and Grading\nAbstract: We propose a framework to assess how to optimally sort and grade students of heterogenous ability. Potential employers face uncertainty regarding an individual's productive value. Knowing which school an individual went to is useful for two reasons: firstly, average student ability may differ across schools; secondly, different schools may use different grading rules and thus provide varying incentives to exert effort. An optimal school system exhibits coarse stratification with respect to ability, and more lenient grading at the top-tier schools than at the bottom-tier schools. Our paper contributes to the ongoing policy debate on tracking in secondary schools.",
+    "path": "papers/22/08/2208.10894.json",
+    "total_tokens": 711,
+    "translated_title": "排名和分级",
+    "translated_abstract": "我们提出了一个框架，用于评估如何最优地对异质能力的学生进行排序和分级。潜在雇主对个体的生产价值存在不确定性。了解个体所就读的学校具有两个用途：首先，学校的平均学生能力可能会有所不同；其次，不同学校可能会使用不同的评分规则，从而提供不同的激励来努力。一个最优的学校系统在能力方面表现出粗略分层，并且在顶级学校比底级学校更宽松地进行分级。我们的论文对于中学追踪政策的持续辩论做出了贡献。",
+    "tldr": "我们提出了一个框架，用于评估如何最优地对异质能力的学生进行排序和分级。一个最优的学校系统在能力方面表现出粗略分层，并且在顶级学校比底级学校更宽松地进行分级。",
+    "en_tdlr": "We propose a framework to assess how to optimally sort and grade students of heterogenous ability. An optimal school system exhibits coarse stratification with respect to ability, and more lenient grading at the top-tier schools than at the bottom-tier schools."
+}

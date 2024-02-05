@@ -1,0 +1,12 @@
+{
+    "title": "Approximate Control for Continuous-Time POMDPs",
+    "abstract": "This work proposes a decision-making framework for partially observable systems in continuous time with discrete state and action spaces. As optimal decision-making becomes intractable for large state spaces we employ approximation methods for the filtering and the control problem that scale well with an increasing number of states. Specifically, we approximate the high-dimensional filtering distribution by projecting it onto a parametric family of distributions, and integrate it into a control heuristic based on the fully observable system to obtain a scalable policy. We demonstrate the effectiveness of our approach on several partially observed systems, including queueing systems and chemical reaction networks.",
+    "link": "https://rss.arxiv.org/abs/2402.01431",
+    "context": "Title: Approximate Control for Continuous-Time POMDPs\nAbstract: This work proposes a decision-making framework for partially observable systems in continuous time with discrete state and action spaces. As optimal decision-making becomes intractable for large state spaces we employ approximation methods for the filtering and the control problem that scale well with an increasing number of states. Specifically, we approximate the high-dimensional filtering distribution by projecting it onto a parametric family of distributions, and integrate it into a control heuristic based on the fully observable system to obtain a scalable policy. We demonstrate the effectiveness of our approach on several partially observed systems, including queueing systems and chemical reaction networks.",
+    "path": "papers/24/02/2402.01431.json",
+    "total_tokens": 687,
+    "translated_title": "连续时间POMDP的近似控制",
+    "translated_abstract": "本文提出了一个针对具有离散状态和动作空间的连续时间部分可观察系统的决策框架。由于大规模状态空间的最优决策变得难以处理，我们采用了适用于具有不断增加的状态数量的过滤和控制问题的近似方法。具体而言，我们通过将高维过滤分布投影到参数分布族上来近似它，并将其整合到基于完全可观察系统的控制启发式中，以获得可扩展的策略。我们在几个部分观察系统上证明了我们方法的有效性，包括排队系统和化学反应网络。",
+    "tldr": "本文提出了一个适用于连续时间部分可观察系统的决策框架，通过近似方法实现了针对大规模状态空间的过滤和控制问题的可扩展解决方案。",
+    "en_tdlr": "This paper proposes a decision-making framework for continuous-time partially observable systems, which addresses the challenge of dealing with large state spaces through approximations, resulting in a scalable solution for the filtering and control problem."
+}

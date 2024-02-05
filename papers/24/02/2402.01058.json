@@ -1,0 +1,11 @@
+{
+    "title": "Towards an Algebraic Framework For Approximating Functions Using Neural Network Polynomials",
+    "abstract": "We make the case for neural network objects and extend an already existing neural network calculus explained in detail in Chapter 2 on \\cite{bigbook}. Our aim will be to show that, yes, indeed, it makes sense to talk about neural network polynomials, neural network exponentials, sine, and cosines in the sense that they do indeed approximate their real number counterparts subject to limitations on certain of their parameters, $q$, and $\\varepsilon$. While doing this, we show that the parameter and depth growth are only polynomial on their desired accuracy (defined as a 1-norm difference over $\\mathbb{R}$), thereby showing that this approach to approximating, where a neural network in some sense has the structural properties of the function it is approximating is not entire intractable.",
+    "link": "https://rss.arxiv.org/abs/2402.01058",
+    "context": "Title: Towards an Algebraic Framework For Approximating Functions Using Neural Network Polynomials\nAbstract: We make the case for neural network objects and extend an already existing neural network calculus explained in detail in Chapter 2 on \\cite{bigbook}. Our aim will be to show that, yes, indeed, it makes sense to talk about neural network polynomials, neural network exponentials, sine, and cosines in the sense that they do indeed approximate their real number counterparts subject to limitations on certain of their parameters, $q$, and $\\varepsilon$. While doing this, we show that the parameter and depth growth are only polynomial on their desired accuracy (defined as a 1-norm difference over $\\mathbb{R}$), thereby showing that this approach to approximating, where a neural network in some sense has the structural properties of the function it is approximating is not entire intractable.",
+    "path": "papers/24/02/2402.01058.json",
+    "total_tokens": 764,
+    "translated_title": "基于神经网络多项式的函数近似代数框架",
+    "translated_abstract": "我们论述了神经网络对象的重要性，并扩展了第2章中详细解释的已有神经网络微积分。我们的目标是展示神经网络多项式、神经网络指数函数、正弦和余弦的存在性，即它们确实在一定参数$q$和$\\varepsilon$的限制下近似于实数对应物。在实现这一目标的同时，我们证明了参数和深度的增长仅以多项式形式与所需的精度相关（将其定义为$\\mathbb{R}$上的1-范数差异），从而证明了这种近似方法中神经网络在某种意义上具有所近似函数的结构特性并非完全不可解。",
+    "tldr": "本论文提出了一个基于神经网络多项式的函数近似代数框架，该框架在一定参数限制下能够有效近似实数函数，并且其参数和深度增长与所需精度多项式相关。"
+}

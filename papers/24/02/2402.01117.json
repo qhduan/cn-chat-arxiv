@@ -1,0 +1,11 @@
+{
+    "title": "DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models",
+    "abstract": "Leading models for the text-to-SQL task heavily rely on proprietary Large Language Models (LLMs), posing concerns over data privacy. Closing the performance gap between small open-source models and large proprietary models is crucial to mitigate this reliance. To this end, we introduce a novel two-stage fine-tuning approach that decomposes the task into two simpler tasks. Through comprehensive evaluation on two large cross-domain datasets and two small LLMs, we show that this approach improves execution accuracy by 3 to 7 percent, effectively aligning the performance of open-source models with their proprietary counterparts.",
+    "link": "https://rss.arxiv.org/abs/2402.01117",
+    "context": "Title: DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models\nAbstract: Leading models for the text-to-SQL task heavily rely on proprietary Large Language Models (LLMs), posing concerns over data privacy. Closing the performance gap between small open-source models and large proprietary models is crucial to mitigate this reliance. To this end, we introduce a novel two-stage fine-tuning approach that decomposes the task into two simpler tasks. Through comprehensive evaluation on two large cross-domain datasets and two small LLMs, we show that this approach improves execution accuracy by 3 to 7 percent, effectively aligning the performance of open-source models with their proprietary counterparts.",
+    "path": "papers/24/02/2402.01117.json",
+    "total_tokens": 687,
+    "translated_title": "DTS-SQL: 使用小型语言模型的分解式文本到SQL",
+    "translated_abstract": "对于文本到SQL任务，领先的模型严重依赖于专有的大型语言模型（LLMs），引发了数据隐私方面的担忧。缩小开源模型和专有模型之间的性能差距对于缓解这种依赖是至关重要的。为此，我们引入了一种新颖的两阶段微调方法，将任务分解为两个较简单的任务。通过对两个大型跨领域数据集和两个小型LLM的全面评估，我们展示了这种方法提高了执行准确性，提升了3到7个百分点，有效地使开源模型的性能与专有模型相一致。",
+    "tldr": "DTS-SQL采用了一种分解式的方法，使用小型语言模型，有效地缩小了开源模型与专有模型之间的性能差距，提高了文本到SQL任务的执行准确性。"
+}

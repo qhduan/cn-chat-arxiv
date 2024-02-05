@@ -1,0 +1,11 @@
+{
+    "title": "Let's Negotiate! A Survey of Negotiation Dialogue Systems",
+    "abstract": "Negotiation is a crucial ability in human communication. Recently, there has been a resurgent research interest in negotiation dialogue systems, whose goal is to create intelligent agents that can assist people in resolving conflicts or reaching agreements. Although there have been many explorations into negotiation dialogue systems, a systematic review of this task has not been performed to date. We aim to fill this gap by investigating recent studies in the field of negotiation dialogue systems, and covering benchmarks, evaluations and methodologies within the literature. We also discuss potential future directions, including multi-modal, multi-party and cross-cultural negotiation scenarios. Our goal is to provide the community with a systematic overview of negotiation dialogue systems and to inspire future research.",
+    "link": "https://rss.arxiv.org/abs/2402.01097",
+    "context": "Title: Let's Negotiate! A Survey of Negotiation Dialogue Systems\nAbstract: Negotiation is a crucial ability in human communication. Recently, there has been a resurgent research interest in negotiation dialogue systems, whose goal is to create intelligent agents that can assist people in resolving conflicts or reaching agreements. Although there have been many explorations into negotiation dialogue systems, a systematic review of this task has not been performed to date. We aim to fill this gap by investigating recent studies in the field of negotiation dialogue systems, and covering benchmarks, evaluations and methodologies within the literature. We also discuss potential future directions, including multi-modal, multi-party and cross-cultural negotiation scenarios. Our goal is to provide the community with a systematic overview of negotiation dialogue systems and to inspire future research.",
+    "path": "papers/24/02/2402.01097.json",
+    "total_tokens": 829,
+    "translated_title": "让我们来谈判！谈判对话系统综述",
+    "translated_abstract": "谈判是人类沟通中至关重要的能力。近年来，谈判对话系统的研究兴趣再度上升，其目标是创建智能代理，帮助人们解决冲突或达成协议。尽管已经有很多探索谈判对话系统的研究，但迄今为止还没有进行系统综述的工作。我们旨在填补这一空白，调查最近在谈判对话系统领域的研究，并涵盖文献中的基准、评估和方法论。我们还讨论了潜在的未来发展方向，包括多模态、多方和跨文化的谈判场景。我们的目标是为社群提供关于谈判对话系统的系统综述，并激发未来的研究。",
+    "tldr": "该论文综述了谈判对话系统的最新研究，包括基准、评估和方法论。还讨论了未来的发展方向，如多模态、多方和跨文化的谈判场景。这为社群提供了关于谈判对话系统的系统综述，并激发未来的研究。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Convergence rates for Backward SDEs driven by L\\'evy processes",
+    "abstract": "We consider L\\'evy processes that are approximated by compound Poisson processes and, correspondingly, BSDEs driven by L\\'evy processes that are approximated by BSDEs driven by their compound Poisson approximations. We are interested in the rate of convergence of the approximate BSDEs to the ones driven by the L\\'evy processes. The rate of convergence of the L\\'evy processes depends on the Blumenthal--Getoor index of the process. We derive the rate of convergence for the BSDEs in the $\\mathbb L^2$-norm and in the Wasserstein distance, and show that, in both cases, this equals the rate of convergence of the corresponding L\\'evy process, and thus is optimal.",
+    "link": "https://rss.arxiv.org/abs/2402.01337",
+    "context": "Title: Convergence rates for Backward SDEs driven by L\\'evy processes\nAbstract: We consider L\\'evy processes that are approximated by compound Poisson processes and, correspondingly, BSDEs driven by L\\'evy processes that are approximated by BSDEs driven by their compound Poisson approximations. We are interested in the rate of convergence of the approximate BSDEs to the ones driven by the L\\'evy processes. The rate of convergence of the L\\'evy processes depends on the Blumenthal--Getoor index of the process. We derive the rate of convergence for the BSDEs in the $\\mathbb L^2$-norm and in the Wasserstein distance, and show that, in both cases, this equals the rate of convergence of the corresponding L\\'evy process, and thus is optimal.",
+    "path": "papers/24/02/2402.01337.json",
+    "total_tokens": 737,
+    "translated_title": "这篇论文的翻译题目是《由Lévy过程驱动的反向SDE的收敛速度》",
+    "translated_abstract": "本文考虑了由复合Poisson过程逼近的Lévy过程以及相应的由复合Poisson逼近的Lévy过程驱动的BSDEs。我们对近似BSDEs收敛到Lévy过程驱动的BSDEs的速度感兴趣。Lévy过程的收敛速度取决于过程的Blumenthal--Getoor指数。我们推导了BSDEs在L^2范数和Wasserstein距离下的收敛速度，并表明，在这两种情况下，收敛速度与相应Lévy过程的收敛速度相等，因此是最优的。",
+    "tldr": "这篇论文研究了由复合Poisson过程逼近的Lévy过程驱动的BSDEs的收敛速度，并推导出了在L^2范数和Wasserstein距离下的最优收敛速度。",
+    "en_tdlr": "This paper investigates the convergence rates of BSDEs driven by Lévy processes approximated by compound Poisson processes. The optimal convergence rates are derived for both L^2 norm and Wasserstein distance."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Geometry of Polynomial Neural Networks",
+    "abstract": "We study the expressivity and learning process for polynomial neural networks (PNNs) with monomial activation functions. The weights of the network parametrize the neuromanifold. In this paper, we study certain neuromanifolds using tools from algebraic geometry: we give explicit descriptions as semialgebraic sets and characterize their Zariski closures, called neurovarieties. We study their dimension and associate an algebraic degree, the learning degree, to the neurovariety. The dimension serves as a geometric measure for the expressivity of the network, the learning degree is a measure for the complexity of training the network and provides upper bounds on the number of learnable functions. These theoretical results are accompanied with experiments.",
+    "link": "https://rss.arxiv.org/abs/2402.00949",
+    "context": "Title: Geometry of Polynomial Neural Networks\nAbstract: We study the expressivity and learning process for polynomial neural networks (PNNs) with monomial activation functions. The weights of the network parametrize the neuromanifold. In this paper, we study certain neuromanifolds using tools from algebraic geometry: we give explicit descriptions as semialgebraic sets and characterize their Zariski closures, called neurovarieties. We study their dimension and associate an algebraic degree, the learning degree, to the neurovariety. The dimension serves as a geometric measure for the expressivity of the network, the learning degree is a measure for the complexity of training the network and provides upper bounds on the number of learnable functions. These theoretical results are accompanied with experiments.",
+    "path": "papers/24/02/2402.00949.json",
+    "total_tokens": 789,
+    "translated_title": "多项式神经网络的几何性质",
+    "translated_abstract": "我们研究了具有单项式激活函数的多项式神经网络（PNN）的表达性和学习过程。网络的权重参数化了神经流形。在本文中，我们使用代数几何工具研究了某些神经流形：我们给出了半代数集的明确描述并特征化了它们的Zariski闭包，称为神经多样性。我们研究了它们的维度并将一个代数度量，学习度，与神经多样性相关联。维度作为网络表达能力的几何度量，学习度是训练网络的复杂度度量，并提供可学函数数量的上界。这些理论结果还伴随着实验证明。",
+    "tldr": "本研究利用代数几何工具研究了具有单项式激活函数的多项式神经网络的表达性和学习过程，通过对神经流形的维度和学习度的研究，提供了网络表达能力和训练复杂度的度量，并给出了可学函数数量的上界。"
+}

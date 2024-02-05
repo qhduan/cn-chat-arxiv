@@ -1,0 +1,11 @@
+{
+    "title": "Spike No More: Stabilizing the Pre-training of Large Language Models",
+    "abstract": "Loss spikes often occur during pre-training of large language models. The spikes degrade the performance of large language models and sometimes ruin the pre-training. Since the pre-training needs a vast computational budget, we should avoid such spikes. To investigate the cause of loss spikes, we focus on gradients of internal layers. Through theoretical analyses, we reveal two causes of the exploding gradients, and provide requirements to prevent the explosion. In addition, we propose a method to satisfy the requirements by combining the initialization method and a simple modification to embeddings. We conduct various experiments to verify our theoretical analyses empirically. Experimental results indicate that the combination is effective in preventing spikes during pre-training.",
+    "link": "https://rss.arxiv.org/abs/2312.16903",
+    "context": "Title: Spike No More: Stabilizing the Pre-training of Large Language Models\nAbstract: Loss spikes often occur during pre-training of large language models. The spikes degrade the performance of large language models and sometimes ruin the pre-training. Since the pre-training needs a vast computational budget, we should avoid such spikes. To investigate the cause of loss spikes, we focus on gradients of internal layers. Through theoretical analyses, we reveal two causes of the exploding gradients, and provide requirements to prevent the explosion. In addition, we propose a method to satisfy the requirements by combining the initialization method and a simple modification to embeddings. We conduct various experiments to verify our theoretical analyses empirically. Experimental results indicate that the combination is effective in preventing spikes during pre-training.",
+    "path": "papers/23/12/2312.16903.json",
+    "total_tokens": 810,
+    "translated_title": "别再出现尖峰了：稳定大型语言模型的预训练",
+    "translated_abstract": "大型语言模型的预训练经常出现损失尖峰。这些尖峰会降低大型语言模型的性能，有时会破坏预训练。由于预训练需要大量的计算资源，我们应该避免这种尖峰的出现。为了研究损失尖峰的原因，我们关注内部层的梯度。通过理论分析，我们揭示了梯度爆炸的两个原因，并提供了预防梯度爆炸的要求。此外，我们提出了一种通过组合初始化方法和对嵌入进行简单修改来满足要求的方法。我们进行了各种实验证明我们的理论分析的有效性。实验结果表明，在预训练过程中，这种组合方法能够有效地防止尖峰的出现。",
+    "tldr": "本论文研究了大型语言模型预训练中的损失尖峰问题，并通过理论分析找出了梯度爆炸的原因，并提出了满足要求的方法。通过实验证明，该方法能够有效地防止尖峰的发生。"
+}

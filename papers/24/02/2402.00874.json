@@ -1,0 +1,11 @@
+{
+    "title": "dRG-MEC: Decentralized Reinforced Green Offloading for MEC-enabled Cloud Network",
+    "abstract": "Multi-access-Mobile Edge Computing (MEC) is a promising solution for computationally demanding rigorous applications, that can meet 6G network service requirements. However, edge servers incur high computation costs during task processing. In this paper, we proposed a technique to minimize the total computation and communication overhead for optimal resource utilization with joint computational offloading that enables a green environment. Our optimization problem is NP-hard; thus, we proposed a decentralized Reinforcement Learning (dRL) approach where we eliminate the problem of dimensionality and over-estimation of the value functions. Compared to baseline schemes our technique achieves a 37.03% reduction in total system costs.",
+    "link": "https://rss.arxiv.org/abs/2402.00874",
+    "context": "Title: dRG-MEC: Decentralized Reinforced Green Offloading for MEC-enabled Cloud Network\nAbstract: Multi-access-Mobile Edge Computing (MEC) is a promising solution for computationally demanding rigorous applications, that can meet 6G network service requirements. However, edge servers incur high computation costs during task processing. In this paper, we proposed a technique to minimize the total computation and communication overhead for optimal resource utilization with joint computational offloading that enables a green environment. Our optimization problem is NP-hard; thus, we proposed a decentralized Reinforcement Learning (dRL) approach where we eliminate the problem of dimensionality and over-estimation of the value functions. Compared to baseline schemes our technique achieves a 37.03% reduction in total system costs.",
+    "path": "papers/24/02/2402.00874.json",
+    "total_tokens": 680,
+    "translated_title": "dRG-MEC：面向MEC-enabled云网络的去中心化增强绿色卸载技术",
+    "translated_abstract": "多接入移动边缘计算（MEC）是一种有希望能满足6G网络服务需求的解决方案，用于处理计算要求严格的应用。然而，边缘服务器在任务处理期间会产生高计算成本。本文提出了一种技术，通过联合计算卸载实现最小化总计算和通信开销，从而实现资源的最优利用和绿色环境。由于优化问题是NP难的，因此我们提出了一种去中心化的强化学习（dRL）方法，消除了维度问题和价值函数的过度估计。与基准方案相比，我们的技术能够降低37.03％的系统总成本。",
+    "tldr": "本文提出了一个名为dRG-MEC的技术，通过联合计算卸载实现最小化总计算和通信开销，同时能够降低系统总成本37.03%。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Generative AI for Education (GAIED): Advances, Opportunities, and Challenges",
+    "abstract": "This survey article has grown out of the GAIED (pronounced \"guide\") workshop organized by the authors at the NeurIPS 2023 conference. We organized the GAIED workshop as part of a community-building effort to bring together researchers, educators, and practitioners to explore the potential of generative AI for enhancing education. This article aims to provide an overview of the workshop activities and highlight several future research directions in the area of GAIED.",
+    "link": "https://rss.arxiv.org/abs/2402.01580",
+    "context": "Title: Generative AI for Education (GAIED): Advances, Opportunities, and Challenges\nAbstract: This survey article has grown out of the GAIED (pronounced \"guide\") workshop organized by the authors at the NeurIPS 2023 conference. We organized the GAIED workshop as part of a community-building effort to bring together researchers, educators, and practitioners to explore the potential of generative AI for enhancing education. This article aims to provide an overview of the workshop activities and highlight several future research directions in the area of GAIED.",
+    "path": "papers/24/02/2402.01580.json",
+    "total_tokens": 606,
+    "translated_title": "教育的生成式人工智能（GAIED）：进展、机遇和挑战",
+    "translated_abstract": "这篇调查文章是由作者在NeurIPS 2023会议上组织的GAIED研讨会发展而来的。我们组织GAIED研讨会是为了促进研究人员、教育者和实践者的交流，探索生成式人工智能在教育中的潜力。本文旨在概要介绍研讨会的活动，并突出指出在GAIED领域中的几个未来研究方向。",
+    "tldr": "这篇调查文章总结了NeurIPS 2023会议上关于教育的生成式人工智能（GAIED）研讨会的活动，并突出指出了几个未来研究方向。",
+    "en_tdlr": "This survey article summarizes the activities of the GAIED workshop at the NeurIPS 2023 conference and highlights several future research directions."
+}

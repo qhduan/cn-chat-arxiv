@@ -1,0 +1,11 @@
+{
+    "title": "Distributed MCMC inference for Bayesian Non-Parametric Latent Block Model",
+    "abstract": "In this paper, we introduce a novel Distributed Markov Chain Monte Carlo (MCMC) inference method for the Bayesian Non-Parametric Latent Block Model (DisNPLBM), employing the Master/Worker architecture. Our non-parametric co-clustering algorithm divides observations and features into partitions using latent multivariate Gaussian block distributions. The workload on rows is evenly distributed among workers, who exclusively communicate with the master and not among themselves. DisNPLBM demonstrates its impact on cluster labeling accuracy and execution times through experimental results. Moreover, we present a real-use case applying our approach to co-cluster gene expression data. The code source is publicly available at https://github.com/redakhoufache/Distributed-NPLBM.",
+    "link": "https://rss.arxiv.org/abs/2402.01050",
+    "context": "Title: Distributed MCMC inference for Bayesian Non-Parametric Latent Block Model\nAbstract: In this paper, we introduce a novel Distributed Markov Chain Monte Carlo (MCMC) inference method for the Bayesian Non-Parametric Latent Block Model (DisNPLBM), employing the Master/Worker architecture. Our non-parametric co-clustering algorithm divides observations and features into partitions using latent multivariate Gaussian block distributions. The workload on rows is evenly distributed among workers, who exclusively communicate with the master and not among themselves. DisNPLBM demonstrates its impact on cluster labeling accuracy and execution times through experimental results. Moreover, we present a real-use case applying our approach to co-cluster gene expression data. The code source is publicly available at https://github.com/redakhoufache/Distributed-NPLBM.",
+    "path": "papers/24/02/2402.01050.json",
+    "total_tokens": 804,
+    "translated_title": "基于分布式MCMC推理的贝叶斯非参数潜在分块模型",
+    "translated_abstract": "本文介绍了一种新颖的分布式马尔可夫链蒙特卡罗（MCMC）推理方法，用于贝叶斯非参数潜在分块模型（DisNPLBM），采用Master/Worker架构。我们的非参数共聚类算法使用潜在多元高斯块分布将观测值和特征划分为分区。行上的工作负载均匀分布在工人之间，他们只与主节点进行通信，而不与彼此通信。通过实验结果，DisNPLBM证明了其对聚类标签准确性和执行时间的影响。此外，我们还通过将我们的方法应用于共同聚类基因表达数据来展示一个真实的用例。代码源可公开访问https://github.com/redakhoufache/Distributed-NPLBM。",
+    "tldr": "本文提出了一种基于分布式MCMC推理的贝叶斯非参数潜在分块模型方法，通过将观测值和特征划分为分区，并采用Master/Worker架构来提高聚类标签准确性和执行时间。"
+}

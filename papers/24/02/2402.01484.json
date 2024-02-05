@@ -1,0 +1,12 @@
+{
+    "title": "Connecting the Dots: Is Mode-Connectedness the Key to Feasible Sample-Based Inference in Bayesian Neural Networks?",
+    "abstract": "A major challenge in sample-based inference (SBI) for Bayesian neural networks is the size and structure of the networks' parameter space. Our work shows that successful SBI is possible by embracing the characteristic relationship between weight and function space, uncovering a systematic link between overparameterization and the difficulty of the sampling problem. Through extensive experiments, we establish practical guidelines for sampling and convergence diagnosis. As a result, we present a Bayesian deep ensemble approach as an effective solution with competitive performance and uncertainty quantification.",
+    "link": "https://rss.arxiv.org/abs/2402.01484",
+    "context": "Title: Connecting the Dots: Is Mode-Connectedness the Key to Feasible Sample-Based Inference in Bayesian Neural Networks?\nAbstract: A major challenge in sample-based inference (SBI) for Bayesian neural networks is the size and structure of the networks' parameter space. Our work shows that successful SBI is possible by embracing the characteristic relationship between weight and function space, uncovering a systematic link between overparameterization and the difficulty of the sampling problem. Through extensive experiments, we establish practical guidelines for sampling and convergence diagnosis. As a result, we present a Bayesian deep ensemble approach as an effective solution with competitive performance and uncertainty quantification.",
+    "path": "papers/24/02/2402.01484.json",
+    "total_tokens": 681,
+    "translated_title": "连接点：模式连接是否是贝叶斯神经网络可行的基于样本推理的关键？",
+    "translated_abstract": "在贝叶斯神经网络的基于样本推理（SBI）中，网络参数空间的大小和结构是一个主要挑战。我们的研究表明，通过接受权重和函数空间之间的特征关系，成功实现SBI是可能的，揭示了过度参数化和采样问题困难之间的系统联系。通过大量实验，我们建立了采样和收敛诊断的实际指南。因此，我们提出了一种贝叶斯深度集成方法作为一种有效的解决方案，具有竞争性能和不确定性量化能力。",
+    "tldr": "通过揭示权重和函数空间之间的关系，我们成功实现了贝叶斯神经网络的可行的基于样本推理，并提出了一种有效的贝叶斯深度集成方法来解决采样和收敛问题。",
+    "en_tdlr": "By uncovering the relationship between weight and function space, we achieved feasible sample-based inference in Bayesian neural networks and proposed an effective Bayesian deep ensemble approach to address sampling and convergence issues."
+}

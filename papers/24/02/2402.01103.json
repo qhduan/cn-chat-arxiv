@@ -1,0 +1,12 @@
+{
+    "title": "Compositional Generative Modeling: A Single Model is Not All You Need",
+    "abstract": "Large monolithic generative models trained on massive amounts of data have become an increasingly dominant approach in AI research. In this paper, we argue that we should instead construct large generative systems by composing smaller generative models together. We show how such a compositional generative approach enables us to learn distributions in a more data-efficient manner, enabling generalization to parts of the data distribution unseen at training time. We further show how this enables us to program and construct new generative models for tasks completely unseen at training. Finally, we show that in many cases, we can discover separate compositional components from data.",
+    "link": "https://rss.arxiv.org/abs/2402.01103",
+    "context": "Title: Compositional Generative Modeling: A Single Model is Not All You Need\nAbstract: Large monolithic generative models trained on massive amounts of data have become an increasingly dominant approach in AI research. In this paper, we argue that we should instead construct large generative systems by composing smaller generative models together. We show how such a compositional generative approach enables us to learn distributions in a more data-efficient manner, enabling generalization to parts of the data distribution unseen at training time. We further show how this enables us to program and construct new generative models for tasks completely unseen at training. Finally, we show that in many cases, we can discover separate compositional components from data.",
+    "path": "papers/24/02/2402.01103.json",
+    "total_tokens": 715,
+    "translated_title": "组合生成建模：单一模型并不是您所需要的全部",
+    "translated_abstract": "在人工智能研究中，通过训练大规模的巨大的生成模型来处理海量数据已经成为一种越来越主流的方法。本文中，我们认为我们应该通过将较小的生成模型组合在一起来构建大型生成系统。我们展示了这种组合生成方法如何以更高效的方式学习分布，使得我们在训练时未见的数据分布部分也能进行泛化。我们进一步展示了这种方法如何使我们能够为训练时完全未见的任务编写和构建新的生成模型。最后，我们展示在许多情况下，我们可以从数据中发现独立的组合组件。",
+    "tldr": "本文提出了一种组合生成方法，通过将较小的生成模型组合在一起来构建大型生成系统。该方法可以更高效地学习数据分布，实现对训练时未见的数据部分的泛化，并能够编写和构建新的生成模型。",
+    "en_tdlr": "This paper introduces a compositional generative approach by combining smaller models, which enables more efficient learning of data distribution, generalization to unseen data, and the ability to construct new generative models for unseen tasks."
+}

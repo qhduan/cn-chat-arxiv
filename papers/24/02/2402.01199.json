@@ -1,0 +1,12 @@
+{
+    "title": "MIQCQP reformulation of the ReLU neural networks Lipschitz constant estimation problem",
+    "abstract": "It is well established that to ensure or certify the robustness of a neural network, its Lipschitz constant plays a prominent role. However, its calculation is NP-hard. In this note, by taking into account activation regions at each layer as new constraints, we propose new quadratically constrained MIP formulations for the neural network Lipschitz estimation problem. The solutions of these problems give lower bounds and upper bounds of the Lipschitz constant and we detail conditions when they coincide with the exact Lipschitz constant.",
+    "link": "https://rss.arxiv.org/abs/2402.01199",
+    "context": "Title: MIQCQP reformulation of the ReLU neural networks Lipschitz constant estimation problem\nAbstract: It is well established that to ensure or certify the robustness of a neural network, its Lipschitz constant plays a prominent role. However, its calculation is NP-hard. In this note, by taking into account activation regions at each layer as new constraints, we propose new quadratically constrained MIP formulations for the neural network Lipschitz estimation problem. The solutions of these problems give lower bounds and upper bounds of the Lipschitz constant and we detail conditions when they coincide with the exact Lipschitz constant.",
+    "path": "papers/24/02/2402.01199.json",
+    "total_tokens": 715,
+    "translated_title": "MIQCQP reformulation of the ReLU neural networks Lipschitz constant estimation problem",
+    "translated_abstract": "众所周知，为了确保神经网络的鲁棒性，其Lipschitz常数起着重要作用。然而，它的计算是NP困难的。在本文中，通过将每一层的激活区域作为新的约束考虑进去，我们提出了神经网络Lipschitz估计问题的新的二次约束混合整数规划（MIQCQP）形式。这些问题的解给出了Lipschitz常数的下界和上界，并详细讨论了它们与精确Lipschitz常数一致的条件。",
+    "tldr": "本文提出了一种新的方法，通过引入新的约束条件，使用二次约束混合整数规划（MIQCQP）来估计ReLU神经网络的Lipschitz常数。这些问题的解可以给出Lipschitz常数的下界和上界，并且当特定条件满足时，它们与精确的Lipschitz常数重合。",
+    "en_tdlr": "This paper proposes a new approach by introducing new constraints and using quadratic constrained mixed-integer programming (MIQCQP) to estimate the Lipschitz constant of ReLU neural networks. The solutions of these problems provide lower bounds and upper bounds of the Lipschitz constant, and they coincide with the exact Lipschitz constant under specific conditions."
+}

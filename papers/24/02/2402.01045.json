@@ -1,0 +1,12 @@
+{
+    "title": "LatticeGraphNet: A two-scale graph neural operator for simulating lattice structures",
+    "abstract": "This study introduces a two-scale Graph Neural Operator (GNO), namely, LatticeGraphNet (LGN), designed as a surrogate model for costly nonlinear finite-element simulations of three-dimensional latticed parts and structures. LGN has two networks: LGN-i, learning the reduced dynamics of lattices, and LGN-ii, learning the mapping from the reduced representation onto the tetrahedral mesh. LGN can predict deformation for arbitrary lattices, therefore the name operator. Our approach significantly reduces inference time while maintaining high accuracy for unseen simulations, establishing the use of GNOs as efficient surrogate models for evaluating mechanical responses of lattices and structures.",
+    "link": "https://rss.arxiv.org/abs/2402.01045",
+    "context": "Title: LatticeGraphNet: A two-scale graph neural operator for simulating lattice structures\nAbstract: This study introduces a two-scale Graph Neural Operator (GNO), namely, LatticeGraphNet (LGN), designed as a surrogate model for costly nonlinear finite-element simulations of three-dimensional latticed parts and structures. LGN has two networks: LGN-i, learning the reduced dynamics of lattices, and LGN-ii, learning the mapping from the reduced representation onto the tetrahedral mesh. LGN can predict deformation for arbitrary lattices, therefore the name operator. Our approach significantly reduces inference time while maintaining high accuracy for unseen simulations, establishing the use of GNOs as efficient surrogate models for evaluating mechanical responses of lattices and structures.",
+    "path": "papers/24/02/2402.01045.json",
+    "total_tokens": 762,
+    "translated_title": "LatticeGraphNet: 一种用于模拟格状结构的双尺度图神经操作器",
+    "translated_abstract": "本研究引入了一种双尺度图神经操作器，即LatticeGraphNet（LGN），旨在作为昂贵的非线性有限元模拟三维格状零部件和结构的代理模型。LGN具有两个网络：LGN-i用于学习格状结构的降维动力学，LGN-ii用于学习从降维表示到四面体网格的映射。LGN能够对任意格状结构进行变形预测，因此被称为操作器。我们的方法在保持高准确性的同时显著减少了推断时间，为评估格状结构的力学响应提供了高效的代理模型。",
+    "tldr": "LatticeGraphNet是一种双尺度图神经操作器，通过学习格状结构的降维动力学和降维表示到四面体网格的映射，能够高效地预测任意格状结构的变形，并在显著减少推断时间的同时保持高准确性。",
+    "en_tdlr": "LatticeGraphNet is a two-scale graph neural operator that efficiently predicts deformations of arbitrary lattice structures by learning the reduced dynamics and the mapping to tetrahedral mesh, significantly reducing inference time while maintaining high accuracy."
+}

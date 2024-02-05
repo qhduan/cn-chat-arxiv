@@ -1,0 +1,11 @@
+{
+    "title": "Multilingual Gradient Word-Order Typology from Universal Dependencies",
+    "abstract": "While information from the field of linguistic typology has the potential to improve performance on NLP tasks, reliable typological data is a prerequisite. Existing typological databases, including WALS and Grambank, suffer from inconsistencies primarily caused by their categorical format. Furthermore, typological categorisations by definition differ significantly from the continuous nature of phenomena, as found in natural language corpora. In this paper, we introduce a new seed dataset made up of continuous-valued data, rather than categorical data, that can better reflect the variability of language. While this initial dataset focuses on word-order typology, we also present the methodology used to create the dataset, which can be easily adapted to generate data for a broader set of features and languages.",
+    "link": "https://rss.arxiv.org/abs/2402.01513",
+    "context": "Title: Multilingual Gradient Word-Order Typology from Universal Dependencies\nAbstract: While information from the field of linguistic typology has the potential to improve performance on NLP tasks, reliable typological data is a prerequisite. Existing typological databases, including WALS and Grambank, suffer from inconsistencies primarily caused by their categorical format. Furthermore, typological categorisations by definition differ significantly from the continuous nature of phenomena, as found in natural language corpora. In this paper, we introduce a new seed dataset made up of continuous-valued data, rather than categorical data, that can better reflect the variability of language. While this initial dataset focuses on word-order typology, we also present the methodology used to create the dataset, which can be easily adapted to generate data for a broader set of features and languages.",
+    "path": "papers/24/02/2402.01513.json",
+    "total_tokens": 724,
+    "translated_title": "多语言梯度词序类型学研究从通用依赖关系",
+    "translated_abstract": "虽然语言类型学领域的信息有潜力提高NLP任务的表现，但可靠的类型学数据是前提。现有的类型学数据库，包括WALS和Grambank，主要由于其分类格式的不一致性而存在问题。此外，类型学的分类定义与自然语言语料库中所发现的现象的连续性本质不同。本文介绍了一个新的种子数据集，由连续值数据而不是分类数据组成，可以更好地反映语言的变异性。虽然这个初始数据集侧重于词序类型学，但我们也提供了创建数据集的方法论，可以方便地用于生成更广泛的特征和语言的数据。",
+    "tldr": "本文提出了一个使用连续值数据而不是分类数据的新种子数据集，用于改进NLP任务性能，并介绍了创建数据集的方法论，可适用于更多特征和语言。"
+}

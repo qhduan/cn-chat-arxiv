@@ -1,0 +1,12 @@
+{
+    "title": "Advancing Brain Tumor Inpainting with Generative Models",
+    "abstract": "Synthesizing healthy brain scans from diseased brain scans offers a potential solution to address the limitations of general-purpose algorithms, such as tissue segmentation and brain extraction algorithms, which may not effectively handle diseased images. We consider this a 3D inpainting task and investigate the adaptation of 2D inpainting methods to meet the requirements of 3D magnetic resonance imaging(MRI) data. Our contributions encompass potential modifications tailored to MRI-specific needs, and we conducted evaluations of multiple inpainting techniques using the BraTS2023 Inpainting datasets to assess their efficacy and limitations.",
+    "link": "https://rss.arxiv.org/abs/2402.01509",
+    "context": "Title: Advancing Brain Tumor Inpainting with Generative Models\nAbstract: Synthesizing healthy brain scans from diseased brain scans offers a potential solution to address the limitations of general-purpose algorithms, such as tissue segmentation and brain extraction algorithms, which may not effectively handle diseased images. We consider this a 3D inpainting task and investigate the adaptation of 2D inpainting methods to meet the requirements of 3D magnetic resonance imaging(MRI) data. Our contributions encompass potential modifications tailored to MRI-specific needs, and we conducted evaluations of multiple inpainting techniques using the BraTS2023 Inpainting datasets to assess their efficacy and limitations.",
+    "path": "papers/24/02/2402.01509.json",
+    "total_tokens": 721,
+    "translated_title": "用生成模型推进脑肿瘤修补技术",
+    "translated_abstract": "从病态脑扫描中合成健康脑扫描是解决常规算法的局限性的潜在方案。例如，组织分割和脑提取算法可能无法有效处理病态图像。我们将此视为3D修补任务，并研究了将2D修补方法改进以满足3D磁共振成像(MRI)数据要求的方法。我们的创新包括针对MRI特定需求的潜在修改，并使用BraTS2023修补数据集对多种修补技术进行评估，以评估其功效和局限性。",
+    "tldr": "本研究使用生成模型进行脑肿瘤的修补，通过合成健康脑扫描解决了常规算法的局限性。我们特别针对MRI的需求进行了相关修改，并通过评估多种修补技术的效果和局限性进行了验证。",
+    "en_tdlr": "This study advances brain tumor inpainting by using generative models to synthesize healthy brain scans from diseased ones, addressing the limitations of general-purpose algorithms. Modifications tailored to MRI-specific needs were made, and the efficacy and limitations of multiple inpainting techniques were evaluated using the BraTS2023 Inpainting datasets."
+}

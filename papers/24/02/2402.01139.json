@@ -1,0 +1,12 @@
+{
+    "title": "Online conformal prediction with decaying step sizes",
+    "abstract": "We introduce a method for online conformal prediction with decaying step sizes. Like previous methods, ours possesses a retrospective guarantee of coverage for arbitrary sequences. However, unlike previous methods, we can simultaneously estimate a population quantile when it exists. Our theory and experiments indicate substantially improved practical properties: in particular, when the distribution is stable, the coverage is close to the desired level for every time point, not just on average over the observed sequence.",
+    "link": "https://rss.arxiv.org/abs/2402.01139",
+    "context": "Title: Online conformal prediction with decaying step sizes\nAbstract: We introduce a method for online conformal prediction with decaying step sizes. Like previous methods, ours possesses a retrospective guarantee of coverage for arbitrary sequences. However, unlike previous methods, we can simultaneously estimate a population quantile when it exists. Our theory and experiments indicate substantially improved practical properties: in particular, when the distribution is stable, the coverage is close to the desired level for every time point, not just on average over the observed sequence.",
+    "path": "papers/24/02/2402.01139.json",
+    "total_tokens": 610,
+    "translated_title": "在线自适应预测方法中带有递减步长",
+    "translated_abstract": "本文介绍一种带有递减步长的在线自适应预测方法。和之前的方法一样，我们的方法也能在任意序列上回溯性地保证覆盖率。然而，与之前的方法不同的是，我们能够在存在的情况下同时估计出总体分位数。我们的理论和实验证明了显著改进的实际特性：特别是在分布稳定的情况下，覆盖率接近所期望的水平，不仅仅在观测序列的平均值上。",
+    "tldr": "本文介绍了一种在线自适应预测方法，通过使用递减步长来改进在任意序列上的覆盖率保证，并且能够同时估计总体分位数。",
+    "en_tdlr": "This paper introduces an online adaptive prediction method that improves coverage guarantee on arbitrary sequences by using decaying step sizes, and is able to simultaneously estimate population quantile."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Credal Learning Theory",
+    "abstract": "Statistical learning theory is the foundation of machine learning, providing theoretical bounds for the risk of models learnt from a (single) training set, assumed to issue from an unknown probability distribution. In actual deployment, however, the data distribution may (and often does) vary, causing domain adaptation/generalization issues. In this paper we lay the foundations for a `credal' theory of learning, using convex sets of probabilities (credal sets) to model the variability in the data-generating distribution. Such credal sets, we argue, may be inferred from a finite sample of training sets. Bounds are derived for the case of finite hypotheses spaces (both assuming realizability or not) as well as infinite model spaces, which directly generalize classical results.",
+    "link": "https://rss.arxiv.org/abs/2402.00957",
+    "context": "Title: Credal Learning Theory\nAbstract: Statistical learning theory is the foundation of machine learning, providing theoretical bounds for the risk of models learnt from a (single) training set, assumed to issue from an unknown probability distribution. In actual deployment, however, the data distribution may (and often does) vary, causing domain adaptation/generalization issues. In this paper we lay the foundations for a `credal' theory of learning, using convex sets of probabilities (credal sets) to model the variability in the data-generating distribution. Such credal sets, we argue, may be inferred from a finite sample of training sets. Bounds are derived for the case of finite hypotheses spaces (both assuming realizability or not) as well as infinite model spaces, which directly generalize classical results.",
+    "path": "papers/24/02/2402.00957.json",
+    "total_tokens": 702,
+    "translated_title": "信任学习理论",
+    "translated_abstract": "统计学习理论是机器学习的基础，为从未知概率分布中学习到的模型的风险提供理论边界。然而，在实际部署中，数据分布可能会变化，导致领域适应/泛化问题。在本文中，我们建立了一个“信任”学习理论的基础，使用概率的凸集（信任集）来建模数据生成分布的变异性。我们认为，这样的信任集可以从有限样本的训练集中推断出来。对于有限假设空间（无论是否可实现）和无限模型空间，推导出界限，这直接推广了经典结果。",
+    "tldr": "本文提出了一种信任学习理论，通过使用凸集的概率来建模数据生成分布的变异性，从有限样本的训练集中推断出信任集，并推导出bounds。",
+    "en_tdlr": "This paper introduces a credal theory of learning that uses convex sets of probabilities to model the variability in the data-generating distribution. Bounds are derived for finite hypotheses spaces as well as infinite model spaces, extending classical results."
+}

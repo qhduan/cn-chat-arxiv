@@ -1,0 +1,12 @@
+{
+    "title": "AI Code Generators for Security: Friend or Foe?",
+    "abstract": "Recent advances of artificial intelligence (AI) code generators are opening new opportunities in software security research, including misuse by malicious actors. We review use cases for AI code generators for security and introduce an evaluation benchmark.",
+    "link": "https://rss.arxiv.org/abs/2402.01219",
+    "context": "Title: AI Code Generators for Security: Friend or Foe?\nAbstract: Recent advances of artificial intelligence (AI) code generators are opening new opportunities in software security research, including misuse by malicious actors. We review use cases for AI code generators for security and introduce an evaluation benchmark.",
+    "path": "papers/24/02/2402.01219.json",
+    "total_tokens": 445,
+    "translated_title": "AI代码生成器与安全：朋友还是敌人?",
+    "translated_abstract": "最近人工智能（AI）代码生成器的发展正在为软件安全研究带来新的机会，但也可能被恶意行为者滥用。我们回顾了AI代码生成器在安全领域的使用案例，并介绍了一个评估基准。",
+    "tldr": "AI代码生成器在软件安全研究中提供了新的机会，但也存在被恶意滥用的风险。",
+    "en_tdlr": "AI code generators provide new opportunities in software security research, but also pose risks of misuse by malicious actors."
+}
