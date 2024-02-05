@@ -21,99 +21,100 @@
 | [^17] | [Distractor Generation for Multiple-Choice Questions: A Survey of Methods, Datasets, and Evaluation](https://rss.arxiv.org/abs/2402.01512) | 本文综述了多项选择题中干扰项生成的方法、数据集和评估。调查结果显示，现有数据集主要来自特定领域教育资源中，以文本为主，缺乏开放领域和多模态的数据集。 |
 | [^18] | [A Hybrid Strategy for Chat Transcript Summarization](https://rss.arxiv.org/abs/2402.01510) | 这篇论文介绍了一种混合策略用于聊天记录摘要化，该策略首先结合了抽取和生成式摘要化技术，然后通过强化学习优化摘要的质量。这种方法在大规模部署的聊天记录摘要化中表现出了很好的效果。 |
 | [^19] | [Code-Switched Language Identification is Harder Than You Think](https://rss.arxiv.org/abs/2402.01505) | 代码转换语言识别是一个常见且应用广泛的问题，但目前的方法都不够理想。本研究通过扩展语言范围、采用简单架构的模型以及重新定义任务，提出了一种更加可行的解决方案，并对未来的工作提出了建议。 |
-| [^20] | [AMOR: A Recipe for Building Adaptable Modular Knowledge Agents Through Process Feedback](https://rss.arxiv.org/abs/2402.01469) | AMOR是一个基于开源LLM的代理框架，通过与外部知识库进行推理和人类监督来适应特定领域的推理过程。通过两阶段的微调，AMOR能够在不同知识环境中泛化，并且可以根据过程反馈进行领域定制。 |
-| [^21] | [The Queen of England is not England's Queen: On the Lack of Factual Coherency in PLMs](https://rss.arxiv.org/abs/2402.01453) | 本研究探讨了PLMs中事实知识的一致性问题，结果显示PLMs在使用提示时具有较低的一致性，但通过添加证据段落可以显著提高。这表明PLMs需要进一步增强以处理从事实中检索信息的能力。 |
-| [^22] | [The effect of diversity on group decision-making](https://rss.arxiv.org/abs/2402.01427) | 研究探讨认知多样性及其对群体决策成功的影响。通过分析500个团队讨论的对话记录，我们发现较大的认知多样性与更成功的群体决策相关。 |
-| [^23] | [Different Tastes of Entities: Investigating Human Label Variation in Named Entity Annotations](https://rss.arxiv.org/abs/2402.01423) | 本论文研究了命名实体标注中的人类标签变化的原因，发现文本歧义和人为指南更改是高质量修订中不同标注的主要因素，并验证了多样化标注用于理解命名实体歧义的可行性和必要性。 |
-| [^24] | [Sequence Shortening for Context-Aware Machine Translation](https://rss.arxiv.org/abs/2402.01416) | 本研究展示了上下文感知机器翻译的序列缩短方法，通过重用上下文信息可以提高翻译准确性，在对比数据集上表现良好，并且引入了新的潜在分组和潜在选择方法来进一步提高翻译质量。 |
-| [^25] | [On Measuring Context Utilization in Document-Level MT Systems](https://rss.arxiv.org/abs/2402.01404) | 提出了一种补充基于准确度评估的上下文利用度度量方法，表明扰动分析是一种有效的总体上下文利用度的度量方法，同时提出了测量支持性上下文对处理上下文相关话语现象贡献程度的方法。 |
-| [^26] | [StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback](https://rss.arxiv.org/abs/2402.01391) | StepCoder是一个基于强化学习的代码生成框架，通过将长序列代码生成任务分解为一系列代码完成子任务来解决探索挑战，并使用细粒度优化来提高模型的效果。 |
-| [^27] | [LLM-based NLG Evaluation: Current Status and Challenges](https://rss.arxiv.org/abs/2402.01383) | 这项调研介绍了基于大型语言模型（LLM）的自然语言生成（NLG）评估方法的现状，包括基于LLM导出的指标、引导LLM和使用带有标记评估数据的LLM微调，并讨论了人类与LLM的合作。同时指出了该领域的一些挑战和未来研究方向。 |
-| [^28] | [LoTR: Low Tensor Rank Weight Adaptation](https://rss.arxiv.org/abs/2402.01376) | LoTR是一种新颖的语言模型参数调优方法，通过引入低秩张量表示和张量分解，使得针对深层模型的参数效率更高，并且能够实现廉价且快速的下游调优。 |
-| [^29] | [Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization](https://rss.arxiv.org/abs/2402.01375) | 本研究通过分析不同LMs的探究实验，首次展示了主题内和跨主题泛化差距的原因，并表明嵌入空间的稳健性和LMs之间通用泛化差距的显著变化。我们的研究还发现多样的预训练目标、架构规范化或数据去重对于增强LMs的稳健性和减小泛化差距有积极作用。 |
-| [^30] | [Continual Learning for Large Language Models: A Survey](https://rss.arxiv.org/abs/2402.01364) | 这篇综述文章调查了大型语言模型(LLMs)的持续学习，使用了一种新颖的多阶段分类方案对持续学习技术进行了分类，指出了该领域面临的挑战和未来工作方向。 |
-| [^31] | [What Makes Medical Claims (Un)Verifiable? Analyzing Entity and Relation Properties for Fact Verification](https://rss.arxiv.org/abs/2402.01360) | 本论文通过分析医疗索赔的实体和关系属性，研究了影响其可验证性的因素，并建立了一个科学事实验证的语料库。 |
-| [^32] | [Describing Images $\textit{Fast and Slow}$: Quantifying and Predicting the Variation in Human Signals during Visuo-Linguistic Processes](https://rss.arxiv.org/abs/2402.01352) | 这项研究探索了图像描述中人类行为的变化，并发现图像的属性与这些变化相关。预训练模型可以在一定程度上捕捉到这种变化，但仍存在偏差。 |
-| [^33] | [Beyond the Answers: Reviewing the Rationality of Multiple Choice Question Answering for the Evaluation of Large Language Models](https://rss.arxiv.org/abs/2402.01349) | 对于评估大型语言模型中多选题回答的合理性进行了回顾，发现当前基于多选题回答的基准可能无法充分捕捉大型语言模型的真实能力。 |
-| [^34] | [Skip $\textbackslash n$: A simple method to reduce hallucination in Large Vision-Language Models](https://rss.arxiv.org/abs/2402.01345) | 本文提出了一种新的视角，指出LVLMs中固有的偏见可能是多模态幻觉的关键因素。通过系统识别与段落分割符相关的语义漂移偏差，我们发现模型在训练数据中经常遇到明显的内容语义变化，导致幻觉的产生。 |
-| [^35] | [Two Approaches to Diachronic Normalization of Polish Texts](https://rss.arxiv.org/abs/2402.01300) | 本文讨论了两种处理波兰文本时序规范化的方法，一种是基于规则的，一种是基于神经网络的。实验证明，在目前的研究阶段，基于规则的方法在大部分数据集上优于神经网络方法，但在实际应用中，两种方法都有各自的优点和缺点。 |
-| [^36] | [Can MLLMs Perform Text-to-Image In-Context Learning?](https://rss.arxiv.org/abs/2402.01293) | 本论文探索了将上下文学习扩展到多模态的文本到图像转换任务，并提出了第一个T2I-ICL基准数据集CoBSAT。研究发现MLLMs在解决T2I-ICL问题时面临着多模态和图像生成的固有复杂性，并通过微调和思维链提示等策略取得了显著改进。 |
-| [^37] | [The Human and the Mechanical: logos, truthfulness, and ChatGPT](https://rss.arxiv.org/abs/2402.01267) | 本论文通过语义论证，讨论了是否可以称之为“机械思维”，以及ChatGPT模型能否实现该思维。研究发现，“机械思维”缺乏与现实相关的证据和个人信念，因此无法形成对世界的信念和真实性判断。 |
-| [^38] | [In-Context Learning for Few-Shot Nested Named Entity Recognition](https://rss.arxiv.org/abs/2402.01182) | 本研究提出了一种针对少样本嵌套命名实体识别的上下文学习框架，并通过引入EnDe检索器和对比学习机制改进了示例演示选择，实现了高质量的演示示例。在多个数据集上进行的实验验证了系统的有效性。 |
-| [^39] | [Towards a Unified Language Model for Knowledge-Intensive Tasks Utilizing External Corpus](https://rss.arxiv.org/abs/2402.01176) | 本研究提出了一个统一的语言模型，通过无缝集成生成式检索、闭式生成和RAG，利用外部语料处理各种知识密集型任务。 |
-| [^40] | [Efficient Prompt Caching via Embedding Similarity](https://rss.arxiv.org/abs/2402.01173) | 本论文通过嵌入相似性的提示缓存方法来提高大规模语言模型(LMMs)的推理效率，并提出一种蒸馏方法来优化现有嵌入以获得更好的缓存预测准确性。 |
-| [^41] | [Streaming Sequence Transduction through Dynamic Compression](https://rss.arxiv.org/abs/2402.01172) | STAR是一种新型的Transformer模型，通过动态压缩和优化延迟、内存占用和质量，实现对流的高效序列转导，并在自动语音识别领域表现出色。 |
-| [^42] | [LLM-Detector: Improving AI-Generated Chinese Text Detection with Open-Source LLM Instruction Tuning](https://rss.arxiv.org/abs/2402.01158) | 本文提出了一个名为LLM-Detector的方法，使用开源LLM指令调整来改进AI生成的中文文本检测。通过提供混合了人工编写句子和LLMs润饰句子的数据集，并利用LLMs在预训练期间获得的知识，我们能够在文档级和句子级上实现高效的文本检测。实验结果表明，该方法优于现有的基于BERT和RoBERTa的模型。 |
-| [^43] | [CABINET: Content Relevance based Noise Reduction for Table Question Answering](https://rss.arxiv.org/abs/2402.01155) | CABINET是一个用于表格问答系统的基于内容相关性的噪声降低方法，通过加权处理表格内容并生成解析语句，使得大型语言模型能够专注于相关表格数据而抑制无关信息的干扰。 |
-| [^44] | [AccentFold: A Journey through African Accents for Zero-Shot ASR Adaptation to Target Accents](https://rss.arxiv.org/abs/2402.01152) | "AccentFold"是一种通过利用学习到的口音嵌入之间的空间关系来改进ASR的方法，通过探索性分析语音嵌入，揭示非洲口音之间的有趣关系，并发现了Ethnologue先前未经描述的口音关系。通过实证评估，证明了该方法的有效性。 |
-| [^45] | [A Multi-Agent Conversational Recommender System](https://rss.arxiv.org/abs/2402.01135) | 本文提出了一个多智能体对话推荐系统（MACRS），它通过设计一个多智能体行动规划框架来控制对话流程，并基于LLM生成多个候选响应。这个系统能够提高对话推荐系统的性能，并利用用户反馈来更好地建模用户偏好。 |
-| [^46] | [Pok\'eLLMon: A Human-Parity Agent for Pok\'emon Battles with Large Language Models](https://rss.arxiv.org/abs/2402.01118) | Pok\'eLLMon是第一个在战术对战游戏中实现人类能力的语言模型化身代理机器人。它通过上下文强化学习、知识增强生成和一致的行动生成的策略，展现了与人类类似的战斗策略和及时决策，并在Ladder比赛中达到了49%的胜率，在邀请对战中达到了56%的胜率。 |
-| [^47] | [DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models](https://rss.arxiv.org/abs/2402.01117) | DTS-SQL采用了一种分解式的方法，使用小型语言模型，有效地缩小了开源模型与专有模型之间的性能差距，提高了文本到SQL任务的执行准确性。 |
-| [^48] | [Interpretation of Intracardiac Electrograms Through Textual Representations](https://rss.arxiv.org/abs/2402.01115) | 本研究首次利用预训练的语言模型，通过文本表示的方式对心内电图进行插值和房颤分类。相比其他表示方法，我们的方法在房颤分类上表现出竞争性的性能。 |
-| [^49] | [Vaccine: Perturbation-aware Alignment for Large Language Model](https://rss.arxiv.org/abs/2402.01109) | 疫苗是一种针对大规模语言模型的干扰感知对齐技术，通过逐渐添加扰动产生不变的隐藏嵌入，提高对抗有害提示引起的嵌入漂移的对齐鲁棒性，同时保留对良性提示的推理能力。 |
-| [^50] | [Reasoning Capacity in Multi-Agent Systems: Limitations, Challenges and Human-Centered Solutions](https://rss.arxiv.org/abs/2402.01108) | 多智能体系统面临着利用大型语言模型的限制和挑战，需要引入推理能力作为统一的标准来实现系统的整合和优化。 |
-| [^51] | [Let's Negotiate! A Survey of Negotiation Dialogue Systems](https://rss.arxiv.org/abs/2402.01097) | 该论文综述了谈判对话系统的最新研究，包括基准、评估和方法论。还讨论了未来的发展方向，如多模态、多方和跨文化的谈判场景。这为社群提供了关于谈判对话系统的系统综述，并激发未来的研究。 |
-| [^52] | [Specialized Language Models with Cheap Inference from Limited Domain Data](https://rss.arxiv.org/abs/2402.01093) | 本研究提出了一种使用有限领域数据进行廉价推理的专用语言模型。在研究中，我们通过比较不同的机器学习方法，在推理成本的限制下找到了比训练非常大的基本转换器模型更优的替代方案。具体而言，在大型预训练预算下，超网络和专家混合模型的困惑度更好，而在大型专用预算下，训练重要样本数据集上的小型模型更具吸引力。 |
-| [^53] | [Reading Between the Tweets: Deciphering Ideological Stances of Interconnected Mixed-Ideology Communities](https://rss.arxiv.org/abs/2402.01091) | 本文研究了Twitter上关于2020年美国选举的讨论，通过识别相互作用的社区，引入了一种利用信息传递的新方法，微调语言模型来探索这些社区的微妙意识形态。通过与真实调查结果的比较，我们的方法显示出比现有基准线更高的一致性，突显了利用语言模型揭示杂合意识形态社区中复杂意识形态的潜力。 |
-| [^54] | [Evaluation Methodology for Large Language Models for Multilingual Document Question and Answer](https://rss.arxiv.org/abs/2402.01065) | 本文研究了大型语言模型（LLMs）在多语言环境下的能力。研究结果表明，将原始语言的上下文、问题和答案翻译成高资源语言可以获得最佳效果。 |
-| [^55] | [Plan-Grounded Large Language Models for Dual Goal Conversational Settings](https://rss.arxiv.org/abs/2402.01053) | 本研究针对双重目标对话设置提出了一种新型的计划驱动大型语言模型，该模型能够在任意计划上基础对话，主动引导用户完成计划，并在系统行为上实施安全防护。 |
-| [^56] | [Generation, Distillation and Evaluation of Motivational Interviewing-Style Reflections with a Foundational Language Model](https://rss.arxiv.org/abs/2402.01051) | 本文介绍了一种将基础语言模型中的反思生成能力提炼到较小模型中的方法，并且展示了该方法在生成反思方面的优越性能。 |
-| [^57] | [Getting the most out of your tokenizer for pre-training and domain adaptation](https://rss.arxiv.org/abs/2402.01035) | 本文通过训练专用分词器，对分词器设计进行了消毒和分析，发现分词器的大小、正则表达式和训练数据对模型性能有重要影响，并提供了相应的超参数选择建议和切换分词器的方法。 |
-| [^58] | [Repeat After Me: Transformers are Better than State Space Models at Copying](https://rss.arxiv.org/abs/2402.01032) | 这篇论文证明了Transformer模型在复制任务上的优势，相比于使用固定潜在状态的广义状态空间模型，Transformer模型能够更高效地复制和检索上下文信息。 |
-| [^59] | [Executable Code Actions Elicit Better LLM Agents](https://rss.arxiv.org/abs/2402.01030) | 使用可执行的Python代码整合LLM智能体行动，提升了成功率高达20%。 |
-| [^60] | [Graph-based Clustering for Detecting Semantic Change Across Time and Languages](https://rss.arxiv.org/abs/2402.01025) | 这项研究提出了一种基于图的聚类方法，用于跨时间和语言中准确捕捉高频和低频词义的微妙变化，尤其解决了传统方法在捕捉低频词义方面的问题。该方法在SemEval2020四种语言的二元分类任务中表现出较好的性能。 |
-| [^61] | [Domain-Independent Deception: A New Taxonomy and Linguistic Analysis](https://rss.arxiv.org/abs/2402.01019) | 本论文提出了面向领域独立的欺骗行为的新分类和语言分析。首先，给出了对欺骗行为的新的计算定义，并提供了对其的分类系统。然后，分析了关于欺骗的语言线索的争议并提供了系统回顾的指导方针。最后，研究了常见的语言特征并提供了知识转移的证据。 |
-| [^62] | [HR-MultiWOZ: A Task Oriented Dialogue (TOD) Dataset for HR LLM Agent](https://rss.arxiv.org/abs/2402.01018) | HR-MultiWOZ是一个面向HR LLM Agent的任务导向对话数据集，具有首个开源的HR对话数据集标记，用于NLP研究。 |
-| [^63] | [An Information-Theoretic Approach to Analyze NLP Classification Tasks](https://rss.arxiv.org/abs/2402.00978) | 本研究提供了一个信息论框架来分析文本分类任务中输入的影响，发现在更具挑战性的数据集中，上下文对输出的影响减小，同时语义含义对于分类任务的影响较大。 |
-| [^64] | [SPARQL Generation with Entity Pre-trained GPT for KG Question Answering](https://rss.arxiv.org/abs/2402.00969) | 本文面向非程序员用户的KG问答问题，通过实体链接和GPT模型生成SPARQL查询，使用CWA预训练所有实体，实现了准确的SPARQL匹配率为62.703%。 |
-| [^65] | [Exploring Spatial Schema Intuitions in Large Language and Vision Models](https://rss.arxiv.org/abs/2402.00956) | 通过再现心理语言学实验，研究发现大型语言模型（LLMs）尽管无具身性，却能够有效捕捉到人类对于语言中基本的空间构建块的隐含直觉，这对于理解语言和空间的相互作用具有重要意义。 |
-| [^66] | [Institutional Platform for Secure Self-Service Large Language Model Exploration](https://rss.arxiv.org/abs/2402.00913) | 这个论文介绍了一个用户友好型平台，旨在使大型定制语言模型更易于使用，通过最新的多LoRA推理技术和定制适配器，实现了数据隔离、加密和身份验证的安全服务。 |
-| [^67] | [An Early Categorization of Prompt Injection Attacks on Large Language Models](https://rss.arxiv.org/abs/2402.00898) | 本文旨在提供对大规模语言模型上的提示注入攻击的早期分类，并讨论了这些攻击对LLM最终用户、开发人员和研究人员的影响。 |
-| [^68] | [Large Language Models in Cybersecurity: State-of-the-Art](https://rss.arxiv.org/abs/2402.00891) | 本研究综述了大型语言模型（LLMs）在网络安全领域中的防御和对抗应用，并识别了关键的研究空缺，旨在提供对LLM驱动的网络安全的潜在风险和机会的全面理解。 |
-| [^69] | [Security and Privacy Challenges of Large Language Models: A Survey](https://rss.arxiv.org/abs/2402.00888) | 大型语言模型具有卓越的能力，但也面临着安全和隐私攻击的威胁。本调查全面审查了LLM的安全和隐私挑战，涵盖了训练数据、用户和应用风险等方面，并对解决方法进行了回顾。 |
-| [^70] | [Scaling Sparse Fine-Tuning to Large Language Models](https://rss.arxiv.org/abs/2401.16405) | 本研究将稀疏微调方法扩展到大型语言模型，提出了一种新的稀疏微调算法SpIEL，并对LLM进行了指令微调，以解决其参数庞大的问题。 |
-| [^71] | [On the Semantics of LM Latent Space: A Vocabulary-defined Approach](https://rss.arxiv.org/abs/2401.16184) | 本论文介绍了一种以词汇为定义的语义学方法，建立了LM潜在空间的参考框架，确保基于LM词汇的分离语义分析。在LM适应过程中，引入了计算logits的新技术和神经聚类模块，通过实验证明了该方法在文本理解上的优越性能。 |
-| [^72] | [NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness](https://rss.arxiv.org/abs/2401.15963) | 本论文提出了一个新的基准测试 NoFunEval，用于评估代码语言模型在非功能性要求和简单分类实例方面的表现。研究发现，目前的代码语言模型在处理这些要求时存在根本性的盲点。 |
-| [^73] | [SuperCLUE-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese](https://rss.arxiv.org/abs/2401.11819) | SuperCLUE-Math6 是一个用于评估中文语言模型数学推理能力的分级数据集，通过增加难度、多样性和应用范围，提供了2000多个需要多步推理的数学问题，并采用创新方法来量化大型模型的推理能力。实验结果显示出明显的推理水平分层，顶级模型如GPT-4表现出优越的性能。SC-Math6填补了中文数学推理基准数据集的空白，并推进了中文语言模型的智能化。 |
-| [^74] | [Deciphering Textual Authenticity: A Generalized Strategy through the Lens of Large Language Semantics for Detecting Human vs. Machine-Generated Text](https://rss.arxiv.org/abs/2401.09407) | 该论文通过研究在真实世界场景中检测机器生成文本的方法，发现现有方法对于不同生成器和领域产生的文本存在严重限制。 |
-| [^75] | [Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon](https://rss.arxiv.org/abs/2401.03462) | 本论文提出了一种称为激活标志的新方法，它通过压缩LLM的激活状态，使其能够以有限的上下文窗口感知更长的上下文，同时保留了LLM在短上下文中的原始能力。这种方法具有竞争力的内存和时间效率，并通过多样化训练有效地支持不同上下文长度。 |
-| [^76] | [Spike No More: Stabilizing the Pre-training of Large Language Models](https://rss.arxiv.org/abs/2312.16903) | 本论文研究了大型语言模型预训练中的损失尖峰问题，并通过理论分析找出了梯度爆炸的原因，并提出了满足要求的方法。通过实验证明，该方法能够有效地防止尖峰的发生。 |
-| [^77] | [DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines](https://rss.arxiv.org/abs/2312.13382) | DSPy引入了LM断言，用于表达语言模型应满足的计算约束。在四个案例研究中，LM断言不仅提高了对规则的遵守，而且提高了下游任务的性能，增加了对约束的接受次数并生成了更高质量的回复。 |
-| [^78] | [CBQ: Cross-Block Quantization for Large Language Models](https://rss.arxiv.org/abs/2312.07950) | CBQ是一种用于大型语言模型的跨块重构型后训练量化方法。CBQ通过使用同源重构方案来建立块间的长程依赖关系，最小化误差积累。CBQ还采用了粗到精的预处理策略和自适应的取整技术，使其能够有效处理极端异常值并提高整体量化精度。 |
-| [^79] | [Neuron Patching: Neuron-level Model Editing on Code Generation and LLMs](https://rss.arxiv.org/abs/2312.05356) | 这项工作介绍了一种神经元层面的模型编辑方法，能够在编码任务中修补LLM模型，并且在API序列推荐、代码生成和伪代码到代码转换等任务中得到了验证和评估。 |
-| [^80] | [Large Language Models on Graphs: A Comprehensive Survey](https://rss.arxiv.org/abs/2312.02783) | 这篇论文对在图上的大型语言模型进行了全面调查，研究了纯图形、文本属性图形和文本配对图形三个不同场景下的应用情况，并探讨了基于图形的推理能力是否可以推广到大型语言模型上。 |
-| [^81] | [Evil Geniuses: Delving into the Safety of LLM-based Agents](https://rss.arxiv.org/abs/2311.11855) | 本文研究了基于LLM的智能体的安全性，从智能体数量、角色定义和攻击水平三个角度进行了探讨，并提出了一种有效的攻击方法“恶意天才”，通过自动生成与原始角色相关的提示，来测试在不同角色定义和攻击水平下的影响。 |
-| [^82] | [A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges](https://rss.arxiv.org/abs/2311.05112) | 本综述提供了医学中大型语言模型（LLMs）的原理、应用和挑战的全面概述。同时回答了医学LLMs的构建、下游性能、实际应用、挑战以及更好构建和利用的问题。旨在为构建有效的医学LLMs提供见解和实用资源。 |
-| [^83] | [Foundation Model's Embedded Representations May Detect Distribution Shift](https://rss.arxiv.org/abs/2310.13836) | 该研究发现基础模型的嵌入表示可以检测到数据集之间的分布偏移，且在传统的泛化度量上表现出偏差。预训练的GPT-2模型的特征学习无法在特定任务上提升性能，而对其表示进行线性探测可能优于整体微调。 |
-| [^84] | [Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking](https://rss.arxiv.org/abs/2309.01606) | Geo-Encoder是一个用于中文地理重新排序的创新框架，它能够更有效地将中文地理语义集成到重新排序流程中，并且通过使用多任务学习模块和异步更新机制，能够提升模型在特定块上的注意力集中能力。 |
-| [^85] | [Deception Abilities Emerged in Large Language Models](https://rss.arxiv.org/abs/2307.16513) | 大规模语言模型（LLM）如GPT-4具备了理解和诱导他人产生错误信念的能力，并且在复杂的欺骗场景中可以通过链式思维推理得到增强。 |
-| [^86] | [Language Models as Inductive Reasoners](https://rss.arxiv.org/abs/2212.10923) | 该论文提出了使用自然语言作为知识表示的归纳推理方法，以解决形式语言在处理原始输入、处理错误标记数据和处理模糊输入方面的问题。研究者提出了一个新的归纳推理任务，并创建了一个自然语言规则和事实对的数据集，通过使用预训练的语言模型进行评估。 |
-| [^87] | [Towards Efficient and Exact Optimization of Language Model Alignment](https://arxiv.org/abs/2402.00856) | 本论文提出了一种实现语言模型对齐的高效精确优化方法。通过证明，该方法能够在策略参数化任意的情况下，渐近地与强化学习算法的优化方向一致，并且能够实现高效优化。 |
-| [^88] | [CroissantLLM: A Truly Bilingual French-English Language Model](https://arxiv.org/abs/2402.00786) | CroissantLLM是一个1.3B的双语语言模型，通过使用1:1的英语-法语预训练数据比例、自定义的分词器和双语调优数据集进行训练，实现了高性能和开源。模型还发布了训练数据集和多个检查点，以及一个法语基准测试 FrenchBench。 |
-| [^89] | [A Chain-of-Thought Is as Strong as Its Weakest Link: A Benchmark for Verifiers of Reasoning Chains](https://arxiv.org/abs/2402.00559) | 本论文提出了Reveal数据集，用于在开放领域的问答设置中对复杂思维链的自动验证进行基准测试。这个数据集包含了详尽的标签，用于评估语言模型的答案中每个推理步骤的相关性、归因和逻辑正确性。 |
-| [^90] | [Improving QA Model Performance with Cartographic Inoculation](https://arxiv.org/abs/2401.17498) | 本文提出了一种名为地图接种的新方法，通过在优化的挑战数据子集上对QA模型进行微调，减少模型对数据集伪迹的依赖性，从而显著提高模型在复杂和开放的上下文推理问题上的性能。 |
-| [^91] | [Can Large Language Models Replace Economic Choice Prediction Labs?](https://arxiv.org/abs/2401.17435) | 该论文研究大型语言模型是否能够取代经济实验室进行选择预测，并通过相关实验证明了其可行性。 |
-| [^92] | [Recent Advances in Hate Speech Moderation: Multimodality and the Role of Large Models.](http://arxiv.org/abs/2401.16727) | 这项综合调查总结了最近在仇恨言论审核方面的进展，重点介绍了大型语言模型和大型多模态模型的作用。研究发现了文本、视觉和听觉元素在传播仇恨言论中的微妙相互作用，并强调了大型模型对审核能力的重新定义。同时，研究还指出了在少数语言和文化背景下的研究差距和处理低资源环境的需求。 |
-| [^93] | [A Linguistic Comparison between Human and ChatGPT-Generated Conversations.](http://arxiv.org/abs/2401.16587) | 本研究比较了人类和ChatGPT生成的对话的语言差异，发现ChatGPT在社交、分析、认知、关注焦点和积极情绪等方面表现出色，但人类对话更具变异性和真实性，尽管在情绪方面无显著差异。同时，该研究还提供了一个新颖的、由ChatGPT生成的对话组成的数据集。 |
-| [^94] | [Leveraging Professional Radiologists' Expertise to Enhance LLMs' Evaluation for Radiology Reports.](http://arxiv.org/abs/2401.16578) | 该论文提出了一种方法，将专业放射科医生的专业知识与大型语言模型相结合，来提升自动生成报告的自动评估。实验结果显示，该方法的模型在评估中表现优于传统的度量标准。 |
-| [^95] | [A RAG-based Question Answering System Proposal for Understanding Islam: MufassirQAS LLM.](http://arxiv.org/abs/2401.15378) | 基于RAG的MufassirQAS问答系统利用NLP技术建立联系并准确回答复杂问题，提高了LLMs的准确性和透明度，帮助理解伊斯兰教的复杂性和教义深度。 |
-| [^96] | [UNSEE: Unsupervised Non-contrastive Sentence Embeddings.](http://arxiv.org/abs/2401.15316) | UNSEE是一种无监督的非对比度句子嵌入方法，通过引入目标网络解决了表示坍塌问题，达到了与对比目标相当的性能提升。 |
-| [^97] | [The Neglected Tails of Vision-Language Models.](http://arxiv.org/abs/2401.12425) | 本文通过分析预训练文本来衡量视觉语言模型中概念的频率，并发现流行的VLM数据集展示了长尾概念分布，这与按类别的准确率强烈相关。 |
-| [^98] | [Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys.](http://arxiv.org/abs/2401.10352) | 通过引入cuDialog，我们提出了一种以文化为视角的对话生成基准，并开发了能够从对话中提取文化属性的基准模型。实验结果显示，结合文化价值调查可以提高对话代理的对个性化和对话质量的预测准确性。 |
-| [^99] | [Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation.](http://arxiv.org/abs/2401.08417) | 本研究通过引入对比性偏好优化（CPO）的方法，弥合了大型语言模型（LLM）在机器翻译中性能与传统编码器-解码器模型之间的差距，实现了更好的翻译效果。 |
-| [^100] | [DQNC2S: DQN-based Cross-stream Crisis event Summarizer.](http://arxiv.org/abs/2401.06683) | 本研究提出了一种基于DQN的在线危机事件摘要生成方法，能够同时总结多个灾害相关的数据流，无需人工标注或内容重新排序，且具有较好的性能表现。 |
-| [^101] | [An Assessment on Comprehending Mental Health through Large Language Models.](http://arxiv.org/abs/2401.04592) | 这项研究评估了大型语言模型在理解心理健康方面的潜力，结果显示基于Transformer的模型在表达人类心理健康状况方面的理解能力超过大型语言模型。 |
-| [^102] | [Topic Bias in Emotion Classification.](http://arxiv.org/abs/2312.09043) | 本文研究了情绪分类中的主题偏差问题，发现情绪语料库中的主题与情绪实际上具有相关性，并且情绪分类器容易受到这些主题的干扰。最后，研究者展示了一种去偏差的方法可以减轻主题偏差的影响。 |
-| [^103] | [Entity Matching using Large Language Models.](http://arxiv.org/abs/2310.11244) | 这项研究探讨了使用大型语言模型（LLMs）作为实体匹配的替代方法，相较于预训练的语言模型（PLMs），LLMs对训练数据需求较少且更具鲁棒性。 |
-| [^104] | [In-Context Few-Shot Relation Extraction via Pre-Trained Language Models.](http://arxiv.org/abs/2310.11085) | 本研究提出了基于预训练语言模型的上下文少样本关系抽取框架，首次将关系抽取任务重新定义为定制的上下文少样本学习范式。与现有方法相比，该框架不需要命名实体识别和文档人工注释，并且可以轻松更新到新的关系集合。通过评估使用DocRED数据集，验证了该框架的有效性。 |
-| [^105] | ["Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion.](http://arxiv.org/abs/2308.10974) | "引用GPT的“豚鼠试验”是一种创新的智能代理建模方法，利用智能代理代表企业进行竞争和勾结研究。它比使用人类主体进行实验更具成本效益和灵活性，并展现出超越传统代理建模方法的能力。" |
-| [^106] | [Demystifying GPT Self-Repair for Code Generation.](http://arxiv.org/abs/2306.09896) | 本文分析了 GPT-3.5 和 GPT-4 在 APPS 数据集上执行自我修复的能力，发现自我修复在 GPT 模型中的有效性严重取决于任务的质量和复杂性，自我修复在较短和较简单的任务中效果更好，仅在某些代码部分上应用自我修复可以非常有效，本文提出的引导修复方法在 APPS 数据集上获得性能提升。 |
-| [^107] | [On the Computational Power of Decoder-Only Transformer Language Models.](http://arxiv.org/abs/2305.17026) | 本篇论文研究了解码器Transformer语言模型的计算普适性，表明即使只有单层和单注意力头，仍然具有图灵完备性，其中单词嵌入的稀疏性/可压缩性是必要条件。 |
-| [^108] | [Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs.](http://arxiv.org/abs/2305.14279) | 本论文研究了大型语言模型在多步推理中的自洽性问题，提出了假设自洽性和组合自洽性两个重要特性，并发现GPT-3/-4模型在这两方面都表现出了较差的一致性。 |
-| [^109] | [Beyond Words: A Comprehensive Survey of Sentence Representations.](http://arxiv.org/abs/2305.12641) | 本文综述了不同的句子表示学习方法，包括传统和基于深度学习技术的方法。突出该领域的主要贡献和挑战，并强调句子表示学习的进展和未来的研究方向。 |
-| [^110] | [Multi-Relational Hyperbolic Word Embeddings from Natural Language Definitions.](http://arxiv.org/abs/2305.07303) | 本论文提出了一种从自然语言定义中学习多关系双曲词向量的框架，以捕捉由定义所引起的分层和多分辨率结构。 |
-| [^111] | [Assessing Working Memory Capacity of ChatGPT.](http://arxiv.org/abs/2305.03731) | 本文评估了最先进语言模型ChatGPT的工作记忆容量，结果显示其在N-back任务的行为表现与人类参与者相似，这为设计具有人类级认知能力的人工智能系统提供了关键洞察。 |
-| [^112] | [Data Curation for Image Captioning with Text-to-Image Generative Models.](http://arxiv.org/abs/2305.03610) | 本论文探究了通过数据整合来提高图像字幕质量的方案，并使用现有资源训练了比基准模型更好的模型。 |
+| [^20] | [A Comparative Analysis of Conversational Large Language Models in Knowledge-Based Text Generation](https://rss.arxiv.org/abs/2402.01495) | 本研究对比了四个不同大小的大型语言模型在从语义三元组生成自然语言文本方面的性能，并发现了生成预测中最常见的问题。 |
+| [^21] | [AMOR: A Recipe for Building Adaptable Modular Knowledge Agents Through Process Feedback](https://rss.arxiv.org/abs/2402.01469) | AMOR是一个基于开源LLM的代理框架，通过与外部知识库进行推理和人类监督来适应特定领域的推理过程。通过两阶段的微调，AMOR能够在不同知识环境中泛化，并且可以根据过程反馈进行领域定制。 |
+| [^22] | [The Queen of England is not England's Queen: On the Lack of Factual Coherency in PLMs](https://rss.arxiv.org/abs/2402.01453) | 本研究探讨了PLMs中事实知识的一致性问题，结果显示PLMs在使用提示时具有较低的一致性，但通过添加证据段落可以显著提高。这表明PLMs需要进一步增强以处理从事实中检索信息的能力。 |
+| [^23] | [The effect of diversity on group decision-making](https://rss.arxiv.org/abs/2402.01427) | 研究探讨认知多样性及其对群体决策成功的影响。通过分析500个团队讨论的对话记录，我们发现较大的认知多样性与更成功的群体决策相关。 |
+| [^24] | [Different Tastes of Entities: Investigating Human Label Variation in Named Entity Annotations](https://rss.arxiv.org/abs/2402.01423) | 本论文研究了命名实体标注中的人类标签变化的原因，发现文本歧义和人为指南更改是高质量修订中不同标注的主要因素，并验证了多样化标注用于理解命名实体歧义的可行性和必要性。 |
+| [^25] | [Sequence Shortening for Context-Aware Machine Translation](https://rss.arxiv.org/abs/2402.01416) | 本研究展示了上下文感知机器翻译的序列缩短方法，通过重用上下文信息可以提高翻译准确性，在对比数据集上表现良好，并且引入了新的潜在分组和潜在选择方法来进一步提高翻译质量。 |
+| [^26] | [On Measuring Context Utilization in Document-Level MT Systems](https://rss.arxiv.org/abs/2402.01404) | 提出了一种补充基于准确度评估的上下文利用度度量方法，表明扰动分析是一种有效的总体上下文利用度的度量方法，同时提出了测量支持性上下文对处理上下文相关话语现象贡献程度的方法。 |
+| [^27] | [StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback](https://rss.arxiv.org/abs/2402.01391) | StepCoder是一个基于强化学习的代码生成框架，通过将长序列代码生成任务分解为一系列代码完成子任务来解决探索挑战，并使用细粒度优化来提高模型的效果。 |
+| [^28] | [LLM-based NLG Evaluation: Current Status and Challenges](https://rss.arxiv.org/abs/2402.01383) | 这项调研介绍了基于大型语言模型（LLM）的自然语言生成（NLG）评估方法的现状，包括基于LLM导出的指标、引导LLM和使用带有标记评估数据的LLM微调，并讨论了人类与LLM的合作。同时指出了该领域的一些挑战和未来研究方向。 |
+| [^29] | [LoTR: Low Tensor Rank Weight Adaptation](https://rss.arxiv.org/abs/2402.01376) | LoTR是一种新颖的语言模型参数调优方法，通过引入低秩张量表示和张量分解，使得针对深层模型的参数效率更高，并且能够实现廉价且快速的下游调优。 |
+| [^30] | [Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization](https://rss.arxiv.org/abs/2402.01375) | 本研究通过分析不同LMs的探究实验，首次展示了主题内和跨主题泛化差距的原因，并表明嵌入空间的稳健性和LMs之间通用泛化差距的显著变化。我们的研究还发现多样的预训练目标、架构规范化或数据去重对于增强LMs的稳健性和减小泛化差距有积极作用。 |
+| [^31] | [Continual Learning for Large Language Models: A Survey](https://rss.arxiv.org/abs/2402.01364) | 这篇综述文章调查了大型语言模型(LLMs)的持续学习，使用了一种新颖的多阶段分类方案对持续学习技术进行了分类，指出了该领域面临的挑战和未来工作方向。 |
+| [^32] | [What Makes Medical Claims (Un)Verifiable? Analyzing Entity and Relation Properties for Fact Verification](https://rss.arxiv.org/abs/2402.01360) | 本论文通过分析医疗索赔的实体和关系属性，研究了影响其可验证性的因素，并建立了一个科学事实验证的语料库。 |
+| [^33] | [Describing Images $\textit{Fast and Slow}$: Quantifying and Predicting the Variation in Human Signals during Visuo-Linguistic Processes](https://rss.arxiv.org/abs/2402.01352) | 这项研究探索了图像描述中人类行为的变化，并发现图像的属性与这些变化相关。预训练模型可以在一定程度上捕捉到这种变化，但仍存在偏差。 |
+| [^34] | [Beyond the Answers: Reviewing the Rationality of Multiple Choice Question Answering for the Evaluation of Large Language Models](https://rss.arxiv.org/abs/2402.01349) | 对于评估大型语言模型中多选题回答的合理性进行了回顾，发现当前基于多选题回答的基准可能无法充分捕捉大型语言模型的真实能力。 |
+| [^35] | [Skip $\textbackslash n$: A simple method to reduce hallucination in Large Vision-Language Models](https://rss.arxiv.org/abs/2402.01345) | 本文提出了一种新的视角，指出LVLMs中固有的偏见可能是多模态幻觉的关键因素。通过系统识别与段落分割符相关的语义漂移偏差，我们发现模型在训练数据中经常遇到明显的内容语义变化，导致幻觉的产生。 |
+| [^36] | [Two Approaches to Diachronic Normalization of Polish Texts](https://rss.arxiv.org/abs/2402.01300) | 本文讨论了两种处理波兰文本时序规范化的方法，一种是基于规则的，一种是基于神经网络的。实验证明，在目前的研究阶段，基于规则的方法在大部分数据集上优于神经网络方法，但在实际应用中，两种方法都有各自的优点和缺点。 |
+| [^37] | [Can MLLMs Perform Text-to-Image In-Context Learning?](https://rss.arxiv.org/abs/2402.01293) | 本论文探索了将上下文学习扩展到多模态的文本到图像转换任务，并提出了第一个T2I-ICL基准数据集CoBSAT。研究发现MLLMs在解决T2I-ICL问题时面临着多模态和图像生成的固有复杂性，并通过微调和思维链提示等策略取得了显著改进。 |
+| [^38] | [The Human and the Mechanical: logos, truthfulness, and ChatGPT](https://rss.arxiv.org/abs/2402.01267) | 本论文通过语义论证，讨论了是否可以称之为“机械思维”，以及ChatGPT模型能否实现该思维。研究发现，“机械思维”缺乏与现实相关的证据和个人信念，因此无法形成对世界的信念和真实性判断。 |
+| [^39] | [In-Context Learning for Few-Shot Nested Named Entity Recognition](https://rss.arxiv.org/abs/2402.01182) | 本研究提出了一种针对少样本嵌套命名实体识别的上下文学习框架，并通过引入EnDe检索器和对比学习机制改进了示例演示选择，实现了高质量的演示示例。在多个数据集上进行的实验验证了系统的有效性。 |
+| [^40] | [Towards a Unified Language Model for Knowledge-Intensive Tasks Utilizing External Corpus](https://rss.arxiv.org/abs/2402.01176) | 本研究提出了一个统一的语言模型，通过无缝集成生成式检索、闭式生成和RAG，利用外部语料处理各种知识密集型任务。 |
+| [^41] | [Efficient Prompt Caching via Embedding Similarity](https://rss.arxiv.org/abs/2402.01173) | 本论文通过嵌入相似性的提示缓存方法来提高大规模语言模型(LMMs)的推理效率，并提出一种蒸馏方法来优化现有嵌入以获得更好的缓存预测准确性。 |
+| [^42] | [Streaming Sequence Transduction through Dynamic Compression](https://rss.arxiv.org/abs/2402.01172) | STAR是一种新型的Transformer模型，通过动态压缩和优化延迟、内存占用和质量，实现对流的高效序列转导，并在自动语音识别领域表现出色。 |
+| [^43] | [LLM-Detector: Improving AI-Generated Chinese Text Detection with Open-Source LLM Instruction Tuning](https://rss.arxiv.org/abs/2402.01158) | 本文提出了一个名为LLM-Detector的方法，使用开源LLM指令调整来改进AI生成的中文文本检测。通过提供混合了人工编写句子和LLMs润饰句子的数据集，并利用LLMs在预训练期间获得的知识，我们能够在文档级和句子级上实现高效的文本检测。实验结果表明，该方法优于现有的基于BERT和RoBERTa的模型。 |
+| [^44] | [CABINET: Content Relevance based Noise Reduction for Table Question Answering](https://rss.arxiv.org/abs/2402.01155) | CABINET是一个用于表格问答系统的基于内容相关性的噪声降低方法，通过加权处理表格内容并生成解析语句，使得大型语言模型能够专注于相关表格数据而抑制无关信息的干扰。 |
+| [^45] | [AccentFold: A Journey through African Accents for Zero-Shot ASR Adaptation to Target Accents](https://rss.arxiv.org/abs/2402.01152) | "AccentFold"是一种通过利用学习到的口音嵌入之间的空间关系来改进ASR的方法，通过探索性分析语音嵌入，揭示非洲口音之间的有趣关系，并发现了Ethnologue先前未经描述的口音关系。通过实证评估，证明了该方法的有效性。 |
+| [^46] | [A Multi-Agent Conversational Recommender System](https://rss.arxiv.org/abs/2402.01135) | 本文提出了一个多智能体对话推荐系统（MACRS），它通过设计一个多智能体行动规划框架来控制对话流程，并基于LLM生成多个候选响应。这个系统能够提高对话推荐系统的性能，并利用用户反馈来更好地建模用户偏好。 |
+| [^47] | [Pok\'eLLMon: A Human-Parity Agent for Pok\'emon Battles with Large Language Models](https://rss.arxiv.org/abs/2402.01118) | Pok\'eLLMon是第一个在战术对战游戏中实现人类能力的语言模型化身代理机器人。它通过上下文强化学习、知识增强生成和一致的行动生成的策略，展现了与人类类似的战斗策略和及时决策，并在Ladder比赛中达到了49%的胜率，在邀请对战中达到了56%的胜率。 |
+| [^48] | [DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models](https://rss.arxiv.org/abs/2402.01117) | DTS-SQL采用了一种分解式的方法，使用小型语言模型，有效地缩小了开源模型与专有模型之间的性能差距，提高了文本到SQL任务的执行准确性。 |
+| [^49] | [Interpretation of Intracardiac Electrograms Through Textual Representations](https://rss.arxiv.org/abs/2402.01115) | 本研究首次利用预训练的语言模型，通过文本表示的方式对心内电图进行插值和房颤分类。相比其他表示方法，我们的方法在房颤分类上表现出竞争性的性能。 |
+| [^50] | [Vaccine: Perturbation-aware Alignment for Large Language Model](https://rss.arxiv.org/abs/2402.01109) | 疫苗是一种针对大规模语言模型的干扰感知对齐技术，通过逐渐添加扰动产生不变的隐藏嵌入，提高对抗有害提示引起的嵌入漂移的对齐鲁棒性，同时保留对良性提示的推理能力。 |
+| [^51] | [Reasoning Capacity in Multi-Agent Systems: Limitations, Challenges and Human-Centered Solutions](https://rss.arxiv.org/abs/2402.01108) | 多智能体系统面临着利用大型语言模型的限制和挑战，需要引入推理能力作为统一的标准来实现系统的整合和优化。 |
+| [^52] | [Let's Negotiate! A Survey of Negotiation Dialogue Systems](https://rss.arxiv.org/abs/2402.01097) | 该论文综述了谈判对话系统的最新研究，包括基准、评估和方法论。还讨论了未来的发展方向，如多模态、多方和跨文化的谈判场景。这为社群提供了关于谈判对话系统的系统综述，并激发未来的研究。 |
+| [^53] | [Specialized Language Models with Cheap Inference from Limited Domain Data](https://rss.arxiv.org/abs/2402.01093) | 本研究提出了一种使用有限领域数据进行廉价推理的专用语言模型。在研究中，我们通过比较不同的机器学习方法，在推理成本的限制下找到了比训练非常大的基本转换器模型更优的替代方案。具体而言，在大型预训练预算下，超网络和专家混合模型的困惑度更好，而在大型专用预算下，训练重要样本数据集上的小型模型更具吸引力。 |
+| [^54] | [Reading Between the Tweets: Deciphering Ideological Stances of Interconnected Mixed-Ideology Communities](https://rss.arxiv.org/abs/2402.01091) | 本文研究了Twitter上关于2020年美国选举的讨论，通过识别相互作用的社区，引入了一种利用信息传递的新方法，微调语言模型来探索这些社区的微妙意识形态。通过与真实调查结果的比较，我们的方法显示出比现有基准线更高的一致性，突显了利用语言模型揭示杂合意识形态社区中复杂意识形态的潜力。 |
+| [^55] | [Evaluation Methodology for Large Language Models for Multilingual Document Question and Answer](https://rss.arxiv.org/abs/2402.01065) | 本文研究了大型语言模型（LLMs）在多语言环境下的能力。研究结果表明，将原始语言的上下文、问题和答案翻译成高资源语言可以获得最佳效果。 |
+| [^56] | [Plan-Grounded Large Language Models for Dual Goal Conversational Settings](https://rss.arxiv.org/abs/2402.01053) | 本研究针对双重目标对话设置提出了一种新型的计划驱动大型语言模型，该模型能够在任意计划上基础对话，主动引导用户完成计划，并在系统行为上实施安全防护。 |
+| [^57] | [Generation, Distillation and Evaluation of Motivational Interviewing-Style Reflections with a Foundational Language Model](https://rss.arxiv.org/abs/2402.01051) | 本文介绍了一种将基础语言模型中的反思生成能力提炼到较小模型中的方法，并且展示了该方法在生成反思方面的优越性能。 |
+| [^58] | [Getting the most out of your tokenizer for pre-training and domain adaptation](https://rss.arxiv.org/abs/2402.01035) | 本文通过训练专用分词器，对分词器设计进行了消毒和分析，发现分词器的大小、正则表达式和训练数据对模型性能有重要影响，并提供了相应的超参数选择建议和切换分词器的方法。 |
+| [^59] | [Repeat After Me: Transformers are Better than State Space Models at Copying](https://rss.arxiv.org/abs/2402.01032) | 这篇论文证明了Transformer模型在复制任务上的优势，相比于使用固定潜在状态的广义状态空间模型，Transformer模型能够更高效地复制和检索上下文信息。 |
+| [^60] | [Executable Code Actions Elicit Better LLM Agents](https://rss.arxiv.org/abs/2402.01030) | 使用可执行的Python代码整合LLM智能体行动，提升了成功率高达20%。 |
+| [^61] | [Graph-based Clustering for Detecting Semantic Change Across Time and Languages](https://rss.arxiv.org/abs/2402.01025) | 这项研究提出了一种基于图的聚类方法，用于跨时间和语言中准确捕捉高频和低频词义的微妙变化，尤其解决了传统方法在捕捉低频词义方面的问题。该方法在SemEval2020四种语言的二元分类任务中表现出较好的性能。 |
+| [^62] | [Domain-Independent Deception: A New Taxonomy and Linguistic Analysis](https://rss.arxiv.org/abs/2402.01019) | 本论文提出了面向领域独立的欺骗行为的新分类和语言分析。首先，给出了对欺骗行为的新的计算定义，并提供了对其的分类系统。然后，分析了关于欺骗的语言线索的争议并提供了系统回顾的指导方针。最后，研究了常见的语言特征并提供了知识转移的证据。 |
+| [^63] | [HR-MultiWOZ: A Task Oriented Dialogue (TOD) Dataset for HR LLM Agent](https://rss.arxiv.org/abs/2402.01018) | HR-MultiWOZ是一个面向HR LLM Agent的任务导向对话数据集，具有首个开源的HR对话数据集标记，用于NLP研究。 |
+| [^64] | [An Information-Theoretic Approach to Analyze NLP Classification Tasks](https://rss.arxiv.org/abs/2402.00978) | 本研究提供了一个信息论框架来分析文本分类任务中输入的影响，发现在更具挑战性的数据集中，上下文对输出的影响减小，同时语义含义对于分类任务的影响较大。 |
+| [^65] | [SPARQL Generation with Entity Pre-trained GPT for KG Question Answering](https://rss.arxiv.org/abs/2402.00969) | 本文面向非程序员用户的KG问答问题，通过实体链接和GPT模型生成SPARQL查询，使用CWA预训练所有实体，实现了准确的SPARQL匹配率为62.703%。 |
+| [^66] | [Exploring Spatial Schema Intuitions in Large Language and Vision Models](https://rss.arxiv.org/abs/2402.00956) | 通过再现心理语言学实验，研究发现大型语言模型（LLMs）尽管无具身性，却能够有效捕捉到人类对于语言中基本的空间构建块的隐含直觉，这对于理解语言和空间的相互作用具有重要意义。 |
+| [^67] | [Institutional Platform for Secure Self-Service Large Language Model Exploration](https://rss.arxiv.org/abs/2402.00913) | 这个论文介绍了一个用户友好型平台，旨在使大型定制语言模型更易于使用，通过最新的多LoRA推理技术和定制适配器，实现了数据隔离、加密和身份验证的安全服务。 |
+| [^68] | [An Early Categorization of Prompt Injection Attacks on Large Language Models](https://rss.arxiv.org/abs/2402.00898) | 本文旨在提供对大规模语言模型上的提示注入攻击的早期分类，并讨论了这些攻击对LLM最终用户、开发人员和研究人员的影响。 |
+| [^69] | [Large Language Models in Cybersecurity: State-of-the-Art](https://rss.arxiv.org/abs/2402.00891) | 本研究综述了大型语言模型（LLMs）在网络安全领域中的防御和对抗应用，并识别了关键的研究空缺，旨在提供对LLM驱动的网络安全的潜在风险和机会的全面理解。 |
+| [^70] | [Security and Privacy Challenges of Large Language Models: A Survey](https://rss.arxiv.org/abs/2402.00888) | 大型语言模型具有卓越的能力，但也面临着安全和隐私攻击的威胁。本调查全面审查了LLM的安全和隐私挑战，涵盖了训练数据、用户和应用风险等方面，并对解决方法进行了回顾。 |
+| [^71] | [Scaling Sparse Fine-Tuning to Large Language Models](https://rss.arxiv.org/abs/2401.16405) | 本研究将稀疏微调方法扩展到大型语言模型，提出了一种新的稀疏微调算法SpIEL，并对LLM进行了指令微调，以解决其参数庞大的问题。 |
+| [^72] | [On the Semantics of LM Latent Space: A Vocabulary-defined Approach](https://rss.arxiv.org/abs/2401.16184) | 本论文介绍了一种以词汇为定义的语义学方法，建立了LM潜在空间的参考框架，确保基于LM词汇的分离语义分析。在LM适应过程中，引入了计算logits的新技术和神经聚类模块，通过实验证明了该方法在文本理解上的优越性能。 |
+| [^73] | [NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness](https://rss.arxiv.org/abs/2401.15963) | 本论文提出了一个新的基准测试 NoFunEval，用于评估代码语言模型在非功能性要求和简单分类实例方面的表现。研究发现，目前的代码语言模型在处理这些要求时存在根本性的盲点。 |
+| [^74] | [SuperCLUE-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese](https://rss.arxiv.org/abs/2401.11819) | SuperCLUE-Math6 是一个用于评估中文语言模型数学推理能力的分级数据集，通过增加难度、多样性和应用范围，提供了2000多个需要多步推理的数学问题，并采用创新方法来量化大型模型的推理能力。实验结果显示出明显的推理水平分层，顶级模型如GPT-4表现出优越的性能。SC-Math6填补了中文数学推理基准数据集的空白，并推进了中文语言模型的智能化。 |
+| [^75] | [Deciphering Textual Authenticity: A Generalized Strategy through the Lens of Large Language Semantics for Detecting Human vs. Machine-Generated Text](https://rss.arxiv.org/abs/2401.09407) | 该论文通过研究在真实世界场景中检测机器生成文本的方法，发现现有方法对于不同生成器和领域产生的文本存在严重限制。 |
+| [^76] | [Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon](https://rss.arxiv.org/abs/2401.03462) | 本论文提出了一种称为激活标志的新方法，它通过压缩LLM的激活状态，使其能够以有限的上下文窗口感知更长的上下文，同时保留了LLM在短上下文中的原始能力。这种方法具有竞争力的内存和时间效率，并通过多样化训练有效地支持不同上下文长度。 |
+| [^77] | [Spike No More: Stabilizing the Pre-training of Large Language Models](https://rss.arxiv.org/abs/2312.16903) | 本论文研究了大型语言模型预训练中的损失尖峰问题，并通过理论分析找出了梯度爆炸的原因，并提出了满足要求的方法。通过实验证明，该方法能够有效地防止尖峰的发生。 |
+| [^78] | [DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines](https://rss.arxiv.org/abs/2312.13382) | DSPy引入了LM断言，用于表达语言模型应满足的计算约束。在四个案例研究中，LM断言不仅提高了对规则的遵守，而且提高了下游任务的性能，增加了对约束的接受次数并生成了更高质量的回复。 |
+| [^79] | [CBQ: Cross-Block Quantization for Large Language Models](https://rss.arxiv.org/abs/2312.07950) | CBQ是一种用于大型语言模型的跨块重构型后训练量化方法。CBQ通过使用同源重构方案来建立块间的长程依赖关系，最小化误差积累。CBQ还采用了粗到精的预处理策略和自适应的取整技术，使其能够有效处理极端异常值并提高整体量化精度。 |
+| [^80] | [Neuron Patching: Neuron-level Model Editing on Code Generation and LLMs](https://rss.arxiv.org/abs/2312.05356) | 这项工作介绍了一种神经元层面的模型编辑方法，能够在编码任务中修补LLM模型，并且在API序列推荐、代码生成和伪代码到代码转换等任务中得到了验证和评估。 |
+| [^81] | [Large Language Models on Graphs: A Comprehensive Survey](https://rss.arxiv.org/abs/2312.02783) | 这篇论文对在图上的大型语言模型进行了全面调查，研究了纯图形、文本属性图形和文本配对图形三个不同场景下的应用情况，并探讨了基于图形的推理能力是否可以推广到大型语言模型上。 |
+| [^82] | [Evil Geniuses: Delving into the Safety of LLM-based Agents](https://rss.arxiv.org/abs/2311.11855) | 本文研究了基于LLM的智能体的安全性，从智能体数量、角色定义和攻击水平三个角度进行了探讨，并提出了一种有效的攻击方法“恶意天才”，通过自动生成与原始角色相关的提示，来测试在不同角色定义和攻击水平下的影响。 |
+| [^83] | [A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges](https://rss.arxiv.org/abs/2311.05112) | 本综述提供了医学中大型语言模型（LLMs）的原理、应用和挑战的全面概述。同时回答了医学LLMs的构建、下游性能、实际应用、挑战以及更好构建和利用的问题。旨在为构建有效的医学LLMs提供见解和实用资源。 |
+| [^84] | [Foundation Model's Embedded Representations May Detect Distribution Shift](https://rss.arxiv.org/abs/2310.13836) | 该研究发现基础模型的嵌入表示可以检测到数据集之间的分布偏移，且在传统的泛化度量上表现出偏差。预训练的GPT-2模型的特征学习无法在特定任务上提升性能，而对其表示进行线性探测可能优于整体微调。 |
+| [^85] | [Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking](https://rss.arxiv.org/abs/2309.01606) | Geo-Encoder是一个用于中文地理重新排序的创新框架，它能够更有效地将中文地理语义集成到重新排序流程中，并且通过使用多任务学习模块和异步更新机制，能够提升模型在特定块上的注意力集中能力。 |
+| [^86] | [Deception Abilities Emerged in Large Language Models](https://rss.arxiv.org/abs/2307.16513) | 大规模语言模型（LLM）如GPT-4具备了理解和诱导他人产生错误信念的能力，并且在复杂的欺骗场景中可以通过链式思维推理得到增强。 |
+| [^87] | [Language Models as Inductive Reasoners](https://rss.arxiv.org/abs/2212.10923) | 该论文提出了使用自然语言作为知识表示的归纳推理方法，以解决形式语言在处理原始输入、处理错误标记数据和处理模糊输入方面的问题。研究者提出了一个新的归纳推理任务，并创建了一个自然语言规则和事实对的数据集，通过使用预训练的语言模型进行评估。 |
+| [^88] | [Towards Efficient and Exact Optimization of Language Model Alignment](https://arxiv.org/abs/2402.00856) | 本论文提出了一种实现语言模型对齐的高效精确优化方法。通过证明，该方法能够在策略参数化任意的情况下，渐近地与强化学习算法的优化方向一致，并且能够实现高效优化。 |
+| [^89] | [CroissantLLM: A Truly Bilingual French-English Language Model](https://arxiv.org/abs/2402.00786) | CroissantLLM是一个1.3B的双语语言模型，通过使用1:1的英语-法语预训练数据比例、自定义的分词器和双语调优数据集进行训练，实现了高性能和开源。模型还发布了训练数据集和多个检查点，以及一个法语基准测试 FrenchBench。 |
+| [^90] | [A Chain-of-Thought Is as Strong as Its Weakest Link: A Benchmark for Verifiers of Reasoning Chains](https://arxiv.org/abs/2402.00559) | 本论文提出了Reveal数据集，用于在开放领域的问答设置中对复杂思维链的自动验证进行基准测试。这个数据集包含了详尽的标签，用于评估语言模型的答案中每个推理步骤的相关性、归因和逻辑正确性。 |
+| [^91] | [Improving QA Model Performance with Cartographic Inoculation](https://arxiv.org/abs/2401.17498) | 本文提出了一种名为地图接种的新方法，通过在优化的挑战数据子集上对QA模型进行微调，减少模型对数据集伪迹的依赖性，从而显著提高模型在复杂和开放的上下文推理问题上的性能。 |
+| [^92] | [Can Large Language Models Replace Economic Choice Prediction Labs?](https://arxiv.org/abs/2401.17435) | 该论文研究大型语言模型是否能够取代经济实验室进行选择预测，并通过相关实验证明了其可行性。 |
+| [^93] | [Recent Advances in Hate Speech Moderation: Multimodality and the Role of Large Models.](http://arxiv.org/abs/2401.16727) | 这项综合调查总结了最近在仇恨言论审核方面的进展，重点介绍了大型语言模型和大型多模态模型的作用。研究发现了文本、视觉和听觉元素在传播仇恨言论中的微妙相互作用，并强调了大型模型对审核能力的重新定义。同时，研究还指出了在少数语言和文化背景下的研究差距和处理低资源环境的需求。 |
+| [^94] | [A Linguistic Comparison between Human and ChatGPT-Generated Conversations.](http://arxiv.org/abs/2401.16587) | 本研究比较了人类和ChatGPT生成的对话的语言差异，发现ChatGPT在社交、分析、认知、关注焦点和积极情绪等方面表现出色，但人类对话更具变异性和真实性，尽管在情绪方面无显著差异。同时，该研究还提供了一个新颖的、由ChatGPT生成的对话组成的数据集。 |
+| [^95] | [Leveraging Professional Radiologists' Expertise to Enhance LLMs' Evaluation for Radiology Reports.](http://arxiv.org/abs/2401.16578) | 该论文提出了一种方法，将专业放射科医生的专业知识与大型语言模型相结合，来提升自动生成报告的自动评估。实验结果显示，该方法的模型在评估中表现优于传统的度量标准。 |
+| [^96] | [A RAG-based Question Answering System Proposal for Understanding Islam: MufassirQAS LLM.](http://arxiv.org/abs/2401.15378) | 基于RAG的MufassirQAS问答系统利用NLP技术建立联系并准确回答复杂问题，提高了LLMs的准确性和透明度，帮助理解伊斯兰教的复杂性和教义深度。 |
+| [^97] | [UNSEE: Unsupervised Non-contrastive Sentence Embeddings.](http://arxiv.org/abs/2401.15316) | UNSEE是一种无监督的非对比度句子嵌入方法，通过引入目标网络解决了表示坍塌问题，达到了与对比目标相当的性能提升。 |
+| [^98] | [The Neglected Tails of Vision-Language Models.](http://arxiv.org/abs/2401.12425) | 本文通过分析预训练文本来衡量视觉语言模型中概念的频率，并发现流行的VLM数据集展示了长尾概念分布，这与按类别的准确率强烈相关。 |
+| [^99] | [Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys.](http://arxiv.org/abs/2401.10352) | 通过引入cuDialog，我们提出了一种以文化为视角的对话生成基准，并开发了能够从对话中提取文化属性的基准模型。实验结果显示，结合文化价值调查可以提高对话代理的对个性化和对话质量的预测准确性。 |
+| [^100] | [Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation.](http://arxiv.org/abs/2401.08417) | 本研究通过引入对比性偏好优化（CPO）的方法，弥合了大型语言模型（LLM）在机器翻译中性能与传统编码器-解码器模型之间的差距，实现了更好的翻译效果。 |
+| [^101] | [DQNC2S: DQN-based Cross-stream Crisis event Summarizer.](http://arxiv.org/abs/2401.06683) | 本研究提出了一种基于DQN的在线危机事件摘要生成方法，能够同时总结多个灾害相关的数据流，无需人工标注或内容重新排序，且具有较好的性能表现。 |
+| [^102] | [An Assessment on Comprehending Mental Health through Large Language Models.](http://arxiv.org/abs/2401.04592) | 这项研究评估了大型语言模型在理解心理健康方面的潜力，结果显示基于Transformer的模型在表达人类心理健康状况方面的理解能力超过大型语言模型。 |
+| [^103] | [Topic Bias in Emotion Classification.](http://arxiv.org/abs/2312.09043) | 本文研究了情绪分类中的主题偏差问题，发现情绪语料库中的主题与情绪实际上具有相关性，并且情绪分类器容易受到这些主题的干扰。最后，研究者展示了一种去偏差的方法可以减轻主题偏差的影响。 |
+| [^104] | [Entity Matching using Large Language Models.](http://arxiv.org/abs/2310.11244) | 这项研究探讨了使用大型语言模型（LLMs）作为实体匹配的替代方法，相较于预训练的语言模型（PLMs），LLMs对训练数据需求较少且更具鲁棒性。 |
+| [^105] | [In-Context Few-Shot Relation Extraction via Pre-Trained Language Models.](http://arxiv.org/abs/2310.11085) | 本研究提出了基于预训练语言模型的上下文少样本关系抽取框架，首次将关系抽取任务重新定义为定制的上下文少样本学习范式。与现有方法相比，该框架不需要命名实体识别和文档人工注释，并且可以轻松更新到新的关系集合。通过评估使用DocRED数据集，验证了该框架的有效性。 |
+| [^106] | ["Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion.](http://arxiv.org/abs/2308.10974) | "引用GPT的“豚鼠试验”是一种创新的智能代理建模方法，利用智能代理代表企业进行竞争和勾结研究。它比使用人类主体进行实验更具成本效益和灵活性，并展现出超越传统代理建模方法的能力。" |
+| [^107] | [Demystifying GPT Self-Repair for Code Generation.](http://arxiv.org/abs/2306.09896) | 本文分析了 GPT-3.5 和 GPT-4 在 APPS 数据集上执行自我修复的能力，发现自我修复在 GPT 模型中的有效性严重取决于任务的质量和复杂性，自我修复在较短和较简单的任务中效果更好，仅在某些代码部分上应用自我修复可以非常有效，本文提出的引导修复方法在 APPS 数据集上获得性能提升。 |
+| [^108] | [On the Computational Power of Decoder-Only Transformer Language Models.](http://arxiv.org/abs/2305.17026) | 本篇论文研究了解码器Transformer语言模型的计算普适性，表明即使只有单层和单注意力头，仍然具有图灵完备性，其中单词嵌入的稀疏性/可压缩性是必要条件。 |
+| [^109] | [Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs.](http://arxiv.org/abs/2305.14279) | 本论文研究了大型语言模型在多步推理中的自洽性问题，提出了假设自洽性和组合自洽性两个重要特性，并发现GPT-3/-4模型在这两方面都表现出了较差的一致性。 |
+| [^110] | [Beyond Words: A Comprehensive Survey of Sentence Representations.](http://arxiv.org/abs/2305.12641) | 本文综述了不同的句子表示学习方法，包括传统和基于深度学习技术的方法。突出该领域的主要贡献和挑战，并强调句子表示学习的进展和未来的研究方向。 |
+| [^111] | [Multi-Relational Hyperbolic Word Embeddings from Natural Language Definitions.](http://arxiv.org/abs/2305.07303) | 本论文提出了一种从自然语言定义中学习多关系双曲词向量的框架，以捕捉由定义所引起的分层和多分辨率结构。 |
+| [^112] | [Assessing Working Memory Capacity of ChatGPT.](http://arxiv.org/abs/2305.03731) | 本文评估了最先进语言模型ChatGPT的工作记忆容量，结果显示其在N-back任务的行为表现与人类参与者相似，这为设计具有人类级认知能力的人工智能系统提供了关键洞察。 |
+| [^113] | [Data Curation for Image Captioning with Text-to-Image Generative Models.](http://arxiv.org/abs/2305.03610) | 本论文探究了通过数据整合来提高图像字幕质量的方案，并使用现有资源训练了比基准模型更好的模型。 |
 
 # 详细
 
@@ -383,7 +384,21 @@
 
     Code switching (CS) is a very common phenomenon in written and spoken communication but one that is handled poorly by many natural language processing applications. Looking to the application of building CS corpora, we explore CS language identification (LID) for corpus building. We make the task more realistic by scaling it to more languages and considering models with simpler architectures for faster inference. We also reformulate the task as a sentence-level multi-label tagging problem to make it more tractable. Having defined the task, we investigate three reasonable models for this task and define metrics which better reflect desired performance. We present empirical evidence that no current approach is adequate and finally provide recommendations for future work in this area.
     
-[^20]: AMOR:通过进程反馈构建适应性模块化知识代理的方法
+[^20]: 知识图生成对话式自然语言文本的比较分析
+
+    A Comparative Analysis of Conversational Large Language Models in Knowledge-Based Text Generation
+
+    [https://rss.arxiv.org/abs/2402.01495](https://rss.arxiv.org/abs/2402.01495)
+
+    本研究对比了四个不同大小的大型语言模型在从语义三元组生成自然语言文本方面的性能，并发现了生成预测中最常见的问题。
+
+    
+
+    从图结构数据中生成自然语言文本对于会话式信息搜索至关重要。从知识图中获得的语义三元组可以作为对话代理回应的基础，通过提供事实依据来传达信息。这在大型语言模型的背景下尤为重要，大型语言模型具有很大的会话交互潜力，但容易产生幻象、省略或产生冲突信息。在本研究中，我们对会话式大型语言模型在从语义三元组生成自然语言文本方面进行了实证分析。我们比较了四个不同大小的大型语言模型和不同启发式技术。通过在WebNLG数据集上进行一系列基准实验，我们分析了模型的性能，并确定了生成的预测中最常见的问题。我们的研究结果表明，大型语言模型在三元组验证
+
+    Generating natural language text from graph-structured data is essential for conversational information seeking. Semantic triples derived from knowledge graphs can serve as a valuable source for grounding responses from conversational agents by providing a factual basis for the information they communicate. This is especially relevant in the context of large language models, which offer great potential for conversational interaction but are prone to hallucinating, omitting, or producing conflicting information. In this study, we conduct an empirical analysis of conversational large language models in generating natural language text from semantic triples. We compare four large language models of varying sizes with different prompting techniques. Through a series of benchmark experiments on the WebNLG dataset, we analyze the models' performance and identify the most common issues in the generated predictions. Our findings show that the capabilities of large language models in triple ver
+    
+[^21]: AMOR:通过进程反馈构建适应性模块化知识代理的方法
 
     AMOR: A Recipe for Building Adaptable Modular Knowledge Agents Through Process Feedback
 
@@ -397,7 +412,7 @@
 
     The notable success of large language models (LLMs) has sparked an upsurge in building language agents to complete various complex tasks. We present AMOR, an agent framework based on open-source LLMs, which reasons with external knowledge bases and adapts to specific domains through human supervision to the reasoning process. AMOR builds reasoning logic over a finite state machine (FSM) that solves problems through autonomous executions and transitions over disentangled modules. This allows humans to provide direct feedback to the individual modules, and thus naturally forms process supervision. Based on this reasoning and feedback framework, we develop AMOR through two-stage fine-tuning: warm-up and adaptation. The former fine-tunes the LLM with examples automatically constructed from various public datasets and enables AMOR to generalize across different knowledge environments, while the latter tailors AMOR to specific domains using process feedback. Extensive experiments across mult
     
-[^21]: 英国女王并非英格兰的女王：关于PLMs中缺乏事实一致性的问题
+[^22]: 英国女王并非英格兰的女王：关于PLMs中缺乏事实一致性的问题
 
     The Queen of England is not England's Queen: On the Lack of Factual Coherency in PLMs
 
@@ -411,7 +426,7 @@
 
     Factual knowledge encoded in Pre-trained Language Models (PLMs) enriches their representations and justifies their use as knowledge bases. Previous work has focused on probing PLMs for factual knowledge by measuring how often they can correctly predict an object entity given a subject and a relation, and improving fact retrieval by optimizing the prompts used for querying PLMs. In this work, we consider a complementary aspect, namely the coherency of factual knowledge in PLMs, i.e., how often can PLMs predict the subject entity given its initial prediction of the object entity. This goes beyond evaluating how much PLMs know, and focuses on the internal state of knowledge inside them. Our results indicate that PLMs have low coherency using manually written, optimized and paraphrased prompts, but including an evidence paragraph leads to substantial improvement. This shows that PLMs fail to model inverse relations and need further enhancements to be able to handle retrieving facts from th
     
-[^22]: 多样性对群体决策的影响
+[^23]: 多样性对群体决策的影响
 
     The effect of diversity on group decision-making
 
@@ -425,7 +440,7 @@
 
     We explore different aspects of cognitive diversity and its effect on the success of group deliberation. To evaluate this, we use 500 dialogues from small, online groups discussing the Wason Card Selection task - the DeliData corpus. Leveraging the corpus, we perform quantitative analysis evaluating three different measures of cognitive diversity. First, we analyse the effect of group size as a proxy measure for diversity. Second, we evaluate the effect of the size of the initial idea pool. Finally, we look into the content of the discussion by analysing discussed solutions, discussion patterns, and how conversational probing can improve those characteristics.   Despite the reputation of groups for compounding bias, we show that small groups can, through dialogue, overcome intuitive biases and improve individual decision-making. Across a large sample and different operationalisations, we consistently find that greater cognitive diversity is associated with more successful group deliber
     
-[^23]: 各实体的不同偏好：探究命名实体标注中的人类标签变化
+[^24]: 各实体的不同偏好：探究命名实体标注中的人类标签变化
 
     Different Tastes of Entities: Investigating Human Label Variation in Named Entity Annotations
 
@@ -439,7 +454,7 @@
 
     Named Entity Recognition (NER) is a key information extraction task with a long-standing tradition. While recent studies address and aim to correct annotation errors via re-labeling efforts, little is known about the sources of human label variation, such as text ambiguity, annotation error, or guideline divergence. This is especially the case for high-quality datasets and beyond English CoNLL03. This paper studies disagreements in expert-annotated named entity datasets for three languages: English, Danish, and Bavarian. We show that text ambiguity and artificial guideline changes are dominant factors for diverse annotations among high-quality revisions. We survey student annotations on a subset of difficult entities and substantiate the feasibility and necessity of manifold annotations for understanding named entity ambiguities from a distributional perspective.
     
-[^24]: 上下文感知机器翻译的序列缩短
+[^25]: 上下文感知机器翻译的序列缩短
 
     Sequence Shortening for Context-Aware Machine Translation
 
@@ -453,7 +468,7 @@
 
     Context-aware Machine Translation aims to improve translations of sentences by incorporating surrounding sentences as context. Towards this task, two main architectures have been applied, namely single-encoder (based on concatenation) and multi-encoder models. In this study, we show that a special case of multi-encoder architecture, where the latent representation of the source sentence is cached and reused as the context in the next step, achieves higher accuracy on the contrastive datasets (where the models have to rank the correct translation among the provided sentences) and comparable BLEU and COMET scores as the single- and multi-encoder approaches. Furthermore, we investigate the application of Sequence Shortening to the cached representations. We test three pooling-based shortening techniques and introduce two novel methods - Latent Grouping and Latent Selecting, where the network learns to group tokens or selects the tokens to be cached as context. Our experiments show that th
     
-[^25]: 关于测量文档级机器翻译系统中上下文利用的研究
+[^26]: 关于测量文档级机器翻译系统中上下文利用的研究
 
     On Measuring Context Utilization in Document-Level MT Systems
 
@@ -467,7 +482,7 @@
 
     Document-level translation models are usually evaluated using general metrics such as BLEU, which are not informative about the benefits of context. Current work on context-aware evaluation, such as contrastive methods, only measure translation accuracy on words that need context for disambiguation. Such measures cannot reveal whether the translation model uses the correct supporting context. We propose to complement accuracy-based evaluation with measures of context utilization. We find that perturbation-based analysis (comparing models' performance when provided with correct versus random context) is an effective measure of overall context utilization. For a finer-grained phenomenon-specific evaluation, we propose to measure how much the supporting context contributes to handling context-dependent discourse phenomena. We show that automatically-annotated supporting context gives similar conclusions to human-annotated context and can be used as alternative for cases where human annota
     
-[^26]: StepCoder: 使用强化学习从编译器反馈中改进代码生成
+[^27]: StepCoder: 使用强化学习从编译器反馈中改进代码生成
 
     StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback
 
@@ -481,7 +496,7 @@
 
     The advancement of large language models (LLMs) has significantly propelled the field of code generation. Previous work integrated reinforcement learning (RL) with compiler feedback for exploring the output space of LLMs to enhance code generation quality. However, the lengthy code generated by LLMs in response to complex human requirements makes RL exploration a challenge. Also, since the unit tests may not cover the complicated code, optimizing LLMs by using these unexecuted code snippets is ineffective. To tackle these challenges, we introduce StepCoder, a novel RL framework for code generation, consisting of two main components: CCCS addresses the exploration challenge by breaking the long sequences code generation task into a Curriculum of Code Completion Subtasks, while FGO only optimizes the model by masking the unexecuted code segments to provide Fine-Grained Optimization. In addition, we furthermore construct the APPS+ dataset for RL training, which is manually verified to ens
     
-[^27]: 基于LLM的自然语言生成评估：现状与挑战
+[^28]: 基于LLM的自然语言生成评估：现状与挑战
 
     LLM-based NLG Evaluation: Current Status and Challenges
 
@@ -495,7 +510,7 @@
 
     Evaluating natural language generation (NLG) is a vital but challenging problem in artificial intelligence. Traditional evaluation metrics mainly capturing content (e.g. n-gram) overlap between system outputs and references are far from satisfactory, and large language models (LLMs) such as ChatGPT have demonstrated great potential in NLG evaluation in recent years. Various automatic evaluation methods based on LLMs have been proposed, including metrics derived from LLMs, prompting LLMs, and fine-tuning LLMs with labeled evaluation data. In this survey, we first give a taxonomy of LLM-based NLG evaluation methods, and discuss their pros and cons, respectively. We also discuss human-LLM collaboration for NLG evaluation. Lastly, we discuss several open problems in this area and point out future research directions.
     
-[^28]: LoTR: 低张量秩权重自适应
+[^29]: LoTR: 低张量秩权重自适应
 
     LoTR: Low Tensor Rank Weight Adaptation
 
@@ -509,7 +524,7 @@
 
     In this paper we generalize and extend an idea of low-rank adaptation (LoRA) of large language models (LLMs) based on Transformer architecture. Widely used LoRA-like methods of fine-tuning LLMs are based on matrix factorization of gradient update. We introduce LoTR, a novel approach for parameter-efficient fine-tuning of LLMs which represents a gradient update to parameters in a form of tensor decomposition. Low-rank adapter for each layer is constructed as a product of three matrices, and tensor structure arises from sharing left and right multipliers of this product among layers. Simultaneous compression of a sequence of layers with low-rank tensor representation allows LoTR to archive even better parameter efficiency then LoRA especially for deep models. Moreover, the core tensor does not depend on original weight dimension and can be made arbitrary small, which allows for extremely cheap and fast downstream fine-tuning.
     
-[^29]: 跳入分歧点：探究主题内和跨主题泛化之间的差距
+[^30]: 跳入分歧点：探究主题内和跨主题泛化之间的差距
 
     Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization
 
@@ -523,7 +538,7 @@
 
     Pre-trained language models (LMs) perform well in In-Topic setups, where training and testing data come from the same topics. However, they face challenges in Cross-Topic scenarios where testing data is derived from distinct topics -- such as Gun Control. This study analyzes various LMs with three probing-based experiments to shed light on the reasons behind the In- vs. Cross-Topic generalization gap. Thereby, we demonstrate, for the first time, that generalization gaps and the robustness of the embedding space vary significantly across LMs. Additionally, we assess larger LMs and underscore the relevance of our analysis for recent models. Overall, diverse pre-training objectives, architectural regularization, or data deduplication contribute to more robust LMs and diminish generalization gaps. Our research contributes to a deeper understanding and comparison of language models across different generalization scenarios.
     
-[^30]: 大型语言模型的持续学习: 一项综述
+[^31]: 大型语言模型的持续学习: 一项综述
 
     Continual Learning for Large Language Models: A Survey
 
@@ -537,7 +552,7 @@
 
     Large language models (LLMs) are not amenable to frequent re-training, due to high training costs arising from their massive scale. However, updates are necessary to endow LLMs with new skills and keep them up-to-date with rapidly evolving human knowledge. This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi-staged categorization scheme, involving continual pretraining, instruction tuning, and alignment. We contrast continual learning for LLMs with simpler adaptation methods used in smaller models, as well as with other enhancement strategies like retrieval-augmented generation and model editing. Moreover, informed by a discussion of benchmarks and evaluation, we identify several challenges and future work directions for this crucial task.
     
-[^31]: 医疗索赔的可验证性分析：分析实体和关系属性以进行事实验证
+[^32]: 医疗索赔的可验证性分析：分析实体和关系属性以进行事实验证
 
     What Makes Medical Claims (Un)Verifiable? Analyzing Entity and Relation Properties for Fact Verification
 
@@ -551,7 +566,7 @@
 
     Biomedical claim verification fails if no evidence can be discovered. In these cases, the fact-checking verdict remains unknown and the claim is unverifiable. To improve upon this, we have to understand if there are any claim properties that impact its verifiability. In this work we assume that entities and relations define the core variables in a biomedical claim's anatomy and analyze if their properties help us to differentiate verifiable from unverifiable claims. In a study with trained annotation experts we prompt them to find evidence for biomedical claims, and observe how they refine search queries for their evidence search. This leads to the first corpus for scientific fact verification annotated with subject-relation-object triplets, evidence documents, and fact-checking verdicts (the BEAR-Fact corpus). We find (1) that discovering evidence for negated claims (e.g., X-does-not-cause-Y) is particularly challenging. Further, we see that annotators process queries mostly by adding
     
-[^32]: 描述图像的“快慢”: 量化和预测视觉语言过程中人类信号的变化
+[^33]: 描述图像的“快慢”: 量化和预测视觉语言过程中人类信号的变化
 
     Describing Images $\textit{Fast and Slow}$: Quantifying and Predicting the Variation in Human Signals during Visuo-Linguistic Processes
 
@@ -565,7 +580,7 @@
 
     There is an intricate relation between the properties of an image and how humans behave while describing the image. This behavior shows ample variation, as manifested in human signals such as eye movements and when humans start to describe the image. Despite the value of such signals of visuo-linguistic variation, they are virtually disregarded in the training of current pretrained models, which motivates further investigation. Using a corpus of Dutch image descriptions with concurrently collected eye-tracking data, we explore the nature of the variation in visuo-linguistic signals, and find that they correlate with each other. Given this result, we hypothesize that variation stems partly from the properties of the images, and explore whether image representations encoded by pretrained vision encoders can capture such variation. Our results indicate that pretrained models do so to a weak-to-moderate degree, suggesting that the models lack biases about what makes a stimulus complex for 
     
-[^33]: 超越答案：对于评估大型语言模型中多选题回答的合理性的回顾
+[^34]: 超越答案：对于评估大型语言模型中多选题回答的合理性的回顾
 
     Beyond the Answers: Reviewing the Rationality of Multiple Choice Question Answering for the Evaluation of Large Language Models
 
@@ -579,7 +594,7 @@
 
     In the field of natural language processing (NLP), Large Language Models (LLMs) have precipitated a paradigm shift, markedly enhancing performance in natural language generation tasks. Despite these advancements, the comprehensive evaluation of LLMs remains an inevitable challenge for the community. Recently, the utilization of Multiple Choice Question Answering (MCQA) as a benchmark for LLMs has gained considerable traction. This study investigates the rationality of MCQA as an evaluation method for LLMs. If LLMs genuinely understand the semantics of questions, their performance should exhibit consistency across the varied configurations derived from the same questions. Contrary to this expectation, our empirical findings suggest a notable disparity in the consistency of LLM responses, which we define as REsponse VAriability Syndrome (REVAS) of the LLMs, indicating that current MCQA-based benchmarks may not adequately capture the true capabilities of LLMs, which underscores the need f
     
-[^34]: 跳过$\textbackslash n$: 一种简单的方法减少大规模视觉-语言模型中的幻觉
+[^35]: 跳过$\textbackslash n$: 一种简单的方法减少大规模视觉-语言模型中的幻觉
 
     Skip $\textbackslash n$: A simple method to reduce hallucination in Large Vision-Language Models
 
@@ -593,7 +608,7 @@
 
     Recent advancements in large vision-language models (LVLMs) have demonstrated impressive capability in visual information understanding with human language. Despite these advances, LVLMs still face challenges with multimodal hallucination, such as generating text descriptions of objects that are not present in the visual information. However, the underlying fundamental reasons of multimodal hallucinations remain poorly explored. In this paper, we propose a new perspective, suggesting that the inherent biases in LVLMs might be a key factor in hallucinations. Specifically, we systematically identify a semantic shift bias related to paragraph breaks ('$\textbackslash n\textbackslash n$'), where the content before and after '$\textbackslash n\textbackslash n$' in the training data frequently exhibit significant semantic changes. This pattern leads the model to infer that the contents following '$\textbackslash n\textbackslash n$' should be obviously different from the preceding contents wi
     
-[^35]: 两种处理波兰文本时序规范化的方法
+[^36]: 两种处理波兰文本时序规范化的方法
 
     Two Approaches to Diachronic Normalization of Polish Texts
 
@@ -607,7 +622,7 @@
 
     This paper discusses two approaches to the diachronic normalization of Polish texts: a rule-based solution that relies on a set of handcrafted patterns, and a neural normalization model based on the text-to-text transfer transformer architecture. The training and evaluation data prepared for the task are discussed in detail, along with experiments conducted to compare the proposed normalization solutions. A quantitative and qualitative analysis is made. It is shown that at the current stage of inquiry into the problem, the rule-based solution outperforms the neural one on 3 out of 4 variants of the prepared dataset, although in practice both approaches have distinct advantages and disadvantages.
     
-[^36]: MLLMs能否进行上下文学习的文本到图像转换？
+[^37]: MLLMs能否进行上下文学习的文本到图像转换？
 
     Can MLLMs Perform Text-to-Image In-Context Learning?
 
@@ -621,7 +636,7 @@
 
     The evolution from Large Language Models (LLMs) to Multimodal Large Language Models (MLLMs) has spurred research into extending In-Context Learning (ICL) to its multimodal counterpart. Existing such studies have primarily concentrated on image-to-text ICL. However, the Text-to-Image ICL (T2I-ICL), with its unique characteristics and potential applications, remains underexplored. To address this gap, we formally define the task of T2I-ICL and present CoBSAT, the first T2I-ICL benchmark dataset, encompassing ten tasks. Utilizing our dataset to benchmark six state-of-the-art MLLMs, we uncover considerable difficulties MLLMs encounter in solving T2I-ICL. We identify the primary challenges as the inherent complexity of multimodality and image generation. To overcome these challenges, we explore strategies like fine-tuning and Chain-of-Thought prompting, demonstrating notable improvements. Our code and dataset are available at \url{https://github.com/UW-Madison-Lee-Lab/CoBSAT}.
     
-[^37]: 人类与机器：逻辑、真实性与ChatGPT
+[^38]: 人类与机器：逻辑、真实性与ChatGPT
 
     The Human and the Mechanical: logos, truthfulness, and ChatGPT
 
@@ -635,7 +650,7 @@
 
     The paper addresses the question of whether it is appropriate to talk about `mechanical minds' at all, and whether ChatGPT models can indeed be thought of as realizations of that. Our paper adds a semantic argument to the current debate. The act of human assertion requires the formation of a veridicality judgment. Modification of assertions with modals (John must be at home) and the use of subjective elements (John is obviously at home) indicate that the speaker is manipulating her judgments and, in a cooperative context, intends her epistemic state to be transparent to the addressee. Veridicality judgments are formed on the basis of two components: (i) evidence that relates to reality (exogenous evidence) and (ii) endogenous evidence, such as preferences and private beliefs. `Mechanical minds' lack these two components: (i) they do not relate to reality and (ii) do not have endogenous evidence. Therefore they lack the ability to form a belief about the world and a veridicality judgmen
     
-[^38]: 针对少样本嵌套命名实体识别的上下文学习
+[^39]: 针对少样本嵌套命名实体识别的上下文学习
 
     In-Context Learning for Few-Shot Nested Named Entity Recognition
 
@@ -649,7 +664,7 @@
 
     In nested Named entity recognition (NER), entities are nested with each other, and thus requiring more data annotations to address. This leads to the development of few-shot nested NER, where the prevalence of pretrained language models with in-context learning (ICL) offers promising solutions. In this work, we introduce an effective and innovative ICL framework for the setting of few-shot nested NER. We improve the ICL prompt by devising a novel example demonstration selection mechanism, EnDe retriever. In EnDe retriever, we employ contrastive learning to perform three types of representation learning, in terms of semantic similarity, boundary similarity, and label similarity, to generate high-quality demonstration examples. Extensive experiments over three nested NER and four flat NER datasets demonstrate the efficacy of our system.
     
-[^39]: 为利用外部语料进行知识密集型任务而构建的统一语言模型
+[^40]: 为利用外部语料进行知识密集型任务而构建的统一语言模型
 
     Towards a Unified Language Model for Knowledge-Intensive Tasks Utilizing External Corpus
 
@@ -663,7 +678,7 @@
 
     The advent of large language models (LLMs) has showcased their efficacy across various domains, yet they often hallucinate, especially in knowledge-intensive tasks that require external knowledge sources. To improve factual accuracy of language models, retrieval-augmented generation (RAG) has emerged as a popular solution. However, traditional retrieval modules often rely on large-scale document indexes, which can be disconnected from generative tasks. Through generative retrieval (GR) approach, language models can achieve superior retrieval performance by directly generating relevant document identifiers (DocIDs). However, the relationship between GR and downstream tasks, as well as the potential of LLMs in GR, remains unexplored. In this paper, we present a unified language model that utilizes external corpus to handle various knowledge-intensive tasks by seamlessly integrating generative retrieval, closed-book generation, and RAG. In order to achieve effective retrieval and generati
     
-[^40]: 通过嵌入相似性实现高效的提示缓存
+[^41]: 通过嵌入相似性实现高效的提示缓存
 
     Efficient Prompt Caching via Embedding Similarity
 
@@ -677,7 +692,7 @@
 
     Large language models (LLMs) have achieved huge success in numerous natural language process (NLP) tasks. However, it faces the challenge of significant resource consumption during inference. In this paper, we aim to improve the inference efficiency of LLMs by prompt caching, i.e., if the current prompt can be answered by the same response of a previous prompt, one can directly utilize that previous response without calling the LLM. Specifically, we focus on the prediction accuracy of prompt caching for single-round question-answering tasks via embedding similarity. The existing embeddings of prompts mostly focus on whether two prompts are semantically similar, which is not necessarily equivalent to whether the same response can answer them. Therefore, we propose a distillation-based method to fine-tune the existing embeddings for better caching prediction. Theoretically, we provide finite-sample guarantees for the convergence of our method under different types of loss functions. Empi
     
-[^41]: 流式序列转导通过动态压缩
+[^42]: 流式序列转导通过动态压缩
 
     Streaming Sequence Transduction through Dynamic Compression
 
@@ -691,7 +706,7 @@
 
     We introduce STAR (Stream Transduction with Anchor Representations), a novel Transformer-based model designed for efficient sequence-to-sequence transduction over streams. STAR dynamically segments input streams to create compressed anchor representations, achieving nearly lossless compression (12x) in Automatic Speech Recognition (ASR) and outperforming existing methods. Moreover, STAR demonstrates superior segmentation and latency-quality trade-offs in simultaneous speech-to-text tasks, optimizing latency, memory footprint, and quality.
     
-[^42]: LLM-Detector: 使用开源LLM指令调整来改进AI生成的中文文本检测
+[^43]: LLM-Detector: 使用开源LLM指令调整来改进AI生成的中文文本检测
 
     LLM-Detector: Improving AI-Generated Chinese Text Detection with Open-Source LLM Instruction Tuning
 
@@ -705,7 +720,7 @@
 
     ChatGPT and other general large language models (LLMs) have achieved remarkable success, but they have also raised concerns about the misuse of AI-generated texts. Existing AI-generated text detection models, such as based on BERT and RoBERTa, are prone to in-domain over-fitting, leading to poor out-of-domain (OOD) detection performance. In this paper, we first collected Chinese text responses generated by human experts and 9 types of LLMs, for which to multiple domains questions, and further created a dataset that mixed human-written sentences and sentences polished by LLMs. We then proposed LLM-Detector, a novel method for both document-level and sentence-level text detection through Instruction Tuning of LLMs. Our method leverages the wealth of knowledge LLMs acquire during pre-training, enabling them to detect the text they generate. Instruction tuning aligns the model's responses with the user's expected text detection tasks. Experimental results show that previous methods struggl
     
-[^43]: CABINET: 表格问答系统的基于内容相关性的噪声降低方法
+[^44]: CABINET: 表格问答系统的基于内容相关性的噪声降低方法
 
     CABINET: Content Relevance based Noise Reduction for Table Question Answering
 
@@ -719,7 +734,7 @@
 
     Table understanding capability of Large Language Models (LLMs) has been extensively studied through the task of question-answering (QA) over tables. Typically, only a small part of the whole table is relevant to derive the answer for a given question. The irrelevant parts act as noise and are distracting information, resulting in sub-optimal performance due to the vulnerability of LLMs to noise. To mitigate this, we propose CABINET (Content RelevAnce-Based NoIse ReductioN for TablE QuesTion-Answering) - a framework to enable LLMs to focus on relevant tabular data by suppressing extraneous information. CABINET comprises an Unsupervised Relevance Scorer (URS), trained differentially with the QA LLM, that weighs the table content based on its relevance to the input question before feeding it to the question-answering LLM (QA LLM). To further aid the relevance scorer, CABINET employs a weakly supervised module that generates a parsing statement describing the criteria of rows and columns r
     
-[^44]: "AccentFold：通过零样本ASR适应探索非洲口音之旅"
+[^45]: "AccentFold：通过零样本ASR适应探索非洲口音之旅"
 
     AccentFold: A Journey through African Accents for Zero-Shot ASR Adaptation to Target Accents
 
@@ -733,7 +748,7 @@
 
     Despite advancements in speech recognition, accented speech remains challenging. While previous approaches have focused on modeling techniques or creating accented speech datasets, gathering sufficient data for the multitude of accents, particularly in the African context, remains impractical due to their sheer diversity and associated budget constraints. To address these challenges, we propose \textit{AccentFold}, a method that exploits spatial relationships between learned accent embeddings to improve downstream Automatic Speech Recognition (ASR). Our exploratory analysis of speech embeddings representing 100+ African accents reveals interesting spatial accent relationships highlighting geographic and genealogical similarities, capturing consistent phonological, and morphological regularities, all learned empirically from speech. Furthermore, we discover accent relationships previously uncharacterized by the Ethnologue. Through empirical evaluation, we demonstrate the effectiveness o
     
-[^45]: 多智能体对话推荐系统
+[^46]: 多智能体对话推荐系统
 
     A Multi-Agent Conversational Recommender System
 
@@ -747,7 +762,7 @@
 
     Due to strong capabilities in conducting fluent, multi-turn conversations with users, Large Language Models (LLMs) have the potential to further improve the performance of Conversational Recommender System (CRS). Unlike the aimless chit-chat that LLM excels at, CRS has a clear target. So it is imperative to control the dialogue flow in the LLM to successfully recommend appropriate items to the users. Furthermore, user feedback in CRS can assist the system in better modeling user preferences, which has been ignored by existing studies. However, simply prompting LLM to conduct conversational recommendation cannot address the above two key challenges.   In this paper, we propose Multi-Agent Conversational Recommender System (MACRS) which contains two essential modules. First, we design a multi-agent act planning framework, which can control the dialogue flow based on four LLM-based agents. This cooperative multi-agent framework will generate various candidate responses based on different 
     
-[^46]: Pok\'eLLMon：一个用于使用大型语言模型的Pok\'emon对战的与人类能力相当的代理机器人
+[^47]: Pok\'eLLMon：一个用于使用大型语言模型的Pok\'emon对战的与人类能力相当的代理机器人
 
     Pok\'eLLMon: A Human-Parity Agent for Pok\'emon Battles with Large Language Models
 
@@ -761,7 +776,7 @@
 
     We introduce \textsc{Pok\'eLLMon}, the first LLM-embodied agent that achieves human-parity performance in tactical battle games, as demonstrated in Pok\'emon battles. The design of \textsc{Pok\'eLLMon} incorporates three key strategies: (i) In-context reinforcement learning that instantly consumes text-based feedback derived from battles to iteratively refine the policy; (ii) Knowledge-augmented generation that retrieves external knowledge to counteract hallucination and enables the agent to act timely and properly; (iii) Consistent action generation to mitigate the \textit{panic switching} phenomenon when the agent faces a powerful opponent and wants to elude the battle. We show that online battles against human demonstrates \textsc{Pok\'eLLMon}'s human-like battle strategies and just-in-time decision making, achieving 49\% of win rate in the Ladder competitions and 56\% of win rate in the invited battles. Our implementation and playable battle logs are available at: \url{https://gith
     
-[^47]: DTS-SQL: 使用小型语言模型的分解式文本到SQL
+[^48]: DTS-SQL: 使用小型语言模型的分解式文本到SQL
 
     DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models
 
@@ -775,7 +790,7 @@
 
     Leading models for the text-to-SQL task heavily rely on proprietary Large Language Models (LLMs), posing concerns over data privacy. Closing the performance gap between small open-source models and large proprietary models is crucial to mitigate this reliance. To this end, we introduce a novel two-stage fine-tuning approach that decomposes the task into two simpler tasks. Through comprehensive evaluation on two large cross-domain datasets and two small LLMs, we show that this approach improves execution accuracy by 3 to 7 percent, effectively aligning the performance of open-source models with their proprietary counterparts.
     
-[^48]: 通过文本表示解读心内电图
+[^49]: 通过文本表示解读心内电图
 
     Interpretation of Intracardiac Electrograms Through Textual Representations
 
@@ -789,7 +804,7 @@
 
     Understanding the irregular electrical activity of atrial fibrillation (AFib) has been a key challenge in electrocardiography. For serious cases of AFib, catheter ablations are performed to collect intracardiac electrograms (EGMs). EGMs offer intricately detailed and localized electrical activity of the heart and are an ideal modality for interpretable cardiac studies. Recent advancements in artificial intelligence (AI) has allowed some works to utilize deep learning frameworks to interpret EGMs during AFib. Additionally, language models (LMs) have shown exceptional performance in being able to generalize to unseen domains, especially in healthcare. In this study, we are the first to leverage pretrained LMs for finetuning of EGM interpolation and AFib classification via masked language modeling. We formulate the EGM as a textual sequence and present competitive performances on AFib classification compared against other representations. Lastly, we provide a comprehensive interpretabilit
     
-[^49]: 疫苗：针对大规模语言模型的干扰感知对齐技术
+[^50]: 疫苗：针对大规模语言模型的干扰感知对齐技术
 
     Vaccine: Perturbation-aware Alignment for Large Language Model
 
@@ -803,7 +818,7 @@
 
     The new paradigm of finetuning-as-a-service introduces a new attack surface for Large Language Models (LLMs): a few harmful data uploaded by users can easily trick the finetuning to produce an alignment-broken model. We conduct an empirical analysis and uncover a \textit{harmful embedding drift} phenomenon, showing a probable cause of the alignment-broken effect. Inspired by our findings, we propose Vaccine, a perturbation-aware alignment technique to mitigate the security risk of users finetuning. The core idea of Vaccine is to produce invariant hidden embeddings by progressively adding crafted perturbation to them in the alignment phase. This enables the embeddings to withstand harmful perturbation from un-sanitized user data in the finetuning phase. Our results on open source mainstream LLMs (e.g., Llama2, Opt, Vicuna) demonstrate that Vaccine can boost the robustness of alignment against harmful prompts induced embedding drift while reserving reasoning ability towards benign prompt
     
-[^50]: 多智能体系统中的推理能力：局限性、挑战和以人为中心的解决方案
+[^51]: 多智能体系统中的推理能力：局限性、挑战和以人为中心的解决方案
 
     Reasoning Capacity in Multi-Agent Systems: Limitations, Challenges and Human-Centered Solutions
 
@@ -817,7 +832,7 @@
 
     Remarkable performance of large language models (LLMs) in a variety of tasks brings forth many opportunities as well as challenges of utilizing them in production settings. Towards practical adoption of LLMs, multi-agent systems hold great promise to augment, integrate, and orchestrate LLMs in the larger context of enterprise platforms that use existing proprietary data and models to tackle complex real-world tasks. Despite the tremendous success of these systems, current approaches rely on narrow, single-focus objectives for optimization and evaluation, often overlooking potential constraints in real-world scenarios, including restricted budgets, resources and time. Furthermore, interpreting, analyzing, and debugging these systems requires different components to be evaluated in relation to one another. This demand is currently not feasible with existing methodologies. In this postion paper, we introduce the concept of reasoning capacity as a unifying criterion to enable integration o
     
-[^51]: 让我们来谈判！谈判对话系统综述
+[^52]: 让我们来谈判！谈判对话系统综述
 
     Let's Negotiate! A Survey of Negotiation Dialogue Systems
 
@@ -831,7 +846,7 @@
 
     Negotiation is a crucial ability in human communication. Recently, there has been a resurgent research interest in negotiation dialogue systems, whose goal is to create intelligent agents that can assist people in resolving conflicts or reaching agreements. Although there have been many explorations into negotiation dialogue systems, a systematic review of this task has not been performed to date. We aim to fill this gap by investigating recent studies in the field of negotiation dialogue systems, and covering benchmarks, evaluations and methodologies within the literature. We also discuss potential future directions, including multi-modal, multi-party and cross-cultural negotiation scenarios. Our goal is to provide the community with a systematic overview of negotiation dialogue systems and to inspire future research.
     
-[^52]: 使用有限领域数据进行廉价推理的专用语言模型
+[^53]: 使用有限领域数据进行廉价推理的专用语言模型
 
     Specialized Language Models with Cheap Inference from Limited Domain Data
 
@@ -845,7 +860,7 @@
 
     Large language models have emerged as a versatile tool but are challenging to apply to tasks lacking large inference budgets and large in-domain training sets. This work formalizes these constraints and distinguishes four important variables: the pretraining budget (for training before the target domain is known), the specialization budget (for training after the target domain is known), the inference budget, and the in-domain training set size. Across these settings, we compare different approaches from the machine learning literature. Limited by inference cost, we find better alternatives to the standard practice of training very large vanilla transformer models. In particular, we show that hyper-networks and mixture of experts have better perplexity for large pretraining budgets, while small models trained on importance sampled datasets are attractive for large specialization budgets.
     
-[^53]: 阅读推文之间：解读相互联系的杂合意识形态社区的立场
+[^54]: 阅读推文之间：解读相互联系的杂合意识形态社区的立场
 
     Reading Between the Tweets: Deciphering Ideological Stances of Interconnected Mixed-Ideology Communities
 
@@ -859,7 +874,7 @@
 
     Recent advances in NLP have improved our ability to understand the nuanced worldviews of online communities. Existing research focused on probing ideological stances treats liberals and conservatives as separate groups. However, this fails to account for the nuanced views of the organically formed online communities and the connections between them. In this paper, we study discussions of the 2020 U.S. election on Twitter to identify complex interacting communities. Capitalizing on this interconnectedness, we introduce a novel approach that harnesses message passing when finetuning language models (LMs) to probe the nuanced ideologies of these communities. By comparing the responses generated by LMs and real-world survey results, our method shows higher alignment than existing baselines, highlighting the potential of using LMs in revealing complex ideologies within and across interconnected mixed-ideology communities.
     
-[^54]: 用于多语言文档问答的大型语言模型评估方法
+[^55]: 用于多语言文档问答的大型语言模型评估方法
 
     Evaluation Methodology for Large Language Models for Multilingual Document Question and Answer
 
@@ -873,7 +888,7 @@
 
     With the widespread adoption of Large Language Models (LLMs), in this paper we investigate the multilingual capability of these models. Our preliminary results show that, translating the native language context, question and answer into a high resource language produced the best results.
     
-[^55]: 面向双重目标对话设置的计划驱动大型语言模型
+[^56]: 面向双重目标对话设置的计划驱动大型语言模型
 
     Plan-Grounded Large Language Models for Dual Goal Conversational Settings
 
@@ -887,7 +902,7 @@
 
     Training Large Language Models (LLMs) to follow user instructions has been shown to supply the LLM with ample capacity to converse fluently while being aligned with humans. Yet, it is not completely clear how an LLM can lead a plan-grounded conversation in mixed-initiative settings where instructions flow in both directions of the conversation, i.e. both the LLM and the user provide instructions to one another. In this paper, we tackle a dual goal mixed-initiative conversational setting where the LLM not only grounds the conversation on an arbitrary plan but also seeks to satisfy both a procedural plan and user instructions. The LLM is then responsible for guiding the user through the plan and, at the same time, adapting to new circumstances, answering questions, and activating safety guardrails when needed. We propose a novel LLM that grounds the dialogue on a procedural plan, can take the dialogue initiative, and enforces guardrails on the system's behavior, while also improving the 
     
-[^56]: 生成、提炼和评估具有基础语言模型风格的动机式反思
+[^57]: 生成、提炼和评估具有基础语言模型风格的动机式反思
 
     Generation, Distillation and Evaluation of Motivational Interviewing-Style Reflections with a Foundational Language Model
 
@@ -901,7 +916,7 @@
 
     Large Foundational Language Models are capable of performing many tasks at a high level but are difficult to deploy in many applications because of their size and proprietary ownership. Many will be motivated to distill specific capabilities of foundational models into smaller models that can be owned and controlled. In the development of a therapeutic chatbot, we wish to distill a capability known as reflective listening, in which a therapist produces reflections of client speech. These reflections either restate what a client has said, or connect what was said to a relevant observation, idea or guess that encourages and guides the client to continue contemplation. In this paper, we present a method for distilling the generation of reflections from a Foundational Language Model (GPT-4) into smaller models. We first show that GPT-4, using zero-shot prompting, can generate reflections at near 100% success rate, superior to all previous methods. Using reflections generated by GPT-4, we f
     
-[^57]: 充分利用分词器进行预训练和领域适应
+[^58]: 充分利用分词器进行预训练和领域适应
 
     Getting the most out of your tokenizer for pre-training and domain adaptation
 
@@ -915,7 +930,7 @@
 
     Tokenization is an understudied and often neglected component of modern LLMs. Most published works use a single tokenizer for all experiments, often borrowed from another model, without performing ablations or analysis to optimize tokenization. Moreover, the tokenizer is generally kept unchanged when fine-tuning a base model. In this paper, we show that the size, pre-tokenization regular expression, and training data of a tokenizer can significantly impact the model's generation speed, effective context size, memory usage, and downstream performance. We train specialized Byte-Pair Encoding code tokenizers, and conduct extensive ablations on the impact of tokenizer design on the performance of LLMs for code generation tasks such as HumanEval and MBPP, and provide recommendations for tokenizer hyper-parameters selection and switching the tokenizer in a pre-trained LLM. We perform our experiments on models trained from scratch and from pre-trained models, verifying their applicability to 
     
-[^58]: 跟着我重复：Transformer在复制任务上比状态空间模型更好
+[^59]: 跟着我重复：Transformer在复制任务上比状态空间模型更好
 
     Repeat After Me: Transformers are Better than State Space Models at Copying
 
@@ -929,7 +944,7 @@
 
     Transformers are the dominant architecture for sequence modeling, but there is growing interest in models that use a fixed-size latent state that does not depend on the sequence length, which we refer to as "generalized state space models" (GSSMs). In this paper we show that while GSSMs are promising in terms of inference-time efficiency, they are limited compared to transformer models on tasks that require copying from the input context. We start with a theoretical analysis of the simple task of string copying and prove that a two layer transformer can copy strings of exponential length while GSSMs are fundamentally limited by their fixed-size latent state. Empirically, we find that transformers outperform GSSMs in terms of efficiency and generalization on synthetic tasks that require copying the context. Finally, we evaluate pretrained large language models and find that transformer models dramatically outperform state space models at copying and retrieving information from context. 
     
-[^59]: 可执行代码行动能够激发更出色的LLM智能体
+[^60]: 可执行代码行动能够激发更出色的LLM智能体
 
     Executable Code Actions Elicit Better LLM Agents
 
@@ -943,7 +958,7 @@
 
     Large Language Model (LLM) agents, capable of performing a broad range of actions, such as invoking tools and controlling robots, show great potential in tackling real-world challenges. LLM agents are typically prompted to produce actions by generating JSON or text in a pre-defined format, which is usually limited by constrained action space (e.g., the scope of pre-defined tools) and restricted flexibility (e.g., inability to compose multiple tools). This work proposes to use executable Python code to consolidate LLM agents' actions into a unified action space (CodeAct). Integrated with a Python interpreter, CodeAct can execute code actions and dynamically revise prior actions or emit new actions upon new observations through multi-turn interactions. Our extensive analysis of 17 LLMs on API-Bank and a newly curated benchmark shows that CodeAct outperforms widely used alternatives (up to 20% higher success rate). The encouraging performance of CodeAct motivates us to build an open-sourc
     
-[^60]: 基于图的聚类用于跨时间和语言检测语义变化
+[^61]: 基于图的聚类用于跨时间和语言检测语义变化
 
     Graph-based Clustering for Detecting Semantic Change Across Time and Languages
 
@@ -957,7 +972,7 @@
 
     Despite the predominance of contextualized embeddings in NLP, approaches to detect semantic change relying on these embeddings and clustering methods underperform simpler counterparts based on static word embeddings. This stems from the poor quality of the clustering methods to produce sense clusters -- which struggle to capture word senses, especially those with low frequency. This issue hinders the next step in examining how changes in word senses in one language influence another. To address this issue, we propose a graph-based clustering approach to capture nuanced changes in both high- and low-frequency word senses across time and languages, including the acquisition and loss of these senses over time. Our experimental results show that our approach substantially surpasses previous approaches in the SemEval2020 binary classification task across four languages. Moreover, we showcase the ability of our approach as a versatile visualization tool to detect semantic changes in both int
     
-[^61]: 面向领域独立的欺骗行为：一个新的分类和语言分析
+[^62]: 面向领域独立的欺骗行为：一个新的分类和语言分析
 
     Domain-Independent Deception: A New Taxonomy and Linguistic Analysis
 
@@ -971,7 +986,7 @@
 
     Internet-based economies and societies are drowning in deceptive attacks. These attacks take many forms, such as fake news, phishing, and job scams, which we call ``domains of deception.'' Machine-learning and natural-language-processing researchers have been attempting to ameliorate this precarious situation by designing domain-specific detectors. Only a few recent works have considered domain-independent deception. We collect these disparate threads of research and investigate domain-independent deception. First, we provide a new computational definition of deception and break down deception into a new taxonomy. Then, we analyze the debate on linguistic cues for deception and supply guidelines for systematic reviews. Finally, we investigate common linguistic features and give evidence for knowledge transfer across different forms of deception.
     
-[^62]: HR-MultiWOZ: 一种面向HR LLM Agent的任务导向对话数据集
+[^63]: HR-MultiWOZ: 一种面向HR LLM Agent的任务导向对话数据集
 
     HR-MultiWOZ: A Task Oriented Dialogue (TOD) Dataset for HR LLM Agent
 
@@ -985,7 +1000,7 @@
 
     Recent advancements in Large Language Models (LLMs) have been reshaping Natural Language Processing (NLP) task in several domains. Their use in the field of Human Resources (HR) has still room for expansions and could be beneficial for several time consuming tasks. Examples such as time-off submissions, medical claims filing, and access requests are noteworthy, but they are by no means the sole instances. However, the aforementioned developments must grapple with the pivotal challenge of constructing a high-quality training dataset. On one hand, most conversation datasets are solving problems for customers not employees. On the other hand, gathering conversations with HR could raise privacy concerns. To solve it, we introduce HR-Multiwoz, a fully-labeled dataset of 550 conversations spanning 10 HR domains to evaluate LLM Agent. Our work has the following contributions: (1) It is the first labeled open-sourced conversation dataset in the HR domain for NLP research. (2) It provides a det
     
-[^63]: 一种信息论方法来分析自然语言处理分类任务
+[^64]: 一种信息论方法来分析自然语言处理分类任务
 
     An Information-Theoretic Approach to Analyze NLP Classification Tasks
 
@@ -999,7 +1014,7 @@
 
     Understanding the importance of the inputs on the output is useful across many tasks. This work provides an information-theoretic framework to analyse the influence of inputs for text classification tasks. Natural language processing (NLP) tasks take either a single element input or multiple element inputs to predict an output variable, where an element is a block of text. Each text element has two components: an associated semantic meaning and a linguistic realization. Multiple-choice reading comprehension (MCRC) and sentiment classification (SC) are selected to showcase the framework. For MCRC, it is found that the context influence on the output compared to the question influence reduces on more challenging datasets. In particular, more challenging contexts allow a greater variation in complexity of questions. Hence, test creators need to carefully consider the choice of the context when designing multiple-choice questions for assessment. For SC, it is found the semantic meaning of 
     
-[^64]: 使用Entity预训练GPT为KG问答生成SPARQL
+[^65]: 使用Entity预训练GPT为KG问答生成SPARQL
 
     SPARQL Generation with Entity Pre-trained GPT for KG Question Answering
 
@@ -1013,7 +1028,7 @@
 
     Knowledge Graphs popularity has been rapidly growing in last years. All that knowledge is available for people to query it through the many online databases on the internet. Though, it would be a great achievement if non-programmer users could access whatever information they want to know. There has been a lot of effort oriented to solve this task using natural language processing tools and creativity encouragement by way of many challenges. Our approach focuses on assuming a correct entity linking on the natural language questions and training a GPT model to create SPARQL queries from them. We managed to isolate which property of the task can be the most difficult to solve at few or zero-shot and we proposed pre-training on all entities (under CWA) to improve the performance. We obtained a 62.703% accuracy of exact SPARQL matches on testing at 3-shots, a F1 of 0.809 on the entity linking challenge and a F1 of 0.009 on the question answering challenge.
     
-[^65]: 在大型语言和视觉模型中探索空间模式直觉
+[^66]: 在大型语言和视觉模型中探索空间模式直觉
 
     Exploring Spatial Schema Intuitions in Large Language and Vision Models
 
@@ -1027,7 +1042,7 @@
 
     Despite the ubiquity of large language models (LLMs) in AI research, the question of embodiment in LLMs remains underexplored, distinguishing them from embodied systems in robotics where sensory perception directly informs physical action. Our investigation navigates the intriguing terrain of whether LLMs, despite their non-embodied nature, effectively capture implicit human intuitions about fundamental, spatial building blocks of language. We employ insights from spatial cognitive foundations developed through early sensorimotor experiences, guiding our exploration through the reproduction of three psycholinguistic experiments. Surprisingly, correlations between model outputs and human responses emerge, revealing adaptability without a tangible connection to embodied experiences. Notable distinctions include polarized language model responses and reduced correlations in vision language models. This research contributes to a nuanced understanding of the interplay between language, spat
     
-[^66]: 用于安全自助大型语言模型探索的机构平台
+[^67]: 用于安全自助大型语言模型探索的机构平台
 
     Institutional Platform for Secure Self-Service Large Language Model Exploration
 
@@ -1041,7 +1056,7 @@
 
     This paper introduces a user-friendly platform developed by the University of Kentucky Center for Applied AI, designed to make large, customized language models (LLMs) more accessible. By capitalizing on recent advancements in multi-LoRA inference, the system efficiently accommodates custom adapters for a diverse range of users and projects. The paper outlines the system's architecture and key features, encompassing dataset curation, model training, secure inference, and text-based feature extraction.   We illustrate the establishment of a tenant-aware computational network using agent-based methods, securely utilizing islands of isolated resources as a unified system. The platform strives to deliver secure LLM services, emphasizing process and data isolation, end-to-end encryption, and role-based resource authentication. This contribution aligns with the overarching goal of enabling simplified access to cutting-edge AI models and technology in support of scientific discovery.
     
-[^67]: 大规模语言模型上的提示注入攻击的早期分类
+[^68]: 大规模语言模型上的提示注入攻击的早期分类
 
     An Early Categorization of Prompt Injection Attacks on Large Language Models
 
@@ -1055,7 +1070,7 @@
 
     Large language models and AI chatbots have been at the forefront of democratizing artificial intelligence. However, the releases of ChatGPT and other similar tools have been followed by growing concerns regarding the difficulty of controlling large language models and their outputs. Currently, we are witnessing a cat-and-mouse game where users attempt to misuse the models with a novel attack called prompt injections. In contrast, the developers attempt to discover the vulnerabilities and block the attacks simultaneously. In this paper, we provide an overview of these emergent threats and present a categorization of prompt injections, which can guide future research on prompt injections and act as a checklist of vulnerabilities in the development of LLM interfaces. Moreover, based on previous literature and our own empirical research, we discuss the implications of prompt injections to LLM end users, developers, and researchers.
     
-[^68]: 大型语言模型在网络安全中的应用：最新研究进展
+[^69]: 大型语言模型在网络安全中的应用：最新研究进展
 
     Large Language Models in Cybersecurity: State-of-the-Art
 
@@ -1069,7 +1084,7 @@
 
     The rise of Large Language Models (LLMs) has revolutionized our comprehension of intelligence bringing us closer to Artificial Intelligence. Since their introduction, researchers have actively explored the applications of LLMs across diverse fields, significantly elevating capabilities. Cybersecurity, traditionally resistant to data-driven solutions and slow to embrace machine learning, stands out as a domain. This study examines the existing literature, providing a thorough characterization of both defensive and adversarial applications of LLMs within the realm of cybersecurity. Our review not only surveys and categorizes the current landscape but also identifies critical research gaps. By evaluating both offensive and defensive applications, we aim to provide a holistic understanding of the potential risks and opportunities associated with LLM-driven cybersecurity.
     
-[^69]: 大型语言模型的安全和隐私挑战：一项调查
+[^70]: 大型语言模型的安全和隐私挑战：一项调查
 
     Security and Privacy Challenges of Large Language Models: A Survey
 
@@ -1083,7 +1098,7 @@
 
     Large Language Models (LLMs) have demonstrated extraordinary capabilities and contributed to multiple fields, such as generating and summarizing text, language translation, and question-answering. Nowadays, LLM is becoming a very popular tool in computerized language processing tasks, with the capability to analyze complicated linguistic patterns and provide relevant and appropriate responses depending on the context. While offering significant advantages, these models are also vulnerable to security and privacy attacks, such as jailbreaking attacks, data poisoning attacks, and Personally Identifiable Information (PII) leakage attacks. This survey provides a thorough review of the security and privacy challenges of LLMs for both training data and users, along with the application-based risks in various domains, such as transportation, education, and healthcare. We assess the extent of LLM vulnerabilities, investigate emerging security and privacy attacks for LLMs, and review the potent
     
-[^70]: 将稀疏微调扩展到大型语言模型
+[^71]: 将稀疏微调扩展到大型语言模型
 
     Scaling Sparse Fine-Tuning to Large Language Models
 
@@ -1097,7 +1112,7 @@
 
     Large Language Models (LLMs) are difficult to fully fine-tune (e.g., with instructions or human feedback) due to their sheer number of parameters. A family of parameter-efficient sparse fine-tuning methods have proven promising in terms of performance but their memory requirements increase proportionally to the size of the LLMs. In this work, we scale sparse fine-tuning to state-of-the-art LLMs like LLaMA 2 7B and 13B. We propose SpIEL, a novel sparse fine-tuning method which, for a desired density level, maintains an array of parameter indices and the deltas of these parameters relative to their pretrained values. It iterates over: (a) updating the active deltas, (b) pruning indices (based on the change of magnitude of their deltas) and (c) regrowth of indices. For regrowth, we explore two criteria based on either the accumulated gradients of a few candidate parameters or their approximate momenta estimated using the efficient SM3 optimizer. We experiment with instruction-tuning of LL
     
-[^71]: 关于LM潜在空间的语义学：一种以词汇为定义的方法
+[^72]: 关于LM潜在空间的语义学：一种以词汇为定义的方法
 
     On the Semantics of LM Latent Space: A Vocabulary-defined Approach
 
@@ -1111,7 +1126,7 @@
 
     Understanding the latent space of language models (LM) is crucial to refining their performance and interpretability. Existing analyses often fall short in providing disentangled (model-centric) insights into LM semantics, and neglect essential aspects of LM adaption. In response, we introduce a pioneering method called vocabulary-defined semantics, which establishes a reference frame within the LM latent space, ensuring disentangled semantic analysis grounded in LM vocabulary. Our approach transcends prior entangled analysis, leveraging LM vocabulary for model-centric insights. Furthermore, we propose a novel technique to compute logits, emphasising differentiability and local isotropy, and introduce a neural clustering module for semantically calibrating data representations during LM adaptation. Through extensive experiments across diverse text understanding datasets, our approach outperforms state-of-the-art methods of retrieval-augmented generation and parameter-efficient finetuni
     
-[^72]: NoFunEval: 有趣的是，代码语言模型在超出功能正确性的要求上遇到困难
+[^73]: NoFunEval: 有趣的是，代码语言模型在超出功能正确性的要求上遇到困难
 
     NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness
 
@@ -1125,7 +1140,7 @@
 
     Existing evaluation benchmarks of language models of code (code LMs) focus almost exclusively on whether the LMs can generate functionally-correct code. In real-world software engineering, developers think beyond functional correctness. They have requirements on "how" a functionality should be implemented to meet overall system design objectives like efficiency, security, and maintainability. They would also trust the code LMs more if the LMs demonstrate robust understanding of requirements and code semantics.   We propose a new benchmark NoFunEval to evaluate code LMs on non-functional requirements and simple classification instances for both functional and non-functional requirements. We propose a prompting method, Coding Concepts (CoCo), as a way for a developer to communicate the domain knowledge to the LMs. We conduct an extensive evaluation of twenty-two code LMs. Our finding is that they generally falter when tested on our benchmark, hinting at fundamental blindspots in their tr
     
-[^73]: SuperCLUE-Math6：用于评估中文语言模型逻辑多步数学推理能力的分级基准数据集
+[^74]: SuperCLUE-Math6：用于评估中文语言模型逻辑多步数学推理能力的分级基准数据集
 
     SuperCLUE-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese
 
@@ -1139,7 +1154,7 @@
 
     We introduce SuperCLUE-Math6(SC-Math6), a new benchmark dataset to evaluate the mathematical reasoning abilities of Chinese language models. SC-Math6 is designed as an upgraded Chinese version of the GSM8K dataset with enhanced difficulty, diversity, and application scope. It consists of over 2000 mathematical word problems requiring multi-step reasoning and providing natural language solutions. We propose an innovative scheme to quantify the reasoning capability of large models based on performance over problems with different reasoning steps. Experiments on 13 representative Chinese models demonstrate a clear stratification of reasoning levels, with top models like GPT-4 showing superior performance. SC-Math6 fills the gap in Chinese mathematical reasoning benchmarks and provides a comprehensive testbed to advance the intelligence of Chinese language models.
     
-[^74]: 解读文本的真实性: 通过大规模语言语义的广义策略来检测人类和机器生成的文本
+[^75]: 解读文本的真实性: 通过大规模语言语义的广义策略来检测人类和机器生成的文本
 
     Deciphering Textual Authenticity: A Generalized Strategy through the Lens of Large Language Semantics for Detecting Human vs. Machine-Generated Text
 
@@ -1153,7 +1168,7 @@
 
     With the recent proliferation of Large Language Models (LLMs), there has been an increasing demand for tools to detect machine-generated text. The effective detection of machine-generated text face two pertinent problems: First, they are severely limited in generalizing against real-world scenarios, where machine-generated text is produced by a variety of generators, including but not limited to GPT-4 and Dolly, and spans diverse domains, ranging from academic manuscripts to social media posts. Second, existing detection methodologies treat texts produced by LLMs through a restrictive binary classification lens, neglecting the nuanced diversity of artifacts generated by different LLMs. In this work, we undertake a systematic study on the detection of machine-generated text in real-world scenarios. We first study the effectiveness of state-of-the-art approaches and find that they are severely limited against text produced by diverse generators and domains in the real world. Furthermore,
     
-[^75]: 从4K到400K的飞跃：利用激活标志扩展LLM的上下文
+[^76]: 从4K到400K的飞跃：利用激活标志扩展LLM的上下文
 
     Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon
 
@@ -1167,7 +1182,7 @@
 
     The utilization of long contexts poses a big challenge for LLMs due to their limited context window size. Although the context window can be extended through fine-tuning, it will result in a considerable cost at both training and inference time, and exert an unfavorable impact to the LLM's original capabilities. In this work, we propose a new method called Activation Beacon, which condenses LLM's raw activations into compact forms such that the LLM can perceive a longer context with a limited context window. Activation Beacon is introduced as a plug-in module, which fully preserves the LLM's original capability in short contexts. It works with the sliding window to streamingly process the long context, which leads to a competitive memory and time efficiency in both training and inference. Activation Beacon is trained with short-sequence data of diversified condensing ratios. Thanks to such a treatment, it can be effectively learned to support different context lengths with a small trai
     
-[^76]: 别再出现尖峰了：稳定大型语言模型的预训练
+[^77]: 别再出现尖峰了：稳定大型语言模型的预训练
 
     Spike No More: Stabilizing the Pre-training of Large Language Models
 
@@ -1181,7 +1196,7 @@
 
     Loss spikes often occur during pre-training of large language models. The spikes degrade the performance of large language models and sometimes ruin the pre-training. Since the pre-training needs a vast computational budget, we should avoid such spikes. To investigate the cause of loss spikes, we focus on gradients of internal layers. Through theoretical analyses, we reveal two causes of the exploding gradients, and provide requirements to prevent the explosion. In addition, we propose a method to satisfy the requirements by combining the initialization method and a simple modification to embeddings. We conduct various experiments to verify our theoretical analyses empirically. Experimental results indicate that the combination is effective in preventing spikes during pre-training.
     
-[^77]: DSPy断言：用于自我调整语言模型流水线的计算约束
+[^78]: DSPy断言：用于自我调整语言模型流水线的计算约束
 
     DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines
 
@@ -1195,7 +1210,7 @@
 
     Chaining language model (LM) calls as composable modules is fueling a new way of programming, but ensuring LMs adhere to important constraints requires heuristic "prompt engineering". We introduce LM Assertions, a programming construct for expressing computational constraints that LMs should satisfy. We integrate our constructs into the recent DSPy programming model for LMs, and present new strategies that allow DSPy to compile programs with LM Assertions into more reliable and accurate systems. We also propose strategies to use assertions at inference time for automatic self-refinement with LMs. We report on four diverse case studies for text generation and find that LM Assertions improve not only compliance with imposed rules but also downstream task performance, passing constraints up to 164% more often and generating up to 37% more higher-quality responses. Our reference implementation of LM Assertions is integrated into DSPy at https://github.com/stanfordnlp/dspy
     
-[^78]: 跨块量化：用于大型语言模型的跨块量化方法
+[^79]: 跨块量化：用于大型语言模型的跨块量化方法
 
     CBQ: Cross-Block Quantization for Large Language Models
 
@@ -1209,7 +1224,7 @@
 
     Post-training quantization (PTQ) has played a key role in compressing large language models (LLMs) with ultra-low costs. However, existing PTQ methods only focus on handling the outliers within one layer or one block, which ignores the dependency of blocks and leads to severe performance degradation in low-bit settings. In this paper, we propose CBQ, a cross-block reconstruction-based PTQ method for LLMs. CBQ employs a cross-block dependency using a homologous reconstruction scheme, establishing long-range dependencies across multiple blocks to minimize error accumulation. Furthermore, CBQ incorporates a coarse-to-fine preprocessing (CFP) strategy for suppressing weight and activation outliers, coupled with an adaptive LoRA-Rounding technique for precise weight quantization. These innovations enable CBQ to not only handle extreme outliers effectively but also improve overall quantization accuracy. Extensive experiments show that CBQ achieves superior low-bit quantization (W4A4, W4A8, W
     
-[^79]: Neuron Patching: 神经元层面的模型编辑与代码生成
+[^80]: Neuron Patching: 神经元层面的模型编辑与代码生成
 
     Neuron Patching: Neuron-level Model Editing on Code Generation and LLMs
 
@@ -1223,7 +1238,7 @@
 
     Large Language Models are successfully adopted in software engineering, especially in code generation. Updating these models with new knowledge is very expensive, and is often required to fully realize their value. In this paper, we propose a novel and effective model editing approach, \textsc{MENT}, to patch LLMs in coding tasks. Based on the mechanism of generative LLMs, \textsc{MENT} enables model editing in next-token predictions, and further supports common coding tasks. \textsc{MENT} is effective, efficient, and reliable. It can correct a neural model by patching 1 or 2 neurons. As the pioneer work on neuron-level model editing of generative models, we formalize the editing process and introduce the involved concepts. Besides, we also introduce new measures to evaluate its generalization ability, and build a benchmark for further study. Our approach is evaluated on three coding tasks, including API-seq recommendation, line-level code generation, and pseudocode-to-code transaction
     
-[^80]: 在图上的大型语言模型：一项全面调查
+[^81]: 在图上的大型语言模型：一项全面调查
 
     Large Language Models on Graphs: A Comprehensive Survey
 
@@ -1237,7 +1252,7 @@
 
     Large language models (LLMs), such as GPT4 and LLaMA, are creating significant advancements in natural language processing, due to their strong text encoding/decoding ability and newly found emergent capability (e.g., reasoning). While LLMs are mainly designed to process pure texts, there are many real-world scenarios where text data is associated with rich structure information in the form of graphs (e.g., academic networks, and e-commerce networks) or scenarios where graph data is paired with rich textual information (e.g., molecules with descriptions). Besides, although LLMs have shown their pure text-based reasoning ability, it is underexplored whether such ability can be generalized to graphs (i.e., graph-based reasoning). In this paper, we provide a systematic review of scenarios and techniques related to large language models on graphs. We first summarize potential scenarios of adopting LLMs on graphs into three categories, namely pure graphs, text-attributed graphs, and text-pa
     
-[^81]: 恶意天才：探索基于LLM的智能体的安全性
+[^82]: 恶意天才：探索基于LLM的智能体的安全性
 
     Evil Geniuses: Delving into the Safety of LLM-based Agents
 
@@ -1251,7 +1266,7 @@
 
     Rapid advancements in large language models (LLMs) have revitalized in LLM-based agents, exhibiting impressive human-like behaviors and cooperative capabilities in various scenarios. However, these agents also bring some exclusive risks, stemming from the complexity of interaction environments and the usability of tools. This paper delves into the safety of LLM-based agents from three perspectives: agent quantity, role definition, and attack level. Specifically, we initially propose to employ a template-based attack strategy on LLM-based agents to find the influence of agent quantity. In addition, to address interaction environment and role specificity issues, we introduce Evil Geniuses (EG), an effective attack method that autonomously generates prompts related to the original role to examine the impact across various role definitions and attack levels. EG leverages Red-Blue exercises, significantly improving the generated prompt aggressiveness and similarity to original roles. Our ev
     
-[^82]: 医学中的大型语言模型调查：原理、应用和挑战
+[^83]: 医学中的大型语言模型调查：原理、应用和挑战
 
     A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges
 
@@ -1265,7 +1280,7 @@
 
     Large language models (LLMs), such as ChatGPT, have received substantial attention due to their capabilities for understanding and generating human language. LLMs in medicine to assist physicians for patient care are emerging as a promising research direction in both artificial intelligence and clinical medicine. This review provides a comprehensive overview of the principles, applications, and challenges faced by LLMs in medicine. We address the following specific questions: 1) How should medical LLMs be built? 2) What are the measures for the downstream performance of medical LLMs? 3) How should medical LLMs be utilized in real-world clinical practice? 4) What challenges arise from the use of medical LLMs? and 5) How should we better construct and utilize medical LLMs? This review aims to provide insights into the opportunities and challenges of LLMs in medicine, and serve as a practical resource for constructing effective medical LLMs. We also maintain and regularly updated list of 
     
-[^83]: 基础模型的嵌入表示能够检测到分布偏移
+[^84]: 基础模型的嵌入表示能够检测到分布偏移
 
     Foundation Model's Embedded Representations May Detect Distribution Shift
 
@@ -1279,7 +1294,7 @@
 
     Sampling biases can cause distribution shifts between train and test datasets for supervised learning tasks, obscuring our ability to understand the generalization capacity of a model. This is especially important considering the wide adoption of pre-trained foundational neural networks -- whose behavior remains poorly understood -- for transfer learning (TL) tasks. We present a case study for TL on the Sentiment140 dataset and show that many pre-trained foundation models encode different representations of Sentiment140's manually curated test set $M$ from the automatically labeled training set $P$, confirming that a distribution shift has occurred. We argue training on $P$ and measuring performance on $M$ is a biased measure of generalization. Experiments on pre-trained GPT-2 show that the features learnable from $P$ do not improve (and in fact hamper) performance on $M$. Linear probes on pre-trained GPT-2's representations are robust and may even outperform overall fine-tuning, imply
     
-[^84]: Geo-Encoder: 用于中文地理重新排序的块-论证双编码器框架
+[^85]: Geo-Encoder: 用于中文地理重新排序的块-论证双编码器框架
 
     Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking
 
@@ -1293,7 +1308,7 @@
 
     Chinese geographic re-ranking task aims to find the most relevant addresses among retrieved candidates, which is crucial for location-related services such as navigation maps. Unlike the general sentences, geographic contexts are closely intertwined with geographical concepts, from general spans (e.g., province) to specific spans (e.g., road). Given this feature, we propose an innovative framework, namely Geo-Encoder, to more effectively integrate Chinese geographical semantics into re-ranking pipelines. Our methodology begins by employing off-the-shelf tools to associate text with geographical spans, treating them as chunking units. Then, we present a multi-task learning module to simultaneously acquire an effective attention matrix that determines chunk contributions to extra semantic representations. Furthermore, we put forth an asynchronous update mechanism for the proposed addition task, aiming to guide the model capable of effectively focusing on specific chunks. Experiments on t
     
-[^85]: 大规模语言模型中出现的欺骗能力
+[^86]: 大规模语言模型中出现的欺骗能力
 
     Deception Abilities Emerged in Large Language Models
 
@@ -1307,7 +1322,7 @@
 
     Large language models (LLMs) are currently at the forefront of intertwining artificial intelligence (AI) systems with human communication and everyday life. Thus, aligning them with human values is of great importance. However, given the steady increase in reasoning abilities, future LLMs are under suspicion of becoming able to deceive human operators and utilizing this ability to bypass monitoring efforts. As a prerequisite to this, LLMs need to possess a conceptual understanding of deception strategies. This study reveals that such strategies emerged in state-of-the-art LLMs, such as GPT-4, but were non-existent in earlier LLMs. We conduct a series of experiments showing that state-of-the-art LLMs are able to understand and induce false beliefs in other agents, that their performance in complex deception scenarios can be amplified utilizing chain-of-thought reasoning, and that eliciting Machiavellianism in LLMs can alter their propensity to deceive. In sum, revealing hitherto unknown
     
-[^86]: 语言模型作为归纳推理器
+[^87]: 语言模型作为归纳推理器
 
     Language Models as Inductive Reasoners
 
@@ -1321,7 +1336,7 @@
 
     Inductive reasoning is a core component of human intelligence. In the past research of inductive reasoning within computer science, formal language is used as representations of knowledge (facts and rules, more specifically). However, formal language can cause systematic problems for inductive reasoning such as disability of handling raw input such as natural language, sensitiveness to mislabeled data, and incapacity to handle ambiguous input. To this end, we propose a new paradigm (task) for inductive reasoning, which is to induce natural language rules from natural language facts, and create a dataset termed DEER containing 1.2k rule-fact pairs for the task, where rules and facts are written in natural language. New automatic metrics are also proposed and analysed for the evaluation of this task. With DEER, we investigate a modern approach for inductive reasoning where we use natural language as representation for knowledge instead of formal language and use pretrained language model
     
-[^87]: 实现语言模型对齐的高效精确优化方法
+[^88]: 实现语言模型对齐的高效精确优化方法
 
     Towards Efficient and Exact Optimization of Language Model Alignment
 
@@ -1335,7 +1350,7 @@
 
     The alignment of language models with human preferences is vital for their application in real-world tasks. The problem is formulated as optimizing the model's policy to maximize the expected reward that reflects human preferences with minimal deviation from the initial policy. While considered as a straightforward solution, reinforcement learning (RL) suffers from high variance in policy updates, which impedes efficient policy improvement. Recently, direct preference optimization (DPO) was proposed to directly optimize the policy from preference data. Though simple to implement, DPO is derived based on the optimal policy that is not assured to be achieved in practice, which undermines its convergence to the intended solution.   In this paper, we propose efficient exact optimization (EXO) of the alignment objective. We prove that EXO is guaranteed to optimize in the same direction as the RL algorithms asymptotically for arbitary parametrization of the policy, while enables efficient op
     
-[^88]: CroissantLLM: 一个真正的双语法语-英语语言模型
+[^89]: CroissantLLM: 一个真正的双语法语-英语语言模型
 
     CroissantLLM: A Truly Bilingual French-English Language Model
 
@@ -1349,7 +1364,7 @@
 
     We introduce CroissantLLM, a 1.3B language model pretrained on a set of 3T English and French tokens, to bring to the research and industrial community a high-performance, fully open-sourced bilingual model that runs swiftly on consumer-grade local hardware. To that end, we pioneer the approach of training an intrinsically bilingual model with a 1:1 English-to-French pretraining data ratio, a custom tokenizer, and bilingual finetuning datasets. We release the training dataset, notably containing a French split with manually curated, high-quality, and varied data sources. To assess performance outside of English, we craft a novel benchmark, FrenchBench, consisting of an array of classification and generation tasks, covering various orthogonal aspects of model performance in the French Language. Additionally, rooted in transparency and to foster further Large Language Model research, we release codebases, and dozens of checkpoints across various model sizes, training data distributions, 
     
-[^89]: 一条思维链条的强度取决于最弱的环节：一个验证推理链的基准
+[^90]: 一条思维链条的强度取决于最弱的环节：一个验证推理链的基准
 
     A Chain-of-Thought Is as Strong as Its Weakest Link: A Benchmark for Verifiers of Reasoning Chains
 
@@ -1363,7 +1378,7 @@
 
     Prompting language models to provide step-by-step answers (e.g., "Chain-of-Thought") is the prominent approach for complex reasoning tasks, where more accurate reasoning chains typically improve downstream task performance. Recent literature discusses automatic methods to verify reasoning steps to evaluate and improve their correctness. However, no fine-grained step-level datasets are available to enable thorough evaluation of such verification methods, hindering progress in this direction. We introduce Reveal: Reasoning Verification Evaluation, a new dataset to benchmark automatic verifiers of complex Chain-of-Thought reasoning in open-domain question answering settings. Reveal includes comprehensive labels for the relevance, attribution to evidence passages, and logical correctness of each reasoning step in a language model's answer, across a wide variety of datasets and state-of-the-art language models.
     
-[^90]: 通过地图接种改进QA模型性能
+[^91]: 通过地图接种改进QA模型性能
 
     Improving QA Model Performance with Cartographic Inoculation
 
@@ -1377,7 +1392,7 @@
 
     QA models are faced with complex and open-ended contextual reasoning problems, but can often learn well-performing solution heuristics by exploiting dataset-specific patterns in their training data. These patterns, or "dataset artifacts", reduce the model's ability to generalize to real-world QA problems. Utilizing an ElectraSmallDiscriminator model trained for QA, we analyze the impacts and incidence of dataset artifacts using an adversarial challenge set designed to confuse models reliant on artifacts for prediction. Extending existing work on methods for mitigating artifact impacts, we propose cartographic inoculation, a novel method that fine-tunes models on an optimized subset of the challenge data to reduce model reliance on dataset artifacts. We show that by selectively fine-tuning a model on ambiguous adversarial examples from a challenge set, significant performance improvements can be made on the full challenge dataset with minimal loss of model generalizability to other chal
     
-[^91]: 大型语言模型能否取代经济选择预测实验室？
+[^92]: 大型语言模型能否取代经济选择预测实验室？
 
     Can Large Language Models Replace Economic Choice Prediction Labs?
 
@@ -1391,7 +1406,7 @@
 
     Economic choice prediction is an essential challenging task, often constrained by the difficulties in acquiring human choice data. Indeed, experimental economics studies had focused mostly on simple choice settings. The AI community has recently contributed to that effort in two ways: considering whether LLMs can substitute for humans in the above-mentioned simple choice prediction settings, and the study through ML lens of more elaborated but still rigorous experimental economics settings, employing incomplete information, repetitive play, and natural language communication, notably language-based persuasion games. This leaves us with a major inspiration: can LLMs be used to fully simulate the economic environment and generate data for efficient human choice prediction, substituting for the elaborated economic lab studies? We pioneer the study of this subject, demonstrating its feasibility. In particular, we show that a model trained solely on LLM-generated data can effectively predic
     
-[^92]: 最近在仇恨言论审核方面的进展：多模态和大型模型的作用
+[^93]: 最近在仇恨言论审核方面的进展：多模态和大型模型的作用
 
     Recent Advances in Hate Speech Moderation: Multimodality and the Role of Large Models. (arXiv:2401.16727v1 [cs.CL])
 
@@ -1405,7 +1420,7 @@
 
     In the evolving landscape of online communication, moderating hate speech (HS) presents an intricate challenge, compounded by the multimodal nature of digital content. This comprehensive survey delves into the recent strides in HS moderation, spotlighting the burgeoning role of large language models (LLMs) and large multimodal models (LMMs). Our exploration begins with a thorough analysis of current literature, revealing the nuanced interplay between textual, visual, and auditory elements in propagating HS. We uncover a notable trend towards integrating these modalities, primarily due to the complexity and subtlety with which HS is disseminated. A significant emphasis is placed on the advances facilitated by LLMs and LMMs, which have begun to redefine the boundaries of detection and moderation capabilities. We identify existing gaps in research, particularly in the context of underrepresented languages and cultures, and the need for solutions to handle low-resource settings. The survey
     
-[^93]: 人类与ChatGPT生成对话之间的语言对比
+[^94]: 人类与ChatGPT生成对话之间的语言对比
 
     A Linguistic Comparison between Human and ChatGPT-Generated Conversations. (arXiv:2401.16587v1 [cs.CL])
 
@@ -1419,7 +1434,7 @@
 
     This study explores linguistic differences between human and LLM-generated dialogues, using 19.5K dialogues generated by ChatGPT-3.5 as a companion to the EmpathicDialogues dataset. The research employs Linguistic Inquiry and Word Count (LIWC) analysis, comparing ChatGPT-generated conversations with human conversations across 118 linguistic categories. Results show greater variability and authenticity in human dialogues, but ChatGPT excels in categories such as social processes, analytical style, cognition, attentional focus, and positive emotional tone, reinforcing recent findings of LLMs being "more human than human." However, no significant difference was found in positive or negative affect between ChatGPT and human dialogues. Classifier analysis of dialogue embeddings indicates implicit coding of the valence of affect despite no explicit mention of affect in the conversations. The research also contributes a novel, companion ChatGPT-generated dataset of conversations between two i
     
-[^94]: 发挥专业放射科医生的专长，提升放射学报告的LLM评估
+[^95]: 发挥专业放射科医生的专长，提升放射学报告的LLM评估
 
     Leveraging Professional Radiologists' Expertise to Enhance LLMs' Evaluation for Radiology Reports. (arXiv:2401.16578v1 [cs.CL])
 
@@ -1433,7 +1448,7 @@
 
     In radiology, Artificial Intelligence (AI) has significantly advanced report generation, but automatic evaluation of these AI-produced reports remains challenging. Current metrics, such as Conventional Natural Language Generation (NLG) and Clinical Efficacy (CE), often fall short in capturing the semantic intricacies of clinical contexts or overemphasize clinical details, undermining report clarity. To overcome these issues, our proposed method synergizes the expertise of professional radiologists with Large Language Models (LLMs), like GPT-3.5 and GPT-4 1. Utilizing In-Context Instruction Learning (ICIL) and Chain of Thought (CoT) reasoning, our approach aligns LLM evaluations with radiologist standards, enabling detailed comparisons between human and AI generated reports. This is further enhanced by a Regression model that aggregates sentence evaluation scores. Experimental results show that our ''Detailed GPT-4 (5-shot)'' model achieves a 0.48 score, outperforming the METEOR metric 
     
-[^95]: 基于RAG的理解伊斯兰教问题回答系统提案：MufassirQAS LLM
+[^96]: 基于RAG的理解伊斯兰教问题回答系统提案：MufassirQAS LLM
 
     A RAG-based Question Answering System Proposal for Understanding Islam: MufassirQAS LLM. (arXiv:2401.15378v1 [cs.CL])
 
@@ -1447,7 +1462,7 @@
 
     There exist challenges in learning and understanding religions as the presence of complexity and depth of religious doctrines and teachings. Chatbots as question-answering systems can help in solving these challenges. LLM chatbots use NLP techniques to establish connections between topics and accurately respond to complex questions. These capabilities make it perfect to be used in enlightenment on religion as a question answering chatbot. However, LLMs also have a tendency to generate false information, known as hallucination. The responses of the chatbots can include content that insults personal religious beliefs, interfaith conflicts, and controversial or sensitive topics. It needs to avoid such cases without promoting hate speech or offending certain groups of people or their beliefs. This study uses a vector database-based Retrieval Augmented Generation (RAG) approach to enhance the accuracy and transparency of LLMs. Our question-answering system is called as "MufassirQAS". We cre
     
-[^96]: UNSEE: 无监督的非对比度句子嵌入
+[^97]: UNSEE: 无监督的非对比度句子嵌入
 
     UNSEE: Unsupervised Non-contrastive Sentence Embeddings. (arXiv:2401.15316v1 [cs.CL])
 
@@ -1461,7 +1476,7 @@
 
     We present UNSEE: Unsupervised Non-Contrastive Sentence Embeddings, a novel approach that outperforms SimCSE in the Massive Text Embedding benchmark. Our exploration begins by addressing the challenge of representation collapse, a phenomenon observed when contrastive objectives in SimCSE are replaced with non-contrastive objectives. To counter this issue, we propose a straightforward solution known as the target network, effectively mitigating representation collapse. The introduction of the target network allows us to leverage non-contrastive objectives, maintaining training stability while achieving performance improvements comparable to contrastive objectives. Our method has achieved peak performance in non-contrastive sentence embeddings through meticulous fine-tuning and optimization. This comprehensive effort has yielded superior sentence representation models, showcasing the effectiveness of our approach.
     
-[^97]: 视觉语言模型中被忽视的尾部
+[^98]: 视觉语言模型中被忽视的尾部
 
     The Neglected Tails of Vision-Language Models. (arXiv:2401.12425v1 [cs.CV])
 
@@ -1475,7 +1490,7 @@
 
     Vision-language models (VLMs) excel in zero-shot recognition but exhibit drastically imbalanced performance across visual concepts. For example, CLIP, despite an impressive mean zero-shot accuracy on ImageNet (72.7%), yields $<$10% on ten concepts (e.g., gyromitra and night snake), presumably, because these concepts are under-represented in VLMs' imbalanced pretraining data. Yet, assessing this imbalance is challenging as it is non-trivial to calculate the frequency of specific concepts within VLMs' large-scale pretraining data. Our work makes the first attempt to measure the concept frequency by analyzing pretraining texts. We use off-the-shelf language models to help count relevant texts that contain synonyms of the given concepts and resolve linguistic ambiguity. We confirm that popular VLM datasets like LAION indeed exhibit long-tailed concept distributions, which strongly correlate with per-class accuracies. Further, contemporary multimodal systems, e.g., visual chatbots and text-
     
-[^98]: 通过文化价值调查，弥合对话代理中的文化细微差别
+[^99]: 通过文化价值调查，弥合对话代理中的文化细微差别
 
     Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys. (arXiv:2401.10352v1 [cs.CL])
 
@@ -1489,7 +1504,7 @@
 
     The cultural landscape of interactions with dialogue agents is a compelling yet relatively unexplored territory. It's clear that various sociocultural aspects -- from communication styles and beliefs to shared metaphors and knowledge -- profoundly impact these interactions. To delve deeper into this dynamic, we introduce cuDialog, a first-of-its-kind benchmark for dialogue generation with a cultural lens. We also develop baseline models capable of extracting cultural attributes from dialogue exchanges, with the goal of enhancing the predictive accuracy and quality of dialogue agents. To effectively co-learn cultural understanding and multi-turn dialogue predictions, we propose to incorporate cultural dimensions with dialogue encoding features. Our experimental findings highlight that incorporating cultural value surveys boosts alignment with references and cultural markers, demonstrating its considerable influence on personalization and dialogue quality. To facilitate further explorati
     
-[^99]: 对比性偏好优化：推动机器翻译中LLM性能的边界
+[^100]: 对比性偏好优化：推动机器翻译中LLM性能的边界
 
     Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation. (arXiv:2401.08417v2 [cs.CL] UPDATED)
 
@@ -1503,7 +1518,7 @@
 
     Moderate-sized large language models (LLMs) -- those with 7B or 13B parameters -- exhibit promising machine translation (MT) performance. However, even the top-performing 13B LLM-based translation models, like ALMA, does not match the performance of state-of-the-art conventional encoder-decoder translation models or larger-scale LLMs such as GPT-4. In this study, we bridge this performance gap. We first assess the shortcomings of supervised fine-tuning for LLMs in the MT task, emphasizing the quality issues present in the reference data, despite being human-generated. Then, in contrast to SFT which mimics reference translations, we introduce Contrastive Preference Optimization (CPO), a novel approach that trains models to avoid generating adequate but not perfect translations. Applying CPO to ALMA models with only 22K parallel sentences and 12M parameters yields significant improvements. The resulting model, called ALMA-R, can match or exceed the performance of the WMT competition winn
     
-[^100]: DQNC2S：基于DQN的跨流危机事件摘要生成器
+[^101]: DQNC2S：基于DQN的跨流危机事件摘要生成器
 
     DQNC2S: DQN-based Cross-stream Crisis event Summarizer. (arXiv:2401.06683v1 [cs.IR])
 
@@ -1517,7 +1532,7 @@
 
     Summarizing multiple disaster-relevant data streams simultaneously is particularly challenging as existing Retrieve&Re-ranking strategies suffer from the inherent redundancy of multi-stream data and limited scalability in a multi-query setting. This work proposes an online approach to crisis timeline generation based on weak annotation with Deep Q-Networks. It selects on-the-fly the relevant pieces of text without requiring neither human annotations nor content re-ranking. This makes the inference time independent of the number of input queries. The proposed approach also incorporates a redundancy filter into the reward function to effectively handle cross-stream content overlaps. The achieved ROUGE and BERTScore results are superior to those of best-performing models on the CrisisFACTS 2022 benchmark.
     
-[^101]: 通过大型语言模型了解心理健康的评估
+[^102]: 通过大型语言模型了解心理健康的评估
 
     An Assessment on Comprehending Mental Health through Large Language Models. (arXiv:2401.04592v1 [cs.CL])
 
@@ -1531,7 +1546,7 @@
 
     Mental health challenges pose considerable global burdens on individuals and communities. Recent data indicates that more than 20% of adults may encounter at least one mental disorder in their lifetime. On the one hand, the advancements in large language models have facilitated diverse applications, yet a significant research gap persists in understanding and enhancing the potential of large language models within the domain of mental health. On the other hand, across various applications, an outstanding question involves the capacity of large language models to comprehend expressions of human mental health conditions in natural language. This study presents an initial evaluation of large language models in addressing this gap. Due to this, we compare the performance of Llama-2 and ChatGPT with classical Machine as well as Deep learning models. Our results on the DAIC-WOZ dataset show that transformer-based models, like BERT or XLNet, outperform the large language models.
     
-[^102]: 情绪分类中的主题偏差
+[^103]: 情绪分类中的主题偏差
 
     Topic Bias in Emotion Classification. (arXiv:2312.09043v2 [cs.CL] UPDATED)
 
@@ -1545,7 +1560,7 @@
 
     Emotion corpora are typically sampled based on keyword/hashtag search or by asking study participants to generate textual instances. In any case, these corpora are not uniform samples representing the entirety of a domain. We hypothesize that this practice of data acquisition leads to unrealistic correlations between overrepresented topics in these corpora that harm the generalizability of models. Such topic bias could lead to wrong predictions for instances like "I organized the service for my aunt's funeral." when funeral events are over-represented for instances labeled with sadness, despite the emotion of pride being more appropriate here. In this paper, we study this topic bias both from the data and the modeling perspective. We first label a set of emotion corpora automatically via topic modeling and show that emotions in fact correlate with specific topics. Further, we see that emotion classifiers are confounded by such topics. Finally, we show that the established debiasing met
     
-[^103]: 使用大型语言模型进行实体匹配
+[^104]: 使用大型语言模型进行实体匹配
 
     Entity Matching using Large Language Models. (arXiv:2310.11244v1 [cs.CL])
 
@@ -1559,7 +1574,7 @@
 
     Entity Matching is the task of deciding whether two entity descriptions refer to the same real-world entity. Entity Matching is a central step in most data integration pipelines and an enabler for many e-commerce applications which require to match products offers from different vendors. State-of-the-art entity matching methods often rely on pre-trained language models (PLMs) such as BERT or RoBERTa. Two major drawbacks of these models for entity matching are that (i) the models require significant amounts of task-specific training data and (ii) the fine-tuned models are not robust concerning out-of-distribution entities. In this paper, we investigate using large language models (LLMs) for entity matching as a less domain-specific training data reliant and more robust alternative to PLM-based matchers. Our study covers hosted LLMs, such as GPT3.5 and GPT4, as well as open source LLMs based on Llama2 which can be run locally. We evaluate these models in a zero-shot scenario as well as a
     
-[^104]: 基于预训练语言模型的上下文少样本关系抽取
+[^105]: 基于预训练语言模型的上下文少样本关系抽取
 
     In-Context Few-Shot Relation Extraction via Pre-Trained Language Models. (arXiv:2310.11085v1 [cs.CL])
 
@@ -1573,7 +1588,7 @@
 
     Relation extraction aims at inferring structured human knowledge from textual documents. State-of-the-art methods based on language models commonly have two limitations: (1) they require named entities to be either given as input or infer them, which introduces additional noise, and (2) they require human annotations of documents. As a remedy, we present a novel framework for in-context few-shot relation extraction via pre-trained language models. To the best of our knowledge, we are the first to reformulate the relation extraction task as a tailored in-context few-shot learning paradigm. Thereby, we achieve crucial benefits in that we eliminate the need for both named entity recognition and human annotation of documents. Unlike existing methods based on fine-tuning, our framework is flexible in that it can be easily updated for a new set of relations without re-training. We evaluate our framework using DocRED, the largest publicly available dataset for document-level relation extracti
     
-[^105]: "引用GPT的“豚鼠试验”：一种研究企业竞争和勾结的创新智能代理建模方法"
+[^106]: "引用GPT的“豚鼠试验”：一种研究企业竞争和勾结的创新智能代理建模方法"
 
     "Guinea Pig Trials" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion. (arXiv:2308.10974v1 [cs.AI])
 
@@ -1587,7 +1602,7 @@
 
     Firm competition and collusion involve complex dynamics, particularly when considering communication among firms. Such issues can be modeled as problems of complex systems, traditionally approached through experiments involving human subjects or agent-based modeling methods. We propose an innovative framework called Smart Agent-Based Modeling (SABM), wherein smart agents, supported by GPT-4 technologies, represent firms, and interact with one another. We conducted a controlled experiment to study firm price competition and collusion behaviors under various conditions. SABM is more cost-effective and flexible compared to conducting experiments with human subjects. Smart agents possess an extensive knowledge base for decision-making and exhibit human-like strategic abilities, surpassing traditional ABM agents. Furthermore, smart agents can simulate human conversation and be personalized, making them ideal for studying complex situations involving communication. Our results demonstrate th
     
-[^106]: 揭秘 GPT 自我修复代码生成能力
+[^107]: 揭秘 GPT 自我修复代码生成能力
 
     Demystifying GPT Self-Repair for Code Generation. (arXiv:2306.09896v1 [cs.CL])
 
@@ -1601,7 +1616,7 @@
 
     Large Language Models (LLMs) have shown remarkable aptitude in code generation but still struggle on challenging programming tasks. Self-repair -in which the model debugs and fixes mistakes in its own code -- has recently become a popular way to boost performance in these settings. However, only very limited studies on how and when self-repair works effectively exist in the literature, and one might wonder to what extent a model is really capable of providing accurate feedback on why the code is wrong when that code was generated by the same model. In this paper, we analyze GPT-3.5 and GPT-4's ability to perform self-repair on APPS, a challenging dataset consisting of diverse coding challenges. To do so, we first establish a new evaluation strategy dubbed pass@t that measures the pass rate of the tasks against the total number of tokens sampled from the model, enabling a fair comparison to purely sampling-based approaches. With this evaluation strategy, we find that the effectiveness
     
-[^107]: 论解码器Transformer语言模型的计算能力
+[^108]: 论解码器Transformer语言模型的计算能力
 
     On the Computational Power of Decoder-Only Transformer Language Models. (arXiv:2305.17026v2 [cs.CL] UPDATED)
 
@@ -1615,7 +1630,7 @@
 
     This article presents a theoretical evaluation of the computational universality of decoder-only transformer models. We extend the theoretical literature on transformer models and show that decoder-only transformer architectures (even with only a single layer and single attention head) are Turing complete under reasonable assumptions. From the theoretical analysis, we show sparsity/compressibility of the word embedding to be a necessary condition for Turing completeness to hold.
     
-[^108]: LLM的多步推理中的两个自洽失败
+[^109]: LLM的多步推理中的两个自洽失败
 
     Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs. (arXiv:2305.14279v2 [cs.CL] UPDATED)
 
@@ -1629,7 +1644,7 @@
 
     Large language models (LLMs) have achieved widespread success on a variety of in-context few-shot tasks, but this success is typically evaluated via correctness rather than consistency. We argue that self-consistency is an important criteria for valid multi-step reasoning in tasks where the solution is composed of the answers to multiple sub-steps. We propose two types of self-consistency that are particularly important for multi-step reasoning -hypothetical consistency (a model's ability to predict what its output would be in a hypothetical other context) and compositional consistency (consistency of a model's final outputs when intermediate sub-steps are replaced with the model's outputs for those steps). We demonstrate that multiple variants of the GPT-3/-4 models exhibit poor consistency rates across both types of consistency on a variety of tasks.
     
-[^109]: 超越语言：句子表示综述
+[^110]: 超越语言：句子表示综述
 
     Beyond Words: A Comprehensive Survey of Sentence Representations. (arXiv:2305.12641v2 [cs.CL] UPDATED)
 
@@ -1643,7 +1658,7 @@
 
     Sentence representations have become a critical component in natural language processing applications, such as retrieval, question answering, and text classification. They capture the semantics and meaning of a sentence, enabling machines to understand and reason over human language. In recent years, significant progress has been made in developing methods for learning sentence representations, including unsupervised, supervised, and transfer learning approaches. In this paper, we provide an overview of the different methods for sentence representation learning, including both traditional and deep learning-based techniques. We provide a systematic organization of the literature on sentence representation learning, highlighting the key contributions and challenges in this area. Overall, our review highlights the progress made in sentence representation learning, the importance of this area in natural language processing, and the challenges that remain. We conclude with directions for fu
     
-[^110]: 从自然语言定义中学习多关系双曲词向量
+[^111]: 从自然语言定义中学习多关系双曲词向量
 
     Multi-Relational Hyperbolic Word Embeddings from Natural Language Definitions. (arXiv:2305.07303v1 [cs.CL])
 
@@ -1657,7 +1672,7 @@
 
     Neural-based word embeddings using solely distributional information have consistently produced useful meaning representations for downstream tasks. However, existing approaches often result in representations that are hard to interpret and control. Natural language definitions, on the other side, possess a recursive, self-explanatory semantic structure that can support novel representation learning paradigms able to preserve explicit conceptual relations and constraints in the vector space.  This paper proposes a neuro-symbolic, multi-relational framework to learn word embeddings exclusively from natural language definitions by jointly mapping defined and defining terms along with their corresponding semantic relations. By automatically extracting the relations from definitions corpora and formalising the learning problem via a translational objective, we specialise the framework in hyperbolic space to capture the hierarchical and multi-resolution structure induced by the definitions.
     
-[^111]: 评估ChatGPT的工作记忆容量
+[^112]: 评估ChatGPT的工作记忆容量
 
     Assessing Working Memory Capacity of ChatGPT. (arXiv:2305.03731v1 [cs.AI])
 
@@ -1671,7 +1686,7 @@
 
     Working memory is a critical aspect of both human intelligence and artificial intelligence (AI), serving as a workspace for the temporary storage and manipulation of information. This paper investigates working memory capacity of ChatGPT, a state-of-the-art language model, by examining its performance on N-back tasks. We begin by discussing the importance of working memory to humans and AI, followed by the methods employed to assess working memory capacity of ChatGPT. Our study compares behavioral performance of ChatGPT on verbal and spatial N-back tasks to that of human participants reported in the literature, revealing notable similarities. Our findings offer crucial insights into the current progress in designing AI systems with human-level cognitive abilities and hold promise for informing future endeavors aimed at enhancing AI working memory and understanding human working memory through AI models.
     
-[^112]: 使用文本到图像生成模型进行图像字幕数据管理
+[^113]: 使用文本到图像生成模型进行图像字幕数据管理
 
     Data Curation for Image Captioning with Text-to-Image Generative Models. (arXiv:2305.03610v1 [cs.CV])
 
