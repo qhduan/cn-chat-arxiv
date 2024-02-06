@@ -1,0 +1,11 @@
+{
+    "title": "Controller Synthesis from Noisy-Input Noisy-Output Data",
+    "abstract": "We consider the problem of synthesizing a dynamic output-feedback controller for a linear system, using solely input-output data corrupted by measurement noise. To handle input-output data, an auxiliary representation of the original system is introduced. By exploiting the structure of the auxiliary system, we design a controller that robustly stabilizes all possible systems consistent with data. Notably, we also provide a novel solution to extend the results to generic multi-input multi-output systems. The findings are illustrated by numerical examples.",
+    "link": "https://arxiv.org/abs/2402.02588",
+    "context": "Title: Controller Synthesis from Noisy-Input Noisy-Output Data\nAbstract: We consider the problem of synthesizing a dynamic output-feedback controller for a linear system, using solely input-output data corrupted by measurement noise. To handle input-output data, an auxiliary representation of the original system is introduced. By exploiting the structure of the auxiliary system, we design a controller that robustly stabilizes all possible systems consistent with data. Notably, we also provide a novel solution to extend the results to generic multi-input multi-output systems. The findings are illustrated by numerical examples.",
+    "path": "papers/24/02/2402.02588.json",
+    "total_tokens": 663,
+    "translated_title": "从有噪声输入和有噪声输出数据中合成控制器的研究",
+    "translated_abstract": "本文考虑使用仅受测量噪声影响的输入输出数据，为线性系统合成一个动态输出反馈控制器的问题。为处理输入输出数据，引入了原系统的辅助表示。通过利用辅助系统的结构，我们设计了一个能稳定所有与数据一致的可能系统的控制器。值得注意的是，我们还提供了一个新颖的解决方案，将结果扩展到通用的多输入多输出系统。数值例子对所得的结果进行了说明。",
+    "tldr": "本论文研究了从受噪声影响的输入输出数据中合成动态输出反馈控制器的问题，并提出了一种能稳定所有与数据一致的可能系统的控制器设计方法，同时还解决了将结果扩展到通用多输入多输出系统的问题。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "State estimation of urban air pollution with statistical, physical, and super-learning graph models",
+    "abstract": "We consider the problem of real-time reconstruction of urban air pollution maps. The task is challenging due to the heterogeneous sources of available data, the scarcity of direct measurements, the presence of noise, and the large surfaces that need to be considered. In this work, we introduce different reconstruction methods based on posing the problem on city graphs. Our strategies can be classified as fully data-driven, physics-driven, or hybrid, and we combine them with super-learning models. The performance of the methods is tested in the case of the inner city of Paris, France.",
+    "link": "https://arxiv.org/abs/2402.02812",
+    "context": "Title: State estimation of urban air pollution with statistical, physical, and super-learning graph models\nAbstract: We consider the problem of real-time reconstruction of urban air pollution maps. The task is challenging due to the heterogeneous sources of available data, the scarcity of direct measurements, the presence of noise, and the large surfaces that need to be considered. In this work, we introduce different reconstruction methods based on posing the problem on city graphs. Our strategies can be classified as fully data-driven, physics-driven, or hybrid, and we combine them with super-learning models. The performance of the methods is tested in the case of the inner city of Paris, France.",
+    "path": "papers/24/02/2402.02812.json",
+    "total_tokens": 691,
+    "translated_title": "基于统计、物理和超级学习图模型的城市空气污染状态估计",
+    "translated_abstract": "本文考虑实时重建城市空气污染地图的问题。由于可用数据的异质性源、直接测量的稀缺性、噪声的存在以及需要考虑的大面积，这个任务是具有挑战性的。在这项工作中，我们引入了基于城市图的不同重建方法。我们的策略可以分为完全数据驱动、物理驱动或混合型，并结合了超级学习模型。这些方法在法国巴黎市中心的情况下进行了测试。",
+    "tldr": "本文介绍了基于城市图的不同重建方法，包括完全数据驱动、物理驱动和混合型，以及结合超级学习模型。这些方法在法国巴黎市中心的实时重建城市空气污染地图问题中进行了测试。",
+    "en_tdlr": "This paper presents different reconstruction methods based on city graphs, including fully data-driven, physics-driven, and hybrid, combined with super-learning models. These methods were tested in the real-time reconstruction of urban air pollution maps in the inner city of Paris, France."
+}

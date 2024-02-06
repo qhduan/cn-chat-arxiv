@@ -1,0 +1,12 @@
+{
+    "title": "Regret Analysis of Policy Gradient Algorithm for Infinite Horizon Average Reward Markov Decision Processes",
+    "abstract": "In this paper, we consider an infinite horizon average reward Markov Decision Process (MDP). Distinguishing itself from existing works within this context, our approach harnesses the power of the general policy gradient-based algorithm, liberating it from the constraints of assuming a linear MDP structure. We propose a policy gradient-based algorithm and show its global convergence property. We then prove that the proposed algorithm has $\\tilde{\\mathcal{O}}({T}^{3/4})$ regret. Remarkably, this paper marks a pioneering effort by presenting the first exploration into regret-bound computation for the general parameterized policy gradient algorithm in the context of average reward scenarios.",
+    "link": "https://arxiv.org/abs/2309.01922",
+    "context": "Title: Regret Analysis of Policy Gradient Algorithm for Infinite Horizon Average Reward Markov Decision Processes\nAbstract: In this paper, we consider an infinite horizon average reward Markov Decision Process (MDP). Distinguishing itself from existing works within this context, our approach harnesses the power of the general policy gradient-based algorithm, liberating it from the constraints of assuming a linear MDP structure. We propose a policy gradient-based algorithm and show its global convergence property. We then prove that the proposed algorithm has $\\tilde{\\mathcal{O}}({T}^{3/4})$ regret. Remarkably, this paper marks a pioneering effort by presenting the first exploration into regret-bound computation for the general parameterized policy gradient algorithm in the context of average reward scenarios.",
+    "path": "papers/23/09/2309.01922.json",
+    "total_tokens": 744,
+    "translated_title": "无限时域平均奖励马尔可夫决策过程中策略梯度算法的遗憾分析",
+    "translated_abstract": "本文考虑了无限时域平均奖励马尔可夫决策过程（MDP）。与现有的相关工作不同，我们的方法利用了通用策略梯度算法的能力，解放了它在假设线性MDP结构的限制下。我们提出了一种基于策略梯度的算法，并展示了其全局收敛性质。然后，我们证明了该算法具有近似O(T^3/4)的遗憾。值得注意的是，本文首次探索了在平均奖励场景下，对于通用参数化策略梯度算法的遗憾界计算。",
+    "tldr": "本文提出了一种基于策略梯度的算法用于无限时域平均奖励马尔可夫决策过程，并证明了其全局收敛性和近似O(T^3/4)的遗憾界。",
+    "en_tdlr": "This paper proposes a policy gradient-based algorithm for infinite horizon average reward Markov Decision Process (MDP) and proves its global convergence and an approximate regret bound of O(T^3/4)."
+}

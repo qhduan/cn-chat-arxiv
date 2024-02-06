@@ -1,0 +1,11 @@
+{
+    "title": "PhoGPT: Generative Pre-training for Vietnamese",
+    "abstract": "We open-source a state-of-the-art 4B-parameter generative model series for Vietnamese, which includes the base pre-trained monolingual model PhoGPT-4B and its chat variant, PhoGPT-4B-Chat. The base model, PhoGPT-4B, with exactly 3.7B parameters, is pre-trained from scratch on a Vietnamese corpus of 102B tokens, with an 8192 context length, employing a vocabulary of 20480 token types. The chat variant, PhoGPT-4B-Chat, is the modeling output obtained by fine-tuning PhoGPT-4B on a dataset of 70K instructional prompts and their responses, along with an additional 290K conversations. We demonstrate its strong performance compared to previous closed-source and open-source 7B-parameter models. Our PhoGPT models are available at: https://github.com/VinAIResearch/PhoGPT",
+    "link": "https://arxiv.org/abs/2311.02945",
+    "context": "Title: PhoGPT: Generative Pre-training for Vietnamese\nAbstract: We open-source a state-of-the-art 4B-parameter generative model series for Vietnamese, which includes the base pre-trained monolingual model PhoGPT-4B and its chat variant, PhoGPT-4B-Chat. The base model, PhoGPT-4B, with exactly 3.7B parameters, is pre-trained from scratch on a Vietnamese corpus of 102B tokens, with an 8192 context length, employing a vocabulary of 20480 token types. The chat variant, PhoGPT-4B-Chat, is the modeling output obtained by fine-tuning PhoGPT-4B on a dataset of 70K instructional prompts and their responses, along with an additional 290K conversations. We demonstrate its strong performance compared to previous closed-source and open-source 7B-parameter models. Our PhoGPT models are available at: https://github.com/VinAIResearch/PhoGPT",
+    "path": "papers/23/11/2311.02945.json",
+    "total_tokens": 864,
+    "translated_title": "PhoGPT: 越南语的生成式预训练模型",
+    "translated_abstract": "我们开源了一个拥有40亿参数的最先进的越南语生成模型系列，其中包括基础的预训练单语模型PhoGPT-4B和其聊天变体PhoGPT-4B-Chat。基础模型PhoGPT-4B有37亿参数，从零开始在包含1020亿标记的越南语语料库上进行预训练，使用长度为8192的上下文，使用20480个标记类型的词汇表。聊天变体PhoGPT-4B-Chat是在70000个指导提示和回应以及额外的290000个对话数据集上对PhoGPT-4B进行微调得到的模型输出。我们展示了相比之前闭源和开源的70亿参数模型，它的强大性能。我们的PhoGPT模型可在以下链接下载：https://github.com/VinAIResearch/PhoGPT",
+    "tldr": "PhoGPT是一个用于越南语的生成式预训练模型系列，具有40亿参数的基础模型PhoGPT-4B以及其聊天变体PhoGPT-4B-Chat，展示了在越南语任务上优于之前的7亿参数模型的强大性能。"
+}

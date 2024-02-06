@@ -1,0 +1,12 @@
+{
+    "title": "Killer Apps: Low-Speed, Large-Scale AI Weapons",
+    "abstract": "The accelerating advancements in Artificial Intelligence (AI) and Machine Learning (ML), highlighted by the development of cutting-edge Generative Pre-trained Transformer (GPT) models by organizations such as OpenAI, Meta, and Anthropic, present new challenges and opportunities in warfare and security. Much of the current focus is on AI's integration within weapons systems and its role in rapid decision-making in kinetic conflict. However, an equally important but often overlooked aspect is the potential of AI-based psychological manipulation at internet scales within the information domain. These capabilities could pose significant threats to individuals, organizations, and societies globally. This paper explores the concept of AI weapons, their deployment, detection, and potential countermeasures.",
+    "link": "https://arxiv.org/abs/2402.01663",
+    "context": "Title: Killer Apps: Low-Speed, Large-Scale AI Weapons\nAbstract: The accelerating advancements in Artificial Intelligence (AI) and Machine Learning (ML), highlighted by the development of cutting-edge Generative Pre-trained Transformer (GPT) models by organizations such as OpenAI, Meta, and Anthropic, present new challenges and opportunities in warfare and security. Much of the current focus is on AI's integration within weapons systems and its role in rapid decision-making in kinetic conflict. However, an equally important but often overlooked aspect is the potential of AI-based psychological manipulation at internet scales within the information domain. These capabilities could pose significant threats to individuals, organizations, and societies globally. This paper explores the concept of AI weapons, their deployment, detection, and potential countermeasures.",
+    "path": "papers/24/02/2402.01663.json",
+    "total_tokens": 765,
+    "translated_title": "杀手级应用：低速大规模AI武器",
+    "translated_abstract": "人工智能（AI）和机器学习（ML）的不断进步，特别是由OpenAI、Meta和Anthropic等组织开发的尖端生成式预训练转换器（GPT）模型的发展，给战争和安全带来了新的挑战和机会。目前关注的主要是AI在武器系统中的整合以及在动能冲突中快速决策中的作用。然而，同样重要但经常被忽视的一个方面是在信息领域中基于AI的心理操纵在互联网规模内的潜力。这些能力可能对全球个人、组织和社会造成重大威胁。本文探讨了AI武器的概念、部署、检测和潜在对策。",
+    "tldr": "本文研究了AI武器的概念、部署、检测和潜在对策，强调了在信息领域内基于AI的心理操纵的潜力，以及其对全球个人、组织和社会的威胁。",
+    "en_tdlr": "This paper explores the concept, deployment, detection, and potential countermeasures of AI weapons, emphasizing the potential of AI-based psychological manipulation within the information domain and its threat to individuals, organizations, and societies globally."
+}

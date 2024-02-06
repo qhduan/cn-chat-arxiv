@@ -1,0 +1,11 @@
+{
+    "title": "Role of Momentum in Smoothing Objective Function in Implicit Graduated Optimization",
+    "abstract": "While stochastic gradient descent (SGD) with momentum has fast convergence and excellent generalizability, a theoretical explanation for this is lacking. In this paper, we show that SGD with momentum smooths the objective function, the degree of which is determined by the learning rate, the batch size, the momentum factor, the variance of the stochastic gradient, and the upper bound of the gradient norm. This theoretical finding reveals why momentum improves generalizability and provides new insights into the role of the hyperparameters, including momentum factor. We also present an implicit graduated optimization algorithm that exploits the smoothing properties of SGD with momentum and provide experimental results supporting our assertion that SGD with momentum smooths the objective function.",
+    "link": "https://arxiv.org/abs/2402.02325",
+    "context": "Title: Role of Momentum in Smoothing Objective Function in Implicit Graduated Optimization\nAbstract: While stochastic gradient descent (SGD) with momentum has fast convergence and excellent generalizability, a theoretical explanation for this is lacking. In this paper, we show that SGD with momentum smooths the objective function, the degree of which is determined by the learning rate, the batch size, the momentum factor, the variance of the stochastic gradient, and the upper bound of the gradient norm. This theoretical finding reveals why momentum improves generalizability and provides new insights into the role of the hyperparameters, including momentum factor. We also present an implicit graduated optimization algorithm that exploits the smoothing properties of SGD with momentum and provide experimental results supporting our assertion that SGD with momentum smooths the objective function.",
+    "path": "papers/24/02/2402.02325.json",
+    "total_tokens": 698,
+    "translated_title": "动量在隐式逐步优化中对目标函数的平滑作用的角色",
+    "translated_abstract": "虽然具有动量的随机梯度下降（SGD）具有快速收敛和良好的泛化能力，但对此缺乏理论解释。本文展示了具有动量的SGD平滑了目标函数，其程度由学习率、批大小、动量因子、随机梯度的方差以及梯度范数的上界确定。这一理论发现揭示了为什么动量改善了泛化能力，并提供了关于动量因子等超参数作用的新见解。我们还提出了一种利用SGD动量平滑特性的隐式逐步优化算法，并提供了实验结果支持我们的观点，即SGD动量平滑了目标函数。",
+    "tldr": "这篇论文揭示了具有动量的随机梯度下降算法平滑了目标函数，影响程度由多个超参数决定，同时提供了对动量改善泛化能力的理论解释和新见解。"
+}

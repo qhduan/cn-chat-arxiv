@@ -1,0 +1,11 @@
+{
+    "title": "Robust Counterfactual Explanations in Machine Learning: A Survey",
+    "abstract": "Counterfactual explanations (CEs) are advocated as being ideally suited to providing algorithmic recourse for subjects affected by the predictions of machine learning models. While CEs can be beneficial to affected individuals, recent work has exposed severe issues related to the robustness of state-of-the-art methods for obtaining CEs. Since a lack of robustness may compromise the validity of CEs, techniques to mitigate this risk are in order. In this survey, we review works in the rapidly growing area of robust CEs and perform an in-depth analysis of the forms of robustness they consider. We also discuss existing solutions and their limitations, providing a solid foundation for future developments.",
+    "link": "https://arxiv.org/abs/2402.01928",
+    "context": "Title: Robust Counterfactual Explanations in Machine Learning: A Survey\nAbstract: Counterfactual explanations (CEs) are advocated as being ideally suited to providing algorithmic recourse for subjects affected by the predictions of machine learning models. While CEs can be beneficial to affected individuals, recent work has exposed severe issues related to the robustness of state-of-the-art methods for obtaining CEs. Since a lack of robustness may compromise the validity of CEs, techniques to mitigate this risk are in order. In this survey, we review works in the rapidly growing area of robust CEs and perform an in-depth analysis of the forms of robustness they consider. We also discuss existing solutions and their limitations, providing a solid foundation for future developments.",
+    "path": "papers/24/02/2402.01928.json",
+    "total_tokens": 757,
+    "translated_title": "机器学习中的强健反事实解释：一项调查",
+    "translated_abstract": "反事实解释（CEs）被认为非常适合为受机器学习模型预测影响的对象提供算法上的补救措施。尽管CEs对受影响的个体有益，但最近的研究揭示了获取CEs的最新方法相关的严重问题。由于缺乏强健性可能会损害CEs的有效性，因此有必要采取技术来减轻这个风险。在这项调查中，我们回顾了强健CEs这一迅速发展的领域的研究，并对它们考虑的强健性形式进行了深入分析。我们还讨论了现有解决方案及其局限性，为未来的发展提供了坚实的基础。",
+    "tldr": "这项调查回顾了机器学习中强健反事实解释的研究，并分析了其对强健性的考虑。该调查讨论了现有解决方案及其局限性，为未来的发展提供了基础。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Utilization of Non-verbal Behaviour and Social Gaze in Classroom Human-Robot Interaction Communications",
+    "abstract": "This abstract explores classroom Human-Robot Interaction (HRI) scenarios with an emphasis on the adaptation of human-inspired social gaze models in robot cognitive architecture to facilitate a more seamless social interaction. First, we detail the HRI scenarios explored by us in our studies followed by a description of the social gaze model utilized for our research. We highlight the advantages of utilizing such an attentional model in classroom HRI scenarios. We also detail the intended goals of our upcoming study involving this social gaze model.",
+    "link": "https://arxiv.org/abs/2312.06825",
+    "context": "Title: Utilization of Non-verbal Behaviour and Social Gaze in Classroom Human-Robot Interaction Communications\nAbstract: This abstract explores classroom Human-Robot Interaction (HRI) scenarios with an emphasis on the adaptation of human-inspired social gaze models in robot cognitive architecture to facilitate a more seamless social interaction. First, we detail the HRI scenarios explored by us in our studies followed by a description of the social gaze model utilized for our research. We highlight the advantages of utilizing such an attentional model in classroom HRI scenarios. We also detail the intended goals of our upcoming study involving this social gaze model.",
+    "path": "papers/23/12/2312.06825.json",
+    "total_tokens": 686,
+    "translated_title": "在课堂人机交互中利用非语言行为和社交注视的应用",
+    "translated_abstract": "这篇摘要探讨了课堂人机交互中的场景，并着重介绍了人类启发的社交注视模型在机器人认知架构中的应用，以促进更加流畅的社交互动。首先，我们详细介绍了我们在研究中探索的人机交互场景，然后描述了我们研究中使用的社交注视模型。我们强调了在课堂人机交互场景中利用这种关注模型的优势。我们还详细介绍了我们即将进行的关于这个社交注视模型的研究的目标。",
+    "tldr": "本文主要研究课堂人机交互中利用非语言行为和社交注视的应用。通过使用人类启发的社交注视模型，我们希望在机器人认知架构中实现更加流畅的社交互动。",
+    "en_tdlr": "This paper investigates the utilization of non-verbal behavior and social gaze in classroom human-robot interaction. By employing a human-inspired social gaze model, the aim is to enhance seamless social interaction in robot cognitive architecture."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Numerical solution to a Parabolic-ODE Solow model with spatial diffusion and technology-induced motility",
+    "abstract": "This work studies a parabolic-ODE PDE's system which describes the evolution of the physical capital \"$k$\" and technological progress \"$A$\", using a meshless in one and two dimensional bounded domain with regular boundary. The well-known Solow model is extended by considering the spatial diffusion of both capital anf technology. Moreover, we study the case in which no spatial diffusion of the technology progress occurs. For such models, we propound schemes based on the Generalized Finite Difference method and proof the convergence of the numerical solution to the continuous one. Several examples show the dynamics of the model for a wide range of parameters. These examples illustrate the accuary of the numerical method.",
+    "link": "https://arxiv.org/abs/2402.02197",
+    "context": "Title: Numerical solution to a Parabolic-ODE Solow model with spatial diffusion and technology-induced motility\nAbstract: This work studies a parabolic-ODE PDE's system which describes the evolution of the physical capital \"$k$\" and technological progress \"$A$\", using a meshless in one and two dimensional bounded domain with regular boundary. The well-known Solow model is extended by considering the spatial diffusion of both capital anf technology. Moreover, we study the case in which no spatial diffusion of the technology progress occurs. For such models, we propound schemes based on the Generalized Finite Difference method and proof the convergence of the numerical solution to the continuous one. Several examples show the dynamics of the model for a wide range of parameters. These examples illustrate the accuary of the numerical method.",
+    "path": "papers/24/02/2402.02197.json",
+    "total_tokens": 773,
+    "translated_title": "一种具有空间扩散和技术诱导移动性的抛物型ODE Solow模型的数值解决方案",
+    "translated_abstract": "本文研究了描述实物资本“k”和技术进步“A”演化过程的抛物型ODE PDE系统，在一维和二维有界区域上使用无网格方法。通过考虑资本和技术的空间扩散来扩展著名的Solow模型。此外，我们还研究了技术进步没有空间扩散的情况。对于这些模型，我们提出了基于广义有限差分方法的方案，并证明了数值解收敛到连续解。多个示例展示了模型在广泛参数范围内的动态特性，并验证了数值方法的准确性。",
+    "tldr": "本文提出了一种数值解决方案，用于描述实物资本和技术进步演化过程的抛物型ODE Solow模型，考虑了资本和技术的空间扩散。通过使用广义有限差分方法，证明了数值解与连续解的收敛性，并通过多个示例验证了方法的准确性。",
+    "en_tdlr": "This paper presents a numerical solution for the evolution of physical capital and technological progress in a parabolic-ODE Solow model, considering spatial diffusion. The validity of the proposed method is demonstrated through convergence analysis and various examples."
+}

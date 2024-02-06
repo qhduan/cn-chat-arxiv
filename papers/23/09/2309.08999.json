@@ -1,0 +1,11 @@
+{
+    "title": "Context-aware Adversarial Attack on Named Entity Recognition",
+    "abstract": "In recent years, large pre-trained language models (PLMs) have achieved remarkable performance on many natural language processing benchmarks. Despite their success, prior studies have shown that PLMs are vulnerable to attacks from adversarial examples. In this work, we focus on the named entity recognition task and study context-aware adversarial attack methods to examine the model's robustness. Specifically, we propose perturbing the most informative words for recognizing entities to create adversarial examples and investigate different candidate replacement methods to generate natural and plausible adversarial examples. Experiments and analyses show that our methods are more effective in deceiving the model into making wrong predictions than strong baselines.",
+    "link": "https://arxiv.org/abs/2309.08999",
+    "context": "Title: Context-aware Adversarial Attack on Named Entity Recognition\nAbstract: In recent years, large pre-trained language models (PLMs) have achieved remarkable performance on many natural language processing benchmarks. Despite their success, prior studies have shown that PLMs are vulnerable to attacks from adversarial examples. In this work, we focus on the named entity recognition task and study context-aware adversarial attack methods to examine the model's robustness. Specifically, we propose perturbing the most informative words for recognizing entities to create adversarial examples and investigate different candidate replacement methods to generate natural and plausible adversarial examples. Experiments and analyses show that our methods are more effective in deceiving the model into making wrong predictions than strong baselines.",
+    "path": "papers/23/09/2309.08999.json",
+    "total_tokens": 817,
+    "translated_title": "上下文感知对抗攻击在命名实体识别中的应用",
+    "translated_abstract": "最近几年，大规模预训练语言模型（PLM）在许多自然语言处理基准测试中取得了显著的性能。尽管取得了成功，但之前的研究表明，PLM容易受到对抗样本的攻击。在本文中，我们关注命名实体识别任务，并研究上下文感知的对抗攻击方法，以检验模型的鲁棒性。具体而言，我们提出扰动用于识别实体的最具信息量的单词，从而创建对抗样本，并研究不同的候选替换方法来生成自然且可信的对抗样本。实验和分析表明，我们的方法在欺骗模型做出错误预测方面比强基准方法更有效。",
+    "tldr": "本研究关注命名实体识别任务，研究了上下文感知的对抗攻击方法，通过扰动最具信息量的单词来创建对抗样本，并使用不同的替换方法生成自然且可信的对抗示例。实验证明，这些方法比强基准方法更有效地欺骗模型做出错误预测。"
+}

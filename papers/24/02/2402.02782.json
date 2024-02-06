@@ -1,0 +1,11 @@
+{
+    "title": "From Partial to Strictly Incremental Constituent Parsing",
+    "abstract": "We study incremental constituent parsers to assess their capacity to output trees based on prefix representations alone. Guided by strictly left-to-right generative language models and tree-decoding modules, we build parsers that adhere to a strong definition of incrementality across languages. This builds upon work that asserted incrementality, but that mostly only enforced it on either the encoder or the decoder. Finally, we conduct an analysis against non-incremental and partially incremental models.",
+    "link": "https://arxiv.org/abs/2402.02782",
+    "context": "Title: From Partial to Strictly Incremental Constituent Parsing\nAbstract: We study incremental constituent parsers to assess their capacity to output trees based on prefix representations alone. Guided by strictly left-to-right generative language models and tree-decoding modules, we build parsers that adhere to a strong definition of incrementality across languages. This builds upon work that asserted incrementality, but that mostly only enforced it on either the encoder or the decoder. Finally, we conduct an analysis against non-incremental and partially incremental models.",
+    "path": "papers/24/02/2402.02782.json",
+    "total_tokens": 606,
+    "translated_title": "从部分到严格增量句法分析",
+    "translated_abstract": "我们研究增量句法分析器，以评估它们仅基于前缀表示就能输出树的能力。在严格的从左到右生成语言模型和树解码模块的指导下，我们构建了遵循不同语言的增量性强定义的解析器。这建立在已有关于增量性的工作上，但大多数只在编码器或解码器中强制实施。最后，我们对非增量和部分增量模型进行了分析。",
+    "tldr": "本研究构建了遵循严格增量定义的增量句法分析器，评估其仅基于前缀表示就能输出树的能力，并与非增量和部分增量模型进行了对比分析。"
+}

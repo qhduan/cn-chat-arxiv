@@ -1,0 +1,12 @@
+{
+    "title": "Smart Flow Matching: On The Theory of Flow Matching Algorithms with Applications",
+    "abstract": "The paper presents the exact formula for the vector field that minimizes the loss for the standard flow. This formula depends analytically on a given distribution \\rho_0 and an unknown one \\rho_1. Based on the presented formula, a new loss and algorithm for training a vector field model in the style of Conditional Flow Matching are provided. Our loss, in comparison to the standard Conditional Flow Matching approach, exhibits smaller variance when evaluated through Monte Carlo sampling methods. Numerical experiments on synthetic models and models on tabular data of large dimensions demonstrate better learning results with the use of the presented algorithm.",
+    "link": "https://arxiv.org/abs/2402.03232",
+    "context": "Title: Smart Flow Matching: On The Theory of Flow Matching Algorithms with Applications\nAbstract: The paper presents the exact formula for the vector field that minimizes the loss for the standard flow. This formula depends analytically on a given distribution \\rho_0 and an unknown one \\rho_1. Based on the presented formula, a new loss and algorithm for training a vector field model in the style of Conditional Flow Matching are provided. Our loss, in comparison to the standard Conditional Flow Matching approach, exhibits smaller variance when evaluated through Monte Carlo sampling methods. Numerical experiments on synthetic models and models on tabular data of large dimensions demonstrate better learning results with the use of the presented algorithm.",
+    "path": "papers/24/02/2402.03232.json",
+    "total_tokens": 693,
+    "translated_title": "智能流匹配：关于流匹配算法的理论与应用",
+    "translated_abstract": "本文提出了一种精确的公式，用于最小化标准流的损失的向量场。该公式在给定的分布ρ₀和未知的分布ρ₁之间进行分析性依赖。基于这个公式，提供了一种新的损失和算法，用于以条件流匹配的方式训练向量场模型。与标准的条件流匹配方法相比，我们的损失在通过蒙特卡罗采样方法评估时表现出更小的方差。通过对合成模型和大维度表格数据模型进行数值实验，证明了使用所提出的算法能够获得更好的学习结果。",
+    "tldr": "本文提出了一种智能流匹配算法，通过精确的向量场公式最小化标准流的损失，并在训练向量场模型时展示了更小的方差和更好的学习结果。",
+    "en_tdlr": "The paper proposes a smart flow matching algorithm that minimizes the loss of the standard flow using an exact vector field formula, achieving smaller variance and better learning results compared to the standard approach."
+}

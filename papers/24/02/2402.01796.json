@@ -1,0 +1,12 @@
+{
+    "title": "Exploring transfer learning for pathological speech feature prediction: Impact of layer selection",
+    "abstract": "There is interest in leveraging AI to conduct automatic, objective assessments of clinical speech, in turn facilitating diagnosis and treatment of speech disorders. We explore transfer learning, focusing on the impact of layer selection, for the downstream task of predicting the presence of pathological speech. We find that selecting an optimal layer offers large performance improvements (12.4% average increase in balanced accuracy), though the best layer varies by predicted feature and does not always generalize well to unseen data. A learned weighted sum offers comparable performance to the average best layer in-distribution and has better generalization for out-of-distribution data.",
+    "link": "https://arxiv.org/abs/2402.01796",
+    "context": "Title: Exploring transfer learning for pathological speech feature prediction: Impact of layer selection\nAbstract: There is interest in leveraging AI to conduct automatic, objective assessments of clinical speech, in turn facilitating diagnosis and treatment of speech disorders. We explore transfer learning, focusing on the impact of layer selection, for the downstream task of predicting the presence of pathological speech. We find that selecting an optimal layer offers large performance improvements (12.4% average increase in balanced accuracy), though the best layer varies by predicted feature and does not always generalize well to unseen data. A learned weighted sum offers comparable performance to the average best layer in-distribution and has better generalization for out-of-distribution data.",
+    "path": "papers/24/02/2402.01796.json",
+    "total_tokens": 717,
+    "translated_title": "探索用于病理语音特征预测的迁移学习：层选择的影响",
+    "translated_abstract": "利用人工智能对临床语音进行自动客观评估，并促进语音障碍的诊断和治疗具有重要意义。本研究探索了迁移学习，在预测病理语音存在性的下游任务中，重点分析了层选择的影响。我们发现选择最佳层能显著提高性能（平均平衡准确率增加12.4%），尽管最佳层因预测特征而异，并且并不总是对未见数据泛化良好。学得的加权和在分布内与平均最佳层具有可比性的性能，并且在分布外数据上具有更好的泛化能力。",
+    "tldr": "本研究探索了用于病理语音特征预测的迁移学习，发现选择适当的层能显著提高性能并且学得的加权和具有更好的泛化能力。",
+    "en_tdlr": "This study explores transfer learning for pathological speech feature prediction and finds that selecting an optimal layer can significantly improve performance. A learned weighted sum demonstrates better generalization capabilities."
+}

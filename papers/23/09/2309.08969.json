@@ -1,0 +1,11 @@
+{
+    "title": "Rethinking STS and NLI in Large Language Models",
+    "abstract": "Recent years have seen the rise of large language models (LLMs), where practitioners use task-specific prompts; this was shown to be effective for a variety of tasks. However, when applied to semantic textual similarity (STS) and natural language inference (NLI), the effectiveness of LLMs turns out to be limited by low-resource domain accuracy, model overconfidence, and difficulty to capture the disagreements between human judgements. With this in mind, here we try to rethink STS and NLI in the era of LLMs. We first evaluate the performance of STS and NLI in the clinical/biomedical domain, and then we assess LLMs' predictive confidence and their capability of capturing collective human opinions. We find that these old problems are still to be properly addressed in the era of LLMs.",
+    "link": "https://arxiv.org/abs/2309.08969",
+    "context": "Title: Rethinking STS and NLI in Large Language Models\nAbstract: Recent years have seen the rise of large language models (LLMs), where practitioners use task-specific prompts; this was shown to be effective for a variety of tasks. However, when applied to semantic textual similarity (STS) and natural language inference (NLI), the effectiveness of LLMs turns out to be limited by low-resource domain accuracy, model overconfidence, and difficulty to capture the disagreements between human judgements. With this in mind, here we try to rethink STS and NLI in the era of LLMs. We first evaluate the performance of STS and NLI in the clinical/biomedical domain, and then we assess LLMs' predictive confidence and their capability of capturing collective human opinions. We find that these old problems are still to be properly addressed in the era of LLMs.",
+    "path": "papers/23/09/2309.08969.json",
+    "total_tokens": 829,
+    "translated_title": "在大型语言模型中重新思考STS和NLI",
+    "translated_abstract": "近年来，大型语言模型（LLMs）的兴起使从业者能够使用特定任务提示，这在各种任务中被证明是有效的。然而，当应用于语义文本相似性（STS）和自然语言推理（NLI）时，LLMs的有效性受到限制，原因是低资源领域准确性、模型自信度不足以及捕捉人类判断之间的分歧困难。基于这一思考，我们试图重新思考LLMs时代的STS和NLI。我们首先评估了临床/生物医学领域的STS和NLI性能，然后评估了LLMs的预测置信度和捕捉集体人类意见的能力。我们发现在LLMs时代，这些老问题仍未得到妥善解决。",
+    "tldr": "这篇论文重新思考了在大型语言模型中的STS和NLI问题。通过在临床/生物医学领域评估性能，以及评估LLMs的预测置信度和捕捉集体人类意见的能力，发现这些问题在LLMs时代仍未得到妥善解决。"
+}

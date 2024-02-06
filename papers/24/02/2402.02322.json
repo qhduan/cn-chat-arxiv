@@ -1,0 +1,11 @@
+{
+    "title": "Dynamic Incremental Optimization for Best Subset Selection",
+    "abstract": "Best subset selection is considered the `gold standard' for many sparse learning problems. A variety of optimization techniques have been proposed to attack this non-smooth non-convex problem. In this paper, we investigate the dual forms of a family of $\\ell_0$-regularized problems. An efficient primal-dual algorithm is developed based on the primal and dual problem structures. By leveraging the dual range estimation along with the incremental strategy, our algorithm potentially reduces redundant computation and improves the solutions of best subset selection. Theoretical analysis and experiments on synthetic and real-world datasets validate the efficiency and statistical properties of the proposed solutions.",
+    "link": "https://arxiv.org/abs/2402.02322",
+    "context": "Title: Dynamic Incremental Optimization for Best Subset Selection\nAbstract: Best subset selection is considered the `gold standard' for many sparse learning problems. A variety of optimization techniques have been proposed to attack this non-smooth non-convex problem. In this paper, we investigate the dual forms of a family of $\\ell_0$-regularized problems. An efficient primal-dual algorithm is developed based on the primal and dual problem structures. By leveraging the dual range estimation along with the incremental strategy, our algorithm potentially reduces redundant computation and improves the solutions of best subset selection. Theoretical analysis and experiments on synthetic and real-world datasets validate the efficiency and statistical properties of the proposed solutions.",
+    "path": "papers/24/02/2402.02322.json",
+    "total_tokens": 730,
+    "translated_title": "动态增量优化用于最佳子集选择",
+    "translated_abstract": "最佳子集选择被认为是稀疏学习问题的“黄金标准”。已经提出了各种优化技术来攻击这个非光滑非凸问题。本文研究了一类$\\ell_0$正则化问题的对偶形式。基于原始问题和对偶问题的结构，我们提出了一种高效的原对偶算法。通过充分利用对偶范围估计和增量策略，我们的算法潜在地减少了冗余计算并改进了最佳子集选择的解决方案。理论分析和对合成和真实数据集的实验验证了所提出解决方案的效率和统计性质。",
+    "tldr": "本文研究了一类$\\ell_0$正则化问题的对偶形式，并提出了一种高效的原对偶算法，通过充分利用对偶范围估计和增量策略，提高了最佳子集选择问题的解决方案的效率和统计性质。"
+}

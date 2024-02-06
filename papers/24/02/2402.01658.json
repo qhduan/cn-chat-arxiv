@@ -1,0 +1,11 @@
+{
+    "title": "Untersuchung der Wirkung von Data Storytelling auf das Datenverstaendnis von Dashboard-Nutzern",
+    "abstract": "With the increasing use of big data and business analytics, data storytelling has gained popularity as an effective means of communicating analytical insights to audiences to support decision making and improve business performance. However, there is little empirical evidence on the impact of data storytelling on data understanding. This study validates the concept of data storytelling as a construct in terms of its impact on users' data understanding. Based on empirical data analysis, the results of this study show that data storytelling competence is positively associated with organizational performance, which is partly due to the quality of the decision is conveyed. These results provide a theoretical basis for further investigation of potential antecedents and consequences of data storytelling.",
+    "link": "https://arxiv.org/abs/2402.01658",
+    "context": "Title: Untersuchung der Wirkung von Data Storytelling auf das Datenverstaendnis von Dashboard-Nutzern\nAbstract: With the increasing use of big data and business analytics, data storytelling has gained popularity as an effective means of communicating analytical insights to audiences to support decision making and improve business performance. However, there is little empirical evidence on the impact of data storytelling on data understanding. This study validates the concept of data storytelling as a construct in terms of its impact on users' data understanding. Based on empirical data analysis, the results of this study show that data storytelling competence is positively associated with organizational performance, which is partly due to the quality of the decision is conveyed. These results provide a theoretical basis for further investigation of potential antecedents and consequences of data storytelling.",
+    "path": "papers/24/02/2402.01658.json",
+    "total_tokens": 751,
+    "translated_title": "研究数据叙事对仪表盘用户数据理解的影响",
+    "translated_abstract": "随着大数据和商业分析的广泛应用，数据叙事作为一种有效的手段，用于向观众传达分析洞察，以支持决策和提高业务绩效，逐渐受到关注。然而，关于数据叙事对数据理解的影响，目前缺乏实证证据。本研究通过实证数据分析验证了数据叙事作为一种构造在用户数据理解方面的影响。研究结果显示，数据叙事能力与组织绩效呈正相关，部分原因在于所传达的决策质量。这些结果为进一步探讨数据叙事的潜在前因与后果提供了理论基础。",
+    "tldr": "本研究通过实证数据分析验证了数据叙事对组织绩效的正面影响，这部分是由于所传达的决策质量。这为进一步研究数据叙事的前因和后果提供了理论基础。"
+}

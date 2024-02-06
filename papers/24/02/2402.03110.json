@@ -1,0 +1,11 @@
+{
+    "title": "Non-Stationary Latent Auto-Regressive Bandits",
+    "abstract": "We consider the stochastic multi-armed bandit problem with non-stationary rewards. We present a novel formulation of non-stationarity in the environment where changes in the mean reward of the arms over time are due to some unknown, latent, auto-regressive (AR) state of order $k$. We call this new environment the latent AR bandit. Different forms of the latent AR bandit appear in many real-world settings, especially in emerging scientific fields such as behavioral health or education where there are few mechanistic models of the environment. If the AR order $k$ is known, we propose an algorithm that achieves $\\tilde{O}(k\\sqrt{T})$ regret in this setting. Empirically, our algorithm outperforms standard UCB across multiple non-stationary environments, even if $k$ is mis-specified.",
+    "link": "https://arxiv.org/abs/2402.03110",
+    "context": "Title: Non-Stationary Latent Auto-Regressive Bandits\nAbstract: We consider the stochastic multi-armed bandit problem with non-stationary rewards. We present a novel formulation of non-stationarity in the environment where changes in the mean reward of the arms over time are due to some unknown, latent, auto-regressive (AR) state of order $k$. We call this new environment the latent AR bandit. Different forms of the latent AR bandit appear in many real-world settings, especially in emerging scientific fields such as behavioral health or education where there are few mechanistic models of the environment. If the AR order $k$ is known, we propose an algorithm that achieves $\\tilde{O}(k\\sqrt{T})$ regret in this setting. Empirically, our algorithm outperforms standard UCB across multiple non-stationary environments, even if $k$ is mis-specified.",
+    "path": "papers/24/02/2402.03110.json",
+    "total_tokens": 762,
+    "translated_title": "非平稳潜在自回归赌博机",
+    "translated_abstract": "本文考虑具有非平稳奖励的随机多臂赌博机问题。我们提出了一个新颖的非平稳环境的公式，其中臂的平均奖励随时间变化是由一些未知的潜在自回归(AR)状态的顺序k决定的。我们将这个新的环境称为潜在AR赌博机。潜在AR赌博机的不同形式在许多现实世界的场景中都出现，特别是在行为健康或教育等新兴科学领域中，这里缺乏对环境的机制建模。如果AR顺序k已知，我们提出了一个算法，在这种情况下，算法表现出O(k√T)的遗憾率。实证结果显示，即使k被错误地估计，我们的算法在多个非平稳环境中也胜过标准的UCB算法。",
+    "tldr": "本文提出了非平稳潜在自回归赌博机问题，并提出了一个算法，在这种环境下可以达到较低的遗憾率。"
+}

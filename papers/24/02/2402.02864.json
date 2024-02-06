@@ -1,0 +1,12 @@
+{
+    "title": "EEVEE: An Easy Annotation Tool for Natural Language Processing",
+    "abstract": "Annotation tools are the starting point for creating Natural Language Processing (NLP) datasets. There is a wide variety of tools available; setting up these tools is however a hindrance. We propose EEVEE, an annotation tool focused on simplicity, efficiency, and ease of use. It can run directly in the browser (no setup required) and uses tab-separated files (as opposed to character offsets or task-specific formats) for annotation. It allows for annotation of multiple tasks on a single dataset and supports four task-types: sequence labeling, span labeling, text classification and seq2seq.",
+    "link": "https://arxiv.org/abs/2402.02864",
+    "context": "Title: EEVEE: An Easy Annotation Tool for Natural Language Processing\nAbstract: Annotation tools are the starting point for creating Natural Language Processing (NLP) datasets. There is a wide variety of tools available; setting up these tools is however a hindrance. We propose EEVEE, an annotation tool focused on simplicity, efficiency, and ease of use. It can run directly in the browser (no setup required) and uses tab-separated files (as opposed to character offsets or task-specific formats) for annotation. It allows for annotation of multiple tasks on a single dataset and supports four task-types: sequence labeling, span labeling, text classification and seq2seq.",
+    "path": "papers/24/02/2402.02864.json",
+    "total_tokens": 637,
+    "translated_title": "EEVEE：一款简易的自然语言处理标注工具",
+    "translated_abstract": "标注工具是创建自然语言处理（NLP）数据集的起点。目前有各种各样的工具可用，但设置这些工具却是一个障碍。我们提出了EEVEE，一款专注于简洁、高效和易用性的标注工具。它可以直接在浏览器中运行（无需设置），并使用制表符分隔的文件（而不是字符偏移或任务特定格式）进行标注。它允许在单个数据集上对多个任务进行标注，并支持四种任务类型：序列标注、跨度标注、文本分类和序列到序列。",
+    "tldr": "EEVEE是一款简单易用的自然语言处理标注工具，可直接在浏览器中运行，支持多任务标注和四种任务类型。",
+    "en_tdlr": "EEVEE is an easy-to-use annotation tool for natural language processing, which can run directly in the browser, supports annotation of multiple tasks, and includes four task types."
+}

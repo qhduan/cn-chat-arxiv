@@ -1,0 +1,12 @@
+{
+    "title": "On the Impact of Output Perturbation on Fairness in Binary Linear Classification",
+    "abstract": "We theoretically study how differential privacy interacts with both individual and group fairness in binary linear classification. More precisely, we focus on the output perturbation mechanism, a classic approach in privacy-preserving machine learning. We derive high-probability bounds on the level of individual and group fairness that the perturbed models can achieve compared to the original model. Hence, for individual fairness, we prove that the impact of output perturbation on the level of fairness is bounded but grows with the dimension of the model. For group fairness, we show that this impact is determined by the distribution of so-called angular margins, that is signed margins of the non-private model re-scaled by the norm of each example.",
+    "link": "https://arxiv.org/abs/2402.03011",
+    "context": "Title: On the Impact of Output Perturbation on Fairness in Binary Linear Classification\nAbstract: We theoretically study how differential privacy interacts with both individual and group fairness in binary linear classification. More precisely, we focus on the output perturbation mechanism, a classic approach in privacy-preserving machine learning. We derive high-probability bounds on the level of individual and group fairness that the perturbed models can achieve compared to the original model. Hence, for individual fairness, we prove that the impact of output perturbation on the level of fairness is bounded but grows with the dimension of the model. For group fairness, we show that this impact is determined by the distribution of so-called angular margins, that is signed margins of the non-private model re-scaled by the norm of each example.",
+    "path": "papers/24/02/2402.03011.json",
+    "total_tokens": 746,
+    "translated_title": "关于输出扰动对二元线性分类中公平性的影响",
+    "translated_abstract": "我们从理论上研究了差分隐私如何与二元线性分类中的个体和群体公平性相互作用。更具体地说，我们关注输出扰动机制，这是一种在保护隐私的机器学习中经典的方法。我们推导了扰动模型相对于原始模型能够达到的个体和群体公平性水平的高概率边界。因此，对于个体公平性，我们证明了输出扰动对公平性水平的影响是有界的，但随着模型的维度增长而增大。对于群体公平性，我们展示了这种影响由所谓的角边距（即非私有模型的有符号边距乘以每个示例的范数）的分布来决定。",
+    "tldr": "输出扰动对二元线性分类中公平性的影响在个体公平性方面是有界的但与模型维度成正比，在群体公平性方面则由角边距的分布决定。",
+    "en_tdlr": "The impact of output perturbation on fairness in binary linear classification is bounded but proportional to the dimension of the model for individual fairness, and determined by the distribution of angular margins for group fairness."
+}

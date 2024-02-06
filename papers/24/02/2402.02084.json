@@ -1,0 +1,11 @@
+{
+    "title": "Revisiting the Markov Property for Machine Translation",
+    "abstract": "In this paper, we re-examine the Markov property in the context of neural machine translation. We design a Markov Autoregressive Transformer~(MAT) and undertake a comprehensive assessment of its performance across four WMT benchmarks. Our findings indicate that MAT with an order larger than 4 can generate translations with quality on par with that of conventional autoregressive transformers. In addition, counter-intuitively, we also find that the advantages of utilizing a higher-order MAT do not specifically contribute to the translation of longer sentences.",
+    "link": "https://arxiv.org/abs/2402.02084",
+    "context": "Title: Revisiting the Markov Property for Machine Translation\nAbstract: In this paper, we re-examine the Markov property in the context of neural machine translation. We design a Markov Autoregressive Transformer~(MAT) and undertake a comprehensive assessment of its performance across four WMT benchmarks. Our findings indicate that MAT with an order larger than 4 can generate translations with quality on par with that of conventional autoregressive transformers. In addition, counter-intuitively, we also find that the advantages of utilizing a higher-order MAT do not specifically contribute to the translation of longer sentences.",
+    "path": "papers/24/02/2402.02084.json",
+    "total_tokens": 697,
+    "translated_title": "重新审视机器翻译中的马尔可夫性质",
+    "translated_abstract": "本文在神经机器翻译的背景下重新审查了马尔可夫性质。我们设计了一个马尔可夫自回归变换器（MAT），并对其在四个WMT基准上的性能进行了全面评估。我们的研究结果表明，MAT的阶数大于4时，生成的翻译质量与传统自回归变换器相当。此外，与直觉相反，我们还发现高阶MAT的优势不是特别体现在长句的翻译中。",
+    "tldr": "本文重新审视了机器翻译中的马尔可夫性质，并设计了一个马尔可夫自回归变换器（MAT）。研究结果显示，MAT的阶数大于4时，翻译质量与传统自回归变换器相当，且高阶MAT并不特别适用于长句的翻译。"
+}

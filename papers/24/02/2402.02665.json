@@ -1,0 +1,12 @@
+{
+    "title": "Utility-Based Reinforcement Learning: Unifying Single-objective and Multi-objective Reinforcement Learning",
+    "abstract": "Research in multi-objective reinforcement learning (MORL) has introduced the utility-based paradigm, which makes use of both environmental rewards and a function that defines the utility derived by the user from those rewards. In this paper we extend this paradigm to the context of single-objective reinforcement learning (RL), and outline multiple potential benefits including the ability to perform multi-policy learning across tasks relating to uncertain objectives, risk-aware RL, discounting, and safe RL. We also examine the algorithmic implications of adopting a utility-based approach.",
+    "link": "https://arxiv.org/abs/2402.02665",
+    "context": "Title: Utility-Based Reinforcement Learning: Unifying Single-objective and Multi-objective Reinforcement Learning\nAbstract: Research in multi-objective reinforcement learning (MORL) has introduced the utility-based paradigm, which makes use of both environmental rewards and a function that defines the utility derived by the user from those rewards. In this paper we extend this paradigm to the context of single-objective reinforcement learning (RL), and outline multiple potential benefits including the ability to perform multi-policy learning across tasks relating to uncertain objectives, risk-aware RL, discounting, and safe RL. We also examine the algorithmic implications of adopting a utility-based approach.",
+    "path": "papers/24/02/2402.02665.json",
+    "total_tokens": 691,
+    "translated_title": "基于效用的强化学习：统一单目标和多目标强化学习",
+    "translated_abstract": "多目标强化学习（MORL）的研究引入了基于效用的范式，该范式利用环境奖励和定义用户从这些奖励中获得的效用的函数。本文将这种范式扩展到单目标强化学习（RL）的背景下，并概述了多个潜在益处，包括能够在不确定目标相关的任务之间进行多策略学习、风险感知的强化学习、折扣和安全强化学习。我们还探讨了采用基于效用的方法的算法意义。",
+    "tldr": "基于效用的强化学习范式将多目标强化学习引入到单目标强化学习中，具有多个潜在益处，并探讨了算法意义。",
+    "en_tdlr": "The utility-based paradigm extends multi-objective reinforcement learning (MORL) to single-objective reinforcement learning (RL), offering potential benefits such as multi-policy learning, risk-aware RL, discounting, and safe RL. The algorithmic implications of adopting a utility-based approach are also explored."
+}

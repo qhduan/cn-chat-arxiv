@@ -1,0 +1,12 @@
+{
+    "title": "LLMs Simulate Big Five Personality Traits: Further Evidence",
+    "abstract": "An empirical investigation into the simulation of the Big Five personality traits by large language models (LLMs), namely Llama2, GPT4, and Mixtral, is presented. We analyze the personality traits simulated by these models and their stability. This contributes to the broader understanding of the capabilities of LLMs to simulate personality traits and the respective implications for personalized human-computer interaction.",
+    "link": "https://arxiv.org/abs/2402.01765",
+    "context": "Title: LLMs Simulate Big Five Personality Traits: Further Evidence\nAbstract: An empirical investigation into the simulation of the Big Five personality traits by large language models (LLMs), namely Llama2, GPT4, and Mixtral, is presented. We analyze the personality traits simulated by these models and their stability. This contributes to the broader understanding of the capabilities of LLMs to simulate personality traits and the respective implications for personalized human-computer interaction.",
+    "path": "papers/24/02/2402.01765.json",
+    "total_tokens": 580,
+    "translated_title": "LLMs 模拟五大人格特质：进一步的证据",
+    "translated_abstract": "本研究探讨了大型语言模型（LLMs）如Llama2、GPT4和Mixtral对五大人格特质的模拟，并分析了这些模型模拟的人格特质及其稳定性。这有助于更广泛地了解LLMs模拟人格特质的能力以及对个性化人机交互的相关影响。",
+    "tldr": "本研究旨在研究大型语言模型（LLMs）如何模拟五大人格特质，并分析了其模拟的人格特质及稳定性，有助于深入了解LLMs在个性化人机交互方面的潜力。",
+    "en_tdlr": "This study investigates the simulation of the Big Five personality traits by large language models (LLMs) and analyzes their stability, contributing to a deeper understanding of the potential for personalized human-computer interaction."
+}

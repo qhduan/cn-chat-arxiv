@@ -1,0 +1,11 @@
+{
+    "title": "Cool-chic video: Learned video coding with 800 parameters",
+    "abstract": "We propose a lightweight learned video codec with 900 multiplications per decoded pixel and 800 parameters overall. To the best of our knowledge, this is one of the neural video codecs with the lowest decoding complexity. It is built upon the overfitted image codec Cool-chic and supplements it with an inter coding module to leverage the video's temporal redundancies. The proposed model is able to compress videos using both low-delay and random access configurations and achieves rate-distortion close to AVC while out-performing other overfitted codecs such as FFNeRV. The system is made open-source: orange-opensource.github.io/Cool-Chic.",
+    "link": "https://arxiv.org/abs/2402.03179",
+    "context": "Title: Cool-chic video: Learned video coding with 800 parameters\nAbstract: We propose a lightweight learned video codec with 900 multiplications per decoded pixel and 800 parameters overall. To the best of our knowledge, this is one of the neural video codecs with the lowest decoding complexity. It is built upon the overfitted image codec Cool-chic and supplements it with an inter coding module to leverage the video's temporal redundancies. The proposed model is able to compress videos using both low-delay and random access configurations and achieves rate-distortion close to AVC while out-performing other overfitted codecs such as FFNeRV. The system is made open-source: orange-opensource.github.io/Cool-Chic.",
+    "path": "papers/24/02/2402.03179.json",
+    "total_tokens": 721,
+    "translated_title": "Cool-chic视频：通过800个参数学习视频编码",
+    "translated_abstract": "我们提出了一种轻量级的通过学习的视频编解码器，每个解码像素有900次乘法，总共有800个参数。据我们所知，这是一个解码复杂度最低的神经视频编解码器之一。它基于过拟合的图片编解码器Cool-chic，并通过增加一个时域编码模块来强化视频的时间冗余。所提出的模型能够压缩视频以实现低延迟和随机访问配置，并在接近AVC的速率失真条件下优于其他过拟合编解码器，如FFNeRV。该系统是开源的：orange-opensource.github.io/Cool-Chic。",
+    "tldr": "我们提出了一个轻量级的学习视频编码器，使用800个参数和900次乘法来实现低解码复杂度。该编码器在压缩视频时能够利用时间冗余，并在接近AVC的速率失真条件下表现优于其他过拟合编解码器。"
+}

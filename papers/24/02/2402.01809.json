@@ -1,0 +1,12 @@
+{
+    "title": "PhenoLinker: Phenotype-Gene Link Prediction and Explanation using Heterogeneous Graph Neural Networks",
+    "abstract": "The association of a given human phenotype to a genetic variant remains a critical challenge for biology. We present a novel system called PhenoLinker capable of associating a score to a phenotype-gene relationship by using heterogeneous information networks and a convolutional neural network-based model for graphs, which can provide an explanation for the predictions. This system can aid in the discovery of new associations and in the understanding of the consequences of human genetic variation.",
+    "link": "https://arxiv.org/abs/2402.01809",
+    "context": "Title: PhenoLinker: Phenotype-Gene Link Prediction and Explanation using Heterogeneous Graph Neural Networks\nAbstract: The association of a given human phenotype to a genetic variant remains a critical challenge for biology. We present a novel system called PhenoLinker capable of associating a score to a phenotype-gene relationship by using heterogeneous information networks and a convolutional neural network-based model for graphs, which can provide an explanation for the predictions. This system can aid in the discovery of new associations and in the understanding of the consequences of human genetic variation.",
+    "path": "papers/24/02/2402.01809.json",
+    "total_tokens": 598,
+    "translated_title": "PhenoLinker: 使用异构图神经网络进行表型-基因连接预测和解释的研究",
+    "translated_abstract": "将给定的人类表型与遗传变异相关联仍然是生物学中的一项关键挑战。我们提出了一个名为PhenoLinker的新系统，能够使用异构信息网络和基于卷积神经网络的图模型来为表型-基因关系分配一个得分，并且能够提供对预测结果的解释。该系统可以帮助发现新的关联，并理解人类遗传变异的后果。",
+    "tldr": "PhenoLinker通过使用异构图神经网络进行表型-基因关联预测和解释，为发现新的关联和理解人类遗传变异的后果提供了一种新的方法。",
+    "en_tdlr": "PhenoLinker presents a novel approach for phenotype-gene association prediction and explanation using heterogeneous graph neural networks, aiding in the discovery of new associations and understanding the consequences of human genetic variation."
+}

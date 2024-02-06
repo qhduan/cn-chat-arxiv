@@ -1,0 +1,11 @@
+{
+    "title": "A Case Study on Filtering for End-to-End Speech Translation",
+    "abstract": "It is relatively easy to mine a large parallel corpus for any machine learning task, such as speech-to-text or speech-to-speech translation. Although these mined corpora are large in volume, their quality is questionable. This work shows that the simplest filtering technique can trim down these big, noisy datasets to a more manageable, clean dataset. We also show that using this clean dataset can improve the model's performance, as in the case of the multilingual-to-English Speech Translation (ST) model, where, on average, we obtain a 4.65 BLEU score improvement.",
+    "link": "https://arxiv.org/abs/2402.01945",
+    "context": "Title: A Case Study on Filtering for End-to-End Speech Translation\nAbstract: It is relatively easy to mine a large parallel corpus for any machine learning task, such as speech-to-text or speech-to-speech translation. Although these mined corpora are large in volume, their quality is questionable. This work shows that the simplest filtering technique can trim down these big, noisy datasets to a more manageable, clean dataset. We also show that using this clean dataset can improve the model's performance, as in the case of the multilingual-to-English Speech Translation (ST) model, where, on average, we obtain a 4.65 BLEU score improvement.",
+    "path": "papers/24/02/2402.01945.json",
+    "total_tokens": 727,
+    "translated_title": "关于端到端语音翻译中的过滤案例研究",
+    "translated_abstract": "对于任何机器学习任务，如语音转文本或语音转语音翻译，挖掘大规模平行语料库相对容易。尽管这些挖掘的语料库体积庞大，但其质量值得怀疑。本文展示了最简单的过滤技术可以将这些庞大而嘈杂的数据集修剪为更易处理、更干净的数据集。我们还展示了使用这个干净的数据集可以提高模型的性能，例如在多语言到英语语音翻译(ST)模型中，平均获得4.65个BLEU分数的提升。",
+    "tldr": "本文研究了端到端语音翻译中的过滤技术。实验证明，使用最简单的过滤方法可以提高数据集的质量，进而提升模型性能，在多语言到英语语音翻译模型中，平均获得4.65个BLEU分数的提升。"
+}

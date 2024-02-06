@@ -1,0 +1,12 @@
+{
+    "title": "Language models align with human judgments on key grammatical constructions",
+    "abstract": "Do Large Language Models (LLMs) make human-like linguistic generalizations? Dentella et al. (2023; \"DGL\") prompt several LLMs (\"Is the following sentence grammatically correct in English?\") to elicit grammaticality judgments of 80 English sentences, concluding that LLMs demonstrate a \"yes-response bias\" and a \"failure to distinguish grammatical from ungrammatical sentences\". We re-evaluate LLM performance using well-established practices and find that DGL's data in fact provide evidence for just how well LLMs capture human behaviors. Models not only achieve high accuracy overall, but also capture fine-grained variation in human linguistic judgments.",
+    "link": "https://arxiv.org/abs/2402.01676",
+    "context": "Title: Language models align with human judgments on key grammatical constructions\nAbstract: Do Large Language Models (LLMs) make human-like linguistic generalizations? Dentella et al. (2023; \"DGL\") prompt several LLMs (\"Is the following sentence grammatically correct in English?\") to elicit grammaticality judgments of 80 English sentences, concluding that LLMs demonstrate a \"yes-response bias\" and a \"failure to distinguish grammatical from ungrammatical sentences\". We re-evaluate LLM performance using well-established practices and find that DGL's data in fact provide evidence for just how well LLMs capture human behaviors. Models not only achieve high accuracy overall, but also capture fine-grained variation in human linguistic judgments.",
+    "path": "papers/24/02/2402.01676.json",
+    "total_tokens": 721,
+    "translated_title": "语言模型与人类在关键语法结构上的判断一致性",
+    "translated_abstract": "大型语言模型（LLMs）是否具有类似人类的语言普遍性？Dentella等人（2023年；“DGL”）使用多个LLMs提示语法正确性问题，以获取80个英语句子的语法句子判断，得出LLMs存在“是”偏向和“不能区分语法和非语法句子”的结论。我们采用了既定的实践方法重新评估LLM的性能，并发现DGL的数据实际上证明了LLM如何准确捕捉人类行为。模型不仅整体上实现了高准确率，还捕捉到了人类语言判断的细微变化。",
+    "tldr": "本研究通过对比评估发现，大型语言模型（LLMs）在俘获人类行为方面的表现非常出色，不仅整体准确率高，而且能够捕捉到人类语言判断中的细微差异。",
+    "en_tdlr": "This study re-evaluates the performance of Large Language Models (LLMs) and finds that they perform exceptionally well in capturing human behaviors, achieving high accuracy overall and capturing fine-grained variations in human linguistic judgments."
+}

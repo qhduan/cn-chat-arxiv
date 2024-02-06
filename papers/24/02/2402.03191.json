@@ -1,0 +1,12 @@
+{
+    "title": "Isotropy, Clusters, and Classifiers",
+    "abstract": "Whether embedding spaces use all their dimensions equally, i.e., whether they are isotropic, has been a recent subject of discussion. Evidence has been accrued both for and against enforcing isotropy in embedding spaces. In the present paper, we stress that isotropy imposes requirements on the embedding space that are not compatible with the presence of clusters -- which also negatively impacts linear classification objectives. We demonstrate this fact empirically and use it to shed light on previous results from the literature.",
+    "link": "https://arxiv.org/abs/2402.03191",
+    "context": "Title: Isotropy, Clusters, and Classifiers\nAbstract: Whether embedding spaces use all their dimensions equally, i.e., whether they are isotropic, has been a recent subject of discussion. Evidence has been accrued both for and against enforcing isotropy in embedding spaces. In the present paper, we stress that isotropy imposes requirements on the embedding space that are not compatible with the presence of clusters -- which also negatively impacts linear classification objectives. We demonstrate this fact empirically and use it to shed light on previous results from the literature.",
+    "path": "papers/24/02/2402.03191.json",
+    "total_tokens": 587,
+    "translated_title": "同性质，聚类和分类器",
+    "translated_abstract": "最近，关于嵌入空间是否均匀利用所有维度（即是否具有同性质）的问题引起了讨论。有证据支持和反对在嵌入空间中实施同性质。在本文中，我们强调同性质对嵌入空间的要求与聚类的存在不兼容，这也对线性分类目标产生了负面影响。我们通过实验证明了这个事实，并用它来阐明文献中的先前结果。",
+    "tldr": "同性质的嵌入空间对聚类和线性分类目标具有负面影响，这一事实得到了本文的实证支持，并对文献中的先前结果有所启示。",
+    "en_tdlr": "Isotropic embedding spaces have negative impacts on clustering and linear classification objectives, which is demonstrated empirically in this paper and sheds light on previous results from the literature."
+}

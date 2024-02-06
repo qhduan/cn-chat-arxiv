@@ -1,0 +1,12 @@
+{
+    "title": "DogSurf: Quadruped Robot Capable of GRU-based Surface Recognition for Blind Person Navigation",
+    "abstract": "This paper introduces DogSurf - a newapproach of using quadruped robots to help visually impaired people navigate in real world. The presented method allows the quadruped robot to detect slippery surfaces, and to use audio and haptic feedback to inform the user when to stop. A state-of-the-art GRU-based neural network architecture with mean accuracy of 99.925% was proposed for the task of multiclass surface classification for quadruped robots. A dataset was collected on a Unitree Go1 Edu robot. The dataset and code have been posted to the public domain.",
+    "link": "https://arxiv.org/abs/2402.03156",
+    "context": "Title: DogSurf: Quadruped Robot Capable of GRU-based Surface Recognition for Blind Person Navigation\nAbstract: This paper introduces DogSurf - a newapproach of using quadruped robots to help visually impaired people navigate in real world. The presented method allows the quadruped robot to detect slippery surfaces, and to use audio and haptic feedback to inform the user when to stop. A state-of-the-art GRU-based neural network architecture with mean accuracy of 99.925% was proposed for the task of multiclass surface classification for quadruped robots. A dataset was collected on a Unitree Go1 Edu robot. The dataset and code have been posted to the public domain.",
+    "path": "papers/24/02/2402.03156.json",
+    "total_tokens": 669,
+    "translated_title": "DogSurf: 四足机器人可识别表面的GRU神经网络用于盲人导航",
+    "translated_abstract": "本文介绍了一种新的方法，即使用四足机器人来帮助视力受损的人在现实世界中进行导航。所提出的方法可以让四足机器人检测到滑溜的表面，并使用声音和触觉反馈告知用户何时停下。针对四足机器人的多类表面分类任务，提出了一个准确率为99.925%的最先进的GRU神经网络架构。在Unitree Go1 Edu机器人上收集了一个数据集，该数据集和代码已在公共领域发布。",
+    "tldr": "DogSurf是一种四足机器人的新方法，可以帮助视力受损的人在现实世界中导航，在表面识别和分类任务中具有99.925%的准确率。",
+    "en_tdlr": "DogSurf is a new approach using quadruped robots to assist visually impaired individuals in real-world navigation, achieving a 99.925% accuracy in surface recognition and classification task."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "APIServe: Efficient API Support for Large-Language Model Inferencing",
+    "abstract": "Large language models are increasingly integrated with external tools and APIs like ChatGPT plugins to extend their capability beyond language-centric tasks. However, today's LLM inference systems are designed for standalone LLMs. They treat API calls as new requests, causing unnecessary recomputation of already computed contexts, which accounts for 37-40% of total model forwarding time. This paper presents APIServe, the first LLM inference framework targeting API-augmented LLMs. APISERVE minimizes the GPU resource waste caused by API calls and dedicates saved memory for serving more requests. APISERVE improves the overall serving throughput by 1.6x and completes 2x more requests per second compared to the state-of-the-art LLM inference systems.",
+    "link": "https://arxiv.org/abs/2402.01869",
+    "context": "Title: APIServe: Efficient API Support for Large-Language Model Inferencing\nAbstract: Large language models are increasingly integrated with external tools and APIs like ChatGPT plugins to extend their capability beyond language-centric tasks. However, today's LLM inference systems are designed for standalone LLMs. They treat API calls as new requests, causing unnecessary recomputation of already computed contexts, which accounts for 37-40% of total model forwarding time. This paper presents APIServe, the first LLM inference framework targeting API-augmented LLMs. APISERVE minimizes the GPU resource waste caused by API calls and dedicates saved memory for serving more requests. APISERVE improves the overall serving throughput by 1.6x and completes 2x more requests per second compared to the state-of-the-art LLM inference systems.",
+    "path": "papers/24/02/2402.01869.json",
+    "total_tokens": 749,
+    "translated_title": "APIServe: 高效支持大型语言模型推理的API工具",
+    "translated_abstract": "大型语言模型越来越多地与外部工具和API集成，如ChatGPT插件，以扩展其能力以外的语言中心任务。然而，当前的LLM推理系统是为独立的LLM设计的。它们将API调用视为新请求，导致不必要的重新计算已经计算过的上下文，这占了总模型前向时间的37-40%。本文提出了APIServe，这是针对API增强的LLM推理框架。APIServe最大限度地减少了由API调用引起的GPU资源浪费，并将节省的内存用于服务更多的请求。与现有的LLM推理系统相比，APIServe将整体服务吞吐量提升了1.6倍，每秒完成的请求增加了2倍。",
+    "tldr": "APIServe是针对API增强的大型语言模型推理的一个高效工具，它最大限度地减少了由 API 调用引起的 GPU 资源浪费，并提高了整体服务吞吐量。",
+    "en_tdlr": "APIServe is an efficient tool for API-augmented large language model inference, which minimizes GPU resource waste caused by API calls and improves overall serving throughput."
+}

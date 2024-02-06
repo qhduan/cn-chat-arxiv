@@ -1,0 +1,11 @@
+{
+    "title": "Improving Large-Scale k-Nearest Neighbor Text Categorization with Label Autoencoders",
+    "abstract": "In this paper, we introduce a multi-label lazy learning approach to deal with automatic semantic indexing in large document collections in the presence of complex and structured label vocabularies with high inter-label correlation. The proposed method is an evolution of the traditional k-Nearest Neighbors algorithm which uses a large autoencoder trained to map the large label space to a reduced size latent space and to regenerate the predicted labels from this latent space. We have evaluated our proposal in a large portion of the MEDLINE biomedical document collection which uses the Medical Subject Headings (MeSH) thesaurus as a controlled vocabulary. In our experiments we propose and evaluate several document representation approaches and different label autoencoder configurations.",
+    "link": "https://arxiv.org/abs/2402.01963",
+    "context": "Title: Improving Large-Scale k-Nearest Neighbor Text Categorization with Label Autoencoders\nAbstract: In this paper, we introduce a multi-label lazy learning approach to deal with automatic semantic indexing in large document collections in the presence of complex and structured label vocabularies with high inter-label correlation. The proposed method is an evolution of the traditional k-Nearest Neighbors algorithm which uses a large autoencoder trained to map the large label space to a reduced size latent space and to regenerate the predicted labels from this latent space. We have evaluated our proposal in a large portion of the MEDLINE biomedical document collection which uses the Medical Subject Headings (MeSH) thesaurus as a controlled vocabulary. In our experiments we propose and evaluate several document representation approaches and different label autoencoder configurations.",
+    "path": "papers/24/02/2402.01963.json",
+    "total_tokens": 786,
+    "translated_title": "使用标签自编码器改进大规模k最近邻文本分类",
+    "translated_abstract": "本文介绍了一种多标签惰性学习方法，用于在复杂和结构化标签词汇具有高相关性的大型文档集合中处理自动语义索引。所提出的方法是传统k最近邻算法的演化，它使用一个大的自编码器来将大的标签空间映射到一个缩小的潜在空间，并从该潜在空间中重建出预测的标签。我们在MEDLINE生物医学文档集合的大部分上评估了我们的提议，该集合使用医学主题词（MeSH）词汇表作为控制词汇。在我们的实验中，我们提出并评估了几种文档表示方法和不同的标签自编码器配置。",
+    "tldr": "本文提出了一种使用标签自编码器改进大规模k最近邻文本分类的方法，通过将大的标签空间映射到一个缩小的潜在空间，并从该潜在空间中重建出预测的标签，以解决在大型文档集合中处理自动语义索引的问题。"
+}

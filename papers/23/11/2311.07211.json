@@ -1,0 +1,12 @@
+{
+    "title": "A Gaussian Process Based Method with Deep Kernel Learning for Pricing High-dimensional American Options",
+    "abstract": "Gaussian process regression (GPR) is considered as a potential method for estimating the continuation value of an American option in the regression-based Monte Carlo method. However, it has some drawbacks, such as the unreliability in high-dimensional cases and the high computational cost when the number of simulated paths is large. In this work, we apply the deep kernel learning and variational inference to GPR in order to overcome these drawbacks, and test its performance under geometric Brownian motion and Merton's jump diffusion models. The experiments show that the proposed method outperforms the Least Square Monte Carlo method in high-dimensional cases, especially with jump diffusion models.",
+    "link": "https://arxiv.org/abs/2311.07211",
+    "context": "Title: A Gaussian Process Based Method with Deep Kernel Learning for Pricing High-dimensional American Options\nAbstract: Gaussian process regression (GPR) is considered as a potential method for estimating the continuation value of an American option in the regression-based Monte Carlo method. However, it has some drawbacks, such as the unreliability in high-dimensional cases and the high computational cost when the number of simulated paths is large. In this work, we apply the deep kernel learning and variational inference to GPR in order to overcome these drawbacks, and test its performance under geometric Brownian motion and Merton's jump diffusion models. The experiments show that the proposed method outperforms the Least Square Monte Carlo method in high-dimensional cases, especially with jump diffusion models.",
+    "path": "papers/23/11/2311.07211.json",
+    "total_tokens": 769,
+    "translated_title": "基于深度核学习的高维美式期权定价的高斯过程方法",
+    "translated_abstract": "高斯过程回归（GPR）被认为是在基于回归的蒙特卡洛方法中用于估计美式期权继续价值的潜在方法。然而，它存在一些缺点，比如在高维情况下不可靠，并且当模拟路径的数量很大时计算成本高。在本研究中，我们应用深度核学习和变分推断到GPR中，以克服这些缺点，并在几何布朗运动和Merton跳跃扩散模型下测试其性能。实验结果表明，所提出的方法在高维情况下优于最小二乘蒙特卡洛方法，特别是在跳跃扩散模型中。",
+    "tldr": "本论文利用深度核学习和变分推断方法改进了高斯过程回归在高维美式期权定价中的应用，实验证明该方法相对于传统方法在高维情况下有更好的性能表现，特别是在跳跃扩散模型中。",
+    "en_tdlr": "This paper proposes a method that combines deep kernel learning and variational inference to improve the application of Gaussian process regression in high-dimensional American option pricing. Experimental results demonstrate that this method outperforms traditional approaches, especially in the case of jump diffusion models in high dimensions."
+}

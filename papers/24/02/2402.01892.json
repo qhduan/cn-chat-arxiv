@@ -1,0 +1,12 @@
+{
+    "title": "Censored Beliefs and Wishful Thinking",
+    "abstract": "We present a model elucidating wishful thinking, which comprehensively incorporates both the costs and benefits associated with biased beliefs. Our findings reveal that wishful thinking behavior can be accurately characterized as equivalent to superquantile-utility maximization within the domain of threshold beliefs distortion cost functions. By leveraging this equivalence, we establish conditions that elucidate when an optimistic decision-maker exhibits a preference for choices characterized by positive skewness and increased risk.",
+    "link": "https://arxiv.org/abs/2402.01892",
+    "context": "Title: Censored Beliefs and Wishful Thinking\nAbstract: We present a model elucidating wishful thinking, which comprehensively incorporates both the costs and benefits associated with biased beliefs. Our findings reveal that wishful thinking behavior can be accurately characterized as equivalent to superquantile-utility maximization within the domain of threshold beliefs distortion cost functions. By leveraging this equivalence, we establish conditions that elucidate when an optimistic decision-maker exhibits a preference for choices characterized by positive skewness and increased risk.",
+    "path": "papers/24/02/2402.01892.json",
+    "total_tokens": 643,
+    "translated_title": "被审查的信仰与美好幻想",
+    "translated_abstract": "我们提出了一个模型，阐明了美好幻想的本质，综合考虑了偏见信念所带来的成本和收益。我们的研究结果表明，美好幻想行为可以准确地描述为在偏见信念扭曲成本函数领域内进行超型效用最大化。通过利用这种等价性，我们得出了当一个乐观的决策者偏好于具有正偏态和增加风险特征的选择的条件。",
+    "tldr": "该论文提出了一个模型，阐明了美好幻想行为的本质以及偏见信念所带来的成本和收益。通过超型效用最大化，揭示了乐观的决策者偏好于具有正偏态和增加风险特征的选择。",
+    "en_tdlr": "This paper presents a model that elucidates the nature of wishful thinking behavior and the costs and benefits associated with biased beliefs. By maximizing superquantile-utility, it reveals that optimistic decision-makers exhibit a preference for choices characterized by positive skewness and increased risk."
+}

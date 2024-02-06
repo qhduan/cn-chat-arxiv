@@ -1,0 +1,11 @@
+{
+    "title": "Whispering in Norwegian: Navigating Orthographic and Dialectic Challenges",
+    "abstract": "This article introduces NB-Whisper, an adaptation of OpenAI's Whisper, specifically fine-tuned for Norwegian language Automatic Speech Recognition (ASR). We highlight its key contributions and summarise the results achieved in converting spoken Norwegian into written forms and translating other languages into Norwegian. We show that we are able to improve the Norwegian Bokm{\\aa}l transcription by OpenAI Whisper Large-v3 from a WER of 10.4 to 6.6 on the Fleurs Dataset and from 6.8 to 2.2 on the NST dataset.",
+    "link": "https://arxiv.org/abs/2402.01917",
+    "context": "Title: Whispering in Norwegian: Navigating Orthographic and Dialectic Challenges\nAbstract: This article introduces NB-Whisper, an adaptation of OpenAI's Whisper, specifically fine-tuned for Norwegian language Automatic Speech Recognition (ASR). We highlight its key contributions and summarise the results achieved in converting spoken Norwegian into written forms and translating other languages into Norwegian. We show that we are able to improve the Norwegian Bokm{\\aa}l transcription by OpenAI Whisper Large-v3 from a WER of 10.4 to 6.6 on the Fleurs Dataset and from 6.8 to 2.2 on the NST dataset.",
+    "path": "papers/24/02/2402.01917.json",
+    "total_tokens": 650,
+    "translated_title": "Whispering in Norwegian: 解决正字法和方言挑战的导航方法",
+    "translated_abstract": "本文介绍了NB-Whisper，这是OpenAI的Whisper针对挪威语言自动语音识别（ASR）进行了特定微调的适应版本。我们强调了它的关键贡献，并总结了将挪威口语转换为书面形式以及将其他语言翻译为挪威语的结果。我们展示了我们能够将OpenAI Whisper Large-v3在Fleurs数据集上的词错误率（WER）从10.4降低到6.6，并且在NST数据集上从6.8降低到2.2。",
+    "tldr": "本文介绍了NB-Whisper，这是针对挪威语自动语音识别的OpenAI Whisper的适应版本，通过改进挪威文本转写的正确率，取得了较好的结果。"
+}

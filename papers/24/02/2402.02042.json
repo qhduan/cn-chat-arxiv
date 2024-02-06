@@ -1,0 +1,11 @@
+{
+    "title": "Learning General Parameterized Policies for Infinite Horizon Average Reward Constrained MDPs via Primal-Dual Policy Gradient Algorithm",
+    "abstract": "This paper explores the realm of infinite horizon average reward Constrained Markov Decision Processes (CMDP). To the best of our knowledge, this work is the first to delve into the regret and constraint violation analysis of average reward CMDPs with a general policy parametrization. To address this challenge, we propose a primal dual based policy gradient algorithm that adeptly manages the constraints while ensuring a low regret guarantee toward achieving a global optimal policy. In particular, we demonstrate that our proposed algorithm achieves $\\tilde{\\mathcal{O}}({T}^{3/4})$ objective regret and $\\tilde{\\mathcal{O}}({T}^{3/4})$ constraint violation bounds.",
+    "link": "https://arxiv.org/abs/2402.02042",
+    "context": "Title: Learning General Parameterized Policies for Infinite Horizon Average Reward Constrained MDPs via Primal-Dual Policy Gradient Algorithm\nAbstract: This paper explores the realm of infinite horizon average reward Constrained Markov Decision Processes (CMDP). To the best of our knowledge, this work is the first to delve into the regret and constraint violation analysis of average reward CMDPs with a general policy parametrization. To address this challenge, we propose a primal dual based policy gradient algorithm that adeptly manages the constraints while ensuring a low regret guarantee toward achieving a global optimal policy. In particular, we demonstrate that our proposed algorithm achieves $\\tilde{\\mathcal{O}}({T}^{3/4})$ objective regret and $\\tilde{\\mathcal{O}}({T}^{3/4})$ constraint violation bounds.",
+    "path": "papers/24/02/2402.02042.json",
+    "total_tokens": 865,
+    "translated_title": "学习通过原始-对偶策略梯度算法对无限时域平均回报受限MDP进行参数化通用策略",
+    "translated_abstract": "本文探索了无限时域平均回报受限马尔科夫决策过程（CMDP）的领域。据我们所知，这项工作是首次研究具有通用策略参数化的平均回报CMDP的遗憾和约束违规分析。为了解决这个挑战，我们提出了一种基于原始对偶的策略梯度算法，能够灵活地管理约束条件，并确保低遗憾保证以实现全局最优策略。特别地，我们证明了我们提出的算法在目标遗憾和约束违反上具有 $\\tilde{\\mathcal{O}}({T}^{3/4})$ 的界限。",
+    "tldr": "该论文研究了无限时域平均回报受限MDPs的参数化通用策略，并提出了一种基于原始-对偶策略梯度算法，可在保证低遗憾的情况下管理约束条件，达到全局最优策略。算法的分析表明，其目标遗憾和约束违反均为 $\\tilde{\\mathcal{O}}({T}^{3/4})$。"
+}

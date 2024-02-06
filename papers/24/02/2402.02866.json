@@ -1,0 +1,12 @@
+{
+    "title": "Quantum Normalizing Flows for Anomaly Detection",
+    "abstract": "A Normalizing Flow computes a bijective mapping from an arbitrary distribution to a predefined (e.g. normal) distribution. Such a flow can be used to address different tasks, e.g. anomaly detection, once such a mapping has been learned. In this work we introduce Normalizing Flows for Quantum architectures, describe how to model and optimize such a flow and evaluate our method on example datasets. Our proposed models show competitive performance for anomaly detection compared to classical methods, e.g. based on isolation forests, the local outlier factor (LOF) or single-class SVMs, while being fully executable on a quantum computer.",
+    "link": "https://arxiv.org/abs/2402.02866",
+    "context": "Title: Quantum Normalizing Flows for Anomaly Detection\nAbstract: A Normalizing Flow computes a bijective mapping from an arbitrary distribution to a predefined (e.g. normal) distribution. Such a flow can be used to address different tasks, e.g. anomaly detection, once such a mapping has been learned. In this work we introduce Normalizing Flows for Quantum architectures, describe how to model and optimize such a flow and evaluate our method on example datasets. Our proposed models show competitive performance for anomaly detection compared to classical methods, e.g. based on isolation forests, the local outlier factor (LOF) or single-class SVMs, while being fully executable on a quantum computer.",
+    "path": "papers/24/02/2402.02866.json",
+    "total_tokens": 684,
+    "translated_title": "量子标准化流在异常检测中的应用",
+    "translated_abstract": "标准化流将任意分布计算为预定义（例如正态）分布的双射映射。一旦学习到这样的映射，它可以用于解决不同的任务，例如异常检测。在本研究中，我们引入了用于量子架构的标准化流，描述了如何建模和优化这样的流，并在示例数据集上评估了我们的方法。我们提出的模型在异常检测方面表现出与传统方法（如孤立森林、局部离群因子（LOF）或单类支持向量机）相竞争的性能，同时可以在量子计算机上完全执行。",
+    "tldr": "本文介绍了一种将任意分布计算为预定义分布的量子标准化流方法，该方法在异常检测方面具有与传统方法相竞争的性能，并且可以在量子计算机上执行。",
+    "en_tdlr": "This paper introduces a Quantum Normalizing Flow approach that computes an arbitrary distribution to a predefined distribution, achieving competitive performance in anomaly detection compared to classical methods, and being fully executable on a quantum computer."
+}

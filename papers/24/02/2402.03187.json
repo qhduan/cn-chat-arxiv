@@ -1,0 +1,11 @@
+{
+    "title": "How Good is a Single Basin?",
+    "abstract": "The multi-modal nature of neural loss landscapes is often considered to be the main driver behind the empirical success of deep ensembles. In this work, we probe this belief by constructing various \"connected\" ensembles which are restricted to lie in the same basin. Through our experiments, we demonstrate that increased connectivity indeed negatively impacts performance. However, when incorporating the knowledge from other basins implicitly through distillation, we show that the gap in performance can be mitigated by re-discovering (multi-basin) deep ensembles within a single basin. Thus, we conjecture that while the extra-basin knowledge is at least partially present in any given basin, it cannot be easily harnessed without learning it from other basins.",
+    "link": "https://arxiv.org/abs/2402.03187",
+    "context": "Title: How Good is a Single Basin?\nAbstract: The multi-modal nature of neural loss landscapes is often considered to be the main driver behind the empirical success of deep ensembles. In this work, we probe this belief by constructing various \"connected\" ensembles which are restricted to lie in the same basin. Through our experiments, we demonstrate that increased connectivity indeed negatively impacts performance. However, when incorporating the knowledge from other basins implicitly through distillation, we show that the gap in performance can be mitigated by re-discovering (multi-basin) deep ensembles within a single basin. Thus, we conjecture that while the extra-basin knowledge is at least partially present in any given basin, it cannot be easily harnessed without learning it from other basins.",
+    "path": "papers/24/02/2402.03187.json",
+    "total_tokens": 828,
+    "translated_title": "单一盆地的好处有多大？",
+    "translated_abstract": "神经损失景观的多模态性常被认为是深度集成在实践中成功的主要驱动因素。在这项工作中，我们通过构建各种“相连”的集成来探究这种信念，这些集成被限制在同一个盆地内。通过我们的实验，我们证明了增加连接确实会对性能产生负面影响。然而，当通过蒸馏的方式隐含地将其他盆地的知识纳入到同一个盆地中时，我们发现性能差距可以通过再发现（多盆地）深度集成来减轻。因此，我们推测，虽然任何给定盆地中至少部分存在着额外盆地的知识，但在没有从其他盆地中学习它的情况下，很难有效利用它。",
+    "tldr": "本文通过构建同一个盆地内的“相连”集成，并通过蒸馏将其他盆地的知识隐含纳入到同一个盆地内，弥补了连接增加对性能的负面影响，重新发现了（多盆地）深度集成的性能。因此推测，在没有从其他盆地学习的情况下，很难有效利用其他盆地的知识。"
+}

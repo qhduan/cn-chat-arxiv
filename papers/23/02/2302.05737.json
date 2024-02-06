@@ -1,0 +1,11 @@
+{
+    "title": "A Reparameterized Discrete Diffusion Model for Text Generation",
+    "abstract": "This work studies discrete diffusion probabilistic models with applications to natural language generation. We derive an alternative yet equivalent formulation of the sampling from discrete diffusion processes and leverage this insight to develop a family of reparameterized discrete diffusion models. The derived generic framework is highly flexible, offers a fresh perspective of the generation process in discrete diffusion models, and features more effective training and decoding techniques. We conduct extensive experiments to evaluate the text generation capability of our model, demonstrating significant improvements over existing diffusion models.",
+    "link": "https://arxiv.org/abs/2302.05737",
+    "context": "Title: A Reparameterized Discrete Diffusion Model for Text Generation\nAbstract: This work studies discrete diffusion probabilistic models with applications to natural language generation. We derive an alternative yet equivalent formulation of the sampling from discrete diffusion processes and leverage this insight to develop a family of reparameterized discrete diffusion models. The derived generic framework is highly flexible, offers a fresh perspective of the generation process in discrete diffusion models, and features more effective training and decoding techniques. We conduct extensive experiments to evaluate the text generation capability of our model, demonstrating significant improvements over existing diffusion models.",
+    "path": "papers/23/02/2302.05737.json",
+    "total_tokens": 666,
+    "translated_title": "一种用于文本生成的重新参数化离散扩散模型的研究",
+    "translated_abstract": "本文研究了应用于自然语言生成的离散扩散概率模型。我们推导出了从离散扩散过程中采样的另一种等价形式，并利用这一洞见开发了一族重新参数化离散扩散模型。这个派生的通用框架非常灵活，为离散扩散模型中的生成过程提供了新的视角，并具备更有效的训练和解码技术。我们进行了大量实验证明我们模型的文本生成能力，在现有的扩散模型上取得了显著的改进。",
+    "tldr": "本文提出了一种重新参数化离散扩散模型，该模型在文本生成方面表现出更好的灵活性、训练技术和生成效果，实验证明其较现有的扩散模型有显著的改进。"
+}

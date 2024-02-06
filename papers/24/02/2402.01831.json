@@ -1,0 +1,12 @@
+{
+    "title": "Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities",
+    "abstract": "Augmenting large language models (LLMs) to understand audio -- including non-speech sounds and non-verbal speech -- is critically important for diverse real-world applications of LLMs. In this paper, we propose Audio Flamingo, a novel audio language model with 1) strong audio understanding abilities, 2) the ability to quickly adapt to unseen tasks via in-context learning and retrieval, and 3) strong multi-turn dialogue abilities. We introduce a series of training techniques, architecture design, and data strategies to enhance our model with these abilities. Extensive evaluations across various audio understanding tasks confirm the efficacy of our method, setting new state-of-the-art benchmarks.",
+    "link": "https://arxiv.org/abs/2402.01831",
+    "context": "Title: Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities\nAbstract: Augmenting large language models (LLMs) to understand audio -- including non-speech sounds and non-verbal speech -- is critically important for diverse real-world applications of LLMs. In this paper, we propose Audio Flamingo, a novel audio language model with 1) strong audio understanding abilities, 2) the ability to quickly adapt to unseen tasks via in-context learning and retrieval, and 3) strong multi-turn dialogue abilities. We introduce a series of training techniques, architecture design, and data strategies to enhance our model with these abilities. Extensive evaluations across various audio understanding tasks confirm the efficacy of our method, setting new state-of-the-art benchmarks.",
+    "path": "papers/24/02/2402.01831.json",
+    "total_tokens": 761,
+    "translated_title": "Audio Flamingo: 一种具备弱监督学习和对话能力的新型音频语言模型",
+    "translated_abstract": "对大型语言模型（LLMs）进行增强，以理解音频——包括非语音声音和非言语的语音——对LLMs的多样化真实世界应用至关重要。本文提出了一种名为Audio Flamingo的新型音频语言模型，具备强大的音频理解能力、通过上下文学习和检索快速适应未见过的任务的能力以及强大的多轮对话能力。我们引入了一系列训练技术、架构设计和数据策略，以增强我们的模型具备这些功能。广泛的音频理解任务评估验证了我们方法的有效性，并创造了新的最优成绩基准。",
+    "tldr": "Audio Flamingo是一种新型音频语言模型，具备强大的音频理解能力、通过上下文学习和检索快速适应未见过的任务的能力以及强大的多轮对话能力，并且通过广泛的评估达到了最优成绩。",
+    "en_tdlr": "Audio Flamingo is a novel audio language model with strong audio understanding abilities, the ability to quickly adapt to unseen tasks via in-context learning and retrieval, and strong multi-turn dialogue abilities. It sets new state-of-the-art benchmarks through extensive evaluations."
+}

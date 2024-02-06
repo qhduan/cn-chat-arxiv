@@ -1,0 +1,11 @@
+{
+    "title": "User-Centric AI Analytics for Chronic Health Conditions Management",
+    "abstract": "The use of AI analytics in health informatics has seen a rapid growth in recent years. In this talk, we look at AI analytics use in managing chronic health conditions such as diabetes, obesity, etc. We focus on the challenges in managing these conditions especially with drug-free approaches due to the variations in individual circumstances. These variations directed the research into user-centric approach leading to variety of research questions. In this short paper, we give examples from recent and current research work and conclude with what, in our opinion, to be the next steps and some remaining open research questions.",
+    "link": "https://arxiv.org/abs/2402.01652",
+    "context": "Title: User-Centric AI Analytics for Chronic Health Conditions Management\nAbstract: The use of AI analytics in health informatics has seen a rapid growth in recent years. In this talk, we look at AI analytics use in managing chronic health conditions such as diabetes, obesity, etc. We focus on the challenges in managing these conditions especially with drug-free approaches due to the variations in individual circumstances. These variations directed the research into user-centric approach leading to variety of research questions. In this short paper, we give examples from recent and current research work and conclude with what, in our opinion, to be the next steps and some remaining open research questions.",
+    "path": "papers/24/02/2402.01652.json",
+    "total_tokens": 716,
+    "translated_title": "用户中心的AI分析在慢性健康状况管理中的应用",
+    "translated_abstract": "在健康信息学中，AI分析的应用近年来迅速增长。在本专题讨论中，我们探讨了AI分析在管理糖尿病、肥胖等慢性健康状况中的应用。我们重点关注在无药物治疗方法中管理这些状况所面临的挑战，由于个体状况的差异。这些差异导致研究进入了用户中心的方法，引发了各种研究问题。在本短文中，我们提供了近期和正在进行的研究工作的示例，并结论我们认为的下一步和一些尚未解决的研究问题。",
+    "tldr": "本论文介绍了AI分析在管理慢性健康状况中的应用，特别是在无药物治疗方法中的挑战。研究呈现了用户中心的方法以及相关的研究问题和下一步工作。"
+}

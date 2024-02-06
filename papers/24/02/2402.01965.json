@@ -1,0 +1,12 @@
+{
+    "title": "Analyzing Neural Network-Based Generative Diffusion Models through Convex Optimization",
+    "abstract": "Diffusion models are becoming widely used in state-of-the-art image, video and audio generation. Score-based diffusion models stand out among these methods, necessitating the estimation of score function of the input data distribution. In this study, we present a theoretical framework to analyze two-layer neural network-based diffusion models by reframing score matching and denoising score matching as convex optimization. Though existing diffusion theory is mainly asymptotic, we characterize the exact predicted score function and establish the convergence result for neural network-based diffusion models with finite data. This work contributes to understanding what neural network-based diffusion model learns in non-asymptotic settings.",
+    "link": "https://arxiv.org/abs/2402.01965",
+    "context": "Title: Analyzing Neural Network-Based Generative Diffusion Models through Convex Optimization\nAbstract: Diffusion models are becoming widely used in state-of-the-art image, video and audio generation. Score-based diffusion models stand out among these methods, necessitating the estimation of score function of the input data distribution. In this study, we present a theoretical framework to analyze two-layer neural network-based diffusion models by reframing score matching and denoising score matching as convex optimization. Though existing diffusion theory is mainly asymptotic, we characterize the exact predicted score function and establish the convergence result for neural network-based diffusion models with finite data. This work contributes to understanding what neural network-based diffusion model learns in non-asymptotic settings.",
+    "path": "papers/24/02/2402.01965.json",
+    "total_tokens": 719,
+    "translated_title": "通过凸优化对基于神经网络的生成扩散模型进行分析",
+    "translated_abstract": "扩散模型在最先进的图像、视频和音频生成中变得广泛使用。基于分数的扩散模型在这些方法中脱颖而出，需要估计输入数据分布的分数函数。在本研究中，我们提出了一个理论框架，通过将分数匹配和去噪分数匹配重新构建为凸优化的形式，来分析两层神经网络的扩散模型。尽管现有的扩散理论主要是渐近的，但我们对神经网络的扩散模型给出了精确的预测分数函数，并建立了有限数据情况下的收敛结果。这项工作有助于理解神经网络的非渐近设置中学习到的扩散模型。",
+    "tldr": "本研究通过凸优化方法分析了基于神经网络的生成扩散模型，揭示了这些模型在非渐近设置下的精确预测分数函数和收敛结果。",
+    "en_tdlr": "This study analyzes neural network-based generative diffusion models through convex optimization, revealing the exact predicted score function and convergence results in non-asymptotic settings."
+}

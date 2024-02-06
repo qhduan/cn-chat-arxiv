@@ -1,0 +1,11 @@
+{
+    "title": "Position Paper: The Landscape and Challenges of HPC Research and LLMs",
+    "abstract": "Recently, language models (LMs), especially large language models (LLMs), have revolutionized the field of deep learning. Both encoder-decoder models and prompt-based techniques have shown immense potential for natural language processing and code-based tasks. Over the past several years, many research labs and institutions have invested heavily in high-performance computing, approaching or breaching exascale performance levels. In this paper, we posit that adapting and utilizing such language model-based techniques for tasks in high-performance computing (HPC) would be very beneficial. This study presents our reasoning behind the aforementioned position and highlights how existing ideas can be improved and adapted for HPC tasks.",
+    "link": "https://arxiv.org/abs/2402.02018",
+    "context": "Title: Position Paper: The Landscape and Challenges of HPC Research and LLMs\nAbstract: Recently, language models (LMs), especially large language models (LLMs), have revolutionized the field of deep learning. Both encoder-decoder models and prompt-based techniques have shown immense potential for natural language processing and code-based tasks. Over the past several years, many research labs and institutions have invested heavily in high-performance computing, approaching or breaching exascale performance levels. In this paper, we posit that adapting and utilizing such language model-based techniques for tasks in high-performance computing (HPC) would be very beneficial. This study presents our reasoning behind the aforementioned position and highlights how existing ideas can be improved and adapted for HPC tasks.",
+    "path": "papers/24/02/2402.02018.json",
+    "total_tokens": 674,
+    "translated_title": "位置论文：超级计算研究和LLMs的现状与挑战",
+    "translated_abstract": "最近，语言模型（LMs），特别是大规模的语言模型（LLMs），已经彻底改变了深度学习领域。编码器-解码器模型和基于提示的技术均展现出在自然语言处理和基于代码的任务中巨大的潜力。在过去几年中，许多研究实验室和机构在高性能计算方面投入了大量资源，达到或突破了超级计算的性能水平。本文提出，将这些基于语言模型的技术调整和应用于高性能计算任务中将会非常有益。本研究阐述了我们上述观点的理由，并强调了现有想法在HPC任务中的改进和应用。",
+    "tldr": "运用语言模型技术于高性能计算任务中具有巨大潜力"
+}

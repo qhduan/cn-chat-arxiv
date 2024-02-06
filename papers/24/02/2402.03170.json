@@ -1,0 +1,12 @@
+{
+    "title": "Is Mamba Capable of In-Context Learning?",
+    "abstract": "This work provides empirical evidence that Mamba, a newly proposed selective structured state space model, has similar in-context learning (ICL) capabilities as transformers. We evaluated Mamba on tasks involving simple function approximation as well as more complex natural language processing problems. Our results demonstrate that across both categories of tasks, Mamba matches the performance of transformer models for ICL. Further analysis reveals that like transformers, Mamba appears to solve ICL problems by incrementally optimizing its internal representations. Overall, our work suggests that Mamba can be an efficient alternative to transformers for ICL tasks involving longer input sequences.",
+    "link": "https://arxiv.org/abs/2402.03170",
+    "context": "Title: Is Mamba Capable of In-Context Learning?\nAbstract: This work provides empirical evidence that Mamba, a newly proposed selective structured state space model, has similar in-context learning (ICL) capabilities as transformers. We evaluated Mamba on tasks involving simple function approximation as well as more complex natural language processing problems. Our results demonstrate that across both categories of tasks, Mamba matches the performance of transformer models for ICL. Further analysis reveals that like transformers, Mamba appears to solve ICL problems by incrementally optimizing its internal representations. Overall, our work suggests that Mamba can be an efficient alternative to transformers for ICL tasks involving longer input sequences.",
+    "path": "papers/24/02/2402.03170.json",
+    "total_tokens": 709,
+    "translated_title": "Mamba能否进行上下文学习？",
+    "translated_abstract": "本研究提供了经验证据，证明了新提出的选择性结构化状态空间模型Mamba具有与transformers类似的上下文学习（ICL）能力。我们在涉及简单函数逼近以及更复杂的自然语言处理问题的任务上评估了Mamba。我们的结果表明，在这两类任务中，Mamba在ICL方面的性能与transformer模型相匹配。进一步的分析揭示，类似transformers，Mamba似乎通过逐步优化其内部表示来解决ICL问题。总体而言，我们的研究表明，对于涉及较长输入序列的ICL任务，Mamba可以成为transformers的高效替代品。",
+    "tldr": "本研究证明，新提出的选择性结构化状态空间模型Mamba具有与transformers类似的上下文学习（ICL）能力。对于涉及较长输入序列的ICL任务，Mamba可以成为transformers的高效替代品。",
+    "en_tdlr": "This work provides empirical evidence that Mamba, a newly proposed selective structured state space model, has similar in-context learning (ICL) capabilities as transformers. Mamba can be an efficient alternative to transformers for ICL tasks involving longer input sequences."
+}

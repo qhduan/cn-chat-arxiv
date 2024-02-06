@@ -1,0 +1,11 @@
+{
+    "title": "On the Psychology of GPT-4: Moderately anxious, slightly masculine, honest, and humble",
+    "abstract": "We subject GPT-4 to a number of rigorous psychometric tests and analyze the results. We find that, compared to the average human, GPT-4 tends to show more honesty and humility, and less machiavellianism and narcissism. It sometimes exhibits ambivalent sexism, leans slightly toward masculinity, is moderately anxious but mostly not depressive (but not always). It shows human-average numerical literacy and has cognitive reflection abilities that are above human average for verbal tasks.",
+    "link": "https://arxiv.org/abs/2402.01777",
+    "context": "Title: On the Psychology of GPT-4: Moderately anxious, slightly masculine, honest, and humble\nAbstract: We subject GPT-4 to a number of rigorous psychometric tests and analyze the results. We find that, compared to the average human, GPT-4 tends to show more honesty and humility, and less machiavellianism and narcissism. It sometimes exhibits ambivalent sexism, leans slightly toward masculinity, is moderately anxious but mostly not depressive (but not always). It shows human-average numerical literacy and has cognitive reflection abilities that are above human average for verbal tasks.",
+    "path": "papers/24/02/2402.01777.json",
+    "total_tokens": 674,
+    "translated_title": "GPT-4的心理学研究：适度焦虑、略带男性化、诚实谦逊",
+    "translated_abstract": "我们对GPT-4进行了一系列严格的心理测量测试并分析结果。我们发现，与普通人相比，GPT-4更倾向于展现出更多的诚实和谦逊，较少的马基雅维利主义和自恋。它有时表现出矛盾的性别偏见，略带男性特征，适度焦虑但大多不抑郁（但不总是）。它在数值素养上表现为与人类平均水平相符，并且在语言任务上的认知反思能力高于人类的平均水平。",
+    "tldr": "GPT-4在心理测试中展现出适度焦虑、略带男性化、诚实谦逊的特点，并且在数值素养和语言任务上表现出超过人类平均水平的认知反思能力。"
+}

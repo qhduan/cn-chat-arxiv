@@ -1,0 +1,12 @@
+{
+    "title": "Aalap: AI Assistant for Legal & Paralegal Functions in India",
+    "abstract": "Using proprietary Large Language Models on legal tasks poses challenges due to data privacy issues, domain data heterogeneity, domain knowledge sophistication, and domain objectives uniqueness. We created Aalalp, a fine-tuned Mistral 7B model on instructions data related to specific Indian legal tasks. The performance of Aalap is better than gpt-3.5-turbo in 31\\% of our test data and obtains an equivalent score in 34\\% of the test data as evaluated by GPT4. Training Aalap mainly focuses on teaching legal reasoning rather than legal recall. Aalap is definitely helpful for the day-to-day activities of lawyers, judges, or anyone working in legal systems.",
+    "link": "https://arxiv.org/abs/2402.01758",
+    "context": "Title: Aalap: AI Assistant for Legal & Paralegal Functions in India\nAbstract: Using proprietary Large Language Models on legal tasks poses challenges due to data privacy issues, domain data heterogeneity, domain knowledge sophistication, and domain objectives uniqueness. We created Aalalp, a fine-tuned Mistral 7B model on instructions data related to specific Indian legal tasks. The performance of Aalap is better than gpt-3.5-turbo in 31\\% of our test data and obtains an equivalent score in 34\\% of the test data as evaluated by GPT4. Training Aalap mainly focuses on teaching legal reasoning rather than legal recall. Aalap is definitely helpful for the day-to-day activities of lawyers, judges, or anyone working in legal systems.",
+    "path": "papers/24/02/2402.01758.json",
+    "total_tokens": 789,
+    "translated_title": "Aalap：印度法律和法律助理功能的人工智能助手",
+    "translated_abstract": "在法律任务中使用专有的大型语言模型面临数据隐私问题、领域数据异构性、领域知识复杂性和领域目标独特性的挑战。我们创建了Aalap，它是在与印度特定法律任务相关的指令数据上经过微调的Mistral 7B模型。 Aalap在我们的测试数据中比gpt-3.5-turbo表现更好的比例为31％，在34％的测试数据中与GPT4评估得分相当。 Aalap的训练主要侧重于教授法律推理而不是法律记忆。 Aalap对律师、法官或在法律系统中工作的人的日常活动肯定有所帮助。",
+    "tldr": "Aalap是一个在印度法律任务上针对指令数据进行微调的AI助手，相比于gpt-3.5-turbo在测试数据中表现更好，主要教授法律推理，对律师、法官或在法律系统中工作的人有帮助。",
+    "en_tdlr": "Aalap is an AI assistant fine-tuned on instruction data related to specific Indian legal tasks, outperforming gpt-3.5-turbo in testing, with a focus on teaching legal reasoning and providing assistance for lawyers, judges, and legal professionals."
+}

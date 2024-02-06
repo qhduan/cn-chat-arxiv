@@ -1,0 +1,12 @@
+{
+    "title": "Introduction to speech recognition",
+    "abstract": "This document contains lectures and practical experimentations using Matlab and implementing a system which is actually correctly classifying three words (one, two and three) with the help of a very small database. To achieve this performance, it uses speech modeling specificities, powerful computer algorithms (dynamic time warping and Dijktra's algorithm) and machine learning (nearest neighbor). This document introduces also some machine learning evaluation metrics.",
+    "link": "https://arxiv.org/abs/2402.01778",
+    "context": "Title: Introduction to speech recognition\nAbstract: This document contains lectures and practical experimentations using Matlab and implementing a system which is actually correctly classifying three words (one, two and three) with the help of a very small database. To achieve this performance, it uses speech modeling specificities, powerful computer algorithms (dynamic time warping and Dijktra's algorithm) and machine learning (nearest neighbor). This document introduces also some machine learning evaluation metrics.",
+    "path": "papers/24/02/2402.01778.json",
+    "total_tokens": 569,
+    "translated_title": "语音识别导论",
+    "translated_abstract": "本文包含了使用Matlab进行讲座和实践实验的内容，实现了一个能够正确分类三个单词（one，two和three）的系统，并且只使用了一个非常小的数据库。为了达到这样的性能，它使用了特定的语音建模，强大的计算机算法（动态时间规整和Dijkstra算法）以及机器学习（最近邻）。本文还介绍了一些机器学习评估指标。",
+    "tldr": "该论文介绍了使用Matlab实现的语音识别系统，通过语音建模、强大的计算机算法和机器学习方法，成功实现了对三个单词进行正确分类的任务。",
+    "en_tdlr": "This paper introduces an introduction to speech recognition, in which a system implemented using Matlab is capable of accurately classifying three words with the help of a small database. The system utilizes speech modeling, powerful computer algorithms, and machine learning techniques."
+}

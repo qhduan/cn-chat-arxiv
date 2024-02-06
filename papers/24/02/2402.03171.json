@@ -1,0 +1,12 @@
+{
+    "title": "Homograph Attacks on Maghreb Sentiment Analyzers",
+    "abstract": "We examine the impact of homograph attacks on the Sentiment Analysis (SA) task of different Arabic dialects from the Maghreb North-African countries. Homograph attacks result in a 65.3% decrease in transformer classification from an F1-score of 0.95 to 0.33 when data is written in \"Arabizi\". The goal of this study is to highlight LLMs weaknesses' and to prioritize ethical and responsible Machine Learning.",
+    "link": "https://arxiv.org/abs/2402.03171",
+    "context": "Title: Homograph Attacks on Maghreb Sentiment Analyzers\nAbstract: We examine the impact of homograph attacks on the Sentiment Analysis (SA) task of different Arabic dialects from the Maghreb North-African countries. Homograph attacks result in a 65.3% decrease in transformer classification from an F1-score of 0.95 to 0.33 when data is written in \"Arabizi\". The goal of this study is to highlight LLMs weaknesses' and to prioritize ethical and responsible Machine Learning.",
+    "path": "papers/24/02/2402.03171.json",
+    "total_tokens": 665,
+    "translated_title": "马格里布情感分析器上的同形异义词攻击研究",
+    "translated_abstract": "我们研究了同形异义词攻击对马格里布北非国家不同阿拉伯方言情感分析（SA）任务的影响。当数据以“阿拉伯字母拼音”书写时，同形异义词攻击导致变压器分类性能从F1得分0.95下降到0.33，减少了65.3%。本研究的目标是凸显LLMs的弱点，并优先考虑机器学习的道德和责任。",
+    "tldr": "同形异义词攻击对马格里布情感分析器造成了严重影响，将其性能从F1得分0.95降低到0.33。本研究主要旨在强调LLMs的弱点，并优先考虑机器学习的道德和责任。",
+    "en_tdlr": "Homograph attacks have a significant impact on Maghreb sentiment analyzers, reducing their performance from an F1-score of 0.95 to 0.33. The study aims to highlight the weaknesses of LLMs and prioritize the ethical and responsible use of machine learning."
+}

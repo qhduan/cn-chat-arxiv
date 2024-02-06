@@ -1,0 +1,11 @@
+{
+    "title": "Importance sampling for online variational learning",
+    "abstract": "This article addresses online variational estimation in state-space models. We focus on learning the smoothing distribution, i.e. the joint distribution of the latent states given the observations, using a variational approach together with Monte Carlo importance sampling.  We propose an efficient algorithm for computing the gradient of the evidence lower bound (ELBO) in the context of streaming data, where observations arrive sequentially.  Our contributions include a computationally efficient online ELBO estimator, demonstrated performance in offline and true online settings, and adaptability for computing general expectations under joint smoothing distributions.",
+    "link": "https://arxiv.org/abs/2402.02859",
+    "context": "Title: Importance sampling for online variational learning\nAbstract: This article addresses online variational estimation in state-space models. We focus on learning the smoothing distribution, i.e. the joint distribution of the latent states given the observations, using a variational approach together with Monte Carlo importance sampling.  We propose an efficient algorithm for computing the gradient of the evidence lower bound (ELBO) in the context of streaming data, where observations arrive sequentially.  Our contributions include a computationally efficient online ELBO estimator, demonstrated performance in offline and true online settings, and adaptability for computing general expectations under joint smoothing distributions.",
+    "path": "papers/24/02/2402.02859.json",
+    "total_tokens": 597,
+    "translated_title": "在线变分学习中的重要性采样",
+    "translated_abstract": "本文研究了状态空间模型中的在线变分估计问题。我们专注于学习平滑分布，即给定观测的潜在状态的联合分布，采用变分方法和蒙特卡罗重要性采样。我们提出了一种在流数据情况下计算证据下界（ELBO）梯度的高效算法，其中观测值按顺序到达。我们的贡献包括一个计算效率高的在线ELBO估计器，在离线和真正的在线设置中展示了性能，并适用于计算关于联合平滑分布的一般期望。",
+    "tldr": "本文提出了一个在状态空间模型中用于在线学习平滑分布的高效算法，并在离线和真正的在线设置中展示了性能。"
+}

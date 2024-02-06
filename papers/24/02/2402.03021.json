@@ -1,0 +1,11 @@
+{
+    "title": "Data-induced multiscale losses and efficient multirate gradient descent schemes",
+    "abstract": "This paper investigates the impact of multiscale data on machine learning algorithms, particularly in the context of deep learning. A dataset is multiscale if its distribution shows large variations in scale across different directions. This paper reveals multiscale structures in the loss landscape, including its gradients and Hessians inherited from the data. Correspondingly, it introduces a novel gradient descent approach, drawing inspiration from multiscale algorithms used in scientific computing. This approach seeks to transcend empirical learning rate selection, offering a more systematic, data-informed strategy to enhance training efficiency, especially in the later stages.",
+    "link": "https://arxiv.org/abs/2402.03021",
+    "context": "Title: Data-induced multiscale losses and efficient multirate gradient descent schemes\nAbstract: This paper investigates the impact of multiscale data on machine learning algorithms, particularly in the context of deep learning. A dataset is multiscale if its distribution shows large variations in scale across different directions. This paper reveals multiscale structures in the loss landscape, including its gradients and Hessians inherited from the data. Correspondingly, it introduces a novel gradient descent approach, drawing inspiration from multiscale algorithms used in scientific computing. This approach seeks to transcend empirical learning rate selection, offering a more systematic, data-informed strategy to enhance training efficiency, especially in the later stages.",
+    "path": "papers/24/02/2402.03021.json",
+    "total_tokens": 688,
+    "translated_title": "数据诱导的多尺度损失和高效多速率梯度下降方案",
+    "translated_abstract": "本文研究多尺度数据对机器学习算法的影响，特别是在深度学习的背景下。如果一个数据集的分布在不同方向上具有尺度的显著变化，则其被称为多尺度数据。本文揭示了损失景观中的多尺度结构，包括其梯度和来自数据的海森矩阵。相应地，本文引入了一种新的梯度下降方法，受科学计算中使用的多尺度算法的启发。这种方法试图超越经验性学习率选择，提供一种更系统、数据驱动的策略来提高训练效率，特别是在后期阶段。",
+    "tldr": "本文研究了多尺度数据对机器学习算法的影响，并提出了一种基于数据的新的梯度下降方法，旨在提高训练效率。"
+}

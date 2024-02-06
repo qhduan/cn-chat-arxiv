@@ -1,0 +1,11 @@
+{
+    "title": "Black-Box Approximation and Optimization with Hierarchical Tucker Decomposition",
+    "abstract": "We develop a new method HTBB for the multidimensional black-box approximation and gradient-free optimization, which is based on the low-rank hierarchical Tucker decomposition with the use of the MaxVol indices selection procedure. Numerical experiments for 14 complex model problems demonstrate the robustness of the proposed method for dimensions up to 1000, while it shows significantly more accurate results than classical gradient-free optimization methods, as well as approximation and optimization methods based on the popular tensor train decomposition, which represents a simpler case of a tensor network.",
+    "link": "https://arxiv.org/abs/2402.02890",
+    "context": "Title: Black-Box Approximation and Optimization with Hierarchical Tucker Decomposition\nAbstract: We develop a new method HTBB for the multidimensional black-box approximation and gradient-free optimization, which is based on the low-rank hierarchical Tucker decomposition with the use of the MaxVol indices selection procedure. Numerical experiments for 14 complex model problems demonstrate the robustness of the proposed method for dimensions up to 1000, while it shows significantly more accurate results than classical gradient-free optimization methods, as well as approximation and optimization methods based on the popular tensor train decomposition, which represents a simpler case of a tensor network.",
+    "path": "papers/24/02/2402.02890.json",
+    "total_tokens": 601,
+    "translated_title": "黑盒逼近与分层Tucker分解的优化",
+    "translated_abstract": "我们开发了一种基于低秩分层Tucker分解和MaxVol指数选择方法的新方法HTBB，用于多维黑盒逼近和无梯度优化。14个复杂模型问题的数值实验表明，该方法在维度高达1000时具有稳健性，而且比传统的无梯度优化方法和基于流行的张量网络的逼近和优化方法结果更准确。",
+    "tldr": "该论文介绍了一种基于分层Tucker分解的黑盒逼近和优化方法，通过低秩分解和指数选择提高了准确性，并且在高维度问题上表现出鲁棒性。"
+}

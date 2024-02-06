@@ -1,0 +1,12 @@
+{
+    "title": "Screening Signal-Manipulating Agents via Contests",
+    "abstract": "We study the design of screening mechanisms subject to competition and manipulation. A social planner has limited resources to allocate to multiple agents using only signals manipulable through unproductive effort. We show that the welfare-maximizing mechanism takes the form of a contest and characterize the optimal contest. We apply our results to two settings: either the planner has one item or a number of items proportional to the number of agents. We show that in both settings, with sufficiently many agents, a winner-takes-all contest is never optimal. In particular, the planner always benefits from randomizing the allocation to some agents.",
+    "link": "https://arxiv.org/abs/2302.09168",
+    "context": "Title: Screening Signal-Manipulating Agents via Contests\nAbstract: We study the design of screening mechanisms subject to competition and manipulation. A social planner has limited resources to allocate to multiple agents using only signals manipulable through unproductive effort. We show that the welfare-maximizing mechanism takes the form of a contest and characterize the optimal contest. We apply our results to two settings: either the planner has one item or a number of items proportional to the number of agents. We show that in both settings, with sufficiently many agents, a winner-takes-all contest is never optimal. In particular, the planner always benefits from randomizing the allocation to some agents.",
+    "path": "papers/23/02/2302.09168.json",
+    "total_tokens": 797,
+    "translated_title": "通过比赛筛选信号操纵代理商",
+    "translated_abstract": "我们研究了在竞争和操纵的条件下，筛选机制的设计。一个社会规划者只有有限的资源可以分配给多个代理商，只能使用通过无生产性努力操纵的信号。我们证明了最大化福利的机制采用比赛形式，并表征了最优的比赛。我们将我们的结果应用于两种情况:规划者只有一个物品或者与代理商数量成比例的多个物品。我们证明，在这两种情况下，当代理商足够多的时候，全胜制的比赛从不是最优的。特别地，规划者总是从对一些代理商的随机分配中获益。",
+    "tldr": "本研究研究了在竞争和操纵的条件下，通过比赛筛选信号操纵代理商的设计。我们发现最大化福利的机制采用比赛形式，并表征了最优的比赛。当代理商足够多时，全胜制的比赛从不是最优的，规划者总是从对一些代理商的随机分配中获益。",
+    "en_tdlr": "This study investigates the design of screening signal-manipulating agents through contests under competition and manipulation. The welfare-maximizing mechanism is found to take the form of a contest, and the optimal contest is characterized. A winner-takes-all contest is never optimal when there are a sufficient number of agents, and the planner always benefits from randomizing the allocation to some agents."
+}

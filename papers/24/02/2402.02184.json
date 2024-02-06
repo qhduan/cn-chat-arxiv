@@ -1,0 +1,12 @@
+{
+    "title": "Sentiment analysis in non-fixed length audios using a Fully Convolutional Neural Network",
+    "abstract": "In this work, a sentiment analysis method that is capable of accepting audio of any length, without being fixed a priori, is proposed. Mel spectrogram and Mel Frequency Cepstral Coefficients are used as audio description methods and a Fully Convolutional Neural Network architecture is proposed as a classifier. The results have been validated using three well known datasets: EMODB, RAVDESS, and TESS. The results obtained were promising, outperforming the state-of-the-art methods. Also, thanks to the fact that the proposed method admits audios of any size, it allows a sentiment analysis to be made in near real time, which is very interesting for a wide range of fields such as call centers, medical consultations, or financial brokers.",
+    "link": "https://arxiv.org/abs/2402.02184",
+    "context": "Title: Sentiment analysis in non-fixed length audios using a Fully Convolutional Neural Network\nAbstract: In this work, a sentiment analysis method that is capable of accepting audio of any length, without being fixed a priori, is proposed. Mel spectrogram and Mel Frequency Cepstral Coefficients are used as audio description methods and a Fully Convolutional Neural Network architecture is proposed as a classifier. The results have been validated using three well known datasets: EMODB, RAVDESS, and TESS. The results obtained were promising, outperforming the state-of-the-art methods. Also, thanks to the fact that the proposed method admits audios of any size, it allows a sentiment analysis to be made in near real time, which is very interesting for a wide range of fields such as call centers, medical consultations, or financial brokers.",
+    "path": "papers/24/02/2402.02184.json",
+    "total_tokens": 729,
+    "translated_title": "使用全卷积神经网络在非固定长度的音频中进行情感分析",
+    "translated_abstract": "本文提出了一种能够接受任意长度音频的情感分析方法，不需要事先固定长度。该方法使用Mel频谱图和Mel频率倒谱系数作为音频描述方法，并提出了一种全卷积神经网络架构作为分类器。通过使用EMODB、RAVDESS和TESS三个知名数据集进行验证，结果表明该方法的表现优于现有最先进方法。此外，由于该方法可以接受任意大小的音频，因此可以实时进行情感分析，这对于呼叫中心、医疗咨询或金融经纪等多个领域非常有意义。",
+    "tldr": "提出了一种使用全卷积神经网络在非固定长度的音频上进行情感分析的方法，使用Mel频谱图和Mel频率倒谱系数作为音频描述方法，并在多个数据集上验证了其有效性。",
+    "en_tdlr": "A method using a Fully Convolutional Neural Network for sentiment analysis in non-fixed length audios is proposed, using Mel spectrogram and Mel Frequency Cepstral Coefficients as audio description methods and validated on multiple datasets."
+}

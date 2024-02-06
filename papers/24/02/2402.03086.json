@@ -1,0 +1,12 @@
+{
+    "title": "Dual Lagrangian Learning for Conic Optimization",
+    "abstract": "This paper presents Dual Lagrangian Learning (DLL), a principled learning methodology that combines conic duality theory with the represen- tation power of ML models. DLL leverages conic duality to provide dual-feasible solutions, and therefore valid Lagrangian dual bounds, for para- metric linear and nonlinear conic optimization problems. The paper introduces differentiable conic projection layers, a systematic dual com- pletion procedure, and a self-supervised learning framework. The effectiveness of DLL is demon- strated on linear and nonlinear parametric opti- mization problems for which DLL provides valid dual bounds within 0.5% of optimality.",
+    "link": "https://arxiv.org/abs/2402.03086",
+    "context": "Title: Dual Lagrangian Learning for Conic Optimization\nAbstract: This paper presents Dual Lagrangian Learning (DLL), a principled learning methodology that combines conic duality theory with the represen- tation power of ML models. DLL leverages conic duality to provide dual-feasible solutions, and therefore valid Lagrangian dual bounds, for para- metric linear and nonlinear conic optimization problems. The paper introduces differentiable conic projection layers, a systematic dual com- pletion procedure, and a self-supervised learning framework. The effectiveness of DLL is demon- strated on linear and nonlinear parametric opti- mization problems for which DLL provides valid dual bounds within 0.5% of optimality.",
+    "path": "papers/24/02/2402.03086.json",
+    "total_tokens": 742,
+    "translated_title": "对偶拉格朗日学习用于锥优化问题",
+    "translated_abstract": "本文介绍了对偶拉格朗日学习（DLL），一种结合锥对偶理论和机器学习模型表示能力的原理性学习方法。DLL利用锥对偶提供对偶可行解，并因此对参数化线性和非线性锥优化问题提供有效的拉格朗日对偶界限。本文引入了可微分锥投影层，一个系统的对偶完成过程以及一个自监督学习框架。DLL的有效性在线性和非线性参数化优化问题上得到了证明，DLL可以在优化性能的0.5%之内提供有效的对偶界限。",
+    "tldr": "本文介绍了对偶拉格朗日学习（DLL）方法，通过结合锥对偶理论和机器学习模型表示能力，在参数化线性和非线性锥优化问题上提供了有效的拉格朗日对偶界限，证明了其性能在优化问题上接近最优解的0.5%。",
+    "en_tdlr": "This paper presents Dual Lagrangian Learning (DLL), a principled learning methodology that combines conic duality theory with the representation power of ML models. The effectiveness of DLL is demonstrated on linear and nonlinear parametric optimization problems for which DLL provides valid dual bounds within 0.5% of optimality."
+}

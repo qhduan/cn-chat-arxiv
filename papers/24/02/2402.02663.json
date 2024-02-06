@@ -1,0 +1,12 @@
+{
+    "title": "Counterfactual Fairness Is Not Demographic Parity, and Other Observations",
+    "abstract": "Blanket statements of equivalence between causal concepts and purely probabilistic concepts should be approached with care. In this short note, I examine a recent claim that counterfactual fairness is equivalent to demographic parity. The claim fails to hold up upon closer examination. I will take the opportunity to address some broader misunderstandings about counterfactual fairness.",
+    "link": "https://arxiv.org/abs/2402.02663",
+    "context": "Title: Counterfactual Fairness Is Not Demographic Parity, and Other Observations\nAbstract: Blanket statements of equivalence between causal concepts and purely probabilistic concepts should be approached with care. In this short note, I examine a recent claim that counterfactual fairness is equivalent to demographic parity. The claim fails to hold up upon closer examination. I will take the opportunity to address some broader misunderstandings about counterfactual fairness.",
+    "path": "papers/24/02/2402.02663.json",
+    "total_tokens": 612,
+    "translated_title": "计算上的公正并非人口统计数据的平等，以及其他观察",
+    "translated_abstract": "需要谨慎对待在因果概念与纯粹概率概念之间进行等价性的断言。在本简短的文章中，我对最近一个声称计算上的公正等同于人口统计数据的平等的主张进行了审查。仔细研究后发现该主张不成立。我将借此机会解决一些关于计算上的公正的更广泛误解。",
+    "tldr": "这里是中文总结出的一句话要点：文章探讨了因果概念与纯粹概率概念之间的等价性，并发现计算上的公正并不等同于人口统计数据的平等。同时还纠正了一些有关计算上的公正的误解。",
+    "en_tdlr": "Here is the English summary of the main points: The paper examines the equivalence between causal concepts and purely probabilistic concepts, and finds that counterfactual fairness is not equivalent to demographic parity. Additionally, the paper addresses some misunderstandings about counterfactual fairness."
+}

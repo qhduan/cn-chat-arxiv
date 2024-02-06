@@ -1,0 +1,12 @@
+{
+    "title": "SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training?",
+    "abstract": "We present SynthCLIP, a novel framework for training CLIP models with entirely synthetic text-image pairs, significantly departing from previous methods relying on real data. Leveraging recent text-to-image (TTI) generative networks and large language models (LLM), we are able to generate synthetic datasets of images and corresponding captions at any scale, with no human intervention. With training at scale, SynthCLIP achieves performance comparable to CLIP models trained on real datasets. We also introduce SynthCI-30M, a purely synthetic dataset comprising 30 million captioned images. Our code, trained models, and generated data are released at https://github.com/hammoudhasan/SynthCLIP",
+    "link": "https://arxiv.org/abs/2402.01832",
+    "context": "Title: SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training?\nAbstract: We present SynthCLIP, a novel framework for training CLIP models with entirely synthetic text-image pairs, significantly departing from previous methods relying on real data. Leveraging recent text-to-image (TTI) generative networks and large language models (LLM), we are able to generate synthetic datasets of images and corresponding captions at any scale, with no human intervention. With training at scale, SynthCLIP achieves performance comparable to CLIP models trained on real datasets. We also introduce SynthCI-30M, a purely synthetic dataset comprising 30 million captioned images. Our code, trained models, and generated data are released at https://github.com/hammoudhasan/SynthCLIP",
+    "path": "papers/24/02/2402.01832.json",
+    "total_tokens": 744,
+    "translated_title": "SynthCLIP: 我们准备好开始完全合成的CLIP训练了吗？",
+    "translated_abstract": "我们提出了SynthCLIP，一种新颖的用于训练完全合成的CLIP模型的框架，与之前依赖真实数据的方法有着显著区别。借助最近的文本到图像生成网络和大型语言模型，我们能够生成任意规模的图像和相应的标题的合成数据集，无需人为干预。通过大规模的训练，SynthCLIP实现了与在真实数据集上训练的CLIP模型相当的性能。我们还介绍了SynthCI-30M，一个纯粹合成的数据集，包含3000万张带标题的图片。我们的代码、训练模型和生成的数据已经在https://github.com/hammoudhasan/SynthCLIP发布。",
+    "tldr": "SynthCLIP是一种新的框架，用于训练完全合成的CLIP模型，通过生成大规模的合成图片和标题数据集，在性能上可以与在真实数据上训练的CLIP模型相媲美。",
+    "en_tdlr": "SynthCLIP is a novel framework for training fully synthetic CLIP models, achieving performance comparable to models trained on real data by generating large-scale synthetic image and caption datasets."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "A Paradigm for Potential Model Performance Improvement in Classification and Regression Problems. A Proof of Concept",
+    "abstract": "A methodology that seeks to enhance model prediction performance is presented. The method involves generating multiple auxiliary models that capture relationships between attributes as a function of each other. Such information serves to generate additional informative columns in the dataset that can potentially enhance target prediction. A proof of case and related code is provided.",
+    "link": "https://arxiv.org/abs/2402.02354",
+    "context": "Title: A Paradigm for Potential Model Performance Improvement in Classification and Regression Problems. A Proof of Concept\nAbstract: A methodology that seeks to enhance model prediction performance is presented. The method involves generating multiple auxiliary models that capture relationships between attributes as a function of each other. Such information serves to generate additional informative columns in the dataset that can potentially enhance target prediction. A proof of case and related code is provided.",
+    "path": "papers/24/02/2402.02354.json",
+    "total_tokens": 536,
+    "translated_title": "分类和回归问题中潜在模型性能改进的范式：一个概念验证",
+    "translated_abstract": "本文提出了一种旨在增强模型预测性能的方法论。该方法涉及生成多个辅助模型，以捕捉属性之间的关系。这些信息用于在数据集中生成额外的信息列，从而潜在地增强目标预测。文中提供了一个概念验证案例和相关代码。",
+    "tldr": "本文提出了一种方法来增强模型预测性能，通过生成多个辅助模型捕捉属性之间的关系，并生成额外的信息列来潜在地增强目标预测。"
+}

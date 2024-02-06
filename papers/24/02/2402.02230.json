@@ -1,0 +1,11 @@
+{
+    "title": "Federated Learning with Differential Privacy",
+    "abstract": "Federated learning (FL), as a type of distributed machine learning, is capable of significantly preserving client's private data from being shared among different parties. Nevertheless, private information can still be divulged by analyzing uploaded parameter weights from clients. In this report, we showcase our empirical benchmark of the effect of the number of clients and the addition of differential privacy (DP) mechanisms on the performance of the model on different types of data. Our results show that non-i.i.d and small datasets have the highest decrease in performance in a distributed and differentially private setting.",
+    "link": "https://arxiv.org/abs/2402.02230",
+    "context": "Title: Federated Learning with Differential Privacy\nAbstract: Federated learning (FL), as a type of distributed machine learning, is capable of significantly preserving client's private data from being shared among different parties. Nevertheless, private information can still be divulged by analyzing uploaded parameter weights from clients. In this report, we showcase our empirical benchmark of the effect of the number of clients and the addition of differential privacy (DP) mechanisms on the performance of the model on different types of data. Our results show that non-i.i.d and small datasets have the highest decrease in performance in a distributed and differentially private setting.",
+    "path": "papers/24/02/2402.02230.json",
+    "total_tokens": 653,
+    "translated_title": "带有差分隐私的联邦学习",
+    "translated_abstract": "联邦学习作为一种分布式机器学习方法，能够显著保护客户的私密数据，避免在不同参与方之间共享。然而，通过分析来自客户端上传的参数权重，私密信息仍然可能泄露。在本报告中，我们展示了关于客户数量和差分隐私机制对不同数据类型模型性能的实证基准测试。我们的结果表明，在分布式和差分隐私设置下，非独立同分布和小型数据集的性能下降最为严重。",
+    "tldr": "本论文研究了带有差分隐私的联邦学习对模型性能的影响，发现在分布式和差分隐私设置下，非独立同分布和小型数据集的性能下降最为严重。"
+}

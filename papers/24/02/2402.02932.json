@@ -1,0 +1,12 @@
+{
+    "title": "Domain Adaptation of Multilingual Semantic Search - Literature Review",
+    "abstract": "This literature review gives an overview of current approaches to perform domain adaptation in a low-resource and approaches to perform multilingual semantic search in a low-resource setting. We developed a new typology to cluster domain adaptation approaches based on the part of dense textual information retrieval systems, which they adapt, focusing on how to combine them efficiently. We also explore the possibilities of combining multilingual semantic search with domain adaptation approaches for dense retrievers in a low-resource setting.",
+    "link": "https://arxiv.org/abs/2402.02932",
+    "context": "Title: Domain Adaptation of Multilingual Semantic Search - Literature Review\nAbstract: This literature review gives an overview of current approaches to perform domain adaptation in a low-resource and approaches to perform multilingual semantic search in a low-resource setting. We developed a new typology to cluster domain adaptation approaches based on the part of dense textual information retrieval systems, which they adapt, focusing on how to combine them efficiently. We also explore the possibilities of combining multilingual semantic search with domain adaptation approaches for dense retrievers in a low-resource setting.",
+    "path": "papers/24/02/2402.02932.json",
+    "total_tokens": 646,
+    "translated_title": "多语义搜索的领域自适应- 文献综述",
+    "translated_abstract": "这篇文献综述概述了在低资源环境下进行领域自适应和进行多语义搜索的当前方法。我们开发了一个新的分类方法来对领域自适应方法进行聚类，基于密集文本信息检索系统的部分，并注重如何有效地将它们进行组合。我们还探讨了将多语义搜索与低资源环境下的密集检索器的领域自适应方法进行组合的可能性。",
+    "tldr": "这篇文献综述对当前在低资源环境下进行领域自适应和多语义搜索的方法进行了概述，提出了一种新的方法来聚类和有效地组合这些方法，并探讨了在低资源环境下将多语义搜索与领域自适应方法进行组合的可能性。",
+    "en_tdlr": "This literature review provides an overview of current approaches for domain adaptation and multilingual semantic search in low-resource settings. It introduces a new method to cluster and efficiently combine these approaches, and explores the possibility of combining multilingual semantic search with domain adaptation in low-resource environments."
+}

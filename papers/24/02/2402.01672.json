@@ -1,0 +1,11 @@
+{
+    "title": "Prerequisite Structure Discovery in Intelligent Tutoring Systems",
+    "abstract": "This paper addresses the importance of Knowledge Structure (KS) and Knowledge Tracing (KT) in improving the recommendation of educational content in intelligent tutoring systems. The KS represents the relations between different Knowledge Components (KCs), while KT predicts a learner's success based on her past history. The contribution of this research includes proposing a KT model that incorporates the KS as a learnable parameter, enabling the discovery of the underlying KS from learner trajectories. The quality of the uncovered KS is assessed by using it to recommend content and evaluating the recommendation algorithm with simulated students.",
+    "link": "https://arxiv.org/abs/2402.01672",
+    "context": "Title: Prerequisite Structure Discovery in Intelligent Tutoring Systems\nAbstract: This paper addresses the importance of Knowledge Structure (KS) and Knowledge Tracing (KT) in improving the recommendation of educational content in intelligent tutoring systems. The KS represents the relations between different Knowledge Components (KCs), while KT predicts a learner's success based on her past history. The contribution of this research includes proposing a KT model that incorporates the KS as a learnable parameter, enabling the discovery of the underlying KS from learner trajectories. The quality of the uncovered KS is assessed by using it to recommend content and evaluating the recommendation algorithm with simulated students.",
+    "path": "papers/24/02/2402.01672.json",
+    "total_tokens": 681,
+    "translated_title": "智能辅导系统中的先决条件结构发现",
+    "translated_abstract": "本文讨论了在智能辅导系统中，知识结构（KS）和知识追踪（KT）对提高教育内容推荐的重要性。KS表示不同知识组件（KCs）之间的关系，而KT根据学习者的过去历史来预测其成功。本研究的贡献包括提出了一个将KS作为可学习参数合并到KT模型中的方法，从而能够从学习者轨迹中发现潜在的KS。通过使用发现的KS进行内容推荐，并利用模拟学生评估推荐算法，评估揭示的KS的质量。",
+    "tldr": "本研究提出了一种在智能辅导系统中整合知识结构和知识追踪的方法，通过学习者轨迹发现潜在的先决条件结构，并应用于内容推荐和评估推荐算法。"
+}
