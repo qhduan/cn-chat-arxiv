@@ -1,0 +1,11 @@
+{
+    "title": "Deep Reinforcement Learning for Picker Routing Problem in Warehousing",
+    "abstract": "Order Picker Routing is a critical issue in Warehouse Operations Management. Due to the complexity of the problem and the need for quick solutions, suboptimal algorithms are frequently employed in practice. However, Reinforcement Learning offers an appealing alternative to traditional heuristics, potentially outperforming existing methods in terms of speed and accuracy. We introduce an attention based neural network for modeling picker tours, which is trained using Reinforcement Learning. Our method is evaluated against existing heuristics across a range of problem parameters to demonstrate its efficacy. A key advantage of our proposed method is its ability to offer an option to reduce the perceived complexity of routes.",
+    "link": "https://arxiv.org/abs/2402.03525",
+    "context": "Title: Deep Reinforcement Learning for Picker Routing Problem in Warehousing\nAbstract: Order Picker Routing is a critical issue in Warehouse Operations Management. Due to the complexity of the problem and the need for quick solutions, suboptimal algorithms are frequently employed in practice. However, Reinforcement Learning offers an appealing alternative to traditional heuristics, potentially outperforming existing methods in terms of speed and accuracy. We introduce an attention based neural network for modeling picker tours, which is trained using Reinforcement Learning. Our method is evaluated against existing heuristics across a range of problem parameters to demonstrate its efficacy. A key advantage of our proposed method is its ability to offer an option to reduce the perceived complexity of routes.",
+    "path": "papers/24/02/2402.03525.json",
+    "total_tokens": 746,
+    "translated_title": "深度强化学习在仓储中的拣选车辆路径问题中的应用",
+    "translated_abstract": "订单拣选车辆路径是仓库运营管理中的关键问题。由于问题的复杂性和需要快速解决方案的需求，实践中常常使用次优算法。然而，强化学习提供了一种吸引人的替代传统启发式方法的选择，可能在速度和准确度方面优于现有方法。我们引入了一种基于注意力机制的神经网络来建模拣选车辆路径，该网络通过强化学习进行训练。我们的方法在一系列问题参数上与现有启发式算法进行了评估，展示了其效果。我们提出方法的一个重要优点是可以降低路径的感知复杂度。",
+    "tldr": "本研究提出了一种基于注意力机制的神经网络模型，通过深度强化学习解决仓储中的拣选车辆路径问题。与传统启发式方法相比，该方法具有更快的速度和准确度，并能降低路径的感知复杂度。"
+}

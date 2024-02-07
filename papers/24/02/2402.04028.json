@@ -1,0 +1,12 @@
+{
+    "title": "AlbNews: A Corpus of Headlines for Topic Modeling in Albanian",
+    "abstract": "The scarcity of available text corpora for low-resource languages like Albanian is a serious hurdle for research in natural language processing tasks. This paper introduces AlbNews, a collection of 600 topically labeled news headlines and 2600 unlabeled ones in Albanian. The data can be freely used for conducting topic modeling research. We report the initial classification scores of some traditional machine learning classifiers trained with the AlbNews samples. These results show that basic models outrun the ensemble learning ones and can serve as a baseline for future experiments.",
+    "link": "https://arxiv.org/abs/2402.04028",
+    "context": "Title: AlbNews: A Corpus of Headlines for Topic Modeling in Albanian\nAbstract: The scarcity of available text corpora for low-resource languages like Albanian is a serious hurdle for research in natural language processing tasks. This paper introduces AlbNews, a collection of 600 topically labeled news headlines and 2600 unlabeled ones in Albanian. The data can be freely used for conducting topic modeling research. We report the initial classification scores of some traditional machine learning classifiers trained with the AlbNews samples. These results show that basic models outrun the ensemble learning ones and can serve as a baseline for future experiments.",
+    "path": "papers/24/02/2402.04028.json",
+    "total_tokens": 683,
+    "translated_title": "AlbNews：阿尔巴尼亚语主题建模标题语料库",
+    "translated_abstract": "阿尔巴尼亚语等低资源语言的文本语料库稀缺，这对自然语言处理任务的研究是一个严重的障碍。本文介绍了AlbNews，一个包含600个主题标签的新闻标题和2600个未标签的阿尔巴尼亚语数据集。这些数据可用于进行主题建模研究。我们报告了使用AlbNews样本训练的一些传统机器学习分类器的初始分类得分。这些结果表明基本模型胜过集成学习模型，并可作为未来实验的基准。",
+    "tldr": "本文介绍了一个包含600个主题标签的新闻标题和2600个未标签的阿尔巴尼亚语数据集，该数据集对于低资源语言的自然语言处理研究非常有价值，同时也证实了基本模型的优越性能。",
+    "en_tdlr": "This paper introduces a corpus of 600 topically labeled news headlines and 2600 unlabeled ones in Albanian, which is valuable for natural language processing research on low-resource languages and confirms the superiority of basic models."
+}

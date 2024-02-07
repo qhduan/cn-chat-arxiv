@@ -1,0 +1,11 @@
+{
+    "title": "Detection of tortured phrases in scientific literature",
+    "abstract": "This paper presents various automatic detection methods to extract so called tortured phrases from scientific papers. These tortured phrases, e.g. flag to clamor instead of signal to noise, are the results of paraphrasing tools used to escape plagiarism detection. We built a dataset and evaluated several strategies to flag previously undocumented tortured phrases. The proposed and tested methods are based on language models and either on embeddings similarities or on predictions of masked token. We found that an approach using token prediction and that propagates the scores to the chunk level gives the best results. With a recall value of .87 and a precision value of .61, it could retrieve new tortured phrases to be submitted to domain experts for validation.",
+    "link": "https://arxiv.org/abs/2402.03370",
+    "context": "Title: Detection of tortured phrases in scientific literature\nAbstract: This paper presents various automatic detection methods to extract so called tortured phrases from scientific papers. These tortured phrases, e.g. flag to clamor instead of signal to noise, are the results of paraphrasing tools used to escape plagiarism detection. We built a dataset and evaluated several strategies to flag previously undocumented tortured phrases. The proposed and tested methods are based on language models and either on embeddings similarities or on predictions of masked token. We found that an approach using token prediction and that propagates the scores to the chunk level gives the best results. With a recall value of .87 and a precision value of .61, it could retrieve new tortured phrases to be submitted to domain experts for validation.",
+    "path": "papers/24/02/2402.03370.json",
+    "total_tokens": 715,
+    "translated_title": "检测科学文献中的拙劣短语",
+    "translated_abstract": "本文介绍了多种自动检测方法，用于从科学论文中提取所谓的拙劣短语。这些拙劣短语，例如将\"信号与噪声\"替换为\"旗帜与喧闹\"，是使用改写工具规避抄袭检测的结果。我们构建了一个数据集，并评估了几种策略来标记以前未记录的拙劣短语。提出和测试的方法基于语言模型，要么基于嵌入相似性，要么基于掩码标记的预测。我们发现，一种使用标记预测并将分数传播到块级别的方法效果最好。其召回率为0.87，精确率为0.61，可以检索到新的拙劣短语以供领域专家验证。",
+    "tldr": "本文介绍了自动检测科学论文中拙劣短语的方法，通过语言模型和预测分数的传播，可以高效地标记并提取这些拙劣短语，为领域专家验证提供新的数据。"
+}

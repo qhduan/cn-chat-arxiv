@@ -1,0 +1,12 @@
+{
+    "title": "Consistent Joint Decision-Making with Heterogeneous Learning Models",
+    "abstract": "This paper introduces a novel decision-making framework that promotes consistency among decisions made by diverse models while utilizing external knowledge. Leveraging the Integer Linear Programming (ILP) framework, we map predictions from various models into globally normalized and comparable values by incorporating information about decisions' prior probability, confidence (uncertainty), and the models' expected accuracy. Our empirical study demonstrates the superiority of our approach over conventional baselines on multiple datasets.",
+    "link": "https://arxiv.org/abs/2402.03728",
+    "context": "Title: Consistent Joint Decision-Making with Heterogeneous Learning Models\nAbstract: This paper introduces a novel decision-making framework that promotes consistency among decisions made by diverse models while utilizing external knowledge. Leveraging the Integer Linear Programming (ILP) framework, we map predictions from various models into globally normalized and comparable values by incorporating information about decisions' prior probability, confidence (uncertainty), and the models' expected accuracy. Our empirical study demonstrates the superiority of our approach over conventional baselines on multiple datasets.",
+    "path": "papers/24/02/2402.03728.json",
+    "total_tokens": 642,
+    "translated_title": "异构学习模型的一致联合决策",
+    "translated_abstract": "本文介绍了一种新颖的决策框架，促进了由不同模型做出的决策之间的一致性，并利用外部知识。通过利用整数线性规划（ILP）框架，我们将各种模型的预测映射到全局归一化和可比较的值，同时考虑到决策的先验概率、置信度（不确定性）和模型的预期准确性。我们的实证研究证明了我们的方法在多个数据集上优于传统基准方法。",
+    "tldr": "本文提出了一种新颖的决策框架，通过整合不同模型的预测和外部知识，实现了决策的一致性。经过实证研究，我们的方法在多个数据集上表现出优越性能。",
+    "en_tdlr": "This paper introduces a novel decision-making framework that promotes consistency among decisions made by diverse models while utilizing external knowledge. Our approach, leveraging the Integer Linear Programming (ILP) framework, demonstrates superiority over conventional baselines on multiple datasets."
+}

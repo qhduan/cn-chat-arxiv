@@ -1,0 +1,11 @@
+{
+    "title": "A mathematical perspective on Transformers",
+    "abstract": "Transformers play a central role in the inner workings of large language models. We develop a mathematical framework for analyzing Transformers based on their interpretation as interacting particle systems, which reveals that clusters emerge in long time. Our study explores the underlying theory and offers new perspectives for mathematicians as well as computer scientists.",
+    "link": "https://arxiv.org/abs/2312.10794",
+    "context": "Title: A mathematical perspective on Transformers\nAbstract: Transformers play a central role in the inner workings of large language models. We develop a mathematical framework for analyzing Transformers based on their interpretation as interacting particle systems, which reveals that clusters emerge in long time. Our study explores the underlying theory and offers new perspectives for mathematicians as well as computer scientists.",
+    "path": "papers/23/12/2312.10794.json",
+    "total_tokens": 505,
+    "translated_title": "Transformers的数学视角",
+    "translated_abstract": "Transformers在大型语言模型的内部工作中起着核心作用。我们基于将Transformers解释为相互作用的粒子系统，开发了一个数学框架来分析Transformers，揭示了长时间下的集团形成。我们的研究探索了潜在的理论，并为数学家和计算机科学家提供了新的视角。",
+    "tldr": "该论文提出了一种数学框架用于分析Transformers，并揭示了在长时间下的集团形成。这一研究为数学家和计算机科学家提供了新的视角。"
+}

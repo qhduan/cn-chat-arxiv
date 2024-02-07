@@ -1,0 +1,12 @@
+{
+    "title": "A Framework for Bilevel Optimization on Riemannian Manifolds",
+    "abstract": "Bilevel optimization has seen an increasing presence in various domains of applications. In this work, we propose a framework for solving bilevel optimization problems where variables of both lower and upper level problems are constrained on Riemannian manifolds. We provide several hypergradient estimation strategies on manifolds and study their estimation error. We provide convergence and complexity analysis for the proposed hypergradient descent algorithm on manifolds. We also extend the developments to stochastic bilevel optimization and to the use of general retraction. We showcase the utility of the proposed framework on various applications.",
+    "link": "https://arxiv.org/abs/2402.03883",
+    "context": "Title: A Framework for Bilevel Optimization on Riemannian Manifolds\nAbstract: Bilevel optimization has seen an increasing presence in various domains of applications. In this work, we propose a framework for solving bilevel optimization problems where variables of both lower and upper level problems are constrained on Riemannian manifolds. We provide several hypergradient estimation strategies on manifolds and study their estimation error. We provide convergence and complexity analysis for the proposed hypergradient descent algorithm on manifolds. We also extend the developments to stochastic bilevel optimization and to the use of general retraction. We showcase the utility of the proposed framework on various applications.",
+    "path": "papers/24/02/2402.03883.json",
+    "total_tokens": 763,
+    "translated_title": "在黎曼流形上进行双层优化的框架",
+    "translated_abstract": "双层优化在各个领域的应用中越来越常见。在这项工作中，我们提出了一个在黎曼流形上约束双层优化问题变量的框架。我们提供了几种在流形上的超梯度估计策略，并研究了它们的估计误差。我们对流形上的超梯度下降算法提供了收敛性和复杂性分析。我们还将这些研究扩展到随机双层优化和使用一般的回退。我们展示了该框架在各种应用中的实用性。",
+    "tldr": "本论文提出了一个在黎曼流形上解决约束双层优化问题的框架，并提供了多种超梯度估计策略，并对其进行了研究。该框架不仅适用于确定性双层优化问题，还适用于随机双层优化问题，并且可以使用一般的回退。在各种应用中，该框架都具有很高的实用性。",
+    "en_tdlr": "This paper proposes a framework to solve constrained bilevel optimization problems on Riemannian manifolds and provides various hypergradient estimation strategies. The framework is applicable to both deterministic and stochastic bilevel optimization problems and can use general retraction. It demonstrates high utility in various applications."
+}

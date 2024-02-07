@@ -1,0 +1,11 @@
+{
+    "title": "SimLM: Can Language Models Infer Parameters of Physical Systems?",
+    "abstract": "Several machine learning methods aim to learn or reason about complex physical systems. A common first-step towards reasoning is to infer system parameters from observations of its behavior. In this paper, we investigate the performance of Large Language Models (LLMs) at performing parameter inference in the context of physical systems. Our experiments suggest that they are not inherently suited to this task, even for simple systems. We propose a promising direction of exploration, which involves the use of physical simulators to augment the context of LLMs. We assess and compare the performance of different LLMs on a simple example with and without access to physical simulation.",
+    "link": "https://arxiv.org/abs/2312.14215",
+    "context": "Title: SimLM: Can Language Models Infer Parameters of Physical Systems?\nAbstract: Several machine learning methods aim to learn or reason about complex physical systems. A common first-step towards reasoning is to infer system parameters from observations of its behavior. In this paper, we investigate the performance of Large Language Models (LLMs) at performing parameter inference in the context of physical systems. Our experiments suggest that they are not inherently suited to this task, even for simple systems. We propose a promising direction of exploration, which involves the use of physical simulators to augment the context of LLMs. We assess and compare the performance of different LLMs on a simple example with and without access to physical simulation.",
+    "path": "papers/23/12/2312.14215.json",
+    "total_tokens": 732,
+    "translated_title": "SimLM：语言模型能否推断物理系统的参数？",
+    "translated_abstract": "许多机器学习方法旨在学习或推理复杂的物理系统。推理的常见第一步是从系统行为的观察中推断系统参数。在本文中，我们研究了大型语言模型（LLMs）在物理系统上执行参数推断的性能。我们的实验证明，它们并不适用于这个任务，即使对于简单的系统也是如此。我们提出了一个有前景的研究方向，该方向涉及到使用物理模拟器来增强LLMs的背景。我们评估和比较了不同LLMs在一个简单的示例上的性能，有无物理模拟器的情况下。",
+    "tldr": "本研究探究了大型语言模型在推断物理系统参数方面的性能，发现它们并不适合这个任务，即使是对于简单的系统也是如此。研究提出了一个有前景的方向，即利用物理模拟器来增强语言模型的背景。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Selecting Seed Words for Wordle using Character Statistics",
+    "abstract": "Wordle, a word guessing game rose to global popularity in the January of 2022. The goal of the game is to guess a five-letter English word within six tries. Each try provides the player with hints by means of colour changing tiles which inform whether or not a given character is part of the solution as well as, in cases where it is part of the solution, whether or not it is in the correct placement. Numerous attempts have been made to find the best starting word and best strategy to solve the daily wordle. This study uses character statistics of five-letter words to determine the best three starting words.",
+    "link": "https://arxiv.org/abs/2202.03457",
+    "context": "Title: Selecting Seed Words for Wordle using Character Statistics\nAbstract: Wordle, a word guessing game rose to global popularity in the January of 2022. The goal of the game is to guess a five-letter English word within six tries. Each try provides the player with hints by means of colour changing tiles which inform whether or not a given character is part of the solution as well as, in cases where it is part of the solution, whether or not it is in the correct placement. Numerous attempts have been made to find the best starting word and best strategy to solve the daily wordle. This study uses character statistics of five-letter words to determine the best three starting words.",
+    "path": "papers/22/02/2202.03457.json",
+    "total_tokens": 638,
+    "translated_title": "使用字符统计选择Wordle的种子词",
+    "translated_abstract": "Wordle是一款猜词游戏，在2022年1月全球爆红。游戏的目标是在六次尝试内猜出一个五个字母的英语单词。每次尝试都会通过颜色变化的方块给玩家提供提示，告知一个给定的字符是否是解答的一部分，以及在是解答的一部分时，是否正确地放置在其中。已经有很多尝试来找到解决每日Wordle的最佳初始词和最佳策略。本研究利用五个字母单词的字符统计来确定最佳的三个初始词。",
+    "tldr": "本研究通过分析五个字母单词的字符统计信息，选择出最佳的三个初始词来解决Wordle游戏。",
+    "en_tdlr": "This study uses character statistics of five-letter words to select the best three starting words for solving the game Wordle."
+}

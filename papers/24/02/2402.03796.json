@@ -1,0 +1,11 @@
+{
+    "title": "Face Detection: Present State and Research Directions",
+    "abstract": "The majority of computer vision applications that handle images featuring humans use face detection as a core component. Face detection still has issues, despite much research on the topic. Face detection's accuracy and speed might yet be increased. This review paper shows the progress made in this area as well as the substantial issues that still need to be tackled. The paper provides research directions that can be taken up as research projects in the field of face detection.",
+    "link": "https://arxiv.org/abs/2402.03796",
+    "context": "Title: Face Detection: Present State and Research Directions\nAbstract: The majority of computer vision applications that handle images featuring humans use face detection as a core component. Face detection still has issues, despite much research on the topic. Face detection's accuracy and speed might yet be increased. This review paper shows the progress made in this area as well as the substantial issues that still need to be tackled. The paper provides research directions that can be taken up as research projects in the field of face detection.",
+    "path": "papers/24/02/2402.03796.json",
+    "total_tokens": 596,
+    "translated_title": "人脸检测：现状与研究方向",
+    "translated_abstract": "大多数处理包含人类图像的计算机视觉应用都使用人脸检测作为核心组件。尽管对该主题进行了大量研究，但人脸检测仍然存在问题。人脸检测的准确性和速度仍有待提高。本综述论文展示了在这一领域取得的进展以及仍需解决的重大问题。该论文提供了可以作为人脸检测领域研究项目的研究方向。",
+    "tldr": "本文对人脸检测领域的现状进行了综述，指出了其存在的问题，并提供了研究方向，以提高人脸检测的准确性和速度。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Differentially Private High Dimensional Bandits",
+    "abstract": "We consider a high-dimensional stochastic contextual linear bandit problem when the parameter vector is $s_{0}$-sparse and the decision maker is subject to privacy constraints under both central and local models of differential privacy. We present PrivateLASSO, a differentially private LASSO bandit algorithm. PrivateLASSO is based on two sub-routines: (i) a sparse hard-thresholding-based privacy mechanism and (ii) an episodic thresholding rule for identifying the support of the parameter $\\theta$. We prove minimax private lower bounds and establish privacy and utility guarantees for PrivateLASSO for the central model under standard assumptions.",
+    "link": "https://arxiv.org/abs/2402.03737",
+    "context": "Title: Differentially Private High Dimensional Bandits\nAbstract: We consider a high-dimensional stochastic contextual linear bandit problem when the parameter vector is $s_{0}$-sparse and the decision maker is subject to privacy constraints under both central and local models of differential privacy. We present PrivateLASSO, a differentially private LASSO bandit algorithm. PrivateLASSO is based on two sub-routines: (i) a sparse hard-thresholding-based privacy mechanism and (ii) an episodic thresholding rule for identifying the support of the parameter $\\theta$. We prove minimax private lower bounds and establish privacy and utility guarantees for PrivateLASSO for the central model under standard assumptions.",
+    "path": "papers/24/02/2402.03737.json",
+    "total_tokens": 697,
+    "translated_title": "面向高维上下文线性赌臂问题的差分隐私算法",
+    "translated_abstract": "我们在参数向量为$s_{0}$-稀疏且决策制定者受到差分隐私的中央和本地模型的约束下考虑高维随机上下文线性赌臂问题。我们提出了PrivateLASSO，一种差分隐私LASSO赌臂算法。PrivateLASSO基于两个子程序：(i)基于稀疏硬阈值的隐私机制和(ii)用于识别参数$\\theta$支持集的阈值规则。我们证明了PrivateLASSO的最小最大私有下界，并在标准假设下建立了PrivateLASSO在中央模型下的隐私和实用性保证。",
+    "tldr": "这篇论文提出了PrivateLASSO算法，用于解决高维随机上下文线性赌臂问题，并在差分隐私的约束下证明了其隐私和实用性保证。",
+    "en_tdlr": "This paper proposes the PrivateLASSO algorithm to solve the high-dimensional stochastic contextual linear bandit problem, and proves the privacy and utility guarantees under the constraints of differential privacy."
+}

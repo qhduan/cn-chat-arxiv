@@ -1,0 +1,12 @@
+{
+    "title": "Batch Universal Prediction",
+    "abstract": "Large language models (LLMs) have recently gained much popularity due to their surprising ability at generating human-like English sentences. LLMs are essentially predictors, estimating the probability of a sequence of words given the past. Therefore, it is natural to evaluate their performance from a universal prediction perspective. In order to do that fairly, we introduce the notion of batch regret as a modification of the classical average regret, and we study its asymptotical value for add-constant predictors, in the case of memoryless sources and first-order Markov sources.",
+    "link": "https://arxiv.org/abs/2402.03901",
+    "context": "Title: Batch Universal Prediction\nAbstract: Large language models (LLMs) have recently gained much popularity due to their surprising ability at generating human-like English sentences. LLMs are essentially predictors, estimating the probability of a sequence of words given the past. Therefore, it is natural to evaluate their performance from a universal prediction perspective. In order to do that fairly, we introduce the notion of batch regret as a modification of the classical average regret, and we study its asymptotical value for add-constant predictors, in the case of memoryless sources and first-order Markov sources.",
+    "path": "papers/24/02/2402.03901.json",
+    "total_tokens": 682,
+    "translated_title": "批处理通用预测",
+    "translated_abstract": "大型语言模型（LLM）因其惊人的生成类似人类英语句子的能力而近年来备受关注。LLMs本质上是预测器，通过估计给定过去的单词序列的概率来评估它们的性能。因此，从通用预测的角度评估它们的性能是自然而然的。为了公平地进行评估，我们引入了批量遗憾的概念作为经典平均遗憾的修改，并研究了在无记忆源和一阶马尔可夫源的情况下，对于增加常数预测器的渐近值。",
+    "tldr": "该论文研究了大型语言模型（LLM）在通用预测方面的性能评估，引入了批量遗憾的概念，并研究了在无记忆源和一阶马尔可夫源的情况下的渐近值。",
+    "en_tdlr": "This paper investigates the performance evaluation of large language models (LLMs) in terms of universal prediction, introduces the notion of batch regret, and studies its asymptotical value for memoryless sources and first-order Markov sources."
+}

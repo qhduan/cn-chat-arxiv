@@ -1,0 +1,12 @@
+{
+    "title": "MobileVLM V2: Faster and Stronger Baseline for Vision Language Model",
+    "abstract": "We introduce MobileVLM V2, a family of significantly improved vision language models upon MobileVLM, which proves that a delicate orchestration of novel architectural design, an improved training scheme tailored for mobile VLMs, and rich high-quality dataset curation can substantially benefit VLMs' performance. Specifically, MobileVLM V2 1.7B achieves better or on-par performance on standard VLM benchmarks compared with much larger VLMs at the 3B scale. Notably, our 3B model outperforms a large variety of VLMs at the 7B+ scale. Our models will be released at https://github.com/Meituan-AutoML/MobileVLM .",
+    "link": "https://arxiv.org/abs/2402.03766",
+    "context": "Title: MobileVLM V2: Faster and Stronger Baseline for Vision Language Model\nAbstract: We introduce MobileVLM V2, a family of significantly improved vision language models upon MobileVLM, which proves that a delicate orchestration of novel architectural design, an improved training scheme tailored for mobile VLMs, and rich high-quality dataset curation can substantially benefit VLMs' performance. Specifically, MobileVLM V2 1.7B achieves better or on-par performance on standard VLM benchmarks compared with much larger VLMs at the 3B scale. Notably, our 3B model outperforms a large variety of VLMs at the 7B+ scale. Our models will be released at https://github.com/Meituan-AutoML/MobileVLM .",
+    "path": "papers/24/02/2402.03766.json",
+    "total_tokens": 754,
+    "translated_title": "MobileVLM V2: 更快更强的视觉语言模型基线",
+    "translated_abstract": "我们介绍了MobileVLM V2，这是一系列在MobileVLM基础上显著改进的视觉语言模型，证明了新颖的架构设计、为移动VLM量身定制的改进训练方案以及丰富的高质量数据集策划可以显著提升VLM的性能。具体而言，MobileVLM V2 1.7B在标准VLM基准测试中实现了与规模为3B的更大 VLMs 相媲美甚至更好的性能。值得注意的是，我们的3B模型在7B+范围内表现优于大量的VLMs。我们的模型将在https://github.com/Meituan-AutoML/MobileVLM 上发布。",
+    "tldr": "MobileVLM V2是在MobileVLM基础上改进的视觉语言模型，通过新颖的架构设计、改进的训练方案和高质量数据集，能够在标准测试中达到甚至超过大规模VLMs的性能。",
+    "en_tdlr": "MobileVLM V2 is an improved vision language model based on MobileVLM, which achieves better performance than even larger VLMs in standard benchmarks through novel architectural design, improved training scheme, and high-quality dataset."
+}

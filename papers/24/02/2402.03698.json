@@ -1,0 +1,12 @@
+{
+    "title": "Estimating the Local Learning Coefficient at Scale",
+    "abstract": "The \\textit{local learning coefficient} (LLC) is a principled way of quantifying model complexity, originally derived in the context of Bayesian statistics using singular learning theory (SLT). Several methods are known for numerically estimating the local learning coefficient, but so far these methods have not been extended to the scale of modern deep learning architectures or data sets. Using a method developed in {\\tt arXiv:2308.12108 [stat.ML]} we empirically show how the LLC may be measured accurately and self-consistently for deep linear networks (DLNs) up to 100M parameters. We also show that the estimated LLC has the rescaling invariance that holds for the theoretical quantity.",
+    "link": "https://arxiv.org/abs/2402.03698",
+    "context": "Title: Estimating the Local Learning Coefficient at Scale\nAbstract: The \\textit{local learning coefficient} (LLC) is a principled way of quantifying model complexity, originally derived in the context of Bayesian statistics using singular learning theory (SLT). Several methods are known for numerically estimating the local learning coefficient, but so far these methods have not been extended to the scale of modern deep learning architectures or data sets. Using a method developed in {\\tt arXiv:2308.12108 [stat.ML]} we empirically show how the LLC may be measured accurately and self-consistently for deep linear networks (DLNs) up to 100M parameters. We also show that the estimated LLC has the rescaling invariance that holds for the theoretical quantity.",
+    "path": "papers/24/02/2402.03698.json",
+    "total_tokens": 727,
+    "translated_title": "在大规模情况下估计局部学习系数",
+    "translated_abstract": "局部学习系数(LLC)是一种量化模型复杂性的原则性方法，最初是在贝叶斯统计中使用奇异学习理论(SLT)推导出来的。已知有几种数值估计局部学习系数的方法，但迄今为止这些方法尚未扩展到现代深度学习架构或数据集的规模。通过在arXiv:2308.12108 [stat.ML]中开发的一种方法，我们经验证明可以准确和自洽地测量深度线性网络(DLN)中高达1亿参数的局部学习系数(LLC)。我们还证明了估计得到的LLC具有理论数量所具备的重缩放不变性。",
+    "tldr": "本文提出了一种方法，可以在深度线性网络中准确地测量高达1亿参数的局部学习系数(LLC)，并证明了估计得到的LLC具有重缩放不变性。",
+    "en_tdlr": "This paper presents a method for accurately measuring the local learning coefficient (LLC) in deep linear networks with up to 100 million parameters. It is also shown that the estimated LLC exhibits rescaling invariance as expected."
+}

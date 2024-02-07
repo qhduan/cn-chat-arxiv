@@ -1,0 +1,11 @@
+{
+    "title": "CNN-DRL with Shuffled Features in Finance",
+    "abstract": "In prior methods, it was observed that the application of Convolutional Neural Networks agent in Deep Reinforcement Learning to financial data resulted in an enhanced reward. In this study, a specific permutation was applied to the feature vector, thereby generating a CNN matrix that strategically positions more pertinent features in close proximity. Our comprehensive experimental evaluations unequivocally demonstrate a substantial enhancement in reward attainment.",
+    "link": "https://arxiv.org/abs/2402.03338",
+    "context": "Title: CNN-DRL with Shuffled Features in Finance\nAbstract: In prior methods, it was observed that the application of Convolutional Neural Networks agent in Deep Reinforcement Learning to financial data resulted in an enhanced reward. In this study, a specific permutation was applied to the feature vector, thereby generating a CNN matrix that strategically positions more pertinent features in close proximity. Our comprehensive experimental evaluations unequivocally demonstrate a substantial enhancement in reward attainment.",
+    "path": "papers/24/02/2402.03338.json",
+    "total_tokens": 543,
+    "translated_title": "在金融领域中，应用具有随机特征的CNN-DRL方法",
+    "translated_abstract": "在先前的方法中，观察到将卷积神经网络代理应用于深度强化学习中的金融数据可以提高回报。本研究应用了特定的排列方式来对特征向量进行处理，从而生成一个CNN矩阵，将更相关的特征放置在靠近的位置。我们的全面实验评估明确地证明了回报的显著提高。",
+    "tldr": "本研究通过对特征向量进行特定排列，应用CNN-DRL方法于金融数据中，在回报上取得了显著的提高。"
+}

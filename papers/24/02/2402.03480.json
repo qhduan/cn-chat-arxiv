@@ -1,0 +1,12 @@
+{
+    "title": "Trillion Parameter AI Serving Infrastructure for Scientific Discovery: A Survey and Vision",
+    "abstract": "Deep learning methods are transforming research, enabling new techniques, and ultimately leading to new discoveries. As the demand for more capable AI models continues to grow, we are now entering an era of Trillion Parameter Models (TPM), or models with more than a trillion parameters -- such as Huawei's PanGu-$\\Sigma$. We describe a vision for the ecosystem of TPM users and providers that caters to the specific needs of the scientific community. We then outline the significant technical challenges and open problems in system design for serving TPMs to enable scientific research and discovery. Specifically, we describe the requirements of a comprehensive software stack and interfaces to support the diverse and flexible requirements of researchers.",
+    "link": "https://arxiv.org/abs/2402.03480",
+    "context": "Title: Trillion Parameter AI Serving Infrastructure for Scientific Discovery: A Survey and Vision\nAbstract: Deep learning methods are transforming research, enabling new techniques, and ultimately leading to new discoveries. As the demand for more capable AI models continues to grow, we are now entering an era of Trillion Parameter Models (TPM), or models with more than a trillion parameters -- such as Huawei's PanGu-$\\Sigma$. We describe a vision for the ecosystem of TPM users and providers that caters to the specific needs of the scientific community. We then outline the significant technical challenges and open problems in system design for serving TPMs to enable scientific research and discovery. Specifically, we describe the requirements of a comprehensive software stack and interfaces to support the diverse and flexible requirements of researchers.",
+    "path": "papers/24/02/2402.03480.json",
+    "total_tokens": 727,
+    "translated_title": "为科学发现服务的兆级参数人工智能基础设施：一项调研和展望",
+    "translated_abstract": "深度学习方法正在改变研究工作，实现新技术，并最终带来新的发现。随着对更强大的人工智能模型的需求不断增长，我们正进入一个兆级参数模型（TPM）的时代，即具有超过一万亿个参数的模型，如华为的PanGu-$ \\ Sigma $。我们描述了一个针对科学界特定需求的TPM用户和提供者生态系统的愿景。然后，我们概述了为提供TPM服务的系统设计中的重大技术挑战和开放问题。具体来说，我们描述了一个全面的软件堆栈和接口要求，以支持研究者多样化和灵活的需求。",
+    "tldr": "这篇论文调研了为科学研究提供支持的兆级参数人工智能基础设施，并描述了在系统设计中所面临的重要技术挑战和开放问题。",
+    "en_tdlr": "This paper surveys the trillion parameter AI serving infrastructure for scientific discovery and outlines the significant technical challenges and open problems in system design for supporting researchers' diverse and flexible requirements."
+}

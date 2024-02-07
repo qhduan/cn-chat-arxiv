@@ -1,0 +1,11 @@
+{
+    "title": "Linear-time Minimum Bayes Risk Decoding with Reference Aggregation",
+    "abstract": "Minimum Bayes Risk (MBR) decoding is a text generation technique that has been shown to improve the quality of machine translations, but is expensive, even if a sampling-based approximation is used. Besides requiring a large number of sampled sequences, it requires the pairwise calculation of a utility metric, which has quadratic complexity. In this paper, we propose to approximate pairwise metric scores with scores calculated against aggregated reference representations. This changes the complexity of utility estimation from $O(n^2)$ to $O(n)$, while empirically preserving most of the quality gains of MBR decoding. We release our source code at https://github.com/ZurichNLP/mbr",
+    "link": "https://arxiv.org/abs/2402.04251",
+    "context": "Title: Linear-time Minimum Bayes Risk Decoding with Reference Aggregation\nAbstract: Minimum Bayes Risk (MBR) decoding is a text generation technique that has been shown to improve the quality of machine translations, but is expensive, even if a sampling-based approximation is used. Besides requiring a large number of sampled sequences, it requires the pairwise calculation of a utility metric, which has quadratic complexity. In this paper, we propose to approximate pairwise metric scores with scores calculated against aggregated reference representations. This changes the complexity of utility estimation from $O(n^2)$ to $O(n)$, while empirically preserving most of the quality gains of MBR decoding. We release our source code at https://github.com/ZurichNLP/mbr",
+    "path": "papers/24/02/2402.04251.json",
+    "total_tokens": 738,
+    "translated_title": "线性时间最小贝叶斯风险解码与参考聚合",
+    "translated_abstract": "最小贝叶斯风险（MBR）解码是一种文本生成技术，已被证明可以提高机器翻译的质量，但即使使用基于采样的近似方法也很昂贵。除了需要大量采样序列外，还需要对效用度量进行配对计算，这具有二次复杂度。在本文中，我们提出使用聚合参考表示计算近似的配对度量分数。这将效用估计的复杂度从$O(n^2)$降低到$O(n)$，同时在经验上保持了MBR解码的大部分质量提升。我们在https://github.com/ZurichNLP/mbr上发布了我们的源代码。",
+    "tldr": "本文提出了一种线性时间的最小贝叶斯风险解码方法，通过使用聚合参考表示来近似配对度量分数，将复杂度降低到线性级别，同时在保持大部分质量增益的同时提高了解码的效率。"
+}

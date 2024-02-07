@@ -1,0 +1,12 @@
+{
+    "title": "A Fuzzy Approach to Record Linkages",
+    "abstract": "Record Linkage is the process of identifying and unifying records from various independent data sources. Existing strategies, which can be either deterministic or probabilistic, often fail to link records satisfactorily under uncertainty. This paper describes an indigenously (locally) developed fuzzy linkage method, based on fuzzy set techniques, which can effectively account for this uncertainty prevalent in the disparate data sources and address the shortcomings of the existing approaches. Extensive testing, evaluation and comparisons have demonstrated the efficacy of this fuzzy approach for record linkages.",
+    "link": "https://arxiv.org/abs/2402.03464",
+    "context": "Title: A Fuzzy Approach to Record Linkages\nAbstract: Record Linkage is the process of identifying and unifying records from various independent data sources. Existing strategies, which can be either deterministic or probabilistic, often fail to link records satisfactorily under uncertainty. This paper describes an indigenously (locally) developed fuzzy linkage method, based on fuzzy set techniques, which can effectively account for this uncertainty prevalent in the disparate data sources and address the shortcomings of the existing approaches. Extensive testing, evaluation and comparisons have demonstrated the efficacy of this fuzzy approach for record linkages.",
+    "path": "papers/24/02/2402.03464.json",
+    "total_tokens": 595,
+    "translated_title": "一个模糊方法用于记录链接",
+    "translated_abstract": "记录链接是识别和统一来自各种独立数据源的记录的过程。现有的策略，可以是确定性的或概率性的，通常在不确定性下无法令人满意地链接记录。本文描述了一种基于模糊集技术的本地开发的模糊链接方法，可以有效地考虑这些不同数据源中的不确定性，并解决现有方法的缺点。广泛的测试、评估和比较已经证明了这种模糊方法在记录链接中的有效性。",
+    "tldr": "本文描述了一种基于模糊集技术的模糊链接方法，能够有效地处理不同数据源中的不确定性，并解决现有方法的缺点。",
+    "en_tdlr": "This paper describes a fuzzy linkage method based on fuzzy set techniques that effectively handles uncertainty in different data sources and addresses the limitations of existing approaches."
+}

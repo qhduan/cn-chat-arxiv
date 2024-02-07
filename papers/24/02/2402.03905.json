@@ -1,0 +1,12 @@
+{
+    "title": "Employee Turnover Analysis Using Machine Learning Algorithms",
+    "abstract": "Employee's knowledge is an organization asset. Turnover may impose apparent and hidden costs and irreparable damages. To overcome and mitigate this risk, employee's condition should be monitored. Due to high complexity of analyzing well-being features, employee's turnover predicting can be delegated to machine learning techniques. In this paper, we discuss employee's attrition rate. Three different supervised learning algorithms comprising AdaBoost, SVM and RandomForest are used to benchmark employee attrition accuracy. Attained models can help out at establishing predictive analytics.",
+    "link": "https://arxiv.org/abs/2402.03905",
+    "context": "Title: Employee Turnover Analysis Using Machine Learning Algorithms\nAbstract: Employee's knowledge is an organization asset. Turnover may impose apparent and hidden costs and irreparable damages. To overcome and mitigate this risk, employee's condition should be monitored. Due to high complexity of analyzing well-being features, employee's turnover predicting can be delegated to machine learning techniques. In this paper, we discuss employee's attrition rate. Three different supervised learning algorithms comprising AdaBoost, SVM and RandomForest are used to benchmark employee attrition accuracy. Attained models can help out at establishing predictive analytics.",
+    "path": "papers/24/02/2402.03905.json",
+    "total_tokens": 634,
+    "translated_title": "使用机器学习算法进行员工流失分析",
+    "translated_abstract": "员工的知识是组织的资产。流失可能会产生明显和隐藏的成本，并造成不可修复的损害。为了克服和减轻这种风险，应该监测员工的状况。由于分析员工福利特征的复杂性较高，可以将员工的离职预测交给机器学习技术。在本文中，我们讨论员工的离职率。使用AdaBoost，SVM和RandomForest三种不同的监督学习算法来评估员工离职的准确性。得到的模型可以帮助建立预测分析。",
+    "tldr": "本文使用机器学习算法分析员工流失情况，并采用AdaBoost，SVM和RandomForest三种算法进行员工离职预测准确性的评估。",
+    "en_tdlr": "This paper analyzes employee turnover using machine learning algorithms and evaluates the accuracy of predicting employee attrition using three different algorithms: AdaBoost, SVM, and RandomForest."
+}

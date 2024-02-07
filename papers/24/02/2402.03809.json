@@ -1,0 +1,12 @@
+{
+    "title": "Combining additivity and active subspaces for high-dimensional Gaussian process modeling",
+    "abstract": "Gaussian processes are a widely embraced technique for regression and classification due to their good prediction accuracy, analytical tractability and built-in capabilities for uncertainty quantification. However, they suffer from the curse of dimensionality whenever the number of variables increases. This challenge is generally addressed by assuming additional structure in theproblem, the preferred options being either additivity or low intrinsic dimensionality. Our contribution for high-dimensional Gaussian process modeling is to combine them with a multi-fidelity strategy, showcasing the advantages through experiments on synthetic functions and datasets.",
+    "link": "https://arxiv.org/abs/2402.03809",
+    "context": "Title: Combining additivity and active subspaces for high-dimensional Gaussian process modeling\nAbstract: Gaussian processes are a widely embraced technique for regression and classification due to their good prediction accuracy, analytical tractability and built-in capabilities for uncertainty quantification. However, they suffer from the curse of dimensionality whenever the number of variables increases. This challenge is generally addressed by assuming additional structure in theproblem, the preferred options being either additivity or low intrinsic dimensionality. Our contribution for high-dimensional Gaussian process modeling is to combine them with a multi-fidelity strategy, showcasing the advantages through experiments on synthetic functions and datasets.",
+    "path": "papers/24/02/2402.03809.json",
+    "total_tokens": 681,
+    "translated_title": "结合可加性和主动子空间用于高维高斯过程建模",
+    "translated_abstract": "高斯过程是一种被广泛接受的回归和分类技术，因其良好的预测准确性、分析可追溯性和内置的不确定性量化能力而倍受欢迎。然而，当变量数量增加时，它们受到维度灾难的困扰。这个挑战通常通过在问题中假设额外结构来解决，首选选项是可加性或低内在维度。我们在高维高斯过程建模中的贡献是将它们与多重真实度策略相结合，通过对合成函数和数据集进行实验证明了这些优势。",
+    "tldr": "本论文的贡献是将可加性和主动子空间与多重真实度策略结合，解决了高维高斯过程建模中的维度灾难问题，并通过实验证明了这些优势。",
+    "en_tdlr": "The contribution of this paper is to combine additivity and active subspaces with a multi-fidelity strategy, addressing the curse of dimensionality problem in high-dimensional Gaussian process modeling and showcasing the advantages through experiments."
+}

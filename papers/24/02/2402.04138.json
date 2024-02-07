@@ -1,0 +1,12 @@
+{
+    "title": "TAC Method for Fitting Exponential Autoregressive Models and Others: Applications in Economy and Finance",
+    "abstract": "There are a couple of purposes in this paper: to study a problem of approximation with exponential functions and to show its relevance for the economic science. We present results that completely solve the problem of the best approximation by means of exponential functions and we will be able to determine what kind of data is suitable to be fitted. Data will be approximated using TAC (implemented in the R-package nlstac), a numerical algorithm for fitting data by exponential patterns without initial guess designed by the authors. We check one more time the robustness of this algorithm by successfully applying it to two very distant areas of economy: demand curves and nonlinear time series. This shows TAC's utility and highlights how far this algorithm could be used.",
+    "link": "https://arxiv.org/abs/2402.04138",
+    "context": "Title: TAC Method for Fitting Exponential Autoregressive Models and Others: Applications in Economy and Finance\nAbstract: There are a couple of purposes in this paper: to study a problem of approximation with exponential functions and to show its relevance for the economic science. We present results that completely solve the problem of the best approximation by means of exponential functions and we will be able to determine what kind of data is suitable to be fitted. Data will be approximated using TAC (implemented in the R-package nlstac), a numerical algorithm for fitting data by exponential patterns without initial guess designed by the authors. We check one more time the robustness of this algorithm by successfully applying it to two very distant areas of economy: demand curves and nonlinear time series. This shows TAC's utility and highlights how far this algorithm could be used.",
+    "path": "papers/24/02/2402.04138.json",
+    "total_tokens": 746,
+    "translated_title": "拟合指数自回归模型及其他方法的TAC算法：在经济和金融领域的应用",
+    "translated_abstract": "本文旨在研究指数函数的逼近问题，并展示其对经济科学的重要性。我们提出的结果完全解决了通过指数函数进行最佳逼近的问题，并能够确定适合进行拟合的数据类型。我们使用TAC（在R包nlstac中实现）对数据进行拟合，该算法是一种无需初始猜测的指数模式拟合的数值算法，由作者设计。我们通过成功将其应用于需求曲线和非线性时间序列等经济领域的两个广泛领域，再次验证了该算法的稳健性。这显示了TAC的实用性，并突显了该算法的潜力。",
+    "tldr": "本文介绍了TAC算法，它能够通过指数模式对经济和金融领域的数据进行拟合，解决了最佳逼近的问题，拓展了该算法的应用范围。",
+    "en_tdlr": "This paper presents the TAC algorithm, which fits data in the field of economy and finance using exponential patterns, solving the problem of best approximation and expanding the applications of this algorithm."
+}
