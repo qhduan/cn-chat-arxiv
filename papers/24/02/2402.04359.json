@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Inference: Theoretical Limits and Unexplored Opportunities",
+    "abstract": "This paper introduces the first theoretical framework for quantifying the efficiency and performance gain opportunity size of adaptive inference algorithms. We provide new approximate and exact bounds for the achievable efficiency and performance gains, supported by empirical evidence demonstrating the potential for 10-100x efficiency improvements in both Computer Vision and Natural Language Processing tasks without incurring any performance penalties. Additionally, we offer insights on improving achievable efficiency gains through the optimal selection and design of adaptive inference state spaces.",
+    "link": "https://arxiv.org/abs/2402.04359",
+    "context": "Title: Adaptive Inference: Theoretical Limits and Unexplored Opportunities\nAbstract: This paper introduces the first theoretical framework for quantifying the efficiency and performance gain opportunity size of adaptive inference algorithms. We provide new approximate and exact bounds for the achievable efficiency and performance gains, supported by empirical evidence demonstrating the potential for 10-100x efficiency improvements in both Computer Vision and Natural Language Processing tasks without incurring any performance penalties. Additionally, we offer insights on improving achievable efficiency gains through the optimal selection and design of adaptive inference state spaces.",
+    "path": "papers/24/02/2402.04359.json",
+    "total_tokens": 648,
+    "translated_title": "自适应推理: 理论极限与未开发的机遇",
+    "translated_abstract": "本论文引入了第一个用于量化自适应推理算法效率和性能提升机会大小的理论框架。我们提供了可实现的效率和性能提升的新近似和精确界限，并通过经验证据证明，在计算机视觉和自然语言处理任务中，可以实现10-100倍的效率提升而不会带来任何性能损失。此外，我们提出了通过优化选择和设计自适应推理状态空间来改进可达到的效率提升的见解。",
+    "tldr": "本论文提出了自适应推理算法的效率和性能提升的理论框架，并通过经验证据证明可以实现10-100倍的效率提升，在优化选择和设计自适应推理状态空间方面提供了见解。",
+    "en_tdlr": "This paper introduces a theoretical framework for quantifying the efficiency and performance gain opportunities of adaptive inference algorithms, and demonstrates the potential for 10-100x efficiency improvements in computer vision and natural language processing tasks. It also offers insights on optimizing the selection and design of adaptive inference state spaces to enhance achievable efficiency gains."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On a Combinatorial Problem Arising in Machine Teaching",
+    "abstract": "We study a model of machine teaching where the teacher mapping is constructed from a size function on both concepts and examples. The main question in machine teaching is the minimum number of examples needed for any concept, the so-called teaching dimension. A recent paper [7] conjectured that the worst case for this model, as a function of the size of the concept class, occurs when the consistency matrix contains the binary representations of numbers from zero and up. In this paper we prove their conjecture. The result can be seen as a generalization of a theorem resolving the edge isoperimetry problem for hypercubes [12], and our proof is based on a lemma of [10].",
+    "link": "https://arxiv.org/abs/2402.04907",
+    "context": "Title: On a Combinatorial Problem Arising in Machine Teaching\nAbstract: We study a model of machine teaching where the teacher mapping is constructed from a size function on both concepts and examples. The main question in machine teaching is the minimum number of examples needed for any concept, the so-called teaching dimension. A recent paper [7] conjectured that the worst case for this model, as a function of the size of the concept class, occurs when the consistency matrix contains the binary representations of numbers from zero and up. In this paper we prove their conjecture. The result can be seen as a generalization of a theorem resolving the edge isoperimetry problem for hypercubes [12], and our proof is based on a lemma of [10].",
+    "path": "papers/24/02/2402.04907.json",
+    "total_tokens": 739,
+    "translated_title": "机器教学中的组合问题探究",
+    "translated_abstract": "本文研究了一种机器教学模型，其中教师映射是由概念和示例的大小函数构建的。机器教学中的主要问题是任何概念所需的最小示例数量，即所谓的教学维度。最近的一篇论文[7]猜测，在这个模型中，作为概念类大小的函数时，最坏情况发生在一致性矩阵包含从零及以上的二进制表示的数字时。在本文中，我们证明了他们的猜想。该结果可以看作是解决超立方体的边界等周问题的定理[12]的推广，我们的证明基于[10]的引理。",
+    "tldr": "本文研究了机器教学中的一个组合问题，通过证明了一个最坏情况下的猜想，得出了关于教学维度的结果。该结果可以看作是解决了超立方体边界等周问题的定理的推广。",
+    "en_tdlr": "This paper investigates a combinatorial problem in machine teaching and proves a conjecture about the worst case scenario of teaching dimension. The result can be seen as a generalization of a theorem solving the edge isoperimetry problem for hypercubes."
+}

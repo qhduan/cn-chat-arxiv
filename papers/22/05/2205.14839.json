@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial Bandits against Arbitrary Strategies",
+    "abstract": "We study the adversarial bandit problem against arbitrary strategies, in which $S$ is the parameter for the hardness of the problem and this parameter is not given to the agent. To handle this problem, we adopt the master-base framework using the online mirror descent method (OMD). We first provide a master-base algorithm with simple OMD, achieving $\\tilde{O}(S^{1/2}K^{1/3}T^{2/3})$, in which $T^{2/3}$ comes from the variance of loss estimators. To mitigate the impact of the variance, we propose using adaptive learning rates for OMD and achieve $\\tilde{O}(\\min\\{\\mathbb{E}[\\sqrt{SKT\\rho_T(h^\\dagger)}],S\\sqrt{KT}\\})$, where $\\rho_T(h^\\dagger)$ is a variance term for loss estimators.",
+    "link": "https://arxiv.org/abs/2205.14839",
+    "context": "Title: Adversarial Bandits against Arbitrary Strategies\nAbstract: We study the adversarial bandit problem against arbitrary strategies, in which $S$ is the parameter for the hardness of the problem and this parameter is not given to the agent. To handle this problem, we adopt the master-base framework using the online mirror descent method (OMD). We first provide a master-base algorithm with simple OMD, achieving $\\tilde{O}(S^{1/2}K^{1/3}T^{2/3})$, in which $T^{2/3}$ comes from the variance of loss estimators. To mitigate the impact of the variance, we propose using adaptive learning rates for OMD and achieve $\\tilde{O}(\\min\\{\\mathbb{E}[\\sqrt{SKT\\rho_T(h^\\dagger)}],S\\sqrt{KT}\\})$, where $\\rho_T(h^\\dagger)$ is a variance term for loss estimators.",
+    "path": "papers/22/05/2205.14839.json",
+    "total_tokens": 849,
+    "translated_title": "对抗性赌博机针对任意策略的研究",
+    "translated_abstract": "我们研究了针对任意策略的对抗性赌博机问题，其中S是问题难度的参数，该参数对于代理人来说是未知的。为了解决这个问题，我们采用了使用在线镜像下降方法（OMD）的主控基础框架。我们首先提供了一个具有简单OMD的主控基础算法，实现了$\\tilde{O}(S^{1/2}K^{1/3}T^{2/3})$的结果，其中$T^{2/3}$来自损失估计器的方差。为了减轻方差的影响，我们提出使用自适应学习率的OMD，并实现了$\\tilde{O}(\\min\\{\\mathbb{E}[\\sqrt{SKT\\rho_T(h^\\dagger)}],S\\sqrt{KT}\\})$的结果，其中$\\rho_T(h^\\dagger)$是损失估计器的方差项。",
+    "tldr": "该论文研究了对抗性赌博机问题，针对任意策略，提出了使用在线镜像下降方法的主控基础框架，并使用自适应学习率的OMD来减轻方差的影响，取得了较好的结果。",
+    "en_tdlr": "This paper investigates the adversarial bandit problem against arbitrary strategies, proposing a master-base framework using online mirror descent method and mitigating the impact of variance by employing adaptive learning rates for OMD, achieving promising results."
+}

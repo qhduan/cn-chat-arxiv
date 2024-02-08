@@ -1,0 +1,11 @@
+{
+    "title": "Shadowheart SGD: Distributed Asynchronous SGD with Optimal Time Complexity Under Arbitrary Computation and Communication Heterogeneity",
+    "abstract": "We consider nonconvex stochastic optimization problems in the asynchronous centralized distributed setup where the communication times from workers to a server can not be ignored, and the computation and communication times are potentially different for all workers. Using an unbiassed compression technique, we develop a new method-Shadowheart SGD-that provably improves the time complexities of all previous centralized methods. Moreover, we show that the time complexity of Shadowheart SGD is optimal in the family of centralized methods with compressed communication. We also consider the bidirectional setup, where broadcasting from the server to the workers is non-negligible, and develop a corresponding method.",
+    "link": "https://arxiv.org/abs/2402.04785",
+    "context": "Title: Shadowheart SGD: Distributed Asynchronous SGD with Optimal Time Complexity Under Arbitrary Computation and Communication Heterogeneity\nAbstract: We consider nonconvex stochastic optimization problems in the asynchronous centralized distributed setup where the communication times from workers to a server can not be ignored, and the computation and communication times are potentially different for all workers. Using an unbiassed compression technique, we develop a new method-Shadowheart SGD-that provably improves the time complexities of all previous centralized methods. Moreover, we show that the time complexity of Shadowheart SGD is optimal in the family of centralized methods with compressed communication. We also consider the bidirectional setup, where broadcasting from the server to the workers is non-negligible, and develop a corresponding method.",
+    "path": "papers/24/02/2402.04785.json",
+    "total_tokens": 717,
+    "translated_title": "Shadowheart SGD: 在任意的计算和通信异构性下具有最优时间复杂度的分布式异步SGD",
+    "translated_abstract": "在异步集中式分布式设置中考虑非凸随机优化问题，其中工作者到服务器的通信时间不能忽略，而所有工作者的计算和通信时间可能不同。利用无偏压缩技术，我们开发了一种新的方法-Shadowheart SGD，它可证明优化了所有先前集中式方法的时间复杂度。此外，我们还展示了Shadowheart SGD在压缩通信的集中式方法族中的时间复杂度是最优的。我们还考虑了双向设置，在这种设置下，从服务器到工作者的广播不可忽略，并开发了相应的方法。",
+    "tldr": "Shadowheart SGD是一种新的分布式异步SGD方法，利用无偏压缩技术，在任意的计算和通信异构性下具有最优时间复杂度，并显著优化了先前的集中式方法。同时，我们还开发了对应的双向设置方法。"
+}

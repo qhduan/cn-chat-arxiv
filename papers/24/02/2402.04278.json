@@ -1,0 +1,11 @@
+{
+    "title": "Gaussian Plane-Wave Neural Operator for Electron Density Estimation",
+    "abstract": "This work studies machine learning for electron density prediction, which is fundamental for understanding chemical systems and density functional theory (DFT) simulations. To this end, we introduce the Gaussian plane-wave neural operator (GPWNO), which operates in the infinite-dimensional functional space using the plane-wave and Gaussian-type orbital bases, widely recognized in the context of DFT. In particular, both high- and low-frequency components of the density can be effectively represented due to the complementary nature of the two bases. Extensive experiments on QM9, MD, and material project datasets demonstrate GPWNO's superior performance over ten baselines.",
+    "link": "https://arxiv.org/abs/2402.04278",
+    "context": "Title: Gaussian Plane-Wave Neural Operator for Electron Density Estimation\nAbstract: This work studies machine learning for electron density prediction, which is fundamental for understanding chemical systems and density functional theory (DFT) simulations. To this end, we introduce the Gaussian plane-wave neural operator (GPWNO), which operates in the infinite-dimensional functional space using the plane-wave and Gaussian-type orbital bases, widely recognized in the context of DFT. In particular, both high- and low-frequency components of the density can be effectively represented due to the complementary nature of the two bases. Extensive experiments on QM9, MD, and material project datasets demonstrate GPWNO's superior performance over ten baselines.",
+    "path": "papers/24/02/2402.04278.json",
+    "total_tokens": 777,
+    "translated_title": "用于电子密度估计的高斯平面波神经算子",
+    "translated_abstract": "本研究探讨了用于电子密度预测的机器学习方法，这对于理解化学系统和密度泛函理论(DFT)模拟是基础性的。为此，我们引入了高斯平面波神经算子(GPWNO)，它在无限维功能空间中使用平面波和高斯型轨道基底进行操作，在DFT的背景中得到广泛认可。特别地，由于两种基底的互补性质，密度的高频和低频成分都可以被有效地表示。对QM9、MD和材料项目数据集进行的大量实验表明，GPWNO相比其他十种基线方法具有优越的性能。",
+    "tldr": "本研究提出了一种名为高斯平面波神经算子(GPWNO)的方法，用于机器学习中的电子密度预测。该方法利用平面波和高斯型轨道基底在无限维功能空间中进行操作，可以有效地表示密度的高频和低频成分，并在多个数据集上展示出卓越的性能。"
+}

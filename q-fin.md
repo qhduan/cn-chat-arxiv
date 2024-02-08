@@ -2,127 +2,150 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Mind the Gap: Securely modeling cyber risk based on security deviations from a peer group](https://arxiv.org/abs/2402.04166) | 该论文介绍了一种新的框架，利用隐私增强技术，通过对同行组织的安全数据进行安全计算，实现了对网络风险的安全估计和同行比较。 |
-| [^2] | [TAC Method for Fitting Exponential Autoregressive Models and Others: Applications in Economy and Finance](https://arxiv.org/abs/2402.04138) | 本文介绍了TAC算法，它能够通过指数模式对经济和金融领域的数据进行拟合，解决了最佳逼近的问题，拓展了该算法的应用范围。 |
-| [^3] | [Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior](https://arxiv.org/abs/2402.03953) | 本研究系统化地研究了中心化和去中心化交易所中永续期货合约的交易者行为，并提出了新的分析框架。研究发现，在VAMM模型的DEX中，多头和空头持仓量对价格波动产生相反的影响，而在采用预言机定价模型的DEX中，买家和卖家之间的交易者行为存在明显的不对称性。 |
-| [^4] | [Interpersonal trust: Asymptotic analysis of a stochastic coordination game with multi-agent learning](https://arxiv.org/abs/2402.03894) | 本研究探讨了一群智能体的人际信任，发现随着时间推移，整个群体要么始终合作，要么始终背叛。通过模拟实验发现，智能体的记忆和群体规模对结果产生影响。研究结果表明，不同的群体可能会因为机会的原因而趋向于高或低信任状态，但社会背景也会起到重要作用。 |
-| [^5] | [Explainable Automated Machine Learning for Credit Decisions: Enhancing Human Artificial Intelligence Collaboration in Financial Engineering](https://arxiv.org/abs/2402.03806) | 本文介绍了可解释的自动化机器学习（AutoML）在信贷决策中的应用，结合了可解释的人工智能（XAI）方法，特别是SHapley Additive exPlanations（SHAP）。它提高了信贷决策的效率和准确性，同时增进了人类和人工智能系统之间的信任和合作。 |
-| [^6] | [Effects of carbon pricing and other climate policies on CO2 emissions](https://arxiv.org/abs/2402.03800) | 碳定价和排放交易系统可有效减少二氧化碳排放。每吨二氧化碳的碳税增加10美元，在短期内使二氧化碳排放人均减少1.3%，在长期内减少4.6%。 |
-| [^7] | [QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model](https://arxiv.org/abs/2402.03755) | 本论文介绍了一种基于大型语言模型的自主代理框架QuantAgent，通过一个有原则的两层循环，使代理能够逐步逼近具有可证明效率的最佳行为。该框架通过构建和集成领域特定的知识库，在量化投资领域展示出了较强的能力。 |
-| [^8] | [Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models](https://arxiv.org/abs/2402.03659) | 这个论文介绍了使用大型语言模型生成可解释的股票预测的方法，并提出了Summarize-Explain-Predict（SEP）模型来解决股票预测中的解释问题和数据标注成本的挑战。 |
-| [^9] | [Bride Kidnapping and Informal Governance Institutions](https://arxiv.org/abs/2402.03411) | 研究分析了吉尔吉斯斯坦新娘绑架现象与非正式治理机构阿克萨卡尔之间的关系，发现阿克萨卡尔治理对绑架决策有影响。 |
-| [^10] | [Tweet Influence on Market Trends: Analyzing the Impact of Social Media Sentiment on Biotech Stocks](https://arxiv.org/abs/2402.03353) | 本研究通过分析推特情绪与生物技术股票市场行为之间的关系，发现了社交媒体话语对投资者情绪和决策过程的影响，并提出了使用情绪协变量来改善股市预测准确性的方法。 |
-| [^11] | [CNN-DRL with Shuffled Features in Finance](https://arxiv.org/abs/2402.03338) | 本研究通过对特征向量进行特定排列，应用CNN-DRL方法于金融数据中，在回报上取得了显著的提高。 |
-| [^12] | [Limit Order Book Dynamics and Order Size Modelling Using Compound Hawkes Process](https://arxiv.org/abs/2312.08927) | 本文提出了一种使用复合霍克斯进程建模限价单簿动态和订单尺寸的新方法，以校准分布抽取每个事件的订单尺寸，并在模型中保持正的价差。进一步地，我们根据时间条件模型参数支持经验观察，并使用改进的非参数方法校准霍克斯核函数和抑制性交叉激发核函数。 |
-| [^13] | [Upstreamness and downstreamness in input-output analysis from local and aggregate information](https://arxiv.org/abs/2009.06350) | 该论文研究了在输入产出分析中，对部门和国家进行上游性和下游性排名的方法。通过仅依赖于局部和总体信息，而无需完全了解输入产出表，该论文展示了一种准确估计供应链网络中部门和国家作用的方法。通过在世界输入产出数据库的实证数据上进行测试，该方法在重建排名方面表现出一致良好的性能。此外，该论文还将近似框架的准确性与输入产出表的谱特性联系起来。 |
-| [^14] | [MTRGL:Effective Temporal Correlation Discerning through Multi-modal Temporal Relational Graph Learning.](http://arxiv.org/abs/2401.14199) | 该论文引入了一种新的框架——多模态时间关系图学习（MTRGL），通过将时间序列数据和离散特征结合成一个时间图，并采用记忆机制的图神经网络来辨识实体间的时间相关性，取得了在实证实验中的优异表现。这一研究对于提升自动化配对交易策略具有重要意义。 |
-| [^15] | [Almost Perfect Shadow Prices.](http://arxiv.org/abs/2401.00970) | 本文研究了在存在交易成本的市场中阴影价格的应用，证明了在平均波动性给定下使用朴素的阴影价格方法可以得到渐近达到三阶最优的交易策略，并提出了在不同风险厌恶程度下优于阴影市场的四阶交易策略。此外，还证明了风险中性目标排除了阴影价格的存在。 |
-| [^16] | [Startup Acquisitions: Acquihires and Talent Hoarding.](http://arxiv.org/abs/2308.10046) | 该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。 |
-| [^17] | [The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland.](http://arxiv.org/abs/2306.12924) | 波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。 |
-| [^18] | [A Bayesian derivation of the square root law of market impact.](http://arxiv.org/abs/2303.08867) | 本文提出了一个贝叶斯市场预期的简单模型，可以解释金融资产价格对一系列交易的影响，包括交易量与价格波动平方根成正比、小交易量时成线性关系、交易结束后影响衰减回到均衡。平方根影响定律可能来自于对元订单订单流的高估。 |
-| [^19] | [Do t-Statistic Hurdles Need to be Raised?.](http://arxiv.org/abs/2204.10275) | 许多学者呼吁提高统计障碍来防止错误发现，但经验证明这些呼吁在实践中不太合理。已发表的数据存在偏差，未观察到的结果需要外推，导致修订障碍的识别能力不强。与之相反，只针对已发表的发现进行统计分析可以得到较强的识别能力。 |
+| [^1] | [Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?](https://arxiv.org/abs/2402.05024) | 使用不寻常的数据集组合可以显著贡献于科学和更广泛的影响，并促进科学的进步。 |
+| [^2] | [Cyber risk and the cross-section of stock returns](https://arxiv.org/abs/2402.04775) | 该研究通过机器学习算法量化了公司的网络风险，并发现高风险股票组合可以获得超额收益。此外，网络风险因子是定价股票收益横截面的关键特征。 |
+| [^3] | [Prioritizing Investments in Cybersecurity: Empirical Evidence from an Event Study on the Determinants of Cyberattack Costs](https://arxiv.org/abs/2402.04773) | 通过研究上市公司对网络事件的反应，我们发现网络事件的异常收益与先前研究相当。然而，当考虑事件引起的方差和残差互相关时，先前宣称的异常收益的显著性消失了。 |
+| [^4] | [Measuring the performance of investments in information security startups: An empirical analysis by cybersecurity sectors using Crunchbase data](https://arxiv.org/abs/2402.04765) | 使用Crunchbase数据对19个网络安全领域的早期阶段公司进行了金融评估，发现不同领域之间存在显著的融资差异，并推断了缺失观察。最高的平均融资金额为4546万美元，对应私有云领域。 |
+| [^5] | [Non-Parametric Estimation of Multi-dimensional Marked Hawkes Processes](https://arxiv.org/abs/2402.04740) | 这篇论文提出了一种非参数估计标记Hawkes过程条件强度的方法，引入了两种模型来处理具有不同内核和非线性特征的Hawkes过程，通过将过去的到达时间和标记作为输入，获得到达强度。 |
+| [^6] | [Token vs Equity for Startup Financing](https://arxiv.org/abs/2402.04662) | 该论文探讨了为什么基于区块链的初创公司及其风投会选择通过发行代币而不是股权进行融资，并分析了两种融资方式之间的流动性差异。在模型中发现，代币对于中期有流动性需求的投资者来说是必要的，同时发行代币可以给企业家带来更高的回报。这种回报差异会随着投资者对风险的规避程度、中期流动性需求以及代币市场的深度而增加。 |
+| [^7] | [The Role of Child Gender in the Formation of Parents' Social Networks](https://arxiv.org/abs/2402.04474) | 孩子的性别对父母社交网络的形成具有重要影响，孩子们倾向于与同性朋友交友，这导致了父母之间基于孩子性别的互动。研究发现，如果所有孩子都是同性别，家庭之间的联系将增加约15％，而对于有女孩的家庭影响更为明显。 |
+| [^8] | [Healthcare Quality by Specialists under a Mixed Compensation System: an Empirical Analysis](https://arxiv.org/abs/2402.04472) | 这项研究分析了混合补偿制度对专家医疗服务质量的影响，通过实证分析发现，改革导致了MC专家服务的质量下降，表现为出院后再住院风险和死亡率的增加。 |
+| [^9] | [Meritocracy and Its Discontents: Long-run Effects of Repeated School Admission Reforms](https://arxiv.org/abs/2402.04429) | 该论文通过分析世界上第一次引入全国中央化的优质教育招生制度改革，发现了持久的优质教育与公平之间的权衡。中央化系统相较于分散化系统录取了更多优秀的申请者，长期来看产生了更多顶尖精英官僚，但这也导致了地区接触优质高等教育和职业晋升的不平等。几十年后，优质教育的集中化增加了城市出生的职业精英数量相对于农村出生者。 |
+| [^10] | [Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models](https://arxiv.org/abs/2402.03659) | 这个论文介绍了使用大型语言模型生成可解释的股票预测的方法，并提出了Summarize-Explain-Predict（SEP）模型来解决股票预测中的解释问题和数据标注成本的挑战。 |
+| [^11] | [CFTM: Continuous time fractional topic model](https://arxiv.org/abs/2402.01734) | CFTM是一种新的动态主题建模方法，通过使用分数布朗运动来识别随时间变化的主题和词分布的正负相关性，揭示长期依赖性或粗糙度。实证研究结果表明，该模型能够有效地识别和跟踪主题的长期依赖性或粗糙度。 |
+| [^12] | [The Effect of External Debt on Greenhouse Gas Emissions](https://arxiv.org/abs/2206.01840) | 外债对温室气体排放有正面且显著的影响，增加的外债会导致温室气体排放的增加。造成这种影响的可能机制之一是，政府由于增加的债务服务压力，无法有效执行环境法规，或被私营部门所控制。 |
+| [^13] | [Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices.](http://arxiv.org/abs/2303.10019) | 本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。 |
+| [^14] | [Bipolar Theorems for Sets of Non-negative Random Variables.](http://arxiv.org/abs/2212.14259) | 本文提出了非负随机变量集合的双极定理的必要和充分条件，扩展和统一了现有的在强健框架上证明的双极定理。 |
 
 # 详细
 
-[^1]: 心中的间隙：基于安全偏差模型化的网络风险安全估计
+[^1]: 使用不寻常的数据集组合是否有助于更大的科学影响力？
 
-    Mind the Gap: Securely modeling cyber risk based on security deviations from a peer group
+    Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?
 
-    [https://arxiv.org/abs/2402.04166](https://arxiv.org/abs/2402.04166)
+    [https://arxiv.org/abs/2402.05024](https://arxiv.org/abs/2402.05024)
 
-    该论文介绍了一种新的框架，利用隐私增强技术，通过对同行组织的安全数据进行安全计算，实现了对网络风险的安全估计和同行比较。
-
-    
-
-    关于网络风险，有两个战略性且长期存在的问题，组织很难回答：组织的风险曝光是多少，安全与同行相比如何？回答这两个问题需要行业范围内的安全状况、事件和损失的数据，直到最近，这些数据对于组织来说过于敏感而无法共享。现在，隐私增强技术（PETs）如加密计算可以在保留敏感输入数据的同时，实现从同行组织中的汇总网络风险指标的安全计算。随着这些新的汇总数据的可用性，分析师需要将其融入网络风险模型中，以产生更可靠的风险评估并进行同行比较。本文提出了一个新的框架，通过使用安全计算产生的新变量，将网络状况与同行进行基准比较，估计特定经济部门的网络风险。
-
-    There are two strategic and longstanding questions about cyber risk that organizations largely have been unable to answer: What is an organization's estimated risk exposure and how does its security compare with peers? Answering both requires industry-wide data on security posture, incidents, and losses that, until recently, have been too sensitive for organizations to share. Now, privacy enhancing technologies (PETs) such as cryptographic computing can enable the secure computation of aggregate cyber risk metrics from a peer group of organizations while leaving sensitive input data undisclosed. As these new aggregate data become available, analysts need ways to integrate them into cyber risk models that can produce more reliable risk assessments and allow comparison to a peer group. This paper proposes a new framework for benchmarking cyber posture against peers and estimating cyber risk within specific economic sectors using the new variables emerging from secure computations. We int
-    
-[^2]: 拟合指数自回归模型及其他方法的TAC算法：在经济和金融领域的应用
-
-    TAC Method for Fitting Exponential Autoregressive Models and Others: Applications in Economy and Finance
-
-    [https://arxiv.org/abs/2402.04138](https://arxiv.org/abs/2402.04138)
-
-    本文介绍了TAC算法，它能够通过指数模式对经济和金融领域的数据进行拟合，解决了最佳逼近的问题，拓展了该算法的应用范围。
+    使用不寻常的数据集组合可以显著贡献于科学和更广泛的影响，并促进科学的进步。
 
     
 
-    本文旨在研究指数函数的逼近问题，并展示其对经济科学的重要性。我们提出的结果完全解决了通过指数函数进行最佳逼近的问题，并能够确定适合进行拟合的数据类型。我们使用TAC（在R包nlstac中实现）对数据进行拟合，该算法是一种无需初始猜测的指数模式拟合的数值算法，由作者设计。我们通过成功将其应用于需求曲线和非线性时间序列等经济领域的两个广泛领域，再次验证了该算法的稳健性。这显示了TAC的实用性，并突显了该算法的潜力。
+    科学数据集在当代数据驱动研究中起着至关重要的作用，它们通过促进新模式和现象的发现，推动科学的进步。这种对实证研究的不断需求引发了关于如何在研究项目中战略性地利用数据以促进科学进步的重要问题。本研究基于重组理论提出了一个假设，即创新性地组合现有知识，包括使用不寻常的数据集组合，可以导致高影响的发现。我们调查了超过30,000篇文章中使用了超过6,000个数据集的社会科学数据库ICPSR中这种非典型数据组合的科学成果。本研究提供了四个重要的见解。首先，组合数据集，特别是那些不常见的组合，对科学和更广泛的影响（例如向一般公众传播）都有显著贡献。
 
-    There are a couple of purposes in this paper: to study a problem of approximation with exponential functions and to show its relevance for the economic science. We present results that completely solve the problem of the best approximation by means of exponential functions and we will be able to determine what kind of data is suitable to be fitted. Data will be approximated using TAC (implemented in the R-package nlstac), a numerical algorithm for fitting data by exponential patterns without initial guess designed by the authors. We check one more time the robustness of this algorithm by successfully applying it to two very distant areas of economy: demand curves and nonlinear time series. This shows TAC's utility and highlights how far this algorithm could be used.
+    Scientific datasets play a crucial role in contemporary data-driven research, as they allow for the progress of science by facilitating the discovery of new patterns and phenomena. This mounting demand for empirical research raises important questions on how strategic data utilization in research projects can stimulate scientific advancement. In this study, we examine the hypothesis inspired by the recombination theory, which suggests that innovative combinations of existing knowledge, including the use of unusual combinations of datasets, can lead to high-impact discoveries. We investigate the scientific outcomes of such atypical data combinations in more than 30,000 publications that leverage over 6,000 datasets curated within one of the largest social science databases, ICPSR. This study offers four important insights. First, combining datasets, particularly those infrequently paired, significantly contributes to both scientific and broader impacts (e.g., dissemination to the genera
     
-[^3]: 中心化和去中心化交易所中的永续期货合约: 机制和交易者行为
+[^2]: 网络风险与股票收益的横截面
 
-    Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior
+    Cyber risk and the cross-section of stock returns
 
-    [https://arxiv.org/abs/2402.03953](https://arxiv.org/abs/2402.03953)
+    [https://arxiv.org/abs/2402.04775](https://arxiv.org/abs/2402.04775)
 
-    本研究系统化地研究了中心化和去中心化交易所中永续期货合约的交易者行为，并提出了新的分析框架。研究发现，在VAMM模型的DEX中，多头和空头持仓量对价格波动产生相反的影响，而在采用预言机定价模型的DEX中，买家和卖家之间的交易者行为存在明显的不对称性。
-
-    
-
-    本研究提出了一个具有开创性的知识系统化(SoK)计划，重点深入探索交易者在中心化交易所(CEXs)和去中心化交易所(DEXs)中关于永续期货合约的动态和行为。我们改进了现有模型，以研究交易者对价格波动的反应，创建了一个针对这些合约平台的新的分析框架，同时突出了区块链技术在其应用中的作用。我们的研究包括对CEXs的历史数据的比较分析，以及对DEXs上的完整交易数据的更详尽的研究。在虚拟自动化市场做市商(VAMM)模型的DEX上，多头和空头持仓量对价格波动产生相反的影响，这归因于VAMM的价格形成机制。在采用预言机定价模型的DEX中，我们观察到买家和卖家之间交易者行为上存在明显的不对称性。
-
-    This study presents a groundbreaking Systematization of Knowledge (SoK) initiative, focusing on an in-depth exploration of the dynamics and behavior of traders on perpetual future contracts across both centralized exchanges (CEXs), and decentralized exchanges (DEXs). We have refined the existing model for investigating traders' behavior in reaction to price volatility to create a new analytical framework specifically for these contract platforms, while also highlighting the role of blockchain technology in their application. Our research includes a comparative analysis of historical data from CEXs and a more extensive examination of complete transactional data on DEXs. On DEX of Virtual Automated Market Making (VAMM) Model, open interest on short and long positions exert effect on price volatility in opposite direction, attributable to VAMM's price formation mechanism. In the DEXs with Oracle Pricing Model, we observed a distinct asymmetry in trader behavior between buyers and sellers.
-    
-[^4]: 人际信任：具有多智能体学习的随机协调博弈的渐近分析
-
-    Interpersonal trust: Asymptotic analysis of a stochastic coordination game with multi-agent learning
-
-    [https://arxiv.org/abs/2402.03894](https://arxiv.org/abs/2402.03894)
-
-    本研究探讨了一群智能体的人际信任，发现随着时间推移，整个群体要么始终合作，要么始终背叛。通过模拟实验发现，智能体的记忆和群体规模对结果产生影响。研究结果表明，不同的群体可能会因为机会的原因而趋向于高或低信任状态，但社会背景也会起到重要作用。
+    该研究通过机器学习算法量化了公司的网络风险，并发现高风险股票组合可以获得超额收益。此外，网络风险因子是定价股票收益横截面的关键特征。
 
     
 
-    我们研究了一群智能体的人际信任，探讨了机会是否会决定一个群体最终是处于高信任还是低信任状态。我们用离散时间、随机匹配的协调博弈模型来建模。智能体对邻居的行为采用指数平滑学习规则。我们发现，随着时间推移，整个群体要么始终合作，要么始终背叛，这种情况以概率1发生。通过模拟，我们研究了游戏中收益分布和指数平滑学习（智能体的记忆）的影响。我们发现，随着智能体记忆的增加或群体规模的增加，实际动态开始与过程的期望相似。我们得出结论，不同的群体可能仅仅是由于机会的原因而收敛到高或低信任的状态，尽管游戏参数（社会背景）可能起着重要作用。
+    我们使用机器学习算法提取公司的网络风险，通过衡量其公告与专门的网络语料库之间的关联程度。我们的方法在字典方法上表现出色，使用的是完整的公告而不仅仅是专门的部分，并生成一个与其他公司特征不相关的网络风险度量。我们发现，在高网络风险分位数中的美国上市股票组合产生了18.72％的超额收益。此外，长-短网络风险组合具有显着且正的风险溢价，为6.93％，对所有因子基准都具有鲁棒性。最后，使用贝叶斯资产定价方法，我们表明我们的网络风险因子是使任何多因子模型能够定价股票收益横截面的关键特征。
 
-    We study the interpersonal trust of a population of agents, asking whether chance may decide if a population ends up in a high trust or low trust state. We model this by a discrete time, random matching stochastic coordination game. Agents are endowed with an exponential smoothing learning rule about the behaviour of their neighbours. We find that, with probability one in the long run the whole population either always cooperates or always defects. By simulation we study the impact of the distributions of the payoffs in the game and of the exponential smoothing learning (memory of the agents). We find, that as the agent memory increases or as the size of the population increases, the actual dynamics start to resemble the expectation of the process. We conclude that it is indeed possible that different populations may converge upon high or low trust between its citizens simply by chance, though the game parameters (context of the society) may be quite telling.
+    We extract firms' cyber risk with a machine learning algorithm measuring the proximity between their disclosures and a dedicated cyber corpus. Our approach outperforms dictionary methods, uses full disclosure and not devoted-only sections, and generates a cyber risk measure uncorrelated with other firms' characteristics. We find that a portfolio of US-listed stocks in the high cyber risk quantile generates an excess return of 18.72\% p.a. Moreover, a long-short cyber risk portfolio has a significant and positive risk premium of 6.93\% p.a., robust to all factors' benchmarks. Finally, using a Bayesian asset pricing method, we show that our cyber risk factor is the essential feature that allows any multi-factor model to price the cross-section of stock returns.
     
-[^5]: 可解释的自动化机器学习在信贷决策中的应用：增强金融工程中人工智能与人类合作的能力
+[^3]: 优先投资于网络安全：基于事件研究的网络攻击成本决定因素的实证证据
 
-    Explainable Automated Machine Learning for Credit Decisions: Enhancing Human Artificial Intelligence Collaboration in Financial Engineering
+    Prioritizing Investments in Cybersecurity: Empirical Evidence from an Event Study on the Determinants of Cyberattack Costs
 
-    [https://arxiv.org/abs/2402.03806](https://arxiv.org/abs/2402.03806)
+    [https://arxiv.org/abs/2402.04773](https://arxiv.org/abs/2402.04773)
 
-    本文介绍了可解释的自动化机器学习（AutoML）在信贷决策中的应用，结合了可解释的人工智能（XAI）方法，特别是SHapley Additive exPlanations（SHAP）。它提高了信贷决策的效率和准确性，同时增进了人类和人工智能系统之间的信任和合作。
-
-    
-
-    本文探讨了可解释的自动化机器学习（AutoML）在金融工程领域的整合，特别关注其在信贷决策中的应用。金融领域中人工智能的快速发展需要在这些系统中找到复杂算法决策与透明度之间的平衡。重点是AutoML如何简化强大的机器学习模型的开发，以进行信用评分，而可解释的人工智能（XAI）方法，尤其是SHapley Additive exPlanations（SHAP），则为模型的决策过程提供了洞察力。本研究证明了AutoML和XAI的结合不仅提高了信贷决策的效率和准确性，还促进了人类和人工智能系统之间的信任和合作。研究结果强调了可解释的AutoML在改善人工智能驱动的金融决策的透明度和责任方面的潜力，与要求为用户提供解释的趋势相一致。
-
-    This paper explores the integration of Explainable Automated Machine Learning (AutoML) in the realm of financial engineering, specifically focusing on its application in credit decision-making. The rapid evolution of Artificial Intelligence (AI) in finance has necessitated a balance between sophisticated algorithmic decision-making and the need for transparency in these systems. The focus is on how AutoML can streamline the development of robust machine learning models for credit scoring, while Explainable AI (XAI) methods, particularly SHapley Additive exPlanations (SHAP), provide insights into the models' decision-making processes. This study demonstrates how the combination of AutoML and XAI not only enhances the efficiency and accuracy of credit decisions but also fosters trust and collaboration between humans and AI systems. The findings underscore the potential of explainable AutoML in improving the transparency and accountability of AI-driven financial decisions, aligning with r
-    
-[^6]: 碳定价和其他气候政策对二氧化碳排放的影响
-
-    Effects of carbon pricing and other climate policies on CO2 emissions
-
-    [https://arxiv.org/abs/2402.03800](https://arxiv.org/abs/2402.03800)
-
-    碳定价和排放交易系统可有效减少二氧化碳排放。每吨二氧化碳的碳税增加10美元，在短期内使二氧化碳排放人均减少1.3%，在长期内减少4.6%。
+    通过研究上市公司对网络事件的反应，我们发现网络事件的异常收益与先前研究相当。然而，当考虑事件引起的方差和残差互相关时，先前宣称的异常收益的显著性消失了。
 
     
 
-    我们对全国层面的气候政策对二氧化碳排放的影响进行了事后实证分析。我们的结果基于一个包含121个国家的全面数据库。作为气候政策，我们考察了碳税和排放交易系统(ETS)，以及气候政策的总体严格程度。我们采用动态面板回归，控制了宏观经济因素，如经济发展、GDP增长、城市化以及能源组成。我们发现，更高的碳税和ETS许可证价格会减少二氧化碳排放。每吨二氧化碳的碳税增加10美元，在短期内使二氧化碳排放人均减少1.3%，在长期内减少4.6%。
+    随着网络事件的频率和严重程度增加，了解其经济影响至关重要。在这个背景下，研究上市公司对网络事件的反应非常有意义，因为他们（i）可以作为估计其他组织承担成本的良好代理，（ii）在经济中处于关键位置，（iii）其财务信息公开可得。我们从新闻标题中提取上市公司的网络事件日期和特征。我们使用了一个事件研究来对2012年至2022年的数据进行分析，采用了对事件周围的三天时间窗口和标准基准。我们发现，围绕网络事件的异常收益的大小与使用新闻线索或其他数据来识别网络事件的先前研究相当。但是，当我们调整标准误差以考虑事件引起的方差和残差互相关时，我们发现先前宣称的异常收益的显著性消失了。基于这些结果，我们进行了一个“赛马”比赛。
 
-    We provide ex-post empirical analysis of the effects of climate policies on carbon dioxide emissions at the aggregate national level. Our results are based on a comprehensive database of 121 countries. As climate policies we examine carbon taxes and emissions trading systems (ETS), as well as the overall stringency of climate policies. We use dynamic panel regressions, controlling for macroeconomic factors such as economic development, GDP growth, urbanisation, as well as the energy mix. We find that higher carbon taxes and prices of permits in ETS reduce carbon emissions. An increase in carbon taxes by $10 per ton of CO2 reduces CO2 emissions per capita by 1.3% in the short run and by 4.6% in the long run.
+    Along with the increasing frequency and severity of cyber incidents, understanding their economic implications is paramount. In this context, listed firms' reactions to cyber incidents are compelling to study since they (i) are a good proxy to estimate the costs borne by other organizations, (ii) have a critical position in the economy, and (iii) have their financial information publicly available. We extract listed firms' cyber incident dates and characteristics from newswire headlines. We use an event study over 2012--2022, using a three-day window around events and standard benchmarks. We find that the magnitude of abnormal returns around cyber incidents is on par with previous studies using newswire or alternative data to identify cyber incidents. Conversely, as we adjust the standard errors accounting for event-induced variance and residual cross-correlation, we find that the previously claimed significance of abnormal returns vanishes. Given these results, we run a horse race of 
     
-[^7]: QuantAgent：通过自我提升的大型语言模型在交易中寻求圣杯
+[^4]: 使用Crunchbase数据对信息安全创业公司的投资绩效进行测量：基于网络安全领域的实证分析
 
-    QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model
+    Measuring the performance of investments in information security startups: An empirical analysis by cybersecurity sectors using Crunchbase data
 
-    [https://arxiv.org/abs/2402.03755](https://arxiv.org/abs/2402.03755)
+    [https://arxiv.org/abs/2402.04765](https://arxiv.org/abs/2402.04765)
 
-    本论文介绍了一种基于大型语言模型的自主代理框架QuantAgent，通过一个有原则的两层循环，使代理能够逐步逼近具有可证明效率的最佳行为。该框架通过构建和集成领域特定的知识库，在量化投资领域展示出了较强的能力。
+    使用Crunchbase数据对19个网络安全领域的早期阶段公司进行了金融评估，发现不同领域之间存在显著的融资差异，并推断了缺失观察。最高的平均融资金额为4546万美元，对应私有云领域。
 
     
 
-    基于大型语言模型（LLMs）的自主代理，在制定计划和应对现实世界挑战方面已经引起了重视。然而，将这些代理定制为量化投资等专业领域仍然是一项艰巨的任务。核心挑战在于为代理的学习过程高效地构建和集成领域特定的知识库。本文介绍了一个有原则的框架来解决这个挑战，包括一个两层循环。在内层循环中，代理通过从知识库中获取信息来改进其响应，而在外层循环中，这些响应在现实场景中进行测试，以自动增强知识库。我们证明了我们的方法使代理能够逐步逼近具有可证明效率的最佳行为。此外，我们通过一个名为QuantAgent的自主代理来实现这个框架，用于挖掘交易信号。实证结果展示了QuantAgent在发现交易信号方面的能力。
+    早期阶段的公司在推动创新和创造新产品和服务方面发挥着重要作用，尤其是在网络安全领域。因此，对它们的绩效进行评估对于投资者和政策制定者至关重要。本研究基于从Crunchbase获取的2010年至2022年的私募股权数据，对19个网络安全领域的早期阶段公司的绩效进行了金融评估。我们观察了公司及其主要和次要活动、融资轮次以及前后估值。我们比较了不同网络安全领域在融资轮次和后估值方面的差异，并推断了缺失观察。我们观察到在不同类别、时期和地区之间，投资者的兴趣差异显著。特别是，我们发现垃圾邮件过滤的平均融资金额（估值）为724万美元（3.239亿美元），而私有云领域为4546万美元（4.4722亿美元）。接下来，我们假设从后估值计算得到的回报率符合对数过程。
 
-    Autonomous agents based on Large Language Models (LLMs) that devise plans and tackle real-world challenges have gained prominence.However, tailoring these agents for specialized domains like quantitative investment remains a formidable task. The core challenge involves efficiently building and integrating a domain-specific knowledge base for the agent's learning process. This paper introduces a principled framework to address this challenge, comprising a two-layer loop.In the inner loop, the agent refines its responses by drawing from its knowledge base, while in the outer loop, these responses are tested in real-world scenarios to automatically enhance the knowledge base with new insights.We demonstrate that our approach enables the agent to progressively approximate optimal behavior with provable efficiency.Furthermore, we instantiate this framework through an autonomous agent for mining trading signals named QuantAgent. Empirical results showcase QuantAgent's capability in uncoverin
+    Early-stage firms play a significant role in driving innovation and creating new products and services, especially for cybersecurity. Therefore, evaluating their performance is crucial for investors and policymakers. This work presents a financial evaluation of early-stage firms' performance in 19 cybersecurity sectors using a private-equity dataset from 2010 to 2022 retrieved from Crunchbase. We observe firms, their primary and secondary activities, funding rounds, and pre and post-money valuations. We compare cybersecurity sectors regarding the amount raised over funding rounds and post-money valuations while inferring missing observations. We observe significant investor interest variations across categories, periods, and locations. In particular, we find the average capital raised (valuations) to range from USD 7.24 mln (USD 32.39 mln) for spam filtering to USD 45.46 mln (USD 447.22 mln) for the private cloud sector. Next, we assume a log process for returns computed from post-mone
     
-[^8]: 使用自反大型语言模型学习生成可解释的股票预测
+[^5]: 多维标记Hawkes过程的非参数估计
+
+    Non-Parametric Estimation of Multi-dimensional Marked Hawkes Processes
+
+    [https://arxiv.org/abs/2402.04740](https://arxiv.org/abs/2402.04740)
+
+    这篇论文提出了一种非参数估计标记Hawkes过程条件强度的方法，引入了两种模型来处理具有不同内核和非线性特征的Hawkes过程，通过将过去的到达时间和标记作为输入，获得到达强度。
+
+    
+
+    标记Hawkes过程是Hawkes过程的一个扩展，其特点是每个事件的跳跃大小不同，与没有标记的Hawkes过程中观察到的恒定跳跃大小不同。尽管在线性和非线性Hawkes过程的非参数估计上已经有了广泛的文献，但在标记Hawkes过程方面的文献仍存在重大空白。为此，我们提出了估计标记Hawkes过程条件强度的方法。我们引入了两个不同的模型：“具有标记的浅层神经Hawkes模型”-用于具有兴奋性内核的Hawkes过程，以及“非线性Hawkes具有标记的神经网络模型”-用于非线性Hawkes过程。这两种方法将过去的到达时间及其相应的标记作为输入，以获取到达强度。这种方法是完全非参数的，保持了标记Hawkes过程的可解释性。
+
+    An extension of the Hawkes process, the Marked Hawkes process distinguishes itself by featuring variable jump size across each event, in contrast to the constant jump size observed in a Hawkes process without marks. While extensive literature has been dedicated to the non-parametric estimation of both the linear and non-linear Hawkes process, there remains a significant gap in the literature regarding the marked Hawkes process. In response to this, we propose a methodology for estimating the conditional intensity of the marked Hawkes process. We introduce two distinct models: \textit{Shallow Neural Hawkes with marks}- for Hawkes processes with excitatory kernels and \textit{Neural Network for Non-Linear Hawkes with Marks}- for non-linear Hawkes processes. Both these approaches take the past arrival times and their corresponding marks as the input to obtain the arrival intensity. This approach is entirely non-parametric, preserving the interpretability associated with the marked Hawkes 
+    
+[^6]: Token与股权在初创公司融资中的比较
+
+    Token vs Equity for Startup Financing
+
+    [https://arxiv.org/abs/2402.04662](https://arxiv.org/abs/2402.04662)
+
+    该论文探讨了为什么基于区块链的初创公司及其风投会选择通过发行代币而不是股权进行融资，并分析了两种融资方式之间的流动性差异。在模型中发现，代币对于中期有流动性需求的投资者来说是必要的，同时发行代币可以给企业家带来更高的回报。这种回报差异会随着投资者对风险的规避程度、中期流动性需求以及代币市场的深度而增加。
+
+    
+
+    为什么一个基于区块链的初创公司及其风险投资人会选择通过发行代币而不是股权进行融资？每种资产的回报率会是多少？本文关注两种融资方式之间的流动性差异。我建立了一个包括企业家、两类投资者和用户的三期模型。一些投资者在中期有未预见的流动性需求，只能通过代币来满足。通过发行代币，企业家可以获得更高的回报，而这种回报差异随着投资者对风险的规避程度、中期流动性需求以及代币市场的深度而增加。
+
+    Why would a blockchain-based startup and its venture capital investors choose to finance by issuing tokens instead of equity? What would be their rates of return for each asset? This paper focuses on the liquidity difference between the two fundraising methods. I build a three-period model of an entrepreneur, two types of investors, and users. Some investors have unforeseen liquidity needs in the middle period that can only be met with tokens. The entrepreneur obtains higher payoff by issuing tokens instead of equity, and the payoff difference increases with investors risk-aversion and need for liquidity in the middle period, as well as the depth of the token market.
+    
+[^7]: 孩子的性别在父母社交网络形成中的作用
+
+    The Role of Child Gender in the Formation of Parents' Social Networks
+
+    [https://arxiv.org/abs/2402.04474](https://arxiv.org/abs/2402.04474)
+
+    孩子的性别对父母社交网络的形成具有重要影响，孩子们倾向于与同性朋友交友，这导致了父母之间基于孩子性别的互动。研究发现，如果所有孩子都是同性别，家庭之间的联系将增加约15％，而对于有女孩的家庭影响更为明显。
+
+    
+
+    社交网络在生活的各个方面起着重要的作用。尽管广泛的研究探索了性别、种族和教育等因素在网络形成中的作用，但一个得到较少关注的维度是孩子的性别。孩子倾向于与同性朋友形成友谊，这可能导致父母之间的互动基于他们孩子的性别。本研究以3-5岁孩子为对象，利用孟加拉农村的丰富数据来研究孩子的性别对父母网络形成的作用。我们估计了一个考虑了孩子性别和其他社会经济因素的网络形成均衡模型。对照分析结果表明，孩子的性别在父母网络结构中起到了重要的作用。具体来说，如果所有孩子都是同性别，家庭之间的联系将增加约15％，对于有女孩的家庭影响更为显著。重要的是，孩子的性别对网络结构的影响十分明显。
+
+    Social networks play an important role in various aspects of life. While extensive research has explored factors such as gender, race, and education in network formation, one dimension that has received less attention is the gender of one's child. Children tend to form friendships with same-gender peers, potentially leading their parents to interact based on their child's gender. Focusing on households with children aged 3-5, we leverage a rich dataset from rural Bangladesh to investigate the role of children's gender in parental network formation. We estimate an equilibrium model of network formation that considers a child's gender alongside other socioeconomic factors. Counterfactual analyses reveal that children's gender significantly shapes parents' network structure. Specifically, if all children share the same gender, households would have approximately 15% more links, with a stronger effect for families having girls. Importantly, the impact of children's gender on network struct
+    
+[^8]: 专家在混合补偿制度下的医疗质量：一个实证分析
+
+    Healthcare Quality by Specialists under a Mixed Compensation System: an Empirical Analysis
+
+    [https://arxiv.org/abs/2402.04472](https://arxiv.org/abs/2402.04472)
+
+    这项研究分析了混合补偿制度对专家医疗服务质量的影响，通过实证分析发现，改革导致了MC专家服务的质量下降，表现为出院后再住院风险和死亡率的增加。
+
+    
+
+    我们分析了混合补偿（MC）制度对专家医疗服务质量的影响。我们利用加拿大魁北克省在1999年实施的一项改革。政府引入了一种每日津贴与每次临床服务收费降低的支付机制。利用大型的患者/医生数据集，我们估计了一个类似区别于区别方法的多状态多次发生危险模型。我们从模型中计算出质量指标。我们的结果表明，这项改革降低了MC专家服务的质量，表现为出院后再住院风险和死亡率的增加。这些效应在不同的专业领域之间有所差异。
+
+    We analyze the effects of a mixed compensation (MC) scheme for specialists on the quality of their healthcare services. We exploit a reform implemented in Quebec (Canada) in 1999. The government introduced a payment mechanism combining a per diem with a reduced fee per clinical service. Using a large patient/physician panel dataset, we estimate a multi-state multi-spell hazard model analogous to a difference-in-differences approach. We compute quality indicators from our model. Our results suggest that the reform reduced the quality of MC specialist services measured by the risk of re-hospitalization and mortality after discharge. These effects vary across specialties.
+    
+[^9]: 优质教育方法与其不满：重复学校招生改革的长期影响
+
+    Meritocracy and Its Discontents: Long-run Effects of Repeated School Admission Reforms
+
+    [https://arxiv.org/abs/2402.04429](https://arxiv.org/abs/2402.04429)
+
+    该论文通过分析世界上第一次引入全国中央化的优质教育招生制度改革，发现了持久的优质教育与公平之间的权衡。中央化系统相较于分散化系统录取了更多优秀的申请者，长期来看产生了更多顶尖精英官僚，但这也导致了地区接触优质高等教育和职业晋升的不平等。几十年后，优质教育的集中化增加了城市出生的职业精英数量相对于农村出生者。
+
+    
+
+    如果精英学院改变他们的入学政策会发生什么？通过分析20世纪初全球首次引入全国中央化的优质招生制度，我们回答了这个问题。我们发现存在持久的优质教育与公平之间的权衡。相较于分散化系统，中央化系统录取了更多优秀的申请者，在长期内产生了更多顶尖精英官僚。然而，这种影响以公平地区接触精英高等教育和职业晋升的代价为代表。几十年后，优质教育的集中化增加了城市出生的职业精英（例如，高收入者）相对于农村出生的数量。
+
+    What happens if selective colleges change their admission policies? We answer this question by analyzing the world's first introduction of nationally centralized meritocratic admissions in the early twentieth century. We find a persistent meritocracy-equity tradeoff. Compared to the decentralized system, the centralized system admitted more high-achieving applicants, producing a greater number of top elite bureaucrats in the long run. However, this impact came at the distributional cost of equal regional access to elite higher education and career advancement. Several decades later, the meritocratic centralization increased the number of urban-born career elites (e.g., top income earners) relative to rural-born ones.
+    
+[^10]: 使用自反大型语言模型学习生成可解释的股票预测
 
     Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models
 
@@ -136,158 +159,60 @@
 
     Explaining stock predictions is generally a difficult task for traditional non-generative deep learning models, where explanations are limited to visualizing the attention weights on important texts. Today, Large Language Models (LLMs) present a solution to this problem, given their known capabilities to generate human-readable explanations for their decision-making process. However, the task of stock prediction remains challenging for LLMs, as it requires the ability to weigh the varying impacts of chaotic social texts on stock prices. The problem gets progressively harder with the introduction of the explanation component, which requires LLMs to explain verbally why certain factors are more important than the others. On the other hand, to fine-tune LLMs for such a task, one would need expert-annotated samples of explanation for every stock movement in the training set, which is expensive and impractical to scale. To tackle these issues, we propose our Summarize-Explain-Predict (SEP) 
     
-[^9]: 新娘绑架与非正式治理机构
+[^11]: CFTM: 连续时间分数话题模型
 
-    Bride Kidnapping and Informal Governance Institutions
+    CFTM: Continuous time fractional topic model
 
-    [https://arxiv.org/abs/2402.03411](https://arxiv.org/abs/2402.03411)
+    [https://arxiv.org/abs/2402.01734](https://arxiv.org/abs/2402.01734)
 
-    研究分析了吉尔吉斯斯坦新娘绑架现象与非正式治理机构阿克萨卡尔之间的关系，发现阿克萨卡尔治理对绑架决策有影响。
-
-    
-
-    新娘绑架是一种强迫婚姻的形式，即女性被强行带走，并被迫嫁给绑架者。苏联后期的吉尔吉斯斯坦在传统价值观和文化复兴的同时，新娘绑架这一做法显著增加。作为吉尔吉斯族认同和文化复兴的一部分，中央政府将被称为阿克萨卡尔的长老会正式赋予仲裁地方纠纷解决的权威，遵循非正式的传统和文化规范。新娘绑架属于阿克萨卡尔的权威范畴。在这项研究中，我利用全国代表性调查的数据，并利用潜在类嵌套逻辑斯蒂模型来分析阿克萨卡尔治理对绑架决策的影响。根据调查中的价值评估问题，男性被分配到潜在类成员的概率分布上。效用函数参数...
-
-    Bride kidnapping is a form of forced marriage in which a woman is taken against her will and coerced into accepting marriage with her captor. Post-Soviet Kyrgyzstan has seen a large increase in the prominence of this practice alongside a revitalization of traditional values and culture. As part of this resurgence of Kyrgyz identity and culture, the central government has formalized the authority of councils of elders called aksakals as an arbitrator for local dispute resolution -- guided by informal principles of tradition and cultural norm adherence. Bride kidnapping falls within the domain of aksakal authority. In this study, I leverage data from a nationally representative survey and specify a latent class nested logit model of mens' marriage modality choice to analyze the impacts that aksakal governance has on the decision to kidnap. Based on value assessment questions on the survey, men are assigned to a probability distribution over latent class membership. Utility function param
-    
-[^10]: 推特对市场趋势的影响：分析社交媒体情绪对生物技术股票的影响
-
-    Tweet Influence on Market Trends: Analyzing the Impact of Social Media Sentiment on Biotech Stocks
-
-    [https://arxiv.org/abs/2402.03353](https://arxiv.org/abs/2402.03353)
-
-    本研究通过分析推特情绪与生物技术股票市场行为之间的关系，发现了社交媒体话语对投资者情绪和决策过程的影响，并提出了使用情绪协变量来改善股市预测准确性的方法。
+    CFTM是一种新的动态主题建模方法，通过使用分数布朗运动来识别随时间变化的主题和词分布的正负相关性，揭示长期依赖性或粗糙度。实证研究结果表明，该模型能够有效地识别和跟踪主题的长期依赖性或粗糙度。
 
     
 
-    本研究调查了推特情绪在不同类别（新闻、公司观点、CEO观点、竞争对手观点）与生物技术领域股市行为之间的关系，重点是理解社交媒体话语对投资者情绪和决策过程的影响。我们分析了十家最大、最具影响力的制药公司的历史股市数据，同时考察了与COVID-19、疫苗、这些公司以及它们的CEO相关的推特数据。通过使用VADER情绪分析方法，我们考察了推文的情绪得分，并评估它们与股市表现的关系。我们采用ARIMA（自回归滑动平均）和VAR（向量自回归）模型来预测股市表现，并加入情绪协变量来提升预测准确性。我们的研究结果揭示了推特情绪、新闻、生物技术公司、其CEO和股市表现之间的复杂相互作用。
+    本文提出了连续时间分数话题模型（cFTM），一种新的动态主题建模方法。该方法利用分数布朗运动（fBm）有效地识别主题和词分布随时间的正负相关性，揭示长期依赖性或粗糙度。我们的理论分析表明，cFTM可以捕捉到主题和词分布中的这些长期依赖性或粗糙度，反映了fBm的主要特征。此外，我们证明了cFTM的参数估计过程与传统主题模型LDA的相当。为了证明cFTM的性质，我们使用经济新闻文章进行了实证研究。这些测试的结果支持该模型能够识别和跟踪主题随时间的长期依赖性或粗糙度。
 
-    This study investigates the relationship between tweet sentiment across diverse categories: news, company opinions, CEO opinions, competitor opinions, and stock market behavior in the biotechnology sector, with a focus on understanding the impact of social media discourse on investor sentiment and decision-making processes. We analyzed historical stock market data for ten of the largest and most influential pharmaceutical companies alongside Twitter data related to COVID-19, vaccines, the companies, and their respective CEOs. Using VADER sentiment analysis, we examined the sentiment scores of tweets and assessed their relationships with stock market performance. We employed ARIMA (AutoRegressive Integrated Moving Average) and VAR (Vector AutoRegression) models to forecast stock market performance, incorporating sentiment covariates to improve predictions. Our findings revealed a complex interplay between tweet sentiment, news, biotech companies, their CEOs, and stock market performance
+    In this paper, we propose the Continuous Time Fractional Topic Model (cFTM), a new method for dynamic topic modeling. This approach incorporates fractional Brownian motion~(fBm) to effectively identify positive or negative correlations in topic and word distribution over time, revealing long-term dependency or roughness. Our theoretical analysis shows that the cFTM can capture these long-term dependency or roughness in both topic and word distributions, mirroring the main characteristics of fBm. Moreover, we prove that the parameter estimation process for the cFTM is on par with that of LDA, traditional topic models. To demonstrate the cFTM's property, we conduct empirical study using economic news articles. The results from these tests support the model's ability to identify and track long-term dependency or roughness in topics over time.
     
-[^11]: 在金融领域中，应用具有随机特征的CNN-DRL方法
+[^12]: 外债对温室气体排放的影响
 
-    CNN-DRL with Shuffled Features in Finance
+    The Effect of External Debt on Greenhouse Gas Emissions
 
-    [https://arxiv.org/abs/2402.03338](https://arxiv.org/abs/2402.03338)
+    [https://arxiv.org/abs/2206.01840](https://arxiv.org/abs/2206.01840)
 
-    本研究通过对特征向量进行特定排列，应用CNN-DRL方法于金融数据中，在回报上取得了显著的提高。
-
-    
-
-    在先前的方法中，观察到将卷积神经网络代理应用于深度强化学习中的金融数据可以提高回报。本研究应用了特定的排列方式来对特征向量进行处理，从而生成一个CNN矩阵，将更相关的特征放置在靠近的位置。我们的全面实验评估明确地证明了回报的显著提高。
-
-    In prior methods, it was observed that the application of Convolutional Neural Networks agent in Deep Reinforcement Learning to financial data resulted in an enhanced reward. In this study, a specific permutation was applied to the feature vector, thereby generating a CNN matrix that strategically positions more pertinent features in close proximity. Our comprehensive experimental evaluations unequivocally demonstrate a substantial enhancement in reward attainment.
-    
-[^12]: 限价单簿动态与订单尺寸建模：复合霍克斯进程
-
-    Limit Order Book Dynamics and Order Size Modelling Using Compound Hawkes Process
-
-    [https://arxiv.org/abs/2312.08927](https://arxiv.org/abs/2312.08927)
-
-    本文提出了一种使用复合霍克斯进程建模限价单簿动态和订单尺寸的新方法，以校准分布抽取每个事件的订单尺寸，并在模型中保持正的价差。进一步地，我们根据时间条件模型参数支持经验观察，并使用改进的非参数方法校准霍克斯核函数和抑制性交叉激发核函数。
+    外债对温室气体排放有正面且显著的影响，增加的外债会导致温室气体排放的增加。造成这种影响的可能机制之一是，政府由于增加的债务服务压力，无法有效执行环境法规，或被私营部门所控制。
 
     
 
-    霍克斯进程已在文献中多种方式被用于模拟限价单簿动态，但往往仅关注事件间隔，而订单尺寸通常被假设为常数。我们提出了一种新颖的方法，使用复合霍克斯进程来模拟限价单簿，其中每个事件的订单尺寸来自校准分布。该方法以一种新颖的方式构建，使进程的价差始终保持正值。此外，我们根据时间条件模型参数以支持经验观察。我们使用改进的非参数方法来校准霍克斯核函数，并允许抑制性交叉激发核函数。我们展示了在纳斯达克交易所中一只股票的限价单簿上的结果和适度程度。
+    我们在78个新兴市场和发展中国家的面板数据中估计了外债对温室气体排放的因果效应，时间跨度为1990年至2015年。与以往文献不同，我们使用外部工具变量来解决外债与温室气体排放之间的潜在内生性问题。具体而言，我们使用国际流动性冲击作为外债的工具变量。我们发现，处理潜在内生性问题带来了外债对温室气体排放的正面且显著影响：外债增加1个百分点（pp.），平均会导致温室气体排放增加0.4%。一个可能的作用机制是，随着外债的增加，政府难以执行环境法规，因为他们的主要优先事项是扩大税基以支付不断增加的债务服务，或者因为他们被持有债务的私营部门所控制。
 
-    Hawkes Process has been used to model Limit Order Book (LOB) dynamics in several ways in the literature however the focus has been limited to capturing the inter-event times while the order size is usually assumed to be constant. We propose a novel methodology of using Compound Hawkes Process for the LOB where each event has an order size sampled from a calibrated distribution. The process is formulated in a novel way such that the spread of the process always remains positive. Further, we condition the model parameters on time of day to support empirical observations. We make use of an enhanced non-parametric method to calibrate the Hawkes kernels and allow for inhibitory cross-excitation kernels. We showcase the results and quality of fits for an equity stock's LOB in the NASDAQ exchange.
+    We estimate the causal effect of external debt on greenhouse gas emissions in a panel of 78 emerging market and developing economies over the 1990-2015 period. Unlike previous literature, we use external instruments to address the potential endogeneity in the relationship between external debt and greenhouse gas emissions. Specifically, we use international liquidity shocks as instrumental variables for external debt. We find that dealing with the potential endogeneity problem brings about a positive and statistically significant effect of external debt on greenhouse gas emissions: a 1 percentage point (pp.) rise in external debt causes, on average, a 0.4% increase in greenhouse gas emissions. One possible mechanism of action could be that, as external debt increases, governments are less able to enforce environmental regulations because their main priority is to increase the tax base to pay increasing debt services or because they are captured by the private sector who owns that debt 
     
-[^13]: 从局部和总体信息中进行的输入产出分析中的上游性和下游性
+[^13]: 多元概率CRPS学习及其在日前电价预测中的应用
 
-    Upstreamness and downstreamness in input-output analysis from local and aggregate information
+    Multivariate Probabilistic CRPS Learning with an Application to Day-Ahead Electricity Prices. (arXiv:2303.10019v1 [stat.ML])
 
-    [https://arxiv.org/abs/2009.06350](https://arxiv.org/abs/2009.06350)
+    [http://arxiv.org/abs/2303.10019](http://arxiv.org/abs/2303.10019)
 
-    该论文研究了在输入产出分析中，对部门和国家进行上游性和下游性排名的方法。通过仅依赖于局部和总体信息，而无需完全了解输入产出表，该论文展示了一种准确估计供应链网络中部门和国家作用的方法。通过在世界输入产出数据库的实证数据上进行测试，该方法在重建排名方面表现出一致良好的性能。此外，该论文还将近似框架的准确性与输入产出表的谱特性联系起来。
-
-    
-
-    在全球价值链中对部门和国家进行排名是估计风险和预测大经济体增长的至关重要的任务。然而，由于对部门和国家之间货币和商品流动的完整准确信息的缺乏，这个任务通常并不容易，这些信息被编码在输入产出表中。在这项工作中，我们展示了在不完全了解输入产出表的情况下，只依靠局部和总体信息（例如每个部门的总中间需求）就能够准确估计部门和国家在供应链网络中发挥的作用。我们的方法基于对输入产出表的秩为1的近似，通过在来自世界输入产出数据库的实证数据上进行测试，在重建排名（即对国家和部门的上游性和下游性度量）方面表现出一致良好的性能。此外，我们将我们的近似框架的准确性与输入产出表的谱特性联系起来。
-
-    Ranking sectors and countries within global value chains is of paramount importance to estimate risks and forecast growth in large economies. However, this task is often non-trivial due to the lack of complete and accurate information on the flows of money and goods between sectors and countries, which are encoded in Input-Output (I-O) tables. In this work, we show that an accurate estimation of the role played by sectors and countries in supply chain networks can be achieved without full knowledge of the I-O tables, but only relying on local and aggregate information, e.g., the total intermediate demand per sector. Our method, based on a rank-$1$ approximation to the I-O table, shows consistently good performance in reconstructing rankings (i.e., upstreamness and downstreamness measures for countries and sectors) when tested on empirical data from the World Input-Output Database. Moreover, we connect the accuracy of our approximate framework with the spectral properties of the I-O tab
-    
-[^14]: MTRGL：通过多模态时间关系图学习有效辨识时间相关性
-
-    MTRGL:Effective Temporal Correlation Discerning through Multi-modal Temporal Relational Graph Learning. (arXiv:2401.14199v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.14199](http://arxiv.org/abs/2401.14199)
-
-    该论文引入了一种新的框架——多模态时间关系图学习（MTRGL），通过将时间序列数据和离散特征结合成一个时间图，并采用记忆机制的图神经网络来辨识实体间的时间相关性，取得了在实证实验中的优异表现。这一研究对于提升自动化配对交易策略具有重要意义。
+    本文提出一种新的多元概率CRPS学习方法，应用于日前电价预测中，相比于统一组合在CRPS方面取得了显著改进。
 
     
 
-    本研究探索了深度学习与金融市场应用之间的协同作用，重点关注配对交易。这种市场中性策略对量化金融至关重要，并且适用于先进的深度学习技术。配对交易中的一个关键挑战是辨识实体之间的时间相关性，这要求整合多样化的数据模态。为了应对这一挑战，我们介绍了一种新的框架，即多模态时间关系图学习（MTRGL）。MTRGL将时间序列数据和离散特征结合到一个时间图中，并采用了基于记忆的时间图神经网络。这种方法将时间相关性识别重新定义为一个时间图链路预测任务，取得了实证成功。我们在真实数据集上的实验验证了MTRGL的卓越性能，强调其在优化自动化配对交易策略方面的潜力。
+    本文提出了一种考虑分位数和协变量依赖关系的多元概率预测的结合方法，并通过平滑过程允许在线学习。通过维数降低和罚函数平滑等两种平滑方法来将标准CRPS学习框架推广到多元维度中。将该方法应用于预测日前电价，相比于统一组合，在CRPS方面取得了显著改进。
 
-    In this study, we explore the synergy of deep learning and financial market applications, focusing on pair trading. This market-neutral strategy is integral to quantitative finance and is apt for advanced deep-learning techniques. A pivotal challenge in pair trading is discerning temporal correlations among entities, necessitating the integration of diverse data modalities. Addressing this, we introduce a novel framework, Multi-modal Temporal Relation Graph Learning (MTRGL). MTRGL combines time series data and discrete features into a temporal graph and employs a memory-based temporal graph neural network. This approach reframes temporal correlation identification as a temporal graph link prediction task, which has shown empirical success. Our experiments on real-world datasets confirm the superior performance of MTRGL, emphasizing its promise in refining automated pair trading strategies.
+    This paper presents a new method for combining (or aggregating or ensembling) multivariate probabilistic forecasts, taking into account dependencies between quantiles and covariates through a smoothing procedure that allows for online learning. Two smoothing methods are discussed: dimensionality reduction using Basis matrices and penalized smoothing. The new online learning algorithm generalizes the standard CRPS learning framework into multivariate dimensions. It is based on Bernstein Online Aggregation (BOA) and yields optimal asymptotic learning properties. We provide an in-depth discussion on possible extensions of the algorithm and several nested cases related to the existing literature on online forecast combination. The methodology is applied to forecasting day-ahead electricity prices, which are 24-dimensional distributional forecasts. The proposed method yields significant improvements over uniform combination in terms of continuous ranked probability score (CRPS). We discuss 
     
-[^15]: 几乎完美的阴影价格
+[^14]: 非负随机变量集合的双极定理
 
-    Almost Perfect Shadow Prices. (arXiv:2401.00970v1 [q-fin.PM])
+    Bipolar Theorems for Sets of Non-negative Random Variables. (arXiv:2212.14259v2 [math.PR] UPDATED)
 
-    [http://arxiv.org/abs/2401.00970](http://arxiv.org/abs/2401.00970)
+    [http://arxiv.org/abs/2212.14259](http://arxiv.org/abs/2212.14259)
 
-    本文研究了在存在交易成本的市场中阴影价格的应用，证明了在平均波动性给定下使用朴素的阴影价格方法可以得到渐近达到三阶最优的交易策略，并提出了在不同风险厌恶程度下优于阴影市场的四阶交易策略。此外，还证明了风险中性目标排除了阴影价格的存在。
-
-    
-
-    阴影价格通过将优化转移到一个更易处理的无摩擦市场中，简化了在存在交易成本的市场中推导最优交易策略。本文证明了，在平均波动性给定下，使用一个朴素的阴影价格方法来最大化长期回报能够得到一个在小买卖价差情况下渐近地达到三阶最优的交易策略。考虑交易成本的二阶影响，这样的策略基本上是最优的。然而，对于不同风险厌恶程度的情况，我们设计了一些优于阴影市场的四阶交易策略。最后，我们证明了风险中性目标排除了阴影价格的存在。
-
-    Shadow prices simplify the derivation of optimal trading strategies in markets with transaction costs by transferring optimization into a more tractable, frictionless market. This paper establishes that a na\"ive shadow price Ansatz for maximizing long term returns given average volatility yields a strategy that is, for small bid-ask-spreads, asymptotically optimal at third order. Considering the second-order impact of transaction costs, such a strategy is essentially optimal. However, for risk aversion different from one, we devise alternative strategies that outperform the shadow market at fourth order. Finally, it is shown that the risk-neutral objective rules out the existence of shadow prices.
-    
-[^16]: 创业公司收购：人才抢购和人才囤积
-
-    Startup Acquisitions: Acquihires and Talent Hoarding. (arXiv:2308.10046v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.10046](http://arxiv.org/abs/2308.10046)
-
-    该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。
+    本文提出了非负随机变量集合的双极定理的必要和充分条件，扩展和统一了现有的在强健框架上证明的双极定理。
 
     
 
-    我们提出了一个创业公司收购模型，可能导致低效的 "人才囤积"。我们开发了一个有两个竞争公司的模型，这些公司可以收购和整合一个在不同领域运营的创业公司，这种收购改善了收购公司的竞争力。我们表明，即使没有经典的竞争效应，这种收购也可能不是良性的，而是垄断行为的结果，导致人才分配低效。此外，我们还表明，这种人才囤积可能会降低消费者剩余，并导致被收购员工的工作不稳定性增加。
+    本文假设一个强健的、一般不被支配的概率框架，并为非负随机变量的所有准确等价类的子集提供双极表示的必要和充分条件，而不需要对基础测度空间做进一步的限制。这扩展和统一了现有的在强健框架上证明的双极定理。此外，我们概述了在数学金融和运输问题中的应用。
 
-    We present a model of startup acquisitions, which may give rise to inefficient "talent hoarding." We develop a model with two competing firms that can acquire and integrate (or "acquihire") a startup operating in an orthogonal market. Such an acquihire improves the competitiveness of the acquiring firm. We show that even absent the classical competition effects, acquihires need not be benign but can be the result of oligopolistic behavior, leading to an inefficient allocation of talent. Further, we show that such talent hoarding may reduce consumer surplus and lead to more job volatility for acquihired employees.
-    
-[^17]: 孩子对波兰女性和男性的劳动力市场结果的影响
-
-    The Impact of Parenthood on Labour Market Outcomes of Women and Men in Poland. (arXiv:2306.12924v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.12924](http://arxiv.org/abs/2306.12924)
-
-    波兰记录了欧洲最低的性别薪资差距之一。这项研究发现，母亲的收入在生育后会降低约20％，但在15年后与非母亲的收入趋于一致，而父亲的收入在孩子到来之前就已经高于非父亲。
-
-    
-
-    波兰是欧洲性别薪酬差距最小的国家之一。与此同时，它是一个保守的国家，女性的权利一直在下降。我们认为，在波兰背景下，收入差距比小时工资差距更适合衡量性别劳动力市场结果。我们使用调整为低分辨率的安慰剂事件历史方法和波兰世代和性别调查的两个波次（2010年、2014年）分析了波兰的收入性别差距与育儿状态的关系。与在西欧进行的类似研究相反，我们的分析揭示了女性和男性普遍存在的预期行为。我们展示，在生育后，母亲的收入降低了约20％，但在15年后，与非母亲的收入轨迹趋于一致。相比之下，未来父亲的收入高于非父亲的收入，这表明父亲溢价在孩子到来之前就存在。总的来说，我们的研究揭示了一个保守的国家中性别劳动力市场结果的复杂性。
-
-    Poland records one of the lowest gender wage gaps in Europe. At the same time, it is a socially conservative country where women's rights have been on the decline. We argue that, in the Polish context, the gender gap in income is a more appropriate measure of gendered labour market outcomes than the gap in the hourly wage. We analyse the gender gap in income in Poland in relation to the parenthood status, using the placebo event history method, adjusted to low resolution data, and the two waves of the Polish Generations and Gender Survey (2010, 2014). Contrary to similar studies conducted in Western Europe, our analysis uncovers a large degree of anticipatory behaviour in both women and men who expect to become parents. We show that mothers' income decreases by about 20% after birth, but converges to the income trajectory of non-mothers after 15 years. In contrast, the income of eventual fathers is higher than that of non-fathers both before and after birth, suggesting that the fatherh
-    
-[^18]: 市场影响的平方根定律的贝叶斯推导
-
-    A Bayesian derivation of the square root law of market impact. (arXiv:2303.08867v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2303.08867](http://arxiv.org/abs/2303.08867)
-
-    本文提出了一个贝叶斯市场预期的简单模型，可以解释金融资产价格对一系列交易的影响，包括交易量与价格波动平方根成正比、小交易量时成线性关系、交易结束后影响衰减回到均衡。平方根影响定律可能来自于对元订单订单流的高估。
-
-    
-
-    我们展示了一个令人惊讶的简单模型的完全贝叶斯市场预期，可以恢复对金融资产价格的一系列交易影响的主要经验发现，其中包括（i）预期价格变动随总交易量呈现出平方根行为，（ii）对于小交易量，它交叉到线性区域，以及（iii）在交易序列结束后回到均衡的影响衰减。这种推导的简单性进一步支持了它的鲁棒性和普适性，并揭示了它的起源。特别地，它表明平方根影响定律源于对来自元订单的订单流的高估。
-
-    We show that the main empirical findings on the impact of a sequence of transactions on prices of financial assets can be recovered within a surprisingly simple model with fully Bayesian market expectations. This includes {\em i)} the square-root behavior of the expected price variation with the total volume traded, {\em ii)} it's crossover to a linear regime for small volumes, and {\em iii)} the impact decay back to equilibrium, after the sequence of trades is over. The simplicity of this derivation lends further support to its robustness and universality, and it sheds light on its origin. In particular, it suggests that the square-root impact law originates from the over-estimation of order flows originating from meta-orders.
-    
-[^19]: 是否需要提高t-统计障碍？
-
-    Do t-Statistic Hurdles Need to be Raised?. (arXiv:2204.10275v2 [q-fin.GN] UPDATED)
-
-    [http://arxiv.org/abs/2204.10275](http://arxiv.org/abs/2204.10275)
-
-    许多学者呼吁提高统计障碍来防止错误发现，但经验证明这些呼吁在实践中不太合理。已发表的数据存在偏差，未观察到的结果需要外推，导致修订障碍的识别能力不强。与之相反，只针对已发表的发现进行统计分析可以得到较强的识别能力。
-
-    
-
-    许多学者呼吁提高统计障碍，以防止学术出版物中的错误发现。我展示了这些呼吁在经验上不太可能被证明成立。已发表的数据存在偏差：未能达到现有障碍的结果经常是不可观测的。这些未观察到的结果必须进行外推，导致修订障碍的识别能力不强。相比之下，只能针对已发表发现的统计方法（例如经验贝叶斯收缩和局部FDR）可以被强烈识别，因为有关已发表发现的数据非常丰富。我在一个一般理论和关于截面回报可预测性文献的实证分析中证明了这些结果。
-
-    Many scholars have called for raising statistical hurdles to guard against false discoveries in academic publications. I show these calls are unlikely to be justified empirically. Published data exhibit bias: results that fail to meet existing hurdles are often unobserved. These unobserved results must be extrapolated, leading to weak identification of revised hurdles. In contrast, statistics that can target only published findings (e.g. empirical Bayes shrinkage and the local FDR) can be strongly identified, as data on published findings is plentiful. I demonstrate these results in a general theory and in an empirical analysis of the cross-sectional return predictability literature.
+    This paper assumes a robust, in general not dominated, probabilistic framework and provides necessary and sufficient conditions for a bipolar representation of subsets of the set of all quasi-sure equivalence classes of non-negative random variables without any further conditions on the underlying measure space. This generalises and unifies existing bipolar theorems proved under stronger assumptions on the robust framework. Moreover, we sketch applications to issues in mathematical finance and a mass transport type duality.
     
 

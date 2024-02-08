@@ -1,0 +1,11 @@
+{
+    "title": "Cyber risk and the cross-section of stock returns",
+    "abstract": "We extract firms' cyber risk with a machine learning algorithm measuring the proximity between their disclosures and a dedicated cyber corpus. Our approach outperforms dictionary methods, uses full disclosure and not devoted-only sections, and generates a cyber risk measure uncorrelated with other firms' characteristics. We find that a portfolio of US-listed stocks in the high cyber risk quantile generates an excess return of 18.72\\% p.a. Moreover, a long-short cyber risk portfolio has a significant and positive risk premium of 6.93\\% p.a., robust to all factors' benchmarks. Finally, using a Bayesian asset pricing method, we show that our cyber risk factor is the essential feature that allows any multi-factor model to price the cross-section of stock returns.",
+    "link": "https://arxiv.org/abs/2402.04775",
+    "context": "Title: Cyber risk and the cross-section of stock returns\nAbstract: We extract firms' cyber risk with a machine learning algorithm measuring the proximity between their disclosures and a dedicated cyber corpus. Our approach outperforms dictionary methods, uses full disclosure and not devoted-only sections, and generates a cyber risk measure uncorrelated with other firms' characteristics. We find that a portfolio of US-listed stocks in the high cyber risk quantile generates an excess return of 18.72\\% p.a. Moreover, a long-short cyber risk portfolio has a significant and positive risk premium of 6.93\\% p.a., robust to all factors' benchmarks. Finally, using a Bayesian asset pricing method, we show that our cyber risk factor is the essential feature that allows any multi-factor model to price the cross-section of stock returns.",
+    "path": "papers/24/02/2402.04775.json",
+    "total_tokens": 798,
+    "translated_title": "网络风险与股票收益的横截面",
+    "translated_abstract": "我们使用机器学习算法提取公司的网络风险，通过衡量其公告与专门的网络语料库之间的关联程度。我们的方法在字典方法上表现出色，使用的是完整的公告而不仅仅是专门的部分，并生成一个与其他公司特征不相关的网络风险度量。我们发现，在高网络风险分位数中的美国上市股票组合产生了18.72％的超额收益。此外，长-短网络风险组合具有显着且正的风险溢价，为6.93％，对所有因子基准都具有鲁棒性。最后，使用贝叶斯资产定价方法，我们表明我们的网络风险因子是使任何多因子模型能够定价股票收益横截面的关键特征。",
+    "tldr": "该研究通过机器学习算法量化了公司的网络风险，并发现高风险股票组合可以获得超额收益。此外，网络风险因子是定价股票收益横截面的关键特征。"
+}

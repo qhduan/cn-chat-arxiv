@@ -1,0 +1,12 @@
+{
+    "title": "Large Vocabulary Spontaneous Speech Recognition for Tigrigna",
+    "abstract": "This thesis proposes and describes a research attempt at designing and developing a speaker independent spontaneous automatic speech recognition system for Tigrigna The acoustic model of the Speech Recognition System is developed using Carnegie Mellon University Automatic Speech Recognition development tool (Sphinx) while the SRIM tool is used for the development of the language model.   Keywords Automatic Speech Recognition Tigrigna language",
+    "link": "https://arxiv.org/abs/2402.04254",
+    "context": "Title: Large Vocabulary Spontaneous Speech Recognition for Tigrigna\nAbstract: This thesis proposes and describes a research attempt at designing and developing a speaker independent spontaneous automatic speech recognition system for Tigrigna The acoustic model of the Speech Recognition System is developed using Carnegie Mellon University Automatic Speech Recognition development tool (Sphinx) while the SRIM tool is used for the development of the language model.   Keywords Automatic Speech Recognition Tigrigna language",
+    "path": "papers/24/02/2402.04254.json",
+    "total_tokens": 604,
+    "translated_title": "Tigrigna大词汇量自发语音识别",
+    "translated_abstract": "本论文提出并描述了一种设计和开发提格利尼亚语中独立于发言者的自发自动语音识别系统的研究尝试。该语音识别系统的声学模型采用卡内基梅隆大学自动语音识别开发工具（Sphinx）开发，而语言模型的开发则采用SRIM工具。",
+    "tldr": "本文研究了一种Tigrigna语言的大词汇量自发语音识别系统的设计与开发，通过使用Sphinx工具开发声学模型和使用SRIM工具开发语言模型。这项研究的创新点是实现了对Tigrigna语言的自动语音识别。",
+    "en_tdlr": "This paper presents the design and development of a large vocabulary spontaneous speech recognition system for Tigrigna language, with the acoustic model developed using Sphinx tool and the language model developed using SRIM tool. The key contribution of this research is the achievement of automatic speech recognition for Tigrigna language."
+}

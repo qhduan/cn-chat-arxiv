@@ -1,0 +1,11 @@
+{
+    "title": "How BERT Speaks Shakespearean English? Evaluating Historical Bias in Contextual Language Models",
+    "abstract": "In this paper, we explore the idea of analysing the historical bias of contextual language models based on BERT by measuring their adequacy with respect to Early Modern (EME) and Modern (ME) English. In our preliminary experiments, we perform fill-in-the-blank tests with 60 masked sentences (20 EME-specific, 20 ME-specific and 20 generic) and three different models (i.e., BERT Base, MacBERTh, English HLM). We then rate the model predictions according to a 5-point bipolar scale between the two language varieties and derive a weighted score to measure the adequacy of each model to EME and ME varieties of English.",
+    "link": "https://arxiv.org/abs/2402.05034",
+    "context": "Title: How BERT Speaks Shakespearean English? Evaluating Historical Bias in Contextual Language Models\nAbstract: In this paper, we explore the idea of analysing the historical bias of contextual language models based on BERT by measuring their adequacy with respect to Early Modern (EME) and Modern (ME) English. In our preliminary experiments, we perform fill-in-the-blank tests with 60 masked sentences (20 EME-specific, 20 ME-specific and 20 generic) and three different models (i.e., BERT Base, MacBERTh, English HLM). We then rate the model predictions according to a 5-point bipolar scale between the two language varieties and derive a weighted score to measure the adequacy of each model to EME and ME varieties of English.",
+    "path": "papers/24/02/2402.05034.json",
+    "total_tokens": 699,
+    "translated_title": "BERT如何说莎士比亚英语？评估上下文语言模型中的历史偏见",
+    "translated_abstract": "本文探讨了基于BERT的上下文语言模型的历史偏见分析，并通过测量其对早期现代英语（EME）和现代英语（ME）的适应性来评估其准确性。通过填空测试，我们对60个掩盖句子（20个EME特定、20个ME特定和20个通用）以及三个不同的模型（BERT Base、MacBERTh、English HLM）进行了初步实验。然后，我们根据两种语言变体之间的5点双极刻度对模型预测进行评分，并计算加权得分来测量每个模型对EME和ME英语变体的适应性。",
+    "tldr": "本文评估了基于BERT的上下文语言模型对早期现代英语和现代英语的准确性，并分析了其中的历史偏见。"
+}

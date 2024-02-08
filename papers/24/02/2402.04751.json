@@ -1,0 +1,12 @@
+{
+    "title": "Asymptotic Dynamics of Alternating Minimization for Non-Convex Optimization",
+    "abstract": "This study investigates the asymptotic dynamics of alternating minimization applied to optimize a bilinear non-convex function with normally distributed covariates. We employ the replica method from statistical physics in a multi-step approach to precisely trace the algorithm's evolution. Our findings indicate that the dynamics can be described effectively by a two--dimensional discrete stochastic process, where each step depends on all previous time steps, revealing a memory dependency in the procedure. The theoretical framework developed in this work is broadly applicable for the analysis of various iterative algorithms, extending beyond the scope of alternating minimization.",
+    "link": "https://arxiv.org/abs/2402.04751",
+    "context": "Title: Asymptotic Dynamics of Alternating Minimization for Non-Convex Optimization\nAbstract: This study investigates the asymptotic dynamics of alternating minimization applied to optimize a bilinear non-convex function with normally distributed covariates. We employ the replica method from statistical physics in a multi-step approach to precisely trace the algorithm's evolution. Our findings indicate that the dynamics can be described effectively by a two--dimensional discrete stochastic process, where each step depends on all previous time steps, revealing a memory dependency in the procedure. The theoretical framework developed in this work is broadly applicable for the analysis of various iterative algorithms, extending beyond the scope of alternating minimization.",
+    "path": "papers/24/02/2402.04751.json",
+    "total_tokens": 735,
+    "translated_title": "非凸优化中Alternating Minimization的渐近动力学",
+    "translated_abstract": "本研究探讨了在具有正态分布协变量的双线性非凸函数优化中应用交替极小化的渐近动力学。我们采用统计物理学中的复制方法，通过多步方法精确追踪算法的演变。研究结果表明，动力学可以有效地用一个二维离散随机过程来描述，每一步都依赖于所有先前的时间步长，揭示了过程中的记忆依赖性。本文开发的理论框架广泛适用于各种迭代算法的分析，超越了交替极小化的范围。",
+    "tldr": "本文研究了交替极小化在非凸优化中的渐近动力学特性，通过复制方法追踪演化过程，发现其可用二维离散随机过程有效描述，存在记忆依赖性。该理论框架适用于分析各种迭代算法。",
+    "en_tdlr": "This study investigates the asymptotic dynamics of alternating minimization for non-convex optimization, and finds that the dynamics can be effectively described by a two-dimensional discrete stochastic process with memory dependency. The developed theoretical framework is broadly applicable to the analysis of various iterative algorithms."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An Over Complete Deep Learning Method for Inverse Problems",
+    "abstract": "Obtaining meaningful solutions for inverse problems has been a major challenge with many applications in science and engineering. Recent machine learning techniques based on proximal and diffusion-based methods have shown promising results. However, as we show in this work, they can also face challenges when applied to some exemplary problems. We show that similar to previous works on over-complete dictionaries, it is possible to overcome these shortcomings by embedding the solution into higher dimensions. The novelty of the work proposed is that we jointly design and learn the embedding and the regularizer for the embedding vector. We demonstrate the merit of this approach on several exemplary and common inverse problems.",
+    "link": "https://arxiv.org/abs/2402.04653",
+    "context": "Title: An Over Complete Deep Learning Method for Inverse Problems\nAbstract: Obtaining meaningful solutions for inverse problems has been a major challenge with many applications in science and engineering. Recent machine learning techniques based on proximal and diffusion-based methods have shown promising results. However, as we show in this work, they can also face challenges when applied to some exemplary problems. We show that similar to previous works on over-complete dictionaries, it is possible to overcome these shortcomings by embedding the solution into higher dimensions. The novelty of the work proposed is that we jointly design and learn the embedding and the regularizer for the embedding vector. We demonstrate the merit of this approach on several exemplary and common inverse problems.",
+    "path": "papers/24/02/2402.04653.json",
+    "total_tokens": 745,
+    "translated_title": "一种用于反问题的过完备深度学习方法",
+    "translated_abstract": "在科学和工程中，获取反问题的有意义解决方案是一个主要挑战。基于近端和扩散方法的最近的机器学习技术已经显示出有希望的结果。然而，正如我们在这项工作中所展示的，当应用于一些典型问题时，它们也面临挑战。我们证明，类似于过完备字典的先前作品，通过将解决方案嵌入到更高的维度中，可以克服这些不足。所提出的工作的创新之处在于我们共同设计并学习嵌入和嵌入向量的正则化器。我们在几个典型和常见的反问题上展示了这种方法的优点。",
+    "tldr": "该论文提出了一种过完备深度学习方法，用于解决反问题。通过将解决方案嵌入到更高维度中，同时设计和学习嵌入和正则化器，克服了传统方法的不足，并在多个典型反问题上证明了其优点。",
+    "en_tdlr": "This paper presents an over complete deep learning method for solving inverse problems. By embedding the solution into higher dimensions and jointly designing and learning the embedding and regularizer, it overcomes the limitations of traditional methods and demonstrates its advantages on multiple exemplary inverse problems."
+}

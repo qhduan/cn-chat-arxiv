@@ -1,0 +1,12 @@
+{
+    "title": "TP-Aware Dequantization",
+    "abstract": "In this paper, we present a novel method that reduces model inference latency during distributed deployment of Large Language Models (LLMs). Our contribution is an optimized inference deployment scheme that address the current limitations of state-of-the-art quantization kernels when used in conjunction with Tensor Parallel (TP). Our method preserves data locality in GPU memory access patterns and exploits a priori knowledge of TP to reduce global communication. We demonstrate an up to 1.81x speedup over existing methods for Llama-70B and up to 1.78x speedup for IBM WatsonX's Granite-20B MLP layer problem sizes on A100 and H100 NVIDIA DGX Systems for a variety of TP settings.",
+    "link": "https://arxiv.org/abs/2402.04925",
+    "context": "Title: TP-Aware Dequantization\nAbstract: In this paper, we present a novel method that reduces model inference latency during distributed deployment of Large Language Models (LLMs). Our contribution is an optimized inference deployment scheme that address the current limitations of state-of-the-art quantization kernels when used in conjunction with Tensor Parallel (TP). Our method preserves data locality in GPU memory access patterns and exploits a priori knowledge of TP to reduce global communication. We demonstrate an up to 1.81x speedup over existing methods for Llama-70B and up to 1.78x speedup for IBM WatsonX's Granite-20B MLP layer problem sizes on A100 and H100 NVIDIA DGX Systems for a variety of TP settings.",
+    "path": "papers/24/02/2402.04925.json",
+    "total_tokens": 783,
+    "translated_title": "TP感知的去量化",
+    "translated_abstract": "在本文中，我们提出了一种新颖的方法，在分布式部署大型语言模型（LLM）的过程中减少模型推理延迟。我们的贡献是一种优化的推理部署方案，解决了当前最先进的量化内核在与张量并行（TP）结合使用时的局限性。我们的方法保留了GPU内存访问模式中的数据局部性，并利用TP的先验知识来减少全局通信。我们在A100和H100 NVIDIA DGX系统上展示了对于各种TP设置，对于Llama-70B的速度提升高达1.81倍，对于IBM WatsonX的Granite-20B MLP层问题尺寸的速度提升高达1.78倍。",
+    "tldr": "本文介绍了一种TP感知的去量化方法，通过优化推理部署方案解决了分布式部署大型语言模型的推理延迟问题。该方法保留了数据局部性和利用TP的先验知识来减少全局通信，在多种TP设置下，在A100和H100 NVIDIA DGX系统上实现了显著速度提升。",
+    "en_tdlr": "This paper presents a TP-aware dequantization method that reduces model inference latency during distributed deployment of Large Language Models (LLMs). The method optimizes inference deployment, preserves data locality, and reduces global communication by leveraging TP's prior knowledge, resulting in significant speedup on A100 and H100 NVIDIA DGX system in various TP settings."
+}

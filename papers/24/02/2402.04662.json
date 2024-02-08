@@ -1,0 +1,11 @@
+{
+    "title": "Token vs Equity for Startup Financing",
+    "abstract": "Why would a blockchain-based startup and its venture capital investors choose to finance by issuing tokens instead of equity? What would be their rates of return for each asset? This paper focuses on the liquidity difference between the two fundraising methods. I build a three-period model of an entrepreneur, two types of investors, and users. Some investors have unforeseen liquidity needs in the middle period that can only be met with tokens. The entrepreneur obtains higher payoff by issuing tokens instead of equity, and the payoff difference increases with investors risk-aversion and need for liquidity in the middle period, as well as the depth of the token market.",
+    "link": "https://arxiv.org/abs/2402.04662",
+    "context": "Title: Token vs Equity for Startup Financing\nAbstract: Why would a blockchain-based startup and its venture capital investors choose to finance by issuing tokens instead of equity? What would be their rates of return for each asset? This paper focuses on the liquidity difference between the two fundraising methods. I build a three-period model of an entrepreneur, two types of investors, and users. Some investors have unforeseen liquidity needs in the middle period that can only be met with tokens. The entrepreneur obtains higher payoff by issuing tokens instead of equity, and the payoff difference increases with investors risk-aversion and need for liquidity in the middle period, as well as the depth of the token market.",
+    "path": "papers/24/02/2402.04662.json",
+    "total_tokens": 839,
+    "translated_title": "Token与股权在初创公司融资中的比较",
+    "translated_abstract": "为什么一个基于区块链的初创公司及其风险投资人会选择通过发行代币而不是股权进行融资？每种资产的回报率会是多少？本文关注两种融资方式之间的流动性差异。我建立了一个包括企业家、两类投资者和用户的三期模型。一些投资者在中期有未预见的流动性需求，只能通过代币来满足。通过发行代币，企业家可以获得更高的回报，而这种回报差异随着投资者对风险的规避程度、中期流动性需求以及代币市场的深度而增加。",
+    "tldr": "该论文探讨了为什么基于区块链的初创公司及其风投会选择通过发行代币而不是股权进行融资，并分析了两种融资方式之间的流动性差异。在模型中发现，代币对于中期有流动性需求的投资者来说是必要的，同时发行代币可以给企业家带来更高的回报。这种回报差异会随着投资者对风险的规避程度、中期流动性需求以及代币市场的深度而增加。"
+}

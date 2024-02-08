@@ -1,0 +1,12 @@
+{
+    "title": "Heuristic Optimal Transport in Branching Networks",
+    "abstract": "Optimal transport aims to learn a mapping of sources to targets by minimizing the cost, which is typically defined as a function of distance. The solution to this problem consists of straight line segments optimally connecting sources to targets, and it does not exhibit branching. These optimal solutions are in stark contrast with both natural, and man-made transportation networks, where branching structures are prevalent. Here we discuss a fast heuristic branching method for optimal transport in networks. We also provide several numerical applications to synthetic examples, a simplified cardiovascular network, and the \"Santa Claus\" distribution network which includes 141,182 cities around the world, with known location and population.",
+    "link": "https://arxiv.org/abs/2311.06650",
+    "context": "Title: Heuristic Optimal Transport in Branching Networks\nAbstract: Optimal transport aims to learn a mapping of sources to targets by minimizing the cost, which is typically defined as a function of distance. The solution to this problem consists of straight line segments optimally connecting sources to targets, and it does not exhibit branching. These optimal solutions are in stark contrast with both natural, and man-made transportation networks, where branching structures are prevalent. Here we discuss a fast heuristic branching method for optimal transport in networks. We also provide several numerical applications to synthetic examples, a simplified cardiovascular network, and the \"Santa Claus\" distribution network which includes 141,182 cities around the world, with known location and population.",
+    "path": "papers/23/11/2311.06650.json",
+    "total_tokens": 684,
+    "translated_title": "分支网络中的启发式最优传输",
+    "translated_abstract": "最优传输旨在通过最小化成本（通常定义为距离函数）来学习源到目标的映射。该问题的解决方案由理想连接源和目标的直线段组成，没有分支结构。这些最优解与自然和人造运输网络形成鲜明对比，后者普遍存在分支结构。在这里，我们讨论了一种快速启发式分支方法，用于网络中的最优传输。我们还提供了对合成样例、简化心血管网络以及“圣诞老人”分配网络的多个数值应用，该分配网络包括全球141,182个已知位置和人口的城市。",
+    "tldr": "本论文提出了一种适用于分支网络的快速启发式最优传输方法，通过优化连接源和目标的直线段，解决了传统最优传输方法在分支结构存在时的不适用问题。",
+    "en_tdlr": "This paper proposes a fast heuristic method for optimal transport in branching networks, addressing the limitation of traditional optimal transport methods in the presence of branching structures by optimizing the straight line segments connecting sources and targets."
+}

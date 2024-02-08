@@ -1,0 +1,11 @@
+{
+    "title": "Building Retrieval Systems for the ClueWeb22-B Corpus",
+    "abstract": "The ClueWeb22 dataset containing nearly 10 billion documents was released in 2022 to support academic and industry research. The goal of this project was to build retrieval baselines for the English section of the \"super head\" part (category B) of this dataset. These baselines can then be used by the research community to compare their systems and also to generate data to train/evaluate new retrieval and ranking algorithms. The report covers sparse and dense first stage retrievals as well as neural rerankers that were implemented for this dataset. These systems are available as a service on a Carnegie Mellon University cluster.",
+    "link": "https://arxiv.org/abs/2402.04357",
+    "context": "Title: Building Retrieval Systems for the ClueWeb22-B Corpus\nAbstract: The ClueWeb22 dataset containing nearly 10 billion documents was released in 2022 to support academic and industry research. The goal of this project was to build retrieval baselines for the English section of the \"super head\" part (category B) of this dataset. These baselines can then be used by the research community to compare their systems and also to generate data to train/evaluate new retrieval and ranking algorithms. The report covers sparse and dense first stage retrievals as well as neural rerankers that were implemented for this dataset. These systems are available as a service on a Carnegie Mellon University cluster.",
+    "path": "papers/24/02/2402.04357.json",
+    "total_tokens": 715,
+    "translated_title": "为ClueWeb22-B语料库构建检索系统",
+    "translated_abstract": "ClueWeb22数据集包含近100亿个文档，于2022年发布用于支持学术和行业研究。本项目的目标是为该数据集的英文部分（超头部分类B）构建检索基线。这些基线可以供研究界使用，用于比较其系统，并生成数据以训练/评估新的检索和排序算法。报告涵盖了针对该数据集实施的稀疏和密集的第一阶段检索，以及神经重新排序器。这些系统可在卡内基梅隆大学集群上作为服务提供。",
+    "tldr": "这个项目的目标是为ClueWeb22-B数据集的英文部分构建检索基线，可以供研究界比较其系统并训练/评估新的检索和排序算法。构建的系统包括稀疏和密集的第一阶段检索以及神经重新排序器。"
+}

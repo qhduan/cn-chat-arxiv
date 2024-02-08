@@ -1,0 +1,11 @@
+{
+    "title": "Learning with Diversification from Block Sparse Signal",
+    "abstract": "This paper introduces a novel prior called Diversified Block Sparse Prior to characterize the widespread block sparsity phenomenon in real-world data. By allowing diversification on variance and correlation matrix, we effectively address the sensitivity issue of existing block sparse learning methods to pre-defined block information, which enables adaptive block estimation while mitigating the risk of overfitting. Based on this, a diversified block sparse Bayesian learning method (DivSBL) is proposed, utilizing EM algorithm and dual ascent method for hyperparameter estimation. Moreover, we establish the global and local optimality theory of our model. Experiments validate the advantages of DivSBL over existing algorithms.",
+    "link": "https://arxiv.org/abs/2402.04646",
+    "context": "Title: Learning with Diversification from Block Sparse Signal\nAbstract: This paper introduces a novel prior called Diversified Block Sparse Prior to characterize the widespread block sparsity phenomenon in real-world data. By allowing diversification on variance and correlation matrix, we effectively address the sensitivity issue of existing block sparse learning methods to pre-defined block information, which enables adaptive block estimation while mitigating the risk of overfitting. Based on this, a diversified block sparse Bayesian learning method (DivSBL) is proposed, utilizing EM algorithm and dual ascent method for hyperparameter estimation. Moreover, we establish the global and local optimality theory of our model. Experiments validate the advantages of DivSBL over existing algorithms.",
+    "path": "papers/24/02/2402.04646.json",
+    "total_tokens": 858,
+    "translated_title": "学习来自块稀疏信号的多样化",
+    "translated_abstract": "本文引入了一种新颖的先验Diversified Block Sparse Prior，来描述真实世界数据中的广泛块稀疏现象。通过允许方差和相关矩阵的多样化，我们有效地解决了现有块稀疏学习方法对预定义块信息的敏感性问题，从而实现自适应的块估计，同时减轻过拟合的风险。基于此，我们提出了一种多样化的块稀疏贝叶斯学习方法(DivSBL)，利用EM算法和对偶上升法进行超参数估计。此外，我们建立了我们模型的全局和局部最优性理论。实验证明了DivSBL相对于现有算法的优势。",
+    "tldr": "本文提出了一种新的先验，称为多样化块稀疏先验，用来描述真实世界数据中的广泛块稀疏现象。通过允许方差和相关矩阵的多样化，解决了现有块稀疏学习方法对预定义块信息的敏感性问题，并提出了一种多样化的块稀疏贝叶斯学习方法(DivSBL)，实现自适应的块估计，减轻过拟合的风险，并建立了全局和局部最优性理论。实验结果证明了DivSBL相对于现有算法的优势。"
+}

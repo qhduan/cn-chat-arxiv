@@ -1,0 +1,12 @@
+{
+    "title": "EfficientViT-SAM: Accelerated Segment Anything Model Without Performance Loss",
+    "abstract": "We present EfficientViT-SAM, a new family of accelerated segment anything models. We retain SAM's lightweight prompt encoder and mask decoder while replacing the heavy image encoder with EfficientViT. For the training, we begin with the knowledge distillation from the SAM-ViT-H image encoder to EfficientViT. Subsequently, we conduct end-to-end training on the SA-1B dataset. Benefiting from EfficientViT's efficiency and capacity, EfficientViT-SAM delivers 48.9x measured TensorRT speedup on A100 GPU over SAM-ViT-H without sacrificing performance. Our code and pre-trained models are released at https://github.com/mit-han-lab/efficientvit.",
+    "link": "https://arxiv.org/abs/2402.05008",
+    "context": "Title: EfficientViT-SAM: Accelerated Segment Anything Model Without Performance Loss\nAbstract: We present EfficientViT-SAM, a new family of accelerated segment anything models. We retain SAM's lightweight prompt encoder and mask decoder while replacing the heavy image encoder with EfficientViT. For the training, we begin with the knowledge distillation from the SAM-ViT-H image encoder to EfficientViT. Subsequently, we conduct end-to-end training on the SA-1B dataset. Benefiting from EfficientViT's efficiency and capacity, EfficientViT-SAM delivers 48.9x measured TensorRT speedup on A100 GPU over SAM-ViT-H without sacrificing performance. Our code and pre-trained models are released at https://github.com/mit-han-lab/efficientvit.",
+    "path": "papers/24/02/2402.05008.json",
+    "total_tokens": 744,
+    "translated_title": "高效ViT-SAM: 在不损失性能的情况下加速的段落任意模型",
+    "translated_abstract": "我们提出了一种新的加速段落任意模型——高效ViT-SAM。我们保留了SAM的轻量级提示编码器和掩码解码器，同时用高效ViT替换了沉重的图像编码器。在训练方面，我们首先从SAM-ViT-H图像编码器到高效ViT进行知识蒸馏。随后，我们对SA-1B数据集进行端到端训练。由于高效ViT的效率和容量，高效ViT-SAM在A100 GPU上相比SAM-ViT-H实现了48.9倍的TensorRT加速，而无需牺牲性能。我们的代码和预训练模型已在https://github.com/mit-han-lab/efficientvit发布。",
+    "tldr": "高效ViT-SAM是一种新的加速的段落任意模型，通过保留轻量级提示编码器和掩码解码器，并替换沉重的图像编码器，实现了48.9倍的加速而不牺牲性能。",
+    "en_tdlr": "EfficientViT-SAM is a new family of accelerated segment anything models that achieves a 48.9x speedup without sacrificing performance by retaining lightweight prompt encoders and mask decoders and replacing heavy image encoders."
+}

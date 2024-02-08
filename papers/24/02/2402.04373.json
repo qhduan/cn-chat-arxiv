@@ -1,0 +1,11 @@
+{
+    "title": "The World of Generative AI: Deepfakes and Large Language Models",
+    "abstract": "We live in the era of Generative Artificial Intelligence (GenAI). Deepfakes and Large Language Models (LLMs) are two examples of GenAI. Deepfakes, in particular, pose an alarming threat to society as they are capable of spreading misinformation and changing the truth. LLMs are powerful language models that generate general-purpose language. However due to its generative aspect, it can also be a risk for people if used with ill intentions. The ethical use of these technologies is a big concern. This short article tries to find out the interrelationship between them.",
+    "link": "https://arxiv.org/abs/2402.04373",
+    "context": "Title: The World of Generative AI: Deepfakes and Large Language Models\nAbstract: We live in the era of Generative Artificial Intelligence (GenAI). Deepfakes and Large Language Models (LLMs) are two examples of GenAI. Deepfakes, in particular, pose an alarming threat to society as they are capable of spreading misinformation and changing the truth. LLMs are powerful language models that generate general-purpose language. However due to its generative aspect, it can also be a risk for people if used with ill intentions. The ethical use of these technologies is a big concern. This short article tries to find out the interrelationship between them.",
+    "path": "papers/24/02/2402.04373.json",
+    "total_tokens": 690,
+    "translated_title": "生成型人工智能世界：Deepfakes和大型语言模型",
+    "translated_abstract": "我们生活在生成型人工智能（GenAI）的时代。Deepfakes和大型语言模型（LLM）是GenAI的两个例子。尤其是Deepfakes对社会构成了令人担忧的威胁，因为它们能够传播错误信息并改变事实。LLM是强大的语言模型，能够生成通用语言。然而，由于其生成性质，如果用于恶意目的，也可能对人们构成风险。这篇简短的文章试图探索它们之间的相互关系。",
+    "tldr": "生成型人工智能包括Deepfakes和大型语言模型(LLMs)。Deepfakes能够传播错误信息和改变事实，而LLMs则具有生成通用语言的能力。然而，这些技术的道德使用是个重要的关注点。"
+}

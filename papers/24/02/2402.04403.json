@@ -1,0 +1,12 @@
+{
+    "title": "Edge-Parallel Graph Encoder Embedding",
+    "abstract": "New algorithms for embedding graphs have reduced the asymptotic complexity of finding low-dimensional representations. One-Hot Graph Encoder Embedding (GEE) uses a single, linear pass over edges and produces an embedding that converges asymptotically to the spectral embedding. The scaling and performance benefits of this approach have been limited by a serial implementation in an interpreted language. We refactor GEE into a parallel program in the Ligra graph engine that maps functions over the edges of the graph and uses lock-free atomic instrutions to prevent data races. On a graph with 1.8B edges, this results in a 500 times speedup over the original implementation and a 17 times speedup over a just-in-time compiled version.",
+    "link": "https://arxiv.org/abs/2402.04403",
+    "context": "Title: Edge-Parallel Graph Encoder Embedding\nAbstract: New algorithms for embedding graphs have reduced the asymptotic complexity of finding low-dimensional representations. One-Hot Graph Encoder Embedding (GEE) uses a single, linear pass over edges and produces an embedding that converges asymptotically to the spectral embedding. The scaling and performance benefits of this approach have been limited by a serial implementation in an interpreted language. We refactor GEE into a parallel program in the Ligra graph engine that maps functions over the edges of the graph and uses lock-free atomic instrutions to prevent data races. On a graph with 1.8B edges, this results in a 500 times speedup over the original implementation and a 17 times speedup over a just-in-time compiled version.",
+    "path": "papers/24/02/2402.04403.json",
+    "total_tokens": 672,
+    "translated_title": "边并行图编码嵌入",
+    "translated_abstract": "用于嵌入图的新算法已经降低了寻找低维表示的渐近复杂度。One-Hot Graph Encoder Embedding (GEE) 在边的线性逐个通过过程中产生的嵌入收敛到谱嵌入。这种方法的可扩展性和性能优势受到解释型语言串行实现的限制。我们将GEE重构为在Ligra图引擎中并行程序，将函数映射到图的边上，并使用无锁原子指令防止数据竞争。在一个有18亿条边的图上，与原始实现相比，这将导致500倍的加速和编译即时版本的17倍加速。",
+    "tldr": "这篇论文提出了一种边并行图编码嵌入的算法，通过重构并行化实现，在大规模图上取得了500倍的加速效果。",
+    "en_tdlr": "This paper proposes an algorithm for edge-parallel graph encoder embedding, achieving significant speedup on large graphs."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Strain of Success: A Predictive Model for Injury Risk Mitigation and Team Success in Soccer",
+    "abstract": "In this paper, we present a novel sequential team selection model in soccer. Specifically, we model the stochastic process of player injury and unavailability using player-specific information learned from real-world soccer data. Monte-Carlo Tree Search is used to select teams for games that optimise long-term team performance across a soccer season by reasoning over player injury probability. We validate our approach compared to benchmark solutions for the 2018/19 English Premier League season. Our model achieves similar season expected points to the benchmark whilst reducing first-team injuries by ~13% and the money inefficiently spent on injured players by ~11% - demonstrating the potential to reduce costs and improve player welfare in real-world soccer teams.",
+    "link": "https://arxiv.org/abs/2402.04898",
+    "context": "Title: The Strain of Success: A Predictive Model for Injury Risk Mitigation and Team Success in Soccer\nAbstract: In this paper, we present a novel sequential team selection model in soccer. Specifically, we model the stochastic process of player injury and unavailability using player-specific information learned from real-world soccer data. Monte-Carlo Tree Search is used to select teams for games that optimise long-term team performance across a soccer season by reasoning over player injury probability. We validate our approach compared to benchmark solutions for the 2018/19 English Premier League season. Our model achieves similar season expected points to the benchmark whilst reducing first-team injuries by ~13% and the money inefficiently spent on injured players by ~11% - demonstrating the potential to reduce costs and improve player welfare in real-world soccer teams.",
+    "path": "papers/24/02/2402.04898.json",
+    "total_tokens": 814,
+    "translated_title": "成功的压力：一种用于减轻足球运动员受伤风险和提高球队成功率的预测模型",
+    "translated_abstract": "在本文中，我们提出了一种新颖的足球顺序团队选择模型。具体而言，我们使用从真实足球数据中学到的球员特定信息对球员受伤和不可用性的随机过程进行建模。蒙特卡洛树搜索被用于为游戏选择团队，通过对球员受伤概率进行推理，优化整个赛季的团队绩效。我们将我们的方法与2018/19英超赛季的基准解进行验证。我们的模型在降低一线队受伤人数约13%和无效花费在受伤球员身上的资金约11%的同时，实现了与基准相似的赛季预期积分 - 这表明了在真实世界的足球团队中降低成本和改善球员福利的潜力。",
+    "tldr": "本文开发了一种预测模型，通过考虑球员受伤概率，在足球赛季中优化团队表现，减少一线队受伤人数和无效花费，为真实足球团队降低成本并提高球员福利提供了潜力。",
+    "en_tdlr": "This paper develops a predictive model that optimizes team performance and reduces player injuries and inefficient spending in real-world soccer teams by considering player injury probability."
+}

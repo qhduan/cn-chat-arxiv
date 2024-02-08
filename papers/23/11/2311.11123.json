@@ -1,0 +1,12 @@
+{
+    "title": "(Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM APIs",
+    "abstract": "Large Language Models (LLMs) are increasingly integrated into software applications. Downstream application developers often access LLMs through APIs provided as a service. However, LLM APIs are often updated silently and scheduled to be deprecated, forcing users to continuously adapt to evolving models. This can cause performance regression and affect prompt design choices, as evidenced by our case study on toxicity detection. Based on our case study, we emphasize the need for and re-examine the concept of regression testing for evolving LLM APIs. We argue that regression testing LLMs requires fundamental changes to traditional testing approaches, due to different correctness notions, prompting brittleness, and non-determinism in LLM APIs.",
+    "link": "https://arxiv.org/abs/2311.11123",
+    "context": "Title: (Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM APIs\nAbstract: Large Language Models (LLMs) are increasingly integrated into software applications. Downstream application developers often access LLMs through APIs provided as a service. However, LLM APIs are often updated silently and scheduled to be deprecated, forcing users to continuously adapt to evolving models. This can cause performance regression and affect prompt design choices, as evidenced by our case study on toxicity detection. Based on our case study, we emphasize the need for and re-examine the concept of regression testing for evolving LLM APIs. We argue that regression testing LLMs requires fundamental changes to traditional testing approaches, due to different correctness notions, prompting brittleness, and non-determinism in LLM APIs.",
+    "path": "papers/23/11/2311.11123.json",
+    "total_tokens": 776,
+    "translated_title": "为什么我的提示越来越差？重新审视不断演变的LLM API的回归测试",
+    "translated_abstract": "大型语言模型（LLMs）越来越多地被集成到软件应用中。下游应用开发者通常通过提供服务的API来访问LLMs。然而，LLM API经常被静默更新和计划弃用，迫使用户不断适应不断变化的模型。这可能导致性能退化并影响提示设计选择，正如我们在有毒检测的案例研究中所证实的那样。基于我们的案例研究，我们强调了对不断演变的LLM API进行回归测试的必要性并重新审视了回归测试的概念。我们认为，由于LLM API中存在不同的正确性概念、提示脆弱性和非确定性，回归测试LLMs需要对传统测试方法进行基本变革。",
+    "tldr": "本文重新审视了不断演变的LLM API的回归测试，并指出了它们需要对传统测试方法进行基本变革的原因，包括存在不同的正确性概念、提示脆弱性和非确定性等。",
+    "en_tdlr": "This paper rethinks regression testing for evolving LLM APIs and highlights the need for fundamental changes to traditional testing methods, including different correctness notions, prompt brittleness, and non-determinism in LLM APIs."
+}

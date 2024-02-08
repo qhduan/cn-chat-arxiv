@@ -1,0 +1,12 @@
+{
+    "title": "Bounding the Excess Risk for Linear Models Trained on Marginal-Preserving, Differentially-Private, Synthetic Data",
+    "abstract": "The growing use of machine learning (ML) has raised concerns that an ML model may reveal private information about an individual who has contributed to the training dataset. To prevent leakage of sensitive data, we consider using differentially-private (DP), synthetic training data instead of real training data to train an ML model. A key desirable property of synthetic data is its ability to preserve the low-order marginals of the original distribution. Our main contribution comprises novel upper and lower bounds on the excess empirical risk of linear models trained on such synthetic data, for continuous and Lipschitz loss functions. We perform extensive experimentation alongside our theoretical results.",
+    "link": "https://arxiv.org/abs/2402.04375",
+    "context": "Title: Bounding the Excess Risk for Linear Models Trained on Marginal-Preserving, Differentially-Private, Synthetic Data\nAbstract: The growing use of machine learning (ML) has raised concerns that an ML model may reveal private information about an individual who has contributed to the training dataset. To prevent leakage of sensitive data, we consider using differentially-private (DP), synthetic training data instead of real training data to train an ML model. A key desirable property of synthetic data is its ability to preserve the low-order marginals of the original distribution. Our main contribution comprises novel upper and lower bounds on the excess empirical risk of linear models trained on such synthetic data, for continuous and Lipschitz loss functions. We perform extensive experimentation alongside our theoretical results.",
+    "path": "papers/24/02/2402.04375.json",
+    "total_tokens": 747,
+    "translated_title": "在保持边缘一致的差分隐私合成数据上训练线性模型的过量风险界限",
+    "translated_abstract": "机器学习的广泛应用引发了人们对于模型可能揭示训练数据中个体的私密信息的担忧。为了防止敏感数据的泄露，我们考虑使用差分隐私的合成训练数据而不是真实训练数据来训练机器学习模型。合成数据的一个关键优点是能够保持原始分布的低阶边缘特征。我们的主要贡献是针对在这种合成数据上训练的线性模型，针对连续和Lipschitz损失函数提出了新的过量经验风险的上界和下界。我们在理论结果之外进行了大量实验。",
+    "tldr": "本文提出了在保持边缘一致的差分隐私合成数据上训练线性模型的过量风险的新界限，为连续和Lipschitz损失函数提供了上界和下界。",
+    "en_tdlr": "This paper presents novel bounds on the excess empirical risk of linear models trained on differentially-private synthetic data with preserved marginals, for both continuous and Lipschitz loss functions. Extensive experimentation is conducted to validate the theoretical results."
+}

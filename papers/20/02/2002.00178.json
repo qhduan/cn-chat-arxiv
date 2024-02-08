@@ -1,0 +1,12 @@
+{
+    "title": "An Equivalence between Bayesian Priors and Penalties in Variational Inference",
+    "abstract": "In machine learning, it is common to optimize the parameters of a probabilistic model, modulated by an ad hoc regularization term that penalizes some values of the parameters. Regularization terms appear naturally in Variational Inference, a tractable way to approximate Bayesian posteriors: the loss to optimize contains a Kullback--Leibler divergence term between the approximate posterior and a Bayesian prior. We fully characterize the regularizers that can arise according to this procedure, and provide a systematic way to compute the prior corresponding to a given penalty. Such a characterization can be used to discover constraints over the penalty function, so that the overall procedure remains Bayesian.",
+    "link": "https://arxiv.org/abs/2002.00178",
+    "context": "Title: An Equivalence between Bayesian Priors and Penalties in Variational Inference\nAbstract: In machine learning, it is common to optimize the parameters of a probabilistic model, modulated by an ad hoc regularization term that penalizes some values of the parameters. Regularization terms appear naturally in Variational Inference, a tractable way to approximate Bayesian posteriors: the loss to optimize contains a Kullback--Leibler divergence term between the approximate posterior and a Bayesian prior. We fully characterize the regularizers that can arise according to this procedure, and provide a systematic way to compute the prior corresponding to a given penalty. Such a characterization can be used to discover constraints over the penalty function, so that the overall procedure remains Bayesian.",
+    "path": "papers/20/02/2002.00178.json",
+    "total_tokens": 694,
+    "translated_title": "贝叶斯先验和变分推理中的惩罚之间的等价关系",
+    "translated_abstract": "在机器学习中，常常通过调节某些参数值的惩罚项来优化概率模型的参数。正则化项在变分推理中是自然地出现的，它是一种可行的近似贝叶斯后验的方法：要优化的损失函数包含了近似后验与贝叶斯先验之间的Kullback-Leibler散度项。我们完全描述了这个过程中可能出现的正则化项，并提供了一种系统的方法来计算与给定惩罚项相对应的先验。这种特征化可以用来发现对惩罚函数的约束条件，以保持整个过程具有贝叶斯性质。",
+    "tldr": "这篇论文描述了贝叶斯先验和变分推理中的惩罚之间的等价关系，并提供了一种计算给定惩罚项所对应的先验的方法。",
+    "en_tdlr": "This paper characterizes the equivalence between Bayesian priors and penalties in variational inference, and provides a method to compute the prior corresponding to a given penalty."
+}

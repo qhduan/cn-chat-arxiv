@@ -1,0 +1,12 @@
+{
+    "title": "On Provable Length and Compositional Generalization",
+    "abstract": "Length generalization -- the ability to generalize to longer sequences than ones seen during training, and compositional generalization -- the ability to generalize to token combinations not seen during training, are crucial forms of out-of-distribution generalization in sequence-to-sequence models. In this work, we take the first steps towards provable length and compositional generalization for a range of architectures, including deep sets, transformers, state space models, and simple recurrent neural nets. Depending on the architecture, we prove different degrees of representation identification, e.g., a linear or a permutation relation with ground truth representation, is necessary for length and compositional generalization.",
+    "link": "https://arxiv.org/abs/2402.04875",
+    "context": "Title: On Provable Length and Compositional Generalization\nAbstract: Length generalization -- the ability to generalize to longer sequences than ones seen during training, and compositional generalization -- the ability to generalize to token combinations not seen during training, are crucial forms of out-of-distribution generalization in sequence-to-sequence models. In this work, we take the first steps towards provable length and compositional generalization for a range of architectures, including deep sets, transformers, state space models, and simple recurrent neural nets. Depending on the architecture, we prove different degrees of representation identification, e.g., a linear or a permutation relation with ground truth representation, is necessary for length and compositional generalization.",
+    "path": "papers/24/02/2402.04875.json",
+    "total_tokens": 728,
+    "translated_title": "关于可证明的长度和组合泛化",
+    "translated_abstract": "长度泛化——对训练时未见到的更长序列的泛化能力，以及组合泛化——对训练时未见到的令牌组合的泛化能力，在序列到序列模型中是重要的非分布化泛化形式。在这项工作中，我们在包括深度集合、变压器、状态空间模型和简单递归神经网络在内的一系列架构中，朝着可证明的长度和组合泛化迈出了第一步。根据架构的不同，我们证明了不同程度的表示识别的必要性，例如与真实表示具有线性或排列关系。",
+    "tldr": "本研究针对包括深度集合、变压器、状态空间模型和简单递归神经网络等多种架构，探索了可证明的长度和组合泛化，认为对于长度和组合泛化，不同架构需要不同程度的表示识别。",
+    "en_tdlr": "This work investigates provable length and compositional generalization for various architectures, including deep sets, transformers, state space models, and simple recurrent neural nets. It suggests that different degrees of representation identification are necessary for length and compositional generalization, depending on the architecture."
+}

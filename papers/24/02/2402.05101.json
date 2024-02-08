@@ -1,0 +1,11 @@
+{
+    "title": "Tighter Generalisation Bounds via Interpolation",
+    "abstract": "This paper contains a recipe for deriving new PAC-Bayes generalisation bounds based on the $(f, \\Gamma)$-divergence, and, in addition, presents PAC-Bayes generalisation bounds where we interpolate between a series of probability divergences (including but not limited to KL, Wasserstein, and total variation), making the best out of many worlds depending on the posterior distributions properties. We explore the tightness of these bounds and connect them to earlier results from statistical learning, which are specific cases. We also instantiate our bounds as training objectives, yielding non-trivial guarantees and practical performances.",
+    "link": "https://arxiv.org/abs/2402.05101",
+    "context": "Title: Tighter Generalisation Bounds via Interpolation\nAbstract: This paper contains a recipe for deriving new PAC-Bayes generalisation bounds based on the $(f, \\Gamma)$-divergence, and, in addition, presents PAC-Bayes generalisation bounds where we interpolate between a series of probability divergences (including but not limited to KL, Wasserstein, and total variation), making the best out of many worlds depending on the posterior distributions properties. We explore the tightness of these bounds and connect them to earlier results from statistical learning, which are specific cases. We also instantiate our bounds as training objectives, yielding non-trivial guarantees and practical performances.",
+    "path": "papers/24/02/2402.05101.json",
+    "total_tokens": 657,
+    "translated_title": "通过插值实现更紧密的泛化界限",
+    "translated_abstract": "本论文提供了一种推导新的基于$(f, \\Gamma)$-divergence的PAC-Bayes泛化界限的方法，并展示了在一系列概率差异（包括但不限于KL、Wasserstein和总变差）之间进行插值的PAC-Bayes泛化界限，根据后验分布的属性选择最佳方案。我们探索了这些界限的紧密性，并将其与统计学习中的早期结果联系起来，这些结果是特定案例。我们还将我们的界限实例化为训练目标，产生了非平凡的保证和实际性能。",
+    "tldr": "本论文提供了一种新的推导PAC-Bayes泛化界限的方法，并通过插值在不同概率差异之间选择最佳方案，展示了紧密性和实际性能。"
+}

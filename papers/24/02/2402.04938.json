@@ -1,0 +1,12 @@
+{
+    "title": "An approach to automated videogame beta testing",
+    "abstract": "Videogames developed in the 1970s and 1980s were modest programs created in a couple of months by a single person, who played the roles of designer, artist and programmer. Since then, videogames have evolved to become a multi-million dollar industry. Today, AAA game development involves hundreds of people working together over several years. Management and engineering requirements have changed at the same pace. Although many of the processes have been adapted over time, this is not quite true for quality assurance tasks, which are still done mainly manually by human beta testers due to the specific peculiarities of videogames. This paper presents an approach to automate this beta testing.",
+    "link": "https://arxiv.org/abs/2402.04938",
+    "context": "Title: An approach to automated videogame beta testing\nAbstract: Videogames developed in the 1970s and 1980s were modest programs created in a couple of months by a single person, who played the roles of designer, artist and programmer. Since then, videogames have evolved to become a multi-million dollar industry. Today, AAA game development involves hundreds of people working together over several years. Management and engineering requirements have changed at the same pace. Although many of the processes have been adapted over time, this is not quite true for quality assurance tasks, which are still done mainly manually by human beta testers due to the specific peculiarities of videogames. This paper presents an approach to automate this beta testing.",
+    "path": "papers/24/02/2402.04938.json",
+    "total_tokens": 683,
+    "translated_title": "自动化视频游戏Beta测试的方法",
+    "translated_abstract": "1970年代和1980年代开发的视频游戏是一些简单的程序，由一个人在几个月内完成，扮演设计师、艺术家和程序员的多重角色。从那时起，视频游戏发展成了一个价值数百万美元的行业。如今，AAA游戏的开发需要数百人在数年的时间内共同合作。管理和工程需求也随之改变。尽管许多过程已经随着时间的推移进行了调整，但对于质量保证任务来说，情况并没有完全改变，这些任务主要仍然由人工Beta测试人员手动完成，这是由于视频游戏的特殊性。本文介绍了一种自动化Beta测试的方法。",
+    "tldr": "本文介绍了一种自动化视频游戏Beta测试的方法，通过解决视频游戏的特殊性，使得质量保证任务能够自动完成。",
+    "en_tdlr": "This paper presents an approach to automate videogame beta testing, allowing quality assurance tasks to be automatically completed by addressing the specific peculiarities of videogames."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Healthcare Quality by Specialists under a Mixed Compensation System: an Empirical Analysis",
+    "abstract": "We analyze the effects of a mixed compensation (MC) scheme for specialists on the quality of their healthcare services. We exploit a reform implemented in Quebec (Canada) in 1999. The government introduced a payment mechanism combining a per diem with a reduced fee per clinical service. Using a large patient/physician panel dataset, we estimate a multi-state multi-spell hazard model analogous to a difference-in-differences approach. We compute quality indicators from our model. Our results suggest that the reform reduced the quality of MC specialist services measured by the risk of re-hospitalization and mortality after discharge. These effects vary across specialties.",
+    "link": "https://arxiv.org/abs/2402.04472",
+    "context": "Title: Healthcare Quality by Specialists under a Mixed Compensation System: an Empirical Analysis\nAbstract: We analyze the effects of a mixed compensation (MC) scheme for specialists on the quality of their healthcare services. We exploit a reform implemented in Quebec (Canada) in 1999. The government introduced a payment mechanism combining a per diem with a reduced fee per clinical service. Using a large patient/physician panel dataset, we estimate a multi-state multi-spell hazard model analogous to a difference-in-differences approach. We compute quality indicators from our model. Our results suggest that the reform reduced the quality of MC specialist services measured by the risk of re-hospitalization and mortality after discharge. These effects vary across specialties.",
+    "path": "papers/24/02/2402.04472.json",
+    "total_tokens": 770,
+    "translated_title": "专家在混合补偿制度下的医疗质量：一个实证分析",
+    "translated_abstract": "我们分析了混合补偿（MC）制度对专家医疗服务质量的影响。我们利用加拿大魁北克省在1999年实施的一项改革。政府引入了一种每日津贴与每次临床服务收费降低的支付机制。利用大型的患者/医生数据集，我们估计了一个类似区别于区别方法的多状态多次发生危险模型。我们从模型中计算出质量指标。我们的结果表明，这项改革降低了MC专家服务的质量，表现为出院后再住院风险和死亡率的增加。这些效应在不同的专业领域之间有所差异。",
+    "tldr": "这项研究分析了混合补偿制度对专家医疗服务质量的影响，通过实证分析发现，改革导致了MC专家服务的质量下降，表现为出院后再住院风险和死亡率的增加。",
+    "en_tdlr": "This study analyzes the effects of a mixed compensation scheme on the quality of specialist healthcare services. The empirical analysis reveals that the reform resulted in a decrease in the quality of MC specialist services, evidenced by an increase in the risk of re-hospitalization and mortality after discharge."
+}
