@@ -1,0 +1,12 @@
+{
+    "title": "MMRec: Simplifying Multimodal Recommendation",
+    "abstract": "This paper presents an open-source toolbox, MMRec for multimodal recommendation. MMRec simplifies and canonicalizes the process of implementing and comparing multimodal recommendation models. The objective of MMRec is to provide a unified and configurable arena that can minimize the effort in implementing and testing multimodal recommendation models. It enables multimodal models, ranging from traditional matrix factorization to modern graph-based algorithms, capable of fusing information from multiple modalities simultaneously. Our documentation, examples, and source code are available at \\url{https://github.com/enoche/MMRec}.",
+    "link": "https://arxiv.org/abs/2302.03497",
+    "context": "Title: MMRec: Simplifying Multimodal Recommendation\nAbstract: This paper presents an open-source toolbox, MMRec for multimodal recommendation. MMRec simplifies and canonicalizes the process of implementing and comparing multimodal recommendation models. The objective of MMRec is to provide a unified and configurable arena that can minimize the effort in implementing and testing multimodal recommendation models. It enables multimodal models, ranging from traditional matrix factorization to modern graph-based algorithms, capable of fusing information from multiple modalities simultaneously. Our documentation, examples, and source code are available at \\url{https://github.com/enoche/MMRec}.",
+    "path": "papers/23/02/2302.03497.json",
+    "total_tokens": 631,
+    "translated_title": "MMRec：简化多模式推荐",
+    "translated_abstract": "本文介绍了一个用于多模式推荐的开源工具箱MMRec。MMRec简化和规范了实施和比较多模式推荐模型的过程。MMRec的目标是提供一个统一且可配置的平台，以最小化实施和测试多模式推荐模型的工作量。它使得传统的矩阵分解到现代的基于图的算法等多模式模型能够同时融合多个模态的信息。我们的文档、示例和源代码可在\\url{https://github.com/enoche/MMRec}上找到。",
+    "tldr": "MMRec是一个开源工具箱，旨在简化和规范多模式推荐模型的实施和比较过程，并提供一个统一的平台来融合来自多个模态的信息。",
+    "en_tdlr": "MMRec is an open-source toolbox that simplifies and standardizes the implementation and comparison of multimodal recommendation models, providing a unified platform for fusing information from multiple modalities."
+}

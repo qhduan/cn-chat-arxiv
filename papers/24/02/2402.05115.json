@@ -1,0 +1,11 @@
+{
+    "title": "Unsupervised Motion Retargeting for Human-Robot Imitation",
+    "abstract": "This early-stage research work aims to improve online human-robot imitation by translating sequences of joint positions from the domain of human motions to a domain of motions achievable by a given robot, thus constrained by its embodiment. Leveraging the generalization capabilities of deep learning methods, we address this problem by proposing an encoder-decoder neural network model performing domain-to-domain translation. In order to train such a model, one could use pairs of associated robot and human motions. Though, such paired data is extremely rare in practice, and tedious to collect. Therefore, we turn towards deep learning methods for unpaired domain-to-domain translation, that we adapt in order to perform human-robot imitation.",
+    "link": "https://arxiv.org/abs/2402.05115",
+    "context": "Title: Unsupervised Motion Retargeting for Human-Robot Imitation\nAbstract: This early-stage research work aims to improve online human-robot imitation by translating sequences of joint positions from the domain of human motions to a domain of motions achievable by a given robot, thus constrained by its embodiment. Leveraging the generalization capabilities of deep learning methods, we address this problem by proposing an encoder-decoder neural network model performing domain-to-domain translation. In order to train such a model, one could use pairs of associated robot and human motions. Though, such paired data is extremely rare in practice, and tedious to collect. Therefore, we turn towards deep learning methods for unpaired domain-to-domain translation, that we adapt in order to perform human-robot imitation.",
+    "path": "papers/24/02/2402.05115.json",
+    "total_tokens": 742,
+    "translated_title": "无监督运动重定位用于人机仿真",
+    "translated_abstract": "这项早期研究旨在通过将人类动作领域的关节位置序列转化为特定机器人可实现的动作领域，从而改进在线人机仿真。借助深度学习方法的泛化能力，我们通过提出一个编码器-解码器神经网络模型进行领域到领域的转换来解决这个问题。为了训练这样的模型，可以使用对应的机器人和人类动作对。然而，在实践中这样的配对数据非常稀缺且收集起来繁琐。因此，我们转向适应于无配对领域到领域转换的深度学习方法，以进行人机仿真。",
+    "tldr": "该论文研究了无监督运动重定位用于人机仿真的问题，提出了一个编码器-解码器神经网络模型进行领域到领域的转换。这种方法可以在无对应数据的情况下进行人机仿真。"
+}

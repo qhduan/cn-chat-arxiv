@@ -1,0 +1,11 @@
+{
+    "title": "FACT-GPT: Fact-Checking Augmentation via Claim Matching with LLMs",
+    "abstract": "Our society is facing rampant misinformation harming public health and trust. To address the societal challenge, we introduce FACT-GPT, a system leveraging Large Language Models (LLMs) to automate the claim matching stage of fact-checking. FACT-GPT, trained on a synthetic dataset, identifies social media content that aligns with, contradicts, or is irrelevant to previously debunked claims. Our evaluation shows that our specialized LLMs can match the accuracy of larger models in identifying related claims, closely mirroring human judgment. This research provides an automated solution for efficient claim matching, demonstrates the potential of LLMs in supporting fact-checkers, and offers valuable resources for further research in the field.",
+    "link": "https://arxiv.org/abs/2402.05904",
+    "context": "Title: FACT-GPT: Fact-Checking Augmentation via Claim Matching with LLMs\nAbstract: Our society is facing rampant misinformation harming public health and trust. To address the societal challenge, we introduce FACT-GPT, a system leveraging Large Language Models (LLMs) to automate the claim matching stage of fact-checking. FACT-GPT, trained on a synthetic dataset, identifies social media content that aligns with, contradicts, or is irrelevant to previously debunked claims. Our evaluation shows that our specialized LLMs can match the accuracy of larger models in identifying related claims, closely mirroring human judgment. This research provides an automated solution for efficient claim matching, demonstrates the potential of LLMs in supporting fact-checkers, and offers valuable resources for further research in the field.",
+    "path": "papers/24/02/2402.05904.json",
+    "total_tokens": 834,
+    "translated_title": "FACT-GPT: 通过与LLMs进行主张匹配来增强事实核查",
+    "translated_abstract": "我们的社会面临着猖獗的虚假信息，危害公共健康和信任。为了应对这一社会挑战，我们引入了FACT-GPT，这是一个利用大型语言模型（LLMs）来自动化事实核查中的主张匹配阶段的系统。FACT-GPT在合成数据集上训练，可以识别与先前被揭穿的主张相一致、相矛盾或无关的社交媒体内容。我们的评估结果显示，我们专门设计的LLMs在识别相关主张方面的准确度与更大模型相当，几乎能够模拟人类判断。这项研究为高效的主张匹配提供了自动化解决方案，展示了LLMs在支持事实核查员方面的潜力，并为该领域的进一步研究提供了宝贵资源。",
+    "tldr": "FACT-GPT是一个利用LLMs自动化主张匹配的系统，通过训练在合成数据集上，它可以识别与先前被揭穿的主张相一致、相矛盾或无关的社交媒体内容，并在识别相关主张方面的准确度与更大模型相当。"
+}

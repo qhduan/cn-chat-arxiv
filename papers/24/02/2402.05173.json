@@ -1,0 +1,11 @@
+{
+    "title": "Towards Understanding Inductive Bias in Transformers: A View From Infinity",
+    "abstract": "We study inductive bias in Transformers in the infinitely over-parameterized Gaussian process limit and argue transformers tend to be biased towards more permutation symmetric functions in sequence space. We show that the representation theory of the symmetric group can be used to give quantitative analytical predictions when the dataset is symmetric to permutations between tokens. We present a simplified transformer block and solve the model at the limit, including accurate predictions for the learning curves and network outputs. We show that in common setups, one can derive tight bounds in the form of a scaling law for the learnability as a function of the context length. Finally, we argue WikiText dataset, does indeed possess a degree of permutation symmetry.",
+    "link": "https://arxiv.org/abs/2402.05173",
+    "context": "Title: Towards Understanding Inductive Bias in Transformers: A View From Infinity\nAbstract: We study inductive bias in Transformers in the infinitely over-parameterized Gaussian process limit and argue transformers tend to be biased towards more permutation symmetric functions in sequence space. We show that the representation theory of the symmetric group can be used to give quantitative analytical predictions when the dataset is symmetric to permutations between tokens. We present a simplified transformer block and solve the model at the limit, including accurate predictions for the learning curves and network outputs. We show that in common setups, one can derive tight bounds in the form of a scaling law for the learnability as a function of the context length. Finally, we argue WikiText dataset, does indeed possess a degree of permutation symmetry.",
+    "path": "papers/24/02/2402.05173.json",
+    "total_tokens": 806,
+    "translated_title": "探索Transformer模型的归纳偏差: 一个来自无穷的视角",
+    "translated_abstract": "我们研究了Transformer模型在无穷的过参数化高斯过程极限中的归纳偏差，并指出Transformer模型在序列空间中更倾向于对称排列函数。我们证明了对称群的表示理论可以用于在数据集对token之间的排列具有对称性时给出定量的分析预测。我们提出了一个简化的Transformer模型，并在极限条件下求解模型，包括对学习曲线和网络输出的准确预测。我们展示了在常见的设置中，可以推导出学习能力的紧密边界，以上下文长度作为函数的缩放定律。最后，我们认为WikiText数据集确实具有一定程度的排列对称性。",
+    "tldr": "本文研究了Transformer模型的归纳偏差，并发现它们倾向于对称排列函数，对称群的表示理论可以用于分析预测，同时提出了一个简化模型来解决学习曲线和网络输出，并在常见设置中得出学习能力的紧密边界，最后还证明了WikiText数据集具有排列对称性。"
+}

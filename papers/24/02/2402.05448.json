@@ -1,0 +1,12 @@
+{
+    "title": "Minecraft-ify: Minecraft Style Image Generation with Text-guided Image Editing for In-Game Application",
+    "abstract": "In this paper, we first present the character texture generation system \\textit{Minecraft-ify}, specified to Minecraft video game toward in-game application. Ours can generate face-focused image for texture mapping tailored to 3D virtual character having cube manifold. While existing projects or works only generate texture, proposed system can inverse the user-provided real image, or generate average/random appearance from learned distribution. Moreover, it can be manipulated with text-guidance using StyleGAN and StyleCLIP. These features provide a more extended user experience with enlarged freedom as a user-friendly AI-tool. Project page can be found at https://gh-bumsookim.github.io/Minecraft-ify/",
+    "link": "https://arxiv.org/abs/2402.05448",
+    "context": "Title: Minecraft-ify: Minecraft Style Image Generation with Text-guided Image Editing for In-Game Application\nAbstract: In this paper, we first present the character texture generation system \\textit{Minecraft-ify}, specified to Minecraft video game toward in-game application. Ours can generate face-focused image for texture mapping tailored to 3D virtual character having cube manifold. While existing projects or works only generate texture, proposed system can inverse the user-provided real image, or generate average/random appearance from learned distribution. Moreover, it can be manipulated with text-guidance using StyleGAN and StyleCLIP. These features provide a more extended user experience with enlarged freedom as a user-friendly AI-tool. Project page can be found at https://gh-bumsookim.github.io/Minecraft-ify/",
+    "path": "papers/24/02/2402.05448.json",
+    "total_tokens": 725,
+    "translated_title": "Minecraft-ify：用于游戏应用的Minecraft风格图像生成与文本引导的图像编辑",
+    "translated_abstract": "本文首先介绍了面向Minecraft视频游戏的角色纹理生成系统\"Minecraft-ify\"，该系统可以生成针对具有立方体流形的3D虚拟角色的面部聚焦图像以进行纹理映射。与现有项目或作品只生成纹理不同，提出的系统可以反转用户提供的真实图像，或从学习到的分布生成平均/随机外观。此外，它可以使用StyleGAN和StyleCLIP进行文本引导的操作。这些功能提供了更广泛的用户体验和更多的自由，是一种用户友好的AI工具。",
+    "tldr": "本文提出了一种用于Minecraft游戏应用的图像生成和编辑系统\"Minecraft-ify\"，能够生成针对3D虚拟角色的面部聚焦图像，并支持使用文本进行图像编辑，提供了更自由和优化的用户体验。",
+    "en_tdlr": "This paper presents a image generation and editing system \"Minecraft-ify\" for Minecraft game application, capable of generating face-focused images for 3D virtual characters and supporting text-guided image editing, providing a more flexible and enhanced user experience."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Is Learning in Biological Neural Networks based on Stochastic Gradient Descent? An analysis using stochastic processes",
+    "abstract": "In recent years, there has been an intense debate about how learning in biological neural networks (BNNs) differs from learning in artificial neural networks. It is often argued that the updating of connections in the brain relies only on local information, and therefore a stochastic gradient-descent type optimization method cannot be used. In this paper, we study a stochastic model for supervised learning in BNNs. We show that a (continuous) gradient step occurs approximately when each learning opportunity is processed by many local updates. This result suggests that stochastic gradient descent may indeed play a role in optimizing BNNs.",
+    "link": "https://arxiv.org/abs/2309.05102",
+    "context": "Title: Is Learning in Biological Neural Networks based on Stochastic Gradient Descent? An analysis using stochastic processes\nAbstract: In recent years, there has been an intense debate about how learning in biological neural networks (BNNs) differs from learning in artificial neural networks. It is often argued that the updating of connections in the brain relies only on local information, and therefore a stochastic gradient-descent type optimization method cannot be used. In this paper, we study a stochastic model for supervised learning in BNNs. We show that a (continuous) gradient step occurs approximately when each learning opportunity is processed by many local updates. This result suggests that stochastic gradient descent may indeed play a role in optimizing BNNs.",
+    "path": "papers/23/09/2309.05102.json",
+    "total_tokens": 740,
+    "translated_title": "生物神经网络的学习是基于随机梯度下降的吗？使用随机过程进行分析",
+    "translated_abstract": "近年来，关于生物神经网络（BNNs）中学习与人工神经网络中学习的区别一直存在激烈的争论。通常认为，大脑中连接的更新仅依赖于局部信息，因此不能使用随机梯度下降类型的优化方法。本文研究了BNNs中监督学习的随机模型。我们展示了当每个学习机会通过许多局部更新进行处理时，（连续的）梯度步骤近似发生。这一结果表明，随机梯度下降可能在优化BNNs中起到一定作用。",
+    "tldr": "本文研究了随机梯度下降在生物神经网络中的应用，并展示了每个学习机会经过多次局部更新后近似进行梯度步骤。这一结果表明，随机梯度下降可能在优化生物神经网络中起到作用。",
+    "en_tdlr": "This paper investigates the application of stochastic gradient descent in biological neural networks, and demonstrates that a gradient step occurs approximately after multiple local updates for each learning opportunity. This suggests a potential role of stochastic gradient descent in optimizing biological neural networks."
+}

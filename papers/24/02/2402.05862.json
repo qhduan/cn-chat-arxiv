@@ -1,0 +1,12 @@
+{
+    "title": "Let Your Graph Do the Talking: Encoding Structured Data for LLMs",
+    "abstract": "How can we best encode structured data into sequential form for use in large language models (LLMs)? In this work, we introduce a parameter-efficient method to explicitly represent structured data for LLMs. Our method, GraphToken, learns an encoding function to extend prompts with explicit structured information. Unlike other work which focuses on limited domains (e.g. knowledge graph representation), our work is the first effort focused on the general encoding of structured data to be used for various reasoning tasks. We show that explicitly representing the graph structure allows significant improvements to graph reasoning tasks. Specifically, we see across the board improvements - up to 73% points - on node, edge and, graph-level tasks from the GraphQA benchmark.",
+    "link": "https://arxiv.org/abs/2402.05862",
+    "context": "Title: Let Your Graph Do the Talking: Encoding Structured Data for LLMs\nAbstract: How can we best encode structured data into sequential form for use in large language models (LLMs)? In this work, we introduce a parameter-efficient method to explicitly represent structured data for LLMs. Our method, GraphToken, learns an encoding function to extend prompts with explicit structured information. Unlike other work which focuses on limited domains (e.g. knowledge graph representation), our work is the first effort focused on the general encoding of structured data to be used for various reasoning tasks. We show that explicitly representing the graph structure allows significant improvements to graph reasoning tasks. Specifically, we see across the board improvements - up to 73% points - on node, edge and, graph-level tasks from the GraphQA benchmark.",
+    "path": "papers/24/02/2402.05862.json",
+    "total_tokens": 730,
+    "translated_title": "让你的图来说话：为LLMs编码结构化数据",
+    "translated_abstract": "我们如何最有效地将结构化数据编码成序列形式，以供大型语言模型（LLMs）使用？在这项工作中，我们介绍了一种参数高效的方法，可以明确表示LLMs的结构化数据。我们的方法，GraphToken，学习了一种编码函数，以显式结构化信息扩展提示语。与其他专注于有限领域（例如知识图表示）的工作不同，我们的工作是首次针对一般结构化数据编码进行研究，用于各种推理任务。我们展示了明确表示图结构可以显著改进图推理任务。具体来说，我们在GraphQA基准测试中看到了整体的改进 - 在节点、边和图级任务上高达73%的改进。",
+    "tldr": "本论文介绍了一种参数高效的编码方法，可以使大型语言模型（LLMs）能够显式地表示结构化数据，并在图推理任务中取得了显著改进。",
+    "en_tdlr": "This paper introduces a parameter-efficient method, called GraphToken, for encoding structured data in large language models (LLMs), which achieves significant improvements in graph reasoning tasks by explicitly representing the graph structure."
+}

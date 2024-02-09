@@ -1,0 +1,12 @@
+{
+    "title": "Leveraging AI for Enhanced Software Effort Estimation: A Comprehensive Study and Framework Proposal",
+    "abstract": "This paper presents an extensive study on the application of AI techniques for software effort estimation in the past five years from 2017 to 2023. By overcoming the limitations of traditional methods, the study aims to improve accuracy and reliability. Through performance evaluation and comparison with diverse Machine Learning models, including Artificial Neural Network (ANN), Support Vector Machine (SVM), Linear Regression, Random Forest and other techniques, the most effective method is identified. The proposed AI-based framework holds the potential to enhance project planning and resource allocation, contributing to the research area of software project effort estimation.",
+    "link": "https://arxiv.org/abs/2402.05484",
+    "context": "Title: Leveraging AI for Enhanced Software Effort Estimation: A Comprehensive Study and Framework Proposal\nAbstract: This paper presents an extensive study on the application of AI techniques for software effort estimation in the past five years from 2017 to 2023. By overcoming the limitations of traditional methods, the study aims to improve accuracy and reliability. Through performance evaluation and comparison with diverse Machine Learning models, including Artificial Neural Network (ANN), Support Vector Machine (SVM), Linear Regression, Random Forest and other techniques, the most effective method is identified. The proposed AI-based framework holds the potential to enhance project planning and resource allocation, contributing to the research area of software project effort estimation.",
+    "path": "papers/24/02/2402.05484.json",
+    "total_tokens": 737,
+    "translated_title": "利用人工智能提升软件工作量估计：一项全面的研究和框架提议",
+    "translated_abstract": "本文介绍了过去五年（2017年至2023年）中利用人工智能技术进行软件工作量估计的广泛研究。通过克服传统方法的局限性，该研究旨在提高准确性和可靠性。通过性能评估和与各种机器学习模型（包括人工神经网络，支持向量机，线性回归，随机森林等技术）的比较，找到了最有效的方法。提出的基于人工智能的框架有潜力提升项目规划和资源分配，为软件项目工作量估计的研究领域做出贡献。",
+    "tldr": "本文通过全面的研究，提出了基于人工智能的软件工作量估计框架，该框架通过克服传统方法的局限性，提高了准确性和可靠性，对于项目规划和资源分配具有重要意义。",
+    "en_tdlr": "This paper presents a comprehensive study and proposes an AI-based framework for software effort estimation. By overcoming limitations of traditional methods, the framework improves accuracy and reliability, making significant contributions to project planning and resource allocation."
+}

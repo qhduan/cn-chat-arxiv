@@ -1,0 +1,12 @@
+{
+    "title": "A core-selecting auction for portfolio's packages",
+    "abstract": "We introduce the \"local-global\" approach for a divisible portfolio and perform an equilibrium analysis for two variants of core-selecting auctions. Our main novelty is extending the Nearest-VCG pricing rule in a dynamic two-round setup, mitigating bidders' free-riding incentives and further reducing the sellers' costs. The two-round setup admits an information-revelation mechanism that may offset the \"winner's curse\", and it is in accord with the existing iterative procedure of combinatorial auctions. With portfolio trading becoming an increasingly important part of investment strategies, our mechanism contributes to increasing interest in portfolio auction protocols.",
+    "link": "https://arxiv.org/abs/2206.11516",
+    "context": "Title: A core-selecting auction for portfolio's packages\nAbstract: We introduce the \"local-global\" approach for a divisible portfolio and perform an equilibrium analysis for two variants of core-selecting auctions. Our main novelty is extending the Nearest-VCG pricing rule in a dynamic two-round setup, mitigating bidders' free-riding incentives and further reducing the sellers' costs. The two-round setup admits an information-revelation mechanism that may offset the \"winner's curse\", and it is in accord with the existing iterative procedure of combinatorial auctions. With portfolio trading becoming an increasingly important part of investment strategies, our mechanism contributes to increasing interest in portfolio auction protocols.",
+    "path": "papers/22/06/2206.11516.json",
+    "total_tokens": 786,
+    "translated_title": "一个针对投资组合包的核心选择拍卖机制",
+    "translated_abstract": "我们引入了“局部-全局”的方法来处理可分割的投资组合，并对两种核心选择拍卖机制进行了均衡分析。我们的主要创新是在动态的两轮设置中扩展了最近邻-VCG定价规则，减少了竞标者的搭车行为和降低了卖方的成本。两轮设置允许信息揭示机制来抵消“赢家的诅咒”，并且与现有的组合拍卖迭代程序相一致。随着投资组合交易越来越成为投资策略中的重要组成部分，我们的机制有助于增加对投资组合拍卖协议的兴趣。",
+    "tldr": "本论文提出了一种在动态的两轮设置中扩展最近邻-VCG定价规则的核心选择拍卖机制，减少了竞标者的搭车行为和卖方的成本，并引入了信息揭示机制来抵消“赢家的诅咒”。该机制对于投资组合拍卖协议的增加兴趣具有贡献性。",
+    "en_tdlr": "This paper proposes a core-selecting auction mechanism that extends the Nearest-VCG pricing rule in a dynamic two-round setup, reducing free-riding incentives for bidders and costs for sellers, and introduces an information-revelation mechanism to offset the \"winner's curse\". It contributes to increasing interest in portfolio auction protocols."
+}

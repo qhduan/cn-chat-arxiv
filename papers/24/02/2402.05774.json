@@ -1,0 +1,11 @@
+{
+    "title": "Stable Autonomous Flow Matching",
+    "abstract": "In contexts where data samples represent a physically stable state, it is often assumed that the data points represent the local minima of an energy landscape. In control theory, it is well-known that energy can serve as an effective Lyapunov function. Despite this, connections between control theory and generative models in the literature are sparse, even though there are several machine learning applications with physically stable data points. In this paper, we focus on such data and a recent class of deep generative models called flow matching. We apply tools of stochastic stability for time-independent systems to flow matching models. In doing so, we characterize the space of flow matching models that are amenable to this treatment, as well as draw connections to other control theory principles. We demonstrate our theoretical results on two examples.",
+    "link": "https://arxiv.org/abs/2402.05774",
+    "context": "Title: Stable Autonomous Flow Matching\nAbstract: In contexts where data samples represent a physically stable state, it is often assumed that the data points represent the local minima of an energy landscape. In control theory, it is well-known that energy can serve as an effective Lyapunov function. Despite this, connections between control theory and generative models in the literature are sparse, even though there are several machine learning applications with physically stable data points. In this paper, we focus on such data and a recent class of deep generative models called flow matching. We apply tools of stochastic stability for time-independent systems to flow matching models. In doing so, we characterize the space of flow matching models that are amenable to this treatment, as well as draw connections to other control theory principles. We demonstrate our theoretical results on two examples.",
+    "path": "papers/24/02/2402.05774.json",
+    "total_tokens": 741,
+    "translated_title": "稳定的自主流匹配",
+    "translated_abstract": "在表示物理稳定状态的数据样本中，通常假设数据点代表能量景观的局部极小值。在控制论中，众所周知，能量可以作为有效的李亚普诺夫函数。尽管如此，控制论与生成模型之间的联系在文献中很少，尽管有几个具有物理稳定数据点的机器学习应用。在本文中，我们关注这样的数据和一种最近的深度生成模型类别，称为流匹配。我们应用随机稳定性工具于时间独立系统的流匹配模型。通过这样做，我们表征了适应这种处理的流匹配模型的空间，以及与其他控制理论原理的联系。我们在两个示例上展示了我们的理论结果。",
+    "tldr": "本文通过应用随机稳定性工具于时间独立系统的流匹配模型，研究了物理稳定数据点的深度生成模型，并与控制理论原理进行了联系。"
+}

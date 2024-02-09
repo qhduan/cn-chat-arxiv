@@ -1,0 +1,12 @@
+{
+    "title": "SoftEDA: Rethinking Rule-Based Data Augmentation with Soft Labels",
+    "abstract": "Rule-based text data augmentation is widely used for NLP tasks due to its simplicity. However, this method can potentially damage the original meaning of the text, ultimately hurting the performance of the model. To overcome this limitation, we propose a straightforward technique for applying soft labels to augmented data. We conducted experiments across seven different classification tasks and empirically demonstrated the effectiveness of our proposed approach. We have publicly opened our source code for reproducibility.",
+    "link": "https://arxiv.org/abs/2402.05591",
+    "context": "Title: SoftEDA: Rethinking Rule-Based Data Augmentation with Soft Labels\nAbstract: Rule-based text data augmentation is widely used for NLP tasks due to its simplicity. However, this method can potentially damage the original meaning of the text, ultimately hurting the performance of the model. To overcome this limitation, we propose a straightforward technique for applying soft labels to augmented data. We conducted experiments across seven different classification tasks and empirically demonstrated the effectiveness of our proposed approach. We have publicly opened our source code for reproducibility.",
+    "path": "papers/24/02/2402.05591.json",
+    "total_tokens": 607,
+    "translated_title": "SoftEDA: 用软标签重新思考基于规则的数据增强",
+    "translated_abstract": "基于规则的文本数据增强因其简单性而被广泛应用于自然语言处理任务。然而，这种方法可能会破坏文本的原始含义，最终影响模型的性能。为了克服这个限制，我们提出了一种将软标签应用于增强数据的简单技术。我们进行了七个不同的分类任务的实验，并经验性地证明了我们提出的方法的有效性。我们已经公开了我们的源代码以便复现。",
+    "tldr": "本文提出了SoftEDA方法，通过使用软标签在增强数据上，从而解决了基于规则的文本数据增强方法可能破坏文本原始含义的问题，实验证明了该方法的有效性。",
+    "en_tdlr": "This paper proposes SoftEDA, which addresses the problem of potentially damaging the original meaning of text in rule-based text data augmentation by using soft labels on augmented data, and experimentally demonstrates its effectiveness."
+}

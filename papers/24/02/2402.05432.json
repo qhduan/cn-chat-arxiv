@@ -1,0 +1,12 @@
+{
+    "title": "Difference-in-Differences Estimators with Continuous Treatments and no Stayers",
+    "abstract": "Many treatments or policy interventions are continuous in nature. Examples include prices, taxes or temperatures. Empirical researchers have usually relied on two-way fixed effect regressions to estimate treatment effects in such cases. However, such estimators are not robust to heterogeneous treatment effects in general; they also rely on the linearity of treatment effects. We propose estimators for continuous treatments that do not impose those restrictions, and that can be used when there are no stayers: the treatment of all units changes from one period to the next. We start by extending the nonparametric results of de Chaisemartin et al. (2023) to cases without stayers. We also present a parametric estimator, and use it to revisit Desch\\^enes and Greenstone (2012).",
+    "link": "https://arxiv.org/abs/2402.05432",
+    "context": "Title: Difference-in-Differences Estimators with Continuous Treatments and no Stayers\nAbstract: Many treatments or policy interventions are continuous in nature. Examples include prices, taxes or temperatures. Empirical researchers have usually relied on two-way fixed effect regressions to estimate treatment effects in such cases. However, such estimators are not robust to heterogeneous treatment effects in general; they also rely on the linearity of treatment effects. We propose estimators for continuous treatments that do not impose those restrictions, and that can be used when there are no stayers: the treatment of all units changes from one period to the next. We start by extending the nonparametric results of de Chaisemartin et al. (2023) to cases without stayers. We also present a parametric estimator, and use it to revisit Desch\\^enes and Greenstone (2012).",
+    "path": "papers/24/02/2402.05432.json",
+    "total_tokens": 747,
+    "translated_title": "具有连续处理和无停留者的差异-in-Differences 估计",
+    "translated_abstract": "许多处理或政策干预是连续性的，例如价格、税收或温度。在这些情况下，经验研究者通常依赖于双向固定效应回归来估计处理效应。然而，这种估计器通常不适用于处理效应异质性，在处理效应线性上也有依赖。我们提出了一种不强加这些限制的连续处理估计器，适用于没有停留者的情况：所有单位的处理在一个时期到下一个时期都发生变化。我们首先基于de Chaisemartin等人（2023）的非参数结果推广到没有停留者的情况。我们还提出了一个参数估计器，并用它重新审视了Deschênes 和 Greenstone（2012）的研究。",
+    "tldr": "我们提出了一种适用于连续处理的估计器，该估计器不强加处理效应异质性的限制，并且适用于没有停留者的情况。",
+    "en_tdlr": "We propose estimators for continuous treatments that do not impose restrictions on heterogeneous treatment effects and can be used when there are no stayers."
+}

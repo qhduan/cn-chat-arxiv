@@ -1,0 +1,11 @@
+{
+    "title": "QGFN: Controllable Greediness with Action Values",
+    "abstract": "Generative Flow Networks (GFlowNets; GFNs) are a family of reward/energy-based generative methods for combinatorial objects, capable of generating diverse and high-utility samples. However, biasing GFNs towards producing high-utility samples is non-trivial. In this work, we leverage connections between GFNs and reinforcement learning (RL) and propose to combine the GFN policy with an action-value estimate, $Q$, to create greedier sampling policies which can be controlled by a mixing parameter. We show that several variants of the proposed method, QGFN, are able to improve on the number of high-reward samples generated in a variety of tasks without sacrificing diversity.",
+    "link": "https://arxiv.org/abs/2402.05234",
+    "context": "Title: QGFN: Controllable Greediness with Action Values\nAbstract: Generative Flow Networks (GFlowNets; GFNs) are a family of reward/energy-based generative methods for combinatorial objects, capable of generating diverse and high-utility samples. However, biasing GFNs towards producing high-utility samples is non-trivial. In this work, we leverage connections between GFNs and reinforcement learning (RL) and propose to combine the GFN policy with an action-value estimate, $Q$, to create greedier sampling policies which can be controlled by a mixing parameter. We show that several variants of the proposed method, QGFN, are able to improve on the number of high-reward samples generated in a variety of tasks without sacrificing diversity.",
+    "path": "papers/24/02/2402.05234.json",
+    "total_tokens": 684,
+    "translated_title": "QGFN:具有动作值的可控贪婪算法",
+    "translated_abstract": "生成流网络（GFlowNets;GFNs）是一种用于组合对象的基于奖励/能量的生成方法，能够生成多样化和高效的样本。然而，偏向于生成高效样本的GFNs并不容易。在这项工作中，我们利用GFNs和强化学习（RL）之间的联系，提出将GFN策略与动作值估计$Q$相结合，从而创建可以通过混合参数控制的贪婪采样策略。我们展示了几个QGFN的变体能够在各种任务中改善生成高奖励样本的数量，同时不牺牲多样性。",
+    "tldr": "本文提出了一种新的算法QGFN，通过将GFN策略与动作值估计相结合，可以生成更多高奖励的样本而不牺牲多样性。"
+}

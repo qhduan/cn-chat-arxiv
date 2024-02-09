@@ -1,0 +1,11 @@
+{
+    "title": "Off-policy Distributional Q($\\lambda$): Distributional RL without Importance Sampling",
+    "abstract": "We introduce off-policy distributional Q($\\lambda$), a new addition to the family of off-policy distributional evaluation algorithms. Off-policy distributional Q($\\lambda$) does not apply importance sampling for off-policy learning, which introduces intriguing interactions with signed measures. Such unique properties distributional Q($\\lambda$) from other existing alternatives such as distributional Retrace. We characterize the algorithmic properties of distributional Q($\\lambda$) and validate theoretical insights with tabular experiments. We show how distributional Q($\\lambda$)-C51, a combination of Q($\\lambda$) with the C51 agent, exhibits promising results on deep RL benchmarks.",
+    "link": "https://arxiv.org/abs/2402.05766",
+    "context": "Title: Off-policy Distributional Q($\\lambda$): Distributional RL without Importance Sampling\nAbstract: We introduce off-policy distributional Q($\\lambda$), a new addition to the family of off-policy distributional evaluation algorithms. Off-policy distributional Q($\\lambda$) does not apply importance sampling for off-policy learning, which introduces intriguing interactions with signed measures. Such unique properties distributional Q($\\lambda$) from other existing alternatives such as distributional Retrace. We characterize the algorithmic properties of distributional Q($\\lambda$) and validate theoretical insights with tabular experiments. We show how distributional Q($\\lambda$)-C51, a combination of Q($\\lambda$) with the C51 agent, exhibits promising results on deep RL benchmarks.",
+    "path": "papers/24/02/2402.05766.json",
+    "total_tokens": 785,
+    "translated_title": "离线策略分布式 Q($\\lambda$): 不需重要性采样的分布式强化学习",
+    "translated_abstract": "我们引入了离线策略分布式 Q($\\lambda$)，它是离线策略分布式评估算法族的新成员。离线策略分布式 Q($\\lambda$) 在离线学习时不应用重要性采样，这引入了与有符号测度之间的有趣交互作用。这些独特的特性使得离线策略分布式 Q($\\lambda$) 与其他现有的替代方法（如分布式 Retrace）有所区别。我们对离线策略分布式 Q($\\lambda$) 的算法特性进行了表征，并通过表格实验验证了理论洞察力。我们展示了离线策略分布式 Q($\\lambda$)-C51在深度强化学习基准测试上的有希望的结果。",
+    "tldr": "离线策略分布式 Q($\\lambda$) 是一种不使用重要性采样的强化学习算法，具有与有符号测度的有趣交互作用，并在深度强化学习基准测试中展现了有希望的结果。"
+}

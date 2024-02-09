@@ -1,0 +1,12 @@
+{
+    "title": "Improving Agent Interactions in Virtual Environments with Language Models",
+    "abstract": "Enhancing AI systems with efficient communication skills for effective human assistance necessitates proactive initiatives from the system side to discern specific circumstances and interact aptly. This research focuses on a collective building assignment in the Minecraft dataset, employing language modeling to enhance task understanding through state-of-the-art methods. These models focus on grounding multi-modal understanding and task-oriented dialogue comprehension tasks, providing insights into their interpretative and responsive capabilities. Our experimental results showcase a substantial improvement over existing methods, indicating a promising direction for future research in this domain.",
+    "link": "https://arxiv.org/abs/2402.05440",
+    "context": "Title: Improving Agent Interactions in Virtual Environments with Language Models\nAbstract: Enhancing AI systems with efficient communication skills for effective human assistance necessitates proactive initiatives from the system side to discern specific circumstances and interact aptly. This research focuses on a collective building assignment in the Minecraft dataset, employing language modeling to enhance task understanding through state-of-the-art methods. These models focus on grounding multi-modal understanding and task-oriented dialogue comprehension tasks, providing insights into their interpretative and responsive capabilities. Our experimental results showcase a substantial improvement over existing methods, indicating a promising direction for future research in this domain.",
+    "path": "papers/24/02/2402.05440.json",
+    "total_tokens": 657,
+    "translated_title": "用语言模型改善虚拟环境中的智能体交互",
+    "translated_abstract": "为了有效的人类辅助，增强AI系统的沟通技巧需要系统主动探索特定情况并适当交互。本研究以Minecraft数据集中的集体建立任务为重点，利用语言建模来通过最先进的方法增强任务理解能力。这些模型注重多模态理解和面向任务的对话理解任务，揭示了它们的解释和响应能力。我们的实验结果表明，与现有方法相比，我们取得了显著的改进，为将来在这个领域的研究指明了一个有希望的方向。",
+    "tldr": "这项研究通过利用语言模型在虚拟环境中改进智能体的交互，实现了对任务的理解和沟通能力的提升，并在实验中取得了显著的改进。",
+    "en_tdlr": "This research improves agent interactions in virtual environments by utilizing language models, leading to enhanced understanding and communication skills for tasks, resulting in substantial improvements in experiments."
+}

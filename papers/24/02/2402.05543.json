@@ -1,0 +1,12 @@
+{
+    "title": "Machine learning applied to omics data",
+    "abstract": "In this chapter we illustrate the use of some Machine Learning techniques in the context of omics data. More precisely, we review and evaluate the use of Random Forest and Penalized Multinomial Logistic Regression for integrative analysis of genomics and immunomics in pancreatic cancer. Furthermore, we propose the use of association rules with predictive purposes to overcome the low predictive power of the previously mentioned models. Finally, we apply the reviewed methods to a real data set from TCGA made of 107 tumoral pancreatic samples and 117,486 germline SNPs, showing the good performance of the proposed methods to predict the immunological infiltration in pancreatic cancer.",
+    "link": "https://arxiv.org/abs/2402.05543",
+    "context": "Title: Machine learning applied to omics data\nAbstract: In this chapter we illustrate the use of some Machine Learning techniques in the context of omics data. More precisely, we review and evaluate the use of Random Forest and Penalized Multinomial Logistic Regression for integrative analysis of genomics and immunomics in pancreatic cancer. Furthermore, we propose the use of association rules with predictive purposes to overcome the low predictive power of the previously mentioned models. Finally, we apply the reviewed methods to a real data set from TCGA made of 107 tumoral pancreatic samples and 117,486 germline SNPs, showing the good performance of the proposed methods to predict the immunological infiltration in pancreatic cancer.",
+    "path": "papers/24/02/2402.05543.json",
+    "total_tokens": 793,
+    "translated_title": "机器学习应用于组学数据",
+    "translated_abstract": "在本章中，我们介绍了一些机器学习技术在组学数据的背景下的应用。更具体地，我们回顾和评估了随机森林和惩罚性多项式逻辑回归在胰腺癌基因组学和免疫组学的综合分析中的应用。此外，我们提出使用关联规则进行预测，以克服先前提到的模型预测能力不足的问题。最后，我们将回顾的方法应用于来自TCGA的真实数据集，该数据集由107个肿瘤性胰腺样品和117,486个种系SNP组成，展示了所提出方法在预测胰腺癌免疫浸润中的良好性能。",
+    "tldr": "本章介绍了将机器学习技术应用于组学数据的方法，特别是在胰腺癌的基因组学和免疫组学综合分析中，通过随机森林和惩罚性多项式逻辑回归来预测胰腺癌免疫浸润，同时提出了使用关联规则进行预测的方法，以提高预测能力。",
+    "en_tdlr": "This chapter presents the application of machine learning techniques to omics data, specifically in the context of genomics and immunomics analysis of pancreatic cancer. Random Forest and Penalized Multinomial Logistic Regression models are used to predict immunological infiltration, and association rules are proposed to enhance prediction performance."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Extending 6D Object Pose Estimators for Stereo Vision",
+    "abstract": "Estimating the 6D pose of objects accurately, quickly, and robustly remains a difficult task. However, recent methods for directly regressing poses from RGB images using dense features have achieved state-of-the-art results. Stereo vision, which provides an additional perspective on the object, can help reduce pose ambiguity and occlusion. Moreover, stereo can directly infer the distance of an object, while mono-vision requires internalized knowledge of the object's size. To extend the state-of-the-art in 6D object pose estimation to stereo, we created a BOP compatible stereo version of the YCB-V dataset. Our method outperforms state-of-the-art 6D pose estimation algorithms by utilizing stereo vision and can easily be adopted for other dense feature-based algorithms.",
+    "link": "https://arxiv.org/abs/2402.05610",
+    "context": "Title: Extending 6D Object Pose Estimators for Stereo Vision\nAbstract: Estimating the 6D pose of objects accurately, quickly, and robustly remains a difficult task. However, recent methods for directly regressing poses from RGB images using dense features have achieved state-of-the-art results. Stereo vision, which provides an additional perspective on the object, can help reduce pose ambiguity and occlusion. Moreover, stereo can directly infer the distance of an object, while mono-vision requires internalized knowledge of the object's size. To extend the state-of-the-art in 6D object pose estimation to stereo, we created a BOP compatible stereo version of the YCB-V dataset. Our method outperforms state-of-the-art 6D pose estimation algorithms by utilizing stereo vision and can easily be adopted for other dense feature-based algorithms.",
+    "path": "papers/24/02/2402.05610.json",
+    "total_tokens": 819,
+    "translated_title": "扩展用于立体视觉的6D物体姿态估计器",
+    "translated_abstract": "准确、快速、稳健地估计物体的6D姿态仍然是一项困难的任务。然而，最近的直接从RGB图像中使用密集特征回归姿态的方法已经取得了最先进的结果。立体视觉提供了对物体的额外视角，可以帮助减少姿态歧义和遮挡。此外，立体图像可以直接推测物体的距离，而单目视觉则需要内置对象尺寸的知识。为了将最先进的6D物体姿态估计方法扩展到立体视觉，我们创建了一个与BOP兼容的YCB-V数据集的立体版本。我们的方法通过利用立体视觉优于最先进的6D姿态估计算法，并且可以轻松应用于其他基于密集特征的算法。",
+    "tldr": "这篇论文扩展了用于立体视觉的6D物体姿态估计器，通过使用立体视觉提供的额外视角和直接推测物体的距离，该方法在6D姿态估计方面优于最先进的算法，且可适用于其他基于密集特征的算法。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Regular Expressions with Backreferences: Polynomial-Time Matching Techniques",
+    "abstract": "Regular expressions with backreferences (regex, for short), as supported by most modern libraries for regular expression matching, have an NP-complete matching problem. We define a complexity parameter of regex, called active variable degree, such that regex with this parameter bounded by a constant can be matched in polynomial-time. Moreover, we formulate a novel type of determinism for regex (on an automaton-theoretic level), which yields the class of memory-deterministic regex that can be matched in time O(|w|p(|r|)) for a polynomial p (where r is the regex and w the word). Natural extensions of these concepts lead to properties of regex that are intractable to check.",
+    "link": "https://arxiv.org/abs/1903.05896",
+    "context": "Title: Regular Expressions with Backreferences: Polynomial-Time Matching Techniques\nAbstract: Regular expressions with backreferences (regex, for short), as supported by most modern libraries for regular expression matching, have an NP-complete matching problem. We define a complexity parameter of regex, called active variable degree, such that regex with this parameter bounded by a constant can be matched in polynomial-time. Moreover, we formulate a novel type of determinism for regex (on an automaton-theoretic level), which yields the class of memory-deterministic regex that can be matched in time O(|w|p(|r|)) for a polynomial p (where r is the regex and w the word). Natural extensions of these concepts lead to properties of regex that are intractable to check.",
+    "path": "papers/19/03/1903.05896.json",
+    "total_tokens": 725,
+    "translated_title": "带反向引用的正则表达式：多项式时间匹配技术",
+    "translated_abstract": "带有反向引用（regex）的正则表达式在大多数现代正则表达式匹配库中得到支持，但它们具有一个NP完全的匹配问题。我们定义了一个复杂度参数，称为活动变量度，在此参数受到常数限制时，可以在多项式时间内匹配正则表达式。此外，我们还制定了一种新颖的确定性类型，用于正则表达式（在自动机理论层面上），这产生了可以在O(|w|p(|r|))时间内匹配的内存确定性正则表达式。这里，r是正则表达式，w是字符串。这些概念的自然扩展导致了正则表达式的一些难以检测的属性。",
+    "tldr": "带反向引用的正则表达式可以通过限制参数在多项式时间内进行匹配。此外，引入内存确定性正则表达式和其他相关概念可以用于处理难以检测的属性。",
+    "en_tdlr": "Regular expressions with backreferences can be matched in polynomial-time by bounding a complexity parameter. Additionally, introducing memory-deterministic regular expressions and other related concepts can be used to handle intractable properties."
+}

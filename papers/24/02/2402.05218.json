@@ -1,0 +1,11 @@
+{
+    "title": "Self-calibrated convolution towards glioma segmentation",
+    "abstract": "Accurate brain tumor segmentation in the early stages of the disease is crucial for the treatment's effectiveness, avoiding exhaustive visual inspection of a qualified specialist on 3D MR brain images of multiple protocols (e.g., T1, T2, T2-FLAIR, T1-Gd). Several networks exist for Glioma segmentation, being nnU-Net one of the best. In this work, we evaluate self-calibrated convolutions in different parts of the nnU-Net network to demonstrate that self-calibrated modules in skip connections can significantly improve the enhanced-tumor and tumor-core segmentation accuracy while preserving the wholetumor segmentation accuracy.",
+    "link": "https://arxiv.org/abs/2402.05218",
+    "context": "Title: Self-calibrated convolution towards glioma segmentation\nAbstract: Accurate brain tumor segmentation in the early stages of the disease is crucial for the treatment's effectiveness, avoiding exhaustive visual inspection of a qualified specialist on 3D MR brain images of multiple protocols (e.g., T1, T2, T2-FLAIR, T1-Gd). Several networks exist for Glioma segmentation, being nnU-Net one of the best. In this work, we evaluate self-calibrated convolutions in different parts of the nnU-Net network to demonstrate that self-calibrated modules in skip connections can significantly improve the enhanced-tumor and tumor-core segmentation accuracy while preserving the wholetumor segmentation accuracy.",
+    "path": "papers/24/02/2402.05218.json",
+    "total_tokens": 740,
+    "translated_title": "基于自校准卷积的胶质瘤分割",
+    "translated_abstract": "在疾病早期，准确的脑肿瘤分割对治疗的有效性至关重要，可以避免对多种协议（如T1、T2、T2-FLAIR、T1-Gd）的3D MR脑图像进行详尽的视觉检查。存在许多用于胶质瘤分割的网络，其中nnU-Net是最好的之一。在这项工作中，我们评估了在nnU-Net网络的不同部分中使用自校准卷积，以证明在跳跃连接中使用自校准模块可以显著提高增强瘤灶和肿瘤核的分割准确性，同时保持整个肿瘤的分割准确性。",
+    "tldr": "这项工作通过在nnU-Net网络的不同部分使用自校准卷积，证明了自校准模块可以显著提高肿瘤分割的准确性，同时保持整个肿瘤的分割准确性。"
+}

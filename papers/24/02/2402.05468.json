@@ -1,0 +1,11 @@
+{
+    "title": "Implicit Diffusion: Efficient Optimization through Stochastic Sampling",
+    "abstract": "We present a new algorithm to optimize distributions defined implicitly by parameterized stochastic diffusions. Doing so allows us to modify the outcome distribution of sampling processes by optimizing over their parameters. We introduce a general framework for first-order optimization of these processes, that performs jointly, in a single loop, optimization and sampling steps. This approach is inspired by recent advances in bilevel optimization and automatic implicit differentiation, leveraging the point of view of sampling as optimization over the space of probability distributions. We provide theoretical guarantees on the performance of our method, as well as experimental results demonstrating its effectiveness in real-world settings.",
+    "link": "https://arxiv.org/abs/2402.05468",
+    "context": "Title: Implicit Diffusion: Efficient Optimization through Stochastic Sampling\nAbstract: We present a new algorithm to optimize distributions defined implicitly by parameterized stochastic diffusions. Doing so allows us to modify the outcome distribution of sampling processes by optimizing over their parameters. We introduce a general framework for first-order optimization of these processes, that performs jointly, in a single loop, optimization and sampling steps. This approach is inspired by recent advances in bilevel optimization and automatic implicit differentiation, leveraging the point of view of sampling as optimization over the space of probability distributions. We provide theoretical guarantees on the performance of our method, as well as experimental results demonstrating its effectiveness in real-world settings.",
+    "path": "papers/24/02/2402.05468.json",
+    "total_tokens": 698,
+    "translated_title": "隐式扩散: 通过随机采样实现高效优化",
+    "translated_abstract": "我们提出了一种通过参数化随机扩散隐式定义的分布来进行优化的新算法。通过优化这些参数，可以修改采样过程的结果分布。我们引入了一个针对这些过程的一阶优化的通用框架，通过在单个循环中进行优化和采样步骤来实现。这种方法受到双层优化和自动隐式微分的最新进展的启发，利用采样作为在概率分布空间上进行优化的视角。我们提供了关于我们方法性能的理论保证，以及在实际环境中证明其有效性的实验结果。",
+    "tldr": "本文介绍了一种通过随机采样优化隐含分布的新算法，并提出了一种通用框架，用于在单个循环中同时进行优化和采样步骤。实验结果证明了该方法在真实环境中的有效性。"
+}

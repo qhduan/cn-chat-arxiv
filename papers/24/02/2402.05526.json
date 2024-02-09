@@ -1,0 +1,12 @@
+{
+    "title": "Buffer Overflow in Mixture of Experts",
+    "abstract": "Mixture of Experts (MoE) has become a key ingredient for scaling large foundation models while keeping inference costs steady. We show that expert routing strategies that have cross-batch dependencies are vulnerable to attacks. Malicious queries can be sent to a model and can affect a model's output on other benign queries if they are grouped in the same batch. We demonstrate this via a proof-of-concept attack in a toy experimental setting.",
+    "link": "https://arxiv.org/abs/2402.05526",
+    "context": "Title: Buffer Overflow in Mixture of Experts\nAbstract: Mixture of Experts (MoE) has become a key ingredient for scaling large foundation models while keeping inference costs steady. We show that expert routing strategies that have cross-batch dependencies are vulnerable to attacks. Malicious queries can be sent to a model and can affect a model's output on other benign queries if they are grouped in the same batch. We demonstrate this via a proof-of-concept attack in a toy experimental setting.",
+    "path": "papers/24/02/2402.05526.json",
+    "total_tokens": 589,
+    "translated_title": "专家混合模型中的缓冲区溢出问题",
+    "translated_abstract": "在保持推理成本稳定的同时，专家混合模型（MoE）已成为扩展大型基础模型的关键要素。我们发现，具有跨批次依赖的专家路由策略易受攻击。如果恶意查询与良性查询分组在同一批次中，恶意查询会影响模型对其他良性查询的输出。我们通过在玩具实验环境中进行概念验证攻击来证明这一点。",
+    "tldr": "专家混合模型中，我们发现具有跨批次依赖的专家路由策略易受攻击，恶意查询可以影响模型对其他良性查询的输出。",
+    "en_tdlr": "In Mixture of Experts, we found that expert routing strategies with cross-batch dependencies are vulnerable to attacks. Malicious queries can affect a model's output on other benign queries if they are grouped in the same batch."
+}

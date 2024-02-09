@@ -1,0 +1,12 @@
+{
+    "title": "A Sampling Theory Perspective on Activations for Implicit Neural Representations",
+    "abstract": "Implicit Neural Representations (INRs) have gained popularity for encoding signals as compact, differentiable entities. While commonly using techniques like Fourier positional encodings or non-traditional activation functions (e.g., Gaussian, sinusoid, or wavelets) to capture high-frequency content, their properties lack exploration within a unified theoretical framework. Addressing this gap, we conduct a comprehensive analysis of these activations from a sampling theory perspective. Our investigation reveals that sinc activations, previously unused in conjunction with INRs, are theoretically optimal for signal encoding. Additionally, we establish a connection between dynamical systems and INRs, leveraging sampling theory to bridge these two paradigms.",
+    "link": "https://arxiv.org/abs/2402.05427",
+    "context": "Title: A Sampling Theory Perspective on Activations for Implicit Neural Representations\nAbstract: Implicit Neural Representations (INRs) have gained popularity for encoding signals as compact, differentiable entities. While commonly using techniques like Fourier positional encodings or non-traditional activation functions (e.g., Gaussian, sinusoid, or wavelets) to capture high-frequency content, their properties lack exploration within a unified theoretical framework. Addressing this gap, we conduct a comprehensive analysis of these activations from a sampling theory perspective. Our investigation reveals that sinc activations, previously unused in conjunction with INRs, are theoretically optimal for signal encoding. Additionally, we establish a connection between dynamical systems and INRs, leveraging sampling theory to bridge these two paradigms.",
+    "path": "papers/24/02/2402.05427.json",
+    "total_tokens": 750,
+    "translated_title": "采样理论视角下的隐式神经表示激活",
+    "translated_abstract": "隐式神经表示（INR）已经在将信号编码为紧凑的、可微分的实体方面变得流行起来。虽然通常使用傅里叶位置编码或非传统激活函数（如高斯、正弦或小波）等技术来捕捉高频内容，但它们的属性在统一的理论框架中缺乏探索。为了填补这个空白，我们从采样理论的视角对这些激活进行了全面分析。我们的研究发现，在与INR结合时以前未使用的sinc激活是理论上的信号编码最佳选择。此外，我们建立了动力系统和INR之间的联系，利用采样理论来连接这两个范例。",
+    "tldr": "本研究从采样理论的视角对隐式神经表示（INR）中的激活进行了全面分析，发现sinc激活是理论上的最佳选择，并建立了动力系统与INR之间的联系。",
+    "en_tdlr": "This study conducts a comprehensive analysis of activations in Implicit Neural Representations (INRs) from a sampling theory perspective. It reveals that sinc activations, previously unused with INRs, are theoretically optimal and establishes a connection between dynamical systems and INRs."
+}

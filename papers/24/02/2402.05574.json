@@ -1,0 +1,12 @@
+{
+    "title": "Quantum Amplitude Loading for Rainbow Options Pricing",
+    "abstract": "This work introduces a novel approach to price rainbow options, a type of path-independent multi-asset derivatives, with quantum computers. Leveraging the Iterative Quantum Amplitude Estimation method, we present an end-to-end quantum circuit implementation, emphasizing efficiency by delaying the transition to price space. Moreover, we analyze two different amplitude loading techniques for handling exponential functions. Experiments on the IBM QASM simulator validate our quantum pricing model, contributing to the evolving field of quantum finance.",
+    "link": "https://arxiv.org/abs/2402.05574",
+    "context": "Title: Quantum Amplitude Loading for Rainbow Options Pricing\nAbstract: This work introduces a novel approach to price rainbow options, a type of path-independent multi-asset derivatives, with quantum computers. Leveraging the Iterative Quantum Amplitude Estimation method, we present an end-to-end quantum circuit implementation, emphasizing efficiency by delaying the transition to price space. Moreover, we analyze two different amplitude loading techniques for handling exponential functions. Experiments on the IBM QASM simulator validate our quantum pricing model, contributing to the evolving field of quantum finance.",
+    "path": "papers/24/02/2402.05574.json",
+    "total_tokens": 680,
+    "translated_title": "彩虹期权定价的量子幅度加载",
+    "translated_abstract": "本工作介绍了一种新颖的方法，利用量子计算机为彩虹期权定价，这是一种与路径无关的多资产衍生品。利用迭代量子幅度估计方法，我们提出了一个端到端的量子电路实现，强调通过延迟转换到定价空间来提高效率。此外，我们分析了两种处理指数函数的幅度加载技术。在IBM QASM模拟器上进行的实验证明了我们的量子定价模型，为量子金融领域的发展做出了贡献。",
+    "tldr": "本研究提出了一种新颖的方法，利用量子计算机为彩虹期权定价。我们通过延迟转换到定价空间来提高效率，同时分析了处理指数函数的两种幅度加载技术。实验证明了我们的量子定价模型，在量子金融领域做出了贡献。",
+    "en_tdlr": "This work introduces a novel approach to price rainbow options using quantum computers. By delaying the transition to price space, the efficiency is improved. Two techniques for handling exponential functions are analyzed. The experiments validate the quantum pricing model and contribute to the field of quantum finance."
+}

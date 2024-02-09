@@ -1,0 +1,11 @@
+{
+    "title": "Named Entity Recognition for Address Extraction in Speech-to-Text Transcriptions Using Synthetic Data",
+    "abstract": "This paper introduces an approach for building a Named Entity Recognition (NER) model built upon a Bidirectional Encoder Representations from Transformers (BERT) architecture, specifically utilizing the SlovakBERT model. This NER model extracts address parts from data acquired from speech-to-text transcriptions. Due to scarcity of real data, a synthetic dataset using GPT API was generated. The importance of mimicking spoken language variability in this artificial data is emphasized. The performance of our NER model, trained solely on synthetic data, is evaluated using small real test dataset.",
+    "link": "https://arxiv.org/abs/2402.05545",
+    "context": "Title: Named Entity Recognition for Address Extraction in Speech-to-Text Transcriptions Using Synthetic Data\nAbstract: This paper introduces an approach for building a Named Entity Recognition (NER) model built upon a Bidirectional Encoder Representations from Transformers (BERT) architecture, specifically utilizing the SlovakBERT model. This NER model extracts address parts from data acquired from speech-to-text transcriptions. Due to scarcity of real data, a synthetic dataset using GPT API was generated. The importance of mimicking spoken language variability in this artificial data is emphasized. The performance of our NER model, trained solely on synthetic data, is evaluated using small real test dataset.",
+    "path": "papers/24/02/2402.05545.json",
+    "total_tokens": 696,
+    "translated_title": "使用合成数据进行语音转文字中地址识别的命名实体识别",
+    "translated_abstract": "本文介绍了一种在Bidirectional Encoder Representations from Transformations（BERT）架构上建立的命名实体识别（NER）模型的方法，特别是利用了SlovakBERT模型。该NER模型从语音转文字转录数据中提取地址部分。由于真实数据的稀缺性，使用GPT API生成了一个合成数据集。强调在这个人工数据中模拟口语语言的可变性的重要性。使用仅基于合成数据训练的NER模型，对小规模真实测试数据集进行了评估。",
+    "tldr": "本文介绍了使用合成数据构建命名实体识别模型的方法，该模型通过语音转文字转录数据提取地址部分。通过利用SlovakBERT模型，并强调在合成数据中模拟口语语言的可变性，我们评估了仅使用合成数据训练的NER模型的性能。"
+}

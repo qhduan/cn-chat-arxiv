@@ -1,0 +1,12 @@
+{
+    "title": "Unichain and Aperiodicity are Sufficient for Asymptotic Optimality of Average-Reward Restless Bandits",
+    "abstract": "We consider the infinite-horizon, average-reward restless bandit problem in discrete time. We propose a new class of policies that are designed to drive a progressively larger subset of arms toward the optimal distribution. We show that our policies are asymptotically optimal with an $O(1/\\sqrt{N})$ optimality gap for an $N$-armed problem, provided that the single-armed relaxed problem is unichain and aperiodic. Our approach departs from most existing work that focuses on index or priority policies, which rely on the Uniform Global Attractor Property (UGAP) to guarantee convergence to the optimum, or a recently developed simulation-based policy, which requires a Synchronization Assumption (SA).",
+    "link": "https://arxiv.org/abs/2402.05689",
+    "context": "Title: Unichain and Aperiodicity are Sufficient for Asymptotic Optimality of Average-Reward Restless Bandits\nAbstract: We consider the infinite-horizon, average-reward restless bandit problem in discrete time. We propose a new class of policies that are designed to drive a progressively larger subset of arms toward the optimal distribution. We show that our policies are asymptotically optimal with an $O(1/\\sqrt{N})$ optimality gap for an $N$-armed problem, provided that the single-armed relaxed problem is unichain and aperiodic. Our approach departs from most existing work that focuses on index or priority policies, which rely on the Uniform Global Attractor Property (UGAP) to guarantee convergence to the optimum, or a recently developed simulation-based policy, which requires a Synchronization Assumption (SA).",
+    "path": "papers/24/02/2402.05689.json",
+    "total_tokens": 837,
+    "translated_title": "Unichain和非周期性足以保证平均回报好转胆冒险目标的渐进最优性",
+    "translated_abstract": "我们考虑了离散时间下的无限期平均回报的好转胆冒险问题。我们提出了一种新的策略类别，旨在将逐渐扩大的臂子集向最佳分布方向推进。我们证明了我们的策略在N臂问题中是渐进最优的，如果单臂松弛问题是Unichain和非周期性的，那么就会有一个$O(1/\\sqrt{N})$的最优间隙。我们的方法不同于大多数现有的研究，这些研究侧重于指数或优先级策略，这些策略依赖于统一全局吸引子属性（UGAP）来保证收敛到最优，或者依赖于最近开发的基于模拟的策略，该策略要求遵循同步假设（SA）。",
+    "tldr": "该论文提出了一种新的策略类别，用于解决无限期平均回报好转胆冒险问题。研究表明，在单臂松弛问题是Unichain和非周期性的情况下，该策略类别具有渐进最优性。",
+    "en_tdlr": "This paper proposes a new class of policies for solving the infinite-horizon, average-reward restless bandit problem. The research shows that the proposed policies are asymptotically optimal when the single-armed relaxed problem is unichain and aperiodic."
+}

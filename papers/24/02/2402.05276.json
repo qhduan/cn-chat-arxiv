@@ -1,0 +1,11 @@
+{
+    "title": "Spreading Information via Social Networks: An Irrelevance Result",
+    "abstract": "An informed planner wishes to spread information among a group of agents in order to induce efficient coordination -- say the adoption of a new technology with positive externalities. The agents are connected via a social network. The planner informs a seed and then the information spreads via the network. While the structure of the network affects the rate of diffusion, we show that the rate of adoption is the same for all acyclic networks.",
+    "link": "https://arxiv.org/abs/2402.05276",
+    "context": "Title: Spreading Information via Social Networks: An Irrelevance Result\nAbstract: An informed planner wishes to spread information among a group of agents in order to induce efficient coordination -- say the adoption of a new technology with positive externalities. The agents are connected via a social network. The planner informs a seed and then the information spreads via the network. While the structure of the network affects the rate of diffusion, we show that the rate of adoption is the same for all acyclic networks.",
+    "path": "papers/24/02/2402.05276.json",
+    "total_tokens": 570,
+    "translated_title": "通过社交网络传播信息：一个无关性结果",
+    "translated_abstract": "一位知情的计划者希望在一群代理人中传播信息，以促使高效协调-例如采用具有正外部性的新技术。这些代理人通过一个社交网络相连。计划者通知一个种子，然后信息通过网络传播。虽然网络的结构会影响扩散的速度，但我们证明，对于所有非循环网络，采纳的速度是相同的。",
+    "tldr": "这个论文研究了通过社交网络传播信息，并得出结论，即尽管网络的结构会影响扩散速度，但对于所有非循环网络，采纳的速度是相同的。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "More Agents Is All You Need",
+    "abstract": "We find that, simply via a sampling-and-voting method, the performance of large language models (LLMs) scales with the number of agents instantiated. Also, this method is orthogonal to existing complicated methods to further enhance LLMs, while the degree of enhancement is correlated to the task difficulty. We conduct comprehensive experiments on a wide range of LLM benchmarks to verify the presence of our finding, and to study the properties that can facilitate its occurrence. Our code is publicly available at: \\url{https://anonymous.4open.science/r/more_agent_is_all_you_need}.",
+    "link": "https://arxiv.org/abs/2402.05120",
+    "context": "Title: More Agents Is All You Need\nAbstract: We find that, simply via a sampling-and-voting method, the performance of large language models (LLMs) scales with the number of agents instantiated. Also, this method is orthogonal to existing complicated methods to further enhance LLMs, while the degree of enhancement is correlated to the task difficulty. We conduct comprehensive experiments on a wide range of LLM benchmarks to verify the presence of our finding, and to study the properties that can facilitate its occurrence. Our code is publicly available at: \\url{https://anonymous.4open.science/r/more_agent_is_all_you_need}.",
+    "path": "papers/24/02/2402.05120.json",
+    "total_tokens": 577,
+    "translated_title": "更多的代理就是你所需要的",
+    "translated_abstract": "我们发现，仅通过一种采样和投票的方法，大型语言模型(Large Language Models, LLMs)的性能与实例化的代理数量成比例。此外，这种方法对已有的复杂方法进一步增强LLMs是正交的，而增强的程度与任务的困难程度相关。我们进行了广泛的实验，验证了我们的发现，并研究了能够促进其发生的属性。我们的代码公开在以下网址: \\url{https://anonymous.4open.science/r/more_agent_is_all_you_need}",
+    "tldr": "大型语言模型的性能与代理数量成比例，通过简单的采样和投票方法可以进一步增强性能，这种方法与现有的复杂方法正交。"
+}

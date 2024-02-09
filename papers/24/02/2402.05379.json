@@ -1,0 +1,12 @@
+{
+    "title": "Tradeoffs of Diagonal Fisher Information Matrix Estimators",
+    "abstract": "The Fisher information matrix characterizes the local geometry in the parameter space of neural networks. It elucidates insightful theories and useful tools to understand and optimize neural networks. Given its high computational cost, practitioners often use random estimators and evaluate only the diagonal entries. We examine two such estimators, whose accuracy and sample complexity depend on their associated variances. We derive bounds of the variances and instantiate them in regression and classification networks. We navigate trade-offs of both estimators based on analytical and numerical studies. We find that the variance quantities depend on the non-linearity with respect to different parameter groups and should not be neglected when estimating the Fisher information.",
+    "link": "https://arxiv.org/abs/2402.05379",
+    "context": "Title: Tradeoffs of Diagonal Fisher Information Matrix Estimators\nAbstract: The Fisher information matrix characterizes the local geometry in the parameter space of neural networks. It elucidates insightful theories and useful tools to understand and optimize neural networks. Given its high computational cost, practitioners often use random estimators and evaluate only the diagonal entries. We examine two such estimators, whose accuracy and sample complexity depend on their associated variances. We derive bounds of the variances and instantiate them in regression and classification networks. We navigate trade-offs of both estimators based on analytical and numerical studies. We find that the variance quantities depend on the non-linearity with respect to different parameter groups and should not be neglected when estimating the Fisher information.",
+    "path": "papers/24/02/2402.05379.json",
+    "total_tokens": 755,
+    "translated_title": "对角费舍尔信息矩阵估计器的权衡",
+    "translated_abstract": "费舍尔信息矩阵描述了神经网络参数空间中的局部几何性质，它提供了理论和工具来理解和优化神经网络。鉴于其计算成本高，实践者通常使用随机估计器，并仅评估对角线条目。我们研究了两种这样的估计器，其准确性和样本复杂性取决于它们关联的方差。我们推导了方差的界限，并在回归和分类网络中实例化它们。我们通过分析和数值研究来权衡这两个估计器。我们发现方差量取决于关于不同参数组的非线性，当估计费舍尔信息时不能忽视它们。",
+    "tldr": "本研究探讨了使用对角费舍尔信息矩阵估计器的权衡。通过分析和数值研究，发现方差量取决于非线性与不同参数组之间的关系，应该在估计费舍尔信息时予以重视。",
+    "en_tdlr": "This study examines the tradeoffs of using diagonal Fisher information matrix estimators. Through analytical and numerical studies, it is found that the variance quantities depend on the non-linearity with respect to different parameter groups and should not be neglected when estimating the Fisher information."
+}

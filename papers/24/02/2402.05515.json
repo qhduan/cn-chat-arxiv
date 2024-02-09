@@ -1,0 +1,11 @@
+{
+    "title": "NoisyICL: A Little Noise in Model Parameters Calibrates In-context Learning",
+    "abstract": "In-Context Learning (ICL) is suffering from unsatisfactory performance and under-calibration due to high prior bias and unfaithful confidence. Some previous works fine-tuned language models for better ICL performance with enormous datasets and computing costs. In this paper, we propose NoisyICL, simply perturbing the model parameters by random noises to strive for better performance and calibration. Our experiments on 2 models and 12 downstream datasets show that NoisyICL can help ICL produce more accurate predictions. Our further analysis indicates that NoisyICL enables the model to provide more fair predictions, and also with less unfaithful confidence. Therefore, we believe that NoisyICL is an effective calibration of ICL. Our experimental code is uploaded to Github.",
+    "link": "https://arxiv.org/abs/2402.05515",
+    "context": "Title: NoisyICL: A Little Noise in Model Parameters Calibrates In-context Learning\nAbstract: In-Context Learning (ICL) is suffering from unsatisfactory performance and under-calibration due to high prior bias and unfaithful confidence. Some previous works fine-tuned language models for better ICL performance with enormous datasets and computing costs. In this paper, we propose NoisyICL, simply perturbing the model parameters by random noises to strive for better performance and calibration. Our experiments on 2 models and 12 downstream datasets show that NoisyICL can help ICL produce more accurate predictions. Our further analysis indicates that NoisyICL enables the model to provide more fair predictions, and also with less unfaithful confidence. Therefore, we believe that NoisyICL is an effective calibration of ICL. Our experimental code is uploaded to Github.",
+    "path": "papers/24/02/2402.05515.json",
+    "total_tokens": 774,
+    "translated_title": "NoisyICL: 一点噪音在模型参数中提高了上下文学习的性能、",
+    "translated_abstract": "上下文学习 (ICL) 在高先验偏差和不可信任的置信度的影响下，表现不佳且校准不足。以往的一些工作通过使用庞大的数据集和计算成本对语言模型进行微调以改善 ICL 的性能。在本文中，我们提出了 NoisyICL，通过随机噪音扰动模型参数来努力提高性能和校准性。我们在2个模型和12个下游数据集上的实验表明，NoisyICL可以帮助ICL产生更准确的预测。进一步的分析表明，NoisyICL使得模型能够提供更公平的预测，同时置信度更可信。因此，我们认为NoisyICL是ICL的一种有效校准方法。我们的实验代码已上传至Github。",
+    "tldr": "NoisyICL通过在模型参数中引入噪音，提高了上下文学习的性能和校准性，实验结果显示NoisyICL可以产生更准确、更公平的预测。"
+}
