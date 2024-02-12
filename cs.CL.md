@@ -36,42 +36,43 @@
 | [^32] | [DeAL: Decoding-time Alignment for Large Language Models](https://arxiv.org/abs/2402.06147) | DeAL是一个允许用户自定义奖励函数并实现解码时对齐LLMs的框架。 |
 | [^33] | [Learn To be Efficient: Build Structured Sparsity in Large Language Models](https://arxiv.org/abs/2402.06126) | 本文通过引入一种新的算法"Learn-To-be-Efficient(LTE)"，提出了在大型语言模型(LLM)中构建结构化稀疏性的方法。该方法通过训练高效意识的LLM学习激活更少的神经元，取得更好的稀疏性和性能折衷。 |
 | [^34] | [Language Model Sentence Completion with a Parser-Driven Rhetorical Control Method](https://arxiv.org/abs/2402.06125) | 本研究提出了一种新的控制性文本生成算法，通过解析驱动的解码方案，在语言模型句子补全环境中强制执行特定修辞关系的遵循，无需模型微调。该方法经过自动和人工评估验证，代码可在GitHub上获得。 |
-| [^35] | [Rethinking Data Selection for Supervised Fine-Tuning](https://arxiv.org/abs/2402.06094) | 本研究重新思考了有监督微调中数据选择的直觉。考虑SFT的肤浅性质，我们提出重要示范应着重反映人类式的互动。通过选择具有长回答的实例，可以实现更好的SFT效果。 |
-| [^36] | [LightCAM: A Fast and Light Implementation of Context-Aware Masking based D-Tdnn for Speaker Verification](https://arxiv.org/abs/2402.06073) | LightCAM是一种快速轻量级的基于上下文感知屏蔽的D-TDNN说话人验证实现，通过采用深度可分离卷积模块和多尺度特征聚合，它在VoxCeleb数据集上取得了更好的性能。 |
-| [^37] | [Limits of Large Language Models in Debating Humans](https://arxiv.org/abs/2402.06049) | 大型语言模型在与人类辩论中的能力有限，尽管它们能够融入和促进人类的工作效率，但在辩论中的说服力较弱。在成为可行的辩手之前，LLMs需要进一步发展。 |
-| [^38] | [OpenToM: A Comprehensive Benchmark for Evaluating Theory-of-Mind Reasoning Capabilities of Large Language Models](https://arxiv.org/abs/2402.06044) | OpenToM是一个评估大型语言模型心理理解能力的全面基准，通过提供更长、更清晰的叙事故事、具有明确个性特征的角色、以及挑战模型对心理状态的理解能力的问题，揭示了现有模型在理解物理世界与心理世界的角色心理状态方面的优势和不足。 |
-| [^39] | [A Prompt Response to the Demand for Automatic Gender-Neutral Translation](https://arxiv.org/abs/2402.06041) | 本研究通过比较机器翻译和GPT-4模型，探索了自动性别中立翻译的潜力，并揭示了当前机器翻译系统在生成性别中立翻译方面的固有局限性。 |
-| [^40] | [Doing Experiments and Revising Rules with Natural Language and Probabilistic Reasoning](https://arxiv.org/abs/2402.06025) | 本论文建立了一个计算模型来模拟人们通过实验主动推断隐藏规则的过程，并发现显式假设、概率规则和在线更新的组合可以解释人们在类似Zendo任务上的表现。 |
-| [^41] | [Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing](https://arxiv.org/abs/2402.06015) | 通过在GPT-4V模型上进行全面的探索，我们发现该模型在识别文化概念方面表现出色，但在低资源语言中仍表现较弱。在图像字幕任务中，GPT-4V在文化相关性方面优于原文。 |
-| [^42] | [A Survey on Transformer Compression](https://arxiv.org/abs/2402.05964) | 《Transformer压缩调研》是对最近压缩方法的全面回顾，特别关注它们在Transformer模型中的应用。压缩方法主要分为修剪、量化、知识蒸馏和高效架构设计四个类别。 |
-| [^43] | [Advancing Graph Representation Learning with Large Language Models: A Comprehensive Survey of Techniques](https://arxiv.org/abs/2402.05952) | 本综述调查了将大型语言模型（LLM）与图表示学习（GRL）相结合的技术，并提供了一个新颖的分类法，深入分析了这些模型的核心组成部分和操作技术，为有效的模型设计和训练策略提供了新的视角。 |
-| [^44] | [DE$^3$-BERT: Distance-Enhanced Early Exiting for BERT based on Prototypical Networks](https://arxiv.org/abs/2402.05948) | DE$^3$-BERT是一种基于原型网络和距离度量的增强距离早期停止框架，用于提高BERT等预训练语言模型的推断速度和准确性。 |
-| [^45] | [Uncertainty Awareness of Large Language Models Under Code Distribution Shifts: A Benchmark Study](https://arxiv.org/abs/2402.05939) | 本文研究了大型语言模型在代码分布转移下的不确定性意识，并通过引入大规模基准数据集和应用概率方法来提高语言模型的可靠性。 |
-| [^46] | [LB-KBQA: Large-language-model and BERT based Knowledge-Based Question and Answering System](https://arxiv.org/abs/2402.05130) | LB-KBQA是一种基于大语言模型和BERT的基于知识的问答系统，通过生成式人工智能的帮助，能够提高意图识别的性能和解决语言多样性的问题。 |
-| [^47] | [PaDeLLM-NER: Parallel Decoding in Large Language Models for Named Entity Recognition](https://arxiv.org/abs/2402.04838) | 本研究提出了PaDeLLM-NER，一种能够在大型语言模型中实现并行解码，从而显著减少命名实体识别的生成延迟，同时保持预测质量和性能。 |
-| [^48] | [Factuality of Large Language Models in the Year 2024](https://arxiv.org/abs/2402.02420) | 本文调查了大规模语言模型（LLM）的真实性问题，并对其现有研究进行了批判性分析，指出了改进LLM真实性的挑战和解决方案，以及自动真实性评估的障碍。未来的研究应该关注在这些方面的进一步工作。 |
-| [^49] | [Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet](https://arxiv.org/abs/2401.03630) | 本文研究了使用大型语言模型解决多智能体路径规划的问题。通过实验，我们发现直接使用大型语言模型解决复杂场景下的路径规划仍然存在困难。 |
-| [^50] | [Knowledge Distillation of LLM for Automatic Scoring of Science Education Assessments](https://arxiv.org/abs/2312.15842) | 本研究提出了一种将LLM的知识蒸馏为更小、更高效、更准确的神经网络的方法，在资源受限设备上部署具有挑战性。通过使用LLM的预测概率作为软标签训练较小的学生模型，并使用专门定制的损失函数，保证学生模型与教师模型的性能非常相似。实验证明此方法在科学教育评估中具有良好的准确性。 |
-| [^51] | [MAIRA-1: A specialised large multimodal model for radiology report generation](https://arxiv.org/abs/2311.13668) | MAIRA-1是一种专门用于放射学报告生成的大型多模态模型，在与预训练的视觉编码器对齐和文本数据增强的基础上，利用了CXR特定的图像编码器和经过微调的大型语言模型，生成具有最先进质量的报告。 |
-| [^52] | [AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL](https://arxiv.org/abs/2311.09830) | AutoPlanBench是一种新方法，可以自动转换PDDL规划基准测试为文本描述，并提供了相应的基准测试数据集。研究表明，当前最好的LLM规划器在某些规划任务上表现优秀，但对于其他任务来说仍存在挑战。 |
-| [^53] | [Structured Chemistry Reasoning with Large Language Models](https://arxiv.org/abs/2311.09656) | 该论文研究了大型语言模型在化学领域的复杂科学推理困难，发现错误通常源于缺乏有效的推理结构。基于此，引入了一种简单而有效的提示策略StructChem，大幅提升了语言模型的性能。 |
-| [^54] | [Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference](https://arxiv.org/abs/2309.08968) | Sorted LLaMA通过扩展SortedNet到生成NLP任务，使得大型语言模型在动态推理中更高效，并且不需要预训练，只需将标准微调替换为排序微调即可。该方法可以释放transformers中间层的潜力，同时最小化存储需求和过渡成本。 |
-| [^55] | [Teaching Probabilistic Logical Reasoning to Transformers](https://arxiv.org/abs/2305.13179) | 本文评估了基于变压器的语言模型在推理不确定文本上的能力，并提出了一种概率约束训练（PCT）的方法来提高模型的概率逻辑推理能力。 |
-| [^56] | [Quantifying Association Capabilities of Large Language Models and Its Implications on Privacy Leakage](https://arxiv.org/abs/2305.12707) | 本文研究了大型语言模型的关联能力，并揭示了其对隐私泄露的影响。研究发现，随着模型规模的增加，模型在关联实体/信息方面的能力增强。然而，与常识知识相比，模型在关联个人可识别信息方面的准确性较低。 |
-| [^57] | [ALEXSIS-PT: A New Resource for Portuguese Lexical Simplification](https://arxiv.org/abs/2209.09034) | ALEXSIS-PT是一个用于巴西葡萄牙语词汇简化的新型多候选数据集，为LS系统的改进和跨语言模型的研究提供了重要资源。BERTimbau在该数据集上达到了最高的性能。 |
-| [^58] | [SliceGPT: Compress Large Language Models by Deleting Rows and Columns.](http://arxiv.org/abs/2401.15024) | SliceGPT是一种新的事后训练稀疏化方案，通过将每个权重矩阵替换为较小的矩阵以减小网络的维度，可以在保持高任务性能的同时减少模型参数。 |
-| [^59] | [Mitigating Unhelpfulness in Emotional Support Conversations with Multifaceted AI Feedback.](http://arxiv.org/abs/2401.05928) | Muffin是一个新型的模型无关框架，用于减轻情感支持对话中无益性的问题。这个框架在生成支持性回复时考虑到多个因素，并通过多方位的AI反馈来训练模型，以避免生成无益的回复。 |
-| [^60] | [AST-T5: Structure-Aware Pretraining for Code Generation and Understanding.](http://arxiv.org/abs/2401.03003) | AST-T5是一种结构感知的预训练模型，通过利用抽象语法树（AST）来增强代码生成、转换和理解的能力。它优于其他同等大小的语言模型，并在代码到代码任务中表现出色。 |
-| [^61] | [LLaVA-$\phi$: Efficient Multi-Modal Assistant with Small Language Model.](http://arxiv.org/abs/2401.02330) | LLaVA-$\phi$是一种高效的多模态助手，使用小型语言模型Phi-2来促进多模态对话。即使具有较少的参数，它也能有效地融合文本和视觉元素，并在各种任务中表现出色。它为时间敏感的环境和需要实时交互的系统开辟了新的应用途径。 |
-| [^62] | [Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation.](http://arxiv.org/abs/2310.18235) | 本论文提出了Davidsonian场景图（DSG）的评估框架，解决了现有文本-图像生成模型评估中的可靠性挑战，包括QG问题的准确性和VQA答案的一致性。 |
-| [^63] | [Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning.](http://arxiv.org/abs/2310.03094) | 本研究提出了一种基于思维混合表示的大规模语言模型级联方法，用于成本高效的推理。通过考虑更弱模型的答案一致性作为问题难度的信号，可以实现对问题的决策，从而节约使用更强模型的成本。 |
-| [^64] | [Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training.](http://arxiv.org/abs/2309.17179) | Alphazero类似的树搜索框架TS-LLM可以利用学习的价值函数指导大型语言模型的解码和训练，不仅适用于推理任务，还适用于其他任务，并且在不同大小的语言模型上具有普适性和可扩展性 |
-| [^65] | [A Benchmark for Learning to Translate a New Language from One Grammar Book.](http://arxiv.org/abs/2309.16575) | 本研究提出了一种从一本语法书中学习翻译新语言的基准测试MTOB，用于翻译英语和Kalamang之间的文本，探索了低资源语言情况下的翻译问题。结果显示，现有的大型语言模型在这个任务上表现有限。 |
-| [^66] | [Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases.](http://arxiv.org/abs/2309.08345) | 本文通过实验调查揭示了语言模型在与知识库进行连接时的数据分布瓶颈，包括推广到未见域、适应语言变体和在不同数据集之间的可转移性等方面。即使采用数据增强技术，先进的语言模型在多个方面表现出较差的性能。 |
-| [^67] | [Generative Data Augmentation using LLMs improves Distributional Robustness in Question Answering.](http://arxiv.org/abs/2309.06358) | 本论文研究了使用生成式数据增强方法如何提高问答模型在自然分布转换下的鲁棒性，通过实验展示了增强阅读理解数据集的效果。 |
-| [^68] | [LLM in the Shell: Generative Honeypots.](http://arxiv.org/abs/2309.00155) | 本研究引入了一种基于大型语言模型的新方法来创建动态和真实的软件蜜罐，解决了以往蜜罐的重要局限性，并通过实验验证了其高准确率。 |
-| [^69] | [SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models.](http://arxiv.org/abs/2307.10635) | 这篇论文介绍了一个名为SciBench的基准套件，旨在对大型语言模型的大学水平科学问题解决能力进行评估。研究结果显示，当前的语言模型在提供复杂科学问题解决能力方面还有不足之处。 |
-| [^70] | [Self Information Update for Large Language Models through Mitigating Exposure Bias.](http://arxiv.org/abs/2305.18582) | 本文提出了一种使用信息丰富的文本语料库来帮助现有的大型语言模型进行自我信息更新的方法，有效减轻了暴露偏差的影响。 |
+| [^35] | [Exploring Group and Symmetry Principles in Large Language Models](https://arxiv.org/abs/2402.06120) | 本文提出了一个基于群组和对称性原理的框架，以评估大型语言模型的推理能力。通过研究四个群组属性，发现这些模型在保持群组属性方面表现不佳。 |
+| [^36] | [Rethinking Data Selection for Supervised Fine-Tuning](https://arxiv.org/abs/2402.06094) | 本研究重新思考了有监督微调中数据选择的直觉。考虑SFT的肤浅性质，我们提出重要示范应着重反映人类式的互动。通过选择具有长回答的实例，可以实现更好的SFT效果。 |
+| [^37] | [LightCAM: A Fast and Light Implementation of Context-Aware Masking based D-Tdnn for Speaker Verification](https://arxiv.org/abs/2402.06073) | LightCAM是一种快速轻量级的基于上下文感知屏蔽的D-TDNN说话人验证实现，通过采用深度可分离卷积模块和多尺度特征聚合，它在VoxCeleb数据集上取得了更好的性能。 |
+| [^38] | [Limits of Large Language Models in Debating Humans](https://arxiv.org/abs/2402.06049) | 大型语言模型在与人类辩论中的能力有限，尽管它们能够融入和促进人类的工作效率，但在辩论中的说服力较弱。在成为可行的辩手之前，LLMs需要进一步发展。 |
+| [^39] | [OpenToM: A Comprehensive Benchmark for Evaluating Theory-of-Mind Reasoning Capabilities of Large Language Models](https://arxiv.org/abs/2402.06044) | OpenToM是一个评估大型语言模型心理理解能力的全面基准，通过提供更长、更清晰的叙事故事、具有明确个性特征的角色、以及挑战模型对心理状态的理解能力的问题，揭示了现有模型在理解物理世界与心理世界的角色心理状态方面的优势和不足。 |
+| [^40] | [A Prompt Response to the Demand for Automatic Gender-Neutral Translation](https://arxiv.org/abs/2402.06041) | 本研究通过比较机器翻译和GPT-4模型，探索了自动性别中立翻译的潜力，并揭示了当前机器翻译系统在生成性别中立翻译方面的固有局限性。 |
+| [^41] | [Doing Experiments and Revising Rules with Natural Language and Probabilistic Reasoning](https://arxiv.org/abs/2402.06025) | 本论文建立了一个计算模型来模拟人们通过实验主动推断隐藏规则的过程，并发现显式假设、概率规则和在线更新的组合可以解释人们在类似Zendo任务上的表现。 |
+| [^42] | [Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing](https://arxiv.org/abs/2402.06015) | 通过在GPT-4V模型上进行全面的探索，我们发现该模型在识别文化概念方面表现出色，但在低资源语言中仍表现较弱。在图像字幕任务中，GPT-4V在文化相关性方面优于原文。 |
+| [^43] | [A Survey on Transformer Compression](https://arxiv.org/abs/2402.05964) | 《Transformer压缩调研》是对最近压缩方法的全面回顾，特别关注它们在Transformer模型中的应用。压缩方法主要分为修剪、量化、知识蒸馏和高效架构设计四个类别。 |
+| [^44] | [Advancing Graph Representation Learning with Large Language Models: A Comprehensive Survey of Techniques](https://arxiv.org/abs/2402.05952) | 本综述调查了将大型语言模型（LLM）与图表示学习（GRL）相结合的技术，并提供了一个新颖的分类法，深入分析了这些模型的核心组成部分和操作技术，为有效的模型设计和训练策略提供了新的视角。 |
+| [^45] | [DE$^3$-BERT: Distance-Enhanced Early Exiting for BERT based on Prototypical Networks](https://arxiv.org/abs/2402.05948) | DE$^3$-BERT是一种基于原型网络和距离度量的增强距离早期停止框架，用于提高BERT等预训练语言模型的推断速度和准确性。 |
+| [^46] | [Uncertainty Awareness of Large Language Models Under Code Distribution Shifts: A Benchmark Study](https://arxiv.org/abs/2402.05939) | 本文研究了大型语言模型在代码分布转移下的不确定性意识，并通过引入大规模基准数据集和应用概率方法来提高语言模型的可靠性。 |
+| [^47] | [LB-KBQA: Large-language-model and BERT based Knowledge-Based Question and Answering System](https://arxiv.org/abs/2402.05130) | LB-KBQA是一种基于大语言模型和BERT的基于知识的问答系统，通过生成式人工智能的帮助，能够提高意图识别的性能和解决语言多样性的问题。 |
+| [^48] | [PaDeLLM-NER: Parallel Decoding in Large Language Models for Named Entity Recognition](https://arxiv.org/abs/2402.04838) | 本研究提出了PaDeLLM-NER，一种能够在大型语言模型中实现并行解码，从而显著减少命名实体识别的生成延迟，同时保持预测质量和性能。 |
+| [^49] | [Factuality of Large Language Models in the Year 2024](https://arxiv.org/abs/2402.02420) | 本文调查了大规模语言模型（LLM）的真实性问题，并对其现有研究进行了批判性分析，指出了改进LLM真实性的挑战和解决方案，以及自动真实性评估的障碍。未来的研究应该关注在这些方面的进一步工作。 |
+| [^50] | [Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet](https://arxiv.org/abs/2401.03630) | 本文研究了使用大型语言模型解决多智能体路径规划的问题。通过实验，我们发现直接使用大型语言模型解决复杂场景下的路径规划仍然存在困难。 |
+| [^51] | [Knowledge Distillation of LLM for Automatic Scoring of Science Education Assessments](https://arxiv.org/abs/2312.15842) | 本研究提出了一种将LLM的知识蒸馏为更小、更高效、更准确的神经网络的方法，在资源受限设备上部署具有挑战性。通过使用LLM的预测概率作为软标签训练较小的学生模型，并使用专门定制的损失函数，保证学生模型与教师模型的性能非常相似。实验证明此方法在科学教育评估中具有良好的准确性。 |
+| [^52] | [MAIRA-1: A specialised large multimodal model for radiology report generation](https://arxiv.org/abs/2311.13668) | MAIRA-1是一种专门用于放射学报告生成的大型多模态模型，在与预训练的视觉编码器对齐和文本数据增强的基础上，利用了CXR特定的图像编码器和经过微调的大型语言模型，生成具有最先进质量的报告。 |
+| [^53] | [AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL](https://arxiv.org/abs/2311.09830) | AutoPlanBench是一种新方法，可以自动转换PDDL规划基准测试为文本描述，并提供了相应的基准测试数据集。研究表明，当前最好的LLM规划器在某些规划任务上表现优秀，但对于其他任务来说仍存在挑战。 |
+| [^54] | [Structured Chemistry Reasoning with Large Language Models](https://arxiv.org/abs/2311.09656) | 该论文研究了大型语言模型在化学领域的复杂科学推理困难，发现错误通常源于缺乏有效的推理结构。基于此，引入了一种简单而有效的提示策略StructChem，大幅提升了语言模型的性能。 |
+| [^55] | [Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference](https://arxiv.org/abs/2309.08968) | Sorted LLaMA通过扩展SortedNet到生成NLP任务，使得大型语言模型在动态推理中更高效，并且不需要预训练，只需将标准微调替换为排序微调即可。该方法可以释放transformers中间层的潜力，同时最小化存储需求和过渡成本。 |
+| [^56] | [Teaching Probabilistic Logical Reasoning to Transformers](https://arxiv.org/abs/2305.13179) | 本文评估了基于变压器的语言模型在推理不确定文本上的能力，并提出了一种概率约束训练（PCT）的方法来提高模型的概率逻辑推理能力。 |
+| [^57] | [Quantifying Association Capabilities of Large Language Models and Its Implications on Privacy Leakage](https://arxiv.org/abs/2305.12707) | 本文研究了大型语言模型的关联能力，并揭示了其对隐私泄露的影响。研究发现，随着模型规模的增加，模型在关联实体/信息方面的能力增强。然而，与常识知识相比，模型在关联个人可识别信息方面的准确性较低。 |
+| [^58] | [ALEXSIS-PT: A New Resource for Portuguese Lexical Simplification](https://arxiv.org/abs/2209.09034) | ALEXSIS-PT是一个用于巴西葡萄牙语词汇简化的新型多候选数据集，为LS系统的改进和跨语言模型的研究提供了重要资源。BERTimbau在该数据集上达到了最高的性能。 |
+| [^59] | [SliceGPT: Compress Large Language Models by Deleting Rows and Columns.](http://arxiv.org/abs/2401.15024) | SliceGPT是一种新的事后训练稀疏化方案，通过将每个权重矩阵替换为较小的矩阵以减小网络的维度，可以在保持高任务性能的同时减少模型参数。 |
+| [^60] | [Mitigating Unhelpfulness in Emotional Support Conversations with Multifaceted AI Feedback.](http://arxiv.org/abs/2401.05928) | Muffin是一个新型的模型无关框架，用于减轻情感支持对话中无益性的问题。这个框架在生成支持性回复时考虑到多个因素，并通过多方位的AI反馈来训练模型，以避免生成无益的回复。 |
+| [^61] | [AST-T5: Structure-Aware Pretraining for Code Generation and Understanding.](http://arxiv.org/abs/2401.03003) | AST-T5是一种结构感知的预训练模型，通过利用抽象语法树（AST）来增强代码生成、转换和理解的能力。它优于其他同等大小的语言模型，并在代码到代码任务中表现出色。 |
+| [^62] | [LLaVA-$\phi$: Efficient Multi-Modal Assistant with Small Language Model.](http://arxiv.org/abs/2401.02330) | LLaVA-$\phi$是一种高效的多模态助手，使用小型语言模型Phi-2来促进多模态对话。即使具有较少的参数，它也能有效地融合文本和视觉元素，并在各种任务中表现出色。它为时间敏感的环境和需要实时交互的系统开辟了新的应用途径。 |
+| [^63] | [Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation.](http://arxiv.org/abs/2310.18235) | 本论文提出了Davidsonian场景图（DSG）的评估框架，解决了现有文本-图像生成模型评估中的可靠性挑战，包括QG问题的准确性和VQA答案的一致性。 |
+| [^64] | [Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning.](http://arxiv.org/abs/2310.03094) | 本研究提出了一种基于思维混合表示的大规模语言模型级联方法，用于成本高效的推理。通过考虑更弱模型的答案一致性作为问题难度的信号，可以实现对问题的决策，从而节约使用更强模型的成本。 |
+| [^65] | [Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training.](http://arxiv.org/abs/2309.17179) | Alphazero类似的树搜索框架TS-LLM可以利用学习的价值函数指导大型语言模型的解码和训练，不仅适用于推理任务，还适用于其他任务，并且在不同大小的语言模型上具有普适性和可扩展性 |
+| [^66] | [A Benchmark for Learning to Translate a New Language from One Grammar Book.](http://arxiv.org/abs/2309.16575) | 本研究提出了一种从一本语法书中学习翻译新语言的基准测试MTOB，用于翻译英语和Kalamang之间的文本，探索了低资源语言情况下的翻译问题。结果显示，现有的大型语言模型在这个任务上表现有限。 |
+| [^67] | [Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases.](http://arxiv.org/abs/2309.08345) | 本文通过实验调查揭示了语言模型在与知识库进行连接时的数据分布瓶颈，包括推广到未见域、适应语言变体和在不同数据集之间的可转移性等方面。即使采用数据增强技术，先进的语言模型在多个方面表现出较差的性能。 |
+| [^68] | [Generative Data Augmentation using LLMs improves Distributional Robustness in Question Answering.](http://arxiv.org/abs/2309.06358) | 本论文研究了使用生成式数据增强方法如何提高问答模型在自然分布转换下的鲁棒性，通过实验展示了增强阅读理解数据集的效果。 |
+| [^69] | [LLM in the Shell: Generative Honeypots.](http://arxiv.org/abs/2309.00155) | 本研究引入了一种基于大型语言模型的新方法来创建动态和真实的软件蜜罐，解决了以往蜜罐的重要局限性，并通过实验验证了其高准确率。 |
+| [^70] | [SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models.](http://arxiv.org/abs/2307.10635) | 这篇论文介绍了一个名为SciBench的基准套件，旨在对大型语言模型的大学水平科学问题解决能力进行评估。研究结果显示，当前的语言模型在提供复杂科学问题解决能力方面还有不足之处。 |
+| [^71] | [Self Information Update for Large Language Models through Mitigating Exposure Bias.](http://arxiv.org/abs/2305.18582) | 本文提出了一种使用信息丰富的文本语料库来帮助现有的大型语言模型进行自我信息更新的方法，有效减轻了暴露偏差的影响。 |
 
 # 详细
 
@@ -551,7 +552,21 @@
 
     Controlled text generation (CTG) seeks to guide large language model (LLM) output to produce text that conforms to desired criteria. The current study presents a novel CTG algorithm that enforces adherence toward specific rhetorical relations in an LLM sentence-completion context by a parser-driven decoding scheme that requires no model fine-tuning. The method is validated both with automatic and human evaluation. The code is accessible on GitHub.
     
-[^35]: 重新思考有监督微调的数据选择
+[^35]: 探索大型语言模型中的群组和对称性原理
+
+    Exploring Group and Symmetry Principles in Large Language Models
+
+    [https://arxiv.org/abs/2402.06120](https://arxiv.org/abs/2402.06120)
+
+    本文提出了一个基于群组和对称性原理的框架，以评估大型语言模型的推理能力。通过研究四个群组属性，发现这些模型在保持群组属性方面表现不佳。
+
+    
+
+    大型语言模型（LLM）在广泛的应用中展示了令人瞩目的性能，然而评估它们的推理能力仍然是一个重大挑战。在本文中，我们引入了一个以群组和对称性原理为基础的框架，这些原理在物理学和数学等领域发挥着关键作用，并提供了另一种评估它们能力的方式。虽然提出的框架是通用的，为了展示使用这些属性的好处，我们关注算术推理，并研究这些模型在四个群组属性（封闭性、恒等性、逆性和结合性）上的性能。我们的发现表明，在本研究中研究的LLM在不同的测试方案中难以保持群组属性。在封闭性测试中，我们观察到对特定输出的偏见，并在特定的序列长度后从100％的性能迅速下降到0％。它们在恒等性测试中表现不佳，代表了相加得到原数的属性。
+
+    Large Language Models (LLMs) have demonstrated impressive performance across a wide range of applications; however, assessing their reasoning capabilities remains a significant challenge. In this paper, we introduce a framework grounded in group and symmetry principles, which have played a crucial role in fields such as physics and mathematics, and offer another way to evaluate their capabilities. While the proposed framework is general, to showcase the benefits of employing these properties, we focus on arithmetic reasoning and investigate the performance of these models on four group properties: closure, identity, inverse, and associativity. Our findings reveal that LLMs studied in this work struggle to preserve group properties across different test regimes. In the closure test, we observe biases towards specific outputs and an abrupt degradation in their performance from 100% to 0% after a specific sequence length. They also perform poorly in the identity test, which represents add
+    
+[^36]: 重新思考有监督微调的数据选择
 
     Rethinking Data Selection for Supervised Fine-Tuning
 
@@ -565,7 +580,7 @@
 
     Although supervised finetuning (SFT) has emerged as an essential technique to align large language models with humans, it is considered superficial, with style learning being its nature. At the same time, recent works indicate the importance of data selection for SFT, showing that finetuning with high-quality and diverse subsets of the original dataset leads to superior downstream performance. In this work, we rethink the intuition behind data selection for SFT. Considering SFT is superficial, we propose that essential demonstrations for SFT should focus on reflecting human-like interactions instead of data quality or diversity. However, it is not straightforward to directly assess to what extent a demonstration reflects human styles. Towards an initial attempt in this direction, we find selecting instances with long responses is surprisingly more effective for SFT than utilizing full datasets or instances selected based on quality and diversity. We hypothesize that such a simple heuri
     
-[^36]: LightCAM: 一种快速轻量级的基于上下文感知屏蔽的D-TDNN说话人验证实现
+[^37]: LightCAM: 一种快速轻量级的基于上下文感知屏蔽的D-TDNN说话人验证实现
 
     LightCAM: A Fast and Light Implementation of Context-Aware Masking based D-Tdnn for Speaker Verification
 
@@ -579,7 +594,7 @@
 
     Traditional Time Delay Neural Networks (TDNN) have achieved state-of-the-art performance at the cost of high computational complexity and slower inference speed, making them difficult to implement in an industrial environment. The Densely Connected Time Delay Neural Network (D-TDNN) with Context Aware Masking (CAM) module has proven to be an efficient structure to reduce complexity while maintaining system performance. In this paper, we propose a fast and lightweight model, LightCAM, which further adopts a depthwise separable convolution module (DSM) and uses multi-scale feature aggregation (MFA) for feature fusion at different levels. Extensive experiments are conducted on VoxCeleb dataset, the comparative results show that it has achieved an EER of 0.83 and MinDCF of 0.0891 in VoxCeleb1-O, which outperforms the other mainstream speaker verification methods. In addition, complexity analysis further demonstrates that the proposed architecture has lower computational cost and faster inf
     
-[^37]: 大型语言模型在与人类辩论中的局限性
+[^38]: 大型语言模型在与人类辩论中的局限性
 
     Limits of Large Language Models in Debating Humans
 
@@ -593,7 +608,7 @@
 
     Large Language Models (LLMs) have shown remarkable promise in their ability to interact proficiently with humans. Subsequently, their potential use as artificial confederates and surrogates in sociological experiments involving conversation is an exciting prospect. But how viable is this idea? This paper endeavors to test the limits of current-day LLMs with a pre-registered study integrating real people with LLM agents acting as people. The study focuses on debate-based opinion consensus formation in three environments: humans only, agents and humans, and agents only. Our goal is to understand how LLM agents influence humans, and how capable they are in debating like humans. We find that LLMs can blend in and facilitate human productivity but are less convincing in debate, with their behavior ultimately deviating from human's. We elucidate these primary failings and anticipate that LLMs must evolve further before being viable debaters.
     
-[^38]: 开放理论-心灵（OpenToM）：评估大型语言模型的心灵理解能力的全面基准
+[^39]: 开放理论-心灵（OpenToM）：评估大型语言模型的心灵理解能力的全面基准
 
     OpenToM: A Comprehensive Benchmark for Evaluating Theory-of-Mind Reasoning Capabilities of Large Language Models
 
@@ -607,7 +622,7 @@
 
     Neural Theory-of-Mind (N-ToM), machine's ability to understand and keep track of the mental states of others, is pivotal in developing socially intelligent agents. However, prevalent N-ToM benchmarks have several shortcomings, including the presence of ambiguous and artificial narratives, absence of personality traits and preferences, a lack of questions addressing characters' psychological mental states, and limited diversity in the questions posed. In response to these issues, we construct OpenToM, a new benchmark for assessing N-ToM with (1) longer and clearer narrative stories, (2) characters with explicit personality traits, (3) actions that are triggered by character intentions, and (4) questions designed to challenge LLMs' capabilities of modeling characters' mental states of both the physical and psychological world. Using OpenToM, we reveal that state-of-the-art LLMs thrive at modeling certain aspects of mental states in the physical world but fall short when tracking characte
     
-[^39]: 对自动性别中立翻译需求的迅速响应
+[^40]: 对自动性别中立翻译需求的迅速响应
 
     A Prompt Response to the Demand for Automatic Gender-Neutral Translation
 
@@ -621,7 +636,7 @@
 
     Gender-neutral translation (GNT) that avoids biased and undue binary assumptions is a pivotal challenge for the creation of more inclusive translation technologies. Advancements for this task in Machine Translation (MT), however, are hindered by the lack of dedicated parallel data, which are necessary to adapt MT systems to satisfy neutral constraints. For such a scenario, large language models offer hitherto unforeseen possibilities, as they come with the distinct advantage of being versatile in various (sub)tasks when provided with explicit instructions. In this paper, we explore this potential to automate GNT by comparing MT with the popular GPT-4 model. Through extensive manual analyses, our study empirically reveals the inherent limitations of current MT systems in generating GNTs and provides valuable insights into the potential and challenges associated with prompting for neutrality.
     
-[^40]: 用自然语言和概率推理进行实验与修订规则
+[^41]: 用自然语言和概率推理进行实验与修订规则
 
     Doing Experiments and Revising Rules with Natural Language and Probabilistic Reasoning
 
@@ -635,7 +650,7 @@
 
     We build a computational model of how humans actively infer hidden rules by doing experiments. The basic principles behind the model is that, even if the rule is deterministic, the learner considers a broader space of fuzzy probabilistic rules, which it represents in natural language, and updates its hypotheses online after each experiment according to approximately Bayesian principles. In the same framework we also model experiment design according to information-theoretic criteria. We find that the combination of these three principles -- explicit hypotheses, probabilistic rules, and online updates -- can explain human performance on a Zendo-style task, and that removing any of these components leaves the model unable to account for the data.
     
-[^41]: 在GPT-4V模型中探索视觉文化意识：一项全面探索
+[^42]: 在GPT-4V模型中探索视觉文化意识：一项全面探索
 
     Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing
 
@@ -649,7 +664,7 @@
 
     Pretrained large Vision-Language models have drawn considerable interest in recent years due to their remarkable performance. Despite considerable efforts to assess these models from diverse perspectives, the extent of visual cultural awareness in the state-of-the-art GPT-4V model remains unexplored. To tackle this gap, we extensively probed GPT-4V using the MaRVL benchmark dataset, aiming to investigate its capabilities and limitations in visual understanding with a focus on cultural aspects. Specifically, we introduced three visual related tasks, i.e. caption classification, pairwise captioning, and culture tag selection, to systematically delve into fine-grained visual cultural evaluation. Experimental results indicate that GPT-4V excels at identifying cultural concepts but still exhibits weaker performance in low-resource languages, such as Tamil and Swahili. Notably, through human evaluation, GPT-4V proves to be more culturally relevant in image captioning tasks than the original 
     
-[^42]: 《Transformer压缩调研》
+[^43]: 《Transformer压缩调研》
 
     A Survey on Transformer Compression
 
@@ -663,7 +678,7 @@
 
     Large models based on the Transformer architecture play increasingly vital roles in artificial intelligence, particularly within the realms of natural language processing (NLP) and computer vision (CV). Model compression methods reduce their memory and computational cost, which is a necessary step to implement the transformer models on practical devices. Given the unique architecture of transformer, featuring alternative attention and Feedforward Neural Network (FFN) modules, specific compression techniques are required. The efficiency of these compression methods is also paramount, as it is usually impractical to retrain large models on the entire training dataset.This survey provides a comprehensive review of recent compression methods, with a specific focus on their application to transformer models. The compression methods are primarily categorized into pruning, quantization, knowledge distillation, and efficient architecture design. In each category, we discuss compression methods
     
-[^43]: 利用大型语言模型推进图表示学习：技术全面调查
+[^44]: 利用大型语言模型推进图表示学习：技术全面调查
 
     Advancing Graph Representation Learning with Large Language Models: A Comprehensive Survey of Techniques
 
@@ -677,7 +692,7 @@
 
     The integration of Large Language Models (LLMs) with Graph Representation Learning (GRL) marks a significant evolution in analyzing complex data structures. This collaboration harnesses the sophisticated linguistic capabilities of LLMs to improve the contextual understanding and adaptability of graph models, thereby broadening the scope and potential of GRL. Despite a growing body of research dedicated to integrating LLMs into the graph domain, a comprehensive review that deeply analyzes the core components and operations within these models is notably lacking. Our survey fills this gap by proposing a novel taxonomy that breaks down these models into primary components and operation techniques from a novel technical perspective. We further dissect recent literature into two primary components including knowledge extractors and organizers, and two operation techniques including integration and training stratigies, shedding light on effective model design and training strategies. Additio
     
-[^44]: DE$^3$-BERT: 基于原型网络的增强距离早期停止方法，用于BERT
+[^45]: DE$^3$-BERT: 基于原型网络的增强距离早期停止方法，用于BERT
 
     DE$^3$-BERT: Distance-Enhanced Early Exiting for BERT based on Prototypical Networks
 
@@ -691,7 +706,7 @@
 
     Early exiting has demonstrated its effectiveness in accelerating the inference of pre-trained language models like BERT by dynamically adjusting the number of layers executed. However, most existing early exiting methods only consider local information from an individual test sample to determine their exiting indicators, failing to leverage the global information offered by sample population. This leads to suboptimal estimation of prediction correctness, resulting in erroneous exiting decisions. To bridge the gap, we explore the necessity of effectively combining both local and global information to ensure reliable early exiting during inference. Purposefully, we leverage prototypical networks to learn class prototypes and devise a distance metric between samples and class prototypes. This enables us to utilize global information for estimating the correctness of early predictions. On this basis, we propose a novel Distance-Enhanced Early Exiting framework for BERT (DE$^3$-BERT). DE$^3
     
-[^45]: 大型语言模型在代码分布转移下的不确定性意识：基准研究
+[^46]: 大型语言模型在代码分布转移下的不确定性意识：基准研究
 
     Uncertainty Awareness of Large Language Models Under Code Distribution Shifts: A Benchmark Study
 
@@ -705,7 +720,7 @@
 
     Large Language Models (LLMs) have been widely employed in programming language analysis to enhance human productivity. Yet, their reliability can be compromised by various code distribution shifts, leading to inconsistent outputs. While probabilistic methods are known to mitigate such impact through uncertainty calibration and estimation, their efficacy in the language domain remains underexplored compared to their application in image-based tasks. In this work, we first introduce a large-scale benchmark dataset, incorporating three realistic patterns of code distribution shifts at varying intensities. Then we thoroughly investigate state-of-the-art probabilistic methods applied to CodeLlama using these shifted code snippets. We observe that these methods generally improve the uncertainty awareness of CodeLlama, with increased calibration quality and higher uncertainty estimation~(UE) precision. However, our study further reveals varied performance dynamics across different criteria (e
     
-[^46]: LB-KBQA: 基于大语言模型和BERT的基于知识的问答系统
+[^47]: LB-KBQA: 基于大语言模型和BERT的基于知识的问答系统
 
     LB-KBQA: Large-language-model and BERT based Knowledge-Based Question and Answering System
 
@@ -719,7 +734,7 @@
 
     Generative Artificial Intelligence (AI), because of its emergent abilities, has empowered various fields, one typical of which is large language models (LLMs). One of the typical application fields of Generative AI is large language models (LLMs), and the natural language understanding capability of LLM is dramatically improved when compared with conventional AI-based methods. The natural language understanding capability has always been a barrier to the intent recognition performance of the Knowledge-Based-Question-and-Answer (KBQA) system, which arises from linguistic diversity and the newly appeared intent. Conventional AI-based methods for intent recognition can be divided into semantic parsing-based and model-based approaches. However, both of the methods suffer from limited resources in intent recognition. To address this issue, we propose a novel KBQA system based on a Large Language Model(LLM) and BERT (LB-KBQA). With the help of generative AI, our proposed method could detect 
     
-[^47]: PaDeLLM-NER：大型语言模型中的并行解码用于命名实体识别
+[^48]: PaDeLLM-NER：大型语言模型中的并行解码用于命名实体识别
 
     PaDeLLM-NER: Parallel Decoding in Large Language Models for Named Entity Recognition
 
@@ -733,7 +748,7 @@
 
     In this study, we aim to reduce generation latency for Named Entity Recognition (NER) with Large Language Models (LLMs). The main cause of high latency in LLMs is the sequential decoding process, which autoregressively generates all labels and mentions for NER, significantly increase the sequence length. To this end, we introduce Parallel Decoding in LLM for NE} (PaDeLLM-NER), a approach that integrates seamlessly into existing generative model frameworks without necessitating additional modules or architectural modifications. PaDeLLM-NER allows for the simultaneous decoding of all mentions, thereby reducing generation latency. Experiments reveal that PaDeLLM-NER significantly increases inference speed that is 1.76 to 10.22 times faster than the autoregressive approach for both English and Chinese. Simultaneously it maintains the quality of predictions as evidenced by the performance that is on par with the state-of-the-art across various datasets.
     
-[^48]: 2024年大规模语言模型的真实性
+[^49]: 2024年大规模语言模型的真实性
 
     Factuality of Large Language Models in the Year 2024
 
@@ -747,7 +762,7 @@
 
     Large language models (LLMs), especially when instruction-tuned for chat, have become part of our daily lives, freeing people from the process of searching, extracting, and integrating information from multiple sources by offering a straightforward answer to a variety of questions in a single place. Unfortunately, in many cases, LLM responses are factually incorrect, which limits their applicability in real-world scenarios. As a result, research on evaluating and improving the factuality of LLMs has attracted a lot of research attention recently. In this survey, we critically analyze existing work with the aim to identify the major challenges and their associated causes, pointing out to potential solutions for improving the factuality of LLMs, and analyzing the obstacles to automated factuality evaluation for open-ended text generation. We further offer an outlook on where future research should go.
     
-[^49]: 为什么使用大型语言模型解决多智能体路径规划尚未成功
+[^50]: 为什么使用大型语言模型解决多智能体路径规划尚未成功
 
     Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet
 
@@ -761,7 +776,7 @@
 
     With the explosive influence caused by the success of large language models (LLM) like ChatGPT and GPT-4, there has been an extensive amount of recent work showing that foundation models can be used to solve a large variety of tasks. However, there is very limited work that shares insights on multi-agent planning. Multi-agent planning is different from other domains by combining the difficulty of multi-agent coordination and planning, and making it hard to leverage external tools to facilitate the reasoning needed. In this paper, we focus on the problem of multi-agent path finding (MAPF), which is also known as multi-robot route planning, and study the performance of solving MAPF with LLMs. We first show the motivating success on an empty room map without obstacles, then the failure to plan on the harder room map and maze map of the standard MAPF benchmark. We present our position on why directly solving MAPF with LLMs has not been successful yet, and we use various experiments to supp
     
-[^50]: 知识蒸馏用于科学教育评估的LLM的自动评分
+[^51]: 知识蒸馏用于科学教育评估的LLM的自动评分
 
     Knowledge Distillation of LLM for Automatic Scoring of Science Education Assessments
 
@@ -775,7 +790,7 @@
 
     This study proposes a method for knowledge distillation (KD) of fine-tuned Large Language Models (LLMs) into smaller, more efficient, and accurate neural networks. We specifically target the challenge of deploying these models on resource-constrained devices. Our methodology involves training the smaller student model (Neural Network) using the prediction probabilities (as soft labels) of the LLM, which serves as a teacher model. This is achieved through a specialized loss function tailored to learn from the LLM's output probabilities, ensuring that the student model closely mimics the teacher's performance. To validate the performance of the KD approach, we utilized a large dataset, 7T, containing 6,684 student-written responses to science questions and three mathematical reasoning datasets with student-written responses graded by human experts. We compared accuracy with state-of-the-art (SOTA) distilled models, TinyBERT, and artificial neural network (ANN) models. Results have shown 
     
-[^51]: MAIRA-1：一种专门用于放射学报告生成的大型多模态模型
+[^52]: MAIRA-1：一种专门用于放射学报告生成的大型多模态模型
 
     MAIRA-1: A specialised large multimodal model for radiology report generation
 
@@ -789,7 +804,7 @@
 
     We present a radiology-specific multimodal model for the task for generating radiological reports from chest X-rays (CXRs). Our work builds on the idea that large language model(s) can be equipped with multimodal capabilities through alignment with pre-trained vision encoders. On natural images, this has been shown to allow multimodal models to gain image understanding and description capabilities. Our proposed model (MAIRA-1) leverages a CXR-specific image encoder in conjunction with a fine-tuned large language model based on Vicuna-7B, and text-based data augmentation, to produce reports with state-of-the-art quality. In particular, MAIRA-1 significantly improves on the radiologist-aligned RadCliQ metric and across all lexical metrics considered. Manual review of model outputs demonstrates promising fluency and accuracy of generated reports while uncovering failure modes not captured by existing evaluation practices. More information and resources can be found on the project website:
     
-[^52]: AutoPlanBench: 从PDDL自动生成LLM规划器的基准测试
+[^53]: AutoPlanBench: 从PDDL自动生成LLM规划器的基准测试
 
     AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL
 
@@ -803,7 +818,7 @@
 
     LLMs are being increasingly used for planning-style tasks, but their capabilities for planning and reasoning are poorly understood. We present AutoPlanBench, a novel method for automatically converting planning benchmarks written in PDDL into textual descriptions and offer a benchmark dataset created with our method. We show that while the best LLM planners do well on some planning tasks, others remain out of reach of current methods.
     
-[^53]: 大型语言模型中的结构化化学推理
+[^54]: 大型语言模型中的结构化化学推理
 
     Structured Chemistry Reasoning with Large Language Models
 
@@ -817,7 +832,7 @@
 
     Large Language Models (LLMs) excel in diverse areas, yet struggle with complex scientific reasoning, especially in the field of chemistry. Different from the simple chemistry tasks (e.g., molecule classification) addressed in previous studies, complex chemistry problems require not only vast knowledge and precise calculation, but also compositional reasoning about rich dynamic interactions of different concepts (e.g., temperature changes). Our study shows that even advanced LLMs, like GPT-4, can fail easily in different ways. Interestingly, the errors often stem not from a lack of domain knowledge within the LLMs, but rather from the absence of an effective reasoning structure that guides the LLMs to elicit the right knowledge, incorporate the knowledge in step-by-step reasoning, and iteratively refine results for further improved quality. On this basis, we introduce StructChem, a simple yet effective prompting strategy that offers the desired guidance and substantially boosts the LLMs
     
-[^54]: Sorted LLaMA: 揭示大型语言模型中间层的潜力，用于动态推理
+[^55]: Sorted LLaMA: 揭示大型语言模型中间层的潜力，用于动态推理
 
     Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference
 
@@ -831,7 +846,7 @@
 
     Large language models (LLMs) have revolutionized natural language processing (NLP) by excelling at understanding and generating human-like text. However, their widespread deployment can be prohibitively expensive. SortedNet is a recent training technique for enabling dynamic inference by leveraging the modularity in networks and sorting sub-models based on computation/accuracy in a nested manner. We extend SortedNet to generative NLP tasks, making large language models dynamic without any Pre-Training and by only replacing Standard Fine-Tuning (SFT) with Sorted Fine-Tuning (SoFT). Our approach boosts model efficiency, eliminating the need for multiple models for various scenarios during inference. We show that this approach can unlock the power of intermediate layers of transformers in generating the target output. Our sub-models remain integral components of the original model, minimizing storage requirements and transition costs between different computational/latency budgets. The ef
     
-[^55]: 将概率逻辑推理教给变压器
+[^56]: 将概率逻辑推理教给变压器
 
     Teaching Probabilistic Logical Reasoning to Transformers
 
@@ -845,7 +860,7 @@
 
     In this paper, we evaluate the capability of transformer-based language models in making inferences over uncertain text that includes uncertain rules of reasoning. We cover both Pre-trained Language Models (PLMs) and generative Large Language Models (LLMs). Our evaluation results show that both generations of language models struggle with reasoning over uncertain text. We propose a novel end-to-end fine-tuning approach, Probabilistic Constraint Training (PCT), that utilizes probabilistic logical rules as constraints in the fine-tuning phase without relying on these rules in the inference stage. To assess the effectiveness of PCT, we utilize the related corpora and, additionally, create a new and more challenging benchmark that, unlike the previous ones, uses instance-specific rules. Our study demonstrates that PCT improves the transformer-based language model's intrinsic reasoning and makes their probabilistic logical reasoning process more explicit and explainable. Furthermore, PCT eq
     
-[^56]: 量化大型语言模型的关联能力及其对隐私泄露的影响
+[^57]: 量化大型语言模型的关联能力及其对隐私泄露的影响
 
     Quantifying Association Capabilities of Large Language Models and Its Implications on Privacy Leakage
 
@@ -859,7 +874,7 @@
 
     The advancement of large language models (LLMs) brings notable improvements across various applications, while simultaneously raising concerns about potential private data exposure. One notable capability of LLMs is their ability to form associations between different pieces of information, but this raises concerns when it comes to personally identifiable information (PII). This paper delves into the association capabilities of language models, aiming to uncover the factors that influence their proficiency in associating information. Our study reveals that as models scale up, their capacity to associate entities/information intensifies, particularly when target pairs demonstrate shorter co-occurrence distances or higher co-occurrence frequencies. However, there is a distinct performance gap when associating commonsense knowledge versus PII, with the latter showing lower accuracy. Despite the proportion of accurately predicted PII being relatively small, LLMs still demonstrate the capab
     
-[^57]: ALEXSIS-PT：一种新的用于葡萄牙语词汇简化的资源
+[^58]: ALEXSIS-PT：一种新的用于葡萄牙语词汇简化的资源
 
     ALEXSIS-PT: A New Resource for Portuguese Lexical Simplification
 
@@ -873,7 +888,7 @@
 
     Lexical simplification (LS) is the task of automatically replacing complex words for easier ones making texts more accessible to various target populations (e.g. individuals with low literacy, individuals with learning disabilities, second language learners). To train and test models, LS systems usually require corpora that feature complex words in context along with their candidate substitutions. To continue improving the performance of LS systems we introduce ALEXSIS-PT, a novel multi-candidate dataset for Brazilian Portuguese LS containing 9,605 candidate substitutions for 387 complex words. ALEXSIS-PT has been compiled following the ALEXSIS protocol for Spanish opening exciting new avenues for cross-lingual models. ALEXSIS-PT is the first LS multi-candidate dataset that contains Brazilian newspaper articles. We evaluated four models for substitute generation on this dataset, namely mDistilBERT, mBERT, XLM-R, and BERTimbau. BERTimbau achieved the highest performance across all evalu
     
-[^58]: SliceGPT: 通过删除行和列来压缩大型语言模型
+[^59]: SliceGPT: 通过删除行和列来压缩大型语言模型
 
     SliceGPT: Compress Large Language Models by Deleting Rows and Columns. (arXiv:2401.15024v1 [cs.LG])
 
@@ -887,7 +902,7 @@
 
     Large language models have become the cornerstone of natural language processing, but their use comes with substantial costs in terms of compute and memory resources. Sparsification provides a solution to alleviate these resource constraints, and recent works have shown that trained models can be sparsified post-hoc. Existing sparsification techniques face challenges as they need additional data structures and offer constrained speedup with current hardware. In this paper we present SliceGPT, a new post-training sparsification scheme which replaces each weight matrix with a smaller (dense) matrix, reducing the embedding dimension of the network. Through extensive experimentation, we show that SliceGPT can remove up to 25% of the model parameters (including embeddings) for LLAMA2-70B, OPT 66B and Phi-2 models while maintaining 99%, 99% and 90% zero-shot task performance of the dense model respectively. Our sliced models run on fewer GPUs and run faster without any additional code optimi
     
-[^59]: 使用多方位AI反馈减轻情感支持对话中的无益性
+[^60]: 使用多方位AI反馈减轻情感支持对话中的无益性
 
     Mitigating Unhelpfulness in Emotional Support Conversations with Multifaceted AI Feedback. (arXiv:2401.05928v1 [cs.CL])
 
@@ -901,7 +916,7 @@
 
     An emotional support conversation system aims to alleviate users' emotional distress and assist them in addressing their challenges. To generate supportive responses, it is critical to consider multiple factors such as empathy, support strategies, and response coherence, as established in prior methods. Nonetheless, previous models occasionally generate unhelpful responses, which intend to provide support but display counterproductive effects. According to psychology and communication theories, poor performance in just one contributing factor might cause a response to be unhelpful. From the model training perspective, since these models have not been exposed to unhelpful responses during their training phase, they are unable to distinguish if the tokens they generate might result in unhelpful responses during inference. To address this issue, we introduce a novel model-agnostic framework named mitigating unhelpfulness with multifaceted AI feedback for emotional support (Muffin). Specif
     
-[^60]: AST-T5：面向代码生成和理解的结构感知预训练模型
+[^61]: AST-T5：面向代码生成和理解的结构感知预训练模型
 
     AST-T5: Structure-Aware Pretraining for Code Generation and Understanding. (arXiv:2401.03003v1 [cs.SE])
 
@@ -915,7 +930,7 @@
 
     Large language models (LLMs) have made significant advancements in code-related tasks, yet many LLMs treat code as simple sequences, neglecting its structured nature. We introduce AST-T5, a novel pretraining paradigm that leverages the Abstract Syntax Tree (AST) for enhanced code generation, transpilation, and understanding. Using dynamic programming, our AST-Aware Segmentation retains code structure, while our AST-Aware Span Corruption objective equips the model to reconstruct various code structures. Unlike other models, AST-T5 avoids intricate program analyses or architectural changes, so it integrates seamlessly with any encoder-decoder Transformer. Evaluations show that AST-T5 consistently outperforms similar-sized LMs across various code-related tasks. Structure-awareness makes AST-T5 particularly powerful in code-to-code tasks, surpassing CodeT5 by 2 points in exact match score for the Bugs2Fix task and by 3 points in exact match score for Java-C# Transpilation in CodeXGLUE. Our
     
-[^61]: LLaVA-$\phi$: 高效的多模态助手与小型语言模型
+[^62]: LLaVA-$\phi$: 高效的多模态助手与小型语言模型
 
     LLaVA-$\phi$: Efficient Multi-Modal Assistant with Small Language Model. (arXiv:2401.02330v1 [cs.CV])
 
@@ -929,7 +944,7 @@
 
     In this paper, we introduce LLaVA-$\phi$ (LLaVA-Phi), an efficient multi-modal assistant that harnesses the power of the recently advanced small language model, Phi-2, to facilitate multi-modal dialogues. LLaVA-Phi marks a notable advancement in the realm of compact multi-modal models. It demonstrates that even smaller language models, with as few as 2.7B parameters, can effectively engage in intricate dialogues that integrate both textual and visual elements, provided they are trained with high-quality corpora. Our model delivers commendable performance on publicly available benchmarks that encompass visual comprehension, reasoning, and knowledge-based perception. Beyond its remarkable performance in multi-modal dialogue tasks, our model opens new avenues for applications in time-sensitive environments and systems that require real-time interaction, such as embodied agents. It highlights the potential of smaller language models to achieve sophisticated levels of understanding and inte
     
-[^62]: Davidsonian场景图：改进文本-图像生成的细粒度评估的可靠性
+[^63]: Davidsonian场景图：改进文本-图像生成的细粒度评估的可靠性
 
     Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation. (arXiv:2310.18235v1 [cs.CV])
 
@@ -943,7 +958,7 @@
 
     Evaluating text-to-image models is notoriously difficult. A strong recent approach for assessing text-image faithfulness is based on QG/A (question generation and answering), which uses pre-trained foundational models to automatically generate a set of questions and answers from the prompt, and output images are scored based on whether these answers extracted with a visual question answering model are consistent with the prompt-based answers. This kind of evaluation is naturally dependent on the quality of the underlying QG and QA models. We identify and address several reliability challenges in existing QG/A work: (a) QG questions should respect the prompt (avoiding hallucinations, duplications, and omissions) and (b) VQA answers should be consistent (not asserting that there is no motorcycle in an image while also claiming the motorcycle is blue). We address these issues with Davidsonian Scene Graph (DSG), an empirically grounded evaluation framework inspired by formal semantics. DSG
     
-[^63]: 基于思维混合表示的大规模语言模型级联用于成本高效的推理
+[^64]: 基于思维混合表示的大规模语言模型级联用于成本高效的推理
 
     Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning. (arXiv:2310.03094v1 [cs.CL])
 
@@ -957,7 +972,7 @@
 
     Large language models (LLMs) such as GPT-4 have exhibited remarkable performance in a variety of tasks, but this strong performance often comes with the high expense of using paid API services. In this paper, we are motivated to study building an LLM cascade to save the cost of using LLMs, particularly for performing reasoning (e.g., mathematical, causal) tasks. Our cascade pipeline follows the intuition that simpler questions can be addressed by a weaker but more affordable LLM, whereas only the challenging questions necessitate the stronger and more expensive LLM. To realize this decision-making, we consider the "answer consistency" of the weaker LLM as a signal of the question difficulty and propose several methods for the answer sampling and consistency checking, including one leveraging a mixture of two thought representations (i.e., Chain-of-Thought and Program-of-Thought). Through experiments on six reasoning benchmark datasets, with GPT-3.5-turbo and GPT-4 being the weaker and 
     
-[^64]: Alphazero类似的树搜索可以指导大型语言模型的解码和训练
+[^65]: Alphazero类似的树搜索可以指导大型语言模型的解码和训练
 
     Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training. (arXiv:2309.17179v1 [cs.LG])
 
@@ -971,7 +986,7 @@
 
     Large language models (LLMs) typically employ sampling or beam search, accompanied by prompts such as Chain-of-Thought (CoT), to boost reasoning and decoding ability. Recent work like Tree-of-Thought (ToT) and Reasoning via Planning (RAP) aim to augment the reasoning capabilities of LLMs by utilizing tree-search algorithms to guide multi-step reasoning. These methods mainly focus on LLMs' reasoning ability during inference and heavily rely on human-designed prompts to activate LLM as a value function, which lacks general applicability and scalability. To address these limitations, we present an AlphaZero-like tree-search framework for LLMs (termed TS-LLM), systematically illustrating how tree-search with a learned value function can guide LLMs' decoding ability. TS-LLM distinguishes itself in two key ways: (1) Leveraging a learned value function, our approach can be generally applied to different tasks beyond reasoning (such as RLHF alignment), and LLMs of any size, without prompting a
     
-[^65]: 从一本语法书学习翻译新语言的基准测试
+[^66]: 从一本语法书学习翻译新语言的基准测试
 
     A Benchmark for Learning to Translate a New Language from One Grammar Book. (arXiv:2309.16575v1 [cs.CL])
 
@@ -985,7 +1000,7 @@
 
     Large language models (LLMs) can perform impressive feats with in-context learning or lightweight finetuning. It is natural to wonder how well these models adapt to genuinely new tasks, but how does one find tasks that are unseen in internet-scale training sets? We turn to a field that is explicitly motivated and bottlenecked by a scarcity of web data: low-resource languages. In this paper, we introduce MTOB (Machine Translation from One Book), a benchmark for learning to translate between English and Kalamang -- a language with less than 200 speakers and therefore virtually no presence on the web -using several hundred pages of field linguistics reference materials. This task framing is novel in that it asks a model to learn a language from a single human-readable book of grammar explanations, rather than a large mined corpus of in-domain data, more akin to L2 learning than L1 acquisition. We demonstrate that baselines using current LLMs are promising but fall short of human perform
     
-[^66]: 语言模型在与知识库进行连接时的数据分布瓶颈
+[^67]: 语言模型在与知识库进行连接时的数据分布瓶颈
 
     Data Distribution Bottlenecks in Grounding Language Models to Knowledge Bases. (arXiv:2309.08345v1 [cs.CL])
 
@@ -999,7 +1014,7 @@
 
     Language models (LMs) have already demonstrated remarkable abilities in understanding and generating both natural and formal language. Despite these advances, their integration with real-world environments such as large-scale knowledge bases (KBs) remains an underdeveloped area, affecting applications such as semantic parsing and indulging in "hallucinated" information. This paper is an experimental investigation aimed at uncovering the robustness challenges that LMs encounter when tasked with knowledge base question answering (KBQA). The investigation covers scenarios with inconsistent data distribution between training and inference, such as generalization to unseen domains, adaptation to various language variations, and transferability across different datasets. Our comprehensive experiments reveal that even when employed with our proposed data augmentation techniques, advanced small and large language models exhibit poor performance in various dimensions. While the LM is a promisin
     
-[^67]: 使用LLMs进行生成式数据增强提高问答中的分布鲁棒性
+[^68]: 使用LLMs进行生成式数据增强提高问答中的分布鲁棒性
 
     Generative Data Augmentation using LLMs improves Distributional Robustness in Question Answering. (arXiv:2309.06358v1 [cs.CL])
 
@@ -1013,7 +1028,7 @@
 
     Robustness in Natural Language Processing continues to be a pertinent issue, where state of the art models under-perform under naturally shifted distributions. In the context of Question Answering, work on domain adaptation methods continues to be a growing body of research. However, very little attention has been given to the notion of domain generalization under natural distribution shifts, where the target domain is unknown. With drastic improvements in the quality and access to generative models, we answer the question: How do generated datasets influence the performance of QA models under natural distribution shifts? We perform experiments on 4 different datasets under varying amounts of distribution shift, and analyze how "in-the-wild" generation can help achieve domain generalization. We take a two-step generation approach, generating both contexts and QA pairs to augment existing datasets. Through our experiments, we demonstrate how augmenting reading comprehension datasets wit
     
-[^68]: LLM在Shell中的应用：生成式蜜罐
+[^69]: LLM在Shell中的应用：生成式蜜罐
 
     LLM in the Shell: Generative Honeypots. (arXiv:2309.00155v1 [cs.CR])
 
@@ -1027,7 +1042,7 @@
 
     Honeypots are essential tools in cybersecurity. However, most of them (even the high-interaction ones) lack the required realism to engage and fool human attackers. This limitation makes them easily discernible, hindering their effectiveness. This work introduces a novel method to create dynamic and realistic software honeypots based on Large Language Models. Preliminary results indicate that LLMs can create credible and dynamic honeypots capable of addressing important limitations of previous honeypots, such as deterministic responses, lack of adaptability, etc. We evaluated the realism of each command by conducting an experiment with human attackers who needed to say if the answer from the honeypot was fake or not. Our proposed honeypot, called shelLM, reached an accuracy rate of 0.92.
     
-[^69]: SciBench: 对大型语言模型评估大学水平的科学问题解决能力
+[^70]: SciBench: 对大型语言模型评估大学水平的科学问题解决能力
 
     SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models. (arXiv:2307.10635v1 [cs.CL])
 
@@ -1041,7 +1056,7 @@
 
     Recent advances in large language models (LLMs) have demonstrated notable progress on many mathematical benchmarks. However, most of these benchmarks only feature problems grounded in junior and senior high school subjects, contain only multiple-choice questions, and are confined to a limited scope of elementary arithmetic operations. To address these issues, this paper introduces an expansive benchmark suite SciBench that aims to systematically examine the reasoning capabilities required for complex scientific problem solving. SciBench contains two carefully curated datasets: an open set featuring a range of collegiate-level scientific problems drawn from mathematics, chemistry, and physics textbooks, and a closed set comprising problems from undergraduate-level exams in computer science and mathematics. Based on the two datasets, we conduct an in-depth benchmark study of two representative LLMs with various prompting strategies. The results reveal that current LLMs fall short of deli
     
-[^70]: 通过减少暴露偏差实现大型语言模型的自我信息更新
+[^71]: 通过减少暴露偏差实现大型语言模型的自我信息更新
 
     Self Information Update for Large Language Models through Mitigating Exposure Bias. (arXiv:2305.18582v1 [cs.CL])
 
