@@ -1,0 +1,12 @@
+{
+    "title": "They were robbed! Scoring by the middlemost to attenuate biased judging in boxing",
+    "abstract": "Boxing has a long-standing problem with biased judging, impacting both professional and Olympic bouts. ''Robberies'', where boxers are widely seen as being denied rightful victories, threaten to drive fans and athletes away from the sport. To tackle this problem, we propose a minimalist adjustment in how boxing is scored: the winner would be decided by the majority of round-by-round victories according to the judges, rather than relying on the judges' overall bout scores. This approach, rooted in social choice theory and utilising majority rule and middlemost aggregation functions, creates a coordination problem for partisan judges and attenuates their influence. Our model analysis and simulations demonstrate the potential to significantly decrease the likelihood of a partisan judge swaying the result of a bout.",
+    "link": "https://arxiv.org/abs/2402.06594",
+    "context": "Title: They were robbed! Scoring by the middlemost to attenuate biased judging in boxing\nAbstract: Boxing has a long-standing problem with biased judging, impacting both professional and Olympic bouts. ''Robberies'', where boxers are widely seen as being denied rightful victories, threaten to drive fans and athletes away from the sport. To tackle this problem, we propose a minimalist adjustment in how boxing is scored: the winner would be decided by the majority of round-by-round victories according to the judges, rather than relying on the judges' overall bout scores. This approach, rooted in social choice theory and utilising majority rule and middlemost aggregation functions, creates a coordination problem for partisan judges and attenuates their influence. Our model analysis and simulations demonstrate the potential to significantly decrease the likelihood of a partisan judge swaying the result of a bout.",
+    "path": "papers/24/02/2402.06594.json",
+    "total_tokens": 772,
+    "translated_title": "他们被抢劫了！通过中间值评分减少拳击裁判的偏见",
+    "translated_abstract": "拳击长期存在着偏见评判的问题，不仅影响职业拳击赛事，也影响奥运比赛。所谓的“抢劫”现象让拳击运动的粉丝和运动员们对此产生了疑虑。为了解决这个问题，我们提出了一种简化的拳击评分调整方法：根据裁判在每个回合中的胜者来决定胜利者，而不是依靠裁判对整场比赛的总体评分。这种方法基于社会选择理论，采用多数规则和中间值聚合函数，对偏袒裁判构成协调问题，减弱其影响力。我们的模型分析和模拟结果表明，这种方法可以显著减少偏袒裁判影响比赛结果的可能性。",
+    "tldr": "通过根据裁判在每个回合中的胜者来决定胜利者的评分方法，可以减少拳击裁判的偏见对比赛结果的影响。",
+    "en_tdlr": "Scoring boxing matches based on majority of round-by-round victories can attenuate biased judging and decrease the impact of partisan judges on the result."
+}

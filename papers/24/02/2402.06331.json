@@ -1,0 +1,12 @@
+{
+    "title": "Taking Class Imbalance Into Account in Open Set Recognition Evaluation",
+    "abstract": "In recent years Deep Neural Network-based systems are not only increasing in popularity but also receive growing user trust. However, due to the closed-world assumption of such systems, they cannot recognize samples from unknown classes and often induce an incorrect label with high confidence. Presented work looks at the evaluation of methods for Open Set Recognition, focusing on the impact of class imbalance, especially in the dichotomy between known and unknown samples. As an outcome of problem analysis, we present a set of guidelines for evaluation of methods in this field.",
+    "link": "https://arxiv.org/abs/2402.06331",
+    "context": "Title: Taking Class Imbalance Into Account in Open Set Recognition Evaluation\nAbstract: In recent years Deep Neural Network-based systems are not only increasing in popularity but also receive growing user trust. However, due to the closed-world assumption of such systems, they cannot recognize samples from unknown classes and often induce an incorrect label with high confidence. Presented work looks at the evaluation of methods for Open Set Recognition, focusing on the impact of class imbalance, especially in the dichotomy between known and unknown samples. As an outcome of problem analysis, we present a set of guidelines for evaluation of methods in this field.",
+    "path": "papers/24/02/2402.06331.json",
+    "total_tokens": 613,
+    "translated_title": "在开放集识别评估中考虑类别不平衡问题",
+    "translated_abstract": "近年来，基于深度神经网络的系统不仅在流行度上逐渐增加，而且还受到用户信任的增长。然而，由于这些系统对于未知类别样本的识别仍服从封闭世界假设，并且往往会产生高置信度的错误标签。本文研究了开放集识别方法的评估，重点关注类别不平衡对已知和未知样本之间的二分的影响。作为问题分析的结果，我们提出了一套在这个领域中评估方法的指导方针。",
+    "tldr": "本文研究了开放集识别评估中类别不平衡问题的影响，并提出了一套指导方针。",
+    "en_tdlr": "This paper examines the impact of class imbalance in open set recognition evaluation and presents a set of guidelines for this field."
+}

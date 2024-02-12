@@ -1,0 +1,11 @@
+{
+    "title": "Particle Denoising Diffusion Sampler",
+    "abstract": "Denoising diffusion models have become ubiquitous for generative modeling. The core idea is to transport the data distribution to a Gaussian by using a diffusion. Approximate samples from the data distribution are then obtained by estimating the time-reversal of this diffusion using score matching ideas. We follow here a similar strategy to sample from unnormalized probability densities and compute their normalizing constants. However, the time-reversed diffusion is here simulated by using an original iterative particle scheme relying on a novel score matching loss. Contrary to standard denoising diffusion models, the resulting Particle Denoising Diffusion Sampler (PDDS) provides asymptotically consistent estimates under mild assumptions. We demonstrate PDDS on multimodal and high dimensional sampling tasks.",
+    "link": "https://arxiv.org/abs/2402.06320",
+    "context": "Title: Particle Denoising Diffusion Sampler\nAbstract: Denoising diffusion models have become ubiquitous for generative modeling. The core idea is to transport the data distribution to a Gaussian by using a diffusion. Approximate samples from the data distribution are then obtained by estimating the time-reversal of this diffusion using score matching ideas. We follow here a similar strategy to sample from unnormalized probability densities and compute their normalizing constants. However, the time-reversed diffusion is here simulated by using an original iterative particle scheme relying on a novel score matching loss. Contrary to standard denoising diffusion models, the resulting Particle Denoising Diffusion Sampler (PDDS) provides asymptotically consistent estimates under mild assumptions. We demonstrate PDDS on multimodal and high dimensional sampling tasks.",
+    "path": "papers/24/02/2402.06320.json",
+    "total_tokens": 853,
+    "translated_title": "粒子去噪扩散采样器",
+    "translated_abstract": "去噪扩散模型在生成建模中已经得到广泛应用。其核心思想是通过使用扩散将数据分布转化为高斯分布。然后通过使用得分匹配思想估计这种扩散的时间反演来获得来自数据分布的近似样本。我们在这里采用类似的策略来从非归一化概率密度中采样并计算它们的规范化常数。然而，在这里，时间反演扩散是通过使用基于新颖得分匹配损失的原始迭代粒子方案来模拟的。与标准的去噪扩散模型不同，结果的粒子去噪扩散采样器 (PDDS) 在温和假设下提供了渐近一致的估计。我们在多模态和高维采样任务上演示了 PDDS。",
+    "tldr": "本文介绍了一种粒子去噪扩散采样器（PDDS），通过使用原始迭代粒子方案和新颖的得分匹配损失，对非归一化概率密度进行采样和计算规范化常数。与标准的去噪扩散模型不同，PDDS 在温和假设下提供了渐近一致的估计。"
+}

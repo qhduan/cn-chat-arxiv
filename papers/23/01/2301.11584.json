@@ -1,0 +1,12 @@
+{
+    "title": "Robust variance-regularized risk minimization with concomitant scaling",
+    "abstract": "Under losses which are potentially heavy-tailed, we consider the task of minimizing sums of the loss mean and standard deviation, without trying to accurately estimate the variance. By modifying a technique for variance-free robust mean estimation to fit our problem setting, we derive a simple learning procedure which can be easily combined with standard gradient-based solvers to be used in traditional machine learning workflows. Empirically, we verify that our proposed approach, despite its simplicity, performs as well or better than even the best-performing candidates derived from alternative criteria such as CVaR or DRO risks on a variety of datasets.",
+    "link": "https://arxiv.org/abs/2301.11584",
+    "context": "Title: Robust variance-regularized risk minimization with concomitant scaling\nAbstract: Under losses which are potentially heavy-tailed, we consider the task of minimizing sums of the loss mean and standard deviation, without trying to accurately estimate the variance. By modifying a technique for variance-free robust mean estimation to fit our problem setting, we derive a simple learning procedure which can be easily combined with standard gradient-based solvers to be used in traditional machine learning workflows. Empirically, we verify that our proposed approach, despite its simplicity, performs as well or better than even the best-performing candidates derived from alternative criteria such as CVaR or DRO risks on a variety of datasets.",
+    "path": "papers/23/01/2301.11584.json",
+    "total_tokens": 750,
+    "translated_title": "具有同时调整尺度的健壮方差正则化风险最小化",
+    "translated_abstract": "在潜在存在重尾风险的损失函数下，我们考虑了最小化损失均值和标准差之和的任务，而无需精确估计方差。通过修改一种无方差健壮均值估计技术以适应我们的问题设定，我们推导出一个简单的学习过程，可以与标准的基于梯度的求解器轻松结合，用于传统的机器学习工作流程中。经验上，我们验证了我们提出的方法，尽管简单，但在各种数据集上表现出与使用CVaR或DRO风险等替代标准得到的最佳候选方案相当或更好的性能。",
+    "tldr": "本研究提出了一种简单但有效的学习过程，用于最小化潜在存在重尾风险的损失函数，该方法在各种数据集上表现出与使用CVaR或DRO风险等替代标准得到的最佳候选方案相当或更好的性能。",
+    "en_tdlr": "This study proposes a simple but effective learning procedure for minimizing losses with potentially heavy-tailed risks, which performs as well or better than the best-performing candidates derived from alternative criteria such as CVaR or DRO risks on various datasets."
+}

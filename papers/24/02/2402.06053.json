@@ -1,0 +1,12 @@
+{
+    "title": "Randomness Is All You Need: Semantic Traversal of Problem-Solution Spaces with Large Language Models",
+    "abstract": "We present a novel approach to exploring innovation problem and solution domains using LLM fine-tuning with a custom idea database. By semantically traversing the bi-directional problem and solution tree at different temperature levels we achieve high diversity in solution edit distance while still remaining close to the original problem statement semantically. In addition to finding a variety of solutions to a given problem, this method can also be used to refine and clarify the original problem statement. As further validation of the approach, we implemented a proof-of-concept Slack bot to serve as an innovation assistant.",
+    "link": "https://arxiv.org/abs/2402.06053",
+    "context": "Title: Randomness Is All You Need: Semantic Traversal of Problem-Solution Spaces with Large Language Models\nAbstract: We present a novel approach to exploring innovation problem and solution domains using LLM fine-tuning with a custom idea database. By semantically traversing the bi-directional problem and solution tree at different temperature levels we achieve high diversity in solution edit distance while still remaining close to the original problem statement semantically. In addition to finding a variety of solutions to a given problem, this method can also be used to refine and clarify the original problem statement. As further validation of the approach, we implemented a proof-of-concept Slack bot to serve as an innovation assistant.",
+    "path": "papers/24/02/2402.06053.json",
+    "total_tokens": 700,
+    "translated_title": "随机性就是你所需的：使用大型语言模型在问题-解决空间中进行语义遍历的方法",
+    "translated_abstract": "我们提出了一种新颖的方法，使用自定义的思路数据库对创新问题和解决方案领域进行探索，通过在不同的温度级别下语义地遍历双向问题和解决方案树，我们在解决方案编辑距离上实现了高多样性，同时仍保持与原始问题语义上的接近。除了找到给定问题的各种解决方案外，这种方法还可以用于改进和澄清原始问题陈述。作为进一步验证该方法的尝试，我们实现了一个概念验证的Slack bot，作为创新助手。",
+    "tldr": "通过使用大型语言模型进行语义遍历，我们提出了一种新颖的方法来在创新问题和解决方案空间中探索。这种方法不仅可以找到多种问题的解决方案，还可以改进和澄清问题陈述。",
+    "en_tdlr": "We present a novel approach to exploring problem and solution spaces using large language models. This method not only finds diverse solutions to various problems, but also improves and clarifies the problem statement."
+}

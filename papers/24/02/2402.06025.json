@@ -1,0 +1,12 @@
+{
+    "title": "Doing Experiments and Revising Rules with Natural Language and Probabilistic Reasoning",
+    "abstract": "We build a computational model of how humans actively infer hidden rules by doing experiments. The basic principles behind the model is that, even if the rule is deterministic, the learner considers a broader space of fuzzy probabilistic rules, which it represents in natural language, and updates its hypotheses online after each experiment according to approximately Bayesian principles. In the same framework we also model experiment design according to information-theoretic criteria. We find that the combination of these three principles -- explicit hypotheses, probabilistic rules, and online updates -- can explain human performance on a Zendo-style task, and that removing any of these components leaves the model unable to account for the data.",
+    "link": "https://arxiv.org/abs/2402.06025",
+    "context": "Title: Doing Experiments and Revising Rules with Natural Language and Probabilistic Reasoning\nAbstract: We build a computational model of how humans actively infer hidden rules by doing experiments. The basic principles behind the model is that, even if the rule is deterministic, the learner considers a broader space of fuzzy probabilistic rules, which it represents in natural language, and updates its hypotheses online after each experiment according to approximately Bayesian principles. In the same framework we also model experiment design according to information-theoretic criteria. We find that the combination of these three principles -- explicit hypotheses, probabilistic rules, and online updates -- can explain human performance on a Zendo-style task, and that removing any of these components leaves the model unable to account for the data.",
+    "path": "papers/24/02/2402.06025.json",
+    "total_tokens": 721,
+    "translated_title": "用自然语言和概率推理进行实验与修订规则",
+    "translated_abstract": "我们建立了一个计算模型，模拟人们通过实验主动推断隐藏规则的过程。该模型的基本原理是，即使规则是确定性的，学习者也会考虑更广泛的模糊概率规则，并用自然语言表示，根据近似贝叶斯原则在每次实验后在线更新自己的假设。在同一框架下，我们还根据信息论准则建立了实验设计模型。我们发现，这三个原则的组合——显式假设、概率规则和在线更新——可以解释人们在类似Zendo任务上的表现，而去掉其中任何一个组件都使得模型无法解释数据。",
+    "tldr": "本论文建立了一个计算模型来模拟人们通过实验主动推断隐藏规则的过程，并发现显式假设、概率规则和在线更新的组合可以解释人们在类似Zendo任务上的表现。",
+    "en_tdlr": "This paper presents a computational model that simulates how humans actively infer hidden rules through experiments, and finds that the combination of explicit hypotheses, probabilistic rules, and online updates can explain human performance in Zendo-like tasks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On the Fly Detection of Root Causes from Observed Data with Application to IT Systems",
+    "abstract": "This paper introduces a new structural causal model tailored for representing threshold-based IT systems and presents a new algorithm designed to rapidly detect root causes of anomalies in such systems. When root causes are not causally related, the method is proven to be correct; while an extension is proposed based on the intervention of an agent to relax this assumption. Our algorithm and its agent-based extension leverage causal discovery from offline data and engage in subgraph traversal when encountering new anomalies in online data. Our extensive experiments demonstrate the superior performance of our methods, even when applied to data generated from alternative structural causal models or real IT monitoring data.",
+    "link": "https://arxiv.org/abs/2402.06500",
+    "context": "Title: On the Fly Detection of Root Causes from Observed Data with Application to IT Systems\nAbstract: This paper introduces a new structural causal model tailored for representing threshold-based IT systems and presents a new algorithm designed to rapidly detect root causes of anomalies in such systems. When root causes are not causally related, the method is proven to be correct; while an extension is proposed based on the intervention of an agent to relax this assumption. Our algorithm and its agent-based extension leverage causal discovery from offline data and engage in subgraph traversal when encountering new anomalies in online data. Our extensive experiments demonstrate the superior performance of our methods, even when applied to data generated from alternative structural causal models or real IT monitoring data.",
+    "path": "papers/24/02/2402.06500.json",
+    "total_tokens": 732,
+    "translated_title": "在观察数据中实时检测根本原因，应用于IT系统",
+    "translated_abstract": "本文介绍了一种针对基于阈值的IT系统的新结构因果模型，并提出了一种新的算法，用于快速检测此类系统中异常的根本原因。当根本原因没有因果关联时，该方法被证明是正确的；同时，提出了一种基于代理干预来放松这种假设的扩展。我们的算法及其基于代理的扩展利用离线数据进行因果发现，并在遇到在线数据中的新异常时进行子图遍历。我们广泛的实验证明了我们方法的卓越性能，即使应用于来自替代结构因果模型或真实IT监控数据生成的数据时也是如此。",
+    "tldr": "本文介绍了一种用于IT系统的新结构因果模型和一种快速检测异常根本原因的算法。该算法可在离线数据中进行因果发现，并在在线数据中遇到新异常时进行子图遍历。实验证明了方法的优越性能。",
+    "en_tdlr": "This paper introduces a new structural causal model for IT systems and a fast algorithm for detecting root causes of anomalies. The algorithm utilizes causal discovery from offline data and performs subgraph traversal in real-time. Experimental results show superior performance of the method."
+}

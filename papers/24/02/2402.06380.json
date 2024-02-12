@@ -1,0 +1,11 @@
+{
+    "title": "Optimal estimation of Gaussian (poly)trees",
+    "abstract": "We develop optimal algorithms for learning undirected Gaussian trees and directed Gaussian polytrees from data. We consider both problems of distribution learning (i.e. in KL distance) and structure learning (i.e. exact recovery). The first approach is based on the Chow-Liu algorithm, and learns an optimal tree-structured distribution efficiently. The second approach is a modification of the PC algorithm for polytrees that uses partial correlation as a conditional independence tester for constraint-based structure learning. We derive explicit finite-sample guarantees for both approaches, and show that both approaches are optimal by deriving matching lower bounds. Additionally, we conduct numerical experiments to compare the performance of various algorithms, providing further insights and empirical evidence.",
+    "link": "https://arxiv.org/abs/2402.06380",
+    "context": "Title: Optimal estimation of Gaussian (poly)trees\nAbstract: We develop optimal algorithms for learning undirected Gaussian trees and directed Gaussian polytrees from data. We consider both problems of distribution learning (i.e. in KL distance) and structure learning (i.e. exact recovery). The first approach is based on the Chow-Liu algorithm, and learns an optimal tree-structured distribution efficiently. The second approach is a modification of the PC algorithm for polytrees that uses partial correlation as a conditional independence tester for constraint-based structure learning. We derive explicit finite-sample guarantees for both approaches, and show that both approaches are optimal by deriving matching lower bounds. Additionally, we conduct numerical experiments to compare the performance of various algorithms, providing further insights and empirical evidence.",
+    "path": "papers/24/02/2402.06380.json",
+    "total_tokens": 709,
+    "translated_title": "高斯（多项式）树的最优估计",
+    "translated_abstract": "我们开发了一种从数据中学习无向高斯树和有向高斯多项式树的最优算法。我们考虑了分布学习（即KL距离）和结构学习（即精确恢复）的两个问题。第一种方法基于Chow-Liu算法，有效地学习最优的树状分布。第二种方法是对用于多项式树的PC算法的修改，它使用偏相关作为条件独立性测试器进行基于约束的结构学习。我们得到了这两种方法的显式有限样本保证，并通过推导匹配的下界证明这两种方法都是最优的。此外，我们进行了数值实验，比较了各种算法的性能，提供了进一步的洞察和经验证据。",
+    "tldr": "该论文开发了最优算法，在学习高斯树和高斯多项式树方面取得了显著成果，并提供了详细的理论保证和实证结果。"
+}

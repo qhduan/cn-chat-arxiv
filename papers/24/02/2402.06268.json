@@ -1,0 +1,12 @@
+{
+    "title": "YAMLE: Yet Another Machine Learning Environment",
+    "abstract": "YAMLE: Yet Another Machine Learning Environment is an open-source framework that facilitates rapid prototyping and experimentation with machine learning (ML) models and methods. The key motivation is to reduce repetitive work when implementing new approaches and improve reproducibility in ML research. YAMLE includes a command-line interface and integrations with popular and well-maintained PyTorch-based libraries to streamline training, hyperparameter optimisation, and logging. The ambition for YAMLE is to grow into a shared ecosystem where researchers and practitioners can quickly build on and compare existing implementations. Find it at: https://github.com/martinferianc/yamle.",
+    "link": "https://arxiv.org/abs/2402.06268",
+    "context": "Title: YAMLE: Yet Another Machine Learning Environment\nAbstract: YAMLE: Yet Another Machine Learning Environment is an open-source framework that facilitates rapid prototyping and experimentation with machine learning (ML) models and methods. The key motivation is to reduce repetitive work when implementing new approaches and improve reproducibility in ML research. YAMLE includes a command-line interface and integrations with popular and well-maintained PyTorch-based libraries to streamline training, hyperparameter optimisation, and logging. The ambition for YAMLE is to grow into a shared ecosystem where researchers and practitioners can quickly build on and compare existing implementations. Find it at: https://github.com/martinferianc/yamle.",
+    "path": "papers/24/02/2402.06268.json",
+    "total_tokens": 727,
+    "translated_title": "YAMLE：又一个机器学习环境",
+    "translated_abstract": "YAMLE：又一个机器学习环境是一个开源框架，它促进了机器学习模型和方法的快速原型设计和实验。其主要动机是在实现新方法时减少重复工作，并提高机器学习研究的可重现性。YAMLE包括一个命令行界面以及与流行且维护良好的基于PyTorch的库的集成，以简化训练、超参数优化和日志记录。YAMLE的雄心壮志是发展成一个共享的生态系统，研究人员和实践者可以快速构建和比较现有的实现。在https://github.com/martinferianc/yamle找到它。",
+    "tldr": "YAMLE是一个开源机器学习环境，旨在减少重复工作并提高机器学习研究的可重现性。它包括命令行界面和与PyTorch库的集成，致力于成为一个共享的生态系统。",
+    "en_tdlr": "YAMLE is an open-source machine learning environment designed to reduce repetitive work and improve reproducibility in ML research. It includes a command-line interface and integrations with PyTorch libraries, with the ambition to become a shared ecosystem."
+}

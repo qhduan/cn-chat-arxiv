@@ -1,0 +1,12 @@
+{
+    "title": "The Deep Equilibrium Algorithmic Reasoner",
+    "abstract": "Recent work on neural algorithmic reasoning has demonstrated that graph neural networks (GNNs) could learn to execute classical algorithms. Doing so, however, has always used a recurrent architecture, where each iteration of the GNN aligns with an algorithm's iteration. Since an algorithm's solution is often an equilibrium, we conjecture and empirically validate that one can train a network to solve algorithmic problems by directly finding the equilibrium. Note that this does not require matching each GNN iteration with a step of the algorithm.",
+    "link": "https://arxiv.org/abs/2402.06445",
+    "context": "Title: The Deep Equilibrium Algorithmic Reasoner\nAbstract: Recent work on neural algorithmic reasoning has demonstrated that graph neural networks (GNNs) could learn to execute classical algorithms. Doing so, however, has always used a recurrent architecture, where each iteration of the GNN aligns with an algorithm's iteration. Since an algorithm's solution is often an equilibrium, we conjecture and empirically validate that one can train a network to solve algorithmic problems by directly finding the equilibrium. Note that this does not require matching each GNN iteration with a step of the algorithm.",
+    "path": "papers/24/02/2402.06445.json",
+    "total_tokens": 607,
+    "translated_title": "深度平衡算法推理器",
+    "translated_abstract": "最近关于神经算法推理的研究表明，图神经网络（GNNs）可以学习执行经典算法。然而，这样做一直使用的是递归架构，其中每个GNN的迭代与算法的迭代一致。由于算法的解通常是一个平衡点，我们猜测并经验性地验证，可以通过直接找到平衡点来训练网络解决算法问题。注意，这不需要将每个GNN的迭代与算法的步骤匹配。",
+    "tldr": "本文介绍了一种深度平衡算法推理器，可以通过直接找到算法的平衡点来训练网络解决算法问题。",
+    "en_tdlr": "This paper presents a deep equilibrium algorithmic reasoner that trains networks to solve algorithmic problems by directly finding the equilibrium of the algorithm, eliminating the need for aligning each iteration of the network with a step of the algorithm."
+}

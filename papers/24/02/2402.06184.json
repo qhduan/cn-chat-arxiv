@@ -1,0 +1,12 @@
+{
+    "title": "The boundary of neural network trainability is fractal",
+    "abstract": "Some fractals -- for instance those associated with the Mandelbrot and quadratic Julia sets -- are computed by iterating a function, and identifying the boundary between hyperparameters for which the resulting series diverges or remains bounded. Neural network training similarly involves iterating an update function (e.g. repeated steps of gradient descent), can result in convergent or divergent behavior, and can be extremely sensitive to small changes in hyperparameters. Motivated by these similarities, we experimentally examine the boundary between neural network hyperparameters that lead to stable and divergent training. We find that this boundary is fractal over more than ten decades of scale in all tested configurations.",
+    "link": "https://arxiv.org/abs/2402.06184",
+    "context": "Title: The boundary of neural network trainability is fractal\nAbstract: Some fractals -- for instance those associated with the Mandelbrot and quadratic Julia sets -- are computed by iterating a function, and identifying the boundary between hyperparameters for which the resulting series diverges or remains bounded. Neural network training similarly involves iterating an update function (e.g. repeated steps of gradient descent), can result in convergent or divergent behavior, and can be extremely sensitive to small changes in hyperparameters. Motivated by these similarities, we experimentally examine the boundary between neural network hyperparameters that lead to stable and divergent training. We find that this boundary is fractal over more than ten decades of scale in all tested configurations.",
+    "path": "papers/24/02/2402.06184.json",
+    "total_tokens": 709,
+    "translated_title": "神经网络可训练性的边界是分形的",
+    "translated_abstract": "一些分形，例如与Mandelbrot和二次Julia集相关的分形，通过迭代函数计算，并识别导致结果序列发散或保持有界的超参数之间的边界。神经网络训练同样涉及迭代更新函数（例如梯度下降的重复步骤），可能导致收敛或发散的行为，并且对超参数的微小改变非常敏感。受到这些相似性的启发，我们实验性地研究了导致稳定和发散训练的神经网络超参数之间的边界。我们发现，所有测试配置中，这个边界在十个数量级以上的尺度范围内都是分形的。",
+    "tldr": "本论文通过实验证明，神经网络训练的边界是分形的，对于超参数的微小改变非常敏感，这对于理解神经网络的训练可行性具有重要意义。",
+    "en_tdlr": "This paper experimentally demonstrates that the boundary of neural network training is fractal, and it is highly sensitive to small changes in hyperparameters, which is significant for understanding the feasibility of neural network training."
+}

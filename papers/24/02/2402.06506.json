@@ -1,0 +1,12 @@
+{
+    "title": "Classifying point clouds at the facade-level using geometric features and deep learning networks",
+    "abstract": "3D building models with facade details are playing an important role in many applications now. Classifying point clouds at facade-level is key to create such digital replicas of the real world. However, few studies have focused on such detailed classification with deep neural networks. We propose a method fusing geometric features with deep learning networks for point cloud classification at facade-level. Our experiments conclude that such early-fused features improve deep learning methods' performance. This method can be applied for compensating deep learning networks' ability in capturing local geometric information and promoting the advancement of semantic segmentation.",
+    "link": "https://arxiv.org/abs/2402.06506",
+    "context": "Title: Classifying point clouds at the facade-level using geometric features and deep learning networks\nAbstract: 3D building models with facade details are playing an important role in many applications now. Classifying point clouds at facade-level is key to create such digital replicas of the real world. However, few studies have focused on such detailed classification with deep neural networks. We propose a method fusing geometric features with deep learning networks for point cloud classification at facade-level. Our experiments conclude that such early-fused features improve deep learning methods' performance. This method can be applied for compensating deep learning networks' ability in capturing local geometric information and promoting the advancement of semantic segmentation.",
+    "path": "papers/24/02/2402.06506.json",
+    "total_tokens": 720,
+    "translated_title": "使用几何特征和深度学习网络对立面级别的点云进行分类",
+    "translated_abstract": "具有立面细节的三维建筑模型在许多应用中发挥着重要作用。在立面级别上对点云进行分类是创建这样的数字副本的关键。然而，很少有研究将深度神经网络用于这种详细分类。我们提出了一种融合几何特征和深度学习网络的方法，以对立面级别的点云进行分类。我们的实验表明，这种早期融合的特征提高了深度学习方法的性能。该方法可用于补偿深度学习网络在捕捉局部几何信息方面的能力，并促进语义分割的进步。",
+    "tldr": "该论文提出了一种方法，利用几何特征和深度学习网络对立面级别的点云进行分类。实验证明，融合几何特征可以提高深度学习方法的性能，并促进语义分割的进步。",
+    "en_tdlr": "This paper proposes a method for classifying point clouds at the facade-level using geometric features and deep learning networks. The experiments demonstrate that the fusion of geometric features improves the performance of deep learning methods and promotes the advancement of semantic segmentation."
+}

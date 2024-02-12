@@ -1,0 +1,12 @@
+{
+    "title": "Parameter-free Mirror Descent",
+    "abstract": "We develop a modified online mirror descent framework that is suitable for building adaptive and parameter-free algorithms in unbounded domains. We leverage this technique to develop the first unconstrained online linear optimization algorithm achieving an optimal dynamic regret bound, and we further demonstrate that natural strategies based on Follow-the-Regularized-Leader are unable to achieve similar results. We also apply our mirror descent framework to build new parameter-free implicit updates, as well as a simplified and improved unconstrained scale-free algorithm.",
+    "link": "https://arxiv.org/abs/2203.00444",
+    "context": "Title: Parameter-free Mirror Descent\nAbstract: We develop a modified online mirror descent framework that is suitable for building adaptive and parameter-free algorithms in unbounded domains. We leverage this technique to develop the first unconstrained online linear optimization algorithm achieving an optimal dynamic regret bound, and we further demonstrate that natural strategies based on Follow-the-Regularized-Leader are unable to achieve similar results. We also apply our mirror descent framework to build new parameter-free implicit updates, as well as a simplified and improved unconstrained scale-free algorithm.",
+    "path": "papers/22/03/2203.00444.json",
+    "total_tokens": 727,
+    "translated_title": "无参镜像下降",
+    "translated_abstract": "我们提出了一种修改后的在线镜像下降框架，适用于在无界域中构建自适应和无参的算法。我们利用这种技术开发了第一个无约束在线线性优化算法，实现了最优的动态遗憾界限，并进一步证明基于Follow-the-Regularized-Leader的自然策略无法达到类似的结果。我们还将我们的镜像下降框架应用于构建无参隐式更新，以及一个简化和改进的无约束无标度算法。",
+    "tldr": "本论文针对无界域中构建自适应和无参的算法提出了一种修改后的在线镜像下降框架，并以此为基础开发了具有最优动态遗憾界限的无约束在线线性优化算法，并证明了基于Follow-the-Regularized-Leader的策略无法达到类似效果，此外还应用镜像下降框架构建了新的无参隐式更新以及简化和改进的无约束无标度算法。",
+    "en_tdlr": "This paper proposes a modified online mirror descent framework for building adaptive and parameter-free algorithms in unbounded domains. It develops the first unconstrained online linear optimization algorithm achieving optimal dynamic regret bound, and demonstrates that strategies based on Follow-the-Regularized-Leader cannot achieve similar results. Moreover, the framework is applied to build new parameter-free implicit updates and a simplified and improved unconstrained scale-free algorithm."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Language Model Sentence Completion with a Parser-Driven Rhetorical Control Method",
+    "abstract": "Controlled text generation (CTG) seeks to guide large language model (LLM) output to produce text that conforms to desired criteria. The current study presents a novel CTG algorithm that enforces adherence toward specific rhetorical relations in an LLM sentence-completion context by a parser-driven decoding scheme that requires no model fine-tuning. The method is validated both with automatic and human evaluation. The code is accessible on GitHub.",
+    "link": "https://arxiv.org/abs/2402.06125",
+    "context": "Title: Language Model Sentence Completion with a Parser-Driven Rhetorical Control Method\nAbstract: Controlled text generation (CTG) seeks to guide large language model (LLM) output to produce text that conforms to desired criteria. The current study presents a novel CTG algorithm that enforces adherence toward specific rhetorical relations in an LLM sentence-completion context by a parser-driven decoding scheme that requires no model fine-tuning. The method is validated both with automatic and human evaluation. The code is accessible on GitHub.",
+    "path": "papers/24/02/2402.06125.json",
+    "total_tokens": 639,
+    "translated_title": "带有解析驱动的修辞控制方法的语言模型句子补全",
+    "translated_abstract": "控制性文本生成（CTG）旨在引导大型语言模型（LLM）生成符合特定要求的文本。本研究提出了一种新颖的CTG算法，在LLM句子补全环境中通过解析驱动的解码方案强制执行特定修辞关系的遵循，而无需模型微调。该方法已通过自动和人工评估进行验证。代码可在GitHub上获得。",
+    "tldr": "本研究提出了一种新的控制性文本生成算法，通过解析驱动的解码方案，在语言模型句子补全环境中强制执行特定修辞关系的遵循，无需模型微调。该方法经过自动和人工评估验证，代码可在GitHub上获得。"
+}

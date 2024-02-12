@@ -1,0 +1,11 @@
+{
+    "title": "Predictive representations: building blocks of intelligence",
+    "abstract": "Adaptive behavior often requires predicting future events. The theory of reinforcement learning prescribes what kinds of predictive representations are useful and how to compute them. This paper integrates these theoretical ideas with work on cognition and neuroscience. We pay special attention to the successor representation (SR) and its generalizations, which have been widely applied both as engineering tools and models of brain function. This convergence suggests that particular kinds of predictive representations may function as versatile building blocks of intelligence.",
+    "link": "https://arxiv.org/abs/2402.06590",
+    "context": "Title: Predictive representations: building blocks of intelligence\nAbstract: Adaptive behavior often requires predicting future events. The theory of reinforcement learning prescribes what kinds of predictive representations are useful and how to compute them. This paper integrates these theoretical ideas with work on cognition and neuroscience. We pay special attention to the successor representation (SR) and its generalizations, which have been widely applied both as engineering tools and models of brain function. This convergence suggests that particular kinds of predictive representations may function as versatile building blocks of intelligence.",
+    "path": "papers/24/02/2402.06590.json",
+    "total_tokens": 548,
+    "translated_title": "预测性表征：智能的基石",
+    "translated_abstract": "适应性行为通常需要预测未来事件。强化学习理论规定了什么样的预测性表征是有用的以及如何计算它们。本文将这些理论观点与认知和神经科学的研究结合起来。我们特别关注继任者表征（SR）及其广义形式，它们不仅被广泛应用于工程工具，也作为大脑功能的模型。这种融合表明特定类型的预测性表征可能是智能的多功能基石。",
+    "tldr": "预测性表征可能是智能的多功能基石。"
+}

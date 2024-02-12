@@ -1,0 +1,12 @@
+{
+    "title": "LLMs for Coding and Robotics Education",
+    "abstract": "Large language models and multimodal large language models have revolutionized artificial intelligence recently. An increasing number of regions are now embracing these advanced technologies. Within this context, robot coding education is garnering increasing attention. To teach young children how to code and compete in robot challenges, large language models are being utilized for robot code explanation, generation, and modification. In this paper, we highlight an important trend in robot coding education. We test several mainstream large language models on both traditional coding tasks and the more challenging task of robot code generation, which includes block diagrams. Our results show that GPT-4V outperforms other models in all of our tests but struggles with generating block diagram images.",
+    "link": "https://arxiv.org/abs/2402.06116",
+    "context": "Title: LLMs for Coding and Robotics Education\nAbstract: Large language models and multimodal large language models have revolutionized artificial intelligence recently. An increasing number of regions are now embracing these advanced technologies. Within this context, robot coding education is garnering increasing attention. To teach young children how to code and compete in robot challenges, large language models are being utilized for robot code explanation, generation, and modification. In this paper, we highlight an important trend in robot coding education. We test several mainstream large language models on both traditional coding tasks and the more challenging task of robot code generation, which includes block diagrams. Our results show that GPT-4V outperforms other models in all of our tests but struggles with generating block diagram images.",
+    "path": "papers/24/02/2402.06116.json",
+    "total_tokens": 767,
+    "translated_title": "用于编程和机器人教育的大型语言模型(LLMs)",
+    "translated_abstract": "最近，大型语言模型和多模态大型语言模型在人工智能领域取得了革命性的进展。越来越多的地区正在采用这些先进技术。在这个背景下，机器人编程教育日益受到关注。为了教小孩子们如何编程和参加机器人挑战，人们开始利用大型语言模型来解释、生成和修改机器人代码。本文重点介绍了机器人编程教育的一个重要趋势。我们测试了几种主流大型语言模型在传统编程任务和更具挑战性的机器人代码生成任务上的表现，包括块状图。我们的结果显示，GPT-4V在所有测试中表现优异，但在生成块状图像方面存在困难。",
+    "tldr": "本文介绍了机器人编程教育的重要趋势，并利用大型语言模型测试了机器人代码生成任务。结果显示，GPT-4V在所有测试中表现优异，但在生成块状图像方面存在困难。",
+    "en_tdlr": "This paper highlights an important trend in robot coding education and tests the performance of large language models on robot code generation tasks. The results show that GPT-4V performs well in all tests but struggles with generating block diagram images."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL",
+    "abstract": "LLMs are being increasingly used for planning-style tasks, but their capabilities for planning and reasoning are poorly understood. We present AutoPlanBench, a novel method for automatically converting planning benchmarks written in PDDL into textual descriptions and offer a benchmark dataset created with our method. We show that while the best LLM planners do well on some planning tasks, others remain out of reach of current methods.",
+    "link": "https://arxiv.org/abs/2311.09830",
+    "context": "Title: AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL\nAbstract: LLMs are being increasingly used for planning-style tasks, but their capabilities for planning and reasoning are poorly understood. We present AutoPlanBench, a novel method for automatically converting planning benchmarks written in PDDL into textual descriptions and offer a benchmark dataset created with our method. We show that while the best LLM planners do well on some planning tasks, others remain out of reach of current methods.",
+    "path": "papers/23/11/2311.09830.json",
+    "total_tokens": 640,
+    "translated_title": "AutoPlanBench: 从PDDL自动生成LLM规划器的基准测试",
+    "translated_abstract": "LLMs（逻辑-概率模型）在规划任务中的应用越来越广泛，但是它们在规划和推理方面的能力尚不明确。我们提出了AutoPlanBench，一种将PDDL中的规划基准测试自动转换为文本描述的新方法，并提供了使用我们方法创建的基准测试数据集。我们展示了最好的LLM规划器在某些规划任务上表现良好，但其他任务仍然超出了当前方法的能力范围。",
+    "tldr": "AutoPlanBench是一种新方法，可以自动转换PDDL规划基准测试为文本描述，并提供了相应的基准测试数据集。研究表明，当前最好的LLM规划器在某些规划任务上表现优秀，但对于其他任务来说仍存在挑战。",
+    "en_tdlr": "AutoPlanBench is a novel method that automatically converts PDDL planning benchmarks into textual descriptions and provides a benchmark dataset. The research shows that while the best LLM planners excel in some planning tasks, there are still challenges for others."
+}

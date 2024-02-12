@@ -1,0 +1,11 @@
+{
+    "title": "A comparative study on wearables and single-camera video for upper-limb out-of-thelab activity recognition with different deep learning architectures",
+    "abstract": "The use of a wide range of computer vision solutions, and more recently high-end Inertial Measurement Units (IMU) have become increasingly popular for assessing human physical activity in clinical and research settings. Nevertheless, to increase the feasibility of patient tracking in out-of-the-lab settings, it is necessary to use a reduced number of devices for movement acquisition. Promising solutions in this context are IMU-based wearables and single camera systems. Additionally, the development of machine learning systems able to recognize and digest clinically relevant data in-the-wild is needed, and therefore determining the ideal input to those is crucial.",
+    "link": "https://arxiv.org/abs/2402.05958",
+    "context": "Title: A comparative study on wearables and single-camera video for upper-limb out-of-thelab activity recognition with different deep learning architectures\nAbstract: The use of a wide range of computer vision solutions, and more recently high-end Inertial Measurement Units (IMU) have become increasingly popular for assessing human physical activity in clinical and research settings. Nevertheless, to increase the feasibility of patient tracking in out-of-the-lab settings, it is necessary to use a reduced number of devices for movement acquisition. Promising solutions in this context are IMU-based wearables and single camera systems. Additionally, the development of machine learning systems able to recognize and digest clinically relevant data in-the-wild is needed, and therefore determining the ideal input to those is crucial.",
+    "path": "papers/24/02/2402.05958.json",
+    "total_tokens": 779,
+    "translated_title": "穿戴设备和单摄像头视频在不同深度学习体系结构下的上肢活动识别的比较研究",
+    "translated_abstract": "在临床和研究环境中，广泛应用计算机视觉解决方案和最新的高端惯性测量单元(IMU)来评估人类的体力活动。然而，为了增加在实验室外跟踪患者活动的可行性，需要使用较少的设备进行运动获取。在这种情况下，基于IMU的穿戴设备和单摄像头系统是有前景的解决方案。此外，还需要开发能够在野外环境中识别和处理临床相关数据的机器学习系统，因此确定这些系统的理想输入至关重要。",
+    "tldr": "本研究比较了穿戴设备和单摄像头视频在不同深度学习体系结构下的上肢活动识别，为在实验室外跟踪患者活动提供了可行性，并探讨了在野外环境中识别和处理临床相关数据的机器学习系统的理想输入。"
+}

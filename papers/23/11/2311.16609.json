@@ -1,0 +1,12 @@
+{
+    "title": "Eigenmatrix for unstructured sparse recovery",
+    "abstract": "This paper considers the unstructured sparse recovery problems in a general form. Examples include rational approximation, spectral function estimation, Fourier inversion, Laplace inversion, and sparse deconvolution. The main challenges are the noise in the sample values and the unstructured nature of the sample locations. This paper proposes the eigenmatrix, a data-driven construction with desired approximate eigenvalues and eigenvectors. The eigenmatrix offers a new way for these sparse recovery problems. Numerical results are provided to demonstrate the efficiency of the proposed method.",
+    "link": "https://arxiv.org/abs/2311.16609",
+    "context": "Title: Eigenmatrix for unstructured sparse recovery\nAbstract: This paper considers the unstructured sparse recovery problems in a general form. Examples include rational approximation, spectral function estimation, Fourier inversion, Laplace inversion, and sparse deconvolution. The main challenges are the noise in the sample values and the unstructured nature of the sample locations. This paper proposes the eigenmatrix, a data-driven construction with desired approximate eigenvalues and eigenvectors. The eigenmatrix offers a new way for these sparse recovery problems. Numerical results are provided to demonstrate the efficiency of the proposed method.",
+    "path": "papers/23/11/2311.16609.json",
+    "total_tokens": 666,
+    "translated_title": "用于非结构稀疏恢复的特征矩阵",
+    "translated_abstract": "本文考虑了一般形式的非结构稀疏恢复问题，包括有理逼近、谱函数估计、傅里叶反演、拉普拉斯反演和稀疏反卷积等。主要挑战是样本值中的噪声和样本位置的非结构性质。本文提出了特征矩阵，一种具有所需近似特征值和特征向量的数据驱动构造，为这些稀疏恢复问题提供了一种新的方法。数值结果证明了所提方法的效率。",
+    "tldr": "本文提出了一种名为特征矩阵的数据驱动构造，用于解决非结构稀疏恢复问题，对于样本值中的噪声和样本位置的非结构性质具有很好的适应性。",
+    "en_tdlr": "This paper proposes a data-driven construction called eigenmatrix for unstructured sparse recovery problems, offering a new approach to handle the challenges of noise in sample values and unstructured nature of sample locations. Numerical results demonstrate its efficiency."
+}

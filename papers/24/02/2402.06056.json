@@ -1,0 +1,11 @@
+{
+    "title": "ActiveDP: Bridging Active Learning and Data Programming",
+    "abstract": "Modern machine learning models require large labelled datasets to achieve good performance, but manually labelling large datasets is expensive and time-consuming. The data programming paradigm enables users to label large datasets efficiently but produces noisy labels, which deteriorates the downstream model's performance. The active learning paradigm, on the other hand, can acquire accurate labels but only for a small fraction of instances. In this paper, we propose ActiveDP, an interactive framework bridging active learning and data programming together to generate labels with both high accuracy and coverage, combining the strengths of both paradigms. Experiments show that ActiveDP outperforms previous weak supervision and active learning approaches and consistently performs well under different labelling budgets.",
+    "link": "https://arxiv.org/abs/2402.06056",
+    "context": "Title: ActiveDP: Bridging Active Learning and Data Programming\nAbstract: Modern machine learning models require large labelled datasets to achieve good performance, but manually labelling large datasets is expensive and time-consuming. The data programming paradigm enables users to label large datasets efficiently but produces noisy labels, which deteriorates the downstream model's performance. The active learning paradigm, on the other hand, can acquire accurate labels but only for a small fraction of instances. In this paper, we propose ActiveDP, an interactive framework bridging active learning and data programming together to generate labels with both high accuracy and coverage, combining the strengths of both paradigms. Experiments show that ActiveDP outperforms previous weak supervision and active learning approaches and consistently performs well under different labelling budgets.",
+    "path": "papers/24/02/2402.06056.json",
+    "total_tokens": 777,
+    "translated_title": "ActiveDP：将主动学习和数据编程框架相结合",
+    "translated_abstract": "现代机器学习模型需要大规模标记数据集以达到良好的性能，但手动标记大规模数据集既昂贵又耗时。数据编程范式可以高效地标记大规模数据集，但会产生噪声标签，从而降低下游模型的性能。而主动学习范式可以获取准确的标签，但只针对一小部分实例。本文提出了ActiveDP，一个将主动学习和数据编程框架相结合的交互式框架，以生成高精度和覆盖度具备的标签，结合了两种范式的优势。实验证明，ActiveDP优于以前的弱监督和主动学习方法，并在不同的标记预算下始终表现良好。",
+    "tldr": "本文提出了ActiveDP，一个将主动学习和数据编程相结合的交互式框架，以生成具有高准确性和覆盖率的标签，实验证明其优于以前的弱监督和主动学习方法，并在不同的标记预算下表现良好。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "The Complexity of Sequential Prediction in Dynamical Systems",
+    "abstract": "We study the problem of learning to predict the next state of a dynamical system when the underlying evolution function is unknown. Unlike previous work, we place no parametric assumptions on the dynamical system, and study the problem from a learning theory perspective. We define new combinatorial measures and dimensions and show that they quantify the optimal mistake and regret bounds in the realizable and agnostic setting respectively.",
+    "link": "https://arxiv.org/abs/2402.06614",
+    "context": "Title: The Complexity of Sequential Prediction in Dynamical Systems\nAbstract: We study the problem of learning to predict the next state of a dynamical system when the underlying evolution function is unknown. Unlike previous work, we place no parametric assumptions on the dynamical system, and study the problem from a learning theory perspective. We define new combinatorial measures and dimensions and show that they quantify the optimal mistake and regret bounds in the realizable and agnostic setting respectively.",
+    "path": "papers/24/02/2402.06614.json",
+    "total_tokens": 625,
+    "translated_title": "动力系统中顺序预测的复杂性研究",
+    "translated_abstract": "我们研究了在底层演化函数未知的情况下学习预测动力系统下一状态的问题。与以前的工作不同，我们对动力系统没有参数假设，并从学习理论的角度研究了该问题。我们定义了新的组合度量和维度，并证明它们量化了在可实现和不可知情况下的最佳错误和遗憾界限。",
+    "tldr": "通过学习理论的角度，我们在没有参数假设的情况下，研究了在底层演化函数未知的动力系统中学习预测下一状态的问题，并提出了新的组合度量和维度来量化在可实现和不可知情况下的最佳错误和遗憾界限。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "\\textit{SQT} -- \\textit{std} $Q$-target",
+    "abstract": "\\textit{Std} $Q$-target is a \\textit{conservative}, actor-critic, ensemble, $Q$-learning-based algorithm, which is based on a single key $Q$-formula: $Q$-networks standard deviation, which is an \"uncertainty penalty\", and, serves as a minimalistic solution to the problem of \\textit{overestimation} bias. We implement \\textit{SQT} on top of TD3/TD7 code and test it against the state-of-the-art (SOTA) actor-critic algorithms, DDPG, TD3 and TD7 on seven popular MuJoCo and Bullet tasks. Our results demonstrate \\textit{SQT}'s $Q$-target formula superiority over \\textit{TD3}'s $Q$-target formula as a \\textit{conservative} solution to overestimation bias in RL, while \\textit{SQT} shows a clear performance advantage on a wide margin over DDPG, TD3, and TD7 on all tasks.",
+    "link": "https://arxiv.org/abs/2402.05950",
+    "context": "Title: \\textit{SQT} -- \\textit{std} $Q$-target\nAbstract: \\textit{Std} $Q$-target is a \\textit{conservative}, actor-critic, ensemble, $Q$-learning-based algorithm, which is based on a single key $Q$-formula: $Q$-networks standard deviation, which is an \"uncertainty penalty\", and, serves as a minimalistic solution to the problem of \\textit{overestimation} bias. We implement \\textit{SQT} on top of TD3/TD7 code and test it against the state-of-the-art (SOTA) actor-critic algorithms, DDPG, TD3 and TD7 on seven popular MuJoCo and Bullet tasks. Our results demonstrate \\textit{SQT}'s $Q$-target formula superiority over \\textit{TD3}'s $Q$-target formula as a \\textit{conservative} solution to overestimation bias in RL, while \\textit{SQT} shows a clear performance advantage on a wide margin over DDPG, TD3, and TD7 on all tasks.",
+    "path": "papers/24/02/2402.05950.json",
+    "total_tokens": 873,
+    "translated_title": "SQT - std Q-target",
+    "translated_abstract": "Std Q-target是一种基于Q-学习的保守型actor-critic算法，它基于一个关键的Q公式：Q网络的标准差，这个标准差作为一种“不确定性惩罚”，是对过高估计偏差问题的一种简约解决方案。我们在TD3/TD7代码的基础上实现了SQT，并将其与最先进的actor-critic算法DDPG、TD3和TD7在七个常见的MuJoCo和Bullet任务上进行了测试。我们的结果表明，在强化学习中，SQT的Q-target公式相对于TD3的Q-target公式在解决过高估计偏差的保守解方面具有优势，而在所有任务中，SQT相对于DDPG、TD3和TD7都有明显的性能优势。",
+    "tldr": "SQT是一种基于Q-学习的保守型actor-critic算法，利用Q网络的标准差作为一种“不确定性惩罚”，成功解决了过高估计偏差问题，相较于TD3的Q-target公式具有更好的性能优势。"
+}
