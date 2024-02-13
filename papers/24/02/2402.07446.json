@@ -1,0 +1,11 @@
+{
+    "title": "Quality Does Matter: A Detailed Look at the Quality and Utility of Web-Mined Parallel Corpora",
+    "abstract": "We conducted a detailed analysis on the quality of web-mined corpora for two low-resource languages (making three language pairs, English-Sinhala, English-Tamil and Sinhala-Tamil). We ranked each corpus according to a similarity measure and carried out an intrinsic and extrinsic evaluation on different portions of this ranked corpus. We show that there are significant quality differences between different portions of web-mined corpora and that the quality varies across languages and datasets. We also show that, for some web-mined datasets, Neural Machine Translation (NMT) models trained with their highest-ranked 25k portion can be on par with human-curated datasets.",
+    "link": "https://arxiv.org/abs/2402.07446",
+    "context": "Title: Quality Does Matter: A Detailed Look at the Quality and Utility of Web-Mined Parallel Corpora\nAbstract: We conducted a detailed analysis on the quality of web-mined corpora for two low-resource languages (making three language pairs, English-Sinhala, English-Tamil and Sinhala-Tamil). We ranked each corpus according to a similarity measure and carried out an intrinsic and extrinsic evaluation on different portions of this ranked corpus. We show that there are significant quality differences between different portions of web-mined corpora and that the quality varies across languages and datasets. We also show that, for some web-mined datasets, Neural Machine Translation (NMT) models trained with their highest-ranked 25k portion can be on par with human-curated datasets.",
+    "path": "papers/24/02/2402.07446.json",
+    "total_tokens": 813,
+    "translated_title": "质量确实重要：对网络挖掘平行语料库的质量和实用性进行详细研究",
+    "translated_abstract": "我们对两种低资源语言（英文-僧伽罗语，英文-泰米尔语和僧伽罗语-泰米尔语）的网络挖掘语料库的质量进行了详细分析。我们根据相似度标准对每个语料库进行了排名，并对排名语料库的不同部分进行内在和外在评估。我们显示不同部分的网络挖掘语料库存在显著的质量差异，并且质量在不同语言和数据集之间存在变化。我们还表明，对于某些网络挖掘数据集，使用其排名最高的25k部分训练的神经机器翻译（NMT）模型可以与人工策划的数据集持平。",
+    "tldr": "这项研究详细分析了网络挖掘语料库的质量和实用性，并发现不同语言和数据集之间存在显著的质量差异。同时，我们还展示了某些网络挖掘数据集的最佳部分训练的神经机器翻译模型可以与人工策划的数据集持平。"
+}

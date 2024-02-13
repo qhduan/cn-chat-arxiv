@@ -1,0 +1,12 @@
+{
+    "title": "TL;DR Progress: Multi-faceted Literature Exploration in Text Summarization",
+    "abstract": "This paper presents TL;DR Progress, a new tool for exploring the literature on neural text summarization. It organizes 514~papers based on a comprehensive annotation scheme for text summarization approaches and enables fine-grained, faceted search. Each paper was manually annotated to capture aspects such as evaluation metrics, quality dimensions, learning paradigms, challenges addressed, datasets, and document domains. In addition, a succinct indicative summary is provided for each paper, consisting of automatically extracted contextual factors, issues, and proposed solutions. The tool is available online at https://www.tldr-progress.de, a demo video at https://youtu.be/uCVRGFvXUj8",
+    "link": "https://arxiv.org/abs/2402.06913",
+    "context": "Title: TL;DR Progress: Multi-faceted Literature Exploration in Text Summarization\nAbstract: This paper presents TL;DR Progress, a new tool for exploring the literature on neural text summarization. It organizes 514~papers based on a comprehensive annotation scheme for text summarization approaches and enables fine-grained, faceted search. Each paper was manually annotated to capture aspects such as evaluation metrics, quality dimensions, learning paradigms, challenges addressed, datasets, and document domains. In addition, a succinct indicative summary is provided for each paper, consisting of automatically extracted contextual factors, issues, and proposed solutions. The tool is available online at https://www.tldr-progress.de, a demo video at https://youtu.be/uCVRGFvXUj8",
+    "path": "papers/24/02/2402.06913.json",
+    "total_tokens": 786,
+    "translated_title": "TL;DR进展：多方面文献探索在文本摘要中的应用",
+    "translated_abstract": "本文介绍了TL;DR进展，一种用于探索神经文本摘要领域文献的新工具。它根据一个全面的注释方案对514篇论文进行了组织，实现了细粒度的、多方面的检索。每篇论文都经过手工注释，捕捉了评估指标、质量维度、学习范式、解决的挑战、数据集和文档领域等方面。此外，每篇论文还提供了简洁的摘要，包括自动提取的上下文因素、问题和解决方案。该工具可在线访问https://www.tldr-progress.de，并提供演示视频https://youtu.be/uCVRGFvXUj8。",
+    "tldr": "本文介绍了一种名为TL;DR Progress的新工具，用于探索神经文本摘要领域的文献。该工具根据全面的注释方案对514篇论文进行了组织，实现了细粒度的、多方面的检索，并为每篇论文提供了简洁的摘要。",
+    "en_tdlr": "This paper presents TL;DR Progress, a new tool for exploring the literature on neural text summarization. It organizes 514 papers based on a comprehensive annotation scheme and enables fine-grained, faceted search. Each paper includes a succinct indicative summary."
+}

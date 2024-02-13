@@ -1,0 +1,12 @@
+{
+    "title": "Existence of an equilibrium with limited stock-market participation and power utilities",
+    "abstract": "For constants $\\gamma \\in (0,1)$ and $A\\in (1,\\infty)$, we prove existence of a solution to the singular and path-dependent Riccati-type ODE \\begin{align*} \\begin{cases} h'(y) = \\frac{1+\\gamma}{y}\\big( \\gamma - h(y)\\big)+h(y)\\frac{\\gamma + \\big((A-\\gamma)e^{\\int_y^1 \\frac{1-h(q)}{1-q}dq}-A\\big)h(y)}{1-y},\\quad y\\in(0,1), \\\\ h(0) = \\gamma, \\quad h(1) = 1. \\end{cases} \\end{align*} As an application, we use the ODE solution to prove existence of an equilibrium with homogenous power traders in the limited participation setting of Basak and Cuoco (1998).",
+    "link": "https://arxiv.org/abs/2402.07185",
+    "context": "Title: Existence of an equilibrium with limited stock-market participation and power utilities\nAbstract: For constants $\\gamma \\in (0,1)$ and $A\\in (1,\\infty)$, we prove existence of a solution to the singular and path-dependent Riccati-type ODE \\begin{align*} \\begin{cases} h'(y) = \\frac{1+\\gamma}{y}\\big( \\gamma - h(y)\\big)+h(y)\\frac{\\gamma + \\big((A-\\gamma)e^{\\int_y^1 \\frac{1-h(q)}{1-q}dq}-A\\big)h(y)}{1-y},\\quad y\\in(0,1), \\\\ h(0) = \\gamma, \\quad h(1) = 1. \\end{cases} \\end{align*} As an application, we use the ODE solution to prove existence of an equilibrium with homogenous power traders in the limited participation setting of Basak and Cuoco (1998).",
+    "path": "papers/24/02/2402.07185.json",
+    "total_tokens": 785,
+    "translated_title": "存在具有有限股市参与和功率公用事业的均衡的证明",
+    "translated_abstract": "对于常数$\\gamma \\in (0,1)$和$A\\in (1,\\infty)$，我们证明了奇异的、路径相关的Riccati型ODE的解的存在性，其中\\begin{align*} \\begin{cases} h'(y) = \\frac{1+\\gamma}{y}\\big( \\gamma - h(y)\\big)+h(y)\\frac{\\gamma + \\big((A-\\gamma)e^{\\int_y^1 \\frac{1-h(q)}{1-q}dq}-A\\big)h(y)}{1-y},\\quad y\\in(0,1), \\\\ h(0) = \\gamma, \\quad h(1) = 1. \\end{cases} \\end{align*}作为一个应用，我们利用ODE的解来证明了在Basak和Cuoco（1998）的有限参与设置中具有均匀功率交易商的均衡的存在性。",
+    "tldr": "该研究证明了一个具有有限股市参与和功率公用事业的均衡的存在性，并通过求解奇异的、路径相关的Riccati型ODE来证明这一点。",
+    "en_tdlr": "This study proves the existence of an equilibrium with limited stock-market participation and power utilities, and demonstrates it by solving a singular and path-dependent Riccati-type ODE."
+}

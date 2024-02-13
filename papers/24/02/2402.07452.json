@@ -1,0 +1,12 @@
+{
+    "title": "TriAug: Out-of-Distribution Detection for Robust Classification of Imbalanced Breast Lesion in Ultrasound",
+    "abstract": "Different diseases, such as histological subtypes of breast lesions, have severely varying incidence rates. Even trained with substantial amount of in-distribution (ID) data, models often encounter out-of-distribution (OOD) samples belonging to unseen classes in clinical reality. To address this, we propose a novel framework built upon a long-tailed OOD detection task for breast ultrasound images. It is equipped with a triplet state augmentation (TriAug) which improves ID classification accuracy while maintaining a promising OOD detection performance. Meanwhile, we designed a balanced sphere loss to handle the class imbalanced problem.",
+    "link": "https://arxiv.org/abs/2402.07452",
+    "context": "Title: TriAug: Out-of-Distribution Detection for Robust Classification of Imbalanced Breast Lesion in Ultrasound\nAbstract: Different diseases, such as histological subtypes of breast lesions, have severely varying incidence rates. Even trained with substantial amount of in-distribution (ID) data, models often encounter out-of-distribution (OOD) samples belonging to unseen classes in clinical reality. To address this, we propose a novel framework built upon a long-tailed OOD detection task for breast ultrasound images. It is equipped with a triplet state augmentation (TriAug) which improves ID classification accuracy while maintaining a promising OOD detection performance. Meanwhile, we designed a balanced sphere loss to handle the class imbalanced problem.",
+    "path": "papers/24/02/2402.07452.json",
+    "total_tokens": 716,
+    "translated_title": "TriAug：用于超声乳腺病变不平衡分类的异常样本检测",
+    "translated_abstract": "不同的疾病，如乳腺病变的组织亚型，具有严重不同的发病率。即使通过大量的示踪数据进行训练，模型在临床实际中通常遇到属于未见类别的异常样本。为了解决这个问题，我们提出了一种新的框架，基于乳腺超声图像的长尾异常样本检测任务，并配备了一种三元状态增强（TriAug），它可以提高示踪分类的准确性，同时保持良好的异常样本检测性能。与此同时，我们设计了一个平衡的球形损失来处理类不平衡的问题。",
+    "tldr": "TriAug是一个用于乳腺超声图像的异常样本检测框架，通过使用三元状态增强和平衡的球形损失来提高示踪分类的准确性和异常样本检测性能。",
+    "en_tdlr": "TriAug is a framework for out-of-distribution detection in breast ultrasound images, which improves in-distribution classification accuracy and out-of-distribution detection performance through the use of triplet state augmentation and balanced sphere loss."
+}

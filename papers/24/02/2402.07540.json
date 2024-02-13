@@ -1,0 +1,12 @@
+{
+    "title": "PKG API: A Tool for Personal Knowledge Graph Management",
+    "abstract": "Personal knowledge graphs (PKGs) offer individuals a way to store and consolidate their fragmented personal data in a central place, improving service personalization while maintaining full user control. Despite their potential, practical PKG implementations with user-friendly interfaces remain scarce. This work addresses this gap by proposing a complete solution to represent, manage, and interface with PKGs. Our approach includes (1) a user-facing PKG Client, enabling end-users to administer their personal data easily via natural language statements, and (2) a service-oriented PKG API. To tackle the complexity of representing these statements within a PKG, we present an RDF-based PKG vocabulary that supports this, along with properties for access rights and provenance.",
+    "link": "https://arxiv.org/abs/2402.07540",
+    "context": "Title: PKG API: A Tool for Personal Knowledge Graph Management\nAbstract: Personal knowledge graphs (PKGs) offer individuals a way to store and consolidate their fragmented personal data in a central place, improving service personalization while maintaining full user control. Despite their potential, practical PKG implementations with user-friendly interfaces remain scarce. This work addresses this gap by proposing a complete solution to represent, manage, and interface with PKGs. Our approach includes (1) a user-facing PKG Client, enabling end-users to administer their personal data easily via natural language statements, and (2) a service-oriented PKG API. To tackle the complexity of representing these statements within a PKG, we present an RDF-based PKG vocabulary that supports this, along with properties for access rights and provenance.",
+    "path": "papers/24/02/2402.07540.json",
+    "total_tokens": 764,
+    "translated_title": "PKG API：一个个人知识图管理工具",
+    "translated_abstract": "个人知识图（PKG）为个人提供了一种将碎片化的个人数据存储和整合到一个中心位置的方式，提高了服务的个性化程度同时保持用户的完全控制。尽管PKG的潜力巨大，但实际操作上具有用户友好界面的PKG实现仍然很少。本文通过提出一个完整的解决方案来表示、管理和与PKG进行交互来填补这一空白。我们的方法包括（1）一个面向用户的PKG客户端，使最终用户可以通过自然语言陈述轻松管理他们的个人数据，以及（2）一个面向服务的PKG API。为了应对在PKG中表示这些陈述的复杂性，我们提出了一种基于RDF的PKG词汇表来支持这一点，并提供了访问权限和来源的属性。",
+    "tldr": "本文提出了一个完整的个人知识图（PKG）管理解决方案，包括用户界面友好的PKG客户端和面向服务的PKG API，以及基于RDF的PKG词汇表用于表示陈述和访问权限。",
+    "en_tdlr": "This paper proposes a complete solution for personal knowledge graph (PKG) management, including a user-friendly PKG client, a service-oriented PKG API, and an RDF-based PKG vocabulary for representing statements and access rights."
+}

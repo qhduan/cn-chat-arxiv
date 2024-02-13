@@ -1,0 +1,12 @@
+{
+    "title": "A Scalable Algorithm for Individually Fair K-means Clustering",
+    "abstract": "We present a scalable algorithm for the individually fair ($p$, $k$)-clustering problem introduced by Jung et al. and Mahabadi et al. Given $n$ points $P$ in a metric space, let $\\delta(x)$ for $x\\in P$ be the radius of the smallest ball around $x$ containing at least $n / k$ points. A clustering is then called individually fair if it has centers within distance $\\delta(x)$ of $x$ for each $x\\in P$. While good approximation algorithms are known for this problem no efficient practical algorithms with good theoretical guarantees have been presented. We design the first fast local-search algorithm that runs in ~$O(nk^2)$ time and obtains a bicriteria $(O(1), 6)$ approximation. Then we show empirically that not only is our algorithm much faster than prior work, but it also produces lower-cost solutions.",
+    "link": "https://arxiv.org/abs/2402.06730",
+    "context": "Title: A Scalable Algorithm for Individually Fair K-means Clustering\nAbstract: We present a scalable algorithm for the individually fair ($p$, $k$)-clustering problem introduced by Jung et al. and Mahabadi et al. Given $n$ points $P$ in a metric space, let $\\delta(x)$ for $x\\in P$ be the radius of the smallest ball around $x$ containing at least $n / k$ points. A clustering is then called individually fair if it has centers within distance $\\delta(x)$ of $x$ for each $x\\in P$. While good approximation algorithms are known for this problem no efficient practical algorithms with good theoretical guarantees have been presented. We design the first fast local-search algorithm that runs in ~$O(nk^2)$ time and obtains a bicriteria $(O(1), 6)$ approximation. Then we show empirically that not only is our algorithm much faster than prior work, but it also produces lower-cost solutions.",
+    "path": "papers/24/02/2402.06730.json",
+    "total_tokens": 819,
+    "translated_title": "一个可扩展的算法用于个体公平的K均值聚类",
+    "translated_abstract": "我们提出了一种可扩展的算法，用于个体公平的（p，k）聚类问题，该问题由Jung等人和Mahabadi等人引入。给定度量空间中的n个点P，对于P中的每个x，令$\\delta(x)$为包含至少n/k个点的最小球的半径。如果聚类中的中心与x的距离小于等于$\\delta(x)$，则将其称为个体公平的聚类。虽然已经有了好的近似算法，但尚未提出具有良好理论保证的高效实用算法。我们设计了第一个快速局部搜索算法，其运行时间仅为~O(nk^2)，并且能够获得（O(1)，6）的双目标近似。然后，我们通过实验证明，我们的算法不仅比之前的工作快得多，而且还能够产生更低成本的解决方案。",
+    "tldr": "本文提出了一个可扩展的算法用于个体公平的K均值聚类问题，该算法比现有的算法更快并且能够产生更低成本的解决方案。",
+    "en_tdlr": "This paper presents a scalable algorithm for individually fair K-means clustering, which is faster and produces lower-cost solutions compared to existing algorithms."
+}

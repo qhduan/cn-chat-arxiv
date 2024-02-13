@@ -1,0 +1,12 @@
+{
+    "title": "Inertial Newton Algorithms Avoiding Strict Saddle Points",
+    "abstract": "We study the asymptotic behavior of second-order algorithms mixing Newton's method and inertial gradient descent in non-convex landscapes. We show that, despite the Newtonian behavior of these methods, they almost always escape strict saddle points. We also evidence the role played by the hyper-parameters of these methods in their qualitative behavior near critical points. The theoretical results are supported by numerical illustrations.",
+    "link": "https://arxiv.org/abs/2111.04596",
+    "context": "Title: Inertial Newton Algorithms Avoiding Strict Saddle Points\nAbstract: We study the asymptotic behavior of second-order algorithms mixing Newton's method and inertial gradient descent in non-convex landscapes. We show that, despite the Newtonian behavior of these methods, they almost always escape strict saddle points. We also evidence the role played by the hyper-parameters of these methods in their qualitative behavior near critical points. The theoretical results are supported by numerical illustrations.",
+    "path": "papers/21/11/2111.04596.json",
+    "total_tokens": 569,
+    "translated_title": "避免严格鞍点的惯性牛顿算法研究",
+    "translated_abstract": "我们研究了在非凸地形中混合使用牛顿法和惯性梯度下降的二阶算法的渐近行为。我们表明，尽管这些方法具有牛顿特性，它们几乎总是可以避免严格鞍点。我们还证明了这些方法的超参数在临界点附近的定性行为中起到的作用。理论结果得到了数值实例的支持。",
+    "tldr": "混合使用牛顿法和惯性梯度下降的二阶算法几乎总是可以避免严格鞍点，并通过数值实例支持了理论结果。",
+    "en_tdlr": "Second-order algorithms that combine Newton's method and inertial gradient descent can almost always avoid strict saddle points, as supported by numerical illustrations."
+}

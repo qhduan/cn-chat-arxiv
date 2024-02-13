@@ -1,0 +1,12 @@
+{
+    "title": "Near-Minimax-Optimal Distributional Reinforcement Learning with a Generative Model",
+    "abstract": "We propose a new algorithm for model-based distributional reinforcement learning (RL), and prove that it is minimax-optimal for approximating return distributions with a generative model (up to logarithmic factors), resolving an open question of Zhang et al. (2023). Our analysis provides new theoretical results on categorical approaches to distributional RL, and also introduces a new distributional Bellman equation, the stochastic categorical CDF Bellman equation, which we expect to be of independent interest. We also provide an experimental study comparing several model-based distributional RL algorithms, with several takeaways for practitioners.",
+    "link": "https://arxiv.org/abs/2402.07598",
+    "context": "Title: Near-Minimax-Optimal Distributional Reinforcement Learning with a Generative Model\nAbstract: We propose a new algorithm for model-based distributional reinforcement learning (RL), and prove that it is minimax-optimal for approximating return distributions with a generative model (up to logarithmic factors), resolving an open question of Zhang et al. (2023). Our analysis provides new theoretical results on categorical approaches to distributional RL, and also introduces a new distributional Bellman equation, the stochastic categorical CDF Bellman equation, which we expect to be of independent interest. We also provide an experimental study comparing several model-based distributional RL algorithms, with several takeaways for practitioners.",
+    "path": "papers/24/02/2402.07598.json",
+    "total_tokens": 731,
+    "translated_title": "基于生成模型的近最小极大分布式强化学习算法",
+    "translated_abstract": "我们提出了一种新的基于模型的分布式强化学习算法，并证明了在使用生成模型近似回报分布方面，它是近似最小极大的（在对数因子上），从而解决了Zhang等人（2023）的一个开放问题。我们的分析为分布式强化学习中的分类方法提供了新的理论结果，并引入了一种新的分布式Bellman方程，即随机分类累积分布函数Bellman方程，我们认为这个方程也具有独立的研究意义。我们还进行了实验研究，比较了几种基于模型的分布式强化学习算法，并得出了对实践者有意义的几个结论。",
+    "tldr": "本论文提出了一种基于生成模型的近最小极大分布式强化学习算法，该算法在使用生成模型近似回报分布方面具有极小极大优势，解决了一个开放问题，并提供了实验研究结果。",
+    "en_tdlr": "This paper proposes a near-minimax-optimal model-based distributional reinforcement learning algorithm with a generative model, which resolves an open question and provides experimental study results."
+}

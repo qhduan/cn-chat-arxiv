@@ -1,0 +1,12 @@
+{
+    "title": "Ensuring trustworthy and ethical behaviour in intelligent logical agents",
+    "abstract": "Autonomous Intelligent Agents are employed in many applications upon which the life and welfare of living beings and vital social functions may depend. Therefore, agents should be trustworthy. A priori certification techniques (i.e., techniques applied prior to system's deployment) can be useful, but are not sufficient for agents that evolve, and thus modify their epistemic and belief state, and for open Multi-Agent Systems, where heterogeneous agents can join or leave the system at any stage of its operation. In this paper, we propose/refine/extend dynamic (runtime) logic-based self-checking techniques, devised in order to be able to ensure agents' trustworthy and ethical behaviour.",
+    "link": "https://arxiv.org/abs/2402.07547",
+    "context": "Title: Ensuring trustworthy and ethical behaviour in intelligent logical agents\nAbstract: Autonomous Intelligent Agents are employed in many applications upon which the life and welfare of living beings and vital social functions may depend. Therefore, agents should be trustworthy. A priori certification techniques (i.e., techniques applied prior to system's deployment) can be useful, but are not sufficient for agents that evolve, and thus modify their epistemic and belief state, and for open Multi-Agent Systems, where heterogeneous agents can join or leave the system at any stage of its operation. In this paper, we propose/refine/extend dynamic (runtime) logic-based self-checking techniques, devised in order to be able to ensure agents' trustworthy and ethical behaviour.",
+    "path": "papers/24/02/2402.07547.json",
+    "total_tokens": 646,
+    "translated_title": "确保智能逻辑代理的可信和道德行为",
+    "translated_abstract": "自主智能代理在许多应用中被使用，这些应用可能涉及到生命和福祉以及重要的社会功能。因此，代理应该是可信的。先验认证技术（即在系统部署之前应用的技术）可能是有用的，但对于演变的代理和开放的多代理系统来说，这是不够的，因为异构代理可以在系统的任何阶段加入或离开系统。在本文中，我们提出/改进/扩展了基于动态（运行时）逻辑的自检技术，目的是确保代理的可信和道德行为。",
+    "tldr": "该论文提出了基于动态逻辑的自检技术，旨在确保智能逻辑代理的可信和道德行为。",
+    "en_tdlr": "This paper proposes dynamic logic-based self-checking techniques to ensure trustworthy and ethical behavior in intelligent logical agents."
+}

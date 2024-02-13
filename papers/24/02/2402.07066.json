@@ -1,0 +1,12 @@
+{
+    "title": "Differentially Private Range Queries with Correlated Input Perturbation",
+    "abstract": "This work proposes a class of locally differentially private mechanisms for linear queries, in particular range queries, that leverages correlated input perturbation to simultaneously achieve unbiasedness, consistency, statistical transparency, and control over utility requirements in terms of accuracy targets expressed either in certain query margins or as implied by the hierarchical database structure. The proposed Cascade Sampling algorithm instantiates the mechanism exactly and efficiently. Our bounds show that we obtain near-optimal utility while being empirically competitive against output perturbation methods.",
+    "link": "https://arxiv.org/abs/2402.07066",
+    "context": "Title: Differentially Private Range Queries with Correlated Input Perturbation\nAbstract: This work proposes a class of locally differentially private mechanisms for linear queries, in particular range queries, that leverages correlated input perturbation to simultaneously achieve unbiasedness, consistency, statistical transparency, and control over utility requirements in terms of accuracy targets expressed either in certain query margins or as implied by the hierarchical database structure. The proposed Cascade Sampling algorithm instantiates the mechanism exactly and efficiently. Our bounds show that we obtain near-optimal utility while being empirically competitive against output perturbation methods.",
+    "path": "papers/24/02/2402.07066.json",
+    "total_tokens": 669,
+    "translated_title": "具有相关输入扰动的差分隐私范围查询",
+    "translated_abstract": "本工作提出了一种用于线性查询的局部差分隐私机制，特别是范围查询，利用相关输入扰动同时实现无偏性、一致性、统计透明性和对精度目标的控制，无论是在某些查询边缘上还是在层次数据库结构所暗示的精度要求上。所提出的级联采样算法准确高效地实现了该机制。我们的界限表明，我们在保障近乎最优的效用的同时，与输出扰动方法在实践中具有竞争力。",
+    "tldr": "本研究提出了一种具有相关输入扰动的差分隐私范围查询的局部机制，通过级联采样算法实现，实验表明在保障近乎最优的效用的同时，与输出扰动方法在实践中具有竞争力。",
+    "en_tdlr": "This research proposes a locally differentially private mechanism for range queries with correlated input perturbation, implemented efficiently through the Cascade Sampling algorithm. The empirical results show that our approach achieves near-optimal utility and remains competitive with output perturbation methods."
+}

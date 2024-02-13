@@ -1,0 +1,11 @@
+{
+    "title": "Some Finite Sample Properties of the Sign Test",
+    "abstract": "This paper contains two finite-sample results concerning the sign test. First, we show that the sign-test is unbiased with independent, non-identically distributed data for both one-sided and two-sided hypotheses. The proof for the two-sided case is based on a novel argument that relates the derivatives of the power function to a regular bipartite graph. Unbiasedness then follows from the existence of perfect matchings on such graphs. Second, we provide a simple theoretical counterexample to show that the sign test over-rejects when the data exhibits correlation. Our results can be useful for understanding the properties of approximate randomization tests in settings with few clusters.",
+    "link": "https://arxiv.org/abs/2103.01412",
+    "context": "Title: Some Finite Sample Properties of the Sign Test\nAbstract: This paper contains two finite-sample results concerning the sign test. First, we show that the sign-test is unbiased with independent, non-identically distributed data for both one-sided and two-sided hypotheses. The proof for the two-sided case is based on a novel argument that relates the derivatives of the power function to a regular bipartite graph. Unbiasedness then follows from the existence of perfect matchings on such graphs. Second, we provide a simple theoretical counterexample to show that the sign test over-rejects when the data exhibits correlation. Our results can be useful for understanding the properties of approximate randomization tests in settings with few clusters.",
+    "path": "papers/21/03/2103.01412.json",
+    "total_tokens": 769,
+    "translated_title": "一些关于符号检验的有限样本性质",
+    "translated_abstract": "本文包含了关于符号检验的两个有限样本结果。首先，我们证明了在一侧和双侧假设下，符号检验对于独立非同分布的数据是无偏的。对于双侧假设，证明基于一种新颖的论证，将功效函数的导数与正则二部图联系起来。通过存在完美匹配，我们可以得到无偏性。其次，我们给出了一个简单的理论反例，证明了当数据存在相关性时，符号检验会出现过度拒绝的情况。我们的结果对于理解具有少数群集的近似随机化检验的性质是有用的。",
+    "tldr": "本文研究了符号检验的两个有限样本性质。首先，我们证明了对于独立非同分布的数据，符号检验是无偏的。其次，我们发现当数据存在相关性时，符号检验会过度拒绝。这些结果对于了解少数群集下的近似随机化检验的性质是有帮助的。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "American Sign Language Video to Text Translation",
+    "abstract": "Sign language to text is a crucial technology that can break down communication barriers for individuals with hearing difficulties. We replicate and try to improve on a recently published study. We evaluate models using BLEU and rBLEU metrics to ensure translation quality. During our ablation study, we found that the model's performance is significantly influenced by optimizers, activation functions, and label smoothing. Further research aims to refine visual feature capturing, enhance decoder utilization, and integrate pre-trained decoders for better translation outcomes. Our source code is available to facilitate replication of our results and encourage future research.",
+    "link": "https://arxiv.org/abs/2402.07255",
+    "context": "Title: American Sign Language Video to Text Translation\nAbstract: Sign language to text is a crucial technology that can break down communication barriers for individuals with hearing difficulties. We replicate and try to improve on a recently published study. We evaluate models using BLEU and rBLEU metrics to ensure translation quality. During our ablation study, we found that the model's performance is significantly influenced by optimizers, activation functions, and label smoothing. Further research aims to refine visual feature capturing, enhance decoder utilization, and integrate pre-trained decoders for better translation outcomes. Our source code is available to facilitate replication of our results and encourage future research.",
+    "path": "papers/24/02/2402.07255.json",
+    "total_tokens": 811,
+    "translated_title": "美国手语视频到文字的翻译",
+    "translated_abstract": "手语到文本的转换是一项关键技术，可以消除听力困难人群之间的沟通障碍。我们复制并试图改进最近一项已发表的研究。我们使用BLEU和rBLEU指标评估模型，以确保翻译质量。在我们的消融研究中，我们发现模型的性能受到优化器、激活函数和标签平滑的显著影响。进一步的研究旨在改进视觉特征捕捉、增强解码器利用率，并整合预训练解码器以获得更好的翻译结果。我们的源代码可用于复制我们的结果并鼓励未来的研究。",
+    "tldr": "这项研究关注美国手语视频到文字的翻译技术，通过复制和改进以往研究，建立了评估模型的方法，发现模型性能受优化器、激活函数和标签平滑的影响，进一步研究旨在改善视觉特征捕捉、增强解码器利用率，并整合预训练解码器，以实现更好的翻译结果。",
+    "en_tdlr": "This study focuses on the translation of American Sign Language videos to text. By replicating and improving upon previous research, the authors propose evaluation metrics and identify factors such as optimizers, activation functions, and label smoothing that significantly impact the model's performance. Future research aims to refine visual feature capturing, enhance decoder utilization, and integrate pre-trained decoders for improved translation outcomes."
+}

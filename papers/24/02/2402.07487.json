@@ -1,0 +1,12 @@
+{
+    "title": "Score-based Diffusion Models via Stochastic Differential Equations -- a Technical Tutorial",
+    "abstract": "This is an expository article on the score-based diffusion models, with a particular focus on the formulation via stochastic differential equations (SDE). After a gentle introduction, we discuss the two pillars in the diffusion modeling -- sampling and score matching, which encompass the SDE/ODE sampling, score matching efficiency, the consistency model, and reinforcement learning. Short proofs are given to illustrate the main idea of the stated results. The article is primarily for introducing the beginners to the field, and practitioners may also find some analysis useful in designing new models or algorithms.",
+    "link": "https://arxiv.org/abs/2402.07487",
+    "context": "Title: Score-based Diffusion Models via Stochastic Differential Equations -- a Technical Tutorial\nAbstract: This is an expository article on the score-based diffusion models, with a particular focus on the formulation via stochastic differential equations (SDE). After a gentle introduction, we discuss the two pillars in the diffusion modeling -- sampling and score matching, which encompass the SDE/ODE sampling, score matching efficiency, the consistency model, and reinforcement learning. Short proofs are given to illustrate the main idea of the stated results. The article is primarily for introducing the beginners to the field, and practitioners may also find some analysis useful in designing new models or algorithms.",
+    "path": "papers/24/02/2402.07487.json",
+    "total_tokens": 729,
+    "translated_title": "基于分数的扩散模型：随机微分方程的技术教程",
+    "translated_abstract": "本文是关于基于分数的扩散模型的阐释性文章，重点介绍了通过随机微分方程(SDE)进行公式化的方法。在温和的介绍之后，我们讨论了扩散建模的两个关键点--采样和分数匹配，其中包括SDE/ODE采样，分数匹配效率，一致性模型和强化学习。我们提供了简短的证明来说明所述结果的主要思想。本文主要是为了向初学者介绍这个领域，同时从业人员在设计新模型或算法时也可能会发现一些分析有用。",
+    "tldr": "本文是基于分数的扩散模型的技术教程，重点讲解了通过随机微分方程进行公式化的方法，包括采样和分数匹配。适合初学者了解该领域，并且从业人员在设计新模型或算法时也可能会有所帮助。",
+    "en_tdlr": "This is a technical tutorial on the score-based diffusion models, specifically focusing on the formulation via stochastic differential equations (SDE). It covers the topics of sampling and score matching, and is suitable for beginners in understanding the field, as well as practitioners in designing new models or algorithms."
+}

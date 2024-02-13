@@ -1,0 +1,11 @@
+{
+    "title": "Perfect Bayesian Persuasion",
+    "abstract": "A sender commits to an experiment to persuade a receiver. Accounting for the sender's experiment-choice incentives, and not presupposing a receiver tie-breaking rule when indifferent, we characterize when the sender's equilibrium payoff is unique and so coincides with her \"Bayesian persuasion\" value. A sufficient condition in finite models is that every action which is receiver-optimal at some belief is uniquely optimal at some other belief -- a generic property. We similarly show the equilibrium sender payoff is typically unique in ordered models. In an extension, we show uniqueness generates robustness to imperfect sender commitment.",
+    "link": "https://arxiv.org/abs/2402.06765",
+    "context": "Title: Perfect Bayesian Persuasion\nAbstract: A sender commits to an experiment to persuade a receiver. Accounting for the sender's experiment-choice incentives, and not presupposing a receiver tie-breaking rule when indifferent, we characterize when the sender's equilibrium payoff is unique and so coincides with her \"Bayesian persuasion\" value. A sufficient condition in finite models is that every action which is receiver-optimal at some belief is uniquely optimal at some other belief -- a generic property. We similarly show the equilibrium sender payoff is typically unique in ordered models. In an extension, we show uniqueness generates robustness to imperfect sender commitment.",
+    "path": "papers/24/02/2402.06765.json",
+    "total_tokens": 688,
+    "translated_title": "完美的贝叶斯说服",
+    "translated_abstract": "发送方承诺进行一个实验来说服接收方。考虑到发送方进行实验选择的激励因素，并且不假设在接收方比较时有一个决定规则，我们确定了当发送方的均衡收益是唯一的时候，它与她的\"贝叶斯说服\"价值是一致的。在有限模型中一个充分条件是，每个在某种信念下是接收方最优的行动，在其他某种信念下是唯一最优的--这是一种普遍特性。我们同样展示了在有序模型中均衡发送方收益通常是唯一的。在一个扩展中，我们展示了唯一性对于不完美的发送方承诺是鲁棒的。",
+    "tldr": "本文研究了完美贝叶斯说服问题，研究了发送方在实验选择激励下的均衡收益以及在不完美承诺下的鲁棒性。"
+}

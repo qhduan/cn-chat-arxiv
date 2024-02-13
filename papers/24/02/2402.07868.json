@@ -1,0 +1,12 @@
+{
+    "title": "Nesting Particle Filters for Experimental Design in Dynamical Systems",
+    "abstract": "In this paper, we propose a novel approach to Bayesian Experimental Design (BED) for non-exchangeable data that formulates it as risk-sensitive policy optimization. We develop the Inside-Out SMC^2 algorithm that uses a nested sequential Monte Carlo (SMC) estimator of the expected information gain and embeds it into a particle Markov chain Monte Carlo (pMCMC) framework to perform gradient-based policy optimization. This is in contrast to recent approaches that rely on biased estimators of the expected information gain (EIG) to amortize the cost of experiments by learning a design policy in advance. Numerical validation on a set of dynamical systems showcases the efficacy of our method in comparison to other state-of-the-art strategies.",
+    "link": "https://arxiv.org/abs/2402.07868",
+    "context": "Title: Nesting Particle Filters for Experimental Design in Dynamical Systems\nAbstract: In this paper, we propose a novel approach to Bayesian Experimental Design (BED) for non-exchangeable data that formulates it as risk-sensitive policy optimization. We develop the Inside-Out SMC^2 algorithm that uses a nested sequential Monte Carlo (SMC) estimator of the expected information gain and embeds it into a particle Markov chain Monte Carlo (pMCMC) framework to perform gradient-based policy optimization. This is in contrast to recent approaches that rely on biased estimators of the expected information gain (EIG) to amortize the cost of experiments by learning a design policy in advance. Numerical validation on a set of dynamical systems showcases the efficacy of our method in comparison to other state-of-the-art strategies.",
+    "path": "papers/24/02/2402.07868.json",
+    "total_tokens": 768,
+    "translated_title": "动态系统中的实验设计的嵌套粒子滤波器",
+    "translated_abstract": "本文提出了一种新颖的贝叶斯实验设计方法，用于非交换数据，并将其形式化为风险敏感的策略优化。我们开发了内外SMC^2算法，使用嵌套顺序蒙特卡洛（SMC）估计器来预测期望的信息增益，并将其嵌入到粒子马尔可夫链蒙特卡洛（pMCMC）框架中进行基于梯度的策略优化。与最近依赖于偏估计器来摊销先前学习设计策略的成本的方法相比，我们的方法具有更好的性能。在一组动态系统的数值验证中展示了我们方法的有效性。",
+    "tldr": "本文提出了一种新颖的方法来解决动态系统中的贝叶斯实验设计问题，利用嵌套粒子滤波器和立体蒙特卡洛方法来进行基于梯度的策略优化，相比于其他方法具有更好的性能。",
+    "en_tdlr": "This paper presents a novel approach to Bayesian Experimental Design in dynamical systems, using nesting particle filters and a Markov chain Monte Carlo framework for gradient-based policy optimization. It outperforms other methods in terms of performance."
+}

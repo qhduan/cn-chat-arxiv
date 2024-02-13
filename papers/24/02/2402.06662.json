@@ -1,0 +1,11 @@
+{
+    "title": "Sign Rank Limitations for Attention-Based Graph Decoders",
+    "abstract": "Inner product-based decoders are among the most influential frameworks used to extract meaningful data from latent embeddings. However, such decoders have shown limitations in representation capacity in numerous works within the literature, which have been particularly notable in graph reconstruction problems. In this paper, we provide the first theoretical elucidation of this pervasive phenomenon in graph data, and suggest straightforward modifications to circumvent this issue without deviating from the inner product framework.",
+    "link": "https://arxiv.org/abs/2402.06662",
+    "context": "Title: Sign Rank Limitations for Attention-Based Graph Decoders\nAbstract: Inner product-based decoders are among the most influential frameworks used to extract meaningful data from latent embeddings. However, such decoders have shown limitations in representation capacity in numerous works within the literature, which have been particularly notable in graph reconstruction problems. In this paper, we provide the first theoretical elucidation of this pervasive phenomenon in graph data, and suggest straightforward modifications to circumvent this issue without deviating from the inner product framework.",
+    "path": "papers/24/02/2402.06662.json",
+    "total_tokens": 567,
+    "translated_title": "基于注意力的图解码器的符号秩限制",
+    "translated_abstract": "内积型解码器是提取潜在嵌入数据中有意义信息的最有影响力的框架之一。然而，这种解码器在表征容量方面存在限制，在图重建问题中尤为明显。本文首次在图数据中提供了对这一普遍现象的理论阐述，并提出了直接修改方案以解决该问题，且不脱离内积框架。",
+    "tldr": "该论文研究了基于注意力的图解码器在表征容量方面的限制问题，并提出了可以解决该问题的简单修正方案，而不改变内积框架。"
+}

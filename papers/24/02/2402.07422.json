@@ -1,0 +1,12 @@
+{
+    "title": "News Recommendation with Attention Mechanism",
+    "abstract": "This paper explores the area of news recommendation, a key component of online information sharing. Initially, we provide a clear introduction to news recommendation, defining the core problem and summarizing current methods and notable recent algorithms. We then present our work on implementing the NRAM (News Recommendation with Attention Mechanism), an attention-based approach for news recommendation, and assess its effectiveness. Our evaluation shows that NRAM has the potential to significantly improve how news content is personalized for users on digital news platforms.",
+    "link": "https://arxiv.org/abs/2402.07422",
+    "context": "Title: News Recommendation with Attention Mechanism\nAbstract: This paper explores the area of news recommendation, a key component of online information sharing. Initially, we provide a clear introduction to news recommendation, defining the core problem and summarizing current methods and notable recent algorithms. We then present our work on implementing the NRAM (News Recommendation with Attention Mechanism), an attention-based approach for news recommendation, and assess its effectiveness. Our evaluation shows that NRAM has the potential to significantly improve how news content is personalized for users on digital news platforms.",
+    "path": "papers/24/02/2402.07422.json",
+    "total_tokens": 611,
+    "translated_title": "带有注意机制的新闻推荐",
+    "translated_abstract": "本文探索了新闻推荐领域，这是在线信息分享的关键组成部分。首先，我们对新闻推荐进行了清晰的介绍，定义了核心问题并总结了当前方法和近期值得注意的算法。然后，我们提出了NRAM（带有注意机制的新闻推荐）的实现，这是一种基于注意力机制的新闻推荐方法，并评估了其有效性。我们的评估表明，NRAM有潜力显著提高数字新闻平台上针对用户个性化的新闻内容质量。",
+    "tldr": "本文提出了一种新的带有注意机制的新闻推荐方法NRAM，该方法可以显著提高数字新闻平台上的用户个性化新闻内容质量。",
+    "en_tdlr": "This paper proposes a novel news recommendation method, NRAM, with attention mechanism, which can significantly improve the quality of personalized news content on digital news platforms."
+}

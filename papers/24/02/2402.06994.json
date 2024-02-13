@@ -1,0 +1,11 @@
+{
+    "title": "A Change Detection Reality Check",
+    "abstract": "In recent years, there has been an explosion of proposed change detection deep learning architectures in the remote sensing literature. These approaches claim to offer state-of the-art performance on different standard benchmark datasets. However, has the field truly made significant progress? In this paper we perform experiments which conclude a simple U-Net segmentation baseline without training tricks or complicated architectural changes is still a top performer for the task of change detection.",
+    "link": "https://arxiv.org/abs/2402.06994",
+    "context": "Title: A Change Detection Reality Check\nAbstract: In recent years, there has been an explosion of proposed change detection deep learning architectures in the remote sensing literature. These approaches claim to offer state-of the-art performance on different standard benchmark datasets. However, has the field truly made significant progress? In this paper we perform experiments which conclude a simple U-Net segmentation baseline without training tricks or complicated architectural changes is still a top performer for the task of change detection.",
+    "path": "papers/24/02/2402.06994.json",
+    "total_tokens": 545,
+    "translated_title": "一个变化检测的现实验证",
+    "translated_abstract": "在近年来的遥感文献中，出现了大量提出的用于变化检测的深度学习架构。这些方法声称在不同的标准基准数据集上提供了最先进的性能。然而，该领域是否真正取得了重大进展？在本文中，我们进行了实验证明，一个简单的U-Net分割基线，没有训练技巧或复杂的架构改变，仍然是进行变化检测任务的顶尖表现者。",
+    "tldr": "该论文通过实验证明，一个简单的U-Net分割基线仍然是进行变化检测任务的顶尖表现者。"
+}

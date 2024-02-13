@@ -1,0 +1,11 @@
+{
+    "title": "Understanding Test-Time Augmentation",
+    "abstract": "Test-Time Augmentation (TTA) is a very powerful heuristic that takes advantage of data augmentation during testing to produce averaged output. Despite the experimental effectiveness of TTA, there is insufficient discussion of its theoretical aspects. In this paper, we aim to give theoretical guarantees for TTA and clarify its behavior.",
+    "link": "https://arxiv.org/abs/2402.06892",
+    "context": "Title: Understanding Test-Time Augmentation\nAbstract: Test-Time Augmentation (TTA) is a very powerful heuristic that takes advantage of data augmentation during testing to produce averaged output. Despite the experimental effectiveness of TTA, there is insufficient discussion of its theoretical aspects. In this paper, we aim to give theoretical guarantees for TTA and clarify its behavior.",
+    "path": "papers/24/02/2402.06892.json",
+    "total_tokens": 470,
+    "translated_title": "理解测试时间增强",
+    "translated_abstract": "测试时间增强（TTA）是一种非常有用的启发式方法，利用数据增强在测试中产生平均输出。尽管TTA在实验中显示出很好的效果，但对其理论方面的讨论还不足。本文旨在为TTA提供理论保证并澄清其行为。",
+    "tldr": "这篇论文旨在理解测试时间增强（TTA）方法并为其提供理论保证，同时澄清其行为。"
+}

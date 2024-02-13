@@ -1,0 +1,12 @@
+{
+    "title": "Error Estimation for Physics-informed Neural Networks Approximating Semilinear Wave Equations",
+    "abstract": "This paper provides rigorous error bounds for physics-informed neural networks approximating the semilinear wave equation. We provide bounds for the generalization and training error in terms of the width of the network's layers and the number of training points for a tanh neural network with two hidden layers. Our main result is a bound of the total error in the $H^1([0,T];L^2(\\Omega))$-norm in terms of the training error and the number of training points, which can be made arbitrarily small under some assumptions. We illustrate our theoretical bounds with numerical experiments.",
+    "link": "https://arxiv.org/abs/2402.07153",
+    "context": "Title: Error Estimation for Physics-informed Neural Networks Approximating Semilinear Wave Equations\nAbstract: This paper provides rigorous error bounds for physics-informed neural networks approximating the semilinear wave equation. We provide bounds for the generalization and training error in terms of the width of the network's layers and the number of training points for a tanh neural network with two hidden layers. Our main result is a bound of the total error in the $H^1([0,T];L^2(\\Omega))$-norm in terms of the training error and the number of training points, which can be made arbitrarily small under some assumptions. We illustrate our theoretical bounds with numerical experiments.",
+    "path": "papers/24/02/2402.07153.json",
+    "total_tokens": 688,
+    "translated_title": "物理信息神经网络逼近半线性波动方程的误差估计",
+    "translated_abstract": "本文对物理信息神经网络逼近半线性波动方程提供了严格的误差界限。我们针对具有两个隐藏层的tanh神经网络，基于网络层宽度和训练点数量，提供了对泛化误差和训练误差的界限。我们的主要结果是在一些假设下，将总误差以$H^1([0,T];L^2(\\Omega))$-范数的形式表示，并能够随着训练点数量的增加而任意减小。我们通过数值实验验证了我们的理论界限。",
+    "tldr": "本文提供了物理信息神经网络逼近半线性波动方程的严格误差界限，包括泛化误差和训练误差的界限，并在数值实验中展示了理论界限的有效性。",
+    "en_tdlr": "This paper presents rigorous error bounds for physics-informed neural networks approximating the semilinear wave equation, including bounds for both the generalization error and the training error. The numerical experiments demonstrate the effectiveness of the theoretical bounds in practice."
+}

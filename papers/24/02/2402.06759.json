@@ -1,0 +1,12 @@
+{
+    "title": "A Methodology for Questionnaire Analysis: Insights through Cluster Analysis of an Investor Competition Data",
+    "abstract": "In this paper, we propose a methodology for the analysis of questionnaire data along with its application on discovering insights from investor data motivated by a day trading competition. The questionnaire includes categorical questions, which are reduced to binary questions, 'yes' or 'no'. The methodology reduces dimensionality by grouping questions and participants with similar responses using clustering analysis. Rule discovery was performed by using a conversion rate metric. Innovative visual representations were proposed to validate the cluster analysis and the relation discovery between questions. When crossing with financial data, additional insights were revealed related to the recognized clusters.",
+    "link": "https://arxiv.org/abs/2402.06759",
+    "context": "Title: A Methodology for Questionnaire Analysis: Insights through Cluster Analysis of an Investor Competition Data\nAbstract: In this paper, we propose a methodology for the analysis of questionnaire data along with its application on discovering insights from investor data motivated by a day trading competition. The questionnaire includes categorical questions, which are reduced to binary questions, 'yes' or 'no'. The methodology reduces dimensionality by grouping questions and participants with similar responses using clustering analysis. Rule discovery was performed by using a conversion rate metric. Innovative visual representations were proposed to validate the cluster analysis and the relation discovery between questions. When crossing with financial data, additional insights were revealed related to the recognized clusters.",
+    "path": "papers/24/02/2402.06759.json",
+    "total_tokens": 693,
+    "translated_title": "一种问卷分析方法：通过对投资者竞赛数据进行聚类分析获得的见解",
+    "translated_abstract": "本文提出了一种问卷数据分析的方法，并应用于通过日内交易竞赛的投资者数据中发现见解。问卷包括分类问题，将其简化为二进制问题，即“是”或“否”。该方法通过使用聚类分析将具有相似响应的问题和参与者分组来降低维度。使用转化率指标进行规则发现。提出了创新的视觉表示方法来验证聚类分析以及问题之间的关系发现。与金融数据交叉时，还揭示了与识别的聚类相关的额外见解。",
+    "tldr": "本文提出了一种通过对投资者竞赛数据进行聚类分析的方法来分析问卷数据，发现与金融数据相结合时的额外见解，并提出了创新的视觉表示方法来验证聚类分析和问题之间的关系发现。",
+    "en_tdlr": "This paper proposes a methodology for analyzing questionnaire data by clustering analysis of investor competition data, and discovers additional insights when combined with financial data, along with innovative visual representations to validate the cluster analysis and relation discovery between questions."
+}

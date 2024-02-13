@@ -1,0 +1,11 @@
+{
+    "title": "Evaluation Metrics for Automated Typographic Poster Generation",
+    "abstract": "Computational Design approaches facilitate the generation of typographic design, but evaluating these designs remains a challenging task. In this paper, we propose a set of heuristic metrics for typographic design evaluation, focusing on their legibility, which assesses the text visibility, aesthetics, which evaluates the visual quality of the design, and semantic features, which estimate how effectively the design conveys the content semantics. We experiment with a constrained evolutionary approach for generating typographic posters, incorporating the proposed evaluation metrics with varied setups, and treating the legibility metrics as constraints. We also integrate emotion recognition to identify text semantics automatically and analyse the performance of the approach and the visual characteristics outputs.",
+    "link": "https://arxiv.org/abs/2402.06945",
+    "context": "Title: Evaluation Metrics for Automated Typographic Poster Generation\nAbstract: Computational Design approaches facilitate the generation of typographic design, but evaluating these designs remains a challenging task. In this paper, we propose a set of heuristic metrics for typographic design evaluation, focusing on their legibility, which assesses the text visibility, aesthetics, which evaluates the visual quality of the design, and semantic features, which estimate how effectively the design conveys the content semantics. We experiment with a constrained evolutionary approach for generating typographic posters, incorporating the proposed evaluation metrics with varied setups, and treating the legibility metrics as constraints. We also integrate emotion recognition to identify text semantics automatically and analyse the performance of the approach and the visual characteristics outputs.",
+    "path": "papers/24/02/2402.06945.json",
+    "total_tokens": 744,
+    "translated_title": "评价自动印刷海报生成的度量标准",
+    "translated_abstract": "计算设计方法促进了印刷设计的生成，但评估这些设计仍然是一个具有挑战性的任务。本文提出了一组启发式度量标准，用于评估印刷设计，重点评估其可读性，评估设计的视觉质量和估计设计有效传达内容语义的语义特征。我们使用约束进化方法生成印刷海报，并将提出的评价度量标准与不同设置结合使用，将可读性度量标准视为约束条件。我们还集成情感识别技术，以自动识别文本语义，并分析该方法和视觉特征的性能输出。",
+    "tldr": "本文提出一组启发式度量标准用于评估自动生成的印刷海报，包括可读性、美观度和语义特征。通过约束进化方法生成海报，并将度量标准作为约束条件。此外，还集成情感识别技术，并分析了方法和视觉特征的性能。"
+}

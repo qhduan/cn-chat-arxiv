@@ -1,0 +1,12 @@
+{
+    "title": "VCR: Video representation for Contextual Retrieval",
+    "abstract": "Streamlining content discovery within media archives requires integrating advanced data representations and effective visualization techniques for clear communication of video topics to users. The proposed system addresses the challenge of efficiently navigating large video collections by exploiting a fusion of visual, audio, and textual features to accurately index and categorize video content through a text-based method. Additionally, semantic embeddings are employed to provide contextually relevant information and recommendations to users, resulting in an intuitive and engaging exploratory experience over our topics ontology map using OpenAI GPT-4.",
+    "link": "https://arxiv.org/abs/2402.07466",
+    "context": "Title: VCR: Video representation for Contextual Retrieval\nAbstract: Streamlining content discovery within media archives requires integrating advanced data representations and effective visualization techniques for clear communication of video topics to users. The proposed system addresses the challenge of efficiently navigating large video collections by exploiting a fusion of visual, audio, and textual features to accurately index and categorize video content through a text-based method. Additionally, semantic embeddings are employed to provide contextually relevant information and recommendations to users, resulting in an intuitive and engaging exploratory experience over our topics ontology map using OpenAI GPT-4.",
+    "path": "papers/24/02/2402.07466.json",
+    "total_tokens": 645,
+    "translated_title": "VCR: 文本检索下的视频表示方法",
+    "translated_abstract": "在媒体档案中简化内容发现需要整合先进的数据表示和有效的可视化技术，以清晰地向用户传达视频主题。该系统通过利用视觉、音频和文本特征的融合来有效地导航大型视频集合，并通过基于文本的方法准确地索引和分类视频内容。此外，还使用语义嵌入来为用户提供相关的信息和推荐，从而在使用OpenAI GPT-4的主题本体图上获得直观而有吸引力的探索体验。",
+    "tldr": "该论文提出了一种基于文本的方法，通过融合视觉、音频和文本特征来高效地索引和分类视频内容，并使用语义嵌入提供相关的信息和推荐，从而实现了一种直观而有吸引力的探索体验。",
+    "en_tdlr": "This paper proposes a text-based method that efficiently indexes and categorizes video content by combining visual, audio, and textual features, and provides contextually relevant information and recommendations using semantic embeddings, resulting in an intuitive and engaging exploratory experience."
+}

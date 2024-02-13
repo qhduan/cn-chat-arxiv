@@ -1,0 +1,12 @@
+{
+    "title": "Previously on the Stories: Recap Snippet Identification for Story Reading",
+    "abstract": "Similar to the \"previously-on\" scenes in TV shows, recaps can help book reading by recalling the readers' memory about the important elements in previous texts to better understand the ongoing plot. Despite its usefulness, this application has not been well studied in the NLP community. We propose the first benchmark on this useful task called Recap Snippet Identification with a hand-crafted evaluation dataset. Our experiments show that the proposed task is challenging to PLMs, LLMs, and proposed methods as the task requires a deep understanding of the plot correlation between snippets.",
+    "link": "https://arxiv.org/abs/2402.07271",
+    "context": "Title: Previously on the Stories: Recap Snippet Identification for Story Reading\nAbstract: Similar to the \"previously-on\" scenes in TV shows, recaps can help book reading by recalling the readers' memory about the important elements in previous texts to better understand the ongoing plot. Despite its usefulness, this application has not been well studied in the NLP community. We propose the first benchmark on this useful task called Recap Snippet Identification with a hand-crafted evaluation dataset. Our experiments show that the proposed task is challenging to PLMs, LLMs, and proposed methods as the task requires a deep understanding of the plot correlation between snippets.",
+    "path": "papers/24/02/2402.07271.json",
+    "total_tokens": 738,
+    "translated_title": "以故事总结片段辅助阅读：故事阅读中的回顾片段识别",
+    "translated_abstract": "类似于电视剧中的\"前情回顾\"，回顾片段可以通过回忆读者在之前的文本中的重要元素来帮助书籍阅读，以更好地理解正在进行的情节。尽管其有用性，但这种应用在自然语言处理领域尚未得到很好的研究。我们提出了第一个该有用任务的基准-回顾片段识别，并使用手工评估数据集进行评估。我们的实验证实，该任务对于PLMs、LLMs和提出的方法来说是具有挑战性的，因为该任务需要深入理解片段之间情节的相关性。",
+    "tldr": "本研究提出了一项新的任务，即回顾片段识别，在故事阅读中通过回顾之前的重要元素来辅助理解正在进行的情节。该任务对PLMs、LLMs和提出的方法具有挑战性，并需要深入理解片段之间的情节相关性。",
+    "en_tdlr": "This study introduces a new task called Recap Snippet Identification, which aims to assist story reading by recalling important elements from previous texts to aid in understanding the ongoing plot. The task is challenging for PLMs, LLMs, and proposed methods as it requires a deep understanding of the plot correlation between snippets."
+}

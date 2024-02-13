@@ -1,0 +1,11 @@
+{
+    "title": "Embedding Compression for Teacher-to-Student Knowledge Transfer",
+    "abstract": "Common knowledge distillation methods require the teacher model and the student model to be trained on the same task. However, the usage of embeddings as teachers has also been proposed for different source tasks and target tasks. Prior work that uses embeddings as teachers ignores the fact that the teacher embeddings are likely to contain irrelevant knowledge for the target task. To address this problem, we propose to use an embedding compression module with a trainable teacher transformation to obtain a compact teacher embedding. Results show that adding the embedding compression module improves the classification performance, especially for unsupervised teacher embeddings. Moreover, student models trained with the guidance of embeddings show stronger generalizability.",
+    "link": "https://arxiv.org/abs/2402.06761",
+    "context": "Title: Embedding Compression for Teacher-to-Student Knowledge Transfer\nAbstract: Common knowledge distillation methods require the teacher model and the student model to be trained on the same task. However, the usage of embeddings as teachers has also been proposed for different source tasks and target tasks. Prior work that uses embeddings as teachers ignores the fact that the teacher embeddings are likely to contain irrelevant knowledge for the target task. To address this problem, we propose to use an embedding compression module with a trainable teacher transformation to obtain a compact teacher embedding. Results show that adding the embedding compression module improves the classification performance, especially for unsupervised teacher embeddings. Moreover, student models trained with the guidance of embeddings show stronger generalizability.",
+    "path": "papers/24/02/2402.06761.json",
+    "total_tokens": 794,
+    "translated_title": "教师与学生之间知识传递的嵌入式压缩",
+    "translated_abstract": "传统的知识蒸馏方法要求教师模型和学生模型在相同的任务上进行训练。然而，已经提出了将嵌入作为教师来用于不同的源任务和目标任务的方法。以往使用嵌入作为教师的方法忽视了教师嵌入很可能包含目标任务的无关知识的事实。为了解决这个问题，我们提出使用可训练的教师转换来得到紧凑的教师嵌入的嵌入压缩模块。结果显示，添加嵌入压缩模块可以提高分类性能，特别是对于无监督的教师嵌入。此外，通过嵌入的引导训练的学生模型展现了更强的泛化能力。",
+    "tldr": "该论文提出了一种嵌入式压缩模块，通过可训练的教师转换来得到紧凑的教师嵌入，提高了分类性能，尤其对于无监督教师嵌入，并且使用嵌入进行引导训练的学生模型展现出更强的泛化能力。"
+}

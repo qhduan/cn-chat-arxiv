@@ -1,0 +1,12 @@
+{
+    "title": "Multi-level Optimal Control with Neural Surrogate Models",
+    "abstract": "Optimal actuator and control design is studied as a multi-level optimisation problem, where the actuator design is evaluated based on the performance of the associated optimal closed loop. The evaluation of the optimal closed loop for a given actuator realisation is a computationally demanding task, for which the use of a neural network surrogate is proposed. The use of neural network surrogates to replace the lower level of the optimisation hierarchy enables the use of fast gradient-based and gradient-free consensus-based optimisation methods to determine the optimal actuator design. The effectiveness of the proposed surrogate models and optimisation methods is assessed in a test related to optimal actuator location for heat control.",
+    "link": "https://arxiv.org/abs/2402.07763",
+    "context": "Title: Multi-level Optimal Control with Neural Surrogate Models\nAbstract: Optimal actuator and control design is studied as a multi-level optimisation problem, where the actuator design is evaluated based on the performance of the associated optimal closed loop. The evaluation of the optimal closed loop for a given actuator realisation is a computationally demanding task, for which the use of a neural network surrogate is proposed. The use of neural network surrogates to replace the lower level of the optimisation hierarchy enables the use of fast gradient-based and gradient-free consensus-based optimisation methods to determine the optimal actuator design. The effectiveness of the proposed surrogate models and optimisation methods is assessed in a test related to optimal actuator location for heat control.",
+    "path": "papers/24/02/2402.07763.json",
+    "total_tokens": 721,
+    "translated_title": "多级优化控制与神经代理模型",
+    "translated_abstract": "本研究将最优执行器和控制设计作为一个多级优化问题进行研究，其中执行器设计基于相关最优闭环的性能进行评估。对于给定的执行器实现，评估最优闭环是一项计算复杂的任务，因此提出了使用神经网络代理来替代这一较低级别的优化层次，从而使得能够使用基于梯度和无梯度的一致性优化方法快速确定最优执行器设计。所提出的代理模型和优化方法的有效性在与热控制中最优执行器位置相关的测试中进行了评估。",
+    "tldr": "该研究通过使用神经网络代理模型替代低级别的优化层次，提出了一种多级优化控制方法，用于解决最优执行器和控制设计问题。与传统方法相比，该方法能够快速且效果良好地确定最优执行器设计。",
+    "en_tdlr": "This paper proposes a multi-level optimal control method for the optimal actuator and control design problem by using neural network surrogate models to replace lower level optimizations. Compared to traditional methods, this approach achieves faster and more effective determination of optimal actuator design."
+}

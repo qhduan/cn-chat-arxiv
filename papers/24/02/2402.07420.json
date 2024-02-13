@@ -1,0 +1,12 @@
+{
+    "title": "On the Transit Obfuscation Problem",
+    "abstract": "Concealing an intermediate point on a route or visible from a route is an important goal in some transportation and surveillance scenarios. This paper studies the Transit Obfuscation Problem, the problem of traveling from some start location to an end location while \"covering\" a specific transit point that needs to be concealed from adversaries. We propose the notion of transit anonymity, a quantitative guarantee of the anonymity of a specific transit point, even with a powerful adversary with full knowledge of the path planning algorithm. We propose and evaluate planning/search algorithms that satisfy this anonymity criterion.",
+    "link": "https://arxiv.org/abs/2402.07420",
+    "context": "Title: On the Transit Obfuscation Problem\nAbstract: Concealing an intermediate point on a route or visible from a route is an important goal in some transportation and surveillance scenarios. This paper studies the Transit Obfuscation Problem, the problem of traveling from some start location to an end location while \"covering\" a specific transit point that needs to be concealed from adversaries. We propose the notion of transit anonymity, a quantitative guarantee of the anonymity of a specific transit point, even with a powerful adversary with full knowledge of the path planning algorithm. We propose and evaluate planning/search algorithms that satisfy this anonymity criterion.",
+    "path": "papers/24/02/2402.07420.json",
+    "total_tokens": 633,
+    "translated_title": "关于转运混淆问题的研究",
+    "translated_abstract": "在某些交通和监视场景中，隐藏路径上或从路径上可见的中间点是一个重要的目标。本文研究了转运混淆问题，即从某个起始位置到达目标位置的同时，\"覆盖\"需要隐藏的特定过境点的问题。我们提出了转运匿名性的概念，即对特定过境点的匿名性进行量化保证，即使在具有对路径规划算法有全面了解的强大对手面前也是如此。我们提出并评估了满足该匿名性准则的规划/搜索算法。",
+    "tldr": "本文研究了转运混淆问题，提出了转运匿名性的概念，并提出并评估了满足该匿名性准则的规划/搜索算法。",
+    "en_tdlr": "This paper studies the Transit Obfuscation Problem and proposes the notion of transit anonymity. It also presents and evaluates planning/search algorithms that satisfy this anonymity criterion."
+}

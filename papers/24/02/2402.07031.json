@@ -1,0 +1,11 @@
+{
+    "title": "Instance-Level Safety-Aware Fidelity of Synthetic Data and Its Calibration",
+    "abstract": "Modeling and calibrating the fidelity of synthetic data is paramount in shaping the future of safe and reliable self-driving technology by offering a cost-effective and scalable alternative to real-world data collection. We focus on its role in safety-critical applications, introducing four types of instance-level fidelity that go beyond mere visual input characteristics. The aim is to align synthetic data with real-world safety issues. We suggest an optimization method to refine the synthetic data generator, reducing fidelity gaps identified by the DNN-based component. Our findings show this tuning enhances the correlation between safety-critical errors in synthetic and real images.",
+    "link": "https://arxiv.org/abs/2402.07031",
+    "context": "Title: Instance-Level Safety-Aware Fidelity of Synthetic Data and Its Calibration\nAbstract: Modeling and calibrating the fidelity of synthetic data is paramount in shaping the future of safe and reliable self-driving technology by offering a cost-effective and scalable alternative to real-world data collection. We focus on its role in safety-critical applications, introducing four types of instance-level fidelity that go beyond mere visual input characteristics. The aim is to align synthetic data with real-world safety issues. We suggest an optimization method to refine the synthetic data generator, reducing fidelity gaps identified by the DNN-based component. Our findings show this tuning enhances the correlation between safety-critical errors in synthetic and real images.",
+    "path": "papers/24/02/2402.07031.json",
+    "total_tokens": 729,
+    "translated_title": "实例级别的安全感知与合成数据质量及其校准",
+    "translated_abstract": "建模和校准合成数据的质量对塑造未来安全可靠的自动驾驶技术至关重要，它提供了一种成本效益高且可扩展的替代方案，可以取代真实世界的数据收集。我们关注其在安全关键应用中的作用，引入了超越纯视觉输入特征的四种实例级别质量，旨在使合成数据与现实世界的安全问题相一致。我们提出了一种优化方法来改进合成数据生成器，减少由基于DNN的组件识别出的质量差距。我们的研究结果表明，这种调优可以增强合成和真实图像中安全关键错误之间的相关性。",
+    "tldr": "本论文研究了实例级别的合成数据质量与安全感知，引入了四种超越纯视觉特征的合成数据质量，并提出了优化方法来减少合成和真实图像之间的质量差距。"
+}

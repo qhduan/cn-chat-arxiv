@@ -1,0 +1,11 @@
+{
+    "title": "Effort and Size Estimation in Software Projects with Large Language Model-based Intelligent Interfaces",
+    "abstract": "The advancement of Large Language Models (LLM) has also resulted in an equivalent proliferation in its applications. Software design, being one, has gained tremendous benefits in using LLMs as an interface component that extends fixed user stories. However, inclusion of LLM-based AI agents in software design often poses unexpected challenges, especially in the estimation of development efforts. Through the example of UI-based user stories, we provide a comparison against traditional methods and propose a new way to enhance specifications of natural language-based questions that allows for the estimation of development effort by taking into account data sources, interfaces and algorithms.",
+    "link": "https://arxiv.org/abs/2402.07158",
+    "context": "Title: Effort and Size Estimation in Software Projects with Large Language Model-based Intelligent Interfaces\nAbstract: The advancement of Large Language Models (LLM) has also resulted in an equivalent proliferation in its applications. Software design, being one, has gained tremendous benefits in using LLMs as an interface component that extends fixed user stories. However, inclusion of LLM-based AI agents in software design often poses unexpected challenges, especially in the estimation of development efforts. Through the example of UI-based user stories, we provide a comparison against traditional methods and propose a new way to enhance specifications of natural language-based questions that allows for the estimation of development effort by taking into account data sources, interfaces and algorithms.",
+    "path": "papers/24/02/2402.07158.json",
+    "total_tokens": 727,
+    "translated_title": "基于大型语言模型的智能界面在软件项目中的工作量和规模估计",
+    "translated_abstract": "大型语言模型（LLM）的发展也导致其应用的广泛增加。软件设计作为其中之一，在使用LLM作为扩展固定用户故事的接口组件方面获得了巨大的好处。然而，将基于LLM的人工智能代理包含在软件设计中常常带来意想不到的挑战，特别是在开发工作量的估计方面。通过基于用户界面的用户故事的例子，我们对比了传统方法，并提出了一种新的方法来增强基于自然语言的问题的规范，通过考虑数据源、接口和算法来进行开发工作量的估计。",
+    "tldr": "本文提出了一种基于大型语言模型的智能界面在软件项目中进行工作量和规模估计的方法，并通过比较传统方法，探讨了如何通过增强基于自然语言的问题规范来实现开发工作量的准确估计。"
+}

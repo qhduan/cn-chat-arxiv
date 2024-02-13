@@ -1,0 +1,11 @@
+{
+    "title": "Deep Galerkin Method for Mean Field Control Problem",
+    "abstract": "We consider an optimal control problem where the average welfare of weakly interacting agents is of interest. We examine the mean-field control problem as the fluid approximation of the N-agent control problem with the setup of finite-state space, continuous-time, and finite-horizon. The value function of the mean-field control problem is characterized as the unique viscosity solution of a Hamilton-Jacobi-Bellman equation in the simplex. We apply the DGM to estimate the value function and the evolution of the distribution. We also prove the numerical solution approximated by a neural network converges to the analytical solution.",
+    "link": "https://arxiv.org/abs/2212.01719",
+    "context": "Title: Deep Galerkin Method for Mean Field Control Problem\nAbstract: We consider an optimal control problem where the average welfare of weakly interacting agents is of interest. We examine the mean-field control problem as the fluid approximation of the N-agent control problem with the setup of finite-state space, continuous-time, and finite-horizon. The value function of the mean-field control problem is characterized as the unique viscosity solution of a Hamilton-Jacobi-Bellman equation in the simplex. We apply the DGM to estimate the value function and the evolution of the distribution. We also prove the numerical solution approximated by a neural network converges to the analytical solution.",
+    "path": "papers/22/12/2212.01719.json",
+    "total_tokens": 650,
+    "translated_title": "深度Galerkin方法用于均场控制问题",
+    "translated_abstract": "我们考虑了一个优化控制问题，其中对于弱相互作用的代理人的平均福利非常重要。我们将均场控制问题作为带有有限状态空间、连续时间和有限时间的N个代理人控制问题的流体近似。均场控制问题的价值函数被表征为Simplex中唯一的粘性解的Hamilton-Jacobi-Bellman方程。我们应用DGM估计价值函数和分布的演化。我们还证明了神经网络逼近的数值解收敛于解析解。",
+    "tldr": "本文使用深度Galerkin方法解决了均场控制问题，通过对价值函数和分布演化的估计，得到了数值解并证明其与解析解的收敛性。"
+}

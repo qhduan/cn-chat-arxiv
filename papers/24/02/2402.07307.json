@@ -1,0 +1,12 @@
+{
+    "title": "Self-Consistent Conformal Prediction",
+    "abstract": "In decision-making guided by machine learning, decision-makers often take identical actions in contexts with identical predicted outcomes. Conformal prediction helps decision-makers quantify outcome uncertainty for actions, allowing for better risk management. Inspired by this perspective, we introduce self-consistent conformal prediction, which yields both Venn-Abers calibrated predictions and conformal prediction intervals that are valid conditional on actions prompted by model predictions. Our procedure can be applied post-hoc to any black-box predictor to provide rigorous, action-specific decision-making guarantees. Numerical experiments show our approach strikes a balance between interval efficiency and conditional validity.",
+    "link": "https://arxiv.org/abs/2402.07307",
+    "context": "Title: Self-Consistent Conformal Prediction\nAbstract: In decision-making guided by machine learning, decision-makers often take identical actions in contexts with identical predicted outcomes. Conformal prediction helps decision-makers quantify outcome uncertainty for actions, allowing for better risk management. Inspired by this perspective, we introduce self-consistent conformal prediction, which yields both Venn-Abers calibrated predictions and conformal prediction intervals that are valid conditional on actions prompted by model predictions. Our procedure can be applied post-hoc to any black-box predictor to provide rigorous, action-specific decision-making guarantees. Numerical experiments show our approach strikes a balance between interval efficiency and conditional validity.",
+    "path": "papers/24/02/2402.07307.json",
+    "total_tokens": 717,
+    "translated_title": "自洽的符合预测",
+    "translated_abstract": "在机器学习指导下的决策中，决策者通常在具有相同预测结果的情境中采取相同的行动。符合预测帮助决策者量化动作的结果不确定性，从而实现更好的风险管理。受这种观点的启发，我们引入了自洽的符合预测，它产生了既符合Venn-Abers校准的预测，又符合以模型预测引发的动作为条件的符合预测区间。我们的方法可以后验地应用于任何黑盒预测器，提供严格的、针对具体动作的决策保证。数值实验表明，我们的方法在区间的效率和条件的有效性之间达到了平衡。",
+    "tldr": "自洽的符合预测方法能够提供既符合校准的预测又符合以模型预测的动作为条件的预测区间，为决策者提供了严格的、针对具体动作的决策保证。",
+    "en_tdlr": "The self-consistent conformal prediction method provides both Venn-Abers calibrated predictions and conformal prediction intervals that are valid conditional on actions prompted by model predictions, offering decision-makers rigorous, action-specific decision-making guarantees."
+}

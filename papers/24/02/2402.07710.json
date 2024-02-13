@@ -1,0 +1,12 @@
+{
+    "title": "Optimization of Sparse Convolution for 3D-Point Cloud on GPUs with CUDA",
+    "abstract": "In recent years, there has been a significant increase in the utilization of deep learning methods, particularly convolutional neural networks (CNNs), which have emerged as the dominant approach in various domains that involve structured grid data, such as picture analysis and processing. Nevertheless, the exponential growth in the utilization of LiDAR and 3D sensors across many domains has resulted in an increased need for the analysis of 3D point clouds. The utilization of 3D point clouds is crucial in various applications, including object recognition and segmentation, as they offer a spatial depiction of things within a three-dimensional environment. In contrast to photos, point clouds exhibit sparsity and lack a regular grid, hence posing distinct processing and computational issues.",
+    "link": "https://arxiv.org/abs/2402.07710",
+    "context": "Title: Optimization of Sparse Convolution for 3D-Point Cloud on GPUs with CUDA\nAbstract: In recent years, there has been a significant increase in the utilization of deep learning methods, particularly convolutional neural networks (CNNs), which have emerged as the dominant approach in various domains that involve structured grid data, such as picture analysis and processing. Nevertheless, the exponential growth in the utilization of LiDAR and 3D sensors across many domains has resulted in an increased need for the analysis of 3D point clouds. The utilization of 3D point clouds is crucial in various applications, including object recognition and segmentation, as they offer a spatial depiction of things within a three-dimensional environment. In contrast to photos, point clouds exhibit sparsity and lack a regular grid, hence posing distinct processing and computational issues.",
+    "path": "papers/24/02/2402.07710.json",
+    "total_tokens": 726,
+    "translated_title": "基于CUDA的GPU优化稀疏卷积在3D点云上的应用",
+    "translated_abstract": "最近几年，深度学习方法的应用显著增加，特别是卷积神经网络（CNN），它们已经成为涉及结构化格网数据的各个领域中的主要方法，如图像分析和处理。然而，随着LiDAR和3D传感器在许多领域的使用呈指数增长，对3D点云的分析需求也增加了。利用3D点云在包括物体识别和分割在内的各种应用中至关重要，因为它们提供了三维环境中事物的空间描述。与照片不同，点云具有稀疏性和缺乏规则的格网，因此存在着独特的处理和计算问题。",
+    "tldr": "本论文研究了在3D点云上进行稀疏卷积的GPU优化方法，以解决点云的稀疏性和计算问题。",
+    "en_tdlr": "This paper investigates GPU optimization of sparse convolution on 3D point clouds to address the sparsity and computational challenges posed by point clouds."
+}

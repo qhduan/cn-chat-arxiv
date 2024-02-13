@@ -1,0 +1,12 @@
+{
+    "title": "ClusterTabNet: Supervised clustering method for table detection and table structure recognition",
+    "abstract": "We present a novel deep-learning-based method to cluster words in documents which we apply to detect and recognize tables given the OCR output. We interpret table structure bottom-up as a graph of relations between pairs of words (belonging to the same row, column, header, as well as to the same table) and use a transformer encoder model to predict its adjacency matrix. We demonstrate the performance of our method on the PubTables-1M dataset as well as PubTabNet and FinTabNet datasets. Compared to the current state-of-the-art detection methods such as DETR and Faster R-CNN, our method achieves similar or better accuracy, while requiring a significantly smaller model.",
+    "link": "https://arxiv.org/abs/2402.07502",
+    "context": "Title: ClusterTabNet: Supervised clustering method for table detection and table structure recognition\nAbstract: We present a novel deep-learning-based method to cluster words in documents which we apply to detect and recognize tables given the OCR output. We interpret table structure bottom-up as a graph of relations between pairs of words (belonging to the same row, column, header, as well as to the same table) and use a transformer encoder model to predict its adjacency matrix. We demonstrate the performance of our method on the PubTables-1M dataset as well as PubTabNet and FinTabNet datasets. Compared to the current state-of-the-art detection methods such as DETR and Faster R-CNN, our method achieves similar or better accuracy, while requiring a significantly smaller model.",
+    "path": "papers/24/02/2402.07502.json",
+    "total_tokens": 774,
+    "translated_title": "ClusterTabNet: 一种用于表格检测和表格结构识别的监督聚类方法",
+    "translated_abstract": "我们提出了一种新颖的基于深度学习的方法，用于对文档中的单词进行聚类，并应用于检测和识别OCR输出中的表格。我们将表格结构自下而上解释为一组单词对之间的关系图（属于同一行、列、标题以及同一表格），并使用转换器编码器模型来预测其邻接矩阵。我们在PubTables-1M数据集以及PubTabNet和FinTabNet数据集上展示了我们的方法的性能。与当前最先进的检测方法（如DETR和Faster R-CNN）相比，我们的方法在需要更小的模型的同时实现了类似或更好的准确性。",
+    "tldr": "ClusterTabNet是一种监督聚类方法，通过解释表格结构为单词之间的关系图，并利用深度学习模型预测其邻接矩阵，实现对表格的检测和结构识别。与其他方法相比，ClusterTabNet具有相似或更好的准确性，并且需要更小的模型。",
+    "en_tdlr": "ClusterTabNet is a supervised clustering method that detects and recognizes tables by interpreting table structure as a graph of word relations, and predicting its adjacency matrix using deep learning. Compared to other methods, ClusterTabNet achieves similar or better accuracy while requiring a smaller model."
+}

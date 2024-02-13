@@ -1,0 +1,11 @@
+{
+    "title": "Event-Keyed Summarization",
+    "abstract": "We introduce event-keyed summarization (EKS), a novel task that marries traditional summarization and document-level event extraction, with the goal of generating a contextualized summary for a specific event, given a document and an extracted event structure. We introduce a dataset for this task, MUCSUM, consisting of summaries of all events in the classic MUC-4 dataset, along with a set of baselines that comprises both pretrained LM standards in the summarization literature, as well as larger frontier models. We show that ablations that reduce EKS to traditional summarization or structure-to-text yield inferior summaries of target events and that MUCSUM is a robust benchmark for this task. Lastly, we conduct a human evaluation of both reference and model summaries, and provide some detailed analysis of the results.",
+    "link": "https://arxiv.org/abs/2402.06973",
+    "context": "Title: Event-Keyed Summarization\nAbstract: We introduce event-keyed summarization (EKS), a novel task that marries traditional summarization and document-level event extraction, with the goal of generating a contextualized summary for a specific event, given a document and an extracted event structure. We introduce a dataset for this task, MUCSUM, consisting of summaries of all events in the classic MUC-4 dataset, along with a set of baselines that comprises both pretrained LM standards in the summarization literature, as well as larger frontier models. We show that ablations that reduce EKS to traditional summarization or structure-to-text yield inferior summaries of target events and that MUCSUM is a robust benchmark for this task. Lastly, we conduct a human evaluation of both reference and model summaries, and provide some detailed analysis of the results.",
+    "path": "papers/24/02/2402.06973.json",
+    "total_tokens": 795,
+    "translated_title": "事件关键摘要",
+    "translated_abstract": "我们介绍了一种新颖的任务，称为事件关键摘要（EKS），它将传统的摘要和文档级事件提取结合起来，目标是在给定文档和提取的事件结构的情况下生成一个上下文化的特定事件摘要。我们介绍了一个用于这个任务的数据集MUCSUM，包括经典MUC-4数据集中所有事件的摘要，以及一组基线模型，其中包括在摘要文献中预训练的语言模型标准以及更大的前沿模型。我们表明，将EKS简化为传统的摘要或结构到文本的去除都会得到较差的目标事件摘要，并且MUCSUM是这一任务的一个稳健的基准。最后，我们对参考摘要和模型摘要进行了人工评估，并对结果进行了详细分析。",
+    "tldr": "事件关键摘要（EKS）是一种新颖的任务，旨在为特定事件生成上下文化的摘要。我们提出了一个基准数据集MUCSUM，并展示了EKS与传统摘要和结构到文本的比较结果。"
+}

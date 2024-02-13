@@ -1,0 +1,11 @@
+{
+    "title": "Closed-form solutions for generic N-token AMM arbitrage",
+    "abstract": "Convex optimisation has provided a mechanism to determine arbitrage trades on automated market markets (AMMs) since almost their inception. Here we outline generic closed-form solutions for $N$-token geometric mean market maker pool arbitrage, that in simulation (with synthetic and historic data) provide better arbitrage opportunities than convex optimisers and is able to capitalise on those opportunities sooner. Furthermore, the intrinsic parallelism of the proposed approach (unlike convex optimisation) offers the ability to scale on GPUs, opening up a new approach to AMM modelling by offering an alternative to numerical-solver-based methods. The lower computational cost of running this new mechanism can also enable on-chain arbitrage bots for multi-asset pools.",
+    "link": "https://arxiv.org/abs/2402.06731",
+    "context": "Title: Closed-form solutions for generic N-token AMM arbitrage\nAbstract: Convex optimisation has provided a mechanism to determine arbitrage trades on automated market markets (AMMs) since almost their inception. Here we outline generic closed-form solutions for $N$-token geometric mean market maker pool arbitrage, that in simulation (with synthetic and historic data) provide better arbitrage opportunities than convex optimisers and is able to capitalise on those opportunities sooner. Furthermore, the intrinsic parallelism of the proposed approach (unlike convex optimisation) offers the ability to scale on GPUs, opening up a new approach to AMM modelling by offering an alternative to numerical-solver-based methods. The lower computational cost of running this new mechanism can also enable on-chain arbitrage bots for multi-asset pools.",
+    "path": "papers/24/02/2402.06731.json",
+    "total_tokens": 868,
+    "translated_title": "通用N-token AMM套利的闭合形式解决方案",
+    "translated_abstract": "凸优化自从自动市场制造商（AMM）诞生以来已经提供了一种确定套利交易的机制。在这里，我们概述了通用闭合形式解决方案，用于$N$个代币的几何平均市场制造商池套利。在模拟中（使用合成和历史数据），此解决方案提供了比凸优化更好的套利机会，并且能够更早地利用这些机会。此外，所提出的方法天然地支持并行计算（与凸优化不同），能够在GPU上进行扩展，为AMM建模提供了一种新方法，提供了一种基于替代数值求解方法的选择。这种新机制的低计算成本还可以实现多资产池的链上套利机器人。",
+    "tldr": "本文提出了通用N-token AMM套利的闭合形式解决方案。该解决方案在模拟中表现出比凸优化更好的套利机会，并能更快地利用这些机会。并且，所提出的方法具有并行计算能力，能够在GPU上扩展，为AMM建模提供了一种新方法。此外，该机制的低计算成本还可以实现多资产池的链上套利机器人。"
+}
