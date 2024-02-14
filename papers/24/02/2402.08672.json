@@ -1,0 +1,11 @@
+{
+    "title": "Model Assessment and Selection under Temporal Distribution Shift",
+    "abstract": "We investigate model assessment and selection in a changing environment, by synthesizing datasets from both the current time period and historical epochs. To tackle unknown and potentially arbitrary temporal distribution shift, we develop an adaptive rolling window approach to estimate the generalization error of a given model. This strategy also facilitates the comparison between any two candidate models by estimating the difference of their generalization errors. We further integrate pairwise comparisons into a single-elimination tournament, achieving near-optimal model selection from a collection of candidates. Theoretical analyses and numerical experiments demonstrate the adaptivity of our proposed methods to the non-stationarity in data.",
+    "link": "https://arxiv.org/abs/2402.08672",
+    "context": "Title: Model Assessment and Selection under Temporal Distribution Shift\nAbstract: We investigate model assessment and selection in a changing environment, by synthesizing datasets from both the current time period and historical epochs. To tackle unknown and potentially arbitrary temporal distribution shift, we develop an adaptive rolling window approach to estimate the generalization error of a given model. This strategy also facilitates the comparison between any two candidate models by estimating the difference of their generalization errors. We further integrate pairwise comparisons into a single-elimination tournament, achieving near-optimal model selection from a collection of candidates. Theoretical analyses and numerical experiments demonstrate the adaptivity of our proposed methods to the non-stationarity in data.",
+    "path": "papers/24/02/2402.08672.json",
+    "total_tokens": 747,
+    "translated_title": "模型评估与选择在时间分布转移下的研究",
+    "translated_abstract": "我们通过合成当前时期和历史时期的数据集，研究了在变化环境中的模型评估与选择。为了解决未知和可能任意的时间分布转移，我们开发了一种自适应滚动窗口方法来估计给定模型的泛化误差。这种策略还通过估计两个候选模型之间的泛化误差差异来方便比较。我们进一步将两两比较整合到单场淘汰赛中，从候选模型集合中实现了近乎最优的模型选择。理论分析和数值实验证明了我们所提出方法对数据非稳态的适应性。",
+    "tldr": "本文研究了在变化环境中的模型评估与选择问题，通过合成不同时期的数据集，并开发了自适应滚动窗口方法来估计模型的泛化误差以及比较不同模型之间的差异。实验证明了我们提出的方法在非稳态数据中的适应性。"
+}

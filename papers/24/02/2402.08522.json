@@ -1,0 +1,12 @@
+{
+    "title": "Fairness Auditing with Multi-Agent Collaboration",
+    "abstract": "Existing work in fairness audits assumes that agents operate independently. In this paper, we consider the case of multiple agents auditing the same platform for different tasks. Agents have two levers: their collaboration strategy, with or without coordination beforehand, and their sampling method. We theoretically study their interplay when agents operate independently or collaborate. We prove that, surprisingly, coordination can sometimes be detrimental to audit accuracy, whereas uncoordinated collaboration generally yields good results. Experimentation on real-world datasets confirms this observation, as the audit accuracy of uncoordinated collaboration matches that of collaborative optimal sampling.",
+    "link": "https://arxiv.org/abs/2402.08522",
+    "context": "Title: Fairness Auditing with Multi-Agent Collaboration\nAbstract: Existing work in fairness audits assumes that agents operate independently. In this paper, we consider the case of multiple agents auditing the same platform for different tasks. Agents have two levers: their collaboration strategy, with or without coordination beforehand, and their sampling method. We theoretically study their interplay when agents operate independently or collaborate. We prove that, surprisingly, coordination can sometimes be detrimental to audit accuracy, whereas uncoordinated collaboration generally yields good results. Experimentation on real-world datasets confirms this observation, as the audit accuracy of uncoordinated collaboration matches that of collaborative optimal sampling.",
+    "path": "papers/24/02/2402.08522.json",
+    "total_tokens": 667,
+    "translated_title": "多代理协作下的公平性审计",
+    "translated_abstract": "现有的公平性审计工作假设代理人独立操作。本文考虑多个代理人对同一平台进行不同任务的审计情况。代理人有两个杠杆：协作策略（是否进行协调）和抽样方法。我们在代理人独立操作或协作时对它们的相互作用进行了理论研究。我们证明了有时协调对审计准确性可能有害，而非协调的合作通常会产生良好的结果。对实际数据集的实验验证了这一观察结果，非协调的合作的审计准确性与协作的最优抽样相匹配。",
+    "tldr": "本文研究了多代理协作下的公平性审计，证明了有时协调对审计准确性可能有害，而非协调的合作通常会产生良好的结果。",
+    "en_tdlr": "This paper investigates fairness auditing with multi-agent collaboration and proves that coordination can sometimes be detrimental to audit accuracy, whereas uncoordinated collaboration generally yields good results."
+}

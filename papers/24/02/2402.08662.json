@@ -1,0 +1,12 @@
+{
+    "title": "Learning Emergent Gaits with Decentralized Phase Oscillators: on the role of Observations, Rewards, and Feedback",
+    "abstract": "We present a minimal phase oscillator model for learning quadrupedal locomotion. Each of the four oscillators is coupled only to itself and its corresponding leg through local feedback of the ground reaction force, which can be interpreted as an observer feedback gain. We interpret the oscillator itself as a latent contact state-estimator. Through a systematic ablation study, we show that the combination of phase observations, simple phase-based rewards, and the local feedback dynamics induces policies that exhibit emergent gait preferences, while using a reduced set of simple rewards, and without prescribing a specific gait. The code is open-source, and a video synopsis available at https://youtu.be/1NKQ0rSV3jU.",
+    "link": "https://arxiv.org/abs/2402.08662",
+    "context": "Title: Learning Emergent Gaits with Decentralized Phase Oscillators: on the role of Observations, Rewards, and Feedback\nAbstract: We present a minimal phase oscillator model for learning quadrupedal locomotion. Each of the four oscillators is coupled only to itself and its corresponding leg through local feedback of the ground reaction force, which can be interpreted as an observer feedback gain. We interpret the oscillator itself as a latent contact state-estimator. Through a systematic ablation study, we show that the combination of phase observations, simple phase-based rewards, and the local feedback dynamics induces policies that exhibit emergent gait preferences, while using a reduced set of simple rewards, and without prescribing a specific gait. The code is open-source, and a video synopsis available at https://youtu.be/1NKQ0rSV3jU.",
+    "path": "papers/24/02/2402.08662.json",
+    "total_tokens": 793,
+    "translated_title": "使用分散的相位振荡器学习新生步态：关于观察、奖励和反馈的作用",
+    "translated_abstract": "我们提出了一个最小化相位振荡器模型来学习四足动物的运动。每个振荡器仅与自身和相应的腿之间通过地面反作用力的局部反馈相连，这可以被解释为一个观察者反馈增益。我们将振荡器本身解释为潜在的接触状态估计器。通过系统的消除研究，我们表明相位观察、简单的基于相位的奖励和局部反馈动力学的结合引导出展现新生步态偏好的策略，同时使用了一组简化的奖励，而没有预先指定特定的步态。代码是开源的，视频摘要可在https://youtu.be/1NKQ0rSV3jU处获取。",
+    "tldr": "该论文通过将相位观察、简单的相位奖励和局部反馈动力学相结合，提出了一种使用分散相位振荡器学习动物步态的模型，有效地实现了新生步态偏好的策略。",
+    "en_tdlr": "This paper presents a model for learning animal gaits using decentralized phase oscillators, which effectively achieves emergent gait preferences through the combination of phase observations, simple phase-based rewards, and local feedback dynamics."
+}

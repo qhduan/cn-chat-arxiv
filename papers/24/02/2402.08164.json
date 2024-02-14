@@ -1,0 +1,11 @@
+{
+    "title": "On Limitations of the Transformer Architecture",
+    "abstract": "What are the root causes of hallucinations in large language models (LLMs)? We use Communication Complexity to prove that the Transformer layer is incapable of composing functions (e.g., identify a grandparent of a person in a genealogy) if the domains of the functions are large enough; we show through examples that this inability is already empirically present when the domains are quite small. We also point out that several mathematical tasks that are at the core of the so-called compositional tasks thought to be hard for LLMs are unlikely to be solvable by Transformers, for large enough instances and assuming that certain well accepted conjectures in the field of Computational Complexity are true.",
+    "link": "https://arxiv.org/abs/2402.08164",
+    "context": "Title: On Limitations of the Transformer Architecture\nAbstract: What are the root causes of hallucinations in large language models (LLMs)? We use Communication Complexity to prove that the Transformer layer is incapable of composing functions (e.g., identify a grandparent of a person in a genealogy) if the domains of the functions are large enough; we show through examples that this inability is already empirically present when the domains are quite small. We also point out that several mathematical tasks that are at the core of the so-called compositional tasks thought to be hard for LLMs are unlikely to be solvable by Transformers, for large enough instances and assuming that certain well accepted conjectures in the field of Computational Complexity are true.",
+    "path": "papers/24/02/2402.08164.json",
+    "total_tokens": 646,
+    "translated_title": "关于Transformer架构的限制",
+    "translated_abstract": "大型语言模型（LLMs）中幻觉的根本原因是什么？我们使用通信复杂性来证明，如果函数的定义域足够大，Transformer层无法组合函数（例如，在家谱中查找一个人的祖父）；我们通过示例显示，当定义域相当小的时候，这种能力的缺乏已经在经验上存在。我们还指出，许多在所谓的组合任务中的数学任务，认为它们对LLMs来说很难解决，对于足够大的实例来说，且假设计算复杂性领域的某些被广泛接受的猜想是正确的，Transformers也不太可能解决。",
+    "tldr": "本论文通过通信复杂性证明了Transformer层在处理函数组合任务时的局限性，指出对于大型定义域和某些数学任务，Transformers可能无法解决。"
+}

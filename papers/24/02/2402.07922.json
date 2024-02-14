@@ -1,0 +1,11 @@
+{
+    "title": "Towards the Human Digital Twin: Definition and Design -- A survey",
+    "abstract": "Human Digital Twins (HDTs) are a fast-emerging technology with significant potential in fields ranging from healthcare to sports. HDTs extend the traditional understanding of Digital Twins by representing humans as the underlying physical entity. This has introduced several significant challenges, including ambiguity in the definition of HDTs and a lack of guidance for their design. This survey brings together the recent advances in the field of HDTs to guide future developers by proposing a first cross-domain definition of HDTs based on their characteristics, as well as eleven key design considerations that emerge from the associated challenges.",
+    "link": "https://arxiv.org/abs/2402.07922",
+    "context": "Title: Towards the Human Digital Twin: Definition and Design -- A survey\nAbstract: Human Digital Twins (HDTs) are a fast-emerging technology with significant potential in fields ranging from healthcare to sports. HDTs extend the traditional understanding of Digital Twins by representing humans as the underlying physical entity. This has introduced several significant challenges, including ambiguity in the definition of HDTs and a lack of guidance for their design. This survey brings together the recent advances in the field of HDTs to guide future developers by proposing a first cross-domain definition of HDTs based on their characteristics, as well as eleven key design considerations that emerge from the associated challenges.",
+    "path": "papers/24/02/2402.07922.json",
+    "total_tokens": 671,
+    "translated_title": "朝向人类数字孪生：定义与设计 - 一项调查",
+    "translated_abstract": "人类数字孪生 (HDT) 是一种快速崛起的技术，在医疗保健到体育等领域具有巨大潜力。HDT通过将人类表示为基础物理实体扩展了对数字孪生的传统理解。这引入了几个重大挑战，包括HDT定义的模糊性以及缺乏对其设计的指导。本调查将HDT领域的最新进展汇集起来，通过基于其特征的首个跨领域HDT定义以及从相关挑战中出现的十一个关键设计考虑因素，为未来的开发者提供指导。",
+    "tldr": "本调查综合了最新的HDT领域进展，提出了第一个跨领域HDT定义和十一个关键设计考虑因素，为未来开发者提供指导。"
+}

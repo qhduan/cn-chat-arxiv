@@ -1,0 +1,11 @@
+{
+    "title": "Finding Moving-Band Statistical Arbitrages via Convex-Concave Optimization",
+    "abstract": "We propose a new method for finding statistical arbitrages that can contain more assets than just the traditional pair. We formulate the problem as seeking a portfolio with the highest volatility, subject to its price remaining in a band and a leverage limit. This optimization problem is not convex, but can be approximately solved using the convex-concave procedure, a specific sequential convex programming method. We show how the method generalizes to finding moving-band statistical arbitrages, where the price band midpoint varies over time.",
+    "link": "https://arxiv.org/abs/2402.08108",
+    "context": "Title: Finding Moving-Band Statistical Arbitrages via Convex-Concave Optimization\nAbstract: We propose a new method for finding statistical arbitrages that can contain more assets than just the traditional pair. We formulate the problem as seeking a portfolio with the highest volatility, subject to its price remaining in a band and a leverage limit. This optimization problem is not convex, but can be approximately solved using the convex-concave procedure, a specific sequential convex programming method. We show how the method generalizes to finding moving-band statistical arbitrages, where the price band midpoint varies over time.",
+    "path": "papers/24/02/2402.08108.json",
+    "total_tokens": 578,
+    "translated_title": "通过凸凹优化寻找移动带统计套利",
+    "translated_abstract": "我们提出了一种新的方法，用于寻找可以包含除传统交易对以外更多资产的统计套利。我们将问题归结为寻找一个波动率最高的投资组合，使其价格保持在一定范围内并满足杠杆限制。这个优化问题不是凸的，但可以通过凸凹程序来近似求解，这是一种特定的顺序凸规划方法。我们展示了该方法如何推广到寻找移动带统计套利，其中价格带的中点随时间变化。",
+    "tldr": "本文提出了一种通过凸凹优化方法寻找可以包含更多资产的统计套利策略，其中价格带的中点随时间变化。"
+}

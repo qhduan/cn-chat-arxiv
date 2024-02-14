@@ -1,0 +1,12 @@
+{
+    "title": "Mixtures of Experts Unlock Parameter Scaling for Deep RL",
+    "abstract": "The recent rapid progress in (self) supervised learning models is in large part predicted by empirical scaling laws: a model's performance scales proportionally to its size. Analogous scaling laws remain elusive for reinforcement learning domains, however, where increasing the parameter count of a model often hurts its final performance. In this paper, we demonstrate that incorporating Mixture-of-Expert (MoE) modules, and in particular Soft MoEs (Puigcerver et al., 2023), into value-based networks results in more parameter-scalable models, evidenced by substantial performance increases across a variety of training regimes and model sizes. This work thus provides strong empirical evidence towards developing scaling laws for reinforcement learning.",
+    "link": "https://arxiv.org/abs/2402.08609",
+    "context": "Title: Mixtures of Experts Unlock Parameter Scaling for Deep RL\nAbstract: The recent rapid progress in (self) supervised learning models is in large part predicted by empirical scaling laws: a model's performance scales proportionally to its size. Analogous scaling laws remain elusive for reinforcement learning domains, however, where increasing the parameter count of a model often hurts its final performance. In this paper, we demonstrate that incorporating Mixture-of-Expert (MoE) modules, and in particular Soft MoEs (Puigcerver et al., 2023), into value-based networks results in more parameter-scalable models, evidenced by substantial performance increases across a variety of training regimes and model sizes. This work thus provides strong empirical evidence towards developing scaling laws for reinforcement learning.",
+    "path": "papers/24/02/2402.08609.json",
+    "total_tokens": 782,
+    "translated_title": "专家组合解锁深度强化学习的参数缩放",
+    "translated_abstract": "最近对（自我）监督学习模型的快速进展很大程度上是通过实证缩放定律预测的：模型的性能与其规模成比例。然而，在强化学习领域中，寻找类似的缩放定律仍然困难，因为增加模型的参数数量往往会损害其最终性能。在本文中，我们证明将专家组合（MoE）模块，特别是软MoE（Puigcerver等人，2023年），融入基于值的网络中，可以得到更具参数可扩展性的模型，通过各种训练方案和模型规模的显著性能提升加以证明。因此，这项工作为发展强化学习的缩放定律提供了有力的实证证据。",
+    "tldr": "本文证明了将专家组合模块融入基于值的网络中，尤其是软MoE，可以实现更具参数可扩展性的深度强化学习模型，这提供了强有力的实证证据以发展强化学习的缩放定律。",
+    "en_tdlr": "This paper demonstrates that incorporating Mixture-of-Expert (MoE) modules, especially Soft MoEs, into value-based networks enables more parameter-scalable deep reinforcement learning models, providing strong empirical evidence towards developing scaling laws for reinforcement learning."
+}

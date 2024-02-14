@@ -1,0 +1,12 @@
+{
+    "title": "Mirror Descent-Ascent for mean-field min-max problems",
+    "abstract": "We study two variants of the mirror descent-ascent algorithm for solving min-max problems on the space of measures: simultaneous and sequential. We work under assumptions of convexity-concavity and relative smoothness of the payoff function with respect to a suitable Bregman divergence, defined on the space of measures via flat derivatives. We show that the convergence rates to mixed Nash equilibria, measured in the Nikaid\\`o-Isoda error, are of order $\\mathcal{O}\\left(N^{-1/2}\\right)$ and $\\mathcal{O}\\left(N^{-2/3}\\right)$ for the simultaneous and sequential schemes, respectively, which is in line with the state-of-the-art results for related finite-dimensional algorithms.",
+    "link": "https://arxiv.org/abs/2402.08106",
+    "context": "Title: Mirror Descent-Ascent for mean-field min-max problems\nAbstract: We study two variants of the mirror descent-ascent algorithm for solving min-max problems on the space of measures: simultaneous and sequential. We work under assumptions of convexity-concavity and relative smoothness of the payoff function with respect to a suitable Bregman divergence, defined on the space of measures via flat derivatives. We show that the convergence rates to mixed Nash equilibria, measured in the Nikaid\\`o-Isoda error, are of order $\\mathcal{O}\\left(N^{-1/2}\\right)$ and $\\mathcal{O}\\left(N^{-2/3}\\right)$ for the simultaneous and sequential schemes, respectively, which is in line with the state-of-the-art results for related finite-dimensional algorithms.",
+    "path": "papers/24/02/2402.08106.json",
+    "total_tokens": 739,
+    "translated_title": "针对均场极小极大问题的镜像下降-上升算法的研究",
+    "translated_abstract": "我们研究了镜像下降-上升算法在测度空间上解决极小极大问题的两个变体：同时和依次。我们在凸性-凹性和相对光滑性的假设下，针对适当的Bregman散度在测度空间上通过平坦导数进行了定义。我们证明了收敛速率到混合纳什均衡，用尼凯多-Isoda误差表示，对于同时和依次方案分别是$\\mathcal{O}\\left(N^{-1/2}\\right)$和$\\mathcal{O}\\left(N^{-2/3}\\right)$，这与相关有限维算法的最新结果一致。",
+    "tldr": "该论文研究了解决测度空间上极小极大问题的镜像下降-上升算法的两种变体，并证明了收敛速率与相关有限维算法的最新结果一致。",
+    "en_tdlr": "This paper studies two variants of the mirror descent-ascent algorithm for solving min-max problems on the measure space and proves that the convergence rates are consistent with the state-of-the-art results for related finite-dimensional algorithms."
+}

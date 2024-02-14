@@ -1,0 +1,11 @@
+{
+    "title": "Is 3-(F)WL Enough to Distinguish All 3D Graphs?",
+    "abstract": "The problem of graph isomorphism is an important but challenging problem in the field of graph analysis, for example: analyzing the similarity of two chemical molecules, or studying the expressive ability of graph neural networks. WL test is a method to judge whether two graphs are isomorphic, but it cannot distinguish all non-isomorphic graphs. As an improvement of WL, k-WL has stronger isomorphism discrimination ability, and as k increases, its discrimination ability is strictly increasing. However, whether the isomorphic discrimination power of k-WL is strictly increasing for more complex 3D graphs, or whether there exists k that can discriminate all 3D graphs, remains unexplored. This paper attempts to explore this problem from the perspective of graph generation.",
+    "link": "https://arxiv.org/abs/2402.08429",
+    "context": "Title: Is 3-(F)WL Enough to Distinguish All 3D Graphs?\nAbstract: The problem of graph isomorphism is an important but challenging problem in the field of graph analysis, for example: analyzing the similarity of two chemical molecules, or studying the expressive ability of graph neural networks. WL test is a method to judge whether two graphs are isomorphic, but it cannot distinguish all non-isomorphic graphs. As an improvement of WL, k-WL has stronger isomorphism discrimination ability, and as k increases, its discrimination ability is strictly increasing. However, whether the isomorphic discrimination power of k-WL is strictly increasing for more complex 3D graphs, or whether there exists k that can discriminate all 3D graphs, remains unexplored. This paper attempts to explore this problem from the perspective of graph generation.",
+    "path": "papers/24/02/2402.08429.json",
+    "total_tokens": 745,
+    "translated_title": "能够区分所有3D图形的是3-（F）WL方法足够吗？",
+    "translated_abstract": "图同构问题是图分析领域中的一个重要且具有挑战性的问题，例如：分析两个化学分子的相似性，或者研究图神经网络的表达能力。WL测试是一种判断两个图是否同构的方法，但它不能区分所有非同构图。作为WL的改进，k-WL具有更强的同构判别能力，且随着k的增加，其判别能力严格增强。然而，对于更复杂的3D图形，k-WL的同构判别能力是否严格增加，或者是否存在能够区分所有3D图形的k，仍未被探索。本文试图从图生成的视角探索这个问题。",
+    "tldr": "本文探索了从图生成的角度是否存在能够区分所有3D图形的k，以及对于更复杂的3D图形，k-WL的同构判别能力是否严格增加。"
+}

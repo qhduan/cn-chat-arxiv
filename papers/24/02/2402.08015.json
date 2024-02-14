@@ -1,0 +1,11 @@
+{
+    "title": "Enhancing Amharic-LLaMA: Integrating Task Specific and Generative Datasets",
+    "abstract": "Large language models (LLMs) have received a lot of attention in natural language processing (NLP) research because of their exceptional performance in understanding and generating human languages. However, low-resource languages are left behind due to the unavailability of resources. In this work, we focus on enhancing the LLaMA-2-Amharic model by integrating task-specific and generative datasets to improve language model performance for Amharic. We compile an Amharic instruction fine-tuning dataset and fine-tuned LLaMA-2-Amharic model. The fine-tuned model shows promising results in different NLP tasks. We open-source our dataset creation pipeline, instruction datasets, trained models, and evaluation outputs to promote language-specific studies on these models.",
+    "link": "https://arxiv.org/abs/2402.08015",
+    "context": "Title: Enhancing Amharic-LLaMA: Integrating Task Specific and Generative Datasets\nAbstract: Large language models (LLMs) have received a lot of attention in natural language processing (NLP) research because of their exceptional performance in understanding and generating human languages. However, low-resource languages are left behind due to the unavailability of resources. In this work, we focus on enhancing the LLaMA-2-Amharic model by integrating task-specific and generative datasets to improve language model performance for Amharic. We compile an Amharic instruction fine-tuning dataset and fine-tuned LLaMA-2-Amharic model. The fine-tuned model shows promising results in different NLP tasks. We open-source our dataset creation pipeline, instruction datasets, trained models, and evaluation outputs to promote language-specific studies on these models.",
+    "path": "papers/24/02/2402.08015.json",
+    "total_tokens": 820,
+    "translated_title": "增强Amharic-LLaMA: 整合特定任务与生成数据集",
+    "translated_abstract": "大型语言模型（LLM）因其在理解和生成人类语言方面的出色表现而在自然语言处理（NLP）研究中受到了很多关注。然而，资源匮乏的语言因缺乏资源而被落下。在这项工作中，我们致力于通过整合特定任务和生成数据集来增强LLaMA-2-Amharic模型，以提高阿姆哈拉语的语言模型性能。我们创建了一个阿姆哈拉语指令微调数据集，并对LLaMA-2-Amharic模型进行了微调。经过微调的模型在不同的NLP任务中表现出有希望的结果。我们开源了我们的数据集创建流程、指令数据集、训练模型和评估输出，以促进对这些模型的语言特定研究。",
+    "tldr": "本研究通过整合任务特定和生成数据集来增强Amharic-LLaMA模型，提高了阿姆哈拉语言模型的性能。他们通过创建阿姆哈拉语指令微调数据集和微调模型，在不同的NLP任务中取得了有希望的结果。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "CMA-R:Causal Mediation Analysis for Explaining Rumour Detection",
+    "abstract": "We apply causal mediation analysis to explain the decision-making process of neural models for rumour detection on Twitter. Interventions at the input and network level reveal the causal impacts of tweets and words in the model output. We find that our approach CMA-R -- Causal Mediation Analysis for Rumour detection -- identifies salient tweets that explain model predictions and show strong agreement with human judgements for critical tweets determining the truthfulness of stories. CMA-R can further highlight causally impactful words in the salient tweets, providing another layer of interpretability and transparency into these blackbox rumour detection systems. Code is available at: https://github.com/ltian678/cma-r.",
+    "link": "https://arxiv.org/abs/2402.08155",
+    "context": "Title: CMA-R:Causal Mediation Analysis for Explaining Rumour Detection\nAbstract: We apply causal mediation analysis to explain the decision-making process of neural models for rumour detection on Twitter. Interventions at the input and network level reveal the causal impacts of tweets and words in the model output. We find that our approach CMA-R -- Causal Mediation Analysis for Rumour detection -- identifies salient tweets that explain model predictions and show strong agreement with human judgements for critical tweets determining the truthfulness of stories. CMA-R can further highlight causally impactful words in the salient tweets, providing another layer of interpretability and transparency into these blackbox rumour detection systems. Code is available at: https://github.com/ltian678/cma-r.",
+    "path": "papers/24/02/2402.08155.json",
+    "total_tokens": 766,
+    "translated_title": "CMA-R：用于解释谣言检测的因果中介分析",
+    "translated_abstract": "我们将因果中介分析应用于解释神经模型在Twitter上进行谣言检测的决策过程。在输入和网络层面进行干预可以揭示模型输出中推文和单词的因果影响。我们发现我们的方法CMA-R - 因果中介分析用于谣言检测 - 可以识别出解释模型预测并与人类判断关于故事真实性的关键推文的显著性推文，并展示出强烈的一致性。CMA-R还可以突出显著性推文中具有因果影响的单词，提供对这些黑盒子谣言检测系统的另一层解释性和透明度。代码可在此处找到：https://github.com/ltian678/cma-r.",
+    "tldr": "CMA-R通过因果中介分析解释了神经模型在Twitter上进行谣言检测的决策过程，并能够识别出关键推文和因果影响单词，提高了对黑盒子谣言检测系统的解释性和透明度。",
+    "en_tdlr": "CMA-R applies causal mediation analysis to explain the decision-making process of neural models for rumour detection on Twitter, identifying key tweets and causally impactful words, enhancing interpretability and transparency of blackbox rumour detection systems."
+}

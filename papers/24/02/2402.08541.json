@@ -1,0 +1,12 @@
+{
+    "title": "Continuous-Time Best-Response and Related Dynamics in Tullock Contests with Convex Costs",
+    "abstract": "Tullock contests model real-life scenarios that range from competition among proof-of-work blockchain miners to rent-seeking and lobbying activities. We show that continuous-time best-response dynamics in Tullock contests with convex costs converges to the unique equilibrium using Lyapunov-style arguments. We then use this result to provide an algorithm for computing an approximate equilibrium. We also establish convergence of related discrete-time dynamics, e.g., when the agents best-respond to the empirical average action of other agents. These results indicate that the equilibrium is a reliable predictor of the agents' behavior in these games.",
+    "link": "https://arxiv.org/abs/2402.08541",
+    "context": "Title: Continuous-Time Best-Response and Related Dynamics in Tullock Contests with Convex Costs\nAbstract: Tullock contests model real-life scenarios that range from competition among proof-of-work blockchain miners to rent-seeking and lobbying activities. We show that continuous-time best-response dynamics in Tullock contests with convex costs converges to the unique equilibrium using Lyapunov-style arguments. We then use this result to provide an algorithm for computing an approximate equilibrium. We also establish convergence of related discrete-time dynamics, e.g., when the agents best-respond to the empirical average action of other agents. These results indicate that the equilibrium is a reliable predictor of the agents' behavior in these games.",
+    "path": "papers/24/02/2402.08541.json",
+    "total_tokens": 784,
+    "translated_title": "Tullock竞赛中基于连续时间最优响应和相关动态的凸成本模型",
+    "translated_abstract": "Tullock竞赛模型适用于各种现实情景，包括PoW区块链矿工之间的竞争、寻租和游说活动。我们利用李雅普诺夫方式的论证结果表明，在具有凸成本的Tullock竞赛中，连续时间最优响应动态收敛到唯一均衡点。然后，我们利用这一结果提供了一种计算近似均衡的算法。我们还证明了相关离散时间动态的收敛性，例如，当代理人对其他代理人的经验平均行动做出最优响应时。这些结果表明均衡是这些游戏中代理人行为的可靠预测器。",
+    "tldr": "本研究证明了在具有凸成本的Tullock竞赛中，连续时间最优响应动态收敛到唯一均衡点，并提供了计算近似均衡的算法。同时，我们还证明了相关离散时间动态的收敛性，这表明均衡是这些游戏中代理人行为的可靠预测器。",
+    "en_tdlr": "This study proves that continuous-time best-response dynamics in Tullock contests with convex costs converge to the unique equilibrium and provides an algorithm for computing an approximate equilibrium. The convergence of related discrete-time dynamics is also established, indicating that the equilibrium is a reliable predictor of agents' behavior in these games."
+}

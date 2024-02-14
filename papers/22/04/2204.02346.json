@@ -1,0 +1,11 @@
+{
+    "title": "Finitely Heterogeneous Treatment Effect in Event-study",
+    "abstract": "The key assumption of the differences-in-differences approach in the event-study design is that untreated potential outcome differences are mean independent of treatment timing: the parallel trend assumption. In this paper, we relax the parallel trend assumption by assuming a latent type variable and developing a type-specific parallel trend assumption. With a finite support assumption on the latent type variable, we show that an extremum classifier consistently estimates the type assignment. Based on the classification result, we propose a type-specific diff-in-diff estimator for type-specific CATT. By estimating the CATT with regard to the latent type, we study heterogeneity in treatment effect, in addition to heterogeneity in baseline outcomes.",
+    "link": "https://arxiv.org/abs/2204.02346",
+    "context": "Title: Finitely Heterogeneous Treatment Effect in Event-study\nAbstract: The key assumption of the differences-in-differences approach in the event-study design is that untreated potential outcome differences are mean independent of treatment timing: the parallel trend assumption. In this paper, we relax the parallel trend assumption by assuming a latent type variable and developing a type-specific parallel trend assumption. With a finite support assumption on the latent type variable, we show that an extremum classifier consistently estimates the type assignment. Based on the classification result, we propose a type-specific diff-in-diff estimator for type-specific CATT. By estimating the CATT with regard to the latent type, we study heterogeneity in treatment effect, in addition to heterogeneity in baseline outcomes.",
+    "path": "papers/22/04/2204.02346.json",
+    "total_tokens": 757,
+    "translated_title": "事件研究中的有限异质处理效应",
+    "translated_abstract": "事件研究设计中差异比较法的关键假设是未处理潜在结果差异与处理时间的均值独立性：平行趋势假设。本文通过假设一个潜在的类型变量，并开发了一种类型特定的平行趋势假设来放松平行趋势假设。在对潜在类型变量有限支持的假设下，我们证明了一个极值分类器能够一致地估计类型分配。基于分类结果，我们提出了一种类型特定的差异法估计器用于类型特定CATT的估计。通过对潜在类型估计CATT，我们研究了处理效应中的异质性，除了基线结果中的异质性。",
+    "tldr": "本文通过放松平行趋势假设并利用一个极值分类器对潜在类型进行估计，提出了一种类型特定的差异法估计器用于估计类型特定CATT，研究了处理效应中的异质性。"
+}

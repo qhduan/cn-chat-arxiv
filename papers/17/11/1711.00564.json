@@ -1,0 +1,12 @@
+{
+    "title": "Sophisticated and small versus simple and sizeable: When does it pay off to introduce drifting coefficients in Bayesian VARs?",
+    "abstract": "We assess the relationship between model size and complexity in the time-varying parameter VAR framework via thorough predictive exercises for the Euro Area, the United Kingdom and the United States. It turns out that sophisticated dynamics through drifting coefficients are important in small data sets, while simpler models tend to perform better in sizeable data sets. To combine the best of both worlds, novel shrinkage priors help to mitigate the curse of dimensionality, resulting in competitive forecasts for all scenarios considered. Furthermore, we discuss dynamic model selection to improve upon the best performing individual model for each point in time.",
+    "link": "https://arxiv.org/abs/1711.00564",
+    "context": "Title: Sophisticated and small versus simple and sizeable: When does it pay off to introduce drifting coefficients in Bayesian VARs?\nAbstract: We assess the relationship between model size and complexity in the time-varying parameter VAR framework via thorough predictive exercises for the Euro Area, the United Kingdom and the United States. It turns out that sophisticated dynamics through drifting coefficients are important in small data sets, while simpler models tend to perform better in sizeable data sets. To combine the best of both worlds, novel shrinkage priors help to mitigate the curse of dimensionality, resulting in competitive forecasts for all scenarios considered. Furthermore, we discuss dynamic model selection to improve upon the best performing individual model for each point in time.",
+    "path": "papers/17/11/1711.00564.json",
+    "total_tokens": 752,
+    "translated_title": "复杂而小的模型与简单而庞大的模型：何时引入漂移系数对贝叶斯VAR模型是有益的？",
+    "translated_abstract": "通过对欧洲地区、英国和美国进行全面的预测实验，我们评估了时变参数VAR模型中模型规模与复杂性之间的关系。结果显示，在小数据集中，通过漂移系数引入复杂动力学是重要的，而在庞大数据集中，简单模型往往表现更好。为了兼顾两者的优点，引入新的收缩先验有助于缓解维度诅咒，并得到了所有情景下竞争力强的预测结果。此外，我们还讨论了动态模型选择，以改进每个时间点上表现最佳的个体模型。",
+    "tldr": "该研究通过预测实验发现，对于小数据集，引入漂移系数的复杂模型更有价值，而对于庞大数据集，简单模型表现更好。通过引入新的收缩先验，可以兼顾两者的优点，并得到有竞争力的预测结果。",
+    "en_tdlr": "This study finds that complex models with drifting coefficients are more valuable for small data sets, while simpler models perform better for large data sets. By introducing novel shrinkage priors, the best of both worlds can be achieved, resulting in competitive forecasts."
+}

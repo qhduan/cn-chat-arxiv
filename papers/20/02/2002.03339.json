@@ -1,0 +1,12 @@
+{
+    "title": "Input Validation for Neural Networks via Runtime Local Robustness Verification",
+    "abstract": "Local robustness verification can verify that a neural network is robust wrt. any perturbation to a specific input within a certain distance. We call this distance Robustness Radius. We observe that the robustness radii of correctly classified inputs are much larger than that of misclassified inputs which include adversarial examples, especially those from strong adversarial attacks. Another observation is that the robustness radii of correctly classified inputs often follow a normal distribution. Based on these two observations, we propose to validate inputs for neural networks via runtime local robustness verification. Experiments show that our approach can protect neural networks from adversarial examples and improve their accuracies.",
+    "link": "https://arxiv.org/abs/2002.03339",
+    "context": "Title: Input Validation for Neural Networks via Runtime Local Robustness Verification\nAbstract: Local robustness verification can verify that a neural network is robust wrt. any perturbation to a specific input within a certain distance. We call this distance Robustness Radius. We observe that the robustness radii of correctly classified inputs are much larger than that of misclassified inputs which include adversarial examples, especially those from strong adversarial attacks. Another observation is that the robustness radii of correctly classified inputs often follow a normal distribution. Based on these two observations, we propose to validate inputs for neural networks via runtime local robustness verification. Experiments show that our approach can protect neural networks from adversarial examples and improve their accuracies.",
+    "path": "papers/20/02/2002.03339.json",
+    "total_tokens": 728,
+    "translated_title": "通过运行时本地鲁棒性验证进行神经网络的输入验证",
+    "translated_abstract": "本地鲁棒性验证可以验证神经网络对特定输入的扰动在一定距离内的鲁棒性。我们将这个距离称为鲁棒性半径。我们观察到，正确分类的输入的鲁棒性半径要比错误分类的输入（包括对抗性样本，特别是来自强对抗性攻击的样本）要大得多。另一个观察是，正确分类的输入的鲁棒性半径通常符合正态分布。基于这两个观察，我们提出通过运行时本地鲁棒性验证来验证神经网络的输入。实验证明，我们的方法可以保护神经网络免受对抗性样本的影响，并提高其准确性。",
+    "tldr": "本文提出了通过运行时本地鲁棒性验证来验证神经网络输入的方法。实验证明，这种方法可以保护神经网络免受对抗性样本的影响，并提高准确性。",
+    "en_tdlr": "This paper proposes a method to validate inputs for neural networks via runtime local robustness verification. Experimental results show that this approach can protect neural networks from adversarial examples and improve their accuracies."
+}

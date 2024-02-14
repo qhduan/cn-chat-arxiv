@@ -1,0 +1,12 @@
+{
+    "title": "Contagion on Financial Networks: An Introduction",
+    "abstract": "The mini-project models propagation of shocks, in time point, through links in connected banks. In particular, financial network of 100 banks out of which 15 are shocked to default (that is, 85.00% of the banks are solvent) is modelled using Erdos and Renyi network -- directed, weighted and randomly generated network. Shocking some banks in a financial network implies removing their assets and redistributing their liabilities to other connected ones in the network. The banks are nodes and two ranges of probability values determine tendency of having a link between a pair of banks. Our major finding shows that the ranges of probability values and banks' percentage solvency have positive correlation.",
+    "link": "https://arxiv.org/abs/2402.08071",
+    "context": "Title: Contagion on Financial Networks: An Introduction\nAbstract: The mini-project models propagation of shocks, in time point, through links in connected banks. In particular, financial network of 100 banks out of which 15 are shocked to default (that is, 85.00% of the banks are solvent) is modelled using Erdos and Renyi network -- directed, weighted and randomly generated network. Shocking some banks in a financial network implies removing their assets and redistributing their liabilities to other connected ones in the network. The banks are nodes and two ranges of probability values determine tendency of having a link between a pair of banks. Our major finding shows that the ranges of probability values and banks' percentage solvency have positive correlation.",
+    "path": "papers/24/02/2402.08071.json",
+    "total_tokens": 710,
+    "translated_title": "金融网络上的传染：介绍",
+    "translated_abstract": "这个小项目通过连接的银行之间的链接来模拟冲击的传播。具体而言，使用Erdos和Renyi网络模型，模拟由100家银行组成的金融网络，其中有15家银行受到违约冲击（即85.00%的银行是偿债能力良好的）。在金融网络中，冲击某些银行意味着移除它们的资产并将其负债重新分配给网络中的其他关联银行。银行是节点，两个概率值范围确定了一对银行之间具有链接的倾向。我们的主要发现表明，概率值范围和银行偿债能力百分比之间存在正相关关系。",
+    "tldr": "该论文介绍了金融网络上冲击的传播模型。研究发现概率值范围和银行偿债能力百分比存在正相关关系。",
+    "en_tdlr": "This paper introduces a model for the propagation of shocks on financial networks. The study found a positive correlation between the ranges of probability values and the percentage solvency of banks."
+}

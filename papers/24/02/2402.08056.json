@@ -1,0 +1,12 @@
+{
+    "title": "MIML library: a Modular and Flexible Library for Multi-instance Multi-label Learning",
+    "abstract": "MIML library is a Java software tool to develop, test, and compare classification algorithms for multi-instance multi-label (MIML) learning. The library includes 43 algorithms and provides a specific format and facilities for data managing and partitioning, holdout and cross-validation methods, standard metrics for performance evaluation, and generation of reports. In addition, algorithms can be executed through $xml$ configuration files without needing to program. It is platform-independent, extensible, free, open-source, and available on GitHub under the GNU General Public License.",
+    "link": "https://arxiv.org/abs/2402.08056",
+    "context": "Title: MIML library: a Modular and Flexible Library for Multi-instance Multi-label Learning\nAbstract: MIML library is a Java software tool to develop, test, and compare classification algorithms for multi-instance multi-label (MIML) learning. The library includes 43 algorithms and provides a specific format and facilities for data managing and partitioning, holdout and cross-validation methods, standard metrics for performance evaluation, and generation of reports. In addition, algorithms can be executed through $xml$ configuration files without needing to program. It is platform-independent, extensible, free, open-source, and available on GitHub under the GNU General Public License.",
+    "path": "papers/24/02/2402.08056.json",
+    "total_tokens": 655,
+    "translated_title": "MIML库：用于多实例多标签学习的模块化和灵活库",
+    "translated_abstract": "MIML库是一个Java软件工具，用于开发、测试和比较多实例多标签（MIML）学习的分类算法。该库包括43种算法，并提供了特定的数据管理和分区、保留和交叉验证方法、性能评估的标准指标和报告生成的功能和格式。此外，算法可以通过XML配置文件执行，无需编程。它是平台无关、可扩展、免费、开源，并在GNU General Public License下在GitHub上提供。",
+    "tldr": "MIML库是一个用于多实例多标签学习的模块化和灵活的Java软件库，提供了43种分类算法，可通过XML配置文件执行，还包括数据管理和分区、交叉验证和性能评估等功能。",
+    "en_tdlr": "MIML library is a modular and flexible Java software tool for multi-instance multi-label (MIML) learning, which includes 43 classification algorithms that can be executed through XML configuration files, and provides functionalities such as data management and partitioning, cross-validation, and performance evaluation."
+}

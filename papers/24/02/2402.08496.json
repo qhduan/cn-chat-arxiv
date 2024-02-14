@@ -1,0 +1,12 @@
+{
+    "title": "A Systematic Review of Data-to-Text NLG",
+    "abstract": "This systematic review aims to provide a comprehensive analysis of the state of data-to-text generation research, focusing on identifying research gaps, offering future directions, and addressing challenges found during the review. We thoroughly examined the literature, including approaches, datasets, evaluation metrics, applications, multilingualism, and hallucination mitigation measures. Our review provides a roadmap for future research in this rapidly evolving field.",
+    "link": "https://arxiv.org/abs/2402.08496",
+    "context": "Title: A Systematic Review of Data-to-Text NLG\nAbstract: This systematic review aims to provide a comprehensive analysis of the state of data-to-text generation research, focusing on identifying research gaps, offering future directions, and addressing challenges found during the review. We thoroughly examined the literature, including approaches, datasets, evaluation metrics, applications, multilingualism, and hallucination mitigation measures. Our review provides a roadmap for future research in this rapidly evolving field.",
+    "path": "papers/24/02/2402.08496.json",
+    "total_tokens": 568,
+    "translated_title": "数据到文本自然语言生成研究的系统性回顾",
+    "translated_abstract": "这篇系统性回顾旨在全面分析数据到文本生成研究的现状，重点是确定研究空白，提供未来方向，并解决回顾中发现的挑战。我们对文献进行了全面的检查，包括方法、数据集、评估指标、应用、多语言性和幻觉缓解措施。我们的回顾为这个快速发展的领域的未来研究提供了路线图。",
+    "tldr": "这篇系统性回顾全面分析了数据到文本自然语言生成研究的现状，提出未来方向，并解决了相关挑战。",
+    "en_tdlr": "This systematic review provides a comprehensive analysis of the current state of research in data-to-text generation, offers future directions, and addresses challenges in the field."
+}

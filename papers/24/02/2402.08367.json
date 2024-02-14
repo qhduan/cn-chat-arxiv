@@ -1,0 +1,12 @@
+{
+    "title": "RBF-PINN: Non-Fourier Positional Embedding in Physics-Informed Neural Networks",
+    "abstract": "While many recent Physics-Informed Neural Networks (PINNs) variants have had considerable success in solving Partial Differential Equations, the empirical benefits of feature mapping drawn from the broader Neural Representations research have been largely overlooked. We highlight the limitations of widely used Fourier-based feature mapping in certain situations and suggest the use of the conditionally positive definite Radial Basis Function. The empirical findings demonstrate the effectiveness of our approach across a variety of forward and inverse problem cases. Our method can be seamlessly integrated into coordinate-based input neural networks and contribute to the wider field of PINNs research.",
+    "link": "https://arxiv.org/abs/2402.08367",
+    "context": "Title: RBF-PINN: Non-Fourier Positional Embedding in Physics-Informed Neural Networks\nAbstract: While many recent Physics-Informed Neural Networks (PINNs) variants have had considerable success in solving Partial Differential Equations, the empirical benefits of feature mapping drawn from the broader Neural Representations research have been largely overlooked. We highlight the limitations of widely used Fourier-based feature mapping in certain situations and suggest the use of the conditionally positive definite Radial Basis Function. The empirical findings demonstrate the effectiveness of our approach across a variety of forward and inverse problem cases. Our method can be seamlessly integrated into coordinate-based input neural networks and contribute to the wider field of PINNs research.",
+    "path": "papers/24/02/2402.08367.json",
+    "total_tokens": 728,
+    "translated_title": "RBF-PINN：物理信息神经网络中的非Fourier位置嵌入",
+    "translated_abstract": "虽然最近许多物理信息神经网络（PINNs）的变体在求解偏微分方程方面取得了显著的成功，但来自更广泛的神经表示研究的特征映射的经验优势在很大程度上被忽视了。我们强调了在某些情况下广泛使用的基于Fourier的特征映射的局限性，并建议使用具有条件正定性质的径向基函数。实证发现表明我们的方法在各种正向和反向问题案例中的有效性。我们的方法可以无缝集成到基于坐标的输入神经网络中，并为PINNs研究的更广泛领域做出贡献。",
+    "tldr": "本论文介绍了RBF-PINN方法，在物理信息神经网络中应用非Fourier位置嵌入，解决了基于Fourier特征映射的局限性，并在各种正向和反向问题中取得了有效结果。",
+    "en_tdlr": "This paper presents RBF-PINN, a method that applies non-Fourier positional embedding in Physics-Informed Neural Networks (PINNs) to address the limitations of Fourier-based feature mapping and achieves effective results in various forward and inverse problem cases."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Uncertainty Quantification via Stable Distribution Propagation",
+    "abstract": "We propose a new approach for propagating stable probability distributions through neural networks. Our method is based on local linearization, which we show to be an optimal approximation in terms of total variation distance for the ReLU non-linearity. This allows propagating Gaussian and Cauchy input uncertainties through neural networks to quantify their output uncertainties. To demonstrate the utility of propagating distributions, we apply the proposed method to predicting calibrated confidence intervals and selective prediction on out-of-distribution data. The results demonstrate a broad applicability of propagating distributions and show the advantages of our method over other approaches such as moment matching.",
+    "link": "https://arxiv.org/abs/2402.08324",
+    "context": "Title: Uncertainty Quantification via Stable Distribution Propagation\nAbstract: We propose a new approach for propagating stable probability distributions through neural networks. Our method is based on local linearization, which we show to be an optimal approximation in terms of total variation distance for the ReLU non-linearity. This allows propagating Gaussian and Cauchy input uncertainties through neural networks to quantify their output uncertainties. To demonstrate the utility of propagating distributions, we apply the proposed method to predicting calibrated confidence intervals and selective prediction on out-of-distribution data. The results demonstrate a broad applicability of propagating distributions and show the advantages of our method over other approaches such as moment matching.",
+    "path": "papers/24/02/2402.08324.json",
+    "total_tokens": 682,
+    "translated_title": "不确定性量化通过稳定分布传播",
+    "translated_abstract": "我们提出了一种通过神经网络传播稳定概率分布的新方法。我们的方法基于局部线性化，在ReLU非线性方面，我们证明它是总变差距离的最优近似。这使得能够通过神经网络传播高斯和柯西输入不确定性来量化其输出不确定性。为了展示传播分布的实用性，我们将所提出的方法应用于预测校准置信区间和选择性预测超出分布的数据上。结果表明了传播分布的广泛适用性，并显示了我们的方法在诸如矩匹配等其他方法上的优势。",
+    "tldr": "通过局部线性化，我们提出了一种新的方法，能够通过神经网络传播稳定概率分布来量化输出的不确定性。我们的方法在预测校准置信区间和选择性预测方面显示出了明显的优势。"
+}

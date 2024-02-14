@@ -1,0 +1,11 @@
+{
+    "title": "Distribution Estimation under the Infinity Norm",
+    "abstract": "We present novel bounds for estimating discrete probability distributions under the $\\ell_\\infty$ norm. These are nearly optimal in various precise senses, including a kind of instance-optimality. Our data-dependent convergence guarantees for the maximum likelihood estimator significantly improve upon the currently known results. A variety of techniques are utilized and innovated upon, including Chernoff-type inequalities and empirical Bernstein bounds. We illustrate our results in synthetic and real-world experiments. Finally, we apply our proposed framework to a basic selective inference problem, where we estimate the most frequent probabilities in a sample.",
+    "link": "https://arxiv.org/abs/2402.08422",
+    "context": "Title: Distribution Estimation under the Infinity Norm\nAbstract: We present novel bounds for estimating discrete probability distributions under the $\\ell_\\infty$ norm. These are nearly optimal in various precise senses, including a kind of instance-optimality. Our data-dependent convergence guarantees for the maximum likelihood estimator significantly improve upon the currently known results. A variety of techniques are utilized and innovated upon, including Chernoff-type inequalities and empirical Bernstein bounds. We illustrate our results in synthetic and real-world experiments. Finally, we apply our proposed framework to a basic selective inference problem, where we estimate the most frequent probabilities in a sample.",
+    "path": "papers/24/02/2402.08422.json",
+    "total_tokens": 695,
+    "translated_title": "基于无穷范数的分布估计",
+    "translated_abstract": "我们提出了一种在$\\ell_\\infty$范数下估计离散概率分布的新界限。这些界限在各种精确意义上几乎是最优的，包括一种实例最优性。我们对最大似然估计器的数据相关收敛性保证明显优于当前已知结果。我们运用和创新了各种技术，包括切尔诺夫型不等式和经验贝尔斯坦界。我们在合成和实际实验中展示了我们的结果。最后，我们将我们的提出的框架应用于一个基本的选择性推断问题，其中我们估计样本中出现频率最高的概率。",
+    "tldr": "本文提出了新的界限来在$\\ell_\\infty$范数下估计离散概率分布，实现了数据相关的收敛性保证，比现有结果有显著改进。通过运用切尔诺夫型不等式和经验贝尔斯坦界等方法，我们在合成和实际实验中验证了我们的结果。最后，我们将我们的方法应用于一个基本的选择性推断问题。"
+}

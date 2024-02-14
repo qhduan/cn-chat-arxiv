@@ -1,0 +1,12 @@
+{
+    "title": "Inference of Abstraction for a Unified Account of Symbolic Reasoning from Data",
+    "abstract": "Inspired by empirical work in neuroscience for Bayesian approaches to brain function, we give a unified probabilistic account of various types of symbolic reasoning from data. We characterise them in terms of formal logic using the classical consequence relation, an empirical consequence relation, maximal consistent sets, maximal possible sets and maximum likelihood estimation. The theory gives new insights into reasoning towards human-like machine intelligence.",
+    "link": "https://arxiv.org/abs/2402.08646",
+    "context": "Title: Inference of Abstraction for a Unified Account of Symbolic Reasoning from Data\nAbstract: Inspired by empirical work in neuroscience for Bayesian approaches to brain function, we give a unified probabilistic account of various types of symbolic reasoning from data. We characterise them in terms of formal logic using the classical consequence relation, an empirical consequence relation, maximal consistent sets, maximal possible sets and maximum likelihood estimation. The theory gives new insights into reasoning towards human-like machine intelligence.",
+    "path": "papers/24/02/2402.08646.json",
+    "total_tokens": 635,
+    "translated_title": "从数据推理抽象的统一解释",
+    "translated_abstract": "受到神经科学对贝叶斯方法在大脑功能方面的实证研究的启发，我们提供了一个统一的概率化解释，用于从数据中对各种类型的符号推理进行描述。我们使用经典的推理关系、经验上的推理关系、最大一致集、最大可能集和最大似然估计来对它们进行描述。这个理论为实现人类类似的机器智能提供了新的见解。",
+    "tldr": "本研究提出了一个从数据中对各种类型的符号推理进行概率化描述的统一解释，并使用经典的推理关系、经验上的推理关系、最大一致集、最大可能集和最大似然估计来实现。这个理论为实现人类类似的机器智能提供了新的见解。",
+    "en_tdlr": "This study presents a unified probabilistic account of various types of symbolic reasoning from data, using classical consequence relation, empirical consequence relation, maximal consistent sets, maximal possible sets, and maximum likelihood estimation. The theory provides new insights into achieving human-like machine intelligence."
+}

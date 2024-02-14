@@ -1,0 +1,12 @@
+{
+    "title": "Diffeomorphic Measure Matching with Kernels for Generative Modeling",
+    "abstract": "This article presents a general framework for the transport of probability measures towards minimum divergence generative modeling and sampling using ordinary differential equations (ODEs) and Reproducing Kernel Hilbert Spaces (RKHSs), inspired by ideas from diffeomorphic matching and image registration. A theoretical analysis of the proposed method is presented, giving a priori error bounds in terms of the complexity of the model, the number of samples in the training set, and model misspecification. An extensive suite of numerical experiments further highlights the properties, strengths, and weaknesses of the method and extends its applicability to other tasks, such as conditional simulation and inference.",
+    "link": "https://arxiv.org/abs/2402.08077",
+    "context": "Title: Diffeomorphic Measure Matching with Kernels for Generative Modeling\nAbstract: This article presents a general framework for the transport of probability measures towards minimum divergence generative modeling and sampling using ordinary differential equations (ODEs) and Reproducing Kernel Hilbert Spaces (RKHSs), inspired by ideas from diffeomorphic matching and image registration. A theoretical analysis of the proposed method is presented, giving a priori error bounds in terms of the complexity of the model, the number of samples in the training set, and model misspecification. An extensive suite of numerical experiments further highlights the properties, strengths, and weaknesses of the method and extends its applicability to other tasks, such as conditional simulation and inference.",
+    "path": "papers/24/02/2402.08077.json",
+    "total_tokens": 705,
+    "translated_title": "使用核函数的同胚度量匹配在生成建模中的应用",
+    "translated_abstract": "本文提出了一个通用框架，通过普通微分方程(ODEs)和再生核希尔伯特空间(RKHSs)实现概率测度的传输，以达到最小差异的生成建模和采样。该框架受同胚匹配和图像配准思想的启发。文中通过理论分析，给出了该方法的先验误差界限，该界限与模型的复杂性、训练集中样本的数量和模型规范性有关。通过大量的数值实验进一步展示了该方法的特性、优势和弱点，并扩展了其在条件模拟和推断等其他任务中的适用性。",
+    "tldr": "该研究提出了使用核函数进行同胚度量匹配的方法，在生成建模中实现了概率测度的传输。通过理论分析和数值实验，本文展示了该方法的性能和适用性。",
+    "en_tdlr": "This study proposes a method for diffeomorphic measure matching using kernels, which enables the transport of probability measures in generative modeling. Theoretical analysis and numerical experiments demonstrate the performance and applicability of the method."
+}

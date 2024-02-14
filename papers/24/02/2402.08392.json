@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models as Minecraft Agents",
+    "abstract": "In this work we examine the use of Large Language Models (LLMs) in the challenging setting of acting as a Minecraft agent. We apply and evaluate LLMs in the builder and architect settings, introduce clarification questions and examining the challenges and opportunities for improvement. In addition, we present a platform for online interaction with the agents and an evaluation against previous works.",
+    "link": "https://arxiv.org/abs/2402.08392",
+    "context": "Title: Large Language Models as Minecraft Agents\nAbstract: In this work we examine the use of Large Language Models (LLMs) in the challenging setting of acting as a Minecraft agent. We apply and evaluate LLMs in the builder and architect settings, introduce clarification questions and examining the challenges and opportunities for improvement. In addition, we present a platform for online interaction with the agents and an evaluation against previous works.",
+    "path": "papers/24/02/2402.08392.json",
+    "total_tokens": 588,
+    "translated_title": "作为Minecraft代理的大型语言模型",
+    "translated_abstract": "在这项工作中，我们研究了将大型语言模型（LLMs）应用于充当Minecraft代理的具有挑战性的环境。我们在建造者和建筑师设置中应用和评估LLMs，引入澄清问题，并研究改进的挑战和机遇。此外，我们还提出了一个用于与代理进行在线交互的平台，并对之前的工作进行了评估。",
+    "tldr": "本文研究了在Minecraft代理环境中使用大型语言模型（LLMs）的应用和评估，探讨了建造者和建筑师设置中的挑战和机遇，提出了澄清问题，并介绍了与代理进行在线交互的平台。",
+    "en_tdlr": "This work examines the use and evaluation of Large Language Models (LLMs) as Minecraft agents, discussing the challenges and opportunities in the builder and architect settings, introducing clarification questions, and presenting an online interaction platform with the agents."
+}

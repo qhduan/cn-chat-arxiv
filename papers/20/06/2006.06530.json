@@ -1,0 +1,12 @@
+{
+    "title": "Age-structured estimation of COVID-19 ICU demand from low quality data",
+    "abstract": "We sample aggravated cases following age-structured probabilities from confirmed cases and use ICU occupation data to find a subnotification factor. A logistic fit is then employed to project the progression of the COVID-19 epidemic with plateau scenarios taken from locations that have reached this stage. Finally, the logistic curve found is corrected by the subnotification factor and sampled to project the future demand for ICU beds.",
+    "link": "https://arxiv.org/abs/2006.06530",
+    "context": "Title: Age-structured estimation of COVID-19 ICU demand from low quality data\nAbstract: We sample aggravated cases following age-structured probabilities from confirmed cases and use ICU occupation data to find a subnotification factor. A logistic fit is then employed to project the progression of the COVID-19 epidemic with plateau scenarios taken from locations that have reached this stage. Finally, the logistic curve found is corrected by the subnotification factor and sampled to project the future demand for ICU beds.",
+    "path": "papers/20/06/2006.06530.json",
+    "total_tokens": 618,
+    "translated_title": "COVID-19 ICU需求的年龄结构估计：基于低质量数据的方法",
+    "translated_abstract": "我们通过对确诊病例进行年龄结构概率抽样，使用重症监护病房占用数据来确定一个未通报因子。然后，我们使用来自达到平台阶段的地区的情景，采用 logistic 拟合来预测 COVID-19 疫情的进展。最后，通过未通报因子，对找到的逻辑曲线进行校正，并对未来 ICU 床位需求进行抽样预测。",
+    "tldr": "本研究提出了一种基于低质量数据的方法，通过年龄结构估计 COVID-19 ICU 的需求量，并使用重症监护病房占用数据和通报因子进行校正，预测未来 ICU 床位的需求情况。",
+    "en_tdlr": "This study proposes a method for estimating the demand for COVID-19 ICU beds based on low-quality data, using age-structured probabilities and correction with ICU occupation data and a subnotification factor, providing insights into the future demand for ICU beds."
+}

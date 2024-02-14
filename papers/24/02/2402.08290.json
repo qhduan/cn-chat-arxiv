@@ -1,0 +1,12 @@
+{
+    "title": "The Effect of Data Poisoning on Counterfactual Explanations",
+    "abstract": "Counterfactual explanations provide a popular method for analyzing the predictions of black-box systems, and they can offer the opportunity for computational recourse by suggesting actionable changes on how to change the input to obtain a different (i.e. more favorable) system output. However, recent work highlighted their vulnerability to different types of manipulations. This work studies the vulnerability of counterfactual explanations to data poisoning. We formalize data poisoning in the context of counterfactual explanations for increasing the cost of recourse on three different levels: locally for a single instance, or a sub-group of instances, or globally for all instances. We demonstrate that state-of-the-art counterfactual generation methods \\& toolboxes are vulnerable to such data poisoning.",
+    "link": "https://arxiv.org/abs/2402.08290",
+    "context": "Title: The Effect of Data Poisoning on Counterfactual Explanations\nAbstract: Counterfactual explanations provide a popular method for analyzing the predictions of black-box systems, and they can offer the opportunity for computational recourse by suggesting actionable changes on how to change the input to obtain a different (i.e. more favorable) system output. However, recent work highlighted their vulnerability to different types of manipulations. This work studies the vulnerability of counterfactual explanations to data poisoning. We formalize data poisoning in the context of counterfactual explanations for increasing the cost of recourse on three different levels: locally for a single instance, or a sub-group of instances, or globally for all instances. We demonstrate that state-of-the-art counterfactual generation methods \\& toolboxes are vulnerable to such data poisoning.",
+    "path": "papers/24/02/2402.08290.json",
+    "total_tokens": 726,
+    "translated_title": "数据污染对反事实解释的影响",
+    "translated_abstract": "反事实解释是分析黑盒系统预测的一种流行方法，它们提供了根据不同情况建议改变输入以获得不同（更有利）系统输出的计算补救机会。然而，最近的研究突显了它们对不同类型操纵的脆弱性。本研究研究了反事实解释对数据污染的脆弱性。我们在增加三个不同层次的补救成本方面，形式化地研究了反事实解释在单个实例、某个子组或所有实例上的数据污染。我们证明了最先进的反事实生成方法和工具包对此类数据污染是脆弱的。",
+    "tldr": "本研究研究了反事实解释在数据污染方面的脆弱性，发现最先进的反事实生成方法和工具包容易受到数据污染的影响。",
+    "en_tdlr": "This study investigates the vulnerability of counterfactual explanations to data poisoning and demonstrates that state-of-the-art counterfactual generation methods and toolboxes are susceptible to such manipulation."
+}

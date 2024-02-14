@@ -1,0 +1,12 @@
+{
+    "title": "Adversarial Robustness on Image Classification with $k$-means",
+    "abstract": "In this paper we explore the challenges and strategies for enhancing the robustness of $k$-means clustering algorithms against adversarial manipulations. We evaluate the vulnerability of clustering algorithms to adversarial attacks, emphasising the associated security risks. Our study investigates the impact of incremental attack strength on training, introduces the concept of transferability between supervised and unsupervised models, and highlights the sensitivity of unsupervised models to sample distributions. We additionally introduce and evaluate an adversarial training method that improves testing performance in adversarial scenarios, and we highlight the importance of various parameters in the proposed training method, such as continuous learning, centroid initialisation, and adversarial step-count.",
+    "link": "https://arxiv.org/abs/2312.09533",
+    "context": "Title: Adversarial Robustness on Image Classification with $k$-means\nAbstract: In this paper we explore the challenges and strategies for enhancing the robustness of $k$-means clustering algorithms against adversarial manipulations. We evaluate the vulnerability of clustering algorithms to adversarial attacks, emphasising the associated security risks. Our study investigates the impact of incremental attack strength on training, introduces the concept of transferability between supervised and unsupervised models, and highlights the sensitivity of unsupervised models to sample distributions. We additionally introduce and evaluate an adversarial training method that improves testing performance in adversarial scenarios, and we highlight the importance of various parameters in the proposed training method, such as continuous learning, centroid initialisation, and adversarial step-count.",
+    "path": "papers/23/12/2312.09533.json",
+    "total_tokens": 747,
+    "translated_title": "用$k$-means在图像分类中的对抗性鲁棒性",
+    "translated_abstract": "本文探讨了增强$k$-means聚类算法对抗性攻击的挑战与策略。我们评估了聚类算法对抗性攻击的脆弱性，并强调了相关的安全风险。我们的研究调查了攻击强度对训练的影响，引入了监督模型和无监督模型之间的可迁移性概念，并强调了无监督模型对样本分布的敏感性。此外，我们还引入并评估了一种对抗性训练方法，在对抗场景中改善了测试性能，并强调了所提出的训练方法中各种参数的重要性，如连续学习、中心初始化和对抗步数。",
+    "tldr": "本文研究了增强$k$-means聚类算法对抗性攻击鲁棒性的挑战和策略，并提出了一种对抗性训练方法来改善在对抗场景中的测试性能。",
+    "en_tdlr": "This paper explores the challenges and strategies for enhancing the adversarial robustness of $k$-means clustering algorithm and proposes an adversarial training method to improve testing performance in adversarial scenarios."
+}

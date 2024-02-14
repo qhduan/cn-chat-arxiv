@@ -1,0 +1,12 @@
+{
+    "title": "A Convergence Analysis of Approximate Message Passing with Non-Separable Functions and Applications to Multi-Class Classification",
+    "abstract": "Motivated by the recent application of approximate message passing (AMP) to the analysis of convex optimizations in multi-class classifications [Loureiro, et. al., 2021], we present a convergence analysis of AMP dynamics with non-separable multivariate nonlinearities. As an application, we present a complete (and independent) analysis of the motivated convex optimization problem.",
+    "link": "https://arxiv.org/abs/2402.08676",
+    "context": "Title: A Convergence Analysis of Approximate Message Passing with Non-Separable Functions and Applications to Multi-Class Classification\nAbstract: Motivated by the recent application of approximate message passing (AMP) to the analysis of convex optimizations in multi-class classifications [Loureiro, et. al., 2021], we present a convergence analysis of AMP dynamics with non-separable multivariate nonlinearities. As an application, we present a complete (and independent) analysis of the motivated convex optimization problem.",
+    "path": "papers/24/02/2402.08676.json",
+    "total_tokens": 549,
+    "translated_title": "关于非可分函数的近似消息传递收敛性分析及其在多类别分类中的应用",
+    "translated_abstract": "受最近将近似消息传递（AMP）应用于多类别分类中凸优化分析的启发[Loureiro, et. al., 2021]，我们提出了关于非可分多变量非线性动力学的AMP收敛性分析。作为一个应用，我们提出了对所激发的凸优化问题的完整（和独立的）分析。",
+    "tldr": "该论文对非可分函数的近似消息传递（AMP）动力学进行了收敛性分析，并应用于多类别分类中的凸优化问题。",
+    "en_tdlr": "This paper presents a convergence analysis of Approximate Message Passing (AMP) dynamics with non-separable multivariate nonlinearities and applies it to the convex optimization problem in multi-class classification."
+}
