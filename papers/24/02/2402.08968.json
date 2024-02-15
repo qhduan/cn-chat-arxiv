@@ -1,0 +1,11 @@
+{
+    "title": "GrounDial: Human-norm Grounded Safe Dialog Response Generation",
+    "abstract": "arXiv:2402.08968v1 Announce Type: new Abstract: Current conversational AI systems based on large language models (LLMs) are known to generate unsafe responses, agreeing to offensive user input or including toxic content. Previous research aimed to alleviate the toxicity, by fine-tuning LLM with manually annotated safe dialogue histories. However, the dependency on additional tuning requires substantial costs. To remove the dependency, we propose GrounDial, where response safety is achieved by grounding responses to commonsense social rules without requiring fine-tuning. A hybrid approach of in-context learning and human-norm-guided decoding of GrounDial enables the response to be quantitatively and qualitatively safer even without additional data or tuning.",
+    "link": "https://arxiv.org/abs/2402.08968",
+    "context": "Title: GrounDial: Human-norm Grounded Safe Dialog Response Generation\nAbstract: arXiv:2402.08968v1 Announce Type: new Abstract: Current conversational AI systems based on large language models (LLMs) are known to generate unsafe responses, agreeing to offensive user input or including toxic content. Previous research aimed to alleviate the toxicity, by fine-tuning LLM with manually annotated safe dialogue histories. However, the dependency on additional tuning requires substantial costs. To remove the dependency, we propose GrounDial, where response safety is achieved by grounding responses to commonsense social rules without requiring fine-tuning. A hybrid approach of in-context learning and human-norm-guided decoding of GrounDial enables the response to be quantitatively and qualitatively safer even without additional data or tuning.",
+    "path": "papers/24/02/2402.08968.json",
+    "total_tokens": 734,
+    "translated_title": "GrounDial：基于人类准则的对话响应生成",
+    "translated_abstract": "目前基于大型语言模型（LLM）的对话AI系统已知会生成不安全的响应，包括同意冒犯性用户输入或包含有害内容。以往的研究致力于减少毒性，通过使用手动注释的安全对话历史来对LLM进行微调。然而，依赖于额外的调整需要大量成本。为了消除该依赖，我们提出了GrounDial，它通过将响应基于常识社交规则来确保响应的安全性，而无需进行微调。GrounDial的上下文学习和遵循人类准则的解码混合方法使得响应在没有额外数据或调整的情况下在量化和质量上都更安全。",
+    "tldr": "GrounDial是一种基于人类准则的对话响应生成模型，通过将响应基于常识社交规则来确保响应的安全性，而无需进行微调。"
+}

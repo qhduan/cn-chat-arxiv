@@ -1,0 +1,11 @@
+{
+    "title": "Sobolev Training for Operator Learning",
+    "abstract": "arXiv:2402.09084v1 Announce Type: cross Abstract: This study investigates the impact of Sobolev Training on operator learning frameworks for improving model performance. Our research reveals that integrating derivative information into the loss function enhances the training process, and we propose a novel framework to approximate derivatives on irregular meshes in operator learning. Our findings are supported by both experimental evidence and theoretical analysis. This demonstrates the effectiveness of Sobolev Training in approximating the solution operators between infinite-dimensional spaces.",
+    "link": "https://arxiv.org/abs/2402.09084",
+    "context": "Title: Sobolev Training for Operator Learning\nAbstract: arXiv:2402.09084v1 Announce Type: cross Abstract: This study investigates the impact of Sobolev Training on operator learning frameworks for improving model performance. Our research reveals that integrating derivative information into the loss function enhances the training process, and we propose a novel framework to approximate derivatives on irregular meshes in operator learning. Our findings are supported by both experimental evidence and theoretical analysis. This demonstrates the effectiveness of Sobolev Training in approximating the solution operators between infinite-dimensional spaces.",
+    "path": "papers/24/02/2402.09084.json",
+    "total_tokens": 681,
+    "translated_title": "Sobolev训练用于算子学习",
+    "translated_abstract": "本研究调查了Sobolev训练对于改善模型性能的算子学习框架的影响。我们的研究发现，将导数信息融入损失函数可以改善训练过程，并提出了一种在算子学习中近似不规则网格上的导数的新框架。我们的发现得到了实验和理论分析的支持。这表明了Sobolev训练在近似无穷维空间中的解算子方面的有效性。",
+    "tldr": "本研究通过将导数信息融入损失函数来改善算子学习框架的性能，并提出了一种在不规则网格上近似导数的新框架，从而表明Sobolev训练在近似解算子方面的有效性。"
+}

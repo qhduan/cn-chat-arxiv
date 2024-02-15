@@ -1,0 +1,12 @@
+{
+    "title": "Recommendation Algorithm Based on Recommendation Sessions",
+    "abstract": "arXiv:2402.09130v1 Announce Type: new Abstract: The enormous development of the Internet, both in the geographical scale and in the area of using its possibilities in everyday life, determines the creation and collection of huge amounts of data. Due to the scale, it is not possible to analyse them using traditional methods, therefore it makes a necessary to use modern methods and techniques. Such methods are provided, among others, by the area of recommendations. The aim of this study is to present a new algorithm in the area of recommendation systems, the algorithm based on data from various sets of information, both static (categories of objects, features of objects) and dynamic (user behaviour).",
+    "link": "https://arxiv.org/abs/2402.09130",
+    "context": "Title: Recommendation Algorithm Based on Recommendation Sessions\nAbstract: arXiv:2402.09130v1 Announce Type: new Abstract: The enormous development of the Internet, both in the geographical scale and in the area of using its possibilities in everyday life, determines the creation and collection of huge amounts of data. Due to the scale, it is not possible to analyse them using traditional methods, therefore it makes a necessary to use modern methods and techniques. Such methods are provided, among others, by the area of recommendations. The aim of this study is to present a new algorithm in the area of recommendation systems, the algorithm based on data from various sets of information, both static (categories of objects, features of objects) and dynamic (user behaviour).",
+    "path": "papers/24/02/2402.09130.json",
+    "total_tokens": 642,
+    "translated_title": "基于推荐会话的推荐算法",
+    "translated_abstract": "互联网的巨大发展不仅在地理范围上，也在日常生活中利用其可能性的领域上，决定了巨量数据的创建和收集。由于规模的问题，传统方法不能分析这些数据，因此必须使用现代方法和技术。这种方法主要由推荐领域提供。本研究旨在提出一种基于不同信息集（静态信息类别、对象特征和动态用户行为）的推荐系统中的新算法。",
+    "tldr": "本研究提出了一种基于推荐会话的推荐算法，该算法使用了来自不同信息集的数据，包括静态信息类别、对象特征和动态用户行为。",
+    "en_tdlr": "This study presents a new recommendation algorithm, based on recommendation sessions, which utilizes data from different sets of information including static information categories, object features, and dynamic user behavior."
+}

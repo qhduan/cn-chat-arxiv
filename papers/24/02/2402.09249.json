@@ -1,0 +1,11 @@
+{
+    "title": "Exploring the Relationship: Transformative Adaptive Activation Functions in Comparison to Other Activation Functions",
+    "abstract": "arXiv:2402.09249v1 Announce Type: new Abstract: Neural networks are the state-of-the-art approach for many tasks and the activation function is one of the main building blocks that allow such performance. Recently, a novel transformative adaptive activation function (TAAF) allowing for any vertical and horizontal translation and scaling was proposed. This work sets the TAAF into the context of other activation functions. It shows that the TAAFs generalize over 50 existing activation functions and utilize similar concepts as over 70 other activation functions, underscoring the versatility of TAAFs. This comprehensive exploration positions TAAFs as a promising and adaptable addition to neural networks.",
+    "link": "https://arxiv.org/abs/2402.09249",
+    "context": "Title: Exploring the Relationship: Transformative Adaptive Activation Functions in Comparison to Other Activation Functions\nAbstract: arXiv:2402.09249v1 Announce Type: new Abstract: Neural networks are the state-of-the-art approach for many tasks and the activation function is one of the main building blocks that allow such performance. Recently, a novel transformative adaptive activation function (TAAF) allowing for any vertical and horizontal translation and scaling was proposed. This work sets the TAAF into the context of other activation functions. It shows that the TAAFs generalize over 50 existing activation functions and utilize similar concepts as over 70 other activation functions, underscoring the versatility of TAAFs. This comprehensive exploration positions TAAFs as a promising and adaptable addition to neural networks.",
+    "path": "papers/24/02/2402.09249.json",
+    "total_tokens": 746,
+    "translated_title": "探索关系：变革性自适应激活函数与其他激活函数的比较",
+    "translated_abstract": "神经网络是许多任务的最先进方法，而激活函数是实现这种性能的主要构建模块之一。最近，提出了一种新型的变革性自适应激活函数(TAAF)，它允许任何垂直和水平平移和缩放。本研究将TAAF置于其他激活函数的背景下。研究表明，TAAFs广义地推广了50种现有激活函数，并利用了超过70种其他激活函数的类似概念，突出了TAAFs的多功能性。这项全面的探索将TAAFs定位为神经网络中具有潜力和适应性的重要组成部分。",
+    "tldr": "变革性自适应激活函数(TAAF)被发现可以广义地推广现有激活函数，并利用了其他激活函数的相似概念，这使得TAAF成为神经网络中有潜力和适应性的重要组成部分。"
+}

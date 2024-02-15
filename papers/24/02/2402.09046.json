@@ -1,0 +1,12 @@
+{
+    "title": "Inference of Abstraction for a Unified Account of Reasoning and Learning",
+    "abstract": "arXiv:2402.09046v1 Announce Type: new Abstract: Inspired by Bayesian approaches to brain function in neuroscience, we give a simple theory of probabilistic inference for a unified account of reasoning and learning. We simply model how data cause symbolic knowledge in terms of its satisfiability in formal logic. The underlying idea is that reasoning is a process of deriving symbolic knowledge from data via abstraction, i.e., selective ignorance. The logical consequence relation is discussed for its proof-based theoretical correctness. The MNIST dataset is discussed for its experiment-based empirical correctness.",
+    "link": "https://arxiv.org/abs/2402.09046",
+    "context": "Title: Inference of Abstraction for a Unified Account of Reasoning and Learning\nAbstract: arXiv:2402.09046v1 Announce Type: new Abstract: Inspired by Bayesian approaches to brain function in neuroscience, we give a simple theory of probabilistic inference for a unified account of reasoning and learning. We simply model how data cause symbolic knowledge in terms of its satisfiability in formal logic. The underlying idea is that reasoning is a process of deriving symbolic knowledge from data via abstraction, i.e., selective ignorance. The logical consequence relation is discussed for its proof-based theoretical correctness. The MNIST dataset is discussed for its experiment-based empirical correctness.",
+    "path": "papers/24/02/2402.09046.json",
+    "total_tokens": 671,
+    "translated_title": "推理和学习统一理论的抽象推断",
+    "translated_abstract": "在神经科学中受到贝叶斯方法的启发，我们提出了一个简单的概率推断理论，用于推理和学习的统一理论。我们通过形式逻辑中的可满足性来建模数据如何导致符号知识。推理是通过抽象，即选择性无知，从数据中推导出符号知识的过程。我们讨论了逻辑推理关系的证明基础的理论正确性。我们还讨论了基于实验证据的MNIST数据集的实验正确性。",
+    "tldr": "本文提出了一个以贝叶斯方法为基础的概率推断理论，用于推理和学习的统一理论。该理论通过将数据转化为符号知识，从而实现推理过程。我们对逻辑推理关系和MNIST数据集进行了讨论和实验证明。",
+    "en_tdlr": "This paper presents a probabilistic inference theory based on Bayesian approaches for a unified account of reasoning and learning. The theory models how data lead to symbolic knowledge through abstraction and discusses the logical consequence relation and empirical correctness using the MNIST dataset."
+}

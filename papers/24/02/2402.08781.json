@@ -1,0 +1,12 @@
+{
+    "title": "Equitable screening",
+    "abstract": "arXiv:2402.08781v1 Announce Type: new Abstract: I study the problem of a government providing benefits while considering the perceived equity of the resulting allocation. Such concerns are modeled through an equity constraint requiring that equally deserving agents receive equal allocations. I ask what forms of screening are compatible with equity and show that while the government cannot equitably screen with a single instrument (e.g. payments or wait times), combining multiple instruments, which on their own favor different groups, allows it to screen while still producing an equitable allocation.",
+    "link": "https://arxiv.org/abs/2402.08781",
+    "context": "Title: Equitable screening\nAbstract: arXiv:2402.08781v1 Announce Type: new Abstract: I study the problem of a government providing benefits while considering the perceived equity of the resulting allocation. Such concerns are modeled through an equity constraint requiring that equally deserving agents receive equal allocations. I ask what forms of screening are compatible with equity and show that while the government cannot equitably screen with a single instrument (e.g. payments or wait times), combining multiple instruments, which on their own favor different groups, allows it to screen while still producing an equitable allocation.",
+    "path": "papers/24/02/2402.08781.json",
+    "total_tokens": 632,
+    "translated_title": "公平筛选",
+    "translated_abstract": "我研究了政府在考虑结果分配的公平性时提供福利的问题。这些关注通过公平性限制来建模，要求应该平等地给予平等值得的代理人分配。我研究了哪些筛选形式与公平相容，并展示了虽然政府无法通过单一工具（如支付或等待时间）进行公平筛选，但将多个工具结合起来，这些工具本身就有利于不同的群体，可以实现筛选同时产生公平的分配。",
+    "tldr": "这项研究探讨了政府在考虑公平性的情况下提供福利并进行筛选的问题。研究结果表明，虽然政府无法通过单一工具进行公平筛选，但通过结合多种工具，可以实现筛选并产生公平的分配。",
+    "en_tdlr": "This study investigates the issue of providing benefits while considering equity and explores how multiple screening instruments can be combined to achieve equitable allocation."
+}

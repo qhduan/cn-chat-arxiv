@@ -1,0 +1,12 @@
+{
+    "title": "A Dataset for the Detection of Dehumanizing Language",
+    "abstract": "arXiv:2402.08764v1 Announce Type: new Abstract: Dehumanization is a mental process that enables the exclusion and ill treatment of a group of people. In this paper, we present two data sets of dehumanizing text, a large, automatically collected corpus and a smaller, manually annotated data set. Both data sets include a combination of political discourse and dialogue from movie subtitles. Our methods give us a broad and varied amount of dehumanization data to work with, enabling further exploratory analysis and automatic classification of dehumanization patterns. Both data sets will be publicly released.",
+    "link": "https://arxiv.org/abs/2402.08764",
+    "context": "Title: A Dataset for the Detection of Dehumanizing Language\nAbstract: arXiv:2402.08764v1 Announce Type: new Abstract: Dehumanization is a mental process that enables the exclusion and ill treatment of a group of people. In this paper, we present two data sets of dehumanizing text, a large, automatically collected corpus and a smaller, manually annotated data set. Both data sets include a combination of political discourse and dialogue from movie subtitles. Our methods give us a broad and varied amount of dehumanization data to work with, enabling further exploratory analysis and automatic classification of dehumanization patterns. Both data sets will be publicly released.",
+    "path": "papers/24/02/2402.08764.json",
+    "total_tokens": 641,
+    "translated_title": "用于检测人身言论的数据集",
+    "translated_abstract": "人身非人化是一种心理过程，使得某个群体被排除和虐待。本文介绍了两个人身非人化文本数据集，一个是大规模自动收集的语料库，另一个是小规模手动标注的数据集。这两个数据集包括政治言论和电影字幕对话的组合。我们的方法为我们提供了大量多样化的人身非人化数据，便于进一步的探索性分析和自动分类人身非人化模式。这两个数据集将会公开发布。",
+    "tldr": "本论文介绍了两个用于检测人身非人化语言的数据集，一个是大规模自动收集的语料库，另一个是小规模手动标注的数据集，并提供了进一步分析和自动分类的可能性。",
+    "en_tdlr": "This paper presents two datasets for detecting dehumanizing language, one large-scale automatically collected corpus and one smaller manually annotated dataset, enabling further analysis and automatic classification."
+}

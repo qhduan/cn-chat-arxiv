@@ -2,172 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Asymptotic Error Distribution of the Euler Scheme for Fractional Stochastic Delay Differential Equations with Additive Noise](https://arxiv.org/abs/2402.08513) | 本文研究了长记忆分数随机延迟微分方程的欧拉方案，证明了一致性并给出了误差过程的极限分布。当粗糙情况下，即$H<1/\alpha$时，模拟误差的收敛速度为$\Delta_{n}^{H+1-1/\alpha}$阶，极限过程仍为(半线性)SDDE的解决方案。 |
-| [^2] | [Portfolio Optimization under Transaction Costs with Recursive Preferences](https://arxiv.org/abs/2402.08387) | 本文研究了默顿问题的扩展版本，考虑了比例交易成本和Epstein-Zin SDU，提出了一个完整的验证论据，在没有额外技术假设的情况下充分刻画了良好提出的参数组合。 |
-| [^3] | [End-to-End Policy Learning of a Statistical Arbitrage Autoencoder Architecture](https://arxiv.org/abs/2402.08233) | 该论文研究了在统计套利中使用自编码器结构进行端到端策略学习的效果，通过嵌入自编码器网络到神经网络表示中，直接输出投资组合分配，并通过风险调整回报的反向传播进行训练。 |
-| [^4] | [Artificial intelligence and the transformation of higher education institutions](https://arxiv.org/abs/2402.08143) | 本研究采用复杂系统方法，以因果循环图的形式探讨了人工智能在典型高等教育机构中的转型。研究发现，高等教育机构受到人工智能技术进步的推动，投资于改善学生学习、研究和管理，并为此应对学术诚信问题和技术变化。 |
-| [^5] | [Finding Moving-Band Statistical Arbitrages via Convex-Concave Optimization](https://arxiv.org/abs/2402.08108) | 本文提出了一种通过凸凹优化方法寻找可以包含更多资产的统计套利策略，其中价格带的中点随时间变化。 |
-| [^6] | [Contagion on Financial Networks: An Introduction](https://arxiv.org/abs/2402.08071) | 该论文介绍了金融网络上冲击的传播模型。研究发现概率值范围和银行偿债能力百分比存在正相关关系。 |
-| [^7] | [An Analysis of the Recovery Path of the Consumer Sector in the Post-Pandemic Era](https://arxiv.org/abs/2402.07960) | 本文提出了消费行业恢复的可参考模式，并引入了感性消费概念和不同类别权重的评估方法。同时，创造了数字消费指数、数字人民币指数和中国式数字经济指数，解释了数字消费的内在逻辑以及其在中国经济和政府政策中的作用，从而引导了相关投资策略。 |
-| [^8] | [The contribution of US broadband infrastructure subsidy and investment programs to GDP using input-output modeling](https://arxiv.org/abs/2311.02431) | 这篇论文研究了美国宽带基础设施补贴和投资计划对国内生产总值的贡献。通过投入产出模型探索了宽带支出对宏观经济的影响。 |
-| [^9] | [Consumption Smoothing in Metropolis: Evidence from the Working-class Households in Prewar Tokyo.](http://arxiv.org/abs/2311.14320) | 这里是中文总结出的一句话要点：本研究分析了20世纪初东京工人家庭中的风险应对行为，发现信用购买对平滑短期食品消费起到一定作用，并发现了数据聚合中日期错误分配导致的偏差问题。 |
-| [^10] | [Commodity-specific triads in the Dutch inter-industry production network.](http://arxiv.org/abs/2305.12179) | 本文针对荷兰产业生产网络中的187个商品组，分析了其二元和加权三元模式，发现大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。 |
-| [^11] | [Interdisciplinary Papers Supported by Disciplinary Grants Garner Deep and Broad Scientific Impact.](http://arxiv.org/abs/2303.14732) | 本研究使用测量框架，发现跨学科基金支持的跨学科论文与高影响力相关，但相较于学科基金，跨学科基金产生的支持论文更少且影响力下降。 |
+| [^1] | [Exact simulation scheme for the Ornstein-Uhlenbeck driven stochastic volatility model with the Karhunen-Lo\`eve expansions](https://arxiv.org/abs/2402.09243) | 本研究提出了一种新的精确模拟方案，可以更快地模拟Ornstein-Uhlenbeck驱动的随机波动率模型。使用Karhunen-Loève展开来表示波动率路径，并通过解析推导的方式获得了波动率和方差的时间积分。通过采用条件蒙特卡洛方法和保持鞅性的控制变量来进一步改进模拟算法。这一方法比现有方法更快速且更高效。 |
+| [^2] | [The Boosted Difference of Convex Functions Algorithm for Value-at-Risk Constrained Portfolio Optimization](https://arxiv.org/abs/2402.09194) | 本文提出了一种基于凸函数差分和线搜索的算法（BDCA），用于解决线性优化问题，并且证明了其收敛性和其他特性。 |
+| [^3] | [Optimal Automated Market Makers: Differentiable Economics and Strong Duality](https://arxiv.org/abs/2402.09129) | 本文研究了在多商品市场中，包括复杂捆绑行为的情况下，找到最优的自动做市商的问题，发现该问题对偶于一个最优运输问题，并且具有特定的几何约束条件。 |
+| [^4] | [Database for the meta-analysis of the social cost of carbon (v2024.0)](https://arxiv.org/abs/2402.09125) | 该论文介绍了社会碳成本估计元分析数据库的新版本，新增了关于气候变化影响和福利函数形状的字段，并扩展了合作者和引用网络。 |
+| [^5] | [Time preference, wealth and utility inequality: A microeconomic interaction and dynamic macroeconomic model connection approach](https://arxiv.org/abs/2402.08905) | 本研究通过将个体之间的互动与社会规范参考相连接，揭示了时间偏好对财富分配和不平等的影响。通过模型计算和实证分析，结果显示，个体之间的消费比较对财富不平等和效用产生显著影响。社会规范在一定程度上可以减缓这种影响。这个方法提供了一个新的框架，用于理解时间偏好在经济不平等中的作用。 |
+| [^6] | [LLM-driven Imitation of Subrational Behavior : Illusion or Reality?](https://arxiv.org/abs/2402.08755) | 本文探讨了使用LLMs生成合成人类演示的方法，然后通过模仿学习来学习亚理性代理策略，从而模拟亚理性行为，并为我们理解人类行为提供了改进的可能性。 |
+| [^7] | [Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior](https://arxiv.org/abs/2402.03953) | 本研究系统化地研究了中心化和去中心化交易所中永续期货合约的交易者行为，并提出了新的分析框架。研究发现，在VAMM模型的DEX中，多头和空头持仓量对价格波动产生相反的影响，而在采用预言机定价模型的DEX中，买家和卖家之间的交易者行为存在明显的不对称性。 |
+| [^8] | [Well Posedness of Utility Maximization Problems Under Partial Information in a Market with Gaussian Drift](https://arxiv.org/abs/2205.08614) | 本文研究了金融市场中的效用最大化问题的良定义性，为具有高斯漂移的部分信息市场提供了模型参数的充分条件。 |
+| [^9] | [A generalization of the rational rough Heston approximation.](http://arxiv.org/abs/2310.09181) | 这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。 |
+| [^10] | [Commitment and the Dynamics of Household Labor Supply.](http://arxiv.org/abs/2307.10983) | 本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。 |
+| [^11] | [Reinforcement learning for optimization of energy trading strategy.](http://arxiv.org/abs/2303.16266) | 本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。 |
 
 # 详细
 
-[^1]: 长记忆分数随机延迟微分方程欧拉方案的渐近误差分布
+[^1]: Ornstein-Uhlenbeck驱动的随机波动率模型的精确模拟方案与Karhunen-Loève展开
 
-    Asymptotic Error Distribution of the Euler Scheme for Fractional Stochastic Delay Differential Equations with Additive Noise
+    Exact simulation scheme for the Ornstein-Uhlenbeck driven stochastic volatility model with the Karhunen-Lo\`eve expansions
 
-    [https://arxiv.org/abs/2402.08513](https://arxiv.org/abs/2402.08513)
+    [https://arxiv.org/abs/2402.09243](https://arxiv.org/abs/2402.09243)
 
-    本文研究了长记忆分数随机延迟微分方程的欧拉方案，证明了一致性并给出了误差过程的极限分布。当粗糙情况下，即$H<1/\alpha$时，模拟误差的收敛速度为$\Delta_{n}^{H+1-1/\alpha}$阶，极限过程仍为(半线性)SDDE的解决方案。
-
-    
-
-    本文考虑了一类由线性分数阿尔法稳定的Lévy运动驱动的随机延迟微分方程的欧拉方案，其中指数$H\in(0,1)$。我们证明了该方案的一致性，并研究了归一化误差过程的极限分布。我们证明在粗糙情况下，即当$H<1/\alpha$时，模拟误差的收敛速度为$\Delta_{n}^{H+1-1/\alpha}$阶，并且极限过程再次是一个(半线性)SDDE的解决方案。
-
-    In this paper we consider the Euler scheme for a class of stochastic delay differential equations driven by a linear fractional $\alpha$-stable L\'evy motion with index $H\in(0,1)$. We establish the consistency of the scheme and study the limit distribution of the normalized error process. We show that in the rough case, i.e. when $H<1/\alpha$, the rate of convergence of the simulation error is of order $\Delta_{n}^{H+1-1/\alpha}$ and that the limit process is once again the solution of an (semi-linear) SDDE.
-    
-[^2]: 在交易成本下的组合优化与递归偏好
-
-    Portfolio Optimization under Transaction Costs with Recursive Preferences
-
-    [https://arxiv.org/abs/2402.08387](https://arxiv.org/abs/2402.08387)
-
-    本文研究了默顿问题的扩展版本，考虑了比例交易成本和Epstein-Zin SDU，提出了一个完整的验证论据，在没有额外技术假设的情况下充分刻画了良好提出的参数组合。
+    本研究提出了一种新的精确模拟方案，可以更快地模拟Ornstein-Uhlenbeck驱动的随机波动率模型。使用Karhunen-Loève展开来表示波动率路径，并通过解析推导的方式获得了波动率和方差的时间积分。通过采用条件蒙特卡洛方法和保持鞅性的控制变量来进一步改进模拟算法。这一方法比现有方法更快速且更高效。
 
     
 
-    默顿投资消费问题是金融领域和随机控制领域的基础问题。该问题的一个重要扩展是考虑交易成本，这在金融角度上非常相关，但从控制角度来看也具有挑战性，因为解决方案涉及到奇异控制。进一步的扩展将我们从加性效用转变为随机微分效用（SDU），这允许时间偏好和风险偏好进行分离。在本文中，我们研究了具有比例交易成本和Epstein-Zin SDU的默顿问题的扩展版本。我们充分刻画了所有参数组合，使得问题被良好提出（可能取决于交易成本的水平），并提供了一个完整的验证论据，该论据不依赖于额外的技术假设，只使用原始方法。使用SDU的情况需要新的数学技术，因为对偶方法会崩溃。
+    本研究提出了一种新的Ornstein-Uhlenbeck驱动的随机波动率模型的精确模拟方案。利用Karhunen-Loève展开，将遵循Ornstein-Uhlenbeck过程的随机波动率路径表示为正弦级数，并将波动率和方差的时间积分解析地推导为独立正态随机变量的和。这种新方法比依赖于计算昂贵的数值变换反演的Li和Wu [Eur. J. Oper. Res., 2019, 275(2), 768-779] 方法快几百倍。进一步采用了条件蒙特卡洛方法和保持鞅性的控制变量对实时价格进行模拟算法改进。
 
-    The Merton investment-consumption problem is fundamental, both in the field of finance, and in stochastic control. An important extension of the problem adds transaction costs, which is highly relevant from a financial perspective but also challenging from a control perspective because the solution now involves singular control. A further significant extension takes us from additive utility to stochastic differential utility (SDU), which allows time preferences and risk preferences to be disentangled.   In this paper, we study this extended version of the Merton problem with proportional transaction costs and Epstein-Zin SDU. We fully characterise all parameter combinations for which the problem is well posed (which may depend on the level of transaction costs) and provide a full verification argument that relies on no additional technical assumptions and uses primal methods only. The case with SDU requires new mathematical techniques as duality methods break down.   Even in the specia
+    arXiv:2402.09243v1 Announce Type: new Abstract: This study proposes a new exact simulation scheme of the Ornstein-Uhlenbeck driven stochastic volatility model. With the Karhunen-Lo\`eve expansions, the stochastic volatility path following the Ornstein-Uhlenbeck process is expressed as a sine series, and the time integrals of volatility and variance are analytically derived as the sums of independent normal random variates. The new method is several hundred times faster than Li and Wu [Eur. J. Oper. Res., 2019, 275(2), 768-779] that relies on computationally expensive numerical transform inversion. The simulation algorithm is further improved with the conditional Monte-Carlo method and the martingale-preserving control variate on the spot price.
     
-[^3]: 一个统计套利自编码器结构的端到端策略学习
+[^2]: 基于凸函数差分算法的价值风险约束组合优化
 
-    End-to-End Policy Learning of a Statistical Arbitrage Autoencoder Architecture
+    The Boosted Difference of Convex Functions Algorithm for Value-at-Risk Constrained Portfolio Optimization
 
-    [https://arxiv.org/abs/2402.08233](https://arxiv.org/abs/2402.08233)
+    [https://arxiv.org/abs/2402.09194](https://arxiv.org/abs/2402.09194)
 
-    该论文研究了在统计套利中使用自编码器结构进行端到端策略学习的效果，通过嵌入自编码器网络到神经网络表示中，直接输出投资组合分配，并通过风险调整回报的反向传播进行训练。
-
-    
-
-    在统计套利中，经典的均值回归交易策略通常依赖于资产定价或基于PCA的模型来识别合成资产的均值。一旦找到这样一个（线性）模型，就可以制定一个独立的均值回归策略来生成交易信号。为了推广这种方法并使其真正数据驱动，我们研究了在统计套利中使用自编码器结构的效用。作为第一种方法，我们使用训练在美国股票回报上的标准自编码器来基于Ornstein-Uhlenbeck（OU）过程推导交易策略。为了进一步增强这个模型，我们采用了策略学习方法，并将自编码器网络嵌入一个投资组合交易策略空间的神经网络表示中。这种集成直接输出投资组合分配，并且可以通过神经策略的风险调整回报的反向传播进行端到端的训练。我们的研究结果表明，这种创新的端到端策略学习方法
-
-    In Statistical Arbitrage (StatArb), classical mean reversion trading strategies typically hinge on asset-pricing or PCA based models to identify the mean of a synthetic asset. Once such a (linear) model is identified, a separate mean reversion strategy is then devised to generate a trading signal. With a view of generalising such an approach and turning it truly data-driven, we study the utility of Autoencoder architectures in StatArb. As a first approach, we employ a standard Autoencoder trained on US stock returns to derive trading strategies based on the Ornstein-Uhlenbeck (OU) process. To further enhance this model, we take a policy-learning approach and embed the Autoencoder network into a neural network representation of a space of portfolio trading policies. This integration outputs portfolio allocations directly and is end-to-end trainable by backpropagation of the risk-adjusted returns of the neural policy. Our findings demonstrate that this innovative end-to-end policy learni
-    
-[^4]: 人工智能与高等教育机构的转型
-
-    Artificial intelligence and the transformation of higher education institutions
-
-    [https://arxiv.org/abs/2402.08143](https://arxiv.org/abs/2402.08143)
-
-    本研究采用复杂系统方法，以因果循环图的形式探讨了人工智能在典型高等教育机构中的转型。研究发现，高等教育机构受到人工智能技术进步的推动，投资于改善学生学习、研究和管理，并为此应对学术诚信问题和技术变化。
+    本文提出了一种基于凸函数差分和线搜索的算法（BDCA），用于解决线性优化问题，并且证明了其收敛性和其他特性。
 
     
 
-    人工智能（AI）的进步和ChatGPT等生成式AI工具的快速采用为高等教育带来了新的机遇和挑战。虽然大量的文献讨论了高等教育中的AI，但缺乏一个系统的方法来全面理解高等教育机构的AI转型。为了填补这一空白，本文采用复杂系统的方法，构建了一个因果循环图（CLD），以描述典型高等教育机构中AI转型的因果反馈机制。我们的模型考虑了推动AI转型的力量以及AI转型对典型高等教育机构价值创造的影响。本文识别和分析了几个增强和平衡的反馈循环，展示了高等教育机构在AI技术进步的推动下如何投资于改善学生学习、研究和管理。高等教育机构必须采取措施应对学术诚信问题并适应可用技术的变化。
+    现代金融中一个非常相关的问题是设计价值风险（VaR）最优组合。由于当代金融监管的要求，银行和其他金融机构需要使用风险度量来控制他们的信用风险、市场风险和运营风险。对于具有离散收益分布和有限个情景的组合，可以推导出凸函数差分（DC）函数表示的VaR。Wozabal（2012）证明了这可以通过使用凸函数差分算法（DCA）来解决VaR约束的Markowitz风格组合选择问题。最近的算法扩展是Boosted Difference of Convex Functions Algorithm（BDCA），它通过额外的线搜索步骤加速收敛。已经证明BDCA对于解决具有线性不等式约束的非光滑二次问题具有线性收敛性。本文证明了该算法在线性优化问题中的收敛性以及其它一些性质。
 
-    Artificial intelligence (AI) advances and the rapid adoption of generative AI tools like ChatGPT present new opportunities and challenges for higher education. While substantial literature discusses AI in higher education, there is a lack of a systemic approach that captures a holistic view of the AI transformation of higher education institutions (HEIs). To fill this gap, this article, taking a complex systems approach, develops a causal loop diagram (CLD) to map the causal feedback mechanisms of AI transformation in a typical HEI. Our model accounts for the forces that drive the AI transformation and the consequences of the AI transformation on value creation in a typical HEI. The article identifies and analyzes several reinforcing and balancing feedback loops, showing how, motivated by AI technology advances, the HEI invests in AI to improve student learning, research, and administration. The HEI must take measures to deal with academic integrity problems and adapt to changes in ava
+    arXiv:2402.09194v1 Announce Type: cross Abstract: A highly relevant problem of modern finance is the design of Value-at-Risk (VaR) optimal portfolios. Due to contemporary financial regulations, banks and other financial institutions are tied to use the risk measure to control their credit, market and operational risks. For a portfolio with a discrete return distribution and finitely many scenarios, a Difference of Convex (DC) functions representation of the VaR can be derived. Wozabal (2012) showed that this yields a solution to a VaR constrained Markowitz style portfolio selection problem using the Difference of Convex Functions Algorithm (DCA). A recent algorithmic extension is the so-called Boosted Difference of Convex Functions Algorithm (BDCA) which accelerates the convergence due to an additional line search step. It has been shown that the BDCA converges linearly for solving non-smooth quadratic problems with linear inequality constraints. In this paper, we prove that the linear
     
-[^5]: 通过凸凹优化寻找移动带统计套利
+[^3]: 最优自动做市商: 可微经济学和强对偶性
 
-    Finding Moving-Band Statistical Arbitrages via Convex-Concave Optimization
+    Optimal Automated Market Makers: Differentiable Economics and Strong Duality
 
-    [https://arxiv.org/abs/2402.08108](https://arxiv.org/abs/2402.08108)
+    [https://arxiv.org/abs/2402.09129](https://arxiv.org/abs/2402.09129)
 
-    本文提出了一种通过凸凹优化方法寻找可以包含更多资产的统计套利策略，其中价格带的中点随时间变化。
-
-    
-
-    我们提出了一种新的方法，用于寻找可以包含除传统交易对以外更多资产的统计套利。我们将问题归结为寻找一个波动率最高的投资组合，使其价格保持在一定范围内并满足杠杆限制。这个优化问题不是凸的，但可以通过凸凹程序来近似求解，这是一种特定的顺序凸规划方法。我们展示了该方法如何推广到寻找移动带统计套利，其中价格带的中点随时间变化。
-
-    We propose a new method for finding statistical arbitrages that can contain more assets than just the traditional pair. We formulate the problem as seeking a portfolio with the highest volatility, subject to its price remaining in a band and a leverage limit. This optimization problem is not convex, but can be approximately solved using the convex-concave procedure, a specific sequential convex programming method. We show how the method generalizes to finding moving-band statistical arbitrages, where the price band midpoint varies over time.
-    
-[^6]: 金融网络上的传染：介绍
-
-    Contagion on Financial Networks: An Introduction
-
-    [https://arxiv.org/abs/2402.08071](https://arxiv.org/abs/2402.08071)
-
-    该论文介绍了金融网络上冲击的传播模型。研究发现概率值范围和银行偿债能力百分比存在正相关关系。
+    本文研究了在多商品市场中，包括复杂捆绑行为的情况下，找到最优的自动做市商的问题，发现该问题对偶于一个最优运输问题，并且具有特定的几何约束条件。
 
     
 
-    这个小项目通过连接的银行之间的链接来模拟冲击的传播。具体而言，使用Erdos和Renyi网络模型，模拟由100家银行组成的金融网络，其中有15家银行受到违约冲击（即85.00%的银行是偿债能力良好的）。在金融网络中，冲击某些银行意味着移除它们的资产并将其负债重新分配给网络中的其他关联银行。银行是节点，两个概率值范围确定了一对银行之间具有链接的倾向。我们的主要发现表明，概率值范围和银行偿债能力百分比之间存在正相关关系。
+    做市商的作用是同时以指定价格购买和出售商品数量，通常是金融资产如股票。自动做市商（AMM）是一种根据预定的时间表提供交易的机制；选择最佳的时间表取决于做市商的目标。现有研究主要集中在预测市场上，目的是信息收集。近期的工作则主要关注利润最大化的目标，但仅仅考虑了一种类型的商品（用衡量货币进行交易），包括逆向选择的情况。关于存在多种商品以及可能出现复杂捆绑行为的最优做市问题尚不清楚。本文表明，在多个商品存在且可能出现复杂捆绑行为的情况下，找到一个最优的做市商是一个对偶于最优运输问题的问题，并且具有特定的几何约束条件。
 
-    The mini-project models propagation of shocks, in time point, through links in connected banks. In particular, financial network of 100 banks out of which 15 are shocked to default (that is, 85.00% of the banks are solvent) is modelled using Erdos and Renyi network -- directed, weighted and randomly generated network. Shocking some banks in a financial network implies removing their assets and redistributing their liabilities to other connected ones in the network. The banks are nodes and two ranges of probability values determine tendency of having a link between a pair of banks. Our major finding shows that the ranges of probability values and banks' percentage solvency have positive correlation.
+    arXiv:2402.09129v1 Announce Type: cross Abstract: The role of a market maker is to simultaneously offer to buy and sell quantities of goods, often a financial asset such as a share, at specified prices. An automated market maker (AMM) is a mechanism that offers to trade according to some predetermined schedule; the best choice of this schedule depends on the market maker's goals. The literature on the design of AMMs has mainly focused on prediction markets with the goal of information elicitation. More recent work motivated by DeFi has focused instead on the goal of profit maximization, but considering only a single type of good (traded with a numeraire), including under adverse selection (Milionis et al. 2022). Optimal market making in the presence of multiple goods, including the possibility of complex bundling behavior, is not well understood. In this paper, we show that finding an optimal market maker is dual to an optimal transport problem, with specific geometric constraints on t
     
-[^7]: 后疫情时代消费行业恢复路径的分析
+[^4]: 社会碳成本的元分析数据库 (v2024.0)
 
-    An Analysis of the Recovery Path of the Consumer Sector in the Post-Pandemic Era
+    Database for the meta-analysis of the social cost of carbon (v2024.0)
 
-    [https://arxiv.org/abs/2402.07960](https://arxiv.org/abs/2402.07960)
+    [https://arxiv.org/abs/2402.09125](https://arxiv.org/abs/2402.09125)
 
-    本文提出了消费行业恢复的可参考模式，并引入了感性消费概念和不同类别权重的评估方法。同时，创造了数字消费指数、数字人民币指数和中国式数字经济指数，解释了数字消费的内在逻辑以及其在中国经济和政府政策中的作用，从而引导了相关投资策略。
-
-    
-
-    本文提出了消费行业恢复的可参考模式，这是观察和评估消费行业内在价值的新维度，并提出了感性消费概念和不同类别权重的排名；创建了数字消费指数的概念，结合数字人民币指数和中国式数字经济指数。最后，解释了数字消费作为消费升级工具和更高估值目标的内在逻辑，结合2022年中国经济表现和2023年中国政府政策，引导了滚动传导效应的投资策略。
-
-    This paper proposes a referencable pattern of the recovery of the consumption sector, a new dimension to observe and evaluate the intrinsic value of the consumption sector, and proposes the concept of sensory-based consumption and the ranking of the weights of different categories;creates the concept of digital consumption index, coupled with digital RMB index and China-style digital economy index. Finally we explain the internal logic of digital consumption as a consumption upgrade tool and a higher valuation target in the context of China's economic performance in 2022 and the Chinese government's policy in 2023, leading to the investment strategy of roller conduction effect.
-    
-[^8]: 美国宽带基础设施补贴和投资计划对国内生产总值的贡献：基于投入产出模型
-
-    The contribution of US broadband infrastructure subsidy and investment programs to GDP using input-output modeling
-
-    [https://arxiv.org/abs/2311.02431](https://arxiv.org/abs/2311.02431)
-
-    这篇论文研究了美国宽带基础设施补贴和投资计划对国内生产总值的贡献。通过投入产出模型探索了宽带支出对宏观经济的影响。
+    该论文介绍了社会碳成本估计元分析数据库的新版本，新增了关于气候变化影响和福利函数形状的字段，并扩展了合作者和引用网络。
 
     
 
-    尽管被公认为一种重要的福利，超过五分之一的美国人口没有订阅固定宽带服务。例如，尽管年收入超过7万美元的市民中只有不到4%没有宽带，但收入低于2万美元的市民中有26%没有宽带。为了解决这个问题，拜登政府通过《两党基础设施法》实施了有史以来规模最大的宽带投资计划，旨在解决这种差距，并将宽带连接扩展到所有公民。支持者表示，这将从根本上减少美国的数字鸿沟。然而，批评者认为，该计划导致经济周期的后期出现了前所未有的借贷，留下了很少的财政余地。因此，在这篇论文中，我们将研究宽带的可用性、采用情况和需求，然后构建一个投入产出模型，以探索宽带支出对国内生产总值（GDP）的宏观经济影响。最后，我们量化了部门间的影响。
+    本文介绍了社会碳成本估计元分析数据库的新版本。新增了记录，并添加了关于气候变化影响和福利函数形状的新字段。该数据库还扩展了合作者和引用网络。
 
-    More than one-fifth of the US population does not subscribe to a fixed broadband service despite being a recognized merit good. For example, less than 4% of citizens earning more than US \$70k annually do not have broadband, compared to 26% of those earning below US \$20k annually. To address this, the Biden Administration has undertaken one of the largest broadband investment programs ever via The Bipartisan Infrastructure Law, with the aim of addressing this disparity and expanding broadband connectivity to all citizens. Proponents state this will reduce the US digital divide once-and-for-all. However, detractors say the program leads to unprecedented borrowing at a late stage of the economic cycle, leaving little fiscal headroom. Subsequently, in this paper, we examine broadband availability, adoption, and need and then construct an input-output model to explore the macroeconomic impacts of broadband spending in Gross Domestic Product (GDP) terms. Finally, we quantify inter-sectoral
+    arXiv:2402.09125v1 Announce Type: new Abstract: A new version of the database for the meta-analysis of estimates of the social cost of carbon is presented. New records were added, and new fields on the impact of climate change and the shape of the welfare function. The database was extended to co-author and citation networks.
     
-[^9]: 这里是翻译过的论文标题：大都市中的消费平滑化：战前东京工人阶级家庭的证据
+[^5]: 时间偏好、财富和效用不平等：一种微观经济互动和动态宏观经济模型连接方法
 
-    Consumption Smoothing in Metropolis: Evidence from the Working-class Households in Prewar Tokyo. (arXiv:2311.14320v3 [econ.GN] UPDATED)
+    Time preference, wealth and utility inequality: A microeconomic interaction and dynamic macroeconomic model connection approach
 
-    [http://arxiv.org/abs/2311.14320](http://arxiv.org/abs/2311.14320)
+    [https://arxiv.org/abs/2402.08905](https://arxiv.org/abs/2402.08905)
 
-    这里是中文总结出的一句话要点：本研究分析了20世纪初东京工人家庭中的风险应对行为，发现信用购买对平滑短期食品消费起到一定作用，并发现了数据聚合中日期错误分配导致的偏差问题。
-
-    
-
-    我分析了20世纪初东京的工厂工人家庭中的风险应对行为。我数字化了一份关于家庭预算的独特的日常纵向调查数据集，以考察个体冲击对消费的影响程度。我发现，尽管家庭非常脆弱，冲击影响了他们的消费水平，但食品消费的收入弹性在短期内相对较低。机制分析的结果表明，信用购买在平滑短期食品消费方面起到了一定作用。使用不良健康冲击作为个体收入冲击的事件研究分析证实了结果的稳健性。我还发现证据表明，在数据聚合中工资支付日期的错误分配导致了由于测量误差而出现系统性的减少偏差。
-
-    I analyze the risk-coping behaviors among factory worker households in early 20th-century Tokyo. I digitize a unique daily longitudinal survey dataset on household budgets to examine the extent to which consumption is affected by idiosyncratic shocks. I find that while the households were so vulnerable that the shocks impacted their consumption levels, the income elasticity for food consumption is relatively low in the short-run perspective. The result from mechanism analysis suggests that credit purchases played a role in smoothing the short-run food consumption. The event-study analysis using the adverse health shock as the idiosyncratic income shock confirms the robustness of the results. I also find evidence that the misassignment of payday in data aggregation results in a systematic attenuation bias due to measurement error.
-    
-[^10]: 荷兰产业生产网络中的商品特定三元组
-
-    Commodity-specific triads in the Dutch inter-industry production network. (arXiv:2305.12179v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2305.12179](http://arxiv.org/abs/2305.12179)
-
-    本文针对荷兰产业生产网络中的187个商品组，分析了其二元和加权三元模式，发现大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。
+    本研究通过将个体之间的互动与社会规范参考相连接，揭示了时间偏好对财富分配和不平等的影响。通过模型计算和实证分析，结果显示，个体之间的消费比较对财富不平等和效用产生显著影响。社会规范在一定程度上可以减缓这种影响。这个方法提供了一个新的框架，用于理解时间偏好在经济不平等中的作用。
 
     
 
-    三元模式是复杂网络中更高级交互的最小构建块。最近，生产网络的模式结构引起关注，因为它可能在经济震荡的传播中起到作用。然而，对于单个商品层面上的模式结构仍知之甚少。在本文中，我们使用荷兰统计局的数据，分解成187个商品组，并分析了荷兰产业生产网络中的二元和加权三元模式。我们引入了适当的空模型来过滤节点异质性和链接互惠的强效应，并发现尽管覆盖所有产品的聚合网络具有大量三元模式，但大多数单个产品层面上没有显着的模式，约80％的层只有两个或更少的模式。
+    基于个体与他人的互动与对社会规范的参考，本研究揭示了时间偏好的异质性对财富分配和不平等的影响。我们提出了一种新颖的方法，将产生异质性的微观经济主体之间的互动与宏观经济模型中的资本和消费动态方程相连接。利用这种方法，我们估计了微观经济互动引起的折现率变化对资本、消费和效用以及不平等程度的影响。结果显示，与他人的消费比较显著影响资本，即财富不平等。此外，对效用的影响从未微小，并且社会规范可以减少这种影响。我们的支持证据显示，不平等计算的定量结果与队列和跨文化研究的调查数据相符。本研究的微观-宏观连接方法为理解时间偏好对经济不平等的影响提供了新的框架。
 
-    Triadic motifs are the smallest building blocks of higher-order interactions in complex networks and can be detected as over-occurrences with respect to null models with only pair-wise interactions. Recently, the motif structure of production networks has attracted attention in light of its possible role in the propagation of economic shocks. However, its characterization at the level of individual commodities is still poorly understood. Here we analyse both binary and weighted triadic motifs in the Dutch inter-industry production network disaggregated at the level of 187 commodity groups, using data from Statistics Netherlands. We introduce appropriate null models that filter out node heterogeneity and the strong effects of link reciprocity and find that, while the aggregate network that overlays all products is characterized by a multitude of triadic motifs, most single-product layers feature no significant motif, and roughly 80% of the layers feature only two motifs or less. This re
+    arXiv:2402.08905v1 Announce Type: new Abstract: Based on interactions between individuals and others and references to social norms, this study reveals the impact of heterogeneity in time preference on wealth distribution and inequality. We present a novel approach that connects the interactions between microeconomic agents that generate heterogeneity to the dynamic equations for capital and consumption in macroeconomic models. Using this approach, we estimate the impact of changes in the discount rate due to microeconomic interactions on capital, consumption and utility and the degree of inequality. The results show that intercomparisons with others regarding consumption significantly affect capital, i.e. wealth inequality. Furthermore, the impact on utility is never small and social norms can reduce this impact. Our supporting evidence shows that the quantitative results of inequality calculations correspond to survey data from cohort and cross-cultural studies. This study's micro-ma
     
-[^11]: 学科基金支持的跨学科论文具有深远的科学影响力
+[^6]: LLM驱动的模拟亚理性行为：幻觉还是现实？
 
-    Interdisciplinary Papers Supported by Disciplinary Grants Garner Deep and Broad Scientific Impact. (arXiv:2303.14732v1 [cs.DL])
+    LLM-driven Imitation of Subrational Behavior : Illusion or Reality?
 
-    [http://arxiv.org/abs/2303.14732](http://arxiv.org/abs/2303.14732)
+    [https://arxiv.org/abs/2402.08755](https://arxiv.org/abs/2402.08755)
 
-    本研究使用测量框架，发现跨学科基金支持的跨学科论文与高影响力相关，但相较于学科基金，跨学科基金产生的支持论文更少且影响力下降。
+    本文探讨了使用LLMs生成合成人类演示的方法，然后通过模仿学习来学习亚理性代理策略，从而模拟亚理性行为，并为我们理解人类行为提供了改进的可能性。
 
     
 
-    跨学科研究已成为创新和发现的温床。基金支持的研究越来越占主导地位，与此同时，对资助跨学科工作的兴趣日益增长，这引发了关于跨学科拨款在支持高影响跨学科进展中的作用的根本问题。在这里，我们开发了一个测量框架，来量化研究基金和出版物的跨学科性，并将其应用于来自164个资助机构、26个国家的35万个拨款和从1985年到2009年承认这些拨款支持的130万篇论文。我们的分析揭示了两种矛盾的模式。一方面，跨学科基金往往会产生跨学科论文，而跨学科论文与高影响力相关。另一方面，与学科基金相比，跨学科基金产生的论文更少，而支持的跨学科论文影响力也大大下降。我们表明
+    建模亚理性代理，如人类或经济家庭，由于校准强化学习模型的困难或收集涉及人类主体的数据的难度而具有挑战性。现有研究强调了大型语言模型（LLMs）解决复杂推理任务和模仿人类交流的能力，而使用LLMs作为代理进行模拟显示出出现的社交行为，可能提高我们对人类行为的理解。在本文中，我们提议研究使用LLMs生成合成的人类演示，然后通过模仿学习来学习亚理性代理策略。我们假设LLMs可以用作人类的隐式计算模型，并提出了一个框架，使用从LLMs派生的合成演示来建模人类特有的亚理性行为（例如，目光短浅的行为或对风险规避的偏好）。我们进行了实验证明:
 
-    Interdisciplinary research has emerged as a hotbed for innovation and discoveries. The increasing dominance of grant-supported research, combined with growing interest in funding interdisciplinary work, raises fundamental questions on the role of interdisciplinary grants in supporting high-impact interdisciplinary advances. Here we develop a measurement framework to quantify the interdisciplinarity of both research grants and publications and apply it to 350K grants from 164 funding agencies over 26 countries and 1.3M papers that acknowledged the support of these grants from 1985 to 2009. Our analysis uncovers two contradictory patterns. On the one hand, interdisciplinary grants tend to produce interdisciplinary papers and interdisciplinary papers are associated with high impact. On the other hand, compared to their disciplinary counterparts, interdisciplinary grants produce much fewer papers and interdisciplinary papers that they support have substantially reduced impact. We show that
+    arXiv:2402.08755v1 Announce Type: new Abstract: Modeling subrational agents, such as humans or economic households, is inherently challenging due to the difficulty in calibrating reinforcement learning models or collecting data that involves human subjects. Existing work highlights the ability of Large Language Models (LLMs) to address complex reasoning tasks and mimic human communication, while simulation using LLMs as agents shows emergent social behaviors, potentially improving our comprehension of human conduct. In this paper, we propose to investigate the use of LLMs to generate synthetic human demonstrations, which are then used to learn subrational agent policies though Imitation Learning. We make an assumption that LLMs can be used as implicit computational models of humans, and propose a framework to use synthetic demonstrations derived from LLMs to model subrational behaviors that are characteristic of humans (e.g., myopic behavior or preference for risk aversion). We experim
+    
+[^7]: 中心化和去中心化交易所中的永续期货合约: 机制和交易者行为
+
+    Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior
+
+    [https://arxiv.org/abs/2402.03953](https://arxiv.org/abs/2402.03953)
+
+    本研究系统化地研究了中心化和去中心化交易所中永续期货合约的交易者行为，并提出了新的分析框架。研究发现，在VAMM模型的DEX中，多头和空头持仓量对价格波动产生相反的影响，而在采用预言机定价模型的DEX中，买家和卖家之间的交易者行为存在明显的不对称性。
+
+    
+
+    本研究提出了一个具有开创性的知识系统化(SoK)计划，重点深入探索交易者在中心化交易所(CEXs)和去中心化交易所(DEXs)中关于永续期货合约的动态和行为。我们改进了现有模型，以研究交易者对价格波动的反应，创建了一个针对这些合约平台的新的分析框架，同时突出了区块链技术在其应用中的作用。我们的研究包括对CEXs的历史数据的比较分析，以及对DEXs上的完整交易数据的更详尽的研究。在虚拟自动化市场做市商(VAMM)模型的DEX上，多头和空头持仓量对价格波动产生相反的影响，这归因于VAMM的价格形成机制。在采用预言机定价模型的DEX中，我们观察到买家和卖家之间交易者行为上存在明显的不对称性。
+
+    This study presents a groundbreaking Systematization of Knowledge (SoK) initiative, focusing on an in-depth exploration of the dynamics and behavior of traders on perpetual future contracts across both centralized exchanges (CEXs), and decentralized exchanges (DEXs). We have refined the existing model for investigating traders' behavior in reaction to price volatility to create a new analytical framework specifically for these contract platforms, while also highlighting the role of blockchain technology in their application. Our research includes a comparative analysis of historical data from CEXs and a more extensive examination of complete transactional data on DEXs. On DEX of Virtual Automated Market Making (VAMM) Model, open interest on short and long positions exert effect on price volatility in opposite direction, attributable to VAMM's price formation mechanism. In the DEXs with Oracle Pricing Model, we observed a distinct asymmetry in trader behavior between buyers and sellers.
+    
+[^8]: 在具有高斯漂移的部分信息市场中的效用最大化问题的良定义性研究
+
+    Well Posedness of Utility Maximization Problems Under Partial Information in a Market with Gaussian Drift
+
+    [https://arxiv.org/abs/2205.08614](https://arxiv.org/abs/2205.08614)
+
+    本文研究了金融市场中的效用最大化问题的良定义性，为具有高斯漂移的部分信息市场提供了模型参数的充分条件。
+
+    
+
+    本文研究了金融市场中的效用最大化问题的良定义性，其中股票回报依赖于隐藏的高斯均值回归漂移过程。由于该过程可能是无界的，对于不受上界限制的效用函数，无法保证其良定义性。对于相对风险厌恶小于对数效用的功率效用函数，这导致了对模型参数的选择限制，例如投资周期和控制资产价格和漂移过程方差的参数。我们推导出了模型参数的充分条件，以实现具有完全和部分信息的模型的终端财富的有界最大预期效用。
+
+    arXiv:2205.08614v2 Announce Type: replace Abstract: This paper investigates well posedness of utility maximization problems for financial markets where stock returns depend on a hidden Gaussian mean reverting drift process. Since that process is potentially unbounded, well posedness cannot be guaranteed for utility functions which are not bounded from above. For power utility with relative risk aversion smaller than those of log-utility this leads to restrictions on the choice of model parameters such as the investment horizon and parameters controlling the variance of the asset price and drift processes. We derive sufficient conditions to the model parameters leading to bounded maximum expected utility of terminal wealth for models with full and partial information.
+    
+[^9]: 理性粗Heston逼近的一般化
+
+    A generalization of the rational rough Heston approximation. (arXiv:2310.09181v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2310.09181](http://arxiv.org/abs/2310.09181)
+
+    这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。
+
+    
+
+    我们将理性逼近从[GR19]中的粗Heston分数ODE扩展到Mittag-Leffler核情况。我们提供了数值证据表明解的收敛性。
+
+    We extend the rational approximation of the solution of the rough Heston fractional ODE in [GR19] to the case of the Mittag-Leffler kernel. We provide numerical evidence of the convergence of the solution.
+    
+[^10]: 承诺与家庭劳动力供给的动态。 (arXiv:2307.10983v1 [econ.GN])
+
+    Commitment and the Dynamics of Household Labor Supply. (arXiv:2307.10983v1 [econ.GN])
+
+    [http://arxiv.org/abs/2307.10983](http://arxiv.org/abs/2307.10983)
+
+    本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。
+
+    
+
+    个体对伴侣的承诺程度对社会有重要影响。本文通过发展一个家庭的生命周期集体模型，描述了三种不同类型的承诺：全面承诺、有限承诺和无承诺。我们提出了一种测试方法，通过观察当下和历史消息对家庭行为的影响来区分这三种类型。我们的测试允许家庭之间承诺程度的异质性。使用最近的“收入动态面板研究”数据，我们拒绝了全面承诺和无承诺，同时找到了有限承诺的强有力证据。
+
+    The extent to which individuals commit to their partner for life has important implications. This paper develops a lifecycle collective model of the household, through which it characterizes behavior in three prominent alternative types of commitment: full, limited, and no commitment. We propose a test that distinguishes between all three types based on how contemporaneous and historical news affect household behavior. Our test permits heterogeneity in the degree of commitment across households. Using recent data from the Panel Study of Income Dynamics, we reject full and no commitment, while we find strong evidence for limited commitment.
+    
+[^11]: 强化学习用于能源交易策略的优化
+
+    Reinforcement learning for optimization of energy trading strategy. (arXiv:2303.16266v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.16266](http://arxiv.org/abs/2303.16266)
+
+    本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。
+
+    
+
+    越来越多的能源来自大量小型生产者的可再生能源，这些来源的效率是不稳定的，在某种程度上也是随机的，加剧了能源市场平衡问题。在许多国家，这种平衡是在预测日（DA）能源市场上完成的。本文考虑由中型生产者在DA能源市场上的自动化交易。我们将此活动建模为马尔可夫决策过程，并规范了一个框架，其中可以使用现实数据优化即用策略。我们合成参数化交易策略，并使用进化算法优化它们。我们还使用最先进的强化学习算法优化一个黑盒交易策略，该策略利用来自环境的可用信息来影响未来价格。
+
+    An increasing part of energy is produced from renewable sources by a large number of small producers. The efficiency of these sources is volatile and, to some extent, random, exacerbating the energy market balance problem. In many countries, that balancing is performed on day-ahead (DA) energy markets. In this paper, we consider automated trading on a DA energy market by a medium size prosumer. We model this activity as a Markov Decision Process and formalize a framework in which a ready-to-use strategy can be optimized with real-life data. We synthesize parametric trading strategies and optimize them with an evolutionary algorithm. We also use state-of-the-art reinforcement learning algorithms to optimize a black-box trading strategy fed with available information from the environment that can impact future prices.
     
 

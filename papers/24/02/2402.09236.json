@@ -1,0 +1,11 @@
+{
+    "title": "Learning Interpretable Concepts: Unifying Causal Representation Learning and Foundation Models",
+    "abstract": "arXiv:2402.09236v1 Announce Type: cross Abstract: To build intelligent machine learning systems, there are two broad approaches. One approach is to build inherently interpretable models, as endeavored by the growing field of causal representation learning. The other approach is to build highly-performant foundation models and then invest efforts into understanding how they work. In this work, we relate these two approaches and study how to learn human-interpretable concepts from data. Weaving together ideas from both fields, we formally define a notion of concepts and show that they can be provably recovered from diverse data. Experiments on synthetic data and large language models show the utility of our unified approach.",
+    "link": "https://arxiv.org/abs/2402.09236",
+    "context": "Title: Learning Interpretable Concepts: Unifying Causal Representation Learning and Foundation Models\nAbstract: arXiv:2402.09236v1 Announce Type: cross Abstract: To build intelligent machine learning systems, there are two broad approaches. One approach is to build inherently interpretable models, as endeavored by the growing field of causal representation learning. The other approach is to build highly-performant foundation models and then invest efforts into understanding how they work. In this work, we relate these two approaches and study how to learn human-interpretable concepts from data. Weaving together ideas from both fields, we formally define a notion of concepts and show that they can be provably recovered from diverse data. Experiments on synthetic data and large language models show the utility of our unified approach.",
+    "path": "papers/24/02/2402.09236.json",
+    "total_tokens": 722,
+    "translated_title": "学习可解释概念：统一因果表示学习与基础模型",
+    "translated_abstract": "构建智能机器学习系统有两种广泛的方法。一种方法是构建天生可解释的模型，这是因果表示学习领域的努力方向。另一种方法是构建高性能的基础模型，然后投入努力去理解它们的工作原理。本研究将这两种方法联系起来，研究如何从数据中学习人类可解释的概念。通过结合这两个领域的思想，我们正式定义了概念的概念，并展示了它们可以从多样的数据中被可靠地恢复出来。对于合成数据和大型语言模型的实验证明了我们统一方法的实用性。",
+    "tldr": "本研究将因果表示学习和基础模型相结合，研究了如何从数据中学习人类可解释的概念。实验证明了这一统一方法的实用性。"
+}

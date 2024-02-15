@@ -1,0 +1,11 @@
+{
+    "title": "A Faster $k$-means++ Algorithm",
+    "abstract": "arXiv:2211.15118v2 Announce Type: replace-cross Abstract: $k$-means++ is an important algorithm for choosing initial cluster centers for the $k$-means clustering algorithm. In this work, we present a new algorithm that can solve the $k$-means++ problem with nearly optimal running time. Given $n$ data points in $\\mathbb{R}^d$, the current state-of-the-art algorithm runs in $\\widetilde{O}(k )$ iterations, and each iteration takes $\\widetilde{O}(nd k)$ time. The overall running time is thus $\\widetilde{O}(n d k^2)$. We propose a new algorithm \\textsc{FastKmeans++} that only takes in $\\widetilde{O}(nd + nk^2)$ time, in total.",
+    "link": "https://arxiv.org/abs/2211.15118",
+    "context": "Title: A Faster $k$-means++ Algorithm\nAbstract: arXiv:2211.15118v2 Announce Type: replace-cross Abstract: $k$-means++ is an important algorithm for choosing initial cluster centers for the $k$-means clustering algorithm. In this work, we present a new algorithm that can solve the $k$-means++ problem with nearly optimal running time. Given $n$ data points in $\\mathbb{R}^d$, the current state-of-the-art algorithm runs in $\\widetilde{O}(k )$ iterations, and each iteration takes $\\widetilde{O}(nd k)$ time. The overall running time is thus $\\widetilde{O}(n d k^2)$. We propose a new algorithm \\textsc{FastKmeans++} that only takes in $\\widetilde{O}(nd + nk^2)$ time, in total.",
+    "path": "papers/22/11/2211.15118.json",
+    "total_tokens": 698,
+    "translated_title": "一个更快的$k$-means++算法",
+    "translated_abstract": "$k$-means++是选择$k$-means聚类算法初始聚类中心的重要算法。在这项工作中，我们提出了一种新算法，可以以接近最优的运行时间解决$k$-means++问题。给定$\\mathbb{R}^d$中的$n$个数据点，目前最先进的算法需要$\\widetilde{O}(k)$次迭代，而每次迭代需要$\\widetilde{O}(nd k)$的时间。因此，总运行时间为$\\widetilde{O}(n d k^2)$。我们提出了一种新算法\\textsc{FastKmeans++}，它只需要$\\widetilde{O}(nd + nk^2)$的时间。",
+    "tldr": "本文提出了一种更快的$k$-means++算法，能够在接近最优的运行时间内解决初始聚类中心选择的问题。"
+}

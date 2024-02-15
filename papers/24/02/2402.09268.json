@@ -1,0 +1,12 @@
+{
+    "title": "Transformers, parallel computation, and logarithmic depth",
+    "abstract": "arXiv:2402.09268v1 Announce Type: new Abstract: We show that a constant number of self-attention layers can efficiently simulate, and be simulated by, a constant number of communication rounds of Massively Parallel Computation. As a consequence, we show that logarithmic depth is sufficient for transformers to solve basic computational tasks that cannot be efficiently solved by several other neural sequence models and sub-quadratic transformer approximations. We thus establish parallelism as a key distinguishing property of transformers.",
+    "link": "https://arxiv.org/abs/2402.09268",
+    "context": "Title: Transformers, parallel computation, and logarithmic depth\nAbstract: arXiv:2402.09268v1 Announce Type: new Abstract: We show that a constant number of self-attention layers can efficiently simulate, and be simulated by, a constant number of communication rounds of Massively Parallel Computation. As a consequence, we show that logarithmic depth is sufficient for transformers to solve basic computational tasks that cannot be efficiently solved by several other neural sequence models and sub-quadratic transformer approximations. We thus establish parallelism as a key distinguishing property of transformers.",
+    "path": "papers/24/02/2402.09268.json",
+    "total_tokens": 603,
+    "translated_title": "Transformers，并行计算和对数深度",
+    "translated_abstract": "我们展示了一个固定数量的自注意层可以有效地模拟和被Massively Parallel Computation的通信轮数所模拟。因此，我们证明了对数深度对于transformers来解决一些其他神经序列模型和亚二次变压器逼近无法高效解决的基本计算任务是足够的。这样，我们将并行性确定为transformers的一个关键区别性质。",
+    "tldr": "transformers的关键区别性质是并行性，它们通过使用固定数量的自注意层实现对基本计算任务的高效解决，而这些任务无法被其他神经序列模型和亚二次变压器逼近高效解决。",
+    "en_tdlr": "The key distinguishing property of transformers is parallelism, as they efficiently solve basic computational tasks using a fixed number of self-attention layers, which cannot be efficiently solved by other neural sequence models and sub-quadratic transformer approximations."
+}

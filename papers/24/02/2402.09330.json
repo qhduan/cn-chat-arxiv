@@ -1,0 +1,12 @@
+{
+    "title": "3D-based RNA function prediction tools in rnaglib",
+    "abstract": "arXiv:2402.09330v1 Announce Type: cross Abstract: Understanding the connection between complex structural features of RNA and biological function is a fundamental challenge in evolutionary studies and in RNA design. However, building datasets of RNA 3D structures and making appropriate modeling choices remains time-consuming and lacks standardization. In this chapter, we describe the use of rnaglib, to train supervised and unsupervised machine learning-based function prediction models on datasets of RNA 3D structures.",
+    "link": "https://arxiv.org/abs/2402.09330",
+    "context": "Title: 3D-based RNA function prediction tools in rnaglib\nAbstract: arXiv:2402.09330v1 Announce Type: cross Abstract: Understanding the connection between complex structural features of RNA and biological function is a fundamental challenge in evolutionary studies and in RNA design. However, building datasets of RNA 3D structures and making appropriate modeling choices remains time-consuming and lacks standardization. In this chapter, we describe the use of rnaglib, to train supervised and unsupervised machine learning-based function prediction models on datasets of RNA 3D structures.",
+    "path": "papers/24/02/2402.09330.json",
+    "total_tokens": 579,
+    "translated_title": "rnaglib中基于3D的RNA功能预测工具",
+    "translated_abstract": "理解RNA的复杂结构特征与生物功能之间的联系是进化研究和RNA设计中的一个基本挑战。然而，构建RNA 3D结构的数据集并进行适当的建模选择仍然耗时且缺乏标准化。在本章中，我们描述了在RNA 3D结构数据集上训练监督和非监督机器学习功能预测模型的rnaglib的使用方法。",
+    "tldr": "rnaglib是一个基于3D的RNA功能预测工具，可以用于在RNA 3D结构数据集上训练监督和非监督机器学习模型。",
+    "en_tdlr": "rnaglib is a 3D-based RNA function prediction tool that can be used to train supervised and unsupervised machine learning models on RNA 3D structure datasets."
+}

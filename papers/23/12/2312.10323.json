@@ -1,0 +1,11 @@
+{
+    "title": "Continuous Prompt Generation from Linear Combination of Discrete Prompt Embeddings",
+    "abstract": "arXiv:2312.10323v2 Announce Type: replace Abstract: The wayward quality of continuous prompts stresses the importance of their interpretability as unexpected and unpredictable behaviors appear following training, especially in the context of large language models automating people-sensitive tasks such as resume screening. In this paper we present a novel method of constructing continuous prompts via discrete prompt embeddings and evaluate improvements to continuous prompt interpretability and inference accuracy. For a set of manually designed discrete prompts $\\mathcal{D}$, which we tokenize and embed each into tensor form, we train a model to predict the weights such that the linear combinations of those prompts correspond to higher performance on natural language understanding tasks.",
+    "link": "https://arxiv.org/abs/2312.10323",
+    "context": "Title: Continuous Prompt Generation from Linear Combination of Discrete Prompt Embeddings\nAbstract: arXiv:2312.10323v2 Announce Type: replace Abstract: The wayward quality of continuous prompts stresses the importance of their interpretability as unexpected and unpredictable behaviors appear following training, especially in the context of large language models automating people-sensitive tasks such as resume screening. In this paper we present a novel method of constructing continuous prompts via discrete prompt embeddings and evaluate improvements to continuous prompt interpretability and inference accuracy. For a set of manually designed discrete prompts $\\mathcal{D}$, which we tokenize and embed each into tensor form, we train a model to predict the weights such that the linear combinations of those prompts correspond to higher performance on natural language understanding tasks.",
+    "path": "papers/23/12/2312.10323.json",
+    "total_tokens": 627,
+    "translated_title": "通过离散提示向量线性组合生成连续提示的方法",
+    "translated_abstract": "连续提示的不可预测性强调了其可解释性的重要性，尤其是在大型语言模型自动化敏感任务（如简历筛选）的情况下。本文提出了一种通过离散提示向量构建连续提示的新方法，并评估了连续提示可解释性和推理准确性的改进。对于一组手动设计的离散提示$\\mathcal{D}$，我们将其分词并嵌入为张量形式，训练一个模型来预测权重，使得这些提示的线性组合在自然语言理解任务中具有更高的性能。",
+    "tldr": "本文提出了一种通过离散提示向量构建连续提示的新方法，提高了连续提示可解释性和推理准确性。"
+}

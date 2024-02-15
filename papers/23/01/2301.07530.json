@@ -1,0 +1,11 @@
+{
+    "title": "Optimistically Tempered Online Learning",
+    "abstract": "arXiv:2301.07530v2 Announce Type: replace Abstract: Optimistic Online Learning algorithms have been developed to exploit expert advices, assumed optimistically to be always useful. However, it is legitimate to question the relevance of such advices \\emph{w.r.t.} the learning information provided by gradient-based online algorithms. In this work, we challenge the confidence assumption on the expert and develop the \\emph{optimistically tempered} (OT) online learning framework as well as OT adaptations of online algorithms. Our algorithms come with sound theoretical guarantees in the form of dynamic regret bounds, and we eventually provide experimental validation of the usefulness of the OT approach.",
+    "link": "https://arxiv.org/abs/2301.07530",
+    "context": "Title: Optimistically Tempered Online Learning\nAbstract: arXiv:2301.07530v2 Announce Type: replace Abstract: Optimistic Online Learning algorithms have been developed to exploit expert advices, assumed optimistically to be always useful. However, it is legitimate to question the relevance of such advices \\emph{w.r.t.} the learning information provided by gradient-based online algorithms. In this work, we challenge the confidence assumption on the expert and develop the \\emph{optimistically tempered} (OT) online learning framework as well as OT adaptations of online algorithms. Our algorithms come with sound theoretical guarantees in the form of dynamic regret bounds, and we eventually provide experimental validation of the usefulness of the OT approach.",
+    "path": "papers/23/01/2301.07530.json",
+    "total_tokens": 672,
+    "translated_title": "乐观调节的在线学习",
+    "translated_abstract": "乐观在线学习算法已经被开发出来，以利用专家意见，假设专家意见总是有用的。然而，我们可以合理地对这些意见与基于梯度的在线算法提供的学习信息的相关性提出质疑。在这项工作中，我们质疑对专家的信心假设，并开发了乐观调节（OT）在线学习框架以及在线算法的OT适应性。我们的算法具有动态遗憾界限的稳固理论保证，并最终验证了OT方法的有用性。",
+    "tldr": "本文提出了一种乐观调节的在线学习框架和适应算法，挑战了对专家的信心假设，并通过动态遗憾界限的理论保证和实验证明了该方法的有效性。"
+}

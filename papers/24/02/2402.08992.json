@@ -1,0 +1,11 @@
+{
+    "title": "Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method",
+    "abstract": "arXiv:2402.08992v1 Announce Type: cross Abstract: This paper proposes a stochastic proximal point method to solve a stochastic convex composite optimization problem. High probability results in stochastic optimization typically hinge on restrictive assumptions on the stochastic gradient noise, for example, sub-Gaussian distributions. Assuming only weak conditions such as bounded variance of the stochastic gradient, this paper establishes a low sample complexity to obtain a high probability guarantee on the convergence of the proposed method. Additionally, a notable aspect of this work is the development of a subroutine to solve the proximal subproblem, which also serves as a novel technique for variance reduction.",
+    "link": "https://arxiv.org/abs/2402.08992",
+    "context": "Title: Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method\nAbstract: arXiv:2402.08992v1 Announce Type: cross Abstract: This paper proposes a stochastic proximal point method to solve a stochastic convex composite optimization problem. High probability results in stochastic optimization typically hinge on restrictive assumptions on the stochastic gradient noise, for example, sub-Gaussian distributions. Assuming only weak conditions such as bounded variance of the stochastic gradient, this paper establishes a low sample complexity to obtain a high probability guarantee on the convergence of the proposed method. Additionally, a notable aspect of this work is the development of a subroutine to solve the proximal subproblem, which also serves as a novel technique for variance reduction.",
+    "path": "papers/24/02/2402.08992.json",
+    "total_tokens": 674,
+    "translated_title": "通过近端点方法进行随机优化中的方差减少和低样本复杂性",
+    "translated_abstract": "本文提出了一种随机近端点法来解决随机凸复合优化问题。随机优化中的高概率结果通常依赖于对随机梯度噪声的限制性假设，例如子高斯分布。本文只假设了随机梯度的有界方差等弱条件，建立了一种低样本复杂度以获得关于所提方法收敛的高概率保证。此外，本工作的一个显著方面是发展了一个用于解决近端子问题的子程序，它同时也是一种用于减少方差的新技术。",
+    "tldr": "本文提出了一种通过近端点方法进行随机优化的方法，能够在弱条件下获得低样本复杂度，并实现方差减少的目标。"
+}

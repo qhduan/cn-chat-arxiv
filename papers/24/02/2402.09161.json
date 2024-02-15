@@ -1,0 +1,12 @@
+{
+    "title": "Role-Playing Simulation Games using ChatGPT",
+    "abstract": "arXiv:2402.09161v1 Announce Type: new Abstract: Since the COVID-19 pandemic, educational institutions have embarked on digital transformation projects. The success of these projects depends on integrating new technologies and understanding the needs of digitally literate students. The \"learning by doing\" approach suggests that real success in learning new skills is achieved when students can try out and practise these skills. In this article, we demonstrate how Large Language Models (LLMs) can enhance the quality of teaching by using ChatGPT in a role-playing simulation game scenario to promote active learning. Moreover, we discuss how LLMs can boost students' interest in learning by allowing them to practice real-life scenarios using ChatGPT.",
+    "link": "https://arxiv.org/abs/2402.09161",
+    "context": "Title: Role-Playing Simulation Games using ChatGPT\nAbstract: arXiv:2402.09161v1 Announce Type: new Abstract: Since the COVID-19 pandemic, educational institutions have embarked on digital transformation projects. The success of these projects depends on integrating new technologies and understanding the needs of digitally literate students. The \"learning by doing\" approach suggests that real success in learning new skills is achieved when students can try out and practise these skills. In this article, we demonstrate how Large Language Models (LLMs) can enhance the quality of teaching by using ChatGPT in a role-playing simulation game scenario to promote active learning. Moreover, we discuss how LLMs can boost students' interest in learning by allowing them to practice real-life scenarios using ChatGPT.",
+    "path": "papers/24/02/2402.09161.json",
+    "total_tokens": 683,
+    "translated_title": "使用ChatGPT进行角色扮演模拟游戏",
+    "translated_abstract": "自从COVID-19大流行以来，教育机构开始进行数字化转型项目。这些项目的成功取决于整合新技术和理解数字素养学生的需求。\"以做学习\"的方法认为，当学生可以尝试和实践这些技能时，才能真正成功地学习新技能。在本文中，我们演示了如何通过在角色扮演模拟游戏场景中使用ChatGPT来增强教学质量的大型语言模型（LLM）以促进主动学习。此外，我们讨论了如何通过使用ChatGPT让学生实践真实场景来提高学生对学习的兴趣。",
+    "tldr": "本文展示了如何通过使用ChatGPT在角色扮演模拟游戏中提升教学质量，并提高学生对学习的兴趣。",
+    "en_tdlr": "This article demonstrates how using ChatGPT in role-playing simulation games can enhance teaching quality and increase students' interest in learning."
+}

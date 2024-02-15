@@ -1,0 +1,12 @@
+{
+    "title": "Mean-Field Analysis for Learning Subspace-Sparse Polynomials with Gaussian Input",
+    "abstract": "arXiv:2402.08948v1 Announce Type: new Abstract: In this work, we study the mean-field flow for learning subspace-sparse polynomials using stochastic gradient descent and two-layer neural networks, where the input distribution is standard Gaussian and the output only depends on the projection of the input onto a low-dimensional subspace. We propose a basis-free generalization of the merged-staircase property in Abbe et al. (2022) and establish a necessary condition for the SGD-learnability. In addition, we prove that the condition is almost sufficient, in the sense that a condition slightly stronger than the necessary condition can guarantee the exponential decay of the loss functional to zero.",
+    "link": "https://arxiv.org/abs/2402.08948",
+    "context": "Title: Mean-Field Analysis for Learning Subspace-Sparse Polynomials with Gaussian Input\nAbstract: arXiv:2402.08948v1 Announce Type: new Abstract: In this work, we study the mean-field flow for learning subspace-sparse polynomials using stochastic gradient descent and two-layer neural networks, where the input distribution is standard Gaussian and the output only depends on the projection of the input onto a low-dimensional subspace. We propose a basis-free generalization of the merged-staircase property in Abbe et al. (2022) and establish a necessary condition for the SGD-learnability. In addition, we prove that the condition is almost sufficient, in the sense that a condition slightly stronger than the necessary condition can guarantee the exponential decay of the loss functional to zero.",
+    "path": "papers/24/02/2402.08948.json",
+    "total_tokens": 786,
+    "translated_title": "使用高斯输入学习子空间稀疏多项式的均场分析",
+    "translated_abstract": "在这项工作中，我们研究了使用随机梯度下降和双层神经网络学习子空间稀疏多项式的均场流动，其中输入分布是标准高斯分布，输出仅依赖于输入在低维子空间上的投影。我们提出了Abbe等人(2022年)中合并阶梯属性的无基础推广，并建立了SGD可学习性的必要条件。此外，我们证明了此条件几乎是充分的，即比必要条件稍强的条件可以保证损失函数的指数衰减至零。",
+    "tldr": "本文研究了使用随机梯度下降和双层神经网络学习子空间稀疏多项式的均场流动。我们提出了合并阶梯属性的无基础推广，并建立了SGD可学习性的必要条件。此外，我们证明了稍强的条件可以保证损失函数的指数衰减至零。",
+    "en_tdlr": "This paper studies the mean-field flow for learning subspace-sparse polynomials using stochastic gradient descent and two-layer neural networks. We propose a basis-free generalization of the merged-staircase property and establish a necessary condition for SGD-learnability. In addition, we prove that a slightly stronger condition can guarantee the exponential decay of the loss functional to zero."
+}
