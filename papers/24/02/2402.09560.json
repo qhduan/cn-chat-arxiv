@@ -1,0 +1,11 @@
+{
+    "title": "Distribution-Free Rates in Neyman-Pearson Classification",
+    "abstract": "arXiv:2402.09560v1 Announce Type: new  Abstract: We consider the problem of Neyman-Pearson classification which models unbalanced classification settings where error w.r.t. a distribution $\\mu_1$ is to be minimized subject to low error w.r.t. a different distribution $\\mu_0$. Given a fixed VC class $\\mathcal{H}$ of classifiers to be minimized over, we provide a full characterization of possible distribution-free rates, i.e., minimax rates over the space of all pairs $(\\mu_0, \\mu_1)$. The rates involve a dichotomy between hard and easy classes $\\mathcal{H}$ as characterized by a simple geometric condition, a three-points-separation condition, loosely related to VC dimension.",
+    "link": "https://arxiv.org/abs/2402.09560",
+    "context": "Title: Distribution-Free Rates in Neyman-Pearson Classification\nAbstract: arXiv:2402.09560v1 Announce Type: new  Abstract: We consider the problem of Neyman-Pearson classification which models unbalanced classification settings where error w.r.t. a distribution $\\mu_1$ is to be minimized subject to low error w.r.t. a different distribution $\\mu_0$. Given a fixed VC class $\\mathcal{H}$ of classifiers to be minimized over, we provide a full characterization of possible distribution-free rates, i.e., minimax rates over the space of all pairs $(\\mu_0, \\mu_1)$. The rates involve a dichotomy between hard and easy classes $\\mathcal{H}$ as characterized by a simple geometric condition, a three-points-separation condition, loosely related to VC dimension.",
+    "path": "papers/24/02/2402.09560.json",
+    "total_tokens": 668,
+    "translated_title": "Neyman-Pearson分类中的无分布率",
+    "translated_abstract": "我们考虑Neyman-Pearson分类问题，该问题模拟了不平衡分类设置，在这种设置中，最小化与分布$\\mu_1$相关的错误，同时保证与另一个分布$\\mu_0$相关的错误较低。给定一个固定的VC分类器类$\\mathcal{H}$，我们提供了可能的无分布率的完整特征，即所有配对$(\\mu_0, \\mu_1)$的极小化率。这些速率涉及到了硬分类器和简单分类器之间的二分条件，它们是根据一个简单的几何条件，即三点分离条件来刻画的，与VC维度略有关联。",
+    "tldr": "该论文提供了一个关于Neyman-Pearson分类中无分布率的完整特征，通过简单的几何条件，即三点分离条件，刻画了硬分类器和简单分类器之间的二分条件。"
+}

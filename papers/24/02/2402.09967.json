@@ -1,0 +1,11 @@
+{
+    "title": "Case Study: Testing Model Capabilities in Some Reasoning Tasks",
+    "abstract": "arXiv:2402.09967v1 Announce Type: new  Abstract: Large Language Models (LLMs) excel in generating personalized content and facilitating interactive dialogues, showcasing their remarkable aptitude for a myriad of applications. However, their capabilities in reasoning and providing explainable outputs, especially within the context of reasoning abilities, remain areas for improvement. In this study, we delve into the reasoning abilities of LLMs, highlighting the current challenges and limitations that hinder their effectiveness in complex reasoning scenarios.",
+    "link": "https://arxiv.org/abs/2402.09967",
+    "context": "Title: Case Study: Testing Model Capabilities in Some Reasoning Tasks\nAbstract: arXiv:2402.09967v1 Announce Type: new  Abstract: Large Language Models (LLMs) excel in generating personalized content and facilitating interactive dialogues, showcasing their remarkable aptitude for a myriad of applications. However, their capabilities in reasoning and providing explainable outputs, especially within the context of reasoning abilities, remain areas for improvement. In this study, we delve into the reasoning abilities of LLMs, highlighting the current challenges and limitations that hinder their effectiveness in complex reasoning scenarios.",
+    "path": "papers/24/02/2402.09967.json",
+    "total_tokens": 616,
+    "translated_title": "案例研究：在某些推理任务中测试模型能力",
+    "translated_abstract": "大型语言模型（LLMs）在生成个性化内容和促进交互对话方面表现出色，展示了它们在各种应用中的卓越能力。然而，在推理和提供可解释的输出方面，特别是在推理能力的背景下，它们的能力仍然需要改进。在本研究中，我们深入探讨了LLMs的推理能力，重点介绍了目前阻碍它们在复杂推理场景中发挥有效性的挑战和限制。",
+    "tldr": "本研究探讨了大型语言模型（LLMs）的推理能力，在复杂推理场景中的挑战和限制是目前需要改进的关键问题。"
+}

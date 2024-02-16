@@ -1,0 +1,11 @@
+{
+    "title": "Multi-Word Tokenization for Sequence Compression",
+    "abstract": "arXiv:2402.09949v1 Announce Type: new  Abstract: Large Language Models have proven highly successful at modelling a variety of tasks. However, this comes at a steep computational cost that hinders wider industrial uptake. In this pa005 per, we present MWT: a Multi-Word Tokenizer that goes beyond word boundaries by representing frequent multi-word expressions as single tokens. MWTs produce a more compact and efficient tokenization that yields two benefits: (1) Increase in performance due to a greater coverage of input data given a fixed sequence length and budget; (2) Faster and lighter inference due to the ability to reduce the sequence length with negligible drops in performance. Our results show that MWT is more robust across shorter sequence lengths, thus allowing for major speedups via early sequence truncation.",
+    "link": "https://arxiv.org/abs/2402.09949",
+    "context": "Title: Multi-Word Tokenization for Sequence Compression\nAbstract: arXiv:2402.09949v1 Announce Type: new  Abstract: Large Language Models have proven highly successful at modelling a variety of tasks. However, this comes at a steep computational cost that hinders wider industrial uptake. In this pa005 per, we present MWT: a Multi-Word Tokenizer that goes beyond word boundaries by representing frequent multi-word expressions as single tokens. MWTs produce a more compact and efficient tokenization that yields two benefits: (1) Increase in performance due to a greater coverage of input data given a fixed sequence length and budget; (2) Faster and lighter inference due to the ability to reduce the sequence length with negligible drops in performance. Our results show that MWT is more robust across shorter sequence lengths, thus allowing for major speedups via early sequence truncation.",
+    "path": "papers/24/02/2402.09949.json",
+    "total_tokens": 827,
+    "translated_title": "多词标记化用于序列压缩",
+    "translated_abstract": "大型语言模型在建模各种任务方面取得了极大成功。然而，这也意味着计算成本的大幅增加，限制了其在工业界的广泛应用。本论文介绍了一种名为MWT的多词标记器，通过将频繁出现的多词表达式表示为单个标记，突破了词边界的限制。MWT产生了更紧凑和高效的标记化结果，带来两个好处：（1）在固定序列长度和预算的情况下，提高了性能，因为能够更全面地覆盖输入数据；（2）由于能够减少序列长度而对性能几乎没有影响，从而实现更快速和更轻量的推理过程。我们的结果表明，MWT在较短的序列长度下更为稳健，从而可以通过早期序列截断实现重大加速。",
+    "tldr": "本论文介绍了一种名为MWT的多词标记器，通过将频繁出现的多词表达式表示为单个标记，突破了词边界的限制，从而实现更紧凑和高效的标记化，提高了性能并加速推理过程。"
+}

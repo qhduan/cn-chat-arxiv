@@ -1,0 +1,12 @@
+{
+    "title": "Uniformly Strict Equilibrium for Repeated Games with Private Monitoring and Communication",
+    "abstract": "arXiv:2311.12242v2 Announce Type: replace  Abstract: Cooperation through repetition is an important theme in game theory. In this regard, various celebrated ``folk theorems'' have been proposed for repeated games in increasingly more complex environments. There has, however, been insufficient attention paid to the robustness of a large set of equilibria that is needed for such folk theorems. Starting with perfect public equilibrium as our starting point, we study uniformly strict equilibria in repeated games with private monitoring and direct communication (cheap talk). We characterize the limit equilibrium payoff set and identify the conditions for the folk theorem to hold with uniformly strict equilibrium.",
+    "link": "https://arxiv.org/abs/2311.12242",
+    "context": "Title: Uniformly Strict Equilibrium for Repeated Games with Private Monitoring and Communication\nAbstract: arXiv:2311.12242v2 Announce Type: replace  Abstract: Cooperation through repetition is an important theme in game theory. In this regard, various celebrated ``folk theorems'' have been proposed for repeated games in increasingly more complex environments. There has, however, been insufficient attention paid to the robustness of a large set of equilibria that is needed for such folk theorems. Starting with perfect public equilibrium as our starting point, we study uniformly strict equilibria in repeated games with private monitoring and direct communication (cheap talk). We characterize the limit equilibrium payoff set and identify the conditions for the folk theorem to hold with uniformly strict equilibrium.",
+    "path": "papers/23/11/2311.12242.json",
+    "total_tokens": 683,
+    "translated_title": "私有监测和通信下重复博弈的均一严格均衡",
+    "translated_abstract": "合作通过重复是博弈论中一个重要的主题。在这方面，已经提出了越来越复杂环境中重复博弈的各种著名的“民间定理”。然而，对于这些民间定理所需的一大组均衡的鲁棒性没有足够的关注。从完美公共均衡作为出发点，我们研究了私有监测和直接通信（廉价谈话）下重复博弈中的均一严格均衡。我们刻画了极限均衡冠军集并确定了民间定理成立的条件。",
+    "tldr": "本研究通过私有监测和直接通信探讨了重复博弈中的均一严格均衡，对民间定理的条件进行了界定。",
+    "en_tdlr": "This study investigates uniformly strict equilibria in repeated games with private monitoring and direct communication, providing conditions for the validity of folk theorems."
+}

@@ -2,277 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Persuasion, Delegation, and Private Information in Algorithm-Assisted Decisions](https://arxiv.org/abs/2402.09384) | 一篇论文研究了在算法辅助决策中，如何设计最优的预测算法和委托规则。关键发现包括：委托的最优性与委托人是否会做出与代理人相同的决策有关、最具信息量的算法不一定是最优的、常见的算法限制会降低决策质量。 |
-| [^2] | [Collusion-Resilience in Transaction Fee Mechanism Design](https://arxiv.org/abs/2402.09321) | 本论文研究了交易手续费机制设计中的防勾结性问题，讨论了多个要求和属性，并指出在存在交易竞争时，任何TFM都无法同时满足所有要求和属性。 |
-| [^3] | [Optimal Automated Market Makers: Differentiable Economics and Strong Duality](https://arxiv.org/abs/2402.09129) | 本文研究了在多商品市场中，包括复杂捆绑行为的情况下，找到最优的自动做市商的问题，发现该问题对偶于一个最优运输问题，并且具有特定的几何约束条件。 |
-| [^4] | [Database for the meta-analysis of the social cost of carbon (v2024.0)](https://arxiv.org/abs/2402.09125) | 该论文介绍了社会碳成本估计元分析数据库的新版本，新增了关于气候变化影响和福利函数形状的字段，并扩展了合作者和引用网络。 |
-| [^5] | [Cross-Temporal Forecast Reconciliation at Digital Platforms with Machine Learning](https://arxiv.org/abs/2402.09033) | 本论文介绍了一种使用机器学习方法在数字平台上进行跨时预测协调的非线性分层预测协调方法，该方法能够直接且自动化地生成跨时预测协调的预测，通过对来自按需交付平台的大规模流式数据集进行实证测试。 |
-| [^6] | [Local-Polynomial Estimation for Multivariate Regression Discontinuity Designs](https://arxiv.org/abs/2402.08941) | 在多元回归不连续设计中，我们提出了一种多元局部多项式估计方法，能够处理多元设计并捕捉边界处的异质治疗效应。 |
-| [^7] | [Time preference, wealth and utility inequality: A microeconomic interaction and dynamic macroeconomic model connection approach](https://arxiv.org/abs/2402.08905) | 本研究通过将个体之间的互动与社会规范参考相连接，揭示了时间偏好对财富分配和不平等的影响。通过模型计算和实证分析，结果显示，个体之间的消费比较对财富不平等和效用产生显著影响。社会规范在一定程度上可以减缓这种影响。这个方法提供了一个新的框架，用于理解时间偏好在经济不平等中的作用。 |
-| [^8] | [Inference for an Algorithmic Fairness-Accuracy Frontier](https://arxiv.org/abs/2402.08879) | 本文提供了一个算法公平性和准确性推理的方法。我们提出了一种一致的估计器，并进行了一些检验假设的推理。同时，我们还给出了一个估计器来计算一个给定算法与前沿上最公平点之间的距离，并描述了它的渐近性质。 |
-| [^9] | [Equitable screening](https://arxiv.org/abs/2402.08781) | 这项研究探讨了政府在考虑公平性的情况下提供福利并进行筛选的问题。研究结果表明，虽然政府无法通过单一工具进行公平筛选，但通过结合多种工具，可以实现筛选并产生公平的分配。 |
-| [^10] | [LLM-driven Imitation of Subrational Behavior : Illusion or Reality?](https://arxiv.org/abs/2402.08755) | 本文探讨了使用LLMs生成合成人类演示的方法，然后通过模仿学习来学习亚理性代理策略，从而模拟亚理性行为，并为我们理解人类行为提供了改进的可能性。 |
-| [^11] | [Incentive-Aware Synthetic Control: Accurate Counterfactual Estimation via Incentivized Exploration](https://arxiv.org/abs/2312.16307) | 本论文提出了一种为了解决合成对照方法中"重叠"假设的问题的激励感知合成对照方法。该方法通过激励单位采取通常不会考虑的干预措施，提供与激励相容的干预建议，从而实现在面板数据环境中准确估计反事实效果。 |
-| [^12] | [On Connected Strongly-Proportional Cake-Cutting](https://arxiv.org/abs/2312.15326) | 该论文研究了一种公平划分可划分异质资源的问题，即蛋糕切分。该论文确定了存在一种连通的强比例切分方式，并提供了相应的算法和简单刻画。 |
-| [^13] | [Algorithmic Persuasion Through Simulation](https://arxiv.org/abs/2311.18138) | 通过模拟接收者行为的贝叶斯劝导问题中，发送者设计了一个最优消息策略并设计了一个多项式时间查询算法，以优化其预期效用。 |
-| [^14] | [Robust Contracts with Exploration](https://arxiv.org/abs/2212.00157) | 本文研究了具有探索的鲁棒合同问题，分析了委托人与代理人签订合同时的道德风险，并找到了在具有探索的动态环境中稳健最优的线性合同。 |
-| [^15] | [Generalized Principal-Agency: Contracts, Information, Games and Beyond](https://arxiv.org/abs/2209.01146) | 这篇论文将Myerson的委托代理问题推广到一个更一般的情景，给出了一种多项式时间算法来计算委托人的最优机制，从而同时解决了合同设计、信息设计和贝叶斯Stackelberg博弈等多个设计问题。 |
-| [^16] | [Safety, in Numbers.](http://arxiv.org/abs/2310.17517) | 我们提出了一种比较决策问题中行动的方法，即通过决策者的风险厌恶程度来确定哪个行动更安全。我们对这种关系进行了完整的刻画，并讨论了其在鲁棒信念引出、合约、贝叶斯博弈和投资对冲等领域的应用。 |
-| [^17] | [Commitment and the Dynamics of Household Labor Supply.](http://arxiv.org/abs/2307.10983) | 本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。 |
-| [^18] | [Human and Machine Intelligence in n-Person Games with Partial Knowledge.](http://arxiv.org/abs/2302.13937) | 提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。 |
+| [^1] | [When Can We Use Two-Way Fixed-Effects (TWFE): A Comparison of TWFE and Novel Dynamic Difference-in-Differences Estimators](https://arxiv.org/abs/2402.09928) | 该研究对传统的双向固定效应（TWFE）估计器存在的问题进行了详细阐述，并提出了新颖的动态差分法估计器作为替代方案。使用蒙特卡洛模拟评估了动态差分法估计器在假设违反下的性能表现。 |
+| [^2] | [Spatial Data Analysis](https://arxiv.org/abs/2402.09895) | 空间计量经济学为分析社会科学中的空间数据提供了技术和方法，通过引入一系列空间计量经济模型，特别是空间滞后、空间误差和空间滞后X模型，以适应空间关系并获得准确和有洞察力的结果。 |
+| [^3] | [Identification with Posterior-Separable Information Costs](https://arxiv.org/abs/2402.09789) | 这项研究提供了一个在异质性和合理忽视方面的模型，并证明它与受到注意成本约束的状态相关随机选择模型在观察上等效。通过条件概率的分析，揭示了如何确定协变量对商品可取性、福利、福利变化和反事实市场份额的影响。 |
+| [^4] | [Quantile Granger Causality in the Presence of Instability](https://arxiv.org/abs/2402.09744) | 我们提出了一种在不稳定环境中评估分位数格兰杰因果关系的新框架，该框架具有一致性、非平凡的功效和某些重要特殊情况下的中心性。蒙特卡洛模拟显示，所提出的检验统计量具有正确的经验大小和较高的功效，即使在没有结构性变化的情况下也是如此。两个实证应用进一步证明了我们方法的适用性。 |
+| [^5] | [Persuading a Learning Agent](https://arxiv.org/abs/2402.09721) | 在一个重复的贝叶斯说服问题中，即使没有承诺能力，委托人可以通过使用上下文无遗憾学习算法来实现与经典无学习模型中具有承诺的委托人的最优效用无限接近的效果；在代理人使用上下文无交换遗憾学习算法的情况下，委托人无法获得比具有承诺的无学习模型中的最优效用更高的效用。 |
+| [^6] | [On Three-Layer Data Markets](https://arxiv.org/abs/2402.09697) | 这篇论文研究了一个三层数据市场，其中用户通过与平台共享数据来获得服务，但会产生隐私损失。研究发现，当购买方对用户数据的价值较高时，所有平台都向用户提供服务，而当购买方对用户数据的价值较低时，只有低成本的大型平台能够服务用户。 |
+| [^7] | [ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents](https://arxiv.org/abs/2402.09563) | ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。 |
+| [^8] | [A game theoretic approach to lowering incentives to violate speed limits in Finland](https://arxiv.org/abs/2402.09556) | 本论文通过使用无限重复博弈模型，并采用子博弈完美均衡策略配置作为解决概念，提出了一种胡萝卜和棍子的方法来降低违反芬兰限速规定的激励，并在短期重复博弈中构建了一个纳什均衡策略配置。 |
+| [^9] | [Rationality Report Cards: Assessing the Economic Rationality of Large Language Models](https://arxiv.org/abs/2402.09552) | 本文在评估大型语言模型的经济合理性方面提出了一种方法，通过量化评分模型在各个要素上的表现并结合用户提供的评分标准，生成一份"理性报告卡"，以确定代理人是否足够可靠。 |
+| [^10] | [Uniformly Strict Equilibrium for Repeated Games with Private Monitoring and Communication](https://arxiv.org/abs/2311.12242) | 本研究通过私有监测和直接通信探讨了重复博弈中的均一严格均衡，对民间定理的条件进行了界定。 |
+| [^11] | [Higher-order Refinements of Small Bandwidth Asymptotics for Density-Weighted Average Derivative Estimators](https://arxiv.org/abs/2301.00277) | 这篇论文研究了密度加权平均导数估计器的高阶细化小带宽渐近性质，提供了一种更一般的分布近似方法，该方法在带宽选择方面更鲁棒，并在模拟中表现出优秀的有限样本性能。 |
+| [^12] | [Contamination Bias in Linear Regressions](https://arxiv.org/abs/2106.05024) | 我们发现在回归分析中，多个处理和灵活控制组往往无法精确估计凸复合平均值的异质处理效应，而是受到其他处理效应的非凸复合平均值的污染。然而，我们提出了三种避免这种污染偏差的估计方法。重新分析九个实证应用还发现观察研究中存在经济上和统计上显著的污染偏差，而实验研究中的污染偏差则更加有限。 |
+| [^13] | [Individual and Collective Welfare in Risk Sharing with Many States.](http://arxiv.org/abs/2401.07337) | 在多状态的风险分享中，我们定量评估了福利，并证明了随着状态数增加，改善个体福利的空间消失，分配给改进聚合资源的范围也消失，并且在低效分配中，通过扰动聚合资源来增强福利的可能性随状态数的指数增加而变为零，同时，某些先验概率集随着状态空间的大小而缩小。 |
+| [^14] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
 
 # 详细
 
-[^1]: 说服、委托和私有信息在算法辅助决策中的应用
+[^1]: 何时可以使用双向固定效应（TWFE）：对比TWFE和新颖的动态差分法估计器
 
-    Persuasion, Delegation, and Private Information in Algorithm-Assisted Decisions
+    When Can We Use Two-Way Fixed-Effects (TWFE): A Comparison of TWFE and Novel Dynamic Difference-in-Differences Estimators
 
-    [https://arxiv.org/abs/2402.09384](https://arxiv.org/abs/2402.09384)
+    [https://arxiv.org/abs/2402.09928](https://arxiv.org/abs/2402.09928)
 
-    一篇论文研究了在算法辅助决策中，如何设计最优的预测算法和委托规则。关键发现包括：委托的最优性与委托人是否会做出与代理人相同的决策有关、最具信息量的算法不一定是最优的、常见的算法限制会降低决策质量。
-
-    
-
-    一位委托人设计了一个算法，该算法生成一个公开可见的二进制状态预测。她必须决定是根据预测直接行动还是将决策委托给一个代理人，该代理人具有私有信息但可能存在不对齐问题。我们研究了在这种环境下预测算法和委托规则的最优设计。得出了三个关键发现：(1)只有当委托人在观察到代理人的信息时会做出与代理人相同的二进制决策时，委托才是最优的。(2)提供最具信息量的算法可能并不是最优的，即使委托人可以根据算法的预测来行动。相反，最优算法可能提供更多关于一个状态的信息，并限制关于另一个状态的信息。(3)在没有完美的预测准确性的情况下，常见的对算法的限制，如保持"人机合作"或要求最大预测精度，会严重降低决策质量。
-
-    arXiv:2402.09384v1 Announce Type: cross Abstract: A principal designs an algorithm that generates a publicly observable prediction of a binary state. She must decide whether to act directly based on the prediction or to delegate the decision to an agent with private information but potential misalignment. We study the optimal design of the prediction algorithm and the delegation rule in such environments. Three key findings emerge: (1) Delegation is optimal if and only if the principal would make the same binary decision as the agent had she observed the agent's information. (2) Providing the most informative algorithm may be suboptimal even if the principal can act on the algorithm's prediction. Instead, the optimal algorithm may provide more information about one state and restrict information about the other. (3) Common restrictions on algorithms, such as keeping a "human-in-the-loop" or requiring maximal prediction accuracy, strictly worsen decision quality in the absence of perfec
-    
-[^2]: 交易手续费机制设计中的防勾结性
-
-    Collusion-Resilience in Transaction Fee Mechanism Design
-
-    [https://arxiv.org/abs/2402.09321](https://arxiv.org/abs/2402.09321)
-
-    本论文研究了交易手续费机制设计中的防勾结性问题，讨论了多个要求和属性，并指出在存在交易竞争时，任何TFM都无法同时满足所有要求和属性。
+    该研究对传统的双向固定效应（TWFE）估计器存在的问题进行了详细阐述，并提出了新颖的动态差分法估计器作为替代方案。使用蒙特卡洛模拟评估了动态差分法估计器在假设违反下的性能表现。
 
     
 
-    在区块链协议中，用户通过交易手续费机制（TFM）进行竞标，以便将其交易包含并获得确认。Roughgarden（EC'21）对TFM进行了正式的处理，并提出了三个要求：用户激励兼容性（UIC），矿工激励兼容性（MIC）以及一种称为OCA-proofness的防勾结性形式。当没有交易之间的竞争时，Ethereum的EIP-1559机制同时满足这三个属性，但当有过多的符合条件的交易无法放入单个区块时，失去了UIC属性。Chung和Shi（SODA'23）考虑了一种替代的防勾结性概念，称为c-side-construct-proofness(c-SCP)，并证明了当交易之间存在竞争时，任何TFM都不能满足UIC、MIC和至少为1的任何c的c-SCP。OCA-proofness断言用户和矿工不应该能够从协议中“偷取”，并且在直觉上比UIC、MIC更弱。
+    最近的文献揭示了在治疗效应具有异质性时，传统的双向固定效应（TWFE）估计器存在潜在缺陷。学者们开发了新颖的动态差分法估计器来解决这些潜在缺陷。然而，在应用研究中仍存在对于传统TWFE何时存在偏差以及新颖估计器能否解决问题的混淆。在本研究中，我们首先直观地解释了TWFE的问题并阐明了新颖替代差分法估计器的关键特点。然后，我们系统地展示了传统TWFE在哪些条件下是不一致的。我们采用蒙特卡洛模拟来评估动态差分法估计器在关键假设违反下的性能，而这在实际应用中可能发生。尽管新的动态差分法估计器提供了显著的优势，
 
-    arXiv:2402.09321v1 Announce Type: cross Abstract: Users bid in a transaction fee mechanism (TFM) to get their transactions included and confirmed by a blockchain protocol. Roughgarden (EC'21) initiated the formal treatment of TFMs and proposed three requirements: user incentive compatibility (UIC), miner incentive compatibility (MIC), and a form of collusion-resilience called OCA-proofness. Ethereum's EIP-1559 mechanism satisfies all three properties simultaneously when there is no contention between transactions, but loses the UIC property when there are too many eligible transactions to fit in a single block. Chung and Shi (SODA'23) considered an alternative notion of collusion-resilience, called c-side-constract-proofness (c-SCP), and showed that, when there is contention between transactions, no TFM can satisfy UIC, MIC, and c-SCP for any c at least 1. OCA-proofness asserts that the users and a miner should not be able to "steal from the protocol" and is intuitively weaker than the
+    arXiv:2402.09928v1 Announce Type: new  Abstract: The conventional Two-Way Fixed-Effects (TWFE) estimator has been under strain lately. Recent literature has revealed potential shortcomings of TWFE when the treatment effects are heterogeneous. Scholars have developed new advanced dynamic Difference-in-Differences (DiD) estimators to tackle these potential shortcomings. However, confusion remains in applied research as to when the conventional TWFE is biased and what issues the novel estimators can and cannot address. In this study, we first provide an intuitive explanation of the problems of TWFE and elucidate the key features of the novel alternative DiD estimators. We then systematically demonstrate the conditions under which the conventional TWFE is inconsistent. We employ Monte Carlo simulations to assess the performance of dynamic DiD estimators under violations of key assumptions, which likely happens in applied cases. While the new dynamic DiD estimators offer notable advantages 
     
-[^3]: 最优自动做市商: 可微经济学和强对偶性
+[^2]: 空间数据分析
 
-    Optimal Automated Market Makers: Differentiable Economics and Strong Duality
+    Spatial Data Analysis
 
-    [https://arxiv.org/abs/2402.09129](https://arxiv.org/abs/2402.09129)
+    [https://arxiv.org/abs/2402.09895](https://arxiv.org/abs/2402.09895)
 
-    本文研究了在多商品市场中，包括复杂捆绑行为的情况下，找到最优的自动做市商的问题，发现该问题对偶于一个最优运输问题，并且具有特定的几何约束条件。
-
-    
-
-    做市商的作用是同时以指定价格购买和出售商品数量，通常是金融资产如股票。自动做市商（AMM）是一种根据预定的时间表提供交易的机制；选择最佳的时间表取决于做市商的目标。现有研究主要集中在预测市场上，目的是信息收集。近期的工作则主要关注利润最大化的目标，但仅仅考虑了一种类型的商品（用衡量货币进行交易），包括逆向选择的情况。关于存在多种商品以及可能出现复杂捆绑行为的最优做市问题尚不清楚。本文表明，在多个商品存在且可能出现复杂捆绑行为的情况下，找到一个最优的做市商是一个对偶于最优运输问题的问题，并且具有特定的几何约束条件。
-
-    arXiv:2402.09129v1 Announce Type: cross Abstract: The role of a market maker is to simultaneously offer to buy and sell quantities of goods, often a financial asset such as a share, at specified prices. An automated market maker (AMM) is a mechanism that offers to trade according to some predetermined schedule; the best choice of this schedule depends on the market maker's goals. The literature on the design of AMMs has mainly focused on prediction markets with the goal of information elicitation. More recent work motivated by DeFi has focused instead on the goal of profit maximization, but considering only a single type of good (traded with a numeraire), including under adverse selection (Milionis et al. 2022). Optimal market making in the presence of multiple goods, including the possibility of complex bundling behavior, is not well understood. In this paper, we show that finding an optimal market maker is dual to an optimal transport problem, with specific geometric constraints on t
-    
-[^4]: 社会碳成本的元分析数据库 (v2024.0)
-
-    Database for the meta-analysis of the social cost of carbon (v2024.0)
-
-    [https://arxiv.org/abs/2402.09125](https://arxiv.org/abs/2402.09125)
-
-    该论文介绍了社会碳成本估计元分析数据库的新版本，新增了关于气候变化影响和福利函数形状的字段，并扩展了合作者和引用网络。
+    空间计量经济学为分析社会科学中的空间数据提供了技术和方法，通过引入一系列空间计量经济模型，特别是空间滞后、空间误差和空间滞后X模型，以适应空间关系并获得准确和有洞察力的结果。
 
     
 
-    本文介绍了社会碳成本估计元分析数据库的新版本。新增了记录，并添加了关于气候变化影响和福利函数形状的新字段。该数据库还扩展了合作者和引用网络。
+    这篇手册章节提供了对空间计量经济学领域的基本介绍，全面概述了社会科学中分析空间数据的技术和方法。空间计量经济学解决了空间依赖观察值所带来的独特挑战，在统计分析中空间数据点之间的空间关系会对其产生重要影响。章节首先探讨了空间依赖和空间自相关的基本概念，并强调它们对传统计量经济模型的影响。然后介绍了一系列空间计量经济模型，特别是空间滞后、空间误差和空间滞后X模型，阐述了这些模型如何适应空间关系并提供关于潜在空间过程的准确和有洞察力的结果。该章提供了对这些模型相互比较的直观理解。
 
-    arXiv:2402.09125v1 Announce Type: new Abstract: A new version of the database for the meta-analysis of estimates of the social cost of carbon is presented. New records were added, and new fields on the impact of climate change and the shape of the welfare function. The database was extended to co-author and citation networks.
+    arXiv:2402.09895v1 Announce Type: new  Abstract: This handbook chapter provides an essential introduction to the field of spatial econometrics, offering a comprehensive overview of techniques and methodologies for analysing spatial data in the social sciences. Spatial econometrics addresses the unique challenges posed by spatially dependent observations, where spatial relationships among data points can significantly impact statistical analyses. The chapter begins by exploring the fundamental concepts of spatial dependence and spatial autocorrelation, and highlighting their implications for traditional econometric models. It then introduces a range of spatial econometric models, particularly spatial lag, spatial error, and spatial lag of X models, illustrating how these models accommodate spatial relationships and yield accurate and insightful results about the underlying spatial processes. The chapter provides an intuitive understanding of these models compare to each other. A practic
     
-[^5]: 使用机器学习在数字平台上进行跨时预测协调
+[^3]: 后验可分离信息成本的识别
 
-    Cross-Temporal Forecast Reconciliation at Digital Platforms with Machine Learning
+    Identification with Posterior-Separable Information Costs
 
-    [https://arxiv.org/abs/2402.09033](https://arxiv.org/abs/2402.09033)
+    [https://arxiv.org/abs/2402.09789](https://arxiv.org/abs/2402.09789)
 
-    本论文介绍了一种使用机器学习方法在数字平台上进行跨时预测协调的非线性分层预测协调方法，该方法能够直接且自动化地生成跨时预测协调的预测，通过对来自按需交付平台的大规模流式数据集进行实证测试。
-
-    
-
-    平台业务在数字核心上运作，其决策需要不同层次（例如地理区域）和时间聚合（例如分钟到天）的高维准确预测流。为了确保不同规划单元（如定价、产品、控制和战略）之间的决策一致，也需要在层次结构的所有级别上进行协调预测。鉴于平台数据流具有复杂的特征和相互依赖关系，我们引入了一种非线性分层预测协调方法，通过使用流行的机器学习方法，以直接和自动化的方式生成跨时预测协调的预测。该方法足够快，可以满足平台所需的基于预测的高频决策。我们使用来自领先的按需交付平台的独特大规模流式数据集对我们的框架进行了实证测试。
-
-    arXiv:2402.09033v1 Announce Type: new Abstract: Platform businesses operate on a digital core and their decision making requires high-dimensional accurate forecast streams at different levels of cross-sectional (e.g., geographical regions) and temporal aggregation (e.g., minutes to days). It also necessitates coherent forecasts across all levels of the hierarchy to ensure aligned decision making across different planning units such as pricing, product, controlling and strategy. Given that platform data streams feature complex characteristics and interdependencies, we introduce a non-linear hierarchical forecast reconciliation method that produces cross-temporal reconciled forecasts in a direct and automated way through the use of popular machine learning methods. The method is sufficiently fast to allow forecast-based high-frequency decision making that platforms require. We empirically test our framework on a unique, large-scale streaming dataset from a leading on-demand delivery plat
-    
-[^6]: 多元回归不连续设计的局部多项式估计方法
-
-    Local-Polynomial Estimation for Multivariate Regression Discontinuity Designs
-
-    [https://arxiv.org/abs/2402.08941](https://arxiv.org/abs/2402.08941)
-
-    在多元回归不连续设计中，我们提出了一种多元局部多项式估计方法，能够处理多元设计并捕捉边界处的异质治疗效应。
+    这项研究提供了一个在异质性和合理忽视方面的模型，并证明它与受到注意成本约束的状态相关随机选择模型在观察上等效。通过条件概率的分析，揭示了如何确定协变量对商品可取性、福利、福利变化和反事实市场份额的影响。
 
     
 
-    我们引入了一个多元局部线性估计器，用于处理多元回归不连续设计中的治疗分配问题。现有的方法使用从边界点到欧氏距离作为标量运行变量，因此多元设计被处理为单变量设计。然而，距离运行变量与渐近有效性的假设不相容。我们将多元设计作为多元处理。在这项研究中，我们开发了一种针对多元局部多项式估计器的新型渐近正常性。我们的估计器是渐近有效的，并能捕捉边界处的异质治疗效应。通过数值模拟，我们证明了我们估计器的有效性。我们在哥伦比亚奖学金研究中的实证说明揭示了治疗效应的更丰富的异质性（包括其不存在）。
+    我提供了一个具有异质性的理性忽视模型，并证明它在观察上等同于一个依赖于状态的随机选择模型，受到注意成本的约束。我证明了不可观测异质性的可加性可分离以及独立性假设足以使经验模型具有代表性代理人。利用条件概率，我展示了如何识别：如何影响商品的可取性的协变量、（一种度量的）福利、福利的实际变化以及反事实市场份额的界限。
 
-    arXiv:2402.08941v1 Announce Type: new Abstract: We introduce a multivariate local-linear estimator for multivariate regression discontinuity designs in which treatment is assigned by crossing a boundary in the space of running variables. The dominant approach uses the Euclidean distance from a boundary point as the scalar running variable; hence, multivariate designs are handled as uni-variate designs. However, the distance running variable is incompatible with the assumption for asymptotic validity. We handle multivariate designs as multivariate. In this study, we develop a novel asymptotic normality for multivariate local-polynomial estimators. Our estimator is asymptotically valid and can capture heterogeneous treatment effects over the boundary. We demonstrate the effectiveness of our estimator through numerical simulations. Our empirical illustration of a Colombian scholarship study reveals a richer heterogeneity (including its absence) of the treatment effect that is hidden in th
+    arXiv:2402.09789v1 Announce Type: new  Abstract: I provide a model of rational inattention with heterogeneity and prove it is observationally equivalent to a state-dependent stochastic choice model subject to attention costs. I demonstrate that additive separability of unobservable heterogeneity, together with an independence assumption, suffice for the empirical model to admit a representative agent. Using conditional probabilities, I show how to identify: how covariates affect the desirability of goods, (a measure of) welfare, factual changes in welfare, and bounds on counterfactual market shares.
     
-[^7]: 时间偏好、财富和效用不平等：一种微观经济互动和动态宏观经济模型连接方法
+[^4]: 在不稳定环境中评估分位数格兰杰因果关系的新框架
 
-    Time preference, wealth and utility inequality: A microeconomic interaction and dynamic macroeconomic model connection approach
+    Quantile Granger Causality in the Presence of Instability
 
-    [https://arxiv.org/abs/2402.08905](https://arxiv.org/abs/2402.08905)
+    [https://arxiv.org/abs/2402.09744](https://arxiv.org/abs/2402.09744)
 
-    本研究通过将个体之间的互动与社会规范参考相连接，揭示了时间偏好对财富分配和不平等的影响。通过模型计算和实证分析，结果显示，个体之间的消费比较对财富不平等和效用产生显著影响。社会规范在一定程度上可以减缓这种影响。这个方法提供了一个新的框架，用于理解时间偏好在经济不平等中的作用。
-
-    
-
-    基于个体与他人的互动与对社会规范的参考，本研究揭示了时间偏好的异质性对财富分配和不平等的影响。我们提出了一种新颖的方法，将产生异质性的微观经济主体之间的互动与宏观经济模型中的资本和消费动态方程相连接。利用这种方法，我们估计了微观经济互动引起的折现率变化对资本、消费和效用以及不平等程度的影响。结果显示，与他人的消费比较显著影响资本，即财富不平等。此外，对效用的影响从未微小，并且社会规范可以减少这种影响。我们的支持证据显示，不平等计算的定量结果与队列和跨文化研究的调查数据相符。本研究的微观-宏观连接方法为理解时间偏好对经济不平等的影响提供了新的框架。
-
-    arXiv:2402.08905v1 Announce Type: new Abstract: Based on interactions between individuals and others and references to social norms, this study reveals the impact of heterogeneity in time preference on wealth distribution and inequality. We present a novel approach that connects the interactions between microeconomic agents that generate heterogeneity to the dynamic equations for capital and consumption in macroeconomic models. Using this approach, we estimate the impact of changes in the discount rate due to microeconomic interactions on capital, consumption and utility and the degree of inequality. The results show that intercomparisons with others regarding consumption significantly affect capital, i.e. wealth inequality. Furthermore, the impact on utility is never small and social norms can reduce this impact. Our supporting evidence shows that the quantitative results of inequality calculations correspond to survey data from cohort and cross-cultural studies. This study's micro-ma
-    
-[^8]: 一个算法公平性和准确性的推理
-
-    Inference for an Algorithmic Fairness-Accuracy Frontier
-
-    [https://arxiv.org/abs/2402.08879](https://arxiv.org/abs/2402.08879)
-
-    本文提供了一个算法公平性和准确性推理的方法。我们提出了一种一致的估计器，并进行了一些检验假设的推理。同时，我们还给出了一个估计器来计算一个给定算法与前沿上最公平点之间的距离，并描述了它的渐近性质。
+    我们提出了一种在不稳定环境中评估分位数格兰杰因果关系的新框架，该框架具有一致性、非平凡的功效和某些重要特殊情况下的中心性。蒙特卡洛模拟显示，所提出的检验统计量具有正确的经验大小和较高的功效，即使在没有结构性变化的情况下也是如此。两个实证应用进一步证明了我们方法的适用性。
 
     
 
-    决策过程越来越依赖于算法的使用。然而，算法的预测能力在人口的不同子群体中经常出现系统性变化。虽然公平性和准确性都是算法的期望特性，但它们常常是相互牺牲的。那么，当面对有限的数据时，一个注重公平性的决策者应该怎么做呢?在本文中，我们为Liang，Lu和Mu（2023）提出的一个理论公平性-准确性前沿提供了一致的估计器，并提出了检验假设的推理方法。这些假设在公平性文献中引起了很多关注，例如(i)全面排除在算法训练中使用一个协变量是否是最优的，(ii)是否存在对现有算法更少歧视性的替代方案。我们还为给定算法与前沿上最公平点之间的距离提供了一个估计器，并描述了它的渐近性质。
+    我们提出了一种在不稳定环境中评估分位数格兰杰因果关系的新框架，该框架可以针对固定分位数或连续分位数水平进行评估。我们提出的检验统计量在固定备择假设下是一致的，对于局部备择假设具有非平凡的功效，并且在某些重要特殊情况下是中心的。此外，我们还展示了当渐近分布依赖于干扰参数时一种自举过程的有效性。蒙特卡洛模拟显示，所提出的检验统计量具有正确的经验大小和较高的功效，即使在没有结构性变化的情况下也是如此。最后，两个能源经济学和宏观经济学的实证应用突出了我们方法的适用性，因为新的检验提供了更强的格兰杰因果关系证据。
 
-    arXiv:2402.08879v1 Announce Type: cross Abstract: Decision-making processes increasingly rely on the use of algorithms. Yet, algorithms' predictive ability frequently exhibit systematic variation across subgroups of the population. While both fairness and accuracy are desirable properties of an algorithm, they often come at the cost of one another. What should a fairness-minded policymaker do then, when confronted with finite data? In this paper, we provide a consistent estimator for a theoretical fairness-accuracy frontier put forward by Liang, Lu and Mu (2023) and propose inference methods to test hypotheses that have received much attention in the fairness literature, such as (i) whether fully excluding a covariate from use in training the algorithm is optimal and (ii) whether there are less discriminatory alternatives to an existing algorithm. We also provide an estimator for the distance between a given algorithm and the fairest point on the frontier, and characterize its asymptot
+    arXiv:2402.09744v1 Announce Type: new  Abstract: We propose a new framework for assessing Granger causality in quantiles in unstable environments, for a fixed quantile or over a continuum of quantile levels. Our proposed test statistics are consistent against fixed alternatives, they have nontrivial power against local alternatives, and they are pivotal in certain important special cases. In addition, we show the validity of a bootstrap procedure when asymptotic distributions depend on nuisance parameters. Monte Carlo simulations reveal that the proposed test statistics have correct empirical size and high power, even in absence of structural breaks. Finally, two empirical applications in energy economics and macroeconomics highlight the applicability of our method as the new tests provide stronger evidence of Granger causality.
     
-[^9]: 公平筛选
+[^5]: 说服一位学习代理
 
-    Equitable screening
+    Persuading a Learning Agent
 
-    [https://arxiv.org/abs/2402.08781](https://arxiv.org/abs/2402.08781)
+    [https://arxiv.org/abs/2402.09721](https://arxiv.org/abs/2402.09721)
 
-    这项研究探讨了政府在考虑公平性的情况下提供福利并进行筛选的问题。研究结果表明，虽然政府无法通过单一工具进行公平筛选，但通过结合多种工具，可以实现筛选并产生公平的分配。
-
-    
-
-    我研究了政府在考虑结果分配的公平性时提供福利的问题。这些关注通过公平性限制来建模，要求应该平等地给予平等值得的代理人分配。我研究了哪些筛选形式与公平相容，并展示了虽然政府无法通过单一工具（如支付或等待时间）进行公平筛选，但将多个工具结合起来，这些工具本身就有利于不同的群体，可以实现筛选同时产生公平的分配。
-
-    arXiv:2402.08781v1 Announce Type: new Abstract: I study the problem of a government providing benefits while considering the perceived equity of the resulting allocation. Such concerns are modeled through an equity constraint requiring that equally deserving agents receive equal allocations. I ask what forms of screening are compatible with equity and show that while the government cannot equitably screen with a single instrument (e.g. payments or wait times), combining multiple instruments, which on their own favor different groups, allows it to screen while still producing an equitable allocation.
-    
-[^10]: LLM驱动的模拟亚理性行为：幻觉还是现实？
-
-    LLM-driven Imitation of Subrational Behavior : Illusion or Reality?
-
-    [https://arxiv.org/abs/2402.08755](https://arxiv.org/abs/2402.08755)
-
-    本文探讨了使用LLMs生成合成人类演示的方法，然后通过模仿学习来学习亚理性代理策略，从而模拟亚理性行为，并为我们理解人类行为提供了改进的可能性。
+    在一个重复的贝叶斯说服问题中，即使没有承诺能力，委托人可以通过使用上下文无遗憾学习算法来实现与经典无学习模型中具有承诺的委托人的最优效用无限接近的效果；在代理人使用上下文无交换遗憾学习算法的情况下，委托人无法获得比具有承诺的无学习模型中的最优效用更高的效用。
 
     
 
-    建模亚理性代理，如人类或经济家庭，由于校准强化学习模型的困难或收集涉及人类主体的数据的难度而具有挑战性。现有研究强调了大型语言模型（LLMs）解决复杂推理任务和模仿人类交流的能力，而使用LLMs作为代理进行模拟显示出出现的社交行为，可能提高我们对人类行为的理解。在本文中，我们提议研究使用LLMs生成合成的人类演示，然后通过模仿学习来学习亚理性代理策略。我们假设LLMs可以用作人类的隐式计算模型，并提出了一个框架，使用从LLMs派生的合成演示来建模人类特有的亚理性行为（例如，目光短浅的行为或对风险规避的偏好）。我们进行了实验证明:
+    我们研究了一个重复的贝叶斯说服问题（更一般地，任何具有完全信息的广义委托-代理问题），其中委托人没有承诺能力，代理人使用算法来学习如何对委托人的信号做出响应。我们将这个问题简化为一个一次性的广义委托-代理问题，代理人近似地最佳响应。通过这个简化，我们可以证明：如果代理人使用上下文无遗憾学习算法，则委托人可以保证其效用与经典无学习模型中具有承诺的委托人的最优效用之间可以无限接近；如果代理人使用上下文无交换遗憾学习算法，则委托人无法获得比具有承诺的无学习模型中的最优效用更高的效用。委托人在学习模型与非学习模型中可以获得的效用之间的差距是有界的。
 
-    arXiv:2402.08755v1 Announce Type: new Abstract: Modeling subrational agents, such as humans or economic households, is inherently challenging due to the difficulty in calibrating reinforcement learning models or collecting data that involves human subjects. Existing work highlights the ability of Large Language Models (LLMs) to address complex reasoning tasks and mimic human communication, while simulation using LLMs as agents shows emergent social behaviors, potentially improving our comprehension of human conduct. In this paper, we propose to investigate the use of LLMs to generate synthetic human demonstrations, which are then used to learn subrational agent policies though Imitation Learning. We make an assumption that LLMs can be used as implicit computational models of humans, and propose a framework to use synthetic demonstrations derived from LLMs to model subrational behaviors that are characteristic of humans (e.g., myopic behavior or preference for risk aversion). We experim
+    arXiv:2402.09721v1 Announce Type: cross  Abstract: We study a repeated Bayesian persuasion problem (and more generally, any generalized principal-agent problem with complete information) where the principal does not have commitment power and the agent uses algorithms to learn to respond to the principal's signals. We reduce this problem to a one-shot generalized principal-agent problem with an approximately-best-responding agent. This reduction allows us to show that: if the agent uses contextual no-regret learning algorithms, then the principal can guarantee a utility that is arbitrarily close to the principal's optimal utility in the classic non-learning model with commitment; if the agent uses contextual no-swap-regret learning algorithms, then the principal cannot obtain any utility significantly more than the optimal utility in the non-learning model with commitment. The difference between the principal's obtainable utility in the learning model and the non-learning model is bound
     
-[^11]: 激励感知合成对照方法：通过激励探索进行准确的反事实估计
+[^6]: 关于三层数据市场的研究
 
-    Incentive-Aware Synthetic Control: Accurate Counterfactual Estimation via Incentivized Exploration
+    On Three-Layer Data Markets
 
-    [https://arxiv.org/abs/2312.16307](https://arxiv.org/abs/2312.16307)
+    [https://arxiv.org/abs/2402.09697](https://arxiv.org/abs/2402.09697)
 
-    本论文提出了一种为了解决合成对照方法中"重叠"假设的问题的激励感知合成对照方法。该方法通过激励单位采取通常不会考虑的干预措施，提供与激励相容的干预建议，从而实现在面板数据环境中准确估计反事实效果。
-
-    
-
-    我们考虑合成对照方法（SCMs）的设定，这是一种在面板数据环境中估计被治疗对象的治疗效应的经典方法。我们揭示了SCMs中经常被忽视但普遍存在的“重叠”假设：一个被治疗的单位可以被写成保持控制的单位的某种组合（通常是凸或线性组合）。我们展示了如果单位选择自己的干预措施，并且单位之间的异质性足够大，以至于他们偏好不同的干预措施，重叠将不成立。为了解决这个问题，我们提出了一个框架，通过激励具有不同偏好的单位来采取他们通常不会考虑的干预措施。具体来说，我们利用信息设计和在线学习的工具，提出了一种SCM，通过为单位提供与激励相容的干预建议，在面板数据环境中激励探索。
-
-    arXiv:2312.16307v2 Announce Type: replace-cross Abstract: We consider the setting of synthetic control methods (SCMs), a canonical approach used to estimate the treatment effect on the treated in a panel data setting. We shed light on a frequently overlooked but ubiquitous assumption made in SCMs of "overlap": a treated unit can be written as some combination -- typically, convex or linear combination -- of the units that remain under control. We show that if units select their own interventions, and there is sufficiently large heterogeneity between units that prefer different interventions, overlap will not hold. We address this issue by proposing a framework which incentivizes units with different preferences to take interventions they would not normally consider. Specifically, leveraging tools from information design and online learning, we propose a SCM that incentivizes exploration in panel data settings by providing incentive-compatible intervention recommendations to units. We e
-    
-[^12]: 关于连通且强比例切蛋糕的研究
-
-    On Connected Strongly-Proportional Cake-Cutting
-
-    [https://arxiv.org/abs/2312.15326](https://arxiv.org/abs/2312.15326)
-
-    该论文研究了一种公平划分可划分异质资源的问题，即蛋糕切分。该论文确定了存在一种连通的强比例切分方式，并提供了相应的算法和简单刻画。
+    这篇论文研究了一个三层数据市场，其中用户通过与平台共享数据来获得服务，但会产生隐私损失。研究发现，当购买方对用户数据的价值较高时，所有平台都向用户提供服务，而当购买方对用户数据的价值较低时，只有低成本的大型平台能够服务用户。
 
     
 
-    我们研究了在一组代理人中如何公平地分配可划分的异质资源，也称为蛋糕。我们确定了存在着一种分配方式，每个代理人都会收到一个价值严格超过他们比例份额的连续部分，也称为*强比例分配*。我们提出了一个算法，可以使用最多$n \cdot 2^{n-1}$个查询来确定是否存在一个连通的强比例分配。对于具有严格正估值的代理人，我们提供了一个更简单的刻画，并且证明了确定是否存在一个连通的强比例分配所需的查询数量是$\Theta(n^2)$。我们的证明是构造性的，并且当存在时，给出了一个连通的强比例分配，使用了类似数量的查询。
+    我们研究了一个由用户（数据所有者）、平台和数据购买方组成的三层数据市场。每个用户通过共享数据获得平台服务，当他们的数据与购买方共享时，会发生隐私损失，尽管以噪声形式共享。用户选择与哪些平台分享数据，而平台在出售给购买方之前决定数据的噪声水平和定价。购买方选择从哪些平台购买数据。我们通过多阶段博弈模型来描述这些互动，重点研究子博弈纳什均衡。我们发现，当购买方对用户数据的价值较高（平台能够获取高价格）时，所有平台都向用户提供服务，并且用户加入并与每个平台分享数据。相反，当购买方对用户数据的估值较低时，只有低成本的大型平台能够为用户提供服务。在这种情况下，用户只加入并与这些低成本平台分享数据。有趣的是，增加平台数量会增加用户参与的意愿，但也会提高平台之间的竞争。
 
-    arXiv:2312.15326v2 Announce Type: replace-cross Abstract: We investigate the problem of fairly dividing a divisible heterogeneous resource, also known as a cake, among a set of agents. We characterize the existence of an allocation in which every agent receives a contiguous piece worth strictly more than their proportional share, also known as a *strongly-proportional allocation*. The characterization is supplemented with an algorithm that determines the existence of a connected strongly-proportional allocation using at most $n \cdot 2^{n-1}$ queries. We provide a simpler characterization for agents with strictly positive valuations, and show that the number of queries required to determine the existence of a connected strongly-proportional allocation is in $\Theta(n^2)$. Our proofs are constructive and yield a connected strongly-proportional allocation, when it exists, using a similar number of queries.
+    arXiv:2402.09697v1 Announce Type: new  Abstract: We study a three-layer data market comprising users (data owners), platforms, and a data buyer. Each user benefits from platform services in exchange for data, incurring privacy loss when their data, albeit noisily, is shared with the buyer. The user chooses platforms to share data with, while platforms decide on data noise levels and pricing before selling to the buyer. The buyer selects platforms to purchase data from. We model these interactions via a multi-stage game, focusing on the subgame Nash equilibrium. We find that when the buyer places a high value on user data (and platforms can command high prices), all platforms offer services to the user who joins and shares data with every platform. Conversely, when the buyer's valuation of user data is low, only large platforms with low service costs can afford to serve users. In this scenario, users exclusively join and share data with these low-cost platforms. Interestingly, increased
     
-[^13]: 通过模拟进行算法性劝导
+[^7]: ABIDES-Economist: 具有学习代理的经济系统的基于代理的模拟
 
-    Algorithmic Persuasion Through Simulation
+    ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents
 
-    [https://arxiv.org/abs/2311.18138](https://arxiv.org/abs/2311.18138)
+    [https://arxiv.org/abs/2402.09563](https://arxiv.org/abs/2402.09563)
 
-    通过模拟接收者行为的贝叶斯劝导问题中，发送者设计了一个最优消息策略并设计了一个多项式时间查询算法，以优化其预期效用。
-
-    
-
-    我们研究了一个贝叶斯劝导问题，其中发送者希望说服接收者采取二元行为，例如购买产品。发送者了解世界的（二元）状态，比如产品质量是高还是低，但是对接收者的信念和效用只有有限的信息。受到客户调查、用户研究和生成式人工智能的最新进展的启发，我们允许发送者通过查询模拟接收者的行为来了解更多关于接收者的信息。在固定数量的查询之后，发送者承诺一个消息策略，接收者根据收到的消息来最大化她的预期效用来采取行动。我们对发送者在任何接收者类型分布下的最优消息策略进行了表征。然后，我们设计了一个多项式时间查询算法，优化了这个贝叶斯劝导游戏中发送者的预期效用。
-
-    arXiv:2311.18138v2 Announce Type: replace-cross Abstract: We study a Bayesian persuasion problem where a sender wants to persuade a receiver to take a binary action, such as purchasing a product. The sender is informed about the (binary) state of the world, such as whether the quality of the product is high or low, but only has limited information about the receiver's beliefs and utilities. Motivated by customer surveys, user studies, and recent advances in generative AI, we allow the sender to learn more about the receiver by querying an oracle that simulates the receiver's behavior. After a fixed number of queries, the sender commits to a messaging policy and the receiver takes the action that maximizes her expected utility given the message she receives. We characterize the sender's optimal messaging policy given any distribution over receiver types. We then design a polynomial-time querying algorithm that optimizes the sender's expected utility in this Bayesian persuasion game. We 
-    
-[^14]: 具有探索的鲁棒合同
-
-    Robust Contracts with Exploration
-
-    [https://arxiv.org/abs/2212.00157](https://arxiv.org/abs/2212.00157)
-
-    本文研究了具有探索的鲁棒合同问题，分析了委托人与代理人签订合同时的道德风险，并找到了在具有探索的动态环境中稳健最优的线性合同。
+    ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。
 
     
 
-    我们研究了一个两期的道德风险问题；有两个代理人，其行动集对于委托人来说是未知的。委托人依次与每个代理人签订合同，并寻求最大化最坏情况下的折现收益总和，最坏情况是在可能的行动集上进行考虑。委托人观察第一个代理人选择的行动，然后根据这个知识向第二个代理人提供一个新的合同，从而有机会在第一期进行探索。我们引入并比较了三种不同的动态最坏情况考虑方式。在每种观点中，我们定义了一种合适的更新规则，并描述了委托人的最优收益保证。我们发现线性合同不仅在静态环境下是稳健最优的，而且在具有探索的动态环境中也是稳健最优的。
+    我们介绍了一个多智能体模拟器，用于由异质家庭、异质公司、中央银行和政府代理组成的经济系统，该系统可以受到外生的随机冲击。代理之间的互动定义了经济中商品的生产和消费以及资金的流动。每个代理可以根据固定的、规则性的策略行动，也可以通过与模拟器中其他代理的互动来学习自己的策略。我们通过选择基于经济文献的代理异质性参数，并将其行动空间设计与美国的实际数据相一致，来使我们的模拟器具备现实基础。我们的模拟器通过为经济系统定义 OpenAI Gym 风格的环境，促进了代理使用强化学习策略的能力。通过模拟和分析两种假设的（但有趣的）经济情景，我们展示了我们模拟器的实用性。
 
-    arXiv:2212.00157v2 Announce Type: replace Abstract: We study a two-period moral hazard problem; there are two agents, with action sets that are unknown to the principal. The principal contracts with each agent sequentially, and seeks to maximize the worst-case discounted sum of payoffs, where the worst case is over the possible action sets. The principal observes the action chosen by the first agent, and then offers a new contract to the second agent based on this knowledge, thus having the opportunity to explore in the first period. We introduce and compare three different notions of dynamic worst-case considerations. Within each notion, we define a suitable rule of updating and characterize the principal's optimal payoff guarantee. We find that linear contracts are robustly optimal not only in static settings, but also in dynamic environments with exploration.
+    arXiv:2402.09563v1 Announce Type: cross  Abstract: We introduce a multi-agent simulator for economic systems comprised of heterogeneous Households, heterogeneous Firms, Central Bank and Government agents, that could be subjected to exogenous, stochastic shocks. The interaction between agents defines the production and consumption of goods in the economy alongside the flow of money. Each agent can be designed to act according to fixed, rule-based strategies or learn their strategies using interactions with others in the simulator. We ground our simulator by choosing agent heterogeneity parameters based on economic literature, while designing their action spaces in accordance with real data in the United States. Our simulator facilitates the use of reinforcement learning strategies for the agents via an OpenAI Gym style environment definition for the economic system. We demonstrate the utility of our simulator by simulating and analyzing two hypothetical (yet interesting) economic scenar
     
-[^15]: 广义委托代理：合同、信息、博弈及更多内容
+[^8]: 降低芬兰违反限速的激励的博弈论方法
 
-    Generalized Principal-Agency: Contracts, Information, Games and Beyond
+    A game theoretic approach to lowering incentives to violate speed limits in Finland
 
-    [https://arxiv.org/abs/2209.01146](https://arxiv.org/abs/2209.01146)
+    [https://arxiv.org/abs/2402.09556](https://arxiv.org/abs/2402.09556)
 
-    这篇论文将Myerson的委托代理问题推广到一个更一般的情景，给出了一种多项式时间算法来计算委托人的最优机制，从而同时解决了合同设计、信息设计和贝叶斯Stackelberg博弈等多个设计问题。
-
-    
-
-    在Myerson'82提出的委托代理问题中，代理人拥有私人信息（类型）并做出私人决策（行动），这两者对于委托人来说都是不可观察的。Myerson提出了一种基于启示原则的优雅线性规划解决方案。本文将Myerson的结果推广到一个更一般的情景，其中委托人的行动空间可以是无限的，并受到额外的设计限制。我们的广义委托代理模型将合同设计、信息设计和贝叶斯Stackelberg博弈等几个重要设计问题统一起来，并将它们作为特殊情况。我们首先将启示原则扩展到这个广义模型上，然后基于此导出了用于计算委托人的最优机制的多项式时间算法。该算法不仅同时为所有上述特殊情况提供了新的高效解决方案，而且还...
-
-    arXiv:2209.01146v2 Announce Type: replace-cross Abstract: In the principal-agent problem formulated by Myerson'82, agents have private information (type) and make private decisions (action), both of which are unobservable to the principal. Myerson pointed out an elegant linear programming solution that relies on the revelation principle. This paper extends Myerson's results to a more general setting where the principal's action space can be infinite and subject to additional design constraints.   Our generalized principal-agent model unifies several important design problems including contract design, information design, and Bayesian Stackelberg games, and encompasses them as special cases. We first extend the revelation principle to this general model, based on which a polynomial-time algorithm is then derived for computing the optimal mechanism for the principal. This algorithm not only implies new efficient solutions simultaneously for all the aforementioned special cases but also s
-    
-[^16]: 数量中的安全性。
-
-    Safety, in Numbers. (arXiv:2310.17517v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.17517](http://arxiv.org/abs/2310.17517)
-
-    我们提出了一种比较决策问题中行动的方法，即通过决策者的风险厌恶程度来确定哪个行动更安全。我们对这种关系进行了完整的刻画，并讨论了其在鲁棒信念引出、合约、贝叶斯博弈和投资对冲等领域的应用。
+    本论文通过使用无限重复博弈模型，并采用子博弈完美均衡策略配置作为解决概念，提出了一种胡萝卜和棍子的方法来降低违反芬兰限速规定的激励，并在短期重复博弈中构建了一个纳什均衡策略配置。
 
     
 
-    我们引入了一种比较决策问题中行动的方法。如果在决策者变得更加风险厌恶的情况下，决策者更喜欢更安全的行动的信念集增大（以集合包含关系为定义），那么这个行动就比另一个行动更安全。我们对这种关系进行了完整的刻画，并讨论了在鲁棒信念引出、合约、贝叶斯博弈、投资对冲等方面的应用。
+    我们通过讨论一个无限重复博弈模型来扩展之前的研究，该模型以子博弈完美均衡策略配置（SPE）作为解决概念，以胡萝卜和棍子的方式降低违反限速的激励。在构建SPE策略配置时，选择初始状态使得驾驶员采取混合策略，而警察不以确定性执行。我们还假设了一个短期版本的重复博弈，该博弈具有广义阶段博弈的回报。对于这个博弈，我们构建了一个多阶段策略配置，它是一个纳什均衡但不是SPE。通过展示某些解的候选者不满足一个必要条件，即在完全信息的重复博弈中满足一次性偏离属性，排除了一些解。
 
-    We introduce a way to compare actions in decision problems. An action is safer than another if the set of beliefs at which the decision-maker prefers the safer action increases in size (in the set inclusion sense) as the decision-maker becomes more risk averse. We provide a full characterization of this relation and discuss applications to robust belief elicitation, contracting, Bayesian persuasion, game theory, and investment hedging.
+    arXiv:2402.09556v1 Announce Type: new  Abstract: We expand on earlier research on the topic by discussing an infinitely repeated game model with a subgame perfect equilibrium strategy profile (SPE) as a solution concept that diminishes incentives to violate speed limits in a carrot and stick fashion. In attempts to construct an SPE strategy profile, the initial state is chosen such that the drivers are playing a mixed strategy whereas the police is not enforcing with certainty. We also postulate a short period version of the repeated game with generalized stage game payoffs. For this game, we construct a multistage strategy profile that is a Nash equilibrium but not an SPE. Some solution candidates are excluded by showing that they do not satisfy a one shot deviation property that is a necessary condition for an SPE profile in a repeated game of perfect information.
     
-[^17]: 承诺与家庭劳动力供给的动态。 (arXiv:2307.10983v1 [econ.GN])
+[^9]: 理性报告卡：评估大型语言模型的经济合理性
 
-    Commitment and the Dynamics of Household Labor Supply. (arXiv:2307.10983v1 [econ.GN])
+    Rationality Report Cards: Assessing the Economic Rationality of Large Language Models
 
-    [http://arxiv.org/abs/2307.10983](http://arxiv.org/abs/2307.10983)
+    [https://arxiv.org/abs/2402.09552](https://arxiv.org/abs/2402.09552)
 
-    本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。
-
-    
-
-    个体对伴侣的承诺程度对社会有重要影响。本文通过发展一个家庭的生命周期集体模型，描述了三种不同类型的承诺：全面承诺、有限承诺和无承诺。我们提出了一种测试方法，通过观察当下和历史消息对家庭行为的影响来区分这三种类型。我们的测试允许家庭之间承诺程度的异质性。使用最近的“收入动态面板研究”数据，我们拒绝了全面承诺和无承诺，同时找到了有限承诺的强有力证据。
-
-    The extent to which individuals commit to their partner for life has important implications. This paper develops a lifecycle collective model of the household, through which it characterizes behavior in three prominent alternative types of commitment: full, limited, and no commitment. We propose a test that distinguishes between all three types based on how contemporaneous and historical news affect household behavior. Our test permits heterogeneity in the degree of commitment across households. Using recent data from the Panel Study of Income Dynamics, we reject full and no commitment, while we find strong evidence for limited commitment.
-    
-[^18]: 有限知识下n人博弈的人类与机器智能
-
-    Human and Machine Intelligence in n-Person Games with Partial Knowledge. (arXiv:2302.13937v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2302.13937](http://arxiv.org/abs/2302.13937)
-
-    提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。
+    本文在评估大型语言模型的经济合理性方面提出了一种方法，通过量化评分模型在各个要素上的表现并结合用户提供的评分标准，生成一份"理性报告卡"，以确定代理人是否足够可靠。
 
     
 
-    本文提出了一个新的框架——有限知识下的n人博弈，其中玩家只对游戏的某些方面（包括行动、结果和其他玩家）有限的了解。为了分析这些游戏，我介绍了一组新的概念和机制，重点关注人类和机器决策之间的相互作用。具体而言，我引入了两个主要概念：第一个是“游戏智能”（GI）机制，它通过考虑参考机器智能下的“错误”，不仅仅是游戏的结果，量化了玩家在游戏中展示出的智能。第二个是“防作弊性”，这是一种实用的、可计算的策略无关性的概念。GI机制提供了一种实用的方法来评估玩家，可以潜在地应用于从在线游戏到现实生活决策的各种游戏。
+    越来越多的人对将LLM用作决策"代理人"兴趣日益增加。这包括很多自由度：应该使用哪个模型；如何进行提示；是否要求其进行内省、进行思考链等。解决这些问题（更广泛地说，确定LLM代理人是否足够可靠以便获得信任）需要一种评估这种代理人经济合理性的方法论，在本文中我们提供了一个方法。我们首先对理性决策的经济文献进行了调研、将代理人应该展现的大量细粒度"要素"进行分类，并确定了它们之间的依赖关系。然后，我们提出了一个基准分布，以定量评分LLM在这些要素上的表现，并结合用户提供的评分标准，生成一份"理性报告卡"。最后，我们描述了与14种不同的LLM进行的大规模实证实验的结果。
 
-    In this note, I introduce a new framework called n-person games with partial knowledge, in which players have only limited knowledge about the aspects of the game -- including actions, outcomes, and other players. For example, playing an actual game of chess is a game of partial knowledge. To analyze these games, I introduce a set of new concepts and mechanisms for measuring the intelligence of players, with a focus on the interplay between human- and machine-based decision-making. Specifically, I introduce two main concepts: firstly, the Game Intelligence (GI) mechanism, which quantifies a player's demonstrated intelligence in a game by considering not only the game's outcome but also the "mistakes" made during the game according to the reference machine's intelligence. Secondly, I define gaming-proofness, a practical and computational concept of strategy-proofness. The GI mechanism provides a practicable way to assess players and can potentially be applied to a wide range of games, f
+    arXiv:2402.09552v1 Announce Type: new  Abstract: There is increasing interest in using LLMs as decision-making "agents." Doing so includes many degrees of freedom: which model should be used; how should it be prompted; should it be asked to introspect, conduct chain-of-thought reasoning, etc? Settling these questions -- and more broadly, determining whether an LLM agent is reliable enough to be trusted -- requires a methodology for assessing such an agent's economic rationality. In this paper, we provide one. We begin by surveying the economic literature on rational decision making, taxonomizing a large set of fine-grained "elements" that an agent should exhibit, along with dependencies between them. We then propose a benchmark distribution that quantitatively scores an LLMs performance on these elements and, combined with a user-provided rubric, produces a "rationality report card." Finally, we describe the results of a large-scale empirical experiment with 14 different LLMs, characte
+    
+[^10]: 私有监测和通信下重复博弈的均一严格均衡
+
+    Uniformly Strict Equilibrium for Repeated Games with Private Monitoring and Communication
+
+    [https://arxiv.org/abs/2311.12242](https://arxiv.org/abs/2311.12242)
+
+    本研究通过私有监测和直接通信探讨了重复博弈中的均一严格均衡，对民间定理的条件进行了界定。
+
+    
+
+    合作通过重复是博弈论中一个重要的主题。在这方面，已经提出了越来越复杂环境中重复博弈的各种著名的“民间定理”。然而，对于这些民间定理所需的一大组均衡的鲁棒性没有足够的关注。从完美公共均衡作为出发点，我们研究了私有监测和直接通信（廉价谈话）下重复博弈中的均一严格均衡。我们刻画了极限均衡冠军集并确定了民间定理成立的条件。
+
+    arXiv:2311.12242v2 Announce Type: replace  Abstract: Cooperation through repetition is an important theme in game theory. In this regard, various celebrated ``folk theorems'' have been proposed for repeated games in increasingly more complex environments. There has, however, been insufficient attention paid to the robustness of a large set of equilibria that is needed for such folk theorems. Starting with perfect public equilibrium as our starting point, we study uniformly strict equilibria in repeated games with private monitoring and direct communication (cheap talk). We characterize the limit equilibrium payoff set and identify the conditions for the folk theorem to hold with uniformly strict equilibrium.
+    
+[^11]: 密度加权平均导数估计器的高阶细化小带宽渐近性质
+
+    Higher-order Refinements of Small Bandwidth Asymptotics for Density-Weighted Average Derivative Estimators
+
+    [https://arxiv.org/abs/2301.00277](https://arxiv.org/abs/2301.00277)
+
+    这篇论文研究了密度加权平均导数估计器的高阶细化小带宽渐近性质，提供了一种更一般的分布近似方法，该方法在带宽选择方面更鲁棒，并在模拟中表现出优秀的有限样本性能。
+
+    
+
+    经济学中，回归函数的密度加权平均导数（DWAD）是一个重要的典型参数。基于核函数的DWAD估计器的经典一阶大样本分布理论依赖于调参参数的限制和模型假设，这些条件意味着点估计的渐近线性表示。这些条件可能比较苛刻，由此得到的分布近似可能无法代表所关注统计量的实际抽样分布。特别地，该近似对带宽选择不具有鲁棒性。小带宽渐近性质为基于核函数的DWAD估计器提供了另一种更一般的分布近似，它允许但不要求渐近线性性质。基于小带宽渐近性质的推断步骤在模拟中表现出良好的有限样本性能，但目前尚缺乏正式的理论证明。
+
+    arXiv:2301.00277v2 Announce Type: replace  Abstract: The density weighted average derivative (DWAD) of a regression function is a canonical parameter of interest in economics. Classical first-order large sample distribution theory for kernel-based DWAD estimators relies on tuning parameter restrictions and model assumptions that imply an asymptotic linear representation of the point estimator. These conditions can be restrictive, and the resulting distributional approximation may not be representative of the actual sampling distribution of the statistic of interest. In particular, the approximation is not robust to bandwidth choice. Small bandwidth asymptotics offers an alternative, more general distributional approximation for kernel-based DWAD estimators that allows for, but does not require, asymptotic linearity. The resulting inference procedures based on small bandwidth asymptotics were found to exhibit superior finite sample performance in simulations, but no formal theory justif
+    
+[^12]: 线性回归中的污染偏差
+
+    Contamination Bias in Linear Regressions
+
+    [https://arxiv.org/abs/2106.05024](https://arxiv.org/abs/2106.05024)
+
+    我们发现在回归分析中，多个处理和灵活控制组往往无法精确估计凸复合平均值的异质处理效应，而是受到其他处理效应的非凸复合平均值的污染。然而，我们提出了三种避免这种污染偏差的估计方法。重新分析九个实证应用还发现观察研究中存在经济上和统计上显著的污染偏差，而实验研究中的污染偏差则更加有限。
+
+    
+
+    我们研究了具有多个处理和灵活控制组的回归分析，以消除遗漏变量偏差。我们发现这些回归通常无法估计异质处理效应的凸复合平均值-相反，每个处理效应的估计都受到其他处理效应的非凸复合平均值的污染。我们讨论了三种避免此类污染偏差的估计方法，包括针对最容易估计的加权平均效应的定向方法。对九个实证应用的重新分析发现观察研究中存在经济上和统计上有意义的污染偏差；由于特有效应的异质性，实验研究中的污染偏差更为有限。
+
+    arXiv:2106.05024v4 Announce Type: replace  Abstract: We study regressions with multiple treatments and a set of controls that is flexible enough to purge omitted variable bias. We show that these regressions generally fail to estimate convex averages of heterogeneous treatment effects -- instead, estimates of each treatment's effect are contaminated by non-convex averages of the effects of other treatments. We discuss three estimation approaches that avoid such contamination bias, including the targeting of easiest-to-estimate weighted average effects. A re-analysis of nine empirical applications finds economically and statistically meaningful contamination bias in observational studies; contamination bias in experimental studies is more limited due to idiosyncratic effect heterogeneity.
+    
+[^13]: 多状态风险分享中的个体和集体福利
+
+    Individual and Collective Welfare in Risk Sharing with Many States. (arXiv:2401.07337v1 [econ.TH])
+
+    [http://arxiv.org/abs/2401.07337](http://arxiv.org/abs/2401.07337)
+
+    在多状态的风险分享中，我们定量评估了福利，并证明了随着状态数增加，改善个体福利的空间消失，分配给改进聚合资源的范围也消失，并且在低效分配中，通过扰动聚合资源来增强福利的可能性随状态数的指数增加而变为零，同时，某些先验概率集随着状态空间的大小而缩小。
+
+    
+
+    我们对风险分享和不确定性下的经典模型中的福利进行了定量评估。我们证明了三种结果。首先，在均衡分配中，通过给定的边际提高个体福利（ε-提高）的空间随着状态数的增加而消失。其次，为了提高个体福利，分配给改进聚合资源的范围也消失。等价地说：在低效分配中，对于给定水平的资源次优化（根据资源未充分利用的系数度量），通过扰动聚合资源来增强福利的可能性随状态数的指数增加而变为零。最后，我们考虑了具有多个先验概率的标准不确定性规避中的高效风险分享，并显示在低效分配中，某些先验概率集随着状态空间的大小而缩小。
+
+    We provide a quantitative assessment of welfare in the classical model of risk-sharing and exchange under uncertainty. We prove three kinds of results. First, that in an equilibrium allocation, the scope for improving individual welfare by a given margin (an $\ve$-improvement) vanishes as the number of states increases. Second, that the scope for a change in aggregate resources that may be distributed to enhance individual welfare by a given margin also vanishes. Equivalently: in an inefficient allocation, for a given level of resource sub-optimality (as measured by the coefficient of resource under-utilization), the possibilities for enhancing welfare by perturbing aggregate resources decrease exponentially to zero with the number of states. Finally, we consider efficient risk-sharing in standard models of uncertainty aversion with multiple priors, and show that, in an inefficient allocation, certain sets of priors shrink with the size of the state space.
+    
+[^14]: 实现基于分层深度学习的多层次拍卖数据模拟方法
+
+    Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data. (arXiv:2207.12255v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2207.12255](http://arxiv.org/abs/2207.12255)
+
+    我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。
+
+    
+
+    我们提出了一种深度学习解决方案，以应对模拟现实合理的合同拍卖数据所遇到的挑战。这种类型的拍卖数据所遇到的复杂性包括高基数离散特征空间和由与单个拍卖实例相关联的多个出价引起的多层级结构。我们的方法将深度生成建模（DGM）与预测基于拍卖特征的条件出价分布的人工学习器相结合，为模拟性研究的进展做出贡献。这种方法为创建适用于代理学习和建模应用的真实拍卖环境奠定了基础。我们的贡献有两个方面：我们引入了一种综合的方法来模拟多层次离散拍卖数据，我们强调了DGM作为优化模拟技术和促进基于生成型人工智能的经济模型发展的有力工具的潜力。
+
+    We present a deep learning solution to address the challenges of simulating realistic synthetic first-price sealed-bid auction data. The complexities encountered in this type of auction data include high-cardinality discrete feature spaces and a multilevel structure arising from multiple bids associated with a single auction instance. Our methodology combines deep generative modeling (DGM) with an artificial learner that predicts the conditional bid distribution based on auction characteristics, contributing to advancements in simulation-based research. This approach lays the groundwork for creating realistic auction environments suitable for agent-based learning and modeling applications. Our contribution is twofold: we introduce a comprehensive methodology for simulating multilevel discrete auction data, and we underscore the potential of DGM as a powerful instrument for refining simulation techniques and fostering the development of economic models grounded in generative AI.
     
 

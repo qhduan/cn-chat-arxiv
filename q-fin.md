@@ -2,120 +2,105 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Extended mean-field games with multi-dimensional singular controls and non-linear jump impact](https://arxiv.org/abs/2402.09317) | 这篇论文提出了一个概率框架，用于分析具有多维奇异控制和状态相关跳跃动力学和成本的扩展均场博弈。通过限制可接受的奇异控制的集合为可由连续控制逼近的控制，解决了状态动力学不连续和奖励函数不下半连续的问题。同时引入了一类参数化的均场博弈来处理连续性缺失问题。 |
-| [^2] | [Exact simulation scheme for the Ornstein-Uhlenbeck driven stochastic volatility model with the Karhunen-Lo\`eve expansions](https://arxiv.org/abs/2402.09243) | 本研究提出了一种新的精确模拟方案，可以更快地模拟Ornstein-Uhlenbeck驱动的随机波动率模型。使用Karhunen-Loève展开来表示波动率路径，并通过解析推导的方式获得了波动率和方差的时间积分。通过采用条件蒙特卡洛方法和保持鞅性的控制变量来进一步改进模拟算法。这一方法比现有方法更快速且更高效。 |
-| [^3] | [The Boosted Difference of Convex Functions Algorithm for Value-at-Risk Constrained Portfolio Optimization](https://arxiv.org/abs/2402.09194) | 本文提出了一种基于凸函数差分和线搜索的算法（BDCA），用于解决线性优化问题，并且证明了其收敛性和其他特性。 |
-| [^4] | [Optimal Automated Market Makers: Differentiable Economics and Strong Duality](https://arxiv.org/abs/2402.09129) | 本文研究了在多商品市场中，包括复杂捆绑行为的情况下，找到最优的自动做市商的问题，发现该问题对偶于一个最优运输问题，并且具有特定的几何约束条件。 |
-| [^5] | [Database for the meta-analysis of the social cost of carbon (v2024.0)](https://arxiv.org/abs/2402.09125) | 该论文介绍了社会碳成本估计元分析数据库的新版本，新增了关于气候变化影响和福利函数形状的字段，并扩展了合作者和引用网络。 |
-| [^6] | [Time preference, wealth and utility inequality: A microeconomic interaction and dynamic macroeconomic model connection approach](https://arxiv.org/abs/2402.08905) | 本研究通过将个体之间的互动与社会规范参考相连接，揭示了时间偏好对财富分配和不平等的影响。通过模型计算和实证分析，结果显示，个体之间的消费比较对财富不平等和效用产生显著影响。社会规范在一定程度上可以减缓这种影响。这个方法提供了一个新的框架，用于理解时间偏好在经济不平等中的作用。 |
-| [^7] | [LLM-driven Imitation of Subrational Behavior : Illusion or Reality?](https://arxiv.org/abs/2402.08755) | 本文探讨了使用LLMs生成合成人类演示的方法，然后通过模仿学习来学习亚理性代理策略，从而模拟亚理性行为，并为我们理解人类行为提供了改进的可能性。 |
-| [^8] | [Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior](https://arxiv.org/abs/2402.03953) | 本研究系统化地研究了中心化和去中心化交易所中永续期货合约的交易者行为，并提出了新的分析框架。研究发现，在VAMM模型的DEX中，多头和空头持仓量对价格波动产生相反的影响，而在采用预言机定价模型的DEX中，买家和卖家之间的交易者行为存在明显的不对称性。 |
-| [^9] | [Well Posedness of Utility Maximization Problems Under Partial Information in a Market with Gaussian Drift](https://arxiv.org/abs/2205.08614) | 本文研究了金融市场中的效用最大化问题的良定义性，为具有高斯漂移的部分信息市场提供了模型参数的充分条件。 |
-| [^10] | [A generalization of the rational rough Heston approximation.](http://arxiv.org/abs/2310.09181) | 这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。 |
-| [^11] | [Commitment and the Dynamics of Household Labor Supply.](http://arxiv.org/abs/2307.10983) | 本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。 |
-| [^12] | [Reinforcement learning for optimization of energy trading strategy.](http://arxiv.org/abs/2303.16266) | 本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。 |
+| [^1] | [Semi-parametric financial risk forecasting incorporating multiple realized measures](https://arxiv.org/abs/2402.09985) | 本研究提出了一个半参数金融风险预测框架，它利用多个实现指标建模联合VaR和ES，并采用非对称拉普拉斯分布进行贝叶斯推断。实证结果表明，该框架在涵盖COVID-19期间的多个股市上表现良好。 |
+| [^2] | [Alpha-GPT 2.0: Human-in-the-Loop AI for Quantitative Investment](https://arxiv.org/abs/2402.09746) | Alpha-GPT 2.0是一个量化投资框架，采用人机协同的方法，将人类研究者的见解融入到alpha研究中，提高了量化投资研究的效率和准确性。 |
+| [^3] | [ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents](https://arxiv.org/abs/2402.09563) | ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。 |
+| [^4] | [A game theoretic approach to lowering incentives to violate speed limits in Finland](https://arxiv.org/abs/2402.09556) | 本论文通过使用无限重复博弈模型，并采用子博弈完美均衡策略配置作为解决概念，提出了一种胡萝卜和棍子的方法来降低违反芬兰限速规定的激励，并在短期重复博弈中构建了一个纳什均衡策略配置。 |
+| [^5] | [Rationality Report Cards: Assessing the Economic Rationality of Large Language Models](https://arxiv.org/abs/2402.09552) | 本文在评估大型语言模型的经济合理性方面提出了一种方法，通过量化评分模型在各个要素上的表现并结合用户提供的评分标准，生成一份"理性报告卡"，以确定代理人是否足够可靠。 |
+| [^6] | [On the Potential of Network-Based Features for Fraud Detection](https://arxiv.org/abs/2402.09495) | 本文研究了基于网络特征在欺诈检测中的潜力，通过使用个性化的PageRank算法来捕捉欺诈的社会动态。实验结果表明，集成PPR可以提高模型的预测能力并提供独特有价值的信息。 |
+| [^7] | [Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior](https://arxiv.org/abs/2402.03953) | 本研究系统化地研究了中心化和去中心化交易所中永续期货合约的交易者行为，并提出了新的分析框架。研究发现，在VAMM模型的DEX中，多头和空头持仓量对价格波动产生相反的影响，而在采用预言机定价模型的DEX中，买家和卖家之间的交易者行为存在明显的不对称性。 |
+| [^8] | [Statistical inference for rough volatility: Minimax Theory](https://arxiv.org/abs/2210.01214) | 本文提供了对粗糙波动模型进行严格统计分析的研究，通过建立极小化下界和使用小波方法，成功推断了粗糙波动模型的参数，并扩展了现有的结果。 |
+| [^9] | [Thiele's PIDE for unit-linked policies in the Heston-Hawkes stochastic volatility model.](http://arxiv.org/abs/2309.03541) | 本文研究了在Heston-Hawkes随机波动率模型中单位连结政策的Thiele's PIDE(偏微分方程)，推导了Thiele's微分方程以计算保险公司的储备。 |
+| [^10] | [Equilibrium in Functional Stochastic Games with Mean-Field Interaction.](http://arxiv.org/abs/2306.05433) | 该论文提出了一种新的方法来明确推导出带有平均场相互作用的功能随机博弈的纳什均衡，同时证明了均衡的收敛性和存在的条件比有限玩家博弈的条件更少。 |
+| [^11] | [Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data.](http://arxiv.org/abs/2207.12255) | 我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。 |
 
 # 详细
 
-[^1]: 具有多维奇异控制和非线性跳跃影响的扩展均场博弈
+[^1]: 半参数金融风险预测模型中引入多个实现指标
 
-    Extended mean-field games with multi-dimensional singular controls and non-linear jump impact
+    Semi-parametric financial risk forecasting incorporating multiple realized measures
 
-    [https://arxiv.org/abs/2402.09317](https://arxiv.org/abs/2402.09317)
+    [https://arxiv.org/abs/2402.09985](https://arxiv.org/abs/2402.09985)
 
-    这篇论文提出了一个概率框架，用于分析具有多维奇异控制和状态相关跳跃动力学和成本的扩展均场博弈。通过限制可接受的奇异控制的集合为可由连续控制逼近的控制，解决了状态动力学不连续和奖励函数不下半连续的问题。同时引入了一类参数化的均场博弈来处理连续性缺失问题。
-
-    
-
-    我们建立了一个概率框架，用于分析具有多维奇异控制和状态相关跳跃动力学和成本的扩展均场博弈。在分析这样的博弈时，出现了两个关键挑战：状态动力学可能不连续地依赖于控制，奖励函数可能不是下半连续的。这些问题可以通过限制可接受的奇异控制的集合为可由连续控制逼近的控制来克服。我们证明了相应的可接受弱控制的集合由Marcus型随机微分方程的弱解给出，并给出了奖励函数的明确表征。奖励函数通常只是下半连续的。为了解决连续性缺失问题，我们引入了一类新颖的具有更广泛的可接受控制集合的均场博弈，称为参数化的均场博弈。参数化是状态/控制过程的连续插值跳跃的法则。我们证明了用参数化表示的均场博弈具有所需的性质。
-
-    arXiv:2402.09317v1 Announce Type: cross Abstract: We establish a probabilistic framework for analysing extended mean-field games with multi-dimensional singular controls and state-dependent jump dynamics and costs. Two key challenges arise when analysing such games: the state dynamics may not depend continuously on the control and the reward function may not be u.s.c.~Both problems can be overcome by restricting the set of admissible singular controls to controls that can be approximated by continuous ones. We prove that the corresponding set of admissible weak controls is given by the weak solutions to a Marcus-type SDE and provide an explicit characterisation of the reward function. The reward function will in general only be u.s.c.~To address the lack of continuity we introduce a novel class of MFGs with a broader set of admissible controls, called MFGs of parametrisations. Parametrisations are laws of state/control processes that continuously interpolate jumps. We prove that the re
-    
-[^2]: Ornstein-Uhlenbeck驱动的随机波动率模型的精确模拟方案与Karhunen-Loève展开
-
-    Exact simulation scheme for the Ornstein-Uhlenbeck driven stochastic volatility model with the Karhunen-Lo\`eve expansions
-
-    [https://arxiv.org/abs/2402.09243](https://arxiv.org/abs/2402.09243)
-
-    本研究提出了一种新的精确模拟方案，可以更快地模拟Ornstein-Uhlenbeck驱动的随机波动率模型。使用Karhunen-Loève展开来表示波动率路径，并通过解析推导的方式获得了波动率和方差的时间积分。通过采用条件蒙特卡洛方法和保持鞅性的控制变量来进一步改进模拟算法。这一方法比现有方法更快速且更高效。
+    本研究提出了一个半参数金融风险预测框架，它利用多个实现指标建模联合VaR和ES，并采用非对称拉普拉斯分布进行贝叶斯推断。实证结果表明，该框架在涵盖COVID-19期间的多个股市上表现良好。
 
     
 
-    本研究提出了一种新的Ornstein-Uhlenbeck驱动的随机波动率模型的精确模拟方案。利用Karhunen-Loève展开，将遵循Ornstein-Uhlenbeck过程的随机波动率路径表示为正弦级数，并将波动率和方差的时间积分解析地推导为独立正态随机变量的和。这种新方法比依赖于计算昂贵的数值变换反演的Li和Wu [Eur. J. Oper. Res., 2019, 275(2), 768-779] 方法快几百倍。进一步采用了条件蒙特卡洛方法和保持鞅性的控制变量对实时价格进行模拟算法改进。
+    本文提出了一种半参数联合VaR和ES预测框架，其中引入了多个实现指标。该框架通过使用多个实现指标作为外生变量来扩展分位数回归模型VaR。然后，利用实现指标的信息来建模VaR和ES之间的时变关系。最后，使用模拟量和实现指标之间的同期相关性建立的度量方程来完成模型。基于非对称拉普拉斯分布的准似然方法实现了对该模型的贝叶斯推断。使用自适应马尔可夫链蒙特卡洛方法对模型进行估计。经验证实，该框架在涵盖COVID-19期间的2000年1月至2022年6月间的六个股市上具有较好的预测性能。
 
-    arXiv:2402.09243v1 Announce Type: new Abstract: This study proposes a new exact simulation scheme of the Ornstein-Uhlenbeck driven stochastic volatility model. With the Karhunen-Lo\`eve expansions, the stochastic volatility path following the Ornstein-Uhlenbeck process is expressed as a sine series, and the time integrals of volatility and variance are analytically derived as the sums of independent normal random variates. The new method is several hundred times faster than Li and Wu [Eur. J. Oper. Res., 2019, 275(2), 768-779] that relies on computationally expensive numerical transform inversion. The simulation algorithm is further improved with the conditional Monte-Carlo method and the martingale-preserving control variate on the spot price.
+    arXiv:2402.09985v1 Announce Type: new  Abstract: A semi-parametric joint Value-at-Risk (VaR) and Expected Shortfall (ES) forecasting framework employing multiple realized measures is developed. The proposed framework extends the quantile regression using multiple realized measures as exogenous variables to model the VaR. Then, the information from realized measures is used to model the time-varying relationship between VaR and ES. Finally, a measurement equation that models the contemporaneous dependence between the quantile and realized measures is used to complete the model. A quasi-likelihood, built on the asymmetric Laplace distribution, enables the Bayesian inference for the proposed model. An adaptive Markov Chain Monte Carlo method is used for the model estimation. The empirical section evaluates the performance of the proposed framework with six stock markets from January 2000 to June 2022, covering the period of COVID-19. Three realized measures, including 5-minute realized va
     
-[^3]: 基于凸函数差分算法的价值风险约束组合优化
+[^2]: Alpha-GPT 2.0：量化投资中的人机协同AI
 
-    The Boosted Difference of Convex Functions Algorithm for Value-at-Risk Constrained Portfolio Optimization
+    Alpha-GPT 2.0: Human-in-the-Loop AI for Quantitative Investment
 
-    [https://arxiv.org/abs/2402.09194](https://arxiv.org/abs/2402.09194)
+    [https://arxiv.org/abs/2402.09746](https://arxiv.org/abs/2402.09746)
 
-    本文提出了一种基于凸函数差分和线搜索的算法（BDCA），用于解决线性优化问题，并且证明了其收敛性和其他特性。
-
-    
-
-    现代金融中一个非常相关的问题是设计价值风险（VaR）最优组合。由于当代金融监管的要求，银行和其他金融机构需要使用风险度量来控制他们的信用风险、市场风险和运营风险。对于具有离散收益分布和有限个情景的组合，可以推导出凸函数差分（DC）函数表示的VaR。Wozabal（2012）证明了这可以通过使用凸函数差分算法（DCA）来解决VaR约束的Markowitz风格组合选择问题。最近的算法扩展是Boosted Difference of Convex Functions Algorithm（BDCA），它通过额外的线搜索步骤加速收敛。已经证明BDCA对于解决具有线性不等式约束的非光滑二次问题具有线性收敛性。本文证明了该算法在线性优化问题中的收敛性以及其它一些性质。
-
-    arXiv:2402.09194v1 Announce Type: cross Abstract: A highly relevant problem of modern finance is the design of Value-at-Risk (VaR) optimal portfolios. Due to contemporary financial regulations, banks and other financial institutions are tied to use the risk measure to control their credit, market and operational risks. For a portfolio with a discrete return distribution and finitely many scenarios, a Difference of Convex (DC) functions representation of the VaR can be derived. Wozabal (2012) showed that this yields a solution to a VaR constrained Markowitz style portfolio selection problem using the Difference of Convex Functions Algorithm (DCA). A recent algorithmic extension is the so-called Boosted Difference of Convex Functions Algorithm (BDCA) which accelerates the convergence due to an additional line search step. It has been shown that the BDCA converges linearly for solving non-smooth quadratic problems with linear inequality constraints. In this paper, we prove that the linear
-    
-[^4]: 最优自动做市商: 可微经济学和强对偶性
-
-    Optimal Automated Market Makers: Differentiable Economics and Strong Duality
-
-    [https://arxiv.org/abs/2402.09129](https://arxiv.org/abs/2402.09129)
-
-    本文研究了在多商品市场中，包括复杂捆绑行为的情况下，找到最优的自动做市商的问题，发现该问题对偶于一个最优运输问题，并且具有特定的几何约束条件。
+    Alpha-GPT 2.0是一个量化投资框架，采用人机协同的方法，将人类研究者的见解融入到alpha研究中，提高了量化投资研究的效率和准确性。
 
     
 
-    做市商的作用是同时以指定价格购买和出售商品数量，通常是金融资产如股票。自动做市商（AMM）是一种根据预定的时间表提供交易的机制；选择最佳的时间表取决于做市商的目标。现有研究主要集中在预测市场上，目的是信息收集。近期的工作则主要关注利润最大化的目标，但仅仅考虑了一种类型的商品（用衡量货币进行交易），包括逆向选择的情况。关于存在多种商品以及可能出现复杂捆绑行为的最优做市问题尚不清楚。本文表明，在多个商品存在且可能出现复杂捆绑行为的情况下，找到一个最优的做市商是一个对偶于最优运输问题的问题，并且具有特定的几何约束条件。
+    最近，我们在量化投资领域引入了一种新的alpha挖掘范 Paradigm，开发了一个新的交互式的alpha挖掘系统框架，即Alpha-GPT。该系统围绕基于大型语言模型的迭代式人机交互，引入了一种人机协同的alpha发现方法。在本文中，我们介绍了下一代Alpha-GPT 2.0，这是一个量化投资框架，进一步涵盖了量化投资中的关键建模和分析阶段。该框架强调人机之间的迭代互动研究，并贯穿整个量化投资流程，体现了一种人机协同的策略。通过将人类研究人员的见解融入到系统性的alpha研究过程中，我们有效地利用了人机协同的方法，提高了量化投资研究的效率和准确性。
 
-    arXiv:2402.09129v1 Announce Type: cross Abstract: The role of a market maker is to simultaneously offer to buy and sell quantities of goods, often a financial asset such as a share, at specified prices. An automated market maker (AMM) is a mechanism that offers to trade according to some predetermined schedule; the best choice of this schedule depends on the market maker's goals. The literature on the design of AMMs has mainly focused on prediction markets with the goal of information elicitation. More recent work motivated by DeFi has focused instead on the goal of profit maximization, but considering only a single type of good (traded with a numeraire), including under adverse selection (Milionis et al. 2022). Optimal market making in the presence of multiple goods, including the possibility of complex bundling behavior, is not well understood. In this paper, we show that finding an optimal market maker is dual to an optimal transport problem, with specific geometric constraints on t
+    arXiv:2402.09746v1 Announce Type: new  Abstract: Recently, we introduced a new paradigm for alpha mining in the realm of quantitative investment, developing a new interactive alpha mining system framework, Alpha-GPT. This system is centered on iterative Human-AI interaction based on large language models, introducing a Human-in-the-Loop approach to alpha discovery. In this paper, we present the next-generation Alpha-GPT 2.0 \footnote{Draft. Work in progress}, a quantitative investment framework that further encompasses crucial modeling and analysis phases in quantitative investment. This framework emphasizes the iterative, interactive research between humans and AI, embodying a Human-in-the-Loop strategy throughout the entire quantitative investment pipeline. By assimilating the insights of human researchers into the systematic alpha research process, we effectively leverage the Human-in-the-Loop approach, enhancing the efficiency and precision of quantitative investment research.
     
-[^5]: 社会碳成本的元分析数据库 (v2024.0)
+[^3]: ABIDES-Economist: 具有学习代理的经济系统的基于代理的模拟
 
-    Database for the meta-analysis of the social cost of carbon (v2024.0)
+    ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents
 
-    [https://arxiv.org/abs/2402.09125](https://arxiv.org/abs/2402.09125)
+    [https://arxiv.org/abs/2402.09563](https://arxiv.org/abs/2402.09563)
 
-    该论文介绍了社会碳成本估计元分析数据库的新版本，新增了关于气候变化影响和福利函数形状的字段，并扩展了合作者和引用网络。
-
-    
-
-    本文介绍了社会碳成本估计元分析数据库的新版本。新增了记录，并添加了关于气候变化影响和福利函数形状的新字段。该数据库还扩展了合作者和引用网络。
-
-    arXiv:2402.09125v1 Announce Type: new Abstract: A new version of the database for the meta-analysis of estimates of the social cost of carbon is presented. New records were added, and new fields on the impact of climate change and the shape of the welfare function. The database was extended to co-author and citation networks.
-    
-[^6]: 时间偏好、财富和效用不平等：一种微观经济互动和动态宏观经济模型连接方法
-
-    Time preference, wealth and utility inequality: A microeconomic interaction and dynamic macroeconomic model connection approach
-
-    [https://arxiv.org/abs/2402.08905](https://arxiv.org/abs/2402.08905)
-
-    本研究通过将个体之间的互动与社会规范参考相连接，揭示了时间偏好对财富分配和不平等的影响。通过模型计算和实证分析，结果显示，个体之间的消费比较对财富不平等和效用产生显著影响。社会规范在一定程度上可以减缓这种影响。这个方法提供了一个新的框架，用于理解时间偏好在经济不平等中的作用。
+    ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。
 
     
 
-    基于个体与他人的互动与对社会规范的参考，本研究揭示了时间偏好的异质性对财富分配和不平等的影响。我们提出了一种新颖的方法，将产生异质性的微观经济主体之间的互动与宏观经济模型中的资本和消费动态方程相连接。利用这种方法，我们估计了微观经济互动引起的折现率变化对资本、消费和效用以及不平等程度的影响。结果显示，与他人的消费比较显著影响资本，即财富不平等。此外，对效用的影响从未微小，并且社会规范可以减少这种影响。我们的支持证据显示，不平等计算的定量结果与队列和跨文化研究的调查数据相符。本研究的微观-宏观连接方法为理解时间偏好对经济不平等的影响提供了新的框架。
+    我们介绍了一个多智能体模拟器，用于由异质家庭、异质公司、中央银行和政府代理组成的经济系统，该系统可以受到外生的随机冲击。代理之间的互动定义了经济中商品的生产和消费以及资金的流动。每个代理可以根据固定的、规则性的策略行动，也可以通过与模拟器中其他代理的互动来学习自己的策略。我们通过选择基于经济文献的代理异质性参数，并将其行动空间设计与美国的实际数据相一致，来使我们的模拟器具备现实基础。我们的模拟器通过为经济系统定义 OpenAI Gym 风格的环境，促进了代理使用强化学习策略的能力。通过模拟和分析两种假设的（但有趣的）经济情景，我们展示了我们模拟器的实用性。
 
-    arXiv:2402.08905v1 Announce Type: new Abstract: Based on interactions between individuals and others and references to social norms, this study reveals the impact of heterogeneity in time preference on wealth distribution and inequality. We present a novel approach that connects the interactions between microeconomic agents that generate heterogeneity to the dynamic equations for capital and consumption in macroeconomic models. Using this approach, we estimate the impact of changes in the discount rate due to microeconomic interactions on capital, consumption and utility and the degree of inequality. The results show that intercomparisons with others regarding consumption significantly affect capital, i.e. wealth inequality. Furthermore, the impact on utility is never small and social norms can reduce this impact. Our supporting evidence shows that the quantitative results of inequality calculations correspond to survey data from cohort and cross-cultural studies. This study's micro-ma
+    arXiv:2402.09563v1 Announce Type: cross  Abstract: We introduce a multi-agent simulator for economic systems comprised of heterogeneous Households, heterogeneous Firms, Central Bank and Government agents, that could be subjected to exogenous, stochastic shocks. The interaction between agents defines the production and consumption of goods in the economy alongside the flow of money. Each agent can be designed to act according to fixed, rule-based strategies or learn their strategies using interactions with others in the simulator. We ground our simulator by choosing agent heterogeneity parameters based on economic literature, while designing their action spaces in accordance with real data in the United States. Our simulator facilitates the use of reinforcement learning strategies for the agents via an OpenAI Gym style environment definition for the economic system. We demonstrate the utility of our simulator by simulating and analyzing two hypothetical (yet interesting) economic scenar
     
-[^7]: LLM驱动的模拟亚理性行为：幻觉还是现实？
+[^4]: 降低芬兰违反限速的激励的博弈论方法
 
-    LLM-driven Imitation of Subrational Behavior : Illusion or Reality?
+    A game theoretic approach to lowering incentives to violate speed limits in Finland
 
-    [https://arxiv.org/abs/2402.08755](https://arxiv.org/abs/2402.08755)
+    [https://arxiv.org/abs/2402.09556](https://arxiv.org/abs/2402.09556)
 
-    本文探讨了使用LLMs生成合成人类演示的方法，然后通过模仿学习来学习亚理性代理策略，从而模拟亚理性行为，并为我们理解人类行为提供了改进的可能性。
+    本论文通过使用无限重复博弈模型，并采用子博弈完美均衡策略配置作为解决概念，提出了一种胡萝卜和棍子的方法来降低违反芬兰限速规定的激励，并在短期重复博弈中构建了一个纳什均衡策略配置。
 
     
 
-    建模亚理性代理，如人类或经济家庭，由于校准强化学习模型的困难或收集涉及人类主体的数据的难度而具有挑战性。现有研究强调了大型语言模型（LLMs）解决复杂推理任务和模仿人类交流的能力，而使用LLMs作为代理进行模拟显示出出现的社交行为，可能提高我们对人类行为的理解。在本文中，我们提议研究使用LLMs生成合成的人类演示，然后通过模仿学习来学习亚理性代理策略。我们假设LLMs可以用作人类的隐式计算模型，并提出了一个框架，使用从LLMs派生的合成演示来建模人类特有的亚理性行为（例如，目光短浅的行为或对风险规避的偏好）。我们进行了实验证明:
+    我们通过讨论一个无限重复博弈模型来扩展之前的研究，该模型以子博弈完美均衡策略配置（SPE）作为解决概念，以胡萝卜和棍子的方式降低违反限速的激励。在构建SPE策略配置时，选择初始状态使得驾驶员采取混合策略，而警察不以确定性执行。我们还假设了一个短期版本的重复博弈，该博弈具有广义阶段博弈的回报。对于这个博弈，我们构建了一个多阶段策略配置，它是一个纳什均衡但不是SPE。通过展示某些解的候选者不满足一个必要条件，即在完全信息的重复博弈中满足一次性偏离属性，排除了一些解。
 
-    arXiv:2402.08755v1 Announce Type: new Abstract: Modeling subrational agents, such as humans or economic households, is inherently challenging due to the difficulty in calibrating reinforcement learning models or collecting data that involves human subjects. Existing work highlights the ability of Large Language Models (LLMs) to address complex reasoning tasks and mimic human communication, while simulation using LLMs as agents shows emergent social behaviors, potentially improving our comprehension of human conduct. In this paper, we propose to investigate the use of LLMs to generate synthetic human demonstrations, which are then used to learn subrational agent policies though Imitation Learning. We make an assumption that LLMs can be used as implicit computational models of humans, and propose a framework to use synthetic demonstrations derived from LLMs to model subrational behaviors that are characteristic of humans (e.g., myopic behavior or preference for risk aversion). We experim
+    arXiv:2402.09556v1 Announce Type: new  Abstract: We expand on earlier research on the topic by discussing an infinitely repeated game model with a subgame perfect equilibrium strategy profile (SPE) as a solution concept that diminishes incentives to violate speed limits in a carrot and stick fashion. In attempts to construct an SPE strategy profile, the initial state is chosen such that the drivers are playing a mixed strategy whereas the police is not enforcing with certainty. We also postulate a short period version of the repeated game with generalized stage game payoffs. For this game, we construct a multistage strategy profile that is a Nash equilibrium but not an SPE. Some solution candidates are excluded by showing that they do not satisfy a one shot deviation property that is a necessary condition for an SPE profile in a repeated game of perfect information.
     
-[^8]: 中心化和去中心化交易所中的永续期货合约: 机制和交易者行为
+[^5]: 理性报告卡：评估大型语言模型的经济合理性
+
+    Rationality Report Cards: Assessing the Economic Rationality of Large Language Models
+
+    [https://arxiv.org/abs/2402.09552](https://arxiv.org/abs/2402.09552)
+
+    本文在评估大型语言模型的经济合理性方面提出了一种方法，通过量化评分模型在各个要素上的表现并结合用户提供的评分标准，生成一份"理性报告卡"，以确定代理人是否足够可靠。
+
+    
+
+    越来越多的人对将LLM用作决策"代理人"兴趣日益增加。这包括很多自由度：应该使用哪个模型；如何进行提示；是否要求其进行内省、进行思考链等。解决这些问题（更广泛地说，确定LLM代理人是否足够可靠以便获得信任）需要一种评估这种代理人经济合理性的方法论，在本文中我们提供了一个方法。我们首先对理性决策的经济文献进行了调研、将代理人应该展现的大量细粒度"要素"进行分类，并确定了它们之间的依赖关系。然后，我们提出了一个基准分布，以定量评分LLM在这些要素上的表现，并结合用户提供的评分标准，生成一份"理性报告卡"。最后，我们描述了与14种不同的LLM进行的大规模实证实验的结果。
+
+    arXiv:2402.09552v1 Announce Type: new  Abstract: There is increasing interest in using LLMs as decision-making "agents." Doing so includes many degrees of freedom: which model should be used; how should it be prompted; should it be asked to introspect, conduct chain-of-thought reasoning, etc? Settling these questions -- and more broadly, determining whether an LLM agent is reliable enough to be trusted -- requires a methodology for assessing such an agent's economic rationality. In this paper, we provide one. We begin by surveying the economic literature on rational decision making, taxonomizing a large set of fine-grained "elements" that an agent should exhibit, along with dependencies between them. We then propose a benchmark distribution that quantitatively scores an LLMs performance on these elements and, combined with a user-provided rubric, produces a "rationality report card." Finally, we describe the results of a large-scale empirical experiment with 14 different LLMs, characte
+    
+[^6]: 关于基于网络特征在欺诈检测中潜力的研究
+
+    On the Potential of Network-Based Features for Fraud Detection
+
+    [https://arxiv.org/abs/2402.09495](https://arxiv.org/abs/2402.09495)
+
+    本文研究了基于网络特征在欺诈检测中的潜力，通过使用个性化的PageRank算法来捕捉欺诈的社会动态。实验结果表明，集成PPR可以提高模型的预测能力并提供独特有价值的信息。
+
+    
+
+    在线交易欺诈给企业和消费者带来了重大挑战，面临着重大的经济损失。传统的基于规则的系统难以跟上欺诈战术的演变，导致高误报率和漏报率。机器学习技术通过利用历史数据识别欺诈模式提供了一个有希望的解决方案。本文探讨使用个性化的PageRank（PPR）算法通过分析金融账户之间的关系来捕捉欺诈的社会动态。主要目标是比较传统特征与添加PPR在欺诈检测模型中的性能。结果表明，集成PPR可以提高模型的预测能力，超过基准模型。此外，PPR特征提供了独特而有价值的信息，通过其高特征重要性得分得以证明。特征稳定性分析证实了一致的结果。
+
+    arXiv:2402.09495v1 Announce Type: cross  Abstract: Online transaction fraud presents substantial challenges to businesses and consumers, risking significant financial losses. Conventional rule-based systems struggle to keep pace with evolving fraud tactics, leading to high false positive rates and missed detections. Machine learning techniques offer a promising solution by leveraging historical data to identify fraudulent patterns. This article explores using the personalised PageRank (PPR) algorithm to capture the social dynamics of fraud by analysing relationships between financial accounts. The primary objective is to compare the performance of traditional features with the addition of PPR in fraud detection models. Results indicate that integrating PPR enhances the model's predictive power, surpassing the baseline model. Additionally, the PPR feature provides unique and valuable information, evidenced by its high feature importance score. Feature stability analysis confirms consist
+    
+[^7]: 中心化和去中心化交易所中的永续期货合约: 机制和交易者行为
 
     Perpetual Future Contracts in Centralized and Decentralized Exchanges: Mechanism and Traders' Behavior
 
@@ -129,60 +114,60 @@
 
     This study presents a groundbreaking Systematization of Knowledge (SoK) initiative, focusing on an in-depth exploration of the dynamics and behavior of traders on perpetual future contracts across both centralized exchanges (CEXs), and decentralized exchanges (DEXs). We have refined the existing model for investigating traders' behavior in reaction to price volatility to create a new analytical framework specifically for these contract platforms, while also highlighting the role of blockchain technology in their application. Our research includes a comparative analysis of historical data from CEXs and a more extensive examination of complete transactional data on DEXs. On DEX of Virtual Automated Market Making (VAMM) Model, open interest on short and long positions exert effect on price volatility in opposite direction, attributable to VAMM's price formation mechanism. In the DEXs with Oracle Pricing Model, we observed a distinct asymmetry in trader behavior between buyers and sellers.
     
-[^9]: 在具有高斯漂移的部分信息市场中的效用最大化问题的良定义性研究
+[^8]: 粗糙波动的统计推断：极小化理论
 
-    Well Posedness of Utility Maximization Problems Under Partial Information in a Market with Gaussian Drift
+    Statistical inference for rough volatility: Minimax Theory
 
-    [https://arxiv.org/abs/2205.08614](https://arxiv.org/abs/2205.08614)
+    [https://arxiv.org/abs/2210.01214](https://arxiv.org/abs/2210.01214)
 
-    本文研究了金融市场中的效用最大化问题的良定义性，为具有高斯漂移的部分信息市场提供了模型参数的充分条件。
-
-    
-
-    本文研究了金融市场中的效用最大化问题的良定义性，其中股票回报依赖于隐藏的高斯均值回归漂移过程。由于该过程可能是无界的，对于不受上界限制的效用函数，无法保证其良定义性。对于相对风险厌恶小于对数效用的功率效用函数，这导致了对模型参数的选择限制，例如投资周期和控制资产价格和漂移过程方差的参数。我们推导出了模型参数的充分条件，以实现具有完全和部分信息的模型的终端财富的有界最大预期效用。
-
-    arXiv:2205.08614v2 Announce Type: replace Abstract: This paper investigates well posedness of utility maximization problems for financial markets where stock returns depend on a hidden Gaussian mean reverting drift process. Since that process is potentially unbounded, well posedness cannot be guaranteed for utility functions which are not bounded from above. For power utility with relative risk aversion smaller than those of log-utility this leads to restrictions on the choice of model parameters such as the investment horizon and parameters controlling the variance of the asset price and drift processes. We derive sufficient conditions to the model parameters leading to bounded maximum expected utility of terminal wealth for models with full and partial information.
-    
-[^10]: 理性粗Heston逼近的一般化
-
-    A generalization of the rational rough Heston approximation. (arXiv:2310.09181v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2310.09181](http://arxiv.org/abs/2310.09181)
-
-    这个论文将理性逼近从粗Heston分数ODE扩展到Mittag-Leffler核情况，并提供了数值证据表明解的收敛性。
+    本文提供了对粗糙波动模型进行严格统计分析的研究，通过建立极小化下界和使用小波方法，成功推断了粗糙波动模型的参数，并扩展了现有的结果。
 
     
 
-    我们将理性逼近从[GR19]中的粗Heston分数ODE扩展到Mittag-Leffler核情况。我们提供了数值证据表明解的收敛性。
+    近年来，粗糙波动模型在量化金融界引起了相当大的关注。在这个模型中，资产价格的波动性由一个具有小的赫斯特参数$H$值的分数布朗运动所驱动。本文对这些模型进行了严格的统计分析。为此，我们建立了参数估计的极小化下界，并设计了基于小波的程序来达到这些下界的估计。我们尤其得到了基于n个采样数据对H进行估计的收敛速度的最优结果为$n^{-1/(4H+2)}$，这扩展了目前仅对于较容易的情况$H>1/2$已知的结果。因此，我们得出结论，粗糙波动模型的参数可以在所有情况下以最优准确性进行推断。
 
-    We extend the rational approximation of the solution of the rough Heston fractional ODE in [GR19] to the case of the Mittag-Leffler kernel. We provide numerical evidence of the convergence of the solution.
+    arXiv:2210.01214v2 Announce Type: replace-cross  Abstract: Rough volatility models have gained considerable interest in the quantitative finance community in recent years. In this paradigm, the volatility of the asset price is driven by a fractional Brownian motion with a small value for the Hurst parameter $H$. In this work, we provide a rigorous statistical analysis of these models. To do so, we establish minimax lower bounds for parameter estimation and design procedures based on wavelets attaining them. We notably obtain an optimal speed of convergence of $n^{-1/(4H+2)}$ for estimating $H$ based on n sampled data, extending results known only for the easier case $H>1/2$ so far. We therefore establish that the parameters of rough volatility models can be inferred with optimal accuracy in all regimes.
     
-[^11]: 承诺与家庭劳动力供给的动态。 (arXiv:2307.10983v1 [econ.GN])
+[^9]: Thiele在Heston-Hawkes随机波动率模型中的单位连结政策的PIDE(偏微分方程)
 
-    Commitment and the Dynamics of Household Labor Supply. (arXiv:2307.10983v1 [econ.GN])
+    Thiele's PIDE for unit-linked policies in the Heston-Hawkes stochastic volatility model. (arXiv:2309.03541v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2307.10983](http://arxiv.org/abs/2307.10983)
+    [http://arxiv.org/abs/2309.03541](http://arxiv.org/abs/2309.03541)
 
-    本文发展了一个家庭生命周期集体模型，研究了三种承诺类型的家庭行为，并通过测试方法确定了家庭承诺程度的异质性。使用最新数据，研究发现有限承诺是最普遍的类型。
-
-    
-
-    个体对伴侣的承诺程度对社会有重要影响。本文通过发展一个家庭的生命周期集体模型，描述了三种不同类型的承诺：全面承诺、有限承诺和无承诺。我们提出了一种测试方法，通过观察当下和历史消息对家庭行为的影响来区分这三种类型。我们的测试允许家庭之间承诺程度的异质性。使用最近的“收入动态面板研究”数据，我们拒绝了全面承诺和无承诺，同时找到了有限承诺的强有力证据。
-
-    The extent to which individuals commit to their partner for life has important implications. This paper develops a lifecycle collective model of the household, through which it characterizes behavior in three prominent alternative types of commitment: full, limited, and no commitment. We propose a test that distinguishes between all three types based on how contemporaneous and historical news affect household behavior. Our test permits heterogeneity in the degree of commitment across households. Using recent data from the Panel Study of Income Dynamics, we reject full and no commitment, while we find strong evidence for limited commitment.
-    
-[^12]: 强化学习用于能源交易策略的优化
-
-    Reinforcement learning for optimization of energy trading strategy. (arXiv:2303.16266v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.16266](http://arxiv.org/abs/2303.16266)
-
-    本文使用强化学习算法优化了一种黑盒交易策略，该策略通过在马尔可夫决策过程中使用真实数据进行优化，在 DA 能源市场上由中型生产者自动进行交易。
+    本文研究了在Heston-Hawkes随机波动率模型中单位连结政策的Thiele's PIDE(偏微分方程)，推导了Thiele's微分方程以计算保险公司的储备。
 
     
 
-    越来越多的能源来自大量小型生产者的可再生能源，这些来源的效率是不稳定的，在某种程度上也是随机的，加剧了能源市场平衡问题。在许多国家，这种平衡是在预测日（DA）能源市场上完成的。本文考虑由中型生产者在DA能源市场上的自动化交易。我们将此活动建模为马尔可夫决策过程，并规范了一个框架，其中可以使用现实数据优化即用策略。我们合成参数化交易策略，并使用进化算法优化它们。我们还使用最先进的强化学习算法优化一个黑盒交易策略，该策略利用来自环境的可用信息来影响未来价格。
+    本文的主要目的是推导出在arXiv:2210.15343中介绍的Heston-Hawkes随机波动率模型中单位连结政策的Thiele的微分方程。该模型是著名的Heston模型的扩展，通过在波动率中添加一个复合Hawkes过程，引入了波动率聚类特征。由于该模型是无套利的，因此可以通过在$\mathbb{Q}$下的等价原则下定价单位连结政策。我们检验了一些可积条件，并找到了合适的风险中性概率测度家族以得到Thiele的微分方程。在人寿保险公司中，计算储备的建立和实践方法是通过解决Thiele的方程，这对于保证保险公司的偿付能力是至关重要的。
 
-    An increasing part of energy is produced from renewable sources by a large number of small producers. The efficiency of these sources is volatile and, to some extent, random, exacerbating the energy market balance problem. In many countries, that balancing is performed on day-ahead (DA) energy markets. In this paper, we consider automated trading on a DA energy market by a medium size prosumer. We model this activity as a Markov Decision Process and formalize a framework in which a ready-to-use strategy can be optimized with real-life data. We synthesize parametric trading strategies and optimize them with an evolutionary algorithm. We also use state-of-the-art reinforcement learning algorithms to optimize a black-box trading strategy fed with available information from the environment that can impact future prices.
+    The main purpose of the paper is to derive Thiele's differential equation for unit-linked policies in the Heston-Hawkes stochastic volatility model presented in arXiv:2210.15343. This model is an extension of the well-known Heston model that incorporates the volatility clustering feature by adding a compound Hawkes process in the volatility. Since the model is arbitrage-free, pricing unit-linked policies via the equivalence principle under $\mathbb{Q}$ is possible. Some integrability conditions are checked and a suitable family of risk neutral probability measures is found to obtain Thiele's differential equation. The established and practical method to compute reserves in life insurance is by solving Thiele's equation, which is crucial to guarantee the solvency of the insurance company.
+    
+[^10]: 带有平均场相互作用的功能随机博弈的均衡
+
+    Equilibrium in Functional Stochastic Games with Mean-Field Interaction. (arXiv:2306.05433v1 [math.OC])
+
+    [http://arxiv.org/abs/2306.05433](http://arxiv.org/abs/2306.05433)
+
+    该论文提出了一种新的方法来明确推导出带有平均场相互作用的功能随机博弈的纳什均衡，同时证明了均衡的收敛性和存在的条件比有限玩家博弈的条件更少。
+
+    
+
+    我们考虑了一个一般的有限玩家带有平均场相互作用的随机博弈，其中线性二次成本函数包括作用于$L^2$中的控制的线性算子。我们提出了一种新的方法，通过将相关的一阶条件减少到第二类随机Fredholm方程组的系统，并推导出它们的闭形式解来明确推导出了博弈的纳什均衡。此外，通过证明随机Fredholm方程组的稳定性结果，我们推导出了$N$人博弈的均衡收敛到相应的平均场均衡。作为一个副产品，我们还推导出了平均场博弈的$\varepsilon$-纳什均衡，在这种情况下，它具有价值，因为我们表明，在平均场极限存在均衡的条件比有限玩家博弈的条件要少。最后，我们将我们的一般框架应用于解决各种例子。
+
+    We consider a general class of finite-player stochastic games with mean-field interaction, in which the linear-quadratic cost functional includes linear operators acting on controls in $L^2$. We propose a novel approach for deriving the Nash equilibrium of the game explicitly in terms of operator resolvents, by reducing the associated first order conditions to a system of stochastic Fredholm equations of the second kind and deriving their closed form solution. Furthermore, by proving stability results for the system of stochastic Fredholm equations we derive the convergence of the equilibrium of the $N$-player game to the corresponding mean-field equilibrium. As a by-product we also derive an $\varepsilon$-Nash equilibrium for the mean-field game, which is valuable in this setting as we show that the conditions for existence of an equilibrium in the mean-field limit are less restrictive than in the finite-player game. Finally we apply our general framework to solve various examples, su
+    
+[^11]: 实现基于分层深度学习的多层次拍卖数据模拟方法
+
+    Implementing a Hierarchical Deep Learning Approach for Simulating Multi-Level Auction Data. (arXiv:2207.12255v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2207.12255](http://arxiv.org/abs/2207.12255)
+
+    我们提出了一种基于深度学习的方法，能够模拟现实中复杂的多层次拍卖数据，并将其应用于代理学习和建模应用，为模拟性研究的进展做出了贡献。
+
+    
+
+    我们提出了一种深度学习解决方案，以应对模拟现实合理的合同拍卖数据所遇到的挑战。这种类型的拍卖数据所遇到的复杂性包括高基数离散特征空间和由与单个拍卖实例相关联的多个出价引起的多层级结构。我们的方法将深度生成建模（DGM）与预测基于拍卖特征的条件出价分布的人工学习器相结合，为模拟性研究的进展做出贡献。这种方法为创建适用于代理学习和建模应用的真实拍卖环境奠定了基础。我们的贡献有两个方面：我们引入了一种综合的方法来模拟多层次离散拍卖数据，我们强调了DGM作为优化模拟技术和促进基于生成型人工智能的经济模型发展的有力工具的潜力。
+
+    We present a deep learning solution to address the challenges of simulating realistic synthetic first-price sealed-bid auction data. The complexities encountered in this type of auction data include high-cardinality discrete feature spaces and a multilevel structure arising from multiple bids associated with a single auction instance. Our methodology combines deep generative modeling (DGM) with an artificial learner that predicts the conditional bid distribution based on auction characteristics, contributing to advancements in simulation-based research. This approach lays the groundwork for creating realistic auction environments suitable for agent-based learning and modeling applications. Our contribution is twofold: we introduce a comprehensive methodology for simulating multilevel discrete auction data, and we underscore the potential of DGM as a powerful instrument for refining simulation techniques and fostering the development of economic models grounded in generative AI.
     
 

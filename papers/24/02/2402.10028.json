@@ -1,0 +1,12 @@
+{
+    "title": "Diffusion Models Meet Contextual Bandits with Large Action Spaces",
+    "abstract": "arXiv:2402.10028v1 Announce Type: cross  Abstract: Efficient exploration is a key challenge in contextual bandits due to the large size of their action space, where uninformed exploration can result in computational and statistical inefficiencies. Fortunately, the rewards of actions are often correlated and this can be leveraged to explore them efficiently. In this work, we capture such correlations using pre-trained diffusion models; upon which we design diffusion Thompson sampling (dTS). Both theoretical and algorithmic foundations are developed for dTS, and empirical evaluation also shows its favorable performance.",
+    "link": "https://arxiv.org/abs/2402.10028",
+    "context": "Title: Diffusion Models Meet Contextual Bandits with Large Action Spaces\nAbstract: arXiv:2402.10028v1 Announce Type: cross  Abstract: Efficient exploration is a key challenge in contextual bandits due to the large size of their action space, where uninformed exploration can result in computational and statistical inefficiencies. Fortunately, the rewards of actions are often correlated and this can be leveraged to explore them efficiently. In this work, we capture such correlations using pre-trained diffusion models; upon which we design diffusion Thompson sampling (dTS). Both theoretical and algorithmic foundations are developed for dTS, and empirical evaluation also shows its favorable performance.",
+    "path": "papers/24/02/2402.10028.json",
+    "total_tokens": 649,
+    "translated_title": "扩散模型与大动作空间情境强化学习的结合",
+    "translated_abstract": "由于动作空间较大，有效的探索是情境强化学习中的一个关键挑战。本文通过利用预训练的扩散模型来捕捉动作之间的相关性，设计了扩散汤普森采样（dTS）方法，实现了高效的探索。我们为dTS方法提供了理论和算法基础，并通过实证评估展示了它的优越性能。",
+    "tldr": "本文设计了一种利用预训练扩散模型的扩散汤普森采样方法，用于在大动作空间下进行高效的情境强化学习探索。实证评估结果表明了该方法的优越性能。",
+    "en_tdlr": "This paper presents a diffusion Thompson sampling (dTS) method that leverages pre-trained diffusion models to efficiently explore large action spaces in contextual bandits. Theoretical and algorithmic foundations are provided for dTS, and empirical evaluation shows its favorable performance."
+}

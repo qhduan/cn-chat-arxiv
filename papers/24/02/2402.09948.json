@@ -1,0 +1,11 @@
+{
+    "title": "Neural 5G Indoor Localization with IMU Supervision",
+    "abstract": "arXiv:2402.09948v1 Announce Type: cross  Abstract: Radio signals are well suited for user localization because they are ubiquitous, can operate in the dark and maintain privacy. Many prior works learn mappings between channel state information (CSI) and position fully-supervised. However, that approach relies on position labels which are very expensive to acquire. In this work, this requirement is relaxed by using pseudo-labels during deployment, which are calculated from an inertial measurement unit (IMU). We propose practical algorithms for IMU double integration and training of the localization system. We show decimeter-level accuracy on simulated and challenging real data of 5G measurements. Our IMU-supervised method performs similarly to fully-supervised, but requires much less effort to deploy.",
+    "link": "https://arxiv.org/abs/2402.09948",
+    "context": "Title: Neural 5G Indoor Localization with IMU Supervision\nAbstract: arXiv:2402.09948v1 Announce Type: cross  Abstract: Radio signals are well suited for user localization because they are ubiquitous, can operate in the dark and maintain privacy. Many prior works learn mappings between channel state information (CSI) and position fully-supervised. However, that approach relies on position labels which are very expensive to acquire. In this work, this requirement is relaxed by using pseudo-labels during deployment, which are calculated from an inertial measurement unit (IMU). We propose practical algorithms for IMU double integration and training of the localization system. We show decimeter-level accuracy on simulated and challenging real data of 5G measurements. Our IMU-supervised method performs similarly to fully-supervised, but requires much less effort to deploy.",
+    "path": "papers/24/02/2402.09948.json",
+    "total_tokens": 773,
+    "translated_title": "带有IMU监督的神经网络5G室内定位",
+    "translated_abstract": "无线电信号非常适合用于用户定位，因为它们无处不在，可以在黑暗中运行并保持隐私。许多先前的工作都是通过全面监督学习信道状态信息（CSI）和位置之间的映射关系。然而，这种方法依赖于昂贵的位置标签。在这项工作中，我们通过在部署过程中使用从惯性测量单元（IMU）计算出的伪标签来放宽这一要求。我们提出了IMU双积分和定位系统训练的实用算法。我们展示了在5G测量的模拟和具有挑战性的实际数据上具有分米级精度。我们的IMU监督方法表现出与完全监督方法类似的性能，但需要更少的部署工作。",
+    "tldr": "本论文研究了带有IMU监督的神经网络5G室内定位问题，提出了基于IMU的伪标签和实用算法，并展示了与完全监督方法相当的性能。"
+}

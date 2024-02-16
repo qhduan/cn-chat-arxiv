@@ -1,0 +1,12 @@
+{
+    "title": "MCMC-driven learning",
+    "abstract": "arXiv:2402.09598v1 Announce Type: cross  Abstract: This paper is intended to appear as a chapter for the Handbook of Markov Chain Monte Carlo. The goal of this chapter is to unify various problems at the intersection of Markov chain Monte Carlo (MCMC) and machine learning$\\unicode{x2014}$which includes black-box variational inference, adaptive MCMC, normalizing flow construction and transport-assisted MCMC, surrogate-likelihood MCMC, coreset construction for MCMC with big data, Markov chain gradient descent, Markovian score climbing, and more$\\unicode{x2014}$within one common framework. By doing so, the theory and methods developed for each may be translated and generalized.",
+    "link": "https://arxiv.org/abs/2402.09598",
+    "context": "Title: MCMC-driven learning\nAbstract: arXiv:2402.09598v1 Announce Type: cross  Abstract: This paper is intended to appear as a chapter for the Handbook of Markov Chain Monte Carlo. The goal of this chapter is to unify various problems at the intersection of Markov chain Monte Carlo (MCMC) and machine learning$\\unicode{x2014}$which includes black-box variational inference, adaptive MCMC, normalizing flow construction and transport-assisted MCMC, surrogate-likelihood MCMC, coreset construction for MCMC with big data, Markov chain gradient descent, Markovian score climbing, and more$\\unicode{x2014}$within one common framework. By doing so, the theory and methods developed for each may be translated and generalized.",
+    "path": "papers/24/02/2402.09598.json",
+    "total_tokens": 778,
+    "translated_title": "基于MCMC的学习",
+    "translated_abstract": "这篇论文旨在作为《马尔科夫链蒙特卡罗手册》的一章出现。该章的目标是在马尔科夫链蒙特卡罗（MCMC）和机器学习之间的交叉点上统一各种问题，其中包括黑盒变分推断、自适应MCMC、正规流构建和传输辅助MCMC、替代似然MCMC、用于大数据的MCMC核心集构建、马尔科夫链梯度下降、马尔科夫得分攀爬等。通过这样做，可以将为每个问题开发的理论和方法进行翻译和推广。",
+    "tldr": "这篇论文旨在统一解决MCMC和机器学习交叉领域的各种问题，包括黑盒变分推断、自适应MCMC、正规流构建和传输辅助MCMC、替代似然MCMC、大数据的MCMC核心集构建等，并提出一个通用的框架。",
+    "en_tdlr": "This paper aims to unify various problems in the intersection of MCMC and machine learning, such as black-box variational inference, adaptive MCMC, normalizing flow construction and transport-assisted MCMC, surrogate-likelihood MCMC, coreset construction for MCMC with big data, within one common framework."
+}

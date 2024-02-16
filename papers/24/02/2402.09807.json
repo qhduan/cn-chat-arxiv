@@ -1,0 +1,12 @@
+{
+    "title": "Two trust region type algorithms for solving nonconvex-strongly concave minimax problems",
+    "abstract": "arXiv:2402.09807v1 Announce Type: cross  Abstract: In this paper, we propose a Minimax Trust Region (MINIMAX-TR) algorithm and a Minimax Trust Region Algorithm with Contractions and Expansions(MINIMAX-TRACE) algorithm for solving nonconvex-strongly concave minimax problems. Both algorithms can find an $(\\epsilon, \\sqrt{\\epsilon})$-second order stationary point(SSP) within $\\mathcal{O}(\\epsilon^{-1.5})$ iterations, which matches the best well known iteration complexity.",
+    "link": "https://arxiv.org/abs/2402.09807",
+    "context": "Title: Two trust region type algorithms for solving nonconvex-strongly concave minimax problems\nAbstract: arXiv:2402.09807v1 Announce Type: cross  Abstract: In this paper, we propose a Minimax Trust Region (MINIMAX-TR) algorithm and a Minimax Trust Region Algorithm with Contractions and Expansions(MINIMAX-TRACE) algorithm for solving nonconvex-strongly concave minimax problems. Both algorithms can find an $(\\epsilon, \\sqrt{\\epsilon})$-second order stationary point(SSP) within $\\mathcal{O}(\\epsilon^{-1.5})$ iterations, which matches the best well known iteration complexity.",
+    "path": "papers/24/02/2402.09807.json",
+    "total_tokens": 651,
+    "translated_title": "解决非凸强凹最小最大问题的两种信赖域类算法",
+    "translated_abstract": "在本文中，我们提出了解决非凸强凹最小最大问题的最小最大信赖域（MINIMAX-TR）算法和具有收缩和扩张的最小最大信赖域算法（MINIMAX-TRACE）。这两种算法可以在$\\mathcal{O}(\\epsilon^{-1.5})$次迭代内找到$(\\epsilon, \\sqrt{\\epsilon})$-二阶稳定点(SSP)，这与已知最好的迭代复杂度相匹配。",
+    "tldr": "本文提出了两种信赖域类算法，用于解决非凸强凹最小最大问题，并可以在迭代次数为$\\mathcal{O}(\\epsilon^{-1.5})$内找到二阶稳定点。",
+    "en_tdlr": "This paper proposes two trust region algorithms for solving nonconvex-strongly concave minimax problems, which can find a second-order stationary point within $\\mathcal{O}(\\epsilon^{-1.5})$ iterations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Rate-Optimal Policy Optimization for Linear Markov Decision Processes",
+    "abstract": "arXiv:2308.14642v2 Announce Type: replace  Abstract: We study regret minimization in online episodic linear Markov Decision Processes, and obtain rate-optimal $\\widetilde O (\\sqrt K)$ regret where $K$ denotes the number of episodes. Our work is the first to establish the optimal (w.r.t.~$K$) rate of convergence in the stochastic setting with bandit feedback using a policy optimization based approach, and the first to establish the optimal (w.r.t.~$K$) rate in the adversarial setup with full information feedback, for which no algorithm with an optimal rate guarantee is currently known.",
+    "link": "https://arxiv.org/abs/2308.14642",
+    "context": "Title: Rate-Optimal Policy Optimization for Linear Markov Decision Processes\nAbstract: arXiv:2308.14642v2 Announce Type: replace  Abstract: We study regret minimization in online episodic linear Markov Decision Processes, and obtain rate-optimal $\\widetilde O (\\sqrt K)$ regret where $K$ denotes the number of episodes. Our work is the first to establish the optimal (w.r.t.~$K$) rate of convergence in the stochastic setting with bandit feedback using a policy optimization based approach, and the first to establish the optimal (w.r.t.~$K$) rate in the adversarial setup with full information feedback, for which no algorithm with an optimal rate guarantee is currently known.",
+    "path": "papers/23/08/2308.14642.json",
+    "total_tokens": 872,
+    "translated_title": "线性马尔可夫决策过程的速率最优策略优化",
+    "translated_abstract": "我们研究在线周期性线性马尔可夫决策过程中最小化遗憾，并且得到了与$K$（表示周期数）成比率最优的$\\widetilde{O}(\\sqrt{K})$的遗憾。我们的工作是首次在带有乐观反馈的随机设置中使用基于策略优化的方法建立了与$K$最优（相对于$K$）的收敛速率，也是首次建立在完全信息反馈的敌对设置中与$K$最优的速率，这种情况下目前没有已知具有最优速率保证的算法。",
+    "tldr": "本文中，我们研究了在线周期性线性马尔可夫决策过程中的遗憾最小化问题，并提出了一种与周期数K成比率最优的遗憾收敛率O(√K)。这是首个针对带有乐观反馈的随机设置使用基于策略优化的方法并建立与K最优收敛速率的研究，也是首个针对具有全信息反馈的对抗设置并建立与K最优速率的研究，目前尚未找到具有最优速率保证的算法。",
+    "en_tdlr": "In this paper, we study regret minimization in online episodic linear Markov Decision Processes and propose a rate-optimal regret convergence of O(√K) where K is the number of episodes. This work is the first to establish the optimal convergence rate in the stochastic setting with bandit feedback using a policy optimization approach, and also the first to establish the optimal convergence rate in the adversarial setup with full information feedback, for which no algorithm with an optimal rate guarantee is currently known."
+}

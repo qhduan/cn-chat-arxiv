@@ -1,0 +1,11 @@
+{
+    "title": "PANORAMIA: Privacy Auditing of Machine Learning Models without Retraining",
+    "abstract": "arXiv:2402.09477v1 Announce Type: cross  Abstract: We introduce a privacy auditing scheme for ML models that relies on membership inference attacks using generated data as \"non-members\". This scheme, which we call PANORAMIA, quantifies the privacy leakage for large-scale ML models without control of the training process or model re-training and only requires access to a subset of the training data. To demonstrate its applicability, we evaluate our auditing scheme across multiple ML domains, ranging from image and tabular data classification to large-scale language models.",
+    "link": "https://arxiv.org/abs/2402.09477",
+    "context": "Title: PANORAMIA: Privacy Auditing of Machine Learning Models without Retraining\nAbstract: arXiv:2402.09477v1 Announce Type: cross  Abstract: We introduce a privacy auditing scheme for ML models that relies on membership inference attacks using generated data as \"non-members\". This scheme, which we call PANORAMIA, quantifies the privacy leakage for large-scale ML models without control of the training process or model re-training and only requires access to a subset of the training data. To demonstrate its applicability, we evaluate our auditing scheme across multiple ML domains, ranging from image and tabular data classification to large-scale language models.",
+    "path": "papers/24/02/2402.09477.json",
+    "total_tokens": 706,
+    "translated_title": "PANORAMIA: 无需重新训练的机器学习模型隐私审计",
+    "translated_abstract": "我们引入了一种隐私审计方案，该方案依赖于使用生成的“非成员”数据进行成员推断攻击来对ML模型进行隐私审计。这个方案被称为PANORAMIA，它可以量化大规模ML模型的隐私泄露，而无需控制训练过程或重新训练模型，只需要访问训练数据的子集。为了证明其适用性，我们在多个ML领域进行了审计，包括图像和表格数据分类以及大规模语言模型。",
+    "tldr": "PANORAMIA是一种无需重新训练的机器学习模型隐私审计方案，通过使用生成的“非成员”数据进行成员推断攻击，可以量化大规模ML模型的隐私泄露，而无需控制训练过程或重新训练模型，只需要访问训练数据的子集。"
+}

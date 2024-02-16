@@ -1,0 +1,11 @@
+{
+    "title": "On Computing Plans with Uniform Action Costs",
+    "abstract": "arXiv:2402.09877v1 Announce Type: new  Abstract: In many real-world planning applications, agents might be interested in finding plans whose actions have costs that are as uniform as possible. Such plans provide agents with a sense of stability and predictability, which are key features when humans are the agents executing plans suggested by planning tools. This paper adapts three uniformity metrics to automated planning, and introduce planning-based compilations that allow to lexicographically optimize sum of action costs and action costs uniformity. Experimental results both in well-known and novel planning benchmarks show that the reformulated tasks can be effectively solved in practice to generate uniform plans.",
+    "link": "https://arxiv.org/abs/2402.09877",
+    "context": "Title: On Computing Plans with Uniform Action Costs\nAbstract: arXiv:2402.09877v1 Announce Type: new  Abstract: In many real-world planning applications, agents might be interested in finding plans whose actions have costs that are as uniform as possible. Such plans provide agents with a sense of stability and predictability, which are key features when humans are the agents executing plans suggested by planning tools. This paper adapts three uniformity metrics to automated planning, and introduce planning-based compilations that allow to lexicographically optimize sum of action costs and action costs uniformity. Experimental results both in well-known and novel planning benchmarks show that the reformulated tasks can be effectively solved in practice to generate uniform plans.",
+    "path": "papers/24/02/2402.09877.json",
+    "total_tokens": 668,
+    "translated_title": "计算具有统一动作成本的计划",
+    "translated_abstract": "在许多实际的规划应用中，代理人可能有兴趣找到动作成本尽可能一致的计划。这样的计划为代理人提供了稳定性和可预测性，这在人类执行规划工具建议的计划时是关键特征。本文将三个一致性度量应用于自动规划，并引入了基于规划的编译技术，允许以动作成本总和和动作成本一致性进行词典排序最优化。在知名和新颖的规划基准测试中的实验结果表明，可以有效地解决重构的任务以生成一致的计划。",
+    "tldr": "该论文提出了适用于自动规划的三种一致性度量，并引入了基于规划的编译技术，可以生成动作成本一致的计划。"
+}

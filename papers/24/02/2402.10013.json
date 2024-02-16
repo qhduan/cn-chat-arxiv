@@ -1,0 +1,11 @@
+{
+    "title": "Bridging the Empirical-Theoretical Gap in Neural Network Formal Language Learning Using Minimum Description Length",
+    "abstract": "arXiv:2402.10013v1 Announce Type: new  Abstract: Neural networks offer good approximation to many tasks but consistently fail to reach perfect generalization, even when theoretical work shows that such perfect solutions can be expressed by certain architectures. Using the task of formal language learning, we focus on one simple formal language and show that the theoretically correct solution is in fact not an optimum of commonly used objectives -- even with regularization techniques that according to common wisdom should lead to simple weights and good generalization (L1, L2) or other meta-heuristics (early-stopping, dropout). However, replacing standard targets with the Minimum Description Length objective (MDL) results in the correct solution being an optimum.",
+    "link": "https://arxiv.org/abs/2402.10013",
+    "context": "Title: Bridging the Empirical-Theoretical Gap in Neural Network Formal Language Learning Using Minimum Description Length\nAbstract: arXiv:2402.10013v1 Announce Type: new  Abstract: Neural networks offer good approximation to many tasks but consistently fail to reach perfect generalization, even when theoretical work shows that such perfect solutions can be expressed by certain architectures. Using the task of formal language learning, we focus on one simple formal language and show that the theoretically correct solution is in fact not an optimum of commonly used objectives -- even with regularization techniques that according to common wisdom should lead to simple weights and good generalization (L1, L2) or other meta-heuristics (early-stopping, dropout). However, replacing standard targets with the Minimum Description Length objective (MDL) results in the correct solution being an optimum.",
+    "path": "papers/24/02/2402.10013.json",
+    "total_tokens": 682,
+    "translated_title": "利用最小描述长度缩小神经网络形式语言学习中的经验-理论差距",
+    "translated_abstract": "神经网络在许多任务中提供了良好的近似，但是即使理论工作表明这些完美的解可以由特定的架构来表示，它们仍然无法达到完美的泛化。通过使用形式语言学习的任务，我们专注于一个简单的形式语言，并展示了理论上正确的解决方案实际上不是常用目标函数的最优解，即使使用了正则化技术（如L1，L2）或其他元启发式方法（早停，dropout）。然而，将标准目标替换为最小描述长度目标（MDL）可以使正确的解成为最优解。",
+    "tldr": "通过使用最小描述长度目标（MDL），解决了神经网络在形式语言学习中的经验-理论差距问题。"
+}

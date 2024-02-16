@@ -1,0 +1,12 @@
+{
+    "title": "Statistical inference for rough volatility: Minimax Theory",
+    "abstract": "arXiv:2210.01214v2 Announce Type: replace-cross  Abstract: Rough volatility models have gained considerable interest in the quantitative finance community in recent years. In this paradigm, the volatility of the asset price is driven by a fractional Brownian motion with a small value for the Hurst parameter $H$. In this work, we provide a rigorous statistical analysis of these models. To do so, we establish minimax lower bounds for parameter estimation and design procedures based on wavelets attaining them. We notably obtain an optimal speed of convergence of $n^{-1/(4H+2)}$ for estimating $H$ based on n sampled data, extending results known only for the easier case $H>1/2$ so far. We therefore establish that the parameters of rough volatility models can be inferred with optimal accuracy in all regimes.",
+    "link": "https://arxiv.org/abs/2210.01214",
+    "context": "Title: Statistical inference for rough volatility: Minimax Theory\nAbstract: arXiv:2210.01214v2 Announce Type: replace-cross  Abstract: Rough volatility models have gained considerable interest in the quantitative finance community in recent years. In this paradigm, the volatility of the asset price is driven by a fractional Brownian motion with a small value for the Hurst parameter $H$. In this work, we provide a rigorous statistical analysis of these models. To do so, we establish minimax lower bounds for parameter estimation and design procedures based on wavelets attaining them. We notably obtain an optimal speed of convergence of $n^{-1/(4H+2)}$ for estimating $H$ based on n sampled data, extending results known only for the easier case $H>1/2$ so far. We therefore establish that the parameters of rough volatility models can be inferred with optimal accuracy in all regimes.",
+    "path": "papers/22/10/2210.01214.json",
+    "total_tokens": 789,
+    "translated_title": "粗糙波动的统计推断：极小化理论",
+    "translated_abstract": "近年来，粗糙波动模型在量化金融界引起了相当大的关注。在这个模型中，资产价格的波动性由一个具有小的赫斯特参数$H$值的分数布朗运动所驱动。本文对这些模型进行了严格的统计分析。为此，我们建立了参数估计的极小化下界，并设计了基于小波的程序来达到这些下界的估计。我们尤其得到了基于n个采样数据对H进行估计的收敛速度的最优结果为$n^{-1/(4H+2)}$，这扩展了目前仅对于较容易的情况$H>1/2$已知的结果。因此，我们得出结论，粗糙波动模型的参数可以在所有情况下以最优准确性进行推断。",
+    "tldr": "本文提供了对粗糙波动模型进行严格统计分析的研究，通过建立极小化下界和使用小波方法，成功推断了粗糙波动模型的参数，并扩展了现有的结果。",
+    "en_tdlr": "This paper provides a rigorous statistical analysis of rough volatility models and successfully infers the parameters using minimax lower bounds and wavelet methods, extending existing results."
+}

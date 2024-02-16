@@ -1,0 +1,12 @@
+{
+    "title": "Road Graph Generator: Mapping roads at construction sites from GPS data",
+    "abstract": "arXiv:2402.09919v1 Announce Type: new  Abstract: We present a method for road inference from GPS trajectories to map construction sites. This task introduces a unique challenge due to the erratic and non-standard movement patterns of construction machinery, which diverge significantly from typical vehicular traffic on established roads. Our method first identifies intersections in the road network that serve as critical decision points, and later connects them with edges, producing a graph, which subsequently can be used for planning and task-allocation. We demonstrate the effectiveness of our approach by mapping roads at a real-life construction site in Norway.",
+    "link": "https://arxiv.org/abs/2402.09919",
+    "context": "Title: Road Graph Generator: Mapping roads at construction sites from GPS data\nAbstract: arXiv:2402.09919v1 Announce Type: new  Abstract: We present a method for road inference from GPS trajectories to map construction sites. This task introduces a unique challenge due to the erratic and non-standard movement patterns of construction machinery, which diverge significantly from typical vehicular traffic on established roads. Our method first identifies intersections in the road network that serve as critical decision points, and later connects them with edges, producing a graph, which subsequently can be used for planning and task-allocation. We demonstrate the effectiveness of our approach by mapping roads at a real-life construction site in Norway.",
+    "path": "papers/24/02/2402.09919.json",
+    "total_tokens": 686,
+    "translated_title": "道路图生成器：从GPS数据中生成建筑工地道路地图",
+    "translated_abstract": "在本文中，我们提出了一种从GPS轨迹中推测道路以绘制建筑工地地图的方法。这项任务由于建筑机械的不规则和非标准运动模式与已建立道路上的 typcial 车辆交通显著不同，因此面临着独特的挑战。我们的方法首先识别道路网络中作为关键决策点的交叉口，然后连接它们以形成一个图，随后可以用于规划和任务分配。我们通过在挪威的一个实际建筑工地绘制道路来证明我们方法的有效性。",
+    "tldr": "本研究提出了一种通过分析GPS轨迹来绘制建筑工地道路地图的方法，通过识别关键的交叉口并连接它们，生成道路图，为规划和任务分配提供支持。",
+    "en_tdlr": "This study presents a method for mapping roads at construction sites by analyzing GPS trajectories, which identifies critical intersections and connects them to generate a road graph for planning and task allocation support."
+}

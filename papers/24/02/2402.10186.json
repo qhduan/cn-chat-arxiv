@@ -1,0 +1,12 @@
+{
+    "title": "Self-consistent Validation for Machine Learning Electronic Structure",
+    "abstract": "arXiv:2402.10186v1 Announce Type: new  Abstract: Machine learning has emerged as a significant approach to efficiently tackle electronic structure problems. Despite its potential, there is less guarantee for the model to generalize to unseen data that hinders its application in real-world scenarios. To address this issue, a technique has been proposed to estimate the accuracy of the predictions. This method integrates machine learning with self-consistent field methods to achieve both low validation cost and interpret-ability. This, in turn, enables exploration of the model's ability with active learning and instills confidence in its integration into real-world studies.",
+    "link": "https://arxiv.org/abs/2402.10186",
+    "context": "Title: Self-consistent Validation for Machine Learning Electronic Structure\nAbstract: arXiv:2402.10186v1 Announce Type: new  Abstract: Machine learning has emerged as a significant approach to efficiently tackle electronic structure problems. Despite its potential, there is less guarantee for the model to generalize to unseen data that hinders its application in real-world scenarios. To address this issue, a technique has been proposed to estimate the accuracy of the predictions. This method integrates machine learning with self-consistent field methods to achieve both low validation cost and interpret-ability. This, in turn, enables exploration of the model's ability with active learning and instills confidence in its integration into real-world studies.",
+    "path": "papers/24/02/2402.10186.json",
+    "total_tokens": 697,
+    "translated_title": "自洽验证机器学习电子结构",
+    "translated_abstract": "机器学习已经成为有效解决电子结构问题的重要方法。尽管其潜力巨大，但模型在未见数据上的泛化能力缺乏保证，这限制了其在实际场景中的应用。为了解决这个问题，提出了一种技术来估计预测的准确性。该方法将机器学习与自洽场方法结合起来，既能实现低验证成本，又能解释性强。这反过来使得能够通过主动学习来探索模型的能力，并为将其集成到实际研究中赋予信心。",
+    "tldr": "提出了一种自洽验证机器学习电子结构的技术，该技术通过将机器学习与自洽场方法结合起来，实现了低验证成本和强解释能力，并能通过主动学习来探索模型的能力。",
+    "en_tdlr": "A technique for self-consistent validation of machine learning electronic structure has been proposed, which integrates machine learning with self-consistent field methods to achieve low validation cost and strong interpretability, and enables exploration of the model's ability through active learning."
+}

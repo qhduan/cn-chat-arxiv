@@ -1,0 +1,12 @@
+{
+    "title": "Mathematical Explanations",
+    "abstract": "arXiv:2402.09413v1 Announce Type: new  Abstract: A definition of what counts as an explanation of mathematical statement, and when one explanation is better than another, is given. Since all mathematical facts must be true in all causal models, and hence known by an agent, mathematical facts cannot be part of an explanation (under the standard notion of explanation). This problem is solved using impossible possible worlds.",
+    "link": "https://arxiv.org/abs/2402.09413",
+    "context": "Title: Mathematical Explanations\nAbstract: arXiv:2402.09413v1 Announce Type: new  Abstract: A definition of what counts as an explanation of mathematical statement, and when one explanation is better than another, is given. Since all mathematical facts must be true in all causal models, and hence known by an agent, mathematical facts cannot be part of an explanation (under the standard notion of explanation). This problem is solved using impossible possible worlds.",
+    "path": "papers/24/02/2402.09413.json",
+    "total_tokens": 499,
+    "translated_title": "数学解释",
+    "translated_abstract": "给出了数学陈述的解释定义以及一个解释何时比另一个更好的定义。由于所有数学事实必须在所有因果模型中都是真实的，因此由一个代理者所知，数学事实不能是解释的一部分（按照标准的解释观念）。这个问题是通过使用不可能的可能世界来解决的。",
+    "tldr": "该论文讨论了数学陈述的解释问题以及通过使用不可能的可能世界解决了数学解释中的困境。",
+    "en_tdlr": "This paper discusses the issue of explanations for mathematical statements and solves the problem by using impossible possible worlds."
+}

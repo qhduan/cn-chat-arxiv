@@ -1,0 +1,12 @@
+{
+    "title": "Identification with Posterior-Separable Information Costs",
+    "abstract": "arXiv:2402.09789v1 Announce Type: new  Abstract: I provide a model of rational inattention with heterogeneity and prove it is observationally equivalent to a state-dependent stochastic choice model subject to attention costs. I demonstrate that additive separability of unobservable heterogeneity, together with an independence assumption, suffice for the empirical model to admit a representative agent. Using conditional probabilities, I show how to identify: how covariates affect the desirability of goods, (a measure of) welfare, factual changes in welfare, and bounds on counterfactual market shares.",
+    "link": "https://arxiv.org/abs/2402.09789",
+    "context": "Title: Identification with Posterior-Separable Information Costs\nAbstract: arXiv:2402.09789v1 Announce Type: new  Abstract: I provide a model of rational inattention with heterogeneity and prove it is observationally equivalent to a state-dependent stochastic choice model subject to attention costs. I demonstrate that additive separability of unobservable heterogeneity, together with an independence assumption, suffice for the empirical model to admit a representative agent. Using conditional probabilities, I show how to identify: how covariates affect the desirability of goods, (a measure of) welfare, factual changes in welfare, and bounds on counterfactual market shares.",
+    "path": "papers/24/02/2402.09789.json",
+    "total_tokens": 725,
+    "translated_title": "后验可分离信息成本的识别",
+    "translated_abstract": "我提供了一个具有异质性的理性忽视模型，并证明它在观察上等同于一个依赖于状态的随机选择模型，受到注意成本的约束。我证明了不可观测异质性的可加性可分离以及独立性假设足以使经验模型具有代表性代理人。利用条件概率，我展示了如何识别：如何影响商品的可取性的协变量、（一种度量的）福利、福利的实际变化以及反事实市场份额的界限。",
+    "tldr": "这项研究提供了一个在异质性和合理忽视方面的模型，并证明它与受到注意成本约束的状态相关随机选择模型在观察上等效。通过条件概率的分析，揭示了如何确定协变量对商品可取性、福利、福利变化和反事实市场份额的影响。",
+    "en_tdlr": "This research provides a model in heterogeneity and rational inattention and proves its observational equivalence to a state-dependent stochastic choice model subject to attention costs. By analyzing conditional probabilities, it reveals how to identify the impact of covariates on the desirability of goods, welfare, changes in welfare, and counterfactual market shares."
+}

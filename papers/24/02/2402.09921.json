@@ -1,0 +1,11 @@
+{
+    "title": "Identifying and modelling cognitive biases in mobility choices",
+    "abstract": "arXiv:2402.09921v1 Announce Type: cross  Abstract: This report presents results from an M1 internship dedicated to agent-based modelling and simulation of daily mobility choices. This simulation is intended to be realistic enough to serve as a basis for a serious game about the mobility transition. In order to ensure this level of realism, we conducted a survey to measure if real mobility choices are made rationally, or how biased they are. Results analysed here show that various biases could play a role in decisions. We then propose an implementation in a GAMA agent-based simulation.",
+    "link": "https://arxiv.org/abs/2402.09921",
+    "context": "Title: Identifying and modelling cognitive biases in mobility choices\nAbstract: arXiv:2402.09921v1 Announce Type: cross  Abstract: This report presents results from an M1 internship dedicated to agent-based modelling and simulation of daily mobility choices. This simulation is intended to be realistic enough to serve as a basis for a serious game about the mobility transition. In order to ensure this level of realism, we conducted a survey to measure if real mobility choices are made rationally, or how biased they are. Results analysed here show that various biases could play a role in decisions. We then propose an implementation in a GAMA agent-based simulation.",
+    "path": "papers/24/02/2402.09921.json",
+    "total_tokens": 661,
+    "translated_title": "识别和建模移动选择中的认知偏差",
+    "translated_abstract": "本论文报告了一项M1实习工作中关于基于代理的模型和模拟日常移动选择的研究结果。这个模拟旨在足够真实，以作为一个关于移动过渡的严肃游戏的基础。为了确保这种真实性，我们进行了一项调查，以衡量真实移动选择是理性的，还是存在偏差。在这里分析的结果显示，各种偏见可能在决策中起作用。然后，我们在GAMA代理模拟中提出了一种实现方法。",
+    "tldr": "本论文提出了一种研究移动选择中认知偏差的代理模型，并通过调查结果揭示了决策中存在的各种偏见。最后，论文在GAMA代理模拟中实现了这一模型。"
+}

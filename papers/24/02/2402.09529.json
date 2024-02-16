@@ -1,0 +1,12 @@
+{
+    "title": "The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning",
+    "abstract": "arXiv:2402.09529v1 Announce Type: new  Abstract: We introduce the manifold density function, which is an intrinsic method to validate manifold learning techniques. Our approach adapts and extends Ripley's $K$-function, and categorizes in an unsupervised setting the extent to which an output of a manifold learning algorithm captures the structure of a latent manifold. Our manifold density function generalizes to broad classes of Riemannian manifolds. In particular, we extend the manifold density function to general two-manifolds using the Gauss-Bonnet theorem, and demonstrate that the manifold density function for hypersurfaces is well approximated using the first Laplacian eigenvalue. We prove desirable convergence and robustness properties.",
+    "link": "https://arxiv.org/abs/2402.09529",
+    "context": "Title: The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning\nAbstract: arXiv:2402.09529v1 Announce Type: new  Abstract: We introduce the manifold density function, which is an intrinsic method to validate manifold learning techniques. Our approach adapts and extends Ripley's $K$-function, and categorizes in an unsupervised setting the extent to which an output of a manifold learning algorithm captures the structure of a latent manifold. Our manifold density function generalizes to broad classes of Riemannian manifolds. In particular, we extend the manifold density function to general two-manifolds using the Gauss-Bonnet theorem, and demonstrate that the manifold density function for hypersurfaces is well approximated using the first Laplacian eigenvalue. We prove desirable convergence and robustness properties.",
+    "path": "papers/24/02/2402.09529.json",
+    "total_tokens": 713,
+    "translated_title": "流形密度函数：用于验证流形学习的内在方法",
+    "translated_abstract": "我们引入了流形密度函数，这是一种用于验证流形学习技术的内在方法。我们的方法是基于Ripley的K函数，并在无监督设置中将流形学习算法的输出与潜在流形的结构进行匹配。我们的流形密度函数适用于广泛的黎曼流形类别。特别地，我们使用高斯-博内定理将流形密度函数推广到了一般的二维流形，并证明了对于超曲面，可以使用第一个拉普拉斯特征值来近似流形密度函数。我们证明了理想的收敛性和鲁棒性属性。",
+    "tldr": "我们提出了一种流形密度函数的内在方法，用于验证流形学习技术，能够适应各种黎曼流形，并证明了其收敛性和鲁棒性。",
+    "en_tdlr": "We propose an intrinsic method called the manifold density function for validating manifold learning techniques, which can adapt to various Riemannian manifolds and has desirable convergence and robustness properties."
+}

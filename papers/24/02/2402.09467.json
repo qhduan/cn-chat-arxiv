@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Thresholding Linear Bandit",
+    "abstract": "arXiv:2402.09467v1 Announce Type: cross  Abstract: We study a novel pure exploration problem: the $\\epsilon$-Thresholding Bandit Problem (TBP) with fixed confidence in stochastic linear bandits. We prove a lower bound for the sample complexity and extend an algorithm designed for Best Arm Identification in the linear case to TBP that is asymptotically optimal.",
+    "link": "https://arxiv.org/abs/2402.09467",
+    "context": "Title: Optimal Thresholding Linear Bandit\nAbstract: arXiv:2402.09467v1 Announce Type: cross  Abstract: We study a novel pure exploration problem: the $\\epsilon$-Thresholding Bandit Problem (TBP) with fixed confidence in stochastic linear bandits. We prove a lower bound for the sample complexity and extend an algorithm designed for Best Arm Identification in the linear case to TBP that is asymptotically optimal.",
+    "path": "papers/24/02/2402.09467.json",
+    "total_tokens": 544,
+    "translated_title": "最优阈值线性赌博机",
+    "translated_abstract": "我们研究了一种新颖的纯探索问题：具有固定置信度的随机线性赌博机的ε-阈值赌博机问题(TBP)。我们证明了样本复杂性的下界，并将设计用于线性情况下的最佳臂识别算法扩展到了TBP，该算法在渐近意义上是最优的。",
+    "tldr": "本论文研究了具有固定置信度的随机线性赌博机的ε-阈值赌博机问题，并提出了一种在渐近意义上是最优的算法。",
+    "en_tdlr": "This paper studies the $\\epsilon$-Thresholding Bandit Problem (TBP) with fixed confidence in stochastic linear bandits and proposes an asymptotically optimal algorithm."
+}

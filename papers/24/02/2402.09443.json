@@ -1,0 +1,12 @@
+{
+    "title": "Review of algorithms for predicting fatigue using EEG",
+    "abstract": "arXiv:2402.09443v1 Announce Type: cross  Abstract: Fatigue detection is of paramount importance in enhancing safety, productivity, and well-being across diverse domains, including transportation, healthcare, and industry. This scientific paper presents a comprehensive investigation into the application of machine learning algorithms for the detection of physiological fatigue using Electroencephalogram (EEG) signals. The primary objective of this study was to assess the efficacy of various algorithms in predicting an individual's level of fatigue based on EEG data.",
+    "link": "https://arxiv.org/abs/2402.09443",
+    "context": "Title: Review of algorithms for predicting fatigue using EEG\nAbstract: arXiv:2402.09443v1 Announce Type: cross  Abstract: Fatigue detection is of paramount importance in enhancing safety, productivity, and well-being across diverse domains, including transportation, healthcare, and industry. This scientific paper presents a comprehensive investigation into the application of machine learning algorithms for the detection of physiological fatigue using Electroencephalogram (EEG) signals. The primary objective of this study was to assess the efficacy of various algorithms in predicting an individual's level of fatigue based on EEG data.",
+    "path": "papers/24/02/2402.09443.json",
+    "total_tokens": 615,
+    "translated_title": "预测疲劳的 EEG 算法综述",
+    "translated_abstract": "疲劳检测对于提高交通、医疗和工业等各个领域的安全性、生产力和福祉至关重要。本科学论文对使用机器学习算法检测生理疲劳的方法进行了全面的调查，使用脑电图（EEG）信号。本研究的主要目标是评估不同算法在基于 EEG 数据预测个体疲劳水平方面的功效。",
+    "tldr": "该研究综述了使用 EEG 信号进行疲劳预测的机器学习算法，并评估了不同算法在基于 EEG 数据预测个体疲劳水平方面的效果。",
+    "en_tdlr": "This review paper investigates the use of machine learning algorithms for predicting physiological fatigue using Electroencephalogram (EEG) signals, and evaluates the efficacy of different algorithms in predicting an individual's level of fatigue based on EEG data."
+}

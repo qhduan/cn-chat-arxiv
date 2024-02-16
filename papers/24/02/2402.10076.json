@@ -1,0 +1,12 @@
+{
+    "title": "QUICK: Quantization-aware Interleaving and Conflict-free Kernel for efficient LLM inference",
+    "abstract": "arXiv:2402.10076v1 Announce Type: cross  Abstract: We introduce QUICK, a group of novel optimized CUDA kernels for the efficient inference of quantized Large Language Models (LLMs). QUICK addresses the shared memory bank-conflict problem of state-of-the-art mixed precision matrix multiplication kernels. Our method interleaves the quantized weight matrices of LLMs offline to skip the shared memory write-back after the dequantization. We demonstrate up to 1.91x speedup over existing kernels of AutoAWQ on larger batches and up to 1.94x throughput gain on representative LLM models on various NVIDIA GPU devices.",
+    "link": "https://arxiv.org/abs/2402.10076",
+    "context": "Title: QUICK: Quantization-aware Interleaving and Conflict-free Kernel for efficient LLM inference\nAbstract: arXiv:2402.10076v1 Announce Type: cross  Abstract: We introduce QUICK, a group of novel optimized CUDA kernels for the efficient inference of quantized Large Language Models (LLMs). QUICK addresses the shared memory bank-conflict problem of state-of-the-art mixed precision matrix multiplication kernels. Our method interleaves the quantized weight matrices of LLMs offline to skip the shared memory write-back after the dequantization. We demonstrate up to 1.91x speedup over existing kernels of AutoAWQ on larger batches and up to 1.94x throughput gain on representative LLM models on various NVIDIA GPU devices.",
+    "path": "papers/24/02/2402.10076.json",
+    "total_tokens": 721,
+    "translated_title": "QUICK：针对高效LLM推理的量化感知交错和无冲突内核",
+    "translated_abstract": "我们介绍了QUICK，一组用于高效推理量化大语言模型（LLMs）的优化CUDA内核。QUICK解决了现有混合精度矩阵乘法内核的共享内存冲突问题。我们的方法在离线情况下交错LLMs的量化权重矩阵，从而跳过解量化后的共享内存写回。我们在较大批次上展示了与AutoAWQ现有内核相比多达1.91倍的加速效果，并在各种NVIDIA GPU设备上的代表性LLM模型上获得了多达1.94倍的吞吐量增益。",
+    "tldr": "QUICK是一组针对量化大语言模型（LLMs）的高效推理的优化CUDA内核。通过解决共享内存冲突问题和交错量化权重矩阵，QUICK实现了显著的速度提升和吞吐量增益。",
+    "en_tdlr": "QUICK is a group of optimized CUDA kernels for efficient inference of quantized Large Language Models (LLMs). By addressing shared memory conflicts and interleaving quantized weight matrices, QUICK achieves significant speedup and throughput gains."
+}

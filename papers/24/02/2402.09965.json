@@ -1,0 +1,12 @@
+{
+    "title": "Hierarchy Representation of Data in Machine Learnings",
+    "abstract": "arXiv:2402.09965v1 Announce Type: cross  Abstract: When there are models with clear-cut judgment results for several data points, it is possible that most models exhibit a relationship where if they correctly judge one target, they also correctly judge another target. Conversely, if most models incorrectly judge one target, they may also incorrectly judge another target. We propose a method for visualizing this hierarchy among targets. This information is expected to be beneficial for model improvement.",
+    "link": "https://arxiv.org/abs/2402.09965",
+    "context": "Title: Hierarchy Representation of Data in Machine Learnings\nAbstract: arXiv:2402.09965v1 Announce Type: cross  Abstract: When there are models with clear-cut judgment results for several data points, it is possible that most models exhibit a relationship where if they correctly judge one target, they also correctly judge another target. Conversely, if most models incorrectly judge one target, they may also incorrectly judge another target. We propose a method for visualizing this hierarchy among targets. This information is expected to be beneficial for model improvement.",
+    "path": "papers/24/02/2402.09965.json",
+    "total_tokens": 548,
+    "translated_title": "机器学习中数据的层次化表示",
+    "translated_abstract": "当存在多个数据点的模型具有明确的判断结果时，大多数模型可能展示出一种关系，即如果它们正确判断一个目标，则它们也会正确判断另一个目标。相反，如果大多数模型错误地判断一个目标，它们可能也会错误地判断另一个目标。我们提出了一种可视化目标之间层次关系的方法。这些信息有望对模型改进有益。",
+    "tldr": "该论文提出了一种用于可视化目标间层次关系的方法，对于模型改进具有潜在的益处。",
+    "en_tdlr": "This paper proposes a method for visualizing the hierarchy among targets, which has the potential to be beneficial for model improvement."
+}

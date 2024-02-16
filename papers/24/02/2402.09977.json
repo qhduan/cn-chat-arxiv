@@ -1,0 +1,12 @@
+{
+    "title": "Fast Vocabulary Transfer for Language Model Compression",
+    "abstract": "arXiv:2402.09977v1 Announce Type: cross  Abstract: Real-world business applications require a trade-off between language model performance and size. We propose a new method for model compression that relies on vocabulary transfer. We evaluate the method on various vertical domains and downstream tasks. Our results indicate that vocabulary transfer can be effectively used in combination with other compression techniques, yielding a significant reduction in model size and inference time while marginally compromising on performance.",
+    "link": "https://arxiv.org/abs/2402.09977",
+    "context": "Title: Fast Vocabulary Transfer for Language Model Compression\nAbstract: arXiv:2402.09977v1 Announce Type: cross  Abstract: Real-world business applications require a trade-off between language model performance and size. We propose a new method for model compression that relies on vocabulary transfer. We evaluate the method on various vertical domains and downstream tasks. Our results indicate that vocabulary transfer can be effectively used in combination with other compression techniques, yielding a significant reduction in model size and inference time while marginally compromising on performance.",
+    "path": "papers/24/02/2402.09977.json",
+    "total_tokens": 587,
+    "translated_title": "语言模型压缩的快速词汇转移方法",
+    "translated_abstract": "实际业务应用需要在语言模型性能和大小之间做出权衡。我们提出了一种基于词汇转移的模型压缩方法。我们在不同垂直领域和下游任务中评估了该方法。我们的结果表明，词汇转移可以与其他压缩技术有效结合使用，显著减小模型大小和推理时间，同时在性能上略有妥协。",
+    "tldr": "提出了一种基于词汇转移的语言模型压缩方法，通过与其他压缩技术结合使用，显著减小模型大小和推理时间，同时性能略有妥协。",
+    "en_tdlr": "A new method for language model compression using vocabulary transfer is proposed, which, when combined with other compression techniques, significantly reduces the model size and inference time while marginally compromising on performance."
+}

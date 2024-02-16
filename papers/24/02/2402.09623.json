@@ -1,0 +1,11 @@
+{
+    "title": "Conformalized Adaptive Forecasting of Heterogeneous Trajectories",
+    "abstract": "arXiv:2402.09623v1 Announce Type: cross  Abstract: This paper presents a new conformal method for generating simultaneous forecasting bands guaranteed to cover the entire path of a new random trajectory with sufficiently high probability. Prompted by the need for dependable uncertainty estimates in motion planning applications where the behavior of diverse objects may be more or less unpredictable, we blend different techniques from online conformal prediction of single and multiple time series, as well as ideas for addressing heteroscedasticity in regression. This solution is both principled, providing precise finite-sample guarantees, and effective, often leading to more informative predictions than prior methods.",
+    "link": "https://arxiv.org/abs/2402.09623",
+    "context": "Title: Conformalized Adaptive Forecasting of Heterogeneous Trajectories\nAbstract: arXiv:2402.09623v1 Announce Type: cross  Abstract: This paper presents a new conformal method for generating simultaneous forecasting bands guaranteed to cover the entire path of a new random trajectory with sufficiently high probability. Prompted by the need for dependable uncertainty estimates in motion planning applications where the behavior of diverse objects may be more or less unpredictable, we blend different techniques from online conformal prediction of single and multiple time series, as well as ideas for addressing heteroscedasticity in regression. This solution is both principled, providing precise finite-sample guarantees, and effective, often leading to more informative predictions than prior methods.",
+    "path": "papers/24/02/2402.09623.json",
+    "total_tokens": 783,
+    "translated_title": "多元轨迹的符合性自适应预测方法",
+    "translated_abstract": "本文提出了一种新的符合性方法，用于生成同时预测边界，以具有足够高的概率覆盖新随机轨迹的整个路径。鉴于在运动规划应用中需要可靠的不确定性估计，其中不同物体的行为可能更或更少可预测，我们将来自单个和多个时间序列的在线符合性预测技术，以及解决回归中的异方差性的方法进行了融合。该解决方案既有原则性，提供了精确的有限样本保证，又有效，通常比先前的方法具有更丰富的预测结果。",
+    "tldr": "本研究提出了一种新的符合性方法，通过结合在线符合性预测技术和解决回归中异方差性的方法，生成了同时预测边界，并能够可靠地覆盖新随机轨迹的整个路径。这种方法不仅有精确的有限样本保证，而且往往比之前的方法具有更丰富的预测结果。"
+}
