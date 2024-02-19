@@ -1,0 +1,12 @@
+{
+    "title": "Understanding team collapse via probabilistic graphical models",
+    "abstract": "arXiv:2402.10243v1 Announce Type: cross  Abstract: In this work, we develop a graphical model to capture team dynamics. We analyze the model and show how to learn its parameters from data. Using our model we study the phenomenon of team collapse from a computational perspective. We use simulations and real-world experiments to find the main causes of team collapse. We also provide the principles of building resilient teams, i.e., teams that avoid collapsing. Finally, we use our model to analyze the structure of NBA teams and dive deeper into games of interest.",
+    "link": "https://arxiv.org/abs/2402.10243",
+    "context": "Title: Understanding team collapse via probabilistic graphical models\nAbstract: arXiv:2402.10243v1 Announce Type: cross  Abstract: In this work, we develop a graphical model to capture team dynamics. We analyze the model and show how to learn its parameters from data. Using our model we study the phenomenon of team collapse from a computational perspective. We use simulations and real-world experiments to find the main causes of team collapse. We also provide the principles of building resilient teams, i.e., teams that avoid collapsing. Finally, we use our model to analyze the structure of NBA teams and dive deeper into games of interest.",
+    "path": "papers/24/02/2402.10243.json",
+    "total_tokens": 662,
+    "translated_title": "通过概率图模型理解团队崩溃",
+    "translated_abstract": "在这项工作中，我们开发了一个图模型来捕捉团队动态。我们分析了该模型，并展示了如何从数据中学习其参数。利用我们的模型，我们从计算的角度研究了团队崩溃现象。我们使用模拟和真实世界实验来找出团队崩溃的主要原因。我们还提供了构建弹性团队的原则，即避免崩溃的团队。最后，我们使用我们的模型来分析NBA球队的结构，并深入研究感兴趣的比赛。",
+    "tldr": "本研究开发了一个概率图模型来理解团队的动态，并通过研究团队崩溃现象的主要原因以及构建弹性团队的原则来展示其在团队管理中的应用。",
+    "en_tdlr": "This study develops a probabilistic graphical model to understand team dynamics, investigates the main causes of team collapse, and provides principles for building resilient teams in team management."
+}

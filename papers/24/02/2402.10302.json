@@ -1,0 +1,12 @@
+{
+    "title": "How to Discern Important Urgent News?",
+    "abstract": "arXiv:2402.10302v1 Announce Type: new  Abstract: We found that a simple property of clusters in a clustered dataset of news correlate strongly with importance and urgency of news (IUN) as assessed by LLM. We verified our finding across different news datasets, dataset sizes, clustering algorithms and embeddings. The found correlation should allow using clustering (as an alternative to LLM) for identifying the most important urgent news, or for filtering out unimportant articles.",
+    "link": "https://arxiv.org/abs/2402.10302",
+    "context": "Title: How to Discern Important Urgent News?\nAbstract: arXiv:2402.10302v1 Announce Type: new  Abstract: We found that a simple property of clusters in a clustered dataset of news correlate strongly with importance and urgency of news (IUN) as assessed by LLM. We verified our finding across different news datasets, dataset sizes, clustering algorithms and embeddings. The found correlation should allow using clustering (as an alternative to LLM) for identifying the most important urgent news, or for filtering out unimportant articles.",
+    "path": "papers/24/02/2402.10302.json",
+    "total_tokens": 599,
+    "translated_title": "如何识别重要紧急新闻？",
+    "translated_abstract": "我们发现在新闻的聚类数据集中，一种简单的属性与由LLM评估的新闻的重要性和紧急性（IUN）强相关。我们验证了我们的发现在不同的新闻数据集、数据集大小、聚类算法和嵌入上的普遍性。我们发现的相关性应该允许使用聚类（作为LLM的替代）来识别最重要的紧急新闻，或者用于过滤不重要的文章。",
+    "tldr": "通过分析新闻数据集中的聚类属性，可以强相关地识别出新闻的重要性和紧急性，为识别重要紧急新闻或过滤不重要文章提供了新方法。",
+    "en_tdlr": "Analyzing clustering properties in news datasets can strongly correlate with importance and urgency of news, providing a new method for identifying important urgent news or filtering out unimportant articles."
+}

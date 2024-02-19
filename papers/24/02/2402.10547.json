@@ -1,0 +1,12 @@
+{
+    "title": "Learning Disentangled Audio Representations through Controlled Synthesis",
+    "abstract": "arXiv:2402.10547v1 Announce Type: cross  Abstract: This paper tackles the scarcity of benchmarking data in disentangled auditory representation learning. We introduce SynTone, a synthetic dataset with explicit ground truth explanatory factors for evaluating disentanglement techniques. Benchmarking state-of-the-art methods on SynTone highlights its utility for method evaluation. Our results underscore strengths and limitations in audio disentanglement, motivating future research.",
+    "link": "https://arxiv.org/abs/2402.10547",
+    "context": "Title: Learning Disentangled Audio Representations through Controlled Synthesis\nAbstract: arXiv:2402.10547v1 Announce Type: cross  Abstract: This paper tackles the scarcity of benchmarking data in disentangled auditory representation learning. We introduce SynTone, a synthetic dataset with explicit ground truth explanatory factors for evaluating disentanglement techniques. Benchmarking state-of-the-art methods on SynTone highlights its utility for method evaluation. Our results underscore strengths and limitations in audio disentanglement, motivating future research.",
+    "path": "papers/24/02/2402.10547.json",
+    "total_tokens": 597,
+    "translated_title": "通过受控合成学习解耦的音频表示",
+    "translated_abstract": "这篇论文解决了在解耦音频表示学习中基准数据稀缺的问题。我们引入了SynTone，一个具有明确地面实际解释因素的合成数据集，用于评估解耦技术。在SynTone上对最先进的方法进行基准测试突显了它在方法评估中的实用性。我们的结果强调了音频解耦的优势和局限性，激励未来的研究。",
+    "tldr": "通过引入SynTone合成数据集，解决了音频表示学习中基准数据稀缺的问题，并提出了用于评估解耦技术的新方法。",
+    "en_tdlr": "Addressing the scarcity of benchmarking data in disentangled auditory representation learning by introducing the SynTone synthetic dataset for evaluating disentanglement techniques. Our results highlight strengths and limitations in audio disentanglement, motivating future research."
+}

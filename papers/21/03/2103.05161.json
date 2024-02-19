@@ -1,0 +1,12 @@
+{
+    "title": "The Efficient Shrinkage Path: Maximum Likelihood of Minimum MSE Risk",
+    "abstract": "arXiv:2103.05161v5 Announce Type: replace-cross  Abstract: A new generalized ridge regression shrinkage path is proposed that is as short as possible under the restriction that it must pass through the vector of regression coefficient estimators that make the overall Optimal Variance-Bias Trade-Off under Normal distribution-theory. Five distinct types of ridge TRACE displays plus other graphics for this efficient path are motivated and illustrated here. These visualizations provide invaluable data-analytic insights and improved self-confidence to researchers and data scientists fitting linear models to ill-conditioned (confounded) data.",
+    "link": "https://arxiv.org/abs/2103.05161",
+    "context": "Title: The Efficient Shrinkage Path: Maximum Likelihood of Minimum MSE Risk\nAbstract: arXiv:2103.05161v5 Announce Type: replace-cross  Abstract: A new generalized ridge regression shrinkage path is proposed that is as short as possible under the restriction that it must pass through the vector of regression coefficient estimators that make the overall Optimal Variance-Bias Trade-Off under Normal distribution-theory. Five distinct types of ridge TRACE displays plus other graphics for this efficient path are motivated and illustrated here. These visualizations provide invaluable data-analytic insights and improved self-confidence to researchers and data scientists fitting linear models to ill-conditioned (confounded) data.",
+    "path": "papers/21/03/2103.05161.json",
+    "total_tokens": 661,
+    "translated_title": "高效收缩路径：最小均方误差风险的最大似然",
+    "translated_abstract": "提出了一种新的广义岭回归收缩路径，该路径是在通过使总体在正态分布理论下实现最佳方差-偏差权衡的回归系数估计向量的限制条件下尽可能短。激励和展示了五种不同类型的岭路径轨迹显示以及其他图形。这些可视化提供了宝贵的数据分析见解，并提高了对将线性模型拟合到病态（混淆）数据的研究人员和数据科学家的自信心。",
+    "tldr": "提出了新的广义岭回归收缩路径，通过最小均方误差风险的最大似然实现最佳方差-偏差权衡，提供了宝贵的数据分析见解。",
+    "en_tdlr": "A new generalized ridge regression shrinkage path is proposed to achieve the optimal variance-bias trade-off by minimizing the mean squared error risk, providing valuable data-analytic insights."
+}

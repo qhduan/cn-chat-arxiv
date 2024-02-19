@@ -1,0 +1,12 @@
+{
+    "title": "Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models",
+    "abstract": "arXiv:2402.10552v1 Announce Type: new  Abstract: Simultaneous machine translation (SimulMT) presents a challenging trade-off between translation quality and latency. Recent studies have shown that LLMs can achieve good performance in SimulMT tasks. However, this often comes at the expense of high inference cost and latency. In this paper, we propose a conversational SimulMT framework to enhance the inference efficiency of LLM-based SimulMT through multi-turn-dialogue-based decoding. Our experiments with Llama2-7b-chat on two SimulMT benchmarks demonstrate the superiority of LLM in translation quality while achieving comparable computational latency to specialized SimulMT models.",
+    "link": "https://arxiv.org/abs/2402.10552",
+    "context": "Title: Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models\nAbstract: arXiv:2402.10552v1 Announce Type: new  Abstract: Simultaneous machine translation (SimulMT) presents a challenging trade-off between translation quality and latency. Recent studies have shown that LLMs can achieve good performance in SimulMT tasks. However, this often comes at the expense of high inference cost and latency. In this paper, we propose a conversational SimulMT framework to enhance the inference efficiency of LLM-based SimulMT through multi-turn-dialogue-based decoding. Our experiments with Llama2-7b-chat on two SimulMT benchmarks demonstrate the superiority of LLM in translation quality while achieving comparable computational latency to specialized SimulMT models.",
+    "path": "papers/24/02/2402.10552.json",
+    "total_tokens": 733,
+    "translated_title": "Conversational SimulMT: 基于大型语言模型的高效同时翻译",
+    "translated_abstract": "同声机器翻译（SimulMT）在翻译质量和延迟之间存在挑战性的权衡。最近的研究表明，大型语言模型（LLMs）在SimulMT任务中可以取得很好的表现。然而，这往往是以推理成本和延迟的增加为代价的。本文提出了一种对话式SimulMT框架，通过基于多轮对话的解码来提高基于LLM的SimulMT的推理效率。我们在两个SimulMT基准上使用Llama2-7b-chat进行实验，结果表明LLM在翻译质量上具有优势，同时实现与专门的SimulMT模型相当的计算延迟。",
+    "tldr": "通过对话式SimulMT框架，本文提高了基于LLM的SimulMT推理效率，在保持翻译质量的同时实现与专门的SimulMT模型相近的计算延迟。",
+    "en_tdlr": "This paper enhances the inference efficiency of LLM-based SimulMT through a conversational framework, achieving comparable computational latency to specialized SimulMT models while maintaining translation quality."
+}

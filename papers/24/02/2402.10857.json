@@ -1,0 +1,12 @@
+{
+    "title": "JetTrain: IDE-Native Machine Learning Experiments",
+    "abstract": "arXiv:2402.10857v1 Announce Type: cross  Abstract: Integrated development environments (IDEs) are prevalent code-writing and debugging tools. However, they have yet to be widely adopted for launching machine learning (ML) experiments. This work aims to fill this gap by introducing JetTrain, an IDE-integrated tool that delegates specific tasks from an IDE to remote computational resources. A user can write and debug code locally and then seamlessly run it remotely using on-demand hardware. We argue that this approach can lower the entry barrier for ML training problems and increase experiment throughput.",
+    "link": "https://arxiv.org/abs/2402.10857",
+    "context": "Title: JetTrain: IDE-Native Machine Learning Experiments\nAbstract: arXiv:2402.10857v1 Announce Type: cross  Abstract: Integrated development environments (IDEs) are prevalent code-writing and debugging tools. However, they have yet to be widely adopted for launching machine learning (ML) experiments. This work aims to fill this gap by introducing JetTrain, an IDE-integrated tool that delegates specific tasks from an IDE to remote computational resources. A user can write and debug code locally and then seamlessly run it remotely using on-demand hardware. We argue that this approach can lower the entry barrier for ML training problems and increase experiment throughput.",
+    "path": "papers/24/02/2402.10857.json",
+    "total_tokens": 614,
+    "translated_title": "JetTrain: IDE原生的机器学习实验",
+    "translated_abstract": "集成开发环境（IDE）是常见的编写和调试工具。然而，它们尚未被广泛采用于启动机器学习（ML）实验。本文旨在通过引入JetTrain来填补这一空白，JetTrain是一个IDE集成工具，将特定任务从IDE委派给远程计算资源。用户可以在本地编写和调试代码，然后使用按需硬件无缝地在远程运行它。我们认为，这种方法可以降低ML训练问题的准入门槛并增加实验吞吐量。",
+    "tldr": "JetTrain是一个将特定任务从IDE委派给远程计算资源的IDE工具，可以提高机器学习实验的效率。",
+    "en_tdlr": "JetTrain is an IDE tool that delegates specific tasks from IDE to remote computational resources, improving the efficiency of machine learning experiments."
+}

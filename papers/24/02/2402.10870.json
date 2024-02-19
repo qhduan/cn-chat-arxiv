@@ -1,0 +1,12 @@
+{
+    "title": "Best of Three Worlds: Adaptive Experimentation for Digital Marketing in Practice",
+    "abstract": "arXiv:2402.10870v1 Announce Type: new  Abstract: Adaptive experimental design (AED) methods are increasingly being used in industry as a tool to boost testing throughput or reduce experimentation cost relative to traditional A/B/N testing methods. However, the behavior and guarantees of such methods are not well-understood beyond idealized stationary settings. This paper shares lessons learned regarding the challenges of naively using AED systems in industrial settings where non-stationarity is prevalent, while also providing perspectives on the proper objectives and system specifications in such settings. We developed an AED framework for counterfactual inference based on these experiences, and tested it in a commercial environment.",
+    "link": "https://arxiv.org/abs/2402.10870",
+    "context": "Title: Best of Three Worlds: Adaptive Experimentation for Digital Marketing in Practice\nAbstract: arXiv:2402.10870v1 Announce Type: new  Abstract: Adaptive experimental design (AED) methods are increasingly being used in industry as a tool to boost testing throughput or reduce experimentation cost relative to traditional A/B/N testing methods. However, the behavior and guarantees of such methods are not well-understood beyond idealized stationary settings. This paper shares lessons learned regarding the challenges of naively using AED systems in industrial settings where non-stationarity is prevalent, while also providing perspectives on the proper objectives and system specifications in such settings. We developed an AED framework for counterfactual inference based on these experiences, and tested it in a commercial environment.",
+    "path": "papers/24/02/2402.10870.json",
+    "total_tokens": 718,
+    "translated_title": "三界之最：实践中的数字营销自适应实验",
+    "translated_abstract": "自适应实验设计（AED）方法越来越多地被工业界用作一种工具，以提高测试吞吐量或减少与传统A/B/N测试方法相比的实验成本。然而，这些方法的行为和保证在理想化的稳态设置之外并不为人熟知。本文分享了有关在工业环境中天真地使用AED系统面临的挑战，以及在这种环境中适当的目标和系统规格的视角。我们根据这些经验开发了一个基于反事实推断的AED框架，并在商业环境中进行了测试。",
+    "tldr": "本文分享了关于在工业环境中使用AED系统面临的挑战，并提供了在这种环境中适当的目标和系统规格的视角，最终开发了一个基于反事实推断的AED框架并在商业环境中进行了测试。",
+    "en_tdlr": "This paper shares the challenges of using AED systems in industrial settings, provides perspectives on the proper objectives and system specifications in such environments, and ultimately develops an AED framework based on counterfactual inference tested in a commercial environment."
+}

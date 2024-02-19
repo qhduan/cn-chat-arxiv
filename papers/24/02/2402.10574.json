@@ -1,0 +1,12 @@
+{
+    "title": "Nowcasting with mixed frequency data using Gaussian processes",
+    "abstract": "arXiv:2402.10574v1 Announce Type: new  Abstract: We propose and discuss Bayesian machine learning methods for mixed data sampling (MIDAS) regressions. This involves handling frequency mismatches with restricted and unrestricted MIDAS variants and specifying functional relationships between many predictors and the dependent variable. We use Gaussian processes (GP) and Bayesian additive regression trees (BART) as flexible extensions to linear penalized estimation. In a nowcasting and forecasting exercise we focus on quarterly US output growth and inflation in the GDP deflator. The new models leverage macroeconomic Big Data in a computationally efficient way and offer gains in predictive accuracy along several dimensions.",
+    "link": "https://arxiv.org/abs/2402.10574",
+    "context": "Title: Nowcasting with mixed frequency data using Gaussian processes\nAbstract: arXiv:2402.10574v1 Announce Type: new  Abstract: We propose and discuss Bayesian machine learning methods for mixed data sampling (MIDAS) regressions. This involves handling frequency mismatches with restricted and unrestricted MIDAS variants and specifying functional relationships between many predictors and the dependent variable. We use Gaussian processes (GP) and Bayesian additive regression trees (BART) as flexible extensions to linear penalized estimation. In a nowcasting and forecasting exercise we focus on quarterly US output growth and inflation in the GDP deflator. The new models leverage macroeconomic Big Data in a computationally efficient way and offer gains in predictive accuracy along several dimensions.",
+    "path": "papers/24/02/2402.10574.json",
+    "total_tokens": 731,
+    "translated_title": "使用高斯过程进行混合频率数据的现场预测",
+    "translated_abstract": "我们提出并讨论了用于混合数据采样（MIDAS）回归的贝叶斯机器学习方法。这涉及使用受限和非受限的MIDAS变体处理频率不匹配，并指定许多预测变量与因变量之间的函数关系。我们使用高斯过程（GP）和贝叶斯添加回归树（BART）作为线性惩罚估计的灵活扩展。在现场预测和预测练习中，我们专注于季度美国产出增长和GDP价格指数的通货膨胀。这些新模型以计算效率的方式利用宏观经济大数据，并在多个维度上提供了预测准确度的增益。",
+    "tldr": "使用高斯过程和贝叶斯添加回归树作为线性惩罚估计的灵活扩展，解决了混合频率数据中的频率不匹配问题，提高了现场预测的准确性。",
+    "en_tdlr": "Using Gaussian processes and Bayesian additive regression trees as flexible extensions to linear penalized estimation, the paper addresses the issue of frequency mismatches in mixed frequency data, improving the accuracy of nowcasting."
+}

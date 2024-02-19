@@ -1,0 +1,12 @@
+{
+    "title": "Late-time transition of $M_B$ inferred via neural networks",
+    "abstract": "arXiv:2402.10502v1 Announce Type: cross  Abstract: The strengthening of tensions in the cosmological parameters has led to a reconsideration of fundamental aspects of standard cosmology. The tension in the Hubble constant can also be viewed as a tension between local and early Universe constraints on the absolute magnitude $M_B$ of Type Ia supernova. In this work, we reconsider the possibility of a variation of this parameter in a model-independent way. We employ neural networks to agnostically constrain the value of the absolute magnitude as well as assess the impact and statistical significance of a variation in $M_B$ with redshift from the Pantheon+ compilation, together with a thorough analysis of the neural network architecture. We find an indication for a transition redshift at the $z\\approx 1$ region.",
+    "link": "https://arxiv.org/abs/2402.10502",
+    "context": "Title: Late-time transition of $M_B$ inferred via neural networks\nAbstract: arXiv:2402.10502v1 Announce Type: cross  Abstract: The strengthening of tensions in the cosmological parameters has led to a reconsideration of fundamental aspects of standard cosmology. The tension in the Hubble constant can also be viewed as a tension between local and early Universe constraints on the absolute magnitude $M_B$ of Type Ia supernova. In this work, we reconsider the possibility of a variation of this parameter in a model-independent way. We employ neural networks to agnostically constrain the value of the absolute magnitude as well as assess the impact and statistical significance of a variation in $M_B$ with redshift from the Pantheon+ compilation, together with a thorough analysis of the neural network architecture. We find an indication for a transition redshift at the $z\\approx 1$ region.",
+    "path": "papers/24/02/2402.10502.json",
+    "total_tokens": 736,
+    "translated_title": "通过神经网络推断$M_B$的晚期转变",
+    "translated_abstract": "强化宇宙参数之间的紧张关系导致对标准宇宙学基本方面的重新考虑。哈勃常数的紧张也可以被视为局部和早期宇宙对Ia型超新星绝对星等$ M_B $的约束之间的紧张。在这项工作中，我们以一种与模型无关的方式重新考虑了该参数的变化可能性。我们利用神经网络来无偏地限制绝对星等值，并评估与Pantheon+汇编中$ M_B $随红移变化的影响和统计显著性，以及对神经网络架构的彻底分析。我们发现了一个在$ z\\approx 1 $区域的转折红移的迹象。",
+    "tldr": "本研究通过神经网络对绝对星等$M_B$进行约束，并发现在$z\\approx 1$区域存在转折红移迹象",
+    "en_tdlr": "This study constrains the absolute magnitude $M_B$ via neural networks and finds evidence for a transition redshift around $z\\approx 1$."
+}

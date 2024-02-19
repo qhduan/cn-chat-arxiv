@@ -1,0 +1,12 @@
+{
+    "title": "On Explaining Unfairness: An Overview",
+    "abstract": "arXiv:2402.10762v1 Announce Type: new  Abstract: Algorithmic fairness and explainability are foundational elements for achieving responsible AI. In this paper, we focus on their interplay, a research area that is recently receiving increasing attention. To this end, we first present two comprehensive taxonomies, each representing one of the two complementary fields of study: fairness and explanations. Then, we categorize explanations for fairness into three types: (a) Explanations to enhance fairness metrics, (b) Explanations to help us understand the causes of (un)fairness, and (c) Explanations to assist us in designing methods for mitigating unfairness. Finally, based on our fairness and explanation taxonomies, we present undiscovered literature paths revealing gaps that can serve as valuable insights for future research.",
+    "link": "https://arxiv.org/abs/2402.10762",
+    "context": "Title: On Explaining Unfairness: An Overview\nAbstract: arXiv:2402.10762v1 Announce Type: new  Abstract: Algorithmic fairness and explainability are foundational elements for achieving responsible AI. In this paper, we focus on their interplay, a research area that is recently receiving increasing attention. To this end, we first present two comprehensive taxonomies, each representing one of the two complementary fields of study: fairness and explanations. Then, we categorize explanations for fairness into three types: (a) Explanations to enhance fairness metrics, (b) Explanations to help us understand the causes of (un)fairness, and (c) Explanations to assist us in designing methods for mitigating unfairness. Finally, based on our fairness and explanation taxonomies, we present undiscovered literature paths revealing gaps that can serve as valuable insights for future research.",
+    "path": "papers/24/02/2402.10762.json",
+    "total_tokens": 787,
+    "translated_title": "关于解释不公平性：综述",
+    "translated_abstract": "算法公平性和可解释性是实现负责任人工智能的基本要素。本文关注它们的相互作用，这是最近受到越来越多关注的一个研究领域。首先，我们提出了两个全面的分类法，分别代表两个互补的研究领域：公平性和解释。然后，我们将用于公平性的解释分为三类：(a) 用于增强公平性指标的解释，(b) 有助于我们理解(不)公平性原因的解释，(c) 用于协助我们设计减轻不公平性方法的解释。最后，基于我们的公平性和解释分类法，我们提出未被发现的文献路径，揭示可以作为未来研究宝贵见解的空白。",
+    "tldr": "本文提出了算法公平性和可解释性在实现负责任人工智能中的重要性，并系统性地探讨了它们之间的关系、不同类型的公平性解释以及研究中的空白。",
+    "en_tdlr": "This paper highlights the importance of algorithmic fairness and explainability in achieving responsible AI, systematically explores their interplay, different types of fairness explanations, and identifies gaps for future research."
+}

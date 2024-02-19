@@ -1,0 +1,12 @@
+{
+    "title": "Experiments with Encoding Structured Data for Neural Networks",
+    "abstract": "arXiv:2402.10290v1 Announce Type: new  Abstract: The project's aim is to create an AI agent capable of selecting good actions in a game-playing domain called Battlespace. Sequential domains like Battlespace are important testbeds for planning problems, as such, the Department of Defense uses such domains for wargaming exercises. The agents we developed combine Monte Carlo Tree Search (MCTS) and Deep Q-Network (DQN) techniques in an effort to navigate the game environment, avoid obstacles, interact with adversaries, and capture the flag. This paper will focus on the encoding techniques we explored to present complex structured data stored in a Python class, a necessary precursor to an agent.",
+    "link": "https://arxiv.org/abs/2402.10290",
+    "context": "Title: Experiments with Encoding Structured Data for Neural Networks\nAbstract: arXiv:2402.10290v1 Announce Type: new  Abstract: The project's aim is to create an AI agent capable of selecting good actions in a game-playing domain called Battlespace. Sequential domains like Battlespace are important testbeds for planning problems, as such, the Department of Defense uses such domains for wargaming exercises. The agents we developed combine Monte Carlo Tree Search (MCTS) and Deep Q-Network (DQN) techniques in an effort to navigate the game environment, avoid obstacles, interact with adversaries, and capture the flag. This paper will focus on the encoding techniques we explored to present complex structured data stored in a Python class, a necessary precursor to an agent.",
+    "path": "papers/24/02/2402.10290.json",
+    "total_tokens": 700,
+    "translated_title": "着重于为神经网络编码结构化数据的实验",
+    "translated_abstract": "该项目的目标是创建一个AI代理，能够在名为战场的游戏领域中选择良好的行动。类似战场的顺序领域是规划问题的重要测试平台，因此国防部使用这些领域进行战争演习。我们开发的代理结合了蒙特卡洛树搜索（MCTS）和深度Q网络（DQN）技术，试图在游戏环境中导航，避开障碍，与对手互动并夺旗。本文将重点关注我们探索的编码技术，以展示存储在Python类中的复杂结构化数据，这是一个代理的必要前提。",
+    "tldr": "该论文着眼于探索为神经网络编码结构化数据的技术，以便在游戏领域中创建一个能够选择良好行动的AI代理。",
+    "en_tdlr": "This paper focuses on exploring techniques for encoding structured data for neural networks to create an AI agent capable of selecting good actions in a game-playing domain."
+}

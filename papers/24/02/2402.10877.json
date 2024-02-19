@@ -1,0 +1,12 @@
+{
+    "title": "Robust agents learn causal world models",
+    "abstract": "arXiv:2402.10877v1 Announce Type: new  Abstract: It has long been hypothesised that causal reasoning plays a fundamental role in robust and general intelligence. However, it is not known if agents must learn causal models in order to generalise to new domains, or if other inductive biases are sufficient. We answer this question, showing that any agent capable of satisfying a regret bound under a large set of distributional shifts must have learned an approximate causal model of the data generating process, which converges to the true causal model for optimal agents. We discuss the implications of this result for several research areas including transfer learning and causal inference.",
+    "link": "https://arxiv.org/abs/2402.10877",
+    "context": "Title: Robust agents learn causal world models\nAbstract: arXiv:2402.10877v1 Announce Type: new  Abstract: It has long been hypothesised that causal reasoning plays a fundamental role in robust and general intelligence. However, it is not known if agents must learn causal models in order to generalise to new domains, or if other inductive biases are sufficient. We answer this question, showing that any agent capable of satisfying a regret bound under a large set of distributional shifts must have learned an approximate causal model of the data generating process, which converges to the true causal model for optimal agents. We discuss the implications of this result for several research areas including transfer learning and causal inference.",
+    "path": "papers/24/02/2402.10877.json",
+    "total_tokens": 707,
+    "translated_title": "强健的智能体学习因果世界模型",
+    "translated_abstract": "一直有人假设因果推理在强健且具有通用智能中起着基础作用，然而不清楚智能体是否必须学习因果模型才能推广到新的领域，或者其他归纳偏差是否足够。我们回答了这个问题，表明任何能够在大量分布转变下满足后悔界限的智能体必须学习数据生成过程的近似因果模型，对于优化智能体来说，该近似模型会收敛到真实的因果模型。我们讨论了这一结果对于多个研究领域，包括迁移学习和因果推断的影响。",
+    "tldr": "智能体必须学习因果模型才能在广泛的分布转变下达到后悔界限，这对迁移学习和因果推断等研究领域有重要影响。",
+    "en_tdlr": "Agents must learn causal models to reach a regret bound under a large set of distributional shifts, impacting research areas such as transfer learning and causal inference."
+}

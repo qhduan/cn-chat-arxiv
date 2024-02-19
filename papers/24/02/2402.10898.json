@@ -1,0 +1,12 @@
+{
+    "title": "The Price of Adaptivity in Stochastic Convex Optimization",
+    "abstract": "arXiv:2402.10898v1 Announce Type: cross  Abstract: We prove impossibility results for adaptivity in non-smooth stochastic convex optimization. Given a set of problem parameters we wish to adapt to, we define a \"price of adaptivity\" (PoA) that, roughly speaking, measures the multiplicative increase in suboptimality due to uncertainty in these parameters. When the initial distance to the optimum is unknown but a gradient norm bound is known, we show that the PoA is at least logarithmic for expected suboptimality, and double-logarithmic for median suboptimality. When there is uncertainty in both distance and gradient norm, we show that the PoA must be polynomial in the level of uncertainty. Our lower bounds nearly match existing upper bounds, and establish that there is no parameter-free lunch.",
+    "link": "https://arxiv.org/abs/2402.10898",
+    "context": "Title: The Price of Adaptivity in Stochastic Convex Optimization\nAbstract: arXiv:2402.10898v1 Announce Type: cross  Abstract: We prove impossibility results for adaptivity in non-smooth stochastic convex optimization. Given a set of problem parameters we wish to adapt to, we define a \"price of adaptivity\" (PoA) that, roughly speaking, measures the multiplicative increase in suboptimality due to uncertainty in these parameters. When the initial distance to the optimum is unknown but a gradient norm bound is known, we show that the PoA is at least logarithmic for expected suboptimality, and double-logarithmic for median suboptimality. When there is uncertainty in both distance and gradient norm, we show that the PoA must be polynomial in the level of uncertainty. Our lower bounds nearly match existing upper bounds, and establish that there is no parameter-free lunch.",
+    "path": "papers/24/02/2402.10898.json",
+    "total_tokens": 764,
+    "translated_title": "随机凸优化中适应性的代价",
+    "translated_abstract": "我们证明了在非光滑随机凸优化中适应性的不可能性结果。给定一组我们希望适应的问题参数，我们定义了“适应性的代价”（PoA），粗略地说，它衡量了由于这些参数的不确定性而导致的次优性的乘法增加。当初始距离最优解未知但梯度范数有界时，我们证明PoA至少对于期望次优性是对数级别，对于中位数次优性是双对数级别。当距离和梯度范数都存在不确定性时，我们表明PoA必须是与不确定性水平多项式相关的。我们的下界几乎与现有的上界相匹配，并且确定了没有无参数午餐的结论。",
+    "tldr": "该论文证明了在非光滑随机凸优化中，适应性的代价是无法避免的，并且给出了关于不确定性参数的次优性乘法增加的下界。",
+    "en_tdlr": "This paper proves the impossibility of adaptivity in non-smooth stochastic convex optimization and establishes the lower bounds on the multiplicative increase in suboptimality due to uncertainty in parameters."
+}

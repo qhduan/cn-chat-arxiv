@@ -1,0 +1,12 @@
+{
+    "title": "Hijack Vertical Federated Learning Models As One Party",
+    "abstract": "arXiv:2212.00322v2 Announce Type: replace-cross  Abstract: Vertical federated learning (VFL) is an emerging paradigm that enables collaborators to build machine learning models together in a distributed fashion. In general, these parties have a group of users in common but own different features. Existing VFL frameworks use cryptographic techniques to provide data privacy and security guarantees, leading to a line of works studying computing efficiency and fast implementation. However, the security of VFL's model remains underexplored.",
+    "link": "https://arxiv.org/abs/2212.00322",
+    "context": "Title: Hijack Vertical Federated Learning Models As One Party\nAbstract: arXiv:2212.00322v2 Announce Type: replace-cross  Abstract: Vertical federated learning (VFL) is an emerging paradigm that enables collaborators to build machine learning models together in a distributed fashion. In general, these parties have a group of users in common but own different features. Existing VFL frameworks use cryptographic techniques to provide data privacy and security guarantees, leading to a line of works studying computing efficiency and fast implementation. However, the security of VFL's model remains underexplored.",
+    "path": "papers/22/12/2212.00322.json",
+    "total_tokens": 608,
+    "translated_title": "水平联邦学习模型的单方面劫持",
+    "translated_abstract": "水平联邦学习（VFL）是一种新兴范式，使合作伙伴能够以分布式方式共同构建机器学习模型。一般来说，这些参与方有一组共同用户，但拥有不同特征。现有的VFL框架使用密码技术提供数据隐私和安全性保证，导致了一系列研究计算效率和快速实现的工作。然而，VFL模型的安全性仍未得到充分探讨。",
+    "tldr": "这项研究探讨了水平联邦学习模型的安全性，弥补了现有研究中对于该模型安全性的不足。",
+    "en_tdlr": "This study investigates the security of Vertical Federated Learning (VFL) models, addressing the lack of exploration in existing research on the security of these models."
+}

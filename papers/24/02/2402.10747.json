@@ -1,0 +1,11 @@
+{
+    "title": "Fully Differentiable Lagrangian Convolutional Neural Network for Continuity-Consistent Physics-Informed Precipitation Nowcasting",
+    "abstract": "arXiv:2402.10747v1 Announce Type: cross  Abstract: This paper presents a convolutional neural network model for precipitation nowcasting that combines data-driven learning with physics-informed domain knowledge. We propose LUPIN, a Lagrangian Double U-Net for Physics-Informed Nowcasting, that draws from existing extrapolation-based nowcasting methods and implements the Lagrangian coordinate system transformation of the data in a fully differentiable and GPU-accelerated manner to allow for real-time end-to-end training and inference. Based on our evaluation, LUPIN matches and exceeds the performance of the chosen benchmark, opening the door for other Lagrangian machine learning models.",
+    "link": "https://arxiv.org/abs/2402.10747",
+    "context": "Title: Fully Differentiable Lagrangian Convolutional Neural Network for Continuity-Consistent Physics-Informed Precipitation Nowcasting\nAbstract: arXiv:2402.10747v1 Announce Type: cross  Abstract: This paper presents a convolutional neural network model for precipitation nowcasting that combines data-driven learning with physics-informed domain knowledge. We propose LUPIN, a Lagrangian Double U-Net for Physics-Informed Nowcasting, that draws from existing extrapolation-based nowcasting methods and implements the Lagrangian coordinate system transformation of the data in a fully differentiable and GPU-accelerated manner to allow for real-time end-to-end training and inference. Based on our evaluation, LUPIN matches and exceeds the performance of the chosen benchmark, opening the door for other Lagrangian machine learning models.",
+    "path": "papers/24/02/2402.10747.json",
+    "total_tokens": 751,
+    "translated_title": "完全可微的拉格朗日卷积神经网络用于连续一致物理信息降水预报",
+    "translated_abstract": "本文提出了一种卷积神经网络模型，用于降水预报，结合了数据驱动学习和基于物理信息的领域知识。我们提出了LUPIN，即用于物理信息的拉格朗日双U-Net的现在预报，借鉴了现有的基于外推的预报方法，并以完全可微且GPU加速的方式实现了数据的拉格朗日坐标系转换，以允许实时端到端训练和推断。根据我们的评估，LUPIN与并超过了所选择基准的性能，为其他拉格朗日机器学习模型敞开了大门。",
+    "tldr": "提出了一种完全可微的拉格朗日卷积神经网络模型，实现了物理信息与数据驱动学习相结合，在降水预报中表现优秀，为其他拉格朗日机器学习模型提供了新思路。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Federated K-means Clustering",
+    "abstract": "arXiv:2310.01195v2 Announce Type: replace  Abstract: Federated learning is a technique that enables the use of distributed datasets for machine learning purposes without requiring data to be pooled, thereby better preserving privacy and ownership of the data. While supervised FL research has grown substantially over the last years, unsupervised FL methods remain scarce. This work introduces an algorithm which implements K-means clustering in a federated manner, addressing the challenges of varying number of clusters between centers, as well as convergence on less separable datasets.",
+    "link": "https://arxiv.org/abs/2310.01195",
+    "context": "Title: Federated K-means Clustering\nAbstract: arXiv:2310.01195v2 Announce Type: replace  Abstract: Federated learning is a technique that enables the use of distributed datasets for machine learning purposes without requiring data to be pooled, thereby better preserving privacy and ownership of the data. While supervised FL research has grown substantially over the last years, unsupervised FL methods remain scarce. This work introduces an algorithm which implements K-means clustering in a federated manner, addressing the challenges of varying number of clusters between centers, as well as convergence on less separable datasets.",
+    "path": "papers/23/10/2310.01195.json",
+    "total_tokens": 638,
+    "translated_title": "联邦式K均值聚类",
+    "translated_abstract": "联邦学习是一种技术，可以在不需要汇总数据的情况下利用分布式数据集进行机器学习，从而更好地保护数据的隐私和所有权。尽管监督式联邦学习研究在过去几年中取得了显著进展，但无监督式联邦学习方法仍然很少见。本文介绍了一种算法，以联邦方式实现K均值聚类，解决了中心之间聚类数量不同以及在较难分开的数据集上收敛的挑战。",
+    "tldr": "本研究提出一种实现K均值聚类的联邦学习算法，解决了中心之间聚类数量变化和在不太可分数据集上的收敛挑战。",
+    "en_tdlr": "This study introduces a federated learning algorithm that implements K-means clustering, addressing challenges such as varying number of clusters between centers and convergence on less separable datasets."
+}
