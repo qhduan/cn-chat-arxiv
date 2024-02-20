@@ -1,0 +1,11 @@
+{
+    "title": "The Price of Information",
+    "abstract": "arXiv:2402.11864v1 Announce Type: new  Abstract: When an investor is faced with the option to purchase additional information regarding an asset price, how much should she pay? To address this question, we solve for the indifference price of information in a setting where a trader maximizes her expected utility of terminal wealth over a finite time horizon. If she does not purchase the information, then she solves a partial information stochastic control problem, while, if she does purchase the information, then she pays a cost and receives partial information about the asset's trajectory. We further demonstrate that when the investor can purchase the information at any stopping time prior to the end of the trading horizon, she chooses to do so at a deterministic time.",
+    "link": "https://arxiv.org/abs/2402.11864",
+    "context": "Title: The Price of Information\nAbstract: arXiv:2402.11864v1 Announce Type: new  Abstract: When an investor is faced with the option to purchase additional information regarding an asset price, how much should she pay? To address this question, we solve for the indifference price of information in a setting where a trader maximizes her expected utility of terminal wealth over a finite time horizon. If she does not purchase the information, then she solves a partial information stochastic control problem, while, if she does purchase the information, then she pays a cost and receives partial information about the asset's trajectory. We further demonstrate that when the investor can purchase the information at any stopping time prior to the end of the trading horizon, she chooses to do so at a deterministic time.",
+    "path": "papers/24/02/2402.11864.json",
+    "total_tokens": 671,
+    "translated_title": "信息的代价",
+    "translated_abstract": "当一位投资者面临是否购买关于资产价格的额外信息的选择时，她应该支付多少？为了回答这个问题，我们在一个交易者通过在有限时间跨度上最大化她的终端财富的期望效用的背景环境中解决了信息的无差别价格。如果她不购买信息，那么她解决的是一个部分信息的随机控制问题，而如果她购买信息，则她会支付成本并收到有关资产轨迹的部分信息。我们进一步证明，当投资者可以在交易周期结束之前的任何停止时间购买信息时，她选择在确定性时间购买。",
+    "tldr": "投资者在面临购买额外信息时，解决了关于信息的无差别价格，并证明了她在确定性时间购买信息。"
+}

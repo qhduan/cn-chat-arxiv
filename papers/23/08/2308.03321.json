@@ -1,0 +1,12 @@
+{
+    "title": "AFN: Adaptive Fusion Normalization via an Encoder-Decoder Framework",
+    "abstract": "arXiv:2308.03321v4 Announce Type: replace  Abstract: The success of deep learning is inseparable from normalization layers. Researchers have proposed various normalization functions, and each of them has both advantages and disadvantages. In response, efforts have been made to design a unified normalization function that combines all normalization procedures and mitigates their weaknesses. We also proposed a new normalization function called Adaptive Fusion Normalization. Through experiments, we demonstrate AFN outperforms the previous normalization techniques in domain generalization and image classification tasks.",
+    "link": "https://arxiv.org/abs/2308.03321",
+    "context": "Title: AFN: Adaptive Fusion Normalization via an Encoder-Decoder Framework\nAbstract: arXiv:2308.03321v4 Announce Type: replace  Abstract: The success of deep learning is inseparable from normalization layers. Researchers have proposed various normalization functions, and each of them has both advantages and disadvantages. In response, efforts have been made to design a unified normalization function that combines all normalization procedures and mitigates their weaknesses. We also proposed a new normalization function called Adaptive Fusion Normalization. Through experiments, we demonstrate AFN outperforms the previous normalization techniques in domain generalization and image classification tasks.",
+    "path": "papers/23/08/2308.03321.json",
+    "total_tokens": 639,
+    "translated_title": "AFN: 自适应融合规范化在编码器-解码器框架中的应用",
+    "translated_abstract": "深度学习的成功与规范化层密不可分。研究人员提出了各种规范化功能，每种都有其优势和劣势。为此，人们致力于设计一个统一的规范化功能，将所有规范化过程结合起来并减轻它们的弱点。我们还提出了一种新的规范化功能，称为自适应融合规范化。通过实验证明，AFN在领域泛化和图像分类任务中优于先前的规范化技术。",
+    "tldr": "该论文介绍了一种新的自适应融合规范化方法，通过编码器-解码器框架，在领域泛化和图像分类任务中表现优越。",
+    "en_tdlr": "This paper presents a novel Adaptive Fusion Normalization method via an encoder-decoder framework, which outperforms previous normalization techniques in domain generalization and image classification tasks."
+}

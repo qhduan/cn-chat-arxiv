@@ -1,0 +1,12 @@
+{
+    "title": "The effect of Leaky ReLUs on the training and generalization of overparameterized networks",
+    "abstract": "arXiv:2402.11942v1 Announce Type: new  Abstract: We investigate the training and generalization errors of overparameterized neural networks (NNs) with a wide class of leaky rectified linear unit (ReLU) functions. More specifically, we carefully upper bound both the convergence rate of the training error and the generalization error of such NNs and investigate the dependence of these bounds on the Leaky ReLU parameter, $\\alpha$. We show that $\\alpha =-1$, which corresponds to the absolute value activation function, is optimal for the training error bound. Furthermore, in special settings, it is also optimal for the generalization error bound. Numerical experiments empirically support the practical choices guided by the theory.",
+    "link": "https://arxiv.org/abs/2402.11942",
+    "context": "Title: The effect of Leaky ReLUs on the training and generalization of overparameterized networks\nAbstract: arXiv:2402.11942v1 Announce Type: new  Abstract: We investigate the training and generalization errors of overparameterized neural networks (NNs) with a wide class of leaky rectified linear unit (ReLU) functions. More specifically, we carefully upper bound both the convergence rate of the training error and the generalization error of such NNs and investigate the dependence of these bounds on the Leaky ReLU parameter, $\\alpha$. We show that $\\alpha =-1$, which corresponds to the absolute value activation function, is optimal for the training error bound. Furthermore, in special settings, it is also optimal for the generalization error bound. Numerical experiments empirically support the practical choices guided by the theory.",
+    "path": "papers/24/02/2402.11942.json",
+    "total_tokens": 688,
+    "translated_title": "Leaky ReLU对超参数网络的训练和泛化的影响",
+    "translated_abstract": "我们研究了具有各种泄漏修正线性单元（ReLU）函数的超参数神经网络（NNs）的训练和泛化误差。更具体地，我们仔细地对这些NNs的训练误差的收敛速率和泛化误差进行了上界估计，并研究了这些界限对Leaky ReLU参数$\\alpha$的依赖性。我们表明$\\alpha=-1$，对应于绝对值激活函数，对于训练误差界是最优的。此外，在特定设置中，这也是泛化误差界的最优选择。数值实验在实践中支持了理论引导的实际选择。",
+    "tldr": "Leaky ReLU参数$\\alpha=-1$在训练误差和泛化误差界方面是最优的选择。",
+    "en_tdlr": "Leaky ReLU parameter $\\alpha = -1$ is optimal for both the training error and generalization error bounds."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Automated Detection and Analysis of Data Practices Using A Real-World Corpus",
+    "abstract": "arXiv:2402.11006v1 Announce Type: cross  Abstract: Privacy policies are crucial for informing users about data practices, yet their length and complexity often deter users from reading them. In this paper, we propose an automated approach to identify and visualize data practices within privacy policies at different levels of detail. Leveraging crowd-sourced annotations from the ToS;DR platform, we experiment with various methods to match policy excerpts with predefined data practice descriptions. We further conduct a case study to evaluate our approach on a real-world policy, demonstrating its effectiveness in simplifying complex policies. Experiments show that our approach accurately matches data practice descriptions with policy excerpts, facilitating the presentation of simplified privacy information to users.",
+    "link": "https://arxiv.org/abs/2402.11006",
+    "context": "Title: Automated Detection and Analysis of Data Practices Using A Real-World Corpus\nAbstract: arXiv:2402.11006v1 Announce Type: cross  Abstract: Privacy policies are crucial for informing users about data practices, yet their length and complexity often deter users from reading them. In this paper, we propose an automated approach to identify and visualize data practices within privacy policies at different levels of detail. Leveraging crowd-sourced annotations from the ToS;DR platform, we experiment with various methods to match policy excerpts with predefined data practice descriptions. We further conduct a case study to evaluate our approach on a real-world policy, demonstrating its effectiveness in simplifying complex policies. Experiments show that our approach accurately matches data practice descriptions with policy excerpts, facilitating the presentation of simplified privacy information to users.",
+    "path": "papers/24/02/2402.11006.json",
+    "total_tokens": 722,
+    "translated_title": "使用真实世界语料库自动检测和分析数据实践",
+    "translated_abstract": "隐私政策对于告知用户数据实践至关重要，然而其长度和复杂性经常阻止用户阅读。本文提出了一种自动化方法，用于识别和可视化隐私政策中不同细节级别的数据实践。利用来自ToS;DR平台的众包注释，我们尝试使用各种方法匹配政策摘录与预定义的数据实践描述。我们进一步进行了案例研究，评估我们的方法在真实政策中的效果，证明其在简化复杂政策方面的有效性。实验表明，我们的方法能够准确匹配数据实践描述和政策摘录，有助于向用户呈现简化的隐私信息。",
+    "tldr": "本文提出了一种使用真实世界语料库自动检测和分析隐私政策中数据实践的方法，并通过实验和案例研究证明了其有效性。",
+    "en_tdlr": "This paper proposes an automated approach to detect and analyze data practices in privacy policies using a real-world corpus, demonstrating its effectiveness through experiments and a case study."
+}

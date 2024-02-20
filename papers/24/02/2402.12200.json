@@ -1,0 +1,12 @@
+{
+    "title": "The matching problem with linear transfers is equivalent to a hide-and-seek game",
+    "abstract": "arXiv:2402.12200v1 Announce Type: new  Abstract: Matching problems with linearly transferable utility (LTU) generalize the well-studied transferable utility (TU) case by relaxing the assumption that utility is transferred one-for-one within matched pairs. We show that LTU matching problems can be reframed as nonzero-sum games between two players, thus generalizing a result from von Neumann. The underlying linear programming structure of TU matching problems, however, is lost when moving to LTU. These results draw a new bridge between non-TU matching problems and the theory of bimatrix games, with consequences notably regarding the computation of stable outcomes.",
+    "link": "https://arxiv.org/abs/2402.12200",
+    "context": "Title: The matching problem with linear transfers is equivalent to a hide-and-seek game\nAbstract: arXiv:2402.12200v1 Announce Type: new  Abstract: Matching problems with linearly transferable utility (LTU) generalize the well-studied transferable utility (TU) case by relaxing the assumption that utility is transferred one-for-one within matched pairs. We show that LTU matching problems can be reframed as nonzero-sum games between two players, thus generalizing a result from von Neumann. The underlying linear programming structure of TU matching problems, however, is lost when moving to LTU. These results draw a new bridge between non-TU matching problems and the theory of bimatrix games, with consequences notably regarding the computation of stable outcomes.",
+    "path": "papers/24/02/2402.12200.json",
+    "total_tokens": 743,
+    "translated_title": "具有线性转移的匹配问题等同于躲猫猫游戏",
+    "translated_abstract": "具有线性可转移效用（LTU）的匹配问题通过放宽在匹配对中效用按比例转移的假设，将传统的可转移效用（TU）情形进行了推广。我们证明了LTU匹配问题可以重新构建为两个玩家之间的非零和博弈，从而推广了冯·诺依曼的一个结果。然而，当转向LTU时，TU匹配问题的基础线性规划结构会丢失。这些结果在非TU匹配问题和双矩阵博弈理论之间搭建了一座新的桥梁，尤其在稳定结果的计算方面产生了重要影响。",
+    "tldr": "LTU匹配问题可以看作是两个玩家之间的非零和博弈，引入了新的桥梁将非TU匹配问题与双矩阵博弈理论联系起来，对于稳定结果的计算有重要影响。",
+    "en_tdlr": "Matching problems with linearly transferable utility can be seen as nonzero-sum games between two players, introducing a new connection between non-TU matching problems and bimatrix game theory, with significant impact on the computation of stable outcomes."
+}

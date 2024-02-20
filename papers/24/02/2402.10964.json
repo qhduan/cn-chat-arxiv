@@ -1,0 +1,12 @@
+{
+    "title": "Optimal feature rescaling in machine learning based on neural networks",
+    "abstract": "arXiv:2402.10964v1 Announce Type: new  Abstract: This paper proposes a novel approach to improve the training efficiency and the generalization performance of Feed Forward Neural Networks (FFNNs) resorting to an optimal rescaling of input features (OFR) carried out by a Genetic Algorithm (GA). The OFR reshapes the input space improving the conditioning of the gradient-based algorithm used for the training. Moreover, the scale factors exploration entailed by GA trials and selection corresponds to different initialization of the first layer weights at each training attempt, thus realizing a multi-start global search algorithm (even though restrained to few weights only) which fosters the achievement of a global minimum. The approach has been tested on a FFNN modeling the outcome of a real industrial process (centerless grinding).",
+    "link": "https://arxiv.org/abs/2402.10964",
+    "context": "Title: Optimal feature rescaling in machine learning based on neural networks\nAbstract: arXiv:2402.10964v1 Announce Type: new  Abstract: This paper proposes a novel approach to improve the training efficiency and the generalization performance of Feed Forward Neural Networks (FFNNs) resorting to an optimal rescaling of input features (OFR) carried out by a Genetic Algorithm (GA). The OFR reshapes the input space improving the conditioning of the gradient-based algorithm used for the training. Moreover, the scale factors exploration entailed by GA trials and selection corresponds to different initialization of the first layer weights at each training attempt, thus realizing a multi-start global search algorithm (even though restrained to few weights only) which fosters the achievement of a global minimum. The approach has been tested on a FFNN modeling the outcome of a real industrial process (centerless grinding).",
+    "path": "papers/24/02/2402.10964.json",
+    "total_tokens": 728,
+    "translated_title": "基于神经网络的机器学习中的最佳特征重缩放",
+    "translated_abstract": "这篇论文提出了一种新的方法，通过遗传算法（GA）进行输入特征的最佳重缩放（OFR）来改善前馈神经网络（FFNNs）的训练效率和泛化性能。OFR重新塑造了输入空间，改善了用于训练的基于梯度的算法的条件。此外，GA进行的比例因子探索和选择对应于每次训练尝试中第一层权重的不同初始化，从而实现了一个多起点全局搜索算法（尽管仅限于少量权重），从而促进了全局最小值的实现。该方法已在模拟实际工业过程（无心磨削）结果的FFNN上进行了测试。",
+    "tldr": "提出了一种通过遗传算法进行输入特征的最佳重缩放来改善神经网络训练效率和泛化性能的方法。",
+    "en_tdlr": "Proposed a method to improve the training efficiency and generalization performance of neural networks by optimal rescaling of input features using a Genetic Algorithm."
+}

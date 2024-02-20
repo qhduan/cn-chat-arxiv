@@ -1,0 +1,11 @@
+{
+    "title": "A General Impossibility Theorem on Pareto Efficiency and Bayesian Incentive Compatibility",
+    "abstract": "arXiv:2303.05968v2 Announce Type: replace  Abstract: This paper studies a general class of social choice problems in which agents' payoff functions (or types) are privately observable random variables, and monetary transfers are not available. We consider cardinal social choice functions which may respond to agents' preference intensities as well as preference rankings. We show that a social choice function is ex ante Pareto efficient and Bayesian incentive compatible if and only if it is dictatorial. The result holds for arbitrary numbers of agents and alternatives, and under a fairly weak assumption on the joint distribution of types, which allows for arbitrary correlations and asymmetries.",
+    "link": "https://arxiv.org/abs/2303.05968",
+    "context": "Title: A General Impossibility Theorem on Pareto Efficiency and Bayesian Incentive Compatibility\nAbstract: arXiv:2303.05968v2 Announce Type: replace  Abstract: This paper studies a general class of social choice problems in which agents' payoff functions (or types) are privately observable random variables, and monetary transfers are not available. We consider cardinal social choice functions which may respond to agents' preference intensities as well as preference rankings. We show that a social choice function is ex ante Pareto efficient and Bayesian incentive compatible if and only if it is dictatorial. The result holds for arbitrary numbers of agents and alternatives, and under a fairly weak assumption on the joint distribution of types, which allows for arbitrary correlations and asymmetries.",
+    "path": "papers/23/03/2303.05968.json",
+    "total_tokens": 694,
+    "translated_title": "一般关于帕累托效率和贝叶斯激励兼容性的不可能定理",
+    "translated_abstract": "本文研究了一类社会选择问题，其中代理的支付函数（或类型）是私密可观测的随机变量，且货币转移不可用。我们考虑了基数社会选择函数，它可以对代理的偏好强度和偏好排序做出反应。我们证明了如果一个社会选择函数是前置帕累托高效和贝叶斯激励兼容的，则它必须是独裁的。这个结果对于任意数量的代理和备选项都成立，并且在关于类型的联合分布上有一个相当弱的假设下成立，该假设允许任意的相关性和不对称性。",
+    "tldr": "一个社会选择函数同时实现前置帕累托高效和贝叶斯激励兼容，当且仅当它是独裁的。"
+}

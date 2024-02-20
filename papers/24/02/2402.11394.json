@@ -1,0 +1,12 @@
+{
+    "title": "Maximal Inequalities for Empirical Processes under General Mixing Conditions with an Application to Strong Approximations",
+    "abstract": "arXiv:2402.11394v1 Announce Type: cross  Abstract: This paper provides a bound for the supremum of sample averages over a class of functions for a general class of mixing stochastic processes with arbitrary mixing rates. Regardless of the speed of mixing, the bound is comprised of a concentration rate and a novel measure of complexity. The speed of mixing, however, affects the former quantity implying a phase transition. Fast mixing leads to the standard root-n concentration rate, while slow mixing leads to a slower concentration rate, its speed depends on the mixing structure. Our findings are applied to derive strong approximation results for a general class of mixing processes with arbitrary mixing rates.",
+    "link": "https://arxiv.org/abs/2402.11394",
+    "context": "Title: Maximal Inequalities for Empirical Processes under General Mixing Conditions with an Application to Strong Approximations\nAbstract: arXiv:2402.11394v1 Announce Type: cross  Abstract: This paper provides a bound for the supremum of sample averages over a class of functions for a general class of mixing stochastic processes with arbitrary mixing rates. Regardless of the speed of mixing, the bound is comprised of a concentration rate and a novel measure of complexity. The speed of mixing, however, affects the former quantity implying a phase transition. Fast mixing leads to the standard root-n concentration rate, while slow mixing leads to a slower concentration rate, its speed depends on the mixing structure. Our findings are applied to derive strong approximation results for a general class of mixing processes with arbitrary mixing rates.",
+    "path": "papers/24/02/2402.11394.json",
+    "total_tokens": 765,
+    "translated_title": "基于一般混合条件的经验过程的极值不等式及其在强逼近中的应用",
+    "translated_abstract": "本文针对具有任意混合率的一般混合随机过程提供了一个样本均值的上确界的界限。无论混合的速度如何，该界限由一个集中速率和一种新颖的复杂度度量组成。然而，混合的速度影响前者的数量，意味着出现了相变。快速混合导致标准的根号n集中速率，而慢速混合导致较慢的集中速率，其速度取决于混合结构。我们的发现应用于推导具有任意混合率的一般混合过程的强逼近结果。",
+    "tldr": "本文提出了针对一般混合随机过程的样本均值上确界的界限，不受混合速度的影响，强调了集中速率和复杂度度量的重要性，并发现了混合速度对集中速率的影响，引入了相变的概念。",
+    "en_tdlr": "This paper provides a bound for the supremum of sample averages over a general class of mixing stochastic processes with arbitrary mixing rates, demonstrating the importance of concentration rate and complexity measure, and revealing a phase transition caused by the speed of mixing."
+}

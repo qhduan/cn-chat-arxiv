@@ -1,0 +1,12 @@
+{
+    "title": "Building Trees for Probabilistic Prediction via Scoring Rules",
+    "abstract": "arXiv:2402.11052v1 Announce Type: cross  Abstract: Decision trees built with data remain in widespread use for nonparametric prediction. Predicting probability distributions is preferred over point predictions when uncertainty plays a prominent role in analysis and decision-making. We study modifying a tree to produce nonparametric predictive distributions. We find the standard method for building trees may not result in good predictive distributions and propose changing the splitting criteria for trees to one based on proper scoring rules. Analysis of both simulated data and several real datasets demonstrates that using these new splitting criteria results in trees with improved predictive properties considering the entire predictive distribution.",
+    "link": "https://arxiv.org/abs/2402.11052",
+    "context": "Title: Building Trees for Probabilistic Prediction via Scoring Rules\nAbstract: arXiv:2402.11052v1 Announce Type: cross  Abstract: Decision trees built with data remain in widespread use for nonparametric prediction. Predicting probability distributions is preferred over point predictions when uncertainty plays a prominent role in analysis and decision-making. We study modifying a tree to produce nonparametric predictive distributions. We find the standard method for building trees may not result in good predictive distributions and propose changing the splitting criteria for trees to one based on proper scoring rules. Analysis of both simulated data and several real datasets demonstrates that using these new splitting criteria results in trees with improved predictive properties considering the entire predictive distribution.",
+    "path": "papers/24/02/2402.11052.json",
+    "total_tokens": 657,
+    "translated_title": "通过得分规则构建概率预测树",
+    "translated_abstract": "使用数据构建的决策树在非参数预测中仍然被广泛使用。在不确定性在分析和决策中发挥重要作用时，预测概率分布优于点预测。我们研究了修改树以生成非参数预测分布。我们发现，使用标准方法构建树可能不会产生良好的预测分布，并提出将树的分割标准更改为基于适当得分规则的标准。对模拟数据和几个真实数据集的分析表明，使用这些新的分割标准会导致具有改进预测性能的树，考虑整个预测分布。",
+    "tldr": "提出了一种通过得分规则构建概率预测树的方法，以改进树的预测性能并生成更好的预测分布。",
+    "en_tdlr": "Proposed a method of building probabilistic prediction trees via scoring rules to improve predictive performance of trees and generate better predictive distributions."
+}

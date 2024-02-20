@@ -1,0 +1,12 @@
+{
+    "title": "Uncovering Latent Human Wellbeing in Language Model Embeddings",
+    "abstract": "arXiv:2402.11777v1 Announce Type: cross  Abstract: Do language models implicitly learn a concept of human wellbeing? We explore this through the ETHICS Utilitarianism task, assessing if scaling enhances pretrained models' representations. Our initial finding reveals that, without any prompt engineering or finetuning, the leading principal component from OpenAI's text-embedding-ada-002 achieves 73.9% accuracy. This closely matches the 74.6% of BERT-large finetuned on the entire ETHICS dataset, suggesting pretraining conveys some understanding about human wellbeing. Next, we consider four language model families, observing how Utilitarianism accuracy varies with increased parameters. We find performance is nondecreasing with increased model size when using sufficient numbers of principal components.",
+    "link": "https://arxiv.org/abs/2402.11777",
+    "context": "Title: Uncovering Latent Human Wellbeing in Language Model Embeddings\nAbstract: arXiv:2402.11777v1 Announce Type: cross  Abstract: Do language models implicitly learn a concept of human wellbeing? We explore this through the ETHICS Utilitarianism task, assessing if scaling enhances pretrained models' representations. Our initial finding reveals that, without any prompt engineering or finetuning, the leading principal component from OpenAI's text-embedding-ada-002 achieves 73.9% accuracy. This closely matches the 74.6% of BERT-large finetuned on the entire ETHICS dataset, suggesting pretraining conveys some understanding about human wellbeing. Next, we consider four language model families, observing how Utilitarianism accuracy varies with increased parameters. We find performance is nondecreasing with increased model size when using sufficient numbers of principal components.",
+    "path": "papers/24/02/2402.11777.json",
+    "total_tokens": 761,
+    "translated_title": "在语言模型嵌入中揭示潜在的人类福祉",
+    "translated_abstract": "语言模型是否隐含地学习了人类福祉的概念？我们通过ETHICS功利主义任务进行探讨，评估缩放是否增强了预训练模型的表示。我们的初步发现显示，无需任何提示工程或微调，OpenAI的text-embedding-ada-002的主成分达到73.9%的准确率。这与在整个ETHICS数据集上微调的BERT-large模型的74.6%准确率非常接近，表明预训练传达了对人类福祉的某种理解。接下来，我们考虑了四种语言模型系列，观察功利主义准确率随参数增加而变化。我们发现，使用足够数量的主成分时，性能随模型规模的增加而非减少。",
+    "tldr": "本研究通过ETHICS Utilitarianism任务发现，预训练语言模型的表示隐含了对人类福祉的理解，且模型规模增加时，准确率呈非下降趋势。",
+    "en_tdlr": "This study uncovers that pretrained language models implicitly learn a concept of human wellbeing, and the performance remains nondecreasing with increased model size."
+}

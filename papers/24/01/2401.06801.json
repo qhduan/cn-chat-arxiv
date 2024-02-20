@@ -1,0 +1,11 @@
+{
+    "title": "Graph-of-Thought: Utilizing Large Language Models to Solve Complex and Dynamic Business Problems",
+    "abstract": "arXiv:2401.06801v2 Announce Type: replace  Abstract: This paper presents Graph-of-Thought (GoT), a new model for workflow automation that enhances the flexibility and efficiency of Large Language Models (LLMs) in complex task execution. GoT advances beyond traditional linear and tree-like cognitive models with a graph structure that enables dynamic path selection. The open-source engine GoTFlow demonstrates the practical application of GoT, facilitating automated, data-driven decision-making across various domains. Despite challenges in complexity and transparency, GoTFlow's potential for improving business processes is significant, promising advancements in both efficiency and decision quality with continuous development.",
+    "link": "https://arxiv.org/abs/2401.06801",
+    "context": "Title: Graph-of-Thought: Utilizing Large Language Models to Solve Complex and Dynamic Business Problems\nAbstract: arXiv:2401.06801v2 Announce Type: replace  Abstract: This paper presents Graph-of-Thought (GoT), a new model for workflow automation that enhances the flexibility and efficiency of Large Language Models (LLMs) in complex task execution. GoT advances beyond traditional linear and tree-like cognitive models with a graph structure that enables dynamic path selection. The open-source engine GoTFlow demonstrates the practical application of GoT, facilitating automated, data-driven decision-making across various domains. Despite challenges in complexity and transparency, GoTFlow's potential for improving business processes is significant, promising advancements in both efficiency and decision quality with continuous development.",
+    "path": "papers/24/01/2401.06801.json",
+    "total_tokens": 761,
+    "translated_title": "思维图：利用大型语言模型解决复杂动态商业问题",
+    "translated_abstract": "本文介绍了思维图（Graph-of-Thought，GoT），这是一种用于工作流自动化的全新模型，增强了大型语言模型（LLMs）在复杂任务执行中的灵活性和效率。GoT通过具有动态路径选择功能的图结构，推进了传统线性和树状认知模型。开源引擎GoTFlow展示了GoT的实际应用，促进了跨多个领域的自动化数据驱动决策。尽管在复杂性和透明度方面存在挑战，但GoTFlow在改善商业流程方面的潜力巨大，承诺通过持续发展在效率和决策质量上取得进展。",
+    "tldr": "GoT是一种新型模型，利用图结构增强大型语言模型在复杂任务执行中的灵活性和效率，通过动态路径选择推进了传统认知模型，开源引擎GoTFlow展示了其在自动化决策方面的巨大潜力。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Finite-Time Error Analysis of Online Model-Based Q-Learning with a Relaxed Sampling Model",
+    "abstract": "arXiv:2402.11877v1 Announce Type: cross  Abstract: Reinforcement learning has witnessed significant advancements, particularly with the emergence of model-based approaches. Among these, $Q$-learning has proven to be a powerful algorithm in model-free settings. However, the extension of $Q$-learning to a model-based framework remains relatively unexplored. In this paper, we delve into the sample complexity of $Q$-learning when integrated with a model-based approach. Through theoretical analyses and empirical evaluations, we seek to elucidate the conditions under which model-based $Q$-learning excels in terms of sample efficiency compared to its model-free counterpart.",
+    "link": "https://arxiv.org/abs/2402.11877",
+    "context": "Title: Finite-Time Error Analysis of Online Model-Based Q-Learning with a Relaxed Sampling Model\nAbstract: arXiv:2402.11877v1 Announce Type: cross  Abstract: Reinforcement learning has witnessed significant advancements, particularly with the emergence of model-based approaches. Among these, $Q$-learning has proven to be a powerful algorithm in model-free settings. However, the extension of $Q$-learning to a model-based framework remains relatively unexplored. In this paper, we delve into the sample complexity of $Q$-learning when integrated with a model-based approach. Through theoretical analyses and empirical evaluations, we seek to elucidate the conditions under which model-based $Q$-learning excels in terms of sample efficiency compared to its model-free counterpart.",
+    "path": "papers/24/02/2402.11877.json",
+    "total_tokens": 688,
+    "translated_title": "在具有放松采样模型的在线模型的有限时间误差分析下的Q学习",
+    "translated_abstract": "强化学习在模型为基础的方法的出现下取得了显著进展。在这些方法中，Q学习在无模型设置中被证明是一种强大的算法。然而，将Q学习扩展到基于模型的框架仍然相对未被探索。在本文中，我们深入研究了Q学习与基于模型方法相结合时的样本复杂度。通过理论分析和实证评估，我们试图阐明在哪些条件下，基于模型的Q学习在样本效率方面优于其无模型对应物。",
+    "tldr": "本文通过有限时间分析以及实证评估，探讨了集成模型方法的Q学习在样本复杂度方面的优势。",
+    "en_tdlr": "This paper investigates the sample complexity of Q-learning integrated with a model-based approach through finite-time analysis and empirical evaluations, aiming to elucidate the conditions under which model-based Q-learning excels in terms of sample efficiency."
+}

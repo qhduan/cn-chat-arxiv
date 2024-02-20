@@ -1,0 +1,12 @@
+{
+    "title": "End-to-end multilingual fact-checking at scale",
+    "abstract": "arXiv:2402.12147v1 Announce Type: cross  Abstract: In this article, we describe how you can perform end-to-end fact-checking in over 100 languages using Factiverse AI models. We also show through an experimental benchmark that fine-tuned models tailored for fact-checking tasks outperform Large Language Models such as GPT-4, GPT-3.5-Turbo, and Mistral-7b.",
+    "link": "https://arxiv.org/abs/2402.12147",
+    "context": "Title: End-to-end multilingual fact-checking at scale\nAbstract: arXiv:2402.12147v1 Announce Type: cross  Abstract: In this article, we describe how you can perform end-to-end fact-checking in over 100 languages using Factiverse AI models. We also show through an experimental benchmark that fine-tuned models tailored for fact-checking tasks outperform Large Language Models such as GPT-4, GPT-3.5-Turbo, and Mistral-7b.",
+    "path": "papers/24/02/2402.12147.json",
+    "total_tokens": 546,
+    "translated_title": "跨语言规模的端到端事实核查",
+    "translated_abstract": "在本文中，我们描述了如何使用Factiverse AI模型在100多种语言中进行端到端事实核查。我们还通过实验性基准测试展示，为事实核查任务进行微调的模型胜过GPT-4、GPT-3.5-Turbo和Mistral-7b等大型语言模型。",
+    "tldr": "使用Factiverse AI模型，可以进行跨语言的端到端事实核查，并且通过实验证明，为事实核查任务进行微调的模型优于大型语言模型。",
+    "en_tdlr": "End-to-end fact-checking in over 100 languages is achievable with Factiverse AI models, which outperform Large Language Models like GPT-4, GPT-3.5-Turbo, and Mistral-7b when fine-tuned for fact-checking tasks."
+}

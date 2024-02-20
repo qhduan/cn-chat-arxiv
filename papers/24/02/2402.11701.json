@@ -1,0 +1,12 @@
+{
+    "title": "Explaining the Machine Learning Solution of the Ising Model",
+    "abstract": "arXiv:2402.11701v1 Announce Type: cross  Abstract: As powerful as machine learning (ML) techniques are in solving problems involving data with large dimensionality, explaining the results from the fitted parameters remains a challenging task of utmost importance, especially in physics applications. Here it is shown how this can be accomplished for the ferromagnetic Ising model, the target of many ML studies in the last years. By using a neural network (NN) without any hidden layers and the symmetry of the Hamiltonian to find the critical temperature for the continuous phase transition of the model, an explanation of its strategy is found. This allows the prediction of the minimal extension of the NN to solve the problem when the symmetry is not known, which is also explainable.",
+    "link": "https://arxiv.org/abs/2402.11701",
+    "context": "Title: Explaining the Machine Learning Solution of the Ising Model\nAbstract: arXiv:2402.11701v1 Announce Type: cross  Abstract: As powerful as machine learning (ML) techniques are in solving problems involving data with large dimensionality, explaining the results from the fitted parameters remains a challenging task of utmost importance, especially in physics applications. Here it is shown how this can be accomplished for the ferromagnetic Ising model, the target of many ML studies in the last years. By using a neural network (NN) without any hidden layers and the symmetry of the Hamiltonian to find the critical temperature for the continuous phase transition of the model, an explanation of its strategy is found. This allows the prediction of the minimal extension of the NN to solve the problem when the symmetry is not known, which is also explainable.",
+    "path": "papers/24/02/2402.11701.json",
+    "total_tokens": 727,
+    "translated_title": "解释伊辛模型的机器学习解决方案",
+    "translated_abstract": "尽管机器学习（ML）技术在解决涉及大维数据的问题中非常强大，但解释从拟合参数得出的结果仍然是一项至关重要且具有挑战性的任务，特别是在物理应用中。本文展示了如何实现对铁磁伊辛模型的解释，这是近年来许多机器学习研究的重点对象。通过使用一个没有任何隐藏层的神经网络（NN）以及哈密顿量的对称性来找到模型连续相变的临界温度，找到了一种解释其策略的方法。这使得在对称性未知时可以预测解决问题所需的NN的最小扩展，这也是可以解释的。",
+    "tldr": "展示了如何通过神经网络和模型哈密顿量的对称性，解释铁磁伊辛模型的机器学习解决方案策略。",
+    "en_tdlr": "Demonstrated how to explain the machine learning solution strategy for the ferromagnetic Ising model using a neural network and the symmetry of the Hamiltonian."
+}

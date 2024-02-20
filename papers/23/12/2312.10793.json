@@ -1,0 +1,12 @@
+{
+    "title": "Demystifying Instruction Mixing for Fine-tuning Large Language Models",
+    "abstract": "arXiv:2312.10793v3 Announce Type: replace-cross  Abstract: Instruction tuning significantly enhances the performance of large language models (LLMs) across various tasks. However, the procedure to optimizing the mixing of instruction datasets for LLM fine-tuning is still poorly understood. This study categorizes instructions into three primary types: NLP downstream tasks, coding, and general chat. We explore the effects of instruction tuning on different combinations of datasets on LLM performance, and find that certain instruction types are more advantageous for specific applications but can negatively impact other areas. This work provides insights into instruction mixtures, laying the foundations for future research.",
+    "link": "https://arxiv.org/abs/2312.10793",
+    "context": "Title: Demystifying Instruction Mixing for Fine-tuning Large Language Models\nAbstract: arXiv:2312.10793v3 Announce Type: replace-cross  Abstract: Instruction tuning significantly enhances the performance of large language models (LLMs) across various tasks. However, the procedure to optimizing the mixing of instruction datasets for LLM fine-tuning is still poorly understood. This study categorizes instructions into three primary types: NLP downstream tasks, coding, and general chat. We explore the effects of instruction tuning on different combinations of datasets on LLM performance, and find that certain instruction types are more advantageous for specific applications but can negatively impact other areas. This work provides insights into instruction mixtures, laying the foundations for future research.",
+    "path": "papers/23/12/2312.10793.json",
+    "total_tokens": 683,
+    "translated_title": "解读大语言模型微调中的指令混合",
+    "translated_abstract": "指令微调显著提高了大型语言模型（LLM）在各种任务上的性能。然而，对于优化LLM微调的指令数据集混合的过程仍然知之甚少。本研究将指令分为三类主要类型：自然语言处理下游任务、编程和一般对话。我们探讨了指令微调对LLM性能的不同数据集组合的影响，并发现某些指令类型对特定应用更有利，但可能对其他领域产生负面影响。这项工作为指令混合提供了见解，为未来研究奠定了基础。",
+    "tldr": "指令微调提升了大语言模型在各种任务中的性能，研究发现不同指令类型对特定应用更有利，但可能对其他领域产生负面影响。",
+    "en_tdlr": "Instruction tuning enhances the performance of large language models across various tasks, with certain types benefiting specific applications but potentially harming others."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Doubly Robust Inference in Causal Latent Factor Models",
+    "abstract": "arXiv:2402.11652v1 Announce Type: cross  Abstract: This article introduces a new framework for estimating average treatment effects under unobserved confounding in modern data-rich environments featuring large numbers of units and outcomes. The proposed estimator is doubly robust, combining outcome imputation, inverse probability weighting, and a novel cross-fitting procedure for matrix completion. We derive finite-sample and asymptotic guarantees, and show that the error of the new estimator converges to a mean-zero Gaussian distribution at a parametric rate. Simulation results demonstrate the practical relevance of the formal properties of the estimators analyzed in this article.",
+    "link": "https://arxiv.org/abs/2402.11652",
+    "context": "Title: Doubly Robust Inference in Causal Latent Factor Models\nAbstract: arXiv:2402.11652v1 Announce Type: cross  Abstract: This article introduces a new framework for estimating average treatment effects under unobserved confounding in modern data-rich environments featuring large numbers of units and outcomes. The proposed estimator is doubly robust, combining outcome imputation, inverse probability weighting, and a novel cross-fitting procedure for matrix completion. We derive finite-sample and asymptotic guarantees, and show that the error of the new estimator converges to a mean-zero Gaussian distribution at a parametric rate. Simulation results demonstrate the practical relevance of the formal properties of the estimators analyzed in this article.",
+    "path": "papers/24/02/2402.11652.json",
+    "total_tokens": 740,
+    "translated_title": "因果潜在因子模型中的双重稳健推断",
+    "translated_abstract": "本文介绍了一种在现代数据丰富环境中估计存在未观察混杂因素下的平均处理效应的新框架，该环境具有大量单位和结果。所提出的估计量是双重稳健的，结合了结果填补、倒数概率加权以及一种用于矩阵补全的新型交叉配对程序。我们推导了有限样本和渐近保证，并展示了新估计量的误差收敛到参数速率下的零均值高斯分布。模拟结果展示了本文分析的估计量的形式特性的实际相关性。",
+    "tldr": "提出了一种双重稳健的估计量框架，可以在现代数据丰富的环境中估计存在未观察混杂因素下平均处理效应，具有良好的有限样本和渐近性质，并在参数速率下将其误差收敛为零均值高斯分布。",
+    "en_tdlr": "A doubly robust estimator framework is proposed for estimating average treatment effects under unobserved confounding in modern data-rich environments, showing good finite-sample and asymptotic properties with error convergence to a mean-zero Gaussian distribution at a parametric rate."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Examining Monitoring System: Detecting Abnormal Behavior In Online Examinations",
+    "abstract": "arXiv:2402.12179v1 Announce Type: cross  Abstract: Cheating in online exams has become a prevalent issue over the past decade, especially during the COVID-19 pandemic. To address this issue of academic dishonesty, our \"Exam Monitoring System: Detecting Abnormal Behavior in Online Examinations\" is designed to assist proctors in identifying unusual student behavior. Our system demonstrates high accuracy and speed in detecting cheating in real-time scenarios, providing valuable information, and aiding proctors in decision-making. This article outlines our methodology and the effectiveness of our system in mitigating the widespread problem of cheating in online exams.",
+    "link": "https://arxiv.org/abs/2402.12179",
+    "context": "Title: Examining Monitoring System: Detecting Abnormal Behavior In Online Examinations\nAbstract: arXiv:2402.12179v1 Announce Type: cross  Abstract: Cheating in online exams has become a prevalent issue over the past decade, especially during the COVID-19 pandemic. To address this issue of academic dishonesty, our \"Exam Monitoring System: Detecting Abnormal Behavior in Online Examinations\" is designed to assist proctors in identifying unusual student behavior. Our system demonstrates high accuracy and speed in detecting cheating in real-time scenarios, providing valuable information, and aiding proctors in decision-making. This article outlines our methodology and the effectiveness of our system in mitigating the widespread problem of cheating in online exams.",
+    "path": "papers/24/02/2402.12179.json",
+    "total_tokens": 652,
+    "translated_title": "检测监控系统：在线考试中检测异常行为",
+    "translated_abstract": "在过去的十年中，尤其是在COVID-19大流行期间，在线考试作弊已成为一个普遍问题。为了解决这一学术不端问题，我们设计了“检测在线考试中异常行为的考试监控系统”，旨在帮助监考员识别异常学生行为。我们的系统在实时场景中展示出高准确性和速度，提供宝贵信息，辅助监考员做出决策。本文概述了我们的方法论以及我们的系统在缓解在线考试作弊普遍问题中的有效性。",
+    "tldr": "该论文设计的“检测监控系统”能够高准确性和速度地识别在线考试中的作弊行为，帮助监考员做出决策。"
+}

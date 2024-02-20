@@ -1,0 +1,12 @@
+{
+    "title": "Is It a Free Lunch for Removing Outliers during Pretraining?",
+    "abstract": "arXiv:2402.12102v1 Announce Type: cross  Abstract: With the growing size of large language models, the role of quantization becomes increasingly significant. However, outliers present in weights or activations notably influence the performance of quantized models. Recently, \\citet{qtransformer} introduced a novel softmax function aimed at pretraining models in an outlier-free manner, thereby enhancing their suitability for quantization. Interestingly, we observed that such an approach leads to performance degradation in full precision. Building on this insight, we enhance the method by ensuring its normalization is invariant to sequence length, a crucial factor for bridging the gap between pretraining and fine-tuning. Moreover, this improved method also facilitates successful pretraining of causal language models.",
+    "link": "https://arxiv.org/abs/2402.12102",
+    "context": "Title: Is It a Free Lunch for Removing Outliers during Pretraining?\nAbstract: arXiv:2402.12102v1 Announce Type: cross  Abstract: With the growing size of large language models, the role of quantization becomes increasingly significant. However, outliers present in weights or activations notably influence the performance of quantized models. Recently, \\citet{qtransformer} introduced a novel softmax function aimed at pretraining models in an outlier-free manner, thereby enhancing their suitability for quantization. Interestingly, we observed that such an approach leads to performance degradation in full precision. Building on this insight, we enhance the method by ensuring its normalization is invariant to sequence length, a crucial factor for bridging the gap between pretraining and fine-tuning. Moreover, this improved method also facilitates successful pretraining of causal language models.",
+    "path": "papers/24/02/2402.12102.json",
+    "total_tokens": 731,
+    "translated_title": "在预训练过程中移除异常值是否有其益处？",
+    "translated_abstract": "随着大型语言模型的规模不断增长，量化的作用变得越来越重要。然而，在权重或激活中存在的异常值明显影响了量化模型的性能。最近，qtransformer 提出了一种旨在以无异常值方式预训练模型的新型 softmax 函数，从而提高了它们适用于量化的性能。有趣的是，我们观察到这种方法导致了全精度性能的下降。基于这一观察，我们通过确保其归一化对序列长度不变来增强该方法，这是在预训练和微调之间弥合差距的关键因素。此外，这种改进的方法还促进了因果语言模型的成功预训练。",
+    "tldr": "通过确保归一化对序列长度不变，我们改进了一种预训练方法，使其在移除异常值的同时促进了因果语言模型的成功预训练。",
+    "en_tdlr": "By ensuring normalization is invariant to sequence length, we enhanced a pretraining method to promote successful pretraining of causal language models while removing outliers."
+}

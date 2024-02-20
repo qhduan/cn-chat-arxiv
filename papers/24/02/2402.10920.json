@@ -1,0 +1,11 @@
+{
+    "title": "Designing Silicon Brains using LLM: Leveraging ChatGPT for Automated Description of a Spiking Neuron Array",
+    "abstract": "arXiv:2402.10920v1 Announce Type: cross  Abstract: Large language models (LLMs) have made headlines for synthesizing correct-sounding responses to a variety of prompts, including code generation. In this paper, we present the prompts used to guide ChatGPT4 to produce a synthesizable and functional verilog description for the entirety of a programmable Spiking Neuron Array ASIC. This design flow showcases the current state of using ChatGPT4 for natural language driven hardware design. The AI-generated design was verified in simulation using handcrafted testbenches and has been submitted for fabrication in Skywater 130nm through Tiny Tapeout 5 using an open-source EDA flow.",
+    "link": "https://arxiv.org/abs/2402.10920",
+    "context": "Title: Designing Silicon Brains using LLM: Leveraging ChatGPT for Automated Description of a Spiking Neuron Array\nAbstract: arXiv:2402.10920v1 Announce Type: cross  Abstract: Large language models (LLMs) have made headlines for synthesizing correct-sounding responses to a variety of prompts, including code generation. In this paper, we present the prompts used to guide ChatGPT4 to produce a synthesizable and functional verilog description for the entirety of a programmable Spiking Neuron Array ASIC. This design flow showcases the current state of using ChatGPT4 for natural language driven hardware design. The AI-generated design was verified in simulation using handcrafted testbenches and has been submitted for fabrication in Skywater 130nm through Tiny Tapeout 5 using an open-source EDA flow.",
+    "path": "papers/24/02/2402.10920.json",
+    "total_tokens": 690,
+    "translated_title": "使用LLM设计硅脑：利用ChatGPT自动生成脉冲神经元阵列的描述",
+    "translated_abstract": "大型语言模型(LLMs)以综合正确的回复而引起关注，包括代码生成。本文展示了用于指导ChatGPT4生成可综合和功能性Verilog描述的提示，以描述可编程脉冲神经元阵列ASIC的整体。这种设计流程展示了使用ChatGPT4进行自然语言驱动硬件设计的当前状态。通过手工制作的测试台验证了AI生成的设计，并通过采用开源EDA流程的Tiny Tapeout 5提交到Skywater 130nm进行制造。",
+    "tldr": "本文展示了使用ChatGPT4为可编程脉冲神经元阵列ASIC生成Verilog描述的设计流程，验证了AI生成的设计，并展示了使用自然语言驱动硬件设计的现状。"
+}

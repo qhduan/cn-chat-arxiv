@@ -1,0 +1,12 @@
+{
+    "title": "Asymptotic Gaussian Fluctuations of Eigenvectors in Spectral Clustering",
+    "abstract": "arXiv:2402.12302v1 Announce Type: cross  Abstract: The performance of spectral clustering relies on the fluctuations of the entries of the eigenvectors of a similarity matrix, which has been left uncharacterized until now. In this letter, it is shown that the signal $+$ noise structure of a general spike random matrix model is transferred to the eigenvectors of the corresponding Gram kernel matrix and the fluctuations of their entries are Gaussian in the large-dimensional regime. This CLT-like result was the last missing piece to precisely predict the classification performance of spectral clustering. The proposed proof is very general and relies solely on the rotational invariance of the noise. Numerical experiments on synthetic and real data illustrate the universality of this phenomenon.",
+    "link": "https://arxiv.org/abs/2402.12302",
+    "context": "Title: Asymptotic Gaussian Fluctuations of Eigenvectors in Spectral Clustering\nAbstract: arXiv:2402.12302v1 Announce Type: cross  Abstract: The performance of spectral clustering relies on the fluctuations of the entries of the eigenvectors of a similarity matrix, which has been left uncharacterized until now. In this letter, it is shown that the signal $+$ noise structure of a general spike random matrix model is transferred to the eigenvectors of the corresponding Gram kernel matrix and the fluctuations of their entries are Gaussian in the large-dimensional regime. This CLT-like result was the last missing piece to precisely predict the classification performance of spectral clustering. The proposed proof is very general and relies solely on the rotational invariance of the noise. Numerical experiments on synthetic and real data illustrate the universality of this phenomenon.",
+    "path": "papers/24/02/2402.12302.json",
+    "total_tokens": 752,
+    "translated_title": "谱聚类中特征向量的渐近高斯波动",
+    "translated_abstract": "谱聚类的性能依赖于相似矩阵的特征向量的条目波动，该波动直到现在仍未得到描述。本文表明，一般尖峰随机矩阵模型的信号+噪声结构被转移到相应的格拉姆核矩阵的特征向量上，并且它们的条目波动在大维度区域呈高斯分布。这种类似于中心极限定理的结果是准确预测谱聚类的分类性能的最后一块缺失的拼图。提出的证明非常通用，仅依赖于噪声的旋转不变性。对合成和真实数据的数值实验表明了这个现象的普适性。",
+    "tldr": "提出的研究揭示了谱聚类中特征向量的渐近高斯波动现象，为精确预测谱聚类的分类性能提供了重要依据。",
+    "en_tdlr": "This study reveals the asymptotic Gaussian fluctuations of eigenvectors in spectral clustering, providing a crucial basis for accurately predicting the classification performance of spectral clustering."
+}

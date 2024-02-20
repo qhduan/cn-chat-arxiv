@@ -1,0 +1,12 @@
+{
+    "title": "WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment",
+    "abstract": "arXiv:2402.12275v1 Announce Type: new  Abstract: We give a model-based agent that builds a Python program representing its knowledge of the world based on its interactions with the environment. The world model tries to explain its interactions, while also being optimistic about what reward it can achieve. We do this by extending work on program synthesis via LLMs. We study our agent on gridworlds, finding our approach is more sample-efficient compared to deep RL, and more compute-efficient compared to ReAct-style agents.",
+    "link": "https://arxiv.org/abs/2402.12275",
+    "context": "Title: WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment\nAbstract: arXiv:2402.12275v1 Announce Type: new  Abstract: We give a model-based agent that builds a Python program representing its knowledge of the world based on its interactions with the environment. The world model tries to explain its interactions, while also being optimistic about what reward it can achieve. We do this by extending work on program synthesis via LLMs. We study our agent on gridworlds, finding our approach is more sample-efficient compared to deep RL, and more compute-efficient compared to ReAct-style agents.",
+    "path": "papers/24/02/2402.12275.json",
+    "total_tokens": 660,
+    "translated_title": "WorldCoder，一种基于模型的LLM代理：通过编写代码和与环境交互构建世界模型",
+    "translated_abstract": "我们提出了一种基于模型的代理，通过与环境的交互构建代表其对世界知识的Python程序。该世界模型试图解释其交互，同时对自己能够获得的奖励持乐观态度。我们通过扩展LLM的程序合成工作来实现这一点。我们在网格世界上研究了我们的代理，发现我们的方法在样本效率上比深度强化学习更高，并且在计算效率上比ReAct风格的代理更高效。",
+    "tldr": "通过编写代码和与环境交互来构建世界模型的基于模型的LLM代理在样本效率上优于深度RL，并在计算效率上优于ReAct风格的代理。",
+    "en_tdlr": "A model-based LLM agent builds a world model by writing code and interacting with the environment, showing higher sample efficiency than deep RL and higher computational efficiency than ReAct-style agents."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Can LLMs Compute with Reasons?",
+    "abstract": "arXiv:2402.12080v1 Announce Type: new  Abstract: Large language models (LLMs) often struggle with complex mathematical tasks, prone to \"hallucinating\" incorrect answers due to their reliance on statistical patterns. This limitation is further amplified in average Small LangSLMs with limited context and training data. To address this challenge, we propose an \"Inductive Learning\" approach utilizing a distributed network of SLMs. This network leverages error-based learning and hint incorporation to refine the reasoning capabilities of SLMs. Our goal is to provide a framework that empowers SLMs to approach the level of logic-based applications achieved by high-parameter models, potentially benefiting any language model. Ultimately, this novel concept paves the way for bridging the logical gap between humans and LLMs across various fields.",
+    "link": "https://arxiv.org/abs/2402.12080",
+    "context": "Title: Can LLMs Compute with Reasons?\nAbstract: arXiv:2402.12080v1 Announce Type: new  Abstract: Large language models (LLMs) often struggle with complex mathematical tasks, prone to \"hallucinating\" incorrect answers due to their reliance on statistical patterns. This limitation is further amplified in average Small LangSLMs with limited context and training data. To address this challenge, we propose an \"Inductive Learning\" approach utilizing a distributed network of SLMs. This network leverages error-based learning and hint incorporation to refine the reasoning capabilities of SLMs. Our goal is to provide a framework that empowers SLMs to approach the level of logic-based applications achieved by high-parameter models, potentially benefiting any language model. Ultimately, this novel concept paves the way for bridging the logical gap between humans and LLMs across various fields.",
+    "path": "papers/24/02/2402.12080.json",
+    "total_tokens": 780,
+    "translated_title": "LLM能否用理由进行计算？",
+    "translated_abstract": "大型语言模型（LLMs）经常在处理复杂数学任务时遇到困难，容易因依赖统计模式而“产生幻觉”，给出错误答案。这一局限在平均上下文和训练数据有限的小型语言模型（SLMs）中进一步放大。为了解决这一挑战，我们提出了一种“归纳学习”方法，利用分布式的SLM网络。该网络利用基于错误的学习和提示融合来提升SLM的推理能力。我们的目标是提供一个框架，赋予SLM接近高参数模型所实现的基于逻辑的应用水平的能力，潜在地使任何语言模型受益。最终，这一新颖概念为跨各领域中人类与LLM之间逻辑差距的弥合铺平了道路。",
+    "tldr": "提出一种“归纳学习”方法，利用分布式的SLM网络来提升SLM的推理能力，桥梁人类与LLM之间的逻辑差距。",
+    "en_tdlr": "Introducing an \"Inductive Learning\" approach utilizing a distributed network of SLMs to enhance reasoning capabilities, bridging the logical gap between humans and LLMs."
+}

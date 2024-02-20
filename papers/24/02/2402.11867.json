@@ -1,0 +1,12 @@
+{
+    "title": "LoRA Training in the NTK Regime has No Spurious Local Minima",
+    "abstract": "arXiv:2402.11867v1 Announce Type: new  Abstract: Low-rank adaptation (LoRA) has become the standard approach for parameter-efficient fine-tuning of large language models (LLM), but our theoretical understanding of LoRA has been limited. In this work, we theoretically analyze LoRA fine-tuning in the neural tangent kernel (NTK) regime with $N$ data points, showing: (i) full fine-tuning (without LoRA) admits a low-rank solution of rank $r\\lesssim \\sqrt{N}$; (ii) using LoRA with rank $r\\gtrsim \\sqrt{N}$ eliminates spurious local minima, allowing gradient descent to find the low-rank solutions; (iii) the low-rank solution found using LoRA generalizes well.",
+    "link": "https://arxiv.org/abs/2402.11867",
+    "context": "Title: LoRA Training in the NTK Regime has No Spurious Local Minima\nAbstract: arXiv:2402.11867v1 Announce Type: new  Abstract: Low-rank adaptation (LoRA) has become the standard approach for parameter-efficient fine-tuning of large language models (LLM), but our theoretical understanding of LoRA has been limited. In this work, we theoretically analyze LoRA fine-tuning in the neural tangent kernel (NTK) regime with $N$ data points, showing: (i) full fine-tuning (without LoRA) admits a low-rank solution of rank $r\\lesssim \\sqrt{N}$; (ii) using LoRA with rank $r\\gtrsim \\sqrt{N}$ eliminates spurious local minima, allowing gradient descent to find the low-rank solutions; (iii) the low-rank solution found using LoRA generalizes well.",
+    "path": "papers/24/02/2402.11867.json",
+    "total_tokens": 741,
+    "translated_title": "LoRA训练在NTK模式下没有虚假局部最小值",
+    "translated_abstract": "低秩适应（LoRA）已成为参数高效微调大型语言模型（LLM）的标准方法，但我们对LoRA的理论理解有限。在这项工作中，我们从理论上分析了在神经切向核（NTK）模式下使用LoRA微调，其中包含$N$个数据点，结果显示：(i) 全面微调（不使用LoRA）允许秩为$r\\lesssim \\sqrt{N}$的低秩解; (ii) 使用秩为$r\\gtrsim \\sqrt{N}$的LoRA消除了虚假的局部最小值，使梯度下降可以找到低秩解; (iii) 使用LoRA找到的低秩解具有良好的泛化性能。",
+    "tldr": "LoRA训练在NTK模式下消除了虚假局部最小值，有助于梯度下降找到低秩解并实现良好的泛化。",
+    "en_tdlr": "LoRA training in the NTK regime eliminates spurious local minima, helps gradient descent find low-rank solutions, and achieves good generalization."
+}

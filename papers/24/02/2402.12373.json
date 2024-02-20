@@ -1,0 +1,11 @@
+{
+    "title": "LTL learning on GPUs",
+    "abstract": "arXiv:2402.12373v1 Announce Type: cross  Abstract: Linear temporal logic (LTL) is widely used in industrial verification. LTL formulae can be learned from traces. Scaling LTL formula learning is an open problem. We implement the first GPU-based LTL learner using a novel form of enumerative program synthesis. The learner is sound and complete. Our benchmarks indicate that it handles traces at least 2048 times more numerous, and on average at least 46 times faster than existing state-of-the-art learners. This is achieved with, among others, novel branch-free LTL semantics that has $O(\\log n)$ time complexity, where $n$ is trace length, while previous implementations are $O(n^2)$ or worse (assuming bitwise boolean operations and shifts by powers of 2 have unit costs -- a realistic assumption on modern processors).",
+    "link": "https://arxiv.org/abs/2402.12373",
+    "context": "Title: LTL learning on GPUs\nAbstract: arXiv:2402.12373v1 Announce Type: cross  Abstract: Linear temporal logic (LTL) is widely used in industrial verification. LTL formulae can be learned from traces. Scaling LTL formula learning is an open problem. We implement the first GPU-based LTL learner using a novel form of enumerative program synthesis. The learner is sound and complete. Our benchmarks indicate that it handles traces at least 2048 times more numerous, and on average at least 46 times faster than existing state-of-the-art learners. This is achieved with, among others, novel branch-free LTL semantics that has $O(\\log n)$ time complexity, where $n$ is trace length, while previous implementations are $O(n^2)$ or worse (assuming bitwise boolean operations and shifts by powers of 2 have unit costs -- a realistic assumption on modern processors).",
+    "path": "papers/24/02/2402.12373.json",
+    "total_tokens": 849,
+    "translated_title": "基于GPU的LTL学习",
+    "translated_abstract": "线性时序逻辑（LTL）在工业验证中被广泛使用。LTL公式可以从跟踪中学习。扩展LTL公式学习是一个待解决的问题。我们实现了第一种基于GPU的LTL学习器，使用了一种新颖的枚举式程序合成。该学习器是完备和正确的。我们的基准测试表明，它处理的跟踪至少比现有最先进的学习器多2048倍，平均至少快46倍。这是通过诸多方法实现的，包括具有$O(\\log n)$时间复杂度的新型无分支LTL语义，其中$n$是跟踪长度，而以前的实现是$O(n^2)$或更糟（假设按位布尔运算和按2的幂移位具有单位成本——这是对现代处理器的现实假设）。",
+    "tldr": "实现了首个基于GPU的LTL学习器，使用新颖的枚举式程序合成，性能显著优于现有最先进的学习器，处理跟踪至少多2048倍，速度平均快46倍，并且引入了具有$O(\\log n)$时间复杂度的无分支LTL semantics。"
+}

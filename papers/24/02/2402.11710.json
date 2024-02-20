@@ -1,0 +1,12 @@
+{
+    "title": "A Note on Bias to Complete",
+    "abstract": "arXiv:2402.11710v1 Announce Type: new  Abstract: Minimizing social bias strengthens societal bonds, promoting shared understanding and better decision-making. We revisit the definition of bias by discovering new bias types (e.g., societal status) in dynamic environments and describe them relative to context, such as culture, region, time, and personal background. Our framework includes eight hypotheses about bias and a minimizing bias strategy for each assumption as well as five methods as proposed solutions in LLM. The realization of the framework is yet to be completed.",
+    "link": "https://arxiv.org/abs/2402.11710",
+    "context": "Title: A Note on Bias to Complete\nAbstract: arXiv:2402.11710v1 Announce Type: new  Abstract: Minimizing social bias strengthens societal bonds, promoting shared understanding and better decision-making. We revisit the definition of bias by discovering new bias types (e.g., societal status) in dynamic environments and describe them relative to context, such as culture, region, time, and personal background. Our framework includes eight hypotheses about bias and a minimizing bias strategy for each assumption as well as five methods as proposed solutions in LLM. The realization of the framework is yet to be completed.",
+    "path": "papers/24/02/2402.11710.json",
+    "total_tokens": 618,
+    "translated_title": "关于完善偏见的注解",
+    "translated_abstract": "减少社会偏见可以加强社会联系，促进共同理解和更好的决策。我们重新审视了对偏见的定义，发现了动态环境中的新偏见类型（例如社会地位），并将它们相对于文化、地区、时间和个人背景描述出来。我们的框架包括八个关于偏见的假设，以及每个假设的减少偏见策略以及在LLM中提出的五种方法作为解决方案。这个框架的实现尚未完成。",
+    "tldr": "在动态环境中，重新审视偏见的定义，提出新的偏见类型，并建立包括假设、策略和方法的框架来减少社会偏见。",
+    "en_tdlr": "Revisiting the definition of bias in dynamic environments, introducing new bias types, and establishing a framework that includes assumptions, strategies, and methods to reduce social bias."
+}

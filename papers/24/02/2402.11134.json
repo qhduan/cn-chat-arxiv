@@ -1,0 +1,12 @@
+{
+    "title": "Functional Partial Least-Squares: Optimal Rates and Adaptation",
+    "abstract": "arXiv:2402.11134v1 Announce Type: cross  Abstract: We consider the functional linear regression model with a scalar response and a Hilbert space-valued predictor, a well-known ill-posed inverse problem. We propose a new formulation of the functional partial least-squares (PLS) estimator related to the conjugate gradient method. We shall show that the estimator achieves the (nearly) optimal convergence rate on a class of ellipsoids and we introduce an early stopping rule which adapts to the unknown degree of ill-posedness. Some theoretical and simulation comparison between the estimator and the principal component regression estimator is provided.",
+    "link": "https://arxiv.org/abs/2402.11134",
+    "context": "Title: Functional Partial Least-Squares: Optimal Rates and Adaptation\nAbstract: arXiv:2402.11134v1 Announce Type: cross  Abstract: We consider the functional linear regression model with a scalar response and a Hilbert space-valued predictor, a well-known ill-posed inverse problem. We propose a new formulation of the functional partial least-squares (PLS) estimator related to the conjugate gradient method. We shall show that the estimator achieves the (nearly) optimal convergence rate on a class of ellipsoids and we introduce an early stopping rule which adapts to the unknown degree of ill-posedness. Some theoretical and simulation comparison between the estimator and the principal component regression estimator is provided.",
+    "path": "papers/24/02/2402.11134.json",
+    "total_tokens": 700,
+    "translated_title": "函数偏最小二乘法：最优收敛率和自适应性",
+    "translated_abstract": "我们考虑具有标量响应和 Hilbert 空间值预测变量的函数线性回归模型，这是一个众所周知的反问题。我们提出了一个与共轭梯度方法相关的函数偏最小二乘（PLS）估计的新公式。我们将展示该估计器在一类椭球上实现了（近乎）最优的收敛速率，并引入了一个能够适应未知逆问题度的提前停止规则。我们提供了估计器与主成分回归估计器之间的一些理论和仿真比较。",
+    "tldr": "该论文提出了一种新的函数偏最小二乘估计器，其在一类椭球上实现了（近乎）最优的收敛速率，并引入了适应未知逆问题度的提前停止规则。",
+    "en_tdlr": "This paper proposes a new formulation of the functional partial least-squares (PLS) estimator that achieves (nearly) optimal convergence rate on a class of ellipsoids, and introduces an early stopping rule that adapts to the unknown degree of ill-posedness."
+}

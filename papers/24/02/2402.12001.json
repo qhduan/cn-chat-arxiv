@@ -1,0 +1,12 @@
+{
+    "title": "A Survey on Extractive Knowledge Graph Summarization: Applications, Approaches, Evaluation, and Future Directions",
+    "abstract": "arXiv:2402.12001v1 Announce Type: new  Abstract: With the continuous growth of large Knowledge Graphs (KGs), extractive KG summarization becomes a trending task. Aiming at distilling a compact subgraph with condensed information, it facilitates various downstream KG-based tasks. In this survey paper, we are among the first to provide a systematic overview of its applications and define a taxonomy for existing methods from its interdisciplinary studies. Future directions are also laid out based on our extensive and comparative review.",
+    "link": "https://arxiv.org/abs/2402.12001",
+    "context": "Title: A Survey on Extractive Knowledge Graph Summarization: Applications, Approaches, Evaluation, and Future Directions\nAbstract: arXiv:2402.12001v1 Announce Type: new  Abstract: With the continuous growth of large Knowledge Graphs (KGs), extractive KG summarization becomes a trending task. Aiming at distilling a compact subgraph with condensed information, it facilitates various downstream KG-based tasks. In this survey paper, we are among the first to provide a systematic overview of its applications and define a taxonomy for existing methods from its interdisciplinary studies. Future directions are also laid out based on our extensive and comparative review.",
+    "path": "papers/24/02/2402.12001.json",
+    "total_tokens": 606,
+    "translated_title": "对抽取式知识图谱总结的调查：应用、方法、评估和未来方向",
+    "translated_abstract": "随着大型知识图谱（KGs）不断增长，抽取式KG总结成为一项热门任务。旨在提炼具有浓缩信息的紧凑子图，有助于各种下游基于KG的任务。在这篇调查论文中，我们是首批对其应用提供系统概述并从跨学科研究中定义现有方法的分类法之一。基于我们广泛而比较的评论，未来方向也已铺开。",
+    "tldr": "本文调查了抽取式知识图谱总结的应用并提出了方法分类，为未来方向提供了重要参考。",
+    "en_tdlr": "This paper surveys the applications of extractive knowledge graph summarization, presents a taxonomy for existing methods, and provides insightful guidance for future directions."
+}

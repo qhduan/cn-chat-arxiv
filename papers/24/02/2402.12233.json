@@ -1,0 +1,12 @@
+{
+    "title": "Empirical Study on Updating Key-Value Memories in Transformer Feed-forward Layers",
+    "abstract": "arXiv:2402.12233v1 Announce Type: new  Abstract: The feed-forward networks (FFNs) in transformers are recognized as a group of key-value neural memories to restore abstract high-level knowledge. In this work, we conduct an empirical ablation study on updating keys (the 1st layer in the FFNs layer) or values (the 2nd layer in the FFNs layer). We compare those two methods in various knowledge editing and fine-tuning tasks of large language models to draw insights to understand FFNs further. Code is available at $\\href{https://github.com/qiuzh20/Tuning-keys-v.s.-values}{this\\,repo}$.",
+    "link": "https://arxiv.org/abs/2402.12233",
+    "context": "Title: Empirical Study on Updating Key-Value Memories in Transformer Feed-forward Layers\nAbstract: arXiv:2402.12233v1 Announce Type: new  Abstract: The feed-forward networks (FFNs) in transformers are recognized as a group of key-value neural memories to restore abstract high-level knowledge. In this work, we conduct an empirical ablation study on updating keys (the 1st layer in the FFNs layer) or values (the 2nd layer in the FFNs layer). We compare those two methods in various knowledge editing and fine-tuning tasks of large language models to draw insights to understand FFNs further. Code is available at $\\href{https://github.com/qiuzh20/Tuning-keys-v.s.-values}{this\\,repo}$.",
+    "path": "papers/24/02/2402.12233.json",
+    "total_tokens": 684,
+    "translated_title": "论文标题：转换器前馈层中关键-值记忆更新的实证研究",
+    "translated_abstract": "摘要：变压器中的前馈网络（FFNs）被认为是一组关键-值神经记忆，用于恢复抽象的高层知识。在这项工作中，我们对更新键（FFNs层中的第一层）或值（FFNs层中的第二层）进行了实证消融研究。我们将在大型语言模型的各种知识编辑和微调任务中比较这两种方法，以获得更深入地理解FFNs的见解。代码可在 $\\href{https://github.com/qiuzh20/Tuning-keys-v.s.-values}{此存储库}$ 中找到。",
+    "tldr": "通过对大型语言模型的知识编辑和微调任务进行比较，进一步理解了在转换器前馈层中更新关键或值的不同方法。",
+    "en_tdlr": "A comparison of updating keys or values in Transformer Feed-forward Layers through knowledge editing and fine-tuning tasks on large language models provides insights into the different methods."
+}

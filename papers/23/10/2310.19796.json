@@ -1,0 +1,12 @@
+{
+    "title": "Re-evaluating Retrosynthesis Algorithms with Syntheseus",
+    "abstract": "arXiv:2310.19796v2 Announce Type: replace-cross  Abstract: The planning of how to synthesize molecules, also known as retrosynthesis, has been a growing focus of the machine learning and chemistry communities in recent years. Despite the appearance of steady progress, we argue that imperfect benchmarks and inconsistent comparisons mask systematic shortcomings of existing techniques. To remedy this, we present a benchmarking library called syntheseus which promotes best practice by default, enabling consistent meaningful evaluation of single-step and multi-step retrosynthesis algorithms. We use syntheseus to re-evaluate a number of previous retrosynthesis algorithms, and find that the ranking of state-of-the-art models changes when evaluated carefully. We end with guidance for future works in this area.",
+    "link": "https://arxiv.org/abs/2310.19796",
+    "context": "Title: Re-evaluating Retrosynthesis Algorithms with Syntheseus\nAbstract: arXiv:2310.19796v2 Announce Type: replace-cross  Abstract: The planning of how to synthesize molecules, also known as retrosynthesis, has been a growing focus of the machine learning and chemistry communities in recent years. Despite the appearance of steady progress, we argue that imperfect benchmarks and inconsistent comparisons mask systematic shortcomings of existing techniques. To remedy this, we present a benchmarking library called syntheseus which promotes best practice by default, enabling consistent meaningful evaluation of single-step and multi-step retrosynthesis algorithms. We use syntheseus to re-evaluate a number of previous retrosynthesis algorithms, and find that the ranking of state-of-the-art models changes when evaluated carefully. We end with guidance for future works in this area.",
+    "path": "papers/23/10/2310.19796.json",
+    "total_tokens": 745,
+    "translated_title": "使用Syntheseus重新评估回溯合成算法",
+    "translated_abstract": "过去几年，分子合成规划，也称为回溯合成，已经成为机器学习和化学界关注的焦点。尽管看似取得了稳定的进展，但我们认为存在不完善的基准和不一致的比较掩盖了现有技术的系统性缺陷。为了解决这个问题，我们提出了一个名为syntheseus的基准库，通过默认推广最佳实践，实现了对单步和多步回溯合成算法的一致而有意义的评估。我们使用syntheseus重新评估了若干先前的回溯合成算法，并发现在仔细评估时，现有技术模型的排名会发生变化。最后，我们给出了这一领域未来工作的指导建议。",
+    "tldr": "使用Syntheseus建立的基准库重新评估了回溯合成算法，揭示了现有技术模型的系统性缺陷并提供了对未来工作的指导建议。",
+    "en_tdlr": "Retrosynthesis algorithms were re-evaluated with a benchmarking library called Syntheseus, revealing systematic flaws in existing models and providing guidance for future work in the field."
+}

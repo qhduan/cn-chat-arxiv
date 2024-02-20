@@ -1,0 +1,12 @@
+{
+    "title": "Ironing allocations",
+    "abstract": "arXiv:2402.11881v1 Announce Type: new  Abstract: I propose a new approach to solving standard screening problems when the monotonicity constraint binds. A simple geometric argument shows that when virtual values are quasi-concave, the optimal allocation can be found by appropriately truncating the solution to the relaxed problem. I provide a simple algorithm for finding this optimal truncation when virtual values are concave.",
+    "link": "https://arxiv.org/abs/2402.11881",
+    "context": "Title: Ironing allocations\nAbstract: arXiv:2402.11881v1 Announce Type: new  Abstract: I propose a new approach to solving standard screening problems when the monotonicity constraint binds. A simple geometric argument shows that when virtual values are quasi-concave, the optimal allocation can be found by appropriately truncating the solution to the relaxed problem. I provide a simple algorithm for finding this optimal truncation when virtual values are concave.",
+    "path": "papers/24/02/2402.11881.json",
+    "total_tokens": 538,
+    "translated_title": "熨烫分配",
+    "translated_abstract": "我提出了一种新的方法来解决标准筛选问题，当单调性约束发生时。一个简单的几何论证表明，当虚拟价值是拟凹函数时，可以通过适当截断放松问题的解来找到最优分配。我提供了一个简单的算法来找到这种最优截断，当虚拟价值是凹函数时。",
+    "tldr": "当虚拟价值是拟凹函数时，可以通过适当截断放松问题的解来找到最优分配，并提供了一个简单算法来实现。",
+    "en_tdlr": "When virtual values are quasi-concave, the optimal allocation can be found by appropriately truncating the solution to the relaxed problem, with a simple algorithm provided for this optimal truncation when virtual values are concave."
+}
