@@ -1,0 +1,11 @@
+{
+    "title": "Towards an empirical understanding of MoE design choices",
+    "abstract": "arXiv:2402.13089v1 Announce Type: cross  Abstract: In this study, we systematically evaluate the impact of common design choices in Mixture of Experts (MoEs) on validation performance, uncovering distinct influences at token and sequence levels. We also present empirical evidence showing comparable performance between a learned router and a frozen, randomly initialized router, suggesting that learned routing may not be essential. Our study further reveals that Sequence-level routing can result in topic-specific weak expert specialization, in contrast to syntax specialization observed with Token-level routing.",
+    "link": "https://arxiv.org/abs/2402.13089",
+    "context": "Title: Towards an empirical understanding of MoE design choices\nAbstract: arXiv:2402.13089v1 Announce Type: cross  Abstract: In this study, we systematically evaluate the impact of common design choices in Mixture of Experts (MoEs) on validation performance, uncovering distinct influences at token and sequence levels. We also present empirical evidence showing comparable performance between a learned router and a frozen, randomly initialized router, suggesting that learned routing may not be essential. Our study further reveals that Sequence-level routing can result in topic-specific weak expert specialization, in contrast to syntax specialization observed with Token-level routing.",
+    "path": "papers/24/02/2402.13089.json",
+    "total_tokens": 668,
+    "translated_title": "朝向对MoE设计选择的实证理解",
+    "translated_abstract": "在这项研究中，我们系统地评估了Mixture of Experts（MoEs）中常见设计选择对验证性能的影响，揭示了在标记和序列级别上的不同影响。我们还提供经验证据表明，在学习路由器和冻结的随机初始化路由器之间具有可比性的性能，这表明学习路由可能并非必不可少。我们的研究进一步揭示了序列级路由可能导致特定主题的弱专家专业化，与标记级别路由观察到的语法专业化形成对比。",
+    "tldr": "本研究系统评估了Mixture of Experts（MoEs）中常见设计选择对验证性能的影响，揭示了路由器的学习与初始化对模型性能的比较、序列级路由与标记级路由在专家专业化方面的不同影响。"
+}

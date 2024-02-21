@@ -1,0 +1,12 @@
+{
+    "title": "A unifying primary framework for quantum graph neural networks from quantum graph states",
+    "abstract": "arXiv:2402.13001v1 Announce Type: cross  Abstract: Graph states are used to represent mathematical graphs as quantum states on quantum computers. They can be formulated through stabilizer codes or directly quantum gates and quantum states. In this paper we show that a quantum graph neural network model can be understood and realized based on graph states. We show that they can be used either as a parameterized quantum circuits to represent neural networks or as an underlying structure to construct graph neural networks on quantum computers.",
+    "link": "https://arxiv.org/abs/2402.13001",
+    "context": "Title: A unifying primary framework for quantum graph neural networks from quantum graph states\nAbstract: arXiv:2402.13001v1 Announce Type: cross  Abstract: Graph states are used to represent mathematical graphs as quantum states on quantum computers. They can be formulated through stabilizer codes or directly quantum gates and quantum states. In this paper we show that a quantum graph neural network model can be understood and realized based on graph states. We show that they can be used either as a parameterized quantum circuits to represent neural networks or as an underlying structure to construct graph neural networks on quantum computers.",
+    "path": "papers/24/02/2402.13001.json",
+    "total_tokens": 605,
+    "translated_title": "一个统一的量子图神经网络主要框架来自量子图态",
+    "translated_abstract": "图态被用来将数学图表示为量子计算机上的量子状态。它们可以通过稳定子码或直接的量子门和量子状态来构建。本文展示了量子图神经网络模型可以基于图态加以理解和实现。我们展示了它们可以被用作参数化的量子电路来表示神经网络，或作为构建量子计算机上的图神经网络的基础结构。",
+    "tldr": "量子图神经网络模型可基于图态理解和实现，可用作参数化的量子电路来表示神经网络，或作为构建量子计算机上的图神经网络的基础结构。",
+    "en_tdlr": "Quantum graph neural network model can be understood and realized based on graph states, which can be used as a parameterized quantum circuit to represent neural networks or as the underlying structure to construct graph neural networks on quantum computers."
+}

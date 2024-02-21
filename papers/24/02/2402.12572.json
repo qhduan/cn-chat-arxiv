@@ -1,0 +1,12 @@
+{
+    "title": "FairProof : Confidential and Certifiable Fairness for Neural Networks",
+    "abstract": "arXiv:2402.12572v1 Announce Type: cross  Abstract: Machine learning models are increasingly used in societal applications, yet legal and privacy concerns demand that they very often be kept confidential. Consequently, there is a growing distrust about the fairness properties of these models in the minds of consumers, who are often at the receiving end of model predictions. To this end, we propose FairProof - a system that uses Zero-Knowledge Proofs (a cryptographic primitive) to publicly verify the fairness of a model, while maintaining confidentiality. We also propose a fairness certification algorithm for fully-connected neural networks which is befitting to ZKPs and is used in this system. We implement FairProof in Gnark and demonstrate empirically that our system is practically feasible.",
+    "link": "https://arxiv.org/abs/2402.12572",
+    "context": "Title: FairProof : Confidential and Certifiable Fairness for Neural Networks\nAbstract: arXiv:2402.12572v1 Announce Type: cross  Abstract: Machine learning models are increasingly used in societal applications, yet legal and privacy concerns demand that they very often be kept confidential. Consequently, there is a growing distrust about the fairness properties of these models in the minds of consumers, who are often at the receiving end of model predictions. To this end, we propose FairProof - a system that uses Zero-Knowledge Proofs (a cryptographic primitive) to publicly verify the fairness of a model, while maintaining confidentiality. We also propose a fairness certification algorithm for fully-connected neural networks which is befitting to ZKPs and is used in this system. We implement FairProof in Gnark and demonstrate empirically that our system is practically feasible.",
+    "path": "papers/24/02/2402.12572.json",
+    "total_tokens": 721,
+    "translated_title": "FairProof：神经网络的机密和可认证公平性",
+    "translated_abstract": "机器学习模型在社会应用中的使用越来越普遍，然而法律和隐私问题要求这些模型往往需要保密。因此，消费者对这些模型的公平性属性越来越不信任，消费者通常是模型预测的接收者。为此，我们提出了FairProof - 一种系统，使用零知识证明（一种密码原语）来公开验证模型的公平性，同时保持机密性。我们还提出了一个适合于ZKPs的全连接神经网络的公平性认证算法，并在该系统中使用。我们在Gnark中实现了FairProof，并通过实证证明了我们的系统是实际可行的。",
+    "tldr": "FairProof提出了一种使用零知识证明来公开验证神经网络模型公平性的系统，同时保持机密性，并提出了适用于ZKPs的全连接神经网络的公平性认证算法。",
+    "en_tdlr": "FairProof proposes a system that uses zero-knowledge proofs to publicly verify the fairness of neural network models while maintaining confidentiality, along with a fairness certification algorithm suitable for ZKPs."
+}

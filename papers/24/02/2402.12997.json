@@ -1,0 +1,11 @@
+{
+    "title": "Towards Trustworthy Reranking: A Simple yet Effective Abstention Mechanism",
+    "abstract": "arXiv:2402.12997v1 Announce Type: cross  Abstract: Neural Information Retrieval (NIR) has significantly improved upon heuristic-based IR systems. Yet, failures remain frequent, the models used often being unable to retrieve documents relevant to the user's query. We address this challenge by proposing a lightweight abstention mechanism tailored for real-world constraints, with particular emphasis placed on the reranking phase. We introduce a protocol for evaluating abstention strategies in a black-box scenario, demonstrating their efficacy, and propose a simple yet effective data-driven mechanism. We provide open-source code for experiment replication and abstention implementation, fostering wider adoption and application in diverse contexts.",
+    "link": "https://arxiv.org/abs/2402.12997",
+    "context": "Title: Towards Trustworthy Reranking: A Simple yet Effective Abstention Mechanism\nAbstract: arXiv:2402.12997v1 Announce Type: cross  Abstract: Neural Information Retrieval (NIR) has significantly improved upon heuristic-based IR systems. Yet, failures remain frequent, the models used often being unable to retrieve documents relevant to the user's query. We address this challenge by proposing a lightweight abstention mechanism tailored for real-world constraints, with particular emphasis placed on the reranking phase. We introduce a protocol for evaluating abstention strategies in a black-box scenario, demonstrating their efficacy, and propose a simple yet effective data-driven mechanism. We provide open-source code for experiment replication and abstention implementation, fostering wider adoption and application in diverse contexts.",
+    "path": "papers/24/02/2402.12997.json",
+    "total_tokens": 718,
+    "translated_title": "朝着可信的再排序：一种简单但有效的弃权机制",
+    "translated_abstract": "神经信息检索（NIR）已经显著改进了基于启发式的IR系统。然而，失败仍然频繁发生，通常所使用的模型无法检索与用户查询相关的文档。我们通过提出一种适用于现实约束的轻量级弃权机制来解决这一挑战，特别强调再排序阶段。我们介绍了一个协议，用于在黑匣子场景中评估弃权策略的效果，并提出了一种简单但有效的数据驱动机制。我们提供了实验复制和弃权实施的开源代码，促进其在不同环境中更广泛的采用和应用。",
+    "tldr": "提出了一种适用于现实约束的轻量级弃权机制，特别适用于再排序阶段，通过数据驱动的方法达到有效性，并提供了开源代码以促进其更广泛的应用。"
+}

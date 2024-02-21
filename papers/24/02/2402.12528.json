@@ -1,0 +1,12 @@
+{
+    "title": "Denoised Monte Carlo for option pricing and Greeks estimation",
+    "abstract": "arXiv:2402.12528v1 Announce Type: new  Abstract: We present a novel technique of Monte Carlo error reduction that finds direct application in option pricing and Greeks estimation. The method is applicable to any LSV modelling framework and concerns a broad class of payoffs, including path-dependent and multi-asset cases. Most importantly, it allows to reduce the Monte Carlo error even by an order of magnitude, which is shown in several numerical examples.",
+    "link": "https://arxiv.org/abs/2402.12528",
+    "context": "Title: Denoised Monte Carlo for option pricing and Greeks estimation\nAbstract: arXiv:2402.12528v1 Announce Type: new  Abstract: We present a novel technique of Monte Carlo error reduction that finds direct application in option pricing and Greeks estimation. The method is applicable to any LSV modelling framework and concerns a broad class of payoffs, including path-dependent and multi-asset cases. Most importantly, it allows to reduce the Monte Carlo error even by an order of magnitude, which is shown in several numerical examples.",
+    "path": "papers/24/02/2402.12528.json",
+    "total_tokens": 578,
+    "translated_title": "选项定价和希腊估计的去噪蒙特卡洛法",
+    "translated_abstract": "我们提出一种新颖的蒙特卡洛误差降低技术，可直接应用于期权定价和希腊估计。该方法适用于任何LSV建模框架，涉及包括路径依赖和多资产情况在内的广泛付款类别。最重要的是，它能够将蒙特卡洛误差降低甚至一个数量级，这在几个数值例子中得到了证明。",
+    "tldr": "提出了一种去噪蒙特卡洛方法，可大幅降低期权定价和希腊估计中的误差。",
+    "en_tdlr": "Introducing a denoised Monte Carlo method for significant error reduction in option pricing and Greeks estimation."
+}

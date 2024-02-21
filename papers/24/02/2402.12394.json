@@ -1,0 +1,12 @@
+{
+    "title": "Improving Model's Interpretability and Reliability using Biomarkers",
+    "abstract": "arXiv:2402.12394v1 Announce Type: cross  Abstract: Accurate and interpretable diagnostic models are crucial in the safety-critical field of medicine. We investigate the interpretability of our proposed biomarker-based lung ultrasound diagnostic pipeline to enhance clinicians' diagnostic capabilities. The objective of this study is to assess whether explanations from a decision tree classifier, utilizing biomarkers, can improve users' ability to identify inaccurate model predictions compared to conventional saliency maps. Our findings demonstrate that decision tree explanations, based on clinically established biomarkers, can assist clinicians in detecting false positives, thus improving the reliability of diagnostic models in medicine.",
+    "link": "https://arxiv.org/abs/2402.12394",
+    "context": "Title: Improving Model's Interpretability and Reliability using Biomarkers\nAbstract: arXiv:2402.12394v1 Announce Type: cross  Abstract: Accurate and interpretable diagnostic models are crucial in the safety-critical field of medicine. We investigate the interpretability of our proposed biomarker-based lung ultrasound diagnostic pipeline to enhance clinicians' diagnostic capabilities. The objective of this study is to assess whether explanations from a decision tree classifier, utilizing biomarkers, can improve users' ability to identify inaccurate model predictions compared to conventional saliency maps. Our findings demonstrate that decision tree explanations, based on clinically established biomarkers, can assist clinicians in detecting false positives, thus improving the reliability of diagnostic models in medicine.",
+    "path": "papers/24/02/2402.12394.json",
+    "total_tokens": 732,
+    "translated_title": "利用生物标志物提高模型的解释性和可靠性",
+    "translated_abstract": "准确且具有解释性的诊断模型在医学这个安全关键领域至关重要。我们研究了我们提出的基于生物标志物的肺部超声诊断流程的可解释性，以增强临床医生的诊断能力。本研究的目标是评估决策树分类器利用生物标志物提供的解释是否能够改善用户识别模型不准确预测能力，与传统的显著性图相比。我们的研究发现表明，基于临床建立的生物标志物的决策树解释能够帮助临床医生检测到假阳性，从而提高医学诊断模型的可靠性。",
+    "tldr": "利用决策树解释基于生物标志物的诊断模型，帮助临床医生提高识别不准确预测的能力，从而增强医学诊断模型的可靠性。",
+    "en_tdlr": "Using decision tree explanations based on biomarkers in diagnostic models can help clinicians improve their ability to identify inaccurate predictions, thus enhancing the reliability of medical diagnostic models."
+}

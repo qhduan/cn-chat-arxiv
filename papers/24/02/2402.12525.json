@@ -1,0 +1,12 @@
+{
+    "title": "LangXAI: Integrating Large Vision Models for Generating Textual Explanations to Enhance Explainability in Visual Perception Tasks",
+    "abstract": "arXiv:2402.12525v1 Announce Type: cross  Abstract: LangXAI is a framework that integrates Explainable Artificial Intelligence (XAI) with advanced vision models to generate textual explanations for visual recognition tasks. Despite XAI advancements, an understanding gap persists for end-users with limited domain knowledge in artificial intelligence and computer vision. LangXAI addresses this by furnishing text-based explanations for classification, object detection, and semantic segmentation model outputs to end-users. Preliminary results demonstrate LangXAI's enhanced plausibility, with high BERTScore across tasks, fostering a more transparent and reliable AI framework on vision tasks for end-users.",
+    "link": "https://arxiv.org/abs/2402.12525",
+    "context": "Title: LangXAI: Integrating Large Vision Models for Generating Textual Explanations to Enhance Explainability in Visual Perception Tasks\nAbstract: arXiv:2402.12525v1 Announce Type: cross  Abstract: LangXAI is a framework that integrates Explainable Artificial Intelligence (XAI) with advanced vision models to generate textual explanations for visual recognition tasks. Despite XAI advancements, an understanding gap persists for end-users with limited domain knowledge in artificial intelligence and computer vision. LangXAI addresses this by furnishing text-based explanations for classification, object detection, and semantic segmentation model outputs to end-users. Preliminary results demonstrate LangXAI's enhanced plausibility, with high BERTScore across tasks, fostering a more transparent and reliable AI framework on vision tasks for end-users.",
+    "path": "papers/24/02/2402.12525.json",
+    "total_tokens": 731,
+    "translated_title": "LangXAI：整合大型视觉模型以生成文本解释，以增强视觉感知任务的可解释性",
+    "translated_abstract": "LangXAI是一个框架，将可解释人工智能（XAI）与先进的视觉模型集成在一起，为视觉识别任务生成文本解释。尽管XAI取得了进展，但对于在人工智能和计算机视觉方面具有有限领域知识的最终用户，仍然存在理解差距。LangXAI通过为最终用户提供基于文本的分类、目标检测和语义分割模型输出的解释来解决这个问题。初步结果显示LangXAI具有增强的可信度，在各项任务中具有较高的BERTScore，促进了更加透明和可靠的视觉任务AI框架。",
+    "tldr": "LangXAI通过整合大型视觉模型，为视觉感知任务提供文本解释，弥补了最终用户在人工智能和计算机视觉方面知识的理解差距。",
+    "en_tdlr": "LangXAI integrates large vision models to provide textual explanations for visual perception tasks, bridging the understanding gap for end-users with limited domain knowledge in artificial intelligence and computer vision."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Touring sampling with pushforward maps",
+    "abstract": "arXiv:2311.13845v2 Announce Type: replace-cross  Abstract: The number of sampling methods could be daunting for a practitioner looking to cast powerful machine learning methods to their specific problem. This paper takes a theoretical stance to review and organize many sampling approaches in the ``generative modeling'' setting, where one wants to generate new data that are similar to some training examples. By revealing links between existing methods, it might prove useful to overcome some of the current challenges in sampling with diffusion models, such as long inference time due to diffusion simulation, or the lack of diversity in generated samples.",
+    "link": "https://arxiv.org/abs/2311.13845",
+    "context": "Title: Touring sampling with pushforward maps\nAbstract: arXiv:2311.13845v2 Announce Type: replace-cross  Abstract: The number of sampling methods could be daunting for a practitioner looking to cast powerful machine learning methods to their specific problem. This paper takes a theoretical stance to review and organize many sampling approaches in the ``generative modeling'' setting, where one wants to generate new data that are similar to some training examples. By revealing links between existing methods, it might prove useful to overcome some of the current challenges in sampling with diffusion models, such as long inference time due to diffusion simulation, or the lack of diversity in generated samples.",
+    "path": "papers/23/11/2311.13845.json",
+    "total_tokens": 662,
+    "translated_title": "使用推前映射进行各地采样",
+    "translated_abstract": "对于一个希望将强大的机器学习方法应用于特定问题的从业者来说，采样方法的数量可能令人生畏。本文从理论角度出发，对在“生成建模”设置中许多采样方法进行了审视和组织，其中希望生成与一些训练样本类似的新数据。通过揭示现有方法之间的联系，可能有助于克服与扩散模型采样相关的一些当前挑战，比如由于扩散模拟而导致的长推理时间，或者生成样本缺乏多样性。",
+    "tldr": "该论文从理论角度对生成建模中的多种采样方法进行了审视和组织，帮助克服采样中的一些挑战，比如推理时间长和生成样本缺乏多样性。",
+    "en_tdlr": "This paper takes a theoretical stance to review and organize many sampling approaches in the \"generative modeling\" setting, which may help overcome challenges in sampling such as long inference time and lack of diversity in generated samples."
+}

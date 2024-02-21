@@ -1,0 +1,12 @@
+{
+    "title": "In deep reinforcement learning, a pruned network is a good network",
+    "abstract": "arXiv:2402.12479v1 Announce Type: cross  Abstract: Recent work has shown that deep reinforcement learning agents have difficulty in effectively using their network parameters. We leverage prior insights into the advantages of sparse training techniques and demonstrate that gradual magnitude pruning enables agents to maximize parameter effectiveness. This results in networks that yield dramatic performance improvements over traditional networks and exhibit a type of \"scaling law\", using only a small fraction of the full network parameters.",
+    "link": "https://arxiv.org/abs/2402.12479",
+    "context": "Title: In deep reinforcement learning, a pruned network is a good network\nAbstract: arXiv:2402.12479v1 Announce Type: cross  Abstract: Recent work has shown that deep reinforcement learning agents have difficulty in effectively using their network parameters. We leverage prior insights into the advantages of sparse training techniques and demonstrate that gradual magnitude pruning enables agents to maximize parameter effectiveness. This results in networks that yield dramatic performance improvements over traditional networks and exhibit a type of \"scaling law\", using only a small fraction of the full network parameters.",
+    "path": "papers/24/02/2402.12479.json",
+    "total_tokens": 592,
+    "translated_title": "在深度强化学习中，修剪网络是一个好网络",
+    "translated_abstract": "最近的研究表明，深度强化学习代理在有效利用其网络参数方面存在困难。我们利用对稀疏训练技术优势的先前见解，并证明逐渐剪枝使代理能够最大程度地发挥参数效能。这导致网络比传统网络产生显著的性能改进，并表现出一种“缩放定律”，仅使用完整网络参数的一小部分。",
+    "tldr": "通过逐渐剪枝，使代理能够最大程度地发挥参数效能，从而产生比传统网络显著性能提升的网络，并展现出一种“缩放定律”。",
+    "en_tdlr": "By gradually pruning, agents are able to maximize parameter effectiveness, resulting in networks with dramatic performance improvements over traditional networks and exhibiting a type of \"scaling law\"."
+}

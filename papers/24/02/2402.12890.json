@@ -1,0 +1,11 @@
+{
+    "title": "More Discriminative Sentence Embeddings via Semantic Graph Smoothing",
+    "abstract": "arXiv:2402.12890v1 Announce Type: new  Abstract: This paper explores an empirical approach to learn more discriminantive sentence representations in an unsupervised fashion. Leveraging semantic graph smoothing, we enhance sentence embeddings obtained from pretrained models to improve results for the text clustering and classification tasks. Our method, validated on eight benchmarks, demonstrates consistent improvements, showcasing the potential of semantic graph smoothing in improving sentence embeddings for the supervised and unsupervised document categorization tasks.",
+    "link": "https://arxiv.org/abs/2402.12890",
+    "context": "Title: More Discriminative Sentence Embeddings via Semantic Graph Smoothing\nAbstract: arXiv:2402.12890v1 Announce Type: new  Abstract: This paper explores an empirical approach to learn more discriminantive sentence representations in an unsupervised fashion. Leveraging semantic graph smoothing, we enhance sentence embeddings obtained from pretrained models to improve results for the text clustering and classification tasks. Our method, validated on eight benchmarks, demonstrates consistent improvements, showcasing the potential of semantic graph smoothing in improving sentence embeddings for the supervised and unsupervised document categorization tasks.",
+    "path": "papers/24/02/2402.12890.json",
+    "total_tokens": 581,
+    "translated_title": "通过语义图平滑实现更具辨别力的句子嵌入",
+    "translated_abstract": "这篇论文探讨了一种经验方法，以无监督的方式学习更具辨别性的句子表示。利用语义图平滑，我们增强了从预训练模型中获取的句子嵌入，以提高文本聚类和分类任务的结果。我们的方法在八个基准上得到验证，展示了语义图平滑在改善用于监督和无监督文档分类任务的句子嵌入中的潜力。",
+    "tldr": "通过语义图平滑技术增强预训练模型获取的句子嵌入，有效改善文本聚类和分类任务的结果。"
+}

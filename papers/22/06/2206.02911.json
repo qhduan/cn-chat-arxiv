@@ -1,0 +1,12 @@
+{
+    "title": "Inverse Boundary Value and Optimal Control Problems on Graphs: A Neural and Numerical Synthesis",
+    "abstract": "arXiv:2206.02911v2 Announce Type: replace  Abstract: A general setup for deterministic system identification problems on graphs with Dirichlet and Neumann boundary conditions is introduced. When control nodes are available along the boundary, we apply a discretize-then-optimize method to estimate an optimal control. A key piece in the present architecture is our boundary injected message passing neural network. This will produce more accurate predictions that are considerably more stable in proximity of the boundary. Also, a regularization technique based on graphical distance is introduced that helps with stabilizing the predictions at nodes far from the boundary.",
+    "link": "https://arxiv.org/abs/2206.02911",
+    "context": "Title: Inverse Boundary Value and Optimal Control Problems on Graphs: A Neural and Numerical Synthesis\nAbstract: arXiv:2206.02911v2 Announce Type: replace  Abstract: A general setup for deterministic system identification problems on graphs with Dirichlet and Neumann boundary conditions is introduced. When control nodes are available along the boundary, we apply a discretize-then-optimize method to estimate an optimal control. A key piece in the present architecture is our boundary injected message passing neural network. This will produce more accurate predictions that are considerably more stable in proximity of the boundary. Also, a regularization technique based on graphical distance is introduced that helps with stabilizing the predictions at nodes far from the boundary.",
+    "path": "papers/22/06/2206.02911.json",
+    "total_tokens": 710,
+    "translated_title": "图上的逆边界值和最优控制问题：神经和数值综合",
+    "translated_abstract": "引入了一个关于图上带有Dirichlet和Neumann边界条件的确定性系统识别问题的通用设置。当边界上有控制节点时，我们应用了一种离散化然后优化的方法来估计最优控制。当前体系结构中的一个关键部分是我们的边界注入消息传递神经网络。这将产生更准确的预测，在边界附近更加稳定。此外，引入了一种基于图距离的正则化技术，有助于稳定远离边界的节点处的预测。",
+    "tldr": "引入了图上确定性系统识别问题的通用设置，提出了一种边界注入消息传递神经网络提高预测准确性的方法，并引入了一种基于图距离的正则化技术来稳定远离边界的节点的预测。",
+    "en_tdlr": "A general setup for deterministic system identification problems on graphs is introduced, with the proposal of a boundary injected message passing neural network to improve prediction accuracy and the introduction of a regularization technique based on graphical distance to stabilize predictions at nodes far from the boundary."
+}

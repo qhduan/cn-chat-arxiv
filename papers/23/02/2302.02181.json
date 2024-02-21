@@ -1,0 +1,12 @@
+{
+    "title": "Model Stitching and Visualization How GAN Generators can Invert Networks in Real-Time",
+    "abstract": "arXiv:2302.02181v2 Announce Type: replace-cross  Abstract: In this work, we propose a fast and accurate method to reconstruct activations of classification and semantic segmentation networks by stitching them with a GAN generator utilizing a 1x1 convolution. We test our approach on images of animals from the AFHQ wild dataset, ImageNet1K, and real-world digital pathology scans of stained tissue samples. Our results show comparable performance to established gradient descent methods but with a processing time that is two orders of magnitude faster, making this approach promising for practical applications.",
+    "link": "https://arxiv.org/abs/2302.02181",
+    "context": "Title: Model Stitching and Visualization How GAN Generators can Invert Networks in Real-Time\nAbstract: arXiv:2302.02181v2 Announce Type: replace-cross  Abstract: In this work, we propose a fast and accurate method to reconstruct activations of classification and semantic segmentation networks by stitching them with a GAN generator utilizing a 1x1 convolution. We test our approach on images of animals from the AFHQ wild dataset, ImageNet1K, and real-world digital pathology scans of stained tissue samples. Our results show comparable performance to established gradient descent methods but with a processing time that is two orders of magnitude faster, making this approach promising for practical applications.",
+    "path": "papers/23/02/2302.02181.json",
+    "total_tokens": 660,
+    "translated_title": "模型拼接与可视化：如何利用GAN生成器实时反转网络",
+    "translated_abstract": "在这项工作中，我们提出了一种快速准确的方法，通过将分类和语义分割网络与利用1x1卷积的GAN生成器拼接起来重建激活。我们在AFHQ野生数据集、ImageNet1K的动物图像以及染色组织样本的真实数字病理扫描图像上测试了我们的方法。我们的结果表明，与已建立的梯度下降方法相比，我们的方法性能相当，但处理时间快两个数量级，使得这种方法在实际应用中具有前景。",
+    "tldr": "提出了一种利用GAN生成器拼接网络并实时反转的方法，在图像分类和语义分割网络中表现出与梯度下降方法相当的性能，但处理时间快两个数量级。",
+    "en_tdlr": "Proposed a method that utilizes GAN generators to stitch and invert networks in real-time, demonstrating performance comparable to gradient descent methods in image classification and semantic segmentation networks, but with a processing time two orders of magnitude faster."
+}

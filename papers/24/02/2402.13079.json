@@ -1,0 +1,12 @@
+{
+    "title": "Mode Estimation with Partial Feedback",
+    "abstract": "arXiv:2402.13079v1 Announce Type: cross  Abstract: The combination of lightly supervised pre-training and online fine-tuning has played a key role in recent AI developments. These new learning pipelines call for new theoretical frameworks. In this paper, we formalize core aspects of weakly supervised and active learning with a simple problem: the estimation of the mode of a distribution using partial feedback. We show how entropy coding allows for optimal information acquisition from partial feedback, develop coarse sufficient statistics for mode identification, and adapt bandit algorithms to our new setting. Finally, we combine those contributions into a statistically and computationally efficient solution to our problem.",
+    "link": "https://arxiv.org/abs/2402.13079",
+    "context": "Title: Mode Estimation with Partial Feedback\nAbstract: arXiv:2402.13079v1 Announce Type: cross  Abstract: The combination of lightly supervised pre-training and online fine-tuning has played a key role in recent AI developments. These new learning pipelines call for new theoretical frameworks. In this paper, we formalize core aspects of weakly supervised and active learning with a simple problem: the estimation of the mode of a distribution using partial feedback. We show how entropy coding allows for optimal information acquisition from partial feedback, develop coarse sufficient statistics for mode identification, and adapt bandit algorithms to our new setting. Finally, we combine those contributions into a statistically and computationally efficient solution to our problem.",
+    "path": "papers/24/02/2402.13079.json",
+    "total_tokens": 750,
+    "translated_title": "具有部分反馈的模态估计",
+    "translated_abstract": "arXiv:2402.13079v1 通告类型: 交叉摘要: 最近人工智能发展中，轻度监督的预训练和在线微调的组合在起着关键作用。这些新的学习流程需要新的理论框架。本文通过一个简单问题，形式化弱监督和主动学习的核心方面：使用部分反馈估计分布的模态。我们展示了如何利用熵编码从部分反馈中实现最优信息获取，为模态识别开发了粗糙的充分统计，并将赌博算法调整为我们的新设置。最后，我们将这些贡献结合起来，提出了一个在统计上和计算上高效的问题解决方案。",
+    "tldr": "本文提出了一种在模态估计中利用部分反馈的方法，通过熵编码实现最优信息获取，开发了粗糙的充分统计用于模态识别，并将赌博算法调整为新设置，最终提出了一个高效的问题解决方案",
+    "en_tdlr": "This paper proposes a method for mode estimation using partial feedback, achieves optimal information acquisition through entropy coding, develops coarse sufficient statistics for mode identification, adapts bandit algorithms to the new setting, and finally presents an efficient solution to the problem."
+}

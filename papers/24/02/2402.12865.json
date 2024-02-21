@@ -1,0 +1,12 @@
+{
+    "title": "Backward Lens: Projecting Language Model Gradients into the Vocabulary Space",
+    "abstract": "arXiv:2402.12865v1 Announce Type: cross  Abstract: Understanding how Transformer-based Language Models (LMs) learn and recall information is a key goal of the deep learning community. Recent interpretability methods project weights and hidden states obtained from the forward pass to the models' vocabularies, helping to uncover how information flows within LMs. In this work, we extend this methodology to LMs' backward pass and gradients. We first prove that a gradient matrix can be cast as a low-rank linear combination of its forward and backward passes' inputs. We then develop methods to project these gradients into vocabulary items and explore the mechanics of how new information is stored in the LMs' neurons.",
+    "link": "https://arxiv.org/abs/2402.12865",
+    "context": "Title: Backward Lens: Projecting Language Model Gradients into the Vocabulary Space\nAbstract: arXiv:2402.12865v1 Announce Type: cross  Abstract: Understanding how Transformer-based Language Models (LMs) learn and recall information is a key goal of the deep learning community. Recent interpretability methods project weights and hidden states obtained from the forward pass to the models' vocabularies, helping to uncover how information flows within LMs. In this work, we extend this methodology to LMs' backward pass and gradients. We first prove that a gradient matrix can be cast as a low-rank linear combination of its forward and backward passes' inputs. We then develop methods to project these gradients into vocabulary items and explore the mechanics of how new information is stored in the LMs' neurons.",
+    "path": "papers/24/02/2402.12865.json",
+    "total_tokens": 712,
+    "translated_title": "反向镜头：将语言模型梯度投影到词汇空间中",
+    "translated_abstract": "了解基于Transformer的语言模型(LMs)如何学习和记忆信息是深度学习社区的一个重要目标。最近的可解释性方法将从前向传播中获得的权重和隐藏状态投影到模型的词汇表中，有助于揭示LMs内部信息流动的方式。在这项工作中，我们将这种方法扩展到LMs的后向传播和梯度。我们首先证明梯度矩阵可以被表示为其前向和后向传播输入的低秩线性组合。然后我们开发方法将这些梯度投影到词汇项中，并探讨新信息如何存储在LMs的神经元中的机制。",
+    "tldr": "将语言模型梯度投影到词汇空间中，挖掘信息在LMs内部的流动方式，探索新信息如何存储在LMs的神经元中。",
+    "en_tdlr": "Projecting language model gradients into vocabulary space to uncover information flow within LMs and explore how new information is stored in the neurons of LMs."
+}

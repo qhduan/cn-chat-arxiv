@@ -1,0 +1,11 @@
+{
+    "title": "scInterpreter: Training Large Language Models to Interpret scRNA-seq Data for Cell Type Annotation",
+    "abstract": "arXiv:2402.12405v1 Announce Type: cross  Abstract: Despite the inherent limitations of existing Large Language Models in directly reading and interpreting single-cell omics data, they demonstrate significant potential and flexibility as the Foundation Model. This research focuses on how to train and adapt the Large Language Model with the capability to interpret and distinguish cell types in single-cell RNA sequencing data. Our preliminary research results indicate that these foundational models excel in accurately categorizing known cell types, demonstrating the potential of the Large Language Models as effective tools for uncovering new biological insights.",
+    "link": "https://arxiv.org/abs/2402.12405",
+    "context": "Title: scInterpreter: Training Large Language Models to Interpret scRNA-seq Data for Cell Type Annotation\nAbstract: arXiv:2402.12405v1 Announce Type: cross  Abstract: Despite the inherent limitations of existing Large Language Models in directly reading and interpreting single-cell omics data, they demonstrate significant potential and flexibility as the Foundation Model. This research focuses on how to train and adapt the Large Language Model with the capability to interpret and distinguish cell types in single-cell RNA sequencing data. Our preliminary research results indicate that these foundational models excel in accurately categorizing known cell types, demonstrating the potential of the Large Language Models as effective tools for uncovering new biological insights.",
+    "path": "papers/24/02/2402.12405.json",
+    "total_tokens": 674,
+    "translated_title": "scInterpreter: 训练大规模语言模型解释 scRNA-seq 数据进行细胞类型注释",
+    "translated_abstract": "尽管现有大型语言模型在直接阅读和解释单细胞组学数据方面具有固有限制，但它们作为基础模型表现出显著潜力和灵活性。本研究关注如何训练和调整具有解释和区分单细胞RNA测序数据能力的大型语言模型。我们的初步研究结果表明，这些基础模型在准确分类已知细胞类型方面表现优异，展示了大型语言模型作为揭示新生物学见解有效工具的潜力。",
+    "tldr": "该研究通过训练大型语言模型来解释和区分单细胞RNA测序数据中的细胞类型，展示了这些模型在准确分类细胞类型方面的潜力。"
+}

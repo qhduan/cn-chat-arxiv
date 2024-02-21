@@ -1,0 +1,12 @@
+{
+    "title": "Tables as Images? Exploring the Strengths and Limitations of LLMs on Multimodal Representations of Tabular Data",
+    "abstract": "arXiv:2402.12424v1 Announce Type: cross  Abstract: In this paper, we investigate the effectiveness of various LLMs in interpreting tabular data through different prompting strategies and data formats. Our analysis extends across six benchmarks for table-related tasks such as question-answering and fact-checking. We introduce for the first time the assessment of LLMs' performance on image-based table representations. Specifically, we compare five text-based and three image-based table representations, demonstrating the influence of representation and prompting on LLM performance. Our study provides insights into the effective use of LLMs on table-related tasks.",
+    "link": "https://arxiv.org/abs/2402.12424",
+    "context": "Title: Tables as Images? Exploring the Strengths and Limitations of LLMs on Multimodal Representations of Tabular Data\nAbstract: arXiv:2402.12424v1 Announce Type: cross  Abstract: In this paper, we investigate the effectiveness of various LLMs in interpreting tabular data through different prompting strategies and data formats. Our analysis extends across six benchmarks for table-related tasks such as question-answering and fact-checking. We introduce for the first time the assessment of LLMs' performance on image-based table representations. Specifically, we compare five text-based and three image-based table representations, demonstrating the influence of representation and prompting on LLM performance. Our study provides insights into the effective use of LLMs on table-related tasks.",
+    "path": "papers/24/02/2402.12424.json",
+    "total_tokens": 700,
+    "translated_title": "表格作为图片？探讨LLM在多模态表格数据表示上的优势和局限性",
+    "translated_abstract": "在本文中，我们通过不同的提示策略和数据格式研究了各种LLM在解释表格数据方面的有效性。我们的分析涵盖了六个针对与表格相关任务的基准，如问答和事实核查。我们首次介绍了LLM在基于图像的表格表示上的表现评估。具体地，我们比较了五种基于文本和三种基于图像的表格表示，展示了表示和提示对LLM性能的影响。我们的研究为在表格相关任务上有效使用LLM提供了见解。",
+    "tldr": "本研究探讨了LLM在解释表格数据方面的有效性，比较了文本和图像表格表示对LLM性能的影响，为在表格相关任务上有效使用LLM提供了见解。",
+    "en_tdlr": "This study investigates the effectiveness of LLMs in interpreting tabular data, compares the impact of text-based and image-based table representations on LLM performance, and provides insights into the effective use of LLMs on table-related tasks."
+}

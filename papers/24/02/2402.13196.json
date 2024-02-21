@@ -1,0 +1,12 @@
+{
+    "title": "Practical Kernel Tests of Conditional Independence",
+    "abstract": "arXiv:2402.13196v1 Announce Type: new  Abstract: We describe a data-efficient, kernel-based approach to statistical testing of conditional independence. A major challenge of conditional independence testing, absent in tests of unconditional independence, is to obtain the correct test level (the specified upper bound on the rate of false positives), while still attaining competitive test power. Excess false positives arise due to bias in the test statistic, which is obtained using nonparametric kernel ridge regression. We propose three methods for bias control to correct the test level, based on data splitting, auxiliary data, and (where possible) simpler function classes. We show these combined strategies are effective both for synthetic and real-world data.",
+    "link": "https://arxiv.org/abs/2402.13196",
+    "context": "Title: Practical Kernel Tests of Conditional Independence\nAbstract: arXiv:2402.13196v1 Announce Type: new  Abstract: We describe a data-efficient, kernel-based approach to statistical testing of conditional independence. A major challenge of conditional independence testing, absent in tests of unconditional independence, is to obtain the correct test level (the specified upper bound on the rate of false positives), while still attaining competitive test power. Excess false positives arise due to bias in the test statistic, which is obtained using nonparametric kernel ridge regression. We propose three methods for bias control to correct the test level, based on data splitting, auxiliary data, and (where possible) simpler function classes. We show these combined strategies are effective both for synthetic and real-world data.",
+    "path": "papers/24/02/2402.13196.json",
+    "total_tokens": 671,
+    "translated_title": "实用的条件独立性核测试",
+    "translated_abstract": "我们描述了一种数据高效、基于核的统计测试方法，用于测试条件独立性。条件独立性测试的一个主要挑战是获得正确的测试水平（指定的错误阳性率上限），同时仍具有竞争力的测试能力。过多的假阳性是由于测试统计量中的偏差引起的，该统计量是使用非参数核岭回归获得的。我们提出了三种偏差控制方法来修正测试水平，基于数据分割、辅助数据，以及（在可能的情况下）更简单的函数类。我们展示了这些组合策略在合成数据和真实世界数据中的有效性。",
+    "tldr": "提出了一种数据高效、基于核的方法，用于测试条件独立性，并提出了三种偏差控制方法来纠正测试水平。",
+    "en_tdlr": "Introduces a data-efficient, kernel-based approach for testing conditional independence and proposes three bias control methods to correct the test level."
+}

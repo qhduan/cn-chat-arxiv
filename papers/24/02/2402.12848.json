@@ -1,0 +1,12 @@
+{
+    "title": "ATLAS: A Model of Short-term European Electricity Market Processes under Uncertainty",
+    "abstract": "arXiv:2402.12848v1 Announce Type: new  Abstract: The ATLAS model simulates the various stages of the electricity market chain in Europe, including the formulation of offers by different market actors, the coupling of European markets, strategic optimization of production portfolios and, finally, real-time system balancing processes. ATLAS was designed to simulate the various electricity markets and processes that occur from the day ahead timeframe to real-time with a high level of detail. Its main aim is to capture impacts from imperfect actor coordination, evolving forecast errors and a high-level of technical constraints--both regarding different production units and the different market constraints.",
+    "link": "https://arxiv.org/abs/2402.12848",
+    "context": "Title: ATLAS: A Model of Short-term European Electricity Market Processes under Uncertainty\nAbstract: arXiv:2402.12848v1 Announce Type: new  Abstract: The ATLAS model simulates the various stages of the electricity market chain in Europe, including the formulation of offers by different market actors, the coupling of European markets, strategic optimization of production portfolios and, finally, real-time system balancing processes. ATLAS was designed to simulate the various electricity markets and processes that occur from the day ahead timeframe to real-time with a high level of detail. Its main aim is to capture impacts from imperfect actor coordination, evolving forecast errors and a high-level of technical constraints--both regarding different production units and the different market constraints.",
+    "path": "papers/24/02/2402.12848.json",
+    "total_tokens": 718,
+    "translated_title": "ATLAS：欧洲短期电力市场过程模型在不确定性下的研究",
+    "translated_abstract": "ATLAS模型模拟欧洲电力市场链的各个阶段，包括不同市场参与者的报价制定、欧洲市场的耦合、生产组合的战略优化以及最终的实时系统平衡过程。ATLAS旨在以高度详细的方式模拟从次日时段到实时发生的不同电力市场和过程，其主要目的是捕捉来自不完善的参与者协调、不断演变的预测误差以及高水平的技术约束对不同生产单元和不同市场约束的影响。",
+    "tldr": "ATLAS模型旨在捕捉欧洲电力市场短期过程中的不确定性影响，模拟从次日时段到实时的各种电力市场和过程，包括参与者协调、预测误差演变和技术约束。",
+    "en_tdlr": "The ATLAS model aims to capture the impact of uncertainty in short-term European electricity market processes, simulating various electricity markets and processes from the day ahead timeframe to real-time, including actor coordination, evolving forecast errors, and technical constraints."
+}

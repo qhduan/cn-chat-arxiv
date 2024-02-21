@@ -1,0 +1,12 @@
+{
+    "title": "Sequential unanimity voting rules for binary social choice",
+    "abstract": "arXiv:2402.13009v1 Announce Type: new  Abstract: We consider a group of voters that needs to decide between two candidates. We propose a novel family of neutral and strategy-proof rules, which we call sequential unanimity rules. By demonstrating their formal equivalence to the M-winning coalition rules of Moulin (1983), we show that sequential unanimity rules are characterized by neutrality and strategy-proofness. We establish our results by developing algorithms that transform a given M-winning coalition rule into an equivalent sequential unanimity rule and vice versa. The analysis can be extended to accommodate the full preference domain in which voters may be indifferent between candidates.",
+    "link": "https://arxiv.org/abs/2402.13009",
+    "context": "Title: Sequential unanimity voting rules for binary social choice\nAbstract: arXiv:2402.13009v1 Announce Type: new  Abstract: We consider a group of voters that needs to decide between two candidates. We propose a novel family of neutral and strategy-proof rules, which we call sequential unanimity rules. By demonstrating their formal equivalence to the M-winning coalition rules of Moulin (1983), we show that sequential unanimity rules are characterized by neutrality and strategy-proofness. We establish our results by developing algorithms that transform a given M-winning coalition rule into an equivalent sequential unanimity rule and vice versa. The analysis can be extended to accommodate the full preference domain in which voters may be indifferent between candidates.",
+    "path": "papers/24/02/2402.13009.json",
+    "total_tokens": 740,
+    "translated_title": "二元社会选择的顺序一致性投票规则",
+    "translated_abstract": "我们考虑一个需要在两个候选人之间做决定的选民群体。我们提出了一种新颖的中立和策略证明规则家族，我们称之为顺序一致性规则。通过展示它们与Moulin（1983）的M-获胜联盟规则的形式等价，我们表明顺序一致性规则的特征是中立性和策略证明。我们通过开发算法将给定的M-获胜联盟规则转换为等效的顺序一致性规则以及反之来建立我们的结果。这种分析可扩展以适应选民可能在候选人之间持中立立场的完整偏好领域。",
+    "tldr": "提出了一种新颖的中立和策略证明规则家族，称为顺序一致性规则，通过算法将M-获胜联盟规则转换为等效的顺序一致性规则，支持选民在完整偏好领域中可能的中立立场。",
+    "en_tdlr": "Introducing a novel family of neutral and strategy-proof rules, called sequential unanimity rules, by transforming M-winning coalition rules into equivalent sequential unanimity rules through algorithms, accommodating voters' possible indifference between candidates in the full preference domain."
+}

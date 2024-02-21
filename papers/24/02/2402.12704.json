@@ -1,0 +1,11 @@
+{
+    "title": "Quantum Embedding with Transformer for High-dimensional Data",
+    "abstract": "arXiv:2402.12704v1 Announce Type: cross  Abstract: Quantum embedding with transformers is a novel and promising architecture for quantum machine learning to deliver exceptional capability on near-term devices or simulators. The research incorporated a vision transformer (ViT) to advance quantum significantly embedding ability and results for a single qubit classifier with around 3 percent in the median F1 score on the BirdCLEF-2021, a challenging high-dimensional dataset. The study showcases and analyzes empirical evidence that our transformer-based architecture is a highly versatile and practical approach to modern quantum machine learning problems.",
+    "link": "https://arxiv.org/abs/2402.12704",
+    "context": "Title: Quantum Embedding with Transformer for High-dimensional Data\nAbstract: arXiv:2402.12704v1 Announce Type: cross  Abstract: Quantum embedding with transformers is a novel and promising architecture for quantum machine learning to deliver exceptional capability on near-term devices or simulators. The research incorporated a vision transformer (ViT) to advance quantum significantly embedding ability and results for a single qubit classifier with around 3 percent in the median F1 score on the BirdCLEF-2021, a challenging high-dimensional dataset. The study showcases and analyzes empirical evidence that our transformer-based architecture is a highly versatile and practical approach to modern quantum machine learning problems.",
+    "path": "papers/24/02/2402.12704.json",
+    "total_tokens": 674,
+    "translated_title": "用Transformer进行量子嵌入以处理高维数据",
+    "translated_abstract": "arXiv:2402.12704v1 公告类型：跨界 摘要：量子嵌入与transformers结合是量子机器学习中一种新颖且有前景的架构，在近期设备或模拟器上表现出卓越的能力。该研究将视觉transformer（ViT）引入，显著提升了量子嵌入的能力，并在BirdCLEF-2021上的单量子比特分类器中取得了约3%的中值F1得分，证明了我们基于transformer的架构是处理现代量子机器学习问题的一种高度灵活且实用的方法。",
+    "tldr": "这项研究提出了一种结合transformer的量子嵌入架构，显著提升了处理高维数据的能力，验证了其在现代量子机器学习问题中的高度灵活和实用性。"
+}

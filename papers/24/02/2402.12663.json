@@ -1,0 +1,12 @@
+{
+    "title": "SoftQE: Learned Representations of Queries Expanded by LLMs",
+    "abstract": "arXiv:2402.12663v1 Announce Type: new  Abstract: We investigate the integration of Large Language Models (LLMs) into query encoders to improve dense retrieval without increasing latency and cost, by circumventing the dependency on LLMs at inference time. SoftQE incorporates knowledge from LLMs by mapping embeddings of input queries to those of the LLM-expanded queries. While improvements over various strong baselines on in-domain MS-MARCO metrics are marginal, SoftQE improves performance by 2.83 absolute percentage points on average on five out-of-domain BEIR tasks.",
+    "link": "https://arxiv.org/abs/2402.12663",
+    "context": "Title: SoftQE: Learned Representations of Queries Expanded by LLMs\nAbstract: arXiv:2402.12663v1 Announce Type: new  Abstract: We investigate the integration of Large Language Models (LLMs) into query encoders to improve dense retrieval without increasing latency and cost, by circumventing the dependency on LLMs at inference time. SoftQE incorporates knowledge from LLMs by mapping embeddings of input queries to those of the LLM-expanded queries. While improvements over various strong baselines on in-domain MS-MARCO metrics are marginal, SoftQE improves performance by 2.83 absolute percentage points on average on five out-of-domain BEIR tasks.",
+    "path": "papers/24/02/2402.12663.json",
+    "total_tokens": 650,
+    "translated_title": "SoftQE: LLM扩展的查询学习表示",
+    "translated_abstract": "我们研究了将大型语言模型(LLMs)集成到查询编码器中，以改善密集检索，同时避免在推断时依赖LLMs增加延迟和成本。SoftQE通过将输入查询的嵌入映射到LLM扩展查询的嵌入来整合LLMs的知识。虽然对于领域内MS-MARCO指标，SoftQE相对于各种强基准模型的改善有限，但在五个领域外BEIR任务上，SoftQE在平均性能上提高了2.83个绝对百分点。",
+    "tldr": "SoftQE通过将输入查询的嵌入映射到LLM扩展查询的嵌入，提高了密集检索性能，并在领域外任务上取得了显著的性能改善。",
+    "en_tdlr": "SoftQE improves dense retrieval performance by mapping embeddings of input queries to those of the LLM-expanded queries, achieving significant performance gains on out-of-domain tasks."
+}

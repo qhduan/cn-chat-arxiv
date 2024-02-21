@@ -1,0 +1,12 @@
+{
+    "title": "Generative AI Security: Challenges and Countermeasures",
+    "abstract": "arXiv:2402.12617v1 Announce Type: cross  Abstract: Generative AI's expanding footprint across numerous industries has led to both excitement and increased scrutiny. This paper delves into the unique security challenges posed by Generative AI, and outlines potential research directions for managing these risks.",
+    "link": "https://arxiv.org/abs/2402.12617",
+    "context": "Title: Generative AI Security: Challenges and Countermeasures\nAbstract: arXiv:2402.12617v1 Announce Type: cross  Abstract: Generative AI's expanding footprint across numerous industries has led to both excitement and increased scrutiny. This paper delves into the unique security challenges posed by Generative AI, and outlines potential research directions for managing these risks.",
+    "path": "papers/24/02/2402.12617.json",
+    "total_tokens": 483,
+    "translated_title": "生成式人工智能安全：挑战与对策",
+    "translated_abstract": "arXiv:2402.12617v1 公告类型：跨领域 摘要：生成式人工智能在许多行业的不断扩展引发了人们的兴奋和增加的关注。本文深入探讨了生成式人工智能所带来的独特安全挑战，并概述了管理这些风险的潜在研究方向。",
+    "tldr": "生成式人工智能的安全挑战及对策研究。",
+    "en_tdlr": "Research on the security challenges and countermeasures of Generative AI."
+}
