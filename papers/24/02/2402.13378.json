@@ -1,0 +1,12 @@
+{
+    "title": "Stable matching as transportation",
+    "abstract": "arXiv:2402.13378v1 Announce Type: new  Abstract: We study matching markets with aligned preferences and establish a connection between common design objectives -- stability, efficiency, and fairness -- and the theory of optimal transport. Optimal transport gives new insights into the structural properties of matchings obtained from pursuing these objectives, and into the trade-offs between different objectives. Matching markets with aligned preferences provide a tractable stylized model capturing supply-demand imbalances in a range of settings such as partnership formation, school choice, organ donor exchange, and markets with transferable utility where bargaining over transfers happens after a match is formed.",
+    "link": "https://arxiv.org/abs/2402.13378",
+    "context": "Title: Stable matching as transportation\nAbstract: arXiv:2402.13378v1 Announce Type: new  Abstract: We study matching markets with aligned preferences and establish a connection between common design objectives -- stability, efficiency, and fairness -- and the theory of optimal transport. Optimal transport gives new insights into the structural properties of matchings obtained from pursuing these objectives, and into the trade-offs between different objectives. Matching markets with aligned preferences provide a tractable stylized model capturing supply-demand imbalances in a range of settings such as partnership formation, school choice, organ donor exchange, and markets with transferable utility where bargaining over transfers happens after a match is formed.",
+    "path": "papers/24/02/2402.13378.json",
+    "total_tokens": 686,
+    "translated_title": "稳定匹配作为运输问题",
+    "translated_abstract": "我们研究了具有一致偏好的匹配市场，并建立了稳定性、效率和公平等共同设计目标与最优运输理论之间的联系。最优运输为追求这些目标获得的匹配的结构特性提供了新的见解，以及不同目标之间的权衡。具有一致偏好的匹配市场提供了一个易处理的简化模型，捕捉了在各种情境中的供需不平衡，比如伙伴关系形成、学校选择、器官捐赠交换，以及在匹配形成后进行转移谈判的可转让效用市场。",
+    "tldr": "通过最优运输理论，研究了具有一致偏好的匹配市场的稳定性、效率和公平等设计目标，揭示了匹配结构特性和不同目标之间的权衡关系。",
+    "en_tdlr": "The paper examines matching markets with aligned preferences, establishing a connection between stability, efficiency, fairness, and optimal transport theory, providing insights into the structural properties of matchings and trade-offs between different objectives."
+}

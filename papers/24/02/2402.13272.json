@@ -1,0 +1,11 @@
+{
+    "title": "Spontaneous Theory of Mind for Artificial Intelligence",
+    "abstract": "arXiv:2402.13272v1 Announce Type: new  Abstract: Existing approaches to Theory of Mind (ToM) in Artificial Intelligence (AI) overemphasize prompted, or cue-based, ToM, which may limit our collective ability to develop Artificial Social Intelligence (ASI). Drawing from research in computer science, cognitive science, and related disciplines, we contrast prompted ToM with what we call spontaneous ToM -- reasoning about others' mental states that is grounded in unintentional, possibly uncontrollable cognitive functions. We argue for a principled approach to studying and developing AI ToM and suggest that a robust, or general, ASI will respond to prompts \\textit{and} spontaneously engage in social reasoning.",
+    "link": "https://arxiv.org/abs/2402.13272",
+    "context": "Title: Spontaneous Theory of Mind for Artificial Intelligence\nAbstract: arXiv:2402.13272v1 Announce Type: new  Abstract: Existing approaches to Theory of Mind (ToM) in Artificial Intelligence (AI) overemphasize prompted, or cue-based, ToM, which may limit our collective ability to develop Artificial Social Intelligence (ASI). Drawing from research in computer science, cognitive science, and related disciplines, we contrast prompted ToM with what we call spontaneous ToM -- reasoning about others' mental states that is grounded in unintentional, possibly uncontrollable cognitive functions. We argue for a principled approach to studying and developing AI ToM and suggest that a robust, or general, ASI will respond to prompts \\textit{and} spontaneously engage in social reasoning.",
+    "path": "papers/24/02/2402.13272.json",
+    "total_tokens": 725,
+    "translated_title": "人工智能的自发心灵理论",
+    "translated_abstract": "人工智能领域现有的心灵理论（ToM）方法过分强调启发式或基于线索的ToM，可能限制我们发展人工社会智能（ASI）的集体能力。借鉴计算机科学、认知科学和相关学科的研究，我们将启发式ToM与我们所称的自发ToM进行对比 - 即关于他人心智状态的推理，基于无意识、可能无法控制的认知功能。我们主张对研究和发展AI ToM采取原则性的方法，并建议健全的或通用的ASI将对提示作出回应，并自发地参与社会推理。",
+    "tldr": "论文提出了人工智能中自发心灵理论的概念，强调了自发ToM相对于启发式ToM的重要性，并主张发展AI ToM需要采取原则性方法，以实现更具弹性的人工社会智能。"
+}

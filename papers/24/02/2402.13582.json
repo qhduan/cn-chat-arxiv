@@ -1,0 +1,12 @@
+{
+    "title": "Mastering the Game of Guandan with Deep Reinforcement Learning and Behavior Regulating",
+    "abstract": "arXiv:2402.13582v1 Announce Type: new  Abstract: Games are a simplified model of reality and often serve as a favored platform for Artificial Intelligence (AI) research. Much of the research is concerned with game-playing agents and their decision making processes. The game of Guandan (literally, \"throwing eggs\") is a challenging game where even professional human players struggle to make the right decision at times. In this paper we propose a framework named GuanZero for AI agents to master this game using Monte-Carlo methods and deep neural networks. The main contribution of this paper is about regulating agents' behavior through a carefully designed neural network encoding scheme. We then demonstrate the effectiveness of the proposed framework by comparing it with state-of-the-art approaches.",
+    "link": "https://arxiv.org/abs/2402.13582",
+    "context": "Title: Mastering the Game of Guandan with Deep Reinforcement Learning and Behavior Regulating\nAbstract: arXiv:2402.13582v1 Announce Type: new  Abstract: Games are a simplified model of reality and often serve as a favored platform for Artificial Intelligence (AI) research. Much of the research is concerned with game-playing agents and their decision making processes. The game of Guandan (literally, \"throwing eggs\") is a challenging game where even professional human players struggle to make the right decision at times. In this paper we propose a framework named GuanZero for AI agents to master this game using Monte-Carlo methods and deep neural networks. The main contribution of this paper is about regulating agents' behavior through a carefully designed neural network encoding scheme. We then demonstrate the effectiveness of the proposed framework by comparing it with state-of-the-art approaches.",
+    "path": "papers/24/02/2402.13582.json",
+    "total_tokens": 765,
+    "translated_title": "用深度强化学习和行为调控掌握关旦游戏",
+    "translated_abstract": "游戏是现实的简化模型，通常被视为人工智能研究的首选平台。 很多研究关注于游戏代理和它们的决策过程。《关旦》是一种具有挑战性的游戏，即使是专业的人类玩家有时也难以做出正确的决策。 在本文中，我们提出了一个名为GuanZero的框架，让AI代理通过蒙特卡洛方法和深度神经网络来掌握这个游戏。 本文的主要贡献在于通过精心设计的神经网络编码方案来调控代理的行为。 然后，我们通过与最先进的方法进行比较，展示了所提出框架的有效性。",
+    "tldr": "该论文主要贡献是通过深度神经网络和行为调控方案，提出了一个框架GuanoZero，使AI代理能够掌握《关旦》游戏。",
+    "en_tdlr": "The main contribution of this paper is the proposal of a framework called GuanZero, which enables AI agents to master the game of Guandan using deep neural networks and behavior regulating scheme."
+}

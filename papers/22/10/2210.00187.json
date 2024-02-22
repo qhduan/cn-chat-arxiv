@@ -1,0 +1,12 @@
+{
+    "title": "Design of Fuzzy Logic Controller for Washing Machine",
+    "abstract": "arXiv:2210.00187v2 Announce Type: replace-cross  Abstract: Things are becoming more advanced as technology advances,and machines now perform the majority of the manual work. The most often used home appliance is the washing machine for cloths. In this paper, we used the Mamdani approach and created an algorithm based on multi-input multi-output. The algorithm is implemented in Python.The results of this simulation show that the washing machine provides better execution at a low computation cost",
+    "link": "https://arxiv.org/abs/2210.00187",
+    "context": "Title: Design of Fuzzy Logic Controller for Washing Machine\nAbstract: arXiv:2210.00187v2 Announce Type: replace-cross  Abstract: Things are becoming more advanced as technology advances,and machines now perform the majority of the manual work. The most often used home appliance is the washing machine for cloths. In this paper, we used the Mamdani approach and created an algorithm based on multi-input multi-output. The algorithm is implemented in Python.The results of this simulation show that the washing machine provides better execution at a low computation cost",
+    "path": "papers/22/10/2210.00187.json",
+    "total_tokens": 571,
+    "translated_title": "模糊逻辑控制器的洗衣机设计",
+    "translated_abstract": "随着技术的进步，事物变得更加先进，机器现在执行大部分手动工作。最常用的家用电器是洗衣机。在本文中，我们使用了Mamdani方法，并基于多输入多输出创建了一个算法。该算法是用Python实现的。模拟结果表明，该洗衣机在低计算成本下提供了更好的执行。",
+    "tldr": "本文基于Mamdani方法，设计了一个基于多输入多输出的模糊逻辑控制器算法，并在Python中实现，结果显示在低计算成本下洗衣机表现更好",
+    "en_tdlr": "This paper presents a fuzzy logic controller algorithm based on the Mamdani method with multi-input multi-output design, implemented in Python, showing better performance of the washing machine at low computation cost."
+}

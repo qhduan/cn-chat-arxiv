@@ -1,0 +1,12 @@
+{
+    "title": "MORE: Multi-mOdal REtrieval Augmented Generative Commonsense Reasoning",
+    "abstract": "arXiv:2402.13625v1 Announce Type: new  Abstract: Since commonsense information has been recorded significantly less frequently than its existence, language models pre-trained by text generation have difficulty to learn sufficient commonsense knowledge. Several studies have leveraged text retrieval to augment the models' commonsense ability. Unlike text, images capture commonsense information inherently but little effort has been paid to effectively utilize them. In this work, we propose a novel Multi-mOdal REtrieval (MORE) augmentation framework, to leverage both text and images to enhance the commonsense ability of language models. Extensive experiments on the Common-Gen task have demonstrated the efficacy of MORE based on the pre-trained models of both single and multiple modalities.",
+    "link": "https://arxiv.org/abs/2402.13625",
+    "context": "Title: MORE: Multi-mOdal REtrieval Augmented Generative Commonsense Reasoning\nAbstract: arXiv:2402.13625v1 Announce Type: new  Abstract: Since commonsense information has been recorded significantly less frequently than its existence, language models pre-trained by text generation have difficulty to learn sufficient commonsense knowledge. Several studies have leveraged text retrieval to augment the models' commonsense ability. Unlike text, images capture commonsense information inherently but little effort has been paid to effectively utilize them. In this work, we propose a novel Multi-mOdal REtrieval (MORE) augmentation framework, to leverage both text and images to enhance the commonsense ability of language models. Extensive experiments on the Common-Gen task have demonstrated the efficacy of MORE based on the pre-trained models of both single and multiple modalities.",
+    "path": "papers/24/02/2402.13625.json",
+    "total_tokens": 712,
+    "translated_title": "MORE: 多模态检索增强生成式常识推理",
+    "translated_abstract": "自然语言模型在预训练过程中往往难以学习足够的常识知识，因为常识信息的记录频率明显低于其存在频率。为了增强模型的常识能力，一些研究利用文本检索进行了改进。不同于文本，图像固有地包含常识信息，但很少有研究致力于有效利用它们。本文提出了一种新颖的多模态检索（MORE）增强框架，利用文本和图像来提升语言模型的常识能力。在Common-Gen任务上进行的大量实验表明，基于单一模态和多模态预训练模型的MORE的有效性。",
+    "tldr": "提出了一种新颖的多模态检索（MORE）增强框架，利用文本和图像来提升语言模型的常识能力。",
+    "en_tdlr": "Introduced a novel Multi-mOdal REtrieval (MORE) framework leveraging both text and images to enhance the commonsense ability of language models."
+}

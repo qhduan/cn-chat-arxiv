@@ -1,0 +1,12 @@
+{
+    "title": "Overcoming Saturation in Density Ratio Estimation by Iterated Regularization",
+    "abstract": "arXiv:2402.13891v1 Announce Type: new  Abstract: Estimating the ratio of two probability densities from finitely many samples, is a central task in machine learning and statistics. In this work, we show that a large class of kernel methods for density ratio estimation suffers from error saturation, which prevents algorithms from achieving fast error convergence rates on highly regular learning problems. To resolve saturation, we introduce iterated regularization in density ratio estimation to achieve fast error rates. Our methods outperform its non-iteratively regularized versions on benchmarks for density ratio estimation as well as on large-scale evaluations for importance-weighted ensembling of deep unsupervised domain adaptation models.",
+    "link": "https://arxiv.org/abs/2402.13891",
+    "context": "Title: Overcoming Saturation in Density Ratio Estimation by Iterated Regularization\nAbstract: arXiv:2402.13891v1 Announce Type: new  Abstract: Estimating the ratio of two probability densities from finitely many samples, is a central task in machine learning and statistics. In this work, we show that a large class of kernel methods for density ratio estimation suffers from error saturation, which prevents algorithms from achieving fast error convergence rates on highly regular learning problems. To resolve saturation, we introduce iterated regularization in density ratio estimation to achieve fast error rates. Our methods outperform its non-iteratively regularized versions on benchmarks for density ratio estimation as well as on large-scale evaluations for importance-weighted ensembling of deep unsupervised domain adaptation models.",
+    "path": "papers/24/02/2402.13891.json",
+    "total_tokens": 733,
+    "translated_title": "克服迭代正则化中密度比估计的饱和问题",
+    "translated_abstract": "从有限样本中估计两个概率密度的比率，是机器学习和统计学中的一个核心任务。在这项工作中，我们发现一大类密度比估计的核方法存在错误饱和问题，这阻碍了算法在高度规则学习问题上实现快速错误收敛率。为了解决饱和问题，我们引入了迭代正则化方法在密度比估计中以实现快速错误率。我们的方法在密度比估计基准测试以及大规模评估深度无监督领域自适应模型的重要性加权集成方面表现优异。",
+    "tldr": "引入迭代正则化方法解决了密度比估计中的饱和问题，实现了快速收敛，在密度比估计基准测试和大规模深度无监督领域自适应模型的重要性加权集成中表现优异。",
+    "en_tdlr": "Iterated regularization is introduced to overcome saturation issues in density ratio estimation, achieving fast convergence rates and outperforming non-iteratively regularized versions in benchmarks and large-scale evaluations for importance-weighted ensembling of deep unsupervised domain adaptation models."
+}

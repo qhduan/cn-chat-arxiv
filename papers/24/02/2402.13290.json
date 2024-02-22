@@ -1,0 +1,12 @@
+{
+    "title": "Grounding from an AI and Cognitive Science Lens",
+    "abstract": "arXiv:2402.13290v1 Announce Type: new  Abstract: Grounding is a challenging problem, requiring a formal definition and different levels of abstraction. This article explores grounding from both cognitive science and machine learning perspectives. It identifies the subtleties of grounding, its significance for collaborative agents, and similarities and differences in grounding approaches in both communities. The article examines the potential of neuro-symbolic approaches tailored for grounding tasks, showcasing how they can more comprehensively address grounding. Finally, we discuss areas for further exploration and development in grounding.",
+    "link": "https://arxiv.org/abs/2402.13290",
+    "context": "Title: Grounding from an AI and Cognitive Science Lens\nAbstract: arXiv:2402.13290v1 Announce Type: new  Abstract: Grounding is a challenging problem, requiring a formal definition and different levels of abstraction. This article explores grounding from both cognitive science and machine learning perspectives. It identifies the subtleties of grounding, its significance for collaborative agents, and similarities and differences in grounding approaches in both communities. The article examines the potential of neuro-symbolic approaches tailored for grounding tasks, showcasing how they can more comprehensively address grounding. Finally, we discuss areas for further exploration and development in grounding.",
+    "path": "papers/24/02/2402.13290.json",
+    "total_tokens": 702,
+    "translated_title": "从人工智能和认知科学的视角看基础建立",
+    "translated_abstract": "基础建立是一个具有挑战性的问题，需要一个正式的定义和不同层次的抽象。本文从认知科学和机器学习的视角探讨了基础建立。它确定了基础建立的微妙之处，它对协作代理的重要性，以及在两个社区中基础建立方法的相似之处和不同之处。本文还研究了专为基础建立任务量身定制的神经符号方法的潜力，展示了它们如何更全面地解决基础建立问题。最后，我们讨论了基础建立领域的进一步探索和发展方向。",
+    "tldr": "从认知科学和机器学习的视角探讨基础建立的微妙之处，探讨神经符号方法在如何更全面地解决基础建立问题，讨论基础建立领域的进一步发展方向。",
+    "en_tdlr": "Exploring the subtleties of grounding from cognitive science and machine learning perspectives, showcasing the potential of neuro-symbolic approaches in addressing grounding comprehensively, and discussing further development directions in the field of grounding."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A new characterization of second-order stochastic dominance",
+    "abstract": "arXiv:2402.13355v1 Announce Type: new  Abstract: We provide a new characterization of second-order stochastic dominance, also known as increasing concave order. The result has an intuitive interpretation that adding a risk with negative expected value in adverse scenarios makes the resulting position generally less desirable for risk-averse agents. A similar characterization is also found for convex order and increasing convex order. The proofs techniques for the main result are based on properties of Expected Shortfall, a family of risk measures that is popular in financial regulation.",
+    "link": "https://arxiv.org/abs/2402.13355",
+    "context": "Title: A new characterization of second-order stochastic dominance\nAbstract: arXiv:2402.13355v1 Announce Type: new  Abstract: We provide a new characterization of second-order stochastic dominance, also known as increasing concave order. The result has an intuitive interpretation that adding a risk with negative expected value in adverse scenarios makes the resulting position generally less desirable for risk-averse agents. A similar characterization is also found for convex order and increasing convex order. The proofs techniques for the main result are based on properties of Expected Shortfall, a family of risk measures that is popular in financial regulation.",
+    "path": "papers/24/02/2402.13355.json",
+    "total_tokens": 621,
+    "translated_title": "二阶随机优势的新特征描述",
+    "translated_abstract": "我们提供了二阶随机优势的新特征描述，也称为增长凹序。该结果具有直观的解释，即在不利情景中添加一个预期值为负的风险会使最终位置对于风险厌恶的代理人通常变得不太理想。凸序和增长凸序也找到了类似的特征描述。主要结果的证明技术基于期望缺失的性质，这是金融监管中广受欢迎的一类风险度量。",
+    "tldr": "新的二阶随机优势特征描述提示在不利情景中添加负预期值的风险会使最终位置对风险厌恶的代理人不太理想。",
+    "en_tdlr": "The new characterization of second-order stochastic dominance suggests that adding risk with negative expected value in adverse scenarios makes the resulting position generally less desirable for risk-averse agents."
+}

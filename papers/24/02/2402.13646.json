@@ -1,0 +1,12 @@
+{
+    "title": "A Large Dimensional Analysis of Multi-task Semi-Supervised Learning",
+    "abstract": "arXiv:2402.13646v1 Announce Type: cross  Abstract: This article conducts a large dimensional study of a simple yet quite versatile classification model, encompassing at once multi-task and semi-supervised learning, and taking into account uncertain labeling. Using tools from random matrix theory, we characterize the asymptotics of some key functionals, which allows us on the one hand to predict the performances of the algorithm, and on the other hand to reveal some counter-intuitive guidance on how to use it efficiently. The model, powerful enough to provide good performance guarantees, is also straightforward enough to provide strong insights into its behavior.",
+    "link": "https://arxiv.org/abs/2402.13646",
+    "context": "Title: A Large Dimensional Analysis of Multi-task Semi-Supervised Learning\nAbstract: arXiv:2402.13646v1 Announce Type: cross  Abstract: This article conducts a large dimensional study of a simple yet quite versatile classification model, encompassing at once multi-task and semi-supervised learning, and taking into account uncertain labeling. Using tools from random matrix theory, we characterize the asymptotics of some key functionals, which allows us on the one hand to predict the performances of the algorithm, and on the other hand to reveal some counter-intuitive guidance on how to use it efficiently. The model, powerful enough to provide good performance guarantees, is also straightforward enough to provide strong insights into its behavior.",
+    "path": "papers/24/02/2402.13646.json",
+    "total_tokens": 733,
+    "translated_title": "对多任务半监督学习的大维分析",
+    "translated_abstract": "本文对一个简单但非常通用的分类模型进行了大维研究，同时涵盖了多任务和半监督学习，并考虑了不确定的标签。利用随机矩阵理论的工具，我们表征了一些关键功能的渐近性质，从而一方面可以预测算法的性能，另一方面可以揭示一些关于如何高效使用它的反直觉指导。该模型强大到足以提供良好的性能保证，并且简单直观到足以深入了解其行为。",
+    "tldr": "本文进行了针对一个简单而非常通用的分类模型的大维分析研究，该模型同时涵盖了多任务和半监督学习，并考虑了不确定的标签，通过随机矩阵理论的工具表征了关键功能的渐近性质，从而揭示了关于有效使用该模型的反直觉指导。",
+    "en_tdlr": "This paper presents a large-dimensional analysis of a simple yet versatile classification model, incorporating both multi-task and semi-supervised learning with uncertain labeling, characterizing key functionals' asymptotics using tools from random matrix theory to provide performance predictions and counter-intuitive guidance on efficient use."
+}

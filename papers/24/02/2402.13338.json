@@ -1,0 +1,12 @@
+{
+    "title": "Incentivized Exploration via Filtered Posterior Sampling",
+    "abstract": "arXiv:2402.13338v1 Announce Type: new  Abstract: We study \"incentivized exploration\" (IE) in social learning problems where the principal (a recommendation algorithm) can leverage information asymmetry to incentivize sequentially-arriving agents to take exploratory actions. We identify posterior sampling, an algorithmic approach that is well known in the multi-armed bandits literature, as a general-purpose solution for IE. In particular, we expand the existing scope of IE in several practically-relevant dimensions, from private agent types to informative recommendations to correlated Bayesian priors. We obtain a general analysis of posterior sampling in IE which allows us to subsume these extended settings as corollaries, while also recovering existing results as special cases.",
+    "link": "https://arxiv.org/abs/2402.13338",
+    "context": "Title: Incentivized Exploration via Filtered Posterior Sampling\nAbstract: arXiv:2402.13338v1 Announce Type: new  Abstract: We study \"incentivized exploration\" (IE) in social learning problems where the principal (a recommendation algorithm) can leverage information asymmetry to incentivize sequentially-arriving agents to take exploratory actions. We identify posterior sampling, an algorithmic approach that is well known in the multi-armed bandits literature, as a general-purpose solution for IE. In particular, we expand the existing scope of IE in several practically-relevant dimensions, from private agent types to informative recommendations to correlated Bayesian priors. We obtain a general analysis of posterior sampling in IE which allows us to subsume these extended settings as corollaries, while also recovering existing results as special cases.",
+    "path": "papers/24/02/2402.13338.json",
+    "total_tokens": 732,
+    "translated_title": "通过过滤后验采样激励性探索",
+    "translated_abstract": "我们研究了在社交学习问题中的“激励性探索”（IE），其中委托人（推荐算法）可以利用信息不对称性来激励顺序到达的代理采取探索性行动。我们确定了后验采样，这是多臂赌博机文献中众所周知的算法方法，作为IE的通用解决方案。特别是，我们从私人代理类型到信息性推荐再到相关的贝叶斯先验，扩展了IE的现有范围。我们对IE中的后验采样进行了一般性分析，这使我们可以将这些扩展设置纳入为推论，并在恢复现有结果的同时将其视为特殊情况。",
+    "tldr": "后验采样算法在激励性探索问题中是一种通用解决方案，可以适用于多种扩展设置，为扩展了的IE问题提供了一般性分析。",
+    "en_tdlr": "Posterior sampling algorithm is a general solution for incentivized exploration problems, applicable to various extended settings, providing a general analysis for the expanded IE problems."
+}

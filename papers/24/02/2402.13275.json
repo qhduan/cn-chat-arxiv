@@ -1,0 +1,12 @@
+{
+    "title": "Implementation of a Model of the Cortex Basal Ganglia Loop",
+    "abstract": "arXiv:2402.13275v1 Announce Type: cross  Abstract: This article presents a simple model of the cortex-basal ganglia-thalamus loop, which is thought to serve for action selection and executions, and reports the results of its implementation. The model is based on the hypothesis that the cerebral cortex predicts actions, while the basal ganglia use reinforcement learning to decide whether to perform the actions predicted by the cortex. The implementation is intended to be used as a component of models of the brain consisting of cortical regions or brain-inspired cognitive architectures.",
+    "link": "https://arxiv.org/abs/2402.13275",
+    "context": "Title: Implementation of a Model of the Cortex Basal Ganglia Loop\nAbstract: arXiv:2402.13275v1 Announce Type: cross  Abstract: This article presents a simple model of the cortex-basal ganglia-thalamus loop, which is thought to serve for action selection and executions, and reports the results of its implementation. The model is based on the hypothesis that the cerebral cortex predicts actions, while the basal ganglia use reinforcement learning to decide whether to perform the actions predicted by the cortex. The implementation is intended to be used as a component of models of the brain consisting of cortical regions or brain-inspired cognitive architectures.",
+    "path": "papers/24/02/2402.13275.json",
+    "total_tokens": 645,
+    "translated_title": "皮层基底神经节环路模型的实现",
+    "translated_abstract": "本文提出了皮层-基底神经节-丘脑环路的简单模型，该模型被认为用于行动选择和执行，并报告了其实现的结果。该模型基于大脑皮层预测行动，而基底神经节使用强化学习来决定是否执行皮层预测的行动。该实现旨在用作由大脑皮层区域或受启发认知架构组成的模型的组成部分。",
+    "tldr": "本文提出了皮层基底神经节环路模型的实现，用于行动选择和执行，基于大脑皮层预测行动，基底神经节使用强化学习决定执行哪些行动。",
+    "en_tdlr": "This article presents the implementation of a model of the cortex-basal ganglia loop for action selection and execution, based on the cortex predicting actions and the basal ganglia using reinforcement learning to decide which actions to perform."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Performance Improvement Bounds for Lipschitz Configurable Markov Decision Processes",
+    "abstract": "arXiv:2402.13821v1 Announce Type: new  Abstract: Configurable Markov Decision Processes (Conf-MDPs) have recently been introduced as an extension of the traditional Markov Decision Processes (MDPs) to model the real-world scenarios in which there is the possibility to intervene in the environment in order to configure some of its parameters. In this paper, we focus on a particular subclass of Conf-MDP that satisfies regularity conditions, namely Lipschitz continuity. We start by providing a bound on the Wasserstein distance between $\\gamma$-discounted stationary distributions induced by changing policy and configuration. This result generalizes the already existing bounds both for Conf-MDPs and traditional MDPs. Then, we derive a novel performance improvement lower bound.",
+    "link": "https://arxiv.org/abs/2402.13821",
+    "context": "Title: Performance Improvement Bounds for Lipschitz Configurable Markov Decision Processes\nAbstract: arXiv:2402.13821v1 Announce Type: new  Abstract: Configurable Markov Decision Processes (Conf-MDPs) have recently been introduced as an extension of the traditional Markov Decision Processes (MDPs) to model the real-world scenarios in which there is the possibility to intervene in the environment in order to configure some of its parameters. In this paper, we focus on a particular subclass of Conf-MDP that satisfies regularity conditions, namely Lipschitz continuity. We start by providing a bound on the Wasserstein distance between $\\gamma$-discounted stationary distributions induced by changing policy and configuration. This result generalizes the already existing bounds both for Conf-MDPs and traditional MDPs. Then, we derive a novel performance improvement lower bound.",
+    "path": "papers/24/02/2402.13821.json",
+    "total_tokens": 708,
+    "translated_title": "Lipschitz可配置马尔可夫决策过程的性能改进界限",
+    "translated_abstract": "可配置马尔可夫决策过程（Conf-MDPs）最近被引入作为传统马尔可夫决策过程（MDPs）的一个扩展，用于模拟在真实世界场景中有可能干预环境以配置一些参数的情况。本文侧重于满足正则性条件的Conf-MDP的一个特定子类，即Lipschitz连续性。我们首先提供了由改变策略和配置引发的$\\gamma$-折扣稳态分布之间的Wasserstein距离的界限。该结果推广了已经存在的Conf-MDP和传统MDP的界限。然后，我们推导了一个新颖的性能改进下界。",
+    "tldr": "本文提出了对于满足Lipschitz连续性条件的Conf-MDP的性能改进界限，并推导了一个新颖的性能改进下界",
+    "en_tdlr": "This paper presents performance improvement bounds for Lipschitz-configurable Markov Decision Processes and derives a novel lower bound for performance improvement."
+}

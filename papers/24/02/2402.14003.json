@@ -1,0 +1,12 @@
+{
+    "title": "Multidimensional Signaling with a Resource Constraint",
+    "abstract": "arXiv:2402.14003v1 Announce Type: new  Abstract: We study multidimensional signaling (cognitive/non-cognitive) as a sender's portfolio choice with a resource constraint. We establish the existence of a unique monotone D1 equilibrium where the cognitive (non-cognitive) signal increases (decreases) in sender type and the sum of the two increases in sender type. The equilibrium is characterized by two threshold sender types. The low threshold is one where a kink occurs in signaling. The constraint is binding only for sender types above it. The high threshold is the other one, above which all types spend all the resources in cognitive signal with pooling and discontinuity on the top.",
+    "link": "https://arxiv.org/abs/2402.14003",
+    "context": "Title: Multidimensional Signaling with a Resource Constraint\nAbstract: arXiv:2402.14003v1 Announce Type: new  Abstract: We study multidimensional signaling (cognitive/non-cognitive) as a sender's portfolio choice with a resource constraint. We establish the existence of a unique monotone D1 equilibrium where the cognitive (non-cognitive) signal increases (decreases) in sender type and the sum of the two increases in sender type. The equilibrium is characterized by two threshold sender types. The low threshold is one where a kink occurs in signaling. The constraint is binding only for sender types above it. The high threshold is the other one, above which all types spend all the resources in cognitive signal with pooling and discontinuity on the top.",
+    "path": "papers/24/02/2402.14003.json",
+    "total_tokens": 717,
+    "translated_title": "具有资源约束的多维信号传递",
+    "translated_abstract": "我们研究了多维信号传递（认知/非认知）作为发信者的一种资源约束下的投资选择。我们确定了唯一的单调D1均衡存在，其中认知（非认知）信号随者发信者类型的提高而增加（降低），两者之和随者发信者类型的提高而增加。均衡由两个发信者类型的阈值来描述。低阈值是发生信号传递转折的点。约束仅会约束高于该阈值的发信者类型。高阈值是另一个阈值，高于该阈值所有类型将在认知信号上花费全部资源，使信号传递在最高点产生不连续性。",
+    "tldr": "研究了具有资源约束的多维信号传递问题，建立了唯一的单调D1均衡，发现了信号与发信者类型之间的关系，并确定了两个发信者类型的阈值。",
+    "en_tdlr": "Investigated multidimensional signaling with a resource constraint, established a unique monotone D1 equilibrium, and discovered the relationship between signal and sender type, identifying two threshold sender types."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Neural Control System for Continuous Glucose Monitoring and Maintenance",
+    "abstract": "arXiv:2402.13852v1 Announce Type: cross  Abstract: Precise glucose level management is pivotal for individuals with diabetes, averting severe complications. In this work, we introduce a novel neural control system for continuous glucose monitoring and maintenance, utilizing differential predictive control. Our system, guided by a sophisticated neural policy and differentiable modeling, dynamically adjusts insulin delivery in real-time, enhancing glucose optimization. This end-to-end approach maximizes efficiency, ensuring personalized care and improved health outcomes, as affirmed by empirical findings.",
+    "link": "https://arxiv.org/abs/2402.13852",
+    "context": "Title: Neural Control System for Continuous Glucose Monitoring and Maintenance\nAbstract: arXiv:2402.13852v1 Announce Type: cross  Abstract: Precise glucose level management is pivotal for individuals with diabetes, averting severe complications. In this work, we introduce a novel neural control system for continuous glucose monitoring and maintenance, utilizing differential predictive control. Our system, guided by a sophisticated neural policy and differentiable modeling, dynamically adjusts insulin delivery in real-time, enhancing glucose optimization. This end-to-end approach maximizes efficiency, ensuring personalized care and improved health outcomes, as affirmed by empirical findings.",
+    "path": "papers/24/02/2402.13852.json",
+    "total_tokens": 693,
+    "translated_title": "连续葡萄糖监测和维护的神经控制系统",
+    "translated_abstract": "精确的葡萄糖水平管理对于糖尿病患者至关重要，可以避免严重并发症。本研究引入了一种新颖的神经控制系统，用于连续葡萄糖监测和维护，利用微分预测控制。我们的系统受到复杂神经策略和可区分建模的指导，实时动态调整胰岛素输送，增强葡萄糖优化。这种端到端方法最大化效率，确保个性化护理和改善健康结果，如经验发现所证实。",
+    "tldr": "引入了一种新颖的神经控制系统，用于连续葡萄糖监测和维护，实时动态调整胰岛素输送，增强葡萄糖优化，最大化效率并确保个性化护理。",
+    "en_tdlr": "Introducing a novel neural control system for continuous glucose monitoring and maintenance, dynamically adjusting insulin delivery in real-time to enhance glucose optimization, maximizing efficiency and ensuring personalized care."
+}

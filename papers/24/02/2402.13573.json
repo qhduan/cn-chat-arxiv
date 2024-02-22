@@ -1,0 +1,11 @@
+{
+    "title": "ToDo: Token Downsampling for Efficient Generation of High-Resolution Images",
+    "abstract": "arXiv:2402.13573v1 Announce Type: cross  Abstract: Attention mechanism has been crucial for image diffusion models, however, their quadratic computational complexity limits the sizes of images we can process within reasonable time and memory constraints. This paper investigates the importance of dense attention in generative image models, which often contain redundant features, making them suitable for sparser attention mechanisms. We propose a novel training-free method ToDo that relies on token downsampling of key and value tokens to accelerate Stable Diffusion inference by up to 2x for common sizes and up to 4.5x or more for high resolutions like 2048x2048. We demonstrate that our approach outperforms previous methods in balancing efficient throughput and fidelity.",
+    "link": "https://arxiv.org/abs/2402.13573",
+    "context": "Title: ToDo: Token Downsampling for Efficient Generation of High-Resolution Images\nAbstract: arXiv:2402.13573v1 Announce Type: cross  Abstract: Attention mechanism has been crucial for image diffusion models, however, their quadratic computational complexity limits the sizes of images we can process within reasonable time and memory constraints. This paper investigates the importance of dense attention in generative image models, which often contain redundant features, making them suitable for sparser attention mechanisms. We propose a novel training-free method ToDo that relies on token downsampling of key and value tokens to accelerate Stable Diffusion inference by up to 2x for common sizes and up to 4.5x or more for high resolutions like 2048x2048. We demonstrate that our approach outperforms previous methods in balancing efficient throughput and fidelity.",
+    "path": "papers/24/02/2402.13573.json",
+    "total_tokens": 730,
+    "translated_title": "任务待办：用于高分辨率图像高效生成的令牌下采样",
+    "translated_abstract": "注意力机制对于图像扩散模型至关重要，然而，它们的二次计算复杂性限制了我们可以在合理时间和内存限制内处理的图像大小。本文研究了在生成图像模型中密集注意力的重要性，这些模型通常包含冗余特征，使它们适合稀疏注意力机制。我们提出了一种新颖的无需训练的方法 ToDo，该方法依赖于关键和值令牌的令牌下采样，可将常见大小的 Stable Diffusion 推理加速至多达2倍，对于2048x2048等高分辨率，加速比可达4.5倍或更高。我们证明了我们的方法在平衡高效吞吐量和保真度方面优于先前的方法。",
+    "tldr": "提出了一种新的训练-free 方法 ToDo，通过令牌下采样加速 Stable Diffusion 推理，以实现高分辨率图像的高效生成。"
+}

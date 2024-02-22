@@ -2,217 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Ebb and Flow of Brand Loyalty: A 28-Year Bibliometric and Content Analysis](https://arxiv.org/abs/2402.13177) | 通过文献计量和内容分析，研究揭示了品牌忠诚度领域的知识地图，探索了其发展趋势，并发现了新兴热点和未来趋势。 |
-| [^2] | [ATLAS: A Model of Short-term European Electricity Market Processes under Uncertainty - Balancing Modules](https://arxiv.org/abs/2402.12859) | ATLAS模型旨在模拟欧洲电力市场中从提前到实时发生的各种过程，主要关注不完善的参与者协调、预测误差演变和技术约束对市场的影响。 |
-| [^3] | [ATLAS: A Model of Short-term European Electricity Market Processes under Uncertainty](https://arxiv.org/abs/2402.12848) | ATLAS模型旨在捕捉欧洲电力市场短期过程中的不确定性影响，模拟从次日时段到实时的各种电力市场和过程，包括参与者协调、预测误差演变和技术约束。 |
-| [^4] | [Cross-Market Mergers with Common Customers: When (and Why) Do They Increase Negotiated Prices?](https://arxiv.org/abs/2402.12575) | 两种产品可以成为消费者的互补品但对中间商来说是替代品，从而导致价格上涨。 |
-| [^5] | [Robust Appointment Scheduling with Waiting Time Guarantees](https://arxiv.org/abs/2402.12561) | 该研究提出了具有等待时间保证的稳健预约调度问题，旨在同时最小化总成本并提供所有客户等待时间保证，通过引入混合整数线性规划解决了这一NP困难问题，并证明了特殊情况下采用的两种调度规则的最优性。 |
-| [^6] | [Denoised Monte Carlo for option pricing and Greeks estimation](https://arxiv.org/abs/2402.12528) | 提出了一种去噪蒙特卡洛方法，可大幅降低期权定价和希腊估计中的误差。 |
-| [^7] | [Explaining the emergence of land-use frontiers](https://arxiv.org/abs/2402.12487) | 本文综合了解释资源和土地利用前沿的概念工具，提出了一个新的前沿理论。 |
-| [^8] | [Estudos de cen\'arios de implanta\c{c}\~ao de um imposto ambiental no transporte a\'ereo no Brasil](https://arxiv.org/abs/2402.12404) | 通过研究对航空器燃油消耗征税的效果，探讨其对航空运输和减排的影响，以及是否可作为减少排放的替代方法。 |
-| [^9] | [A literatura das receitas comerciais em aeroportos: discuss\~oes e principais descobertas](https://arxiv.org/abs/2402.12403) | 该论文讨论了国家机场商业收入的主要决定因素以及廉价航空公司乘客行为可能对其产生的影响。 |
-| [^10] | [A padroniza\c{c}\~ao de frota e suas consequ\^encias para as companhias a\'ereas](https://arxiv.org/abs/2402.12402) | 研究分析了航空公司机队标准化对公司运营的影响，探讨了标准化带来的运营效率和特定机型故障风险，提出了未来研究方向，并调查了巴西市场上的具体影响，得出结论称标准化的优势并不是排它性的。 |
-| [^11] | [An\'alise das estrat\'egias de planejamento de tempos de voo pelas companhias a\'ereas](https://arxiv.org/abs/2402.12401) | 该研究分析了航空公司制定飞行时间的策略，指出了需要平衡资源利用、风险管理和对准点率的影响，并发现增加额外时间对减少延误是一种有效策略。 |
-| [^12] | [Reinforcement Learning for Optimal Execution when Liquidity is Time-Varying](https://arxiv.org/abs/2402.12049) | 本研究使用双深度 Q 学习来学习最优交易策略，有效应对流动性时变的问题。 |
-| [^13] | [Efficient approximations for utility-based pricing](https://arxiv.org/abs/2105.08804) | 本研究提出了一种使用Lambert函数分解保留价格的方法，从而提出了改进的蒙特卡罗方法（LMC）以及确定性逼近保留价格和最优策略，同时解决了对冲资产选择问题。 |
-| [^14] | [Ensemble distributional forecasting for insurance loss reserving.](http://arxiv.org/abs/2206.08541) | 本论文提出了一种集成分布预测的方法，可以有效地利用不同损失准备模型的优势，与现有方法不同之处在于，它考虑了集成的完整分布属性，在准备的情境中具有重要意义。 |
+| [^1] | [Offshoring Emissions through Used Vehicle Exports](https://arxiv.org/abs/2402.13807) | 该研究量化了从英国出口的二手车对二氧化碳排放和污染的影响，发现这些出口车辆即使在极其乐观假设下，也产生至少13-53％更多的排放。 |
+| [^2] | [The seasonality of air ticket prices before and after the pandemic](https://arxiv.org/abs/2402.13789) | 研究调查了巴西航空运输行业的价格季节性，重点关注COVID-19大流行对国内航空公司定价策略的影响，并探讨了可能发生的长期结构性变化。 |
+| [^3] | [Algorithms for Claims Trading](https://arxiv.org/abs/2402.13627) | 该论文研究了在金融网络中使用索赔交易来拯救处于困境的银行的算法，并考虑了债权人积极的交易方式。 |
+| [^4] | [Estimating Demand for Lamb, Beef, Pork, and Poultry in Canada](https://arxiv.org/abs/2402.13439) | 该论文研究了加拿大对羊肉、牛肉、猪肉和禽肉的需求，揭示了不同省份的肉类消费模式，填补了加拿大省级肉类消费估算的空白。 |
+| [^5] | [A new characterization of second-order stochastic dominance](https://arxiv.org/abs/2402.13355) | 新的二阶随机优势特征描述提示在不利情景中添加负预期值的风险会使最终位置对风险厌恶的代理人不太理想。 |
+| [^6] | [Deep Hedging with Market Impact](https://arxiv.org/abs/2402.13326) | 本文提出了一种基于深度强化学习的市场影响动态套期保值模型，考虑了凸市场影响和随时间持续的影响，通过与常用程序比较，展示了其在期权套期保值方面的优越性。 |
+| [^7] | [Privatiza\c{c}\~ao de aeroportos: motiva\c{c}\~oes, regula\c{c}\~ao e efici\^encia operacional](https://arxiv.org/abs/2402.13279) | 该研究探讨了机场私有化的动机、监管和运营效率等主题，着重关注了生产效率的提升作为私有化最主要的动机。 |
+| [^8] | [Determinantes do planejamento estrat\'egico da rede de uma companhia a\'erea](https://arxiv.org/abs/2402.13278) | 研究揭示了Azul航空公司的战略规划因素，结果表明其商业模式基于连接新目的地和避免被其他竞争对手主导的航线，合并后其进入模型转向更加面向区域航空。 |
+| [^9] | [Measuring the performance of investments in information security startups: An empirical analysis by cybersecurity sectors using Crunchbase data](https://arxiv.org/abs/2402.04765) | 使用Crunchbase数据对19个网络安全领域的早期阶段公司进行了金融评估，发现不同领域之间存在显著的融资差异，并推断了缺失观察。最高的平均融资金额为4546万美元，对应私有云领域。 |
+| [^10] | [Robust Estimation of Pareto's Scale Parameter from Grouped Data.](http://arxiv.org/abs/2401.14593) | 本文介绍了一种新的稳健估计方法（MTuM），用于从分组数据中估计Pareto分布的尾指数。该方法通过应用中心极限定理和模拟研究验证了其推理合理性。 |
+| [^11] | [The Market-Based Statistics of "Actual" Returns of Investors.](http://arxiv.org/abs/2304.06466) | 本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。 |
+| [^12] | [Optimal investment in ambiguous financial markets with learning.](http://arxiv.org/abs/2303.08521) | 本研究考虑了具有学习能力的不确定金融市场中的投资问题，并采用KMM方法考虑了在风险和模糊偏好下的优化问题。最优策略可以用不带模糊偏好的解决方案来表述，但要调整漂移分布。 |
 
 # 详细
 
-[^1]: 品牌忠诚度的起伏：一项28年文献计量和内容分析
+[^1]: 通过二手车出口转移排放
 
-    The Ebb and Flow of Brand Loyalty: A 28-Year Bibliometric and Content Analysis
+    Offshoring Emissions through Used Vehicle Exports
 
-    [https://arxiv.org/abs/2402.13177](https://arxiv.org/abs/2402.13177)
+    [https://arxiv.org/abs/2402.13807](https://arxiv.org/abs/2402.13807)
 
-    通过文献计量和内容分析，研究揭示了品牌忠诚度领域的知识地图，探索了其发展趋势，并发现了新兴热点和未来趋势。
-
-    
-
-    商业研究面临着知识分散的挑战，尤其在品牌忠诚度领域。尽管有关品牌忠诚度的文献综述存在，但它们主要集中在当前状态，忽略了未来趋势。因此，进行全面的审查至关重要，以确定品牌忠诚度领域的新兴趋势。这项研究采用文献计量方法，分析了Scopus数据库中的1,468篇论文。使用了多种工具，包括R软件、VOS viewer 软件和 Publish or Perish。旨在呈现知识地图，探索出版年限，识别顶级作者及其共现性，可靠文件，机构，主题，研究热点，以及研究品牌忠诚度的先导国家和大学。本研究的定性部分通过词云图、词语增长分析，以及对过去四年高引用文章的审查，识别了品牌忠诚度领域的差距和新兴趋势。
-
-    arXiv:2402.13177v1 Announce Type: new  Abstract: Business research is facing the challenge of scattered knowledge, particularly in the realm of brand loyalty (BL). Although literature reviews on BL exist, they predominantly concentrate on the pre-sent state, neglecting future trends. Therefore, a comprehensive review is imperative to ascertain emerging trends in BL This study employs a bibliometric approach, analyzing 1,468 papers from the Scopus database. Various tools including R software, VOS viewer software, and Publish or Perish are utilized. The aim is to portray the knowledge map, explore the publication years, identify the top authors and their co-occurrence, reliable documents, institutions, subjects, research hotspots, and pioneering countries and universities in the study of BL. The qualitative section of this research identifies gaps and emerging trends in BL through Word Cloud charts, word growth analysis, and a review of highly cited articles from the past four years. Res
-    
-[^2]: ATLAS: 不确定性下欧洲短期电力市场过程模型 - 平衡模块
-
-    ATLAS: A Model of Short-term European Electricity Market Processes under Uncertainty - Balancing Modules
-
-    [https://arxiv.org/abs/2402.12859](https://arxiv.org/abs/2402.12859)
-
-    ATLAS模型旨在模拟欧洲电力市场中从提前到实时发生的各种过程，主要关注不完善的参与者协调、预测误差演变和技术约束对市场的影响。
+    该研究量化了从英国出口的二手车对二氧化碳排放和污染的影响，发现这些出口车辆即使在极其乐观假设下，也产生至少13-53％更多的排放。
 
     
 
-    ATLAS模型模拟了欧洲电力市场链条的各个阶段，包括不同市场参与者提出报价、欧洲市场耦合、生产组合的战略优化，以及实时系统平衡过程。ATLAS旨在以高度细节模拟从提前到实时发生的各种电力市场和过程。其主要目标是捕捉不完善的参与者协调、不断演变的预测误差以及高水平的技术约束对不同生产单元和不同市场约束的影响。
+    用于减少交通排放的政策经常忽视二手车的国际流动。我们量化了自2005年至2021年从英国出口的所有二手车产生的二氧化碳和污染率；英国是全球领先的二手车出口国。出口到中低收入国家的车辆无法符合道路安全标准，即使在极其乐观的新车工作假设下，这些出口车辆产生的排放量比报废或在路上行驶的车辆多至少13-53％。
 
-    arXiv:2402.12859v1 Announce Type: new  Abstract: The ATLAS model simulates the various stages of the electricity market chain in Europe, including the formulation of offers by different market actors, the coupling of European markets, strategic optimization of production portfolios and, finally, real-time system balancing processes. ATLAS was designed to simulate the various electricity markets and processes that occur from the day ahead timeframe to real-time with a high level of detail. Its main aim is to capture impacts from imperfect actor coordination, evolving forecast errors and a high-level of technical constraints--both regarding different production units and the different market constraints. This working paper describes the simulated balancing processes in detail and is the second part of the ATLAS documentation.
+    arXiv:2402.13807v1 Announce Type: new  Abstract: Policies to reduce transport emissions often overlook the international flow of used vehicles. We quantify the rate at which used vehicles generated CO2 and pollution for all used vehicles exported from Great Britain; a globally leading used vehicle exporter across 2005-2021. Destined for low-middle-income countries, exported vehicles fail roadworthiness standards and, even under extremely optimistic functioning as new assumptions, generate at least 13-53 percent more emissions than scrapped or on-road vehicles.
     
-[^3]: ATLAS：欧洲短期电力市场过程模型在不确定性下的研究
+[^2]: 新冠大流行前后航空票价的季节性
 
-    ATLAS: A Model of Short-term European Electricity Market Processes under Uncertainty
+    The seasonality of air ticket prices before and after the pandemic
 
-    [https://arxiv.org/abs/2402.12848](https://arxiv.org/abs/2402.12848)
+    [https://arxiv.org/abs/2402.13789](https://arxiv.org/abs/2402.13789)
 
-    ATLAS模型旨在捕捉欧洲电力市场短期过程中的不确定性影响，模拟从次日时段到实时的各种电力市场和过程，包括参与者协调、预测误差演变和技术约束。
-
-    
-
-    ATLAS模型模拟欧洲电力市场链的各个阶段，包括不同市场参与者的报价制定、欧洲市场的耦合、生产组合的战略优化以及最终的实时系统平衡过程。ATLAS旨在以高度详细的方式模拟从次日时段到实时发生的不同电力市场和过程，其主要目的是捕捉来自不完善的参与者协调、不断演变的预测误差以及高水平的技术约束对不同生产单元和不同市场约束的影响。
-
-    arXiv:2402.12848v1 Announce Type: new  Abstract: The ATLAS model simulates the various stages of the electricity market chain in Europe, including the formulation of offers by different market actors, the coupling of European markets, strategic optimization of production portfolios and, finally, real-time system balancing processes. ATLAS was designed to simulate the various electricity markets and processes that occur from the day ahead timeframe to real-time with a high level of detail. Its main aim is to capture impacts from imperfect actor coordination, evolving forecast errors and a high-level of technical constraints--both regarding different production units and the different market constraints.
-    
-[^4]: 共同顾客的跨市场并购：何时（以及为什么）会增加谈判价格？
-
-    Cross-Market Mergers with Common Customers: When (and Why) Do They Increase Negotiated Prices?
-
-    [https://arxiv.org/abs/2402.12575](https://arxiv.org/abs/2402.12575)
-
-    两种产品可以成为消费者的互补品但对中间商来说是替代品，从而导致价格上涨。
+    研究调查了巴西航空运输行业的价格季节性，重点关注COVID-19大流行对国内航空公司定价策略的影响，并探讨了可能发生的长期结构性变化。
 
     
 
-    我研究了供应商到中间商的跨市场并购对为消费者捆绑产品的影响。这些并购备受争议。一些人认为供应商的产品会成为中间商的替代品，尽管不是消费者的替代品。其他人认为，由于捆绑使产品成为消费者的互补产品，产品必须成为中间商的互补产品。我通过展示当产品在吸引消费者购买捆绑包时发挥类似作用时，两种产品可以成为消费者的互补品但对中间商来说是替代品，为这一辩论做出了贡献。这一结果带来了新的建议，并有助于解释为什么跨市场医院并购会提高价格。
+    这项研究调查了巴西航空运输行业的价格季节性，重点关注COVID-19大流行对国内航空公司定价策略的影响。考虑到全球健康危机后可能出现的需求模式转变，本研究探讨了巴西机票季节性可能发生的长期结构性变化。我们分析了从2013年到2023年的国内城市间的公开数据集，采用了使用Stata软件开发的计量经济模型。我们的研究结果表明，后疫情时代季节模式和长期趋势发生了变化。这些变化凸显了休闲和商务旅行者组成的潜在转变，以及航空公司所面临的成本压力。
 
-    arXiv:2402.12575v1 Announce Type: new  Abstract: I examine the implications of cross-market mergers of suppliers to intermediaries that bundle products for consumers. These mergers are controversial. Some argue that suppliers' products will be substitutes for intermediaries, despite not being substitutes for consumers. Others contend that because bundling makes products complements for consumers, products must be complements for intermediaries. I contribute to this debate by showing that two products can be complements for consumers but substitutes for intermediaries when the products serve a similar role in attracting consumers to purchase the bundle. This result leads to new recommendations and helps explain why cross-market hospital mergers raise prices.
+    arXiv:2402.13789v1 Announce Type: new  Abstract: This study investigates price seasonality in the Brazilian air transport industry, emphasizing the impact of the COVID-19 pandemic on domestic airline pricing strategies. Given potential shifts in demand patterns following the global health crisis, this study explores possible long-term structural changes in the seasonality of Brazilian airfare. We analyze an open dataset of domestic city pairs from 2013 to 2023, employing an econometric model developed using Stata software. Our findings indicate alterations in seasonal patterns and long-term trends in the post-pandemic era. These changes underscore potential shifts in the composition of leisure and business travelers, along with the cost pressures faced by airlines.
     
-[^5]: 具有等待时间保证的稳健预约调度
+[^3]: 用于索赔交易的算法
 
-    Robust Appointment Scheduling with Waiting Time Guarantees
+    Algorithms for Claims Trading
 
-    [https://arxiv.org/abs/2402.12561](https://arxiv.org/abs/2402.12561)
+    [https://arxiv.org/abs/2402.13627](https://arxiv.org/abs/2402.13627)
 
-    该研究提出了具有等待时间保证的稳健预约调度问题，旨在同时最小化总成本并提供所有客户等待时间保证，通过引入混合整数线性规划解决了这一NP困难问题，并证明了特殊情况下采用的两种调度规则的最优性。
-
-    
-
-    在不确定性条件下进行的预约调度问题面临着成本最小化和客户等待时间之间的基本权衡。大多数现有研究采用加权和方法来解决这一权衡，这种方法很少强调个体等待时间，因此对客户满意度关注较少。相反，我们研究了如何在为所有客户提供等待时间保证的同时最小化总成本。鉴于服务时间和客户未到的盒状不确定性集，我们引入了具有等待时间保证的稳健预约调度问题。我们证明了该问题在一般情况下是NP困难的，并引入了一个可以在合理计算时间内解决的混合整数线性规划。对于特殊情况，我们证明了众所周知的最小方差优先排序规则和贝利-韦尔奇调度规则的多项式时间变体是最优的。此外，我们进行了一个案例研究，使用了一个大型大学放射学部门的数据
-
-    arXiv:2402.12561v1 Announce Type: new  Abstract: Appointment scheduling problems under uncertainty encounter a fundamental trade-off between cost minimization and customer waiting times. Most existing studies address this trade-off using a weighted sum approach, which puts little emphasis on individual waiting times and, thus, customer satisfaction. In contrast, we study how to minimize total cost while providing waiting time guarantees to all customers. Given box uncertainty sets for service times and no-shows, we introduce the Robust Appointment Scheduling Problem with Waiting Time Guarantees. We show that the problem is NP-hard in general and introduce a mixed-integer linear program that can be solved in reasonable computation time. For special cases, we prove that polynomial-time variants of the well-known Smallest-Variance-First sequencing rule and the Bailey-Welch scheduling rule are optimal. Furthermore, a case study with data from the radiology department of a large university 
-    
-[^6]: 选项定价和希腊估计的去噪蒙特卡洛法
-
-    Denoised Monte Carlo for option pricing and Greeks estimation
-
-    [https://arxiv.org/abs/2402.12528](https://arxiv.org/abs/2402.12528)
-
-    提出了一种去噪蒙特卡洛方法，可大幅降低期权定价和希腊估计中的误差。
+    该论文研究了在金融网络中使用索赔交易来拯救处于困境的银行的算法，并考虑了债权人积极的交易方式。
 
     
 
-    我们提出一种新颖的蒙特卡洛误差降低技术，可直接应用于期权定价和希腊估计。该方法适用于任何LSV建模框架，涉及包括路径依赖和多资产情况在内的广泛付款类别。最重要的是，它能够将蒙特卡洛误差降低甚至一个数量级，这在几个数值例子中得到了证明。
+    最近银行危机再次强调了了解和减轻金融网络中系统性风险的重要性。本文研究了一种基于索赔交易理念的市场驱动方法来拯救处于困境的银行，该理念在美国破产法典第11章中有定义。我们将这一理念在金融网络背景下进行了形式化，由Eisenberg和Noe提出。针对给定的两家银行v和w，我们考虑了w接管v的一些索赔然后换取给予v流动性以最终拯救v的操作。我们研究了索赔交易的多个变体的决策和优化问题的结构特性和计算复杂度。在交易v的入边时，我们证明不存在一种交易能让两家银行v和w的资产都得到严格提升。因此，我们考虑了债权人积极的交易，其中v的利润增加而w保持不变。对于给定的v的一组入边C，
 
-    arXiv:2402.12528v1 Announce Type: new  Abstract: We present a novel technique of Monte Carlo error reduction that finds direct application in option pricing and Greeks estimation. The method is applicable to any LSV modelling framework and concerns a broad class of payoffs, including path-dependent and multi-asset cases. Most importantly, it allows to reduce the Monte Carlo error even by an order of magnitude, which is shown in several numerical examples.
+    arXiv:2402.13627v1 Announce Type: cross  Abstract: The recent banking crisis has again emphasized the importance of understanding and mitigating systemic risk in financial networks. In this paper, we study a market-driven approach to rescue a bank in distress based on the idea of claims trading, a notion defined in Chapter 11 of the U.S. Bankruptcy Code. We formalize the idea in the context of financial networks by Eisenberg and Noe. For two given banks v and w, we consider the operation that w takes over some claims of v and in return gives liquidity to v to ultimately rescue v. We study the structural properties and computational complexity of decision and optimization problems for several variants of claims trading.   When trading incoming edges of v, we show that there is no trade in which both banks v and w strictly improve their assets. We therefore consider creditor-positive trades, in which v profits strictly and w remains indifferent. For a given set C of incoming edges of v, 
     
-[^7]: 解释土地利用前沿的出现
+[^4]: 估算加拿大羊肉、牛肉、猪肉和禽肉的需求量
 
-    Explaining the emergence of land-use frontiers
+    Estimating Demand for Lamb, Beef, Pork, and Poultry in Canada
 
-    [https://arxiv.org/abs/2402.12487](https://arxiv.org/abs/2402.12487)
+    [https://arxiv.org/abs/2402.13439](https://arxiv.org/abs/2402.13439)
 
-    本文综合了解释资源和土地利用前沿的概念工具，提出了一个新的前沿理论。
-
-    
-
-    土地利用扩张与主要的可持续性问题相关，包括气候变化、粮食安全和生物多样性丧失。这种扩张主要集中在所谓的前沿地区，本文定义前沿地区为由于快速资源开发而经历明显转变的地方。了解塑造这些前沿的机制对于可持续性至关重要。以前的研究主要集中在解释活跃前沿地区如何推进，特别是进入热带森林。相比之下，在边缘化的农业生产力和全球市场融合方面认为次要的领土中前沿地区如何出现的理解还很弱。我们综合了解释资源和土地利用前沿的概念工具，包括土地租金和集聚经济理论，把前沿看作连续波浪、领土化空间、摩擦和机会、预期和期望。我们提出了一个新的前沿理论。
-
-    arXiv:2402.12487v1 Announce Type: new  Abstract: Land use expansion is linked to major sustainability concerns including climate change, food security and biodiversity loss. This expansion is largely concentrated in so-called frontiers, defined here as places experiencing marked transformations due to rapid resource exploitation. Understanding the mechanisms shaping these frontiers is crucial for sustainability. Previous work focused mainly on explaining how active frontiers advance, in particular into tropical forests. Comparatively, our understanding of how frontiers emerge in territories considered marginal in terms of agricultural productivity and global market integration remains weak. We synthesize conceptual tools explaining resource and land-use frontiers, including theories of land rent and agglomeration economies, of frontiers as successive waves, spaces of territorialization, friction, and opportunities, anticipation and expectation. We then propose a new theory of frontier 
-    
-[^8]: 巴西航空运输领域实施环境税的研究
-
-    Estudos de cen\'arios de implanta\c{c}\~ao de um imposto ambiental no transporte a\'ereo no Brasil
-
-    [https://arxiv.org/abs/2402.12404](https://arxiv.org/abs/2402.12404)
-
-    通过研究对航空器燃油消耗征税的效果，探讨其对航空运输和减排的影响，以及是否可作为减少排放的替代方法。
+    该论文研究了加拿大对羊肉、牛肉、猪肉和禽肉的需求，揭示了不同省份的肉类消费模式，填补了加拿大省级肉类消费估算的空白。
 
     
 
-    近年来，全球变暖和温室气体排放的议题越来越受到媒体关注。研究发现，其中一种主要的温室气体排放源是燃烧燃料，包括依赖燃气和石油的交通工具。在这方面，通过航空器进行航空运输是排放这类气体的来源之一。为了减少气体排放，减少燃油消耗是一个方法；为此，航空器必须更加高效，或者航班的供需将会减少。然而，如果对航空器的燃油消耗征税会发生什么？这对航空运输会有什么影响？这会成为减少排放的一种替代方法吗？为了理解征税和可能减少排放之间的关系
+    该论文调查了加拿大国内以及各省份对羊肉、牛肉、猪肉和禽肉的需求，以识别不同省份的肉类消费模式。肉类消费在加拿大经济中扮演着重要角色，并且是人口摄入热量的重要来源。然而，由于物流障碍，肉类需求面临着一些消费挑战，因为供应的大部分来自其他国家的进口。因此，有必要更好地理解加拿大羊肉、牛肉、猪肉和禽肉消费背后的因果关系。直到最近，还没有人尝试在加拿大省级水平上估算肉类消费量。另外，已应用不同的几个几乎理想需求系统（AIDS）模型来测试规范以规避几个计量经济学和理论问题。特别是，应用了广义AIDS及其二次扩展。
 
-    arXiv:2402.12404v1 Announce Type: new  Abstract: In recent years, the topic of global warming and greenhouse gas emissions has been increasingly in the media. This theme has raised various flags, showing concern for the future and seeking alternatives for a more sustainable life over the years. When studying greenhouse gas emissions, one of the main emitters of such gases is the burning of fuels, in which transport vehicles that depend on gas and oil are included. In this respect, air transport through aircraft is one of the sources emitting such gases. Aiming to reduce gas emissions, one of the ways to do this is by reducing fuel consumption; for this, aircraft would have to be more efficient, or the offer and demand for flights would be reduced. However, what if aircraft fuel consumption were taxed? What would be the effects of this on air transport? Could this be one of the alternatives to reduce emissions? To understand this relationship between taxation and a possible reduction in
+    arXiv:2402.13439v1 Announce Type: new  Abstract: This paper investigates the demand for lamb, beef, pork, and poultry in Canada, both at the national level and in disaggregated provinces, to identify meat consumption patterns in different provinces. Meat consumption plays a significant role in Canada's economy and is an important source of calories for the population. However, meat demand faces several consumption challenges due to logistic constraints, as a significant portion of the supply is imported from other countries. Therefore, there is a need for a better understanding of the causal relationships underlying lamb, beef, pork, and poultry consumption in Canada. Until recently, there have been no attempts to estimate meat consumption at the provincial level in Canada. Different Almost Ideal Demand System (AIDS) models have been applied for testing specifications to circumvent several econometric and theoretical problems. In particular, generalized AIDS and its Quadratic extension
     
-[^9]: 机场商业配套设施文献研究：讨论与主要发现
+[^5]: 二阶随机优势的新特征描述
 
-    A literatura das receitas comerciais em aeroportos: discuss\~oes e principais descobertas
+    A new characterization of second-order stochastic dominance
 
-    [https://arxiv.org/abs/2402.12403](https://arxiv.org/abs/2402.12403)
+    [https://arxiv.org/abs/2402.13355](https://arxiv.org/abs/2402.13355)
 
-    该论文讨论了国家机场商业收入的主要决定因素以及廉价航空公司乘客行为可能对其产生的影响。
-
-    
-
-    通过商业机会的探索，世界各地机场商业（非航空）收入在机场总收入中所占比例不断增加。这些收入也被称为商业、非航空或非关税收入，来自租金、免税店、食品饮料销售、停车费、广告等。换句话说，一切不属于机场主营业务的项目。因此，对商业收入的依赖性也变得越来越重要，机场管理者对了解如何通过这一新的收入来源改善财务业绩感兴趣，因为这不仅改善了财务结果，还优化了乘客在机场的时间和金钱消费选项。因此，本章旨在讨论国家机场商业收入的主要决定因素，分析廉价航空公司(LCC)乘客行为可能对其产生的影响。
-
-    arXiv:2402.12403v1 Announce Type: new  Abstract: The exploration of existing commercial opportunities has been increasing the share of commercial (non-aeronautical) revenues in the total revenues of airports worldwide. These revenues, also called commercial, non-aeronautical, or non-tariff revenues, come from rentals, duty-free shops, food and beverage sales, parking, advertising, etc. In other words, everything that is not the main business of the airport. Consequently, the dependence on commercial revenues has also become increasingly important, and airport managers are interested in understanding how to improve their financial results with this new revenue source, as it not only improves financial outcomes but also optimizes passengers' time and money consumption options at airports. Therefore, this chapter seeks to discuss the main determinants of commercial revenues at national airports, analyzing the possible impacts of the behavior of passengers from low-cost carriers (LCC) on t
-    
-[^10]: 航空公司机队标准化及其对公司的影响
-
-    A padroniza\c{c}\~ao de frota e suas consequ\^encias para as companhias a\'ereas
-
-    [https://arxiv.org/abs/2402.12402](https://arxiv.org/abs/2402.12402)
-
-    研究分析了航空公司机队标准化对公司运营的影响，探讨了标准化带来的运营效率和特定机型故障风险，提出了未来研究方向，并调查了巴西市场上的具体影响，得出结论称标准化的优势并不是排它性的。
+    新的二阶随机优势特征描述提示在不利情景中添加负预期值的风险会使最终位置对风险厌恶的代理人不太理想。
 
     
 
-    本研究探讨了航空公司机队标准化的增长现象，并强调经常乘客更有可能经常乘坐相同机型。其目的是分析航空公司的机队管理以及机型多样性减少对公司运营的影响。讨论了标准化的好处，如运营效率，以及风险，如对特定机型故障的脆弱性。该研究回顾了关于这一主题的国际科学文献，识别了一致和分歧之处，提出了未来研究的方向。还包括了对巴西市场的研究，考察了标准化如何影响模型、家族和飞机制造商方面的运营成本和盈利能力。此外，还调查了机队标准化与公司商业模式之间的关系，得出结论：标准化的优势并不是排它性的。
+    我们提供了二阶随机优势的新特征描述，也称为增长凹序。该结果具有直观的解释，即在不利情景中添加一个预期值为负的风险会使最终位置对于风险厌恶的代理人通常变得不太理想。凸序和增长凸序也找到了类似的特征描述。主要结果的证明技术基于期望缺失的性质，这是金融监管中广受欢迎的一类风险度量。
 
-    arXiv:2402.12402v1 Announce Type: new  Abstract: This study addresses the growing standardization of airline fleets, highlighting that frequent passengers are more likely to fly on the same aircraft model more often. The objective is to analyze the fleet management of airlines and the impact of a reduced variety of models on company operations. The benefits of standardization, such as operational efficiency, and the risks, such as vulnerability to specific model failures, are discussed. The work reviews international scientific literature on the subject, identifying consensus and disagreements that suggest areas for future research. It also includes a study on the Brazilian market, examining how standardization affects operational costs and profitability in terms of model, family, and aircraft manufacturer. Furthermore, the relationship between fleet standardization and the business model of the companies is investigated, concluding that the advantages of standardization are not exclus
+    arXiv:2402.13355v1 Announce Type: new  Abstract: We provide a new characterization of second-order stochastic dominance, also known as increasing concave order. The result has an intuitive interpretation that adding a risk with negative expected value in adverse scenarios makes the resulting position generally less desirable for risk-averse agents. A similar characterization is also found for convex order and increasing convex order. The proofs techniques for the main result are based on properties of Expected Shortfall, a family of risk measures that is popular in financial regulation.
     
-[^11]: 航空公司制定飞行时间的策略分析
+[^6]: 具有市场影响力的深度套期保值
 
-    An\'alise das estrat\'egias de planejamento de tempos de voo pelas companhias a\'ereas
+    Deep Hedging with Market Impact
 
-    [https://arxiv.org/abs/2402.12401](https://arxiv.org/abs/2402.12401)
+    [https://arxiv.org/abs/2402.13326](https://arxiv.org/abs/2402.13326)
 
-    该研究分析了航空公司制定飞行时间的策略，指出了需要平衡资源利用、风险管理和对准点率的影响，并发现增加额外时间对减少延误是一种有效策略。
-
-    
-
-    该研究探讨航空公司制定飞行时间的方法，强调需要平衡操作性和战略性因素，例如优化资源利用（包括飞机、机组和燃料）以及管理延误和拥堵引发的风险。该工作详细介绍了针对国内航班的国家分析，调查影响公司调整计划飞行时间的因素以及这一做法对准点率的影响。结果表明，飞行时间的决策受到操作性和战略性方面的影响，受到竞争以及该领域有关准点率和航班时隙分配政策的影响。此外，研究发现增加额外时间是减少延误的有效策略，尽管可能掩盖系统缺陷。
-
-    arXiv:2402.12401v1 Announce Type: new  Abstract: This study explores the approaches used by airlines in setting flight times. It highlights the need to balance operational and strategic factors, such as optimizing the use of resources - including aircraft, crew, and fuel - and managing the risks related to delays and congestion. The work details a national analysis focused on domestic flights, investigating the factors that influence companies to adjust scheduled flight times and the impact of this practice on punctuality. The results indicate that decisions about flight time are influenced by both operational and strategic aspects, being affected by competition and the sector's policies on punctuality and slot allocation. Furthermore, it was found that adding extra time is an effective strategy for reducing delays, although it may conceal system deficiencies.
-    
-[^12]: 当流动性是时变的时，强化学习用于最优执行问题
-
-    Reinforcement Learning for Optimal Execution when Liquidity is Time-Varying
-
-    [https://arxiv.org/abs/2402.12049](https://arxiv.org/abs/2402.12049)
-
-    本研究使用双深度 Q 学习来学习最优交易策略，有效应对流动性时变的问题。
+    本文提出了一种基于深度强化学习的市场影响动态套期保值模型，考虑了凸市场影响和随时间持续的影响，通过与常用程序比较，展示了其在期权套期保值方面的优越性。
 
     
 
-    最优执行是任何交易者面临的重要问题。大多数解决方案基于市场冲击恒定的假设，而流动性已知是动态的。此外，具有时变流动性的模型通常假设是可观察的，尽管实际上它是潜在的且难以实时测量。在本文中，我们展示了基于神经网络的双深度 Q 学习的使用能够在流动性时变时学习到最优交易策略。具体来说，我们考虑了一个具有临时和永久冲击参数的Almgren-Chriss框架，这些参数遵循几种确定性和随机动态。通过大量的数值实验，我们展示了训练算法在解析解可用时学习到最优策略，并且在解决方案不可用时超越了基准和近似解。
+    动态套期保值是定期进行金融工具交易，以抵消投资或负债所带来风险的实践。动态套期保值优化可以被视为一个顺序决策问题；因此，最近提出了利用强化学习（RL）模型来解决这一任务。然而，现有的套期保值RL工作并未考虑由交易工具的有限流动性引起的市场影响。整合这样的特征对于在具有有限流动性的股票期权套期保值时实现最佳性能可能是至关重要的。本文提出了一种基于深度强化学习（DRL）的新型通用市场影响动态套期保值模型，考虑了几个逼真的特征，例如凸市场影响和随时间持续的影响。从DRL模型得到的最优策略通过几个期权套期保值模拟进行了分析，并与常用程序（如德尔塔套期保值）进行了比较。
 
-    arXiv:2402.12049v1 Announce Type: new  Abstract: Optimal execution is an important problem faced by any trader. Most solutions are based on the assumption of constant market impact, while liquidity is known to be dynamic. Moreover, models with time-varying liquidity typically assume that it is observable, despite the fact that, in reality, it is latent and hard to measure in real time. In this paper we show that the use of Double Deep Q-learning, a form of Reinforcement Learning based on neural networks, is able to learn optimal trading policies when liquidity is time-varying. Specifically, we consider an Almgren-Chriss framework with temporary and permanent impact parameters following several deterministic and stochastic dynamics. Using extensive numerical experiments, we show that the trained algorithm learns the optimal policy when the analytical solution is available, and overcomes benchmarks and approximated solutions when the solution is not available.
+    arXiv:2402.13326v1 Announce Type: cross  Abstract: Dynamic hedging is the practice of periodically transacting financial instruments to offset the risk caused by an investment or a liability. Dynamic hedging optimization can be framed as a sequential decision problem; thus, Reinforcement Learning (RL) models were recently proposed to tackle this task. However, existing RL works for hedging do not consider market impact caused by the finite liquidity of traded instruments. Integrating such feature can be crucial to achieve optimal performance when hedging options on stocks with limited liquidity. In this paper, we propose a novel general market impact dynamic hedging model based on Deep Reinforcement Learning (DRL) that considers several realistic features such as convex market impacts, and impact persistence through time. The optimal policy obtained from the DRL model is analysed using several option hedging simulations and compared to commonly used procedures such as delta hedging. Re
     
-[^13]: 用于效率定价的优化近似方法
+[^7]: 机场私有化：动机、监管和运营效率
 
-    Efficient approximations for utility-based pricing
+    Privatiza\c{c}\~ao de aeroportos: motiva\c{c}\~oes, regula\c{c}\~ao e efici\^encia operacional
 
-    [https://arxiv.org/abs/2105.08804](https://arxiv.org/abs/2105.08804)
+    [https://arxiv.org/abs/2402.13279](https://arxiv.org/abs/2402.13279)
 
-    本研究提出了一种使用Lambert函数分解保留价格的方法，从而提出了改进的蒙特卡罗方法（LMC）以及确定性逼近保留价格和最优策略，同时解决了对冲资产选择问题。
-
-    
-
-    在流动性不足的情况下，保留价格是通常的鞅方法无法应用时的一个被广泛接受的替代方法。然而，这个价格并不以闭式形式给出，需要使用诸如蒙特卡罗或多项式逼近等数值方法来评估。我们展示了这些方法可能存在不准确性，并提出了使用 Lambert函数对保留价格进行确定性分解的方法。这种分解使我们能够执行一个改进的蒙特卡罗方法，我们将其命名为Lambert Monte Carlo（LMC），并基于 Lambert函数给出保留价格和最优策略的确定性逼近。我们还就选择最小化保留价格和现金投资的对冲资产问题提供了答案。我们的理论结果通过数值模拟加以说明。
-
-    arXiv:2105.08804v3 Announce Type: replace  Abstract: In a context of illiquidity, the reservation price is a well-accepted alternative to the usual martingale approach which does not apply. However, this price is not available in closed form and requires numerical methods such as Monte Carlo or polynomial approximations to evaluate it. We show that these methods can be inaccurate and propose a deterministic decomposition of the reservation price using the Lambert function. This decomposition allows us to perform an improved Monte Carlo method, which we name Lambert Monte Carlo (LMC) and to give deterministic approximations of the reservation price and of the optimal strategies based on the Lambert function. We also give an answer to the problem of selecting a hedging asset that minimizes the reservation price and also the cash invested. Our theoretical results are illustrated by numerical simulations.
-    
-[^14]: 保险损失准备的集成分布预测
-
-    Ensemble distributional forecasting for insurance loss reserving. (arXiv:2206.08541v3 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2206.08541](http://arxiv.org/abs/2206.08541)
-
-    本论文提出了一种集成分布预测的方法，可以有效地利用不同损失准备模型的优势，与现有方法不同之处在于，它考虑了集成的完整分布属性，在准备的情境中具有重要意义。
+    该研究探讨了机场私有化的动机、监管和运营效率等主题，着重关注了生产效率的提升作为私有化最主要的动机。
 
     
 
-    损失准备通常着眼于找到能生成卓越预测性能的单一模型。然而，不同的损失准备模型专注于捕捉损失数据的不同方面。实践中已经认识到这一点，即经常考虑来自不同模型的结果，并有时进行组合。例如，精算师可能根据主观评估对各种损失准备模型的预测结果进行加权平均。在本文中，我们提出了一个系统的框架，以客观地组合（即集成）多个随机损失准备模型，从而有效地利用不同模型提供的优势。与现有文献和实践相比，我们的框架包含两个主要创新。首先，我们的模型组合标准考虑了集成的完整分布属性，而不仅仅是中心估计 - 这在准备的情境中尤为重要。其次，
+    在这项研究中，我们将探讨一些与机场私有化相关的主题，试图回答以下问题：机场私有化是否带来积极结果？首先，我们关注导致私有化的动机，考虑到涉及的两个主要方面，政府和私营部门。毕竟，这样的决定的成功将取决于其正当的理由。其次，我们将考虑监管问题，其对机场财务表现的影响得到了文献的确认。第三部分，我们探讨了私有化的主要记录结果，特别关注生产效率，其改善是私有化最受欢迎的动机。
 
-    Loss reserving generally focuses on identifying a single model that can generate superior predictive performance. However, different loss reserving models specialise in capturing different aspects of loss data. This is recognised in practice in the sense that results from different models are often considered, and sometimes combined. For instance, actuaries may take a weighted average of the prediction outcomes from various loss reserving models, often based on subjective assessments.  In this paper, we propose a systematic framework to objectively combine (i.e. ensemble) multiple _stochastic_ loss reserving models such that the strengths offered by different models can be utilised effectively. Our framework contains two main innovations compared to existing literature and practice. Firstly, our criteria model combination considers the full distributional properties of the ensemble and not just the central estimate - which is of particular importance in the reserving context. Secondly,
+    arXiv:2402.13279v1 Announce Type: new  Abstract: In this study, we will address some topics related to the privatization of airports in the scientific literature, in an attempt to provide an answer to the following question: does the privatization of airports bring positive results? Firstly, we turn our attention to the motivations leading to privatization, considering the two main parties involved, the government and the private sector. After all, the success of such a decision will be relative to the reasons that justify it. In a second moment, we will consider the regulatory issue, whose influence on the airport's financial performance is consolidated in the literature. In the third part, we address the main documented results of privatization, with special attention to productive efficiency, whose improvement is the most popular motivation for privatization.
+    
+[^8]: 航空公司网络规划的战略规划因素
+
+    Determinantes do planejamento estrat\'egico da rede de uma companhia a\'erea
+
+    [https://arxiv.org/abs/2402.13278](https://arxiv.org/abs/2402.13278)
+
+    研究揭示了Azul航空公司的战略规划因素，结果表明其商业模式基于连接新目的地和避免被其他竞争对手主导的航线，合并后其进入模型转向更加面向区域航空。
+
+    
+
+    这项研究着重于尝试理解航空公司网络规划的建设方式。为此，对Azul进行了研究，调查了哪些因素以及如何影响该航空公司进入国内航线的决策，此外还分析了Azul与地区航空公司Trip的合并是如何影响该公司的网络规划的。为此，进行了一项学术研究，使用计量经济模型来理解航空公司的进入模型。结果显示Azul的商业模式是基于连接尚未被竞争对手服务的新目的地之一与其枢纽之一，并始终避免被其他航空公司主导的航线或机场。关于合并的影响，结果表明Azul从其最初基于JetBlue的进入模型转变为更加面向区域航空的模型，进入更短的航线和地区机场。
+
+    arXiv:2402.13278v1 Announce Type: new  Abstract: This work focuses on trying to understand how the construction of an airline's network is made. For this purpose, the case of Azul was studied, investigating which and how factors affect the decision of this airline to enter domestic routes, in addition to analyzing how the merger of Azul with the regional airline Trip affected the company's network planning. For this, an academic study was conducted using an econometric model to understand the airline's entry model. The results show that Azul's business model is based on connecting new destinations, not yet served by its competitors, to one of its hubs, and consistently avoiding routes or airports dominated by other airlines. Regarding the effects of the merger, the results suggest that Azul moved away from its original entry model, based on JetBlue, to a model more oriented towards regional aviation, entering shorter routes and regional airports.
+    
+[^9]: 使用Crunchbase数据对信息安全创业公司的投资绩效进行测量：基于网络安全领域的实证分析
+
+    Measuring the performance of investments in information security startups: An empirical analysis by cybersecurity sectors using Crunchbase data
+
+    [https://arxiv.org/abs/2402.04765](https://arxiv.org/abs/2402.04765)
+
+    使用Crunchbase数据对19个网络安全领域的早期阶段公司进行了金融评估，发现不同领域之间存在显著的融资差异，并推断了缺失观察。最高的平均融资金额为4546万美元，对应私有云领域。
+
+    
+
+    早期阶段的公司在推动创新和创造新产品和服务方面发挥着重要作用，尤其是在网络安全领域。因此，对它们的绩效进行评估对于投资者和政策制定者至关重要。本研究基于从Crunchbase获取的2010年至2022年的私募股权数据，对19个网络安全领域的早期阶段公司的绩效进行了金融评估。我们观察了公司及其主要和次要活动、融资轮次以及前后估值。我们比较了不同网络安全领域在融资轮次和后估值方面的差异，并推断了缺失观察。我们观察到在不同类别、时期和地区之间，投资者的兴趣差异显著。特别是，我们发现垃圾邮件过滤的平均融资金额（估值）为724万美元（3.239亿美元），而私有云领域为4546万美元（4.4722亿美元）。接下来，我们假设从后估值计算得到的回报率符合对数过程。
+
+    Early-stage firms play a significant role in driving innovation and creating new products and services, especially for cybersecurity. Therefore, evaluating their performance is crucial for investors and policymakers. This work presents a financial evaluation of early-stage firms' performance in 19 cybersecurity sectors using a private-equity dataset from 2010 to 2022 retrieved from Crunchbase. We observe firms, their primary and secondary activities, funding rounds, and pre and post-money valuations. We compare cybersecurity sectors regarding the amount raised over funding rounds and post-money valuations while inferring missing observations. We observe significant investor interest variations across categories, periods, and locations. In particular, we find the average capital raised (valuations) to range from USD 7.24 mln (USD 32.39 mln) for spam filtering to USD 45.46 mln (USD 447.22 mln) for the private cloud sector. Next, we assume a log process for returns computed from post-mone
+    
+[^10]: 从分组数据中稳健估计Pareto的尺度参数
+
+    Robust Estimation of Pareto's Scale Parameter from Grouped Data. (arXiv:2401.14593v1 [stat.ME])
+
+    [http://arxiv.org/abs/2401.14593](http://arxiv.org/abs/2401.14593)
+
+    本文介绍了一种新的稳健估计方法（MTuM），用于从分组数据中估计Pareto分布的尾指数。该方法通过应用中心极限定理和模拟研究验证了其推理合理性。
+
+    
+
+    当可获取的完全观测到的从头至尾的损失严重性样本数据集存在时，存在许多稳健估计器作为最大似然估计器（MLE）的替代方案。然而，当处理分组损失严重性数据时，稳健的MLE替代方案的选择变得非常有限，只有少数方法可用，例如最小二乘法、最小Hellinger距离和最优有界影响函数。本文介绍了一种称为截断矩法的新型稳健估计技术，该方法专门用于从分组数据估计Pareto分布的尾指数。通过应用中心极限定理和通过全面的模拟研究验证了MTuM的推理合理性。
+
+    Numerous robust estimators exist as alternatives to the maximum likelihood estimator (MLE) when a completely observed ground-up loss severity sample dataset is available. However, the options for robust alternatives to MLE become significantly limited when dealing with grouped loss severity data, with only a handful of methods like least squares, minimum Hellinger distance, and optimal bounded influence function available. This paper introduces a novel robust estimation technique, the Method of Truncated Moments (MTuM), specifically designed to estimate the tail index of a Pareto distribution from grouped data. Inferential justification of MTuM is established by employing the central limit theorem and validating them through a comprehensive simulation study.
+    
+[^11]: 投资者“实际”收益的市场统计量：统一理论描述
+
+    The Market-Based Statistics of "Actual" Returns of Investors. (arXiv:2304.06466v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.06466](http://arxiv.org/abs/2304.06466)
+
+    本文提出了三个层次的市场统计量描述投资者市场销售中获得的“实际”收益，与传统的时间序列分析不同。这些统计量考虑了交易销售价值、购买价值和股票数量，并且我们推导了它们之间的依赖关系。
+
+    
+
+    本文提出了针对投资者市场销售中获得的“实际”收益的三个层次的市场统计量的统一理论描述。这些市场统计量考虑了交易销售价值的大小、购买价值和股票数量，与基于收益时间序列频率分析的传统常规统计学不同。我们首先描述了投资者通过过去的多次购买获得单次销售的统计收益率。第二个层次描述了投资者在“交易日”进行多次市场销售时获得的收益统计。第三个层次描述了在“交易日”期间不同投资者获得的收益统计。我们推导出收益的统计量对市场销售价值、购买价值和股票数量的统计量的依赖关系。反过来，交易价值和购买量的统计量取决于统计收益率的统计量。
+
+    The paper presents the unified theoretical description of three levels of the market-based statistical moments of "actual" returns, which Investors gain within their market sales. The market-based statistics of "actual" returns takes into account the size of the trade sale values, purchased values and volumes of stocks and that differs it from conventional regular statistics based on frequency analysis of returns time-series. We start with description of statistical moments of returns, which Investor gains via a single sale due to his multiple purchases in the past. The second level describes statistics of returns, which Investor gains performing numerous market sales during the "trading day". The third level describes statistics of returns that different Investors gain during the "trading day". We derive dependence of statistical moments of returns on statistical moments of market sale values, purchased values and volumes of stocks. In its turn, statistical moments of trade values and
+    
+[^12]: 具有学习能力的不确定金融市场中的最优投资
+
+    Optimal investment in ambiguous financial markets with learning. (arXiv:2303.08521v1 [q-fin.PM])
+
+    [http://arxiv.org/abs/2303.08521](http://arxiv.org/abs/2303.08521)
+
+    本研究考虑了具有学习能力的不确定金融市场中的投资问题，并采用KMM方法考虑了在风险和模糊偏好下的优化问题。最优策略可以用不带模糊偏好的解决方案来表述，但要调整漂移分布。
+
+    
+
+    本研究考虑传统的多资产Merton投资问题，其价格动态由具有恒定但未知漂移系数的几何布朗运动给出。投资者假设漂移分布，并通过观察投资期内资产价格实现情况来学习。研究者采用KMM方法考虑了在风险和模糊偏好下的优化问题。在此处，投资者最大化一个双重确定性等价值。内在确定性等价值是基于给定漂移系数的，而外部确定性等价值是基于漂移分布的。假设也有CRRA类型的模糊函数，结果表明，最优策略可以用不带模糊偏好的解决方案来表述，但要调整漂移分布。据我们所知，对于这个具有学习能力的经典Merton问题的模糊情形，尚未在文献中得出显式解决方案。
+
+    We consider the classical multi-asset Merton investment problem under drift uncertainty, i.e. the asset price dynamics are given by geometric Brownian motions with constant but unknown drift coefficients. The investor assumes a prior drift distribution and is able to learn by observing the asset prize realizations during the investment horizon. While the solution of an expected utility maximizing investor with constant relative risk aversion (CRRA) is well known, we consider the optimization problem under risk and ambiguity preferences by means of the KMM (Klibanoff et al. (2005)) approach. Here, the investor maximizes a double certainty equivalent. The inner certainty equivalent is for given drift coefficient, the outer is based on a drift distribution. Assuming also a CRRA type ambiguity function, it turns out that the optimal strategy can be stated in terms of the solution without ambiguity preferences but an adjusted drift distribution. To the best of our knowledge an explicit solu
     
 

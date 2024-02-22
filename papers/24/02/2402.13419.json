@@ -1,0 +1,12 @@
+{
+    "title": "Reward Bound for Behavioral Guarantee of Model-based Planning Agents",
+    "abstract": "arXiv:2402.13419v1 Announce Type: new  Abstract: Recent years have seen an emerging interest in the trustworthiness of machine learning-based agents in the wild, especially in robotics, to provide safety assurance for the industry. Obtaining behavioral guarantees for these agents remains an important problem. In this work, we focus on guaranteeing a model-based planning agent reaches a goal state within a specific future time step. We show that there exists a lower bound for the reward at the goal state, such that if the said reward is below that bound, it is impossible to obtain such a guarantee. By extension, we show how to enforce preferences over multiple goals.",
+    "link": "https://arxiv.org/abs/2402.13419",
+    "context": "Title: Reward Bound for Behavioral Guarantee of Model-based Planning Agents\nAbstract: arXiv:2402.13419v1 Announce Type: new  Abstract: Recent years have seen an emerging interest in the trustworthiness of machine learning-based agents in the wild, especially in robotics, to provide safety assurance for the industry. Obtaining behavioral guarantees for these agents remains an important problem. In this work, we focus on guaranteeing a model-based planning agent reaches a goal state within a specific future time step. We show that there exists a lower bound for the reward at the goal state, such that if the said reward is below that bound, it is impossible to obtain such a guarantee. By extension, we show how to enforce preferences over multiple goals.",
+    "path": "papers/24/02/2402.13419.json",
+    "total_tokens": 707,
+    "translated_title": "基于行为保证的模型规划代理的奖励下界研究",
+    "translated_abstract": "近年来，在机器学习为基础的代理在现实环境中的可信度引起了人们的兴趣，特别是在机器人领域，为该行业提供安全保证。为这些代理获取行为保证仍然是一个重要问题。在本研究中，我们专注于保证模型规划代理在特定未来时间步内达到目标状态。我们表明，在目标状态存在一个奖励的下界，如果该奖励低于该下界，则无法获得此保证。此外，我们展示了如何对多个目标进行优先排序。",
+    "tldr": "本研究探讨了如何确保模型规划代理在特定时间步内达到目标状态的行为保证问题，并提出了目标状态奖励的下界，对于低于该奖励的情况无法获得保证。",
+    "en_tdlr": "This study investigates how to ensure the behavioral guarantee of a model-based planning agent reaching a goal state within a specific time step, and identifies a lower bound for the reward at the goal state, below which the guarantee cannot be obtained."
+}

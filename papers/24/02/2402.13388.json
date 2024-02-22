@@ -1,0 +1,12 @@
+{
+    "title": "Transformer tricks: Precomputing the first layer",
+    "abstract": "arXiv:2402.13388v1 Announce Type: new  Abstract: This short paper describes a trick to speed up inference of transformers with RoPE (such as LLaMA, Mistral, and PaLM). For these models, a large portion of the first transformer layer can be precomputed, which results in slightly lower latency and lower cost-per-token. Because this trick optimizes only one layer, the relative savings depend on the total number of layers. For example, the maximum savings for a model with only 4 layers (such as Whisper tiny) is limited to 25%, while a 32-layer model (such as Mistral-7B) is limited to 3% savings.",
+    "link": "https://arxiv.org/abs/2402.13388",
+    "context": "Title: Transformer tricks: Precomputing the first layer\nAbstract: arXiv:2402.13388v1 Announce Type: new  Abstract: This short paper describes a trick to speed up inference of transformers with RoPE (such as LLaMA, Mistral, and PaLM). For these models, a large portion of the first transformer layer can be precomputed, which results in slightly lower latency and lower cost-per-token. Because this trick optimizes only one layer, the relative savings depend on the total number of layers. For example, the maximum savings for a model with only 4 layers (such as Whisper tiny) is limited to 25%, while a 32-layer model (such as Mistral-7B) is limited to 3% savings.",
+    "path": "papers/24/02/2402.13388.json",
+    "total_tokens": 677,
+    "translated_title": "Transformer 技巧：预计算第一层",
+    "translated_abstract": "这篇简短的论文描述了一种加速具有 RoPE（如 LLaMA、Mistral 和 PaLM）的 transformer 推断的技巧。对于这些模型，第一个 transformer 层的大部分内容可以预先计算，从而导致稍低的延迟和更低的每令牌成本。因为这种技巧仅优化了一层，相对节省取决于总层数。例如，对于只有 4 层的模型（如 Whisper tiny），最大节省仅限于 25%，而对于 32 层模型（如 Mistral-7B），节省则是 3%。",
+    "tldr": "该论文描述了一种加速具有RoPE的transformer推断的技巧，通过预计算第一层来降低延迟和成本，最大节省取决于总层数。",
+    "en_tdlr": "This paper presents a trick to speed up transformer inference with RoPE by precomputing a large portion of the first layer, resulting in lower latency and cost-per-token, with savings depending on the total number of layers."
+}

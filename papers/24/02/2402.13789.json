@@ -1,0 +1,12 @@
+{
+    "title": "The seasonality of air ticket prices before and after the pandemic",
+    "abstract": "arXiv:2402.13789v1 Announce Type: new  Abstract: This study investigates price seasonality in the Brazilian air transport industry, emphasizing the impact of the COVID-19 pandemic on domestic airline pricing strategies. Given potential shifts in demand patterns following the global health crisis, this study explores possible long-term structural changes in the seasonality of Brazilian airfare. We analyze an open dataset of domestic city pairs from 2013 to 2023, employing an econometric model developed using Stata software. Our findings indicate alterations in seasonal patterns and long-term trends in the post-pandemic era. These changes underscore potential shifts in the composition of leisure and business travelers, along with the cost pressures faced by airlines.",
+    "link": "https://arxiv.org/abs/2402.13789",
+    "context": "Title: The seasonality of air ticket prices before and after the pandemic\nAbstract: arXiv:2402.13789v1 Announce Type: new  Abstract: This study investigates price seasonality in the Brazilian air transport industry, emphasizing the impact of the COVID-19 pandemic on domestic airline pricing strategies. Given potential shifts in demand patterns following the global health crisis, this study explores possible long-term structural changes in the seasonality of Brazilian airfare. We analyze an open dataset of domestic city pairs from 2013 to 2023, employing an econometric model developed using Stata software. Our findings indicate alterations in seasonal patterns and long-term trends in the post-pandemic era. These changes underscore potential shifts in the composition of leisure and business travelers, along with the cost pressures faced by airlines.",
+    "path": "papers/24/02/2402.13789.json",
+    "total_tokens": 755,
+    "translated_title": "新冠大流行前后航空票价的季节性",
+    "translated_abstract": "这项研究调查了巴西航空运输行业的价格季节性，重点关注COVID-19大流行对国内航空公司定价策略的影响。考虑到全球健康危机后可能出现的需求模式转变，本研究探讨了巴西机票季节性可能发生的长期结构性变化。我们分析了从2013年到2023年的国内城市间的公开数据集，采用了使用Stata软件开发的计量经济模型。我们的研究结果表明，后疫情时代季节模式和长期趋势发生了变化。这些变化凸显了休闲和商务旅行者组成的潜在转变，以及航空公司所面临的成本压力。",
+    "tldr": "研究调查了巴西航空运输行业的价格季节性，重点关注COVID-19大流行对国内航空公司定价策略的影响，并探讨了可能发生的长期结构性变化。",
+    "en_tdlr": "This study investigates price seasonality in the Brazilian air transport industry, emphasizing the impact of the COVID-19 pandemic on domestic airline pricing strategies and exploring possible long-term structural changes."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Enhanced Hallucination Detection in Neural Machine Translation through Simple Detector Aggregation",
+    "abstract": "arXiv:2402.13331v1 Announce Type: new  Abstract: Hallucinated translations pose significant threats and safety concerns when it comes to the practical deployment of machine translation systems. Previous research works have identified that detectors exhibit complementary performance different detectors excel at detecting different types of hallucinations. In this paper, we propose to address the limitations of individual detectors by combining them and introducing a straightforward method for aggregating multiple detectors. Our results demonstrate the efficacy of our aggregated detector, providing a promising step towards evermore reliable machine translation systems.",
+    "link": "https://arxiv.org/abs/2402.13331",
+    "context": "Title: Enhanced Hallucination Detection in Neural Machine Translation through Simple Detector Aggregation\nAbstract: arXiv:2402.13331v1 Announce Type: new  Abstract: Hallucinated translations pose significant threats and safety concerns when it comes to the practical deployment of machine translation systems. Previous research works have identified that detectors exhibit complementary performance different detectors excel at detecting different types of hallucinations. In this paper, we propose to address the limitations of individual detectors by combining them and introducing a straightforward method for aggregating multiple detectors. Our results demonstrate the efficacy of our aggregated detector, providing a promising step towards evermore reliable machine translation systems.",
+    "path": "papers/24/02/2402.13331.json",
+    "total_tokens": 618,
+    "translated_title": "通过简单的探测器聚合增强神经机器翻译中的幻觉检测",
+    "translated_abstract": "幻觉翻译在实际部署机器翻译系统时存在重大威胁和安全问题。本文提出通过结合不同的探测器和引入简单的聚合多探测器方法来解决单个探测器的局限性。我们的结果展示了我们聚合探测器的有效性，为更加可靠的机器翻译系统迈出了一步。",
+    "tldr": "提出了一种通过简单的探测器聚合来增强神经机器翻译中的幻觉检测，结果表明这种方法有效性，有望使机器翻译系统更加可靠。",
+    "en_tdlr": "Proposed a method to enhance hallucination detection in neural machine translation through simple detector aggregation, with effective results demonstrating a promising step towards more reliable machine translation systems."
+}

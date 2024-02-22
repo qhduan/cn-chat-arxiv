@@ -1,0 +1,12 @@
+{
+    "title": "Infrastructure Ombudsman: Mining Future Failure Concerns from Structural Disaster Response",
+    "abstract": "arXiv:2402.13528v1 Announce Type: cross  Abstract: Current research concentrates on studying discussions on social media related to structural failures to improve disaster response strategies. However, detecting social web posts discussing concerns about anticipatory failures is under-explored. If such concerns are channeled to the appropriate authorities, it can aid in the prevention and mitigation of potential infrastructural failures. In this paper, we develop an infrastructure ombudsman -- that automatically detects specific infrastructure concerns. Our work considers several recent structural failures in the US. We present a first-of-its-kind dataset of 2,662 social web instances for this novel task mined from Reddit and YouTube.",
+    "link": "https://arxiv.org/abs/2402.13528",
+    "context": "Title: Infrastructure Ombudsman: Mining Future Failure Concerns from Structural Disaster Response\nAbstract: arXiv:2402.13528v1 Announce Type: cross  Abstract: Current research concentrates on studying discussions on social media related to structural failures to improve disaster response strategies. However, detecting social web posts discussing concerns about anticipatory failures is under-explored. If such concerns are channeled to the appropriate authorities, it can aid in the prevention and mitigation of potential infrastructural failures. In this paper, we develop an infrastructure ombudsman -- that automatically detects specific infrastructure concerns. Our work considers several recent structural failures in the US. We present a first-of-its-kind dataset of 2,662 social web instances for this novel task mined from Reddit and YouTube.",
+    "path": "papers/24/02/2402.13528.json",
+    "total_tokens": 776,
+    "translated_title": "基础设施调解员：从结构灾难响应中挖掘未来失效担忧",
+    "translated_abstract": "当前研究集中于研究社交媒体上与结构失败相关的讨论，以改进灾难响应策略。然而，检测社交网络帖子中讨论关于预期失败的担忧是未被充分探索的。如果这些担忧被传达给适当的机构，可以帮助预防和减轻潜在的基础设施失败。本文中，我们开发了一种基础设施调解员——用于自动检测特定基础设施问题。我们的工作考虑了美国几起最近的结构失效事件。我们呈现了一份首创性数据集，包括从Reddit和YouTube中挖掘的2,662个社交网络实例，用于这一新颖任务。",
+    "tldr": "本文开发了一种基础设施调解员系统，用于自动检测特定基础设施问题，通过挖掘社交网络中关于预期失败的担忧，有助于预防和减轻潜在的基础设施失败。",
+    "en_tdlr": "This paper introduces an infrastructure ombudsman system that automatically detects specific infrastructure issues by mining social web for concerns about anticipatory failures, aiming to prevent and mitigate potential infrastructural failures."
+}

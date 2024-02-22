@@ -1,0 +1,12 @@
+{
+    "title": "SDXL-Lightning: Progressive Adversarial Diffusion Distillation",
+    "abstract": "arXiv:2402.13929v1 Announce Type: cross  Abstract: We propose a diffusion distillation method that achieves new state-of-the-art in one-step/few-step 1024px text-to-image generation based on SDXL. Our method combines progressive and adversarial distillation to achieve a balance between quality and mode coverage. In this paper, we discuss the theoretical analysis, discriminator design, model formulation, and training techniques. We open-source our distilled SDXL-Lightning models both as LoRA and full UNet weights.",
+    "link": "https://arxiv.org/abs/2402.13929",
+    "context": "Title: SDXL-Lightning: Progressive Adversarial Diffusion Distillation\nAbstract: arXiv:2402.13929v1 Announce Type: cross  Abstract: We propose a diffusion distillation method that achieves new state-of-the-art in one-step/few-step 1024px text-to-image generation based on SDXL. Our method combines progressive and adversarial distillation to achieve a balance between quality and mode coverage. In this paper, we discuss the theoretical analysis, discriminator design, model formulation, and training techniques. We open-source our distilled SDXL-Lightning models both as LoRA and full UNet weights.",
+    "path": "papers/24/02/2402.13929.json",
+    "total_tokens": 631,
+    "translated_title": "SDXL-Lightning: 渐进式对抗性扩散蒸馏",
+    "translated_abstract": "我们提出了一种扩散蒸馏方法，在基于SDXL的一步/几步1024像素文本到图像生成任务中实现了全新的最先进水平。我们的方法结合了渐进和对抗性蒸馏，实现了质量和模式覆盖之间的平衡。本文讨论了理论分析、判别器设计、模型公式和训练技巧。我们以LoRA和完整UNet权重的形式开源了我们的蒸馏SDXL-Lightning模型。",
+    "tldr": "提出了一种结合渐进和对抗性蒸馏的扩散蒸馏方法，在文本到图像生成任务中取得了新的最先进结果，并开源了相应模型。",
+    "en_tdlr": "Proposed a diffusion distillation method combining progressive and adversarial distillation to achieve state-of-the-art results in text-to-image generation task, and open-sourced the corresponding models."
+}

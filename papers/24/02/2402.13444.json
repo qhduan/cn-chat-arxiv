@@ -1,0 +1,12 @@
+{
+    "title": "The Effectiveness of Graph Contrastive Learning on Mathematical Information Retrieval",
+    "abstract": "arXiv:2402.13444v1 Announce Type: new  Abstract: This paper details an empirical investigation into using Graph Contrastive Learning (GCL) to generate mathematical equation representations, a critical aspect of Mathematical Information Retrieval (MIR). Our findings reveal that this simple approach consistently exceeds the performance of the current leading formula retrieval model, TangentCFT. To support ongoing research and development in this field, we have made our source code accessible to the public at https://github.com/WangPeiSyuan/GCL-Formula-Retrieval/.",
+    "link": "https://arxiv.org/abs/2402.13444",
+    "context": "Title: The Effectiveness of Graph Contrastive Learning on Mathematical Information Retrieval\nAbstract: arXiv:2402.13444v1 Announce Type: new  Abstract: This paper details an empirical investigation into using Graph Contrastive Learning (GCL) to generate mathematical equation representations, a critical aspect of Mathematical Information Retrieval (MIR). Our findings reveal that this simple approach consistently exceeds the performance of the current leading formula retrieval model, TangentCFT. To support ongoing research and development in this field, we have made our source code accessible to the public at https://github.com/WangPeiSyuan/GCL-Formula-Retrieval/.",
+    "path": "papers/24/02/2402.13444.json",
+    "total_tokens": 578,
+    "translated_title": "图对比学习在数学信息检索中的有效性研究",
+    "translated_abstract": "本文详细介绍了使用图对比学习（Graph Contrastive Learning，GCL）生成数学方程表示的实证调查，这是数学信息检索（MIR）的关键方面。我们的研究结果显示，这种简单方法始终优于当前领先的公式检索模型TangentCFT的性能。为支持这一领域的持续研究与发展，我们已将源代码公开在https://github.com/WangPeiSyuan/GCL-Formula-Retrieval/。",
+    "tldr": "图对比学习在数学信息检索中的应用表现优于当前主流模型TangentCFT。",
+    "en_tdlr": "Graph Contrastive Learning outperforms the current leading model TangentCFT in mathematical information retrieval."
+}

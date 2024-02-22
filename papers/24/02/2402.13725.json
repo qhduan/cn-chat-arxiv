@@ -1,0 +1,11 @@
+{
+    "title": "Sparse and Structured Hopfield Networks",
+    "abstract": "arXiv:2402.13725v1 Announce Type: new  Abstract: Modern Hopfield networks have enjoyed recent interest due to their connection to attention in transformers. Our paper provides a unified framework for sparse Hopfield networks by establishing a link with Fenchel-Young losses. The result is a new family of Hopfield-Fenchel-Young energies whose update rules are end-to-end differentiable sparse transformations. We reveal a connection between loss margins, sparsity, and exact memory retrieval. We further extend this framework to structured Hopfield networks via the SparseMAP transformation, which can retrieve pattern associations instead of a single pattern. Experiments on multiple instance learning and text rationalization demonstrate the usefulness of our approach.",
+    "link": "https://arxiv.org/abs/2402.13725",
+    "context": "Title: Sparse and Structured Hopfield Networks\nAbstract: arXiv:2402.13725v1 Announce Type: new  Abstract: Modern Hopfield networks have enjoyed recent interest due to their connection to attention in transformers. Our paper provides a unified framework for sparse Hopfield networks by establishing a link with Fenchel-Young losses. The result is a new family of Hopfield-Fenchel-Young energies whose update rules are end-to-end differentiable sparse transformations. We reveal a connection between loss margins, sparsity, and exact memory retrieval. We further extend this framework to structured Hopfield networks via the SparseMAP transformation, which can retrieve pattern associations instead of a single pattern. Experiments on multiple instance learning and text rationalization demonstrate the usefulness of our approach.",
+    "path": "papers/24/02/2402.13725.json",
+    "total_tokens": 819,
+    "translated_title": "稀疏结构化霍普菲尔德网络",
+    "translated_abstract": "现代霍普菲尔德网络由于其与变压器中的注意力的联系，近年来备受关注。我们的论文通过与Fenchel-Young损失建立联系，为稀疏霍普菲尔德网络提供了一个统一的框架。结果是一类新的霍普菲尔德-Fenchel-Young能量，其更新规则是端到端可微分的稀疏转换。我们揭示了损失边界、稀疏性和精确存储的关联。我们进一步通过SparseMAP转换将这一框架扩展到结构化霍普菲尔德网络，该网络可以检索模式关联而不是单个模式。在多实例学习和文本理性化实验中展示了我们方法的实用性。",
+    "tldr": "通过与Fenchel-Young损失建立链接，我们提出了一种新的稀疏霍普菲尔德网络框架，能够实现端到端可微分的稀疏转换，揭示了损失边界、稀疏性和精确存储之间的关联，同时通过SparseMAP转换将框架扩展到结构化霍普菲尔德网络。"
+}
