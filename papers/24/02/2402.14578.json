@@ -1,0 +1,12 @@
+{
+    "title": "Multivariate Online Linear Regression for Hierarchical Forecasting",
+    "abstract": "arXiv:2402.14578v1 Announce Type: cross  Abstract: In this paper, we consider a deterministic online linear regression model where we allow the responses to be multivariate. To address this problem, we introduce MultiVAW, a method that extends the well-known Vovk-Azoury-Warmuth algorithm to the multivariate setting, and show that it also enjoys logarithmic regret in time. We apply our results to the online hierarchical forecasting problem and recover an algorithm from this literature as a special case, allowing us to relax the hypotheses usually made for its analysis.",
+    "link": "https://arxiv.org/abs/2402.14578",
+    "context": "Title: Multivariate Online Linear Regression for Hierarchical Forecasting\nAbstract: arXiv:2402.14578v1 Announce Type: cross  Abstract: In this paper, we consider a deterministic online linear regression model where we allow the responses to be multivariate. To address this problem, we introduce MultiVAW, a method that extends the well-known Vovk-Azoury-Warmuth algorithm to the multivariate setting, and show that it also enjoys logarithmic regret in time. We apply our results to the online hierarchical forecasting problem and recover an algorithm from this literature as a special case, allowing us to relax the hypotheses usually made for its analysis.",
+    "path": "papers/24/02/2402.14578.json",
+    "total_tokens": 651,
+    "translated_title": "用于层次预测的多元在线线性回归",
+    "translated_abstract": "在本文中，我们考虑了一种确定性的在线多元线性回归模型，其中允许响应是多元的。为了解决这个问题，我们引入了MultiVAW，一种将著名的Vovk-Azoury-Warmuth算法扩展到多元设置的方法，并表明它在时间上也具有对数遗憾。我们将我们的结果应用于在线层次预测问题，并将这个文献中的一个算法作为一种特殊情况加以恢复，从而放宽了通常用于其分析的假设。",
+    "tldr": "提出了MultiVAW方法，将Vovk-Azoury-Warmuth算法扩展到多元设置，同时应用于在线层次预测问题，并且能够放宽传统分析所做的假设",
+    "en_tdlr": "Introducing the MultiVAW method to extend the Vovk-Azoury-Warmuth algorithm to multivariate settings, applied to online hierarchical forecasting and allowing relaxation of traditional analysis assumptions."
+}

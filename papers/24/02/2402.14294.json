@@ -1,0 +1,12 @@
+{
+    "title": "High-arity PAC learning via exchangeability",
+    "abstract": "arXiv:2402.14294v1 Announce Type: new  Abstract: We develop a theory of high-arity PAC learning, which is statistical learning in the presence of \"structured correlation\". In this theory, hypotheses are either graphs, hypergraphs or, more generally, structures in finite relational languages, and i.i.d. sampling is replaced by sampling an induced substructure, producing an exchangeable distribution. We prove a high-arity version of the fundamental theorem of statistical learning by characterizing high-arity (agnostic) PAC learnability in terms of finiteness of a purely combinatorial dimension and in terms of an appropriate version of uniform convergence.",
+    "link": "https://arxiv.org/abs/2402.14294",
+    "context": "Title: High-arity PAC learning via exchangeability\nAbstract: arXiv:2402.14294v1 Announce Type: new  Abstract: We develop a theory of high-arity PAC learning, which is statistical learning in the presence of \"structured correlation\". In this theory, hypotheses are either graphs, hypergraphs or, more generally, structures in finite relational languages, and i.i.d. sampling is replaced by sampling an induced substructure, producing an exchangeable distribution. We prove a high-arity version of the fundamental theorem of statistical learning by characterizing high-arity (agnostic) PAC learnability in terms of finiteness of a purely combinatorial dimension and in terms of an appropriate version of uniform convergence.",
+    "path": "papers/24/02/2402.14294.json",
+    "total_tokens": 653,
+    "translated_title": "通过可互换性实现高参数PAC学习",
+    "translated_abstract": "我们开发了一种高维PAC学习理论，即在“结构化相关性”存在的统计学习中。 在这个理论中，假设可以是图形、超图，或者更一般地说，是有限关系语言中的结构，并且i.i.d.抽样被抽样产生可互换分布的诱导子结构取代。我们证明了统计学习基本定理的高维版本，通过表征高维（agnostic）PAC可学性，以纯组合维度的有限性及适当版本的均匀收敛。",
+    "tldr": "提出高参数PAC学习理论，利用结构化相关性和交换分布取代i.i.d.抽样，证明了统计学习基本定理的高维版本。",
+    "en_tdlr": "Propose a theory of high-arity PAC learning utilizing structured correlation and exchangeable distribution instead of i.i.d. sampling, and prove a high-arity version of the fundamental theorem of statistical learning."
+}

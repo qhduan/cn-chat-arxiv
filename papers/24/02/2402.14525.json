@@ -1,0 +1,12 @@
+{
+    "title": "Kinematically Constrained Human-like Bimanual Robot-to-Human Handovers",
+    "abstract": "arXiv:2402.14525v1 Announce Type: cross  Abstract: Bimanual handovers are crucial for transferring large, deformable or delicate objects. This paper proposes a framework for generating kinematically constrained human-like bimanual robot motions to ensure seamless and natural robot-to-human object handovers. We use a Hidden Semi-Markov Model (HSMM) to reactively generate suitable response trajectories for a robot based on the observed human partner's motion. The trajectories are adapted with task space constraints to ensure accurate handovers. Results from a pilot study show that our approach is perceived as more human--like compared to a baseline Inverse Kinematics approach.",
+    "link": "https://arxiv.org/abs/2402.14525",
+    "context": "Title: Kinematically Constrained Human-like Bimanual Robot-to-Human Handovers\nAbstract: arXiv:2402.14525v1 Announce Type: cross  Abstract: Bimanual handovers are crucial for transferring large, deformable or delicate objects. This paper proposes a framework for generating kinematically constrained human-like bimanual robot motions to ensure seamless and natural robot-to-human object handovers. We use a Hidden Semi-Markov Model (HSMM) to reactively generate suitable response trajectories for a robot based on the observed human partner's motion. The trajectories are adapted with task space constraints to ensure accurate handovers. Results from a pilot study show that our approach is perceived as more human--like compared to a baseline Inverse Kinematics approach.",
+    "path": "papers/24/02/2402.14525.json",
+    "total_tokens": 701,
+    "translated_title": "受运动约束的类人双手机器人对人类的交接",
+    "translated_abstract": "双手交接对于传输大型、易变形或易损坏的物体至关重要。本文提出了一个框架，用于生成受运动约束的类人双手机器人动作，以确保机器人对人类物体交接的流畅和自然。我们使用隐马尔可夫模型（HSMM）根据观察到的人类伙伴的动作反应性地生成合适的响应轨迹。这些轨迹通过任务空间约束进行调整，以确保准确的交接。一项试点研究的结果显示，我们的方法被认为更类似于人类，与基线逆运动学方法相比。",
+    "tldr": "该论文提出了一个框架，利用隐马尔可夫模型生成受运动约束的类人双手机器人动作，以实现流畅自然的机器人对人类物体交接。",
+    "en_tdlr": "This paper proposes a framework for generating kinematically constrained human-like bimanual robot motions to ensure seamless and natural robot-to-human object handovers."
+}

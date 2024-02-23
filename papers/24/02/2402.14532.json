@@ -1,0 +1,12 @@
+{
+    "title": "A Framework for Variational Inference of Lightweight Bayesian Neural Networks with Heteroscedastic Uncertainties",
+    "abstract": "arXiv:2402.14532v1 Announce Type: new  Abstract: Obtaining heteroscedastic predictive uncertainties from a Bayesian Neural Network (BNN) is vital to many applications. Often, heteroscedastic aleatoric uncertainties are learned as outputs of the BNN in addition to the predictive means, however doing so may necessitate adding more learnable parameters to the network. In this work, we demonstrate that both the heteroscedastic aleatoric and epistemic variance can be embedded into the variances of learned BNN parameters, improving predictive performance for lightweight networks. By complementing this approach with a moment propagation approach to inference, we introduce a relatively simple framework for sampling-free variational inference suitable for lightweight BNNs.",
+    "link": "https://arxiv.org/abs/2402.14532",
+    "context": "Title: A Framework for Variational Inference of Lightweight Bayesian Neural Networks with Heteroscedastic Uncertainties\nAbstract: arXiv:2402.14532v1 Announce Type: new  Abstract: Obtaining heteroscedastic predictive uncertainties from a Bayesian Neural Network (BNN) is vital to many applications. Often, heteroscedastic aleatoric uncertainties are learned as outputs of the BNN in addition to the predictive means, however doing so may necessitate adding more learnable parameters to the network. In this work, we demonstrate that both the heteroscedastic aleatoric and epistemic variance can be embedded into the variances of learned BNN parameters, improving predictive performance for lightweight networks. By complementing this approach with a moment propagation approach to inference, we introduce a relatively simple framework for sampling-free variational inference suitable for lightweight BNNs.",
+    "path": "papers/24/02/2402.14532.json",
+    "total_tokens": 751,
+    "translated_title": "一种用于具有异方差不确定性的轻量级贝叶斯神经网络变分推断的框架",
+    "translated_abstract": "从贝叶斯神经网络（BNN）中获得异方差预测不确定性对许多应用至关重要。通常，除了预测均值外，异方差Aleatoric不确定性作为BNN的输出进行学习，然而这样做可能需要向网络中添加更多可学习参数。在这项工作中，我们展示了异方差Aleatoric和认知方差均可以嵌入到学习BNN参数的方差中，从而提高轻量级网络的预测性能。通过将这种方法与矩传播方法相结合，我们引入了一个适用于轻量级BNNs的无需取样的变分推断相对简单的框架。",
+    "tldr": "提出了一种新框架，通过将异方差Aleatoric和认知方差嵌入到学习BNN参数的方差中，改善了轻量级网络的预测性能。",
+    "en_tdlr": "Proposed a new framework that improves the predictive performance of lightweight networks by embedding both heteroscedastic aleatoric and epistemic variances into the variances of learned BNN parameters."
+}

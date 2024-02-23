@@ -1,0 +1,11 @@
+{
+    "title": "Learning causation event conjunction sequences",
+    "abstract": "arXiv:2402.14027v1 Announce Type: new  Abstract: This is an examination of some methods that learn causations in event sequences. A causation is defined as a conjunction of one or more cause events occurring in an arbitrary order, with possible intervening non-causal events, that lead to an effect. The methods include recurrent and non-recurrent artificial neural networks (ANNs), as well as a histogram-based algorithm. An attention recurrent ANN performed the best of the ANNs, while the histogram algorithm was significantly superior to all the ANNs.",
+    "link": "https://arxiv.org/abs/2402.14027",
+    "context": "Title: Learning causation event conjunction sequences\nAbstract: arXiv:2402.14027v1 Announce Type: new  Abstract: This is an examination of some methods that learn causations in event sequences. A causation is defined as a conjunction of one or more cause events occurring in an arbitrary order, with possible intervening non-causal events, that lead to an effect. The methods include recurrent and non-recurrent artificial neural networks (ANNs), as well as a histogram-based algorithm. An attention recurrent ANN performed the best of the ANNs, while the histogram algorithm was significantly superior to all the ANNs.",
+    "path": "papers/24/02/2402.14027.json",
+    "total_tokens": 599,
+    "translated_title": "学习因果事件组合序列",
+    "translated_abstract": "这篇论文探讨了一些学习事件序列中因果关系的方法。一个因果关系被定义为一个或多个因果事件的组合，以任意顺序发生，并可能有非因果事件介入，最终导致一个效果。这些方法包括循环和非循环的人工神经网络（ANNs），以及基于直方图的算法。其中，注意力循环ANN表现最佳，而直方图算法明显优于所有ANNs。",
+    "tldr": "这项研究探讨了学习事件序列中因果关系的方法，发现注意力循环ANN表现最佳，直方图算法明显优于其他ANNs。"
+}

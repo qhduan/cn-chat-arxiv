@@ -1,0 +1,12 @@
+{
+    "title": "Dependency Annotation of Ottoman Turkish with Multilingual BERT",
+    "abstract": "arXiv:2402.14743v1 Announce Type: new  Abstract: This study introduces a pretrained large language model-based annotation methodology for the first dependency treebank in Ottoman Turkish. Our experimental results show that, iteratively, i) pseudo-annotating data using a multilingual BERT-based parsing model, ii) manually correcting the pseudo-annotations, and iii) fine-tuning the parsing model with the corrected annotations, we speed up and simplify the challenging dependency annotation process. The resulting treebank, that will be a part of the Universal Dependencies (UD) project, will facilitate automated analysis of Ottoman Turkish documents, unlocking the linguistic richness embedded in this historical heritage.",
+    "link": "https://arxiv.org/abs/2402.14743",
+    "context": "Title: Dependency Annotation of Ottoman Turkish with Multilingual BERT\nAbstract: arXiv:2402.14743v1 Announce Type: new  Abstract: This study introduces a pretrained large language model-based annotation methodology for the first dependency treebank in Ottoman Turkish. Our experimental results show that, iteratively, i) pseudo-annotating data using a multilingual BERT-based parsing model, ii) manually correcting the pseudo-annotations, and iii) fine-tuning the parsing model with the corrected annotations, we speed up and simplify the challenging dependency annotation process. The resulting treebank, that will be a part of the Universal Dependencies (UD) project, will facilitate automated analysis of Ottoman Turkish documents, unlocking the linguistic richness embedded in this historical heritage.",
+    "path": "papers/24/02/2402.14743.json",
+    "total_tokens": 720,
+    "translated_title": "使用多语言BERT对奥斯曼土耳其语进行依存标注",
+    "translated_abstract": "这项研究介绍了一种基于预训练大型语言模型的标注方法，用于第一个奥斯曼土耳其语依存树库。我们的实验结果表明，通过迭代地i）使用基于多语言BERT的解析模型进行伪标注数据，ii）手动修正伪标注，以及iii）用修正的标注微调解析模型，我们加快并简化了具有挑战性的依存标注过程。最终产生的树库，将成为通用依存关系（UD）项目的一部分，将便利奥斯曼土耳其语文档的自动分析，揭示了这一历史遗产中蕴含的语言丰富性。",
+    "tldr": "使用多语言BERT对奥斯曼土耳其语进行依存标注，加速并简化依存标注过程，将产生的树库有助于奥斯曼土耳其语文档的自动分析。",
+    "en_tdlr": "Dependency annotation of Ottoman Turkish is accelerated and simplified using Multilingual BERT, resulting in a treebank that facilitates automated analysis of Ottoman Turkish documents."
+}

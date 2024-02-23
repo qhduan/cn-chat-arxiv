@@ -1,0 +1,11 @@
+{
+    "title": "Diversity-Aware Ensembling of Language Models Based on Topological Data Analysis",
+    "abstract": "arXiv:2402.14184v1 Announce Type: cross  Abstract: Ensembles are important tools for improving the performance of machine learning models. In cases related to natural language processing, ensembles boost the performance of a method due to multiple large models available in open source. However, existing approaches mostly rely on simple averaging of predictions by ensembles with equal weights for each model, ignoring differences in the quality and conformity of models. We propose to estimate weights for ensembles of NLP models using not only knowledge of their individual performance but also their similarity to each other. By adopting distance measures based on Topological Data Analysis (TDA), we improve our ensemble. The quality improves for both text classification accuracy and relevant uncertainty estimation.",
+    "link": "https://arxiv.org/abs/2402.14184",
+    "context": "Title: Diversity-Aware Ensembling of Language Models Based on Topological Data Analysis\nAbstract: arXiv:2402.14184v1 Announce Type: cross  Abstract: Ensembles are important tools for improving the performance of machine learning models. In cases related to natural language processing, ensembles boost the performance of a method due to multiple large models available in open source. However, existing approaches mostly rely on simple averaging of predictions by ensembles with equal weights for each model, ignoring differences in the quality and conformity of models. We propose to estimate weights for ensembles of NLP models using not only knowledge of their individual performance but also their similarity to each other. By adopting distance measures based on Topological Data Analysis (TDA), we improve our ensemble. The quality improves for both text classification accuracy and relevant uncertainty estimation.",
+    "path": "papers/24/02/2402.14184.json",
+    "total_tokens": 741,
+    "translated_title": "基于拓扑数据分析的语言模型多样性集成",
+    "translated_abstract": "集成是提高机器学习模型性能的重要工具。在与自然语言处理相关的情况下，由于开源中存在多个大型模型，集成有助于提升方法的性能。然而，现有方法主要依赖于对集成中每个模型的预测进行简单平均，对每个模型赋予相同权重，忽略了模型质量和一致性的差异。我们提出利用不仅单个模型表现知识，还使用它们之间的相似性来估计NLP模型集成的权重。通过采用基于拓扑数据分析（TDA）的距离度量，我们改进了我们的集成。文本分类准确性和相关不确定性估计的质量得到提高。",
+    "tldr": "基于拓扑数据分析的方法，通过估计NLP模型集成的权重，提高了集成模型的质量，提高了文本分类准确性和相关不确定性估计。"
+}

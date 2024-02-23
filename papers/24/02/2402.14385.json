@@ -1,0 +1,12 @@
+{
+    "title": "WindDragon: Enhancing wind power forecasting with Automated Deep Learning",
+    "abstract": "arXiv:2402.14385v1 Announce Type: new  Abstract: Achieving net zero carbon emissions by 2050 requires the integration of increasing amounts of wind power into power grids. This energy source poses a challenge to system operators due to its variability and uncertainty. Therefore, accurate forecasting of wind power is critical for grid operation and system balancing. This paper presents an innovative approach to short-term (1 to 6 hour horizon) windpower forecasting at a national level. The method leverages Automated Deep Learning combined with Numerical Weather Predictions wind speed maps to accurately forecast wind power.",
+    "link": "https://arxiv.org/abs/2402.14385",
+    "context": "Title: WindDragon: Enhancing wind power forecasting with Automated Deep Learning\nAbstract: arXiv:2402.14385v1 Announce Type: new  Abstract: Achieving net zero carbon emissions by 2050 requires the integration of increasing amounts of wind power into power grids. This energy source poses a challenge to system operators due to its variability and uncertainty. Therefore, accurate forecasting of wind power is critical for grid operation and system balancing. This paper presents an innovative approach to short-term (1 to 6 hour horizon) windpower forecasting at a national level. The method leverages Automated Deep Learning combined with Numerical Weather Predictions wind speed maps to accurately forecast wind power.",
+    "path": "papers/24/02/2402.14385.json",
+    "total_tokens": 659,
+    "translated_title": "使用自动深度学习改进风力发电预测的WindDragon系统",
+    "translated_abstract": "实现到2050年零碳排放的目标需要将大量风力纳入电网中。这种能源由于其变化性和不确定性对系统运营商构成挑战。因此，准确预测风力发电对于电网运营和系统平衡至关重要。本文提出了一种在全国范围内进行短期（1至6小时）风力预测的创新方法。该方法利用了自动深度学习结合数值天气预报风速图来准确预测风力发电。",
+    "tldr": "利用自动深度学习结合数值天气预报风速图，WindDragon系统在全国范围内实现了短期风力预测，为电网运营和系统平衡提供关键支持。",
+    "en_tdlr": "The WindDragon system achieves short-term wind power forecasting at a national level by leveraging Automated Deep Learning combined with Numerical Weather Predictions, providing crucial support for grid operation and system balancing."
+}

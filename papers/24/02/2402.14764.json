@@ -1,0 +1,12 @@
+{
+    "title": "A Combinatorial Central Limit Theorem for Stratified Randomization",
+    "abstract": "arXiv:2402.14764v1 Announce Type: cross  Abstract: This paper establishes a combinatorial central limit theorem for stratified randomization that holds under Lindeberg-type conditions and allows for a growing number of large and small strata. The result is then applied to derive the asymptotic distributions of two test statistics proposed in a finite population setting with randomly assigned instruments and a super population instrumental variables model, both having many strata.",
+    "link": "https://arxiv.org/abs/2402.14764",
+    "context": "Title: A Combinatorial Central Limit Theorem for Stratified Randomization\nAbstract: arXiv:2402.14764v1 Announce Type: cross  Abstract: This paper establishes a combinatorial central limit theorem for stratified randomization that holds under Lindeberg-type conditions and allows for a growing number of large and small strata. The result is then applied to derive the asymptotic distributions of two test statistics proposed in a finite population setting with randomly assigned instruments and a super population instrumental variables model, both having many strata.",
+    "path": "papers/24/02/2402.14764.json",
+    "total_tokens": 562,
+    "translated_title": "一种分层随机化的组合中心极限定理",
+    "translated_abstract": "本文建立了一种针对分层随机化的组合中心极限定理，适用于林德贝格类型条件下，并允许大大小分层的数量增长。然后将结果应用于推导两种在具有随机分配工具和超人群工具变量模型的有限人群环境中提出的检验统计量的渐近分布，这两种模型都有很多层。",
+    "tldr": "该论文建立了针对分层随机化的组合中心极限定理，并应用于推导两种测试统计的渐近分布。",
+    "en_tdlr": "This paper establishes a combinatorial central limit theorem for stratified randomization and applies it to derive the asymptotic distributions of two test statistics."
+}

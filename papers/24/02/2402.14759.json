@@ -1,0 +1,12 @@
+{
+    "title": "Generalising realisability in statistical learning theory under epistemic uncertainty",
+    "abstract": "arXiv:2402.14759v1 Announce Type: cross  Abstract: The purpose of this paper is to look into how central notions in statistical learning theory, such as realisability, generalise under the assumption that train and test distribution are issued from the same credal set, i.e., a convex set of probability distributions. This can be considered as a first step towards a more general treatment of statistical learning under epistemic uncertainty.",
+    "link": "https://arxiv.org/abs/2402.14759",
+    "context": "Title: Generalising realisability in statistical learning theory under epistemic uncertainty\nAbstract: arXiv:2402.14759v1 Announce Type: cross  Abstract: The purpose of this paper is to look into how central notions in statistical learning theory, such as realisability, generalise under the assumption that train and test distribution are issued from the same credal set, i.e., a convex set of probability distributions. This can be considered as a first step towards a more general treatment of statistical learning under epistemic uncertainty.",
+    "path": "papers/24/02/2402.14759.json",
+    "total_tokens": 579,
+    "translated_title": "在认知不确定性下推广统计学习理论中的可实现性",
+    "translated_abstract": "本文旨在探讨统计学习理论中的中心概念，如可实现性，在假设训练和测试分布源自相同置信集，即一个概率分布的凸集的情况下如何推广。这可以被认为是在认知不确定性下对统计学习进行更一般处理的第一步。",
+    "tldr": "统计学习理论中的中心概念在假设训练和测试分布源自相同置信集的情况下如何推广，是对统计学习在认知不确定性下更一般处理的首要步骤。",
+    "en_tdlr": "Generalizing central notions in statistical learning theory under the assumption that train and test distributions are issued from the same credal set is a primary step towards a more general treatment of statistical learning under epistemic uncertainty."
+}

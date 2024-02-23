@@ -1,0 +1,12 @@
+{
+    "title": "A Note on Optimal Liquidation with Linear Price Impact",
+    "abstract": "arXiv:2402.14100v1 Announce Type: new  Abstract: In this note we consider the maximization of the expected terminal wealth for the setup of quadratic transaction costs. First, we provide a very simple probabilistic solution to the problem. Although the problem was largely studied, as far as we know up to date this simple and probabilistic form of the solution has not appeared in the literature. Next, we apply the general result for the study of the case where the risky asset is given by a fractional Brownian Motion and the information flow of the investor can be diversified.",
+    "link": "https://arxiv.org/abs/2402.14100",
+    "context": "Title: A Note on Optimal Liquidation with Linear Price Impact\nAbstract: arXiv:2402.14100v1 Announce Type: new  Abstract: In this note we consider the maximization of the expected terminal wealth for the setup of quadratic transaction costs. First, we provide a very simple probabilistic solution to the problem. Although the problem was largely studied, as far as we know up to date this simple and probabilistic form of the solution has not appeared in the literature. Next, we apply the general result for the study of the case where the risky asset is given by a fractional Brownian Motion and the information flow of the investor can be diversified.",
+    "path": "papers/24/02/2402.14100.json",
+    "total_tokens": 674,
+    "translated_title": "有关线性价格冲击下的最优清算的注释",
+    "translated_abstract": "在这篇笔记中，我们考虑了在二次交易成本设定下最大化期望的终端财富。首先，我们为该问题提供了一个非常简单的概率解。尽管这个问题已经得到广泛研究，但据我们所知，这种简单和概率形式的解决方案在文献中尚未出现。接下来，我们应用了这一通用结果来研究风险资产由分数布朗运动给定且投资者的信息流可以进行多样化的情况。",
+    "tldr": "在二次交易成本设定下，提出了一个非常简单的概率解来最大化期望的终端财富，为分数布朗运动下投资者信息流多样化的情况提供了一般结果。",
+    "en_tdlr": "A simple probabilistic solution is introduced to maximize the expected terminal wealth under quadratic transaction costs, which has not been seen in the literature before, and a general result is applied to study the case where the risky asset is a fractional Brownian Motion with diversified information flow of the investor."
+}

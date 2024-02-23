@@ -1,0 +1,11 @@
+{
+    "title": "Zero-shot generalization across architectures for visual classification",
+    "abstract": "arXiv:2402.14095v1 Announce Type: cross  Abstract: Generalization to unseen data is a key desideratum for deep networks, but its relation to classification accuracy is unclear. Using a minimalist vision dataset and a measure of generalizability, we show that popular networks, from deep convolutional networks (CNNs) to transformers, vary in their power to extrapolate to unseen classes both across layers and across architectures. Accuracy is not a good predictor of generalizability, and generalization varies non-monotonically with layer depth. Code is available at https://github.com/dyballa/zero-shot-generalization.",
+    "link": "https://arxiv.org/abs/2402.14095",
+    "context": "Title: Zero-shot generalization across architectures for visual classification\nAbstract: arXiv:2402.14095v1 Announce Type: cross  Abstract: Generalization to unseen data is a key desideratum for deep networks, but its relation to classification accuracy is unclear. Using a minimalist vision dataset and a measure of generalizability, we show that popular networks, from deep convolutional networks (CNNs) to transformers, vary in their power to extrapolate to unseen classes both across layers and across architectures. Accuracy is not a good predictor of generalizability, and generalization varies non-monotonically with layer depth. Code is available at https://github.com/dyballa/zero-shot-generalization.",
+    "path": "papers/24/02/2402.14095.json",
+    "total_tokens": 684,
+    "translated_title": "跨架构零样本泛化的视觉分类",
+    "translated_abstract": "深度网络的一个关键优势是对未见数据的泛化能力，但其与分类准确性的关系尚不清楚。我们利用一种极简的视觉数据集和一种泛化度量，展示了从深度卷积网络（CNNs）到transformers的流行网络在通过层和架构泛化到未见类别方面的能力存在差异。准确性并不是泛化能力的良好预测因子，并且泛化能力随着层深度呈非单调变化。代码可在https://github.com/dyballa/zero-shot-generalization 找到。",
+    "tldr": "不同神经网络在跨架构和层间泛化到未知类别的能力存在差异，准确性并不是泛化能力的良好预测因子，泛化能力随着层深度呈非单调变化。"
+}

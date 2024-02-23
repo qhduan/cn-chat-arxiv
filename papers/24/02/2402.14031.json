@@ -1,0 +1,11 @@
+{
+    "title": "Autoencoder with Ordered Variance for Nonlinear Model Identification",
+    "abstract": "arXiv:2402.14031v1 Announce Type: cross  Abstract: This paper presents a novel autoencoder with ordered variance (AEO) in which the loss function is modified with a variance regularization term to enforce order in the latent space. Further, the autoencoder is modified using ResNets, which results in a ResNet AEO (RAEO). The paper also illustrates the effectiveness of AEO and RAEO in extracting nonlinear relationships among input variables in an unsupervised setting.",
+    "link": "https://arxiv.org/abs/2402.14031",
+    "context": "Title: Autoencoder with Ordered Variance for Nonlinear Model Identification\nAbstract: arXiv:2402.14031v1 Announce Type: cross  Abstract: This paper presents a novel autoencoder with ordered variance (AEO) in which the loss function is modified with a variance regularization term to enforce order in the latent space. Further, the autoencoder is modified using ResNets, which results in a ResNet AEO (RAEO). The paper also illustrates the effectiveness of AEO and RAEO in extracting nonlinear relationships among input variables in an unsupervised setting.",
+    "path": "papers/24/02/2402.14031.json",
+    "total_tokens": 601,
+    "translated_title": "具有有序方差的自编码器用于非线性模型识别",
+    "translated_abstract": "本文提出了一种新颖的具有有序方差（AEO）的自编码器，其中通过修改损失函数，添加方差正则化项以强制在潜空间中保持顺序。此外，通过使用ResNets对自编码器进行修改，得到了一个ResNet AEO（RAEO）。该论文还展示了AEO和RAEO在无监督设置下提取输入变量之间的非线性关系的有效性。",
+    "tldr": "提出了一种具有有序方差的自编码器，通过添加方差正则化项来保持潜空间的顺序，并且在无监督设置中展示了其在提取非线性关系方面的有效性。"
+}

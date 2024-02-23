@@ -1,0 +1,12 @@
+{
+    "title": "The Impact of Word Splitting on the Semantic Content of Contextualized Word Representations",
+    "abstract": "arXiv:2402.14616v1 Announce Type: new  Abstract: When deriving contextualized word representations from language models, a decision needs to be made on how to obtain one for out-of-vocabulary (OOV) words that are segmented into subwords. What is the best way to represent these words with a single vector, and are these representations of worse quality than those of in-vocabulary words? We carry out an intrinsic evaluation of embeddings from different models on semantic similarity tasks involving OOV words. Our analysis reveals, among other interesting findings, that the quality of representations of words that are split is often, but not always, worse than that of the embeddings of known words. Their similarity values, however, must be interpreted with caution.",
+    "link": "https://arxiv.org/abs/2402.14616",
+    "context": "Title: The Impact of Word Splitting on the Semantic Content of Contextualized Word Representations\nAbstract: arXiv:2402.14616v1 Announce Type: new  Abstract: When deriving contextualized word representations from language models, a decision needs to be made on how to obtain one for out-of-vocabulary (OOV) words that are segmented into subwords. What is the best way to represent these words with a single vector, and are these representations of worse quality than those of in-vocabulary words? We carry out an intrinsic evaluation of embeddings from different models on semantic similarity tasks involving OOV words. Our analysis reveals, among other interesting findings, that the quality of representations of words that are split is often, but not always, worse than that of the embeddings of known words. Their similarity values, however, must be interpreted with caution.",
+    "path": "papers/24/02/2402.14616.json",
+    "total_tokens": 749,
+    "translated_title": "单词分词对上下文化单词表示的语义内容的影响",
+    "translated_abstract": "从语言模型中获取上下文化的单词表示时，需要决定如何为被分成子词的字典外（OOV）单词获得表示。什么是表示这些单词的最佳方法，它们的质量是否比词典内单词的表示质量差？我们对来自不同模型的嵌入进行了内在评估，涉及涉及OOV单词的语义相似性任务。我们的分析揭示出，表示被分割的单词的质量通常，但并非始终比已知单词的嵌入的质量差。然而，它们的相似性值必须谨慎解释。",
+    "tldr": "单词分割对上下文化单词表示的语义内容有影响，研究发现被分割的单词表示质量通常比已知单词差，但相似性值需谨慎解释。",
+    "en_tdlr": "Word splitting has an impact on the semantic content of contextualized word representations, and the study found that the quality of representations for split words is often worse than that of known words, but similarity values need to be interpreted cautiously."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Interference Produces False-Positive Pricing Experiments",
+    "abstract": "arXiv:2402.14538v1 Announce Type: cross  Abstract: It is standard practice in online retail to run pricing experiments by randomizing at the article-level, i.e. by changing prices of different products to identify treatment effects. Due to customers' cross-price substitution behavior, such experiments suffer from interference bias: the observed difference between treatment groups in the experiment is typically significantly larger than the global effect that could be expected after a roll-out decision of the tested pricing policy. We show in simulations that such bias can be as large as 100%, and report experimental data implying bias of similar magnitude. Finally, we discuss approaches for de-biased pricing experiments, suggesting observational methods as a potentially attractive alternative to clustering.",
+    "link": "https://arxiv.org/abs/2402.14538",
+    "context": "Title: Interference Produces False-Positive Pricing Experiments\nAbstract: arXiv:2402.14538v1 Announce Type: cross  Abstract: It is standard practice in online retail to run pricing experiments by randomizing at the article-level, i.e. by changing prices of different products to identify treatment effects. Due to customers' cross-price substitution behavior, such experiments suffer from interference bias: the observed difference between treatment groups in the experiment is typically significantly larger than the global effect that could be expected after a roll-out decision of the tested pricing policy. We show in simulations that such bias can be as large as 100%, and report experimental data implying bias of similar magnitude. Finally, we discuss approaches for de-biased pricing experiments, suggesting observational methods as a potentially attractive alternative to clustering.",
+    "path": "papers/24/02/2402.14538.json",
+    "total_tokens": 695,
+    "translated_title": "干扰导致定价实验产生假阳性结果",
+    "translated_abstract": "在线零售中的标准做法是通过在文章级别随机化，即改变不同产品的价格来进行定价实验，以识别处理效应。由于顾客的交叉价格替代行为，这类实验遭受到干扰偏差：实验中处理组之间的观察到的差异通常明显大于在实施测试定价政策后可预期的全局效果。我们在模拟中展示，这种偏差可能高达100%，并报告了明显偏差的实验数据。最后，我们讨论了去偏差定价实验的方法，推荐观察方法作为聚类的一个潜在有吸引力的替代方案。",
+    "tldr": "定价实验中的干扰偏差导致观察到的处理组之间差异明显大于全局效果，可能高达100%。"
+}

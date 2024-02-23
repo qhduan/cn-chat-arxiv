@@ -1,0 +1,12 @@
+{
+    "title": "The Universe as a Learning System",
+    "abstract": "arXiv:2402.14423v1 Announce Type: cross  Abstract: At its microscopic level, the universe follows the laws of quantum mechanics. Focusing on the quantum trajectories of particles as followed from the hydrodynamical formulation of quantum mechanics, we propose that under general requirements, quantum systems follow a disrupted version of the gradient descent model, a basic machine learning algorithm, where the learning is distorted due to the self-organizing process of the quantum system. Such a learning process is possible only when we assume dissipation, i.e., that the quantum system is open. The learning parameter is the time increment of the process over the mass of the quantum particle, and a friction parameter determines the nonlinearity of the quantum system. We then provide an empirical demonstration of the proposed model.",
+    "link": "https://arxiv.org/abs/2402.14423",
+    "context": "Title: The Universe as a Learning System\nAbstract: arXiv:2402.14423v1 Announce Type: cross  Abstract: At its microscopic level, the universe follows the laws of quantum mechanics. Focusing on the quantum trajectories of particles as followed from the hydrodynamical formulation of quantum mechanics, we propose that under general requirements, quantum systems follow a disrupted version of the gradient descent model, a basic machine learning algorithm, where the learning is distorted due to the self-organizing process of the quantum system. Such a learning process is possible only when we assume dissipation, i.e., that the quantum system is open. The learning parameter is the time increment of the process over the mass of the quantum particle, and a friction parameter determines the nonlinearity of the quantum system. We then provide an empirical demonstration of the proposed model.",
+    "path": "papers/24/02/2402.14423.json",
+    "total_tokens": 716,
+    "translated_title": "宇宙作为一个学习系统",
+    "translated_abstract": "在其微观水平上，宇宙遵循量子力学定律。通过关注从量子力学的流体力学表述中跟随的粒子的量子轨迹，我们提出在一般要求下，量子系统遵循一种扰乱版本的梯度下降模型，这是一种基本的机器学习算法，在其中学习由于量子系统的自组织过程而失真。当我们假设耗散即量子系统是开放的时，这样的学习过程才有可能。学习参数是过程的时间增量除以量子粒子的质量，一个摩擦参数确定了量子系统的非线性。然后我们提供了所提出模型的实证演示。",
+    "tldr": "量子系统在一般要求下遵循一种扰乱版本的梯度下降模型，学习过程受到量子系统自组织的影响。",
+    "en_tdlr": "Quantum systems follow a disrupted version of the gradient descent model under general requirements, with the learning process distorted by the self-organizing process of the quantum system."
+}
